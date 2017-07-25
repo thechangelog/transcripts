@@ -2,8 +2,6 @@
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
-## License
-
 ## Conventions
 
 Parsed and html-ized versions of these transcripts live on [Changelog.com](https://changelog.com) alongside their respective episode, which is accomplished by following this naming convention:
@@ -21,3 +19,9 @@ Has its transcript in this repo at:
 ## Contributing
 
 ## Conduct
+
+[Contributor Code of Conduct](https://changelog.com/coc). By participating in this project you agree to abide by its terms.
+
+## License & Copyright
+
+[Creative Commons Attribution Share Alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Copyright Changelog Media LLC.
