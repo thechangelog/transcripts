@@ -8,13 +8,9 @@ Parsed and html-ized versions of these transcripts live on [Changelog.com](https
 
 `[podcast-slug]/[hyphenized-podcast-name]-[episode-slug].md`
 
-For example, the episode that lives at:
+For example, [the episode that lives at](https://changelog.com/rfc/13): `https://changelog.com/rfc/13`
 
-`https://changelog.com/rfc/13`
-
-Has its transcript in this repo at:
-
-`rfc/request-for-commits-13.md`
+Has [its transcript in this repo at](https://github.com/thechangelog/transcripts/rfc/request-for-commits-13.md): `rfc/request-for-commits-13.md`
 
 ## Contributing
 
