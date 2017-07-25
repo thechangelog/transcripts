@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** ... and Carlisia Campos.
 
-**Carlisia Campos:** Hi!
+**Carlisia Pinto:** Hi!
 
 **Erik St. Martin:** And our special guest today is Matt Holt, who we're gonna talk a bit about TLS, ACME and his own project, Caddy. How are you doing, Matt?
 
@@ -96,7 +96,7 @@ So again, its ability to render markdown as HTML on the fly is something that is
 
 **Erik St. Martin:** Yeah. Brian said it on the show a long time ago and someone claimed it as Ketelsen's Law.
 
-**Carlisia Campos:** I also said that the whole Internet is being rewritten in Go, so you can quote me on that \[laughs\].
+**Carlisia Pinto:** I also said that the whole Internet is being rewritten in Go, so you can quote me on that \[laughs\].
 
 **Erik St. Martin:** It seems that way. Have you looked at any stats to see how many websites are running Caddy these days?
 
@@ -116,7 +116,7 @@ So again, its ability to render markdown as HTML on the fly is something that is
 
 You know, it's interesting because I was talking to some people, and some people dispute the need for it, saying their application, in their use case they don't TLS at all. Others are saying that -- actually I was just talking to someone, a project or a team leader at a large organization here recently, and he was extremely skeptical of Let's Encrypt and their certificates. And so there seemed to be a lot of, I don't know, a lot of confusion about the topic as well that I think it would be good to clear up a few things.
 
-**Carlisia Campos:** But when you say skeptical in the case of this person, do you mean in terms of how much security it is actually adding, or what exactly?
+**Carlisia Pinto:** But when you say skeptical in the case of this person, do you mean in terms of how much security it is actually adding, or what exactly?
 
 **Erik St. Martin:** I think in this case you're referring to whether the Let's Encrypt organization can be kind of trusted with being a root CA. Is that what you're referring to, and not necessarily the security of TLS itself?
 
@@ -150,11 +150,11 @@ And then nonrepudiation is more complicated, but at a technical level it basical
 
 **Brian Ketelsen:** Use TLS.
 
-**Carlisia Campos:** I was gonna ask earlier, for the people who do want to use TLS, what are the things that people need to watch out for? I also wanted to ask you - and I'm trying not to jumble a lot of questions in one sentence - to talk about the ACME protocol. Because apparently Let's Encrypt is one entity, and there are others, like StartEncrypt, and they are not all the same and not all of them implement the ACME protocol. Is it relevant that these entities implement this protocol? Was is so special about this protocol?
+**Carlisia Pinto:** I was gonna ask earlier, for the people who do want to use TLS, what are the things that people need to watch out for? I also wanted to ask you - and I'm trying not to jumble a lot of questions in one sentence - to talk about the ACME protocol. Because apparently Let's Encrypt is one entity, and there are others, like StartEncrypt, and they are not all the same and not all of them implement the ACME protocol. Is it relevant that these entities implement this protocol? Was is so special about this protocol?
 
 **Matt Holt:** \[\\00:19:54.16\\\] Okay. Yeah, great question. The first question was what should you watch out for if you're using TLS - is that what you asked?
 
-**Carlisia Campos:** No. If you're getting a TLS from a particular CA - Let's Encrypt is one, but there are others... There are different places to get a certificate from.
+**Carlisia Pinto:** No. If you're getting a TLS from a particular CA - Let's Encrypt is one, but there are others... There are different places to get a certificate from.
 
 **Matt Holt:** When you get a certificate, cryptographically it doesn't matter what kind of certificate you get, as long as the certificate authority is trusted by your users. There are certain certificate authorities that I would favor more than others or not favor less than others, based on their business practices... You'll be the judge, right? So the whole point of getting a certificate is to have that third party validate you, to speak for you in that sense and to put out a good word. So you wanna choose a certificate authority that you also trust, and not just because you can buy certificates from them, but because you believe that they're doing business well and that their mission is good, and that you can trust who's on their team.
 
@@ -166,15 +166,15 @@ And then when they officially asked after that for the issuance of seven SHA1 si
 
 Anyway, so here you have the certificate authority whose practices are disputed. Now, in the end they issued the certificates, but they took out those questionable strings. I mean, you be the judge of who your certificate authority is, but cryptographically remember that no certificate is better than another. You can make your own certificate. The only difference is that your certificate isn't trusted by everyone out there.
 
-**Carlisia Campos:** \[\\00:23:50.06\\\] Exactly, but how... Let's say I'm a developer, and for some reason I don't wanna use Let's Encrypt. Let's say I don't wanna pay and they renew every three months, and I don't wanna go through the renewal process every three months.
+**Carlisia Pinto:** \[\\00:23:50.06\\\] Exactly, but how... Let's say I'm a developer, and for some reason I don't wanna use Let's Encrypt. Let's say I don't wanna pay and they renew every three months, and I don't wanna go through the renewal process every three months.
 
 **Matt Holt:** Why not?
 
-**Carlisia Campos:** Let's say I have reasons, let's say I at least consider other entity. How do I go about trusting an entity? What are the rules of thumb that I need to think about? Are there things that I can look at? Like, this company does this, or …
+**Carlisia Pinto:** Let's say I have reasons, let's say I at least consider other entity. How do I go about trusting an entity? What are the rules of thumb that I need to think about? Are there things that I can look at? Like, this company does this, or …
 
 **Matt Holt:** You know, the way I do it is I just follow the TLS news, TLS-related news. Certificate transparency logs is like a raw source of who is issuing what certificates. Whether a certificate authority even submits to certificate transparency is probably a good indicator. I just Google Security research. They do some really good investigations into certificate authorities and kind of a good alarm system there, and they'll publish a blog post when something alarming happens, especially related to Google services. I just follow the news, I suppose.
 
-**Carlisia Campos:** And how about the ACME protocol? I was thinking... It sounds like a big deal. I also noticed that not every company that issues certificates implements this protocol. What is it and does that even matter?
+**Carlisia Pinto:** And how about the ACME protocol? I was thinking... It sounds like a big deal. I also noticed that not every company that issues certificates implements this protocol. What is it and does that even matter?
 
 **Matt Holt:** Okay, yeah. The ACME protocol - this is a really big deal, because it automates away the job of certificate authorities. Now, we still need certificate authorities, but the manual process of interacting with them goes away. The ACME protocol stands for Automated Certificate Management Environment. This was developed after three years of research at the University of Michigan.
 
@@ -186,13 +186,13 @@ So this protocol allows them to verify your claim that you own a domain name and
 
 **Matt Holt:** So the certificate authority is actually irrelevant here. The fact that Let's Encrypt is the automated certificate authority is just a matter or circumstance right now. But any certificate authority can implement ACME. It's an open protocol, it's published. I see the link here in Slack for the spec. So I'm hoping that over the next few years, we'll see several ACME-capable certificate authorities appear. No reason to let Let's Encrypt be the only one, although they are doing a fantastic job pioneering it.
 
-**Carlisia Campos:** That's also important because, as I understand it, you can be a CA, but the rules of how you validate a certificate's authority, they are very loose, correct?
+**Carlisia Pinto:** That's also important because, as I understand it, you can be a CA, but the rules of how you validate a certificate's authority, they are very loose, correct?
 
 **Matt Holt:** Certificate authorities have pretty rigid guidelines. I don't know a whole lot of details, because I don't work for one. The ACME protocol is not any more lenient in issuing certificates than traditional certificate authorities.
 
 **Brian Ketelsen:** \[\\00:28:05.19\\\] It automates the process, really. If we think about the traditional approach of getting a certificate, they typically want you to add a DNS record to show that you have control of the authoritative zone, or they make you add something to the web page, or there's some sort of process to validate that you own a domain. A lot of those things can be automated, so is it so different than having a protocol? And I'm not familiar with exactly how the protocol works, how it vets who owns the domain.
 
-**Carlisia Campos:** Exactly. But this process of validation, if there is a protocol and the company is following that protocol, we know that that protocol validates in a secure way and we can trust it. I think it was a very good initiative, because you can have implemented a validation process that's either manual, or it can even be also automated, but not be very secure, and that's happened before.
+**Carlisia Pinto:** Exactly. But this process of validation, if there is a protocol and the company is following that protocol, we know that that protocol validates in a secure way and we can trust it. I think it was a very good initiative, because you can have implemented a validation process that's either manual, or it can even be also automated, but not be very secure, and that's happened before.
 
 **Matt Holt:** Right. In fact, we saw a similar problem with StartEncrypt, where they had an issue with their API, a security issue, and they don't use ACME, they do something else. So you have to be careful, it's not easy. ACME is pretty good, it relies on the integrity of DNS, just like traditional domain-validated certificates. I mean, DV certificates get their name because they are issued based on validating the domain name, ownership of the domain. So if your DNS is compromised, it's not any different now than it was before. So ACME, again, just speeds it up. You can see Caddy do it in 2 seconds. Your own Go programs can do it in 2 seconds using Go libraries like LEGO and \[unintelligible 00:30:05.14\].
 
@@ -254,7 +254,7 @@ Those are the three challenge types, and if you're having a hard time with Let's
 
 **Brian Ketelsen:** Yay! Retweet that, quote it.
 
-**Carlisia Campos:** You mentioned that there are Go libraries or a library that will help people put TLS on their servers - did you mention what it was?
+**Carlisia Pinto:** You mentioned that there are Go libraries or a library that will help people put TLS on their servers - did you mention what it was?
 
 **Matt Holt:** I didn't. I can do that, yeah. So the default of course is Go's built-in listen and serve TLS. The NET package also has a TLS listener that you can use. Now, that is if you have your certificates already; you just pass in the file name of certificates and it will load and use those. Now, your service may run for a year and then your certificate expires and you need to renew it and you have to reload your Go application.
 
@@ -272,27 +272,27 @@ Of course, Caddy does all of this too. All of its TLS features are available for
 
 **Matt Holt:** That's the Brazil one, right?
 
-**Carlisia Campos:** Yes.
+**Carlisia Pinto:** Yes.
 
 **Erik St. Martin:** Yes, it is.
 
-**Carlisia Campos:** But GothamGo is also in November …
+**Carlisia Pinto:** But GothamGo is also in November …
 
 **Erik St. Martin:** That's right.
 
-**Carlisia Campos:** November 18th.
+**Carlisia Pinto:** November 18th.
 
 **Erik St. Martin:** And then Brazil one is early November, I believe.
 
-**Carlisia Campos:** Yeah.
+**Carlisia Pinto:** Yeah.
 
 **Erik St. Martin:** So again, perfect timing for interesting Go news, right? GopherCon Brazil...
 
-**Carlisia Campos:** Exactly, I'm so excited about that. It's going to be the first GopherCon Brazil. The first GopherCon in the whole Latin America, so we're expecting it to be very, very exciting. It's gonna be on November 4th and 5th and Bill Kennedy is going to do a workshop on the 6th. Bill Kennedy is going to be a speaker. We also have Francesc as a speaker, and we have CFP, the CFP is open. We have submissions in English and in Portuguese. It's all on the website, the links are there. We - and when I say we, I'm helping out a little bit, so I feel very proud.
+**Carlisia Pinto:** Exactly, I'm so excited about that. It's going to be the first GopherCon Brazil. The first GopherCon in the whole Latin America, so we're expecting it to be very, very exciting. It's gonna be on November 4th and 5th and Bill Kennedy is going to do a workshop on the 6th. Bill Kennedy is going to be a speaker. We also have Francesc as a speaker, and we have CFP, the CFP is open. We have submissions in English and in Portuguese. It's all on the website, the links are there. We - and when I say we, I'm helping out a little bit, so I feel very proud.
 
 **Erik St. Martin:** You're joining the list of insane people who have decided to organize or co-organize a conference?
 
-**Carlisia Campos:** I don't know. I don't know how that happens. I'm trying not to …
+**Carlisia Pinto:** I don't know. I don't know how that happens. I'm trying not to …
 
 **Erik St. Martin:** We tried to warn you and you still did it.
 
@@ -300,17 +300,17 @@ Carlisia Campos:… I know, I know.
 
 **Brian Ketelsen:** We did. I swear, we pulled you aside at GopherCon and said, "Don't do it, don't do it!"
 
-**Carlisia Campos:** I know, I just can't help it. Everybody is so excited and doing such hard work. Sponsors are welcome. It's going to be a great way to reach awesome developers in Brazil. What else? We expect 300 people, we can even fit more than that, but we think 300 will be easy to get.
+**Carlisia Pinto:** I know, I just can't help it. Everybody is so excited and doing such hard work. Sponsors are welcome. It's going to be a great way to reach awesome developers in Brazil. What else? We expect 300 people, we can even fit more than that, but we think 300 will be easy to get.
 
 \[\\00:44:00.26\\\] CFP is open, the registration is open, the sponsorships are cheap, cheap, cheap, cheap, cheap, because it's a small conference and the exchange rate is crazy. So take a look at the prospectus. Support is so appreciated and needed, especially for this first one. We really wanna set the standard for it to be a yearly event and a technical landmark in the tech community in Brazil.
 
 **Erik St. Martin:** And for anybody in the US wanting to travel internationally, I did the math on what it cost to go and it's actually not bad. The ticket itself -- what was it Carlisia, was it like $30 US?
 
-**Carlisia Campos:** The ticket is like a meal price, it's very low. If you get in now it's $15, and if you get the day off, it will be $30.
+**Carlisia Pinto:** The ticket is like a meal price, it's very low. If you get in now it's $15, and if you get the day off, it will be $30.
 
 **Erik St. Martin:** And the hotel was I think $50 a night and then plus airfare. I mean, it's probably like $800 or something to fly from the US.
 
-**Carlisia Campos:** And the location is an amazing island in Brazil in November summer time. I cannot stress that enough, it's gonna be beautiful.
+**Carlisia Pinto:** And the location is an amazing island in Brazil in November summer time. I cannot stress that enough, it's gonna be beautiful.
 
 **Erik St. Martin:** Hey, somebody was asking for GopherCon Hawaii. This is probably as close, I mean …
 
@@ -318,7 +318,7 @@ Carlisia Campos:… I know, I know.
 
 **Erik St. Martin:** I know. I told Carlisia that I wanna go, but I'm also gonna submit a talk to \[unintelligible 00:45:31.11\] so I need to see how that goes first, because I think I would literally fly out the last day of the conference to make it over there.
 
-**Carlisia Campos:** Submit it to both. And I also wanted to say there will be simultaneous translations, so if you are an English speaker and you don't Portuguese, we are totally ready and expecting you.
+**Carlisia Pinto:** Submit it to both. And I also wanted to say there will be simultaneous translations, so if you are an English speaker and you don't Portuguese, we are totally ready and expecting you.
 
 **Brian Ketelsen:** That's awesome.
 
@@ -352,31 +352,31 @@ So it's a thin shell around sync.WaitGroup and the context package, but it's nic
 
 **Erik St. Martin:** I now intend to use it.
 
-**Carlisia Campos:** So I was gonna say about the functest one. Did somebody keep that on purpose?
+**Carlisia Pinto:** So I was gonna say about the functest one. Did somebody keep that on purpose?
 
 **Erik St. Martin:** No. What's the functest one?
 
 **Matt Holt:** I put that in there. I thought that was pretty cool, too.
 
-**Carlisia Campos:** Yeah, talk about it.
+**Carlisia Pinto:** Yeah, talk about it.
 
 **Matt Holt:** So it makes it easier -- well, less mundane to write table during test. This is by Brad Fitzpatrick. I haven't actually used it yet, but looking at it, my mouth is watering. I write table tests all the time.
 
 **Erik St. Martin:** Yes, so do I.
 
-**Carlisia Campos:** I agree, my mouth is watering too, because I'd love table tests. This makes it a little bit easier, just cleaner. I'm wondering, so if it's from Brad, it's sanctioned, we can use it? Like, no worries about having that extra dependency?
+**Carlisia Pinto:** I agree, my mouth is watering too, because I'd love table tests. This makes it a little bit easier, just cleaner. I'm wondering, so if it's from Brad, it's sanctioned, we can use it? Like, no worries about having that extra dependency?
 
 **Matt Holt:** Well, I mean I guess you weight the cost... But for little projects it seems like a really great thing at least.
 
 **Brian Ketelsen:** That's neat.
 
-**Carlisia Campos:** It looks pretty neat.
+**Carlisia Pinto:** It looks pretty neat.
 
 **Brian Ketelsen:** I haven't seen this yet, it's very sleek.
 
 **Erik St. Martin:** Now I'm gonna wanna play with this. Can we like pause the show for a few minutes so I can mess around with this?
 
-**Carlisia Campos:** I'm lucky I have a bunch of new tests to write, so I'm gonna probably using it.
+**Carlisia Pinto:** I'm lucky I have a bunch of new tests to write, so I'm gonna probably using it.
 
 **Brian Ketelsen:** So here's one I stumbled across on Twitter the other day, and I'm gonna butcher this poor guy's name, but github.com/matiasinsaurralde/go-dotnet. It is a Go wrapper for .NET that lets you do basically see Go-ish things using .NET assemblies. The first thing I thought was, you know, "Put down the crack pipe and walk away slowly", but I can see that there are definitely opportunities for the Go world to communicate with all of the amazing software that's in the .NET ecosystem, especially now that .NET is multiplatform. So a very interesting tool, I look forward to seeing that one mature.
 
@@ -406,41 +406,41 @@ So it's a thin shell around sync.WaitGroup and the context package, but it's nic
 
 **Erik St. Martin:** It is.
 
-**Carlisia Campos:** So let me clarify. I have been using Vim for the last few years and I've used just straight up Vin for a few months, but then I went back to \[unintelligible 00:54:34.27\], and that was Atom. And I broke up with Atom last night - and that's not Adam from the Changelog, it's Atom \[laughs\]. I just cannot hear the difference. So the editor Atom - him and I, last night, we split.
+**Carlisia Pinto:** So let me clarify. I have been using Vim for the last few years and I've used just straight up Vin for a few months, but then I went back to \[unintelligible 00:54:34.27\], and that was Atom. And I broke up with Atom last night - and that's not Adam from the Changelog, it's Atom \[laughs\]. I just cannot hear the difference. So the editor Atom - him and I, last night, we split.
 
 **Erik St. Martin:** Not the robot from Real Steel?
 
-**Carlisia Campos:** Also not that. \[laughter\] So basically, last night I broke up my Vim... I already was running Jessie's dot-vimrc.
+**Carlisia Pinto:** Also not that. \[laughter\] So basically, last night I broke up my Vim... I already was running Jessie's dot-vimrc.
 
 **Brian Ketelsen:** Jessie Frazelle?
 
-**Carlisia Campos:** Yes, I was running her dot-vimrc file and I went through \[unintelligible 00:55:17.22\] tutorial notes. He gave a tutorial at GopherCon. I was not there, but he wrote it out, it's all spelled out, it's beautiful. So I didn't even finish the whole thing, I just skipped around for the things I wanted the most and I'm gonna go back and do the rest.
+**Carlisia Pinto:** Yes, I was running her dot-vimrc file and I went through \[unintelligible 00:55:17.22\] tutorial notes. He gave a tutorial at GopherCon. I was not there, but he wrote it out, it's all spelled out, it's beautiful. So I didn't even finish the whole thing, I just skipped around for the things I wanted the most and I'm gonna go back and do the rest.
 
 So basically, he tells you exactly what to do. Jessie already had a bunch of the shortcuts that he was suggesting to do, so I was like, "Okay, cool, I'm just cruising through this", and now I've got vim-go going, I'm not going to go back to an IDE, and I'm very happy. And if you are interested, I suggest you take the jump into it, because it's very easy, relatively; if you know what things do, you just copy and paste stuff and done.
 
 **Erik St. Martin:** \[\\00:56:13.28\\\] I'd actually like to see those notes, because I feel I've been using Vim for entirely too long. I'm kind of like stuck in my ways and I feel like maybe I'm antiquated. I should look at Vim with fresh eyes again and change what plugins and things I use.
 
-**Carlisia Campos:** You definitely should. I always do that, every once in a while I go back and look. And that reminds me of another good point, that he's always releasing things. He's always batch releasing a bunch of Go features. I've talked to him this morning, and basically this is the rundown. He has a changelog file on the repo and there he will list things that will be released. And as long as your package is refreshed to whatever the latest master wrench, that is the released version.
+**Carlisia Pinto:** You definitely should. I always do that, every once in a while I go back and look. And that reminds me of another good point, that he's always releasing things. He's always batch releasing a bunch of Go features. I've talked to him this morning, and basically this is the rundown. He has a changelog file on the repo and there he will list things that will be released. And as long as your package is refreshed to whatever the latest master wrench, that is the released version.
 
 If you check the repo, you see that something new has been released, you refresh your master and then you run the Go install binary, because some of the stuff he does is related to Go tools, and some of the stuff is related to Vim. So you just update all of those things and you've got fresh new shiny features.
 
 **Brian Ketelsen:** Freshies.
 
-**Carlisia Campos:** And I also discovered that the right place to go talk about Vim-go is the Vim channel on GopherSlack.
+**Carlisia Pinto:** And I also discovered that the right place to go talk about Vim-go is the Vim channel on GopherSlack.
 
 **Brian Ketelsen:** Awesome, welcome to the fold.
 
-**Carlisia Campos:** \[laughs\] Thank you.
+**Carlisia Pinto:** \[laughs\] Thank you.
 
 **Erik St. Martin:** You can't leave now, otherwise Brian and I are gonna be upset.
 
-**Carlisia Campos:** No, it's pretty awesome. And I like it because everything is there, everything is released as one package, so there is no conflict. Because for me, I'm gonna work today and I can't have surprises, I can't update my IDE and have, "Oh, this thing is now conflicting and I don't have my shiny feature that I rely on so much." I can't have that, and that kept happening with Atom.
+**Carlisia Pinto:** No, it's pretty awesome. And I like it because everything is there, everything is released as one package, so there is no conflict. Because for me, I'm gonna work today and I can't have surprises, I can't update my IDE and have, "Oh, this thing is now conflicting and I don't have my shiny feature that I rely on so much." I can't have that, and that kept happening with Atom.
 
 So with vim, it's gonna be consistent. The way Vim-go is released is as a unit, so that doesn't happen. And now the advantage is I'm now working with Vagrant box on my machine, I can just upload that there and there I have my Vim, my IDEs, it's beautiful...
 
 **Brian Ketelsen:** Happiness.
 
-**Carlisia Campos:** Happiness.
+**Carlisia Pinto:** Happiness.
 
 **Erik St. Martin:** See, now we have our free software Friday, but I feel we've all given Vim and Vim-go love. Like does that count?
 
@@ -454,7 +454,7 @@ Today, I'm choosing Python, which is a language that I never personally use, but
 
 **Brian Ketelsen:** How about you Carlisia?
 
-**Carlisia Campos:** So I wanted to talk about one thing that I can't believe I haven't mentioned before, which is Exercism. It's double good, because it's open source, of course, and you can work on it if you're looking for an open source project to practice or help out. Also, you can use it to learn Go or get better at Go. And I also found out that there are a bunch of issues labeled "good first patch."
+**Carlisia Pinto:** So I wanted to talk about one thing that I can't believe I haven't mentioned before, which is Exercism. It's double good, because it's open source, of course, and you can work on it if you're looking for an open source project to practice or help out. Also, you can use it to learn Go or get better at Go. And I also found out that there are a bunch of issues labeled "good first patch."
 
 \[\\01:00:03.07\\\] So for people who are looking to contribute to open source doing Go and they don't have experience or they're shy or they want a beginner project, this is perfect. And you'll also be helping, you know, this project which also is kind of \[unintelligible 01:00:20.23\] because it teaches people. You're trying to learn and you're helping people teach Go, and of course other languages as well, that's why Exercism is extra super good.
 
@@ -486,11 +486,11 @@ I'll have to shoot out some links and stuff, but there's actually a lot of nice 
 
 **Brian Ketelsen:** So if you spend a lot of time in Wireshark, can you actually see the matrix? \[laughter\]
 
-**Carlisia Campos:** If you squint. \[laughter\]
+**Carlisia Pinto:** If you squint. \[laughter\]
 
 **Erik St. Martin:** \[\\01:03:55.18\\\] I use Wireshark enough to be familiar with it; I use Wireshark not enough for me to completely lose my mind and memorize all the filters and things like that. But I imagine a lot of people do spend a lot of time in there, especially if you're reverse engineering network protocols.
 
-**Carlisia Campos:** So I wanted to ask you, because I've looked at Wireshark before, it's definitely a tool that I need to master. If you have links to extra good tutorials... I've gone through the manual, it's always kind of dense. If so, drop those links there, please.
+**Carlisia Pinto:** So I wanted to ask you, because I've looked at Wireshark before, it's definitely a tool that I need to master. If you have links to extra good tutorials... I've gone through the manual, it's always kind of dense. If so, drop those links there, please.
 
 **Erik St. Martin:** Actually, there's two books I used to have on my bookshelf, and I actually lent them to a friend a couple of months ago. I'll send to you a link in the show notes. One of which is actually like walking through particularly troubleshooting scenarios. It's almost like example uses, rather than looking at documentation.
 
@@ -498,7 +498,7 @@ It's like, "Oh, well if you were trying to discover X, here's what you do", and 
 
 And TCP Dump is good to use too, because you won't always have GUI access to stuff, so you can use TCP Dump, you know, on the server from a container and things like that, and kind of poke around and filter and look for things going on. Wireshark also will read the TCP Dump logs too, so you can kind of run TCP Dump elsewhere and transfer over your pcap and look at it through Wireshark.
 
-**Carlisia Campos:** Awesome, awesome. Thank you.
+**Carlisia Pinto:** Awesome, awesome. Thank you.
 
 **Erik St. Martin:** So with that, I think that we are about out of time.
 
@@ -510,7 +510,7 @@ And TCP Dump is good to use too, because you won't always have GUI access to stu
 
 **Erik St. Martin:** I hope not.
 
-**Carlisia Campos:** We should do that, we should have a quiz.
+**Carlisia Pinto:** We should do that, we should have a quiz.
 
 **Erik St. Martin:** We should not have a quiz.
 
@@ -520,7 +520,7 @@ And TCP Dump is good to use too, because you won't always have GUI access to stu
 
 **Brian Ketelsen:** That's too bad.
 
-**Carlisia Campos:** He gave up on us.
+**Carlisia Pinto:** He gave up on us.
 
 **Erik St. Martin:** So I guess unfortunately, it is time to close out the show for this week. I definitely wanna thank everybody who is on the panel here today, Brian and Carlisia and especially Matt for coming on and talking with us about half of the protocols that we discussed today, and Caddy, which is a fantastic project. If you haven't used it yet, definitely go download it and give it a try.
 
@@ -534,6 +534,6 @@ With that, thanks everybody and goodbye.
 
 **Matt Holt:** Goodbye, yeah.
 
-**Carlisia Campos:** Thank you. Thank you, Matt, and goodbye everybody.
+**Carlisia Pinto:** Thank you. Thank you, Matt, and goodbye everybody.
 
 **Matt Holt:** Goodbye.

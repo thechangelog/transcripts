@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And Carlisia Campos...
 
-**Carlisia Campos:** Hi, everybody!
+**Carlisia Pinto:** Hi, everybody!
 
 **Erik St. Martin:** And our special guest today should not be unknown to anybody. He's really well-known in both the Go and Kubernetes community. Please welcome Kelsey Hightower.
 
@@ -58,13 +58,13 @@ The other benefit is most of the tools we rely on in Kubernetes - Etcd, Docker, 
 
 **Kelsey Hightower:** Yeah, Flannel... Pretty much every tool in the stack - Weave, Prometheus, InfluxDB... You name it; almost everything that's being used, even Fluentd, I believe. So it's across the board, we seem to just land on tools with little effort just happen to have a chance that they're written in Go. Vault from Hashicorp... It just goes on and on.
 
-**Carlisia Campos:** So are you using a plugin architecture for Kubernetes?
+**Carlisia Pinto:** So are you using a plugin architecture for Kubernetes?
 
 **Kelsey Hightower:** With Kubernetes we embrace the whole distributed system model. There are parts of Kubernetes that do have a plugin model. If you think about the agent that runs on the machines, there's somewhat of a plugin model there. We interface with different container runtimes - Rocket or Docker. On the API server, the plugin architecture is more of a contract with APIs. If you wanna build a custom scheduler, you don't have to recompile Kubernetes. There's no monolith binary there. You can just build another scheduler, and as long as you conform to the APIs and you follow along there, you become a first-class citizen in Kubernetes.
 
 We like to think of plugin models as two different things. Some things that are local to a particular component or service, you'll see more of an in-process, in co-base plugin model to extend the system, but we're moving more and more towards a model where all functionality extensions could be done with external binaries that interface via a well-defined API contract.
 
-**Carlisia Campos:** Gotcha.
+**Carlisia Pinto:** Gotcha.
 
 **Erik St. Martin:** Yeah, so when you look at Kubernetes from kind of like a generic perspective, there's resources that are managed, and then there's generally some sort of service or component that's responsible for watching, Etcd, for changes to that resource, and then reconciling the cluster - updating the pod or things like that, based on what it's observed as the changes.
 
@@ -126,7 +126,7 @@ And you could go to Kelsey's Learn Kubernetes The Hard Way repository... What's 
 
 **Brian Ketelsen:** Yeah, that would be the pefect place to get your feet wet with Kubernetes - Linode and Kelsey Hightower together.
 
-**Carlisia Campos:** \[00:23:47.20\\\] Kelsey, you were talking about something that the developers can do, and a lot of this is going over my head because for the last four years I've worked at companies of sort of mid-size, that had actually very good dev ops teams. As a developer, I always work closely with dev ops, however I don't get to play with these tools unless I do it on the side. I haven't done it on the side, so I can't even comment too much. So just to have an idea - yesterday was the first time that I used Docker, and I had a very strong motivation to do it because some stuff on my machine wasn't working and I didn't want to spend the time. I was like, "Okay, I'll figure out Docker. It can be a solution for me, it can be a solution for the other devs on my team if they wanna use it, so I'm not solving the problem just for me. Once I solve this, everybody can use it because it's replicable", and that's one of the beauties of using containers.
+**Carlisia Pinto:** \[00:23:47.20\\\] Kelsey, you were talking about something that the developers can do, and a lot of this is going over my head because for the last four years I've worked at companies of sort of mid-size, that had actually very good dev ops teams. As a developer, I always work closely with dev ops, however I don't get to play with these tools unless I do it on the side. I haven't done it on the side, so I can't even comment too much. So just to have an idea - yesterday was the first time that I used Docker, and I had a very strong motivation to do it because some stuff on my machine wasn't working and I didn't want to spend the time. I was like, "Okay, I'll figure out Docker. It can be a solution for me, it can be a solution for the other devs on my team if they wanna use it, so I'm not solving the problem just for me. Once I solve this, everybody can use it because it's replicable", and that's one of the beauties of using containers.
 
 Of course, once you have containers, you have to manage them. Now, from a perspective of a developer, what should we be looking at? Because what I'm thinking is, "Well, what if my dev ops team is not using Kubernetes, and what if that's not available to me?" How do I explore this in a way that I can maybe integrate it with my apps and make good use out of it? How would one approach it, or should we not - as developers who are not handling dev ops, is there nothing there for us? Or is there something there for us of benefit?
 
@@ -140,13 +140,13 @@ But in production, you have a lot more concerns than just starting and stopping 
 
 So if you think about it, Kubernetes takes a dev ops team and rolls it into a system, and in return gives you the developer an API that you can use to express what your application needs to run in production.
 
-**Carlisia Campos:** Very cool. I wanna go into this right now. \[laughs\]
+**Carlisia Pinto:** Very cool. I wanna go into this right now. \[laughs\]
 
 **Brian Ketelsen:** One of the things that I think the concepts behind Docker and Kubernetes bring, even if you don't use them, is the dev ops world and the Twelve-Factor application ideas are so important even if you're not using containers, but you get so much more benefit from them when you are. When you inject your configuration using environment variables, your life becomes drastically easier in Kubernetes and Docker. When you write all of your logs to standard out, your life is easier in Kubernetes and Docker. Those are all practices that you should be doing, whether or not you're using a container manager or a scheduler, and it makes your life drastically simpler when you are.
 
 Those are the kind of things that I think are complementary in the container and orchestration world, that we should be doing regardless.
 
-**Carlisia Campos:** Brian, how do we get the Twelve-Factor implementation of those ideas, facilitated by using something like Kubernetes?
+**Carlisia Pinto:** Brian, how do we get the Twelve-Factor implementation of those ideas, facilitated by using something like Kubernetes?
 
 **Erik St. Martin:** As an example, if you have a token that needs to be exchanged between two services or you wanna verify a TLS certificate, if they are passed into your application through an environment variable, then what happens is when you create your pod specification, your pod manifest to give to Kubernetes, you can map in a secret that's stored out in the cluster, which contains these things as environment variable into your pod.
 
@@ -254,7 +254,7 @@ I think that's why people love watching your talks - you take things that seem o
 
 **Kelsey Hightower:** Thank you. That's kind of the goal there. I try to spend as much time as possible not learning something, but understanding something. And if I feel that I get to the point of understanding that I can articulate it with a video game, then I know I think I've done my preparation job.
 
-**Carlisia Campos:** I wanna ask you Kelsey, maybe switching gears a little bit - where would you like to see Go going as a language as it matures, to support a project like Kubernetes which is obviously very sophisticated and very on the larger side of things? I'm interested to know where do you see you could get most support, from the community, from the language itself and from the ecosystem.
+**Carlisia Pinto:** I wanna ask you Kelsey, maybe switching gears a little bit - where would you like to see Go going as a language as it matures, to support a project like Kubernetes which is obviously very sophisticated and very on the larger side of things? I'm interested to know where do you see you could get most support, from the community, from the language itself and from the ecosystem.
 
 **Kelsey Hightower:** I think we've already had some good support so far. When we would run into issues where we had to stay stuck on, like Go 1.4 and some of the issues with 1.6, I think for us having the Go Team step in and use Kubernetes to actually help find and locate performance issues has been a huge help. People in the Go community just using the project and giving us feedback, or even looking at our code and saying, "Hey, there's a much better way of writing" some of the implementations that we've done in Kubernetes.
 
@@ -274,7 +274,7 @@ Were people able to execute the things that they wanted to do? How did Go help t
 
 **Kelsey Hightower:** Right.
 
-**Carlisia Campos:** Going back to something you said, Kelsey, I can only imagine the amount of best practices and good practices that you have acquired as a group of contributors to Kubernetes. Is there any chance we can get a compilation of these best practices? I think the community needs something like this. Everybody keeps asking and it's sort of a mystery. You know what it is when you see it, but it'd be nice to have some sort of list somewhere.
+**Carlisia Pinto:** Going back to something you said, Kelsey, I can only imagine the amount of best practices and good practices that you have acquired as a group of contributors to Kubernetes. Is there any chance we can get a compilation of these best practices? I think the community needs something like this. Everybody keeps asking and it's sort of a mystery. You know what it is when you see it, but it'd be nice to have some sort of list somewhere.
 
 **Kelsey Hightower:** I don't know if we necessarily have all the Go experts and all the best practices. I think the Kubernetes team will tell you first hand. They're learning as they go as well. If you about it, both projects aren't that old, so I think a lot of people that are contributing to Kubernetes, some of them learned Go for the very first time in order to contribute to Kubernetes. I think we're in a position of... We're kind of a microcosm of what's happening in the Go community itself. We have some long time Go users who contribute to the project, we have some people that are new to the language, but I think that kind of speaks to one of Go's strengths, that you can kind of jump into a very large Go codebase and contribute.
 
@@ -286,7 +286,7 @@ But also on the flipside, since Go is relatively young, we do have some best pra
 
 Keeping Kubernetes relatively stable - we have a good reputation for being stable; we're very liberal about introducing new features... So one best practice there would be liberal use of alpha. We are very clear in our API, "This is an alpha feature and is subject to change to API and implementation." Then it moves to beta, and that beta period could be months or even a year if necessary, and then it goes to stable. I think that's a really good practice that any large, well-adopted project, any size project should really consider this idea of propagating your APIs from alpha to stable, and then once they become v1 stable, you gotta own it and not change it and rip it off from other people; then they will actually start to trust your project and their APIs.
 
-**Carlisia Campos:** That is a beautiful concept. I was looking a little bit at your tests for the APIs, I think I saw a little of what you're talking about. It sounds to me it would be a beautiful way to just maintain integration tests, like you're saying, through production environment light in a cluster, and use that as your test phase.
+**Carlisia Pinto:** That is a beautiful concept. I was looking a little bit at your tests for the APIs, I think I saw a little of what you're talking about. It sounds to me it would be a beautiful way to just maintain integration tests, like you're saying, through production environment light in a cluster, and use that as your test phase.
 
 **Brian Ketelsen:** One of the training modules that I'm giving in the training class up in Boston next week is how to test real-world applications, and how real Go applications do testing, and there are probably four references to Kubernetes in there, because Kubernetes testing is just top notch. It's really impressive how well they've managed to test the really hard things that are in a distributed application. They're testing them in Kubernetes; you don't see broken Kubernetes releases. You don't. That's real-world best practices right there.
 
@@ -296,11 +296,11 @@ That's just kind of a thought, that while we desire to have these things be ther
 
 **Kelsey Hightower:** Right.
 
-**Carlisia Campos:** That's why it would be great for somebody to extract the examples of, "Well, these are the good things, the good ways that we found to write Go that turned out to be easy to work with." And like Katrina was saying in the last episode when she was here with us, she was saying that she found a bunch of reputable things that people were doing that were wrong and non-idiomatic; they were correct implementation-wise, in the sense that they would work - I'm talking about the Exercisms in Go... And she started doing a compilation of those things, so people know "Okay, these are not desirable ways to do it", which I think is also a good contrast.
+**Carlisia Pinto:** That's why it would be great for somebody to extract the examples of, "Well, these are the good things, the good ways that we found to write Go that turned out to be easy to work with." And like Katrina was saying in the last episode when she was here with us, she was saying that she found a bunch of reputable things that people were doing that were wrong and non-idiomatic; they were correct implementation-wise, in the sense that they would work - I'm talking about the Exercisms in Go... And she started doing a compilation of those things, so people know "Okay, these are not desirable ways to do it", which I think is also a good contrast.
 
 **Erik St. Martin:** I get what you're saying... Kind of look through and find the patterns and the anti-patterns and kind of document those so that people continue to do the good things, and at least stop doing the undesired things.
 
-**Carlisia Campos:** \[01:03:54.03\\\] Yeah. I'm thinking... Also, this would go for people who are veterans on the project, that have run into these things and could maybe contribute to the list.
+**Carlisia Pinto:** \[01:03:54.03\\\] Yeah. I'm thinking... Also, this would go for people who are veterans on the project, that have run into these things and could maybe contribute to the list.
 
 **Erik St. Martin:** You know what's really interesting though, outside of the implementation details, the way it's written in Go, what Kubernetes does have really good documentation on is the conventions of the design of the system. It's easy to find -- like, if you're implementing your own object to be represented in Kubernetes, these are the types of things you use. You expect fields here. You have a spec property on your resource and that represents the desired state, and you have a status property... And even though this is your own whiteboard and you can do whatever you want, there's still these conventions they like you to follow within, so that the system can work to your benefit, and there's lots of documentation on API conventions and things like that. I need to find the links to those.
 
@@ -312,11 +312,11 @@ And then in the same GitHub repo, a package profile. If you wanna profile your a
 
 **Erik St. Martin:** And how about you, Carlisia?
 
-**Carlisia Campos:** I am going to mention this project that I found this week, it's a compilation of blog posts called... Oh my gosh! Where is the link...?
+**Carlisia Pinto:** I am going to mention this project that I found this week, it's a compilation of blog posts called... Oh my gosh! Where is the link...?
 
 **Erik St. Martin:** Are you talking about the Golang Spec?
 
-**Carlisia Campos:** Yes, thank you. It's sort of like a walkthrough, but really short and I think really gentle too, on different aspects of the specification for Go. There are posts about initialization dependencies in Go, simple statement notion in Go, anatomy of a Go source file... So just little, short posts that give you boring sites, things that maybe you wouldn't think about, and I thought that was pretty cool. I see that is started in 30th July, and there have been a few posts, so I hope this person keeps going with it. I thought it was pretty cool.
+**Carlisia Pinto:** Yes, thank you. It's sort of like a walkthrough, but really short and I think really gentle too, on different aspects of the specification for Go. There are posts about initialization dependencies in Go, simple statement notion in Go, anatomy of a Go source file... So just little, short posts that give you boring sites, things that maybe you wouldn't think about, and I thought that was pretty cool. I see that is started in 30th July, and there have been a few posts, so I hope this person keeps going with it. I thought it was pretty cool.
 
 **Brian Ketelsen:** Nice. Erik?
 
@@ -352,11 +352,11 @@ I think now people are starting to really learn what this stuff is, and as much 
 
 **Brian Ketelsen:** Awesome, that's a good one.
 
-**Carlisia Campos:** Couldn't agree more. Who's got the idiomatic Go thing there?
+**Carlisia Pinto:** Couldn't agree more. Who's got the idiomatic Go thing there?
 
 **Erik St. Martin:** I'm sorry, was that the...?
 
-**Carlisia Campos:** In the Projects and News?
+**Carlisia Pinto:** In the Projects and News?
 
 **Kelsey Hightower:** Yeah, he just deep dives on what bytes are, and just different packages in the standard library, taking the time to detail how these things work. Not in a way that you would find in the standard library, but just in the way like from human to human communication. Like, "Here's this thing. Let's do a deep dive and give you some concrete things to think about", which has helped lots of people, even experienced Gophers like myself. When you read it from that angle, you start to get a better understanding of these things. So anytime people in our community can do that, it goes a long way - whether it's documentation for your library, or projects, examples on how to use it, or documenting someone else's library. Those contributions are greatly appreciated, even though they're not the thing that people import into their source code.
 
@@ -370,7 +370,7 @@ I think that we are 10 or 12 minutes overtime, which means we should probably cu
 
 **Brian Ketelsen:** Oh, man...!
 
-**Carlisia Campos:** \[laughs\] Another one...
+**Carlisia Pinto:** \[laughs\] Another one...
 
 **Erik St. Martin:** Well, you say you'll be traveling, right Brian? So you won't be at KubeCon.
 
@@ -392,4 +392,4 @@ A shout out to Carlisia's employer, Fastly, for the CDN which will be leveraging
 
 **Kelsey Hightower:** Thank you guys for having me!
 
-**Carlisia Campos:** Bye! This was awesome!
+**Carlisia Pinto:** Bye! This was awesome!

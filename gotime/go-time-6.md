@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And we have Carlisia Campos, say hello.
 
-**Carlisia Campos:** Glad to be here. Hi, everybody.
+**Carlisia Pinto:** Glad to be here. Hi, everybody.
 
 **Erik St. Martin:** And we have a special guest with us today. Bill Kennedy from Ardan Labs and GoBridge is here with us today. You might also know him from all of his workshops that he does in like the world now, right Bill?
 
@@ -50,7 +50,7 @@
 
 **Erik St. Martin:** \[\\00:03:54.17\\\] I’m interested to see though how they solve some of the drawbacks from using submodules, because a lot of people have reservations about using Git submodules. There’s kind of some inherent flaws with the way it works. Number one would be that you’re still relying on that repository to exist in the future. So if it went down or somebody decided to delete their project - because that totally never happens -
 
-**Carlisia Campos:** Or you can just rename it.
+**Carlisia Pinto:** Or you can just rename it.
 
 **Erik St. Martin:** ...you still wouldn’t have access to the code, but some of it also comes in the way submodules work. So if I pulled down your project and I needed to do a Git submodule update to update my local versions of those submodules, but if I don’t do that, I’m still running with my prior versions of those submodules. So by checking out your code it doesn’t move my submodules with it, so I can accidentally commit my older versions of your stuff, and those lines are really easy to mess. There’s a couple issues too with the way those things that are kind of merged too, so I’m interested to see how that's solved. Because people step on each other's submodules all the time. You see it where I pulled down your changes but I didn’t notice you had submodule updates, but then I commit my commit and my submodule versions are different than yours, and I just kind of step on yours. But I mean, these are problems that people were having years ago, so maybe there's some stuff in Git now that accounts for... Maybe the tool accounts for it a little bit too. I guess if you did it on like a commit hook or something, you could probably... But yeah, it’s interesting though... Submodules can be valuable and they can also be a pain, but I guess everything in programming can be, right?
 
@@ -60,13 +60,13 @@
 
 **Bill Kennedy:** Not me.
 
-**Carlisia Campos:** I have, I have. I did not run into any problem with it. Didn’t do anything crazy, just dropping a submodule there to access it.
+**Carlisia Pinto:** I have, I have. I did not run into any problem with it. Didn’t do anything crazy, just dropping a submodule there to access it.
 
 **Erik St. Martin:** Yeah, I’ll find a link surrounding some of those pitfalls, and we'll drop it in the show notes before this is released. This has been a couple of years, so I can't remember a name of one off the top of my head, but I know people were having a lot of weird issues. So anything else we want to talk about?
 
 **Brian Ketelsen:** That's all I had.
 
-**Carlisia Campos:** I don’t have anything.
+**Carlisia Pinto:** I don’t have anything.
 
 **Erik St. Martin:** I know what we do want to talk about.
 
@@ -76,7 +76,7 @@
 
 **Brian Ketelsen:** Yes!
 
-**Carlisia Campos:** First things first then - where did this name come from? We were talking about this earlier, but I wanna hear it from the horse's mouth.
+**Carlisia Pinto:** First things first then - where did this name come from? We were talking about this earlier, but I wanna hear it from the horse's mouth.
 
 **Bill Kennedy:** It didn’t come from me. This is a term that I think I got from Martin Thompson, who, if you watch any of his videos, he says he got it from a racecar driver.
 
@@ -94,7 +94,7 @@
 
 \[\\00:12:12.04\\\] So if we really want to give the hardware its best opportunity to take advantage of everything that's in there, we've got to be sympathetic with it. We've got to try to look at data in a way of, what are our working sets of data? Can we lay data out contiguously, work with data contiguously and can we create predictable access patterns around that, so the hardware can pick up on what are the next cache lines that are probably in play or will definitely be in play, and pull those into the caches before those next instructions need them.
 
-**Carlisia Campos:** How does somebody learn about what predictable access patterns look like? And what can they do to achieve that?
+**Carlisia Pinto:** How does somebody learn about what predictable access patterns look like? And what can they do to achieve that?
 
 **Bill Kennedy:** From today's perspective, it is the array that is really the most important data structure from the hardware perspective, because it is the array that allows you to create contiguous blocks of memory.
 
@@ -150,7 +150,7 @@ Because there's gonna be two areas where we gonna want to focus around performan
 
 These are two areas where I think we can focus just day one around performance when we’re not getting enough of it. But I tell everybody in my classes all the time, I go, "Don’t become paralyzed by all this stuff. You have to get whatever it is your working on, working first. And then you can profile and measure what’s working." The profiling tooling is amazing, right? You can see the low hanging fruit and then look at where you can spend real time. Where does your time need to be? And then these things kick in to help you understand, "How can I get some better performance here? Am I not being sympathetic with the caching system? Am I not being sympathetic with the operating system? Am I not being sympathetic with the garbage collector? It’s all just allocating too much stuff here when I don’t need to."
 
-**Carlisia Campos:** How about the data-oriented design? I understand we don’t want to maximize performance ahead of time before you know what you need to optimize and even where you need to optimize. How about the concept of data-oriented design?
+**Carlisia Pinto:** How about the data-oriented design? I understand we don’t want to maximize performance ahead of time before you know what you need to optimize and even where you need to optimize. How about the concept of data-oriented design?
 
 I can totally see you're designing your software in a way that is not data-oriented, and it's to make it work, and you might or might not have performance issues. But let’s say you do want to change things around. It seems to me if you didn’t start out thinking about data-oriented - that way of doing it - the changes would be so great, the redoing would be so great, versus if you had started out thinking in that way and should we be doing that... Not so much in terms of, "Let’s try to optimize performance too early", but are there payoffs of starting out with data-oriented design that go beyond performance. Maybe just code readability, maintainability, that kind of thing.
 
@@ -206,7 +206,7 @@ The next thing I tell people is if you’re working with data, try to work with 
 
 You know, the hardware today is designed to copy data really, really fast too. And so I tell people don’t panic because you think you’ve got a struct that’s too large to copy and now we're just gonna start sharing it everywhere. Until you do some performance profiling you don’t really know. So I’d rather the code be really reasonable around what we’re trying to solve and not start thinking about performance as you’re writing the code. We can always go on performance and profile it later. And then we just make the side that "You know what? Yeah, this was too large to make copies of based on how we're using it, and it was better performing and sharing this across these program boundaries."
 
-**Carlisia Campos:** What are some easy things to do, some easy rule of thumbs that can help people achieve this data-oriented design, thinking about grouping data that you’re going to use together in the same place? When you set out a program, how do you think about these things?
+**Carlisia Pinto:** What are some easy things to do, some easy rule of thumbs that can help people achieve this data-oriented design, thinking about grouping data that you’re going to use together in the same place? When you set out a program, how do you think about these things?
 
 **Bill Kennedy:** I really believe that every problem we solve is a data problem with some data manipulation. So the very first thing I’m doing on projects is I’m asking what is the data that we’re working with? What is my input? And what is it that we’re trying to achieve? Where are we trying to get to? Here’s my input, here's my output and then we could start thinking about how we’re gonna get from here to there. \[\\00:36:02.28\\\] And sometimes these are really complex problems. We've got to break them down into really, really small attainable smaller data transformation prompts, and for me when I start thinking about what does this data look like, it's some of these pure data, it's some of this more constructs around how we wanna do the manipulations, and then things like Eric and Brian were already saying - well, we know that this is gonna go across maybe multiple cache lines. Is it pretty large data? Can we group the working sets together? These types of things.
 
@@ -232,7 +232,7 @@ I don’t get completely paralyzed over it, because we have to solve the problem
 
 **Erik St. Martin:** I will even steal the real hat and give it to you. \[Laughter\]
 
-**Carlisia Campos:** If that's all you're missing.
+**Carlisia Pinto:** If that's all you're missing.
 
 **Erik St. Martin:** Oh, that’s priceless.
 
@@ -252,17 +252,17 @@ I don’t get completely paralyzed over it, because we have to solve the problem
 
 **Erik St. Martin:** One day.
 
-**Carlisia Campos:** Bill, do you wanna mention some other people that have already agreed to do a MeetUp?
+**Carlisia Pinto:** Bill, do you wanna mention some other people that have already agreed to do a MeetUp?
 
 **Bill Kennedy:** Yes, so we have... I hope I pronounce her last name right - Butow Tammy from Dropbox, we scheduled a talk, I haven’t published this yet. Kelsey Hightower has agreed to give a talk, too. So I’ll be publishing that very soon on the days that are there. And we've reached out to a few more people, I haven’t got confirmations yet, but hopefully they're gonna be coming in soon and we’ll publish that on our MeetUp page and we'll tweet that out. We're really like excited about that.
 
 **Brian Ketelsen:** That’s really awesome.
 
-**Carlisia Campos:** Yes, and I suggest people to sign up. There is a limit of a hundred attendees, so when you see the tweets going out, just go and sign up. You don’t wanna be left out.
+**Carlisia Pinto:** Yes, and I suggest people to sign up. There is a limit of a hundred attendees, so when you see the tweets going out, just go and sign up. You don’t wanna be left out.
 
 **Bill Kennedy:** And I have to say Compose.io is sponsoring our plus account that gives us the hundred people. We're really excited that they've stepped up and they're supporting the Go community.
 
-**Carlisia Campos:** Absolutely.
+**Carlisia Pinto:** Absolutely.
 
 **Brian Ketelsen:** That’s great. They're also GopherCon sponsors, so double props to them.
 
@@ -282,13 +282,13 @@ I don’t get completely paralyzed over it, because we have to solve the problem
 
 **Erik St. Martin:** \[\\00:44:19.06\\\] Excellent. Carlisia?
 
-**Carlisia Campos:** I wanna give a shout out to Joe Fitzgerald - I can’t pronounce it properly. He is the one who does all the Go packages for Atom and he does an amazing job. He has go-plus, autocomplete-go, go-metalinter, tester-go... A bunch of packages. I use them all the time. He’s amazing. He's frequently on the editor channel on Gophers.slack.com, and very helpful. I love the things that he's doing for Atom. Thank you, Joe.
+**Carlisia Pinto:** I wanna give a shout out to Joe Fitzgerald - I can’t pronounce it properly. He is the one who does all the Go packages for Atom and he does an amazing job. He has go-plus, autocomplete-go, go-metalinter, tester-go... A bunch of packages. I use them all the time. He’s amazing. He's frequently on the editor channel on Gophers.slack.com, and very helpful. I love the things that he's doing for Atom. Thank you, Joe.
 
 **Erik St. Martin:** I didn't even know there's an editor channel. These channels pop up too fast. It’s like, "Wait, there’s a channel for that? Is there a barbecue channel? There is now!"
 
 **Brian Ketelsen:** There is a barbecue channel. \[laughter\]
 
-**Carlisia Campos:** There is.
+**Carlisia Pinto:** There is.
 
 **Brian Ketelsen:** Yeah, that's a silly question.
 
@@ -332,6 +332,6 @@ I don’t know whether the newsletters sign up is on that site, but if it’s no
 
 **Brian Ketelsen:** Bye.
 
-**Carlisia Campos:** Goodbye.
+**Carlisia Pinto:** Goodbye.
 
 **Bill Kennedy:** Bye.

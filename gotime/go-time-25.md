@@ -1,6 +1,6 @@
 **Erik St. Martin:** We are back, it is episode \#25 of GoTime. Today's sponsors are Minio and Backtrace. On the panel today we have myself, Erik St. Martin, we also have Carlisia Campos - say hello, Carlisia.
 
-**Carlisia Campos:** Hi, everybody!
+**Carlisia Pinto:** Hi, everybody!
 
 **Erik St. Martin:** And Brian is off doing some training and stuff, so Scott Mansfield from Netflix has joined us today as part of the panel. Say hello, Scott.
 
@@ -50,7 +50,7 @@ So we built up a relatively good background of early Go tips and tricks, and we 
 
 **Peter Bourgon:** Super common, I think.
 
-**Carlisia Campos:** Yeah, I think so too. I don't know, when I came into Go things were already rolling, and a lot of people to give advice... So when I started to write channels the first time, I quickly got advice to just "use a mutex here, you don't need it." So I was like, "Oh, that's a thing..." and I looked into it and I'm like, "Okay, you can't use channels all the time."
+**Carlisia Pinto:** Yeah, I think so too. I don't know, when I came into Go things were already rolling, and a lot of people to give advice... So when I started to write channels the first time, I quickly got advice to just "use a mutex here, you don't need it." So I was like, "Oh, that's a thing..." and I looked into it and I'm like, "Okay, you can't use channels all the time."
 
 **Erik St. Martin:** Yeah, I would use them for state.
 
@@ -66,17 +66,17 @@ So we built up a relatively good background of early Go tips and tricks, and we 
 
 **Erik St. Martin:** Yeah, I'd agree, too. I always forget what the exact error is, but one of the confusing parts for me was in the early days with interfaces when you'd pass something as a value or a pointer, and it needed a pointer receiver. If it expected a pointer receiver on the method it would work, but if you passed a value it wouldn't work, and you'd get an error and there was always confusion about why that didn't work until I looked into actually how interfaces are built. When you look at them, there's actually a value inside of it, as well as a pointer to the type, so it's like "Well, it can make a pointer to the value, but it can't make a value from the pointer, or vice versa." That used to mess with me all the time, because I'd be like, "Why does it work one way but not the other?"
 
-**Carlisia Campos:** \[\\00:08:07.20\\\] Somebody gave a talk about that one at the Go Language team members \[unintelligible 00:08:10.22\] and there was a good explanation. But yeah, it's not easy; you don't find this information right away when you start learning. Even now...
+**Carlisia Pinto:** \[\\00:08:07.20\\\] Somebody gave a talk about that one at the Go Language team members \[unintelligible 00:08:10.22\] and there was a good explanation. But yeah, it's not easy; you don't find this information right away when you start learning. Even now...
 
 **Erik St. Martin:** Well, I guess it exists in the form of the language spec, right? That's actually a really good place, in the Memory Model. I remember reading the Memory Model, and that started solidifying a lot of concepts to me, about ordering, how the compiler can actually reorder your statements, so you can't actually guarantee when this is run concurrently that these things are gonna happen before each other just because you put them in the code that way, and that really started helping with my knowledge. But I think you have to have some experience. You kind of have to find your way around first, and develop some battle scars and then read it, because then you have something to relate it to.
 
-**Carlisia Campos:** Yeah.
+**Carlisia Pinto:** Yeah.
 
 **Peter Bourgon:** Totally.
 
 **Erik St. Martin:** If you just read the language spec and the Memory Model you're like, "Okay", and then you're gonna still make the same mistakes.
 
-**Carlisia Campos:** Yeah, I agree.
+**Carlisia Pinto:** Yeah, I agree.
 
 **Peter Bourgon:** This is a trap I find myself falling into whenever I'm trying to teach newcomers, or give advice sometimes. Everything I learned was a function of my doing it the wrong way once, and then kind of realizing it's the wrong way. It's a very didactic process, and I think most people probably work in a similar way, so it's actually not very helpful to just tell them, "This is the right way, you're doing it wrong." You have to kind of show them what the problems are, and let them feel the pain, so to speak.
 
@@ -84,7 +84,7 @@ So we built up a relatively good background of early Go tips and tricks, and we 
 
 **Erik St. Martin:** Yeah, there's that balance... Like, how do you get enough knowledge to not be totally falling on your face, but be developing enough battle scars from doing it where you can kind of start to understand what's going on.
 
-**Carlisia Campos:** And talking about learning and teaching, Peter, I see that you are now giving workshops. Do you plan to continue? How's that going?
+**Carlisia Pinto:** And talking about learning and teaching, Peter, I see that you are now giving workshops. Do you plan to continue? How's that going?
 
 **Peter Bourgon:** Yeah, I guess there's a couple of topics that are sort of in my wheelhouse and it depends on the audience. I've given basically Go training from zero, and kind of a tour of the language, and it gets the class up to reasonably sophisticated Go programming. In that course, I just walk through all the language features and do some tour exercises, and step through docs like the Memory Model and Effective Go, and explain how all the orthogonal pieces interact.
 
@@ -92,21 +92,21 @@ So I've done that a couple of times in different setting and different lengths..
 
 These are quite popular workshops, especially at typical conferences like GoTo or QCon, or some that I've done lately.
 
-**Carlisia Campos:** \[\\00:12:10.24\\\] I love that idea. I wish you would maybe write about it. Is there a book in the works maybe? \[laughter\]
+**Carlisia Pinto:** \[\\00:12:10.24\\\] I love that idea. I wish you would maybe write about it. Is there a book in the works maybe? \[laughter\]
 
 **Peter Bourgon:** A book, good lord...
 
 **Erik St. Martin:** You're putting work on his plate for him. You're committed now.
 
-**Carlisia Campos:** I'm delegating. \[laughter\]
+**Carlisia Pinto:** I'm delegating. \[laughter\]
 
 **Peter Bourgon:** Goodness...
 
-**Carlisia Campos:** No, it really is to me I think very useful to have an approach to teaching the language that highlights its best features. There are many ways of teaching things, and I think people make use of different ways in this way of teaching that -- I don't remember exactly how you said it, but presenting the language in a way that it's a... How did you say it, in a service-oriented way?
+**Carlisia Pinto:** No, it really is to me I think very useful to have an approach to teaching the language that highlights its best features. There are many ways of teaching things, and I think people make use of different ways in this way of teaching that -- I don't remember exactly how you said it, but presenting the language in a way that it's a... How did you say it, in a service-oriented way?
 
 **Peter Bourgon:** Through the lens of servers, yeah.
 
-**Carlisia Campos:** Right, because it's so much of what we do, and especially what we do with Go, so it's super useful.
+**Carlisia Pinto:** Right, because it's so much of what we do, and especially what we do with Go, so it's super useful.
 
 **Peter Bourgon:** Yeah, I totally agree.
 
@@ -122,7 +122,7 @@ That's sort of the soft side, it's why I love microservices. They make me confid
 
 **Erik St. Martin:** It's your floor to take.
 
-**Carlisia Campos:** That was a great explanation, and I love this idea of the ideal size of a codebase being whatever amount that you can hold that in your head as a mental model. This has been coming up over and over again when we talk about microservices.
+**Carlisia Pinto:** That was a great explanation, and I love this idea of the ideal size of a codebase being whatever amount that you can hold that in your head as a mental model. This has been coming up over and over again when we talk about microservices.
 
 **Erik St. Martin:** I think it applies to a lot of things though, too. Recently I was talking to some people at KubeCon last week or the week before, and I used almost the same premise for whether or not you should use something like Kubernetes like an orchestration platform, and my example was if you can't name me all of your hostnames, and you can't say like ChicagoWeb01-30, that doesn't count... But if you can't reasonably name off all of your host, you probably shouldn't be managing them individually. You should be doing something to orchestrate those and provision them and manage them at a higher level of abstraction. I think that that's the reasonable thing...
 
@@ -138,19 +138,19 @@ Now I guess we're getting a bit to the technical side, and this is a point that 
 
 When I give my little workshops, I say "If you're five engineers or fewer, there's no reason that you should be running a microservice architecture." You're just not having any of the problems that microservices solve. This architecture you describe is a great alternative, and one that you can kind of adapt to microservices as you grow and become more successful.
 
-**Carlisia Campos:** Yeah, I saw Peter's talk at Golang UK and he was very discouraging of using microservices. \[laughter\] And I really liked it because he went through all the pain points, some obvious, some not so obvious - obviously, he has a ton of experience - and he went through many pain points that you can go through by having a microservice if you are not really properly set up for it, like he was saying. If you are super small, you don't need to divide your codebase in many microservices.
+**Carlisia Pinto:** Yeah, I saw Peter's talk at Golang UK and he was very discouraging of using microservices. \[laughter\] And I really liked it because he went through all the pain points, some obvious, some not so obvious - obviously, he has a ton of experience - and he went through many pain points that you can go through by having a microservice if you are not really properly set up for it, like he was saying. If you are super small, you don't need to divide your codebase in many microservices.
 
 But at the same time, Scott's remark is to the point I think, because as I have been learning more about packaging in Go in the recent months, Go makes it so easy to really contain your code through the use of packages. I wonder if for Go the \[unintelligible 00:21:58.10\] would be different as far as a feasible size for a codebase.
 
 **Peter Bourgon:** Do you think it would be bigger or smaller, Carlisia?
 
-**Carlisia Campos:** I'm wondering if it could not be bigger and still be very functional, if you use the features of the packaging; now there's that internal feature which allows you to hide even more things. And there are companies using monolithical apps, like Digital Ocean, and there's another one that I forgot now.
+**Carlisia Pinto:** I'm wondering if it could not be bigger and still be very functional, if you use the features of the packaging; now there's that internal feature which allows you to hide even more things. And there are companies using monolithical apps, like Digital Ocean, and there's another one that I forgot now.
 
 **Peter Bourgon:** Yeah, I think it's completely viable. I guess I don't have the stamina to give my workshop again here, but there's so many problems that come when you're splitting your business domain along process boundaries. If you can avoid doing that, if you can split it on package boundaries and then wire things up internally with some interprocess or intraprocess communication layer rather than JSON or HTTP or whatever... And package boundaries make a good proxy for that sort of thing. Although then you start entering this still quite confusing for me domain of how do you structure your repo? How do you decide where to cut up your packages?
 
 Ben Johnson has an opinion about this, but I've tried to use it and it often fails for me. Maybe I'm \[unintelligible 00:23:26.09\] it wrong. There's lots of opinions about this sort of thing; I'd love to hold a panel about that as well.
 
-**Carlisia Campos:** I would, too. I'm super interested in that. By the way, the other company I was thinking about was Google. Google has a single repo. But yeah, Ben Johnson was talking about that, Bill Kennedy promised that he's going to start writing about that as well... I'm working on a talk and a blog post about packaging, although mine's going to be more like entry-level than one of you guys. But personally, I can't even imagine working with a monorepo. Just the whole "deploy everything everytime, run every single test everytime or at least once in a while..." I can't imagine.
+**Carlisia Pinto:** I would, too. I'm super interested in that. By the way, the other company I was thinking about was Google. Google has a single repo. But yeah, Ben Johnson was talking about that, Bill Kennedy promised that he's going to start writing about that as well... I'm working on a talk and a blog post about packaging, although mine's going to be more like entry-level than one of you guys. But personally, I can't even imagine working with a monorepo. Just the whole "deploy everything everytime, run every single test everytime or at least once in a while..." I can't imagine.
 
 **Erik St. Martin:** \[\\00:24:19.01\\\] It depends on how coupled your repos are. If you have multiple repos that are highly coupled to each other, then the testing story and deployment story gets more complicated with that, too.
 
@@ -160,7 +160,7 @@ It's really hard though, because anybody who's worked for companies large and sm
 
 I haven't seen Ben Johnson's post on what he's recommending there... At least I don't remember it. It might be my seven-day window thing. I need to look at that. Is that on his Medium blog?
 
-**Carlisia Campos:** Yeah, he has a blog post and he has a repo with an example. And actually, if you look through the pull request, there's quite an instructional conversation between Peter and Ben going over the tradeoffs, it's very interesting. One thing's for sure - a monorepo would make it easy for dependencies, so maybe we should talk about that.
+**Carlisia Pinto:** Yeah, he has a blog post and he has a repo with an example. And actually, if you look through the pull request, there's quite an instructional conversation between Peter and Ben going over the tradeoffs, it's very interesting. One thing's for sure - a monorepo would make it easy for dependencies, so maybe we should talk about that.
 
 **Erik St. Martin:** Yeah, so I wanna get into dependencies and I wanna get into Go Kit a bit. But before we do that, it is time for our first sponsor break.
 
@@ -168,15 +168,15 @@ I haven't seen Ben Johnson's post on what he's recommending there... At least I 
 
 **Erik St. Martin:** Okay, moving on. Carlisia, you wanted to talk about...
 
-**Carlisia Campos:** Dependency management.
+**Carlisia Pinto:** Dependency management.
 
 **Erik St. Martin:** Dependency management!
 
-**Carlisia Campos:** That little thing... \[laughter\]
+**Carlisia Pinto:** That little thing... \[laughter\]
 
 **Erik St. Martin:** That tiny little problem nobody has, right?
 
-**Carlisia Campos:** Yeah.
+**Carlisia Pinto:** Yeah.
 
 **Erik St. Martin:** Peter, I know you have a lot of views on this, and some of the tooling and how things have evolved, and you've kind of followed this all the way through its course, which has been "As long as it's solved..."
 
@@ -212,27 +212,27 @@ So it's a total mess. And while you can always find a path through the storm and
 
 This is the committee that I was driving as of a couple months ago, and that's what we're in the process of doing right now, to kind of eliminate this heterogeneity in this space, and hopefully help a lot of people.
 
-**Carlisia Campos:** So just to get things clear, you're not the head of the committee anymore?
+**Carlisia Pinto:** So just to get things clear, you're not the head of the committee anymore?
 
 **Peter Bourgon:** Right, so I was never on the committee... Basically, what happened was I had a number of weeks at my day job where I was working with people trying to get a handle on the dependency management story, and was being confronted with all these tools and workflows, and they were broken for our use cases in subtle ways, and we filed bugs... People were just getting pissed off, frankly, and many of them were - and I saw this also in the broader community - kind of saying, "You know what? I'm not interested in programming Go anymore if this is the way it's gonna be." And this was really super sad for me.
 
 So I just kind of said, "Forget it... I think I have enough political capital in the Go community that I can kind of anoint myself the person who's gonna figure this out, but I don't have enough political or technical know-how to actually do it myself." So I said, "I'm gonna be sort of the communications director, or the PR person, and I'm gonna organize a committee of people whom everyone trusts, hopefully, and they're gonna figure it out. I'm just gonna be the organizational person." I'm gonna run interference and try to be a firewall and help them achieve that goal. So yeah, I'm not on the committee, I'm just figuring out all the logistics, I guess.
 
-**Carlisia Campos:** \[\\00:36:08.27\\\] Alright, so you're still heading it, though.
+**Carlisia Pinto:** \[\\00:36:08.27\\\] Alright, so you're still heading it, though.
 
 **Peter Bourgon:** Yeah, I guess.
 
-**Carlisia Campos:** You're heading the initiative.
+**Carlisia Pinto:** You're heading the initiative.
 
 **Peter Bourgon:** Yeah, you could say that.
 
-**Carlisia Campos:** And what is the state of the prototype that's being built? Has it been made open?
+**Carlisia Pinto:** And what is the state of the prototype that's being built? Has it been made open?
 
 **Peter Bourgon:** Not yet. The workflow was we first in a Google Doc describe what I want the process to be, we took some feedback on that (it was great), then we picked the committee, and it actually ended up being a core committee of Andrew Durant, Jessie Frazelle, Ed Miller and Sam Boyer, whom you know from the extremely lengthy "So You Wanna Build A Package Manager" Medium article; I think the estimated reading time was like 45 minutes, or something like this. Super, super, excellent article.
 
 So they're the core committee, and then we have this sort of trusted advisory group of the authors and maintainers of the top four tools at the moment, which are Matt Farina of Glide, Daniel Theophanes (I'm sure I'm butchering that name, I'm sorry Daniel), he's the Govendor chap, Dave Cheney of gb, which is kind of the odd duck in the group, and then Steve Francia, who is kind of like a Go liaison now at Google, and he's been doing a lot of work in this space, as well. So it's these people that are sort of driving it, and to answer your question - the implementation is currently under way. We went through a long period of building a spec for the thing, got some feedback on that and the implementation's now basically being implemented... A prototype implementation by this core committee. That's not open yet, because we wanna have something at least minimally usable before we make the repo public.
 
-**Carlisia Campos:** Gotcha.
+**Carlisia Pinto:** Gotcha.
 
 **Erik St. Martin:** And to clarify - this is going to be kind of a new approach based on the knowledge of people who have already developed tools, and not some way of interacting with these specs that already exist.
 
@@ -240,7 +240,7 @@ So they're the core committee, and then we have this sort of trusted advisory gr
 
 Each of these questions has a wide variety of possible answers, so we enumerated all those as best we could. Then, with this "survey" of possible use cases and design space points and user stories and all these things, we \[unintelligible 00:39:05.24\] down to what we considered to be the bare minimum usable, covering 90% of the use case tool, and it ended up being quite a small surface area, so not too many subcommands. Then we made that spec, the spec of such a tool public, and we took feedback on that. So yeah, it's sort of like lessons learned, and hopefully a common ground between what everybody's doing.
 
-**Carlisia Campos:** From where you stand now Peter, what do you see as a possible timeline for this coming together as a production-ready tool for vendoring? If it goes on the path that it's going now; of course, if people say it needs to change, then who knows...? But if it goes on the path that's going now and there is agreement - there will never be consensus, but if it proves itself useful the way it's coming along, what do you see as far as timeline?
+**Carlisia Pinto:** From where you stand now Peter, what do you see as a possible timeline for this coming together as a production-ready tool for vendoring? If it goes on the path that it's going now; of course, if people say it needs to change, then who knows...? But if it goes on the path that's going now and there is agreement - there will never be consensus, but if it proves itself useful the way it's coming along, what do you see as far as timeline?
 
 **Peter Bourgon:** \[\\00:40:05.01\\\] That's a great question. My hope at this point is that we're gonna have a usable prototype by the end of the year timeframe, and luckily it's going to be a tool that you can kind of go get independently of anything else, and you can kind of try it out. We're gonna have a period of use, I guess, refinement, iteration...
 At this point I hope interested members of the community are going to be filing issues and potentially even PRs on it, and then the goal, at least as I understand it now - and this is all subject to change, of course - would be that this dependency management tool would become packaged into the Go tool, so a separate Go space dep, let's say (subcommand) in the 1.9 timeframe. So that's the hope at the moment. Who's to say if it's gonna get there, but even if it doesn't get in the Go tool, it will be usable separately.
@@ -267,7 +267,7 @@ You really do need the single standard, and we're gonna do our best to make that
 
 **Peter Bourgon:** It's certainly what attracted me to the language early on. And what kept me away from Ruby - less so Rail, more so Ruby - is that in Go (and not Ruby) there's only one way to do something. Those limits, paradoxically, give me the freedom to worry about the problem domain and not about my method of expressing it.
 
-**Carlisia Campos:** Yeah, I love that.
+**Carlisia Pinto:** Yeah, I love that.
 
 **Erik St. Martin:** Scott, you're firing shots on the GoTime FM channel... Aliases! \[laughs\] Hand grenade!
 
@@ -283,7 +283,7 @@ Scott, did you wanna talk about aliases, or you're just throwing jokes here? \[l
 
 **Scott Mansfield:** No, that's purely me trolling... I really don't wanna talk about aliases.
 
-**Carlisia Campos:** Nobody wants to talk about alias. \[laughter\]
+**Carlisia Pinto:** Nobody wants to talk about alias. \[laughter\]
 
 **Peter Bourgon:** Have you talked about it yet on the program?
 
@@ -295,7 +295,7 @@ Scott, did you wanna talk about aliases, or you're just throwing jokes here? \[l
 
 **Scott Mansfield:** Okay... NO ALIASES! They're horrible. I really don't understand why, but I've been told so, so...
 
-**Carlisia Campos:** \[\\00:48:05.01\\\] That ship has sailed, you guys.
+**Carlisia Pinto:** \[\\00:48:05.01\\\] That ship has sailed, you guys.
 
 **Erik St. Martin:** Yeah, I think it's just because people think it creates kind of like a footgun. It's not that it's inherently bad, it's just... The language has done a very good job at shielding people from creating monstrosities, you know?
 
@@ -303,7 +303,7 @@ Scott, did you wanna talk about aliases, or you're just throwing jokes here? \[l
 
 **Erik St. Martin:** Challenge accepted! \[laughs\] I wanna see that, too. I actually wanna see everybody's worst Go code, like what is the worst thing you can come up with. The most racey, ugly-looking, Perl one-liner... \[laughs\] That's something I don't miss. Did anybody work in Perl in previous lives?
 
-**Carlisia Campos:** No, not me.
+**Carlisia Pinto:** No, not me.
 
 **Erik St. Martin:** Peter, you wouldn't remember, right? \[laughter\]
 
@@ -337,19 +337,19 @@ I guess one frequent contributor is this fellow by the name of Bass van Beek, an
 
 **Peter Bourgon:** Yeah, exactly.
 
-**Carlisia Campos:** I don't think the stars are so meaningful. I think it shows interest... I was actually just looking at Go Kit's channel Gopher Slack and it's got over a thousand people.
+**Carlisia Pinto:** I don't think the stars are so meaningful. I think it shows interest... I was actually just looking at Go Kit's channel Gopher Slack and it's got over a thousand people.
 
 **Erik St. Martin:** Wow.
 
 **Peter Bourgon:** Yeah, that's super surprising to me, and I guess... Actually, if you go to the Gopher Slack list of channels by members, I think it's top five, or something.
 
-**Carlisia Campos:** Yeah.
+**Carlisia Pinto:** Yeah.
 
 **Erik St. Martin:** Well, that's crazy though... Because when you think about it in context, that's 10% of all the people in the Gopher Slack, total. For one project. That's good.
 
 **Peter Bourgon:** I'm into it.
 
-**Carlisia Campos:** Yeah, and if you're taking into account that a lot of people are not even active, that might be more like... It's a much higher percentage of the active members.
+**Carlisia Pinto:** Yeah, and if you're taking into account that a lot of people are not even active, that might be more like... It's a much higher percentage of the active members.
 
 **Erik St. Martin:** Right, and a lot of people don't hang out in all of the channels. Not being in there doesn't mean lack of participation in it too, so...
 
@@ -395,7 +395,7 @@ Go Kit, in contrast, is coming from the angle of "You already have in your organ
 
 **Erik St. Martin:** It's just crazy to think that stuff - that things that four years ago everybody had to build for themselves, we just don't even worry about it anymore. When you see somebody build it for themselves, you're like "But why?!"
 
-**Carlisia Campos:** Peter, give us some insights here as far as interferation between Go Kit and other things, or self-written code. Can you use Go Kit logging together with Micro, or together with my own code, or just metrics? Is it possible?
+**Carlisia Pinto:** Peter, give us some insights here as far as interferation between Go Kit and other things, or self-written code. Can you use Go Kit logging together with Micro, or together with my own code, or just metrics? Is it possible?
 
 **Peter Bourgon:** \[\\01:03:46.09\\\] Yeah, totally. In Go Kit there's a bunch of packages, and I would broadly say there's two types of packages - there's ones that you can use completely independent of anything else, that you can drop into your existing codebase with no other changes and just reap the benefits of that particular package. So logging is a great example. Chris Hines who was an early contributor and who basically should take all the credit for everything good in logging - we worked together and he drove the creation of this unified logging interface, which I think is really wonderful to use; it's structured logging. We are strongly opinionated that structured logging is the way you should do logging in this sort of environment. And a bunch of supporting infrastructure around it. So you can use that package completely independently. I'm biased, but you should. You should definitely look into using that.
 
@@ -403,19 +403,19 @@ Same thing with metrics, for example. The instrumentation package defines a set 
 
 There's other packages that sort of rely on your microservice being structured in a particular way, using the endpoint abstraction and the transport abstraction. This requires a bit more buy-in, that's kind of the hurdle I was talking about. But if you just over that hurdle, if you buy into these abstractions that I've laid out, then you get to leverage things like distributed tracing, with integrations with Zipkin, and Appdash, and the LightStep ecosystem, and OpenTracing and all this stuff. You get to leverage circuit breakers and rate limitors and a number of other packages in there, service discovery as well. So that's the split as I describe it.
 
-**Carlisia Campos:** Yeah, I was trying to figure that out, where the boundaries were for each of the things.
+**Carlisia Pinto:** Yeah, I was trying to figure that out, where the boundaries were for each of the things.
 
 **Peter Bourgon:** Yeah, and I could probably do a much better job of giving introductory, on-ramp style documentation on the website. Right now I've been so focused on the advanced use cases I've kind of let that atrophy a little bit... So I'll put that in my queue.
 
-**Carlisia Campos:** Cool.
+**Carlisia Pinto:** Cool.
 
 **Erik St. Martin:** I think that we are basically out of time, but did anybody wanna talk about JBD's new tool before we roll this thing out? Because that's freaking cool, the gops tool. I wonder how it's supposed to be pronounced...
 
-**Carlisia Campos:** Yeah, I was wondering...
+**Carlisia Pinto:** Yeah, I was wondering...
 
 **Erik St. Martin:** I think it's gops.
 
-**Carlisia Campos:** I would say gops.
+**Carlisia Pinto:** I would say gops.
 
 **Erik St. Martin:** It's this really cool debug tool for Go processes on your machine. You can run gops stack and pass \[unintelligible 01:06:41.00\] of a Go process and you can actually see the current stack and you can get GC information and memory statistics from a running Go process.
 
@@ -450,11 +450,11 @@ I think Scott disappeared on us. Where have you been at, Scott?
 
 **Erik St. Martin:** \[laughs\] Oh... Did anybody have any other interesting projects or news they wanted to go over before we wrap the show up?
 
-**Carlisia Campos:** Do we have time?
+**Carlisia Pinto:** Do we have time?
 
 **Erik St. Martin:** Yeah, I mean... I don't have anywhere to be.
 
-**Carlisia Campos:** I wanna give a shout out to GothamGo and everybody that's in New York City this weekend. I hope everybody has a great time.
+**Carlisia Pinto:** I wanna give a shout out to GothamGo and everybody that's in New York City this weekend. I hope everybody has a great time.
 
 **Erik St. Martin:** Yes... I wish I could be there. I'm traveling too much, though. Are you going, Scott or Peter?
 
@@ -462,29 +462,29 @@ I think Scott disappeared on us. Where have you been at, Scott?
 
 **Peter Bourgon:** Same.
 
-**Carlisia Campos:** Same here.
+**Carlisia Pinto:** Same here.
 
 **Erik St. Martin:** That's basically where I'm at. I just got back from a conference.
 
-**Carlisia Campos:** Apparently, I have a few \[unintelligible 01:10:39.16\] to go through, but somebody cut me off and there is no time. There is the Go Font - the Go Team came up with this new font that's meant for Go code. It's on the blog, there's a blog post about it, and it shows how the font looks like. It seems okay to me.
+**Carlisia Pinto:** Apparently, I have a few \[unintelligible 01:10:39.16\] to go through, but somebody cut me off and there is no time. There is the Go Font - the Go Team came up with this new font that's meant for Go code. It's on the blog, there's a blog post about it, and it shows how the font looks like. It seems okay to me.
 
 **Erik St. Martin:** Oh, interesting.
 
-**Carlisia Campos:** Yeah.
+**Carlisia Pinto:** Yeah.
 
 **Erik St. Martin:** Yeah, I hadn't seen this.
 
-**Carlisia Campos:** It seems a bit... When I look at it, it feels to me antiquated, but...
+**Carlisia Pinto:** It seems a bit... When I look at it, it feels to me antiquated, but...
 
 **Erik St. Martin:** It's hard though, because I've never been a font zealot. There's people who are really big into fonts, and they can look at this font and be like, "Oh, that's this style", when I've just never... It's either easy on the eyes or it's not. That's as far as my font knowledge goes.
 
-**Carlisia Campos:** What did you think, Peter and Scott? I'm curious.
+**Carlisia Pinto:** What did you think, Peter and Scott? I'm curious.
 
 **Peter Bourgon:** Scott, do you wanna go first?
 
 **Scott Mansfield:** Sure. I didn't really spend a whole lot of time looking at it. I mean, it's like trying to get somebody to change their religion, practically; if you want me to change the font on my editor, you'd better have a good reason. Or we can go to war. But it's the same idea for me; I don't have any reason even to try and adopt it. I think that the font that I use right now is fine. I've been using it for years and I don't feel like that font is actually more readable for me, so... That's where I am.
 
-**Carlisia Campos:** \[\\01:12:07.23\\\] How about you, Peter?
+**Carlisia Pinto:** \[\\01:12:07.23\\\] How about you, Peter?
 
 **Peter Bourgon:** I guess I would classify myself as an amateur font person. I know about serifs and kerning and x-heights and all that stuff, and I actually ran the font by one of my semi-professional typeface nerds, and unfortunately there's a lot wrong with it. The kerning is pretty bad, the differentiation in the weights is pretty bad... I mean, I don't wanna dump on somebody's work or anything, but it's not a good font. It's not great.
 
@@ -492,43 +492,43 @@ I think Scott disappeared on us. Where have you been at, Scott?
 
 **Peter Bourgon:** Yeah, maybe offline we can look into that.
 
-**Carlisia Campos:** Yeah, and maybe it's good for some people and bad for others. It's a matter of taste. Somebody had the taste to come up with it, and I saw a lot of people resonating with it and liking it. I'm a font illiterate, I don't know type, so when I look at it I might get reactions that don't do much for me, but I like the idea.
+**Carlisia Pinto:** Yeah, and maybe it's good for some people and bad for others. It's a matter of taste. Somebody had the taste to come up with it, and I saw a lot of people resonating with it and liking it. I'm a font illiterate, I don't know type, so when I look at it I might get reactions that don't do much for me, but I like the idea.
 
 **Erik St. Martin:** It's hard for me, because if I change my font to anything else, I feel like I might as well just writing in a different language... Like, "What are these weird characters?" \[laughs\] It's hard to get your eyes to adjust when you stare at code so much if it's even slightly different.
 
-**Carlisia Campos:** Yeah, it has a great impact when you change anything. That's why it's so horrible when you interview and you have to code on somebody else's computer, or a no-line editor... I totally get lost. It's like I don't even know what's happening. It's not my editor, I can't function.
+**Carlisia Pinto:** Yeah, it has a great impact when you change anything. That's why it's so horrible when you interview and you have to code on somebody else's computer, or a no-line editor... I totally get lost. It's like I don't even know what's happening. It's not my editor, I can't function.
 
 **Erik St. Martin:** And it doesn't have to be very far off too, to feel that out of your element; one hotkey you're expecting doesn't work and you're like, "I'm ruined. I can't code." \[laughter\]
 
-**Carlisia Campos:** We're very fragile creatures. \[laughter\]
+**Carlisia Pinto:** We're very fragile creatures. \[laughter\]
 
 **Erik St. Martin:** For all the adoption of new technology that we like, we're still very stuck in our ways.
 
-**Carlisia Campos:** But I think that has a lot to do with it. There's so much change around us; we need to have a core that's fixed.
+**Carlisia Pinto:** But I think that has a lot to do with it. There's so much change around us; we need to have a core that's fixed.
 
 **Erik St. Martin:** That's our safety blanket.
 
-**Carlisia Campos:** Change everything, but don't change my environment, don't change my editor.
+**Carlisia Pinto:** Change everything, but don't change my environment, don't change my editor.
 
 **Erik St. Martin:** Yeah, that's true. I mean, I'm using the same editor I've been using for (I don't even know) 10-15 years, something like that.
 
-**Carlisia Campos:** Wow.
+**Carlisia Pinto:** Wow.
 
 **Erik St. Martin:** I just can't... I can't cut the cord. I see new editors and I'm like, "Well, that looks cool", and I just can't cut the cord. I feel like, "I gotta get work done, I can't afford to try to learn a new editor."
 
 So do we have anything else, or we wanna move into \#FreeSoftwareFriday?
 
-**Carlisia Campos:** Peter, do you have any interesting projects or news to mention?
+**Carlisia Pinto:** Peter, do you have any interesting projects or news to mention?
 
 **Peter Bourgon:** I don't have any projects, but I kind of wanna exploit your audience for this thing that's been bouncing around in my head a little bit lately. Can I do that, or is that totally not appropriate?
 
 **Erik St. Martin:** Yeah!
 
-**Carlisia Campos:** Please.
+**Carlisia Pinto:** Please.
 
 **Peter Bourgon:** We all know Prometheus, right?
 
-**Carlisia Campos:** Oh yeah!
+**Carlisia Pinto:** Oh yeah!
 
 **Erik St. Martin:** Yes!
 
@@ -536,11 +536,11 @@ So do we have anything else, or we wanna move into \#FreeSoftwareFriday?
 
 \[\\01:15:52.09\\\] But if you ever tried to operate an Elasticsearch cluster, you know it's not easy. In fact, it's notoriously difficult. So I'm wondering what a Prometheus for logs would look like - architecturally, operationally - and if maybe there's already a product out there that I just don't know about... I mean, I've done a lot of research, maybe there's something that exists. I would love to have people ping me maybe on Twitter with their ideas.
 
-**Carlisia Campos:** That's interesting. What about Go Kit Log?
+**Carlisia Pinto:** That's interesting. What about Go Kit Log?
 
 **Peter Bourgon:** Go Kit Log is about how you manage logging within your process, within the service itself. What I'm curious about is once the log information leaves the process boundary, like on standard out, say, how do you get that into a system that is searchable and usable, operationally simply, and without having to deal with Elasticsearch, effectively?
 
-**Carlisia Campos:** Okay, so are you talking about what Prometheus is for metrics, you're talking about that for logging?
+**Carlisia Pinto:** Okay, so are you talking about what Prometheus is for metrics, you're talking about that for logging?
 
 **Peter Bourgon:** Yeah, something like that, at a very high level.
 
@@ -552,7 +552,7 @@ So do we have anything else, or we wanna move into \#FreeSoftwareFriday?
 
 **Peter Bourgon:** Exactly. And maybe there's already software that's purpose-built for exactly what I'm thinking and I can just use it. If so, that's great, I'd love to know about it. But I don't.
 
-**Carlisia Campos:** But you're talking about in Go, right? Or just in general.
+**Carlisia Pinto:** But you're talking about in Go, right? Or just in general.
 
 **Peter Bourgon:** Well, in general would be fine. The only thing in the space that I'm aware of that serves this need is Elasticsearch and it's too operationally tricky, and some other reasons I won't get into. I'm not a big fan of it for this use case, but yeah... Maybe something in Go, that would be great.
 
@@ -576,7 +576,7 @@ I think that solves most of the use cases for at-scale logging, because I think 
 
 Both of these things is sort of what I'm considering, although they are drastically different \[unintelligible 01:20:56.10\] guarantees.
 
-**Carlisia Campos:** Well, let's talk about structured versus unstructured logging... Nah, I'm kidding. \[laughter\] That's a whole show right there.
+**Carlisia Pinto:** Well, let's talk about structured versus unstructured logging... Nah, I'm kidding. \[laughter\] That's a whole show right there.
 
 **Erik St. Martin:** The gloves come off... \[laughter\] So we wanna move on to \#FreeSoftwareFriday? In case we didn't tell you, Peter...
 
@@ -588,7 +588,7 @@ Both of these things is sort of what I'm considering, although they are drastica
 
 **Erik St. Martin:** Alright, Carlisia, do you wanna go first?
 
-**Carlisia Campos:** No, I don't have anything today.
+**Carlisia Pinto:** No, I don't have anything today.
 
 **Erik St. Martin:** How about you, Scott?
 
@@ -608,14 +608,14 @@ Alright, Peter, do you have anything? Feel free to say no.
 
 You can install it, and it installs this pt, and you can use it like a grep, except you don't have to do weird contortions with -r, and grep like you expect it should work. It's super, super fast.
 
-**Carlisia Campos:** I'm glad you've mentioned that because Dave Cheney mentioned it, and I was like "I'm gonna install it immediately", and I never did. But now I'm gonna install it immediately. \[laughs\]
+**Carlisia Pinto:** I'm glad you've mentioned that because Dave Cheney mentioned it, and I was like "I'm gonna install it immediately", and I never did. But now I'm gonna install it immediately. \[laughs\]
 
 **Erik St. Martin:** I'm in the same boat. I used the Silver Searcher for many years now, and it still installed, and people keep reminding me of The Platinum Searcher, and I'm like "I'm gonna use that", and then I go along my way and continue to build stuff and I forget all about it. So now it's gonna live in my sea of tabs until either my computer shuts down and I lose the tab, or I actually install it.
 
 Alright, so I think with that we are out of time, and I definitely wanna thank everybody on the panel. Thank you, Scott, for stepping in, and thank you, Peter, for coming on the show. Thanks to everybody who's listening now, and who will be listening to us when the recording is released.
 Huge thank you to our sponsors, Minio and Backtrace. Definitely share the show with your friends, family, colleagues... We are @GoTimeFM on Twitter, GoTime.FM - you can go there to subscribe, and if you want to be on the show or have ideas for the show, or just questions of the hosts or guests, hit us up on GitHub.com/gotimefm/ping. With that, goodbye everybody, we'll see you next week.
 
-**Carlisia Campos:** This was fun, bye! Thanks, Peter.
+**Carlisia Pinto:** This was fun, bye! Thanks, Peter.
 
 **Peter Bourgon:** Bye guys. I had a hacking good time, thanks everyone!
 

@@ -1,10 +1,10 @@
 **Erik St. Martin:** It's episode \#22 of GoTime. Today's episode is sponsored by Linode and Code School. Today on the show we have myself, Erik St. Martin, we have Carlisia Campos - say hello, Carlisia.
 
-**Carlisia Campos:** Hi, everybody.
+**Carlisia Pinto:** Hi, everybody.
 
 **Erik St. Martin:** She's still laughing from everything that happened before the show, I can hear it.
 
-**Carlisia Campos:** I'm trying to hold it back.
+**Carlisia Pinto:** I'm trying to hold it back.
 
 **Erik St. Martin:** Brian Ketelsen was not able to make it, but today standing in for him we have Cory LaNou. Say hello, Cory.
 
@@ -46,13 +46,13 @@ Due to the relationship with the Brillo Project, the Android project is called B
 
 **Erik St. Martin:** So Cory and Carlisia, do either of you have experience tinkering with the hardware side of things or embedded?
 
-**Carlisia Campos:** \[\\00:07:52.11\\\] I did at the Gopher Gala last year. Nathan had a project and I joined to help him a little bit, with also somebody else here from San Diego Ravi. So I got to play with a Raspberry Pi, and we put in code that actually made the Raspberry Pi use a motion sensor, and that was very cool.
+**Carlisia Pinto:** \[\\00:07:52.11\\\] I did at the Gopher Gala last year. Nathan had a project and I joined to help him a little bit, with also somebody else here from San Diego Ravi. So I got to play with a Raspberry Pi, and we put in code that actually made the Raspberry Pi use a motion sensor, and that was very cool.
 
 I sort of have an irrational aversion to hardware, because my impression is that hardware doesn't work when I touch them. \[laughs\] I don't know, it's completely irrational. So I try to stay away from hardware in general, although it's pretty cool.
 
 **Erik St. Martin:** You give off like a static charge that just messes up all electronics?
 
-**Carlisia Campos:** Yes, but it's like... It's supposed to have a button and I don't find a button, and these ridiculous things... But at any rate, I thought the Raspberry Pi is small and I could handle it, so I really fell in love with it. But I didn't play much with it after that.
+**Carlisia Pinto:** Yes, but it's like... It's supposed to have a button and I don't find a button, and these ridiculous things... But at any rate, I thought the Raspberry Pi is small and I could handle it, so I really fell in love with it. But I didn't play much with it after that.
 
 **Erik St. Martin:** One of the things that I think I loved the most was learning how simple serial protocols are. Then what you do is you buy yourself a logic analyzer and then you start finding random pieces of electronics and trying to find the chips and what their serial ports are, and then start geeking in on what it's doing. \[laughter\]
 
@@ -80,13 +80,13 @@ I sort of have an irrational aversion to hardware, because my impression is that
 
 **JBD:** I think that's the beauty of all this maker thinking. We are always in this constantly "work in progress" projects; we invent by looking at what is going on and what is in common... I think we are doing this for the joy, rather than trying to achieve anything. I think that's fair.
 
-**Carlisia Campos:** I wanted to go back a little bit, and I didn't jump in right away because I was looking for the link. Erik once mentioned the course called NAND To Tetris, and I'm super looking forward to doing it. I think I'm going to be able to do it next year.
+**Carlisia Pinto:** I wanted to go back a little bit, and I didn't jump in right away because I was looking for the link. Erik once mentioned the course called NAND To Tetris, and I'm super looking forward to doing it. I think I'm going to be able to do it next year.
 
 It's basically a course that takes you from the very basics, and step by step all the way up to building a modern computer. And the good news for me is that it's all simulation, and I don't have to deal with hardware.
 
 **JBD:** Nice.
 
-**Carlisia Campos:** I personally don't have anything against hardware; as I was saying, they just don't work with me... I don't know, I just have this impression. But in this case it's all simulation, and you don't have to... And it gets expensive too, buying these one-off things. But this is really cool.
+**Carlisia Pinto:** I personally don't have anything against hardware; as I was saying, they just don't work with me... I don't know, I just have this impression. But in this case it's all simulation, and you don't have to... And it gets expensive too, buying these one-off things. But this is really cool.
 
 I'm saying this because I also think it's very important for us to learn a little bit more about what it is that's below of what we are doing.
 
@@ -100,11 +100,11 @@ The thing that I love about the book is each stage is kind of on its own, and th
 
 It's a really cool experience for people who are interested in learning from the hardware level up into the code that we write every day.
 
-**Carlisia Campos:** And they have a course on Coursera, too.
+**Carlisia Pinto:** And they have a course on Coursera, too.
 
 **Erik St. Martin:** Oh, they have it on Coursera now?
 
-**Carlisia Campos:** Yeah, so they have the book and they have a course on Coursera.
+**Carlisia Pinto:** Yeah, so they have the book and they have a course on Coursera.
 
 **Erik St. Martin:** Yeah... So Brian isn't on the show because of choppy internet connection where he's at in London, but he's heckling us from Slack. He just reminded me of the person who built the ALU in Minecraft using the same book as his approach, which was really interesting. You set the binary number with torches, and that goes through all these little things and the cows move... \[laughter\] Then you go the other side and you can read the output.
 
@@ -120,7 +120,7 @@ When I introduce myself, that I'm supposed to be a power Go user, and giving peo
 
 I'm kind of surprised by the number of people who actually returned back to me and wrote about how they feel about certain things, things that maybe need to be redesigned or can be supported by experimental tools or extension tools. I'm really excited to hear more, and I do believe as a community or as a language we will never succeed if we cannot create this type of feedback channel and question what we are doing once in a while.
 
-**Carlisia Campos:** I'm wondering if you are using any guideline or if you are trying to go in a specific direction to avoid having the vocal minority speak for the issues that are not a priority for maybe the majority of the people. Or maybe you're looking into having usability as the guide for what you are doing, or any other guideline that you are using, to make sure that you're achieving your goal no matter who's responding to your request.
+**Carlisia Pinto:** I'm wondering if you are using any guideline or if you are trying to go in a specific direction to avoid having the vocal minority speak for the issues that are not a priority for maybe the majority of the people. Or maybe you're looking into having usability as the guide for what you are doing, or any other guideline that you are using, to make sure that you're achieving your goal no matter who's responding to your request.
 
 **JBD:** Absolutely. The goal of this project is not trying to understand what the established users are trying to do... Let me give a little bit of insight of how I see things. I think there are too many reasons why people learn a language or just get involved in a language. The first one is personal development or interest - this is what mainly made the initial Go community. These people have more tolerance, they're more passionate about the challenges for the sake of learning.
 
@@ -132,7 +132,7 @@ I really liked Katrina's talk at GopherCon this year because she was pretty clea
 
 I think we are coming from a typical background, and everything is so much clearer to us, but not true... The vast majority in the tech.
 
-**Carlisia Campos:** And have you been able to at least have some insights about things that can be done to make that better?
+**Carlisia Pinto:** And have you been able to at least have some insights about things that can be done to make that better?
 
 **JBD:** \[\\00:24:05.25\\\] My audience is a little bit restricted. I cannot really go to people who are coming from totally different backgrounds and I cannot enforce them to use Go and give them feedback. The only way I see which might be valuable but it's still not ideal - because it's a small subset of the same culture on itself... I think new graduates, or people who are at Google who really believe that this language is not really a product that is fitting their worldview might be a good place to seek for that type of feedback. That's the only practical, easy and actionable thing I can work on.
 
@@ -142,7 +142,7 @@ I think the main goal of rethinking about these problems is to make newcomers ha
 
 **JBD:** I'm particularly targeting people who either have experience - or inexperienced - in another language, and just trying to use Go as a replacement.
 
-**Carlisia Campos:** It sounds to me that one challenge that you have is to help people see the benefits of Go without going through so much hassle. Because people can read a blog post, "Oh, Go is very productive and Go is very fast", but they still have to commit to trying it out. And maybe making that gap shorter, from the moment they get exposed to the idea of using Go, to the moment that they actually do something with Go and see the results. I guess what your challenge is in making that gap as short as possible.
+**Carlisia Pinto:** It sounds to me that one challenge that you have is to help people see the benefits of Go without going through so much hassle. Because people can read a blog post, "Oh, Go is very productive and Go is very fast", but they still have to commit to trying it out. And maybe making that gap shorter, from the moment they get exposed to the idea of using Go, to the moment that they actually do something with Go and see the results. I guess what your challenge is in making that gap as short as possible.
 
 **JBD:** Yeah, this kind of also relates to the first initial idea I had, how I see people... I still see people who already believe that this language could be valuable for themselves and trying to invest time in this language has a little bit more tolerance. I understand what you're saying, but I don't have a really clear answer to how we should gather feedback from people we don't know and people who are not necessarily talking to us.
 
@@ -184,7 +184,7 @@ I think initially the community was more of exchanging ideas and knowledge; ther
 
 **JBD:** Yeah. The feedback I'm gathering is tons of small improvements like this. There are so many things that actually will make us reconsider things, but there are tons of things to improve by just changing the order, making something more highlighted and small - things like that.
 
-**Carlisia Campos:** And thinking about improving things just by changing orders, I think it would be great if we had a website that was easy to use and contained a path, from beginning to the end, from beginner programmer, newcomer to Go, to very advanced software development. It's not that it's supposed to contain everything, but it's one path; then people can veer from that path as they need, but at least they have one path.
+**Carlisia Pinto:** And thinking about improving things just by changing orders, I think it would be great if we had a website that was easy to use and contained a path, from beginning to the end, from beginner programmer, newcomer to Go, to very advanced software development. It's not that it's supposed to contain everything, but it's one path; then people can veer from that path as they need, but at least they have one path.
 
 For example, I ran into this website called go.java - it has nothing to do with Go, it's just called go.java. And it has that - it has four menus at the top. It's Learn Java Skills, Create and Contribute, Develop Software (obviously, for more experienced developers) and Lead Your Organization - if you're an organization, what do you need? Great. Those are the paths. Those four things I think will lead anybody from where they are to the next step.
 
@@ -194,7 +194,7 @@ This past year I've seen the level of resources increasing dramatically, but it'
 
 I do think that the blog was sort of like being used to publish white papers, but it's not quite organized and it doesn't give you navigation. I really believe that we need some sort of another medium to write guidelines which may also contain what you've been saying, or the thing that I was mentioning with the toolchain where there's no canonical way to see what I can do with this aspect. So I agree, and I think there are multiple people agreeing on that, and there are some people who are already working on it.
 
-**Carlisia Campos:** \[\\00:36:14.11\\\] Awesome.
+**Carlisia Pinto:** \[\\00:36:14.11\\\] Awesome.
 
 **Erik St. Martin:** Yeah, I think that tends to be the struggle. I think there's a lot of resources for teaching the semantics of the language, but then people look at it and they're like, "Okay, how do I get from A to B? I understand these different constructs of the language, but I wanna build a web service. Where do I start? What does a typical structure of an application look like? Am I doing it right?" I think people give up there, which is interesting.
 
@@ -218,7 +218,7 @@ I do believe it's natural in every language that the focus will be shifted more 
 
 **JBD:** That was basically what I was trying to achieve, I was about to explain. I do believe the only way to get there is creating focus groups and work groups probably. We pretty much have an understanding of which areas we should invest in, and there are already so many people from the community who are working on their small, personal projects or their company-sponsored projects, but there's no discussion around those topics in a collective and systematic way.
 
-**Carlisia Campos:** There seems to be a recognition from you; is this recognition shared by the other Go Team members, and do you find that there is resistance...? Is everybody trying to figure out if this really applies, or are you already moving in the direction of trying to find solutions for that?
+**Carlisia Pinto:** There seems to be a recognition from you; is this recognition shared by the other Go Team members, and do you find that there is resistance...? Is everybody trying to figure out if this really applies, or are you already moving in the direction of trying to find solutions for that?
 
 **JBD:** In the Go Team there is a subgroup called Cloud-Related Projects we have at Google and beyond. This team is mainly responsible for just making sure that everybody is committing to good APIs and trying to understand how they can support the community...
 
@@ -242,19 +242,19 @@ Ranting on Twitter, or... I think each team member has some capacity, and we nee
 
 **JBD:** Yeah, I agree. I think this is not really communicated well, but I don't really believe that anybody is against this.
 
-**Carlisia Campos:** The people that will form these committees, can they come from outside of Google?
+**Carlisia Pinto:** The people that will form these committees, can they come from outside of Google?
 
 **JBD:** Yeah, absolutely. I don't really believe that having more googlers on this project is going to help, because it really shaped around Google, and it's blocking itself or blocking its reach because it's so totally dependent on the Google culture. I think everything should be outside of Google, ideally.
 
-**Carlisia Campos:** And for the Google Cloud platform working group - at least that's what I understand - it's already in motion...
+**Carlisia Pinto:** And for the Google Cloud platform working group - at least that's what I understand - it's already in motion...
 
 **JBD:** \[\\00:47:54.23\\\] Oh, that's not the Google Cloud. We don't care about a specific provider.
 
-**Carlisia Campos:** I'm sorry, what working group did you say you were going to start with?
+**Carlisia Pinto:** I'm sorry, what working group did you say you were going to start with?
 
 **JBD:** We were thinking about a cloud workgroup more than any provider. We were just trying to understand more production-related stories and beyond - support, APIs, and what we can contribute to the community to make it easier. We're trying to achieve things that are provider-agnostic.
 
-**Carlisia Campos:** And do you have already any guideline for people to raise their hand and say "I want to participate in this working group"? Do you have criteria for selection for people to join in?
+**Carlisia Pinto:** And do you have already any guideline for people to raise their hand and say "I want to participate in this working group"? Do you have criteria for selection for people to join in?
 
 **JBD:** This is still a proposal internally, and I'm working to finalize it. I wrote the proposal myself. The initial idea was to initiate some sort of feedback from different people and understand the requirement for a workgroup, and if people agree, I think what we'll do is just continue. I don't have specific people in mind, but as long as I announced this thing, I think I will just try to gather feedback from people. I think naturally people who are giving feedback will be a part of the workgroup in the future.
 
@@ -278,7 +278,7 @@ So you were talking about language succeeding and failure mostly due to communic
 
 \[\\00:52:15.26\\\] I think the idea behind workgroups is to see what else is there. Otherwise, it's just easy to execute working code and solve a small aspect, but I don't really believe that working groups -- the main goal behind working groups is solving specific problems in its own small scope.
 
-**Carlisia Campos:** One thing to keep in mind when you bring up these concerns is that you're looking at it from the perspective of scaling the use of Go. We are relatively new, maybe not so new anymore - I don't even know if we should say we're so new - and we are trending upwards in terms of adoption, and your concerns that we don't have such a great communication, we don't have such great channels for feedback, feedbacks are being given out there without it being incorporated into the people who are working with the language and documentation that goes with it, and you're thinking "Well, if this way now, how is it going to be when the community is double?" A lot of people think this community is going to grow a lot, so I think you're right to be thinking this way.
+**Carlisia Pinto:** One thing to keep in mind when you bring up these concerns is that you're looking at it from the perspective of scaling the use of Go. We are relatively new, maybe not so new anymore - I don't even know if we should say we're so new - and we are trending upwards in terms of adoption, and your concerns that we don't have such a great communication, we don't have such great channels for feedback, feedbacks are being given out there without it being incorporated into the people who are working with the language and documentation that goes with it, and you're thinking "Well, if this way now, how is it going to be when the community is double?" A lot of people think this community is going to grow a lot, so I think you're right to be thinking this way.
 
 From what you said, I think having working groups or special interest groups is a great idea. It will not hurt to have feedback, and I think it can only be used for improvements.
 
@@ -286,7 +286,7 @@ From what you said, I think having working groups or special interest groups is 
 
 I do believe that having workgroups will increase this communication with the core team and the community members a lot, because given that they will be involved maybe in design and what is coming up next, they will be able to receive more canonical information and they can share it from there, rather than reverse engineering, debugging, trying to understand it by experience.
 
-**Carlisia Campos:** I think the biggest benefit that I see from this idea is having a group of people that is a buffer between the language team and the community. Obviously, the language is only going to be so big, and to me, obviously, they should be participating in important decisions as far as the language and the ecosystem, because they have a ton of knowledge, especially the philosophy of the language, which counts a lot. They are the experts.
+**Carlisia Pinto:** I think the biggest benefit that I see from this idea is having a group of people that is a buffer between the language team and the community. Obviously, the language is only going to be so big, and to me, obviously, they should be participating in important decisions as far as the language and the ecosystem, because they have a ton of knowledge, especially the philosophy of the language, which counts a lot. They are the experts.
 
 But having people one off proposals and talking to different people here and there, and people change, and rotate, and they don't really know where people are coming from with suggestions, I can only imagine how hard that must be for the language team to participate in this constantly revolving set of people who are approaching them. So having a group that is, of course, not a forever group, but a group that is going to stay for a while and focus on one aspect of the language and the ecosystem, that group having the trust of the language team and the trust of the community, it can only make it better.
 
@@ -310,7 +310,7 @@ And not everybody's accustomed to reading the draft proposal form of things, so 
 
 **Cory LaNou:** Now, if you had your pick, I'm curious what would be the top one or two workgroups you would like to see?
 
-**Carlisia Campos:** That's a great question.
+**Carlisia Pinto:** That's a great question.
 
 **JBD:** \[\\00:59:55.18\\\] I don't wanna really reveal my ideas, but I think that there are things that are really obvious to me, such as... Well, this is not entirely engineering related - the first one is a docs group. Our current blocker is documentation, and explaining conventions and things. I do not really believe that all the other teams are really caring about documentation; I think they are seeing things within their perspective, and I do believe that a community group can totally tell them what is more obviously missing. So that's one of the... Maybe docs and outreach together, because the community is already doing so much work in a very structured way, at every conference, or on blogs, or everywhere else. I would love to see some sort of central group so people can share knowledge with each other and create material for each other, so writing and talking and documenting things become easier.
 
@@ -322,7 +322,7 @@ And not everybody's accustomed to reading the draft proposal form of things, so 
 
 **Erik St. Martin:** No, even when Cory said it. \[unintelligible 01:01:31.06\]
 
-**Carlisia Campos:** You're saying it has the same... What's it called...?
+**Carlisia Pinto:** You're saying it has the same... What's it called...?
 
 **Cory LaNou:** Phonetically...
 
@@ -334,13 +334,13 @@ And not everybody's accustomed to reading the draft proposal form of things, so 
 
 **JBD:** Yeah. At Google we have this sort of thing once in a while, and everything is just like literally off. I'm not participating anymore, so I'm so happy... But if you have something in production, good luck.
 
-**Carlisia Campos:** Yeah, I do chaos testing - it's called release to production. \[laughter\]
+**Carlisia Pinto:** Yeah, I do chaos testing - it's called release to production. \[laughter\]
 
 **Erik St. Martin:** I don't often test my code, but when I do, I do it in production...?
 
 **Cory LaNou:** Always.
 
-**Carlisia Campos:** Always.
+**Carlisia Pinto:** Always.
 
 **Erik St. Martin:** The chaos is actually happening in the office, not in production.
 
@@ -354,15 +354,15 @@ A related project that I actually ran into over the week was Pumba. It's chaos t
 
 Anybody else ran across any interesting projects this week?
 
-**Carlisia Campos:** I don't have anything this week.
+**Carlisia Pinto:** I don't have anything this week.
 
 **Cory LaNou:** I don't have any projects, but I did wanna shout out to some community people. About a year ago I moved back to the Midwest as most of you know, and I started some meetups in Chicago and Minneapolis, because the Go community wasn't on track there. It's been a little bit over a year and the people that have stepped in to help me do that have really stepped up and they've basically taken over. Again, this is all about community for me and it's just great to have Varun in Chicago, and Eric, Jack, Nick and Calvin in Minneapolis. It's just fantastic to see how they've really gotten these Go groups back online, and to see these communities rebooted.
 
-**Carlisia Campos:** We have a Meetup channel on Slack, don't we?
+**Carlisia Pinto:** We have a Meetup channel on Slack, don't we?
 
 **Cory LaNou:** Yes, we do. Meetup Organizers, I think.
 
-**Carlisia Campos:** Yeah, so that's where everybody that Cory's just mentioned is, including Cory.
+**Carlisia Pinto:** Yeah, so that's where everybody that Cory's just mentioned is, including Cory.
 
 **Erik St. Martin:** We have to applaud everybody who helps grow the community, whether that's through code or writing tutorials and blog posts, or doing conferences, or anything that continues to further the growth of the community. As JBD has been talking about today, kind of collectively molding the language together. Rather than just throwing stuff over the fence and hoping for the best, we start trying to find ways to collaborate and work on it together.
 
@@ -378,11 +378,11 @@ And Cory, you just said yours.
 
 **Erik St. Martin:** How about you, Carlisia?
 
-**Carlisia Campos:** I want to give a shout out to the most wondrous thing, it's the Gopher Slack bot. Florin Patan works on that, and it's... I don't even know how to describe it. You type "@gopher help" and you get a listing of all the commands you can use, and it's sweet, it will give you a bunch of goodies. So just go ahead and do it. On Gopher Slack, of course.
+**Carlisia Pinto:** I want to give a shout out to the most wondrous thing, it's the Gopher Slack bot. Florin Patan works on that, and it's... I don't even know how to describe it. You type "@gopher help" and you get a listing of all the commands you can use, and it's sweet, it will give you a bunch of goodies. So just go ahead and do it. On Gopher Slack, of course.
 
 **Erik St. Martin:** I'm typing it in now. @Gopher help.
 
-**Carlisia Campos:** Yeah, it's a user, but it's a bot.
+**Carlisia Pinto:** Yeah, it's a user, but it's a bot.
 
 **Erik St. Martin:** Okay, here we go. \[unintelligible 01:07:55.16\]
 
@@ -390,13 +390,13 @@ And Cory, you just said yours.
 
 **Erik St. Martin:** \[\\01:08:01.03\\\] You just add it in the channel, and it direct messages that.
 
-**Carlisia Campos:** But JBD has made a good point - you can totally do a direct message, and just type things out there, so you won't be spamming the channel.
+**Carlisia Pinto:** But JBD has made a good point - you can totally do a direct message, and just type things out there, so you won't be spamming the channel.
 
 **Cory LaNou:** I think we just crashed it. \[laughter\]
 
 **Erik St. Martin:** It is open source, and pull requests are accepted. This is kind of cool, though... Like, just type in newbie resources and recommended channels... That kind of makes it more accessible. The Gopher Slack has grown so much, there are so many different channels in there, and you're trying to find your way around... So this is kind of cool.
 
-**Carlisia Campos:** Yeah, it's super cool. And of course - I don't know if we did it, but it crashed.
+**Carlisia Pinto:** Yeah, it's super cool. And of course - I don't know if we did it, but it crashed.
 
 **Erik St. Martin:** Speaking of crashes, I didn't get a chance to mention this. Way earlier in the show before our first sponsor break, I actually crashed, I was gone for a while - I don't think anybody noticed, but the funny part about it was it was after JBD said "I'm supposed to be a power user", and the second she said "power user", Boom! I got black screen of death, like stack trace on a MacBook Pro. \[laughter\] It was scary.
 
@@ -408,7 +408,7 @@ So you don't have to throw anything in there, but if you have something, we'd lo
 
 **JBD:** Well, I don't know. I don't wanna highlight anything at this point. I have a couple of things to mention, but I don't really think that it's necessary.
 
-**Carlisia Campos:** No problem.
+**Carlisia Pinto:** No problem.
 
 **Erik St. Martin:** What did you wanna mention?
 
@@ -460,7 +460,7 @@ Alright, so thank you everybody on the panel for being here. Thank you to Cory f
 
 **Cory LaNou:** Thanks for having me. It was an honor to be here.
 
-**Carlisia Campos:** Thank you. So glad.
+**Carlisia Pinto:** Thank you. So glad.
 
 **Erik St. Martin:** We definitely thank JBD for coming on the show and talking with us today. A huge thank you to our sponsors, Linode and Code School for sponsoring the episode. Again, like I said, please go check them out, show them so love, keep us on the air.
 

@@ -38,7 +38,7 @@ It's really hard when you're already in the industry and you've got your day job
 
 I think the language could really use a big foothold in academia, and I'm happy to be able to help with that. I'm happy to help bring it along and enjoy it. I also like the venture of cutting trails... So that's a little bit of my story, or a lot of my story. \[laughs\] Nice having all of you guys here, thanks for listening, we'll see you next week. \[laughter\] Did I take up a whole hour?
 
-**Carlisia Campos:** Good job, Todd. With that said, bye everybody. \[laughs\]
+**Carlisia Pinto:** Good job, Todd. With that said, bye everybody. \[laughs\]
 
 **Brian Ketelsen:** Yeah, but why don't we take a moment to introduce the rest of our show? \[laughs\] This is Brian Ketelsen, I'm sitting in for Erik St. Martin today, who's in an airport listening live... Hi, Erik, we miss you! And we've got Bill Kennedy in today...
 
@@ -64,11 +64,11 @@ I think Go is a great first language, because it teaches programming fundamental
 
 **Bill Kennedy:** Yeah, in the videos. You're like writing a whole document; by the time you're done with the video, you've got like three pages of notes written down. I've seen that in a few videos, it's really interesting. **Todd McLeod:** That's the thing, man... I'm not quite sure where I'm doing that, but I'm glad it's cool and I'm glad you like it. I have a big writer in me. For a long time my hobby in the evenings before I had kids was just to write fiction, so... I've written like 40 novels; that blows me away.
 
-**Carlisia Campos:** Let me translate to you - in a minute I'm gonna talk about that also, but let me translate to you where Bill is getting at - what Bill is getting at is are you writing a book about Go? That's what he wants to ask you.
+**Carlisia Pinto:** Let me translate to you - in a minute I'm gonna talk about that also, but let me translate to you where Bill is getting at - what Bill is getting at is are you writing a book about Go? That's what he wants to ask you.
 
 **Todd McLeod:** Oh, am I writing a book about Go?
 
-**Carlisia Campos:** With all those notes...?
+**Carlisia Pinto:** With all those notes...?
 
 **Todd McLeod:** I'm not. I'm not writing a book about Go. I love being able to connect with people. I kind of view it as -- anthropologically we've learned from each other in person; that's the vast amount of our history through evolution as humans. We learned talking to each other, so in my trainings I really love trying to... So much gets conveyed non-verbally. You can hear my voice, but if you can also see me, I think that that conveys a lot.
 
@@ -85,7 +85,7 @@ I just try to get people the tools they need to learn. That's my craft being an 
 
 **Break:** \[\\00:18:48.18\\\]
 
-**Carlisia Campos:** Todd, you said that you don't like the idea of bootstrapping because you quickly reach a point where you don't know what you are doing because you don't have the foundation... Or maybe I'm interpreting more than what you said here, but I think that also has to do with what you said about Go being a real language. But I want to hear from you what you mean when you say that Go is a real language. What does that mean to you?
+**Carlisia Pinto:** Todd, you said that you don't like the idea of bootstrapping because you quickly reach a point where you don't know what you are doing because you don't have the foundation... Or maybe I'm interpreting more than what you said here, but I think that also has to do with what you said about Go being a real language. But I want to hear from you what you mean when you say that Go is a real language. What does that mean to you?
 
 **Todd McLeod:** Yeah, I really believe in minimalism and stripping things down and keeping everything as light as possible. Every line of code, you should know what it's doing and you should not have any extraneous code. If it's there and you're not using it, why is it there?
 
@@ -112,7 +112,7 @@ They looked at, "Hey, this is how programming's evolved - spaghetti code, proced
 
 I feel like Go innovated and took programming and tried to bring it to the next level. Whatever name you might put on that, but from spaghetti to procedural structured OOP to the next evolution of coding. So it's a programmer's language and it suffers no fools, because you gotta know what's going on, and to really use it you have to understand a lot of the most important concepts of programming.
 
-**Carlisia Campos:** I love the description that you gave. You threw a lot of concepts in there, and there's a lot \[unintelligible 00:29:43.00\] from what you said, but I think at the base of what you said, you're equating a real language with craftsmanship, and I agree with that. I think a lot of languages have so many options that you can throw at your code, and you spend a lot of time making decisions about things that at the end of the day are not really what's going to make your craft. And with Go, because it's so minimalistic and so simple, you start moving out of that and making a different type of decisions, but at the same time you are always thinking about tradeoffs.
+**Carlisia Pinto:** I love the description that you gave. You threw a lot of concepts in there, and there's a lot \[unintelligible 00:29:43.00\] from what you said, but I think at the base of what you said, you're equating a real language with craftsmanship, and I agree with that. I think a lot of languages have so many options that you can throw at your code, and you spend a lot of time making decisions about things that at the end of the day are not really what's going to make your craft. And with Go, because it's so minimalistic and so simple, you start moving out of that and making a different type of decisions, but at the same time you are always thinking about tradeoffs.
 
 **Bill Kennedy:** Todd, you're day in and day out in the classroom with people at all skill levels, and one of the things where at least GoBridge is really focused on going into next year is how do we take people who have never programmed before and want to program and get them learning programming with Go? There's lots of challenges there, and I thought it would be awesome if you can help anybody who's listening who's really interested in doing training. What are some really positive things that we can do, and maybe the things that you've learned not to do when it comes to teaching Go, especially beginners?
 
@@ -131,7 +131,7 @@ So it is hard for people to ask questions, and I think just bringing that human 
 
 **Brian Ketelsen:** I think that there is definitely a social factor in people not wanting to admit that there are things that they don't know, and I think it changes in different cultures, too. It's a lot stronger in the American culture from what I've seen, and there are definitely other cultures where people have a different approach to what they know and what they don't know.
 
-**Carlisia Campos:** You know what, I'm going to risk and say it might be a universal thing, because I grew up in Brazil and my elementary, all the way up to high-school was done in Brazil. Like Todd, I was the one asking the questions all the time, sometimes up to the point of being a pain in the butt, and 90% of the class wasn't asking questions. It was always like this; I lived in different cities, it was always like this. So it might be normal... most people won't ask questions.
+**Carlisia Pinto:** You know what, I'm going to risk and say it might be a universal thing, because I grew up in Brazil and my elementary, all the way up to high-school was done in Brazil. Like Todd, I was the one asking the questions all the time, sometimes up to the point of being a pain in the butt, and 90% of the class wasn't asking questions. It was always like this; I lived in different cities, it was always like this. So it might be normal... most people won't ask questions.
 
 **Todd McLeod:** \[\\00:36:06.14\\\] Alright, enough theory. Let's model it. Let's all start admitting what we don't know. \[laughter\] Right now.
 
@@ -139,7 +139,7 @@ So it is hard for people to ask questions, and I think just bringing that human 
 
 **Break:** \[\\00:36:18.00\\\]
 
-**Carlisia Campos:** Talking about beginners and teaching, I have a question for Todd that's more generic. I would like to know your opinion about whether kids should learn how to program early on? I will volunteer my opinion - I say usually kids should not be spending time programming early on. Maybe when they are early teens they could start learning, because I think kids should invest time in learning especially how to write. There is so much reasoning and logic that goes into writing, and programming is so much about reasoning and logic, and writing is so important for so many aspects of our lives, that I think you have to make time for programming and you have to cut time from somewhere.
+**Carlisia Pinto:** Talking about beginners and teaching, I have a question for Todd that's more generic. I would like to know your opinion about whether kids should learn how to program early on? I will volunteer my opinion - I say usually kids should not be spending time programming early on. Maybe when they are early teens they could start learning, because I think kids should invest time in learning especially how to write. There is so much reasoning and logic that goes into writing, and programming is so much about reasoning and logic, and writing is so important for so many aspects of our lives, that I think you have to make time for programming and you have to cut time from somewhere.
 
 I'd much rather have kids spending extra time in writing, rather than programming. When they get to a point where they can assimilate things at a faster rate, which will be when they are older, they can pick up programming really quickly. People think that they need to get kids into programming early because it takes so long to learn programming - I don't agree with that. I think when you're ready, you learn fast. So what's your opinion on that? When your students come into your class, do they have a background in programming, do they start early? Do you see there is a difference? Who is better prepared to learn as far as you can tell?
 
@@ -173,11 +173,11 @@ I think it's fantastic if kids could program before 13. I also think if we're go
 
 **Brian Ketelsen:** Yeah, I find it really helps. I ended up doing it in every class this last month.
 
-**Carlisia Campos:** And talking about your online courses, the Udemy course on Go that you have - first of all, I wanna say for everybody to hear, I have seen so many people comment on Slack, on Twitter that they learned Go by doing the Udemy course that you have, and that they loved it.
+**Carlisia Pinto:** And talking about your online courses, the Udemy course on Go that you have - first of all, I wanna say for everybody to hear, I have seen so many people comment on Slack, on Twitter that they learned Go by doing the Udemy course that you have, and that they loved it.
 
 **Todd McLeod:** That's cool.
 
-**Carlisia Campos:** It's over and over and over again. I haven't taken the course yet, but it's definitely on my to-do list. Now, I wanted to ask you why do you think people rave about your course so much?
+**Carlisia Pinto:** It's over and over and over again. I haven't taken the course yet, but it's definitely on my to-do list. Now, I wanted to ask you why do you think people rave about your course so much?
 
 **Todd McLeod:** I don't know, maybe because I'm a goofball. \[laughs\] For me it's kind of like just hanging out here with you guys. It's fun, I like talking, and I like sharing. For me, I approach it as... I hate the ivory tower of academia, and I hate that pretention and ostentation (or however you say that word). I like approachable, and I think we're all in this together; I know some things, so let me share them with you, and I know that all of you can and have -- Bill and Brian, I've learned from you guys... We all learn from each other. I just approach it in that way, and that's how I approach my classes. It's like, "Hey, let's have a good time and enjoy ourselves and figure this stuff out."
 
@@ -190,7 +190,7 @@ In Natalie's experience, she's told me, in the classroom when she's made mistake
 
 **Todd McLeod:** Oh, nice.
 
-**Carlisia Campos:** And we should mention that Todd's giving a coupon code for a discount for his Udemy course. The code is "gotime", so for listeners - you can definitely use that
+**Carlisia Pinto:** And we should mention that Todd's giving a coupon code for a discount for his Udemy course. The code is "gotime", so for listeners - you can definitely use that
 
 **Todd McLeod:** Yeah, and I also really believe in pay it forward, help the world... I only got to where I am because tons of people helped me out along the way. I think 'gotime' gives you access to my courses for $10, so if you can't afford that because you're in a third-world country where 10 USD is a month's wage or something, or you're just a student and you're eating Top Ramen, just send me a note on Twitter and I'll give you free access. Don't even think twice about it; I love to do that, I love to help people out, and it's awesome for me just to see... I truly believe education is one of the noblest of endeavors, and as somebody improves themselves, they're improving the world. Like Gandhi said, "Be the change." If you are that change, if you are making change in your life, if you're educating yourself, you are making the world a better place. And then once you have risen up, once you've lifted yourself up, you're now in a position to lift other people up.
 
@@ -198,7 +198,7 @@ I'm a full believer in doing what I can to help others, and if you can't afford 
 
 **Brian Ketelsen:** We love that attitude. Bill and Erik and I feel the same way about the book that we wrote, and when people ask, we're always glad to help them have it without cost.
 
-**Carlisia Campos:** I think Bill Kennedy gets paid every time he sends somebody a book, because he's always trying to push the book for free to people. \[laughter\]
+**Carlisia Pinto:** I think Bill Kennedy gets paid every time he sends somebody a book, because he's always trying to push the book for free to people. \[laughter\]
 
 **Todd McLeod:** \[\\00:47:59.16\\\] Yeah, he gave my entire class his book. You know, that generous spirit always comes back. You can never have too many friends.
 
@@ -210,11 +210,11 @@ I'm a full believer in doing what I can to help others, and if you can't afford 
 
 **Brian Ketelsen:** So let's more to interesting Go news and projects. I'd like to start this off with something that's interesting but not perhaps awesome - the Reddit Golang Subreddit kerfuffle this week.
 
-**Carlisia Campos:** Oh my god...
+**Carlisia Pinto:** Oh my god...
 
 **Brian Ketelsen:** ...started with the CEO of Reddit deleting things and editing posts, which I find absolutely an abomination. You should never ever change user's content. It's horrible, and I reacted very poorly by saying that Reddit was a "wretched hive of scum and villainy", the Ben Kenobi quote. A lot of people took that poorly... I would like to publicly apologize for mischaracterizing all of Reddit for just the tiny percentage of the world that's really a wretched hive of scum and villany. Most of the people on Reddit are really awesome, especially the Go Reddit, so this is my public apology for my gross overstatement of the issues on Reddit.
 
-**Carlisia Campos:** I wanna say something about that - I saw so many well thought out and kind comments on that thread. People saying, "Let's have temperament. Let's really think this through. Do we really wanna delete Subreddit?" They had a really nice conversation, it was lovely to see.
+**Carlisia Pinto:** I wanna say something about that - I saw so many well thought out and kind comments on that thread. People saying, "Let's have temperament. Let's really think this through. Do we really wanna delete Subreddit?" They had a really nice conversation, it was lovely to see.
 
 **Brian Ketelsen:** So on to more interesting news... Go 1.8 Beta 1 released today, raise your hand if you installed it. I already did. Can you see my hand?
 
@@ -226,7 +226,7 @@ I'm a full believer in doing what I can to help others, and if you can't afford 
 
 **Brian Ketelsen:** I'm afraid of the plugins, honestly. One of the things I loved about Go was that it was static and there was no question at runtime what was going to be happening with your app. The whole idea of dynamically loading other code just opens a whole can of fear for me. I'm sure I'll get over it eventually...
 
-**Carlisia Campos:** I wonder if you could block that from happening. Could you lock a code and say, "Hey, nothing external is going to plug into my code and run."
+**Carlisia Pinto:** I wonder if you could block that from happening. Could you lock a code and say, "Hey, nothing external is going to plug into my code and run."
 
 **Brian Ketelsen:** You have to actually write code to dynamically load other plugins, so it's not gonna happen automatically or by mistake. It's not something that can happen implicitly, you have to explicitly make it happen. But it scares me a little bit, I'll be honest.
 
@@ -244,33 +244,33 @@ I don't even know what kind of speed they're taking over at the garbage collecti
 
 **Todd McLeod:** Yeah, I wanna come sit in on your guys' classes again, get a fresh take on all the material you're teaching. I like learning from you.
 
-**Carlisia Campos:** Really looking forward to taking Brian's online class about... Is it web development the name of the class, Brian?
+**Carlisia Pinto:** Really looking forward to taking Brian's online class about... Is it web development the name of the class, Brian?
 
 **Brian Ketelsen:** Which one?
 
-**Carlisia Campos:** The one that you're doing online.
+**Carlisia Pinto:** The one that you're doing online.
 
 **Brian Ketelsen:** Well, which one? I'm doing a lot online. I've got one at the end of the month, Go for not-beginners... What's it called? Go Beyond The Basics. But it's not necessarily web.
 
-**Carlisia Campos:** Yeah, that one. That's the one.
+**Carlisia Pinto:** Yeah, that one. That's the one.
 
 **Brian Ketelsen:** You'd better hurry up and sign up, too. Last I heard, out of the 300 seats in that there were only 20 left, and it just opened yesterday.
 
-**Carlisia Campos:** I need to find somebody to pay for me. \[laughter\]
+**Carlisia Pinto:** I need to find somebody to pay for me. \[laughter\]
 
 **Brian Ketelsen:** Well, I'm doing it again in January and February, so there'll be time to take it again.
 
-**Carlisia Campos:** Yeah, I'm sure. I'll definitely take it.
+**Carlisia Pinto:** Yeah, I'm sure. I'll definitely take it.
 
 **Bill Kennedy:** Is that one of the classes through O'Reilly?
 
 **Brian Ketelsen:** That's an O'Reilly webinar. I don't know how their new pricing scheme works, but I think it's open for anybody who's a Safari Online member, or something like that. Some really ridiculously lower pricing for Safari people.
 
-**Carlisia Campos:** Oh, I think I signed up for that and haven't canceled at work. \[laughs\]
+**Carlisia Pinto:** Oh, I think I signed up for that and haven't canceled at work. \[laughs\]
 
 **Brian Ketelsen:** Yeah, check it out, because I think it makes a big difference.
 
-**Carlisia Campos:** I'll check it out. Thanks for letting me know.
+**Carlisia Pinto:** I'll check it out. Thanks for letting me know.
 
 **Brian Ketelsen:** And let's see... Oh, oh, oh! This one could not be more exciting. You know, when I get excited about Go packages, holy cow! Travis Jeffery - or Jeffery Travis, I'm not sure which, because they both sound like first names - is writing a Kafka implementation in Go, and I wish I had a dollar for every time I said, "I wish somebody would just rewrite Kafka in Go." Now, somebody's doing it. It's called jocko, it's at github.com/travisjeffery/jocko. It's nearly implemented; I think there's just a few bits left, and when I was talking to him on Twitter he said that the bits that were left were really just a weekend of work. I don't know what quality level it's at - I haven't tried it yet - but I'm so excited.
 
@@ -288,7 +288,7 @@ Distributed log - thank you, Erik St. Martin for jumping in and telling me it's 
 
 **Bill Kennedy:** Hey guys, I'm in the middle of a training in Vancouver at Hootsuite and I gotta get out of here, but I really appreciate you letting me be on the show today. Todd, it was awesome to talk to you. Brian, Carlisia, we'll talk soon. Thank you guys again for letting me be a host today.
 
-**Carlisia Campos:** Thanks a bunch, Bill.
+**Carlisia Pinto:** Thanks a bunch, Bill.
 
 **Todd McLeod:** Yeah, good visiting, Bill.
 
@@ -300,21 +300,21 @@ Distributed log - thank you, Erik St. Martin for jumping in and telling me it's 
 
 I am so excited about Windows Subsystem for Linux; I now run a Surface Book and Linux right on top of it. I don't need my Mac and my Linux and my Windows machine anymore to get all of the different jobs that I need to do. I don't even have a Mac anymore, so thank you to everybody at the WSL team for finally making 2016 the year of Linux on a desktop.
 
-**Carlisia Campos:** You don't have a Mac? That's blasphemy.
+**Carlisia Pinto:** You don't have a Mac? That's blasphemy.
 
 **Brian Ketelsen:** No, it's not. It's awesome. I gotta tell you, it's amazing.
 
-**Carlisia Campos:** Oh my god!
+**Carlisia Pinto:** Oh my god!
 
 **Brian Ketelsen:** There's a handful of things that I miss from my Mac, but I've got Linux, and it's right there, and it's real Linux, and it works.
 
 **Todd McLeod:** Nice.
 
-**Carlisia Campos:** I mean, I get it if you didn't have the Mac before and you just had Linux, but you had a Mac all this time and you just got rid of it.
+**Carlisia Pinto:** I mean, I get it if you didn't have the Mac before and you just had Linux, but you had a Mac all this time and you just got rid of it.
 
 **Brian Ketelsen:** Yeah, I've written a couple blog posts about this. We probably don't have time on this show to go into why I switched, but absolutely I'm happy.
 
-**Carlisia Campos:** Alright, give me the links. \[laughter\] Anyway... I'm gonna break the rule today and I'm not gonna give a shout out to software, I'm going to instead give a shout out to all the Go Meetup organizers. It so happened last night that I was with Erik here in San Diego because he was here for work. And I met up with him and also \[unintelligible 00:59:39.06\] who is the other Go Meetup organizer here in San Diego with me, and also Alex... But anyways, we were talking about meetups, and you know, it's such hard work; I talked to other organizers as well - it's such hard work, and it takes so much grit and really a desire to grow the community and help the community stay together.
+**Carlisia Pinto:** Alright, give me the links. \[laughter\] Anyway... I'm gonna break the rule today and I'm not gonna give a shout out to software, I'm going to instead give a shout out to all the Go Meetup organizers. It so happened last night that I was with Erik here in San Diego because he was here for work. And I met up with him and also \[unintelligible 00:59:39.06\] who is the other Go Meetup organizer here in San Diego with me, and also Alex... But anyways, we were talking about meetups, and you know, it's such hard work; I talked to other organizers as well - it's such hard work, and it takes so much grit and really a desire to grow the community and help the community stay together.
 
 \[\\01:00:02.03\\\] I have a huge appreciation and I wanna give a shout out to everybody. Along the same lines, also I wanna say that I'm gonna be in the Boston area for Christmas, Go Patriots! And I would love to get together with the Meetup organizers there. I'm also gonna be in San Francisco in January and I'm hoping that the San Francisco Meetup is gonna happen on the week that I'm there. Meetups are awesome.
 
@@ -336,4 +336,4 @@ On that note, thanks everybody. We really appreciate this show, it was a fun one
 
 **Todd McLeod:** Yeah, great fun, thank you!
 
-**Carlisia Campos:** Bye!
+**Carlisia Pinto:** Bye!

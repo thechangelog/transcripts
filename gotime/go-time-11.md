@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And Carlisia Campos...
 
-**Carlisia Campos:** Hi, everybody. Glad to be here.
+**Carlisia Pinto:** Hi, everybody. Glad to be here.
 
 **Erik St. Martin:** And our special guest today is the queen of containers, Jessie Frazelle. How are you?
 
@@ -12,21 +12,21 @@
 
 **Erik St. Martin:** Doing great! So we were out last week and we are back; we've got some good news before we get started. Today we're gonna talk to Jessie about all things containers, working on open source projects and any other fun topics that we come up with along the way. Before we get started we have two exciting pieces of news. First, Carlisia is now officially a full-time Go developer.
 
-**Carlisia Campos:** Oh my gosh, yeah!
+**Carlisia Pinto:** Oh my gosh, yeah!
 
 **Erik St. Martin:** Do you wanna tell everybody a little bit about that, Carlisia?
 
-**Carlisia Campos:** Sure. So I've been open to this possibility for a while now, and I will be joining the fine folks at Fastly next week; next Tuesday will be my first day there, and I'll be in San Francisco for my own boring week, and I'll be working remote from San Diego. I'm super excited... You should definitely check out Fastly, they're awesome.
+**Carlisia Pinto:** Sure. So I've been open to this possibility for a while now, and I will be joining the fine folks at Fastly next week; next Tuesday will be my first day there, and I'll be in San Francisco for my own boring week, and I'll be working remote from San Diego. I'm super excited... You should definitely check out Fastly, they're awesome.
 
 **Brian Ketelsen:** That's great, this is great news.
 
 **Erik St. Martin:** We're excited for you.
 
-**Carlisia Campos:** It's such a good team, I love all of them.
+**Carlisia Pinto:** It's such a good team, I love all of them.
 
 **Erik St. Martin:** And no more Ruby.
 
-**Carlisia Campos:** No more Ruby, just Go. APIs and network stuff.
+**Carlisia Pinto:** No more Ruby, just Go. APIs and network stuff.
 
 **Erik St. Martin:** The second piece of news is not only are we not kicked off, but we have sponsors. We actually have two sponsors for this episode. Linode, who will be doing all of our hosting for the Changelog and Go Time CMS' that are being worked on and we've talked about before, and also Equinox. We'll talk a little bit about each of those later in the show, but first let's get started with Jessie.
 
@@ -44,7 +44,7 @@ Jessie, you also have a new job, right?
 
 **Jessie Frazelle:** Yeah, I'll be working on Kubernetes. I don't know specifically what yet. Before, I had previously made a PR to add a \[unintelligible 00:03:09.01\] to Kubernetes, and then I made a pull request to also clean up some Docker files and then \[unintelligible 00:03:17.02\] a few things, so hopefully that's good.
 
-**Carlisia Campos:** \[unintelligible 00:03:20.15\]
+**Carlisia Pinto:** \[unintelligible 00:03:20.15\]
 
 **Jessie Frazelle:** Thanks.
 
@@ -60,13 +60,13 @@ Jessie, you also have a new job, right?
 
 **Jessie Frazelle:** \[\\00:04:00.23\\\] Yeah. \[laughs\]
 
-**Carlisia Campos:** Sarah Allen from Bridge Foundry also just joined Google. She's doing some mobile work and also using Go.
+**Carlisia Pinto:** Sarah Allen from Bridge Foundry also just joined Google. She's doing some mobile work and also using Go.
 
 **Jessie Frazelle:** Nice!
 
 **Brian Ketelsen:** That's awesome news.
 
-**Carlisia Campos:** Yeah.
+**Carlisia Pinto:** Yeah.
 
 **Erik St. Martin:** So first you started out on Docker... You were there for a few years, right? Were you on the founding team? How long were you with Docker?
 
@@ -78,7 +78,7 @@ Jessie, you also have a new job, right?
 
 **Jessie Frazelle:** Yeah, it's definitely painful, and I actually missed it after leaving, which I never thought would happen. But it is super hard to be the person giving people bad news all the time and then taking people's crap when they're frustrated because stuff's not working - which totally makes sense, and I get in that mood too when stuff's not working, and then go yell at some maintainer somewhere. But I think it's easy to forget that there's another human being on the other side of the issue.
 
-**Carlisia Campos:** I wonder if you have opinions on how things could be better for maintainers on such a large project. I'm sure you have opinions.
+**Carlisia Pinto:** I wonder if you have opinions on how things could be better for maintainers on such a large project. I'm sure you have opinions.
 
 **Jessie Frazelle:** Yeah, I have a lot of crazy opinions. One of the most interesting things I think is if the maintainers from Huawei that helped us, they're located in China, I think, but it almost seems like there's a lost-in-translation type of... The fact that they don't insinuate that we're being mean, or something. Because a lot of other people will just read a response out of context and maybe it's just a little blunt, but it wasn't meant to come off that way. So it's kind of funny that we all realize that the Huawei contributors would respond back so nicely, even when maybe we were being a little bit disgruntled. Keeping that in mind for everyone would be cool.
 
@@ -122,7 +122,7 @@ Jessie, you also have a new job, right?
 
 When you're stuck in a maintainer day and the day before that you were just about to finish your thing, it sucks.
 
-**Carlisia Campos:** How's your workflow, Jessie, for accepting PRs or evaluating PRs? Do you download the PR and run it locally in run tests? Or is that automated? How does it work?
+**Carlisia Pinto:** How's your workflow, Jessie, for accepting PRs or evaluating PRs? Do you download the PR and run it locally in run tests? Or is that automated? How does it work?
 
 **Jessie Frazelle:** So normally I would just make sure that it has the first CI passing, which is checking that it's been signed, and all that stupid legal stuff. Then if it's actually green in the CI... Say it's just a small bug fix and they added a test case, I'll go in and check out their change, remove the fix and then make sure that the test fails without it, and then add it back in and make sure that it passes locally too, even though the CI just did it, just for sanity's sake. And then if it's a bigger one, we'll usually have some sort of design review of it first, unless they just popped into the repo and gave us a new feature.
 
@@ -162,7 +162,7 @@ The entire CI once broke because of a stupid kernel bug, and then we ended up up
 
 **Erik St. Martin:** ...like, daily.
 
-**Carlisia Campos:** Daily, I was gonna say.
+**Carlisia Pinto:** Daily, I was gonna say.
 
 **Erik St. Martin:** \[\\00:16:01.12\\\] How can I love tech and hate tech so much at the same time?
 
@@ -190,7 +190,7 @@ Every time I go back to C or C++ and have to wait... Like, "Oh, come on..." I th
 
 **Erik St. Martin:** I guess we should probably stop and talk about sponsors real quick. I think now is a good time, right everybody?
 
-**Carlisia Campos:** Yeah, let's do it.
+**Carlisia Pinto:** Yeah, let's do it.
 
 **Jessie Frazelle:** Cool.
 
@@ -214,7 +214,7 @@ I think Brian was saying you have some experience with Linode, right Jessie?
 
 **Brian Ketelsen:** They do, and they've got really nice Xeon E5 processors, 40 gbps network. You can go to linode.com/gotime to get started, let them know we sent you, because we're awesome and so are they.
 
-**Carlisia Campos:** People are asking if they can make an SDK for Linode. Not only you can, but you should. You should do a Go SDK for Linode. That's what we're looking for.
+**Carlisia Pinto:** People are asking if they can make an SDK for Linode. Not only you can, but you should. You should do a Go SDK for Linode. That's what we're looking for.
 
 **Erik St. Martin:** Right. How long do we have left on this episode? And... Go! \[laughter\]
 
@@ -236,7 +236,7 @@ I've seen this... I think you've talked about it maybe a year or so ago, and I k
 
 **Brian Ketelsen:** \[laughs\] I'm coming in with dragons next week.
 
-**Carlisia Campos:** \[\\00:24:01.28\\\] But this is true, though. These companies have other places they can advertise, and they're advertising with us because they're supporters.
+**Carlisia Pinto:** \[\\00:24:01.28\\\] But this is true, though. These companies have other places they can advertise, and they're advertising with us because they're supporters.
 
 **Brian Ketelsen:** Yay, thanks to our sponsors.
 
@@ -256,11 +256,11 @@ I've seen this... I think you've talked about it maybe a year or so ago, and I k
 
 **Jessie Frazelle:** Yeah...
 
-**Carlisia Campos:** And where do people sign up for the event?
+**Carlisia Pinto:** And where do people sign up for the event?
 
 **Jessie Frazelle:** We have a website, maintainerati.org, and right now it's just a form fill-out with e-mail addresses, and then I think we're gonna send out invites pretty soon, once I get my life together. \[laughs\]
 
-**Carlisia Campos:** Cool.
+**Carlisia Pinto:** Cool.
 
 **Erik St. Martin:** At everything about that I started laughing. Like, "Coming to a bike shed near you" and WONTFIX Cabal.
 
@@ -274,7 +274,7 @@ I've seen this... I think you've talked about it maybe a year or so ago, and I k
 
 **Jessie Frazelle:** Like The Red Wedding Of Containers... \[laughter\]
 
-**Carlisia Campos:** I have very serious concerns for the day after this conference. How all these maintainers anarchists are gonna come back and just not fix things.
+**Carlisia Pinto:** I have very serious concerns for the day after this conference. How all these maintainers anarchists are gonna come back and just not fix things.
 
 **Brian Ketelsen:** Yeah, they're just gonna start closing issues left and right.
 
@@ -296,7 +296,7 @@ I've seen this... I think you've talked about it maybe a year or so ago, and I k
 
 **Erik St. Martin:** \[\\00:28:02.03\\\] You know, I'm not important anymore. Brian used to borrow my dotfiles... \[laughs\]
 
-**Carlisia Campos:** I went to check out her .vim files because I remember Brian mentioning it. Next week I'm getting a brand new machine, and for the first time in three or four years I've decided that I'm going to have clean slates. So I checked out Jessie's .vim file, and not only the vimrc file... She actually has a makefile there for you to run, and just magically configure out the things.
+**Carlisia Pinto:** I went to check out her .vim files because I remember Brian mentioning it. Next week I'm getting a brand new machine, and for the first time in three or four years I've decided that I'm going to have clean slates. So I checked out Jessie's .vim file, and not only the vimrc file... She actually has a makefile there for you to run, and just magically configure out the things.
 
 **Erik St. Martin:** Let's say you're stoked for all of that, that we can have folders for each thing and then when I'm on a machine I can just kind of symlink the things that I want for that machine.
 
@@ -348,11 +348,11 @@ I've seen this... I think you've talked about it maybe a year or so ago, and I k
 
 **Erik St. Martin:** It would keep me up at night if all sorts of other things weren't already keeping me up at night. \[laughter\] It's like there's no more time left. Alright, so everybody wanna talk about any news and projects?
 
-**Carlisia Campos:** I actually had a question for Jessie... Is there time for that still?
+**Carlisia Pinto:** I actually had a question for Jessie... Is there time for that still?
 
 **Erik St. Martin:** Yeah, there's always time for Jessie.
 
-**Carlisia Campos:** Alright, so Jessie, question about your prolific speaking life... What can you share with us? We, who are not speaking, we're not doing lightning talks, we're not doing conference talks - what can you share with us for us to take the first step?
+**Carlisia Pinto:** Alright, so Jessie, question about your prolific speaking life... What can you share with us? We, who are not speaking, we're not doing lightning talks, we're not doing conference talks - what can you share with us for us to take the first step?
 
 **Jessie Frazelle:** Yeah, I think that the first time that I actually spoke somewhere was at a Brooklyn JS meetup in New York. That was really cool, because it was all people that I knew there, so it was a super comfortable feeling. I would almost say that meetups are awesome as a start.
 
@@ -362,13 +362,13 @@ Then I got asked because of Steve Francia to Gotham Go. That was my first big co
 
 **Jessie Frazelle:** Yeah, it's around there. So yeah, I guess even having people to say that you should speak at certain conferences is huge.
 
-**Carlisia Campos:** Yeah, I agree with that. My takeaway here is try to do it in a setting where you know people in the audience, to make effort to invite people who are not speakers to start speaking. I had that experience myself my first time; the first time that I did a lightning talk was my very first programming job, and I had to do it. It was so painful, but I didn't have an option; otherwise I'd be like, "No way!" And I did it.
+**Carlisia Pinto:** Yeah, I agree with that. My takeaway here is try to do it in a setting where you know people in the audience, to make effort to invite people who are not speakers to start speaking. I had that experience myself my first time; the first time that I did a lightning talk was my very first programming job, and I had to do it. It was so painful, but I didn't have an option; otherwise I'd be like, "No way!" And I did it.
 
 The second time that I did it again was a few years later and it wasn't painful at all. So having that person that would just say, "Hey, why don't you do this talk here?" I think it helps a lot.
 
 **Erik St. Martin:** I think nerves get to people, and coming from the other side, too... Brian and I, we're a ball of nerves stepping up on stage, and all we have to do is welcome people, we don't have to give a technical talk. So I think being comfortable with the fact that I think everybody is nervous, and then thinking the crowd doesn't want to see you fail; everybody's rooting for you, everybody wants you to do a good job, so I think getting over that, and more, you're talking to friends... The light you put yourself in sometimes helps. And having other people who speak a lot is also helpful, that can give advice and make people understand that it's normal to feel that way.
 
-**Carlisia Campos:** Yeah, and there are a lot of people who want to help o that front.
+**Carlisia Pinto:** Yeah, and there are a lot of people who want to help o that front.
 
 **Erik St. Martin:** There's been a number of people for GopherCon who have offered to help review talks and to give speaking advice and all that stuff. I'm actually quite surprised how much people rehearse. I never really thought about that.
 
@@ -398,7 +398,7 @@ I was talking to Dave Cheney one time and he was talking about how many times he
 
 **Erik St. Martin:** Alright, so projects and news. Do you have anything exciting that you wanna talk about?
 
-**Carlisia Campos:** Yeah, so talking about presentations... I got some help from Bill Kennedy recently to do my GoBridge talk at the Women Who Go event. So he gives me this formula that he - he was inspired by Dave Cheney's post, or they worked on it together, I'm not very clear on that, but it made me lay out my talk so quickly and easily. Then he reviewed it and I got a better idea of what the formula was.
+**Carlisia Pinto:** Yeah, so talking about presentations... I got some help from Bill Kennedy recently to do my GoBridge talk at the Women Who Go event. So he gives me this formula that he - he was inspired by Dave Cheney's post, or they worked on it together, I'm not very clear on that, but it made me lay out my talk so quickly and easily. Then he reviewed it and I got a better idea of what the formula was.
 
 I got so excited about it that I submitted two lightning talks for GopherCon... One for GopherCon and one for the kickoff party. I was like, "Yeah, I've got this, no problem. I can write... I have a formula and I just fill stuff in, and voila!"
 
@@ -408,7 +408,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** I'll have to find some, too. Katrina Owen sent a bunch of links and videos and book suggestions on Twitter for public speaking stuff. I'll find those...
 
-**Carlisia Campos:** I know you're super busy - if you give them to me I'll put it in. She's also on the Women Who Go channel and she has put a bunch of information. She opened a \[unintelligible 00:39:37.10\] Women, we have resources! I wanna get this thing kicked off. I know Cassandra Gil from Iron.io was looking for women to speak at the GopherFest recently, and she only got one submission from a woman, and it wasn't even technical enough. There are women Gophers out there, so let's get them speaking.
+**Carlisia Pinto:** I know you're super busy - if you give them to me I'll put it in. She's also on the Women Who Go channel and she has put a bunch of information. She opened a \[unintelligible 00:39:37.10\] Women, we have resources! I wanna get this thing kicked off. I know Cassandra Gil from Iron.io was looking for women to speak at the GopherFest recently, and she only got one submission from a woman, and it wasn't even technical enough. There are women Gophers out there, so let's get them speaking.
 
 **Jessie Frazelle:** \[\\00:40:04.00\\\] Totally!
 
@@ -418,7 +418,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** I'm the only one who missed out. I was sitting home with FOMO.
 
-**Carlisia Campos:** There were a lot of people I didn't get to talk to, Jessie included. The time just went by so fast. It was awesome.
+**Carlisia Pinto:** There were a lot of people I didn't get to talk to, Jessie included. The time just went by so fast. It was awesome.
 
 **Erik St. Martin:** I feel that way every year at GopherCon. It's like, "Yay, we're here! This is gonna be awesome!" And then it's like we're packing up and leaving.
 
@@ -434,7 +434,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** That's awesome. We have to get Peter on some time too and check GoKit.
 
-**Carlisia Campos:** Yeah, definitely.
+**Carlisia Pinto:** Yeah, definitely.
 
 **Erik St. Martin:** I wanna talk about a post I saw by Francesc on... I forget what he called it; it was like analyzing code with BigQuery, or something.
 
@@ -446,11 +446,11 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** I wanna see what the bill is to do that. How much did that blog post cost?
 
-**Carlisia Campos:** What I wanna know is what is his budget?
+**Carlisia Pinto:** What I wanna know is what is his budget?
 
 **Jessie Frazelle:** Oh, yeah...
 
-**Carlisia Campos:** Right?
+**Carlisia Pinto:** Right?
 
 **Brian Ketelsen:** Alright, Jessie, you're the insider now. You gotta tell us what his budget is.
 
@@ -520,19 +520,19 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** But I geek out over a lot of their posts, just because they're all super low level and technical.
 
-**Carlisia Campos:** Well, now I'm gonna have to ask - do you ever read the Fastly blog?
+**Carlisia Pinto:** Well, now I'm gonna have to ask - do you ever read the Fastly blog?
 
 **Erik St. Martin:** No, I actually haven't.
 
-**Carlisia Campos:** They have a very good blog, too.
+**Carlisia Pinto:** They have a very good blog, too.
 
 **Erik St. Martin:** You're giving me more stuff to read here... I don't have time for this.
 
-**Carlisia Campos:** Well, just read the right thing then. \[laughs\]
+**Carlisia Pinto:** Well, just read the right thing then. \[laughs\]
 
 **Erik St. Martin:** So I need somebody to curate these lists for me. \[laughter\] Brian does it with GitHub projects. He just comes to me with a list of the cool ones, I don't have to dig through the whole thing. Now I just need somebody to give me a curated list of technical blog posts. The more technical, the better. I like when they make me feel dumb, because that means I have to learn stuff to understand it. Some of these - it's not hard to make me feel dumb either.
 
-**Carlisia Campos:** \[\\00:47:57.24\\\] There is one more project I wanted to mention. Jesús Garcia Crespo, he mentioned Concourse and I hadn't heard about it. It's an open source CI system for Go, so if you wanna host your own CI, there you go.
+**Carlisia Pinto:** \[\\00:47:57.24\\\] There is one more project I wanted to mention. Jesús Garcia Crespo, he mentioned Concourse and I hadn't heard about it. It's an open source CI system for Go, so if you wanna host your own CI, there you go.
 
 **Brian Ketelsen:** That's a good one. \[cross-talk\]
 
@@ -542,7 +542,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** No, I was just gonna say that I tend to lean towards either Jenkins or Bamboo just out of habit, but I need to give something else a try. I haven't run my own CI locally in quite some time. The other thing I actually just saw on Twitter just before we started the show was that etcd3 is now out.
 
-**Carlisia Campos:** Oh wow, cool.
+**Carlisia Pinto:** Oh wow, cool.
 
 **Brian Ketelsen:** What's changed there? Etcd2 brought gRPC, didn't it? I wonder what the big change is for etcd3.
 
@@ -574,15 +574,15 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Brian Ketelsen:** Yeah, thanks for feeding this stuff to us, guys.
 
-**Carlisia Campos:** Talking about feeding, Jerod just reminded us that there is such a thing called Changelog Weekly; if you're looking for feeds of awesome stuff, there we go. Erik...
+**Carlisia Pinto:** Talking about feeding, Jerod just reminded us that there is such a thing called Changelog Weekly; if you're looking for feeds of awesome stuff, there we go. Erik...
 
 **Erik St. Martin:** That is right, how did we not talk about Changelog Weekly?
 
-**Carlisia Campos:** Yeah. It's every Saturday morning. Usually I sleep in a little, then I get up and I open my phone, and there it is.
+**Carlisia Pinto:** Yeah. It's every Saturday morning. Usually I sleep in a little, then I get up and I open my phone, and there it is.
 
 **Erik St. Martin:** Your sleeping in is like 6 AM. You're always up at like 5 AM.
 
-**Carlisia Campos:** Yeah...
+**Carlisia Pinto:** Yeah...
 
 **Brian Ketelsen:** That's funny, because I don't look forward to Changelog Weekly nearly as much as I look forward to Changelog Nightly, which I get almost midnight every night. That's when I know it's time to go to bed. I look at Changelog Nightly, which has a list of all of the bursting in interest things on GitHub; it kind of shows you the projects that are taking off on GitHub, and that's kind of a neat way to catch new and interesting projects. So the Changelog Nightly e-mail is my cue to go to bed. When I see that come through, I read it and then I go to bed.
 
@@ -598,7 +598,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Brian Ketelsen:** Yeah, just wait for somebody to tell us on slack what the URL is. On that note, we should probably move on to \#FreeSoftwareFriday. Every week we like to say a shout out to either the projects or the maintainers of open source projects that make us happy, and it's something that we enjoy quite a bit because we know that often times running an open source project or maintaining an open source project is a thankless job. So I'll start off this week with jq. It's the most awesome command-line tool ever if you need to deal with JSON. You can pipe JSON to jq and pull out a single element, you can reformat it, you can pretify it... Pretty much anything you need to do with JSON on the command-line, jq is your tool. It's written in C, it's super fast, and I think it should be installed just like awk and sed and grep. It should be a standard UNIX utility.
 
-**Carlisia Campos:** That's pretty cool.
+**Carlisia Pinto:** That's pretty cool.
 
 **Jessie Frazelle:** Nice, I use that all the time. And yes, it should be in the core utils.
 
@@ -608,17 +608,17 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** Carlisia, what do you have?
 
-**Carlisia Campos:** I have this tool called goconvey...
+**Carlisia Pinto:** I have this tool called goconvey...
 
 **Erik St. Martin:** Yes!
 
-**Carlisia Campos:** See, I had never seen this. I don't use it - just a disclaimer - it was mentioned to me by Ricardo Longa. It's a tool for testing Go, but if you haven't used it or don't know, you have to go on the repo to check it out, because it's impossible to explain. It just makes your tests run on your browser, and it's pretty and colorful.
+**Carlisia Pinto:** See, I had never seen this. I don't use it - just a disclaimer - it was mentioned to me by Ricardo Longa. It's a tool for testing Go, but if you haven't used it or don't know, you have to go on the repo to check it out, because it's impossible to explain. It just makes your tests run on your browser, and it's pretty and colorful.
 
 **Brian Ketelsen:** Yes, goconvey is really nice. There's two pieces to it - they have their own assertion, BDD sort of language framework, but the other piece is that they've got that beautiful UI for running your tests. You can open up your browser and you can watch everything be green or flash red when there are errors, and that doesn't require using their special test framework. You can use it with the standard testing package. So goconvey is really nice, we use that.
 
 **Erik St. Martin:** That seems to be the confusion for some people, unless they changed the website. It used to focus a lot on the custom assertion framework they had, and it wasn't as noticeable, but you can use that, which is standard library testing.
 
-**Carlisia Campos:** Yes, thanks for the clarification, because being that I haven't used it, I don't know all the details. Thank you for that.
+**Carlisia Pinto:** Yes, thanks for the clarification, because being that I haven't used it, I don't know all the details. Thank you for that.
 
 **Erik St. Martin:** Yeah, it's cool. It does browser notifications and stuff that show you passes and fails and all that stuff, so you can just kind of keep running. It's a really cool project.
 
@@ -632,15 +632,15 @@ Then also my co-worker from Docker, Michael Crosby, he has the world's best gist
 
 **Jessie Frazelle:** Yeah, and he's gonna be mad at me for stalking his gists.
 
-**Carlisia Campos:** We need the link, what is the link, the account?
+**Carlisia Pinto:** We need the link, what is the link, the account?
 
 **Jessie Frazelle:** The GPG get is BrianRedbeard/gpgget and then just CrosbyMichael on GitHub gists.
 
-**Carlisia Campos:** Okay, cool.
+**Carlisia Pinto:** Okay, cool.
 
 **Erik St. Martin:** I'll link Michael... We've seen a bunch of stuff by him before, too.
 
-**Carlisia Campos:** Yeah, because you all know him.
+**Carlisia Pinto:** Yeah, because you all know him.
 
 **Erik St. Martin:** Yeah, from back in the whole Skynet thing, that kind of got abandoned.
 
@@ -670,7 +670,7 @@ Then also my co-worker from Docker, Michael Crosby, he has the world's best gist
 
 **Erik St. Martin:** Nice...
 
-**Carlisia Campos:** Of course you do!
+**Carlisia Pinto:** Of course you do!
 
 **Erik St. Martin:** That's not your work computer, is it?
 
@@ -712,7 +712,7 @@ Then also my co-worker from Docker, Michael Crosby, he has the world's best gist
 
 **Brian Ketelsen:** I don't think there's anything we didn't cover.
 
-**Carlisia Campos:** This show was awesome!
+**Carlisia Pinto:** This show was awesome!
 
 **Brian Ketelsen:** Did we miss anything on the whole internet today? I don't think so.
 
@@ -734,7 +734,7 @@ Show notes - we will have everything we've talked about, and we will put links t
 
 Oh, and next week we're gone, because all of us here will be at GopherCon, so we can have a live roundtable discussion. Not live like recorded, but live like come-talk-to-us discussion.
 
-**Carlisia Campos:** It's not next week, though. Next week we have Beyang.
+**Carlisia Pinto:** It's not next week, though. Next week we have Beyang.
 
 **Erik St. Martin:** That's right!
 
@@ -756,13 +756,13 @@ Oh, and next week we're gone, because all of us here will be at GopherCon, so we
 
 **Jessie Frazelle:** Yes, like Bingo!
 
-**Carlisia Campos:** Bingo, yeah! \[laughs\]
+**Carlisia Pinto:** Bingo, yeah! \[laughs\]
 
 **Erik St. Martin:** And turn it into a whole game for everybody. They have to acquire something from each person on the list...
 
 **Jessie Frazelle:** Nice...
 
-**Carlisia Campos:** So Jessie is not on the GoTime Slack channel, but Adam is saying, "Say hi on camera with us, Jessie." That's Adam from Changelog.
+**Carlisia Pinto:** So Jessie is not on the GoTime Slack channel, but Adam is saying, "Say hi on camera with us, Jessie." That's Adam from Changelog.
 
 **Erik St. Martin:** Oh yeah, that's right, Changelog will be there, because we love Changelog. They'll be there doing interviews with everybody, so yeah, come over and say hi on camera.
 
@@ -792,7 +792,7 @@ Oh, and next week we're gone, because all of us here will be at GopherCon, so we
 
 **Brian Ketelsen:** Everybody's just telling us what to do on Slack now...
 
-**Carlisia Campos:** We are scripted. \[laughs\]
+**Carlisia Pinto:** We are scripted. \[laughs\]
 
 **Erik St. Martin:** See, I'm telling you they don't need us. \[laughter\]
 
@@ -800,21 +800,21 @@ Oh, and next week we're gone, because all of us here will be at GopherCon, so we
 
 **Erik St. Martin:** So at GopherCon we will be giving out T-shirts, so if you want a T-shirt... Has everybody noticed the cool logo for GoTime now? It's like this cool little sphere thing, but if you look closely there's a hidden Gopher in it...
 
-**Carlisia Campos:** No, no... NO!
+**Carlisia Pinto:** No, no... NO!
 
 **Brian Ketelsen:** You spoiled the secret, Erik...
 
-**Carlisia Campos:** You spoiled it, Erik.
+**Carlisia Pinto:** You spoiled it, Erik.
 
 **Erik St. Martin:** It was supposed to be a secret?
 
-**Carlisia Campos:** It was supposed to be something you discover on your own, like "Oh my gosh, there's a Gopher here! All along, for three years I haven't seen it!"
+**Carlisia Pinto:** It was supposed to be something you discover on your own, like "Oh my gosh, there's a Gopher here! All along, for three years I haven't seen it!"
 
 **Jessie Frazelle:** That's so cute!
 
 **Erik St. Martin:** It's trippy, isn't it?
 
-**Carlisia Campos:** I had such a kick when I noticed it.
+**Carlisia Pinto:** I had such a kick when I noticed it.
 
 **Erik St. Martin:** I don't know, I think I see Gophers all the time, so it's like as soon as I saw the logo I saw the Gopher.
 
@@ -824,7 +824,7 @@ Oh, and next week we're gone, because all of us here will be at GopherCon, so we
 
 **Brian Ketelsen:** See? There's no secret. You didn't screw it up, Erik. Good job.
 
-**Carlisia Campos:** No, it's alright.
+**Carlisia Pinto:** No, it's alright.
 
 **Erik St. Martin:** Alright, so I think we're extending everything. We should probably wrap this up though. As we've already said all of our closing stuff, I guess all that's left is goodbyes, and we'll see everybody next week.
 
@@ -832,7 +832,7 @@ Oh, and next week we're gone, because all of us here will be at GopherCon, so we
 
 **Jessie Frazelle:** Thank you for having me, this was cool!
 
-**Carlisia Campos:** Thanks, Jessie. This was super fun!
+**Carlisia Pinto:** Thanks, Jessie. This was super fun!
 
 **Erik St. Martin:** Yeah, we'll have you back on when you get more into what you're doing at Kubernetes, and you can talk to us about it.
 
@@ -850,4 +850,4 @@ Oh, and next week we're gone, because all of us here will be at GopherCon, so we
 
 **Brian Ketelsen:** Goodbye.
 
-**Carlisia Campos:** Bye!
+**Carlisia Pinto:** Bye!

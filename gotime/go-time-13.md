@@ -6,7 +6,7 @@ Today on the show we have myself, Erik St. Martin, Brian Ketelsen is also on the
 
 **Erik St. Martin:** So half of Brian Ketelsen is on the line, and then we also have Carlisia Campos...
 
-**Carlisia Campos:** Alive and kicking after GopherCon.
+**Carlisia Pinto:** Alive and kicking after GopherCon.
 
 **Erik St. Martin:** And our special guest for today's show is Francesc Campoy from the Go Team. Say hello, Francesc.
 
@@ -20,13 +20,13 @@ Today on the show we have myself, Erik St. Martin, Brian Ketelsen is also on the
 
 **Erik St. Martin:** I spent airline time doing the inbox zero thing.
 
-**Carlisia Campos:** I haven't been at inbox zero for a long, long time.
+**Carlisia Pinto:** I haven't been at inbox zero for a long, long time.
 
 **Brian Ketelsen:** So I didn't have to do laundry because I got so many shirts at GopherCon, I'm just wearing them one at the time. At some point I'll run out... Then I'll have to maybe do laundry this weekend. But it's pretty nice getting a lot of shirts.
 
 **Erik St. Martin:** How do people even manage collecting all of that swag? You need to bring a second suitcase just to bring home swag.
 
-**Carlisia Campos:** Or you do it like me... Because I was there the year before, I went prepared. My suitcase was small and pretty much empty, because I knew, like I basically only need one T-shirt, because I'm gonna get T-shirts for the rest of the days.
+**Carlisia Pinto:** Or you do it like me... Because I was there the year before, I went prepared. My suitcase was small and pretty much empty, because I knew, like I basically only need one T-shirt, because I'm gonna get T-shirts for the rest of the days.
 
 **Erik St. Martin:** I can't keep mine, my wife likes to steal all of them. I think we need to have people make less comfortable shirts and then they won't get stolen. \[laughter\] So Francesc, do you wanna talk to us a little bit about your talk at GopherCon? It was actually really interesting to put that much attention on Nil, which I think from most people's perspective, when you talk about it, it's for bad reasons and not for good uses, and why nil should be embraced.
 
@@ -90,7 +90,7 @@ To be honest, I was nervous also about being the first person on stage, but then
 
 **Erik St. Martin:** Yeah, so it takes a couple weeks, up to a month. I would say by time it's hit one month out, the videos should be out. I think last year 18 days or something along those lines is what it took us to get them live.
 
-**Carlisia Campos:** Did they all come out at once?
+**Carlisia Pinto:** Did they all come out at once?
 
 **Erik St. Martin:** Yeah, they send a hard drive of all of them, and then I set my computer loose on uploading to YouTube.
 
@@ -110,7 +110,7 @@ To be honest, I was nervous also about being the first person on stage, but then
 
 **Francesc Campoy:** Yeah. Fun fact - she doesn't speak English... She loved the talk; she doesn't know what I said, but she loved the talk.
 
-**Carlisia Campos:** As Scott mentioned on GoTime FM gophers channel - the conference is local, but the content is pretty relevant to everybody, and it has a pretty wide range of talks, and of course people all over the world can benefit.
+**Carlisia Pinto:** As Scott mentioned on GoTime FM gophers channel - the conference is local, but the content is pretty relevant to everybody, and it has a pretty wide range of talks, and of course people all over the world can benefit.
 
 I wanna mention this because it was so awesome... Yesterday the Remote Meet streamed the GoSF meetup, and it was amazing. This business of streaming is awesome, we need to keep doing it.
 
@@ -158,7 +158,7 @@ I know that Chris Bradford was there and he took a bunch of notes, and I'm looki
 
 **Brian Ketelsen:** We probably would have had to have some special dispensation from the damn fire marshal, though. Don't get me started on that dire marshal.
 
-**Carlisia Campos:** We should have a Gopher parade to open GopherCon.
+**Carlisia Pinto:** We should have a Gopher parade to open GopherCon.
 
 **Erik St. Martin:** We need a Gopher fire marshal.
 
@@ -186,7 +186,7 @@ I know that Chris Bradford was there and he took a bunch of notes, and I'm looki
 
 Even behavior... Like, I know in the Slack channel I've been quick to answer a question, and I'll link to a section of the language spec, and it makes it look like that's just knowledge I have in my head. Like, "Oh yeah, right here, in the language spec." And it's like no, often times I vaguely remember there being some rule about that, I look it up real quick and then link somebody to it. But the outside perspective is that there's a bunch of us running around and we just memorize this stuff, and it's just not true.
 
-**Carlisia Campos:** \[\\00:20:11.06\\\] And I think she also did a really great job, like you were saying Francesc, in articulating what we were thinking... I couldn't even point towards what she said before I heard her say it, and now I can, which is there is no clear path for a person who is a newcomer to Go to being proficient, or a person who's a beginner to programming and being proficient in Go; and we know Go is a very simple language to learn. So there should not be this barrier, and a lot of people were having this conversation at the conference and even after the conference.
+**Carlisia Pinto:** \[\\00:20:11.06\\\] And I think she also did a really great job, like you were saying Francesc, in articulating what we were thinking... I couldn't even point towards what she said before I heard her say it, and now I can, which is there is no clear path for a person who is a newcomer to Go to being proficient, or a person who's a beginner to programming and being proficient in Go; and we know Go is a very simple language to learn. So there should not be this barrier, and a lot of people were having this conversation at the conference and even after the conference.
 
 For example \[unintelligible 00:20:53.25\] did a beautiful blog post about Go being for everyone, and I think it is going to be very healthy for us to identify what we need to do and why we need to do these things, because I think a lot of us want people to join the community, and not just because we want everybody to do Go, but if you do want to do Go or try it out, there should be an easy path for you. You should be not only welcome in the community as a person, which I think we're doing a great job at that, and we can talk more about that too, but also as far as learning the language.
 
@@ -210,11 +210,11 @@ I agree that in general the exercises tend to be a little bit too complex, and i
 
 **Erik St. Martin:** Yeah, and I think for anybody who has more of a formal background some of these things seem clearer than people who are more autodidact, they've taught themselves to program and maybe don't have the formal...
 
-**Carlisia Campos:** While on subject, there was a lightning talk by this guy, and I keep forgetting his name... I'm looking on the GopherCon repo for the 2016 talks and I can't identify his \[unintelligible 00:26:55.16\] maybe he hasn't added it yet. In any case, he has this proposal about doing an open source collaborative effort in putting together a book, and he has some specific ideas I thought were brilliant. I'm hoping he was going to go forward with that. I'd love to get people connected to get that... Landon Jones, yes. He's a firecracker. I hope this takes off.
+**Carlisia Pinto:** While on subject, there was a lightning talk by this guy, and I keep forgetting his name... I'm looking on the GopherCon repo for the 2016 talks and I can't identify his \[unintelligible 00:26:55.16\] maybe he hasn't added it yet. In any case, he has this proposal about doing an open source collaborative effort in putting together a book, and he has some specific ideas I thought were brilliant. I'm hoping he was going to go forward with that. I'd love to get people connected to get that... Landon Jones, yes. He's a firecracker. I hope this takes off.
 
 **Francesc Campoy:** What talk was this you said?
 
-**Carlisia Campos:** It was a lightning talk on the first day.
+**Carlisia Pinto:** It was a lightning talk on the first day.
 
 **Erik St. Martin:** Yeah, he was talking about building a book for high-school students, or something along those lines. I didn't see the talk, but I remember people referring to it.
 
@@ -222,7 +222,7 @@ I agree that in general the exercises tend to be a little bit too complex, and i
 
 **Francesc Campoy:** Cool. I'll take it out whenever the \[unintelligible 00:27:53.02\]
 
-**Carlisia Campos:** If Renee cannot help him, I know a designer who can take Renee's graphics and really do something amazing.
+**Carlisia Pinto:** If Renee cannot help him, I know a designer who can take Renee's graphics and really do something amazing.
 
 **Francesc Campoy:** \[\\00:28:03.12\\\] Now that you mentioned Renee, I gotta say that if Katrina's was my favorite talk, Renee's was probably the second one, or maybe the first one. It is hard to choose, because they're very different, but Renee's talk was amazing, and I'm just so happy you had such a non-technical talk at such a conference. It was great.
 
@@ -234,7 +234,7 @@ I agree that in general the exercises tend to be a little bit too complex, and i
 
 And I loved that she credited a lot of artists who have been doing our work surrounding the Gopher recently, too. It's kind of fun to see her take on that.
 
-**Carlisia Campos:** I want to encourage people to watch it, if they didn't watch it at the conference. It's not just an amazing talk about the Gopher... She really went deep into the design process, her process, how she approached it, and you will never look at the Gophie the same again.
+**Carlisia Pinto:** I want to encourage people to watch it, if they didn't watch it at the conference. It's not just an amazing talk about the Gopher... She really went deep into the design process, her process, how she approached it, and you will never look at the Gophie the same again.
 
 **Brian Ketelsen:** My favorite part was that she stayed after the talk and gave out those cute little Gopher sheets with custom-drawn Gophers on the back of them that she autographed. I don't know how many people were able to take advantage of that, but I saw dozens and dozens of people walking around with them. I thought that was adorable.
 
@@ -270,7 +270,7 @@ So this is a good time for us to stop and take a break and thank our sponsor Lin
 
 **Francesc Campoy:** Totally safe dot pointer. Yeah, and it works.
 
-**Carlisia Campos:** That sounds like a website we should have.
+**Carlisia Pinto:** That sounds like a website we should have.
 
 **Brian Ketelsen:** \[unintelligible 00:35:37.11\] I think we need to make a new top-level domain, .pointer.
 
@@ -310,11 +310,11 @@ I've been working on something similar to that; I'm still in a very, very early 
 
 There is also another idea that I think came from Katrina. Katrina works at Github, and they sponsored this thing called First Robotics. We were wondering, could robotics be a good place for Go to be taught? So if we're able to make Gobot work easily on the robots, then it could be a fun thing for kids to learn how to program those bots and go around just by writing Go.
 
-**Carlisia Campos:** Were you at the San Francisco meetup yesterday, Francesc?
+**Carlisia Pinto:** Were you at the San Francisco meetup yesterday, Francesc?
 
 **Francesc Campoy:** Yes, I was there, but I had to leave, so I missed \[unintelligible 00:42:04.16\] talk. I know he was recorded, so I'm looking forward to watching it, too.
 
-**Carlisia Campos:** Yeah, that's exactly what I was gonna mention. She is gonna put out a proposal to have an abstraction of a lot of the interface that will be required for Go to work with the hardware, including robotics and Gobots. Whenever that comes out, people should try to contribute. To make that happen, we will need to have a better interface.
+**Carlisia Pinto:** Yeah, that's exactly what I was gonna mention. She is gonna put out a proposal to have an abstraction of a lot of the interface that will be required for Go to work with the hardware, including robotics and Gobots. Whenever that comes out, people should try to contribute. To make that happen, we will need to have a better interface.
 
 **Erik St. Martin:** And Ron Evans from the Hybrid Group, who does our Gobot room every year for Hack Day, he loves kids. I don't think there's anything he loves more than teaching kids about robotics and programming.
 
@@ -322,7 +322,7 @@ There is also another idea that I think came from Katrina. Katrina works at Gith
 
 **Erik St. Martin:** Did you get to hack on any robots, anybody?
 
-**Carlisia Campos:** I actually had to leave early, which was a huge mistake. That was actually a totally different day, it was totally relaxed, everybody had done their talks, everybody had watched their talks, and I felt such a relaxed atmosphere. The next year I'm not gonna make this mistake again, because I did the same mistake last year. So next year I'm going to stay for the whole day.
+**Carlisia Pinto:** I actually had to leave early, which was a huge mistake. That was actually a totally different day, it was totally relaxed, everybody had done their talks, everybody had watched their talks, and I felt such a relaxed atmosphere. The next year I'm not gonna make this mistake again, because I did the same mistake last year. So next year I'm going to stay for the whole day.
 
 **Erik St. Martin:** \[\\00:43:48.09\\\] Yeah, so Hack Day was really like a happy accident. The first year we were talking about everybody was probably gonna be flying home, flying for different states, different countries, so they would fly out at random parts of the day... Like, let's just reserve this space for longer - we get a better rate anyway - and then people can just kind of hang out and collaborate until they have to leave for their flight. Then it turned out half the people stayed; they wanted to stay, so we kind of turned it into this thing.
 
@@ -382,21 +382,21 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Erik St. Martin:** Yeah, he probably would have done it, too. He probably could have got up there and just spoke for me.
 
-**Carlisia Campos:** Yeah, we talked about that.
+**Carlisia Pinto:** Yeah, we talked about that.
 
 **Erik St. Martin:** My stand-in.
 
-**Carlisia Campos:** You're gonna be at the Kubernetes conference, right Erik?
+**Carlisia Pinto:** You're gonna be at the Kubernetes conference, right Erik?
 
 **Erik St. Martin:** I'm gonna submit a proposal.
 
 **Brian Ketelsen:** Excellent. Then you have to get on camera.
 
-**Carlisia Campos:** Yeah.
+**Carlisia Pinto:** Yeah.
 
 **Erik St. Martin:** Yeah, that's true.
 
-**Carlisia Campos:** Maybe he didn't know that, Brian.
+**Carlisia Pinto:** Maybe he didn't know that, Brian.
 
 **Erik St. Martin:** Right, now you're ruining it. You're supposed to tell me after I submit the proposal.
 
@@ -416,33 +416,33 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Brian Ketelsen:** And I kind of didn't know what to say. I said, "You know, Barcelona would be a beautiful place to have a GopherCon. I've never thought of having one there, but I've been to Barcelona and it's beautiful. That's a great idea." And he continues to stare and "Look, I think it's a great idea." It was very Russian-mafia looking, I felt a little threatened.
 
-**Carlisia Campos:** I'd be very glad to see that. Also, that reminds me, GopherCon Brasil is happening. It's going to be in November 11 and 12, with possibly a workshop in the 13th, but we'll see about that one. The date is set, so start booking the tickets. The hotel is already settled as well. The website should be up maybe tonight.
+**Carlisia Pinto:** I'd be very glad to see that. Also, that reminds me, GopherCon Brasil is happening. It's going to be in November 11 and 12, with possibly a workshop in the 13th, but we'll see about that one. The date is set, so start booking the tickets. The hotel is already settled as well. The website should be up maybe tonight.
 
 **Brian Ketelsen:** Wow.
 
-**Carlisia Campos:** Yeah, it's happening.
+**Carlisia Pinto:** Yeah, it's happening.
 
 **Erik St. Martin:** You move fast.
 
-**Carlisia Campos:** Uh-huh.
+**Carlisia Pinto:** Uh-huh.
 
 **Erik St. Martin:** Oh, and speaking of Renee, too... The logo that she turned around, that was awesome.
 
-**Carlisia Campos:** Yeah. To clarify, Renee did a sketch for our logo and it was so cute. It's a little gopher with a belly and sitting on the beach, drinking something.
+**Carlisia Pinto:** Yeah. To clarify, Renee did a sketch for our logo and it was so cute. It's a little gopher with a belly and sitting on the beach, drinking something.
 
 **Francesc Campoy:** I really wanna see that logo now.
 
-**Carlisia Campos:** I'll paste it on the channel for you right now.
+**Carlisia Pinto:** I'll paste it on the channel for you right now.
 
 **Brian Ketelsen:** You can't upload it on a podcast. \[laughter\]
 
-**Carlisia Campos:** But we have a Gophers channel. So the CFP - people are asking - is going to be up next week. The registration should be up tomorrow, the website should be up tomorrow, the CFP should be up next week, and we're also going to have the prospectus to send to potential sponsors next week as well. So talk to me... There are six organizers, I'm one of them. Talk to me if you're interested in sponsoring. I'm sorry, that's it. I'll stop now.
+**Carlisia Pinto:** But we have a Gophers channel. So the CFP - people are asking - is going to be up next week. The registration should be up tomorrow, the website should be up tomorrow, the CFP should be up next week, and we're also going to have the prospectus to send to potential sponsors next week as well. So talk to me... There are six organizers, I'm one of them. Talk to me if you're interested in sponsoring. I'm sorry, that's it. I'll stop now.
 
 **Erik St. Martin:** No, it's a good thing. Back to hackling... Somebody totally registered github.com/totesafe.
 
 **Brian Ketelsen:** No way.
 
-**Carlisia Campos:** That must have been Scott.
+**Carlisia Pinto:** That must have been Scott.
 
 **Erik St. Martin:** I think it was Florin who did it.
 
@@ -484,17 +484,17 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Brian Ketelsen:** Yes, let's.
 
-**Carlisia Campos:** Can I mention one quick thing?
+**Carlisia Pinto:** Can I mention one quick thing?
 
 **Erik St. Martin:** You sure can.
 
-**Carlisia Campos:** Because it's very much in the spirit of GoperCon. I wanna mention that there is now a CleverGopher channel on Gopher Slack for you to post and see pictures of our gophies in clever places and poses.
+**Carlisia Pinto:** Because it's very much in the spirit of GoperCon. I wanna mention that there is now a CleverGopher channel on Gopher Slack for you to post and see pictures of our gophies in clever places and poses.
 
 **Erik St. Martin:** \[\\00:56:10.24\\\] There's been a lot of interesting photos that have come through there. And I also find it interesting that every episode there's a new channel that's announced, or discovered, or created on the show. \[laughter\] Every single episode.
 
 **Brian Ketelsen:** It's true. I think the best one was Florin's picture of the gopher in the cockpit of an airplane. It looked like a 737 to me, I'm not sure. It might be an Airbus, but there's a gopher in the cockpit of an airplane.
 
-**Carlisia Campos:** I didn't think that was allowed, and I was thinking "How did he manage that? Did he arm-wrestle the pilots? Did he get arrested afterwards?"
+**Carlisia Pinto:** I didn't think that was allowed, and I was thinking "How did he manage that? Did he arm-wrestle the pilots? Did he get arrested afterwards?"
 
 **Erik St. Martin:** I'm hoping TSA wasn't involved. Although what was this swag... Was it year one that there was some piece of swag that was triggering something in TSA and everybody was getting their bags checked?
 
@@ -530,17 +530,17 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Erik St. Martin:** How about you, Carlisia?
 
-**Carlisia Campos:** On the topic of Brasil, there's this open source project called Tsuru. It's a Platform as a Service, open source of course. It was put out by Global.com. Global is this huge media company in Brasil. It's a project that came out of Brasil, and most of the maintainers if not all are Brazilian developers. I'm not an infra person, I usually don't deal with infra, only the minimum, but it's been described to me as like an alternative to Heroku. It's a huge project, I was surprized when I saw it. It's been used by big companies, so check it out. It could be useful to you.
+**Carlisia Pinto:** On the topic of Brasil, there's this open source project called Tsuru. It's a Platform as a Service, open source of course. It was put out by Global.com. Global is this huge media company in Brasil. It's a project that came out of Brasil, and most of the maintainers if not all are Brazilian developers. I'm not an infra person, I usually don't deal with infra, only the minimum, but it's been described to me as like an alternative to Heroku. It's a huge project, I was surprized when I saw it. It's been used by big companies, so check it out. It could be useful to you.
 
 **Erik St. Martin:** And apparently all written in Go.
 
 **Brian Ketelsen:** It is, yeah.
 
-**Carlisia Campos:** Yeah, of course.
+**Carlisia Pinto:** Yeah, of course.
 
 **Brian Ketelsen:** It's been around for two years, too. It's been out for a long time. It's very stable now.
 
-**Carlisia Campos:** I actually met Andrews Medina and other developers at GopherCon.
+**Carlisia Pinto:** I actually met Andrews Medina and other developers at GopherCon.
 
 **Brian Ketelsen:** That's awesome.
 
@@ -574,7 +574,7 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Francesc Campoy:** Thank you for having me!
 
-**Carlisia Campos:** Thank you!
+**Carlisia Pinto:** Thank you!
 
 **Erik St. Martin:** If you're not subscribed, we are on iTunes and Play Store. You can subscribe at GoTime.fm. Big shout out to our sponsors for the show today, Linode and Equinox.io.
 
@@ -582,7 +582,7 @@ If you have something you would like to discuss or suggestions for guests to com
 
 **Brian Ketelsen:** You did well, Erik. Good job!
 
-**Carlisia Campos:** This was great, thanks! Bye!
+**Carlisia Pinto:** This was great, thanks! Bye!
 
 **Brian Ketelsen:** Bye-bye. Thank you.
 

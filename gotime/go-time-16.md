@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And Carlisia Campos.
 
-**Carlisia Campos:** Hi, everybody!
+**Carlisia Pinto:** Hi, everybody!
 
 **Erik St. Martin:** And our special guest today, although he needs very little introduction, is Dave Cheney. Say hello, Dave. Why don't you give everybody a brief introduction?
 
@@ -38,7 +38,7 @@ In the last year, we've managed to get real builders using places like Scaleway.
 
 **Dave Cheney:** Thanks, Brian.
 
-**Carlisia Campos:** Yeah, I thoroughly agree with that.
+**Carlisia Pinto:** Yeah, I thoroughly agree with that.
 
 **Erik St. Martin:** I have to add my name to the list of people who learned a ton from Dave's blog, especially in the early days. When Brian and I were starting out, in late 2011, early 2012, there wasn't a lot of content out there.
 
@@ -60,7 +60,7 @@ My bigger message was that Go programmers need to start thinking about how progr
 
 Otherwise, maybe in five years people will be like, "Oh, this Go code... It's not maintainable. What are we gonna do?" and they'll rewrite it in something else and continue that search for the next thing. To be an investment that a company is gonna make for a decade or more. The maintenance of the program is far more important than just sticking the prototype together and seeing how fast it goes.
 
-**Carlisia Campos:** \[\\00:11:38.02\\\] There is another aspect of thinking about design. For me, it does take effort; it does take effort in you learning what good design means. But once you start learning it, it makes coding easier. For example, when I started learning Go, I would think "Where do I put things?" and I see people asking that all over the place - "Where do I put things? Where do I put my models? Where do I put this? Where do I put that?" Well, if you take some time and think about how to design your interfaces, how to design your packages, how to organize everything, if you start thinking about dependencies - that question gets answered automatically, and you end up with good code.
+**Carlisia Pinto:** \[\\00:11:38.02\\\] There is another aspect of thinking about design. For me, it does take effort; it does take effort in you learning what good design means. But once you start learning it, it makes coding easier. For example, when I started learning Go, I would think "Where do I put things?" and I see people asking that all over the place - "Where do I put things? Where do I put my models? Where do I put this? Where do I put that?" Well, if you take some time and think about how to design your interfaces, how to design your packages, how to organize everything, if you start thinking about dependencies - that question gets answered automatically, and you end up with good code.
 
 There are multiple layers and multiple reasons for you to think about design, I think.
 
@@ -182,7 +182,7 @@ What I see a lot is at every level in the call stack, if error != nil, I'm gonna
 
 \[\\00:44:11.17\\\] I strongly advocate, if there is an error, just return it to the caller, and the error's package with the wrap method gives you the ability for that little piece of log context that you're gonna \[unintelligible 00:44:24.14\], just put that in the error itself (Errors.wrap) with that message text, and return that to the caller. So you get all those annotations which are previously sent out to the log file via this kind of side channel, and now available at the top. When you're gonna print out or analyze that error and log it into a file, or you quit the program because the error happened, you have all that context there for the operator or the developer to figure out what happened.
 
-**Carlisia Campos:** I have a question about that. How does structure logging fit with this philosophy? I thought I would see the point of what you're saying, but the repeats, especially if you're not really crafting your logging message strings, how do you handle if you want to do structured logging? Do you use the dump of the levels that you accumulated into a value, and that's your log?
+**Carlisia Pinto:** I have a question about that. How does structure logging fit with this philosophy? I thought I would see the point of what you're saying, but the repeats, especially if you're not really crafting your logging message strings, how do you handle if you want to do structured logging? Do you use the dump of the levels that you accumulated into a value, and that's your log?
 
 **Dave Cheney:** This is probably the most opinionated thing I'm gonna say, but I don't see the point in structure logging. Not because I think it's not a useful thing, rather than just have a free text blob of text; this idea of key/value key/value is useful, but I think there are really two consumers of logs - there is the person running the program (usually the operator, because I come from an ops background). In that case, if a program tells me something, like this UNIX philosophy - if the program tells you something, then it was important, you should pay attention to it. The number of environments I've worked in where you can't look at the log messages without grepping out a bunch of rubbish, it's a big problem.
 
@@ -204,7 +204,7 @@ The operator persona, if that was just dumping out information like, "I'm going 
 
 In terms of logging, there are definitely exceptions to this case. Order logs are probably a perfect example of where structured logging is useful. User ID, in-group ID, with permissions, set, did, operation. Because you do need, in logical systems and well-regulated ones, you do need order logs. But again, the order log is not something the operator sits tailing. It's not something you're gonna alert on, like an error happened in the order log. They are different personas.
 
-**Carlisia Campos:** On the same subject, I wanted to ask your opinion because I see logging and instrumentation of metrics as serving different purposes. For example, I can start tracking how many times a certain request came true because I usually get 500,000 a day, and if I suddenly start getting 200,000 I wanna be alerted that something is going on, and I wanna see those metrics. What is your opinion on instrumenting your code that way, and getting metrics out of it?
+**Carlisia Pinto:** On the same subject, I wanted to ask your opinion because I see logging and instrumentation of metrics as serving different purposes. For example, I can start tracking how many times a certain request came true because I usually get 500,000 a day, and if I suddenly start getting 200,000 I wanna be alerted that something is going on, and I wanna see those metrics. What is your opinion on instrumenting your code that way, and getting metrics out of it?
 
 **Dave Cheney:** \[\\00:52:09.02\\\] Yeah, they're absolutely separate things. Logging is for the human, instrumentation is for the machines, for your monitoring, for your automated alerts, for your historysis, your automatic retry, your scaling up, your scaling down. If you're driving those processes off tailing a log file, you have a serious operational problem. They are separate and independent things.
 
@@ -218,7 +218,7 @@ I guess it depends on how important your logs are. If you're doing something for
 
 At high scale it also becomes its own problem, because that's another system that can fail, when you're doing your distributed logging out to one place, and you have to make the decisions, how worthwhile is that additional complexity to you, and the additional storage to store all these logs, or are you really trying to get a rough state of your application.
 
-**Carlisia Campos:** In companies that handle that for you, they charge a lot of money. It's very expensive.
+**Carlisia Pinto:** In companies that handle that for you, they charge a lot of money. It's very expensive.
 
 **Dave Cheney:** Oh yeah.
 
@@ -236,7 +236,7 @@ The other issue becomes when you have errors - is it a systemic issue that conti
 
 Don't worry about the happy path, think about what happens when this fails. I think that is what is making Go really successful for writing server software, because you can't just write the code in this linear "Oh, everything's gonna work, and that throws cause on the function declaration is gonna take care of any problems." We see how the languages with exceptions go for reliability; you don't know if they're gonna explode at any point. \[unintelligible 00:58:41.19\] error handling is. It makes us think about the "What happens if this fails?" literally at every function call, because any function call can fail. And if you don't want that function call to fail, don't return an error. Write it in such a way that it can't return an error by having extra pre-conditions, or accept the fact that any time you deal with the real world (the network, the disk), it could fail, and you need to handle that failure right then and there, rather than just waving a hand and saying "I/O exception will bubble up to someone who knows how to handle it." The best place to handle that failure is right there, in that function, right at the point that the error happens.
 
-**Carlisia Campos:** And if people are really annoyed about checking, doing the if statement all the time to check the errors, they can use your errors package, right? I love the way you made it so you can just return the error, and if it's nil it's nil, and if not, the message is there, and that's it.
+**Carlisia Pinto:** And if people are really annoyed about checking, doing the if statement all the time to check the errors, they can use your errors package, right? I love the way you made it so you can just return the error, and if it's nil it's nil, and if not, the message is there, and that's it.
 
 **Dave Cheney:** Yeah.
 
@@ -252,7 +252,7 @@ It becomes really subjective and not particularly useful to say, "Be careful, do
 
 Erik talked about it, the way that in the Ruby community there was this focus on design. People talked about the language design, always; those were the kinds of things that you would talk about at conferences. Where is that language, that discourse in Go? That's really the open question from my talk, I think.
 
-**Carlisia Campos:** I'm very glad to say that I'm starting to see a major shift towards that conversation with you and Ben Johnson and Mat Ryer. Mat Ryer wrote a blog post about his talk at Golang UK, talking about "Check your errors first, and then do the happy path, just like you were saying. It just goes to that concept of \[unintelligible 01:03:38.25\] design concept.
+**Carlisia Pinto:** I'm very glad to say that I'm starting to see a major shift towards that conversation with you and Ben Johnson and Mat Ryer. Mat Ryer wrote a blog post about his talk at Golang UK, talking about "Check your errors first, and then do the happy path, just like you were saying. It just goes to that concept of \[unintelligible 01:03:38.25\] design concept.
 
 Going back to what you were saying about this conversation about design, when I started doing Go, when I was meeting people who were experts, I would ask "How did you learn?" and "Trial and error" would be the answer, and on and on again people would say "Trial and error." Now I see that people are thinking, "Well, let's not subject people to trial and error anymore."
 
@@ -262,7 +262,7 @@ Going back to what you were saying about this conversation about design, when I 
 
 As a beginner, you have no context to judge yourself, to judge your progress like that. Katrina's talk was really important to remind us all of... We are the success story, we are the ones who persevered and learned the language, even through trial and error or just reading the right example at the right time, that put us on a successful path, but we shouldn't consider that with enough time anyone can do that, because a lot of people are unsuccessful and they give up halfway through.
 
-**Carlisia Campos:** Yeah, good point.
+**Carlisia Pinto:** Yeah, good point.
 
 **Erik St. Martin:** I think we are actually about overtime, so I think we're gonna skip over talking about news and projects this episode, as much as we would love to go forever. Can we do like a 12-hour podcast? \[laughter\]
 
@@ -280,7 +280,7 @@ As a beginner, you have no context to judge yourself, to judge your progress lik
 
 **Erik St. Martin:** Sure.
 
-**Carlisia Campos:** Yes.
+**Carlisia Pinto:** Yes.
 
 **Dave Cheney:** Somebody gave a shout out to AG a couple of weeks ago on the podcast...
 
@@ -288,7 +288,7 @@ As a beginner, you have no context to judge yourself, to judge your progress lik
 
 **Dave Cheney:** I have one better, because it's called pt - the Platinum Searcher, and it's written by a Japanese Gopher; I'll put the link in the show notes. Pt is way better than Ack, way better than AG... I use it every single day. I'm not a big one for editor integrations; I have a very Spartan environment, so for me my entire day is just pt, some piece of text, find the line, go in and edit it.
 
-**Carlisia Campos:** \[\\01:08:06.06\\\] I am so looking forward to installing that. With this endorsement... I use Ack all the time; also not on my editor, just on the terminal, and this is sounding like a lot better, by the description. I'm just dying to try it.
+**Carlisia Pinto:** \[\\01:08:06.06\\\] I am so looking forward to installing that. With this endorsement... I use Ack all the time; also not on my editor, just on the terminal, and this is sounding like a lot better, by the description. I'm just dying to try it.
 
 **Dave Cheney:** It has all the features of Ack and AG, of skipping over temporary files and .gits and things like that, but it's written in Go.
 
@@ -302,7 +302,7 @@ As a beginner, you have no context to judge yourself, to judge your progress lik
 
 **Erik St. Martin:** You're ahead of us. So how about you, Carlisia?
 
-**Carlisia Campos:** Well, I recently got a job doing Go full-time, and I was working on a new project and going through the phase of defining and designing, and recently I got full-on coding. My shout out today - we've mentioned it before - is Sourcegraph. I can't not tell you how much faster I grep things. If I'm on GitHub, I don't want to download everything to my local machine and just search on my local machine; I could do that, but it's so much faster. I'm on GitHub looking at a library, I'm browsing through the code, and I have Sourcegraph guiding me through, just popping up the descriptions. If I want to go deeper, I just click on the link and I'm there. It's been AMAZING.
+**Carlisia Pinto:** Well, I recently got a job doing Go full-time, and I was working on a new project and going through the phase of defining and designing, and recently I got full-on coding. My shout out today - we've mentioned it before - is Sourcegraph. I can't not tell you how much faster I grep things. If I'm on GitHub, I don't want to download everything to my local machine and just search on my local machine; I could do that, but it's so much faster. I'm on GitHub looking at a library, I'm browsing through the code, and I have Sourcegraph guiding me through, just popping up the descriptions. If I want to go deeper, I just click on the link and I'm there. It's been AMAZING.
 
 I've learned a hundred times faster, just learning what I'm looking at and also learning Go at the same time, because of course, I see the patterns. Another shout out is \[unintelligible 01:10:47.29\] I love that. The Go code that I see on people's libraries, they look pretty much the same as the Go code that I'm writing. The consistency is amazing, and it makes life so much better.
 
@@ -314,17 +314,17 @@ I've learned a hundred times faster, just learning what I'm looking at and also 
 
 For me, that's so much better than using a Google Doc, because to use a Google Doc you've gotta be online, whereas this is just a text file, and you can edit it wherever you are.
 
-**Carlisia Campos:** Nice.
+**Carlisia Pinto:** Nice.
 
 **Erik St. Martin:** And we can just use Vim. A nice little guard file, updates the PDF alongside of it... And then I get to give a second shout out to Afrin, for preventing me from sniffling this whole show.
 
-**Carlisia Campos:** \[laughs\] Is that open source?
+**Carlisia Pinto:** \[laughs\] Is that open source?
 
 **Brian Ketelsen:** No, it's not open source, and you probably have to show ID at the counter of the pharmacy to get it these days.
 
 **Erik St. Martin:** The ingredients are listed on the back, so it's somewhat open source, right? \[laughter\] I guess the algorithm to combine them is not existent, but that's close.
 
-**Carlisia Campos:** Yeah, that reminded me of Katrina's talk again... \[laughter\] You have the ingredients, but you don't know how to put it together.
+**Carlisia Pinto:** Yeah, that reminded me of Katrina's talk again... \[laughter\] You have the ingredients, but you don't know how to put it together.
 
 **Erik St. Martin:** \[laughs\] That correct mixture ratio... Alright, so as much as I would like to continue on, especially having Dave on the show, we've had a lot of interesting conversations and I think way more that could be had, I think we are way over time, so this will be a nice long episode. I definitely want to think everybody who's on the show today, everybody who's listening, everybody who will be listening to the show when we drop it live... Big shout out to our sponsor Backtrace.
 
@@ -336,4 +336,4 @@ I think that's it. With that said, everybody, goodbye.
 
 **Dave Cheney:** Not a problem, thanks for having me.
 
-**Carlisia Campos:** Thank you so much, David.
+**Carlisia Pinto:** Thank you so much, David.
