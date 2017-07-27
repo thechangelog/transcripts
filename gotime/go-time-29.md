@@ -74,7 +74,7 @@
 
 **Mark Bates:** Besides just a terrible name for any project, Buffalo is another web framework in Go. I use the word "another" because there are a collection of them out there. This one aims to be slightly different in that I have decided not to reinvent the wheel that a lot of these frameworks have invented, but instead I'm gluing together a bunch of my absolute favorite packages and kind of putting them together in a "If you use this opinionated set of packages, your life developing web apps in Go will be as nice as - and I'm saying this with huge quotes and a huge lick of salt - Rails."
 
-**Brian Ketelsen:** \[\\00:04:18.09\\\] \[laughs\]
+**Brian Ketelsen:** \[00:04:18.09\] \[laughs\]
 
 **Mark Bates:** That five-letter word that no one wants to talk about.
 
@@ -124,7 +124,7 @@ And even things like the Acid pipeline; I just pulled in Webpack and set up Webp
 
 **Mark Bates:** So an Acid pipeline is a term kind of coined from the Rails world. Essentially, it is a build system around your Javascript, your style sheets and your images and the like. In the Rails world they do it all on Ruby and it's painfully slow and difficult to use. In other worlds, they use tools like Webpack, which are faster but also difficult to use, as I've found out, but it's the latest and greatest.
 
-\[\\00:08:07.19\\\] So I pulled that in, and the nice thing about that is by using something like that you can develop ES6 right out of the box with Buffalo. You can use SASS stylesheets right out of the box with Buffalo. The Buffalo dev command does hotcode reloading of both your Go app and your asset, so as those change, it recompiles them and they're ready for you in your browser when you get there.
+\[00:08:07.19\] So I pulled that in, and the nice thing about that is by using something like that you can develop ES6 right out of the box with Buffalo. You can use SASS stylesheets right out of the box with Buffalo. The Buffalo dev command does hotcode reloading of both your Go app and your asset, so as those change, it recompiles them and they're ready for you in your browser when you get there.
 
 The Buffalo build command will build up a binary of all of your code - your Go code, your assets, your migrations, everything in one single binary. It's pretty slick stuff, I think.
 
@@ -172,7 +172,7 @@ Sorry. I was being bothered by a local. \[laughter\]
 
 **Mark Bates:** Yeah, that's a great question. So one of the big things about Buffalo is I believe Buffalo stands on the shoulders of giants. As a matter of fact, whenever I cut a new release I generate a file called shoulders.md, which lists all of the packages that I use inside of Buffalo because I wanna make sure everybody has the props that they deserve for these wonderful packages.
 
-\[\\00:11:52.08\\\] So for me, some of the packages like go.rice, which allows you to bundle static files into Go - it's a great package. What I love about that package is you don't have to keep running it in development, it falls back to your file system, which is really nice. So you only need to generate those kinds of bindings at build time.
+\[00:11:52.08\] So for me, some of the packages like go.rice, which allows you to bundle static files into Go - it's a great package. What I love about that package is you don't have to keep running it in development, it falls back to your file system, which is really nice. So you only need to generate those kinds of bindings at build time.
 
 We were using the raymond package for our templating system, but unfortunately we ran into just a few issues with that library, but we leveraged the AST and lexer and parser from raymond; it builds basically raymond on top of raymond, but fixing a few of the issues we had and kind of improving upon it. It is a great templating library and he did a great job building raymond initially.
 
@@ -212,7 +212,7 @@ Yesterday - not yesterday, maybe Friday - I created a meta Grift that runs Grift
 
 **Erik St. Martin:** Don't say that in front of that undercover cop.
 
-**Mark Bates:** \[\\00:16:05.29\\\] \[laughs\] Oh, this Dunkin' Donuts is pretty used to that sort of behavior.
+**Mark Bates:** \[00:16:05.29\] \[laughs\] Oh, this Dunkin' Donuts is pretty used to that sort of behavior.
 
 **Erik St. Martin:** Carlisia, you were about to say something?
 
@@ -247,7 +247,7 @@ I've asked for a bit commit on several repos in the past that have gotten nowher
 
 **Mark Bates:** I try to delete my forks as quick as possible. It's for the best.
 
-**Erik St. Martin:** \[\\00:20:04.27\\\] Nathan Youngman in the GoTime FM channels says that there is a fork of the migrate library - that's our tool, or whatever you wanna call it by \[unintelligible 00:20:13.28\] that also has Cassandra support, so that's cool.
+**Erik St. Martin:** \[00:20:04.27\] Nathan Youngman in the GoTime FM channels says that there is a fork of the migrate library - that's our tool, or whatever you wanna call it by \[unintelligible 00:20:13.28\] that also has Cassandra support, so that's cool.
 
 **Mark Bates:** Yeah.
 
@@ -311,7 +311,7 @@ Definitely need to look at support for background jobs; I know there are several
 
 **Brian Ketelsen:** Ask and you shall receive.
 
-**Mark Bates:** \[\\00:23:55.20\\\] \[laughs\] I'm like that. Yeah, you can now "validate and create", "validate and save", "validate and update", that sort of thing. So yeah, those are already in pop, and they're ready to go. The generator generates basic validations for you now.
+**Mark Bates:** \[00:23:55.20\] \[laughs\] I'm like that. Yeah, you can now "validate and create", "validate and save", "validate and update", that sort of thing. So yeah, those are already in pop, and they're ready to go. The generator generates basic validations for you now.
 
 **Brian Ketelsen:** Wow! All of this since we talked yesterday?
 
@@ -363,7 +363,7 @@ Then they would send me back the changes, the corrections a couple days later, a
 
 **Mark Bates:** Well no, no, because then I'd go back and change, correct the things that were the lyrics to "I am the walrus" and make them actual sentences again.
 
-**Carlisia Pinto:** \[\\00:28:03.07\\\] \[laughs\] Okay... It's the equivalent of making an incorrect statement on StackOverflow and have people just give you the right answer.
+**Carlisia Pinto:** \[00:28:03.07\] \[laughs\] Okay... It's the equivalent of making an incorrect statement on StackOverflow and have people just give you the right answer.
 
 **Mark Bates:** Well, everything's an incorrect statement on StackOverflow, so I don't... You know... That's like saying there's hatred on Hacker News, and that every statement is misguided or misinformed... \[laughs\]
 
@@ -379,7 +379,7 @@ Then they would send me back the changes, the corrections a couple days later, a
 
 **Erik St. Martin:** Okay, so we should probably move on to projects and news. Before that, let's take a quick sponsor break.
 
-**Break:** \[\\00:28:58.14\\\]
+**Break:** \[00:28:58.14\]
 
 **Erik St. Martin:** So, projects and news... What do we wanna talk about first?
 
@@ -407,7 +407,7 @@ Then they would send me back the changes, the corrections a couple days later, a
 
 **Carlisia Pinto:** So is that why they did this? Because I don't think this will necessarily increase Go adoption. I don't think that's why they did this.
 
-**Mark Bates:** \[\\00:32:01.09\\\] No, that's not... If you read the blog post, they did it in order to get better performance out of their Python without having to rewrite all of the Python apps in something like Go.
+**Mark Bates:** \[00:32:01.09\] No, that's not... If you read the blog post, they did it in order to get better performance out of their Python without having to rewrite all of the Python apps in something like Go.
 
 **Carlisia Pinto:** Gotcha.
 
@@ -458,7 +458,7 @@ The dates of GopherCon: 13th and 14th July are the main talk days; 15th - we typ
 
 **Brian Ketelsen:** Wow... Good stat.
 
-**Mark Bates:** \[\\00:36:00.01\\\] Yeah, it's insane. Requests that were taking about 300 milliseconds take about 3 milliseconds, and the app on average uses about 5-6 megs of memory, versus the Rails, we're gonna start you with 512, or something along those lines.
+**Mark Bates:** \[00:36:00.01\] Yeah, it's insane. Requests that were taking about 300 milliseconds take about 3 milliseconds, and the app on average uses about 5-6 megs of memory, versus the Rails, we're gonna start you with 512, or something along those lines.
 
 **Brian Ketelsen:** Nice.
 
@@ -530,7 +530,7 @@ I'm assuming we're gonna open up lightning talks CFP later in the year for those
 
 Alright, other exciting projects, let's see... These are all my projects; did you guys do nothing in projects and news? I'm just gonna say them all, because I've put them all in here. So a really cool app that I found is called Releaser, and it's in the repository at github.com/goreleaser/releaser.
 
-\[\\00:39:52.10\\\] It's an awesome app that does cross-compiling and it will automatically build your app and tag a release on GitHub and upload the binaries for you, which is really cool, something I was looking to do recently and didn't have a way to do it without RubyGem. So that one's pretty slick, I like that a lot. I wish it would actually do the tagging for me, but it doesn't do the tagging yet. I'm sure PRs are accepted.
+\[00:39:52.10\] It's an awesome app that does cross-compiling and it will automatically build your app and tag a release on GitHub and upload the binaries for you, which is really cool, something I was looking to do recently and didn't have a way to do it without RubyGem. So that one's pretty slick, I like that a lot. I wish it would actually do the tagging for me, but it doesn't do the tagging yet. I'm sure PRs are accepted.
 
 A cool one I found this morning - Mutagen, at the GitHub repo havoc/iomutagen. I'm a huge fan of synchronizing code between 8,000 different machines that I use, and Mutagen is kind of like a Unison clone, if you've used Unison before. It's really fast, and it runs in the background and it has some nice tools; so I was playing with that today. I like Mutagen quite a bit.
 
@@ -592,7 +592,7 @@ So the last awesome tool I found is called Prism, and there's an article on Medi
 
 **Brian Ketelsen:** Yeah, who knows...? So Prism is a pretty nifty open source profiling tool for Go code, and the thing that I really like about Prism is that it shows historical diffs over time. So you can run a profile on your app, and it has pretty decent-looking output - better than pprof, obviously - and as you make changes to your application, you can view the difference in those profiling changes from the most current revision to the last one, or you can view the entire profile difference. So you can say "This change made me 5% faster, but since I started profiling, I'm 1000% faster."
 
-\[\\00:43:57.06\\\] It's really neat to show historical changes in your profiling. And it's got a nice interface, it looks really easy to use... I have not yet tried to use it, but it looks pretty nice. So Prism... I don't even remember what company released it, but it looked pretty cool.
+\[00:43:57.06\] It's really neat to show historical changes in your profiling. And it's got a nice interface, it looks really easy to use... I have not yet tried to use it, but it looks pretty nice. So Prism... I don't even remember what company released it, but it looked pretty cool.
 
 **Erik St. Martin:** Yeah, I haven't played with it myself personally, but I love the \[unintelligible 00:44:16.08\] of it, the comparison against previous versions. And the name is cool too, Prism. And it's inspecting stuff, monitoring stuff...
 
@@ -648,7 +648,7 @@ So the last awesome tool I found is called Prism, and there's an article on Medi
 
 **Erik St. Martin:** I've done similar things though, too. I was building a CNI plugin for Kubernetes, which is the container networking interface, to basically control the networking interfaces that pop up in the container, and their IPs and all that stuff, and I couldn't figure out - it was at least a day, maybe a day and a half - why my CNI plugin was not getting called, and I realized that I was using host networking, and of course host networking \[unintelligible 00:47:51.15\] \[laughter\]. Yeah, that kind of sucked. Talk about some time wasted...
 
-**Brian Ketelsen:** \[\\00:47:58.00\\\] That's not as bad as developing on a remote Linux box and then opening a local host, calling it 8080 and wondering why your web server isn't started. \[laughter\]
+**Brian Ketelsen:** \[00:47:58.00\] That's not as bad as developing on a remote Linux box and then opening a local host, calling it 8080 and wondering why your web server isn't started. \[laughter\]
 
 **Mark Bates:** Oh, I can beat that. I have had Vim open and in my file finder I have deleted the folder, and I've been editing in the trash folder. \[laughter\]
 
@@ -710,7 +710,7 @@ He's the program chair for GopherCon - the great programs that we have at the co
 
 **Brian Ketelsen:** Yes. Thanks, Dave. We love you.
 
-**Mark Bates:** \[\\00:52:00.12\\\] I would say I'd buy him a steak, but I've already done that. I have one more shout out I'd like to make, because it just dawned on me... The Octotree plugin for Safari, Chrome, Firefox. If you haven't seen it, it's amazing. It's a plugin, and on the left side of your screen you have a file tree for GitHub repos.
+**Mark Bates:** \[00:52:00.12\] I would say I'd buy him a steak, but I've already done that. I have one more shout out I'd like to make, because it just dawned on me... The Octotree plugin for Safari, Chrome, Firefox. If you haven't seen it, it's amazing. It's a plugin, and on the left side of your screen you have a file tree for GitHub repos.
 
 **Brian Ketelsen:** Oh, I have seen that. I wanna say that I did it right away, right after they released it, and it crashed Chrome for me. Is it more stable now?
 

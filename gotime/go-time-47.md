@@ -34,7 +34,7 @@ We had you on the Changelog way back on episode 89. I feel like that was (in you
 
 Basically, you write the code, you send the code to us and we take care of everything else. We just scale it, run it etc. We did that using containers under the hood, and we used that technology to make things more efficient. A lot of people asked us, "Hey, that's really cool. How do you do it? I don't wanna pay for your service, but I wanna do it for myself."
 
-**Erik St. Martin:** \[\\00:04:05.21\\\] People wanted stuff for free? \[laughter\]
+**Erik St. Martin:** \[00:04:05.21\] People wanted stuff for free? \[laughter\]
 
 **Solomon Hykes:** Incredible, I know. And you know, eventually we refined -- to be clear, we didn't invent that tech; we built on top of low-level building blocks of the system, and that was just at a period where Linux was getting better at supporting containers, but it was still a very niche thing to do. When we started out in 2008, you had to patch the kernel very heavily, so it was for very niche use only. Then around 2012-2013 it became kind of viable to do containers yourself on top of an unmodified Linux kernel, and that opened a lot of possibility.
 
@@ -52,7 +52,7 @@ Linux containers are really for Docker a feature that we use to deliver somethin
 
 **Solomon Hykes:** Yeah, it's definitely a general theme for us that different people understand or experience Docker or containers differently; they have different opinions. The Docker community at large has always been a diverse one. In other words, different people expecting different things from containers and Docker, and sometimes disagreeing strongly on what the right answer is.
 
-\[\\00:07:55.23\\\] The challenge for us has been to manage that, but honestly, it's been by design from the beginning that we said, "You know what? Not everyone has to agree on everything to benefit from the same tools", and maybe it will make things more interesting for people to have to work out their different definitions of words, and that kind of constructive disagreement will help us move forward... And I think that's mostly worked out.
+\[00:07:55.23\] The challenge for us has been to manage that, but honestly, it's been by design from the beginning that we said, "You know what? Not everyone has to agree on everything to benefit from the same tools", and maybe it will make things more interesting for people to have to work out their different definitions of words, and that kind of constructive disagreement will help us move forward... And I think that's mostly worked out.
 
 For example, there's a lot of developers and a lot of operators in the Docker community, and as well all know, developers and operators have very different priorities and opinions on things, and that's actually helped. So on the one hand, you have experts - Linux experts, systems engineers - that approach containers in one way, and on the other end we have a lot of people now who are frontend devs that are just getting into backends and Docker is just a really easy way for them to do backend things. And now we have people actually getting into programming and they are absolute beginners, and Docker is giving them kind of a safe, exciting place to get started where they don't feel too judged and they're surrounded by people who are just excited about helping them.
 
@@ -68,7 +68,7 @@ So you were at this point that people are demanding your service, but they don't
 
 Some of them have failed by consolidating with larger companies, and that's worked out great for them, but clearly, there's no giant platform-as-a-service company that's just crushing it and you can point at it and say "I wanna compete with those guys." So there was a general sense that we were in a market that had no future, and separately, seeing this much, much larger pool of people that were coming to us and saying, "There's something I want from you. Please, can you give it to me?" They didn't want the service we had for free, they wanted something else; they wanted the building blocks to build their own service, and the key there is customization.
 
-\[\\00:12:20.17\\\] The problem when you're doing everything for your customer - it's a cookie cutter solution; you have this monolithic platform that does everything for you, and it's take it or leave it. It's super convenient, but if you wanna customize things, you can't; you have to leave or wait for DotCloud to add that customization. But with containers, you like a Lego set. You can mix and match, you can change a lot of things, you just need the building blocks to be available.
+\[00:12:20.17\] The problem when you're doing everything for your customer - it's a cookie cutter solution; you have this monolithic platform that does everything for you, and it's take it or leave it. It's super convenient, but if you wanna customize things, you can't; you have to leave or wait for DotCloud to add that customization. But with containers, you like a Lego set. You can mix and match, you can change a lot of things, you just need the building blocks to be available.
 
 One comparison I make often is a regular toy and Lego. We had a specific toy that some people liked, but a lot more said "Hey, could I change this or that? Could you let me build my own toy? Just give me the Lego." So we started experimenting with that on the side. We did a side-project - which became Docker - to say "Okay, let's see what it would look like if we gave people the Lego", and instantly, people just loved it. From the very first private demo that we gave about four months before we launched, already people were excited. There was just this incredible interest, so we just followed the interest.
 
@@ -100,7 +100,7 @@ In the end, there was more interest for the new thing than for the old thing, an
 
 **Adam Stacoviak:** It was very quick, because when you were on the Changelog you were still talking about DotCloud... That talk actually -- we'll link it up in the show notes for those listening. I'll drop a link here in the Slack channel. That's actually the talk that at the time Andrew Thorp (who was the co-host on the Changelog with me then) and I saw, and we were like "This is super cool. This is gaining some ground." And to this day, it's got almost 70,000 views, and in developer land that's a lot of views. Maybe in YouTube land at large a million or a million and a half maybe is big, but this is big in developer land.
 
-**Solomon Hykes:** \[\\00:15:56.25\\\] Yeah, I've got a lot of work to do if I wanna be a YouTube star.
+**Solomon Hykes:** \[00:15:56.25\] Yeah, I've got a lot of work to do if I wanna be a YouTube star.
 
 **Adam Stacoviak:** That's right... We're working on it.
 
@@ -130,7 +130,7 @@ The other one is in ops and dev ops tooling, the biggest problem for a long time
 
 All these things rolled into one and we just went for Go all in, and Docker was my first Go project, and obviously, it was a good bet. We surfed the Go adoption wave for sure, and we contributed back. So that's why we picked Go.
 
-**Adam Stacoviak:** \[\\00:20:03.12\\\] On that note, Erik, you mentioned you were at a meetup recently, and you had a conversation around this... The conversation around \[unintelligible 00:20:07.18\] that Solomon is pointing to, which is Ruby is probably pretty popular - and Matz even says so - because of Ruby on Rails. Do we feel that Go is popular because of things like Docker and other things that are written that are super popular, like Kubernetes? I guess it's sort of an evolution of Docker, but you get my point. What was said there at the meeting?
+**Adam Stacoviak:** \[00:20:03.12\] On that note, Erik, you mentioned you were at a meetup recently, and you had a conversation around this... The conversation around \[unintelligible 00:20:07.18\] that Solomon is pointing to, which is Ruby is probably pretty popular - and Matz even says so - because of Ruby on Rails. Do we feel that Go is popular because of things like Docker and other things that are written that are super popular, like Kubernetes? I guess it's sort of an evolution of Docker, but you get my point. What was said there at the meeting?
 
 **Erik St. Martin:** So we were basically talking about the adoption curve of Go, and Solomon, you just kind of mentioned you picked Go because you wanted a lot of contributors... But back then, we're talking about 1.0 had only been released maybe within a year of the development, and I really think that 2014 to 2015 is where we started watching the hockey stick growth of the language. I'd argue that probably Docker is a big part of that... Like, "Here's this thing that's gonna kind of revolutionize development and operations for people. This is really gonna change things", and people were interested in the implementation; they wanted to build it, they wanted to contribute to it, which I think got more people looking at the language.
 
@@ -156,7 +156,7 @@ So I really feel that year was like a perfect storm of things. Conferences start
 
 **Solomon Hykes:** "...let him do his thing, basically." So when I said, "Hey, let's do it in Go", the biggest \[unintelligible 00:23:11.08\] was that it was new and it seems unnecessary to change just for the sake of picking something new. So there was a little bit of a "Get off my lawn, hipster!" kind of reaction, and to explain this, I would like to clarify that this comes too as a surprise to many people, because Docker now has this kind of weird reputation of being the hipster/newb developer thing, which I find hilarious because DotCloud was a company of ops. We were the largest deployment of Linux containers (I think) in the world exposed to the public; you had Google with their thing, but if you wanted to deploy containers, we ran the largest production cluster of Linux containers in production, period. So we were a company of ops and we ran databases in containers, we ran all sorts of language stacks in containers...
 
-\[\\00:23:59.29\\\] Docker came out of raw operational experience, and then of course, it got picked up by a really excited developer community, and we had to manage this diversity of opinions and needs that we talked about earlier in the community. But the point is in 2012 we definitely were a company of cranky ops that looked at anything new with suspicion, because new things break, and new things sometimes are driven by fads, so that was the biggest pushback, to play with another toy... But then it really was, "Hey, I guess this is Solomon's toy project, so let him have it."
+\[00:23:59.29\] Docker came out of raw operational experience, and then of course, it got picked up by a really excited developer community, and we had to manage this diversity of opinions and needs that we talked about earlier in the community. But the point is in 2012 we definitely were a company of cranky ops that looked at anything new with suspicion, because new things break, and new things sometimes are driven by fads, so that was the biggest pushback, to play with another toy... But then it really was, "Hey, I guess this is Solomon's toy project, so let him have it."
 
 **Adam Stacoviak:** Wow... So you pretty much sold it based on you being (for lack of better terms) the boss, and hacking on things and "let him do his own thing."
 
@@ -176,7 +176,7 @@ I think Go brought the kind of reassuring focus on a quality, reliable standard 
 
 **Erik St. Martin:** I know that we are a few minutes over the break that Adam was tracking, as he always does, so let's go ahead and take our sponsored break for this episode. Our sponsor for today is Toptal.
 
-**Break:** \[\\00:27:39.29\\\]
+**Break:** \[00:27:39.29\]
 
 **Erik St. Martin:** Alright, we are back, talking to Solomon Hykes. Carlisia, I know that you had a follow-up question to Adam just before the break... Do you wanna go ahead with that?
 
@@ -202,7 +202,7 @@ I think now we're one citizen of a Go city among many others, so we're contribut
 
 **Erik St. Martin:** Yeah, I remember trying to get Vitesse running... It was ridiculously cool. So we're kind of talking about nostalgia, and I'd like to start moving towards the growth and Docker in its current state. But one question I have is like, adopting so early, and even leading up to now, there wasn't a lot of -- like, you talked about the standard library and stuff... There wasn't a lot of libraries in existence back then, which is part of the overhead of adopting a new language - you kind of have to write everything on your own... What kind of stumbling blocks have you had in the decision?
 
-**Solomon Hykes:** \[\\00:32:17.07\\\] Nothing major. We had a lot of tactical stumbling blocks, especially in the second year when we started really moving down closer to the system. The thing about Docker is in the early days it was a wrapper around this pre-existing command line tool called LXC, and actually one of the motivations for Docker was the LXC command line tools were just really not reliable at all, and operationally we had all sorts of horrible inconsistencies. The same command would either fail and return, or hang forever... There was no way to predict one or the other. We needed polyfill on top to have a stable, reliable layer... Which, by the way, hilariously now, we keep hearing cranky (let's call them) saying "Oh, Docker, a hipster tool... LXC - that's the real man's, bearded man's tool." \[laughs\] Having run a few million containers in production using LXC, unlike those cranky people - let me tell you, it was not fun at all.
+**Solomon Hykes:** \[00:32:17.07\] Nothing major. We had a lot of tactical stumbling blocks, especially in the second year when we started really moving down closer to the system. The thing about Docker is in the early days it was a wrapper around this pre-existing command line tool called LXC, and actually one of the motivations for Docker was the LXC command line tools were just really not reliable at all, and operationally we had all sorts of horrible inconsistencies. The same command would either fail and return, or hang forever... There was no way to predict one or the other. We needed polyfill on top to have a stable, reliable layer... Which, by the way, hilariously now, we keep hearing cranky (let's call them) saying "Oh, Docker, a hipster tool... LXC - that's the real man's, bearded man's tool." \[laughs\] Having run a few million containers in production using LXC, unlike those cranky people - let me tell you, it was not fun at all.
 
 The point is because we did the wrapping, we did not need a lot of sophisticated interfacing to the system early on. We just literally shelled out to the LXC tools, and then we parsed the output and stuff like that. So we didn't really push the limits of the standard library... I mean, we had bugs and instabilities and performance issues, but nothing memorable really.
 
@@ -218,7 +218,7 @@ We've always adopted the latest version of Go for the latest version of Docker. 
 
 **Solomon Hykes:** To answer your question, first of all, I don't really make those rules anymore... We've delegated these decisions to a lot of the maintainers, but I think we've just followed common sense rules. If the standard library does it, use the standard library; if there's an external library that does it, check for how up-to-date it is, how responsive the maintainers are, how many other people use it, and it if it feels okay, then use that.
 
-\[\\00:35:53.10\\\] If none of the above is true, then write your own, but be careful to not waste too much time. If it turns out that a lot of other people needed that and they end up using your implementation, then as soon as possible spin that out into a separate, independent library so that it's not too tied into your project.
+\[00:35:53.10\] If none of the above is true, then write your own, but be careful to not waste too much time. If it turns out that a lot of other people needed that and they end up using your implementation, then as soon as possible spin that out into a separate, independent library so that it's not too tied into your project.
 
 I think that's we followed, but I think everything I just said applies to any \[unintelligible 00:36:18.05\] software project. I don't think we've done anything out of the ordinary.
 
@@ -238,7 +238,7 @@ Docker today, on the one hand, is a platform that developers use to develop thei
 
 Then there's another aspect, which is an open source project where specialized, passionate hackers are working together on the code that leverages all this technology to do container things, right? Container runtime, container networking, container storage etc. We've got this whole open source community of system hackers. That community is much smaller, and it's also much more specialized. For us, it's about 1 to 1,000.
 
-\[\\00:40:07.05\\\] So the key thing to realize is the switch to Moby affects that second group, the open source contributor community, in a positive way; that's the goal. The goal is to improve things for the open source community.
+\[00:40:07.05\] So the key thing to realize is the switch to Moby affects that second group, the open source contributor community, in a positive way; that's the goal. The goal is to improve things for the open source community.
 
 It does not affect our user community at all, or our customers. Or if it does, it's indirectly, meaning that if you zoom our from this community that we're in right now -- anyone that has ever gone to GitHub.com/docker/docker is in that group, the smaller group, the more specialized and better-informed group that is interested in how things work on the inside, that's actually participating in creating it.
 
@@ -262,7 +262,7 @@ But as far as everyone else using Docker is concerned, nothing has changed. Dock
 
 I think, honestly, we're gonna look back in six months and think of it as a blip in the radar. What matters is the next six months, how we execute... I've done a lot of launches; no launches go well. There's always something that goes wrong. Here I think what went wrong - just to pick a few details, a few examples - we optimized the hell out of the communication to two different groups at the opposites of a spectrum.
 
-\[\\00:44:09.13\\\] We invested a lot in talking to the maintainers of the project. That's a very small group - it's less than 50 that actually have commit rights on the project or on one of the components of the project.
+\[00:44:09.13\] We invested a lot in talking to the maintainers of the project. That's a very small group - it's less than 50 that actually have commit rights on the project or on one of the components of the project.
 
 I started an e-mail thread with them about two months before the announcement, talking about the tension between Docker as an open source product and Docker as an open source project... The fact that the communities around these two (the product and the project) are different, they have different expectations, they have different needs and we're reaching a scale where it's becoming a problem to have those two things mixed, and what do you think of what Red Hat did with the split between Fedora and Red Hat Enterprise Linux...? So there was a whole thread that went on for two months, so we invested a lot in that.
 
@@ -282,7 +282,7 @@ Our plan was "Let's announce our intention, let's move the repo in a new place, 
 
 **Solomon Hykes:** A lot of the criticism from the open source contributor community - a subset of it - was that we started at some point behaving more like a product... Docker started being more like a company-driven product than a community-driven project. I talked about this conflict, this override between Docker the project and Docker the product; the topic that we thoroughly discussed with the maintainers, but then forgot to discuss with everyone else.
 
-\[\\00:48:05.03\\\] The typical example of that when we had the conversation is the announcement of Docker 1.12, when we rolled out built-in orchestration. That pissed off a lot of contributors for two reasons. One, we didn't warn them; we developed it in secret at Docker, and then we rolled it out, which is a typical thing to do for a product, but it's not a typical thing to do for a project. So it really kind of shone a light on the discrepancies between a project and a product.
+\[00:48:05.03\] The typical example of that when we had the conversation is the announcement of Docker 1.12, when we rolled out built-in orchestration. That pissed off a lot of contributors for two reasons. One, we didn't warn them; we developed it in secret at Docker, and then we rolled it out, which is a typical thing to do for a product, but it's not a typical thing to do for a project. So it really kind of shone a light on the discrepancies between a project and a product.
 
 The other reason people were pissed off is we did not use Kubernetes for that feature. There's a subset of people who contribute to Docker who are also contributing to Kubernetes and are big fans of that project, and they got really pissed off at us that we didn't use their project... How dare we? Which, by the way, I think Kubernetes is a great project. We did consider using it, but we decided against it; it was just an engineering decision.
 
@@ -298,7 +298,7 @@ We thought we were being super-nice by making things super-open and involving ev
 
 **Solomon Hykes:** Yeah. Well, thank you, I appreciate that. I think the backfiring, honestly -- on the kind of stuff we've dealt with over the last four years, this was a pretty mild backfire. Right now we're just focused on improving it and focused on the cool things that we can do now that there's Moby.
 
-\[\\00:51:55.00\\\] The really cool thing about Moby - separately from the name split - now there's a place for the open source projects and the open source product... The really exciting thing is it allows us to further break up the platform into components, and that's a really important aspect of it, because Moby is not one codebase, it's a collection of components. It's almost like a distro, really. It's not actually the home for any of the components of Docker, of which there are many - there's Containerd, there's SwarmKit, there's Libnetwork, there's Notary... There's a whole bunch of them, and each of them were spinning out as independent projects.
+\[00:51:55.00\] The really cool thing about Moby - separately from the name split - now there's a place for the open source projects and the open source product... The really exciting thing is it allows us to further break up the platform into components, and that's a really important aspect of it, because Moby is not one codebase, it's a collection of components. It's almost like a distro, really. It's not actually the home for any of the components of Docker, of which there are many - there's Containerd, there's SwarmKit, there's Libnetwork, there's Notary... There's a whole bunch of them, and each of them were spinning out as independent projects.
 
 If you like Containerd - and Containerd is the core container runtime that does all this, but without carrying any of the additional baggage, the additional opinions of Docker as a platform; so it just runs Linux containers, it's a low-level API to do that, and it's becoming the de facto standard for doing that. So even if you don't use Docker as a whole, most likely if you're doing containers, you're gonna use Containerd. That project we donated to an independent foundation - we donated it to CNCF... So it's not part of Moby, but Moby integrates it into what we call assemblies - combinations of multiple components.
 
@@ -316,7 +316,7 @@ You have spent several years defending Docker and this open container spec and y
 
 **Adam Stacoviak:** There you go, constructive feedback. Flack was my word... I don't think you directly said that, so I'm not putting words in your mouth.
 
-**Solomon Hykes:** \[\\00:56:04.28\\\] The thing to remember is when we started Docker we had open-sourced things at DotCloud but never had the scale, right? And also, it was company open source; there was no serious effort in trying to create a community where everyone participating is equal. But Docker, from day one, that was the model; we firewalled it off. But we learned a lot along the way. We looked at what other projects did, we copied... We also tried things at scale that people told us were a good idea, and then we broke it because at our scale it was a bad idea. What people forget is there's very few projects that have ever operated at the scale of Docker.
+**Solomon Hykes:** \[00:56:04.28\] The thing to remember is when we started Docker we had open-sourced things at DotCloud but never had the scale, right? And also, it was company open source; there was no serious effort in trying to create a community where everyone participating is equal. But Docker, from day one, that was the model; we firewalled it off. But we learned a lot along the way. We looked at what other projects did, we copied... We also tried things at scale that people told us were a good idea, and then we broke it because at our scale it was a bad idea. What people forget is there's very few projects that have ever operated at the scale of Docker.
 
 There are projects, we're not the only one and we're not the largest, we're definitely in the top 0.1%. Just like systems behave differently at large scale and sometimes the rules change - what seemed obvious at a small scale suddenly starts breaking in mysterious ways at large scale; for projects, it's just the same thing.
 
@@ -340,7 +340,7 @@ The problem we have though is because we're such a big target, every day we get 
 
 So you've got large technology companies that have built their own custom distributed operating system, but everyone else is left kind of cobbling together tools and components and adding generous duct tape around it to kind of create sort of an operating system to run their stuff... And we wanna build that.
 
-\[\\01:00:23.21\\\] One thing we've learned is we've tried to build that with DotCloud, the operating system that would run all your things on a distributed system. What we've learned is you can't build that in a monolithic way; you have to build that in a modular way, so that's what we're doing. We're either building the missing pieces or partnering with others that are building the missing pieces and then we're learning how to tie that all together in a system that makes sense and that you can operate reliably in that scale. I'll be honest, we have a lot of work left to. So that's one thing I wanna hack on, that we're actively hacking on.
+\[01:00:23.21\] One thing we've learned is we've tried to build that with DotCloud, the operating system that would run all your things on a distributed system. What we've learned is you can't build that in a monolithic way; you have to build that in a modular way, so that's what we're doing. We're either building the missing pieces or partnering with others that are building the missing pieces and then we're learning how to tie that all together in a system that makes sense and that you can operate reliably in that scale. I'll be honest, we have a lot of work left to. So that's one thing I wanna hack on, that we're actively hacking on.
 
 The other one is development. There's a lot of people out there that have a lot of cool ideas and they wanna build something with code, and it's still too hard. Honestly, I feel like we've regressed since the times of Basic, or Excel formulas. Those were incredible leaps forward in terms of making programming useable by more people to solve more problems.
 
@@ -362,7 +362,7 @@ Once upon a time, we tried to write our own RPC layer for that... We had a proje
 
 Containerd is a gRPC interface... It's just popping up, so it's a pragmatic choice of just picking an RPC layer for the low-level interfaces. The fact that you can generate all the clients and SDKs etc. is really nice.
 
-\[\\01:04:06.29\\\] The existing Docker API is a higher-level API, and it's currently and HTTP REST API. Right now we're working out what's the roadmap for that API. The absolute priority is to not break existing users. So there will continue to be an HTTP REST API, just because our current users and ecosystem use it and we don't wanna break them.
+\[01:04:06.29\] The existing Docker API is a higher-level API, and it's currently and HTTP REST API. Right now we're working out what's the roadmap for that API. The absolute priority is to not break existing users. So there will continue to be an HTTP REST API, just because our current users and ecosystem use it and we don't wanna break them.
 
 So it's more of a going forward for all new APIs. We're starting with gRPC by default, because that's what people are using in our particular community, but yeah... That's it. If you're interested in discussing any of this, by the way, you should join the Moby forums - Forums.mobyproject.org.
 
@@ -384,7 +384,7 @@ We made a lot of efforts early on in the beginning of Docker to make it a really
 
 So these events can be a really good way to get started in open source in general.
 
-**Adam Stacoviak:** \[\\01:07:07.20\\\] I'm really bummed we didn't actually talk about why Moby, why the name Moby, but we'll leave that for a different conversation... I just wanted to throw that out there, because naming is the hardest thing, right?
+**Adam Stacoviak:** \[01:07:07.20\] I'm really bummed we didn't actually talk about why Moby, why the name Moby, but we'll leave that for a different conversation... I just wanted to throw that out there, because naming is the hardest thing, right?
 
 **Solomon Hykes:** Yeah, it's the name of the mascot. About two years ago we opened up a voting, we asked the community to pick a name for the mascot, for the whale, and the community picked MobyDoc. Now, two years later, we're creating a project and we want the connection to Docker to be clear, but we also want it to have its own identity, separate from Docker. We looked at what Red Hat did with Fedora - it's the hat, it's kind of a reference, and we did the same thing. And if you look at the logo, it's the tail of the whale. So that's it, really.
 

@@ -36,7 +36,7 @@ If another feature impacted 30% of the ecosystem, Node.js would do everything th
 
 We've been trying for a very long time to get past this, but the main problem has been that people need to support it - Google has to support an API that we can bind to indefinitely, right? They're not gonna guarantee support for any kind of middle layer. So even then, this native refactoring for Node - it went through a big breaking change because of the way that V8 exposed its API or changed so dramatically that it actually couldn't marshal between everything anymore, and it had to do a breaking change.
 
-\[\\00:04:16.20\\\] So if we create an API and we wanna guarantee that it's gonna last forever, we need Google to support it, and we need any other VM that supports Node to support it.
+\[00:04:16.20\] So if we create an API and we wanna guarantee that it's gonna last forever, we need Google to support it, and we need any other VM that supports Node to support it.
 
 That brings us basically to io.js. In the io.js days, we started working a lot more with Google. Google was very happy that we were taking newer versions of V8 in io.js, and from that point on, certain members of the V8 team, particularly from the Google Cloud project, have been working really diligently on Node.js and a lot of the integration points.
 
@@ -58,7 +58,7 @@ An effort was lead by Microsoft, because they, for Node Chakra (Node.js bound to
 
 **Rachel White:** Awwgh...
 
-**Alex Sexton:** It reminds me -- there was like the NaCl and PNaCl... Some people called it PNaCl \[\\00:06:09.29\\\], which I always disliked...
+**Alex Sexton:** It reminds me -- there was like the NaCl and PNaCl... Some people called it PNaCl \[00:06:09.29\], which I always disliked...
 
 **Mikeal Rogers:** I liked calling it Nappy... I was told shortly after the N-API Working Group met that they no longer wanted to call it Nappy, and not a lot of people are referring to it as Nappy, so I've been respecting that... Even though I don't agree; I liked calling it Nappy.
 
@@ -76,7 +76,7 @@ An effort was lead by Microsoft, because they, for Node Chakra (Node.js bound to
 
 **Mikeal Rogers:** So one of the things that this whole project identified early on was "Okay, what are the most used native modules? Let's make sure that we can support those." It's virtually impossible to take everything that the V8 VM or the Chakra VM does and abstract it into an API that can just live in perpetuity, right? Not even NaN does this, which is the thing that everybody's biased to today... But if you can look at the most common modules and the things that they do with NaN or with the V8 API, then you can get a pretty good idea of the minimum viable set of APIs that you need to expose.
 
-\[\\00:08:09.23\\\] So that's sort of what they've done with that list of modules there, it's the most common native modules. Many of them actually use NaN today, so if you can entirely support NaN and have NaN built on top of this native API, then you know that you can support most of those...
+\[00:08:09.23\] So that's sort of what they've done with that list of modules there, it's the most common native modules. Many of them actually use NaN today, so if you can entirely support NaN and have NaN built on top of this native API, then you know that you can support most of those...
 
 A lot of modules actually use NaN for maybe 90% of what they do, and then they have an extra little bit of code that just talks directly to V8 for some kind of other thing, some operation that has to live outside of the NaN API because it doesn't support it, so they wanna make sure that they support even that last 10% when they go live.
 
@@ -116,7 +116,7 @@ Hopefully this will also make that a lot easier to deal with, because if they're
 
 **Rachel White:** I think we're definitely almost there. I've been actually thinking about trying to use the Tessl for some kind of like live visual feeding thing, because I do visuals for music stuff, and you usually need a resource with a bunch of clips. It would be easier than having to build a whole entire mini-computer with a Raspberry Pi.
 
-**Alex Sexton:** \[\\00:12:05.01\\\] I was wondering, would it still make more sense that since Node.js is just becoming available on these \[unintelligible 00:12:10.25\] devices - is it actually just an easier way to run Go, or something that you know you can't ever install? If you're really resource-constrained, could you just compile Go via \[unintelligible 00:12:27.22\] on the microcontroller for $6?
+**Alex Sexton:** \[00:12:05.01\] I was wondering, would it still make more sense that since Node.js is just becoming available on these \[unintelligible 00:12:10.25\] devices - is it actually just an easier way to run Go, or something that you know you can't ever install? If you're really resource-constrained, could you just compile Go via \[unintelligible 00:12:27.22\] on the microcontroller for $6?
 
 **Mikeal Rogers:** We just went through four compile layers... \[laughter\]
 
@@ -158,7 +158,7 @@ Hopefully this will also make that a lot easier to deal with, because if they're
 
 **Mikeal Rogers:** Soon... Man, I should really know this. We're working on a lot of the messaging stuff right now, but I believe it's this month; I think it's April. Yeah, April or early May will be the initial release. A lot of people wait another six months though... For six months it will be the current release, and we're a little bit more liberal about adding features and stuff like that \[unintelligible 00:16:05.15\] so a lot of businesses and enterprises and stuff like that wait until we put it in the LTS, where we have a slightly higher bar for getting code into it.
 
-\[\\00:16:16.01\\\] But yeah, it will kick over pretty soon. Async 0.8 will also be in there, so that's fun.
+\[00:16:16.01\] But yeah, it will kick over pretty soon. Async 0.8 will also be in there, so that's fun.
 
 **Rachel White:** What else is in there? Unless you shouldn't tell us, because then we can talk about it next week, or something... \[laughter\]
 
@@ -182,7 +182,7 @@ Hopefully this will also make that a lot easier to deal with, because if they're
 
 **Alex Sexton:** Yeah, I was like "Node.js... What?!"
 
-**Break:** \[\\00:18:02.10\\\]
+**Break:** \[00:18:02.10\]
 
 **Mikeal Rogers:** And we're back! We're gonna talk a little bit about getting new people into Javascript. Why don't you take it away, Rachel?
 
@@ -200,7 +200,7 @@ I guess that's what we're gonna talk about, and I'm gonna say "No" to all of tha
 
 **Rachel White:** First I learned about \[unintelligible 00:20:02.17\]
 
-**Mikeal Rogers:** \[\\00:20:06.01\\\] I know, so how far do you go...? Like, even in vanilla Javascript, what does vanilla Javascript mean? Do you learn only raw DOM calls, or are you allowed to use j.Query when you're learning Javascript?
+**Mikeal Rogers:** \[00:20:06.01\] I know, so how far do you go...? Like, even in vanilla Javascript, what does vanilla Javascript mean? Do you learn only raw DOM calls, or are you allowed to use j.Query when you're learning Javascript?
 
 **Rachel White:** Well, I guess that depends on -- I mean, I've had jobs where they've gotten mad if we used j.Query, and then I've had jobs where it was like "Use j.Query if you would like to use j.Query." I guess it depends on if you wanna focus on frontend, if you wanna focus on backend, if you wanna do full stack, if you wanna do Javascript robotics, if you wanna do creative coding... It all depends on what your focus is going to be where I think you should start.
 
@@ -220,7 +220,7 @@ It's actually much more important that you're just doing it in a way that you kn
 
 **Rachel White:** True. And I think that this conversation is unique to people that don't necessarily come from a CS background, too... Well, from my perspective, at least. I'm speaking of self-taught, self-driven people that don't have that fundamental basis of "What is computing?" If you're coming from that background, it would be totally different, because you're gonna understand a lot of the concepts of how the language is structured anyway.
 
-**Alex Sexton:** \[\\00:23:58.20\\\] Right. And just like in music, people who aren't classically trained always have these weird, interesting -- like, if you master the fundamentals enough, you can do weird, interesting things because you understand why they're weird and interesting... But also, the people who are self-taught, or weirder musicians are often more creating and interesting and do more fun things, whereas the people who are taught \[unintelligible 00:24:22.00\] stay in the box more often, because that's how they were taught.
+**Alex Sexton:** \[00:23:58.20\] Right. And just like in music, people who aren't classically trained always have these weird, interesting -- like, if you master the fundamentals enough, you can do weird, interesting things because you understand why they're weird and interesting... But also, the people who are self-taught, or weirder musicians are often more creating and interesting and do more fun things, whereas the people who are taught \[unintelligible 00:24:22.00\] stay in the box more often, because that's how they were taught.
 
 It's totally possible to break out of those two molds, but I think that that follows somewhat pretty closely into development, just like any creative endeavor.
 
@@ -240,7 +240,7 @@ These people break it all up in the project management side, so that all these p
 
 **Alex Sexton:** Yeah, so I think that the best way to get into Javascript is to continuously do things that interest you, and the rest kind of follows. If you go about it the other way... I think once you get old enough and disappointed enough -- age is only barely related to this, but I find that now that I'm older, I've learned enough things to know that if I just sit down and slog through the fundamentals for long enough, it will really end up helping me, and I have that lesson embedded in me. So if you're that type of person, it's not necessarily better - it's probably worse even... But if you're that type of person, then sure, go learn the fundamentals as long as you can delay that reward of actually being able to create things.
 
-\[\\00:28:34.03\\\] But I think the most important thing you can do is make sure that you're not gonna lose interest, because that's the biggest barrier, I think, to learning programming - there are plenty of people who want to, and certainly it's difficult and we can make things easier in tooling and documentation and all that stuff, but I think the number one thing whenever I've worked with people, or I know people who are like "I wanna learn programming but I don't have enough time" or "I started that and I never finished it", or "I read that book, but I still don't know how to do anything yet"... I think it's just a matter of -- they haven't found the thing that grabs them enough to stick with it, and that's a tough thing; it's just like working out or losing weight, or learning an instrument, anything like that.
+\[00:28:34.03\] But I think the most important thing you can do is make sure that you're not gonna lose interest, because that's the biggest barrier, I think, to learning programming - there are plenty of people who want to, and certainly it's difficult and we can make things easier in tooling and documentation and all that stuff, but I think the number one thing whenever I've worked with people, or I know people who are like "I wanna learn programming but I don't have enough time" or "I started that and I never finished it", or "I read that book, but I still don't know how to do anything yet"... I think it's just a matter of -- they haven't found the thing that grabs them enough to stick with it, and that's a tough thing; it's just like working out or losing weight, or learning an instrument, anything like that.
 
 **Mikeal Rogers:** That's a really good comparison actually, like diets... A lot of people try diets and don't stick with them indefinitely.
 
@@ -264,7 +264,7 @@ One of the things I love about NodeBots is that it's still just so basic. You si
 
 That's probably the closest that I've found that feels the same way viewing source would be, because I definitely used to do that a lot, too.
 
-**Alex Sexton:** \[\\00:32:44.22\\\] Yeah... My only issue with those things is that they're still one step between a Normy and that. In order to get to CodePen to search for something, you have to know CodePen exists and you have to know that you want to look for those things in order to learn how to program them, whereas the web in the early days felt more like "I was using this already, and now I can discover how it's built automatically", if that makes sense. And it's not a huge jump, but I think it's not insignificant.
+**Alex Sexton:** \[00:32:44.22\] Yeah... My only issue with those things is that they're still one step between a Normy and that. In order to get to CodePen to search for something, you have to know CodePen exists and you have to know that you want to look for those things in order to learn how to program them, whereas the web in the early days felt more like "I was using this already, and now I can discover how it's built automatically", if that makes sense. And it's not a huge jump, but I think it's not insignificant.
 
 **Mikeal Rogers:** I think that MySpace customizations were kind of like that too, right? You were just customizing your page and then it was like, "Oh, what's this thing?"
 
@@ -284,7 +284,7 @@ I've never messed around with SquareSpace, so I don't know how specific you can 
 
 **Mikeal Rogers:** I think just the act of saying, "I have a website" - not a Facebook profile, not a Twitter profile, not something in a social network, but literally like "This is my domain name" is really far down the path of like "Oh, you're basically gonna start programming pretty soon", just because of where the world is now.
 
-**Rachel White:** \[\\00:36:33.06\\\] There's not really that need of necessity to do it yourself anymore, because so many places have come along to just do it for you.
+**Rachel White:** \[00:36:33.06\] There's not really that need of necessity to do it yourself anymore, because so many places have come along to just do it for you.
 
 **Alex Sexton:** I think that's a more fun way to learn. If instead of MySpace there was like "Here's a hosting platform where you can host a profile that connects with other people's friends" - that's GeoCities WebRings, or whatever, and that was successful, but not as successful as MySpace, right? I think going at it from that angle, giving someone something that they want in order to immediately get the gratification, and then telling them "Now you can customize this in order to become cooler among your community" I think is a really powerful mechanism for learning.
 
@@ -302,7 +302,7 @@ I've never messed around with SquareSpace, so I don't know how specific you can 
 
 **Mikeal Rogers:** Awesome. Alright, I think we're about to take a break now. When we come back, we'll talk a little bit about Mastodon.
 
-**Break:** \[\\00:38:26.23\\\]
+**Break:** \[00:38:26.23\]
 
 **Mikeal Rogers:** And we're back! Time to talk a little bit about Mastodon, the GNU social-compatible microblogging server. What the hell does that mean?
 
@@ -312,7 +312,7 @@ I've never messed around with SquareSpace, so I don't know how specific you can 
 
 **Rachel White:** Yeah, so Mastodon is a social network, and it is compatible with GNU social, but what it's doing is if you look at it, I think that the UI is very similar to how TweetDeck used to be, so it is definitely trying to be an alternative to Twitter. The cool thing about it and the reason that everybody is super excited about it is because it's decentralized. What that means is anybody can take the source code and spin up their own flavor of Mastodon on what is called their own Mastodon instance, and then they're able to participate in the whole entire social network.
 
-\[\\00:40:13.27\\\] There are certain quirks to that. The main one is mastodon.social. This is the original one that has been in development for a bit. There's also mastodon.xyz. We'll talk about those two first.
+\[00:40:13.27\] There are certain quirks to that. The main one is mastodon.social. This is the original one that has been in development for a bit. There's also mastodon.xyz. We'll talk about those two first.
 
 What they are is separate servers, but they're also separate federations, and the way that I like to compare these federations as a concept is how Star Trek has federations. Basically, there's a greater code of conduct, a greater agreement across the whole entire Mastodon network as a whole. That agreement is pretty much like, you know, no racism, no sexism, no ableism, no isms, essentially... "Be nice to people, tag your content warnings, trigger warnings", stuff like that.
 
@@ -326,7 +326,7 @@ That being said, Mastodon is young, it is new (kind of a pun)... People are stil
 
 **Alex Sexton:** Via the prediction I'd say that it seems like it will gain some steam, and it may even rule the countryside for a few thousand years, but it will eventually go extinct. \[police siren sound in the background\]
 
-**Rachel White:** \[\\00:43:58.19\\\] Oh, these cops are coming for you. \[laughter\]
+**Rachel White:** \[00:43:58.19\] Oh, these cops are coming for you. \[laughter\]
 
 **Mikeal Rogers:** That was the fun police. Okay... So the UI looks a lot like TweetDeck, it's very similar to TweetDeck. It seems kind of optimized for power users at this point...
 
@@ -358,7 +358,7 @@ One of the annoying things about federation though is just... I wanna subscribe 
 
 **Alex Sexton:** Yeah, I honestly think Web of Trust stuff is GNU's GPG's favorite term to throw around, but I think that works a lot in the favor of one of these federated networks, and it works for the nine people who use GPG key servers as well.
 
-\[\\00:47:59.12\\\] If you've used Keybase, that's a good example of knowing that Nolan Lawson is really -- if you could verify yourself on Keybase, along with on Mastodon... Maybe they should implement that. Then you could know that this was verifiably, provably via math the correct Nolan Lawson. Does that make sense?
+\[00:47:59.12\] If you've used Keybase, that's a good example of knowing that Nolan Lawson is really -- if you could verify yourself on Keybase, along with on Mastodon... Maybe they should implement that. Then you could know that this was verifiably, provably via math the correct Nolan Lawson. Does that make sense?
 
 **Rachel White:** Sort of...
 
@@ -386,7 +386,7 @@ Then I saw a post the other day that was very nice and interesting, and it was e
 
 **Alex Sexton:** Right. So essentially, in three years you have the Facebook timeline problem where you only are looking at people who are confirming biases - not that I think nazis should have a platform for anything, but also there's a chance for hyper federation -- not federation; hyper-something, where it'd actually be better to open up a little more, in my opinion.
 
-\[\\00:52:20.20\\\] I try to follow people who I disagree with currently on Twitter, in order to just understand perspective in those types of things. In no way do I mean nazis or misogynists, or anything like that... I mean fiscally-conservative people, or whatever.
+\[00:52:20.20\] I try to follow people who I disagree with currently on Twitter, in order to just understand perspective in those types of things. In no way do I mean nazis or misogynists, or anything like that... I mean fiscally-conservative people, or whatever.
 
 **Mikeal Rogers:** I actually really hope that they do create their own instances and have their own federation network, because then you're gonna see them fracture and get mad at each other... The people there are crazier and crazier; it's gonna be great. \[laughs\]
 
@@ -426,7 +426,7 @@ Okay, I'm going now.
 
 Have you ever seen an e-mail come through and it says "Begin PGP encryption"? That's what this is. The thing that I'm actually suggesting that you use though is Keybase.io.
 
-\[\\00:55:07.05\\\] You generate yourself a private key and a public key, you keep the private key to yourself, you push the public key up to Keybase as well as other key servers, and then you can tweet out from your Twitter account that says "I'm this person on Keybase", and based on that, it verifies that you are really that person. So it ties your social identities to your encrypted identities. Then, if you need to verify that someone is someone, you can use those identities, or send them encrypted mail, if they know how to do that. So that's my pick this week, Keybase.io.
+\[00:55:07.05\] You generate yourself a private key and a public key, you keep the private key to yourself, you push the public key up to Keybase as well as other key servers, and then you can tweet out from your Twitter account that says "I'm this person on Keybase", and based on that, it verifies that you are really that person. So it ties your social identities to your encrypted identities. Then, if you need to verify that someone is someone, you can use those identities, or send them encrypted mail, if they know how to do that. So that's my pick this week, Keybase.io.
 
 **Mikeal Rogers:** Awesome.
 

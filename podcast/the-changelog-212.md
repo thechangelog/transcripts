@@ -4,7 +4,7 @@ We talked to Peter about SiteSpeed.io, an open source tool helping you to analyz
 
 We had two sponsors for today's show, Rollbar and Compose.
 
-**Break:** \[\\00:00:49.00\\\]
+**Break:** \[00:00:49.00\]
 
 **Adam Stacoviak:** Alright, we're back... We've got a fun show about performance, Jerod. Who doesn't love performance?
 
@@ -32,7 +32,7 @@ We had two sponsors for today's show, Rollbar and Compose.
 
 **Adam Stacoviak:** Yeah, big thanks, man. This was actually on the front page of Hacker News, which I think he was excited about that being there and then wanted to make sure we talked about it on the show, because he's such a fan. But there's some sort of backstory to their relationship, is there not?
 
-**Peter Hedenskog:** \[\\00:03:55.00\\\] Yeah, there is. Justin reached out to me a couple years ago when I started SiteSpeed.io, and I met him at conferences and so on... So yeah, we met.
+**Peter Hedenskog:** \[00:03:55.00\] Yeah, there is. Justin reached out to me a couple years ago when I started SiteSpeed.io, and I met him at conferences and so on... So yeah, we met.
 
 **Adam Stacoviak:** Internet friends, so to speak.
 
@@ -96,7 +96,7 @@ I tried to be a chemical engineer, but I didn't like it. I tried business and ec
 
 **Peter Hedenskog:** Yeah... You know, you have the interfaces and the factories, and you need to do a lot of boilerplate code, instead of focusing on what really matters. At least for me, it's like moving to paradise when I started doing Javascript on Node.js, where you can actually do a couple of lines that actually do something. So yeah... I try to avoid it now.
 
-**Jerod Santo:** \[\\00:08:10.28\\\] Yeah, less verbosity, but let's all admit that Javascript also has its pain points, as well.
+**Jerod Santo:** \[00:08:10.28\] Yeah, less verbosity, but let's all admit that Javascript also has its pain points, as well.
 
 **Peter Hedenskog:** Yeah, of course. \[laughter\]
 
@@ -120,7 +120,7 @@ The tools at that time didn't have a good way to find those pages that weren't w
 
 **Jerod Santo:** How long was your paternity leave, Adam?
 
-**Adam Stacoviak:** \[\\00:11:55.18\\\] Well, my paternity leave was not given by the government, it was given by me... It was maybe two weeks. I think I even did a little bit of work during that, but I was mostly just e-mail checking. I did not get to fully enmesh myself in the process, which did suck. Then obviously when I got back, there was a pile of stuff to do.
+**Adam Stacoviak:** \[00:11:55.18\] Well, my paternity leave was not given by the government, it was given by me... It was maybe two weeks. I think I even did a little bit of work during that, but I was mostly just e-mail checking. I did not get to fully enmesh myself in the process, which did suck. Then obviously when I got back, there was a pile of stuff to do.
 
 **Jerod Santo:** So you didn't get a year off to work on open source?
 
@@ -160,7 +160,7 @@ The tools at that time didn't have a good way to find those pages that weren't w
 
 So I was crawling the site, and you could test a couple of URLs, and you were testing against the web performance best practice rules, YSlow in like a modified version. What's missing then was actually collecting reading metrics like how fast is the first ping time, or \[unintelligible 00:15:46.03\] time...
 
-\[\\00:15:50.20\\\] So I built a super simple version in Java that was driving a browser in Selenium to collect those metrics. So you can use the navigation time API, \[unintelligible 00:16:02.28\] and now resource time API to get some metrics right from the browser. So that was the aim for 2.0.
+\[00:15:50.20\] So I built a super simple version in Java that was driving a browser in Selenium to collect those metrics. So you can use the navigation time API, \[unintelligible 00:16:02.28\] and now resource time API to get some metrics right from the browser. So that was the aim for 2.0.
 
 Then I got help from my friend Tobias that I worked with at a previous company. I had an idea of what it would be like, and I did a rough version, and then he could make it better - making a good structure... And what's cool about it is we did a rewrite of the whole code to Node.js, and then I also did the first version, and then he did the more structured version. I think we worked well together because he got the structure and I could have the ideas and do the first version, and then he can help out doing stuff in a really good way.
 
@@ -178,7 +178,7 @@ So that's good, having people that can help you out, and we can share things. An
 
 **Jerod Santo:** Yeah. Real quick before the break, one last question - just to get a little bit more context around you Peter, as you work for Wikimedia on the performance team, you also call yourself a web performance geek, you are one of the organizers of the Stockholm Web Performance Meetup group (which has over 600 members - that's pretty cool), why is performance -- and you're gonna be preaching to the crowd a little bit here, but tell us anyways... Why is performance so important, and why is it something that you dedicate all of your free time to helping other people improve their site speed? For you personally - why do you think performance is such a big deal?
 
-**Peter Hedenskog:** \[\\00:20:00.19\\\] I get really annoyed when things are slow, especially on mobile... You want to find information and you want to do stuff and things aren't happening, this makes me really angry. That annoys me. You know, you want to do things fast, you maybe want to find something or you need help - slow things really annoy me, actually. \[laughter\] I don't know if you guys feel the same...
+**Peter Hedenskog:** \[00:20:00.19\] I get really annoyed when things are slow, especially on mobile... You want to find information and you want to do stuff and things aren't happening, this makes me really angry. That annoys me. You know, you want to do things fast, you maybe want to find something or you need help - slow things really annoy me, actually. \[laughter\] I don't know if you guys feel the same...
 
 **Adam Stacoviak:** What kind of car do you drive?
 
@@ -204,13 +204,13 @@ So that's good, having people that can help you out, and we can share things. An
 
 We're gonna talk about what it measures, how it measures it, and get into some of the nitty-gritty details of how SiteSpeed.io work. So we'll talk about all that after this break.
 
-**Break:** \[\\00:21:29.09\\\]
+**Break:** \[00:21:29.09\]
 
 **Adam Stacoviak:** Alright, we're back with Peter Hedenskog, and we're talking about performance, because who doesn't love performance? Peter, it had come to me that it would make sense to have something like this as a web service versus some sort of NPM module you can install, which is great, we love that version. And I'm just thinking, why not make this a web service, why not give the people out there, since it's so important to you, the choice to say "Okay, here's four or five pages that are really important to me. Let's track those pages' performance, and if they're not performing well, alert me."
 
 I guess, take us to the idea of this SiteSpeed and where it's at, and why it's not a service like that?
 
-**Peter Hedenskog:** \[\\00:24:01.17\\\] Yeah, let's start with the first. So I built a version like that that you could use... I got funded by the Swedish Internet Foundation to build that, so I could take three months off from work to build it. I built it, and it was working fine, and still works fine, but having something online, it takes so much time to keep it up and running, taking care of different instances... It was so much work, so I closed it down now, to be able to focus on 4.0, to make sure that it's going to be released. Because having something online like that, it's... Yeah.
+**Peter Hedenskog:** \[00:24:01.17\] Yeah, let's start with the first. So I built a version like that that you could use... I got funded by the Swedish Internet Foundation to build that, so I could take three months off from work to build it. I built it, and it was working fine, and still works fine, but having something online, it takes so much time to keep it up and running, taking care of different instances... It was so much work, so I closed it down now, to be able to focus on 4.0, to make sure that it's going to be released. Because having something online like that, it's... Yeah.
 
 **Adam Stacoviak:** So you think the efforts on the hosted version was premature then? Like, it's possible, it's just hard right now because the actual tool itself isn't evolved well enough?
 
@@ -240,7 +240,7 @@ I guess, take us to the idea of this SiteSpeed and where it's at, and why it's n
 
 So the thing we wanted to do is to split it into multiple different tools instead, so people can build their own tool on top of that, and we can build SiteSpeed on top of our tools. So the first tool now is the coach. The coach helps you and give you advice on what you can do better performance-wise.
 
-\[\\00:28:06.03\\\] The coach knows a lot of things. The coach is like the new YSlow, but the coach will never give you false advice. The coach will say, "Oh, I see something that's fishy here. Maybe you should look into it", so you're still in the driving seat to make sure that it's okay. With YSlow it was rules, and rules are often made to be broken, right? You cannot find rules that are perfect, because you have desktop, and you have mobile phones, and you have small connections and fast connections and so on. But the coach knows all about that. The coach is more a tool to give you advice, so we are removing YSlow and using the coach instead. That's kind of cool, I think...
+\[00:28:06.03\] The coach knows a lot of things. The coach is like the new YSlow, but the coach will never give you false advice. The coach will say, "Oh, I see something that's fishy here. Maybe you should look into it", so you're still in the driving seat to make sure that it's okay. With YSlow it was rules, and rules are often made to be broken, right? You cannot find rules that are perfect, because you have desktop, and you have mobile phones, and you have small connections and fast connections and so on. But the coach knows all about that. The coach is more a tool to give you advice, so we are removing YSlow and using the coach instead. That's kind of cool, I think...
 
 **Jerod Santo:** So the coach is a project that you all started for this version, 4.0. But like you said, these are all modules, so is this just a separate NPM package, or is this a browser plugin? How do you use the coach by itself if you wanted to?
 
@@ -254,7 +254,7 @@ The third thing, that we were actually using in 3.0 also, is Browsertime. Browse
 
 Then on top of that is SiteSpeed. In SiteSpeed you have the crawler, you can send the data to Graphite (and soon InfluxDB), you can have your own performance budget, so you can run it in your build tool so it can check your site on the way out to see, "Okay, we can break the build, for example, if the site is too slow", or if you have a massive amount of Javascript, or whatever kind of rules you set up.
 
-**Jerod Santo:** \[\\00:32:11.29\\\] That's really cool. You can use it almost as part of like a test suite, or like you said, like a pre-build... It's like, after you build, but before you deploy; you can integrate it with your CI, or something.
+**Jerod Santo:** \[00:32:11.29\] That's really cool. You can use it almost as part of like a test suite, or like you said, like a pre-build... It's like, after you build, but before you deploy; you can integrate it with your CI, or something.
 
 **Peter Hedenskog:** Yeah, exactly. It's output stack or JUnit XML.
 
@@ -284,7 +284,7 @@ That's why we've integrated WebPagetest also, to be able to use it and collect t
 
 Where you should use SiteSpeed is you can either use it on testing your code on the way out, so you can make sure that you are not introducing regression on your performance, and then you can use it to monitor your site. So you can run it on production, and collect the metrics and create graphs and alert if you see something that happens.
 
-\[\\00:35:59.18\\\] Some sites still have a C mess and you have people that can do whatever they want, and it's good to be able to spot that. Or you have ads, and you want to make sure that they run fast, and so on.
+\[00:35:59.18\] Some sites still have a C mess and you have people that can do whatever they want, and it's good to be able to spot that. Or you have ads, and you want to make sure that they run fast, and so on.
 
 **Jerod Santo:** So let's talk about a performance budget. Is this something where everybody gets together and decides, you know, 300 ms is good for us in terms of a certain threshold of our page loading? When we talk about when a web page loads, you have a lot of different things that that could mean: you have time to first paint, you have DOM ready, you have completely loaded... You have all these different things, so maybe tell us how you'd go about stating a performance budget to break a build, and how granular you can be with those types of rules that you're giving there.
 
@@ -296,7 +296,7 @@ Where you should use SiteSpeed is you can either use it on testing your code on 
 
 We'll always try to have a couple of browsers, but I think a headless Chromium is good, and it will be exciting to see what people can build out and how they can use it.
 
-**Jerod Santo:** \[\\00:39:52.08\\\] Let's talk about who's using it, because the features, that you're delivering in the open source world - these are things that you probably have killed a few potential startups that would like to offer this as a paid service. It's so much value provided in the open source, and that's what we love about it. You mentioned on a recent blog post that's kind of like an annual review, some of your successes that you've had throughout three years - this was a 2015 review... And just the number of downloads that you were getting, the surprise of that... You had set a goal in 2015 for 25,000 downloads, and at the end of the year you found it was about 141,000 downloads, which is not quite an order of magnitude; it's definitely the new level of magnitude, but anyways, it's quite a bit more. Who's using it that you know of - big players or small players? The ones that are interesting to you.
+**Jerod Santo:** \[00:39:52.08\] Let's talk about who's using it, because the features, that you're delivering in the open source world - these are things that you probably have killed a few potential startups that would like to offer this as a paid service. It's so much value provided in the open source, and that's what we love about it. You mentioned on a recent blog post that's kind of like an annual review, some of your successes that you've had throughout three years - this was a 2015 review... And just the number of downloads that you were getting, the surprise of that... You had set a goal in 2015 for 25,000 downloads, and at the end of the year you found it was about 141,000 downloads, which is not quite an order of magnitude; it's definitely the new level of magnitude, but anyways, it's quite a bit more. Who's using it that you know of - big players or small players? The ones that are interesting to you.
 
 **Peter Hedenskog:** Yeah, so I know quite many that use it, but I don't know if I can say the names actually, because I haven't okayed with them.
 
@@ -316,7 +316,7 @@ So you have a Docker container for SiteSpeed, and then again a Docker container 
 
 **Adam Stacoviak:** So you're maintaining all these containers for Docker to make sure they work with the current version of SiteSpeed, or the current version of the browsers that work.
 
-**Peter Hedenskog:** \[\\00:44:12.08\\\] Yeah... So actually, we have only SiteSpeed... In the new version we'll have a SiteSpeed container with specific browser versions; the other ones are the ones that you download, the official ones. So you just use Docker pull, Graphite, Grafana and you get that one, and you set it up. But right now, in the 3.x version, it is some hacking... You need to configure things, you need to set up Graphite with Grafana, and you're aiming for making sure that you can run one command and everything is up and running. So it's more easy to get things up and running.
+**Peter Hedenskog:** \[00:44:12.08\] Yeah... So actually, we have only SiteSpeed... In the new version we'll have a SiteSpeed container with specific browser versions; the other ones are the ones that you download, the official ones. So you just use Docker pull, Graphite, Grafana and you get that one, and you set it up. But right now, in the 3.x version, it is some hacking... You need to configure things, you need to set up Graphite with Grafana, and you're aiming for making sure that you can run one command and everything is up and running. So it's more easy to get things up and running.
 
 **Adam Stacoviak:** So version 4.0 is making that easier?
 
@@ -328,7 +328,7 @@ So you have a Docker container for SiteSpeed, and then again a Docker container 
 
 **Adam Stacoviak:** We're hitting our next break, but one thing we wanted to kind of follow up -- Jerod, this is just an eyeball for us... We're not really sure if your work on SiteSpeed got you your position at Wikimedia, but we'd love to learn more about that process for you, and also the background of what's going on at Wikimedia Foundation, and all that stuff... So let's talk about that on the other side of this break.
 
-**Break:** \[\\00:45:45.14\\\]
+**Break:** \[00:45:45.14\]
 
 **Jerod Santo:** Alright, we are back with Peter Hedenskog, talking about all things SiteSpeed.io, and next up we're gonna talk about his role on the performance team at Wikimedia/Wikipedia. But first, Peter, you wanted to give a shout out to somebody who's been working on a special integration with your new coach tool.
 
@@ -338,7 +338,7 @@ So you have a Docker container for SiteSpeed, and then again a Docker container 
 
 **Peter Hedenskog:** I've been working with SiteSpeed.io for quite a while, or at least it seems so. So I applied for a position at the Wikimedia Foundation, and they were looking to add more people to the performance team. At the Wikimedia Foundation, one of the most important things as a developer is that every line of code you write is open source.
 
-\[\\00:47:56.22\\\] When you start at the Foundation, it's a good thing that you have been working on open source before. And since I've been working on SiteSpeed.io, that was a really cool thing, I think... But you need to ask the people that hired me, but I think it was a good way in. Because you have something to show, and when we discussed this, you can show what you have done, so I think that's really good.
+\[00:47:56.22\] When you start at the Foundation, it's a good thing that you have been working on open source before. And since I've been working on SiteSpeed.io, that was a really cool thing, I think... But you need to ask the people that hired me, but I think it was a good way in. Because you have something to show, and when we discussed this, you can show what you have done, so I think that's really good.
 
 **Jerod Santo:** So give us a little bit of an insight into your day-to-day. What do you do as a member of the performance team? Wikipedia is in the top 10 (is it number seven?) of websites on the entire internet, so I would love to hear what your day-to-day is like working there.
 
@@ -358,7 +358,7 @@ I've built some open source tools around that, to measure the sites. I'm now foc
 
 **Peter Hedenskog:** I haven't been working on that... What was important for us was to make sure that we did the switch when we had the same amount of users that were using HTTP/2 as were using Speedy; we didn't do the switch too early so people are losing on performance. But I haven't been working on that, so I have no \[unintelligible 00:52:00.17\]
 
-\[\\00:52:04.22\\\] But it's cool, because HTTP is the future, but still, it will not solve everything; it's still problematic. You need to know what you're doing, and you need to make sure, because... Yeah. And also, the service that supports HTTP/2 have a lot of things to do to make sure that you can prioritize content, and make sure that the prioritizing is right, so the browser can start to render the content as \[unintelligible 00:52:31.28\] as possible. I mean, it's really early in HTTP/2's life. There's a lot of things that can be done, I think.
+\[00:52:04.22\] But it's cool, because HTTP is the future, but still, it will not solve everything; it's still problematic. You need to know what you're doing, and you need to make sure, because... Yeah. And also, the service that supports HTTP/2 have a lot of things to do to make sure that you can prioritize content, and make sure that the prioritizing is right, so the browser can start to render the content as \[unintelligible 00:52:31.28\] as possible. I mean, it's really early in HTTP/2's life. There's a lot of things that can be done, I think.
 
 **Jerod Santo:** So one last question and then we're gonna talk about how people can get involved and help out with SiteSpeed.io. As a performance geek, give us this: if you had to talk to a total beginner or an outsider with regards to website performance, and you had to give three tips (you can only give three, you can't give four). Three tips, low-hanging fruit - what should I be doing to make sure that my website is fast? What were the three things that you would tell that person?
 
@@ -386,7 +386,7 @@ The other one thing that even with HTTP/2 is probably really important is inlini
 
 **Peter Hedenskog:** Number three... Let me think about that. Number three would be for me to make sure that you only deliver things that you are using. A lot of sites deliver everything - you have 10, 20, 30 different Javascript libraries that are delivered to the browser and you maybe use 1% of it. On a desktop computer, \[unintelligible 00:55:47.10\] that doesn't matter, but when you are on a mobile phone and you are on a slow connection, and you have limited CPU, a lot of Javascript will make your phone slower. So trying to minimize, or at least make sure that you are using the things that you send to the browser, I think that's important.
 
-**Adam Stacoviak:** \[\\00:56:11.15\\\] Yeah. A follow-up to Jerod's question on those last two, since they... The first one is definitely closer to beginner; the second two seemed a bit more...
+**Adam Stacoviak:** \[00:56:11.15\] Yeah. A follow-up to Jerod's question on those last two, since they... The first one is definitely closer to beginner; the second two seemed a bit more...
 
 **Jerod Santo:** The second two are giving me impostor syndrome already.
 
@@ -418,7 +418,7 @@ And then \[unintelligible 00:57:38.21\] try to focus on a simpler number three, 
 
 **Adam Stacoviak:** Well, on the note of promotion, let's promote something that's pretty important, which is help. You have a doc on the repo that I actually sent a pull request to while we were here on the show, which is the best ways to help. Money was at the very bottom, which, you know, it's not always all about money, but obviously, as you said before, you've got a wife, you've got twins, you've got a family, you've got things going on, you've got two team members that are helping you out, so obviously this is an important mission, and a mission that has more and more people jumping on board, so what's the best way for the listening audience to focus on helping, whether it's joining the team, whether it's contributing knowledge, whether it's advocating for support - how can people listening to this show take action today and step in and help out in whatever way?
 
-**Peter Hedenskog:** \[\\01:00:04.06\\\] Yeah, perfect. Actually, money is not important to me, but I will start with other things first. If you are a developer and doing stuff there and you like SiteSpeed, I think doing a pull request would be perfect; we've been working at making it easier to tag issues, so you know where you can start and what you can take on, but it's always best to create an issue and talk to us first, so we can guide you through and discuss what you can do. Then making the documentation better, because right now we are lacking a lot of things, and helping us write tests, because \[unintelligible 01:00:40.07\] or other tools have really good tests today, but \[unintelligible 01:00:43.09\] we don't have so good tests. So writing tests and writing documentation, that's perfect. Or helping us where we've done something wrong in the docs, that's perfect.
+**Peter Hedenskog:** \[01:00:04.06\] Yeah, perfect. Actually, money is not important to me, but I will start with other things first. If you are a developer and doing stuff there and you like SiteSpeed, I think doing a pull request would be perfect; we've been working at making it easier to tag issues, so you know where you can start and what you can take on, but it's always best to create an issue and talk to us first, so we can guide you through and discuss what you can do. Then making the documentation better, because right now we are lacking a lot of things, and helping us write tests, because \[unintelligible 01:00:40.07\] or other tools have really good tests today, but \[unintelligible 01:00:43.09\] we don't have so good tests. So writing tests and writing documentation, that's perfect. Or helping us where we've done something wrong in the docs, that's perfect.
 
 There's a lot of companies using SiteSpeed.io, and I'm so blessed, because I live in Sweden, I have kids, I have a partner, I work... I don't need money. But if you're using SiteSpeed.io, I would love for you to instead try to help people that are really suffering (like people in Syria) and trying to support the Red Cross and doing stuff like that instead, because there's a lot of people in the world that really need money, and you don't have to spend it on me or the people that work on SiteSpeed.io because we are really blessed, because we have money to take care of our families. It's better to help people that really need it.
 
@@ -440,7 +440,7 @@ There's a lot of companies using SiteSpeed.io, and I'm so blessed, because I liv
 
 **Adam Stacoviak:** That's good. It's good to know that about a person's character for one, and also a project's character, to kind of remain flat in that regard, so to speak. Let's ask a favorite around here, because we always love to hear about somebody's hero. We talked about where you came from, we talked about your Commodore 64, we even see a picture of you pushing your twins with a computer on it, so we know that you love what you do and somebody must have gotten you to love what you do. Who's your influencer? Who's your hero that got you where you're at? Someone you look up to.
 
-**Peter Hedenskog:** \[\\01:04:06.19\\\] Yeah, I've been thinking a lot about that. It seems like almost everyone has a hero, right? But I think my hero is the everyday programmer. You go to work, you do your time, you build your stuff, and maybe it's not a cool product, but you do your time, you try to solve your problems... I really like the everyday programmer.
+**Peter Hedenskog:** \[01:04:06.19\] Yeah, I've been thinking a lot about that. It seems like almost everyone has a hero, right? But I think my hero is the everyday programmer. You go to work, you do your time, you build your stuff, and maybe it's not a cool product, but you do your time, you try to solve your problems... I really like the everyday programmer.
 
 **Jerod Santo:** Yeah.
 
@@ -478,7 +478,7 @@ There's a lot of companies using SiteSpeed.io, and I'm so blessed, because I liv
 
 **Adam Stacoviak:** Yeah, silly. I mean, who wants to say the other one? No one's stupid out there. There's no stupid questions, there's no stupid answers. It's the curiosity that moves things forward.
 
-**Jerod Santo:** \[\\01:08:02.13\\\] There are silly questions.
+**Jerod Santo:** \[01:08:02.13\] There are silly questions.
 
 **Adam Stacoviak:** There are silly questions, and sometimes those are fun questions... Who knows, right?
 

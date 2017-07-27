@@ -20,7 +20,7 @@ I'm kind of like a typical Gopher, but live in maybe one release cycle in the fu
 
 **JBD:** Yes. I was originally working for Google Cloud, and somehow bootstrapped all the cloud libraries, some sort of like good API design and idiomatic libraries, and everything around cloud products and how we can actually interact with the ecosystem so much better. I kind of like moved to another role to work on the mobile project. The scope of the mobile project was first making the runtime running both on iOS and Android, and then come up with some libraries that will work on those two platforms and providing some tooling similar to Go tool, that will allow me to build mobile applications rather than just the binary. I was involved in that.
 
-\[\\00:03:43.16\\\] As a continuation of that work, last year I was working with the Android team. Android is going through some sort of reorganization when it comes to building some tools and some more structure to build custom Android kernels. The team also wanted to expose GPIO and other peripheral communication interfaces from Android, and wanted to work on popular Linux development ports, so I was involved in there, trying to figure out how we can make Go as a first-class citizen for Android, targeting on the embedded markets and what they are envisioning for the future.
+\[00:03:43.16\] As a continuation of that work, last year I was working with the Android team. Android is going through some sort of reorganization when it comes to building some tools and some more structure to build custom Android kernels. The team also wanted to expose GPIO and other peripheral communication interfaces from Android, and wanted to work on popular Linux development ports, so I was involved in there, trying to figure out how we can make Go as a first-class citizen for Android, targeting on the embedded markets and what they are envisioning for the future.
 
 **Erik St. Martin:** So this is sort of like people who are using ODROID or Xen BeagleBoard Blacks and things like that, that even can get Android on?
 
@@ -46,7 +46,7 @@ Due to the relationship with the Brillo Project, the Android project is called B
 
 **Erik St. Martin:** So Cory and Carlisia, do either of you have experience tinkering with the hardware side of things or embedded?
 
-**Carlisia Pinto:** \[\\00:07:52.11\\\] I did at the Gopher Gala last year. Nathan had a project and I joined to help him a little bit, with also somebody else here from San Diego Ravi. So I got to play with a Raspberry Pi, and we put in code that actually made the Raspberry Pi use a motion sensor, and that was very cool.
+**Carlisia Pinto:** \[00:07:52.11\] I did at the Gopher Gala last year. Nathan had a project and I joined to help him a little bit, with also somebody else here from San Diego Ravi. So I got to play with a Raspberry Pi, and we put in code that actually made the Raspberry Pi use a motion sensor, and that was very cool.
 
 I sort of have an irrational aversion to hardware, because my impression is that hardware doesn't work when I touch them. \[laughs\] I don't know, it's completely irrational. So I try to stay away from hardware in general, although it's pretty cool.
 
@@ -72,7 +72,7 @@ I sort of have an irrational aversion to hardware, because my impression is that
 
 **Erik St. Martin:** Yeah, I was teaching my son a while back... Using an oscilloscope we made almost like a theremin, just a 555 timer and a little light sensor. He had a blast with it until we got annoyed with the high-pitched sound that it made. I didn't quite think that went through, that he would love this thing and wanna play with it. \[laughter\]
 
-\[\\00:12:08.18\\\] So is hardware your true passion, and kind of where it meets software? Or is this just something you do to break away from the software side?
+\[00:12:08.18\] So is hardware your true passion, and kind of where it meets software? Or is this just something you do to break away from the software side?
 
 **JBD:** Yeah, more of the latter. I have a full-time job which is already boring. I think my entire projects have grown with the necessity of me having to design or prototype a hardware for my music experimentation. I still try to build instruments, rather than working on the... I don't know how to say this, but my entire music is very experimental, and also involves hardware I invent, as well as software. So it's more like a side project, a weekend project where I escape from my daily routine.
 
@@ -92,7 +92,7 @@ I'm saying this because I also think it's very important for us to learn a littl
 
 **JBD:** I totally agree. In order to contribute to the first argument, I think simulation is really important. For Brillo, my co-workers were more passionate about building a graphical interface that allows people to understand what it feels like to work with GPIO, rather than work in anything else. The number one reason is making hardware work, and making sure it's working correctly; getting it to a state where everything is working is really hard, so you just wanna have a feel, how it feels, what the APIs look like, how easy it is without touching any of that stuff. So I think it's just really valuable to have simulation going on.
 
-**Erik St. Martin:** \[\\00:15:55.23\\\] I think that there's cheap ways people can do electronics too, and I wanna say that to make electronics work is like learning through discovery, or something like that. The number of components that you need is pretty small, and I think it's nice to have that hands on, and for people to learn what happens and what a burnt capacitor smells like. There's something interesting about doing that.
+**Erik St. Martin:** \[00:15:55.23\] I think that there's cheap ways people can do electronics too, and I wanna say that to make electronics work is like learning through discovery, or something like that. The number of components that you need is pretty small, and I think it's nice to have that hands on, and for people to learn what happens and what a burnt capacitor smells like. There's something interesting about doing that.
 
 The NAND To Tetris book that Carlisia was talking about - I love that book. The one thing I don't like is that chapters go really fast, so you kind of need supplemental learning material, but it starts at kind of like gates and boolean logic, how to build a NAND gate, and then how those are kind of assembled. Then you can basically build the ALU of a computer using nothing but NAND gates. Then it kind of builds up there where you kind of have your own assembly language, then your own assembler, and then kind of like an object-oriented language and then a virtual machine.
 
@@ -116,7 +116,7 @@ By looking at the current complexity of the things, I think the current generati
 
 When I introduce myself, that I'm supposed to be a power Go user, and giving people, the team, usability API design feedback, maybe initiating libraries and tooling to fill the gaps... If there's any experimentations required, probably I have more time to run experimentations, so it's part of my responsibility. And I'm still in this transitioning period, and while I'm there, I'm just trying to listen to the community and gather some feedback, actionable items.
 
-\[\\00:20:02.23\\\] One of the things that Brian was mentioning is this feedback around tooling. I wanna understand, rather than specific bugs and complaints, what are the bigger picture problems. If we would like to rethink our tooling, what should we fix and how should we fix it? This involves an understanding of the current workflow of the users and what is missing there, and trying to understand more of a bigger picture, rather than focusing on little things.
+\[00:20:02.23\] One of the things that Brian was mentioning is this feedback around tooling. I wanna understand, rather than specific bugs and complaints, what are the bigger picture problems. If we would like to rethink our tooling, what should we fix and how should we fix it? This involves an understanding of the current workflow of the users and what is missing there, and trying to understand more of a bigger picture, rather than focusing on little things.
 
 I'm kind of surprised by the number of people who actually returned back to me and wrote about how they feel about certain things, things that maybe need to be redesigned or can be supported by experimental tools or extension tools. I'm really excited to hear more, and I do believe as a community or as a language we will never succeed if we cannot create this type of feedback channel and question what we are doing once in a while.
 
@@ -134,7 +134,7 @@ I think we are coming from a typical background, and everything is so much clear
 
 **Carlisia Pinto:** And have you been able to at least have some insights about things that can be done to make that better?
 
-**JBD:** \[\\00:24:05.25\\\] My audience is a little bit restricted. I cannot really go to people who are coming from totally different backgrounds and I cannot enforce them to use Go and give them feedback. The only way I see which might be valuable but it's still not ideal - because it's a small subset of the same culture on itself... I think new graduates, or people who are at Google who really believe that this language is not really a product that is fitting their worldview might be a good place to seek for that type of feedback. That's the only practical, easy and actionable thing I can work on.
+**JBD:** \[00:24:05.25\] My audience is a little bit restricted. I cannot really go to people who are coming from totally different backgrounds and I cannot enforce them to use Go and give them feedback. The only way I see which might be valuable but it's still not ideal - because it's a small subset of the same culture on itself... I think new graduates, or people who are at Google who really believe that this language is not really a product that is fitting their worldview might be a good place to seek for that type of feedback. That's the only practical, easy and actionable thing I can work on.
 
 I think the main goal of rethinking about these problems is to make newcomers happy, rather than working for the existing users. Because existing users already know what they need to do.
 
@@ -152,7 +152,7 @@ Maybe what we need to do is more of like typical user studies where we just put 
 
 It sounds funny, right? We're trying to optimize for these newcomers and give them the onboard faster, and I think that's great, but I also feel like it's phenomenal compared to most other languages already. So I'm curious what aspects do you think that can be improved the most?
 
-**Erik St. Martin:** \[\\00:28:01.24\\\] I'd like to kind of jump in here too, because I think there's one area that I think we can improve in. When we look at the walkthrough online, the Go tutorial - it goes through a lot of the language features, but some of this stuff is not necessarily approachable just in domain knowledge.
+**Erik St. Martin:** \[00:28:01.24\] I'd like to kind of jump in here too, because I think there's one area that I think we can improve in. When we look at the walkthrough online, the Go tutorial - it goes through a lot of the language features, but some of this stuff is not necessarily approachable just in domain knowledge.
 
 One instance I know of somebody who's going through the tutorial and got hung up on one of the things, and I think he was just working with slices or arrays or something like that, but the object of that particular chapter was to build bitmaps, or something like that. And it was really confusing just understanding what the domain model was. And then a lot of people are still learning in these bite-sized chunks.
 
@@ -176,7 +176,7 @@ I think initially the community was more of exchanging ideas and knowledge; ther
 
 **JBD:** Yes.
 
-**Cory LaNou:** \[\\00:31:56.16\\\] But I guess I do remember struggling with "How do I get my tester on? How do I get this to build? How do I install this thing?" That was a lot of searching on Google for me to find that originally, so I can definitely understand that.
+**Cory LaNou:** \[00:31:56.16\] But I guess I do remember struggling with "How do I get my tester on? How do I get this to build? How do I install this thing?" That was a lot of searching on Google for me to find that originally, so I can definitely understand that.
 
 **JBD:** Yeah, I kind of feel the same, even for the error messages from the toolchain. There are so many cryptic things... Once you learn what the message means, you are productive and understanding the case, but it just requires you to always google things, and I think that's the goal of my project and how I see things, how I prioritize these improvement projects.
 
@@ -194,7 +194,7 @@ This past year I've seen the level of resources increasing dramatically, but it'
 
 I do think that the blog was sort of like being used to publish white papers, but it's not quite organized and it doesn't give you navigation. I really believe that we need some sort of another medium to write guidelines which may also contain what you've been saying, or the thing that I was mentioning with the toolchain where there's no canonical way to see what I can do with this aspect. So I agree, and I think there are multiple people agreeing on that, and there are some people who are already working on it.
 
-**Carlisia Pinto:** \[\\00:36:14.11\\\] Awesome.
+**Carlisia Pinto:** \[00:36:14.11\] Awesome.
 
 **Erik St. Martin:** Yeah, I think that tends to be the struggle. I think there's a lot of resources for teaching the semantics of the language, but then people look at it and they're like, "Okay, how do I get from A to B? I understand these different constructs of the language, but I wanna build a web service. Where do I start? What does a typical structure of an application look like? Am I doing it right?" I think people give up there, which is interesting.
 
@@ -212,7 +212,7 @@ I do believe it's natural in every language that the focus will be shifted more 
 
 **JBD:** Yeah, I think understanding what we are going to be working on in the next two years is the biggest challenge we have, because the scale is really big and there are too few people on this project, working full-time. The community is growing, but I do believe that our communication is pretty broken. The main reason - let's put it this way... I think all the random topics we've talked about are always being talked in random conversations. We need more structure, probably, and better communication to achieve anything that will expand our impact region.
 
-\[\\00:40:00.15\\\] What I really see missing in our community is there's no point of talking about transmission feedback; in the beginning we had more central points, and our community is getting really big, so it's really healthy that we have distributed communities. But as we are getting more distributed, it's so much harder to gather feedback, and only a very small portion of the communities are actually contributing to the development of the language. This is pretty expected, but I see really obvious cases where people are complaining on Twitter, but then I see that there's no issue filed, and I'm just trying to understand what is the missing thing that makes that person not feeling encouraged to file it as an issue.
+\[00:40:00.15\] What I really see missing in our community is there's no point of talking about transmission feedback; in the beginning we had more central points, and our community is getting really big, so it's really healthy that we have distributed communities. But as we are getting more distributed, it's so much harder to gather feedback, and only a very small portion of the communities are actually contributing to the development of the language. This is pretty expected, but I see really obvious cases where people are complaining on Twitter, but then I see that there's no issue filed, and I'm just trying to understand what is the missing thing that makes that person not feeling encouraged to file it as an issue.
 
 **Erik St. Martin:** That's interesting. Have you seen the way the Kubernetes processes developed? This is actually gonna be what I'll mention in the \#FreeSoftwareFriday section, but I think it kind of fits in here. They run special interest groups. There's kind of like split up...
 
@@ -228,7 +228,7 @@ We're trying to establish this workgroup and see if it's going to work, because 
 
 Without this structure, or some sort of giving ownership, or more collective feedback from the users or the contributors, it's just impossible to scale the language.
 
-**Cory LaNou:** \[\\00:44:08.12\\\] Yeah, I think the micro groups is definitely a way to go there. I think some of it is when you're on a micro level and say, "We just expect the entire world to weigh their opinion in." It's hard, it's not approachable. For me, personally... The Go community is fantastic and I find the people that are in the Go community to be really approachable. This is just my perception, but I've never felt like the Go Team has been approachable. And I'm not saying it's their fault, I just feel like there's no conduit that I have that's "Hey, I wanna express my opinion" other than if I tweet something out and hopefully I don't get any backlash from that. So the approachability there might be part of the problem, as well.
+**Cory LaNou:** \[00:44:08.12\] Yeah, I think the micro groups is definitely a way to go there. I think some of it is when you're on a micro level and say, "We just expect the entire world to weigh their opinion in." It's hard, it's not approachable. For me, personally... The Go community is fantastic and I find the people that are in the Go community to be really approachable. This is just my perception, but I've never felt like the Go Team has been approachable. And I'm not saying it's their fault, I just feel like there's no conduit that I have that's "Hey, I wanna express my opinion" other than if I tweet something out and hopefully I don't get any backlash from that. So the approachability there might be part of the problem, as well.
 
 **JBD:** I think the main problem is we don't have a channel to brainstorm ideas. Currently, you have the issue tracker. You have the proposal process, which you definitely need to come up with something really mature and working in order to propose and get it reviewed. There's nothing in between. It's so hard to understand, and just like work on existing, random ideas or brainstorm about what could be done, just because of the lack of that lightweight... I don't know, I do believe it's the lack of medium, rather than people not trying to listen.
 
@@ -248,7 +248,7 @@ Ranting on Twitter, or... I think each team member has some capacity, and we nee
 
 **Carlisia Pinto:** And for the Google Cloud platform working group - at least that's what I understand - it's already in motion...
 
-**JBD:** \[\\00:47:54.23\\\] Oh, that's not the Google Cloud. We don't care about a specific provider.
+**JBD:** \[00:47:54.23\] Oh, that's not the Google Cloud. We don't care about a specific provider.
 
 **Carlisia Pinto:** I'm sorry, what working group did you say you were going to start with?
 
@@ -276,7 +276,7 @@ So you were talking about language succeeding and failure mostly due to communic
 
 **JBD:** Before we get in there, I've seen something on the Slack channel... Aaron is saying "Working code speaks louder than workgroups to start serious conversation." I partially agree with this, but I partially disagree. I think experimentation or community-driven projects have a really small scope. You cannot achieve community-wide APIs by starting experimental projects, or personal projects because you're by design excluding so many aspects, as you're restricting yourself to your own goals.
 
-\[\\00:52:15.26\\\] I think the idea behind workgroups is to see what else is there. Otherwise, it's just easy to execute working code and solve a small aspect, but I don't really believe that working groups -- the main goal behind working groups is solving specific problems in its own small scope.
+\[00:52:15.26\] I think the idea behind workgroups is to see what else is there. Otherwise, it's just easy to execute working code and solve a small aspect, but I don't really believe that working groups -- the main goal behind working groups is solving specific problems in its own small scope.
 
 **Carlisia Pinto:** One thing to keep in mind when you bring up these concerns is that you're looking at it from the perspective of scaling the use of Go. We are relatively new, maybe not so new anymore - I don't even know if we should say we're so new - and we are trending upwards in terms of adoption, and your concerns that we don't have such a great communication, we don't have such great channels for feedback, feedbacks are being given out there without it being incorporated into the people who are working with the language and documentation that goes with it, and you're thinking "Well, if this way now, how is it going to be when the community is double?" A lot of people think this community is going to grow a lot, so I think you're right to be thinking this way.
 
@@ -290,7 +290,7 @@ I do believe that having workgroups will increase this communication with the co
 
 But having people one off proposals and talking to different people here and there, and people change, and rotate, and they don't really know where people are coming from with suggestions, I can only imagine how hard that must be for the language team to participate in this constantly revolving set of people who are approaching them. So having a group that is, of course, not a forever group, but a group that is going to stay for a while and focus on one aspect of the language and the ecosystem, that group having the trust of the language team and the trust of the community, it can only make it better.
 
-**JBD:** \[\\00:56:30.13\\\] Yeah, I think it's impossible to scale if you are an engineer working on the core team, to engage as much as you write code. They are already really productive, and you cannot really ask them to expose themselves to all these channels to gather feedback and understand what is going on. I would never expect anybody to waste their time on that, because I think their time is really valuable and it needs to be canalized to the right things. With this buffer group, as you said, we will give them some knowledge and summary of what is going on, and that's what they need.
+**JBD:** \[00:56:30.13\] Yeah, I think it's impossible to scale if you are an engineer working on the core team, to engage as much as you write code. They are already really productive, and you cannot really ask them to expose themselves to all these channels to gather feedback and understand what is going on. I would never expect anybody to waste their time on that, because I think their time is really valuable and it needs to be canalized to the right things. With this buffer group, as you said, we will give them some knowledge and summary of what is going on, and that's what they need.
 
 **Cory LaNou:** I also think the special interest groups are really cool because a lot of times I think when people are working at their projects and they're looking at Go and saying, "Oh, if it could do this, or if I could have this from it, that would help my project", but they maybe don't think that it applies to the wider group, so they don't really engage, and if they knew there was a special interest group that was surrounding the topics they're already concerned with, I think that would really help draw more of the community in as well.
 
@@ -312,7 +312,7 @@ And not everybody's accustomed to reading the draft proposal form of things, so 
 
 **Carlisia Pinto:** That's a great question.
 
-**JBD:** \[\\00:59:55.18\\\] I don't wanna really reveal my ideas, but I think that there are things that are really obvious to me, such as... Well, this is not entirely engineering related - the first one is a docs group. Our current blocker is documentation, and explaining conventions and things. I do not really believe that all the other teams are really caring about documentation; I think they are seeing things within their perspective, and I do believe that a community group can totally tell them what is more obviously missing. So that's one of the... Maybe docs and outreach together, because the community is already doing so much work in a very structured way, at every conference, or on blogs, or everywhere else. I would love to see some sort of central group so people can share knowledge with each other and create material for each other, so writing and talking and documenting things become easier.
+**JBD:** \[00:59:55.18\] I don't wanna really reveal my ideas, but I think that there are things that are really obvious to me, such as... Well, this is not entirely engineering related - the first one is a docs group. Our current blocker is documentation, and explaining conventions and things. I do not really believe that all the other teams are really caring about documentation; I think they are seeing things within their perspective, and I do believe that a community group can totally tell them what is more obviously missing. So that's one of the... Maybe docs and outreach together, because the community is already doing so much work in a very structured way, at every conference, or on blogs, or everywhere else. I would love to see some sort of central group so people can share knowledge with each other and create material for each other, so writing and talking and documenting things become easier.
 
 **Cory LaNou:** Yeah, a big +1 to that. I'm a huge fan of a docs group.
 
@@ -350,7 +350,7 @@ A related project that I actually ran into over the week was Pumba. It's chaos t
 
 **Cory LaNou:** Does it come with a preconfig for AWS network situations, so you can basically replicate what AWS is for you right away? \[laughter\]
 
-**Erik St. Martin:** \[\\01:04:04.12\\\] There's just a "AWS = true" flag. I'll drop the link in the channel for anybody who's listening live. I ran across it late last week, and I haven't had a chance to play with it yet, but it looked really cool. And we know 1.73 came out, and I think there was just a few bug fixes there. I don't know whether there was anything major there, but it's a point release, so that's to be expected.
+**Erik St. Martin:** \[01:04:04.12\] There's just a "AWS = true" flag. I'll drop the link in the channel for anybody who's listening live. I ran across it late last week, and I haven't had a chance to play with it yet, but it looked really cool. And we know 1.73 came out, and I think there was just a few bug fixes there. I don't know whether there was anything major there, but it's a point release, so that's to be expected.
 
 Anybody else ran across any interesting projects this week?
 
@@ -388,7 +388,7 @@ And Cory, you just said yours.
 
 **JBD:** Do I need to direct message it, or...?
 
-**Erik St. Martin:** \[\\01:08:01.03\\\] You just add it in the channel, and it direct messages that.
+**Erik St. Martin:** \[01:08:01.03\] You just add it in the channel, and it direct messages that.
 
 **Carlisia Pinto:** But JBD has made a good point - you can totally do a direct message, and just type things out there, so you won't be spamming the channel.
 
@@ -428,7 +428,7 @@ So you don't have to throw anything in there, but if you have something, we'd lo
 
 **Erik St. Martin:** I lost my time, because I got rebooted due to your awesomeness...
 
-**JBD:** \[\\01:11:41.04\\\] Well, this was a formal meeting for the meta work groups, so... I just wanna conclude by saying that I think people really think, and there's no intention to isolate from the actual problems the community is experiencing, or anything. But trying to find the right channel will take some experimentation. I think the language grew really quickly and the team was really small, so I think this was kind of expected, that it won't be ideal if there's a rapid growth. That unfortunately happened, so we need to consider options and act to make things better.
+**JBD:** \[01:11:41.04\] Well, this was a formal meeting for the meta work groups, so... I just wanna conclude by saying that I think people really think, and there's no intention to isolate from the actual problems the community is experiencing, or anything. But trying to find the right channel will take some experimentation. I think the language grew really quickly and the team was really small, so I think this was kind of expected, that it won't be ideal if there's a rapid growth. That unfortunately happened, so we need to consider options and act to make things better.
 
 **Erik St. Martin:** Growth is always painful, and I think we'll get through this as it's just one hurdle in the evolution of the language.
 

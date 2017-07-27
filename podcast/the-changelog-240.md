@@ -4,7 +4,7 @@ We talked to Ben about the indie web and app developers, how RSS usage has chang
 
 We have two sponsors today, Linode and Hired.
 
-**Break:** \[\\00:01:16.10\\\]
+**Break:** \[00:01:16.10\]
 
 **Adam Stacoviak:** Alright, we're back. Jerod, we've got Ben Ubois here. This is an interesting show because of how far back it goes... It goes back to 2014.
 
@@ -34,7 +34,7 @@ We have two sponsors today, Linode and Hired.
 
 **Jerod Santo:** Interesting. Well, we're here to talk about Feedbin, which is your open source RSS reader. We're here to talk about RSS, the business of it, the change in time, what were you all using, what Feedbin is, all the technology and stuff.
 
-\[\\00:04:03.06\\\] I'll just say, as a bit of a disclaimer, that I've been a Feedbin subscriber/user probably ever since after the Google Reader shutdown... So a long-time user. Adam has not, as I introduced it to him - what was it, Tuesday? Or Wednesday?
+\[00:04:03.06\] I'll just say, as a bit of a disclaimer, that I've been a Feedbin subscriber/user probably ever since after the Google Reader shutdown... So a long-time user. Adam has not, as I introduced it to him - what was it, Tuesday? Or Wednesday?
 
 **Adam Stacoviak:** Tuesday or Wednesday, that sounds about right. Not the concept of RSS...
 
@@ -72,7 +72,7 @@ We have two sponsors today, Linode and Hired.
 
 **Ben Ubois:** Odeo.
 
-**Jerod Santo:** \[\\00:08:00.09\\\] Odeo, yeah. It was three people inside of Odeo building it, and when it first came out and all the early adopters, you could talk to the individual people who were not just working at Twitter, but were actually making the decisions. Over time, it grows and turns into something - I very much agree with you - that has no feelings or doesn't care (in terms of individuals' care), but it's one of these things... As tech users and people on the forefront, we see these companies incubate and start really small, and then we see them turn into something that they weren't, which is inevitable if they're gonna be successful.
+**Jerod Santo:** \[00:08:00.09\] Odeo, yeah. It was three people inside of Odeo building it, and when it first came out and all the early adopters, you could talk to the individual people who were not just working at Twitter, but were actually making the decisions. Over time, it grows and turns into something - I very much agree with you - that has no feelings or doesn't care (in terms of individuals' care), but it's one of these things... As tech users and people on the forefront, we see these companies incubate and start really small, and then we see them turn into something that they weren't, which is inevitable if they're gonna be successful.
 
 **Ben Ubois:** Yeah, and with Twitter that can be painful, because people remember when it was small and you could name everybody who worked there, if you were following closely... And they were trying to attract people that you identify with, instead of celebrities and that sort of thing. That transition can be painful, but I think at a certain point you just have to recognize that it's not for you anymore, specifically.
 
@@ -94,7 +94,7 @@ Tell us about your perspective on RSS and why you began Feedbin, especially in l
 
 Then I eventually switched to using Google Reader, which would sync with both NetNewsWire and Reader. And I was kind of down on Google Reader; I thought it was an interesting product and I liked the sync service, but I was thinking about it maybe in late 2011, early 2012... I was thinking, "Google isn't really \[unintelligible 00:12:04.12\] this all that much." In fact, they had a big update that \[unintelligible 00:12:08.22\] just to kind of like prop up Google+ or something, at the time...
 
-\[\\00:12:16.09\\\] But I was like, "I kind of want something on the web, that's as good as NetNewsWire is on the desktop and Reader is on iOS, and Google Reader is not that." That, combined with -- you know, at the time I was working at a web development agency, but I was building mostly static marketing sites, and I loved seeing the backend development and system administration and all that stuff... I just felt like I wasn't getting enough of it. So I thought, "My number one passion and hobby is reading these RSS feeds... Let me see if I can build something for that."
+\[00:12:16.09\] But I was like, "I kind of want something on the web, that's as good as NetNewsWire is on the desktop and Reader is on iOS, and Google Reader is not that." That, combined with -- you know, at the time I was working at a web development agency, but I was building mostly static marketing sites, and I loved seeing the backend development and system administration and all that stuff... I just felt like I wasn't getting enough of it. So I thought, "My number one passion and hobby is reading these RSS feeds... Let me see if I can build something for that."
 
 So I started building it in Rails, which was also fairly new to me, in late 2012. Along the way, I was thinking this thing needs to have great uptime, because if I'm gonna be visiting it frequently it needs to always be up; that's gonna cost me money, basically, just to keep the servers going. So I thought, "Well, I'll build in a billing component, so that maybe I can convince some friends and family to sign up, just so that I can keep it running", basically so I can use it.
 
@@ -120,7 +120,7 @@ Feedbin had an API, and he was able to get sync working with that, and that kind
 
 **Jerod Santo:** I have a very similar story to yours, minus the open source business that you began as an RSS reader fan. I never actually used NetNewsWire; I think I started on Google Reader, but used Reader (the app) on iOS. And I hated Google Reader's website so much that I actually used the Reader app for Mac as well... So when I found Feedbin, it was very much because I was using Google Reader as my sync service effectively, my dumb pipe, which worked very well for that purpose.
 
-\[\\00:16:00.01\\\] And just for some historical context, this was the summer of 2013; it's when the whole Google Reader announcement and shutdown on July 1st (I looked it up) happened. Around that time -- I mean, there were thousands of us, maybe tens of thousands that were scrambling. Because as a daily user of Google Reader sync service - that was just going away. Many of us I think never actually found new homes; I think there's a lot of people that just quit using RSS at that point.
+\[00:16:00.01\] And just for some historical context, this was the summer of 2013; it's when the whole Google Reader announcement and shutdown on July 1st (I looked it up) happened. Around that time -- I mean, there were thousands of us, maybe tens of thousands that were scrambling. Because as a daily user of Google Reader sync service - that was just going away. Many of us I think never actually found new homes; I think there's a lot of people that just quit using RSS at that point.
 
 **Ben Ubois:** I think so, too. I see that a lot, and I kind of feel like those people just need to google it. \[laughter\]
 
@@ -152,7 +152,7 @@ However, I recognize that there's a strategy tax (I don't know if that's the rig
 
 However, I think that the kind of business that would not want an RSS feed also is the kind of business that would not have a very interesting RSS feed. The interesting content out there, in my opinion, is all the personal blogs of people who are not really in the business of producing content. They do it because they're interested in what they're writing about, or recognize that there's value in what they have to say.
 
-**Jerod Santo:** \[\\00:19:49.28\\\] That's exactly how I use RSS, and which is why I still love it to this day. Because I am a completionist, Adam, and I absolutely have to get to inbox - zero, RSS - zero, Twitter - zero, all the zeroes... Because of that, it limited how I used RSS. I couldn't subscribe to the people that, as you said, Ben, wouldn't have -- well, you can't subscribe if they don't have a feed, but there's a lot of sites that publish feeds, but they're not good RSS feeds... Like Mashables, if you subscribe to like a Hacker News feed - you're just getting aggregated content or the quick hit news, and huge batches throughout the day. It's not a good way to go about things.
+**Jerod Santo:** \[00:19:49.28\] That's exactly how I use RSS, and which is why I still love it to this day. Because I am a completionist, Adam, and I absolutely have to get to inbox - zero, RSS - zero, Twitter - zero, all the zeroes... Because of that, it limited how I used RSS. I couldn't subscribe to the people that, as you said, Ben, wouldn't have -- well, you can't subscribe if they don't have a feed, but there's a lot of sites that publish feeds, but they're not good RSS feeds... Like Mashables, if you subscribe to like a Hacker News feed - you're just getting aggregated content or the quick hit news, and huge batches throughout the day. It's not a good way to go about things.
 
 But like you said, Ben... If you find the indie bloggers, the guy over here who like to write about this thing, and the gal over here who loves web animations and she publishes maybe - you don't have to keep up - once a month, and you're gonna see that. There's so many goodies that come in an RSS if you do it that way.
 
@@ -180,7 +180,7 @@ So you had these two big moments early on where you probably got a lot of custom
 
 **Jerod Santo:** Sure.
 
-**Ben Ubois:** \[\\00:23:39.28\\\] So RSS I would say is dwindling, and there are few people who are into it, but the people who are into it are passionate. Feedbin has probably more customers that signed up before Google Reader shut down than after. So there's more people that have been with Feedbin since the beginning than there are that have signed up since then. They stick with it, they come back every day, or at least several times a week. I think this is probably an industry-leading number, but the average time on the site is over 70 minutes for Feedbin, which I think beats Facebook and anything else out there.
+**Ben Ubois:** \[00:23:39.28\] So RSS I would say is dwindling, and there are few people who are into it, but the people who are into it are passionate. Feedbin has probably more customers that signed up before Google Reader shut down than after. So there's more people that have been with Feedbin since the beginning than there are that have signed up since then. They stick with it, they come back every day, or at least several times a week. I think this is probably an industry-leading number, but the average time on the site is over 70 minutes for Feedbin, which I think beats Facebook and anything else out there.
 
 **Adam Stacoviak:** That's a lot.
 
@@ -188,7 +188,7 @@ So you had these two big moments early on where you probably got a lot of custom
 
 **Jerod Santo:** Very cool. Well, I wanna dig into Feedbin the product, talk about what it offers, talk about the open source and the technical side of how it's all wired together, because that's very interesting to us, too. So we're gonna take our very first break, and we'll take that up on the other side of this.
 
-**Break:** \[\\00:24:53.22\\\]
+**Break:** \[00:24:53.22\]
 
 **Jerod Santo:** Alright, we are back with Ben Ubois, talking about RSS, talking about Feedbin, talking about open source and software. Ben, give us the lay of the land of what Feedbin is. You gave us the start of it, and a little bit of the business angle about some of your fortuitous timing. Tell us about the product, what it is today, and maybe even tell us where you'd like to take it.
 
@@ -196,7 +196,7 @@ So you had these two big moments early on where you probably got a lot of custom
 
 The way that I like to think about Feedbin is just as a nice place to read on the web. I think the web has gotten increasingly hostile with ads and pop-overs, and just de-emphasizing the content in an unhealthy way. Feedbin is all about the content; there's nothing there except for your content that you choose to subscribe to, and tools to help you enjoy that more and manage it better.
 
-**Jerod Santo:** \[\\00:27:54.04\\\] Very cool. How about, in addition to it being a nice place to read on the web - does it have any unique features beyond what you'd get with a Reader, perhaps? The one thing about Google Reader - at least the way I used it was it was just my sync service. Does Reader offer things above and beyond like a sync for your OPML, if you wanted to use it with an app in front of it, like the web interface? I guess I'm asking this really poorly, but are there other features that set it apart, perhaps from other RSS things?
+**Jerod Santo:** \[00:27:54.04\] Very cool. How about, in addition to it being a nice place to read on the web - does it have any unique features beyond what you'd get with a Reader, perhaps? The one thing about Google Reader - at least the way I used it was it was just my sync service. Does Reader offer things above and beyond like a sync for your OPML, if you wanted to use it with an app in front of it, like the web interface? I guess I'm asking this really poorly, but are there other features that set it apart, perhaps from other RSS things?
 
 **Ben Ubois:** If you are primarily or exclusively using RSS through a native app, I would say the experience of using any RSS service is largely undifferentiated. And that comes back to what the app authors want to implement; I think an app author would wanna provide a consistent experience across any service that they support. So while Feedbin does offer some extra API endpoints that would enable app developers to support some of the extra features that Feedbin has, they don't always choose to do that, just because it is then inconsistent with other RSS backends. So that is a real challenge.
 
@@ -208,7 +208,7 @@ With Feedbin - I think of it as a premium product, and you get a lot out of it, 
 
 **Ben Ubois:** It's an approach that I recognize, which is "How do you explain what RSS is without using the word RSS?" That language to me sounds like, "Oh, you're a business professional", whereas I think Feedbin is more targeted at web professionals, savvy users and just passionate people in general with diverse interests. It also doesn't shy away from being techy. There is stuff in Feedbin that you wouldn't understand unless you have a pretty firm understanding of how the web works. However, there's a great interface on top of all that that makes it look nice and enjoyable to use.
 
-**Jerod Santo:** \[\\00:31:52.09\\\] What's interesting to me is you have multiple pressures on Feedbin as a business, and just to put it out there, Feedbin is $3/month subscription fee, so that's the way Ben supports himself with it. You have free alternatives, like Feedly and others, where like you said, if you're using it as a sync service and you have native apps on all your devices, you can't actually do better than a free service, in many ways.
+**Jerod Santo:** \[00:31:52.09\] What's interesting to me is you have multiple pressures on Feedbin as a business, and just to put it out there, Feedbin is $3/month subscription fee, so that's the way Ben supports himself with it. You have free alternatives, like Feedly and others, where like you said, if you're using it as a sync service and you have native apps on all your devices, you can't actually do better than a free service, in many ways.
 
 Then you have the dwindling use of RSS, which we've discussed, and the increasing use of social networks. Then you have the inability to explain it to people who may love RSS, if they could just get over that technical hurdle. So you have all these different struggles as an independent developer trying to support himself with a business, and in light of all that, you also open sourced it. So the very last thing you could think of, as reasons why I may not subscribe to Feedbin, is now you get the person who's super technical and they love RSS and they think Feedbin is a superior experience, but they're a hacker. So now they can say, "Oh, I can just run it on my own server. It's here, open source." That seems like your last holdout. So tell us about the decision to open source it, why you did that and how that's going.
 
@@ -234,7 +234,7 @@ There's a for-sale alternative to it. So that's an example, but I tend to agree 
 
 **Adam Stacoviak:** There's actually an upcoming sponsor we have that has a similar story in terms of open source in a parallel product that's hosted and sold as a hosted product. But you could take this thing and run it on your own... It's called Sentry; it's for error tracking, since we're talking about error tracking.
 
-**Ben Ubois:** \[\\00:36:07.01\\\] I was gonna mention Sentry, because that's in the same vein as what you were just talking about.
+**Ben Ubois:** \[00:36:07.01\] I was gonna mention Sentry, because that's in the same vein as what you were just talking about.
 
 **Adam Stacoviak:** Very similar in terms of product development. Open source product - you can totally take Sentry and host it yourself and run it yourself; it's the same exact thing that you would buy or try for free on their site.
 
@@ -268,19 +268,19 @@ So I would say it is somewhat unproven whether it's a positive or a negative thi
 
 **Ben Ubois:** Yeah, it's s still cheaper than the cheapest DigitalOcean instance, so I think it's a pretty good value to just pay for it.
 
-**Adam Stacoviak:** \[\\00:39:43.11\\\] Back to the indie thing, though... I think that as anybody who's probably in that realm of RSS, they probably have some kindred spirit to the indie software developers in the web world, in the blogger world, where they are going to want to support you. It's less about value, and it's more about -- it's value plus... It's like, "I get value from not running my own DigitalOcean server (or name your host here)", but at the same time they wanna support you as a developer to keep making it happen, because they value the end-all product they're using, not just the fact that they give some money or they save some money.
+**Adam Stacoviak:** \[00:39:43.11\] Back to the indie thing, though... I think that as anybody who's probably in that realm of RSS, they probably have some kindred spirit to the indie software developers in the web world, in the blogger world, where they are going to want to support you. It's less about value, and it's more about -- it's value plus... It's like, "I get value from not running my own DigitalOcean server (or name your host here)", but at the same time they wanna support you as a developer to keep making it happen, because they value the end-all product they're using, not just the fact that they give some money or they save some money.
 
 **Ben Ubois:** Yeah, and I think that's huge. Like I said, RSS people are passionate people, and they do care about who they're giving money to, and that design matters, and everything else like that. So I almost think about Feedbin as indie Mac software, even though it's very much web-based.
 
 **Adam Stacoviak:** That's a good time to take a break, actually. We'll take this break, and when we come back from it, we're gonna dive a little deeper into how this thing actually works, so when you do use it on-site or if you run the open source version on your own server, you know how it works. We'll be right back.
 
-**Break:** \[\\00:41:01.03\\\]
+**Break:** \[00:41:01.03\]
 
 **Adam Stacoviak:** Alright, we're back with Ben Ubois, and we're talking about this awesome thing called Feedbin. I've never used it; I'm gonna sign up, I'm gonna check it out, but one of the things we wanna know about is behind the scenes. You mentioned it's a Rails app... What else? There's a gazillion environment variables... What else have we got going on here?
 
 **Ben Ubois:** Yeah, I think I mentioned earlier that I was pretty new to Rails when I was starting out with Feedbin. I'd actually used it way back in 2006 for a college thing, and then took a very long diversion, working in PHP for many years, and then started getting back into Ruby and thought I'd build Feedbin in Rails.
 
-\[\\00:44:08.02\\\] So I tried to make it as vanilla as possible, just because I didn't have a better opinion than what was already there. I like the philosophy of Rails and all that... So that's really the main app. The other things that are in use are Sidekick, which... I really even had scaling problems early on; I didn't know what I was doing, and there was just way more stuff that needed to be done than I had anticipated because of the growth. So Sidekick kind of solved scaling for me. The biggest issue was "How do I check hundreds of thousands or millions of feed URLs efficiently and in a timely way?" Because you know, if you're on a single thread in a Ruby process, every HTTP request is gonna take, on average, a couple of seconds. So that just does not work out if you're limited by number of processes. Because of Sidekick's threading model, I was able to really parallelize that and actually push that out onto a handful of cheaper DigitalOcean servers.
+\[00:44:08.02\] So I tried to make it as vanilla as possible, just because I didn't have a better opinion than what was already there. I like the philosophy of Rails and all that... So that's really the main app. The other things that are in use are Sidekick, which... I really even had scaling problems early on; I didn't know what I was doing, and there was just way more stuff that needed to be done than I had anticipated because of the growth. So Sidekick kind of solved scaling for me. The biggest issue was "How do I check hundreds of thousands or millions of feed URLs efficiently and in a timely way?" Because you know, if you're on a single thread in a Ruby process, every HTTP request is gonna take, on average, a couple of seconds. So that just does not work out if you're limited by number of processes. Because of Sidekick's threading model, I was able to really parallelize that and actually push that out onto a handful of cheaper DigitalOcean servers.
 
 That runs on eight different servers right now, with a few Sidekick processes for piece, and then it can have maybe like 1,500 requests per second that way... Which is a number I'm proud of. I know there's probably Go and Rust people who are like, "Pff... Whatever", but that works well enough for me, and it does it in a way that I feel like it's never far behind anything. So I've been really happy with that.
 
@@ -289,7 +289,7 @@ The result is that you get some really low-quality, pixelated logo of some compa
 
 Also, one thing I'm really happy with - I got this idea from Twitterrific, the iOS Twitter client, where they blogged about... Apple has a bunch of cool image APIs, and one of them does face detection. So it will tell you in like an X/Y coordinate wherein the image faces appear. What they did with that is they were like, "Okay, we'r gonna crop all these images so they fit into our template, but we don't wanna cut off heads in the crops." So using the facial detection - in this case Feedbin does not use Apple stuff, so it can't use those APIs, but it uses another project that does the same thing; it will figure out where faces are...
 
-**Jerod Santo:** \[\\00:48:03.06\\\] What project is that, do you know?
+**Jerod Santo:** \[00:48:03.06\] What project is that, do you know?
 
 **Ben Ubois:** The name is escaping me at the moment, let me get back to you on that.
 
@@ -327,7 +327,7 @@ Tell us about the process... Does that image detection, cropping and associating
 
 However, that hasn't always offered the performance that I wanted, so there's also extra Javascript on top of that, so that "When I click this thing, I need something to happen now, not when the HTTP request finishes." It's a little bit of a weird hybrid between the remote Javascript and Javascript on top of it.
 
-\[\\00:52:04.25\\\] I don't love it, but it's been flexible enough that I can get everything done that I need to get done, but I'm also keeping an eye out for something like Amber, which might be a better fit eventually because it is very much like a single page app... At least the primary app, not so much the setting screens, but the main interfaces.
+\[00:52:04.25\] I don't love it, but it's been flexible enough that I can get everything done that I need to get done, but I'm also keeping an eye out for something like Amber, which might be a better fit eventually because it is very much like a single page app... At least the primary app, not so much the setting screens, but the main interfaces.
 
 **Jerod Santo:** Exactly, I would tend to agree, and that's why I was curious how it was put together, because it seems like it's very much your poster child for a framework like Amber, or some sort of React-based thing. Real quick, tell us about actions, because we're talking about differentiation and this seems like a place where you're really embracing your nerdiness, which is really why I even ask you specifically about this features. It's almost like an "if this, then that" type of a thing that you've built into it... Can you tell us about that?
 
@@ -351,7 +351,7 @@ That was a perfect fit for what actions does, because acting on content as it's 
 
 **Adam Stacoviak:** I'm looking at that same interface right now on Chrome, so I'm assuming that it would say "Mark it as read", "Star it" or "Notify", if I was in Safari.
 
-**Ben Ubois:** \[\\00:55:58.27\\\] Yeah, that's right.
+**Ben Ubois:** \[00:55:58.27\] Yeah, that's right.
 
 **Adam Stacoviak:** That's interesting. So essentially, you're \[unintelligible 00:56:01.20\] doing some sort of grep on it, which could be a negative or a positive towards a search in there, you can include certain feeds that you've got in your feeds, and do those three things with it. Are those the only three actions you can do with it?
 
@@ -377,7 +377,7 @@ That was a perfect fit for what actions does, because acting on content as it's 
 
 **Jerod Santo:** Oh, yeah.
 
-**Adam Stacoviak:** \[\\00:59:57.06\\\] I never really considered that using RSS more heavily gives me more control over hearing about the things I might typically hear about I guess more at the source perspectives, versus hearsay or retweets on Twitter, and already filtered from somebody else.
+**Adam Stacoviak:** \[00:59:57.06\] I never really considered that using RSS more heavily gives me more control over hearing about the things I might typically hear about I guess more at the source perspectives, versus hearsay or retweets on Twitter, and already filtered from somebody else.
 
 **Ben Ubois:** Yeah, one integration that Feedbin has is a way to post links to Tumblr. If you are authoring a link blog or something like the Changelog used to be, you could see an article that's interesting in Feedbin, and then pull down the Tumblr share sheet and then post that directly to your link blog, without leaving Feedbin.
 
@@ -409,7 +409,7 @@ That was a perfect fit for what actions does, because acting on content as it's 
 
 **Jerod Santo:** I never say that to you.
 
-**Ben Ubois:** \[\\01:02:55.13\\\] I think the first step with RSS is to be passionate about something. Once you have that, the rest just kind of happens naturally. Think about what you're passionate about and what you would like to know more about, and then go find that stuff and subscribe to it.
+**Ben Ubois:** \[01:02:55.13\] I think the first step with RSS is to be passionate about something. Once you have that, the rest just kind of happens naturally. Think about what you're passionate about and what you would like to know more about, and then go find that stuff and subscribe to it.
 
 **Adam Stacoviak:** Real quick before we let you go - where can people find you at? What's the URL for Feedbin? Is it feedbin.com? You were feedbin.me back in the day, is that right Jerod?
 

@@ -24,7 +24,7 @@ When we looked at what was available to do that, there just wasn't much. There w
 
 Going fast forward, RightScale kind of shifted towards Go, and I thought it will be good to see if we could do something \[unintelligible 00:03:12.25\] in Go. To be honest, I wasn't sure initially that will be possible. We played around with a few things, and it took me about a year really to come up with something that started to look like it may work. There two big a-ha moments in that kind of research phase. One was the realization that code generation was the perfect approach for achieving the goal of keeping the design and implementation separate. We were making sure that the design is directly enforced.
 
-\[\\00:03:51.14\\\] The second realization was that the design should be written in a DSL, so that the language used to describe the API used the right terms. You want to talk about resources, actions, responses, requests, and you don't want to have to deal with programming language artifacts, so that DSL will have to be a Go DSL obviously, so that it could be understood right away, and also so that it's still possible to use the legal language when it's needed.
+\[00:03:51.14\] The second realization was that the design should be written in a DSL, so that the language used to describe the API used the right terms. You want to talk about resources, actions, responses, requests, and you don't want to have to deal with programming language artifacts, so that DSL will have to be a Go DSL obviously, so that it could be understood right away, and also so that it's still possible to use the legal language when it's needed.
 
 Fast forward a year and a half, I have to say that the result turned out a lot better than I thought it would be, and I think the credit goes to the Go language. The Go language provides a very simple and powerful mechanism to create the DSL. It also has as very good code analysis support, which is essential and a very good code generation package, the template package in particular.
 
@@ -38,7 +38,7 @@ Goa comes with a few built-in code generation outputs. One is the glue code that
 
 The Go agent tool that comes with Goa, which is the code generation tool, also generates a client package and a client tool. That's also been very neat, because one issue is when you create an API, obviously the point is for the API to be consumed, and what tends to happen is that every team consuming the tool will develop their own client, and they will all become out of date and they will all have small discrepancies and things start creeping up, which makes the whole thing more difficult to evolve.
 
-\[\\00:08:16.23\\\] So having that being generated automatically means that the team that provides the API also provides the client, and everybody uses that one client, and so it makes everything consistent and helps other teams consume the API.
+\[00:08:16.23\] So having that being generated automatically means that the team that provides the API also provides the client, and everybody uses that one client, and so it makes everything consistent and helps other teams consume the API.
 
 GoAgent also generates documentation in the form of Swagger and JSON schema so that you can at any point in time share the design to other people that may not be familiar with the Goa DSL. You can use that also to document the API once it's in running production; so all of that makes for a very nice way of developing APIs, and a very efficient way of doing it.
 
@@ -50,7 +50,7 @@ GoAgent also generates documentation in the form of Swagger and JSON schema so t
 
 **Raphael Simon:** Yeah, so there has been a few comments on the repo on GitHub of people trying to make it look more like Go, but then I'm always very... I kind of have a hard line, saying "This is not Go, it's a DSL. It's a different language. It's implemented in Go, but it's not Go." So for example one thing that you sort of have to do when use DSL is use .imports, and there are a lot of people who don't like that. And I agree, I don't think that imports are good either. I think if you write Go code, you shouldn't use them and nothing else in Go uses that, but for the purpose of implementing a DSL, that ends up making the whole thing a lot nicer, feel a lot more natural. So there is a little bit of that push back, but then my response is "Well, this is not Go and I'm not trying for DSL to be idiomatic Go because it's not Go in the first place."
 
-\[\\00:11:47.03\\\] You should think about it, some of the target outputs for the DSL is documentation. There is also a Javascript client that you can generate from that DSL. And in the future there can be pretty \[unintelligible 00:11:58.08\] to generate all kinds in other languages. So if the language has to be agnostic, it has to remain independent of any target that it generates, and sure Go is the main target for sure, but still a language should try to remain as agnostic as possible.
+\[00:11:47.03\] You should think about it, some of the target outputs for the DSL is documentation. There is also a Javascript client that you can generate from that DSL. And in the future there can be pretty \[unintelligible 00:11:58.08\] to generate all kinds in other languages. So if the language has to be agnostic, it has to remain independent of any target that it generates, and sure Go is the main target for sure, but still a language should try to remain as agnostic as possible.
 
 **Erik St. Martin:** Right. So people just need to disconnect a little better, right? It's kind of like JRPC; the DSL is essentially the protobufs, and then the generator generates from that, and yours just happens to be...
 
@@ -72,7 +72,7 @@ I think it clicked once I saw the trick of basically having an anonymous functio
 
 **Brian Ketelsen:** So it's only appropriate that we talk about that blog post that I wrote, because on this show we have a habit at the end of every show of talking about the Free Software Friday movement that we're trying to portray here, and that was the blog post in... I wanna say it was in November of last year where I mentioned that I had stumbled across Goa and I thought it was just an amazing thing, and I was talking about ways that you could talk to open source programmers and thank them for the work that they do and tell them that you appreciate it. I think I actually even proposed to you, I'm not sure... Oh, I did, yeah. On 17th November, 2015, "I think I wanna marry the guy who wrote Goa." \[laughter\] So I have to apologize if that made you uncomfortable in any way...
 
-**Raphael Simon:** \[\\00:16:04.05\\\] No, that made me laugh. That made me have to retrieve my lost Twitter password. \[laughter\] Yeah, I wasn't on Twitter at the time and it was a colleague of mine that saw that tweet and told me about it, and I had a good laugh. It's been great. I really appreciate all the support that you've been giving Goa, and I think again Goa wouldn't be what it is today without all of that support and all the people now participating into the development of it.
+**Raphael Simon:** \[00:16:04.05\] No, that made me laugh. That made me have to retrieve my lost Twitter password. \[laughter\] Yeah, I wasn't on Twitter at the time and it was a colleague of mine that saw that tweet and told me about it, and I had a good laugh. It's been great. I really appreciate all the support that you've been giving Goa, and I think again Goa wouldn't be what it is today without all of that support and all the people now participating into the development of it.
 
 **Erik St. Martin:** I know it was probably a few months ago, but you went to a refactoring to kind of support pluggable... To create kind of plugins for stuff, because I know Brian ended up going to and creating a plugin for ORM integration.
 
@@ -90,7 +90,7 @@ But yeah, I was working on trying to make plugins work in Goa in the same times 
 
 **Erik St. Martin:** So I guess it's kind of hard to go into detail about the actual DSL itself, because it is all audio based. I mean, we can draw stuff on our own individual whiteboards if we wanted to, \[laughter\] but somehow I don't think that's gonna help the listeners. One thing I would like to talk about though is not everybody is kind of familiar with code generation, so I guess one thought process that constantly comes across people when they first hear the idea is "How do you maintain generated code?" Like, if you were to modify it and you need to regenerate, you know, are you wiping over all the top of your stuff? I'd love to kind of hear you explain what the model is for maintaining your code that's been generated, and if I've got a new version of Goa and wanted to take advantage of some new features or plugins, what does that look like for the code that I had to manually write as part of that API?
 
-**Raphael Simon:** \[\\00:19:57.18\\\] Right. So the main idea is you don't. You do not maintain generated code. Basically, you know, regenerated code is generated in its own package and it's cheap code. You don't have to maintain it, you don't have to test it, you don't have to really know the internals of it; you're welcome to look at them and hopefully it's understandable, but you don't have to. All you care about is what it provides to you and how it interfaces with your code.
+**Raphael Simon:** \[00:19:57.18\] Right. So the main idea is you don't. You do not maintain generated code. Basically, you know, regenerated code is generated in its own package and it's cheap code. You don't have to maintain it, you don't have to test it, you don't have to really know the internals of it; you're welcome to look at them and hopefully it's understandable, but you don't have to. All you care about is what it provides to you and how it interfaces with your code.
 
 So one of the code generation principals behind Goa is that user code and generated code never mix. And there is a very clear interface, an explicit... I mean a Go interface - it's a very explicit interface within the two. There's not just one, there's multiple, but the idea is that you have interfaces that are clear between the generated code and the user code. And if you regenerate your code, you shouldn't care.
 
@@ -106,7 +106,7 @@ So I really wanted to try and avoid running into those issues, and so both the g
 
 **Raphael Simon:** So the controllers that the GoAgent generates, this is code that you own. So there are two kinds of code that GoAgent generates. One is the vast majority of the code; it's things that are living in front packages that you don't worry about. But then there is also this \[unintelligible 00:23:26.00\] code, which is kind of just a bootstrap code to help you get started. It's not something that you're gonna regenerate all the time, it's something that you do once and it helps you quickly compile your service and be able to test it and play with it right away. That code belongs to you. That code you test it and you maintain it like your code. And actually next time you're in GoAgent it won't overwrite those files, and those files live in the main package. So the controller lives in the main package and you test that, you own that. The low-level handlers that get generated by default in the package called App, those are the ones that I'm saying you don't have to maintain, you don't have to worry about.
 
-**Carlisia Pinto:** \[\\00:24:13.14\\\] Got it. And I wanted to say too, in prepping for these episodes I watched a talk that Brian Ketelsen gave in Tampa, and it's simply amazing. If you don't know Goa and have any interest at all, the talk is an hour fifteen, but it's so worth it because he shows the functionalities that Goa provides in Gorma and then he shows codes, and pretty much I watched the whole talk and I came away with a very good sense that I understood what Goa does.
+**Carlisia Pinto:** \[00:24:13.14\] Got it. And I wanted to say too, in prepping for these episodes I watched a talk that Brian Ketelsen gave in Tampa, and it's simply amazing. If you don't know Goa and have any interest at all, the talk is an hour fifteen, but it's so worth it because he shows the functionalities that Goa provides in Gorma and then he shows codes, and pretty much I watched the whole talk and I came away with a very good sense that I understood what Goa does.
 
 And I'll tell you, it was very simple to use. Another thing that I thought was, I come from a Rails background, and I saw a lot of similarities. To me it felt like this could very much be an alternative to Rails if I wanted to do backend app or an API app in Go, except that it didn't abstract away a lot of things. I saw right there what the call was doing, and it was very much under my control, as opposed to just calling abstractions that maybe I knew or maybe I didn't.
 
@@ -120,7 +120,7 @@ I think that's kind of the two goals that are a little bit opposed to each other
 
 **Raphael Simon:** Yeah, that makes sense. I'm happy you say that. I mean, that was definitely a goal too, trying to simplify things and kind of hide a lot of the complexity of hooking up the \[unintelligible 00:27:46.28\] in the generated code, and then what you have to implement as the user should be fairly straightforward. Basically the data structures you have to deal with are the ones that you define in your design, so it should all be very expected and very simple to use.
 
-**Brian Ketelsen:** \[\\00:28:08.03\\\] Now, I have an anecdote about that. In the Goa Slack channel, in the Gopher Slack, we call Raphael the Godfather, and that's because of his extreme dedication to the simplicity of the DSL and the user experience. He will not let anything get by that complicates the process, and I really appreciate that.
+**Brian Ketelsen:** \[00:28:08.03\] Now, I have an anecdote about that. In the Goa Slack channel, in the Gopher Slack, we call Raphael the Godfather, and that's because of his extreme dedication to the simplicity of the DSL and the user experience. He will not let anything get by that complicates the process, and I really appreciate that.
 
 I think having that laser-sharp focus on user experience and developer experience is what makes Goa a great tool, versus many of the other code generators, some of which I've written, that suck. So that's important. You have to have the Godfather in every project.
 
@@ -144,7 +144,7 @@ And actually, I think an interesting project or add-on that could be done with G
 
 **Brian Ketelsen:** I was just going to say, if you started with a Swagger specification and you generated a Goa DSL and then the Goa DSL generated a Swagger specification, you could set that thing into an endless loop. And by the end of it, it would \[unintelligible 00:32:00.24\]
 
-**Raphael Simon:** \[\\00:32:02.09\\\] \[laughs\] Yes, it will actually be very interesting to see how the Swagger evolves over time or it degrades. \[laughter\]
+**Raphael Simon:** \[00:32:02.09\] \[laughs\] Yes, it will actually be very interesting to see how the Swagger evolves over time or it degrades. \[laughter\]
 
 **Brian Ketelsen:** Or whether it takes over the world and starts launching nuclear warheads.
 
@@ -170,7 +170,7 @@ If you decide that you want to use a query string parameter call view, and the n
 
 **Erik St. Martin:** So I'd like to make sure we have kind of time to do a fireside chat... You know, talking about news and projects and stuff we've run across together. So before we move on off of Goa, I'd just kind of like to hear from you, what's next for Goa? What kind of functionality are you looking to add here in the near future?
 
-**Raphael Simon:** \[\\00:36:04.04\\\] Yeah, so there are a couple of things. First of all I should say that Goa is not 1.0 yet, so I think the near future is going to be finishing 1.0. We are very close, and what I think will make sense is to finish up the security examples that we've started, because that's an area that can get a bit heavier than the other areas, so I think good examples around that makes lot of sense.
+**Raphael Simon:** \[00:36:04.04\] Yeah, so there are a couple of things. First of all I should say that Goa is not 1.0 yet, so I think the near future is going to be finishing 1.0. We are very close, and what I think will make sense is to finish up the security examples that we've started, because that's an area that can get a bit heavier than the other areas, so I think good examples around that makes lot of sense.
 
 So finishing those examples and making sure everybody's happy with those, and then I think at that point we'd be ready to phrase and kind of shift 1.0, whatever that means. But the idea is that then that is stable, so if you are waiting for Goa to be stable to use it, there you go; now you can start using it.
 
@@ -194,7 +194,7 @@ If you wanted to do that today, it would be a bit difficult because you couldn't
 
 **Erik St. Martin:** Who wants to kick this thing off?
 
-**Carlisia Pinto:** \[\\00:39:57.23\\\] I'll start. I would like to mention the CLI tool that I found. The author's name is not very clear, but I'm going to say that his Repo is mkideal, and the project's called CLI. I love it because the examples are super clear and there are tons of examples. I did a CLI app at some point in Go. If I had seen this it would have been so much easier for me to understand how to do it. He also has not only flags but commands; it seems very clean and neat, so that's my recommendation today.
+**Carlisia Pinto:** \[00:39:57.23\] I'll start. I would like to mention the CLI tool that I found. The author's name is not very clear, but I'm going to say that his Repo is mkideal, and the project's called CLI. I love it because the examples are super clear and there are tons of examples. I did a CLI app at some point in Go. If I had seen this it would have been so much easier for me to understand how to do it. He also has not only flags but commands; it seems very clean and neat, so that's my recommendation today.
 
 **Raphael Simon:** How would you compare it with a CORBA? I've been using CORBA for Goa, but I'm curious?
 
@@ -214,7 +214,7 @@ All of this was to reduce their financial costs monthly for their Amazon instanc
 
 **Brian Ketelsen:** Yeah. I definitely just want to shout out to Scott and the team at Netflix for such a nice and thorough write-up. I know Scott's been dragging the people who will listen kicking and screaming into the Go world; even though they're a Java-heavy shop, they do have a lot to Go behind the scenes there, they just don't talk about it a lot.
 
-**Erik St. Martin:** \[\\00:44:04.23\\\] Yeah. And I remember seeing some of the performance metrics. It was something in the neighborhood of like two million requests per second, but I think that wasn't fully active because that wasn't wired up the backend. I know when it was all set and done, the whole system was something in the neighborhood of like 20 or 25 thousand inserts per second... But still, I mean, the amount of performance they were getting out of this Go proxy is awesome.
+**Erik St. Martin:** \[00:44:04.23\] Yeah. And I remember seeing some of the performance metrics. It was something in the neighborhood of like two million requests per second, but I think that wasn't fully active because that wasn't wired up the backend. I know when it was all set and done, the whole system was something in the neighborhood of like 20 or 25 thousand inserts per second... But still, I mean, the amount of performance they were getting out of this Go proxy is awesome.
 
 We'll link to that in the show notes too, because that is an interesting read and especially if you're not familiar with RocksDB and some of those things, that's kind of fun by getting to learn how Log-Structured Merge-trees work. Cassandra uses the kind of same approach there.
 
@@ -250,7 +250,7 @@ And when SHIELD first came out, I read the code because there was no description
 
 **Erik St. Martin:** So one of the things we like to do when we close the show is just kind of briefly go around and give thanks to an open source project kind of as you spoke to earlier, Raphael; to get kind of that feedback from the community sometimes makes your day, so we want to make sure that we're regularly reaching out and thanking people for the things that make our lives easier. You want to kick this off, Brian?
 
-**Brian Ketelsen:** \[\\00:48:02.15\\\] I'll kick it off today. One of my favorite open source tools ever is an NSQ from Bitly. I've used NSQ in dozens of projects and it has never ever disappointed me; it's blazing fast, it is 100% predictable and reliable, and it's just amazing how much you can do with NSQ in very little code. And I really appreciate the fact that they open sourced that, it's a great tool.
+**Brian Ketelsen:** \[00:48:02.15\] I'll kick it off today. One of my favorite open source tools ever is an NSQ from Bitly. I've used NSQ in dozens of projects and it has never ever disappointed me; it's blazing fast, it is 100% predictable and reliable, and it's just amazing how much you can do with NSQ in very little code. And I really appreciate the fact that they open sourced that, it's a great tool.
 
 **Carlisia Pinto:** What is it?
 
@@ -278,7 +278,7 @@ There are a bunch of new features that are very interesting, very useful. I'm ju
 
 **Raphael Simon:** Yeah, actually we started using RethinkDB, and it has been very interesting. I stumbled on it kind of by chance and was reading the description and the feature set and it all sounded good, like it usually does. But then what really struck me is how well it fit with the use case that we were after, which was trying to generate events whenever some data was updated, and so RethinkDB has that built-in, this idea of subscription is built in. It's been a very interesting journey. It has changed quite a bit the way we're thinking about the design for those new services, and so I would definitely recommend people take a look at it if they haven't yet, because it does provide another dimension to how you can design your systems and take advantage of these subscriptions capabilities. So very, very glad that they open sourced that.
 
-\[\\00:51:39.29\\\] And something else I wanted mention - it's not project, but I wanted to give a shout out to other companies that let their own employees develop open source projects, because it takes time, and we all going to have to make a living, and at the end of the day the companies that allow their employees to develop open source projects are really enablers and I think we need to thank them for that.
+\[00:51:39.29\] And something else I wanted mention - it's not project, but I wanted to give a shout out to other companies that let their own employees develop open source projects, because it takes time, and we all going to have to make a living, and at the end of the day the companies that allow their employees to develop open source projects are really enablers and I think we need to thank them for that.
 
 And I'm thankful for \[unintelligible 00:52:10.18\] obviously with Goa, but I was also thinking about JP Robinson at New York Times doing Gizmo... I mean, there are many, many examples of people that work in the industry and where their company actually pays them to develop open source projects. I think that's awesome.
 

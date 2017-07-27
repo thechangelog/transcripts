@@ -32,7 +32,7 @@ What the servers do is they handle all the competitions, the whole scoring syste
 
 **Luna Duclos:** Like most other companies, we use C++ to write game clients. Avalanche Studios, which is my employer, has their own engine which they use to build all their games, so that's what's also being used for The Hunter Classic.
 
-**Erik St. Martin:** \[\\00:03:59.28\\\] So what was the motivation for using Go on the server side, with already having a development group that is familiar with C++ and stuff? Was there a productivity gain, or...?
+**Erik St. Martin:** \[00:03:59.28\] So what was the motivation for using Go on the server side, with already having a development group that is familiar with C++ and stuff? Was there a productivity gain, or...?
 
 **Luna Duclos:** There were multiple reasons. The main reason is that the existing servers before I started were not written in C++ to start with. They are written in PHP and Python, running on AppEngine. It works; the old servers are still powering the game and doing their thing, but Python being a weakly typed language means it's really fast to develop in, however it's really easy to break things in such a large codebase as the Hunter has, which is why there's now a process ongoing to start moving development of new features to Go.
 
@@ -60,7 +60,7 @@ We did not want to request search manually every month - that's just asking for 
 
 So I ended up deciding to fork Kelsey Hightower's Kube-Cert-Manager project. I took all the documentation, as well as the basic approach of how things work, and I decided to rewrite the whole codebase to use Xenolf/Lego instead of a self-rolled Lego library, which meant that Kube-Cert-Manager, my fork, magically had support for over 20 DNS providers, while there was only one in Kelsey's version.
 
-\[\\00:08:11.11\\\] That was the main motivation for everything. There were already documentations in place, there was already a designing place for how things work, it just needed to be fleshed out to work with more DNS providers and be easier to deploy and set up. So that's what I did with the rewrite of it.
+\[00:08:11.11\] That was the main motivation for everything. There were already documentations in place, there was already a designing place for how things work, it just needed to be fleshed out to work with more DNS providers and be easier to deploy and set up. So that's what I did with the rewrite of it.
 
 **Erik St. Martin:** Are these still two individual projects, or have they since been merged together?
 
@@ -102,7 +102,7 @@ All of us remember struggling through -- you have to go to your SSL provider and
 
 **Luna Duclos:** I recently released a project called Instrumented SQL. With the Go 1.8 release we had this nice context that we could pass to the database SQL package, but no one seemed to have started working on instrumentation using that concept, so I ended up doing instrumentation at work, and after checking with the big boss, I was allowed to open source that instrumentation, which is how Instrumented SQL was born.
 
-\[\\00:11:54.17\\\] It's a wrapping driver, basically. It will grab another SQL driver, it will wrap it with instrumentation and logging, and you can then call the wrapping driver using just a regular database SQL package, and everything will automatically be traced and logged for you based on the tracer and logger object in the contexts that are passed along.
+\[00:11:54.17\] It's a wrapping driver, basically. It will grab another SQL driver, it will wrap it with instrumentation and logging, and you can then call the wrapping driver using just a regular database SQL package, and everything will automatically be traced and logged for you based on the tracer and logger object in the contexts that are passed along.
 
 There is one caveat, and that's it grabs tracers and loggers from the context - that means you cannot use the non-context functions, because those cannot be traced, because it doesn't know what request they belong to.
 
@@ -154,7 +154,7 @@ There is one caveat, and that's it grabs tracers and loggers from the context - 
 
 **Carlisia Pinto:** Okay.
 
-**Erik St. Martin:** \[\\00:15:54.13\\\] Yeah, in the game world, most people use some sort of engine which provides all the physics and all the graphic support, and then there's usually scripting languages and things like that built into it too for a lot of the frontend work. A few places work on their own, but a lot of people just lease, or - is there a right term for that? But yeah, they basically pay for the rights to use an engine. But you're right, a lot of work goes on the back side now. Very few games are client-only anymore.
+**Erik St. Martin:** \[00:15:54.13\] Yeah, in the game world, most people use some sort of engine which provides all the physics and all the graphic support, and then there's usually scripting languages and things like that built into it too for a lot of the frontend work. A few places work on their own, but a lot of people just lease, or - is there a right term for that? But yeah, they basically pay for the rights to use an engine. But you're right, a lot of work goes on the back side now. Very few games are client-only anymore.
 
 **Luna Duclos:** Yeah... There's a couple that get away with just peer-to-peer multiplayer, but I think that's the lowest you can get away with these days. But yeah, a lot of games end up using at least a little bit of server work.
 
@@ -194,13 +194,13 @@ So with your interest in Go and game development, have you played with any of th
 
 **Erik St. Martin:** Alright, so our first sponsor for today is Toptal.
 
-**Break:** \[\\00:19:08.01\\\]
+**Break:** \[00:19:08.01\]
 
 **Erik St. Martin:** Alright, we are back, talking to Luna Duclos. Just before the break, Brian, you wanted to change the subject. What is your new subject?
 
 **Brian Ketelsen:** I wanna talk about something that's near and dear to my heart, probably my favorite thing in the entire world, and that's frontend web development... \[laughter\] Luna, I know you've had a lot of activity in the GopherJS world, and way back when I was trying to figure out whether I could actually do GopherJS, you had written the Polymer bindings for GopherJS. Do you still spend a lot of time in GopherJS?
 
-**Luna Duclos:** \[\\00:20:15.25\\\] I actually don't at all anymore... I haven't touched GopherJS since I changed jobs in December, unfortunately. Polymer is still a really interesting technology I'd like to spend more time on, as well. Unfortunately, currently I don't have enough time in a day to do so.
+**Luna Duclos:** \[00:20:15.25\] I actually don't at all anymore... I haven't touched GopherJS since I changed jobs in December, unfortunately. Polymer is still a really interesting technology I'd like to spend more time on, as well. Unfortunately, currently I don't have enough time in a day to do so.
 
 **Brian Ketelsen:** That's a shame.
 
@@ -244,7 +244,7 @@ So with your interest in Go and game development, have you played with any of th
 
 **Erik St. Martin:** That's interesting. And Brian, I think most of your struggles are usually because when you have to do fronted, you're usually trying to do it in a hurry. \[laughter\]
 
-**Brian Ketelsen:** \[\\00:23:43.02\\\] That's not true. My struggles are because when I have to do frontend, it's a freakin' disaster. Has anybody actually looked at the Javascript ecosystem recently? The problem I had - it was maybe two nights ago - was I was writing a TypeScript application for Angular 2, and then I had to bring in another library that wasn't TypeScript and it wasn't using the same module packaging format... Because I had to go down that rabbit hole, now I understand that there's AMD module packaging and UMD, and SystemJS and all of these different module packages... That's why I think the whole thing should just burn in a trash fire. \[laughter\] It's so complicated trying to make stuff work. It's frustrating.
+**Brian Ketelsen:** \[00:23:43.02\] That's not true. My struggles are because when I have to do frontend, it's a freakin' disaster. Has anybody actually looked at the Javascript ecosystem recently? The problem I had - it was maybe two nights ago - was I was writing a TypeScript application for Angular 2, and then I had to bring in another library that wasn't TypeScript and it wasn't using the same module packaging format... Because I had to go down that rabbit hole, now I understand that there's AMD module packaging and UMD, and SystemJS and all of these different module packages... That's why I think the whole thing should just burn in a trash fire. \[laughter\] It's so complicated trying to make stuff work. It's frustrating.
 
 **Luna Duclos:** I will not disagree with you. I've had my share of frustrations because of the same reason, and also because -- it was my experience; this is not a diss to all the frontend developers out there, but a lot of frontend developers don't seem to know what they're doing. It's just lots of copy/paste embeds from various places, made to work forcefully in the current context without actually making sense entirely. A lot of the code I've looked at is that way.
 
@@ -284,7 +284,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Brian Ketelsen:** I'd say 60% of my work in the last month has been frontend. Maybe a little more. Too much.
 
-**Luna Duclos:** \[\\00:28:08.24\\\] Fair enough.
+**Luna Duclos:** \[00:28:08.24\] Fair enough.
 
 **Brian Ketelsen:** I'm getting better slowly. But I'm an old dog.
 
@@ -324,7 +324,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Luna Duclos:** I wonder why this hasn't been all bundled in one neat, single Go binary that you can just start up.
 
-**Carlisia Pinto:** \[\\00:32:03.05\\\] That's a good idea. I'm trying to get by without installing NPM and Gulp... I don't have those on this machine...
+**Carlisia Pinto:** \[00:32:03.05\] That's a good idea. I'm trying to get by without installing NPM and Gulp... I don't have those on this machine...
 
 **Brian Ketelsen:** I can tell you, the reason for all of that is because it uses Gallium, which is the wrapper for the Chrome web app thing that makes it a native app, and I would bet you a dollar that Kyle does not have an Apple developer account, so he can't sign those web apps or sign those Gallium apps, which means that he can't distribute applications in the new MacOS, because they're not signed, so you have to build them yourself. This all boils down to developer signatures.
 
@@ -394,7 +394,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Erik St. Martin:** Hardware is interesting, because I don't think many of us think much about it, aside from using embedded devices. But actually developing against it is really cool, because we all love programming and we love seeing the things that come to life... But being able to see it interact with physical objects is just ridiculously cool, like the smoker controlling the temperature... Like, there's Go code controlling that, and Brian wrote it!
 
-**Brian Ketelsen:** \[\\00:36:08.27\\\] It's really cool. I also have used Gobot to control AR Drone drones at my kids' school. We do a thing every year called The Great American Teach-In where parents come in and talk about what they do. I couldn't explain to the students that my work is actually that boring, so I did Gobot with drones, and the kids who were eight years old programmed the drone to fly around the room, and they did a little fly-by of a teacher, and it was really cool. And all that is Go powered.
+**Brian Ketelsen:** \[00:36:08.27\] It's really cool. I also have used Gobot to control AR Drone drones at my kids' school. We do a thing every year called The Great American Teach-In where parents come in and talk about what they do. I couldn't explain to the students that my work is actually that boring, so I did Gobot with drones, and the kids who were eight years old programmed the drone to fly around the room, and they did a little fly-by of a teacher, and it was really cool. And all that is Go powered.
 
 **Luna Duclos:** That sounds awesome.
 
@@ -434,7 +434,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Luna Duclos:** I would definitely dig Sweden, because I live there. So... Yes, please! \[laughter\]
 
-**Erik St. Martin:** \[\\00:40:00.20\\\] I've never been to Sweden, sounds like fun.
+**Erik St. Martin:** \[00:40:00.20\] I've never been to Sweden, sounds like fun.
 
 **Carlisia Pinto:** Spain... \[laughs\]
 
@@ -472,7 +472,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Erik St. Martin:** Yeah, we'll find it and we'll drop it in the show notes before this episode is released. So I think now is a perfect time for our second sponsor break. Our second sponsor for today is The Ultimate Go Training Series.
 
-**Break:** \[\\00:42:10.18\\\]
+**Break:** \[00:42:10.18\]
 
 **Erik St. Martin:** Alright, we are back, talking to Luna Duclos. Before this break we were just talking about interesting projects and news and stuff, but let's get a little personal here... If you were not developing backend systems for games, what would you be doing? I think this would be a fun thing to start asking people...
 
@@ -484,7 +484,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Erik St. Martin:** By doing conferences you mean hosting them, or attending all of them that you can, speaking at them? All of the above?
 
-**Luna Duclos:** \[\\00:43:54.23\\\] Speaking at them and attending, and maybe organize some smaller ones. I've been organizing FOSDAM when I can, because the Go team hasn't been able to do it, so I took that over. Stuff like that, and meetups that aren't too huge to organize. I wouldn't be able to organize something like GopherCon that you guys are... That's just crazy.
+**Luna Duclos:** \[00:43:54.23\] Speaking at them and attending, and maybe organize some smaller ones. I've been organizing FOSDAM when I can, because the Go team hasn't been able to do it, so I took that over. Stuff like that, and meetups that aren't too huge to organize. I wouldn't be able to organize something like GopherCon that you guys are... That's just crazy.
 
 **Erik St. Martin:** I don't even know if we can organize GopherCon...
 
@@ -524,7 +524,7 @@ Besides, I think you'd lose a lot of the fun if you were cooking for a paycheck 
 
 **Erik St. Martin:** What's really interesting about that though is it's the reverse of what you would expect. Barbecue actually started out in very poor areas, because you've got things like, the front quarter of a cow was almost waste for a long time, and they would just chop it up and grind it up and make sausage out of it, they'd slow cook it in the butcher shops and stuff like that to preserve it, and then they'd sell it with like chopped beef sandwiches and things like that. People would slow cook the toughest parts of the cow that nobody wanted until it was tender, and then eat it.
 
-\[\\00:48:06.07\\\] Then it was somewhere along the line people started traveling to areas and tasting barbecue and being like "Oh my god, I love this!" and brisket went from 70 cents/pound to -- I don't even know what is it, like $700/pound now... It's ridiculous.
+\[00:48:06.07\] Then it was somewhere along the line people started traveling to areas and tasting barbecue and being like "Oh my god, I love this!" and brisket went from 70 cents/pound to -- I don't even know what is it, like $700/pound now... It's ridiculous.
 
 **Brian Ketelsen:** Eight million dollars a pound...
 
@@ -576,7 +576,7 @@ It looks like the docs are community-sourced, so everybody in the Webpack commun
 
 **Carlisia Pinto:** I don't have one today.
 
-**Erik St. Martin:** \[\\00:51:51.12\\\] And Luna... I'm pretty sure you've kind of gathered the gist of this... Every week we give a shoutout to a project or a maintainer (or plurals of those) just to show our love and appreciation.
+**Erik St. Martin:** \[00:51:51.12\] And Luna... I'm pretty sure you've kind of gathered the gist of this... Every week we give a shoutout to a project or a maintainer (or plurals of those) just to show our love and appreciation.
 
 **Luna Duclos:** Yeah, my shoutout goes, without the shadow of a doubt, to Goa. Goa is a code generation framework that lets you declare a REST API, and will then generate all the validations, all the routes, all the security wrappers, all the middleware for you, without you having to do a thing.
 
@@ -630,7 +630,7 @@ It has saved me so much time, and it's taught me a lot by making designing the A
 
 **Erik St. Martin:** I still love Kubernetes, because the alternative is still worse.
 
-**Brian Ketelsen:** \[\\00:56:05.06\\\] Oh yeah, don't get me wrong... I'm not complaining. Just saying that's the least favorite part.
+**Brian Ketelsen:** \[00:56:05.06\] Oh yeah, don't get me wrong... I'm not complaining. Just saying that's the least favorite part.
 
 **Erik St. Martin:** You're like, "Oh, man... I have to configure this YAML file to deploy my app" and before it was like, logging into servers...
 
@@ -688,7 +688,7 @@ It has saved me so much time, and it's taught me a lot by making designing the A
 
 **Brian Ketelsen:** World's shortest-lived hitman.
 
-**Erik St. Martin:** \[\\00:59:59.20\\\] I think you should just stick to popping gators with pellet guns.
+**Erik St. Martin:** \[00:59:59.20\] I think you should just stick to popping gators with pellet guns.
 
 **Brian Ketelsen:** Shhhh... This is a PG show.
 
@@ -732,7 +732,7 @@ I would like him to harvest his little party somewhere else, not on my little sh
 
 **Brian Ketelsen:** Kids...
 
-**Erik St. Martin:** \[\\01:03:03.18\\\] There's a lot of them... Like, a million, or a hundred thousand in Florida... There's a lot.
+**Erik St. Martin:** \[01:03:03.18\] There's a lot of them... Like, a million, or a hundred thousand in Florida... There's a lot.
 
 **Brian Ketelsen:** They used to be an endangered species back in the late '60s, early '70s, and now they are so many of them that they're opening more hunting seasons... It's ridiculous. They're overpopulated now. So our conservation efforts did a great job of keeping the gator alive, and now we have a BB gun problem.
 

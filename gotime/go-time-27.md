@@ -38,7 +38,7 @@
 
 **Keith Randall:** Okay. I guess at first it'd help to describe what the old compiler was like. The old compiler used to take the abstract syntax tree of a Go program and would generate code sort of node-by-node on that syntax tree. If there was a plus, it would load both arguments into registers, do the plus and then store the result somewhere.
 
-\[\\00:04:02.17\\\] It would do that one at a time on the nodes of the syntax tree, with no look ahead, very little look behind... The code it generated wasn't very good, because there were a lot of moves you didn't need, there were a lot of operations that if you did that same add twice, it would execute that add twice instead of reusing the result.
+\[00:04:02.17\] It would do that one at a time on the nodes of the syntax tree, with no look ahead, very little look behind... The code it generated wasn't very good, because there were a lot of moves you didn't need, there were a lot of operations that if you did that same add twice, it would execute that add twice instead of reusing the result.
 
 So SSA instead takes the abstract syntax tree and builds a control flow graph, and a value graph. And then we can do all sorts of optimizations on that graph, like common self-expression elimination, we can do bounce check elimination, we can do better scheduling, dead code elimination, all that sort of stuff - all of which benefit the generated code and make it better than what was generated previously straight from the abstract syntax tree.
 
@@ -78,7 +78,7 @@ SSA compilers have been around for a while. I know I've worked on one 15 years a
 
 **Keith Randall:** Right.
 
-**Erik St. Martin:** \[\\00:08:02.22\\\] It was a while ago that I saw the video. I didn't get to watch the talk while I was there, but I remember vaguely that there was no assembly stage in the compile process.
+**Erik St. Martin:** \[00:08:02.22\] It was a while ago that I saw the video. I didn't get to watch the talk while I was there, but I remember vaguely that there was no assembly stage in the compile process.
 
 **Keith Randall:** Right, we go directly from the compiler output... It generates something called the obj library; it generates basically one structure for every assembly instruction that tells you what the register inputs and the register outputs are. And then actual instruction selection, like encoding the bytes of the instruction, is done by that obj library. The compiler itself doesn't emit bytes; it emits these data structures one per assembly instruction.
 
@@ -100,7 +100,7 @@ As far as the compiler itself, whether you can embed a compiler in some other pr
 
 **Keith Randall:** It's a good question. There is a tradeoff there, and at some point we're gonna have to say no - and we have said no - to optimizations that just would take too long otherwise... Like alias analysis; we haven't done any yet, and we're sort of scared to go down that route because it can be very expensive.
 
-\[\\00:11:42.18\\\] The original goal of the SSA compiler was we wanna make the compiler generate code that's better enough that the compiler gets no slower because we compile the compiler with the compiler. So we sort of wanna buy back all the extra time we're spending by making the compiler faster, and we didn't quite get there for x86; SSA added something like 30% or 40% to the running time of the compiler, what made the compiler 20% faster. So we sort of lost out on 10%-20%. But on ARM it totally works out; we get 40% back by compiling the compiler with the SSA backend, and then we spend 40% extra time, so the compiler is actually no slower with SSA backend than it used to be on ARM.
+\[00:11:42.18\] The original goal of the SSA compiler was we wanna make the compiler generate code that's better enough that the compiler gets no slower because we compile the compiler with the compiler. So we sort of wanna buy back all the extra time we're spending by making the compiler faster, and we didn't quite get there for x86; SSA added something like 30% or 40% to the running time of the compiler, what made the compiler 20% faster. So we sort of lost out on 10%-20%. But on ARM it totally works out; we get 40% back by compiling the compiler with the SSA backend, and then we spend 40% extra time, so the compiler is actually no slower with SSA backend than it used to be on ARM.
 
 **Erik St. Martin:** I always love how meta that is. \[laughter\]
 
@@ -146,7 +146,7 @@ There's things like that, but at some point we're gonna reach diminishing return
 
 **Erik St. Martin:** Like, "You watch cable, I get Netflix today!" So what's next for the compiler, what's exciting? What do you have planned for the next couple releases?
 
-**Keith Randall:** \[\\00:15:58.08\\\] Let's see... One of the big things that's coming - or will, if it works out - is we're gonna change the calling convention. Right now when you call a function everything gets passed on the stack in memory, and everything gets returned on the stack. That's pretty inefficient, but it makes things like walking the stack and finding all these GC routes and things like that very easy. So we're looking at passing values and registers and returning values and registers instead.
+**Keith Randall:** \[00:15:58.08\] Let's see... One of the big things that's coming - or will, if it works out - is we're gonna change the calling convention. Right now when you call a function everything gets passed on the stack in memory, and everything gets returned on the stack. That's pretty inefficient, but it makes things like walking the stack and finding all these GC routes and things like that very easy. So we're looking at passing values and registers and returning values and registers instead.
 
 It's sort of a big project. It's not terribly hard coding-wise to get the compiler to generate that code, but it has a lot of implications for the runtime and it has a lot of implications for... Like, everyone who's ever written assembly would have to change their assembly, so we're sort of looking at how we roll such a thing out to make it so that everyone doesn't have to rewrite all their stuff all at once. But we think it could buy another 10%-20% in runtime, so that's one big thing.
 
@@ -178,7 +178,7 @@ We're currently thinking about how we might roll such a thing out if it ends up 
 
 **Keith Randall:** Yeah, it's a good question. I think it should just work. If you take a goroutine, lock it to a thread and tell the OS "Give that thread high priority", that should just work. You'll get pauses when GC starts and stops, but those have been getting quite low recently, and I can't think of any other reason why you wouldn't get all the cycle time that the OS is gonna give you. Yeah, so that should work.
 
-\[\\00:20:06.17\\\] As long as your program is single-threaded, once you try to use multiple goroutines to do that, I'm less confident it would work out of the box.
+\[00:20:06.17\] As long as your program is single-threaded, once you try to use multiple goroutines to do that, I'm less confident it would work out of the box.
 
 **Erik St. Martin:** Yeah, this would be multiple threads with different priority, because you basically have some threads going out to fetch new segments of video and audio, and then you kind of have your real-time thread responsible for keeping your timeline and multiplexing the package together and dropping them, and accounting for network jitter and stuff like that. So yeah, it would definitely be multi-threaded.
 
@@ -196,7 +196,7 @@ I might have to whip up a silly example of something like that to see whether I 
 
 **Erik St. Martin:** Alright, so we're gonna take a quick sponsor break, and then we will jump back on with Keith.
 
-**Break:** \[\\00:21:47.04\\\]
+**Break:** \[00:21:47.04\]
 
 **Erik St. Martin:** Alright, we are back. Carlisia, I know you had some questions for Keith.
 
@@ -216,7 +216,7 @@ I might have to whip up a silly example of something like that to see whether I 
 
 I haven't actually written anything in Rust, so take my comments with a grain of salt. Maybe it's easier than I think it is. But I like the fact that in Go everything's naturally -- you're used to it coming from C or from Java, or whatever... There's no fancy new semantics to learn.
 
-**Bill Kennedy:** \[\\00:24:05.02\\\] One of the questions that seems to come up more and more - and I think it's because I'm seeing more programmers that are coming from functional programming languages, is they get afraid about pointers and they start asking me, "What is the advantage of having the pointers over not having to deal with them?" What kind of answers can I give them? Do you have any opinions around that?
+**Bill Kennedy:** \[00:24:05.02\] One of the questions that seems to come up more and more - and I think it's because I'm seeing more programmers that are coming from functional programming languages, is they get afraid about pointers and they start asking me, "What is the advantage of having the pointers over not having to deal with them?" What kind of answers can I give them? Do you have any opinions around that?
 
 **Keith Randall:** It's fundamentally a question of efficiency, and to the extent that a compiler can realize that you're doing something functional and can pass pointers around under the hood, so you don't have to do big copies - that's great. The SSA thing would totally be impossible to write in a functional language, because everything's linked to everything else via pointers, and the side effects matter. If I wanna delete an instruction from an instruction stream, I need to sort of update all the people who use that instruction, I need to update all the arguments of that instruction... So there's a lot of side-effect things that have to go on in order to make the compiler work, and work efficiently, that I don't have to iterate through all the instructions to find a single use of an instruction, for example.
 
@@ -260,7 +260,7 @@ So I agree that the semantics of a functional language are much easier to unders
 
 **Keith Randall:** Right.
 
-**Erik St. Martin:** \[\\00:28:01.23\\\] I think it was guaranteed to be under a hundred microseconds, but they were seeing ten-ish most of the time, if I recall what that was.
+**Erik St. Martin:** \[00:28:01.23\] I think it was guaranteed to be under a hundred microseconds, but they were seeing ten-ish most of the time, if I recall what that was.
 
 **Keith Randall:** Yeah, the pauses we got rid of... There's a bunch of stuff that you have to do when you stop the world. When you do a GC, you stop the world, you sort of set some bits, then you have to do some stuff and then you have to start the world up again. And the stuff you need to do, we've been shrinking and shrinking and shrinking, and now it's down to just sets and bits in various places... And start again; you don't even need to scan a single goroutine stack before you can start the world again. So it's getting quite a bit better. Sub-microsecond for almost everybody, and well a sub-microsecond for lots of people.
 
@@ -290,7 +290,7 @@ So I agree that the semantics of a functional language are much easier to unders
 
 Basically, it detects if you have a reader and a writer at the same time for a map, and it will crash the program because in that situation programs would nondeterministically occasionally crash anyway, and then you'd have no idea why they crashed because they crashed some later time, in some unrelated code, and it was sort of a very confusing situation to be in, whereas now the map detects that you're doing that kind of thing and it crashes immediately, so you can hopefully find and fix the problem before you release some code to production.
 
-**Erik St. Martin:** \[\\00:32:15.02\\\] I think the other stuff that I saw was around plugins, some stuff for the HTTP server, some more context stuff... Plugins seem cool. I mean, as far as readability, I think there's some concern there because you have to do some type assertion when you read from it. So it starts to look a little crazy, but the fact that we have plugins is kind of cool, and I'm not really sure how else to do that without doing the type assertions.
+**Erik St. Martin:** \[00:32:15.02\] I think the other stuff that I saw was around plugins, some stuff for the HTTP server, some more context stuff... Plugins seem cool. I mean, as far as readability, I think there's some concern there because you have to do some type assertion when you read from it. So it starts to look a little crazy, but the fact that we have plugins is kind of cool, and I'm not really sure how else to do that without doing the type assertions.
 
 **Keith Randall:** Yeah, it's a difficult problem, and it re-rears all the problems you have with Java distribution - now you have to distribute your plugins somehow along with your binary... But for use cases where you need it, it's really useful and you can sort of wrap all that type case stuff into a library on the client side, so you don't have to see it except for the person who's actually doing the wrapping.
 
@@ -308,7 +308,7 @@ Basically, it detects if you have a reader and a writer at the same time for a m
 
 **Erik St. Martin:** I think it's about time for our second sponsor break, and then we can kind of get into some other cool stuff that's going on and interesting projects we've run across this past week.
 
-**Break:** \[\\00:35:05.07\\\]
+**Break:** \[00:35:05.07\]
 
 **Erik St. Martin:** Alright. Carlisia, wanna talk to us about some stuff you've seen?
 
@@ -352,7 +352,7 @@ We had a lot of help from Josh Snyder and various other folks early on in the SS
 
 **Keith Randall:** It needs some domain expertise. It's not the easiest thing to jump in and touch. We made porting as easy as possible, so you don't actually need to write any Go code to port the compiler to a new architecture, or at least it's all tables and stuff, it's not stuff that executes all the time. But if you wanted to add, say a new compiler optimization phase or something, it requires a fair amount of knowledge if you know - what SSA is, what transformations you can do on it, what you can't...
 
-\[\\00:39:59.03\\\] It's not the easiest thing to jump in and do, but the people who jumped in and worked on stuff on a compiler, I think they all had some compiler knowledge, but they were by no means experts. I would say it's sort of a middle-of-the-road thing if you wanna jump in; you should probably have taken Compiler 101 in college, but you probably don't need anything higher than that.
+\[00:39:59.03\] It's not the easiest thing to jump in and do, but the people who jumped in and worked on stuff on a compiler, I think they all had some compiler knowledge, but they were by no means experts. I would say it's sort of a middle-of-the-road thing if you wanna jump in; you should probably have taken Compiler 101 in college, but you probably don't need anything higher than that.
 
 **Erik St. Martin:** Do you have a recommended book or something, that somebody interested -- not necessarily like designing your own compiler, but just for anybody who might want a better understanding of how compilers work.
 
@@ -374,7 +374,7 @@ What else... I ran into this because I was doing some research this week - anoth
 
 **Erik St. Martin:** I think it was Russ, yeah.
 
-**Carlisia Pinto:** \[\\00:43:49.00\\\] Russ, yes. He's proposing that Damian Gryski is the person. So if you have an opinion, hop on there and speak up because that's probably going to change very quickly.
+**Carlisia Pinto:** \[00:43:49.00\] Russ, yes. He's proposing that Damian Gryski is the person. So if you have an opinion, hop on there and speak up because that's probably going to change very quickly.
 
 **Erik St. Martin:** Is there a way to vote, or is it just unless there's no downvotes...? How does that work
 
@@ -436,7 +436,7 @@ What else... I ran into this because I was doing some research this week - anoth
 
 **Erik St. Martin:** But yeah, to Bill's point, it's kind of cool that they're like, "Why don't you fix it?" It's like, "Well, that works..."
 
-**Keith Randall:** \[\\00:47:51.15\\\] Yeah, exactly. It's a great thing about open source stuff - the things that people care about, they can fix themselves, they don't have to wait for someone on high to fix it for them.
+**Keith Randall:** \[00:47:51.15\] Yeah, exactly. It's a great thing about open source stuff - the things that people care about, they can fix themselves, they don't have to wait for someone on high to fix it for them.
 
 **Erik St. Martin:** Yeah, I prefer PRs over bug reports, too. I try to encourage that, because I think people should all try to approach the solution, because sometimes a solution si better than no solution.
 
@@ -468,7 +468,7 @@ Daniel shared this week another repo called go-hep, which is High-Energy Physics
 
 **Carlisia Pinto:** I ran into a project - I have not used it before, but it looks really cool. It was here in this document, but it was also in this \[unintelligible 00:51:29.09\] newsletter about Go called The Week In Go. It is the JSON Incremental Digger (JID). Basically, you install it with Homebrew and you can navigate a JSON file on the command line. You can say, for example, "Node 0" and you get just that one node, and there are a bunch of things you can do. I thought it was really interesting.
 
-**Erik St. Martin:** \[\\00:52:03.00\\\] Yeah, that's really cool. Have you seen this, Keith? You basically can give it JSON, and then you can kind of use Javascript notation to traverse and dig down into the JSON file, and it has autocomplete of the properties, too.
+**Erik St. Martin:** \[00:52:03.00\] Yeah, that's really cool. Have you seen this, Keith? You basically can give it JSON, and then you can kind of use Javascript notation to traverse and dig down into the JSON file, and it has autocomplete of the properties, too.
 
 **Keith Randall:** Interesting, \[unintelligible 00:52:19.06\]
 
@@ -498,7 +498,7 @@ Did you have a project you wanted to give a shout out to, Keith?
 
 **Erik St. Martin:** Yeah, so initially... That's running on a Raspberry Pi, so they're kind of two separate parts that are going to be merged. So that's actually Go running on a Raspberry Pi, that's the PID controller, and I always forget the actual acronym. It's like proportional-integral-derivation, or something... It basically takes a set temperature and the current temperature and calculates an error value and determines whether or not the blower needs to turn on to provide oxygen to the fire to make it heat up. It's to keep a stable temp in the fire box of the smoker for long cooks, and that's all done in Go.
 
-\[\\00:56:01.21\\\] I'm currently working on the meat probe side of things, and then we're gonna try to merge the two into the ultimate Go and C and custom hardware little grill device, so that we can plot out on Prometheus and all this stuff, you know, temperatures in the grill and things like that. Who knows what we're gonna do with the data, but it will serve our purpose and it will do better than the stuff we bought, so... And that's provided time; that's the hardest thing, having time for these little side projects.
+\[00:56:01.21\] I'm currently working on the meat probe side of things, and then we're gonna try to merge the two into the ultimate Go and C and custom hardware little grill device, so that we can plot out on Prometheus and all this stuff, you know, temperatures in the grill and things like that. Who knows what we're gonna do with the data, but it will serve our purpose and it will do better than the stuff we bought, so... And that's provided time; that's the hardest thing, having time for these little side projects.
 
 So did anybody else have anything they wanna talk about, or do we wanna wrap this thing up?
 

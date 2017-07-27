@@ -31,7 +31,7 @@ So they started to work on Glide; I didn't really come in until later... But the
 For me it was end of December 2015 that I started getting -- I can't remember what the precipitating event was, but I remember being really annoyed (that much is clear in my mind) with some tool that I was using. It may have been Glide, maybe it was GoDep - it doesn't matter. But I decided "Okay, I'm gonna try to describe how we should solve this problem", so I spent six weeks writing this essay which turned into this 13,000-word monstrosity that's on Medium, that I published February of last year.
 
 I'm proud to say that I stole five years of productivity from the world, because that's how many hours it takes for the number of people who read the whole thing to read the whole thing. \[laughter\] It's my favorite way to think about it.
-\[\\00:03:48.29\\\] This is the thing, too... This is a complex social problem as much as it is a complex technical problem, and I think it's fair to say that there was a lot of acrimony over this problem a year ago. The approach that I decided to take was I was gonna write this essay and then try to crank up this library that is now GPS and is the thing that's powering the dep tool, and try to use that as a way of -- instead of just adding another tool, to use that as a platform for bringing together the different tool maintainers and sort of creating a common shared conversation that let us move in more of a consensus direction instead of this fractious thing that had been going on for so long.
+\[00:03:48.29\] This is the thing, too... This is a complex social problem as much as it is a complex technical problem, and I think it's fair to say that there was a lot of acrimony over this problem a year ago. The approach that I decided to take was I was gonna write this essay and then try to crank up this library that is now GPS and is the thing that's powering the dep tool, and try to use that as a way of -- instead of just adding another tool, to use that as a platform for bringing together the different tool maintainers and sort of creating a common shared conversation that let us move in more of a consensus direction instead of this fractious thing that had been going on for so long.
 
 I feel like I had an MVP with GPS around GopherCon last year. When we tried to wrap this up, the shortest summary from there is that Peter Bourgon decided to convene this package management committee, which started meeting September. That was me and Ed Muller and Jess Frazelle and Andrew Gerrand, and we were all on the phone a couple times a week, trying to hammer this thing out.
 
@@ -55,7 +55,7 @@ In many ways, it sort of flowed directly from writing this giant, long article w
 
 **Sam Boyer:** Yes, yes. That's a key part of the question, that I should address. We are very much hoping to have that become official. To be very clear, it's not like the dep tool has been blessed by the Go team at this point - this is still experimental - this is by no means guaranteed to happen, but we're on a good path and we're doing everything we can to make sure it happens. And yes, the goal is that we would obviate the need for pretty much any of the other tools that are out there today, and ideally also provide migration paths from them, so that people can just run a command and their project is converted over to the dep-based equivalent.
 
-**Erik St. Martin:** \[\\00:07:58.17\\\] And the committee that you were a part of in developing this pretty much had representation from the majority of the tools that existed out there, so it should in theory solve all of the use cases that each of the individual authors had for their own tools...
+**Erik St. Martin:** \[00:07:58.17\] And the committee that you were a part of in developing this pretty much had representation from the majority of the tools that existed out there, so it should in theory solve all of the use cases that each of the individual authors had for their own tools...
 
 **Sam Boyer:** I think so. We had the core committee that I listed the members of already, and then we also had the advisory committee. I'm gonna feel terrible if I forget somebody, but I believe that was Daniel Theophanes, Dave Cheney, Matt Farina, Steve Francia. I believe those were the four folks there.
 
@@ -81,7 +81,7 @@ What this means is that we could have a system - and I'll get to whether it's a 
 
 GoDep, which only records basically \[unintelligible 00:11:49.08\] there's even a way to use that as advisory information, but not an actual constraint. Say, "Let's prefer to use this version of this crazy five-deep transitive dependency. But if we can't work it all out using that version, then it's alright, we'll move over to something else."
 
-\[\\00:12:07.06\\\] The question though, like I said, is whether this is a good idea or not. It was clearly a good idea for that when -- and there's an outstanding branch to convert Glide using GPS, and it's clearly a good idea in the Glide case, because Glide was never going to become the ubiquitous tool; it was going to exist in an ecosystem where there were other tools, so it made sense, in a forward and back-looking way to be able to convert on the fly from whatever dependency management tool other people might be using.
+\[00:12:07.06\] The question though, like I said, is whether this is a good idea or not. It was clearly a good idea for that when -- and there's an outstanding branch to convert Glide using GPS, and it's clearly a good idea in the Glide case, because Glide was never going to become the ubiquitous tool; it was going to exist in an ecosystem where there were other tools, so it made sense, in a forward and back-looking way to be able to convert on the fly from whatever dependency management tool other people might be using.
 
 However, with dep we're in a different situation. If we put that support in, then we've created a situation where we're actually kind of encouraging people to continue using the existing tools, which isn't necessarily what we wanna do. The drawback is if we don't put it in, then we don't really have any of that metadata available for any of the historical versions of code that have already been published... Which if we put it in, we could just dynamically and magically be able to smartly interact with the whole existing Go ecosystem.
 
@@ -97,7 +97,7 @@ However, the plus side of this is I sort of wrote it understanding that there ar
 
 **Brian Ketelsen:** I was going to ask roughly the same question, but with a little bit more of a spin to "If we could steer the Go community in one direction, would we ask everybody to start tagging and using semver?" What's the thing that would make the most sense to the community as a whole? How can we encourage that behavior to make all of this easier?
 
-**Sam Boyer:** \[\\00:15:53.16\\\]Yes, start tagging and using semver, that would be great. Dave Cheney put a post out about that a year ago or so, and of course there's been an argument for that for a while... But yes, start tagging your stuff with semver now. It will be helpful even if you're not actually using that metadata yet. Simply being able to target those versions will be an improvement.
+**Sam Boyer:** \[00:15:53.16\]Yes, start tagging and using semver, that would be great. Dave Cheney put a post out about that a year ago or so, and of course there's been an argument for that for a while... But yes, start tagging your stuff with semver now. It will be helpful even if you're not actually using that metadata yet. Simply being able to target those versions will be an improvement.
 
 **Brian Ketelsen:** I've seen a lot of tool on GitHub, like Ruby-based tools or even Node or Javascript-based tools that do automatic tagging and GitHub releases and such. Do you think that we could encourage adoption if that were built into a Go type command, like Go tag and Go release and Go increment version?
 
@@ -123,7 +123,7 @@ But yes, I do think this is an interesting thing. In fact, I actually joked - to
 
 **Erik St. Martin:** Alright, so I think it's time for our first sponsor break. Our first sponsor for today is Toptal.
 
-**Break:** \[\\00:20:10.21\\\] to \[\\00:20:43.13\]
+**Break:** \[00:20:10.21\] to \[\\00:20:43.13\]
 
 **Erik St. Martin:** And we are back, talking to Sam Boyer about the GPS tool and some of the new dependency management stuff that the community's been working on. We've talked a bit about how GPS works and the motivation for that... What I'm interested to talk about a little bit is the dep tool itself. Is this created more as like a reference implementation for using GPS, or does it offer any functionality and features that maybe don't exist, and some of the tooling that people are familiar with already?
 
@@ -137,7 +137,7 @@ It doesn't force us to respect what everyone else says about their versions of d
 
 **Sam Boyer:** Yes, there's an override behavior. If it exists today, it works today. The rest of it to say though that we've aggressively invested effort in trying to make this as simple an experience as possible, which is to say we're trying to pair out as much of the command set as we can, we're trying to keep the declarations that you have to make as minimal as possible. And actually, a really key design decision - I would say this is actually the most sort of uniquely Go thing about this entire system, because GPS has... I originally adapted it from the Pub Solver for Dart, but it's structurally similar to the solver in Cargo.
 
-\[\\00:24:14.03\\\] There's a lot of commonalities between these systems, but the thing that is most unique about Go and dep in particular is that in these other systems their manifest files declare both the constraints concept and the requires concept. You have to list something in the manifest in order for it to show up, and it also decides which versions of it can show up.
+\[00:24:14.03\] There's a lot of commonalities between these systems, but the thing that is most unique about Go and dep in particular is that in these other systems their manifest files declare both the constraints concept and the requires concept. You have to list something in the manifest in order for it to show up, and it also decides which versions of it can show up.
 In dep it's different. The thing that determines whether or not something shows up is the import graph. We statically analyze the code, because this is Go and we can do this. We statically analyze the code, we see which imports are there, and that's what determines whether or not something shows up. You can then... What putting a constraint in the manifest does is it just pairs down the set of versions that can be used. But the crucial thing here is it means that you can continue on coding in the way that you always have - you write your code, you make your import statements, and then it works it out. You don't have to go fiddling with a separate file.
 
 **Brian Ketelsen:** I hate fiddling. So I'm gonna beat a dead horse, because it's what I do... This tool sounds pretty awesome, and I have to admit that the GopherCon website code, which is on GitHub, is now vendored with dep, and the first time I used it, it worked beautifully. I didn't have any issues, it just worked...
@@ -152,7 +152,7 @@ In dep it's different. The thing that determines whether or not something shows 
 
 **Sam Boyer:** My take on that long, painful thread was that we had a chicken or egg problem. There was no reason for people to start using tagging until there was a tool that actually really worked effectively with semver. Then there's no reason to write a tool, unless people have already made the release. So we're in this nasty situation where it's sort of hard to break out, which \[unintelligible 00:27:48.04\] of these problems, the only one that one person or a small group of people can really solve is to make a tool that works well and robustly. With semver, that then knocks one side of the equation out. The rest of it is pushing for adoption.
 
-**Brian Ketelsen:** \[\\00:28:03.29\\\] So if we were to give somebody a platform at GopherCon, say a stage in front of 1,500 people, live stream to the world, do you think we could make some change?
+**Brian Ketelsen:** \[00:28:03.29\] So if we were to give somebody a platform at GopherCon, say a stage in front of 1,500 people, live stream to the world, do you think we could make some change?
 
 **Sam Boyer:** I think we could make some change.
 
@@ -178,7 +178,7 @@ So in one of these issues that is giving me brain fog, at the top of it we note 
 
 **Sam Boyer:** No, there's no apologies for that. The only thing with treating Vendor as volatile that I have concerns about is some things related to code generation. I've seen a couple of issues raised for the last year with this in Glide - I can't remember it offhand. I have a list that might have the issue in it, but I'm a little bit worried that we might get into a nasty situation where if you have to do codegen inside of your vendor directory, and the way that you're depending on the thing that you're depending on requires codegen to have happened locally, inside of its own directory structure; then we get into a nasty situation. But that's the strikes me basically as something where we need to just say, "If your project requires codegen, design it in a way where it can be generated in an alternative location." Don't require it to be generated inside of your own tree. Frankly, it's so much harder if we try to treat vendor as non-volatile... So much harder.
 
-**Carlisia Pinto:** \[\\00:32:06.28\\\] I don't wanna jump ahead too much and I don't even if you can answer this question, but when are we gonna have this tool? \[laughs\]
+**Carlisia Pinto:** \[00:32:06.28\] I don't wanna jump ahead too much and I don't even if you can answer this question, but when are we gonna have this tool? \[laughs\]
 
 **Sam Boyer:** Right! This is the most important question, right? The committee's been talking with a bunch of people; we've been talking with Russ as well, and the goal is -- and I have this roadmap that I've been working on, which I was hoping to publish by today; I'm still sort of tweaking some things around in it and checking by other folks in the committee, but it should be up presently, in the next week or so. We need to stabilize the manifest and mod files, we need to stabilize the command set itself, and then we need to define and implement a basic security model for this.
 
@@ -210,7 +210,7 @@ The roadmap that I'm trying to get out there is intended to provide a generalize
 
 **Carlisia Pinto:** And this is probably the best way for people to get in contact for people who want to start helping...?
 
-**Sam Boyer:** \[\\00:35:54.09\\\] Yeah. Right now the three ways in are 1) just install it, run dep on a project and do some things, run into some stuff, have some questions, post an issue... I mean, it's runnable enough now that you can really try it; you can kick the tires and just post an issue if you have a problem. You will not get yelled at, I promise. Way 2 is come to the vendor channel, ask some questions, and then way 3 will be have a look at the roadmap and follow your way down from the roadmap into epics and individual issues.
+**Sam Boyer:** \[00:35:54.09\] Yeah. Right now the three ways in are 1) just install it, run dep on a project and do some things, run into some stuff, have some questions, post an issue... I mean, it's runnable enough now that you can really try it; you can kick the tires and just post an issue if you have a problem. You will not get yelled at, I promise. Way 2 is come to the vendor channel, ask some questions, and then way 3 will be have a look at the roadmap and follow your way down from the roadmap into epics and individual issues.
 
 **Carlisia Pinto:** Cool.
 
@@ -231,7 +231,7 @@ I know there's some hesitation around hiding it behind a feature flag or somethi
 
 **Erik St. Martin:** I think it goes that way with most of these projects, and everybody has their own view for how these things work; we all come from different places and backgrounds, and there's so many different ways people are doing dependency management in the wild now, so... I think that there is mostly agreement between all the people who have been working on tools says a lot, and I think that it's easy to move forward from there.
 
-**Sam Boyer:** \[\\00:39:55.21\\\] Yeah, that was a lot of the work in 2016 for sure - getting people on board, and I can't tell you how pleased I am with everyone who came together. It was a herculean and long-time effort, but I'm super pleased with all the people that have come together, users and developers of tools alike, to get us to where we are today.
+**Sam Boyer:** \[00:39:55.21\] Yeah, that was a lot of the work in 2016 for sure - getting people on board, and I can't tell you how pleased I am with everyone who came together. It was a herculean and long-time effort, but I'm super pleased with all the people that have come together, users and developers of tools alike, to get us to where we are today.
 
 **Brian Ketelsen:** That's awesome. You have to admit, the Go community is pretty awesome.
 
@@ -243,7 +243,7 @@ I know there's some hesitation around hiding it behind a feature flag or somethi
 
 **Erik St. Martin:** Alright, so with that, I think it is time for our second sponsor break. Our second sponsor for today is Compose.
 
-**Break:** \[\\00:40:36.23\\\] to \[\\00:42:19.12\]
+**Break:** \[00:40:36.23\] to \[\\00:42:19.12\]
 
 **Erik St. Martin:** Alright, we are back, talking to Sam Boyer. So we were going through all the dependency tool stuff... Does everybody wanna talk about projects and news, things we've seen and come across this past week? I know you've mentioned UpSpin... I think we've got a few minutes left of the show, so...
 
@@ -263,7 +263,7 @@ I know there's some hesitation around hiding it behind a feature flag or somethi
 
 **Erik St. Martin:** Anybody who may not have listened, 1.8 came out last week...
 
-**Brian Ketelsen:** \[\\00:44:09.03\\\] Yeah, live on our show it came out.
+**Brian Ketelsen:** \[00:44:09.03\] Yeah, live on our show it came out.
 
 **Erik St. Martin:** Right. Brian was making a joke, because basically the blog post and tweet dropped while we were recording our show... He's like, "Oh, they were just waiting for us to record." \[laughs\]
 
@@ -307,7 +307,7 @@ I ran across one this week called HTTP Lab, which is kind of similar.
 
 **Carlisia Pinto:** I just wanted to mentioned that Sourcegraph put out a blog post talking about how to implement code intelligence. I didn't read the whole thing, I just skimmed, but it looks pretty cool. I'm a big fan of Sourcegraph, so I think this blog post mostly gives you an insight of how they do what they do. If you're not using Sourcegraph, you definitely should because it's amazing. It really makes your workflow a lot better and faster. I sound like a salesperson. \[laughs\]
 
-**Erik St. Martin:** \[\\00:48:23.03\\\] I think Carlisia's collecting checks. \[laughs\]
+**Erik St. Martin:** \[00:48:23.03\] I think Carlisia's collecting checks. \[laughs\]
 
 **Carlisia Pinto:** Maybe I am... \[laughs\] No, I'm not.
 
@@ -353,7 +353,7 @@ I ran across one this week called HTTP Lab, which is kind of similar.
 
 **Brian Ketelsen:** Yeah.
 
-**Sam Boyer:** \[\\00:52:06.00\\\] Yeah, I was reading through that issue earlier and there were some issues with trying to pick up the work that \[unintelligible 00:52:11.25\] testing Quick package... But yeah, it would be awesome to see fuzzing with another toolchain, I think. I love thinking about fuzzing because not only is the word fuzz fun, but the thing that I first think of when I think of fuzz is American Fuzzy Lop, which is the single best-named piece of software that has ever happened.
+**Sam Boyer:** \[00:52:06.00\] Yeah, I was reading through that issue earlier and there were some issues with trying to pick up the work that \[unintelligible 00:52:11.25\] testing Quick package... But yeah, it would be awesome to see fuzzing with another toolchain, I think. I love thinking about fuzzing because not only is the word fuzz fun, but the thing that I first think of when I think of fuzz is American Fuzzy Lop, which is the single best-named piece of software that has ever happened.
 
 **Erik St. Martin:** It's funny too, because some of the names of the fuzzing tools are hilarious. There are so many fuzzing tools our there... And fuzzing is interesting too, because there's multiple ways of doing it, too. You have ones that just kind of randomly send junk data, hoping for crashes; then you have others that use more machine learning tactics and you try to show it some good requests and it tries to mutate those until it figures out what a bad request looks like.
 
@@ -393,7 +393,7 @@ I ran across one this week called HTTP Lab, which is kind of similar.
 
 **Brian Ketelsen:** Yeah! He wrote that tool.
 
-**Sam Boyer:** \[\\00:56:00.20\\\] Yeah, he has one, and there's another one, too. But he wrote that six months ago, at least.
+**Sam Boyer:** \[00:56:00.20\] Yeah, he has one, and there's another one, too. But he wrote that six months ago, at least.
 
 **Erik St. Martin:** See, this is how out of touch I am.
 
@@ -434,7 +434,7 @@ So if you're looking for a way to do self-hosted video conferences, webinars, me
 
 **Brian Ketelsen:** If they skipped Cobra, they're doing it wrong.
 
-**Carlisia Pinto:** \[\\01:00:05.00\\\] There's no Cobra listed here.
+**Carlisia Pinto:** \[01:00:05.00\] There's no Cobra listed here.
 
 **Erik St. Martin:** I'm sure they take pull requests.
 
@@ -466,7 +466,7 @@ I saw somewhere, I think it's kubeapps.com... I think somebody had just recently
 
 **Erik St. Martin:** Yeah, where you should be able to go and search for these Helm charts for common projects that you might wanna install. They've been working on that for a long time.
 
-**Brian Ketelsen:** \[\\01:02:50.14\\\] Helm is mostly driven by the folks at Open Deis. Awesome contributions from them to the Go community and Kubernetes both, which is cool.
+**Brian Ketelsen:** \[01:02:50.14\] Helm is mostly driven by the folks at Open Deis. Awesome contributions from them to the Go community and Kubernetes both, which is cool.
 
 **Sam Boyer:** And Helm was originally created by Matt Butcher, who is the original creator of Glide, as well.
 

@@ -38,7 +38,7 @@
 
 **Beyang Liu:** Sourcegraph's essentially a programming assistant that's built on top of the global graph of code. What I mean by that is the assistant part helps you answer a bunch of questions that pop up every single day, every single hour when you're coding. Things like, "How do I use this particular function? Who else uses it? Who should I bug if I have a more in-depth question that I need to ask?" and it does all that by building on top of this graph of code. Every single piece of code, every single definition, package type, whatever is a node in that graph, and the edges are essentially function calls or package imports. That's something that we do differently than a lot of other tools out there that essentially treat code as a blob of text. We actually understand, "This is a thing that calls a function over here", and because of that we're able to give you very high quality usage examples, jump to definition in the web browser, and really good code search.
 
-\[\\00:03:57.08\\\] So it's basically this all-in reference guide that lets you answer all these questions that arise over the course of the day. It helps you get the answer within seconds as opposed to minutes, and with a lot less mental energy than something like grep, or just googling for the answer. So that's kind of the sales pitch there.
+\[00:03:57.08\] So it's basically this all-in reference guide that lets you answer all these questions that arise over the course of the day. It helps you get the answer within seconds as opposed to minutes, and with a lot less mental energy than something like grep, or just googling for the answer. So that's kind of the sales pitch there.
 
 **Brian Ketelsen:** It's a pretty good sales pitch.
 
@@ -62,7 +62,7 @@
 
 **Beyang Liu:** Yeah. I mean, performance is a big thing that we're hammering on right now, and we're actually gonna ship a native desktop client soon. That should hopefully help with the latency things, so... Kind of a sneak peek at that.
 
-**Erik St. Martin:** \[\\00:07:57.10\\\] Yeah, that's gotta be hard too, like Brian said, with the network latency. It's much easier to do that stuff when all the code exists locally, than it is to do it remotely.
+**Erik St. Martin:** \[00:07:57.10\] Yeah, that's gotta be hard too, like Brian said, with the network latency. It's much easier to do that stuff when all the code exists locally, than it is to do it remotely.
 
 **Beyang Liu:** Yeah, and what we'd like to do in the future is really connect the code that's on your local machine to this global graph that exists out there in the ether, the cloud, because that's really where a lot of the magic can happen. You have access to this dictionary and index over all the possible open source code that you can use in the world, and at the same time you're changing just like a tiny bit of that graph locally, in the stuff that you're doing in your individual editor. And it would be awesome just to understand in real-time how the semantics of the code are changing. You change a function here, and that's gonna change how many callers of this particular open source function there are, or that's gonna have an impact on someone else on your team who is changing the same code, a related piece of code, and a big push for us in the future is just bringing more of that experience natively, so that we can have access to the graph, the bits and pieces of the graph that are changing in real-time as you're kind of typing in your editor.
 
@@ -76,7 +76,7 @@ For example, one of the things that the plugins do is anytime your cursor is hov
 
 **Beyang Liu:** We kind of have a custom graph storage system that's built on top of Postgres and Google Object Store right now. So it basically uses Google Object Store for all the detailed meta data. Once you know you're looking for data for a specific definition, specific function or package, then you look up the detailed meta data in the object store, and then we use Postgres for some of the more... Things like search queries and listing definition subject to a particular set of search criteria. That's actually gotten us surprisingly far. I think most people when they think of writing something like a search engine over all the code in the world, Postgres is probably not the first thing that comes to mind. But we've been impressed so far with how good full tech search support in Postgres actually is, and it scales pretty well, too.
 
-**Erik St. Martin:** \[\\00:12:16.11\\\] Did you have to build a spider to index all that data?
+**Erik St. Martin:** \[00:12:16.11\] Did you have to build a spider to index all that data?
 
 **Beyang Liu:** Yeah, so the way our crawler works is anytime it indexes a library, it looks at the dependencies, because we actually extract the dependencies of that particular library, and then it just goes and indexes the dependencies. So it just kind of crawls the graph of code, the dependency graph.
 
@@ -94,7 +94,7 @@ In the future, you can imagine more senior members of the team, who care about o
 
 **Erik St. Martin:** So is that kind of what's next for Sourcegraph, building some team tools for looking for things like that?
 
-**Beyang Liu:** Yes. You know, the individual use case stuff, the search and the snippets is really valuable for every programmer in terms of the day-to-day stuff that you do, but I think that the real value is just gonna be in the way that we can change how teams work together to build software. So it's things like issuing queries like that to discover anti-patterns in the code... It's also more explicit forms of collaboration, where if you have a question about the code right now, more likely than not you either go and ask the person in person, or maybe you drop them a message in chat. \[\\00:16:20.24\\\] In both cases, the answer to that question that you asked is lost to time, almost as soon as it's answered. That kind of sucks, because if you have that question, chances are someone else on your team is probably gonna have that same question or a very similar question later on, and wouldn't it be nice if the tool that you use could actually attach discussion messages to specific pieces of code, and those stay with that particular function or package as the lines of code change over time.
+**Beyang Liu:** Yes. You know, the individual use case stuff, the search and the snippets is really valuable for every programmer in terms of the day-to-day stuff that you do, but I think that the real value is just gonna be in the way that we can change how teams work together to build software. So it's things like issuing queries like that to discover anti-patterns in the code... It's also more explicit forms of collaboration, where if you have a question about the code right now, more likely than not you either go and ask the person in person, or maybe you drop them a message in chat. \[00:16:20.24\] In both cases, the answer to that question that you asked is lost to time, almost as soon as it's answered. That kind of sucks, because if you have that question, chances are someone else on your team is probably gonna have that same question or a very similar question later on, and wouldn't it be nice if the tool that you use could actually attach discussion messages to specific pieces of code, and those stay with that particular function or package as the lines of code change over time.
 
 We think a lot about the impact that we're gonna have on team productivity, because I think that software engineering is still in the early days in terms of software engineering methodology and best practices.
 
@@ -114,7 +114,7 @@ I think the tooling around Go is so solid that it really lets you think of code 
 
 **Erik St. Martin:** Just make Brian type it all out. He's got this.
 
-**Brian Ketelsen:** \[\\00:20:04.25\\\] No, I'm the king of code generation. If you can generate it, I'm your guy.
+**Brian Ketelsen:** \[00:20:04.25\] No, I'm the king of code generation. If you can generate it, I'm your guy.
 
 **Beyang Liu:** Yeah, it's great. And then there's also... Alan Donovan has done such great work with Go oracle. I think the talk that I was most looking forward that I'm sad I'm missing at GopherCon is the talk he's gonna give on the Go Guru, which is kind of like an extension of the Go oracle that he's designed for editor integrations and things like that.
 
@@ -166,7 +166,7 @@ This year, it's our second year at the Convention Center, so we have a better id
 
 **Brian Ketelsen:** It is. And when that e-mail hit my inbox, I thought, "That's a big adoption point for Go." It's not a tech company, it's not some VC-funded startup somewhere, they're not cutting edge, whatever, it's just an auto parts company. To me that felt like an inflection point for Go.
 
-**Beyang Liu:** \[\\00:24:02.21\\\] I think that speaks to one of the broader trends, not just in Go but in the software world in general, which is more and more you're seeing companies that you don't think of as traditional tech companies becoming highly depending on the software they're able to build.
+**Beyang Liu:** \[00:24:02.21\] I think that speaks to one of the broader trends, not just in Go but in the software world in general, which is more and more you're seeing companies that you don't think of as traditional tech companies becoming highly depending on the software they're able to build.
 
 Have you guys seen the new GE ad campaign, where the tagline essentially is "GE is a digital company that happens to do infrastructure", and the whole point of it is to appeal more to software engineers and convince people that GE is kind of a software-first organization.
 
@@ -188,7 +188,7 @@ Equinox, one of my favorite tooling companies, Equinox.io, helps you package and
 
 We use Equinox at Backplane, and I think Beyang you mentioned that you had used it before, hadn't you?
 
-**Beyang Liu:** \[\\00:28:03.18\\\] Yeah, we've used it for on-prem stuff at Sourcegraph, and I just have to say it's so easy... If it's your job to manage on-prem or native installers for a Go-based application, and you're just worried about the headache that that entails, then you should definitely check out Equinox. It makes your life so much easier. It pretty much works out of the box, and it's just really great.
+**Beyang Liu:** \[00:28:03.18\] Yeah, we've used it for on-prem stuff at Sourcegraph, and I just have to say it's so easy... If it's your job to manage on-prem or native installers for a Go-based application, and you're just worried about the headache that that entails, then you should definitely check out Equinox. It makes your life so much easier. It pretty much works out of the box, and it's just really great.
 
 I'd also like to give a shout out to Equinox's creator, Alan Shreve. He's just a great guy. He's prominent in the Go open source community and he has just done so much great open source stuff.
 
@@ -234,7 +234,7 @@ I'd also like to give a shout out to Equinox's creator, Alan Shreve. He's just a
 
 **Beyang Liu:** Oh, nice.
 
-**Brian Ketelsen:** \[\\00:32:01.00\\\] Yeah, I'm giving a talk at Abstractions.io - I'm in Pittsburgh whenever that is, August something - about generating all the things. I'm really excited about that. Because one of the fun things about Goa is that it's got this DSL engine in it that means that you can create your own DSL to parse whatever you want to parse, and then tick the meta data out of that and generate whatever you want to generate. So it's not just generating APIs. If you spend a few hours writing some code, you can generate Kubernetes configurations or Docker files, or whatever it is that you need to generate. That's kind of been my burning mission for 2016, to really just generate everything and have that DSL be the single source of truth for me.
+**Brian Ketelsen:** \[00:32:01.00\] Yeah, I'm giving a talk at Abstractions.io - I'm in Pittsburgh whenever that is, August something - about generating all the things. I'm really excited about that. Because one of the fun things about Goa is that it's got this DSL engine in it that means that you can create your own DSL to parse whatever you want to parse, and then tick the meta data out of that and generate whatever you want to generate. So it's not just generating APIs. If you spend a few hours writing some code, you can generate Kubernetes configurations or Docker files, or whatever it is that you need to generate. That's kind of been my burning mission for 2016, to really just generate everything and have that DSL be the single source of truth for me.
 
 I really like that a lot, because you're generating the code and it becomes very easy to make changes to your system, and the DSL is very self-documenting, so you understand what you're doing and why.
 
@@ -266,7 +266,7 @@ We use gRPC gateway to generate the API to the application that the UI and the e
 
 **Erik St. Martin:** Yeah, gRPC is another one I've used heavily. Gen-mocks looks interesting.
 
-**Brian Ketelsen:** \[\\00:36:03.06\\\] I haven't seen that one.
+**Brian Ketelsen:** \[00:36:03.06\] I haven't seen that one.
 
 **Beyang Liu:** What looks interesting?
 
@@ -320,7 +320,7 @@ It was insane. It went, in total, from like 10 milliseconds...
 
 **Brian Ketelsen:** I agree. It's almost like they have parallel paths of performance and tooling. They're marching down two different directions of making Go as fast as it can possibly be, but then creating this amazing ecosystem of tools that really make our lives as developers better. We heart the Go Team.
 
-**Erik St. Martin:** \[\\00:40:06.02\\\] There's some really interesting talks this year that I really wanna see, some deep dives. One of the ones that I find most interesting is the packet injection one. I think that one's gonna be a lot of fun, because it's totally different. They're doing packet capture and analysis with Go.
+**Erik St. Martin:** \[00:40:06.02\] There's some really interesting talks this year that I really wanna see, some deep dives. One of the ones that I find most interesting is the packet injection one. I think that one's gonna be a lot of fun, because it's totally different. They're doing packet capture and analysis with Go.
 
 **Brian Ketelsen:** But you know, we're live streaming, Erik. You can watch it at home, if you go to Twitch.tv/Gophercon \[laughter\]
 
@@ -364,7 +364,7 @@ It was insane. It went, in total, from like 10 milliseconds...
 
 **Beyang Liu:** Like how many things depend on it, or how many things it depends on?
 
-**Brian Ketelsen:** \[\\00:44:03.10\\\] How many things it depends on. Is there a left pad coming up in my future?
+**Brian Ketelsen:** \[00:44:03.10\] How many things it depends on. Is there a left pad coming up in my future?
 
 **Beyang Liu:** \[laughs\] Yeah, totally.
 
@@ -404,7 +404,7 @@ It was insane. It went, in total, from like 10 milliseconds...
 
 **Erik St. Martin:** That's awesome. For me this week... I was struggling to think of something big, and it's always the little tools we miss, so I'm going back to the basics here. The Silver Searcher - I've been using this for a few years now, instead of ack and grep when I'm just trying to search around directories. The output's a lot cleaner, and the speed that you can grep through a directory is just insane.
 
-\[\\00:47:58.24\\\] One of the coolest things I love about it is it also adheres to your htignore and gitignore files. So when you're searching for something inside of your source repo, it will ignore searching through files that are already in your ignore list, and then it has its own .agignore that you can use at a global level, to tell it to ignore files with extensions or in certain paths, and all that stuff. So if you're still using ack and grep, I highly suggest trying out the Silver Searcher.
+\[00:47:58.24\] One of the coolest things I love about it is it also adheres to your htignore and gitignore files. So when you're searching for something inside of your source repo, it will ignore searching through files that are already in your ignore list, and then it has its own .agignore that you can use at a global level, to tell it to ignore files with extensions or in certain paths, and all that stuff. So if you're still using ack and grep, I highly suggest trying out the Silver Searcher.
 
 **Beyang Liu:** Nice.
 
@@ -430,7 +430,7 @@ It was insane. It went, in total, from like 10 milliseconds...
 
 **Erik St. Martin:** I don't even know how many people are listening live right now. Maybe Matt's listening right now.
 
-**Brian Ketelsen:** \[\\00:51:08.24\\\] All six of them are listening.
+**Brian Ketelsen:** \[00:51:08.24\] All six of them are listening.
 
 **Erik St. Martin:** I think we're probably out of time... We're a few minutes over, but this has been a lot of fun and I wanna thank everybody who's on the show. I wanna thank all the listeners, I wanna thank our sponsors, Equinox (equinox.io/gotime) definitely hit them up, share the show with other programmers... If you haven't subscribed already, you can go to GoTime.fm and subscribe to our upcoming weekly e-mail newsletter, follow us on Twitter, and we are GoTimeFm on the Gophers Slack channel as well. I think with that said, goodbye everybody, and we are out next week because of GopherCon. All these conferences get in the way of podcasts.
 

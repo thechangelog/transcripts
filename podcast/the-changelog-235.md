@@ -14,7 +14,7 @@ Last but not least, we talked with Shiya Luo on how China does Node. Software de
 
 Our sponsor for today's show is our friends at GoCD. Head to gocd.io/changelog to learn more about this awesome open source, continuous delivery server.
 
-**Break:** \[\\00:02:22.22\\\]
+**Break:** \[00:02:22.22\]
 
 **Jerod Santo:** Alright, you're here with LibreOffice.
 
@@ -28,7 +28,7 @@ Our sponsor for today's show is our friends at GoCD. Head to gocd.io/changelog t
 
 **Giovanni Caligaris:** Few natives. But it's a language that's spoken especially in the smaller towns; people speak it a lot as their first language, and 40% of the country only understands Guarani. If you wanna be a professional in Paraguay, you have to speak Spanish.
 
-**Jerod Santo:** \[\\00:04:05.13\\\] Which is quite a conundrum for people.
+**Jerod Santo:** \[00:04:05.13\] Which is quite a conundrum for people.
 
 **Giovanni Caligaris:** Yeah, it can get tricky.
 
@@ -92,7 +92,7 @@ I got in touch with the mailing list of LibreOffice, and they started guiding me
 
 **Giovanni Caligaris:** Exactly. That was just the beginning. I haven't even translated the program yet. So out of my own pocket I paid this one - he's not even a professor - this one guy, this old man that knows nothing about telephone, doesn't know anything about computers, nothing about technology... This guy lives at the outskirts of the Asunción, which is the capital. He lives in a beautiful home, beautiful garden, and that's it. He knows what electricity is and that's it.
 
-**Jerod Santo:** \[\\00:08:18.00\\\] Great gardener, probably...
+**Jerod Santo:** \[00:08:18.00\] Great gardener, probably...
 
 **Giovanni Caligaris:** Great gardener, and that's it. So I paid him a hundred dollars a week - which is a little bit over minimum wage in Paraguay - and we'd sit down every day in the garden, with my laptop...
 
@@ -140,7 +140,7 @@ We ran into tons of issues, man... Tons. Translating what would be a writer - it
 
 **Giovanni Caligaris:** So I started doing that, and I was able to finish it. I've not finished, but I reached my goal, at least.
 
-**Jerod Santo:** \[\\00:12:03.08\\\] So the big picture goal is you wanna give people who only speak Guarani an access to Office, so that they can actually have careers, or at least the ability to...
+**Jerod Santo:** \[00:12:03.08\] So the big picture goal is you wanna give people who only speak Guarani an access to Office, so that they can actually have careers, or at least the ability to...
 
 **Giovanni Caligaris:** To learn maybe in Guarani, and then learn in Spanish. But at least they can use the tool, right?
 
@@ -200,7 +200,7 @@ We ran into tons of issues, man... Tons. Translating what would be a writer - it
 
 **Giovanni Caligaris:** I hate moving. \[laughter\] And I saw that on the LibreOffice mailing list, that they were looking for volunteers at OSCON and I figured why not come here to network, and it's working out. What do you know, I got to know you.
 
-**Jerod Santo:** \[\\00:16:01.25\\\] Yeah, that's awesome. Great story. Anything else that you wanna say with regard to LibreOffice, or the conference, or your efforts?
+**Jerod Santo:** \[00:16:01.25\] Yeah, that's awesome. Great story. Anything else that you wanna say with regard to LibreOffice, or the conference, or your efforts?
 
 **Giovanni Caligaris:** Yes. So that was the first part of LibreOffice. \[unintelligible 00:16:13.26\] is like the whole Linux world, and stuff like that; I always thought Linux is just coding, pure coding... And it's not like that. There's tons of possibilities within open source, you know? You can do translations, you can do journalism, you can do presentations... It's infinite. That's one thing I learned over these past few years, and LibreOffice has helped me out with that.
 
@@ -248,7 +248,7 @@ Next up is our friend Stu Keroff, who started a Linux user group for kids called
 
 **Adam Stacoviak:** Stu, you stopped by the booth yesterday -- as I mentioned before, we're here on behalf of All Things Open, producing this podcast here... It's kind of shining a spotlight into this conference, into the community around this conference, but more importantly helping to share the interesting stories from people like you that come here and speak or attend.
 
-\[\\00:20:07.08\\\] You've got a talk coming up here in a bit... Tell me the story about middle-schoolers, hacking on Linux, repurposing basically what some might consider trash, trash computer; they turn that computer into a usable Linux computer and they give it away to somebody. That's the snapshot of your story, to a degree.
+\[00:20:07.08\] You've got a talk coming up here in a bit... Tell me the story about middle-schoolers, hacking on Linux, repurposing basically what some might consider trash, trash computer; they turn that computer into a usable Linux computer and they give it away to somebody. That's the snapshot of your story, to a degree.
 
 **Stu Keroff:** Absolutely.
 
@@ -276,7 +276,7 @@ All the kids were Asian, the mascot of Linux is a penguin, so I said, "You know 
 
 **Stu Keroff:** That is correct. The first wave of those refugees started coming to the United States in 1975, and a lot of them settled right in St. Paul. Then we had successive waves after that. Per capita, we have the largest Hmong population in the United States, in Minnesota.
 
-\[\\00:23:58.29\\\] In addition to that, we have a more recent group of refugees that have come in from a different war, from Burma, and that is the Kareni people; now about 15% of our school this year is Kareni, so we actually have two different people groups from South-East Asia there.
+\[00:23:58.29\] In addition to that, we have a more recent group of refugees that have come in from a different war, from Burma, and that is the Kareni people; now about 15% of our school this year is Kareni, so we actually have two different people groups from South-East Asia there.
 
 **Adam Stacoviak:** So the name still applied, though.
 
@@ -302,7 +302,7 @@ Obviously, we're hackers, the Changelog was all about open source software devel
 
 Every kid in the club, at a minimum, does that. But from there, then we have them learning how to install the apps and configure the apps that we want the computers to have; depending on where they're going, there will be different packages of apps. We teach them a few different ways to make sure the apps get onto the computer. It's like, "Well, you can use the app store for your distro - that's one way, and it's easy. You can use \[unintelligible 00:27:40.14\] for things that aren't in the software store, but you still want the computer to have. And you can use the terminal window. You're going to experience all three."
 
-\[\\00:27:51.16\\\] They can see what the differences are and how each one is going to apply in different circumstances. Depending on the hardware available, sometimes kids are also doing things like installing hard drives or RAM, depending on what the machine needs. Again, we don't always have time to do these things just for kicks; generally, if we're working on a computer is because we have a plan for it. But we've had kids also installing video cards in the past... So a few different odds and ends like that. Then there's also just troubleshooting and testing things to make sure everything actually works.
+\[00:27:51.16\] They can see what the differences are and how each one is going to apply in different circumstances. Depending on the hardware available, sometimes kids are also doing things like installing hard drives or RAM, depending on what the machine needs. Again, we don't always have time to do these things just for kicks; generally, if we're working on a computer is because we have a plan for it. But we've had kids also installing video cards in the past... So a few different odds and ends like that. Then there's also just troubleshooting and testing things to make sure everything actually works.
 
 **Adam Stacoviak:** Right. I'm curious what flavor of Linux...?
 
@@ -330,7 +330,7 @@ We've traditionally used Ubuntu and the kids like it, so there's been no questio
 
 **Adam Stacoviak:** Okay, so you're a social studies teacher who says, "I've got a spare 20 minutes, I'm gonna lend a hand to these children", and it eventually evolved into this club and now potentially even a movement. My hope is that we help you share this story, because what I think - and you know this as well - is that there's something you've done that's very beautiful and very magical and very perfect for the hacker heart, and that's where we're coming from... To share this story as a success story for other schools or other places to follow, and potentially take what you've done here with Asian Penguins in your school and help others adopt the same kind of practices and the same kind of commitment to the younger generation hacker, teaching them and giving them not only the education... There's another part of this, which is the recyclability of these machines; you have corporations - and I'm telling a part of your story for you, so fill in the gaps when you feel like it... You've got corporations, you've got people -- you've got machines out there that basically are trash to them; they're getting ready to donate it or give it away or throw it away, and you're repurposing this with Linux machines.
 
-**Stu Keroff:** \[\\00:31:59.21\\\] Absolutely, and that has become the core of our community donation program. In 2013 we started looking around at our school and talking about our own digital divide, and we knew that there are lots of kids that went to our school that didn't have a computer. The main reason is cost - if you are a recent immigrant to the United States and you've just come fresh out of that refugee camp in Thailand and you're still trying to make your way in the new world, a computer is just not gonna happen, okay? You can't afford it.
+**Stu Keroff:** \[00:31:59.21\] Absolutely, and that has become the core of our community donation program. In 2013 we started looking around at our school and talking about our own digital divide, and we knew that there are lots of kids that went to our school that didn't have a computer. The main reason is cost - if you are a recent immigrant to the United States and you've just come fresh out of that refugee camp in Thailand and you're still trying to make your way in the new world, a computer is just not gonna happen, okay? You can't afford it.
 
 **Adam Stacoviak:** It's low on your list.
 
@@ -354,7 +354,7 @@ So this year we made him part of our speaking team. When I asked him about what 
 
 **Adam Stacoviak:** And if there is any repetition happening or planned to happen, how can they get in touch with you or what's the plan for repeating this model?
 
-**Stu Keroff:** \[\\00:36:02.04\\\] Well, let's start at the finish line - how they can get in touch with me... People can follow me on Twitter, it's @StuKeroff. My e-mail address at the school is StuartK@csemn.org, and you can check out all of the information about the Asian Penguins on our website, which is www.asianpenguins.org. That's how you can get in touch with us and find out more about the program.
+**Stu Keroff:** \[00:36:02.04\] Well, let's start at the finish line - how they can get in touch with me... People can follow me on Twitter, it's @StuKeroff. My e-mail address at the school is StuartK@csemn.org, and you can check out all of the information about the Asian Penguins on our website, which is www.asianpenguins.org. That's how you can get in touch with us and find out more about the program.
 
 As far as how to replicate it, the first thing that has to happen is that you do have to have an adult that wants to be a risk taker and wants to plow in and learn how to make this work. I love Robert Litt's example because he's a teacher in the Oakland School District in California who started the computer lab at his school with recycled hardware and open source software, and did it all for free. His school couldn't afford anything, and he said, "When I started, I didn't know a darn thing."
 
@@ -376,7 +376,7 @@ The Asian Penguins have gotten computers from every one of those sources, and so
 
 The kids will love doing all of that stuff, because the devices they use nowadays, like phones and tablets, they don't open.
 
-**Adam Stacoviak:** \[\\00:40:00.05\\\] Yeah, they're magic screens basically, that have nothing inside them, as far as they're concerned.
+**Adam Stacoviak:** \[00:40:00.05\] Yeah, they're magic screens basically, that have nothing inside them, as far as they're concerned.
 
 **Stu Keroff:** Exactly. And you take a look at adults with their computers... The top of the computer, that case is not supposed to open, "What are you doing?!"
 
@@ -406,7 +406,7 @@ Call your local school, check out charter schools in your area to see if they wa
 
 **Adam Stacoviak:** Thanks again to Justin Dorfman who made the connection from us to All Things Open, specifically Todd Lewis. Todd, you're awesome. Thank you so much for including us in your awesome, awesome conference. AllThingsOpen.org, go there, check it out.
 
-\[\\00:43:54.17\\\] Next up we've got no other than Shiya Lou on how China does Node. As I mentioned before in the intro, software development is very different in China, pretty much because of the slow translations of documentation and books from English to Chinese, but also because of this Great Firewall of China you've heard about. It's a censorship and surveillance project by the government, and it makes it very hard to do the internet, basically. Let's take a listen.
+\[00:43:54.17\] Next up we've got no other than Shiya Lou on how China does Node. As I mentioned before in the intro, software development is very different in China, pretty much because of the slow translations of documentation and books from English to Chinese, but also because of this Great Firewall of China you've heard about. It's a censorship and surveillance project by the government, and it makes it very hard to do the internet, basically. Let's take a listen.
 
 **Shiya Lou:** My name is Shiya, I am from China. I moved to the U.S. when I was 14 and I stayed there for about eight years, and then I moved back to China for a year. Now here we are, I've already been back for about a year or so, so that's why I'm here at the conference, to share a little bit about my experience, transitioning between the two worlds.
 
@@ -434,7 +434,7 @@ That caused us a lot of trouble in the developer world, because everyone's used 
 
 **Adam Stacoviak:** We don't think about it like that; we think that we create our own bubbles by choosing our friends, our networks or whatever, or the communities that we're involved in, I guess just by choosing one like Google. So Bing works in China?
 
-**Shiya Lou:** \[\\00:48:04.19\\\] Yeah.
+**Shiya Lou:** \[00:48:04.19\] Yeah.
 
 **Adam Stacoviak:** How did they get around it?
 
@@ -464,7 +464,7 @@ That caused us a lot of trouble in the developer world, because everyone's used 
 
 **Shiya Lou:** Right. I think the language barrier is only an issue in countries that don't use English as the working language. In China, a framework or an open source project like Node is only gonna be popular if it has Chinese documentation and advocates in China. So very luckily for Node, there was a few very early adopters in China who wrote books on Node, and that's what people base their learning and studying from. I see a lot more people reading books than reading online documentations, surprisingly.
 
-**Adam Stacoviak:** \[\\00:51:54.09\\\] Really? Wow... So they actually have an in-hand, physical books, versus online documentation.
+**Adam Stacoviak:** \[00:51:54.09\] Really? Wow... So they actually have an in-hand, physical books, versus online documentation.
 
 **Shiya Lou:** Yes, right.
 
@@ -508,7 +508,7 @@ This message you're sharing about the language barrier, about being able to tap 
 
 **Shiya Lou:** I think for us as a company - Autodesk has a lot of customers and partners in China. However, a lot of the engineering teams are in the U.S., so when they were developing, in the beginning they weren't thinking about these users in China. So if you're not thinking about the China market, it's fine...
 
-**Adam Stacoviak:** \[\\00:56:14.11\\\] That's what I mean. If it's not a part of your business model... Not that it doesn't matter, by any means, but if it's not my focus...
+**Adam Stacoviak:** \[00:56:14.11\] That's what I mean. If it's not a part of your business model... Not that it doesn't matter, by any means, but if it's not my focus...
 
 **Shiya Lou:** Right, yeah. If you already have customers in China, then you should be thinking about them.
 
@@ -548,7 +548,7 @@ So for people like us, or people that aspire to be like us, to have that kind of
 
 **Shiya Lou:** So the best thing to do is always have a server within China, but it is very difficult, actually. For example, AWS just got its license in China, and to deploy on AWS you need to be a registered company in China, and have all your paperwork ready.
 
-**Adam Stacoviak:** \[\\01:00:17.20\\\] A small business is hard enough.
+**Adam Stacoviak:** \[01:00:17.20\] A small business is hard enough.
 
 **Shiya Lou:** Yes, exactly, and it's very difficult to incorporate something in China.
 
@@ -586,7 +586,7 @@ Let's flip it around then, let's talk about China to the outside. Your talk is o
 
 **Shiya Lou:** Yes.
 
-**Adam Stacoviak:** \[\\01:03:57.16\\\] So I guess, since we're talking here, we're at Node Interactive, this series we're doing here is called The Future Of Node JS, talking about the future of Node... For those out there listening, these are people who are either in the ecosystem already, developers in the Node ecosystem, and they want to learn more about the future. What can you share, more from your talk or more from your ideas on the future of Node and where we're going? One thing I mentioned earlier and we didn't get to dive much into, was the NPM of China, basically. How does that play out?
+**Adam Stacoviak:** \[01:03:57.16\] So I guess, since we're talking here, we're at Node Interactive, this series we're doing here is called The Future Of Node JS, talking about the future of Node... For those out there listening, these are people who are either in the ecosystem already, developers in the Node ecosystem, and they want to learn more about the future. What can you share, more from your talk or more from your ideas on the future of Node and where we're going? One thing I mentioned earlier and we didn't get to dive much into, was the NPM of China, basically. How does that play out?
 
 **Shiya Lou:** CNPM I think actually stands for private, or company NPM. It actually doesn't stand for China, it stands for Company NPM.
 
@@ -648,7 +648,7 @@ Let's flip it around then, let's talk about China to the outside. Your talk is o
 
 **Adam Stacoviak:** Okay. So for those who are right now in China, listening to this podcast - maybe we've got a hundred people; it's a big country, a lot of people there, maybe it's 10,000 people, I don't know... What do they need to know about CNPM? What do they need to know about this concern you have of the firewall, this concern of the language barrier? What do the developers inside of China need to know?
 
-**Shiya Lou:** \[\\01:08:12.09\\\] Well, I think it's definitely more beneficial to learn English, because you're far ahead of people who have to wait and read Chinese documentation. I think that's actually the bottleneck for developers in China - not being able to be updated so quickly with English documentation.
+**Shiya Lou:** \[01:08:12.09\] Well, I think it's definitely more beneficial to learn English, because you're far ahead of people who have to wait and read Chinese documentation. I think that's actually the bottleneck for developers in China - not being able to be updated so quickly with English documentation.
 
 **Adam Stacoviak:** You need to hear you say that; I wouldn't expect you to say that it'd be just easier to learn English, because it seems like it's part of your culture, your heritage, where you're from, to keep and maintain, rather than to give up.
 

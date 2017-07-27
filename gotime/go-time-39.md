@@ -24,7 +24,7 @@ When you have two passions, it's hard to choose... I think with Splice I was abl
 
 **Brian Ketelsen:** You mentioned Merb a minute ago... It's amusing to be that nearly every guest we have has a background in Ruby in one direction or another. It's so funny to see -- I don't know if migration is the right word, because I don't know if everybody always leaves Ruby, but it's so funny to see the people that we respected and admired in the Ruby community in the Go community again, making waves. It's kind of fun.
 
-**Matt Aimonetti:** \[\\00:04:11.19\\\] Yes, it was great. I remember the first GopherCon, where I ended up seeing a lot of my close friends from the Ruby community that I've known for 10+ years now being around. Not everybody followed Go, and I think that's great. A lot of people also went to Elixir, they went to Node.js, they went to do different things, but I think Go definitely offered an interesting balance, especially in the context of Merb where we were really looking for performance, and we were looking for a certain way of writing code. That's something that we really found in Go.
+**Matt Aimonetti:** \[00:04:11.19\] Yes, it was great. I remember the first GopherCon, where I ended up seeing a lot of my close friends from the Ruby community that I've known for 10+ years now being around. Not everybody followed Go, and I think that's great. A lot of people also went to Elixir, they went to Node.js, they went to do different things, but I think Go definitely offered an interesting balance, especially in the context of Merb where we were really looking for performance, and we were looking for a certain way of writing code. That's something that we really found in Go.
 
 **Brian Ketelsen:** I loved Merb.
 
@@ -54,7 +54,7 @@ With Ruby, for ten years I was struggling to get people to follow the same guide
 
 When we started Splice, I decided that we would start with an entire layer of APIs and it would only be written in Go.
 
-\[\\00:07:50.16\\\] We started with doing the views in Rails, because it was easier for us at that point. We very quickly ended up with a Rails frontend, talking to a Go API and adding some Javascript on top of it. That did really work out well. We didn't really want to spend too much time trying to scale the Rails layer, so we switched to Angular 1, and now we're on Angular 2.
+\[00:07:50.16\] We started with doing the views in Rails, because it was easier for us at that point. We very quickly ended up with a Rails frontend, talking to a Go API and adding some Javascript on top of it. That did really work out well. We didn't really want to spend too much time trying to scale the Rails layer, so we switched to Angular 1, and now we're on Angular 2.
 
 So our stack is Angular 2 with TypeScript, talking to Go APIs, and then C\# and Objective-C talking to the same Go APIs, and we are rewriting the client and we're doing a lot of Go stuff at the desktop layer. We're tackling things from a different perspective and it's very exciting. I'm really excited to show more of that in the next few months.
 
@@ -74,7 +74,7 @@ We're adding an export to this format. So what we're doing is from the web you c
 
 We were adding - I think it was a request ID or user information on that context, and for some reason we were not cleaning that and we kept on adding more information to it, and it was just growing in memory. I think that's honestly the only problem we've had with Go. When it comes to performance, since the beginning we were very careful to stream all the data, so we don't do any memory allocation.
 
-\[\\00:12:02.21\\\] Our servers run on about 15-20 megs of RAM right now. So even though we're pushing all this data, a single API process doesn't use more than 20 megs of RAM.
+\[00:12:02.21\] Our servers run on about 15-20 megs of RAM right now. So even though we're pushing all this data, a single API process doesn't use more than 20 megs of RAM.
 
 **Erik St. Martin:** Wow.
 
@@ -108,7 +108,7 @@ The fact that we can only focus on design and new features is really freeing us 
 
 **Matt Aimonetti:** That's a good question. I don't think we're looking at it that way. We're not really looking for good developers. We're looking for developers who are interested in solving problems, that have expertise, and will be okay and willing to use Go. That comes from the fight that we started pretty early on... We were one of the first companies fully relying on Go, and it was hard to find people that had experience.
 
-\[\\00:16:02.18\\\] It's kind of a mix, but overall my VP of engineering, Juan Pablo Buritica, is looking at it from a human perspective, like "Is this person a good fit for the company? Will she be challenged by what we're bringing to the table, and will they be able to develop themselves through our technical choices?" And we're trying to make things very clear and explicit, because Go is not for everyone.
+\[00:16:02.18\] It's kind of a mix, but overall my VP of engineering, Juan Pablo Buritica, is looking at it from a human perspective, like "Is this person a good fit for the company? Will she be challenged by what we're bringing to the table, and will they be able to develop themselves through our technical choices?" And we're trying to make things very clear and explicit, because Go is not for everyone.
 
 Recently I sent a tweet and I was asking "What is the first name you encountered when you started using Go, that really prevented you from going forward?" It was interesting to see... I got probably 200 responses and a lot of them were not understanding GOPATH, where you put your files, what do you do with it.
 
@@ -126,13 +126,13 @@ We can see if they jump onto refactoring and abstracting everything into small m
 
 **Erik St. Martin:** So the goal is really just to discuss how they went about things, not necessarily grading their ability in Go, because the assumption is that a lot of people are taking the test; this may be their first foray into using Go.
 
-**Matt Aimonetti:** \[\\00:19:52.29\\\] Yes, absolutely. And even for people who know how to write Go, the test is not designed to see if they can write Go, because we believe we can help them learn that; we believe everybody can learn Go. We also use Go for QA. We have QA engineers who don't really have a great engineering background; they're coming in as QA people with no experience or little experience with programming, and all the QA is done in Go. We use Go as a language that drives web drivers for the frontend and also drive our automation for the clients, and all those tests are written in Go. The reason we do that is because Go being a fast compile language and having good tooling, it's easier for those people to write code that gets checked right away, instead of having to wait until the entire test suite runs. That's something that's been very valuable.
+**Matt Aimonetti:** \[00:19:52.29\] Yes, absolutely. And even for people who know how to write Go, the test is not designed to see if they can write Go, because we believe we can help them learn that; we believe everybody can learn Go. We also use Go for QA. We have QA engineers who don't really have a great engineering background; they're coming in as QA people with no experience or little experience with programming, and all the QA is done in Go. We use Go as a language that drives web drivers for the frontend and also drive our automation for the clients, and all those tests are written in Go. The reason we do that is because Go being a fast compile language and having good tooling, it's easier for those people to write code that gets checked right away, instead of having to wait until the entire test suite runs. That's something that's been very valuable.
 
 We use Visual Studio Code, for instance, with the Go plugin, and as they write, if they make a syntax error, they will see it right away. There's also code completion coming in, and all those different things. So we have experience helping developers learn Go itself. We're not really looking for someone who's already an expert. If we do find someone, that's amazing, but we're looking for people who can solve a problem and who can learn. If you don't know Go, it's actually more exciting for me to do an interview with someone that comes from a different language, and in some cases we tell them "Take the test in your own language, and then we can try to put it together, or we can talk about it that way."
 
 **Erik St. Martin:** That's awesome. So speaking of transitioning people into the language, you wrote an article about it a year ago, "Go is for everyone" - I wanna talk about that a little bit, but before we do that, let's take our sponsor break.
 
-**Break:** \[\\00:21:36.19\\\]
+**Break:** \[00:21:36.19\]
 
 **Erik St. Martin:** Alright, we are back, talking to Matt Aimonetti. Before the sponsored break I mentioned you had written an article about "Go is for everyone", and you kind of talked a little bit about how based on the creators of the language and the early adopters, how we kind of made a great sandbox for all of us who may be experienced programmers to play in, but we need to do a better job of opening it up to more beginners, people who may not have 5+ years of programming experience.
 
@@ -140,7 +140,7 @@ We use Visual Studio Code, for instance, with the Go plugin, and as they write, 
 
 I think Go is actually amazing for people who are starting. I do believe it's an amazing language for people who are learning how to code. Last week you had my friend Ron Evans on the show, and Ron and I love to work on hardware; he's the one who really gets me always the latest toys and gets me to write a bunch of code with my kids, to write robots, and one thing we were talking about is Blockly. Blockly is a project from Google that's kind of like Scratch; it's basically a concept of visual blocks you put together.
 
-\[\\00:23:52.12\\\] What Ron and I were talking about last week was "Hey, what we want to do is do this and export that to Go, so people can learn visually how to code Go." We believe Go is a really good language for people who are just starting, because even though a lot of people recommend languages like Javascript, Ruby or Python to start, those languages are hard because you have so many different ways of doing the same thing, and you also don't have someone that just tells you you're actually doing it wrong here, the syntax is off... And most of the issues you're having when you start programming are related to syntax. Having a compiler that gives you that feedback right away is extremely useful.
+\[00:23:52.12\] What Ron and I were talking about last week was "Hey, what we want to do is do this and export that to Go, so people can learn visually how to code Go." We believe Go is a really good language for people who are just starting, because even though a lot of people recommend languages like Javascript, Ruby or Python to start, those languages are hard because you have so many different ways of doing the same thing, and you also don't have someone that just tells you you're actually doing it wrong here, the syntax is off... And most of the issues you're having when you start programming are related to syntax. Having a compiler that gives you that feedback right away is extremely useful.
 
 **Erik St. Martin:** Yeah, I'd agree dynamic languages -- we talk about how easy they are, but there's a lot of knowledge to just setup, and then runtime issues, things that should have been caught by a compiler but aren't, and they're caught at runtime and it confuses people.
 
@@ -154,7 +154,7 @@ Focusing always on concurrency to me is a bit of a mistake. It's true that for a
 
 **Carlisia Pinto:** I couldn't agree with that more. I wanna say that you did a really good job with that blog post on Medium entitled "Go is for everyone", and I think you're completely right. I didn't come to Go at the very beginning; when I came I think it was very stable already, and my impression is that the language is very simple, the syntax is very simple. The set of keywords is so small... It's very easy to learn, and even to memorize those keywords, so it's easy to use.
 
-\[\\00:27:59.02\\\] I completely agree with you, you can write back-to-back programs without using concurrency. You can even ignore interfaces, you get totally functional programs without using interfaces. So you can use just the basics of Go to write completely functional programs, and then as you develop more, you can start incorporating those more advanced features.
+\[00:27:59.02\] I completely agree with you, you can write back-to-back programs without using concurrency. You can even ignore interfaces, you get totally functional programs without using interfaces. So you can use just the basics of Go to write completely functional programs, and then as you develop more, you can start incorporating those more advanced features.
 
 **Matt Aimonetti:** Yeah, and to be fair, looking at the code we have in production, I think last time I checked we had like 450-500 web services, endpoints. Most of them are extremely simple, in the sense of there's not much complexity. There are a few places where we do use interfaces like the abstraction around storage and a few things like that, but most of the code we write on a day-to-day basis has to be simple. When we do go through the code review process - we do a mix of pairing, which we don't do too much, we only do it when it's a hard problem, but everything gets reviewed by at least two people within the company. When you go through that, everybody is focusing on "Is it clear code? Is it simple for anybody to understand it? Is it following the normal conventions?" and that usually means "Don't do anything complicated." Every time we see someone using a goroutine we question "Why are you doing that? Maybe there's a better way."
 
@@ -172,7 +172,7 @@ What I'm trying to do is start building a set of libraries that can be used for 
 
 To give you a preview of what we're working on, I wrote a demo synthesizer that connects to your audio software - like Logic or Live - in Go. We did use a bit of cgo to do the bridge, but the synthesizer works very well. I didn't really hit any of the limitations of the language due to the garbage collector; there's a buffer you process, and Go is really giving you a lot of tools.
 
-\[\\00:32:01.03\\\] It gets a bit tricky because of the typing. In audio, basically every single sample -- if you take a sound... Let's say I sing a word, and within this word, within one second, when you do a recording, you will take a sample of the volume, the amplitude of the sound every x amount of microseconds or milliseconds. In the case of CD quality, you will do that 44,000 times per second. Now, each sample gets represented as an integer or as a float. The problem is the depth of the samples or the range of the samples will depend on how you do it. So you might end up having a file that was recorded at 44,000, 16-bit and you might need to play it at 48, or you might have stereo and mono, and now you have to actually transcode all those things between those different values. Go doesn't make it easy for us to have an interface that allows us to say "Okay, I'm writing this equalizer and I would accept any type of numbers."
+\[00:32:01.03\] It gets a bit tricky because of the typing. In audio, basically every single sample -- if you take a sound... Let's say I sing a word, and within this word, within one second, when you do a recording, you will take a sample of the volume, the amplitude of the sound every x amount of microseconds or milliseconds. In the case of CD quality, you will do that 44,000 times per second. Now, each sample gets represented as an integer or as a float. The problem is the depth of the samples or the range of the samples will depend on how you do it. So you might end up having a file that was recorded at 44,000, 16-bit and you might need to play it at 48, or you might have stereo and mono, and now you have to actually transcode all those things between those different values. Go doesn't make it easy for us to have an interface that allows us to say "Okay, I'm writing this equalizer and I would accept any type of numbers."
 
 Those are some of the challenges, and what I've been trying to work on with a small group of passionate people is can we create some sort of interfaces - and not just in the sense of Go interfaces, but layers of code, of abstraction that allows us to write a bunch of things and chain them together in a way that would be both idiomatic and very efficient for programmers.
 
@@ -194,7 +194,7 @@ We have more than a million samples - I think that we're coming close to two mil
 
 **Matt Aimonetti:** Yeah, so it gets interesting, because the advantage of Go in my case is you can actually multiplex the work by having different goroutines take different parts of the work, if it can be parallelized. The challenge really, from what I've seen, is getting the right performance, and the type conversion has been costly, and then the tooling is missing. So that's why I'm writing all these basic libraries... I wrote a wav encoder and decoder, I wrote an aif encoder and decoder, and I'm writing those transforms that you do, like the low-pass filter - all those different things that are not really hard to write, but they don't exist. And when you have to do everything from scratch, it's a lot of work.
 
-\[\\00:36:16.23\\\] The encoding of a wav file, for instance, \[unintelligible 00:36:19.07\] between 16-bit and 24-bit is actually very different, and you need to be able to support it. Most people just want to play with it and they will just care about 16-bit, but if you want to do something serious, you need to be able to handle 24 and 32, which means that someone has to write and someone release it, and when you don't have anything in the standard library and when you don't have any tools or any libraries, you don't end up using the language.
+\[00:36:16.23\] The encoding of a wav file, for instance, \[unintelligible 00:36:19.07\] between 16-bit and 24-bit is actually very different, and you need to be able to support it. Most people just want to play with it and they will just care about 16-bit, but if you want to do something serious, you need to be able to handle 24 and 32, which means that someone has to write and someone release it, and when you don't have anything in the standard library and when you don't have any tools or any libraries, you don't end up using the language.
 
 So while I don't think Go is ready yet to be able to write any multimedia stuff from scratch, if your scope is limited and if you want to really understand things, it's a great way. For me, a lot of the C libraries I've been using for years are black box, I don't really understand them, and going through this process forces me to go deeper in the format, and that's something I enjoy and I do that in my free time most of the time.
 
@@ -208,7 +208,7 @@ People have been doing audio and video processing in C and C++ for probably as l
 
 Going back to my blog post about "Go is for everyone", I think it's time for the Go team to kind of let go a bit more, and give more freedom for people to work on the side of the language. I know there are some discussions... We had long discussions on different issues \[unintelligible 00:39:46.05\] I would love to have people who come and are interested in media processing, and they want to do audio and video. We already have a good package for images, but what if we were doing something for other formats? I don't expect that to be the main use case for Go, but I love being able to play with my Raspberry Pi and do image processing on it.
 
-\[\\00:40:08.26\\\] I would love to be able to do very basic things related to audio and video in Go too, so I don't have to go back to C for those kinds of things. But we need people to come in and say, "Oh, I'm interested... I'm gonna learn those things, and it might not be perfect, but I'm gonna contribute something."
+\[00:40:08.26\] I would love to be able to do very basic things related to audio and video in Go too, so I don't have to go back to C for those kinds of things. But we need people to come in and say, "Oh, I'm interested... I'm gonna learn those things, and it might not be perfect, but I'm gonna contribute something."
 
 I see your question on the GoTimeFM about onset detection and a lot of the music analysis tools that might be available for Go... And no, there are not a lot of really good tools yet, but they also don't exist in other languages, to be honest. They do exist in C, and some of them exist in Python, and they are not really performant. What's interesting is to learn those things and pour them into Go and understand how they fit the automatic way.
 
@@ -226,7 +226,7 @@ I was really questioning a lot of things and I was losing hope, and going to pri
 
 You see those people that didn't have the chance to be successful, they didn't have the chances I had, they are not privileged like I am... They end up in jail and they're so motivated, they're so excited about what they're gonna do, and they're so happy that I just spend a bit of my time to come see them... I realize it was really unfair for me to give up hope.
 
-\[\\00:44:02.11\\\] When I see people who have been screwed by the system and are still stuck, and they dream to be able to go out and build a donut shop, and a project of cleaning up hospitals - all those different ideas, and they're so motivated to do it, and they're so prepared... They're often more prepared than a lot of other entrepreneurs I work with, and they're sometimes more prepared than me.
+\[00:44:02.11\] When I see people who have been screwed by the system and are still stuck, and they dream to be able to go out and build a donut shop, and a project of cleaning up hospitals - all those different ideas, and they're so motivated to do it, and they're so prepared... They're often more prepared than a lot of other entrepreneurs I work with, and they're sometimes more prepared than me.
 
 Seeing that they were so kind and compassionate with other inmates, other EITs - that was something I did not expect. You take any engineers, you take any VCs or any entrepreneurs, you put them in a room and you tell "Okay, we're gonna do a contest, and whoever wins, wins the prize", I can tell you it's not gonna go very well. You're gonna hear a lot of comments, and things that are unfair. These guys were amazing; they were supporting each other. I didn't see people making comments or faces, and it was like "Wow... If these guys can really believe in what they believe in, and I have everything on my side... There's no reason I cannot be hopeful, even though I still don't like the situation we live in, but I can help as much as I can, and I can also look at it from a more positive perspective, so I can help more people by being positive.
 
@@ -242,7 +242,7 @@ It's also the fact that it's very clear when you go to prison that the system is
 
 Anybody can go...They have different levels. It can be just like helping them practice their pitch or coaching... They teach programming to people who are interested in learning how to program. But it's extremely hard... What I realized going to prison - I knew it would be hard and everything else, but they have no access to internet, ever. No access. If you want to learn how to program without internet, it's actually really, really hard. It's only with books. You also have no coffee, which... I should have thought about that, but there is no coffee, ever, in prison. That's something that surprised me a little bit, and makes a lot of sense. But imagine a programmer without internet and coffee, trying to be better. That doesn't really help.
 
-\[\\00:48:24.08\\\] So if you can find some of your time... And this is not about going and saving those poor people in jail, this is about you learning a lot about yourself, and also giving them a chance that maybe you got from someone else when you were a kid.
+\[00:48:24.08\] So if you can find some of your time... And this is not about going and saving those poor people in jail, this is about you learning a lot about yourself, and also giving them a chance that maybe you got from someone else when you were a kid.
 
 **Brian Ketelsen:** That sounds like an amazing program.
 
@@ -264,7 +264,7 @@ We had a lot of white people that were there, and they were asked "When was the 
 
 This is how the system is really broken. And again, Netflix has a really great documentary called 13th, that explains a lot of that. We need to accept that's the way our system is; we need to change it, but it will take some time. In the meantime, you have a choice to do something wherever you are, and I think that's what's important. I think as programmers we live in a world of abstraction, and even here, we say we're at the same table and we're having a discussion, but we're not. Going through this prison experience and not having a cell phone for 12 hours, and being with people where they tell me... I don't remember the last time I had such a deep conversation with someone... It's insane. I'm a parent, I'm married, I have kids... I realize now it's probably been ten years since I had a deep relationship with people without thinking about all the things that came through my phone, my computer, my schedule...
 
-\[\\00:52:06.23\\\] We're losing that, and as engineers I think we're even more disconnected, because we add even more abstraction layers to things. That's why it's so hard to work with other engineers, because we know how to deal with code, but the communication and the social aspect is not being taught, and often it's not even being valued within our own community. I sound a little bit preachy on that one, sorry about that.
+\[00:52:06.23\] We're losing that, and as engineers I think we're even more disconnected, because we add even more abstraction layers to things. That's why it's so hard to work with other engineers, because we know how to deal with code, but the communication and the social aspect is not being taught, and often it's not even being valued within our own community. I sound a little bit preachy on that one, sorry about that.
 
 **Brian Ketelsen:** No, preach it. Everybody's just agreeing in silence.
 
@@ -290,7 +290,7 @@ I think you might want to bring that up to the different people, to do it... We 
 
 **Matt Aimonetti:** What is it? Can you tell us more?
 
-**Brian Ketelsen:** \[\\00:55:55.11\\\] The Great American Teach-In. I don't know if they do it everywhere, but in the schools around here in Florida they invite parents to come in and teach classes for the day about the things you do at work. Last year I brought in a AR.Drone and we programmed it with Gobot, and the kids (second grade kids) programmed it to fly around the room and then stop in the center of the room. They were just blown away, they were amazed by the fact that they could control this drone with their own typing. It's really fun, it's a great program for kids to get experience in things that they might not normally see.
+**Brian Ketelsen:** \[00:55:55.11\] The Great American Teach-In. I don't know if they do it everywhere, but in the schools around here in Florida they invite parents to come in and teach classes for the day about the things you do at work. Last year I brought in a AR.Drone and we programmed it with Gobot, and the kids (second grade kids) programmed it to fly around the room and then stop in the center of the room. They were just blown away, they were amazed by the fact that they could control this drone with their own typing. It's really fun, it's a great program for kids to get experience in things that they might not normally see.
 
 **Matt Aimonetti:** That sounds awesome.
 
@@ -352,7 +352,7 @@ I saw the coolest video -- I think I saw it on Twitter... It's by Scott Lobdell.
 
 **Brian Ketelsen:** That may be it...
 
-**Erik St. Martin:** \[\\00:59:45.14\\\] I think the purpose of it is really just to have a trimmed down operating system for the Raspberry Pi that only runs Go applications. I think they're marketing it as a security thing, just because of the nature of buffer overflows and things like that in C.
+**Erik St. Martin:** \[00:59:45.14\] I think the purpose of it is really just to have a trimmed down operating system for the Raspberry Pi that only runs Go applications. I think they're marketing it as a security thing, just because of the nature of buffer overflows and things like that in C.
 
 **Matt Aimonetti:** Right. It looks like they also have a web interface on top of it, so instead of doing system calls, we can make HTTP calls.
 
@@ -392,7 +392,7 @@ This tool is called Retool, at TwitchTV GitHub, and it allows you to vendor basi
 
 **Matt Aimonetti:** I think they're doing some of it, yeah. And I think -- it might not be Comcast... There was another company who actually wrote an mpeg for a decoder in Go. I will have to find it and I'll send it to you guys once I find it.
 
-\[\\01:03:48.18\\\] I know when we discuss about video stuff, there was another company doing video processing in Go. It was pretty basic, but it looks like some other companies are working on it, too.
+\[01:03:48.18\] I know when we discuss about video stuff, there was another company doing video processing in Go. It was pretty basic, but it looks like some other companies are working on it, too.
 
 **Brian Ketelsen:** Nice.
 
@@ -428,7 +428,7 @@ I didn't really know she was the only one working on it until I contacted them a
 
 **Brian Ketelsen:** It's interesting that you bring that up, because I got sucked down this rabbit hole last night - as I often do - and I was playing with writing my own editor for Go, and I ended up on the Monaco editor open source page where I found -- I think it was your issue about Go language server support from Sourcegraph for Visual Studio Code. And then I thought, "Oh, that's right, I haven't really looked at that Go language server yet." So the next you know I'm cloning it, and the next thing you know I'm thinking about how to add auto-completion, and thinking about a pull request... An hour or two later I had a pretty decent Go editor built in a web browser. I do that sometimes, I get caught up in those rabbit holes... But yeah, that yak just kept growing hair.
 
-**Matt Aimonetti:** \[\\01:08:06.16\\\] Yeah, speaking of which, really quickly... Sourcegraph released a small package/binary that lets you do code completion and reference is much faster. That was integrated for Mac with VS Code beyond a feature flag. Big shout out to them too, because it's a lot of work they made available to a lot of us.
+**Matt Aimonetti:** \[01:08:06.16\] Yeah, speaking of which, really quickly... Sourcegraph released a small package/binary that lets you do code completion and reference is much faster. That was integrated for Mac with VS Code beyond a feature flag. Big shout out to them too, because it's a lot of work they made available to a lot of us.
 
 **Brian Ketelsen:** That concept of a language server is pretty impressive... Language Server Protocol, LSP. I have a feeling that it's going to revolutionize IDEs in general; I can't wait.
 
@@ -468,7 +468,7 @@ If you want to help with the code, it's TypeScript, which looks a lot like Go; i
 
 **Brian Ketelsen:** Yeah, it's really worth it. And with the Vim bindings, it's fine... Although the biggest problem I have with the Vim bindings is that there are a dozen different Vim bindings and all of them are incomplete in one way or another, so that's a little bit frustrating.
 
-**Erik St. Martin:** \[\\01:11:50.25\\\] Alright, so my \#FreeSoftwareFriday is actually going to be React. It's probably changed the way I do frontend stuff. I know you guys use Angular over at Splice... I've used Angular a few times, but one of the things I liked about React is that I don't have to be all in, like Angular has seemed to be in the past for me, where it's kind of like all Angular or no Angular.
+**Erik St. Martin:** \[01:11:50.25\] Alright, so my \#FreeSoftwareFriday is actually going to be React. It's probably changed the way I do frontend stuff. I know you guys use Angular over at Splice... I've used Angular a few times, but one of the things I liked about React is that I don't have to be all in, like Angular has seemed to be in the past for me, where it's kind of like all Angular or no Angular.
 
 It really, definitely changed the way I do web stuff. Web stuff felt a lot harder coming in from Rails, where we were used to the templating, and things like that, that existed. Now doing just kind of a JSON API to React makes doing web-based things ridiculously easy.
 

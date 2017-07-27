@@ -34,7 +34,7 @@ Today on the show we have myself, Erik St. Martin, Carlisia Pinto is also here. 
 
 **Erik St. Martin:** Is everybody using Puma now? I think that's the thing now.
 
-**Charity Majors:** \[\\00:04:02.29\\\] Using what?
+**Charity Majors:** \[00:04:02.29\] Using what?
 
 **Brian Ketelsen:** Everybody's using Go now. Nobody's using Puma anymore, they're using Go.
 
@@ -70,7 +70,7 @@ So I don't even know that I would have made a different decision that they did i
 
 It is very much the same at Honeycomb. You're gonna \[unintelligible 00:08:13.01\] it's great.
 
-**Erik St. Martin:** \[\\00:08:17.12\\\] Yeah, I mean... I guess the motivation for containers could be orchestration, too. If you have a large cluster...
+**Erik St. Martin:** \[00:08:17.12\] Yeah, I mean... I guess the motivation for containers could be orchestration, too. If you have a large cluster...
 
 **Charity Majors:** Yeah, if you have enough to justify schedulers, yes. But almost nobody does, and it's self-inflicted damage when they try.
 
@@ -98,7 +98,7 @@ It is very much the same at Honeycomb. You're gonna \[unintelligible 00:08:13.01
 
 **Brian Ketelsen:** There are definitely benefits to containers, especially in the development environment. There are certainly times where doing things on a Mac is just nowhere near as easy as doing it in Linux, so I'm all over the development environment Linux thing. But I agree, especially with Go, that there is less incentive to use a container in production. If you've got a Go binary on a server, you don't need to run 30 of them, because one Go binary will operate just as well as 30 will; in fact, better. So it's not a scaling issue, it's not bin-packing and filling your servers with processes; Go handles that nicely with GOMAXPROCS - it's all done for you by the runtime.
 
-**Erik St. Martin:** \[\\00:12:12.09\\\] I mean, you get process isolation and stuff like that too, where you can control using CGroups how much resources it can consume, namespaces - you can kind of isolate processes from each other, if your project has those sorts of needs.
+**Erik St. Martin:** \[00:12:12.09\] I mean, you get process isolation and stuff like that too, where you can control using CGroups how much resources it can consume, namespaces - you can kind of isolate processes from each other, if your project has those sorts of needs.
 
 **Charity Majors:** Yes, absolutely, but you're adding complexity, so that's the tradeoff. I don't know if you've seen... JessiTron has this great blog post about where it's okay to experiment and add complexity... Because you don't wanna take people's playfulness away from them. We all do tech because we love it, and clamping down on everything is just gonna make people quit and go. So she has this great blog post where she has a heat map. She's like, "This is your playground, it's your developer environment. And there's developer tools for everyone. This is where we introduce new things and where we get 80% of the obvious bugs out...", and it's like this whole progression down to the things that you are conservative with where you don't introduce things until they've been vetted and tested, and that's databases and operating systems.
 
@@ -116,7 +116,7 @@ So let's talk a little bit about what's going on at Honeycomb, what all of you a
 
 **Charity Majors:** Yeah, absolutely. I'll tell you what Honeycomb is, because it's less Facebooky. We accept JSON at the edge \[unintelligible 00:15:39.02\] set up key-value pairs. We aggregate in real-time on all of those dimensions at once, so there's no indexes. You don't have to pick the three or four or five things that you wanna be able to search on; you can search on any key as soon as you drop it in. And if you wanna stop sending it, there's no schemas. We're dropping key-value pairs, we aggregate on them and then you can just explore; you can just slice and dice any of the dimensions, any combination, add one...
 
-\[\\00:16:10.07\\\] We pre-compute things like percentile buckets, \[unintelligible 00:16:13.00\] are always there... Having that raw, original row, like getting to deal with events while you're debugging is mind-blowing. It's so impossible to go back to aggregates or rollups or ticks or counters after that. On the backend we had to write our own column store in Go...
+\[00:16:10.07\] We pre-compute things like percentile buckets, \[unintelligible 00:16:13.00\] are always there... Having that raw, original row, like getting to deal with events while you're debugging is mind-blowing. It's so impossible to go back to aggregates or rollups or ticks or counters after that. On the backend we had to write our own column store in Go...
 
 **Brian Ketelsen:** You got to rewrite Cassandra?
 
@@ -134,7 +134,7 @@ The problem - with our tool what you can do is add up all of the time that each 
 
 **Brian Ketelsen:** ...and then use that to correlate and discover problems or maybe predict problems before they come - that's the idea behind Honeycomb, that it's kind of the central store for all of the information, all events that are going on and help you debug?
 
-**Charity Majors:** \[\\00:20:07.12\\\] Yeah, it's so easy to just capture events from everywhere. Why do we have a different thing that software engineers are supposed to look at - a different thing than DBAs look at... All this does is it creates these barriers of language and of tooling and of use of reality. You don't have a common language to talk about.
+**Charity Majors:** \[00:20:07.12\] Yeah, it's so easy to just capture events from everywhere. Why do we have a different thing that software engineers are supposed to look at - a different thing than DBAs look at... All this does is it creates these barriers of language and of tooling and of use of reality. You don't have a common language to talk about.
 
 People spend so much time talking about what their tools says, versus what somebody else's tool says, and you're not actually even talking about the problems here.
 
@@ -160,7 +160,7 @@ People spend so much time talking about what their tools says, versus what someb
 
 **Erik St. Martin:** So I think it is about time for our first sponsored break. Our first sponsor today is Toptal.
 
-**Break:** \[\\00:22:07.28\\\]
+**Break:** \[00:22:07.28\]
 
 **Erik St. Martin:** And we are back, talking with Charity Majors from Honeycomb. We were just talking about the UI... So that's written in Go?
 
@@ -204,7 +204,7 @@ People spend so much time talking about what their tools says, versus what someb
 
 **Charity Majors:** I know...
 
-**Erik St. Martin:** \[\\00:23:51.06\\\] You'll get it figured out as soon as we end this show, it's good. \[laughter\] That's the way it always works. You'll be trying to think of something during a conversation, and you remember the second the person leaves.
+**Erik St. Martin:** \[00:23:51.06\] You'll get it figured out as soon as we end this show, it's good. \[laughter\] That's the way it always works. You'll be trying to think of something during a conversation, and you remember the second the person leaves.
 
 **Charity Majors:** Obviously...
 
@@ -252,7 +252,7 @@ I think this is an approach that feels a little foreign to ops people, because t
 
 **Charity Majors:** Event-driven instrumentation in Go is easy and fun.
 
-**Brian Ketelsen:** \[\\00:28:06.08\\\] I'm quoting that.
+**Brian Ketelsen:** \[00:28:06.08\] I'm quoting that.
 
 **Erik St. Martin:** This is really cool. I don't know how you do it, Brian. He can sit here and quote people off and drop stuff on Twitter during the show... \[laughter\]
 
@@ -314,7 +314,7 @@ I think this is an approach that feels a little foreign to ops people, because t
 
 **Charity Majors:** Oh, god... Stop... Stop... Stop... \[laughter\]
 
-**Erik St. Martin:** \[\\00:31:54.21\\\] And you have to question, because okay, some amount of collaboration needs to be done, because for a long time development and operations - you tossed it over a wall. You might not have even met the people or ever talked to the people who are going to keep this thing alive in production, just kind of write the code and be like, "Okay, here's some documentation, and go." And security can be the same thing too, where there's not a lot of collaboration in the beginning, just a whole lot of documentation of what you did wrong after. But yeah... Why we need buzzwords for some of these things is beyond me. It's called a team - the team gets together and they collaborate...
+**Erik St. Martin:** \[00:31:54.21\] And you have to question, because okay, some amount of collaboration needs to be done, because for a long time development and operations - you tossed it over a wall. You might not have even met the people or ever talked to the people who are going to keep this thing alive in production, just kind of write the code and be like, "Okay, here's some documentation, and go." And security can be the same thing too, where there's not a lot of collaboration in the beginning, just a whole lot of documentation of what you did wrong after. But yeah... Why we need buzzwords for some of these things is beyond me. It's called a team - the team gets together and they collaborate...
 
 **Charity Majors:** I know, right? We have a common goal that we work towards...
 
@@ -364,7 +364,7 @@ I remember one of the things that frustrated me about being a corporate develope
 
 **Brian Ketelsen:** No. For at least ten years my parents were completely against television, so I've missed a lot. Missed a lot of cultural references that I had to go back later and explore. But boy, did I binge on Knight Rider when it finally came time. And Airwolf, oh my god.
 
-**Erik St. Martin:** \[\\00:36:08.15\\\] Me and TVs have been tight since I was little. I think I was two... I actually have a dimple one cheek, and that's because when I was two I climbed up on the stand where the TV was to turn it on, and pulled the TV over on my face. No broken bones, no torn muscles... A dimple. If you wanna save some plastic surgery money, pull a TV on your face.
+**Erik St. Martin:** \[00:36:08.15\] Me and TVs have been tight since I was little. I think I was two... I actually have a dimple one cheek, and that's because when I was two I climbed up on the stand where the TV was to turn it on, and pulled the TV over on my face. No broken bones, no torn muscles... A dimple. If you wanna save some plastic surgery money, pull a TV on your face.
 
 **Brian Ketelsen:** That's awesome.
 
@@ -438,7 +438,7 @@ And then another cool thing that was released today, I saw Ron Evans of the Hybr
 
 **Brian Ketelsen:** Yes, I did.
 
-**Carlisia Pinto:** \[\\00:39:55.23\\\] So I saw the diff for the changes, and my impression is what they are doing is saying, "We are not going to be enforcers anymore", and they explain why, and it all makes sense. So basically they're going to be sort of like counselors or advisors if a conflict happens in one of the Go official spaces.
+**Carlisia Pinto:** \[00:39:55.23\] So I saw the diff for the changes, and my impression is what they are doing is saying, "We are not going to be enforcers anymore", and they explain why, and it all makes sense. So basically they're going to be sort of like counselors or advisors if a conflict happens in one of the Go official spaces.
 
 What that means to the community is that people who are running communities, meetups or anything like that will have to be more aware or more conscious that they will have to be enforcers. There is nobody else but us to enforce any type of follow up or action that needs to be taken. And hopefully it will never happen, but just in case.
 
@@ -450,7 +450,7 @@ What that means to the community is that people who are running communities, mee
 
 **Erik St. Martin:** Alright. Let's give a shoutout to our second sponsor for today, which is Compose.
 
-**Break:** \[\\00:41:22.10\\\]
+**Break:** \[00:41:22.10\]
 
 **Erik St. Martin:** Alright, we are back. We were going through what's interesting and new in the Go world. Anybody have anything else, or do you guys wanna go on to \#FreeSoftwareFriday?
 
@@ -470,7 +470,7 @@ What that means to the community is that people who are running communities, mee
 
 **Charity Majors:** Yes. We used \[unintelligible 00:43:52.25\] he wrote so many great libraries for Go while we were at Facebook... Faster defer speeds... And Christine is really excited about sort.slice bang-bang. What is that, in 1.8?
 
-**Erik St. Martin:** \[\\00:44:11.02\\\] Yeah, I'm trying to remember...
+**Erik St. Martin:** \[00:44:11.02\] Yeah, I'm trying to remember...
 
 **Brian Ketelsen:** I don't know that one.
 
@@ -508,7 +508,7 @@ What that means to the community is that people who are running communities, mee
 
 **Carlisia Pinto:** I do, too. Go, Brian! \[laughter\]
 
-**Brian Ketelsen:** \[\\00:47:50.21\\\] My \#FreeSoftwareFriday shoutout is to the Eclipse Che project. If you haven't yet seen it, it's a really awesome web-powered IDE with terminal; all of that sounds kind of boring (who wants to write their stuff in the cloud?) but from my perspective, teaching Go, it allows me to use a single Docker container to give each of my students a fully operational Go web IDE and terminal that's self-contained and won't damage my servers, but allows them to have a complete Go environment with the source code for the class in it. One Docker container + Eclipse Che and everybody gets to write Go code without having to worry about installing things, so I really love Eclipse Che today. It makes me happy. Thanks, Eclipse.
+**Brian Ketelsen:** \[00:47:50.21\] My \#FreeSoftwareFriday shoutout is to the Eclipse Che project. If you haven't yet seen it, it's a really awesome web-powered IDE with terminal; all of that sounds kind of boring (who wants to write their stuff in the cloud?) but from my perspective, teaching Go, it allows me to use a single Docker container to give each of my students a fully operational Go web IDE and terminal that's self-contained and won't damage my servers, but allows them to have a complete Go environment with the source code for the class in it. One Docker container + Eclipse Che and everybody gets to write Go code without having to worry about installing things, so I really love Eclipse Che today. It makes me happy. Thanks, Eclipse.
 
 **Erik St. Martin:** Challenge accepted. Now I kind of wanna find a vulnerability in Eclipse Che. \[laughter\] Just because...
 
@@ -556,7 +556,7 @@ Anything that he's written... His giant library stuff over at the Facebook Go - 
 
 **Brian Ketelsen:** Nice.
 
-**Erik St. Martin:** \[\\00:51:56.26\\\] I'm trying to remember what library it was that came out of Facebook Go that we were using all the time. I know there was Grace, which was for the graceful restarting of the service, but I feel like there was another library \[unintelligible 00:52:10.16\]
+**Erik St. Martin:** \[00:51:56.26\] I'm trying to remember what library it was that came out of Facebook Go that we were using all the time. I know there was Grace, which was for the graceful restarting of the service, but I feel like there was another library \[unintelligible 00:52:10.16\]
 
 **Brian Ketelsen:** There was, but I swear it was from Parse, though... It wasn't from Facebook.
 

@@ -2,7 +2,7 @@
 
 We have two sponsors today on the show, Linode and Toptal
 
-**Break:** \[\\00:00:42.19\\\]
+**Break:** \[00:00:42.19\]
 
 **Adam Stacoviak:** Alright Jerod, we're here with David A. Wheeler. Now, the A in the middle there is pretty important, because if you search for David Wheeler, what do you find?
 
@@ -36,7 +36,7 @@ We have two sponsors today on the show, Linode and Toptal
 
 **Jerod Santo:** Very cool. Well as you know as a listener, before we dive into the topics we like to dive into the history of our own guests a little bit, and just hear where you're coming from. So if you had an origin story to tell, could you share it with us?
 
-**David A. Wheeler:** \[\\00:04:04.26\\\] Sure, although my origin story is a little odd in some points... My first computer was actually in my middle school. They had an ancient PDP-8 which had six \[unintelligible 00:04:19.05\] total memory and a literal front panel. But as soon as I got to use that thing I was hooked. I loved computers and have loved them ever since.
+**David A. Wheeler:** \[00:04:04.26\] Sure, although my origin story is a little odd in some points... My first computer was actually in my middle school. They had an ancient PDP-8 which had six \[unintelligible 00:04:19.05\] total memory and a literal front panel. But as soon as I got to use that thing I was hooked. I loved computers and have loved them ever since.
 
 A little later on I ended up with an Apple II and just studied the heck out of it. I think there was probably a time when I could have rebuilt it from transistors, because I thought it was incredibly amazing that you could do this thing called programming. And ever since I've been working very much on anything relating to computers, how can we make software, how can we make software better...
 
@@ -56,7 +56,7 @@ We had all sorts of weird problems making that work, but it was a lot of fun.
 
 **David A. Wheeler:** Oh, absolutely. "Go talk to the bartender" and that sort of thing. Now, the computers that we had at the time were really pathetic we were running these out of an 808-6 with 4.7 MHz running 16 users, so we had to do a lot of tricks. One of the big tricks we did \[unintelligible 00:07:35.29\] some people, the dungeon masters could quietly show up and pretend to be some of the characters, and all of a sudden that bartender had amazing AI. \[laughter\] It only took a few times for people to be very impressed by that. But you could run around, get the monsters, try to find the sharkies to go buy your stuff, who was always getting shot down and moved somewhere else...
 
-\[\\00:08:09.11\\\] People had a lot of fun with that. People still contact me about that. Of course, it's long since obsolete, people moved on, but it was kind of a cool experience at the time.
+\[00:08:09.11\] People had a lot of fun with that. People still contact me about that. Of course, it's long since obsolete, people moved on, but it was kind of a cool experience at the time.
 
 **Adam Stacoviak:** I'm curious about the maintainer side of that. If that's part of your origin story, it's not what you said, it's in what Jerod brought up from your bio, but it's in there for a reason, right? What's it like to maintain that?
 
@@ -76,7 +76,7 @@ We had all sorts of weird problems making that work, but it was a lot of fun.
 
 One thing that immediately became clear is there is no way they can find everything, so they're also interested in some projects that can kind of raise all boats as it were, and that's where this Best Practices Badge comes in.
 
-\[\\00:11:57.22\\\] The idea is hey, there are clearly some practices that are generally accepted as "These are things you should be doing" but it doesn't mean everybody is actually doing them. So can we come up with a list of "Here's the criteria that's generally accepted. This is what open source software projects should do", and then if you actually are doing them, you're getting a little badge. That, of course, helps users figure out "Hey, is my project okay or not? Is this project I depend on in decent shape, doing the basics or not?" And it also helps projects, because most people involved in projects, they wanna do the right stuff. It's not always obvious when you're trying to fix some specific bug, "Oh, wait a minute, you've got a basic problem here with your project." So it kind of helps them also figure out what the basics are.
+\[00:11:57.22\] The idea is hey, there are clearly some practices that are generally accepted as "These are things you should be doing" but it doesn't mean everybody is actually doing them. So can we come up with a list of "Here's the criteria that's generally accepted. This is what open source software projects should do", and then if you actually are doing them, you're getting a little badge. That, of course, helps users figure out "Hey, is my project okay or not? Is this project I depend on in decent shape, doing the basics or not?" And it also helps projects, because most people involved in projects, they wanna do the right stuff. It's not always obvious when you're trying to fix some specific bug, "Oh, wait a minute, you've got a basic problem here with your project." So it kind of helps them also figure out what the basics are.
 
 **Jerod Santo:** When you talked about the Core Infrastructure Initiative you said that they raise funds, and if you look at the homepage there's quite a list of tech companies that are providing funding for this: Amazon, Google, Facebook, IBM, Microsoft... All the big players. And a lot of industry leading security experts as well; you have Bruce Schneier, Dan Kaminsky, Alan Cox and so on and so forth. So are these people paid as advisors, are they employees of this...? I'd just like to know how these things fit together.
 
@@ -92,7 +92,7 @@ When they said, "Hey, who do we know that's really interested and has done a lot
 
 **David A. Wheeler:** It kind of depends on what I'm doing, on the particular projects I'm working on, but let me talk about the two projects for the CII I've been working on. One was the census project. One of the first things they needed to do was figure out "Well wait a minute, who should we send money to?" So I actually whipped up relatively quickly an effort to quantitatively evaluate projects. I'm sure you can appreciate that that's really hard to do, and it's particularly hard with all the different programming languages that exist out there.
 
-\[\\00:16:13.12\\\] So we basically identified some metrics that we could use that would at least give us some indications of risk, scored a whole bunch of projects and helped to identify some of the projects that were really important and had real concerns. I don't think it will be terribly surprising that some of the ones we identified include things like OpenSSL, the Network Time Protocol daemon, and various other things that everybody depends on, they're really important, but for various reasons there are reasons to be concerned about the project.
+\[00:16:13.12\] So we basically identified some metrics that we could use that would at least give us some indications of risk, scored a whole bunch of projects and helped to identify some of the projects that were really important and had real concerns. I don't think it will be terribly surprising that some of the ones we identified include things like OpenSSL, the Network Time Protocol daemon, and various other things that everybody depends on, they're really important, but for various reasons there are reasons to be concerned about the project.
 
 They took that data... Now, that wasn't supposed to just give them the answers, so as to help them make a decision, and that's what they did. That seemed to have been really helpful, and I'm probably gonna go back and do a round two of that thing.
 
@@ -104,9 +104,9 @@ So basically, we came up with drafts and then begged for feedback from lots of f
 
 The show is all about sustainability, community, the business side of open source - all those cool things. So if you're listening and you find that interesting, check out rfc.fm. We'll take a quick break. David, on the other side, I do have a quick question for you, since you've been around for so long in the open source community. You have this term FLOSS and then we have this other term, OSS, and it seems like depending on how long people have been around they may use one, they may use the other... I'd like to get your take on that, but we're gonna take a quick break and we'll talk about that, as well as all the details on the badging program after this.
 
-**Break:** \[\\00:19:22.20\\\]
+**Break:** \[00:19:22.20\]
 
-**Jerod Santo:** \[\\00:20:27.03\\\] Alright, we are back with David A. Wheeler, talking about all things best practices, open source, free/libre open source software... David, I have a question for you about these terms. It seems like it depends when you come into the open source ecosystem; it's kind of a smell or a tell, depending on if you say FLOSS or if you say OSS or open source. I've noticed on your bio you have the FLOSS, and you also mentioned that you've been into it since the '90s. I'm curious about your take on that, and the change in terms, the acronyms, does it really matter...? What does it all mean?
+**Jerod Santo:** \[00:20:27.03\] Alright, we are back with David A. Wheeler, talking about all things best practices, open source, free/libre open source software... David, I have a question for you about these terms. It seems like it depends when you come into the open source ecosystem; it's kind of a smell or a tell, depending on if you say FLOSS or if you say OSS or open source. I've noticed on your bio you have the FLOSS, and you also mentioned that you've been into it since the '90s. I'm curious about your take on that, and the change in terms, the acronyms, does it really matter...? What does it all mean?
 
 **David A. Wheeler:** Well, I'm not sure I can completely answer "What's it all mean?"... \[laughter\]
 
@@ -126,7 +126,7 @@ Most of the times when I'm writing or talking I'm not usually emphasizing the mo
 
 That phrase is often used, trying to cover a waterfront of reasons and motivations. I'm happy to use the phrase 'open source software', I'm happy to use the phrase 'free/libre open source software'. In all cases we're talking about the same set of rights, though people have different motivations for why they do it.
 
-**Jerod Santo:** \[\\00:24:00.03\\\] Yeah. It seems like we have a standard case of 'naming things is hard' and 'operator overloading'... The similar problems we come into when we're actually writing the software is when we're talking about things, and names mean different things to different people, at different times, so you have kind of this stew of different words that we use, and terms.
+**Jerod Santo:** \[00:24:00.03\] Yeah. It seems like we have a standard case of 'naming things is hard' and 'operator overloading'... The similar problems we come into when we're actually writing the software is when we're talking about things, and names mean different things to different people, at different times, so you have kind of this stew of different words that we use, and terms.
 
 **David A. Wheeler:** Right. And of course, it's perfectly okay for people to say, "Here's our particular motivation and here's why" - that's fine. But it makes life complicated when you're trying to talk about something when the motivations behind it are currently what you're focusing on at the moment. Maybe for some other things, but a lot of times when I'm writing it's not the motivations, but the results.
 
@@ -152,7 +152,7 @@ It's interesting for sure, and I think Adam's point perhaps casts it a little bi
 
 **Adam Stacoviak:** I didn't say lame.
 
-**Jerod Santo:** \[\\00:27:49.15\\\] Okay, I threw that one in there. So it's like, people who've come into open source software more recently, they don't have necessarily the history. The term FLOSS is less used nowadays not because it's lame or old, but I think because even the scenario that you just laid out for us may have never been laid out even on the Changelog, and so it's just like a lack of historical knowledge of the terms and their use, so...
+**Jerod Santo:** \[00:27:49.15\] Okay, I threw that one in there. So it's like, people who've come into open source software more recently, they don't have necessarily the history. The term FLOSS is less used nowadays not because it's lame or old, but I think because even the scenario that you just laid out for us may have never been laid out even on the Changelog, and so it's just like a lack of historical knowledge of the terms and their use, so...
 
 **David A. Wheeler:** It's a general problem. People aren't aware of the history of a lot of this stuff. I actually am interested in history, both computer history and general history, and there are reasons things happened in a certain way, and I think it's often helpful to know why that is, because frankly it makes it a lot easier to understand the now when you understand where it came from.
 
@@ -170,7 +170,7 @@ There's a lot of things they aren't doing that they really should be doing", and
 
 We came up with a number of different criteria. There's actually 66 criteria basically, after looking at what people do, and it turns out that the Open SSL folks weren't doing about a third of them; kind of the basic stuff that you were supposed to be doing, they weren't doing, and that lead to, frankly, a lot of problems.
 
-**Jerod Santo:** \[\\00:32:03.10\\\] Give us like a top five. What are some easy ones?
+**Jerod Santo:** \[00:32:03.10\] Give us like a top five. What are some easy ones?
 
 **David A. Wheeler:** I'll tell you what, instead of just... What I can do is if I go to bestpractices.coreinfrastructure.org site, that's basically the web application that has the badging and so on, and "Hey, go there and get yourself a badge." If you do go to the Projects page and look up OpenSSL, you'll find there's actually two entries for it. There's current OpenSSL, and I'm happy to say that they actually have a badge now... But we went back and said, "Hey, what was the status of them?" and one of the members of the OpenSSL team went back and tried to fill in what were they not doing.
 
@@ -196,7 +196,7 @@ Sure, even in a well-run project you can make a mistake that gets out, but these
 
 We have a scoring mechanism... There's a couple criteria which are not actually strictly speaking required. There's Shoulds. You cannot do them, but you have to justify it, or Suggests. Okay, you don't have to do it, but we want you to think about that and make sure you tell us whether or not you actually do those or not. And then basically we score out all your Musts and Shoulds and Suggesteds. If you get a hundred percent, congratulations, you've got a badge.
 
-**Jerod Santo:** \[\\00:36:14.02\\\] Developers love badges. I remember Coderwall was very popular; people like to have little things that show off what they've done. Have you found that to be a significant enough motivation to have people submitting their projects to get a badge?
+**Jerod Santo:** \[00:36:14.02\] Developers love badges. I remember Coderwall was very popular; people like to have little things that show off what they've done. Have you found that to be a significant enough motivation to have people submitting their projects to get a badge?
 
 **David A. Wheeler:** Yes, people have big changes to their projects in order to get a badge. What's sad is that some of the things that people are doing - or you know what, it's not sad; it's kind of the point - are the kinds of things like "Well wait a minute, shouldn't you have done that already?" "Well, yes... But here it is now." People have created test suites, people have ways to implement HTTPS, people have reported "Hey, here's how to report vulnerabilities." By the way, I should note that these are some of the more common problems in getting a badge. They may tell you how to report bugs, but it's not obvious when you want to report a vulnerability if you're supposed to use the same process or not. It's fine if you wanna use the same process, just make it really clear.
 
@@ -238,7 +238,7 @@ Obviously, GitHub isn't required to do that, but we're making sure that they're 
 
 Savannah, which is where a lot of the GNU-based projects - you can pull up a Linux distro, it's gonna have a lot of projects that are actually run off Savannah. Savannah has HTTPS on the project pages, but not on the repos. What?! \[laughter\] So we're talking with them...
 
-\[\\00:40:01.20\\\] I agree with you that for some of this stuff we clearly need to fix it once, but we're actually already pursuing that as well in the process of making the badge and the criteria. We were actually alerted to that by projects themselves; "Hey, we wanna do this."
+\[00:40:01.20\] I agree with you that for some of this stuff we clearly need to fix it once, but we're actually already pursuing that as well in the process of making the badge and the criteria. We were actually alerted to that by projects themselves; "Hey, we wanna do this."
 
 There are ways to do it now, and we're working with projects to make things better for everybody. You can figure out a way to get people to send you private messages - here's an e-mail, here's a little website just for this purpose, whatever. So there are ways we can do it now, and we're working on making it better for everybody.
 
@@ -256,7 +256,7 @@ Another one that's coming is knowing just the basics about secure design and com
 
 **Adam Stacoviak:** Alright, best to take a quick break here. When we come back we have a couple questions, mainly around not so much just the motivations, but also maybe how they maintain. For example, if someone gets to a hundred percent and they get the badge and all that good stuff and they prove they're certified and follow these best practices, I'm curious on the follow-up, the checks and bounces over the years, how that works out. So we'll take this break, and we come back to that.
 
-**Break:** \[\\00:44:21.00\\\]
+**Break:** \[00:44:21.00\]
 
 **Adam Stacoviak:** We're back with David A. Wheeler, and we're talking about this great badge initiative to show off the best practices of core infrastructure out there. Obviously, as an industry we were blindsided by Heartbleed, so something had to be done, and this is obviously a great initiative.
 
@@ -280,7 +280,7 @@ By getting a badge, not only are you showing your users, "Hey, we're on track", 
 
 **Jerod Santo:** Yeah, exactly, those sorts of measures. That's what these badges are for, to give a high-level view of what's going on, or the dependencies \[unintelligible 00:48:00.16\] Ways that you can proxy an idea about quality. I think with this one maybe you can't tell the quality of the project, but you can at least tell how serious they are. If they're not just trying to apply best practices, but they're actually going after... They wanna have a badge that shows off that they're trying to go after best practices. So hopefully we get to a point where it's something that we can look at and say "Okay, this is a +1 for this project."
 
-**David A. Wheeler:** \[\\00:48:24.26\\\] Right, and a lot of these criteria really are about helping you go to the right direction. The challenge, and I'm a big fan of static analyzers and code coverage and so on - they can only tell you the current state. That's not a problem, that's a good thing, but it doesn't mean, for example... I actually talked to an open source project - I'm not sure I should pull them out like this, but it's widely used and there's no issue tracker. They have no idea what problems they need to work with, because they have to keep hunting through the old e-mails in their mailing list, trying to figure out what to do now. That's just sad.
+**David A. Wheeler:** \[00:48:24.26\] Right, and a lot of these criteria really are about helping you go to the right direction. The challenge, and I'm a big fan of static analyzers and code coverage and so on - they can only tell you the current state. That's not a problem, that's a good thing, but it doesn't mean, for example... I actually talked to an open source project - I'm not sure I should pull them out like this, but it's widely used and there's no issue tracker. They have no idea what problems they need to work with, because they have to keep hunting through the old e-mails in their mailing list, trying to figure out what to do now. That's just sad.
 
 We've got version control systems, we've got issue trackers, we've got all these tools... Please, go use them! Your life will be better for it! It's that sort of thing where yes, just following, just doing these certain things doesn't make your code into magic gold, but you can at least avoid some of the crazy problems and help set it on a good path.
 
@@ -298,7 +298,7 @@ The current plan is to do an update of these criteria every year - we're targeti
 
 **Jerod Santo:** I was just gonna ask that.
 
-**David A. Wheeler:** \[\\00:52:03.02\\\] Instead what we focused on - do you have a test framework and are you working on getting better? For some projects actually test coverage is kind of tricky.
+**David A. Wheeler:** \[00:52:03.02\] Instead what we focused on - do you have a test framework and are you working on getting better? For some projects actually test coverage is kind of tricky.
 
 Greg K.H. and I had a lot of interesting conversations. The Linux Kernel folks for example, the interesting problem is that they have a lot of drivers, which practically nobody has the hardware. So it's really, really hard to do coverage testing with real hardware when you don't have the real hardware. And yeah, you can do simulations, but that tests the simulators, not the hardware. So instead what we've really focused on is "Have you started and are you going in the right direction?"
 
@@ -322,7 +322,7 @@ Thing two is, when you get to a certain level of coverage, you start to determin
 
 Now, it's not quite filling in a form, because once you give us the project you're on and the repo you're on, we actually go out and try to fill in some of the form automatically, and even to the point where if we can determine with high probability that in fact something isn't true, we don't care what the human says. It's not true. So in some cases, we will override what the human claims.
 
-\[\\00:56:07.00\\\] That's it, it's fundamentally a form entry. We're using Ruby on Rails, which is a bog-standard and pretty darn common way to implement an application with forms and databases and that sort of thing.
+\[00:56:07.00\] That's it, it's fundamentally a form entry. We're using Ruby on Rails, which is a bog-standard and pretty darn common way to implement an application with forms and databases and that sort of thing.
 
 We have, of course, automated tests, as I've mentioned; it's near a hundred percent coverage. In fact, one of the more interesting things from my vantage point is we wanna make sure that ours is secure, so we actually have on our page a description about how we make sure that the thing is secure.
 
@@ -340,7 +340,7 @@ We wanna get to the point where projects are in great shape and they're ready to
 
 **David A. Wheeler:** Well, if you wanna peek behind, the code for everything is on GitHub, so there is no secret there on what the form is. We actually have a separate page on GitHub with just the criteria, if you wanna see what you'll need to fill in.
 
-\[\\00:59:57.17\\\] A lot of people are like, "Gee, I don't know about the criteria, I'll just click on Get My Badge Now and get started." You don't have to do it instantly, you \[unintelligible 01:00:06.16\] a little bit and say "Oh man, I don't have any tests..."
+\[00:59:57.17\] A lot of people are like, "Gee, I don't know about the criteria, I'll just click on Get My Badge Now and get started." You don't have to do it instantly, you \[unintelligible 01:00:06.16\] a little bit and say "Oh man, I don't have any tests..."
 
 **Adam Stacoviak:** Yeah, that's the point I was trying to get to, being able to see the criteria. You have a great doc in the GitHub repo and you can read that, it's like a blog post, if you just wanna know what it takes before you even fill out the form or get started; just kind of seeing behind the veil, so to say. I wanted to plug your Criteria.md file, because it's extensive, it's got a lot of great information in there, it's very exhaustive, and it's also obviously in Git, so you can contribute back if there's a misspelling or a typo or whatever. You can easily see this information.
 
@@ -358,7 +358,7 @@ Hopefully that will give you at least a... There is room for lots of people to c
 
 **Adam Stacoviak:** Yeah. We'll definitely link up the Criteria.md file because that's interesting to me... Just being able to breeze that on your own, just to look at it. I like how you said if you're not involved on a project and you depend on a project, that as an applicant for a badge who doesn't have the badge or doesn't have tests, then obviously step in or reach out to the maintainer and ask them how you can help to spread the word about this initiative. That makes a lot of sense to me.
 
-\[\\01:04:12.08\\\] One question, David... Since you're a listener of this show, you may know that when we tail off the show we like to ask about somebody who's influenced you. We often call it the programming hero, or just hero in general, and I'm kind of curious who might be your hero, because you were a child of the '80s, you were doing lots of cool stuff way back then, so you've got expansive history of who may have influenced you over the years. If you had to narrow it down to one though, who might be your hero?
+\[01:04:12.08\] One question, David... Since you're a listener of this show, you may know that when we tail off the show we like to ask about somebody who's influenced you. We often call it the programming hero, or just hero in general, and I'm kind of curious who might be your hero, because you were a child of the '80s, you were doing lots of cool stuff way back then, so you've got expansive history of who may have influenced you over the years. If you had to narrow it down to one though, who might be your hero?
 
 **David A. Wheeler:** I've got several I could point to, but if I only am allowed to use one, I guess I'd point out Robert Dewar; some people may not know him... Unfortunately, he died not that long ago, but he's done all sorts of cool things. He was an academic, he did a lot of advocacy for open source software, he started an open source company which is still thriving... But the area that I remember him in specifically is a compiler author; he wrote several interesting compilers. Way back when he actually wrote the GNAT, the gcc-ada compiler. At the time he wrote it, there was this sort of set of "Here's how you do this sort of compiler." \[unintelligible 01:05:32.03\] you've gotta have all these complicated caches, and \[unintelligible 01:05:39.09\] talked to a lot of folks, he worked out a system he kind of blew away the conventional wisdom. Instead of having this complicated caching system that required really a whole lot of complicated, error-prone code to keep straight, he basically threw away all of that, and instead worked very, very carefully on a hand-optimized lexer. It was a pain to make that hand-optimized lexer, but it was a little tiny piece of the compiler, and by optimizing one little piece, he managed to eliminate a huge raft of code, and the whole compiler was much, much, much faster than anything that had been around before.
 

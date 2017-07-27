@@ -1,12 +1,12 @@
 **Adam Stacoviak:** Welcome back everyone, this is The Changelog and I am your host, Adam Stacoviak. This is episode 249, and today we have an awesome show for you, produced in partnership with our friends at OSCON, one of the largest open source conferences out there.
 
-**Break:** \[\\00:00:52.25\\\]
+**Break:** \[00:00:52.25\]
 
 Our guest today is Scott Hanselman, Program Chair of OSCON, host of the podcast Hanselminutes, and advocate for open source inside Microsoft and the Azure Cloud team. We talked about the oldest software he wrote that's still in production, this shift inside of Microsoft to open source and why, as well as ways to make inclusion and diversity a priority in your communities.
 
 Our sponsors today are Linode, Hired and DataDog.
 
-**Break:** \[\\00:01:40.08\\\]
+**Break:** \[00:01:40.08\]
 
 **Adam Stacoviak:** Alright, we're back. We've got another episode for you, this time in partnership with our friends running OSCON, talking to Scott Hanselman. Jerod, what is up, man?
 
@@ -34,7 +34,7 @@ Our sponsors today are Linode, Hired and DataDog.
 
 **Scott Hanselman:** So let's say after the show one of you e-mails me a really amazing question, like "Yeah, Scott, great show. Hey, I have this question" - deep question, and then I'm like "Wow, great question. I would love to answer you, but I don't know you that well, and I'm really not gonna give you the gift of 5,000 of my keystrokes"; I've only got so many keystrokes left before I die, so I'm gonna put those literally anywhere but e-mail. I would put them in a blog post, or a Wiki, or maybe (God forbid) SharePoint, but somewhere where I could put them where there was a URL, and then I'd send you the URL.
 
-\[\\00:04:03.11\\\] So in every interaction in life I would basically think of my blog as being a FAQ, and any ime I did something interesting, or anytime I wanted to google myself later, I would blog about it. If you do that twice a week for 20 years, people will eventually find you organically.
+\[00:04:03.11\] So in every interaction in life I would basically think of my blog as being a FAQ, and any ime I did something interesting, or anytime I wanted to google myself later, I would blog about it. If you do that twice a week for 20 years, people will eventually find you organically.
 
 It's kind of a long-winded answer, but I think it makes the real point that you shouldn't be e-mailing people.
 
@@ -64,7 +64,7 @@ It's kind of a long-winded answer, but I think it makes the real point that you 
 
 That is always a valid viewpoint, so as a former computer science professor, I very much write kind of like 100-200 level content from the point of view of someone who's learning, because I'm not a professional. I'm just an amateur that's been around for 25 years.
 
-**Jerod Santo:** \[\\00:07:52.16\\\] What do you say to the argument about signal versus noise? If you are a beginner, or perhaps even if you're wrong - you don't know it when you're writing, or maybe you're not a good writer... We have this mass of data that we're all pumping out new things every day, and people are trying to find answers and experiences and things that help them along their way... At a certain point are we just adding more noise? Can you actually determine \[unintelligible 00:08:16.23\] as you're writing it?
+**Jerod Santo:** \[00:07:52.16\] What do you say to the argument about signal versus noise? If you are a beginner, or perhaps even if you're wrong - you don't know it when you're writing, or maybe you're not a good writer... We have this mass of data that we're all pumping out new things every day, and people are trying to find answers and experiences and things that help them along their way... At a certain point are we just adding more noise? Can you actually determine \[unintelligible 00:08:16.23\] as you're writing it?
 
 **Scott Hanselman:** I don't think that you can, and I think that right now we do have a bit of a monoculture in that Google is the lens by which most people look at the internet, but PageRank has mostly worked, other than W3School.com, pretty much... \[laughter\]
 
@@ -86,7 +86,7 @@ It seems like - and I know that it's empowering to hear somebody like Scott Hans
 
 Let me give you another example, if you don't mind.
 
-\[\\00:11:41.26\\\] I was at a conference recently called Codeland in New York, which is a really great conference. It's focused entirely on code newbies. It's run by the Code Newbies Organization, you should check them out online. And one young woman spoke to me on the side... We were having a conversation about feeling comfortable in a place, and she was saying how she didn't feel welcomed in tech etc., and how this conference is making her feel very special, even though she had impostor syndrome. And I just wasn't thinking, I just casually said, "Well, welcome. We are the tech community... On behalf of the tech community, welcome! You found your tribe, and we're here for you." She kind of started to tear up and said, "I've been in this community, but no one's ever actually formally welcomed me to it." It was symbolic, it was a throw-away statement, but at the same time it also gives one a sense like "Well, this is my people. The way I do tech is okay."
+\[00:11:41.26\] I was at a conference recently called Codeland in New York, which is a really great conference. It's focused entirely on code newbies. It's run by the Code Newbies Organization, you should check them out online. And one young woman spoke to me on the side... We were having a conversation about feeling comfortable in a place, and she was saying how she didn't feel welcomed in tech etc., and how this conference is making her feel very special, even though she had impostor syndrome. And I just wasn't thinking, I just casually said, "Well, welcome. We are the tech community... On behalf of the tech community, welcome! You found your tribe, and we're here for you." She kind of started to tear up and said, "I've been in this community, but no one's ever actually formally welcomed me to it." It was symbolic, it was a throw-away statement, but at the same time it also gives one a sense like "Well, this is my people. The way I do tech is okay."
 
 So popping off the stack to the original question about declaring to the universe that "Hey, I'm a phony, sure..." I mean, look, I've been in this business for many years now; does my degree from 20 years ago matter that much today? Not really... There's nothing you can do to go and say you belong, so I've just decided to stop being a professional, and I'll just be an amateur who is an avid learner. I'd much rather be an enthusiastic and kind amateur who is learning and improving, than just declare "I am an expert software engineer in all things." So yeah, I'm a phony, I'm a little bit in over my head at all times, but that's where you grow.
 
@@ -104,7 +104,7 @@ So popping off the stack to the original question about declaring to the univers
 
 **Jerod Santo:** Yeah... That actually leads to what I was gonna say, because you've been in the tech community for so long, a tech leader as you said, or perhaps a loud person, you have a career in coding, and yet you still... What today in 2017 - you mentioned Erlang offhand - trips your impostor syndrome even now? What puts you out of your comfort zone?
 
-**Scott Hanselman:** \[\\00:15:51.21\\\] Well, just a couple of days ago I was at a conference in Philly, called Philly Emerging Tech, which is a really very well done conference, and I would think that it's skewed a little advanced, so maybe more of a 200-300 level (even 400), and someone suggested that I go see this amazing talk about free monads. And I sat there for a while, and they were typing, and the person clearly knew their stuff, and they were a very charming and a very dynamic speaker, so the gentleman did a great job... But about ten minutes in I finally just turned to the lady to my right and I said, "What language is this?", because I didn't even know what he was programming in. And she said it was Scala. He was using words like non-descriptive functoid etc., and I just sat there... I just gave up.
+**Scott Hanselman:** \[00:15:51.21\] Well, just a couple of days ago I was at a conference in Philly, called Philly Emerging Tech, which is a really very well done conference, and I would think that it's skewed a little advanced, so maybe more of a 200-300 level (even 400), and someone suggested that I go see this amazing talk about free monads. And I sat there for a while, and they were typing, and the person clearly knew their stuff, and they were a very charming and a very dynamic speaker, so the gentleman did a great job... But about ten minutes in I finally just turned to the lady to my right and I said, "What language is this?", because I didn't even know what he was programming in. And she said it was Scala. He was using words like non-descriptive functoid etc., and I just sat there... I just gave up.
 
 So then I tweeted, "I still don't know what a monad is", and that tweet got like 500 retweets and turned out to a whole conversation, and the conversations were basically -- the replies were twofold... It was either, "Oh, it's just a non-descriptive functoid of a whatever... It's easy", and the other people were like "Yeah, I'm in software 20 years and I still don't know what a monad is." So people were comforted by that.
 
@@ -126,7 +126,7 @@ Ten years ago I worked on \[unintelligible 00:19:40.20\] and Clemens Vasters and
 
 I did another couple of apps before that, but they were Windows 3.1 and it's unlikely that they're still used. But the PalmPilot one, I know for a fact it's still being run.
 
-**Jerod Santo:** \[\\00:20:01.28\\\] That's excellent.
+**Jerod Santo:** \[00:20:01.28\] That's excellent.
 
 **Scott Hanselman:** Yeah...
 
@@ -174,7 +174,7 @@ I wrote that just sitting on the couch while we were watching Lifetime, or somet
 
 **Adam Stacoviak:** Makes sense. Well, we are up to our first break - let's take that, and when we come back, we'll dive a bit more into conferences, what you're doing with OSCON, and a bunch of other fun stuff that we have such great plans to talk about. So we'll take this break and we'll be right back.
 
-**Break:** \[\\00:22:58.26\\\]
+**Break:** \[00:22:58.26\]
 
 **Jerod Santo:** Alright, we are back with Scott Hanselman. Scott, you have a long-storied history inside and outside of Microsoft. One thing I'd love to hear from you is how you manage your time a little bit, because you have this full-time career with Microsoft, you also have all this extra stuff that you've been doing... But we'd like to see where you're coming from as an employee of Microsoft, having all these things on the side, and kind of what's your purview into the software ecosystem.
 
@@ -200,7 +200,7 @@ Scott Guthrie, who's our VP, who was just a regular Joe when I got there, now su
 
 So let's say that you're just like an average Joe or Jane who's going to work at Aflac, or some company that does textboxes over data... And you doing textboxes over data for years, it's very easy to not know what React is, or Angular, or Redux, or whatever... Like, Jenkins came and went... All that kind of stuff just sounds like words, and you're like, "Well, I wish I had time to go to a meetup, but I gotta make this software." My show tries to give them that insight into new tech, new perspectives and new ideas from people they haven't ordinarily heard of, people who aren't on the conference speaking circuit.
 
-\[\\00:28:19.16\\\] Just like when you turn on Fresh Air on NPR and you're like, "Oh, it's that guy from that thing that I'm kind of vaguely familiar with", and then after half an hour you're like, "Wow, Chris Pratt's going places. I didn't know he was beyond just community."
+\[00:28:19.16\] Just like when you turn on Fresh Air on NPR and you're like, "Oh, it's that guy from that thing that I'm kind of vaguely familiar with", and then after half an hour you're like, "Wow, Chris Pratt's going places. I didn't know he was beyond just community."
 
 **Adam Stacoviak:** Right, makes sense.
 
@@ -222,7 +222,7 @@ And audio, as a passive medium, is one that I can do well mowing the lawn, or wo
 
 **Adam Stacoviak:** I remember doing this... This is pre-recent stuff, but back when I was really trying to be an advocate for those who were writing CSS and I wanted them to learn Sass, I was like all over Twitter; Twitter was the proving platform for starting TheSassWay.com, which turned into a community-run blog on GitHub and all that good stuff... But I was relentless about tweeting people, and I would just be watching the Sass keywords. They would be in different languages, and I'd translate it, and then I'd write what I wanna say and translate it back, and I respond and I'm just hoping that Google was right and they didn't make me say anything mean... Because I was that relentless and I was doing something very similar.
 
-\[\\00:32:09.17\\\] And they were like, "Wow, somebody actually is advocating for people to learn this new thing", and it was just a very pure and childlike approach, joy-wise, towards reaching out to people and being inviting. It was pretty cool.
+\[00:32:09.17\] And they were like, "Wow, somebody actually is advocating for people to learn this new thing", and it was just a very pure and childlike approach, joy-wise, towards reaching out to people and being inviting. It was pretty cool.
 
 **Scott Hanselman:** That's good.
 
@@ -244,7 +244,7 @@ It's pushing this rock uphill, until it eventually rolls down the other side, an
 
 For example, at my last company I had executive air cover, 15 years ago, when I introduced continuous integration into your pipeline. That was not a thing. We were using a program called CruiseControl.net, that was like a build server... Introducing unit testing in a build server into a bank is a big deal, and doing that you could ruffle a lot of feathers and upset a lot of people; having executive buy-in, or at least executive air cover, so that when someone gets mad or someone's cheese gets moved, the boss can say "Well yeah, you know, we needed to move your cheese... It was getting old."
 
-**Jerod Santo:** \[\\00:36:18.06\\\] So what were the arguments...? So here's the perspective I'm trying to get, because from where I'm standing and where Adam's standing, we're very much on the indie side, very small -- open source has been in our blood, so to speak, for many years, so we don't see it from the inside of corporations, but we're speaking with many corporations where they're now embracing it. There's inner source, and things moving towards...
+**Jerod Santo:** \[00:36:18.06\] So what were the arguments...? So here's the perspective I'm trying to get, because from where I'm standing and where Adam's standing, we're very much on the indie side, very small -- open source has been in our blood, so to speak, for many years, so we don't see it from the inside of corporations, but we're speaking with many corporations where they're now embracing it. There's inner source, and things moving towards...
 
 **Adam Stacoviak:** Foreign office, even... Open source offices.
 
@@ -270,7 +270,7 @@ So you're going around saying "open source is important", but you're changing yo
 
 So in five years we've blinked and then reality is now a hybrid, and Microsoft's fine with it all. If you don't like it, fine, I don't care. I have an iPhone, but it's also got Word and Excel on it, you know what I mean? That's a whole other kind of idea, but it's not a radical shift in the sense of "Hey, we have Office - that's good. Hey, we're good at code - that's cool." All we're doing is saying "All comers are welcome." So this gets back to the initial thing that we've talked about 40 minutes ago, which is how do you make things as inclusive and welcoming to everyone, whether it be a programming language, a personal language or whatever.
 
-**Adam Stacoviak:** \[\\00:40:20.15\\\] Open source is the way then?
+**Adam Stacoviak:** \[00:40:20.15\] Open source is the way then?
 
 **Scott Hanselman:** I think open source is certainly a gateway drug.
 
@@ -300,7 +300,7 @@ So in five years we've blinked and then reality is now a hybrid, and Microsoft's
 
 **Jerod Santo:** "They're trying to get us to like them again, and we'll never like them..." Just that that person inside me that I don't like very much thinks of it that way, and what's uplifting and I'm happy to hear over the last few years is that it has been more like a thing that happened from the inside out, and as Adam said, it's like a cold that has caught on and now everybody's sneezing... I don't understand these analogies, but..
 
-**Adam Stacoviak:** \[\\00:44:07.29\\\] \[laughs\] Sorry about that.
+**Adam Stacoviak:** \[00:44:07.29\] \[laughs\] Sorry about that.
 
 **Jerod Santo:** The whole company is sick now and we're happy about it? I don't get it.
 
@@ -320,7 +320,7 @@ I've said this before - if Microsoft or my team does something that I can't get 
 
 **Jerod Santo:** I think that's a good stopping point. On the other side of the break we're gonna talk about getting people together in meet space - yes, conferences. Stay tuned for that.
 
-**Break:** \[\\00:45:53.12\\\]
+**Break:** \[00:45:53.12\]
 
 **Jerod Santo:** Alright, we are back with Scott Hanselman.
 
@@ -348,7 +348,7 @@ I've said this before - if Microsoft or my team does something that I can't get 
 
 **Adam Stacoviak:** Yeah, oscon.com, click Register, click Expo Hall Pass, and when you get asked for a coupon code, just pop in "ChangelogHallPass" and you'll get it for free.
 
-**Scott Hanselman:** \[\\00:48:13.00\\\] And they can tweet that, can't they?
+**Scott Hanselman:** \[00:48:13.00\] And they can tweet that, can't they?
 
 **Adam Stacoviak:** Tweet it, share it, blog it, podcast it... Whatever it takes.
 
@@ -372,7 +372,7 @@ You've gotta mix it up, and diversity isn't just about picking a team of good-lo
 
 **Scott Hanselman:** And I think that trying to go and say, "Well, we've got 38% women. That's success" - that's not how it's done. Ask people, talk to people and invite people because their stuff is cool. If you look at my podcast, it's a very inclusive podcast because I am reaching out across the aisle and inviting people, like "We think you're great, let's hear from you."
 
-\[\\00:51:59.18\\\] If they are from an under-represented group, then we, the three white guys on Skype, are lending our privilege; we are lending our privilege to them to lift up their voices, and then... Many of my podcast guests have gone on to do speaking, and books, and keynotes of their own, and I'm happy to just have been a tiny, tiny ramp to lift their voices up, and that's how you put together an inclusive conference, not by asking your black friend if they know anyone.
+\[00:51:59.18\] If they are from an under-represented group, then we, the three white guys on Skype, are lending our privilege; we are lending our privilege to them to lift up their voices, and then... Many of my podcast guests have gone on to do speaking, and books, and keynotes of their own, and I'm happy to just have been a tiny, tiny ramp to lift their voices up, and that's how you put together an inclusive conference, not by asking your black friend if they know anyone.
 
 **Jerod Santo:** So where's the place for the demographic breakdowns, because it seems like there's value there, but is it only perhaps in retrospectives, when you can kind of gauge how you did it, perhaps? I mean, we have corporations that are releasing diversity numbers and we hold them to certain bars, and we look at that and say "Oh, it's on an upward shift, so that's a good thing", and we can all agree that's a good thing, but... Is that the cart before the horse?
 
@@ -400,7 +400,7 @@ I hope I don't sound too preachy, but I just think that we, the white guys, need
 
 My buddy Anil Dash, who is the CEO of Fog Creek, had this experiment he did where for a year he would only retweet women. This is an experiment, and I'm not saying necessarily it's a good thing or a bad thing; it's simply an experiment. What he did is he has half a million followers on Twitter (so he has significant size) and he says "Well, here are some under-represented voices. I will lend my privilege and I will lift up their voices, so as an experiment I will only retweet them." Men might say, "Oh, that really sucks!" I really don't think that Anil's retweet was really the thing that made your business fail, so take a breath... It's okay that he did that, I think it's a great idea...
 
-**Jerod Santo:** \[\\00:56:18.08\\\] \[laughs\] If you're mad about that, you've got too much time on your hands.
+**Jerod Santo:** \[00:56:18.08\] \[laughs\] If you're mad about that, you've got too much time on your hands.
 
 **Scott Hanselman:** Yeah, quit being mad about that; worry about other stuff. So that's a great experiment, because it forced him to go looking for people doing amazing work, but he could find those great women and those great people of color doing cool work, and then look at their follower lists. If you meet a really cool woman or person of color or someone who's not like you in data science (I'm just using that as an example), look at their list of followers. They will have either consciously or unconsciously created a list of their own followers, which are people in their field that make them feel welcome. Then follow those people.
 

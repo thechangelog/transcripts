@@ -22,7 +22,7 @@
 
 **Shiya Lou:** Okay. So I came to the U.S. in 2007, and at that time the Great Firewall wasn't built yet. Everything was open, Facebook was available, Wikipedia was as well, and I logged on to all these websites back home. In about 2008 and onwards, the Great Firewall started getting built, and it's been perfected over the years, and more and more websites -- at first it was just Facebook and Twitter, and then they added Gmail and Google, and a lot of other big websites that you would use in your day-to-day life in the U.S.
 
-\[\\00:03:59.15\\\] That causes us a lot of trouble in the developer world, because everyone's used to use Google CDN or put a Facebook login on your site - that is just never gonna work in China, because the mass majority actually don't have access to these websites. I guess when transitioning from the two worlds, the biggest thing is that you have to change your habits a lot, from googling to like using Bing or Baidu, and you basically kind of lose contact with your friends on Facebook, because it just slows you down a lot more.
+\[00:03:59.15\] That causes us a lot of trouble in the developer world, because everyone's used to use Google CDN or put a Facebook login on your site - that is just never gonna work in China, because the mass majority actually don't have access to these websites. I guess when transitioning from the two worlds, the biggest thing is that you have to change your habits a lot, from googling to like using Bing or Baidu, and you basically kind of lose contact with your friends on Facebook, because it just slows you down a lot more.
 
 **Adam Stacoviak:** So these networks that we're so used to using actually are bubbles.
 
@@ -58,7 +58,7 @@
 
 **Adam Stacoviak:** Right. I was taking notice to something that's near and dear to us here at this conference (Node Interactive). Obviously, around a Node Conference, anybody who is in the Node community knows what NPM is, so seeing CNPM, which is China's NPM -- so you had the language barrier, but then you also have this firewall barrier. Talk about the language barrier first. Clearly, from here to South America there's a language barrier; from here to China, there's a language barrier; from here to Germany as well... So there's a language barrier everywhere. What is your example of experiencing this language barrier?
 
-**Shiya Lou:** \[\\00:08:15.19\\\] Right. I think the language barrier is only an issue in countries that don't use English as the working language. In China, a framework or an open source project like Node is only gonna be popular if it has Chinese documentation and advocates in China. So very luckily for Node, there was a few very early adopters in China who wrote books on Node, and that's what people base their learning and studying from. I see a lot more people reading books than reading online documentations, surprisingly.
+**Shiya Lou:** \[00:08:15.19\] Right. I think the language barrier is only an issue in countries that don't use English as the working language. In China, a framework or an open source project like Node is only gonna be popular if it has Chinese documentation and advocates in China. So very luckily for Node, there was a few very early adopters in China who wrote books on Node, and that's what people base their learning and studying from. I see a lot more people reading books than reading online documentations, surprisingly.
 
 **Adam Stacoviak:** Really? Wow... So they actually have an in-hand, physical books, versus online documentation.
 
@@ -98,7 +98,7 @@ The practice of people getting around these problems are very counter-intuitive 
 
 **Shiya Lou:** Right.
 
-**Adam Stacoviak:** \[\\00:11:54.17\\\] I'm thinking to myself as you're saying that, "Who does that matter most to?" It's almost like when you say accessibility to the web, if I don't have an application that has a lot of users who maybe have accessibility problems - and language is definitely one of them - to me it's like, for developers it totally makes sense that we should have translations; it totally makes sense for O'Reilly to ship a book not only in English but in any other native language where there's a need for it.
+**Adam Stacoviak:** \[00:11:54.17\] I'm thinking to myself as you're saying that, "Who does that matter most to?" It's almost like when you say accessibility to the web, if I don't have an application that has a lot of users who maybe have accessibility problems - and language is definitely one of them - to me it's like, for developers it totally makes sense that we should have translations; it totally makes sense for O'Reilly to ship a book not only in English but in any other native language where there's a need for it.
 
 This message you're sharing about the language barrier, about being able to tap into the large China audience - who does that come up most to? Is it developers? Obviously when someone like Facebook builds what they built, their network, they're gonna think, "Well, we should probably make it as accessible to anybody in the world as we can", but who does that matter most to, this idea you're sharing?
 
@@ -126,7 +126,7 @@ For someone like me, who uses Fastly as our CDN, which is a US-based company, wh
 
 So for people like us, or people that aspire to be like us, to have that kind of focus, with speed and our own CDN, what can they get right, I guess? Using our own CDN, that's obviously helpful, but you've mentioned the speed barrier... What's the speed roughly for outside of the borders? I'm just curious.
 
-**Shiya Lou:** \[\\00:16:02.17\\\] It really depends on the weather.
+**Shiya Lou:** \[00:16:02.17\] It really depends on the weather.
 
 **Adam Stacoviak:** It depends on the weather, okay...
 
@@ -170,7 +170,7 @@ So for people like us, or people that aspire to be like us, to have that kind of
 
 **Adam Stacoviak:** To make it better. That's a good example of having a really good user experience (I'm air quoting); I think Google has a good user experience, but I think that there obviously are some biases where if you compare the results from other engines that you might like those better, but I've always, in a blind taste test so to speak, I've always preferred Google's results, without any styles; not even looking at the page, but just in general, the results I get back seem to be more relevant to me.
 
-\[\\00:20:12.00\\\] Let's flip it around then, let's talk about China to the outside. Your talk is on how China does Node, and I think what you're talking around is what we're been sharing here - the speed issues, the language barriers, educating developers on how to better think about using certain web services to communicate to China or be inclusive of China... What about the flipside? Do we have any issues reaching China's server, reaching China websites...? How does that work?
+\[00:20:12.00\] Let's flip it around then, let's talk about China to the outside. Your talk is on how China does Node, and I think what you're talking around is what we're been sharing here - the speed issues, the language barriers, educating developers on how to better think about using certain web services to communicate to China or be inclusive of China... What about the flipside? Do we have any issues reaching China's server, reaching China websites...? How does that work?
 
 **Shiya Lou:** I have noticed that the services and websites and apps that I use that have all the servers in China are a bit slower outside of China than within.
 
@@ -224,7 +224,7 @@ So for people like us, or people that aspire to be like us, to have that kind of
 
 **Adam Stacoviak:** I'm just kind of curious, if someone from China -- because you still live there? You live in the U.S. now, right?
 
-**Shiya Lou:** \[\\00:24:05.17\\\] I'm still living in China for another month or so.
+**Shiya Lou:** \[00:24:05.17\] I'm still living in China for another month or so.
 
 **Adam Stacoviak:** Okay, gotcha. So would you get in any trouble if someone from China heard you talking like this, or just in general sharing information about how things work?
 

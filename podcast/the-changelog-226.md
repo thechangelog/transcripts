@@ -2,7 +2,7 @@
 
 We have three sponsors today - Code School, Linode and Rollbar.
 
-**Break:** \[\\00:00:48.14\\\]
+**Break:** \[00:00:48.14\]
 
 **Adam Stacoviak:** Alright, we're here with Dave Gandy. Dave is the creator of Font Awesome. I'm riding solo on this show, Jerod is not here today, but Dave, what's up? How are you?
 
@@ -20,7 +20,7 @@ We have three sponsors today - Code School, Linode and Rollbar.
 
 **Dave Gandy:** And there were some other folks that were doing some really interesting things with icons as fonts, but they had some problems around accessibility. I started digging around, continued to grep and complain, and Travis, in his usual fashion, told me to shut up and solve the problem myself. That's where Font Awesome came out of.
 
-**Adam Stacoviak:** \[\\00:03:45.19\\\] Wow. I mean, nothing better than a project like this with the years -- I mean, I know so many people and so many websites that use Font Awesome. That's in and of itself a tribute back to what you've done here. The best thing when you scratch your own itch is you scratch this problem that's like, "This is really bugging me. How do I solve this problem?" So your co-founder/buddy Travis is who pushed you to do it, is that right?
+**Adam Stacoviak:** \[00:03:45.19\] Wow. I mean, nothing better than a project like this with the years -- I mean, I know so many people and so many websites that use Font Awesome. That's in and of itself a tribute back to what you've done here. The best thing when you scratch your own itch is you scratch this problem that's like, "This is really bugging me. How do I solve this problem?" So your co-founder/buddy Travis is who pushed you to do it, is that right?
 
 **Dave Gandy:** Yeah, it's kind of funny how the world works out sometimes... Travis and I actually are childhood best friends, 25+ years.
 
@@ -58,7 +58,7 @@ We have three sponsors today - Code School, Linode and Rollbar.
 
 So Font Awesome sort of just naturally came out of that particular adjustment in my own personal philosophy on life. I think that everyone is a unique and diverse set of strengths. If we will play to those strengths of ours, I think there's so much that gets unlocked by us when that happens.
 
-**Adam Stacoviak:** \[\\00:08:03.22\\\] So take us back - you said you were in college... What's your story there? When did you become or not become a designer, or become or not become a developer? What was the thing that sort of pulled you into this intersection, as you mentioned?
+**Adam Stacoviak:** \[00:08:03.22\] So take us back - you said you were in college... What's your story there? When did you become or not become a designer, or become or not become a developer? What was the thing that sort of pulled you into this intersection, as you mentioned?
 
 **Dave Gandy:** For undergrad at MIT I studied Mechanical Engineering, and I really always gravitated towards product design specifically. I found that the place where I really excelled there was in the common sense, robust approach to engineering, and design is really a lot of that. Design is really thinking about the natural restrictions in the medium, in the people that you're designing for the situation, and trying to really think on behalf of those individuals how to best tackle the problem in the simplest, most robust way possible.
 
@@ -86,7 +86,7 @@ So all of my jobs were in computers at the time, and it just sort of gravitated 
 
 **Dave Gandy:** There's a big path actually even taken through my time at MIT, but I think originally for me... I mean, gosh, I grew up playing with legos when I was five years old. My parents got me the original Lego castle. I just always liked making things, always liked building things. So when it came time to go to college, it was really just about, "Where can I keep doing that? Where can I learn from people that know how to do this? Where can I build?"
 
-\[\\00:11:55.03\\\] I'm the kind of guy that's always been... I've never really enjoyed learning for its own sake, I've always really enjoyed learning for doing's sake. And truth is, when I was in fifth grade I saw a PBS special about these kids at MIT building these robots, and they had this contest to see who can get the most ping-pong balls. That was really the time at which I was just fascinated by that. But as a kid from Missouri, it still wouldn't have been something that I would have even thought of as a possibility at all. I think a lot of times kids don't even realize the possibility and just how attainable so many things actually are, but I was lucky enough I had a couple of teachers who had -- and again, this is in the middle of nowhere in Missouri, but I had a couple of teachers who had kids who went to MIT. I had another teacher who really understood the whole college admissions process, and so what wouldn't have been even possible really came about because of a few relationships in my life.
+\[00:11:55.03\] I'm the kind of guy that's always been... I've never really enjoyed learning for its own sake, I've always really enjoyed learning for doing's sake. And truth is, when I was in fifth grade I saw a PBS special about these kids at MIT building these robots, and they had this contest to see who can get the most ping-pong balls. That was really the time at which I was just fascinated by that. But as a kid from Missouri, it still wouldn't have been something that I would have even thought of as a possibility at all. I think a lot of times kids don't even realize the possibility and just how attainable so many things actually are, but I was lucky enough I had a couple of teachers who had -- and again, this is in the middle of nowhere in Missouri, but I had a couple of teachers who had kids who went to MIT. I had another teacher who really understood the whole college admissions process, and so what wouldn't have been even possible really came about because of a few relationships in my life.
 
 **Adam Stacoviak:** We have similar paths, to a degree. The similarity is not MIT - I didn't go there... But the similarity is definitely a small town and an uphill battle to get to where you're at today, because that's my story. I grew up in -- I don't often tell this on the Changelog, mostly because Jerod and I are together and we're kind of focused on the guest, but in this case we're kind of sharing some stuff here... I grew up in this small town in South-Western Pennsylvania called Maxwell. You probably can't even find that on the map. It just doesn't get there unless you zoom all the way in - that's when it matters, when you're all the way in on the zoom.
 
@@ -106,7 +106,7 @@ Me and Travis, we still get together on a pretty regular basis and still see eac
 
 **Adam Stacoviak:** Help us understand what Font Awesome is. Give us the breakdown there, and from there we'll go into our first break.
 
-**Dave Gandy:** \[\\00:15:59.16\\\] Font Awesome is really a set of icons that everybody needs for their website. It helps you to easily put social media icons, maybe an up arrow, a Home icon or a hamburger menu - it allows you to easily put that on your website and then style them the same way you would style with regular text. Font Awesome is the same size, the same color, the same drop shadow of the text around it, so you already know how to change it and how to style it.
+**Dave Gandy:** \[00:15:59.16\] Font Awesome is really a set of icons that everybody needs for their website. It helps you to easily put social media icons, maybe an up arrow, a Home icon or a hamburger menu - it allows you to easily put that on your website and then style them the same way you would style with regular text. Font Awesome is the same size, the same color, the same drop shadow of the text around it, so you already know how to change it and how to style it.
 
 As a bit of a bonus, it's also vector-based, so no matter how large you make those icons, no matter if you're on retina or not, they'll be perfect.
 
@@ -128,7 +128,7 @@ Between that and retina coming out, we got really lucky in terms of the timing o
 
 **Adam Stacoviak:** That's definitely a good place to break then. We'll come back and talk about that luck, so to speak. So let's break here, and we'll be right back.
 
-**Break:** \[\\00:19:42.06\\\]
+**Break:** \[00:19:42.06\]
 
 **Adam Stacoviak:** Alright, we're back from our break with Dave Gandy, creator of Font Awesome. It's open source, by the way, so you can go to fontawesome.io, check that out. At the top is a link which we haven't really talked about much yet, it's the announcement of Font Awesome 5, specifically the Kickstarter; it's a link to the Kickstarter. We'll talk about that here in a bit.
 
@@ -150,7 +150,7 @@ Let's not go into that yet, but just for the listeners - if you haven't gone to 
 
 Let's talk about Font Awesome specifically, getting to the piece where... What were some of the things that you tried to do that I guess made it to what it is now? Not so much now, but like with the Kickstarter - you're trying to make money, you're turning it into a business of some sort, a money-making product that is also open source and has open source roots. Give me some of the fails and successes, the bloody knuckles along the way. What were some of those things for you?
 
-**Dave Gandy:** \[\\00:23:43.15\\\] A couple years ago Travis and I were working together at a different place, and Font Awesome in those first two years had just continued to grow at a rate that we couldn't really ignore anymore, so we started talking about "Maybe this is a way for us to continue to get to work together." For me a lot of the motivation of starting a company is getting to work with the best people on Earth that I've ever met. I don't just mean professionally, but as human beings, too. I'm unbelievably proud of the team here that we've got at Font Awesome - of Travis Chase, of Rob Madole and Brian Talbot. We have a really stellar and spectacular team, and I think for us that's the foundation of a lot of this - continuing to work with great, spectacular, amazingly talented people. The business is sort of a vehicle for that, truthfully.
+**Dave Gandy:** \[00:23:43.15\] A couple years ago Travis and I were working together at a different place, and Font Awesome in those first two years had just continued to grow at a rate that we couldn't really ignore anymore, so we started talking about "Maybe this is a way for us to continue to get to work together." For me a lot of the motivation of starting a company is getting to work with the best people on Earth that I've ever met. I don't just mean professionally, but as human beings, too. I'm unbelievably proud of the team here that we've got at Font Awesome - of Travis Chase, of Rob Madole and Brian Talbot. We have a really stellar and spectacular team, and I think for us that's the foundation of a lot of this - continuing to work with great, spectacular, amazingly talented people. The business is sort of a vehicle for that, truthfully.
 
 Some of the things that we've tried along the way - we've got what I think is a fantastic service called Fort Awesome. If you actually at the GitHub repo itself, the organization is Fort Awesome and the project is Font Awesome. That was always sort of a play there. Fort Awesome - the name itself comes from an old episode of news radio, a funny little very memorable scene there. Every place I had lived up until that point in life I just referred to as Fort Awesome.
 
@@ -172,7 +172,7 @@ I also think that performance is a huge deal, and just serving the individual ic
 
 **Dave Gandy:** Yes, it is.
 
-**Adam Stacoviak:** \[\\00:28:01.07\\\] So as products, how do they parallel one another?
+**Adam Stacoviak:** \[00:28:01.07\] So as products, how do they parallel one another?
 
 **Dave Gandy:** Yeah, so really Font Awesome and Font Awesome Pro will be individual typefaces in that broader service. The way this is gonna work is for everybody who supports the Kickstarter, if you're also a Fort Awesome customer or you become one, you'll have that entire set automatically added to your library of icon sets, so that you can use all of that to piece it together. You can also upload your own logos, your own individual things that we may not have in the sets or that you wanna be a little bit different.
 
@@ -196,7 +196,7 @@ This was really a way for us to completely blow out the sheer number of icons be
 
 I know you've got - and I don't even know how you deal with this - but you've got 3,700+ issues on your repository, so that's tons. You've got almost 6,000 closed, but what's been the community's impact towards new icons? How does that play?
 
-**Dave Gandy:** \[\\00:31:56.13\\\] As a matter of fact, the community itself is primarily what drives the new icons that we make in every single version. We typically take a look at the most requests icons and we'll just go off the list. The last release we did, there's a handshake icon that's been sitting there for far too long. I'd actually tried to design it on three separate occasions and it's just a really hard icon to design and make it readable in all sizes, but that had about 300 upvotes, and we haven't got to it yet. So a lot of our issues that are really requested by a lot of people, they may only have a hundred upvotes, and we don't have time to get to it.
+**Dave Gandy:** \[00:31:56.13\] As a matter of fact, the community itself is primarily what drives the new icons that we make in every single version. We typically take a look at the most requests icons and we'll just go off the list. The last release we did, there's a handshake icon that's been sitting there for far too long. I'd actually tried to design it on three separate occasions and it's just a really hard icon to design and make it readable in all sizes, but that had about 300 upvotes, and we haven't got to it yet. So a lot of our issues that are really requested by a lot of people, they may only have a hundred upvotes, and we don't have time to get to it.
 
 Another part of the problem that happens when you're completely lead by the community is that you end up with some sort of patchy support. You might have one handshake icon that's not outlined, one that is... You might now have all of the right matching icons in a particular theme, because if you're doing individual requested icons, you sometimes miss that holistic picture.
 
@@ -214,7 +214,7 @@ The new version - for every icon we're gonna have a solid version that's in Font
 
 **Adam Stacoviak:** The reason why I asked about time intensivity is because with this many issues, with this kind of community interaction, with this kind of success built upon open source, the free time from so many people out there giving back to this project, to its success, leading to where it's at - that's a lot of time to do. And I'm thinking how in the world, if you don't find ways to sustain, which is something we always try to come back to, especially when you have a project like this that really requires so much time, not just from you and some other core leaders, but some of the community, as well. How do you get to a point where you can actually keep giving your time without feeling like you've been overburdened, or where you're like, "Man, I've got family, I've got friends, I've got a life, I've got work..." How do you keep giving to this?
 
-\[\\00:36:10.08\\\] I say that to probably get to, hopefully, what might be the next layer for this, which is Font Awesome 5, the Kickstarter, and all the things you're doing to get to the point where you are at right now.
+\[00:36:10.08\] I say that to probably get to, hopefully, what might be the next layer for this, which is Font Awesome 5, the Kickstarter, and all the things you're doing to get to the point where you are at right now.
 
 **Dave Gandy:** Yeah, it is a good bit of work, and there are a lot of people that have been really helpful along the way. One time I noticed on GitHub that there was another guy out there that was just really nicely and politely responding to issues. He was letting them know the expectations we have for contributing guidelines, and just being a really awesome community member. And we asked him, "Hey, do you wanna take on a more official role?", so Jeremiah's the guy that typically handles a lot of the day-to-day issues on the Font Awesome GitHub repo, and I tell you what, that guy is prolific and he is unbelievably appreciated. There's a lot that's gonna go into continuing to keep Font Awesome 5, continue to keep that free version update and excellent.
 
@@ -234,7 +234,7 @@ Now that you're talking about the Kickstarter, let's talk about that. So $20 is 
 
 What that license gives you - originally we were planning on having only a thousand more icons in Font Awesome Pro, and a full SVG framework. This really allows us -- like I said, we've got 21 stretch goal icon packs that have been reached; that's gonna be another 700-800 icons right there. Who knows how many there will be before the end of it...? Every $25,000 that's raised, there's another icon pack. Everybody gets that particular stretch goal, and we've got lots more stretch goals going on, too.
 
-\[\\00:40:06.24\\\] We've got a set of duotone icons. This one's really fun. I've been itching to do this one technically for a while. You can obviously do it with SVG, but you can also do it with icon fonts, as well. Basically, for the top 200 most popular icons in Font Awesome - we've got data from tens of millions of websites, so we actually know which icons people are using most, and we're gonna pick the top 200 of those, and we're gonna separate that out into layers. We're gonna have one layer that's full opacity and one layer that's 50%, so that you basically can continue to get all of the ease of use of Font Awesome where it's the right color, but the other layer's gonna be 50% opacity, so you get this awesome duotone multicolor effect.
+\[00:40:06.24\] We've got a set of duotone icons. This one's really fun. I've been itching to do this one technically for a while. You can obviously do it with SVG, but you can also do it with icon fonts, as well. Basically, for the top 200 most popular icons in Font Awesome - we've got data from tens of millions of websites, so we actually know which icons people are using most, and we're gonna pick the top 200 of those, and we're gonna separate that out into layers. We're gonna have one layer that's full opacity and one layer that's 50%, so that you basically can continue to get all of the ease of use of Font Awesome where it's the right color, but the other layer's gonna be 50% opacity, so you get this awesome duotone multicolor effect.
 
 **Adam Stacoviak:** Yeah, kind of like a layered effect even.
 
@@ -246,7 +246,7 @@ You can also reach within icon style as well... So we've hit so many stretch goa
 
 **Adam Stacoviak:** That's good. I just realized we're getting close to our next break. I wanted to dive deep into Font Awesome 5 and the Kickstarter, but we're gonna have to do that right after this break. We're got two more stretch goals you didn't mention there, so when we come back from that break we'll go into the next two, which is iOS and Android support, and this last one, which is Font Awesome Pro CDN. We'll take this break real quick, we'll come back, we'll dive even further into the Kickstarter, Font Awesome 5 and these two additional stretch goals we haven't covered yet. We'll be right back.
 
-**Break:** \[\\00:42:25.20\\\]
+**Break:** \[00:42:25.20\]
 
 **Adam Stacoviak:** Alright, we're back from the break with Dave. We're talking about Font Awesome 5 and specifically this Kickstarter. I mean, $30,000 as the initial goal... I wanted to ask you, was that a true real goal? Did you really think you'd only do $30,000? This half a million dollars right now with 29 days to go - is that a complete and utter surprise to you and the rest of the team?
 
@@ -262,7 +262,7 @@ Another piece of that is when we meet that goal we're gonna open source that sam
 
 For those that pay for Pro, you're gonna get access to all those extra icons for making your next mobile app.
 
-**Adam Stacoviak:** \[\\00:48:14.26\\\] And the CDN, I noticed that you're also a user of MaxCDN; we love MaxCDN. I think they recently changed their brand to StackPath, so I'm not sure how you're changing your mentions back to that, but we're huge fans of Fastly around here. Our podcast is served by Fast, so a quick mention of that... But what is the CDN? What is this piece here?
+**Adam Stacoviak:** \[00:48:14.26\] And the CDN, I noticed that you're also a user of MaxCDN; we love MaxCDN. I think they recently changed their brand to StackPath, so I'm not sure how you're changing your mentions back to that, but we're huge fans of Fastly around here. Our podcast is served by Fast, so a quick mention of that... But what is the CDN? What is this piece here?
 
 **Dave Gandy:** This really comes out of another project of ours. About 4-5 months ago we launched something that we called Font Awesome CDN. It's completely free, and that bandwidth is all provided for free by MaxCDN. MaxCDN has really been there for us particularly from the very beginning. Justin Dorfman specifically was such a huge champion for developers...
 
@@ -286,7 +286,7 @@ If we reach that goal, we're gonna give everybody access to a year of Font Aweso
 
 **Dave Gandy:** Yeah. I mean, that was really the idea here. We're engineers and we're designers, so the success of this has been really such a fun thing for us, to basically think about all of those problems that we know about and we hear about and have for ages, and now we've got a way to fund a lot of those solutions. That's what's been really fun. Font Awesome Pro CDN I'm particularly excited about.
 
-\[\\00:51:56.21\\\] The icon subsetter is really designed for our real tweakers, our developers there who really have a lot of time to be able to spend on performance. We wanted to do something a little less granular with being able to load just the icon packs. The subsetter, you can choose individual icons; Font Awesome Pro CDN you'll be able to pick the major icon packs, so that even people who may not be able to handle some command line tools very well will still be able to keep their website pretty slim and speedy.
+\[00:51:56.21\] The icon subsetter is really designed for our real tweakers, our developers there who really have a lot of time to be able to spend on performance. We wanted to do something a little less granular with being able to load just the icon packs. The subsetter, you can choose individual icons; Font Awesome Pro CDN you'll be able to pick the major icon packs, so that even people who may not be able to handle some command line tools very well will still be able to keep their website pretty slim and speedy.
 
 **Adam Stacoviak:** Let's talk about this video. I don't know how you did it, I don't know if this was... I wanna know the intentionality behind this thing because this video alone is reason enough to give you $20. I mean, I don't even care if I get Font Awesome, I'm so thankful for the creativity behind this... I wanna know the story.
 
@@ -310,7 +310,7 @@ We were originally looking at Sandwich Video. Sandwich Video - you'll see them o
 
 **Dave Gandy:** Yeah, this particular bakery, which I don't even know how they found this place... I could not imagine a better place to shoot. That's not a set, that's an actual bakery, and it's just gorgeous naturally, and it just on camera so well... It's called Half Baked, and they're in Burbank. The place is just gorgeous.
 
-\[\\00:56:00.19\\\] So I went out there for the weekend, doing the shoot, and in typical low-budget Los Angeles starving actor style, the shoot started at 6 PM and it went until 6 AM. These people there, they're used to it. There were probably 20 people between the actors, the extras, the director of photography... There were just so many people and so much stuff going on, and these guys are so talented and so good, and we had so much fun trying to put as much personality into that script as we could.
+\[00:56:00.19\] So I went out there for the weekend, doing the shoot, and in typical low-budget Los Angeles starving actor style, the shoot started at 6 PM and it went until 6 AM. These people there, they're used to it. There were probably 20 people between the actors, the extras, the director of photography... There were just so many people and so much stuff going on, and these guys are so talented and so good, and we had so much fun trying to put as much personality into that script as we could.
 
 We're huge nerds... Everybody at Font Awesome, we are huge nerds, and we really enjoy just trying to put that in every little corner of everything that we do, and the script and the video is just really kind of an example of that.
 
@@ -328,7 +328,7 @@ When I watched it for the first time, the first thing I said to the Changelog te
 
 I don't know anybody else out there who feels the same way I do, but if you go to the Kickstarter and you see this video, it's by far... I love how it talks about the staleness of version 4, so again it's some negative self-talk, some self-deprecation there... That was three years ago, version 4 kind of got stale. How did it get stale? Well, this and that... And it kind of names all these different things... I think the video is awesome. I'm kind of rambling, but the video is awesome. I love it.
 
-**Dave Gandy:** \[\\00:59:57.00\\\] Thanks. I think the first time that Travis saw an early cut of that video - this was before a whole lot of work was even finished on it - he was nearly in tears. When it was all done, he said "You know what? That video may be the best thing we ever do." At that point I was like "Alright. I think we're doing alright here at this point."
+**Dave Gandy:** \[00:59:57.00\] Thanks. I think the first time that Travis saw an early cut of that video - this was before a whole lot of work was even finished on it - he was nearly in tears. When it was all done, he said "You know what? That video may be the best thing we ever do." At that point I was like "Alright. I think we're doing alright here at this point."
 
 **Adam Stacoviak:** I got one more thing I want to mention, or to talk about in depth, which shouldn't be at the tail end, and I'm sorry that it is, but it's the SVG framework you talked about. But before we go there, I wanna ask you one thing on this front - is the measure of the cost of the video... This is pre-Kickstarter, so this is like "initial investment", so to speak. This is you banking on having to do something capitalistic, your own capital into it, to get to the point where you can actually say "Hey world... Here we are, here's our plan. Come support us." Was it scary to make that choice?
 
@@ -356,7 +356,7 @@ So we wanted to take that same ease of use of Font Awesome and bring it to SVG. 
 
 We'll be getting input from people on the specific issues, on which icon categories we're developing all along the way, so the code for that is gonna be in that same repo.
 
-**Adam Stacoviak:** \[\\01:04:18.06\\\] Earlier you mentioned that you've got a couple more things up your sleeve in terms of stretch goals... Maybe tease us. Can you share some stuff here with the listeners? What's a stretch goal that isn't listed that may be listed? What are some ideas you have?
+**Adam Stacoviak:** \[01:04:18.06\] Earlier you mentioned that you've got a couple more things up your sleeve in terms of stretch goals... Maybe tease us. Can you share some stuff here with the listeners? What's a stretch goal that isn't listed that may be listed? What are some ideas you have?
 
 **Dave Gandy:** The reason that a lot of these aren't listed there yet - and there's a little bit higher dollar value on them - is because they're gonna take a lot of effort for us to do well. We don't typically like to do projects that we can't just phenomenally well... So one of those that I'm really excited about is a community website. It's basically a place where everybody who's a part of Font Awesome can go and interact, help us vote specifically on icons; we can use GitHub to be able to do voting on icons, but it's not the greatest interface.
 
@@ -372,7 +372,7 @@ We also wanna make it easier for people to have access to the latest versions, a
 
 Some of it might be helpful to get the word out about Kickstarter. The more that we are able to do with the Kickstarter, the more that we're able to put back into Font Awesome free and into Font Awesome Pro. That's a huge thing for us.
 
-\[\\01:07:45.00\\\] There are places also where companies can get involved helping out. One of our rewards that we've got on here is folks can get their company logo added into Font Awesome free and Font Awesome Pro. There are really ways for everybody at a lot of different levels to get involved, where they can all give back to the community.
+\[01:07:45.00\] There are places also where companies can get involved helping out. One of our rewards that we've got on here is folks can get their company logo added into Font Awesome free and Font Awesome Pro. There are really ways for everybody at a lot of different levels to get involved, where they can all give back to the community.
 
 **Adam Stacoviak:** I think it's interesting that thing with your logo on Font Awesome free and Pro, because it's a form of marketing, it's a form of support, so it's a form of donation - you give a little, you get a little, so to speak, as a company... Let's say there's a very large company out there, 50 million users using Font Awesome either as a base for the icons they're creating, or just straight up using Font Awesome - this is a way for them to honor the open source piece of this, your time, Travis' time and the rest of the team's time, making this possible, and also the community's time, triaging these issues, supporting the community, helping out, being helpful, writing documentation, caring about accessibility - which is something we didn't get to talk about; we've only got two minutes left, so we can't... We could if we really wanted to, but...
 
@@ -392,7 +392,7 @@ We really tried to make it as simple as possible. I think a lot of the times the
 
 **Dave Gandy:** Yeah, that was another piece of 4.6. Now we've actually got a full set of accessibility-specific icons to represent a full gamut of what's needed there, so definitely check those out. That was another thing that we got a lot of feedback from the community on, to make sure we were doing it right.
 
-**Adam Stacoviak:** \[\\01:11:56.03\\\] Very cool. We got to actually a lot of stuff about your history, about Font Awesome's history, about where this is going, the Kickstarter, the video and everything in between, but I may have missed something. If I missed something, this is your chance to share it. What would you like to share with the community before we tail this show?
+**Adam Stacoviak:** \[01:11:56.03\] Very cool. We got to actually a lot of stuff about your history, about Font Awesome's history, about where this is going, the Kickstarter, the video and everything in between, but I may have missed something. If I missed something, this is your chance to share it. What would you like to share with the community before we tail this show?
 
 **Dave Gandy:** I think so much of just a complete and total satisfaction in life comes from the people that you surround yourself with, so I cannot thank enough the team that we've got at Fort Awesome, for Travis Chace, Rob Madole, Brian Talbot - those guys are just spectacular.
 

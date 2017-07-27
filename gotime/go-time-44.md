@@ -260,7 +260,7 @@ But like Brad was saying, if you label something that sounds like beginner level
 
 **Erik St. Martin:** So I think we are a little overtime for our first sponsor break... Let's go ahead and take that. Our first sponsor for today is Toptal.
 
-**Break:** \[\\00:24:30.22\\\]
+**Break:** \[00:24:30.22\]
 
 **Erik St. Martin:** Alright, so we are back, talking to Brad Fitzpatrick. We were talking about Go and contributing before the break, but one thing I wanna lead into is you've always got these cool hobby projects going on... What's something cool you're working on right now?
 
@@ -536,7 +536,7 @@ The summary is -- I imagine if there's a Go 2, it would have generics. I don't t
 
 **Erik St. Martin:** That's interesting. I think we passed up our second sponsor break, so let's go ahead and take that. Our second sponsor for today is DataDog.
 
-**Break:** \[\\00:50:13.06\\\]
+**Break:** \[00:50:13.06\]
 
 **Erik St. Martin:** Alright, so we are back, talking to Brad Fitzpatrick. We were just talking about a vision for Go 2. Did anybody wanna jump into any interesting projects and news they may have seen this past week? I've got a good one that I saw...
 

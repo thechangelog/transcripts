@@ -4,9 +4,9 @@ We talked to Eli today about what TensorFlow is, why it's open source, and the r
 
 We have three sponsors today - Toptal, Linode and DataLayer, a conference organized by our friends at Compose.
 
-**Break:** \[\\00:00:52.18\\\]
+**Break:** \[00:00:52.18\]
 
-**Adam Stacoviak:** \[\\00:02:05\\\] We're back for a great show. This one, Jerod, is in partnership with O'Reilly; we're going to OSCON, it's going to be a blast. OSCON London. In fact, it's not we, it's you. You're going.
+**Adam Stacoviak:** \[00:02:05\] We're back for a great show. This one, Jerod, is in partnership with O'Reilly; we're going to OSCON, it's going to be a blast. OSCON London. In fact, it's not we, it's you. You're going.
 
 **Jerod Santo:** That's right. I'm pretty excited to go to London for OSCON, and just because I've never been to London. It'll be fun.
 
@@ -24,7 +24,7 @@ Actually, before we do that, I want to mention that we have a code. So if you're
 
 **Eli Bixby:** Yeah! I'll be around.
 
-**Adam Stacoviak:** \[\\00:03:57.20\\\] Yeah, let's get back to your tutorial session and your talk. Kind of break down what you're going to be covering there.
+**Adam Stacoviak:** \[00:03:57.20\] Yeah, let's get back to your tutorial session and your talk. Kind of break down what you're going to be covering there.
 
 **Eli Bixby:** The tutorial session, we get a little bit more in-depth. We like to get people… Since it's a tutorial, we like to get people writing TensorFlow code; that's the goal. There's so much hype around it that we don't need to hype it, but there's a big leap from, "Oh yeah, I've read some news articles about TensorFlow" to "I wrote a basic linear regression." That's the goal for that.
 
@@ -46,7 +46,7 @@ From there, there was a need for people to cover this ML stuff within developer 
 
 **Jerod Santo:** You mentioned that you have a partner-in-crime there in dev relations, Amy Unruh, who's going to be with you in OSCON doing those workshops. In the pre-call you mentioned something funny about Amy - she was in research, in a university-style environment, thinking that she wasn't going to be relevant to industry, and all of a sudden this machine learning, and all these things that just were the area of research and development, all of a sudden are very relevant to many people. Can you expand on that for us?
 
-**Eli Bixby:** \[\\00:08:01.11\\\] Yes. Amy has a PhD from Stanford in A.I. related things, and sort of joking that it's all suddenly relevant again. This idea of deep learning is based around… In the ‘80s they were called perceptrons, but it's based around this really old idea of, "Let's build a very high-level abstraction of a human brain, and maybe we can teach it things." Then it kind of fizzled out because it turned out that "No, we can't teach it things." But then it's like, "Actually it turns out we just need a few hundred thousand more of these perceptrons, or a couple million more of these perceptrons, and we can teach it things." That's obviously been enabled by hardware. They couldn't do that; it wasn't a failure of academia necessarily, it's just that they couldn't do it in the ‘80s, and now we can. All of this research is now suddenly relevant and there's this whole reawakening in this area of research.
+**Eli Bixby:** \[00:08:01.11\] Yes. Amy has a PhD from Stanford in A.I. related things, and sort of joking that it's all suddenly relevant again. This idea of deep learning is based around… In the ‘80s they were called perceptrons, but it's based around this really old idea of, "Let's build a very high-level abstraction of a human brain, and maybe we can teach it things." Then it kind of fizzled out because it turned out that "No, we can't teach it things." But then it's like, "Actually it turns out we just need a few hundred thousand more of these perceptrons, or a couple million more of these perceptrons, and we can teach it things." That's obviously been enabled by hardware. They couldn't do that; it wasn't a failure of academia necessarily, it's just that they couldn't do it in the ‘80s, and now we can. All of this research is now suddenly relevant and there's this whole reawakening in this area of research.
 
 **Adam Stacoviak:** That's kind of cool too, because I know a lot of people that have gone to school for things that's really hard to get a job in, and this could have been one of them. As you said, the desire to do this stuff didn't match the current technology, so it wasn't quite the right timing, but now is the right timing. So you have all these people potentially that have a lot of wealth of knowledge and research around this topic, and can get jobs and be relevant again in that area.
 
@@ -64,7 +64,7 @@ For the listeners who don't know much about TensorFlow or haven't touched this w
 
 The flow part is a little bit more complex, but if you've ever played around with a graph computation framework, say like Spark, then you're familiar with this idea that you build a computation graph, and then you do deferred execution on that graph, where you calculate the upstream dependencies and use that to evaluate whatever node you want the value of. So it's just this computation graph where the edges are tensors. So tensors are flowing along this computation graph, and then you get tensor flow.
 
-**Adam Stacoviak:** \[\\00:12:21.11\\\] And it's all modeled around the actual brain, right? The whole point of TensorFlow in particular is that it's meant to be around the brain's initial cognition.
+**Adam Stacoviak:** \[00:12:21.11\] And it's all modeled around the actual brain, right? The whole point of TensorFlow in particular is that it's meant to be around the brain's initial cognition.
 
 **Eli Bixby:** The initial idea of deep learning is modeled around this very abstract idea of how neurons work that neuroscientists have now actually rejected, but we keep it around because it turns out to do good stuff. I would be remiss if I didn't say TensorFlow is more general than that, actually. It's not just for deep learning; arguably any computation that's efficient to describe as a graph of tensors is a good fit for the TensorFlow use case.
 
@@ -78,7 +78,7 @@ The Python wrappers are on top of a C++ API that does all the fast tensor comput
 
 **Jerod Santo:** It seems like from Google's perspective the movement of saying, "Let's take this mathematical science or this research science and let's apply it to useful things", first it was Search, and now expanding upon that in many different ways, it's kind of like -not even a secret sauce, but it's Google's move. And it's a great move, by the way. But because of this, like... Alright, I'm an application developer and many people out there are building either web apps or mobile apps. This stuff was very far from us in terms of something that we could possibly use, or do, or apply and make our products any better. And all of these open source efforts, TensorFlow amongst others, I call it "bringing the cookies down to the bottom shelf where the kids can reach it." Now we have an opportunity at it, which is why the Changelog is interested in this kind of stuff. But doesn't it seem like you're taking this superpower that was inside Google, you've open sourced back in November 2015, and now everybody can use it, and everybody can get the cookies.
 
-**Adam Stacoviak:** \[\\00:16:16.00\\\] Yeah, I like that.
+**Adam Stacoviak:** \[00:16:16.00\] Yeah, I like that.
 
 **Jerod Santo:** Aren't those cookies valuable? What do you think is the... In your opinion — and if Google has an official stance, that's fine as well — but why open source something that's this research-heavy and invested in?
 
@@ -100,7 +100,7 @@ A lot of it is because we've published a lot of white papers in the past. The Ma
 
 And there's all sorts of ancillary benefits. It's really hard to hire machine learning experts. If you get an extra three months of time from each machine learning expert you hire because you don't have to teach them TensorFlow, because they already know it because it's the industry standard, that's pretty great.
 
-**Jerod Santo:** \[\\00:20:15.23\\\] So let me just play devil's advocate and go the other way. We're all about open source here, so you know I don't necessarily follow this reasoning.
+**Jerod Santo:** \[00:20:15.23\] So let me just play devil's advocate and go the other way. We're all about open source here, so you know I don't necessarily follow this reasoning.
 
 That's a great insight — we publish these white papers, people take the white papers, turn them into open source projects that we then end up having to align ourselves to, when why not just open source it from the start, and be the player in the game? Why publish the white papers? Why don't you keep them all to yourselves, and then you don't have to worry about any of that stuff?
 
@@ -110,7 +110,7 @@ The nice thing about the technology industry is we're all pushing against this a
 
 **Jerod Santo:** \[laughs\] Right, right. Well said. Well, we're about to come up against our first break. After the break, we're going to get into how you would use TensorFlow, why you would use TensorFlow - all these questions that I'm sure I'm not the only one that they're floating around in my head, and Eli is going to help us out with all these things right after this.
 
-**Break:** \[\\00:21:32.27\\\]
+**Break:** \[00:21:32.27\]
 
 **Jerod Santo:** All right, we are back with Eli Bixby, demystifying TensorFlow, trying to figure out not just why it's cool, but what can I use it for, who is it for? These kinds of questions. So Eli, we'll start with that one. Who is TensorFlow built for? It's obviously not just for Google, otherwise they'd keep it to themselves. Who should be using this?
 
@@ -120,7 +120,7 @@ The nice thing about the technology industry is we're all pushing against this a
 
 **Eli Bixby:** They're all fluent programmers, but maybe not fluent software engineers; that's how I would describe them. I think that's part of why it's awesome to have this environment like Google where you have domain experts sitting next to really experienced software engineers who can kind of say, "Oh, maybe you want to frame your abstractions more like this, because it'll be more extensible, or save you maintenance costs" and that sort of stuff. There's really value in bringing the two groups together.
 
-**Adam Stacoviak:** \[\\00:23:49.23\\\] I've also heard when it comes to TensorFlow, or I guess more machine learning, more of this deep learning in general, it's like giving a machine eyes. Almost like that it can see something if you give it a picture, it can decipher what that is. That's where you get some of those things where if you hold your phone up, and you're looking at a different language, it will repaint it in the proper language. Can you expand on this idea of giving the machine eyes?
+**Adam Stacoviak:** \[00:23:49.23\] I've also heard when it comes to TensorFlow, or I guess more machine learning, more of this deep learning in general, it's like giving a machine eyes. Almost like that it can see something if you give it a picture, it can decipher what that is. That's where you get some of those things where if you hold your phone up, and you're looking at a different language, it will repaint it in the proper language. Can you expand on this idea of giving the machine eyes?
 
 **Eli Bixby:** One of the first things that deep learning excelled at above traditional machine learning techniques was computer vision. So just to sort of step back, the distinction between machine learning and deep learning is deep learning is a generally a subset of algorithms that require a lot more data, a lot more compute time, and a lot more time, but you maybe need to know a little bit less about the structure of the data. You need a little bit less domain expertise to structure your algorithm.
 
@@ -138,7 +138,7 @@ If you retrain a piece this model on your dataset, you can get much shorter trai
 
 The other thing I wanted to briefly mention — because there's a lot of people who want to integrate machine learning into their applications, but don't actually have a dataset. If you don't have a dataset, TensorFlow is not for you. If you don't have a dataset though, we do provide cloud APIs that provide access to the internal machine learning that Google uses. For example, we have a Vision API where you can send us a JPEG, or send us some image - I don't remember all the formats - and we'll send you back bounding boxes and labels for entities, or we'll send you back the emotions that faces in the images that are displayed. And it's just a REST API — it's super easy to use.
 
-**Adam Stacoviak:** \[\\00:28:14.07\\\] It's almost like a comparative thing. You send it to Google, and you've already got this index of data that says… Basically all the learning has been done, and you provide that through an API.
+**Adam Stacoviak:** \[00:28:14.07\] It's almost like a comparative thing. You send it to Google, and you've already got this index of data that says… Basically all the learning has been done, and you provide that through an API.
 
 **Eli Bixby:** Yeah, so there are two distinct phases of machine learning. There's training and then there's inference. One of the things that TensorFlow is made to do is make it really easy to bundle up a trained model, and then use if for inference elsewhere. You can basically export these models down to files that are maybe 100 MB, and you can put them on phones, you can put them on whatever device and do inference on that device, which is pretty cool. Behind the scenes, for the Vision API we have a trained model that we're using to do inference on the images that you send us. And we periodically update that trained model so that you're getting something near the best of what we have whenever you call the Vision API. We have a similar API for Natural Language, and Translate, of course, and Speech. You can actually send us audio files, and we'll do speech-to-text for you.
 
@@ -158,7 +158,7 @@ We're in the domain of supervised learning, which means "I have data, and I want
 
 Or Classification, which is "I want my model to spit out a category", Orchid/ Not orchid. So here we know we're in a classification problem. So then what we really need to do is we need to figure out, "Okay, what models have historically been successful for image classification?" And you can see, "Oh, Google has open sourced this inception model, but it takes two weeks to train from scratch, and probably my three-million-image dataset is not going to be enough to train inception from scratch." It's this huge, sprawling model... But you say, "Okay, many image classification tasks share a lot in common." Like I was mentioning before, we have to identify these higher-level features.
 
-\[\\00:32:03.22\\\] "So maybe I'll just retraining the top few layers of the Inception model." This is a task called transfer learning, and then you teleport to four weeks in the future, when my transfer learning sample has been published, and you look at that sample, and you look at how you do transfer learning… I'm sure if you google ‘transfer learning TensorFlow' you'll find a sample that is not mine.
+\[00:32:03.22\] "So maybe I'll just retraining the top few layers of the Inception model." This is a task called transfer learning, and then you teleport to four weeks in the future, when my transfer learning sample has been published, and you look at that sample, and you look at how you do transfer learning… I'm sure if you google ‘transfer learning TensorFlow' you'll find a sample that is not mine.
 
 That's the breakdown high-level model. Then what you're gonna end up doing is you're gonna run this code, and you're probably gonna need to run it in a distributed environment. Inception is a big model, you have a lot of data, so you're going to need to figure out how to do that.
 
@@ -174,7 +174,7 @@ Or, again, instead of figuring out TensorFlow serving, you could just upload you
 
 **Jerod Santo:** Okay, so training is something that can take multiple weeks, and you would love to have somebody else's dataset already trained. You can't solve a problem today, but maybe you can solve one the next quarter. Once you get your model trained, you still have this inference problem which is more… The way I'm hearing it, it's kind of like the real time aspect of applying the model — and please help my verbiage if I'm getting it wrong — against this particular piece of data that I'm holding onto right now, and running it through that. So those are two separate problems, both solved by TensorFlow in different ways; one is the serving project, one is by TensorFlow proper? Am I tracking you?
 
-**Eli Bixby:** \[\\00:36:08.14\\\] Yup.
+**Eli Bixby:** \[00:36:08.14\] Yup.
 
 **Jerod Santo:** Okay.
 
@@ -202,7 +202,7 @@ How we handle it in cloud ML for example, is you retrain the model on your new d
 
 **Eli Bixby:** Yeah. Then you retrain your model. But there's a whole other field called online learning. This is online, not in the sense of the Internet, but in the sense of a continuous process, like an online sorting algorithm. This is basically like, how do we… It's really hard. I don't think there's a lot of people doing it in production, but it's like how do we give immediate feedback to our models and improve the accuracy? You see how massive the field is; you, as a layperson, stumbled upon a very hard problem that we're not really solving in very many production systems yet.
 
-**Jerod Santo:** \[\\00:40:02.07\\\] Right. So even at Google Scale or Apple Scale, the people that are putting this into practical products, when it comes to retraining new datasets, when Google's Photos catalogue goes from three petabytes to six petabytes, they just retrain the entire thing? Or do you guys have some other stuff going where you're doing all of this incremental training?
+**Jerod Santo:** \[00:40:02.07\] Right. So even at Google Scale or Apple Scale, the people that are putting this into practical products, when it comes to retraining new datasets, when Google's Photos catalogue goes from three petabytes to six petabytes, they just retrain the entire thing? Or do you guys have some other stuff going where you're doing all of this incremental training?
 
 **Eli Bixby:** We do retrain a model, but this is where things like transfer learning come in, where you only retrain a part of the model. So this is very common when you want to change the architecture, but you don't want to retrain the whole thing from scratch. That's the field of transfer learning. That's the field of, "I want to somehow use the output" — and this actually gets into a really interesting thing that I want to talk about, which is this marketplace of models, which is how we envision the future. But you use the output of one model as the input to another model. Or you use the output of one model to train another model. There's lots of ways to do transfer learning, but it's basically one of the goals.
 
@@ -218,7 +218,7 @@ This gets to how we see things a little bit farther into the future, where we ha
 
 **Eli Bixby:** Yeah, and that's the natural language, and the speech, and the vision, and the translate APIs are sort of the first shot at that... You could probably use it for your orchid website. You just throw away every label that isn't orchid, and the ones that are orchid are the ones you say are an orchid. It'll give you back all the labels; I don't think there's a way to say, "I only care about x label", but certainly that's something you can imagine in the future.
 
-**Jerod Santo:** \[\\00:44:03.00\\\] Right. In the meantime, I'll probably just code it up against Mechanical Turk, and let them decide if it's an orchid or not.
+**Jerod Santo:** \[00:44:03.00\] Right. In the meantime, I'll probably just code it up against Mechanical Turk, and let them decide if it's an orchid or not.
 
 **Eli Bixby:** Yeah.
 
@@ -240,7 +240,7 @@ This gets to how we see things a little bit farther into the future, where we ha
 
 We're coming up on our next break, and we do want to dive deeper into TensorFlow model, so let's break here. When we come back, we'll dive a little further into that with Eli.
 
-**Break:** \[\\00:44:39.29\\\]
+**Break:** \[00:44:39.29\]
 
 **Adam Stacoviak:** Alright, we're back with Eli Bixby. We're talking about TensorFlow. Eli, we've got models, we've got layers, we've got all sorts of things that make up TensorFlow. Help us break down the components here.
 
@@ -250,7 +250,7 @@ One of the big ones that we launched recently is TFLearn, which you can find at 
 
 Then WideNDeep — there's a blog post about it. It's like, "Okay, here's my dataset; it's sparse data." The difference between sparse and dense data is pretty simple - sparse data is like words, where you've got a bunch of words and you don't necessarily know how they relate to each other, so you can't number the words, like "word-0," "word-1," "word-2," "word-3", because why is "cat" more related to "bucket" than it is to "dog?" It just happened to be in the ordering that we gave it; there's no proper ordering of words. That's sparse data. Whereas dense data is like, "Here's a bunch of numbers." If you had weights and heights and stuff, that would be dense data.
 
-\[\\00:48:15.27\\\] So if you know your dataset, you know things whether it's sparse or dense about it. You can just say, "Here's my dataset, here's the columns; evaluate the relationship between these two columns." These are really great tools for data scientists who maybe aren't ML experts, but have done a little bit of ML, and want to move more in ML. There are great places to hang out at, great places to experiment with.
+\[00:48:15.27\] So if you know your dataset, you know things whether it's sparse or dense about it. You can just say, "Here's my dataset, here's the columns; evaluate the relationship between these two columns." These are really great tools for data scientists who maybe aren't ML experts, but have done a little bit of ML, and want to move more in ML. There are great places to hang out at, great places to experiment with.
 
 Below all that is the fundamental, like, "Here's an optimizer that runs on the model architecture that I spent 50 lines describing."
 
@@ -262,7 +262,7 @@ So again, the Getting Started guide always depends on who you are. We don't real
 
 **Jerod Santo:** We will definitely link up resources. You mentioned the Stanford course, there's a Coursera course... Give us those links, Eli, and we will include those in the show notes so those interested can find them easily. Definitely myself, I might need to check out that Stanford course. That sounds like a great way to at least demystify, like you said, the terms and jargon around it. Because there's definitely a lot of surface area here. I think even before the show, you mentioned… I think I might have said "the TensorFlow team at Google", and you said, "Well, it's not like there's just 12 people sitting in a room, and they do TensorFlow." This is the kind of thing that sprawls across campuses, and groups, and there's people that work on it from all different angles of the company. Is that correct?
 
-**Eli Bixby:** \[\\00:52:18.07\\\] Yeah, and the number of people who contribute is one number, but then the number of people who are using it at Google, and outside of Google, it's like… My feeds blew up after it was released because everyone was trying it, but that level of excitement has stayed shockingly high. There's so many people publishing projects with it, which is fun, because once you learn and understand what's going on in the models, or once you learn how to read papers describing new models, there's so much content out there to learn. It's just getting over that initial hump, getting over the terminology…
+**Eli Bixby:** \[00:52:18.07\] Yeah, and the number of people who contribute is one number, but then the number of people who are using it at Google, and outside of Google, it's like… My feeds blew up after it was released because everyone was trying it, but that level of excitement has stayed shockingly high. There's so many people publishing projects with it, which is fun, because once you learn and understand what's going on in the models, or once you learn how to read papers describing new models, there's so much content out there to learn. It's just getting over that initial hump, getting over the terminology…
 
 I don't think it's restricted to this elite class of programmer, or elite class of academic person… I really think it is a thing that all devs can learn.
 
@@ -292,7 +292,7 @@ Another example, there's a big paper in this area on Generative Adversarial Netw
 
 There was actually a gallery showing in San Francisco of generated artworks.
 
-**Jerod Santo:** \[\\00:56:00.18\\\] That's pretty sweet. The readme, it says this is a project that asks, "Can we use machine learning to create compelling art and music?" It's like, if we can, we'll do it. That's really the point of it. "If so, how? If not, why not?" It's very much like Eli said, because it's tricky… Also because it gets people involved that otherwise wouldn't, right? Now you have this cross-melding of musicians working with research scientists, and so on. Interesting stuff.
+**Jerod Santo:** \[00:56:00.18\] That's pretty sweet. The readme, it says this is a project that asks, "Can we use machine learning to create compelling art and music?" It's like, if we can, we'll do it. That's really the point of it. "If so, how? If not, why not?" It's very much like Eli said, because it's tricky… Also because it gets people involved that otherwise wouldn't, right? Now you have this cross-melding of musicians working with research scientists, and so on. Interesting stuff.
 
 **Adam Stacoviak:** I've stumbled on the blog post on the Magenta blog, it's Magenta MIDI Interface. I'm thinking, okay, now you probably, as a musician, create from your own keyboard, MIDI-wise, and then maybe pass that through something… I don't know, to create some random art? Random music? It seems pretty interesting, though. There's an API for that. Definitely inviting a lot of unique people into the mix of programming, which is what I like about this, too.
 
@@ -318,7 +318,7 @@ I can't even begin to predict what the next big shockwave in the machine learnin
 
 It's hard to… I don't know about concrete predictions, like "We will have robot overlords by the year XYZ" \[laughter\], but I think it's pretty clear now to everyone that the industry standard for X is going to be open source, and I think we're hoping that it's TensorFlow, and I think we're hoping that people are happy that it's TensorFlow, because it's a good tool. I do see that happening.
 
-**Jerod Santo:** \[\\01:00:07.03\\\] Well, speaking of people who have enough experience to forecast the future, our other show in partnership with O'Reilly is from none other than Cory Doctorow who's keynoting the conference. Adam, we might have to ask him a similar question. We can compare and contrast Eli's answer and Cory's answer. Five years from now we can decide who got it right.
+**Jerod Santo:** \[01:00:07.03\] Well, speaking of people who have enough experience to forecast the future, our other show in partnership with O'Reilly is from none other than Cory Doctorow who's keynoting the conference. Adam, we might have to ask him a similar question. We can compare and contrast Eli's answer and Cory's answer. Five years from now we can decide who got it right.
 
 **Eli Bixby:** I'm sure he'll have a snappier, less rambling answer, because he probably gets asked that question all the time.
 

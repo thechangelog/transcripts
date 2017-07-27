@@ -32,7 +32,7 @@ The other thing following on from that workflow-wise was the quick pull request 
 
 That's the kind of stuff that I like trying to identify in a product - a shortcut to an existing process that otherwise would be difficult to do or not obvious that you should have this reviewed, but actually making it possible for people to opt in easily to \[unintelligible 00:04:11.06\] that should happen.
 
-**Jerod Santo:** \[\\00:04:12.29\\\] I love when a product that you use or a website that you use a lot slowly gets better -- maybe even quickly gets better, it's better than slowly, but you just notice over time... You're talking about shortcuts, and as a user, because you have such a technical product and people use it all day long, we're more likely to notice those small things. Like, "Oh, this is easier now." Those little delight moments... I like to build those myself, but also just even as a GitHub user, I've experienced over the years where it's like, "I'm not the only one who thought this was too hard", right? Now it's easier, and you're not gonna write a blog post about it, but overall it's like polishing things up. I think that's probably very rewarding/satisfactory -- or what's the word? It gives you satisfaction... What's that word? Satisfying. \[laughs\]
+**Jerod Santo:** \[00:04:12.29\] I love when a product that you use or a website that you use a lot slowly gets better -- maybe even quickly gets better, it's better than slowly, but you just notice over time... You're talking about shortcuts, and as a user, because you have such a technical product and people use it all day long, we're more likely to notice those small things. Like, "Oh, this is easier now." Those little delight moments... I like to build those myself, but also just even as a GitHub user, I've experienced over the years where it's like, "I'm not the only one who thought this was too hard", right? Now it's easier, and you're not gonna write a blog post about it, but overall it's like polishing things up. I think that's probably very rewarding/satisfactory -- or what's the word? It gives you satisfaction... What's that word? Satisfying. \[laughs\]
 
 **Coby Chapple:** It is satisfying, and that's one of the reasons I enjoy product design. Before GitHub, I worked for a long time as a freelancer, so I was still doing design work. Sometimes it was on products, but at the end of the day it was client-focused work, and I got sick of that. I kind of realized that what I really wanted was long-term responsibility for...
 
@@ -60,7 +60,7 @@ That's the kind of stuff that I like trying to identify in a product - a shortcu
 
 **Coby Chapple:** It doesn't matter what the job title is of the person who made the change, what matters is that the change needs to happen.
 
-**Jerod Santo:** \[\\00:07:53.17\\\] Yeah. So you guys have been doing refinements for a long time - those small shortcuts, those tweaks... I love all that, but recently at GitHub Universe you had some major new features. One that I love is the code review feature... Mostly because now I can create a bunch of comments and send a single e-mail, which was like my biggest \[unintelligible 00:08:09.28\] Because we use GitHub a lot for editing prose, blog posts, and now we're gonna give -- it's not code review, but it's prose review.
+**Jerod Santo:** \[00:07:53.17\] Yeah. So you guys have been doing refinements for a long time - those small shortcuts, those tweaks... I love all that, but recently at GitHub Universe you had some major new features. One that I love is the code review feature... Mostly because now I can create a bunch of comments and send a single e-mail, which was like my biggest \[unintelligible 00:08:09.28\] Because we use GitHub a lot for editing prose, blog posts, and now we're gonna give -- it's not code review, but it's prose review.
 
 **Coby Chapple:** You're drafting...
 
@@ -110,7 +110,7 @@ The other big one is the Projects feature. Tell me about both of those in summar
 
 **Coby Chapple:** A pet peeve of mine that a lot of people do in product design or in interaction design is things that show up on hover. There's a bunch of things that I personally get --
 
-**Jerod Santo:** \[\\00:12:01.24\\\] Because people will never know that that exists.
+**Jerod Santo:** \[00:12:01.24\] Because people will never know that that exists.
 
 **Coby Chapple:** The analogy that I use to explain how frustrating this can be is imagine you're in a room where the doors only show up when you're close enough to them. \[laughter\] How do you get out?
 
@@ -150,7 +150,7 @@ Projects is interesting, it's the first time we've expanded our product function
 
 We're looking at ways that we can bring in some functionality of like issues and pull requests, or improving what can be part of a project in terms of the functionality, but at the end of the day the problems you're solving with a project are not technical problems; they're people problems, they're project management concerns, so we want it to stay as flexible as possible. There will be improvements to this part of the product going forward for sure, but we wanna make sure that we're not building a bunch of stuff to solve problems we don't know people are gonna have yet in terms of using functionality.
 
-**Jerod Santo:** \[\\00:16:02.19\\\] Yeah, that makes sense. Another question, and this one seems more fundamental to me - you guys decided to make a project at the repo layer of abstraction, right? Like, you attach a project on this repository, right? A lot of projects span repos...
+**Jerod Santo:** \[00:16:02.19\] Yeah, that makes sense. Another question, and this one seems more fundamental to me - you guys decided to make a project at the repo layer of abstraction, right? Like, you attach a project on this repository, right? A lot of projects span repos...
 
 **Coby Chapple:** Yep.
 
@@ -182,7 +182,7 @@ That's why Projects are at a repo level at the moment, but we're definitely look
 
 **Jerod Santo:** Yeah, that's interesting. I've never thought about that.
 
-**Coby Chapple:** \[\\00:20:01.05\\\] So there's other things that we need to consider in terms of how our product decisions are gonna affect our product in different ways.
+**Coby Chapple:** \[00:20:01.05\] So there's other things that we need to consider in terms of how our product decisions are gonna affect our product in different ways.
 
 **Jerod Santo:** That leads me into this next thought... Looking at Projects - you guys just launched it; was it November 2016? No, it was November, because right now it's October. When was that? August, September? I don't know... Fall of 2016. It feels very, very 1.0. Here's where the question is - you can interpret a feature like this in two ways, as a person who has no idea, an outsider: one way is "They're just getting started, and this is a minimum viable Projects, and this is a huge new thing, and they just wanted to launch it." The other one is, "Yeah, this is a checklist feature. It's gonna stay this way forever. They just wanted to have Projects so they could have Projects and move on." Can you say which one of those it is? Are you guys working on this? Is it ongoing?
 
@@ -216,7 +216,7 @@ I think also the biggest thing, like I said before - we want other people to bui
 
 We wanna create a platform that allows for plenty of those opportunities for people to create value. We don't want to take business away from people. We actually would rather there be -- we would rather be the platform on which an ecosystem is built, than try and earn money ourselves--
 
-**Jerod Santo:** \[\\00:24:15.04\\\] Take all their ideas and...
+**Jerod Santo:** \[00:24:15.04\] Take all their ideas and...
 
 **Coby Chapple:** Right, our endgame is not to be the project management solution; our aim is to create a platform where that discussion around project management, there can be lots of different options that you can use, to pick from when you are starting a new project. Maybe within one company you're gonna use three different project management products or plugins or integrations, depending on the different department, depending on the different project...
 
@@ -242,7 +242,7 @@ This is something that we've started to actually do with Projects. I would need 
 
 **Coby Chapple:** They've been using it internally there with a huge amount of success, and we think this is technology that a lot of other people should look at as well. It's not gonna be something that suits everybody...
 
-**Jerod Santo:** \[\\00:27:58.03\\\] Yeah, there are a lot of detractors, a lot of naysayers. I think GitHub is probably the second major adopter of GraphQL, outside of Facebook -- the first one outside of Facebook. So there's people that are super excited... You can say this with anything, right? There's people who are super excited, then you have the cautious ones who are like, "Well, I'll watch it for a while..." Then you have the naysayers. I think for us, cautious types - I tend to be cautious - knowing that the REST APIs aren't necessarily gonna disappear soon is helpful, but it's an interesting... I think it's a risky, but perhaps very rewarding move by you guys.
+**Jerod Santo:** \[00:27:58.03\] Yeah, there are a lot of detractors, a lot of naysayers. I think GitHub is probably the second major adopter of GraphQL, outside of Facebook -- the first one outside of Facebook. So there's people that are super excited... You can say this with anything, right? There's people who are super excited, then you have the cautious ones who are like, "Well, I'll watch it for a while..." Then you have the naysayers. I think for us, cautious types - I tend to be cautious - knowing that the REST APIs aren't necessarily gonna disappear soon is helpful, but it's an interesting... I think it's a risky, but perhaps very rewarding move by you guys.
 
 **Coby Chapple:** Right. For me, I look at it as APIs need to be dependable. So this is a decision that I think will actually reduce the amount of risk involved, because it means that if you build something on the GraphQL API, unless you change what your querying, the functionality will continue to work.
 
@@ -272,7 +272,7 @@ For example, one problem that we have a lot at GitHub is performance stuff. A lo
 
 **Jerod Santo:** You're speaking very fluently as a developer, so I just forgot that you're a designer... \[laughs\]
 
-**Coby Chapple:** \[\\00:31:59.06\\\] So I don't know from a cacheing perspective how that would work, but I think we're gonna see a lot more documentation and best practices start to become publicly available about how to do this stuff as we see more adoption.
+**Coby Chapple:** \[00:31:59.06\] So I don't know from a cacheing perspective how that would work, but I think we're gonna see a lot more documentation and best practices start to become publicly available about how to do this stuff as we see more adoption.
 
 As we put our name out there and say "We're banking on this", I think a lot of other people are gonna start looking at it as an option, and I think that's gonna mean that people are gonna start talking a lot about the edge cases where it does get complex, like cacheing and performance...
 
@@ -302,7 +302,7 @@ As we iterate on this functionality and as we improve it, it's gonna keep coming
 
 **Jerod Santo:** What surprised me about your responses? Good question... You should do this job. I mean, I think your take on Projects was refreshing -- the answer about on-prem was a surprise, because I had never looked at it from that perspective. I think I see GitHub very much from my lens, and my lens is a typical user who's a member of orgs, but no GitHub Enterprise lens. So \[unintelligible 00:35:38.28\] because I'm starting to reveal what it is, which is like the single org, the god org inside enterprise and how that affects your product decisions was surprizing and interesting, and then also why not just say "Use Trello" or "Use Pivotal Tracker" for instance - because you have customers who that's actually not an option for them, and they need something; so a baseline features a platform that then other people can add value on. Like I said, I think that was a good answer.
 
-**Coby Chapple:** \[\\00:36:10.11\\\] Cool. I think what that points to though is there's a lot of ways you can use GitHub, and what's gonna work for one company is gonna be completely different to what works for another organization, like a university or an open source organization. What works for different individuals and groups of people is gonna change. It's also gonna change within companies. Like I said, with the enterprise stuff, orgs might just be \[unintelligible 00:36:33.05\] but that's also the case on github.com, too. You see this with Microsoft and with Google... Some of the organizations that they have on github.com are literally just one department from Microsoft, like Azure, or...
+**Coby Chapple:** \[00:36:10.11\] Cool. I think what that points to though is there's a lot of ways you can use GitHub, and what's gonna work for one company is gonna be completely different to what works for another organization, like a university or an open source organization. What works for different individuals and groups of people is gonna change. It's also gonna change within companies. Like I said, with the enterprise stuff, orgs might just be \[unintelligible 00:36:33.05\] but that's also the case on github.com, too. You see this with Microsoft and with Google... Some of the organizations that they have on github.com are literally just one department from Microsoft, like Azure, or...
 
 **Jerod Santo:** Research.
 

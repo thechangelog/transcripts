@@ -32,7 +32,7 @@ Today on the show we have myself, Erik St. Martin, Brian Ketelsen is also on the
 
 **Francesc Campoy:** Yeah, I agree. So the talk basically came up when I started talking with someone about how there was nil receivers that could work. If you define a function on a pointer receiver, if that pointer is nil, that doesn't mean that the method will fail. And after talking about that, we started talking about all of the things where nil was useful, and I saw that there was kind of a theme where basically nil and Go is not something that should be avoided in general. I mean, you need to be careful, obviously, but it's something that can be really useful, so I thought it could be an interesting talk. But when I proposed the talk I was in a bar in Belgium, right after FOSDEM and basically I just sent the abstract, and I was very excited about it, but when it got accepted, I was like "Oh wait, now I have to talk about nil for thirty minutes? That's gonna be fun."
 
-**Brian Ketelsen:** \[\\00:04:02.26\\\] I think you tweeted a picture of that, didn't you? I wanna say you tweeted a picture of you holding up a beer, saying you were working on your proposal.
+**Brian Ketelsen:** \[00:04:02.26\] I think you tweeted a picture of that, didn't you? I wanna say you tweeted a picture of you holding up a beer, saying you were working on your proposal.
 
 **Francesc Campoy:** Yeah, that was actually in FOSDEM, so in Brussels. I think it was in February probably, I don't remember. But yeah, I was surrounded by other Gophers. We had finished the Go devroom at FOSDEM, so lots of people surrounding us. Basically we did a proposal party where we just sent all our talk proposals at the same time pretty much, right before it was too late. So yeah, we were part of the people - do you know that peak that you get at the end, the last hours before you get to the deadline?
 
@@ -76,7 +76,7 @@ To be honest, I was nervous also about being the first person on stage, but then
 
 **Francesc Campoy:** Yeah.
 
-**Erik St. Martin:** \[\\00:08:02.24\\\] It's a motivating factor.
+**Erik St. Martin:** \[00:08:02.24\] It's a motivating factor.
 
 **Francesc Campoy:** They look really cool. My favorite graph from everything he showed was the Eratosthenes Prime Sieve. I've seen that program many times before, and it's kind of hard to explain how it works. And after seeing that, I feel like anyone could just be like, "Oh, okay. I get it. I understand what all the goroutines are doing, the data, how it's going through all the filters and everything." It's just beautifully simple.
 
@@ -118,7 +118,7 @@ I wanna mention this because it was so awesome... Yesterday the Remote Meet stre
 
 But I share some concerns though... We had some discussions with Kelsey and somebody else, I think it might have been Dave Cheney, where this whole nature of streaming and recording and stuff like that also starts kind of burning out speakers, because they constantly have to have new content and they can't continuously deliver and improve on a talk, because once they've given it and it's been recorded, then it's kind of done; nobody wants to pay to go to a conference and see a talk that they already saw on YouTube.
 
-**Francesc Campoy:** \[\\00:12:18.28\\\] On the other hand, conferences being slow at releasing the videos actually help us. \[laughter\]
+**Francesc Campoy:** \[00:12:18.28\] On the other hand, conferences being slow at releasing the videos actually help us. \[laughter\]
 
 **Erik St. Martin:** Yeah, exactly, because more people get to see your content, and things like that. For us, the videos going out was really just trying to help the community grow. The more content, the more people can be exposed to the language and the more growth we see in the community, which was kind of our motivating factor for releasing the videos.
 
@@ -148,7 +148,7 @@ I know that Chris Bradford was there and he took a bunch of notes, and I'm looki
 
 **Francesc Campoy:** Yeah. I know that some people were very passionate about it, but not to that point, unfortunately.
 
-**Erik St. Martin:** \[\\00:15:52.00\\\] I really liked how that room turned out though. It kind of grew organically, and I think that it's something that we should continue to grow on its own; make more space and put some A/V in there and maybe live stream that, because there were a lot of valuable discussions that were going on, and it seemed a lot of people wanted to be involved in that, too. I think continuing to grow that each year will be nice as well.
+**Erik St. Martin:** \[00:15:52.00\] I really liked how that room turned out though. It kind of grew organically, and I think that it's something that we should continue to grow on its own; make more space and put some A/V in there and maybe live stream that, because there were a lot of valuable discussions that were going on, and it seemed a lot of people wanted to be involved in that, too. I think continuing to grow that each year will be nice as well.
 
 **Francesc Campoy:** Yeah, I'm looking forward to next year, trying to do something even bigger.
 
@@ -186,7 +186,7 @@ I know that Chris Bradford was there and he took a bunch of notes, and I'm looki
 
 Even behavior... Like, I know in the Slack channel I've been quick to answer a question, and I'll link to a section of the language spec, and it makes it look like that's just knowledge I have in my head. Like, "Oh yeah, right here, in the language spec." And it's like no, often times I vaguely remember there being some rule about that, I look it up real quick and then link somebody to it. But the outside perspective is that there's a bunch of us running around and we just memorize this stuff, and it's just not true.
 
-**Carlisia Pinto:** \[\\00:20:11.06\\\] And I think she also did a really great job, like you were saying Francesc, in articulating what we were thinking... I couldn't even point towards what she said before I heard her say it, and now I can, which is there is no clear path for a person who is a newcomer to Go to being proficient, or a person who's a beginner to programming and being proficient in Go; and we know Go is a very simple language to learn. So there should not be this barrier, and a lot of people were having this conversation at the conference and even after the conference.
+**Carlisia Pinto:** \[00:20:11.06\] And I think she also did a really great job, like you were saying Francesc, in articulating what we were thinking... I couldn't even point towards what she said before I heard her say it, and now I can, which is there is no clear path for a person who is a newcomer to Go to being proficient, or a person who's a beginner to programming and being proficient in Go; and we know Go is a very simple language to learn. So there should not be this barrier, and a lot of people were having this conversation at the conference and even after the conference.
 
 For example \[unintelligible 00:20:53.25\] did a beautiful blog post about Go being for everyone, and I think it is going to be very healthy for us to identify what we need to do and why we need to do these things, because I think a lot of us want people to join the community, and not just because we want everybody to do Go, but if you do want to do Go or try it out, there should be an easy path for you. You should be not only welcome in the community as a person, which I think we're doing a great job at that, and we can talk more about that too, but also as far as learning the language.
 
@@ -198,7 +198,7 @@ We have things like the Go Tour, which I think is a great tool for people that h
 
 So we're talking more about okay, so how do we get this started, what kind of resources we want them to get together? Katrina was talking a lot about what kind of resources are available in the Ruby community, and I think that that is something that hopefully during this year and coming up to next GopherCon we'll have new things and new projects about how to basically get more Gophers involved.
 
-**Erik St. Martin:** \[\\00:24:11.28\\\] I think some of the tour too can be misleading. I was helping somebody who was walking through the tour and there was one particular exercise where I think all it wanted you to do was a loop through a multidimensional array - it was a slices section - and basically allocate the slices for this multidimensional slice. But the example really explained it as like outputting a grayscale image; and really what the value was wasn't important. It gave some examples, but even just in the phrasing of the question, it made it sound like it was this advanced thing, like they wanted you do draw an image with a multidimensional array, and it kind of locked this person up and like, "Wait, wait... I've never drawn images, and stuff like that." So I think having a feedback loop on some of those things where things might seem more advanced that they really are and just changing the wording of it can help a lot, too. And anybody who can submit advice or things that they run into that seem harder than they feel it should have been.
+**Erik St. Martin:** \[00:24:11.28\] I think some of the tour too can be misleading. I was helping somebody who was walking through the tour and there was one particular exercise where I think all it wanted you to do was a loop through a multidimensional array - it was a slices section - and basically allocate the slices for this multidimensional slice. But the example really explained it as like outputting a grayscale image; and really what the value was wasn't important. It gave some examples, but even just in the phrasing of the question, it made it sound like it was this advanced thing, like they wanted you do draw an image with a multidimensional array, and it kind of locked this person up and like, "Wait, wait... I've never drawn images, and stuff like that." So I think having a feedback loop on some of those things where things might seem more advanced that they really are and just changing the wording of it can help a lot, too. And anybody who can submit advice or things that they run into that seem harder than they feel it should have been.
 
 **Francesc Campoy:** You know, we definitely welcome pull requests.
 
@@ -224,7 +224,7 @@ I agree that in general the exercises tend to be a little bit too complex, and i
 
 **Carlisia Pinto:** If Renee cannot help him, I know a designer who can take Renee's graphics and really do something amazing.
 
-**Francesc Campoy:** \[\\00:28:03.12\\\] Now that you mentioned Renee, I gotta say that if Katrina's was my favorite talk, Renee's was probably the second one, or maybe the first one. It is hard to choose, because they're very different, but Renee's talk was amazing, and I'm just so happy you had such a non-technical talk at such a conference. It was great.
+**Francesc Campoy:** \[00:28:03.12\] Now that you mentioned Renee, I gotta say that if Katrina's was my favorite talk, Renee's was probably the second one, or maybe the first one. It is hard to choose, because they're very different, but Renee's talk was amazing, and I'm just so happy you had such a non-technical talk at such a conference. It was great.
 
 **Erik St. Martin:** Yeah, I mean, the Gopher is a staple of our community, so when she submitted a proposal we were like, "Alright, we have to do this.
 
@@ -246,7 +246,7 @@ And I loved that she credited a lot of artists who have been doing our work surr
 
 So this is a good time for us to stop and take a break and thank our sponsor Linode. Linode is Changelog's cloud server of choice. It's what Adam and Jerod are using to build their new CMS and the future of Changelog is writing on Linode. You can get a Linode server up and running in seconds. The easiest way to get started is by going to linode.com/gotime. You can choose your flavor of Linux, the resources you want and the location of your node. They've got eight data centers spread across the world and plans start at ten dollars a month. The nice thing about Linode is that you get full route access. You can run VMs or containers, your private Git server, you can run Hugo and have your own blog. You get native SSD storage, fast 40 gbs networking and nice Intel i5 processors. You have a fancy control panel where you can reboot things and resize things and clone your VMs, as well as a CLI tool that you can use to manage, and an API, so that you can call it remotely. You can use the code 'gotime20' to get two free months, which is $20 credit. You should tell your friends about that, so everybody can go off and get their own servers. Again, go to linode.com/gotime so you can get started.
 
-**Erik St. Martin:** \[\\00:32:15.09\\\] And to keep us on the air.
+**Erik St. Martin:** \[00:32:15.09\] And to keep us on the air.
 
 **Brian Ketelsen:** Yay!
 
@@ -278,7 +278,7 @@ So this is a good time for us to stop and take a break and thank our sponsor Lin
 
 **Brian Ketelsen:** Actually, that would be a good vanity package for any Go package. You could use the vanity URL \[unintelligible 00:35:57.13\]
 
-**Erik St. Martin:** \[\\00:36:00.14\\\] With the tagline "You can trust us."
+**Erik St. Martin:** \[00:36:00.14\] With the tagline "You can trust us."
 
 **Brian Ketelsen:** We promise.
 
@@ -296,7 +296,7 @@ I think that both things - having better materials for newcomers and then the Go
 
 **Brian Ketelsen:** I think Erik and I had a conversation not too long ago, sometime in the last year, about how Go needed the Go equivalent of Ruby's Why The Lucky Stiff. Those absolutely crazy articles with cartoons that actually taught programming while you weren't busy thinking about it, because you were having so much fun learning.
 
-**Francesc Campoy:** \[\\00:39:53.00\\\] Yeah. I don't know if you've seen this thing - I love it, and I'm gonna try to copy it somehow. It is Swift Playgrounds.
+**Francesc Campoy:** \[00:39:53.00\] Yeah. I don't know if you've seen this thing - I love it, and I'm gonna try to copy it somehow. It is Swift Playgrounds.
 
 **Brian Ketelsen:** Oh, the ones on iPad or iPhone?
 
@@ -324,7 +324,7 @@ There is also another idea that I think came from Katrina. Katrina works at Gith
 
 **Carlisia Pinto:** I actually had to leave early, which was a huge mistake. That was actually a totally different day, it was totally relaxed, everybody had done their talks, everybody had watched their talks, and I felt such a relaxed atmosphere. The next year I'm not gonna make this mistake again, because I did the same mistake last year. So next year I'm going to stay for the whole day.
 
-**Erik St. Martin:** \[\\00:43:48.09\\\] Yeah, so Hack Day was really like a happy accident. The first year we were talking about everybody was probably gonna be flying home, flying for different states, different countries, so they would fly out at random parts of the day... Like, let's just reserve this space for longer - we get a better rate anyway - and then people can just kind of hang out and collaborate until they have to leave for their flight. Then it turned out half the people stayed; they wanted to stay, so we kind of turned it into this thing.
+**Erik St. Martin:** \[00:43:48.09\] Yeah, so Hack Day was really like a happy accident. The first year we were talking about everybody was probably gonna be flying home, flying for different states, different countries, so they would fly out at random parts of the day... Like, let's just reserve this space for longer - we get a better rate anyway - and then people can just kind of hang out and collaborate until they have to leave for their flight. Then it turned out half the people stayed; they wanted to stay, so we kind of turned it into this thing.
 
 I think we had - Brian, Dave Cheney and I had a discussion about it, and I think the Hack Day thing is misleading. The name was kind of borrowed from elsewhere and it doesn't have the same meaning for us, so I think next year we're gonna name it Community Day, to focus more on what the day is about, just kind of hanging out with community members and having those discussions with the Go Team or collaborating with people on open source projects. And we'll probably do a better job at outlining all the things that will take place on the day, so it doesn't feel so much when you're booking your flight, like "Do I need to stay for this?"
 
@@ -342,7 +342,7 @@ I saw a lot of really remote teams that were doing team meetings, face-to-face m
 
 **Brian Ketelsen:** So now's a good time for us to talk about our other sponsor of the show, Equinox. Equinox does packaging and distribution and updating for Go applications. They have amazing command line tooling that allows you to package up your Go application and it cross-compiles it for all of the different environments that Go supports, and then uploads it to Equinox's servers, and your customers or your end users can download Debian packages, RPMs, Microsoft Windows installers, Mac packages or use Homebrew to install your applications.
 
-\[\\00:48:09.11\\\] So they've got hosted downloads and a download page, and it's kind of the neatest thing that I've used in terms of the distribution of an app. You can use their library, their Go package to create your command line tools to autoupdate it. You can make a flag, say "Update" and it will go off to the Equinox servers, download just the diff of the next binary and update your package. Or if your users like Homebrew or the Linux package managers, they can just run an update that way. So it's a great way to keep your applications up to date, and it significantly reduces the support burden that you have as an open source maintainer or even as a company that has applications that are distributed out across lots of desktops.
+\[00:48:09.11\] So they've got hosted downloads and a download page, and it's kind of the neatest thing that I've used in terms of the distribution of an app. You can use their library, their Go package to create your command line tools to autoupdate it. You can make a flag, say "Update" and it will go off to the Equinox servers, download just the diff of the next binary and update your package. Or if your users like Homebrew or the Linux package managers, they can just run an update that way. So it's a great way to keep your applications up to date, and it significantly reduces the support burden that you have as an open source maintainer or even as a company that has applications that are distributed out across lots of desktops.
 
 Equinox is free for community and personal projects, and they have very affordable plans for businesses. You should go to equinox.io/gotime to learn more about it. I strongly endorse it.
 
@@ -410,7 +410,7 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Erik St. Martin:** So I think we're almost out of time. Do we wanna move on to any projects that we found in the community or any other news? I know most of us have been hiding away at GopherCon for the past week, so...
 
-**Brian Ketelsen:** \[\\00:51:43.19\\\] I do have one good GopherCon story that I have to share before we move on. Ivan Daniluk from the Visualizing Concurrency talk - the day GopherCon ended, we ended up in an elevator at the same time, and he came me kind of a stern look and he said, "We're going to have the next GopherCon in Barcelona, correct?" \[laughter\]
+**Brian Ketelsen:** \[00:51:43.19\] I do have one good GopherCon story that I have to share before we move on. Ivan Daniluk from the Visualizing Concurrency talk - the day GopherCon ended, we ended up in an elevator at the same time, and he came me kind of a stern look and he said, "We're going to have the next GopherCon in Barcelona, correct?" \[laughter\]
 
 **Francesc Campoy:** Oh, yes!
 
@@ -490,7 +490,7 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Carlisia Pinto:** Because it's very much in the spirit of GoperCon. I wanna mention that there is now a CleverGopher channel on Gopher Slack for you to post and see pictures of our gophies in clever places and poses.
 
-**Erik St. Martin:** \[\\00:56:10.24\\\] There's been a lot of interesting photos that have come through there. And I also find it interesting that every episode there's a new channel that's announced, or discovered, or created on the show. \[laughter\] Every single episode.
+**Erik St. Martin:** \[00:56:10.24\] There's been a lot of interesting photos that have come through there. And I also find it interesting that every episode there's a new channel that's announced, or discovered, or created on the show. \[laughter\] Every single episode.
 
 **Brian Ketelsen:** It's true. I think the best one was Florin's picture of the gopher in the cockpit of an airplane. It looked like a 737 to me, I'm not sure. It might be an Airbus, but there's a gopher in the cockpit of an airplane.
 
@@ -550,7 +550,7 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Erik St. Martin:** It does not need to be written in Go.
 
-**Francesc Campoy:** \[\\01:00:00.27\\\] Then I think I'm gonna go with something that is actually for \[unintelligible 01:00:03.19\] but we use regularly for the Google Cloud Platform Podcast, Audacity.
+**Francesc Campoy:** \[01:00:00.27\] Then I think I'm gonna go with something that is actually for \[unintelligible 01:00:03.19\] but we use regularly for the Google Cloud Platform Podcast, Audacity.
 
 **Erik St. Martin:** Yeah, that is a good one.
 

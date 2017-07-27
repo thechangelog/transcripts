@@ -40,7 +40,7 @@
 
 **Alex Sexton:** ...you build a web application that works on the worst browser, and then as browsers support features, then you can make the experience better, you can enhance the experience progressively based on those feature tests.
 
-\[\\00:04:03.04\\\] Progressive enhancement - the word comes from the battled days when 20% of the internet disabled Javascript... So the whole mantra was "Make sure your website works without Javascript, and then progressively enhance it to have any Javascript whatsoever." That's where that term comes from.
+\[00:04:03.04\] Progressive enhancement - the word comes from the battled days when 20% of the internet disabled Javascript... So the whole mantra was "Make sure your website works without Javascript, and then progressively enhance it to have any Javascript whatsoever." That's where that term comes from.
 
 Now it has been co-opted through each generation beautifully - I don't think that's a bad thing - so now progressive enhancement often implies that you're building a progressive web app, but a progressive web app is like a new term, mostly from the Google ilk, that I can break down if we're done doing the guessing section. I don't wanna ruin it for anybody. \[laughs\]
 
@@ -62,7 +62,7 @@ I can go through the checklist, but does that make sense so far?
 
 **Alex Sexton:** Yeah. I think a key thing to know about service workers is that they're installed; there's not like an install pop-up, but they're inherently installed in cache, and then the installed service worker runs anytime that URL hits, and then they're inherently also coupled with a cache object. So those two primitives are very powerful, because once I go to AlexSexton.com, AlexSexton.com can install a service worker.
 
-\[\\00:08:00.19\\\] One of the most beautiful things about service workers is that by definition on the first load you won't have one, so it forces -- we talked a little bit about this with \[unintelligible 00:08:11.20\] they're trying to force people to have fast website, but they might actually be doing the opposite in some cases.
+\[00:08:00.19\] One of the most beautiful things about service workers is that by definition on the first load you won't have one, so it forces -- we talked a little bit about this with \[unintelligible 00:08:11.20\] they're trying to force people to have fast website, but they might actually be doing the opposite in some cases.
 
 In this case, what they wanna force people is to work offline, but they don't want people to build websites that assume anything, assume a good network connection. Because once you're offline, everything's locally cached. The most beautiful thing about service workers is that the first time you load a page, the service worker cannot run because it couldn't have installed yet. So your website has to work on browsers that don't support service workers at all, as well as on the first load for browsers that do support it.
 
@@ -82,7 +82,7 @@ So it works on mobile devices, and then it also works offline. Maybe not complet
 
 **Rachel White:** Cool.
 
-**Alex Sexton:** \[\\00:11:49.17\\\] Also, one thing that exists on Android is an "Add To Homescreen" button. You can add metadata to your web app and say "Allow this to be added to the home screen", and then using service workers you can kind of add a web page as a native app, directly to your home screen, and then you can click on it like an app, and the URL bar goes away, and all that kind of stuff... And it works exactly like an app.
+**Alex Sexton:** \[00:11:49.17\] Also, one thing that exists on Android is an "Add To Homescreen" button. You can add metadata to your web app and say "Allow this to be added to the home screen", and then using service workers you can kind of add a web page as a native app, directly to your home screen, and then you can click on it like an app, and the URL bar goes away, and all that kind of stuff... And it works exactly like an app.
 
 That's on their essential checklist... I mean, it's not gonna work on half of the phones in existence for most audiences. That is very good, because it's not that difficult, but again, it's progressive in the sense that not everyone's gonna be able to use that.
 
@@ -102,7 +102,7 @@ So the idea is it's the best of both worlds, and it doesn't break all the use ca
 
 **Mikeal Rogers:** So being that the base level here is the service workers, and being that service workers aren't supported in Edge yet, they're not supported in Safari (mobile or desktop), how much of this is Google just kind of pushing this on everybody, and how much of it is beyond that and much more widely supported than that?
 
-**Alex Sexton:** \[\\00:16:15.01\\\] Pretty much everyone has intent to ship service workers, so it absolutely benefits you to build a website with service workers to get 40% of the people who use Android, or whatever... Like, that's not nothing; we do things for far fewer people. But as soon as service workers are turned on in these next versions of these browsers, you'll immediately reap both benefits, and that's kind of like the whole point.
+**Alex Sexton:** \[00:16:15.01\] Pretty much everyone has intent to ship service workers, so it absolutely benefits you to build a website with service workers to get 40% of the people who use Android, or whatever... Like, that's not nothing; we do things for far fewer people. But as soon as service workers are turned on in these next versions of these browsers, you'll immediately reap both benefits, and that's kind of like the whole point.
 
 I think everyone agrees that it's still early days, but it'll be a lot longer... If you think the service worker experience is good, I think Safari will implement it much more quickly if there are people actually building stuff with service workers, if that makes sense. So it's kind of push-pull. If no one builds anything with it, Safari won't ever build it and the experience will be worse. But if you build it now, you're gonna have to use the fallback, which is the regular old, poor network for Safari. Does that make sense?
 
@@ -126,11 +126,11 @@ They also have a tool called the Lighthouse tool that will run over your app and
 
 If you download one of Google's beta browsers or something like that, it actually says "Install Application." There are also things that I've seen demoed - I'm pretty sure they're live - to where if you visit a progressive web app enough times on the internet, Google will helpfully say "Hey, would you like to install this as an offline app on your homescreen?" So it's kind of like this beautiful world where the web becomes the app store again. It's a pipedream, I'm sure, but the closed network of the app store becomes the entire searchable web again, which is how it was in the early days of the web; the applications were just URLs, and now that's kind of different. Hopefully we can get that closer to that.
 
-\[\\00:19:59.25\\\] I think it's a noble goal... I understand people's aversion to acronyms and to naming the same thing different ways, or pushing things that are new or hard or not necessary for everybody... But I don't think this is bad; I think it's net good, and if everyone did it, the web would be better.
+\[00:19:59.25\] I think it's a noble goal... I understand people's aversion to acronyms and to naming the same thing different ways, or pushing things that are new or hard or not necessary for everybody... But I don't think this is bad; I think it's net good, and if everyone did it, the web would be better.
 
 **Mikeal Rogers:** On that note, we're gonna take a quick break, and when we come back we're gonna get into timezones. Stick around
 
-**Break:** \[\\00:20:29.21\\\]
+**Break:** \[00:20:29.21\]
 
 **Mikeal Rogers:** Alright, now we're gonna dive into date and timezones and this really rough corner of Javascript. I love Javascript as a language, it's really great in so many ways, and in this way it's really terrible. Anybody who's done Javascript for a long time or has used another language noticed how bad our Date/Time stuff is, especially what comes natively.
 
@@ -158,7 +158,7 @@ I don't know how much you all have had to deal with this, or if you have any hor
 
 **Mikeal Rogers:** Alright... So beyond that, there's some real complexities in working with date/time and working with timezones. In the mid-2000s I actually worked on calendaring standards at CalConnect, and unlike the \[unintelligible 00:23:36.13\] standards and stuff like that. So I'm very aware of the complexity you're trying to deal with... Javascript happens to have one of the least sophisticated and built out date/time objects, so it doesn't help you very much.
 
-\[\\00:23:52.26\\\] Since really the early 2000s, we've been building these third-party libraries to deal with a lot of this. One of the problems that we continue to run into is that these are some of the largest libraries you have to include. MomentJS is really good, it does a lot of really good stuff, but it's huge, and it's not huge in a way where, "Oh, that should be a small module that does one thing..." All of the logic to do one of these things - 90% of that is required for doing the other thing. It defies a lot of the abstractions and a lot of the modularity that we like to talk about.
+\[00:23:52.26\] Since really the early 2000s, we've been building these third-party libraries to deal with a lot of this. One of the problems that we continue to run into is that these are some of the largest libraries you have to include. MomentJS is really good, it does a lot of really good stuff, but it's huge, and it's not huge in a way where, "Oh, that should be a small module that does one thing..." All of the logic to do one of these things - 90% of that is required for doing the other thing. It defies a lot of the abstractions and a lot of the modularity that we like to talk about.
 
 **Alex Sexton:** Do you want us to agree...?
 
@@ -202,7 +202,7 @@ Yeah, so now we have tz data, but loading all that data takes a while. It's one 
 
 **Mikeal Rogers:** Yeah. If you read the standard, it essentially introduces two new types. It introduces what's called a local date/time, and a zoned date/time. A zoned date/time obviously has a timezone attached to it, and a local date/time is what you used to call a floating time. This is one of the places where scheduling gets really crazy, because even with timezones, you can essentially take a date/time with the timezone offset and then figure out what this numeric value is. There's a number associated with it that you can move around and you know numerically if it is greater than, or less than, or within certain boundaries.
 
-\[\\00:28:19.03\\\] But then you deal with floating times, and floating times are a real pain in the ass because it's literally a time somewhere. It should map to whatever you want to apply a localized date/time object. A good example of this is if you wanna say a particular day is a holiday globally, it would be that day, from the beginning of that day until the end of the day, in whatever timezone anybody happened to be in. So it would be a floating time, but that means that it isn't mapped to any kind of alphanumeric, which is really hard.
+\[00:28:19.03\] But then you deal with floating times, and floating times are a real pain in the ass because it's literally a time somewhere. It should map to whatever you want to apply a localized date/time object. A good example of this is if you wanna say a particular day is a holiday globally, it would be that day, from the beginning of that day until the end of the day, in whatever timezone anybody happened to be in. So it would be a floating time, but that means that it isn't mapped to any kind of alphanumeric, which is really hard.
 
 **Alex Sexton:** Yes, Mikeal.
 
@@ -224,7 +224,7 @@ Yeah, so now we have tz data, but loading all that data takes a while. It's one 
 
 Maybe you don't get the weird month offset versus date offset thing that we get - that's just our own special joy - but we can't ship every last timezone and translation and everything of every different thing to the browser every time, because you're just gonna have to ship half a megabyte of time-related things with every single web app.
 
-\[\\00:32:06.19\\\] I think it's very important that these become native, built-in standards that ship with browsers, much like collation, or whatever.
+\[00:32:06.19\] I think it's very important that these become native, built-in standards that ship with browsers, much like collation, or whatever.
 
 **Rachel White:** That makes sense.
 
@@ -262,7 +262,7 @@ Then as more primitives and natives and more specific modules come out, it's see
 
 **Rachel White:** Yaay!
 
-**Break:** \[\\00:36:18.15\\\]
+**Break:** \[00:36:18.15\]
 
 **Mikeal Rogers:** Alright, let's jump into it... We've got a new project of the week, Glitch. This is the first project that wasn't just an open source GitHub repo; this is actually like a slightly larger project for learning. Rachel, why don't you tell us a bit about this?
 
@@ -274,7 +274,7 @@ The possibilities are seriously endless for the ways that people are gonna be ab
 
 **Mikeal Rogers:** \[laughs\] What seems to set this apart is really the focus on education. We've seen a lot of collaborative editors and web editors and all that, but this is really focused on teaching people.
 
-**Rachel White:** \[\\00:40:01.07\\\] It's super focused, and it's broken down... It's still in the beta right now, so it's not hugely open to the public, while they're still trying to fill out some things, but if you go into the site you'll see that there's different curated collections of apps where you can go to Hello Worlds for certain things, or games, or hardware projects and bots... So you can go in and be like "Oh wow, this is a really cool Slack/commands" like we use for the how much time is left until JS Party is going to start. And if I wanted to make my own, I could click on that, hit "Remix my own" and I'd be able to see a whole entire codebase of it already working, and then I could just tweak it to fulfill the needs that I have. It seems really nice.
+**Rachel White:** \[00:40:01.07\] It's super focused, and it's broken down... It's still in the beta right now, so it's not hugely open to the public, while they're still trying to fill out some things, but if you go into the site you'll see that there's different curated collections of apps where you can go to Hello Worlds for certain things, or games, or hardware projects and bots... So you can go in and be like "Oh wow, this is a really cool Slack/commands" like we use for the how much time is left until JS Party is going to start. And if I wanted to make my own, I could click on that, hit "Remix my own" and I'd be able to see a whole entire codebase of it already working, and then I could just tweak it to fulfill the needs that I have. It seems really nice.
 
 **Alex Sexton:** One of my favoritest, favorites, hottest takes on it that I saw on the internet was that it's kind of like a next generation GeoCities or Neopets or whatever you grew up with... Members.aol.com \[unintelligible 00:41:09.26\] where people could very easily get going based on templates, and then there were endless tweakers and copiers and all sorts of stuff. Half the people I know who got started in web development was like trying to style their MySpace page or their Neopets page, or something like that. So I think this has a lot of potential to fulfill some of that stuff, but at a larger level, and I like that take a lot.
 
@@ -286,7 +286,7 @@ We really wanna make an application that is for everyone - developers and non-de
 
 **Rachel White:** I know that when you all launched this officially on Monday I was super excited, because I could just think of so many times in my professional career when I didn't necessarily understand something that this would have been super helpful for me to brainstorm something and have it work as I code, and have people help me. What's some of the feedback that you've been getting from people that have gotten to mess around with this so far?
 
-**Jenn Schiffer:** \[\\00:44:02.26\\\] Well, I've seen a lot of people who have had ideas... In the Maker Movement there are a lot of people who want to do stuff with code now, but they're not sure where to start. For me, when I was building web apps and consulting, one of the first things I would start is deploying a server and getting everything installed onto it, to set up for whether it's like a Node app, or a PHP app, or stuff like that... And that's really hard. And when I wanna teach people how to code, I can't really start setting them up with AWS and stuff like that, and I'm already getting feedback from educators who are like, "Oh, I can use this to teach my students. I could start up a new project, a new simple web application, have them remix it to add their own stuff to it."
+**Jenn Schiffer:** \[00:44:02.26\] Well, I've seen a lot of people who have had ideas... In the Maker Movement there are a lot of people who want to do stuff with code now, but they're not sure where to start. For me, when I was building web apps and consulting, one of the first things I would start is deploying a server and getting everything installed onto it, to set up for whether it's like a Node app, or a PHP app, or stuff like that... And that's really hard. And when I wanna teach people how to code, I can't really start setting them up with AWS and stuff like that, and I'm already getting feedback from educators who are like, "Oh, I can use this to teach my students. I could start up a new project, a new simple web application, have them remix it to add their own stuff to it."
 
 Then we also have multiple user collaboration, and even more really cool, new features that aren't even out yet (they're coming out soon) that I think will make educators really happy, and also users who want to collaborate with their peers really well, so... So far so good. People seem to be enjoying it, and we've been really following tweets about it and talking to people, and we're out there listening and watching what you're all saying, so watch your back, Alex.
 
@@ -306,7 +306,7 @@ And then it just makes sense, because everyone wants people to have the ability 
 
 Nowadays it's culture -- a lot of people who are new to development or just are younger don't remember we're a part a of the whole "view source" aspect of building. We're building applications with frameworks that obfuscate... When you look at the source you don't see exactly what's there, so people aren't learning in that way... Which is fine. That's not saying that frameworks are bad, it's just that if you wanna teach people how to program, you really can't give them a React or Ember app and say "Learn how to build your first web page with this as an example."
 
-\[\\00:48:19.01\\\] Not only that, but if you wanna teach Node, you can't view the source of a Node application, and Glitch allows you to view the code of the application, both the frontend and backend files, and I think that's pretty neat. You'll be able to now in the browser see how the actual guts of the application work, and I think that's really cool.
+\[00:48:19.01\] Not only that, but if you wanna teach Node, you can't view the source of a Node application, and Glitch allows you to view the code of the application, both the frontend and backend files, and I think that's pretty neat. You'll be able to now in the browser see how the actual guts of the application work, and I think that's really cool.
 
 **Rachel White:** Yeah. I think it's also cool that you're making it a lot easier for companies that have APIs to be able to say that they want to be a part of this and to encourage more people to try and work with the API. Don't you have the partnership with Slack now where people can more easily and accessibly make Slack bots and stuff like that?
 
@@ -344,7 +344,7 @@ So that's another case \[unintelligible 00:50:06.06\] community page we have a l
 
 **Rachel White:** Well, it is March Madness, so I'm sure she has plenty of picks. But back to Glitch... What is one of the coolest things that you've seen somebody make, that wasn't involved on the original -- somebody that doesn't work for Go Mix, that has jumped in since Monday, and went in and made something. What is your favorite thing that you've seen?
 
-**Jenn Schiffer:** \[\\00:52:12.13\\\] Let's see... Let me think, there's been a lot of stuff. Somebody tweeted at me today this cool pixel art color analyzer... It's like all these visualizations where you add an image and it analyzes all the colors. That was really cool.
+**Jenn Schiffer:** \[00:52:12.13\] Let's see... Let me think, there's been a lot of stuff. Somebody tweeted at me today this cool pixel art color analyzer... It's like all these visualizations where you add an image and it analyzes all the colors. That was really cool.
 
 People have been sending me example apps with things that they've been working on at work. Marco \[unintelligible 00:52:41.03\] has been sending really cool stuff... I think some of it involves service workers. What else have people been making...? I've seen some cool weather Dark Sky's API apps, and that's like a really cool thing that we've been trying to drive - using this tool as a tool to prototype stuff with APIs, and we've got some cool features coming out in the future about that, especially with different other companies that we're working with, to get them closer to users who wanna use their APIs.
 
@@ -370,7 +370,7 @@ If you want to be a part of that, I would ask you to reach out to me or tweet at
 
 **Mikeal Rogers:** A pick is anything that you wanna talk about... Literally, anything. It doesn't have to be code, although many of them have been code in different projects that we wanna highlight. My pick this week is not code... A lot of people that follow me on Twitter see all of the amazing bread baking that I'm doing, but also I'm just doing other kinds of fermenting all the time, and those don't get posted on Twitter because they look grosser than beautiful, freshly baked bread.
 
-\[\\00:56:05.12\\\] But my pick is this book called Wild Fermentation, by Sandor Katz. It's one of the best books on fermentation out there. He also wrote this much bigger book called The Art Of Fermentation... But Wild Fermentation is a book that you could just pick up and flip through and see awesome things that you can do at home real quick to ferment different foods. You have to think of it as like another form of cooking, basically. You're completely changing the flavors and everything going on, so that's my pick. Check out Wild Fermentation.
+\[00:56:05.12\] But my pick is this book called Wild Fermentation, by Sandor Katz. It's one of the best books on fermentation out there. He also wrote this much bigger book called The Art Of Fermentation... But Wild Fermentation is a book that you could just pick up and flip through and see awesome things that you can do at home real quick to ferment different foods. You have to think of it as like another form of cooking, basically. You're completely changing the flavors and everything going on, so that's my pick. Check out Wild Fermentation.
 
 **Rachel White:** Okay... My pick for the week is going to be a repository that is a compilation of a bunch of companies that do not whiteboard you. There is a user on GitHub called Poteto (I hope that's how you pronounce it). It's really great, because I think that a lot of \[siren sound\] -- wow... Oh, it's a siren... I thought that was a yelling child. Hold on one second, the cops are coming, certainly... Okay, so apparently the NYPD has even more serious opinions on whiteboarding than I do... So this is a whole list of companies that don't whiteboard.
 
@@ -398,7 +398,7 @@ So it's super informative for people that may be looking to switch jobs or are l
 
 **Jenn Schiffer:** Yeah... The Wing is a good pick. The Wing is a women's social club in New York. Rachel and I are members, and it's been a really great space, full of really awesome, ambitious women doing really cool stuff. It's essentially like a co-working space, but it's really nice... People typically think that if you get a group of really successful women together - there's like hundreds of us - that it would be very caddy, but everyone is so nice and welcoming. It's a really great time. I'm like, "How do we make the rest of the world like this?"
 
-\[\\00:59:14.07\\\] Then another pick is - I'll post this in the Slack channel... There's this tweet by this guy - his name is splenda daddy... He posted a picture of a chameleon that he tried to draw from memory, and the tweet just said "I started crying in class because I tried to draw a chameleon from memory", and the picture of it just makes me cry as well. So I'm posting that on the Slack channel...
+\[00:59:14.07\] Then another pick is - I'll post this in the Slack channel... There's this tweet by this guy - his name is splenda daddy... He posted a picture of a chameleon that he tried to draw from memory, and the tweet just said "I started crying in class because I tried to draw a chameleon from memory", and the picture of it just makes me cry as well. So I'm posting that on the Slack channel...
 
 Anyway, those are my picks. Please like and subscribe. \[laughs\]
 

@@ -36,7 +36,7 @@
 
 **Adam Stacoviak:** So when was that for you, before you were helping with open source?
 
-**Tracy Hinds:** \[\\00:03:56.21\\\] My event organizing has always been attached to something like Node or Javascript, but I haven't been -- I mean, outside of contributing to the event open source or tooling for that, it wasn't probably until last year... I was making open source tooling for conferences, but that's what my drive was outside of work, so that's what got me interested into contributing back into the community in a way that I wouldn't have to walk everyone through it personally.
+**Tracy Hinds:** \[00:03:56.21\] My event organizing has always been attached to something like Node or Javascript, but I haven't been -- I mean, outside of contributing to the event open source or tooling for that, it wasn't probably until last year... I was making open source tooling for conferences, but that's what my drive was outside of work, so that's what got me interested into contributing back into the community in a way that I wouldn't have to walk everyone through it personally.
 
 Otherwise, I wasn't working on things like Node until this year as an open source contributor, which is really whacky.
 
@@ -68,7 +68,7 @@ Otherwise, I wasn't working on things like Node until this year as an open sourc
 
 **Tracy Hinds:** That's a readme. We have many of the years of the websites that we ran for the conference, because they tend to be one-offs. Cascadia's is documented in a way that you should just be able to clone it and run it. The How To Conf repo is not a whole package, so that's definitely the readme documentation of how to run it, but it also has spreadsheets for budgeting and keeping track of volunteers... We live in the world of spreadsheets.
 
-\[\\00:07:59.17\\\] It was sort of like, "Well, we can spend that time to create apps that would help us organize this in a better way, but there's either pay tools that do that, so we don't wanna spend too much time because people are already using it", or we're just fine with using spreadsheets.
+\[00:07:59.17\] It was sort of like, "Well, we can spend that time to create apps that would help us organize this in a better way, but there's either pay tools that do that, so we don't wanna spend too much time because people are already using it", or we're just fine with using spreadsheets.
 
 **Adam Stacoviak:** How do you feel about the site for this conference here? I know I talked to Mikeal earlier, maybe this is a touchy subject, but...
 
@@ -104,7 +104,7 @@ Otherwise, I wasn't working on things like Node until this year as an open sourc
 
 **Adam Stacoviak:** Right. What's the challenge there with sponsors? Are you involved in that with this conference much, or other conferences?
 
-**Tracy Hinds:** \[\\00:11:44.08\\\] This conference I wasn't, no. Todd \[unintelligible 00:11:45.21\] lead the charge on that for us, and thank goodness, because we've all got a lot of ownership in these conferences, but for me for this it's content, recruiting speakers, making sure that we've got a good variety of lineup, as well as diversity of speakers, making sure that we're also including people who are newer speakers, as well as speakers from all over the world, because in the U.S. it tends to be U.S.-centric, so we wanna make sure that...
+**Tracy Hinds:** \[00:11:44.08\] This conference I wasn't, no. Todd \[unintelligible 00:11:45.21\] lead the charge on that for us, and thank goodness, because we've all got a lot of ownership in these conferences, but for me for this it's content, recruiting speakers, making sure that we've got a good variety of lineup, as well as diversity of speakers, making sure that we're also including people who are newer speakers, as well as speakers from all over the world, because in the U.S. it tends to be U.S.-centric, so we wanna make sure that...
 
 **Adam Stacoviak:** Right, or even English-centric, or language barrier...
 
@@ -132,7 +132,7 @@ It just might make us more aware of what words not to use; just use more simple 
 
 **Tracy Hinds:** Mikeal and I went to Beijing for a Node live where we met Shiya, they had translators. They had no problem providing translators either, but I just couldn't imagine... We have a number of folks who came over that we met when we were in Beijing who were speaking this weekend, and fortunately, I think they have - they may not think so, but I think that they have an excellent grasp of the English language, and that's a huge hurdle.
 
-\[\\00:16:15.25\\\] These folks are so smart, and the topics that they're talking about are so complex... And they're able to do it in English. That's what I just can't -- we're very lucky, we have it very easy.
+\[00:16:15.25\] These folks are so smart, and the topics that they're talking about are so complex... And they're able to do it in English. That's what I just can't -- we're very lucky, we have it very easy.
 
 **Adam Stacoviak:** We have it very easy. Let's talk about an uneasy subject sometimes - it depends upon which side of the fence you're on in terms of getting it right or getting it wrong; it's going back to our other conversation... A big effort for you in particular has been working on inclusivity at this conference, and making people feel safe and comfortable... A great post on Medium, which we'll link up in the show notes of this conversation, but a lot of great stuff happened at this conference in particular just to make people feel more welcome. Everything from childcare, to college stickers, to identify the comfortability of being photographed or talked to... What effort goes into making a conference like this feel safe, feel inclusive, and not just feel it actually be?
 
@@ -160,7 +160,7 @@ I have people who approach me for even just saying, "How did you get a diverse l
 
 **Tracy Hinds:** Yeah, so you don't need to erode that. And then you also don't want the folks who are still struggling with understanding the inclusivity and diversity challenge... Maybe they applied for a conference and they didn't get in, and then they hear that there was an effort to make a more diverse lineup, then maybe they're just gonna say, "They're not actually a good speaker, they just got there because they're a woman, or because they're black", and that's not okay.
 
-\[\\00:19:54.19\\\] It's not fair to the talented speakers for anyone to think that of them, because that's not why they're there. So it's definitely those sorts of efforts, and that's one of the reasons why I like to be so involved in the communities that I live in, because I wanna make sure that people are being -- you're bringing that back down from the conference level to the meetups, and making sure that people are feeling that at every level. I got really lucky with New York, that we have that. A lot of the organizers there do that. It was a lot harder work in Portland.
+\[00:19:54.19\] It's not fair to the talented speakers for anyone to think that of them, because that's not why they're there. So it's definitely those sorts of efforts, and that's one of the reasons why I like to be so involved in the communities that I live in, because I wanna make sure that people are being -- you're bringing that back down from the conference level to the meetups, and making sure that people are feeling that at every level. I got really lucky with New York, that we have that. A lot of the organizers there do that. It was a lot harder work in Portland.
 
 Portland is historically a less diverse city, so it was much more of a struggle to have a good mix of backgrounds for people who are attending a meetup, and who were practicing in giving talks, and then going to conferences. The work there is very different, I think.
 
@@ -180,7 +180,7 @@ We all want to do well... Or maybe we don't all want to; generally, we all desir
 
 **Adam Stacoviak:** Can you talk about the childcare portion of this? What impact does that have? When I talked to Mikeal Rogers, he mentioned the experience in the history of the Linux Foundation having had already a system in place. Can you talk a bit about that system if you're familiar with it, or what it took to put childcare in place well?
 
-**Tracy Hinds:** \[\\00:24:06.10\\\] I'm not familiar with the system that the Linux Foundation established specifically; I know that having childcare on site is a hurdle. You have parents who don't wanna trust someone that they've never met before, even if they're a certified caregiver.
+**Tracy Hinds:** \[00:24:06.10\] I'm not familiar with the system that the Linux Foundation established specifically; I know that having childcare on site is a hurdle. You have parents who don't wanna trust someone that they've never met before, even if they're a certified caregiver.
 
 **Adam Stacoviak:** I can feel that, I have a son and a daughter.
 
@@ -210,7 +210,7 @@ It's exciting to see what the Linux Foundation is setting as example. It's easie
 
 **Adam Stacoviak:** It's a whole different game.
 
-**Tracy Hinds:** \[\\00:27:47.02\\\] It is, and it also means for far more people. If you want all the experts in the room, there's a lot of people, if you're trying to get everybody in. So single-track can be a little difficult for that.
+**Tracy Hinds:** \[00:27:47.02\] It is, and it also means for far more people. If you want all the experts in the room, there's a lot of people, if you're trying to get everybody in. So single-track can be a little difficult for that.
 
 **Adam Stacoviak:** Just for size, what's the rough attendee range here?
 
@@ -252,7 +252,7 @@ It's exciting to see what the Linux Foundation is setting as example. It's easie
 
 **Tracy Hinds:** Yeah, so there's been a lot of discussion around rebooting documentation in general, because we've seen a lot of slowdown on that; that could be not just documentation for the API, it could also be on "What are the values of the Node community?" Because it's grown so much, you've got folks who've been here for five years, and they certainly have an opinion on what the values are of someone who's in the Node community, and it's nice to be able to onboard other people to that and make sure that they understand that this is a friendly place, this is a place that people are excited to nerd out with you on things, and you can find your niche and run with it. But sometimes people don't get that experience when they start, and that's unfortunate, so that's why it would be helpful for us to have guidelines... Or, it's not guidelines, it's like a guide for people to understand where they can go when they get started in the community and when they get started in the language, for help or for encouragement, or for just learning.
 
-\[\\00:32:15.03\\\] There's definitely a lot of room for us to do that, and we need way more people working on it. Core is so important, but it's a very small footprint of what Node is. For instance, right now I've drafted up a charter for a new org in the Node Foundation, alongside the TSC, which would be the community org.
+\[00:32:15.03\] There's definitely a lot of room for us to do that, and we need way more people working on it. Core is so important, but it's a very small footprint of what Node is. For instance, right now I've drafted up a charter for a new org in the Node Foundation, alongside the TSC, which would be the community org.
 
 So much of our success over the years has been stuff like Node school and Node bots, and the meetups that happen around the world, and the other conferences that happen. They don't need to be under the Node Foundation in terms of paperwork and governance, but they absolutely need representation, because we're doing things at a high level that they need to be giving input on, and it would be nice to have formal mechanisms for that. That's actually part of the inclusivity proposal that I had laid out.
 
@@ -270,7 +270,7 @@ It doesn't sound at first like it would make sense to be a strategy in inclusivi
 
 **Tracy Hinds:** Yeah. A lot of events - and it's not just events that would like help, but a lot of them see the challenges around sponsorships or getting money, and they want money. But that doesn't actually sustain their project or their organization. So having folks who would like to offer advice, or having a repo where we talk about these things... Because it's not just about money, it's also about the challenges, about not having internet and trying to NPM install everything.
 
-\[\\00:35:54.29\\\] I saw that with Node School early on, how much the organizers helped one another with that. I mean, I was one of them, and that helped us all rise in our local groups, and really build communities there. But we're seeing new rounds of support needed, such as... Maybe one of those orgs wants to establish governance, and they know that we're slightly more experienced at it than them.
+\[00:35:54.29\] I saw that with Node School early on, how much the organizers helped one another with that. I mean, I was one of them, and that helped us all rise in our local groups, and really build communities there. But we're seeing new rounds of support needed, such as... Maybe one of those orgs wants to establish governance, and they know that we're slightly more experienced at it than them.
 
 **Adam Stacoviak:** So they come to you for advice on how to set up things...?
 
@@ -300,7 +300,7 @@ Having folks that are on the ground like that gives you a less myopic perspectiv
 
 Beijing was an especially powerful visit for finding out how was behind the Great Firewall. We knew we were gonna run into some surprises, we just didn't know how rich that community would be, and we have no connection to it. So that's... They're running their own NPM.
 
-**Adam Stacoviak:** \[\\00:40:01.13\\\] It's the language barrier and it's also the actual firewall barrier, so you get two huge hurdles to tackle when it comes to opening the doors to be more inclusive to China.
+**Adam Stacoviak:** \[00:40:01.13\] It's the language barrier and it's also the actual firewall barrier, so you get two huge hurdles to tackle when it comes to opening the doors to be more inclusive to China.
 
 **Tracy Hinds:** Right. So that's something that we could really work on. I was thinking the idea would be sort of like this research effort - because it takes a lot of work to build those networks. Being in person is a much more natural way to do so, even if there's a language barrier. But it's pretty cost-prohibitive and it can be physically taxing to travel that much, so we have to be strategic about it.
 
@@ -346,7 +346,7 @@ I'm a terrible salesperson; I can't lie, I can't sell anything unless I really l
 
 **Tracy Hinds:** Yeah... Taking advantage of what each of us are good at. You want the local community to feel empowered by running this awesome event that has maybe Node Foundation backing, and we're helping encourage TSC or CTC members to come and speak about a topic that no one in the local community is really working on. That's really exciting, because it just engages people in a way that watching a conference talk online doesn't do.
 
-**Adam Stacoviak:** \[\\00:44:00.16\\\] Right, face-to-face is better, but we do Skype, you know... Having a podcast, I don't meet most of the people I talk to. If I had to, we would never get to do it, so we have to be thankful for what we do get. But face-to-face trumps it most times.
+**Adam Stacoviak:** \[00:44:00.16\] Right, face-to-face is better, but we do Skype, you know... Having a podcast, I don't meet most of the people I talk to. If I had to, we would never get to do it, so we have to be thankful for what we do get. But face-to-face trumps it most times.
 
 **Tracy Hinds:** Yeah, absolutely. Well, or just being able to have the conversation. I love that NodeSource started their online meetup, which is great, because there are a lot of really awesome programmers who aren't in major metropolitan areas...
 
@@ -368,7 +368,7 @@ I think that will help us reach a lot of folks throughout the world, so long as 
 
 And education... Education is in full swing, and we're in this phase now, looking into the new year, where I have to see what the priorities should be, and I'm waiting for my survey to come back.
 
-\[\\00:48:04.11\\\] Greg Wallace and I - Greg is in marketing for us - helped build this really awesome survey to try and figure out who is writing and using Node, and that's gonna help us figure out what we should be focusing our resources on for next year, or our energies, because I wanna know...
+\[00:48:04.11\] Greg Wallace and I - Greg is in marketing for us - helped build this really awesome survey to try and figure out who is writing and using Node, and that's gonna help us figure out what we should be focusing our resources on for next year, or our energies, because I wanna know...
 
 We are gonna have a certain audience; when people are filling out the survey, it's not gonna be people coming to Node, it's gonna be people who are already in it... But sort of seeing, if they've been in it for a little bit, how much of a struggle it was for getting started, or docs... And also asking if they're interested in helping change that.
 

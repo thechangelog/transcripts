@@ -30,7 +30,7 @@ There's one other very innovative feature of Pachyderm that doesn't exist in Had
 
 **Brian Ketelsen:** That's amazing. That's truly a big deal.
 
-**Erik St. Martin:** \[\\00:03:43.15\\\] Yeah, this is a huge interest to Brian and I, because Brian and I spent actually two different jobs where we worked with big data, doing a lot of fraud prediction and credit scoring... A lot of that with the laws and things like that, the provenance is huge because you can cache these counts and values and things like that that end up going into your regression model for the scoring. But if you ever had a lawsuit or something come back at you, you would be able to easily figure out which data was used to calculate that. It's massive.
+**Erik St. Martin:** \[00:03:43.15\] Yeah, this is a huge interest to Brian and I, because Brian and I spent actually two different jobs where we worked with big data, doing a lot of fraud prediction and credit scoring... A lot of that with the laws and things like that, the provenance is huge because you can cache these counts and values and things like that that end up going into your regression model for the scoring. But if you ever had a lawsuit or something come back at you, you would be able to easily figure out which data was used to calculate that. It's massive.
 
 **Brian Ketelsen:** Yeah, it's a big deal. I remember when Pachyderm came out - I guess it's probably been roughly two years now. We actually played with it back at the last company we worked at, and it was pretty impressive even back in the earliest days.
 
@@ -52,7 +52,7 @@ If you're in the EU and the bank says, "Sorry, you're not getting this loan", yo
 
 **Erik St. Martin:** The hard part, if people imagine that problem, is this data is continuously changing every day. Sometimes data will be bad and have to be purged from the system, and the dataset is constantly changing that's being used as part of the scoring model so to be able to go back in time and say, "This is the specific data that went into that calculation..." Because the consumer is gonna come back after some period of time and your dataset can change significantly in a month or two months. And to be able to easily go back and say, "This is exactly the dataset that was used to calculate that" is huge.
 
-**Joe Doliner:** \[\\00:07:50.29\\\] Yeah, absolutely. And the other thing that we really like about provenance is that it really allows the scientific method. Because if you've got data running in the company - you're a data scientist, you come in, you see some result there that was computed by some huge chain of steps that your company has defined over the last year, and something looks weird to you. You wanna do some further investigation into where this result came from. If you can't easily just trace it back through those steps, find the input data and find the processing that went into it, you can waste so much time just going and asking people about that, just so that you can do some further experimentation... Whereas with Pachyderm it's all recorded there, it's all reproducible. You can just look it all up and you're off and running, doing your own experiments to further clarify the results.
+**Joe Doliner:** \[00:07:50.29\] Yeah, absolutely. And the other thing that we really like about provenance is that it really allows the scientific method. Because if you've got data running in the company - you're a data scientist, you come in, you see some result there that was computed by some huge chain of steps that your company has defined over the last year, and something looks weird to you. You wanna do some further investigation into where this result came from. If you can't easily just trace it back through those steps, find the input data and find the processing that went into it, you can waste so much time just going and asking people about that, just so that you can do some further experimentation... Whereas with Pachyderm it's all recorded there, it's all reproducible. You can just look it all up and you're off and running, doing your own experiments to further clarify the results.
 
 **Brian Ketelsen:** That's really amazing. Can you talk about where Go fits into this? I know there's a lot of containerization, but do you have daemons that are written in Go? What's the glue that holds all this together?
 
@@ -71,7 +71,7 @@ We also have a frontend command line interface tool called Pach Control - that's
 
 The code that you will write is just a binary, and you put it in a container, you give it to Pachyderm, you tell it "Here's my container, here's the command I want you to run in the container" and when that command runs inside of the file system that it sees in the container, there will be a small chunk of the log messages for you to process, and you just need to read that off of the disk. There's no worrying about having the right bindings for a different language for this... It's just operating system calls; it's literally a file on disk. You read that off, you do whatever processing you wanna do with it and then you write data back into the file system in a different spot.
 
-\[\\00:11:58.28\\\] After that code runs, Pachyderm knows to slurp up that data, put it back into the file system and trigger downstream processes in exactly the same way. We orchestrate all of that pipelining, we orchestrate all of where the data goes, and you just orchestrate what specifically the actual analysis is.
+\[00:11:58.28\] After that code runs, Pachyderm knows to slurp up that data, put it back into the file system and trigger downstream processes in exactly the same way. We orchestrate all of that pipelining, we orchestrate all of where the data goes, and you just orchestrate what specifically the actual analysis is.
 
 This can get pretty complicated too with how you're joining data sets. Youn can do vast multi-way joins of different data sets and we'll distribute all of that, we'll orchestrate all of that so that your code gets run... But again, you're just writing the "Once I've got data on disk, what do I do with it?" That's all you need to write.
 
@@ -123,7 +123,7 @@ This can get pretty complicated too with how you're joining data sets. Youn can 
 
 **Erik St. Martin:** I tend not to post my question, though. I usually reach out privately to people or talk in channels, so I don't really come across my own question.
 
-**Brian Ketelsen:** \[\\00:16:05.06\\\] Mine are usually blog posts. I wrote this blog post about how to do X, Y and Z, and then tried to do it again two years later and I find my own blog post answering my own questions. I hate it.
+**Brian Ketelsen:** \[00:16:05.06\] Mine are usually blog posts. I wrote this blog post about how to do X, Y and Z, and then tried to do it again two years later and I find my own blog post answering my own questions. I hate it.
 
 **Erik St. Martin:** Your own blog posts...
 
@@ -157,7 +157,7 @@ We're doing a really big push right now; basically, our users are forcing us to 
 
 **Joe Doliner:** There's a bunch of them. One of the things we've hit a lot is just figuring out exactly where to put the data within the Docker containers, so that things don't crash. Kubernetes unfortunately right now doesn't have a way to ask for disk space as a quota. You can ask for memory and CPU quotas when you schedule pods, but you can't ask for disk space. At first, we were just sort of writing data into the Docker container, and that was fine until it turns out there's a ten-gigabyte limit on the amount you can just write within a Docker file system... Which totally makes sense, because this is like an overlay file system, so you shouldn't be writing more. We solved that - you can just write to the host path of the machine, but then orchestration can get a little bit more complicated in there.
 
-\[\\00:19:48.14\\\] The other things that we've just hit are like - we have sort of two interesting axes that people scale along. One is they have really big files; they'll have a hundred gigabyte file that they throw in Pachyderm that they wanna process. Then we'll have people with small files but millions of them. With millions, there's a few places where we were sort of opening too many connections to download all of these files; we were running out of file descriptors and stuff like that.
+\[00:19:48.14\] The other things that we've just hit are like - we have sort of two interesting axes that people scale along. One is they have really big files; they'll have a hundred gigabyte file that they throw in Pachyderm that they wanna process. Then we'll have people with small files but millions of them. With millions, there's a few places where we were sort of opening too many connections to download all of these files; we were running out of file descriptors and stuff like that.
 
 So these are all the standard edges that you start to sand down as soon as you actually are putting the system through its paces and really starting to get these workloads working.
 
@@ -177,11 +177,11 @@ Minio is super smooth to set up. It's all written in Go, and we now have direct 
 
 **Erik St. Martin:** I think it's about time for our first sponsored break, and after we come back, I'd love to talk to you -- you brought up a good point in our e-mail exchange before the show about talking about open source projects, like running a large open source project and building a company around that, and I'd love to dig into that a little deeper. But first, our first sponsor for today is Toptal.
 
-**Break:** \[\\00:22:46.22\\\]
+**Break:** \[00:22:46.22\]
 
 **Erik St. Martin:** And we are back. We're talking with Joe Doliner from Pachyderm. Before the break you had mentioned maintaining an open source project and the human side of it and how to stay open source but build a company surrounding that. I'd love feedback on that, because it's an interesting problem - how do you give away the sauce for free, but make a successful company around that?
 
-**Joe Doliner:** \[\\00:23:45.13\\\] It's a very interesting problem, and the short answer is I think it's a very hard problem. There are some people when I tell them that our software is open source, they're just like, "Wow, so does that mean you're never gonna be able to make any money off of it?" That's not one hundred percent true, but that is a very good first instinct to have, because it does seem like you're giving away the sauce for free, and it's gonna be very hard to charge people if you can't restrict their access to it.
+**Joe Doliner:** \[00:23:45.13\] It's a very interesting problem, and the short answer is I think it's a very hard problem. There are some people when I tell them that our software is open source, they're just like, "Wow, so does that mean you're never gonna be able to make any money off of it?" That's not one hundred percent true, but that is a very good first instinct to have, because it does seem like you're giving away the sauce for free, and it's gonna be very hard to charge people if you can't restrict their access to it.
 
 Starting at the beginning, to get an open source project that's gonna get any sort of traction, that's gonna get people interested in it, you have to align a set of incentives of people in the outside world. You have to a) make something that's gonna be useful to people. It has to solve a real problem for them, it has to be better and different enough from the things that exist that they're actually gonna wanna go through the pains of using a new product, because for the first very long time in the life of your project, it's gonna suck. There's just no way around that. Software has to suck for a long time before it ever becomes good at all. So you have to give people some very interesting, compelling new thing to get them to even walk in the door and start playing with the software.
 
@@ -200,7 +200,7 @@ We saw that people were switching to containers, people were switching to contai
 The other very interesting aspect of this is how do you build a company around it, because one of the things that we've needed to do, we've gotten some developers of the open source community that have come in, but most of the people who do the heavy lifting of Pachyderm development are developers that we employ, and they're getting paid to do their job, which is a great way to align incentives with money.
 For that, you need to have some way that you can eventually make money off of your product. I think for a lot of different kinds of open source projects, I just don't see any way that this can ever happen. If you're making an open source BitTorrent client for example, I don't see how anybody's ever gonna pay for that. Maybe I'm wrong, I'd love to be proven wrong, but I think a lot of people won't.
 
-\[\\00:27:51.21\\\] For us, fortunately... Companies, when they invest in data infrastructure, it's a big investment. If they're running Pachyderm, they're probably gonna have 10, 20 engineers who are just using it every single day as a major part of their workflow. In those cases, companies are often very willing to pay for support contracts, because it will just make their developers more effective, it saves money... That's how we make money right now, we just sell companies support contracts. That means they get to call us on the phone and we'll fix whatever problems that they have.
+\[00:27:51.21\] For us, fortunately... Companies, when they invest in data infrastructure, it's a big investment. If they're running Pachyderm, they're probably gonna have 10, 20 engineers who are just using it every single day as a major part of their workflow. In those cases, companies are often very willing to pay for support contracts, because it will just make their developers more effective, it saves money... That's how we make money right now, we just sell companies support contracts. That means they get to call us on the phone and we'll fix whatever problems that they have.
 
 The other thing that can work in terms of a business model for open source is if you can turn it into some sort of a hosted model. The analogy isn't totally perfect, but GitHub is sort of a monetization strategy for Git, right? GitHub itself isn't open source, but you can see how that works.
 
@@ -222,7 +222,7 @@ I feel like part of the adoption curve in an open source project relates to the 
 
 **Erik St. Martin:** Yeah, it's an interesting world, trying to balance how to stay profitable and how to keep giving back.
 
-**Joe Doliner:** \[\\00:32:04.00\\\] Absolutely, and I was just gonna say, of course, I think the original example of the charismatic but controversial leader is Linus Torvalds, who has no qualms about taking a stand about anything he believes in, which I think is absolutely great.
+**Joe Doliner:** \[00:32:04.00\] Absolutely, and I was just gonna say, of course, I think the original example of the charismatic but controversial leader is Linus Torvalds, who has no qualms about taking a stand about anything he believes in, which I think is absolutely great.
 
 **Erik St. Martin:** It's hard... There's days I wish I was born with whatever gene made him that way. \[laughter\]
 
@@ -256,7 +256,7 @@ So it was a fun class to give, but one of the things that I found to be almost p
 
 **Erik St. Martin:** And the hard part about that though is whether it's a new view in a technology, right? Linus developed it as a way of having distributed teams, right? But I think GitHub did put their own little spin on it though. They changed the way developers share code, too.
 
-\[\\00:36:02.21\\\] I guess there was SourceForge and things like that before GitHub, but it didn't feel as interactive as GitHub does.
+\[00:36:02.21\] I guess there was SourceForge and things like that before GitHub, but it didn't feel as interactive as GitHub does.
 
 **Brian Ketelsen:** It wasn't at all. GitHub made it social, and that's the big difference, I think. That was huge. And again, that was a vision. That was a group of people who shared a vision for the way something should work, and people bought into that vision and it made Git take off. Before GitHub, Git wasn't that popular, let's be honest.
 
@@ -276,7 +276,7 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Erik St. Martin:** I think that it's about time for our second sponsored break, and then we'll jump into more projects and news. Our second sponsor for today is Backtrace.
 
-**Break:** \[\\00:39:23.24\\\]
+**Break:** \[00:39:23.24\]
 
 **Erik St. Martin:** And we are back, talking to Joe Doliner. We were just talking about Gitea - I think we came to consensus that's how you pronounce it.
 
@@ -316,7 +316,7 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Brian Ketelsen:** Yeah, I played with this one last night. I like it a lot. Struct tags are really easy to abuse and very hard to maintain in general, but Ozzo lets you just have nice, easy to use functions and remove the craziness from your struct tags. I like that one. I made a mental note that I was probably gonna use that next.
 
-**Joe Doliner:** \[\\00:43:54.17\\\] It seems like it will have a very good synergy with struct tags, because struct tags are something that happen statically at compile time, if I'm not mistaken. I guess they can have some runtime implications too, but it's stuff that's actually available with a compiler, whereas this is code that runs, so it really gives you these two very good tools for doing validation at the major times you're gonna wanna validate data.
+**Joe Doliner:** \[00:43:54.17\] It seems like it will have a very good synergy with struct tags, because struct tags are something that happen statically at compile time, if I'm not mistaken. I guess they can have some runtime implications too, but it's stuff that's actually available with a compiler, whereas this is code that runs, so it really gives you these two very good tools for doing validation at the major times you're gonna wanna validate data.
 
 **Brian Ketelsen:** \[laughs\] I could do a whole 40-hour week long class on the awesome ways that you can completely abuse struct tags. I've done them all. It's definitely not just compile time.
 
@@ -370,7 +370,7 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Erik St. Martin:** They were all on a team collectively trying to come up with a solution to the Go dependency problem. He released an article we will put on Twitter and link in the show notes, called Dep 101, that walks through the use of that tool. We actually have Sam Boyer booked for the end of the month, which means likely first thing in March that episode should drop. He's gonna come on and talk about the tool. He wrote all of the crazy algorithms to determine dependencies. It's its own library, so if you're building your own tool, you can use the same library that's behind the dep tool.
 
-**Brian Ketelsen:** \[\\00:47:49.12\\\] Yeah, you know there's a lot of math behind that... Just think about the dependency chain and the graphs behind all of that - there's gotta be way more math that I'm interested in doing.
+**Brian Ketelsen:** \[00:47:49.12\] Yeah, you know there's a lot of math behind that... Just think about the dependency chain and the graphs behind all of that - there's gotta be way more math that I'm interested in doing.
 
 **Joe Doliner:** It's a very hard problem too, because if you're not careful, you accidentally wind up solving \[\\00:48:04.14\] complete problem, and then your tool just grinds to a halt. So you have to figure out how to do it very efficiently.
 
@@ -428,7 +428,7 @@ I'm very excited to see this one come out. I've played with it a little bit, and
 
 **Joe Doliner:** Yeah, I agree, and I think the best example you can see of that is Java. So much of Java's success in the enterprise is the fact that they've got really good IDEs, like Eclipse and JetBrains, that just allow a much wider audience of people to use the languages.
 
-**Brian Ketelsen:** \[\\00:51:53.15\\\] Any other exciting news and products or projects that we've come across this week? I can't think of anything else. I know there's been a lot, but I just can't think of anything big and exciting.
+**Brian Ketelsen:** \[00:51:53.15\] Any other exciting news and products or projects that we've come across this week? I can't think of anything else. I know there's been a lot, but I just can't think of anything big and exciting.
 
 **Carlisia Pinto:** There is a lot. \[laughs\] I stopped to read a couple newsletters this week and I was amazed by how much stuff there is.
 
@@ -470,7 +470,7 @@ Today I'll start off with NATS from APCERA and Derek Collison. I saw a really co
 
 **Erik St. Martin:** How about you, Carlisia?
 
-**Carlisia Pinto:** \[\\00:56:03.10\\\] I'm going to give a shoutout to HashiCorp in general and Vault in specific. I'm working with Vault, and just looking around and reading what people say about it, it's amazing how well done these products are. There are so many good products that are open source and well done, but this time, big shoutout to HashiCorp.
+**Carlisia Pinto:** \[00:56:03.10\] I'm going to give a shoutout to HashiCorp in general and Vault in specific. I'm working with Vault, and just looking around and reading what people say about it, it's amazing how well done these products are. There are so many good products that are open source and well done, but this time, big shoutout to HashiCorp.
 
 **Brian Ketelsen:** Nice. I love Vault.
 
@@ -504,7 +504,7 @@ Today I'll start off with NATS from APCERA and Derek Collison. I saw a really co
 
 **Erik St. Martin:** In our defense, there was no Docker, there was no Kubernetes, there was no Mesos... None of that stuff existed.
 
-\[\\00:59:59.24\\\] My \#FreeSoftwareFriday - I will neither confirm, nor deny that I needed to use this, but hypothetically, if you needed to crack a password or a hash, there's a project called Hashcat, which is really awesome for that. It can use your CPU, it can use GPUs... If you happen to have FPGAs or co-processors, they can use that... And it's ridiculously fast, especially at low collisions, like MD4s and MD5s, like fractions of a second if you've got a good graphics card. Hypothetically.
+\[00:59:59.24\] My \#FreeSoftwareFriday - I will neither confirm, nor deny that I needed to use this, but hypothetically, if you needed to crack a password or a hash, there's a project called Hashcat, which is really awesome for that. It can use your CPU, it can use GPUs... If you happen to have FPGAs or co-processors, they can use that... And it's ridiculously fast, especially at low collisions, like MD4s and MD5s, like fractions of a second if you've got a good graphics card. Hypothetically.
 
 **Brian Ketelsen:** Erik and I got launched into a graphics card war yesterday, cracking passwords to see who's graphics card was faster... It was fun. We probably shouldn't admit that, should we? \[laughter\] Edit that out, Adam. It didn't happen. Nothing to see here, move along...
 

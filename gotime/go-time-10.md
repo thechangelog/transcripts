@@ -40,7 +40,7 @@
 
 **Brian Ketelsen:** That's gotta be a lot of fun.
 
-**Carlisia Pinto:** \[\\00:03:57.03\\\] So what are the dependency packages that you support at Heroku?
+**Carlisia Pinto:** \[00:03:57.03\] So what are the dependency packages that you support at Heroku?
 
 **Ed Muller:** The managers that we support are Godep; I'm also the current maintainer of that. Govendor, GB, and - it's not released yet, but if you use the master branch of the Buildpack, Glide support. And I think I've come up with a way to manage our last version, but I need to spend some time and write a bunch of code and then test it before committing to it.
 
@@ -70,7 +70,7 @@
 
 I know that they acknowledge that the vendor directory isn't a full solution. I think they would like us as a community to come together and help them make a plan or come together and offer a solution; perhaps one with code would be even better. But yeah, they are listening.
 
-**Erik St. Martin:** \[\\00:08:06.28\\\] I think it's a valid point too, because how much time do we want the Go Team invested in working on vendors stuff, instead of things like compile times and performance and things like that? Especially when we're still kind of eeling around blindly. There hasn't been consensus on "This is exactly the approach", so it's difficult. And I think every community has gone through this whole thing with "What do we do about vendoring?", or bundling, or whatever they happen to call it in their particular community.
+**Erik St. Martin:** \[00:08:06.28\] I think it's a valid point too, because how much time do we want the Go Team invested in working on vendors stuff, instead of things like compile times and performance and things like that? Especially when we're still kind of eeling around blindly. There hasn't been consensus on "This is exactly the approach", so it's difficult. And I think every community has gone through this whole thing with "What do we do about vendoring?", or bundling, or whatever they happen to call it in their particular community.
 
 **Brian Ketelsen:** I have a strong opinion. Would you like me to share it?
 
@@ -102,7 +102,7 @@ I think that the Go Team is probably overwhelmed with stuff, and this is probabl
 
 **Brian Ketelsen:** No, and we all recognize that the Go Team is a small group of people in Google that are generally working for Google's best interests, but graciously sharing the Go programming language with the rest of us, and nobody faults them - at least I hope nobody faults them for taking care of Google first. That's not why I'm saying, by any stretch. I just think it's something that, as a group, the community needs to solve really soon.
 
-**Ed Muller:** \[\\00:12:12.11\\\] I can't really put words in the Go Team's mouth... I think I understand some of their motivations. I also think they don't run into some of the same problems internally using Go that other companies do, that don't have the Go Team down the hall, or in the lunch cafeteria, or things like that.
+**Ed Muller:** \[00:12:12.11\] I can't really put words in the Go Team's mouth... I think I understand some of their motivations. I also think they don't run into some of the same problems internally using Go that other companies do, that don't have the Go Team down the hall, or in the lunch cafeteria, or things like that.
 
 But one thing I would say is if you are somebody who is frustrated by vendor, please don't make your own tool; we have enough of them. Find another tool.
 
@@ -130,7 +130,7 @@ So there's not a lot of people - although it is gaining traction recently - for 
 
 **Erik St. Martin:** And some of the other stuff too is that I feel some of that stuff comes as part of the code review. When you get into bigger environments, there's no reason you shouldn't be auditing these libraries before using them, before you put them on your production systems where they have access to your data; you should know what that library does and you should know what changed when you pull in a new version. So as part of my code review, when I submit my new feature and I pulled in a new library or I upgraded it, you should be able to see a code review, or you should be able to see what changed, and to be able to speculate what kind of problems that may cause. I never got that not checking in vendor thing.
 
-**Ed Muller:** \[\\00:16:14.00\\\] Yeah, totally. Actually, it's been a topic of discussion with my other Heroki this week, a lot of which don't... Heroku is a big company at this point by startup standards, and we're part of an even bigger company, so there are people who do lots of Node and Python, Ruby... Pick a language, we have it somewhere, or an enthusiast for that language at Heroku. And it's interesting, because I got to talk to a bunch of Node people and they've actually heard rumblings in certain circles of Node where people are starting to decide, "Well, maybe we wanna check in vendor", which I was kind of like floored by.
+**Ed Muller:** \[00:16:14.00\] Yeah, totally. Actually, it's been a topic of discussion with my other Heroki this week, a lot of which don't... Heroku is a big company at this point by startup standards, and we're part of an even bigger company, so there are people who do lots of Node and Python, Ruby... Pick a language, we have it somewhere, or an enthusiast for that language at Heroku. And it's interesting, because I got to talk to a bunch of Node people and they've actually heard rumblings in certain circles of Node where people are starting to decide, "Well, maybe we wanna check in vendor", which I was kind of like floored by.
 
 **Erik St. Martin:** Yeah, I'm not too familiar with the Node ecosystem. Is it typical for the way they package their stuff to not check in vendor?
 
@@ -158,7 +158,7 @@ So there's not a lot of people - although it is gaining traction recently - for 
 
 **Ed Muller:** The vast majority aren't.
 
-**Carlisia Pinto:** \[\\00:19:53.17\\\] But let me see if I understand. Right now is there anything that we can do with those versionings? Because if it's no, I see the point of people not using it, and I think that more people would do it if there was a function for it.
+**Carlisia Pinto:** \[00:19:53.17\] But let me see if I understand. Right now is there anything that we can do with those versionings? Because if it's no, I see the point of people not using it, and I think that more people would do it if there was a function for it.
 
 **Ed Muller:** It is a little bit of a chicken and the egg, because if the tools don't have the tags to use, then you're not necessarily gonna spend time working on those feature sets, and vice versa, if you don't have tools that use some of them, theoretically why should I bother? Which is another thing I'd like to point out about SemVer - this is something that I struggled with at first until I really realized that SemVer is a social contract, it's not a technology contract, realistically. Despite your best intention, a 1.2.1 to 1.2.2 - you can totally accidentally slip an API change in there, or make a horrible, breaking change. So there's nothing in SemVer that prevents you from doing that, but you've basically agreed through this contract to say "I'm not going to intentionally make any API breaking or functionality breaking changes between these minor revs.
 
@@ -174,7 +174,7 @@ So there's not a lot of people - although it is gaining traction recently - for 
 
 **Erik St. Martin:** Right. Another question in we had in Slack is "Why did these other languages get vendoring out of the gate right, and how?" I don't know if any of us have answers to that. I think it's similar to kind of Go started out of the gate with concurrency in mind, right? It's just that kind of nature where you approach the problem from a given perspective, right?
 
-**Brian Ketelsen:** \[\\00:23:48.19\\\] Well, I think especially the smaller languages and the more recent ones all feel the pain that we as an industry have been kind of growing into over the last couple years and wisely knew out of the gate if they didn't have a solution to this there would be an issue, and maybe some of them have even learned from Go specifically. I think Go didn't have one at the beginning because Google uses a monorepo. They don't need one. And this was a tool for Google.
+**Brian Ketelsen:** \[00:23:48.19\] Well, I think especially the smaller languages and the more recent ones all feel the pain that we as an industry have been kind of growing into over the last couple years and wisely knew out of the gate if they didn't have a solution to this there would be an issue, and maybe some of them have even learned from Go specifically. I think Go didn't have one at the beginning because Google uses a monorepo. They don't need one. And this was a tool for Google.
 
 **Ed Muller:** Yeah, if you can make a Go path... I mean, if you're gonna check in an entire Go workspace, then you just check out your stuff and commit them; you don't need it. What's there is there, and what's used is used, and it's tracked.
 
@@ -202,7 +202,7 @@ Last year I was given an opportunity inside to help make Go a formally supported
 
 **Ed Muller:** As a general rule yes, but not exclusively.
 
-**Erik St. Martin:** \[\\00:27:59.20\\\] That's interesting. Sorry, I cut you off when you were going off onto the internal usage of... I was just kind of curious about the growth of Go customers.
+**Erik St. Martin:** \[00:27:59.20\] That's interesting. Sorry, I cut you off when you were going off onto the internal usage of... I was just kind of curious about the growth of Go customers.
 
 **Ed Muller:** It's been good, it's been steady. My job is partially to help continue that growth, not only just in Heroku, but also just - well, making sure that Heroku's a good place to run Go apps. So if anybody here is listening to this and you would like to use Heroku for deploying a Go app but you don't, for some reason, please let me know. Because I want you to. I think Heroku's a great place to run applications. That's why I work here.
 
@@ -230,7 +230,7 @@ If you're a fan of our dashboard metrics, that's Go. The backend for that is all
 
 The slug builder portion was Ruby; all of API was just Ruby at one point. System metrics, I think we used Collecti at one point. The log processes, that's new; the metrics stuff, that's new. Some of the stuff they're doing in APIs, not necessarily rewrite, but new functionality that they're kind of slotting in unbeknownst to users. So it's a little bit of both.
 
-**Carlisia Pinto:** \[\\00:32:15.05\\\] I have a sense that the whole internet is being rewritten in Go.
+**Carlisia Pinto:** \[00:32:15.05\] I have a sense that the whole internet is being rewritten in Go.
 
 **Ed Muller:** If it were up to me, +1... \[laughter\] But as I said though, Heroku is a place - we call ourselves Heroki, so if I've said that already, you understand. You'll find somebody at Heroku who likes any language that's probably out there right now.
 
@@ -292,7 +292,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Brian Ketelsen:** It's awesome. I learned so much from that codebase. That was definitely the biggest project I had ever seen at Go at the time, and even though Keith and Blake today still say that there are things that they would do differently, there are things that might not be idiomatic, the vast majority of it was really great Go code, and I learned a ton. I'm very grateful that it existed.
 
-**Erik St. Martin:** \[\\00:36:04.22\\\] I mean, let's be fair, too. That was 2011-2012, so a lot of people use channels for a lot of things. I think we're all still figuring it out as a community what the patterns were.
+**Erik St. Martin:** \[00:36:04.22\] I mean, let's be fair, too. That was 2011-2012, so a lot of people use channels for a lot of things. I think we're all still figuring it out as a community what the patterns were.
 
 **Brian Ketelsen:** How can you declare idiomatic if it's only been around for a little bit?
 
@@ -342,7 +342,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Erik St. Martin:** Sub...
 
-**Ed Muller:** \[\\00:40:07.24\\\] Sublime. You're right, thank you. A plugin for Sublime and Vim that allows you to... Well, it opens a browser window and then navigates to the definition of the symbol that you're typing, as you're typing it. So if you start to type fmt.prin, it pops up fmt.printline and gives you the definition of it, plus five or six curated examples of it from open source projects. So it gives you this really awesome real-time second-screen information about the code that you're writing, with examples plus the regular go doc for it. It's real-time, it's just the tiniest bit slow. As you're typing, at least in Vim, it slows down Vim a little bit and it gets a little distracting, because that browser window is constantly flashing with different functions as you're changing positions to look at new symbols. But it's amazing. The technology behind it must be impressive, and I was blown away when I played with it. I haven't turned it off yet, I've been running it for a day, and I can honestly say that's a really useful tool.
+**Ed Muller:** \[00:40:07.24\] Sublime. You're right, thank you. A plugin for Sublime and Vim that allows you to... Well, it opens a browser window and then navigates to the definition of the symbol that you're typing, as you're typing it. So if you start to type fmt.prin, it pops up fmt.printline and gives you the definition of it, plus five or six curated examples of it from open source projects. So it gives you this really awesome real-time second-screen information about the code that you're writing, with examples plus the regular go doc for it. It's real-time, it's just the tiniest bit slow. As you're typing, at least in Vim, it slows down Vim a little bit and it gets a little distracting, because that browser window is constantly flashing with different functions as you're changing positions to look at new symbols. But it's amazing. The technology behind it must be impressive, and I was blown away when I played with it. I haven't turned it off yet, I've been running it for a day, and I can honestly say that's a really useful tool.
 
 **Erik St. Martin:** So two things with that, right? One is Vim probably, because Vim's not so great at async yet, so it's probably having to do stuff synced with your typing, which is hard. But the second part is it's rave programming. Rave programming, Brian. Just embrace it. \[laughter\] Flashing screen...
 
@@ -370,7 +370,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Erik St. Martin:** So two things: first, there was this project somebody showed that's in IM GUI, like immediate mode user interface, which is basically like OpenGL with windows inside of it, and it's called EweyGewey. I love the name of it, too. But it's like the alpha of the alpha right now, but I thought it looked cool, especially thinking kind of like the embedded space, having GUI on embedded devices. So I'm gonna keep watching that to see how that comes along.
 
-\[\\00:44:01.24\\\] And then that spawned this discussion about cross-platform GUI type approaches in Go, and there was a bunch of stuff. I kind of mentioned \[unintelligible 00:44:10.03\], which is the Chrome embedded framework, and somebody said no to please encourage people to contribute to this project called Gob. With Gob they're attempting to write a full web browser in Go, which is really cool. I don't have the time to contribute, so everybody else contribute so that we can have a full web browser written in Go.
+\[00:44:01.24\] And then that spawned this discussion about cross-platform GUI type approaches in Go, and there was a bunch of stuff. I kind of mentioned \[unintelligible 00:44:10.03\], which is the Chrome embedded framework, and somebody said no to please encourage people to contribute to this project called Gob. With Gob they're attempting to write a full web browser in Go, which is really cool. I don't have the time to contribute, so everybody else contribute so that we can have a full web browser written in Go.
 
 **Brian Ketelsen:** Interesting. What are they using for the user interface components?
 
@@ -402,7 +402,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Brian Ketelsen:** We had somebody in the GoTime FM channel in Slack, and I'm gonna butcher his name, I feel terrible, but it's Florin Patan - he mentioned the go get button Chrome extension. He had actually installed that two weeks ago when he announced it originally, so that's another good one to shout out; we'll have to add that to our show notes. When you're on a GitHub repository, you can just push the little Gopher icon and it copies the go get URL into your buffer and you can just hit Paste in \[unintelligible 00:47:51.14\] and you'll have that go get command ready for you to do a go get. It's a tiny little tool, it's really handy; I use it constantly now since I've installed it. So a big shout.
 
-**Ed Muller:** \[\\00:48:03.29\\\] I'd like to shout out, it I may, to Heroku's open source Go project, some of which I've contributed to. If you take a look at our open source Go repositories on GitHub you'll see a bunch of stuff, and a lot of engineers who work there are also contributors to various things, and Go itself.
+**Ed Muller:** \[00:48:03.29\] I'd like to shout out, it I may, to Heroku's open source Go project, some of which I've contributed to. If you take a look at our open source Go repositories on GitHub you'll see a bunch of stuff, and a lot of engineers who work there are also contributors to various things, and Go itself.
 
 **Erik St. Martin:** Yeah, Heroku has had a lot of involvement in the Go open source community for a number of years. It's one of the reasons why we're so happy to have you on the show.
 
@@ -438,7 +438,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 Again, I haven't used it; this is from reading and from just general knowledge, but I think it's very, very interesting.
 
-**Ed Muller:** \[\\00:52:09.09\\\] I'm going to totally have to play with this.
+**Ed Muller:** \[00:52:09.09\] I'm going to totally have to play with this.
 
 **Brian Ketelsen:** Yeah, I did play with it, but long ago, when it was much earlier, and it's a really nifty tool because it allows you to pipe the outputs of your containers. Each of the steps in your data pipeline is just a container that accepts input and sends output, so you get that Hadoop-like flow, but with containers with Docker. It really is nice.
 
@@ -482,7 +482,7 @@ Again, I haven't used it; this is from reading and from just general knowledge, 
 
 **Brian Ketelsen:** The name was something like Go Doc Tool, though. It was not a memorable name, it was kind of a generic name, so I think you're right. Something like Go Doc Tool.
 
-**Carlisia Pinto:** \[\\00:55:48.02\\\] Yes. And I wanted to say, we have such deeply rooted perceptions, rights? When Ed put the link to Visual Studio Code on the document, I had to actually go and check if it was open source, because I was gonna say "Ed, this is not open source." I didn't know... So today I learned it's open source, and I couldn't believe it.
+**Carlisia Pinto:** \[00:55:48.02\] Yes. And I wanted to say, we have such deeply rooted perceptions, rights? When Ed put the link to Visual Studio Code on the document, I had to actually go and check if it was open source, because I was gonna say "Ed, this is not open source." I didn't know... So today I learned it's open source, and I couldn't believe it.
 
 **Ed Muller:** Yes, if you write in TypeScript, you can contribute.
 

@@ -2,7 +2,7 @@
 
 Our sponsors for the show today are Sentry, Toptal, Datadog and GoCD.
 
-**Break:** \[\\00:01:09.12\\\]
+**Break:** \[00:01:09.12\]
 
 **Adam Stacoviak:** Alright, we're back. Today we've got Zeno Rocha joining us today, principal developer advocate at Liferay. Zeno, I learned about you because I was trying to reach out to folks in that space - I was working with Sandra Persing at Mozilla; she's got going on DevRel Summit, and Justin Dorfman said "You need to talk to Zeno"... So here you are!
 
@@ -26,7 +26,7 @@ Our sponsors for the show today are Sentry, Toptal, Datadog and GoCD.
 
 **Adam Stacoviak:** Okay, I thought that there might have been; now I'm slightly disappointed. \[laughter\] You've got a fun history in open source. Developer advocates, what a role that's -- I wouldn't say underappreciated, but under-understood, right? There's so much work inside of a company, because as companies like Liferay and others continue to grow and start to adopt more and more technology, so to speak, they become not simply just businesses, now they actually have software development departments that create proprietary software, and then also open sourcing that stuff... You've got to have somebody inside the company that knows both sides of the spectrum. Is that roughly a crack at what a developer advocate is to a company like Liferay?
 
-**Zeno Rocha:** \[\\00:03:59.05\\\] Yeah, I think this is a new position on the market. This is something that when I started didn't exist, or if it existed, I didn't know about it, and it was like a natural progression, at least for me. Nowadays there's basically two kinds of companies that we have - we have companies that their audience, their target market are developers, so in that case the way that marketing is done is completely different and they need to adapt to that certain world, or we have companies that their end product is not only for developers. Let's say Facebook - it's not a company that their target audience are developers, but they do reach out to developers and they have this open source department because they know how important it is to reach out to developers when they build their SDKs and those kinds of things. So I think that's how it all started. This is a new position out there, and it's starting to grow more and more.
+**Zeno Rocha:** \[00:03:59.05\] Yeah, I think this is a new position on the market. This is something that when I started didn't exist, or if it existed, I didn't know about it, and it was like a natural progression, at least for me. Nowadays there's basically two kinds of companies that we have - we have companies that their audience, their target market are developers, so in that case the way that marketing is done is completely different and they need to adapt to that certain world, or we have companies that their end product is not only for developers. Let's say Facebook - it's not a company that their target audience are developers, but they do reach out to developers and they have this open source department because they know how important it is to reach out to developers when they build their SDKs and those kinds of things. So I think that's how it all started. This is a new position out there, and it's starting to grow more and more.
 
 **Adam Stacoviak:** How new is this position? I think the first time I heard the title was maybe two(ish) years back. There's always been some sort of advocacy, but I think the first time I've actually heard the actual title was two, maybe three years back. Is that about when you think the word may have surfaced itself?
 
@@ -50,7 +50,7 @@ Our sponsors for the show today are Sentry, Toptal, Datadog and GoCD.
 
 **Adam Stacoviak:** Yeah, I'm kind of curious too, because as I mentioned how I came to know you better was through a friend of the show, Justin Dorfman (thanks, Justin!). I was talking to him, and he has played that kind of role at MaxCDN, which is now StackPath; now he is at Sticker Mule, big fan of the Changelog and the community, also running Sustain, an upcoming conference; if you haven't checked that out, go to SustainOSS.org. We're a part of that, as well. So if you're in that space at all, about sustaining open source or advocating -- so long story short, that's how I met you, through Justin... And sort of appearing into this world of DevRel.
 
-\[\\00:08:15.28\\\] We like to travel to conferences with our podcast called Spotlight, so if you're listening to this and you haven't heard of Spotlight yet, go to Changelog.com/spotlight, lots of good episodes there that Jerod and I have done when traveling to OSCON, All Things Open, Node Interactive, and potentially some other conferences this year. But we like to go there and kind of pull back that hallway track that you don't often get a chance to record and take away, and share that with the rest of the world. So we sort of have the hallway track conversations you would want to have or have heard, if you were a fly on the wall, so to speak.
+\[00:08:15.28\] We like to travel to conferences with our podcast called Spotlight, so if you're listening to this and you haven't heard of Spotlight yet, go to Changelog.com/spotlight, lots of good episodes there that Jerod and I have done when traveling to OSCON, All Things Open, Node Interactive, and potentially some other conferences this year. But we like to go there and kind of pull back that hallway track that you don't often get a chance to record and take away, and share that with the rest of the world. So we sort of have the hallway track conversations you would want to have or have heard, if you were a fly on the wall, so to speak.
 
 We're really interested in doing DevRel Summit with Sandra, and making that happen. So when I started to reach into this world a bit more and figure out how we can make it happen, one of the people that came up was talking to you.
 
@@ -68,7 +68,7 @@ The idea was just playing around with Canvas. There were lots of exciting techno
 
 3: Yeah, playing with Canvas and just -- there was local storage, I was playing with that... I was playing with everything that I could see about HTML5, but this one was very appealing to me, and I was just interested about it.
 
-\[\\00:12:13.02\\\] So I was getting involved, looked at all this, and my father, he always said to me, "If you really wanna learn something, you need to teach it", right? This is a very common phrase - if you really wanna learn, teach it. I would hear dad, and I would go to these conferences and I was like, "Okay, so I'm interested in learning HTML5" -- at that time I didn't know HTML5 at all, but I was interested about it. I saw this conference, and they had like an open call for papers, so I was like, "Okay, I'm gonna submit a talk about HTML5." And they had this huge field so I could fill my work experience, and I didn't have any work experience; I was at the university, I was working with Flash, but I wanted to learn HTML5, so I submitted a talk about HTML5.
+\[00:12:13.02\] So I was getting involved, looked at all this, and my father, he always said to me, "If you really wanna learn something, you need to teach it", right? This is a very common phrase - if you really wanna learn, teach it. I would hear dad, and I would go to these conferences and I was like, "Okay, so I'm interested in learning HTML5" -- at that time I didn't know HTML5 at all, but I was interested about it. I saw this conference, and they had like an open call for papers, so I was like, "Okay, I'm gonna submit a talk about HTML5." And they had this huge field so I could fill my work experience, and I didn't have any work experience; I was at the university, I was working with Flash, but I wanted to learn HTML5, so I submitted a talk about HTML5.
 
 I didn't expect them to accept the talk, but they did. It was insane... I was super worried. I was like, "Oh my gosh, what have I done?" I thought about giving up, I was like, "Why have I done this? There's no reason, there's no point in doing this." But then I was like, "Okay, I'm gonna do this talk."
 
@@ -84,7 +84,7 @@ From one point I was working as a freelancer, getting as much jobs as I could, t
 
 **Zeno Rocha:** The talk was in Brazil, in a city near Rio. It was like an open source kind of conference. There were a lot of talks about Linux, Ubuntu, PHP, and other open source technologies. Frontend was really -- it's not like it is today, that frontend is super big and many people are interested in that. Frontend was just starting; there was not frontend tracks in a big conference, you know? But yeah, they accepted and I gave the talk.
 
-**Adam Stacoviak:** \[\\00:16:07.14\\\] And to bring some context to where we're trying to get to - your first step into open source was sort of rocky. We had a call about a month or so ago, you and I, to kind of kick some conversations off basically about having you on the show, and you pointed me to this project you started called jQuery Boilerplate; it was to issue number 10 - we'll link it up in the show notes; if you're listening to this, check the show notes.
+**Adam Stacoviak:** \[00:16:07.14\] And to bring some context to where we're trying to get to - your first step into open source was sort of rocky. We had a call about a month or so ago, you and I, to kind of kick some conversations off basically about having you on the show, and you pointed me to this project you started called jQuery Boilerplate; it was to issue number 10 - we'll link it up in the show notes; if you're listening to this, check the show notes.
 
 The title of this issue was sort of off-putting. I say "sort of" sort of tongue-in-cheek, because it was totally not cool. \[laughter\] It was just not the kind of issue you wanna see come through your e-mail inbox. The title of this issue is "Everything is wrong, so delete all of it. This way you can start over and do it right."
 
@@ -102,7 +102,7 @@ On the second day, there were like 2,000 people visiting. Suddenly, this project
 
 **Adam Stacoviak:** Wow... You're an impostor, man! You don't belong here. \[laughter\] Yeah, digging into this a little further, too... So when you fork a repository, you can do the work in your own branch; so the branch that this was done in, the branch name was called "Reset This Crap." \[laughter\] I don't know if you've noticed that; this is your story, not mine, but it goes even further... The branch they put this reset in was "reset-this-crap".
 
-**Zeno Rocha:** \[\\00:20:00.27\\\] \[laughs\] It's crazy, yeah. I haven't seen that. But the interesting part of this pull request is that I accepted. It shows as closed, but I merged the commit, and I was willing to do it all over again. I remember reaching out to Addy Osmani he was working at AOL in the U.K. and I was like, "Hey, I know you are very good at the things you do" - he was doing some really good things with Javascript... And I just reached out to him; I sent an e-mail to him and asked for help, and he helped me. We kind of redid that, and it's still a very popular project, even though not as many people are using jQuery as before... But since 2011 people have been using this, and it kind of worked.
+**Zeno Rocha:** \[00:20:00.27\] \[laughs\] It's crazy, yeah. I haven't seen that. But the interesting part of this pull request is that I accepted. It shows as closed, but I merged the commit, and I was willing to do it all over again. I remember reaching out to Addy Osmani he was working at AOL in the U.K. and I was like, "Hey, I know you are very good at the things you do" - he was doing some really good things with Javascript... And I just reached out to him; I sent an e-mail to him and asked for help, and he helped me. We kind of redid that, and it's still a very popular project, even though not as many people are using jQuery as before... But since 2011 people have been using this, and it kind of worked.
 
 **Adam Stacoviak:** That's crazy... jQueryBoilerplate.com is the website Zeno was talking about. You've got Boilerplate there, you've got Patterns, you've got Generator, you've got Guides... And as you said, even though jQuery is sort of frowned upon now and they prefer to do it different ways, or it's just not cool anymore and the web has moved on, most people can actually pinpoint their start into web or Javascript because of jQuery, and anybody who would consider them primarily an HTML/CSS developer got into Javascript because of the ease and the connecting points of mapping DOM elements, the HTML classes to CSS classes, then to jQuery, Javascript classes. So it's got its point there, but...
 
@@ -118,7 +118,7 @@ So you reached out to Addy Osmani pre-Google... This was a while back. Most peop
 
 **Zeno Rocha:** \[laughs\] Yeah, another project, why not? But I think those people, they are also willing to help, so I think it was a good move, and I'm glad he replied. I also think that if you are listening and if you have someone that you really admire and you follow his or her work, why not reach out? Those people, they do a lot of work on their free time; they spend weekends doing those things, so sometimes just one phrase could change their day.
 
-**Adam Stacoviak:** \[\\00:23:39.23\\\] Oh, man... We get e-mails every once in a while. They don't happen too often, but often enough that when we get them, they're nice boosts of confidence back into like "Okay, what we're doing is actually impacting people. Okay, what we're doing is really being appreciated by the people listening." Because other than people going to changelog.com/community and signing up and hopping in Slack and hanging out with us behind the scenes - you're part of that, too... Other than people doing that, we really haven't had this personal touch to the audiences listening to this show since 2009, which is when this show started.
+**Adam Stacoviak:** \[00:23:39.23\] Oh, man... We get e-mails every once in a while. They don't happen too often, but often enough that when we get them, they're nice boosts of confidence back into like "Okay, what we're doing is actually impacting people. Okay, what we're doing is really being appreciated by the people listening." Because other than people going to changelog.com/community and signing up and hopping in Slack and hanging out with us behind the scenes - you're part of that, too... Other than people doing that, we really haven't had this personal touch to the audiences listening to this show since 2009, which is when this show started.
 
 We've been on air for the better part of seven(ish) years, you know? It's even more than that, isn't it? My math isn't correct. It's like eight(ish)...
 
@@ -156,7 +156,7 @@ We've got the Dracula Theme... We've talked about jQuery Boilerplate, one of you
 
 **Adam Stacoviak:** So we'll take this break and when we come back we'll dive a little further into your story and some of that stuff. We'll be right back.
 
-**Break:** \[\\00:27:07.06\\\]
+**Break:** \[00:27:07.06\]
 
 **Adam Stacoviak:** Alright, we're back with Zeno Rocha, talking about this cool history you've got, man... I love it. And for some reason, people like to start things with you in issues; I don't know why that's a thing for you, but that's just how it works out. \[laughter\] Maybe that's how it is for most people and I'm just an idiot...
 
@@ -168,7 +168,7 @@ As we've gone through open source the last couple of years, more and more things
 
 **Adam Stacoviak:** I heard of this hack, it was pretty nasty.
 
-**Zeno Rocha:** \[\\00:31:57.25\\\] Exactly.
+**Zeno Rocha:** \[00:31:57.25\] Exactly.
 
 **Adam Stacoviak:** And it required Flash... So as the modern web begins to move away from it, obviously you have a feature that may or may not work.
 
@@ -190,7 +190,7 @@ I remember spending one or two days or a weekend on the library itself, and then
 
 **Zeno Rocha:** \[laughs\] Yeah... And it's not like the website is complex; if you see the website, it's ridiculously easy; there's no secrets at all... One page there's nothing on the website. But the way the website was built, and every particular piece that I was worried about - that was one of the reasons why it was successful.
 
-\[\\00:35:46.13\\\] And also, in order to make something that has a big impact, one thing that helped me was also this credibility that I have been building for many years. I have some following on Twitter, on GitHub... I always try to provide value for other people, always. There's not a single day that I don't try to help other people. When you do that for a long period, you start to grow that group of people that follow you and keep track of what you do; I think that was another step.
+\[00:35:46.13\] And also, in order to make something that has a big impact, one thing that helped me was also this credibility that I have been building for many years. I have some following on Twitter, on GitHub... I always try to provide value for other people, always. There's not a single day that I don't try to help other people. When you do that for a long period, you start to grow that group of people that follow you and keep track of what you do; I think that was another step.
 
 And taking care of your docs, how you communicate your demos - this is super important. It's very easy to just throw your code out there and expect people to just use it, but if you don't have docs, if you don't explain why you created the project in the first place... I remember spending a lot of time just on the first paragraph of the site. I was watching that TED talk about "start with Why", and I'm still really inspired by that and I try to do everything this way... And I was like, "Okay, I'm gonna start my project with the Why", and then "How can I communicate in a good way?"
 
@@ -206,7 +206,7 @@ It's not just "Put something out there." You can do this, but then you're not tr
 
 Is this intuition in you? Did you learn this? How do you teach somebody some of these meticulously calculated things that you've done here, with this project in particular?
 
-**Zeno Rocha:** \[\\00:39:57.15\\\] Yeah, I think it comes down to experience. I have a guy on my team now, he's starting to learn how to code. He's learning all those things, and there's no way for him, even though three months after, now he knows how to code, he knows how to build things - there's no way for him to understand all this and do that in a little time and build something that has that impact. I think that there are all those things that you need to build on top of to get there, and it's just a matter of using lots of things, always keep looking to what other people are doing, what works/doesn't work for others, and just your experience as a user - that's super important.
+**Zeno Rocha:** \[00:39:57.15\] Yeah, I think it comes down to experience. I have a guy on my team now, he's starting to learn how to code. He's learning all those things, and there's no way for him, even though three months after, now he knows how to code, he knows how to build things - there's no way for him to understand all this and do that in a little time and build something that has that impact. I think that there are all those things that you need to build on top of to get there, and it's just a matter of using lots of things, always keep looking to what other people are doing, what works/doesn't work for others, and just your experience as a user - that's super important.
 
 I have been using tons of libraries for a long time. I know that you need to start with the install part, so they know how they can get and use that. I know that you need to show how you can instantiate that thing under code; I know that when you approach with an example - how you should approach, what is the best example that that audience is gonna get what you're trying to communicate visually?
 
@@ -222,7 +222,7 @@ I know that most of the developers - they use GitHub or they have used GitHub in
 
 **Adam Stacoviak:** ...in the browser, on your sites. I can see Dracula coming up in our listed topics to talk about dev space, and they're all well designed, they're well thought through; you can definitely tell they're purposeful. And to some out there who aim or aspire to be an open source developer, that's daunting because it's like "Well, I've gotta do all this work to release my open source... I just wanna share my code. I don't wanna go through all these things." Well, if you want a project to be successful or to reach the widest audience, or in your case as you said, help people, then you've gotta put in the work. And it seems like you've really nailed down how to put in the work, either by you doing the work yourself, or finding other people who care about something similar and getting other illustrators or designers to take on -- so you're not taking the full burden of building BrowserDiet.com, for example, How To Lose Weight In The Browser... So talk to me about this, what's the story here?
 
-**Zeno Rocha:** \[\\00:43:51.21\\\] Yeah, so this one -- and I think for those projects, it's interesting... We talk about getting a project to be popular, right? And what is the reason behind it? It's not like, "Oh, I want to be popular on GitHub or Twitter. I wanna have more followers." You need to understand what is your Why; that's what motivated me to go one step further. For Browser Diet it was exactly like this.
+**Zeno Rocha:** \[00:43:51.21\] Yeah, so this one -- and I think for those projects, it's interesting... We talk about getting a project to be popular, right? And what is the reason behind it? It's not like, "Oh, I want to be popular on GitHub or Twitter. I wanna have more followers." You need to understand what is your Why; that's what motivated me to go one step further. For Browser Diet it was exactly like this.
 
 When you start with web development, usually the first thing you wanna do is "Okay, I wanna get things done with that language. How can I just make something work?" So when you learn how to make something work, that's good, that's fine, and then you start progressing. The next step is usually you know how something works, "Now how can I make that thing better?" For me it was like this - I was learning more about web performance and how I could improve my websites, and I remember there were basically like two guides about that: one from Google, one from Yahoo!, and that's it. There were only those two guides, and there were those wide pages, very long pages about something... It was very dense, very hard to read; it was not easy to consume.
 
@@ -242,7 +242,7 @@ The thing that strikes me the most -- when I go to Google Analytics, I see how m
 
 **Adam Stacoviak:** That's crazy!
 
-**Zeno Rocha:** \[\\00:47:52.19\\\] Yeah, the only thing I know about Madagascar is the lion -- it's the Disney movie, right? It's the only thing I know. That's crazy, it's just insane. That's what motivates me. If you do that extra step, if you try to do something more polished and you reach those places, it's a crazy feeling. Just crazy.
+**Zeno Rocha:** \[00:47:52.19\] Yeah, the only thing I know about Madagascar is the lion -- it's the Disney movie, right? It's the only thing I know. That's crazy, it's just insane. That's what motivates me. If you do that extra step, if you try to do something more polished and you reach those places, it's a crazy feeling. Just crazy.
 
 **Adam Stacoviak:** So break down this particular page, BrowserDiet.com. It's got headings, "does performance really matter?", so it's essentially like a single-page -- not a single-page app, but there's a single-page guide into basically breaking down web performance and how to get the most out of your web page. As you said, at that time there wasn't a lot information out there, so this was a plan to get more of this information to the masses.
 
@@ -260,11 +260,11 @@ The long story short is you made this, but it doesn't mean that you're the only 
 
 **Zeno Rocha:** Exactly. When you write documentation - or anything that is content-heavy - it's hard to know if people... First, if that's right or wrong. You do your best to do it the right way, but maybe you missed something; maybe there's a typo, or maybe what you wrote is not 100% true for 100% of the cases... So having these options to edit, that's super cool.
 
-\[\\00:51:46.15\\\] Another thing I like is feedback. When you go to something and then -- in this site we don't have that, but maybe you could have... In the past, you know, there was like the thumbs up and thumbs down; you'd just vote to tell what is the feedback for that particular section. I think nowadays, as I'm thinking more about this -- the project that I'm working nowadays, for example, we have that, but I see a trend in terms of reaction. If you see someone sends a message in Slack, you can put a reaction as an emoji; same for Facebook, same for GitHub, and you see all those big players going in this direction. This is something we could apply to our open source projects, because it gives a lot of information in a much more refined feedback for everything that we're doing.
+\[00:51:46.15\] Another thing I like is feedback. When you go to something and then -- in this site we don't have that, but maybe you could have... In the past, you know, there was like the thumbs up and thumbs down; you'd just vote to tell what is the feedback for that particular section. I think nowadays, as I'm thinking more about this -- the project that I'm working nowadays, for example, we have that, but I see a trend in terms of reaction. If you see someone sends a message in Slack, you can put a reaction as an emoji; same for Facebook, same for GitHub, and you see all those big players going in this direction. This is something we could apply to our open source projects, because it gives a lot of information in a much more refined feedback for everything that we're doing.
 
 **Adam Stacoviak:** Yeah. We're up against our next break again, so let's take a break... When we come back, we're gonna talk a bit about Dracula, which is super cool - theming for pretty much any code editor: Vim, Zsh - you name it. It's super cool, I love it. Then some cool stuff you've done with DevSpace, and then potentially, if you wanna share the story around your talk engagement at \[unintelligible 00:53:09.16\] we might get into that, too. Hopefully we have enough time... Let's break here and when we come back we'll dive into that stuff.
 
-**Break:** \[\\00:53:17.12\\\]
+**Break:** \[00:53:17.12\]
 
 **Adam Stacoviak:** Alright, we're back with Zeno Rocha, talking about his cool open source. This thread through all this things is just like careful, meticulous thoughtfulness, helpful - these are all adjectives I think of when I think about the way you approach the project you're involved in.
 
@@ -278,7 +278,7 @@ The next one on the list for us to talk about is Dracula Theme, or just Dracula,
 
 Then at some point when I was in the hospital I left my room for 10-15 seconds and someone stole my computer. It was the worst feeling in the world. Okay, so I had no computer, I had no way to communicate with my family - crazy story, I know, I'm gonna get there... And then I had some co-workers in Spain, so they brought me a new computer.
 
-\[\\00:55:55.11\\\] I was configuring everything for my new computer, and then I was using iTerm, I was using Sublime... I was using all those things, and then I was like "Now that I have a fresh computer, fresh setup", and I was installing all those softwares, I noticed I had lost everything, all my configurations, so I was like, "Oh, I think I'm gonna give it a try and start to build a theme that I can use on all those new softwares that I'm installing." So that's how I started Dracula.
+\[00:55:55.11\] I was configuring everything for my new computer, and then I was using iTerm, I was using Sublime... I was using all those things, and then I was like "Now that I have a fresh computer, fresh setup", and I was installing all those softwares, I noticed I had lost everything, all my configurations, so I was like, "Oh, I think I'm gonna give it a try and start to build a theme that I can use on all those new softwares that I'm installing." So that's how I started Dracula.
 
 Basically, I like dark things... I'm not a big fan of light colors on code editors, so...
 
@@ -320,7 +320,7 @@ I saw the other day, there's this new cool app for taking notes, it's called Bea
 
 **Zeno Rocha:** Yeah...
 
-**Adam Stacoviak:** \[\\00:59:46.18\\\] That was me. I didn't wanna sticker up the actual MacBook, it was just too impressive to do, which... I have a different feeling about that now, but whatever. Anyways... I've turned a new leaf. But this is super cool - so you pretty much have a theme for everything, but you didn't do all the work to do all this, did you? You just sort of started the process, and everybody else... Just like translating BrowserDiet - you just started the thing and people came along and agreed with the need, this help you were providing to the community for open source... How did that work?
+**Adam Stacoviak:** \[00:59:46.18\] That was me. I didn't wanna sticker up the actual MacBook, it was just too impressive to do, which... I have a different feeling about that now, but whatever. Anyways... I've turned a new leaf. But this is super cool - so you pretty much have a theme for everything, but you didn't do all the work to do all this, did you? You just sort of started the process, and everybody else... Just like translating BrowserDiet - you just started the thing and people came along and agreed with the need, this help you were providing to the community for open source... How did that work?
 
 **Zeno Rocha:** Nowadays, if I go -- I just went to the organization page on GitHub, I went to Themes, and there are 44 themes on that organization. There's a basically like a theme for each theme. It's usually like one member or two members per theme, but I try not to -- because I don't know most of the softwares, I didn't use the software that people are submitting, so there's no way for me to...
 
@@ -336,7 +336,7 @@ It's tough in a world where maybe you've been wronged by somebody, like your fir
 
 **Zeno Rocha:** I guess everything about open source is counter intuitive. We could be spending our time doing freelance work on our free time, and instead of making money, we are building something for free, and sometimes we're spending even more time doing this than the other thing. Same as what you -- this quote is perfect... It's super counter intuitive. We as human beings, we wanna have control over this thing that we've just created. There is no reason... I know sometimes they do something wrong and then you see that and you're like "Ugh...!" but it totally pays off. It's crazy... Everything about open source is crazy. I don't know how it works.
 
-**Adam Stacoviak:** \[\\01:04:05.11\\\] It's good though, because it's an exercise in humanity, if you ask me... I think that's what I've learned. I came for the code and I stayed for the people - that's how I feel about open source. It's weird how we got here, and I didn't expect this to be the path that it ended up being. That's why we're doing such crazy things at Changelog, because we care about people; we wanna help people.
+**Adam Stacoviak:** \[01:04:05.11\] It's good though, because it's an exercise in humanity, if you ask me... I think that's what I've learned. I came for the code and I stayed for the people - that's how I feel about open source. It's weird how we got here, and I didn't expect this to be the path that it ended up being. That's why we're doing such crazy things at Changelog, because we care about people; we wanna help people.
 
 Sure, talking to people like you on shows like this, and producing podcasts, and sending out e-mails and newsletters, and doing live shows, going to conferences, doing some of the film stuff we do - that's all fun, but at the end of it all, the whole point of it all is touching people's lives, inspiring people, hearing people's unique stories, and just getting into trenches with the people, you know? That's what it's all about for us.
 
@@ -360,7 +360,7 @@ We're getting close to the end of time, we've got about five(ish) minutes to go.
 
 **Zeno Rocha:** The way DevSpace was started - I was only thinking about the end result, and not about the code as much... Let's put it this way - I just wanted to put something out there, and one of the excuses I used to build DevSpace was also I wanted to try React... So it was my first project with React, and it was like "Okay, I'm just gonna keep this as a private repo for now, and then when I find time, I'll make this open source." \[laughs\] That's pretty much it.
 
-**Adam Stacoviak:** \[\\01:08:26.11\\\] So this is a web app, it's not an actual native app, so I'm assuming that you may be following the conversations happening around progressive web apps.
+**Adam Stacoviak:** \[01:08:26.11\] So this is a web app, it's not an actual native app, so I'm assuming that you may be following the conversations happening around progressive web apps.
 
 **Zeno Rocha:** Yes, that's exactly another excuse that I used for building this. I wanted to try progressive web apps, and basically the way I built is if you go to your Android or your iOS phone, you can add it to your home screen; it has service workers, all that kind of things, and you can have an app-like user experience on your phone.
 
@@ -384,7 +384,7 @@ We're getting close to the end of time, we've got about five(ish) minutes to go.
 
 **Zeno Rocha:** That's awesome.
 
-**Adam Stacoviak:** \[\\01:11:55.25\\\] Anyways, let's get back to the "yet" in parenthesis... Maybe this is a syndrome - we've only got about a minute-and-a-half to go, but maybe this is a syndrome where someone like who is so thoughtful, is so caring, is so meticulously planning and what not, that they feel like they can't open source something because of the potential backlash of the not so good code because they put so much good code out there. How do you feel about that?
+**Adam Stacoviak:** \[01:11:55.25\] Anyways, let's get back to the "yet" in parenthesis... Maybe this is a syndrome - we've only got about a minute-and-a-half to go, but maybe this is a syndrome where someone like who is so thoughtful, is so caring, is so meticulously planning and what not, that they feel like they can't open source something because of the potential backlash of the not so good code because they put so much good code out there. How do you feel about that?
 
 **Zeno Rocha:** I feel like this is a real pressure that you get once you start doing more stuff. I don't think it prevents me from doing that; I don't stop writing new projects because of that, but it's something that I wish I didn't feel. I wish I would just put it out there, and if it's bad, it's bad... Send a pull request. But yeah, it's just something that I wish I didn't feel. \[laughs\]
 
@@ -400,7 +400,7 @@ We're getting close to the end of time, we've got about five(ish) minutes to go.
 
 **Zeno Rocha:** No, I think my... The reason why I'm doing this is I just want to -- I hope that this helps someone. If you're listening... I'm not here to be like "Oh, here's all the projects that I've built! Look how awesome I am!" or "Just use everything that I did" - that was not the goal at all. The only reason why we're here is because we wanted to just give a different perspective on how you could work, or a different take...
 
-\[\\01:15:12.01\\\] I learned so much from other people, and if I have the opportunity, I wanna share those things that I learned. So I hope this was helpful... I'm super glad that I'm here. I have been listening to The Changelog for a lot of time, and now I'm here, so thanks, Adam!
+\[01:15:12.01\] I learned so much from other people, and if I have the opportunity, I wanna share those things that I learned. So I hope this was helpful... I'm super glad that I'm here. I have been listening to The Changelog for a lot of time, and now I'm here, so thanks, Adam!
 
 **Adam Stacoviak:** No problem. It was really fun, and I'm glad... I know we didn't get a chance to talk about this, but we'll link in the show notes because I did catch this as I was planning for this call - it's ZenoRocha.com/reminder. It's just a reminder to people what time means, and I have a similar blog post I wrote after someone passed away, that I kind of reflected on what time means... So I really appreciate you taking the time to sit down and have this conversation, and also the time that you spend to enrich the lives of developers out there. That's our mission, that's your mission, and it takes time to do so, and we only get so much time, so I appreciate you taking your time today. And you, the listener listening to this, I appreciate your time as well, so thank you for tuning in. That's it, man. Thank you so much for joining us, it was a pleasure!
 

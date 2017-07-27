@@ -42,7 +42,7 @@ I tell people, "If you need some gear, just show up at my house with a box and s
 
 It was in 2008 that I discovered a project called Ruby Arduino Development, from Greg Borenstein. It wasn't actually running Ruby on Arduinos, it was the somewhat forward-thinking idea of using Ruby to create a domain-specific language which you could then compile down to Arduino code and run independently. I created a framework called Flying Robot, which was an unmanned aerial vehicle framework built on top of Ruby Arduino Development, that was mostly used to control blimps and other flying vehicles. The term 'drone' had not come... It was a kinder, gentler era. Back then, drones were strictly the purvey of the military and they were used for reconnaissance. It was before the dark times in the skies that drones come to represent to some people. But to others, of course, a drone is anything with propellers that flies around.
 
-\[\\00:04:05.29\\\] So I created several different frameworks in different languages based on the same sort of ideas. I loved this idea of Go conceptually... I think it was Eleanor McHugh who was the first person who ever actually showed me any Go code with a lightning talk she did at a RubyConf in New Orleans, many years ago. Then the late, great Jim \[unintelligible 00:04:34.09\] started talking to me about Go, and then some other people started talking about Go, and I'm like "I should check out this Go thing."
+\[00:04:05.29\] So I created several different frameworks in different languages based on the same sort of ideas. I loved this idea of Go conceptually... I think it was Eleanor McHugh who was the first person who ever actually showed me any Go code with a lightning talk she did at a RubyConf in New Orleans, many years ago. Then the late, great Jim \[unintelligible 00:04:34.09\] started talking to me about Go, and then some other people started talking about Go, and I'm like "I should check out this Go thing."
 
 In my case, anytime I check out a language, my first language is "Can I make it fly?" I mean, under its own power and land, successfully... Not just launch it into the air, although I am known to do that occasionally, but not on purpose, necessarily.
 
@@ -66,7 +66,7 @@ I was discussing that at lunch with Matt Aimonetti - that's really the beauty of
 
 **Ron Evans:** My palms were sweating, okay? He was like, "Don't be nervous, I don't bite." He's a very nice man. I was like, "Can I get you some coffee, Mr. Pike Sir?" \[laughter\] \[unintelligible 00:07:32.29\] he's like, "Are you like a Python or a Ruby programmer?" I'm like, "Yeah, you got me..." He's like, "You do realize this is not fully idiomatic Golang?" I'm like, "Yes, now that I'm actually learning Golang, I'm kind of getting that."
 
-\[\\00:07:48.06\\\] He was very kind, and that's one thing about the Golang community in general - even when people are explaining how you could do it better, the general ethic, the cultural continuity of us helping each other out and doing so in a fun way... Kindness is really the term. And it still is a relatively small community, but it has been one of the things that's made it especially pleasurable - so many different people contributing, and sometimes what they're telling you means you have to do a bunch of work. But that's not the idea.
+\[00:07:48.06\] He was very kind, and that's one thing about the Golang community in general - even when people are explaining how you could do it better, the general ethic, the cultural continuity of us helping each other out and doing so in a fun way... Kindness is really the term. And it still is a relatively small community, but it has been one of the things that's made it especially pleasurable - so many different people contributing, and sometimes what they're telling you means you have to do a bunch of work. But that's not the idea.
 
 We've been fortunate that the community has really embraced Gobot and helped us evolve to the... Just earlier today we hit 2,800 stars on GitHub, we have over 60 contributors, we have a lot of active work being done, having new hardware and software platforms, compatibility with different hardware that's coming out or that's been out and that people are just getting around to using... So it's been especially satisfying to see that people are -- when you're a musician and you play a song, you want people to enjoy it. This idea that you're just doing it for yourself I think is not really true. You're doing it because you want people to like what you're doing, and especially in the case of open source, the way they show that they like what you're doing is they help you make it better in some way. That could be just by trying to use it and running into problems, and saying, "Hey, I need some help." That's really valuable contribution, especially since people are often intimidated to admit they don't know something.
 
@@ -77,7 +77,7 @@ So we started it with Ruby with R2. Not to long thereafter we got impatient and 
 
 The implementations are very much idiomatic with regard to the implementation patterns, but the net effect is that you're using the same application development patterns. We might think of it as a sort of software factory for building hardware-oriented applications. It's like \[unintelligible 00:12:03.22\] hardware-oriented applications. But the communities are a lot different.
 
-\[\\00:12:10.08\\\] The Ruby community sort of stalled a little, because a lot of Rubyist these days are more interested in building web applications than anything else, and also the implementations of the runtime, the things that we needed to do as far as concurrency was concerned, really we could do them best with jRuby or with Rubinius and not with the main line Ruby itself.
+\[00:12:10.08\] The Ruby community sort of stalled a little, because a lot of Rubyist these days are more interested in building web applications than anything else, and also the implementations of the runtime, the things that we needed to do as far as concurrency was concerned, really we could do them best with jRuby or with Rubinius and not with the main line Ruby itself.
 With Node, we can take advantage of the way that Node handles blocking I/O, but we're also limited by the way that Node handles blocking I/O. Node is a hack. It's a useful hack, because most of the time the applications you're writing, your problem in life is blocking I/O. If you're writing web servers, your problem in life is blocking I/O. The same way as if you're writing applications that communicate with hardware sensors, your problem is blocking I/O again; this is a different I/O, but it's the same problem. The way that Go handles these things is so elegant and so concurrent...
 
 I did a talk a couple of weeks ago at FOSDEM in Brussels, which is an amazing conference, by the way... It's completely community-organized, so it's sort of a controlled chaos of a delightful kind. There was a fantastic community room for Go. Francesc Campoy was there and did a really great talk about the state of Go 1.8. And a few other talks... I gave a talk...
@@ -90,7 +90,7 @@ There's a part of my weekly activities - I regularly program in C++, Python, Jav
 
 When you look at the amount of effort it takes to do that in other languages, even C++ with all the different dynamically-linked libs, the fact that things are statically linked in Golang - this is really the triumvirate of core capabilities you need to do device-oriented programming. So if the Go team themselves didn't realize how great it was for this, well we, their audience, do.
 
-**Carlisia Pinto:** \[\\00:16:09.18\\\] It's delightful to hear that Go is working so well for hardware, because hardware is hard... There's so many things... I have such bad luck with hardware - whenever I touch it, the thing (whatever it is) breaks. As delightful as it is, I wanted to ask what do you see as opportunities for improvement for Go as far as hardware and IoT?
+**Carlisia Pinto:** \[00:16:09.18\] It's delightful to hear that Go is working so well for hardware, because hardware is hard... There's so many things... I have such bad luck with hardware - whenever I touch it, the thing (whatever it is) breaks. As delightful as it is, I wanted to ask what do you see as opportunities for improvement for Go as far as hardware and IoT?
 
 **Ron Evans:** Well, funny you should mention that... There's really a few things that can make the big difference that currently are either completely lacking or are in the very early stage and need a lot more community involvement. The answer to everything is more community involvement, naturally. The first one is Bluetooth 4.0 a.k.a. Bluetooth Low Energy. This wireless standard is the core of device interactions with a whole category of different devices, and it's really the fundament of the next generation of wireless IoT.
 
@@ -102,7 +102,7 @@ And having some support for OpenCV, which is a computer vision package... You kn
 
 Our role the way that we see it as members of the Gobot team, we're sort of the stewards of the de-facto low-level interfaces for Go at this point. There have been a couple of movements, but whether or not this should be actually part of Go itself is very arguable, just because keeping Go very light and minimal and then adding these types of capabilities... So I don't have a strong opinion about whether or not that should be.
 
-\[\\00:20:00.26\\\] What I do have an opinion about is more if we as a community can sort of rally around creating a shared set of low-level hardware interfaces, to make it easier for implementers. We can then not just have Gobot, but potentially other projects that could utilize those same interfaces and share ideas. You know, a single solution or monoculture is not really sustainable. Because of our popularity, we view that our role is to be stewards of other interesting things that other people are doing, which may be in fact designed to replace what we're doing at some point. Or they may be integrated into what we're doing, since it's all about the interfaces and helping the community create those.
+\[00:20:00.26\] What I do have an opinion about is more if we as a community can sort of rally around creating a shared set of low-level hardware interfaces, to make it easier for implementers. We can then not just have Gobot, but potentially other projects that could utilize those same interfaces and share ideas. You know, a single solution or monoculture is not really sustainable. Because of our popularity, we view that our role is to be stewards of other interesting things that other people are doing, which may be in fact designed to replace what we're doing at some point. Or they may be integrated into what we're doing, since it's all about the interfaces and helping the community create those.
 
 It always just comes back down to "Let's share ideas and see what happens." But there's a lot of exciting stuff going on as far as hardware-related activity. First of all, I made a list of some -- just even this week. So I'm Los Angeles this week for the SCALE 15x conference. SCALE is the Southern California Linux Expo. it is North America's largest community-run Linux expo, and it's in its 15th year.
 
@@ -128,7 +128,7 @@ But this week has been really exciting in the hardware world. The Raspberry Pi Z
 
 They've had tremendous community buildup around it. There's all kinds of interesting software that runs on the Raspberry Pi. Gobot runs really well, especially with Go 1.8's improvements substantially as far as Go's performance on ARM... Somewhat less so -- actually, \[unintelligible 00:23:51.08\] was already quite good.
 
-**Brian Ketelsen:** \[\\00:23:54.00\\\] Well, speaking of the Raspberry Pi, there's some metrics... You were mentioning adoption metrics earlier. I have some metrics that I recorded that I want to share with you. Since putting Gobot on my Raspberry Pi, I have used Gobot to control the cook of 68 racks of ribs, 17 briskets, 5 prime ribs and 10 whole chickens. \[laughter\]
+**Brian Ketelsen:** \[00:23:54.00\] Well, speaking of the Raspberry Pi, there's some metrics... You were mentioning adoption metrics earlier. I have some metrics that I recorded that I want to share with you. Since putting Gobot on my Raspberry Pi, I have used Gobot to control the cook of 68 racks of ribs, 17 briskets, 5 prime ribs and 10 whole chickens. \[laughter\]
 
 **Ron Evans:** Alright, I'm hungry.
 
@@ -140,7 +140,7 @@ They've had tremendous community buildup around it. There's all kinds of interes
 
 **Erik St. Martin:** So I know that we can probably go pretty deep especially into the barbecue stuff - it's something Brian and I love. But before we do that, let's take a quick sponsor break. Our first sponsor for today is Backtrace.
 
-**Break:** \[\\00:24:43.09\\\]
+**Break:** \[00:24:43.09\]
 
 **Erik St. Martin:** Alright, we're back, talking to Ron Evans about Gobot, and important statistics about Brian's grilling with Go. During the break you were talking about the puns with Go... I really wanna see an Energizer bunny powered by Gobot, so we can really say it keeps going and goin...
 
@@ -176,7 +176,7 @@ They've had tremendous community buildup around it. There's all kinds of interes
 
 **Carlisia Pinto:** \[laughs\] You are thoroughly jumping ahead, but that's cool... \[laughter\]
 
-**Erik St. Martin:** \[\\00:27:47.02\\\] One cool thing to talk about when we talk about Gobot and stuff - and even bringing up Brian's barbecue thing - is a lot of people feel like hardware is unapproachable, and Arduino was a big kick back into the maker scene, and people are able to do a lot of things with hardware more easily than they think they're able to. But using stuff like Gobot makes it even more approachable, and Brian can give a good example of that with the barbecue thing he built. How long do you think it took you to wire that together, Brian?
+**Erik St. Martin:** \[00:27:47.02\] One cool thing to talk about when we talk about Gobot and stuff - and even bringing up Brian's barbecue thing - is a lot of people feel like hardware is unapproachable, and Arduino was a big kick back into the maker scene, and people are able to do a lot of things with hardware more easily than they think they're able to. But using stuff like Gobot makes it even more approachable, and Brian can give a good example of that with the barbecue thing he built. How long do you think it took you to wire that together, Brian?
 
 **Brian Ketelsen:** I don't know, I'm having a hard time struggling with the idea that that segue sounded a lot like, "Brian's an idiot, and even he can use Gobot on Raspberry Pi." \[laughter\] But the truth of it is, I was gonna interject and say I'm an idiot, and even I can use Gobot on a Raspberry Pi, so I'm not gonna take it personally because it's true. \[laughter\] It was an afternoon plugging things in and maybe two or three hours of coding to get all of the right hardware dresses, doing the right things at the right time, and then maybe another two or three weeks of on and off debugging, trying to get my calculus algorithm correct and working well. So not much coding time at all, just a lot of perfecting it.
 
@@ -194,7 +194,7 @@ It's like having a book about something that you haven't read, but you keep on t
 
 I noticed the teams would kind of bifurcate. They'd have the hardware people and the software people, and the hardware people would be assembling the robots, and the software people would be like, "Hey, can you hurry up, so I can write some code?" And a lot of the work that we want to try to do is to make it so that it's easier for people to get started and to realize hardware development is very much like software development - nobody starts from scratch; you copy and paste your way in. It's just a different set of tooling.
 
-\[\\00:32:05.15\\\] If you were designing a circuit from scratch, it is the equivalent in hardware of writing your own crypto algorithm in software. You probably shouldn't be doing it. And if you should, you already know. So our approach is really quite the opposite, to make it as easy as possible. Even the simplest things that you take for granted are things that the novice does not know. So you can't make assumptions, because even those assumptions are barriers for people to do things with them.
+\[00:32:05.15\] If you were designing a circuit from scratch, it is the equivalent in hardware of writing your own crypto algorithm in software. You probably shouldn't be doing it. And if you should, you already know. So our approach is really quite the opposite, to make it as easy as possible. Even the simplest things that you take for granted are things that the novice does not know. So you can't make assumptions, because even those assumptions are barriers for people to do things with them.
 
 The Internet of Things as a term is not one that I'm especially fond of... The term 'hacker', it's been adopted by popular culture - like the term 'drone', for that matter - so I have to go along with it, but it's a very, very powerful set of technologies to instrument the real world. So who's going to be the beneficiaries of that instrumentation?
 
@@ -208,7 +208,7 @@ We're very lucky at Hybrid Group because we get to do a lot of open source devel
 
 **Ron Evans:** I think that's really valid. The "I'm not worthy/I'm not good enough" - not realizing that every single observation is worthy of being noted, especially the initial experiences of things that we are all already so schooled in that we don't think about them. It could be something as simple as when you have wires, the red one is usually the plus or the hot electricity, and the black one is the minus, meaning it's the ground.
 
-\[\\00:36:09.01\\\] We've seen all this when we know how to read schematics and wiring diagrams, but if you're just getting started and you don't know that, "Oh wait, you mean the colors mean something?" It's still just the same wire, but we use the colors to represent a significance so that we can actually understand what's going on, but these are customs. They're not strict rules per se... One piece of wire being the same as another, except it's to the color of the shield housing on it...
+\[00:36:09.01\] We've seen all this when we know how to read schematics and wiring diagrams, but if you're just getting started and you don't know that, "Oh wait, you mean the colors mean something?" It's still just the same wire, but we use the colors to represent a significance so that we can actually understand what's going on, but these are customs. They're not strict rules per se... One piece of wire being the same as another, except it's to the color of the shield housing on it...
 
 **Erik St. Martin:** Well, it's similar to the software world, it's an idiom, right?
 
@@ -232,7 +232,7 @@ If anything we wanna do with Gobot, it's to try to encourage more people to have
 
 **Erik St. Martin:** I guess it's difficult, because when you use verbiage like that you can say something's easy to make people feel confident that they can jump in. But the other side of it is the negative factor if you struggle with it. If I read something and it says, "Oh, this is easy" and then it's not easy for me to do, I feel like somehow I'm missing a ton of foundational knowledge. Because it gets really hard... If you've done similar things it's easy; if all of it is new to you... If somebody tells you to set up a web server and you've never looked at a Linux machine ever... It's not like there's any individual part of that that's overly difficult, but it's a lot of foundational stuff to learn that you don't know, and as you run into stuff.
 
-**Ron Evans:** \[\\00:39:59.06\\\] Yeah, remember the "In a Nutshell" series of books? I had a bunch of them. The one that was like five or six inches thick was Linux In a Nutshell. You know, just five or six hundred pages of stuff you gotta know; just the bare minimum... \[laughter\] If you don't find that intimidating, you're probably a fraud. I find that intimidating. Like, "Oh, wow... I'm supposed to know all this stuff just to have the most minimum necessary knowledge?"
+**Ron Evans:** \[00:39:59.06\] Yeah, remember the "In a Nutshell" series of books? I had a bunch of them. The one that was like five or six inches thick was Linux In a Nutshell. You know, just five or six hundred pages of stuff you gotta know; just the bare minimum... \[laughter\] If you don't find that intimidating, you're probably a fraud. I find that intimidating. Like, "Oh, wow... I'm supposed to know all this stuff just to have the most minimum necessary knowledge?"
 
 I've seen recently the confessional tweets that people... I didn't do it - not because I was against it or anything, just because I didn't actually get around... I thought it was really interesting that people felt the need to confess. Some of them were humble brags and some of them were more legitimate acknowledgements of "We're all internet-based programmers." What does that mean? It means if we don't have an internet connection to look something up... I mean, I for one don't know much except how to type in the right search. Because there's too much knowledge, and certainty is not an indication of mastery. Certainty is an indication of an intermediate level - "Oh, it's definitely this."
 
@@ -258,7 +258,7 @@ My kids have told me, "Dad, you're addicted to coding." And I say, "I can stop a
 
 **Ron Evans:** So it's definitely something that we have to learn more about as far as the human part of code, and it's the only part that matters. You know, I'm a humanist; I work with technology as means to an end, towards a happier human being. The point is not the technology, it's what it does for us. We really can't forget that.
 
-**Carlisia Pinto:** \[\\00:44:10.01\\\] Absolutely. I wanted to ask you, Ron, what are the more popular uses for Gobot, as far as you can tell?
+**Carlisia Pinto:** \[00:44:10.01\] Absolutely. I wanted to ask you, Ron, what are the more popular uses for Gobot, as far as you can tell?
 
 **Ron Evans:** Well, on the one hand you have the makers - the people who are hackers, who want to put together some individual, bespoke solution to a particular problem they have. You could maybe go buy a cheaper, prefabricated version of your garage door opening system, but then you would lack the satisfaction of having done something. So that's one on the maker side, and it's not about reproducing the thing, it's about just making one for yourself.
 
@@ -270,13 +270,13 @@ Hybrid Group is able to afford to do these things because of course, like all go
 
 We manifest that today by way of commercial products. That is the place where we're really excited about Go and Gobot - bringing it to the industrial strength... You know, we would say that Gobot is for professional, hardware-oriented developers who want to build a real product. That's really what for us is the ultimate... If we can help create a thousand companies that are all able to make money by building hardware-oriented products that are doing great things for their customers and their users... If municipalities and governments can use them to build more open and more efficient instrumentation to improve their civic life - if we can do these things through open source then it's kind of like... I think Winston Churchill quipped that we have capitalism, the most efficient form of economy, so that we can have democracy, the least efficient form of government, or something like that. \[laughter\]
 
-\[\\00:47:53.08\\\] I may have attributed the quote wrong, I may have even made the whole thing up, but I view open source the same reason. It's not so that nobody has to pay anything and gets it all cheap -- for what purpose? So we can just make extra money? Yes, perhaps... But also for more intrinsic solving of big problems and improving the human condition. That is to me the end game of open source - it's the roads and bridges, it's the infrastructure of the 21st century; that's the open source that the world runs on.
+\[00:47:53.08\] I may have attributed the quote wrong, I may have even made the whole thing up, but I view open source the same reason. It's not so that nobody has to pay anything and gets it all cheap -- for what purpose? So we can just make extra money? Yes, perhaps... But also for more intrinsic solving of big problems and improving the human condition. That is to me the end game of open source - it's the roads and bridges, it's the infrastructure of the 21st century; that's the open source that the world runs on.
 
 Ultimately, that perhaps becomes the most valuable thing in human society. I don't know.
 
 **Erik St. Martin:** Now, I have some questions about the future of Gobot, but first let's take our second sponsor break. Our second sponsor for today is The Ultimate Go Training Series.
 
-**Break:** \[\\00:48:48.02\\\]
+**Break:** \[00:48:48.02\]
 
 **Erik St. Martin:** Alright, and we are back, talking to Ron Evans from Gobot. Brian, you were mentioning that you have an anecdote as well...
 
@@ -294,7 +294,7 @@ For me, that was the peak of complete hackerness - using that to engineer a soci
 **Ron Evans:** Gobot continues to evolve. We pushed really hard for the 1.0 release right before the holidays at the end of last year. One reason was we really wanted to give people a more solid experience for those who choose to use that time of the year (vacation time) to work on individual projects or self-knowledge or development.
 
 I know some people have been critical about that sort of thing... I personally think -- you've gotta do what you've gotta do, and if that is the time when you're able to do that personal professional development in order to sustain your own career, by all means; that is an excellent thing to do with one's time.
-\[\\00:51:57.05\\\] So stabilizing the external interfaces was really important for us and now that we've done that, the contributors have been doing amazing work - both some of the core work for interfaces such as the I²C interfaces. We were able to do some really sophisticated things with multiple different kinds of instruments like digital compasses and barometers and accelerometers and things. That's all due to contributors.
+\[00:51:57.05\] So stabilizing the external interfaces was really important for us and now that we've done that, the contributors have been doing amazing work - both some of the core work for interfaces such as the I²C interfaces. We were able to do some really sophisticated things with multiple different kinds of instruments like digital compasses and barometers and accelerometers and things. That's all due to contributors.
 
 A lot of the work that we're gonna be doing is going to be improving the implementations of some of the core stuff we've already done, but without changing the external interfaces. Bill Kennedy (Ultimate Go Bill Kennedy, by the way) has been extremely helpful mentoring some of the internal refactorings that we've been doing, and he spent a lot of time thinking about package-oriented design, and he's been really helpful guiding us through this process of reassembling the plane while in flight, so that we're better situated for this current year of development.
 
@@ -307,7 +307,7 @@ If there's anything that we should've learned from the Mirai botnet, or that we 
 
 Denial of a service attack mounted from your toy doll collection is not something you expect, but it's coming if we don't apply professional development practices to literally every single connected device. Gobots future is, if we do it right, that we build the tooling for the whole next generation of connected devices and build it on top of Go. That seems to be the strongest contender at this point, from all the stuff that we've seen, except for something completely novel that hasn't popped up into our serious radar yet. But as far as the best bet going, that seems to be it.
 
-**Erik St. Martin:** \[\\00:55:59.06\\\] Yeah, there's an entire website dedicated to just finding random IoT things on the internet, that you can just browse around and find people's webcams that have default credentials... Scary times.
+**Erik St. Martin:** \[00:55:59.06\] Yeah, there's an entire website dedicated to just finding random IoT things on the internet, that you can just browse around and find people's webcams that have default credentials... Scary times.
 
 **Ron Evans:** Yeah, and we have to take responsibility for that on multiple levels. One is we as developers have to use serious professional practices and help determine what those are within ourselves, or else they're gonna be applied upon us from outside by people who don't understand. That will substantially reduce the pace of the innovation and could even end up regulating things like open source if we're not careful. That's one aspect that we need to take seriously.
 
@@ -323,7 +323,7 @@ So we have to be very careful, because the perverse incentives that we've seen a
 
 Maybe we need licensing models where you're able to turn on or off the ability of sharing of data, so you can decide to whom and to whom not is it shared on a slightly more discreet level. I know that Brave (the browser) has tried this type of micropayments approach. We may need that in terms of internet connected devices as well, or else we're going to have these perverse incentives that create warped economics around these devices, and then perhaps not apply them to the right things.
 
-\[\\01:00:09.25\\\] If we're putting all our emphasis into selling more stuff and not enough into reducing utilization of scarce environmental resources, for example... You know, just because one has a big benefit and the other one has no real immediate payoff - that just magnifies the kind of problems that technology has in part created, as opposed to helping alleviate them. I'm a utopian thinker, but like Buckminster Fuller said, it's utopia or oblivion.
+\[01:00:09.25\] If we're putting all our emphasis into selling more stuff and not enough into reducing utilization of scarce environmental resources, for example... You know, just because one has a big benefit and the other one has no real immediate payoff - that just magnifies the kind of problems that technology has in part created, as opposed to helping alleviate them. I'm a utopian thinker, but like Buckminster Fuller said, it's utopia or oblivion.
 
 **Erik St. Martin:** I think we're about running out of time. Do you guys wanna do some \#FreeSoftwareFriday? Did I lose everybody?
 
@@ -357,7 +357,7 @@ Maybe we need licensing models where you're able to turn on or off the ability o
 
 **Brian Ketelsen:** Yeah, I will second that. Every time I turn around, there's somebody from the NATS community helping out somewhere. In fact, I think maybe it was last week or the week before we shouted out NATS on \#FreeSoftwareFriday, too. It's nice. Great community-focused company at APCERA.
 
-**Erik St. Martin:** \[\\01:03:47.03\\\] Mine for this week is by somebody named OJ Reeves. I'm gonna continue my trend with security tools. It's called Gobuster; it's on GitHub.com/oj-gobuster. It's like a replacement for Dirb or Dirbuster, basically to brute-force innumerate directories for websites. Basically, you can give it a word list and it tries to find cgi-bin or cPanel or things like that. So that's a super cool tool for scanning web servers. Extremely fun to see what you find, too... With permission, of course.
+**Erik St. Martin:** \[01:03:47.03\] Mine for this week is by somebody named OJ Reeves. I'm gonna continue my trend with security tools. It's called Gobuster; it's on GitHub.com/oj-gobuster. It's like a replacement for Dirb or Dirbuster, basically to brute-force innumerate directories for websites. Basically, you can give it a word list and it tries to find cgi-bin or cPanel or things like that. So that's a super cool tool for scanning web servers. Extremely fun to see what you find, too... With permission, of course.
 
 **Brian Ketelsen:** With permission. Consult your lawyer before hacking any websites, please.
 
@@ -401,7 +401,7 @@ If you wanna do hardware hacking that's not Gobot, bring it. If you just wanna h
 
 **Ron Evans:** Yeah, but then my cases would smell like that, and I would get really hungry and the ribs would be gone by the time I got to the other end. Just the delightful, smoky scent of Golang-powered barbecue would remain.
 
-**Brian Ketelsen:** \[\\01:08:15.26\\\] That's what my house smells like.
+**Brian Ketelsen:** \[01:08:15.26\] That's what my house smells like.
 
 **Erik St. Martin:** It'd be kind of hilarious, though... If you had them layered across the top of your suitcase, four or five racks of ribs, and it's like, "TSA, take two, leave three, please." \[laughter\]
 

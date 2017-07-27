@@ -2,7 +2,7 @@
 
 We have three sponsors today - Sentry, Hired and DataDog.
 
-**Break:** \[\\00:01:12.00\\\]
+**Break:** \[00:01:12.00\]
 
 **Adam Stacoviak:** Alright, we're back. We're talking about Kubernetes today, Jerod! K8s!
 
@@ -38,7 +38,7 @@ We have three sponsors today - Sentry, Hired and DataDog.
 
 It has a storied history, but most of that history it sounds like is from the inside of Google, before it was open sourced. In fact, on the Kubernetes homepage it states that this results from 15 years of experience running production workloads at Google. And it actually beat out a few other systems - Borg and Omega, internal things at Google; there's a white paper on that, which we'll link up to as well - to get where it is today. Tim, I think you're best positioned to tell us the story of how Kubernetes won inside Google, why it was open source, and all that good stuff.
 
-**Tim Hockin:** \[\\00:04:03.15\\\] Sure. So I should clarify, Kubernetes is an offshoot of the Borg and the Omega systems. What we use inside Google is still Borg and Omega.
+**Tim Hockin:** \[00:04:03.15\] Sure. So I should clarify, Kubernetes is an offshoot of the Borg and the Omega systems. What we use inside Google is still Borg and Omega.
 
 **Jerod Santo:** Okay...
 
@@ -60,7 +60,7 @@ Kubernetes internally isn't in great use, although we are seeing more and more t
 
 **Aparna Sinha:** The other point I wanted to make is that, you know, what we found is that when you talk about open source systems, there's a fundamental difference between taking a technology that you're using internally and open-sourcing it versus developing something as an open source platform from the get-go. Kubernetes is the latter. When you take something that's internal and open-source it, it's not necessarily built for an external environment, and it usually has a number of constraints built into it that may be specific to the company from which it comes.
 
-\[\\00:08:13.01\\\] The Kubernetes was built differently, and I think Tim can speak much more about that... But it was really built for the external world, with the external world from the start.
+\[00:08:13.01\] The Kubernetes was built differently, and I think Tim can speak much more about that... But it was really built for the external world, with the external world from the start.
 
 **Adam Stacoviak:** On that note though, we've heard the story of people being inside of Google, and then as you said before, Tim, kind of stepping outside of the Google land and no longer having those Google tools, and what would life be like without those... We've heard that story before, so it seems natural to white-paper Borg and provide that out there when Docker came to fruition, but then also feel like you have a problem solved with Kubernetes and release that as a full-blown open source-focused project.
 
@@ -74,7 +74,7 @@ The way I see it is the closer systems get to each other, the more energy you ne
 
 **Jerod Santo:** That makes a lot of sense. That's reminding me very much -- Adam, can you help me out here? We did an episode, and I feel like it was with Google, but it might have been with James Pearce at Facebook, where it was one of these inevitable things where this was going to happen, and we know it's going to happen, and they're either going to do it around a set of tools and processes and ideas that we are in control of, or that we aren't. And by "control" I mean influential. So the decision was really kind of made around that, as opposed to keeping it secret, because if there's going to be an ecosystem, if there's going to be a platform, it's advantageous to have -- especially once the white paper is out there, the toothpaste is out of the... What's it called?
 
-**Adam Stacoviak:** \[\\00:11:54.07\\\] Yeah, it's out of the tube. I recall some sort of conversation around this... It may have been the public data set call we had with GitHub that was around Google Cloud; that might have been a part of that conversation, but I can't place it. If you're a listener and you know the show and we're idiots and we just can't figure it out, let us know; we'll put it in the show notes.
+**Adam Stacoviak:** \[00:11:54.07\] Yeah, it's out of the tube. I recall some sort of conversation around this... It may have been the public data set call we had with GitHub that was around Google Cloud; that might have been a part of that conversation, but I can't place it. If you're a listener and you know the show and we're idiots and we just can't figure it out, let us know; we'll put it in the show notes.
 
 **Jerod Santo:** Yeah. I just say that because I'm having a very strong sense of deja-vu as you're explaining this to me, and I feel like somebody else has explained this to me and it made a ton of sense then. It makes a ton of sense now. So tell us the story about the rewrite. I cast it improperly... It's not that it'd be Borg, it's that it's more like son of Borg. So all the good idea is here, let's re-create - kind of a rewrite, but an offshoot, with complete open source in mind from the very start. What does that start to look like? Huge undertaking, no doubt. Borg grew organically over the years, and now you probably have a lot of pressure to produce something great in a small amount of time.
 
@@ -92,7 +92,7 @@ These were the key decisions at the beginning - how do we start his over? When w
 
 **Aparna Sinha:** Right.
 
-**Jerod Santo:** \[\\00:16:08.29\\\] Yeah, good point.
+**Jerod Santo:** \[00:16:08.29\] Yeah, good point.
 
 **Tim Hockin:** As someone who's on the receiving end of a lot of the pull requests from our 1,100-1,200 contributors, it's amazing and overwhelming, and the project would be an entirely different thing if we had even half of that many people.
 
@@ -118,7 +118,7 @@ Then it sort of sat on the shelf while we tried to figure out what to do with it
 
 **Tim Hockin:** So we called it Seven. Obviously, that was never gonna fly with trademark, so we had to come up with a real name. Honestly, there's no magic behind the name... We all came up with synonyms and translations, and we just dumped them all into a doc, we threw out the obviously terrible ones and we sort of voted on what was left, and Kubernetes was the winner.
 
-\[\\00:20:06.07\\\] As a word, it means "helm's men" or "the guy who steers the boat", which has been keeping with the nautical theme that Docker put forward, but also capturing a little bit of the "We're managing things, not just shipping things", so we liked the connotation of it. It's fairly SEO friendly, it's memorable, so it sort of fit the bill for everything we wanted, except for brevity... So that's why Kubernetes became K8s.
+\[00:20:06.07\] As a word, it means "helm's men" or "the guy who steers the boat", which has been keeping with the nautical theme that Docker put forward, but also capturing a little bit of the "We're managing things, not just shipping things", so we liked the connotation of it. It's fairly SEO friendly, it's memorable, so it sort of fit the bill for everything we wanted, except for brevity... So that's why Kubernetes became K8s.
 
 **Adam Stacoviak:** I wanna point this out too, Jerod, that he said it's SEO-friendly, and I never would have thought that Google would care if something was SEO-friendly, because...
 
@@ -172,7 +172,7 @@ Then it sort of sat on the shelf while we tried to figure out what to do with it
 
 **Adam Stacoviak:** Must argue about names.
 
-**Break:** \[\\00:23:47.10\\\]
+**Break:** \[00:23:47.10\]
 
 **Jerod Santo:** Alright, we are back with Aparna Sinha and Tim Hockin from Google, talking about Kubernetes. We got a little bit of the history and the why it exists, but one question that I always have is who is this for, and what are some places where Kubernetes or this kind of infrastructure could really shine? Aparna, it sounds like you have a couple of stories for us to help us understand how companies are using this and how it's useful for them, so go ahead.
 
@@ -186,7 +186,7 @@ But the biggest benefit that they noted was how simple it was to deploy their ap
 
 So that's one kind of customer, and I think you can apply that to many situations - you can apply that to eCommerce and retail; we have many users that are retail and eCommerce users that use the container engine offering in addition to some of the analytics offerings that are also on Google Cloud.
 
-\[\\00:28:09.09\\\] Another favorite story that we have here in the Kubernetes community and at Google is that of Pokémon Go. I think that that's also a great example, because it applies in general to gaming. We do have many gaming vendors that use Kubernetes. In their case, you don't know really whether a game is gonna be a hit or not, and having a flexible infrastructure that can scale up as you grow and then scale down when you need to is really very cost-effective and also doesn't stunt your growth when you need it the most. I think Pokémon Go definitely is the fastest-growing application to a billion dollars that the world had ever seen until then, and Kubernetes is behind scaling that up.
+\[00:28:09.09\] Another favorite story that we have here in the Kubernetes community and at Google is that of Pokémon Go. I think that that's also a great example, because it applies in general to gaming. We do have many gaming vendors that use Kubernetes. In their case, you don't know really whether a game is gonna be a hit or not, and having a flexible infrastructure that can scale up as you grow and then scale down when you need to is really very cost-effective and also doesn't stunt your growth when you need it the most. I think Pokémon Go definitely is the fastest-growing application to a billion dollars that the world had ever seen until then, and Kubernetes is behind scaling that up.
 
 **Jerod Santo:** Yeah, I mean Pokémon Go was beyond successful. It was a phenomenon last summer, and even with Kubernetes, they had some issues. They were scaling, but at a certain point your demand is just increasing at such a rate that all the preparedness in the world may not be enough.
 
@@ -206,7 +206,7 @@ They were absolutely pushing the limits of what we were offering right out the d
 
 **Aparna Sinha:** Yes, that's a great story.
 
-**Jerod Santo:** \[\\00:31:49.08\\\] Kubernetes, like you said, is being deployed \[unintelligible 00:31:50.15\] slowly into Google, because Borg has been running Google-wide for a long time... But perhaps Pokémon Go was stressing Kubernetes, like you said, obviously a lot, but maybe more than -- you know, you assume "Well, Google's making this, so this is Google web scale - or whatever the word is - and it could Google-type traffic", but it really hadn't been tested maybe as much as it was with Pokémon Go. Is that fair?
+**Jerod Santo:** \[00:31:49.08\] Kubernetes, like you said, is being deployed \[unintelligible 00:31:50.15\] slowly into Google, because Borg has been running Google-wide for a long time... But perhaps Pokémon Go was stressing Kubernetes, like you said, obviously a lot, but maybe more than -- you know, you assume "Well, Google's making this, so this is Google web scale - or whatever the word is - and it could Google-type traffic", but it really hadn't been tested maybe as much as it was with Pokémon Go. Is that fair?
 
 **Tim Hockin:** That's absolutely true. One of the hard things about working at Google is you can't launch anything until you're ready to handle a million users, and we don't have that same requirement with Kubernetes. If we had that same requirement, we never would have shipped. We went out very, very early in terms of capabilities. The Kubernetes 1.0 supported 100 nodes; 100 nodes is barely a test cluster inside Google. So by the time Pokémon came in, we were supporting 1,000 nodes and they were pushing the limits of what we could support, and we were worried about what they would need when they turned on Japan.
 
@@ -244,7 +244,7 @@ We could probably tell people that it worked at 10,000 nodes, but it just won't 
 
 **Aparna Sinha:** Yeah, the 5,000 nodes is an open source and Google container engine number, and it's measuring SLOs - one on API latency and another on pod startup time. Both of those are fairly stringent SLOs. We do have users outside of Google Cloud that run larger clusters.
 
-\[\\00:35:56.18\\\] But one thing that I would point out is that when I've talked to the largest of large customers that are interested in using Kubernetes, usually they're looking at multiple clusters, and I think that's also part of the planetary scale aspect. They're looking at, say, having multiple regions that they want to have a presence in, because they are a global company, they have users -- I mean, Google obviously is a global company, and any one workload may be running out of multiple regions so that they can have lower latency to the users in those regions. That typically - certainly in a cloud context - involves multiple clusters. You may have a cluster in the Asian region, you may have a cluster in the Europe region, you may have another one in North America, each of which could be as large as 5,000 nodes. Typically, actually I see less than that - 1,000-2,000 nodes for the large customers, and then spanning that workload across multiple clusters, which may or may not be managed together. You could manage them independently, or we also have what is called cluster federation, where you can manage them from a single endpoint.
+\[00:35:56.18\] But one thing that I would point out is that when I've talked to the largest of large customers that are interested in using Kubernetes, usually they're looking at multiple clusters, and I think that's also part of the planetary scale aspect. They're looking at, say, having multiple regions that they want to have a presence in, because they are a global company, they have users -- I mean, Google obviously is a global company, and any one workload may be running out of multiple regions so that they can have lower latency to the users in those regions. That typically - certainly in a cloud context - involves multiple clusters. You may have a cluster in the Asian region, you may have a cluster in the Europe region, you may have another one in North America, each of which could be as large as 5,000 nodes. Typically, actually I see less than that - 1,000-2,000 nodes for the large customers, and then spanning that workload across multiple clusters, which may or may not be managed together. You could manage them independently, or we also have what is called cluster federation, where you can manage them from a single endpoint.
 
 **Jerod Santo:** I was gonna ask if that level of scale where you're not just scaling out nodes, but you're actually scaling multiple clusters regionally - if that's seamless with Kubernetes. There's a couple different ways of going at it, but there is some configuration involved in getting that all working together?
 
@@ -262,7 +262,7 @@ When it works, when you understand the bounds that it operates in, it's pretty m
 
 **Aparna Sinha:** Can I go first here? I wanna touch up on the "Run anywhere", because just stepping back, one of the promises of containers is portability, right? Your application is no longer tied to a particular hardware or to a particular hypervisor or a particular operating system, to a particular kernel. So you can actually move it from cloud to cloud; you can move it from on-premise, you can move it from your laptop to the cloud. That is the promise of containers. However, if you don't have a way to manage containers in production, that also is portable, so the container manager also has to be portable in order for that promise to come true. Otherwise, that promise sort of breaks down.
 
-\[\\00:40:14.09\\\] So when we say that Kubernetes runs anywhere, we really are referring to that aspect of portability, that your container orchestrator, the thing that manages your container environment in production can run in all of those environments - it can run on your laptop, it can run in your public cloud of choice and in your private cloud of choice.
+\[00:40:14.09\] So when we say that Kubernetes runs anywhere, we really are referring to that aspect of portability, that your container orchestrator, the thing that manages your container environment in production can run in all of those environments - it can run on your laptop, it can run in your public cloud of choice and in your private cloud of choice.
 
 I think Tim will say - it's not necessarily zero work to move your system from one cloud to another, but your applications and your services that are designed to run on Kubernetes will run on Kubernetes anywhere.
 
@@ -278,7 +278,7 @@ The flipside of that is it is a ton of work from an engineering point of view to
 
 **Adam Stacoviak:** That's a good place to take our next break then, because we wanna dive a little further into things like architecture, which is a long subject, I'm sure. Let's take this break, and when we come back we'll dive further into K8s's architecture. BRB
 
-**Break:** \[\\00:43:36.15\\\]
+**Break:** \[00:43:36.15\]
 
 **Adam Stacoviak:** And we're back, talking about K8s, and I said in the break I was dying to say "BRB", and you can't follow K8s and go into a break and not say "BRB", so I did it, so thank you very much...
 
@@ -304,7 +304,7 @@ The API server runs on what we tend to call the Master; it doesn't have to be a 
 
 The scheduler looks at the public API and it says, "Hey, is there work in here that hasn't been assigned to a worker? If there is, I'll go do that assignment", and that's basically all it does. Then we have this thing called the controller manager, which implements a control pattern that we call controllers. What a controller does is it says "I have a job. My job is to make sure that a load balancer exists for this service. That's all I do. And I watch the API server and I wait for changes, and when things change, I wake up, I activate whatever the thing that I was asked to change, and then I go back to sleep. Periodically, I'm gonna wake up and I'm just gonna check the state of the universe and make sure that it exists in the form that I expect it to exist. If it doesn't, I'm gonna drive towards the declared state." This is sort of the declarative model.
 
-\[\\00:48:30.14\\\] So the controller manager implements all of the most common controllers that we have for our system. These are things like resolving endpoints for services, or managing nodes, making sure that nodes are healthy and doing health checks there. The scheduler itself is a controller... So all of these pieces wake up and they're always talking to the API server constantly. If you were to watch the API servers logs, you'll see that it's constantly busy just answering these requests - forget these objects, put these objects, update this, patch that.
+\[00:48:30.14\] So the controller manager implements all of the most common controllers that we have for our system. These are things like resolving endpoints for services, or managing nodes, making sure that nodes are healthy and doing health checks there. The scheduler itself is a controller... So all of these pieces wake up and they're always talking to the API server constantly. If you were to watch the API servers logs, you'll see that it's constantly busy just answering these requests - forget these objects, put these objects, update this, patch that.
 
 When you use our command line took, KubeCTL, it does the exact same thing - it talks to the API server, it gets objects and it prints them for you, it takes objects from your local files and puts them into the server, which then creates new things for the server to do.
 
@@ -324,7 +324,7 @@ I think the really cool part of this architecture is that it's always easy to fi
 
 **Jerod Santo:** Right.
 
-**Tim Hockin:** \[\\00:51:54.27\\\] Or you could use a private registry, or you could use the ones that Amazon ships, or you could use Quay.io... There's dozens of these offerings that are Docker registry-compatible, and we will work with all of them. We have a way to specify credentials so that you can pull from a private registry and use private images.
+**Tim Hockin:** \[00:51:54.27\] Or you could use a private registry, or you could use the ones that Amazon ships, or you could use Quay.io... There's dozens of these offerings that are Docker registry-compatible, and we will work with all of them. We have a way to specify credentials so that you can pull from a private registry and use private images.
 
 **Jerod Santo:** And then I also noticed that -- you know, we're talking about the architecture, kind of the underpinnings here, and I just love to see when there's other open source things that are involved, because nobody's building these things in a vacuum, and you have Etcd being used for service discovery, which is a highly allotted tool out of CoreOS, which is very cool... So you're pulling together things - Docker, Etcd, and of course all this custom stuff as well... At the end of the day, it makes very much sense from a command line, but surely there's some sort of declarative way that I can define, similar to a Docker file -- is there a Kubernetes file where I can say "Here's what I want it to look like", and I can pass that off and it builds and runs? Or how does that work?
 
@@ -360,7 +360,7 @@ So the command line gives you a bunch of imperative commands for humans, but if 
 
 **Tim Hockin:** More or less... If you YouTube search for Kubernetes, you'll find me, Brendan, Brian, Joe, who are really the founders of the project, but you'll also find luminaries like Kelsey, who have done all sorts of really cool talks, generic 101 level sessions all the way down to deep dives on networking and storage and these other topics. They all tend to get posted to YouTube.
 
-\[\\00:55:49.28\\\] I also post all the slides for talks that I do on my Speaker Deck, so if people wanna follow along, they can go look at my Speaker Deck and click through the slides on their own pace.
+\[00:55:49.28\] I also post all the slides for talks that I do on my Speaker Deck, so if people wanna follow along, they can go look at my Speaker Deck and click through the slides on their own pace.
 
 **Jerod Santo:** Very good. Send us that link and we'll put that in the show notes as well. Lots of places to get more information for sure. Real quick before we get into community and kind of the getting started... We talked about scaling up, of course - that's what Kubernetes and nodes and clusters is all about; planetary scale, web scale, whatever you wanna call it... The ability to not have to rush and have the ability to scale when you need to, which on the web you rarely know when that is... How well does it scale down? We've talked about some of your great users, but when is it too small for it to make sense, too much overhead or too much work to use Kubernetes? Or if you haven't learned it yet... If I'm running a Wordpress site with maybe one or two servers, maybe a database and an Apache or something - is that too small for me to take the time with Kubernetes, or there's still wins at that small scale?
 
@@ -388,7 +388,7 @@ If you just have one node with some number of containers, then maybe it doesn't 
 
 As far as using it, if you use it in a hosted environment or you're not the one who's actually doing the deployment of the cluster, I would say that it's quite easy to use. You need to understand the concept of a service, which is going to be a part of your application, and you need to think about "Okay, how do I containerize my service?" But that's something that you need to do if you're gonna use Docker containers, so either way you'll need to do that.
 
-\[\\00:59:50.02\\\] Beyond that -- I guess I'm biased, but the set of concepts in Kubernetes are fairly straightforward. It's like "I've got my application, it's made up of a few services. The services are going to run in pods, and I'm gonna write a set of declarative YAML that is gonna say how I want to run my service." It's really straightforward.
+\[00:59:50.02\] Beyond that -- I guess I'm biased, but the set of concepts in Kubernetes are fairly straightforward. It's like "I've got my application, it's made up of a few services. The services are going to run in pods, and I'm gonna write a set of declarative YAML that is gonna say how I want to run my service." It's really straightforward.
 
 **Tim Hockin:** I agree. When I decided I was gonna move my family stuff over to a single node, a Kubernetes cluster, I spent a couple of days thinking about "How am I going to take this running VM image that I had from years ago and decompose it into containers in a way that made sense for me to manage it?" But I didn't actually have to go that far. I could have just taken everything and jammed it together into one container and call it done, but I spent a couple days and I ended up with a pretty neat design where I've got a MySQL container, and I've got a PHP container that runs a little PHP site that we have, and I wrote a little container for Webtrees, which runs some genealogy software... I put them all together, and now when I wanna know what's happening on my server, I have the same command line tool that I have available at work, and if I wanna update it, it's really just one single command line; there's no more SSH-ing and edit config files, it's a different way of working that I think works really well.
 
@@ -412,7 +412,7 @@ That's the same environment that you get there that Pokémon's using, and I thin
 
 **Adam Stacoviak:** That tutorial you mentioned from Kelsey was actually talked quite a bit about on GoTime episode \#20, so if you're listening to this and you wanna dive deep into some of the behind the scenes on that, Kelsey was on that show that day and kind of covered that, and lots of other fun stuff around Kubernetes, because he's obviously a huge fan. It's called "Kubernetes The Hard Way'", it's on GitHub; we'll link it up in the show notes.
 
-\[\\01:04:11.29\\\] Moving on from Getting Started -- is that what we wanna cover there, or is there a bit more on the Getting Started part? I've got a link out to Minikube as well... Which is so funny that it's Kube \[kewb\] there, but it's not Kube \[koob\], Minikube \[minikoob\]. \[laughter\]
+\[01:04:11.29\] Moving on from Getting Started -- is that what we wanna cover there, or is there a bit more on the Getting Started part? I've got a link out to Minikube as well... Which is so funny that it's Kube \[kewb\] there, but it's not Kube \[koob\], Minikube \[minikoob\]. \[laughter\]
 
 **Jerod Santo:** We're stuck on it.
 
@@ -434,7 +434,7 @@ So Google does not own Kubernetes; Google still has a lot of people working on K
 
 We're the number one contributor, but we're not the majority. In fact, the number two main contributor on the pie chart is unaffiliated or independent. So yeah, I think this was just a requirement of being in this space at this time in the industry.
 
-**Aparna Sinha:** \[\\01:07:49.15\\\] Yeah, I would say this is not all altruistic, right? We actually believe that in order to reach our audience - again, the audience is all the users on premise and across clouds - being open source is extremely important for that, and developing a community that works with users on premise in bare metal, across the world, is instrumental. The way that we developed the product is not just from Google, it's through the community that is working actively with the users, and often it's with the users themselves. \[unintelligible 01:08:25.28\] is a great example, eBay is a great example, New York Times... These are all users that also contribute back to the project; that makes the product stronger. That's not altruism on the part of Google, I think that's strategic.
+**Aparna Sinha:** \[01:07:49.15\] Yeah, I would say this is not all altruistic, right? We actually believe that in order to reach our audience - again, the audience is all the users on premise and across clouds - being open source is extremely important for that, and developing a community that works with users on premise in bare metal, across the world, is instrumental. The way that we developed the product is not just from Google, it's through the community that is working actively with the users, and often it's with the users themselves. \[unintelligible 01:08:25.28\] is a great example, eBay is a great example, New York Times... These are all users that also contribute back to the project; that makes the product stronger. That's not altruism on the part of Google, I think that's strategic.
 
 **Adam Stacoviak:** I like that your perspective is about trust, which is super important, obviously, to put the thing that runs your thing -- you need to have that full-out, 100% trust, be 110% trust... That's an interesting perspective.
 

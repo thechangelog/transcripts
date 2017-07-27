@@ -36,7 +36,7 @@ Once I started getting those recruiting mails and I asked one of them, "If I don
 
 After that I went and worked at Basecamp (37Signals) and that was pretty cool, to end up doing that. Then I wanted to do another startup again, so I talked to one of my friends, \[unintelligible 00:03:49.24\] and I asked him where he was working, and he was telling me about this company Segment IO, which was like an analytics data startup.
 
-\[\\00:03:59.20\\\] I ended up joining there, and that's how I was introduced to Go, because originally Segment IO was built on NodeJS, and we started to scale up and it got to the point where Node's event loop would be blocked all the time processing JSON, and so that's how I started to introduce Go, and ultimately we ended up having dozens of microservices built on Go.
+\[00:03:59.20\] I ended up joining there, and that's how I was introduced to Go, because originally Segment IO was built on NodeJS, and we started to scale up and it got to the point where Node's event loop would be blocked all the time processing JSON, and so that's how I started to introduce Go, and ultimately we ended up having dozens of microservices built on Go.
 
 Today I am head of architecture at another analytics company called Taplytics So that's what I'm doing now. In the future I would like to bootstrap my own company, maybe write some scripts... I wanna make movies one day, I think that would be cool, and do lots of writing. So that's what I'm about.
 
@@ -57,7 +57,7 @@ But basically, the whole idea behind Jocko was writing a Kafka that would be rea
 
 **Travis Jeffery:** Yeah, you can think of it as like a data hub for all your data, basically. At Segment, a lot of times what we would do is that basically something would go into Kafka, a worker would pull that off, do some processing on it, and then put it back into another Kafka topic, and then so on and so forth, until finally it went out to a database, or something like that.
 
-**Brian Ketelsen:** \[\\00:08:04.17\\\] Yep, very, very common pattern.
+**Brian Ketelsen:** \[00:08:04.17\] Yep, very, very common pattern.
 
 **Erik St. Martin:** The nice thing for that streaming data workflow too is that it's great for services to come online and offline if a service crashes or you take it down for upgrades and stuff like that... The data is still being pumped into Kafka, the queue just backs up a little bit until the consumer comes back online, which is awesome.
 
@@ -87,7 +87,7 @@ One thing that Go is missing from Java is called zero-copy networking. That's ba
 
 **Travis Jeffery:** Basically, the way I went about it is I cloned the Kafka repo and then I got the big picture view of the pieces. So I'd look at the directories and I'd look at the files, and then I dug into those... They have like a log directory. I looked at those files in there and I figured out how they worked and I really liked their implementations. I also bought their book - I think it's called "Kafka: The Definitive Guide", so I read that.
 
-\[\\00:12:03.02\\\] They kind of described in a high level how it worked, and then from there I just went in and implemented it. So I basically just learned enough Scala as I needed to understand what was going on, and then just did it.
+\[00:12:03.02\] They kind of described in a high level how it worked, and then from there I just went in and implemented it. So I basically just learned enough Scala as I needed to understand what was going on, and then just did it.
 
 **Brian Ketelsen:** Nice. So you're not using any intermediate storage mechanism like BoltDB or LevelDB - you're using all stuff that you wrote yourself?
 
@@ -117,7 +117,7 @@ There hasn't been too much trouble... And again, another nice thing is that the 
 
 **Travis Jeffery:** I looked at that one and I looked at the Etcd as well. I felt like Hashicorp's just fit my brain a little bit better. It seemed a little bit simpler. The other thing is that I just like how it's in its own repo, too. Because when I wanna look up issues for the project, I just wanna see the issues for Raft.
 
-\[\\00:15:55.16\\\] With Etcd, they have their Raft library inside this huge -- that's just one small part of their huge project and huge repo on GitHub, so it's difficult to find issues for Raft, that are Raft-specific, so that's another thing that was annoying for me. So yeah, it was mostly that it fit my brain.
+\[00:15:55.16\] With Etcd, they have their Raft library inside this huge -- that's just one small part of their huge project and huge repo on GitHub, so it's difficult to find issues for Raft, that are Raft-specific, so that's another thing that was annoying for me. So yeah, it was mostly that it fit my brain.
 
 The other nice thing was that I read Consul and Nomad - I read their source code to see how they did it, so it was nice to see the same libraries. So that was another thing, it was useful to see how they did it.
 
@@ -127,7 +127,7 @@ The other nice thing was that I read Consul and Nomad - I read their source code
 
 **Erik St. Martin:** Alright, so I think it's about time for our first sponsored break.
 
-**Break:** \[\\00:16:43.10\\\]
+**Break:** \[00:16:43.10\]
 
 **Erik St. Martin:** We are back, we are talking to Travis Jeffery about Jocko, and let's start talking about some interesting Go projects and news. Anybody got anything interesting they've come across this week?
 
@@ -161,7 +161,7 @@ Somewhere I saw that they were using a whole bunch of Go, and I know that on the
 
 **Brian Ketelsen:** The list is getting long.
 
-**Erik St. Martin:** \[\\00:20:14.01\\\] During the show we're like, "We should totally get that person on the show", and then we forget. How about you, Carlisia? Did you run across anything this week that you found interesting?
+**Erik St. Martin:** \[00:20:14.01\] During the show we're like, "We should totally get that person on the show", and then we forget. How about you, Carlisia? Did you run across anything this week that you found interesting?
 
 **Carlisia Pinto:** Yes, I was talking to my co-worker Joshua and asking him if he had used any queuing system, because from the Rails world there are two very well-established libraries -- well, I should say Gem... And I haven't used anything like that in Go yet, but I might have to. He mentioned this library that Uber apparently came out with last month - or at least they open sourced it last month, I think - called Cherami. It would be actually interesting to know what the similarities are between these libraries and Jocko, what one does that the other doesn't, but maybe we will another time.
 
@@ -186,7 +186,7 @@ Somewhere I saw that they were using a whole bunch of Go, and I know that on the
 I found another interesting project called Ponzu, and this is something that I've been threatening to write myself forever but never really got around to needing it badly enough to do it. It's a CMS (I think WordPress) but with only an API. It's built for fat clients that need to access content, and they just do it over an API layer instead of something like WordPress.
 I've had several occasions where I've needed something similar to that, and I'm excited that somebody wrote it. It looks interesting. That's at Ponzu-cms/ponzu on GitHub. It looks exciting.
 
-**Erik St. Martin:** \[\\00:23:57.23\\\] I love the logo. One of the coolest things is not just the software people create, but the logos. \[laughter\]
+**Erik St. Martin:** \[00:23:57.23\] I love the logo. One of the coolest things is not just the software people create, but the logos. \[laughter\]
 
 **Brian Ketelsen:** Since this is radio, this is a gopher with a sushi plate in his hand, and a Japanese headband. Pretty impressive.
 
@@ -242,7 +242,7 @@ I've had several occasions where I've needed something similar to that, and I'm 
 
 **Erik St. Martin:** I like the fact that long form he sat down and put out all his ideas. Maybe some of them are lofty and are harder to slide into the Go 1 promise, but at least to have somebody who's steering the direction of the language to sit down and write that, "Yes, these things aren't being ignored. They're kind of like at the top of our head and they're things we wanna fix." Some of them, like package management, has been coming a long way, and it'd be interesting to get somebody from the team there to talk about where they're at with that.
 
-**Brian Ketelsen:** \[\\00:28:00.12\\\] Yeah, package management, it just causes me bitterness. Every time I think I have one of the tools understood, I get bitten and it just makes me cranky.
+**Brian Ketelsen:** \[00:28:00.12\] Yeah, package management, it just causes me bitterness. Every time I think I have one of the tools understood, I get bitten and it just makes me cranky.
 
 **Erik St. Martin:** I'm in the same boat... It's like, "Alright, I've kind of accepted where this is", and then I'm like, "Why are they not syncing? Why are my packages not up to date? Why can't I just go update these packages? I thought this worked!"
 
@@ -292,7 +292,7 @@ Somebody in the channel also mentioned one of Brian's favorite people in the wor
 
 **Carlisia Pinto:** That doesn't even make sense.
 
-**Brian Ketelsen:** \[\\00:31:53.22\\\] It has absolutely nothing to do with the fact that they may or may not have been sexual assault. It infuriated me, it really infuriated me. The Go article was pretty well written; he did a good job of elucidating the pluses and minuses of Go versus Rust for their use case, and it was factual and nicely written.
+**Brian Ketelsen:** \[00:31:53.22\] It has absolutely nothing to do with the fact that they may or may not have been sexual assault. It infuriated me, it really infuriated me. The Go article was pretty well written; he did a good job of elucidating the pluses and minuses of Go versus Rust for their use case, and it was factual and nicely written.
 
 **Erik St. Martin:** It was actually interesting to see him argue with some Rust people back and forth in the comments. So the takeaway really from that was - we kind of digressed there a bit on some of the other posts that were your typical Hacker News posts... But this particular article, the thing that was interesting is just that somebody who's kind of an old-school C person, kernel maintainer and stuff, he talks about how within a couple of days he picked up Go and felt proficient with it, and all that stuff, and when he tried to do similar things with Rust, he felt just a lot of pain trying to figure out how to do basic, basic things. Kind of interesting.
 
@@ -320,7 +320,7 @@ I like seeing different people's perspectives, because Go came out and it was re
 
 **Erik St. Martin:** The difficulty is that because it's not reported it doesn't mean it doesn't happen. We've had some instances, nothing major, knock on wood... I really hope that nothing major ever happens, but we tried to do our best to kind of set the expectation of how people should conduct themselves. We tried to do stuff for our after parties where we have buses, charter people to and from the hotel where the after party is so people don't have to walk, especially with people drinking. And it gets difficult too, because the conference scene, especially with drinking, it kind of ups the occurrence of things like that, too.
 
-\[\\00:35:56.19\\\] We've been fortunate that there hasn't been anything major, extreme that's happened, but still... Just the whole play on it; it's not even just about that, it's people's perception. It drives me nuts to hear a woman at a conference is asked what sponsored boots she's working; that drives me crazy. Why can't they be an engineer? I'm confused here. Your first assumption is somebody's there as an attendee, you know?
+\[00:35:56.19\] We've been fortunate that there hasn't been anything major, extreme that's happened, but still... Just the whole play on it; it's not even just about that, it's people's perception. It drives me nuts to hear a woman at a conference is asked what sponsored boots she's working; that drives me crazy. Why can't they be an engineer? I'm confused here. Your first assumption is somebody's there as an attendee, you know?
 
 **Brian Ketelsen:** Yeah... I'm booking that show, by the way. I'm putting it in Trello right now.
 
@@ -330,7 +330,7 @@ I like seeing different people's perspectives, because Go came out and it was re
 
 **Erik St. Martin:** Awesome. So with that, I think that it is time for our second sponsored break. Our second sponsor for today is Backtrace.
 
-**Break:** \[\\00:36:52.07\\\]
+**Break:** \[00:36:52.07\]
 
 **Erik St. Martin:** Alright, we are back. We're talking with Travis Jeffery... So we just went over some Go projects and news. Anybody have any other interesting articles or projects that they ran across this week? Or do you guys wanna talk about \#FreeSoftwareFriday stuff?
 
@@ -354,7 +354,7 @@ I like seeing different people's perspectives, because Go came out and it was re
 
 But if you wait till the last 48 hours, nobody will have time to respond back to you to give you feedback as to what you might be able to change to make it more appealing. And also, Dave Cheney wrote a post on the Gopher Academy blog too, giving helpful insight into writing a proposal for the conference.
 
-\[\\00:39:56.25\\\] I think that part of that can get misunderstood, too. I think people think that it has to be this crazy, highly technical proposal. I forget that sentence that was getting confused, but the basic idea of it though is we get a lot of one-sentence and two-sentence submissions. None of the reviewers know who you are, they only know what you put in that box, so that's why we talk about making sure you put enough information in there where people can gauge your knowledge of whether you'll be able to lay it out in a flow that will fit within your time and it won't be bouncing all over.
+\[00:39:56.25\] I think that part of that can get misunderstood, too. I think people think that it has to be this crazy, highly technical proposal. I forget that sentence that was getting confused, but the basic idea of it though is we get a lot of one-sentence and two-sentence submissions. None of the reviewers know who you are, they only know what you put in that box, so that's why we talk about making sure you put enough information in there where people can gauge your knowledge of whether you'll be able to lay it out in a flow that will fit within your time and it won't be bouncing all over.
 
 If you say, "I wanna talk about Go logging" and that's your proposal, that's gonna be really hard for the reviewers to be like, "Oh yeah, let's..." Logging may be something that everybody's very interested in seeing something about, but we don't know how well you know that topic, we don't know how you're gonna frame it, are the attendees gonna leave with more questions than answers, what's the takeaway... That's the thing. And we get a lot of one and two-sentence proposals.
 
@@ -374,7 +374,7 @@ That's really what we're looking for when we're trying to figure out the qualifi
 
 **Erik St. Martin:** Me, Brian and Dave have been known to have many a late night at the conference, sitting in hotel rooms where people give dry runs. We're committed to helping people give good talks and to feel comfortable getting on stage. Another note, we don't make it too clear and a lot of people don't submit because they're worried about compensation, like how are they gonna get there, because many conferences maybe provide you a ticket, so you really have to rely on your employer to sponsor you. We do pay hotel, airfare and everything for our speakers to come out, so don't let not being able to pay for travel and expenses hinder your from submitting, because we've got it covered.
 
-**Brian Ketelsen:** \[\\00:44:10.06\\\] That was like the GopherCon sub-segment there.
+**Brian Ketelsen:** \[00:44:10.06\] That was like the GopherCon sub-segment there.
 
 **Erik St. Martin:** Right?
 
@@ -428,7 +428,7 @@ What about you, Erik? Did you come up with something good this week for \#FreeSo
 
 **Brian Ketelsen:** All I heard is "Blah-blah-blah..." \[laughter\] "JTAG-something-something Special Forces...", I don't know...
 
-**Erik St. Martin:** \[\\00:47:59.21\\\] Think GDB for hardware. So it allows you to connect GDB to, say, like a micro-controller and step through the code that's executing on it. And the JTAG's a little bit more involved with the way that works, but similar things it does, as well as \[unintelligible 00:48:15.19\] things.
+**Erik St. Martin:** \[00:47:59.21\] Think GDB for hardware. So it allows you to connect GDB to, say, like a micro-controller and step through the code that's executing on it. And the JTAG's a little bit more involved with the way that works, but similar things it does, as well as \[unintelligible 00:48:15.19\] things.
 
 **Brian Ketelsen:** Nice, very cool. Travis, did you have something you wanted to share for \#FreeSoftwareFriday?
 
@@ -458,7 +458,7 @@ He also recently put out one of my favorite blog posts about a release, and I'll
 
 **Brian Ketelsen:** I haven't combined them yet, although as I was doing this goa project this week I thought about ways that they could actually combine nicely together. So maybe there might be something like that in the future. Go is very specifically API-level and Buffalo is very much on the website, although it does nice APIs. There's no concept of the design-first ideas in Buffalo, so I think that those worlds can meet, it just will take some time to think it through.
 
-**Erik St. Martin:** \[\\00:51:53.06\\\] Todd's calling me out. It really is me responding on Twitter and talking at the same time. I'm good like that. \[laughter\]
+**Erik St. Martin:** \[00:51:53.06\] Todd's calling me out. It really is me responding on Twitter and talking at the same time. I'm good like that. \[laughter\]
 
 **Carlisia Pinto:** I'm going to say goodbye, and Travis, thank you so much.
 
@@ -506,7 +506,7 @@ The new Gopher Academy website is written in Buffalo, the new GopherCon website 
 
 **Brian Ketelsen:** I'd like to see that code, because not too long ago I was doing Docker-backed web terminals, and I got stuck with that same websocket upgrade, because I was trying to connect the standard in and standard out from the web terminal directly to a Docker container running a shell, and there's that point in the middle where you get the upgrade and I was like, "Oh, darn it!"
 
-**Erik St. Martin:** \[\\00:56:11.17\\\] Yeah... It's actually kind of cool, because you can just basically pipe the two connections together. But yeah, I'll help you through it.
+**Erik St. Martin:** \[00:56:11.17\] Yeah... It's actually kind of cool, because you can just basically pipe the two connections together. But yeah, I'll help you through it.
 
 **Brian Ketelsen:** I'll buy you a beer.
 
@@ -566,7 +566,7 @@ So I suggested on Twitter that we needed to have a standard interface for loggin
 
 An interface that covers log levels and structured logging, in the standard library (which is my biggest argument) - if it's not in the standard library, you're wasting your time - it would allow us to plugin whatever logging library we liked, whether it's Logrus or Log15, or Go kits, or whatever, and they would all just work. That's what I want - I want things to just work.
 
-**Travis Jeffery:** \[\\01:00:11.04\\\] Yup, it'd be awesome.
+**Travis Jeffery:** \[01:00:11.04\] Yup, it'd be awesome.
 
 **Brian Ketelsen:** Java's had it for years, Log4j.
 

@@ -4,7 +4,7 @@ We talked to Sandi about her beginnings on the mainframe, 30+ years of programmi
 
 We have three sponsors - Heap, Rollbar and Code School.
 
-**Break:** \[\\00:00:49.15\\\]
+**Break:** \[00:00:49.15\]
 
 **Adam Stacoviak:** Alright, we're back. Jerod, a fun show today. This is a show, I think... How long? Sandi Metz, right? We've wanted to have Sandi Metz on the show for years, and finally...
 
@@ -44,7 +44,7 @@ I got a job at a state agency and wrote code on mainframes. When PC's came out i
 
 I've done everything - I've been a network administrator, I've been a DBA, I wrote many years of Smalltalk, I got into Ruby and Ruby on Rails before the 1.0 release...
 
-\[\\00:08:14.22\\\] So I have this breadth of experience, which means many problems fit somewhere in the slot in my -- I have a mental framework of computer programming that many problems fit into somewhere, even if I don't know the... Things don't intimidate me like they once did, just because I have so much context.
+\[00:08:14.22\] So I have this breadth of experience, which means many problems fit somewhere in the slot in my -- I have a mental framework of computer programming that many problems fit into somewhere, even if I don't know the... Things don't intimidate me like they once did, just because I have so much context.
 
 **Jerod Santo:** Let's talk about that, because like you said, you wrote a book - this was, I believe 2012 - Practical Object-Oriented Design In Ruby...
 
@@ -76,7 +76,7 @@ The woman, who is now my editor, started this campaign to get me to write a book
 
 **Jerod Santo:** I like that.
 
-**Sandi Metz:** \[\\00:12:00.28\\\] I felt so guilty. \[laughs\] Every time I went some place I would get really nice food at a really nice restaurant. So eventually I agreed to write it, but it was partly actually one of the things that... She would trot out reasons I should do it, so everytime I would see her (twice a year) there would be a new reason she would give why I should do the book, and I'm like, "Neah, I'm not gonna write a book. What do I know about writing a book? I'm not gonna write a book! I write e-mail and documentation code, I'm not gonna write a book."
+**Sandi Metz:** \[00:12:00.28\] I felt so guilty. \[laughs\] Every time I went some place I would get really nice food at a really nice restaurant. So eventually I agreed to write it, but it was partly actually one of the things that... She would trot out reasons I should do it, so everytime I would see her (twice a year) there would be a new reason she would give why I should do the book, and I'm like, "Neah, I'm not gonna write a book. What do I know about writing a book? I'm not gonna write a book! I write e-mail and documentation code, I'm not gonna write a book."
 
 Finally, she told me "You use open source software and you don't give back."
 
@@ -110,7 +110,7 @@ I didn't have any experience writing... If there's value in POODR, we should tha
 
 **Jerod Santo:** Well said.
 
-**Sandi Metz:** \[\\00:15:33.22\\\] I don't want to make a blanket rule about that, but it's also true... I get a lot of questions from people where they tell me -- I'm always trying to get people to give talks, and it's very common that I'll have a conversation with someone who seems thoughtful and curious and bright and energetic, and I'll say, "Have you ever given a conference talk? It will change your life. If you wanna move your programming life, your visibility to the next level, for whatever reason - to have more opportunity, or for whatever reason you might wanna do that - the first step... You can have a blog, or you can get on stage." And people usually tell me, "Oh, I don't have anything to say." And I ask them - and I'll ask you guys - "Do you know anything now that you didn't know a year ago?" That's not a rhetorical question.
+**Sandi Metz:** \[00:15:33.22\] I don't want to make a blanket rule about that, but it's also true... I get a lot of questions from people where they tell me -- I'm always trying to get people to give talks, and it's very common that I'll have a conversation with someone who seems thoughtful and curious and bright and energetic, and I'll say, "Have you ever given a conference talk? It will change your life. If you wanna move your programming life, your visibility to the next level, for whatever reason - to have more opportunity, or for whatever reason you might wanna do that - the first step... You can have a blog, or you can get on stage." And people usually tell me, "Oh, I don't have anything to say." And I ask them - and I'll ask you guys - "Do you know anything now that you didn't know a year ago?" That's not a rhetorical question.
 
 **Adam Stacoviak:** Definitely.
 
@@ -166,7 +166,7 @@ I didn't have any experience writing... If there's value in POODR, we should tha
 
 **Sandi Metz:** Well, let me ask you this then... Does it mean that you are bad if they say mean things about you? Because you can't have one without...
 
-**Adam Stacoviak:** \[\\00:19:46.10\\\] See, Jerod, that's part of her milling the answer to our question, right? We've talked about that earlier, in the pre-call, prepping for this. I don't know, I guess it shouldn't reflect actually who I am, because I am who I am regardless of the critics. But it's hard... It certainly puts the wall there.
+**Adam Stacoviak:** \[00:19:46.10\] See, Jerod, that's part of her milling the answer to our question, right? We've talked about that earlier, in the pre-call, prepping for this. I don't know, I guess it shouldn't reflect actually who I am, because I am who I am regardless of the critics. But it's hard... It certainly puts the wall there.
 
 **Sandi Metz:** Well, you see, I'm older. That helps. Being older helps. A fame came to me - fame in a very narrow niche, absolutely - a kind of fame/notoriety that would never have occurred to me that I would ever have, came to me when I was a mature adult, and it was very clear to me from day one that I couldn't get too attached to the nice things that people said about me.
 
@@ -210,7 +210,7 @@ There was something a little magical about it - you know, that whole thing about
 
 **Adam Stacoviak:** You do a lot of teaching too, right? You have like a traveling class you do?
 
-**Sandi Metz:** \[\\00:28:06.15\\\] Yeah, I teach probably on average maybe once a month. Teaching is exhausting. It's hugely fun, you can imagine... You guys have seen a course. I don't know if the listeners know that we met in person at a course I was teaching... You saw in there - it's not like going and teaching a class where the students wanna ignore you.
+**Sandi Metz:** \[00:28:06.15\] Yeah, I teach probably on average maybe once a month. Teaching is exhausting. It's hugely fun, you can imagine... You guys have seen a course. I don't know if the listeners know that we met in person at a course I was teaching... You saw in there - it's not like going and teaching a class where the students wanna ignore you.
 
 **Adam Stacoviak:** It was very interactive. You were part of the class, so to speak. You were leading it, but you were very much entrenched in it. You weren't, by any means, talking at a podium and people were just listening.
 
@@ -222,7 +222,7 @@ There was something a little magical about it - you know, that whole thing about
 
 **Jerod Santo:** Well, let's take that first break. On the other side, we are going to tap into some of that knowledge, Sandi. We have some OOP-based questions and lots of interesting things, which will lead us into a conversation around your new book, 99 Bottles, which you are co-authoring with Katrina Owen, a friend of this show. So we'll break here and we'll be back with a lot more goodies after this break.
 
-**Break:** \[\\00:30:21.09\\\]
+**Break:** \[00:30:21.09\]
 
 **Jerod Santo:** Alright, we are back with Sandi Metz and we are talking about object-oriented programming, her experience programming, teaching, consulting... Sandi, you've made your recent living and much of your time spent teaching other people how to do object-oriented programming correctly/better. You're kind of an OOP guru at this point. I have a lot of questions about object-oriented programming, and I thought we'd just start off with this one, which is what are the best things in your opinion that OOP has to offer?
 
@@ -234,7 +234,7 @@ There was something a little magical about it - you know, that whole thing about
 
 This is an example that comes right out of the new book, and it's my mind because I've been working on this chapter... In a ticket app where you have buyers and tickets, you might also have refunds and purchases. The refund is an idea, but you can make an object for a refund, and that refund object is just as real as the buyer object, in an object-oriented application, even though out in the real world it's not. So being able to model, to create a world where ideas are as real as things is enormously powerful.
 
-**Jerod Santo:** \[\\00:36:26.27\\\] You're taking a thing that's abstract in a real-world scenario and you're making it more real in the programming scenario. When you think about object orientation, is that what you think about...? I know it's become inheritance, and polymorphism and encapsulation and these other things, right? These things around it... If you're gonna be taught OOP in a traditional university, or something, these are the things that they teach you, these pieces of it. But is that the essence?
+**Jerod Santo:** \[00:36:26.27\] You're taking a thing that's abstract in a real-world scenario and you're making it more real in the programming scenario. When you think about object orientation, is that what you think about...? I know it's become inheritance, and polymorphism and encapsulation and these other things, right? These things around it... If you're gonna be taught OOP in a traditional university, or something, these are the things that they teach you, these pieces of it. But is that the essence?
 
 **Sandi Metz:** I think this is the point... I mean, certainly the people who created the OO languages defined what it means to be an object-oriented language, and originally those definitions would say that it would have these characteristics. It wouldn't be an OO language if it didn't have inheritance, for example.
 
@@ -258,7 +258,7 @@ I'm surprised when I go to teach, at how my vision of what it means to think in 
 
 **Sandi Metz:** Maybe... I think I said this a while ago while we were on air - now it kind of seems simple to me what it means to really be an object. An object is a thing that tries not to know very much and communicates with other things by sending messages. There's a bunch of techniques that we can use to create objects - I can use inheritance, I can use composition, I can follow design patterns, I can use symbol objects in certain ways, but there's this fundamental, deep bias I have...
 
-\[\\00:39:44.13\\\] I recently taught in London with a guy named Tom Stuart (he's the guy who wrote Understanding Computation). I was speaking American English and they were speaking British English, so we had some miscommunications in the class.
+\[00:39:44.13\] I recently taught in London with a guy named Tom Stuart (he's the guy who wrote Understanding Computation). I was speaking American English and they were speaking British English, so we had some miscommunications in the class.
 
 There was a point where he interrupted me - because he's a Brit - in front of the class and he told the students, "The thing you have to understand about Sandi is she feels entitled to send a message."
 
@@ -280,7 +280,7 @@ I really firmly believe that apps can be way simpler than many of the apps I've 
 
 **Jerod Santo:** I think that's a brilliant way of distilling that. It's kind of easy to say, hard to do. Although in the statement there's a disclaimer - this will be hard to do. So that leads me to the thought of like -- and I've been doing object-oriented programming for ten years or so, so I've been on the good and the bad of it, and I've written stuff I can't maintain and stuff that seems to be more maintainable, and \[unintelligible 00:43:33.04\]. I've seen a lot of really bad object-oriented code out there, that's procedural and falls into many of the traps that were taught in these different techniques and tools, and you just go out and you start "I'll try this here..." and then you're like, "Oh...." You don't find out until maybe a couple years later that that was a really bad idea. So in many ways, I like Adam's metaphor of the master of the maze, because there's a lot of traps; there's a lot of bad ways of doing it. There's a lot of ways of getting it wrong, or not as well factored as it could be in order to make this maintainable and usable moving forward.
 
-\[\\00:44:11.21\\\] So I guess the question becomes -- and you're one of the masters of the maze, and you've been thinking this way so long, even a way that some of us haven't even got the right way of thinking about it... It's like, maybe the whole paradigm is too hard. Is functional programming the answer? Have you thought about, like "Maybe OO..."
+\[00:44:11.21\] So I guess the question becomes -- and you're one of the masters of the maze, and you've been thinking this way so long, even a way that some of us haven't even got the right way of thinking about it... It's like, maybe the whole paradigm is too hard. Is functional programming the answer? Have you thought about, like "Maybe OO..."
 
 **Sandi Metz:** I think that functional people would tell you that functional is the solution to the problems of OO, but... Okay - really? It's certainly true, I absolutely see that there are some problems that you cannot create for yourself in functional programming, absolutely. Just like there are some problems that you cannot create for yourself in statically-typed OO languages. But if I ask you, "Is it possible to make a mess in a functional programming language?" would you answer yes or no? Is it possible to make a mess?
 
@@ -304,7 +304,7 @@ So there's a failure of teaching - that's one thing. However, the other thing is
 
 Same thing when \[unintelligible 00:47:50.07\] when I decided I was gonna get on the testing bandwagon; people who seemed smarter than me were saying it was a good idea, and I went from being a pretty useful, competent programmer who'd get a lot done, to being able to accomplish almost nothing from one day to the next, because I was so bad at writing tests. I was slow and I was bad at writing tests. So my desire to use this new thing that seemed like a good idea caused me harm instead of doing good.
 
-\[\\00:48:28.04\\\] Does this mean that testing is bad, or that design patterns are bad? No. Does it mean that I was terrible at them when I started doing them? Yes. But how else could I have learned? What is the alternative? So one of the things that I'm a firm believer in is not denying people the opportunity to learn from making mistakes. That means that all of us - unless you came out of the egg as knowing all the answers, you're just gonna learn from writing code.
+\[00:48:28.04\] Does this mean that testing is bad, or that design patterns are bad? No. Does it mean that I was terrible at them when I started doing them? Yes. But how else could I have learned? What is the alternative? So one of the things that I'm a firm believer in is not denying people the opportunity to learn from making mistakes. That means that all of us - unless you came out of the egg as knowing all the answers, you're just gonna learn from writing code.
 
 I think there's a lot of OO code out there where people didn't get the chance to stick with it, so that they could learn stuff; they came from procedural, or they have a CS degree where they didn't really learn to understand OO, and then they wrote a bunch of apps that people maintained over a bunch of years and those apps are big and messy and hard to understand. But I'm not convinced that any other programming language under the similar circumstance would not be equally imperfect over a number of years.
 
@@ -320,7 +320,7 @@ I'll say one more thing about this and then I'm gonna shut up. I realize that I 
 
 **Sandi Metz:** Yeah, and so our job as programmers isn't to make perfection, it's to deal with imperfection. It's to figure out a way to keep on adding new features, improving old features, meeting our customer's needs in the face of success, which is probably ugly and messy.
 
-\[\\00:52:03.06\\\] In my classes, I tell them that the most fun part of our job, the most challenging part for experienced programmers is transitioning from one big mess into a new design. You wanna have some fun writing code? Go do that. That's a real problem. These are the problems that make you get up in the morning and drink two cups of coffee.
+\[00:52:03.06\] In my classes, I tell them that the most fun part of our job, the most challenging part for experienced programmers is transitioning from one big mess into a new design. You wanna have some fun writing code? Go do that. That's a real problem. These are the problems that make you get up in the morning and drink two cups of coffee.
 
 **Jerod Santo:** Right.
 
@@ -336,7 +336,7 @@ What happens is people in big OO applications, the core ideas in the business ar
 
 What has happened is that we get in the situation where the easy things were easy to do, but the hard thing got out of control and then all the code just got put in one class, and then what you have is just a bunch of procedural code in a very large file. So finding a way to commit to writing small objects... And I tell people, "You're not gonna go fix all the fat, huge ones you have now, but as things change, you should make new small objects instead of making big things bigger." So having that one huge class that has a bunch of conditionals in it, where all the important parts of your business somehow are in there, it makes it really hard to move forward.
 
-**Jerod Santo:** \[\\00:55:53.15\\\] Earlier on you said we should try to teach what is a good way to write programs, despite the language, or kind of at a higher level than paradigms or languages. I guess the question would be, if you had to pick what that way is, would you say "make things small?" Would that be your guiding concept, or would you have others?
+**Jerod Santo:** \[00:55:53.15\] Earlier on you said we should try to teach what is a good way to write programs, despite the language, or kind of at a higher level than paradigms or languages. I guess the question would be, if you had to pick what that way is, would you say "make things small?" Would that be your guiding concept, or would you have others?
 
 **Sandi Metz:** Maybe... This is just a personal story about me - very often when I try to write some code, it will start out simple and then it will get ugly and complicated. And sometimes if I have enough insight into the problem, I can make it simple again. So I start out with small things, and then I get this bloat, confusing, intermixing of ideas period, and sometimes on the other side of that I'm back to a bunch of small things, all of which represent a small idea.
 
@@ -356,13 +356,13 @@ We do this thing where we over-value complexity, when it's just a way to intimid
 
 **Sandi Metz:** Oh, yeah... Here's the thing - every learner sees the world in a different way, so every idea that seems obvious to me is not at all... If you're just like me, it's easy for me to explain things to you, because you think just like I do. But if you think in a different way, then I have to find some way to reach you with ideas. So the challenge of communicating with people who are different than me has forced me to look at things I thought I understood, and understand them in different ways.
 
-\[\\01:00:08.21\\\] I feel like I have a much broader understanding of really what truth is about programming and what truth is about these ideas, and it's been enormously helpful to me. That has improved my code a lot.
+\[01:00:08.21\] I feel like I have a much broader understanding of really what truth is about programming and what truth is about these ideas, and it's been enormously helpful to me. That has improved my code a lot.
 
 It's easier for me now to look at big, messy blobs of code and say, "Oh, it has this problem. This is the core thing that's wrong with it" in a way that I can see it and I can explain it. That's a result of teaching.
 
 **Adam Stacoviak:** As Jerod said, we are getting close to our next break. When we come back, we're gonna talk about 99 Bottles and kind of go deeper into this rabbit hole, so to speak, that you've opened up for us. Jerod mentioned earlier we haven't read the book, but we've experienced first-hand your teaching, and we kind of extracted a lot of the questions we have around that... So we'll take this break and we'll come back talking about that.
 
-**Break:** \[\\01:00:56.26\\\]
+**Break:** \[01:00:56.26\]
 
 **Adam Stacoviak:** Alright, we're back with Sandi Metz, talking about 99 Bottles of OOP - what an awesome title - A Practical Guide To Writing Cost-Effective, Maintainable and Pleasing Object-Oriented Code. Who came up with that? Was that you all alone? That tagline.
 
@@ -376,7 +376,7 @@ It's easier for me now to look at big, messy blobs of code and say, "Oh, it has 
 
 **Sandi Metz:** Okay, I'm teaching the course... This book is a \[unintelligible 01:03:12.19\] exercise that I do in classes in my practical object-oriented design course. The course, I am now booking next summer. I'm booked into the summer of 2017. I don't wanna raise prices anymore, because... Like, I have a blue collar background. Everything that we pay in tax seems \[unintelligible 01:03:36.21\] high to me. I am unwilling to raise prices anymore on my course, but it means I'm filtering now by time. And even so, much of the content that I'm teaching is unavailable to most people. No matter how many talks I do, no matter how many private and public classes I teach, the classes are reaching numbers probably in the four digits right now, in the thousands. The talks reach a much broader audience, but even so, there's this huge body of knowledge that is an outgrowth of the course that is completely inaccessible to most people.
 
-\[\\01:04:22.07\\\] I feel a lot of sympathy towards programmers who are like me, who have my background - who are essentially untrained, who learned on the job, who were reliant on other people to take the time to write things down or give talks. So Katrina and I agreed that we would take what's effectively the first two days of the course and write it all down, so that we could sell it to individuals. So that's where the book came from. We meant to make it for - pricing is always an issue, but for a reasonable, reachable amount of money available to anybody who wanted to read it. So that's where it came from.
+\[01:04:22.07\] I feel a lot of sympathy towards programmers who are like me, who have my background - who are essentially untrained, who learned on the job, who were reliant on other people to take the time to write things down or give talks. So Katrina and I agreed that we would take what's effectively the first two days of the course and write it all down, so that we could sell it to individuals. So that's where the book came from. We meant to make it for - pricing is always an issue, but for a reasonable, reachable amount of money available to anybody who wanted to read it. So that's where it came from.
 
 **Adam Stacoviak:** A lot of people who write books like this, they would think potentially to add some videos to it, or have tiers where you have not only your $49 version, you have maybe an even more affordable version of it, and then an even less affordable version of it, where you've done some videos, and there's some extra goodies or some sample code, or something like that. Why have you chosen just one pricing point for that?
 
@@ -398,7 +398,7 @@ A postcard is not a cut up section of a box with a first-class stamp on it...
 
 We've gotten -- I don't know how many yet, because the postcards don't come to me, but it's been hundreds. Maybe 10% of the copies of the book have gone for free to people. We just had a long e-mail thing from some guy actually, because he sent a postcard from somewhere in Eastern Europe, and he wanted to know if it had arrived, because we hadn't mailed him a book yet. And he sent an e-mail, and it was this long narration of the path that his postcard would have had to have traveled geographically. Like, "It went overland from my house to here, and then it got on a boat across the Baltic Sea...", so he was trying to explain how it might be that his postcard might not have actually arrived, but to assure us that he'd sent one, he e-mailed a picture of himself holding the postcard that he mailed us, and we were like "Just send the man a book!" \[laughter\]
 
-**Jerod Santo:** \[\\01:08:26.08\\\] You've worked hard enough.
+**Jerod Santo:** \[01:08:26.08\] You've worked hard enough.
 
 **Sandi Metz:** Yeah. Like, I've been working on that for two-and-a-half years, and I'm just so delighted to give it to people who can't afford it, but it does seem like not too much to ask that they would go to a little bit of effort. So it was really great.
 
@@ -430,7 +430,7 @@ Take one down and pass it around, 1 bottle of beer on the wall." So "1 bottle" i
 
 **Sandi Metz:** We all think we know that song and we think it's simple, but if you're not careful, you can write a bunch of if-statements.
 
-**Jerod Santo:** \[\\01:12:02.17\\\] \[laughs\] That's the way that I would do it first. It's just like, "Well, there's like seven if's and I'm done."
+**Jerod Santo:** \[01:12:02.17\] \[laughs\] That's the way that I would do it first. It's just like, "Well, there's like seven if's and I'm done."
 
 **Sandi Metz:** Yeah. It turns out the problem has a couple of really great characteristics. One, it's kind of fun. We can all sing in class while we work on it. Two, it's a problem domain that everybody knows; we don't have to teach about bank loans in order to have a class exercise. Three, it seems simple but actually it's sneakily complicated. Those three qualities combine to make it a really useful programming exercise.
 
@@ -450,7 +450,7 @@ Other people are faster. I'm keenly aware that other people write faster than I 
 
 **Sandi Metz:** I talked to a number of people... It took a while to write it and people knew we were writing it, so we kept getting bugged and bugged. Finally, I talked to a bunch of people about when can I release a beta, when is it ethical to release a beta, because recently a beta means taking people's money, like selling the beta. Someone gave me great criteria; they said, "What you give people has to be enough so that if you got hit by a truck and never gave them another word you would feel that it was worth it." That made it pretty obvious that the book would have through chapter four. Chapters one through four had to be done, which is that 45,000 words; it's 150-180-page 8,5/11 pdf right now. It's big. It's almost as big as POODR, in the beta.
 
-\[\\01:16:23.07\\\] There was a way in which I slightly regret it... I'm always over-optimistic about how much writing I can get done in a period of time, but it just so surprised me that people bought it. \[laughter\] Releasing beta, and a bunch of people bought it - that day... Until then I felt this enormous pressure to get the rest of the writing done, but I am such a slow writer that feeling that pressure did not speed up my writing at all, it just made me feel pressure while I was writing.
+\[01:16:23.07\] There was a way in which I slightly regret it... I'm always over-optimistic about how much writing I can get done in a period of time, but it just so surprised me that people bought it. \[laughter\] Releasing beta, and a bunch of people bought it - that day... Until then I felt this enormous pressure to get the rest of the writing done, but I am such a slow writer that feeling that pressure did not speed up my writing at all, it just made me feel pressure while I was writing.
 
 **Jerod Santo:** That actually leads us directly into the next question, which is "Is there a lot of pressure to be Sandi Metz?"
 
@@ -466,7 +466,7 @@ I can whine a little bit about the pressure, the travel gets wearing and all tha
 
 **Sandi Metz:** Yeah, I think that's a whole \[unintelligible 01:19:42.08\] "Wow, that's so cool! I'm gonna do that. They must be right!" and two weeks later you're like, "What a mess! Why did I do this? I hate myself." If we had perfect foresight we would write perfect code, but it's a matter of, you know, you just do the best you can with what you have. And don't be attached to your code. As long as I can walk away from mistakes and acknowledge I made them, then things are pretty painless. It's only when I hold on to a bad idea that I regret.
 
-**Adam Stacoviak:** \[\\01:20:14.15\\\] What's a good example of nerd hype, Jerod?
+**Adam Stacoviak:** \[01:20:14.15\] What's a good example of nerd hype, Jerod?
 
 **Jerod Santo:** Well, I mean there's lots of different examples. What would be a good example of nerd hype - perhaps in the Javascript world you'd have a new framework or animation type of a thing, and now you're gonna follow that rabbithole for a little while, and then come back. I don't know. What do you think, Adam? What's a good nerd hype example?
 
@@ -490,7 +490,7 @@ I can whine a little bit about the pressure, the travel gets wearing and all tha
 
 **Adam Stacoviak:** That's right. We mentioned earlier - I think it was in the pre-call - that you've been named as the hero of many people who've been on this show before; I'm gonna get you a list. We like to ask anybody who comes on this show, especially someone like you, you've had to have some influencers throughout your life... Who is an influencer, programming hero, whatever you wanna call it - who's that person or persons to you? Who's your hero?
 
-**Sandi Metz:** \[\\01:23:48.13\\\] Okay, I'm gonna mention the name of someone that no one listening could possibly know. I worked for Sperry Univac; back in the day I was a young pup, and there was a grizzled senior system guy who was probably 30 years old (he was way older than me). He was such a great teacher... He kind of scared me to death, but he was incredibly gentle with me in a gruff sort of way, and he made me feel as if I had a place in this community. His name is Rich Warkentin - there's no way he'll ever hear this. There's tons of people now who are wonderful people who I could mention, but the difference that was made in my life was made when I was a young programmer.
+**Sandi Metz:** \[01:23:48.13\] Okay, I'm gonna mention the name of someone that no one listening could possibly know. I worked for Sperry Univac; back in the day I was a young pup, and there was a grizzled senior system guy who was probably 30 years old (he was way older than me). He was such a great teacher... He kind of scared me to death, but he was incredibly gentle with me in a gruff sort of way, and he made me feel as if I had a place in this community. His name is Rich Warkentin - there's no way he'll ever hear this. There's tons of people now who are wonderful people who I could mention, but the difference that was made in my life was made when I was a young programmer.
 
 We all have that obligation to treat kindly the tender youths, right? That's a lesson for you guys, and for everyone who's listening. The kids are who need us, not the grown-ups.
 

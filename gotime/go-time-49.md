@@ -28,7 +28,7 @@ If you think of the old-school Team Foundation Server (TFS), which used to be an
 
 **Ramya Rao:** I hadn't even heard of Go, to be honest, before that. What happened was I joined the team, and right about two months before I joined the team, the person who wrote the Go extension had left the company... That's Luke Hoban, for everyone... A big shoutout for starting this whole amazing tool.
 
-\[\\00:04:07.02\\\] So they decided, "Hey, let's give that thing to the new girl." \[laughter\] So there I was, new to VS Code, new to the VS Code extension story, new to Go, and I was the only maintainer/contributor for a while there. So yeah, that's how I came into Go.
+\[00:04:07.02\] So they decided, "Hey, let's give that thing to the new girl." \[laughter\] So there I was, new to VS Code, new to the VS Code extension story, new to Go, and I was the only maintainer/contributor for a while there. So yeah, that's how I came into Go.
 
 **Erik St. Martin:** So do you like and love Go now? Do you use it for other things, now that you kind of were forced by way of building this extension?
 
@@ -56,7 +56,7 @@ We didn't do any tweaks just for performance, I believe, but Ben from the Zurich
 
 **Carlisia Pinto:** Okay.
 
-**Johnny Boursiquot:** \[\\00:07:58.28\\\] Well, we shouldn't bash Atom too much... I think many of us still use that, because for whatever reason we like some of the mechanics in there. But again, we run the risk of starting the editor war, which I'm sure we will touch on at some point during this broadcast. But obviously... Personally, I've been using VS Code for the better part of 4-5 months now, and before that I was sort of a Vim die hard, "you will pry it from my cold dead hands" kind of a user, and I still use Vim pretty much on a daily basis, but when I'm doing my Go development, VS Code has sort of become what I do pretty much on a daily basis, as well.
+**Johnny Boursiquot:** \[00:07:58.28\] Well, we shouldn't bash Atom too much... I think many of us still use that, because for whatever reason we like some of the mechanics in there. But again, we run the risk of starting the editor war, which I'm sure we will touch on at some point during this broadcast. But obviously... Personally, I've been using VS Code for the better part of 4-5 months now, and before that I was sort of a Vim die hard, "you will pry it from my cold dead hands" kind of a user, and I still use Vim pretty much on a daily basis, but when I'm doing my Go development, VS Code has sort of become what I do pretty much on a daily basis, as well.
 
 **Erik St. Martin:** I'm actually kind of surprised nobody kicked me off the show today, because I'm still "you'll have to pry it from my cold dead fingers" person. \[laughter\]
 
@@ -80,7 +80,7 @@ Somebody mentioned in the channel that there is a new editor that either has com
 
 I am at the moment suffering from editor fatigue. I like investing time on my editor to make it as performant as possible for me, and I've done that... I've optimized Vim for me, I've optimized Atom for me, and there was always something that wasn't good enough, so right now I'm giving VS Code a try, and I haven't done anything; it's very much bare, because I am fatigued. But I am still giving it a try. I am having some issues with the Vim plugin, because I get stuck on the visual mode and it doesn't shift from normal mode to insert mode and back to normal mode...
 
-\[\\00:12:05.26\\\] Somehow the visual mode kicks in and I think I am in normal mode, but I'm actually in visual mode. So I can't go from visual mode to insert mode. Once I realized that, I clicked "I" ten times... Then I have to go and click escape to get into normal mode, and then click I or A to start typing. This has been driving me crazy. I don't know what I'm doing wrong.
+\[00:12:05.26\] Somehow the visual mode kicks in and I think I am in normal mode, but I'm actually in visual mode. So I can't go from visual mode to insert mode. Once I realized that, I clicked "I" ten times... Then I have to go and click escape to get into normal mode, and then click I or A to start typing. This has been driving me crazy. I don't know what I'm doing wrong.
 
 **Erik St. Martin:** Can you do that in normal Vim, go from visual to insert? Now I'm questioning that; I don't know that I've ever tried that.
 
@@ -100,7 +100,7 @@ This was a decision made very early on, to have the extensions being hosted in a
 
 **Erik St. Martin:** See, that's always the struggle for me, too. There's been a lot of the Vim mode things and stuff, but it's really unfair of me to look at a new project and just be like "Oh, it has Vim mode" and kind of look at it the same way I've had failures in other Vim modes.
 
-\[\\00:16:05.22\\\] So I really need to install VS Code and take it for a test drive for a week with Vim mode, because I think Vim mode in other applications has gotten a lot better over the years.
+\[00:16:05.22\] So I really need to install VS Code and take it for a test drive for a week with Vim mode, because I think Vim mode in other applications has gotten a lot better over the years.
 
 Does anybody actually use Vim mode for -- I know Firefox one; I think Chrome has an extension for Vim mode, too. Does anybody use that stuff?
 
@@ -162,7 +162,7 @@ Does anybody actually use Vim mode for -- I know Firefox one; I think Chrome has
 
 CodeLens for you is something actionable, something contextual. For example, is appears right about a function or a method, and it is in context to that function or method. You can have it for like how we have now for references, runtests, so on and so forth.
 
-\[\\00:20:13.21\\\] Other extensions can do their own thing. For example, there's one extension I know in your package.json -- if you're doing Node, in your package.json it adds a CodeLens about each dependency, saying what's the latest dependency (the version).
+\[00:20:13.21\] Other extensions can do their own thing. For example, there's one extension I know in your package.json -- if you're doing Node, in your package.json it adds a CodeLens about each dependency, saying what's the latest dependency (the version).
 
 You could use it for any \[unintelligible 00:20:32.06\] it's just that in Go we got the time to do it now, and now you see it.
 
@@ -190,7 +190,7 @@ The idea behind this is you implement a language server once, and then you're ab
 
 **Carlisia Pinto:** I want to ask also, Ramya, how do you 1) come up with features to add to VS Code? and 2) prioritize what should go in at any given point? That makes me think of Fatih and Vim Code... Vim Code - am I saying that right?
 
-**Erik St. Martin:** \[\\00:24:17.17\\\] Vim Go?
+**Erik St. Martin:** \[00:24:17.17\] Vim Go?
 
 **Carlisia Pinto:** Vim Go, thank you; I knew it was wrong. And he's a developer, he's developing all day long, and he does Vim Code; I'm sure - I don't know this for a fact, but I would think that pretty much his thinking goes "Well, I need this (or I want this), so I'm gonna put it in." And I'm sure he's listening to other people as well, but it's very much him making Vim Go the best editor for him... Which very much coincides with the rest of the community who are using Vim. How does VS Code go about making those decisions?
 
@@ -218,7 +218,7 @@ Then the other direction... Sometimes from the core VS Code product we release s
 
 **Erik St. Martin:** That's kind of like a constant backlog, right? You wanna work on new features, but you also have to -- it's almost like technical debt, right? You have to make sure you stay up, because the longer you avoid implementing the new features, the further away that that gets.
 
-**Ramya Rao:** \[\\00:28:05.18\\\] Yes. I think there is one debugging related feature which came about like that. There's a launch.json file; if you need to debug your code, you need to have that file, and that's where you add your configuration. Initially you had to just handwrite it based on some document; now you have snippets that you can use in that file. You can have a snippet for debugging your test function, or a snippet to debug your package... So the scaffolding is there, and then you edit the snippet. That was one feature coming out from the core product. The hook was that all the Go extension needed to do was implement the snippets needed and hook it up, and then you start seeing it in the \[unintelligible 00:28:52.15\]
+**Ramya Rao:** \[00:28:05.18\] Yes. I think there is one debugging related feature which came about like that. There's a launch.json file; if you need to debug your code, you need to have that file, and that's where you add your configuration. Initially you had to just handwrite it based on some document; now you have snippets that you can use in that file. You can have a snippet for debugging your test function, or a snippet to debug your package... So the scaffolding is there, and then you edit the snippet. That was one feature coming out from the core product. The hook was that all the Go extension needed to do was implement the snippets needed and hook it up, and then you start seeing it in the \[unintelligible 00:28:52.15\]
 
 **Carlisia Pinto:** By the way, does anybody wanna share with me their snippets configuration? Because I have zero. And I want snippets for starting a new function, or writing \[unintelligible 00:29:05.00\] or something...
 
@@ -272,7 +272,7 @@ Then the other direction... Sometimes from the core VS Code product we release s
 
 **Carlisia Pinto:** I'm so sorry, I forgot to change my keyboard... Oh, my gosh.
 
-**Erik St. Martin:** \[\\00:32:10.14\\\] Yeah, I usually trade mine out, too. I've got a mechanical keyboard...
+**Erik St. Martin:** \[00:32:10.14\] Yeah, I usually trade mine out, too. I've got a mechanical keyboard...
 
 **Carlisia Pinto:** It's the end of the show and I realized this... Sorry, guys.
 
@@ -310,7 +310,7 @@ Now I release almost once a month; that's a much better cadence. I still reply t
 
 **Erik St. Martin:** I think the difficulty too when you think about it - when you're developing a product for your employer, there's usually a chain, a hierarchy, and you're reporting to somebody, and you're only responsible for making that person happy. They work out the details between you and other teams and how that's impacted, but with an open source project, literally thousands of people are now your boss and they all have their own priorities and things that they want and need, and sometimes they conflict, and you're like "How do I make everybody happy?"
 
-**Ramya Rao:** \[\\00:36:03.04\\\] Yeah, that has happened, as well. At the same time - I've told this to a few people already... There was this one time that I was discussing this PR with a person, and I was like "You know, this won't work in this scenario, but this might be better", and then they go "Oh yeah, that's right! You're amazing" and then I almost teared up. I have nine years of experience, but this is so much better than any appraisal...
+**Ramya Rao:** \[00:36:03.04\] Yeah, that has happened, as well. At the same time - I've told this to a few people already... There was this one time that I was discussing this PR with a person, and I was like "You know, this won't work in this scenario, but this might be better", and then they go "Oh yeah, that's right! You're amazing" and then I almost teared up. I have nine years of experience, but this is so much better than any appraisal...
 
 But yeah, I never knew that a simple thank you from a total stranger feels so good.
 
@@ -320,7 +320,7 @@ But yeah, I never knew that a simple thank you from a total stranger feels so go
 
 **Erik St. Martin:** Yeah. So I think we are probably well over our first sponsor break, so let's go ahead and break for our sponsors, because they make this show happen. Our sponsor for today is Toptal.
 
-**Break:** \[\\00:37:22.00\\\]
+**Break:** \[00:37:22.00\]
 
 **Erik St. Martin:** And we are back, talking to Ramya from the VS Code plugin. I think we've talked quite a bit about the plugin and about the future, and stuff... Do you guys wanna jump into any projects and news? I think the past couple episodes we haven't even gotten a chance to get around to anything... I think the list was piling up; I might need to go through some of the old show docs.
 
@@ -352,7 +352,7 @@ Another cool thing that I just saw yesterday, which also came from Microsoft (th
 
 **Ramya Rao:** So it's still in the beginning phase, so file a feature request on what you'd like to see and so on. It's \[unintelligible 00:40:11.02\]
 
-**Carlisia Pinto:** \[\\00:40:13.01\\\] I just installed. It was that quick.
+**Carlisia Pinto:** \[00:40:13.01\] I just installed. It was that quick.
 
 **Johnny Boursiquot:** Wow... \[laughter\]
 
@@ -424,7 +424,7 @@ Another cool thing that I just saw yesterday, which also came from Microsoft (th
 
 **Johnny Boursiquot:** \[unintelligible 00:44:02.12\] half a dozen room keys from our last GopherCon.
 
-**Erik St. Martin:** \[\\00:44:07.26\\\] I don't even know what we did with -- we had a box of a couple hundred of them I think left over from printing... I don't even know what we did with them. And there's been some swag we've donated to local shelters and stuff like that, like mugs and things like that... So I can imagine all these people who don't do technology walking around with GopherCon swag... \[laughter\]
+**Erik St. Martin:** \[00:44:07.26\] I don't even know what we did with -- we had a box of a couple hundred of them I think left over from printing... I don't even know what we did with them. And there's been some swag we've donated to local shelters and stuff like that, like mugs and things like that... So I can imagine all these people who don't do technology walking around with GopherCon swag... \[laughter\]
 
 It's funny though, like even wearing the swag, the amount of looks you get where people don't really understand why a grown man is wearing a cartooned gopher on his shirt...
 
@@ -456,7 +456,7 @@ I think somebody in here put something about DevOps day?
 
 **Carlisia Pinto:** Yeah, it was me. I wanted to mention this a couple shows ago, and we ended up not going over the section, and last week I wasn't here... I really wanted to make sure to mention this talk that Kelsey Hightower gave at DevOps Days Austin a few weeks ago. Really, a huge shoutout to him for so many things, but especially for giving this talk. He goes into his background, his story, his coming of age story, how he got into tech and how he stayed in tech, and some of the experiences he had.
 
-\[\\00:48:05.05\\\] I think it's a really worthwhile talk to watch, especially for people who are fans of his, because you get to know him a little better. Nevertheless, I always think that software development is a lot about people, and you get a bit of insights on how someone can be so vulnerable and open up with stories that people usually don't talk about. And it's not sometimes because people don't want to talk about, it's just hard to fit in telling a story like that on a day-to-day basis or in a conference talk, so people don't usually get to hear those stories. I think there are a lot of people like that - not just minorities, but everybody has struggles; some people more than others, and some people perceive those struggles more than others and have a harder time, of course. Nevertheless, everybody's got struggles, and if you don't, it's good also to learn how people have challenges.
+\[00:48:05.05\] I think it's a really worthwhile talk to watch, especially for people who are fans of his, because you get to know him a little better. Nevertheless, I always think that software development is a lot about people, and you get a bit of insights on how someone can be so vulnerable and open up with stories that people usually don't talk about. And it's not sometimes because people don't want to talk about, it's just hard to fit in telling a story like that on a day-to-day basis or in a conference talk, so people don't usually get to hear those stories. I think there are a lot of people like that - not just minorities, but everybody has struggles; some people more than others, and some people perceive those struggles more than others and have a harder time, of course. Nevertheless, everybody's got struggles, and if you don't, it's good also to learn how people have challenges.
 
 One thing that he said that resonated with me a lot was -- I mean, the whole talk resonated with me, and frankly I was in tears. It got really emotional, and good thing that I didn't mention this talk the day that I watched it, because I was going to really get emotional. But at any rate, he was describing an encounter he had with somebody... This white male was really surprised to see a black male coming to his house and do amazing work with technology. Basically, he probably never saw a black guy doing any type of professional work, just because where he lived, probably his contacts, no fault of his own particularly... That's how he was. And he was extremely surprised to see him perform at that level, and it showed.
 
@@ -464,7 +464,7 @@ Kelsey said something like, "You know, you've gotta give people a chance", and I
 
 One takeaway from that that I felt, given my own experience, was the beauty of watching ourselves change, going from where you don't know anything - you want to work in a field and you don't know anything; then you go through the process of learning, and that is hard... Then you get to start performing, then you get better, then you're teaching, you're mentoring... In that process, you become another person on the other side. Sometimes I look at myself and I go "Wow..." \[laughs\] So the process of also watching myself change is amazing... It's amazing that I get to watch that happen, and I don't take that for granted either. But anyways, I think it's a good talk to watch.
 
-**Erik St. Martin:** \[\\00:51:46.15\\\] Yeah, I think it was a really emotional talk, and to hear that back-story... Those types of things are really awesome because they humanize these people. You start to realize that the whole "perception is reality", and we see people and we see what they're doing and we kind of paint this picture of who that person is and how they got there, and the whole myth of overnight success or what not -- you get to kind of see that struggle that people have endured, and you start to realize that we all live lives of struggle and everybody overcomes things in different ways.
+**Erik St. Martin:** \[00:51:46.15\] Yeah, I think it was a really emotional talk, and to hear that back-story... Those types of things are really awesome because they humanize these people. You start to realize that the whole "perception is reality", and we see people and we see what they're doing and we kind of paint this picture of who that person is and how they got there, and the whole myth of overnight success or what not -- you get to kind of see that struggle that people have endured, and you start to realize that we all live lives of struggle and everybody overcomes things in different ways.
 
 Kelsey, he's had some kind of like threads on Twitter too, with kind of being more vulnerable and open about his history. It's just really awesome to see somebody you know that holds that position in the community kind of open up about his past. It humanizes people.
 
@@ -488,7 +488,7 @@ Carlisia, do you wanna kick it off?
 
 **Carlisia Pinto:** Yes, sure. So today I guess is the shoutout day to people, as opposed to software mostly... I wanna give a shoutout to JBD (Jaana B. Dogan). She works for Google and she does a lot of Go work. She works mostly on -- I don't wanna say the wrong thing, but she does a lot of performance work and investigation about how Go can be improved as a language. To my understanding, she also is leading the Devex group, which is the Developer Working Group, which aims to make the onboarding experience better for developers, among other things.
 
-\[\\00:55:54.26\\\] She has many open source projects that are amazing, and she has also a very good blog post related to Go. Her blog posts are a very worthwhile read. In other words, she's an amazing person, a really hardworker; I don't think she gets enough recognition and I wanna make sure we recognize her today.
+\[00:55:54.26\] She has many open source projects that are amazing, and she has also a very good blog post related to Go. Her blog posts are a very worthwhile read. In other words, she's an amazing person, a really hardworker; I don't think she gets enough recognition and I wanna make sure we recognize her today.
 
 **Erik St. Martin:** We all love JDB. She puts out some really great blog posts and stuff, too. I've learned a lot from her over the years.
 
@@ -520,7 +520,7 @@ Two is all the amazing people who've written these tools like gocode, godef, god
 
 And my third and last one would be a big shoutout to everyone who's been creating PRs, logging issues, making sure that we are on top of all the good features in the Go extension. I love you all, thank you very much. And keep doing it! \[laughter\]
 
-**Erik St. Martin:** \[\\00:59:56.27\\\] Mine today - I'm actually going to give a shoutout to a company, and that is actually Microsoft, because I think the past couple of years we've seen a whole new Microsoft. Your contributions to the Go plugin, VS Code itself, contributions to Docker and Kubernetes, they just acquired Deis, that Draft thing that just came out... I think we're really starting to see a lot of contribution and outreach and community involvement from the Microsoft team, and I think that that's really awesome and I'm really appreciative of the fact that they pay people money to work on these things that we get to use.
+**Erik St. Martin:** \[00:59:56.27\] Mine today - I'm actually going to give a shoutout to a company, and that is actually Microsoft, because I think the past couple of years we've seen a whole new Microsoft. Your contributions to the Go plugin, VS Code itself, contributions to Docker and Kubernetes, they just acquired Deis, that Draft thing that just came out... I think we're really starting to see a lot of contribution and outreach and community involvement from the Microsoft team, and I think that that's really awesome and I'm really appreciative of the fact that they pay people money to work on these things that we get to use.
 
 **Johnny Boursiquot:** Agreed.
 

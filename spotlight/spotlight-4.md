@@ -35,7 +35,7 @@ We have, obviously, a lot of other teams that are very essential to this initiat
 
 **Anna Derbakova:** Yeah, RTP. It's just short and easy, and a lot of people associate with that, because they know where it is. So that's what we do here in Raleigh, we write code for Hyperledger.
 
-**Adam Stacoviak:** \[\\00:04:04.28\\\] Nice.
+**Adam Stacoviak:** \[00:04:04.28\] Nice.
 
 **Anna Derbakova:** It's cool.
 
@@ -89,7 +89,7 @@ We have, obviously, a lot of other teams that are very essential to this initiat
 
 **Adam Stacoviak:** UPS, FedEx...
 
-**Anna Derbakova:** \[\\00:07:46.16\\\] Yeah, so many... I gave the example of supply chain of pork, in China, farm to table - how many people change hands between actually growing something and actually going through storage facilities, or some kind of processing facilities, and people who deliver the goods... Who actually has it, who tampers with it, what temperature is it under, where is it stored - all of these things... There's a big question mark, right? So by the time it gets to a table, you don't know who handled it and how. Blockchain is one of the solutions some of the bigger companies are looking to to implement something that would essentially record every time a transaction takes place, like an exchange of an asset from one party to another - you would record it as an asset transfer, and you would record the specific information that matters, like temperature, or how it's stored, or whatever is specific to the asset you're exchanging. Then you can't really tamper with it afterwards; it's kind of hard to cheat on the blockchain, right?
+**Anna Derbakova:** \[00:07:46.16\] Yeah, so many... I gave the example of supply chain of pork, in China, farm to table - how many people change hands between actually growing something and actually going through storage facilities, or some kind of processing facilities, and people who deliver the goods... Who actually has it, who tampers with it, what temperature is it under, where is it stored - all of these things... There's a big question mark, right? So by the time it gets to a table, you don't know who handled it and how. Blockchain is one of the solutions some of the bigger companies are looking to to implement something that would essentially record every time a transaction takes place, like an exchange of an asset from one party to another - you would record it as an asset transfer, and you would record the specific information that matters, like temperature, or how it's stored, or whatever is specific to the asset you're exchanging. Then you can't really tamper with it afterwards; it's kind of hard to cheat on the blockchain, right?
 
 **Adam Stacoviak:** Gotcha. It's very secure.
 
@@ -123,7 +123,7 @@ What does it replace? It depends on the specific field. For example, supply chai
 
 **Anna Derbakova:** \[laughs\] You know what I mean? Like, how many steps are really necessary in solving this problem, or is it really as effective as we want it to be? The paperwork - there's gobs and gobs of paperwork every time you ship something or receive something, or deal with customs. A lot of that is just process, right? So I think blockchain offers you also a way to store your data, automate some of these things and make them more efficient, and to remove the inefficiencies that you don't really need.
 
-\[\\00:11:47.11\\\] Also, I think it has a lot of applications going forward to integrate with other technologies, like IoT, for example. That's like a huge use case they're exploring also at IBM - let's say for supply chain, to equip your supply chain with devices. Let's say you're shipping a container across the Atlantic, you can have temperature sensors in your container telling you if the goods are still stored properly, or container locks that tell you if the container has been tampered with; where it is, you put GPS on it, or some kind of delivery timestamps.
+\[00:11:47.11\] Also, I think it has a lot of applications going forward to integrate with other technologies, like IoT, for example. That's like a huge use case they're exploring also at IBM - let's say for supply chain, to equip your supply chain with devices. Let's say you're shipping a container across the Atlantic, you can have temperature sensors in your container telling you if the goods are still stored properly, or container locks that tell you if the container has been tampered with; where it is, you put GPS on it, or some kind of delivery timestamps.
 
 **Adam Stacoviak:** And those all append to the...
 
@@ -157,7 +157,7 @@ So I think that's a question that's definitely gonna need to be explored fairly 
 
 **Adam Stacoviak:** And it's Hyperledger.
 
-**Anna Derbakova:** \[\\00:15:48.26\\\] Hyperledger. Hyperledger has a couple of projects under it. If you go to hyperledger.org, and there's a tab at the top called Community and you click on that, and you click on Projects, you will see that there is a handful of projects in there. One of them is Blockchain Explore, for easier navigation of the blockchain, to see what the contents of your blocks are; then you also have Fabric, which is the main project that IBM is contributing to as far as the networking core for supporting the Fabric blockchain.
+**Anna Derbakova:** \[00:15:48.26\] Hyperledger. Hyperledger has a couple of projects under it. If you go to hyperledger.org, and there's a tab at the top called Community and you click on that, and you click on Projects, you will see that there is a handful of projects in there. One of them is Blockchain Explore, for easier navigation of the blockchain, to see what the contents of your blocks are; then you also have Fabric, which is the main project that IBM is contributing to as far as the networking core for supporting the Fabric blockchain.
 
 Sawtooth Lake is a contribution that was made by Intel, so I honestly don't know a whole lot about that. I'm looking forward to learning more about it, but at this point I can't say a whole lot about it. But a lot of us contribute to Fabric, and also projects that are directly related to Fabric, like SDKs - in order to interact with the blockchain from different application-level code, like Python or Node.js or Java.
 
@@ -181,7 +181,7 @@ I think part of the problem that's still kind of lingering is the organization i
 
 **Anna Derbakova:** Somewhere on that page there's a link to the Slack channel, and it's hyperledger.slack.com. People can just sign up and they can join one of the general channels and essentially read what's going on in the project, or they can join a specific channel like the Fabric SDK channel and they can read about what we're doing. Or they can ping one of the members directly if they see them commenting on their GitHub thread, and they can ask directly their question.
 
-\[\\00:19:59.25\\\] I talk to people on Slack all the time. It's a very effective way to have one of the developers respond to you, because sometimes issues kind of get opened and we do our best to keep track of the issues, and sometimes it kind of falls through the cracks... But people do speak up. On the Fabric SDK Node channel we get questions all day long, and one of us typically answers. If it's not me, it will be somebody else from my team. People do chime in; people come back and say, "Hey, this really helped. Thanks a lot!", and we try to update the docs and kind of incorporate the feedback we receive... So definitely, if people have questions, we encourage it.
+\[00:19:59.25\] I talk to people on Slack all the time. It's a very effective way to have one of the developers respond to you, because sometimes issues kind of get opened and we do our best to keep track of the issues, and sometimes it kind of falls through the cracks... But people do speak up. On the Fabric SDK Node channel we get questions all day long, and one of us typically answers. If it's not me, it will be somebody else from my team. People do chime in; people come back and say, "Hey, this really helped. Thanks a lot!", and we try to update the docs and kind of incorporate the feedback we receive... So definitely, if people have questions, we encourage it.
 
 **Adam Stacoviak:** What is the future like for blockchain? You mentioned financial systems, you mentioned internet of things... I'm looking here and I also see manufacturing technology, supply chains - we talked about that. As a technology it's one thing, but what's the next step for people to adopt? Generally the project is still in motion, still in formation...
 
@@ -208,7 +208,7 @@ The latest thing that came out - it was actually just a couple weeks ago, and I 
 
 **Adam Stacoviak:** Is there like a Getting Started anywhere...?
 
-**Anna Derbakova:** \[\\00:23:52.16\\\] Yeah, I wrote it, I can point it to you. It's bitly.com/hyperledger-basics. It is in my personal repo, because I published it, but there's links from my GitHub page to the Docker.io official page and other official documentation for Hyperledger, and people can start there. Or they can just certainly go to the docs for Hyperledger and get started there, but there's a lot of docs, get ready. It might be a tiny bit overwhelming, but people just need to have little -- if they have some background in blockchain, great. But if they don't, they just need to be a little patient; there's a lot of information, it's a very complex subject, and we're trying to make the docs better and slimmer and more applicable, so just bear with us. We don't want to scare people away by the overwhelming amount of docs, but we also don't wanna turn them away by the scarcity of the docs. We're still kind of walking that fine line. So yeah, certainly check it out.
+**Anna Derbakova:** \[00:23:52.16\] Yeah, I wrote it, I can point it to you. It's bitly.com/hyperledger-basics. It is in my personal repo, because I published it, but there's links from my GitHub page to the Docker.io official page and other official documentation for Hyperledger, and people can start there. Or they can just certainly go to the docs for Hyperledger and get started there, but there's a lot of docs, get ready. It might be a tiny bit overwhelming, but people just need to have little -- if they have some background in blockchain, great. But if they don't, they just need to be a little patient; there's a lot of information, it's a very complex subject, and we're trying to make the docs better and slimmer and more applicable, so just bear with us. We don't want to scare people away by the overwhelming amount of docs, but we also don't wanna turn them away by the scarcity of the docs. We're still kind of walking that fine line. So yeah, certainly check it out.
 
 **Adam Stacoviak:** We'll definitely link to that Getting Started, because I know for me, I'm still catching up. Even though we did the Ethereum show, I was still playing left field; my co-host, Jerod, was definitely driving that show a lot more, and I'm still trying to catch up. That's why I asked the question, "Can you help me demystify it?", because it's the question I wanna know, not just for the listeners as well.
 
@@ -236,7 +236,7 @@ That was the synopsis of my talk. People have asked if I maybe can post some sli
 
 **Adam Stacoviak:** We'll put that in the show notes for sure.
 
-**Anna Derbakova:** \[\\00:27:57.11\\\] Yeah, and if they have problems, I'll try to walk them through. We're very open to people joining, and we're trying to be a welcoming community. Like I said, we're on Slack all the time, people are welcome to ask questions, and a lot of people do take advantage of that opportunity, which is cool.
+**Anna Derbakova:** \[00:27:57.11\] Yeah, and if they have problems, I'll try to walk them through. We're very open to people joining, and we're trying to be a welcoming community. Like I said, we're on Slack all the time, people are welcome to ask questions, and a lot of people do take advantage of that opportunity, which is cool.
 
 **Adam Stacoviak:** Let's talk about languages, because I went ahead and navigated to Fabric on GitHub, clicked on the little tab here that shows the languages; it shows that Go is 83%... So what is the language that writes most of -- at least what you're working on? I know you mentioned Node earlier, the Node SDK... Help us understand what IBM Blockchain is doing, what languages they're primarily writing these things in...
 

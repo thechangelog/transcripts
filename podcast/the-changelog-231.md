@@ -4,7 +4,7 @@ For this episode I talked with James Snell from IBM, the Technical Lead for Node
 
 We have three sponsors for this show today: Rollbar, GoCD and Hacker Paradise.
 
-**Break:** \[\\00:01:18.17\\\]
+**Break:** \[00:01:18.17\]
 
 **Adam Stacoviak:** So what's the state of HTTP/2 in Node? I know you're working on it now, you've recently tweeted about a prototype server...
 
@@ -16,7 +16,7 @@ We have three sponsors for this show today: Rollbar, GoCD and Hacker Paradise.
 
 **Adam Stacoviak:** That's true.
 
-**James Snell:** \[\\00:04:02.07\\\] It's a primary use case, even though there's so many different places Node is being used, and in different use cases, a lot of it always goes back to having Node. If you look, there is no standard library in Node, but there's HTTP, there's URL parsing, there's support for these fundamental web protocol that are built in, and that's the only thing that's built in.
+**James Snell:** \[00:04:02.07\] It's a primary use case, even though there's so many different places Node is being used, and in different use cases, a lot of it always goes back to having Node. If you look, there is no standard library in Node, but there's HTTP, there's URL parsing, there's support for these fundamental web protocol that are built in, and that's the only thing that's built in.
 
 Now, if HTTP/1 wasn't already there, I wouldn't be thinking that we should add HTTP/2.
 
@@ -38,7 +38,7 @@ We're not adding something that's brand new, that doesn't already exist as part 
 
 Even if you look at Electron, there's basically web applications that are bundled into a native app. You cannot get away from those fundamental pieces of that basic protocol support, and that to me is what defines Node.
 
-**Adam Stacoviak:** \[\\00:08:00.10\\\] It's almost what you said - I said you said, but you said it - web fundamentals.
+**Adam Stacoviak:** \[00:08:00.10\] It's almost what you said - I said you said, but you said it - web fundamentals.
 
 **James Snell:** Web fundamentals, right.
 
@@ -62,7 +62,7 @@ I think there's going to be a lot of coming to terms with the protocol and getti
 
 **James Snell:** There's two things there. With HTTP/1 in Core right now, a number of design decisions were made early on to favor performance over spec compliance. It turns out that there are a number of compliance things in the spec that says "Don't allow white space in headers", right? And there's very good reasons for that, because you get into request smuggling and response splitting, and there's a lot of real specific security issues that come if you allow invalid characters into an HTTP/1 request. Node was like, "We want things to go fast, so we're not gonna check this, we're not gonna check that", and it was a very deliberate decision not to fully support that HTTP/1 spec. And what we found is that that caused a number of security issues that we have been dealing with over the past year or two years.
 
-\[\\00:11:46.18\\\] With HTTP/2, we're gonna be taking an approach where we're gonna be very spec-compliant. We're not favoring performance over that. We're not sacrificing one over the other. It is going to be absolutely compliant to the specification, without taking those performance shortcuts. And that is something that I am emphasizing in my own development as I'm going through this, that making sure that we're hitting all of those "You must do this" or "You must not do this" that are found in that specification. By adhering to the spec as closely as we possibly can, we mitigate a lot of those potential security issues.
+\[00:11:46.18\] With HTTP/2, we're gonna be taking an approach where we're gonna be very spec-compliant. We're not favoring performance over that. We're not sacrificing one over the other. It is going to be absolutely compliant to the specification, without taking those performance shortcuts. And that is something that I am emphasizing in my own development as I'm going through this, that making sure that we're hitting all of those "You must do this" or "You must not do this" that are found in that specification. By adhering to the spec as closely as we possibly can, we mitigate a lot of those potential security issues.
 
 The other important thing is that even though HTTP/2 does not require TLS - per the spec you can do plain text if you want - the browser implementation's the primary client of HTTP/2 right now... Chrome, Firefox, Safari and some of the others, they require that they will only talk to HTTP/2 server over TLS. It's just mandated. They won't even connect to a plaintext server, so automatically out of the gate you're using secured connections, and that alone is going to be a significant improvement to security.
 
@@ -80,11 +80,11 @@ I love seeing all the different ways that people are using Node today in ways we
 
 One person I was talking and one of the ways that they were prototyping stuff and using HTTP/2 is they would create a tunnel over an HTTP/2 connection where they would open a connection with a client, but then once the connection was established it would switch roles and allow the server to act as the client, and the client was acting as the server. They were doing this as a way of doing testing over their network environment.
 
-\[\\00:16:08.00\\\] You can't do that with HTTP/1, but because of the multiplexing and the communication model that exists in HTTP/2, that kind of stuff is allowed, it's something you can do. HTTP/2 is gonna enable new extensibility models, new possibilities for new kinds of protocols that kind of co-exist with the HTTP/2 semantics. And we already see some of that work already happening within the working group; there are proposals for other kinds of protocols that are layered into the mix. And you kind of wonder, "Well, who would do that kind of thing?" Well, look at WebSockets, right? Look how WebSockets emerged in its relationship with HTTP/1 and the difficulties that existed trying to get those two things to work together. With this, the framing model is going to allow you to more naturally experiment with those kinds of new protocols without the pain that we had with trying to introduce WebSockets.
+\[00:16:08.00\] You can't do that with HTTP/1, but because of the multiplexing and the communication model that exists in HTTP/2, that kind of stuff is allowed, it's something you can do. HTTP/2 is gonna enable new extensibility models, new possibilities for new kinds of protocols that kind of co-exist with the HTTP/2 semantics. And we already see some of that work already happening within the working group; there are proposals for other kinds of protocols that are layered into the mix. And you kind of wonder, "Well, who would do that kind of thing?" Well, look at WebSockets, right? Look how WebSockets emerged in its relationship with HTTP/1 and the difficulties that existed trying to get those two things to work together. With this, the framing model is going to allow you to more naturally experiment with those kinds of new protocols without the pain that we had with trying to introduce WebSockets.
 
 There's a lot of new types of innovations I think that could come out of it, but we need to build a collective experience working with it in order to be able to tease those things out.
 
-**Break:** \[\\00:17:21.14\\\]
+**Break:** \[00:17:21.14\]
 
 **Adam Stacoviak:** You mentioned some things you're not happy with with the HTTP/2 protocol, and I couldn't let you not tell me what those are. \[laughter\] What are the "gotchas", what are the things that are just bugging you about this protocol?
 
@@ -92,7 +92,7 @@ There's a lot of new types of innovations I think that could come out of it, but
 
 HPACK, which is the staple Header Compression protocol in HTTP/2 uses this state table that's maintained at both ends. There is actually two in each direction: the center two, the receiver has two. The receiver gets to say how much state is actually stored, the center gets to say what's actually stored in that table.
 
-\[\\00:19:59.27\\\] But for the entire life of the connection of that socket, however long that socket is kept open, you have to maintain the state, and that doesn't exist in HTTP/1 today. HTTP/1 is a completely stateless protocol, and HTTP/2 switches that and makes it where you have to maintain state. You have to maintain this server affinity over a long-lived connection. Even though you're multiplexing multiple requests \[unintelligible 00:20:24.24\] at the same time, you have to process those headers sequentially, and serialize the access to those things, because if that state tablet gets out of sync at any point, you just tear down the connection, you can't do anything else on it.
+\[00:19:59.27\] But for the entire life of the connection of that socket, however long that socket is kept open, you have to maintain the state, and that doesn't exist in HTTP/1 today. HTTP/1 is a completely stateless protocol, and HTTP/2 switches that and makes it where you have to maintain state. You have to maintain this server affinity over a long-lived connection. Even though you're multiplexing multiple requests \[unintelligible 00:20:24.24\] at the same time, you have to process those headers sequentially, and serialize the access to those things, because if that state tablet gets out of sync at any point, you just tear down the connection, you can't do anything else on it.
 
 Even over multiplexed requests, all of those requests and responses share the same state tables. It adds an additional layer of complexity that just didn't exist previously. Personally, I don't think it was needed; I think that there are other ways...
 
@@ -112,7 +112,7 @@ This additional complexity is something that in NodeCore we're looking at this a
 
 The additional complexity is not something we can easily deal with. It's something we have to kind of...
 
-**Adam Stacoviak:** \[\\00:24:02.18\\\] It's right there in your face, you have to do something about it.
+**Adam Stacoviak:** \[00:24:02.18\] It's right there in your face, you have to do something about it.
 
 **James Snell:** Right, you have to do something about it.
 
@@ -144,7 +144,7 @@ If we're looking at the platform as a service where people are paying for bandwi
 
 **Adam Stacoviak:** They'll spend that money in memory, though.
 
-**James Snell:** \[\\00:27:47.14\\\] \[laughs\] Yeah, they'll make up for it in other ways. That increase in performance is significant, you can't discount it. With the fact that TLS is required, there is an improvement in security, but there are definite tradeoffs, and anyone looking to adopt HTTP/2 has to be aware of what those tradeoffs are. It's something that as we're going through in core trying to figure this thing out, there's also going to be tradeoffs in terms of API.
+**James Snell:** \[00:27:47.14\] \[laughs\] Yeah, they'll make up for it in other ways. That increase in performance is significant, you can't discount it. With the fact that TLS is required, there is an improvement in security, but there are definite tradeoffs, and anyone looking to adopt HTTP/2 has to be aware of what those tradeoffs are. It's something that as we're going through in core trying to figure this thing out, there's also going to be tradeoffs in terms of API.
 
 One simple example is the fact that the status message in HTTP/1 - you know how you have the preamble on a response, HTTP/1.1 200 OK - that OK doesn't exist in HTTP/2. They've completely removed the status message. So no more "404 Not Found." It's just "404." No more "500 Server Error", there's no "Server Error."
 
@@ -170,7 +170,7 @@ One simple example is the fact that the status message in HTTP/1 - you know how 
 
 There's opportunities there where you don't have to necessarily worry about the TLS; you could do a plaintext connection and you'll get a far greater performance out of it. But again, it has to be a very deliberate choice.
 
-**Break:** \[\\00:31:21.16\\\]
+**Break:** \[00:31:21.16\]
 
 **Adam Stacoviak:** So HTTP/2 is this something that you're solely working on, or do you have a team working on it with you?
 
@@ -218,7 +218,7 @@ The fact of the matter is we can't get rid of anything in Core. You see that in 
 
 You're obviously so much more closer; I'm just outside, looking in, but I'm thinking, if it's so deliberate to choose it, wouldn't it make sense (or potentially make sense, and this will be a decision you all eventually make) to offer it as a module instead. That way, you can have a clean break when it is time to move over. I'm just thinking if it's that deliberate, why not make it that deliberate where it's actually required.
 
-**James Snell:** \[\\00:35:58.13\\\] It's a legitimate question. That's actually one of the decisions the CTC has to make. I have an opinion on it, but unfortunately it's not all up to me. We have to listen to the folks, to Sam and Thomas, and the ecosystem, and figure out what is the right approach to take. We're not close enough yet to reaching that decision. I'm being very deliberate in how I write this code to ensure that if we need to pull it out, if that ends up being the right thing to do, we can. It's not making breaking changes to any existing part of Node. It is a very distinct, separate code path from the existing HTTP/1 stuff.
+**James Snell:** \[00:35:58.13\] It's a legitimate question. That's actually one of the decisions the CTC has to make. I have an opinion on it, but unfortunately it's not all up to me. We have to listen to the folks, to Sam and Thomas, and the ecosystem, and figure out what is the right approach to take. We're not close enough yet to reaching that decision. I'm being very deliberate in how I write this code to ensure that if we need to pull it out, if that ends up being the right thing to do, we can. It's not making breaking changes to any existing part of Node. It is a very distinct, separate code path from the existing HTTP/1 stuff.
 
 It would be a native module, and all the things that come along with native modules. There would be some considerations there, but if we needed to, we could. Like I said, I have my opinion on what it ultimately should do, but it's up to the community, it's up to the Core team to make that decision, for whatever reasons they wanna make that decision.
 

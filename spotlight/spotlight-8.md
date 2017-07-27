@@ -36,7 +36,7 @@ Yesterday I gave a demo here. We were sitting opposite the booth of Red Hat, the
 
 **Jerod Santo:** Nice...
 
-**Sid Sijbrandij:** \[\\00:04:01.23\\\] ...doing the CI, it auto scales on the container scheduler, doing CD and seeing it in cycle analytics... And I can demo that with a plain vanilla OpenShift installation within 20 minutes.
+**Sid Sijbrandij:** \[00:04:01.23\] ...doing the CI, it auto scales on the container scheduler, doing CD and seeing it in cycle analytics... And I can demo that with a plain vanilla OpenShift installation within 20 minutes.
 
 **Jerod Santo:** That's pretty cool. That had to feel pretty good.
 
@@ -56,7 +56,7 @@ So you want that in the cloud, but I'm not sure you want the editor there. It's 
 
 We think that's hard to do, and we're into the boring solutions business, so we think "Why not dump it down?" It's a file editor. We just get the files out to your editor and do that, but have all the stuff running back on that container scheduler.
 
-**Jerod Santo:** \[\\00:07:53.22\\\] Switching topics a little bit, you were recently in the news - I'm using air quotes, because it's like Hacker News, basically - not for a feature release, but for a bit of a controversy around some scientific research that was published on GitHub and GitLab, and you guys took it down, and then you reversed your decision, and you spoke very plainly about it. Can you tell that story from your perspective?
+**Jerod Santo:** \[00:07:53.22\] Switching topics a little bit, you were recently in the news - I'm using air quotes, because it's like Hacker News, basically - not for a feature release, but for a bit of a controversy around some scientific research that was published on GitHub and GitLab, and you guys took it down, and then you reversed your decision, and you spoke very plainly about it. Can you tell that story from your perspective?
 
 **Sid Sijbrandij:** Yeah, of course. So Saturday morning I woke up and I saw a lot of chat going on in our internal chat channels... Like, "Oh, people don't seem to be very happy about our decision", and I looked at what it was, and it was a guy called Willem de Groot that published a research, and he disclosed over a thousand vulnerable servers, and then he complained that we removed it.
 
@@ -80,7 +80,7 @@ So we reversed the decision... The first thing, I give Willem a call, apologize 
 
 **Jerod Santo:** Was this something that you foresaw when you started GitLab? You wanna be spending your days making sales or making the product better, forwarding the thing, but now you're dealing with controversies around something other people were doing; you didn't ask for this kind of... Did you know this was gonna be the case when you got going?
 
-**Sid Sijbrandij:** \[\\00:12:02.16\\\] Yeah, if you're gonna run a dotcom for content hosting - and we have now even GitLab Pages, where you can use any static site generator and host your site - you're gonna have people hosting stuff that will be controversial, and there are no clear guidelines. Some things are very clearly not okay, some things are very clearly okay. There's this gray line, and we looked at all kinds of policies and formulas, but there's not clearcut thing. It's on a case-by-case basis sometimes.
+**Sid Sijbrandij:** \[00:12:02.16\] Yeah, if you're gonna run a dotcom for content hosting - and we have now even GitLab Pages, where you can use any static site generator and host your site - you're gonna have people hosting stuff that will be controversial, and there are no clear guidelines. Some things are very clearly not okay, some things are very clearly okay. There's this gray line, and we looked at all kinds of policies and formulas, but there's not clearcut thing. It's on a case-by-case basis sometimes.
 
 **Jerod Santo:** Did you track the -- this is somewhat related and you'll see why in a second... Did you track the story around the Dash developer in the App Store recently, how he was taken out of the App Store because he had a linked account that had some fraudulent reviews? Dash is a great is a great application, and the developer community said, "What's up with that, Apple?" There's more to the story than all that, but the point that I wanna thread through is that that got all the way up to Phil Schiller, who's VP of marketing. He's a C-level executive. He became involved... It was the kind of decision that made it all the way up to him, and it seems like there's \[unintelligible 00:13:19.10\] I mean, they're huge, right? So if that kind of a decision, in the context of Apple, a small marketing App Store problem is being dealt with by Phil Schiller. Y'all are much smaller, but if this came up to you... It's not the best use of your time to be making this kind of decisions. Now, I figure your current size is totally legit, but do you have thoughts about that? Like, "What's the best use of my time today?"
 
@@ -94,7 +94,7 @@ So we reversed the decision... The first thing, I give Willem a call, apologize 
 
 **Sid Sijbrandij:** We're not into that business, but every time there is a controversy, people will look and they'll see how long does it take you, and are you doing the right thing? We were talking about this yesterday, and there was this remark, like we should make sure that when we're out there commenting on stuff that we have a unified voice of GitLab. And then we talked about it more, but a unified voice means you have to coordinate internally before you take any action, and it's gonna drastically slow down your speed of \[unintelligible 00:14:54.12\] and our values are around transparency and openness.
 
-\[\\00:14:59.29\\\] So I said it's better to just go out there and have a real conversation right where it's happening, whether that's on Hacker News, whether that's on our public issue tracker. I hope that when people see GitLab team members openly disagree, being kind to one another but being direct, that will be a better thing than coming up with this pre-packaged statement two days down the road, of "We're not gonna do this" or "We're gonna do this."
+\[00:14:59.29\] So I said it's better to just go out there and have a real conversation right where it's happening, whether that's on Hacker News, whether that's on our public issue tracker. I hope that when people see GitLab team members openly disagree, being kind to one another but being direct, that will be a better thing than coming up with this pre-packaged statement two days down the road, of "We're not gonna do this" or "We're gonna do this."
 
 I'm sure it will bite us from time to time, but that's what we're going for. We'll just go out there and we'll say what we think... And it's not a unified voice. It's over 120 individuals - you can see us disagree also on our issue tracker...
 

@@ -18,7 +18,7 @@ This came from a ping repo issue actually presented by Chris... What do you thin
 
 Anyway, he went back, and his computer that was meant to be broken and old - he was this kind of person that, you know, "It would be absolutely magical if this computer now works", so he plugged it in and flipped the on switch, and lo and behold, for some reason, this car crash had actually resurrected this computer from the dead, and \[unintelligible 00:03:59.24\] eventually it was basically in the way and being a door stop, so he manage to offload it via my mom onto me.
 
-\[\\00:04:10.27\\\] It was this extremely old 8088 IBM computer. It was dreadfully old, even for the time I got it. It had no games or anything on it, it just had a copy of Turbo Pascal, and every tenth reboot, for some reason, it would revert to the BASIC programming language; there was a ROM built into the motherboard that for some reason if the main operating system didn't boot, it'd revert to a BASIC environment.
+\[00:04:10.27\] It was this extremely old 8088 IBM computer. It was dreadfully old, even for the time I got it. It had no games or anything on it, it just had a copy of Turbo Pascal, and every tenth reboot, for some reason, it would revert to the BASIC programming language; there was a ROM built into the motherboard that for some reason if the main operating system didn't boot, it'd revert to a BASIC environment.
 
 So I got some books out of the library and started programming my own BASIC things like that. Then eventually, on from there, I just sort of steady stayed up, moved into some Perl programming I guess, and by university I was programming Python a lot, and C, C++, and the usual JAVA, as university courses go.
 
@@ -52,7 +52,7 @@ After university, I joined a startup in London, and did that for two years. We w
 
 **Chris Lamb:** Somewhere along the line I came across a book about Slackware Linux, and it came with a CD and things like that... This is before the internet was of any reasonable speed, so you'd pretty much have to send off all Linux distributions. All my computers were always very old, so I was never really playing or getting distracted by gaming, and things like that, so I played around with the Slackware thing, but even that was very old. There was a company in the UK called the Linux Emporium, and if you sent them five dollars' worth, they'd send you the latest Red Hat CDs, seven discs or something ridiculous.
 
-\[\\00:07:58.25\\\] I'd heard of Red Hat - reputable, blah-blah-blah... But I sent off for that, and they also said, "Oh, we could include some free, extra CDs if you want." I was like, "Yeah, sure. Whatever. I'm 13, I have no money, so whatever... Send me as much free stuff as you like." Anyway, I went to install this Red Hat, and it said, "Sorry, you need at least 12 MB of RAM to install Red Hat", and I think I only had 8 on this rather lackluster machine. I got a bit annoyed, so I reached for one of these free CDs, which again, were old for the time; they were free because they were the previous releases. One of them was a very old release of Debian, and their whole operating system just completely clicked with me. Installing stuff was pretty simple, installing the operating system itself, and I ended up using that for many years just as a user, running my own little web server between me and my cupboard... Which was like, "Oh, this is amazing." \[laughter\]
+\[00:07:58.25\] I'd heard of Red Hat - reputable, blah-blah-blah... But I sent off for that, and they also said, "Oh, we could include some free, extra CDs if you want." I was like, "Yeah, sure. Whatever. I'm 13, I have no money, so whatever... Send me as much free stuff as you like." Anyway, I went to install this Red Hat, and it said, "Sorry, you need at least 12 MB of RAM to install Red Hat", and I think I only had 8 on this rather lackluster machine. I got a bit annoyed, so I reached for one of these free CDs, which again, were old for the time; they were free because they were the previous releases. One of them was a very old release of Debian, and their whole operating system just completely clicked with me. Installing stuff was pretty simple, installing the operating system itself, and I ended up using that for many years just as a user, running my own little web server between me and my cupboard... Which was like, "Oh, this is amazing." \[laughter\]
 
 Well, I didn't have internet, so I was like, "Wow, I can type in http:\\\\192.168.0.2".
 
@@ -78,7 +78,7 @@ The other projects, a lot of them are just scratching my own itch. I was looking
 
 So a lot of these are scratching my own itch. Some of them people use, some of them people don't use, but I find putting the code out there keeps myself honest, and it also makes me follow through on projects a little bit better, because there's some sort of vague accountability if you're putting it on GitHub; not much, because no one's looking over your shoulder, but that's the basic idea.
 
-**Adam Stacoviak:** \[\\00:12:04.19\\\] I wonder if everybody has the same -- I don't know how to describe it, but the fact that you do some freelance work (or you've done some freelance work over your career) and instead of simply writing it into that codebase that you're writing it into, you think in a modular way and you think about the community... I wonder if that's a common thought among developers... If they need to hear something like your story to think, "I should do that, too. I'm writing software for somebody. If I could bake that into my contract with them, like hey, if there's an opportunity for me to open source a module - obviously, I'll disclose that to you", but baking that into the ability to be a freelancer and actually give back to open source... I wonder if it's common knowledge to do that, or it's a common thing to do.
+**Adam Stacoviak:** \[00:12:04.19\] I wonder if everybody has the same -- I don't know how to describe it, but the fact that you do some freelance work (or you've done some freelance work over your career) and instead of simply writing it into that codebase that you're writing it into, you think in a modular way and you think about the community... I wonder if that's a common thought among developers... If they need to hear something like your story to think, "I should do that, too. I'm writing software for somebody. If I could bake that into my contract with them, like hey, if there's an opportunity for me to open source a module - obviously, I'll disclose that to you", but baking that into the ability to be a freelancer and actually give back to open source... I wonder if it's common knowledge to do that, or it's a common thing to do.
 
 **Jerod Santo:** I think some of it depends on maybe your attitude and your outlook. From my own personal perspective, I've always felt like I should only open source the things that I think are great or useful or polished, and that always leads me to not open source anything.
 
@@ -114,7 +114,7 @@ So now I'm talking myself into, "I should open source some more stuff", basicall
 
 **Adam Stacoviak:** I think there's levels to open source. There's infrastructure open source, which is "important and useful", and then there's other things that are sort of like tinker tools, that are just embrace the inner kid in us, the playful manner, and there's the side of that playful manner that helps you get into the state of flow and helps you go beyond simply learning, and it's like now you actually absorb what you're doing, so it kind of brings up these different attitudes in the developer behind the code and those who interact with it. I think there's room for that. I don't think it should all just be so serious.
 
-**Jerod Santo:** \[\\00:15:55.10\\\] Sure. In fact, shoutout to Cody Pearson who was our designer on Changelog.com, the frontender. He has this idea, which I'm sure everybody's had this idea, but he brought it to my attention that GitHub should have tags - arbitrary tags that you can assign to your own repos in order to provide context. You could tag something \#satire if it's a joke, or you could say "This is a one-off", or you could have all these different tags that would basically say, "Look, this was me messing around. It's not a serious project." The problem with tags is they're so arbitrary.
+**Jerod Santo:** \[00:15:55.10\] Sure. In fact, shoutout to Cody Pearson who was our designer on Changelog.com, the frontender. He has this idea, which I'm sure everybody's had this idea, but he brought it to my attention that GitHub should have tags - arbitrary tags that you can assign to your own repos in order to provide context. You could tag something \#satire if it's a joke, or you could say "This is a one-off", or you could have all these different tags that would basically say, "Look, this was me messing around. It's not a serious project." The problem with tags is they're so arbitrary.
 
 Point being is if we could classify our repos a little bit better in public, it might help. What do you guys think about that?
 
@@ -146,7 +146,7 @@ There was an example given a few years ago of an OpenSSH binary that differed ju
 
 **Adam Stacoviak:** At what level does the reproducible build take place? You've got your list of who's involved and it involves various levels of Linux, Bitcoin, things like that - is it us trusting them to say they adhere to reproducible builds and that's what gives us faith and trust? Or is it at a different level?
 
-**Chris Lamb:** \[\\00:23:56.17\\\] I think it's on a different level. It's sort of a community set of tool practices and things like that. If you jump into the details, perhaps a reproducible build can be quite a misleading term. Code provenance might be a better way of phrasing it. The way we use the reproducibility is that we ensure that a compilation of any piece of software always has identical results. That means if you're on GCC on a C file, you get an ELF binary at the end, and if you rerun that compilation process, you'd get the exact same ELF binary - the MD5, a SHA-1 checksum would be identical.
+**Chris Lamb:** \[00:23:56.17\] I think it's on a different level. It's sort of a community set of tool practices and things like that. If you jump into the details, perhaps a reproducible build can be quite a misleading term. Code provenance might be a better way of phrasing it. The way we use the reproducibility is that we ensure that a compilation of any piece of software always has identical results. That means if you're on GCC on a C file, you get an ELF binary at the end, and if you rerun that compilation process, you'd get the exact same ELF binary - the MD5, a SHA-1 checksum would be identical.
 
 Then what happens is that you ask multiple other parties to do their own builds of the same source code, and then you get together - hopefully electronically - and compare your results. If I got the result 1234 - assuming that's the checksum - and you got 1234 and everyone else got 1234, we can pretty much agree that if you compile the source code, you should expect this binary.
 
@@ -164,7 +164,7 @@ It doesn't provide any authenticity, so you would need to pair that checksum wit
 
 **Jerod Santo:** It will always produce the exact same fingerprint on the other side. The problem with that, especially as cryptographic algorithms get torn down over time, is that while that exact same binary will always produce the exact same checksum, depending on your algorithm, there are other binaries that can also produce that exact same checksum, and we would call them hash collisions. So that's why it's not giving you the level of confidence that it's secure; it's simply a tool that you can use, as you said, to say "Okay, I did get the file all the way downloaded. It's not corrupted, there's no issues."
 
-\[\\00:27:55.08\\\] So while people think that those checksums are giving us some sort of security confidence, they actually aren't. Is that fair?
+\[00:27:55.08\] So while people think that those checksums are giving us some sort of security confidence, they actually aren't. Is that fair?
 
 **Chris Lamb:** That would be fair, yes. But you can immediately make them a little more secure by providing multiple checksums, particularly from different families of cryptographic algorithms. The advice for years has been to stop using MD5, and things like that. And if you provide multiple SHA-1, SHA-256 checksums, you can start to be pretty confident that your download completed successfully, and things like that.
 
@@ -182,7 +182,7 @@ Another thing that makes reproducible builds quite salient in modern times is th
 
 So yes, the doomsday is sort of here already in a sense, but we just don't really know how pervasive it is.
 
-**Jerod Santo:** \[\\00:31:52.17\\\] It is particularly insidious that you're not coercing - you don't have a bad actor... The developer doesn't have to be the bad actor if you can infect the developer tools or the developer pipeline in any way. Then at the point that the attack is successful, like you said, it's very difficult to trace back to the original threat vector when the developer is ignorant of anything going wrong, and they're usually the one to blame.
+**Jerod Santo:** \[00:31:52.17\] It is particularly insidious that you're not coercing - you don't have a bad actor... The developer doesn't have to be the bad actor if you can infect the developer tools or the developer pipeline in any way. Then at the point that the attack is successful, like you said, it's very difficult to trace back to the original threat vector when the developer is ignorant of anything going wrong, and they're usually the one to blame.
 
 **Adam Stacoviak:** Yeah. That's an interesting story, that you can do that with the iOS SDK, and do something, like you had said, so harmless, but it could have been something so harmful, like an address book or bigger exploits, or whatever... But that actually takes place. We all, day-to-day utilize some sort of software, whether it's open source or not, in a way where we just sort of like inherently trust it.
 
@@ -202,7 +202,7 @@ I don't know how often either of you do MD5 hashes or any of this thing that you
 
 **Jerod Santo:** Right. So there's that, and if you go into the Apple side of things with the iOS App Store and what not, those are all developer signed. You have to have your own certificate and sign your binaries before Apple will accept those in, and there's a web of trust that they create in there as well. So there are things that are in place, but what you're advocating for with reproducible builds is even more guarantees not just that these binaries are trusted, but that we can verify their origin, the source code that originated them in a reproducible way.
 
-**Chris Lamb:** \[\\00:36:12.03\\\] That's right, that's a good summary... Because using the checksum and the signature I know that I got this binary from, say, you, and it's that brilliant - I know exactly where I've got it from. There's no guarantee that that correspond to any particular source code that you claim it belongs to, I have to take your word for it.
+**Chris Lamb:** \[00:36:12.03\] That's right, that's a good summary... Because using the checksum and the signature I know that I got this binary from, say, you, and it's that brilliant - I know exactly where I've got it from. There's no guarantee that that correspond to any particular source code that you claim it belongs to, I have to take your word for it.
 
 **Jerod Santo:** You have to actually trust me.
 
@@ -218,7 +218,7 @@ Then you ask multiple parties or multiple build servers distributed around the w
 
 **Chris Lamb:** It's quite a diverse group of projects, really. You can find some of old mailing list posts about people attempting this in the mid-nineties, but it wasn't really on anyone's radar as a security vector for a while. After the \[unintelligible 00:39:38.08\] revelations and the iOS etc. a lot of people started getting interested in it. Debian was perhaps the forefront of the distributions and certainly putting a lot of the initial activity into reproducible builds, but now we're a completely distribution and project-agnostic initiative and endeavor.
 
-\[\\00:40:01.00\\\] It's the Linux Foundation that are very generously funding my time and other's time to work on this, but there's all sorts of distributions involved now - SUSE, Fedora geeks, a bunch of BSDs as well... So it's not even a Linux-only operating system. We have Arch Linux, but we also have projects such as Bitcoin and Thor... I mean, you can imagine the incentive to crack the binary of a Bitcoin wallet. If you could upload a backdoored Bitcoin wallet and replace the developer's version, then you would become rich fairly quickly... You see what I mean?
+\[00:40:01.00\] It's the Linux Foundation that are very generously funding my time and other's time to work on this, but there's all sorts of distributions involved now - SUSE, Fedora geeks, a bunch of BSDs as well... So it's not even a Linux-only operating system. We have Arch Linux, but we also have projects such as Bitcoin and Thor... I mean, you can imagine the incentive to crack the binary of a Bitcoin wallet. If you could upload a backdoored Bitcoin wallet and replace the developer's version, then you would become rich fairly quickly... You see what I mean?
 
 **Adam Stacoviak:** Mm-hm. That's my plan.
 
@@ -262,7 +262,7 @@ If I was that \[unintelligible 00:41:21.24\] person, I wouldn't wanna put myself
 
 **Chris Lamb:** We're maybe missing a bigger picture here, in that the security affordances that reproducible builds provide should apply to everyone, really... To all users on any technical spectrum. They don't want their to-do list app that they're just using as a thingy to have any backdoors in...
 
-**Adam Stacoviak:** \[\\00:44:03.02\\\] I think the bigger picture there is just trying to figure out -- I'm just thinking, if I'm a developer and I'm going to use something that has a binary, why not just compile it myself? I know that the arguments you've made there of the conveniences and affordances, and if at every point release I'm gonna recompile a new version of it, that's probably \[unintelligible 00:44:20.15\] I'm just trying to figure out, I guess, is reproducible builds, this philosophy, these best practices - is it enabling me as a developer to have the ability to reproduce it if I wanted to, and that's the security?
+**Adam Stacoviak:** \[00:44:03.02\] I think the bigger picture there is just trying to figure out -- I'm just thinking, if I'm a developer and I'm going to use something that has a binary, why not just compile it myself? I know that the arguments you've made there of the conveniences and affordances, and if at every point release I'm gonna recompile a new version of it, that's probably \[unintelligible 00:44:20.15\] I'm just trying to figure out, I guess, is reproducible builds, this philosophy, these best practices - is it enabling me as a developer to have the ability to reproduce it if I wanted to, and that's the security?
 
 **Chris Lamb:** Absolutely.
 
@@ -276,11 +276,11 @@ That also speaks to the end users as well. They don't have to compile software t
 
 Let's break and when we come back we'll talk about other advantages beyond security, things like that. So we'll break here, and when we come back we'll go into that with Chris. We'll be right back.
 
-**Break:** \[\\00:46:56.28\\\]
+**Break:** \[00:46:56.28\]
 
 **Adam Stacoviak:** Alright, we're back with Chris Lamb talking about this awesome thing called reproducible builds. You need it to have secure software, and maybe it's just a pain in the butt to compile from source, as I learned that today - you can't do that every day. Chris, take us through some other advantages. Obviously, you've got some security advantages here... Where else should we go for this to help explain to the community why this is so important?
 
-**Chris Lamb:** \[\\00:48:07.26\\\] Yeah, I think the biggest non-security advantage is given that every time you rebuild a software you should get the same result, it means that if you make a tiny change to the source code, you should expect there should be a result in the resulting binary. And only those changes should be apparent in there.
+**Chris Lamb:** \[00:48:07.26\] Yeah, I think the biggest non-security advantage is given that every time you rebuild a software you should get the same result, it means that if you make a tiny change to the source code, you should expect there should be a result in the resulting binary. And only those changes should be apparent in there.
 
 If you wanna do a new release of software and you wanna make sure that this new release only contains the changes that you want, reproducible builds make it very easy to analyze that your new version with the previous version, and if you compare them, you should only see the changes that you expect.
 
@@ -298,7 +298,7 @@ It's a good way of finding bugs in uncommon timezones and low calls. But the few
 
 **Jerod Santo:** How would the reproducible builds help you track down that specific timezone-based bugs then?
 
-**Chris Lamb:** \[\\00:52:00.10\\\] Within the Debian project we have a reproducible torture chamber test. What we do is we build every piece of software in Debian, and there's 23,000 different source packages there, to give you a scale of what we're talking about. We build it twice, one after the other - the A build and the B build - and we try and vary as many things between those two builds as possible.
+**Chris Lamb:** \[00:52:00.10\] Within the Debian project we have a reproducible torture chamber test. What we do is we build every piece of software in Debian, and there's 23,000 different source packages there, to give you a scale of what we're talking about. We build it twice, one after the other - the A build and the B build - and we try and vary as many things between those two builds as possible.
 
 For example, the second build will be on a different CPU type, it will be done a few years in the future, we just set a fake time; we change the shell, we change the path, we change all the environment variables we can possibly change; your username... Anything we can think would change the file system; basically anything you think of, we try and change. This hopefully surfaces as many differences that would affect reproducibility.
 
@@ -326,7 +326,7 @@ So during the build it would generate a random number, and that would get put in
 
 So this is the Debian project, you guys have a great setup, you've put the time and money into this... How do other people do it? There's a set of best practices, you've described the process, which seems relatively straightforward (there's a few steps), so tactically, how do you go ahead and say, "You know what? Our group is interested in reproducible builds. How do we get from where we are to where we want to be?"
 
-**Chris Lamb:** \[\\00:55:49.06\\\] A lot of the work is being done with liaising with compilers and other toolchain-based utilities that are introducing non-reproducibility. We speak a lot with the GCC developers; for example, C developers will know the \_\_date and \_\_time macros \[unintelligible 00:56:11.07\] and previously they embedded the date and time directly into the source code as macros. This affects reproducibility because obviously every time you rebuild it, it would put the current time in, and so therefore every time you build you've got a different binary.
+**Chris Lamb:** \[00:55:49.06\] A lot of the work is being done with liaising with compilers and other toolchain-based utilities that are introducing non-reproducibility. We speak a lot with the GCC developers; for example, C developers will know the \_\_date and \_\_time macros \[unintelligible 00:56:11.07\] and previously they embedded the date and time directly into the source code as macros. This affects reproducibility because obviously every time you rebuild it, it would put the current time in, and so therefore every time you build you've got a different binary.
 
 A lot of the time we are speaking to developers in those kind of areas, rather than developers of - should I call them niche packages... Ones that depend on other packages, rather than \[unintelligible 00:56:40.25\] packages are depending on them.
 
@@ -356,7 +356,7 @@ There's something I wanted to ask... We were talking about who should be involve
 
 **Chris Lamb:** Well, one, the obvious things of ensuring that they downloaded from a reputable source. Assuming that Apple are not gonna release the source code for the SDK, which is probably given, there's very little they can do, and that's basically the "risk" you take when you run \[unintelligible 01:00:01.09\] software.
 
-\[\\01:00:03.14\\\] What hopefully would have happened is that if they were in a free software world and they released the source code for their software, it would have been very obvious very quickly that the binaries they were producing did not match with their source code, and they would never have matched because of the way that their SDK was introducing the change of adverts, and things like that.
+\[01:00:03.14\] What hopefully would have happened is that if they were in a free software world and they released the source code for their software, it would have been very obvious very quickly that the binaries they were producing did not match with their source code, and they would never have matched because of the way that their SDK was introducing the change of adverts, and things like that.
 
 So hopefully very quickly when a third party recompiles their piece of software, they would say, "That's interesting... You're distributing checks A, B, C, D, but when I compile it myself, I get D, E, F, G. What's going on here?" and questions would be raised very early.
 
@@ -394,7 +394,7 @@ That will be another great source of leverage there; it'd be one company getting
 
 **Jerod Santo:** What about the individual level... Jane, web developer and Joe, game developer, Linux users, people like Adam and I, our listeners out there that maybe -- I mean, we take security seriously - maybe we could do better, but what could we do to help this initiative?
 
-**Chris Lamb:** \[\\01:04:19.10\\\] One thing is you can ensure that any source code you do release can be built reproducibly. This means removing any timestamps from the build, ensuring that it produces the same results in as many different environments as possible and it doesn't have any varying behavior... Things along those lines.
+**Chris Lamb:** \[01:04:19.10\] One thing is you can ensure that any source code you do release can be built reproducibly. This means removing any timestamps from the build, ensuring that it produces the same results in as many different environments as possible and it doesn't have any varying behavior... Things along those lines.
 
 Most software would not require any of these things, but a lot of software likes to include, for example, the version, which is based on the current date, or they like to include the machine that it was compiled upon.
 
@@ -422,7 +422,7 @@ But if they recompile and check with the upstream's version of that binary, what
 
 **Jerod Santo:** Accessible, and a community effort... I don't know, Chris, is that...?
 
-**Chris Lamb:** \[\\01:08:06.15\\\] Indeed, yeah.
+**Chris Lamb:** \[01:08:06.15\] Indeed, yeah.
 
 **Adam Stacoviak:** When he said recompiler earlier, that's what I was gonna ask, before I was getting interrupted. Chris, didn't you mention something about recompilers \[unintelligible 01:08:14.27\] earlier in the call, that we didn't go into?
 
@@ -450,7 +450,7 @@ There's a few unresolved questions, as well. Just for one example, say we had te
 
 **Jerod Santo:** Put on the blockchain. Blockchain solves all problems it's the new spade card or trump card. Just say blockchain and then that's the answer.
 
-**Chris Lamb:** \[\\01:12:02.04\\\] Well, blockchain will be part of this thing, to ensure that someone could not unpublish their checksums. So yes, we are actually ironically thinking of using blockchain-like technology.
+**Chris Lamb:** \[01:12:02.04\] Well, blockchain will be part of this thing, to ensure that someone could not unpublish their checksums. So yes, we are actually ironically thinking of using blockchain-like technology.
 
 **Jerod Santo:** I'm full of good ideas, I'll tell you what... That's two in a row. \[laughs\]
 

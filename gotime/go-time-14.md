@@ -34,7 +34,7 @@
 
 **Matt Holt:** Right. I was really excited when he forked this, thinking that it would be beneficial for a DNS server and it turns out that it is. But the problem is that you have a bunch of duplicated code, you have to maintain a fork, and so to alleviate some of that pressure and to help Caddy serve a wider audience and really do it, I want people to do, and that is use TLS. I redesigned Caddy so that it can handle different server types other than HTTP, so now the DNS server is a plugin. Well, it will be. The HTTP Server is a plugin, and so it can do all those things now.
 
-**Brian Ketelsen:** \[\\00:03:53.27\\\] Wow, that's awesome. So I wanna kind of circle back for one second, because you happened to mention that 0.9 was a complete rewrite, so how long did that take and what was the motivation behind kind of just scrapping and starting over? Was it new functionality and new ways of looking at your project?
+**Brian Ketelsen:** \[00:03:53.27\] Wow, that's awesome. So I wanna kind of circle back for one second, because you happened to mention that 0.9 was a complete rewrite, so how long did that take and what was the motivation behind kind of just scrapping and starting over? Was it new functionality and new ways of looking at your project?
 
 **Matt Holt:** Yeah, so people's feedback really expanded my vision a lot of what they wanted and what was possible and what Caddy really was. On day one for me, Caddy was just a web server that makes it easy to spin up a new website in just a matter of seconds, but after the launch of Let's Encrypt and more people using Caddy, I realized that what people really want is just an easy way to configure their standard web services and to do so securely, without having to worry about it. Caddy 0.9 makes that possible, but I had to redesign a lot of it to handle more... Because before, the only thing that a plugin could do is handle HTTP requests, basically. But now, Caddy can be extended so that plugins can do a number of things, including serving something completely other than HTTP. So that was kind of the goal, and that rewrite took almost six months. There was a lot of code to splice over piece by piece.
 
@@ -104,7 +104,7 @@ So again, its ability to render markdown as HTML on the fly is something that is
 
 **Erik St. Martin:** Right. It'd be interesting to see... But for a lot of us, it's just so easy to just get up and going. And like I said, one of my favorite things is the kind of Let's Encrypt in SNI support.
 
-**Matt Holt:** \[\\00:11:51.04\\\] Yeah, we should talk about that, because there's no reason that only Caddy can do this. I think every Go program that uses the network should do this, for a number of reasons. Well, Brian, you write a lot of network software, do you think about this?
+**Matt Holt:** \[00:11:51.04\] Yeah, we should talk about that, because there's no reason that only Caddy can do this. I think every Go program that uses the network should do this, for a number of reasons. Well, Brian, you write a lot of network software, do you think about this?
 
 **Brian Ketelsen:** At Backplane we do distributed load balancing and we definitely think about it, and we use Let's Encrypt to get certificates for all of our clients; so yes, we think about it a lot.
 
@@ -128,7 +128,7 @@ If you have a problem with TLS, it's probably more due to the problems with PKI 
 
 **Brian Ketelsen:** I'd go out on a limb and say that anybody who thinks their transport layer is secure is probably deluding themselves. There is no secure network anywhere.
 
-**Matt Holt:** \[\\00:15:50.24\\\] So one exception perhaps is the loopback interface. Your loopback interface is probably safe without TLS.
+**Matt Holt:** \[00:15:50.24\] So one exception perhaps is the loopback interface. Your loopback interface is probably safe without TLS.
 
 **Erik St. Martin:** Yeah, the loopback probably is, and even though I wouldn't do this at Comcast, I know at least for the cable side they have their own backbones and private internet. And that's, of course, segregated from other networks. It's like -- I think in some cases there, but still, there's multiple...
 
@@ -152,7 +152,7 @@ And then nonrepudiation is more complicated, but at a technical level it basical
 
 **Carlisia Pinto:** I was gonna ask earlier, for the people who do want to use TLS, what are the things that people need to watch out for? I also wanted to ask you - and I'm trying not to jumble a lot of questions in one sentence - to talk about the ACME protocol. Because apparently Let's Encrypt is one entity, and there are others, like StartEncrypt, and they are not all the same and not all of them implement the ACME protocol. Is it relevant that these entities implement this protocol? Was is so special about this protocol?
 
-**Matt Holt:** \[\\00:19:54.16\\\] Okay. Yeah, great question. The first question was what should you watch out for if you're using TLS - is that what you asked?
+**Matt Holt:** \[00:19:54.16\] Okay. Yeah, great question. The first question was what should you watch out for if you're using TLS - is that what you asked?
 
 **Carlisia Pinto:** No. If you're getting a TLS from a particular CA - Let's Encrypt is one, but there are others... There are different places to get a certificate from.
 
@@ -166,7 +166,7 @@ And then when they officially asked after that for the issuance of seven SHA1 si
 
 Anyway, so here you have the certificate authority whose practices are disputed. Now, in the end they issued the certificates, but they took out those questionable strings. I mean, you be the judge of who your certificate authority is, but cryptographically remember that no certificate is better than another. You can make your own certificate. The only difference is that your certificate isn't trusted by everyone out there.
 
-**Carlisia Pinto:** \[\\00:23:50.06\\\] Exactly, but how... Let's say I'm a developer, and for some reason I don't wanna use Let's Encrypt. Let's say I don't wanna pay and they renew every three months, and I don't wanna go through the renewal process every three months.
+**Carlisia Pinto:** \[00:23:50.06\] Exactly, but how... Let's say I'm a developer, and for some reason I don't wanna use Let's Encrypt. Let's say I don't wanna pay and they renew every three months, and I don't wanna go through the renewal process every three months.
 
 **Matt Holt:** Why not?
 
@@ -190,7 +190,7 @@ So this protocol allows them to verify your claim that you own a domain name and
 
 **Matt Holt:** Certificate authorities have pretty rigid guidelines. I don't know a whole lot of details, because I don't work for one. The ACME protocol is not any more lenient in issuing certificates than traditional certificate authorities.
 
-**Brian Ketelsen:** \[\\00:28:05.19\\\] It automates the process, really. If we think about the traditional approach of getting a certificate, they typically want you to add a DNS record to show that you have control of the authoritative zone, or they make you add something to the web page, or there's some sort of process to validate that you own a domain. A lot of those things can be automated, so is it so different than having a protocol? And I'm not familiar with exactly how the protocol works, how it vets who owns the domain.
+**Brian Ketelsen:** \[00:28:05.19\] It automates the process, really. If we think about the traditional approach of getting a certificate, they typically want you to add a DNS record to show that you have control of the authoritative zone, or they make you add something to the web page, or there's some sort of process to validate that you own a domain. A lot of those things can be automated, so is it so different than having a protocol? And I'm not familiar with exactly how the protocol works, how it vets who owns the domain.
 
 **Carlisia Pinto:** Exactly. But this process of validation, if there is a protocol and the company is following that protocol, we know that that protocol validates in a secure way and we can trust it. I think it was a very good initiative, because you can have implemented a validation process that's either manual, or it can even be also automated, but not be very secure, and that's happened before.
 
@@ -204,7 +204,7 @@ That second feature of keeping your customers up to date is probably the harder 
 
 Now that we've talked about our sponsors, I have a question for Matt again, which is the economics of the certificate space. You know, just two years ago before Let's Encrypt existed or was doing anything, certificates, especially on the website, were insanely expensive and a big money maker. How do you feel the landscape has changed now that Let's Encrypt is out and giving everybody free certificates for nothing?
 
-**Matt Holt:** \[\\00:32:08.12\\\] Well, I'm not a certificate authority, so I don't know financial numbers exactly, but I'm willing to bet that they're probably scrambling. A couple of certificate authorities I've observed have made rash moves in terms of public relations that I wouldn't deem wise or sensible, because I think the idea that people can now get certificates and masks for free is concerning to them.
+**Matt Holt:** \[00:32:08.12\] Well, I'm not a certificate authority, so I don't know financial numbers exactly, but I'm willing to bet that they're probably scrambling. A couple of certificate authorities I've observed have made rash moves in terms of public relations that I wouldn't deem wise or sensible, because I think the idea that people can now get certificates and masks for free is concerning to them.
 
 I don't think that automated certificates, whether free or not, I don't think they're going to -- because ACME, by the way, it doesn't say the certificates have to be free, at least as far as I know. I don't think the automated certificates are gonna put CAs out of business. I do think it's going to make them more accountable, which is a good thing. It will make them focus their business on actually the valuable part.
 
@@ -226,7 +226,7 @@ I don't think it's gonna put them out of business, but I don't think that they'r
 
 **Brian Ketelsen:** But as we educate more about what TLS is, what encryption is, what security is in a web browser, you know, maybe those extended enhanced validations matter less. It'd be interesting to see.
 
-**Matt Holt:** \[\\00:36:00.06\\\] It's possible. Yeah, it will be interesting to see what happens.
+**Matt Holt:** \[00:36:00.06\] It's possible. Yeah, it will be interesting to see what happens.
 
 **Erik St. Martin:** Now, before we move on to our news and interesting projects part of the show, I did wanna touch back on ACME for a second. We kind of talked about what the model is to manually validate your domain to get a certificate. Do you wanna walk us through how ACME does that?
 
@@ -244,7 +244,7 @@ The downside is that you either have to do this manually or you have to give you
 
 Those are the three challenge types, and if you're having a hard time with Let's Encrypt or with the ACME protocol in general, I'm willing to bet it's probably because your tooling has not quite arrived yet or it's not mature yet, or you're asking a lot from the Let's Encrypt servers, and that's when people run into raid limits. But honestly, this covers 95% to 99% of the use cases.
 
-**Erik St. Martin:** \[\\00:40:11.19\\\] So is there anything else that a listener should know about either Caddy or TLS or ACME before we move on? Is there anything else you'd like to add?
+**Erik St. Martin:** \[00:40:11.19\] So is there anything else that a listener should know about either Caddy or TLS or ACME before we move on? Is there anything else you'd like to add?
 
 **Matt Holt:** Encrypt - just use TLS. Do it right, do it well, look into the tools. We'll probably have links in the show notes for some of these TLS resources.
 
@@ -302,7 +302,7 @@ Carlisia Campos:… I know, I know.
 
 **Carlisia Pinto:** I know, I just can't help it. Everybody is so excited and doing such hard work. Sponsors are welcome. It's going to be a great way to reach awesome developers in Brazil. What else? We expect 300 people, we can even fit more than that, but we think 300 will be easy to get.
 
-\[\\00:44:00.26\\\] CFP is open, the registration is open, the sponsorships are cheap, cheap, cheap, cheap, cheap, because it's a small conference and the exchange rate is crazy. So take a look at the prospectus. Support is so appreciated and needed, especially for this first one. We really wanna set the standard for it to be a yearly event and a technical landmark in the tech community in Brazil.
+\[00:44:00.26\] CFP is open, the registration is open, the sponsorships are cheap, cheap, cheap, cheap, cheap, because it's a small conference and the exchange rate is crazy. So take a look at the prospectus. Support is so appreciated and needed, especially for this first one. We really wanna set the standard for it to be a yearly event and a technical landmark in the tech community in Brazil.
 
 **Erik St. Martin:** And for anybody in the US wanting to travel internationally, I did the math on what it cost to go and it's actually not bad. The ticket itself -- what was it Carlisia, was it like $30 US?
 
@@ -338,7 +338,7 @@ Carlisia Campos:… I know, I know.
 
 You also don't wanna ignore it, because that may actually become a real vulnerability. And I think I struggle with that, like how do you trim the fat on the warnings being thrown, without continuously ignoring what could become future problems?
 
-**Brian Ketelsen:** \[\\00:48:04.00\\\] That might be a show of its own, right there. So somebody write a library for that/ \[laughter\] Like, so many runs, or if the line changes, or surrounding lines change - I wanna know to look at it again.
+**Brian Ketelsen:** \[00:48:04.00\] That might be a show of its own, right there. So somebody write a library for that/ \[laughter\] Like, so many runs, or if the line changes, or surrounding lines change - I wanna know to look at it again.
 
 And then also along those lines, Stripe has a package called SafeSQL which also looks for some SQL injection vulnerabilities - which I haven't run, but I'm interested to see how that works from the static analysis side. \[\\00:48:36.05\]using tools like sqlmap and stuff from the client side, looking for SQL injection vulnerabilities that are exposed.
 
@@ -380,7 +380,7 @@ So it's a thin shell around sync.WaitGroup and the context package, but it's nic
 
 **Brian Ketelsen:** So here's one I stumbled across on Twitter the other day, and I'm gonna butcher this poor guy's name, but github.com/matiasinsaurralde/go-dotnet. It is a Go wrapper for .NET that lets you do basically see Go-ish things using .NET assemblies. The first thing I thought was, you know, "Put down the crack pipe and walk away slowly", but I can see that there are definitely opportunities for the Go world to communicate with all of the amazing software that's in the .NET ecosystem, especially now that .NET is multiplatform. So a very interesting tool, I look forward to seeing that one mature.
 
-**Erik St. Martin:** \[\\00:52:23.28\\\] So this is so that you can call out to the .NET runtime from your Go code?
+**Erik St. Martin:** \[00:52:23.28\] So this is so that you can call out to the .NET runtime from your Go code?
 
 **Brian Ketelsen:** Correct. And it may work the other direction. I haven't tested it, so I don't know, but it may work the other direction, too - calling to go from .NET; I don't know.
 
@@ -418,7 +418,7 @@ So it's a thin shell around sync.WaitGroup and the context package, but it's nic
 
 So basically, he tells you exactly what to do. Jessie already had a bunch of the shortcuts that he was suggesting to do, so I was like, "Okay, cool, I'm just cruising through this", and now I've got vim-go going, I'm not going to go back to an IDE, and I'm very happy. And if you are interested, I suggest you take the jump into it, because it's very easy, relatively; if you know what things do, you just copy and paste stuff and done.
 
-**Erik St. Martin:** \[\\00:56:13.28\\\] I'd actually like to see those notes, because I feel I've been using Vim for entirely too long. I'm kind of like stuck in my ways and I feel like maybe I'm antiquated. I should look at Vim with fresh eyes again and change what plugins and things I use.
+**Erik St. Martin:** \[00:56:13.28\] I'd actually like to see those notes, because I feel I've been using Vim for entirely too long. I'm kind of like stuck in my ways and I feel like maybe I'm antiquated. I should look at Vim with fresh eyes again and change what plugins and things I use.
 
 **Carlisia Pinto:** You definitely should. I always do that, every once in a while I go back and look. And that reminds me of another good point, that he's always releasing things. He's always batch releasing a bunch of Go features. I've talked to him this morning, and basically this is the rundown. He has a changelog file on the repo and there he will list things that will be released. And as long as your package is refreshed to whatever the latest master wrench, that is the released version.
 
@@ -456,7 +456,7 @@ Today, I'm choosing Python, which is a language that I never personally use, but
 
 **Carlisia Pinto:** So I wanted to talk about one thing that I can't believe I haven't mentioned before, which is Exercism. It's double good, because it's open source, of course, and you can work on it if you're looking for an open source project to practice or help out. Also, you can use it to learn Go or get better at Go. And I also found out that there are a bunch of issues labeled "good first patch."
 
-\[\\01:00:03.07\\\] So for people who are looking to contribute to open source doing Go and they don't have experience or they're shy or they want a beginner project, this is perfect. And you'll also be helping, you know, this project which also is kind of \[unintelligible 01:00:20.23\] because it teaches people. You're trying to learn and you're helping people teach Go, and of course other languages as well, that's why Exercism is extra super good.
+\[01:00:03.07\] So for people who are looking to contribute to open source doing Go and they don't have experience or they're shy or they want a beginner project, this is perfect. And you'll also be helping, you know, this project which also is kind of \[unintelligible 01:00:20.23\] because it teaches people. You're trying to learn and you're helping people teach Go, and of course other languages as well, that's why Exercism is extra super good.
 
 **Brian Ketelsen:** And then how about you, Matt?
 
@@ -488,7 +488,7 @@ I'll have to shoot out some links and stuff, but there's actually a lot of nice 
 
 **Carlisia Pinto:** If you squint. \[laughter\]
 
-**Erik St. Martin:** \[\\01:03:55.18\\\] I use Wireshark enough to be familiar with it; I use Wireshark not enough for me to completely lose my mind and memorize all the filters and things like that. But I imagine a lot of people do spend a lot of time in there, especially if you're reverse engineering network protocols.
+**Erik St. Martin:** \[01:03:55.18\] I use Wireshark enough to be familiar with it; I use Wireshark not enough for me to completely lose my mind and memorize all the filters and things like that. But I imagine a lot of people do spend a lot of time in there, especially if you're reverse engineering network protocols.
 
 **Carlisia Pinto:** So I wanted to ask you, because I've looked at Wireshark before, it's definitely a tool that I need to master. If you have links to extra good tutorials... I've gone through the manual, it's always kind of dense. If so, drop those links there, please.
 

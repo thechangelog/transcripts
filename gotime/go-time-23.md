@@ -30,7 +30,7 @@ You can use that infrastructure to power all kinds of other things. The system t
 
 **Tess Rinearson:** That's right. We actually have our own protocol as well. Maybe you can think of a blockchain as like a generic category of protocols and services, and then we wrote this protocol called The Chain Protocol, which is a blockchain protocol designed for financial services. Then, we also have an implementation of that protocol called Chain Core, which is what I work on.
 
-**Tess Rinearson:** \[\\00:03:56.29\\\] Makes sense.
+**Tess Rinearson:** \[00:03:56.29\] Makes sense.
 
 **Erik St. Martin:** From what I saw, it was designed more in line with Bitcoin's implementation, where there's kind of like the UTXOs...
 
@@ -56,7 +56,7 @@ You can think of the UTXO model as a little bit like being a series of boxes. So
 
 **Carlisia Pinto:** I have a question. The Chain Core - is it meant to be used by financial institutions that are brokering initial transactions? Or is the idea that there will be a hosted version of blockchain somewhere and the financial institutions will use that?
 
-**Tess Rinearson:** \[\\00:08:00.17\\\] Right, so we're working with these financial institutions to spin up a variety of different blockchain networks. In the case of VISA - VISA is running a blockchain network of Chain Cores, and all of their clients have nodes in the system. You asked about a hosted blockchain somewhere - generally, we actually deploy Chain Core into our partner's data centers. Generally, these financial institutions have data centers that they know well and have invested in and are fond of, and so we generally deploy our software in there for them.
+**Tess Rinearson:** \[00:08:00.17\] Right, so we're working with these financial institutions to spin up a variety of different blockchain networks. In the case of VISA - VISA is running a blockchain network of Chain Cores, and all of their clients have nodes in the system. You asked about a hosted blockchain somewhere - generally, we actually deploy Chain Core into our partner's data centers. Generally, these financial institutions have data centers that they know well and have invested in and are fond of, and so we generally deploy our software in there for them.
 
 That said, we also have this thing called the testnet. Sometimes I joke it's the TessNet, but it's the testnet. \[laughter\]
 
@@ -76,7 +76,7 @@ That said, we also have this thing called the testnet. Sometimes I joke it's the
 
 **Tess Rinearson:** Yeah, I think that's less of a problem that we are solving right now. Obviously, when you're looking at things like validating UTXOs, you have to make sure that transaction history hasn't been tampered with, and things like that. There are so many cool things that you can do with a blockchain...
 
-\[\\00:12:04.08\\\] If you look at something like the Bitcoin blockchain, which is this public distributed ledger where everyone has a grade on the history of it, you can do crazy things like prove that you have copyright -- or, I shouldn't say "prove that you have copyright", because that's probably technically-legally something, but prove that you had a piece of IP at a certain time.
+\[00:12:04.08\] If you look at something like the Bitcoin blockchain, which is this public distributed ledger where everyone has a grade on the history of it, you can do crazy things like prove that you have copyright -- or, I shouldn't say "prove that you have copyright", because that's probably technically-legally something, but prove that you had a piece of IP at a certain time.
 
 If I wanted to prove that I wrote a paper, I can hash that paper and stick that in the metadata of a Bitcoin transaction and then put that on the Bitcoin blockchain. And if anyone's like, "Oh, did you actually have this paper at this time?", I could just point them to that transaction and give them the hash function and give them my original paper, and be like "Hey, validate this for yourself.
 
@@ -98,7 +98,7 @@ And because in Chain's case we're not talking about public networks, we're talki
 
 **Tess Rinearson:** Yeah, that's definitely a thing you could do. You could have every attendee at GopherCon have their own asset that's issued by their... One thing I didn't really talk about, but if you're familiar with Bitcoin or you're probably familiar with mining - which is used for consensus, but it's also the process by which new Bitcoin is created... And because you have a system for generic assets that often tie to real assets that are held somewhere else, assets on a blockchain are issued and are tied to a private key. Then, basically, to redeem your asset, you have to take it back to the asset issuer and say, "Hey, I see that you signed this with your key."
 
-\[\\00:15:58.12\\\] So what you could do at GopherCon is every attendee could issue their own asset, tied to their own key pair, and then maybe for each person you meet, you can issue them one token, and then whoever has the most tokens wins, or something.
+\[00:15:58.12\] So what you could do at GopherCon is every attendee could issue their own asset, tied to their own key pair, and then maybe for each person you meet, you can issue them one token, and then whoever has the most tokens wins, or something.
 
 **Erik St. Martin:** I say we go bigger. We call GitHub, and contributing in Go gets you -- that's how you mine, by committing in Go. \[laughter\]
 
@@ -112,7 +112,7 @@ And because in Chain's case we're not talking about public networks, we're talki
 
 **Tess Rinearson:** Okay.
 
-**Break:** \[\\00:17:03.27\\\]
+**Break:** \[00:17:03.27\]
 
 **Brian Ketelsen:** Alright, so how does your blockchain differ from the one that IBM released? I saw a press release - it was really early this year - that IBM had released some sort of business-oriented blockchain. Is that different? I think there was Go code and Java code... I don't remember all of the details.
 
@@ -126,7 +126,7 @@ One thing about blockchains, like I said, is there's a lot of them. With some of
 
 **Erik St. Martin:** I think anything academic like that is. Before Raft, trying a distributed consensus - it was mostly white papers and things, and you're like "This sounds cool, but how do I build it?"
 
-**Tess Rinearson:** \[\\00:19:55.25\\\] Yeah, totally. It's funny that you bring up distributed consensus, because obviously that's a huge part of blockchains as well. There's so many papers on different consensus algorithms, and a lot of blockchains are using PBFT (practical byzantine fault tolerance) as a backbone, if not actually implementing PBFT itself... And I found this funny academic paper from 2011 that was discussing the realities of using PBFT in production, and there's this little line hidden in the middle of the paper, that's like "As far as we know, nobody's actually done this in production." \[laughter\] That was in 2011, so you know... There's a lot of speculation, and we're trying really hard to move ourselves and move our corner of the industry out of that speculative, white paper, (sometimes) PowerPoint-based world, and into this place with servers and code and real networks, and people actually transferring things to one another.
+**Tess Rinearson:** \[00:19:55.25\] Yeah, totally. It's funny that you bring up distributed consensus, because obviously that's a huge part of blockchains as well. There's so many papers on different consensus algorithms, and a lot of blockchains are using PBFT (practical byzantine fault tolerance) as a backbone, if not actually implementing PBFT itself... And I found this funny academic paper from 2011 that was discussing the realities of using PBFT in production, and there's this little line hidden in the middle of the paper, that's like "As far as we know, nobody's actually done this in production." \[laughter\] That was in 2011, so you know... There's a lot of speculation, and we're trying really hard to move ourselves and move our corner of the industry out of that speculative, white paper, (sometimes) PowerPoint-based world, and into this place with servers and code and real networks, and people actually transferring things to one another.
 
 **Erik St. Martin:** What did you end up using for your consensus protocol?
 
@@ -144,7 +144,7 @@ It's this funny thing, where we have a product roadmap and we're very driven by 
 
 **Tess Rinearson:** Yeah, it is. That's something that we've actually gotten a lot of feedback - especially from the Go community - about. This is a community that we respect and that matters to us, so that's something else that we've been discussing and we're talking to our lawyers about. It's this balance between... This is like our product, that we are selling, right? So I think the business team is reluctant to choose too permissive a license, but at the same time we don't wanna discourage people from playing with it and hacking on it and building cool things with it.
 
-**Brian Ketelsen:** \[\\00:24:03.26\\\] I saw a Twitter exchange two days ago between two unnamed Gopher Google employees who said they couldn't even open it. They're prohibited by their company from even looking at AGPL source code. That's kind of sad.
+**Brian Ketelsen:** \[00:24:03.26\] I saw a Twitter exchange two days ago between two unnamed Gopher Google employees who said they couldn't even open it. They're prohibited by their company from even looking at AGPL source code. That's kind of sad.
 
 **Tess Rinearson:** Yeah... I mean, I think it's both... Disclaimer - I know very little about licenses. I sort of have been blessed with not having to think about licenses very much at all until this week, actually. But yeah, I think it's a balance between figuring out how much of that is caution or maybe even paranoia on the part of a company, versus something that is actually like a real concern for a lot of people. So we're figuring it out... We'll iterate.
 
@@ -170,7 +170,7 @@ It's this funny thing, where we have a product roadmap and we're very driven by 
 
 **Tess Rinearson:** Oh, I'm so glad I'm building this in Go. It's funny, because part of the reason I joined Chain was to write more Go. I think Go is obviously a natural choice for a distributed system, and... Yeah, I don't think I really have anything too concrete to point at, but...
 
-**Erik St. Martin:** \[\\00:27:56.20\\\] Have you had any stumbling blocks, things that you ended up having to implement because they didn't quite exist?
+**Erik St. Martin:** \[00:27:56.20\] Have you had any stumbling blocks, things that you ended up having to implement because they didn't quite exist?
 
 **Tess Rinearson:** I don't think so. Go actually kind of saved my butt last week in an unexpected way. I was working on writing this Windows installer. I'm not a Windows user normally; I have a lot of love for Microsoft, I interned there, but I'm not a Windows user in my current incarnation, but it turns out a lot of financial services people are. So I was working on this installer that would basically take our Go binary and stick it in application files and give you a shortcut on your start menu, and all those things. And I was just struggling so much with this unfamiliar Windows installer system, that what I ended up doing was writing another Go program that shells out and does all the hard work...
 
@@ -200,7 +200,7 @@ It's this funny thing, where we have a product roadmap and we're very driven by 
 
 **Tess Rinearson:** Yes. In a lot of ways, it's my first systems language. Before I was at Chain, I worked at Medium, and I was pretty full stack. Eventually, I had to learn Go to work on a new service. It was the social graph service - if you recommend something on Medium, then all of your followers can see it, the infrastructure that powers that kind of thing. I was a little bit reluctant to learn a new language. It was just silly. I was 20 years old and already \[unintelligible 00:31:56.17\] about it... But I was like, "I've been doing everything in Javascript, I'm comfortable with this."
 
-\[\\00:32:03.11\\\] Learning Go and writing this new service in Go gave me a whole new perspective on building web services, and it was this sort of sweet spot of usable, but still reasonably close to the metal; not too abstracted, so I could still understand what was going on, especially coming from Node, where there's a lot of frameworks and things tend to be very abstracted... Scraping some of that off, and being able to have that perspective on web services was very empowering to me. That sense sort of spurred this interest in systems that has lead me to working at Chain.
+\[00:32:03.11\] Learning Go and writing this new service in Go gave me a whole new perspective on building web services, and it was this sort of sweet spot of usable, but still reasonably close to the metal; not too abstracted, so I could still understand what was going on, especially coming from Node, where there's a lot of frameworks and things tend to be very abstracted... Scraping some of that off, and being able to have that perspective on web services was very empowering to me. That sense sort of spurred this interest in systems that has lead me to working at Chain.
 
 **Erik St. Martin:** So getting into Go has kind of brought you more into systems programming and learning about distributed systems?
 
@@ -234,7 +234,7 @@ It's this funny thing, where we have a product roadmap and we're very driven by 
 
 **Brian Ketelsen:** Yeah... Boy, did that hurt.
 
-**Erik St. Martin:** \[\\00:35:59.16\\\] Not only were you late to the party, you were three years late to the party.
+**Erik St. Martin:** \[00:35:59.16\] Not only were you late to the party, you were three years late to the party.
 
 **Brian Ketelsen:** The first GopherCon. That's how we measure time now - three GopherCons.
 
@@ -270,13 +270,13 @@ Ultimately, it was a little bit of cleanup around the edges, but the code itself
 
 **Brian Ketelsen:** Well, that's a good segue into our next sponsor.
 
-**Break:** \[\\00:38:41.28\\\]
+**Break:** \[00:38:41.28\]
 
 **Erik St. Martin:** So in prepping for this, you had sent an e-mail and you were mentioning a side project that you had, and I always love fun side projects.
 
 **Tess Rinearson:** Yeah, this is kind of a funny one. I almost even hesitate to call it a side project, because that suggests sustained work over months, building towards something really awesome, and this is just something I play with. But you asked if I were going to hack on something this weekend, what would I hack on, and the answer is this funny thing I wrote, this little app that connects to Twilio. So when anyone rings the buzzer to my apartment building, it actually calls a Twilio number which then goes through this Go app, and then calls my phone... Maybe.
 
-**Brian Ketelsen:** \[\\00:40:11.09\\\] Nice!
+**Brian Ketelsen:** \[00:40:11.09\] Nice!
 
 **Tess Rinearson:** Yeah... The reason this is cool -- so when I wrote it initially, I just wrote it because I have a Seattle phone number. I grew up in Seattle phone number, I'm really happy with it, proud of it, I don't wanna get rid of it, but the call box to my apartment requires a local San Francisco number. So the reasonable solution, the easiest solution is probably just to get a Google voice number and set up call forwarding, but I was like "No, no... What if...?"
 
@@ -300,7 +300,7 @@ This will be a problem when the person delivering the vegetables does not enter 
 
 **Carlisia Pinto:** And then, of course, build the dashboard. Maybe use Prometheus.
 
-**Tess Rinearson:** \[\\00:43:48.16\\\] Yeah, these are all v2 things. Honestly, I haven't worked really on anything but Chain stuff for the past two months, just because we were trying to get everything in ship shape, and we had some product... You know, in addition to open-sourcing, we had product stuff that we were announcing too, so I've been pretty heads down on the Chain codebase for the past two months. But yeah, I'm excited to get back to my doorbell project.
+**Tess Rinearson:** \[00:43:48.16\] Yeah, these are all v2 things. Honestly, I haven't worked really on anything but Chain stuff for the past two months, just because we were trying to get everything in ship shape, and we had some product... You know, in addition to open-sourcing, we had product stuff that we were announcing too, so I've been pretty heads down on the Chain codebase for the past two months. But yeah, I'm excited to get back to my doorbell project.
 
 **Carlisia Pinto:** Did that involve a screwdriver? That's what I wanna know.
 
@@ -370,7 +370,7 @@ This will be a problem when the person delivering the vegetables does not enter 
 
 **Tess Rinearson:** I know. It's like all of us young kids who don't know how good we have it, we have to go poke at it.
 
-**Brian Ketelsen:** \[\\00:47:54.13\\\] It's funny, I was thinking... My first website was some place I had to spend $10/month to buy a shell account on a Unix system. That was back in the days when you got a username and they put the little tilde in front of it, and that was your website. BlahblahblahHosting.com/~BKetelsen. You couldn't change your username, you couldn't have a domain name pointed at it, and you had a public HTML directory in your home folder and that's where you put your files.
+**Brian Ketelsen:** \[00:47:54.13\] It's funny, I was thinking... My first website was some place I had to spend $10/month to buy a shell account on a Unix system. That was back in the days when you got a username and they put the little tilde in front of it, and that was your website. BlahblahblahHosting.com/~BKetelsen. You couldn't change your username, you couldn't have a domain name pointed at it, and you had a public HTML directory in your home folder and that's where you put your files.
 
 **Erik St. Martin:** With FEP...
 
@@ -412,7 +412,7 @@ I came to class the next day... My teacher's like, "Very funny. You know you're 
 
 **Erik St. Martin:** Well, it's easy though. Like... Acrobat. I remember there was one Defcon where they threw a zero-day party where you could attend the party if you had a zero day for Acrobat. There was that many zero days that they threw a party for people who had one. So it's things like that... All I have to do is get you to open a PDF in Acrobat, and done.
 
-\[\\00:52:14.03\\\] Even Excel has remote code execution issues where you can... Yeah, so it's that type of stuff that people get hit all the time with, and unless you live in a paranoid world...
+\[00:52:14.03\] Even Excel has remote code execution issues where you can... Yeah, so it's that type of stuff that people get hit all the time with, and unless you live in a paranoid world...
 
 **Tess Rinearson:** Right, right. Sometimes I think about security stuff and I'm like, "Being secure is so much work." It's just exhausting.
 
@@ -496,7 +496,7 @@ So who wants to talk about any news?
 
 **Tess Rinearson:** Yeah, exactly.
 
-**Brian Ketelsen:** \[\\00:55:49.21\\\] Alright, let's talk about some interesting Go projects and news out there. So the one big thing that came out across my desk was the review dog software, which is kind of slick. It's a Go application that allows you to add vetting to your Git repositories, and it will automatically do whatever level of vetting you choose, and then add those vet hits as comments to your Git pull requests. Kind of slick... It works not just with Go, but with any language that has a vet tool, and I think it ships with vetting capabilities for most of the popular languages. It looked like a really slick addition to keeping your codebase clean.
+**Brian Ketelsen:** \[00:55:49.21\] Alright, let's talk about some interesting Go projects and news out there. So the one big thing that came out across my desk was the review dog software, which is kind of slick. It's a Go application that allows you to add vetting to your Git repositories, and it will automatically do whatever level of vetting you choose, and then add those vet hits as comments to your Git pull requests. Kind of slick... It works not just with Go, but with any language that has a vet tool, and I think it ships with vetting capabilities for most of the popular languages. It looked like a really slick addition to keeping your codebase clean.
 
 **Erik St. Martin:** Yeah, it was really cool because it adds... It's like having an automated person do code reviews and it adds comments to the line in the PR, or these things that got caught in the vet or lint. It looked like there was a way to run it locally too, to see what it was gonna do. You could pass in your gifs and things like that, and then it basically uses the error format (kind of like Vim) so that it can display it to you in a pretty way.
 
@@ -526,7 +526,7 @@ And I'd like to that personal responsibility for that, because I sent a ping on 
 
 **Tess Rinearson:** Although I do feel like in order to really make the most of a lot of the things that make Go awesome - like Go fmt - you need to configure these things and you need to noodle around in your Bash profile or set up your editor to run these things. So I'm totally with you, Carlisia, in that I'm really glad that for a lot of people this removes the need to think about that level of your system setup, but at the same time I'm looking forward to maybe more elements of the Go ecosystem being that automatic for beginners.
 
-**Erik St. Martin:** \[\\01:00:07.26\\\] Yeah, anything we can do to make the language itself and the tooling more approachable... And it's funny, because when you're in that are you think about it as like, "What's so hard about setting a Go path, because you're so used to it?" I like to compare this to the Ruby on Rails world; I came from there. Ruby was awesome, I used it for years, and it's like it's so easy until I tried to have a friend who wasn't familiar with it set his environment up. It's like, "Well, first you have to install rbenv, and then Bundler, and then you gotta do this..." Getting lost along the way, and it's like this hour-long process just to get set up to teach him some Ruby. It's like, wow...
+**Erik St. Martin:** \[01:00:07.26\] Yeah, anything we can do to make the language itself and the tooling more approachable... And it's funny, because when you're in that are you think about it as like, "What's so hard about setting a Go path, because you're so used to it?" I like to compare this to the Ruby on Rails world; I came from there. Ruby was awesome, I used it for years, and it's like it's so easy until I tried to have a friend who wasn't familiar with it set his environment up. It's like, "Well, first you have to install rbenv, and then Bundler, and then you gotta do this..." Getting lost along the way, and it's like this hour-long process just to get set up to teach him some Ruby. It's like, wow...
 
 **Brian Ketelsen:** And then it fails.
 
@@ -570,7 +570,7 @@ And I'd like to that personal responsibility for that, because I sent a ping on 
 
 **Tess Rinearson:** I wanna give a shout out to the go-torch project and the Uber engineering team who worked on that, and Prashant (whose last name I'm now forgetting). We used that tool a ton when we were doing performance work here at Chain. Just really easy to use, and super helpful.
 
-**Brian Ketelsen:** \[\\01:04:05.27\\\] That's awesome.
+**Brian Ketelsen:** \[01:04:05.27\] That's awesome.
 
 **Erik St. Martin:** Yeah, it's amazing how fast that took off. I think it was Brendan Gregg who started doing the Torch graphs. He's like THE performance guy.
 
@@ -616,7 +616,7 @@ One of the cool things is there's like a monitor flag where you can sit there an
 
 **Carlisia Pinto:** There is a repo from Cory LaNou, it's called "OSS help wanted", and it's a repo for... Basically, you can edit the readme file and list your project. There are projects there organized in all kinds of ways, for example there is one that's "Beginner/intermediate/expert", another one is "All help wanted", "Help wanted/Easy"... So basically, throw your project up there if you need help, with a link to your project, and let's get to it.
 
-**Tess Rinearson:** \[\\01:08:09.06\\\] That's awesome.
+**Tess Rinearson:** \[01:08:09.06\] That's awesome.
 
 **Carlisia Pinto:** Go Tour included. We can include it there.
 

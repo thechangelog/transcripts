@@ -4,7 +4,7 @@ Today we're sharing three of those stories with you. First up is Karen Sandler, 
 
 We have three sponsors today - our friends at GoCD, Rollbar and also Toptal.
 
-**Break:** \[\\00:01:21.20\\\]
+**Break:** \[00:01:21.20\]
 
 **Karen Sandler:** We are on the expo floor at OSCON EU and it looks so serious here at The Changelog table.
 
@@ -60,7 +60,7 @@ We have three sponsors today - our friends at GoCD, Rollbar and also Toptal.
 
 **Karen Sandler:** I'm really, really into free software.
 
-**Jerod Santo:** \[\\00:03:57.12\\\] Yeah, tell us about that. You've given us the heart part, and you can't access the source code on your own defibrillator...
+**Jerod Santo:** \[00:03:57.12\] Yeah, tell us about that. You've given us the heart part, and you can't access the source code on your own defibrillator...
 
 **Karen Sandler:** I can't, so I became really passionate about free software because of that. As a result, I have really made an effort to use only free and open source software everywhere else where I possibly can. So I run Replicant on my phone...
 
@@ -154,7 +154,7 @@ We have three sponsors today - our friends at GoCD, Rollbar and also Toptal.
 
 **Jerod Santo:** Can you set it aside, though?
 
-**Karen Sandler:** \[\\00:07:50.22\\\] You can, but it's much better to have somebody else tell you, "These are all of the concerns", because you're somewhat biased if you're in the non-legal capacity and you're making the business decisions. In our case, in our non-profit mission, you might want to be able to do something so badly that you're not looking quite so fairly at the law. And as much as we like to think of ourselves as just passionate, totally rational people, these biases sneak in in very, very subtle ways. So I find that I'm a better executive director when I have a lawyer who is--
+**Karen Sandler:** \[00:07:50.22\] You can, but it's much better to have somebody else tell you, "These are all of the concerns", because you're somewhat biased if you're in the non-legal capacity and you're making the business decisions. In our case, in our non-profit mission, you might want to be able to do something so badly that you're not looking quite so fairly at the law. And as much as we like to think of ourselves as just passionate, totally rational people, these biases sneak in in very, very subtle ways. So I find that I'm a better executive director when I have a lawyer who is--
 
 **Jerod Santo:** You let them do the lawyer work and you can kind of turn that part of your brain off.
 
@@ -186,7 +186,7 @@ We have three sponsors today - our friends at GoCD, Rollbar and also Toptal.
 
 **Jerod Santo:** ...you have to.
 
-**Karen Sandler:** \[\\00:11:56.23\\\] Yeah, and the choices that you have to make... Like, yes, it would take over three hours for me to go the bank, wait in line, do the things that I need to do, when it will take me ten minutes online. It doesn't make any sense, and you have to make some decisions.
+**Karen Sandler:** \[00:11:56.23\] Yeah, and the choices that you have to make... Like, yes, it would take over three hours for me to go the bank, wait in line, do the things that I need to do, when it will take me ten minutes online. It doesn't make any sense, and you have to make some decisions.
 
 **Jerod Santo:** I agree one hundred percent. The personal question I would have... I believe you're married, correct?
 
@@ -226,7 +226,7 @@ We have three sponsors today - our friends at GoCD, Rollbar and also Toptal.
 
 **Jerod Santo:** From a practical perspective, just playing the naysayer to a certain degree, with regard to getting free and open source software to be everywhere, years and years of proprietary software, there's mountains and mountains of code running devices and things, and maybe this is a fatalistic point of view, but has the train left the station? Can you put the toothpaste back into the bottle, or is it too late? Are you fighting a battle that you can't actually win?
 
-**Karen Sandler:** \[\\00:15:48.16\\\] I think it's the wrong analogy. What's interesting is that I think that the meme that seems to be going around that people keep saying - and I think Cory even said it in his keynote today - is that open source has won. Open source is everywhere, open source is in everything, and therefore open source has won. I don't think that's really true... I think open source is at the core of a lot of things; it's at the lower levels, it's in everything, but in some ways we have less freedom than we did before, because now everything is wrapped in a proprietary wrapper, and you don't have access to the actual products that you have with the prevalence of non-copylefted licenses. It means that there is more that can be locked down and proprietary.
+**Karen Sandler:** \[00:15:48.16\] I think it's the wrong analogy. What's interesting is that I think that the meme that seems to be going around that people keep saying - and I think Cory even said it in his keynote today - is that open source has won. Open source is everywhere, open source is in everything, and therefore open source has won. I don't think that's really true... I think open source is at the core of a lot of things; it's at the lower levels, it's in everything, but in some ways we have less freedom than we did before, because now everything is wrapped in a proprietary wrapper, and you don't have access to the actual products that you have with the prevalence of non-copylefted licenses. It means that there is more that can be locked down and proprietary.
 
 That means that we as consumers, we as individuals, we as hackers and we from a societal perspective have a lot less ability to do anything about the software that we have when there are problems. I think that there is some movement in really good directions...
 
@@ -256,7 +256,7 @@ Recently, a medical device manufacturer disclosed the fact that there was a vuln
 
 **Karen Sandler:** Yeah, it's the legal process... It's really annoying and really interesting to experience another legal system. Christoph's lawyer is Till Jaeger, who is an excellent lawyer. What's funny is that a number of lawyers that are not connected to the case (German lawyers) have said that the decision reads like the court was just trying to get rid of the decision, they were trying to not have to decide. One of the German lawyers that has said this actually published a memo about it in which he said that he believes that the decision violates Christoph's constitutional rights.
 
-\[\\00:20:07.19\\\] We'll see what happens on appeal. Christoph has announced that he's appealing, and we've announced that we'll continue to fund it.
+\[00:20:07.19\] We'll see what happens on appeal. Christoph has announced that he's appealing, and we've announced that we'll continue to fund it.
 
 **Jerod Santo:** Cool, very interesting. Let's talk about the projects that are under your umbrella. First, let's talk about what service you provide for them, and then we'll talk about...
 
@@ -312,7 +312,7 @@ We signed legal agreements on behalf of our projects, so when our projects have 
 
 **Karen Sandler:** \[laughs\] They asked me to keynote their conference this year, so when I was tweeting about it, I used the hashtag \[unintelligible 00:23:53.15\] Yeah, and they're called Bro because with any kind of network security software, the flipside is that it could easily be turned into surveillance software, so Bro is a reference to Big Brother.
 
-**Jerod Santo:** \[\\00:24:08.09\\\] Oh, Big Bro...
+**Jerod Santo:** \[00:24:08.09\] Oh, Big Bro...
 
 **Karen Sandler:** So their logo is an eye, and the idea is that, as they develop, they need to always keep in mind the flipside of their work.
 
@@ -348,7 +348,7 @@ The second thing is please become a conservancy supporter.
 
 **Jerod Santo:** It was a lot of fun!
 
-\[\\00:28:04.19\\\]
+\[00:28:04.19\]
 
 \*\*\*
 
@@ -358,7 +358,7 @@ Next up, I talked to Rachel Nabors at All Things Open. We talked about repeatabl
 
 Before this next segment I wanna mention our friends at Rollbar.
 
-**Break:** \[\\00:28:43.10\\\]
+**Break:** \[00:28:43.10\]
 
 **Adam Stacoviak:** Tell me your name, tell me what you do, give me a snapshot of who you are.
 
@@ -386,7 +386,7 @@ I love web animation, I love CSS animation, I love all the things that we can do
 
 **Rachel Nabors:** So anyway, I've got some big life changes in the store... I've just accepted an offer to work for Microsoft's Edge developer team, which I'm gonna be starting on 7th November. So now I get to this official-like, and now when I get stranded in Manila - because they shut down the airport for the APEC Summit - I won't be alone and out of pocket change, and having to figure out where I'm gonna spend the next week. It's nice. Sometimes it's nice to have that corporate wing to snuggle under while you're doing the good work.
 
-**Adam Stacoviak:** \[\\00:32:16.11\\\] I'm sure your road to get to that good offer has been a long road, right?
+**Adam Stacoviak:** \[00:32:16.11\] I'm sure your road to get to that good offer has been a long road, right?
 
 **Rachel Nabors:** It wasn't a road I was purposefully following. I just remember that three years ago I was doing so much with animation: I was talking about it, I was traveling, I was finally getting my legs under me and feeling like I was actually making a difference. It's amazing... Before I did web development, I did comics, I made comics for a living, for teenage girls; I did this as a teenager. I had an interesting thing where I realized that comics weren't going to pay the bills and I had to go get a real job, and I ended up using all the skills I was using to promote comics on the web to become a developer.
 
@@ -404,7 +404,7 @@ I saw that again with web animation. I did a lot of wonderful projects - I did d
 
 So I did all these different things, but none of them were repeatable. And while that's great for a person who loves to learn, like myself - loving learning, loving doing new and unusual things - that's sort of not how you do it as an entrepreneur. An entrepreneur finds a system that makes money and then repeats it over and over again.
 
-\[\\00:35:57.20\\\] I kind of hate repeating stuff. I hate repeating myself. When I make a workshop and I record and I put it up for sale, I do it because I don't wanna give the workshop anymore. I just wanna point people at the workshop and be like, "Okay, if you wanna learn how to do that, you can go here." I don't wanna talk about it anymore. There's nothing more for me to learn here. I have learned it, I am done.
+\[00:35:57.20\] I kind of hate repeating stuff. I hate repeating myself. When I make a workshop and I record and I put it up for sale, I do it because I don't wanna give the workshop anymore. I just wanna point people at the workshop and be like, "Okay, if you wanna learn how to do that, you can go here." I don't wanna talk about it anymore. There's nothing more for me to learn here. I have learned it, I am done.
 
 So it's important to keep in mind it can be really tempting to just run off and do whatever you please, but you may find yourself in a place where if you like learning more than you like businessing, that you don't really have a repeatable business plan. This might not be such a big issue if you're a person that likes doing something that's very lucrative, like database analysis - a lot of people are gonna find work, even if they're changing what they're interested in... But if you're in something very niche, for example you like to build HTML5 games, or you love CSS animations, you might find that that repeatable business is a little harder to nail down. So it's a good idea to look out for that before you start working for yourself.
 
@@ -422,7 +422,7 @@ Personally, I cringe every time I have to use marketer speak, but if you don't o
 
 We don't really think about the web - or at least we didn't until recently - as a user interface or an app, or something like a tool that we can use to do things. It's been kind of interesting watching frameworks like React and Angular kind of turning the ship on that. I've been enjoying watching motion creeping in around the edges, and part of that is definitely due to native apps challenging the state of the web. You'll hear it when you go to conferences like Chrome Dev Summit, about how the web has to stay competitive with native, so that it's not completely abandoned and everyone isn't just like turning on Facebook as soon as they turn their phones on, so that they're actually going to Wikipedia, they're actually going to your personal blog site, that they're still accessing this non-walled garden, and this \[unintelligible 00:40:13.11\] of information out there where anybody can be an author and anybody can share things or design things or come up with some new invention.
 
-\[\\00:40:21.27\\\] It all starts in the web before it goes native, and the web has to be able to compete... And let's face it, native does some things better than the web does, for instance like going offline, having animated user interfaces. Animated user interfaces, by the way, are really good for users.
+\[00:40:21.27\] It all starts in the web before it goes native, and the web has to be able to compete... And let's face it, native does some things better than the web does, for instance like going offline, having animated user interfaces. Animated user interfaces, by the way, are really good for users.
 
 **Adam Stacoviak:** They're fun.
 
@@ -444,7 +444,7 @@ We don't really think about the web - or at least we didn't until recently - as 
 
 **Rachel Nabors:** Alright, so when we talk about user interface animations, I'm more practical over pretty. It's one of the things that I think developers tend to think about design and also animation is that it's just there to make things look pretty. Well, let's talk about utilitarian animation here. I'm not gonna tell you how to make it delightful or pretty, I'm gonna tell you how to make it look good when you have pneumonia and you're on your laptop or your touchscreen iPad and you're just bopping around and you have no idea what's going on. True story.
 
-\[\\00:44:06.13\\\] So you've got a menu that comes on and off the screen, right? You interact with something and Boom! There's a menu there. So let's talk about what happens there. Your brain, when it's just jump-cutting on and off - jump-cut is a term from film, it means when the camera just immediately cuts to a different position; there's no panning, the camera's not physically moving, it's just... You're looking at one person's face, and now you're looking at another person's face, and you've gotta infer that you're looking in another direction now. So when the human eye sees something change on the screen, it does this little magic trick where it goes, "Oh, the screen hasn't changed", does a quick check of the screen, sees that nothing changed but this one bit of information is still there, so it infers that whatever action you took prior to that new thing being there must have caused it, and that there was some in-between state - maybe if it's right below the thing you clicked, then it must have dropped down from the thing that you clicked; or if it's filling up the whole page, it's like a \[unintelligible 00:45:04.08\] but has expanded, and if you get rid of it, the page will return.
+\[00:44:06.13\] So you've got a menu that comes on and off the screen, right? You interact with something and Boom! There's a menu there. So let's talk about what happens there. Your brain, when it's just jump-cutting on and off - jump-cut is a term from film, it means when the camera just immediately cuts to a different position; there's no panning, the camera's not physically moving, it's just... You're looking at one person's face, and now you're looking at another person's face, and you've gotta infer that you're looking in another direction now. So when the human eye sees something change on the screen, it does this little magic trick where it goes, "Oh, the screen hasn't changed", does a quick check of the screen, sees that nothing changed but this one bit of information is still there, so it infers that whatever action you took prior to that new thing being there must have caused it, and that there was some in-between state - maybe if it's right below the thing you clicked, then it must have dropped down from the thing that you clicked; or if it's filling up the whole page, it's like a \[unintelligible 00:45:04.08\] but has expanded, and if you get rid of it, the page will return.
 
 Now, think about how you could use animation to keep the brain from having to do all those checks and make all those suppositions and run that extra route. What you could do is you could have that drop down physically \[\\00:45:21.21\] or you could have it fade in. Now, there are these things called vestibular disorders - a certain number of the population is afflicted by these, wherein movement on a screen will cause them to feel a certain amount of nausea or discomfort, maybe a headache. For some people it's utterly debilitating. So if you have a lot of motion, a lot of blinking things, a lot of moving things on your page, it can cause them to really not wanna use your website.
 
@@ -460,7 +460,7 @@ For these users, you probably wanna limit yourself to things like fades or color
 
 It really comes down to having a conversation with your users. The more users you have, the more you gotta take in these things to be concerned with them. And you have to remember that sometimes if you're not taking accessibility into account, you're limiting your user base, by omission.
 
-**Adam Stacoviak:** \[\\00:48:05.19\\\] Yeah. So you mentioned you took a new position, you accepted the offer with Microsoft to work on the Edge team...
+**Adam Stacoviak:** \[00:48:05.19\] Yeah. So you mentioned you took a new position, you accepted the offer with Microsoft to work on the Edge team...
 
 **Rachel Nabors:** Oh, yes!
 
@@ -488,7 +488,7 @@ Sarah Drasner spoke about creativity in programming -- or was it Eli? Yes, Eli F
 
 Is there anything else you wanna share with the audience that I haven't asked you?
 
-**Rachel Nabors:** \[\\00:52:00.01\\\] Well, I won't be giving as many workshops in the future as I have been, so I guess it's timely that I am launching my own little CSS Animations and Transitions workshop, which I believe you can get to at RachelNabors.com/css-animations-course. That's the only thing I have to announce at this time. I'm really looking forward to getting back home... I'm taking a train there.
+**Rachel Nabors:** \[00:52:00.01\] Well, I won't be giving as many workshops in the future as I have been, so I guess it's timely that I am launching my own little CSS Animations and Transitions workshop, which I believe you can get to at RachelNabors.com/css-animations-course. That's the only thing I have to announce at this time. I'm really looking forward to getting back home... I'm taking a train there.
 
 **Adam Stacoviak:** Oh, really?
 
@@ -518,7 +518,7 @@ Next up is Jono Bacon. I talked to Jono at All Things Open about his talk, "Buil
 
 Before this next segment, I wanna mention our friends at Toptal.
 
-**Break:** \[\\00:53:24.05\\\]
+**Break:** \[00:53:24.05\]
 
 **Jono Bacon:** I'm Jono Bacon. I'm originally English, but I live in California now, in the Easy Bay, and like a lot of people in this industry, I do a certain amount of travel - which is always fun - so home changes from time to time.
 
@@ -540,7 +540,7 @@ Before this next segment, I wanna mention our friends at Toptal.
 
 Without sounding like Tony Robbins, the pathway to a happier existence is living a life of dignity, and to live a life of dignity, you need to feel some self-worth, and to have self-worth, you need to have access to make a difference. So in some capacity, for some people, it's Elon Musk it's changing the whole world, for some people it's making a difference in their family or in their local community. So that's been my passion, and it's a fascinating jigsaw puzzle to figure out, like "How do we help groups of people to work well together?"
 
-\[\\00:56:02.18\\\] The community exoskeleton essentially is a metaphor for -- you know, if you're gonna build an iron man costume for helping someone to be successful in a technology community, what are the bits that you wanna build into that, and how do we do that? The talk is really more about how do you go about building a community in a predictable way and delivering good results.
+\[00:56:02.18\] The community exoskeleton essentially is a metaphor for -- you know, if you're gonna build an iron man costume for helping someone to be successful in a technology community, what are the bits that you wanna build into that, and how do we do that? The talk is really more about how do you go about building a community in a predictable way and delivering good results.
 
 **Adam Stacoviak:** Take us back to when you got excited about community, when that became a passion for you. Where were you at, what were you doing, what happened in your life that made you think "Community is my thing. I'm good at building community, I'm good at getting people excited about community"? When was that for you?
 
@@ -590,7 +590,7 @@ What I loved about it was as a kid I didn't feel like I could have much of an im
 
 **Jono Bacon:** Yeah, and a level of \[unintelligible 00:59:50.21\]. The expectations of those communities are relatively simple.
 
-\[\\00:59:55.28\\\] You then get write communities where people get together because they wanna build something together, and open source is the example of that, or Wikipedia, or OpenStreetMap, and they're way more complicated, because there's all kinds of expectations around how decisions are made, how we collaborate, how trust is distributed and all this kind of stuff. So my basic philosophy is, first of all, pick which community you are. Then what you need to do is essentially build a user persona around the kind of people you wanna bring in.
+\[00:59:55.28\] You then get write communities where people get together because they wanna build something together, and open source is the example of that, or Wikipedia, or OpenStreetMap, and they're way more complicated, because there's all kinds of expectations around how decisions are made, how we collaborate, how trust is distributed and all this kind of stuff. So my basic philosophy is, first of all, pick which community you are. Then what you need to do is essentially build a user persona around the kind of people you wanna bring in.
 
 For most open source communities, you may have personas around developers or translators or advocates or whatever else
 
@@ -612,7 +612,7 @@ The exoskeleton essentially is "How do we put those pieces in place?", but what'
 
 **Adam Stacoviak:** So what is it that you do nowadays? Do you do contracting? How are you currently impacting the community? Are you consulting at large? You had this great idea, which sounds awesome and I think it's great - how do you help people implement it? Are you for hire?
 
-**Jono Bacon:** \[\\01:03:55.22\\\] Yeah, so I'm basically a consultant. I set up a consultancy practice about five, six months ago. I'd already been consulting for years on the side, here and there. And frankly - this is gonna sound \[unintelligible 01:04:05.24\] - I wrote a book on community called The Art Of Community, and it was mainly people who read the book who said, "Could you help us build a community?", and that's how it came in.
+**Jono Bacon:** \[01:03:55.22\] Yeah, so I'm basically a consultant. I set up a consultancy practice about five, six months ago. I'd already been consulting for years on the side, here and there. And frankly - this is gonna sound \[unintelligible 01:04:05.24\] - I wrote a book on community called The Art Of Community, and it was mainly people who read the book who said, "Could you help us build a community?", and that's how it came in.
 
 But I always had limited time, particularly having a family... So I thought, "You know what? Let's see if we could do this full-time." So what I tend to do is work with companies and help them to build out a community strategy and then to help them execute that strategy. The execution piece varies, because some companies want me to build it out for them, and some companies want me to hire someone and then train them, or some companies want somebody else to build it. Because, you know, you don't necessarily want to pay consultant fees where you could pay a community manager, for the execution piece.
 
@@ -642,7 +642,7 @@ My blog is jonobacon.org and I'm just writing more and more content there. I am 
 
 **Jono Bacon:** Yes.
 
-**Adam Stacoviak:** \[\\01:07:49.15\\\] That was a trick question.
+**Adam Stacoviak:** \[01:07:49.15\] That was a trick question.
 
 **Jono Bacon:** \[unintelligible 01:07:51.05\] For me, a lot of it is just building relationships and having conversations with people. The thing that kind of sucks about being a consultant is I don't wanna give off the vibe that you can only talk to me if you pay me. It's a way of earning money for me, but what's way more important is getting the ideas out there and...
 
@@ -702,7 +702,7 @@ But All Things Open to me, it's as if OSCON and SCALE made out, you know? It's g
 
 **Adam Stacoviak:** Yeah, great. I think there was about 2,500 people here too, which was a good turnout for a conference, which means the community is certainly growing and thriving, which is a good thing for this conference.
 
-**Jono Bacon:** \[\\01:11:54.19\\\] And it's up every year. This is the fourth year of All Things Open. Last year I think there were about 1,500 people; this year it's 2,400 people. It's growing. Todd and the team do a really tremendous job, and I feel honored that I could play a small role this year. I'll be here whether I'm speaking or not speaking next year, for sure.
+**Jono Bacon:** \[01:11:54.19\] And it's up every year. This is the fourth year of All Things Open. Last year I think there were about 1,500 people; this year it's 2,400 people. It's growing. Todd and the team do a really tremendous job, and I feel honored that I could play a small role this year. I'll be here whether I'm speaking or not speaking next year, for sure.
 
 **Adam Stacoviak:** So what have I not asked you that... To the audience listening - advice, an anecdote, closing thoughts... What do you wanna shut down with?
 
@@ -728,7 +728,7 @@ But All Things Open to me, it's as if OSCON and SCALE made out, you know? It's g
 
 **Jono Bacon:** And I just thought to myself, when I got that e-mail I was like, "My job in Canonical, in Ubuntu is to help that kid get the best hour of his life", but my job more widely in our industry is help everybody empower kids like that to get the best out of their hours. It was just such a visible demonstration of when you can connect somebody's passion with a way in which they can make contribution effectively and they can feel a part of something...
 
-\[\\01:16:06.19\\\] I mean, just look at Wikipedia, look at open source - it's amazing, and we haven't even scratched the surface of figuring \[unintelligible 01:16:13.06\] and that's what blows my mind. It's a good time to be alive. We're gonna do some cool stuff.
+\[01:16:06.19\] I mean, just look at Wikipedia, look at open source - it's amazing, and we haven't even scratched the surface of figuring \[unintelligible 01:16:13.06\] and that's what blows my mind. It's a good time to be alive. We're gonna do some cool stuff.
 
 **Adam Stacoviak:** Absolutely. The one thing I'll close with is -- on that piece there was getting to the heart of it... That's where our \[unintelligible 01:16:26.16\] getting to the heart, and that's what this conference is about, that's what this series is about - it's about helping tell the stories from this community, getting to hear this piece from you here, your passions for community and help you share with everyone else how to build that exoskeleton for their community.
 

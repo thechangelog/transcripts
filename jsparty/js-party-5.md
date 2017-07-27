@@ -32,7 +32,7 @@ In parallel, in my free time I've been very involved with the Javascript communi
 
 **Juan Pablo Buritica:** It's been pretty cool... I think some of it started in parallel from different groups. The biggest challenges that we always have is it's really hard to get access to high-quality content in Spanish. Before JSConf Colombia we started boa.conf, which was just a general software development conference in Latin America (in Colombia). Then there was StarTechConf in Chile, which was just general. I think we didn't have enough density to only do Javascript, but then a couple years later I think JSConf Argentina came up, because Guillermo talked to Chris Williams.
 
-\[\\00:03:56.08\\\] I think it was actually the second even to pop up, or the third one, other than JSConf Europe. He hosted that one, it went pretty well, and then once we saw that there were enough people interested in Javascript in Colombia - I think we had at the time probably six meetups, so it meant that we could at least try to get 300 people together, and we threw JSConf Columbia in 2013; that was the first one. Uruguay I think was born in the same year, if I'm not wrong, or maybe a year later. Brazil was probably around 2013 as well, or maybe even earlier.
+\[00:03:56.08\] I think it was actually the second even to pop up, or the third one, other than JSConf Europe. He hosted that one, it went pretty well, and then once we saw that there were enough people interested in Javascript in Colombia - I think we had at the time probably six meetups, so it meant that we could at least try to get 300 people together, and we threw JSConf Columbia in 2013; that was the first one. Uruguay I think was born in the same year, if I'm not wrong, or maybe a year later. Brazil was probably around 2013 as well, or maybe even earlier.
 
 **Alex Sexton:** I think it was 2013. It only lasted a year, but there was also BrazilJS, which was huge.
 
@@ -60,7 +60,7 @@ The same person could give the same course in English and in Spanish, and people
 
 The bleeding edge usually starts in English, and naming rights come from English. Then as you have people who are bilingual who have enough time to translate this content, then they'll do so. But you end up also having a lot of people who are bilingual who start with introductory content, so they start translating that, and ultimately you end up with a lot of outdated introductory content. So it's easier to just jump straight into English and just default into trusting English.
 
-**Alex Sexton:** \[\\00:07:51.11\\\] I see. I guess why I brought that up is it feels like the conferences that you ran - JSConf Colombia, and I spoke at a few of those other ones, too - is the talks were half and half in Spanish and in English, depending on who gave the talk. Then there were translations there... \[unintelligible 00:08:11.11\] I think does a good job of having actual good Spanish content; I don't speak Spanish well enough to do that, but that's what I've heard.
+**Alex Sexton:** \[00:07:51.11\] I see. I guess why I brought that up is it feels like the conferences that you ran - JSConf Colombia, and I spoke at a few of those other ones, too - is the talks were half and half in Spanish and in English, depending on who gave the talk. Then there were translations there... \[unintelligible 00:08:11.11\] I think does a good job of having actual good Spanish content; I don't speak Spanish well enough to do that, but that's what I've heard.
 
 Is this changing? Is this something that is getting better? Obviously, I understand that if someone writes a new React library in English and writes the docs in English, you have to be able to speak English in order to get that information on day one... So it makes sense, but it seems almost critical that we reach people in the languages that they speak, at least on the long tail.
 
@@ -84,7 +84,7 @@ One of the founding principles of JSConf Colombia was that within the first five
 
 **Juan Pablo Buritica:** Argentina and Uruguay... I think the culture of the Southern cone of America is very different from the tropical area, and Argentina and Uruguay - you can see there's a lot of content produced in the Southern end of Latin America, much more than in the tropical region. I'm actually pretty jealous of a lot of the frontend stuff that comes from Argentina, because they're really good at organizing and leading many things.
 
-\[\\00:12:12.04\\\] You have Pony Foo... There's a ton of React stuff, and of course, all the things that Guillermo Rauch does. It's pretty cool.
+\[00:12:12.04\] You have Pony Foo... There's a ton of React stuff, and of course, all the things that Guillermo Rauch does. It's pretty cool.
 
 **Mikeal Rogers:** What are the particular challenges of doing this kind of work in Latin America, community organizing in general? Because you've done a lot more than these conferences; you also do one of the largest Javascript meetups in the world is in Colombia as well.
 
@@ -102,7 +102,7 @@ So finding people who have been given a chance at work to try something really i
 
 The other one is language - we try to fill during the events by having simultaneous interpretation and that sort of stuff, but it's always just challenging. You can't expect everyone to speak English; it varies a lot from country to country. I've also noticed it varies from community to community. I've helped the Ruby committee kickstart their conference in Colombia two years ago, and I think only 30% of the attendees required interpretation devices, wherein Javascript around 60% of the attendees required English interpretation.
 
-\[\\00:16:10.18\\\] I think the last one is resourcing. Local companies don't sponsor; the majority of the money that we usually get is from international companies. The local companies expect something in return immediately, like "Okay, if I give you $100, then what am I gonna get? Can I speak for 30 minutes?" There's a lot of cultural challenge there.
+\[00:16:10.18\] I think the last one is resourcing. Local companies don't sponsor; the majority of the money that we usually get is from international companies. The local companies expect something in return immediately, like "Okay, if I give you $100, then what am I gonna get? Can I speak for 30 minutes?" There's a lot of cultural challenge there.
 
 Finding a venue is super tough. I think Bogota still after five years doesn't have a fixed venue; we've been trying to solve that. Even multinationals and the people who are evangelists for multinationals in Latin America have a very different culture perspective. I'm not gonna mention names, but a large software company in Colombia loaned us their auditorium, but then we found out after the fact that they wanted to do a 30-minute pitch of some of their services to our audience, in exchange of it. That's something that we don't really like. We appreciate the necessity of sponsorship, but there's just some abusive practices that we're not really fond of. So that's sort of like the three angles that are hard.
 
@@ -120,7 +120,7 @@ The URL is cfp.jsconf.co. Please apply. I think it ends in June 11th or 12th. It
 
 **Alex Sexton:** I had more than good food, but yeah... The food was very good. I really enjoyed JSConf Colombia. I haven't had a bad experience at any of the conferences in South America or Latin America, so I would encourage everyone to go to all of them. You're only kind of related... You started this a while back, and now it's Catherine and Julian...?
 
-**Juan Pablo Buritica:** \[\\00:20:11.27\\\] I'm coming back this year.
+**Juan Pablo Buritica:** \[00:20:11.27\] I'm coming back this year.
 
 **Alex Sexton:** Oh, you're coming back... So you returned.
 
@@ -140,13 +140,13 @@ I think a hundred percent of us seem like we could have benefitted from that... 
 
 **Mikeal Rogers:** Awesome. Alright, we're gonna take a break real quick, and when we come back we're gonna talk a bit about all this Javascript tooling that's out there. Stay tuned.
 
-**Break:** \[\\00:22:37.19\\\]
+**Break:** \[00:22:37.19\]
 
 **Mikeal Rogers:** Alright, let's talk a little bit about tooling. Gina Trapani wrote a good article explaining modern Javascript for ancient web developers, which I'm realizing I actually fall into the category of now... And I think you two too do as well, so this is probably not the best panel to talk about this... \[laughter\]
 
 **Alex Sexton:** Speaking of tools, Mikeal... \[laughter\]
 
-**Mikeal Rogers:** \[\\00:24:03.11\\\] That's brutal...
+**Mikeal Rogers:** \[00:24:03.11\] That's brutal...
 
 **Alex Sexton:** ...how do you feel about the explosion of them?
 
@@ -182,7 +182,7 @@ I don't see a problem... My favorite response to that is just like "It still wor
 
 **Mikeal Rogers:** But this is a false dichotomy. If you've got some stuff up in 0.12 and you don't wanna upgrade it, fine. But you're also not gonna get the newest Yarn installer either. Like... No. You're not gonna get the newest dependency and have that support these ancient versions. You either aren't updating this at all anymore, or you're updating it and you're using a version that actually gets critical security fixes, period. I don't think that those are like--
 
-**Alex Sexton:** \[\\00:27:59.13\\\] If you put out a competitor to NPM and NPM has a set of version that it works on, and you don't work on and you don't work on those versions, then you instantly are at a disadvantage.
+**Alex Sexton:** \[00:27:59.13\] If you put out a competitor to NPM and NPM has a set of version that it works on, and you don't work on and you don't work on those versions, then you instantly are at a disadvantage.
 
 **Mikeal Rogers:** New versions of NPM do not work with 0.12 and 0.10.
 
@@ -218,7 +218,7 @@ At no point in time does this tooling become entirely universal, right? Not even
 
 **Alex Sexton:** I think there's two discussions here. If you expose an API that you document, that has nothing to do with Webpack, Gulp, Flow or whatever else you mentioned, and you use those tools to build that library or API, then use a thousand tools if that's what makes you productive and that's what you wanna do, and then expose the correct things... Unless you're writing a Webpack plugin.
 
-\[\\00:32:06.16\\\] If you are leaking out those abstractions from outside, then I agree with you - you're forcing people to learn it. But if you just wanna pull in a tool like Yarn, it'll maybe build all that stuff, but to use Yarn, you just "npm install --global yarn", and then you can use Yarn. It doesn't matter that they use Flow, or anything like that.
+\[00:32:06.16\] If you are leaking out those abstractions from outside, then I agree with you - you're forcing people to learn it. But if you just wanna pull in a tool like Yarn, it'll maybe build all that stuff, but to use Yarn, you just "npm install --global yarn", and then you can use Yarn. It doesn't matter that they use Flow, or anything like that.
 
 **Mikeal Rogers:** That's a really good distinction, actually. That is a really good distinction. I didn't care about what Yarn was built in until I wanted to look at the code for some reason, which means that I'm not the normal user of that software. But to Juan's point, when you wanted to go and use Flow, it wasn't like you could just pull Flow down and start using Flow; he had to move his mindset into this, I'm assuming, Webpack mindset, because I haven't' actually used Flow, so I'm just assuming that it's embedded into this other Webpack workflow... But I could be wrong.
 
@@ -242,7 +242,7 @@ You're gonna tackle that problem slightly differently, 1) because you are a pret
 
 **Juan Pablo Buritica:** Oh, right... Don't get me wrong, the return on investment - it was attractive enough for me to spend a day trying to figure it out, because it's \[unintelligible 00:35:37.26\] I think a lot of these tools have ultimately maybe a better developer, and not even having any formal computer science training, the fact that I got to a point where I valued static typing and type-checking because I thought it would be useful for my project is awesome.
 
-\[\\00:35:57.29\\\] If I were writing code every day, it would have definitely paid off within a few hours. I do think that even as more open source projects start adopting all this tooling, they become less new contribution-friendly, and I think that's the only problem I have with it.
+\[00:35:57.29\] If I were writing code every day, it would have definitely paid off within a few hours. I do think that even as more open source projects start adopting all this tooling, they become less new contribution-friendly, and I think that's the only problem I have with it.
 
 **Alex Sexton:** Yeah, I agree. I think it should be a goal of any popular project, or of any project, but it becomes a higher priority goal of any popular project to have a "Run these exact things and we promise it will work and you don't have to know about the build chain" and "Separate the concerns of building and authoring", and things like that. Mikeal, you were talking about Yarn and doing all those things - those are parts of the build chain, but I can't imagine that any algorithm Yarn is writing for dependency resolution is gonna have anything to do with the configuration of those tools, right?
 
@@ -266,7 +266,7 @@ There continues to be this argument, like every time that they put a new version
 
 **Alex Sexton:** Yeah... I think actually the Ember community nailed this before more or less anyone else with EmberCLI. EmberCLI is one of the best... Like, I did Ember before EmberCLI, and I did Ember after EmberCLI, and baking in EmberCLI is like an officially supported thing; the docs for Ember have EmberCLI usage to where you don't have to know how to create a new file because you can just Ember New up a new file and you can run the test through it and you can install things to it, and it can check extra things that NPM doesn't check, and you can do add-ons... The whole ecosystem can be built into this tool, and I think that far and beyond even Create React App, that ecosystem is one that people can instantly spin up and do with very little trouble until they wanna upgrade it, which is its own problem with those bootstrap things, because when you're generating files it becomes very hard to then upgrade the runner of those files that generates new types. I mean, they have good strategies, but it's a hard problem.
 
-**Juan Pablo Buritica:** \[\\00:40:13.09\\\] I'm with you with that, because EmberCLI is to me the de facto example of how these tools should work... But what I respect from EmberCLI is that they have a vision; they had a vision and they implemented across add-ons, across templates... All that stuff just works. But I've had the opposite experience and I know that the Angular CLI is still an RC candidate, but I've come to the point where I expect so many things to actually be done by this, and it just doesn't work. We've struggled a lot at Splice, even having people dedicated at just fixing some problems with getting some of this stuff working, because once you have to do AoT because if not you're shipping a giant... Like, either you are doing tree-shaking or you wanna get a faster response time on your shipped build, it gets super frustrating. It's one of those things that if it doesn't work properly, then I'd rather just not have it at all.
+**Juan Pablo Buritica:** \[00:40:13.09\] I'm with you with that, because EmberCLI is to me the de facto example of how these tools should work... But what I respect from EmberCLI is that they have a vision; they had a vision and they implemented across add-ons, across templates... All that stuff just works. But I've had the opposite experience and I know that the Angular CLI is still an RC candidate, but I've come to the point where I expect so many things to actually be done by this, and it just doesn't work. We've struggled a lot at Splice, even having people dedicated at just fixing some problems with getting some of this stuff working, because once you have to do AoT because if not you're shipping a giant... Like, either you are doing tree-shaking or you wanna get a faster response time on your shipped build, it gets super frustrating. It's one of those things that if it doesn't work properly, then I'd rather just not have it at all.
 
 **Alex Sexton:** Yeah, the Create React App eject stuff I think is a good idea for those situations, to where you always a way of just busting out of the thing; it writes the configuration files that you already have and then says "You can figure it out from here." But that's when updates become hard.
 
@@ -276,7 +276,7 @@ All the docs for React are still just "Open this file. Write jsx directly in it 
 
 **Mikeal Rogers:** On that bit of advice, we're gonna take a quick break. When we come back we're gonna get into the project of the week. Stay tuned.
 
-**Break:** \[\\00:42:57.04\\\]
+**Break:** \[00:42:57.04\]
 
 **Mikeal Rogers:** Now we're gonna get into the project of the week. Since Juan's here, I wanted to continue to embarrass him and call him out a little bit... You wrote this great guide called The Collaboration Guide; it's on your GitHub. I wanna feature this as the project of the week because it's awesome. It's literally just a guide to help people collaborate when they're in remote teams, and I think these are problems that every company that ever does some amount of remote working runs into. This is really the bestest breakdown of like "Here's a nice diagram for how to get a hold of somebody without annoying them." It's really good.
 
@@ -296,7 +296,7 @@ A few people have forked it, and actually I've seen some better or more thorough
 
 The reason why people think that being collocated is better is because we're just lazy around communication and being around people; everyone ends up finding out about this stuff that's going on in the company. But when you have one person out of the office and you're actually remote, you have to do a conscious effort of keeping everyone in the loop.
 
-\[\\00:48:16.13\\\] So I wanna keep that until we grow; right now we're 12 engineers... Probably around 20-25 I'd be open to having people in the office, but it's something that Matt and I are still trying to figure out, because we really like the distributed engineering culture and the vision of just letting people be adults and work on their time, work on their projects and so on.
+\[00:48:16.13\] So I wanna keep that until we grow; right now we're 12 engineers... Probably around 20-25 I'd be open to having people in the office, but it's something that Matt and I are still trying to figure out, because we really like the distributed engineering culture and the vision of just letting people be adults and work on their time, work on their projects and so on.
 
 If I ever - and of course I do wanna start adding more junior members - that will switch my approach, because then I'll probably have to instill some really solid support structures for entry-level positions and that will require having people in office, or at least very available for them... That will probably switch things a little bit, but it's a little bit too early to get together.
 
@@ -320,7 +320,7 @@ If I ever - and of course I do wanna start adding more junior members - that wil
 
 **Mikeal Rogers:** This is actually a really good point. The more that you can break up a workload into asynchronous steps, rather than this synchronous working mode, the more flexibility people have in their schedule and the more kinds of people that you can get. There's a lot of people out there that just don't have the schedule flexibility to do this kind of stuff.
 
-\[\\00:52:04.15\\\] I've talked with the people from Free Code Camp about this, and how they've designed their learning curriculum so that you don't have to sit down or go into a bootcamp to learn it. It's really asynchronous, so that people who have kids, people that maybe already have jobs can follow up when they have time and it works with their schedule.
+\[00:52:04.15\] I've talked with the people from Free Code Camp about this, and how they've designed their learning curriculum so that you don't have to sit down or go into a bootcamp to learn it. It's really asynchronous, so that people who have kids, people that maybe already have jobs can follow up when they have time and it works with their schedule.
 
 **Alex Sexton:** Big shocker, Mikeal's advocating for an asynchronous, non-blocking I/O for learning... \[laughter\] Mark it on the board!
 
@@ -346,7 +346,7 @@ There's an old CSS-Tricks article that's pretty good on it, but there's also Gri
 
 Now, if you're not using SSL, it looks broken... It notes that this is just not a secure page, unless you're using TLS. In that vein, all these same browser vendors have been amping up the requirements to get a lot of that extra fanfare and what that looks like, including starting to dig and investigate some of the security authorities. So SSL securities authorities were supposed to do a bunch of vetting of companies to get these upper-level certifications that make them look extra good...
 
-\[\\00:56:16.04\\\] So not just the LetsEncrypt, like "Just get a certificate and encrypt stuff", but actually websites that say that they are from a particular company. Literally, you'll see the name of the company in the URL bar where the security information is.
+\[00:56:16.04\] So not just the LetsEncrypt, like "Just get a certificate and encrypt stuff", but actually websites that say that they are from a particular company. Literally, you'll see the name of the company in the URL bar where the security information is.
 
 Some of the certificate authorities have not been actually investigating those companies, not actually vetting those companies like they're supposed to, including Symantec. And the more that they dug into Symantec, the more that they realized that something like 30,000 improper certificates were given out by Symantec... So what Google Chrome is planning to do is remove the trust certificate for Symantec, and they will not be considered a valid certificate authority anymore.
 

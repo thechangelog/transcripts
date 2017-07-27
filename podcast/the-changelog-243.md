@@ -4,7 +4,7 @@ We talked about the history of SSL, the start of Let's Encrypt, why it's importa
 
 We've got three sponsors today - Linode, Toptal and Rollbar.
 
-**Break:** \[\\00:01:10.09\\\]
+**Break:** \[00:01:10.09\]
 
 **Adam Stacoviak:** Alright, we're back. We're talking to Jacob Hoffman-Andrews. Jerod, this is a show we've wanted to do for a while; we've been using Let's Encrypt, featured it in Changelog Weekly...
 
@@ -22,7 +22,7 @@ We've got three sponsors today - Linode, Toptal and Rollbar.
 
 Some of my time is also spent engaging with standards communities. One of the interesting things about Let's Encrypt is it's based on a new IETF RFC which, to break through the jargony acronyms there, it's an internet standard, and it's getting close to standardization.
 
-\[\\00:04:10.14\\\] The cool thing about that is someday other CAs will hopefully implement the same protocol, and you'll be able to use software that works with a number of different CAs interchangeably.
+\[00:04:10.14\] The cool thing about that is someday other CAs will hopefully implement the same protocol, and you'll be able to use software that works with a number of different CAs interchangeably.
 
 **Jerod Santo:** Let's go back a bit and learn about the history... We always love to find out what's the inception point or the origin story for projects like these, especially when they're big, ambitious projects. We just had a show all about the Atom text editor, and Adam and I were talking with Nathan about that, and we asked... It's such an ambitious goal when you're starting a text editor pretty much from scratch; it's a long-term thing, so how does it start and how do you plan out?
 
@@ -40,7 +40,7 @@ In the process I moved on to the security team and became a security expert, whi
 **Jerod Santo:** Why did it take three times what you thought?
 
 **J. Hoffman-Andrews:** There were a number of interesting obstacles. For any site moving to HTTPS, one of the tricky things is what's called mixed content. When you load a web page, it's not just the one URL; it includes a lot of other stuff. It brings images, iframes, video, Javascript, CSS... So you might have an HTTPS URL for a page, but an HTTP URL for the images, or the Javascript, or the Flash, even... Back then, Flash was more of a thing.
-\[\\00:08:15.11\\\] So browsers treat that specially, because they wanna be able to say, "This pageload is securely encrypted or not?" and if the main page is HTTPS but the Javascript isn't, it's not safe, because somebody can just man-in-the-middle at Javascript and replace it with something malicious. So if we had just gone straight to HTTPS right away, we would have gotten a lot of this mixed content warnings, so first we had to fix up all the internal URLs, so they would also be HTTPS.
+\[00:08:15.11\] So browsers treat that specially, because they wanna be able to say, "This pageload is securely encrypted or not?" and if the main page is HTTPS but the Javascript isn't, it's not safe, because somebody can just man-in-the-middle at Javascript and replace it with something malicious. So if we had just gone straight to HTTPS right away, we would have gotten a lot of this mixed content warnings, so first we had to fix up all the internal URLs, so they would also be HTTPS.
 
 But the big problem then was there was a lot of third party content. If you tweeted a YouTube video, for instance, or a Flickr image, the page would load Javascript and images from this third party source, so we had to make sure all those third party sources had HTTPS. Some of them didn't yet, so we had to go bug them. So that was on the mixed content front.
 
@@ -56,7 +56,7 @@ One of the interesting things about cryptography is the computers getting faster
 
 **J. Hoffman-Andrews:** Yeah, that's a good point, so I should bump the list to four. In terms of performance, what somebody sees when they're loading your web page, there's a bit of a performance cost for the handshake.
 
-\[\\00:11:55.22\\\] Normally, when you connect to a website you do regular TCP handshake, which costs about one-and-a-half roundtrip times (RTTs); that can be commonly around 150 milliseconds, depending on your connection. When you connect to HTTPS, on top of the regular TCP handshake, you also need to do a TLS handshake. TLS is the encryption protocol than underlies HTTPS. That adds another one or two roundtrips to that first page load. That can be mitigated somehow for reconnects. If you're connecting to a web page for the second time, you can take advantage of some cached information and bring that down to one roundtrip time.
+\[00:11:55.22\] Normally, when you connect to a website you do regular TCP handshake, which costs about one-and-a-half roundtrip times (RTTs); that can be commonly around 150 milliseconds, depending on your connection. When you connect to HTTPS, on top of the regular TCP handshake, you also need to do a TLS handshake. TLS is the encryption protocol than underlies HTTPS. That adds another one or two roundtrips to that first page load. That can be mitigated somehow for reconnects. If you're connecting to a web page for the second time, you can take advantage of some cached information and bring that down to one roundtrip time.
 
 So there's a slightly increased time to load cost for HTTPS, on the order of tens to hundreds of milliseconds, depending on how bad your connection is. But you mentioned HTTP/2 earlier, and I think this is a really good time to introduce what HTTP/2 is. Do you wanna talk a little about HTTP/2?
 
@@ -70,7 +70,7 @@ They might be caching, they might be \[unintelligible 00:14:39.16\] for inspecti
 
 **Jerod Santo:** That was a very nice summary, by the way. We do have a show - Adam, I didn't get a chance to pull it up... Ilya Grigorik has talked to us in a show about HTTP/2. For those interested, who wanna go deep into that, Ilya knows tons about HTTP/2. I don't have a show number... We do have a search function now on our website, which people have been asking for; just go there and search that, and you'll find that episode. It's very good.
 
-**Adam Stacoviak:** \[\\00:15:49.09\\\] I've got the episode number for you... It's episode 161. So changelog.com/161.
+**Adam Stacoviak:** \[00:15:49.09\] I've got the episode number for you... It's episode 161. So changelog.com/161.
 
 **Jerod Santo:** Cool. Did you use our search function?
 
@@ -99,7 +99,7 @@ So those are the things that kind of got in the way, but eventually we turned it
 
 **J. Hoffman-Andrews:** Yeah, so I came to EFF... I was thinking, "You know, I really wanna reach out and do more for the web in general.
 
-\[\\00:19:55.18\\\] At the same time, I had been working on HTTPS; some folks within EFF and within Mozilla had independently been trying to get a certificate authority started, for kind of the same reasons. They saw the need to encrypt the web, they saw that the lack of free certificates from a non-profit automated CA was an obstacle, and they wanted to improve that. So I joined up and started working on the project, and in 2015 we launched; we started a beta I think in September or October (a closed beta) and then we opened it up to the public in December. Since then, it's just been kind of like a rocket.
+\[00:19:55.18\] At the same time, I had been working on HTTPS; some folks within EFF and within Mozilla had independently been trying to get a certificate authority started, for kind of the same reasons. They saw the need to encrypt the web, they saw that the lack of free certificates from a non-profit automated CA was an obstacle, and they wanted to improve that. So I joined up and started working on the project, and in 2015 we launched; we started a beta I think in September or October (a closed beta) and then we opened it up to the public in December. Since then, it's just been kind of like a rocket.
 
 **Adam Stacoviak:** On fire, yeah.
 
@@ -125,7 +125,7 @@ So those are the things that kind of got in the way, but eventually we turned it
 
 **Jerod Santo:** You were pretty close! Pretty close. Cool. Well, we're hitting up against our first break. On the other side, we'll get into the nuts and bolts - what does it take to be a certificate authority, what is Boulder, we're gonna talk about the ACME's spec and Certbot right after this.
 
-**Break:** \[\\00:22:14.09\\\]
+**Break:** \[00:22:14.09\]
 
 **Jerod Santo:** Alright, we are back with Jacob. Jacob, I'm assuming it's a lot of work to set up a certificate authority... Is that fair to say? Take us through it. What all does it require and what work have you and everybody involved put into it?
 
@@ -133,7 +133,7 @@ So those are the things that kind of got in the way, but eventually we turned it
 
 To be a certificate authority doesn't mean much. You could become a certificate authority today. You can create a CA certificate on your own machine and issue your own certs, but nobody would trust them. If you loaded that on a web page, people would get a warning when they reached it. So you need your root CA certificate to be in trust stores. That's in operating systems, or browsers, or things like Java; on Linux there's usually a package called CA Certificates that ships down a bunch of these trust anchors.
 
-\[\\00:24:10.08\\\] The problem is even if you were to convince all of those (we call them) root programs - the programs that manage who gets to be a CA and who doesn't - even if you convince them all simultaneously to let you in today, there's all the older software that doesn't yet trust your root CA certificate. The usual way around this is what's called cross-signing. You get somebody who's already a CA to sign your root CA certificate or an intermediate, and essentially vouch for you and say "This organization knows how to safely issue certificates and based on our existing presence in these root stores, certificates from them should be trusted." That's step one - finding somebody to cross-sign for you.
+\[00:24:10.08\] The problem is even if you were to convince all of those (we call them) root programs - the programs that manage who gets to be a CA and who doesn't - even if you convince them all simultaneously to let you in today, there's all the older software that doesn't yet trust your root CA certificate. The usual way around this is what's called cross-signing. You get somebody who's already a CA to sign your root CA certificate or an intermediate, and essentially vouch for you and say "This organization knows how to safely issue certificates and based on our existing presence in these root stores, certificates from them should be trusted." That's step one - finding somebody to cross-sign for you.
 
 Let's Encrypt was very lucky to find IdenTrust, who was willing to cross-sign for us. Even if you are running an operating system that was built years before Let's Encrypt existed, your browser will still load Let's Encrypt certificates successfully because of that cross-signature. Now, in order to get that cross signature, you have to meet a certain number of requirements and pass a certain number of audits.
 
@@ -164,7 +164,7 @@ I think definitely that it's a barrier to starting up a new CA, especially if yo
 
 **Jerod Santo:** What about the capitalistic pressures from the other vendors, the other CAs, who are selling certs, and now here comes one that's gonna give them all away? Surely there was some pushback, or perhaps political machinations around the fact that "here comes a free one", right?
 
-**J. Hoffman-Andrews:** \[\\00:28:06.18\\\] Yeah, we have seen some criticisms from other CAs, and actually I think more frequently from certificate resellers... Blog posts with lists of reasons why Let's Encrypt is bad. Some are inaccurate, and sometimes they are legitimate disagreements about what a CAs role is, or what's valuable. One of the big differences between Let's Encrypt and a lot of the larger commercial CAs is we only do what's called "domain validation", we don't do extended validation... So DV and EV, for short.
+**J. Hoffman-Andrews:** \[00:28:06.18\] Yeah, we have seen some criticisms from other CAs, and actually I think more frequently from certificate resellers... Blog posts with lists of reasons why Let's Encrypt is bad. Some are inaccurate, and sometimes they are legitimate disagreements about what a CAs role is, or what's valuable. One of the big differences between Let's Encrypt and a lot of the larger commercial CAs is we only do what's called "domain validation", we don't do extended validation... So DV and EV, for short.
 
 Domain validation is where to get a cert from Let's Encrypt (a domain-validated cert), you just have to prove you control the domain for which you want the cert. If you wanted an extended validation cert from another CA, you'd have to not only prove you control the domain in the cert, you'd also have to prove who you are, what sort of business entity you are, where you're based in, show them all the documents and so on.
 
@@ -196,7 +196,7 @@ I think users tend to be relatively insensitive to additional UI...
 
 **J. Hoffman-Andrews:** So I would say for most sites I wouldn't really worry about EV. It doesn't affect the quality of encryption that you have on your site, and it also doesn't impact the quality of the validation of the domain names in the cert. So it's kind of the same process in terms of validating the domain names in that ownership, that's done for both EV and DV.
 
-**Jerod Santo:** \[\\00:32:04.06\\\] Most users do not even know that there's a way they can identify a site as encrypted or not encrypted, let alone the EV versus non-EV encryption. So the goal is let's get all the sites encrypted, because people won't know one way or the other. The EV - I think it's a clout thing, or it's kind of like pimpin' your ride; \[unintelligible 00:32:27.26\] That's the only reason why I think it would be attractive to me, because like Jacob said, the encryption is the same. It just shows you went the extra mile to be audited more thoroughly than other sites did.
+**Jerod Santo:** \[00:32:04.06\] Most users do not even know that there's a way they can identify a site as encrypted or not encrypted, let alone the EV versus non-EV encryption. So the goal is let's get all the sites encrypted, because people won't know one way or the other. The EV - I think it's a clout thing, or it's kind of like pimpin' your ride; \[unintelligible 00:32:27.26\] That's the only reason why I think it would be attractive to me, because like Jacob said, the encryption is the same. It just shows you went the extra mile to be audited more thoroughly than other sites did.
 
 **J. Hoffman-Andrews:** One of the interesting points there - Google Chrome has done a lot of really cool user research on usability of security indicators, and one of the results they found, that I think other researchers have found is that users don't tend to notice the absence of a security indicator. People don't notice that the green lock is absent. They do notice when something is present that says, "Oh, this is actually bad", like if the safe browsing page pops up and says "This site might be phishing" or "This might be malware", they notice that.
 
@@ -220,7 +220,7 @@ So the long-term goal for Chrome (and I believe also for Firefox) is something c
 
 **J. Hoffman-Andrews:** Yeah, so to talk about Boulder, I think first we have to talk about ACME. We had a number of goals with Let's Encrypt, and one of the ones that gets the most attention is free certs and automated certs. But we also want to bring about interoperability. If Let's Encrypt becomes the CA that everybody uses, it's a single point of failure. If for whatever reason it fails, it's terrible news for the internet.
 
-\[\\00:36:00.22\\\] Instead, we want an ecosystem of software that's able to automatically issue certs and keep them up to date, and can get them from a variety of CAs. That's kind of the birth of the ACME protocol; it's an backronym for Automated Certificate Management Environment. It's also a nod to the road runner cartoons.
+\[00:36:00.22\] Instead, we want an ecosystem of software that's able to automatically issue certs and keep them up to date, and can get them from a variety of CAs. That's kind of the birth of the ACME protocol; it's an backronym for Automated Certificate Management Environment. It's also a nod to the road runner cartoons.
 
 **Adam Stacoviak:** Oh yeah.
 
@@ -256,7 +256,7 @@ There was actually a talk I just watched from Brad Hill at Enigma about better a
 
 **J. Hoffman-Andrews:** Okay, so there's two others. There's the DNS Challenge, which says, "Put this special token value in a DNS text record under your domain." And then there's the TLS SNI Challenge, which is "Take this token value, wrap it in a temporary cert, and we're gonna attempt to connect over TLS to your site and ask for that, and we want you to echo back that value, plus an additional validation value, in the cert itself."
 
-\[\\00:40:19.20\\\] So once you've proven control of your domain or domains, Boulder will then sign a certificate and send it back to you. Boulder also incorporates some of the other important aspects of what a CA does. OCSP is one of the important things we have to do. It stands for Online Certificate Status Protocol, and that's how you can find out if a certificate has been revoked. A CA will sign a blob of data that says "This certificate's still good" or "This certificate has been revoked", and you can request that via HTTP. So Boulder offers OCSP services, and it also sends out expiration mail when your cert's about to expire.
+\[00:40:19.20\] So once you've proven control of your domain or domains, Boulder will then sign a certificate and send it back to you. Boulder also incorporates some of the other important aspects of what a CA does. OCSP is one of the important things we have to do. It stands for Online Certificate Status Protocol, and that's how you can find out if a certificate has been revoked. A CA will sign a blob of data that says "This certificate's still good" or "This certificate has been revoked", and you can request that via HTTP. So Boulder offers OCSP services, and it also sends out expiration mail when your cert's about to expire.
 
 **Jerod Santo:** Very cool. So you have ACME which is the specification, you have Boulder which I think is the server-side certificate authority software, and then on the client side, the ones who are requesting certificates, you have Certbot. Tell us about Certbot.
 
@@ -275,7 +275,7 @@ With Certbot, it knows about the config formats for both Apache and NGINX. So yo
 
 Certbot, as the first client - it started off not so easy. Of course, private beta, public beta... Things are buggy, things are more difficult... But it seems like you guys have really gone the extra mile, especially with like "You hit this page and you know exactly how to get Certbot set up for your specific scenario." It seems like you guys are really trying to make this easy on people.
 
-**J. Hoffman-Andrews:** \[\\00:43:54.24\\\] Yeah, that's job one - make it super easy, allow more people to do it.
+**J. Hoffman-Andrews:** \[00:43:54.24\] Yeah, that's job one - make it super easy, allow more people to do it.
 
 **Adam Stacoviak:** I could be just an idiot, but one time I did try to use Let's Encrypt on a DigitalOcean server when we were running WordPress (probably about a year ago), I was using a DigitalOcean tutorial to do it, and I got stuck. I could not do it. So I don't know if I'm the idiot or if the tutorial was just dated, but I was lost. So this is helpful now, the Certbot.
 
@@ -293,7 +293,7 @@ A lot of sites rotated their keys at that time, but a lot just didn't get the me
 
 It also encourages automation. I think what we've seen from a lot of hosting providers is that they have wanted to help automate this for their customers, because it's really a big win... Whereas if we had chosen the traditional year+ time window, you would see a lot of hosting providers saying, "Oh, we don't really care... You can go through this really tedious process once a year, of uploading the file and running the client yourself." That's really not the experience we want for people; we want hosting providers to just turn it on for you. We want most people to never have to think about HTTPS, and I think we're getting there. I think more and more hosting software is incorporating that.
 
-\[\\00:48:07.00\\\] WordPress has a Let's Encrypt plugin now, and also WordPress.com, the paid hosted version of Wordpress, they're a Let's Encrypt sponsor, and they automatically issued for everyone who has a hosted domain with them. So if you use their service, you have HTTPS. You didn't even have to check a box. That, I think, is the future of the web - it just works.
+\[00:48:07.00\] WordPress has a Let's Encrypt plugin now, and also WordPress.com, the paid hosted version of Wordpress, they're a Let's Encrypt sponsor, and they automatically issued for everyone who has a hosted domain with them. So if you use their service, you have HTTPS. You didn't even have to check a box. That, I think, is the future of the web - it just works.
 
 **Jerod Santo:** What about at the web server level? During the breaks we were talking about Caddy, which is a Go web server that has integrated Let's Encrypt. We had shows with Matt Holt on Caddy, both on the Changelog and on GoTime. So that's a great instance of like, "Well, if Caddy has it, then you just get it for free if you're using Caddy as your web server", but what about the big ones? Can you get it integrated into NGINX? Can you get it inside Apache? You don't even have to have a separate client that integrates into them, you just have it inside of your NGINX.
 
@@ -301,11 +301,11 @@ It also encourages automation. I think what we've seen from a lot of hosting pro
 
 **Adam Stacoviak:** We're hitting up against our next break... When we come back, let's talk about next challenges being faced, maybe even some public awareness in terms of how the community can step in and help this mission of encrypting the web. We'll take this break and we'll be right back.
 
-**Break:** \[\\00:50:07.29\\\]
+**Break:** \[00:50:07.29\]
 
 **Adam Stacoviak:** Alright, we're back with Jacob Hoffman-Andrews, going deep on this idea of securing the web. What a fun mission. Sometimes, Jacob, to know where you're going, you kind of have to know where you came from. In the breaks I asked what I thought was a dumb question, and it turns out it's actually not that dumb... It goes like this: why didn't we start with security first? Why didn't we start with -- I know you don't like the term SSL because that's going away, but why didn't we start with a secure internet, versus an insecure internet?
 
-**J. Hoffman-Andrews:** \[\\00:52:03.13\\\] Well, actually you've got two questions there. I actually have no problem with the term SSL. I tend to use TLS myself, but I think in the battle of convincing people to change their language, I don't think we're ever gonna win that one, and I don't mind. On Let's Encrypt website we call it "Free TLS/SSL certificates", so people can actually find us with the terms they use...
+**J. Hoffman-Andrews:** \[00:52:03.13\] Well, actually you've got two questions there. I actually have no problem with the term SSL. I tend to use TLS myself, but I think in the battle of convincing people to change their language, I don't think we're ever gonna win that one, and I don't mind. On Let's Encrypt website we call it "Free TLS/SSL certificates", so people can actually find us with the terms they use...
 
 **Jerod Santo:** Yeah, you gotta do that for Google searches, right? Because people are gonna be searching for SSL even if that's not necessarily the protocol being used nowadays.
 
@@ -328,7 +328,7 @@ The U.S. government decided "These secrets, these abilities to keep secrets are 
 
 **J. Hoffman-Andrews:** So if you downloaded Netscape in the '90s, you had this awful experience where it's like, "Do you wanna download the safe Netscape with all the strong cryptography in it, or do you wanna download the unsafe Netscape with the bad crypto algorithms in it? And if you wanna download the safe one, you have to really be sure you're in the U.S. and you're allowed to do this." This created obviously a ton of uncertainty and doubt in the software community, of whether they were legally safe to implement crypto algorithms, and if they did, would that limit their market? So it really held back implementation for a long time. It also meant that a lot of protocols like SSL built in these non-secure fallbacks, so you could negotiate a really weak cipher suite with SSL, because you might have to if you were talking to a web server that wasn't allowed to use the strong crypto.
 
-**Jerod Santo:** \[\\00:56:10.27\\\] Right.
+**Jerod Santo:** \[00:56:10.27\] Right.
 
 **J. Hoffman-Andrews:** So this was actually a really big issue area of the EFF in the '90s, and to this day. We took the position that code is speech, and it's actually a violation of the First Amendment to say "You're not allowed to tell people outside the U.S. how to do cryptography."
 
@@ -356,7 +356,7 @@ So that's been really important. I think that's a big part of why now cryptograp
 
 **Adam Stacoviak:** The bad part -- I guess it depends on your perspective of seeing it the bad part when I say that, so don't take that as a really bad thing... The point I'm trying to make is that it could be the good guys, or it could be the bad guys that want to keep their stuff safe, that want to keep it hidden. It's a really fine line of saying, "I think everybody should have access to security, secure internet and secure transmissions of their messages... It just sucks whenever it's the bad people trying to hurt you", you know what I mean? So that's a very tough position for any government to be in; I'm not saying that they're right or wrong in their convictions or reasons for \[unintelligible 00:59:39.11\] They have a very tough job to keep a nation safe, whether it's our nation or another.
 
-**J. Hoffman-Andrews:** \[\\00:59:47.11\\\] The way I like to think of it is like the right to whisper. You can always lean over and whisper to the person next to you and have a relatively private conversation. We would never dream of telling anybody, "Look, whenever you have a conversation, you need to have it through a megaphone, just in case you might be a bad guy and the government wants to collect data of your wrongdoing." I think there are plenty of avenues besides weakening cryptography that are available to the government in law enforcement activities.
+**J. Hoffman-Andrews:** \[00:59:47.11\] The way I like to think of it is like the right to whisper. You can always lean over and whisper to the person next to you and have a relatively private conversation. We would never dream of telling anybody, "Look, whenever you have a conversation, you need to have it through a megaphone, just in case you might be a bad guy and the government wants to collect data of your wrongdoing." I think there are plenty of avenues besides weakening cryptography that are available to the government in law enforcement activities.
 
 **Jerod Santo:** Yeah, agreed. Let's talk about the future a little bit. This ambitious goal, encrypting the entire web... I recently saw an article - and I haven't found it again, but I believe it was within the last two weeks; maybe we're about 50% there - 50% of the sites are HTTPS. Jacob, do you have other data than that, or does that sound about fair?
 
@@ -386,7 +386,7 @@ We don't wanna be solely funded by companies and web hosts. We love them, we lov
 
 **Adam Stacoviak:** I would say a win/win/win, because there's a lot of winning going on here.
 
-**Jerod Santo:** \[\\01:03:52.17\\\] Who else is winning?
+**Jerod Santo:** \[01:03:52.17\] Who else is winning?
 
 **Adam Stacoviak:** Everybody.
 
@@ -415,7 +415,7 @@ That being said, I could just go into my DreamHost control panel and click the b
 
 **Adam Stacoviak:** It might just be a little toggle there, man. All so easy. I mean, that's the way - you've gotta make it for mom-and-pop web hosts or website owners that run a small business, and they're like "Well, my site's just a brochure, so there's nothing special happening on there. It's just how you get to my location and who we are, and you can see pictures of our shop." They're not commerce, and they don't even know what the web is; they're just like "We have this thing on the thing, and it's the cloud, or whatever. You can go there and find out about us." You've gotta make it so much easier for those people.
 
-**J. Hoffman-Andrews:** \[\\01:07:53.21\\\] So there's one other feature topic I'd like to talk about if you guys feel like we have time.
+**J. Hoffman-Andrews:** \[01:07:53.21\] So there's one other feature topic I'd like to talk about if you guys feel like we have time.
 
 **Jerod Santo:** Sure.
 
@@ -437,7 +437,7 @@ This is relatively new; it's been in the works for a few years now... There are 
 
 **Adam Stacoviak:** Great time for it. We have a much bigger need for it now, and now that the care and technology around blockchain is getting more and more mature, it's a great time for it.
 
-**J. Hoffman-Andrews:** \[\\01:12:00.08\\\] I'm gonna super nerd-out here for a minute and say it's not exactly blockchain, it's like a blockchain.
+**J. Hoffman-Andrews:** \[01:12:00.08\] I'm gonna super nerd-out here for a minute and say it's not exactly blockchain, it's like a blockchain.
 
 **Jerod Santo:** Oh, blockchainesque. We're running short on time, but do a real quick diff for us between blockchain and 'like a blockchain'.
 

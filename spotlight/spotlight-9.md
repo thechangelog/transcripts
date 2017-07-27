@@ -18,7 +18,7 @@ Now, if HTTP/1 wasn't already there, I wouldn't be thinking that we should add H
 
 **Adam Stacoviak:** You'd think module at that point.
 
-**James Snell:** \[\\00:03:44.25\\\] Right. There are other protocols that are becoming increasingly more important to the web - WebSockets, for instance. We don't have WebSocket support in there, and we shouldn't have it, because it's not already there. Quick is another one - it's a protocol that's starting to gain a lot of traction relative to TCP/IP. It's got a long way to go, but it's a very good protocol. I wouldn't support any effort to actually get it in the core unless it became much more fundamental to the web architecture.
+**James Snell:** \[00:03:44.25\] Right. There are other protocols that are becoming increasingly more important to the web - WebSockets, for instance. We don't have WebSocket support in there, and we shouldn't have it, because it's not already there. Quick is another one - it's a protocol that's starting to gain a lot of traction relative to TCP/IP. It's got a long way to go, but it's a very good protocol. I wouldn't support any effort to actually get it in the core unless it became much more fundamental to the web architecture.
 
 With HTTP/2, the decision basically just comes to -- we already have HTTP/1; we know HTTP/2 is gonna continue to grow in relevance, we have a lot of people asking for it... It just makes a lot of sense to have it in Core and have it available.
 
@@ -50,7 +50,7 @@ Even if you look at Electron, there's basically web applications that are bundle
 
 **James Snell:** That it's actually a very different protocol than HTTP/1. It has the same name, but that 2 is really important. The fact that it uses a binary framing instead of a text framing, and just line delimitation... Stateful Header Compression adds an interesting dimension of -- there is a whole lot more state management that has to occur over long-lived sockets, that just doesn't exist currently in Node when you're dealing with HTTP/1.
 
-\[\\00:08:08.14\\\] With the Header Compression and the multiplexing stuff at the protocol levels you can get much more efficient use of your connections. When we start getting into the real-world benchmarks of real applications, rather than the peak load type of benchmarks I've been doing currently, I think we'll see much more efficient use of Node and of the connection there. But it does require a different way of thinking about your web applications and your web APIs, because you're not just pipelining individual requests one at a time.
+\[00:08:08.14\] With the Header Compression and the multiplexing stuff at the protocol levels you can get much more efficient use of your connections. When we start getting into the real-world benchmarks of real applications, rather than the peak load type of benchmarks I've been doing currently, I think we'll see much more efficient use of Node and of the connection there. But it does require a different way of thinking about your web applications and your web APIs, because you're not just pipelining individual requests one at a time.
 
 The protocol provides no limit to the number of in-flight requests and responses you can have simultaneously over a single connection. Then you add things like push streams on top of that - it adds a significant new thing that you just have to consider of how you're building your applications and what the interactions are going to be in terms of performance, concurrency and all these things that you just don't currently have to deal with.
 
@@ -62,7 +62,7 @@ I think there's going to be a lot of coming to terms with the protocol and getti
 
 With HTTP/2, we're gonna be taking an approach where we're gonna be very spec-compliant. We're not favoring performance over that. We're not sacrificing one over the other. It is going to be absolutely compliant to the specification, without taking those performance shortcuts. And that is something that I am emphasizing in my own development as I'm going through this, that making sure that we're hitting all of those "You must do this" or "You must not do this" that are found in that specification. By adhering to the spec as closely as we possibly can, we mitigate a lot of those potential security issues.
 
-\[\\00:11:47.00\\\] The other important thing is that even though HTTP/2 does not require TLS - per the spec you can do plain text if you want - the browser implementation's the primary client of HTTP/2 right now... Chrome, Firefox, Safari and some of the others, they require that they will only talk to HTTP/2 server over TLS. It's just mandated. They won't even connect to a plaintext server, so automatically out of the gate you're using secured connections, and that alone is going to be a significant improvement to security.
+\[00:11:47.00\] The other important thing is that even though HTTP/2 does not require TLS - per the spec you can do plain text if you want - the browser implementation's the primary client of HTTP/2 right now... Chrome, Firefox, Safari and some of the others, they require that they will only talk to HTTP/2 server over TLS. It's just mandated. They won't even connect to a plaintext server, so automatically out of the gate you're using secured connections, and that alone is going to be a significant improvement to security.
 
 The one limiting factor there is Node hasn't really had a great reputation as a TLS terminator. A lot of people, just as the best practice, put a proxy in front of it, and then they'll reverse proxy back over a plaintext connection back to Node just to ensure the performance. A lot of that has to do with the way the crypto works with the event loop and OpenSSL and that kind of thing. So I think a lot of work is gonna need to go into trying to improve that if we want to improve the performance of Node as a TLS endpoint and improve on that story.
 
@@ -80,7 +80,7 @@ One person I was talking and one of the ways that they were prototyping stuff an
 
 You can't do that with HTTP/1, but because of the multiplexing and the communication model that exists in HTTP/2, that kind of stuff is allowed, it's something you can do. HTTP/2 is gonna enable new extensibility models, new possibilities for new kinds of protocols that kind of co-exist with the HTTP/2 semantics. And we already see some of that work already happening within the working group; there are proposals for other kinds of protocols that are layered into the mix. And you kind of wonder, "Well, who would do that kind of thing?" Well, look at WebSockets, right? Look how WebSockets emerged in its relationship with HTTP/1 and the difficulties that existed trying to get those two things to work together. With this, the framing model is going to allow you to more naturally experiment with those kinds of new protocols without the pain that we had with trying to introduce WebSockets.
 
-\[\\00:16:26.10\\\] There's a lot of new types of innovations I think that could come out of it, but we need to build a collective experience working with it in order to be able to tease those things out.
+\[00:16:26.10\] There's a lot of new types of innovations I think that could come out of it, but we need to build a collective experience working with it in order to be able to tease those things out.
 
 **Adam Stacoviak:** You mentioned some things you're not happy with with the HTTP/2 protocol, and I couldn't let you not tell me what those are. \[laughter\] What are the "gotchas", what are the things that are just bugging you about this protocol?
 
@@ -98,7 +98,7 @@ Even over multiplexed requests, all of those requests and responses share the sa
 
 **Adam Stacoviak:** Right. It makes sense to shrink it, rather than... \[cross-talk 00:21:46.08\] I kind of agree with you on the state, because it seems like it's adding this extra layer of -- it's almost like somebody shakes your hand and doesn't let it go.
 
-**James Snell:** \[\\00:19:49.18\\\] Yeah, in a lot of ways that's exactly what it is. Now, Google has a ton of experience with Speedy, and a lot of what's in HTTP/2 came out of the work that Google did on Speedy and I have a huge amount of respect for everything they did and have provided. HPACK also came out of Google, so they did a ton of research in terms of what would work. They had concluded that staple Header Compression was the only way to get real benefits out of HTTP/2.
+**James Snell:** \[00:19:49.18\] Yeah, in a lot of ways that's exactly what it is. Now, Google has a ton of experience with Speedy, and a lot of what's in HTTP/2 came out of the work that Google did on Speedy and I have a huge amount of respect for everything they did and have provided. HPACK also came out of Google, so they did a ton of research in terms of what would work. They had concluded that staple Header Compression was the only way to get real benefits out of HTTP/2.
 
 I disagreed with some of those conclusions, but the working group decided, "You know what? This is what we're gonna move forward with, and that's what they did." At this point it's like, "I don't like it, but that's what it is, and that's what we're moving forward on."
 
@@ -128,7 +128,7 @@ You can't do what a lot of the proxies do currently, which is just kind of read 
 
 **Adam Stacoviak:** What are the plus sides to this complexity? You're talking about the bad side, but what's the...?
 
-**James Snell:** \[\\00:23:47.07\\\] Performance. Using that socket much more efficiently. I was doing a peak load benchmark here the other day with just the development image of HTTP/2 in core. We're at a hundred thousand requests at a server, there was fifty concurrent clients going over eight threads... Just to throw a bunch of stuff at the server and see what happens, see how quickly it can respond. With HTTP/1 implementation in core currently I was able to get 21,000 requests/second doing that, but 15% of them just failed, where Node just didn't respond. A lot of that has to do with -- I was running tests on OSX, and there were some issues there with assigning threads, how quickly you can assign threads, and when we get an extreme high load it could run into some issues. With HTTP/2 I was able to get 18,000 requests/second, so fewer transaction rate, but 100% of them succeeded. It was using fewer sockets; I was keeping them open longer. The downside of that was it was using significantly more memory, but it has a better success rate, and it was using the bandwidth much more efficiently.
+**James Snell:** \[00:23:47.07\] Performance. Using that socket much more efficiently. I was doing a peak load benchmark here the other day with just the development image of HTTP/2 in core. We're at a hundred thousand requests at a server, there was fifty concurrent clients going over eight threads... Just to throw a bunch of stuff at the server and see what happens, see how quickly it can respond. With HTTP/1 implementation in core currently I was able to get 21,000 requests/second doing that, but 15% of them just failed, where Node just didn't respond. A lot of that has to do with -- I was running tests on OSX, and there were some issues there with assigning threads, how quickly you can assign threads, and when we get an extreme high load it could run into some issues. With HTTP/2 I was able to get 18,000 requests/second, so fewer transaction rate, but 100% of them succeeded. It was using fewer sockets; I was keeping them open longer. The downside of that was it was using significantly more memory, but it has a better success rate, and it was using the bandwidth much more efficiently.
 
 The header compression, for example, we were able to save 96% of the header bytes, compared to HTTP/1. Actually, it's 96% fewer header bytes sent over the wire with a hundred thousand requests. That's massive savings.
 
@@ -154,7 +154,7 @@ One simple example is the fact that the status message in HTTP/1 - you know how 
 
 **Adam Stacoviak:** So it makes upgrading or changing to HTTP/2 a very deliberate choice.
 
-**James Snell:** \[\\00:27:55.04\\\] Yeah, it's gonna have to be very deliberate, and it's only gonna be in very simple scenarios, which probably aren't realistic that somebody would be able to say, "Okay, it works in both." It's gonna be a thing where you have to design your application specifically for HTTP/2 in order to take advantage of the...
+**James Snell:** \[00:27:55.04\] Yeah, it's gonna have to be very deliberate, and it's only gonna be in very simple scenarios, which probably aren't realistic that somebody would be able to say, "Okay, it works in both." It's gonna be a thing where you have to design your application specifically for HTTP/2 in order to take advantage of the...
 
 **Adam Stacoviak:** It's kind of putting a high barrier in front of it, too... I mean, you can't expect adoption of what is, as you said, a better performing protocol if you put a mountain in front of it.
 
@@ -206,7 +206,7 @@ The fact of the matter is we can't get rid of anything in Core. You see that in 
 
 **Adam Stacoviak:** That would ruin things, yeah.
 
-**James Snell:** \[\\00:31:59.29\\\] And something so fundamental as HTTP/1 - I don't think we would ever get to a point where we would fully deprecate it.
+**James Snell:** \[00:31:59.29\] And something so fundamental as HTTP/1 - I don't think we would ever get to a point where we would fully deprecate it.
 
 **Adam Stacoviak:** Yeah, I'll retract that deprecation statement and say it more like, instead... Because when we were having a discussion about the options of deprecating things, it was not to put it in where it was a response, but more so in documentation, where it was frowned upon; it wasn't forced.
 
@@ -220,7 +220,7 @@ It would be a native module, and all the things that come along with native modu
 
 **James Snell:** We've really covered a lot of it. The big thing, I would say, is the folks are really passionate about this. We need to hear from users, we need to hear from folks that have ideas on how to implement it, or how to test, or what kind of applications they wanna build with this thing. I've had a lot of conversations so far, but it's a big ecosystem, there's a lot of people out there. We can't have enough input on that direction. That information, that input is what's gonna help drive that decision of what's going to happen with this code.
 
-**Adam Stacoviak:** \[\\00:34:56.27\\\] What's the best way for people to reach out to you then? If it's feedback you want -- is it you, personally? Should they go to the repo, submit an issue?
+**Adam Stacoviak:** \[00:34:56.27\] What's the best way for people to reach out to you then? If it's feedback you want -- is it you, personally? Should they go to the repo, submit an issue?
 
 **James Snell:** Go to the repo, open issues... For the folks that really want to get it in there, pull requests are great. There's been a lot of churn in the code. I've been getting in there and just hammering away for the past two weeks...
 
