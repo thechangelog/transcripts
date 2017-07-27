@@ -14,6 +14,19 @@ Has [its transcript in this repo at](https://github.com/thechangelog/transcripts
 
 ## Contributing
 
+Pull requests, please! Our transcriptions are lovingly crafted by a human, but they're nowhere near perfect. Specific things we'd love help with:
+
+- Replacing the keyword 'unintelligible' with the correct word/phrase
+- Adding links to referenced URLs, projects, etc.
+- Adding timestamps to key/beloved statements and sections
+- Fixing typos
+
+**Why Contributing Is Worth Your Time**
+
+1. Once merged, your contribution will immediately (pending webhook execution) appear on the episode page for all to use/enjoy!
+2. We routinely send thank you's on the air and on Twitter!
+3. Give back to the awesome [Changelog Community](https://changelog.com/community) of hackers, podcast hosts, and guests!
+
 ## Conduct
 
 [Contributor Code of Conduct](https://changelog.com/coc). By participating in this project you agree to abide by its terms.
