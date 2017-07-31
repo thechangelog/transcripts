@@ -1,5 +1,3 @@
-Break: \[00:00:00.07\] to \[00:01:57.07\]
-
 **Adam Stacoviak:** Pam Selle, welcome back to The Changelog.
 
 **Pam Selle:** Yeah, it's nice to see you all here.
@@ -212,7 +210,7 @@ But see, as I describe it -- you asked "What's revolutionary?" It's very easy to
 
 **Adam Stacoviak:** When we come back from the break we talk about the environmental impact of functions as a service and how the serverless architecture removes the need for a traditional always on server system. We also talk about how serverless is being used in production today and where it's going in the future. Stick around.
 
-**Break:** \[00:14:59.00\] to \[00:16:07.16\]
+**Break:** \[00:14:59.00\]
 
 **Pam Selle:** I also think that functions as a service are really cool from an environmental standpoint when we think about the usage of infrastructure... If I'm building what I want to be a standard, scalable infrastructure, I don't want my load to ever go over 50% maybe, because I wanna be able to handle a lot more traffic so that I don't fall over. All that water and energy, all of it is just getting wasted, and I'm paying for it. So it's bad for the environment, it's bad for my wallet, so if I use something where things are run in a scalable --
 
