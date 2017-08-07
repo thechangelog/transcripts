@@ -1,6 +1,6 @@
 **Jerod Santo:** Alright, should we start?
 
-**Adam Stacoviak:** Yeah, we should start. You mentioned open source since the '70a; I'd say let's --
+**Adam Stacoviak:** Yeah, we should start. You mentioned open source since the '70s; I'd say let's --
 
 **Evan Prodromou:** Well, not since the '70s.
 
