@@ -458,7 +458,7 @@ So I think server users want to be able to take advantage of that as well.
 
 **Adam Stacoviak:** What's the episode number, Jerod?
 
-**Jerod Santo:** 207.
+**Jerod Santo:** [Episode 207](https://changelog.com/podcast/207).
 
 **Adam Stacoviak:** "I think you mean episode 207. Would you like me to play that for you." "Yes, Alexa."
 
