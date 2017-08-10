@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** When do we get a senior citizens' discount?
 
-**Brian Ketelsen:** 55. \[unintelligible 00:00:58.02\]
+**Brian Ketelsen:** 55, when we belong to AARP.
 
 **Erik St. Martin:** So another five episodes.
 
