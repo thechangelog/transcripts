@@ -258,9 +258,15 @@ When I first read this issue when I came home from work and said "Oh, what did I
 
 **Alexander Neumann:** I'm not really responsible in terms of a license, because it's a BSD license and it says "There is no warranty at all/At your own risk", and so on.
 
-**Erik St. Martin:** But as the person, you feel guilty if something happened, you know...?
+**Erik St. Martin:** But as the person, 
 
-**Alexander Neumann:** Yeah, exactly. You may not be legally liable, but I think we all want to produce things that make people's lives better, so finding out that there was something catastrophic caused by something you wrote always hits people close to home.
+**Alexander Neumann:** Yeah
+
+**Erik St. Martin:** you feel guilty if something happened, you know...? 
+
+**Alexander Neumann:** Yeah, exactly. 
+
+**Erik St. Martin:** You may not be legally liable, but I think we all want to produce things that make people's lives better, so finding out that there was something catastrophic caused by something you wrote always hits people close to home.
 
 **Brian Ketelsen:** Well, that means that you should feel awesome when somebody has a catastrophic failure and the backups work and they restore their data to a new system. So the corollary to that is that you should get to feel awesome pretty often, because people are restoring backups.
 
