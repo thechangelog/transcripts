@@ -16,7 +16,7 @@ In a past life I was an artist and a musician and I'm hoping to find time to do 
 
 **Alex Sexton:** Yeah, that segues well into what we wanted to talk about today, which is some music. I think between the three of us, we either have dabbled in web audio or are musicians... Rachel, what's your music history? You definitely have at least like a lot of cred in \[unintelligible 00:03:12.16\] indie bands.
 
-**Rachel White:** Yeah, so I started out as a web person because I did a website for an online music magazine for teens, so my first concert was \[unintelligible 00:03:25.25\] 2001 to go and interview bands like Good Charlotte.
+**Rachel White:** Yeah, so I started out as a web person because I did a website for an online music magazine for teens, so my first concert was Warp Tour 2001 to go and interview bands like Good Charlotte.
 
 **Alex Sexton:** NOFX?
 
