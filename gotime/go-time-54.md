@@ -38,7 +38,7 @@ We do three main things for Walmart - we have our own reverse proxy, which does 
 
 **Brian Ketelsen:** Oh, I instantly get a 302. What's the curl command to follow the redirect?
 
-**Chase Adams:** That's -L, is the \[unintelligible 00:03:27.18\] I think you wanna use.
+**Chase Adams:** That's -L, is the flag I think you wanna use.
 
 **Brian Ketelsen:** Minus which?
 
