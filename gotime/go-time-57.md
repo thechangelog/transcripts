@@ -1,5 +1,3 @@
-Break: \[00:00:00.15\] to \[00:00:48.03\]
-
 **Erik St. Martin:** Alright, welcome back everybody to another episode of GoTime. Today's episode is number 57. We've been gone for a couple of weeks... Our production studio was actually in Houston, but good news is that Adam and family are all doing well, so we are back on.
 
 Today on the show, myself - Erik St. Martin. Brian Ketelsen's here... I think he's still here. Brian?
@@ -331,5 +329,3 @@ You can find us on Twitter, @GoTimeFM. If you wanna be on the show, have suggest
 **Erik St. Martin:** Bye, everybody.
 
 **Carlisia Pinto:** Bye!
-
-Break: \[01:06:02.10\] to \[01:06:49.02\]
