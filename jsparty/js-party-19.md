@@ -14,7 +14,7 @@ In a past life I was an artist and a musician and I'm hoping to find time to do 
 
 **Rachel White:** Yay!!!
 
-**Alex Sexton:** Yeah, that segues well into what we wanted to talk about today, which is some music. I think between the three of us, we either have dabbled in web audio or are musicians... Rachel, what's your music history? You definitely have at least like a lot of cred in \[unintelligible 00:03:12.16\] indie bands.
+**Alex Sexton:** Yeah, that segues well into what we wanted to talk about today, which is some music. I think between the three of us, we either have dabbled in web audio or are musicians... Rachel, what's your music history? You definitely have at least like a lot of cred in old indie bands.
 
 **Rachel White:** Yeah, so I started out as a web person because I did a website for an online music magazine for teens, so my first concert was Warp Tour 2001 to go and interview bands like Good Charlotte.
 
@@ -74,7 +74,7 @@ The other interesting thing about your explanation -- I forgot... You're of the 
 
 **Rachel White:** I feel like Myles is secretly Canadian, because he doesn't -- when I first met him I didn't know, and he kind of was like, a little quiet about being Canadian.
 
-**Myles Borins:** Am I supposed to introduce myself that way? "Hello, I'm Myles. I like maple syrup and it's called \[unintelligible 00:08:29.20\] \[laughter\] Thank you. Would you like a poutine and a Caesar?
+**Myles Borins:** Am I supposed to introduce myself that way? "Hello, I'm Myles. I like maple syrup and it's called peameal \[laughter\] Thank you. Would you like a poutine and a Caesar?
 
 **Alex Sexton:** I'd actually flip it around to where you start there and THEN say your name.
 
@@ -162,9 +162,9 @@ Mozilla for a long time prioritized a lot of web audio stuff, and I think they h
 
 **Alex Sexton:** Right, yeah.
 
-**Myles Borins:** There is spec work being done right now on AudioWorkerNode which would work more similar to web workers, and I believe they might even have access to SharedArrayBuffers, which would solve the delay issue... Although it would now create the complexity of multiple things maybe--
+**Myles Borins:** There is spec work being done right now on AudioWorkerNode which would work more similar to web workers, and I believe they might even have access to SharedArrayBuffers, which would solve the delay issue... Although it would now create the complexity of multiple things maybe \[laughter\]
 
-**Alex Sexton:** \[unintelligible 00:22:56.01\] Yeah, you trade one for the other. Well, cool. I look forward to the day when I can load VST plugins into the browser and just go for it... Which doesn't seem too far off -- I imagine wasm even takes the distance between the native stuff even closer. So it seems like getting those nodes to have zero latency or whatever seems to be a priority. I'd be interested -- if anyone wants to follow up if there's like work... Like, is the worker the solution that we're gonna go with, or can we make the current one faster? Let us know.
+**Alex Sexton:** Yeah, you trade one for the other. Well, cool. I look forward to the day when I can load VST plugins into the browser and just go for it... Which doesn't seem too far off -- I imagine wasm even takes the distance between the native stuff even closer. So it seems like getting those nodes to have zero latency or whatever seems to be a priority. I'd be interested -- if anyone wants to follow up if there's like work... Like, is the worker the solution that we're gonna go with, or can we make the current one faster? Let us know.
 
 Break: \[00:23:41.11\]
 
@@ -194,7 +194,7 @@ You can actually do the same thing to make a game. Tic-tac-toe is an interesting
 
 I think more than anything it's just like a fun exploration of taking technology to its limits and exploring areas of it that weren't for an intent, but then being able to do crazy things because of that. Other things that come to mind are using -- there's a language called JSFuck (you can bleep that later), which is completely based off the fact that arrays cast themselves into integers, and then... It's be insane to explain here, but yeah... Go ahead.
 
-**Rachel White:** Actually, that's just an abstraction of the \[unintelligible 00:29:52.11\] it sounds like. I don't know if you're familiar with that.
+**Rachel White:** Actually, that's just an abstraction of the esolang Brainfuck it sounds like. I don't know if you're familiar with that.
 
 **Alex Sexton:** Yeah, I am. It's not... It's similar, but it uses very specific properties of Javascript to where it can kind of bootstrap itself by grabbing letters off of prototype functions and then eval-ing them, all based on positions and arrays... It's very interesting-looking, and it doesn't really work the same as the other one you mentioned, but it is very similar in its incomprehensibility... But everyone should check it out.
 
@@ -224,7 +224,7 @@ I think that's kind of what you're talking about, where you create this combinat
 
 I think you see that happen a lot in environments like Ableton, or like other kind of programming music environments, where you're no longer worrying about the notes that you're playing, so you can focus on other aspects of the song, such as the timbre, or playing with compressors, or just like effects and stuff like that.
 
-**Alex Sexton:** Yeah, I think it's a -- for the tough question that I asked, I think it's a good example of kind of like just taking these side effects of something and using that as kind of your core. It's like someone allowed randomness for one purpose, and then you take randomness and now you're making randomness the core thing. Kind of like types \[unintelligible 00:36:01.05\] to enforce against this language, and then you're kind of taking them and literally just throwing the language under the covers and only using types, and kind of starting from that new baseline.
+**Alex Sexton:** Yeah, I think it's a -- for the tough question that I asked, I think it's a good example of kind of like just taking these side effects of something and using that as kind of your core. It's like someone allowed randomness for one purpose, and then you take randomness and now you're making randomness the core thing. Kind of like types were the point to enforce against this language, and then you're kind of taking them and literally just throwing the language under the covers and only using types, and kind of starting from that new baseline.
 
 \[00:36:16.00\] I think it's a thing that kind of -- again, it's always gonna sit on the fringe, but I think it's an art, just like that person kind of created art out of the randomness... Noticing things and doing, like, the CSS games, and all these edge case situations I think definitely falls in the realm of beauty and art, and creativity, in a way that is super interesting to people.
 
