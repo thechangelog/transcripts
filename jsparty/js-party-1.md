@@ -30,7 +30,7 @@
 
 **Mikeal Rogers:** Right, that's actually a really good way to explain it though. The way that Git uses SHA1 is kind of indicative of how everybody uses it, which is that you take a bunch of data and you say, "I want a unique identifier for this data", so you hash it. That's what Git does to every change that comes into the Git tree - it gets this hash of the data and it uses that as the identifier.
 
-If you go to GitHub and you go to a project and then you click on Commit To and then you click on one of those Commit links, in the \[unintelligible 00:02:52.25\] you'll see this randomly-generated identifier, and that is a unique identifier for that hash. The problem is that if you could forge these - that's a very small amount of data, representing a large amount of data; theoretically, if you could reverse-engineer the algorithm, you could come up with a different data that would also hash to that same thing. People have been theoretically \[unintelligible 00:03:16.17\] and now they really can...
+If you go to GitHub and you go to a project and then you click on Commit To and then you click on one of those Commit links, in the URL bar you'll see this randomly-generated identifier, and that is a unique identifier for that hash. The problem is that if you could forge these - that's a very small amount of data, representing a large amount of data; theoretically, if you could reverse-engineer the algorithm, you could come up with a different set of data that would also hash to that same thing. People have been theoretically able to do this for a while and now they really can...
 
 **Alex Sexton:** It still costs like a hundred thousand dollars. It will be cheaper, but right now, with the current algorithm... It's insane how much faster they can do it, but still, with AWS spot instances it costs around a hundred thousand dollars to break a random thing.
 
@@ -144,7 +144,7 @@ I think we're pretty good there. I think that we're actually coming into the tim
 
 I'm curious what you all think of this and what your views are on it? Before I get into my views...
 
-**Alex Sexton:** I don't have a ton of opinions... I understand the two sides of this, and I feel like... I mean, I think the primary -- at least \[unintelligible 00:19:51.12\] people are calling their primary concern is performance of this, versus callbacks or Promises or whatever. I think that's silly, because a) it will get faster the next version, and b) it's such a small performance hit that who cares?
+**Alex Sexton:** I don't have a ton of opinions... I understand the two sides of this, and I feel like... I mean, I think the primary -- at least the thing people are calling their primary concern is performance of this, versus callbacks or Promises or whatever. I think that's silly, because a) it will get faster the next version, and b) it's such a small performance hit that who cares?
 
 \[00:20:08.23\] It's primarily sugar; I guess there are the people who dislike sugar and there are people who like sugar. Just use whatever you want, I don't know... I dislike that this is an issue.
 
@@ -160,19 +160,19 @@ I'm curious what you all think of this and what your views are on it? Before I g
 
 **Mikeal Rogers:** ...but it does get annoying that people act like this is revolutionary. A lot of the articles that were written about this feature coming into Node are like, "Node finally tackles asynchronous programming." Node 0.0.2 tackled asynchronous programming. Asynchronous programming has been part of Node since day one; it's been the hardest thing for people to get over.
 
-And callbacks... The standard callback interfaces \[unintelligible 00:21:23.14\] into something usable and really fast. I think Promises landed a while ago in V8; people have been using Promises though since early Promise standards. Bluebird is based on the Promise standard, which is the really fast one, that people really tend to like.
+And callbacks... The standard callback interfaces has kind of wrangled that into something usable and really fast. I think Promises landed a while ago in V8; people have been using Promises though since early Promise standards. Bluebird is based on the Promise standard, which is the really fast one, that people really tend to like.
 
 **Alex Sexton:** I feel like people used Promises far before it was even standard in V8, or whatever.
 
 **Mikeal Rogers:** Right. And before it was a standard, there were all these competing standard for Promises. If you go back far enough, you just could not get two people to agree on the same Promise.
 
-**Alex Sexton:** Well, you couldn't get jQuery to agree with the rest... \[unintelligible 00:22:03.23\] that was pretty early on, I feel like... Maybe not.
+**Alex Sexton:** Well, you couldn't get jQuery to agree with the rest... KrisZyp and Promises A/A+ that was pretty early on, I feel like... Maybe not.
 
 **Mikeal Rogers:** So what Alex is hinting too is this fight in CommonJS over which standard would be the Promise standard. He said A/A+ because there was also Promises/B, C and I believe D, and I don't know how many letters we got up to.
 
 **Alex Sexton:** No one used those, though. They were just proposals.
 
-**Mikeal Rogers:** Right. But anyway, I think \[unintelligible 00:22:32.06\] ton of work just to get Promise people to agree on the same spec, or at least get everybody to stop listening to the people who were detracting. It got like a real standard in the language, which a lot of people that don't like Promises don't like. I personally prefer not to wrap this kind of state in an object myself... But one thing that you can say about it is that the browser - if you look at all browser standards - there's just no standard way to do I/O handlers. If you look at every DOM API that has to do this, they do something slightly different, and all of them are awful. And even if you don't like Promises, most of what people do in the DOM - they do the same thing, it's just worse than Promises.
+**Mikeal Rogers:** Right. But anyway, I think that Domenic Denicola did a ton of work just to get Promise people to agree on the same spec, or at least get everybody to stop listening to the people who were detracting. It got like a real standard in the language, which a lot of people that don't like Promises don't like. I personally prefer not to wrap this kind of state in an object myself... But one thing that you can say about it is that the browser - if you look at all browser standards - there's just no standard way to do I/O handlers. If you look at every DOM API that has to do this, they do something slightly different, and all of them are awful. And even if you don't like Promises, most of what people do in the DOM - they do the same thing, it's just worse than Promises.
 
 So it's nice to have a standard that going forward - if you look at the Fetch API and some of these new browser APIs - you have something unified, which is so good.
 
@@ -204,7 +204,7 @@ But Promises don't have that kind of hook yet - native Promises don't have the h
 
 **Rachel White:** I mean, I'll argue, but not about this... \[laughter\]
 
-**Alex Sexton:** The question on our chat in Slack - you can join the Changelog Slack and the JS Party channel... Seth asked "Is there any argument against async/await other than performance and "syntax sugar is bad"? Well, against async/await maybe not, because it's just sugar, but there are plenty more arguments against Promises than just performance, namely error handling - I think that's the number one complaint. Whenever you're inside of Promises, often times you're many levels deep inside \[unintelligible 00:27:46.06\] and stuff, and errors can get swallowed in a way that's very, very hard to track them down, and very hard to even get stack traces back out of them when you do catch them.
+**Alex Sexton:** The question on our chat in Slack - you can join the Changelog Slack and the JS Party channel... Seth asked "Is there any argument against async/await other than performance and "syntax sugar is bad"? Well, against async/await maybe not, because it's just sugar, but there are plenty more arguments against Promises than just performance, namely error handling - I think is the number one complaint. Whenever you're inside of Promises, often times you're many levels deep inside thens and stuff, and errors can get swallowed in a way that's very, very hard to track them down, and very hard to even get stack traces back out of them when you do catch them.
 
 \[00:27:59.22\] You have to be very explicit about every error step along the path, and if you're not, then things just get swallowed and you don't realize that bad things are happening in your code. It may not be the number one design flaw with them, but it's certainly the number one thing people run into whenever they set up a giant Promise-based system.
 
@@ -372,7 +372,7 @@ You could just put a marker on your hand to know a position; you can get an RFID
 
 **Rachel White:** Yeah, I have. I have a bit. I'm learning A-Frame, I'm messing around with a bunch of other various three.js stuff, and I've done some WebGL video game things. This is something that I'm super interested in. Plus, it's happening so fast... People are making cool stuff with this, and I find that the people that are actively developing interactive things for WebGL-based art are not software engineers for their day jobs, they're just multi-faceted technologists and artists that were like, "Oh, this is cool. I wanna make cool stuff for this." That's really awesome.
 
-**Alex Sexton:** I haven't done a ton of WebGL stuff. A little bit for some of the Stripe \[unintelligible 00:50:40.17\], but I have met Mr. Dube, which I feel like it's pretty much the same thing.
+**Alex Sexton:** I haven't done a ton of WebGL stuff. A little bit for some of the Stripe splash page stuff, but I have met Mr.doob, which I feel like it's pretty much the same thing.
 
 **Mikeal Rogers:** Okay, there you go. I've tried to use three.js and I really couldn't get my head into it. It's one of those libraries that's just so massive. I could take a demo and kind of hack it up, but I couldn't really get my head around it.
 
