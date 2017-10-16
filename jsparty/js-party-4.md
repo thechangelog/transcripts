@@ -62,7 +62,7 @@ I can go through the checklist, but does that make sense so far?
 
 **Alex Sexton:** Yeah. I think a key thing to know about service workers is that they're installed; there's not like an install pop-up, but they're inherently installed in cache, and then the installed service worker runs anytime that URL hits, and then they're inherently also coupled with a cache object. So those two primitives are very powerful, because once I go to AlexSexton.com, AlexSexton.com can install a service worker.
 
-\[00:08:00.19\] One of the most beautiful things about service workers is that by definition on the first load you won't have one, so it forces -- we talked a little bit about this with \[unintelligible 00:08:11.20\] they're trying to force people to have fast website, but they might actually be doing the opposite in some cases.
+\[00:08:00.19\] One of the most beautiful things about service workers is that by definition on the first load you won't have one, so it forces -- we talked a little bit about this with AMP, they're trying to force people to have fast website, but they might actually be doing the opposite in some cases.
 
 In this case, what they wanna force people is to work offline, but they don't want people to build websites that assume anything, assume a good network connection. Because once you're offline, everything's locally cached. The most beautiful thing about service workers is that the first time you load a page, the service worker cannot run because it couldn't have installed yet. So your website has to work on browsers that don't support service workers at all, as well as on the first load for browsers that do support it.
 
@@ -122,7 +122,7 @@ They also have a tool called the Lighthouse tool that will run over your app and
 
 **Mikeal Rogers:** Right, right. The way that you push around data for poor networks as well, and for offline, is very different. But a lot of those offline use cases seem to be either deprioritized or just not very visible in the Progressive Web App story. It seems like it's just become a shorthand for service workers in the meantime. But maybe as more people build offline apps, that'll become part of the story and we just have an early acronym here that hasn't really gotten filled out.
 
-**Alex Sexton:** Yeah. Someone mentioned on Twitter \[unintelligible 00:18:59.06\] that Safari does have "Add to Home Screen." It doesn't do any service worker stuff, it's just a link to a page. It's had that for a long time.
+**Alex Sexton:** Yeah. Someone mentioned on Twitter, Dayton Lowell, that Safari does have "Add to Home Screen." It doesn't do any service worker stuff, it's just a link to a page. It's had that for a long time.
 
 If you download one of Google's beta browsers or something like that, it actually says "Install Application." There are also things that I've seen demoed - I'm pretty sure they're live - to where if you visit a progressive web app enough times on the internet, Google will helpfully say "Hey, would you like to install this as an offline app on your homescreen?" So it's kind of like this beautiful world where the web becomes the app store again. It's a pipedream, I'm sure, but the closed network of the app store becomes the entire searchable web again, which is how it was in the early days of the web; the applications were just URLs, and now that's kind of different. Hopefully we can get that closer to that.
 
@@ -144,9 +144,9 @@ I don't know how much you all have had to deal with this, or if you have any hor
 
 **Rachel White:** Oh my god...
 
-**Alex Sexton:** That was just very fair.
+**Alex Sexton:** Which is very fair.
 
-**Rachel White:** I think that even though it is something that's hard and everybody complains about it -- if you can hear the children outside yelling, let me know and I'll \[unintelligible 00:22:25.09\] again.
+**Rachel White:** I think that even though it is something that's hard and everybody complains about it -- if you can hear the children outside yelling, let me know and I'll shut my window and just sweat again.
 
 **Alex Sexton:** We can, but I don't think it's significant...
 
@@ -156,7 +156,7 @@ I don't know how much you all have had to deal with this, or if you have any hor
 
 **Rachel White:** \[laughs\] Oh, god...
 
-**Mikeal Rogers:** Alright... So beyond that, there's some real complexities in working with date/time and working with timezones. In the mid-2000s I actually worked on calendaring standards at CalConnect, and unlike the \[unintelligible 00:23:36.13\] standards and stuff like that. So I'm very aware of the complexity you're trying to deal with... Javascript happens to have one of the least sophisticated and built out date/time objects, so it doesn't help you very much.
+**Mikeal Rogers:** Alright... So beyond that, there's some real complexities in working with date/time and working with timezones. In the mid-2000s I actually worked on calendaring standards at CalConnect, and on like the CalDAV scheduling standards and stuff like that. So I'm very aware of the complexity you're trying to deal with... Javascript happens to have one of the least sophisticated and built out date/time objects, so it doesn't help you very much.
 
 \[00:23:52.26\] Since really the early 2000s, we've been building these third-party libraries to deal with a lot of this. One of the problems that we continue to run into is that these are some of the largest libraries you have to include. MomentJS is really good, it does a lot of really good stuff, but it's huge, and it's not huge in a way where, "Oh, that should be a small module that does one thing..." All of the logic to do one of these things - 90% of that is required for doing the other thing. It defies a lot of the abstractions and a lot of the modularity that we like to talk about.
 
@@ -232,7 +232,7 @@ Maybe you don't get the weird month offset versus date offset thing that we get 
 
 **Alex Sexton:** Both of those things are just guaranteed gonna happen regardless, so... \[laughter\] Change your behavior, basically... I mean, he's right, but...
 
-**Mikeal Rogers:** \[laughs\] There you go. But other languages, 1) they actually do have better timezones built in, a lot of them do. And even when they don't, it's a backend; you can keep that stuff \[unintelligible 00:32:51.27\]
+**Mikeal Rogers:** \[laughs\] There you go. But other languages, 1) they actually do have better timezones built in, a lot of them do. And even when they don't, it's a backend; you can keep that stuff on disk and not really care.
 
 **Alex Sexton:** ...hit the Linux, yeah.
 
@@ -240,7 +240,7 @@ Maybe you don't get the weird month offset versus date offset thing that we get 
 
 **Alex Sexton:** There was just recently a change... Wasn't there like a copyright issue with that, or something?
 
-**Mikeal Rogers:** Yeah, in 2011 he got sued by somebody, an Atlas company, because they claimed that he was using something from their Atlas. The end result is that the EFF got them to drop their lawsuit, but he put it into \[unintelligible 00:33:24.02\] after that, so that he wouldn't be personally liable anymore and getting sued.
+**Mikeal Rogers:** Yeah, in 2011 he got sued by somebody, an Atlas company, because they claimed that he was using something from their Atlas. The end result is that the EFF got them to drop their lawsuit, but he put it into ICANN after that, so that he wouldn't be personally liable anymore and getting sued.
 
 **Alex Sexton:** Yeah, donate to the EFF, everybody.
 
@@ -276,13 +276,13 @@ The possibilities are seriously endless for the ways that people are gonna be ab
 
 **Rachel White:** \[00:40:01.07\] It's super focused, and it's broken down... It's still in the beta right now, so it's not hugely open to the public, while they're still trying to fill out some things, but if you go into the site you'll see that there's different curated collections of apps where you can go to Hello Worlds for certain things, or games, or hardware projects and bots... So you can go in and be like "Oh wow, this is a really cool Slack/commands" like we use for the how much time is left until JS Party is going to start. And if I wanted to make my own, I could click on that, hit "Remix my own" and I'd be able to see a whole entire codebase of it already working, and then I could just tweak it to fulfill the needs that I have. It seems really nice.
 
-**Alex Sexton:** One of my favoritest, favorites, hottest takes on it that I saw on the internet was that it's kind of like a next generation GeoCities or Neopets or whatever you grew up with... Members.aol.com \[unintelligible 00:41:09.26\] where people could very easily get going based on templates, and then there were endless tweakers and copiers and all sorts of stuff. Half the people I know who got started in web development was like trying to style their MySpace page or their Neopets page, or something like that. So I think this has a lot of potential to fulfill some of that stuff, but at a larger level, and I like that take a lot.
+**Alex Sexton:** One of my favoritest, favorites, hottest takes on it that I saw on the internet was that it's kind of like a next generation GeoCities or Neopets or whatever you grew up with... members.aol.com/~username where people could very easily get going based on templates, and then there were endless tweakers and copiers and all sorts of stuff. Half the people I know who got started in web development was like trying to style their MySpace page or their Neopets page, or something like that. So I think this has a lot of potential to fulfill some of that stuff, but at a larger level, and I like that take a lot.
 
 **Rachel White:** Yeah... The other thing that is also really great about it is - I might be biased here, but Jenn Schiffer left Beaucoup to join Fog Creek to head up working with community stuff and working on Glitch to help make it better, and I know that she cares a lot about teaching people and having code be more accessible, and really just getting people to make more stuff. Well, I think we have her, and she's gonna tell us more about Glitch.
 
 **Jenn Schiffer:** Hi! Thank you for having me. Rachel described Glitch really well. Thank you, Rachel, and Mikeal and Alex - all of you for having me. I'm not very articulate about stuff because it's been a really busy week here at Fog Creek with launching the rename of Glitch and launching our Glitcher API, which is kind of like a partnership thing, and also just talking to a lot of people about how we're sort of doing things differently than a lot of other end browser IDEs do. That's focusing around the community around the product first, and focusing also on education.
 
-We really wanna make an application that is for everyone - developers and non-developers - who want to have access to becoming a developer alike. So yeah, it's been exciting in the past few days, launching a bunch of stuff... We did a thing with Slack, with a new \[unintelligible 00:43:12.08\], so I built something for them, I've been following what people have been building with Glitch, I've been doing some live coding and just seeing the kind of things that people want to make and haven't really been able to so easily because they might not necessarily know how to do dev ops stuff, getting things on the internet.
+We really wanna make an application that is for everyone - developers and non-developers - who want to have access to becoming a developer alike. So yeah, it's been exciting in the past few days, launching a bunch of stuff... We did a thing with Slack, with a new link ufurl, app unfurl endpoint, so I built something for them, I've been following what people have been building with Glitch, I've been doing some live coding and just seeing the kind of things that people want to make and haven't really been able to so easily because they might not necessarily know how to do dev ops stuff, getting things on the internet.
 
 **Rachel White:** I know that when you all launched this officially on Monday I was super excited, because I could just think of so many times in my professional career when I didn't necessarily understand something that this would have been super helpful for me to brainstorm something and have it work as I code, and have people help me. What's some of the feedback that you've been getting from people that have gotten to mess around with this so far?
 
@@ -294,7 +294,7 @@ Then we also have multiple user collaboration, and even more really cool, new fe
 
 **Mikeal Rogers:** So Fog Creek does a lot of cool stuff... What made them wanna get into this educational stuff? It's really cool.
 
-**Jenn Schiffer:** The project started out a couple years ago... My teammate Daniel came up with the idea, and he got the opportunity with \[unintelligible 00:45:43.11\] who's a designer/developer also here, to sort of flesh out this in-browser IDE. I guess through time it just organically made sense to not just focus on an editor in the browser, because again, there's lots of those, but focus on how this can stand out and what we can do to not only stand out, but also improve the culture in tech.
+**Jenn Schiffer:** The project started out a couple years ago... My teammate Daniel came up with the idea, and he got the opportunity with Pirijan who's a designer/developer also here, to sort of flesh out this in-browser IDE. I guess through time it just organically made sense to not just focus on an editor in the browser, because again, there's lots of those, but focus on how this can stand out and what we can do to not only stand out, but also improve the culture in tech.
 
 So starting out with community as a focus is a really big thing, I think. Usually, community moderation and all that stuff is an afterthought, and we've experienced many times in our industry how making inclusivity an afterthought can lead to disaster, so we're trying to not let that happen. That's sort of what the focus is.
 
@@ -312,9 +312,9 @@ Nowadays it's culture -- a lot of people who are new to development or just are 
 
 **Jenn Schiffer:** Yeah... Slack are good friends of ours, and for their app unfurl launch on Wednesday we worked with them to make sure that we had some cool apps available when the announcement came out. So I made an app unfurl that if you install the app and you post Glitch project links in your slack channel, it will unfurl to have links to view the code, remix and run the application, with a description of what the app is... Just like a richer experience within Slack, if you're into using Glitch.
 
-We wanted to make something that was like "Okay, this exists, this is a new endpoint that's available. If you want this for your company, just take my app and remix it and update the good stuff - the part that comes to the unfurl - with what you want, and then you're good to go." You don't have to worry about rolling your Slack OAuth and all that other fun stuff that we developers love to do when we have deadlines.
+We wanted to make something that was like "Okay, this exists, this is a new endpoint that's available. If you want this for your company, just take my app and remix it and update the good stuff - the part that comes to the unfurl - with what you want, and then you're good to go." You don't have to worry about rolling your own Slack OAuth and all that other fun stuff that we developers love to do when we have deadlines.
 
-So that's another case \[unintelligible 00:50:06.06\] community page we have a lot of building block apps that you can remix off of and build your apps onto it just to save you time. That's another thing I think that we've been taking for granted from the past... One of the tenets of programming and software engineering is code reuse, and this makes it easier to reuse code.
+So that's another case where it is, you know our community page we have a lot of building block apps that you can remix off of and build your apps onto it just to save you time. That's another thing I think that we've been taking for granted from the past... One of the tenets of programming and software engineering is code reuse, and this makes it easier to reuse code.
 
 **Rachel White:** Cool.
 
