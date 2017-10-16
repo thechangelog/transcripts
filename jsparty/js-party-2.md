@@ -20,7 +20,7 @@ So as an approximation of the old Javascript Assembly stuff, asm.js and stuff, b
 
 **Alex Sexton:** \[00:03:47.23\] Definitely game developers will probably switch over to this. If you think about how Canvas works, or WebGL or something like that, it's like the DOM and Javascript and all that kind of stuff provides this web API that is very good for making websites, but once you break out of that, you can go to Canvas and you start literally just printing pixels in a grid, and you're totally outside of accessibility and selectors and all that kind of stuff. You've kind of just exited from the stack already.
 
-People who are already exiting the stack to do things may find that they can write in a language or in a platform that can compile to Assembly, rather than in a Javascript environment; there may already be great tooling around doing those things. So the nice thing is that you can have parts of your code that are Web Assembly, \[unintelligible 00:04:48.04\] or something like that, and then still build out your majority of your website and your interface and things like that, in regular web. Everything. So you don't necessarily have to go all in Web Assembly or all that. So if you wanted to build a graphics editor or something like that, you can have the tough parts written in Web Assembly, and then still do the interface in normal human Javascript, or whatever.
+People who are already exiting the stack to do things may find that they can write in a language or in a platform that can compile to Assembly, rather than in a Javascript environment; there may already be great tooling around doing those things. So the nice thing is that you can have parts of your code that are Web Assembly, and run them in a worker or something like that, and then still build out your majority of your website and your interface and things like that, in regular web. Everything. So you don't necessarily have to go all in Web Assembly or all that. So if you wanted to build a graphics editor or something like that, you can have the tough parts written in Web Assembly, and then still do the interface in normal human Javascript, or whatever.
 
 **Rachel White:** Oh, that's pretty rad. I like that it's giving people more options to create more things. I saw that one of the other things that we have to talk about is getting started with Web Assembly in Node.js... I guess we could just talk about that next. Aside from getting started with it in Node.js, are there any other options that either of you know of for somebody that wanted to take a deeper dive into this and try it out?
 
@@ -49,7 +49,7 @@ A lot of the NaCl stuff that you were talking about and some of the other kind o
 
 **Alex Sexton:** Sure.
 
-**Mikeal Rogers:** Essentially, all of that has never really worked because you just can't really share them effectively. So what asm.js really was... A group of people - primarily people at Mozilla - trying to prove that "You know what, if we take a subset of Javascript, valid Javascript that we'll interpret, but we say just a subset of it, and we put a comment in it similar to \[unintelligible 00:10:04.03\] and we say this is asm.js land, it will interpret and fall back on all these other browsers and it will work as normal Javascript. But because we have that little comment in there and because it's using a strict subset, we can write some stuff inside of the JIT, instead of the regular Javascript interpreter that makes this really fast."
+**Mikeal Rogers:** Essentially, all of that has never really worked because you just can't really share them effectively. So what asm.js really was... A group of people - primarily people at Mozilla - trying to prove that "You know what, if we take a subset of Javascript, valid Javascript that we'll interpret, but we say just a subset of it, and we put a comment in it similar to "use strict" and we say this is asm.js land, it will interpret and fall back on all these other browsers and it will work as normal Javascript. But because we have that little comment in there and because it's using a strict subset, we can write some stuff inside of the JIT, instead of the regular Javascript interpreter that makes this really fast."
 
 **Alex Sexton:** Right. But there are a lot of V8 people that disagree with that pretty heavily.
 
@@ -130,7 +130,7 @@ The ease of getting started with Javascript... Like, if you just wanna write Jav
 
 **Rachel White:** So I'm actually wondering if this is going to help the students be able to debug things better? Because I do run a lot of hackathons -- well, not run... I work a lot of hackathons and have to help the students whenever they run into issues. And they're always using Python or Java, and they just don't know how to fix errors. I'm wondering if them being able to do Javascript and having it be a little bit easier to stack trace stuff, if they're gonna teach that even... I don't know.
 
-**Alex Sexton:** Yeah. I mean, the tooling we were given in my class had some of this built into the editor we were supposed to use, but the ease of use of dev tools isn't amazing. There's still plenty of people I see \[unintelligible 00:22:17.28\] but the ease of use of dev tools is certainly easier than running a strace against some native program. The tooling has accidentally become much accessible, so I think you're absolutely right that debugging could be a skill that accidentally benefits from this.
+**Alex Sexton:** Yeah. I mean, the tooling we were given in my class had some of this built into the editor we were supposed to use, but the ease of use of dev tools isn't amazing. There's still plenty of people I see just like "alert()" debugging but the ease of use of dev tools is certainly easier than running a strace against some native program. The tooling has accidentally become much accessible, so I think you're absolutely right that debugging could be a skill that accidentally benefits from this.
 
 **Mikeal Rogers:** And even to get to debugging, you have to render a program. And running your program in Java -- ugh! It's like 20 minutes to get the VM spun up etc. It's not really made for that quick turnaround time. I think between Node.js and Python there's not a huge difference. I mean, there is a big difference in start time if we're talking about microservices, but for development and workflow, they both run relatively quickly compared to Java. And this is why Java developers have these giant IDEs that are sort of like trying to run their code while they're writing it, so that they don't have to try to run it on a command line and see if it failed or not.
 
@@ -162,7 +162,7 @@ I don't know anybody who used to write Assembly and C who's writing Javascript n
 
 **Alex Sexton:** \[00:27:41.07\] I know a lot of people. I think people kind of avoid you sometimes, so... \[laughter\] I know plenty of people who feel very strongly about types, and have their good reasons. I don't necessarily agree with them, but I think it's silly to write off types as a thing that people don't need to learn. If you're getting a CS degree, only a certain percentage of those people are gonna end up writing Javascript. Some large percentage are gonna end up working in typed languages, so I feel like the experience that I had in school when I did -- I mean, we used Haskell and Scheme and Java and C++ in a bunch of stuff, but I feel like the fact that I got that experience in a typed language means that when my company decides "Hey, we're gonna use flow", like, that's fine, I understand types; or whenever the web dies in two years again - I think we're due for the web being dead - then I can go write Elm, or whatever, in a native iOS platform, or whatever, and have types.
 
-**Mikeal Rogers:** Well, when you learn a dynamic language, you learn about types... You just don't learn about static typing. You know what a string is, you know what an array is, you know that they're different, and then you also have to learn these \[unintelligible 00:29:05.06\] semantics, right?
+**Mikeal Rogers:** Well, when you learn a dynamic language, you learn about types... You just don't learn about static typing. You know what a string is, you know what an array is, you know that they're different, and then you also have to learn these coercion semantics, right?
 
 **Alex Sexton:** Yeah, but you don't learn about function overloading or pattern matching on arguments... There's a whole world around types that I think is worthwhile to learn, even if you don't agree that you want to be doing that for your types of programs. I think types catch a lot of errors that I don't have, or that bubble up anyways. If I send the wrong type to most of my functions, they will throw an error; they'll just do it in runtime. And as long as you test them, most of the times you can catch those if you have good coverage, so types have dubious value there.
 
@@ -197,7 +197,7 @@ At Stripe, since we use Flow and we use some third-party things, we can also pul
 
 **Alex Sexton:** I mean, it has come up several times since then, but since these have come out, people are like "This is good enough." Everyone thinks that even with TypeScript, you can actually compile down to faster than Javascript stuff with asm.js, because sometimes you have types that you can do better than the regular JIT with...
 
-**Mikeal Rogers:** \[00:35:55.28\] Yeah, so one of the arguments that VM implementers like to have about types is that they can make the VMs much faster if they know what the types are. But now we're seeing this case where actually tools are better at optimizing this kind of stuff than people are. So if you have things like Flow type and TypeScript, we can actually write tools that then turn into even better Javascript code that can hit all \[unintelligible 00:36:16.02\] depending on the types.
+**Mikeal Rogers:** \[00:35:55.28\] Yeah, so one of the arguments that VM implementers like to have about types is that they can make the VMs much faster if they know what the types are. But now we're seeing this case where actually tools are better at optimizing this kind of stuff than people are. So if you have things like Flow type and TypeScript, we can actually write tools that then turn into even better Javascript code that can hit all the hot code paths depending on the types.
 
 **Alex Sexton:** I personally like types much better for documentation and people-related benefits, like IDEs and stuff like that, much more than I like it for safety and speed. It seems like everytime we think something about safety and speed is true with types, someone on the V8 team shows us that we're wrong. If what I just said is incorrect, please don't send me hate mail, but...
 
@@ -311,7 +311,7 @@ Also, a fun fact that I forgot to mention earlier is that Flow, the actual thing
 
 One of the guys on my team found a bug in the invitation of Flow, and he wanted to fix it, so he had to learn how to run OCaml and get an environment set up and submit a patch that way, and I just thought it was very funny, because I didn't know people liked OCaml until very recently.
 
-**Mikeal Rogers:** \[laughs\] Rarely people that are really into typing. I'm looking at the Request definition in here, and it's really funny because so many of the Request functions are take dynamic arguments... They'll take different types and then do different \[unintelligible 00:48:04.24\]
+**Mikeal Rogers:** \[laughs\] Rarely people that are really into typing. I'm looking at the Request definition in here, and it's really funny because so many of the Request functions take dynamic arguments... They'll take different types and then do different \[unintelligible 00:48:04.24\]
 
 **Alex Sexton:** \[00:48:06.26\] Massively overloaded...
 
@@ -339,9 +339,9 @@ There's this new community; the organizers of the community have just been pheno
 
 **Mikeal Rogers:** No, I mean, there is internet at the camp. \[laughs\]
 
-**Alex Sexton:** If you need something to do in that week in Berlin, there's this really good Vietnamese noodle place called \[unintelligible 00:50:21.07\] that I would suggest you go to. That's my actual project of the week.
+**Alex Sexton:** If you need something to do in that week in Berlin, there's this really good Vietnamese noodle place called Monsieur Vuong that I would suggest you go to. That's my actual project of the week.
 
-**Mikeal Rogers:** They throw \[unintelligible 00:50:29.28\] and they're fun, it's really good. That's a good spot. There's also an amazing dumpling place that has this dish called Stripes of Beef, which are just these thin slices of beef with -- I don't know what they're doing with some kind of... It's like Sichuan pepper and a few other things, and some chili oil. But it's one of the best dishes you'll ever have.
+**Mikeal Rogers:** They throw star anise in their pho, and it's really good. That's a good spot. There's also an amazing dumpling place that has this dish called Stripes of Beef, which are just these thin slices of beef with -- I don't know what they're doing with some kind of... It's like Sichuan pepper and a few other things, and some chili oil. But it's one of the best dishes you'll ever have.
 
 **Alex Sexton:** Yeah... I actually think that's a translation error; it's actually tripes of beef, and those are intestines. \[laughter\]
 
@@ -367,7 +367,7 @@ There's this new community; the organizers of the community have just been pheno
 
 **Alex Sexton:** Yeah, that's the plan.
 
-**Mikeal Rogers:** Okay, awesome. Also, JSConf EU I guess is a good pick; it's a great conference. Awesome \[unintelligible 00:51:48.29\] Rachel?
+**Mikeal Rogers:** Okay, awesome. Also, JSConf EU I guess is a good pick; it's a great conference. Awesome kind of tent pole event. Rachel?
 
 **Rachel White:** \[00:51:53.15\] Yes. Okay, I do have a pick. If you're interested in data vizualization with D3 and other really cool stuff, there's two women... One lives in San Francisco, the other lives in Amsterdam, and they have this project called Data Sketches, where each month they are taking different topics and experimenting with data viz through exploration of how to show information based off of each of those topics. I saw one of them speak in January - Shirley Woo is one of them, and the other woman is Nadia Bremer (I hope I'm saying those names right).
 
