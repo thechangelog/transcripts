@@ -116,13 +116,13 @@ Interesting dynamics, but I doubt any of those reasons I just said were the actu
 
 **Mikeal Rogers:** And we're back! Alright, let's get into the decentralized web. P2P web, decentralized web - I think it's best described actually as a movement. It's not like a specific set of technology; there's a bunch of technologies, a bunch of projects, a bunch of people... But a lot of different people are trying to decentralize the web, trying to take a lot of the centralized cloud services that we've now become so reliant on and are basically all of our data to, and trying to actually build applications that are more P2P, more decentralized.
 
-The interesting thing about this movement is that it has big bearded fellows like Max Ogden, and mad scientists like Feross, and Substack, and cyber hobos like Dominic Tarr... But also Tim Berners-Lee and \[unintelligible 00:21:02.12\] and all these people that literally built the early web and the internet. So it's a very interesting mix of boomers and millennials that are all kind of crazy web people networking together on this stuff. Let's start rolling out some questions, and stuff like that.
+The interesting thing about this movement is that it has big bearded fellows like Max Ogden, and mad scientists like Feross, and Substack, and cyber hobos like Dominic Tarr... But also Tim Berners-Lee and Vint Cerf and all these people that literally built the early web and the internet. So it's a very interesting mix of boomers and millennials that are all kind of crazy web people networking together on this stuff. Let's start rolling out some questions, and stuff like that.
 
 WebRTC is the P2P protocol in the browser right now, and it's very different from how BitTorrent establishes connections, so there's a lot of work to try and bring different ideas from prior P2P system to it, and also building new P2P systems on top of it.
 
 **Rachel White:** Is WebRTC what you're using for that one site that you're actually working on where you can talk to people in the browser?
 
-**Mikeal Rogers:** Yeah, \[unintelligible 00:21:51.07\]
+**Mikeal Rogers:** Yeah, Roll Call.
 
 **Rachel White:** Cool, awesome. So web P2P stuff isn't necessarily just -- I guess when I think of P2P I automatically just think of early 2000s' file sharing, or pirating stuff... This is more of a P2P type of sense where it's just data sharing in a lot of different ways?
 
@@ -140,7 +140,7 @@ WebRTC is the P2P protocol in the browser right now, and it's very different fro
 
 **Mikeal Rogers:** Yeah, yeah. I think the file sharing example is kind of interesting, right? Because unlike the regular web where this network is just up and we kind of know how to get to things, and if you give it an address, it can figure out how to download that content... In decentralized systems you have to establish new networks for distributing things, and you have to figure out how people connect to these networks, and if they stay on them or if they leave.
 
-We have now decades of file sharing attempts to do this, right? Everything from Kazaa and Limewire and Napster back in the day... And now BitTorrent is sort of like the best of breed of all of this, so if you wanna establish a network for transferring and keeping alive a large file, they've really nailed that, and WebTorrent is a pretty \[unintelligible 00:23:45.16\] But for other use cases like "I wanna have chat rooms, phone calls", or all these other cases... How to establish that network is not as well -- people have not figured that out necessarily yet... Or figured out the best way for that yet.
+We have now decades of file sharing attempts to do this, right? Everything from Kazaa and Limewire and Napster back in the day... And now BitTorrent is sort of like the best of breed of all of this, so if you wanna establish a network for transferring and keeping alive a large file, they've really nailed that, and WebTorrent is a pretty direct port of that. But for other use cases like "I wanna have chat rooms, phone calls", or all these other cases... How to establish that network is not as well -- people have not figured that out necessarily yet... Or figured out the best way for that yet.
 
 **Rachel White:** \[00:24:03.19\\\] This might not be a relevant question, but does blockchain type of distributed database things - does that fall into web-based P2P stuff?
 
@@ -150,7 +150,7 @@ I think the best way to look at blockchains is that if you wanna have a transact
 
 **Alex Sexton:** Would you build operational transforms on top of a decentralized blockchain web implementation? Is that what we're talking about...?
 
-**Mikeal Rogers:** Possibly. You maybe could, but I'm wondering if -- well, we have so much other data on how to do operational transforms on top of Merkle trees and on top of all these other distributable data structures. I don't know if it's actually beneficial to do \[unintelligible 00:25:51.09\]
+**Mikeal Rogers:** Possibly. You maybe could, but I'm wondering if -- well, we have so much other data on how to do operational transforms on top of Merkle trees and on top of all these other distributable data structures. I don't know if it's actually beneficial to do it inside of a blockchain.
 
 **Alex Sexton:** So if you wanted to do P2P Google Docs, you wouldn't need the blockchain, or anything like that... Which is an encouraging statement to me.
 
@@ -166,7 +166,7 @@ I think the best way to look at blockchains is that if you wanna have a transact
 
 **Alex Sexton:** As you do...
 
-**Mikeal Rogers:** Yeah, and then he comes back with an entirely new implementation of \[unintelligible 00:27:19.13\] or something.
+**Mikeal Rogers:** Yeah, and then he comes back with an entirely new implementation of secure scuttlebutt or something.
 
 **Alex Sexton:** As you do. A serious question... The web, kind of like when we talk about app stores and we talk about -- what else; we've even talked about it on the show... We definitely talked about app stores, but either way, we talked about if you go and you put your app in the app store, you're using a centralized Apple control thing, and the way to win that back is to use the decentralized app store, which is the web.
 
@@ -198,7 +198,7 @@ Certainly, there are states involved, and censorship and things like that, but I
 
 **Alex Sexton:** I think it's possible to set up your own servers... You may have to, like...
 
-**Mikeal Rogers:** Yeah, yeah... But again, we need to make this useable, right? And without setting up your own server, you \[unintelligible 00:30:28.12\] and it will set up a point-to-point connection and never store any metadata or keep any kind of logs of that transaction anywhere else, and it's all encrypted and everything, so you don't have to worry about your providers violating your privacy, you don't have to worry about a lot of government intervention and stuff like that.
+**Mikeal Rogers:** Yeah, yeah... But again, we need to make this useable, right? And without setting up your own server, you can visit Roll Call and it will set up a point-to-point connection and never store any metadata or keep any kind of logs of that transaction anywhere else, and it's all encrypted and everything, so you don't have to worry about your providers violating your privacy, you don't have to worry about a lot of government intervention and stuff like that.
 
 These are issues that we need to start caring about as this becomes a bigger and bigger chunk of the internet. We need services that protect your privacy, and as soon as you wanna protect the user's privacy, the service provider loses access to read that data. So we have very different models. If you don't have a central point of authority, you lose that as well.
 
@@ -256,7 +256,7 @@ Additionally, even with just audio calls - that app is never gonna work for more
 
 **Mikeal Rogers:** \[laughs\] Yeah, yeah. I'm somewhat skeptical of a YouTube Competitor. Popcorn Time - I don't know if you can still download it off of random, weird website or whatever, but Popcorn Time is basically like this Apple TV-like application that is just beautiful. It will go out to P2P networks, find all the latest movies and things that you're not even supposed to have, and then literally you click a button and they just start streaming, and you can view them right away. So not the whole normal rigmarole with BitTorrent where you download a torrent, add it into an app, and then wait for that app to finish etc. It's literally just plays. All of the underlying code there is all in Node.js, and a lot of it was written by Mathias Buus, who now works on the Dat Project.
 
-A lot of the people that made Popcorn Time are in hiding or \[unintelligible 00:41:21.19\] He actually only worked on the lower level libraries, so that never happened and he's a free man. But he is doing amazing P2P work still. The big innovation that he figured out is that "Okay, we can actually in the BitTorrent protocol prioritize getting earlier parts of this file, we don't have to only go after what BitTorrent considers the least active parts of the file to keep it alive." And because we can do that and because we have Node Streams and because we can do all this really fancy math on the backend, we can stream this video over a P2P network in all these different chunks from all these different pieces. It's really cool.
+A lot of the people that made Popcorn Time are in hiding or arrested or something for various... He actually only worked on the lower level libraries, so that never happened and he's a free man. But he is doing amazing P2P work still. The big innovation that he figured out is that "Okay, we can actually in the BitTorrent protocol prioritize getting earlier parts of this file, we don't have to only go after what BitTorrent considers the least active parts of the file to keep it alive." And because we can do that and because we have Node Streams and because we can do all this really fancy math on the backend, we can stream this video over a P2P network in all these different chunks from all these different pieces. It's really cool.
 
 Now that's been adapted to WebTorrent, and you can just use that in your browser now. With this YouTube competitor, that's how it's working. WebTorrent allows you to add a web URL basically as a sort of peer of last resort; so if you can't get any data on the P2P network, like the file's not alive, it will just fall back to this CDN, essentially.
 
@@ -266,7 +266,7 @@ So you can actually have a really decent experience for watching videos on the w
 
 **Mikeal Rogers:** No it won't, because you don't pay for bandwidth that way, as a consumer.
 
-**Alex Sexton:** You don't... I think a lot of people do. People \[unintelligible 00:42:54.03\] most people these days - I think this is an accurate statement - watch videos on their phone.
+**Alex Sexton:** You don't... I think a lot of people do. People definitely have caps. Most people these days - I think this is an accurate statement - most people watch videos on their phone.
 
 **Rachel White:** Yeah, definitely.
 
@@ -280,7 +280,7 @@ So you can actually have a really decent experience for watching videos on the w
 
 **Mikeal Rogers:** I think for a lot of these though, you're only really sharing it while you're watching it; you're not still uploading in the background, or something. That's just not an experience that people are used to.
 
-I think there's a couple ways that you can overcome the performance issues. If you can establish the network that you're gonna get the content from before you need the content, then you're actually gonna be faster than traditional websites, because you're already gonna actually have a pretty good understanding of where this content is and how to \[unintelligible 00:44:50.29\]
+I think there's a couple ways that you can overcome the performance issues. If you can establish the network that you're gonna get the content from before you need the content, then you're actually gonna be faster than traditional websites, because you're already gonna actually have a pretty good understanding of where this content is and how to get it and a direct connection is already established.
 
 **Alex Sexton:** Sure, but that's the exact opposite of what you just said though, where you said you're never gonna be sharing something whenever you're not using...
 
@@ -354,7 +354,7 @@ If you're new to programming and wanted to get into open source, I would encoura
 
 **Rachel White:** There's also stuff that's tagged for first-time contribution, and non-code contributions, so there's some nice options in there.
 
-**Mikeal Rogers:** \[unintelligible 00:55:13.05\] has mentioned that eHealth Africa is the app that I was just talking about; she popped into the chat and set us correct on that stuff.
+**Mikeal Rogers:** Jenn Turner has mentioned that eHealth Africa is the app that I was just talking about; she popped into the chat and set us correct on that stuff.
 
 Cool. Okay, I think that we're probably ready to move on to our picks now. Rachel, I know that you've got your pick all lined up, why don't you tell us about that?
 
@@ -368,7 +368,7 @@ So you'll get a little tweet that says - I'm reading one now - "A mermaid paints
 
 **Alex Sexton:** Cool. Mine's pretty quick and easy. It's by Paul Irish, it's called pwmetrics. It's a command line application, it stands for progressive web metrics. It uses Google's Lighthouse performance measurement tool, and kind of combines it with the command line. So you just say "pwmetrics" and then give it a URL, and it will use some default configuration and give you this nice, pretty graph of your first content paint, your first visual change, perceptual speed index, time to interactive and first meaningful paint.
 
-So it kind of gives you a bunch of quick, easy stats, so you no longer have to go to the Lighthouse beta webpage and type in your URL and stuff like that. I don't know if I'd make this part of your build process, because you're kind of relying on other people's -- well, no, you're not really... It runs locally, so it runs a Chrome instance, so you need a headless Chrome, or you need the ability to \[unintelligible 00:58:29.29\] or something like that on your build servers, but you could probably put this in maybe a non-critical build path and then get performance metrics from every single commit that you ever make to your stuff and be really nifty. Some really good frontend ops right there.
+So it kind of gives you a bunch of quick, easy stats, so you no longer have to go to the Lighthouse beta webpage and type in your URL and stuff like that. I don't know if I'd make this part of your build process, because you're kind of relying on other people's -- well, no, you're not really... It runs locally, so it runs a Chrome instance, so you need a headless Chrome, or you need the ability to xvfb or something like that on your build servers, but you could probably put this in maybe a non-critical build path and then get performance metrics from every single commit that you ever make to your stuff and be really nifty. Some really good frontend ops right there.
 
 **Mikeal Rogers:** Cool! Awesome! Mine is a website, it's called GitHub. It's really cool, there's projects... No, I'm kidding. My pick is not GitHub. My pick is really self-promotional this week... Request For Commits is another podcast that I do on the Changelog network with Nadia Eghbal, where we dive really deep into open source. You can check out season one. We record them in seasons, so that we can kind of really think about who to talk to and what we're gonna think about in terms of themes for the whole season. But we have recorded some more episodes, and they will be coming soon to the Changelog feed - to the master feed and to the RFC feed.
 

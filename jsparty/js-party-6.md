@@ -62,7 +62,7 @@ So with the Shadow DOM, are you even seeing the other components, if I was gonna
 
 **Rachel White:** Okay, I guess that does make a lot more sense of you're thinking of React...
 
-**Alex Sexton:** Especially if you're pulling in components from other people. So if so-and-so styled this button and so-and-so styled this clock and whatever, in the React world there's a higher chance for collisions. Even the box model - one relies on the newer box model, and one relies on the... Things like that \[unintelligible 00:08:03.25\]
+**Alex Sexton:** Especially if you're pulling in components from other people. So if so-and-so styled this button and so-and-so styled this clock and whatever, in the React world there's a higher chance for collisions. Even the box model - one relies on the newer box model, and one relies on the... Things like that are going to all change.
 
 **Rachel White:** \[00:08:06.05\] Cool, so why is this stuff important to know, for people that don't know what it is?
 
@@ -110,7 +110,7 @@ One of the fundamental things that Web Components adds is the ability to do some
 
 But yeah, I wouldn't expect that React or Ember ends up with a Web Component version, but someone would do the React for Web Components and it's called WeAct or whatever, and that becomes a cool, popular thing.
 
-**Mikeal Rogers:** Interesting, very interesting. I'm trying to play out in my head how much of the web affects this. Like the way that you use Stripe, for instance, or I was using the \[unintelligible 00:15:25.10\] the other day... You get this Javascript include, and then you kind of use this custom element, and right now it has to do all this crazy stuff to find that element and do a bunch of stuff after load... Is it really gonna change the model of how that kind of stuff is implemented, where when you're like, "Hey, include my custom element in your page" - is it gonna work really differently and a lot smoother than it does today?
+**Mikeal Rogers:** Interesting, very interesting. I'm trying to play out in my head how much of the web affects this. Like the way that you use Stripe, for instance, or I was using the Tito embed the other day... You get this Javascript include, and then you kind of use this custom element, and right now it has to do all this crazy stuff to find that element and do a bunch of stuff after load... Is it really gonna change the model of how that kind of stuff is implemented, where when you're like, "Hey, include my custom element in your page" - is it gonna work really differently and a lot smoother than it does today?
 
 **Alex Sexton:** \[00:15:51.14\] Yeah, I think there are HTML imports which I don't know if have made it into browsers yet... And there are a few things that make a lot of those things really cool. I have implemented a long time the Stripe.js credit card form as a web component just internally to try it out, and the amount of work that I have to do to style safely and do all the third party Javascript things in the current world versus the Web Component world is pretty vastly different.
 
