@@ -116,7 +116,7 @@ Hopefully this will also make that a lot easier to deal with, because if they're
 
 **Rachel White:** I think we're definitely almost there. I've been actually thinking about trying to use the Tessl for some kind of like live visual feeding thing, because I do visuals for music stuff, and you usually need a resource with a bunch of clips. It would be easier than having to build a whole entire mini-computer with a Raspberry Pi.
 
-**Alex Sexton:** \[00:12:05.01\] I was wondering, would it still make more sense that since Node.js is just becoming available on these \[unintelligible 00:12:10.25\] devices - is it actually just an easier way to run Go, or something that you know you can't ever install? If you're really resource-constrained, could you just compile Go via \[unintelligible 00:12:27.22\] on the microcontroller for $6?
+**Alex Sexton:** \[00:12:05.01\] I was wondering, would it still make more sense that since Node.js is just becoming available on these harder for Node.js to run devices - is it actually just an easier way to run Go, or something that you know you can't ever install? If you're really resource-constrained, could you just compile Go via emscripten into JS and then do WASM on the microcontroller for $6?
 
 **Mikeal Rogers:** We just went through four compile layers... \[laughter\]
 
@@ -156,13 +156,13 @@ Hopefully this will also make that a lot easier to deal with, because if they're
 
 **Rachel White:** When does Node version 8 come out?
 
-**Mikeal Rogers:** Soon... Man, I should really know this. We're working on a lot of the messaging stuff right now, but I believe it's this month; I think it's April. Yeah, April or early May will be the initial release. A lot of people wait another six months though... For six months it will be the current release, and we're a little bit more liberal about adding features and stuff like that \[unintelligible 00:16:05.15\] so a lot of businesses and enterprises and stuff like that wait until we put it in the LTS, where we have a slightly higher bar for getting code into it.
+**Mikeal Rogers:** Soon... Man, I should really know this. We're working on a lot of the messaging stuff right now, but I believe it's this month; I think it's April. Yeah, April or early May will be the initial release. A lot of people wait another six months though... For six months it will be the current release, and we're a little bit more liberal about adding features and stuff like that while it's the current release so a lot of businesses and enterprises and stuff like that wait until we put it in the LTS, where we have a slightly higher bar for getting code into it.
 
 \[00:16:16.01\] But yeah, it will kick over pretty soon. Async 0.8 will also be in there, so that's fun.
 
 **Rachel White:** What else is in there? Unless you shouldn't tell us, because then we can talk about it next week, or something... \[laughter\]
 
-**Mikeal Rogers:** I think those are the two main points - the new native API stuff and Async 0.8. Every time I say Async 0.8 -- there's actually a video of this on the internet... Ben Michael, or Mitchell -- I love Ben, he's one of my favorite people, but I always forget how to pronounce his last name... He's an amazing musician, he worked for \[unintelligible 00:16:53.24\] for a while... He did the full soundtrack for the RealTimeConf and all of that - really impressive stuff.
+**Mikeal Rogers:** I think those are the two main points - the new native API stuff and Async 0.8. Every time I say Async 0.8 -- there's actually a video of this on the internet... Ben Michael, or Mitchell -- I love Ben, he's one of my favorite people, but I always forget how to pronounce his last name... He's an amazing musician, he worked for &yet for a while... He did the full soundtrack for the RealTimeConf and all of that - really impressive stuff.
 
 **Rachel White:** He's really good at karaoke...
 
@@ -204,7 +204,7 @@ I guess that's what we're gonna talk about, and I'm gonna say "No" to all of tha
 
 **Rachel White:** Well, I guess that depends on -- I mean, I've had jobs where they've gotten mad if we used j.Query, and then I've had jobs where it was like "Use j.Query if you would like to use j.Query." I guess it depends on if you wanna focus on frontend, if you wanna focus on backend, if you wanna do full stack, if you wanna do Javascript robotics, if you wanna do creative coding... It all depends on what your focus is going to be where I think you should start.
 
-**Mikeal Rogers:** And where does some of the tooling fit in though, right? Babel is not vanilla Javascript, you are compiling it down... But you're also \[unintelligible 00:20:52.18\] a newer version of the language, so does that count as extra stuff that you're learning and not vanilla?
+**Mikeal Rogers:** And where does some of the tooling fit in though, right? Babel is not vanilla Javascript, you are compiling it down... But you're also technically kinda using a newer version of the language, so does that count as extra stuff that you're learning and not vanilla?
 
 **Rachel White:** You mean like somebody going in and understanding ES6 syntax, and stuff like that?
 
@@ -220,7 +220,7 @@ It's actually much more important that you're just doing it in a way that you kn
 
 **Rachel White:** True. And I think that this conversation is unique to people that don't necessarily come from a CS background, too... Well, from my perspective, at least. I'm speaking of self-taught, self-driven people that don't have that fundamental basis of "What is computing?" If you're coming from that background, it would be totally different, because you're gonna understand a lot of the concepts of how the language is structured anyway.
 
-**Alex Sexton:** \[00:23:58.20\] Right. And just like in music, people who aren't classically trained always have these weird, interesting -- like, if you master the fundamentals enough, you can do weird, interesting things because you understand why they're weird and interesting... But also, the people who are self-taught, or weirder musicians are often more creating and interesting and do more fun things, whereas the people who are taught \[unintelligible 00:24:22.00\] stay in the box more often, because that's how they were taught.
+**Alex Sexton:** \[00:23:58.20\] Right. And just like in music, people who aren't classically trained always have these weird, interesting -- like, if you master the fundamentals enough, you can do weird, interesting things because you understand why they're weird and interesting... But also, the people who are self-taught, or weirder musicians are often more creating and interesting and do more fun things, whereas the people who are taught via rote stay in the box more often, because that's how they were taught.
 
 It's totally possible to break out of those two molds, but I think that that follows somewhat pretty closely into development, just like any creative endeavor.
 
@@ -270,7 +270,7 @@ That's probably the closest that I've found that feels the same way viewing sour
 
 **Alex Sexton:** Yeah... Customizing your page is one thing, but you used MySpace not just for customization; you went to your friend's page and you're like "How the heck do they have a gradient background with rounded corners?" and then you had to learn... Or "Does this button resize AND have rounded corners? Are they using Sliding Doors?" and then you'd have to learn Sliding Doors.
 
-**Mikeal Rogers:** That said, the reason why we probably don't use MySpace today is because the visual damage that that did to people \[unintelligible 00:33:59.10\]
+**Mikeal Rogers:** That said, the reason why we probably don't use MySpace today is because the visual damage that that did to people and the site in general.
 
 **Alex Sexton:** I mean, that's why MySpace was fun, right? I said it in the chat, but I've actually found that since MySpace died a while ago, the generation of programmers that are coming into jobs and open source projects that I have often are talking about customizing their NeoPets page. I think they actually end up accidentally being these probably more niche sites - I mean, NeoPets probably was big as well, but not as big as MySpace - where this type of thing is still possible, and then these little communities of people who accidently learn how to program pop up, which is cool
 
@@ -330,7 +330,7 @@ That being said, Mastodon is young, it is new (kind of a pun)... People are stil
 
 **Mikeal Rogers:** That was the fun police. Okay... So the UI looks a lot like TweetDeck, it's very similar to TweetDeck. It seems kind of optimized for power users at this point...
 
-**Rachel White:** Yeah... There's also though some really great mobile applications for it. I downloaded one for my phone and it works great. That's for iOS... If you go to the main Mastodon repository, there's a whole entire list of apps already. Let's see - there's already apps for Android, and then there's stuff for iOS... Somebody has already ported Twit, which is the Node Twitter streaming API, to allow you to make bots; so there's a Mastodon version of Twit, and I know that the \[unintelligible 00:44:45.12\] community has embraced Mastodon... There's a botsin.space federation instance that you can join, for making bots on it.
+**Rachel White:** Yeah... There's also though some really great mobile applications for it. I downloaded one for my phone and it works great. That's for iOS... If you go to the main Mastodon repository, there's a whole entire list of apps already. Let's see - there's already apps for Android, and then there's stuff for iOS... Somebody has already ported Twit, which is the Node Twitter streaming API, to allow you to make bots; so there's a Mastodon version of Twit, and I know that the bot ally community has embraced Mastodon... There's a botsin.space federation instance that you can join, for making bots on it.
 
 People are already making tools... Darius (@TinySubversions) made one for helping with OAuth with Mastodon... People are really excited about being able to have their hands in something that they're using as a community, and not have it being controlled by companies. The cost to run a federation is the same cost as it would be to run any kind of server... There is a server instance, you're just spinning it up and running it on your own thing. That depends on how many people you wanna be on your instance.
 
@@ -404,7 +404,7 @@ It's like the 4chan/Achan problem...
 
 **Alex Sexton:** Your pick is undefined.
 
-**Mikeal Rogers:** What's your favorite \[unintelligible 00:53:17.04\]? That'll be your pick.
+**Mikeal Rogers:** What's your favorite hot sauce? That'll be your pick.
 
 \[phone ringtone in the background\]
 
