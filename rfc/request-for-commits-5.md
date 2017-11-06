@@ -20,7 +20,7 @@ Then when I was graduating, I was like, “I need to get a job!” In hindsight,
 
 I had these two job offers coming out of university, one in the town I was living in. I had a really cool apartment, a bunch of friends... You know, it was in Virginia where my family is. Then this other one, in the middle of Kansas, working at a newspaper. But then I ended up actually – they flew me out to... Because they were like, “Nobody moves to Kansas without coming and seeing it first”, because it’s actually... Lawrence is a really, really cool small town. It’s in the liberal part of the red state, so I ended up landing in Lawrence, and just being blown away in the three days I spent there, with the amazing people, and being the home of Django, really just kind of seeing that iteration of Python technology.
 
-Zope definitely felt like the old school, and Django was the new school. So that’s how I ended up in Lawrence. And then, Read the Docs was actually a Django-Dash project. There was a 48-hour coding competition. I kind of ended up doing a lot of Python developments in Django. Django has always focused super heavily on documentation, and that’s part of the culture of Python and Django communities. I’ve \[unintelligible 00:03:26.10\] source code that had some okay documentation, and it was really just scratching my own itch, right? I had a Cron job, running on the server every hour, just pulling down my git repo and then building documentation from that, and hosting it. We really have better tools, and better technology for this. It really just spawned a 48-hour like, “Let’s have a thing that listens to GitHub web hooks and auto-generates documentation whenever we commit, so it’s always up to date", and then we kind of layered the whole version control paradigm on top of that. So use tags and branches to track docs along with the source code, and then building on top of your development workflow that you’re already using for tagging and branching and all that stuff, so your docs stay up to date, but also you can host old versions of documentation, that kind of stuff. So that was the long answer to that one. \[laughter\]
+Zope definitely felt like the old school, and Django was the new school. So that’s how I ended up in Lawrence. And then, Read the Docs was actually a Django-Dash project. There was a 48-hour coding competition. I kind of ended up doing a lot of Python development in Django. Django has always focused super heavily on documentation, and that’s part of the culture of Python and Django communities. I had some source code that had some okay documentation, and it was really just scratching my own itch, right? I had a Cron job, running on the server every hour, just pulling down my git repo and then building documentation from that, and hosting it. We really have better tools, and better technology for this. It really just spawned a 48-hour like, “Let’s have a thing that listens to GitHub web hooks and auto-generates documentation whenever we commit, so it’s always up to date", and then we kind of layered the whole version control paradigm on top of that. So use tags and branches to track docs along with the source code, and then building on top of your development workflow that you’re already using for tagging and branching and all that stuff, so your docs stay up to date, but also you can host old versions of documentation, that kind of stuff. So that was the long answer to that one. \[laughter\]
 
 **Mikeal Rogers:** \[00:04:24.06\] You mentioned that Django had amazing documentation from the start and that’s very true, it’s beautiful. Do you want to talk a little bit about what prompted them to have such great documentation, and some of the values there, where that came from?
 
@@ -158,7 +158,7 @@ This is actually one of the things that I think Sphinx did really well, is it al
 
 I don’t know if Write the Docs is a hundred percent professionalizing it, it’s more just saying it’s valuable and it’s a skill that we all need to have. Yes, there’s people whose job it is to write, but every developer, their job is also to write. Regardless of if you’re doing open source work or something else, being able to contribute documentation to a project really does increase your skill as a developer; I think that’s another way.
 
-I always see documentation framed as a non-code contribution, which is just really weird, like uttering of anything but code, it’s like NoSQL - we’re defining what we’re doing in the negative, right? Non-code contributions are not somehow lesser than code contributions. They’re contributions to the project, and the fact that we even have to call them that shows a broken culture. But I think that starting to value those – GitHub’s little activity tracker was only counting code comments, and they just updated it to include other things, but I think there’s much larger cultural things around not valuing \[unintelligible 00:44:05.03\] code nearly as much. I think that’s super hard to change, but it’s slowly starting to.
+I always see documentation framed as a non-code contribution, which is just really weird, like othering of anything but code, it’s like NoSQL - we’re defining what we’re doing in the negative, right? Non-code contributions are not somehow lesser than code contributions. They’re contributions to the project, and the fact that we even have to call them that shows a broken culture. But I think that starting to value those – GitHub’s little activity tracker was only counting code comments, and they just updated it to include other things, but I think there’s much larger cultural things around not valuing contributions that aren't code nearly as much. I think that’s super hard to change, but it’s slowly starting to.
 
 **Mikeal Rogers:** \[00:44:13.25\] There’s an ongoing theme here of the things that you value in your community are the things that people show up to do. That’s how you get contributors to actually value those kinds of skill sets.
 
@@ -166,7 +166,7 @@ I always see documentation framed as a non-code contribution, which is just real
 
 **Mikeal Rogers:** We’re starting to head into time for a break right now. We’ll return shortly with Eric Holscher and we’re going to get a little bit more deep on getting user feedback around the documentation.
 
-**Break:** \[\\00:44:39.17\]
+**Break:** \[00:44:39.17\]
 
 **Mikeal Rogers:** Alright, we’re back with Eric Holscher, creator of Read the Docs and Write the Docs. So Eric, we talked about valuing documentation and valuing documentation skill sets. Are there some really specific things that you do, or that you’ve seen work for signaling that you care about that documentation and building a community around it?
 
@@ -254,7 +254,7 @@ Obviously, we don’t have the time to talk about all the different things that 
 
 **Mikeal Rogers:** It almost makes it worse, because then people think that you are getting paid by somebody or compensated in some way, so they don’t event have the empathy for people that are maintaining a project in their spare time.
 
-**Eric Holscher:** \[01:03:54.06\] My favorite is when at conferences people come up and are like, “Oh, we installed Read the Docs locally and it’s so good! We’re getting so much value out of it, what a great product.” And I’m like, “Oh cool. Have you ever contributed anything?” and they’re like, “Oh...” And I’m like, “Oh, do you want to contribute to us \[unintelligible 01:04:08.15\] development?” and they’re like, “Oh, it already works, it pretty much does what we need it to do...”, and end of conversation. It is a fascinatingly frustrating thing.
+**Eric Holscher:** \[01:03:54.06\] My favorite is when at conferences people come up and are like, “Oh, we installed Read the Docs locally and it’s so good! We’re getting so much value out of it, what a great product.” And I’m like, “Oh cool. Have you ever contributed anything?” and they’re like, “Oh...” And I’m like, “Oh, do you want to contribute to us to support ongoing development?” and they’re like, “Oh, it already works, it pretty much does what we need it to do...”, and end of conversation. It is a fascinatingly frustrating thing.
 
 **Mikeal Rogers:** Oh, man...
 
@@ -274,7 +274,7 @@ We have a bunch of traffic, we have decent users... Rolling that out was really 
 
 **Mikeal Rogers:** We learned so much, thank you.
 
-**Eric Holscher:** Yeah, definitely. Let’s do this again in like six months and I’m sure I’ll have some other \[unintelligible 01:05:59.20\] scheme to talk about. \[laughter\]
+**Eric Holscher:** Yeah, definitely. Let’s do this again in like six months and I’m sure I’ll have some other hair-brained scheme to talk about. \[laughter\]
 
 **Mikeal Rogers:** That would be great.
 
