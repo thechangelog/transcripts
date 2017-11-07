@@ -1,5 +1,4 @@
-# Changelog Transcripts
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
