@@ -1,0 +1,128 @@
+{
+  "projectName": "transcripts",
+  "projectOwner": "thechangelog",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "alexandrumaier",
+      "name": "alexandrumaier",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/30497622?v=4",
+      "profile": "https://github.com/alexandrumaier",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "jerodsanto",
+      "name": "Jerod Santo",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8212?v=4",
+      "profile": "https://jerodsanto.net",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "beardicus",
+      "name": "Brian Boucheron",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/170997?v=4",
+      "profile": "http://boucheron.org/brian",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "chris48s",
+      "name": "chris48s",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6025893?v=4",
+      "profile": "https://github.com/chris48s",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "tayloramurphy",
+      "name": "Taylor Murphy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5394188?v=4",
+      "profile": "http://www.tayloramurphy.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "ComodoHacker",
+      "name": "ComodoHacker",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3299815?v=4",
+      "profile": "https://github.com/ComodoHacker",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "merikan",
+      "name": "Peter Merikan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/60756?v=4",
+      "profile": "https://github.com/merikan",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "caseyw",
+      "name": "Casey Wilson",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/69193?v=4",
+      "profile": "http://www.caseyw.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "eduplessis",
+      "name": "Edouard Duplessis",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/398245?v=4",
+      "profile": "http://eduplessis.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "PeterMortensen",
+      "name": "Peter Mortensen",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2476480?v=4",
+      "profile": "http://pmortensen.eu/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "illarionvk",
+      "name": "Illarion Koperski",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5012724?v=4",
+      "profile": "https://www.illarionvk.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "tgamblin",
+      "name": "Todd Gamblin",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/299842?v=4",
+      "profile": "http://tgamblin.github.io",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "webRat",
+      "name": "Todd Rafferty",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/59866?v=4",
+      "profile": "http://web-rat.com/",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ]
+}
