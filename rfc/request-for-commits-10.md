@@ -71,7 +71,7 @@ Ableist language, like "crazy", "insane" and stuff like that... I also have ment
 
 **Mikeal Rogers:** Keeping it nice is actually hard. As you get really big, everybody has to be nice, especially people in leadership. It's hard to keep that many people to it, you know?
 
-**Charlotte Spencer:** I'm saying that I'm a nice person, and hopefully most people would agree, but it's a lot of work. To go back to the Hacktoberfest thing again, a lot of people are really excited about doing their first pull request, but so much so they're not really paying attention. We have 17 people ask to claim an issue after that issue has already been solved, so I have to \[unintelligible 00:12:43.18\]
+**Charlotte Spencer:** I'm saying that I'm a nice person, and hopefully most people would agree, but it's a lot of work. To go back to the Hacktoberfest thing again, a lot of people are really excited about doing their first pull request, but so much so they're not really paying attention. We have 17 people ask to claim an issue after that issue has already been solved, so I have to calmly explain..
 
 **Nadia Eghbal:** Oh my gosh!
 
@@ -121,7 +121,7 @@ I feel like if we spent more time remembering what it was like to be a first-tim
 
 Even if you have to write it down on a post-it note somewhere - new contributors feel anxious, scared, worried that they've done something wrong. If you can remember that going into when you review a pull request; even if you're reviewing a pull request for someone who's done 6,000 pull requests, just remember that things can be scary forever, so just treat it with a little bit of... You know, give someone a hug, or something, because it's a scary thing. We just need to remember that everything is actually quite difficult.
 
-**Nadia Eghbal:** Here's what I found interesting about... In fact, they've both recently learned how to code, and also dove into the world of open source because they think they are really separate things, too. I've met people who are very experienced with software development, but have never made an open source contribution or don't even know what GitHub is. I think it sometimes \[unintelligible 00:23:29.16\] that a first-time contributor doesn't know anything about software either, and it's not... It's like the social aspect itself can be scary enough on its own, it's not even about code or anything.
+**Nadia Eghbal:** Here's what I found interesting about... In fact, they've both recently learned how to code, and also dove into the world of open source because they think they are really separate things, too. I've met people who are very experienced with software development, but have never made an open source contribution or don't even know what GitHub is. A lot of people don't use it. I think it sometimes it gets equated that a first-time contributor doesn't know anything about software either, and it's not... It's like the social aspect itself can be scary enough on its own, it's not even about code or anything.
 
 **Mikeal Rogers:** Yeah, I loved that first date analogy because it captures how awkward it is. \[laughter\]
 
@@ -143,7 +143,7 @@ Even if you have to write it down on a post-it note somewhere - new contributors
 
 **Nadia Eghbal:** That's the awkward part of it too, right? A maintainer shouldn't feel pressured to respond to anything immediately, but when there is an early response, it also really increases engagement apparently. So maybe even just like saying, "Hey, I see this. I'll get to it later" is useful, so people don't feel like they're not getting anything from the other side.
 
-**Charlotte Spencer:** Yeah. I had this lovely person... I opened an issue like a year ago and I wanted to turn the Your First PR website into a -- set it up \[unintelligible 00:24:59.20\] so that it could take blog posts, and this really lovely person spent a long time doing that for me, and it took me like three months to review it, to the point where they closed their pull request because I just didn't... I had a few times said, "This is really good. As soon as I get a moment I'll get to it", but life finds a way to ruin everything, so it got longer and longer before I could review this pull request. And he closed it, and then ten minutes later I was like, "This is really good work. Can you re-open your pull request and I'll merge immediately?" And I did, and I obviously apologized profusely, so much so that they actually did some more work for me, and I have the tab open. If you're listening, friend, I will merge it as soon as I get off this interview. \[laughter\]
+**Charlotte Spencer:** Yeah. I had this lovely person... I opened an issue like a year ago and I wanted to turn the Your First PR website into a -- set it up with Jekyll so that it could take blog posts, and this really lovely person spent a long time doing that for me, and it took me like three months to review it, to the point where they closed their pull request because I just didn't... I had a few times said, "This is really good. As soon as I get a moment I'll get to it", but life finds a way to ruin everything, so it got longer and longer before I could review this pull request. And he closed it, and then ten minutes later I was like, "This is really good work. Can you re-open your pull request and I'll merge immediately?" And I did, and I obviously apologized profusely, so much so that they actually did some more work for me, and I have the tab open. If you're listening, friend, I will merge it as soon as I get off this interview. \[laughter\]
 
 **Nadia Eghbal:** I like that. It's kind of just like having open channels of communication so that people understand that everyone is trying. I feel that way about even just like e-mail and everything in general; meeting with people... We're all trying our best with the time that we have.
 
@@ -208,9 +208,9 @@ If you start with a good readme, maybe you have a couple of beginner issues that
 
 **Charlotte Spencer:** Yes!
 
-**Mikeal Rogers:** It really does set all of the expectations for your project, good and bad. I have some projects where the readme literally says, "Don't use this. Don't try to contribute to it." \[unintelligible 00:37:10.07\] and then a lot of other readmes that say the exact opposite.
+**Mikeal Rogers:** It really does set all of the expectations for your project, good and bad. I have some projects where the readme literally says, "Don't use this. Don't try to contribute to it. This is not in a state where you should mess with it yet." and then a lot of other readmes that say the exact opposite.
 
-**Charlotte Spencer:** It's about intention, and if you can make your intention immediately clear, you can either save someone a lot of time, so they know not to hack on Mikeal.js, because it's not ready \[unintelligible 00:37:26.16\]. Or you outline a few things you're looking to ship. Intention is key, and I can probably do an entire interview topic about intention alone. Make yourself clear, don't confuse people, and you can go a long way.
+**Charlotte Spencer:** It's about intention, and if you can make your intention immediately clear, you can either save someone a lot of time, so they know not to hack on Mikeal.js, because it's not ready for human consumption. Or you outline a few things you're looking to ship. Intention is key, and I can probably do an entire interview topic about intention alone. Make yourself clear, don't confuse people, and you can go a long way.
 
 **Nadia Eghbal:** I think about documenting everything also. Not just documenting how your products works, but it's also documenting processes, documenting the time that you do or don't have available... All that stuff.
 
@@ -270,7 +270,7 @@ With the Node project, we've just been constantly iterating on all of the proces
 
 I think that one of the worst things that I've seen projects do, especially huge projects, is that they find a process that works at the scale that they're at, and then when they double in size, it doesn't work anymore and they don't feel enabled to change it. They feel like, you know, this is the only process that enables their values, rather than going back to the values to create new processes.
 
-**Charlotte Spencer:** Yeah. One of the first things I say when I give my Open Open Source talk is "Although the word is in the name, open source is actually incredibly closed", because there definitely is that cargo culting. I'm subject to that as well, because once I'm comfortable with something, I don't like things to change. But when I work in open source, I have to be prepared for things to change, even on a daily basis, which is not necessarily something that happens in Hoodie right now, but I imagine it probably does happen in Node quite a lot, because you have all of these different experiences and opinions, and sometimes you just get it wrong. I think the main thing for open source maintainers is to realize that 1) they're not a benevolent dictator; that just doesn't work in today's open source \[unintelligible 00:50:49.13\] And to admit when you do it wrong. A lot of the stuff that we talk about in WeAllJS is we have to be immediately prepared to realize when we have done something wrong so we can make it better in the future for everybody.
+**Charlotte Spencer:** Yeah. One of the first things I say when I give my Open Open Source talk is "Although the word is in the name, open source is actually incredibly closed", because there definitely is that cargo culting. I'm subject to that as well, because once I'm comfortable with something, I don't like things to change. But when I work in open source, I have to be prepared for things to change, even on a daily basis, which is not necessarily something that happens in Hoodie right now, but I imagine it probably does happen in Node quite a lot, because you have all of these different experiences and opinions, and sometimes you just get it wrong. I think the main thing for open source maintainers is to realize that 1) they're not a benevolent dictator; that just doesn't work in today's open source at all, and 2) to admit when you do it wrong. A lot of the stuff that we talk about in WeAllJS is we have to be immediately prepared to realize when we have done something wrong so we can make it better in the future for everybody.
 
 Be open to change, that's literally what open source is about, right? It's open, and if we cannot be open, then we really do need to change that name.
 
@@ -278,7 +278,7 @@ Be open to change, that's literally what open source is about, right? It's open,
 
 **Charlotte Spencer:** Like "door slightly open between the hours of five to ten PM" source, you know? \[laughter\] Working title.
 
-**Nadia Eghbal:** I like these \[unintelligible 00:51:31.29\]
+**Nadia Eghbal:** I like these jokes.
 
 **Charlotte Spencer:** I'm hilarious, right?
 
@@ -290,7 +290,7 @@ Be open to change, that's literally what open source is about, right? It's open,
 
 \[00:52:00.11\] So for events that are focused on getting new contributors to projects, I think there's a lot of good will among events and initiatives that want to increase contributions, but then having to balance on the other side, of not upsetting maintainers who might not be expecting a barrage of PRs, who might not actually be looking for contributions, do you have any sense around best practices for contribution-type events to run these in ways that are actually mutually beneficial for both sides?
 
-**Charlotte Spencer:** Probably not, but I'll give it a go. Which part do we wanna talk about first - how to do an event, or how to \[unintelligible 00:52:37.02\] those kind of low quality, spammy type PRs that I've seen happen recently, like how to stop those? Because my first thing is if you wanna do an initiative, then particularly if it's like a small project or something that kind of isn't used to have been barraged by pull requests - talk to the maintainer first. I know that might sound really obvious, but...
+**Charlotte Spencer:** Probably not, but I'll give it a go. Which part do we wanna talk about first - how to do an event, or how to try to ensure those kind of low quality, spammy type PRs that I've seen happen recently, like how to stop those? Because my first thing is if you wanna do an initiative, then particularly if it's like a small project or something that kind of isn't used to have been barraged by pull requests - talk to the maintainer first. I know that might sound really obvious, but...
 
 **Nadia Eghbal:** It's not, apparently.
 
@@ -302,7 +302,7 @@ If the answers are yes, then I guess we get started with our first event, which 
 
 I am doing exactly that right now at home. I'm in a comfortable chair, I'm wearing my hoodie because it's freezing in here, I have some water, and I'm contributing to this podcast. Maybe I'm extremely low maintenance, but if you tick off those basic human needs and people are very comfortable and are starting to do these contributions... You don't have to have sponsors or a fancy venue, or whatever. You can rent out the basement of a pub for three hours and put on my Spotify playlist and then we can just do some contributions.
 
-The main thing is that people have support, which is probably the hardest part. \[unintelligible 00:55:40.08\] teaching people Node.js, and you spend six hours in a room with, obviously, regular breaks; you have a bathroom, you have some food and drink, and then you just support each other. It doesn't have to be fancy.
+The main thing is that people have support, which is probably the hardest part. Node Together, for example is teaching people Node.js, and you spend six hours in a room with, obviously, regular breaks; you have a bathroom, you have some food and drink, and then you just support each other. It doesn't have to be fancy.
 
 **Nadia Eghbal:** \[00:55:56.21\] How much hands-on support do you think organizers should expect to give to people that haven't contributed before for an in-person event? Because I was surprised by this.
 
