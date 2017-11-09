@@ -22,7 +22,7 @@ Today's episode number is 58, and on the show today is myself, Erik St. Martin, 
 
 **Erik St. Martin:** Better known by his Twitter handle, @shurcooL.
 
-**Dmitri Shuralyov:** Yeah, I'm shurchooL on GitHub, Twitter, and basically everywhere. It's great to be finally here.
+**Dmitri Shuralyov:** Yeah, I'm shurcooL on GitHub, Twitter, and basically everywhere. It's great to be finally here.
 
 **Erik St. Martin:** Yeah, so for anybody who may not be familiar with you and the work that you do, can you just kind give a brief rundown about who you are, what you do, and your history in the Go community?
 
