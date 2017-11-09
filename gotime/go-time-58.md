@@ -100,6 +100,7 @@ So a lot of it was learning about the strengths of some of the ways that we use 
 **Dmitri Shuralyov:** Yeah, I'd like to cover that, so... Just upfront, I will say that I have deleted the very last gist, I believe in 2015.
 
 **Brian Ketelsen:** \[laughs\] That's awesome!
+
 **Dmitri Shuralyov:** From that point forward, the only gists that still exist are people's old code; maybe they've copied it, or forked it, or vendored it, or whatever, and so on. So none of my code has gists anymore, but yes, I did that... And again, that was an experiment that I ran, so when I was doing it, I was kind of well aware of the downsides of it. Well, maybe more so after some time... But it was a thing that I wanted to try because there were also advantages to putting some coding gists... Because imagine you want to have a function shared between two projects, and you wanna do this in maybe a minute and a half; you don't have time to go through the whole process of creating a new Go package, and making it really nice... You just wanna do this really quickly, so a gist was perfect for that.
 
 What actually made it work was that I had a widget in Conception that I can just press a button, and whatever I'd paste into a box would automatically become a gist, it will put it into my GOPATH... It would do everything in one button press. So that is the reason why it was kind of efficient to create a lot of code for sharing between projects at that time.
