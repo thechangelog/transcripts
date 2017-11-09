@@ -46,9 +46,9 @@ Sometime after that I felt so motivated to do that, and I had all these ideas an
 
 What happened after that is that the project got a lot of visibility and publicity, and it kind of helped me get my first job in San Francisco, which was a place that I really wanted to end up or go to to work sometime. I'm from Toronto, and San Francisco -- it's always been a dream to go and work there, because I knew it's one of the best places for technology. It's where all the startups are, all the big companies, and lots of things are happening there, so it's kind of like just a dream to go there.
 
-I ended up getting a job, so I ended up working first at \[unintelligible 00:05:48.28\] It was a startup where we did real-time bidding and advertising, things like that; this was a company that was just getting into using Go, so one of the reasons they hired me was because I was good with C++ and Go. I thought this is a great place for me to practice both languages and help them convert a lot of things they were doing, from many languages. They had a lot of success with Go, so they started to push it to more and more projects.
+I ended up getting a job, so I ended up working first at Triggit. It was a startup where we did real-time bidding and advertising, things like that; this was a company that was just getting into using Go, so one of the reasons they hired me was because I was good with C++ and Go. I thought this is a great place for me to practice both languages and help them convert a lot of things they were doing, from many languages. They had a lot of success with Go, so they started to push it to more and more projects.
 
-After that I worked at another company, Sourcegraph. That one, you may have heard of it. We're building tools for developers, and it's kind of famous in the Go community because of doing the live streaming for GopherCon, and so on. This was a very different environment where there was a lot more open source. I was actually working on developer tools, so this was a lot of fun.
+After that I worked at another company, Sourcegraph. That one, you may have heard of it. We were building tools for developers, and it's kind of famous in the Go community because of doing the live streaming for GopherCon, and so on. This was a very different environment where there was a lot more open source. I was actually working on developer tools, so this was a lot of fun.
 
 In the course of working in San Francisco for those three years, I was kind of always saving up towards this future dream of being able to just work on open source full-time. That was my dream of what I wanted to try next... Because it's one thing when you have your weekends, maybe an hour or two on weekdays to contribute to open source, and a whole different story if you actually have your full time available to do it.
 
@@ -297,7 +297,7 @@ I feel like the ability to maintain so much Go code - that is enabled by Go itse
 
 **Brian Ketelsen:** No, and that makes it easier to read.
 
-**Dmitri Shuralyov:** Yeah, you can see everything that happens. It's all right in the code in front of you; there's no necessity to jump into "Maybe there's an \[unintelligible 00:43:00.05\] or something else, or maybe an operator has been overloaded..." - none of that. You just know that it's exactly what you see.
+**Dmitri Shuralyov:** Yeah, you can see everything that happens. It's all right in the code in front of you; there's no necessity to jump into, maybe there's a macro #define, or something else, or maybe an operator has been overloaded... None of that. You just know that it's exactly what you see.
 
 **Carlisia Pinto:** Yes. And you are a maintainer for the Go language, right?
 
