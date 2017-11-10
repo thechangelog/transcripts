@@ -123,6 +123,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "shurcooL",
+      "name": "Dmitri Shuralyov",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1924134?v=4",
+      "profile": "https://dmitri.shuralyov.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ]
 }
