@@ -505,7 +505,7 @@ Did anybody have any more shoutouts, or do we wanna wrap this thing up?
 
 **Carlisia Pinto:** Yeah!
 
-**Dmitri Shuralyov:** This is more for an open source contributor. This will be to Glenn Louis. He helps a lot with the go-github Go package - it's the Go client for GitHub's API. He basically makes sure that the PR's get reviewed and merged, and without him I'm not sure what that project would do, so huge thanks for all his work. It's Glenn Louis.
+**Dmitri Shuralyov:** This is more for an open source contributor. This will be to [Glenn Lewis](https://github.com/gmlewis). He helps a lot with the go-github Go package - it's the Go client for GitHub's API. He basically makes sure that the PR's get reviewed and merged, and without him I'm not sure what that project would do, so huge thanks for all his work. It's Glenn Lewis.
 
 **Erik St. Martin:** Awesome.
 
