@@ -46,9 +46,9 @@ Sometime after that I felt so motivated to do that, and I had all these ideas an
 
 What happened after that is that the project got a lot of visibility and publicity, and it kind of helped me get my first job in San Francisco, which was a place that I really wanted to end up or go to to work sometime. I'm from Toronto, and San Francisco -- it's always been a dream to go and work there, because I knew it's one of the best places for technology. It's where all the startups are, all the big companies, and lots of things are happening there, so it's kind of like just a dream to go there.
 
-I ended up getting a job, so I ended up working first at \[unintelligible 00:05:48.28\] It was a startup where we did real-time bidding and advertising, things like that; this was a company that was just getting into using Go, so one of the reasons they hired me was because I was good with C++ and Go. I thought this is a great place for me to practice both languages and help them convert a lot of things they were doing, from many languages. They had a lot of success with Go, so they started to push it to more and more projects.
+I ended up getting a job, so I ended up working first at Triggit. It was a startup where we did real-time bidding and advertising, things like that; this was a company that was just getting into using Go, so one of the reasons they hired me was because I was good with C++ and Go. I thought this is a great place for me to practice both languages and help them convert a lot of things they were doing, from many languages. They had a lot of success with Go, so they started to push it to more and more projects.
 
-After that I worked at another company, Sourcegraph. That one, you may have heard of it. We're building tools for developers, and it's kind of famous in the Go community because of doing the live streaming for GopherCon, and so on. This was a very different environment where there was a lot more open source. I was actually working on developer tools, so this was a lot of fun.
+After that I worked at another company, Sourcegraph. That one, you may have heard of it. We were building tools for developers, and it's kind of famous in the Go community because of doing the live streaming for GopherCon, and so on. This was a very different environment where there was a lot more open source. I was actually working on developer tools, so this was a lot of fun.
 
 In the course of working in San Francisco for those three years, I was kind of always saving up towards this future dream of being able to just work on open source full-time. That was my dream of what I wanted to try next... Because it's one thing when you have your weekends, maybe an hour or two on weekdays to contribute to open source, and a whole different story if you actually have your full time available to do it.
 
@@ -75,7 +75,7 @@ I'm just kind of filling my own desires of some tooling, or some things in the G
 
 Again, when I started, C++ was the language that I had in mind as what I wanted to use, and I just thought that there are all these opportunities to make it easier to develop in C++, but essentially what happened is that as I started to work on the project, I kind of discovered Go. That's somewhere at the beginning of that -- in the middle of the first year of working on the project I saw that "Hey, there's this cool language called Go. Let me try it." The problem that I was solving at the time was I needed to start some binaries, basically shell out, run some commands, and in C++ this was at the time really difficult. It was probably 80 lines of non-portable, really hacky and error-prone code, that kind of worked, but you just knew that this is not right; it would probably fail if something happened, and it was so long that it was really hard to read the code.
 
-So when I tried Go, I found the ls package and I was just really, really impressed with what I saw there, so then I started to use Go for more things. Very quickly, Conception ended up being -- it was supposed to be, at least, an IDE for working on Go code, so it stepped away from C++.
+So when I tried Go, I found the os/exec package and I was just really, really impressed with what I saw there, so then I started to use Go for more things. Very quickly, Conception ended up being -- it was supposed to be, at least, an IDE for working on Go code, so it stepped away from C++.
 
 But the way to describe it -- and it's definitely best to see... There's a five-minute video that I made that describes basically everything I've done in those one-and-a-half years (in five minutes). So think of it as a 2D canvas; a really large, maybe infinitely-sized canvas that you have a viewport into, and on this canvas you had what I called widgets at the time. The widgets could be basically anything, but most of it would be things like maybe a Go file, for example; another widget could be a Go run widget, which would take a file widget and run it, and I present the output. But then you can also connect other widgets on top of that. You'd have a diff widget, so you could connect that to the output of a program, and then maybe diff it against the output that you wanted to produce.
 
@@ -100,6 +100,7 @@ So a lot of it was learning about the strengths of some of the ways that we use 
 **Dmitri Shuralyov:** Yeah, I'd like to cover that, so... Just upfront, I will say that I have deleted the very last gist, I believe in 2015.
 
 **Brian Ketelsen:** \[laughs\] That's awesome!
+
 **Dmitri Shuralyov:** From that point forward, the only gists that still exist are people's old code; maybe they've copied it, or forked it, or vendored it, or whatever, and so on. So none of my code has gists anymore, but yes, I did that... And again, that was an experiment that I ran, so when I was doing it, I was kind of well aware of the downsides of it. Well, maybe more so after some time... But it was a thing that I wanted to try because there were also advantages to putting some coding gists... Because imagine you want to have a function shared between two projects, and you wanna do this in maybe a minute and a half; you don't have time to go through the whole process of creating a new Go package, and making it really nice... You just wanna do this really quickly, so a gist was perfect for that.
 
 What actually made it work was that I had a widget in Conception that I can just press a button, and whatever I'd paste into a box would automatically become a gist, it will put it into my GOPATH... It would do everything in one button press. So that is the reason why it was kind of efficient to create a lot of code for sharing between projects at that time.
@@ -297,7 +298,7 @@ I feel like the ability to maintain so much Go code - that is enabled by Go itse
 
 **Brian Ketelsen:** No, and that makes it easier to read.
 
-**Dmitri Shuralyov:** Yeah, you can see everything that happens. It's all right in the code in front of you; there's no necessity to jump into "Maybe there's an \[unintelligible 00:43:00.05\] or something else, or maybe an operator has been overloaded..." - none of that. You just know that it's exactly what you see.
+**Dmitri Shuralyov:** Yeah, you can see everything that happens. It's all right in the code in front of you; there's no necessity to jump into, maybe there's a macro #define, or something else, or maybe an operator has been overloaded... None of that. You just know that it's exactly what you see.
 
 **Carlisia Pinto:** Yes. And you are a maintainer for the Go language, right?
 
