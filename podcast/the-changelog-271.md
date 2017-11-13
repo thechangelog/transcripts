@@ -1,5 +1,3 @@
-\[00:00:00.27\] to \[00:02:03.17\]
-
 **Jerod Santo:** So Preethi, almost two years ago to the day as the time of recording, 11th September 2015, you wrote a Medium post "Why I left the best job in the world." You were at Andreessen Horowitz and you wanted to become an engineer -- uh-oh, I spoiled it... But a very lengthy post, going through a lot of different options. Tell us about that, and why engineering was a draw for you.
 
 **Preethi Kasireddy:** Yeah, sure. I guess it would probably make sense to start a little bit even before Andreessen Horowitz to kind of give you a little of my context. I was an engineer in college, but I wasn't software engineering, I was industrial and systems engineering. At the time, I really loved the major and I thought software engineering was basically like a bunch of nerds sitting in front of the computer and just doing really nerdy stuff, whereas like systems and industrial engineering was like you're out in the field and doing really cool systems stuff.
@@ -150,7 +148,7 @@ It always reminds me of \[unintelligible 00:26:20.05\] about the iPod... You guy
 
 **Adam Stacoviak:** It's just proof that specifications don't define the ability for a product or some thing's ability to do its job well. You often buy a computer potentially on its specs, right? Or something like a camera, or whatever. But it's actually what you can do with it as a creator, as an innovator or as a doer that really matters.
 
-**Break:** \[00:27:33.07\] to \[00:30:17.19\]
+**Break:** \[00:27:33.07\]
 
 **Jerod Santo:** Preethi, you started off in finance, and in a full-circle event, you're very much into finance-adjacent blockchain technologies. You decided that it was very interesting, very important, and perhaps your path to step three in your roadmap, which is to change the world. Tell us again and go into more depth about what got you so excited about blockchain and why you today call yourself a self-employed blockchain developer.
 
@@ -274,8 +272,7 @@ I just kept doing that - every time I learned something new, I'd write about it 
 
 Then in terms of Ask Preethi... Because I kind of made this transition successfully, I guess, as a software engineer, one of the things that I started to notice was a lot of people would e-mail me or message me on Facebook saying "Hey, I really empathize with what you're doing, and I'm going through the same thing but I'm not succeeding", or "I'm failing here" or "I'm really struggling", or whatever it is. There's a lot of beginners who just weren't making it all the way through for some reason, and it was really hard for me to answer all these e-mails one on one, and that's when I decided to start that Ask Preethi thing...
 
-A lot of the questions were pretty common questions, and similar questions across the board. It's like "Hey, I learned this and I don't know what to do next" or "I learned a bunch of things and I don't know how to get a job", or "I wanna learn React, where do I get started?" Very common questions, and I was like, the best way for me to provide help at scale is just to answer these common questions. That's when I started the Ask Preethi thing, where I just take a question, break it down and then answer it.
-I'll be honest, I'm not doing much in those videos except talk about how I personally went through answering that question for myself, and I think that's the best I can do. I don't have the answer for every single person out there, but I can talk about how I thought through the question, and that way it at least gives people a mental model for how to think through a question.
+A lot of the questions were pretty common questions, and similar questions across the board. It's like "Hey, I learned this and I don't know what to do next" or "I learned a bunch of things and I don't know how to get a job", or "I wanna learn React, where do I get started?" Very common questions, and I was like, the best way for me to provide help at scale is just to answer these common questions. That's when I started the Ask Preethi thing, where I just take a question, break it down and then answer it. I'll be honest, I'm not doing much in those videos except talk about how I personally went through answering that question for myself, and I think that's the best I can do. I don't have the answer for every single person out there, but I can talk about how I thought through the question, and that way it at least gives people a mental model for how to think through a question.
 
 I'm not trying to provide answers to everyone; I want them to be motivated and give them the confidence to think through these questions themselves. That's kind of my goal with the Ask Preethi series.
 
@@ -346,5 +343,3 @@ For example, our interview was with Guillermo, who's building Zite. We talked to
 **Adam Stacoviak:** Well, it's been fun hearing your story. Obviously, you've come so far so fast, and that's great to see. Not only did you have goals and you laid out a plan, a roadmap for yourself and you're following it, but then you're also giving back, which is the kind of people we love. People who help other people, that's Jerod and I's kind of people... And we're glad to have you on the show, glad to have you doing things on YouTube, and obviously Between the Wires and what you're doing there... A lot of great stuff, so thank you so much for what you're doing and thank you for sharing your time with us today.
 
 **Preethi Kasireddy:** Thank you, it was awesome!
-
-\[01:02:44.24\] to \[01:04:10.12\]
