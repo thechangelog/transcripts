@@ -22,7 +22,7 @@
 
 **Mike Perham:** That's incredible.
 
-2 : Well, we're still here, and you're still here as well, which also is quite impressive. Years and years of putting out awesome open source and also running a business around it... So congratulations on you also still being here after all these years.
+**Jerod Santo:** Well, we're still here, and you're still here as well, which also is quite impressive. Years and years of putting out awesome open source and also running a business around it... So congratulations on you also still being here after all these years.
 
 **Mike Perham:** Thank you. I think we both had interesting journeys... Certainly off the beaten path.
 
