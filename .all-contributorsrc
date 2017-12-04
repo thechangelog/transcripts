@@ -132,6 +132,24 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "mattwarren",
+      "name": "Matt Warren",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/157298?v=4",
+      "profile": "http://www.mattwarren.org",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "dotandimet",
+      "name": "Dotan Dimet",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/95891?v=4",
+      "profile": "http://corky.net/dotan",
+      "contributions": [
+        "doc"
+      ]
     }
   ]
 }
