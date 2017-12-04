@@ -1,0 +1,20 @@
+{
+  "name": "transcripts",
+  "description": "Changelog episode transcripts in Markdown format",
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thechangelog/transcripts.git"
+  },
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/thechangelog/transcripts/issues"
+  },
+  "homepage": "https://github.com/thechangelog/transcripts#readme",
+  "devDependencies": {
+    "all-contributors-cli": "^4.10.0"
+  }
+}
