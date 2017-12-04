@@ -96,7 +96,7 @@ Yeah, there's a lot of great projects, a lot of bad ones, but I love it when you
 
 **Jerod Santo:** What about smaller scale? Like you said, a lot of us are hobbyists, we're individuals, maybe we're a team of two... First of all, are there any examples of people doing it well on the small...?
 
-**Richard Littauer:** Yeah, I really like \[unintelligible 00:09:28.03\] way of doing things. I love how they're using an AMA repo that has like hundreds and thousands of stars, where you can just ask them questions. I've met him, he's a really nice guy, and it shows in his code. It's idiosyncratic and lovely, and it's just like "This is what I do here."
+**Richard Littauer:** Yeah, I really like sindresorhus' way of doing things. I love how they're using an [AMA](https://github.com/sindresorhus/ama) repo that has like hundreds and thousands of stars, where you can just ask them questions. I've met him, he's a really nice guy, and it shows in his code. It's idiosyncratic and lovely, and it's just like "This is what I do here."
 
 He's not a small example, he's the most prolific coder on GitHub, but...
 
