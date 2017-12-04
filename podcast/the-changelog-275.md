@@ -128,13 +128,13 @@ And then the iPhone happened. So here's what's interesting - Mono was sort of re
 
 **Jerod Santo:** Nice!
 
-**Miguel de Icaza:** So it was the same struggle that we went through, and this was around (I wanna say) 2006 or so... Roughly around this time. So they were a pragmatic group of people that had a genuine need for Mono -- and there were many more, but Unity was a key one. And when the iPhone happens, Unity comes to us - at this time we're \[unintelligible 00:18:46.14\] - and says "Hey listen, help us put Mono on the iPhone." So we put Mono on the iPhone, and then Apple changed the way that you had to run on the iPhone, which was a very challenging problem for us, because Mono was a Git compiler...
+**Miguel de Icaza:** So it was the same struggle that we went through, and this was around (I wanna say) 2006 or so... Roughly around this time. So they were a pragmatic group of people that had a genuine need for Mono -- and there were many more, but Unity was a key one. And when the iPhone happens, Unity comes to us - at this time we're \[unintelligible 00:18:46.14\] - and says "Hey listen, help us put Mono on the iPhone." So we put Mono on the iPhone, and then Apple changed the way that you had to run on the iPhone, which was a very challenging problem for us, because Mono was a JIT compiler...
 
 **Jerod Santo:** Which was against the rules.
 
-**Miguel de Icaza:** Well, it wasn't at this point, but yes, it became against the rules. It wasn't really against the rules, it's a Kernel feature... So for security purposes, iOS and the consoles (PlayStation, Xbox) prevent you from Git compiling. It doesn't make the system completely secure, but it eliminates a vast series of attacks, and the fear is when you have a million machines that are identical, running the same software, you can create a bot army; you hack one, you hack all. So it was a security measure for these systems.
+**Miguel de Icaza:** Well, it wasn't at this point, but yes, it became against the rules. It wasn't really against the rules, it's a Kernel feature... So for security purposes, iOS and the consoles (PlayStation, Xbox) prevent you from JIT compiling. It doesn't make the system completely secure, but it eliminates a vast series of attacks, and the fear is when you have a million machines that are identical, running the same software, you can create a bot army; you hack one, you hack all. So it was a security measure for these systems.
 
-So we first put Mono in there; we were very happy, the Git compiler runs. And then Apple disables this, and Unity comes back to us and says "Hey, we have this product on iOS, we need .NET to be statically compiled. Can you do that?" We were like, "Oh, that's kind of impossible. Well, let's think about it."
+So we first put Mono in there; we were very happy, the JIT compiler runs. And then Apple disables this, and Unity comes back to us and says "Hey, we have this product on iOS, we need .NET to be statically compiled. Can you do that?" We were like, "Oh, that's kind of impossible. Well, let's think about it."
 
 One of our guys, Zoltán Varga - they went and made a static compiler for .NET, and it was amazing. We gave it to Unity. At this point, Unity is probably four or five employees.
 
