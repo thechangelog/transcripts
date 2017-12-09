@@ -64,7 +64,7 @@ We provide travel assistance, so we will get a project's committer team together
 
 **Jerod Santo:** Back to the funding, what I'm stuck on is it seems like we have a lot of these projects that are popular and relied upon, and we have a lot of these companies who are forward with their capital or they're very interested in supporting said things, and there's a lot that goes around it, but wouldn't money directly to developers be a great way to maintain sustainability for somebody's projects? Maybe not all of them...
 
-I keep thinking about Webpack, because I'm \[unintelligible 00:10:10.29\] at Webpack I have a friend that's involved, Sean Larkin - shout out, Omaha, Nebraska...
+I keep thinking about Webpack, because I'm partial to Webpack I have a friend that's involved, Sean Larkin - shout out, Omaha, Nebraska...
 
 **Kris Borchers:** Sean's the one that I worked with to make this happen, because he wanted it to come in...
 
@@ -122,7 +122,7 @@ Within there there is a project lifecycle document, and there is an application 
 
 **Kris Borchers:** In terms of what we're looking for - nothing in particular, because we have everything from low-level utility libraries like Lodash to full applications like Node-RED to JerryScript (a Javascript engine for IoT devices).
 
-**Jerod Santo:** Cool. Tell me about membership now. You said it's not a pay-to-play model. \[unintelligible 00:17:19.27\] sponsors?
+**Jerod Santo:** Cool. Tell me about membership now. You said it's not a pay-to-play model. (Now these are your sponsors?)
 
 **Kris Borchers:** Yeah, so what I was trying to make sure I separated there was to bring a project in or to use any of our projects or contribute to any of our projects, you do not need to be a member, you do not need to give us any money.
 
@@ -134,7 +134,7 @@ So anyone can get involved in a project, contribute to it, use it; you don't hav
 
 In terms of membership, we're open to any organization as well. If you are a large enterprise organization that has interests in a bunch of our projects, and you've got people working on them and you wanna support the foundation, make sure it's around so that those projects are supported, then memberships are a great way to do that.
 
-Same thing for smaller companies. If you have a smaller organization and you're looking to have a bigger voice in things like standards - we have representatives at W3C, we have representatives in ACMA, \[unintelligible 00:19:34.09\] so that's a great way to get involved that way, as well.
+Same thing for smaller companies. If you have a smaller organization and you're looking to have a bigger voice in things like standards - we have representatives at W3C, we have representatives in ECMA/TC39, so that's a great way to get involved that way, as well.
 
 There's different pricing structures and different benefits that come along with that. Our top-level members get a seat on our board of directors; the middle level, it's kind of a one board seat for every five, so that group of members just kind of decides amongst themselves who will represent them.
 
