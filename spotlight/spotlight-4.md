@@ -81,7 +81,11 @@ We have, obviously, a lot of other teams that are very essential to this initiat
 
 **Adam Stacoviak:** You explained it so well.
 
-**Anna Derbakova:** Thanks, well I appreciate that; hopefully it's clear for you, too. \[unintelligible 00:06:58.07\] Glad to hear it. So the point is you can't change the data that you store; if you have an account and you have X dollars in your account, it doesn't mean you can't change the value of that X dollars - you certainly can, but the point is it's another transaction that you append. You append it, you don't just go in there and you modify a record. You don't really modify anything, you append a new transaction. That's why typically people refer to it as an append-only ledger. The transactions append at the end.
+**Anna Derbakova:** Thanks, well I appreciate that; hopefully it's clear for you, too.
+
+**Adam Stacoviak:** I mean ... I'm getting it, so it's definitely making a dent for sure.
+
+**Anna Derbakova:** Glad to hear it. So the point is you can't change the data that you store; if you have an account and you have X dollars in your account, it doesn't mean you can't change the value of that X dollars - you certainly can, but the point is it's another transaction that you append. You append it, you don't just go in there and you modify a record. You don't really modify anything, you append a new transaction. That's why typically people refer to it as an append-only ledger. The transactions append at the end.
 
 **Adam Stacoviak:** Gotcha, okay.
 
@@ -115,7 +119,7 @@ That's a cool, new idea that came from the way Bitcoin was implemented, because 
 
 What does it replace? It depends on the specific field. For example, supply chains work today. If you wanna argue "Are they effective?" Well, yeah, you get your meat at the store, you get your goods on the shelves...
 
-**Adam Stacoviak:** \[unintelligible 00:11:03.29\]
+**Adam Stacoviak:** Has someone tampered with it though?
 
 **Anna Derbakova:** ...but you don't really know how many irrelevant steps are happening, you don't really know how much fat you have in the process, so to speak.
 
@@ -143,7 +147,7 @@ What does it replace? It depends on the specific field. For example, supply chai
 
 **Adam Stacoviak:** The same transfer of one record point to the next is the basic concept that they all share.
 
-**Anna Derbakova:** Yeah, that's the basic concept; that's still there, because in Bitcoin you're exchanging essentially value, right? You would be exchanging value of Bitcoin, but in Ethereum you could be exchanging some kind of coin, but you could also be exchanging an asset, because they have the idea of a smart contract. But the idea is it's a different type of blockchain, it's a different implementation, and Hyperledger also is slightly different. But who owns it? That's a good question. I mean, there's not gonna be one blockchain to rule them all. They are gonna be different, and I think that's a very good forward-looking question, because the people will wonder, "If we have this blockchain here for this group of banks, and this blockchain here for supply chain, if they ever need to interoperate, or something of as far as transferring records from one to the other, what are we gonna do?"
+**Anna Derbakova:** Yeah, that's the basic concept; that's still there, because in Bitcoin you're exchanging essentially value, right? You would be exchanging value of Bitcoin, but in Ethereum you could be exchanging some kind of coin, but you could also be exchanging an asset, because they have the idea of a smart contract. But the idea is it's a different type of blockchain, it's a different implementation, and Hyperledger also is slightly different. But who owns it? That's a good question. I mean, there's not gonna be one blockchain to rule them all. They are gonna be different, and I think that's a very good forward-looking question, because then people will wonder, "If we have this blockchain here for this group of banks, and this blockchain here for supply chain, if they ever need to interoperate, or something of as far as transferring records from one to the other, what are we gonna do?"
 
 So I think that's a question that's definitely gonna need to be explored fairly soon. If you have two different blockchains with different consensus algorithms, how do you deal with that? These questions... I'm not sure if IBM, for example, is researching anything into that - at least I'm not directly involved in it - but if it doesn't come up soon, it will in the very near future.
 
@@ -193,13 +197,14 @@ The adoption is increasing. I think people are very curious about it in general,
 
 But once people get to that point, and I think IBM has already some solutions out there for people to use; if people wanna go play around...
 
-**Adam Stacoviak:** Yeah, \[unintelligible 00:22:43.02\] offering services...
+**Adam Stacoviak:** Yeah, people building business solutions around that, offering services...
 
 **Anna Derbakova:** They can go on Bluemix. We already have a Bluemix tile they can deploy, a simple network, and play around with it and start building against it. So they have a cloud offering.
 
 **Adam Stacoviak:** Bluemix.com?
 
 **Anna Derbakova:** Bluemix.net. They can essentially create an account, it's very easy. Go to the Catalog, search for Blockchain, and it will explain to you what kind of network you're deploying. You can do some sample, click-click sort of thing and deploy some things to the network and learn about it, and then you can actually use that network you've deployed to write an app against it.
+
 The latest thing that came out - it was actually just a couple weeks ago, and I presented that at the conference yesterday... There is now a set of Docker images which is available out on Docker Hub for the network peers for Hyperledger. Essentially, people can go and download the Docker images and spin them up on their machines locally. You can create a network and you can develop against that, and that's the demo I showed.
 
 **Adam Stacoviak:** And where are these Docker images? On Docker Hub?
