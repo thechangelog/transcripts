@@ -18,7 +18,7 @@ So there's JAMstack, and there's also Netlify CMS, which is an open source proje
 
 Guys, is that a good foundation, or did I miss anything up there?
 
-**Chris Bach:** \[00:03:47.13\] I think that was pretty spot on, yeah. The Netlify open source CMS is a Git-based attempt that \[unintelligible 00:03:54.04\] JAMstack is really all about enabling the decoupled way of approaching things, to journey away from monolithic apps. So yeah, I think you nailed it pretty good.
+**Chris Bach:** \[00:03:47.13\] I think that was pretty spot on, yeah. The Netlify open source CMS is a Git-based attempt at bridging the gap and JAMstack is really all about enabling the decoupled way of approaching things, to journey away from monolithic apps. So yeah, I think you nailed it pretty good.
 
 **Jerod Santo:** Cool. So we're gonna focus this conversation on JAMstack, and the cool thing is as Netlify and the team that rebuilt Smashing Magazine kind of from the ground up built it, they open-sourced a bunch of goodies, so not just Netlify CMS, but also GoTell, GoTrue, GoCommerce... These microservices written in Go that are powering the new Smashing Magazine and really enabling for this style of application. So we wanna focus on those things... I think we'll probably use the case study of the Smashing Magazine relaunch as a anchor or as a pin for the conversation, but we really wanna focus on the open source and really the ideas, if possible.
 
