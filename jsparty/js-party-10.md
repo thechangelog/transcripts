@@ -8,13 +8,13 @@
 
 **Paul Irish:** That's fair...
 
-**Adam Sontag:** I'm Adam Sontag. I love the \[unintelligible 00:02:00.18\]. Also, I'm an erstwhile Javascript developer, and now a community director, I guess.
+**Adam Sontag:** I'm Adam Sontag. I love the WWW which is I believe Paul's real original bio. Also, I'm an erstwhile Javascript developer, and now a community director, I guess.
 
 **Alex Sexton:** We used to have a podcast called yayQuery... One of the first nascent Javascript podcasts. It was loosely about jQuery, but we branched very quickly into most frontend web development topics pretty quickly. JS Party actually somewhat gets its name from the whimsy of the yayQuery days. I think one of the original names for JS Party was JS Matters, because it's events and things about Javascript, and also that it matters...
 
 **Adam Sontag:** Not like Family Matters?
 
-**Alex Sexton:** \[unintelligible 00:02:52.19\] \[laughter\] Normally, I'm joined by Mikeal Rogers and Rachel White, but they're in Germany, or something... I have no idea where they are. Who knows, who could possibly know that information? So this week we've decided to have a little yayQuery reunion for everybody. So let's jump in, since we have a little bit to talk about. What has changed since the last episode that we've had?
+**Alex Sexton:** Yea, exactly. Pretty much exactly like Family Matters. \[laughter\] Normally, I'm joined by Mikeal Rogers and Rachel White, but they're in Germany, or something... I have no idea where they are. Who knows, who could possibly know that information? So this week we've decided to have a little yayQuery reunion for everybody. So let's jump in, since we have a little bit to talk about. What has changed since the last episode that we've had?
 
 I think Rebecca and I both have children now...
 
