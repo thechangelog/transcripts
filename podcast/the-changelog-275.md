@@ -2,7 +2,7 @@
 
 **Jerod Santo:** In like the '90s? What are we talking about here time-wise?
 
-**Miguel de Icaza:** I started using UNIX -- it was around the Windows 3 era; that was the last time \[unintelligible 00:03:00.14\] and it would crash, you would have to reboot the machine. I had a fancy IBM PlayStation -- well, the university had a fancy Playstation... Not Playstation, PS2; it was called PS2. And it took too long to boot. And at the same time the university got workstations, \[unintelligible 00:03:21.28\] and the beautiful thing about that is you'd crash your program, and all you've got is this label segmentation fault, or "core dumped."
+**Miguel de Icaza:** I started using UNIX -- it was around the Windows 3 era; that was the last time I used Windows and every time you had a mistake on Windows and it would crash, you would have to reboot the machine. I had a fancy IBM PlayStation -- well, the university had a fancy Playstation... Not Playstation, PS2; it was called PS2. And it took too long to boot. And at the same time the university got workstations, Ultrix -- DEC Workstations -- and the beautiful thing about that is you'd crash your program, and all you've got is this label segmentation fault, or "core dumped."
 
 **Jerod Santo:** That's it...
 
@@ -16,11 +16,11 @@ The problem was these BSD's didn't have dynamic libraries, so the nice thing abo
 
 **Jerod Santo:** Oh, you could fit it in the space that you had.
 
-**Miguel de Icaza:** Yes. I couldn't put BSD on the little space that I could afford, so I had to go with Linux... I can't remember what my first distro -- maybe it was a \[unintelligible 00:04:44.11\] two floppy disks.
+**Miguel de Icaza:** Yes. I couldn't put BSD on the little space that I could afford, so I had to go with Linux... I can't remember what my first distro -- maybe it was HJ Lu's: two floppy disks.
 
 **Jerod Santo:** It's interesting how what you would think would be an almost inconsequential scenario, where it's just like "I don't have the space", like that was the deciding factor, but it actually kind of changed your trajectory for you...
 
-**Miguel de Icaza:** Yeah. I don't know if it was 40 MB... What was the thing that -- it was a 386 PC; I don't even know if it \[unintelligible 00:05:04.13\] and Linux had that 387 Emulator at some point. I don't remember these things anymore, but that's roughly where I started. So it must have been 1991, 1992 perhaps... In that era; it was in that general neighborhood.
+**Miguel de Icaza:** Yeah. I don't know if it was 40 MB... What was the thing that -- it was a 386 PC; I don't even know if it had a math coprocessor and Linux had that 387 Emulator at some point. I don't remember these things anymore, but that's roughly where I started. So it must have been 1991, 1992 perhaps... In that era; it was in that general neighborhood.
 
 **Jerod Santo:** That got you into Linux. The question that we have, which maybe a lot of people ask you is "How does the original creator of Gnome come to work at Microsoft?" It seems like that's a long story.
 
@@ -28,7 +28,7 @@ The problem was these BSD's didn't have dynamic libraries, so the nice thing abo
 
 **Jerod Santo:** No way...
 
-**Miguel de Icaza:** Yeah, and a friend of mine came to me with a big printout and said, "Here! Here's how you..." -- the university had just gotten into internet, and they said "Here's how you make your UNIX machine useful. Look for this GNU stuff. There's a lot of good stuff in there." So you got through the list, it was a list of FTP sites, and it would say "This has \[unintelligible 00:06:38.04\]..."
+**Miguel de Icaza:** Yeah, and a friend of mine came to me with a big printout and said, "Here! Here's how you..." -- the university had just gotten into internet, and they said "Here's how you make your UNIX machine useful. Look for this GNU stuff. There's a lot of good stuff in there." So you got through the list, it was a list of FTP sites, and it would say "This has XL lib, GNU utils..."
 
 **Adam Stacoviak:** Wow.
 
@@ -52,7 +52,7 @@ So ever since I decided "I'm gonna help the GNU project. Maybe I can't write cod
 
 **Jerod Santo:** I don't remember the format, and I remember using Wine...
 
-**Miguel de Icaza:** Yeah, so my contribution was running that thing, and then -- it wasn't really GNU, but it was my thing. I think I've been competing with Microsoft since 1991 or so... \[laughter\] Because come to think of it, I did the \[unintelligible 00:08:28.04\] in 1992, and that was already kind of my second thing, that was more serious. So yeah, maybe around 1991, and I've been competing with Microsoft ever since.
+**Miguel de Icaza:** Yeah, so my first contribution was writing that thing, and then -- it wasn't really GNU, but it was my thing. I think I've been competing with Microsoft since 1991 or so... \[laughter\] Because come to think of it, I did the Midnight Commander in 1992, and that was already kind of my second thing, that was more serious. So yeah, maybe around 1991, and I've been competing with Microsoft ever since.
 
 It started there, with the Windows emulation... We were gonna bring those apps to open source--
 
@@ -60,9 +60,9 @@ It started there, with the Windows emulation... We were gonna bring those apps t
 
 **Miguel de Icaza:** We're gonna run them on our system. And then I worked for a while with the people doing open source Java. There were lots of interesting lessons on the dynamics of the community there. Then the Linux Kernel - I worked for a while on the Linux Kernel; I had this vision that workstations are gonna be the future, the SPARC Architecture was serious hardware, as opposed to the toy PC's, with their toy hard drives and their toy CPU's and their toy memories. So I worked on that for a while.
 
-One day a friend of mine is like "You realize that a PC \[unintelligible 00:09:29.05\] and a Pentium is ten times cheaper, and it's only half as slow?" I'm like, "Huh..." I started to rethink... Maybe workstations are not the future. \[laughter\] I had those experiences.
+One day a friend of mine is like, "You realize that a PC with SCSI and a Pentium is ten times cheaper, and it's only half as slow?" I'm like, "Huh..." I started to rethink... Maybe workstations are not the future. \[laughter\] I had those experiences.
 
-But yeah, I've been competing with Microsoft through all kinds of things - working on the Linux Kernel, then I worked on drivers for the SPARC and \[unintelligible 00:09:57.15\] before he was world-renowned famous on the RAID drivers for Linux...
+But yeah, I've been competing with Microsoft through all kinds of things -- working on the Linux Kernel, then I worked on drivers for the SPARC and the SGI and I worked with Ingo Molnar before he was world-renowned famous on the RAID drivers for Linux...
 
 Then the next challenge was "Well, the Kernel's in good hands, what about the UI?" The UI was just terrible, so "Let's work on the UI", and I worked on GNOME for many years, and the GNOME Office piece also for a while...
 
@@ -104,7 +104,7 @@ Java at this point was proprietary; there were two versions - a proprietary vers
 
 **Jerod Santo:** It was proprietary, but free as in no cost.
 
-**Miguel de Icaza:** Yeah, proprietary, but cost-free. The open source one struggled for many years to get traction. So along comes \[unintelligible 00:14:40.09\] "Well, this is what we need." It has the characteristics of a higher-level language, but the performance of a low-level language. That's what the doctor ordered.
+**Miguel de Icaza:** Yeah, proprietary, but cost-free. The open source one struggled for many years to get traction. So along comes .NET and I said, "Well, this is what we need." It has the characteristics of a higher-level language, but the performance of a low-level language. That's what the doctor ordered.
 
 And unlike Java, it very quickly took off, because there was not free .NET, so either we built it or we didn't have it. So the community rallied around this thing, and very quickly we built a community that essentially replicated .NET, and that was the Mono project.
 
@@ -210,9 +210,9 @@ And then there was the uglier era when open source kind of becomes a brand, and 
 
 **Jerod Santo:** Right, evil empire.
 
-**Miguel de Icaza:** Yeah, kind of like that, and it was seen that way, and that didn't foment a great environment. There was this notion -- the press was, you know... "Microsoft is toast, Windows is not gonna exist. Linux is gonna take over the whole world...", so there were a lot of very nervous people, and in particular the previous CEO was fairly antagonistic toward Linux for many years, or took an antagonistic position towards Linux and the \[unintelligible 00:30:51.11\]
+**Miguel de Icaza:** Yeah, kind of like that, and it was seen that way, and that didn't foment a great environment. There was this notion -- the press was, you know... "Microsoft is toast, Windows is not gonna exist. Linux is gonna take over the whole world...", so there were a lot of very nervous people, and in particular the previous CEO was fairly antagonistic toward Linux for many years, or took an antagonistic position towards Linux and the GPL.
 
-But I think it's a little bit like that diagram of -- I don't know, one of these \[unintelligible 00:31:00.13\] firms uses the hype graph, where you have exceeded expectations...
+But I think, it's a little bit like that diagram of -- I don't know, one of these analyst firms uses the hype graph, where you have exceeded expectations...
 
 **Jerod Santo:** And then it comes back down...
 
@@ -236,7 +236,7 @@ So I think that the thinking internally of Microsoft started to change, and Micr
 
 **Miguel de Icaza:** Basically, yeah. You need to make a case that you're not doing something... I can't just go and fill in a form to open source Windows, right? But if I write some code, I can certainly do that.
 
-**Adam Stacoviak:** On that note, there was one point in your career where you mentioned -- I think it was when you were being interviewed, I think earlier on in your career, towards Microsoft, and you on this advocacy of open source you mentioned that they should open source IE. This was way back \[unintelligible 00:33:04.20\] and you were kind of using Netscape as a case study of like "Hey, this is what they're doing." Can you kind of pontificate...?
+**Adam Stacoviak:** On that note, there was one point in your career where you mentioned -- I think it was when you were being interviewed, I think earlier on in your career, towards Microsoft, and you had on this advocacy of open source you mentioned that they should open source IE. This was way back in IE's lifetime, and you were kind of using Netscape as a case study of like, "Hey, this is what they're doing." Can you kind of pontificate...?
 
 **Miguel de Icaza:** Netscape actually happened later. They were not open-sourced at that point. Yeah, there wasn't -- I had an interview with Microsoft... I was working on Linux on the SPARC, supporting Linux on the SPARC, so a friend of mine, Randy Chapman, said "Hey, we're working on importing IE to SPARC, and they're interviewing here. Do you wanna come?" And I came and I interviewed with the people - I don't know who interviewed me anymore, but I made my pitch. "You should make IE open source." That was my pitch. "Make this open source. There's all these benefits", and I think they were like "Alright... Whatever, dude."
 
@@ -260,13 +260,13 @@ So I think that the thinking internally of Microsoft started to change, and Micr
 
 **Adam Stacoviak:** Well, he said if he was gonna go there, he was gonna change the company from the inside.
 
-**Jerod Santo:** Well, I realize that, but when you first said interviewing, I was just thinking \[unintelligible 00:35:37.22\] That makes it even funnier... You were in that sense very hardcore with advocacy.
+**Jerod Santo:** Well, I realize that, but when you first said interviewing, I was just thinking it would be like this. That makes it even funnier... You were in that sense very hardcore with advocacy.
 
 Fast-forward to the day, inside of the industry and software, are the things that you care about with that level of passion now that are different? Or is that like a young man's energy that slowly subsides?
 
 **Miguel de Icaza:** Well, I mean, I still care very passionately about the -- there's things that I care about in tech and things that I care about outside of tech, and I think that my advocacy and my heart breaks for all the disasters in the world... If you follow my Twitter for years, or my blog, you'll see that; there's a particular series of injustices that have -- you know, Palestine has always been a very sad story.
 
-I still care about those things, and I think they got really \[unintelligible 00:36:40.15\] but there's countless other problems in society that need to be solved. We have a lot of really smart people, and we should be fixing those issues.
+I still care about those things, and I think they got really the short end of the stick but there's countless other problems in society that need to be solved. We have a lot of really smart people, and we should be fixing those issues.
 
 I think that the passion and the desire to go and fix those things is there. Having kids certainly doesn't leave a lot of time to sign up for doing talks and advocacy in places... But one of my co-workers, Nina Vyedin - she runs the Indivisible Summerville organization and they're doing all kinds of very interesting social changes in our community; they start there and they take it elsewhere. But I think that just having a family kind of takes a toll on your time for doing some of the more advocacy things that I do wanna do.
 
@@ -314,7 +314,7 @@ The nice thing is that it's super cheap. You prototype on paper! What does it co
 
 **Miguel de Icaza:** We can do that... I should do that.
 
-**Jerod Santo:** Or you can talk to them directly, I guess. \[laughter\] It's your team \[unintelligible 00:42:18.08\]
+**Jerod Santo:** Or you can talk to them directly, I guess. \[laughter\] It's your team. We won't tell you what to do.
 
 **Miguel de Icaza:** "Okay guys, we're gonna make things easy!"
 
