@@ -2,6 +2,15 @@
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
+- [Contributors](#contributors)
+- [Contributing](#contributing)
+  - [Why Contributing Is Worth Your Time](#why-contributing-is-worth-your-time)
+- [Conventions](#conventions)
+  - [Directory structure and file names](#directory-structure-and-file-names)
+  - [Timestamps](#timestamps)
+- [Conduct](#conduct)
+- [License & Copyright](#license-&-copyright)
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
@@ -25,7 +34,7 @@ Pull requests, please! Our transcriptions are lovingly crafted by a human, but t
 - Adding timestamps to key/beloved statements and sections
 - Fixing typos
 
-**Why Contributing Is Worth Your Time**
+### Why Contributing Is Worth Your Time
 
 1. Once merged, your contribution will immediately (pending webhook execution) appear on the episode page for all to use/enjoy!
 2. We routinely send thank you's on the air and on Twitter!
