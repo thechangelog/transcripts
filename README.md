@@ -7,6 +7,7 @@ The repository of [Changelog](https://changelog.com) episode transcripts in Mark
   - [Why Contributing Is Worth Your Time](#why-contributing-is-worth-your-time)
 - [Conventions](#conventions)
   - [Directory structure and file names](#directory-structure-and-file-names)
+  - [Text Formatting](#text-formatting)
   - [Timestamps](#timestamps)
 - [Conduct](#conduct)
 - [License & Copyright](#license-&-copyright)
@@ -51,6 +52,10 @@ Parsed and html-ized versions of these transcripts live on [Changelog.com](https
 For example, [the episode that lives at](https://changelog.com/rfc/13): `https://changelog.com/rfc/13`
 
 Has [its transcript in this repo at](https://github.com/thechangelog/transcripts/rfc/request-for-commits-13.md): `rfc/request-for-commits-13.md`
+
+### Text Formatting
+
+Each transcript fragment is parsed as good ole' [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). That means you can add `*`s or `_`s for emphasis, `[links](https://changelog.com)` to referenced people/projects, etc. We _especially_ encourage addition of links. These make the transcripts much more useful to readers and provide valuable SEO juice to the link-worthy things we discuss on our shows.
 
 ### Timestamps
 
