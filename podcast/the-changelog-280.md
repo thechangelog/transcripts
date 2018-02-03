@@ -8,7 +8,7 @@ To get started in the why I wanted to do this, a long time ago I was making oper
 
 **Jerod Santo:** It's interesting, I was thinking back when I said "I don't think we talked to too many operating systems developers", the last one that we did, Adam - the show hasn't aired yet, because we have to re-record, because we had Steve Klabnik on talking about intermezzOS, which is another operating system that has probably extremely different goals than what you're doing, but interesting to see how much is happening in the Rust community around OS's.
 
-I wanna go back to Ticki, because I was \[unintelligible 00:05:10.01\] the Redox book today in preparation for this, and Ticki's name is all over that. So it sounds like he's been a part of the community since day one, huh?
+I wanna go back to Ticki, because I was perusing the Redox book today in preparation for this, and Ticki's name is all over that. So it sounds like he's been a part of the community since day one, huh?
 
 **Jeremy Soller:** That's right. He started the community with that Reddit post, and the first commit to the repository was on April 20th 2015, and only a couple months later Ticki posted, and it kind of exploded from there. He set up the chat server, he started writing a bunch of this... He's got his code in the core utils, in additional utilities we have called "extra utils" inside the shell, in the kernel, and now he's working on the file system.
 He wrote some very popular Rust libraries like Termion, that is a terminal control library that quite a lot of people are using for outputting stuff to the terminal and using control characters and making nice, pretty terminal interfaces.
