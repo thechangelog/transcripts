@@ -60,7 +60,7 @@ Thankfully, I think it's been a combination of both. One, the Go team's improvem
 
 So basically, my experience with Go has been overwhelmingly positive, and I've written about this a couple of times. I really do think that Go has a long lifetime ahead of it and I do think that 5-10 years from now it potentially has the possibility to overtake Java as the preferred server-side programming language for services.
 
-\[00:12:14.13\] Our two biggest pain points over that time -- which, of course, everybody is \[unintelligible 00:12:21.03\] say things that everybody has heard a million times before, which is one, dependencies; thankfully, it looks like that is finally starting to get addressed... And two, generics. I'm not asking that they add generics to the language, because I feel like there's a big win in not having them in terms of simplicity and readability and that kind of stuff, but we definitely felt the pain in a couple specific spots where generics would have been handy.
+\[00:12:14.13\] Our two biggest pain points over that time -- which, of course, everybody is going to groan because I'm going say things that everybody has heard a million times before, which is one, dependencies; thankfully, it looks like that is finally starting to get addressed... And two, generics. I'm not asking that they add generics to the language, because I feel like there's a big win in not having them in terms of simplicity and readability and that kind of stuff, but we definitely felt the pain in a couple specific spots where generics would have been handy.
 
 Actually, Ben Johnson ended up writing this templating thing, basically like this code generation thing that lets us hack around new generics, which is littered in our query engine code right now.
 
