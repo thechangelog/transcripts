@@ -152,7 +152,7 @@ Now we have a person, Fernanda, who is a data scientist and she knows a lot more
 
 **Erik St. Martin:** It could just be the amount of hype... You know, you go on a lot of programming forums and things, and a lot of people are experimenting with Go and Rust, because the past couple years that's really two of the main languages that have -- I guess Scala a bit, too... I'm trying to think of some other ones that have kind of got super-hyped in the last couple of years, but...
 
-**Vitor De Mario:** I think he enjoyed the simplicity as well, because there wasn't much to learn in terms of the syntax of the language and that kind of thing. You could pick it up and start working in it pretty fast. He didn't have to learn what \[unintelligible 00:17:36.23\] comprehension is, or something like that, compared to other languages.
+**Vitor De Mario:** I think he enjoyed the simplicity as well, because there wasn't much to learn in terms of the syntax of the language and that kind of thing. You could pick it up and start working in it pretty fast. He didn't have to learn what list comprehension is, or something like that, compared to other languages.
 
 **Erik St. Martin:** That's sure, too. I mean, you look at some languages and they're extremely confusing, and then you have languages that seem simple if you have programming background beforehand, but I guess it's hard to look at any language and think about what it might look like to somebody who's never programmed before.
 
@@ -164,7 +164,7 @@ I remember Ruby - "Oh, super, super readable", right? Well, not if you show a no
 
 **Carlisia Pinto:** Yeah, this is one thing that really strikes me about Go. You can write a very complex system without using any interface, or goroutines or anything that could be complicated, depending on your experience in programming. Now, of course, the more code you write without using these things, the more you have to keep in your head, and you could potentially simplify it by using interfaces, and making it more efficient by using goroutines... But you don't have to. You can have a perfectly functional program.
 
-**Vitor De Mario:** Yeah, you can still survive without those things. The first version of the program that he showed us had none of those things, and for a while there wasn't anything. We were trying to separate things into packages, and we had our own problems trying to rebuild things in the way we were used to in other languages. We can from Java or from C\#, depending on who was working on each part of the code... So we tried to do the things that we thought were natural and they didn't necessarily fit Go, so there was all of that, but... He had his own issues not knowing those things, and we also had them. After a while, we all kind of converged, understanding the language better.
+**Vitor De Mario:** Yeah, you can still survive without those things. The first version of the program that he showed us had none of those things, and for a while there wasn't anything. We were trying to separate things into packages, and we had our own problems trying to rebuild things in the way we were used to in other languages. We came from Java or from C\#, depending on who was working on each part of the code... So we tried to do the things that we thought were natural and they didn't necessarily fit Go, so there was all of that, but... He had his own issues not knowing those things, and we also had them. After a while, we all kind of converged, understanding the language better.
 
 **Brian Ketelsen:** \[00:20:06.12\] So you are one of the organizers of GopherCon Brazil?
 
@@ -368,7 +368,7 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Brian Ketelsen:** Fine...
 
-**Erik St. Martin:** So I came across -- I think it was last week sometimes... I think the GitHub username is hunterloftis, and the name of the project is called PBR. It's a 3D renderer...
+**Erik St. Martin:** So I came across -- I think it was last week sometimes... I think the GitHub username is hunterloftis, and the name of the project is called [PBR. It's a 3D renderer](https://github.com/hunterloftis/pbr)...
 
 **Brian Ketelsen:** Wait a minute, PBR like Pabst Blue Ribbon?
 
