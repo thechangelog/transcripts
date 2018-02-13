@@ -588,7 +588,7 @@ I don't know, I'm not taking sides, just trying to...
 
 **Erik St. Martin:** Vitor, did you have somebody you wanted to give a shoutout to?
 
-**Brian Ketelsen:** Yeah, I have a library to talk about here on the show called GoReleaser. It's done by another guy in Brazil, his name is Carlos Becker, and it's got like more than 2,000 stars on GitHub and it creates Go binaries from pretty much every platform you can imagine, it helps you create GitHub releases, push \[unintelligible 00:54:26.27\] and all those kinds of things. I've heard of other project using his software to make the release of new versions easier, and it's been pretty successful.
+**Vitor De Mario:** Yeah, I have a library to talk about here on the show called GoReleaser. It's done by another guy in Brazil, his name is Carlos Becker, and it's got like more than 2,000 stars on GitHub and it creates Go binaries from pretty much every platform you can imagine, it helps you create GitHub releases, push your software as a homebrew formula and all those kinds of things. I've heard of other project using his software to make the release of new versions easier, and it's been pretty successful.
 
 **Brian Ketelsen:** Yeah, GoReleaser is awesome. I have a confession to make... At my GolangUK talk I announced -- was it GolangUK? Some talk late last year I announced gopher.rocks, which was the same thing - the ability to tag and release stuff to GitHub, and then three weeks after I did that talk, I found GoReleaser, and it's done and it's beautiful and it had a million better features than gopher.rocks', and I just abandoned it, because GoReleaser does it all already, so... Yeah, thank you for that.
 
