@@ -294,7 +294,7 @@ Considering how simple I guess the style guideline may be in terms of how you im
 
 For the command line - it's interesting, I've been actually thinking about this, like "What's the best way to bring it to the command line?" and the way I do it at the moment is you just use a command line browser like w3m or lynx, and Devhints is mostly just markdown and it's mostly just simple HTML; they come out pretty great in the command line as well.
 
-**Jerod Santo:** \[00:50:07.11\] Well, that's a good hack for now. I think ideally I'd love to just type like "hint es6" and then have like an actual incursus-based rendered thing that's like native. But I'll try that here... So you can just -- I'll use lynx, and just put a full URL in, /es6... Should I allow cookies? Oh, man... Am I allowing cookies? Hopefully, that's a -- eh, not bad. Got pagination there... I haven't used lynx since I was a kid, so that's cool. Good idea, I like that.
+**Jerod Santo:** \[00:50:07.11\] Well, that's a good hack for now. I think ideally I'd love to just type like "hint es6" and then have like an actual ncurses-based rendered thing that's like native. But I'll try that here... So you can just -- I'll use lynx, and just put a full URL in, /es6... Should I allow cookies? Oh, man... Am I allowing cookies? Hopefully, that's a -- eh, not bad. Got pagination there... I haven't used lynx since I was a kid, so that's cool. Good idea, I like that.
 
 **Adam Stacoviak:** And you just have it handy? Lynx is just handy for you?
 
