@@ -98,7 +98,7 @@ At first I was very down on them. I thought these were for kids, and silly, and 
 
 **Jerod Santo:** Absolutely. And that's another thing, if we talk about things that optimize for the retweet or the star in terms of... You know, projects will put an emoji in their description, and there's something about it that just -- I don't know if it's just a visual aid, or... You find the right emoji that represents your little library or whatever, and it gives it an extra little boost.
 
-So it's funny how it's pretty trivial aspects... I mean, for people who -- the developers \[unintelligible 00:17:36.03\] meritocracy, and like "What's the technical merits of this thing?" and very much the numbers and the tech and the architecture, but at the end of the day we're all very much just sold by animated gifs and emojis.
+So it's funny how it's pretty trivial aspects... I mean, for people who -- the developers who reach you like about meritocracy, and like "What's the technical merits of this thing?" and very much the numbers and the tech and the architecture, but at the end of the day we're all very much just sold by animated gifs and emojis.
 
 **Rico Sta. Cruz:** Well, I like to think we're still about the usefulness and the merits of projects, and those are just things we use to convey them.
 
@@ -162,9 +162,9 @@ Tell us the story of this, because you finally have a proper Devhints.io, it's l
 
 **Rico Sta. Cruz:** It used to be just a humble repository with markdown files, so if I have notes on something that I'm learning, I just put a markdown file with the same project name... And for some reason, some people started starring that project, which is very strange. It basically had a readme of two characters, which is a smiley face, just to really drive in the point that I wasn't really expecting much of it.
 
-It started getting traffic, and I decided to put it online on my website, on my personal domain; I didn't really notice for a while, and when I came back to the analytics, it turned out that it was getting traction and people were starting to actually link and starting to tweet about it... And I figured it's probably time that I make it into a full-blown website. So just very recently, I launched Devhints.io, which is basically the same thing as my old cheatsheets website, with a shinier coat onto it. Basically, a domain name where you can just type in devhints.io/something, like /react, or /es6, or whatever it is... That makes it a lot more convenient, because I would sometimes give my cheatsheets to my colleagues, and with such a \[unintelligible 00:32:54.27\] so on and so forth. Now we just have Devhints.io/ react.
+It started getting traffic, and I decided to put it online on my website, on my personal domain; I didn't really notice for a while, and when I came back to the analytics, it turned out that it was getting traction and people were starting to actually link and starting to tweet about it... And I figured it's probably time that I make it into a full-blown website. So just very recently, I launched Devhints.io, which is basically the same thing as my old cheatsheets website, with a shinier coat onto it. Basically, a domain name where you can just type in devhints.io/something, like /react, or /es6, or whatever it is... That makes it a lot more convenient, because I would sometimes give my cheatsheets to my colleagues, and with such a long URL to type, like my domain name ricostacruz.com/ \[unintelligible 00:33:04\] so on and so forth. Now we just have Devhints.io/ react.
 
-**Adam Stacoviak:** Certainly nice for just pointing somebody to, you know, /saas, /react, and for those just looking for a refresher on certain things, like if you go to /saas, you're doing SaaS style sheets... It's very easy to be like "Oh, that's how you do variables" or "Oh, that's how you do nesting, that's how you implement an extender etc." That's really -- not every language is the same, so you can probably rinse and repeat that for most of the different languages, but if you go to React for example, you've got different components and some of them are more complex than others... And the design is pretty awesome, but you can go there very easily and just point anybody to it (obviously) and they get kind of a bird's eye view of what you can expect with certain common implementations in the language.
+**Adam Stacoviak:** Certainly nice for just pointing somebody to, you know, /sass, /react, and for those just looking for a refresher on certain things, like if you go to /sass, you're doing Sass style sheets... It's very easy to be like "Oh, that's how you do variables" or "Oh, that's how you do nesting, that's how you implement an extender etc." That's really -- not every language is the same, so you can probably rinse and repeat that for most of the different languages, but if you go to React for example, you've got different components and some of them are more complex than others... And the design is pretty awesome, but you can go there very easily and just point anybody to it (obviously) and they get kind of a bird's eye view of what you can expect with certain common implementations in the language.
 
 **Rico Sta. Cruz:** \[00:33:59.06\] Oh yeah, and I do like how it's very bite-sized. You could go to any cheatsheet on Devhints and digest and soak up everything, in a minute. One of the things that I'm trying to do is run a Twitter account where I just kind of tweet a random Devhints page with a random snippet, for a daily TL;DR sort of thing.
 
@@ -210,7 +210,7 @@ It started getting traffic, and I decided to put it online on my website, on my 
 
 **Adam Stacoviak:** \[00:37:58.15\] Two people. Okay... Two people. Anyways, I'm just playing devil's advocate here. I was just thinking like, do people print these?
 
-**Jerod Santo:** No, I get it, and I agree that printing is on its way out. I feel like if you're trying to learn something and it's complex... I mean, if you look at all those different things you can do in Vim - I'm still learning Vim, after 12-13 years of using it - and you want to commit it to memory, print it off... Even, heck, if you're \[unintelligible 00:38:23.09\] laminate it. Lamination is great.
+**Jerod Santo:** No, I get it, and I agree that printing is on its way out. I feel like if you're trying to learn something and it's complex... I mean, if you look at all those different things you can do in Vim - I'm still learning Vim, after 12-13 years of using it - and you want to commit it to memory, print it off... Even, heck, if you're \[unintelligible 00:38:23.09\] retentive laminate it. Lamination is great.
 
 **Adam Stacoviak:** Whoa...!
 
@@ -236,7 +236,7 @@ It started getting traffic, and I decided to put it online on my website, on my 
 
 **Jerod Santo:** Well, you are not lying, because I'm looking now at the open issues, and they're almost all cheatsheet requests: Mercurial, Polymer 2, elm, Rust, Markojs... One says "APP\_NAME\_HERE" They didn't actually figure out they were supposed to put the app name right there... Actually, two of them. Anyways...
 
-**Adam Stacoviak:** \[00:42:01.13\] I think something interesting too, Jerod, is something that comes a little closer to the hacker heart of Changelog.com is José Valim contributed an update to the Phoenix cheatsheet, which was to use proper directory structure for Phoenix... So you kind of have this language creator, somebody who is \[unintelligible 00:42:19.27\] heavily in Elixir and Phoenix saying "Oh, let me help you out here." It's already in place, somebody has already contributed, but something's been updated and somebody like José comes by and says "Oh, let me send a PR for this." That's awesome.
+**Adam Stacoviak:** \[00:42:01.13\] I think something interesting too, Jerod, is something that comes a little closer to the hacker heart of Changelog.com is José Valim contributed an update to the Phoenix cheatsheet, which was to use proper directory structure for Phoenix... So you kind of have this language creator, somebody who is playing heavily in Elixir and Phoenix saying "Oh, let me help you out here." It's already in place, somebody has already contributed, but something's been updated and somebody like José comes by and says "Oh, let me send a PR for this." That's awesome.
 
 **Rico Sta. Cruz:** That's actually pretty interesting... As you said, José Valim is one of the people who have put together Elixir as a language. Phoenix was the project of someone else (Chris McCord), but anyway, I worked with these two guys before, because when they were building Phoenix and Plug and their error pages, they took a template that I did, started up with that, and I basically told them "Hey, why don't we build one from scratch?" and I built something and contributed to Plug and Phoenix with their help.
 
@@ -278,7 +278,7 @@ Considering how simple I guess the style guideline may be in terms of how you im
 
 **Adam Stacoviak:** Well, I mean, it's a Jekyll site, so that's fairly easy, aside from maybe, say, getting the right Ruby in place, or Gems in place; there's still some things people trip over. Aside from something like that, getting Jekyll to run is fairly painless, but being able to see even the online documentation, like this URL we're looking at, which is Devhints.io/cheatsheet-styles and comparing that to its counterpart in the repo, you can kind of look at the markdown and say "Well, this is how it's gonna look once I ship it or once it's rendered on the site." It's good.
 
-**Rico Sta. Cruz:** Yeah, so what I really like about how everything is set up in Devhints is that I try to make it so that it's optimized \[unintelligible 00:47:52.28\] a very easy thing to do. I basically just wanna go from idea to cheatsheet, just by opening Vim, typing a couple of things out, and then suddenly it's a cheatsheet. Like you said, it's all markdown, there's not much special about it.
+**Rico Sta. Cruz:** Yeah, so what I really like about how everything is set up in Devhints is that I try to make it so that it's optimized to authorship a very easy thing to do. I basically just wanna go from idea to cheatsheet, just by opening Vim, typing a couple of things out, and then suddenly it's a cheatsheet. Like you said, it's all markdown, there's not much special about it.
 
 **Jerod Santo:** Looking at this, I can't help but think back to the good old days - if you guys will go with me - of Defunkt's cheat tool. Do you guys remember that?
 
@@ -294,7 +294,7 @@ Considering how simple I guess the style guideline may be in terms of how you im
 
 For the command line - it's interesting, I've been actually thinking about this, like "What's the best way to bring it to the command line?" and the way I do it at the moment is you just use a command line browser like w3m or lynx, and Devhints is mostly just markdown and it's mostly just simple HTML; they come out pretty great in the command line as well.
 
-**Jerod Santo:** \[00:50:07.11\] Well, that's a good hack for now. I think ideally I'd love to just type like "hint es6" and then have like an actual incursus-based rendered thing that's like native. But I'll try that here... So you can just -- I'll use lynx, and just put a full URL in, /es6... Should I allow cookies? Oh, man... Am I allowing cookies? Hopefully, that's a -- eh, not bad. Got pagination there... I haven't used lynx since I was a kid, so that's cool. Good idea, I like that.
+**Jerod Santo:** \[00:50:07.11\] Well, that's a good hack for now. I think ideally I'd love to just type like "hint es6" and then have like an actual ncurses-based rendered thing that's like native. But I'll try that here... So you can just -- I'll use lynx, and just put a full URL in, /es6... Should I allow cookies? Oh, man... Am I allowing cookies? Hopefully, that's a -- eh, not bad. Got pagination there... I haven't used lynx since I was a kid, so that's cool. Good idea, I like that.
 
 **Adam Stacoviak:** And you just have it handy? Lynx is just handy for you?
 
@@ -386,7 +386,7 @@ The way it grew is it was out of our frustration of other CSS structures out the
 
 **Rico Sta. Cruz:** Alright, good questions. So when we talk of Atomic CSS or modular CSS, it's not necessarily conventions or a way of doing things, but it's an idea of how you build \[unintelligible 01:03:39.29\] and compartmentalize components. There are things you mentioned, like BEM and OOCSS and SMACSS, and RSCSS itself - they're ways to make sense of how you implement this idea of making things modular and componentized, and how do you formalize them into naming conventions and how you write your class names and such.
 
-\[01:04:09.17\] And yeah, in a sense you could say that RSCSS is kind of like BEM Light, in the sense that it \[unintelligible 01:04:15.18\] very similar problem with something a little less verbose. But yeah, it's less feature-rich than BEM, but at the same time I think it's a very welcome -- I think it's good that it is that way, because it's easier to write.
+\[01:04:09.17\] And yeah, in a sense you could say that RSCSS is kind of like BEM Light, in the sense that it solves a very similar problem with something a little less verbose. But yeah, it's less feature-rich than BEM, but at the same time I think it's a very welcome -- I think it's good that it is that way, because it's easier to write.
 
 **Jerod Santo:** Okay.
 
@@ -424,7 +424,7 @@ Now, it's not like something that you could use on everything, because obviously
 
 \[01:12:22.02\] I think that's kind of interesting, because it does -- that's where I kind of got tripped up. It's like "When do you include the \_ \_, and when should I not?" Coming back to you're using child modifiers or your child selectors, and then the syntax, now it is a little bit more clearer to me.
 
-**Rico Sta. Cruz:** Yeah, and one of the things that I wanted to emphasize with RSCSS is you just write class names as you probably would have when you were starting to learn CSS. So you wouldn't have things like \_ \_ -- and you wouldn't have to remember where \[unintelligible 01:12:54.15\] goes or where a dash goes...
+**Rico Sta. Cruz:** Yeah, and one of the things that I wanted to emphasize with RSCSS is you just write class names as you probably would have when you were starting to learn CSS. So you wouldn't have things like \_ \_ -- and you wouldn't have to remember where an underscore goes or where a dash goes...
 
 **Adam Stacoviak:** That was the hardest part at BEM for me, honestly. I like it visually, but the practicality of it, it made sense after I went away and came back, and I was like "Where does this go again? How do I resume building up this component?" That kind of thing.
 
