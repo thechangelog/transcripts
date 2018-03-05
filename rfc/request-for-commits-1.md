@@ -1,5 +1,3 @@
-Welcome to Request For Commits, a podcast that explores different perspectives in open source sustainability. On this show we talk to people about the human side of code. We cover everything from community and governance to businesses and licensing. If you've ever wondered how open source projects get started, survive, die or flourish, then you're gonna love this show.
-
 **Nadia Eghbal:** I'm Nadia Eghbal.
 
 **Mikeal Rogers:** And I'm Mikeal Rogers.
