@@ -1,5 +1,3 @@
-\[00:00:19.22\] to \[00:00:51.12\]
-
 **Erik St. Martin:** Welcome back, everybody, to another episode of GoTime. Today's episode is number 69, and today on the show we have myself, Erik St. Martin, Brian Ketelsen is also here...
 
 **Brian Ketelsen:** Hello!
@@ -10,7 +8,7 @@
 
 **Erik St. Martin:** And we're peak Brian today, because our guest today is Brian Scott, who happens to work for a mouse. Brian, you actually work on and kind of contribute to a number of open source projects... Do you wanna give maybe our guests who aren't familiar with you a rundown of your history and some of the things you work on?
 
-**Brian Scott:** Sure. On my professional time, obviously, I work on a lot of web operations, \[unintelligible 00:01:33.28\] applications, web technologies, cloud automation... But for my open source side of my life, I do maintain a project called GolangFlow.io, which was heavily inspired by RubyFlow by Peter Cooper, out of London, I believe. And it's essentially just that - its' a replica of RubyFlow, but written in Buffalo, and obviously, powered by Go. It gives the community a chance to post their favorite news articles and whatnot, which actually get posted to Twitter, and then along with all the other Twitter bots that are scattered all across the Twitterverse.
+**Brian Scott:** Sure. On my professional time, obviously, I work on a lot of web operations, \[unintelligible 00:01:33.28\] applications, web technologies, cloud automation... But for my open source side of my life, I do maintain a project called Golang Flow.io, which was heavily inspired by RubyFlow by Peter Cooper, out of London, I believe. And it's essentially just that - its' a replica of RubyFlow, but written in Buffalo, and obviously, powered by Go. It gives the community a chance to post their favorite news articles and whatnot, which actually get posted to Twitter, and then along with all the other Twitter bots that are scattered all across the Twitterverse.
 
 I also contribute to a bunch of open source libraries. I do have a couple of favorites, for instance like Colly is my favorite library for scraping content off the web... I am also starting to get into the whole blockchain era, so I've been meeting up a lot of Go packages that kind of integrate with the blockchain.
 
@@ -26,8 +24,7 @@ I think it's great, and I think there's gonna be a lot coming out of it. I've be
 
 **Brian Ketelsen:** \[00:04:19.20\] So how do you see functions sitting in the overall landscape of architecture? I struggle to understand where a good place to put functions in serverless is. Where do you see that fitting in architectures that you make?
 
-**Brian Scott:** I think right now the landscape is still very open. I think folks are still trying to grasp the best approach when to use functions. Right now, I tend to use functions for quick one-offs, for instance like ETL jobs, or even transcoding jobs, where I need to quickly transcode a video file or maybe run some operation against an image file. But even among the API landscape, it's becoming a thing where you break your application more and more into microservices. Instead of having a whole dedicated service to a particular role in your application, it's now just split out as a function.
-Since functions are also so cheap to actually run, you can now build these massive applications broken up into many different functions.
+**Brian Scott:** I think right now the landscape is still very open. I think folks are still trying to grasp the best approach when to use functions. Right now, I tend to use functions for quick one-offs, for instance like ETL jobs, or even transcoding jobs, where I need to quickly transcode a video file or maybe run some operation against an image file. But even among the API landscape, it's becoming a thing where you break your application more and more into microservices. Instead of having a whole dedicated service to a particular role in your application, it's now just split out as a function. Since functions are also so cheap to actually run, you can now build these massive applications broken up into many different functions.
 
 And if you kind of look where we came from - we came from physical hardware, to running now these virtual machines within the cloud, to now running processes within containers, and now we're even going down even smaller, to where we're now just running functions. And if we think about it, now that there's this movement of pushing functions out to the edge - you see Cloudflare, Amazon, and even others pushing functions as a primitive out to the edge, you can even maybe see like "Hey, maybe my rooftop might become a compute layer where I can run functions", and now you can start leasing out that compute and that space.
 
@@ -67,7 +64,7 @@ I don't think we're actually there yet; I think maybe the most concepts are stil
 
 **Brian Scott:** Yeah, I believe so. I think with any technology, it just takes time for us to kind of flesh out all the problems and actually create solutions to those problems.
 
-**Brian Ketelsen:** Fair enough. Let's move to another topic that I know you're deeply into. You mentioned a little bit earlier Buffalo... Can you tell me about building GolangFlow with Buffalo and how that's working out for you?
+**Brian Ketelsen:** Fair enough. Let's move to another topic that I know you're deeply into. You mentioned a little bit earlier Buffalo... Can you tell me about building Golang Flow with Buffalo and how that's working out for you?
 
 **Brian Scott:** Definitely, yeah. I first met Mark Bates, the creator of Buffalo, at GopherCon last year, in 2017. But prior to that, we were actually talking quite a bit. For years -- I got started with Go many years ago, and at the time I had a mentor who was kind of teaching me the fundamentals of like AI and machine learning, and he really wanted to get me into Erlang. Now, at the time I was a big Rails guy; I was all about Rails. I just loved the ease of the tooling, I loved the ease of being able to have access to packages and libraries that were able to solve things. For example, if I needed to actually send e-mail, I could use the mailer action or the mailer controller to actually be able to add the mail functionality into my application.
 
@@ -75,7 +72,7 @@ I don't think we're actually there yet; I think maybe the most concepts are stil
 
 During my Rails days, I was deep into things like \[unintelligible 00:16:41.13\] and I followed Peter Cooper and saw all the cool things that he built, and I felt like you know what, for me to quickly learn Buffalo would be awesome if I can just go ahead and create some type of application that allowed me to utilize all the functionality of Buffalo. So actually during GopherCon last year, I sat with Mark Bates and I had this idea to create something like RubyFlow, but that allowed me to learn all the ins and outs of Buffalo.
 
-So literally, within just like a couple of days, I was able to scaffold and get the majority of the GolangFlow.io site fully operational, and it actually took off pretty quickly. I was able to see that there was a number of users that were creating accounts, that were posting their own news articles and updates on technology that they were passionate about. Then I quickly thought, you know what, it'd be cool if I could tie this into Twitter. So I went ahead and easily extended Buffalo to actually do some pattern-matching and actually pick out which articles it thought would be popular to push out onto Twitter and use the Golang to \[unintelligible 00:17:52.16\]
+So literally, within just like a couple of days, I was able to scaffold and get the majority of the Golang Flow.io site fully operational, and it actually took off pretty quickly. I was able to see that there was a number of users that were creating accounts, that were posting their own news articles and updates on technology that they were passionate about. Then I quickly thought, you know what, it'd be cool if I could tie this into Twitter. So I went ahead and easily extended Buffalo to actually do some pattern-matching and actually pick out which articles it thought would be popular to push out onto Twitter and use the Golang to \[unintelligible 00:17:52.16\]
 
 It's been an amazing experience. I'm able to prototype and to literally test out new features pretty quickly, and the roadmap, at least from what I've seen as far as pull requests and issues - there's just a lot more coming, and I think recently now associations just got added to the Pop package, which allow you to do different database actions with associations, which you had when you were developing in the Rails space.
 
@@ -87,13 +84,13 @@ It's been an amazing experience. I'm able to prototype and to literally test out
 
 **Brian Scott:** And I think it's great how open it is; if you're a developer and you do wanna change something, you do wanna swap out something, you can. There's nothing stopping you from actually doing that. And again, it allows you to use Buffalo the best way that you wanna use it. And again, you're still developing in Go, you're still following all those best practices and you still have access to all that best tooling. You can still follow whatever workflow you are normally used to using, but I think Buffalo does make it easier for you.
 
-**Brian Ketelsen:** What kind of traffic spikes have you seen with GolangFlow? Do you have metrics on your requests?
+**Brian Ketelsen:** What kind of traffic spikes have you seen with Golang Flow? Do you have metrics on your requests?
 
-**Brian Scott:** Yes, so far, as far as RSS feeds -- so there is an RSS feed that another contributor to GolangFlow actually added, and we so far have about just under 2,000 subscribers on the RSS feed, mainly from outside the US. As far as users, I would say we have about 120 logged in users into GolangFlow right now, and that was just in the past month-and-a-half.
+**Brian Scott:** Yes, so far, as far as RSS feeds -- so there is an RSS feed that another contributor to Golang Flow actually added, and we so far have about just under 2,000 subscribers on the RSS feed, mainly from outside the US. As far as users, I would say we have about 120 logged in users into Golang Flow right now, and that was just in the past month-and-a-half.
 
-\[00:20:04.28\] Ideally, I get roughly I would say about 200 pageviews a day. So it's pretty good. The average user spends about 5-10 minutes, just browsing through all the pages, or at least all the posts that are currently on GolangFlow.
+\[00:20:04.28\] Ideally, I get roughly I would say about 200 pageviews a day. So it's pretty good. The average user spends about 5-10 minutes, just browsing through all the pages, or at least all the posts that are currently on Golang Flow.
 
-So it's totally gaining traction... I think it's still fairly new, but again, it's really for more of like a learning exercise, and what I do like is that I'm already getting issues where there's other developers out there that are using it to actually learn Buffalo. They're actually going in and seeing how the application uses different features of Buffalo. So whenever a new feature or a new generator gets added into Buffalo, I do try and think of some way to integrate that into GolangFlow, just for others to actually learn how to use that properly.
+So it's totally gaining traction... I think it's still fairly new, but again, it's really for more of like a learning exercise, and what I do like is that I'm already getting issues where there's other developers out there that are using it to actually learn Buffalo. They're actually going in and seeing how the application uses different features of Buffalo. So whenever a new feature or a new generator gets added into Buffalo, I do try and think of some way to integrate that into Golang Flow, just for others to actually learn how to use that properly.
 
 For instance, when Mark added the whole background workers into Buffalo, I quickly thought of "Hey, I can use this to actually automate the tweeting out of posts out to Twitter." And same thing for the actual mailer. I do plan on adding some type of like newsletter type of a deal into GolanFlow to where hey, if you don't want to go to the site every day, or if you don't wanna be subscribed to the RSS feed, then you can go ahead and just quickly sign up to the newsletter and just get a weekly e-mail of all the recent posts... And we use the actual mailer generator within Buffalo.
 
@@ -103,9 +100,9 @@ For instance, when Mark added the whole background workers into Buffalo, I quick
 
 But there is a sharing functionality, so if you do see a post that you like, there's a little toolbar that has Twitter, Facebook and such, to where you can easily share those posts out.
 
-**Brian Ketelsen:** That was one of the things that I kind of like most about GolangFlow, is that there is no comment section, so it never turns into Reddit or Hacker News, and there are no up-votes or down-votes, so it's just a steady stream of good posts. I can look at the ones that are titled well to get my attention, but I just... I like not having all of that socially voty stuff.
+**Brian Ketelsen:** That was one of the things that I kind of like most about Golang Flow, is that there is no comment section, so it never turns into Reddit or Hacker News, and there are no up-votes or down-votes, so it's just a steady stream of good posts. I can look at the ones that are titled well to get my attention, but I just... I like not having all of that socially voty stuff.
 
-**Brian Scott:** Yeah, I wanted to keep it very neutral. The good thing is that right now when you create a post in GolangFlow.io and you actually add your title, it's not very apparent. I need to make those stand out more. But you can actually add your own hashtags. So if you want your posts to stand out in certain hashtags on Twitter, you can actually add hashtags into the title, and those same hashtags would be used when the background worker actually runs to tweet your post on Twitter.
+**Brian Scott:** Yeah, I wanted to keep it very neutral. The good thing is that right now when you create a post in Golang Flow.io and you actually add your title, it's not very apparent. I need to make those stand out more. But you can actually add your own hashtags. So if you want your posts to stand out in certain hashtags on Twitter, you can actually add hashtags into the title, and those same hashtags would be used when the background worker actually runs to tweet your post on Twitter.
 
 **Brian Ketelsen:** That's really cool.
 
@@ -227,7 +224,7 @@ So here's another interesting one - who read the Cloudflare post about using Go 
 
 **Erik St. Martin:** Yeah, I thought that that was really interesting. It would be a fun experiment to see how many people start using Go for things like that, instead of Perl or Bash or PHP...
 
-**Brian Scott:** I think it'd be great. You just have to think about like, okay, you have to push this minor change to all your boxes, right? You have to push that, and I believe you have to go ahead and extend the exec within the kernel to actually support the .go files. I think that's just something that you have to think about when you do wanna begin scripting with Go. But I think it's a great post, and I actually posted that on GolangFlow, actually.
+**Brian Scott:** I think it'd be great. You just have to think about like, okay, you have to push this minor change to all your boxes, right? You have to push that, and I believe you have to go ahead and extend the exec within the kernel to actually support the .go files. I think that's just something that you have to think about when you do wanna begin scripting with Go. But I think it's a great post, and I actually posted that on Golang Flow, actually.
 
 **Erik St. Martin:** The interesting thing though would be that not a lot of people wanna do that work. But if it could get backed in the distro to begin with, that would make it a lot easier to just use it as a scripting language.
 
@@ -288,5 +285,3 @@ So here's another interesting one - who read the Cloudflare post about using Go 
 **Brian Scott:** Goodbye!
 
 **Brian Ketelsen:** Bye!
-
-Break: \[00:47:07.27\] to \[00:47:55.19\]
