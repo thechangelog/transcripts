@@ -104,7 +104,7 @@ So there are people trying to get Go to be a good language for it... Because of 
 
 **Brian Ketelsen:** It was definitely early.
 
-**Vitor De Mario:** There is also now an official client for TensorFlow. It's not that easy to build a model in Go if you're trying to use TensorFlow, but you can build a model in Python and upload it to Google Cloud ML, or maybe host it yourself and use your software to use it, to send you data into it. That's what we are doing now. We ended up moving away from Random Forest recently, in the last year, and now we are using TensorFlow \[unintelligible 00:13:03.23\]
+**Vitor De Mario:** There is also now an official client for TensorFlow. It's not that easy to build a model in Go if you're trying to use TensorFlow, but you can build a model in Python and upload it to Google Cloud ML, or maybe host it yourself and use your software to use it, to send you data into it. That's what we are doing now. We ended up moving away from Random Forest recently, in the last year, and now we are using TensorFlow and the software that talks to the TensorFlow model is still in Go.
 
 **Erik St. Martin:** Okay, so you basically have your data scientists and things like that create the model in the tools that they're used to, but then you can of consume the model in Go.
 
@@ -222,7 +222,7 @@ I don't know if Carlisia had the same sensation, but for me - I was there for th
 
 **Vitor De Mario:** \[00:24:06.20\] Most of the attendees were from Brazil. In the first year especially there were a lot of people coming from other places in South America, like Argentina and Peru, and they've even given talks. This year I don't think that many came; there was a group from Columbia... I think there was another group, but I don't remember exactly which country it was from. Other than that, we get mostly people from the U.S. that come to speak at the events, so...
 
-Some of our talks are in English, and it's okay, we consider part of the conference to be bilingual. \[unintelligible 00:24:40.13\] who was one of the speakers this year, he wanted to submit a talk to us exactly because of this reason - he wanted to show how the Go language itself could be rewritten in other languages, how he could change the keywords into Bengali or Portuguese, and he said this is the place to do it, because the conference is bilingual.
+Some of our talks are in English, and it's okay, we consider part of the conference to be bilingual. Aditya (Mukerjee) who was one of the speakers this year, he wanted to submit a talk to us exactly because of this reason - he wanted to show how the Go language itself could be rewritten in other languages, how he could change the keywords into Bengali or Portuguese, and he said this is the place to do it, because the conference is bilingual.
 
 We have a few people from the U.S. because of that, because of the talk submissions, and a few people from the rest of South America too, because of the proximity. But Brazil itself is huge. Some people come from bigger distances than the people from Argentina or Chile, just from inside Brazil.
 
@@ -230,11 +230,11 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Vitor De Mario:** Yeah. Brazil is a considered a continental country. It's bigger than a few continents, so... It's huge.
 
-**Erik St. Martin:** Now I can't wait for the videos to come out, because I didn't even see \[unintelligible 00:25:27.22\] talk about translating. That's pretty cool.
+**Erik St. Martin:** Now I can't wait for the videos to come out, because I didn't even see Aditya's talk about translating. That's pretty cool.
 
 **Vitor De Mario:** Yeah, because he did a lightning talk with the same topic in Denver, and then he expanded it for GopherCon Brazil.
 
-**Erik St. Martin:** \[unintelligible 00:25:38.24\] on the final day... I didn't catch any of the lightning talks, and that's one thing I haven't got a chance to do, is watch any of the videos for those.
+**Erik St. Martin:** We got so caught up on the final day... I didn't catch any of the lightning talks, and that's one thing I haven't got a chance to do, is watch any of the videos for those.
 
 **Brian Ketelsen:** He did a similar talk at Golang UK and it was really, really good... Actually, beyond good. It blew my mind. It was awesome.
 
@@ -462,7 +462,7 @@ I'm just saying this because for people who do use MongoDB, which is a lot of pe
 
 **Brian Ketelsen:** I'm confused, because I saw this headline and I didn't realize that this was talking about MGO... So Gustavo Niemeyer was the head of the MGO project forever; 2011 I think is when that came out. And everybody in the community uses MGO, and for the longest time, the people at Mongo recommended MGO as one of the best-written drivers that took advantage of all of the possible features of Mongo, and this blog post they wrote makes it sound like it's limiting and not really a great driver... So this is quite a flip in opinion for a company.
 
-**Erik St. Martin:** Yeah, that's really interesting. I actually remember borrowing some of the \[unintelligible 00:41:46.17\] logic out of that driver, just because it was done so well.
+**Erik St. Martin:** Yeah, that's really interesting. I actually remember borrowing some of the BSON logic out of that driver, just because it was done so well.
 
 **Brian Ketelsen:** Yeah, the driver is beautiful, and I don't know what the word count on this is, but it looks like 2,000 words talking about why this open source driver written by the community and contributed freely from people's spare time doesn't meet their needs. That's kind of a kick in the teeth for open source, isn't it?
 
@@ -624,7 +624,7 @@ I don't know, I'm not taking sides, just trying to...
 
 **Carlisia Pinto:** Yeah.
 
-**Vitor De Mario:** They kind of switched places. Andrews left the team, they hired Guilherme. So they are both from the GopherCon Brazil team. I think that was gonna happen anyway. Tsuru is probably the biggest Go project in Brazil, and one of the \[unintelligible 00:57:13.27\] more on conferences everywhere, so one of them was gonna be in the GopherCon Brazil team. That was pretty much guaranteed.
+**Vitor De Mario:** They kind of switched places. Andrews left the team, they hired Guilherme. So they are both from the GopherCon Brazil team. I think that was gonna happen anyway. Tsuru is probably the biggest Go project in Brazil, and one of the teams that talk more on conferences everywhere, so one of them was gonna be in the GopherCon Brazil team. That was pretty much guaranteed.
 
 **Brian Ketelsen:** How about you, Erik? Did you have a \#FreeSoftwareFriday today?
 

@@ -265,7 +265,7 @@ Then Go-fuzz finds crashes, which means "I have found a case where the fast impl
 
 **Erik St. Martin:** You can do three, because I've spent this whole week working on slides, so I haven't used a tool for one to kind of pop in my head right now.
 
-**Brian Ketelsen:** Awesome! So I have to go with a fun one that I constantly use and never remember that I use, which is the Pretty package from Keith Rarick. Everytime I want to debug - you know, we don't debug in my house, we just \[unintelligible 00:44:13.12\] but KR Pretty is a package that dumps pretty much any object you can think of to the screen in a pretty format. So instead of fmt.Println, kr/pretty.println and you get a nice JSON human-readable output of all of those objects.
+**Brian Ketelsen:** Awesome! So I have to go with a fun one that I constantly use and never remember that I use, which is the Pretty package from Keith Rarick. Everytime I want to debug - you know, we don't debug in my house, we just fmt.Println but KR Pretty is a package that dumps pretty much any object you can think of to the screen in a pretty format. So instead of fmt.Println, kr/pretty.println and you get a nice JSON human-readable output of all of those objects.
 
 My only complaint is that if you've got a really big type, it parses that whole thing and goes all the way down, so you might end up with hundreds of lines of output for one type... But that's what you've asked for, because you're debugging. It's awesome, and I use it pretty much all the time.
 

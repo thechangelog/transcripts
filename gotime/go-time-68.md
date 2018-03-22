@@ -180,7 +180,7 @@ Four, five years ago, it was concurrency, the language was easy to reason about 
 
 Today what I think is that -- maybe that's like old news for me, like "Okay, yeah, it's fast... Whatever." \[laughs\] But for me, what really gets me every day that I work with Go is how easy to read, how productive I can be; I can hold a lot more code in my head because I don't have to figure out what I'm reading. It's just so clear, it's like reading a written language. It's so easy to understand.
 
-I think if you have a small project, use whatever language you want, who cares... But if you start having a bigger application, really think about how much more productive the \[unintelligible 00:23:23.25\] will be if the language is easier to read, if you're trying to make a choice there. So that's my top feature for Go at the moment.
+I think if you have a small project, use whatever language you want, who cares... But if you start having a bigger application, really think about how much more productive the developers will be if the language is easier to read, if you're trying to make a choice there. So that's my top feature for Go at the moment.
 
 **Brian Ketelsen:** I couldn't have said that better. That's exactly what I would have said or was planning on seeing. Four or five years ago I would have said the same thing Erik would have said four or five years ago - concurrency, all of the speed and whatever, but now 100% my favorite feature of Go is how easy it is to read and how easy it is for a large team to know what's going on in a big Go repository, compared to other languages. It's drastically different.
 
@@ -435,7 +435,7 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Erik St. Martin:** Right, the answer is "Writing Go." \[laughs\]
 
-**Brian Ketelsen:** Yes. The answer is "Programming." I'm not one of those people that can just write code without looking things up and thinking things through. I have to look up the definitions of functions, the parameters \[unintelligible 00:52:04.26\] all of that, all the time... So I struggle with remembering how switch statements are built. Every single time I write a switch statement, I have to look it up. So yeah, all of it.
+**Brian Ketelsen:** Yes. The answer is "Programming." I'm not one of those people that can just write code without looking things up and thinking things through. I have to look up the definitions of functions, the parameters their return all of that, all the time... So I struggle with remembering how switch statements are built. Every single time I write a switch statement, I have to look it up. So yeah, all of it.
 
 **Carlisia Pinto:** \[00:52:20.17\] I don't have to look up the arguments and the functions so much because Visual Studio Code is so awesome at doing that for me. If I were to do a switch statement, I would definitely have to look it up, too. One thing that I keep forgetting to do is you know when you check for -- let's say you're checking for an error and that's the only thing that's being returned from the function; it's better, it's more readable if you in-line the whole thing... Do you know what I'm talking about? I don't know how to describe it better.
 
@@ -492,7 +492,7 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Erik St. Martin:** And then the next one you had Terminal UI stuff.
 
-**Brian Ketelsen:** \[00:58:56.01\] Oh, this one's cool. I don't know how I've missed it before. It's not a new project. GitHub.com/rivo/tview. Really cool-looking terminal UI widgets for people who are building terminal applications that want that old BBS/DOS \[unintelligible 00:59:16.26\] Really cool-looking stuff. I have to go build something with it, it just looks so cool. It brought me back to the old DOS days, and I was trying to ask Erik - I couldn't remember the name of the UI toolkit that we used way back in the early DOS days that made those \[unintelligible 00:59:34.20\] screen. If any of you listeners out there can remember that if you're as old as me...
+**Brian Ketelsen:** \[00:58:56.01\] Oh, this one's cool. I don't know how I've missed it before. It's not a new project. GitHub.com/rivo/tview. Really cool-looking terminal UI widgets for people who are building terminal applications that want that old BBS/DOS ansi-term Really cool-looking stuff. I have to go build something with it, it just looks so cool. It brought me back to the old DOS days, and I was trying to ask Erik - I couldn't remember the name of the UI toolkit that we used way back in the early DOS days that made those ANSI screens. If any of you listeners out there can remember that if you're as old as me...
 
 **Erik St. Martin:** Yeah, I was thinking about that... Was it Turbo Vision?
 
@@ -512,7 +512,7 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Erik St. Martin:** I'm sure we have some people who really know their nostalgia, or used it.
 
-**Brian Ketelsen:** All the people old enough to remember, they're taking a nap right now \[unintelligible 01:00:24.09\]
+**Brian Ketelsen:** All the people old enough to remember, they're taking a nap right now like I should be...
 
 **Erik St. Martin:** Alright... So did we have anything else we wanna talk about? I think we are just about out of time.
 
