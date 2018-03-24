@@ -256,7 +256,7 @@
 
 **Brian Ketelsen:** So what sort of big companies outside of Yandex use Go in Russia?
 
-**Leonid Kalneus:** For sure, one of the biggest is \[unintelligible 00:15:26.12\] Do you know the social network VKontakte (VK)? It's like the Russia Facebook. They use Go in some of their \[unintelligible 00:15:40.11\] services. And actually, there are a lot of smaller companies that use Go in their production also. I can mention AVITO. It's like a Russian eBay, but a bit smaller than eBay, for sure. They also use Go \[unintelligible 00:16:07.19\] That's the most well-known, I think. And not Russian, but Russian-speaking - the guys from Gett, from Minsk... Do you know a company called Juno? It's like Gett in New York -- it's not like, it's Gett in New York. So yeah, they have a lot of stuff in Go.
+**Leonid Kalneus:** For sure, one of the biggest is \[unintelligible 00:15:26.12\] Do you know the social network VKontakte (VK)? It's like the Russia Facebook. They use Go in some of their backend services. And actually, there are a lot of smaller companies that use Go in their production also. I can mention AVITO. It's like a Russian eBay, but a bit smaller than eBay, for sure. They also use Go in their backend services. That's the most well-known, I think. And not Russian, but Russian-speaking - the guys from Gett, from Minsk... Do you know a company called Juno? It's like Gett in New York -- it's not like, it's Gett in New York. So yeah, they have a lot of stuff in Go.
 
 **Brian Ketelsen:** \[00:16:36.04\] Nice.
 
@@ -448,7 +448,7 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Leonid Kalneus:** Yeah, let's go.
 
-**Erik St. Martin:** Alright. I'll mention one thing quickly before moving on, because \[unintelligible 00:30:57.16\] Last week's episode we talked about Vgo, and there's been I think two more posts in that series; we talked about them coming out - they are out, so if you haven't read the additional posts in that series by Russ Cox, we'll link to them in the show notes.
+**Erik St. Martin:** Alright. I'll mention one thing quickly before moving on to the ones that can take much longer. Last week's episode we talked about Vgo, and there's been I think two more posts in that series; we talked about them coming out - they are out, so if you haven't read the additional posts in that series by Russ Cox, we'll link to them in the show notes.
 
 The second item to talk about - it was 2-3 days ago, the results for the 2017 Go survey came out, which was really interesting.
 

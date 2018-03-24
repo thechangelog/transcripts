@@ -78,7 +78,7 @@ So I don't need to read through a lot of the codebase in order to jump in and un
 
 **Brian Ketelsen:** Yeah, I think Go is THE most readable language I've ever used, and I've touched most of them... But I always love the readability of Go. It's very clear that they spent a lot of time thinking about how to read code, versus how to write code.
 
-**Michael Stapleberg:** Yeah, absolutely. And one point that sort of ties into both of these themes is gofmt, of course, which autoformats your code. Just a couple of days ago I actually had a discussion with a friend of mine, where we were now getting together because we have this retro gaming event coming up next month in Heidelberg (a German town), and for that event we are using an old Commodore 128 computer, which is a computer that is older than I am. We programmed this little cash register program for it in C. I recently got back into the code, and essentially this is a codebase that has lived on for like seven years I think, but we only ever touch it once a year... Shortly before the event starts we're like "Oh, so what bothered us last year? We're gonna fix that." But what I realized was that the code was not autoformatted, so it wasn't consistent... And then I was like "Okay, I'm just gonna \[unintelligible 00:11:25.13\]" and then I submitted the Travis hook so that it would always be \[unintelligible 00:11:29.12\]
+**Michael Stapleberg:** Yeah, absolutely. And one point that sort of ties into both of these themes is gofmt, of course, which autoformats your code. Just a couple of days ago I actually had a discussion with a friend of mine, where we were now getting together because we have this retro gaming event coming up next month in Heidelberg (a German town), and for that event we are using an old Commodore 128 computer, which is a computer that is older than I am. We programmed this little cash register program for it in C. I recently got back into the code, and essentially this is a codebase that has lived on for like seven years I think, but we only ever touch it once a year... Shortly before the event starts we're like "Oh, so what bothered us last year? We're gonna fix that." But what I realized was that the code was not autoformatted, so it wasn't consistent... And then I was like "Okay, I'm just gonna clang-format this." and then I submitted the Travis hook so that it would always be clang-formatted.
 
 Then inevitably I got into that discussion with a friend of mine who was like, "Yeah, so I think this is sort of a good idea, but in this particular file I don't like what the formatter does", and I'm like "Oh, this again..." Because once you start using Go, you kind of just put away this entire discussion. Nobody would even come and argue, "Well, I just don't like what Gofmt does in this one file, so I turn it off..." It's just not something you hear, and I really appreciate that. The entire body of open source Go code and probably also most of the corporate Go code that there is is in fact auto-formatted.
 
@@ -122,7 +122,7 @@ Then inevitably I got into that discussion with a friend of mine who was like, "
 
 **Michael Stapleberg:** Yeah, and I think that is actually the critical insight that Gofmt brought to the table... Because the idea itself is certainly not new. There used to be the indent tool, which we tried to adopt for the i3 codebase back in the days, and it didn't quite work, but we also made this wrong assumption that we wanted to configure the tools such that it would largely match our codebase, and now of course we all know that it goes the other way around. You just reformat it once and then you're done with it.
 
-\[00:16:07.13\] But I didn't realize that at the time, and then of course you try to figure out exactly the correct indent parameters... And then \[unintelligible 00:16:13.00\] came to the table, but it also supports multiple styles, so which one do you choose? It even allows you to derive from a common style, but then define exceptions to that, which is even more horrible, I think.
+\[00:16:07.13\] But I didn't realize that at the time, and then of course you try to figure out exactly the correct indent parameters... And then clang-format came to the table, but it also supports multiple styles, so which one do you choose? It even allows you to derive from a common style, but then define exceptions to that, which is even more horrible, I think.
 
 **Carlisia Pinto:** Yeah, you're basically just automating your opinions, but you still go through the process of which opinion is going to prevail.
 
@@ -152,7 +152,7 @@ But a window manager is just that one little subset of a desktop environment, ju
 
 For example, for monitor configuration, in i3 you would either directly use the command line tool xrand to access that API, or the more convenient standalone arandr tool. But i3 wouldn't be concerned at all with your monitor configuration; it just adapts to whatever it is that you configure. So the separation of concerns is very clear, at least to somebody like me who knows how it is implemented. Sometimes people come and they don't' really get it yet, like what goes where, because on other operating systems all of this is very integrated, and as I mentioned, you can't even make the distinction between "Do I wanna use a desktop environment, or can I just throw all of that away and say I'm gonna start from scratch and I'm gonna build my custom environment?"
 
-**Erik St. Martin:** I wonder with the Windows subsystem for Linux, I think that's only \[unintelligible 00:21:18.00\]
+**Erik St. Martin:** I wonder with the Windows subsystem for Linux, I think that's only terminal VIM or would I be able to get X?
 
 **Brian Ketelsen:** There's a terminal, but you can run an X server on Windows side and then i3 from WSL and view it in Windows, which was my blog post; that's what I do.
 
@@ -186,7 +186,7 @@ These four parts are all that you really have into the image, and then you just 
 
 Another important part of this project is that all of these parts are auto-updated. For the kernel and for the firmware we have a cron job running on Travis, which every day goes and checks the upstream repositories for newer versions of what we have packaged. If there is, for example, a new kernel release - and I learned that the kernel actually gets quite a few releases; I never paid attention to it, but they do like a little point release... But anyway, so we have this little cron job which looks at what is the latest kernel version, and if the latest kernel version doesn't match what we have in our repositories, it goes on and downloads it and then builds it on Travis.
 
-Then we have three pieces of automation which I'm not gonna cover in detail - you can just look at an existing presentation about gokrazy if you're interested - which sort of do this entire dance of "How about I take a pull request, I build a kernel, I \[unintelligible 00:27:16.28\] into the pull request, I automatically test that new resulting image on an actual Raspberry Pi, and if it boots, I'm just gonna merge it." Frequently, when I wake up, in my inbox I'm gonna have this little GitHub e-mail thread where it tells me there is a new version of the Linux kernel, "Oh, and by the way, I tested it and it boots. Oh, and also I merged it. And oh, I also deployed it onto all of your Raspberry Pi's." \[laughter\]
+Then we have three pieces of automation which I'm not gonna cover in detail - you can just look at an existing presentation about gokrazy if you're interested - which sort of do this entire dance of "How about I take a pull request, I build a kernel, I amend a kernel into the pull request, I automatically test that new resulting image on an actual Raspberry Pi, and if it boots, I'm just gonna merge it." Frequently, when I wake up, in my inbox I'm gonna have this little GitHub e-mail thread where it tells me there is a new version of the Linux kernel, "Oh, and by the way, I tested it and it boots. Oh, and also I merged it. And oh, I also deployed it onto all of your Raspberry Pi's." \[laughter\]
 
 That's the ideal state for me. I wake up, I realize that there was a new Linux kernel release, because I'm already running it. Later on I read about it in the news and read the changelog.
 
@@ -224,7 +224,7 @@ So as an end user of gokrazy, you wouldn't face a not-booting kernel, because th
 
 **Erik St. Martin:** Yeah, I guess that's right, too - time to market, right? If you're trying to build some sort of commercial product, then it makes sense to keep your bill of materials down and your costs down, and all of these things. But for most of us, we're building little trinkets for our house.
 
-**Michael Stapleberg:** Absolutely, and I think if you can get it done in like a weekend, then that's gonna be much more motivating than if you will have to order things and \[unintelligible 00:32:58.22\] and then come up with the firmware, and oh gosh, maybe even write it in C, right?
+**Michael Stapleberg:** Absolutely, and I think if you can get it done in like a weekend, then that's gonna be much more motivating than if you will have to order things and solder them together and then come up with the firmware, and oh gosh, maybe even write it in C, right?
 
 **Erik St. Martin:** ...which I've done. \[laughter\]
 
@@ -268,11 +268,11 @@ So we're trying to make it easy for them to run good Go code, and of course, Goo
 
 **Michael Stapleberg:** I wouldn't be able to say exactly how many years it is, but yes, I definitely got the feeling when I joined that this is years ahead of everything that I've known up to that point. In fact, I would love it if open source would look more like what we have internally in a couple of years, just because it makes my life so much simpler... Because there's this huge divide between things that you experience at work and things that you experience in the outside, right?
 
-As just one example, a different project of mine that I run is Debian Code Search, which is a regular expression code search engine for all of the open source software that is found in Debian. When I launched it, we had quite some trouble getting the resources for it, because you need storage devices that have a huge number of \[unintelligible 00:39:06.09\]; you definitely need flash devices, maybe even RAM if you can afford it, which we can't right now. But you can't run it off of a regular spinning hard disk, and in 2012 when I started that project, I approached the Debian sys admin team and asked them for flash storage, and they flat out laughed at me. I was like "What's happening?", I just couldn't understand, because that was also the year when I joined Google, and when I needed flash storage, I would just ask for it and allocate it in a self-service way, and a couple of minutes later I would have the flash storage available to me... And I just couldn't fathom how there could be this huge divide between "Oh yeah, sure, you can do that. You don't even need to talk to a human to do that internally", and then externally it just would not be possible.
+As just one example, a different project of mine that I run is Debian Code Search, which is a regular expression code search engine for all of the open source software that is found in Debian. When I launched it, we had quite some trouble getting the resources for it, because you need storage devices that have a huge number of IOPS; you definitely need flash devices, maybe even RAM if you can afford it, which we can't right now. But you can't run it off of a regular spinning hard disk, and in 2012 when I started that project, I approached the Debian sys admin team and asked them for flash storage, and they flat out laughed at me. I was like "What's happening?", I just couldn't understand, because that was also the year when I joined Google, and when I needed flash storage, I would just ask for it and allocate it in a self-service way, and a couple of minutes later I would have the flash storage available to me... And I just couldn't fathom how there could be this huge divide between "Oh yeah, sure, you can do that. You don't even need to talk to a human to do that internally", and then externally it just would not be possible.
 
 **Carlisia Pinto:** Is Google going to open-source a lot of the infrastructure or some of the infrastructure?
 
-**Michael Stapleberg:** \[00:39:56.29\] I think that's definitely the trend. Infrastructure is always hard to really open source, as in infrastructure software and systems. But if you read about it, there was the release of \[unintelligible 00:40:08.28\] recently, which is sort of Google's base libraries for C++ and also for Python. It was released at CppCon just a couple of days ago.
+**Michael Stapleberg:** \[00:39:56.29\] I think that's definitely the trend. Infrastructure is always hard to really open source, as in infrastructure software and systems. But if you read about it, there was the release of Abseil recently, which is sort of Google's base libraries for C++ and also for Python. It was released at CppCon just a couple of days ago.
 
 I'm very excited about this release, because it means that other parts of Google will also be released. Because essentially, every project that we have uses the base libraries; that's why they're called "base libraries." If the base libraries are not released, you need to jump through so many hoops whenever you want to do an open source release. Now that that foundation is laid, I'm confident that more projects can be released soon(ish), I hope.
 
@@ -328,9 +328,9 @@ Then we had a Go meetup in Zurich. I wasn't still quite sure about the idea, bec
 
 **Michael Stapleberg:** Thank you.
 
-**Carlisia Pinto:** Yeah, that's pretty cool. Now, walk could Russ possibly mean when he said they will be looking into the error handling?
+**Carlisia Pinto:** Yeah, that's pretty cool. Now, what could Russ possibly mean when he said they will be looking into the error handling?
 
-**Michael Stapleberg:** Well, that's just speculation, right? But it is \[unintelligible 00:48:14.13\]
+**Michael Stapleberg:** Well, that's just speculation, right? But it is entirely thinkable that...
 
 **Carlisia Pinto:** Yeah, exactly, let's speculate!
 
@@ -342,7 +342,7 @@ So there is definitely a balance that one needs to strike here, and I'm fairly c
 
 **Carlisia Pinto:** You love it meaning it doesn't obscure that there is something being returned, right? And then you know, "Okay, you're just skipping over handling it."
 
-**Erik St. Martin:** Yeah, it makes it super clear that this call can return in an unpredictable way, where the actual legitimate response variable/value - that could be in some unknown state because of an error condition. That's the thing that I hate the most - if you do a file open and you don't actually notice that that \[unintelligible 00:50:24.08\] you can't really determine what your file pointer is, and then you go off with it and in some weird place it starts failing when you go to use it. So I like the fact that it's really explicit there and you can see it during code review that this can return in an error state and it can make the other values that are returns unpredictable, and they're ignoring it, like "Why is that not being handled?"
+**Erik St. Martin:** Yeah, it makes it super clear that this call can return in an unpredictable way, where the actual legitimate response variable/value - that could be in some unknown state because of an error condition. That's the thing that I hate the most - if you do a file open and you don't actually notice that that errored out you can't really determine what your file pointer is, and then you go off with it and in some weird place it starts failing when you go to use it. So I like the fact that it's really explicit there and you can see it during code review that this can return in an error state and it can make the other values that are returns unpredictable, and they're ignoring it, like "Why is that not being handled?"
 
 **Michael Stapleberg:** Yeah, and I definitely love what it does for the end user. I really feel respected when I get a proper error message from a program, and not just an exception that is, even worse, pages long, as frequently happens with Python programs where the programmers weren't careful enough or didn't do enough testing, and then something happens like your disk runs out of space, or the file that they really expected to be there turns out to not be there. Then you get this huge exception, and usually the exceptions come with language that isn't quite clear to the end user, because it is written from the perspective of the programmer, or worse, from the perspective of the programming language designer. Then you get a key error in Python, and it could mean anything. So that's why I really appreciate what the sometimes onerous error checking in Go means for the end user.
 
@@ -418,7 +418,7 @@ It's so true. So true.
 
 **Carlisia Pinto:** Yeah. I think I know a gopher more from American television - I didn't grow up in the U.S. - than from real life. I've never seen a gopher in my life, I don't think.
 
-**Brian Ketelsen:** \[unintelligible 00:59:51.08\]
+**Brian Ketelsen:** Like Caddyshack?
 
 **Carlisia Pinto:** I don't know... But I was going to say that I heard of words of cosplay at the next GopherCon, people wearing Gopher costumes...
 
@@ -478,7 +478,7 @@ That is just so convenient and so easy, and I use it all the time and I've come 
 
 **Brian Ketelsen:** \[laughs\] Not yet.
 
-**Erik St. Martin:** But I have to say it is ridiculously fast. Window managers, I don't rotate through i3's there, but I've still struggled to find a terminal emulator that I really like. It's super fast, and it renders fonts and \[unintelligible 01:06:39.27\] really nicely.
+**Erik St. Martin:** But I have to say it is ridiculously fast. Window managers, I don't rotate through i3's there, but I've still struggled to find a terminal emulator that I really like. It's super fast, and it renders fonts and glyphs really nicely.
 
 No tabs. It's cross-platforms, so it'll work in all the places, but there's no things like you'd see out of iTerm2, like tabs and things like that. It really relies on your window manager to do that type of stuff.
 

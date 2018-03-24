@@ -193,7 +193,7 @@ Pivotal's main focus is to enable developers to do interesting things, so Cloud 
 
 **Carlisia Pinto:** Yeah, I like the fact that they were soliciting use cases, so they can get everything together and make a decision... Because I don't know every single project out there, right? I mean, we don't know.
 
-**Jason Keene:** Yeah, I'd caution listeners, if you are gonna use \[unintelligible 00:30:45.27\] or some of these other generic types, to approach it in a similar way that we approached it - contain it within a small area of your codebase, so it doesn't bleed out to the rest of your system. I can drop a link in the show notes for how we approached it, just to let people kind of get a feel for what we've done.
+**Jason Keene:** Yeah, I'd caution listeners, if you are gonna use like empty interface or some of these other generic types, to approach it in a similar way that we approached it - contain it within a small area of your codebase, so it doesn't bleed out to the rest of your system. I can drop a link in the show notes for how we approached it, just to let people kind of get a feel for what we've done.
 
 **Carlisia Pinto:** That'd be awesome.
 
@@ -266,7 +266,7 @@ I think that's about it. There were some other reasons why we kind of adopted it
 
 **Brian Ketelsen:** Fight me! Run fast, before I break things! Then that would be the title of our show.
 
-**Jason Keene:** Yeah, it's amazing that there's still kind of two camps... Like, even with dev ops being a thing, there's still people who kind of fall within two camps. The question that I always ask people is if you had a production system that has, say, a memory leak, and restarting the process will fix the problem, but you will lose all forensic evidence in order to debug the issue, what do you do? Do you restart the process and resolve the issue, or do you poke around and get \[unintelligible 00:38:50.25\] and stuff like that...? And usually, you'll fall within one of the two camps; either you'll be like "No, we need to debug this" or "No, we need to restart it and \[unintelligible 00:39:00.26\]
+**Jason Keene:** Yeah, it's amazing that there's still kind of two camps... Like, even with dev ops being a thing, there's still people who kind of fall within two camps. The question that I always ask people is if you had a production system that has, say, a memory leak, and restarting the process will fix the problem, but you will lose all forensic evidence in order to debug the issue, what do you do? Do you restart the process and resolve the issue, or do you poke around and get heap dumps and stuff like that...? And usually, you'll fall within one of the two camps; either you'll be like "No, we need to debug this" or "No, we need to restart it and \[unintelligible 00:39:00.26\]
 
 **Erik St. Martin:** Well, I think you left out what impact it's having on the customer, too...
 
