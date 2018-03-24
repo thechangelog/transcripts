@@ -314,7 +314,7 @@ It's working its way towards production. We've got some people using it internal
 
 **Brian Ketelsen:** It's funny you should ask that... \[laughter\]
 
-**Erik St. Martin:** Brian was gonna do a whole \[unintelligible 00:52:36.09\] weekend, and this is like when we really threw it together, like "Okay, we need graphs and charts and stuff with Grafana... And I think it was me who came up with the domain name, but I happened to search and bbq.live was available, and we were both like, "Yes!"
+**Erik St. Martin:** Brian was gonna do a whole pig one weekend, and this is like when we really threw it together, like "Okay, we need graphs and charts and stuff with Grafana... And I think it was me who came up with the domain name, but I happened to search and bbq.live was available, and we were both like, "Yes!"
 
 **Jerod Santo:** So it is live. You got it? I'm loading it up right now...
 
@@ -364,7 +364,7 @@ It's working its way towards production. We've got some people using it internal
 
 **Erik St. Martin:** Yeah, there's a lot of people who have reverse-engineered some of the messages on the canned bus, and things like that; there's lots of people apparently tearing apart their cars and reverse-engineering them... Surprisingly.
 
-**Adam Stacoviak:** Like, "Hey honey, I just \[unintelligible 00:56:19.26\] Now it doesn't move."
+**Adam Stacoviak:** Like, "Hey honey, I just bricked the truck. It's no longer \[unintelligible 00:56:19.26\] Now it doesn't move."
 
 **Brian Ketelsen:** \[laughs\] "We're gonna need a new truck."
 
@@ -402,7 +402,7 @@ It's working its way towards production. We've got some people using it internal
 
 **Brian Ketelsen:** Bring it!
 
-**Erik St. Martin:** Luckily, that \[unintelligible 00:59:01.23\] there's nothing on bbq.live that actually pushes down to the controller. It's only metrics. If you find a way, I will be impressed.
+**Erik St. Martin:** Luckily, that is only push \[unintelligible 00:59:01.23\] there's nothing on bbq.live that actually pushes down to the controller. It's only metrics. If you find a way, I will be impressed.
 
 **Adam Stacoviak:** Any more fun news to cover?
 

@@ -26,7 +26,7 @@ In the past I've worked on machine learning systems, and I've programmed in seve
 
 **Ivan Porto Carrero:** A little bit. It was more with the people -- I forget the names; I'm getting old, and it's been a long time. I worked with \[unintelligible 00:03:06.25\] Jeff Lang was involved in the early days of this. This was really \[unintelligible 00:03:10.24\] and this whole IronPython, or the dynamic language runtime for .NET, basically. \[unintelligible 00:03:22.19\] was the team lead at the time, and then there was Jim Deville involved, and a few more people.
 
-I worked with IronRuby by writing a book \[unintelligible 00:03:34.06\] which never got published, because Microsoft canceled the project before the book was finished, or at the same time that the book was finished, really.
+I worked with IronRuby by writing a book for Manning which never got published, because Microsoft canceled the project before the book was finished, or at the same time that the book was finished, really.
 
 \[00:03:50.19\] So then from there I also started a startup at that point, where I was gonna do real-time social media filtering. You can look at today -- it would probably be the most similar to IFTTT, because you could set up some query parameters, and if a Twitter feed or a Facebook feed or whatever social media feed would raise an event that matches those created parameters, it would trigger yet another webhook or some other event that you could then react to.
 
@@ -60,7 +60,7 @@ In that case, what I've tried to do is define a number of documentation comments
 
 \[00:12:17.05\] From there, you take the Swagger binary and you do Swagger surf, and point it to the spec document that you just created, and it will serve up an HTML UI for you.
 
-**Carlisia Pinto:** So if I want to have a system where I can share this documentation with my entire team, should I have them download \[unintelligible 00:12:37.24\] Should they download the binary and run -- for example, I can have the Swagger documentation file on GitHub somewhere, maybe together with my project; they download that, they run it themselves? Or should I put up a server to run, so we can all access online?
+**Carlisia Pinto:** So if I want to have a system where I can share this documentation with my entire team, should I have them download Swagger? Should they download the binary and run -- for example, I can have the Swagger documentation file on GitHub somewhere, maybe together with my project; they download that, they run it themselves? Or should I put up a server to run, so we can all access online?
 
 **Ivan Porto Carrero:** You don't have to download a server necessarily, as long as you publish the Swagger JSON somewhere.
 
@@ -78,7 +78,7 @@ In that case, what I've tried to do is define a number of documentation comments
 
 **Carlisia Pinto:** Gotcha. Thank you.
 
-**Ivan Porto Carrero:** If you use a Swagger binary to generate your server from a Swagger \[unintelligible 00:14:43.19\] then you get all of that for free, because it's part of the server that \[unintelligible 00:14:50.11\]
+**Ivan Porto Carrero:** If you use a Swagger binary to generate your server from a Swagger spec you define upfront then you get all of that for free, because it's part of the server that gets generated.
 
 **Brian Ketelsen:** There are several Go routers or multiplexers that have varying forms of support for the Swagger spec. Some of them, like Go RESTful, will automatically generate the Swagger bits. And some of them require you to do things like doc comments to generate Swagger. Then in the other direction there's Goa, which uses its own DSL and then generates Swagger from that... So there's lots of good support in Go now for Swagger, but Go Swagger was definitely the original, and certainly the first one I ever used. I definitely appreciate that it existed. I've been using it for years.
 
@@ -114,13 +114,13 @@ So yeah, it's in many places. Last week there was a project - \[unintelligible 0
 
 **Ivan Porto Carrero:** Yeah. At VMware it's a fairly interesting mix here, because by definition people are worrying about the infrastructure, because we have this vSphere product... So the people we go to typically know how to deal with hardware and all of the failure scenarios that come from there.
 
-It's this interesting thing - Kubernetes allows you to package your app and deploy the containers and do all of that service discovery, all \[unintelligible 00:19:54.27\] actually required to run these larger infrastructures, but I think most people are surprised by how much Linux you have to know to really operate it well... Because it doesn't hide anything from you. It's there, it makes extremely creative use of the kernel facilities. Technically, it's a very interesting project.
+It's this interesting thing - Kubernetes allows you to package your app and deploy the containers and do all of that service discovery, all of the coordinated stuff you are actually required to run these larger infrastructures, but I think most people are surprised by how much Linux you have to know to really operate it well... Because it doesn't hide anything from you. It's there, it makes extremely creative use of the kernel facilities. Technically, it's a very interesting project.
 
 **Erik St. Martin:** \[00:20:19.09\] Yeah, it's a lot of fun. I think that there should be experts in that stuff, too. Don't get me wrong, but a lot of businesses, especially smaller businesses - they're worried about having to scale fast, and things like that... And then once you start hitting odd scenarios and stuff like that, and you hit saturation points and things fail in odd ways, and then your team who was developing features now becomes firefighters trying to figure out some of the issues, and things like that.
 
 It's a fun world, right? Some of us enjoy doing that, but not everybody has the extra resources to be able to do that. And like you said, with the on-prem people and stuff like that that are used to running vSphere and things like that - they've already got that expertise on their team. And not every team is fortunate enough to have the kind of infrastructure expertise.
 
-**Ivan Porto Carrero:** Yeah. I'm very interested to see what's gonna happen with Istio, because that's a very puzzling project to me. I understand the problem it's trying to solve, but I think most businesses who look at these solutions are latency-sensitive and I don't know how Istio is going to solve that particular problem... Because at the moment when we run our simulations it adds so many hops that it becomes a weird proposition. I really want to see the service missions take off, because in the end \[unintelligible 00:21:52.25\] problems are being solved there, with the circuit breakers and all of these calling patterns that they encapsulate. But it's gonna take some work still. So that's the thing I've been looking into lately.
+**Ivan Porto Carrero:** Yeah. I'm very interested to see what's gonna happen with Istio, because that's a very puzzling project to me. I understand the problem it's trying to solve, but I think most businesses who look at these solutions are latency-sensitive and I don't know how Istio is going to solve that particular problem... Because at the moment when we run our simulations it adds so many hops that it becomes a weird proposition. I really want to see the service missions take off, because in the end the distributed system problems are being solved there, with the circuit breakers and all of these calling patterns that they encapsulate. But it's gonna take some work still. So that's the thing I've been looking into lately.
 
 **Erik St. Martin:** Yeah, there's a lot of interesting things that have popped up in maybe the last six to nine months. You've got SDO, Envoy that came out of Lyft... That's super interesting. And all of these are so early, and they work and they solve problems, but I'm really interested to see what the version two and three of those look like, because like you said, you kind of add additional hops and virtual interfaces and all these things, which on top of adding latency also add more points of failure and weird debugging.
 
@@ -140,7 +140,7 @@ It's a fun world, right? Some of us enjoy doing that, but not everybody has the 
 
 **Erik St. Martin:** Oh yeah, definitely.
 
-**Ivan Porto Carrero:** Or Cassandra, for example... All of these systems -- Akka is another one from the JVM. All these systems are Gossip-based membership systems, and they exhibit very interesting failure behavior. When you turn off -- like, if you have a deployment of 100 or 1,000 nodes and you turn off 50% or 60% of the nodes, things aren't gonna go well. Cassandra gets to data loss, Consul takes a long time to stabilize, Akka similarly... So what we've been working on, or what I've been spending my free time on with the VMware research group is improving the Gossip algorithm. I'm working on that actually in my GitHub account, and the results we have is we go from interesting failure conditions to ideal case. I wanna improve that a little bit more, and then hopefully submit some \[unintelligible 00:26:29.10\] next year.
+**Ivan Porto Carrero:** Or Cassandra, for example... All of these systems -- Akka is another one from the JVM. All these systems are Gossip-based membership systems, and they exhibit very interesting failure behavior. When you turn off -- like, if you have a deployment of 100 or 1,000 nodes and you turn off 50% or 60% of the nodes, things aren't gonna go well. Cassandra gets to data loss, Consul takes a long time to stabilize, Akka similarly... So what we've been working on, or what I've been spending my free time on with the VMware research group is improving the Gossip algorithm. I'm working on that actually in my GitHub account, and the results we have is we go from interesting failure conditions to ideal case. I wanna improve that a little bit more, and then hopefully submit some docs next year.
 
 **Brian Ketelsen:** That's funny, because I was creeping up on your GitHub account today and I found that go-rapid repository, and it looks like that's what you're doing there - decentralized computing.
 
@@ -152,7 +152,7 @@ It's a fun world, right? Some of us enjoy doing that, but not everybody has the 
 
 **Erik St. Martin:** Does Cassandra still require a Zookeeper cluster?
 
-**Ivan Porto Carrero:** No, Cassandra has their own Gossip protocol. Kafka does Zookeeper, then \[unintelligible 00:27:13.12\] I believe uses Zookeeper as well... There are a few people who choose Zookeeper. I think they go by -- it works really well, but I would say for some definition of \[unintelligible 00:27:27.16\] that works really well. If you have a small cluster it might be okay, but the operational costs in all of it is just not worth it.
+**Ivan Porto Carrero:** No, Cassandra has their own Gossip protocol. Kafka does Zookeeper, then Mesos I believe uses Zookeeper as well... There are a few people who choose Zookeeper. I think they go by -- it works really well, but I would say for some definition of "well" that works really well. If you have a small cluster it might be okay, but the operational costs in all of it is just not worth it.
 
 So now we've submitted the paper again; once it's accepted, I can publish it because it's a double-blind paper, so I can't just publish it before it gets accepted by some conference.
 
@@ -174,9 +174,9 @@ There is more stuff to it, because NSX-T is quite an extensive piece of work. So
 
 **Brian Ketelsen:** \[00:32:10.04\] Now, if I remember right, there's a lot of components that have been built by either Pivotal or VMware, that kind of contribute to this system. I know there was something called Kubo - that's related to this, right?
 
-**Ivan Porto Carrero:** Yeah, Kubo is the Kubernetes on BOSH. That is the piece that interacts with BOSH, and BOSH works through a system called Releases. Releases is some archive that has some metadata in addition to having potentially all of the source code to rebuild that particular release from scratch. It then also has all of the monitoring and failure conditions that it know about, and their remediation. So it encapsulates all of that in a single package, and that is what Kubo is.
+**Ivan Porto Carrero:** Yeah, Kubo is the Kubernetes on BOSH. That is the piece that interacts with BOSH, and BOSH works through a system called Releases. Releases is some archive that has some metadata in addition to having potentially all of the source code to rebuild that particular release from scratch. It then also has all of the monitoring and failure conditions that it knows about, and their remediation. So it encapsulates all of that in a single package, and that is what Kubo is.
 
-Kubo is open source, and everybody can use it. It's not \[unintelligible 00:33:05.14\] but it does require some work to get that set up in your environment, and then pks is the piece that will make it easy to set that up in your environment, with a UI and all of the management tools that you would expect for an enterprise environment... So hooking it into Active Directory and setting up RBAC and all of that kind of stuff, all those controls that you expect from an enterprise application is what goes into pks, which is closed source.
+Kubo is open source, and everybody can use it. It's not very involved but it does require some work to get that set up in your environment, and then pks is the piece that will make it easy to set that up in your environment, with a UI and all of the management tools that you would expect for an enterprise environment... So hooking it into Active Directory and setting up RBAC and all of that kind of stuff, all those controls that you expect from an enterprise application is what goes into pks, which is closed source.
 
 **Brian Ketelsen:** Nice!
 
