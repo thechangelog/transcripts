@@ -326,7 +326,7 @@ Basically, the thing is that actually \[unintelligible 00:54:12.26\] so he start
 
 **Brian Ketelsen:** Yeah, absolutely.
 
-**Marc-Antoine Ruel:** Yes, I think it's basically the route to the future. I don't know, it needs to happen, basically... It just needs to happen. I just need to get out of Vim, eventually. That's really something that needs to happen, eventually. It's funny, for example I'd get to a Raspberry Pi, I want something that I can start working on it right away, and I don't want to mess with all of that packages. So if I can just SCP and executable and start being productive, it's going to be awesome.
+**Marc-Antoine Ruel:** Yes, I think it's basically the route to the future. I don't know, it needs to happen, basically... It just needs to happen. I just need to get out of Vim, eventually. That's really something that needs to happen, eventually. It's funny, for example I'd get to a Raspberry Pi, I want something that I can start working on it right away, and I don't want to mess with all of that packages. So if I can just SCP a executable and start being productive, it's going to be awesome.
 
 **Erik St. Martin:** Okay, so I think we are just about out of time... One thing we like to do at the end of every episode is we do something called \#FreeSoftwareFriday, where all of us give a shoutout to a project or a maintainer - and it does not have to be Go - of an open source project that makes our lives easier. Does everybody have a project they want to...? And Marc-Antoine, if you have one - that's awesome. If you don't, that's cool, too. Carlisia, did you have a project you wanted to mention this week?
 
