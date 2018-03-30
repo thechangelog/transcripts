@@ -234,7 +234,7 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Erik St. Martin:** So, Robin in the Go Time channel asks 'What are the top most important Kubernetes security measures?'
 
-**Liz Rice:** Good question. How long have we got? \[laughter\] So I did a webinar with a colleague, I guess that maybe a month or so ago now, about exactly this question. So, I guess very briefly, there's... I've been talking about kube-bench and these settings and things like have you set up authentication between your nodes, so they've got a use certificate? And are you allowing privilege containers or not? That kind of thing that you configure as you're installing or running the Kubernetes executables themselves. But it's broader than that, in that you want to be vetting the container images that you run on your cluster, vetting them for vulnerabilities... A lot of organizations have policies around how severe the vulnerabilities are that they are allowed to run, or \[unintelligible 00:34:26.07\] or whitelisting, all that kind of thing. And because these days everybody is deploying code really fast, they Go CICD, so you want to automate all these checks to make sure that your CD system isn't deploying something live that contains some terrible well-meant vulnerability.
+**Liz Rice:** Good question. How long have we got? \[laughter\] So I did a webinar with a colleague, I guess that maybe a month or so ago now, about exactly this question. So, I guess very briefly, there's... I've been talking about kube-bench and these settings and things like have you set up authentication between your nodes, so they've got a use certificate? And are you allowing privilege containers or not? That kind of thing that you configure as you're installing or running the Kubernetes executables themselves. But it's broader than that, in that you want to be vetting the container images that you run on your cluster, vetting them for vulnerabilities... A lot of organizations have policies around how severe the vulnerabilities are that they are allowed to run, or blacklisting or whitelisting, all that kind of thing. And because these days everybody is deploying code really fast, they Go CICD, so you want to automate all these checks to make sure that your CD system isn't deploying something live that contains some terrible well-meant vulnerability.
 
 Secrets management is another important aspect, and Kubernetes fairly recently - I am going to say it was in 1.7 I think - started encrypting secrets. But before that, secrets were by default being passed around in the clear, which was pretty scary. And if you really want to take your security seriously, you might want to be looking at runtime profiling, like we were talking about before, using things like Seccomp or AppArmor, maybe using SELinux... There are so many different things you can do to make your cluster more secure.
 
@@ -340,7 +340,7 @@ Talking about the practical stuff - it's very easy to install, it's very easy to
 
 **Carlisia Pinto:** Oh, you can keep that.
 
-**Liz Rice:** This week, I think it was Nate Finch that had a tweet and I copied it to have a touch bar button on my MacBook player, because if \[unintelligible 00:47:35.22\] a convenience button, that's on my MacBook.
+**Liz Rice:** This week, I think it was Nate Finch that had a tweet and I copied it to have a touch bar button on my MacBook Pro, because if \[unintelligible 00:47:35.22\] a convenience button, that's on my MacBook.
 
 **Brian Ketelsen:** Awesome.
 

@@ -36,7 +36,7 @@ Anybody want to talk about overall thoughts and just kind of feelings walking aw
 
 **Brian Ketelsen:** Yeah, the energy level was insane. It was just constant high energy, and everybody came up and told me specifically that they just felt like the energy this year was higher than any other year and it just felt like such a fun happening, happy place to be.
 
-**Carlisia Pinto:** I \[unintelligible 00:03:03.06\] because it's my third one, and every year I go, I meet more people, so every year it's more comfortable, and I don't know "Okay, is it better because I know more people, which I like? Or is it better because the conference is better?", but I think this year it was apparently both - the conference was at a higher level; the band was amazing... A bunch of Go developers who are also musicians and singers got together and rehearsed and played at the opening party, and I felt like I was on drugs; I felt so happy...
+**Carlisia Pinto:** I can't gauge it anymore because it's my third one, and every year I go, I meet more people, so every year it's more comfortable, and I don't know "Okay, is it better because I know more people, which I like? Or is it better because the conference is better?", but I think this year it was apparently both - the conference was at a higher level; the band was amazing... A bunch of Go developers who are also musicians and singers got together and rehearsed and played at the opening party, and I felt like I was on drugs; I felt so happy...
 
 **Erik St. Martin:** It's Denver, are you sure you weren't on drugs?
 
@@ -128,7 +128,7 @@ And we had also the buddy system that was before, and people who have gone to th
 
 **Carlisia Pinto:** Yeah, we had a lot of international scholarship recipients. We had people from Brazil, from India... It was really cool.
 
-**Erik St. Martin:** Oh, Nathan Youngman in the Slack channel brought up a good point, too - at the very end of the conference we always have leftover swag and stuff and we usually donate it... This year we decided to sell it \[unintelligible 00:13:25.23\] pre-funding next year's diversity initiatives. Now I wish I had written down that figure exactly...
+**Erik St. Martin:** Oh, Nathan Youngman in the Slack channel brought up a good point, too - at the very end of the conference we always have leftover swag and stuff and we usually donate it... This year we decided to sell it just for pre-funding next year's diversity initiatives. Now I wish I had written down that figure exactly...
 
 **Brian Ketelsen:** It was over 12k...
 
@@ -370,11 +370,11 @@ Any other favorites anybody was able to make it to?
 
 **Carlisia Pinto:** Can I apologize to the speakers that hear this show and don't hear their names mentioned? To be clear, Brian and Erik - they run the conference and they don't have a chance to watch most of the talks... And I was planning to watch all the talks I could, but I got tied up doing a little thing and I missed most of the talks I wanted to watch, so that's why we don't have a bigger list to mention. But in any case, you can't possibly watch all the talks.
 
-Now I wanna mention that the talks are listed on the GopherCon repo - a repo called "2007 talks", and I wanted to say thank you to Daniela Petruzalek from Brazil. She was the scholarship recipient and she put together a readme with the links to everything you could possibly wish for: the room the talk was in, the speaker, the SlideDeck, the video, and if there was a source code, she puts a link to that, too. She has a listing for the main talks, and a different listing for all the Lightning Talks.
+Now I wanna mention that the talks are listed on the GopherCon repo - a repo called [2007 talks](https://github.com/gophercon/2017-talks), and I wanted to say thank you to Daniela Petruzalek from Brazil. She was the scholarship recipient and she put together a readme with the links to everything you could possibly wish for: the room the talk was in, the speaker, the SlideDeck, the video, and if there was a source code, she puts a link to that, too. She has a listing for the main talks, and a different listing for all the Lightning Talks.
 
 I'm sure it took a lot of time to put this together. It seems like a little thing, but it's so handy. I'm on this page daily.
 
-**Brian Ketelsen:** \[00:43:54.06\] Yeah, couldn't agree more. She put way more effort into putting the talks into putting the talks in a nice, organized table, with links to everybody and all the things \[unintelligible 00:44:02.19\]. And one of the things that she mentioned in Slack was that Ashley's talk inspired her to do that. This is a way that she had time to give back, and I am very grateful for it, for sure.
+**Brian Ketelsen:** \[00:43:54.06\] Yeah, couldn't agree more. She put way more effort into putting the talks into putting the talks in a nice, organized table, with links to everybody and all the things than I certainly would have so and one of the things that she mentioned in Slack was that Ashley's talk inspired her to do that. This is a way that she had time to give back, and I am very grateful for it, for sure.
 
 **Carlisia Pinto:** That reminded me of something else I wanted to say in today's episode... People ask me, "So how did you get involved with these things?" because they look at me like, "I'm not nobody, but I'm doing a podcast, and I'm doing this, and I'm doing that..." - that's exactly how you get to be in a position of doing something more relevant. You just start saying yes, you just start seeing something -- you have to be looking, first of all, and then you see something that needs to be done and you do it. Then the next time you turn around, people ask you to do something and you say yes, and pretty soon you're taking leadership initiatives. That's how people get involved and start doing more relevant things in the community.
 
@@ -438,7 +438,7 @@ DotGo in Paris is in November. It announced six of their speakers. Brian is also
 
 **Carlisia Pinto:** I'd love to go to Brazil, that's still up in the air. I don't know, my work is really heavy now, and I don't know if I can take the time off. We'll see. And also, I don't what I would -- I mean, I'd have to talk, because that's how Fastly would pay me to go, and I have nothing to talk about... Not that I know of. I can't come up with anything.
 
-**Erik St. Martin:** That's always the hard part, \[unintelligible 00:50:27.15\] content. Well, I can't say that's the hard part... Getting up in front of a bunch of strangers and talking is probably the hard part, but first you have to get past coming up with what you're going to talk about.
+**Erik St. Martin:** That's always the hard part, getting a content. Well, I can't say that's the hard part... Getting up in front of a bunch of strangers and talking is probably the hard part, but first you have to get past coming up with what you're going to talk about.
 
 **Carlisia Pinto:** Yeah, for me that's the hardest part, coming up with something to talk about.
 

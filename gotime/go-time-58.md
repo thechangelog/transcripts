@@ -438,7 +438,7 @@ I wonder whether we're gonna get some Capybaras and things like that built on to
 
 **Carlisia Pinto:** Yeah!
 
-**Erik St. Martin:** \[unintelligible 00:52:16.16\] basically breaking the build if you break the API. Your examples don't match anymore.
+**Erik St. Martin:** And then they are basically breaking the build if you break the API. Your examples don't match anymore.
 
 **Brian Ketelsen:** Yup.
 

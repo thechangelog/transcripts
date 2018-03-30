@@ -160,7 +160,7 @@ Sam noticed that and said "Hey, I've noticed that you're not just submitting stu
 
 **Brian Ketelsen:** You don't often get to see direct results from things you do, like the webinars. You hear people say "Thanks, that was awesome", but tying a webinar on contributing to Go directly back to a pull request and a first contribution to an open source project - that really tied the loop and made it fun.
 
-**Carolyn Van Slyck:** Yeah, every time you get feedback like that it kind of helps give you that emotional recharge to go back out and do more things in the community... At least that's what I think. When I go a meetup sometimes, even \[unintelligible 00:19:47.11\] and got totally rained out, and then had to give a talk dripping wet on the concrete at a Chicago Gophers, and it was really hard to be like "Why did I do this? I had to pay money to drive here, to park in downtown Chicago, and then give a very wet presentation...", but then people talked to me afterwards and it was all worthwhile.
+**Carolyn Van Slyck:** Yeah, every time you get feedback like that it kind of helps give you that emotional recharge to go back out and do more things in the community... At least that's what I think. When I go to a meetup sometimes, even when a meetup doesn't go well last night I turned into a drowned rat and got totally rained out, and then had to give a talk dripping wet on the concrete at a Chicago Gophers, and it was really hard to be like "Why did I do this? I had to pay money to drive here, to park in downtown Chicago, and then give a very wet presentation...", but then people talked to me afterwards and it was all worthwhile.
 
 **Brian Ketelsen:** \[00:20:10.04\] So let me recap here for just a minute... You've given a talk at GopherCon, which is the most prestigious conference in the world, you are a maintainer of Dep, and you talked at the Chicago Go meetup, too?
 
@@ -230,7 +230,7 @@ I haven't had a single person be mean to me when I say something like that. Ever
 
 So having history to show that "At least I have looked into this and it appeals to me" is very useful, but of course, if you have something solid to show, versus "I haven't really done anything at work, I just wanna do this language and I have done a couple things here and there", it makes it a lot easier. But don't discount that also if you don't have the opportunity to work, there are many things that you can do (at least I think) to get you up to that point where you have a solid enough knowledge of the language and the ecosystem to be able to walk into an interview and be confident and show that you know enough to do the work.
 
-**Carolyn Van Slyck:** Yeah, not everyone is fortunate -- so, I have no excuse to use Go other than Dep right now... But another thing I'm trying to get experience with is Kubernetes, which is kind of in the Go cloudy world... And with no real things to do, I decided to set up my home network Kubernetes, and then figure out what home automation jobs I can run on it. I don't have a barbecue cooker or anything like that; I don't have Raspberry Pi's \[unintelligible 00:32:04.12\] outside or anything...
+**Carolyn Van Slyck:** Yeah, not everyone is fortunate -- so, I have no excuse to use Go other than Dep right now... But another thing I'm trying to get experience with is Kubernetes, which is kind of in the Go cloudy world... And with no real things to do, I decided to set up my home network Kubernetes, and then figure out what home automation jobs I can run on it. I don't have a barbecue cooker or anything like that; I don't have Raspberry Pi's monitoring my hog outside or anything...
 
 \[00:32:08.15\] For example, I just got a new NAS, and it has Plex on it and it lets you stream movies to your TV... So as a present for my husband, I've been converting all of our Blu-rays and DVDs onto it, because getting up from the couch to watch a movie is, you know, a real problem in our household.
 
@@ -256,7 +256,7 @@ So sometimes there's things you can do that scratch your own itch, that give you
 
 **Carolyn Van Slyck:** I want a little robot. I want Johnny 5 from Short Circuit, and he can just bring me drinks and fight off robbers, and things like that. I think if you looked at his system programming, it could be in Go. You never know.
 
-**Brian Ketelsen:** No, \[unintelligible 00:34:01.08\]
+**Brian Ketelsen:** Node, disassemble #5.
 
 **Erik St. Martin:** Although I will say it's probably good, that lack of desire for me to get up and get a snack, because that probably prevents me from snacking more than I should. Because I'm like "How bad do I really want this chips?" \[laughter\]
 
@@ -268,11 +268,11 @@ So sometimes there's things you can do that scratch your own itch, that give you
 
 **Brian Ketelsen:** Dep management... What is it that you're looking for out of a job? Because I think we're gonna have to beat off the people and keep them away from us, so we need to filter this down a little bit. How do we narrow the pipeline down to your ideal job?
 
-**Carolyn Van Slyck:** I would love to continue working in the open source space in some way, working on cloud infrastructure. When I work on the \[unintelligible 00:35:11.16\] I just loved it. I used to work in - I'm taking a little jog here for a second, but it will go somewhere... I used to work at a big enterprise company with draconian IT, and the thought of ever getting your own cloud or running something on AWS or getting a VM in less than three months was a pipe dream. And whenever -- at Rackspace we were able to say "Here's a container. Run something, and you don't need to get an approval or acquisition" - it was just magic, and giving that to the customers... I loved it. I've enjoyed my 17 years of doing app development, but right now I really would like to empower other devs -- I know it sounds so silly, but I love devs; I'd rather they were my customers than people with money. This is why I'm having trouble finding a job.
+**Carolyn Van Slyck:** I would love to continue working in the open source space in some way, working on cloud infrastructure. When I worked on the Carina product I just loved it. I used to work in - I'm taking a little jog here for a second, but it will go somewhere... I used to work at a big enterprise company with draconian IT, and the thought of ever getting your own cloud or running something on AWS or getting a VM in less than three months was a pipe dream. And whenever -- at Rackspace we were able to say "Here's a container. Run something, and you don't need to get an approval or acquisition" - it was just magic, and giving that to the customers... I loved it. I've enjoyed my 17 years of doing app development, but right now I really would like to empower other devs -- I know it sounds so silly, but I love devs; I'd rather they were my customers than people with money. This is why I'm having trouble finding a job.
 
 \[00:36:05.01\] But I love working in open source, and I like running stuff in the cloud, I love playing with all these things, and I'd like to make the software that runs the cloud, I guess... Anyone's cloud. I'm not picky.
 
-**Brian Ketelsen:** That narrows it down nicely, and I know \[unintelligible 00:36:18.08\] is hiring, so I think we should make a phone call to Kevin and Joe over at \[unintelligible 00:36:23.24\] and make an introduction. That's a good start. They're probably listening now, because everyone listens to GoTime.
+**Brian Ketelsen:** That narrows it down nicely, and I know Heptio is hiring, so I think we should make a phone call to Kevin and Joe over at Heptio and make an introduction. That's a good start. They're probably listening now, because everyone listens to GoTime.
 
 **Erik St. Martin:** All 60 million of them.
 
@@ -400,7 +400,7 @@ So sometimes there's things you can do that scratch your own itch, that give you
 
 **Erik St. Martin:** And how about you, Carolyn?
 
-**Carolyn Van Slyck:** I'd like to call out Captain Safia (Safia Abdalla), because she was actually the person who made me think that I was capable, and I could be one of those cool people who led a meetup or did a workshop. It was a while ago, and she was leading a tutorial at PyLadies for how to learn data science in Python. She used \[unintelligible 00:46:55.06\] to do it, and she used the Jupiter project and hosted it all. It just lit something up in my mind and I loved it, and she just inspired me beyond belief and I worked with her for the next couple of months to kind of do something similar and run workshops myself and teach people Docker and things like that. That's kind of what gave me the momentum and the guts to do something like Women Who Go Chicago.
+**Carolyn Van Slyck:** I'd like to call out Captain Safia (Safia Abdalla), because she was actually the person who made me think that I was capable, and I could be one of those cool people who led a meetup or did a workshop. It was a while ago, and she was leading a tutorial at PyLadies for how to learn data science in Python. She used Carina to do it, and she used the Jupiter project and hosted it all. It just lit something up in my mind and I loved it, and she just inspired me beyond belief and I worked with her for the next couple of months to kind of do something similar and run workshops myself and teach people Docker and things like that. That's kind of what gave me the momentum and the guts to do something like Women Who Go Chicago.
 
 So it's less like the projects she's done. She's done amazing work with Jupiter and everything, but personally, she's inspired me so much... I am where I am because she gave me the encouragement to do it, and that people wouldn't just boo me when I tried to talk.
 
@@ -438,7 +438,7 @@ So it's less like the projects she's done. She's done amazing work with Jupiter 
 
 **Erik St. Martin:** We'll put your contact info in the show notes.
 
-**Brian Ketelsen:** \[unintelligible 00:49:11.22\] her cell phone number... \[laughter\]
+**Brian Ketelsen:** Show her cell phone number... \[laughter\]
 
 **Erik St. Martin:** Address, social security number - all the good stuff. So if you enjoyed the show, definitely share the show with colleagues, friends, anybody who would find it interesting. You can find us at GoTime.fm. We are @GoTimeFM on Twitter. If you wanna be on the show, have suggestions for topics or guests, even questions for the guests, you can find us at GitHub.com/GoTimeFm/ping, just file an issue. With that, goodbye everybody! We'll see you next week.
 
