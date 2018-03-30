@@ -66,9 +66,9 @@
 
 **Carlisia Pinto:** Kris, have you finished your sentence? You were just suddenly interrupted...
 
-**Kris Nova:** No, \[unintelligible 00:04:28.10\] So I worked out a lot in Kops; I helped to bring the private topology in Amazon to Kops... That was something I coded a lot end of last year, and now I'm one of the maintainers. My involvement now is pretty much I do a lot of code reviews and I help manage the project on sort of a high level.
+**Kris Nova:** No, it's fine. So I worked out a lot in Kops; I helped to bring the private topology in Amazon to Kops... That was something I coded a lot end of last year, and now I'm one of the maintainers. My involvement now is pretty much I do a lot of code reviews and I help manage the project on sort of a high level.
 
-I'm not contributing every day, like I used to be several months ago... But hopefully, I would like to change that, as I've been going through the process of getting Kubernetes up and running on Azure. I'm kind of missing a lot of these old paradigms that we had when I was working on Amazon, and I really would like in my spare time to dedicate some effort into getting an Azure implementation coded \[unintelligible 00:05:16.12\] so that I can get some of those bells and whistles that I'm used to having in a certain way.
+I'm not contributing every day, like I used to be several months ago... But hopefully, I would like to change that, as I've been going through the process of getting Kubernetes up and running on Azure. I'm kind of missing a lot of these old paradigms that we had when I was working on Amazon, and I really would like in my spare time to dedicate some effort into getting an Azure implementation coded into Kops so that I can get some of those bells and whistles that I'm used to having in a certain way.
 
 So that's something that I'm gonna start coding here as soon as I get some free time, probably in the next couple of weeks or so... So I'm excited about it.
 
@@ -84,7 +84,7 @@ I can get a cluster up and running with acs-engine in one or two commands, and i
 
 **Kris Nova:** Yeah, I was gonna say that's in my mind one of the big wins for Kubernetes, which is once you get all your infrastructure and all your applications bundled up into the Kubernetes way of doing things, you kind of don't really care about the cloud anymore, or at least that's the idea.
 
-There might be subtle nuances, but I've had a ton of personal apps and a ton of projects that I used to run on Amazon that as soon as I had \[unintelligible 00:07:17.03\] it's like "Now I'm just rocking it in Azure, and life's good!"
+There might be subtle nuances, but I've had a ton of personal apps and a ton of projects that I used to run on Amazon that as soon as I had \[unintelligible 00:07:17.03\] up and running in Azure it's like "Now I'm just rocking it in Azure, and life's good!"
 
 **Erik St. Martin:** Are you self-hosting? Like a Kubernetes inside Kubernetes?
 
@@ -146,7 +146,7 @@ It'll detect that and it will go through this rebuilding and redeployment cycle 
 
 **Brian Ketelsen:** Oh, wow...
 
-**Kris Nova:** I used to work on Scala, and this tool reminds me of sbt quite a bit, with this sort of "You run it and it sits there, and as soon as you make a change, it'll sort of recompile \[unintelligible 00:14:14.04\]" For Draft, for recompiling it's actually a build stage where it will actually compile your code if you're writing Go. Or if you're writing an interpreted language, it'll just stick it in a container and then push that out to the cluster... Which is pretty handy, because if you've ever developed for Kubernetes, you know there's like -- I have this alias in my Bash profile that I'm certainly not proud of, where it would do all this stuff that I've just talked about, and it was kind of hacky... This is a much more elegant way of doing that.
+**Kris Nova:** I used to work on Scala, and this tool reminds me of sbt quite a bit, with this sort of "You run it and it sits there, and as soon as you make a change, it'll sort of recompile" what it did in Scala. For Draft, for recompiling it's actually a build stage where it will actually compile your code if you're writing Go. Or if you're writing an interpreted language, it'll just stick it in a container and then push that out to the cluster... Which is pretty handy, because if you've ever developed for Kubernetes, you know there's like -- I have this alias in my Bash profile that I'm certainly not proud of, where it would do all this stuff that I've just talked about, and it was kind of hacky... This is a much more elegant way of doing that.
 
 **Brian Ketelsen:** Yeah, everybody has that same nasty Bash script if they're working in Kubernetes. It almost sounds like a "Heroku for Kubernetes" sort of thing; simplifying the whole development workflow. That sounds cool. Does it use a concept of buildpacks or something similar to determine how to containerize the application, or do you still have to provide guidance on the containerization of your app?
 
@@ -212,7 +212,7 @@ So I've secretly been kind of like, "One of these days I'm gonna move my blog ov
 
 **Erik St. Martin:** My contribution to the world... \[laughs\]
 
-**Kris Nova:** I think it was cool for me because containers always were kind of like this mystery, and then you kind of realize, there's a lot going on, but at the end of the day \[unintelligible 00:20:57.18\] your kernel... So whatever we would be setting to the kernel "in real life" you're gonna get pretty close to the same functionality coming from a container, and it was like "Oh, this is sort of not this black mystery face anymore. I kind of get it now." And I think actually seeing the Xserver get started and actually bring something up on my screen was kind of like that a-ha moment.
+**Kris Nova:** I think it was cool for me because containers always were kind of like this mystery, and then you kind of realize, there's a lot going on, but at the end of the day we're head in your kernel... So whatever we would be setting to the kernel "in real life" you're gonna get pretty close to the same functionality coming from a container, and it was like "Oh, this is sort of not this black mystery face anymore. I kind of get it now." And I think actually seeing the Xserver get started and actually bring something up on my screen was kind of like that a-ha moment.
 
 **Erik St. Martin:** I think there's difficulty in adoption of containers though, because explaining the differences -- I forget who it was, whether it was Brendan Gregg or somebody... I was reading kind of like a performance article where it basically said that most of his day is spent exonerating the container, that most people wanna "Oh, this isn't performing right... It's gotta be because it's in a container" and things like that, and you start to realize there's not a lot of magic there; it's all operating system things being called; it's not the container, it's the configuration the container's getting, right?
 
@@ -260,7 +260,7 @@ So I've secretly been kind of like, "One of these days I'm gonna move my blog ov
 
 **Erik St. Martin:** I don't know, I think the keytar is a pretty cool instrument though, too. It's one of those things... To see somebody who knows how to play it is awesome.
 
-**Kris Nova:** I played synth in a band for a number of years, and that sort of went anywhere from \[unintelligible 00:25:39.27\] piano, to playing organ, to actually having this super teeny-tiny microKORG with little itty-bitty keys on it... And keytar - it's such a unique instrument, because you have to kind of have one hand that's doing piano things, and then your left hand is on that flybar where you can get the modulation and the pitch bend and everything.
+**Kris Nova:** I played synth in a band for a number of years, and that sort of went anywhere from weighted key piano, to playing organ, to actually having this super teeny-tiny microKORG with little itty-bitty keys on it... And keytar - it's such a unique instrument, because you have to kind of have one hand that's doing piano things, and then your left hand is on that flybar where you can get the modulation and the pitch bend and everything.
 
 It took a while to get into this -- like, I'm holding it like a guitar, playing it like a piano, and my other hand is doing guitar things. But I bought it, and then the first thing I had to learn how to play was Frankenstein by the Edgar Winters Group. \[laughter\] I played that for like six months straight. I'm pretty sure the neighbors were like "If I hear that riff one more time..." \[laughter\]
 
@@ -408,13 +408,13 @@ If you go to https://goplay.space - it's a Go playground front-end, and there's 
 
 **Carlisia Pinto:** And with that, I have to go.
 
-**Erik St. Martin:** \[unintelligible 00:35:52.13\]
+**Erik St. Martin:** You are getting kicked out of your room?
 
 **Carlisia Pinto:** I see people -- oh, wait... They're going away. They're going away, I'm not being kicked out...
 
 **Erik St. Martin:** Crisis averted...
 
-**Brian Ketelsen:** Yeah, flip them the bird. "Listen, Fastly... We've got stuff to do here. This is GoTime." \[laughter\] See if that works, and let me know.
+**Brian Ketelsen:** Yeah, flip them the bird. "Listen, [Fastly](https://www.fastly.com/)... We've got stuff to do here. This is GoTime." \[laughter\] See if that works, and let me know.
 
 **Erik St. Martin:** \[00:36:10.02\] You're gonna get people in trouble, Brian...
 
@@ -536,7 +536,7 @@ Kris, is there any project or any person you wanted to shout out for \#FreeSoftw
 
 **Brian Ketelsen:** \[00:44:07.28\] Exactly... Since I'm sitting in front of a Windows machine.
 
-**Erik St. Martin:** I'm just thinking of our 15-minute \[unintelligible 00:44:15.18\] \[laughter\]
+**Erik St. Martin:** I'm just thinking of our 15-minute \[laughter\]
 
 **Brian Ketelsen:** ...and how long it took me to get Skype working?
 
@@ -626,11 +626,11 @@ Once you start recognizing those patterns (DW is Delete Word) it becomes much ea
 
 **Brian Ketelsen:** I do it by project most times. In fact, all of my classroom material for teaching Go is a self-contained GOPATH, and then I've got GOPATHs from my personal projects, and if I have a job - which sometimes I do - then I'll have a GOPATH specifically for that, just to keep everything clean.
 
-**Erik St. Martin:** And if you're not already aware of this, I will up your "different environment" game. There's a project called \[unintelligible 00:54:09.24\] that I use the crap out of. Basically, it allows you when you CD into a directory, it can execute shell scripts or set up aliases or your paths specifically for that directory. I have these different GOPATHs set up, but it just automatically changes for me when I go into the directory.
+**Erik St. Martin:** And if you're not already aware of this, I will up your "different environment" game. There's a project called [direnv](https://direnv.net/) that I use the crap out of. Basically, it allows you when you CD into a directory, it can execute shell scripts or set up aliases or your paths specifically for that directory. I have these different GOPATHs set up, but it just automatically changes for me when I go into the directory.
 
 **Kris Nova:** I was literally thinking about writing this exact tool like two days ago.
 
-**Brian Ketelsen:** Yeah, I use \[unintelligible 00:54:36.23\] All I have to do is change into the directory and it automatically changes my GOPATH, exports, the Docker variables for Postgres, whatever. It was Erik, I'm sure, that introduced me to \[unintelligible 00:54:51.20\], or maybe its predecessor. Because \[unintelligible 00:54:54.05\] was written in Go, but there was another one before that that isn't... Same thing, though. You have an ENVRC file, and it just automatically sources that when you're changing the directory, to change your GOPATH and set environment variables.
+**Brian Ketelsen:** Yeah, I use [direnv](https://direnv.net/) for everything. All I have to do is change into the directory and it automatically changes my GOPATH, exports, the Docker variables for Postgres, whatever. It was Erik, I'm sure, that introduced me to [direnv](https://direnv.net/), or maybe its predecessor. Because [direnv](https://direnv.net/) was written in Go, but there was another one before that that isn't... Same thing, though. You have an .envrc file, and it just automatically sources that when you're changing the directory, to change your GOPATH and set environment variables.
 
 **Kris Nova:** Awesome.
 
@@ -640,13 +640,13 @@ Once you start recognizing those patterns (DW is Delete Word) it becomes much ea
 
 **Erik St. Martin:** Usually, there's a kube-control or kubectl. I haven't got into the kubectl thing...
 
-**Brian Ketelsen:** No, I'm talking about kubectx. There's a new app called kubectx that allows (it's almost like \[unintelligible 00:55:32.20\]) but it allows you to change your context for kube-control, and you can just type "kubectx work" and get a new profile.
+**Brian Ketelsen:** No, I'm talking about [kubectx](https://github.com/ahmetb/kubectx). There's a new app called [kubectx](https://github.com/ahmetb/kubectx) that allows (it's almost like [direnv](https://direnv.net/)) but it allows you to change your context for kube-control, and you can just type "kubectx work" and get a new profile.
 
 **Kris Nova:** Awesome, because right now I have a bunch of kube configs in my directory, and then symlink them according to what I'm doing. But this sounds awesome.
 
 **Brian Ketelsen:** Oh, no, no, no. I'll paste this one into Slack. It's awesome. We were using this last week when I was at training, and it's so much nicer.
 
-**Erik St. Martin:** Or even with \[unintelligible 00:56:00.16\] too, you can have it execute shell commands and stuff for you. So you can have it just change your context when you CD into the directory.
+**Erik St. Martin:** Or even with [direnv](https://direnv.net/) too, you can have it execute shell commands and stuff for you. So you can have it just change your context when you CD into the directory.
 
 **Brian Ketelsen:** \[00:56:09.17\] Yeah, so I just put a link to that in Slack. It's GitHub.com/ahmetp/kubectx.
 
@@ -666,23 +666,23 @@ Once you start recognizing those patterns (DW is Delete Word) it becomes much ea
 
 **Brian Ketelsen:** So like documents, too?
 
-**Kris Nova:** Yeah. Dotfiles, documents - I just get it all up there and then I can just pull them down whenever I need them, and \[unintelligible 00:57:13.18\]
+**Kris Nova:** Yeah. Dotfiles, documents - I just get it all up there and then I can just pull them down whenever I need them, and edit them and push them back up.
 
 **Brian Ketelsen:** Holy cow... That's brave.
 
 **Kris Nova:** Yeah... I also write my own Git server, so...
 
-**Erik St. Martin:** I have a lot of my dotfiles publicly too, although I don't think I've updated them in a long time. I need to just wipe stuff and start over, and using the \[unintelligible 00:57:32.16\] makes that really easy, too.
+**Erik St. Martin:** I have a lot of my [dotfiles](https://dotfiles.github.io/) publicly too, although I don't think I've updated them in a long time. I need to just wipe stuff and start over, and using the [Stow](https://www.gnu.org/software/stow/) tool that makes that really easy, too.
 
-**Brian Ketelsen:** There's another one... It's not RCS, but... Shoot. I just saw the other day something like RCS, \[unintelligible 00:57:46.16\] One of those Ruby companies made a really cool dotfile configuration tool, and I saw somebody... Elithrar - who's Elithrar? The name is escaping me... On Twitter, Elithrar. Darn it, I'm blanking. I don't usually blank on names. Anyway, I'm gonna go look it up... While you guys talk, I'm gonna go look up his dotfiles.
+**Brian Ketelsen:** There's another one... It's not RCS, but... Shoot. I just saw the other day something like RCS, the name is like.. One of those Ruby companies made a really cool dotfile configuration tool, and I saw somebody... Elithrar - who's Elithrar? The name is escaping me... On Twitter, Elithrar. Darn it, I'm blanking. I don't usually blank on names. Anyway, I'm gonna go look it up... While you guys talk, I'm gonna go look up his dotfiles.
 
 **Erik St. Martin:** Yeah, so some of those things are cool, though...
 
 **Brian Ketelsen:** Matt Silverlock.
 
-**Erik St. Martin:** But I guess I'm like an old school Linux geek, so \[unintelligible 00:58:19.22\] works so well for me. It just automatically symlinks, and the binary is there, and it's super fast, and the package exists already, and...
+**Erik St. Martin:** But I guess I'm like an old school Linux geek, so [Stow](https://www.gnu.org/software/stow/) just works so well for me. It just automatically symlinks, and the binary is there, and it's super fast, and the package exists already, and...
 
-**Brian Ketelsen:** RCM. I said RCS, but it's RCM.
+**Brian Ketelsen:** [RCM](https://github.com/thoughtbot/rcm). I said RCS, but it's [RCM](https://github.com/thoughtbot/rcm).
 
 **Kris Nova:** I have a Bin directory that is just like eight years' worth of hacky shell scripts that I add to path whenever I move into a computer...
 
@@ -746,9 +746,9 @@ That's the disadvantage to crafting your own workspace and environment...
 
 **Kris Nova:** Right now I am running...
 
-**Brian Ketelsen:** Xfce?
+**Brian Ketelsen:** [xfce](https://xfce.org/)
 
-**Kris Nova:** Yeah, Xfce. Do you guys say Xfce? \[unintelligible 01:03:11.08\]
+**Kris Nova:** Yeah, [xface](https://xfce.org/). Do you guys say [xfce](https://xfce.org/)?
 
 **Brian Ketelsen:** Yeah, I've seen it, but I've never said it, so I don't know... Xfce is what I would say...
 
@@ -786,7 +786,7 @@ That's the disadvantage to crafting your own workspace and environment...
 
 **Erik St. Martin:** I have to see the ASCII video conversion.
 
-**Kris Nova:** Yeah, it's ascii-videos. It's a Javascript package, of course. There you go.
+**Kris Nova:** Yeah, it's [ascii-video](https://www.npmjs.com/package/ascii-video). It's a Javascript package, of course. There you go.
 
 **Brian Ketelsen:** Nice.
 
@@ -794,13 +794,9 @@ That's the disadvantage to crafting your own workspace and environment...
 
 **Brian Ketelsen:** I don't know... That means you have to use NPM. Just say no.
 
-**Erik St. Martin:** Oh, sweet...
+**Erik St. Martin:** Oh, sweet... like I'm actually looking at it now.
 
-**Brian Ketelsen:** That is so cool.
-
-**Erik St. Martin:** \[unintelligible 01:05:54.00\]
-
-**Brian Ketelsen:** Yeah... Okay, that's cool.
+**Brian Ketelsen:** That is so cool. Yeah... Okay, that's cool.
 
 **Kris Nova:** Yeah.
 
@@ -824,7 +820,7 @@ That's the disadvantage to crafting your own workspace and environment...
 
 **Erik St. Martin:** Alright, so we should say bye... Thanks everybody for listening. A huge thank you to Kris for coming on the show with us today. Thanks to Carlisia who wasn't able to continue, but she's here in spirit right now; she should be back next week.
 
-**Brian Ketelsen:** Thank you so much for coming on, Kris. It was an honor to finally talk in person - well, not quite in person, but over the internet - to my best friend. If you guys aren't aware, Kris and I are bffs; we've been bffs for several months now, but we \[unintelligible 01:07:05.25\]
+**Brian Ketelsen:** Thank you so much for coming on, Kris. It was an honor to finally talk in person - well, not quite in person, but over the internet - to my best friend. If you guys aren't aware, Kris and I are bffs; we've been bffs for several months now, but we declared it on Twitter so...
 
 **Kris Nova:** It's Twitter-official.
 

@@ -24,7 +24,7 @@ As far as Go, what got me interested in Go was I have a friend who's name is Tho
 
 Sort of building some open source tools, contributing to projects... I actually started using it as the scripting language almost for my pentesting work. Python is kind of the most common one now, but I started using Go on a regular basis... I just picked it up and started using it more and more, and to this day I really enjoy working with it, for a number of reasons. That's kind of the long-winded answer to how I got to where I am today.
 
-**Carlisia Pinto:** I wanna pick up on one thread... You mentioned that you were using Go to teach \[unintelligible 00:05:51.12\] Two related questions - how did it go teaching Go? Did the students find it easier, did they complain, did they have praises for it? How did that go? And how do you think Go compares with Python for security related things?
+**Carlisia Pinto:** I wanna pick up on one thread... You mentioned that you were using Go to teach, yeah? Two related questions - how did it go teaching Go? Did the students find it easier, did they complain, did they have praises for it? How did that go? And how do you think Go compares with Python for security related things?
 
 **Aaron Hnatiw:** To answer the first question as far as how it went teaching it - teaching it was good. I was teaching developers; they were a group of third-year programmers, so they had some of the basics; I think they had done a lot of work in Python before, Java as well, so they had some of the basics and fundamentals down. It was just a matter of teaching them -- the approach that I took was forcing them to learn a lot on their own, because as we know, when you're in software development (and InfoSec especially) you have to teach yourself a lot. So now that they knew the basics, what I did was I pointed them towards a few resources, like the Go Tour, which is fantastic, and giving them a few books on Go.
 
@@ -72,7 +72,7 @@ The way I learned was I basically set up a virtual lab using a VM or a virtual b
 
 If you want more of a collaborative environment, there's essentially games called "Capture the flags." I can get into that more, but it's essentially a hacking game, or a hacking competition, and they're held all over the world; you can access them online. There's a website called ctftime.org, and it's essentially a location where you can find where all sorts of active "capture the flag" games are happening and you can sign up for them. That was another way that I learned a lot of about security, through those competitions.
 
-Those competitions are good because they teach you how to think like an attacker, they don't necessarily teach you as many real -- some of them teach you the real applicable attacks you can use, but a lot of them are about really tough challenges that force you to think the way an attacker would have to think. So there's all different ways to actually learn on your own through those \[unintelligible 00:17:54.24\] as well.
+Those competitions are good because they teach you how to think like an attacker, they don't necessarily teach you as many real -- some of them teach you the real applicable attacks you can use, but a lot of them are about really tough challenges that force you to think the way an attacker would have to think. So there's all different ways to actually learn on your own through those \[unintelligible 00:17:54.24\] services as well.
 
 **Erik St. Martin:** I think it's interesting though too, because there's a lot of similar aspects when you think about learning engineering, where you go down these avenues, and maybe it doesn't get you to what you're trying to build, but you've learned a lot in the process. I think information security is the same way - when you're trying to attack something, being able to identify that you're chasing a red herring... It's easy to lose a ton of time, because something looks like that's the way, and it's actually much easier, so being able to kind of step back and take a fresh look. Yeah, it's so much fun...
 
@@ -106,7 +106,7 @@ I think three main things stand out that you can easily do and keep in mind when
 
 The second thing - and probably the most important thing - is input validation. Understanding that the input that you're getting from a user is what you think it is, and checking that on the server, rather than on the client. Because client-side control can be bypassed very easily.
 
-\[00:28:01.24\] In a browser, if you use a proxy like \[unintelligible 00:28:03.25\] you can intercept the request, change the data after it's left the browser, and then send it on and it completely by-passes any kind of client-side input validation. So checking that the information that you're getting is what you think it is, and not some malformed input like a super long string to get a buffer overflow, or negative numbers when you don't expect negative numbers, or special characters that you don't expect... The best way to do that is to use a whitelist over a blacklist.
+\[00:28:01.24\] In a browser, if you use a proxy like Burp or ZAP you can intercept the request, change the data after it's left the browser, and then send it on and it completely by-passes any kind of client-side input validation. So checking that the information that you're getting is what you think it is, and not some malformed input like a super long string to get a buffer overflow, or negative numbers when you don't expect negative numbers, or special characters that you don't expect... The best way to do that is to use a whitelist over a blacklist.
 
 The difference between a whitelist and a blacklist means -- a whitelist is looking for a set number of things that are allowed, whereas a blacklist is looking for a set number of things that are not allowed. The number of inputs that can be allowed through is significantly less when you use a whitelist, so you are much more aware and you're much more in control about the data that comes through, as opposed to with the blacklist... Where there may be a ton of things that you haven't even thought of that could come through and could get around your validation.
 
@@ -150,7 +150,7 @@ There's a really useful tool -- I don't know how many people actually do manual 
 
 **Aaron Hnatiw:** Oh, nice.
 
-**Erik St. Martin:** To kind of go more in-depth about the blind SQL \[unintelligible 00:36:21.06\] an example of that would be -- most of the time when you see a SQL injection you'll see where people try to login, with a username, and they'll put their parenthesis and stuff, but basically you could do where a username like a percent sign, and then you could do a SLEEP. Then basically you'll go through and you're like "Oh, C slept for five seconds. I know it starts with C. Let me move to the next character." The fact that somebody had that creativity blew my mind.
+**Erik St. Martin:** To kind of go more in-depth about the blind SQL attack, an example of that would be -- most of the time when you see a SQL injection you'll see where people try to login, with a username, and they'll put their parenthesis and stuff, but basically you could do where a username like a percent sign, and then you could do a SLEEP. Then basically you'll go through and you're like "Oh, C slept for five seconds. I know it starts with C. Let me move to the next character." The fact that somebody had that creativity blew my mind.
 
 **Aaron Hnatiw:** It's really crazy. One book I'd recommend for anyone that's interested in web application security - I would say this is probably the standard book you can reference... You don't even need to read it from cover to cover, just using it as a reference is important; it's called The Web Application Hacker's Handbook. It's really good and it covers a lot of these topics in depth that you need to know for web-specific security. So if I can make a recommendation, I'd make that one.
 
@@ -174,7 +174,7 @@ There's no way that you can automate everything; I really don't believe that at 
 
 \[00:39:55.24\] And then where the education standpoint comes in is -- there's a few approaches to this. One is like a Security Champions, so to have an individual in each team represent security. There's also center of excellence, where you have one security group where they then disseminate information through the organization. Adobe has a belt program... There's all different ways that people go about doing it, but the idea is essentially that you are sharing information about security actively with your developers and operations team, so that they are able to at least understand it a little bit more. Not necessarily as thoroughly as like a security expert will, but at least they have the basic understanding.
 
-That's where things like the OWASP top 10 comes in handy, which is the top 10 most common security vulnerabilities on the web. It's a little older, but it's the \[unintelligible 00:40:44.00\] and CWE top 25 most dangerous software errors. There's a few lists like that help, but coming back to DevSecOps (the buzzwordy term), it's the idea of joining all three together, and doing it as very unique to an organization. Essentially, it really revolves around automation and education.
+That's where things like the OWASP top 10 comes in handy, which is the top 10 most common security vulnerabilities on the web. It's a little older, but it's the SANS and CWE top 25 most dangerous software errors. There's a few lists like that help, but coming back to DevSecOps (the buzzwordy term), it's the idea of joining all three together, and doing it as very unique to an organization. Essentially, it really revolves around automation and education.
 
 **Brian Ketelsen:** So there's one thing that I wanna add in terms of automated help... HP Labs released an app called Gas that's included in gometalinter, and it's truly my favorite in terms of automation. Gas lets you check your code in an automated fashion against several types of vulnerabilities and known insecure things, and you can tweak which tests it runs. I highly recommend it if you're gonna have an application in production that you run Gas in your CI, in your tests suite before you put it into production. I've found that it's got some pretty decent defaults in terms of security, and it catches things like using string concatenation in your SQL queries, and things like that. I like Gas a lot. That came from HP Labs originally, but I think they've put it under its own domain. It's on GitHub now at github.com/goASTScanner/gas.
 
@@ -189,11 +189,11 @@ There's also things like -- the OWASP top 10 is probably another really good res
 
 **Erik St. Martin:** I think a lot of that stuff is almost from a blue team perspective. I think what Carlisia might have been hinting at, if you wanna kind of be more aware of the red team angle and maybe educate yourself to attack these vectors, but had minimal time to invest in that training... Is there kind of like any recommendations for places to start?
 
-**Brian Ketelsen:** \[00:43:59.27\] I also wanted to point out that there is a Go specific OWASP book at GitHub.com/checkmarx/go-scp. I have not read this yet, but I have heard of several people who have and found it to be a pretty decent guide as to following OWASP standards from a Go app. So if you do read it, let us know what you think about it.
+**Brian Ketelsen:** \[00:43:59.27\] I also wanted to point out that there is a Go specific OWASP book at [GitHub.com/checkmarx/go-scp](https://github.com/checkmarx/go-scp). I have not read this yet, but I have heard of several people who have and found it to be a pretty decent guide as to following OWASP standards from a Go app. So if you do read it, let us know what you think about it.
 
 **Carlisia Pinto:** Nice.
 
-**Aaron Hnatiw:** Yeah, I read through the first part of that, it's actually pretty well done. It did cover a lot of good, specific \[unintelligible 00:44:28.14\] security issues that you need to be aware of.
+**Aaron Hnatiw:** Yeah, I read through the first part of that, it's actually pretty well done. It did cover a lot of good, specific Go \[unintelligible 00:44:28.14\] security issues that you need to be aware of.
 
 **Erik St. Martin:** And there's a new book that's being worked on called Black Hat Go.
 
@@ -363,7 +363,7 @@ Then there's also HackerOne and Cobalt.io is another one. Those are kind of the 
 
 **Erik St. Martin:** So are we ready for \#FreeSoftwareFriday?
 
-**Carlisia Pinto:** I wanna mention a couple things... One, \[unintelligible 00:58:37.29\] on Twitter has been very sad.
+**Carlisia Pinto:** I wanna mention a couple things... One, the \#GopherConOrBust hashtag on Twitter has been very sad.
 
 **Brian Ketelsen:** It has.
 
@@ -371,11 +371,11 @@ Then there's also HackerOne and Cobalt.io is another one. Those are kind of the 
 
 **Erik St. Martin:** I think last year it was because so many people started commuting there. You know, they were driving from Canada, and Brian drove up from Florida...
 
-**Carlisia Pinto:** That is true. There was that big \[unintelligible 00:59:07.22\] bus. They're not doing that?
+**Carlisia Pinto:** That is true. There was that big CoreOS bus. They're not doing that?
 
 **Brian Ketelsen:** That was two years ago...
 
-**Erik St. Martin:** Yeah, so for your commute to GopherCon, all your travels and preparations for GopherCon, \[unintelligible 00:59:23.19\] is kind of fun. And mine will start a week from Monday. That's when I travel out there.
+**Erik St. Martin:** Yeah, so for your commute to GopherCon, all your travels and preparations for GopherCon, \#GopherConOrBust is kind of fun. And mine will start a week from Monday. That's when I travel out there.
 
 **Brian Ketelsen:** Really? Is it that soon?
 
@@ -387,7 +387,7 @@ Then there's also HackerOne and Cobalt.io is another one. Those are kind of the 
 
 **Brian Ketelsen:** \[00:59:46.06\] Yeah, we're in trouble. So I promised that I would announce my big news today, but I have to kind of couch that a little bit. I have accepted an offer at an exciting company, but they've asked me not to announce it until roughly next week, because they're getting a full-page ad for the New York Times together, and Washington Post and CNN. So I won't announce where I'm going, but I do have a very exciting new job. I could not be happier about joining the team. I can't tell you where it is yet. And that full-page ad thing was a joke, sorry. I heard no laughing... \[laughter\] But yeah, that was a joke. So you get to hang another week to find out where I'm going... Amazon whole foods.
 
-**Erik St. Martin:** \[unintelligible 01:00:32.16\] putting your votes in. We need a Twitter poll. \[laughter\] Alright, so \#FreeSoftwareFriday. For anybody who's new to the show, every Friday -- well, we release these on Thursdays, but it started as a Free Software Friday, so we're keeping it that way. We just try to give a shoutout to a project or a maintainer, not necessarily Go-specific, but just to show to love... They don't always the good feedback, so let's praise everybody. There used to be a \#FreeSoftwareFriday on Twitter, I don't know whether people are still using it, but definitely do that, too.
+**Erik St. Martin:** Putting your votes in. We need a Twitter poll. \[laughter\] Alright, so \#FreeSoftwareFriday. For anybody who's new to the show, every Friday -- well, we release these on Thursdays, but it started as a Free Software Friday, so we're keeping it that way. We just try to give a shoutout to a project or a maintainer, not necessarily Go-specific, but just to show to love... They don't always the good feedback, so let's praise everybody. There used to be a \#FreeSoftwareFriday on Twitter, I don't know whether people are still using it, but definitely do that, too.
 
 **Brian Ketelsen:** I see some, but I haven't been leading the way either, so... Because we do it on the show; it's kind of overkill.
 
@@ -433,7 +433,7 @@ So I've found an app called WSLtty. It basically a bridge between Mintty - which
 
 **Brian Ketelsen:** I highly recommend it, especially if you use the Vim plugin, which is really good for both Gogland and VS Code. You won't be sad about your muscle memory, but you'll get some really pretty tools. The code lenses in Visual Studio Code are gorgeous. I love those.
 
-**Aaron Hnatiw:** The debugging is pretty useful, as well. \[unintelligible 01:06:12.29\]
+**Aaron Hnatiw:** The debugging is pretty useful, as well. It's got Delve built-in.
 
 **Brian Ketelsen:** Yeah, debugging is for wimps. \[laughter\] Format.printline. \[laughter\] Actually, just printlines; I said format.printline, but if you use just printline in your debugging, then you don't have to remove an import when you're done debugging... So don't use format.printline, just use printline, with a lower-case "p", it's a built-in. \[laughter\]
 

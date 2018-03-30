@@ -32,7 +32,7 @@ The garbage collector, for instance, requires write barriers; the compiler has t
 
 Once you have the tree, you can do a certain amount of - I think you would call it semantic analysis, so enforcing a lot of the rules of the language: can you look at this, can you look at that? Do the types match, and so on?
 
-Some compilers go straight from tree to code generation, and in fact the Go compiler used to do that about -- God, I can't even remember which release it was. I guess \[unintelligible 00:03:51.01\] in 1.7, we added a phase... Keith Randall talked about this at GopherCon, and that talk will be online in a little while. But we added a lower-level phase; it's somewhat closer to the machine code, but it is also structured, and it makes it easy to express a lot of optimizations, and it was surprisingly easy to do our ports too, when we went from supporting it on one platform to all of them.
+Some compilers go straight from tree to code generation, and in fact the Go compiler used to do that about -- God, I can't even remember which release it was. I guess we lit up SSA in 1.7, we added a phase... Keith Randall talked about this at GopherCon, and that talk will be online in a little while. But we added a lower-level phase; it's somewhat closer to the machine code, but it is also structured, and it makes it easy to express a lot of optimizations, and it was surprisingly easy to do our ports too, when we went from supporting it on one platform to all of them.
 
 \[00:04:23.07\] So the Go compilers, again - characters come in, scan and parse into an AST, do semantic analysis to enforce rules, transform AST to SSA and do a certain amount of optimization. Then we interface to the Go Assembler, and out comes machine code.
 
@@ -76,7 +76,7 @@ So I'm thinking about what's the most accessible part of the compiler, and the m
 
 **Ashley McNamara:** Right, \[unintelligible 00:10:08.01\]
 
-**David Chase:** No, I have not written a book. \[laughter\] I was gonna grab three books that I know of... I don't actually know if any of these do a good job of covering SSA. Okay, so we have one whole sub-chapter in \[unintelligible 00:10:34.02\], so that's one... That's Engineering a Compiler...
+**David Chase:** No, I have not written a book. \[laughter\] I was gonna grab three books that I know of... I don't actually know if any of these do a good job of covering SSA. Okay, so we have one whole sub-chapter in Cooper & Torczon, so that's one... That's Engineering a Compiler...
 
 **Ashley McNamara:** And what you can also do if you want to research that question a little bit, is you can drop it in the Sack channel later, and I can help remind you.
 
@@ -88,7 +88,7 @@ So I'm thinking about what's the most accessible part of the compiler, and the m
 
 **Ashley McNamara:** \[00:12:04.26\] I don't know, it seems pretty scary to me. I want you to explain everything like I'm five.
 
-**David Chase:** Yeah, so the problem is I'm sitting here thinking of the compilers I've worked in, and what happens is that anything that's successful gets ported to a lot of architectures, and then as soon as it gets ported to a lot of architectures, that \[unintelligible 00:12:25.10\] all the generality that you need to support a bunch of architectures. Then people want it to go faster and you start getting more and more hair and optimizations. The Go compiler is not bad.
+**David Chase:** Yeah, so the problem is I'm sitting here thinking of the compilers I've worked in, and what happens is that anything that's successful gets ported to a lot of architectures, and then as soon as it gets ported to a lot of architectures, that introduces all the generality that you need to support a bunch of architectures. Then people want it to go faster and you start getting more and more hair and optimizations. The Go compiler is not bad.
 
 **Ashley McNamara:** \[laughs\] It's not bad...
 
@@ -96,7 +96,7 @@ So I'm thinking about what's the most accessible part of the compiler, and the m
 
 **Ashley McNamara:** What can make it better?
 
-**David Chase:** So this is a problem, because it means "Better for whom?" We have stuff in the pipeline right now that is gonna be way better for compile time, and a little bit better for performance. We think that if we improve the import/export again - we already improved it once; if we do it again, then we can make it more on-demand and less patchy, and then that in turn \[unintelligible 00:13:16.22\] inlining... What they call mid-stack inlining. That will be good. We think that that might make everything about 5% faster. It won't make compile time faster until we do this lazy import. Lazy import will be great \[unintelligible 00:13:35.08\] compiling a little bit faster than it is right now, even with the expensive extra inlining. But from the point of view of reading the compiler, it got a little worse.
+**David Chase:** So this is a problem, because it means "Better for whom?" We have stuff in the pipeline right now that is gonna be way better for compile time, and a little bit better for performance. We think that if we improve the import/export again - we already improved it once; if we do it again, then we can make it more on-demand and less patchy, and then that in turn will allow us to turn on inlining... What they call mid-stack inlining. That will be good. We think that that might make everything about 5% faster. It won't make compile time faster until we do this lazy import. Lazy import will be great \[unintelligible 00:13:35.08\] compiling a little bit faster than it is right now, even with the expensive extra inlining. But from the point of view of reading the compiler, it got a little worse.
 
 **Brian Ketelsen:** Yeah, that makes some sense. I mean, there's always a cost.
 
@@ -422,7 +422,7 @@ Anybody else have a person or a project or a thing that they wanna shout out for
 
 **Carlisia Pinto:** I wanna give a shoutout to GoDoc. It's such a neat tool that we have, and for people who are new and don't know, you can run GoDoc on your machine if you're flying, and you get on your browser the documentation for all packages that you have residing in your system.
 
-Yesterday I found out that you can write documentation for each of your packages in a separate file called Doc.go. If you have a lot of documentation to write, you can put it all in there. So instead of ending up with separate files, \[unintelligible 00:46:45.05\] the documentation in those files. It's really neat, I didn't know that.
+Yesterday I found out that you can write documentation for each of your packages in a separate file called doc.go. If you have a lot of documentation to write, you can put it all in there. So instead of ending up with separate files with tons of documentation in those files. It's really neat, I didn't know that.
 
 **Brian Ketelsen:** Very nice.
 
@@ -462,7 +462,7 @@ Yesterday I found out that you can write documentation for each of your packages
 
 **David Chase:** \[00:50:55.21\] It is more solid now than it was. I don't know why I didn't do Homebrew... Back then I don't know if there was Homebrew; there was Fink, and I tried both and I ended up settling on MacPorts. It's better now. They do a better job in terms of the dependency tracking and the rebuild tracking and the cleanup. It used to be more often you'd get wedged and have to uninstall a bunch of stuff and reinstall clean, and I can't remember the last time I had to do that.
 
-At the time - as late as five years ago, so 2012-2011 - we were hosting a big ol' track thing on it -- I mean, we were hosting track on another box, but I was actually mirroring the server on my laptop, and it was using MacPorts to get me everything that I needed, and everything that I needed - they included track and Python and SQLite, and Mercurial... The whole tech toolchain. This was for this crazy website that would run \[unintelligible 00:52:16.02\] it would use Emacs and \[unintelligible 00:52:17.25\] to do processing to turn your code into something formatted in a pretty mathematical style. And it worked.
+At the time - as late as five years ago, so 2012-2011 - we were hosting a big ol' track thing on it -- I mean, we were hosting track on another box, but I was actually mirroring the server on my laptop, and it was using MacPorts to get me everything that I needed, and everything that I needed - they included track and Python and SQLite, and Mercurial... The whole tech toolchain. This was for this crazy website that would run \[unintelligible 00:52:16.02\] it would use Emacs in bash-mode and \[unintelligible 00:52:17.25\] to do processing to turn your code into something formatted in a pretty mathematical style. And it worked.
 
 **Brian Ketelsen:** And it worked... It's a miracle. Alright, so I think that wraps up our show today. I'd like to thank David Chase for joining us and going deep into compiler land. I probably learned more in the last hour that I've learned in years on compilers; I really appreciate that. And thanks to everyone who's listening and the folks out on the Slack channel. Thank you so much.
 

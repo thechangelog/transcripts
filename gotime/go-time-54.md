@@ -80,7 +80,7 @@ But most everything is Go, and it's spread out across the world, which is pretty
 
 **Carlisia Pinto:** \[00:08:10.00\] Are you using Docker, Kubernetes, anything like that?
 
-**Chase Adams:** No. Pretty much everything is either on bare metal or NVMs, and since it's a stack that \[unintelligible 00:08:22.13\] we don't have to really worry about too much other than that.
+**Chase Adams:** No. Pretty much everything is either on bare metal or NVMs, and since it's a stack, that built binary we don't have to really worry about too much other than that.
 
 **Brian Ketelsen:** Yay Go!
 
@@ -116,7 +116,7 @@ Before joining this team, I worked pretty heavily on CICD, and I had my manager 
 
 **Chase Adams:** I know my team is the only team that I'm aware of that has Go in production. We all love Go, so we're encouraging other people to use it for things that might fit their use case. Anytime that we're in an office, we try and do some kind of introduction to Go, just so people can kind of get a taste for it. We've done things like spin up a Slack channel to encourage people to ask questions, or we'll post new things that we're finding, blog posts, or if there's a new project that might help... And I think that's been pretty neat, that there are other teams who are interested in writing Go, and I know there are people who are using it for some tooling that they're using for development.
 
-For me, before I joined this team working on CICD, I owned a Jenkins instance that had 60 agents, 60 different nodes, and we had to share those nodes for a pretty tremendous amount of the customer experience team, which is the team that uses Node.js pretty heavily to run integration tests. We wanted to be able to use those nodes at night time, when there weren't being used as much, and I built a tool with one of my co-workers that would transition those agents between two different Jenkins instances, and then -- Jenkinses can be kind of unstable when you're running 60 different slave agents, so we had a staging in Jenkins so that if it ever went down it wouldn't mess up anyone \[unintelligible 00:15:09.11\]
+For me, before I joined this team working on CICD, I owned a Jenkins instance that had 60 agents, 60 different nodes, and we had to share those nodes for a pretty tremendous amount of the customer experience team, which is the team that uses Node.js pretty heavily to run integration tests. We wanted to be able to use those nodes at night time, when there weren't being used as much, and I built a tool with one of my co-workers that would transition those agents between two different Jenkins instances, and then -- Jenkinses can be kind of unstable when you're running 60 different slave agents, so we had a staging in Jenkins so that if it ever went down it wouldn't mess up anyone abroad.
 
 But we built a tool in Go that would basically switch those agents in and out based on capacity... Because neither of us wrote Java, neither of us cared to write Java; it was a really easy thing to do. And just building those kinds of tools at Walmart, and really any company; I think is a great way to show that it's a great language for solving problems.
 
@@ -294,7 +294,7 @@ My dad was my boss when I first started working, and having to not work for him 
 
 He's helped me through a lot of those (like Erik said) politically tricky questions that can easily -- probably your entire career could go out in flames if you asked the wrong way. Being able to talk me through how to ask those both in a way that is clear and concise, and in a way that doesn't come across as trying to -- I don't know, to be effective with your questions and to be effective in the way that you're thinking about things.
 
-Then my third one, there's a guy -- I've tweeted about him a few times, and then my \[unintelligible 00:45:28.02\] his name is Shane Hanson. He's on my team currently. And I don't know that he would say he was my mentor, but he has helped me grow in Go and in thinking about architecture and thinking about how to solve problems in ways that probably in my whole experience of being a developer I haven't had anyone help me accelerate that quickly to learning things. So those would be my three.
+Then my third one, there's a guy -- I've tweeted about him a few times, and then my [Getting started with Emacs](https://chaseadams.io/getting-started-with-emacs/) article points to him, but his name is Shane Hanson. He's on my team currently. And I don't know that he would say he was my mentor, but he has helped me grow in Go and in thinking about architecture and thinking about how to solve problems in ways that probably in my whole experience of being a developer I haven't had anyone help me accelerate that quickly to learning things. So those would be my three.
 
 **Brian Ketelsen:** Nice.
 
@@ -306,9 +306,7 @@ Then my third one, there's a guy -- I've tweeted about him a few times, and then
 
 **Carlisia Pinto:** Yeah, that's harder, because it also requires for you to understand the domain, which if it's someone starting to learn, that's probably gonna need to be simple enough, but it still requires a little bit of effort.
 
-\[00:47:50.00\] The best thing I think - and this is not final; I would like to hear from Brian and Chase as well - is definitely join group chats, like the newbies channel that we have - Golang Newbies channel on GopherSlack, or the WomenWhoGo Slack, there's a GoBridge channel also in GopherSlack... Just because there'll be people available when you want to ask a question. And reserve pinging people for questions that you're not comfortable asking publicly.
-
-\[unintelligible 00:48:38.25\] I'm available for one-offs, that I can say "Hey, let's do two days from now", but nothing that I can commit to on a consistent basis.
+\[00:47:50.00\] The best thing I think - and this is not final; I would like to hear from Brian and Chase as well - is definitely join group chats, like the newbies channel that we have - Golang Newbies channel on GopherSlack, or the WomenWhoGo Slack, there's a GoBridge channel also in GopherSlack... Just because there'll be people available when you want to ask a question. And reserve pinging people for questions that you're not comfortable asking publicly. Just like Eric and me too. I'm available for one-offs, that I can say "Hey, let's do two days from now", but nothing that I can commit to on a consistent basis.
 
 **Brian Ketelsen:** Yeah, that's probably an important part of the mentor discussion - determining what things are actively mentoring and what things are "I'm just too lazy to go to Stack Overflow." And the difference between them is in a mentor relationship you have that dedicated channel back and forth to answer hard questions, but if someone is taking advantage of that to ask not so hard questions, or questions that they haven't explored other opportunities with, then they're kind of putting a burden on that mentor relationship.
 
@@ -514,7 +512,7 @@ But the other one is just the three big editors - VS Code, Emacs and Vim, the th
 
 **Brian Ketelsen:** Wait, we didn't talk to Elle. Bring forth the baby, we demand baby time.
 
-**Chase Adams:** Oh man \[unintelligible 01:10:36.23\]
+**Chase Adams:** Oh man, I don't know she went..
 
 **Brian Ketelsen:** We heard her playing just a little bit ago.
 
