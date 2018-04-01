@@ -90,7 +90,7 @@ That timeframe to be actively engaged as a parent, which is like 18, maybe 20 ye
 
 **Erik St. Martin:** There's another thing that I read a long time ago - I can't remember if it was like part of a book or something - where it talks about newer generations of people being in such a hurry to complete their life's work, and that the average age that people really kind of hit the peak of their careers is usually in the early 50's. If you look at most scientists and their discoveries and things like that, the age of the internet makes us feel like everybody's the 20 or 30-year-old millionaire, but those are really the edge cases.
 
-**Carmen Andoh:** Yeah, and it takes time to develop mastery. I once watched a talk by Bob Martin -- I don't know where the source of the information was, but it was like in every five years, half of the people in our industry have \[unintelligible 00:14:29.20\] of experience. So I'm in good company, I guess I should see, and I also would like to impart some life wisdom in addition to getting that technical mastery.
+**Carmen Andoh:** Yeah, and it takes time to develop mastery. I once watched a talk by Bob Martin -- I don't know where the source of the information was, but it was like in every five years, half of the people in our industry have 5 years or less of experience. So I'm in good company, I guess I should see, and I also would like to impart some life wisdom in addition to getting that technical mastery.
 
 **Brian Ketelsen:** Well, there you have it, folks. This is like the everything that you need in life you learned in kindergarten... Right here, from Carmen. So awesome.
 
@@ -109,7 +109,7 @@ And Ladies who Linux as well - it's in New York City and I'm no longer there, bu
 
 **Carlisia Pinto:** Are you doing this actively, on a regular basis, or is it on a needed basis?
 
-**Carmen Andoh:** There are several people who have taken me up on my offer and I work with them individually, in direct messages, but I helped start a black women channel. There was a picture that Vladimir, and Johnny \[unintelligible 00:18:24.26\] and Bryan Liles shared widely at the last GopherCon, which sort of showed several dozen black men together... And it was just such a wonderful thing to show the growth in that particular area of diversity. And then I tweeted, I was like "My goal is to have this same picture but with black women for GopherCon 2018."
+**Carmen Andoh:** There are several people who have taken me up on my offer and I work with them individually, in direct messages, but I helped start a black women channel. There was a [picture](https://twitter.com/kelseyhightower/status/885932075303534593) that [Vladimir](https://twitter.com/VladimirVivien) and [Johnny Boursiquot](https://twitter.com/jboursiquot) and [Bryan Liles](https://twitter.com/bryanl) shared widely at the last GopherCon, which sort of showed several dozen black men together... And it was just such a wonderful thing to show the growth in that particular area of diversity. And then I tweeted, I was like "My goal is to have this same picture but with black women for GopherCon 2018."
 
 So we started a black women channel, and we couldn't get everyone -- there's so many people in different timezones, with people from European timezones, all the way to California timezones, so a 9-hour time difference... To be able to agree on a single time, so I'm kind of mentoring two or three individually and kind of doing code reviews with them. But I think right now - I'm just gonna say it right now in public - I'm going to revive that and see if we could do something in groups from here until GopherCon.
 
@@ -143,7 +143,7 @@ These are just things to think about, and I don't know what the answers are, but
 
 **Erik St. Martin:** Yeah.
 
-**Carmen Andoh:** I remember getting there, and walking in, and it was like 400 people in a room, watching \[unintelligible 00:25:19.19\] \[laughter\] And I remember I could count only like five or six other women, maybe ten... And I know that were few women in tech at that point, but this just hit me, and it just -- it was like a visceral emotional reaction, and I remember taking a picture, snapping from the back of the room, and sending it to my husband and saying "Oh my god, look at this..." My husband's reaction kind of gave me the perspective that I needed, which is "Welcome to my world." The reason why that gave me perspective was because my husband is from West Africa, so he is constantly reminded of his otherness, in all the ways, in the United States North-Eastern Academia, as a professor. He's the only black professor in his entire division. So I was like, "Huh, okay..."
+**Carmen Andoh:** I remember getting there, and walking in, and it was like 400 people in a room, watching [redbeard](https://twitter.com/brianredbeard) talk. \[laughter\] And I remember I could count only like five or six other women, maybe ten... And I know that were few women in tech at that point, but this just hit me, and it just -- it was like a visceral emotional reaction, and I remember taking a picture, snapping from the back of the room, and sending it to my husband and saying "Oh my god, look at this..." My husband's reaction kind of gave me the perspective that I needed, which is "Welcome to my world." The reason why that gave me perspective was because my husband is from West Africa, so he is constantly reminded of his otherness, in all the ways, in the United States North-Eastern Academia, as a professor. He's the only black professor in his entire division. So I was like, "Huh, okay..."
 
 I remember when he would take me to Ghana, or he would take me to some places in Brooklyn where his family lives, and I would be the only European, or white -- or I could say I'm Latina, but to them I'm just white... And I remember, I never thought about my whiteness until I was the only white person in a room. I never think about my womanhood, if you will, until I'm the only one in a room, and these are only just the visible aspects of diversity, right? There's also lots of invisible, whether that's mental, or neurodevelopmental differences, or religious, or other things like that.
 
@@ -210,7 +210,7 @@ The thing that I work on is the Mac -- recently; I used to work on the Linux par
 
 So we do that at scale, and we use quite a bit of Go microservices to do that within the infrastructure, and a lot of the Go microservices help mediate, or are levels of abstraction to mediate between the worker or the agent that runs the builds, and the hypervisor that we have to use, which is vSphere's VMware.
 
-\[00:35:58.20\] And the reason why we use vSphere... "Oh, why are you using vSphere? Why don't you just use Docker?" We get that a lot in issues... It's because when you have Mac - OS X or macOS, if you will, you have to run it by licensed-on-Mac servers; you can't run it on Linux servers, and so all of the wonderful container ecosystem that we have is no longer available to you, so you have to get really creative... And sometimes it's frustrating because you can kind of see where Linux is kind of evolving in this space (the container ecosystem) - I know Brian and Erik work directly on this \[unintelligible 00:36:36.13\] So having to mediate that with multiple microservices, and \[unintelligible 00:36:42.15\] API has a lot of what we try to do in our day-to-days for the Mac infrastructure.
+\[00:35:58.20\] And the reason why we use vSphere... "Oh, why are you using vSphere? Why don't you just use Docker?" We get that a lot in issues... It's because when you have Mac - OS X or macOS, if you will, you have to run it by licensed-on-Mac servers; you can't run it on Linux servers, and so all of the wonderful container ecosystem that we have is no longer available to you, so you have to get really creative... And sometimes it's frustrating because you can kind of see where Linux is kind of evolving in this space (the container ecosystem) - I know Brian and Erik work directly on this Azure with \[unintelligible 00:36:36.13\] So having to mediate that with multiple microservices and the vSphere API is a lot of what we try to do in our day-to-days for the Mac infrastructure.
 
 And our worker agent, which is the largest codebase at Travis, if you will, or the largest kind of one-service, that's very mission-critical, is also written in Go, and all the back-ends for Docker and for GCE, all the different clouds, as well as our Mac cloud is written in Go.
 
@@ -220,7 +220,7 @@ And our worker agent, which is the largest codebase at Travis, if you will, or t
 
 **Brian Ketelsen:** Wow...
 
-**Carmen Andoh:** It has to be, yeah. There's a new product coming out that we may try some day. It's KVM. Developers that left to try to develop at KVM \[unintelligible 00:37:33.01\] for Mac hardware, which would be awesome, and it would really help out the ecosystem for infrastructure in Mac.
+**Carmen Andoh:** It has to be, yeah. There's a new product coming out that we may try some day. It's KVM. Developers that left to try to develop a KVM like thing for Mac hardware, which would be awesome, and it would really help out the CI the ecosystem for infrastructure in Mac.
 
 **Brian Ketelsen:** Which product is that?
 
@@ -240,11 +240,11 @@ And our worker agent, which is the largest codebase at Travis, if you will, or t
 
 **Carmen Andoh:** Yeah... Yeah, so that's one of the things that sort of was a barrier to my learning. People may debunk this or not, but we have a great capacity for visual learning, and I've read books about this... If you think about all the things that we use in terms of language surrounding computer abstraction, it's languages that are tangible things: trees, graphs, what have you... So I just love the idea of asking people this wonderful German word call Kopfkino - "your head cinema", so what goes in your mental cinema when you're talking about an abstracting thing.
 
-\[00:40:13.19\] At the last GopherCon I asked a bunch of people this, and I found some lovely, curious answers that helped me dig and want to go and learn and find out more... But the one that really stuck with me is Rick Hudson -- for the Go community, they probably already knew this, but I will introduce him... Rick Hudson is one of the primary developers and architects of the garbage collector in Golang, and especially was the one that kind of completely redid and improved the 1.5 garbage collector.
+\[00:40:13.19\] At the last GopherCon I asked a bunch of people this, and I found some lovely, curious answers that helped me dig and want to go and learn and find out more... But the one that really stuck with me is Rick Hudson -- for the Go community, they probably already knew this, but I will introduce him... [Rick Hudson](https://www.youtube.com/watch?v=aiv1JOfMjm0) is one of the primary developers and architects of the garbage collector in Golang, and especially was the one that kind of completely redid and improved the 1.5 garbage collector.
 
 So I asked Rick - not expecting this answer at all, but I asked Rick, "Rick, what do you see in your Kopfkino (mind cinema) when you think of the garbage collector?" When I asked other people, they would take some time to think, and sometimes they would say something like "I don't know, whatever...", but Rick was ready with an answer, and he said "A chessboard." And I went, "Tell me more!" and he basically went on to say "When I was a young kid, I learned chess as different, discrete pieces that had limitations in movement on a grid." And when you think about a garbage collector, that really could help you, because different operations in different phases in the garbage collector move along the heap up and down differently, right? So you kind of can look at the heap as maybe a single-column chess piece, if you will, or maybe multiple columns, depending on how many actors you have, right? But you have multiple actors and multiple things moving down a data structure of the heap.
 
-I'm telling you all this not knowing what I knew then -- oh, sorry, what I know now. I'm telling you all of this because just hearing that from Rick, hearing that it was a chessboard, made me want to go learn more about the garbage collector, learn about its implementation, and learn just about garbage collection in general. It was like unlocking a beautiful thing for me. If I see Rick at this year's GopherCon, I'm just gonna hang out and speak with him all day, because I think he's just -- you know, he's got such a history prior to joining Google, \[unintelligible 00:42:15.01\] but Rick is in his fifth decade of work, and just the wisdom that he can give us... So anyway, that was one of the things that really surprised me.
+I'm telling you all this not knowing what I knew then -- oh, sorry, what I know now. I'm telling you all of this because just hearing that from Rick, hearing that it was a chessboard, made me want to go learn more about the garbage collector, learn about its implementation, and learn just about garbage collection in general. It was like unlocking a beautiful thing for me. If I see Rick at this year's GopherCon, I'm just gonna hang out and speak with him all day, because I think he's just -- you know, he's got such a history prior to joining Google, at running workload \[unintelligible 00:42:15.01\] but Rick is in his fifth decade of work, and just the wisdom that he can give us... So anyway, that was one of the things that really surprised me.
 
 The other thing in terms of like visual abstraction - I was speaking with Alan Donovan. Alan Donovan works at the Go team in New York City, and I was kind of asked to give a talk at KubeCon about the Why of Go, and I was asked rather last-minute, so I was kind of like worrying a little bit, and I was like "What should I talk about?" He said, "Oh, you should talk about memory locality, it's so important." I was like "Tell me more", because I just had a fuzzy idea of what memory locality was... But he went on to talk about how memory locality is way better than when Java invented it like 20-25 years ago.
 
@@ -278,7 +278,7 @@ So just hearing about that helped me really \[unintelligible 00:43:49.21\] and u
 
 **Carmen Andoh:** Well, I'm noping out of that one... \[laughs\]
 
-**Erik St. Martin:** Yeah, that's a little far. And speaking of visualization, a lot of people learn better by kind of seeing things visualized out, rather than kind of reading words and trying to come up with our own mental visualization of it... And a really cool one from two years ago at GopherCon - Ivan Danyliuk did one on visualizing concurrency in Go.
+**Erik St. Martin:** Yeah, that's a little far. And speaking of visualization, a lot of people learn better by kind of seeing things visualized out, rather than kind of reading words and trying to come up with our own mental visualization of it... And a really cool one from two years ago at GopherCon - Ivan Danyliuk did one on [visualizing concurrency in Go](https://www.youtube.com/watch?v=KyuFeiG3Y60).
 
 **Brian Ketelsen:** Oh, yes...!
 
@@ -290,7 +290,7 @@ So just hearing about that helped me really \[unintelligible 00:43:49.21\] and u
 
 **Brian Ketelsen:** It's out on YouTube. If you haven't seen it yet, it is well worth the time to watch that. It was so cool, watching the goroutines fly across the screen with visualizations, it was amazing. Oh look, somebody just dropped a link in Slack. Good job, Erik!
 
-**Carmen Andoh:** Right on. Yeah, it helped me understand fan-out/fan-in worker patterns, and all the other \[unintelligible 00:47:21.08\] patterns for concurrency. That was like "Oh, so that's what that is...!" It was amazing.
+**Carmen Andoh:** Right on. Yeah, it helped me understand fan-out/fan-in worker patterns, and all the other well versed patterns for concurrency. That was like "Oh, so that's what that is...!" It was amazing.
 
 **Brian Ketelsen:** "Oh, that...!" Well, this is just the best conversation ever, but the clock is ticking, so we should probably move on to Go projects and news, unless there's something anybody else wants to get in real quick...?
 
@@ -312,7 +312,7 @@ So just hearing about that helped me really \[unintelligible 00:43:49.21\] and u
 
 **Brian Ketelsen:** Fire them up, let's see.
 
-**Erik St. Martin:** So the first one is from the Google Cloud platform on GitHub, and it's called Skaffold. It looks like a way to be able to build and deploy your applications that you're developing locally... I haven't dug too far deep into it, but it looks like it might be akin to Draft.
+**Erik St. Martin:** So the first one is from the Google Cloud platform on GitHub, and it's called [Skaffold](https://github.com/GoogleCloudPlatform/skaffold). It looks like a way to be able to build and deploy your applications that you're developing locally... I haven't dug too far deep into it, but it looks like it might be akin to [Draft](https://draft.sh/).
 
 **Brian Ketelsen:** That was the impression I got. It was Draft without a server-side component, without a cluster side piece...
 
@@ -326,19 +326,19 @@ So just hearing about that helped me really \[unintelligible 00:43:49.21\] and u
 
 **Carlisia Pinto:** That was really cool.
 
-**Carmen Andoh:** \[laughs\] Oh my god, \[unintelligible 00:49:41.21\]
+**Carmen Andoh:** \[laughs\] Oh my god, there's so much echo right now...
 
-**Erik St. Martin:** So as we know, I love security stuff, and I've found two cool projects from the security standpoint, and I think it's really awesome to see the infosec community adopting Go a lot more, too. One is called Amass (github.com/caffix/amass). It's for doing subdomain enumeration, to be able to kind of brute force subdomains, and it's supposed to have a little bit of machine learning to guess, and it goes out to multiple public DNS servers, so that all the DNS queries aren't coming from a single IP address.
+**Erik St. Martin:** So as we know, I love security stuff, and I've found two cool projects from the security standpoint, and I think it's really awesome to see the infosec community adopting Go a lot more, too. One is called [Amass](https://github.com/caffix/amass). It's for doing subdomain enumeration, to be able to kind of brute force subdomains, and it's supposed to have a little bit of machine learning to guess, and it goes out to multiple public DNS servers, so that all the DNS queries aren't coming from a single IP address.
 
-The other one I found is one called Bettercap (github.com/bettercap/bettercap). This looks like a -- they call it a Swiss army knife library, but it's a lot of networking stuff, so you can kind of... You can snoop Bluetooth low energy packets and Wi-Fi beacon frames, and do different types of stuff: arp.spoofing, dns.spoofing, all that good stuff... And it looks pretty slick.
+The other one I found is one called [Bettercap](https://github.com/bettercap/bettercap). This looks like a -- they call it a Swiss army knife library, but it's a lot of networking stuff, so you can kind of... You can snoop Bluetooth low energy packets and Wi-Fi beacon frames, and do different types of stuff: arp.spoofing, dns.spoofing, all that good stuff... And it looks pretty slick.
 
 **Brian Ketelsen:** I don't know, you've just said a bunch of things that made absolutely no sense to me, but yeah, you go with your bad self.
 
 **Erik St. Martin:** \[laughs\]
 
-**Brian Ketelsen:** Spoof this. So @jessfraz released Img, which has gotta be one of the coolest projects out there I've seen in a long time. It's a standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder... And that's a lot of buzzwords and hype all in one, but the important part is that it's unprivileged Docker builder, so you can build Docker containers without being root and without having a Docker daemon running as root... And if you translate that a little bit farther up the chain, it means you could have Docker builders running in your Kubernetes cluster, or somewhere else on the network for you, unprivileged, and that's just gonna be epic. That's gonna be really cool.
+**Brian Ketelsen:** Spoof this. So @jessfraz released [Img](https://github.com/genuinetools/img), which has gotta be one of the coolest projects out there I've seen in a long time. It's a standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder... And that's a lot of buzzwords and hype all in one, but the important part is that it's unprivileged Docker builder, so you can build Docker containers without being root and without having a Docker daemon running as root... And if you translate that a little bit farther up the chain, it means you could have Docker builders running in your Kubernetes cluster, or somewhere else on the network for you, unprivileged, and that's just gonna be epic. That's gonna be really cool.
 
-**Erik St. Martin:** \[00:52:03.03\] Another cool project - the GitHub username is bcicen; I don't know whether that's pronounced a different way, but the project is called Grmon. It is a really cool way to visualize goroutines live. It shows you all your goroutines, the state that they're in, whether they're blocking in a select or receive, making syscalls, things like that.
+**Erik St. Martin:** \[00:52:03.03\] Another cool project - the GitHub username is bcicen; I don't know whether that's pronounced a different way, but the project is called [Grmon](https://github.com/bcicen/grmon). It is a really cool way to visualize goroutines live. It shows you all your goroutines, the state that they're in, whether they're blocking in a select or receive, making syscalls, things like that.
 
 **Brian Ketelsen:** Shut up, that's awesome! Look at the picture!
 
@@ -350,7 +350,7 @@ The other one I found is one called Bettercap (github.com/bettercap/bettercap). 
 
 **Brian Ketelsen:** Wow... I'm impressed. That is super cool. Big, fat GitHub star on that. Nice one.
 
-**Erik St. Martin:** Another new project from Peter Bourgon is CASPaxos. It's still kind of in its early phases, but he seems to be trying to implement that replicated state machine whitepaper, and it's supposed to not have leadership election, and things like that.
+**Erik St. Martin:** Another new project from Peter Bourgon is [CASPaxos](https://github.com/peterbourgon/caspaxos). It's still kind of in its early phases, but he seems to be trying to implement that replicated state machine whitepaper, and it's supposed to not have leadership election, and things like that.
 
 **Brian Ketelsen:** And no logs; no log replication with that either, right?
 
@@ -402,7 +402,7 @@ The other one I found is one called Bettercap (github.com/bettercap/bettercap). 
 
 **Brian Ketelsen:** We've got a lot of people.
 
-**Carmen Andoh:** \[unintelligible 00:57:06.21\] kind of thing, yeah.
+**Carmen Andoh:** The same kind of thing, yeah.
 
 **Erik St. Martin:** Yeah, and they do the same thing if they submitted a proposal. They just don't review their own.
 

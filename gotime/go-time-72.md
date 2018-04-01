@@ -26,7 +26,7 @@ I was in India last week and I was just talking to Sean Kelly - everybody knows 
 
 \[00:08:23.06\] My biggest fear as a teacher is not being accurate. This is what I’ve really worked hard over the last three or four years... It’s trying to make sure that everything that I’m saying is accurate and I’m not misleading someone.
 
-**Carlisia Pinto:** Absolutely. You can teach something and then you can teach it properly -- it makes all the difference. But, yeah, we’re counting on our fingers here the number of teachers, and I wonder \[unintelligible 00:08:51\] we’re just missing that ability to capacitate teachers. But in any case, let’s move on to talking about what does it mean for you to teach, and let’s dig into those details.
+**Carlisia Pinto:** Absolutely. You can teach something and then you can teach it properly -- it makes all the difference. But, yeah, we’re counting on our fingers here the number of teachers, and I wonder if there is not a market or we’re just missing that ability to capacitate teachers. But in any case, let’s move on to talking about what does it mean for you to teach, and let’s dig into those details.
 
 **Bill Kennedy:** I feel like I’ve been teaching my whole life, whether it was tech or other things. I guess I have to say I have a passion for being up there and helping people grow in their careers and in their life. I’ve been blessed with so much and to be able to give that back is amazing, and then to be able to make a living off of it is even crazier, which is also why I try to do as many free events as I can. But I just think if we’re going to have a better Go community, we’ve got to have people out there that are willing to give their time and effort to make everybody better.
 
@@ -138,7 +138,7 @@ So let’s focus on integrity, readability, and simplicity first. Let’s do tho
 
 **Carlisia Pinto:** So is this something that you’re saying "Avoid cleverness, write readable, try to learn the idioms, and by default, by magic, your code will be efficient."
 
-**Bill Kennedy:** Not by magic, but just by Go’s understanding of how everything works. The code is going to \[unintelligible 00:39:17.10\]
+**Bill Kennedy:** Not by magic, but just by Go’s understanding of how everything works. The code is going to be this incredibly sympathetic...
 
 **Carlisia Pinto:** I am joking.
 
@@ -194,7 +194,7 @@ But when I’m on the stage or I’m in the classroom, I feel a personal respons
 
 Where was I? I was in a training, I think at the beginning of the year - I’m not going to say where - and the group was just dead. It was a three-day training, and I was exhausted by the end of day one, and even more exhausted at the end of day two, because there’s no energy coming back at me. Halfway through day three I finally just stopped, because I couldn’t do it anymore. I just said to the group, I said, “You guys are killing me. You’re just like straight up, nothing’s coming out of you guys... I don’t understand what’s going on.” And they all just kind of turned around at me at the break and they’re like, “Bill, this is the best training we’ve ever had” \[laughs\] and I want to just strangle them. I’m like, “Guys, you could have been telling me this. I could feed on that energy.”
 
-I think energy from people is so important, and so if I’m on that stage and I’m getting animated or I start animating more in the classroom, it's because I’m trying to \[unintelligible 00:49:55.27\] just said, I’m trying to be a vampire and take the energy out of the room. So I think for the most part, that’s how I do it. Now, I won’t lie, having a couple of espressos during the day can really help too, but I need that energy from people or I will be as exhausted as you can imagine.
+I think energy from people is so important, and so if I’m on that stage and I’m getting animated or I start animating more in the classroom, it's because I’m trying to, as [Florin](https://gophers.slack.com/archives/C0F1752BB/p1521144310000137) just said, I’m trying to be a vampire and take the energy out of the room. So I think for the most part, that’s how I do it. Now, I won’t lie, having a couple of espressos during the day can really help too, but I need that energy from people or I will be as exhausted as you can imagine.
 
 **Carlisia Pinto:** Yeah, I guess it’s the espresso. I should drink more espresso. \[laughter\]
 
@@ -240,7 +240,7 @@ You've gotta look at it because it was mind-blowing what he was showing me, and 
 
 **Carlisia Pinto:** Okay. So what is this thing about automation that I have here on the notes?
 
-**Bill Kennedy:** So I’m in India, I’m watching the talk, and I have no idea how to pronounce this name, Carlisia - Niranjan Paranjape… I’m completely destroying it, so I apologize… He puts up a slide that says, “If boring, repetitive things aren’t automated, a manager gets hired.” I see this slide and I’m laughing, and I take a picture of it and I send it out in a tweet. Well, since I sent that tweet out, I’ve had a little over 123,000 impressions on this tweet, with like 8,000 people engaging on it. I’ve never had a Tweet that’s had this much activity.
+**Bill Kennedy:** So I’m in India, I’m watching the talk, and I have no idea how to pronounce this name, Carlisia - Niranjan Paranjape… I’m completely destroying it, so I apologize… He puts up a slide that says, “[If boring, repetitive things aren’t automated, a manager gets hired](https://twitter.com/goinggodotnet/status/971968883866267648).” I see this slide and I’m laughing, and I take a picture of it and I send it out in a tweet. Well, since I sent that tweet out, I’ve had a little over 123,000 impressions on this tweet, with like 8,000 people engaging on it. I’ve never had a Tweet that’s had this much activity.
 
 \[00:55:57.24\] This idea has resonated with so many people that I just found it super interesting. People had some really interesting perspectives on the tweet as well, but it’s kind of interesting, right? We don’t automate things, so then you need to hire a manager to deal with all of the people that you need to hire. It’s fascinating.
 

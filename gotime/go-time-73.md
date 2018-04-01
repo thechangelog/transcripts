@@ -108,7 +108,7 @@ So I think it was definitely a bigger thing then to start chewing on (or whateve
 
 **Brian Ketelsen:** That's really nice.
 
-**Carlisia Pinto:** So I don't wanna make the whole show about what I'm going to ask next, but you seem to have strong opinions about a NoSQL database... Do you wanna say something real quick about what sort of pitfalls people are getting into by using that, as opposed to just going with a relational database?
+**Carlisia Pinto:** So I don't wanna make the whole show about what I'm going to ask next, but you seem to have strong opinions about a NoSQL database... Do you wanna say something real quick about what sort of pitfalls people are getting into by using that, as opposed to just going with a relational database? 
 
 **Andrei Matei:** Well, that is a holy word; I want to get into it. \[laughs\]
 
@@ -116,7 +116,7 @@ So I think it was definitely a bigger thing then to start chewing on (or whateve
 
 **Andrei Matei:** \[00:24:35.24\] Yeah. Well, I do have opinions on the topic; they're generally favorable to the relational databases... The thing about a NoSQL database as far as I -- probably I should preface this by saying that I'm not the most experienced guy in the world with NoSQL databases; I haven't used that many of them. But the problem when you talk about them, in my opinion, is that they're not all the same, so it gets pretty tricky to bucket them all into one category. When I talk about the pitfalls, probably different people who work on a different NoSQL database will say "Well, that one doesn't apply to us" or "That one is more nuanced with us..." Because as I was saying earlier, some of the NoSQL databases I think are generally evolving into -- they are incorporating features that were traditionally a part of relational databases.
 
-Some of the big ones are support for general transactions - this idea that you can atomically change a bunch of stuff and do a bunch of \[unintelligible 00:25:45.18\] on your database, and then you decide to commit or to roll back that transaction as an atomic unit, and this unit of work is isolated from other transactions, meaning you cannot see dirty data, you cannot see something that somebody else did, but didn't commit yet; you cannot observe partial work done by somebody else.
+Some of the big ones are support for general transactions - this idea that you can atomically change a bunch of stuff and do a bunch of freezes on your database, and then you decide to commit or to roll back that transaction as an atomic unit, and this unit of work is isolated from other transactions, meaning you cannot see dirty data, you cannot see something that somebody else did, but didn't commit yet; you cannot observe partial work done by somebody else.
 
 This is an extremely powerful concept, and you only discover how powerful it is when you try to use a system that doesn't have it, and then you try to pile on code in your application that tries to supplement for the lack of transaction support, and then chances are it's gonna be insufficient, or you're most likely going to get it wrong.
 
@@ -220,7 +220,7 @@ Other languages have things like a thread local storage, which Go has resisted s
 
 **Carlisia Pinto:** I mainly had a cold this week... \[laughter\] I was barely keeping up.
 
-**Brian Ketelsen:** I found one that got me quite a bit excited... GitHub.com/go-saloon/saloon is a forum software written in Go, and previously I've seen two or three other forum applications written in Go that were very unfinished and unpolished. Saloon is still relatively early, but it's fast and clean and pretty, and looked really nice to me, so I'm looking forward to playing with Go Saloon a little bit.
+**Brian Ketelsen:** I found one that got me quite a bit excited... [Saloon](https://github.com/go-saloon/saloon) is a forum software written in Go, and previously I've seen two or three other forum applications written in Go that were very unfinished and unpolished. Saloon is still relatively early, but it's fast and clean and pretty, and looked really nice to me, so I'm looking forward to playing with Go Saloon a little bit.
 
 **Andrei Matei:** I just opened the GitHub page and I see that it can connect to a Postgres database, so maybe it will just work with Cockroach.
 
@@ -229,7 +229,7 @@ Other languages have things like a thread local storage, which Go has resisted s
 **Carlisia Pinto:** There you go.
 
 **Brian Ketelsen:** I love that. Why don't we move on to \#FreeSoftwareFriday? Andrei, if you're not familiar with this little segment, it's where we wanna give a shout-out to either people or projects that help us; they don't have to be Go-related, they can be any person, any project in the open source world that you wanna say thank you to. We do that just because it's really nice to hear your project and feel appreciated when you spend so much time on an open source project.
-I can go ahead and get started with that one... I used a project called GitPitch to present my two talks in Russia this weekend, and I really loved it. It's yet another Javascript presentation PowerPoint replacement thing, but it's particularly nice because on the presentation itself, the people watching the slides can download a zip, they can download a PDF, all without leaving their browser.
+I can go ahead and get started with that one... I used a project called [GitPitch](https://github.com/gitpitch/gitpitch) to present my two talks in Russia this weekend, and I really loved it. It's yet another Javascript presentation PowerPoint replacement thing, but it's particularly nice because on the presentation itself, the people watching the slides can download a zip, they can download a PDF, all without leaving their browser.
 
 \[00:56:15.01\] The workflow is a little bit awkward, but I guess they're working to fix it, make it a little bit easier doing the building of the presentation part.
 
@@ -253,7 +253,7 @@ But it's nice, you can just go to GitPitch.com and then paste in the URL of any 
 
 **Brian Ketelsen:** Absolutely. Andrei, did you have any projects or teams that you wanted to shout out to?
 
-**Andrei Matei:** \[00:59:50.02\] Yeah, I thought of a few... It's funny, you shared this doc with me before the recording, and then there was a suggestion from Erik to praise RocksDB, but he's not here, right? But I think if I'm permitted, I would take that over. RocksDB is a great open source project. Do you guys wanna talk about that for a second?
+**Andrei Matei:** \[00:59:50.02\] Yeah, I thought of a few... It's funny, you shared this doc with me before the recording, and then there was a suggestion from Erik to praise RocksDB, but he's not here, right? But I think if I'm permitted, I would take that over. [RocksDB](https://github.com/facebook/rocksdb) is a great open source project. Do you guys wanna talk about that for a second?
 
 **Brian Ketelsen:** Absolutely.
 
@@ -269,9 +269,9 @@ But it's nice, you can just go to GitPitch.com and then paste in the URL of any 
 
 **Andrei Matei:** Maybe currently there's also another company that's taking a role in it... I'm not completely sure, but it's a non-distributed, single-machine KV store, high performance; it's C++ code. We like it very much, it's very featureful and with a great team behind it.
 
-**Brian Ketelsen:** If I remember, Rocks is a fork of LevelDB that fixed a lot of things to make it more convenient for SSD's, but I could be wrong on that part.
+**Brian Ketelsen:** If I remember, Rocks is a fork of LevelDB] that fixed a lot of things to make it more convenient for SSD's, but I could be wrong on that part.
 
-**Andrei Matei:** I think you're right, I think that's how it started. I think it is a fork of Google's LevelDB, which is code from back in the day. I think it was Jeff Dean that had a hand in it. It's also used by Chrome, I think, pretty extensively. RocksDB started off as adapting that to behave better on SSD's. At its core, it's a merge tree for people that like storage systems.
+**Andrei Matei:** I think you're right, I think that's how it started. I think it is a fork of Google's [LevelDB](https://github.com/google/leveldb), which is code from back in the day. I think it was Jeff Dean that had a hand in it. It's also used by Chrome, I think, pretty extensively. RocksDB started off as adapting that to behave better on SSD's. At its core, it's a merge tree for people that like storage systems.
 
 **Brian Ketelsen:** Alright, so we've covered \#FreeSoftwareFriday... I think it's time for us to wrap up the show unless anybody has any final things they wanna add.
 
