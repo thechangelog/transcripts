@@ -121,9 +121,9 @@ So we started a black women channel, and we couldn't get everyone -- there's so 
 
 **Carmen Andoh:** Right on! Thanks for that plug, Brian.
 
-**Brian Ketelsen:** Hey, I'm here. All day long. So how about the Go Developer Survey? The survey just came out, and lots of interesting news in there... Was there something that jumped out at you for the developer survey that you thought was unique, or more interesting, or maybe year over year, specifically?
+**Brian Ketelsen:** Hey, I'm here. All day long. So how about the [Go Developer Survey](https://blog.golang.org/survey2017-results)? The survey just came out, and lots of interesting news in there... Was there something that jumped out at you for the developer survey that you thought was unique, or more interesting, or maybe year over year, specifically?
 
-**Carmen Andoh:** \[00:20:06.09\] Yeah, so the one thing that I always kind of latch onto is this inclusion question. And I think about inclusivity because I have been a person who has maybe internalized that maybe I don't belong. It's really more relevant to people who maybe don't feel like they belong, whether that is true or only perceived... But one of the things I noticed in the Go -- so I was asked by a part of the Go team, because I'm one of the Working Group thorough Golang... "Hey, can you take a look at the survey and see if there's anything we should modify for the upcoming year?" So I looked at it, and everything looked okay. I didn't at the time see anything that I would change about it.
+**Carmen Andoh:** \[00:20:06.09\] Yeah, so the one thing that I always kind of latch onto is this inclusion question. And I think about inclusivity because I have been a person who has maybe internalized that maybe I don't belong. It's really more relevant to people who maybe don't feel like they belong, whether that is true or only perceived... But one of the things I noticed in the Go -- so I was asked by a part of the Go team, because I'm one of the Working Group through Golang... "Hey, can you take a look at the survey and see if there's anything we should modify for the upcoming year?" So I looked at it, and everything looked okay. I didn't at the time see anything that I would change about it.
 But when the survey results came out, I kind of took a closer look at the inclusivity question and I was like "Oh, these are interestingly-worded things... Maybe we could discuss and see if we could reword some of the questions."
 
 I'll give you a little back-story... My son was diagnosed with autism when he was two, and I've talked about this at my GothamGo keynote, but one of the things that I did to try to understand that was to get a masters in it... And my masters did a lot of work with survey design and analysis. So one of the things that's in surveys is designer bias, whether we like it or not. The perspective of inclusivity in a survey design is by definition you have to decide what is default and what is not default, and why you would identify as an under-represented group, because that was the nature of the question, right?
@@ -226,7 +226,7 @@ And our worker agent, which is the largest codebase at Travis, if you will, or t
 
 **Carmen Andoh:** That's called Anka and Veertu. We'll see where that goes, and we're gonna play around with it and see if that's something that would be viable, and then we could put it on Kubernetes and have one back-end to rule them all.
 
-**Brian Ketelsen:** I've used Veertu back when -- it was probably a little over a year and a half ago... Veertu was a paid app on the Mac App Store, and then they pulled it and made it open source and kind of abandoned it, and moved over to Anka, which is their commercial version of it. But yeah, Veertu was a really good emulator, based on the bhyve port of Xhyve in BSD, which does virtualization at the KVM level.
+**Brian Ketelsen:** I've used Veertu back when -- it was probably a little over a year and a half ago... Veertu was a paid app on the Mac App Store, and then they pulled it and made it open source and kind of abandoned it, and moved over to [Anka](https://ankadoc.bitbucket.io/), which is their commercial version of it. But yeah, Veertu was a really good emulator, based on the bhyve port of Xhyve in BSD, which does virtualization at the KVM level.
 
 **Carmen Andoh:** Right... Okay. So the same developers I think decided to kind of expand that and make that more enterprisy.
 
@@ -318,7 +318,7 @@ So just hearing about that helped me really \[unintelligible 00:43:49.21\] and u
 
 **Erik St. Martin:** And if anybody has actually had a chance to play with this, I'd love to talk to them, because I don't know whether I'll have time to set it up and play with it, but I'd love to hear feedback from anybody who has.
 
-**Brian Ketelsen:** Yeah, +1 on that. So my big find of the week - oh, my gosh, I'm such a geek... Slack-Term, at github.com/erroneousboat/slack-term. So awesome being in Slack, in the terminal... Very nice. Much less memory used than the Electron client.
+**Brian Ketelsen:** Yeah, +1 on that. So my big find of the week - oh, my gosh, I'm such a geek... [Slack-Term](https://github.com/erroneousboat/slack-term). So awesome being in Slack, in the terminal... Very nice. Much less memory used than the Electron client.
 
 **Carmen Andoh:** Oh, I'm hearing infinite echoes.
 
