@@ -6,7 +6,7 @@
 
 **Brian Ketelsen:** Hello!
 
-**Erik St. Martin:** And his knitting...
+**Erik St. Martin:** And he's knitting...
 
 **Brian Ketelsen:** Hey...!
 
@@ -32,7 +32,7 @@
 
 **Brian Ketelsen:** Okay.
 
-**Leonid Kalneus:** Yeah. After that I started to work on different technical communities in Novosibirsk, so now I lead the Google developer group there, and we have several series of technical meetups - we have meetups about Golang, we have meetups about Android, we have meetups about dev ops, and so on. Also, we have one big conference there called DevFest Siberia. We started to organize this conference probably two years ago. We even had Dave Cheney last year... In Siberia, can you imagine that? \[laughter\]
+**Leonid Kalneus:** Yeah. After that I started to work on different technical communities in Novosibirsk, so now I lead the Google developer group there, and we have several series of technical meetups - we have meetups about Golang, we have meetups about Android, we have meetups about dev ops, and so on. Also, we have one big conference there called [DevFest Siberia](https://gdg-siberia.com/). We started to organize this conference probably two years ago. We even had [Dave Cheney](https://twitter.com/davecheney) last year... In Siberia, can you imagine that? \[laughter\]
 
 **Carlisia Pinto:** I can't imagine anybody in Siberia... It's so far and so cold.
 
@@ -76,7 +76,7 @@
 
 **Brian Ketelsen:** Good.
 
-**Leonid Kalneus:** Yeah. Also, in Novosibirsk we have a lot of research institutes - more than 30, I think - and all of them are located in a special place called Akademgorodok. It's a very scientific place.
+**Leonid Kalneus:** Yeah. Also, in Novosibirsk we have a lot of research institutes - more than 30, I think - and all of them are located in a special place called [Akademgorodok](https://en.wikipedia.org/wiki/Akademgorodok). It's a very scientific place.
 
 **Brian Ketelsen:** It sounds very awesome, it sounds like a technical center of awesomeness.
 
@@ -100,7 +100,7 @@
 
 **Carlisia Pinto:** Oh, that's cool.
 
-**Leonid Kalneus:** Also, we have our own Russian-speaking podcast called Golang Show... And we will be happy to record an episode with Brian, in Moscow.
+**Leonid Kalneus:** Also, we have our own Russian-speaking podcast called [Golang Show](http://golangshow.com/)... And we will be happy to record an episode with Brian, in Moscow.
 
 **Brian Ketelsen:** Yay!
 
@@ -136,7 +136,7 @@
 
 **Brian Ketelsen:** Old people like me -- I don't know what that is. I'm still trying to figure out Snapstagram. \[laughter\] That's what I call it, just to make my daughter mad. "Are you playing on Snapstagram again?" "Shut up, dad..." \[laughter\]
 
-**Leonid Kalneus:** By the way, we tried to organize GopherCon Russia last year, but we weren't good enough, so it's our second try.
+**Leonid Kalneus:** By the way, we tried to organize [GopherCon Russia](https://www.gophercon-russia.ru/) last year, but we weren't good enough, so it's our second try.
 
 **Brian Ketelsen:** Well, it's gonna be awesome this year.
 
@@ -190,7 +190,7 @@
 
 **Brian Ketelsen:** Oh, nice.
 
-**Leonid Kalneus:** We can organize a local meetup if you want. So the venue will be in Moscow, it's called Technopolis. It's quite a big, huge, comfortable conference hall. Nothing very special, but it's quite a nice place. I guess I was there for one conference before, and I like it.
+**Leonid Kalneus:** We can organize a local meetup if you want. So the venue will be in Moscow, it's called [Technopolis](https://en.wikipedia.org/wiki/Technopolis_Moscow). It's quite a big, huge, comfortable conference hall. Nothing very special, but it's quite a nice place. I guess I was there for one conference before, and I like it.
 
 **Brian Ketelsen:** Any place is special if it's full of gophers. That makes it special.
 
@@ -254,21 +254,21 @@
 
 **Leonid Kalneus:** Yeah, definitely.
 
-**Brian Ketelsen:** So what sort of big companies outside of Yandex use Go in Russia?
+**Brian Ketelsen:** So what sort of big companies outside of [Yandex](https://en.wikipedia.org/wiki/Yandex) use Go in Russia?
 
-**Leonid Kalneus:** For sure, one of the biggest is \[unintelligible 00:15:26.12\] Do you know the social network VKontakte (VK)? It's like the Russia Facebook. They use Go in some of their backend services. And actually, there are a lot of smaller companies that use Go in their production also. I can mention AVITO. It's like a Russian eBay, but a bit smaller than eBay, for sure. They also use Go in their backend services. That's the most well-known, I think. And not Russian, but Russian-speaking - the guys from Gett, from Minsk... Do you know a company called Juno? It's like Gett in New York -- it's not like, it's Gett in New York. So yeah, they have a lot of stuff in Go.
+**Leonid Kalneus:** For sure, one of the biggest is [MailRu Group](https://en.wikipedia.org/wiki/Mail.Ru). Do you know the social network [VKontakte (VK)](https://en.wikipedia.org/wiki/VKontakte)? It's like the Russia Facebook. They use Go in some of their backend services. And actually, there are a lot of smaller companies that use Go in their production also. I can mention [Avito](https://en.wikipedia.org/wiki/Avito.ru). It's like a Russian eBay, but a bit smaller than eBay, for sure. They also use Go in their backend services. That's the most well-known, I think. And not Russian, but Russian-speaking - the guys from Gett, from Minsk... Do you know a company called [Juno](https://gett.com/juno/)? It's like Gett in New York -- it's not like, it's Gett in New York. So yeah, they have a lot of stuff in Go.
 
 **Brian Ketelsen:** \[00:16:36.04\] Nice.
 
 **Leonid Kalneus:** Yeah, they're very nice folks.
 
-**Carlisia Pinto:** I just went to the Golang wiki page, and there is a page called Go users that lists companies from around the world, and it's divided up by continent and then countries, and there are only two companies under Russia, so that definitely needs to be updated. What's there right now is ITooLabs and PostmanQ.
+**Carlisia Pinto:** I just went to the Golang wiki page, and there is a page called [Go users](https://github.com/golang/go/wiki/GoUsers) that lists companies from around the world, and it's divided up by continent and then countries, and there are only two companies under Russia, so that definitely needs to be updated. What's there right now is ITooLabs and PostmanQ.
 
 **Leonid Kalneus:** Yeah. By the way, ITooLabs - we have a speaker from there. Yeah, I think we should update this list.
 
 **Brian Ketelsen:** Nice. So are there any talks that you're particularly excited about for GopherCon Russia? Any talks that look amazing? I know you can't pick any favorites, but there's gotta be something that you're excited to watch.
 
-**Leonid Kalneus:** Personally, I'm very excited to meet Dmitry Vyukov in person, and to listen to his talk.
+**Leonid Kalneus:** Personally, I'm very excited to meet [Dmitry Vyukov](https://twitter.com/dvyukov) in person, and to listen to his talk.
 
 **Brian Ketelsen:** He's my hero.
 
@@ -354,7 +354,7 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Brian Ketelsen:** But Leo told us before the show that he was doing all the work, and that they weren't doing any... \[laughter\] So I hope he doesn't get in any trouble. I'm just teasing...
 
-**Leonid Kalneus:** Yeah. By the way, we have one cool speaker I would like to highlight... It's Elena Grahovac. She's originally from Siberia, from Novosibirsk, and she also did great work for our community. She was leading a workshop for several months, about Go programming languages, there, on behalf of WTM group. It was very cool.
+**Leonid Kalneus:** Yeah. By the way, we have one cool speaker I would like to highlight... It's [Elena Grahovac](https://twitter.com/webdeva). She's originally from Siberia, from Novosibirsk, and she also did great work for our community. She was leading a workshop for several months, about Go programming languages, there, on behalf of WTM group. It was very cool.
 
 **Brian Ketelsen:** That's awesome. That name sounds really familiar, too.
 
@@ -372,13 +372,13 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Brian Ketelsen:** So what kind of projects in Go are you most excited about, Leo?
 
-**Leonid Kalneus:** Well, personally I'm really excited about Gobot at GoCD stuff.
+**Leonid Kalneus:** Well, personally I'm really excited about [Gobot](https://gobot.io/) and [GoCD](https://www.gocd.org/) stuff.
 
 **Brian Ketelsen:** Nice...
 
 **Leonid Kalneus:** But you know, right now I don't write a lot in Go. I do some automation in Go or in Python from time to time... That's probably why I'm so excited about these projects, because I'm trying to do some projects with it, with some hardware I have at home. It's more a hobby.
 
-**Brian Ketelsen:** I think that's a universal thing. Everybody who does Go in any way has tried Gobot in some way or another. It's one of the most fun projects out there. We love Ron so much.
+**Brian Ketelsen:** I think that's a universal thing. Everybody who does Go in any way has tried Gobot in some way or another. It's one of the most fun projects out there. We love [Ron](https://twitter.com/deadprogram) so much.
 
 **Leonid Kalneus:** Yeah. It's quite nice, quite handy stuff.
 
@@ -400,7 +400,7 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Leonid Kalneus:** It's still available, yeah.
 
-**Erik St. Martin:** And the site for that, for anybody who's interested, is GopherCon-Russia...?
+**Erik St. Martin:** And the site for that, for anybody who's interested, is [GopherCon-Russia](https://www.gophercon-russia.ru/)...?
 
 **Leonid Kalneus:** Yup.
 
@@ -450,7 +450,7 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Erik St. Martin:** Alright. I'll mention one thing quickly before moving on to the ones that can take much longer. Last week's episode we talked about Vgo, and there's been I think two more posts in that series; we talked about them coming out - they are out, so if you haven't read the additional posts in that series by Russ Cox, we'll link to them in the show notes.
 
-The second item to talk about - it was 2-3 days ago, the results for the 2017 Go survey came out, which was really interesting.
+The second item to talk about - it was 2-3 days ago, the results for the [2017 Go survey](https://blog.golang.org/survey2017-results) came out, which was really interesting.
 
 **Brian Ketelsen:** What was interesting about it? I haven't read it yet.
 
@@ -594,7 +594,7 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Brian Ketelsen:** Sure, you can have a penny out of every dollar.
 
-**Erik St. Martin:** I'll take it. Alright, so next on interesting projects and news - I haven't been trolling GitHub too much the past week or so, but... I can't remember, I think we mentioned the Pwned Passwords list and service, but Matt Evans has created a Go library for querying the pwned passwords list to see if a password has been compromised in a prior data leak.
+**Erik St. Martin:** I'll take it. Alright, so next on interesting projects and news - I haven't been trolling GitHub too much the past week or so, but... I can't remember, I think we mentioned the [Pwned Passwords list and service](https://haveibeenpwned.com/Passwords), but Matt Evans has created a [Go library for querying the pwned passwords list](https://github.com/mattevans/pwned-passwords) to see if a password has been compromised in a prior data leak.
 
 **Brian Ketelsen:** That's excellent... Which reminds me of the dating app that lets you enter your password to find other people that have the same password for dating... Which makes so much sense! \[laughter\]
 
@@ -664,13 +664,13 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Leonid Kalneus:** Well, maybe not today... Sorry, guys.
 
-**Erik St. Martin:** Okay. So I do have one this week - source{d}, they have a go-git library, which is an implementation of Git completely in Go, and for a project that we are working on at work I'm doing some Git stuff, and I've been playing along with that as a library, rather than shelling out to the Git command itself. It's making things a lot cleaner and more fun.
+**Erik St. Martin:** Okay. So I do have one this week - source{d}, they have a [go-git](https://github.com/src-d/go-git) library, which is an implementation of Git completely in Go, and for a project that we are working on at work I'm doing some Git stuff, and I've been playing along with that as a library, rather than shelling out to the Git command itself. It's making things a lot cleaner and more fun.
 
 **Brian Ketelsen:** That's really nice.
 
 **Carlisia Pinto:** That's interesting.
 
-**Brian Ketelsen:** Source{d}, that's where Francesc Campoy went, right?
+**Brian Ketelsen:** [Source{d}](https://sourced.tech/), that's where [Francesc Campoy](https://twitter.com/francesc) went, right?
 
 **Erik St. Martin:** Yes.
 
