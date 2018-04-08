@@ -34,9 +34,9 @@
 
 **Brian Ketelsen:** I had a slide in my training deck that said "Use the source, Luke", and it absolutely agreed with that, because the standard library is idiomatic Go, for the most part, and reading through the standard library is the best way to see how to write really good Go code.
 
-**Carlisia Pinto:** I used to obsess with trying to find the idiomatic way to write Go code when I started learning Go, and I never really found a specific resource that said "This is the idiomatic way to write Go code." Actually, there is a website that tends to do that. It was done by someone at Sourcegraph, and I need to find the link; I actually tried to find the link the other day. I don't have it. If I find it, I'll put it on the show notes. But there isn't much really to it, and the best way that I learned was by having code reviews done by co-workers... But of course, not everybody is in that position. Other than that, it really is just compare your code to what's out there.
+**Carlisia Pinto:** I used to obsess with trying to find the idiomatic way to write Go code when I started learning Go, and I never really found a specific resource that said "This is the idiomatic way to write Go code." Actually, there is a website that tends to do that. It was done by someone at Sourcegraph, and I need to find the [link](https://about.sourcegraph.com/go/idiomatic-go/); I actually tried to find the link the other day. I don't have it. If I find it, I'll put it on the show notes. But there isn't much really to it, and the best way that I learned was by having code reviews done by co-workers... But of course, not everybody is in that position. Other than that, it really is just compare your code to what's out there.
 
-**Brian Ketelsen:** \[00:04:18.00\] Yeah, there's a channel in our Slack called Go Reviews, and if you don't have co-workers who are strong in Go, you can always come into that Go Reviews channel and there are lots of people who are very willing to give you some good advice, and they're friendly about it, too.
+**Brian Ketelsen:** \[00:04:18.00\] Yeah, there's a channel in our Slack called Go [Reviews](https://gophers.slack.com/messages/reviews), and if you don't have co-workers who are strong in Go, you can always come into that Go Reviews channel and there are lots of people who are very willing to give you some good advice, and they're friendly about it, too.
 
 **Carlisia Pinto:** Yeah, that's a good point.
 
@@ -66,7 +66,7 @@ Now, I had the same problem in the Rails world, I was like "Oh, Rails is easy" u
 
 **Carlisia Pinto:** I don't know of any codebase that's public, but I would say take a look at the drivers out there, and see how they are accessing database using the standard library... If I understood the question correctly. I think the question is "I don't wanna use a third-party library, and just use the standard library..."
 
-**Brian Ketelsen:** Yeah, and then what are the ways to organize that. I just pasted the db.go file from the micro/user-srv library into our Slack. The thing that stands out here is that it uses a map, or a list of all of the queries that can be executed, so each query has a name and then a SQL statement, and then at the beginning in the init it parses those queries and prepares them. It runs the db.Prepare, so you don't have the two roundtrips to the server when you make a query. So everything is pre-prepared, which saves a lot of time during runtime. I don't know if it's any more or less elegant than any other solution I've seen, but I do like the idea of all of the queries being in a single map, so they're easy to find in the source code (they're not littered through functions) and I do very much like the idea of preparing them ahead of time, so that they're faster, because in case you aren't aware, when you write a query in Go using db SQL, I think at least MySQL (I'm not sure about the other drivers) they in the background will run a prepare on the query first, and then execute it. So it's two roundtrips to the server, even when you think you're making one. So preparing them in advance saves quite a bit of time.
+**Brian Ketelsen:** Yeah, and then what are the ways to organize that. I just pasted the [db.go](https://github.com/micro/user-srv/blob/master/db/db.go) file from the [micro/user-srv](https://github.com/micro/user-srv) library into our Slack. The thing that stands out here is that it uses a map, or a list of all of the queries that can be executed, so each query has a name and then a SQL statement, and then at the beginning in the init it parses those queries and prepares them. It runs the db.Prepare, so you don't have the two roundtrips to the server when you make a query. So everything is pre-prepared, which saves a lot of time during runtime. I don't know if it's any more or less elegant than any other solution I've seen, but I do like the idea of all of the queries being in a single map, so they're easy to find in the source code (they're not littered through functions) and I do very much like the idea of preparing them ahead of time, so that they're faster, because in case you aren't aware, when you write a query in Go using db SQL, I think at least MySQL (I'm not sure about the other drivers) they in the background will run a prepare on the query first, and then execute it. So it's two roundtrips to the server, even when you think you're making one. So preparing them in advance saves quite a bit of time.
 
 **Erik St. Martin:** Okay, next question. It looks like the next two are GopherCon-related maybe... Okay, so Chris Shore asks "As GopherCon organizers, have you ever considered a panel talk for how Go has helped people overcome obstacles in their organizations, or lives for that matter?" I don't know that we have ever considered a panel talk, but we definitely do look for CFP submissions that demonstrate this. I think it's always interesting to hear these types of stories.
 
@@ -76,7 +76,7 @@ Now, I had the same problem in the Rails world, I was like "Oh, Rails is easy" u
 
 **Brian Ketelsen:** Yeah.
 
-**Carlisia Pinto:** If what they want to do is just sort of get an idea, there is a really great talk from GopherCon 2015; I don't remember the name of the guy who gave the talk... I saw the talk and I remember the talk, it was the guy from -- oh my gosh, that company that Facebook bought... It's not \[unintelligible 00:13:16.17\] What's the name of the company? Help me.
+**Carlisia Pinto:** If what they want to do is just sort of get an idea, there is a really great talk from GopherCon 2015; I don't remember the name of the guy who gave the talk... I saw the talk and I remember the talk, it was the guy from -- oh my gosh, that company that Facebook bought... It's not Purge. What's the name of the company? Help me.
 
 **Erik St. Martin:** Periscope.
 
@@ -100,11 +100,11 @@ Now, I had the same problem in the Rails world, I was like "Oh, Rails is easy" u
 
 **Carlisia Pinto:** Okay, then that's it.
 
-**Erik St. Martin:** Yeah, there was somebody in 2015 that did a talk on rebuilding all of Parse in Go.
+**Erik St. Martin:** Yeah, there was somebody in 2015 that did a talk on [rebuilding all of Parse in Go](https://www.youtube.com/watch?v=_f9LS-OWfeA).
 
 **Carlisia Pinto:** Yes, exactly, that's it. Thank you.
 
-**Erik St. Martin:** Okay, next question. James Lovato asks "If I took my kindle to GopherCon and pulled up Go In Action, would you sign the display?" Yes.
+**Erik St. Martin:** Okay, next question. James Lovato asks "If I took my kindle to GopherCon and pulled up [Go In Action](https://www.manning.com/books/go-in-action), would you sign the display?" Yes.
 
 **Brian Ketelsen:** Yes.
 
@@ -136,7 +136,7 @@ Now, I had the same problem in the Rails world, I was like "Oh, Rails is easy" u
 
 **Brian Ketelsen:** Oh, this is a good one. Unexpected good thing... Microsoft isn't evil. Of course, I'd learned that before I joined, which is why I joined, but I think going into Microsoft, going on campus and seeing all of the people who were just extremely passionate about technology and helping others, it's not just a marketing pitch that Microsoft has changed; it's real, and it's top-down, and it's kind of awesome. There's just so many amazing, smart people that work there, and I look forward to doing it every day.
 
-Ashley is the best thing that's ever happened to Microsoft, how's that? There we go. She just jumped in on Slack and reminded us of that.
+[Ashley](https://twitter.com/ashleymcnamara) is the best thing that's ever happened to Microsoft, how's that? There we go. She just jumped in on Slack and reminded us of that.
 
 **Erik St. Martin:** And literally, he's not kidding. She says "Me, I'm the best thing that happened..."
 
@@ -166,7 +166,7 @@ Ashley is the best thing that's ever happened to Microsoft, how's that? There we
 
 **Carlisia Pinto:** That's a great question.
 
-**Erik St. Martin:** \[00:19:58.25\] Yeah, that is a very good question. I guess for me now might be -- it feels like a cloud-first language; a lot of the ecosystem in the cloud \[unintelligible 00:20:13.22\]
+**Erik St. Martin:** \[00:19:58.25\] Yeah, that is a very good question. I guess for me now might be -- it feels like a cloud-first language; a lot of the ecosystem in the cloud enters the systems world.
 
 **Brian Ketelsen:** What does that mean? What the hell does that mean? That's a cop-out. What is a cloud-first language? Answer it without the marketing buzz, come on.
 
@@ -198,9 +198,9 @@ I think if you have a small project, use whatever language you want, who cares..
 
 **Brian Ketelsen:** I do, too.
 
-**Carlisia Pinto:** In my opinion, it's -- so I'm assuming he's talking about people who are already in the community... Step up and take leadership of whatever effort you can relate with. It might be Women Who Go, it might be Go Bridge, or it might be the Go Working Group, or anything. Because this stuff has been going on, but people get burned out. Everybody who's doing this stuff, they're doing it on a volunteering basis, and you known, take the baton, basically. I can hardly think of anything that would have more impact in the adoption of Go than that, because that helps bring in people - bring in new people, bring people from diverse backgrounds (...or not, it doesn't matter). Teaching workshops, doing things like that; take the leadership of something, so people who are doing that can breathe and take a break.
+**Carlisia Pinto:** In my opinion, it's -- so I'm assuming he's talking about people who are already in the community... Step up and take leadership of whatever effort you can relate with. It might be [Women Who Go](https://www.womenwhogo.org/), it might be [Go Bridge](https://golangbridge.org/), or it might be the [Go Working Group](https://blog.golang.org/community-outreach-working-group), or anything. Because this stuff has been going on, but people get burned out. Everybody who's doing this stuff, they're doing it on a volunteering basis, and you know, take the baton, basically. I can hardly think of anything that would have more impact in the adoption of Go than that, because that helps bring in people - bring in new people, bring people from diverse backgrounds (...or not, it doesn't matter). Teaching workshops, doing things like that; take the leadership of something, so people who are doing that can breathe and take a break.
 
-Also, the more people who are out there taking leadership of these things, the more these initiatives can grow and these \[unintelligible 00:26:10.04\] is very appealing for people who are joining to have that portal to go through to learn Go and adopt Go, basically.
+Also, the more people who are out there taking leadership of these things, the more these initiatives can grow and these \[unintelligible 00:26:10.04\] free is very appealing for people who are joining to have that portal to go through to learn Go and adopt Go, basically.
 
 **Brian Ketelsen:** That's a good answer. Mine is similar... I would say that one of the things that I still love more than anything else about the Go community is the Go community, and that as far as communities go, it hasn't changed a lot over the last 7-8 years. It started off being a very welcoming and friendly and helpful community, and it still is, even though it's grown exponentially. So my suggestion or advice would be that we make a conscious effort to continue that welcome openness.
 
@@ -226,7 +226,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Brian Ketelsen:** For me, I don't even remember the project, but it was really extensive reflection. It was a whole lot of reflection, and it had to do with moving a bunch of data around between different structures and different systems over a queue. I just remember piles and piles of reflection, and thinking that this would be so much easier in a language that was less strict about types.
 
-**Erik St. Martin:** I guess for me similar... Probably this was like pre-gRPC, Brian and I had this grand vision of like a framework for building distributed systems, and I wrote an RPC layer, and I forget what bits I had to implement, but I remember there being a lot of issues with big Indian, little Indian, and then probably the hardest part was all the reflection crap from deserializing those RPC requests.
+**Erik St. Martin:** I guess for me similar... Probably this was like pre-[gRPC](https://grpc.io/), Brian and I had this grand vision of like a framework for building distributed systems, and I wrote an RPC layer, and I forget what bits I had to implement, but I remember there being a lot of issues with big Indian, little Indian, and then probably the hardest part was all the reflection crap from deserializing those RPC requests.
 
 **Brian Ketelsen:** Long live SkyNet.
 
@@ -236,19 +236,19 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Brian Ketelsen:** That's a good answer. Absolutely don't use concurrency all the time. It's one of those things that you sprinkle on sparingly like salt in a good kitchen.
 
-**Carlisia Pinto:** I definitely don't use it all the time, so when I have to read it, I do have a little bit of trouble, and I have to really pay attention to understand what it is doing. But there are concurrency patterns out there. Actually, Bill Kennedy has a really good blog post explaining the different types of problems, the different types of use cases and accompanying patterns of concurrency that you can use for each type; it's really good. That's my go-to reference to understand it.
+**Carlisia Pinto:** I definitely don't use it all the time, so when I have to read it, I do have a little bit of trouble, and I have to really pay attention to understand what it is doing. But there are concurrency patterns out there. Actually, Bill Kennedy has a really good [blog](https://www.ardanlabs.com/blog/) post explaining the different types of problems, the different types of use cases and accompanying patterns of concurrency that you can use for each type; it's really good. That's my go-to reference to understand it.
 
 **Brian Ketelsen:** Nice.
 
 **Erik St. Martin:** Okay.
 
-**Brian Ketelsen:** \[00:32:00.15\] Alright, Scott Mansfield asks the next question - "Do you think the Go 1.0 compatibility promise has already been broken?" I'll answer, yes. They intentionally broke it, at least once that I can think of, to fix a big error in something or other... That was several releases ago, I just don't remember the bug, but it broke backwards compatibility and they announced it. Oh, monotonic time. Yeah, that's definitely one. But there was another. So at least twice, yes. But I think the spirit of the Go 1.0 compatibility promise they've adhered to religiously, and I approve of that and appreciate it a lot.
+**Brian Ketelsen:** \[00:32:00.15\] Alright, Scott Mansfield asks the next question - "Do you think the [Go 1.0 compatibility promise](https://golang.org/doc/go1compat) has already been broken?" I'll answer, yes. They intentionally broke it, at least once that I can think of, to fix a big error in something or other... That was several releases ago, I just don't remember the bug, but it broke backwards compatibility and they announced it. Oh, monotonic time. Yeah, that's definitely one. But there was another. So at least twice, yes. But I think the spirit of the Go 1.0 compatibility promise they've adhered to religiously, and I approve of that and appreciate it a lot.
 
 **Erik St. Martin:** Yeah, I'd agree. I can't think of some concrete example, but I know there's been one or two instances. But considering the Go 1.0 came out five or six years ago, they've been pretty strict on the compatibility promise, and even the ones that did break - I can't remember any being super severe as far as having to refactor your code.
 
 **Brian Ketelsen:** Alright, Pascal Danerly asks "What keeps you excited about Go?" I think you've gotta keep it fresh, you've gotta go out on date nights, you've gotta bring flowers and surprise people every once in a while. If you don't make that effort, then things get stale after a while. Go is the same way. For me, it's things like GopherJS, Web Assembly... You've gotta kind of branch out a little bit and try some new things.
 
-Richard Musiol, the guy who started GopherJS is very deeply busy right now working in the Web Assembly branch, and it looks like it's darn close to being ready to go. That really excites me about Go, the idea that we can build insanely fast client-side stuff in Go. I'm all over that. So even though I was a little snarky in the beginning, I did mean the idea of keeping things fresh and interesting just by trying new stuff, learning new things in Go.
+[Richard Musiol](https://github.com/neelance), the guy who started [GopherJS](https://github.com/gopherjs/gopherjs) is very deeply busy right now working in the [Web Assembly](http://webassembly.org/) branch, and it looks like it's darn close to being ready to go. That really excites me about Go, the idea that we can build insanely fast client-side stuff in Go. I'm all over that. So even though I was a little snarky in the beginning, I did mean the idea of keeping things fresh and interesting just by trying new stuff, learning new things in Go.
 
 **Erik St. Martin:** How about you, Carlisia?
 
@@ -260,7 +260,7 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Erik St. Martin:** So I think it's exciting to keep watching it grow. Then similar to Brian's point too, I love seeing all the things that are happening on the fringe of what the past of couple of years we've been using Go for. From microservices and CLI tools... There's no surprise when somebody's like "Oh, I wrote that in Go", but I get really excited when I see stuff like the Web Assembly stuff, or people messing with embedded systems with Go, or GoCD, doing computer vision stuff with Go... Even though that's still cGO, but watching people write Nintendo emulators and all that stuff - I geek out on seeing people do interesting things with Go that is kind of outside the norm.
 
-**Brian Ketelsen:** Yeah, and I learn a lot from that, too. I agree. Alright, this is a troll question, but we're gonna answer it anyway. "Do any of you know how Russ Cox's mystic quest to understand generics is going?"
+**Brian Ketelsen:** Yeah, and I learn a lot from that, too. I agree. Alright, this is a troll question, but we're gonna answer it anyway. "Do any of you know how [Russ Cox's mystic quest to understand generics](https://research.swtch.com/go2017) is going?"
 
 **Carlisia Pinto:** \[00:36:10.22\] \[laughs\] Let me just say, I love the way this question was asked. I appreciate the nuance, it was great. Good job doing that!
 
@@ -272,7 +272,7 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Erik St. Martin:** Yeah, I mean, all I can remember basically was that we've moved from the -- was it 2014 maybe, where it was like "Go doesn't need generics", to "Generics could/should be a thing", but they want to come up with concrete use cases to make sure that they solve those properly and don't introduce any more complexity into the language they need to. But outside of that - and I could be remembering incorrectly, too... That's all I remember.
 
-**Brian Ketelsen:** Yes, when we last left our hero, he was standing in front of a scroll, reading it diligently, trying to understand what his future quest would be. \[laughter\] Alright, next question... Marco - I don't even know how to say your last name, I apologize. \[unintelligible 00:37:15.19\] I don't know what the c with the accent over it does. "As far as I know, you're working on organizing GopherCon events. As somebody who would love to become a speaker one day, do you have some recommendations on where to get started and how? Any tips or tricks for newbies? I'm mostly interested in Go events." Yes, we just hit this a moment ago - go to your local meetups, talk in front of 10 or 15 or 30 people and get help from the local meetup organizers in preparing your talks, and it will definitely help you to prepare for a bigger venue.
+**Brian Ketelsen:** Yes, when we last left our hero, he was standing in front of a scroll, reading it diligently, trying to understand what his future quest would be. \[laughter\] Alright, next question... Marco - I don't even know how to say your last name, I apologize. I don't know what the c with the accent over it does. "As far as I know, you're working on organizing GopherCon events. As somebody who would love to become a speaker one day, do you have some recommendations on where to get started and how? Any tips or tricks for newbies? I'm mostly interested in Go events." Yes, we just hit this a moment ago - go to your local meetups, talk in front of 10 or 15 or 30 people and get help from the local meetup organizers in preparing your talks, and it will definitely help you to prepare for a bigger venue.
 
 **Erik St. Martin:** Also tweet about the fact that you're working on content. There's a lot of people in the Go community who are willing to review slides or talk proposals and things of that nature, and help you mold them. The other thing I would say is pick a topic you're really excited about, versus kind of just picking something you think people might be interested in hearing. It will be easier for you, especially getting started, because that excitement and passion will come out.
 
@@ -282,11 +282,11 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Brian Ketelsen:** I think we do.
 
-**Carlisia Pinto:** Oh, yes. It's called Speaking.
+**Carlisia Pinto:** Oh, yes. It's called [Speaking](https://gophers.slack.com/messages/Speaking).
 
 **Brian Ketelsen:** Speaking, good. And I do know on Twitter not too long ago there was a thread of people who were offering mentorship for people who wanted to prepare CFP responses.
 
-**Carlisia Pinto:** Oh, yes, there was a workshop in various cities. That is a good resource to keep track of. It was Russ who tweeted that, wasn't it Russ?
+**Carlisia Pinto:** Oh, yes, there was a workshop in various cities. That is a good resource to keep track of. It was [Russ](https://twitter.com/_rsc) who tweeted that, wasn't it Russ?
 
 **Brian Ketelsen:** That's right. You're absolutely right, it was Russ. It was the -- I don't remember the name of it, but yes, you're right, it was Russ.
 
@@ -296,7 +296,7 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Carlisia Pinto:** So this is apparently an organization that offers workshops to teach people how to become speakers. It's recurring, they'll put out dates and you just have to keep track and find out if there's anything going on near you.
 
-**Erik St. Martin:** Yeah, and then if you want just the generic public speaking advice, everybody's more nervous than you think they are, so being nervous is normal. If you really want practice, you can always do local Toastmasters. I have not done this yet, but I've heard people say that improv classes are a lot of fun and get you kind of used to being up in front of people and kind of improv-ing on the spot and not getting nervous about it.
+**Erik St. Martin:** Yeah, and then if you want just the generic public speaking advice, everybody's more nervous than you think they are, so being nervous is normal. If you really want practice, you can always do local [Toastmasters](https://www.toastmasters.org/). I have not done this yet, but I've heard people say that improv classes are a lot of fun and get you kind of used to being up in front of people and kind of improv-ing on the spot and not getting nervous about it.
 
 **Carlisia Pinto:** Yes.
 
@@ -376,7 +376,7 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Erik St. Martin:** I concur. Alright, next - this sounds more like a statement than a question, but Nick Jackson...
 
-**Carlisia Pinto:** Sorry, Erik... Actually, I don't know if you -- not everybody knows, I'm sure... There is a Twitter handle called @golangpher, and it's the best Twitter account ever if you are a gopher. So we need to find out who's behind it. It's anonymous, we don't know. Matt Ryer put this question out there on Twitter, and this gopher tweeted that gophers eat bugs for breakfast, and they also eat lots of goroots. \[laughter\] I love the goroots answer. That was clever.
+**Carlisia Pinto:** Sorry, Erik... Actually, I don't know if you -- not everybody knows, I'm sure... There is a Twitter handle called [golangpher](https://twitter.com/golangpher), and it's the best Twitter account ever if you are a gopher. So we need to find out who's behind it. It's anonymous, we don't know. Matt Ryer put this question out there on Twitter, and this gopher tweeted that gophers eat bugs for breakfast, and they also eat lots of goroots. \[laughter\] I love the goroots answer. That was clever.
 
 **Brian Ketelsen:** Yeah, lots of good Go puns in the @golangpher Twitter account. Some of them are a real stretch, but some of them are pretty good.
 
@@ -392,7 +392,7 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Erik St. Martin:** Now everybody does.
 
-**Brian Ketelsen:** \[00:47:51.03\] \[laughs\] Alright, next question. Omar \[unintelligible 00:47:53.28\] Sorry, Omar... "How do you handle dependencies in Go? Dep is pretty popular, but I've seen projects place other packages inside the vendor folder for 100% reproducible builds. I would like to hear some of your insights on the best practices in that area."
+**Brian Ketelsen:** \[00:47:51.03\] \[laughs\] Alright, next question. Omar Cowadja... Sorry, Omar... "How do you handle dependencies in Go? [Dep](https://github.com/golang/dep) is pretty popular, but I've seen projects place other packages inside the vendor folder for 100% reproducible builds. I would like to hear some of your insights on the best practices in that area."
 
 **Carlisia Pinto:** But that's what Dep does, doesn't it?
 
@@ -410,9 +410,9 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Carlisia Pinto:** Yeah.
 
-**Erik St. Martin:** But I think as a community everybody's still trying to get consensus. I think Glide is still a really popular choice as well.
+**Erik St. Martin:** But I think as a community everybody's still trying to get consensus. I think [Glide](https://github.com/Masterminds/glide) is still a really popular choice as well.
 
-**Brian Ketelsen:** And a good solution, too... In terms of how to handle dependencies, I only vendor dependencies in commands, in executables, and never in packages. That's one of the things I'm pretty sure it was Peter Bourgon that shouted that from the mountaintop and I agree with it whole-heartedly. Packages should never check-in their dependencies; they could declare them, but they should never check them in, because at that point you risk having the "the type is declared in a different package" problem, because the vendor directory becomes part of the GOPATH for that package. And that's just yucky.
+**Brian Ketelsen:** And a good solution, too... In terms of how to handle dependencies, I only vendor dependencies in commands, in executables, and never in packages. That's one of the things I'm pretty sure it was [Peter Bourgon](https://twitter.com/peterbourgon) that shouted that from the mountaintop and I agree with it whole-heartedly. Packages should never check-in their dependencies; they could declare them, but they should never check them in, because at that point you risk having the "the type is declared in a different package" problem, because the vendor directory becomes part of the GOPATH for that package. And that's just yucky.
 
 **Erik St. Martin:** And recursive dependencies are always a problem too, and I think there needs to be a way for libraries to declare "I need these things" and be looser, probably, in their versioning. 1.1.x, and then the main whatever package main is can declare a specific 1.1.3, or something... But I tend to find that everybody is super strict, and then you end up having -- and this comes from other languages, too; then you end up where one of your imports requires one version of the library, and another one requires a different one, and we're back to dependency hell. I think dependency management has always been kind of a pain in the ass.
 
@@ -437,7 +437,7 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Brian Ketelsen:** Yes. The answer is "Programming." I'm not one of those people that can just write code without looking things up and thinking things through. I have to look up the definitions of functions, the parameters their return all of that, all the time... So I struggle with remembering how switch statements are built. Every single time I write a switch statement, I have to look it up. So yeah, all of it.
 
-**Carlisia Pinto:** \[00:52:20.17\] I don't have to look up the arguments and the functions so much because Visual Studio Code is so awesome at doing that for me. If I were to do a switch statement, I would definitely have to look it up, too. One thing that I keep forgetting to do is you know when you check for -- let's say you're checking for an error and that's the only thing that's being returned from the function; it's better, it's more readable if you in-line the whole thing... Do you know what I'm talking about? I don't know how to describe it better.
+**Carlisia Pinto:** \[00:52:20.17\] I don't have to look up the arguments and the functions so much because [Visual Studio Code](https://code.visualstudio.com/) is so awesome at doing that for me. If I were to do a switch statement, I would definitely have to look it up, too. One thing that I keep forgetting to do is you know when you check for -- let's say you're checking for an error and that's the only thing that's being returned from the function; it's better, it's more readable if you in-line the whole thing... Do you know what I'm talking about? I don't know how to describe it better.
 
 **Brian Ketelsen:** The error check in-line, with an if?
 
@@ -467,7 +467,7 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Erik St. Martin:** "How often has dependency handling got you to spend way too much time when you didn't intend to?" A lot. This happens a lot, especially in the different versions of dependencies needed, or when different nested dependencies use a different dependency manager, or when certain repositories use symlinks to other places within their own \[unintelligible 00:55:02.18\] \[laughter\]
 
-**Brian Ketelsen:** The one that bit me the hardest in the last several months was Uber's Jaegertracing library. Oh my god, when they first released it, they had pinned versions to something or other inside their example, their demo apps, and it was almost impossible to get your computer into a state where all of those versions were good... And I ended up creating a virtual machine just to play with Jaeger, because everything was just so crazy, and that was far more work than it should have been. I don't know what state Jaeger is in now, but it definitely soured me on the whole plan.
+**Brian Ketelsen:** The one that bit me the hardest in the last several months was Uber's [Jaegertracing](https://github.com/jaegertracing/jaeger) library. Oh my god, when they first released it, they had pinned versions to something or other inside their example, their demo apps, and it was almost impossible to get your computer into a state where all of those versions were good... And I ended up creating a virtual machine just to play with Jaeger, because everything was just so crazy, and that was far more work than it should have been. I don't know what state Jaeger is in now, but it definitely soured me on the whole plan.
 
 **Erik St. Martin:** Okay, so we've made it through all of the questions. Go us!
 **Brian Ketelsen:** Wow!
@@ -476,15 +476,15 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Erik St. Martin:** \[00:55:54.18\] Okay, so if we didn't have any more questions from the live listeners, we may have a couple minutes to go through some interesting projects and news.
 
-**Brian Ketelsen:** Alright, I've got one project that's really exciting for me personally, and that's GitHub.com/dave/jsgo. It is a hosted GopherJS solution, and it's open source, so you can do your own. But the idea is that you enter -- I think he's hosting it at jsgo.io; I'm not sure, you'll have to go to the repo and see. But you enter the package path at the end of the URL and it will automatically serve that up as a GopherJS app. What's particularly cool about it is that -- one of the weaknesses of GopherJS is that it compiles the whole standard library down to Javascript, and that's a gigantic download everytime you do a page refresh. However, Dave figured out some way to do code-splitting on that, so that only the individual packages that are used get served to you and they're cached. So it speeds things up dramatically, and it's just a really fun, interesting project from a learning perspective for me.
+**Brian Ketelsen:** Alright, I've got one project that's really exciting for me personally, and that's [jsgo](https://github.com/dave/jsgo). It is a hosted GopherJS solution, and it's open source, so you can do your own. But the idea is that you enter -- I think he's hosting it at [jsgo.io](https://compile.jsgo.io/%3Cpath%3E); I'm not sure, you'll have to go to the repo and see. But you enter the package path at the end of the URL and it will automatically serve that up as a GopherJS app. What's particularly cool about it is that -- one of the weaknesses of GopherJS is that it compiles the whole standard library down to Javascript, and that's a gigantic download everytime you do a page refresh. However, [Dave](https://github.com/dave) figured out some way to do code-splitting on that, so that only the individual packages that are used get served to you and they're cached. So it speeds things up dramatically, and it's just a really fun, interesting project from a learning perspective for me.
 
 **Erik St. Martin:** I think you have the next one, too.
 
-**Brian Ketelsen:** Yeah, but I was gonna skip it, because we just talked about Web Assembly. So neelance/go on GitHub is Richard Musiol's fork of the Go language where he's adding Web Assembly support. We already talked about how damn excited I am about that.
+**Brian Ketelsen:** Yeah, but I was gonna skip it, because we just talked about Web Assembly. So [neelance/go](https://github.com/neelance/go) on GitHub is Richard Musiol's fork of the Go language where he's adding Web Assembly support. We already talked about how damn excited I am about that.
 
 **Erik St. Martin:** Yeah, that's gonna be awesome. Okay, so what about Pop?
 
-**Brian Ketelsen:** Mark Bates' Pop, the library that Buffalo uses to manage database access added associations support in the last week. I can't remember the name of the person that added the pull request, but holy cow, something that was awesome just became significantly more awesome, and I love Pop a lot. It got a lot better. It's just a great thing. So if you are looking for some way to do database stuff bigger than dbsql, that feels a lot like ActiveRecord in Rails, Pop is the answer to that. GitHub.com/markbates/pop. It's got migrations and all of the good stuff.
+**Brian Ketelsen:** Mark Bates' [Pop](https://github.com/markbates/pop), the library that Buffalo uses to manage database access added associations support in the last week. I can't remember the name of the person that added the pull request, but holy cow, something that was awesome just became significantly more awesome, and I love Pop a lot. It got a lot better. It's just a great thing. So if you are looking for some way to do database stuff bigger than dbsql, that feels a lot like ActiveRecord in Rails, Pop is the answer to that. GitHub.com/markbates/pop. It's got migrations and all of the good stuff.
 
 **Erik St. Martin:** Nice. So then on the news front - I think it was only a couple days ago or something - 1.9.4 came out for Go, and then I think 1.10 is gonna be released sometime today or within the next couple of days, so definitely by the time you hear this, if you're listening to it recorded, 1.10 should be out. And I'm trying to remember some of the stuff--
 
@@ -492,7 +492,7 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Erik St. Martin:** And then the next one you had Terminal UI stuff.
 
-**Brian Ketelsen:** \[00:58:56.01\] Oh, this one's cool. I don't know how I've missed it before. It's not a new project. GitHub.com/rivo/tview. Really cool-looking terminal UI widgets for people who are building terminal applications that want that old BBS/DOS ansi-term Really cool-looking stuff. I have to go build something with it, it just looks so cool. It brought me back to the old DOS days, and I was trying to ask Erik - I couldn't remember the name of the UI toolkit that we used way back in the early DOS days that made those ANSI screens. If any of you listeners out there can remember that if you're as old as me...
+**Brian Ketelsen:** \[00:58:56.01\] Oh, this one's cool. I don't know how I've missed it before. It's not a new project. [tview](https://github.com/rivo/tview). Really cool-looking terminal UI widgets for people who are building terminal applications that want that old BBS/DOS ansi-term kind of feel to it. Really cool-looking stuff. I have to go build something with it, it just looks so cool. It brought me back to the old DOS days, and I was trying to ask Erik - I couldn't remember the name of the UI toolkit that we used way back in the early DOS days that made those ANSI screens. If any of you listeners out there can remember that if you're as old as me...
 
 **Erik St. Martin:** Yeah, I was thinking about that... Was it Turbo Vision?
 
@@ -530,7 +530,7 @@ Richard Musiol, the guy who started GopherJS is very deeply busy right now worki
 
 **Carlisia Pinto:** I mean, I did, but I forgot, so now I can't remember... So I'm gonna say no.
 
-**Brian Ketelsen:** Yeah, the only thing that really made a big impact on my life this week was Unison, and I've already mentioned Unison - great way to synchronize folders between computers on a scheduled sort of basis. I've used it several times this week and marveled at how damn fast it is.
+**Brian Ketelsen:** Yeah, the only thing that really made a big impact on my life this week was [Unison](https://www.cis.upenn.edu/~bcpierce/unison/), and I've already mentioned Unison - great way to synchronize folders between computers on a scheduled sort of basis. I've used it several times this week and marveled at how damn fast it is.
 
 **Erik St. Martin:** Okay, so with that, time to wrap up our show. Thanks everybody for listening. Check us out on Twitter @GoTimeFM. As always, hit us up on GitHub.com/GoTimeFM/ping with comments, questions, suggestions for topics of guests. Definitely let us know if you like these AMA's, and we'll try and start doing them more regularly and come up with a way to consistently take questions for future AMA's. With that, goodbye everybody. We'll see you next week!
 
