@@ -489,7 +489,7 @@ So those are the things I'm thinking about, but I would love to see if anyone el
 
 **Jerod Santo:** Not this episode, I hope...
 
-**Jordan Eldredge:** It's an exotic time-travel story. \[laughter\]
+**Jordan Eldredge:** This is not a time-travel story. \[laughter\]
 
 **Jerod Santo:** I wish it was. \[laughs\] Not that your story is not good. Please, continue.
 
