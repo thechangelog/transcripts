@@ -404,7 +404,7 @@ And your eyes may appreciate this mention, because GitHub Dark is super cool; I'
 
 **Adam Stacoviak:** \[01:16:04.27\] Okay. I don't wanna mess my sidebar up; I like my sidebar. Well, cool, that's it for this show. Thanks so much for tuning in, for one, thank you for your attention and listening to this show, to the regulars in Slack - thank you; to the future regulars listening right now - thank you. Please join us, go to -- where do they go to join Gopher Slack? Where is the best place to go?
 
-**Florin Pățan:** It's a bit of a longer one. It's [invite.slack.golangbridge.org](https://invite.slack.golangbridge.orgs).
+**Florin Pățan:** It's a bit of a longer one. It's [invite.slack.golangbridge.org](https://invite.slack.golangbridge.org).
 
 **Adam Stacoviak:** Is there a way we can find a shorter version for that?
 
