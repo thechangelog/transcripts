@@ -44,7 +44,7 @@ B-tree indexing starts to fall apart, but bitmap indexing can be very good, so i
 
 **Erik St. Martin:** I think that the importance of the index isn't so much storage, it's that a lot of times when you're searching for data in a database, and even in a distributed database, you have to touch multiple machines or seek too many places on disk to find the data to see whether it applies... So by having indexes, you can limit the amount of data that you need to go out and fetch from wherever it's stored.
 
-**Carlisia Pinto:** Yeah, that's a good point, too. I would say that that's a different use case, but I think those are two different use cases, and you can have the need for both, right? \[unintelligible 00:09:20.19\]
+**Carlisia Pinto:** Yeah, that's a good point, too. I would say that that's a different use case, but I think those are two different use cases, and you can have the need for both, right? And I am sure there are other use cases probably?
 
 **Matt Jaffee:** Yeah, Carlisia makes a really good point, actually, and I do have sort of rough numbers I can share. We are incredibly delinquent on making some big benchmarking blog post, but typically when you ingest data into Pilosa, the amount of memory or disk space that's taken up in Pilosa is about one-tenth the original data size, and it depends heavily on the cardinality of the data, and what fields you're indexing, and all that. But in order of magnitude, decrease is pretty typical.
 
@@ -200,7 +200,7 @@ Now I have a -- I think I sent pictures out over Twitter, of this embedded board
 
 **Brian Ketelsen:** Now you do.
 
-**Erik St. Martin:** Where's our sound effects board? We need like the "The more you know..." \[unintelligible 00:33:49.12\]
+**Erik St. Martin:** Where's our sound effects board? We need like the "The more you know...doo dee doo..."
 
 **Brian Ketelsen:** That's right. I'm here for you.
 
@@ -280,7 +280,7 @@ What other interesting news did we have? Oh, I wanted to mention Micro. My favor
 
 **Erik St. Martin:** And Matt, I know we're kind of hitting you out of the blue, so feel free to say no, but if you have anybody you wanna give a shout-out to... It doesn't have to be a Go project or a maintainer.
 
-**Matt Jaffee:** Actually, as soon as you guys started talking about this, I quickly \[unintelligible 00:39:55.12\] my brain and went searching... But Carlisia saying JustForFunc reminded me of the way I feel about all the talks that Liz Rice has given.
+**Matt Jaffee:** Actually, as soon as you guys started talking about this, I quickly wrecked my brain and went searching... But Carlisia saying JustForFunc reminded me of the way I feel about all the talks that Liz Rice has given.
 
 **Brian Ketelsen:** Oh, my god...
 
@@ -332,7 +332,7 @@ I love him for that right now, because I'm excited to play with that, but I also
 
 **Matt Jaffee:** Actually, speaking of Nmap, there was a project that was recently rewritten in Go called Bettercap, which is basically sort of an Nmap clone, or a network Swiss army knife kind of thing.
 
-**Erik St. Martin:** Yeah, I was really excited about that. I mentioned it a couple of episodes ago... But I'm actually really excited about seeing a lot of infosec tools written in Go these days. I've seen some clones or advancements in things like \[unintelligible 00:44:56.01\] and things like that written in Go.
+**Erik St. Martin:** Yeah, I was really excited about that. I mentioned it a couple of episodes ago... But I'm actually really excited about seeing a lot of infosec tools written in Go these days. I've seen some clones or advancements in things like [DirBuster](https://tools.kali.org/web-applications/dirbuster) and things like that written in Go.
 
 I know a couple people who are pen testers too that have been using Go for their scripts and stuff like that, and for exploits... Kind of moving away from doing it in Python, and things like that.
 
