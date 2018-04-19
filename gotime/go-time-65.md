@@ -12,7 +12,7 @@
 
 **Carlisia Pinto:** Hi, everybody.
 
-**Erik St. Martin:** And our special guest for today is Vitor De Mario. You're one of the organizers of GopherCon. Something else, you spoke at -- it was a lightning talk, I think, at GopherCon last year...
+**Erik St. Martin:** And our special guest for today is Vitor De Mario. You're one of the organizers of [GopherCon](https://2017.gopherconbr.org/). Something else, you spoke at -- it was a lightning talk, I think, at GopherCon last year...
 
 **Vitor De Mario:** Yes.
 
@@ -20,7 +20,7 @@
 
 **Vitor De Mario:** I didn't think about that, but it's gonna be a problem.
 
-**Carlisia Pinto:** You know, I did that, and Scott Mansfield I think corrected me on Slack -- oh no, it was somebody else that corrected me... And I'm like, "Oh, I had never realized they were two different words", like they sound different, genetics and generics. I'm sure I said it the same way...
+**Carlisia Pinto:** You know, I did that, and [Scott Mansfield](https://twitter.com/sgmansfield) I think corrected me on Slack -- oh no, it was somebody else that corrected me... And I'm like, "Oh, I had never realized they were two different words", like they sound different, genetics and generics. I'm sure I said it the same way...
 
 **Vitor De Mario:** I'm probably gonna have the same problem. I'm Brazilian, just like Carlisia, and I don't have a lot of years living in the U.S., so it's probably gonna be a bigger problem for me.
 
@@ -28,7 +28,7 @@
 
 **Vitor De Mario:** So I started working at a company called Mendelics about four years ago in Sao Paolo. I'm not originally from here, but I came here to work at it. I was told I was gonna work in Python at the beginning, I started learning Python, but then when I came here there was a small project built by our CEO, who is not a programmer, and he had started it in Go because he liked the language; he thought it was a language that he understood relatively well, so he started doing it on his own. He named the project Abracadabra, and it was supposed to be an annotator and classifier for mutations. We call them variants usually, but it's the same thing, it's just a mutation.
 
-So what Mendelics does is we receive patients here who are sent to us by a physician who thinks they have a genetic disease, and we take their blood, we process it in our lab and we work with all our bioinformatics tools and then we generate reports in the end saying whether we found something, if they have a genetic disease or not... And one of these steps was built here. We have this software, Abracadabra; it added a lot of information into each one of the variants, which is the part that we call annotation, and we built a machine learning model we have run on forest in Go. There is a very cool library for doing that called Cloud Forest, built by Ryan Bressler.
+So what Mendelics does is we receive patients here who are sent to us by a physician who thinks they have a genetic disease, and we take their blood, we process it in our lab and we work with all our bioinformatics tools and then we generate reports in the end saying whether we found something, if they have a genetic disease or not... And one of these steps was built here. We have this software, Abracadabra; it added a lot of information into each one of the variants, which is the part that we call annotation, and we built a machine learning model we have run on forest in Go. There is a very cool library for doing that called [Cloud Forest](https://github.com/ryanbressler/CloudForest), built by [Ryan Bressler](https://github.com/ryanbressler).
 
 \[00:03:53.08\] We used it, and we built a model here, and we started telling our physicians which variants were relevant in each case and which weren't, because everyone has a lot of mutations. So if we receive a patient -- back in the day we had 50,000 mutations for each one of us, even if we are healthy, and that's normal, so finding the one that is relevant in the middle of all of it is a big problem. In the beginning it was a very manual process, it had a lot of errors, and then we built this software in Go to try to find these mutations better and delivering them to our physicians before they had to start working on each case.
 
@@ -46,7 +46,7 @@ So what Mendelics does is we receive patients here who are sent to us by a physi
 
 **Vitor De Mario:** No, it's fine.
 
-**Carlisia Pinto:** Before I come across as smarter than Brian, because I didn't ask those questions - I've watched his lightning talk, so it sort of made sense to me... \[laughter\]
+**Carlisia Pinto:** Before I come across as smarter than Brian, because I didn't ask those questions - I've watched his [lightning talk](https://www.youtube.com/watch?v=GYLOmwIqP-M), so it sort of made sense to me... \[laughter\]
 
 **Vitor De Mario:** You came prepared.
 
@@ -58,9 +58,9 @@ The way we do it is the first part, without any machine learning, is just we hav
 
 So we add a lot of information to each one of these variants, so our lists become -- each position in this list of mutation becomes a lot of data. We know which proteins were affected... Everything that can be calculated using knowledge from biology and from genetics, and this becomes a huge list. There are thousands of small points like this for each mutation. So that's the point where we are before we start talking about machine learning.
 
-After that, we have a huge matrix; you can think about this list, and a lot of these features become columns, so there's a quite big matrix, and we built a machine learning model using an algorithm called random forest.
+After that, we have a huge matrix; you can think about this list, and a lot of these features become columns, so there's a quite big matrix, and we built a machine learning model using an algorithm called [random forest](https://en.wikipedia.org/wiki/Random_forest).
 
-\[00:08:02.24\] It's not very popular these days; you're probably thinking a lot about deep learning and TensorFlow and these kinds of things, but three or four years ago we weren't talking that much about it, and there are some studies that say that this algorithm (random forest) works well for genomics, for genetic data.
+\[00:08:02.24\] It's not very popular these days; you're probably thinking a lot about deep learning and [TensorFlow](https://www.tensorflow.org/) and these kinds of things, but three or four years ago we weren't talking that much about it, and there are some studies that say that this algorithm (random forest) works well for genomics, for genetic data.
 
 We started working on a library that is built in Go to create these kinds of models. The library is called Cloud Forest; it's pretty much just an implementation of this algorithm, and we've started passing our data with all of those extra columns into this software for it to build a big model trying to predict new mutations, if they were causing diseases or not, if they were pathogenic or not. So we did a lot of rounds, like cleaning up our data, trying to understand how each feature of this software works, because I'm not a specialist in machine learning... I don't know much about it, so I had to learn it while I was doing it.
 
@@ -86,7 +86,7 @@ Machine learning and Go in general, it's a bigger problem because there isn't th
 
 **Erik St. Martin:** I've been seeing more and more stuff come out, especially over maybe the last year or two, but for a long time it was kind of a big deterrent from the scientific communities was like the lack of libraries, especially around some of the -- like Pynum and things like that.
 
-**Vitor De Mario:** It's definitely better now. There are a few people working with it. The name that comes to my mind immediately is Daniel Whitenack; he is working on Pachyderm and he has a book that came out recently, which is Machine Learning With Go. I haven't read it yet unfortunately, but I believe he shows in the book many algorithms and how they can be implemented in Go.
+**Vitor De Mario:** It's definitely better now. There are a few people working with it. The name that comes to my mind immediately is [Daniel Whitenack](https://twitter.com/dwhitena); he is working on [Pachyderm](https://github.com/pachyderm/pachyderm) and he has a book that came out recently, which is [Machine Learning With Go](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-go). I haven't read it yet unfortunately, but I believe he shows in the book many algorithms and how they can be implemented in Go.
 
 So there are people trying to get Go to be a good language for it... Because of the performance and all those things, it can be theoretically a good language to do machine learning in the future, and it's getting better, definitely.
 
@@ -100,7 +100,7 @@ So there are people trying to get Go to be a good language for it... Because of 
 
 **Carlisia Pinto:** And we also interviewed him here.
 
-**Erik St. Martin:** Yeah, he was one of the first episodes... I wanna say it was within the first 20-25 episodes.
+**Erik St. Martin:** Yeah, he was [one of the first episodes](https://changelog.com/gotime/40)... I wanna say it was within the first 20-25 episodes.
 
 **Brian Ketelsen:** It was definitely early.
 
@@ -122,7 +122,7 @@ Now we have a person, Fernanda, who is a data scientist and she knows a lot more
 
 **Erik St. Martin:** Now, was this written in something prior, or was it just kind of a whole new project and you kind of--
 
-**Vitor De Mario:** It was a whole new project, yeah. In the lightning talk that Carlisia saw in Denver - I usually show a slide where the first version of the software is entirely in that slide; there's like 800 or 1,000 lines all in one file. Our CEO with our programmer thought that was fine. That was one of the first things that we changed... "Okay, this is not a decent program. We've gotta do some work on top of it." But it was completely new, he showed it to us. It was pretty much just an idea before, and there wasn't any prior software before it.
+**Vitor De Mario:** It was a whole new project, yeah. In the lightning talk that Carlisia saw in Denver - I usually show a slide where the first version of the software is entirely in that slide; there's like 800 or 1,000 lines all in one file. Our CEO who was our programmer thought that was fine. That was one of the first things that we changed... "Okay, this is not a decent program. We've gotta do some work on top of it." But it was completely new, he showed it to us. It was pretty much just an idea before, and there wasn't any prior software before it.
 
 **Erik St. Martin:** All your IP in a single slide... \[laughs\]
 
@@ -222,7 +222,7 @@ I don't know if Carlisia had the same sensation, but for me - I was there for th
 
 **Vitor De Mario:** \[00:24:06.20\] Most of the attendees were from Brazil. In the first year especially there were a lot of people coming from other places in South America, like Argentina and Peru, and they've even given talks. This year I don't think that many came; there was a group from Columbia... I think there was another group, but I don't remember exactly which country it was from. Other than that, we get mostly people from the U.S. that come to speak at the events, so...
 
-Some of our talks are in English, and it's okay, we consider part of the conference to be bilingual. Aditya (Mukerjee) who was one of the speakers this year, he wanted to submit a talk to us exactly because of this reason - he wanted to show how the Go language itself could be rewritten in other languages, how he could change the keywords into Bengali or Portuguese, and he said this is the place to do it, because the conference is bilingual.
+Some of our talks are in English, and it's okay, we consider part of the conference to be bilingual. [Aditya (Mukerjee)](https://twitter.com/chimeracoder) who was one of the speakers this year, he wanted to submit a talk to us exactly because of this reason - he wanted to show how the Go language itself could be rewritten in other languages, how he could change the keywords into Bengali or Portuguese, and he said this is the place to do it, because the conference is bilingual.
 
 We have a few people from the U.S. because of that, because of the talk submissions, and a few people from the rest of South America too, because of the proximity. But Brazil itself is huge. Some people come from bigger distances than the people from Argentina or Chile, just from inside Brazil.
 
@@ -232,7 +232,7 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Erik St. Martin:** Now I can't wait for the videos to come out, because I didn't even see Aditya's talk about translating. That's pretty cool.
 
-**Vitor De Mario:** Yeah, because he did a lightning talk with the same topic in Denver, and then he expanded it for GopherCon Brazil.
+**Vitor De Mario:** Yeah, because he did a [lightning talk](https://www.youtube.com/watch?v=oDFerBdr2J0&index=14&list=PL2ntRZ1ySWBfhRZj3BDOrKdHzoafHsKHU) with the same topic in Denver, and then he expanded it for GopherCon Brazil.
 
 **Erik St. Martin:** We got so caught up on the final day... I didn't catch any of the lightning talks, and that's one thing I haven't got a chance to do, is watch any of the videos for those.
 
@@ -242,7 +242,7 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Erik St. Martin:** So are you confident you're having a 2018 version?
 
-**Vitor De Mario:** Yes, we already have everything set up with the venue. We're gonna repeat the venue for the third time, and the date is already out, too. It's gonna be at the end of September, from the 27th to the 29th, I believe. We don't have yet speakers and we haven't confirmed any of the sponsors yet, but the conference is definitely gonna happen.
+**Vitor De Mario:** Yes, we already have everything set up with the venue. We're gonna repeat the venue for the third time, and the date is already out, too. It's gonna be at the end of September, from the [27th to the 29th](https://2018.gopherconbr.org/), I believe. We don't have yet speakers and we haven't confirmed any of the sponsors yet, but the conference is definitely gonna happen.
 
 **Erik St. Martin:** So it sounds like your CFP will be out soon, too...
 
@@ -252,11 +252,11 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Brian Ketelsen:** Yeah, there's several CFP's open right now, which means it's a good time to polish off your editors and start writing proposals. We want yours, we want everyone's proposal.
 
-**Vitor De Mario:** Yeah, I wanna be one of the people sending a proposal to you as well, and to GopherCon in Iceland and in other places too, but I haven't yet.
+**Vitor De Mario:** Yeah, I wanna be one of the people sending a proposal to you as well, and to [GopherCon in Iceland](https://gophercon.is/) and in other places too, but I haven't yet.
 
 **Brian Ketelsen:** Excellent.
 
-**Erik St. Martin:** So I heard that the KubeCon CFP for Copenhagen has something like 3,000 submissions. I don't wanna see that many...
+**Erik St. Martin:** So I heard that the [KubeCon CFP](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/) for Copenhagen has something like 3,000 submissions. I don't wanna see that many...
 
 **Vitor De Mario:** I can't imagine having to select talks with that many... It's pretty much impossible.
 
@@ -274,7 +274,7 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Erik St. Martin:** Yeah, that's always difficult too, and this is why Carlisia was talking about sponsorships... With sponsorship money you're able to pay travel and accommodation and all that stuff for speakers, which is important, because not everybody works for a company that will fund them to go speak at a conference... Or even specific ones, depending on the technologies they work with versus where they wanna go to talk.
 
-**Carlisia Pinto:** But you know, sponsorships and volunteers - those things really make or break a conference. I remember last year - talking about CFP's - I was one of the people who helped review the CFP's, and I remember sitting... It was two weekends of coffee and nothing else but reviewing those CFP's, at the very end, and I reviewed every single one of them. Dave Cheney was the one - I think he's always the one - to lead that effort of reviewing the CFP's, and at the end he said "All reviewers reviewed all of the CFP's." It's a lot of work and it makes a huge difference, but the more eyes that are on the process, the better the selection process is.
+**Carlisia Pinto:** But you know, sponsorships and volunteers - those things really make or break a conference. I remember last year - talking about CFP's - I was one of the people who helped review the CFP's, and I remember sitting... It was two weekends of coffee and nothing else but reviewing those CFP's, at the very end, and I reviewed every single one of them. [Dave Cheney](https://twitter.com/davecheney) was the one - I think he's always the one - to lead that effort of reviewing the CFP's, and at the end he said "All reviewers reviewed all of the CFP's." It's a lot of work and it makes a huge difference, but the more eyes that are on the process, the better the selection process is.
 
 **Erik St. Martin:** Yeah, I was actually quite amazed that every talk was reviewed by every person.
 
@@ -288,7 +288,7 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Vitor De Mario:** Yeah, it makes things fresh.
 
-**Brian Ketelsen:** Well, this year we have a new program chair at GopherCon... It's going to be Ashley McNamara. Dave has handed over the scepter.
+**Brian Ketelsen:** Well, this year we have a new program chair at GopherCon... It's going to be [Ashley McNamara](https://twitter.com/ashleymcnamara). Dave has handed over the scepter.
 
 **Vitor De Mario:** Yeah, given the reception to her talk last year, I think she's a great choice.
 
@@ -396,7 +396,7 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Erik St. Martin:** \[laughs\] Alright, who's next?
 
-**Brian Ketelsen:** \[00:35:59.27\] I have exciting news - the folks at Wallaroo Labs released the Wallaroo API for Go. Wallaroo, if you haven't seen it, is some pretty amazing statistical software, streaming software... I don't even know how to describe it. It's really cool stuff, and it's written in Pony, which is one of my favorite little side-languages to play with... And they have an API now that's written in Go, so if you want to learn about streaming and messaging and play with it in Go, the Wallaroo Go API is now available and it's pretty slick. I played with it this morning.
+**Brian Ketelsen:** \[00:35:59.27\] I have exciting news - the folks at Wallaroo Labs released the Wallaroo API for Go. [Wallaroo](https://github.com/WallarooLabs/wallaroo), if you haven't seen it, is some pretty amazing statistical software, streaming software... I don't even know how to describe it. It's really cool stuff, and it's written in [Pony](https://www.ponylang.org/), which is one of my favorite little side-languages to play with... And they have an [API now that's written in Go](https://github.com/WallarooLabs/wallaroo/tree/master/go_api), so if you want to learn about streaming and messaging and play with it in Go, the Wallaroo Go API is now available and it's pretty slick. I played with it this morning.
 
 **Erik St. Martin:** I actually didn't see that... I'm looking at it now. There's too many cool things to play with.
 
@@ -412,13 +412,13 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Carlisia Pinto:** That's hilarious.
 
-**Erik St. Martin:** I think we've mentioned it before, but another cool language to play with is Nim.
+**Erik St. Martin:** I think we've mentioned it before, but another cool language to play with is [Nim](https://nim-lang.org/).
 
 **Brian Ketelsen:** Yeah, I like Nim, too.
 
 **Erik St. Martin:** We'll have to do a Language of the Week/Month, or something, and just recommend some new language for people to play with.
 
-**Brian Ketelsen:** Yeah, that's a good idea. Let's add that as a to-do note - talk about interesting languages every once in a while. Alright, so another project that came out yesterday, hit the wires hard is Twirp, from Twitch, which is a competitor for gRPC. Twirp is a big deal because it does not require HTTP/2, and that's important if you're behind a load balancer that doesn't support HTTP/2. Twirp looks fast, and it looks pretty lightweight, and it looked to me particularly like the cognitive overhead of using Twirp might be just a little bit lighter than using gRPC. So I'm interested to try Twirp out, but I haven't yet.
+**Brian Ketelsen:** Yeah, that's a good idea. Let's add that as a to-do note - talk about interesting languages every once in a while. Alright, so another project that came out yesterday, hit the wires hard is [Twirp](https://github.com/twitchtv/twirp), from Twitch, which is a competitor for [gRPC](https://grpc.io/). Twirp is a big deal because it does not require HTTP/2, and that's important if you're behind a load balancer that doesn't support HTTP/2. Twirp looks fast, and it looks pretty lightweight, and it looked to me particularly like the cognitive overhead of using Twirp might be just a little bit lighter than using gRPC. So I'm interested to try Twirp out, but I haven't yet.
 
 **Vitor De Mario:** It also allows JSON payloads in the messages. So you can handcraft messages in it, and you can't with gRPC.
 
@@ -454,13 +454,13 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Carlisia Pinto:** I need help, people... Seriously.
 
-**Brian Ketelsen:** \[00:39:55.21\] We're sending Ben Johnson over for an immediate Go Package intervention. \[laughter\] Are there any other interesting news?
+**Brian Ketelsen:** \[00:39:55.21\] We're sending [Ben Johnson](https://twitter.com/benbjohnson) over for an immediate Go Package intervention. \[laughter\] Are there any other interesting news?
 
-**Carlisia Pinto:** I will go then. My friend Scott Kurowski - he works with Mongo, and he sent me news that they are doing an official MongoDB Go driver. This is interesting, because there is a heavily used Go driver already, but they decided to do what they're gonna call the official one, and put it on their repo, I suppose. And there is a big blog post explaining why they decided to do that.
+**Carlisia Pinto:** I will go then. My friend Scott Kurowski - he works with Mongo, and he sent me news that they are doing an official MongoDB Go driver. This is interesting, because there is a heavily used Go driver already, but they decided to do what they're gonna call [the official one](https://github.com/mongodb/mongo-go-driver), and put it on their repo, I suppose. And there is a big [blog post](https://engineering.mongodb.com/post/considering-the-community-effects-of-introducing-an-official-golang-mongodb-driver) explaining why they decided to do that.
 
 I'm just saying this because for people who do use MongoDB, which is a lot of people, this might be relevant for them, and they might want to participate in this development, or not.
 
-**Brian Ketelsen:** I'm confused, because I saw this headline and I didn't realize that this was talking about MGO... So Gustavo Niemeyer was the head of the MGO project forever; 2011 I think is when that came out. And everybody in the community uses MGO, and for the longest time, the people at Mongo recommended MGO as one of the best-written drivers that took advantage of all of the possible features of Mongo, and this blog post they wrote makes it sound like it's limiting and not really a great driver... So this is quite a flip in opinion for a company.
+**Brian Ketelsen:** I'm confused, because I saw this headline and I didn't realize that this was talking about [MGO](https://github.com/go-mgo/mgo)... So [Gustavo Niemeyer](https://twitter.com/gniemeyer) was the head of the MGO project forever; 2011 I think is when that came out. And everybody in the community uses MGO, and for the longest time, the people at Mongo recommended MGO as one of the best-written drivers that took advantage of all of the possible features of Mongo, and this blog post they wrote makes it sound like it's limiting and not really a great driver... So this is quite a flip in opinion for a company.
 
 **Erik St. Martin:** Yeah, that's really interesting. I actually remember borrowing some of the BSON logic out of that driver, just because it was done so well.
 
@@ -490,7 +490,7 @@ I don't know, I'm not taking sides, just trying to...
 
 **Carlisia Pinto:** Yeah. And I actually owe him a contact to bring him on the show. I can't believe I haven't done that yet. Right? We wanna have him on the show...?
 
-**Brian Ketelsen:** Well, you can get him on the show when Vitor gets his Ashely gopher, and we'll just do all of it at once.
+**Brian Ketelsen:** Well, you can get him on the show when Vitor gets his Ashley gopher, and we'll just do all of it at once.
 
 **Erik St. Martin:** I still remember the very first GopherCon, and Gustavo was a speaker, and was helping us pack bags, stuff swag bags...
 
@@ -498,11 +498,11 @@ I don't know, I'm not taking sides, just trying to...
 
 **Erik St. Martin:** I love seeing the community and the conferences and stuff like that all evolve, but I have very fond memories of the early days, where if you were given enough time, you could almost list everybody in the community.
 
-**Brian Ketelsen:** Yeah, and the real central figures were the ones that were downstairs at the Marriot in Denver, helping us fill out swag bags and showing up early for the conference and working te -- like, Cory LaNou working the registration desk while everybody else was watching conference talks. He didn't have to do that, but that was his contribution to the community. Those were nice days. And that sense of community has never left Go, which I love. I've got little goosebumps right now, because our community is so awesome.
+**Brian Ketelsen:** Yeah, and the real central figures were the ones that were downstairs at the Marriot in Denver, helping us fill out swag bags and showing up early for the conference and working te -- like, [Cory LaNou](https://twitter.com/corylanou) working the registration desk while everybody else was watching conference talks. He didn't have to do that, but that was his contribution to the community. Those were nice days. And that sense of community has never left Go, which I love. I've got little goosebumps right now, because our community is so awesome.
 
 **Erik St. Martin:** Now, Vitor, do you get a lot of volunteers for GopherCon Brazil?
 
-**Vitor De Mario:** We did a lot more this year than the last one, in 2017 than 2016, because I think a lot of people heard about it. Actually, one of the volunteers helped us a lot, and I kind of wanna name her, which was Ellen Körbes. I hope I'm saying her name right. She did a lot for us and she was there -- before the conference started, she was already helping us, and she did a lot as the conference continued, and even in the last day he did one of the workshops with Daniela Petruzalek.They both teamed up and in the end they did one of the best workshops at the conference. So Ellen did a lot for us, and a lot of other people also talked about maybe helping as volunteers, but she was the main one.
+**Vitor De Mario:** We did a lot more this year than the last one, in 2017 than 2016, because I think a lot of people heard about it. Actually, one of the volunteers helped us a lot, and I kind of wanna name her, which was [Ellen Körbes](https://twitter.com/ellenkorbes). I hope I'm saying her name right. She did a lot for us and she was there -- before the conference started, she was already helping us, and she did a lot as the conference continued, and even in the last day he did one of the workshops with [Daniela Petruzalek](https://twitter.com/danicat83).They both teamed up and in the end they did one of the best workshops at the conference. So Ellen did a lot for us, and a lot of other people also talked about maybe helping as volunteers, but she was the main one.
 
 **Erik St. Martin:** That's awesome.
 
@@ -510,9 +510,9 @@ I don't know, I'm not taking sides, just trying to...
 
 **Erik St. Martin:** I applaud everybody who volunteers and helps out, especially for some of the conferences and stuff like that where they're not commercial events. It's a lot of people making sacrifices of their personal time... So for anybody who's willing to do that, I applaud them.
 
-**Vitor De Mario:** Daniela wasn't actually a volunteer, but she kind of ended up being in a similar way to Ellen, because she spoke, she did a workshop, she came up with the idea of doing a diversity scholarship for us for the first time as well, and she helped Carlisia as well with her talk... She was pretty much everywhere. I don't know how she survived the conference doing everything that she did, but we wouldn't be the same without everything that Daniela did.
+**Vitor De Mario:** Daniela wasn't actually a volunteer, but she kind of ended up being in a similar way to Ellen, because she spoke, she did a workshop, she came up with the idea of doing a diversity scholarship for us for the first time as well, and she helped [Carlisia](https://twitter.com/carlisia) as well with her talk... She was pretty much everywhere. I don't know how she survived the conference doing everything that she did, but we wouldn't be the same without everything that Daniela did.
 
-**Brian Ketelsen:** Well, speaking of that, if you go to her Twitter, which is @Danicat83, she's running a fundraiser to go talk at a conference in San Francisco, and I donated to that this morning because I would love to see her talk. So if you are able to go donate to that, it's definitely a worthy cause. She's an amazing helper in our community, so go help if you can.
+**Brian Ketelsen:** Well, speaking of that, if you go to her Twitter, which is [@Danicat83]((https://twitter.com/danicat83)), she's running a fundraiser to go talk at a conference in San Francisco, and I donated to that this morning because I would love to see her talk. So if you are able to go donate to that, it's definitely a worthy cause. She's an amazing helper in our community, so go help if you can.
 
 **Carlisia Pinto:** \[00:48:19.22\] Absolutely.
 
@@ -520,7 +520,7 @@ I don't know, I'm not taking sides, just trying to...
 
 **Erik St. Martin:** Sounds good to me!
 
-**Brian Ketelsen:** Alright, I've gotta start this one, because Erik, I can't even believe you kicked me out of the last one. What the hell...? So \#FreeSoftwareFriday, this is big, too - how long have we waited for a new version of Bootstrap? A couple years. Bootstrap 4 dropped today, and it's looking good. And I'm sorry, but I know I'm gonna lose my hipster credentials... I think pretty much anything made with Bootstrap looks good, and they did a great job with it, and I think Bootstrap websites are pleasing. Showing my age probably, but dammit, I like Bootstrap.
+**Brian Ketelsen:** Alright, I've gotta start this one, because Erik, I can't even believe you kicked me out of the last one. What the hell...? So \#FreeSoftwareFriday, this is big, too - how long have we waited for a new version of Bootstrap? A couple years. [Bootstrap 4](https://github.com/twbs/bootstrap) dropped today, and it's looking good. And I'm sorry, but I know I'm gonna lose my hipster credentials... I think pretty much anything made with Bootstrap looks good, and they did a great job with it, and I think Bootstrap websites are pleasing. Showing my age probably, but dammit, I like Bootstrap.
 
 **Erik St. Martin:** It's interesting, because I cut my teeth in web development. I've gone from the table-based design, to DIV based in CSS and all that stuff, then the grid frameworks... Grid frameworks in CSS were like Javascript frameworks now - so many new ones are getting kicked off all the time, and Bootstrap has kind of come around, and that's one of my favorites. There's two now that I kind of look at. I'll admit, I'm not as connected to that world, so there may be more now, and I may be wrong about the fact that CSS frameworks aren't popping up every day again.
 
@@ -536,7 +536,7 @@ I don't know, I'm not taking sides, just trying to...
 
 **Brian Ketelsen:** Yeah, check me!
 
-**Carlisia Pinto:** Not only I knew about it, but I've used it, and he's like "How did I not know about this?" So it just goes to show, you know, it bears repeating... Some of the projects bear repeating; not everybody knows about even the really good stuff that's out there, so my shoutout goes to Kelsey Hightower's configuration library called envconfig, which is really neat. It just lets you hide your environment variables in a file, and using it in the application. It's pretty neat.
+**Carlisia Pinto:** Not only I knew about it, but I've used it, and he's like "How did I not know about this?" So it just goes to show, you know, it bears repeating... Some of the projects bear repeating; not everybody knows about even the really good stuff that's out there, so my shoutout goes to [Kelsey Hightower's](https://twitter.com/kelseyhightower) configuration library called [envconfig](https://github.com/kelseyhightower/envconfig), which is really neat. It just lets you hide your environment variables in a file, and using it in the application. It's pretty neat.
 
 **Vitor De Mario:** Yeah, I've used it for many years and I love it. It's really flexible, it's really easy to use, and it solves a lot of problems.
 
@@ -588,7 +588,7 @@ I don't know, I'm not taking sides, just trying to...
 
 **Erik St. Martin:** Vitor, did you have somebody you wanted to give a shoutout to?
 
-**Vitor De Mario:** Yeah, I have a library to talk about here on the show called GoReleaser. It's done by another guy in Brazil, his name is Carlos Becker, and it's got like more than 2,000 stars on GitHub and it creates Go binaries from pretty much every platform you can imagine, it helps you create GitHub releases, push your software as a homebrew formula and all those kinds of things. I've heard of other project using his software to make the release of new versions easier, and it's been pretty successful.
+**Vitor De Mario:** Yeah, I have a library to talk about here on the show called [GoReleaser](https://github.com/goreleaser/goreleaser). It's done by another guy in Brazil, his name is Carlos Becker, and it's got like more than 2,000 stars on GitHub and it creates Go binaries from pretty much every platform you can imagine, it helps you create GitHub releases, push your software as a homebrew formula and all those kinds of things. I've heard of other project using his software to make the release of new versions easier, and it's been pretty successful.
 
 **Brian Ketelsen:** Yeah, GoReleaser is awesome. I have a confession to make... At my GolangUK talk I announced -- was it GolangUK? Some talk late last year I announced gopher.rocks, which was the same thing - the ability to tag and release stuff to GitHub, and then three weeks after I did that talk, I found GoReleaser, and it's done and it's beautiful and it had a million better features than gopher.rocks', and I just abandoned it, because GoReleaser does it all already, so... Yeah, thank you for that.
 
@@ -600,21 +600,21 @@ I don't know, I'm not taking sides, just trying to...
 
 **Brian Ketelsen:** Yeah, it doesn't hurt my feelings, it's kind of awesome that it exists and it's far better.
 
-**Vitor De Mario:** Yeah, I wanted to highlight it too because of the fact that a Brazilian did it, so I kind of had to talk about it. And envconfig, which talked about - I saw someone saying in the same thread that she mentioned (with Francesc) that it's also kind of a competitor made by a guy from Sao Paolo here, which participates a lot in our meetups, which is... I don't remember the name of the library -- something-config, but it's from crgimenes on GitHub... So I'm kind of happy to see these projects coming out of Brazil. Sometimes we are kind of silent here, nobody knows what's going on, but there are a few cool projects coming out of the country as well.
+**Vitor De Mario:** Yeah, I wanted to highlight it too because of the fact that a Brazilian did it, so I kind of had to talk about it. And envconfig, which Carlisia talked about - I saw someone saying in the same thread that she mentioned (with Francesc) that it's also kind of a competitor made by a guy from Sao Paolo here, which participates a lot in our meetups, which is... I don't remember the name of the library -- something-config, but it's from [crgimenes](https://github.com/crgimenes) on GitHub... So I'm kind of happy to see these projects coming out of Brazil. Sometimes we are kind of silent here, nobody knows what's going on, but there are a few cool projects coming out of the country as well.
 
 **Carlisia Pinto:** \[00:56:07.05\] So people have to go to Brazil and meet all these amazing developers.
 
 **Vitor De Mario:** Yes, and GopherCon Brazil is the best opportunity for that. Everyone is gonna be in the same place.
 
-**Brian Ketelsen:** Isn't Tsuru come out of Brazil, too?
+**Brian Ketelsen:** Isn't [Tsuru](https://github.com/tsuru/tsuru) come out of Brazil, too?
 
 **Carlisia Pinto:** Yeah.
 
 **Brian Ketelsen:** Okay.
 
-**Vitor De Mario:** And I heard about GoReleaser because of Tsuru. One of the Tsuru guys, who is also one of the organizers of GopherCon Brazil, Guilherme, he was talking about it with the GoReleaser created on Twitter, so... Tsuru is one of our most successful projects, for sure.
+**Vitor De Mario:** And I heard about GoReleaser because of Tsuru. One of the Tsuru guys, who is also one of the organizers of GopherCon Brazil, [Guilherme](https://twitter.com/gbrezende), he was talking about it with the GoReleaser created on Twitter, so... Tsuru is one of our most successful projects, for sure.
 
-**Carlisia Pinto:** Guilherme or Andrews?
+**Carlisia Pinto:** Guilherme or [Andrews](https://twitter.com/andrewsmedina)?
 
 **Vitor De Mario:** No, I saw Guilherme talking with Carlos.
 
@@ -628,7 +628,7 @@ I don't know, I'm not taking sides, just trying to...
 
 **Brian Ketelsen:** How about you, Erik? Did you have a \#FreeSoftwareFriday today?
 
-**Erik St. Martin:** I did. So last week or the week before we were kind of talking about serverless a little bit, and there's this really cool project by Alex Ellis called OpenFaaS, which is Open Functions as a Service. It can basically have your functions backed by Docker containers, and kind of a way to do serverless that way. I think they call it like OpenFaaS Netes, which allows you to have it backed by Kubernetes.
+**Erik St. Martin:** I did. So last week or the week before we were kind of talking about serverless a little bit, and there's this really cool project by Alex Ellis called [OpenFaaS](https://twitter.com/andrewsmedina), which is Open Functions as a Service. It can basically have your functions backed by Docker containers, and kind of a way to do serverless that way. I think they call it like OpenFaaS Netes, which allows you to have it backed by [Kubernetes](https://kubernetes.io/).
 
 **Brian Ketelsen:** Yeah, OpenFaaS by itself doesn't' require Kubernetes, but there is a -- I think they've got the Kubernetes bit merged in, so that you can use Kubernetes as part of OpenFaaS if you want to, so you can deploy it on Kubernetes or off. It is really slick stuff.
 
