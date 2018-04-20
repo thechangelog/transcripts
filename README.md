@@ -31,12 +31,12 @@ This project follows the [all-contributors](https://github.com/kentcdodds/all-co
 
 Pull requests, please! Our transcriptions are lovingly crafted by a human, but they're nowhere near perfect. Specific things we'd love help with:
 
-- Replacing the keyword 'unintelligible' with the correct word/phrase
+- Replacing the keyword 'unintelligible' with the correct word/phrase ([list of unintelligibles](https://github.com/thechangelog/transcripts/search?utf8=✓&q=unintelligible))
 - Adding links to referenced URLs, projects, etc.
 - Adding timestamps to key/beloved statements and sections
 - Fixing typos
 
-### Why Contributing Is Worth Your Time
+### Why contributing is worth your time
 
 1. Once merged, your contribution will immediately (pending webhook execution) appear on the episode page for all to use/enjoy!
 2. We routinely send thank you's on the air and on Twitter!
@@ -54,7 +54,7 @@ For example, [the episode that lives at](https://changelog.com/rfc/13): `https:/
 
 Has [its transcript in this repo at](https://github.com/thechangelog/transcripts/rfc/request-for-commits-13.md): `rfc/request-for-commits-13.md`
 
-### Text Formatting
+### Text formatting
 
 Each transcript fragment is parsed as good ole' [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). That means you can add `*`s or `_`s for emphasis, `[links](https://changelog.com)` to referenced people/projects, etc. We _especially_ encourage addition of links. These make the transcripts much more useful to readers and provide valuable SEO juice to the link-worthy things we discuss on our shows.
 
