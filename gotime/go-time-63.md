@@ -64,9 +64,9 @@
 
 **Adam Stacoviak:** That's right. You were right, Jerod, I'm ignorant. Go ahead.
 
-**Jerod Santo:** Well, since we've established that, help us out here, guys. Help us understand Virtual Kubelet - what it is, who built it... The whole spiel, and then we'll pour into all sorts of questions and side conversations around it, but why don't you two give us the rundown?
+**Jerod Santo:** Well, since we've established that, help us out here, guys. Help us understand [Virtual Kubelet](https://github.com/virtual-kubelet/virtual-kubelet) - what it is, who built it... The whole spiel, and then we'll pour into all sorts of questions and side conversations around it, but why don't you two give us the rundown?
 
-**Erik St. Martin:** So I guess to kind of fully understand it, how familiar are you with Kubernetes itself?
+**Erik St. Martin:** So I guess to kind of fully understand it, how familiar are you with [Kubernetes](https://kubernetes.io/) itself?
 
 **Jerod Santo:** So we've done shows on Kubernetes, which means we've had smart people teach us about it, and we haven't actually used it IRL, or anything, so it's very much academic and somewhat transient knowledge that floats in and out between my ears; I don't know if that speaks for you, Adam, but very generic knowledge, no practical use of it, so a general rundown would be nice, too.
 
@@ -78,11 +78,11 @@ So you just submitted a pod, I see a pod in the API, but I don't see a pod runni
 
 **Jerod Santo:** Who decides what a reconciliation looks like?
 
-**Erik St. Martin:** That would be the job of the controller. There's different controllers - there's a controller manager process that runs that kind of encompasses some of those, but in some cases, like with the operator pattern, like Prometheus and things, it has its own controller. And the controller's job is just to kind of look at what's in the API and watch it and monitor the thing that it controls and try to reconcile the differences. In the case of a pod, first the scheduler kind of jumps in and assigns a node through kind of looking at what else is running and available resources... But yeah, each resource type kind of works the same way - you're just kind of inserting it, and some process or another within the system is monitoring that and then trying to reconcile the differences. It's just kind of like a big reconciliation loop.
+**Erik St. Martin:** That would be the job of the controller. There's different controllers - there's a controller manager process that runs that kind of encompasses some of those, but in some cases, like with the operator pattern, like [Prometheus](https://prometheus.io) and things, it has its own controller. And the controller's job is just to kind of look at what's in the API and watch it and monitor the thing that it controls and try to reconcile the differences. In the case of a pod, first the scheduler kind of jumps in and assigns a node through kind of looking at what else is running and available resources... But yeah, each resource type kind of works the same way - you're just kind of inserting it, and some process or another within the system is monitoring that and then trying to reconcile the differences. It's just kind of like a big reconciliation loop.
 
 The Kubelet is actually the agent that runs on all your worker nodes, and it looks at the things that the scheduler has assigned to it, and looks at what's running in Docker and then reconciles the differences. It sees a pod in the API that it doesn't have running, it starts it; if it sees something running that is no longer in Kubernetes' API that's assigned to it, it deletes it, and that's sort of just rinse and repeat, that's how the process works.
 
-The Kubelet has a bunch of other jobs, too. I actually wrote a blog post today that kind of points out some of that stuff; it looks at the pod and it tries to fetch the images from the image repo, it attaches volumes to the containers, it handles the kind of networking, setting up the interfaces and dropping them in the container... So it's kind of the workhorse for each node.
+The Kubelet has a bunch of other jobs, too. I actually wrote a [blog post](https://erikstmartin.com/post/virtual-kubelet/) today that kind of points out some of that stuff; it looks at the pod and it tries to fetch the images from the image repo, it attaches volumes to the containers, it handles the kind of networking, setting up the interfaces and dropping them in the container... So it's kind of the workhorse for each node.
 
 **Adam Stacoviak:** What's the point of it? From my understanding, it's supposed to allow outside systems to call into the Kubernetes cluster?
 
@@ -130,7 +130,7 @@ It's super interesting because of the use cases. We talked a bit about that, and
 
 **Jerod Santo:** So the cynic might say, "Okay, this is a hack so that you can run ACI with Kubernetes, and that's very much trying to get us to just use ACI." Are there other uses? Is this what it's for? Does it go above and beyond, or is that the goal, and now the goal's accomplished, and now we should go try it with ACI?
 
-**Erik St. Martin:** No, we created it with kind of like the modular back-end; we wanna encourage other people to implement these. We've got companies like Hyper.sh jumping on to build a connector to their systems... So we'd like to see this expand out more. Would we love you to use this with ACI? Absolutely. But I think it's more important than that, because we've got kind of like the Kubernetes landscape going on, but serverless is also catching on, and I think that this type of Virtual Kubelet scenario is a really awesome bridge in between the two, where you have these workloads that are really intermittent, whether that's a spike in traffic, or a batch job, or just CI/CD, right? Think about a commit-heavy day in CI/CD and how long you might have to wait for your commit to run through CI/CD, because you only have one virtual machine dedicated to that, so you only run five in parallel, or whatever you have that configured for.
+**Erik St. Martin:** No, we created it with kind of like the modular back-end; we wanna encourage other people to implement these. We've got companies like [Hyper.sh](https://github.com/hyperhq) jumping on to build a connector to their systems... So we'd like to see this expand out more. Would we love you to use this with ACI? Absolutely. But I think it's more important than that, because we've got kind of like the Kubernetes landscape going on, but serverless is also catching on, and I think that this type of Virtual Kubelet scenario is a really awesome bridge in between the two, where you have these workloads that are really intermittent, whether that's a spike in traffic, or a batch job, or just CI/CD, right? Think about a commit-heavy day in CI/CD and how long you might have to wait for your commit to run through CI/CD, because you only have one virtual machine dedicated to that, so you only run five in parallel, or whatever you have that configured for.
 
 This -- you don't even actually have to have a VM for your CI/CD, right? It doesn't matter whether there's one commit or 20, they just fan out in parallel and you just kind of pay per second while they're running, and when they're done, they're done. And in a lot of cases, it may actually be cheaper for you to do that, because you're not paying for all that idle time.
 
@@ -142,7 +142,7 @@ This -- you don't even actually have to have a VM for your CI/CD, right? It does
 
 **Erik St. Martin:** So adding to Brian's point about the community aspect, I think that we're trying to evolve our own products and make them more usable and offer things to help customers solve problems, and I think things like Virtual Kubelet definitely do that, but I think more importantly though is the advancement of the community and the technology, and we're -- you know, Kubernetes is still so new when we're trying to figure out innovative ways to use it and run it in different scenarios, for different workloads, and how to do that efficiently. So I think this is valuable internally to Microsoft, but we could also see the value to the broader community, and I think that's why we decided that this should be done completely in the open.
 
-Now, as far as "Did things like this exist?", not to my knowledge. A few months ago Brendan Burns and a couple of other people put together a prototype of something like this to connect ACI to Kubernetes, kind of proved out the concept, and we kind of decided to take that and turn it into a much more fledged-out product, with more features, and a community effort.
+Now, as far as "Did things like this exist?", not to my knowledge. A few months ago [Brendan Burns](https://twitter.com/brendandburns) and a couple of other people put together a prototype of something like this to connect ACI to Kubernetes, kind of proved out the concept, and we kind of decided to take that and turn it into a much more fledged-out product, with more features, and a community effort.
 
 I think there's some stuff for doing serverless with Kubernetes; correct me if I'm wrong, Brian, but I can't remember the name of the project... There's one out there. But I think we saw this as kind of more of -- so serverless I think was containers; you have the warm-up time of the container and stuff, and I don't know whether we're quite there yet, but definitely the batch and CI/CD jobs and bursting out into a cloud provider - I think that that's the main appeal in the core use cases we're focusing on first.
 
@@ -176,7 +176,7 @@ When you think about developing products, you wanna create good things that peop
 
 **Break:** \[00:24:49.20\]
 
-**Adam Stacoviak:** So Erik, when we were at KubeCon you mentioned to me this project, and sort of the back-story on how it came together was I guess being in Austin for a week or so prior to the actual conference, and you were sort of already there for a couple of weeks. Can you kind of talk about maybe the early process of organizing that and maybe whatever the back-story might be to kicking off this project?
+**Adam Stacoviak:** So Erik, when we were at [KubeCon](https://kccncna17.sched.com/) you mentioned to me this project, and sort of the back-story on how it came together was I guess being in Austin for a week or so prior to the actual conference, and you were sort of already there for a couple of weeks. Can you kind of talk about maybe the early process of organizing that and maybe whatever the back-story might be to kicking off this project?
 
 **Erik St. Martin:** Yeah, I didn't organize it per se; we had talked about rewriting this in Go, because a lot of the people who were working on similar projects in Kubernetes itself, that was the language it was written in, and then it sort of evolved into this "Well, wouldn't it be cool if...?" We didn't really dictate what the back-end was, we just kind of provided this project where you can kind of invent what the node actually represents.
 
@@ -196,7 +196,7 @@ We kind of all got together for a week, and it was actually -- even internally t
 
 As far as turning it into a modular open source project, I don't really know either. We got together to talk about porting it to Go and fixing a couple of issues and adding some needed features, and then I think it was just kind of like this collaborative brainstorm of "Well, we could do this, and we could do that... We could make it an interface that could be implemented", and it just sort of evolved organically through these discussions. Those things are usually hard to remember.
 
-**Brian Ketelsen:** I just scrolled back through Slack and it was Erik's idea to turn it into a Go interface that anybody could implement so that any provider would work. So Erik, once again, is being shy and humble, but it was absolutely his idea to turn this into more than just the ACI connector and turn it into something big.
+**Brian Ketelsen:** I just scrolled back through Slack and it was [Erik's](https://twitter.com/erikstmartin) idea to turn it into a Go interface that anybody could implement so that any provider would work. So Erik, once again, is being shy and humble, but it was absolutely his idea to turn this into more than just the ACI connector and turn it into something big.
 
 **Adam Stacoviak:** Nice! Can you recall that, Erik, or are you just being humble? \[laughter\]
 
@@ -210,11 +210,11 @@ As far as turning it into a modular open source project, I don't really know eit
 
 **Erik St. Martin:** Well, I think Microsoft is community-oriented too, right? It was meant to be open source from the beginning when we started building it. As far as other people implementing that stuff, it's really interesting because what IP are you really protecting? Look at all of us who came together in a week and kind of got to where we're at... So if you hoard it to yourself and not to everybody else, how long would it really take them to make something that's similar...? So what's the point?
 
-**Adam Stacoviak:** Well, it was also self-evident too at KubeCon, just how much the community had grown, and it was all because of the original idea, which was to not keep Kubernetes a Google thing and make it more of a community thing, and then ultimately be donated to the CNCF Cloud Foundation (Cloud Computing Foundation), to have that as like an underlying DNA... It was self-evident at that conference, so I would imagine that being there, once you got there and just kind of seeing how the community has grown, that that's the way things should operate in this community.
+**Adam Stacoviak:** Well, it was also self-evident too at KubeCon, just how much the community had grown, and it was all because of the original idea, which was to not keep Kubernetes a Google thing and make it more of a community thing, and then ultimately be donated to the [CNCF](https://www.cncf.io/) Cloud Foundation (Cloud Computing Foundation), to have that as like an underlying DNA... It was self-evident at that conference, so I would imagine that being there, once you got there and just kind of seeing how the community has grown, that that's the way things should operate in this community.
 
 **Erik St. Martin:** It's always a juggle, right? Because on one hand you have to have your IP, you have products and you want to evolve those, and you wanna kind of keep stuff to yourself, so that you have these value-adds over competitors. From a business perspective it's totally understandable, but I think on the other side of it, all of the cloud giants and things like that see the value of working together to evolve the space.
 
-\[00:32:00.28\] From my perspective - and don't know if this is Microsoft's view, but this is definitely mine... Competing for customers is kind of a losing game. I don't think if we offered Netflix free services forever that we could ever get them to convert over, right? So the idea of trying to compete directly and steal customers - I think that you're putting in a lot more effort for little reward. Now, building abstractions, Virtual Kubelet, building things like Helm and Brigade and things like that that help make the cloud, and things like Kubernetes and containers more approachable to a broader audience - now you're creating more customers for everybody, right? Because there's more people that have not adopted the cloud than there are people there, and it makes far more sense for us to keep helping make it more approachable than it does to sit here and try to compete feature for feature, or hoard our knowledge in projects and stuff like that.
+\[00:32:00.28\] From my perspective - and don't know if this is Microsoft's view, but this is definitely mine... Competing for customers is kind of a losing game. I don't think if we offered Netflix free services forever that we could ever get them to convert over, right? So the idea of trying to compete directly and steal customers - I think that you're putting in a lot more effort for little reward. Now, building abstractions, Virtual Kubelet, building things like [Helm](https://helm.sh/) and [Brigade](https://brigade.sh/) and things like that that help make the cloud, and things like Kubernetes and containers more approachable to a broader audience - now you're creating more customers for everybody, right? Because there's more people that have not adopted the cloud than there are people there, and it makes far more sense for us to keep helping make it more approachable than it does to sit here and try to compete feature for feature, or hoard our knowledge in projects and stuff like that.
 
 **Adam Stacoviak:** Well, speaking of people, let's give some credit to those who are part of the team, but as a by-product of that, can you talk about -- something you said earlier was you all hacked on it prior to the conference, but the idea was spawned to go ahead of time and sort of time-box some collected effort. It seemed a little bit like tunnel vision to focus on it, and out on the other end came this prototypical project, in time for the conference. Can you give some credit to the team that was involved and mention some names, but then also talk about what it was like to meet up ahead of time, where you met...? What were some of the circumstances you were in to make sure that you were all very productive?
 
@@ -232,7 +232,7 @@ As far as turning it into a modular open source project, I don't really know eit
 
 So there's all these creative things, and I'm really interested to hear other things people come up with, but I think the primary focus for at least phase one of rolling this out to be production-ready would probably be more along the lines of like your batch and CI/CD type stuff, where your core cluster where you have your provision VMs that are just on 24/7, they're kind of set up at a capacity to handle your normal workload, with some headroom, and things like that... But then allow you to run your batch work that may be really intensive, or it takes a long time only running a single instance of; you could run as many as you want in parallel. And batch, CI/CD - think about it the same way. But those can run out in this virtual node that's ACI, and you're only paying for the time that they're running. And they don't have to be run serially, they can be run completely in parallel and you're paying the same amount of money, it doesn't really matter. But then you're not paying for this idle resources running, so that you have leftover capacity for when your batch job runs at 3 AM, or whatever.
 
-**Jerod Santo:** One thing you mentioned about serverless which definitely piqued my interest when I saw it is that you may have issues with warm-up time, because basically the containers need to spin up and spin down. Can you expand on that, and tell me why that's different than a Lambda, or... I'm sure Azure has a serverless thing - what's Azure's called?
+**Jerod Santo:** One thing you mentioned about serverless which definitely piqued my interest when I saw it is that you may have issues with warm-up time, because basically the containers need to spin up and spin down. Can you expand on that, and tell me why that's different than a [Lambda](https://en.wikipedia.org/wiki/AWS_Lambda), or... I'm sure Azure has a serverless thing - what's Azure's called?
 
 **Brian Ketelsen:** Azure Functions.
 
@@ -240,7 +240,8 @@ So there's all these creative things, and I'm really interested to hear other th
 
 **Erik St. Martin:** I'll leave this to Brian to describe, because I'm newer to the serverless world, so I think he would have a much better explanation than me.
 
-**Brian Ketelsen:** \[00:39:46.23\] First of all, I have to find that amusing, if I'm the resident expert on services... \[laughter\] Because that's just hilarious. But on the serverless side, when you're running a function, you generally are executing code live in some sort of environment, but if you were to use ACI or some other Kubernetes-inspired thing to do that, then you'd have to download a container from a container registry, a Docker container... And the time that it takes to download that container could impact your startup time, which would make your serverless function slower on the first run, or on the first run on each node, since that Docker container would be cached for the second runs. So there definitely would be an impact in startup time with a container versus not a container.
+**Brian Ketelsen:** \[00:39:46.23\] First of all, I have to find that amusing, if I'm the resident expert on services
+... \[laughter\] Because that's just hilarious. But on the serverless side, when you're running a function, you generally are executing code live in some sort of environment, but if you were to use ACI or some other Kubernetes-inspired thing to do that, then you'd have to download a container from a container registry, a Docker container... And the time that it takes to download that container could impact your startup time, which would make your serverless function slower on the first run, or on the first run on each node, since that Docker container would be cached for the second runs. So there definitely would be an impact in startup time with a container versus not a container.
 
 **Jerod Santo:** Since you're the expert, Brian, how do they do it on Azure Functions and AWS Lambda? Surely, they have to spin up something on-demand as well in order to get the environment ready for you.
 
@@ -258,11 +259,11 @@ It's working its way towards production. We've got some people using it internal
 
 **Erik St. Martin:** \[00:44:10.25\] I'm really surprised by the number of people who see the vision. I knew for us and Hyper.sh who had forked our original connector that Brendan Burns had written - I knew those people would get it, like "Oh yeah, we can work on it together." But the number of people who saw the vision of like "Oh cool, now we can Kubernetes and it doesn't actually have to be backed by a physical node...", and use some of this on-demand infrastructure as part of your normal cluster - it was actually really cool to see that, and to see one of the keynote speakers mention that... It was just like, "Whoa...!"
 
-**Brian Ketelsen:** Yeah, one of the things that I'd like to see, and I would write if I had any time, is something like Xen Hypervisor adapter for Virtual Kubelet. Xen has an API - not a complicated one even - and it would be relatively painless to stand up a Xen node and use the Virtual Kubelet to run workloads inside Xen virtual machines, easily. That's another use case that would be really straightforward with Virtual Kubelet.
+**Brian Ketelsen:** Yeah, one of the things that I'd like to see, and I would write if I had any time, is something like Xen Hypervisor adapter for Virtual Kubelet. [Xen](https://www.xenproject.org/) has an API - not a complicated one even - and it would be relatively painless to stand up a Xen node and use the Virtual Kubelet to run workloads inside Xen virtual machines, easily. That's another use case that would be really straightforward with Virtual Kubelet.
 
 **Break:** \[00:45:30.18\] to \[00:46:09.14\]
 
-**Brian Ketelsen:** Alright, so this is a hybrid show with Changelog and the GoTime.fm crew. In the GoTime Podcast we like to bring up interesting news and interesting projects that have come across our news desks over the course of the week, so we're gonna kick that off now. Lots of interesting things have happened since the last time we gave out news. Probably the biggest is the Go 1.10 Beta 1 release. Lots of things changed there behind the scenes, not a lot changed that's visible though, which is kind of nice... As per the Go usual. Erik did you have any favorite feature of Go 1.10 that you wanted to hit?
+**Brian Ketelsen:** Alright, so this is a hybrid show with Changelog and the GoTime.fm crew. In the GoTime Podcast we like to bring up interesting news and interesting projects that have come across our news desks over the course of the week, so we're gonna kick that off now. Lots of interesting things have happened since the last time we gave out news. Probably the biggest is the Go 1.10 Beta 1 release. Lots of things changed there behind the scenes, not a lot changed that's visible though, which is kind of nice... As per the Go usual. Erik did you have any favorite feature of [Go 1.10](https://beta.golang.org/doc/go1.10) that you wanted to hit?
 
 **Erik St. Martin:** I mean, with every Go release there's always performance improvements, and I know that there was some stuff in there about lowering allocation latency and improving the garbage collector, but a lot of the stuff that I saw that was really cool was surrounding testing. It now supports caching your test results. If it knows that none of the code behind it has been changed, it just runs and then produces the output of the last run and shows that it's cached. So that should make consistently running your unit tests (your whole suite) much faster. It also runs govet before it does the tests, which is super cool.
 
@@ -270,7 +271,7 @@ It's working its way towards production. We've got some people using it internal
 
 \[00:48:11.29\] So now it will only compile the things that are absolutely necessary to compile, and that benefit will be mainly in compile times, but it also comes across in terms of tests, too. So we don't have to rerun tests that have already run successfully with the exact same code... So I'm looking forward to increased speed for compile times; that will be fun, as always.
 
-**Erik St. Martin:** Another exciting thing is if you're not watching the Gopher Academy Blog, we started our annual Advent Series, and there's a whole bunch of good articles in there already, like writing a Kubernetes-ready service from zero, there's a gRPC one in there in Go, Brian wrote one about repeatable and isolated development environments for Go, Damian Gryski wrote one on minimal perfect hash functions... So there's a bunch of good ones in there already. That's not like all the ones I say are good, these are just the ones that I can think of off the top of my head, and there's still a couple weeks left, so definitely follow that if you're not already... We'll drop a link in the show notes.
+**Erik St. Martin:** Another exciting thing is if you're not watching the Gopher Academy Blog, we started our annual [Advent Series](https://www.gopheracademy.com/series/advent-2017/), and there's a whole bunch of good articles in there already, like writing a Kubernetes-ready service from zero, there's a gRPC one in there in Go, Brian wrote one about repeatable and isolated development environments for Go, Damian Gryski wrote one on minimal perfect hash functions... So there's a bunch of good ones in there already. That's not like all the ones I say are good, these are just the ones that I can think of off the top of my head, and there's still a couple weeks left, so definitely follow that if you're not already... We'll drop a link in the show notes.
 
 **Brian Ketelsen:** Yeah, it's a really good series this year, lots of really great articles. So I came across something that should inspire the hackers in all of us. Everybody who has anything close to a modern car has that obd2 port underneath the dash, and I've always wanted to play with it, interface my--
 
@@ -308,13 +309,13 @@ It's working its way towards production. We've got some people using it internal
 
 **Brian Ketelsen:** Sure. It's a Raspberry Pi setup that Erik and I have been building for just a little over a year. It includes some hardware pieces, electronic pieces that control the air flow into a fire-driven barbecue... So a real old-school barbecue, with a fire pit. We use a Raspberry Pi that has a relay; the relay turns on or off a fan which feeds the air into the fire pit, which either dampens or increases the fire temperature. Then there are temperature sensors that determine the temperature of the smokebox, so we know whether or not we need to increase the temperature of the fire or just let it smolder for a while.
 
-\[00:52:04.19\] The whole thing feeds MQTT data off to a Grafana dashboard, so we've got gorgeous graphs that show us how hot the food is, how hot the firebox is... It's just a great, big IOT barbecue blast.
+\[00:52:04.19\] The whole thing feeds [MQTT](http://mqtt.org/) data off to a [Grafana](https://grafana.com/) dashboard, so we've got gorgeous graphs that show us how hot the food is, how hot the firebox is... It's just a great, big IOT barbecue blast.
 
 **Jerod Santo:** That's beautiful. Does the chart go online somewhere, so people can remotely participate in your cooking sessions?
 
 **Brian Ketelsen:** It's funny you should ask that... \[laughter\]
 
-**Erik St. Martin:** Brian was gonna do a whole pig one weekend, and this is like when we really threw it together, like "Okay, we need graphs and charts and stuff with Grafana... And I think it was me who came up with the domain name, but I happened to search and bbq.live was available, and we were both like, "Yes!"
+**Erik St. Martin:** Brian was gonna do a whole pig one weekend, and this is like when we really threw it together, like "Okay, we need graphs and charts and stuff with Grafana... And I think it was me who came up with the domain name, but I happened to search and [bbq.live](http://bbq.live) was available, and we were both like, "Yes!"
 
 **Jerod Santo:** So it is live. You got it? I'm loading it up right now...
 
@@ -348,7 +349,7 @@ It's working its way towards production. We've got some people using it internal
 
 **Brian Ketelsen:** So it kind of connects to the CAN bus that goes throughout the car where all the messages from the internal computers kind of share... So yeah, you do have the ability to sometimes change stuff. You can definitely pick up the speed of the car, and RPMs and things like that through that port.
 
-**Adam Stacoviak:** And move the governor.
+**Adam Stacoviak:** Remove the governor...
 
 **Brian Ketelsen:** Well yeah, how much you can change really depends on the car manufacturer. Some manufacturers have a decently secure system, and some are wide open. I mean, you could literally do things like turn on the turn signals from your computer.
 
@@ -370,7 +371,7 @@ It's working its way towards production. We've got some people using it internal
 
 **Adam Stacoviak:** And the manufacturer's like "What are you doing with the --" what is it, ODB2 port?
 
-**Erik St. Martin:** OBD.
+**Erik St. Martin:** [OBD](https://en.wikipedia.org/wiki/On-board_diagnostics).
 
 **Brian Ketelsen:** Yeah, I said it wrong the first couple times and now it's gonna stick.
 
@@ -406,11 +407,11 @@ It's working its way towards production. We've got some people using it internal
 
 **Adam Stacoviak:** Any more fun news to cover?
 
-**Erik St. Martin:** There was the Joy Compiler...
+**Erik St. Martin:** There was the [Joy Compiler](https://github.com/matthewmueller/joy)...
 
 **Adam Stacoviak:** Oh, gosh...!
 
-**Erik St. Martin:** Yeah, which is the new go-to Javascript compiler that recently came out. I haven't had a chance to play with it, so I don't know how it compares to Gopher.js. I don't know whether you have, Brian, but it seemed cool and it's something I will probably try to play with.
+**Erik St. Martin:** Yeah, which is the new go-to Javascript compiler that recently came out. I haven't had a chance to play with it, so I don't know how it compares to [gopherjs](https://github.com/gopherjs/gopherjs). I don't know whether you have, Brian, but it seemed cool and it's something I will probably try to play with.
 
 **Brian Ketelsen:** Yeah, it's not complete enough, so in terms of completeness, Gopher.js is close to 100% or at 100%. Joy, I think they claim roughly 80% complete; there's several things that don't compile from Go to Javascript yet... So it's not quite there.
 
@@ -434,7 +435,7 @@ It's working its way towards production. We've got some people using it internal
 
 **Brian Ketelsen:** Yeah, it's totally cool.
 
-**Adam Stacoviak:** I think it's worth mentioning too the design of this page. I mean, going back to some things we tend to -- we've just had a conversation which is a future episode of the Changelog, it's just like this intention behind your design... This page does instill some joy into me. And for those going to mat.tm/joy, which is the URL to go to to check it out, it says The Joy Compiler, and it's beautiful clouds, vanilla skies, and an air balloon.
+**Adam Stacoviak:** I think it's worth mentioning too the design of this page. I mean, going back to some things we tend to -- we've just had a conversation which is a future episode of the Changelog, it's just like this intention behind your design... This page does instill some joy into me. And for those going to [mat.tm/joy](https://mat.tm/joy/), which is the URL to go to to check it out, it says The Joy Compiler, and it's beautiful clouds, vanilla skies, and an air balloon.
 
 **Brian Ketelsen:** Pretty pastel colors, yeah. It's very joyous. I would agree with that.
 
@@ -444,7 +445,7 @@ It's working its way towards production. We've got some people using it internal
 
 **Jerod Santo:** Let's do it!
 
-**Erik St. Martin:** I'll go first. At KubeCon, Brendan Burns, who works at Microsoft and is one of the co-creators or Kubernetes, announced this new effort he created, which is called Metaparticle (Metaparticle.io) This is extremely interesting... Basically, what it is is this idea that through annotations in code or actually almost like a DSL within the language, just basically libraries that you can include, that you wouldn't have to be familiar with a Docker file and a Kubernetes spec, and whatever you're writing your stuff, and maintain properties like what port it's bound to, and then the container and making sure it exposes it, and making sure the pod spec has that in there, and then making sure that the service that load balances between the instances of it also have that, and there's kind of like this disconnect where if you change things...
+**Erik St. Martin:** I'll go first. At KubeCon, Brendan Burns, who works at Microsoft and is one of the co-creators or Kubernetes, announced this new effort he created, which is called Metaparticle ([Metaparticle.io](https://metaparticle.io/)) This is extremely interesting... Basically, what it is is this idea that through annotations in code or actually almost like a DSL within the language, just basically libraries that you can include, that you wouldn't have to be familiar with a Docker file and a Kubernetes spec, and whatever you're writing your stuff, and maintain properties like what port it's bound to, and then the container and making sure it exposes it, and making sure the pod spec has that in there, and then making sure that the service that load balances between the instances of it also have that, and there's kind of like this disconnect where if you change things...
 
 And it's just a lot for people to understand four or five languages to be able to build an application and deploy it to the cloud... So there's this experiment of this grand vision of what would it be like if it was just part of writing code, like it was a library within your code, and when you compiled it, it just knew how to containerize itself and deploy it... And it's really worth a look, and I'm interested to see these abstractions.
 
@@ -462,9 +463,9 @@ I don't know who coined this, but having conversations with Joseph Jacks, he tal
 
 **Jerod Santo:** Exactly. Who would like to go next?
 
-**Brian Ketelsen:** I will. I've got an interesting terminal emulator that I've found... It's at GitHub.com/eugeny/terminus, and it's yet another Electron app that you can install on Windows, Mac or Linux. I'm using it on Windows because it's actually a really nice Linux feeling terminal emulator, which is something that's missing in the Windows world. So it's a really good emulator for that Linux feel, but on Windows.
+**Brian Ketelsen:** I will. I've got an interesting terminal emulator that I've found... It's at [github.com/eugeny/terminus](https://github.com/Eugeny/terminus), and it's yet another Electron app that you can install on Windows, Mac or Linux. I'm using it on Windows because it's actually a really nice Linux feeling terminal emulator, which is something that's missing in the Windows world. So it's a really good emulator for that Linux feel, but on Windows.
 
-**Jerod Santo:** Well, I'll go next. A project that I love and I'm thankful for, and one that probably everybody has heard of, but still worth all the shoutouts, because Jack Likić's Semantic-UI is a beautiful system akin to a bootstrap or a foundation, but one that just really speaks to both my design sensibilities, and really just the way that you use it once you get used to the semantics of it. It just allows for very quickly cranking out admins and prototypes and stuff like that, in a way that's saved me lots of time, and also made me look not too bad with clients and whatnot over the years...
+**Jerod Santo:** Well, I'll go next. A project that I love and I'm thankful for, and one that probably everybody has heard of, but still worth all the shoutouts, because Jack Likić's [Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) is a beautiful system akin to a bootstrap or a foundation, but one that just really speaks to both my design sensibilities, and really just the way that you use it once you get used to the semantics of it. It just allows for very quickly cranking out admins and prototypes and stuff like that, in a way that's saved me lots of time, and also made me look not too bad with clients and whatnot over the years...
 
 So if you don't know about Semantic-UI - you probably do though, because it's one of those 100,000 stars on GitHub type of projects - check that out, and thanks Jack for all the work you've put into it; I know he has. He's been on the show a few times, and he has a ton of people bugging him all the time about bugs and fixes and improvements, and it's like a huge, massive undertaking and a huge boon to the open source community, so... Check out Semantic-UI.
 
@@ -476,7 +477,7 @@ So if you don't know about Semantic-UI - you probably do though, because it's on
 
 **Erik St. Martin:** It is your turn.
 
-**Adam Stacoviak:** Well, it's a little meta here... I'm gonna mention our transcripts, because it was a participant in Hacktoberfest, and then also 24 pull requests... So if you go to GitHub.com/thechangelog/transcripts, we have all of our episode transcripts in markdown format, open source, meaning that not only can you read them as a markdown file if you wanted to, but you can contribute to them. So that means that if you wanna help clean up "unintelligible", which is super easy to find just by literally searching the repository for "unintelligible", and you wanna listen to episodes and hack... You can easily contribute to open source by fixing those kinds of things.
+**Adam Stacoviak:** Well, it's a little meta here... I'm gonna mention our transcripts, because it was a participant in Hacktoberfest, and then also 24 pull requests... So if you go to [github.com/thechangelog/transcripts](https://github.com/thechangelog/transcripts), we have all of our episode transcripts in markdown format, open source, meaning that not only can you read them as a markdown file if you wanted to, but you can contribute to them. So that means that if you wanna help clean up "unintelligible", which is super easy to find just by literally searching the repository for "unintelligible", and you wanna listen to episodes and hack... You can easily contribute to open source by fixing those kinds of things.
 
 \[01:08:14.28\] I love that they're open source, because that was a dream of mine, and Jerod, you made it a reality, which I think, you know, it pays in spades when you don't really consider the impact of it, but like rewinding... You know, if we didn't do it like this, we would miss out on community. And chris48s and many others have submitted pull requests to improve these transcripts, and I think it's phenomenal. We've got 28 closed pull requests. None of them by me, and none of them by Jerod, you know what I mean?
 
@@ -484,13 +485,13 @@ So if you don't know about Semantic-UI - you probably do though, because it's on
 
 **Adam Stacoviak:** Yeah! I'm gonna just say a few names... We've got Jared Dillard, Sharang (it's some usernames, of course), Shari Hunt, chris48s, Dotan Dimet, Matt Warren... These were all obviously usernames. ShurcooL... Which was a self-correction; that was a GoTime episode. ComodoHacker, beardicus, merikan... Many others. caseyw, listener of GoTime, here in chat obviously; this time I'm not sure, but he usually is. A couple others. PeterMortensen...
 
-The point is that we ship these shows, we transcript them so that they're accessible to anybody, as best we can - not only in audio format, but also text format. We have a human behind the scenes, Alexander, who helps us make sure that every single episode we produce is transcribed to make it accessible, but he's not perfect, and the community can step in and help, and we appreciate it.
+The point is that we ship these shows, we transcript them so that they're accessible to anybody, as best we can - not only in audio format, but also text format. We have a human behind the scenes, [Alexander](https://github.com/alexandrumaier), who helps us make sure that every single episode we produce is transcribed to make it accessible, but he's not perfect, and the community can step in and help, and we appreciate it.
 
 **Erik St. Martin:** You know, I think even outside accessibility it's nice for discoverability, right?
 
 **Adam Stacoviak:** Reading along... Cmd+F...
 
-**Jerod Santo:** It doesn't hurt for SEO for sure, but I'll tell you where it really helps... It's on the off-chance - and this happens once in a while - that somebody submits one of our shows to Hacker News, which is just the loveliest group of hackers in the world, every single time somebody would say "TLDL" (Too Long, Didn't Listen). They're like, "Why aren't there transcripts?" They've always complained, "I wanna just read this, I don't wanna listen. It takes too long." And finally, finally we can hear silence, as there's a transcript right there for you, and there's nothing to complain about. That's my own personal enjoyment.
+**Jerod Santo:** It doesn't hurt for SEO for sure, but I'll tell you where it really helps... It's on the off-chance - and this happens once in a while - that somebody submits one of our shows to [Hacker News](https://news.ycombinator.com/), which is just the loveliest group of hackers in the world, every single time somebody would say "TLDL" (Too Long, Didn't Listen). They're like, "Why aren't there transcripts?" They've always complained, "I wanna just read this, I don't wanna listen. It takes too long." And finally, finally we can hear silence, as there's a transcript right there for you, and there's nothing to complain about. That's my own personal enjoyment.
 
 **Adam Stacoviak:** Yes.
 
@@ -504,7 +505,7 @@ The point is that we ship these shows, we transcript them so that they're access
 
 **Erik St. Martin:** \[01:11:00.04\] Well, thank Brian and I for being on the show... \[laughter\]
 
-**Jerod Santo:** Real quick, let's give a shoutout to the missing voice on the show, Carlisia...
+**Jerod Santo:** Real quick, let's give a shoutout to the missing voice on the show, [Carlisia](https://twitter.com/carlisia)...
 
 **Adam Stacoviak:** Oh, yes, of course...
 
