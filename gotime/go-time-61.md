@@ -12,11 +12,11 @@
 
 **Andrew Poydence:** Hello!
 
-**Erik St. Martin:** So I guess maybe give a little bit of background... Pivotal and Cloud Foundry kind of do a lot of stuff, so do you wanna maybe give a little bit of background about yourselves and the particular areas within Cloud Foundry that you are focused?
+**Erik St. Martin:** So I guess maybe give a little bit of background... [Pivotal](https://pivotal.io/) and [Cloud Foundry](https://www.cloudfoundry.org/) kind of do a lot of stuff, so do you wanna maybe give a little bit of background about yourselves and the particular areas within Cloud Foundry that you are focused?
 
 **Jason Keene:** Yeah, so I joined Pivotal about two years ago now, and I work explicitly on Cloud Foundry. Cloud Foundry, for people who don't know, is an enterprise platform as a service, similar in style to Heroku, but it's on-prem. You can also run it in the cloud, in Google, or AWS, or whatever. So yeah, that's kind of like what Cloud Foundry is all about.
 
-**Andrew Poydence:** I joined over three years ago, and started on Loggregator, which is the log system for Cloud Foundry, where if you have an application running in Cloud Foundry, your standard out and standard error could be gathered and shipped off to you, as the developer. That's then morphed into \[unintelligible 00:02:22.24\] like a dev ops perception, to where all the different VM's and stuff are shipping their logs as well, and starting to ship metrics as well, so that you can have operators maintain this \[unintelligible 00:02:34.19\] hundreds and hundreds of VM's.
+**Andrew Poydence:** I joined over three years ago, and started on [Loggregator](https://github.com/cloudfoundry/loggregator), which is the log system for Cloud Foundry, where if you have an application running in Cloud Foundry, your `stdout` and `stderr` could be gathered and shipped off to you, as the developer. That's then morphed into \[unintelligible 00:02:22.24\] like a dev ops perception, to where all the different VM's and stuff are shipping their logs as well, and starting to ship metrics as well, so that you can have operators maintain this \[unintelligible 00:02:34.19\] deployment involves hundreds and hundreds of VM's.
 
 **Erik St. Martin:** And just for like a separation of voices, that was Jason who spoke first, and Andrew second, right?
 
@@ -56,7 +56,7 @@ With Go, since a lot of these things aren't written in frameworks, you can simpl
 
 **Carlisia Pinto:** So let's continue on this thread - I'm curious to know, for Loggregator do you make use of an external package, or are you doing everything just mostly using the standard library? Do you use an external package that has to do with logging?
 
-**Andrew Poydence:** We use gRPC very heavily for our transport, but we've kind of homegrown the metrics and logging concept. We have something called envelopes, which are actually protocol platform messages, that encompass a log message as like textual information, or a counter-event, or a gauge metric, and so we enable components or applications that can then send these things. An application is, at the moment, tied strictly to standard out and standard error, and then those things get packaged up into these protocol buffer messages.
+**Andrew Poydence:** We use [gRPC](https://grpc.io/) very heavily for our transport, but we've kind of homegrown the metrics and logging concept. We have something called envelopes, which are actually protocol platform messages, that encompass a log message as like textual information, or a counter-event, or a gauge metric, and so we enable components or applications that can then send these things. An application is, at the moment, tied strictly to `stdout` and `stderr`, and then those things get packaged up into these protocol buffer messages.
 
 But we're not actually using anything off the shelf, per se. In fact, Loggregator was incepted I believe in 2013, so it's pretty old, and a lot of our stuff around that has to kind of deal with the fact that we have this very old Go project where -- Go wasn't as heavily adopted back then, and there were a lot less tools available to us, and we had to kind of think about how would Go want to approach this. In fact, we were at that point integrating only with the DEA, which again, was written in Ruby. So we kind of had to make these interfaces clean, so that could be consumed and used from any of the different languages.
 
@@ -83,7 +83,7 @@ So as these larger deployments have come out, we wanted to be able to handle all
 
 **Erik St. Martin:** That's actually a really interesting thing... So what are some areas that you ran into, like you kind of alluded to, where you had to invent some things to solve for problems that you didn't experience without having that additional scale? I'd be really interested to hear about some of those things that you ran into and the things that you had to create to work around those issues?
 
-**Jason Keene:** So the \[unintelligible 00:14:31.28\] first was Loggregator has an agreement with app developers that when you log a standard out, it won't be slow; in fact, it won't push back at all, it should be free. So Loggregator has the task of ensuring that while we do our best to push messages through this distributed network system, we will not push back on the application. So we use channels, obviously, for distributed data; Go has those and they're great. But what we've noticed was as you write to a channel and that channel can't receive any data because there's downstream latency, we want to not drop the new messages, we'd rather drop the old messages. So now you have some kind of complicated thing, instead of just your normal writing to a channel with a select and a default, because those would drop the new messages... So we ended up making something called a diode, which essentially was a ring buffer that operated purely on atomics, and would therefore prioritize new messages over old ones. This enabled us to have buffer data, allow for network latency and recover from that, while ensuring we didn't push back on producers, and still trying to get the most amount of logs we possibly could to our consumers.
+**Jason Keene:** So the big\[unintelligible 00:14:31.28\] we ran into x first was Loggregator has an agreement with app developers that when you log a `stdout', it won't be slow; in fact, it won't push back at all, it should be free. So Loggregator has the task of ensuring that while we do our best to push messages through this distributed network system, we will not push back on the application. So we use channels, obviously, for distributed data; Go has those and they're great. But what we've noticed was as you write to a channel and that channel can't receive any data because there's downstream latency, we want to not drop the new messages, we'd rather drop the old messages. So now you have some kind of complicated thing, instead of just your normal writing to a channel with a select and a default, because those would drop the new messages... So we ended up making something called a [diode](https://github.com/cloudfoundry/go-diodes), which essentially was a ring buffer that operated purely on atomics, and would therefore prioritize new messages over old ones. This enabled us to have buffer data, allow for network latency and recover from that, while ensuring we didn't push back on producers, and still trying to get the most amount of logs we possibly could to our consumers.
 
 \[00:15:59.10\] So we went and ripped out a lot of channels that we previously had before, to enable less buffering, fewer goroutines per connection, and a little less latent in the end.
 
@@ -91,9 +91,9 @@ So as these larger deployments have come out, we wanted to be able to handle all
 
 **Jason Keene:** Of course.
 
-**Andrew Poydence:** Cloud Foundry is open source. If you go under GitHub.com/cloudfoundry, all the components of Cloud Foundry are over there and you'll find these libraries that we're talking about under that URL as well.
+**Andrew Poydence:** Cloud Foundry is open source. If you go under [github.com/cloudfoundry](https://github.com/cloudfoundry), all the components of Cloud Foundry are over there and you'll find these libraries that we're talking about under that URL as well.
 
-One of the things that came to mind when you were mentioning what type of technical limitations we ran into that we had to kind of step back and think of ways of getting around was we used to use websockets pretty heavily between certain components, and while you can multiplex multiple messages, multiple streams of messages across a single websocket connection, it's not typically the typical use case... So a lot of our legacy code that uses websocket protocol was dedicating a single websocket and thus a single TCP connection for every single stream. Naturally, that's gonna limit your ability to scale.
+One of the things that came to mind when you were mentioning what type of technical limitations we ran into that we had to kind of step back and think of ways of getting around was we used to use [websockets](https://en.wikipedia.org/wiki/WebSocket) pretty heavily between certain components, and while you can multiplex multiple messages, multiple streams of messages across a single websocket connection, it's not typically the typical use case... So a lot of our legacy code that uses websocket protocol was dedicating a single websocket and thus a single TCP connection for every single stream. Naturally, that's gonna limit your ability to scale.
 
 That was another huge win that we had with gRPC. Since it uses HTTP/2, you get pretty much for free multiplexing on multiple streams across a single TCP connection. So we did a little bit of work around that. We got the multiplexing for free, but then we also noticed that sending all of our streams over a single connection - it actually saturates that connection... So we created pools of connections, and load balancers to kind of manage that, so that we can have many streams going over many connections, and just have it all work efficiently.
 
@@ -101,7 +101,7 @@ That was another huge win that we had with gRPC. Since it uses HTTP/2, you get p
 
 **Erik St. Martin:** So now are you using your new diode concept throughout other portions, or is this mainly kind of limited to just Loggregator?
 
-**Andrew Poydence:** Recently we've had some downstream consumers of Loggregator start to use it, so... Google maintains a Stackdriver Nozzle, which is a component that reads off of our Firehose, which is like all the data coming out of Loggregator, and we're pretty aggressive about killing consumers that are reading slowly. If we detect that you're not reading fast enough over a certain period of time, instead of dealing with the costs in our system, we just close that connection and let you know that you've gotta reconnect...
+**Andrew Poydence:** Recently we've had some downstream consumers of Loggregator start to use it, so... Google maintains a [Stackdriver Nozzle](https://www.cloudfoundry.org/the-foundry/gcp-stackdriver-nozzle/), which is a component that reads off of our Firehose, which is like all the data coming out of Loggregator, and we're pretty aggressive about killing consumers that are reading slowly. If we detect that you're not reading fast enough over a certain period of time, instead of dealing with the costs in our system, we just close that connection and let you know that you've gotta reconnect...
 
 So they were seeing a lot of these reconnect events and they were panicking on these reconnects, which is a little bit inefficient... So we kind of had a conversation with them and introduced them to the diodes, and they've been able to use that to prevent themselves from getting disconnected by the Loggregator system.
 
@@ -115,9 +115,9 @@ I'm trying to think of some other projects I've noticed recently who adopted it.
 
 **Andrew Poydence:** Yeah, we try to -- the Cloud Foundry projects... Or at least, I'll speak for Loggregator - Loggregator hasn't had a really good history of extracting useful things for broad consumption, so the diodes is like kind of one of the first projects that we started where we extracted this idea out, so that other consumers can use it.
 
-**Carlisia Pinto:** Now, I'm reading here that one of your project goals is to have an opinionated log structure... So talk to us about that. At the very least -- I've never used it, so I'm guessing it's to offer struct to a logging, and why is that the best goal for this project?
+**Carlisia Pinto:** Now, I'm reading here that one of your project goals is to have _an opinionated log structure_... So talk to us about that. At the very least -- I've never used it, so I'm guessing it's to offer struct to a logging, and why is that the best goal for this project?
 
-**Jason Keene:** \[00:20:06.19\] We took the approach that there's textual logs, like an application can emit just normal, standard output stuff, and then there's metrics, such as counters, or gauges, timers... Much like you'd find in a project like Prometheus. So what we did was we decide "We'll make this protocol buffer messages, and have them be very strict about what they'll accept", and the idea would be any producer has to put those fields in there, and that would enable then the consumers of Loggregator to know what they could get.
+**Jason Keene:** \[00:20:06.19\] We took the approach that there's textual logs, like an application can emit just normal, standard output stuff, and then there's metrics, such as counters, or gauges, timers... Much like you'd find in a project like [Prometheus](https://prometheus.io/). So what we did was we decided "We'll make this [protocol buffer](https://developers.google.com/protocol-buffers/) messages, and have them be very strict about what they'll accept", and the idea would be any producer has to put those fields in there, and that would enable then the consumers of Loggregator to know what they could get.
 
 That has enabled a lot of nice things, because all of a sudden these very generic consumers can come in - such as the Stackdriver one - and not know very much about Cloud Foundry as a whole (this massive system), and yet still can pull in and do very interesting things with the data. So it's been a nice way to document how metrics flow through Loggregator without having to dig through massive amounts of readme's, and go through different components as to what they're trying to accomplish... It enables the compiler, essentially, to do more work for you as well. You can't accidentally send some invalid protocol buffer message; that will be rejected.
 
@@ -125,19 +125,19 @@ That has enabled a lot of nice things, because all of a sudden these very generi
 
 **Jason Keene:** It's pretty limited.
 
-**Andrew Poydence:** Yeah, so there's a repo called loggregator-api, which is just our .proto files that we use to generate our clients and everything off of. If you wanna take a look at it... It's pretty conservative. We have a v2 that started on about a year ago, and that v2 API kind of took all the lessons that we learned from previous iterations and kind of distilled the core set of things that we needed in the envelope and in the individual messages.
+**Andrew Poydence:** Yeah, so there's a repo called [loggregator-api](https://github.com/cloudfoundry/loggregator-api), which is just our .proto files that we use to generate our clients and everything off of. If you wanna take a look at it... It's pretty conservative. We have a v2 API that started on about a year ago, and that v2 API kind of took all the lessons that we learned from previous iterations and kind of distilled the core set of things that we needed in the envelope and in the individual messages.
 
-**Jason Keene:** Our hope is that we have perhaps distanced ourselves away from being specific to Cloud Foundry. There's a lot of neat things happening everywhere - for example Kubernetes - and what we don't want is to have the Loggregator system be so opinionated that it would only be useful within Cloud Foundry.
+**Jason Keene:** Our hope is that we have perhaps distanced ourselves away from being specific to Cloud Foundry. There's a lot of neat things happening everywhere - for example [Kubernetes](https://kubernetes.io/) - and what we don't want is to have the Loggregator system be so opinionated that it would only be useful within Cloud Foundry.
 
 Loggregator is doing its best to be a distributed logging and metrics system for several distributed systems, and not just Cloud Foundry. We had our original iteration where everything was specific to Cloud Foundry; every metric type was something that only Cloud Foundry could ever care about, and the consumers that would only ever care were at Cloud Foundry. What we noticed was other interesting distributed systems were coming up, such as Kubernetes, and Loggregator was in a technical position where it could service these things, but we were so opinionated about Cloud Foundry we really worked putting ourselves in front of that.
 
-We decided to move our API more towards a generic place, and have generic metrics with a subset of the information we previously had, that would be useful therefore for any different number of distributed applications, and enable distributed applications to use Loggregator to optimize their apps, or maintain them to dev ops work, and just ensure that iterations are happening.
+We decided to move our API more towards a generic place, and have generic metrics with a subset of the information we previously had, that would be useful therefore for any different number of distributed applications, and enable distributed applications to use Loggregator to optimize their apps, or maintain them, do DevOps work and just ensure that iterations are happening.
 
 Pivotal's main focus is to enable developers to do interesting things, so Cloud Foundry wants to enable developers to do hard, complex distributed systems, and maintain them, and iterate on their software quickly, and have confidence that their stuff is actually working, so they need visibility in that.
 
 **Brian Ketelsen:** \[00:24:03.00\] Now, here's kind of a random, off-the-wall question - how complicated is a Cloud Foundry install? Is it something I can put on my laptop, or do I have to have a minimum number of VM's to run it, or a minimum number of physical nodes?
 
-**Andrew Poydence:** It scales down pretty well. There's a project called Bosh Deployment -- we use Bosh to manage the Cloud Foundry deployment. So you can run Bosh deployments locally on your laptop. We do it on our Linux orchestrations here for development purposes we'll deploy at Cloud Foundry. Granted, it's a trimmed down version of Cloud Foundry; it's not completely, highly available... But you can run that on your laptop as long as it can run a decent-sized VM.
+**Andrew Poydence:** It scales down pretty well. There's a project called [Bosh Deployment](https://github.com/cloudfoundry/bosh-deployment) -- we use Bosh to manage the Cloud Foundry deployment. So you can run Bosh deployments locally on your laptop. We do it on our Linux orchestrations here for development purposes we'll deploy at Cloud Foundry. Granted, it's a trimmed down version of Cloud Foundry; it's not completely, highly available... But you can run that on your laptop as long as it can run a decent-sized VM.
 
 **Jason Keene:** Yeah, there's a project that's called Bosh Flight, which essentially -- I mean, I don't think it's even called that anymore, but we still...
 
@@ -149,7 +149,7 @@ Pivotal's main focus is to enable developers to do interesting things, so Cloud 
 
 **Andrew Poydence:** That's funny. \[laughs\]
 
-**Jason Keene:** I think Bosh was actually supposed to be - and I think we all have our giggle and opinion about it - Google's Borg++, so it's like \[00:25:39.12\]
+**Jason Keene:** I think Bosh was actually supposed to be - and I think we all have our giggle and opinion about it - [Google's Borg](https://kubernetes.io/blog/2015/04/borg-predecessor-to-kubernetes)++, so it's like Bo(r++)(g++).
 
 **Andrew Poydence:** It was conceived in a time when -- this was well before containers were popular or even known about generally... So yeah, it operates more on a VM type concept, so it's good for doing that deployment. It's similar in character to maybe like a Terraform, but it also has some monitoring abilities; it has an agent that runs on all the VM's, it manages your stem cells, which are the images that the VM's boot up with, for security reasons; it manages the packaging of the software that gets installed onto the VM...
 
@@ -157,35 +157,35 @@ Pivotal's main focus is to enable developers to do interesting things, so Cloud 
 
 **Andrew Poydence:** Yeah, it's incredibly handy.
 
-**Carlisia Pinto:** Now, for someone who has been working with this project for such a long time, I would like to ask the question - if Go had generics, would it be more useful to you? Do you miss not having that, or do you get by without it? Would you recommend that the standard library adds it?
+**Carlisia Pinto:** Now, for someone who has been working with this project for such a long time, I would like to ask the question - if Go had _Generics_, would it be more useful to you? Do you miss not having that, or do you get by without it? Would you recommend that the standard library adds it?
 
-**Jason Keene:** Yeah, it seems kind of like a trolly question... \[laughter\] I kind of have the opinion that if Go had generics, it would make implementing some of the data structures that we've exposed - for instance the diodes - much more natural. I don't know what your opinion is...
+**Jason Keene:** Yeah, it seems kind of like a trolly question... \[laughter\] I kind of have the opinion that if Go had _Generics_, it would make implementing some of the data structures that we've exposed - for instance the _Diodes_ - much more natural. I don't know what your opinion is...
 
 **Andrew Poydence:** We kind of get around it. For example, the diodes operate on unsafe pointers, but when we bring it into projects, we immediately make a wrapper around it with the actual type that we want to be in the diode, so that way we get the benefit of the compiler. But that's something that is kind of hand rolling maybe like a C++ template, or something.
 
-**Jason Keene:** Yeah, and the wrappers for something like diodes are easy to generate, just kind of boilerplate code. \[unintelligible 00:27:38.13\] Like Andrew said, we kind of worked around it. I'm happy with the pattern that we've adopted to make our stuff generally usable, but it doesn't mean that you have to use things like empty interface and unsafe pointer... But we kind of contain them in a small box, so that it doesn't bleed out into the rest of your program.
+**Jason Keene:** Yeah, and the wrappers for something like diodes are easy to generate, just kind of boilerplate code. \[unintelligible 00:27:38.13\] Like Andrew said, we kind of worked around it. I'm happy with the pattern that we've adopted to make our stuff generally usable, but it doesn't mean that you have to use things like interface{} (empty interface) and unsafe pointer... But we kind of contain them in a small box, so that it doesn't bleed out into the rest of your program.
 
-**Andrew Poydence:** \[00:28:03.27\] And I think that's been really key for us, again, on this massively distributed team. I think if you let your unsafe pointers or empty interfaces leak too far, again, if someone were to just drop in the middle of your codebase and try to help, they wouldn't have the compiler helping them there, like "What is this empty interface? What does \[unintelligible 00:28:22.27\] How am I supposed to know?"
+**Andrew Poydence:** \[00:28:03.27\] And I think that's been really key for us, again, on this massively distributed team. I think if you let your unsafe pointers or interface{} leak too far, again, if someone were to just drop in the middle of your codebase and try to help, they wouldn't have the compiler helping them there, like "What is this interface{} ? What does \[unintelligible 00:28:22.27\] How am I supposed to know?"
 
-**Jason Keene:** The casting of unsafe pointers is not always intuitive. We've had situations in the past where sometimes putting an extra asterisk - the compiler doesn't tell you "Hey, this is referencing something you shouldn't dereference...", so yeah...
+**Jason Keene:** The casting of unsafe pointers is not always intuitive. We've had situations in the past where sometimes putting an extra * - the compiler doesn't tell you "Hey, this is referencing something you shouldn't dereference...", so yeah...
 
 **Carlisia Pinto:** Did you make a proposal to the Go team?
 
-**Jason Keene:** Implementing generics is well beyond my expertise...
+**Jason Keene:** Implementing _Generics_ is well beyond my expertise...
 
 **Carlisia Pinto:** No, because they were soliciting use cases. Not a proposal for how to implement, but a proposal like "Here's my use case." Because they were soliciting it, I don't know if you know...
 
 **Andrew Poydence:** I wasn't aware of that...
 
-**Erik St. Martin:** I think before approaching a solution or something, they really wanted to be well aware of the types of situations that people were looking to use generics.
+**Erik St. Martin:** I think before approaching a solution or something, they really wanted to be well aware of the types of situations that people were looking to use _Generics_.
 
 **Carlisia Pinto:** It sounds like you guys have a good use case.
 
 **Andrew Poydence:** Yeah, we could throw it out there. Go 2 type stuff.
 
-**Brian Ketelsen:** It's my Go 2 complaint about Go... I don't want generics, just for the record. I like my Go readable, and I think generics will make it worse.
+**Brian Ketelsen:** It's my Go 2 complaint about Go... I don't want _Generics_, just for the record. I like my Go readable, and I think _Generics_ will make it worse.
 
-**Andrew Poydence:** Coming from a C++ background, I'm getting nervous... It's those nightmares when I have something \[unintelligible 00:29:43.12\]
+**Andrew Poydence:** Coming from a C++ background, I'm getting nervous... It's those nightmares when I have something that boosts angle brackets (<,>) - pages of compiler errors...
 
 **Carlisia Pinto:** I think it could potentially make life easier for 20% of the users, and harder for 80%, so I'm not crazy about it either.
 
@@ -193,13 +193,13 @@ Pivotal's main focus is to enable developers to do interesting things, so Cloud 
 
 **Carlisia Pinto:** Yeah, I like the fact that they were soliciting use cases, so they can get everything together and make a decision... Because I don't know every single project out there, right? I mean, we don't know.
 
-**Jason Keene:** Yeah, I'd caution listeners, if you are gonna use like empty interface or some of these other generic types, to approach it in a similar way that we approached it - contain it within a small area of your codebase, so it doesn't bleed out to the rest of your system. I can drop a link in the show notes for how we approached it, just to let people kind of get a feel for what we've done.
+**Jason Keene:** Yeah, I'd caution listeners, if you are gonna use like interface{} or some of these other generic types, to approach it in a similar way that we approached it - contain it within a small area of your codebase, so it doesn't bleed out to the rest of your system. I can drop a [link](https://github.com/cloudfoundry/go-diodes#example-creating-a-concrete-shell) in the show notes for how we approached it, just to let people kind of get a feel for what we've done.
 
 **Carlisia Pinto:** That'd be awesome.
 
-**Andrew Poydence:** Yeah, we've made a few libraries and I think we've run into this a few times where it's like "I guess we'll make it an empty interface" and then try to do our best to make sure we don't use it as that, but... Again, it's so easy to work around. I wouldn't be driven to say "Yeah, the language is broken", I'd agree with that, and it lends itself--
+**Andrew Poydence:** Yeah, we've made a few libraries and I think we've run into this a few times where it's like "I guess we'll make it interface{}" and then try to do our best to make sure we don't use it as that, but... Again, it's so easy to work around. I wouldn't be driven to say "Yeah, the language is broken", I'd agree with that, and it lends itself--
 
-**Jason Keene:** I'm definitely appreciative of the consideration that the core team has when it comes to generics, because like you were saying, we don't wanna be in a situation where 80% of the engineers are having to deal with this frustration of massive compiler errors that are nonsenseful, just to serve a niche of 20%.
+**Jason Keene:** I'm definitely appreciative of the consideration that the core team has when it comes to _Generics_, because like you were saying, we don't wanna be in a situation where 80% of the engineers are having to deal with this frustration of massive compiler errors that are nonsenseful, just to serve a niche of 20%.
 
 **Erik St. Martin:** And the ways to work around it are kind of fun, too. Brian here is like the king of code generation.
 
@@ -266,7 +266,7 @@ I think that's about it. There were some other reasons why we kind of adopted it
 
 **Brian Ketelsen:** Fight me! Run fast, before I break things! Then that would be the title of our show.
 
-**Jason Keene:** Yeah, it's amazing that there's still kind of two camps... Like, even with dev ops being a thing, there's still people who kind of fall within two camps. The question that I always ask people is if you had a production system that has, say, a memory leak, and restarting the process will fix the problem, but you will lose all forensic evidence in order to debug the issue, what do you do? Do you restart the process and resolve the issue, or do you poke around and get heap dumps and stuff like that...? And usually, you'll fall within one of the two camps; either you'll be like "No, we need to debug this" or "No, we need to restart it and \[unintelligible 00:39:00.26\]
+**Jason Keene:** Yeah, it's amazing that there's still kind of two camps... Like, even with DevOps being a thing, there's still people who kind of fall within two camps. The question that I always ask people is if you had a production system that has, say, a memory leak, and restarting the process will fix the problem, but you will lose all forensic evidence in order to debug the issue, what do you do? Do you restart the process and resolve the issue, or do you poke around and get heap dumps and stuff like that...? And usually, you'll fall within one of the two camps; either you'll be like "No, we need to debug this" or "No, we need to restart it and \[unintelligible 00:39:00.26\]
 
 **Erik St. Martin:** Well, I think you left out what impact it's having on the customer, too...
 
@@ -284,9 +284,9 @@ I think that's about it. There were some other reasons why we kind of adopted it
 
 **Jason Keene:** \[00:40:00.04\] "Something happened in prod... We don't know what. Fix it."
 
-**Erik St. Martin:** Yeah. I mean, I think we're still trying to find the perfect balance between ops and dev and things, right? And I think a lot of the initial motivation, at least from my standpoint, for the whole dev ops movement is to understand how your code would be deployed and to help deliver your code as a full-fledged product, with the tools that the operators need to support it, and the documentation for how to handle these scenarios, how to figure out when it needs to be restarted, things like that... Instead of just taking this new build and being like "Here, you make it live." But whether developers go full-fledged operations, I don't know whether that's the right mix; I think we're still figuring that out, it's still early... But I think it does make sense for us to have some operations knowledge.
+**Erik St. Martin:** Yeah. I mean, I think we're still trying to find the perfect balance between ops and dev and things, right? And I think a lot of the initial motivation, at least from my standpoint, for the whole DevOps movement is to understand how your code would be deployed and to help deliver your code as a full-fledged product, with the tools that the operators need to support it, and the documentation for how to handle these scenarios, how to figure out when it needs to be restarted, things like that... Instead of just taking this new build and being like "Here, you make it live." But whether developers go full-fledged operations, I don't know whether that's the right mix; I think we're still figuring that out, it's still early... But I think it does make sense for us to have some operations knowledge.
 
-**Andrew Poydence:** We on Cloud Foundry have embraced that pretty heavily through Google's SRE that O'Reilly released not too long ago...
+**Andrew Poydence:** We on Cloud Foundry have embraced that pretty heavily through [Google's SRE](http://www.oreilly.com/free/site-reliability-engineering.csp?cmp=tw-security-books-videos-lp-promo_srebook_lp) that O'Reilly released not too long ago...
 
 **Brian Ketelsen:** Good book.
 
@@ -296,21 +296,21 @@ I think that's about it. There were some other reasons why we kind of adopted it
 
 **Erik St. Martin:** I've got some playing time this weekend, so maybe I'll get to it.
 
-**Andrew Poydence:** It's fantastic, though. There's a lot of things that are common sense, but it's nice to formalize it, and then as a team you can kind of use it as the decision maker - "How should we approach this?" or "How would SRE have done it?"
+**Andrew Poydence:** It's fantastic, though. There's a lot of things that are common sense, but it's nice to formalize it, and then as a team you can kind of use it as the decision maker - "How should we approach this?" or "How would [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering) have done it?"
 
 **Jason Keene:** Yeah, it gives us like a shared vocabulary now, so we're referencing the same concepts, versus before you kind of had to build up that shared vocabulary.
 
-**Andrew Poydence:** Right. An interesting thing that we have here at Pivotal working on Cloud Foundry is not only are we running in hundreds of different data centers, completely different configurations everywhere, but we also have our own massive Cloud Foundry running run.pivotal.io that we're on call for. So we often will push something out there, and we'll know pretty soon if what we did was a big mistake or not, because our local Cloud Foundry that's running this has running thousands and thousands of app instances all of a sudden. If you've got a memory leak, like Jason described, then you're getting paged in the middle of the night and you see that you have some kind of linear climb in your memory usage across the servers, and \[unintelligible 00:42:32.03\] "What do you want us to do?" So that's kind of always an interesting thing, how quickly you can have a bad decision come back and be validated as such.
+**Andrew Poydence:** Right. An interesting thing that we have here at Pivotal working on Cloud Foundry is not only are we running in hundreds of different data centers, completely different configurations everywhere, but we also have our own massive Cloud Foundry running [run.pivotal.io](https://run.pivotal.io/) that we're on call for. So we often will push something out there, and we'll know pretty soon if what we did was a big mistake or not, because our local Cloud Foundry that's running this has running thousands and thousands of app instances all of a sudden. If you've got a memory leak, like Jason described, then you're getting paged in the middle of the night and you see that you have some kind of linear climb in your memory usage across the servers, and he's like kind of wanting to keep the cloud up saying "What do you want us to do?" So that's kind of always an interesting thing, how quickly you can have a bad decision come back and be validated as such.
 
-**Jason Keene:** Speaking about operations stuff, we're all software engineers, so we don't really get into the operations stuff very heavily; we are on call for our production environment, but... Recently, as part of our partnership with Google, we went to a CRE, which is their Customer Reliability Engineering program; we went through a review for Loggregator, and there's a lot of operational patterns... Some of the things that I've heard Kelsey Hightower speak about, it's like sympathy for your operators. So they came to us with some of these patterns that they wanted us to add to Loggregator; it's stuff that we maybe have thought about tangentially on occasion, but it really pointed it out to us - these are things that you should have, to have a certain amount of nines of reliability.
+**Jason Keene:** Speaking about operations stuff, we're all software engineers, so we don't really get into the operations stuff very heavily; we are on call for our production environment, but... Recently, as part of our partnership with Google, we went to a CRE, which is their Customer Reliability Engineering program; we went through a review for Loggregator, and there's a lot of operational patterns... Some of the things that I've heard [Kelsey Hightower](https://twitter.com/kelseyhightower) speak about, it's like sympathy for your operators. So they came to us with some of these patterns that they wanted us to add to Loggregator; it's stuff that we maybe have thought about tangentially on occasion, but it really pointed it out to us - these are things that you should have, to have a certain amount of nines of reliability.
 
-**Andrew Poydence:** \[unintelligible 00:43:39.06\] how to measure success on a distributed system is kind of a tricky concept. It can seem like it's working to you, but then you have a different consumer that they're not getting what they expect at all, and how do you measure how things are going...?
+**Andrew Poydence:** [The nines of reliablity](https://en.wikipedia.org/wiki/High_availability#%22Nines%22) have been really nice. How to measure success on a distributed system is kind of a tricky concept. It can seem like it's working to you, but then you have a different consumer that they're not getting what they expect at all, and how do you measure how things are going...?
 
 **Erik St. Martin:** \[00:44:00.22\] Yeah, and then I think you have the flipside of it, which is anytime you give somebody a metric on which to measure something, it's "Well, it has to be five nines. There has to be 100% test coverage...", you know?
 
 **Andrew Poydence:** Right...
 
-**Jason Keene:** Yeah, that's one of the things the CRE guys kind of pointed out really early - setting your SLA \[unintelligible 00:44:21.19\] at the right level. Having four or five nines is not necessarily something you should strive for. Having a lower level of reliability gives you more flexibility on how fast you can iterate, and it has other advantages. It's kind of like setting the right expectations and meeting those expectations.
+**Jason Keene:** Yeah, that's one of the things the CRE guys kind of pointed out really early - setting your SLA and SLI at the right level. Having four or five nines is not necessarily something you should strive for. Having a lower level of reliability gives you more flexibility on how fast you can iterate, and it has other advantages. It's kind of like setting the right expectations and meeting those expectations.
 
 **Erik St. Martin:** Then I think when you talk about reliability or security or any of those things, it's always tradeoffs, right? You can't focus all your time and money on all the areas, there's just not enough time. You have to look at what the likelihood of this failing or being compromised is, and then you have to look at what the impact of that happening is, and then that's how you categorize the things you spend the most time on.
 
@@ -324,9 +324,9 @@ The way we test that is we have a pretty aggressive black box testing of our sys
 
 **Brian Ketelsen:** It was kind of a quiet news week, wasn't it?
 
-**Erik St. Martin:** Yeah, I don't know about a whole lot of news. Mostly product releases, and stuff like that. Heptio, if you are a Kubernetes and Envoy fan - they just released something called Contour, which basically allows you to use Envoy as the Ingress Controller, which is super cool.
+**Erik St. Martin:** Yeah, I don't know about a whole lot of news. Mostly product releases, and stuff like that. [Heptio](https://heptio.com/), if you are a Kubernetes and Envoy fan - they just released something called [Contour](https://github.com/heptio/contour), which basically allows you to use Envoy as the Ingress Controller, which is super cool.
 
-**Brian Ketelsen:** Written by the legend, Dave Cheney.
+**Brian Ketelsen:** Written by the legend, [Dave Cheney](https://twitter.com/davecheney).
 
 **Erik St. Martin:** Yes.
 
@@ -350,7 +350,7 @@ The way we test that is we have a pretty aggressive black box testing of our sys
 
 **Brian Ketelsen:** I'm not good enough.
 
-**Erik St. Martin:** So maybe we can keep our job then... \[laughter\] Another cool project I came across is called GoTTY, which I've only played with a little bit, but it seems super cool, where you basically can share your terminal, but through a web page, so everybody else kind of gets to hit a website and live-view your terminal.
+**Erik St. Martin:** So maybe we can keep our job then... \[laughter\] Another cool project I came across is called [GoTTY](https://github.com/yudai/gotty), which I've only played with a little bit, but it seems super cool, where you basically can share your terminal, but through a web page, so everybody else kind of gets to hit a website and live-view your terminal.
 
 **Brian Ketelsen:** \[00:48:07.00\] GoTTY is really awesome, I've used it to back a couple projects that I wrote this spring, and there's a lot of power to it. You can pipe it through to just about anything. I've had mine piped through to Docker, so that when somebody hit a web page, it would automatically spawn a Docker container and drop them into a shell. So you had web-based containerized shell environments for everybody using GoTTY.
 
@@ -360,11 +360,11 @@ The way we test that is we have a pretty aggressive black box testing of our sys
 
 **Carlisia Pinto:** This is really cool. Very useful.
 
-**Erik St. Martin:** Another one that I came across is called G.E.R.T, and I think we mentioned this before; I think it might have been a little earlier on... But it seems to be a port of the Go runtime to run directly on ARMv7 system on the chips. I haven't got to play with this yet, but maybe when I get back from traveling, I will find an ARM7 device and try to do this.
+**Erik St. Martin:** Another one that I came across is called [G.E.R.T](https://github.com/ycoroneos/G.E.R.T), and I think we mentioned this before; I think it might have been a little earlier on... But it seems to be a port of the Go runtime to run directly on ARMv7 system on the chips. I haven't got to play with this yet, but maybe when I get back from traveling, I will find an ARM7 device and try to do this.
 
 **Brian Ketelsen:** It sure is looking good, though.
 
-**Erik St. Martin:** Yeah, I mean they already have support for most of the serial protocols and things like that - SPI and UART... I don't know whether I saw I²C supported yet, but that will be really interesting...
+**Erik St. Martin:** Yeah, I mean they already have support for most of the serial protocols and things like that - [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus) and [UART](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)... I don't know whether I saw [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) supported yet, but that will be really interesting...
 
 **Brian Ketelsen:** Is that how you say that, "I squared C"? I always read "I two C", but it's because I don't know what I'm doing.
 
@@ -372,7 +372,7 @@ The way we test that is we have a pretty aggressive black box testing of our sys
 
 **Brian Ketelsen:** Nice. Today I learned.
 
-**Erik St. Martin:** We need the "The more you know..." \[laughter\] Another cool tool that I came across is called GoScan. It basically scans the IPv4 subnet range and uses SMB and things like that to discover hostnames. I've actually been noticing more and more security tools written in Go, which is really cool.
+**Erik St. Martin:** We need the "The more you know..." \[laughter\] Another cool tool that I came across is called [GoScan](https://github.com/timest/goscan). It basically scans the IPv4 subnet range and uses SMB and things like that to discover hostnames. I've actually been noticing more and more security tools written in Go, which is really cool.
 
 **Brian Ketelsen:** When your worlds collide...
 
@@ -380,9 +380,9 @@ The way we test that is we have a pretty aggressive black box testing of our sys
 
 **Brian Ketelsen:** Isn't that kind of ironic, that people write bad C for security tools?
 
-**Erik St. Martin:** \[laughs\] That is true. So another cool one that I actually just thought today was GoMatcha.io. It seems to be a project that has bindings for Objective-C and Java, so that you can write your mobile apps completely in Go... And I have not tried this yet, so if you have, please find me and tell me whether you like it or not, so that I can build something with it. I'll let other people be the...
+**Erik St. Martin:** \[laughs\] That is true. So another cool one that I actually just thought today was [GoMatcha.io](https://gomatcha.io/). It seems to be a project that has bindings for Objective-C and Java, so that you can write your mobile apps completely in Go... And I have not tried this yet, so if you have, please find me and tell me whether you like it or not, so that I can build something with it. I'll let other people be the...
 
-**Brian Ketelsen:** Yeah, somebody else go try that. We have a couple big conferences coming up this month - dotGo and GopherCon Brazil. I'm getting on a plane in 21 hours for dotGo.
+**Brian Ketelsen:** Yeah, somebody else go try that. We have a couple big conferences coming up this month - [dotGo](https://www.dotgo.eu/) and [GopherCon Brazil](https://2017.gopherconbr.org/). I'm getting on a plane in 21 hours for dotGo.
 
 **Erik St. Martin:** Is anybody here going to dotGo?
 
@@ -394,7 +394,7 @@ The way we test that is we have a pretty aggressive black box testing of our sys
 
 **Brian Ketelsen:** I am.
 
-**Erik St. Martin:** And then we have the following week - or maybe it's two weeks later; mid-November - GopherCon Brazil, which I know Carlisia will be at... She wouldn't miss it for the world.
+**Erik St. Martin:** And then we have the following week - or maybe it's two weeks later; mid-November - [GopherCon Brazil](https://2017.gopherconbr.org/), which I know Carlisia will be at... She wouldn't miss it for the world.
 
 **Carlisia Pinto:** Yeah... \[laughs\] I leave on the 14th, and the conference is that weekend. And I'm speaking.
 
@@ -422,11 +422,11 @@ The way we test that is we have a pretty aggressive black box testing of our sys
 
 **Erik St. Martin:** I'll take the blame, though.
 
-**Brian Ketelsen:** You know, I wish they were local. The hard part is that it's dotGo on the 6th, and then the Women Who Go in Paris on the 7th or 8th, and then Codemotion in Italy... So much flying. That almost sounds whiny.
+**Brian Ketelsen:** You know, I wish they were local. The hard part is that it's dotGo on the 6th, and then the Women Who Go in Paris on the 7th or 8th, and then [Codemotion](https://milan2017.codemotionworld.com/) in Italy... So much flying. That almost sounds whiny.
 
 You know, I am really, really grateful to be able to do the job that I do. I'll be quiet now.
 
-**Erik St. Martin:** \[laughs\] So one other cool thing that I came across was actually NVIDIA's GitHub organization is a project called nvidia-docker, which is supposed to have support for having containers that can leverage NVIDIA GPU's that are running on the hardware. So that will be really cool to start seeing like CUDA applications running inside containers.
+**Erik St. Martin:** \[laughs\] So one other cool thing that I came across was actually NVIDIA's GitHub organization is a project called [nvidia-docker](https://github.com/NVIDIA/nvidia-docker), which is supposed to have support for having containers that can leverage NVIDIA GPU's that are running on the hardware. So that will be really cool to start seeing like CUDA applications running inside containers.
 
 **Brian Ketelsen:** Alright, how about some \#FreeSoftwareFriday?
 
@@ -452,9 +452,9 @@ You know, I am really, really grateful to be able to do the job that I do. I'll 
 
 **Erik St. Martin:** Carlisia, did you have one this week?
 
-**Carlisia Pinto:** Yes, I wanna give a shoutout not to a project, but to a person - Francesc Campoy. He is leaving Google and... I know he was working as a developer advocate for Google Cloud, and also on the Go team, right? I think he worked in both groups. So I was really sad to see him move on; I don't know why, because he's been there since I knew of Go, but I think it's going to be -- obviously, I trust his decision... It was probably a very good transition for him.
+**Carlisia Pinto:** Yes, I wanna give a shoutout not to a project, but to a person - [Francesc Campoy](https://twitter.com/francesc). He is leaving Google and... I know he was working as a developer advocate for Google Cloud, and also on the Go team, right? I think he worked in both groups. So I was really sad to see him move on; I don't know why, because he's been there since I knew of Go, but I think it's going to be -- obviously, I trust his decision... It was probably a very good transition for him.
 
-He's going to be -- well, I think he is already, or soon to be the VP of developer relations at srcd\_
+He's going to be -- well, I think he is already, or soon to be the VP of developer relations at [source{d}](https://sourced.tech/)
 
 **Erik St. Martin:** \[00:56:04.00\] source{d}.
 
@@ -474,7 +474,7 @@ He's going to be -- well, I think he is already, or soon to be the VP of develop
 
 **Brian Ketelsen:** Jason, Andrew, do you have any good software...?
 
-**Andrew Poydence:** Yeah, I have Concourse CI. It's the CI and CD that we use here at Cloud Foundry heavily. It's just a super viable tool to hook at any commit you want out there quickly, and we run our tests with it, we use it to push to a production environment, and everything. It's all written in Go, it's something you could run in your own data center, you could run on your own VM. It's been a really valuable tool, that they worked really hard on.
+**Andrew Poydence:** Yeah, I have [Concourse CI](https://concourse-ci.org/). It's the CI and CD that we use here at Cloud Foundry heavily. It's just a super viable tool to hook at any commit you want out there quickly, and we run our tests with it, we use it to push to a production environment, and everything. It's all written in Go, it's something you could run in your own data center, you could run on your own VM. It's been a really valuable tool, that they worked really hard on.
 
 **Carlisia Pinto:** It's not a paid service, right? You get the code and run on your servers.
 
@@ -482,9 +482,9 @@ He's going to be -- well, I think he is already, or soon to be the VP of develop
 
 **Jason Keene:** Yeah, its kind of sweet spot is doing pipelines. It visualizes the pipeline really well and allows you to chain different jobs and tasks into different other jobs and tasks. Whatever your build artifacts - Docker images, or whatever it may be on the other end of your pipeline, you can automate all that using Concourse. It's really nice.
 
-**Erik St. Martin:** That's nice. Another thing to add to the list of things to play with that I don't have time for.
+**Erik St. Martin:** That's awesome. Another thing to add to the list of things to play with that I don't have time for.
 
-**Jason Keene:** Yeah, so I had a \#FreeSoftwareFriday thing as well... This is about the coolest thing I know going in the realm that I work in. We work a lot with metrics and performance measurements, and there's a kernel technology called eBPF, which is a virtual machine, it's actual bytecode that you can write that runs inside the kernel space... So there's a lot of tooling around creating and compiling these programs; gobpf is the bindings for libbcc, which is a compiler that compiles down to the BPF bytecode. It allows you to write Go programs... You have to write a little bit of C that gets compiled into the kernel, which is the kernel space part, but then the rest of the program can be in Go.
+**Jason Keene:** Yeah, so I had a \#FreeSoftwareFriday thing as well... This is about the coolest thing I know going in the realm that I work in. We work a lot with metrics and performance measurements, and there's a kernel technology called eBPF, which is a virtual machine, it's actual bytecode that you can write that runs inside the kernel space... So there's a lot of tooling around creating and compiling these programs; [gobpf](https://github.com/iovisor/gobpf) is the bindings for libbcc, which is a compiler that compiles down to the BPF bytecode. It allows you to write Go programs... You have to write a little bit of C that gets compiled into the kernel, which is the kernel space part, but then the rest of the program can be in Go.
 
 It's a pretty nice tool to be able to have high-performance monitoring of either your user space or your kernel. You can reach out and do kprobes, gprobes, tracepoints, things like that.
 
@@ -492,7 +492,7 @@ It's a pretty nice tool to be able to have high-performance monitoring of either
 
 **Jason Keene:** Yeah, the Python bindings are kind of the reference ones that a lot of people use, but the Go ones there -- one thing you just have to make sure is that the version of gobpf that you are using, you have the appropriate version of libbcc, which is a dynamic library. You just have to make sure you have a compatible version. That's one hiccup I ran into early on.
 
-**Erik St. Martin:** So mine for today is dep. We've all kind of talked about dep, and Sam spoke about it at the last GopherCon, but I actually hadn't worked on a project that used it yet, until recently... So I definitely wanna give all of the people who have put so much effort into that a huge shoutout, just because it's quickly becoming my favorite vendoring tool.
+**Erik St. Martin:** So mine for today is [dep](https://github.com/golang/dep). We've all kind of talked about dep, and Sam spoke about it at the last GopherCon, but I actually hadn't worked on a project that used it yet, until recently... So I definitely wanna give all of the people who have put so much effort into that a huge shoutout, just because it's quickly becoming my favorite vendoring tool.
 
 **Carlisia Pinto:** \[01:00:07.23\] Yeah, I've been using dep, too. It's been good, I like it.
 
@@ -536,6 +536,6 @@ It's a pretty nice tool to be able to have high-performance monitoring of either
 
 **Carlisia Pinto:** Thanks, this was great!
 
-**Erik St. Martin:** Thanks everybody for listening. You can follow us on Twitter @GoTimeFM. If you wanna be on the show or have suggestions for topics or guests, file an issue on GitHub.com/gotimefm/ping, and with that, goodbye everybody. We'll see you next week.
+**Erik St. Martin:** Thanks everybody for listening. You can follow us on Twitter @GoTimeFM. If you wanna be on the show or have suggestions for topics or guests, file an issue on [ping](https://github.com/GoTimeFM/ping), and with that, goodbye everybody. We'll see you next week.
 
 **Carlisia Pinto:** Bye!

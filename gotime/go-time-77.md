@@ -96,9 +96,9 @@ The other really nice thing is that if everything is a file and presented as a f
 
 **Brian Ketelsen:** I know, it's a loaded question... Like five questions. \[laughter\]
 
-**Russ Cox:** I guess maybe I should start with what led us here, right? We released go get about eight years ago now, and if you go back and read the mail thread, the very first thing that someone asked was "Well, what are you gonna do about versions?" and we said "I don't know, we'll find out." Go get has actually been fairly useful, but of course, not having versions hinders various things... So we started these discussions at GopherCon in 2016, and then into the fall, and that led to [dep](https://github.com/golang/dep) being released.
+**Russ Cox:** I guess maybe I should start with what led us here, right? We released `go get` about eight years ago now, and if you go back and read the mail thread, the very first thing that someone asked was "Well, what are you gonna do about versions?" and we said "I don't know, we'll find out." `go get` has actually been fairly useful, but of course, not having versions hinders various things... So we started these discussions at GopherCon in 2016, and then into the fall, and that led to [dep](https://github.com/golang/dep) being released.
 
-The really important thing that dep did is that it got package authors thinking explicitly about issuing releases that are tagged with versions, and users thinking about consuming tagged versions, and this was something that go get had not had; everyone was just "I'll put my code out there, and you pick a commit that looks good to you. Even though they have these random hex numbers, just pick one you like."
+The really important thing that dep did is that it got package authors thinking explicitly about issuing releases that are tagged with versions, and users thinking about consuming tagged versions, and this was something that `go get` had not had; everyone was just "I'll put my code out there, and you pick a commit that looks good to you. Even though they have these random hex numbers, just pick one you like."
 So this idea that "I'm gonna mark the ones that I think you should be using, and you probably shouldn't be using the other ones" is really an important social change for the community, and I think that that's the most important thing that's happened as far as like changing people's behaviors.
 
 But there's this problem that was really bugging me about a year ago that I couldn't articulate at first... It was that one of the major goals of Go is to work well for these really large-scale software developments, and that means you have to have gradual changes. And by gradual I mean that you've got some change that you wanna make throughout your whole project, and it has to be okay to make that change one package, or maybe even one file at a time, because you've just got too much source code to change it all in one commit.
@@ -153,11 +153,11 @@ That actually worked pretty well, but you couldn't automate any of that. And whe
 
 The write-up from February essentially overloads get to mean a few things. It means _Do the install_ and also _Download_, which are the two meanings it has today, and then also _Update the go.mod file_, which has all the versions in it that you're using for your future builds. So if you wanted to adjust the version of something you were using, you might say `go get this import path at v1.2`, or something like that.
 
-That part... It's not obvious that -- you know, that's a third thing that go get does, and it's not entirely obvious that we shouldn't move that out to a different command, but we're still trying to figure that out.
+That part... It's not obvious that -- you know, that's a third thing that `go get` does, and it's not entirely obvious that we shouldn't move that out to a different command, but we're still trying to figure that out.
 
-But if you have in your fingers go get something to go install a command, we absolutely wanna keep that working.
+But if you have in your fingers `go get` something to go install a command, we absolutely wanna keep that working.
 
-**Brian Ketelsen:** For the record, my vote is to let go get continue to update that go.mod file, because I love that a lot.
+**Brian Ketelsen:** For the record, my vote is to let `go get` continue to update that go.mod file, because I love that a lot.
 
 **Erik St. Martin:** So do you have a particular timeline in mind for ultimately seeing this in the Go tool? I know that's kind of hard, because it's hard to predict what will come and everything, but what's your ideal timeline for this being kind of baked fully in?
 
@@ -201,7 +201,7 @@ That's one way we could evolve... And the active practices evolve, but all the o
 
 **Russ Cox:** \[00:32:10.03\] I don't think that it would be in the compiler. I think that that would really be `go fix`. `go fix` right now does very little because we don't break things, so you don't have to fix your code.
 
-**Erik St. Martin:** Can I tell you how much I loved Go because of go fix in the beginning...?
+**Erik St. Martin:** Can I tell you how much I loved Go because of `go fix` in the beginning...?
 
 **Brian Ketelsen:** Oh, my god...
 
