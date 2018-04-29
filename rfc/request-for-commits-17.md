@@ -4,7 +4,7 @@
 
 In that experience, all of these different bin scripts had different usage instructions, and it was basically hell trying to sort out how each one worked. At the time, I was a support engineer, so the day-to-day was just like "Get a ticket. Ticket asked you to do this. Spend 15 minutes figuring out how the script works", and that sort of thing. So I really wanted better usage instructions across all of the different bin scripts, and more importantly, consistent usage instructions and consistent usage behavior.
 
-A colleague of mine, by the name of Thorsten \[unintelligible 00:02:50.16\] pointed me to the WP-CLI project, which at the time was just kind of early stages, and he said, "Hey, you should check this out. It's kind of a standard pattern, or emerging standard pattern for writing CLI scripts against Wordpress, and maybe adopt it for your quest for more consistency."
+A colleague of mine, by the name of Thorsten Ott pointed me to the WP-CLI project, which at the time was just kind of early stages, and he said, "Hey, you should check this out. It's kind of a standard pattern, or emerging standard pattern for writing CLI scripts against Wordpress, and maybe adopt it for your quest for more consistency."
 
 In that process, I just started contributing a lot of actually what was in the Wordpress.com codebase back to the WP-CLI project. It was a great experience, and from there I eventually became the maintainer when the existing maintainer stepped down.
 
