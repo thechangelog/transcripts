@@ -1,7 +1,4 @@
-
-
 **Adam Stacoviak:** How closely did we touch WASM on the show? The only reason I ask is we just talked to Lin Clark about WASM and Go isn't lately mentioned.
-
 
 **Russ Cox:** Yeah I saw that, I don't think.. I think we might just have barely mentioned it but there is a WASM implementation that's just landed and it is supposed to be going into Go1.11 as a sort of an experimental feature. So, you know, I think it works.
 
