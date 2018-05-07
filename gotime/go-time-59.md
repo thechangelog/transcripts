@@ -16,7 +16,7 @@
 
 **Erik St. Martin:** Michael, I know you do a lot more stuff, too... Do you wanna give everybody a little bit of background on you, your history and software development, and in particular getting into Go?
 
-**Michael Stapleberg:** Sure, yeah. The project that most people know me for is the i3 window manager by far. I started that project in 2009, so we're gonna have a nice ten-year anniversary pretty soon. The reason I started it back then was just that I was not very satisfied with the window manager that myself and a couple of my friends were using at the time, which was WMII (Window Manager Improved Improved). As a little nugget for the listeners, that's also where the name i3 comes from, if you don't know yet... It is Improved Improved Improved, short to i3.
+**Michael Stapleberg:** Sure, yeah. The project that most people know me for is the [i3 window manager](https://i3wm.org/) by far. I started that project in 2009, so we're gonna have a nice ten-year anniversary pretty soon. The reason I started it back then was just that I was not very satisfied with the window manager that myself and a couple of my friends were using at the time, which was [WMII](https://en.wikipedia.org/wiki/Wmii) (Window Manager Improved Improved). As a little nugget for the listeners, that's also where the name i3 comes from, if you don't know yet... It is Improved Improved Improved, shortened to i3.
 
 **Erik St. Martin:** Oh, nice!
 
@@ -62,9 +62,9 @@ I have done a fair bit of Perl; in fact, the i3 test suite is entirely implement
 
 **Michael Stapleberg:** Yeah. I've done a couple of test suite-related refactorings in the last couple of weeks, and it's enough work as is without even changing any bit of the language.
 
-**Erik St. Martin:** So you've done quite a bit in C and things like that... I'm trying to remember when this article came out, but it was probably a couple months ago you did a blog post on why Go is now your new favorite language, and kind of having a background and building something as complex as i3 in C, I'd love to kind of hear your opinion on that and why you love Go now... And if you had to do it over again, if you were starting fresh today, would you build something like i3 in Go?
+**Erik St. Martin:** So you've done quite a bit in C and things like that... I'm trying to remember when this article came out, but it was probably a couple months ago you did a [blog post](https://michael.stapelberg.de/posts/2017-08-19-golang_favorite/) on why Go is now your new favorite language, and kind of having a background and building something as complex as i3 in C, I'd love to kind of hear your opinion on that and why you love Go now... And if you had to do it over again, if you were starting fresh today, would you build something like i3 in Go?
 
-**Michael Stapleberg:** Right, sure. I'll try to remember all parts of the question, because I fear that the answer will be a little bit long-winded. I mean, after all, I've written a post about the subject, right? So I initially looked into Go in 2009, coincidentally the same year that i3 was started, right? But in 2009 it was the initial release that Google did, and it wasn't Go version one yet, there was no compatibility guarantee. So I looked into it and I played around with it a little bit, did the playground exercises, I wrote this little IRC bot which actually still lives and still works, largely untouched, which is a miracle... It must be one of the oldest throwaway projects that just still works, so I really appreciate that, and that actually gave me a lot of confidence in the language and the ecosystem over the years.
+**Michael Stapleberg:** Right, sure. I'll try to remember all parts of the question, because I fear that the answer will be a little bit long-winded. I mean, after all, I've written a blog post about the subject, right? So I initially looked into Go in 2009, coincidentally the same year that i3 was started, right? But in 2009 it was the initial release that Google did, and it wasn't Go version one yet, there was no compatibility guarantee. So I looked into it and I played around with it a little bit, did the playground exercises, I wrote this little [IRC bot](https://robustirc.net/) which actually still lives and still works, largely untouched, which is a miracle... It must be one of the oldest throwaway projects that just still works, so I really appreciate that, and that actually gave me a lot of confidence in the language and the ecosystem over the years.
 
 But then I sort of put it away for the next three years, until in 2012 the Go 1 came out. That was sort of when I sort of seriously started to look into it. At that point I had, mind you, four years of experience writing a moderately complicated project in C. It's not that I hadn't done any C development before that, but once you have a codebase that is in the tens of thousands of lines of code, your perspective changes a little bit. You get a feel for which mistakes are common and what sort of things you would want to look at. I think if you go out and read the blog post, what you'll realize is that not in a single word do I ever mention any language feature; I don't say "Oh, in Go you have channels and they're the greatest thing ever", right? I don't even care about that at all, because that's just such a superficial thing for me.
 
@@ -78,9 +78,9 @@ So I don't need to read through a lot of the codebase in order to jump in and un
 
 **Brian Ketelsen:** Yeah, I think Go is THE most readable language I've ever used, and I've touched most of them... But I always love the readability of Go. It's very clear that they spent a lot of time thinking about how to read code, versus how to write code.
 
-**Michael Stapleberg:** Yeah, absolutely. And one point that sort of ties into both of these themes is gofmt, of course, which autoformats your code. Just a couple of days ago I actually had a discussion with a friend of mine, where we were now getting together because we have this retro gaming event coming up next month in Heidelberg (a German town), and for that event we are using an old Commodore 128 computer, which is a computer that is older than I am. We programmed this little cash register program for it in C. I recently got back into the code, and essentially this is a codebase that has lived on for like seven years I think, but we only ever touch it once a year... Shortly before the event starts we're like "Oh, so what bothered us last year? We're gonna fix that." But what I realized was that the code was not autoformatted, so it wasn't consistent... And then I was like "Okay, I'm just gonna clang-format this." and then I submitted the Travis hook so that it would always be clang-formatted.
+**Michael Stapleberg:** Yeah, absolutely. And one point that sort of ties into both of these themes is gofmt, of course, which autoformats your code. Just a couple of days ago I actually had a discussion with a friend of mine, where we were now getting together because we have this retro gaming event coming up next month in Heidelberg (a German town), and for that event we are using an old Commodore 128 computer, which is a computer that is older than I am. We programmed this little cash register program for it in C. I recently got back into the code, and essentially this is a codebase that has lived on for like seven years I think, but we only ever touch it once a year... Shortly before the event starts we're like "Oh, so what bothered us last year? We're gonna fix that." But what I realized was that the code was not autoformatted, so it wasn't consistent... And then I was like "Okay, I'm just gonna [clang-format](https://clang.llvm.org/docs/ClangFormat.html) this." and then I submitted the Travis hook so that it would always be clang-formatted.
 
-Then inevitably I got into that discussion with a friend of mine who was like, "Yeah, so I think this is sort of a good idea, but in this particular file I don't like what the formatter does", and I'm like "Oh, this again..." Because once you start using Go, you kind of just put away this entire discussion. Nobody would even come and argue, "Well, I just don't like what Gofmt does in this one file, so I turn it off..." It's just not something you hear, and I really appreciate that. The entire body of open source Go code and probably also most of the corporate Go code that there is is in fact auto-formatted.
+Then inevitably I got into that discussion with a friend of mine who was like, "Yeah, so I think this is sort of a good idea, but in this particular file I don't like what the formatter does", and I'm like "Oh, this again..." Because once you start using Go, you kind of just put away this entire discussion. Nobody would ever come and argue, "Well, I just don't like what _gofmt_ does in this one file, so I turn it off..." It's just not something you hear, and I really appreciate that. The entire body of open source Go code and probably also most of the corporate Go code that there is is in fact auto-formatted.
 
 **Carlisia Pinto:** \[00:12:10.21\] That is such an interesting comment, because if you think about it, nobody ever turns it off. There are no rebels that would do that. I think it's fixed to how much it makes sense to have it.
 
@@ -94,7 +94,7 @@ Then inevitably I got into that discussion with a friend of mine who was like, "
 
 **Carlisia Pinto:** Yeah, but it's still good to have people not do it for whatever reason in code review... People code reviewing and not caring enough, but it makes so much sense there; even when we're reviewing code, we care that "Hey, this should be formatted. It must be formatted the correct way, the standard way."
 
-**Erik St. Martin:** I think it's interesting though, because coming into it, like, people have preferences; they are zealots about it. A number of tabs, or spaces and things like that, and when you first come in, or whether the curly brace goes on what line, and things like that, and people are so stuck in that in their concerns with Gofmt that it's gonna irritate them, but it's funny how quick those thoughts wash away and you're just happy for the consistency.
+**Erik St. Martin:** I think it's interesting though, because coming into it, like, people have preferences; they are zealots about it. A number of tabs, or spaces and things like that, and when you first come in, or whether the curly brace goes on what line, and things like that, and people are so stuck in that in their concerns with _gofmt_ that it's gonna irritate them, but it's funny how quick those thoughts wash away and you're just happy for the consistency.
 
 **Michael Stapleberg:** Yeah, absolutely.
 
@@ -106,21 +106,21 @@ Then inevitably I got into that discussion with a friend of mine who was like, "
 
 **Michael Stapleberg:** Yeah. \[laughter\]
 
-**Carlisia Pinto:** Yeah, the perfect girls. \[laughs\] It wasn't just a girlfriend, she was perfect!
+**Carlisia Pinto:** Yeah, the perfect girl. \[laughs\] It wasn't just a girlfriend, she was perfect!
 
 **Brian Ketelsen:** I've been in two or three day long meetings before... This was C\# back in the early 2000s, where we spent two or three days talking about what our code formatting style was, and I find that to be the largest waste of time ever.
 
 **Erik St. Martin:** Yeah, that's true. I've worked for several companies that had style guides for every language that was used, and you would get caught in code review for style guide.
 
-**Brian Ketelsen:** I think that's why we've adopted Gofmt as canon, because everybody's been there; we've all seen this ridiculous waste of time on formatting, and I don't even care if it matches my preference. It makes no difference anymore. I got used to it in a week, and now Gofmt is my preference, and there's just no arguing about it, there's no waste of time... It's so amazing.
+**Brian Ketelsen:** I think that's why we've adopted _gofmt_ as canon, because everybody's been there; we've all seen this ridiculous waste of time on formatting, and I don't even care if it matches my preference. It makes no difference anymore. I got used to it in a week, and now _gofmt_ is my preference, and there's just no arguing about it, there's no waste of time... It's so amazing.
 
-**Erik St. Martin:** Can we make Gofmt work on other languages?
+**Erik St. Martin:** Can we make _gofmt_ work on other languages?
 
 **Brian Ketelsen:** Well, it's funny that newer languages are starting to adopt this. Rust has a format program, Pony has a format program... I really appreciate the fact that others have seen this and they're taking it to heart.
 
 **Carlisia Pinto:** As long as you don't have the option to customize it. It's either on or off, but if it's on, it's one thing.
 
-**Michael Stapleberg:** Yeah, and I think that is actually the critical insight that Gofmt brought to the table... Because the idea itself is certainly not new. There used to be the indent tool, which we tried to adopt for the i3 codebase back in the days, and it didn't quite work, but we also made this wrong assumption that we wanted to configure the tools such that it would largely match our codebase, and now of course we all know that it goes the other way around. You just reformat it once and then you're done with it.
+**Michael Stapleberg:** Yeah, and I think that is actually the critical insight that _gofmt_ brought to the table... Because the idea itself is certainly not new. There used to be the indent tool, which we tried to adopt for the i3 codebase back in the days, and it didn't quite work, but we also made this wrong assumption that we wanted to configure the tools such that it would largely match our codebase, and now of course we all know that it goes the other way around. You just reformat it once and then you're done with it.
 
 \[00:16:07.13\] But I didn't realize that at the time, and then of course you try to figure out exactly the correct indent parameters... And then clang-format came to the table, but it also supports multiple styles, so which one do you choose? It even allows you to derive from a common style, but then define exceptions to that, which is even more horrible, I think.
 
@@ -138,7 +138,7 @@ Then inevitably I got into that discussion with a friend of mine who was like, "
 
 **Brian Ketelsen:** Okay, why can't i3 run everywhere? What's keeping us from replacing Aqua in MacOS with something that runs i3, and why can't I run i3 on Windows? What's wrong with those people?
 
-**Michael Stapleberg:** The simple answers in order are Apple, Microsoft... Right? \[laughter\] No, seriously, I actually had this phase where I used a Mac, and I looked into Aqua, but you can't look into it; it doesn't have an API, it doesn't have the concept of a window manager. In fact, on UNIX, the fact that we have the X11 server is the only reason why window managers exist and why there can't be different ones, right? Everything else, every other operating system that I've seen, to the extent that I've looked into the API's and the customization possibilities, it's just - there is a default window manager, and if you're lucky, you get to interact with it, and that's how you can build tools such as the one that Carlisia mentioned earlier, where at best you have a couple of key bindings and then it moves windows around and maybe resizes them, but the level of customization that you can achieve if you implement the entire window manager... It's just nowhere near that.
+**Michael Stapleberg:** The simple answers in order are Apple, Microsoft... Right? \[laughter\] No, seriously, I actually had this phase where I used a Mac, and I looked into Aqua, but you can't look into it; it doesn't have an API, it doesn't have the concept of a window manager. In fact, on UNIX, the fact that we have the [X11 server](https://en.wikipedia.org/wiki/X_Window_System) is the only reason why window managers exist and why there can't be different ones, right? Everything else, every other operating system that I've seen, to the extent that I've looked into the API's and the customization possibilities, it's just - there is a default window manager, and if you're lucky, you get to interact with it, and that's how you can build tools such as the one that Carlisia mentioned earlier, where at best you have a couple of key bindings and then it moves windows around and maybe resizes them, but the level of customization that you can achieve if you implement the entire window manager... It's just nowhere near that.
 
 **Erik St. Martin:** So this might be interesting... It's not Go-related, but for people who may not be familiar with the difference -- like, what's the difference between a desktop and a window manager in a terminal like or console, \[unintelligible 00:18:38.23\]
 
@@ -150,11 +150,11 @@ But a window manager is just that one little subset of a desktop environment, ju
 
 \[00:19:56.10\] I think the term "window manager" means more than just that nowadays on Linux, because you have these communities that sort of gathered around the minimalistic window managers, and they build various parts of the desktop environment. So when you say you're using a window manager, what that really means is you're not just using a window manager, but you sort of choose and pick a couple of tools from Gnome or KDE, or even standalone tools; there are sometimes replacements for the various features that a desktop environment comes with.
 
-For example, for monitor configuration, in i3 you would either directly use the command line tool xrand to access that API, or the more convenient standalone arandr tool. But i3 wouldn't be concerned at all with your monitor configuration; it just adapts to whatever it is that you configure. So the separation of concerns is very clear, at least to somebody like me who knows how it is implemented. Sometimes people come and they don't' really get it yet, like what goes where, because on other operating systems all of this is very integrated, and as I mentioned, you can't even make the distinction between "Do I wanna use a desktop environment, or can I just throw all of that away and say I'm gonna start from scratch and I'm gonna build my custom environment?"
+For example, for monitor configuration, in i3 you would either directly use the command line tool _xrand_ to access that API, or the more convenient standalone _arandr_ tool. But i3 wouldn't be concerned at all with your monitor configuration; it just adapts to whatever it is that you configure. So the separation of concerns is very clear, at least to somebody like me who knows how it is implemented. Sometimes people come and they don't' really get it yet, like what goes where, because on other operating systems all of this is very integrated, and as I mentioned, you can't even make the distinction between "Do I wanna use a desktop environment, or can I just throw all of that away and say I'm gonna start from scratch and I'm gonna build my custom environment?"
 
 **Erik St. Martin:** I wonder with the Windows subsystem for Linux, I think that's only terminal VIM or would I be able to get X?
 
-**Brian Ketelsen:** There's a terminal, but you can run an X server on Windows side and then i3 from WSL and view it in Windows, which was my blog post; that's what I do.
+**Brian Ketelsen:** There's a terminal, but you can run an X server on Windows side and then i3 from WSL and view it in Windows, which was my [blog post](https://brianketelsen.com/); that's what I do.
 
 **Erik St. Martin:** I may have to play with that.
 
@@ -166,7 +166,7 @@ For example, for monitor configuration, in i3 you would either directly use the 
 
 I try to make it as similar to Go as possible, in the sense that I do autoformat it, I have a good test suite which is easily executable... Stuff like that. But certainly, my big preference for anything else but existing legacy projects where we can't just make the switch is to do it entirely in Go, or as much as possible in Go.
 
-**Brian Ketelsen:** Nice. One of the things that you've been working on lately that I think is amazing is the gokrazy user space for Raspberry Pi. Will you tell us what were your motivations behind that?
+**Brian Ketelsen:** Nice. One of the things that you've been working on lately that I think is amazing is the [gokrazy](https://gokrazy.org/) user space for Raspberry Pi. Will you tell us what were your motivations behind that?
 
 **Michael Stapleberg:** Right, sure. That's actually a fun little project that we started at the beginning of this year, actually. So the idea is that I was getting fed up with maintaining all of these little Raspberry Pi's. Many of us probably have a little Raspberry Pi at home, doing one thing or another in their home network, or a device that is comparable... A little Intel NUC computer, or an Atom-based little embedded device, anything like that. But the Raspberry Pi certainly is the most prevalent of these devices, so I figured it would make sense to just target the Raspberry Pi for now.
 
@@ -174,7 +174,7 @@ The observation was that if I write most of my programs in Go nowadays, why do I
 
 \[00:24:16.24\] I wanna have all of my devices up to date, ideally with an auto-update. Ideally, it goes so far that I have gifted devices to friends of mine and bought a new device where the only difference in operation was that the device auto-updated.
 
-An example of that is the Turris Omnia OpenWRT router, which I would recommend, because it is to the best of my knowledge the only OpenWRT-based Linux router that auto-updates. That just comes from working full-time.
+An example of that is the Turris Omnia [OpenWRT](https://openwrt.org/) router, which I would recommend, because it is to the best of my knowledge the only OpenWRT-based Linux router that auto-updates. That just comes from working full-time.
 
 When I was a student, I could of course still spend quite a lot of time administering all of these servers; I was running Debian testing on many of my machines and virtual machines and all of the little devices, and I would auto-update them sort of regularly... But at some point your priorities change and you just can't do that anymore. So I figured I would go at it from the other direction and be very strict about it.
 
@@ -182,7 +182,7 @@ So I wanna have devices that auto-update, and I wanna have devices that don't ex
 
 What gokrazy does is you give it a Go package that you have, be it like a little "Hello, world" program, or distinct bigger programs like the Prometheus Node Exporter if you wanna monitor your Raspberry Pi in Prometheus. You give a Go package to the gokrazy packer program, and what it does is it packs an SD card image with the Linux kernel and the Raspberry Pi firmware, and a minimal init system that comes with the gokrazy project, and then just the Go packages that you provide it.
 
-These four parts are all that you really have into the image, and then you just copy that image onto an SD card and you boot your Raspberry Pi from it, and there is no other moving parts, there's no Linux distribution; it's not based on Debian or based on Fedora or anything like that. It has just directly the kernel and the firmware.
+These four parts are all that you really have in the image, and then you just copy that image onto an SD card and you boot your Raspberry Pi from it, and there is no other moving parts, there's no Linux distribution; it's not based on Debian or based on Fedora or anything like that. It has just directly the kernel and the firmware.
 
 Another important part of this project is that all of these parts are auto-updated. For the kernel and for the firmware we have a cron job running on Travis, which every day goes and checks the upstream repositories for newer versions of what we have packaged. If there is, for example, a new kernel release - and I learned that the kernel actually gets quite a few releases; I never paid attention to it, but they do like a little point release... But anyway, so we have this little cron job which looks at what is the latest kernel version, and if the latest kernel version doesn't match what we have in our repositories, it goes on and downloads it and then builds it on Travis.
 
@@ -194,9 +194,9 @@ That's the ideal state for me. I wake up, I realize that there was a new Linux k
 
 **Erik St. Martin:** Do you have kind of like this split firmware, where in case it doesn't start up with the new kernel...? Because occasionally there's weird issues and the kernel won't boot.
 
-**Michael Stapleberg:** \[00:28:05.12\] Yeah, that's true. One of these issues that we faced a while ago - and in fact the only one that we faced so far, and the project has been running, as I mentioned, since the beginning of the year - is that there's this little bit that needs to be set correctly, so that the kernel driver for the Ethernet card on the Raspberry Pi will pick up the correct MAC address. When it regresses, i.e. when it doesn't pick up the correct MAC address, it will fall back to just auto-generating a MAC address. That makes for a very weird problem to debug, because everything seems to be working fine, but then occasionally you wouldn't be able to connect to your Raspberry Pi because it would get a new IP address, and maybe your DNS name isn't quite updated yet to the new \[unintelligible 00:28:45.21\] or something like that.
+**Michael Stapleberg:** \[00:28:05.12\] Yeah, that's true. One of these issues that we faced a while ago - and in fact the only one that we faced so far, and the project has been running, as I mentioned, since the beginning of the year - is that there's this little bit that needs to be set correctly, so that the kernel driver for the Ethernet card on the Raspberry Pi will pick up the correct MAC address. When it regresses, i.e. when it doesn't pick up the correct MAC address, it will fall back to just auto-generating a MAC address. That makes for a very weird problem to debug, because everything seems to be working fine, but then occasionally you wouldn't be able to connect to your Raspberry Pi because it would get a new IP address, and maybe your DNS name isn't quite updated yet to the new one while it's still cached or something like that.
 
-These are weird to debug problems, but aside from that we haven't had any sort of issue. But to answer the original question, no, there's no dual bias functionality or anything like that, because unfortunately the Raspberry Pi hardware just doesn't provide any mechanism to implement that. Either it boots or it doesn't boot, and you can't really do much else than that.
+These are weird to debug problems, but aside from that we haven't had any sort of issue. But to answer the original question, no, there's no dual BIOS functionality or anything like that, because unfortunately the Raspberry Pi hardware just doesn't provide any mechanism to implement that. Either it boots or it doesn't boot, and you can't really do much else than that.
 
 **Erik St. Martin:** Yeah, unless you're writing a little Assembly in the beginning, before Linux kicks in, but who wants to do that?
 
@@ -244,7 +244,7 @@ So as an end user of gokrazy, you wouldn't face a not-booting kernel, because th
 
 **Erik St. Martin:** I think you should invert that... I think that you should have to pay him for not having to take them during the periods of time that you used i3.
 
-**Brian Ketelsen:** \[laughs\] There you go. So that brings up a good point - I contribute monthly to several Patreon accounts for open source projects that I truly love... Does i3 have a Patreon?
+**Brian Ketelsen:** \[laughs\] There you go. So that brings up a good point - I contribute monthly to several [Patreon](https://www.patreon.com/) accounts for open source projects that I truly love... Does i3 have a Patreon?
 
 **Michael Stapleberg:** No, we do not currently have one. With a project where there's largely a single maintainer, but then so many contributors, it often becomes an issue of fairness, like "How do we distribute the funds?" If people approach me and say they really wanna donate, I usually accept their donations, which are in the low $10, or something. The funds that we accept, they go directly into hosting costs and merchandise costs like stickers, for example. I think I handed you one at Gophercon - that was paid by contributors... And things like that.
 
@@ -268,15 +268,15 @@ So we're trying to make it easy for them to run good Go code, and of course, Goo
 
 **Michael Stapleberg:** I wouldn't be able to say exactly how many years it is, but yes, I definitely got the feeling when I joined that this is years ahead of everything that I've known up to that point. In fact, I would love it if open source would look more like what we have internally in a couple of years, just because it makes my life so much simpler... Because there's this huge divide between things that you experience at work and things that you experience in the outside, right?
 
-As just one example, a different project of mine that I run is Debian Code Search, which is a regular expression code search engine for all of the open source software that is found in Debian. When I launched it, we had quite some trouble getting the resources for it, because you need storage devices that have a huge number of IOPS; you definitely need flash devices, maybe even RAM if you can afford it, which we can't right now. But you can't run it off of a regular spinning hard disk, and in 2012 when I started that project, I approached the Debian sys admin team and asked them for flash storage, and they flat out laughed at me. I was like "What's happening?", I just couldn't understand, because that was also the year when I joined Google, and when I needed flash storage, I would just ask for it and allocate it in a self-service way, and a couple of minutes later I would have the flash storage available to me... And I just couldn't fathom how there could be this huge divide between "Oh yeah, sure, you can do that. You don't even need to talk to a human to do that internally", and then externally it just would not be possible.
+As just one example, a different project of mine that I run is [Debian Code Search](https://codesearch.debian.net/), which is a regular expression code search engine for all of the open source software that is found in Debian. When I launched it, we had quite some trouble getting the resources for it, because you need storage devices that have a huge number of IOPS; you definitely need flash devices, maybe even RAM if you can afford it, which we can't right now. But you can't run it off of a regular spinning hard disk, and in 2012 when I started that project, I approached the Debian sys admin team and asked them for flash storage, and they flat out laughed at me. I was like "What's happening?", I just couldn't understand, because that was also the year when I joined Google, and when I needed flash storage, I would just ask for it and allocate it in a self-service way, and a couple of minutes later I would have the flash storage available to me... And I just couldn't fathom how there could be this huge divide between "Oh yeah, sure, you can do that. You don't even need to talk to a human to do that internally", and then externally it just would not be possible.
 
 **Carlisia Pinto:** Is Google going to open-source a lot of the infrastructure or some of the infrastructure?
 
-**Michael Stapleberg:** \[00:39:56.29\] I think that's definitely the trend. Infrastructure is always hard to really open source, as in infrastructure software and systems. But if you read about it, there was the release of Abseil recently, which is sort of Google's base libraries for C++ and also for Python. It was released at CppCon just a couple of days ago.
+**Michael Stapleberg:** \[00:39:56.29\] I think that's definitely the trend. Infrastructure is always hard to really open source, as in infrastructure software and systems. But if you read about it, there was the release of [Abseil](https://abseil.io/) recently, which is sort of Google's base libraries for C++ and also for Python. It was released at CppCon just a couple of days ago.
 
 I'm very excited about this release, because it means that other parts of Google will also be released. Because essentially, every project that we have uses the base libraries; that's why they're called "base libraries." If the base libraries are not released, you need to jump through so many hoops whenever you want to do an open source release. Now that that foundation is laid, I'm confident that more projects can be released soon(ish), I hope.
 
-**Carlisia Pinto:** The reason I even know this is because JBD is leaving the Go language team to work on the project to open source some part of the infrastructure, and I was wondering if you would know more specifically what that is.
+**Carlisia Pinto:** The reason I even know this is because [JBD](https://twitter.com/rakyll) is leaving the Go language team to work on the project to open source some part of the infrastructure, and I was wondering if you would know more specifically what that is.
 
 **Michael Stapleberg:** Unfortunately, I didn't even know that she was moving, so... I don't know, sorry.
 
@@ -288,11 +288,11 @@ I think if the team in question has the man power to do it and has the will to d
 
 **Carlisia Pinto:** Cool.
 
-**Erik St. Martin:** That's awesome. And even just things like Kubernetes, right? That's not a direct open source release of an infrastructure tool of Google, but it's the recreation of one that's not so tied to Google's infrastructure, which is really awesome that we get to share in these things that Google's been doing for ages.
+**Erik St. Martin:** That's awesome. And even just things like [Kubernetes](https://kubernetes.io/), right? That's not a direct open source release of an infrastructure tool of Google, but it's the recreation of one that's not so tied to Google's infrastructure, which is really awesome that we get to share in these things that Google's been doing for ages.
 
 **Michael Stapleberg:** Yeah, absolutely. And in fact, Kubernetes was one of the things that I was so happy about when it was released, because I was like "Finally, there will be products like this, which offer Kubernetes as a service." That's really what I think will be very useful, because -- for example, for i3 we used to host everything ourselves. We used to have these little bots and helper tools, and even we had a custom code review tool. We've since moved everything to the cloud and it just makes our life so much easier.
 
-We run part of it on App Engine. For example the bot that services GitHub issues runs on app engine. It would be entirely conceivable that we could run more of these services on like a public or semi-public hosted Kubernetes, like the Google Container Engine.
+We run part of it on [App Engine](https://cloud.google.com/appengine/). For example the bot that services GitHub issues runs on app engine. It would be entirely conceivable that we could run more of these services on like a public or semi-public hosted Kubernetes, like the [Google Container Engine](https://cloud.google.com/kubernetes-engine/).
 
 I'm excited also for more service providers to step into that market. I think Microsoft in fact has an offering on Azure; you probably can just get a couple containers in Kubernetes... And I hope that this becomes much more of a commodity. I don't wanna manage all of these machines, much like in the gokrazy project; the insight is that I don't have time for this, and I don't want to do this. I just wanna run my application code. If I have a Go package, why is it so hard to run it on somebody's cloud, right?
 
@@ -300,13 +300,13 @@ I'm excited also for more service providers to step into that market. I think Mi
 
 **Michael Stapleberg:** Exactly.
 
-**Carlisia Pinto:** So the Expander project - obviously, super cool! For people who don't know, it's an automated way to add the "if error" statements. The tool automatically recognizes if your function returns an error, or the function you're calling returns an error, and then you can automatically trigger the "if error" statements. I see that's available for Emacs, which I imagine is what you use...
+**Carlisia Pinto:** So the [expanderr](https://github.com/stapelberg/expanderr) project - obviously, super cool! For people who don't know, it's an automated way to add the `if error` statements. The tool automatically recognizes if your function returns an error, or the function you're calling returns an error, and then you can automatically trigger the `if error` statements. I see that's available for Emacs, which I imagine is what you use...
 
 **Michael Stapleberg:** Yes.
 
 **Carlisia Pinto:** Do you know of the other editors having plans to add it? Because I want it.
 
-**Michael Stapleberg:** \[00:44:07.06\] Sure, yeah. To answer the direct question, and then maybe I can talk about how the project came to be... There is in fact a pull request by someone who is currently adding it to the Vim Go plugin; that all needs to be merged. I think Fatih is very busy with other projects currently, but as soon as he gets a chance, I hope we can make some progress on this. It definitely will be integrated into Vim.
+**Michael Stapleberg:** \[00:44:07.06\] Sure, yeah. To answer the direct question, and then maybe I can talk about how the project came to be... There is in fact a pull request by someone who is currently adding it to the Vim Go plugin; that all needs to be merged. I think [Fatih](https://twitter.com/fatih) is very busy with other projects currently, but as soon as he gets a chance, I hope we can make some progress on this. It definitely will be integrated into Vim.
 I think we briefly brought up adding it to Visual Studio Code as well, and they were very receptive of the idea. It will be added to more editors as people make that little bit of effort and just integrate it.
 
 **Carlisia Pinto:** That'd be awesome!
@@ -319,7 +319,7 @@ I think we briefly brought up adding it to Visual Studio Code as well, and they 
 
 **Michael Stapleberg:** Exactly. That was actually exactly the feeling that I had. I was writing a Go program, and I don't really mind typing these error checks whenever you're modifying an existing program, because they tend to not be so pervasive. But when you're prototyping something, especially something that interacts with your operating system, say you iterate over a directory, you open a couple of files, you do some transformation - typical stuff that you wanna do and get out of the way quickly when you're prototyping - some people would argue that you just don't need to do the error checking, but I would vehemently argue against it... \[laughter\] Especially when prototyping, it's crucial that you get good errors.
 
-So I found myself typing all of these error checks over and over again, and I know that, for example, in the blog post by Russ Cox at the beginning of the year he said that he will want to look into improving the error checking situation... So I figured, "Well, it's good that they're working on it, but in the meantime I would like to just have a little bit more automation in my editor", and I figured "Hey, I'm using Emacs, and it has all of these packages, and there's so many advanced features", so I asked on Twitter "So why isn't it a thing that when you wanna expand an error check statement, why isn't it type-aware and why can't it return exactly the right thing, and why can't it expand in the right way?" I hope that somebody would reply and say "Oh yeah, you just need to install this package", but nobody stepped up.
+So I found myself typing all of these error checks over and over again, and I know that, for example, in the blog post by [Russ Cox](https://twitter.com/_rsc) at the beginning of the year he said that he will want to look into improving the error checking situation... So I figured, "Well, it's good that they're working on it, but in the meantime I would like to just have a little bit more automation in my editor", and I figured "Hey, I'm using Emacs, and it has all of these packages, and there's so many advanced features", so I asked on Twitter "So why isn't it a thing that when you wanna expand an error check statement, why isn't it type-aware and why can't it return exactly the right thing, and why can't it expand in the right way?" I hope that somebody would reply and say "Oh yeah, you just need to install this package", but nobody stepped up.
 
 So at some point - in fact, shortly before GopherCon - I was considering doing this, and then almost as a joke, I started and figured "Well, could you do this? Could you write a little tool that when you invoke it, it just expands whatever is under the cursor?", and it turns out it is possible.
 Then we had a Go meetup in Zurich. I wasn't still quite sure about the idea, because error-checking is such a hot topic in Go, and I wasn't quite sure whether other people would like it... So when we had the Go meetup in Zurich, there were a couple of presentations, and then after the regularly scheduled presentations they asked "Well, is there anybody who wants to do a lightning talk?" and in fact, Marcel from the Go team gave a little lightning talk about an investigation into an errors package that he had designed, and I thought "Well, now it's very to the point." I was like "Okay, why don't I show my little tool here?" and I demonstrated it and people were sort of like amused, but also interested... Most of all, Robert Griesemer from the Go team was in the room, and he didn't flat out laugh at me, so I figured, "Okay, I can release this now." \[laughter\]
@@ -334,7 +334,7 @@ Then we had a Go meetup in Zurich. I wasn't still quite sure about the idea, bec
 
 **Carlisia Pinto:** Yeah, exactly, let's speculate!
 
-**Michael Stapleberg:** Yeah, let's speculate! So it would be thinkable to add a new keyword, or a new syntax feature for it... Maybe, if it really pays off. For example, ir Rust you have the exclamation mark for the error-checking macro, right? And I think that's actually a somewhat useful and elegant way of dealing with it. I think they've recently expanded it with even more syntax, and I was sort of turned off by that, because I thought adding a little bit of syntax is okay, but adding too much seems to go overboard.
+**Michael Stapleberg:** Yeah, let's speculate! So it would be thinkable to add a new keyword, or a new syntax feature for it... Maybe, if it really pays off. For example, in Rust you have the exclamation mark for the error-checking macro, right? And I think that's actually a somewhat useful and elegant way of dealing with it. I think they've recently expanded it with even more syntax, and I was sort of turned off by that, because I thought adding a little bit of syntax is okay, but adding too much seems to go overboard.
 
 So there is definitely a balance that one needs to strike here, and I'm fairly confident that Russ will come up with a good way that finds consensus, if that is the route that he chooses to go.
 
@@ -344,15 +344,15 @@ So there is definitely a balance that one needs to strike here, and I'm fairly c
 
 **Erik St. Martin:** Yeah, it makes it super clear that this call can return in an unpredictable way, where the actual legitimate response variable/value - that could be in some unknown state because of an error condition. That's the thing that I hate the most - if you do a file open and you don't actually notice that that errored out you can't really determine what your file pointer is, and then you go off with it and in some weird place it starts failing when you go to use it. So I like the fact that it's really explicit there and you can see it during code review that this can return in an error state and it can make the other values that are returns unpredictable, and they're ignoring it, like "Why is that not being handled?"
 
-**Michael Stapleberg:** Yeah, and I definitely love what it does for the end user. I really feel respected when I get a proper error message from a program, and not just an exception that is, even worse, pages long, as frequently happens with Python programs where the programmers weren't careful enough or didn't do enough testing, and then something happens like your disk runs out of space, or the file that they really expected to be there turns out to not be there. Then you get this huge exception, and usually the exceptions come with language that isn't quite clear to the end user, because it is written from the perspective of the programmer, or worse, from the perspective of the programming language designer. Then you get a key error in Python, and it could mean anything. So that's why I really appreciate what the sometimes onerous error checking in Go means for the end user.
+**Michael Stapleberg:** Yeah, and I definitely love what it does for the end user. I really feel respected when I get a proper error message from a program, and not just an exception that is, even worse, pages long, as frequently happens with Python programs where the programmers weren't careful enough or didn't do enough testing, and then something happens like your disk runs out of space, or the file that they really expected to be there turns out to not be there. Then you get this huge exception, and usually the exceptions come with language that isn't quite clear to the end user, because it is written from the perspective of the programmer, or worse, from the perspective of the programming language designer. Then you get a key error in Python, and it could mean anything. So that's why I really appreciate what the sometimes honorous error checking in Go means for the end user.
 
 **Erik St. Martin:** Yeah, I've definitely seen that stuff before too, where rather than a "File doesn't exist" for open, you get a nil pointer exception somewhere down the line, because you're trying to deal with the file type.
 
-**Michael Stapleberg:** \[00:52:01.18\] Yeah. And then usually, what I do is I just give up and I strace the program. At that point I'm like "Why are we doing this?! There must be a better way."
+**Michael Stapleberg:** \[00:52:01.18\] Yeah. And then usually, what I do is I just give up and I _strace_ the program. At that point I'm like "Why are we doing this?! There must be a better way."
 
 **Erik St. Martin:** I think we are probably running a little late on time. Do we wanna jump into some interesting projects and news, and \#FreeSoftwareFriday?
 
-**Brian Ketelsen:** Yes, let's! I think the number one interesting project for the whole year is the Space Gophers screensaver for Mac. GitHub.com/apiarian/space-gophers. You have to build it yourself, because whoever built it doesn't have an X-code developer Apple account thing... But it is the most adorable Gopher screensaver; they're bouncing all across your screen, and it's the Gophers from GopherCon this year, so they're little space Gophers. You have to have it. If you have a Mac, you have to have this. It's not optional.
+**Brian Ketelsen:** Yes, let's! I think the number one interesting project for the whole year is the Space Gophers screensaver for Mac. [gitHub.com/apiarian/space-gophers](https://github.com/apiarian/space-gophers). You have to build it yourself, because whoever built it doesn't have an X-code developer Apple account thing... But it is the most adorable Gopher screensaver; they're bouncing all across your screen, and it's the Gophers from GopherCon this year, so they're little space Gophers. You have to have it. If you have a Mac, you have to have this. It's not optional.
 
 **Carlisia Pinto:** I'm gonna wait for somebody who does have X-code to build it so I can install it properly... But it's so cute!
 
@@ -370,15 +370,15 @@ So there is definitely a balance that one needs to strike here, and I'm fairly c
 
 **Erik St. Martin:** So what else did we run into this week?
 
-**Brian Ketelsen:** My Golang UK talk, I announced a tool called Gopher Rocks that automatically tags your GitHub releases for you, so that everybody can start tagging their stuff. Mine was a pretty facile implementation, not very bright... There is a much better implementation at GitHub.com/timberio/grease, and it looks like it's a lot more functional than mine, of course... Because I wrote one, somebody had to have something much better. So Grease looks like a really nice GitHub tagging releasing kind of tool. I definitely recommend going to check that out, and I'll probably just stop writing mine now.
+**Brian Ketelsen:** My [Golang UK talk](https://www.youtube.com/watch?v=mxlJqrVSalY&list=PLDWZ5uzn69eyM81omhIZLzvRhTOXvpeX9&index=8), I announced a tool called [Gopher Rocks](https://github.com/pkg/rock) that automatically tags your GitHub releases for you, so that everybody can start tagging their stuff. Mine was a pretty facile implementation, not very bright... There is a much better implementation at [gitHub.com/timberio/grease](https://github.com/timberio/grease), and it looks like it's a lot more functional than mine, of course... Because I wrote one, somebody had to have something much better. So Grease looks like a really nice GitHub tagging releasing kind of tool. I definitely recommend going to check that out, and I'll probably just stop writing mine now.
 
 **Erik St. Martin:** Actually, I almost don't mind when that happens, because to me the fun part is the proof of concept. And then it's like once the problems are figured out, I wanna move on to the next problem. I rarely want to get stuff in the state that I would consider it shippable...
 
 **Brian Ketelsen:** That's a good point.
 
-**Carlisia Pinto:** Yeah... Sounds like software development. \[laughter\] So I ran into this post early in the week (a few days ago), and to complement Michael's blog post, which is -- we never mention the name, but it's named "Why Go is my favorite programming language", and that's gonna be in the show notes.
+**Carlisia Pinto:** Yeah... Sounds like software development. \[laughter\] So I ran into this post early in the week (a few days ago), and to complement Michael's blog post, which is -- we never mention the name, but it's named [Why Go is my favorite programming language](https://michael.stapelberg.de/posts/2017-08-19-golang_favorite/), and that's gonna be in the show notes.
 
-This post is called "The 7 stages of becoming a Go programmer", and it's sort of hilarious... I was laughing.
+This post is called [The 7 stages of becoming a Go programmer](https://opensource.com/article/17/9/seven-stages-becoming-go-programmer), and it's sort of hilarious... I was laughing.
 
 **Brian Ketelsen:** It really is good.
 
@@ -392,15 +392,15 @@ This post is called "The 7 stages of becoming a Go programmer", and it's sort of
 
 **Erik St. Martin:** You are one with the gopher.
 
-**Brian Ketelsen:** The author created a gist, and the description for stage seven just makes me happy. It says "You're now at peace. You write everything, including what you normally would have used Ruby, Perl or Python for in Go. You don't mind the 'if err != nil' checks anymore, you only use goroutines and channels if you have to. You are one with the gopher. You feel its glorious chi, and cry when you realize his mercy for allowing you write code in such a majestic language."
+**Brian Ketelsen:** The author created a gist, and the description for stage seven just makes me happy. It says "You're now at peace. You write everything, including what you normally would have used Ruby, Perl or Python for in Go. You don't mind the `if err != nil` checks anymore, you only use goroutines and channels if you have to. You are one with the gopher. You feel its glorious chi, and cry when you realize his mercy for allowing you write code in such a majestic language."
 
 It's so true. So true.
 
 **Carlisia Pinto:** Yeah, I love it. And one thing that I say to people, yeah, Go has these weird things, and error handling is repetitive, but if you stick to it, you will change your mind. There is something about it, and I think it's the simplicity and how it makes your brain not jump through hoops to understand code. Once you get that, you realize "Oh, this is much better..."
 
-**Brian Ketelsen:** It could be Stockholm syndrome too, we're not gonna decide that. \[laughter\]
+**Brian Ketelsen:** It could be [Stockholm syndrome](https://en.wikipedia.org/wiki/Stockholm_syndrome) too, we're not gonna decide that. \[laughter\]
 
-**Erik St. Martin:** We just came for the cool mascot.
+**Erik St. Martin:** We just came for the [cool mascot](https://blog.golang.org/gopher).
 
 **Brian Ketelsen:** Sure. We came for the Gopher Screensavers, we stayed for the chi.
 
@@ -430,7 +430,7 @@ It's so true. So true.
 
 **Michael Stapleberg:** That's a good point, I'll remember that for next time.
 
-**Brian Ketelsen:** Alright, how about \#FreeSoftwareFriday? This is one of my favorite segments, where we give a shoutout to a person or a project that we love. I'd love to kick this one off with a shoutout to Ashley McNamara, who is not only an amazing technical person and programmer, but she's out on the talking/speaking circuit right now, helping people feel good about contributing to open source in ways that aren't necessarily code, and I think that's a huge, wonderful message to be sending out, how it takes more than just programming to make a good ecosystem for a project. So a big shoutout to Ashley for spreading that word and for being such an amazing steward of our community. We love you a lot, Ashley.
+**Brian Ketelsen:** Alright, how about \#FreeSoftwareFriday? This is one of my favorite segments, where we give a shoutout to a person or a project that we love. I'd love to kick this one off with a shoutout to [Ashley McNamara](https://twitter.com/ashleymcnamara), who is not only an amazing technical person and programmer, but she's out on the talking/speaking circuit right now, helping people feel good about contributing to open source in ways that aren't necessarily code, and I think that's a huge, wonderful message to be sending out, how it takes more than just programming to make a good ecosystem for a project. So a big shoutout to Ashley for spreading that word and for being such an amazing steward of our community. We love you a lot, Ashley.
 
 **Michael Stapleberg:** Yeah, I would really like to echo that and stress the point that really, if you think you wanna contribute to open source and you don't know how to program, there's still so many useful skills that you can bring to the table, and I really wish we would have more non-programmers in open source. I think it would really benefit all of us.
 
@@ -462,7 +462,7 @@ It's so true. So true.
 
 **Erik St. Martin:** And how about you, Michael? Did you have a project or a maintainer you wanna give a shoutout to?
 
-**Michael Stapleberg:** Yeah, actually just today at work I was showing some of my colleagues an Emacs package that I've come to really appreciate, which is Magit. It is a Git front-end. It is integrated into Emacs, but you can also use it if you don't like Emacs at all, because it essentially defines its own keyboard shortcuts and stuff. Don't fear, just start Emacs and start Magit and play around a little bit; it has a very unique way of presenting all of what's going on in your Git working directory, for example which files are staged, what did you not yet push to upstream, which stashes do you have, and all of the operations that you wanna do are just so easy and accessible if you wanna stage just that one line of that one hunk, but not the entire hunk.
+**Michael Stapleberg:** Yeah, actually just today at work I was showing some of my colleagues an Emacs package that I've come to really appreciate, which is [magit](https://github.com/magit/magit). It is a Git front-end. It is integrated into Emacs, but you can also use it if you don't like Emacs at all, because it essentially defines its own keyboard shortcuts and stuff. Don't fear, just start Emacs and start Magit and play around a little bit; it has a very unique way of presenting all of what's going on in your Git working directory, for example which files are staged, what did you not yet push to upstream, which stashes do you have, and all of the operations that you wanna do are just so easy and accessible if you wanna stage just that one line of that one hunk, but not the entire hunk.
 
 That is just so convenient and so easy, and I use it all the time and I've come to realize that even though I'm a big command line user, these days whenever I have a Git-related thing that I wanna change, like I wanna commit a new conflict file or something, I'm at the point where I just start my Emacs to use Magit. It's just the better Git front-end. So definitely if you haven't checked it out yet, check it out.
 
@@ -474,7 +474,7 @@ That is just so convenient and so easy, and I use it all the time and I've come 
 
 **Michael Stapleberg:** You don't need to, that's what I'm saying. \[laughter\]
 
-**Erik St. Martin:** Alright, so mine this week - and this is probably the perfect episode for it - is called Alacritty, and it's a terminal emulator that's GPU accelerated using OpenGL. It's written in Rust, so... I haven't contributed to it or anything...
+**Erik St. Martin:** Alright, so mine this week - and this is probably the perfect episode for it - is called [Alacritty](https://jwilm.io/blog/announcing-alacritty/), and it's a terminal emulator that's GPU accelerated using OpenGL. It's written in Rust, so... I haven't contributed to it or anything...
 
 **Brian Ketelsen:** \[laughs\] Not yet.
 
@@ -484,7 +484,7 @@ No tabs. It's cross-platforms, so it'll work in all the places, but there's no t
 
 **Brian Ketelsen:** \[01:07:00.11\] So if you are on a Mac, you have to compile this yourself, but if you're running Arch - like most good people should - you can just install this from the AUR, which is awesome.
 
-**Erik St. Martin:** Yeah, I was actually kind of surprised that that was the only place that it was available as a pre-compiled package, because almost always Red Hat distributions in Ubuntu get it first, and you're usually the person who has to write the AUR...
+**Erik St. Martin:** Yeah, I was actually kind of surprised that that was the only place that it was available as a pre-compiled package, because almost always Red Hat distributions and Ubuntu get it first, and you're usually the person who has to write the AUR...
 
 **Brian Ketelsen:** Yeah. I'm curious, and I don't mean this in a derogatory way at all, but the last couple times that I've tried to do compiling Rust applications from source, I've been bitten by the fact that Rust is still moving really quickly. Has it stabilized a bit, so that cloning some software and compiling it will work without frustration?
 
@@ -506,7 +506,7 @@ No tabs. It's cross-platforms, so it'll work in all the places, but there's no t
 
 **Michael Stapleberg:** Thank you for having me. It was fun, thanks!
 
-**Erik St. Martin:** For the listeners, we are @GoTime.Fm. If you wanna be on the show, you have suggestions for guests or topics, file an issue at GitHub.com/GoTimeFM/ping. We should be back to the normal studio next week, for anybody who's listening live now. We'll be back to the Changelog.com/live for live listening, instead of the live Hangouts.
+**Erik St. Martin:** For the listeners, we are @GoTime.Fm. If you wanna be on the show, you have suggestions for guests or topics, file an issue at [ping](https://github.com/GoTimeFM/ping). We should be back to the normal studio next week, for anybody who's listening live now. We'll be back to the Changelog.com/live for live listening, instead of the live Hangouts.
 
 With that, we'll see everybody next week! Bye, everybody!
 
