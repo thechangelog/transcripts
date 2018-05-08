@@ -26,7 +26,7 @@ Today's episode number is 58, and on the show today is myself, Erik St. Martin, 
 
 **Erik St. Martin:** Yeah, so for anybody who may not be familiar with you and the work that you do, can you just kind give a brief rundown about who you are, what you do, and your history in the Go community?
 
-**Dmitri Shuralyov:** Sure, absolutely. As you said, most people probably know me by shurcooL, that's what I use as my username everywhere. I'm a software engineer. I used Go since 2013 or so, so it's been four years now. It's not secret, I'm a big fan of Go, I really enjoy using it.
+**Dmitri Shuralyov:** Sure, absolutely. As you said, most people probably know me by shurcooL, that's what I use as my username everywhere. I'm a software engineer. I used Go since 2013 or so, so it's been four years now. It's no secret, I'm a big fan of Go, I really enjoy using it.
 
 These days I kind of do something slightly unusual - I work full-time on open source Go code... And maybe it would make sense for me to kind of go a little bit into my background, how I started; that would kind of explain how I got here.
 
@@ -42,13 +42,13 @@ So I was using Visual Studio, and for C++ it didn't have great refactoring tools
 
 \[00:04:06.13\] If I were to move something, it would be a lot of manual steps, and that kind of frustration just made me really want to work on the tools that would make my job easier, or the jobs of all the programmers out there... So that got me interested more on the developing tools side.
 
-Sometime after that I felt so motivated to do that, and I had all these ideas and I wanted to try them out, so I started working on this experimental project called Conception. I really wanted to try some crazy ideas, like -- I was thinking "Why is it that source code is text files? That is so backwards; it should be something more sophisticated." I tried to put those ideas to the test, and for about a year after that I worked exclusively on this project. It was a lot of fun, it was very interesting, we tried a lot of experimental ideas, and at the end of that year I actually submitted it to a conference -- it was a competition, Live 2013, and I ended up winning first prize. That was pretty cool.
+Sometime after that I felt so motivated to do that, and I had all these ideas and I wanted to try them out, so I started working on this experimental project called [Conception](https://www.youtube.com/watch?v=DNJ7HqlV55k). I really wanted to try some crazy ideas, like -- I was thinking "Why is it that source code is text files? That is so backwards; it should be something more sophisticated." I tried to put those ideas to the test, and for about a year after that I worked exclusively on this project. It was a lot of fun, it was very interesting, we tried a lot of experimental ideas, and at the end of that year I actually submitted it to a conference -- it was a competition, Live 2013, and I ended up winning first prize. That was pretty cool.
 
 What happened after that is that the project got a lot of visibility and publicity, and it kind of helped me get my first job in San Francisco, which was a place that I really wanted to end up or go to to work sometime. I'm from Toronto, and San Francisco -- it's always been a dream to go and work there, because I knew it's one of the best places for technology. It's where all the startups are, all the big companies, and lots of things are happening there, so it's kind of like just a dream to go there.
 
 I ended up getting a job, so I ended up working first at Triggit. It was a startup where we did real-time bidding and advertising, things like that; this was a company that was just getting into using Go, so one of the reasons they hired me was because I was good with C++ and Go. I thought this is a great place for me to practice both languages and help them convert a lot of things they were doing, from many languages. They had a lot of success with Go, so they started to push it to more and more projects.
 
-After that I worked at another company, Sourcegraph. That one, you may have heard of it. We were building tools for developers, and it's kind of famous in the Go community because of doing the live streaming for GopherCon, and so on. This was a very different environment where there was a lot more open source. I was actually working on developer tools, so this was a lot of fun.
+After that I worked at another company, [Sourcegraph](https://github.com/sourcegraph). That one, you may have heard of it. We were building tools for developers, and it's kind of famous in the Go community because of doing the live streaming for [GopherCon](https://www.gophercon.com/), and so on. This was a very different environment where there was a lot more open source. I was actually working on developer tools, so this was a lot of fun.
 
 In the course of working in San Francisco for those three years, I was kind of always saving up towards this future dream of being able to just work on open source full-time. That was my dream of what I wanted to try next... Because it's one thing when you have your weekends, maybe an hour or two on weekdays to contribute to open source, and a whole different story if you actually have your full time available to do it.
 
@@ -75,7 +75,7 @@ I'm just kind of filling my own desires of some tooling, or some things in the G
 
 Again, when I started, C++ was the language that I had in mind as what I wanted to use, and I just thought that there are all these opportunities to make it easier to develop in C++, but essentially what happened is that as I started to work on the project, I kind of discovered Go. That's somewhere at the beginning of that -- in the middle of the first year of working on the project I saw that "Hey, there's this cool language called Go. Let me try it." The problem that I was solving at the time was I needed to start some binaries, basically shell out, run some commands, and in C++ this was at the time really difficult. It was probably 80 lines of non-portable, really hacky and error-prone code, that kind of worked, but you just knew that this is not right; it would probably fail if something happened, and it was so long that it was really hard to read the code.
 
-So when I tried Go, I found the os/exec package and I was just really, really impressed with what I saw there, so then I started to use Go for more things. Very quickly, Conception ended up being -- it was supposed to be, at least, an IDE for working on Go code, so it stepped away from C++.
+So when I tried Go, I found the _os/exec_ package and I was just really, really impressed with what I saw there, so then I started to use Go for more things. Very quickly, Conception ended up being -- it was supposed to be, at least, an IDE for working on Go code, so it stepped away from C++.
 
 But the way to describe it -- and it's definitely best to see... There's a five-minute video that I made that describes basically everything I've done in those one-and-a-half years (in five minutes). So think of it as a 2D canvas; a really large, maybe infinitely-sized canvas that you have a viewport into, and on this canvas you had what I called widgets at the time. The widgets could be basically anything, but most of it would be things like maybe a Go file, for example; another widget could be a Go run widget, which would take a file widget and run it, and I present the output. But then you can also connect other widgets on top of that. You'd have a diff widget, so you could connect that to the output of a program, and then maybe diff it against the output that you wanted to produce.
 
@@ -87,7 +87,7 @@ That's kind of how it went, and given that it was an experimental project, one o
 
 So a lot of it was learning about the strengths of some of the ways that we use compilers, code editors and so on, in ways that are actually really good. Armed with that knowledge, the next things that I could do would be obviously better.
 
-**Brian Ketelsen:** It was absolutely mind-blowing for me when I first saw the demos, so congratulations on thinking outside the box and working through different concepts and ideas for code editing, because it really was just amazing to see that the first time.
+**Brian Ketelsen:** It was absolutely mind-blowing for me when I first saw the [demos](https://www.youtube.com/watch?v=DNJ7HqlV55k), so congratulations on thinking outside the box and working through different concepts and ideas for code editing, because it really was just amazing to see that the first time.
 
 **Dmitri Shuralyov:** Thanks a lot, I appreciate it. That's kind of what I was hoping to, just try to create something that would be really cool and that would make a lot of sense when you see it. It's not easy, but the things that do work well, it's always great to see it. If I can inspire people, that's an awesome thing as well.
 
@@ -109,7 +109,7 @@ What actually made it work was that I had a widget in Conception that I can just
 
 So yes, they did exist then, they no longer do exist, and if you see them, please delete them...
 
-**Brian Ketelsen:** I think you should wear it with price. Why not...?
+**Brian Ketelsen:** I think you should wear it with pride. Why not...?
 
 **Dmitri Shuralyov:** I do, yeah.
 
@@ -129,7 +129,7 @@ So yes, they did exist then, they no longer do exist, and if you see them, pleas
 
 **Carlisia Pinto:** See? Let's not go there... \[laughter\] I do wanna talk about though -- because to me it seems like such a big deal what you're doing, taking time off to work on your preferred open source projects, the ones that you really wanna make sure happen, and there's so many projects you're involved with, but I do want you to talk to us about your top three, starting from the most important, the ones that you really wanna make happen, and why, and where are you at with that project, and are you getting help, is it far from being completed, what does completed mean...? So tell us.
 
-**Dmitri Shuralyov:** Sure, sure. So I don't think I have a nice disconnect between the different projects; a lot of them are interconnected in some ways, and a lot of them are kind of these umbrella projects where there's maybe something higher level, and lower level. But let me say that right now I think that we're in a very interesting point in time; the language came out relatively recently... It has been almost like ten years now, but it is relatively new, and just maybe a few years back, on the backend we had a whole different set of languages that people could choose from, but on the front-end it's always been that Javascript was kind of the only officially supported language, because that's the only language that browsers support, and that has started to change recently. One of the ways that it has started to change the most in my opinion is there is -- well, there was asm.js, that technology first... Well, what is happening now is Web Assembly.
+**Dmitri Shuralyov:** Sure, sure. So I don't think I have a nice disconnect between the different projects; a lot of them are interconnected in some ways, and a lot of them are kind of these umbrella projects where there's maybe something higher level, and lower level. But let me say that right now I think that we're in a very interesting point in time; the language Go came out relatively recently... It has been almost like ten years now, but it is relatively new, and just maybe a few years back, on the backend we had a whole different set of languages that people could choose from, but on the front-end it's always been that Javascript was kind of the only officially supported language, because that's the only language that browsers support, and that has started to change recently. One of the ways that it has started to change the most in my opinion is there is -- well, there was [asm.js](https://en.wikipedia.org/wiki/Asm.js), that technology first... Well, what is happening now is [Web Assembly](http://webassembly.org/).
 
 In my opinion, this is a really awesome and kind of important point in time, because it means that hopefully soon more and more people can start to see that there's now the choice of what language to use inside the browser, what kind of technologies you use to develop your front-end stuff, and I really wanna see Go play a more important role here, because in my opinion, Go is just a really great language. I mean that in a general way; I don't think it's great for making web servers, even though it is, but it's great for many things.
 
@@ -137,19 +137,19 @@ I find that it's great even for doing front-end stuff, and I've been testing tha
 
 But because of that, I think Web Assembly and Go are important, so that is kind of what I'm thinking about, and one of my top priorities - I wanna make that as much of reality as possible over the next few years.
 
-**Erik St. Martin:** Now, is there anything currently that's compiling or transpiling to Web Assembly from Go? Does Gopher.js do that?
+**Erik St. Martin:** Now, is there anything currently that's compiling or transpiling to Web Assembly from Go? Does [gopher.js](https://github.com/gopherjs/gopherjs) do that?
 
 **Dmitri Shuralyov:** \[00:20:06.00\] So the situation right now is that if you want to write your front-end code in Go, you have a really good option, and that is Gopher.js, but Gopher.js goes directly from Go code to Javascript. It has nothing to do with Web Assembly, and the thing about Web Assembly is that it's a very, very efficient, low-level bytecode, virtual machine, stack machine language, so the idea is that you really want to target that with a powerful compiler. So things like Clang, GCC, those kinds of compilers - they have a great opportunity to produce Web Assembly code. You don't wanna do it completely from scratch, by hand and so on, so what makes Gopher.js do what it does is that it basically completely revolves around Go and Javascript.
 
 If you were to try to add Web Assembly support to Gopher.js, you're basically starting from scratch. There's nothing really in it that helps you accomplish that job. So the way that I think this will happen is that hopefully maybe the official Go compiler will sometime in the future be able to target it, or maybe somebody will work on a separate project... But yeah, Gopher.js is not gonna help in this sense, because it's basically targeting Javascript, and there's no point in trying to make it target something else.
 
-**Erik St. Martin:** So basically everything you work on is kind of like these bleeding edge kind of thoughts and concepts... Because you've also been working on GraphQL stuff for a long time, too...
+**Erik St. Martin:** So basically everything you work on is kind of like these bleeding edge kind of thoughts and concepts... Because you've also been working on [GraphQL](https://graphql.org/) stuff for a long time, too...
 
 **Dmitri Shuralyov:** Yeah, GraphQL is something that I've somewhat dabbled in recently, and I'm mostly done with that effort. What I saw - this happened about four months ago, three months ago... At that time, GitHub announced that their next version of the API (version 4) is going to use GraphQL. For anyone who hasn't heard of it, it's a technology from Facebook; they've kind of made it for their own API's, because REST wasn't really cutting it and they wanted to kind of push the envelope... So it's a way of building your websites' API's, and then kind of being able to make these really efficient queries that just give you the exact data you want, and nothing else.
 
 When GitHub announced that their next API is using this, that's when I saw that like this is actually a technology that's now picking up steam, and it's kind of more useful to have support for it, and I saw that in Go. There were a couple packages that implemented the GraphQL server-side, so you could have your GraphQL server written in Go, but there was absolutely nothing for the client. That's when I saw that there was this opportunity to work on a client.
 
-I've done a little bit of research and I tried a few things, and I saw that "Okay, if I spend maybe a couple weeks, I could have a working client." I saw that there was quite a bit of work, but I saw that I could do this in that amount of time, and I thought it was worthwhile to make it so that there'd be a Go client for GraphQL that people could use. That's sort of where things are right now, I've created it.
+I've done a little bit of research and I tried a few things, and I saw that "Okay, if I spend maybe a couple weeks, I could have a working client." I saw that there was quite a bit of work, but I saw that I could do this in that amount of time, and I thought it was worthwhile to make it so that there'd be a Go client for GraphQL that people could use. That's sort of where things are right now, [I've created it](https://github.com/shurcooL/graphql).
 
 It has some to-do's, but it's mostly done in the to-do's that can be completed over time. The basic functionality works, and anyone can use it.
 
@@ -187,7 +187,7 @@ One of the things about it, one of the properties of GraphQL is that it's very t
 
 **Carlisia Pinto:** Yeah, and I might wanna filter by fields.
 
-**Dmitri Shuralyov:** I see. I don't know of an existing solution. I think you would have to maybe look for it or maybe just create it yourself, but the thing that does exist right now - or continues to be developed - is a project called Vecty, and I think this has already come up on some previous episodes. It's kind of the equivalent of React, but written in Go and really specifically focused on Go... Because even though there have been project wrappers around React, to make it possible to use on the front-end, there's a lot of inefficiency in having to map to what they've created in React, which was targeting Javascript specifically.
+**Dmitri Shuralyov:** I see. I don't know of an existing solution. I think you would have to maybe look for it or maybe just create it yourself, but the thing that does exist right now - or continues to be developed - is a project called [Vecty](https://github.com/gopherjs/vecty), and I think this has already come up on some previous episodes. It's kind of the equivalent of React, but written in Go and really specifically focused on Go... Because even though there have been project wrappers around React, to make it possible to use on the front-end, there's a lot of inefficiency in having to map to what they've created in React, which was targeting Javascript specifically.
 
 So Vecty tries to do things in a very Go-centered way, and you could totally use Vecty then to create some sort of front-end. You would still have to build it from the individual HTML tags and so on, to visualize all the things you want... But it will let you not worry about having to re-render some parts of the page as the data changes; it takes care of that, just like React. But yeah, you would have to be the person that works on it, or something like that.
 
@@ -211,13 +211,13 @@ So Vecty tries to do things in a very Go-centered way, and you could totally use
 
 **Carlisia Pinto:** Sourcegraph, there you go. Sourcegraph is the best.
 
-**Dmitri Shuralyov:** I actually use it in one of my projects. It's called Go Package Store, and it's a project for displaying updates for your Go packages in your GOPATH. Originally, it was this really simple application that would basically stream the HTML from the backend, and the browser displayed it as the HTML was being served to it. But that had some disadvantages... There were some things I couldn't do, so I ended up rewriting it so that everything renders on the front-end, and I used Vecty for that, and it works really well, in my experience. It enabled me to do all that, and some things couldn't do before.
+**Dmitri Shuralyov:** I actually use it in one of my projects. It's called Go Package Store, and it's a project for displaying updates for your Go packages in your GOPATH. Originally, it was this really simple application that would basically stream the HTML from the backend, and the browser displayed it as the HTML was being served to it. But that had some disadvantages... There were some things I couldn't do, so I ended up rewriting it so that everything renders on the front-end, and I used Vecty for that, and it works really well, in my experience. It enabled me to do all that, and some things I couldn't do before.
 
 There was a feature request to add an Update All button, so... I guess people don't wanna click on updating every single Go package individually, they just wanna press that Update All button and it will take care of the rest for them. Now that button exists, and Vecty made it super easy to implement it.
 
 It's also a package that is kind of in development, so there are still some changes that are being done to it, and they're always looking for ways to improve things or do things better. It's still somewhere in its medium milestones, I'd say, but it's definitely usable; you can start using it today, and it works well as long as you're willing to update your code, should something change.
 
-**Brian Ketelsen:** One of my favorite examples of a Vecty app is the Go Play Space. Oh, it looks like somebody just posted that into our Slack, too. It's at GitHub.com/iafan/goplayspace, and it's like a Go playground that has lots of extra cool features. It's really slick.
+**Brian Ketelsen:** One of my favorite examples of a Vecty app is the [Go Play Space](https://goplay.space/). Oh, it looks like somebody just posted that into our Slack, too. It's at [gtitHub.com/iafan/goplayspace](https://github.com/iafan/goplayspace), and it's like a Go playground that has lots of extra cool features. It's really slick.
 
 **Dmitri Shuralyov:** Yeah, that's a really great example of it.
 
@@ -225,19 +225,19 @@ It's also a package that is kind of in development, so there are still some chan
 
 **Brian Ketelsen:** Lots of it, yes.
 
-**Erik St. Martin:** \[00:32:02.07\] I saw a couple of posts, especially with regard to Steve Francia's talk about the state of Go, and there has kind of been like -- everybody's talking about Go 2 and things like that... What's your take on that? What would you like to see happen, what would you like to not see happen?
+**Erik St. Martin:** \[00:32:02.07\] I saw a couple of posts, especially with regard to [Steve Francia's](https://twitter.com/spf13) [talk about the state of Go](https://www.youtube.com/watch?v=l_FkVIPerzE), and there has kind of been like -- everybody's talking about Go 2 and things like that... What's your take on that? What would you like to see happen, what would you like to not see happen?
 
 **Carlisia Pinto:** That's a great question, Dimitri...
 
 **Dmitri Shuralyov:** Yeah, so I definitely have a very specific way in which I enjoy using Go, and that's - one of the ways at least... And that's I appreciate it for its simplicity; it gives you really well thought out basic building blocks and kind of lets you do the rest. That really works well with the way that I like to approach things.
 
-The opposite of what I want is Go 2 becoming the next Javascript, completely changing it, adding generics, and all these new features... I don't want to see new features, I just want to see stability and Go continue to be simple.
+The opposite of what I want is Go to becoming the next Javascript, completely changing it, adding generics, and all these new features... I don't want to see new features, I just want to see stability and Go continue to be simple.
 
-It can, of course, address things. Basically, the talk that Ross Cox gave about how they're planning to get to 2.0 sounds amazing to me. He said that it's not gonna be this major jump, but rather they're gonna work on everything that has to happen that is still backwards-compatible. So the next many years of releases will just be incremental changes to make 2.0 possible, but still be 1.x... 1.11, 1.12, and so on.
+It can, of course, address things. Basically, the [talk](https://www.youtube.com/watch?v=h6Cw9iCDVcU&t=282s) that [Ross Cox](https://twitter.com/_rsc) gave about how they're planning to get to 2.0 sounds amazing to me. He said that it's not gonna be this major jump, but rather they're gonna work on everything that has to happen that is still backwards-compatible. So the next many years of releases will just be incremental changes to make 2.0 possible, but still be 1.x... 1.11, 1.12, and so on.
 
 **Erik St. Martin:** Yeah, I really kind of like that approach... That it was very likely that it could be like "Well, 1.20 is now 2.0."
 
-**Dmitri Shuralyov:** Yeah, and it's not like a big, dramatic change, it's like a smooth transition. That sounds really awesome. I think there is another talk that Brad Fitzpatrick gave about how as Go matures, it kind of becomes asymptotically more boring, but that is a great thing, and he definitely makes a strong argument for it, because the excitement happens at a higher level - it's the projects you build, it's the libraries you build, it's how you use Go; that's where the excitement is. But Go itself - it doesn't need to do more things.
+**Dmitri Shuralyov:** Yeah, and it's not like a big, dramatic change, it's like a smooth transition. That sounds really awesome. I think there is another talk that [Brad Fitzpatrick](https://twitter.com/bradfitz) gave about how as Go matures, it kind of becomes asymptotically more boring, but that is a great thing, and he definitely makes a strong argument for it, because the excitement happens at a higher level - it's the projects you build, it's the libraries you build, it's how you use Go; that's where the excitement is. But Go itself - it doesn't need to do more things.
 
 When people think about like "Why not add these features? Why not do this and that?", you have to consider all perspectives, and one of the perspectives that is often overlooked is how this feature will interplay on the tooling; it's how it's going to affect the kind of things you could kind of use Go for, or how you could maybe generate code, or the kind of questions that you can answer about codebases...
 
@@ -249,14 +249,14 @@ The takeaway from his talk was really that the way we're building distributed sy
 
 \[00:36:19.01\] So yeah, to your point, we want it to stay fairly stable, and like "Let's figure out the patterns."
 
-**Dmitri Shuralyov:** Yeah, absolutely. One of my favorite quotes, because I said that I value simplicity, so there is one quote that I found... It's by Frederic Chopin; he was this Polish pianist from the early 1800s; he said that simplicity is the final achievement. After one has played a vast quantity of notes, and more notes, it is simplicity that emerges as the crowning reward of the art.
+**Dmitri Shuralyov:** Yeah, absolutely. One of my favorite quotes, because I said that I value simplicity, so there is one quote that I found... It's by Frederic Chopin; he was this Polish pianist from the early 1800s; he said that _Simplicity is the final achievement. After one has played a vast quantity of notes, and more notes, it is simplicity that emerges as the crowning reward of the art_.
 
 I really resonate with that, because when you're working on a project at first, when you don't quite know what it's gonna be or how you're gonna achieve it, you end up doing a whole bunch of things and you try to learn about it, and then once you have it finished, that's when you start to understand it better, and then only after all that insight you can actually maybe simplify it and come up with the final solution, which you can't have started with. That simplification was possible because you understood how things work.
 Similarly with Go, many of the programming language features that it has, they seem to be from decades ago, but that's because it really took all those insights from the languages and the developments that have happened before it, and applied very carefully.
 
 It's really interesting how that works, but yeah, you don't get to simplicity right away.
 
-**Brian Ketelsen:** I've been reading a lot of code lately that is written in languages that have generics, and I know that it's been said many times that Go was designed specifically to be a language that's easy to read and understand... And after dealing with these languages - and I'm not gonna mention any names, because this isn't a language war thing, but I do really appreciate the fact that Go doesn't have generics, because it makes it truly harder to read what's going on.
+**Brian Ketelsen:** I've been reading a lot of code lately that is written in languages that have _Generics_, and I know that it's been said many times that Go was designed specifically to be a language that's easy to read and understand... And after dealing with these languages - and I'm not gonna mention any names, because this isn't a language war thing, but I do really appreciate the fact that Go doesn't have _Generics_, because it makes it truly harder to read what's going on.
 
 **Dmitri Shuralyov:** Yeah, yeah.
 
@@ -268,7 +268,7 @@ The feature in question was about being able to have build tags for test files, 
 
 Some of these restrictions, they basically make it easier to read and understand the code and make certain guarantees about it. So it really helps; the readability is definitely prioritized, and that's one of the best features of Go in my opinion as well.
 
-**Carlisia Pinto:** Yes, I've worked with languages that did generics, and I understand that makes some things simpler; I'm not sure if there are things that can only be achieved with generics, I'm not that knowledgeable, but I am still not convinced that anything that would be simpler by using generics, or easier or shorter to write, would trump the readability feature of Go.
+**Carlisia Pinto:** Yes, I've worked with languages that did _Generics_, and I understand that makes some things simpler; I'm not sure if there are things that can only be achieved with generics, I'm not that knowledgeable, but I am still not convinced that anything that would be simpler by using _Generics_, or easier or shorter to write, would trump the readability feature of Go.
 
 **Dmitri Shuralyov:** Yeah.
 
@@ -294,7 +294,7 @@ I feel like the ability to maintain so much Go code - that is enabled by Go itse
 
 **Brian Ketelsen:** Amen!
 
-**Carlisia Pinto:** I think lines of code in Go is misleading, because I think Go is very vertically dense, but if you read ten lines of code in Go, there's very little there. It's just there's a lot that's happening on the vertical space, but there is not a lot that's happening in that vertical space. \[00:42:34.20\] So 100 lines of Go compared to 100 lines of another language - there's a lot less happening in that 100 lines of code in Go. But maybe it should be more, I'm not sure, but there's definitely a lot less because there's more going on vertically.
+**Carlisia Pinto:** I think lines of code in Go is misleading, because I think Go is very vertically dense, but if you read ten lines of code in Go, there's very little there. It's just there's a lot that's happening on the vertical space, but there is not a lot that's happening in that vertical space. So 100 lines of Go compared to 100 lines of another language - there's a lot less happening in that 100 lines of code in Go. But maybe it should be more, I'm not sure, but there's definitely a lot less because there's more going on vertically.
 
 **Brian Ketelsen:** No, and that makes it easier to read.
 
@@ -310,29 +310,29 @@ I feel like the ability to maintain so much Go code - that is enabled by Go itse
 
 **Dmitri Shuralyov:** Sounds good!
 
-**Erik St. Martin:** Okay, so we should start off with the most important thing, which is there is security releases - Go 1.9.1 and 1.8.4. If you are running 1.9 or 1.8, please update. I think it was like two different security issues those solve for.
+**Erik St. Martin:** Okay, so we should start off with the most important thing, which is there is security releases - [Go 1.9.1 and 1.8.4](https://groups.google.com/forum/#!msg/golang-nuts/sHfMg4gZNps/a-HDgDDDAAAJ). If you are running 1.9 or 1.8, please update. I think it was like two different security issues those solve for.
 
-**Brian Ketelsen:** \[00:44:13.16\] Yeah, one of them was Net::SMTP, and the other was a nested Git vulnerability; if you tried to check out a Go package into another Git repository, you could cause a code execution exploit.
+**Brian Ketelsen:** \[00:44:13.16\] Yeah, one of them was `net.smtp`, and the other was a nested Git vulnerability; if you tried to check out a Go package into another Git repository, you could cause a code execution exploit.
 
-**Dmitri Shuralyov:** Yes, don't go get packages you don't trust until that update... And probably not after, either.
+**Dmitri Shuralyov:** Yes, don't `go get` packages you don't trust until that update... And probably not after, either.
 
-**Erik St. Martin:** Yeah, you probably shouldn't trust those anyway. Almost every language has that, because there's execution that takes place, like go install something.. You don't have control over--
+**Erik St. Martin:** Yeah, you probably shouldn't trust those anyway. Almost every language has that, because there's execution that takes place, like `go install` something.. You don't have control over--
 
-**Dmitri Shuralyov:** Right. Actually, Go is better is a sense because when you go get something, it only does the download, the checkout, and then also maybe it builds it, but it doesn't actually run any of that code until you go test it, for example.
+**Dmitri Shuralyov:** Right. Actually, Go is better is a sense because when you `go get` something, it only does the download, the checkout, and then also maybe it builds it, but it doesn't actually run any of that code until you `go test` it, for example.
 
 **Erik St. Martin:** Yeah, but you could have generators and things like that with build \[unintelligible 00:45:04.09\]
 
-**Dmitri Shuralyov:** Right, so unless you go generate, you wouldn't be executing any of their code.
+**Dmitri Shuralyov:** Right, so unless you `go generate`, you wouldn't be executing any of their code.
 
 **Erik St. Martin:** I guess that's true, too.
 
-**Dmitri Shuralyov:** So this bug was really the only way to have somebody where you could go get and be compromised. As far as I know, there's no other way to do it.
+**Dmitri Shuralyov:** So this bug was really the only way to have somebody where you could `go get` and be compromised. As far as I know, there's no other way to do it.
 
 **Erik St. Martin:** Alright, so interesting projects...
 
-**Brian Ketelsen:** Skylark was released this week, and that looks interesting because it's a light version of Python, but it's written in Go, and it looks like it's gonna be used for Bazel, which is Google's build tool, to replace the original version of that scripting tool. Now I don't remember what the Python version is called, but it looks like a really interesting project, because it's embeddable in Go, so it could be used nicely for building DSL's, for building configuration languages etc. The original Python version was also called Skylark.
+**Brian Ketelsen:** [Skylark](https://github.com/google/skylark) was released this week, and that looks interesting because it's a light version of Python, but it's written in Go, and it looks like it's gonna be used for [Bazel](https://bazel.build/), which is Google's build tool, to replace the original version of that scripting tool. Now I don't remember what the Python version is called, but it looks like a really interesting project, because it's embeddable in Go, so it could be used nicely for building DSL's, for building configuration languages etc. The original Python version was also called Skylark.
 
-**Erik St. Martin:** There was a new Lua interpreter too that came out in Go.
+**Erik St. Martin:** There was a new [Lua interpreter](https://github.com/milochristiansen/lua) too that came out in Go.
 
 **Brian Ketelsen:** There was.
 
@@ -370,13 +370,13 @@ And I know video games use it, too.
 
 **Dmitri Shuralyov:** If they exist.
 
-**Erik St. Martin:** Alright, so another cool tool that I saw come out - I'm guessing the name is called Colly (the dog). It's GitHub.com/asciimoo/colly. It's like a web scraping utility written in Go, and you can kind of visit links and things like that. That looks really cool. Because a lot of people have been using like Python for this, so there's some good tools like Scrapy, or something like that... There's another one that's really common for doing web scraping.
+**Erik St. Martin:** Alright, so another cool tool that I saw come out - I'm guessing the name is called Colly (the dog). It's at [gitHub.com/asciimoo/colly](https://github.com/gocolly/colly). It's like a web scraping utility written in Go, and you can kind of visit links and things like that. That looks really cool. Because a lot of people have been using like Python for this, so there's some good tools like Scrapy, or something like that... There's another one that's really common for doing web scraping.
 
 I wonder whether we're gonna get some Capybaras and things like that built on top of that.
 
 **Brian Ketelsen:** That'd be cool.
 
-**Erik St. Martin:** So aside from that, in full disclosure, I have not watched this full video yet - I've been traveling a bunch - but Tyler Treat gave a talk at StrangeLoop titled "So you wanna go fast?", and that was actually pretty interesting, getting into the \[unintelligible 00:49:39.11\] things of that nature. We will drop a link to that video in the show notes; that's worth a watch, at least to the point that I've watched it so far.
+**Erik St. Martin:** So aside from that, in full disclosure, I have not watched this full video yet - I've been traveling a bunch - but Tyler Treat gave a [talk](https://www.youtube.com/watch?v=DJ4d_PZ6Gns) at StrangeLoop titled "So you wanna go fast?", and that was actually pretty interesting, getting into the \[unintelligible 00:49:39.11\] things of that nature. We will drop a link to that video in the show notes; that's worth a watch, at least to the point that I've watched it so far.
 
 **Brian Ketelsen:** Yeah, I'm the same - I watched some of it, and it looked really good.
 
@@ -384,7 +384,7 @@ I wonder whether we're gonna get some Capybaras and things like that built on to
 
 **Brian Ketelsen:** I've not watched all of it.
 
-**Erik St. Martin:** You're super smart, so I assume the rest of it is also good.
+**Erik St. Martin:** He is super smart, so I assume the rest of it is also good.
 
 **Brian Ketelsen:** Yeah, based on his historical blog posts and other talks, it's probably guaranteed to be a great presentation, so... You won't do yourself any harm by watching it.
 
@@ -394,7 +394,7 @@ I wonder whether we're gonna get some Capybaras and things like that built on to
 
 **Erik St. Martin:** Why does everybody even need us for anymore...?
 
-**Brian Ketelsen:** Freakin' Florin... \[laughter\]
+**Brian Ketelsen:** Freakin' [Florin](https://twitter.com/dlsniper)... \[laughter\]
 
 **Erik St. Martin:** Alright. So let's roll into \#FreeSoftwareFriday. Does anybody have anybody they wanna give shoutouts to this week?
 
@@ -402,7 +402,7 @@ I wonder whether we're gonna get some Capybaras and things like that built on to
 
 **Erik St. Martin:** Alright, let's hear it.
 
-**Brian Ketelsen:** So I decided I was gonna finally learn tmux. I've been resisting tmux forever, because it just annoys me that there's one more layer of things on top of the things that I already have to remember in Vim, so I've been avoiding it... But I found - and I'm not even gonna try to pronounce it; I'll spell it - Byobu by Dustin Kirkland, and it's a pretty wrapper on top of either tmux or Screen, and it's pretty nice. Just a handful of keyboard commands that you really need to remember, as opposed to the billion crazy tmux combinations... So I'm all about that.
+**Brian Ketelsen:** So I decided I was gonna finally learn tmux. I've been resisting tmux forever, because it just annoys me that there's one more layer of things on top of the things that I already have to remember in Vim, so I've been avoiding it... But I found - and I'm not even gonna try to pronounce it; I'll spell it - [Byobu](http://byobu.co/) by Dustin Kirkland, and it's a pretty wrapper on top of either tmux or Screen, and it's pretty nice. Just a handful of keyboard commands that you really need to remember, as opposed to the billion crazy tmux combinations... So I'm all about that.
 
 **Carlisia Pinto:** Let us know how that went... \[laughs\]
 
@@ -412,13 +412,13 @@ I wonder whether we're gonna get some Capybaras and things like that built on to
 
 **Brian Ketelsen:** I will.
 
-**Carlisia Pinto:** I wanna give a shoutout to Go Examples... How do I say this in the right way? The ability to write examples in Go.
+**Carlisia Pinto:** I wanna give a shoutout to _Go Examples_... How do I say this in the right way? The ability to write examples in Go.
 
 **Erik St. Martin:** Yeah, that's part of the documentation...
 
 **Carlisia Pinto:** Yeah.
 
-**Dmitri Shuralyov:** Oh yeah, the GoDoc feature...
+**Dmitri Shuralyov:** Oh yeah, the _godoc_ feature...
 
 **Carlisia Pinto:** Yeah, so you can write tests, and you can write examples - which I actually only found out a couple months ago. It makes me so warm and fuzzy inside... It's one of those things. I'm in absolute love with it. And today, I got to write my first one, and I think I'm gonna be obsessed about it.
 
@@ -432,7 +432,7 @@ I wonder whether we're gonna get some Capybaras and things like that built on to
 
 **Carlisia Pinto:** And it runs! I love that! I love it!
 
-**Brian Ketelsen:** And their tests. That's the best part, their tests. So if your examples don't pass, your tests don't pass.
+**Brian Ketelsen:** And they're tests. That's the best part, they're tests. So if your examples don't pass, your tests don't pass.
 
 **Dmitri Shuralyov:** Yup.
 
@@ -474,7 +474,7 @@ I wonder whether we're gonna get some Capybaras and things like that built on to
 
 **Brian Ketelsen:** Awesome.
 
-**Dmitri Shuralyov:** So this is GopherCI by Bradley Falzon. He made this continuous code quality CI system of sorts, and it's specifically for Go. It will run a bunch of the static code analysis Go tools, like staticcheck, govet, gosimple - all the ones that are made by the community, and of course, the official ones. The idea is that it's very simple to use; it's easier to use than Travis CI, for example.
+**Dmitri Shuralyov:** So this is [GopherCI](https://gopherci.io/) by Bradley Falzon. He made this continuous code quality CI system of sorts, and it's specifically for Go. It will run a bunch of the static code analysis Go tools, like `staticcheck`, `govet`, `gosimple` - all the ones that are made by the community, and of course, the official ones. The idea is that it's very simple to use; it's easier to use than Travis CI, for example.
 
 You basically enable it for your GitHub username, and then all your Go projects will start to benefit from it. When you push a pull request or somebody else makes one, if there are any issues found by those tools, it will kind of leave a comment and let you know.
 
@@ -490,7 +490,7 @@ Bradley Falzon worked on creating this, and he's developing it further. It's jus
 
 **Dmitri Shuralyov:** Nice. Yeah, so I watched the repository where he develops the new features, and it's just really cool to see the things that are happening. He makes all the code really high quality before merging it, so it's great to be able to do that.
 
-**Erik St. Martin:** For mine, I don't have anything new that people haven't heard of before, but it's new to me... So I'm gonna give a shoutout to VS Code and Ramya and all the people who contribute to the Go plugin.
+**Erik St. Martin:** For mine, I don't have anything new that people haven't heard of before, but it's new to me... So I'm gonna give a shoutout to [VSCode](https://code.visualstudio.com/) and [Ramya](https://twitter.com/ramyanexus) and all the people who contribute to the Go plugin.
 
 **Brian Ketelsen:** Awesome!
 
@@ -524,7 +524,7 @@ With that, thanks everybody for being on the show. Huge thank you to Dmitri for 
 
 **Brian Ketelsen:** Thanks so much for coming, Dmitri.
 
-**Erik St. Martin:** You can find us on Twitter @GoTimeFM, or GoTime.fm online. If you wanna be on the show or have suggestions for guests or topics, the best way to do that is file an issue on our GitHub repo, which is GitHub.com/gotimefm/ping. With that, bye everybody. We'll see you next week.
+**Erik St. Martin:** You can find us on Twitter @GoTimeFM, or GoTime.fm online. If you wanna be on the show or have suggestions for guests or topics, the best way to do that is file an issue on our GitHub repo, which is [ping](https://github.com/GoTimeFM/ping). With that, bye everybody. We'll see you next week.
 
 **Brian Ketelsen:** Bye!
 
