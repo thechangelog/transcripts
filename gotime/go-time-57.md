@@ -314,7 +314,7 @@ I think it's gonna be really interesting to see some of the developments in the 
 
 **Erik St. Martin:** Now we're at an hour and I don't even think we keep that... \[laughs\] With that, thanks everybody, and especially thank you Cindy for coming on and talking with us; I wish we had more time, but we've gotta stop the show somewhere. Huge thank you to all of the listeners. Definitely share the show with friends and co-workers.
 
-You can find us on Twitter, @GoTimeFM. If you wanna be on the show, have suggestions for guests or topics, find us on [ping](https://github.com/GoTimeFM/ping). With that, bye everybody! We'll see you next week... Although I won't see everybody next week - I'll be gone for two weeks - but everybody else will see you next week.
+You can find us on [Twitter](https://twitter.com/GoTimeFM). If you wanna be on the show, have suggestions for guests or topics, find us on [ping](https://github.com/GoTimeFM/ping). With that, bye everybody! We'll see you next week... Although I won't see everybody next week - I'll be gone for two weeks - but everybody else will see you next week.
 
 **Carlisia Pinto:** Somebody will see somebody next week. This show is great! \[laughs\]
 
