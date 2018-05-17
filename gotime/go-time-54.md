@@ -14,7 +14,7 @@
 
 **Erik St. Martin:** So you've been a long-time listener and follower of GoTime, so we're really excited to actually get you on and talk about some of the stuff that you're working on.
 
-**Chase Adams:** Yeah, I'm excited to be here. I've been listening to the Changelog for a long time, and I always hoped there would be a good podcast about Go, and once GoTime game out, it was love at first sight.
+**Chase Adams:** Yeah, I'm excited to be here. I've been listening to the Changelog for a long time, and I always hoped there would be a good podcast about Go, and once GoTime came out, it was love at first sight.
 
 **Brian Ketelsen:** We're still hoping. Oh, sorry! \[laughter\]
 
@@ -22,7 +22,7 @@
 
 **Erik St. Martin:** So why don't you give everybody just a little bit of background, maybe about your history with Go and what you're doing at Walmart.
 
-**Chase Adams:** Sure. So I build software in Go for the Edge platform team at Walmart Labs. It was originally a company called Torbit; I've only been with the team since December of last year, but everyone still calls us the Torbit team, regardless of the fact that we're supposed to be the Edge platform team.
+**Chase Adams:** Sure. So I build software in Go for the Edge platform team at Walmart Labs. It was originally a company called Torbit and it was acquired in 2012; I've only been with the team since December of last year, but everyone still calls us the Torbit team, regardless of the fact that we're supposed to be the Edge platform team.
 
 We do three main things for Walmart - we have our own reverse proxy, which does the asset and page optimization, so all the front-end optimization stuff. We have a homegrown CDN, and then we have a RAM system, and all that stuff's written in Go.
 
@@ -32,13 +32,13 @@ We do three main things for Walmart - we have our own reverse proxy, which does 
 
 **Chase Adams:** Yeah, it's pretty cool. Most of the people on the team have been working on the CDN for a lot longer than I have, and they've done a pretty good job, and as far as I know it, it's pretty competitive and it works really well.
 
-**Brian Ketelsen:** I'm gonna go test it. I'm going to Walmart.com right now. Actually no, I'll do it from the command line. Curl, time, curl, https://walmart.com
+**Brian Ketelsen:** I'm gonna go test it. I'm going to Walmart.com right now. Actually no, I'll do it from the command line: `time curl https://walmart.com`
 
 **Erik St. Martin:** \[laughs\] He's actually doing it, too.
 
-**Brian Ketelsen:** Oh, I instantly get a 302. What's the curl command to follow the redirect?
+**Brian Ketelsen:** Oh, I instantly get a `302`. What's the curl command to follow the redirect?
 
-**Chase Adams:** That's -L, is the flag I think you wanna use.
+**Chase Adams:** That's `-L`, is the flag I think you wanna use.
 
 **Brian Ketelsen:** Minus which?
 
@@ -58,7 +58,7 @@ We do three main things for Walmart - we have our own reverse proxy, which does 
 
 **Carlisia Pinto:** Let's talk about hiring -- I know your team is small, because we talked about this, but I'm wondering... Every once in a while I ask people how their hiring is for Go developers - how you approach it at your company or in your team, if you have difficulties...
 
-**Chase Adams:** Yeah, that's a good question. I am the newest person to the team, and before that I think the newest person was a year old. Our team is pretty small - there are three full-time developers writing Go, and we have a guy who's doing dev ops, and my manager is about 50/50 split. So our team's pretty small, considering the different things that we touch at Walmart.
+**Chase Adams:** Yeah, that's a good question. I am the newest person to the team, and before that I think the newest person was a year old. Our team is pretty small - there are three full-time developers writing Go, and we have a guy who's doing DevOps, and my manager is about 50/50 split. So our team's pretty small, considering the different things that we touch at Walmart.
 
 As far as hiring goes, for me one of the interesting things was being able to be given a project to work on, and I work on that project as if it were a greenfield... And to think about a lot of the considerations for which features I should add or which features not to add, because it might move out my project's timeline for when I did do my interview. But our team is still pretty small and head count's one of those things that's hard to come by at Walmart because there's so much to do... But hopefully as we grow we're gonna have a lot more positions for people to be able to help out.
 
@@ -70,7 +70,7 @@ As far as hiring goes, for me one of the interesting things was being able to be
 
 **Brian Ketelsen:** Show us your stack!
 
-**Chase Adams:** Yeah, so I can't talk too much about the stack except to say that we have a lot of executables running in different places, and they're all Go. For our stats, we're using Prometheus, but other than that, most everything's -- sorry, and NSQ as well. So those are kind of the two big things that I spend time with in our stack.
+**Chase Adams:** Yeah, so I can't talk too much about the stack except to say that we have a lot of executables running in different places, and they're all Go. For our stats, we're using [Prometheus](https://prometheus.io/), but other than that, most everything's -- sorry, and [NSQ](https://nsq.io/) as well. So those are kind of the two big things that I spend time with in our stack.
 
 But most everything is Go, and it's spread out across the world, which is pretty neat, since we support Asda, Walmart Brazil, Walmart Canada, Sam's Club, Walmart US, Walmart Mexico... I don't know, there's so many different properties that we support...
 
@@ -78,7 +78,7 @@ But most everything is Go, and it's spread out across the world, which is pretty
 
 **Chase Adams:** Yeah, it's pretty amazing how far-reaching Walmart is. I've talked to people on Slack from the U.K., and from Canada... I haven't talked to anyone from Brazil that, but I know that team is starting to transition to using the Edge platform tools that we have. It's pretty amazing how many people there are working on stuff for Walmart, and it's different countries that we support.
 
-**Carlisia Pinto:** \[00:08:10.00\] Are you using Docker, Kubernetes, anything like that?
+**Carlisia Pinto:** \[00:08:10.00\] Are you using [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), anything like that?
 
 **Chase Adams:** No. Pretty much everything is either on bare metal or NVMs, and since it's a stack, that built binary we don't have to really worry about too much other than that.
 
@@ -102,7 +102,7 @@ But most everything is Go, and it's spread out across the world, which is pretty
 
 **Chase Adams:** It's really interesting... I've been fully distributed myself for -- my two-year anniversary at Walmart was middle of July this year, so I've been working on distributed teams not for a very long time, considering there are some people who've been working on them for over a decade, but one of the interesting things I think is, you know, you have a couple of offices, and then you have people who are spread out, and then just making sure that communication is clear and concise and that everyone is on the same page about what we're wanting to do and how to move forward... I think for our team, we do a pretty good job of being clear about what our roadmap should look like for the quarter. And if you hit bumps, I think one of the hardest things for any distributed team is if you're spanning across time zones, and even different people kind of pick different hours to work. If you have a question or something you bump into, it is kind of blocker... Finding the time to not necessarily disturb that person, but still be able to get some help in a quick fashion.
 
-**Brian Ketelsen:** What tools do you use for distributed communication? Are you deeply in Slack, or e-mail, or some other thing?
+**Brian Ketelsen:** What tools do you use for distributed communication? Are you deeply in [Slack](https://slack.com/), or e-mail, or some other thing?
 
 **Chase Adams:** Yeah, Slack is probably one of the heavier tools that we use for communication. Since we're writing code, GitHub is a pretty significant place where we spend communicating... And I think the GitHub Enterprise that we're using now has a lot of the newer features for reviews and doing approvals, and just being able to give written feedback I think is probably one of the hardest things that I've had to kind of get my head around, to do it in such a way that always comes across as gracious -- because sometimes even if you say something and your intent is meant to be more exploratory and not necessarily trying to ask him like "Why are you doing it this way?" You have to be really careful with written communication, especially if you only see each other once a quarter or so, to make sure that you're communicating in a way that you can be positive about the way forward with whatever it is you're talking about.
 
@@ -110,13 +110,13 @@ But most everything is Go, and it's spread out across the world, which is pretty
 
 **Chase Adams:** Yes. For me, I usually ask other people before I make a comment on something, especially if I think that it might potentially come across in a bad way. I think just talking to someone who has context around what you're talking about, but isn't the person that you're addressing immediately, they're able to look at it from a different way than you are, as the person who has written the code a lot more easily, and give you feedback and say "Well, you can probably tighten this up, or even say this thing a little different."
 
-Before joining this team, I worked pretty heavily on CICD, and I had my manager -- a lot of times I would talk to him about it, and we had a relationship to where I felt like I could be open with him about, you know, if I was seeing something that might not come across right... Or bounce those kinds of things back and forth - I think that's always been really helpful on both of the teams that I've been on at Walmart.
+Before joining this team, I worked pretty heavily on CI/CD, and I had my manager -- a lot of times I would talk to him about it, and we had a really good relationship to where I felt like I could be open with him about, you know, if I was seeing something that might not come across right... Or bounce those kinds of things back and forth - I think that's always been really helpful on both of the teams that I've been on at Walmart.
 
 **Erik St. Martin:** So let's talk a little bit about Go at Walmart. Is it pretty much isolated to your current team, or do you know of other teams within Walmart and Walmart Labs that are at least experimenting with Go, or have it in production already?
 
 **Chase Adams:** I know my team is the only team that I'm aware of that has Go in production. We all love Go, so we're encouraging other people to use it for things that might fit their use case. Anytime that we're in an office, we try and do some kind of introduction to Go, just so people can kind of get a taste for it. We've done things like spin up a Slack channel to encourage people to ask questions, or we'll post new things that we're finding, blog posts, or if there's a new project that might help... And I think that's been pretty neat, that there are other teams who are interested in writing Go, and I know there are people who are using it for some tooling that they're using for development.
 
-For me, before I joined this team working on CICD, I owned a Jenkins instance that had 60 agents, 60 different nodes, and we had to share those nodes for a pretty tremendous amount of the customer experience team, which is the team that uses Node.js pretty heavily to run integration tests. We wanted to be able to use those nodes at night time, when there weren't being used as much, and I built a tool with one of my co-workers that would transition those agents between two different Jenkins instances, and then -- Jenkinses can be kind of unstable when you're running 60 different slave agents, so we had a staging in Jenkins so that if it ever went down it wouldn't mess up anyone abroad.
+For me, before I joined this team working on CI/CD, I owned a [Jenkins](https://jenkins.io/) instance that had 60 agents, 60 different nodes, and we had to share those nodes for a pretty tremendous amount of the customer experience team, which is the team that uses Node.js pretty heavily to run integration tests. We wanted to be able to use those nodes at night time, when they weren't being used as much, and I built a tool with one of my co-workers that would transition those agents between two different Jenkins instances, and then -- Jenkinses can be kind of unstable when you're running 60 different slave agents, so we had a staging in Jenkins so that if it ever went down it wouldn't mess up anyone abroad.
 
 But we built a tool in Go that would basically switch those agents in and out based on capacity... Because neither of us wrote Java, neither of us cared to write Java; it was a really easy thing to do. And just building those kinds of tools at Walmart, and really any company; I think is a great way to show that it's a great language for solving problems.
 
@@ -126,7 +126,7 @@ But we built a tool in Go that would basically switch those agents in and out ba
 
 **Brian Ketelsen:** That's really cool. I think internal evangelism is easier than external evangelism. When you can show the awesome ROI on a project and other people want to look as cool as you - it's easier to sell something like that.
 
-**Chase Adams:** I think that's true, and I think the other big piece of it for me coming into Go was just being able to see someone use the Go tools that are, you know, first-class citizen to Go, that you don't get with other languages... Just to see how easy it is to write Go and to make sure that your Go is gonna work.
+**Chase Adams:** I think that's true, and I think the other big piece of it for me coming into Go was just being able to see someone use the Go tools that are, you know, first-class citizens to Go, that you don't get with other languages... Just to see how easy it is to write Go and to make sure that your Go is gonna work.
 
 \[00:16:16.25\] Having written a lot of Node.js previously, setting up testing for Javascript is a nightmare, and when you can show those kinds of things to people, just how easy it is to set up projects and how Go the language made the developer an important part of the story, to me that's a really convincing thing to be able to show to developers. And if developers can be productive and happy, and everyone else is gonna be happy, too.
 
@@ -134,21 +134,21 @@ But we built a tool in Go that would basically switch those agents in and out ba
 
 **Chase Adams:** That's right.
 
-**Brian Ketelsen:** So you've mentioned CI and CD several times... Is this a passion of yours, or is that something that you enjoy doing consistently?
+**Brian Ketelsen:** So you've mentioned CI/CD several times... Is this a passion of yours, or is that something that you enjoy doing consistently?
 
-**Chase Adams:** Yeah, I love CICD. My story at Walmart - I joined to work on React components, because... You know, when you think about Walmart and having these separate apps that need to consume similar data and be able to not have so much code that's just copy pasta - that was a really big selling point. And if you look at Walmart's open source stuff for the React world, they're working on things like Electrode... Which is kind of what spun out of what I started to work on.
+**Chase Adams:** Yeah, I love CI/CD. My story at Walmart - I joined to work on React components, because... You know, when you think about Walmart and having these separate apps that need to consume similar data and be able to not have so much code that's just _copy pasta_ - that was a really big selling point. And if you look at Walmart's open source stuff for the [React](https://reactjs.org/) world, they're working on things like [Electrode](http://www.electrode.io/)... Which is kind of what spun out of what I started to work on.
 
 When I joined this team, we didn't have any tests, there was a huge drift across all of the developer tools that we were using, so... You know, Webpack was a different version, ESLint (if it was even there) was a different version, so... When I came in, even though I was gonna work on React components, I wanted to tighten up that story of making sure that our code, especially if tons of people are gonna be using and contributing to it, making sure that we keep it clean and making sure that we have ways to be able to see if that code is working, and then how much the test coverage is changing.
 
-It kind of started out that way, where I just wanted to make everything a little nicer, and I ended up owning a Jenkins instance around October 2015. In December they spun up a new organ, asked if I was interested in CICD, and starting at getting these Electrode components to where everything was just flowing really nicely, and then getting the apps out the door. And I was like, "Yeah."
+It kind of started out that way, where I just wanted to make everything a little nicer, and I ended up owning a Jenkins instance around October 2015. In December they spun up a new organ, asked if I was interested in CI/CD, and starting at getting these Electrode components to where everything was just flowing really nicely, and then getting the apps out the door. And I was like, "Yeah."
 
-To me, if you can make it so that your code is mostly something that you feel like you can have some kind of assurance about and be able to get it from the developer to production in a way that's not too convoluted, those kinds of things for me... Yeah, they just made me so excited, and I think it really comes out of that thing I was talking about earlier, which is that if you can make developers happy, they'll deal with other things a lot better.
+To me, if you can make it so that your code is mostly something that you feel like you can have some kind of assurance about and be able to get it from the developer to production in a way that's not too convoluted, those kind of things for me... Yeah, they just made me so excited, and I think it really comes out of that thing I was talking about earlier, which is that if you can make developers happy, they'll deal with other things a lot better.
 
 You're gonna have politics wherever you work, you're gonna have some crappy things wherever you work, and if you have really good things and if you're not having to deal with bureaucracy, or if you don't even know if your app is gonna work when you push that in production - those are bad things... So making it so that your code is stable and making it so that there's good tooling around that so that people can run tests locally and then run it in CI, and then deploy to prod, reducing the friction on that to me I think is one of the most important things that any organization should be thinking about.
 
 **Brian Ketelsen:** \[00:20:06.06\] Yeah, for me CI is all about sleep.
 
-**Carlisia Pinto:** I wanted to clarify that CI is continuous integration and CD is continued development?
+**Carlisia Pinto:** I wanted to clarify that [CI](https://en.wikipedia.org/wiki/Continuous_integration) is continuous integration and [CD](https://en.wikipedia.org/wiki/Continuous_delivery) is continued development?
 
 **Brian Ketelsen:** Continuous delivery.
 
@@ -158,9 +158,9 @@ You're gonna have politics wherever you work, you're gonna have some crappy thin
 
 Then the CD is just being able to deploy it from environment to environment in such a way that if all the integration tests pass and all the different (what we call) "gates" work, then your code is gonna be able to go to production without a lot of extra finagling of environments.
 
-**Carlisia Pinto:** Is there anything about Go -- I mean, since you're into this, I'm sure you've done it in environments other than with Go... Is there anything about Go that makes CI especially easier, or more difficult, or any aspect of the CICD process?
+**Carlisia Pinto:** Is there anything about Go -- I mean, since you're into this, I'm sure you've done it in environments other than with Go... Is there anything about Go that makes CI especially easier, or more difficult, or any aspect of the CI/CD process?
 
-**Chase Adams:** For CI I think just Go existing in the first place - because Docker came out of Go and Docker to me has kind of revolutionized CI - just that alone is probably one of the best things to come out of Go with CI... Because you can imagine, if you have a place like Walmart, where everyone has their own little snowflake that's gonna run in CI, you have to have an environment that matches what's expected, and that even means that you have to plan for all contingencies on every Node that you're gonna potentially run that job on, and with Jenkins who knows what that could be... Or using something like Docker, where everything's kind of been laid out and defined for what the application should have; then you just run Docker with that container, and if you're using something like Drone or Travis, it makes it really trivial.
+**Chase Adams:** For CI I think just Go existing in the first place - because Docker came out of Go and Docker to me has kind of revolutionized CI - just that alone is probably one of the best things to come out of Go with CI... Because you can imagine, if you have a place like Walmart, where everyone has their own little snowflake that's gonna run in CI, you have to have an environment that matches what's expected, and that even means that you have to plan for all contingencies on every Node that you're gonna potentially run that job on, and with Jenkins who knows what that could be... Or using something like Docker, where everything's kind of been laid out and defined for what the application should have; then you just run Docker with that container, and if you're using something like [Drone](https://drone.io/) or [Travis](https://travis-ci.org), it makes it really trivial.
 
 **Brian Ketelsen:** So how does your CD pipeline work at Walmart? Do you have continuous delivery for a lot of components?
 
@@ -168,15 +168,15 @@ Then the CD is just being able to deploy it from environment to environment in s
 
 **Brian Ketelsen:** I don't, either. I think you've dodged the question.
 
-**Chase Adams:** I think probably. So we're still working on our CD story for my team. I spent a whole year working on CICD for the React components and the React applications, so... Spending a whole year and being fully dedicated to that project, we definitely got CICD going for that group, and that's a pretty large team or somewhere close to like 500 developers, I think, that's working on the React components, as well as building applications for Walmart.com. But for us, we're still trying to figure out that story, and it is hard, because we're trying to build our product and then also trying to figure out our CICD story at the same time, with a small group of people.
+**Chase Adams:** I think probably. So we're still working on our CD story for my team. I spent a whole year working on CI/CD for the React components and the React applications, so... Spending a whole year and being fully dedicated to that project, we definitely got CI/CD going for that group, and that's a pretty large team or somewhere close to like 500 developers, I think, that's working on the React components, as well as building applications for Walmart.com. But for us, we're still trying to figure out that story, and it is hard, because we're trying to build our product and then also trying to figure out our CI/CD story at the same time, with a small group of people.
 
 **Brian Ketelsen:** Changing the wheels on the bus while it's moving fast?
 
-**Chase Adams:** \[00:24:03.20\] Yeah, I like to use the -- I don't know if you remember that commercial, but it was like "We like to build airplanes... In the air." It's that same thing.
+**Chase Adams:** \[00:24:03.20\] Yeah, I like to use the -- I don't know if you remember that [commercial](https://www.youtube.com/watch?v=Y7XW-mewUm8), but it was like "We like to build airplanes... In the air." It's that same thing.
 
 **Brian Ketelsen:** \[laughs\] I haven't seen that one, but I've had that job before, so I empathize.
 
-**Erik St. Martin:** I don't know why I just thought of this, but do you guys remember... There was the commercial with Jean-Claude Van Damme and he was doing the split across the two semis, and then there was like the parody that came out and it was Chuck Norris doing a split across two planes... \[laughter\]
+**Erik St. Martin:** I don't know why I just thought of this, but do you guys remember... There was the [commercial with Jean-Claude Van Damme](https://www.youtube.com/watch?v=M7FIvfx5J10) and he was doing the split across the two semis, and then there was like the parody that came out and it was [Chuck Norris doing a split across two planes](https://www.youtube.com/watch?v=dndHQzZPH0Q)... \[laughter\]
 
 **Carlisia Pinto:** I haven't seen that, but it sounds hilarious.
 
@@ -248,7 +248,7 @@ Being able to find those people is a lot more trivial today than it used to be, 
 
 **Carlisia Pinto:** I am not actively mentoring anybody, but people do ask me for advice on how to get a job, how I got started working with Go (every once in a while), and I do take the time to open a quick video call and give advice. I have opened myself up to take on a woman of color, somebody who wants to learn Go, only because I don't see that there's any at all, and I would like to help with that.
 
-So I'm being selective; I don't have a lot of time, but I will make extra time for that. I'll make an extra effort, I guess. Otherwise, I think we have been sort of successful at being attractive to women in general; we have the Women Who Go group, and men definitely - we see people joining from all fronts, joining the community. So yeah, that's all that I've been doing.
+So I'm being selective; I don't have a lot of time, but I will make extra time for that. I'll make an extra effort, I guess. Otherwise, I think we have been sort of successful at being attractive to women in general; we have the [Women Who Go](https://www.womenwhogo.org/) group, and men definitely - we see people joining from all fronts, joining the community. So yeah, that's all that I've been doing.
 
 **Brian Ketelsen:** \[00:36:18.18\] I'm kind of the same; I have a lot of ad-hoc mentoring going on, at least 2 or 4 people a day on Slack and Twitter asking for various career advice or something similar to that, but it's all ad-hoc, nothing assigned.
 
@@ -306,9 +306,9 @@ Then my third one, there's a guy -- I've tweeted about him a few times, and then
 
 **Carlisia Pinto:** Yeah, that's harder, because it also requires for you to understand the domain, which if it's someone starting to learn, that's probably gonna need to be simple enough, but it still requires a little bit of effort.
 
-\[00:47:50.00\] The best thing I think - and this is not final; I would like to hear from Brian and Chase as well - is definitely join group chats, like the newbies channel that we have - Golang Newbies channel on GopherSlack, or the WomenWhoGo Slack, there's a GoBridge channel also in GopherSlack... Just because there'll be people available when you want to ask a question. And reserve pinging people for questions that you're not comfortable asking publicly. Just like Eric and me too. I'm available for one-offs, that I can say "Hey, let's do two days from now", but nothing that I can commit to on a consistent basis.
+\[00:47:50.00\] The best thing I think - and this is not final; I would like to hear from Brian and Chase as well - is definitely join group chats, like the newbies channel that we have - [Golang Newbies channel on GopherSlack](https://gophers.slack.com/messages/golang-newbies), or the [WomenWhoGo Slack](https://gophers.slack.com/messages/womenwhogo), there's a GoBridge channel also in GopherSlack... Just because there'll be people available when you want to ask a question. And reserve pinging people for questions that you're not comfortable asking publicly. Just like Eric and me too. I'm available for one-offs, that I can say "Hey, let's do two days from now", but nothing that I can commit to on a consistent basis.
 
-**Brian Ketelsen:** Yeah, that's probably an important part of the mentor discussion - determining what things are actively mentoring and what things are "I'm just too lazy to go to Stack Overflow." And the difference between them is in a mentor relationship you have that dedicated channel back and forth to answer hard questions, but if someone is taking advantage of that to ask not so hard questions, or questions that they haven't explored other opportunities with, then they're kind of putting a burden on that mentor relationship.
+**Brian Ketelsen:** Yeah, that's probably an important part of the mentor discussion - determining what things are actively mentoring and what things are "I'm just too lazy to go to [Stack Overflow](https://stackoverflow.com/)." And the difference between them is in a mentor relationship you have that dedicated channel back and forth to answer hard questions, but if someone is taking advantage of that to ask not so hard questions, or questions that they haven't explored other opportunities with, then they're kind of putting a burden on that mentor relationship.
 
 **Erik St. Martin:** Yeah, and I think, you know, you should be looking for hooks. "I don't know where to start, point me towards something." But I think that the personal one-on-one is valuable in the vulnerable conditions, right? For example, some of the conversations Brian and I have - I can come to him and express insecurity in something, whether it be "Should I submit a talk somewhere? Should I go for some job?" or something like that, and we can kind of talk in a vulnerable state, and both kind of have confidence in each other and share stories that you don't really wanna share in public channels... Often times that can be enough to give people the confidence to continue what they're doing, or ask for a raise, or anything of that nature. Those aren't the types of things that you just drop in a public chat forum.
 
@@ -322,7 +322,7 @@ Then my third one, there's a guy -- I've tweeted about him a few times, and then
 
 **Carlisia Pinto:** You don't need a resume anymore.
 
-**Erik St. Martin:** See? So, I kind of hate that... We all talk about impostor syndrome regularly, right? So when you kind of get like a walk-on job, where like "You're you, and we want you. If you want the job, you're hired" type thing. That really makes impostor syndrome worst too, because you spend a long time concerned, like "Do you know all of the things that they think you know, why they just offered you the job?" And it takes you a long while to kind of figure out what their expectations are versus your skillset, whereas if you're in a formal interview and you don't know things, you know that they know you don't know it, and you feel comfortable in that, like "Oh, okay, then I guess it wasn't that big of a deal."
+**Erik St. Martin:** See? So, I kind of hate that... We all talk about impostor syndrome regularly, right? So when you kind of get like a walk-on job, where like "You're you, and we want you. If you want the job, you're hired" type thing. That really makes impostor syndrome worse too, because you spend a long time concerned, like "Do you know all of the things that they think you know, why they just offered you the job?" And it takes you a long while to kind of figure out what their expectations are versus your skillset, whereas if you're in a formal interview and you don't know things, you know that they know you don't know it, and you feel comfortable in that, like "Oh, okay, then I guess it wasn't that big of a deal."
 
 **Carlisia Pinto:** \[00:52:06.13\] I don't know... I think the resume is just a tool for people getting to know you, and even with a resume, they can extrapolate and think that you know more than you know, or think that you know less than you know... And an interview is the point where they take that knowledge, whether it came from a resume or it came from them knowing you from wherever, and having that conversation. So "Let's talk about what you really know, how you really fit in, and what you don't know, and if you're comfortable with that..." So I don't see the problem that you see, if somebody invites you for an interview and they don't ask you for your resume.
 
@@ -350,17 +350,17 @@ For me, I don't know, that would make me really nervous, because even if it was 
 
 **Erik St. Martin:** Definitely.
 
-**Brian Ketelsen:** \[00:55:40.12\] ...so we could stay on track. I have the coolest Go news. I love me some distributed tracing, and Ricardo-ch, which is a Swiss company that got training from Gopher Academy when Gopher Academy was doing training this year - they just released go-tracing, which is an awesome open tracing plugin for Go that drops your traces and spans directly to zipkin.
+**Brian Ketelsen:** \[00:55:40.12\] ...so we could stay on track. I have the coolest Go news. I love me some distributed tracing, and [Ricardo.ch](https://www.ricardo.ch/), which is a Swiss company that got training from Gopher Academy when Gopher Academy was doing training this year - they just released go-tracing, which is an awesome open tracing plugin for Go that drops your traces and spans directly to zipkin.
 
 **Erik St. Martin:** Oh, nice.
 
-**Brian Ketelsen:** I saw it this morning, and the first thing I did was check it out and install it, and it is perfect; it's just what you need if you want distributed traces, so go get that. It's still missing a few pieces to the API that would make it perfect, but it's really nice, so go get some of that. It's at GitHub.com/ricardo-ch/go-tracing.
+**Brian Ketelsen:** I saw it this morning, and the first thing I did was check it out and install it, and it is perfect; it's just what you need if you want distributed traces, so go get that. It's still missing a few pieces to the API that would make it perfect, but it's really nice, so go get some of that. It's at [github.com/ricardo-ch/go-tracing](https://github.com/ricardo-ch/go-tracing).
 
-**Erik St. Martin:** Another piece of news it the Go 1.9RC2, which just came out yesterday... Or the day before? Well, by the time most people hear this it will have been a week ago, so...
+**Erik St. Martin:** Another piece of news it the [Go 1.9RC2](https://groups.google.com/forum/#!topic/golang-announce/lcUUfQalrr4), which just came out yesterday... Or the day before? Well, by the time most people hear this it will have been a week ago, so...
 
 **Brian Ketelsen:** That's true. That's a good question, I could go look at my Go binary and see when it was installed, because I think I installed it at least 30 seconds after it was released.
 
-**Erik St. Martin:** You've got like a bot that watches Twitter for the @Golang and whenever it mentions a release it goes out and installs it for you?
+**Erik St. Martin:** You've got like a bot that watches Twitter [@Golang](https://twitter.com/golang) and whenever it mentions a release it goes out and installs it for you?
 
 **Brian Ketelsen:** Pretty much. So my binary date for my local Go binary is 7th August at 16:33 PM. So I think it was the morning of the 7th that it was released.
 
@@ -370,7 +370,7 @@ For me, I don't know, that would make me really nervous, because even if it was 
 
 **Erik St. Martin:** So we talked a little bit about the new change to the GoTime website in the pre-show... So for the benefit of the listeners, do you wanna talk about it, Brian? Because you're like super pumped about it.
 
-**Brian Ketelsen:** I do, it's so exciting! We have transcripts available on the GoTime website now. So if you go to an individual episode, you can see transcripts, and they're generally accurate, if not completely accurate... But they're generally accurate. And they've got the person's name who said the thing, and it's really cool. And you can submit fixes to them, because all of the transcripts are open source and they're available on GitHub. So you can go right down to the bottom of the page and just say "I wanna fix this transcript" and it drops you into the GitHub repo and you can send a pull request.
+**Brian Ketelsen:** I do, it's so exciting! We have transcripts available on the GoTime website now. So if you go to an individual episode, you can see transcripts, and they're generally accurate, if not completely accurate... But they're generally accurate. And they've got the person's name who said the thing, and it's really cool. And you can submit fixes to them, because all of the transcripts are open source and they're [available on GitHub](https://github.com/thechangelog/transcripts). So you can go right down to the bottom of the page and just say "I wanna fix this transcript" and it drops you into the GitHub repo and you can send a pull request.
 
 So I love the fact that we're making these episodes text-readable, for people who can't hear them easily, or even text-searchable for Google searchability, because Lord knows, we need to have physical evidence for some of the things I've said on this show. \[laughter\]
 
@@ -382,7 +382,7 @@ So I love the fact that we're making these episodes text-readable, for people wh
 
 **Brian Ketelsen:** Yeah, thanks for busting me on that one, Erik. It's okay. PETA is knocking at my door right now.
 
-I had another project that I found that looks really cool, and it's by Alex Ellis (Github.com/alexellis) and it's called Faas. It is "Functions as a Service", which is a cool framework that allows you to do serverless - and you can't see the air quotes, but they're there - on Docker or Kubernetes. It's a really cool package, I like it quite a bit.
+I had another project that I found that looks really cool, and it's by Alex Ellis ([github.com/alexellis](https://github.com/alexellis)) and it's called [Faas](https://github.com/openfaas/faas). It is _Functions as a Service_, which is a cool framework that allows you to do serverless - and you can't see the air quotes, but they're there - on Docker or Kubernetes. It's a really cool package, I like it quite a bit.
 
 And there was somewhere in the GitHub repo a link to a document that says basically "Why do I care about serverless?" and it was the first time ever in my life where I said "Holy cow, I understand serverless now! This is why this is important to me." So it was cool, and now I'm gonna stop making fun of serverless, other than the whole stupidest name in the world thing... But serverless sounds cool!
 
@@ -426,21 +426,21 @@ And there was somewhere in the GitHub repo a link to a document that says basica
 
 **Chase Adams:** Nailed it.
 
-**Brian Ketelsen:** Yeah, raising my fist in solidarity. Good job, Carlisia!
+**Brian Ketelsen:** Yeah, raising my fist in solidarity. Good job, [Carlisia](https://twitter.com/carlisia)!
 
 **Carlisia Pinto:** I don't know if I did a good job, I'm just saying it's a lot.
 
 **Brian Ketelsen:** It is. We love you for it. We're sorry you have to go through it.
 
-**Carlisia Pinto:** You know, I'm just a witness \[unintelligible 01:02:04.26\] Anyway...
+**Carlisia Pinto:** You know, I'm just a witness and it's a lot and there is people who are actually being effective and that's just \[unintelligible 01:02:04.26\] Anyway...
 
 **Erik St. Martin:** Alright, how about you, Brian?
 
-**Brian Ketelsen:** It's hard to follow that, so on a much less serious note, I've been given a new Mac for my new job at Microsoft - again - so I'm back on using a Mac after I swore it off earlier this year, and I realized that iTerm2 is one of the nicest damn terminals on the planet. I'd like to shout out to George Nachman and anybody else who has contributed to iTerm2, because it's probably the gold standard for terminals. It's a great terminal.
+**Brian Ketelsen:** It's hard to follow that, so on a much less serious note, I've been given a new Mac for my new job at Microsoft - again - so I'm back on using a Mac after I swore it off earlier this year, and I realized that [iTerm2](https://www.iterm2.com/) is one of the nicest damn terminals on the planet. I'd like to shout out to [George Nachman](https://twitter.com/gnachman) and anybody else who has contributed to iTerm2, because it's probably the gold standard for terminals. It's a great terminal.
 
 **Erik St. Martin:** I don't even know how long I've been using it for... It has to be ten years now.
 
-**Brian Ketelsen:** Mm-hm... Forever. I love the -- so my absolute favorite feature is their tmux control channel integration. Has anybody else used that?
+**Brian Ketelsen:** Mm-hm... Forever. I love the -- so my absolute favorite feature is their [tmux](https://en.wikipedia.org/wiki/Tmux) control channel integration. Has anybody else used that?
 
 **Erik St. Martin:** A long time ago.
 
@@ -454,15 +454,15 @@ And there was somewhere in the GitHub repo a link to a document that says basica
 
 **Chase Adams:** Oh, man... This has been the hardest week, because usually I'd be like "Oh, \#FreeSoftwareFriday, I'll just tweet about it." And knowing that I was gonna come on the show, I was like "Oh man, I've got so many that I wanna say something about...", so I ended up landing on one, but I'll tweet about the rest through the rest of the next 24-hour period, or whatever.
 
-The one that I wanna give a shoutout to is GitLab...
+The one that I wanna give a shoutout to is [GitLab](https://about.gitlab.com/)...
 
 **Brian Ketelsen:** Nice.
 
-**Chase Adams:** I don't know how many people use GitLab... I host everything there and I just mirror it to GitHub. They have just figured out this software development cycle in such a beautiful way... It has baked in CICD, and one of the really cool features that they came out with recently is review apps. So when you push a branch, what GitLab will do is it will spin up a new environment for you with your Docker file for that particular branch, so you can go visit that branch's -- you know, what that would be like if it were running locally, or in production, or whatever. So to be able to see your changes and run things against it to me is just such a cool thing. And again, it's open source, which I love... It's such a great company.
+**Chase Adams:** I don't know how many people use GitLab... I host everything there and I just mirror it to GitHub. They have just figured out this software development cycle in such a beautiful way... It has baked in CI/CD, and one of the really cool features that they came out with recently is _review apps_. So when you push a branch, what GitLab will do is it will spin up a new environment for you with your Docker file for that particular branch, so you can go visit that branch's -- you know, what that would be like if it were running locally, or in production, or whatever. So to be able to see your changes and run things against it to me is just such a cool thing. And again, it's open source, which I love... It's such a great company.
 
 **Brian Ketelsen:** Nice. How about you, Erik?
 
-**Erik St. Martin:** Mine for today is Jessie Frazelle. She is amazing... Her knowledge of Linux and containers particularly... I don't think there's a container thing that you can touch that she wasn't somehow involved in. And then recently this week -- I think the project has been around for a little while, but this week I had seen a new project of hers that I had never seen before, and it's called "Am I Contained." You can run it and it will tell you what container runtime you're running in and the Linux capabilities that are available to you... Which is ridiculously cool.
+**Erik St. Martin:** Mine for today is [Jessie Frazelle](https://twitter.com/jessfraz). She is amazing... Her knowledge of Linux and containers particularly... I don't think there's a container thing that you can touch that she wasn't somehow involved in. And then recently this week -- I think the project has been around for a little while, but this week I had seen a new project of hers that I had never seen before, and it's called [Am I Contained](https://github.com/genuinetools/amicontained). You can run it and it will tell you what container runtime you're running in and the Linux capabilities that are available to you... Which is ridiculously cool.
 
 That is at GitHub.com/jesfraz/amicontained.
 
@@ -484,15 +484,15 @@ That is at GitHub.com/jesfraz/amicontained.
 
 **Carlisia Pinto:** But Chase, do you have anything else?
 
-**Chase Adams:** Yeah, so I'll do two more. One is org mode, which for anyone who's not familiar with Emacs - Emacs is pretty new to me; I switched from Vim end of last year... But org mode is basically like markdown on crack, and one of the really cool things that org mode does -- and it does a lot of cool things; it allows you to use it as plain-text files TODO lists, and you can use keyboard shortcuts to basically update these plain-text files.
+**Chase Adams:** Yeah, so I'll do two more. One is [orgmode](http://orgmode.org/), which for anyone who's not familiar with Emacs - Emacs is pretty new to me; I switched from Vim end of last year... But _orgmode_ is basically like markdown on crack, and one of the really cool things that _orgmode_ does -- and it does a lot of cool things; it allows you to use it as plain-text files TODO lists, and you can use keyboard shortcuts to basically update these plain-text files.
 
-But one of the things that I think is really cool about it is you can execute your code blocks from within org mode when you're in Emacs. For someone who does a lot of dev ops-y type things it's really nice to be able to write your documentation in these org files the way you would in markdown, and to actually put your code in those code blocks and execute them when you need them, rather than having your documentation separate from your code. So that's one.
+But one of the things that I think is really cool about it is you can execute your code blocks from within org mode when you're in Emacs. For someone who does a lot of DevOps'y type things it's really nice to be able to write your documentation in these org files the way you would in markdown, and to actually put your code in those code blocks and execute them when you need them, rather than having your documentation separate from your code. So that's one.
 
-**Carlisia Pinto:** I love markdown, and crack must be amazing, but you lost me at Emacs... \[laughter\]
+**Carlisia Pinto:** I love markdown, and crack must be amazing, but you lost me at [Emacs](https://www.gnu.org/software/emacs/)... \[laughter\]
 
-**Chase Adams:** \[01:08:05.02\] There's a quote that says "If you wanna find the truth, hold no opinions", and that's been a really hard one for me to adapt, because I was very hardcore using Vim, and I've used Code pretty heavily as well, but every time -- I just keep going back to Emacs now, because it does so much that none of my other editors did. But I understand... It's one of those things that if you can't make yourself decide to even look at it, it is hard to look at it.
+**Chase Adams:** \[01:08:05.02\] There's a quote that says "If you wanna find the truth, hold no opinions", and that's been a really hard one for me to adapt, because I was very hardcore using [Vim](https://www.vim.org/), and I've used [Code](https://code.visualstudio.com/) pretty heavily as well, but every time -- I just keep going back to Emacs now, because it does so much that none of my other editors did. But I understand... It's one of those things that if you can't make yourself decide to even look at it, it is hard to look at it.
 
-But the other one is just the three big editors - VS Code, Emacs and Vim, the three folks who are the main contributors to those packages, for being able to write Go in those editors. I think it's Ramya, Fatih and Dominik... I don't know, the fact that you don't have to think about the tooling for writing Go in any of these editors, and it just works once you get the extension or Go mode installed... It's just awesome. They should be able to just do that for -- I don't know; I guess some of them do get paid to do it, but...
+But the other one is just the three big editors - VS Code, Emacs and Vim, the three folks who are the main contributors to those packages, for being able to write Go in those editors. I think it's [Ramya](https://github.com/ramya-rao-a), [Fatih](https://github.com/fatih) and [Dominik](https://github.com/dominikh)... I don't know, the fact that you don't have to think about the tooling for writing Go in any of these editors, and it just works once you get the extension or Go mode installed... It's just awesome. They should be able to just do that for -- I don't know; I guess some of them do get paid to do it, but...
 
 **Brian Ketelsen:** Well, they could; Ramya gets paid to do it, but Dominik and Fatih both have set up ways that they can also accept cash. Fatih has a Patreon and Dominik - I don't remember what the website is that he did, but I think if you go to go-tools.org or gotools.org, he's got a way that you can support all of the tools he does. Because not only does he do the Go mode for Emacs, but he's written so many countless, dozens of Go tools like Static Check and so many others. He's just prolific in the Go tooling. So yeah, support those people where you can.
 
@@ -526,7 +526,7 @@ But the other one is just the three big editors - VS Code, Emacs and Vim, the th
 
 **Chase Adams:** Oh yeah, I know that rule. If the baby's not happy, then nobody's happy. Alright, hold it. Keep talking, and I'm gonna see if I can get her in here.
 
-**Brian Ketelsen:** Okay, we'll keep talking. I had so many other really cool Go projects, let me pull up my bookmarks, and it will remind me of all of the ones that I didn't put in for \#FreeSoftwareFriday, because there's some really good stuff come up recently. Alright, here we go. So the go-tracing got me really excited. Oh, there's an org called Go-Interpreter, and they have an interpreter now that they're building called Wagon, which is a WebAssembly-based Go interpreter for Go. I got a little bit lost trying to understand what they were doing, but hey, WebAssembly is hot, and interpreting Go is hot, so that's really cool if building interpreters and WebAssembly is your gig... Go play with Wagon, that one will be fun.
+**Brian Ketelsen:** Okay, we'll keep talking. I had so many other really cool Go projects, let me pull up my bookmarks, and it will remind me of all of the ones that I didn't put in for \#FreeSoftwareFriday, because there's some really good stuff come up recently. Alright, here we go. So the go-tracing got me really excited. Oh, there's an org called Go-Interpreter, and they have an interpreter now that they're building called [Wagon](https://github.com/go-interpreter/wagon), which is a WebAssembly-based Go interpreter for Go. I got a little bit lost trying to understand what they were doing, but hey, [WebAssembly](https://webassembly.org/) is hot, and interpreting Go is hot, so that's really cool if building interpreters and WebAssembly is your gig... Go play with Wagon, that one will be fun.
 
 **Erik St. Martin:** \[01:11:55.19\] Nice. You know, I saw WebAssembly come out and I was really excited by it, but I haven't had the chance to play with it for anything.
 
@@ -534,13 +534,13 @@ But the other one is just the three big editors - VS Code, Emacs and Vim, the th
 
 **Erik St. Martin:** It's all Go, all the time.
 
-**Brian Ketelsen:** Have we talked about Mat Ryer's Vice project yet? Did we talk about that on a previous episode?
+**Brian Ketelsen:** Have we talked about [Mat Ryer's Vice project](https://github.com/matryer/vice) yet? Did we talk about that on a previous episode?
 
 **Erik St. Martin:** No, I don't believe so. That's fairly new, and that's super cool, too.
 
 **Brian Ketelsen:** Yeah, that one I'm really excited to play with. That's Go channels that are backed by message queues. So you treat them locally like Go channels, but they're actually doing network communications over message queues, so that you can have the Go channel semantics in a distributed environment. That's super duper cool.
 
-**Chase Adams:** Alright, I couldn't get a hold of her mom, so she's probably gone down for a nap already. But I'll take a picture later and post it in the GoTime channel.
+**Chase Adams:** Alright, I couldn't get a hold of her mom, so she's probably gone down for a nap already. But I'll take a picture later and post it in the [GoTime channel](https://gophers.slack.com/messages/gotimefm).
 
 **Brian Ketelsen:** Okay, perfect. We haven't seen any Twitter pictures in a while. I think it's been at least 2-3 weeks since I've seen one.
 
@@ -562,7 +562,7 @@ But the other one is just the three big editors - VS Code, Emacs and Vim, the th
 
 **Brian Ketelsen:** I've never listened to our podcast. Ever.
 
-**Erik St. Martin:** So definitely share the show with friends and colleagues. If you wanna subscribe, you can find us at GoTime.fm. Follow us on Twitter, @GoTimeFM. If you wanna discuss a show, if you wanna contribute now to the transcripts, we have GitHub accounts for that - GitHub.com/GoTimeFM. With that, goodbye everybody. We'll see you next week! \[phone ringing\]
+**Erik St. Martin:** So definitely share the show with friends and colleagues. If you wanna subscribe, you can find us at [changelog.com/gotime](https://changelog.com/gotime). Follow us on [Twitter](https://twitter.com/GoTimeFM) if you wanna discuss a show. If you wanna contribute now to the transcripts, we have [GitHub accounts](https://github.com/thechangelog/transcripts) for that. With that, goodbye everybody. We'll see you next week! \[phone ringing\]
 
 **Carlisia Pinto:** Goodbye!
 
