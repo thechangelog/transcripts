@@ -1,4 +1,4 @@
-**Jerod Santo:** Oh yeah, the sound of those VMC beats means it's that time again, my friends! What time? Well, UNIX time, 1.524762000, of course. Confused by that? Let's put that in your day class and instantiate it, but make sure you multiply by 1,000 first, because Javascript reasons.
+**Jerod Santo:** Oh yeah, the sound of those BMC _beets_ means it's that time again, my friends! What time? Well, UNIX time, 1.524762000, of course. Confused by that? Just put that in your Date class and instantiate it, but make sure you multiply it by 1,000 first, because Javascript reasons.
 
 Hi, I'm Jerod Santo. Thanks for tuning in if you're listening in real-time at Changelog.com/live, but you're not chilling in the JS Party chat room in community Slack - what are you waiting for? Go to changelog.com/community, sign up for free, party with us live as we record, and participate. The more, the merrier. We would love to see you in there.
 
