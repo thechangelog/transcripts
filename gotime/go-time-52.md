@@ -20,7 +20,7 @@
 
 **David Chase:** I guess my background is in programming languages compilers and programming language runtimes. I started out way back with Fortran, but now I work on Go, mostly on the Go compiler... But there is a pretty healthy runtime component to the compiler work.
 
-The garbage collector, for instance, requires write barriers; the compiler has to be aware of them, and it can do optimizations involving them. The scheduling in Go is cooperative, and the compiler enforces the cooperation. And I'm already pretty much deep in the weeds with what I do with this example stuff, what the work is like. I have experience with some of the features that people talk about wanting for Go 2, so I try to contribute there too, like, generics.
+The garbage collector, for instance, requires write barriers; the compiler has to be aware of them, and it can do optimizations involving them. The scheduling in Go is cooperative, and the compiler enforces the cooperation. And I'm already pretty much deep in the weeds with what I do with this example stuff, what the work is like. I have experience with some of the features that people talk about wanting for Go 2, so I try to contribute there too, like, _Gsenerics_.
 
 **Brian Ketelsen:** Nice. I'm more of a business information guy rather than a computer science guy... Can you give us the rundown of what components are involved in a compiler, what does a compiler do when I type in source code?
 
@@ -34,15 +34,15 @@ Once you have the tree, you can do a certain amount of - I think you would call 
 
 Some compilers go straight from tree to code generation, and in fact the Go compiler used to do that about -- God, I can't even remember which release it was. I guess we lit up SSA in 1.7, we added a phase... Keith Randall talked about this at GopherCon, and that talk will be online in a little while. But we added a lower-level phase; it's somewhat closer to the machine code, but it is also structured, and it makes it easy to express a lot of optimizations, and it was surprisingly easy to do our ports too, when we went from supporting it on one platform to all of them.
 
-\[00:04:23.07\] So the Go compilers, again - characters come in, scan and parse into an AST, do semantic analysis to enforce rules, transform AST to SSA and do a certain amount of optimization. Then we interface to the Go Assembler, and out comes machine code.
+\[00:04:23.07\] So the Go compilers, again - characters come in, scan and parse into an [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree), do semantic analysis to enforce rules, transform AST to [SSA](https://en.wikipedia.org/wiki/Static_single_assignment_form) and do a certain amount of optimization. Then we interface to the Go Assembler, and out comes machine code.
 
-That's a crude description. There are certain important analyses that we do on the tree-based form still, and it would actually be a lot of work to get some of them out... Escape analysis is actually interprocedural within the package that's being compiled, and on top of all the packages that it requires. And it would be nice to move that into the SSA framework, but it would require several changes to the SSA framework, and in particular it would require us to do the entire package at one time in SSA, which is not what it's built to do just yet.
+That's a crude description. There are certain important analyses that we do on the tree-based form still, and it would actually be a lot of work to get some of them out... [Escape analysis](https://en.wikipedia.org/wiki/Escape_analysis) is actually interprocedural within the package that's being compiled, and on top of all the packages that it requires. And it would be nice to move that into the SSA framework, but it would require several changes to the SSA framework, and in particular it would require us to do the entire package at one time in SSA, which is not what it's built to do just yet.
 
 **Brian Ketelsen:** So when you say you do escape analysis against the AST, does that mean that there are notations added to the source code somehow or to the abstract syntax tree that show the results of that escape analysis? How does that analysis move from the AST into the final generated code?
 
-**David Chase:** So the AST notes are sort of an artifact; if you go look at the Go source tree, you will find two ASTs, and one of them is sort of very visible and it's for public consumption. For source code transformation there's also the one that the compiler uses, and the one that the compiler uses, the AST notes have a lot of extra baggage added to them to do just that, among other things, so that you can say "This identifier had its address taken, therefore probably can't go on the register."
+**David Chase:** So the AST nodes are sort of an artifact; if you go look at the Go source tree, you will find two ASTs, and one of them is sort of very visible and it's for public consumption, for source code transformation. There's also the one that the compiler uses, and the one that the compiler uses, the AST nodes have a lot of extra baggage added to them to do just that, among other things, so that you can say "This identifier had its address taken, therefore probably can't go on the register."
 
-Escape analysis runs over all the identifiers that have their address taken, or all the expressions too, because \[unintelligible 00:06:34.12\] So at the tree level, everything can have a name, even if it doesn't have a source code name. So everything that could have its address taken, escape analysis looks to see where those addresses go, and not only locally tags them by saying "You're a heap, you're a heap, you're a heap... Oh, you're a stack, you're a stack, you're a stack." It also generates interprocedural summary information to go into the export data for the package, so that if you -- I don't have any handy examples, but there are functions that you can call of, say, two parameters and it's like "This function - yeah, you passed the pointers in, but that's okay." This function looks, but does not tell, does not spread them around. So if they weren't escaping, they're still not escaping. It may have been, again, deeper in the weeds, but...
+Escape analysis runs over all the identifiers that have their address taken, or all the expressions too, because at the tree level, everything can have a name, even if it doesn't have a source code name. So everything that could have its address taken, escape analysis looks to see where those addresses go, and not only locally tags them by saying "You're a heap, you're a heap, you're a heap... Oh, you're a stack, you're a stack, you're a stack." It also generates interprocedural summary information to go into the export data for the package, so that if you -- I don't have any handy examples, but there are functions that you can call of, say, two parameters and it's like "This function - yeah, you passed the pointers in, but that's okay." This function looks, but does not tell, does not spread them around. So if they weren't escaping, they're still not escaping. It may have been, again, deeper in the weeds, but...
 
 **Brian Ketelsen:** No, that's where we wanna go, we wanna go deep.
 
@@ -60,7 +60,7 @@ So I'm thinking about what's the most accessible part of the compiler, and the m
 
 **Ashley McNamara:** \[unintelligible 00:09:22.27\]
 
-**Brian Ketelsen:** So that brings up a question from me though... Do we no longer have the intermediate Go Assembler that's output? Is there still a step that outputs Go Assembler, the old Plan 9 assembler, which then gets translated, or is that step gone now?
+**Brian Ketelsen:** So that brings up a question from me though... Do we no longer have the intermediate Go Assembler that's output? Is there still a step that outputs Go Assembler, the old [Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs) assembler, which then gets translated, or is that step gone now?
 
 **David Chase:** It's essentially still there. It's building internal assembler data structures. I don't think we're actually writing a file.
 
@@ -74,17 +74,17 @@ So I'm thinking about what's the most accessible part of the compiler, and the m
 
 **Brian Ketelsen:** I'm fully expecting David to come back with the title of his book that he wrote.
 
-**Ashley McNamara:** Right, \[unintelligible 00:10:08.01\]
+**Ashley McNamara:** Right..
 
-**David Chase:** No, I have not written a book. \[laughter\] I was gonna grab three books that I know of... I don't actually know if any of these do a good job of covering SSA. Okay, so we have one whole sub-chapter in Cooper & Torczon, so that's one... That's Engineering a Compiler...
+**David Chase:** No, I have not written a book. \[laughter\] I was gonna grab three books that I know of... I don't actually know if any of these do a good job of covering SSA. Okay, so we have one whole sub-chapter in Cooper & Torczon, so that's one... That's _Engineering a Compiler_...
 
-**Ashley McNamara:** And what you can also do if you want to research that question a little bit, is you can drop it in the Sack channel later, and I can help remind you.
+**Ashley McNamara:** And what you can also do if you want to research that question a little bit, is you can drop it in the Slack channel later, and I can help remind you.
 
-**David Chase:** Okay, that might be a good thing to do. Yeah, so I have several compiler books; I know that \[unintelligible 00:11:00.06\] has written several for various programming languages, which might be interesting to look at. If you are already familiar with a particular programming language, that is another choice.
+**David Chase:** Okay, that might be a good thing to do. Yeah, so I have several compiler books; I know tha Andrew-Appel has written several for various programming languages, which might be interesting to look at. If you are already familiar with a particular programming language, that is another choice.
 
 **Brian Ketelsen:** So here's a question - is there a compiler that people consider to be like a canonical compiler implementation or a particularly easy to access or easy to grab compiler implementation? Is there one compiler that's so much nicer than all the others?
 
-**David Chase:** There used to be one... LCC had a reputation. It's by Fraser and Hanson. Some of this is a little old, but it was a relatively small, relatively easy to comprehend compiler. I don't think that the Go compiler is necessarily that scary.
+**David Chase:** There used to be one... [LCC](https://en.wikipedia.org/wiki/LCC_(compiler)) had a reputation. It's by Fraser and Hanson. Some of this is a little old, but it was a relatively small, relatively easy to comprehend compiler. I don't think that the Go compiler is necessarily that scary.
 
 **Ashley McNamara:** \[00:12:04.26\] I don't know, it seems pretty scary to me. I want you to explain everything like I'm five.
 
@@ -96,7 +96,7 @@ So I'm thinking about what's the most accessible part of the compiler, and the m
 
 **Ashley McNamara:** What can make it better?
 
-**David Chase:** So this is a problem, because it means "Better for whom?" We have stuff in the pipeline right now that is gonna be way better for compile time, and a little bit better for performance. We think that if we improve the import/export again - we already improved it once; if we do it again, then we can make it more on-demand and less patchy, and then that in turn will allow us to turn on inlining... What they call mid-stack inlining. That will be good. We think that that might make everything about 5% faster. It won't make compile time faster until we do this lazy import. Lazy import will be great \[unintelligible 00:13:35.08\] compiling a little bit faster than it is right now, even with the expensive extra inlining. But from the point of view of reading the compiler, it got a little worse.
+**David Chase:** So this is a problem, because it means "Better for whom?" We have stuff in the pipeline right now that is gonna be way better for compile time, and a little bit better for performance. We think that if we improve the import/export again - we already improved it once; if we do it again, then we can make it more on-demand and less patchy, and then that in turn will allow us to turn on _Inlining_... What they call _Mid-Stack Inlining_. That will be good. We think that that might make everything about 5% faster. It won't make compile time faster until we do this lazy import. Lazy import will be great \[unintelligible 00:13:35.08\] compiling a little bit faster than it is right now, even with the expensive extra inlining. But from the point of view of reading the compiler, it got a little worse.
 
 **Brian Ketelsen:** Yeah, that makes some sense. I mean, there's always a cost.
 
@@ -106,15 +106,13 @@ So I'm thinking about what's the most accessible part of the compiler, and the m
 
 **Carlisia Pinto:** Well, yeah... 1.9, 1.10, 2.0...
 
-**David Chase:** So I don't know everything, I know around me. We tried to get in a CL, a big CL, that would have improved the debugging experience for optimized code, and we didn't make it... So that is definitely in
-
-the pipeline. We want to have a better story for that. In particular if you have a crash and you get a dump, that's generally optimized code, which is the usual case for Go.
+**David Chase:** So I don't know everything, I know around me. We tried to get in a CL, a big CL, that would have improved the debugging experience for optimized code, and we didn't make it... So that is definitely in the pipeline. We want to have a better story for that. In particular if you have a crash and you get a dump, that's generally optimized code, which is the usual case for Go.
 
 **Carlisia Pinto:** And what was the CL for?
 
-**David Chase:** Well, so when you run SSA, it tends to break up variable lifetimes into smaller chunks; so they'll go in and out of registers... Right now they're still homed to the same stack lot, but over this basic block it might be in a register, and then a little while later it might be in a different register, so we have to emit the debugging information that describes that value movement in and out of registers. That's something that we really want to get done at 1.10.
+**David Chase:** Well, so when you run SSA, it tends to break up variable lifetimes into smaller chunks; so they'll go in and out of registers... Right now they're still homed to the same stack slot, but over this basic block it might be in a register, and then a little while later it might be in a different register, so we have to emit the debugging information that describes that value movement in and out of registers. That's something that we really want to get done at 1.10.
 
-We have been getting more and more trouble with loop. So I've mentioned that the cooperative scheduling in Go is enforced by the compiler, and right now it's kind of lightly enforced. It enforces it when you enter a function or method. But if you are running in a tight loop that has no function calls within it, it does not enforce any cooperation there. This is a particular problem - Rhys Hiltner mentioned this in his tutorial or his talk also at GopherCon - where the garbage collector needs to interrupt all the threads right at the beginning of a GC, just for a few microseconds, but it does need to interrupt all of them. It does this by asking them to reschedule themselves; they all reschedule, they discover that a garbage collection is in process and they go stand in a corner and wait till the GC does its thing and then says "Yeah, back in the pool. Go!"
+We have been getting more and more trouble with loop. So I've mentioned that the cooperative scheduling in Go is enforced by the compiler, and right now it's kind of lightly enforced. It enforces it when you enter a function or method. But if you are running in a tight loop that has no function calls within it, it does not enforce any cooperation there. This is a particular problem - Rhys Hiltner mentioned this in his tutorial or his [talk also at GopherCon](https://www.youtube.com/watch?v=V74JnrGTwKA) - where the garbage collector needs to interrupt all the threads right at the beginning of a GC, just for a few microseconds, but it does need to interrupt all of them. It does this by asking them to reschedule themselves; they all reschedule, they discover that a garbage collection is in process and they go stand in a corner and wait till the GC does its thing and then says "Yeah, back in the pool. Go!"
 
 \[00:16:21.10\] Then there's this one guy running a tight loop, and the GC tries to tap him on the shoulder and he does not respond... And does not respond, and does not respond, and does not respond, so everything hangs up, and it can be an appreciable fraction of your pause time for GC. In some rare cases, it can be long.
 
@@ -126,31 +124,31 @@ The garbage collector guys are looking into whether they can make generational c
 
 **David Chase:** I hate to say "if it had no constraints", because that's not really -- that's not really Go, and...
 
-**Ashley McNamara:** Pretend it's Magik.
+**Ashley McNamara:** Pretend it's Magic.
 
-**David Chase:** Pretend it's Magik...? Oh, man...
+**David Chase:** Pretend it's Magic...? Oh, man...
 
 **Brian Ketelsen:** Maybe no time constraints or no budget constraints.
 
 **David Chase:** Well... So you're talking completely compatible -- are we talking about Go the language or Go its implementation?
 
-**Carlisia Pinto:** Go the language. I'm just trying to assess where your mind is in terms of what you admire about Go and how do you see it becoming better than it is. It doesn't really matter, I just wanted to get a sense for how you think about GO.
+**Carlisia Pinto:** Go the language. I'm just trying to assess where your mind is in terms of what you admire about Go and how do you see it becoming better than it is. It doesn't really matter, I just wanted to get a sense for how you think about Go.
 
 **David Chase:** So if I were to say "Look at the proposals that went by in the last year or so for Go 2", the one that I almost thought they could have put in - I think it had syntax that would have allowed us to put it in if we wanted to - was the multidimensional slices. That's really kind of my Fortran background speaking there. It's one of these things where people who don't write that kind of code are like "Yeah, it's easy. You just code it and it's fine." And you know, it's the usual thing... Anything that I don't actually have to do that someone else has to do, that must be easy, and it's really much nicer to have the multidimensional syntax, and it's really much better in terms of generating code and doing balance check elimination if you have it built into the language.
 
-\[00:20:12.11\] It's tremendously useful for a certain kind of computing, and the people for \[unintelligible 00:20:18.08\] it's useful; this is the Fortran crowd. They've sort of been stuck at Fortran for ages. C++ has done amazing things for them, but often you have to be willing to sign up for crazy C++ templates.
+\[00:20:12.11\] It's tremendously useful for a certain kind of computing, and the people for whom it's useful - this is the Fortran crowd. They've sort of been stuck at Fortran for ages. C++ has done amazing things for them, but often you have to be willing to sign up for crazy C++ templates.
 
-Go is just a nice, clean, comprehendable language; this is a little thing, and you could do -- it appeals to me. Generics? Oh yeah, generics would be cool if we could agree on what they meant, and if we could agree on their implementation characteristics of what we want it to do, and there's all sorts of risks where it might not make it a better language.
+Go is just a nice, clean, comprehendable language; this is a little thing, and you could do -- it appeals to me. _Generics_? Oh yeah, _Generics_ would be cool if we could agree on what they meant, and if we could agree on their implementation characteristics of what we want it to do, and there's all sorts of risks where it might not make it a better language.
 
-**Ashley McNamara:** Yeah, of course.
+**Carlisia Pinto:** Yeah, of course.
 
 **David Chase:** So the one for me that looked like the most likely to win would be the multidimensional slices. I liked that a lot. It didn't make it in, and that made me sad.
 
-**Carlisia Pinto:** I wanna flip this question around and ask you what is in Go today from a compiler perspective that you would be happy removing? Maybe that's not even a fair question, because as far as functionality, Go is already so minimalist... But I was wondering if you had one or two things that you could get rid of easily.
+**Carlisia Pinto:** I wanna flip this question around and ask you what is in Go today from a compiler perspective that you would be happy removing? Maybe that's not even a fair question, because as far as functionality, Go is already so minimalistic... But I was wondering if you had one or two things that you could get rid of easily.
 
-**David Chase:** It's not a compiler thing... I have opinions about how things go back and forth to cgo, and we're close and I think that we're converging... We may have already met and I may have just misunderstood, because I don't do enough cgo programming to get a really good feel for some of the details. Nah, that's probably not even that. Like you said, it's a tiny language; there's not a lot of crud in it.
+**David Chase:** It's not a compiler thing... I have opinions about how things go back and forth to Cgo, and we're close and I think that we're converging... We may have already met and I may have just misunderstood, because I don't do enough Cgo programming to get a really good feel for some of the details. Nah, that's probably not even that. Like you said, it's a tiny language; there's not a lot of crud in it.
 
-**Brian Ketelsen:** We like it that.
+**Brian Ketelsen:** We like it that way.
 
 **Ashley McNamara:** We do like it that way. Scott Mansfield has a question that sort of ties back into what you were talking about before, how the changes that you guys are making are not really going to affect compile time. He was asking "Do you think that the speed of compilation is hamstringing the advancements in the compiler?" I thought that that was a good question.
 
@@ -172,7 +170,7 @@ So again, you have a nice, fast compiler, but some of the algorithm's underpinni
 
 **Carlisia Pinto:** It is so refreshing to hear someone like you say that. I actually wanted to confirm that when you were talking about simplicity, you were talking about readability...
 
-**David Chase:** Well, ultimately it's -- I worry a little bit about it from the point of view of security, but... I mean, don't forget who worked on this compiler - Ken Thompson, trusting trust... \[laughter\]
+**David Chase:** Well, ultimately it's -- I worry a little bit about it from the point of view of security, but... I mean, don't forget who worked on this compiler - [Ken Thompson, Trusting Trust](https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)... \[laughter\]
 
 **Brian Ketelsen:** Best paper ever.
 
@@ -186,7 +184,7 @@ So again, you have a nice, fast compiler, but some of the algorithm's underpinni
 
 **Carlisia Pinto:** And why is that important? I'm sorry, and why don't we have it?
 
-**David Chase:** So I don't have direct experience with them, so I wanna be careful I don't go out on a limb and make stuff up. A verified compiler is one where you have proved formally proved that it's transformations are formally correct. And part of the reason that you don't have these is because if you're gonna talk about actual dotted i's and crossed t's correctness, you need to have an exact specification of the input language and its intended behavior, and then you need to have an exact specification of how the hardware is gonna behave.
+**David Chase:** So I don't have direct experience with them, so I wanna be careful I don't go out on a limb and make stuff up. A verified compiler is one where you have proved formally that it's transformations are formally correct. And part of the reason that you don't have these is because if you're gonna talk about actual dotted i's and crossed t's correctness, you need to have an exact specification of the input language and its intended behavior, and then you need to have an exact specification of how the hardware is gonna behave.
 
 \[00:28:15.13\] Or in the case of so much of our hardware, you have to have an exact specification of how the subset that you use of the hardware behaves, so in particular -- if you don't know for sure what some of these instructions do, then you don't do those instructions.
 
@@ -210,15 +208,15 @@ So part of the obstacle is getting the specifications (clean specs) for the endp
 
 **David Chase:** I could be wrong on the details, because I'm pretty sure that the guys doing Airbus would care about this.
 
-**Brian Ketelsen:** So I have a follow-up question on something we talked about a little bit before, the idea of adding more optimizations at the expense of compilation speed... Do you think there's a chance that we'll end up with optimizations that are guarded built flags, like GCC has, for example?
+**Brian Ketelsen:** So I have a follow-up question on something we talked about a little bit before, the idea of adding more optimizations at the expense of compilation speed... Do you think there's a chance that we'll end up with optimizations that are guarded by build flags, like GCC has, for example?
 
 **David Chase:** I assume it has to happen eventually, but I think it's our intent to put it off as long as we can, because every flag that you add then becomes something that you have to test, and then every flag that you add becomes something that you have to document. It complicates everything - it complicates your bug reporting. What happens if you have a bunch of packages that you depend upon and some of them are compiled one way and some of them are compiled the other way, and then you have a bug, and then you have to report the bug...? Does the bug report have to include the compilation flags for each of the packages that you have in it?
 
 \[00:31:59.25\] I mean, I assume nonetheless that it will have to happen. There will come a time when there's enough extra performance to be had for something that's sufficiently important, but it hasn't happened yet.
 
-**Brian Ketelsen:** So in terms of performance, I know that the LLVM ecosystem was considered very early on in Go, and it's changed quite a bit in the last ten years since they looked at it. Is there a possibility for back-end for Go and LLVM in the future?
+**Brian Ketelsen:** So in terms of performance, I know that the [LLVM](https://en.wikipedia.org/wiki/LLVM0) ecosystem was considered very early on in Go, and it's changed quite a bit in the last ten years since they looked at it. Is there a possibility for back-end for Go and LLVM in the future?
 
-**David Chase:** It's being worked on. \[unintelligible 00:32:35.11\] I can't see him because I've got my door closed, but he sits like 20 feet away from me. \[unintelligible 00:32:46.01\] Macintosh is working on that. We're not there yet, and it will be a while before we get the same garbage collector, but this might be an option for people who maybe don't need the amazing sub-millisecond pause times and want a higher throughput.
+**David Chase:** It's being worked on. Dan Macintosh, I can't see him because I've got my door closed, but he sits like 20 feet away from me. Dan Macintosh is working on that. We're not there yet, and it will be a while before we get the same garbage collector, but this might be an option for people who maybe don't need the amazing sub-millisecond pause times and want a higher throughput.
 
 **Brian Ketelsen:** I'm not terribly familiar with LLVM, but wouldn't it bring a lot of extra tooling to the ecosystem, too?
 
@@ -252,7 +250,7 @@ So part of the obstacle is getting the specifications (clean specs) for the endp
 
 **Brian Ketelsen:** Nice.
 
-**Ashley McNamara:** Which one WAS the best recipe?
+**Ashley McNamara:** Which one was the best recipe?
 
 **David Chase:** That's the problem, I forgot.
 
@@ -286,7 +284,7 @@ So part of the obstacle is getting the specifications (clean specs) for the endp
 
 **Carlisia Pinto:** I know...
 
-**David Chase:** But I do like both of those pies. They are... \[unintelligible 00:35:49.29\]
+**David Chase:** But I do like both of those pies. They are..
 
 **Carlisia Pinto:** No Boston cream pie for you?
 
@@ -308,7 +306,7 @@ So part of the obstacle is getting the specifications (clean specs) for the endp
 
 **Ashley McNamara:** True.
 
-**Carlisia Pinto:** Hey, can I get a pie, too? I don't even care what pie - just send a homemade pie and I'm happy. \[unintelligible 00:37:12.09\] Send me pie!
+**Carlisia Pinto:** Hey, can I get a pie, too? I don't even care what pie - just send a homemade pie and I'm happy...Send me pie!
 
 **Brian Ketelsen:** So I have one thing to add on the pie subject and then we should probably move on, because we're a little bit off topic... But the best pie in the entire universe is made by Emeril Lagasse at his restaurant, and it's banana cream pie, and it's by far the best pie ever. I won't even begin to describe how good it is because I'm hungry right now, but if you get an opportunity to eat Emeril Lagasse's banana cream pie, it's a life-changing, religious experience.
 
@@ -320,7 +318,7 @@ So on that note, on that sidetrack note, we should probably move on to interesti
 
 **Ashley McNamara:** I agree.
 
-**Brian Ketelsen:** So let's move on to Go projects and news. Anything interesting other than GopherCon happened in the last couple of weeks that we wanna bring up?
+**Brian Ketelsen:** So let's move on to Go projects and news. Anything interesting other than [GopherCon](https://www.gophercon.com/) happened in the last couple of weeks that we wanna bring up?
 
 **Carlisia Pinto:** Are you serious? Did you just ask that question?
 
@@ -336,9 +334,9 @@ So on that note, on that sidetrack note, we should probably move on to interesti
 
 **Ashley McNamara:** I'm still getting over GopherCon slowly. It's all I think about.
 
-**Brian Ketelsen:** Yeah, I'm still a little tired. So I ran across a couple news items that were interesting this week. JBD wrote a great article on the scheduler, and that is at rakyll.org/scheduler. Really good article about how the scheduler works, and I always like those deep dives into the things that are happening underneath, so that was cool.
+**Brian Ketelsen:** Yeah, I'm still a little tired. So I ran across a couple news items that were interesting this week. [JBD](https://twitter.com/rakyll) wrote a great article on the scheduler, and that is at [rakyll.org/scheduler](https://rakyll.org/scheduler/). Really good article about how the scheduler works, and I always like those deep dives into the things that are happening underneath, so that was cool.
 
-Then there's a cool game engine that I noticed on GitHub about two weeks ago that I didn't get to mention, because we haven't had a show for a while, and it's called Oak. That's at GitHub.com/oakmund/oak, and it's a Go-based (not pure Go-based) game engine. It does all of its rendering, and all that stuff.
+Then there's a cool game engine that I noticed on GitHub about two weeks ago that I didn't get to mention, because we haven't had a show for a while, and it's called Oak. That's at [gitHub.com/oakmound/oak](https://github.com/oakmound/oak), and it's a Go-based (not pure Go-based) game engine. It does all of its rendering, and all that stuff.
 
 **Ashley McNamara:** OMG, Brian...
 
@@ -358,7 +356,7 @@ Then there's a cool game engine that I noticed on GitHub about two weeks ago tha
 
 **Ashley McNamara:** This is happy!
 
-**Brian Ketelsen:** It is happy. And speaking of -- we should probably kind of circle back and talk about these PocketCHIPs. The PocketCHIP is this amazing, cool little computer thing. It's smaller than a Raspberry Pi, but it's got a little maybe four(ish) inch TFT screen and a keyboard on it, and it's ARM7 chip maybe... It's just so cool. You push a little button and it boots into Linux, and it does cool stuff... It plays retro games and whatever, but of course, the first thing I did was boot it up to the terminal, and after typing uname just to find out what it was running - which is Debian - I installed Go, as one does. It runs Go very beautifully, and it's like a little toy.
+**Brian Ketelsen:** It is happy. And speaking of -- we should probably kind of circle back and talk about these PocketCHIPs. The PocketCHIP is this amazing, cool little computer thing. It's smaller than a Raspberry Pi, but it's got a little maybe four(ish) inch TFT screen and a keyboard on it, and it's ARM7 chip maybe... It's just so cool. You push a little button and it boots into Linux, and it does cool stuff... It plays retro games and whatever, but of course, the first thing I did was boot it up to the terminal, and after typing `uname` just to find out what it was running - which is Debian - I installed Go, as one does. It runs Go very beautifully, and it's like a little toy.
 
 **Ashley McNamara:** It's so cute... And you can 3D-print cases for it. Did you see that, Brian?
 
@@ -384,15 +382,15 @@ Then there's a cool game engine that I noticed on GitHub about two weeks ago tha
 
 **Brian Ketelsen:** Yes. It's a $60 or $70 computer; so amazing, so much fun. If you like at all playing with small devices, especially something that is Linux, but very, very portable and has a cute little screen and keyboard, then I can't recommend the PocketCHIP enough. It's tons of fun. I really haven't stopped playing with mine since last week. Totally amazing.
 
-So back to news - there's a great new book out by Katherine Cox-Buday, one of our speakers from maybe GopherCon 2015, called Concurrency in Go. That's an O'Reilly book that was just released to print, so I think it's available in electronic form, but not quite yet in paper form.
+So back to news - there's a great new book out by Katherine Cox-Buday, one of our speakers from maybe GopherCon 2015, called [Concurrency in Go](http://shop.oreilly.com/product/0636920046189.do). That's an O'Reilly book that was just released to print, so I think it's available in electronic form, but not quite yet in paper form.
 
 **Carlisia Pinto:** In two weeks.
 
-**Brian Ketelsen:** Yeah, very exciting. I had the privilege of reading through an earlier version of it and it's very well done. Concurrency in Go was a tough topic to hit, and she did a great job on it. I'm excited that there's another good resource for concurrency out there, and a whole book dedicated to it.
+**Brian Ketelsen:** Yeah, very exciting. I had the privilege of reading through an earlier version of it and it's very well done. Concurrency in Go is a tough topic to hit, and she did a great job on it. I'm excited that there's another good resource for concurrency out there, and a whole book dedicated to it.
 
 **Carlisia Pinto:** Yeah, exactly. I'm really excited to see a whole book about concurrency. I pre-ordered it, and I'm waiting for my hard copy, because it's important enough that I wanna hold it in my hands.
 
-On the topic of schedulers, I wanted to make sure we mention Cindy Sridharan's amazing blog post about cluster schedulers. It's really well-written. She got a lot of praise online for the post, so if you're interested in schedulers, you should read that, too.
+On the topic of schedulers, I wanted to make sure we mention [Cindy Sridharan's](https://twitter.com/copyconstruct) amazing [blog post](https://medium.com/@copyconstruct/schedulers-kubernetes-and-nomad-b0f2e14a896) about cluster schedulers. It's really well-written. She got a lot of praise online for the post, so if you're interested in schedulers, you should read that, too.
 
 **Brian Ketelsen:** Oh, that was a very good post, I agree.
 
@@ -408,7 +406,7 @@ On the topic of schedulers, I wanted to make sure we mention Cindy Sridharan's a
 
 **Brian Ketelsen:** Alright, so we like to end our show with \#FreeSoftwareFriday, which is a shoutout to any open source group or maintainer or project that you love, that you enjoy, that you can't live without. It's something that we like to do because we use a lot of open source and we really appreciate all the hard work that people put into those projects, and we feel like they're kind of thankless.
 
-I will start off by shouting out to Dave Cheney, because we just don't give Dave enough credit for all of the amazing work he does for our community. If you have a question about Go, there's a blog post that Dave wrote the covers it. If you have a problem that you need to solve in Go, he probably wrote the canonical package that fixes that problem, like his package Errors. I don't know where we need to start to get his Errors package included into the standard library, but if it doesn't happen, I'm gonna leave Go for Pony. So just FYI...
+I will start off by shouting out to [Dave Cheney](https://twitter.com/davecheney), because we just don't give Dave enough credit for all of the amazing work he does for our community. If you have a question about Go, there's a [blog post](https://dave.cheney.net/) that Dave wrote the covers it. If you have a problem that you need to solve in Go, he probably wrote the canonical package that fixes that problem, like his package Errors. I don't know where we need to start to get his Errors package included into the standard library, but if it doesn't happen, I'm gonna leave Go for Pony. So just FYI...
 
 **Ashley McNamara:** Plus one!
 
@@ -420,9 +418,9 @@ I will start off by shouting out to Dave Cheney, because we just don't give Dave
 
 Anybody else have a person or a project or a thing that they wanna shout out for \#FreeSoftwareFriday?
 
-**Carlisia Pinto:** I wanna give a shoutout to GoDoc. It's such a neat tool that we have, and for people who are new and don't know, you can run GoDoc on your machine if you're flying, and you get on your browser the documentation for all packages that you have residing in your system.
+**Carlisia Pinto:** I wanna give a shoutout to `godoc`. It's such a neat tool that we have, and for people who are new and don't know, you can run `godoc` on your machine if you're flying, and you get on your browser the documentation for all packages that you have residing in your system.
 
-Yesterday I found out that you can write documentation for each of your packages in a separate file called doc.go. If you have a lot of documentation to write, you can put it all in there. So instead of ending up with separate files with tons of documentation in those files. It's really neat, I didn't know that.
+Yesterday I found out that you can write documentation for each of your packages in a separate file called `doc.go`. If you have a lot of documentation to write, you can put it all in there. So instead of ending up with separate files with tons of documentation in those files. It's really neat, I didn't know that.
 
 **Brian Ketelsen:** Very nice.
 
@@ -440,15 +438,15 @@ Yesterday I found out that you can write documentation for each of your packages
 
 **Ashley McNamara:** It's very cool.
 
-**Brian Ketelsen:** That's awesome. So we do have some statistics from Jess Frazelle. 44 new open CLs, of which 22 were merged, as of 2:46 this afternoon. That is awesome! Great news.
+**Brian Ketelsen:** That's awesome. So we do have some statistics from [Jess Frazelle](https://twitter.com/jessfraz). 44 new open CLs, of which 22 were merged, as of 2:46 this afternoon. That is awesome! Great news.
 
-\[00:48:06.29\] And we can't even talk about this without me thinking about Brad Fitzpatrick's picture of him with his "Looks good to me" shirt on and a handful of Gophers stacked around him as he was helping us remotely take care of business, which was awesome. So we should definitely thank Steve Francia for putting that whole thing together, and everybody who contributed in the room, from the mentors all the way to the people who learned how to contribute the first time. It was fabulous.
+\[00:48:06.29\] And we can't even talk about this without me thinking about [Brad Fitzpatrick's](https://twitter.com/bradfitz) picture of him with his "Looks good to me" shirt on and a handful of Gophers stacked around him as he was helping us remotely take care of business, which was awesome. So we should definitely thank [Steve Francia](https://twitter.com/spf13) for putting that whole thing together, and everybody who contributed in the room, from the mentors all the way to the people who learned how to contribute the first time. It was fabulous.
 
 **Ashley McNamara:** Yeah, it was so good.
 
 **Carlisia Pinto:** We are talking about... A few of the meetup organizers were so taken by the whole exercise that we are -- I mean, different people went up to Steve separately and told him the same thing, which is "We should be doing this a few times a year", just getting meetup groups going through exactly that workshop. So it might be happening.
 
-**Brian Ketelsen:** It actually reminds me... One of the Arizona meetups - I just saw on Twitter today they're actually going through the same exercise at their meetup this coming month. Phoenix, yes. Brian Downes. Thank you, Phoenix, for doing this exact same thing. That's awesome. You've gotta love Brian Downes for being on top of his meetup organizing game. So if you're in the Phoenix area, go to the next Phoenix meetup and you can get that same experience.
+**Brian Ketelsen:** It actually reminds me... One of the Arizona meetups - I just saw on Twitter today they're actually going through the same exercise at their meetup this coming month. Phoenix, yes. [Brian Downs](https://twitter.com/bdowns328). Thank you, Phoenix, for doing this exact same thing. That's awesome. You've gotta love Brian Downs for being on top of his meetup organizing game. So if you're in the Phoenix area, go to the next Phoenix meetup and you can get that same experience.
 
 **Carlisia Pinto:** My wishlist is to go through that and have someone from the Go team or one or two people going through the CL, submit it, so we can have that quick feedback loop. Anyway...
 
@@ -456,9 +454,9 @@ Yesterday I found out that you can write documentation for each of your packages
 
 **Carlisia Pinto:** Dave, do you have one?
 
-**David Chase:** Day in, day out, I'd have to say MacPorts, because I use a Mac all the time and I use the UNIX tools all the time, and a lot of them -- you know, these guys are getting a lot of leverage off of the fact that they're packaging other open source software, but it's a lot of work. I have helped debug a few of them, and... Just all the packaging work is a big deal.
+**David Chase:** Day in, day out, I'd have to say [MacPorts](https://www.macports.org/), because I use a Mac all the time and I use the UNIX tools all the time, and a lot of them -- you know, these guys are getting a lot of leverage off of the fact that they're packaging other open source software, but it's a lot of work. I have helped debug a few of them, and... Just all the packaging work is a big deal.
 
-**Brian Ketelsen:** Now, I have a question for you on the MacPorts, since we've got just a moment... How do you find it in terms of quality and completion? I used MacPorts maybe 2006 or 2005 - quite a while ago - and abandoned it for Homebrew, because MacPorts just didn't seem to be that stable. Do you have any issues with MacPorts, or is it solid for you?
+**Brian Ketelsen:** Now, I have a question for you on the MacPorts, since we've got just a moment... How do you find it in terms of quality and completion? I used MacPorts maybe 2006 or 2005 - quite a while ago - and abandoned it for [Homebrew](https://brew.sh/), because MacPorts just didn't seem to be that stable. Do you have any issues with MacPorts, or is it solid for you?
 
 **David Chase:** \[00:50:55.21\] It is more solid now than it was. I don't know why I didn't do Homebrew... Back then I don't know if there was Homebrew; there was Fink, and I tried both and I ended up settling on MacPorts. It's better now. They do a better job in terms of the dependency tracking and the rebuild tracking and the cleanup. It used to be more often you'd get wedged and have to uninstall a bunch of stuff and reinstall clean, and I can't remember the last time I had to do that.
 
@@ -466,7 +464,7 @@ At the time - as late as five years ago, so 2012-2011 - we were hosting a big ol
 
 **Brian Ketelsen:** And it worked... It's a miracle. Alright, so I think that wraps up our show today. I'd like to thank David Chase for joining us and going deep into compiler land. I probably learned more in the last hour that I've learned in years on compilers; I really appreciate that. And thanks to everyone who's listening and the folks out on the Slack channel. Thank you so much.
 
-If you enjoyed the show, be sure to share it with fellow Go programmers in your meetups, in your office, all across the land. You can easily subscribe by heading to GoTime.fm, and subscribe to our weekly e-mail which is coming soon. You can follow us on Twitter @GoTimeFM, and if there's anything you wanna discuss on the show, or if you've got a guest that you think we should have, head over to GitHub.com/GoTimeFM/ping and open an issue.
+If you enjoyed the show, be sure to share it with fellow Go programmers in your meetups, in your office, all across the land. You can easily subscribe by heading to [GoTime.fm](http://gotime.fm), and subscribe to our weekly e-mail which is coming soon. You can follow us on [Twitter](https://twitter.com/GoTimeFM), and if there's anything you wanna discuss on the show, or if you've got a guest that you think we should have, head over to [ping](https://github.com/GoTimeFM/ping) and open an issue.
 
 With that, thanks everyone. We really appreciate it.
 
