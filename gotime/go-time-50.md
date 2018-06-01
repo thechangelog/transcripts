@@ -28,9 +28,9 @@
 
 **Erik St. Martin:** Do you wanna give everybody a little bit of a background of who you are and some of the stuff that you're working on?
 
-**Kris Nova:** Sure, yeah. So I am really into Go, the Go programming language. I work a lot in Kubernetes and in the container space. I'm constantly coming up with little open source projects in my spare time, and I work on the Azure team at Microsoft, and we're working on bringing Kubernetes to Azure and making that awesome.
+**Kris Nova:** Sure, yeah. So I am really into Go, the Go programming language. I work a lot in [Kubernetes](https://kubernetes.io/) and in the container space. I'm constantly coming up with little open source projects in my spare time, and I work on the Azure team at Microsoft, and we're working on bringing Kubernetes to Azure and making that awesome.
 
-**Brian Ketelsen:** You just answered my first question, which is "What's the proper way to say Azure?"
+**Brian Ketelsen:** You just answered my first question, which is "What's the proper way to say [Azure](https://en.wikipedia.org/wiki/Microsoft_Azure)?"
 
 **Kris Nova:** I say Azure because I'm really into mineral collecting and my favorite mineral is azurite, so it just kind of like was a no-brainer for me. But I've heard Azure in the wild quite a bit.
 
@@ -54,7 +54,7 @@
 
 **Brian Ketelsen:** Done and done! You're right, I should send him a text. Calling is rude.
 
-**Erik St. Martin:** \[laughs\] So let's talk about a couple of the projects, too. The most recent that came out was Draft; we talked about that either last episode or the one before, and that's ridiculously cool. Did you happen to work on that specific project?
+**Erik St. Martin:** \[laughs\] So let's talk about a couple of the projects, too. The most recent that came out was [Draft](https://github.com/Azure/draft); we talked about that either last episode or the one before, and that's ridiculously cool. Did you happen to work on that specific project?
 
 **Kris Nova:** We've been working on it for a while before we sort of announced it, and I've been involved with the team; I work fairly closely with them. I'm actually on like a neighboring team, but the way we do things is everybody -- all the individual contributors kind of work together. So I've contributed to the project and helped along the way...
 
@@ -62,7 +62,7 @@
 
 **Kris Nova:** Yeah...
 
-**Brian Ketelsen:** Okay, good. It's gonna be a good show, I feel it. You were mostly behind Kops though, right?
+**Brian Ketelsen:** Okay, good. It's gonna be a good show, I feel it. You were mostly behind [Kops](https://github.com/kubernetes/kops) though, right?
 
 **Carlisia Pinto:** Kris, have you finished your sentence? You were just suddenly interrupted...
 
@@ -90,7 +90,7 @@ There might be subtle nuances, but I've had a ton of personal apps and a ton of 
 
 **Kris Nova:** That's something that I think we're gonna see in the near future probably.
 
-**Erik St. Martin:** That's one of those things that keeps getting on my list, since I've seen it on -- I know Tectonic does that too, but since I've seen it done, it's like "Oh, man... I really wanna do that...", just manage the Kubernetes components inside Kubernetes, too.
+**Erik St. Martin:** That's one of those things that keeps getting on my list, since I've seen it on -- I know [Tectonic](https://coreos.com/tectonic/) does that too, but since I've seen it done, it's like "Oh, man... I really wanna do that...", just manage the Kubernetes components inside Kubernetes, too.
 
 **Kris Nova:** Yeah, and that's what's beautiful about it - in order to get a control plane up and running you just need to have these bare minimum set of components that are already running in containers. It's a good model.
 
@@ -102,9 +102,9 @@ It's a deployment tool, but more importantly, it's also an after-market manageme
 
 I think it's sort of introduces this new paradigm of "I need infrastructure and I'm gonna probably wanna change it later as my use cases grow and evolve and expand", and with Kops I can do that through one friendly command line tool which ultimately becomes an API that you can trust.
 
-**Brian Ketelsen:** So how does Kops differ in scope from kubeadm.
+**Brian Ketelsen:** So how does `kops` differ in scope from `kubeadm`.
 
-**Kris Nova:** Kubeadm is sort of the second half of what Kops does. Kubeadm says "The infrastructure is in place and now I wanna bootstrap a Kubernetes cluster", where Kops goes "I'll manage the infrastructure, create it if you don't already have it, and bootstrap a Kubernetes cluster as well."
+**Kris Nova:** `kubeadm` is sort of the second half of what `kops` does. `kubeadm` says "The infrastructure is in place and now I wanna bootstrap a Kubernetes cluster", where `kops` goes "I'll manage the infrastructure, create it if you don't already have it, and bootstrap a Kubernetes cluster as well."
 
 **Brian Ketelsen:** Oh, okay.
 
@@ -124,7 +124,7 @@ To kind of go into the developer empathy side of things here, it actually got ot
 
 \[alarm sound noise\]
 
-**Brian Ketelsen:** Uh-oh... Danger, Will Robinson! Danger!
+**Brian Ketelsen:** Uh-oh... [Danger, Will Robinson](https://www.youtube.com/watch?v=OWwOJlOI1nU)! Danger!
 
 **Erik St. Martin:** What is the...?
 
@@ -142,11 +142,11 @@ To kind of go into the developer empathy side of things here, it actually got ot
 
 I guess the story behind it would be you have a Draft daemon that's running and it's watching a directory for deltas; as it detects a delta, you make a change, like add a new line and save the file, or something.
 
-It'll detect that and it will go through this rebuilding and redeployment cycle where it'll bundle up your application into a container, push it to a registry and then use Helm - that's sort of like behind the scenes of what's going on in Draft - to actually make a deployment in Kubernetes and run that in Kubernetes.
+It'll detect that and it will go through this rebuilding and redeployment cycle where it'll bundle up your application into a container, push it to a registry and then use [Helm](https://github.com/kubernetes/helm) - that's sort of like behind the scenes of what's going on in Draft - to actually make a deployment in Kubernetes and run that in Kubernetes.
 
 **Brian Ketelsen:** Oh, wow...
 
-**Kris Nova:** I used to work on Scala, and this tool reminds me of sbt quite a bit, with this sort of "You run it and it sits there, and as soon as you make a change, it'll sort of recompile" what it did in Scala. For Draft, for recompiling it's actually a build stage where it will actually compile your code if you're writing Go. Or if you're writing an interpreted language, it'll just stick it in a container and then push that out to the cluster... Which is pretty handy, because if you've ever developed for Kubernetes, you know there's like -- I have this alias in my Bash profile that I'm certainly not proud of, where it would do all this stuff that I've just talked about, and it was kind of hacky... This is a much more elegant way of doing that.
+**Kris Nova:** I used to work on Scala, and this tool reminds me of `sbt` quite a bit, with this sort of "You run it and it sits there, and as soon as you make a change, it'll sort of recompile" what it did in Scala. For Draft, for recompiling it's actually a build stage where it will actually compile your code if you're writing Go. Or if you're writing an interpreted language, it'll just stick it in a container and then push that out to the cluster... Which is pretty handy, because if you've ever developed for Kubernetes, you know there's like -- I have this alias in my Bash profile that I'm certainly not proud of, where it would do all this stuff that I've just talked about, and it was kind of hacky... This is a much more elegant way of doing that.
 
 **Brian Ketelsen:** Yeah, everybody has that same nasty Bash script if they're working in Kubernetes. It almost sounds like a "Heroku for Kubernetes" sort of thing; simplifying the whole development workflow. That sounds cool. Does it use a concept of buildpacks or something similar to determine how to containerize the application, or do you still have to provide guidance on the containerization of your app?
 
@@ -156,11 +156,11 @@ It'll detect that and it will go through this rebuilding and redeployment cycle 
 
 **Erik St. Martin:** I think there was an article - I forget who posted the article from the Microsoft team when Draft was released... But that listed the languages, I think -- I was trying to look it up real quick.
 
-**Kris Nova:** There's a directory in Draft... Let me see if I can pull it up.
+**Kris Nova:** There's a [directory](https://github.com/Azure/draft/tree/master/packs) in Draft... Let me see if I can pull it up.
 
 **Erik St. Martin:** \[00:15:54.03\] And in addition to that, how does this work as far as like -- what's the word I'm looking for here...? Sharing the cluster with production systems for like multitenancy, multiple developers leveraging the same Kubernetes cluster... Does your application as it's being built out in Draft - is that in its own namespace, or are you kind of sharing the cluster with the rest of the world? How does that work?
 
-**Kris Nova:** So there's a command Draft in it; you specify the namespace you wanna run in, and as long as two people are using different namespaces, they're not gonna conflict.
+**Kris Nova:** So there's a command `draft` in it; you specify the namespace you wanna run in, and as long as two people are using different namespaces, they're not gonna conflict.
 
 **Brian Ketelsen:** Nice, that's really cool.
 
@@ -172,7 +172,7 @@ It'll detect that and it will go through this rebuilding and redeployment cycle 
 
 **Kris Nova:** It does. To put it into perspective, when I first started on the Deis (now Microsoft) team, I had never really even interacted with a cluster past the API. My entire Kubernetes career up until January of this year was bootstrapping and digging through kubelet logs, and understanding how the components of the control plane fit together... And once the API was up and running and I could send an HTTPS request to it, that was sort of where I stopped.
 
-I think I still kind of naturally go into that space - underlying bootstrapping and how does the system work even behind the scenes and what \[unintelligible 00:18:07.03\] look like, and making sure that's all happy and healthy. And then of course, how does the infrastructure underneath that fit into that whole orchestration bin.
+I think I still kind of naturally go into that space - underlying bootstrapping and how does the system work even behind the scenes and what is it the system needs look like, and making sure that's all happy and healthy. And then of course, how does the infrastructure underneath that fit into that whole orchestration bit.
 
 **Erik St. Martin:** Kind of like the provisioning aspect and kind of how all the components communicate between themselves, and not so much the application layer - am I understanding that right?
 
@@ -188,15 +188,15 @@ So I've secretly been kind of like, "One of these days I'm gonna move my blog ov
 
 **Kris Nova:** Right.
 
-**Erik St. Martin:** So yeah, there's a lot of value in that, but I think it's always fun, looking at stuff... I look at Jessie Frazelle too, and it's like "She put what in a container...?!" \[laughter\]
+**Erik St. Martin:** So yeah, there's a lot of value in that, but I think it's always fun, looking at stuff... I look at [Jessie Frazelle](https://twitter.com/jessfraz) too, and it's like "She put what in a container...?!" \[laughter\]
 
-**Kris Nova:** Yeah, we actually did a Helm hack night in San Francisco last week, and I might have had one too many beers, but I thought it would be a good idea to try to run IE6 in a container, just because some of this stuff we're dealing with here at Microsoft requires IE. So I was like "Hey, if I have a Docker file for that, that'll make it much easier."
+**Kris Nova:** Yeah, we actually did a Helm hack night in San Francisco last week, and I might have had one too many beers, but I thought it would be a good idea to try to run [IE6](https://en.wikipedia.org/wiki/Internet_Explorer_6) in a container, just because some of this stuff we're dealing with here at Microsoft requires IE. So I was like "Hey, if I have a Docker file for that, that'll make it much easier."
 
 \[00:19:46.07\] So I started going through the exercise, and it's actually pretty fun containerizing odd things. I had a good time. And once it's done, it's kind of done forever and you don't really have to deal with it anymore. It's kind of like you give yourself these neat little LEGO blocks.
 
 **Brian Ketelsen:** We've gotta know how deep was that rabbit hole for IE6.
 
-**Kris Nova:** It really wasn't that bad at all. It was really no different than getting IE6 running in Wine on Linux.
+**Kris Nova:** It really wasn't that bad at all. It was really no different than getting IE6 running in [Wine](https://en.wikipedia.org/wiki/Wine_(software)) on Linux.
 
 **Brian Ketelsen:** So you did in Wine and Docker?
 
@@ -204,7 +204,7 @@ So I've secretly been kind of like, "One of these days I'm gonna move my blog ov
 
 **Brian Ketelsen:** That makes sense.
 
-**Erik St. Martin:** Actually, that sparks some ideas, too. One of the programs that I always like using on my Mac is Navicat. I like having a consistent UI for database stuff... So I naturally thought on my Linux machine they have Navicat for Linux, except it's just the Windows version in Wine... So you've gotta have all the 32-bit libraries and all that junk, so running that in a container would be awesome.
+**Erik St. Martin:** Actually, that sparks some ideas, too. One of the programs that I always like using on my Mac is [Navicat](https://en.wikipedia.org/wiki/Navicat). I like having a consistent UI for database stuff... So I naturally thought on my Linux machine they have Navicat for Linux, except it's just the Windows version in Wine... So you've gotta have all the 32-bit libraries and all that junk, so running that in a container would be awesome.
 
 **Kris Nova:** Yeah.
 
@@ -214,7 +214,7 @@ So I've secretly been kind of like, "One of these days I'm gonna move my blog ov
 
 **Kris Nova:** I think it was cool for me because containers always were kind of like this mystery, and then you kind of realize, there's a lot going on, but at the end of the day we're head in your kernel... So whatever we would be setting to the kernel "in real life" you're gonna get pretty close to the same functionality coming from a container, and it was like "Oh, this is sort of not this black mystery face anymore. I kind of get it now." And I think actually seeing the Xserver get started and actually bring something up on my screen was kind of like that a-ha moment.
 
-**Erik St. Martin:** I think there's difficulty in adoption of containers though, because explaining the differences -- I forget who it was, whether it was Brendan Gregg or somebody... I was reading kind of like a performance article where it basically said that most of his day is spent exonerating the container, that most people wanna "Oh, this isn't performing right... It's gotta be because it's in a container" and things like that, and you start to realize there's not a lot of magic there; it's all operating system things being called; it's not the container, it's the configuration the container's getting, right?
+**Erik St. Martin:** I think there's difficulty in adoption of containers though, because explaining the differences -- I forget who it was, whether it was [Brendan Gregg](https://twitter.com/brendangregg) or somebody... I was reading kind of like a performance article where it basically said that most of his day is spent exonerating the container, that most people wanna "Oh, this isn't performing right... It's gotta be because it's in a container" and things like that, and you start to realize there's not a lot of magic there; it's all operating system things being called; it's not the container, it's the configuration the container's getting, right?
 
 **Kris Nova:** Right.
 
@@ -228,7 +228,7 @@ So I've secretly been kind of like, "One of these days I'm gonna move my blog ov
 
 **Brian Ketelsen:** So you guys were just acquired - "you guys" being Deis - by Microsoft... Tell us about the culture change there. Deis was a nice startup in the Boulder - Denver area, and then you went off to Engine Yard, and now Microsoft... So that's two big changes in two years; what's the culture like at Microsoft? How do microsofties think about Go and containers in general? What does that feel like?
 
-**Kris Nova:** I was so impressed and fell in love so quickly... Because I was kind of worried, like "Am I gonna still be able to write Go? What is this gonna look like?" and I think after the first day of exploring /Azure on GitHub and going through the code, like -- Microsoft loves Linux. We love Go, and the culture is great. I still feel like I work at a startup, I go to work with my best friends every day, we go out to eat lunch... Life's good.
+**Kris Nova:** I was so impressed and fell in love so quickly... Because I was kind of worried, like "Am I gonna still be able to write Go? What is this gonna look like?" and I think after the first day of exploring [Azure on GitHub](https://github.com/azure) and going through the code, like -- Microsoft loves Linux. We love Go, and the culture is great. I still feel like I work at a startup, I go to work with my best friends every day, we go out to eat lunch... Life's good.
 
 **Brian Ketelsen:** Wow.
 
@@ -252,29 +252,29 @@ So I've secretly been kind of like, "One of these days I'm gonna move my blog ov
 
 **Erik St. Martin:** I think in order for me to say that I played the guitar, we would have to clearly define what the definition of "play" is... \[laughter\]
 
-**Carlisia Pinto:** I might be taking up ukulele soon...
+**Carlisia Pinto:** I might be taking up [ukulele](https://en.wikipedia.org/wiki/Ukulele) soon...
 
 **Brian Ketelsen:** Oh, ukulele is so much fun.
 
 **Kris Nova:** Yeah, that's such a cool instrument.
 
-**Erik St. Martin:** I don't know, I think the keytar is a pretty cool instrument though, too. It's one of those things... To see somebody who knows how to play it is awesome.
+**Erik St. Martin:** I don't know, I think the [keytar](https://en.wikipedia.org/wiki/Keytar) is a pretty cool instrument though, too. It's one of those things... To see somebody who knows how to play it is awesome.
 
 **Kris Nova:** I played synth in a band for a number of years, and that sort of went anywhere from weighted key piano, to playing organ, to actually having this super teeny-tiny microKORG with little itty-bitty keys on it... And keytar - it's such a unique instrument, because you have to kind of have one hand that's doing piano things, and then your left hand is on that flybar where you can get the modulation and the pitch bend and everything.
 
-It took a while to get into this -- like, I'm holding it like a guitar, playing it like a piano, and my other hand is doing guitar things. But I bought it, and then the first thing I had to learn how to play was Frankenstein by the Edgar Winters Group. \[laughter\] I played that for like six months straight. I'm pretty sure the neighbors were like "If I hear that riff one more time..." \[laughter\]
+It took a while to get into this -- like, I'm holding it like a guitar, playing it like a piano, and my other hand is doing guitar things. But I bought it, and then the first thing I had to learn how to play was [Frankenstein by the Edgar Winters Group](https://www.youtube.com/watch?v=P8f-Qb-bwlU). \[laughter\] I played that for like six months straight. I'm pretty sure the neighbors were like "If I hear that riff one more time..." \[laughter\]
 
 **Brian Ketelsen:** ...somebody's gonna have to die.
 
 **Kris Nova:** Yeah.
 
-**Brian Ketelsen:** I just pasted a YouTube search result for Jordan Rudess' keytar solos into the Slack. I've seen him live several times, but one of them he did like this nine-minute epic keytar thing, and it just changed my idea of keytars forever. Very awesome.
+**Brian Ketelsen:** I just pasted a [YouTube search result](https://www.youtube.com/results?search_query=jordan+rudess+keytar+solo) for Jordan Rudess' keytar solos into the Slack. I've seen him live several times, but one of them he did like this nine-minute epic keytar thing, and it just changed my idea of keytars forever. Very awesome.
 
 **Kris Nova:** I will check that out.
 
 **Erik St. Martin:** So I think by the time this episode is released, we will be in our 30-day window to the conference. Are you well prepared? Are you sitting back, relaxing, rehearsing, or still racing and doing last-minute changes?
 
-**Kris Nova:** I've had my deck done for a while... I gave the talk about a month ago -- I gave the short and condensed version of it for an internal thing at a company... So I think I'm ready. Probably as we get closer to the conference I'm gonna get a little more like "Oh, man... I wanna make sure that this thing is perfect and on point", but I'm just excited. This will be my first GopherCon, and I'm speaking there, so that's pretty rad.
+**Kris Nova:** I've had my deck done for a while... I gave the talk about a month ago -- I gave the short and condensed version of it for an internal thing at a company... So I think I'm ready. Probably as we get closer to the conference I'm gonna get a little more like "Oh, man... I wanna make sure that this thing is perfect and on point", but I'm just excited. This will be my first [GopherCon](https://www.gophercon.com/), and I'm speaking there, so that's pretty rad.
 
 **Erik St. Martin:** Oh, you haven't attended yet?
 
@@ -294,7 +294,7 @@ It took a while to get into this -- like, I'm holding it like a guitar, playing 
 
 **Erik St. Martin:** There are those beautiful people who can just get up on stage and totally wing something, though... And I can only be in awe.
 
-**Brian Ketelsen:** Do you know who's really good at that? This is totally random, but Charlie Nutter, the guy who does most of the JRuby stuff... He can show up at any conference and you just give him a topic and he'll riff an entire hour-long talk flawlessly with live code.
+**Brian Ketelsen:** Do you know who's really good at that? This is totally random, but [Charlie Nutter](https://twitter.com/headius), the guy who does most of the JRuby stuff... He can show up at any conference and you just give him a topic and he'll riff an entire hour-long talk flawlessly with live code.
 
 **Erik St. Martin:** Wow.
 
@@ -304,11 +304,11 @@ It took a while to get into this -- like, I'm holding it like a guitar, playing 
 
 **Erik St. Martin:** So do you guys wanna talk about anything projects and news-wise? I think we have probably like 15 minutes or so left in the show.
 
-**Brian Ketelsen:** There are a lot of interesting projects that have been updated lately, and there's some news. Let's dive into it. I'll start with Go Play - holy cow, is that cool! So you guys know I've had this - I don't know if "obsession" is the right word, but I've been trying very hard to learn front-end development, and I'm an old dog and it's a new trick; it's not going terribly well. And I've had this conception that using GopherJS would make my life easier, for better or worse (I don't know if that's true)... But there's a front-end framework called Vecty that's built on GopherJS and it's very much in the style of React, in that you build components and reuse them, and such... But Vecty isn't terribly well documented yet, because it's still kind of in flux. And somebody built a "Go playground" thing called GoPlay.space.
+**Brian Ketelsen:** There are a lot of interesting projects that have been updated lately, and there's some news. Let's dive into it. I'll start with Go Play - holy cow, is that cool! So you guys know I've had this - I don't know if "obsession" is the right word, but I've been trying very hard to learn front-end development, and I'm an old dog and it's a new trick; it's not going terribly well. And I've had this conception that using [GopherJS](https://github.com/gopherjs/gopherjs) would make my life easier, for better or worse (I don't know if that's true)... But there's a front-end framework called [Vecty](https://github.com/gopherjs/vecty) that's built on GopherJS and it's very much in the style of React, in that you build components and reuse them, and such... But Vecty isn't terribly well documented yet, because it's still kind of in flux. And somebody built a "Go playground" thing called GoPlay.space.
 
-If you go to https://goplay.space - it's a Go playground front-end, and there's also a back-end that submits your code off to the playground and then reformats it... But it's nice because it's got some slick integration with GoDoc, so you can highlight something and on the right side of the window it will open up the GoDoc for that stuff... So I'm really excited to see this giant codebase - "giant" maybe isn't quite the right word, but a large enough codebase that gives a great example of Vecty and and client and server-side Go... It's a really neat project, and the tool itself (goplay.space) is just like the playground, but better. It's a neat tool.
+If you go to [goplay.space](https://goplay.space/) - it's a Go playground front-end, and there's also a back-end that submits your code off to the playground and then reformats it... But it's nice because it's got some slick integration with `godoc`, so you can highlight something and on the right side of the window it will open up the `godoc` for that stuff... So I'm really excited to see this giant codebase - "giant" maybe isn't quite the right word, but a large enough codebase that gives a great example of Vecty and client and server-side Go... It's a really neat project, and the tool itself (goplay.space) is just like the playground, but better. It's a neat tool.
 
-**Kris Nova:** Yeah, I was looking at this -- I saw this on Reddit the other day... I do actually try to keep up with our Golang as a moderator, from time to time. But I saw this... You're able to click on the Go functions and it would pull the GoDocs right there on the right...
+**Kris Nova:** Yeah, I was looking at this -- I saw this on Reddit the other day... I do actually try to keep up with [r/golang](https://www.reddit.com/r/golang/) as a moderator, from time to time. But I saw this... You're able to click on the Go functions and it would pull the GoDocs right there on the right...
 
 **Brian Ketelsen:** Yeah, isn't that neat?
 
@@ -318,7 +318,7 @@ If you go to https://goplay.space - it's a Go playground front-end, and there's 
 
 **Erik St. Martin:** So is this something that you host? I haven't looked at this yet... Is this something that you host yourself, or is it just like an alternative play site that you can go to?
 
-**Brian Ketelsen:** It actually uses the playground in the background, but if you wanted to host your own, you could... But you don't need to, because he's got one hosted at goplay.space.
+**Brian Ketelsen:** It actually uses the playground in the background, but if you wanted to host your own, you could... But you don't need to, because he's got one hosted at [goplay.space]    (https://goplay.space/).
 
 **Erik St. Martin:** Oh, cool. I'm gonna have to start using that.
 
@@ -340,7 +340,7 @@ If you go to https://goplay.space - it's a Go playground front-end, and there's 
 
 **Brian Ketelsen:** Shut the front door!
 
-**Erik St. Martin:** Yeah, if you click on the word "package" or the word "import" or the word "func", it actually brings up the doc for the package clause and import declarations and function declarations... The actual docs for that in the language spec. That's sweet...
+**Erik St. Martin:** Yeah, if you click on `package` or `import` or `func`, it actually brings up the doc for the package clause and import declarations and function declarations... The actual docs for that in the language spec. That's sweet...
 
 **Brian Ketelsen:** Pretty cool.
 
@@ -370,13 +370,13 @@ If you go to https://goplay.space - it's a Go playground front-end, and there's 
 
 **Erik St. Martin:** Like, if I use a channel and I click on the pointer thing, does it do something? I'm gonna be finding hidden things now...
 
-**Kris Nova:** Right? Like, now I'm gonna find parts of the Goland documentation that I haven't looked at before, that I'm now gonna start reading.
+**Kris Nova:** Right? Like, now I'm gonna find parts of the [golang documentation](https://golang.org/doc/) that I haven't looked at before, that I'm now gonna start reading.
 
 **Erik St. Martin:** You almost feel obligated to read it after it pops up... \[laughs\]
 
 **Kris Nova:** Right.
 
-**Carlisia Pinto:** So the CFP for Gotham Go - which is New York City in 5-6 October - is opened. So the CFP is open and it will close on 15th July.
+**Carlisia Pinto:** So the CFP for [Gotham Go](http://gothamgo.com/) - which is New York City in 5-6 October - is opened. So the CFP is open and it will close on 15th July.
 
 **Erik St. Martin:** ...which is roughly --
 
@@ -396,7 +396,7 @@ If you go to https://goplay.space - it's a Go playground front-end, and there's 
 
 **Brian Ketelsen:** \[laughs\] Exactly.
 
-**Carlisia Pinto:** And the last thing I will mention for projects and news is that the videos from GopherCon China are online. Apparently, most of them are in Chinese...
+**Carlisia Pinto:** And the last thing I will mention for projects and news is that [the videos](https://www.youtube.com/watch?v=spgyXhfxZP8&list=PLx_Mc4dJcQbl4qPWbVu86u6owZeiwsErR) from [GopherCon China](http://www.gopherchina.org/) are online. Apparently, most of them are in Chinese...
 
 **Brian Ketelsen:** Oh, that's cool...
 
@@ -420,7 +420,7 @@ If you go to https://goplay.space - it's a Go playground front-end, and there's 
 
 **Brian Ketelsen:** I try... I told you I was feeling a little spicy today.
 
-**Erik St. Martin:** So Go-vim 1.13...
+**Erik St. Martin:** So [go-vim 1.13](https://github.com/fatih/vim-go/releases/tag/v1.13)...
 
 **Brian Ketelsen:** Vim-Go...
 
@@ -446,29 +446,29 @@ If you go to https://goplay.space - it's a Go playground front-end, and there's 
 
 **Kris Nova:** Bye!
 
-**Brian Ketelsen:** So yeah, you've got a struct literal where you didn't put the keynames in and you just counted on ordering to manage the assignment, you can type go-keyify in Go and it will put the keynames in for you... Which is cool, because that's a Golint big red flag for keynames, so... It's kind of slick. And there's a bunch of other stuff in this release.
+**Brian Ketelsen:** So yeah, you've got a struct literal where you didn't put the keynames in and you just counted on ordering to manage the assignment, you can type `go-keyify` in vim-go and it will put the keynames in for you... Which is cool, because that's a `golint` big red flag for keynames, so... It's kind of slick. And there's a bunch of other stuff in this release.
 
-**Erik St. Martin:** It also allows you to be lazy though, because you can just type really fast out the values and then just do go-keyify and let it fill in the fields for you.
+**Erik St. Martin:** It also allows you to be lazy though, because you can just type really fast out the values and then just do `go-keyify` and let it fill in the fields for you.
 
 **Kris Nova:** Oh, that would be cool.
 
 **Erik St. Martin:** I mean, if you remember it. That tends to be my problem - there's lots of cool things, I just never remember to use them when they're useful; I remember them after the fact.
 
-So I came across this cool project this week too called fsql, and now that you're talking about flipping birds, Brian, it has like a whole new meaning to me... \[laughter\] But it's a filesystem SQL, so you can run basically like SQL commands to search... So rather than just using like a find command and all its flags, you can actually do like a "select star from" and do "name a file like such-and-such", and check the size...
+So I came across this cool project this week too called [fsql](https://github.com/kshvmdn/fsql), and now that you're talking about flipping birds, Brian, it has like a whole new meaning to me... \[laughter\] But it's a filesystem SQL, so you can run basically like SQL commands to search... So rather than just using like a `find` and all its flags, you can actually do like a `select * from` and do `name a file like such-and-such`, and check the size...
 
 **Brian Ketelsen:** Oh, wow...
 
 **Kris Nova:** I was curious... I saw that too, and I was wondering if you could like do a join... If you could take files from this directory and match them on files from that directory and show how they relate. That would be useful if you're ever doing a nested vendor and you wanna figure out which packages need to go where.
 
-**Brian Ketelsen:** You can use "and" or "or" to join conditions...
+**Brian Ketelsen:** You can use `and` or `or` to join conditions...
 
 **Erik St. Martin:** Yeah, but you can't join queries...
 
-**Brian Ketelsen:** I don't know if you can have multiple select, yeah... A UNION would be killer, wouldn't it?
+**Brian Ketelsen:** I don't know if you can have multiple select, yeah... `union` would be killer, wouldn't it?
 
 **Kris Nova:** Yeah...
 
-**Brian Ketelsen:** You could do some crazy stuff with a SQL UNION.
+**Brian Ketelsen:** You could do some crazy stuff with a SQL `union`.
 
 **Erik St. Martin:** I'll betcha they'd take a pull request, though.
 
@@ -476,7 +476,7 @@ So I came across this cool project this week too called fsql, and now that you'r
 
 **Erik St. Martin:** Yeah, you could...
 
-**Brian Ketelsen:** You use fsql and then throw in some awk and sed and grep and all of the rest of it, but of course, that defeats the whole purpose of having fsql... So I'll be quiet now.
+**Brian Ketelsen:** You use fsql and then throw in some `awk` and `sed` and `grep` and all of the rest of it, but of course, that defeats the whole purpose of having fsql... So I'll be quiet now.
 
 **Erik St. Martin:** I think other than that I don't know whether -- are there are any other news or things going on you guys wanna talk about before we wrap this thing up?
 
@@ -490,9 +490,9 @@ So I came across this cool project this week too called fsql, and now that you'r
 
 **Brian Ketelsen:** Okay.
 
-**Erik St. Martin:** So we have a thing we're working on where we're needing to support multiple interfaces inside of a container; basically, one would be the mesh network like the Flannel or something, and then the other being like a VLAN interface for outbound video data... But anyway, so we're having to build our own CNI plugin to manage this, and I came across this project called CNI-Genie, which is actually ridiculously cool. It looks like it's still in its infancy, but basically you can add a CNI annotation to a pod, and then comma separate a list of CNI plugins you want to run.
+**Erik St. Martin:** So we have a thing we're working on where we're needing to support multiple interfaces inside of a container; basically, one would be the mesh network like the [Flannel]  (https://github.com/coreos/flannel) or something, and then the other being like a VLAN interface for outbound video data... But anyway, so we're having to build our own CNI plugin to manage this, and I came across this project called [CNI-Genie](https://github.com/Huawei-PaaS/CNI-Genie), which is actually ridiculously cool. It looks like it's still in its infancy, but basically you can add a CNI annotation to a pod, and then comma separate a list of CNI plugins you want to run.
 
-\[00:40:12.29\] So either you can get multiple interfaces, so you can have like Flannel and Calico and all these things running in the same cluster, and then issue IPs from specific ones or multiples, and then on top of that it does some metrics collection thorough cAdvisor, where if you want it to, it can choose what interface it should give you, or which CNI plugin it should use, based on...
+\[00:40:12.29\] So either you can get multiple interfaces, so you can have like Flannel and [Calico](https://github.com/projectcalico/calico) and all these things running in the same cluster, and then issue IPs from specific ones or multiples, and then on top of that it does some metrics collection thorough [cAdvisor](https://github.com/google/cadvisor), where if you want it to, it can choose what interface it should give you, or which [CNI plugin](https://github.com/containernetworking/plugins) it should use, based on...
 
 **Brian Ketelsen:** Based on network performance?
 
@@ -518,17 +518,17 @@ I know the Go community in China is huge, but it's kind of tough, since I don't 
 
 **Erik St. Martin:** I didn't make it very far.
 
-**Brian Ketelsen:** Alright, so my \#FreeSoftwareFriday shoutout is to a person, not a project. Everybody has probably seen this person in the Gophers Slack, on GitHub, on Twitter... This is Florian Patan, and I hope I didn't butcher your name terribly, Florian... I apologize if I did. Florian is just an incredibly active member of the community and always, ALWAYS there to answer questions and help people out. I very much appreciate all of the work he does for the community; he's one of the cornerstones of the helper crew in Go, and it's awesome to see all the time he dedicates to helping people on Slack, on Reddit, on Twitter... Everywhere. Thank you so much for all that you do, Florian. We appreciate it.
+**Brian Ketelsen:** Alright, so my \#FreeSoftwareFriday shoutout is to a person, not a project. Everybody has probably seen this person in the Gophers Slack, on GitHub, on Twitter... This is [Florin Patan](https://github.com/dlsniper), and I hope I didn't butcher your name terribly, Florin... I apologize if I did. [Florin](https://twitter.com/dlsniper) is just an incredibly active member of the community and always, ALWAYS there to answer questions and help people out. I very much appreciate all of the work he does for the community; he's one of the cornerstones of the helper crew in Go, and it's awesome to see all the time he dedicates to helping people on Slack, on Reddit, on Twitter... Everywhere. Thank you so much for all that you do, Florin. We appreciate it.
 
 Kris, is there any project or any person you wanted to shout out for \#FreeSoftwareFriday?
 
-**Kris Nova:** Yeah, I would say the one person in the community who has stuck out to me more in the past few months than anybody else is Caroline Van Slyck.
+**Kris Nova:** Yeah, I would say the one person in the community who has stuck out to me more in the past few months than anybody else is [Caroline Van Slyck](https://twitter.com/carolynvs).
 
 **Brian Ketelsen:** Nice.
 
-**Kris Nova:** I noticed her doing some work in godep with Sam in that whole effort, and just the code that they're cranking out, and the effort and the time that they're putting in, just being super proficient... It really stood out to me. So I would like to say "Thank you for all you're doing" to her.
+**Kris Nova:** I noticed her doing some work in [go dep](https://golang.github.io/dep/) with [Sam](https://twitter.com/sdboyer) in that whole effort, and just the code that they're cranking out, and the effort and the time that they're putting in, just being super proficient... It really stood out to me. So I would like to say "Thank you for all you're doing" to her.
 
-**Erik St. Martin:** And she actually gave a talk at last year's GopherCon.
+**Erik St. Martin:** And she actually gave a [talk](https://www.youtube.com/watch?v=UOeeR7odY1I) at last year's GopherCon.
 
 **Brian Ketelsen:** A great talk, about adding more users to your app by supporting Windows better.
 
@@ -564,7 +564,7 @@ So the green light shows up that I'm talking in the audio interface, and in the 
 
 **Erik St. Martin:** Yeah, once you get the first set of key movements down - that's usually the hardest part; after that it's just a lifetime of learning new tricks, and being around other Vim people. They see you type four characters and they're like "You know you can do that in two, right?" and you learn something new...
 
-**Brian Ketelsen:** Using Vim in front of an audience of 20-30 people that may or may not Vim - that is probably the most painful thing in the world you can do... Because at the end of the class people are like "You know, you could have done XYZ in Vim and done this a lot faster..." Alright, fine. Just get off my back. I do not need you criticizing my Vim motions.
+**Brian Ketelsen:** Using Vim in front of an audience of 20-30 people that may or may not know Vim - that is probably the most painful thing in the world you can do... Because at the end of the class people are like "You know, you could have done XYZ in Vim and done this a lot faster..." Alright, fine. Just get off my back. I do not need you criticizing my Vim motions.
 
 **Erik St. Martin:** But you used to criticize my Vim motions...
 
@@ -576,9 +576,9 @@ So the green light shows up that I'm talking in the audio interface, and in the 
 
 **Kris Nova:** And that's exactly what it was like for me... I've sat with some people who do the same thing and I'm like "If I could actually go through and learn that, I can see myself getting obsessed with it." Like, "I have to learn more, I have to be able to do this in one less keystroke", and it's just... I grew up with Emacs. It's like what the cool kids in high school used. We used to play games on it, so for me it's just second nature, I don't have to think about it anymore. Maybe it's time for me to learn a new text editor.
 
-**Erik St. Martin:** I'll actually plug a book for anybody interested in learning Vim... I had used Vim for probably close to ten years before I read this book. It's Practical Vim by Drew Neil. I learned a ton from that book that I didn't know from ten years of using Vim. It teaches you to kind of look at the keystrokes and kind of the multiplier, the command, and kind of like a motion activity... And you start to realize that there's a format to them, like C is for Change, D is for Delete, and then you have a motion, which is like T... And then you can say like ; , so dt; means "Delete up to the semi-colon." Ct; is Change To ; ...
+**Erik St. Martin:** I'll actually plug a book for anybody interested in learning Vim... I had used Vim for probably close to ten years before I read this book. It's [Practical Vim](https://pragprog.com/book/dnvim2/practical-vim-second-edition) by Drew Neil. I learned a ton from that book that I didn't know from ten years of using Vim. It teaches you to kind of look at the keystrokes and kind of the multiplier, the command, and kind of like a motion activity... And you start to realize that there's a format to them, like `c` is for Change, `d` is for Delete, and then you have a motion, which is like `t`... And then you can say like `;` , so `dt;` means "Delete up to the semi-colon." `ct;` is Change To ; ...
 
-Once you start recognizing those patterns (DW is Delete Word) it becomes much easier to remember them all.
+Once you start recognizing those patterns (`dw` is Delete Word) it becomes much easier to remember them all.
 
 **Kris Nova:** Interesting.
 
@@ -590,7 +590,7 @@ Once you start recognizing those patterns (DW is Delete Word) it becomes much ea
 
 **Brian Ketelsen:** Lazy.
 
-**Erik St. Martin:** There's actually a follow-up book to that too, called Modern Vim, which gets into Nvim and things like that. I have not read that one yet, and it's not out yet, I don't think... It's still being written, but that will be interesting when it comes out too, because Nvim is really cool, too...
+**Erik St. Martin:** There's actually a follow-up book to that too, called [Modern Vim](https://pragprog.com/book/modvim/modern-vim), which gets into Nvim and things like that. I have not read that one yet, and it's not out yet, I don't think... It's still being written, but that will be interesting when it comes out too, because [Nvim](https://neovim.io/) is really cool, too...
 
 **Kris Nova: **
 
@@ -626,7 +626,7 @@ Once you start recognizing those patterns (DW is Delete Word) it becomes much ea
 
 **Brian Ketelsen:** I do it by project most times. In fact, all of my classroom material for teaching Go is a self-contained GOPATH, and then I've got GOPATHs from my personal projects, and if I have a job - which sometimes I do - then I'll have a GOPATH specifically for that, just to keep everything clean.
 
-**Erik St. Martin:** And if you're not already aware of this, I will up your "different environment" game. There's a project called [direnv](https://direnv.net/) that I use the crap out of. Basically, it allows you when you CD into a directory, it can execute shell scripts or set up aliases or your paths specifically for that directory. I have these different GOPATHs set up, but it just automatically changes for me when I go into the directory.
+**Erik St. Martin:** And if you're not already aware of this, I will up your "different environment" game. There's a project called [direnv](https://direnv.net/) that I use the crap out of. Basically, it allows you when you `cd` into a directory, it can execute shell scripts or set up aliases or your paths specifically for that directory. I have these different GOPATHs set up, but it just automatically changes for me when I go into the directory.
 
 **Kris Nova:** I was literally thinking about writing this exact tool like two days ago.
 
@@ -634,13 +634,13 @@ Once you start recognizing those patterns (DW is Delete Word) it becomes much ea
 
 **Kris Nova:** Awesome.
 
-**Erik St. Martin:** Yeah, it's so much fun. I use it to change up my kube-control configs and things like that, too.
+**Erik St. Martin:** Yeah, it's so much fun. I use it to change up my `kubectl` configs and things like that, too.
 
 **Brian Ketelsen:** You're not using kubectx yet?
 
 **Erik St. Martin:** Usually, there's a kube-control or kubectl. I haven't got into the kubectl thing...
 
-**Brian Ketelsen:** No, I'm talking about [kubectx](https://github.com/ahmetb/kubectx). There's a new app called [kubectx](https://github.com/ahmetb/kubectx) that allows (it's almost like [direnv](https://direnv.net/)) but it allows you to change your context for kube-control, and you can just type "kubectx work" and get a new profile.
+**Brian Ketelsen:** No, I'm talking about [kubectx](https://github.com/ahmetb/kubectx). There's a new app called [kubectx](https://github.com/ahmetb/kubectx) that allows (it's almost like [direnv](https://direnv.net/)) but it allows you to change your context for `kubectl`, and you can just type `kubectx work` and get a new profile.
 
 **Kris Nova:** Awesome, because right now I have a bunch of kube configs in my directory, and then symlink them according to what I'm doing. But this sounds awesome.
 
@@ -648,7 +648,7 @@ Once you start recognizing those patterns (DW is Delete Word) it becomes much ea
 
 **Erik St. Martin:** Or even with [direnv](https://direnv.net/) too, you can have it execute shell commands and stuff for you. So you can have it just change your context when you CD into the directory.
 
-**Brian Ketelsen:** \[00:56:09.17\] Yeah, so I just put a link to that in Slack. It's GitHub.com/ahmetp/kubectx.
+**Brian Ketelsen:** \[00:56:09.17\] Yeah, so I just put a link to that in Slack. It's [github.com/ahmetp/kubectx](https://github.com/ahmetb/kubectx).
 
 **Erik St. Martin:** I feel like we need to have an episode all the time where we share tools...
 
@@ -670,7 +670,7 @@ Once you start recognizing those patterns (DW is Delete Word) it becomes much ea
 
 **Brian Ketelsen:** Holy cow... That's brave.
 
-**Kris Nova:** Yeah... I also write my own Git server, so...
+**Kris Nova:** Yeah... I also run my own Git server, so...
 
 **Erik St. Martin:** I have a lot of my [dotfiles](https://dotfiles.github.io/) publicly too, although I don't think I've updated them in a long time. I need to just wipe stuff and start over, and using the [Stow](https://www.gnu.org/software/stow/) tool that makes that really easy, too.
 
@@ -728,15 +728,15 @@ That's the disadvantage to crafting your own workspace and environment...
 
 **Erik St. Martin:** It drives me so nuts having to type out whole IPs, or trying to remember what they are, or host names...
 
-**Brian Ketelsen:** So I changed -- what's the new dmenu replacement we're using in Arch now? What is that...?
+**Brian Ketelsen:** So I changed -- what's the new `dmenu` replacement we're using in Arch now? What is that...?
 
 **Erik St. Martin:** Yeah...
 
-**Brian Ketelsen:** You know what I'm talking about... It's not dmenu, it's the replacement - what the heck is it called?
+**Brian Ketelsen:** You know what I'm talking about... It's not `dmenu`, it's the replacement - what the heck is it called?
 
-**Erik St. Martin:** Rofi.
+**Erik St. Martin:** `rofi`.
 
-**Brian Ketelsen:** Rofi, thank you. So I have a Rofi script that if I just hit alt+D in Arch and just type a hostname, it will automatically SSH to the hostname, and I did that with some Bash hackery.
+**Brian Ketelsen:** `rofi`, thank you. So I have a `rofi` script that if I just hit alt+D in Arch and just type a hostname, it will automatically SSH to the hostname, and I did that with some Bash hackery.
 
 **Erik St. Martin:** Oh, cool.
 
@@ -754,13 +754,13 @@ That's the disadvantage to crafting your own workspace and environment...
 
 **Kris Nova:** That's what I have now. I rarely actually get on my Arch Linux box; I'm usually just SSH-ed into it. But I ran Gnome for the longest time, and I think that's kind of like what I grew up with... But I'm just running this now because it was sort of the prettiest at the time.
 
-**Brian Ketelsen:** It's light, too. There's not a lot of heaviness in Xfce. I'm pretty sure Erik was the one who introduced me to i3, and once you go i3, you cannot go back. You really can't. It's the best windowing environment ever.
+**Brian Ketelsen:** It's light, too. There's not a lot of heaviness in Xfce. I'm pretty sure Erik was the one who introduced me to [i3](https://i3wm.org/), and once you go i3, you cannot go back. You really can't. It's the best windowing environment ever.
 
 **Erik St. Martin:** Oh, yeah... And just being able to quickly "hotkey" full-screen stuff, or... There's like a parent/child relationship, so you can have multiple windows set up, and they're kind of grouped into one container and you can just quickly kind of full-screen those two things at once.
 
 **Brian Ketelsen:** \[01:04:06.17\] Yeah, it's awesome. If you like tile-ing in any way, and keep shortcuts -- because once you go with i3, you could just throw your mouse away, because you don't need it. It's brilliant for command line text editor people.
 
-**Erik St. Martin:** Yeah, I think the only time I touch the mouse is when I'm a browser. That's it.
+**Erik St. Martin:** Yeah, I think the only time I touch the mouse is when I'm in a browser. That's it.
 
 **Brian Ketelsen:** Links for life. Just kidding... \[laughter\]
 
