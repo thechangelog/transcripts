@@ -150,7 +150,7 @@ I try very hard not to be prescriptive. My job is not to tell people how to do t
 
 So again, coming back to your question, all I do all day is ask questions. Let's say that someone comes to me and they're stuck; this happens -- not regularly, but with like a somewhat normal cadence, where maybe we're deadlocked on a decision, we don't know what to do, so when the team comes to me and they've decided "We want Julia to weigh in, because we don't know what to do." So the first thing that I do in all of those discussions is I start asking a lot of questions, because I probably don't have all the context.
 
-Most of the time -- and it's almost like \[unintelligible 00:38:29.06\] debugging the team. They come, and I just start asking questions. And usually through all the questions that I ask - and I'm not being prescriptive, I'm not telling them what to do - they come to a logical conclusion, and the team has decided how to effectively fix something themselves. I think that's fantastic, because in an ideal world, the team is able to function and make decisions, and I manage myself out of a job, meaning they don't need me, because they understand what they're doing, and they understand the business requirements, and they deeply know the purpose of what we're building.
+Most of the time -- and it's almost like I'm rubber duck debugging the team. They come, and I just start asking questions. And usually through all the questions that I ask - and I'm not being prescriptive, I'm not telling them what to do - they come to a logical conclusion, and the team has decided how to effectively fix something themselves. I think that's fantastic, because in an ideal world, the team is able to function and make decisions, and I manage myself out of a job, meaning they don't need me, because they understand what they're doing, and they understand the business requirements, and they deeply know the purpose of what we're building.
 
 Now, there's also a lot of situations where maybe I ask a lot of questions and it's a hard call, and I have to make a decision, and part of what I do as a now senior leader is when I do have to make a decision, I can ask questions rapidly and then be able to make the decision quickly... Because the last thing I would want to do is to block a team from being able to do something.
 
@@ -168,7 +168,7 @@ So the credibility comes through asking people and getting them to volunteer wha
 
 Cal even wrote a book about scaling PHP and how Flickr, the first consumer web startup of tremendous scale, how they went through that period. So when Cal and Serguei and Stewart Butterfield (our CEO), when they went to start Slack, they knew how to scale PHP. We have a large PHP monolith with many services that we've split out right now.
 
-We recently hired -- or actually, you know, all the years blend together now, but we have a chief architect, Keith Adams, and he came from Facebook; Facebook was also a really large PHP shop, and they then created the Hack language, and use HHVM (HipHop Virtual Machine)... So we are not transitioning to using Hack and HHVM. Fantastic, fantastic performance improvements there, as well as typing, as well as many of the affordances of modern languages.
+We recently hired -- or actually, you know, all the years blend together now, but we have a chief architect, Keith Adams, and he came from Facebook; Facebook was also a really large PHP shop, and they then created the Hack language, and use HHVM (HipHop Virtual Machine)... So we are now transitioning to using Hack and HHVM. Fantastic, fantastic performance improvements there, as well as typing, as well as many of the affordances of modern languages.
 
 \[00:44:19.20\] We tend to, at Slack, use boring technology, and part of the reason for that - and I say boring with so much love - is because we have to know how to operate the technologies that we use at incredible, incredible scale, and so we don't want to be on the bleeding edge, because we have to have incredibly high uptime, because we have so many companies, from the NASAs of the world, to Capital One, to IBM, to eBay - all of these companies run the backbone of their business on Slack, and we can never ever go down.
 
@@ -180,11 +180,11 @@ In the early days of having services, that we've either split off or that were a
 
 So we use Slack every day, almost all day, every day, and you mentioned it always has to be up... Like, I can't think of a time -- I think there was one time when Slack was down... I'm just trying to think if you had any real bad days.
 
-Another one of our often used services is Twitter, and they historically have had many bad days, and we even lovingly think of the \[unintelligible 00:47:18.23\] of years past...
+Another one of our often used services is Twitter, and they historically have had many bad days, and we even lovingly think of the Fail Whale of years past...
 
 **Julia Grace:** Oh, yes...
 
-**Jerod Santo:** Actually, Twitter had some downtime maybe last week, and \[unintelligible 00:47:25.17\] But Slack really hasn't had... I mean, Adam, can you think of a time where it was just like, "Well, Slack's down... I guess we'll just e-mail each other"?
+**Jerod Santo:** Actually, Twitter had some downtime maybe last week, and I noticed the Fail Whale was gone. It's like a weird Octocat looking thing instead. I was like, "That's not endearing, give us the Fail Whale." But Slack really hasn't had... I mean, Adam, can you think of a time where it was just like, "Well, Slack's down... I guess we'll just e-mail each other"?
 
 **Adam Stacoviak:** No, I don't. The only thing I would really ever notice - and this isn't a dig - is just maybe slower service, not down service... Which could be - but isn't - as bad.
 
