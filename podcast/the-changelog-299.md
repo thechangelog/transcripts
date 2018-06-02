@@ -1,6 +1,6 @@
 **Jerod Santo:** Daniel, we last had you on the Changelog when curl was 17 years old. Now curl has turned 20, and a lot has changed in those three years... But I think we should start with this quote from a tweet that you put out recently, which I loved and we retweeted, which said "20 years of maintaining open source, and all I ever got is an awesome career, friends all over the world, and a gold medal from the Swedish king." You've gotta start with the gold medal, right? Get to the important stuff first. Tell us this story.
 
-**Daniel Stenberg:** So I was awarded an engineering price in Sweden. It's named after a Swedish engineer called the Polhem Prize. It's an old, distinguished prize that they have been handing out for I think 120 years or so. Really a prestigious prize, given out to engineers and inventors of different things over the years.
+**Daniel Stenberg:** So I was awarded an engineering prize in Sweden. It's named after a Swedish engineer called the Polhem Prize. It's an old, distinguished prize that they have been handing out for I think 120 years or so. Really a prestigious prize, given out to engineers and inventors of different things over the years.
 
 In 2017 I was awarded and given this prize, and it comes in the form of a gold medal and a cash part.
 
