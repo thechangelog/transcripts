@@ -52,7 +52,7 @@
 
 **Julia White:** No, no. Well, back when I started 17 years ago I remember we had the anti-Linux campaign. It was one of the big -- I remember the guy leading it, and it was like "Linux is free like a puppy", all those crazy campaigns. And it's so funny now, I remember I did the Red Hat keynote three years ago now, and I remember thinking "God, that's different." Like, "Here I am, talking about our great partnership" and "This is amazing!" and "We love Linux!", and 17 years from now it was a very different thing... Just a big shift.
 
-I think there was always energy there, but it was just a strong \[unintelligible 00:05:34.08\] "Windows or bust! Windows or bust!", and now we recognize that's just not reality, and we don't need to do that. We wanna be wherever our customers are.
+I think there was always energy there, but it was just a strong mantra of like, ya know, "Windows or bust. Windows or bust.", and now we recognize that's just not reality, and we don't need to do that. We wanna be wherever our customers are.
 
 **Adam Stacoviak:** Do you have any insight into the "Windows or bust" mentality now? Like, what the perspective is on Windows in comparison to, say, "The world is a computer." Windows is a part of that "World is a computer", but not THE computer. It seems like Azure, which you run, is the computer.
 
