@@ -1,6 +1,6 @@
-**Adam Stacoviak:** Let's start by going back a little further, maybe to the beginning \[unintelligible 00:02:18.25\]
+**Adam Stacoviak:** Let's start by going back a little further, maybe to the beginning of the cloud and what seems like a story of the begining.
 
-**Julia White:** Oh, well...
+**Julia White:** Oh, wow.
 
 **Adam Stacoviak:** It was...
 
@@ -10,7 +10,7 @@
 
 **Jerod Santo:** I'm just kidding. \[laughter\]
 
-**Adam Stacoviak:** It was Satya's first CEO appearance, roughly, unveiling what I think -- so I'm hoping you can share more of the story... It seems like maybe that was the beginning of what is now Microsoft's Cloud. Office was the first thing rolling out in terms of a cloud-based application to different devices, you were his co-presenter...
+**Adam Stacoviak:** It was Satya's first CEO appearance, roughly, unveiling what I think -- so I'm hoping you can share more of the story... It seems like maybe that was the beginning of what is now Microsoft's cloud. Office was the first thing rolling out in terms of a cloud-based application to different devices, you were his co-presenter...
 
 **Julia White:** Oh, that day, yes.
 
