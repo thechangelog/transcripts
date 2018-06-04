@@ -32,9 +32,9 @@ If your talk was denied, you could probably blame him,
 
 But he wins major cred, cuz he talks about Vim.
 
-Next, Alex Sexton - he's a real start,
+Next, Alex Sexton - he's a real star,
 
-Probably representing the JS Party, oh god!
+Proudly representing the JS Party Old Guard!
 
 Leading the way with Modernizr and jQuery,
 
@@ -54,7 +54,7 @@ Through today's episode I'm the one who'll be steering,
 
 Helping things along if they start to stall,
 
-Your MC, please to meet you. I go by Kball."
+Your MC, please to meet you. I go by KBall."
 
 **Nick Nisi:** Amazing.
 
