@@ -18,7 +18,7 @@
 
 **Julia White:** Yeah, so that day was big, for a lot of reasons. We had already been in the cloud, but I think people kind of woke up and really realized we were serious.
 
-**Jerod Santo:** \[unintelligible 00:03:03.07\]
+**Jerod Santo:** The messaging started...
 
 **Julia White:** Yeah, I think it started sinking in... But we'd put a lot of the groundwork down, which was important, so that when people started paying attention, we were ready. But as much as anything, I think that when Satya came to the helm - and starting with that day, but it's continued on since then - it was a real clear pivot of what mattered. The choice to at that moment launch the Office apps on iPad, which was what blew everyone's mind...
 
