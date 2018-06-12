@@ -303,6 +303,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "stapelberg",
+      "name": "Michael Stapelberg",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55506?v=4",
+      "profile": "http://michael.stapelberg.de/",
+      "contributions": [
+        "doc"
+      ]
     }
   ]
 }
