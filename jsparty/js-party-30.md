@@ -1,5 +1,3 @@
-\[00:00:24.24\] to \[00:01:50.02\]
-
 **Nick Nisi:** Hello and welcome to another episode of JS Party, where it's a party every week with Javascript. I'll be your host today, Nick Nisi, and I'm joined with my fellow panelists, Suz Hinton - hey, Suz.
 
 **Suz Hinton:** Hey, how's it going? It's good to be back.
@@ -202,7 +200,7 @@ Another thing that's kind of related to that, although not really, is you can pa
 
 **Suz Hinton:** I feel like we all learned something from each other.
 
-**Break:** \[00:30:52.02\] to \[00:32:26.09\]
+**Break:** \[00:30:52.02\]
 
 **Nick Nisi:** What are some cool things that Javascript can do that maybe aren't really apparent to others? Or going along with the topic of tips and tricks, some really cool things that Javascript the language can do? Jerod, do you want to start off there?
 
@@ -350,7 +348,7 @@ So you can say, for example, const \[unintelligible 00:46:34.20\] and then call 
 
 **Nick Nisi:** Yeah, I agree with that. The benefit of that is it's not creating the variable, and especially if you're using something like const, you're not locking that variable in the scope to be that value... So there's one nice caveat to it. But you're right, it does look a little bit like a syntax error when you first look at it.
 
-**Break:** \[00:49:07.09\] to \[00:49:42.04\]
+**Break:** \[00:49:07.09\]
 
 **Nick Nisi:** Alright, so let's talk about clean Git history. This is an article that changelog.com actually posted I don't know when exactly, but a little while ago... It's an article from GitLab called "Keeping your Git history clean, or how and why you would want to." I thought it'd be an interesting topic to go over. While it's not Javascript-specific, it is something that we all typically have to work with, especially if we're dealing with Git, which it seems like everyone is at this point.
 
