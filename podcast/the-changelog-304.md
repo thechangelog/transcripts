@@ -180,7 +180,7 @@ I feel like there's constructs that are still missing, and frankly, we're workin
 
 **Corey Sanders:** That's right. Nanoseconds... \[laughter\] That's right.
 
-**Jerod Santo:** And then picoseconds... \[unintelligible 00:15:35.27\] Give me some pico.
+**Jerod Santo:** And then picoseconds... I don't know what comes after nano... \[laughter\] Give me some pico.
 
 **Adam Stacoviak:** Either way, it's getting smaller, so keep it going.
 
