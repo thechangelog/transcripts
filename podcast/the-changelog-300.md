@@ -242,7 +242,7 @@ So yeah, corporations are gonna go out and do that. I'm not surprised. Are you s
 
 **Adam Stacoviak:** I see.
 
-**Zed Shaw:** Node.js started with a piece of my code, and then right after that they needed a new license, so rather than pay me for the license, they created a separate project that just had my code in it, and then \[unintelligible 00:32:26.23\] e-mailed me and he's like "Hey buddy, can you just give me a free license for this?" Like, why are they trying to steal it from me? They could have just paid me, and I would have been like "Cool, just pay me and I'll do a new license, and we're done." This is capitalism - contracts, paying money, exchanges... That's how it works, right?
+**Zed Shaw:** Node.js started with a piece of my code, and then right after that they needed a new license, so rather than pay me for the license, they created a separate project that just had my code in it, and then Ryan Dahl e-mailed me and he's like "Hey buddy, can you just give me a free license for this?" Like, why are they trying to steal it from me? They could have just paid me, and I would have been like "Cool, just pay me and I'll do a new license, and we're done." This is capitalism - contracts, paying money, exchanges... That's how it works, right?
 
 So my problem with it is that if it's right for corporations to be making money, it should be right for us to make money, but that's not what's happening. There's something else going on, and it's taken me a while to sort of figure out that really this is sort of a strategy among corporations to kind of do three things at once. And these are three things that actually happened to me, or that are happening; it has been really easy to find it.
 
