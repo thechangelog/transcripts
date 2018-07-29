@@ -68,7 +68,7 @@ I'm just gonna start with the first one on the list, which actually is from a co
 
 **Brian Ketelsen:** That's why I was trying to port forward a minute ago... So when I moved into my new house last year (right around this time) I lost the remote to my television. And I am cheap, and lazy, and did not want to get a new television. So I was googling around for interesting things to do, and I just started googling for the model number of my television, and it turns out that there is a home automation interface on the TV that is 100% unsecured over TelNet... And we don't need to get started about being unsecure over TelNet, but there is one - you have to explicitly enable it... It comes shipped off, so I had to turn it on. But once I did turn it on, now I have a TelNet prompt on my television.
 
-\[00:04:30.12\] So I hacked up a tiny Go program - it's at GitHub.com/bketelsen/TV, and using it, you can send commands to my television to turn it on and off, turn the volume up and down and change the input sources. So from my laptop I control my television... And it really is a tiny amount of code, and I was gonna port forward that port on my home router so that everybody could play and turn on the TV and turn the volume up and down... But I just realized the IP address of my TV has changed and I don't know what it is without going out to the television to find it, so we won't play the "Everybody screw up Brian's TV game right now...", but that would have been fun.
+\[00:04:30.12\] So I hacked up a tiny Go program - it's at [github.com/bketelsen/TV](https://github.com/bketelsen/tv), and using it, you can send commands to my television to turn it on and off, turn the volume up and down and change the input sources. So from my laptop I control my television... And it really is a tiny amount of code, and I was gonna port forward that port on my home router so that everybody could play and turn on the TV and turn the volume up and down... But I just realized the IP address of my TV has changed and I don't know what it is without going out to the television to find it, so we won't play the "Everybody screw up Brian's TV game right now...", but that would have been fun.
 
 **Erik St. Martin:** \[laughs\] You get props for trying.
 
@@ -78,13 +78,13 @@ I'm just gonna start with the first one on the list, which actually is from a co
 
 **Carlisia Pinto:** I don't recall anything odd or weird or stupid... I don't know, maybe I just don't pay attention, but I don't recall...
 
-**Erik St. Martin:** So I've got one... I don't know whether I would call it weird, but definitely something I didn't expect to find written in Go. It was a while back, and I think we might have even mentioned it on the show. There was a project called Fergulator, which was a Nintendo emulator written in Go. That was really cool, I didn't expect to see that written in Go, especially so early in Go's life. Now, how about the next one...
+**Erik St. Martin:** So I've got one... I don't know whether I would call it weird, but definitely something I didn't expect to find written in Go. It was a while back, and I think we might have even mentioned it on the show. There was a project called [Fergulator](https://github.com/scottferg/Fergulator), which was a Nintendo emulator written in Go. That was really cool, I didn't expect to see that written in Go, especially so early in Go's life. Now, how about the next one...
 
 **Adam Stacoviak:** I don't have an answer here?
 
 **Erik St. Martin:** Hey, yes... You're familiar with Go projects.
 
-**Adam Stacoviak:** Yeah, I know the Go world a little bit. I was actually really excited to see, and I thought it was a little weird - I didn't expect it, so that's why it's weird, but it's not a weird thing... It's Rooby, the Ruby lang written in Go. I think that's kind of interesting, to take Go and write an object-oriented language on top of it. I just thought that was unexpected, out of left field.
+**Adam Stacoviak:** Yeah, I know the Go world a little bit. I was actually really excited to see, and I thought it was a little weird - I didn't expect it, so that's why it's weird, but it's not a weird thing... It's [Rooby](https://github.com/rooby-lang/rooby), the Ruby lang written in Go. I think that's kind of interesting, to take Go and write an object-oriented language on top of it. I just thought that was unexpected, out of left field.
 
 **Carlisia Pinto:** I'll just plus one that, can I? Because I thought the same. And by the way, do you wanna introduce yourself?
 
@@ -108,7 +108,7 @@ I like meeting people. I love the hacker community, it's a lot of fun to do this
 
 **Adam Stacoviak:** Sometimes.
 
-**Carlisia Pinto:** And Adam will also be at GopherCon.
+**Carlisia Pinto:** And Adam will also be at [GopherCon](https://www.gophercon.com).
 
 **Adam Stacoviak:** Yeah, I'll be at GopherCon. I usually have random jobs there... Sometimes I grab the trash \[laughter\], I help out the staff, other times I have a camera in my hand. And sometimes I'm just standing there with a weird face, because I don't know what's going on, but I try... Anyways, Rooby - pretty interesting, written in Go.
 
@@ -138,11 +138,11 @@ We keep seeing a little bit of hints at it on the phone and on embedded devices,
 
 **Adam Stacoviak:** We'll laugh now. What did you say?
 
-**Brian Ketelsen:** I said that you were the prince of podcasts, the royalty of radio, and the \[unintelligible 00:09:19.03\] of open source.
+**Brian Ketelsen:** I said that you were the prince of podcasts, the royalty of radio, and the Ocelot of open source.
 
 **Adam Stacoviak:** Whooow, okay... That's pretty interesting.
 
-**Brian Ketelsen:** I thought that was pretty good, because I couldn't think of anything that was royalty that started with an O, and I needed to get open source in there, so you're an \[unintelligible 00:09:30.09\]
+**Brian Ketelsen:** I thought that was pretty good, because I couldn't think of anything that was royalty that started with an O, and I needed to get open source in there, so you're an Ocelot.
 
 **Adam Stacoviak:** That's good. Yeah, I like that. I dig it.
 
@@ -158,7 +158,7 @@ We keep seeing a little bit of hints at it on the phone and on embedded devices,
 
 **Adam Stacoviak:** What do you think is perpetuating that?
 
-**Brian Ketelsen:** Single binary deploy... If you've ever tried to administer a Kafka cluster, or a ZooKeeper cluster, or any of that... I mean, just the whole deploying JVM requires a masters degree in deploying JVMs.
+**Brian Ketelsen:** Single binary deploy... If you've ever tried to administer a [Kafka](https://kafka.apache.org) cluster, or a [ZooKeeper](https://zookeeper.apache.org) cluster, or any of that... I mean, just the whole deploying JVM requires a masters degree in deploying JVMs.
 
 **Adam Stacoviak:** Wow, that's a shame.
 
@@ -174,7 +174,7 @@ We keep seeing a little bit of hints at it on the phone and on embedded devices,
 
 I don't think Go is going to be the homogeneous, THE language that's going to be used - that will never happen, no matter what the language is, because it doesn't even make sense - but I think it will take up chunks and enough to be the dominant language, because of all the attributes that Go has.
 
-Now, in the next two years what I see happening, with Steve Francia coming on board to be the sort of like product manager - he has a different title, but that's one idea of what he does - and the Development Working Group coming together, I think these next four years we're going to see a lot of changes in terms of making Go easier to onboard people. I don't know this for a fact, but I expect that the website is going to be redone and be friendlier, I expect more training material, I expect training material for different levels of developers - developers that are brand new programmers, developers who are experienced programmers but wanna learn Go... So that's what I expect is gonna happen in the next two years. And once that is in place, the adoption is gonna be exponential, even more than it is now.
+Now, in the next two years what I see happening, with [Steve Francia](https://twitter.com/spf13) coming on board to be the sort of like product manager - he has a different title, but that's one idea of what he does - and the Development Working Group coming together, I think these next four years we're going to see a lot of changes in terms of making Go easier to onboard people. I don't know this for a fact, but I expect that the website is going to be redone and be friendlier, I expect more training material, I expect training material for different levels of developers - developers that are brand new programmers, developers who are experienced programmers but wanna learn Go... So that's what I expect is gonna happen in the next two years. And once that is in place, the adoption is gonna be exponential, even more than it is now.
 
 **Erik St. Martin:** How about you, Adam? Do you wanna take a stab at this?
 
@@ -190,17 +190,17 @@ Now, in the next two years what I see happening, with Steve Francia coming on bo
 
 **Erik St. Martin:** This was on Slack. I think we were just chatting back and forth...
 
-**Adam Stacoviak:** Gotcha. I'm gonna summarize it, basically... "Bringing up the Gopher Review Channel would be cool. I think not a lot know that you can get full-on code reviews/help. Also how Johnny was talking about naming conventions and using more descriptive names as you get further away from the declarative...", then of course barbecue... They just wanna talk about barbecue. \[laughter\]
+**Adam Stacoviak:** Gotcha. I'm gonna summarize it, basically... "Bringing up the [Gopher Review Channel](https://gophers.slack.com/messages/goreviews/) would be cool. I think not a lot know that you can get full-on code reviews/help. Also how Johnny was talking about naming conventions and using more descriptive names as you get further away from the declarative...", then of course barbecue... They just wanna talk about barbecue. \[laughter\]
 
 So let's start with the first one, which was the Gopher Review Channel - what is this?
 
 **Erik St. Martin:** I guess we'll start there... That's more of an awareness thing. So on the Gophers Slack there is a Reviews Channel with lots of people who just camp out there and are happy to do code reviews for you. So definitely reach out with problems and questions there, and send them your code. Lots of people love to provide feedback... So yeah, that's an awareness thing more than it is a question for everybody.
 
-\[00:16:08.00\] And then Johnny Boursiquot was talking about naming conventions... The other day we were talking about whether or not we should have one-letter variable names and things, and those are some of the topics we discussed in those few channels. Basically, this was like the closer you get to the scope where you define a variable, the less descriptive they can be.
+\[00:16:08.00\] And then [Johnny Boursiquot](https://twitter.com/jboursiquot) was talking about naming conventions... The other day we were talking about whether or not we should have one-letter variable names and things, and those are some of the topics we discussed in those few channels. Basically, this was like the closer you get to the scope where you define a variable, the less descriptive they can be.
 
 **Brian Ketelsen:** Yeah, that's actually in the Go styleguide, by the way.
 
-**Erik St. Martin:** Oh yeah, that's right, it is. And then the third part of it was more on a personal note, and that was barbecue, "What is your preferred cut of meat and wood type for smoking? Just sayin'..."
+**Erik St. Martin:** Oh yeah, that's right, it is. And then the third part of it was more on a personal note, and that was barbecue, "What is your preferred [cut of meat](http://www.chicagomeat.com/wp-content/uploads/2014/12/cow1.png) and wood type for smoking? Just sayin'..."
 
 **Brian Ketelsen:** That's a good one.
 
@@ -228,9 +228,9 @@ So let's start with the first one, which was the Gopher Review Channel - what is
 
 **Adam Stacoviak:** That is so funny... There's literally a place here in Houston - and a street - called Post Oak.
 
-**Erik St. Martin:** And then Georgia uses a lot of \[unintelligible 00:18:29.00\] and stuff like that. So a lot of people use what's nearby.
+**Erik St. Martin:** And then Georgia uses a lot of peach tree and stuff like that. So a lot of people use what's nearby.
 
-**Brian Ketelsen:** And that availability of wood shapes the regional flavors, too. In Texas, the regional flavors are sharper because of the woods that are available in South Carolina. They're more sweet because of the woods that are available.
+**Brian Ketelsen:** And that availability of wood shapes the regional flavors, too. In Texas, the regional flavors are sharper because of the woods that are available and in South Carolina they're more sweet because of the woods that are available.
 
 **Adam Stacoviak:** So that's why when you travel food tastes different, especially if it's smoked, in this case... Or at least barbecue tastes different. Because when you come to Texas, you come for steaks and you come for barbecue. There's no other reason to come.
 
@@ -402,7 +402,7 @@ I need to have headphones on my ears. I don't care if there is music playing... 
 
 **Carlisia Pinto:** Yeah, Spotify.
 
-**Adam Stacoviak:** I've gotten into brain food, personally... For me, (on the music front, at least) I will listen to some type of electronic music. For a while I was just listening to electroNOW, but then I found myself getting upset, and I'm like "Why am I getting upset? What's angering me?", and it's the music, because it's too repetitive and it's too beaty. So I switched over to brain food; it's the same thing, but a bit more... It's kind of like sleep music, but work music mixed, and it's kind of relaxing but yet motivating. I don't know how I get it, but... Yeah, I'm with you though. Some sort of house music is kind of cool too, because you can have like a "m-tz m-tz m-tz..." or something like that. I'm assuming - is that how house music goes, or am I wrong? Want me to do that again? "m-tz m-tz m-tz..."
+**Adam Stacoviak:** I've gotten into [brain food](https://play.spotify.com/user/spotify/playlist/37i9dQZF1DWXLeA8Omikj7?play=true&utm_source=open.spotify.com&utm_medium=open), personally... For me, (on the music front, at least) I will listen to some type of electronic music. For a while I was just listening to electroNOW, but then I found myself getting upset, and I'm like "Why am I getting upset? What's angering me?", and it's the music, because it's too repetitive and it's too beaty. So I switched over to brain food; it's the same thing, but a bit more... It's kind of like sleep music, but work music mixed, and it's kind of relaxing but yet motivating. I don't know how I get it, but... Yeah, I'm with you though. Some sort of house music is kind of cool too, because you can have like a "m-tz m-tz m-tz..." or something like that. I'm assuming - is that how house music goes, or am I wrong? Want me to do that again? "m-tz m-tz m-tz..."
 
 **Brian Ketelsen:** "pum-chick pum-chick pum-chick."
 
@@ -412,7 +412,7 @@ I need to have headphones on my ears. I don't care if there is music playing... 
 
 **Adam Stacoviak:** You lost me.
 
-**Erik St. Martin:** I'll look it up, it's hilarious... He starts imitating how techno music goes...
+**Erik St. Martin:** I'll look it up, it's hilarious... He starts [imitating how techno music goes](https://www.youtube.com/watch?v=O4gqsuww6lw)..
 
 **Adam Stacoviak:** That's so funny though, Carlisia with the headphones... Like, even if there's no music, you've gotta have them on.
 
@@ -458,7 +458,7 @@ The weird thing is is there's usually always something, and EDM. Almost everybod
 
 **Brian Ketelsen:** There is no other band.
 
-**Adam Stacoviak:** There is no other band. That is the best. If you haven't listened to Dream Theater in a while, it's the best. Did you all know -- this is a side topic, and I'm sorry to take it there... But Katrina Owen - her husband (or boyfriend, I'm not sure which it is) is a phenomenal drummer... Did you all know that?
+**Adam Stacoviak:** There is no other band. That is the best. If you haven't listened to Dream Theater in a while, it's the best. Did you all know -- this is a side topic, and I'm sorry to take it there... But [Katrina Owen](https://twitter.com/kytrinyx) - her husband (or boyfriend, I'm not sure which it is) is a phenomenal drummer... Did you all know that?
 
 **Carlisia Pinto:** No, I did not know that.
 
@@ -472,7 +472,7 @@ The weird thing is is there's usually always something, and EDM. Almost everybod
 
 **Brian Ketelsen:** We just did mine. Dream Theater. And honestly, it's probably the same reason that people like EDM. For me it's the complex beats, complex rhythms, complex key signatures... I need something to distract a part of my brain so I can work, and that's what it boils down to for me. I have to distract some other thing, so that I can get work done. It's probably an ADD thing.
 
-**Carlisia Pinto:** For me, I'm not super educated as far as music goes and styles, and I'm sure that there's styles out there that I would love, but I just haven't looked yet. I don't geek out on music so much, just because I wanna be practical... It's like, "Oh, this works... I don't have time." But I cannot listen to music that has lyrics. I love Guns 'n Roses, but it won't work for me if I'm coding, because I'll be paying attention to the lyrics, it sounds so nice, so I get distracted. So what I like to listen to is house music, heavy metal - Black Sabbath, Sepultura... Things like that.
+**Carlisia Pinto:** For me, I'm not super educated as far as music goes and styles, and I'm sure that there's styles out there that I would love, but I just haven't looked yet. I don't geek out on music so much, just because I wanna be practical... It's like, "Oh, this works... I don't have time." But I cannot listen to music that has lyrics. I love Guns 'n Roses, but it won't work for me if I'm coding, because I'll be paying attention to the lyrics, it sounds so nice, so I get distracted. So what I like to listen to is house music, heavy metal - Black Sabbath, Sepultura, things like that.
 
 **Brian Ketelsen:** Nice...
 
@@ -566,7 +566,7 @@ But really, in terms of resources, everything you need is in the standard librar
 
 **Erik St. Martin:** I like to have at least two people review, a fresh pair of eyes... Hopefully one is at least familiar with the domain, which... Those people usually, because they're not trying to learn the domain of what you're doing, are typically looking for style and things like code correctness, and I like to have somebody who's not familiar with the domain, because then they make me question my implementation... Like, "Is this the right route? Did I even need to build this?" and things like that. Often, you get too close to the problem.
 
-There's some cool tools too, like ReviewDog, which can automatically do some stuff. There's the gometalinter that can catch a lot of stuff as far as stylistic things, idiomatic Go.
+There's some cool tools too, like ReviewDog, which can automatically do some stuff. There's the `gometalinter` that can catch a lot of stuff as far as stylistic things, idiomatic Go.
 
 **Brian Ketelsen:** I hate relying on those automated tools though, because they don't bring any domain knowledge, and they don't bring any logic or reason to the code review. I think they should be part of your CI system. You shouldn't be able to just paste sloppy code into an editor and expect that to go to production, but there has to be a human looking at that code and saying "You know, it makes zero sense to allocate this variable 57 times, when you could have done it outside the loop." And those are things that the linters don't always catch.
 
@@ -574,7 +574,7 @@ There's some cool tools too, like ReviewDog, which can automatically do some stu
 
 **Adam Stacoviak:** On that note, you've got this library that's pretty popular in Javascript right now, called Prettier, and I think that's kind of what the purpose of that is. It's basically like, you write sloppy code and it cleans it up for you... So you're against that style of programming?
 
-**Brian Ketelsen:** I'm not against any style of code review tools that reduce the ugliness of your code and reduce computer catchable errors, I'm just saying that that should be the first preliminary step. There should be a human behind that, actually looking at the code nicely. Just counting on govet or on the gometalinter isn't enough.
+**Brian Ketelsen:** I'm not against any style of code review tools that reduce the ugliness of your code and reduce computer catchable errors, I'm just saying that that should be the first preliminary step. There should be a human behind that, actually looking at the code nicely. Just counting on `govet` or on the `gometalinter` isn't enough.
 
 **Erik St. Martin:** Anybody else have anything they wanna throw in there? Or next question...
 
@@ -596,7 +596,7 @@ I think that makes wonderful sense - admit what you don't know, and own what you
 
 **Adam Stacoviak:** You know, the thing too is people fear that kind of stuff. I'm there too, but you just can't live in fear of judgment from other people, and it's so easy to say that and not live it, but that truly is the way out of impostor syndrome. It's like, care about how people feel about you, I guess, but don't make it so important to you that you become paralyzed to do something. Don't let fear of the crowd or fear of the impression of anybody pull you down. Just bypass it.
 
-**Erik St. Martin:** \[00:48:05.21\] So I happened to see a tweet last night too, and it was funny... The Hip-Hop group D12 actually tweeted this.
+**Erik St. Martin:** \[00:48:05.21\] So I happened to see a tweet last night too, and [it was funny](https://twitter.com/d12/status/857417347224809473). The Hip-Hop group D12 actually tweeted this.
 
 **Adam Stacoviak:** What...?
 
@@ -756,7 +756,7 @@ I do lots of stuff. Talk on the mic, podcast, write scripts, order T-shirts, pas
 
 The software itself was written in C++... There was a question about all Go. I primarily work in Go; occasionally, I have to patch that software, but mostly another team works on that that's written in C++. But a lot of what I do is design and build the orchestration system surrounding that - how those video streams get deployed, how they fail over when a blade goes down or an entire head end goes down, and things like that.
 
-Anybody who's really interested in that, I actually did a talk back in November at KubeCon about this project, as we're kind of rolling out IP and how to leverage the same networks. That's actually on YouTube, if anybody is actually really interested in it. But yeah... Mostly Go, mostly Kubernetes, and containers... I'm fortunate enough that they let me work on patches to Kubernetes and Docker that help support some of the stuff we're wanting to do.
+Anybody who's really interested in that, I actually did a talk back in November at KubeCon about this project, as we're kind of rolling out IP and how to leverage the same networks. [That's actually on YouTube](https://www.youtube.com/watch?v=7g4da6-JXfE), if anybody is actually really interested in it. But yeah... Mostly Go, mostly Kubernetes, and containers... I'm fortunate enough that they let me work on patches to Kubernetes and Docker that help support some of the stuff we're wanting to do.
 
 **Brian Ketelsen:** And not just little patches either... Gigantic patches, awesome patches.
 
@@ -770,7 +770,7 @@ Anybody who's really interested in that, I actually did a talk back in November 
 
 We also don't do that show live, so it's... I don't think we can get the same kind of conversation if the show was live. When you do a show live like GoTime, you kind of have to inherit some things like, well, people are gonna be hanging out on Slack, and that's part of the show. It may not end up in the show, but it reflects and helps give the show some attributes and attitude, so to speak. You can tell a live show versus a non-live show.
 
-We just figured with GoTime it would be best to start doing it live, and that's one big thing. So the way we do that, I guess the technical pieces of that - we have a web service WaveStreamer, and we point Nicecast to it, and we just broadcast everybody here to that. That's the easiest way to describe that.
+We just figured with GoTime it would be best to start doing it live, and that's one big thing. So the way we do that, I guess the technical pieces of that - we have a web service called WaveStreamer, and we point Nicecast to it, and we just broadcast everybody here to that. That's the easiest way to describe that.
 
 It works... I wouldn't say it's my favorite way of doing it, but it does work and it's been reliable. We only had one issue, and it was a user error (my error). The time we had those live issues, it was not tech fault, it was Adam's fault... I was an idiot.
 
@@ -778,13 +778,13 @@ It works... I wouldn't say it's my favorite way of doing it, but it does work an
 
 We track it into there, it's multichannel, so I'm in my own channel; Erik, Brian and Carlisia - they're in their own channels, so I can independently move around the timeline and make edits, and independently EQ or level each individual guest. That's why it's a little easier having crappier mics. Most of our guests don't have professional mic's like we all do. They tend to be whatever headsets. You make that better by isolating it to its own channel, and you can then finetune it. Now, you can't correct it to make it a better mic, but it's one way we combat having bad sounding shows, by this process.
 
-There's other ways to do podcasting. There's services out there that do some of this stuff... We've been educated what those services are and how they work and how they're better, but this is how we do it and this is how we like it... So there you. That's pretty much it... What else can I share? What do you think?
+There's other ways to do podcasting. There's services out there that do some of this stuff... We've been educated what those services are and how they work and how they're better, but this is how we do it and this is how we like it... So there you go. That's pretty much it... What else can I share? What do you think?
 
 **Erik St. Martin:** I'd like to give a shoutout to the unsung heroes.
 
 **Adam Stacoviak:** Oh yeah, please.
 
-**Erik St. Martin:** Behind the scenes Adam comes in, but Jerod Santo also, from Changelog. He's always behind the scenes and he's throwing in ideas.
+**Erik St. Martin:** Behind the scenes Adam comes in, but [Jerod Santo](https://twitter.com/jerodsanto) also, from Changelog. He's always behind the scenes and he's throwing in ideas.
 
 **Adam Stacoviak:** Santo.
 
@@ -834,7 +834,7 @@ Now, we don't produce the live version as a produced version... It's just meant 
 
 **Adam Stacoviak:** And appreciate it -- I mean, we love it and appreciate it. It wouldn't be this show if we didn't have the GoTime FM channel and those who hang out there every single week. It's awesome.
 
-**Erik St. Martin:** And then the other person would be Breakmaster Cylinder who does our intro music.
+**Erik St. Martin:** And then the other person would be [Breakmaster Cylinder](https://twitter.com/BrkmstrCylinder) who does our intro music.
 
 **Adam Stacoviak:** Breakmaster Cylinder... Yeah, Breakmaster is very fun to work with, very awesome to work with, and is relentless... And I say that with capital letters, underlined, bolded - RELENTLESS with delivering the best stuff. What I mean by that is attention to detail; he wants us to be happy... Like, "Did it work out great? Does the community love his updated version of the...?" which is essentially inspired by the original. For those who went back to episode one through maybe 20, you'll hear one version of the intro music (our theme music), and the second version, which is Breakmaster Cylinder. When we did a rebrand, we went back and updated all of our music, and that's why you hear that Changelog's music is different as well. We wanted a certain thread between all of our music, and Breakmaster is awesome.
 
@@ -854,7 +854,7 @@ I think Brian and I probably need to do a post just kind of shouting out to all 
 
 **Erik St. Martin:** Alright, so with that and our 12 minutes over, let's close this thing out. Thank you to everybody for being on the show and sharing your own personal thoughts, and huge thank you to Adam for actually coming out from behind the curtain. We've tried so long to get him to come out and talk on the show... Thanks to all the listeners and everybody who submitted questions for today, and even if we didn't get to your question, we will hang on to those and maybe we can do an AMA periodically with those. Definitely a huge thank you to Toptal, our sponsor.
 
-Share the show with friends and co-workers. An easy way to subscribe is GoTime.fm. We're @GoTimeFM on Twitter, and if you wanna be on the show, have suggestions for guests or questions for the hosts, hit us up on GitHub.com/GoTimeFM/ping. With that, goodbye everybody. See you next week!
+Share the show with friends and co-workers. An easy way to subscribe is go to [GoTime.fm](https://changelog.com/gotime). We're on [Twitter](https://twitter.com/GoTimeFM), and if you wanna be on the show, have suggestions for guests or questions for the hosts, [ping](https://github.com/GoTimeFM/ping) us. With that, goodbye everybody. See you next week!
 
 **Adam Stacoviak:** Later!
 
