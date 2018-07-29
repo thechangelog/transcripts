@@ -28,7 +28,7 @@
 
 **Marc-Antoine Ruel:** Exactly. So yeah, I'm Marc-Antoine, I've been working at Google for 10 years now. Before that I used to work with many different companies that failed in various ways. Interestingly, I work in Python most of my job, but I really like doing Go, so for personal projects I do Go projects.
 
-The one that has been the most popular is panicparse, which is a very simple tool to process stack traces. That's pretty much it. I live in the Ottawa region in Canada. It's a pretty nice region, I really love it here.
+The one that has been the most popular is [panicparse](https://github.com/maruel/panicparse), which is a very simple tool to process stack traces. That's pretty much it. I live in the Ottawa region in Canada. It's a pretty nice region, I really love it here.
 
 **Erik St. Martin:** Excellent.
 
@@ -56,7 +56,7 @@ In Canada the difference is that if you're rich you don't actually get to get th
 
 **Brian Ketelsen:** It is a very tough day.
 
-**Erik St. Martin:** So on a more exciting note, your project Periph -- I'm gonna say Periph.io... It rolls off the tongue better than just Periph, I think.
+**Erik St. Martin:** So on a more exciting note, your project Periph -- I'm gonna say [Periph.io](https://periph.io/)... It rolls off the tongue better than just Periph, I think.
 
 **Marc-Antoine Ruel:** That's true.
 
@@ -64,7 +64,7 @@ In Canada the difference is that if you're rich you don't actually get to get th
 
 **Carlisia Pinto:** \[00:04:11.01\] You have heard it here first.
 
-**Marc-Antoine Ruel:** Yeah, that's great. So the fun thing is that it started in 2014. Back at that time there was a company named GroupGet, and they wanted to test a platform; it was a small startup. And they started to do a googlers-only selling of the FLIR Lepton, which is an infrared camera. So I bought one and I was like "Yay, I have an infrared camera! Now what do I do with it?"
+**Marc-Antoine Ruel:** Yeah, that's great. So the fun thing is that it started in 2014. Back at that time there was a company named GroupGet, and they wanted to test a platform; it was a small startup. And they started to do a googlers-only selling of the [FLIR Lepton](https://www.flir.com/products/lepton/), which is an infrared camera. So I bought one and I was like "Yay, I have an infrared camera! Now what do I do with it?"
 
 At that point I decided to say, "Well, I'm going to write a driver for it in Go, because I wasn't really happy with the code that was provided with the device.
 
@@ -84,11 +84,11 @@ At that point I decided to say, "Well, I'm going to write a driver for it in Go,
 
 **Marc-Antoine Ruel:** \[laughs\] It'll probably melt. Yeah, so basically I started writing code for that in early 2015. I had a lot of fun with it, but the device was kind of tricky, the interface, and I had a lot of trouble with keeping a good signal, but on the other hand I started learning with websockets and a lot of things that I didn't know about before. So I used it as a learning experience, and it was really good.
 
-Then in the summer I attended the first GopherCon, and I saw the Gobots room and then I realized that they existed, because I didn't realize before. But at the time it didn't support SPI protocol, which is needed for this camera, so I was like "Okay... Too bad." But then eventually I just dropped the project on the floor.
+Then in the summer I attended the first [GopherCon](https://www.gophercon.com), and I saw the Gobots room and then I realized that they existed, because I didn't realize before. But at the time it didn't support SPI protocol, which is needed for this camera, so I was like "Okay... Too bad." But then eventually I just dropped the project on the floor.
 
-Later in the Christmas period Brad Fitzpatrick did his Christmas slide on Christmas evening I was like, "Oh, that's a neat idea." So I bought a few LEDs... They are quite expensive in Canada. Amazon doesn't really have any roll of them, so basically I bought them on Alibaba. I bought 12 rolls of 5 meters each, and then sold a few back to colleagues, obviously, so I became a pusher of LEDs.
+Later in the Christmas period [Brad Fitzpatrick](https://twitter.com/bradfitz) did his Christmas slide on Christmas evening I was like, "Oh, that's a neat idea." So I bought a few LEDs... They are quite expensive in Canada. Amazon doesn't really have any roll of them, so basically I bought them on Alibaba. I bought 12 rolls of 5 meters each, and then sold a few back to colleagues, obviously, so I became a pusher of LEDs.
 
-Then I decided to start the project that I named \[unintelligible 00:07:13.28\] and I wrote my own driver for that. The reason I decided to go with this one in particular is because I wanted to do night lights for my children's room. These can go really dark -- actually, really faint in the brightness... Because they have two different PWMs that you can use simultaneously to lower the amount of light it emits.
+Then I decided to start the project that I named \[unintelligible 00:07:13.28\] and I wrote my own driver for that. The reason I decided to go with this one in particular is because I wanted to do night lights for my children's room. These can go really dark -- actually, really faint in the brightness... Because they have two different [PWMs](https://en.wikipedia.org/wiki/Pulse-width_modulation) that you can use simultaneously to lower the amount of light it emits.
 
 Because of that, I was actually able to make them so that basically you can have very, very faint lighting that you can keep in the room for the whole night. It's pretty nice.
 
@@ -96,15 +96,15 @@ Because of that, I was actually able to make them so that basically you can have
 
 **Marc-Antoine Ruel:** Yeah, that's cool. Because otherwise, depending on the kind of light, it can be very bright and then it's kind of aggressive, especially at night. So yeah, having the possibility to have a very faint light is really nice.
 
-**Erik St. Martin:** Now, this is controllable through the SPI bus, or this is just like doing PWM, or something?
+**Erik St. Martin:** Now, this is controllable through the [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface) bus, or this is just like doing PWM, or something?
 
 **Marc-Antoine Ruel:** No, it's SPI bus. One of the nice things about these lights is that each device has its own sets of PWMs. Actually, there's four PWMs per light, so one per channel - one red, one green and one blue, and then there's another one... So basically there's an overall brightness, and then one per channel.
 
-So what I did in the driver is that I tried to use the channel PWMs, and one I'd go to the very dim coloring, then I'd start using the other ones. Basically, I use a \[unintelligible 00:09:13.04\] so that for example if you ask a 50% light intensity, in practice you get about 10% because that's how the eye sees the light. So one of the first things I did was to actually get this to roughly 13 bits of precision and put it back into eight bits of precision so that I could have 8-bit pixels, but by still extending the brightness as perceived by the eye. That has given really nice results.
+So what I did in the driver is that I tried to use the channel PWMs, and one I'd go to the very dim coloring, then I'd start using the other ones. Basically, I use a ramp \[unintelligible 00:09:13.04\] so that for example if you ask a 50% light intensity, in practice you get about 10% because that's how the eye sees the light. So one of the first things I did was to actually get this to roughly 13 bits of precision and put it back into eight bits of precision so that I could have 8-bit pixels, but by still extending the brightness as perceived by the eye. That has given really nice results.
 
 **Erik St. Martin:** Nice. Now, do you have like a Raspberry Pi or like a BeagleBone running a Go process that controls this?
 
-**Marc-Antoine Ruel:** Yeah, so I started with a Raspberry Pi. I really wanted it to run well on the Raspberry, and just for the fun of it I wanted to see if I could do performance optimization on that. Eventually, I just bought a fair chunk of Raspberry Pi trees. The main advantage of the tree is that it boots faster. So when the power is cut out or whatever happens, it's much faster to boot.
+**Marc-Antoine Ruel:** Yeah, so I started with a Raspberry Pi. I really wanted it to run well on the Raspberry Pi, and just for the fun of it I wanted to see if I could do performance optimization on that. Eventually, I just bought a fair chunk of Raspberry Pi 3's. The main advantage of the 3 is that it boots faster. So when the power is cut out or whatever happens, it's much faster to boot.
 
 The way it works - it's really not Raspberry Pi specific at all. Basically, as long as you have an SPI bus, it just works.
 
@@ -120,19 +120,19 @@ Basically, this concept of managing discoveries of device -- well, actually, at 
 
 **Brian Ketelsen:** How do you encapsulate that sort of -- I mean, it's almost like service discovery for the host. How does that look at a conceptual level?
 
-**Marc-Antoine Ruel:** Basically, I wanted to create a registry... What happens is that each of the drivers that you want to register, Periph provides a few - they are registered automatically - the driver specifies the dependencies it has. For example, right now I'm working on a DME controller driver, so basically it depends on the fact -- for example, for the Raspberry Pi CPU it's the BCM... I forgot the number, but 2735.37... It's not worth trying to load a driver, for example a DME, if it didn't load at least the GPIO driver, for example.
+**Marc-Antoine Ruel:** Basically, I wanted to create a registry... What happens is that each of the drivers that you want to register, Periph provides a few - they are registered automatically - the driver specifies the dependencies it has. For example, right now I'm working on a DMA controller driver, so basically it depends on the fact -- for example, for the Raspberry Pi CPU it's the BCM... I forgot the number, but 2735.37... It's not worth trying to load a driver, for example a DMA, if it didn't load at least the GPIO driver, for example.
 
 Basically, it registers a DAG. It's really a directed graph of all the drivers, and each of the drivers specify which other drivers they need to be able to be worth trying to be loaded. So the library makes sure that the DAG is actually good, valid, there's no cycle, things like that. And once it detects that it's valid, it tries to load the drivers in parallel as much as it can, based on the dependency tree. Basically, it calls the initialization function on each of them.
 
 The driver can return three different states. Either it's ignored, because it's just not relevant on the platform... For example, the driver for the chip \[unintelligible 00:14:56.05\] if it's not running on the Allwinner CPU.
 
-There's also it was valid and it worked, or it was valid and it failed to load. For example, on most platforms, if it's not running by default, most of the operating systems (Linux distributions) are not configured in a way where we can use, for example, SPI arbitrarily without running as root or yourself modifying the access on the sysfs or divfs file or virtual files.
+There's also it was valid and it worked, or it was valid and it failed to load. For example, on most platforms, if it's not running by default, most of the operating systems (Linux distributions) are not configured in a way where we can use, for example, SPI arbitrarily without running as root or yourself modifying the access on the `sysfs` or `divfs` file or virtual files.
 
-**Erik St. Martin:** So all of this is meant to kind of create an abstraction, kind of like layers? Because I noticed that you had some drivers for like maxim temperatures sensors, or the Dallas temperature sensors and things like that... So basically you would include one of those and then it tries to load the SPI driver, or something like that.
+**Erik St. Martin:** So all of this is meant to kind of create an abstraction, kind of like layers? Because I noticed that you had some drivers for like Maxim temperatures sensors, or the Dallas temperature sensors and things like that... So basically you would include one of those and then it tries to load the SPI driver, or something like that.
 
 **Marc-Antoine Ruel:** Actually, it's the reverse. When you start it up, it tries to discover all the hardware features of the platform, of the host itself, but it doesn't try to discover anything attached to it, so to not start interfering, or anything like that. Then it's really up to the application, basically.
 
-**Erik St. Martin:** \[00:16:15.06\] Okay, yeah. So it tries to discover whether things like SPI or I2C or UR is available on board, and then from there you kind of take control of those connections?
+**Erik St. Martin:** \[00:16:15.06\] Okay, yeah. So it tries to discover whether things like SPI or [I2C](https://en.wikipedia.org/wiki/I%C2%B2C) or UR is available on board, and then from there you kind of take control of those connections?
 
 **Marc-Antoine Ruel:** Exactly. For example, if you take a chip, by default SPI is not enabled, so it will not be loaded, so then when you request SPI bus/ SPI connection, it will refuse because it didn't find any... If you then follow the instructions to enable it, then after that it would be available, and when you request one it will give you the first one available. Well, there's only one, so it's simple in this case.
 
@@ -144,13 +144,13 @@ The SSD1306 - it's also a dual protocol device that can talk I2C and SPI, but th
 
 **Erik St. Martin:** Yeah, and one thing I saw too was you have 1-Wire support, which was kind of fun. I'm actually using that for some temperature sensors that I have, thermocouple sensors.
 
-**Marc-Antoine Ruel:** Yeah. Actually, the 1-Wire hasn't been written by me at all. Thorsten wrote it. Gosh, I forget his full name... Thorsten von Eicken. He contributed a lot to the project. He was the one that did all of the 1-Wire codes. He started with the device that is connected over I2C and then can expose a 1-Wire bus over it. Basically, the nice thing about that is that if you're register this device, then the 1-Wire bus can be registered on the 1-Wire bus registry, and then you can access the 1-Wire bus transparently, without knowing that it's actually over another bus, and that just works...
+**Marc-Antoine Ruel:** Yeah. Actually, the 1-Wire hasn't been written by me at all. Thorsten wrote it. Gosh, I forget his full name... [Thorsten von Eicken](https://github.com/tve). He contributed a lot to the project. He was the one that did all of the 1-Wire codes. He started with the device that is connected over I2C and then can expose a 1-Wire bus over it. Basically, the nice thing about that is that if you're register this device, then the 1-Wire bus can be registered on the 1-Wire bus registry, and then you can access the 1-Wire bus transparently, without knowing that it's actually over another bus, and that just works...
 
 He also wrote -- well, he actually designed the Periph-tester board. Basically, it's a board that has eeprom, and the device that exposes 1-Wire. Basically, you can test eeprom over SPI if I recall correctly and eeprom over 1-Wire. This way we can make sure that all of these protocols are not broken by any kind of change, basically.
 
 \[00:20:03.21\] It's really awesome. It's being tested continuously. Basically, every time there's a change pushed, the smoke tests are tested on this port.
 
-**Erik St. Martin:** That's awesome. I think we are a little overtime for our first sponsored break, so let's take that, and then I wanna talk to you a little bit about some of that performance stuff. I know we chatted behind the scenes a little bit about some of the performance differences, like using this for doing things like bit-banging.
+**Erik St. Martin:** That's awesome. I think we are a little overtime for our first sponsored break, so let's take that, and then I wanna talk to you a little bit about some of that performance stuff. I know we chatted behind the scenes a little bit about some of the performance differences, like using this for doing things like [bit-banging](https://en.wikipedia.org/wiki/Bit_banging).
 
 **Marc-Antoine Ruel:** Perfect.
 
@@ -160,15 +160,15 @@ He also wrote -- well, he actually designed the Periph-tester board. Basically, 
 
 **Erik St. Martin:** Alright, and we are back, talking to Marc-Antoine. Just before the break I wanted to hear -- we were talking about the performance differences, and we had talked a little bit about how you have the DMA (direct memory access) support, and you had done some things for performance of bit-banging.
 
-**Marc-Antoine Ruel:** It's still a work in progress, it's not fully live yet. What I realized is -- and that's actually one of the reasons I've decided to go with this project - there's already C projects that do bit-banging \[unintelligible 00:21:41.16\] abusing the DMA controller (I think it's a better word) in user mode. Basically, the idea is that you memory map the GPU's and the CPU's DMA controller registers and you start messing with it live... Which is actually a very dangerous thing to do, but experience has show that it actually works. The idea there is that basically you tell the GPU to allocate physical memory for you - that part is working. Then after that you tell the DMA controller to take this \[unintelligible 00:22:21.04\] and bang it to the GPIO registers. This is kind of a funny idea.
+**Marc-Antoine Ruel:** It's still a work in progress, it's not fully live yet. What I realized is -- and that's actually one of the reasons I've decided to go with this project - there's already C projects that do bit-banging \[unintelligible 00:21:41.16\] abusing the DMA controller (I think it's a better word) in user mode. Basically, the idea is that you memory map the GPU's and the CPU's DMA controller registers and you start messing with it live... Which is actually a very dangerous thing to do, but experience has shown that it actually works. The idea there is that basically you tell the GPU to allocate physical memory for you - that part is working. Then after that you tell the DMA controller to take this \[unintelligible 00:22:21.04\] and bang it to the GPIO registers. This is kind of a funny idea.
 
 Basically, it works in C; there's Python bindings, which is \[unintelligible 00:22:35.09\] I forgot the exact name, but it's for a popular library. And I basically said "Well, let's do one in Go, so that there's no other need for requiring any C libraries to do that.
 
-So I started playing with that, and then I realized if I wanted to do this kind of stuff, I need to do it in a way that works on multiple CPUs. So then I started working on the Allwinner CPUs. I have a few boards based on Allwinner CPUs, and I started looking at them. I \[unintelligible 00:23:08.08\] very deep into the CPU architecture; I realized that this family of CPUs did not allow access from the DME controller to the GPIO registers, so actually this mechanism cannot work on this processor, sadly.
+So I started playing with that, and then I realized if I wanted to do this kind of stuff, I need to do it in a way that works on multiple CPUs. So then I started working on the [Allwinner](https://en.wikipedia.org/wiki/Allwinner_Technology) CPUs. I have a few boards based on Allwinner CPUs, and I started looking at them. I \[unintelligible 00:23:08.08\] very deep into the CPU architecture; I realized that this family of CPUs did not allow access from the DMA controller to the GPIO registers, so actually this mechanism cannot work on this processor, sadly.
 
-Someone on the RC channel \[unintelligible 00:23:32.26\] on freenode helped me with that, because otherwise I would have never figured it out. I forget the name of the person, but thanks a lot.
+Someone on the IRC channel on freenode helped me with that, because otherwise I would have never figured it out. I forget the name of the person, but thanks a lot.
 
-On the other processors, for example like the BeagleBone, it could be possible, I just didn't get to that point yet. Basically, the idea there is really just that you can do bit-banging, and I've done it by the DMA controller, or the reverse is to basically have your own logic analyzer that can run without having to take a full CPU.
+On the other processors, for example like the [BeagleBone](https://beagleboard.org/bone), it could be possible, I just didn't get to that point yet. Basically, the idea there is really just that you can do bit-banging, and I've done it by the DMA controller, or the reverse is to basically have your own logic analyzer that can run without having to take a full CPU.
 
 \[00:24:08.19\] On the other hand, because it's using memory map GPIO registers, you can actually read through really fast and basically you can abuse the system by taking a full core, and have this full core just doing a busy loop of reading a register, then you just append that to a circular buffer. Then another core can just update that the UI, basically. That's one of the things I was actually looking at probably doing, where it's purely CPU-based, so it takes a lot more processing power, but on the other hand you don't need any messing with the Kernel, so that's actually a saner option.
 
@@ -180,7 +180,7 @@ So it really helps, because then you can do these, which takes time, but without
 
 **Brian Ketelsen:** Now, while we were talking here I installed Periph.io on the Raspberry Pi that's running my barbecue grill right now, and on that particular board we've got pin 22 that controls the relay the turns the fan on and off, while the blower controls the temperature of the barbecue grill. And I just set that with a watch command on the terminal, and I'm watching the output of your GPIO-list command that comes with Periph.io. And it's so much fun just watching GPIO 22 go from out low, to out high, out low, out high, as the fan goes on and off. These are some really great tools.
 
-There's three commands that are shipped with Periph.io. There's Periph-info, which I pasted the output of that into the Slack channel, and then there's headers-list, and then there's GPIO-list. All of them worked beautifully on the Raspberry Pi that I have. That's really cool.
+There's three commands that are shipped with Periph.io. There's `periph-info`, which I pasted the output of that into the Slack channel, and then there's `headers-list`, and then there's `gpio-list`. All of them worked beautifully on the Raspberry Pi that I have. That's really cool.
 
 **Marc-Antoine Ruel:** Yeah, actually there's even more than that. Let me paste that on the channel. One of the first ways that I decided to test devices was to write one executable per device driver. So you are not required to use them, but it's a nice way to figure out how to start your application, basically. So if you want to use, for example, the APA102, you can just look at it and it already has functionality, for example animating the lights based on the ping you made, or things like that.
 
@@ -188,17 +188,17 @@ There's three commands that are shipped with Periph.io. There's Periph-info, whi
 
 **Brian Ketelsen:** That's awesome.
 
-**Erik St. Martin:** I think you had mentioned too that you had been playing with the pocketCHIP, too.
+**Erik St. Martin:** I think you had mentioned too that you had been playing with the [PocketCHIP](https://en.wikipedia.org/wiki/CHIP_(computer)#Pocket_CHIP_and_Pockulus), too.
 
-**Marc-Antoine Ruel:** Yeah, the pocketCHIP is kind of neat. It's a very low-power single core system, with half a gig of RAM. It runs a custom distribution that is based on Debian, and it actually exposes I2C, SPI and a few GPIO on the top of it. Actually, my goal has been to expose the -- basically, you can connect a FLIR Lepton then you have a portable infrared camera. It's not fully working yet because I've been fighting a lot with the SPI driver on the chip, but beside that it's a pretty nice hardware. It has its own batter, and it can actually last many hours. I've been using it for like five hours and it was fine.
+**Marc-Antoine Ruel:** Yeah, the pocketCHIP is kind of neat. It's a very low-power single core system, with half a gig of RAM. It runs a custom distribution that is based on Debian, and it actually exposes I2C, SPI and a few GPIO on the top of it. Actually, my goal has been to expose the -- basically, you can connect a FLIR Lepton then you have a portable infrared camera. It's not fully working yet because I've been fighting a lot with the SPI driver on the chip, but beside that it's a pretty nice hardware. It has its own battery, and it can actually last many hours. I've been using it for like five hours and it was fine.
 
-You can actually build on it, so I literally just start up vi and edit my code and build my Go projects on it... So it's a pretty nice device for that.
+You can actually build on it, so I literally just start up `vi` and edit my code and build my Go projects on it... So it's a pretty nice device for that.
 
 **Erik St. Martin:** Do you prefer it over a Pi?
 
 **Marc-Antoine Ruel:** Well, it's different, because the chip is much cheaper than the Pi. It has Wi-Fi, which I think it got announced before the Raspberry Pi 3 which had Wi-Fi. So it's a different market.
 
-The Pi is incredibly faster, but on the other hand you have to buy an SD card, while the chip already has 4 gigs of flash on board. Because of that, the total cost of the chip is much lower. And the fact that it has a battery connector included is also a plus. It's very easy to run it on a Lithium battery, and it can charge to a Lithium battery, too. Because of that, the use cases are slightly different than the Pi. Up to an extend it's closer to the Pi Zero, but still, the Pi Zero doesn't have a battery charger, as far as I know. Actually, I just got one in the mail, but I didn't have the time to open it yet.
+The Pi is incredibly faster, but on the other hand you have to buy an SD card, while the chip already has 4 gigs of flash on board. Because of that, the total cost of the chip is much lower. And the fact that it has a battery connector included is also a plus. It's very easy to run it on a Lithium battery, and it can charge to a Lithium battery, too. Because of that, the use cases are slightly different than the Pi. Up to an extent it's closer to the Pi Zero, but still, the Pi Zero doesn't have a battery charger, as far as I know. Actually, I just got one in the mail, but I didn't have the time to open it yet.
 
 So for embedded stuff -- not embedded stuff, but for stuff to be carried on, it's very nice. It's something I really like a lot. One thing I wanted to backtrack is when I started the project on Periph I wasn't sure actually if I were going to do it or not. Thorsten von Eicken, which I referenced earlier - he reached out to me in September or so of last year, and he wasn't really contributing to embed. And then he looked at the way I was discussing the design and he was like, "I think you have a point here", and it's really worked. So basically I used his knowledge in this area to be able to have someone to discuss with until the project became public, and he did all of the code reviews, which really helped me to structure the project.
 
@@ -206,11 +206,11 @@ So for embedded stuff -- not embedded stuff, but for stuff to be carried on, it'
 
 Eventually, I got the pressure to actually release it, because eventually I just wanted to have something -- people wanted to use it, but at the same time I still feel that it's not... I feel right now that it's not good enough in the design and I really want to change a lot of features. For example the SPI driver I'm not happy still with the current design of the interfaces.
 
-**Brian Ketelsen:** So you mentioned a gohci - is that a CI system that you've built specifically for this package? Can you describe how that works?
+**Brian Ketelsen:** So you mentioned a [gohci](https://github.com/periph/gohci) - is that a CI system that you've built specifically for this package? Can you describe how that works?
 
 **Marc-Antoine Ruel:** Yeah, so the gohci is basically my CI system for the cheaps... For the cheap people. \[laughter\] Basically, what happens is that I was at the point where I had to decide if I would pursue that as a project or just leave it there, and it works and it's fine. I really felt that if I wanted it to be a real project, it needed three things. First, the design - I could be happy with it long-term. Second, a way to ensure that the quality of the code itself stays good, and third, a website to host the documentation.
 
-So I worked on the quality of the code with a gohci. Basically, it's really a cheap hack. It runs a service... Basically, I started via SystemD, and it exposed a web server, which basically you would trigger GitHub webhooks, and when there's one that based on the \[unintelligible 00:34:18.22\] based on the commits on the PR or the commit that is referenced by the webhook... And basically what it does is that it runs a predefined set of commands. So basically it's the same as Travis or any other CI system for example Drone that you can also run locally.
+So I worked on the quality of the code with a gohci. Basically, it's really a cheap hack. It runs a service... Basically, I started via SystemD, and it exposed a web server, which basically you would trigger GitHub webhooks, and when there's one that's based on the pull request it decides to do a testrun based on the commits on the PR or the commit that is referenced by the webhook... And basically what it does is that it runs a predefined set of commands. So basically it's the same as Travis or any other CI system for example Drone that you can also run locally.
 
 The other thing is that I didn't want to pay for a server, because I'm super cheap, so what I decided to say is well, actually on GitHub you can save a Gist, and it's actually free, and you can save multiple files inside a Gist. It could be just the stdout out of the commands being run. So I started playing with this idea and I just wrote a hack in three hours, and I realized that it was actually working well... So I generalized it slightly more, but not too much, and I really wanted it to be a solution specifically for hardware testing, which you cannot use with Travis or any other kind of services. Well, actually, probably Travis you can do but I wanted to try with the free implementation.
 
@@ -234,7 +234,7 @@ But writing the website -- because I knew that the website was very important an
 
 **Erik St. Martin:** It's got its little wired up backpack and the LED...
 
-**Marc-Antoine Ruel:** \[00:40:08.21\] \[laughs\] Yeah... Another thing that I did was doing outreach to people. One of the first persons I tried to talk to was Jana -- actually, I kept contact with her for pretty much the whole cycle. I also discussed with Ron, the maintainer of Gobot; he's a busy guy, but I was able to get a hold of him for an hour and a half, and I was very glad that he took the time to talk with me. We've discussed ways where the bigger picture will fit, so basically my \[unintelligible 00:40:47.25\] has been that I actually don't care that much about writing device drivers.
+**Marc-Antoine Ruel:** \[00:40:08.21\] \[laughs\] Yeah... Another thing that I did was doing outreach to people. One of the first persons I tried to talk to was Jana -- actually, I kept contact with her for pretty much the whole cycle. I also discussed with [Ron](https://twitter.com/deadprogram), the maintainer of Gobot; he's a busy guy, but I was able to get a hold of him for an hour and a half, and I was very glad that he took the time to talk with me. We've discussed ways where the bigger picture will fit, so basically my \[unintelligible 00:40:47.25\] has been that I actually don't care that much about writing device drivers.
 
 As I've said before, most of the devices I wrote were really just to test the underlying code for the host operating system drivers. I tried to position the library as much as low-level that would fit under Gobot. That said, it's not a given that there's a way to make everything work as much as I'd like, but that's definitely the goal I'm trying to aim for.
 
@@ -248,11 +248,11 @@ One thing, actually - I'm trying to make work gohci with pull request better, an
 
 So at the beginning, most of the work was soul searching up to a point, where I really wanted to explore all the different kinds of designs and see the ones that I felt were the best ones. For example, the registries - there's a lot of small registries, and these registries really help, for example, to have a domain-specific set of know devices. For example, there's a GPIO registry, but there's also the registry for each of the buses.
 
-I don't know if in the end people will actually think it's a good thing, but I think it is, so I decided to do it. I feel that it's of neat, because afterwards you don't program for a specific board anymore. That's one of the things I really like - all the boards are really abstracted away. You just have a string for the name of the GPIO you want to use, and you can use the string of the pin from the board name or brom the CPU name, or any other kind of aliases that you want.
+I don't know if in the end people will actually think it's a good thing, but I think it is, so I decided to do it. I feel that it's of neat, because afterwards you don't program for a specific board anymore. That's one of the things I really like - all the boards are really abstracted away. You just have a string for the name of the GPIO you want to use, and you can use the string of the pin from the board name or from the CPU name, or any other kind of aliases that you want.
 
 \[00:43:59.22\] That's the only string you need to change to be able to run on a different kind of hardware. I felt it was pretty neat, because you don't need to reference packages that are board-specific. They are there if you want to use them, but you're never required to use them. That was one of the key points I really wanted to focus on.
 
-**Erik St. Martin:** So you had mentioned you were playing with some other things for hardware-based projects, too... I forget what episode it was, but a few episodes ago we had talked about GoKrazy, which was an interesting way of creating Go applications and just deploying them out to your Raspberry Pi without thinking about it.
+**Erik St. Martin:** So you had mentioned you were playing with some other things for hardware-based projects, too... I forget what episode it was, but a few episodes ago we had talked about [GoKrazy](https://gokrazy.org/), which was an interesting way of creating Go applications and just deploying them out to your Raspberry Pi without thinking about it.
 
 **Marc-Antoine Ruel:** It's kind of an impressive project. I played with it a bit. Periph sadly doesn't work on it yet. I tried to commit on fixing it, but I didn't. But there's a lot of challenges on this project, because you obviously need to write a ton of code to make it work. But I really like the idea of just getting rid of C completely. As an ex C++ developer, I'm fully behind that. \[laughs\]
 
@@ -294,19 +294,19 @@ That's actually one thing I would have liked to do with gohci, because then I wo
 
 **Marc-Antoine Ruel:** Yeah, I hate Vimscript with a vengeance. I don't know, it's just a horrible language. I love Vim Go, but I cannot make any sense of Vimscript otherwise than that.
 
-**Erik St. Martin:** I feel for Fatih for the amount of Vimscript he has to write to make it work.
+**Erik St. Martin:** I feel for [Fatih](https://twitter.com/fatih) for the amount of Vimscript he has to write to make it work.
 
 **Marc-Antoine Ruel:** Yeah, it's incredible work... Oh, my god. Actually, I've been experimenting with that six or seven years ago, and that's something I have in the back of my mind, but I knew that it was a lot of work to try it out. Basically, I wanted to do an experiment. The experiment basically was to have a client server version of a text editor, where the frontend is a client, and then the backend is actually the one doing the I/O for the files and things like that...Which is kind of hilarious when you think about it and you're now to the point where your text editor is a client server architecture, but it's a great idea!
 
-\[00:52:03.16\] The reason I wanted to do that was my feeling was "Well, then you can just go get all the plugins you want", and you make the plugins as out-of-process plugins, and you just communicate with the plugins with -- I was using net/rpc with gob encoding, but the idea was you make sure that the interfaces fit or are exactly the same, so basically I wrote a hashing algorithm of interfaces through reflection. Basically, it's kind of a COM GUID, but with hashes, which is where really my Windows experience shined through.
+\[00:52:03.16\] The reason I wanted to do that was my feeling was "Well, then you can just `go get` all the plugins you want", and you make the plugins as out-of-process plugins, and you just communicate with the plugins with -- I was using net/rpc with gob encoding, but the idea was you make sure that the interfaces fit or are exactly the same, so basically I wrote a hashing algorithm of interfaces through reflection. Basically, it's kind of a COM GUID, but with hashes, which is where really my Windows experience shined through.
 
-The idea is that you use reflection to enumerate all the methods in the interface, and if it references a struct, you also go into these structs and hash all the public member of the struct, and you recourse until you go to the end and you have only basic types. Basically, you hash each of the names and the types, and you add zeroes and \[unintelligible 00:53:11.00\] in there, and you basically generate a deterministic hash in the end, and that represents a way to communicate with another party that the interfaces that you're using are exactly the same. So then you get a form of binary compatibility, because you know that both are using exactly the same structure of definitions.
+The idea is that you use reflection to enumerate all the methods in the interface, and if it references a struct, you also go into these structs and hash all the public members of the struct, and you recurse until you go to the end and you have only basic types. Basically, you hash each of the names and the types, and you add zeroes and \[unintelligible 00:53:11.00\] in there, and you basically generate a deterministic hash in the end, and that represents a way to communicate with another party that the interfaces that you're using are exactly the same. So then you get a form of binary compatibility, because you know that both are using exactly the same structure of definitions.
 
-I started experimenting on that, and then out-of-process plugins and things like that, but the problem is that I forgot to actually work on the editor part. So basically, the editor part was really crappy, but the rest was really great. And then \[unintelligible 00:53:52.11\] started working on -- so basically I named the \[unintelligible 00:53:57.12\] because it was like a follow-up of VI, and it was kind of a pun on that. And then Ralph said, "You know what? I really want to try it in Rust instead."
+I started experimenting on that, and then out-of-process plugins and things like that, but the problem is that I forgot to actually work on the editor part. So basically, the editor part was really crappy, but the rest was really great. And then \[unintelligible 00:53:52.11\] started working on -- so basically I named the editor [wi](https://github.com/wi-ed/wi) because it was like a follow-up of VI, and it was kind of a pun on that. And then Ralph said, "You know what? I really want to try it in Rust instead."
 
-Basically, the thing is that actually \[unintelligible 00:54:12.26\] so he started writing it and it's pretty amazing. The core idea is slightly similar, except that it's in Rust... But the thing is that he's using JSON-RPC instead of a binary format, and the thing is that the encoding in JSON is trivial compared to everything else, so it's actually not a performance issue at all. But on the other hand, you don't actually have any kind of language lock-in, so because of that you can write your plugins or your frontend in any language and it doesn't matter anymore. So it's actually a net win. It's much better in practice. So yeah, I just need to learn Rust though, and I haven't gotten to that yet.
+Basically, the thing is that he actually knows how to write a text editor unlike me so he started writing it and it's pretty amazing. The core idea is slightly similar, except that it's in Rust... But the thing is that he's using JSON-RPC instead of a binary format, and the thing is that the encoding in JSON is trivial compared to everything else, so it's actually not a performance issue at all. But on the other hand, you don't actually have any kind of language lock-in, so because of that you can write your plugins or your frontend in any language and it doesn't matter anymore. So it's actually a net win. It's much better in practice. So yeah, I just need to learn Rust though, and I haven't gotten to that yet.
 
-**Erik St. Martin:** I wonder whether gRPC would be a good option as well, because they have support for a number of languages now.
+**Erik St. Martin:** I wonder whether [gRPC](https://grpc.io/) would be a good option as well, because they have support for a number of languages now.
 
 **Marc-Antoine Ruel:** Yeah, but I don't recall if we looked at it, but I would have stuck with JSON-RPC too, because the thing is that most of the time it's local net. I mean, you're running the frontend and the backend on the same system, so bandwidth is not too much of a problem. Then there's the performance of the amount of data - gRPC is more compact than JSON-RPC, but on the other hand, gRPC implicitly depends on an HTTP/2, where JSON-RPC is very easy to just do over a dump pipe, basically over stdout and stdin.
 
@@ -314,11 +314,11 @@ Basically, the thing is that actually \[unintelligible 00:54:12.26\] so he start
 
 **Erik St. Martin:** gRPC would be fun though if you could have a UI on your local box, and then just post the server-side somewhere else. Because if you're going client-server, they don't necessarily have to be on the same host, right?
 
-**Marc-Antoine Ruel:** Yeah, I think it's actually a Go. I haven't tried, personally... I would have to try out, but I think it's one of the Go \[unintelligible 00:56:34.04\] people to do that. For example, actually one of the nice advantages of doing the way it's done right now is that actually the frontend could be a web page, basically. So then you get to the Cloud9 territory, or things like that... But the nice thing is that then your plugins are still running on the host, they are not running on the web server itself.
+**Marc-Antoine Ruel:** Yeah, I think it's actually a goal. I haven't tried it personally... I would have to try it out, but I think it's one of the goals to be able to do that. For example, actually one of the nice advantages of doing the way it's done right now is that actually the frontend could be a web page, basically. So then you get to the Cloud9 territory, or things like that... But the nice thing is that then your plugins are still running on the host, they are not running on the web server itself.
 
 **Brian Ketelsen:** That would be really nice, I would enjoy that a lot.
 
-**Erik St. Martin:** Having a way-based editor?
+**Erik St. Martin:** Having a web based editor?
 
 **Brian Ketelsen:** No, just having the server being a different machine... I could have a Linux desktop or Linux headless server running all of my code, but the editor be on Windows or Mac.
 
@@ -326,11 +326,11 @@ Basically, the thing is that actually \[unintelligible 00:54:12.26\] so he start
 
 **Brian Ketelsen:** Yeah, absolutely.
 
-**Marc-Antoine Ruel:** Yes, I think it's basically the route to the future. I don't know, it needs to happen, basically... It just needs to happen. I just need to get out of Vim, eventually. That's really something that needs to happen, eventually. It's funny, for example I'd get to a Raspberry Pi, I want something that I can start working on it right away, and I don't want to mess with all of that packages. So if I can just SCP a executable and start being productive, it's going to be awesome.
+**Marc-Antoine Ruel:** Yes, I think it's basically the route to the future. I don't know, it needs to happen, basically... It just needs to happen. I just need to get out of Vim, eventually. That's really something that needs to happen, eventually. It's funny, for example I'd get to a Raspberry Pi, I want something that I can start working on it right away, and I don't want to mess with all of that packages. So if I can just `scp` an executable and start being productive, it's going to be awesome.
 
 **Erik St. Martin:** Okay, so I think we are just about out of time... One thing we like to do at the end of every episode is we do something called \#FreeSoftwareFriday, where all of us give a shoutout to a project or a maintainer - and it does not have to be Go - of an open source project that makes our lives easier. Does everybody have a project they want to...? And Marc-Antoine, if you have one - that's awesome. If you don't, that's cool, too. Carlisia, did you have a project you wanted to mention this week?
 
-**Carlisia Pinto:** I do. It's called docopt. I think it's called docopt.
+**Carlisia Pinto:** I do. It's called [docopt](https://github.com/docopt/docopt.go). I think it's called docopt.
 
 **Erik St. Martin:** That'd be my guess, too.
 
@@ -340,23 +340,23 @@ Basically, the thing is that actually \[unintelligible 00:54:12.26\] so he start
 
 **Erik St. Martin:** That's really awesome. How about you, Brian? Did you have anything?
 
-**Brian Ketelsen:** I do. I played a couple days ago with wxGo, which is a wxWidgets wrapper for Go. We've been bemoaning the lack of GUI capabilities in Go for a long time, but this repository which is at GitHub.com/dontpanic92/wxGo is incredibly complete and works beautifully. I tested it on Mac, Linux and Windows using a really small app that I wrote, because I'm not a wxWidgets expert... But the exact same code compiled and built and looked native on all three platforms. I don't know what else people could possibly need out of a GUI than that.
+**Brian Ketelsen:** I do. I played a couple days ago with wxGo, which is a wxWidgets wrapper for Go. We've been bemoaning the lack of GUI capabilities in Go for a long time, but this repository which is at [github.com/dontpanic92/wxGo](https://github.com/dontpanic92/wxGo) is incredibly complete and works beautifully. I tested it on Mac, Linux and Windows using a really small app that I wrote, because I'm not a wxWidgets expert... But the exact same code compiled and built and looked native on all three platforms. I don't know what else people could possibly need out of a GUI than that.
 
 I was really impressed. It's nice to work with as far as writing evented window-management things Go, and very complete. No panics, no crashes, no runs, no drips, no errors.
 
 **Erik St. Martin:** Nice. How about you, Marc-Antoine? Did you have anybody you wanna give a shoutout to? Or any projects?
 
-**Marc-Antoine Ruel:** \[01:00:06.17\] I think you talk about it every week, but Caddy is really awesome. I wouldn't be able to live without it. The other thing is I actually started playing with Shiny from Nigeltao, and it's pretty cool. In my case, it's actually to be useable on the pocketCHIP, and it made it really trivial to people to just open a full-screen window and start drawing onto it, which is very useful for my use case.
+**Marc-Antoine Ruel:** \[01:00:06.17\] I think you talk about it every week, but [Caddy](https://github.com/mholt/caddy) is really awesome. I wouldn't be able to live without it. The other thing is I actually started playing with Shiny from Nigeltao, and it's pretty cool. In my case, it's actually to be useable on the pocketCHIP, and it made it really trivial to people to just open a full-screen window and start drawing onto it, which is very useful for my use case.
 
 **Erik St. Martin:** Cool. What library is this?
 
-**Marc-Antoine Ruel:** Shiny. It's actually on the ex repository on Golang. I'll just paste the link...
+**Marc-Antoine Ruel:** [Shiny](https://godoc.org/golang.org/x/exp/shiny). It's actually on the ex repository on Golang. I'll just paste the link...
 
-**Brian Ketelsen:** Yeah, that's the experimental GUY layer...
+**Brian Ketelsen:** Yeah, that's the experimental gui layer...
 
 **Marc-Antoine Ruel:** Yes. It's very experimental, but it works, and that's good enough for me.
 
-**Erik St. Martin:** The one I have is actually something I recently came across. Here's a pronunciation thing, and thankfully on the readme they tell you how to pronounce it. It's called hecate, and they call it "The Hex Editor From Hell!" I can say that on air because it actually says that in the slogan, so it's not me swearing.
+**Erik St. Martin:** The one I have is actually something I recently came across. Here's a pronunciation thing, and thankfully on the readme they tell you how to pronounce it. It's called [hecate](https://github.com/evanmiller/hecate) and they call it "The Hex Editor From Hell!" I can say that on air because it actually says that in the slogan, so it's not me swearing.
 
 It's like a tabbed interface, a hex editor, but the cool thing is that you can use Vim commands to move around it, and most of us on the show love Vim movement keys. Basically, you can hit key combinations to switch the endianness or the way the bytes underneath your cursor are interpreted. So you can look at them as like integers or as strings and change the endianness around. It's actually really cool for looking at just a file of bytes, trying to reverse-engineer what it is. I'll post a link in the GoTime channel for that.
 
@@ -370,7 +370,7 @@ With that, I wanna thank everybody for being on the show this week, especially t
 
 **Brian Ketelsen:** I was promised singing!
 
-**Erik St. Martin:** The latency was so bad! \[laughs\] We need a -- I don't even think Jonathan Youngblood can save us in the editing for that. \[laughter\] He does amazing work, but I don't think that's fixable. So huge thank you to Marc-Antoine for coming on the show, shoutout to our sponsor Toptal for helping to make this show possible. I definitely encourage everybody to share this show with fellow Go programmers. You can subscribe by going to GoTime.fm. We are @GoTimeFM on Twitter. If you wanna be on the show, have suggestions for guests or questions, topics, hit us up on GitHub.com/gotimefm/ping. With that, bye everybody! We'll see you next week.
+**Erik St. Martin:** The latency was so bad! \[laughs\] We need a -- I don't even think Jonathan Youngblood can save us in the editing for that. \[laughter\] He does amazing work, but I don't think that's fixable. So huge thank you to Marc-Antoine for coming on the show, shoutout to our sponsor Toptal for helping to make this show possible. I definitely encourage everybody to share this show with fellow Go programmers. You can subscribe by going to [GoTime.fm](https://changelog.com/gotime). We are on [Twitter](https://twitter.com/GoTimeFM). If you wanna be on the show, have suggestions for guests or questions, topics, [ping](https://github.com/GoTimeFM/ping) us. With that, bye everybody! We'll see you next week.
 
 **Marc-Antoine Ruel:** Thanks a lot!
 
