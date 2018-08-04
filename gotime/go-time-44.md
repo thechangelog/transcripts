@@ -16,7 +16,7 @@ Today on the show we have myself, Erik St. Martin, Carlisia Pinto is also on the
 
 **Brad Fitzpatrick:** Pretty good.
 
-**Erik St. Martin:** So for anybody who may not be familiar with who you are, do you wanna give a littel bit of background on who you are and the things you're working on?
+**Erik St. Martin:** So for anybody who may not be familiar with who you are, do you wanna give a little bit of background on who you are and the things you're working on?
 
 **Brad Fitzpatrick:** I've been working on Go for maybe 5-6 years now, and I kind of work on the open source-facing part of the public project, the standard library, I run the build system... I kind of touched a little bit of everything over the years.
 
@@ -42,15 +42,15 @@ We're trying to change that, so that Google-only contributors spend more time in
 
 **Brian Ketelsen:** I've noticed that you've pretty much become the public face of open source Go. Any issues that come across, you're the person who's triaging them; dashboards go down, builders go down - you're the person that everybody's talking to. It's interesting to see how that has shaken out over the years. Is that something that you elected to do, is that something you were elected to do, or did it just kind of happen?
 
-**Brad Fitzpatrick:** It kind of happened... Then, at some point, Ross or Ian or a group of people just kind of oficially decided it was so, and I said, "Okay, well it's already kind of de facto", so it was announced officially. That's kind of how everything in Go happens. You do something long enough and you become the de facto leader; the kind of "you touched it last" problem.
+**Brad Fitzpatrick:** It kind of happened... Then, at some point, Russ or Ian or a group of people just kind of officially decided it was so, and I said, "Okay, well it's already kind of de facto", so it was announced officially. That's kind of how everything in Go happens. You do something long enough and you become the de facto leader; the kind of "you touched it last" problem.
 
-**Erik St. Martin:** Yeah, that creates a buzz factor issue though too, sometimes...
+**Erik St. Martin:** Yeah, that creates that buzz factor issue though too, sometimes...
 
 **Brad Fitzpatrick:** Yeah, that's a current problem. I'm actually having my first child soon here, and I will be taking some paternity leave. That's a different type of buzz factor I guess, but I've been trying to ramp up some other people to help take over the builders and dashboards and stuff like that.
 
 **Brian Ketelsen:** That's the best news ever.
 
-**Brad Fitzpatrick:** Yeah, it'll be fun... Although I'm missing GopherCon, but I guess that's a good reason.
+**Brad Fitzpatrick:** Yeah, it'll be fun... Although I'm missing [GopherCon](https://www.gophercon.com/), but I guess that's a good reason.
 
 **Brian Ketelsen:** Yeah, we'll give you a pass for this one, it's okay.
 
@@ -82,13 +82,13 @@ We're trying to change that, so that Google-only contributors spend more time in
 
 **Erik St. Martin:** Delete! \[laughter\]
 
-**Carlisia Pinto:** Actually, it seems Brad does so much of the work of interacting with people... Why don't we talk a little bit about what the process is like for people to contribute...? There's a recent blog post by Steve Francia, but I think it's good to discuss it on the air. By the way, Brad, can you approve my pull request? I just put it in last night... Please? \[laughter\]
+**Carlisia Pinto:** Actually, it seems Brad does so much of the work of interacting with people... Why don't we talk a little bit about what the process is like for people to contribute...? There's a recent blog post by [Steve Francia](https://twitter.com/spf13), but I think it's good to discuss it on the air. By the way, Brad, can you approve my pull request? I just put it in last night... Please? \[laughter\]
 
 **Brad Fitzpatrick:** Well, actually we don't officially take pull requests yet - that's one thing I need to be working on sometime here.
 
 **Carlisia Pinto:** I don't know, what is the thing that I did called? I made a change... The CL. What does CL stand for?
 
-**Brad Fitzpatrick:** ChangeList. It's actually this Perforce terminology from back when Google used to use Perforce.
+**Brad Fitzpatrick:** ChangeList. It's actually this [Perforce](https://en.wikipedia.org/wiki/Perforce) terminology from back when Google used to use Perforce.
 
 **Erik St. Martin:** I remember Perforce.
 
@@ -128,7 +128,7 @@ Most of the time, we just immediately say Yes or No, and we don't make people go
 
 **Carlisia Pinto:** Okay.
 
-**Brad Fitzpatrick:** Yeah, your thing is probably not controversial. I imagine someone, or me, will click Accept later.
+**Brad Fitzpatrick:** Yeah, your thing is probably not controversial. I imagine someone, or me, will click _Accept_ later.
 
 **Carlisia Pinto:** Okay, thank you. So I actually saw a piece of code that I want to add, but I don't even have a use for it, personally... I just think, "Wow, it'd just be complete if it existed." When I submit a proposal, do I need to have a strong use case? Or if I don't have a use case, can I submit it anyway and say "Hey, I think it should be here"?
 
@@ -144,11 +144,11 @@ Most of the time, we just immediately say Yes or No, and we don't make people go
 
 **Carlisia Pinto:** But then you said "Add it somewhere else instead?"
 
-**Brad Fitzpatrick:** Yeah, like put it somewhere that you can run Go Get. The problem with the standard library is we can't really fix things quickly and we can never change things and we can never remove things, so you're much more flexible if you just add it on GitHub.
+**Brad Fitzpatrick:** Yeah, like put it somewhere that you can run `go get`. The problem with the standard library is we can't really fix things quickly and we can never change things and we can never remove things, so you're much more flexible if you just add it on GitHub.
 
 **Carlisia Pinto:** Like my personal project...
 
-**Brad Fitzpatrick:** Yeah, or there's other places... You can get your own domain name and make a fancy name for it. I have go4.org for miscellaneous Go utility functions that I need in lots of projects, but I don't necessarily want to add to the standard library... So I'll add other cool stuff to go4.org.
+**Brad Fitzpatrick:** Yeah, or there's other places... You can get your own domain name and make a fancy name for it. I have [go4.org](https://go4.org/) for miscellaneous Go utility functions that I need in lots of projects, but I don't necessarily want to add to the standard library... So I'll add other cool stuff to go4.org.
 
 **Carlisia Pinto:** Oh, that's cool.
 
@@ -170,11 +170,11 @@ Most of the time, we just immediately say Yes or No, and we don't make people go
 
 **Erik St. Martin:** So you had mentioned the 1.9 release, too... What are some of the things that you're working on specifically for 1.9? Anything you can talk about yet?
 
-**Brad Fitzpatrick:** \[unintelligible 00:12:35.16\] seeing how little code I can touch in the tree for 1.9. A lot of stuff I'm doing is really \[unintelligible 00:12:42.01\] getting the community more involved in bug triage and code review triage... Because as Go grows both internally and externally, the number of bug reports we get and the number of changes that people send in just keeps going, and it doesn't really scale when there's only a couple of us doing reviews, because we spend all of our time triaging bugs and doing code reviews...
+**Brad Fitzpatrick:** \[unintelligible 00:12:35.16\] seeing how little code I can touch in the tree for 1.9. A lot of stuff I'm doing is really all about getting the community more involved in bug triage and code review triage... Because as Go grows both internally and externally, the number of bug reports we get and the number of changes that people send in just keeps growing and it doesn't really scale when there's only a couple of us doing reviews, because we spend all of our time triaging bugs and doing code reviews...
 
 So I'm trying to make it easier for the community to get involved, so they don't feel intimidated, they know the process, or we have better dashboards telling them what needs attention...
 
-We made this wiki page called Gardening, which is just all the kind of gardening tasks that people can do if you have five minutes or ten minutes to kill and you wanna help Go out. We try to say, "Here's a list of either GitHub queries for issues that might need attention" or "Here's the recent code reviews", "Here's the sorts of tasks that you can do that might only take a few minutes but it would move something along."
+We made this wiki page called [Gardening](https://github.com/golang/go/wiki/gardening), which is just all the kind of gardening tasks that people can do if you have five minutes or ten minutes to kill and you wanna help Go out. We try to say, "Here's a list of either GitHub queries for issues that might need attention" or "Here's the recent code reviews", "Here's the sorts of tasks that you can do that might only take a few minutes but it would move something along."
 
 **Carlisia Pinto:** Where is this list?
 
@@ -182,9 +182,9 @@ We made this wiki page called Gardening, which is just all the kind of gardening
 
 Maybe we had to label "Waiting for info" on a bug and reviewing the bugs on GitHub labeled "Waiting for info" and seeing "Should this be closed? Did this timeout? Did the OP get back to us with the requested information?" Kind of just moving bugs along and pinging them when necessary...
 
-If someone sends in a code review that has the wrong commit message format, telling them how to format their commit message, tellin them that they forgot tests, finding typos... There's lots of easy things you could do that are unrelated to whether the patch is actually correct, or whatever.
+If someone sends in a code review that has the wrong commit message format, telling them how to format their commit message, telling them that they forgot tests, finding typos... There's lots of easy things you could do that are unrelated to whether the patch is actually correct, or whatever.
 
-**Erik St. Martin:** Here's an interesting thought... Usually for the release cycles Dave Cheney puts together a presentation, and multiple meetup groups present that.
+**Erik St. Martin:** Here's an interesting thought... Usually for the release cycles [Dave Cheney](https://twitter.com/davecheney) puts together a presentation, and multiple meetup groups present that.
 
 **Brad Fitzpatrick:** Yeah, the global release parties.
 
@@ -212,11 +212,11 @@ If someone sends in a code review that has the wrong commit message format, tell
 
 **Brad Fitzpatrick:** This is something that's actually been on my to-do list for the last three months now, I guess. One of the things I was supposed to do last quarter is do a blog posts saying how to contribute to Go and how to get involved with this sort of stuff, but I keep putting it off because I want more dashboards for people to use to make it even easier... But at some point I just need to say enough is enough, "What we have is good enough for people to get involved."
 
-**Erik St. Martin:** Yeah, and I think the argument too is I think the Bugmash or -- there's another name for it, Ruby had one... I don't feel like it was called Bugmash... It was something along those lines. But that's a lot of times for people who want to contribute the code, and a lot of people when they're just getting started out aren't familiar with the codebase and how to things work, and they don't really have the confidence to contribute, so I think you won't get as many participants in those types of things as you will in like "Hey, you may not wanna jump in and contribute code, but you can contribute in these ways." By doing so, that will familiarize them with the project and the components and things like that, and then maybe build the confidence that way.
+**Erik St. Martin:** Yeah, and I think the argument too is I think the Bugmash or -- there's another name for it, Ruby had one... I don't feel like it was called Bugmash... It was something along those lines. But that's a lot of times for people who want to contribute the code, and a lot of people when they're just getting started out aren't familiar with the codebase and how things work, and they don't really have the confidence to contribute, so I think you won't get as many participants in those types of things as you will in like "Hey, you may not wanna jump in and contribute code, but you can contribute in these ways." By doing so, that will familiarize them with the project and the components and things like that, and then maybe build the confidence that way.
 
 One of the things I've seen in meetups too is a lot of people -- it takes them a long time to get the confidence to submit a changelist. They're always afraid that they're gonna get beat down... And sometimes you do, but people take it different ways. I think helping with the gardening is a way to build that confidence where you're familiar with the contributors to the project, you're familiar with who works on what and what are the right questions to ask, and the stages tickets go through, because you're used to being involved in that process.
 
-**Brad Fitzpatrick:** We at least have the Slack channel now for reviewers... The GoReviews one on the GopherSlack, so people can hang out there that are triaging stuff and doing gardening.
+**Brad Fitzpatrick:** We at least have the Slack channel now for reviewers... The [reviews](https://gophers.slack.com/messages/C029WG6AM) one on the GopherSlack, so people can hang out there that are triaging stuff and doing gardening.
 
 **Brian Ketelsen:** I didn't know this existed.
 
@@ -226,7 +226,7 @@ For example, I had never contributed to Go at all, but yesterday I took a little
 
 **Brad Fitzpatrick:** I personally hate our contributing process and that document that's so long and it scares so many people... There's not really many steps, but there's so many words around it that people see it and they just run away screaming and say "Why don't you use GitHub?"
 
-The answer is we probably should... I mean, when we transitioned to GitHub, it was kind of a really quick, forced migration because code.google.com was shutting down, so GitHub was the obvious place and they had the bug tracker, but we weren't really ready to give up Garrett, because code reviews on GitHub historically have been pretty terrible. They've gotten better over time, but we really liked Garrett. So we said, "Okay, well we'll use GitHub for the issue tracker, and the wiki and stuff like that, but the code review - we'll do it in Garrett and GitHub will just be a mirror." But it's probably time that we wrote tooling to accept GitHub pull requests, and at least for now convert them into Garrett changes automatically, so the review would happen on Garrett, Garrett would still be the upstream... But if someone only knew the GitHub flow, they could stay within the GitHub flow and send new PRs, revisions on the code review and then we just transparently update the Garrett CL. So probably we need to do that to start, but...
+The answer is we probably should... I mean, when we transitioned to GitHub, it was kind of a really quick, forced migration because code.google.com was shutting down, so GitHub was the obvious place and they had the bug tracker, but we weren't really ready to give up Garrett, because code reviews on GitHub historically have been pretty terrible. They've gotten better over time, but we really liked _Gerrit_. So we said, "Okay, well we'll use GitHub for the issue tracker, and the wiki and stuff like that, but the code review - we'll do it in _Gerrit_ and GitHub will just be a mirror." But it's probably time that we wrote tooling to accept GitHub pull requests, and at least for now convert them into _Gerrit_ changes automatically, so the review would happen on _Gerrit_, _Gerrit_ would still be the upstream... But if someone only knew the GitHub flow, they could stay within the GitHub flow and send new PRs, revisions on the code review and then we just transparently update the _Gerrit_ CL. So probably we need to do that to start, but...
 
 **Carlisia Pinto:** Yeah, because like I was saying, it was not hard to do, but it took a little bit of time, and it was a time that I broke down; like, I would read the paragraph and then do one thing, then go do something else... Like, "Argh! I don't wanna go through this whole thing!" So I went back and forth, and finally in a few hours I completed all the steps. But it's something that you have to do one time, and it's very demotivating if you're just going through that whole process, the whole text to just do one thing that's small.
 
@@ -238,19 +238,19 @@ Now that I have it there, it's super simple. I just have to find, "Okay, what co
 
 **Carlisia Pinto:** Exactly. \[laughs\] Got my time's worth.
 
-**Erik St. Martin:** The other thing that people might not be familiar with if you're just looking for stuff is there's a Help Wanted tag in the GitHub for Go.
+**Erik St. Martin:** The other thing that people might not be familiar with if you're just looking for stuff is there's a _Help Wanted_ tag in the GitHub for Go.
 
 **Carlisia Pinto:** Yeah, I was going through that right now.
 
-**Brad Fitzpatrick:** People always ask for us to use that more; they want more things... But I'm kind of against that label because we never seem to be able to use it correctly because there's never really a great definition of what it means. People want like an Easy or a Beginner Friendly label, but the problem is what is easy for one person is totally different for another user.
+**Brad Fitzpatrick:** People always ask for us to use that more; they want more things... But I'm kind of against that label because we never seem to be able to use it correctly because there's never really a great definition of what it means. People want like an _Easy_ or a _Beginner Friendly_ label, but the problem is what is easy for one person is totally different for another user.
 
-If something was truly trivial for everyone, it would have been fixed by now. We never really know -- and Help Wanted is kind of a silly label too, because we want help on every bug. I've been using Help Wanted more and more lately, but I basically just add it to everything... Which is fine, but I don't know. I feel like people should feel free to jump in and grab anything.
+If something was truly trivial for everyone, it would have been fixed by now. We never really know -- and _Help Wanted_ is kind of a silly label too, because we want help on every bug. I've been using _Help Wanted_ more and more lately, but I basically just add it to everything... Which is fine, but I don't know. I feel like people should feel free to jump in and grab anything.
 
-**Erik St. Martin:** Yeah, there was a project that I contributed to and I can't remember what it is - it might have been Ruby, or something... Their label was Bite-Sized, or something along those lines, which was kind of more like you could fit it in in one sitting - ost people anyway - rather than bigger implementations. Generics - you might do Help Wanted because you want people's opinion's on it, but that's certainly not something a new person is gonna sit down an hour just to get a contribution...
+**Erik St. Martin:** Yeah, there was a project that I contributed to and I can't remember what it is - it might have been Ruby, or something... Their label was _Bite-Sized_, or something along those lines, which was kind of more like you could fit it in in one sitting - most people anyway - rather than bigger implementations like _Generics_ - you might do _Help Wanted_ because you want people's opinion's on it, but that's certainly not something a new person is gonna sit down in an hour just to get a contribution...
 
-**Brian Ketelsen:** We need a GenericsMash.
+**Brian Ketelsen:** We need a _GenericsMash_.
 
-**Carlisia Pinto:** I wanna say something about the beginner label... I had an experience - when I was first starting to learn Go, I went to this big open source project, and they had a label for beginners (or Easy, or something) and I was going through the issues and I'm like "Holy smokes! This is hard. If this is beginner... Wow. What is intermediate? It's like rocket science kind of stuff." So it really scared me away, but I've been working with programming for a while, so I gave it a chance after I learned, and I can understand this stuff now.
+**Carlisia Pinto:** I wanna say something about the _Beginner_ label... I had an experience - when I was first starting to learn Go, I went to this big open source project, and they had a label for beginners (or _Easy_ or something) and I was going through the issues and I'm like "Holy smokes! This is hard. If this is _Beginner_... Wow. What is _Intermediate_? It's like rocket science kind of stuff." So it really scared me away, but I've been working with programming for a while, so I gave it a chance after I learned, and I can understand this stuff now.
 
 But like Brad was saying, if you label something that sounds like beginner level for you, it could be very complex for somebody else coming in. You can really get people freaked out. You've gotta be careful with those labels, but I like the idea of labeling based on bite-size or time chunks... That's good.
 
@@ -268,7 +268,7 @@ But like Brad was saying, if you label something that sounds like beginner level
 
 Actually, it was the last GopherCon that I gave a lightning talk about my motion detection security system. That's something like, whenever I have a few minutes I try to improve that a little bit.
 
-**Erik St. Martin:** Are you doing that in Go, or are you just using OpenCV?
+**Erik St. Martin:** Are you doing that in Go, or are you just using [OpenCV](https://opencv.org/)?
 
 **Brad Fitzpatrick:** No, it's almost all Go. I have a little Go server in the house that connects to the cameras, and gets their compressed MPEG stream of the video, and then I stream it outside of the house to a cloud instance that has more compute power. Then I have little FFMPEG child\_process that decodes the video, and it also does the EDGE detection that is built into the FFMPEG. Then I just output the raw pixels over standard out from FFMPEG and I read the raw pixels out of FFMPEG with the EDGE detection and I compute the delta over time of where the EDGEs move, and once it crosses certain thresholds and certain zones of the video, then it starts recording.
 
@@ -336,7 +336,7 @@ I have little processes in the background that go and generate GIFs from them, l
 
 **Erik St. Martin:** I still miss some of those days, too... I always ask people when they say they have the five-and-a-halves, it's like "Do you have \[unintelligible 00:31:04.06\]?" I betcha you can get that in the emulator now...
 
-**Brian Ketelsen:** You guys are so young... When I was a kid, we had to type in our applications from the back of Bite Magazine, and when you turned off the computer, the app went with it.
+**Brian Ketelsen:** You guys are so young... When I was a kid, we had to type in our applications from the back of Byte Magazine, and when you turned off the computer, the app went with it.
 
 **Erik St. Martin:** You had to type it in every time you wanted to use it?
 
@@ -380,7 +380,7 @@ It's funny though, because generations now probably don't even realize the irony
 
 **Brian Ketelsen:** Yeah.
 
-**Carlisia Pinto:** Probably. So we were talking about storage, and of course we need to talk about -- I don't know how to pronounce it... Camlistore?
+**Carlisia Pinto:** Probably. So we were talking about storage, and of course we need to talk about -- I don't know how to pronounce it... [Camlistore](https://en.wikipedia.org/wiki/Perkeep)?
 
 **Brad Fitzpatrick:** Yeah... The temporary name that was not temporary. I always thought I was gonna rename that one day.
 
@@ -394,17 +394,17 @@ I knew the data model I wanted, I knew the protocols I wanted; I had kept a bunc
 
 C++ is basically only usable if you have a giant standard library like Google and you have a good build system like Google, but otherwise the tooling for C++ is kind of painful. I'd written enough Python and Perl to know that it's not really great to write servers, because you have to either do lots of callbacks and all this sort of stuff, or you have really terrible performance... And I was writing Java for Android at the time, and I just had enough Java in me that I was just kind of done with it.
 
-This was about the time that Go was coming out, so I decided I would prototype my idea in Go first. I got into that riding on the bus, which was great, because I didn't need the internet, I had good (enough) tooling at the time... This was before Go commands, so you had to use makefiles, but it still compiled so quickly that it wasn't too bad... And I kept finding problems of things that were missing in the standard library and things that the HTTP package didn't get right, so I just started sending changes off to the Go team, which I guess at the time was Ross and Ian and Robert. Ross kept approving my HTTP stuff, and I kept sending more, and eventually I just switched to the Go team full-time.
+This was about the time that Go was coming out, so I decided I would prototype my idea in Go first. I got into that riding on the bus, which was great, because I didn't need the internet, I had good (enough) tooling at the time... This was before the `go` commands, so you had to use makefiles, but it still compiled so quickly that it wasn't too bad... And I kept finding problems of things that were missing in the standard library and things that the HTTP package didn't get right, so I just started sending changes off to the Go team, which I guess at the time was Ross and Ian and Robert. Ross kept approving my HTTP stuff, and I kept sending more, and eventually I just switched to the Go team full-time.
 
-I got an e-mail from Rob one day, and he was like "Hey, do you wanna do this full-time?" I had already done Android a few years at that point and it was pretty obvious that Android was here to stay... It wasn't a crazy idea anymore, so it was time for a new crazy idea. But now it looks like Go might be here to stay, too...
+I got an e-mail from [Rob](https://twitter.com/rob_pike) one day, and he was like "Hey, do you wanna do this full-time?" I had already done Android a few years at that point and it was pretty obvious that Android was here to stay... It wasn't a crazy idea anymore, so it was time for a new crazy idea. But now it looks like Go might be here to stay, too...
 
-**Carlisia Pinto:** \[unintelligible 00:36:18.26\]
+**Carlisia Pinto:** And now it's time for you to ove on...
 
-**Brad Fitzpatrick:** I don't know... I don't know what that would do.
+**Brad Fitzpatrick:** I don't know... I don't know what I would do.
 
 **Brian Ketelsen:** Yeah, I remember very specifically... Probably mid-2010, there was a good, solid time period where every change in Go was driven by a Camlistore change. It was easy to follow it like clockwork.
 
-**Brad Fitzpatrick:** All the HTTP stuff kind of came out of there, the database stuff came out of there, a lot of changes in the Strings package... Even Strings Contains, and the very basic things like that.
+**Brad Fitzpatrick:** All the HTTP stuff kind of came out of there, the database stuff came out of there, a lot of changes in the Strings package... Even `strings.Contains()`, and very basic things like that.
 
 **Carlisia Pinto:** So I took a look at Camlistore from watching your videos, and it's really cool. We have a few questions from listener ZelenHunter; his question about Camlistore specifically is "Will you go back to actively developing Camlistore?" I saw that you did have a release this month, but does that mean you're actively back to working on it?
 
@@ -418,11 +418,11 @@ I got an e-mail from Rob one day, and he was like "Hey, do you wanna do this ful
 
 **Carlisia Pinto:** That's cool.
 
-**Brad Fitzpatrick:** So then it came out, but it was like at a ugly IP address, and the security was over an HTTPS cert that was self-signed, and then I went off and I worked on LetsEncrypt support and I added that to the Golang. I worked with this other guy who implemented Acme, but then I made this Autocert package that's a Golang ex-Crypto Acme autocert... So we added that to Camlistore as well.
+**Brad Fitzpatrick:** So then it came out, but it was like at a ugly IP address, and the security was over an HTTPS cert that was self-signed, and then I went off and I worked on [LetsEncrypt](https://letsencrypt.org/) support and I added that to the Golang. I worked with this other guy who implemented Acme, but then I made this Autocert package that's a Golang x/crypto/acme/autocert... So we added that to Camlistore as well.
 
-Now Camlistore can get a LetsEncrypt \[unintelligible 00:38:33.16\] but we needed to do a domain name automatically, so when people created their own instance, they had one. Then we created this DNS server that you get a subdomain of Camlistore.net automatically, and we have a little protocol that's like Acme, and we'll give you any subdomain that you can prove that you have the key pair for; so you get like kind of an ugly domain name which is like a fingerprint of your key, .camlistore.net, and we'd automatically do a dying DNS server, and then you request a LetsEncrypt cert for that.
+Now Camlistore can get a LetsEncrypt certificate but we needed to do a domain name automatically, so when people created their own instance, they had one. Then we created this DNS server that you get a subdomain of Camlistore.net automatically, and we have a little protocol that's like Acme, and we'll give you any subdomain that you can prove that you have the key pair for; so you get like kind of an ugly domain name which is like a fingerprint of your key, .camlistore.net, and we'd automatically do a tie-in DNS server, and then you request a LetsEncrypt cert for that.
 
-The end result is you go through this wizard and you say "Create VM", and then 40-60 seconds later you have a running instance with a fully-trusted cert and domain name.
+The end result is you go through this wizard and you say `create vm`, and then 40-60 seconds later you have a running instance with a fully-trusted cert and domain name.
 
 **Brian Ketelsen:** How do you get around the subdomain rate limiting for LetsEncrypt? Because they have a pretty strict 20 subdomains/week limit.
 
@@ -436,11 +436,11 @@ The end result is you go through this wizard and you say "Create VM", and then 4
 
 **Carlisia Pinto:** Another question from this user is "How is the core Go team dealing with burnout?" I'm not even aware that the Go team has a burnout issue, but I thought it was a good question to ask in case this is the case. Can you talk a little about that?
 
-**Brad Fitzpatrick:** Yeah, it is getting a little bit repetitive. I know Andrew - he went to work on Upspin because he kind of needed a change... You know, you do the same thing for years and years, and it kind of gets a little repetitive.
+**Brad Fitzpatrick:** Yeah, it is getting a little bit repetitive. I know [Andrew](https://twitter.com/enneff) - he went to work on Upspin because he kind of needed a change... You know, you do the same thing for years and years, and it kind of gets a little repetitive.
 
 I'm kind of there myself, because I think Go 1.9 will be my 10th or 11th Go release, not counting all the point releases in the middle... And it's a little frustrating that you can't fix a lot of things and you keep seeing the same bug reports and the same proposals over and over and you have to keep duping all these bugs and say "Sorry, we can't change this", or "This would have to wait for some sort of Go 2"...
 
-I try to mix it up and do different tasks occasionally, and focus on different things... The HTTP/2 stuff I did for Go 1.6 was a good distraction, because I got to actually write code and think about new types of problems. Now I'm doing all these dashboards and stats on community interaction, which is interesting in some ways... And I've been focusing on Kubernetes defying all of our build infrastructure and all the microservices that run the Go build system... That's kind of been fun to learn about Kubernetes, but yeah, I definitely go through periods where things are very repetitive and boring, and then I have to find something new to do for a while.
+I try to mix it up and do different tasks occasionally, and focus on different things... The HTTP/2 stuff I did for Go 1.6 was a good distraction, because I got to actually write code and think about new types of problems. Now I'm doing all these dashboards and stats on community interaction, which is interesting in some ways... And I've been focusing on [Kubernetes](https://kubernetes.io/) defining all of our build infrastructure and all the microservices that run the Go build system... That's kind of been fun to learn about Kubernetes, but yeah, I definitely go through periods where things are very repetitive and boring, and then I have to find something new to do for a while.
 
 **Erik St. Martin:** Do you think that the frustration with not being able to change, and things like that, might help motivate more of a 2.0, or at least getting the thought process and talks going on about what 2.0 might look like?
 
@@ -452,7 +452,7 @@ Personally, my biggest concern is that another language would come out and would
 
 **Brad Fitzpatrick:** Which one is that?
 
-**Brian Ketelsen:** Crystal is the Ruby-alike that's written in C or C++ and it's fast as hell, compiles down to native... They've stolen all of goroutines and channels, the whole works, and it is actually really fast. The standard library still needs some work; it's not 1.0 yet. I was playing with it a weekend or two weekends ago, and it does feel like Ruby, and it is fastest \[unintelligible 00:42:54.20\] It'll be interesting to see...
+**Brian Ketelsen:** Crystal is the Ruby-alike that's written in C or C++ and it's fast as hell, compiles down to native... They've stolen all of goroutines and channels, the whole works, and it is actually really fast. The standard library still needs some work; it's not 1.0 yet. I was playing with it a weekend or two weekends ago, and it does feel like Ruby, and it is fast as greased lightning. It'll be interesting to see...
 
 **Erik St. Martin:** I always like tinkering with new languages.
 
@@ -460,7 +460,7 @@ Personally, my biggest concern is that another language would come out and would
 
 **Brian Ketelsen:** I don't remember... A small group in Europe, maybe.
 
-**Erik St. Martin:** That's crystal-lang.org.
+**Erik St. Martin:** That's [crystal-lang.org](https://crystal-lang.org/).
 
 **Brian Ketelsen:** It's sponsored by... I can't remember. Manas.tech is the company behind it.
 
@@ -490,7 +490,7 @@ I think that other prospective new languages at least have to question "Why are 
 
 **Erik St. Martin:** I think from the other side too, people don't wanna try the language because they want something they feel is complex... It tickles that part of you brain, like "Oh, I need to learn something super cool and complex", rather than what they feel is like an easier language. So it's hard to break that barrier to be like, "No, it doesn't matter your skill level, you're still gonna love it. I promise."
 
-**Brad Fitzpatrick:** Did you guys see YouTube is working on that Python runtime written in Go? I think Grumpy...
+**Brad Fitzpatrick:** Did you guys see YouTube is working on that Python runtime written in Go? I think [Grumpy](https://github.com/google/grumpy)...
 
 **Brian Ketelsen:** Oh, yeah.
 
@@ -504,11 +504,11 @@ I think that other prospective new languages at least have to question "Why are 
 
 **Erik St. Martin:** One of them was a Ruby-like language implemented in Go, and the other one was supposed to meet the actual Ruby spec.
 
-**Carlisia Pinto:** We're talking about languages now, but I'm dying to ask, and other people are asking, as well... Is there any prospect, and how good of a prospect is there if the answer is yes, for Go to have generics? I'm asking this because obviously a lot of people want to know, people ask all the time, and my understanding is that there has never been a No to this question. I think the door has always been open to that possibility.
+**Carlisia Pinto:** We're talking about languages now, but I'm dying to ask, and other people are asking, as well... Is there any prospect, and how good of a prospect is there if the answer is yes, for Go to have _Generics_? I'm asking this because obviously a lot of people want to know, people ask all the time, and my understanding is that there has never been a No to this question. I think the door has always been open to that possibility.
 
-**Brad Fitzpatrick:** Yeah, I think everybody basically wants it; there's not very much anti-generic sentiment on the team. I think we would all like it if we could put algorithms in the standard library, and more containers and data structures in the data library, or somewhere in some shared library, even if it's not built in the standard library. But there hasn't been a great proposal...
+**Brad Fitzpatrick:** Yeah, I think everybody basically wants it; there's not very much anti-generic sentiment on the team. I think we would all like it if we could put algorithms in the standard library, and more containers and data structures in the standard library, or somewhere in some shared library, even if it's not built in the standard library. But there hasn't been a great proposal...
 
-Ian Lance Taylor has written I think five or six proposals at this point, and every time he generally he generally rejects his own proposals. He has even implemented a few of them... So he's probably the one that will figure it out. I don't know if it will be his seventh or eighth proposal he writes... \[laughter\] But I think he's getting closer. He seems to like each one of his proposals a little bit more.
+Ian Lance Taylor has written I think five or six proposals at this point, and every time he generally rejects his own proposals. He has even implemented a few of them... So he's probably the one that will figure it out. I don't know if it will be his seventh or eighth proposal he writes... \[laughter\] But I think he's getting closer. He seems to like each one of his proposals a little bit more.
 
 **Carlisia Pinto:** And this is Ian who?
 
@@ -522,9 +522,9 @@ Ian Lance Taylor has written I think five or six proposals at this point, and ev
 
 **Brian Ketelsen:** The magic stuff that I wanna ignore.
 
-**Brad Fitzpatrick:** Yeah... Whenever there's some really bizarre UNIX question, like "Here's a process control groups with a TTI session leader and something gets a signal and something dies, blah-blah-blah...", he's like "Well, of course... In UNIX, this page of the specification does that, except from that version of UNIX, blah-blah-blah..." He knows how UNIX works and how low-level things work, and he also thinks a lot about languages, so...
+**Brad Fitzpatrick:** Yeah... Whenever there's some really bizarre UNIX question, like "Here's a process control group with a TTY session leader and something gets a signal and something dies, blah-blah-blah...", he's like "Well, of course... In UNIX, this page of the specification does that, except from that version of UNIX, blah-blah-blah..." He knows how UNIX works and how low-level things work, and he also thinks a lot about languages, so...
 
-The summary is -- I imagine if there's a Go 2, it would have generics. I don't think we would do a Go 2 without generics; it wouldn't be interesting enough. It would be too big of a change to do a Go 2 and break things without it being worth it. I imagine there probably will be a Go 2 at some point, I just don't know about timing.
+The summary is -- I imagine if there's a Go 2, it would have _Generics_. I don't think we would do a Go 2 without _Generics_; it wouldn't be interesting enough. It would be too big of a change to do a Go 2 and break things without it being worth it. I imagine there probably will be a Go 2 at some point, I just don't know about timing.
 
 **Erik St. Martin:** Yeah, and I don't think you wanna tell everybody "Generics in Go 3", when they see how long it takes to get to Go 2. They'll know it's never gonna happen.
 
@@ -550,7 +550,7 @@ The summary is -- I imagine if there's a Go 2, it would have generics. I don't t
 
 **Brian Ketelsen:** Nope.
 
-**Erik St. Martin:** So I hope I don't butcher his name, but I saw a project called periph.io, by Marc-Antoine Ruel. It's an alternative to Gobot. It doesn't need any supporting libraries or cgo and things like that... I was chatting with him a little bit about it, and I guess it can do bit banging in the Mhz range. We actually have him scheduled to be on the show in like two weeks, so we'll get into more detail... But really awesome for doing GPIO and I2C and SPI... You've just got one wire implemented into it too, so if you're messing around with BeagleBones or Raspberry Pi's and doing GPIO stuff, that's a really interesting project to check out.
+**Erik St. Martin:** So I hope I don't butcher his name, but I saw a project called [periph.io](https://periph.io/) by Marc-Antoine Ruel. It's an alternative to [Gobot](https://gobot.io/). It doesn't need any supporting libraries or CGO and things like that... I was chatting with him a little bit about it, and I guess it can do bit banging in the Mhz range. We actually have him scheduled to be on the show in like two weeks, so we'll get into more detail... But really awesome for doing GPIO and I2C and SPI... You've just got one-wire implemented into it too, so if you're messing around with BeagleBones or Raspberry Pi's and doing GPIO stuff, that's a really interesting project to check out.
 
 **Brian Ketelsen:** Sweet... Making barbecues. \[laughter\]
 
@@ -562,7 +562,7 @@ The summary is -- I imagine if there's a Go 2, it would have generics. I don't t
 
 **Brian Ketelsen:** So I have a cool project and a shoutout that I wanna make... One of our listeners was listening to GoTime while hiking across the Alps, and sent us an e-mail last week about his code generation tool, because he knows how much I like some code generation...
 
-This code generation tool is at GitHub.com/dave/jennifer, and unfortunately radio is not good for pictures... However, we'll try to find a way to post the picture of Dave standing on top of some giant Swiss Alps mountain, flashing us the Peace sign because he was listening to GoTime. So a shoutout to you, Dave... That's awesome. I think GoTime is probably the perfect thing to do to get you through the humdrum of hiking through those boring Alps.
+This code generation tool is at [github.com/dave/jennifer](https://github.com/dave/jennifer), and unfortunately radio is not good for pictures... However, we'll try to find a way to post the picture of Dave standing on top of some giant Swiss Alps mountain, flashing us the Peace sign because he was listening to GoTime. So a shoutout to you, Dave... That's awesome. I think GoTime is probably the perfect thing to do to get you through the humdrum of hiking through those boring Alps.
 
 **Carlisia Pinto:** Does Dave have a last name?
 
@@ -570,9 +570,9 @@ This code generation tool is at GitHub.com/dave/jennifer, and unfortunately radi
 
 **Erik St. Martin:** What does "It is GoTime" announcement sound like after you've climbed a mountain?
 
-**Brian Ketelsen:** \[laughs\] Heaven. It sounds like heaven. So that was one. Then the other awesome announcement is from GitHub.com/myitcv, and that is React bindings for GopherJS. Now it offers Preact support, which is awesome, because Preact is so much smaller than React... So I am really looking forward to getting some downtime and playing with GopherJS React bindings.
+**Brian Ketelsen:** \[laughs\] Heaven. It sounds like heaven. So that was one. Then the other awesome announcement is from [github.com/myitcv/react](https://github.com/myitcv/react), and that is React bindings for [GopherJS](https://github.com/gopherjs/gopherjs). Now it offers Preact support, which is awesome, because Preact is so much smaller than React... So I am really looking forward to getting some downtime and playing with GopherJS React bindings.
 
-These are specifically cool (these are from Paul Jolly, by the way), because they do code generation for all the yucky stuff. So you just implement a couple interfaces and then type "go generate" and it generates all of the Go code, which then gets transpiled into GopherJS code, which talks to React or Preact.
+These are specifically cool (these are from Paul Jolly, by the way), because they do code generation for all the yucky stuff. So you just implement a couple interfaces and then type `go generate` and it generates all of the Go code, which then gets transpiled into GopherJS code, which talks to React or Preact.
 
 **Erik St. Martin:** Brad, you're doing a bunch of GopherJS stuff too, right?
 
@@ -584,9 +584,9 @@ These are specifically cool (these are from Paul Jolly, by the way), because the
 
 **Brian Ketelsen:** Oh, thank you. Dave Brophy, you're absolutely right.
 
-**Carlisia Pinto:** Don't thank me, thank Florian Patan.
+**Carlisia Pinto:** Don't thank me, thank [Florin Patan](https://twitter.com/dlsniper).
 
-**Brian Ketelsen:** Oh, good job, Florian! That's why we have a pool of listeners in the GopherSlack, to help us out.
+**Brian Ketelsen:** Oh, good job, Florin! That's why we have a pool of listeners in the GopherSlack, to help us out.
 
 **Erik St. Martin:** Yeah, why are we the hosts? They seem to know more than we do.
 
@@ -602,7 +602,7 @@ These are specifically cool (these are from Paul Jolly, by the way), because the
 
 **Brian Ketelsen:** Is that on Reddit?
 
-**Carlisia Pinto:** Yeah. Reddit has a huge thread titled "Is Go 2 actually happening? If so, when will it happen?" It's very long.
+**Carlisia Pinto:** Yeah. Reddit has a huge thread titled [Is Go 2 actually happening? If so, when will development start?](https://www.reddit.com/r/golang/comments/65rqi6/is_go_2_actually_happening_if_so_when_will/) It's very long.
 
 **Erik St. Martin:** Interestingly, we just talked about that, and what it might need to include, and roughly the timeline... You were kind of saying the ten-year mark probably seems right, but it sounds like discussions would be had about what it needs to look like, and proposals and stuff like that would happen in the meantime.
 
@@ -636,7 +636,7 @@ These are specifically cool (these are from Paul Jolly, by the way), because the
 
 **Erik St. Martin:** Yeah, and that's where the dilemma comes in, right? Because being in the standard library has its advantage because, for example, I remember starting out doing Go - it was ridiculously easy to do HTTP stuff, because I didn't have to find a library for it, or write one, or which one of the 15 is the canonical one, that people use? But also, the more that's in the standard library, the more that has to meet the Go 1 guarantee, right? It's not able to be changed. So moving it out allows things to move at a quicker pace.
 
-**Brad Fitzpatrick:** Yeah. The most interesting thing about having things in the standard library is you center the whole ecosystem around certain types. Everyone uses time.time and time.duration, or context now, you know? Rather than saying, "Oh, which context package do you use?" or "Which time package do you use?"
+**Brad Fitzpatrick:** Yeah. The most interesting thing about having things in the standard library is you center the whole ecosystem around certain types. Everyone uses `time.time` and `time.duration`, or `context.now`, you know? Rather than saying, "Oh, which context package do you use?" or "Which time package do you use?"
 
 This is why we even added DatabaseSQL originally to the standard library, because we were watching and there were like four or five databases that had totally different interfaces on GitHub, for MySQL versus SQLite, versus some Postgres... So we added it to Go 1 just to kind of unify the ecosystem to feel the same way. But I don't know... So what's the minimum standard library you could have?
 
@@ -650,7 +650,7 @@ Those things I think are needed, especially for adoption, because a lot of peopl
 
 **Erik St. Martin:** I think there's a lot of interesting tools coming out now though, to find packages and tooling, right? A good example, and we talk about it all the time, is -- it's escaping me... The plugin we use in Chrome...
 
-**Brian Ketelsen:** Sourcegraph?
+**Brian Ketelsen:** [Sourcegraph](https://about.sourcegraph.com/)?
 
 **Erik St. Martin:** Sourcegraph, yeah. That's a really interesting thing too, to find packages and see how they're used and see how many other people are using them. So is the problem really that they have to be in the standard library, or is it that we just need better ways to finding these things?
 
@@ -684,7 +684,7 @@ It'd be cool to do a survey through the community and see what everybody agrees 
 
 **Brian Ketelsen:** Delete it.
 
-**Brad Fitzpatrick:** Well... But the, you know, our package management tools are kind of nonexistent or suck, and so then I would break lots of people, and I would cause I even more problems.
+**Brad Fitzpatrick:** Well... But the, you know, our package management tools are kind of nonexistent or suck, and so then I would break lots of people, and I would cause even more problems.
 
 **Brian Ketelsen:** Left-pad...
 
@@ -700,33 +700,33 @@ People, for fun, implement the mandelbrot set, or something, but other than that
 
 On the other hand, lots of things relatively use bigints, and those are kind of a pain to use because you can't use + and - and the built in operators; you have to call all these methods. So we're kind of in this weird position where complex numbers are first class in Go, but nobody uses them, but big integers used in Crypto and stuff are not easy to use.
 
-There's another proposal from Rob to make bigints just be automatic. The int type, rather than being 32 bits on 32-bit machines and 64 bits on 64-bit machines, it's just... An int means a bigint, and you implement it as efficiently and possible, and you have the compiler prove things, so if the compiler can prove it's never \[unintelligible 01:07:44.14\] 64 bit, then it's actually a 64-bit int, but if it's unprovable, then it's a bigint behind the scenes.
+There's another proposal from Rob to make bigints just be automatic. The int type, rather than being 32 bits on 32-bit machines and 64 bits on 64-bit machines, it's just... An int means a bigint, and you implement it as efficiently and possible, and you have the compiler prove things, so if the compiler can prove it's never bigger than 64 bit, then it's actually a 64-bit int, but if it's unprovable, then it's a bigint behind the scenes.
 
-**Erik St. Martin:** I think my first thing that I would get rid of is new.
+**Erik St. Martin:** I think my first thing that I would get rid of is `new`.
 
-**Brian Ketelsen:** New vs make?
+**Brian Ketelsen:** `new` vs. `make`?
 
-**Erik St. Martin:** I mean, most people don't use it, so it usually only confuses newcomers, right? Most of us just declare a literal and get the pointer to it. And you find that a lot of people coming into the language, it looks like there's multiple ways of declaring stuff, right? You can do var name equals, you know... Whatever the value is, add the \[unintelligible 01:08:19.16\] or you can do the quick short declaration operator, or you can do new... I think there's too many ways, so it's hard -- we always want consistency in the code, right? So that's probably something I see from newcomers all the time, where it'll get mixed in this confusion, what they use when, and... Although I do find it kind of ugly when you see an empty struck literal being declared and getting a pointer to it... You're not initializing it with anything; why are you using the literal? How about you, Brian? Is there anything you'd get rid of, you'd X first thing?
+**Erik St. Martin:** I mean, most people don't use it, so it usually only confuses newcomers, right? Most of us just declare a literal and get the pointer to it. And you find that a lot of people coming into the language, it looks like there's multiple ways of declaring stuff, right? You can do `var name =`, you know... Whatever the value is, add & or you can do the quick short declaration operator, or you can do `new`... I think there's too many ways, so it's hard -- we always want consistency in the code, right? So that's probably something I see from newcomers all the time, where it'll get mixed in this confusion, what they use when, and... Although I do find it kind of ugly when you see an empty struck literal being declared and getting a pointer to it... You're not initializing it with anything; why are you using the literal? How about you, Brian? Is there anything you'd get rid of, you'd X first thing?
 
-**Brian Ketelsen:** Make... \[laughter\]
+**Brian Ketelsen:** `make`... \[laughter\]
 
 **Erik St. Martin:** So then, what would your proposal be to declare things, like slices and arrays?
 
-**Brian Ketelsen:** We already have lots of ways to declare memory... I don't think make adds anything to the bundle, and it just adds confusion. This is coming from someone who teaches Go. Why do we have to make slices and why do we have to make maps, when we declare everything else with var?
+**Brian Ketelsen:** We already have lots of ways to declare memory... I don't think `make` adds anything to the bundle, and it just adds confusion. This is coming from someone who teaches Go. Why do we have to make slices and why do we have to make maps, when we declare everything else with var?
 
 **Erik St. Martin:** But the interesting thing here though is that you can also declare capacity, right? And in some cases that matters.
 
 **Brian Ketelsen:** I'm not arguing whether it's useful, I'm just arguing that I would change it somehow. I don't have any solutions.
 
-**Brad Fitzpatrick:** Well, if Go 2 had generics, you can imagine slices and maps being a type in a package in the standard library, and you can set bytes.new, or slice.new, or maps.new, or something like that.
+**Brad Fitzpatrick:** Well, if Go 2 had _Generics_, you can imagine slices and maps being a type in a package in the standard library, and you can set bytes.new, or slice.new, or maps.new, or something like that.
 
 **Erik St. Martin:** Yeah, that's true, too.
 
 **Brian Ketelsen:** See?
 
-**Erik St. Martin:** Yeah. How about you, Carlisia? What would you x?
+**Erik St. Martin:** Yeah. How about you, Carlisia? What would you ax?
 
-**Carlisia Pinto:** I can't think of anything, but I really like your idea, to get rid of new. I'd vote for that.
+**Carlisia Pinto:** I can't think of anything, but I really like your idea Erik, to get rid of `new`. I'd vote for that.
 
 **Erik St. Martin:** Yeah, and it's just rethinking the way things are declared. There's just a lot of ways till you run across many of them... A lot of people who have been around the language have their standard way of doing things in different use cases, but...
 
@@ -753,3 +753,106 @@ There's another proposal from Rob to make bigints just be automatic. The int typ
 **Erik St. Martin:** Yeah, that's interesting. And I guess that that would become a problem too, because some of the libraries assume the output is a string, rather than a slice of bytes, so you're kind of stuck there.
 
 **Brad Fitzpatrick:** I think that's one of the other big things that needs to be changed, the fact that slices of bytes and strings are so identical, but also so separate that you have to have the whole bytes package and the strings package that are duplicated, and switching between those worlds is so expensive... I don't know. It's really gross.
+
+**Erik St. Martin:** That happens a lot because most packages end up assuming you want to deal with strings so your package takes in your string and then it does a bunch of stuff as a byte slice with it and then returns you a string but the problem is when we start glueing those libraries together we have it wrapped around of this conversion doing  from strings and byte slices.
+
+**Brad Fitzpatrick:** Actually, I had a proposal way back to rechange the language in the whole standard library to assume there was a type that meant a readable view of memory. A string promises that nobody in the world can ever change it including you and a byte slice says you can change it and other people could be changing it but there is no type that basically accepts either a byte slice or a string. So I had a proposal back in the day to add a view of memory type. So you could write a function that accepted either a byte slice or a string and did some operation on it but you were not allowed to write to it and maybe somebody else owned it. So I prototyped the whole standard library with it and [Russ](https://twitter.com/_rsc) even implemented it for a while or he implemented enough of it to decide he didn't like it. I think the docs are still online at x.godoc.appspot.com. It's kind of fun to look at what the standard library would look like if the type existed.
+
+**Erik St. Martin:** That's interesting. So basically it could  accept a string or a slice of bytes. You just wouldn't be able to write to it you could only read.
+
+**Brad Fitzpatrick:** Yeah, I had this [mem](http://expgodoc.appspot.com/pkg/exp/mem/) package and there was a `mem.rw` type and a `mem.ro` type and so the read only memory type or the writable memory type.
+
+**Erik St. Martin:** I'd be interested to actually see that proposal.
+
+**Brad Fitzpatrick:** I just pasted a link in the Slack channel to the docs for it.
+
+**Erik St. Martin:** Alright, everybody wanna do _Free Software Friday_?
+
+**Erik St. Martin:** I am gonna take silence as a _Yes_. \[laughter\]
+
+**Carlisia Pinto:** Yep, let's do it.
+
+**Brian Ketelsen:** Sorry I was muted because of all the various saws in my house right now.
+
+**Erik St. Martin:** Oh your construction?
+
+**Brian Ketelsen:** Yeah.
+
+**Erik St. Martin:** Every week we'd like to give a shoutout to projects or maintainers of open source software to show the love. So this week Carlisia do you want to kick it off?
+
+**Carlisia Pinto:** Yeah, so this week I wanna give a shoutout to the [Changelog](https://github.com/thechangelog/changelog.com) website. It's a piece of art and especially I'd want to give a shoutout to Jerod because he is the main lead on that project and I especially love the _Search_ feature. It makes me so happy. If you are a listener and you are interested in any subject related to Go you can go to the Changelog website - the GoTime website and do a _Search_ for that and there might be one or more episodes that talk about that. It's fantastic. You may find a reference to it in the shownotes or you may find episodes that talk about that topic.
+
+**Brian Ketelsen:** Nice!
+
+**Erik St. Martin:** How about you Brian?
+
+**Brian Ketelsen:** Well I have done this before but I am gonna do it again because it just makes me happy. [Buffalo](http://gobuffalo.io/docs/getting-started) for web development. It just cannot knock out a website any faster in Go than you can with Buffalo and somebody asked me in the Buffalo channel on Slack today whether anybody had any production use and I thought Gosh I've had that GopherCon website in production since the beginning of the year, the GopherAcademy website, the GopherTrain website... I probably got 5 or 6 Buffalo websites in production and they are all just humming along so beautifully.
+
+**Erik St. Martin:** It seems like the GopherCon and GopherAcademy website are staging environments for any cool project written in Go. We had Caddy running way early and we shouldn't have had it in production.. and ah let's launch the GopherCon website with it...
+
+**Brian Ketelsen:** Why not...I have a good eye for picking these things I am telling you.
+
+**Erik St. Martin:** We had Hugo among the CMS stuff and ,,,,
+How about you Brad did you have anybody you'd wanna give a shoutout to?
+
+**Brad Fitzpatrick:** No, no I am busy reviewing Carlisias code review... \[laughter\]
+
+**Brian Ketelsen:** Ship it! Ship it?
+
+**Carlisia Pinto:** It worked! Nice, thank you!
+
+**Brad Fitzpatrick:** Yeah, no problem.
+
+**Erik St. Martin:** I did not have one this week because I had'nt been doing a whole lot of new stuff. I just give a shoutout to all the people who are contributing libaries for sensors and things like that for Arduino because on last minute notice Brian and I were able to throw together something very quickly to stream barbecue data for when we do our pig.
+
+**Brian Ketelsen:** It was so awesome. It was epic. Best Easter ever.
+
+**Erik St. Martin:** I love some of the conversions though I think that need a CRC between the chips because I don't think like 4 billion degrees is a thing. \[laughter\]
+
+**Brian Ketelsen:** That's how you get the caramelization on the skin.
+
+**Erik St. Martin:** Right. It's like alternate simmering right there.
+
+**Carlisia Pinto:** We were so fast this time and we are not gonna talk about the Docker name change?
+
+**Brian Ketelsen:** No. We are not talking about the Docker name change because we don't want Brian's blood pressure to go any higher than it already is.
+
+**Carlisia Pinto:** Let it go...
+
+**Erik St. Martin:** \[laughter\]
+
+**Carlisia Pinto:** Alright then.
+
+**Erik St. Martin:** Alright so with that a big thank you to everybody on the show especially to Brad for coming on. Huge shoutout to our sponsors for today [Toptal](https://www.toptal.com/) and [Datadog](https://www.datadoghq.com/). Definitely share the show with fellow Go programmers, coworkers, friends. You can subscribe by going to [GoTime.fm](http://gotime.fm) we are on [Twitter](https://twitter.com/GoTimeFM). If you have suggestions for topics, questions for guests or you wanna be on the show hit us up on [github.com/GoTimeFM/ping](https://github.com/GoTimeFM/ping).. And with that, goodbye everybody and we'll see you next week!
+
+**Brian Ketelsen:** Thank you Brad!
+
+**Brad Fitzpatrick:** Yep! Yep!
+
+**Carlisia Pinto:** Goodbye!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
