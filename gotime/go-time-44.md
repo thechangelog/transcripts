@@ -660,7 +660,7 @@ I think the difficulty comes in maintenance though too, right? If it's in the st
 
 **Erik St. Martin:** So what is the Go team's stance on the promotion of other libraries outside of the standard library. For instance, as a thought experiment, if these things did not exist, people would probably look to the Go team to point them towards the things they should be using. What's the Go team's stance on things like that? If there was another HTTP library that was somehow better, would the Go team direct people towards that? Or do you try to stay out of other people's projects and the promotion of them?
 
-**Brad Fitzpatrick:** I mean, we don't have a policy for or against it. Mostly we stay out of it because we don't really have the time to do unsolicited code reviews around the community. We used to promote - and we still promote - the miekg DNS library. Whenever someone has some kind of esoteric DNS needs, we say "here is your esoteric DNS package that does everything." So yeah, we definitely refer people when there's an answer.
+**Brad Fitzpatrick:** I mean, we don't have a policy for or against it. Mostly we stay out of it because we don't really have the time to do unsolicited code reviews around the community. We used to promote - and we still promote - the [miekg DNS library](https://github.com/miekg/dns). Whenever someone has some kind of esoteric DNS needs, we say "here is your esoteric DNS package that does everything." So yeah, we definitely refer people when there's an answer.
 
 **Erik St. Martin:** I think as long as there's guidance from the veterans towards things, that they should be used... I don't know how much -- I kind of wanna go through one night and just look through it and check off ones I don't think would be useful.
 
