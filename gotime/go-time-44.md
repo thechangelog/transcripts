@@ -786,14 +786,13 @@ There's another proposal from Rob to make bigints just be automatic. The int typ
 
 **Erik St. Martin:** How about you Brian?
 
-**Brian Ketelsen:** Well I have done this before but I am gonna do it again because it just makes me happy. [Buffalo](http://gobuffalo.io/docs/getting-started) for web development. It just cannot knock out a website any faster in Go than you can with Buffalo and somebody asked me in the Buffalo channel on Slack today whether anybody had any production use and I thought Gosh I've had that GopherCon website in production since the beginning of the year, the GopherAcademy website, the GopherTrain website... I probably got 5 or 6 Buffalo websites in production and they are all just humming along so beautifully.
+**Brian Ketelsen:** Well I have done this before but I am gonna do it again because it just makes me happy. [Buffalo](http://gobuffalo.io/docs/getting-started) for web development. It just cannot knock out a website any faster in Go than you can with Buffalo and somebody asked me in the Buffalo channel on Slack today whether anybody had any production use and I thought Gosh I've had that GopherCon website in production since the beginning of the year, the [GopherAcademy](https://www.gopheracademy.com/) website, the GopherTrain website... I probably got 5 or 6 Buffalo websites in production and they are all just humming along so beautifully.
 
-**Erik St. Martin:** It seems like the GopherCon and GopherAcademy website are staging environments for any cool project written in Go. We had Caddy running way early and we shouldn't have had it in production.. and ah let's launch the GopherCon website with it...
+**Erik St. Martin:** It seems like the GopherCon and GopherAcademy website are staging environments for any cool project written in Go. We had [Caddy](https://caddyserver.com/) running way early and we shouldn't have had it in production.. and ah let's launch the GopherCon website with it...
 
 **Brian Ketelsen:** Why not...I have a good eye for picking these things I am telling you.
 
-**Erik St. Martin:** We had Hugo among the CMS stuff and ,,,,
-How about you Brad did you have anybody you'd wanna give a shoutout to?
+**Erik St. Martin:** We had [Hugo](https://gohugo.io/) among the CMS stuff and \[unintelligible 01:16:50\]. How about you Brad did you have anybody you'd wanna give a shoutout to?
 
 **Brad Fitzpatrick:** No, no I am busy reviewing Carlisias code review... \[laughter\]
 
@@ -803,7 +802,7 @@ How about you Brad did you have anybody you'd wanna give a shoutout to?
 
 **Brad Fitzpatrick:** Yeah, no problem.
 
-**Erik St. Martin:** I did not have one this week because I had'nt been doing a whole lot of new stuff. I just give a shoutout to all the people who are contributing libaries for sensors and things like that for Arduino because on last minute notice Brian and I were able to throw together something very quickly to stream barbecue data for when we do our pig.
+**Erik St. Martin:** I did not have one this week because I hadn't been doing a whole lot of new stuff. I just give a shoutout to all the people who are contributing libaries for sensors and things like that for Arduino because on last minute notice Brian and I were able to throw together something very quickly to stream barbecue data for when we do our pig.
 
 **Brian Ketelsen:** It was so awesome. It was epic. Best Easter ever.
 
