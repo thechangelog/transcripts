@@ -162,7 +162,7 @@ And yeah, it just helps you keep your project in shape, and make it so that ever
 
 I think it's important for the entire bot ecosystem and app ecosystem to think about, as our lives become kind of surrounded by robots, I think it's gonna get to the point where we're just overwhelmed, and we're around all these dumb robots that don't care about us as humans. But as long as the designers of those robots are remembering that there's humans on the other side of that, I think that we can design good interactions.
 
-**Jerod Santo:** There's also that uncanny value of when a robot almost sounds human -- it's almost like Siri a lot of times, or the Google equivalent... It will be more annoying because it's so close to being sentient, but it's not, you know?
+**Jerod Santo:** There's also that uncanny valley of when a robot almost sounds human -- it's almost like Siri a lot of times, or the Google equivalent... It will be more annoying because it's so close to being sentient, but it's not, you know?
 
 **Brandon Keepers:** Exactly.
 
