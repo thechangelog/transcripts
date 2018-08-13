@@ -1,5 +1,3 @@
-\[00:01:45.22\]
-
 **Tim Smith:** Where do I even begin to introduce Jeff Robbins? You see, Jeff has had a few different successful careers in a time that most of us get around to one. He worked on the web before there was a web. He started a company that's built some of the most famous websites, and as if that weren't enough, he was in a band in the '90s that signed with A&M Records, toured the U.S. and Canada and played at some of the coolest events. So where exactly does Jeff's story begin? In a magical place called the '80s.
 
 **Jeff Robbins:** \[laughs\] Okay, let's go into the way-back machine, Tim. Man, I mean, I've been interested in computers and that kind of stuff for a long time, and I'm old, so it goes way back... In the '80s my dad bought a IBM PC Junior, which was like the cheaper one that people could afford for their house, and I started learning basic programming on that, and then I -- yeah, I did all kinds of stuff... I had a Hewlett Packard programmable calculator that I'd won in the State Math Fair -- or the Science Fair... In my town it was the Math Fair, and then we went to the State Science Fair... And I won this calculator and I programmed it to play Monopoly... So you know, I'm a nerd going waay back to the '80s.
@@ -64,7 +62,7 @@ The metaphor I always use is like "It would be really cool to swim across this l
 
 There's some lessons in there somewhere for somebody, I'm sure... But yeah, that's how I work.
 
-**Break:** \[00:13:52.21\] to \[00:16:28.03\]
+**Break:** \[00:13:52.21\]
 
 **Tim Smith:** When and Jeff and Matt Westgate started Lullabot in 2006, they decided that it would be a distributed company from day one.
 
@@ -123,5 +121,3 @@ You know, it's taken me a good period of time to find my identity. For so long i
 And then I started a new band last year, and we put out a five-song EP earlier this year, and it's been getting really good reviews and responses. I just had a show on Saturday, and it was really great. It feels really good to be exercising those muscles again, recording, and the more entrenched, creative side of things.
 
 I think that business is creative, and it ought to be creative, but kind of at scale, when there's a lot of money involved, and I guess a lot of people involved too, you wanna double-check; you wanna make sure the math adds up... So it's just really nice to be back where I can just, like, "I'm gonna write a song that has one note. The whole song is just one note. I can do that." People are gonna say "Oh, that's weird, I'm curious to listen to it", not like "Oh my God, you're gonna drive our company into the ground!" \[laughter\] You know, like "That's a crazy idea! Why would you do that?!" So it's nice to have that outlet, and it's a nice balance.
-
-Break: \[00:29:17.25\] to \[00:31:00.12\]
