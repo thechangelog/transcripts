@@ -88,7 +88,7 @@ Another place to go look on the web for ideas around understanding why the biase
 
 **Jerod Santo:** I see. So that means displaying to the end user why -- let's say a recommendation engine for an example, because that's one place that we see machine learning applied a lot... You know, why this particular thing is being recommended to me by Amazon - because it is based on a model, and it will actually just say "Based on this, this and this." Is that what you're saying?
 
-**Camille Eddy:** Yeah, that's a good example. Let's do another one - another similar example is Facebook... Why do I see what's in my Facebook feed? Is it because someone liked it, is it because I know commented on it? Is it because I've liked this thing before? Is it because somewhere back in the day I liked this particular page, and maybe I wanna unlike it, or is it because it's based on my geographic location? Google also does this - they have like 21 or more different points that they look at when you do a search, like where you are located, what have you searched before, what kind of things have you bought, \[unintelligible 00:11:27.02\]
+**Camille Eddy:** Yeah, that's a good example. Let's do another one - another similar example is Facebook... Why do I see what's in my Facebook feed? Is it because someone liked it, is it because I know commented on it? Is it because I've liked this thing before? Is it because somewhere back in the day I liked this particular page, and maybe I wanna unlike it, or is it because it's based on my geographic location? Google also does this - they have like 21 or more different points that they look at when you do a search, like where you are located, what have you searched before, what kind of things have you bought, what are these socks and where are they coming from?
 
 And it's not just the end user that needs to know this, it's also the developer. I think Facebook is a really good example of this again... Because the developers have some of those tools and information, they just don't let us see it, which is up to them... But to release some more of those tools and have more transparency I think would help bring us along a little bit more.
 
@@ -194,7 +194,7 @@ And then also just learning more... Right now I'm working on autonomous cars, wh
 
 **Camille Eddy:** Yeah, immersed in academics is not really what I wanna be, so I'm really looking forward to finishing up and getting back to being immersed in these other really cool technologies that are popping up.
 
-**Adam Stacoviak:** So if we have any \[unintelligible 00:23:09.06\] girls that are listening to this show, or anybody that would benefit from Girl STEM Stars - is that it...?
+**Adam Stacoviak:** So if we have any young girls that are listening to this show, or anybody that would benefit from Girl STEM Stars - is that it...?
 
 **Camille Eddy:** Yeah.
 
@@ -228,7 +228,7 @@ And then also just learning more... Right now I'm working on autonomous cars, wh
 
 **Adam Stacoviak:** Yeah, legit. I was just thinking, having ETS myself out of the military at one point, all the process they have, as you leave... All the different briefings you've gotta do, all the ceremony involved in exiting the military in an honorable status, that that would be a great time to mention, "Hey, there's Vets Who Code, and as you look to new opportunities, there's this opportunity for you."
 
-**Jerome Hardaway:** In my opinion - I'm not an expert - I think it's well before that. If you look at the current tech hiring process, the current situation we're in, if you're gonna actually look at technology as a viable sector to transition in, you need to be focusing on that like six months to a year before you get out, simply because it will take you 3-4 months just in building relationships and making sure your portfolio is right, your GitHub is correct, you're building relationships in your community based upon where you want to live, where you want to move, you've dwindled down all of the \[unintelligible 00:27:16.02\] two or three recruiters that are actually gonna focus on knowing your strengths and your weaknesses and building that relationship with them. So I will argue a year to six months before you hit that transition button.
+**Jerome Hardaway:** In my opinion - I'm not an expert - I think it's well before that. If you look at the current tech hiring process, the current situation we're in, if you're gonna actually look at technology as a viable sector to transition in, you need to be focusing on that like six months to a year before you get out, simply because it will take you 3-4 months just in building relationships and making sure your portfolio is right, your GitHub is correct, you're building relationships in your community based upon where you want to live, where you want to move, you've dwindled down all of the recruiter soup that you're going to get and find two or three recruiters that are actually gonna focus on knowing your strengths and your weaknesses and building that relationship with them. So I will argue a year to six months before you hit that transition button.
 
 **Adam Stacoviak:** Yeah, it's a tough position in any soldier's life, regardless of what they did at their service. It could have been a three-year foreign engagement, they could have been deployed, they could have just been on a base... Either way, transitioning out of and back into civilian life once you've been through the process of being in the military is an experience nonetheless.
 
@@ -236,7 +236,7 @@ And then also just learning more... Right now I'm working on autonomous cars, wh
 
 **Adam Stacoviak:** Is this a free program for veterans? How does it work? What's the charge?
 
-**Jerome Hardaway:** Yes, we don't charge veterans a dime. It's all about \[unintelligible 00:28:04.15\] Usually, the average veteran that comes to our program - they're stuck, they have been trying to learn how to code, they've hit a brick wall... Like there's so much stuff on the internet and you don't know which direction to go, and that's our job.
+**Jerome Hardaway:** Yes, we don't charge veterans a dime. It's all about finding the veterans that have the most promise. Usually, the average veteran that comes to our program - they're stuck, they have been trying to learn how to code, they've hit a brick wall... Like there's so much stuff on the internet and you don't know which direction to go, and that's our job.
 
 \[00:28:18.28\] We not only point them in the right directions, we provide a curriculum for them to go through. As they get more advanced, we supply a mentor, and these are the processes that we do; then we start helping them with the process of prepping for a job. We help them with interview prep, resume, looking at your portfolio, looking at your GitHub, looking at your LinkedIn, looking at how you present yourself when it comes to your resume - all of these things that come into play, and we make sure that everybody who's telling you advice, they've walked that road.
 
@@ -248,7 +248,7 @@ I'm at CBSI. Our primary CTO - he is at USAA, and then we have our CDO who's at 
 
 **Jerod Santo:** Well, if you haven't got a job... I mean...
 
-**Jerome Hardaway:** It's really cool, because it's my way of creating the type of community that I like, people who are goofy and serious... I like the work hard/play hard types; we are gonna finish this project, but I wanna play cards \[unintelligible 00:29:51.25\] after this, too. We have a hard deadline for \[unintelligible 00:29:55.20\] Let's go! These are the types of veterans that I find.
+**Jerome Hardaway:** It's really cool, because it's my way of creating the type of community that I like, people who are goofy and serious... I like the work hard/play hard types; we are gonna finish this project, but I wanna play Cards Against Humanity after this, too. We have a hard deadline for Cards Against Humanity Let's go! These are the types of veterans that I find.
 
 **Jerod Santo:** You mentioned finding the ones that are serious... How do you judge that? How do you formalize that?
 
@@ -266,7 +266,7 @@ Then after that we have a technical interview; another person, that way there is
 
 **Jerod Santo:** This is an analogy I've never heard.
 
-**Jerome Hardaway:** \[unintelligible 00:31:48.14\] I box in my spare time to release stress, so...
+**Jerome Hardaway:** As a person who is in the military, box, and does programming, I box in my spare time to release stress, so...
 
 **Jerod Santo:** \[00:31:56.04\] You see the parallels.
 
@@ -278,7 +278,7 @@ Then after that we have a technical interview; another person, that way there is
 
 **Jerod Santo:** Interesting.
 
-**Adam Stacoviak:** That's some military \[unintelligible 00:32:16.13\] for you... Complacency kills.
+**Adam Stacoviak:** That's some military word there for you... Complacency kills.
 
 **Jerod Santo:** Yeah, for sure.
 
@@ -312,7 +312,7 @@ Secondly, everything that we do in the military these days are a lot of procedur
 
 There are people that I know today that four years ago I was in awe of. I've turned my heroes into my peers. That is cray. \[laughter\] You can't put a price on that type of experience. That's what helps me get up at 04:30 in the morning, and start focusing on making myself a better person.
 
-**Jerod Santo:** \[00:35:52.13\] Yeah. "Embrace the suck" reminds me of a saying -- a distinction that I've heard lots of times is like there's good suck and there's bad suck. This is the good suck, and that's the one you have to embrace... Like "Yeah, this is hard, this is harsh, this sucks", but you know what's at the end of the road is good. There's all that stuff that sucked \[unintelligible 00:36:07.18\]
+**Jerod Santo:** \[00:35:52.13\] Yeah. "Embrace the suck" reminds me of a saying -- a distinction that I've heard lots of times is like there's good suck and there's bad suck. This is the good suck, and that's the one you have to embrace... Like "Yeah, this is hard, this is harsh, this sucks", but you know what's at the end of the road is good. There's all that stuff that sucked that's like, just get that out of your life.
 
 **Jerome Hardaway:** And that's the strength of military life. If you were ever deployed, if you've ever heard like "Hurry up and wait", you've been in that world where you're waiting for six hours, and then somebody comes out like "Hey, we've gotta hurry up and knock this out." I'm like "Really?" We have to move in 15 minutes; we've gotta move 40 people in 15 minutes. We've been here six hours, they didn't say anything to us, but now in these 15 minutes we have to move everybody. Okay, that's cool... Embracing the suck; that's the military life. If you've ever been on deployment, you have to embrace the suck. It's like, it's 120 degrees out here and everybody hates us, but you know, we're gonna go home soon, so we're just gonna embrace the suck and move on.
 
@@ -352,7 +352,7 @@ There are people that I know today that four years ago I was in awe of. I've tur
 
 **Jerod Santo:** Alright, you'll share with me the other ones later.
 
-**Jerome Hardaway:** Yeah. See, now I'm \[unintelligible 00:37:37.28\] It happens in the moment; you're like, "Oh, there you go. Bam!"
+**Jerome Hardaway:** Yeah. See, now I'm brain farting, right? It happens in the moment; you're like, "Oh, there you go. Bam!"
 
 **Adam Stacoviak:** Let's talk about maybe those active duty/military men and women who were out there serving our country, or they're transitioning out and they're looking for that opportunity... They're listening to this podcast, or somebody who knows one is listening to this podcast - how do they reach out? What's the first step?
 
@@ -396,7 +396,7 @@ They're in there with the pre-work, they're talking to other veterans... It's a 
 
 **Adam Stacoviak:** Don't waste my time.
 
-**Abigail Cabunoc Mayes:** \[00:39:48.00\] People don't really like that style, but I'm doing this because I remember every day how hard it was with the transition... So I'm here to make your transition easy, so you don't have to go through what I went through.
+**Jerome Hardaway:** \[00:39:48.00\] People don't really like that style, but I'm doing this because I remember every day how hard it was with the transition... So I'm here to make your transition easy, so you don't have to go through what I went through.
 
 **Jerod Santo:** Alright. Was there somebody there for you?
 
@@ -404,7 +404,7 @@ They're in there with the pre-work, they're talking to other veterans... It's a 
 
 **Adam Stacoviak:** Isolating, I would say... My experience was isolating.
 
-**Jerome Hardaway:** Yeah. Well, the military transitions to help get you off their books; the military transition isn't about you getting acclimated into civilian society. It's like, "Alright, you don't wanna be a part of our team anymore? Bye!" \[unintelligible 00:40:21.14\] Like, "Okay, what will you do?", so you have to figure out these things...
+**Jerome Hardaway:** Yeah. Well, the military transitions to help get you off their books; the military transition isn't about you getting acclimated into civilian society. It's like, "Alright, you don't wanna be a part of our team anymore? Bye!" Like some straight up, "Bye Felicia", type move! Like, "Okay, what will you do?", so you have to figure out these things...
 
 **Adam Stacoviak:** It's so weird too, going back into civilian life, man...
 
@@ -470,7 +470,7 @@ That's another thing that programming has in common with boxing - you stop for a
 
 **Abigail Cabunoc Mayes:** So the lab I was in - I should clarify that - they were great; they did not do this... But you hear about it a lot. With collaborators, you're really scared about getting scooped, so they'd hide their data as much as they could, or maybe like just play around with the P value, to see what you can do to make the results show the story that you want, where the data itself doesn't really do that...
 
-**Jerod Santo:** It sounds like a statistician \[unintelligible 00:47:00.10\]
+**Jerod Santo:** It sounds like a statistician!
 
 **Abigail Cabunoc Mayes:** Yeah, a little bit...
 
@@ -600,7 +600,7 @@ Also, my husband - at the time, he was running this startup accelerator in Toron
 
 **Jerod Santo:** Like, "Actually, they're proprietary, offline."
 
-**Adam Stacoviak:** They're copyright \[unintelligible 00:54:23.18\]
+**Adam Stacoviak:** They're copyright.
 
 **Jerod Santo:** They're locked in a vault... Underneath the pillow!
 
