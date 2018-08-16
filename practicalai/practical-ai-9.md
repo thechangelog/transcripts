@@ -1,5 +1,3 @@
-\[00:02:04.18\]
-
 **Daniel Whitenack:** This is Daniel, data scientist creating AI for good, and I'm joined here by Chris Benson, my co-host, who's a digital transformation strategist, which is very exciting. How are you doing, Chris?
 
 **Chris Benson:** I'm doing great today. How's it going, Daniel?
@@ -283,5 +281,3 @@ Thank you so much, Mike. I really appreciate you walking us through this process
 **Chris Benson:** Thanks. Bye-bye!
 
 **Mike Bugembe:** Bye!
-
-Break: \[00:49:28.00\] to \[00:50:25.05\]
