@@ -1,4 +1,4 @@
-**Erik St. Martin:** Alright everybody, welcome back for another episode of GoTime. Today is episode number 43, and our sponsors for today are Toptal and DataDog.
+**Erik St. Martin:** Alright everybody, welcome back for another episode of GoTime. Today is episode number 43, and our sponsors for today are [Toptal](https://www.toptal.com/) and [DataDog](https://www.datadoghq.com/).
 
 On the show today we have myself, Erik St. Martin, we also have Carlisia Pinto - say hi, Carlisia...
 
@@ -14,7 +14,7 @@ On the show today we have myself, Erik St. Martin, we also have Carlisia Pinto -
 
 **Erik St. Martin:** Our favorite Gopher artwork!
 
-**Ashley McNamara:** Our favorite Gopher artwork... I created a little avatar generator called Gopherize.me, and then I've done the GopherCon... Logo, I guess you would call it this year, as well as a number of other art pieces in the Go community, because I love that silly Gopher so much.
+**Ashley McNamara:** Our favorite Gopher artwork... I created a little avatar generator called [Gopherize.me](https://gopherize.me/), and then I've done the GopherCon... Logo, I guess you would call it this year, as well as a number of other art pieces in the Go community, because I love that silly Gopher so much.
 
 **Brian Ketelsen:** Every adorable Gopher on the internet, every one, comes from Ashley.
 
@@ -58,7 +58,7 @@ On the show today we have myself, Erik St. Martin, we also have Carlisia Pinto -
 
 **Erik St. Martin:** I'd say that's pretty normal though, because everything in technology - it's impossible to know all areas. You'll see something somebody else did and you're like "Oh, I wish I was better at that", and it's like... You know, recently I've loved tinkering with hardware, but I'm not a hardware guy, so I see projects other people have done and I'm like "That would probably take me six years..." and it seemed like they did it in a week.
 
-**Ashley McNamara:** Yeah, but do you feel like that about everything? Because I feel like that about everything, where I'm like "Oh man, I wish I was better at that." I feel like I say that a lot. "I wish I was better at Git, I wish I was better at all of the things..."
+**Ashley McNamara:** Yeah, but do you feel like that about everything? Because I feel like that about everything, where I'm like "Oh man, I wish I was better at that." I feel like I say that a lot. "I wish I was better at `git`, I wish I was better at all of the things..."
 
 **Erik St. Martin:** Brian is a testament to it, ask him... I'm terrible about that; I think I'm good at nothing. \[laughter\]
 
@@ -92,7 +92,7 @@ On the show today we have myself, Erik St. Martin, we also have Carlisia Pinto -
 
 **Carlisia Pinto:** At least lately... Everything! \[laughter\]
 
-**Ashley McNamara:** At least lately - Kubernetes is definitely on my list. Microservices in general, I wish I knew a lot more than I do. The good news is that community is awesome, so if I don't know something - which often times I don't - I always know somebody who does. There are always awesome people who are willing to teach me, like Kelsey Hightower, for example. Brian is another example - I ask him dumb questions about Go all the time. And everyone is just so patient...
+**Ashley McNamara:** At least lately - [Kubernetes](https://kubernetes.io/) is definitely on my list. Microservices in general, I wish I knew a lot more than I do. The good news is that community is awesome, so if I don't know something - which often times I don't - I always know somebody who does. There are always awesome people who are willing to teach me, like [Kelsey Hightower](https://twitter.com/kelseyhightower), for example. [Brian](https://twitter.com/bketelsen) is another example - I ask him dumb questions about Go all the time. And everyone is just so patient...
 
 **Brian Ketelsen:** You don't ask dumb questions...
 
@@ -136,11 +136,11 @@ On the show today we have myself, Erik St. Martin, we also have Carlisia Pinto -
 
 **Erik St. Martin:** That's my way of insinuating that Brian doesn't know how to use one. \[laughter\]
 
-**Ashley McNamara:** \[unintelligible 00:07:15.14\] I don't know if you can explain it...
+**Ashley McNamara:** Erik, I don't know if you can explain it...
 
-**Brian Ketelsen:** The shade is rough on this show. So tell me, Ashley, how did you come across all of the awesome stuff that you put on your learning to program wikis? Because I was looking through that -- I don't know, it was about two months ago when I was working on some educational material training stuff and I thought "My god! This is like the best resource ever!" and it's got like 50 stars or something on GitHub. I don't understand why there aren't a thousand million stars.
+**Brian Ketelsen:** The shade is rough on this show. So tell me, Ashley, how did you come across all of the awesome stuff that you put on your [learning to program](https://github.com/ashleymcnamara/learn_to_code) wikis? Because I was looking through that -- I don't know, it was about two months ago when I was working on some educational material training stuff and I thought "My god! This is like the best resource ever!" and it's got like 50 stars or something on GitHub. I don't understand why there aren't a thousand million stars.
 
-**Ashley McNamara:** \[00:07:46.18\] I think it's because I don't advertise is as much as I maybe should. I started it because I went to a bootcamp to learn Python. That's sort of how I got into programming to begin with. I was contributing docs to OpenStack, and I wanted to contribute more, so I started to learn Python and thought "I can't do this by myself. This is impossible. Do I need to go get a CS degree? Who had time for that?!"
+**Ashley McNamara:** \[00:07:46.18\] I think it's because I don't advertise is as much as I maybe should. I started it because I went to a bootcamp to learn Python. That's sort of how I got into programming to begin with. I was contributing docs to OpenStack, and I wanted to contribute more, so I started to learn Python and thought "I can't do this by myself. This is impossible. Do I need to go get a CS degree? Who has time for that?!"
 
 So I found this bootcamp and I went to this bootcamp, and it was terrible. They weren't teaching real-world software development. They weren't. Contributing to open source was irrelevant to them. Basically, every question I asked was "You don't need to know that...", but I needed to know all of those things. So I decided to go out and find free resources, and I started out with Zed Shaw's "Learn Python The Hard Way"...
 
@@ -200,9 +200,9 @@ We don't set out immediately knowing how to solve a problem. I think we've just 
 
 **Ashley McNamara:** Yeah, don't do that. I had to teach myself to break problems down into micro-problems. That's also something that you need to learn as a developer... That you're better off learning with a mentor than you are at a school. I read so many books like "How to think like a programmer"... None of those books were helpful, but trial and error was helpful.
 
-**Brian Ketelsen:** Well, I think we all do that instinctively, but we don't know we're doing it, and it's really hard for someone to step back and say, "Okay, you really just need to find the tiniest piece of this and solve that, and then find the next tiny piece and solve that", because that's what we all do. Even if you don't know what to search for on Stack Overflow, you've gotta figure it out, and it's just one tiny piece at a time. But it's hard to sell that to people, because you don't really know that that's what you're doing.
+**Brian Ketelsen:** Well, I think we all do that instinctively, but we don't know we're doing it, and it's really hard for someone to step back and say, "Okay, you really just need to find the tiniest piece of this and solve that, and then find the next tiny piece and solve that", because that's what we all do. Even if you don't know what to search for on [Stack Overflow](https://stackoverflow.com/), you've gotta figure it out, and it's just one tiny piece at a time. But it's hard to sell that to people, because you don't really know that that's what you're doing.
 
-Some people do it instinctively, some people have to be taught, but it's how we're all solving the problems. Nobody goes off in a weekend and writes InfluxDB.
+Some people do it instinctively, some people have to be taught, but it's how we're all solving the problems. Nobody goes off in a weekend and writes [InfluxDB](https://www.influxdata.com/).
 
 **Ashley McNamara:** Of course not, but I've had so many people come to me and say, "I wanna build this thing. Where do I start?" They don't know where to start in the lifecycle, right? They're thinking of this thing that they want, but they have no idea where to start building it.
 
@@ -214,7 +214,7 @@ I think the other side is confidence, too. A friend of mine just got his bachelo
 
 You think about it... We do this all the time. If you started your day knowing 100% how you were gonna do what your task was for that day, and this was every day of your life, it would be boring... So boring! We like solving new problems, so we kind of want the uncharted territory.
 
-**Ashley McNamara:** No, absolutely! That's one of the reasons why I went to Pivotal. It's really exciting to be the dumb kid in class again.
+**Ashley McNamara:** No, absolutely! That's one of the reasons why I went to [Pivotal](https://pivotal.io/). It's really exciting to be the dumb kid in class again.
 
 **Brian Ketelsen:** If you're not in the pool with lots of bigger fish, you're not learning.
 
@@ -222,7 +222,7 @@ You think about it... We do this all the time. If you started your day knowing 1
 
 **Carlisia Pinto:** So what are you doing at Pivotal? Tell us...
 
-**Ashley McNamara:** What I didn't know about Pivotal is that they have a really passionate set of Go developers. Pivotal started out as a Ruby on Rails shop, and most of CF was Ruby. I had no idea until I tweeted that I was looking for a job and I got a message from one of the Go developers at Pivotal...
+**Ashley McNamara:** What I didn't know about Pivotal is that they have a really passionate set of Go developers. Pivotal started out as a Ruby on Rails shop, and most of CF(Cloud Foundry) was Ruby. I had no idea until I tweeted that I was looking for a job and I got a message from one of the Go developers at Pivotal...
 
 \[00:16:09.25\] So I started doing some research, and I noticed that Pivotal has about 35 repos that are Go. It's like, this is weird that nobody knows about this. Is it because they are making an enterprise product and people don't care about that as much...? Or what's the deal?
 
@@ -270,7 +270,7 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Carlisia Pinto:** I'm so curious!
 
-**Ashley McNamara:** I wavered on this a couple of times, so right now it says "My journey to Go", and I've talked to a couple of people about it; it feels pretentious in a way, like "Who cares about my specific journey?", but at the same time, "Could it be helpful for people that are learning?" I don't know, so I'm not a hundred percent sure, to be honest.
+**Ashley McNamara:** I wavered on this a couple of times, so right now it says [My journey to Go](https://www.youtube.com/watch?v=6sBBTFXOq44), and I've talked to a couple of people about it; it feels pretentious in a way, like "Who cares about my specific journey?", but at the same time, "Could it be helpful for people that are learning?" I don't know, so I'm not a hundred percent sure, to be honest.
 
 **Carlisia Pinto:** I wanna go back to that and give you my opinion, but do you have an alternative to that? Were you thinking about another talk?
 
@@ -300,7 +300,7 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Break:** \[00:21:41.29\]
 
-**Erik St. Martin:** Alright, we are back, talking with Ashley McNamara. So just before this sponsored break we were talking about your talk, and inspiring future Gophers and veterans... Brian, did you have a take on this?
+**Erik St. Martin:** Alright, we are back, talking with Ashley McNamara. So just before this sponsor break we were talking about your talk, and inspiring future Gophers and veterans... Brian, did you have a take on this?
 
 **Brian Ketelsen:** I definitely do. I was thinking at it more from the veteran angle. It's already been mentioned, but my favorite idea about hearing the journey talks from multiple different angles is increasing adoption and how we can lower that friction and make it easier for anybody anywhere to come into Go. I know there are a lot of pain points, I see it when I'm teaching, but getting as many people's points of view as possible is absolutely critical.
 
@@ -316,7 +316,7 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Erik St. Martin:** I think that some of the most moving parts of talks like these are hearing some of the failures, too... Where people can see that it's not all perfect, that other people struggled and they failed and fell off and got back on, and things like that. I think that's part of the motivating thing. I mean, if you stood up and just told everybody all your awesome accomplishments and were like "You may all now bow" and mic drop - that'd be a bit pretentious, but...
 
-**Ashley McNamara:** I might mic drop anyway... I mean, if I'm gonna be holding a mic, I feel obligated to mic drop. But yeah, there are way more failures that successes, which is part of the job.
+**Ashley McNamara:** I might mic drop anyway... I mean, if I'm gonna be holding a mic, I feel obligated to mic drop. But yeah, there are way more failures than successes, which is part of the job.
 
 **Brian Ketelsen:** Alright, that's it - mic drop or get the hell out. Those are the rules.
 
@@ -366,7 +366,7 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Ashley McNamara:** No, it was not my idea at all. I just take credit for it. So I was creating these avatars... I created them initially for GopherCon, because I wanted to have placeholders for the speakers, and I love punny things, so I wanted to name them, so it was all really selfish. Eventually I ended up making a Brian gopher, and sent it to him. He tweeted about it, and then I made an Erik gopher, and then I made a Mark gopher, and eventually I was making all of these gophers... Then Todd on Twitter said, "Hey, you should just make an avatar generator", and 24 hours later there was an avatar generator, with the help of Matt.
 
-**Erik St. Martin:** Yeah, Matt Ryer.
+**Erik St. Martin:** Yeah, [Matt Ryer](https://twitter.com/matryer).
 
 **Ashley McNamara:** Yeah, super helpful. It would have taken me a lot longer than 24 hours to draw it myself.
 
@@ -414,13 +414,13 @@ Then I would like to be able to have people customize a T-Shirt.
 
 **Brian Ketelsen:** What's your topic at OSCON?
 
-**Ashley McNamara:** Building a command line applications with Go. I'll be doing it with Steve Francia.
+**Ashley McNamara:** Building a command line applications with Go. I'll be doing it with [Steve Francia](https://twitter.com/spf13).
 
 **Brian Ketelsen:** Oh, nice!
 
-**Carlisia Pinto:** Nice! The Cobra guy.
+**Carlisia Pinto:** Nice! The [Cobra](https://github.com/spf13/cobra) guy.
 
-**Brian Ketelsen:** The Hugo guy, too.
+**Brian Ketelsen:** The [Hugo](https://github.com/gohugoio/hugo) guy, too.
 
 **Ashley McNamara:** Hugo guy, yes.
 
@@ -438,7 +438,7 @@ Then I would like to be able to have people customize a T-Shirt.
 
 **Ashley McNamara:** \[laughs\] Right, exactly.
 
-**Erik St. Martin:** So we kind of moved away from the topic, but there was one that I wanted to mention, too. We were talking about your resources to learn; one of them we didn't point out specifically was for kids. I thought that was really cool, too.
+**Erik St. Martin:** So we kind of moved away from the topic, but there was one that I wanted to mention, too. We were talking about your resources to learn; one of them we didn't point out specifically was [for kids](https://github.com/ashleymcnamara/STEM_Resources_For_Kids). I thought that was really cool, too.
 
 **Ashley McNamara:** Yeah, so I actually made that one first. That one came from -- my child is extremely nerdy. He's always breaking things. About a week ago he decided that he wanted to make a plasma ball himself, and he would put steel wool in the microwave... \[laughter\] So that was fun... We have a book called The Dangerous Book For Boys, and it's basically just ways to hurt yourself. We're constantly doing things like that... So I wanted to make sure that I had resources to do those things with him, but also I know that other people have nerdy kids as well, so I decided to share it.
 
@@ -482,7 +482,7 @@ Then I would like to be able to have people customize a T-Shirt.
 
 **Ashley McNamara:** They would not be from that list I put in Slack, I'll tell you that.
 
-**Erik St. Martin:** I hate the perception that we put on people that these are elite things that only the super smart do... I think it was a recording of Bryan Liles at one of the GopherCons... He said "Everybody thinks you have to be ridiculously smart, and there are some people that are just born geniuses that do some of the stuff that we may never do, or would take us ten times as long", but for most of us it's just work. You just put in the time... It's not overly difficult, it's just a lot of things to know; when you put the time in, you acquire it. Any business domain is that way, too. You have to learn about that industry.
+**Erik St. Martin:** I hate the perception that we put on people that these are elite things that only the super smart do... I think it was a recording of [Bryan Liles](https://twitter.com/bryanl) at one of the GopherCons... He said "Everybody thinks you have to be ridiculously smart, and there are some people that are just born geniuses that do some of the stuff that we may never do, or would take us ten times as long", but for most of us it's just work. You just put in the time... It's not overly difficult, it's just a lot of things to know; when you put the time in, you acquire it. Any business domain is that way, too. You have to learn about that industry.
 
 You come in, you can have an MBA, but you get dropped in an industry you've never worked in before; there's stuff to learn.
 
@@ -498,7 +498,7 @@ You come in, you can have an MBA, but you get dropped in an industry you've neve
 
 **Ashley McNamara:** I think that it's way more common that we think, especially outside of our industry. When you're in college, it seems impossible to learn this, I'm sure, from anyone who doesn't know about it. I think that the sexism is worse outside of our industry.
 
-**Erik St. Martin:** I think it comes to perseverance, right? It's not about born talent, it's about who's gonna take the struggle and continue through it, and who's gonna look at it and be like, "Oh, this is a lot to learn. I just don't wanna do it anymore." When we tell people, even if she continues on that path, now it's gonna be in her head every time she's struggling with something, what this advisor told her, that she's not cut out to do it. And then it's only more likely that she's going ot quit, because she's like "Oh, you know what? They were right all along", and that's not true. Everybody's struggles. It's a lot to learn.
+**Erik St. Martin:** I think it comes to perseverance, right? It's not about born talent, it's about who's gonna take the struggle and continue through it, and who's gonna look at it and be like, "Oh, this is a lot to learn. I just don't wanna do it anymore." When we tell people, even if she continues on that path, now it's gonna be in her head every time she's struggling with something, what this advisor told her, that she's not cut out to do it. And then it's only more likely that she's going to quit, because she's like "Oh, you know what? They were right all along", and that's not true. Everybody's struggles. It's a lot to learn.
 
 **Ashley McNamara:** \[00:36:17.12\] That's already happened, and I'm having to steer her through it, and it's frustrating, because I'm her mother, so she tends to listen to me less.
 
@@ -544,7 +544,7 @@ And now everybody's gonna be listening to us live talk and listening to a commer
 
 **Erik St. Martin:** That is a ridiculously good idea. Too bad I didn't think of it. And I have to give you credit. \[laughter\]
 
-**Ashley McNamara:** Yeah, because \[unintelligible 00:38:44.00\]
+**Ashley McNamara:** Yeah, because we all heard it.
 
 **Erik St. Martin:** Alright, so our second sponsor for today is DataDog.
 
@@ -570,7 +570,7 @@ And now everybody's gonna be listening to us live talk and listening to a commer
 
 **Carlisia Pinto:** I love him.
 
-**Erik St. Martin:** He's just like "If you think you're smart... If I took you and gave you a hatchet and dropped you off in the middle of the forest/jungle, how long till you can send me an e-mail?" \[laughter\] And it goes to show -- he's like "What would happen, what do you do when the power goes out?" He's like "I know I'd do \[unintelligible 00:43:02.24\] Somebody's probably working on it right now!" He's like "What would happen if it never came back on, and we had to go back into the caves because the animal are coming in because there's no lights and sounds and stuff?"
+**Erik St. Martin:** He's just like "If you think you're smart... If I took you and gave you a hatchet and dropped you off in the middle of the forest/jungle, how long till you can send me an e-mail?" \[laughter\] And it goes to show -- he's like "What would happen, what do you do when the power goes out?" He's like "I know I'd do \[unintelligible 00:43:02.24\] Somebody's probably working on it right now!" He's like "What would happen if it never came back on, and we had to go back into the caves because the animals are coming in because there's no lights and sounds and stuff?"
 
 **Carlisia Pinto:** You don't have a fridge. Stop and think about it for a second - you don't have fridge.
 
@@ -638,13 +638,13 @@ My 11-year-old is very interested in it, and we started out with Scratch, and we
 
 **Ashley McNamara:** It was great.
 
-**Brian Ketelsen:** So I actually just had my first success. My son just turned 15, and I've been gently encouraging him to learn programming since he was a baby, and he's just always been "Yeah, that's cool, that's fun... Yet no, I'm not really interested. I'm gonna go play Minecraft or Overwatch" or whatever it is he's playing these days... But then just this year - March, last month - he said "Hey, do you have any more of those Raspberry Pi's laying around?"
+**Brian Ketelsen:** So I actually just had my first success. My son just turned 15, and I've been gently encouraging him to learn programming since he was a baby, and he's just always been "Yeah, that's cool, that's fun... Yet no, I'm not really interested. I'm gonna go play Minecraft or Overwatch" or whatever it is he's playing these days... But then just this year - March, last month - he said "Hey, do you have any more of those Raspberry Pi's lying around?"
 
 **Ashley McNamara:** Minecraft server! \[laughs\]
 
-**Brian Ketelsen:** I said, "As a matter of fact, I have a couple of Raspberry Pi's laying around. What do you need?" He said, "I was thinking about using a Raspberry Pi for Pi Day at school, to calculate pi, with Go. Do you think you could help me with that?" I'm like, "You know, I think I could. Yeah, that'd be fun." I let him do all the work and pointed him in the right direction... Of course, he just cut and pasted somebody's Calculate Pi In Go application, but he installed Go, he installed Linux on the Raspberry Pi... He did the whole thing. Then the compiled it, took it to school and got an A on his little project, so... Sometimes they just have to be ready.
+**Brian Ketelsen:** I said, "As a matter of fact, I have a couple of Raspberry Pi's lying around. What do you need?" He said, "I was thinking about using a Raspberry Pi for Pi Day at school, to calculate pi, with Go. Do you think you could help me with that?" I'm like, "You know, I think I could. Yeah, that'd be fun." I let him do all the work and pointed him in the right direction... Of course, he just cut and pasted somebody's Calculate Pi In Go application, but he installed Go, he installed Linux on the Raspberry Pi... He did the whole thing. Then the compiled it, took it to school and got an A on his little project, so... Sometimes they just have to be ready.
 
-**Erik St. Martin:** \[00:47:58.25\] I think it's kind of how Katrina said in her talk - your need or want to succeed or finish a project has to outweigh your reasons for quitting. They really wanna play their games and things like that, but in that case he really wanted to complete that project, so he's willing to persevere through any kind of struggle he has, because he wants to do that so bad. But when you're just like "Would you like to learn this?" they're like "Yeah, that sounds cool", and then when they start to struggle and they realize it's time, they're like "Yeah..."
+**Erik St. Martin:** \[00:47:58.25\] I think it's kind of how [Katrina Owen](https://twitter.com/kytrinyx) said in her talk - your need or want to succeed or finish a project has to outweigh your reasons for quitting. They really wanna play their games and things like that, but in that case he really wanted to complete that project, so he's willing to persevere through any kind of struggle he has, because he wants to do that so bad. But when you're just like "Would you like to learn this?" they're like "Yeah, that sounds cool", and then when they start to struggle and they realize it's time, they're like "Yeah..."
 
 **Ashley McNamara:** Yeah, that's why we combined games and programming with the Scratch stuff. Also, we were building Minecraft servers with Raspberry Pi's. That's sort of where we started with this.
 
@@ -652,9 +652,9 @@ My 11-year-old is very interested in it, and we started out with Scratch, and we
 
 **Brian Ketelsen:** Yeah, I think we do have some hard stops. There were several interesting things going on this month, absolutely.
 
-**Erik St. Martin:** One thing that I saw, speaking of Steve Francia, is the new Developer Experience Working Group.
+**Erik St. Martin:** One thing that I saw, speaking of Steve Francia, is the new [Developer Experience Working Group](https://blog.golang.org/developer-experience).
 
-**Brian Ketelsen:** Yeah, I think that's more JBD than Steve, though.
+**Brian Ketelsen:** Yeah, I think that's more [JBD](https://twitter.com/rakyll) than Steve, though.
 
 **Ashley McNamara:** I think so too, yeah.
 
@@ -710,13 +710,13 @@ I don't know -- did they call for new members, or just participation from the co
 
 **Carlisia Pinto:** No, it's funny, because earlier in the week I saw one of them... One of you dropped it in our private channel, and I'm like "Why do we want this...?" And now there are two of them! \[laughs\] I'm like "Why?!"
 
-**Erik St. Martin:** So here's how the story goes... I came across Rooby, which is like a Ruby the language-like language; it's somebody's own interpretation of the language, written in Go. And this is really cool, from the perspective similar to how we talked about writing compilers and interpreters and things like that in Go, so I thought that was really cool. And then I came across Go Ruby, which is an actual implementation of the real Ruby language in Go.
+**Erik St. Martin:** So here's how the story goes... I came across [Rooby](https://github.com/st0012/Rooby), which is like a Ruby the language-like language; it's somebody's own interpretation of the language, written in Go. And this is really cool, from the perspective similar to how we talked about writing compilers and interpreters and things like that in Go, so I thought that was really cool. And then I came across [Go Ruby](https://github.com/goruby/goruby), which is an actual implementation of the real Ruby language in Go.
 
 **Brian Ketelsen:** \[00:52:07.08\] Wow.
 
 **Erik St. Martin:** Yeah. Both really cool.
 
-**Brian Ketelsen:** Speaking of that, I'm gonna bring this back full circle, because that's how we do things here at GoTime FM. The book by Thorsten Ball that we talked about building the interpreter in Go - and that was a great conversation, I don't remember what episode it was... In the 20s probably, it was so long ago; we're up at what - 43 now? Time flies, I tell you what. So that book is the inspiration that Mark Bates used from episode 30-something, from live at the Dunkin' Doughnuts in Boston - he used that book to create the new interpreter that powers Plush, which is the new template language that powers Go Buffalo, and Plus is a killer, killer template.
+**Brian Ketelsen:** Speaking of that, I'm gonna bring this back full circle, because that's how we do things here at GoTime FM. The book by Thorsten Ball that we talked about building the interpreter in Go - and that was a great conversation, I don't remember what episode it was... [In the 20s probably](https://changelog.com/gotime/28), it was so long ago; we're up at what - 43 now? Time flies, I tell you what. So that book is the inspiration that Mark Bates used from [episode 29](https://changelog.com/gotime/29), from live at the Dunkin' Doughnuts in Boston - he used that book to create the new interpreter that powers Plush, which is the new template language that powers [Go Buffalo](https://gobuffalo.io/en), and Plush is a killer, killer template.
 
 If you haven't used Buffalo or Plus yet - because you can use Plush without Buffalo if you chose to... It is so much nicer in Go's built-in template. So much nicer! Go do that. Use Plush.
 
@@ -728,7 +728,7 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Erik St. Martin:** Did anybody have any other projects to mention before we jump into \#FreeSoftwareFriday? Or news...?
 
-**Ashley McNamara:** Well, I mean, Hugo's latest release was kind of cool, with custom formats...
+**Ashley McNamara:** Well, I mean, [Hugo's](https://gohugo.io/) latest release was kind of cool, with custom output formats...
 
 **Brian Ketelsen:** Oh...! I wanna abuse that so badly! What do you wanna do with it? Tell me.
 
@@ -760,7 +760,7 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Erik St. Martin:** Is this about sweet and nice silly?
 
-**Brian Ketelsen:** I'm not kidding, I wanna abuse this so badly... There are so many crazy awesome things you can do with these new custom output formats...
+**Brian Ketelsen:** I'm not kidding, I wanna abuse this so badly... There are so many crazy awesome things you can do with these new [custom output formats](https://gohugo.io/extras/output-formats/)...
 
 **Ashley McNamara:** I know, it's gonna be awesome. I asked Steve if he wanted me to say anything specific about that, and he said "Oh, there was a release?" \[laughter\] So he's in full vacation mode right now. He's on vacation.
 
@@ -770,7 +770,7 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Brian Ketelsen:** Or bep, as he calls himself these days. We've got JBP, we've got bep... I'm going by BJK now. \[laughter\]
 
-**Carlisia Pinto:** So I wanted to mention real quick... Caddy is launching officially on 20th April. There's going to be a party somewhere in Utah... Just follow Matt Holt on Twitter to find out if you are in that area. He has really cute Caddy stickers, but we need to order them, because of course, it's unfeasible for him to send everybody a sticker.
+**Carlisia Pinto:** So I wanted to mention real quick... Caddy is [launching officially on 20th April](https://docs.google.com/forms/d/e/1FAIpQLSeFf9HQlL_-Dsk-QeEIlVjX5klsYIDNQEX2On2psYesjRPC2g/viewform?c=0&w=1). There's going to be a party somewhere in Utah... Just follow Matt Holt on Twitter to find out if you are in that area. He has really cute Caddy stickers, but we need to order them, because of course, it's unfeasible for him to send everybody a sticker.
 
 **Brian Ketelsen:** I ordered $25 worth if you need any.
 
@@ -852,7 +852,7 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Erik St. Martin:** Okay.
 
-**Brian Ketelsen:** I would like to thank one of my favorite open source contributors, Erik St. Martin, who this week put together some of my other favorite open source pieces, like Grafana and Influx and Telegraf and Mosquitto and Gobot and MQTT, and built the most gorgeous dashboard ever for our barbecue project. It's awesome.
+**Brian Ketelsen:** I would like to thank one of my favorite open source contributors, [Erik St. Martin](https://github.com/erikstmartin), who this week put together some of my other favorite open source pieces, like Grafana and Influx and Telegraf and Mosquitto and [Gobot](https://gobot.io/) and MQTT, and built the most gorgeous dashboard ever for our barbecue project. It's awesome.
 
 **Ashley McNamara:** That's really pretty...
 
@@ -864,7 +864,7 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Erik St. Martin:** Alright, how about you, Carlisia?
 
-**Carlisia Pinto:** I found this really neat (I think it's neat) project called All Contributors. It's a way to recognize contributors to your project that makes it very visible. On their own page you can see an example down at the bottom. It gives you a grid with the photo or avatar of each one of the contributors. That was really neat. They have a spec you need to follow to be able to display it on your homepage.
+**Carlisia Pinto:** I found this really neat (I think it's neat) project called [All Contributors](https://github.com/kentcdodds/all-contributors). It's a way to recognize contributors to your project that makes it very visible. On their own page you can see an example down at the bottom. It gives you a grid with the photo or avatar of each one of the contributors. That was really neat. They have a spec you need to follow to be able to display it on your homepage.
 
 **Erik St. Martin:** \[01:00:06.24\] Oh, that's really cool.
 
@@ -878,7 +878,7 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Ashley McNamara:** Yeah. Can you guys hear my dog breathing into the mic? \[laughter\]
 
-**Erik St. Martin:** No... So mine for this week - and I won't be upset for Brian taking away all of my stuff early, because he gave me a shoutout, so how can you be mad? - is actually to Grafana, InfluxDB and Mosquitto, because it was ridiculously cool in an evening what can get thrown together with zero lines of code written. Basically, you're able to just take a Mosquitto instance, which is MQTT, which is like a \[unintelligible 01:00:58.05\], Brian's Cupid project just blasts metrics at Mosquitto, then Telegraf, which is also written by Influx Data, just has a configuration for an MQTT consumer that reads that data in a certain JSON format and pumps it in as InfluxDB metrics, and then Grafana just reads that. So I was able to just kind of install those things and configure some stuff, and zero lines of code were harmed in this experiment.
+**Erik St. Martin:** No... So mine for this week - and I won't be upset for Brian taking away all of my stuff early, because he gave me a shoutout, so how can you be mad? - is actually to [Grafana](https://grafana.com/), [InfluxDB](https://www.influxdata.com/) and [Mosquitto](https://mosquitto.org/), because it was ridiculously cool in an evening what can get thrown together with zero lines of code written. Basically, you're able to just take a Mosquitto instance, which is MQTT, which is like a message brokering thing , Brian's Cupid project just blasts metrics at Mosquitto, then [Telegraf](https://github.com/influxdata/telegraf), which is also written by Influx Data, just has a configuration for an MQTT consumer that reads that data in a certain JSON format and pumps it in as InfluxDB metrics, and then Grafana just reads that. So I was able to just kind of install those things and configure some stuff, and zero lines of code were harmed in this experiment.
 
 **Ashley McNamara:** Crazy...
 
@@ -934,7 +934,7 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Ashley McNamara:** Yeah, shoutout to Denver gophers.
 
-**Brian Ketelsen:** We heart Denver gophers here a lot. We couldn't have GopherCon without them.
+**Brian Ketelsen:** We heart Denver gophers here a lot. We couldn't have [GopherCon](https://www.gophercon.com/) without them.
 
 **Carlisia Pinto:** Three months away, I cannot believe it. Three months and we're all gonna be in Denver.
 
@@ -960,7 +960,7 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Ashley McNamara:** Thank you for having me.
 
-**Erik St. Martin:** Huge shoutout to our sponsors for today's episode, Toptal and DataDog. Please share this show with fellow Go programmers. An easy way to subscribe is by going to GoTime.fm. We are @GoTimeFM on Twitter. If you have suggestions for topics or people - or the people is you - that want to be on the show, you can go to GitHub.com/GoTimeFM/ping. With that, goodbye everybody. We'll see you next week.
+**Erik St. Martin:** Huge shoutout to our sponsors for today's episode, [Toptal](https://www.toptal.com/) and [DataDog](https://www.datadoghq.com/). Please share this show with fellow Go programmers. An easy way to subscribe is by going to GoTime.fm. We are on [Twitter](https://twitter.com/GoTimeFM). If you have suggestions for topics or people - or the people is you - that want to be on the show, you can [ping](https://github.com/GoTimeFM/ping) us. With that, goodbye everybody. We'll see you next week.
 
 **Carlisia Pinto:** This was great, bye!
 
