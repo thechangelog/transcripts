@@ -5,7 +5,7 @@
     "README.md"
   ],
   "imageSize": 100,
-  "commit": false,
+  "commit": true,
   "contributors": [
     {
       "login": "alexandrumaier",
@@ -390,6 +390,15 @@
       "name": "Zach Capshaw",
       "avatar_url": "https://avatars1.githubusercontent.com/u/18668152?v=4",
       "profile": "https://www.linkedin.com/in/zcapshaw",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "willsputra",
+      "name": "William S. Goi",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/19514207?v=4",
+      "profile": "https://willsputra.xyz/",
       "contributions": [
         "doc"
       ]
