@@ -44,7 +44,7 @@ Sometime early last year we decided that we're just gonna bite the bullet and we
 
 **Rebecca Turner:** Yeah... I mean, that got us a 5x speed increase over older npms, and then it was like "Wow... That was a lot faster!" and now other improvements start to actually seem meaningful. What before would have been like "Well, that's like a 10% improvement in speed", but it was taking so long anyway that it wasn't a big win, and now it was. So yeah, we did a bunch of other things.
 
-Probably the single biggest aspect of the speed in the new version is the new lockfiles \[unintelligible 00:04:36.07\] Having those allows the install to be much faster. It's part of the reason we made a blockfile by default - it was just speed.
+Probably the single biggest aspect of the speed in the new version is the new lockfile shrinkwrap support. Having those allows the install to be much faster. It's part of the reason we made a lockfile by default - it was just speed.
 
 **Kat Marchán:** Yeah, with npm@5 it was the speed, and I'd say the second one was usability improvements that we did. We were just like, "Alright, it's a major version. People care about usability - what can we do to make this tool easier to use?" And some insight here - there's a reason that we didn't save by default for so many years. You have to understand that npm was originally designed, intended for and used as a Node library developer's tool. It is almost ideal -- it is practically idea if you are a Node developer writing libraries to publish on the npm registry. That is what Isaac designed it for - it was designed for a very specific workflow... And npm library authors are not the people who use npm the most these days anymore. The registry is too big.
 
@@ -134,9 +134,9 @@ It's why we never integrated any kind of flat install like Bower would do. We're
 
 **Alex Sexton:** It's a Canadian cache...
 
-**Rebecca Turner:** \[00:16:01.00\] But it's super fast and it has a very nice API, and all of the npm@5 cache access is built on that. And then there's \[unintelligible 00:16:08.19\] which is a... We'll provide links.
+**Rebecca Turner:** \[00:16:01.00\] But it's super fast and it has a very nice API, and all of the npm@5 cache access is built on that. And then there's pacote which is a... We'll provide links.
 
-**Kat Marchán:** It's a manifest in tarball-fetching library. It does all the resolution of identifiers and stuff like that, identical to what npm does; in fact, it's what npm uses now. So you can say \[unintelligible 00:16:26.09\] and then you give it like npm@5 and it will extract the contents of the npm@5 tarball according to semver resolution rules into a local directory. So it's a very generic tool for doing that, and it also gives you access to manifest information; you can ask for a manifest to see what dependencies you're gonna have to install.
+**Kat Marchán:** It's a manifest in tarball-fetching library. It does all the resolution of identifiers and stuff like that, identical to what npm does; in fact, it's what npm uses now. So you can say pacote.extract and then you give it like npm@5 and it will extract the contents of the npm@5 tarball according to semver resolution rules into a local directory. So it's a very generic tool for doing that, and it also gives you access to manifest information; you can ask for a manifest to see what dependencies you're gonna have to install.
 
 **Rebecca Turner:** And it supports all the sources that npm does.
 
@@ -204,7 +204,7 @@ The npm lockfile stores exactly how your Node modules should look when it's done
 
 **Rebecca Turner:** I mean, you're running someone else's code on your computer; you're doing that when you put the module in there, right? Your program's gonna require that module and it could do anything, so there is no way to make that safe. There's no such thing as a code library that makes that safe, unless you're explicitly manually vetting every module that comes through, and even then there are always bugs.
 
-**Kat Marchán:** There are services that provide this kind of security; that's why we have NSP, that's why we have LibSecurity, that's why we have \[unintelligible 00:22:48.27\] If you're really paranoid about this stuff, aside from reviewing them you can also run them in jail VMs to make sure that nothing escapes... That is kind of what you have to do.
+**Kat Marchán:** There are services that provide this kind of security; that's why we have NSP, that's why we have LibSecurity, that's why we have Snyk. If you're really paranoid about this stuff, aside from reviewing them you can also run them in jail VMs to make sure that nothing escapes... That is kind of what you have to do.
 
 This is something that affects pretty much every package manager in existence pretty much.
 
