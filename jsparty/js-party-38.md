@@ -218,7 +218,7 @@ I remember at some point in the future the person running the open source projec
 
 **Suz Hinton:** This is such a classic naming problem, you know what I mean? Like, "Is the domain available? Is there already a project called this?" These days it's like "Is the name taken on Npm?"
 
-**Jerod Santo:** Right. The age-old programming problem is naming things, and cache invalidation, and \[unintelligible 00:49:20.09\]
+**Jerod Santo:** Right. The age-old programming problem is naming things, and cache invalidation, and off-by-one errors.
 
 Okay, so Dylan does actually have a serious question following up on his troll, which actually plays into some of the stuff you're talking about there, John, about jQuery... He says he's curious to find out what you think of jQuery's place in JS history now. "Do you have regrets with the project? Would you go back and focus more on architecture-type problems with jQuery before things got out of hand for people trying to build large apps, or do you see it as a good bridge for people from the days of old to the v-dom-based dev?"
 
