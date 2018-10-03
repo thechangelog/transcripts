@@ -272,7 +272,7 @@ But the sort of bigger picture is that what a foundation needs to provide has ce
 
 **Dan Kohn:** Yes, "Google stepping away from Kubernetes", which was not at all correct.
 
-**Adam Stacoviak:** Right. We almost \[unintelligible 00:44:00.08\] that
+**Adam Stacoviak:** Right. We almost logged that, I didn't do it.
 
 **Dan Kohn:** \[00:44:05.22\] Well, yeah. And for what it's worth, even the content of the article didn't have that as well, but obviously, the headline writer gets compensated by clicks, and that's what -- you know, maybe their A/B testing got more clicks.
 
