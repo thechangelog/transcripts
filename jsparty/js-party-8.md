@@ -96,7 +96,7 @@ Django, you know... \[unintelligible 00:13:53.26\] was giving a great talk earli
 
 **Tracy Hinds:** Yeah, I've used ReadTheDocs at least at one company, and especially it was because the founder, Eric Holscher - we worked together at Urban Airship, so we were using that... We were dogfooding it quite a bit. It was great. I'm not super stoked about writing RST, I much prefer markdown, but in terms of that, it's really useful. The documentation in ReadTheDocs is incredible... They're at least practicing what they preach.
 
-**Alex Sexton:** Yeah, I agree. MDN is a really good example of just something that has persisted over time and continuously gets better. I know Janet \[unintelligible 00:15:31.18\] out in Austin is, I believe, full-time on MDN. I believe there are other people that are full-time doc writers for MDN, so... Once your company gets big enough, it definitely makes sense to hire technical writers and spend a lot of time putting effort into making it better and better.
+**Alex Sexton:** Yeah, I agree. MDN is a really good example of just something that has persisted over time and continuously gets better. I know Janet Swisher out in Austin is, I believe, full-time on MDN. I believe there are other people that are full-time doc writers for MDN, so... Once your company gets big enough, it definitely makes sense to hire technical writers and spend a lot of time putting effort into making it better and better.
 
 **Tracy Hinds:** Yeah.
 
