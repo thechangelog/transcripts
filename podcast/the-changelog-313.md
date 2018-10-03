@@ -10,7 +10,9 @@
 
 **Paul Fremantle:** I would always try and kind of wangle a big present. I would say "Look, I'm gonna join them together. Give me the best you can."
 
-**Jerod Santo:** I like that angle. It seems to have worked. Yeah, because otherwise you just end up with like a good one for your birthday, and then three weeks later they've got no ideas and they give you a useless one, so... So there we go.
+**Jerod Santo:** I like that angle. It seems to have worked.
+
+**Paul Fremantle:** Yeah, because otherwise you just end up with like a good one for your birthday, and then three weeks later they've got no ideas and they give you a useless one, so... So there we go.
 
 So I kind of grew up as a massive geek, and programming - I guess I've programmed in 20 different languages... And I ended up joining IBM kind of in the '90s, working on internet stuff, and security, firewall, a bit of web design... All sorts of kind of webby things.
 
