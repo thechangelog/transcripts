@@ -1,4 +1,4 @@
-**Adam Stacoviak:** Welcome back everyone, this is The Changelog and I am your host, Adam Stacoviak. This is episode 242, and today James Long joined the show to talk about his recent blog post, "Why I'm Frequently Absent From Open Source." He shared several points in that blog post that struck a cord with us, so we invited him on the show. We pulled back the layers of open source, the people, the sustainability, the responsibility, the guilt and the balance it takes to keep it all together.
+**Adam Stacoviak:** Welcome back everyone, this is The Changelog and I am your host, Adam Stacoviak. This is episode 242, and today James Long joined the show to talk about his recent blog post, "Why I'm Frequently Absent From Open Source." He shared several points in that blog post that struck a chord with us, so we invited him on the show. We pulled back the layers of open source, the people, the sustainability, the responsibility, the guilt and the balance it takes to keep it all together.
 
 We have three sponsors - Rollbar, Toptal and Compose.
 
@@ -12,7 +12,7 @@ We have three sponsors - Rollbar, Toptal and Compose.
 
 Jerod actually teed up this conversation; he e-mailed you and said, "Man, I love this post." The post we're talking about is called "Why I'm Frequently Absent From Open Source." Here on this show we cover this quite a bit. We actually launched a whole separate show called Request For Commits with Nadia Eghbal and Mikeal Rogers to cover that human side of code, and I kind of feel like this is part of it... But we obviously have a deep passion for open source, a deep passion for the people of open source, the code that gets written because of it - all that good stuff. But at the end of the day it's about people.
 
-Your post really struck a cord because at the end of it - and I may ruin it for somebody; maybe I shouldn't do that - it kind of felt like a love letter to your wife, but not really. It was more like, "This is why I'm absent, and I love you, my wife of six years."
+Your post really struck a chord because at the end of it - and I may ruin it for somebody; maybe I shouldn't do that - it kind of felt like a love letter to your wife, but not really. It was more like, "This is why I'm absent, and I love you, my wife of six years."
 
 **James Long:** \[00:04:10.09\] Yeah, it's kind of funny... I've been meaning to talk more about this, so this was supposed to mostly be a tribute to my wife. The first half of the post was probably a little bit more of a dump than I meant it to be, because I'd been meaning to write a separate post about that and just focus on that. So I wrote this in like an hour on Sunday before we went out to dinner, and then I showed her the post at dinner, and it was awesome. But I read it now and I'm like, "Wow, there were a lot of thoughts in my head that I just really dumped there." It's a good thing to talk about.
 
