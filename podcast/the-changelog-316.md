@@ -234,7 +234,7 @@ So yeah, I don't know; I don't have regrets about it. I think jQuery was great, 
 
 **Jerod Santo:** As you should.
 
-**Suz Hinton:** Our next question comes from Louis Montez; it relates a little bit to Dan's question earlier - it's about REST vs. HTTP, and the advantages outside of that. They ask "Since we've had things like JSON-RPC over websockets for years, how much of the GraphQL as "the new REST" comes from REST being typically tied to HTTP, while GraphQL is transport-agnostic?" I think that's a great point. They're asking "Is the query language itself the killer feature?"
+**Suz Hinton:** Our next question comes from Louis Montez; it relates a little bit to Dan's question earlier - it's about REST vs. HTTP, and the advantages outside of that. They ask "Since we've had things like JSON-RPC over WebSockets for years, how much of the GraphQL as "the new REST" comes from REST being typically tied to HTTP, while GraphQL is transport-agnostic?" I think that's a great point. They're asking "Is the query language itself the killer feature?"
 
 **John Resig:** Yeah, I think so. I think the query language is really good, because a lot of the features that I describe are benefitting directly from that... Being able to specify the query on the client side, being able to do static analysis, and all this sort of things. So that's certainly a benefit.
 
