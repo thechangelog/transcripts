@@ -38,7 +38,7 @@ Then in November 2016 is when the interface was ready enough that I posted a lin
 
 **Adam Stacoviak:** Controls...
 
-**Eugen Rochko:** ...controls each one of them, or in the case of Facebook, controls two of them and a chat service - it always kind of bothered me. And certainly, I had that angle from before I even started Mastodon. I think for a few years before that I was thinking "Oh, Twitter should be public utility", except obviously my idea hasn't formed back then, and I was just thinking in terms of some kind of government control, and the server becomes a public \[unintelligible 00:10:42.01\] kind of like water pipes, you know?
+**Eugen Rochko:** ...controls each one of them, or in the case of Facebook, controls two of them and a chat service - it always kind of bothered me. And certainly, I had that angle from before I even started Mastodon. I think for a few years before that I was thinking "Oh, Twitter should be public utility", except obviously my idea hasn't formed back then, and I was just thinking in terms of some kind of government control, and the server becomes a public utility kind of like water pipes, you know?
 
 Then, obviously, that idea evolved, and I no longer think that's a very good idea, because governments owning large amounts of private data about citizens isn't really a good idea anymore, certainly not after -- which year was it when we got the Snowden revelations...? In any case...
 
@@ -148,7 +148,7 @@ If you want to be in kind of a safe space environment, you're gonna go and get o
 
 **Jerod Santo:** You're not cool, okay. \[laughter\] So there's some of that with like what is your e-mail address; it kind of signals to people what kind of person you are.
 
-**Adam Stacoviak:** It's \[unintelligible 00:27:54.15\]
+**Adam Stacoviak:** It's \[unintelligible 00:27:54.15\] of sorts
 
 **Jerod Santo:** But not so much as like "I hang out on this forum, or this BBS." That's a stronger association, so probably a bigger decision.
 
@@ -300,7 +300,7 @@ Mastodon has a principle - API first, and... Yeah, that's essentially it - API f
 
 We don't even try to do an official mobile app, because that sort of tends to allow you to create some kind of proprietary behavior that's only available in one app... So by always having third-party apps, we're like -- you know, we're working together with independent developers. A thing that's available to one is available to all others, so competition is possible.
 
-So yeah, there's Tusky for Android, there's Amaroq for iOS... There's apps in development for iOS; one is called Toot!.app, by \[unintelligible 00:46:34.12\] and I think the guy who developed Twitterrific is developing an app for Mastodon, but I don't know what the name of that is yet... So that's in the works.
+So yeah, there's Tusky for Android, there's Amaroq for iOS... There's apps in development for iOS; one is called Toot!.app, by Dag Ågren and I think the guy who developed Twitterrific is developing an app for Mastodon, but I don't know what the name of that is yet... So that's in the works.
 
 There's more. There's Subway Tooter, there is Tootdon, and probably more.
 
@@ -344,7 +344,7 @@ So when you decide to use Mastodon, you're not really just gambling on the succe
 
 Essentially, it's part of the design that eventually, years later maybe, some developer comes along and develops something that is 1,000 times better than Mastodon, but as long as it uses the same protocol, people can just switch smoothly, and rather than losing all of their social graph, their connections, their friends, they're still in the same network, and it's just like switching to a different account... And I think that's the strength of Mastodon, and its main ideological differentiator.
 
-**Adam Stacoviak:** Well, that's pretty important too, because if you take what Mastodon is and you wanna create your -- the question rather is like why fracture and have so many apps, and it sounds like that's an advantage, because I can make a Mastodon instance and I can create an application that gives my users \[unintelligible 00:55:22.11\] at large access to it, but I can also say "Hey, I intend to have a Vine-like experience, for those Vine lovers out there. We want it back, we need it, we want it." It gives you a chance to make your own, essentially, aside from maybe several technical hurdles, I'm sure, for bandwidth reasons and whatnot around video and that kind of stuff...
+**Adam Stacoviak:** Well, that's pretty important too, because if you take what Mastodon is and you wanna create your -- the question rather is like why fracture and have so many apps, and it sounds like that's an advantage, because I can make a Mastodon instance and I can create an application that gives my users or whatever Mastodon at large access to it, but I can also say "Hey, I intend to have a Vine-like experience, for those Vine lovers out there. We want it back, we need it, we want it." It gives you a chance to make your own, essentially, aside from maybe several technical hurdles, I'm sure, for bandwidth reasons and whatnot around video and that kind of stuff...
 
 Essentially, you give them the ability to do that and they can have their own instance, it's federated, all that good stuff, they have their own application, but somebody else could use the same application and connect their own Vine-like Mastodon instance.
 
@@ -466,7 +466,7 @@ Some people are okay with having volunteer moderators, and people are maybe will
 
 **Eugen Rochko:** No, you can absolutely do it; there's no problem with it.
 
-**Adam Stacoviak:** Fully managed Mastodon hosting - this is at masto.host. Interesting \[unintelligible 01:09:31.15\] your homepage for JoinMastodon.org.
+**Adam Stacoviak:** Fully managed Mastodon hosting - this is at masto.host. Interesting, so that's right on your homepage for JoinMastodon.org.
 
 Well, let's get to maybe a more colorful side, which is naming. The naming scheme of things is always kind of fun. Toot is what you call the object, the thing that you put out there. Twitter has tweets, Mastodon has toots. \[laughter\]
 
@@ -524,7 +524,7 @@ The other big thing is account migration. As we've been talking about, it's kind
 
 I think that's it... Other than that, it's really just improving the user interface and solving bugs etc. As for growth opportunities - well, I can never really predict that sort of thing. It's kind of weird, because I work on a new release for a very long time, I add some exciting new features... Then it comes out and it doesn't make a big splash, but then randomly, a few months later, nothing of note happens but there's a huge wave where 500,000 people join, and it has nothing to do with anything I've been doing. So you know, I can't really predict that... But let's hope for the best.
 
-**Adam Stacoviak:** What about getting started for developers? Anybody who is listening to this and they're like "You know what, I've got a community. I've got a Slack channel I've been kind of \[unintelligible 01:17:40.15\] about that has limited search, or it's not my data", or it could be anything else, whatever... And someone's like "I think I should start an instance." Is there a Getting Started document, or a guide that does this? I noticed in your GitHub profile you have a Vagrant instance; I'm assuming that's probably for some local VM development, or something like that... What's a good way for someone to get started on the hacker front of this?
+**Adam Stacoviak:** What about getting started for developers? Anybody who is listening to this and they're like "You know what, I've got a community. I've got a Slack channel I've been kind of PO-d about that has limited search, or it's not my data", or it could be anything else, whatever... And someone's like "I think I should start an instance." Is there a Getting Started document, or a guide that does this? I noticed in your GitHub profile you have a Vagrant instance; I'm assuming that's probably for some local VM development, or something like that... What's a good way for someone to get started on the hacker front of this?
 
 **Eugen Rochko:** Well, if you're familiar with Ruby on Rails, then you'll have a really easy time, because Mastodon is just a Ruby on Rails application. It follows the conventions as much as possible. Perhaps the service pattern that we're using is maybe a bit unconventional, but at the same time also not really new to Ruby developers, and I think it quite elegantly encapsulates complex logic into classes that can be reasonably found if you're looking for them.
 
