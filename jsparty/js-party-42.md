@@ -46,7 +46,7 @@ If you decentralize the web and move it into kind of a peer-to-peer design, sudd
 
 \[00:08:20.07\] This is a point I try to make a lot - the web is centralized today, but it's actually extremely centralized; it's centralized in a very few legal jurisdictions and very few countries, and it keeps creating problems for people who don't live there also. So there's also just like these big, legal, political arguments for why we wanna decentralize better.
 
-This was actually shown pretty recently with some of the GDPR stuff in Europe, where it turns out \[unintelligible 00:08:46.21\] in the U.S. and they had to deal with European laws, for better or worse... Those kinds of things also drive me a lot, and I think that's why we need decentralization.
+This was actually shown pretty recently with some of the GDPR stuff in Europe, where it turns out that all the companies were U.S. and they had to deal with European laws, for better or worse... Those kinds of things also drive me a lot, and I think that's why we need decentralization.
 
 **Paul Frazee:** Yeah, I mean, there's the political element of it, which is huge, but there's also just this really basic "Let's bring the fun back into it", which I really feel like has been drained out, since the early days... I wanna get back to that.
 
@@ -62,13 +62,13 @@ I'm kind of curious, so how did you guys get started on this, working in this sp
 
 I remember playing around a lot with BitTorrent - I know, Feross, you also have - and I was really amazed how from a technical level actually really simple a lot of it was, the BitTorrent, and how easy it was to get started with implementing, and how rewarding it was... You make something at home, a little dingy program, and now all of a sudden you connect with the world, and all of a sudden you can get all this content... It feels so empowering, building these decentralized things.
 
-So that was basically my first motivation. Then, once you get past the tech part of it, you start to think of "How can we actually use this for things that are not just about the tech, but about the things we build instead?" I guess that's where we start thinking more about community, and stuff like that, and also how we \[unintelligible 00:11:44.12\] BitTorrent, which is kind of how a lot of the Dat stuff started happening, and how we ended up working together, I guess, Paul... That's like the long start and short ending story, I guess.
+So that was basically my first motivation. Then, once you get past the tech part of it, you start to think of "How can we actually use this for things that are not just about the tech, but about the things we build instead?" I guess that's where we start thinking more about community, and stuff like that, and also how we could back then improve BitTorrent, which is kind of how a lot of the Dat stuff started happening, and how we ended up working together, I guess, Paul... That's like the long start and short ending story, I guess.
 
 **Paul Frazee:** \[00:11:59.05\] Right, right. Yeah, so Mathias was working on that, while I was in the Secure Scuttlebut community... And then at one point I decided -- well, Electron got to the point where I was like, you know what, I think it's actually possible to make a browser off of Electron. So once I decided that was worth giving a shot, I stepped back and I was like, okay, if I'm gonna make a browser that's peer-to-peer, then I need a good tech behind it, and that was really starting to mature right at the same time, so I was like -- I dropped it in as a new protocol into the browser, and it worked right away... I was like "Okay, this is fantastic."
 
 So I kept on working on Beaker more and more, and then eventually Mathias joined in officially, and the rest is history.
 
-**Feross Aboukhadijeh:** Right, and you also have a third teammate, Tara, which she could have joined us today...
+**Feross Aboukhadijeh:** Right, and you also have a third teammate, Tara, which she couldn't have joined us today...
 
 **Paul Frazee:** Yeah, she's in Barcelona right now, giving a talk... So yeah, she couldn't join us.
 
@@ -76,7 +76,7 @@ So I kept on working on Beaker more and more, and then eventually Mathias joined
 
 So I guess I'm curious to learn a little bit more about what are people trying to do in this area, in the decentralized web... What are the different approaches that different groups of people are taking to achieve these goals that you've talked about, of decentralizing the web, and what are the pros and the cons and the different approaches that you guys are seeing out there.
 
-**Mathias Buus:** Actually, just one quick note I wanna add to your \[unintelligible 00:13:58.26\] I think BitTorrent actually is a good example of how to get started, and also, that's the main decentralized thing people usually know, and there's actually a bunch of attempts already to make a decentralized web on BitTorrent. It's not that BitTorrent is bad or has many flaws, it's just that some of it is a little bit dated, but it's actually a really good protocol still... But for something like the web, BitTorrent just has -- it's missing some technical features that we like from the web, like mutability, and stuff like that. By mutability I mean that you can go to a website and it has a link, but you can get the latest website every time you refresh... And stuff like that.
+**Mathias Buus:** Actually, just one quick note I wanna add to your comment that's kinda releated for Frazzee's sake. I think BitTorrent actually is a good example of how to get started, and also, that's the main decentralized thing people usually know, and there's actually a bunch of attempts already to make a decentralized web on BitTorrent. It's not that BitTorrent is bad or has many flaws, it's just that some of it is a little bit dated, but it's actually a really good protocol still... But for something like the web, BitTorrent just has -- it's missing some technical features that we like from the web, like mutability, and stuff like that. By mutability I mean that you can go to a website and it has a link, but you can get the latest website every time you refresh... And stuff like that.
 
 So you could build a decent decentralized web on BitTorrent, but it would just be very static and very boring, because BitTorrent by itself is very static. So that's also where some of the motivations for the protocols I'm working on came from - basically, how can we make protocols like that, that are for the web?
 
@@ -84,7 +84,7 @@ So you could build a decent decentralized web on BitTorrent, but it would just b
 
 **Mathias Buus:** That's true.
 
-**Paul Frazee:** But I think they had a different concept of it. I tried it out, and whenever you went to a torrent, it actually sort of acted like a typical torrent client, as opposed to behaving like a website. I don't know if they were quite tried to use it as a drop-in replacement to HTTP, which is what we started doing with that, and that was one of the differences...
+**Paul Frazee:** But I think they had a different concept of it. I tried it out, and whenever you went to a torrent, it actually sort of acted like a typical torrent client, as opposed to behaving like a website. I don't know if they were quite tried to use it as a drop-in replacement to HTTP, which is what we started doing with Dat and that was one of the differences...
 
 But back to Feross' original question, the good news is that there's a lot of projects out there right now that are attacking this problem. So for anybody that's really into decentralizing the web, you should be happy to hear that. A lot of it has to do with blockchains. Beaker and Dat - we don't use any blockchains; we're really actually just seeing how far we can get with Dat... And there's some technical similarities, because Dat has this append-only log behind every Dat archive, which retains all the history and it uses signatures on that log... But unlike almost every other blockchain, there's no decentralized consensus, which is the major feature of a lot of the cryptocurrencies.
 
