@@ -6,7 +6,7 @@ The situation around Twitter was a little bit different at the time. It wasn't s
 
 I've been aware of the existence of federated social networks for a few years. Back in 2010 I think was the first I heard of them from a friend. We used to discuss that technology and we used to even post on Identi.ca, which was the federated network at the time (that's what it was called).
 
-Back in 2010 it was kind of a promising technology actually, because they had support from Google; Google was developing their own social network, which was the predecessor of Google+, and it was (I think) called Google Buzz. They actually had a hand in developing some of the protocols that were later used in Identi.ca, which was later renamed to StatusNet, which would later become GNU social.
+Back in 2010 it was kind of a promising technology actually, because they had support from Google; Google was developing their own social network, which was the predecessor of Google+, and it was, I think, called Google Buzz. They actually had a hand in developing some of the protocols that were later used in Identi.ca, which was later renamed to StatusNet, which would later become GNU social.
 
 \[00:04:08.07\] In March 2016 I just wanted to check, "Well, how is that GNU social thing doing right now?" I saw that it was still alive, but it obviously looked kind of awful visually... So I was like, "Yeah, I like using TweetDeck; I kind of wanna make an interface for it that works like TweetDeck, and that looks good, and maybe people will switch." But I didn't have any big ambitions about that; I just I'd make something that people who really used GNU social would just switch to. I wasn't expecting anyone from outside that circle to make a jump.
 
