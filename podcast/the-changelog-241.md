@@ -28,7 +28,7 @@ It was a logical model, so he was basically programming in first-order logic, an
 
 **Jerod Santo:** It's way over my head. I started reading it and I felt like I should go make a CRUD app, or something.
 
-**Nathan Sobo:** \[00:04:02.28\] Yeah, and it was way over my head for the most part at the time, but some of it I understood, and all that was interesting to me. They talked about this formalism called parsing expression grammars, which was top-down, recursive descent parsers with memoization. So I ended up grabbing a framework that was based on that - there were a couple at the time - and it was such a mind-blowing distinction between that and the lex and yacc situation that was going on in my compilers class a couple years prior to that, that I got really excited about parsing expression grammars.
+**Nathan Sobo:** \[00:04:02.28\] Yeah, and it was way over my head for the most part at the time, but some of it I understood, and all that was interesting to me. They talked about this formalism called parsing expression grammars, which was top-down, recursive descent parsers with memorization. So I ended up grabbing a framework that was based on that - there were a couple at the time - and it was such a mind-blowing distinction between that and the lex and yacc situation that was going on in my compilers class a couple years prior to that, that I got really excited about parsing expression grammars.
 
 Somewhere along the line I came up with this idea that it would be really cool to have a text editor that had one of these parsing expression grammar engines baked into it, so that in a really convenient way you'd be able to express the grammar for any language, and then the editor would give you a parse tree, and you'd always have access to that.
 
@@ -60,7 +60,7 @@ So he pitched me on this web thing, they showed me this video with the cool La R
 
 **Nathan Sobo:** It probably does, somewhere... Yeah. I can probably try to dig it up and see if it's in my e-mail, or something. Chris probably has it. But it was this demo of the prototype that he and Cory had cooked together using Ace, which they had already been using on DotCom. Ace is another web-based editor interface, and they were doing it in a Safari or Webkit window on the Mac, with this very primitive bridging to the Objective-C layer. They cobbled together something pretty cool pretty quickly, actually.
 
-That was sort of my intro to it, doing interesting things with just online (if I recall correctly) and then they booted up some little Javascript with like an asteroid ship flying around inside the DOM and like shooting DOM nodes... \[laughter\]
+That was sort of my intro to it, doing interesting things with just online (if I recall correctly) and then they booted up some little JavaScript with like an asteroid ship flying around inside the DOM and like shooting DOM nodes... \[laughter\]
 
 **Adam Stacoviak:** I think I recall that... You could plug in a page and destroy a page with this thing. Is that what you're talking about?
 
