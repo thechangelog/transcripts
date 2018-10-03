@@ -294,10 +294,13 @@ I feel like in a lot of readmes, a lot of open source website, it'll say right t
 
 **Zed Shaw:** Yeah, yeah. All over the place, a massive fight, big internal -- and then Joyent had to change its steering, and its licensing, and everything to fight it... But they totally fought it. They had all sorts of propaganda going back and forth, yelling all sorts of stuff, fights... It was terrible, it almost destroyed Node, right?
 
-**Adam Stacoviak:** We were pretty close to that one though. I think there were a lot of community members knee deep into the Io and Node fork and bringing the communities back together. From my perspective, I think there were plenty of community members that were what I would consider just peer-to-peer developers, not corporations that were -- I guess they were leading Io, but then they were also bringing it back to this recombination of Io/Node.
+**Adam Stacoviak:** We were pretty close to that one though. I think there were a lot of community members knee deep into the Io.js and Node fork and bringing the communities back together. From my perspective, I think there were plenty of community members that were what I would consider just peer-to-peer developers, not corporations that were -- I guess they were leading Io.js, but then they were also bringing it back to this recombination of Io/Node.
 
 **Zed Shaw:** Right, after they got Joyent to sort of agree to their things. Because Joyent wasn't really running the project ethically; they were doing exactly what I was saying.
-Yeah, they weren't running it well; they were only doing what they wanted and what benefitted them, but then claiming "Oh, this is a community. We're all friends!" So then Io forks for that very reason.
+
+**Jerod Santo:** \[00:43:19.27\]They were letting it languish.
+
+**Zed Shaw:** Yeah, they weren't running it well; they were only doing what they wanted and what benefitted them, but then claiming "Oh, this is a community. We're all friends!" So then Io forks for that very reason.
 
 **Jerod Santo:** Isn't that a success story though? Isn't that just like the actual open source thing working? Like, okay, Joyent was letting it languish, they wanted to maintain and control - and I'm just going based on memory; this was years ago, so maybe the details are not particularly clear... But the maintainers, which was Mikeal Rogers and friends - I can't remember the other names, but we interviewed Mikeal Rogers about it... They forked, they forced Joyent's hand, a lot of changes happened... Like you said, there was definitely propaganda back and forth, there was communication back and forth, there were blog posts written, there were conversations had... At the end of the day, I think the forked team were very happy to recombine and keep it a singular community. I think they got a lot of things that they wanted out of it... So I just don't see how that's a failure of open source in terms of if things aren't going your way...
 
