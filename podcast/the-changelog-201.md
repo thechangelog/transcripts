@@ -114,7 +114,7 @@ It says, "He married Ginger G. Wyrick on April 16, 1994, changed the name of his
 
 **Richard Hipp:** Yeah. We were working for a company and of course I was the prime on that company, and they insisted that I be a significant shareholder in the company. So we went out to eat, we declared a business meeting and I handed her a $50 bill and took 50 shares of stock.
 
-**Jerod Santo:** \[unintelligible 00:15:45.05\]?
+**Jerod Santo:** She can hold the ransom from you.
 
 **Richard Hipp:** Ginger is a musician, so we are yin and yang. She's very prolific, and all of her stuff comes through the same company.
 
@@ -276,13 +276,13 @@ I was still doing bespoke software for various companies back then, but within a
 
 **Richard Hipp:** It's used in most everything. I think... It's impossible to tell, but I think that SQLite is probably... There are more instances of SQLite in use every day than all other database engines combined. Clearly, the other database engines make a lot more money for their creators, but I get the usage award.
 
-And I also think that SQLite is probably the second most widely used software component in the world behind \[unintelligible 00:29:25.18\].
+And I also think that SQLite is probably the second most widely used software component in the world behind zlib.
 
 **Jerod Santo:** Which is the …?
 
 **Richard Hipp:** The compression library.
 
-**Jerod Santo:** Compression, yeah. \[unintelligible 0:29:36\].
+**Jerod Santo:** Compression, yeah. gzip and what not.
 
 **Richard Hipp:** I haven't been able to identify anything else that I think might be used more than SQLite.
 
@@ -374,7 +374,7 @@ And for that matter, with SQLite you don't have to give the column a type at all
 
 **Richard Hipp:** Well, it flows directly out of the scripting language traditions. You don't declare types for variables in Tcl; you didn't used to do it in Python, I guess you can do it some, now. You don't do it in JavaScript... You just say it's a var.
 
-**Jerod Santo:** Yeah. I mean, I guess some of that leads to \[unintelligible 00:44:26.23\] scripting roots from the web development perspective, which is where Adam and I are mostly coming from. And I think Ruby on Rail wasn't my first exposure to SQLite, but it definitely was one of my first like using it, you know, more than just on the surface. And there's this feeling or there's this general, I don't know what you call it, a consensus that like it's for development purposes but when you get to production it's foolish to use it in production, because it's -- I don't want to call it a toy because it's used in production more than any other thing out there, but I think that sense of it, where it will allow certain data in because your users will put in, which you didn't expect - I think that's probably where that feeling comes from, do you agree?
+**Jerod Santo:** Yeah. I mean, I guess some of that leads to what I know as, you know, scripting roots from the web development perspective, which is where Adam and I are mostly coming from. And I think Ruby on Rail wasn't my first exposure to SQLite, but it definitely was one of my first like using it, you know, more than just on the surface. And there's this feeling or there's this general, I don't know what you call it, a consensus that like it's for development purposes but when you get to production it's foolish to use it in production, because it's -- I don't want to call it a toy because it's used in production more than any other thing out there, but I think that sense of it, where it will allow certain data in because your users will put in, which you didn't expect - I think that's probably where that feeling comes from, do you agree?
 
 **Adam Stacoviak:** I had the same thoughts honestly, Jerod. I thought that because it's sort of a getting started thing with Ruby on Rails, and as I said that's my first exposure with it, I kind of... And no downplay, because that's why we have this show, that's why we have people like Richard on this show to come and debunk big myths likes this, because someone may not ever think that SQLite is worth anything, because it's just a beginner or just a starter thing it. But that was not exactly my thought; my thought was that it's just for getting started.
 
@@ -502,7 +502,7 @@ We do our best to talk them out of it and explain they don't need this, but for 
 
 So that's one way that we have, you know, making a little bit of money to fund continuing development. It's more than just a license, though, it's also a warranty of title. The document we send them represents and warrants that all, every byte of source code is an original work that we control, it came from us. In other words, they are not bits and pieces that we just pulled off of the Internet, that might be contaminated with licenses that you don't know about. And if you are doing a large project with potential legal exposure, you wanna make sure that you really can use this without incurring possible are lawsuits down the road.
 
-Maybe Google wishes that they had thought more about Java before they put it in the Android. They don't want... Ten years down the road, if their product \[unintelligible 0:59:03\] they don't want somebody coming back and say, "Oh, that SQLite actually had stolen some code from us and so now you have to pay a license to us."
+Maybe Google wishes that they had thought more about Java before they put it in the Android. They don't want... Ten years down the road, if their product's a big hit they don't want somebody coming back and say, "Oh, that SQLite actually had stolen some code from us and so now you have to pay a license to us."
 
 **Jerod Santo:** Right.
 
@@ -590,7 +590,7 @@ A few years ago when Airbus had contacted us - they use SQLite in the A350, Avio
 
 **Richard Hipp:** You know, if you had given me a little prep, I could probably have given you a list. I hear about this stuff all the time, but nothing else comes to mind. Airbus is a pretty cool thing.
 
-**Adam Stacoviak:** That's not \[unintelligible 1:12:32\] because the Airbus example threw me for a loop. I didn't expect... I mean, I guess it would make sense, but it's such a well-known aircraft. That's a big deal.
+**Adam Stacoviak:** That's an on the fly question because the Airbus example threw me for a loop. I didn't expect... I mean, I guess it would make sense, but it's such a well-known aircraft. That's a big deal.
 
 **Richard Hipp:** Sure. Bloomberg, the news agency and the biggest provider of Wall Street data in the world, all of their stuff goes through SQLite, or at least our parser. They took the front end of SQLite, the SQL parser and code generator and execution engine, and chopped off the data storage engine and include their own enterprise scale, massively concurrent, a multi data center storage engine on the backside. All of Bloomberg goes through that, which I think is pretty amazing.
 
@@ -640,7 +640,7 @@ Now everybody has broadband, it's taken for granted. Now, everybody has a cell p
 
 **Richard Hipp:** No, in my opinion Fossil is better than Git, but the difference is not enough to overcome the additional learning curve of learning a new system that's slightly different. So it's just an incremental improvement, it's not a disruptive improvement. And I think to really overcome... Because Git has huge, huge traction now. Everybody uses it. We have GitHub. In order to overcome that incredible installed base, you've got to have something that is revolutionary.
 
-**Adam Stacoviak:** Well, I mean even Mercurial has had this problem, right? I mean, Facebook gave it the best name brand to as a social proof mechanism to get people to switch, and yet no one's switching \[unintelligible 01:21:10.01\].
+**Adam Stacoviak:** Well, I mean even Mercurial has had this problem, right? I mean, Facebook gave it the best name brand to as a social proof mechanism to get people to switch, and yet no one's switching in droves.
 
 **Richard Hipp:** It's a hard problem, and I've got a list of features I think that would go a long way toward getting to the Git killer, but it's just a matter of sitting down and implementing them, and that takes time, and something like a version-control system really has to be right, because if it messes up and you lose source code people get really upset.
 
@@ -650,7 +650,7 @@ Now everybody has broadband, it's taken for granted. Now, everybody has a cell p
 
 **Adam Stacoviak:** Well, it's certainly interesting to hear your entrance into software development technology. I hope the listeners can appreciate how pivotal that kind story is to have on this show. It's so interesting too to have someone like yourself with such deep and rich history, and also unafraid to just not use what's there and write your own. That to me is pretty interesting, so to live up to that and be inspired by that and share that back with all the listeners who love this show, that's so awesome. I thank you and Jerod thanks you of course too for your time to come on this show and share that.
 
-Then also what you do with giving back in public domain and \[unintelligible 01:22:34.23\], that's phenomenal. So we'll leave it there.
+Then also what you do with giving back in public domain and all the things we covered on the show, that's phenomenal. So we'll leave it there.
 
 **Richard Hipp:** Thank you for having me. You all have been great, I really appreciate it.
 
