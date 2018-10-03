@@ -140,7 +140,7 @@ It was at the end of April 2017 we actually launched our first service, and all 
 
 **Jerod Santo:** That's a fact. So instead of sub-domaining, which is what you end up doing to have completely disparate applications hosted on the same domain, you're providing a way that you can use subdirectories, basically, or paths, instead of that, all combined together, but have completely separate infrastructure for each one. There's no coupling at all between the implementations.
 
-**Kurt Mackey:** Correct. And a lot of the paths could just be third-party hosting services. Your Ghost(Pro) blog could be on /articles, which is exactly how ours is. Your GitHub Pages site could be on the root, and your Rails app could be on the root \[unintelligible 00:21:37.27\] That was the extent of the service at the time.
+**Kurt Mackey:** Correct. And a lot of the paths could just be third-party hosting services. Your Ghost(Pro) blog could be on /articles, which is exactly how ours is. Your GitHub Pages site could be on the root, and your Rails app could be on the root if you're logged in. That was the extent of the service at the time.
 
 **Jerod Santo:** That's useful.
 
