@@ -132,7 +132,7 @@ We don't have inventory yet for GoCommerce, but we also have some plans for that
 
 **Jerod Santo:** Okay. And no inventory yet.
 
-**Matt Biilman:** And once you do that -- of course, for Smashing Magazine all of this is managed in Netlify CMS, but again, there's no coupling here. GoCommerce doesn't know that Netlify CMS exists, and you could even use GoCommerce with a traditional rails application or something like that; it wouldn't care. You could also use it together with an inventory managed in Contentful, or if your business has a CRM where all your products are stored, or a big inventory system, you can generate the website from that, and then \[unintelligible 00:27:12.25\] GoCommerce. GoCommerce is completely decoupled from the other parts of the system.
+**Matt Biilman:** And once you do that -- of course, for Smashing Magazine all of this is managed in Netlify CMS, but again, there's no coupling here. GoCommerce doesn't know that Netlify CMS exists, and you could even use GoCommerce with a traditional rails application or something like that; it wouldn't care. You could also use it together with an inventory managed in Contentful, or if your business has a CRM where all your products are stored, or a big inventory system, you can generate the website from that, and then hook up GoCommerce. GoCommerce is completely decoupled from the other parts of the system.
 
 **Jerod Santo:** Right. So how do you manage the -- I'm just stuck on the security there. You have some sort of endpoint that's just password-protected somewhere. How do you manage the credentials for that, because isn't the whole point that you can ship it off to a CDN and not even think about it anymore? But now you have to password-protect a certain portion of your website.
 
@@ -140,7 +140,7 @@ We don't have inventory yet for GoCommerce, but we also have some plans for that
 
 **Jerod Santo:** \[00:28:09.05\] Right. So it gets more complicated unless your CDN has specific features now.
 
-**Matt Biilman:** Or you can potentially just put that file under a long \[unintelligible 00:28:16.02\] that's not exposed anywhere.
+**Matt Biilman:** Or you can potentially just put that file under a long hash URL that's not exposed anywhere.
 
 **Jerod Santo:** Just hide it?
 
@@ -154,7 +154,7 @@ We don't have inventory yet for GoCommerce, but we also have some plans for that
 
 **Jerod Santo:** I just feel like that's a slippery slope.
 
-**Matt Biilman:** And for a beta setup, I would absolutely recommend using basic auth. And of course, it's \[unintelligible 00:29:07.14\]
+**Matt Biilman:** And for a bigger setup, I would absolutely recommend using basic auth. And of course, it's \[unintelligible 00:29:07.14\]
 
 **Jerod Santo:** Right. Moving a little bit aside from that, one thing that's struck me with -- and we'll move off of Smashing here in a minute and talk more about the CMS, because we'd like to... But one thing that struck me is - Chris you said that building monoliths is a problem, and these big systems that all have everything in them and dynamic-rendered, and with this system now you have microservices... But wasn't Smashing Magazine already...? I mean, one of their problems was they had too many little things, right? They had a Ruby-based shop, they had a Wordpress-based blog, they had a Magento and then later a Shopify-based... I mean, they didn't have a monolith, right?
 
@@ -170,7 +170,7 @@ Their problem was not so much that they had different services involved, but tha
 
 **Matt Biilman:** Yeah, that's correct.
 
-**Chris Bach:** Yeah, exactly. I mean, the whole point, again, is getting away from having to build everything every time someone visits. And of course, you can optimize against that to some degree by putting stuff in front of it, but at the very end of that you still have your HTML, you still have your Time To First Byte, you still have the basics that are running on your own server somewhere, and that's where we wanna \[unintelligible 00:31:29.03\]
+**Chris Bach:** Yeah, exactly. I mean, the whole point, again, is getting away from having to build everything every time someone visits. And of course, you can optimize against that to some degree by putting stuff in front of it, but at the very end of that you still have your HTML, you still have your Time To First Byte, you still have the basics that are running on your own server somewhere, and that's where we wanna gain.
 
 I guess we'll get back to it as well, but Sarah Soueidan - she was the front-end developer for Smashing Magazine and she talked a lot about how that worked, or how you push your pattern libraries instantly, live; the style guide is actually working... Because she wasn't sending anything off; what she was implementing was the site itself. But I'm sure we can talk a little bit about the Smashing Magazine case later.
 
@@ -178,7 +178,7 @@ I guess we'll get back to it as well, but Sarah Soueidan - she was the front-end
 
 So you're using services, and whether they're services that you write, or third-party services, which is the case for Algolia, which is being used for search, and people use Disqus for comments... What's often missing is those -- which is very easy on dynamically-rendered sites becomes very difficult all of a sudden, and now there's not solutions out there. So one of the things I'm excited about is how many things you guys had to build to accomplish this, because now actually there is an e-commerce thing we can use, and there is an authentication and a comments thing we can use if it fits our use case, as opposed to having to rely on somebody else's service, which could go away, could charge lots of money... Thoughts on that?
 
-**Matt Biilman:** We obviously thought it was very important to start helping out, building a solid open source secrets system. Because as you mentioned, we've seen over the last five years this really powerful service space ecosystem emerge that wasn't really there five years ago, right? Where you have tools like Disqus and Algolia and so on. And when you look at the traditional web space and you look at, for example, the CMS layout, it's what Chris was mentioning... For the JAMstack there are some great solutions already in terms of Contentful, Data CMS, Forestry and so on, but they are all proprietary. And when you look at the traditional CMS space for dynamic sites and \[unintelligible 00:34:02.26\] from the legacy stack, then you'll see that there's a bunch of businesses that are really good businesses, like SquareSpace, Wix, Weebly, SiteBuilder \[unintelligible 00:34:13.10\] proprietary CMS's in the CMS end of things, but even when you combine all of those together and you then look at the statistics for what tools most websites build with, combined, all of those goes into this little \[unintelligible 00:34:33.23\] is bigger than all of those combined in terms of actual \[unintelligible 00:34:42.13\]
+**Matt Biilman:** We obviously thought it was very important to start helping out, building a solid open source secrets system. Because as you mentioned, we've seen over the last five years this really powerful service space ecosystem emerge that wasn't really there five years ago, right? Where you have tools like Disqus and Algolia and so on. And when you look at the traditional web space and you look at, for example, the CMS layout, it's what Chris was mentioning... For the JAMstack there are some great solutions already in terms of Contentful, Data CMS, Forestry and so on, but they are all proprietary. And when you look at the traditional CMS space for dynamic sites and so on from the legacy stack, then you'll see that there's a bunch of businesses that are really good businesses, like SquareSpace, Wix, Weebly, SiteBuilder \[unintelligible 00:34:13.10\] proprietary CMS's in the CMS end of things, but even when you combine all of those together and you then look at the statistics for what tools most websites build with, combined, all of those goes into this little \[unintelligible 00:34:33.23\] is bigger than all of those combined in terms of actual \[unintelligible 00:34:42.13\]
 
 **Jerod Santo:** What?!
 
