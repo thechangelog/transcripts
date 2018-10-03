@@ -36,7 +36,7 @@ Alright, we're here today joined by Sara Chipps and George Stocker. Jerod, you k
 
 **Jerod:** Jewelbots seems like quite a different deal than you were up to previously...
 
-**George:** Yeah, as I said, I've jumped around industries, and I've gradually gone backwards... Where most people may start at a small company, a startup, and work their way towards the corporate world, I've started at really large companies and have worked my way back to a startup.
+**George:** Yeah, as I said, I've jumped around industries, and I've gradually gone backwards... Where most people may start at a small company, a start-up, and work their way towards the corporate world, I've started at really large companies and have worked my way back to a start-up.
 
 **Jerod:** Very cool. And just for the listeners, Jewelbots is the world's first programmable friendship bracelet. It's focused on young girls and getting them interested in coding. It's all programmable and open source, and built around Arduinos. Sara, I believe this is your brainchild, as the founder of the company. But before we get into Jewelbots, can you kind of tell us - you said you've been doing Javascript and you're active in the New York community Javascript stuff. You've also written a lot, done some speaking... Can you give us a bit of your background, how you got into programming, what exposed you to Javascript and how you got to where you are today?
 
