@@ -24,7 +24,7 @@ I think Rebecca and I both have children now...
 
 **Adam Sontag:** Yeah. You know, it never occurred to me until now that we never put dates on the yayQuery website, so it seems kind of evergreen...
 
-**Alex Sexton:** It's evergreen until you listen to \[unintelligible 00:03:39.27\] and we're like "jQuery 1.4.111, commit 93870 came out today..."
+**Alex Sexton:** It's evergreen until you listen to like 3 seconds of it and we're like "jQuery 1.4.111, commit 93870 came out today..."
 
 **Rebecca Murphey:** It seems so important...
 
@@ -36,11 +36,11 @@ I think Rebecca and I both have children now...
 
 **Paul Irish:** Yeah, exactly.
 
-**Adam Sontag:** Hold on! \[unintelligible 00:04:41.04\] put down my Margarita to listen to this... \[laughter\]
+**Adam Sontag:** Hold on! I'm going to need to angrily put down my Margarita to listen to this... \[laughter\]
 
 **Paul Irish:** So the interesting here was ReactJS actually launched at JSConf in Florida... Were all of us there at that one?
 
-**Alex Sexton:** \[\\00:04:59.15\]
+**Alex Sexton:** I think we were actually --
 
 **Paul Irish:** Oh, damn!
 
@@ -98,9 +98,9 @@ I think they were trying to focus on the autobindy-type stuff, because that was 
 
 **Rebecca Murphey:** And it would take ten minutes...
 
-**Alex Sexton:** For sure... I mean, it was small enough. Since then, we've had FlowType and Typescript come up. FlowType's written in OCaml, so if you ever wanna tribute to that, brush up on your OCaml. But I guess I'm interested in knowing what the uptick on types across the regular Javascript community is. It seems popular. Paul? Adam? \[laughter\]
+**Alex Sexton:** For sure... I mean, it was small enough. Since then, we've had FlowType and Typescript come up. FlowType's written in OCaml, so if you ever wanna tribute to that, brush up on your OCaml. But I guess I'm interested in knowing what the uptick on types across the regular Javascript community is. It seems popular. Paul? Adam?
 
-**Paul Irish:** \[unintelligible 00:10:05.16\] I work on a few projects... I work on both the Chrome DevTools and on Lighthouse, which is kind of auditing performance tool. DevTools is written -- we use the Closure Compiler, so everything has the annotations. When the entire project is annotated, that compilation step is super valuable and super useful. Or in Lighthouse we have a portion of it, our CLI - we actually ported it over to Typescript, and then we're using Closure annotations for the remainder of the Javascript in the project. So we're using a little bit of both there.
+**Paul Irish:** Yeah, at least, I'll say -- \[laughter\] I work on a few projects... I work on both the Chrome DevTools and on Lighthouse, which is kind of auditing performance tool. DevTools is written -- we use the Closure Compiler, so everything has the annotations. When the entire project is annotated, that compilation step is super valuable and super useful. Or in Lighthouse we have a portion of it, our CLI - we actually ported it over to Typescript, and then we're using Closure annotations for the remainder of the Javascript in the project. So we're using a little bit of both there.
 
 And it's interesting, because at least on our team, we haven't come to a conclusion about it. It's like, "Well, the Typescript is nice, because it catches different things, and there is better in-editor tooling support, but the compile step is annoying... Whereas the immediate reload or rerun of just Javascript is so attractive." So we're just kind of like in that holding pattern.
 
@@ -108,9 +108,9 @@ And it's interesting, because at least on our team, we haven't come to a conclus
 
 **Rebecca Murphey:** And I think that what we've seen is that the types help, but they don't make you write good Javascript. You can have a Closure Compiler comment that says "These 40 arguments are these types", but you still are passing in 40 arguments. I think it can seem like kind of a safety net for people who maybe aren't used to writing Javascript, which is kind of my world, but it doesn't make your Javascript good.
 
-**Alex Sexton:** \[00:12:04.13\] Yeah. It's interesting, because I think part of the standards bodies are kind of maybe taking -- like, normally, when people do their own things and \[unintelligible 00:12:16.17\] CoffeeScript happened, and then I think a lot of ES6 was at least sped up, and some syntax like Feathers were inspired by CoffeeScript. The innovations to the language end up in the spec, but I almost feel like the opposite thing is happening with types, where they're like "We wanna get types in. We've been looking at it for a long time, it's hard. Let's try this, let's try this..." and then whenever FlowType and Typescript came out, they were like "Okay, well those things solve it, so let's not work on it as hard in the spec, because people have options already." So I'm interested to see how that plays out long-term. I don't ever see Javascript bringing types, for what it's worth; it would just change it too fundamentally... But maybe I'm wrong. That's a prediction.
+**Alex Sexton:** \[00:12:04.13\] Yeah. It's interesting, because I think part of the standards bodies are kind of maybe taking -- like, normally, when people do their own things and add to, like -- CoffeeScript happened, and then I think a lot of ES6 was at least sped up, and some syntax like Feathers were inspired by CoffeeScript. The innovations to the language end up in the spec, but I almost feel like the opposite thing is happening with types, where they're like "We wanna get types in. We've been looking at it for a long time, it's hard. Let's try this, let's try this..." and then whenever FlowType and Typescript came out, they were like "Okay, well those things solve it, so let's not work on it as hard in the spec, because people have options already." So I'm interested to see how that plays out long-term. I don't ever see Javascript bringing types, for what it's worth; it would just change it too fundamentally... But maybe I'm wrong. That's a prediction.
 
-In that same vein, ES5 - we did an episode whenever ES5 landed, and we talked about the new array prototype functions and things like that, and how you'd have to use polyfills to get it all to work. Since then, a few versions of Javascript have been released, and it's kind of evergreen now, and it's hard... I guess Javascript \[unintelligible 00:13:28.09\], whatever. But we've had ES6, ES7, ES2015, ES2016, and now we're in the midst of 2017. I think we're all using -- everyone's using Babel for everything. I guess DevTools probably \[unintelligible 00:13:42.21\]
+In that same vein, ES5 - we did an episode whenever ES5 landed, and we talked about the new array prototype functions and things like that, and how you'd have to use polyfills to get it all to work. Since then, a few versions of Javascript have been released, and it's kind of evergreen now, and it's hard... I guess Javascript isn't evergreen, it's HTML, whatever. But we've had ES6, ES7, ES2015, ES2016, and now we're in the midst of 2017. I think we're all using -- everyone's using Babel for everything. I guess DevTools probably isn't, Paul, right?
 
 **Rebecca Murphey:** ...except Brian LaRue.
 
@@ -174,7 +174,9 @@ But anyways, that EtherPad instance that we had was hosted on OkSoClap.com, and 
 
 **Break:** \[00:20:10.18\]
 
-**Alex Sexton:** And we're back. During the break, Paul reminded me of the fact that the OkSoClap EtherPad instance was actually used by TC39, the Technical Committee 39 from the ECMA standards body organization system enterprise... \[laughter\] They used the OkSoClap for years to take notes, so the official Javascript language was partially developed using the OkSoClap.com EtherPad created by yayQuery... So our tentacles go deep into the language. \[unintelligible 00:21:40.15\]
+**Alex Sexton:** And we're back. During the break, Paul reminded me of the fact that the OkSoClap EtherPad instance was actually used by TC39, the Technical Committee 39 from the ECMA standards body organization system enterprise... \[laughter\] They used the OkSoClap for years to take notes, so the official Javascript language was partially developed using the OkSoClap.com EtherPad created by yayQuery... So our tentacles go deep into the language.
+
+**Paul Irish:** \[laughter\] So deep.
 
 **Adam Sontag:** I remember, it's a symbol of how different that whole standards process is than when we started yayQuery. It's a lot more open, and I think that that is a nice thing to point out.
 
@@ -218,7 +220,7 @@ I forgot... Mikeal and Rachel are gonna be gone next week, and I need to get Ric
 
 **Alex Sexton:** If we're lucky, we'll edit some audio for our old song to be there.
 
-**Rebecca Murphey:** \[unintelligible 00:24:25.19\] to hear that.
+**Rebecca Murphey:** So you didn't have to hear that.
 
 **Alex Sexton:** And if you're unlucky, then you heard us yelling it. Maybe you got both. Cool. So the hiddenhancement this week... Adam, why don't you introduce the concept?
 
@@ -236,17 +238,17 @@ I forgot... Mikeal and Rachel are gonna be gone next week, and I need to get Ric
 
 **Alex Sexton:** What's that, Paul?
 
-**Paul Irish:** \[laughs\] A NodeList is like this Array-like thing, but it's kind of -- it's been frustrating, because we always get back NodeLists from \[unintelligible 00:26:29.28\] and in NodeLists you can't do things that you'd normally do with an Array, right?
+**Paul Irish:** \[laughs\] A NodeList is like this Array-like thing, but it's kind of -- it's been frustrating, because we always get back NodeLists from querySelectorAll() or getElementsByTagName(), right? And in NodeLists you can't do things that you'd normally do with an Array, right?
 
 **Adam Sontag:** If I recall, there's like prototype methods missing...
 
-**Alex Sexton:** \[unintelligible 00:26:43.10\]
+**Alex Sexton:** Do a slice, yeah. \[laughter\]
 
 **Paul Irish:** Yeah, it's always been frustrating, so that's why we always do that arrayed prototype slice deal. So number two hiddenhancement is that the NodeList object is now iterable.
 
 **Alex Sexton:** It's everywhere?
 
-**Paul Irish:** Yeah, it is everywhere. I think probably IE10 is where it bottoms out. But yeah, iterable NodeList available on all modern browsers. You get back the result from querySelectorAll, and you have four each sitting on that.
+**Paul Irish:** Yeah, it is everywhere. I think probably IE10 is where it bottoms out. But yeah, iterable NodeList available on all modern browsers. You get back the result from querySelectorAll(), and you have four each sitting on that.
 
 **Rebecca Murphey:** Speaking of IE10, I just wanted to let you know about this other browser that came out... It's called IE9. It's gonna have CSS3 support, and you can hear us talk all about this in the South by Southwest (???) episode of yayQuery. \[laughter\]
 
@@ -260,7 +262,7 @@ Then we got to go see yaySayer at the after party, in the VIP section. We were t
 
 **Paul Irish:** Sure. In DevTools, what you can do is -- it's in a place that we call "the drawer", which is the little console at the bottom, when you hit Escape and that pops up... So you can definitely hit Escape to bring up that, or you can go through the top-right, the little three dots menu, go to More Tools and click Coverage. Either way, you're gonna click a little menu, the three dots, and go for Coverage. From there, there's a little Record button; start recording, and stop if when you're done.
 
-You can do it instantly... If all you wanna look at is CSS, it's just gonna look at the CSS that's used on the page. But usually, you're looking at scripts, so you'll wanna load the page and maybe open up, like try out some functionality. Then you get a report on exactly how many bites of every file that's loaded have been evaluated, either by the Javascript engine or the style engine, and then from there you can go see the exact lines, and whether they were evaluated or not... And evaluate, figure out on your own what you can kill off, or what you could move to another module \[unintelligible 00:30:33.08\] things like that.
+You can do it instantly... If all you wanna look at is CSS, it's just gonna look at the CSS that's used on the page. But usually, you're looking at scripts, so you'll wanna load the page and maybe open up, like try out some functionality. Then you get a report on exactly how many bites of every file that's loaded have been evaluated, either by the Javascript engine or the style engine, and then from there you can go see the exact lines, and whether they were evaluated or not... And evaluate, figure out on your own what you can kill off, or what you could move to another module, lazy-load it, things like that.
 
 **Alex Sexton:** Very nifty.
 
@@ -278,13 +280,15 @@ You can do it instantly... If all you wanna look at is CSS, it's just gonna look
 
 **Paul Irish:** Yeah, exactly.
 
-**Alex Sexton:** Cool. That's really nifty, good job! Good job at your job! \[laughter\] Next up we have probably the most famous segment... It's the \[unintelligible 00:32:50.22\]
+**Alex Sexton:** Cool. That's really nifty, good job! Good job at your job! \[laughter\] Next up we have probably the most famous segment... It's the --
+
+**Adam Sontag:**  Plugin of the Week!
 
 **Rebecca Murphey:** What would we have today? Would we have like the Webpack loader of the week? \[laughter\]
 
 **Alex Sexton:** The Babel transform of the week...
 
-**Adam Sontag:** The React \[unintelligible 00:33:16.25\] of the week... \[laughter\]. Today's plugin of the week - I picked this, but Rebecca, I don't know if you've actually looked at it... So why don't you go ahead and actually take this one for us?
+**Adam Sontag:** The React reduction of the week... \[laughter\]. Today's plugin of the week - I picked this, but Rebecca, I don't know if you've actually looked at it... So why don't you go ahead and actually take this one for us?
 
 **Rebecca Murphey:** Wow... That's really -- I mean, it's an explosive modal... It's the most explosive modal on the web.
 
@@ -346,17 +350,19 @@ Kyle did some work with the standards bodies to do some of the async false stuff
 
 But yeah, I thought it was interesting... A little LABjs update for everyone, in 2017.
 
-Next up, we were going to have "Paul Irish's jQuery anti-pattern for performance of the week. Whump-whump!" Yeah, whump-whump is correct, because I think Paul just decided that jQuery is the anti-pattern for performance of the week...?
+Next up, we were going to have "Paul Irish's jQuery Anti-pattern for Performance of the Week. Whump-whump!" Yeah, whump-whump is correct, because I think Paul just decided that jQuery is the anti-pattern for performance of the week...?
 
 **Rebecca Murphey:** Ouch!
 
 **Paul Irish:** Yeah, yeah...
 
-**Adam Sontag:** Oh, man... That's a double-burn because that was my \[unintelligible 00:37:36.15\]
+**Adam Sontag:** Oh, man... That's a double-burn because that was my pre-show goal.
 
-**Alex Sexton:** We'll move on quickly... \[laughter\] Next up is a less oft used segment that we add in yayQuery, called "the yayQuery beginners corner", and I would implore us to not sing this one... Okay, Adam can sing it. \[laughter\]
+**Alex Sexton:** We'll move on quickly... \[laughter\] Next up is a less oft used segment that we add in yayQuery, called "the yayQuery Beginner's Corner", and I would implore us to not sing this one... Okay, Adam can sing it. \[laughter\]
 
-**Adam Sontag:** \[unintelligible 00:38:01.10\]
+**Adam Sontag:** \[singing\] The yayQuery -- or something like that -- Beginner's Corner! Where everything is new!
+
+**Alex Sexton:** Where everything is new, yeah ok, cut that out.
 
 **Alex Sexton:** Jonathan Neil is dying somewhere in the JS Party Slack.
 
@@ -422,23 +428,27 @@ So check it out, it's 45 minutes or so long, but it was super approachable. I sa
 
 **Adam Sontag:** "I will by the time my company sponsors need to write one, so that we get some sweet marketing buzz." \[laughter\]
 
-**Rebecca Murphey:** No, we were rewriting a thing on \[unintelligible 00:42:54.08\] that I can't really say much more about, but we were rewriting it and we were using Preact and Preact Redux and Redux, and I did the Webpack bundle analyzer thing, and it was like 7k of my 21k bundle was for Redux and Preact Redux... And it was like, you know, this is actually really simple and totally not worth one-third of our bundle. We'll just do old school React \[unintelligible 00:43:22.03\] management, and it's like, it's okay... You don't have to use all these tools.
+**Rebecca Murphey:** No, we were rewriting a thing on Indeed.com that I can't really say much more about, but we were rewriting it and we were using Preact and Preact Redux and Redux, and I did the Webpack bundle analyzer thing, and it was like 7k of my 21k bundle was for Redux and Preact Redux... And it was like, you know, this is actually really simple and totally not worth one-third of our bundle. We'll just do old school React state management, and it's like, it's okay... You don't have to use all these tools.
 
-**Adam Sontag:** Just like they did in the articles of confederation... \[laughter\]
+**Adam Sontag:** Just like they did in the Articles of Confederation... \[laughter\]
 
-**Alex Sexton:** Jeez, the deep hole... \[laughter\] And I already praised Eddie once in this episode, which is more than enough, but he just informed us of an article written by Dan Abramov, who \[unintelligible 00:43:45.21\]
+**Alex Sexton:** Jeez, the deep hole... \[laughter\] And I already praised Eddie once in this episode, which is more than enough, but he just informed us of an article written by Dan Abramov, who wrote this --
 
 **Rebecca Murphey:** Oh yeah, great! "You might not need Redux."
 
 **Alex Sexton:** ...called "You might not need Redux."
 
-**Paul Irish:** That's a good way to get out ahead of things... Ship something on your own and then write the "You may not need this" post for \[unintelligible 00:44:00.18\]
+**Paul Irish:** That's a good way to get out ahead of things... Ship something on your own and then write the "You may not need this" post before anyone else does.
 
 **Alex Sexton:** For sure. Alright, I think we running up on a break, so... Yeah.
 
 **Break:** \[00:44:07.22\]
 
-**Alex Sexton:** And we're back! One segment that I believe only happened one time - I don't think it was officially a segment, because in the episode we didn't know it would become a segment, because - a lot of becauses in this - Adam intro-ed it. There was some show on The Food Network, Adam...? Throwdown - is that what it's called? Or is it like \[unintelligible 00:45:14.24\] Exactly! I think Adam and Paul had planned an argument to have, and Adam gave it The Throwdown section, but... I recently got into a pleasant, friendly argument with a friend about function binding in the new world, especially in the world where we're not compiling fat arrows. Fat arrow functions cause a function to be bound to a lexical this. It would be very similar to a function that at the end had a .bind(this), but not exactly, because you don't actually have to do the binding; it literally just uses lexical scope, or whatever... Versus a function that doesn't use "this" inside at all, and also is not a fat arrow and it's not bound, so an unbound function. So there's not such thing as an unbound fat arrow function, because it's always bound to a lexical "this".
+**Alex Sexton:** And we're back! One segment that I believe only happened one time - I don't think it was officially a segment, because in the episode we didn't know it would become a segment, because - a lot of becauses in this - Adam intro-ed it. There was some show on The Food Network, Adam...? Throwdown - is that what it's called? Or is it like a segment of a show?
+
+**Adam Sontag:** Oh yeah, Bobby Flay's Throwdown! \[dramatically\] Throwdown!
+
+**Alex Sexton:** Exactly! I think Adam and Paul had planned an argument to have, and Adam gave it The Throwdown section, but... I recently got into a pleasant, friendly argument with a friend about function binding in the new world, especially in the world where we're not compiling fat arrows. Fat arrow functions cause a function to be bound to a lexical this. It would be very similar to a function that at the end had a .bind(this), but not exactly, because you don't actually have to do the binding; it literally just uses lexical scope, or whatever... Versus a function that doesn't use "this" inside at all, and also is not a fat arrow and it's not bound, so an unbound function. So there's not such thing as an unbound fat arrow function, because it's always bound to a lexical "this".
 
 This friend was saying that by default now we should use fat arrows that way; everything is always bound to a lexical "this". Let's lint for that, and let's not allow us to use the function keyword anymore. Thoughts?
 
@@ -456,13 +466,13 @@ This friend was saying that by default now we should use fat arrows that way; ev
 
 **Alex Sexton:** My opinion is pretty much that I'm fine for our company choosing to have an application where we lint in this way and write Javascript in this style, but I think it's weird to refer to fat arrows as like the default way to write functions and to refer to functions.
 
-**Adam Sontag:** And I feel like it's kind of a beginner-unfriendly history, like it's a \[unintelligible 00:48:41.17\] of Javascript to try and be like "This is the new right way to do it, and everything you've seen that's older than three years ago is just wrong and weird now."
+**Adam Sontag:** And I feel like it's kind of a beginner-unfriendly history, like it's a retcon of Javascript to try and be like "This is the new right way to do it, and everything you've seen that's older than three years ago is just wrong and weird now."
 
 **Alex Sexton:** Yeah, and I think one interesting thing about this person is that pretty much their entire Javascript career is in the era of fat arrows, so I think actually to them fat arrows are default; like, why would you write that function? And to me, that's just a bizarre concept. The first thing I do is write a function, and then if I think about it and I want it to be bound to a lexical "this", then I would choose to use the fat arrow. But that's not always true.
 
 Some of the stuff with fat arrows is inside classes can get a little wonky. You have to do an equals fat arrow rather than do the shorthand, because then things aren't bound to a lexical "this". So there are some tricks and stuff that don't make it super easy, but I don't know... I think I'm kind of sold.
 
-**Rebecca Murphey:** I think that you could rephrase this as like "Kids these days" or "Get off my lawn!".
+**Rebecca Murphey:** I think that you could rephrase this as like "Kids these days!" or "Get off my lawn!".
 
 **Alex Sexton:** Sure, sure, sure... Nay Query.
 
@@ -470,7 +480,7 @@ Some of the stuff with fat arrows is inside classes can get a little wonky. You 
 
 **Rebecca Murphey:** We're gonna have to beep that out, aren't we? Family-friendly podcast.
 
-**Alex Sexton:** I think every once in a while we get an explicit tag, so... We'll see. Even back in the day we used to curse -- I mean, not a ton, but a good amount. But how many sparkles and ponies and rainbows were presented definitely did not give a fair indication of the amount of curses \[unintelligible 00:50:20.28\]
+**Alex Sexton:** I think every once in a while we get an explicit tag, so... We'll see. Even back in the day we used to curse -- I mean, not a ton, but a good amount. But how many sparkles and ponies and rainbows were presented definitely did not give a fair indication of the amount of cursing that'd end up on a show.
 
 This isn't a segment either, but we did this during our live reunion show last time, and I thought I might bring it back. I wanted to feel the air for predictions for the web or Javascript in the next 1-5 years, or something like that. What's gonna change, what standards are gonna make it, what's gonna die? Does anyone have any considerable thoughts here?
 
@@ -506,15 +516,15 @@ This isn't a segment either, but we did this during our live reunion show last t
 
 **Alex Sexton:** Yeah, and they're looking into doing some stuff where you could put Brave as your native runtime - Webkit native, or something like that? Electron - that's the one. Electron is like the Webkit native thing, and some people are looking into getting Brave as the browser that by default is more user secure.
 
-And my last tidbit there is private browsing - it's something that I think users get wrong a lot of times. They think that you can log into your Twitter account in private browsing mode and no one knows it's you... They don't realize that your identity is tied to them a hundred different ways, and just not having your cookies there isn't going to stop literally everyone from knowing your IP address and everything you do. It doesn't force HTTPS - none of those things, so they're looking into doing -- \[unintelligible 00:53:33.22\] I think has a wiki page on the Brave GitHub for a Thor mode. So when you open up a new tab in private mode, it's Thor-ed. Your regular browser isn't Thor-ed, but if you open up a private thing, they delete all your cookies and there's no -- like normal private mode, but also it runs over Thor... Which I think is kind of brilliant, in the sense that that's what users expect whenever they think about private mode.
+And my last tidbit there is private browsing - it's something that I think users get wrong a lot of times. They think that you can log into your Twitter account in private browsing mode and no one knows it's you... They don't realize that your identity is tied to them a hundred different ways, and just not having your cookies there isn't going to stop literally everyone from knowing your IP address and everything you do. It doesn't force HTTPS - none of those things, so they're looking into doing -- bcrypt, I think, has a wiki page on the Brave GitHub for a Tor mode. So when you open up a new tab in private mode, it's Tor-ed. Your regular browser isn't Tor-ed, but if you open up a private thing, they delete all your cookies and there's no -- like normal private mode, but also it runs over Tor... Which I think is kind of brilliant, in the sense that that's what users expect whenever they think about private mode.
 
 **Rebecca Murphey:** I think private really is...
 
-**Alex Sexton:** Yeah. I mean, still you can then leak information via a hundred other different ways, but that's kind of on you. The browser actually is doing it's job if they had a Thor private one. I think it'd be really nifty, but also the Thor infrastructure needs some work before that can necessarily become a super reality. Anyways, that was a long time on...
+**Alex Sexton:** Yeah. I mean, still you can then leak information via a hundred other different ways, but that's kind of on you. The browser actually is doing it's job if they had a Tor private one. I think it'd be really nifty, but also the Tor infrastructure needs some work before that can necessarily become a super reality. Anyways, that was a long time on...
 
 **Rebecca Murphey:** Well, that's my prediction.
 
-**Alex Sexton:** Yeah, \[unintelligible 00:54:27.26\] I don't know if I believe it... Anyone else have a prediction?
+**Alex Sexton:** Yeah, good job! I like that prediction. I don't know if I believe it... Anyone else have a prediction?
 
 **Rebecca Murphey:** I don't know if I believe it either, but...
 
@@ -546,13 +556,13 @@ And my last tidbit there is private browsing - it's something that I think users
 
 I think my actual prediction that I was gonna say for this though is that there will be -- like, the React model of things might still be around, but I think my prediction is that it will be React-like, but the underlying technology will be Web Components. So you may author in something that's not Web Components, but I'm betting on it a little bit for performance reasons. If someone can build something with the experience of React and all that stuff, and then... Like, I know some of this already exists and you guys are all gonna send me Tweets or whatever, but something will come along that actually gets people to change their mind. I think it will happen sometime.
 
-**Rebecca Murphey:** I think Alex \[unintelligible 00:57:56.26\] just kind of tool over your body there for a minute...
+**Rebecca Murphey:** I think Alex Russell just kind of tool over your body there for a minute...
 
 **Alex Sexton:** Oh... No, it happens for five minutes a day.
 
-**Adam Sontag:** \[unintelligible 00:58:02.07\] that happened a long time ago. \[laughter\]
+**Adam Sontag:** It actually -- that happened a long time ago. \[laughter\]
 
-**Alex Sexton:** Live through me... \[laughter\] Someone asked a question, Paul, in the JS Party Slack channel, which you guys can all join (changelog.com/jsparty), and you kind of perked up, and I was a little bit interested in why you perked up so much... \[laughter\] Because the question seemed like a joke. The question was "Why is querySelectorAll() so long?" and then you also mentioned \[unintelligible 00:58:39.22\] Why is that funny? Do you have a story about that?
+**Alex Sexton:** Live through me... \[laughter\] Someone asked a question, Paul, in the JS Party Slack channel, which you guys can all join (changelog.com/jsparty), and you kind of perked up, and I was a little bit interested in why you perked up so much... \[laughter\] Because the question seemed like a joke. The question was "Why is querySelectorAll() so long?" and then you also mentioned addEventListener() is also long. Why is that funny? Do you have a story about that?
 
 **Paul Irish:** Yeah, the question seems pretty valid, because... To go back to our yayQuery roots, it is getting elements and doing things with them. And I write code with querySelectorAll() every single day, so I still do feel the listener's pain... So why they're actually so long - 1) because naming is hard and 2) because standards is hard, so put those together and you always end up with really big names.
 
@@ -592,7 +602,7 @@ But there were conversations on both of these cases, to introduce shorter APIs f
 
 **Alex Sexton:** For sure... Sounds like it. I think some of my favorite predictions from the channel were that we wouldn't get element media queries, which have been predicted for a really long time; it's the Linux of the desktop of CSS features. For those of you who aren't familiar, you can make media queries based on the size of the entire browser window, but not based on the size of the individual elements. Does that change a little bit with Shadow DOM, does anyone know? I assume you can do media queries inside of a Shadow DOM; or is it like full -- maybe no one knows.
 
-**Paul Irish:** It's not scoped to the Shadow DOM, it's still the full thing. It doesn't change \[unintelligible 01:03:22.07\]
+**Paul Irish:** It's not scoped to the Shadow DOM, it's still the full thing. It doesn't change with Shadow DOM.
 
 **Alex Sexton:** Still full window... That's rough. Ugh!
 
@@ -624,15 +634,19 @@ But there were conversations on both of these cases, to introduce shorter APIs f
 
 **Paul Irish:** This is what?
 
-**Alex Sexton:** This is an old joke. \[unintelligible 01:05:37.08\] I'm glad that you have never seen it, because \[unintelligible 01:05:42.08\]
+**Alex Sexton:** This is an old joke. Just so you know, but, I'm glad that you have never seen it, because that validates my life.
 
 **Paul Irish:** I've never seen this! Oh my god. Okay, well I'll just tell it, like... Maybe I -- oh... \[laughter\]
 
 **Alex Sexton:** You heard it here first! \[laughter\] Paul Irish didn't know something before someone else. It happened! \[laughter\]
 
-**Paul Irish:** It's a cheat sheet for HTTP return codes. Return codes are 100s, 200s, 300s, 400s and 500s. The 100s return codes translate essentially to "Hold on!" So straight up to 100 it's the "You're all good." 200s is "Here you go." 300s - "Go away!" 400s - "You f\*\*\*\*d up." and thr 500s - "I f\*\*\*\*d up."
+**Paul Irish:** It's a cheat sheet for HTTP return codes. Return codes are 100s, 200s, 300s, 400s and 500s. The 100s return codes translate essentially to "Hold on!" Straight-up 200 is the "You're all good." So, 200s is "Here you go. The 300s - "Go away!" 
 
-**Alex Sexton:** ... server errors.
+**Alex Sexton:** Redirect.
+
+**Paul Irish:** 400s - "You f\*\*\*\*d up." and the 500s - "I f\*\*\*\*d up."
+
+**Alex Sexton:** Server errors.
 
 **Paul Irish:** Yeah, yeah. Seeing it like that makes it really, really clear.
 
