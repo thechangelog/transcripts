@@ -98,7 +98,7 @@ What we could see was that in the space of the JAMstack there were still some ho
 
 So as Chris said, we basically told them "Okay, we are gonna make a huge exception from how we normally work, where we just give people a platform and they build, and we're gonna take a role in this and really help you build this project. But we are going to make everything small, reuseable APIs that we can make open source and that we can just contribute to the general ecosystem, because we really believe that there's a need for that in this JAMstack space." We already had the initial version of Netlify CMS, but needed to take it to another scale to handle the amount of content and contributors that Smashing Magazine has.
 
-\[00:20:08.19\] The we built out GoTrue, which is the layer that handles authentication for Smashing Magazine, we built out GoCommerce, which is a completely headless e-commerce API, we build out GoJoin for managing subscriptions for their membership features, and GoTell as a comment \[unintelligible 00:20:26.25\] We made all of these open source and helped them get the new Smashing Magazine to become a reality.
+\[00:20:08.19\] The we built out GoTrue, which is the layer that handles authentication for Smashing Magazine, we built out GoCommerce, which is a completely headless e-commerce API, we build out GoJoin for managing subscriptions for their membership features, and GoTell as a comment engine and We made all of these open source and helped them get the new Smashing Magazine to become a reality.
 
 **Chris Bach:** Matt, perhaps you can also just go into it, because the e-commerce is not like we built out Shopify in any way, right?
 
