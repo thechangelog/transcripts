@@ -102,7 +102,7 @@ After running it for about two years and growing it to 1,800 members, Drew asked
 
 So we've had some comments in our Slack, the Changelog Slack, about wanting to get some perspective from one of the guests on the different landscape -- the landscape of AI and ML techniques, and how deep learning fits into that... So I think you would be a great person to give us that context - would you mind doing that?
 
-**Jared Lander:** Absolutely. One of the key things about learning - that's what I've seen from teaching both private clients and \[unintelligible 00:11:35.02\] - you have to disambiguate terminology, and people often just drown in the different terminology. In fact, the talk I gave at the most recent New York R Conference was comparing ML to deep learning, in R... And the first thing I started with was just the vocab, because different people from different fields will call the same exact thing with different words... Like an intercept versus a bias, or coefficients versus weights.
+**Jared Lander:** Absolutely. One of the key things about learning - that's what I've seen from teaching both private clients and at the Columbia is that - you have to disambiguate terminology, and people often just drown in the different terminology. In fact, the talk I gave at the most recent New York R Conference was comparing ML to deep learning, in R... And the first thing I started with was just the vocab, because different people from different fields will call the same exact thing with different words... Like an intercept versus a bias, or coefficients versus weights.
 
 **Daniel Whitenack:** \[00:12:07.27\] Yeah, that was actually super-confusing to me when I started to get in data science. I was like "Oh, if I just would have known this was an intercept, then that would have made things so much easier."
 
@@ -156,7 +156,7 @@ I've been attending a number of Capitol Hill events about AI, and I heard someon
 
 **Jared Lander:** Right. So random forest was the rage, and then XGBoost came on top of random forest, and then it turns out even with XGBoost you could do a boosted random forest.
 
-**Daniel Whitenack:** Boost all the \[unintelligible 00:16:48.22\]
+**Daniel Whitenack:** Boost all the booths..
 
 **Jared Lander:** Exactly.
 

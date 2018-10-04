@@ -114,7 +114,7 @@ That's a luxury that I guess not many companies have, but it was a nice luxury f
 
 **Jerod Santo:** So were you one of those people? I mean, CTO - probably not. You've probably got other things to do.
 
-**Paul Fremantle:** I wasn't one of these people, and I regret that. I regret that. But you know, even sort of being a side player on this has been really fun. I don't take a lot of credit for this. I'm just the mouthpiece that gets to talk about it, really... But it's still an exciting initiative, and it's kind of really exciting for me, because I always -- you know, I love programming; I really am not a great programmer, to be honest. I shouldn't be telling you that.
+**Paul Fremantle:** I wasn't one of these people, and I regret that. I regret that. But you know, even sort of being a side player on this has been really fun. I don't take a lot of credit for this. I'm just the mouthpiece that gets to talk about it, really... But it's still an exciting initiative, and it's kind of really exciting for me, because I always -- you know, I love programming; I really am not a great programmer, to be honest. I shouldn't be telling you that \[laughter\].
 
 **Jerod Santo:** \[00:28:16.00\] Why not?
 
