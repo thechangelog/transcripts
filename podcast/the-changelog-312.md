@@ -114,7 +114,7 @@ And when we were looking at the current system, we'd kind of juiced it in one wa
 
 So for us it actually felt fairly well-aligned to kick off this set of projects to deliver really what our customers wanted more than new features, what they wanted more than any sort of other new products we could launch. They just wanted our core product to work amazingly well.
 
-**Adam Stacoviak:** Alex, what about your perspective on the \[unintelligible 00:30:51.20\] How do you be on a team where you have to implement this, but you're making choices, you're scaling your libraries out, you've got different versions of them, you're scaling your repos and it seems like things are okay at first, and then things start to fall down; Jerod mentioned hitting the branches... Maybe you can go a little further into what it looks like and how that feels.
+**Adam Stacoviak:** Alex, what about your perspective on the engineering side? How do you be on a team where you have to implement this, but you're making choices, you're scaling your libraries out, you've got different versions of them, you're scaling your repos and it seems like things are okay at first, and then things start to fall down; Jerod mentioned hitting the branches... Maybe you can go a little further into what it looks like and how that feels.
 
 **Alexandra Noonan:** It's actually a little bit interesting... So when I joined the team - like I said, we were at kind of the peak of "Something has to change", and I was brand new to engineering then, so I kind of thought at that time that this was just how it was, and I didn't totally see anything wrong with it until after we moved to the monolith and I helped the team transition to everything, and then looking back on it I kind of realized how crazy and how much time we were spending scaling this and just maintaining them, and how we couldn't make any headway... But in the moment, I didn't see anything wrong with it, just because I was so brand new to engineering and I had no experience before. I was like "Oh, this is kind of annoying, but this seems pretty normal."
 
@@ -202,7 +202,7 @@ At that point, we said, okay, we need a bigger overhaul to the way that we actua
 
 And once we kind of acknowledged this was a problem, Rick Branson, who Alex has talked about a bunch, spearheaded the effort to actually architect the system that he called Centrifuge. Centrifuge effectively replaces the single queues that we have - one queue for Google Analytics, with one queue for Mixpanel, with one queue for Intercom, with what you can think of as almost being virtualized queues, or individual sets of queues on a per customer, per destination basis.
 
-So we might have one queue for Google Analytics, which has all of Instacart's data, but another one with all of New Relic's data, and maybe another one with \[unintelligible 00:44:56.20\] data. This system - honestly, we hadn't seen any really good prior art for.
+So we might have one queue for Google Analytics, which has all of Instacart's data, but another one with all of New Relic's data, and maybe another one with Fender's data. This system - honestly, we hadn't seen any really good prior art for.
 
 \[00:45:04.06\] I think network flows are about the closest that you'd get to it, but those give you back pressure in terms of being able to say "Hey, there's too much data here. Stop sending from the very TCP source that you have", which is something that we can't exactly enforce on our customers.
 
