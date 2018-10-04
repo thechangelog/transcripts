@@ -10,11 +10,11 @@
 
 **Bryan Helmig:** Yeah, end of 2011.
 
-**Adam Stacoviak:** End of 2011... And to date, you've hit 35 million in annual revenue, which is nothing to \[unintelligible 00:02:53.02\] tremendous, but obviously, you began at zero, like pretty much every startup, right? So let's cover that journey, let's cover the story...
+**Adam Stacoviak:** End of 2011... And to date, you've hit 35 million in annual revenue, which is nothing to shake a stick at, that's tremendous, but obviously, you began at zero, like pretty much every startup, right? So let's cover that journey, let's cover the story...
 
 In 2011 -- you guys have an interesting you connected too, through Hacker News... Is that right?
 
-**Bryan Helmig:** It's funny... The way that I met Wade and Mike - we were both separate; we were in university together, \[unintelligible 00:03:14.23\] I had been playing in a jazz combo with Wade. Wade is a jazz saxophonist, quite a stellar one at that... And I was playing jazz bass, and we got together through that and learned each other, because we were working a bit together...
+**Bryan Helmig:** It's funny... The way that I met Wade and Mike - we were both separate; we were in university together, Missou I had been playing in a jazz combo with Wade. Wade is a jazz saxophonist, quite a stellar one at that... And I was playing jazz bass, and we got together through that and learned each other, because we were working a bit together...
 
 But the way I met Mike was actually through Hacker News. There was -- I can't remember the site's name; I think it was like Hacker Newsers, or... It was basically like a Hacker News overlay on a map, and I think the only two people in Columbia, Missouri was Mike and myself... So he had reached out to me about that, and we grabbed beers, and I think there was a Startup Weekend happening in a couple months, and we talked about maybe doing that together... And just kind of stayed in touch until we all kind of culminated that one fateful kind of weekend at the -- I think the first inaugural Startup Weekend in Columbia, Missouri. That's really kind of where Zapier came together for the first time... At least the three of us.
 

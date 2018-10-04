@@ -82,7 +82,7 @@ Yeah, I kind of wanted to make -- I've been working on this forever, a website t
 
 **Adam Stacoviak:** IKEA furniture.
 
-**Sam Soffes:** You know, whatever we could afford right now... So our mattress is on the floor, and like, a chair... We've ordered this super amazing Jonathan Adler couch I've wanted for years... And she's really on board with -- you know, our apartment is super empty, and it probably sounds echoey in here because there's just like nothing in this room... But yeah, it's been really fun to kind of -- I got rid of all my stuff and we kind of are building up together \[unintelligible 00:07:52.00\] It's really good.
+**Sam Soffes:** You know, whatever we could afford right now... So our mattress is on the floor, and like, a chair... We've ordered this super amazing Jonathan Adler couch I've wanted for years... And she's really on board with -- you know, our apartment is super empty, and it probably sounds echoey in here because there's just like nothing in this room... But yeah, it's been really fun to kind of -- I got rid of all my stuff and we kind of are building up together with what we both want. It's really good.
 
 **Adam Stacoviak:** \[00:07:56.10\] Do you mind if we tell the story of SF to Kentucky, the change there and what brought you -- mostly surrounding what brought you two back together? I kind of like wanna - as much as you want to, obviously - share with the listeners your road to Ellen, basically.
 
