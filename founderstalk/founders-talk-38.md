@@ -2,7 +2,7 @@
 
 **Sam Soffes:** Yeah, it was good. Thanks for having me.
 
-**Adam Stacoviak:** Yeah, man. Sam, I think that everybody has kind of been looking forward to this conversation with you, because you're the \[unintelligible 00:00:50.24\] of any developer. You've been doing a lot of fun stuff with Cheddar, you've got a great story behind you, you're a designer, you're a developer, and you've spawned this new company Nothing Magical. I don't wanna do your introduction for you, but for those who may not know exactly who Sam Soffes is, this is your time.
+**Adam Stacoviak:** Yeah, man. Sam, I think that everybody has kind of been looking forward to this conversation with you, because you're the fan of any developer. You've been doing a lot of fun stuff with Cheddar, you've got a great story behind you, you're a designer, you're a developer, and you've spawned this new company Nothing Magical. I don't wanna do your introduction for you, but for those who may not know exactly who Sam Soffes is, this is your time.
 
 **Sam Soffes:** Cool. Yeah, I quit my job a couple months ago and started a company called Nothing Magical. It's just me, and I work on an app called Cheddar currently. It's a really simple to-do list for the web, iOS and Mac version... So yeah.
 

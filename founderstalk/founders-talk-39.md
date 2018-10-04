@@ -60,7 +60,7 @@ I wonder if when I e-mail people that their subscription is up, if I can be like
 
 **Adam Stacoviak:** This is a bit of a technical question, so does the website do different transactions than the in-app?
 
-**Sam Soffes:** Yeah, so I use Stripe.com. They're a really spectacular payment processor. If you're taking money on the website -- it's amazing. Anyway, they charge 2.9% plus 30 cents per transaction. So on $1.99, that's a ton of money, which is unfortunate. But on larger things, like if I sell T-shirts \[unintelligible 00:07:46.20\] I do pretty well, comparing to iTunes.
+**Sam Soffes:** Yeah, so I use Stripe.com. They're a really spectacular payment processor. If you're taking money on the website -- it's amazing. Anyway, they charge 2.9% plus 30 cents per transaction. So on $1.99, that's a ton of money, which is unfortunate. But on larger things, like if I sell T-shirts or if you buy a year, I do pretty well, comparing to iTunes.
 
 **Adam Stacoviak:** Let's dive a little deeper into I guess exactly the business model. The business model isn't exactly a rate sheet for what you charge for the app... Let's talk about the long-term, let's be quite real here. You just came from Hipstamatic -- so if you're just catching up with this and you decided to continue listening, then go back and listen to part one; you'll learn that Sam worked at Hipstamatic, he is a good, well-experienced iOS developer, so he gets paid well, so he's obviously making a good income, but then he decides to do his own thing in lieu of enjoyment of life, which is totally a good thing, but I can imagine you've got expenses, you've got different things...
 
@@ -74,7 +74,7 @@ I just sold a bunch more Apple stock. All my savings is in Apple stock, and I so
 
 **Sam Soffes:** Yeah, I mean -- like I was saying earlier, announcements and such really drive growth, and product announcements are exciting in general. I have like -- okay, I need to make a way to see the archive, because everyone wants this, even though it's a really stupid feature; it's like, you deleted your task, you don't need it... I'm saying "archive" for technical reasons, because it's a paranoid delete and not like -- I hadn't planned on adding to see things you've deleted for a super long time...
 
-**Adam Stacoviak:** I never \[unintelligible 00:11:11.21\] to what I've deleted. I just forget them.
+**Adam Stacoviak:** I never get back to what I've deleted. I just forget them.
 
 **Sam Soffes:** Right. I think because people can't have it, they're like "I want this!" Anyway, that's really annoying... So that's on my list, and I think people will be excited. A lot of people are like "I'm gonna upgrade once I can see this." I don't know, I love when users give ultimatums for features... It's like, "Okay, well thank you for threatening me; I'm gonna keep doing what I was doing." But anyway, so there's that, and Cheddar for Mac is next. I think the last time I said I'd have a beta in like a couple weeks, and it's still...
 
