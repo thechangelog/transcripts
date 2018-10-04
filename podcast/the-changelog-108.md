@@ -264,7 +264,7 @@ Jerod, you and I have had some side conversations about the state of flow even -
 
 **Katrina Owen:** Right...?
 
-**Adam Stacoviak:** That's funny... Yeah, I think that's kind of the adventurous part of Ruby; there's so many different ways that you could do things, but \[unintelligible 00:35:16.20\] Jerod, where you're like "Just tell me how to do it, the one way, so I can think about the real problem, versus the style that I have to execute this. I can do it 15 ways, but which way is really the right way to do it? Just give me those training wheels and I'll go."
+**Adam Stacoviak:** That's funny... Yeah, I think that's kind of the adventurous part of Ruby; there's so many different ways that you could do things, but I can limit... like what you were saying Jerod, where you're like "Just tell me how to do it, the one way, so I can think about the real problem, versus the style that I have to execute this. I can do it 15 ways, but which way is really the right way to do it? Just give me those training wheels and I'll go."
 
 So I guess we talked about Go a bit here... Originally, the CLI was written in Ruby, right? So was it something with Ruby that made you change, or was it simply to wanna play with Go, to do it in that?
 
@@ -274,7 +274,7 @@ So I guess we talked about Go a bit here... Originally, the CLI was written in R
 
 **Katrina Owen:** \[00:36:09.17\] ...and it's really a pain to set up all the Ruby -- like, setting up Ruby on your machine is actually quite an ordeal, especially if you don't know Ruby. So with the Go, it's possible to cross-compile for all the different operating systems and architectures, and people just have to download and install this one binary, and that's it. No dependencies.
 
-**Adam Stacoviak:** So on the homepage that you have, the Try It version, the \[unintelligible 00:36:38.12\] Will that eventually go away, or is it dead and you just haven't removed it yet?
+**Adam Stacoviak:** So on the homepage that you have, the Try It version, the quickie, "don't worry about telling us your Github", "just do it now" version, I guess, will that eventually go away, or is it dead and you just haven't removed it yet?
 
 **Katrina Owen:** Oh, the one that says "Ruby"?
 
@@ -320,7 +320,7 @@ Some people are doing exercises in the language that they use primarily, and usi
 
 **Katrina Owen:** Right?! \[laughter\]
 
-**Adam Stacoviak:** That's why I hate money, because when you start working only because you wanna make the \[unintelligible 00:41:38.24\] or whatever -- it's not cool. It changes the perspective.
+**Adam Stacoviak:** That's why I hate money, because when you start working only because you wanna make the benzies or whatever -- it's not cool. It changes the perspective.
 
 **Jerod Santo:** It's even worse on the internet where you're basically modifying your own behavior in order to affect the number in somebody's database on some server somewhere across the world... "Right now it's a 12, and I really want that number to be 13." It's so arbitrary and really valueless.
 
