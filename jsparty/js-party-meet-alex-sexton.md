@@ -32,7 +32,7 @@
 
 **Adam Stacoviak:** Is it coming back?
 
-**Alex Sexton:** It will come back... I've just had babies and lived in San Francisco for a summer, and those kinds of things, so it can be tough. But anyway, that's how I know Mikeal, and I used to \[unintelligible 00:02:43.08\] Paul Irish, Adam Sontag and Rebecca Murphey back in the days when jQuery was a little more popular. Not that that podcast was much about jQuery at all, but it was kind of a good basis for discussion back in the day for general frontend fun stuff.
+**Alex Sexton:** It will come back... I've just had babies and lived in San Francisco for a summer, and those kinds of things, so it can be tough. But anyway, that's how I know Mikeal, and I used to be a crew with Paul Irish, Adam Sontag and Rebecca Murphey back in the days when jQuery was a little more popular. Not that that podcast was much about jQuery at all, but it was kind of a good basis for discussion back in the day for general frontend fun stuff.
 
 I've been doing Javascript for like 12 years now, which is kind of crazy... It's a long time to be doing anything, so Javascript is definitely what I've spent the bulk of my career working on.
 
@@ -132,7 +132,7 @@ It's the same with mobile support... It's like, "Well, we don't get any hits fro
 
 I guess that's a preface to all my opinions - I feel strongly that these things are right, but I understand the need to sometimes skip them temporarily; or something might die before I ever get to it, but... So I come from a big performance background. That's what I worked on a bunch at Bazaarvoice and at Stripe early on. A lot of the performance I worked on at Stripe has been in build processes and things like that, so not necessarily the same thing.
 
-I wrote an article a while back, and ran a conference called Frontend Ops. It sounds smashy mag... There are now job postings on StackOverflow for frontend operations engineer, which is kind of cool; I mean, not that I took two words that already existed and just sat them next to each other, but \[unintelligible 00:20:01.13\]
+I wrote an article a while back, and ran a conference called Frontend Ops. It sounds smashy mag... There are now job postings on StackOverflow for frontend operations engineer, which is kind of cool; I mean, not that I took two words that already existed and just sat them next to each other, but it kind of links to some other stuff.
 
 **Jerod Santo:** It's a mashup.
 
@@ -148,7 +148,7 @@ I'm a pretty big proponent of progressive enhancement... I think more so than so
 
 **Jerod Santo:** And we live in a world that's gray.
 
-**Alex Sexton:** Yeah. I don't know, that's a little bit of a \[unintelligible 00:23:20.12\] answer, but...
+**Alex Sexton:** Yeah. I don't know, that's a little bit of a cop-out answer, but...
 
 **Adam Stacoviak:** I'm sure we'll hear more from you over the next several episodes, and see how true this is for you.
 
@@ -158,7 +158,7 @@ I'm a pretty big proponent of progressive enhancement... I think more so than so
 
 **Jerod Santo:** So that will be fun. This kind of leads us into our next question for you. When you mentioned you believed in the openness and links and the web fundamentals, what's your favorite thing about JS or about the web platform?
 
-**Alex Sexton:** \[00:23:52.22\] The accessibility of everything -- not necessarily in the handy, capable sense... Just the fact that there's no app store, it's federated, it's fully open, the specs are open. People can kind of break away from those things... Pragmatism-wise, browsers can do their own thing a little bit and see if other people will wanna go along that path, rather than do some pure "Alright, let's sit down and \[unintelligible 00:24:27.29\] organization for the next three years and try to figure out how we wanna do X, Y or Z."
+**Alex Sexton:** \[00:24:01.22\] The accessibility of everything -- not necessarily in the handy, capable sense... Just the fact that there's no app store, it's federated, it's fully open, the specs are open. People can kind of break away from those things... Pragmatism-wise, browsers can do their own thing a little bit and see if other people will wanna go along that path, rather than do some pure "Alright, let's sit down with the specs organization for the next three years and try to figure out how we wanna do X, Y or Z."
 
 I like how the web moves forward. It's slower than the proprietary platforms, but I think it's outlasted every single one of them by a triple at this point. You even see with the iOS App Store - the ten most popular apps of 2016 were made by three companies, or something like that.
 
@@ -170,11 +170,11 @@ I think the ecosystem of the web is more open and welcoming and harder to use an
 
 On the flipside of that, you kind of alluded to a little bit and you said it's frustrating - what's your least favorite thing then?
 
-**Alex Sexton:** Least favorite thing...? Safari... \[laughter\]
+**Alex Sexton:** Least favorite thing...? Safari... people who don't do it right I guess. \[laughter\]
 
 **Adam Stacoviak:** Jerod's favorite browser.
 
-\[unintelligible 00:27:02.15\]
+**Jerod Santo:** Oh hey, Safari, all day every day.
 
 **Alex Sexton:** Oh, cool... \[laughter\] The people who take from the web, but don't give back to the web, or things like Safari -- it's not Safari itself; Safari is pretty good because Apple's so currently good at what they do that it ends up not mattering a whole bunch... But anytime the web tries to innovate and Safari doesn't agree, they can almost always automatically stifle that innovation, and that is really upsetting to me. Things like service workers... The whole web is behind, and just no one knows whether Safari intends on doing it or not, or whether they think it will cannibalize their other marketplaces. That stuff's really frustrating to me, because they very much profit from the web and they don't necessarily give back in the ways that I want them to. They always give back in the ways that help their other platforms, which can be sometimes extremely useful, but also not friendly to openness.
 
@@ -204,9 +204,9 @@ I'm also a pragmatist when it comes to choosing libraries. There's a lot of hype
 
 Also, people reach for React and they need the modification of the unchanged event that React does, and that's the only thing they're using in the entire library... So kind of back to a world where maybe people are reaching for libraries that are too big. I'm interested in where this goes. There's currently Preact and a few other ones that are tiny versions of it...
 
-**Jerod Santo:** \[unintelligible 00:31:17.00\]
+**Jerod Santo:** Mhmm, Inferno.
 
-**Alex Sexton:** Yeah, there are versions of things where people want some of this to be baked -- \[unintelligible 00:31:23.13\] into a browser specification, and all that kind of stuff. So I'm very interested to see where the frameworks world goes, even if I'm not necessarily writing any frameworks currently.
+**Alex Sexton:** Yeah, there are versions of things where people want some of this to be baked in, you know DOM-diffing baked into a browser specification, and all that kind of stuff. So I'm very interested to see where the frameworks world goes, even if I'm not necessarily writing any frameworks currently.
 
 What else... Build tooling is also something I care a lot about that I think we're due for another revolution on. I don't know how much people care about that, but things like Webpack and those systems...
 
