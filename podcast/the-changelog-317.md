@@ -2,7 +2,7 @@
 
 **Jerod Santo:** I got a T-shirt.
 
-**Adam Stacoviak:** You T-shirt?
+**Adam Stacoviak:** You got a T-shirt?
 
 **Jerod Santo:** Oh, yeah...
 
