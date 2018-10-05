@@ -38,7 +38,7 @@ So when I started with AWS, they allowed me to kind of continue my role there as
 
 I did a podcast, but it's more of like a personal thing. The book, of course, is kind of just a book, so it doesn't really have anything to do with them... And then just being involved in the community in general is something that I do on the side.
 
-**Jerod Santo:** So AWS has long been the darling of cloud, the first in many ways, and therefore kind of the de facto standard in the developer community, and yet in terms of open source and really what I would call developer relations (from my particular vantage point now; this is probably not a globalized view) it seems like Amazon has historically been -- I wouldn't say stand-offish, but just less warm to kind of the indie, open source, small business developers... Is that something that is just a misconception, or do you think that that's perhaps historically true and changing? What's your vantage point on that particular \[unintelligible 00:07:43.13\]
+**Jerod Santo:** So AWS has long been the darling of cloud, the first in many ways, and therefore kind of the de facto standard in the developer community, and yet in terms of open source and really what I would call developer relations (from my particular vantage point now; this is probably not a globalized view) it seems like Amazon has historically been -- I wouldn't say stand-offish, but just less warm to kind of the indie, open source, small business developers... Is that something that is just a misconception, or do you think that that's perhaps historically true and changing? What's your vantage point on that particular culture.
 
 **Nader Dabit:** \[00:07:45.05\] Yeah, it's definitely something I've heard before, and after kind of getting involved at AWS and seeing what's going on and what actually happens, I think the culture at AWS and Amazon in general is different in the sense that you don't see a lot of our developers going on Twitter and talking about "Hey, I just contributed to this project or I've built this project", but in reality, because I think the culture is a little more -- we just do stuff and we try not to go around, you know, I wouldn't say bragging about it, but... The culture is a little different. But in reality, a lot of the people at AWS contribute to open source. For instance, we've contributed to MySQL, Linux, Apache, Hadoop, Apache's Tomcat...
 
@@ -108,7 +108,7 @@ And of course, putting myself out there and submitting to that GitHub - of cours
 
 **Jerod Santo:** Okay. So yeah, who knows... \[laughter\] Well, it took us about a month, but we got back to you.
 
-**Adam Stacoviak:** One thing I like about the way we approached a conversation like this - just to kind of give some preface here - is like, of course we're gonna talk about AWS Amplify, and \[unintelligible 00:16:57.09\] but I think it's kind of interesting to sort of unravel some of the steps of like who you are and some of the roles you play, so we can sort of understand contextually who you are, and your position, and where you come from. Not so much to get your life story, but just to have some context.
+**Adam Stacoviak:** One thing I like about the way we approached a conversation like this - just to kind of give some preface here - is like, of course we're gonna talk about AWS Amplify, and mobile development but I think it's kind of interesting to sort of unravel some of the steps of like who you are and some of the roles you play, so we can sort of understand contextually who you are, and your position, and where you come from. Not so much to get your life story, but just to have some context.
 
 **Nader Dabit:** Yeah, I really like it. I feel more comfortable also talking to you now, after going over some of this stuff... And I guess -- do you want me to give you even more context? Just kind of a few more things about how I've gotten to where I am?
 
@@ -158,7 +158,7 @@ Of course, as a front-end developer, AWS to me was kind of a tough thing to wrap
 
 \[00:28:16.26\] With Amplify we also have some Javascript libraries that are implemented with first-class components... So you can either just use the vanilla Javascript and kind of interact with these from Javascript directly, using these different classes, or you can use some pre-configured components for Angular, React and React Native. That will kind of generate a bunch of pre-configured UI and functionality, and it'll just help you get started quickly.
 
-\[unintelligible 00:28:44.00\] will basically add authentication to your app with like a single line of code... But the deal with that is it's giving you a pre-configured set of decisions that are made for you around your UI, and stuff like that. So you end up probably in the production app ripping that out and just writing it from scratch, using just the regular Javascript.
+So we have this width authenticator higher order component and higher order component will basically add authentication to your app with like a single line of code... But the deal with that is it's giving you a pre-configured set of decisions that are made for you around your UI, and stuff like that. So you end up probably in the production app ripping that out and just writing it from scratch, using just the regular Javascript.
 
 **Jerod Santo:** I see. So it's kind of a nice starter; you can test the water, see how it works, but if you're gonna wanna have your own specific things, then you're gonna wanna use that auth class and build out the flows all yourself.
 
@@ -208,7 +208,7 @@ At the same time, some stats from that post was 63% of their engineers would hav
 
 **Break:** \[00:37:34.29\]
 
-**Jerod Santo:** It's very cool that AWS Amplify can work with React Native; as you said, it can work with Ionic, you can use it with Angular, you can use it with Vue \[unintelligible 00:38:57.00\] Kind of wherever you are in your front-end app, you can pull it in. Of course, if you can use all those things, I'm sure you can use it with vanilla Javascript. The question is can you use it with other clouds?
+**Jerod Santo:** It's very cool that AWS Amplify can work with React Native; as you said, it can work with Ionic, you can use it with Angular, you can use it with Vue, React of course. Kind of wherever you are in your front-end app, you can pull it in. Of course, if you can use all those things, I'm sure you can use it with vanilla Javascript. The question is can you use it with other clouds?
 
 I noticed in the readme that it's built in such a way that that is possible, but it sounds like that's not -- that's vaporware; you guys want that to be a thing, but actually only works with AWS. Is that a good read?
 
@@ -218,7 +218,7 @@ But we also have a completely open GitHub repo, so you can submit issues, and an
 
 \[00:40:14.28\] Internationalization works well with anything. We have a few different other APIs that already kind of work with any different service provider, and we're continuing to iterate on that.
 
-**Jerod Santo:** Yeah, I think that's important, because when I look at these services that you're providing, authentication specifically, I think "Okay, this is a very integral part of my application, a GraphQL client, of course, storage, there you have it..." Certain things are easier to replace - analytics, push notifications - but when I think about like these are core aspects of what I am building, there's a certain \[unintelligible 00:40:48.15\] with AWS as the cloud; it wouldn't be like a show stopper necessarily, and the pragmatists would say "Well, you're using AWS, so what's the problem here?" But just the ability to say "Yeah, well, I am using them, but if that relationship goes south, I don't have to completely rewrite everything in order to go to a different back-end vendor."
+**Jerod Santo:** Yeah, I think that's important, because when I look at these services that you're providing, authentication specifically, I think "Okay, this is a very integral part of my application, a GraphQL client, of course, storage, there you have it..." Certain things are easier to replace - analytics, push notifications - but when I think about like these are core aspects of what I am building, there's a certain twinge of vendor lock in with AWS as the cloud; it wouldn't be like a show stopper necessarily, and the pragmatists would say "Well, you're using AWS, so what's the problem here?" But just the ability to say "Yeah, well, I am using them, but if that relationship goes south, I don't have to completely rewrite everything in order to go to a different back-end vendor."
 
 So I think it's definitely important to provide those options, and I like that you guys are building it in such a way that it's pluggable for those custom back-ends, especially you have the GraphQL one; like you said, it works with pretty much anything at this point... I'm curious if that's something that you all will tackle, or you're hoping that a community comes by, or maybe even you're hoping that Microsoft funds them to write the Azure plug for these things. What are your thoughts on that?
 
@@ -228,7 +228,7 @@ And again, I would say that we try to probably prioritize issues that are with c
 
 **Jerod Santo:** Is there like a generic lambda connection here, or functions-as-a-service type of a thing in this? I'm seeing interactions, I'm seeing "Create conversational bots", so I'm assuming it's using those kinds of back-ends, but is there a serverless wrapper inside this toolset?
 
-**Nader Dabit:** Yes, so the API category works really well and really easily with serverless. You pass in the API name, and if you have a path, you could pass that in, and then you can just call \[unintelligible 00:43:09.15\] things like that on that resource.
+**Nader Dabit:** Yes, so the API category works really well and really easily with serverless. You pass in the API name, and if you have a path, you could pass that in, and then you can just call GET, POST, PUT, DELETE things like that on that resource.
 
 **Jerod Santo:** Talk a little bit about this interactions bit. I'm just going through kind of the feature list here; we've mentioned analytics, authentication, push notifications, interactions -- it says "Create conversational bots powered by deep learning technologies. Can you tell us more about that?
 
@@ -278,7 +278,7 @@ And again, with the type of services we're talking about, you could categorize t
 
 \[00:52:12.22\] With a startup - or really with a company in general - once you get those users, you're kind of good to go anyway, for the most part... Or at least you can then jump off a cliff if it doesn't work... But you're getting to the point where "Oh, we have users. We can probably afford to pay for this now", and that's when your actual bill comes in.
 
-**Jerod Santo:** I think I heard \[unintelligible 00:52:30.22\] did you say "Trading capital expense for variable expense"? That was very smooth; I like that. \[laughs\]
+**Jerod Santo:** I think I heard the marker come out there, did you say "Trading capital expense for variable expense"? That was very smooth; I like that. \[laughs\]
 
 **Nader Dabit:** Well, it's actually the only way I can really -- because it's true; you end up building something yourself, and you spend time, and time is money, or you pay a developer to build out this service, and again, that's time, and that's capital. It's a capital expense.
 
