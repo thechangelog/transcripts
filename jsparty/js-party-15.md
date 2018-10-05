@@ -230,13 +230,13 @@ When they first started talking about WebAssembly, one of the things that they k
 
 **Alex Sexton:** Oh, actually... There's a Go implementation as well; it could be Go. I think it does matter, but in this case it seems like he \[mumbles\]
 
-**Mikeal Rogers:** I think he may have compiled, but I think he may have also tweaked it by hand. The \[unintelligible 00:54:42.21\] file is only 25,000 lines.
+**Mikeal Rogers:** I think he may have compiled, but I think he may have also tweaked it by hand. The wat file is only 25,000 lines.
 
 **Kyle Simpson:** Only 25k? Wow... \[laughter\] What I'm getting at is that I'm excited about what WebAssembly is gonna do for performance. I'm waiting around until we start to see, because I don't think it will be too long - maybe a year at most - before we start to see frameworks saying "You know what? We went ahead and re-implemented our Virtual DOM diffing (or whatever) in Rust and compiled it to WASM", or whatever language they choose... So it makes a lot of sense to push the most performance-heavy kinds of things into WebAssembly. The question will become, once you've done that, once you've opened the door as a library, as a framework or as just a company that wrote an application, can you just start making the performance argument for virtually every line of code, to where we get to a future where 80%, 90%, 95% of a web application is actually in something entirely not of the web, if you will; it was written and deployed on the web, but it was written in a more traditional sense, so there isn't as much of that open "View source" DNA to the web as we used to have. That's the part that I'm curious about. But like you said, Mikeal, Blake2b just seems like a perfect use case for WASM, I'm glad to see it.
 
 \[00:56:15.23\] It's very cool that we now have all the major browsers on board, so there's almost no reason to not start exploring this space, because they all have it, so we might as well start seeing what we can do with it.
 
-**Alex Sexton:** Yeah \[unintelligible 00:56:29.10\] written in C; the official implementation is C, not C++. Yeah, I think we're already past the point of "View source" being super useful.
+**Alex Sexton:** Yeah I heard it's written in C; the official implementation is C, not C++. Yeah, I think we're already past the point of "View source" being super useful.
 
 **Mikeal Rogers:** \[laughs\] Yeah... I think that I do want line numbers; I like having line numbers, and pulling those up in an inspector and looking at the source, but yeah... Literally clicking "View source" and sorting through the million lines of code in an average application today is slightly less useful.
 
