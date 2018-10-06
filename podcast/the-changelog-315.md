@@ -148,7 +148,7 @@ If you want to be in kind of a safe space environment, you're gonna go and get o
 
 **Jerod Santo:** You're not cool, okay. \[laughter\] So there's some of that with like what is your e-mail address; it kind of signals to people what kind of person you are.
 
-**Adam Stacoviak:** It's \[unintelligible 00:27:54.15\] of sorts
+**Adam Stacoviak:** It's a label of sorts.
 
 **Jerod Santo:** But not so much as like "I hang out on this forum, or this BBS." That's a stronger association, so probably a bigger decision.
 
@@ -184,11 +184,11 @@ So definitely not a new problem, and definitely not a solved problem anywhere, s
 
 **Eugen Rochko:** It can be solved, yeah. It's not really -- I mean, the thing is you could really solve everything if you just use brute force... Like, "Okay, so I've got 40,000 posts on my account, and I've got 139,000 followers. Let me move to a different server!" If I wanted to, okay, go through every one of those 40,000 posts, re-download them on the new server, and go through 140,000 people and resubscribe them to the new account. I mean, it's possible; the only problem is that's a bit of a computationally-expensive operation, isn't it? That's the only real obstacle on the path there.
 
-**Jerod Santo:** \[00:32:11.06\] Yeah. Where it gets a little bit confusing for me - it makes sense as a new user, just sign up for Mastodon.social. I definitely understand where there would be people saying "Okay, now we're basically centralizing on this single instance. Potentially bad, especially if Eugene goes power-hungry and changes everything, or something." But then it's like "Okay, maybe I don't wanna do that. Maybe I wanna pick one", so here's another one, Mastodon.technology. This is just one that I've found; there's a little picker where you can through some of the instances... This Mastodon instance is for people interested in technology. Discussions aren't limited to technology, because tech folks shouldn't be limited to technology either... So it's not like I have to talk about technology if I join that instance, but it's for people who associate with technology - it seems like a pretty broad brush.
+**Jerod Santo:** \[00:32:11.06\] Yeah. Where it gets a little bit confusing for me - it makes sense as a new user, just sign up for Mastodon.social. I definitely understand where there would be people saying "Okay, now we're basically centralizing on this single instance. Potentially bad, especially if Eugene goes power-hungry and changes everything, or something." But then it's like "Okay, maybe I don't wanna do that. Maybe I wanna pick one", so here's another one, Mastodon.technology. This is just one that I've found; there's a little picker where you can through some of the instances... This Mastodon instance is for people interested in technology. Discussions aren't limited to technology, but because tech folks shouldn't be limited to technology either... So it's not like I have to talk about technology if I join that instance, but it's for people who associate with technology - it seems like a pretty broad brush.
 
 It just feels like such a big decision, like "Am I a tech folk?" \[laughs\]
 
-**Eugen Rochko:** There's an absolute freedom in how people can run their servers, so there's different types of ways that people define what their server is for. There's general purpose, like Mastodon.social or Octodon.social, where it's like -- there's no theme, there's no topic. You just sign up, you have an account, you talk to your friends.
+**Eugen Rochko:** There's an absolute freedom in how people can run their servers, so there's different types of ways that people define what their server is for. There's general purpose, like Mastodon.social or Octodon.social, where it's just like -- there's no theme, there's no topic. You just sign up, you have an account, you talk to your friends.
 
 But then there are ones that are like oh, this is for LGBT people, or this is for CyberPunk enthusiasts, or this is for Star Trek fans... But most of them actually don't say "Oh, you can only talk about Star Trek here." It's more like, "Oh, you just wanna hang out with Star Trek fans, but talk about your life." You're fine to do that.
 
@@ -204,13 +204,15 @@ But then there are ones that are like oh, this is for LGBT people, or this is fo
 
 **Eugen Rochko:** It's an interesting phenomenon that comes from one particular feature... Mastodon still has a firehose. I don't know if people would be familiar with the term, but Twitter used to have a public timeline, where every public post would appear, and they called it the firehose. They still call it the firehose, but it's a closed API nowadays.
 
-Mastodon does have that. There is a timeline of every public post, and you can filter that by "Posts from everyone" or "Posts by people on your server." That's where the whole topic thing comes into it, because you can look at posts just from your server, and so you get this kind of feeling of community, with your neighbors, and that's where the potential for hanging out with people with the same interests comes into it... Because you can see posts from people you're not following yet.
+**Jerod Santo:** Right.
+
+**Eugen Rochko:** So Mastodon does have that. There is a timeline of every public post, and you can filter that by "Posts from everyone" or "Posts by people on your server." That's where the whole topic thing comes into it, because you can look at posts just from your server, and so you get this kind of feeling of community, with your neighbors, and that's where the potential for hanging out with people with the same interests comes into it... Because you can see posts from people you're not following yet.
 
 **Jerod Santo:** \[00:36:05.26\] Gotcha.
 
 **Eugen Rochko:** It's kind of like a big chat room. But it's funny, because it's kind of an incidental feature; it wasn't really made for this, it was more like "Here's a timeline of everyone, just so you can find somebody to follow. Here's a way to filter it", and suddenly here's this whole thing where instances are created around specific topics.
 
-**Adam Stacoviak:** It kind of reminds me, Jerod, like, if we did one -- because I saw that there's a feature for organizations, which I'm sure we can go into a little deeper... But just thinking, so typically you may be a community, but then you might be an organization, and if we had a Mastodon instance, we would essentially be topical too, just by nature, right? We would be laser-focused on, say, a software developer's life, for example.
+**Adam Stacoviak:** It kind of reminds me, Jerod, like, if we did one -- because I saw that there's a feature for organizations, which I'm sure we can go into a little deeper... But just thinking, so typically you may be a community, but then you might be like an organization, and if we had a Mastodon instance, we would essentially be topical too, just by nature, right? We would be laser-focused on, say, a software developer's life, for example.
 
 Essentially, what our Slack community represents - if that became a Mastodon, we're essentially putting up a flag saying, "Hey, if this type of topic or community is of interest to you, here's your invitation. This is the kind of people you can expect to see here", not "You can only talk about this."
 
@@ -226,7 +228,7 @@ Essentially, what our Slack community represents - if that became a Mastodon, we
 
 **Jerod Santo:** \[laughs\]
 
-**Eugen Rochko:** But as I was saying, for organizations it's a big plus to run their own Mastodon, and this is because nobody except them can actually shut them out. They own their space, they own their social media megaphone. It's kind of an opportunity for a bit of branding as well, because if you host other people, they have your brand in their username, which can be an advantage...
+**Eugen Rochko:** But as I was saying, for organizations it's a big plus to run their own Mastodon instances because nobody except them can actually shut them out. They own their space, they own their social media megaphone. It's kind of an opportunity for a bit of branding as well, because if you host other people, they have your brand in their username, which can be an advantage...
 
 **Adam Stacoviak:** Yeah, that's true.
 
@@ -248,9 +250,9 @@ Essentially, what our Slack community represents - if that became a Mastodon, we
 
 **Jerod Santo:** Conceptually.
 
-**Eugen Rochko:** Yeah, pretty much. From the user's side you can decide "Oh, I don't wanna see anything from this domain", as a personal decision; that's step one. And on the administrational level, you have the ability to shut out posts from a specific server, or completely remove it from your database, so that there is zero interaction between them. That's what you would do if such a Ku Klux Klan would spring up.
+**Eugen Rochko:** Yeah, pretty much. From the user's side you can decide "Oh, I don't wanna see anything from this domain", as a personal decision; that's step one. And on the administrational level, you have the ability to shut out posts from a specific server, or completely remove it from your database, so that there is zero interaction between them. That's what you would do if such a Ku Klux Klan server would spring up.
 
-**Jerod Santo:** That's pretty cool, and that all makes sense. How about the moderation? You said each instance is individually owned and operated, so they have their own codes of conduct, their own moderators, their own rules of the game with regard to what kind of content you can be posting on that instance... But what about subscriptions? If I'm on Adam's Changelog instance as a user, and I subscribe to the Ku Klux Klan member - does Adam need to moderate that because it's on his instance, or is it only me that sees it anyways, and so it's kind of a mute point? How does that work?
+**Jerod Santo:** That's pretty cool, and that all makes sense. How about the moderation? You said each instance is individually owned and operated, so they have their own codes of conduct, their own moderators, their own rules of the game with regard to what kind of content you can be posting on that instance... But what about subscriptions? So, If I'm on Adam's Changelog instance as a user, and I subscribe to the Ku Klux Klan member - does Adam need to moderate that because it's on his instance, or is it only me that sees it anyways, and so it's kind of a mute point? How does that work?
 
 **Eugen Rochko:** There's different levels of moderation that are available here. On one hand, you could completely shut down, as I said, the Ku Klux Klan server from your side, so that you wouldn't be able to follow them. On the other hand, there is the other level - for something perhaps a bit less extreme, you could sandbox it, so people can still follow users from that server, but they just don't appear in the firehose view, and they cannot appear in notifications of people who don't follow them.
 
