@@ -54,7 +54,7 @@ Then it gives you a bunch of little exercises that you can run through, which gi
 
 **Katrina Owen:** Well, you know, I just don't go there very often.
 
-**Adam Stacoviak:** There you go. Well, good thing you're building things for GitHub's API and [unintelligible 00:08:13.29] like Exercism.
+**Adam Stacoviak:** There you go. Well, good thing you're building things for GitHub's API and a web property like Exercism.
 
 **Katrina Owen:** See, in the API we don't really deal with emoji, except for accepting emoji as parts of comments or labels... So I don't have to look at them all too much in my day-to-day work.
 
@@ -264,13 +264,13 @@ Some people were very much in the "You know, other people mentored me, and now I
 
 **Jerod Santo:** Like you said, maybe they're one step above a learner, which is all you have to be to be a great teacher.
 
-**Adam Stacoviak:** They might be somebody who's like "I write blog posts often, or as often as I like to, I released the course, but I'm not really anybody. I need to get more well-known, or I'd like to be more well-known. I'd like to help more people", and this is one more way that they can take 5%-10% of their week and give it back, because [unintelligible 00:44:07.14]
+**Adam Stacoviak:** They might be somebody who's like "I write blog posts often, or as often as I like to, I released the course, but I'm not really anybody. I need to get more well-known, or I'd like to be more well-known. I'd like to help more people", and this is one more way that they can take 5%-10% of their week and give it back, because they're already trying to level up themselves.
 
 **Katrina Owen:** [00:44:11.14] It might work, I have no idea...
 
 **Jerod Santo:** Well, similar to the motivation of people who help other people in Stack Overflow, and a lot of them are -- I mean, it's gamified; I don't know if you're doing any gamification with the Exercism mentorship, but you know, it gives them the street cred over time... So they think that all that helping will eventually come back to them, and I think in certain cases it does.
 
-**Adam Stacoviak:** Yeah, and if I can masquerade around -- [unintelligible 00:44:33.03] Exercism.io as a mentor, then for one... I mean, sure, I'm helping people, but I also get to have some notoriety, some clout, some abilities, some sort of super-powers... I don't know. I'm somebody there to help.
+**Adam Stacoviak:** Yeah, and if I can masquerade around -- and I guess use that word in a good term around Exercism.io as a mentor, then for one... I mean, sure, I'm helping people, but I also get to have some notoriety, some clout, some abilities, some sort of super-powers... I don't know. I'm somebody there to help.
 
 **Jerod Santo:** You're just there to masquerade.
 
@@ -348,13 +348,13 @@ So we wanted to replicate that with Exercism, and chose to have -- for every tra
 
 **Jerod Santo:** [laughs] That's how it sounded.
 
-**Adam Stacoviak:** I'm like, "Geez, we're really [unintelligible 00:56:39.10]"
+**Adam Stacoviak:** I'm like, "Geez, we're really pulling into mentors here."
 
 **Jerod Santo:** You have to take breaks...
 
 **Katrina Owen:** Yeah, totally... Vacations. Yeah, so the rewrite was about as much work as we expected, but it took much longer because we had unexpected life things happen.
 
-**Adam Stacoviak:** Maybe a recap [unintelligible 00:56:54.00] of like "What's the architecture?" So the site's in Ruby, you've got a CLI that's written in Go, that's been rewritten in Go... There are some other aspects... What's the breakdown of the architecture?
+**Adam Stacoviak:** Maybe a recap on the tech itself of like "What's the architecture?" So the site's in Ruby, you've got a CLI that's written in Go, that's been rewritten in Go... There are some other aspects... What's the breakdown of the architecture?
 
 **Katrina Owen:** Yeah, so the site itself - it used to be some cobbled together Sinatra apps, multiple Sinatra apps. Some of them were all mounted inside the same app, some of them were running separately, along with a Ruby gem that I updated more or less every day to get all the changes to the tracks in... It was a complete mess, and it was also nearly impossible to contribute to, because it was all custom. Nothing followed any sort of conventions, and Sinatra is fairly well-documented, but it's really flexible... So there was not good jumping in point, even if you were familiar with Ruby, to help out with the website.
 
@@ -384,7 +384,7 @@ So there were all of these things where I was a bottleneck, and we needed to not
 
 **Katrina Owen:** I said it. I'm on the API team; it's my fault when it happens, you can blame me.
 
-**Jerod Santo:** It's your fault. I'm gonna look you up next time. [unintelligible 01:00:47.00] the webhook...!"
+**Jerod Santo:** It's your fault. I'm gonna look you up next time. You got the webhook...!"
 
 **Adam Stacoviak:** Correct me if I'm wrong... I know we're still here in the technical details, but I'm kind of hearing some insights into what you seem to be doing - you in particular, Katrina - is like, you've been excited about this, it's been a long road, you received and achieved product market fit early on, you had to kind of work back from brand, and stuff like that... But it sounds like what you're in the motions of now is like incrementally removing the mundane burdens that take away the joy, to give you the joy back so you can lead.
 
