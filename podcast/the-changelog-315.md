@@ -148,7 +148,7 @@ If you want to be in kind of a safe space environment, you're gonna go and get o
 
 **Jerod Santo:** You're not cool, okay. \[laughter\] So there's some of that with like what is your e-mail address; it kind of signals to people what kind of person you are.
 
-**Adam Stacoviak:** It's \[unintelligible 00:27:54.15\] of sorts
+**Adam Stacoviak:** It's a league of sorts.
 
 **Jerod Santo:** But not so much as like "I hang out on this forum, or this BBS." That's a stronger association, so probably a bigger decision.
 
