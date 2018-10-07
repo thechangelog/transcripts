@@ -44,13 +44,13 @@ Then I published a big FAQ. It was basically a How To for using Perl on Windows 
 
 We get to where this hotel is supposed to be that was in our guidebook, and if there had ever been a hotel there, it had been gone for at least five years. There was just like a little bit of detritus on the ground... So as we were doing the five-mile walk back to the harbor town, we were asking each other "What are we gonna do about this?" I think the thing that really surprised us is that we had just had an experience where our guidebook was catastrophically wrong for us.
 
-It wasn't that big a deal, we could recover from it, but the worst part being that there were gonna be hundreds of other people that would come make that same mistake, right? That listing was gonna remain in that guidebook. Unless we reported it, it just was gonna stay there forever until they came out with a new addition or they sent a \[unintelligible 00:07:23.01\] and we were like "This is something that makes no sense. Why do we have a system where we're using guides that get out of date really fast?"
+It wasn't that big a deal, we could recover from it, but the worst part being that there were gonna be hundreds of other people that would come make that same mistake, right? That listing was gonna remain in that guidebook. Unless we reported it, it just was gonna stay there forever until they came out with a new addition or they sent a writer out and we were like "This is something that makes no sense. Why do we have a system where we're using guides that get out of date really fast?"
 
-One of the things I learned later was that most travel guides are updated on a 3-5 year editorial cycle; they don't actually get updated every year, even though it's got the name of the year up on the front. They don't send \[unintelligible 00:07:47.27\] more than once every three or five years.
+One of the things I learned later was that most travel guides are updated on a 3-5 year editorial cycle; they don't actually get updated every year, even though it's got the name of the year up on the front. They don't send a writer out more than once every three or five years.
 
 \[00:07:53.00\] I had been looking at Wikipedia, I was really interested in it, and together with that experience, we realized that having a Wiki edited travel guide where anyone could update the travel entries would mean that nobody would have that same kind of problem that we had just had. If there were changes in prices, if hotels or restaurants opened or closed, that kind of stuff would get updated immediately.
 
-So we started Wikitravel in 2003 and had that first kind of exciting point of launching the site, getting the first group of users involved - a lot of people who were involved in Wikipedia - and then having a number of articles come out about the project... Oh, god. I mean, our first articles were like on \[unintelligible 00:08:44.29\] They are two names I've not heard in a long time, but they gave us \[unintelligible 00:08:51.28\] the boost that we needed to really get that virtuous cycle going with that site.
+So we started Wikitravel in 2003 and had that first kind of exciting point of launching the site, getting the first group of users involved - a lot of people who were involved in Wikipedia - and then having a number of articles come out about the project... Oh, god. I mean, our first articles were like on \[unintelligible 00:08:44.29\] They are two names I've not heard in a long time, but they gave us the boost that we needed to really get that virtuous cycle going with that site.
 
 Another one of those experiences where people are writing and e-mailing us and telling us "You saved our vacation. I got stuck in an airport and we had to find something to do with my kids, so we used Wikitravel..." So it's been a really successful project.
 
@@ -144,7 +144,7 @@ I think that it's unlikely that Facebook will ever disappear from the Earth, but
 
 **Evan Prodromou:** Yeah...
 
-**Jerod Santo:** There's different things that pop up here and there... App.net was a huge one back in the day... App.net actually seemed like it had a pretty good chance for a while \[unintelligible 00:29:09.01\]
+**Jerod Santo:** There's different things that pop up here and there... App.net was a huge one back in the day... App.net actually seemed like it had a pretty good chance for a while to stick around.
 
 **Adam Stacoviak:** It seemed like it had the best chance of them all, yeah.
 
@@ -240,7 +240,7 @@ And again, with e-mail we have a mix of proprietary software, open source softwa
 
 **Jerod Santo:** Well, IRC's still out there, but it's not --
 
-**Evan Prodromou:** Yeah, but there are a couple things in there -- and obviously, hindsight is 20/20, right? I don't know, but it's kind of easy to say, looking back... There are a couple things that I think are interesting there about IRC. One thing about SMTP is it's super simple; the protocol is very simple, but extensible. In a lot of ways it's a little bit \[unintelligible 00:44:55.14\] If you start getting into some of the weird extensions, it can get really funky, but it has been this kind of layered thing that started with something simple, then we needed something else put on top of it, and so on and so on, right? Whereas IRC is just gigantic... The protocol is really big to start off with, and it's really complicated, and it maintains these live connections, so there's a lot of stuff that you have to do that's really kind of tricky.
+**Evan Prodromou:** Yeah, but there are a couple things in there -- and obviously, hindsight is 20/20, right? I don't know, but it's kind of easy to say, looking back... There are a couple things that I think are interesting there about IRC. One thing about SMTP is it's super simple; the protocol is very simple, but extensible. In a lot of ways it's a little bit janky, like if you start getting into some of the weird extensions, it can get really funky, but it has been this kind of layered thing that started with something simple, then we needed something else put on top of it, and so on and so on, right? Whereas IRC is just gigantic... The protocol is really big to start off with, and it's really complicated, and it maintains these live connections, so there's a lot of stuff that you have to do that's really kind of tricky.
 
 So I think that's one thing - you mentioned POP3, IMAP and SMTP, as well as the e-mail message standard (MIME), the way that we do attachments... All this together is one thing on top of the other. If you wanna build e-mail, you're gonna be using a lot of different protocols, whereas IRC is very monolithic and very big... So that's one thing.
 
@@ -310,11 +310,11 @@ That said, I'm excited that they're picking it up, GNU Social, Diaspora, Pump.io
 
 I think that I've said also a lot of things about federated social web that apply to Mastodon, too. You can't live forever being the anti-Twitter; eventually, it has to be something that's valuable in and of itself. Supporting third-party developers....
 
-**Adam Stacoviak:** That could be the honey, the attractant, but it can't \[unintelligible 00:56:10.03\]
+**Adam Stacoviak:** That could be the honey, the attractant, but it can't be what keeps.
 
 **Evan Prodromou:** \[00:56:12.11\] Yeah, because people don't stay angry forever.
 
-**Adam Stacoviak:** \[unintelligible 00:56:15.20\] "We're not this thing", and that thing was Twitter, and that was what was supposed to attract and keep in it. Eventually, you just posted to Twitter AND at DotNet, and then it was like "Well, why am I doing this?" But maybe you had longer conversations. There was a small group of people who had a good experience there, but in the end they just didn't stay... And Twitter just attracts more people, the masses, the mainstream; when more and more people are there, you can't deny the network's presence.
+**Adam Stacoviak:** That was App.net's ploy at first, it was like "We're not this thing", and that thing was Twitter, and that was what was supposed to attract and keep in it. Eventually, you just posted to Twitter AND at DotNet, and then it was like "Well, why am I doing this?" But maybe you had longer conversations. There was a small group of people who had a good experience there, but in the end they just didn't stay... And Twitter just attracts more people, the masses, the mainstream; when more and more people are there, you can't deny the network's presence.
 
 **Evan Prodromou:** Yeah. I mean, I think that for people who are passionate about Mastodon, what they need to be doing is don't be the doomsayers; don't be the Cassandras, don't be bringing everybody down by saying "You really shouldn't use Twitter. You really shouldn't use Facebook." Build a cool app that uses Mastodon, build something really fun that's only on Mastodon. Make a cool bot, make a cool account, make something that's foreign and interesting there, because that's how you get a community that's excited on its own, and that's what attracts people. Negativity only goes so far.
 
@@ -396,7 +396,7 @@ It was funny, you were talking about the pop-ups... One of the ones that people 
 
 **Adam Stacoviak:** Right. And there's some people are like "Thank you for sharing that you have an e-mail list", or "I can extend my experience..." \[laughter\] That's what I mean. There's the flipside that it takes a human touch to figure out, but if you can train a Fuzzy kind of thing in this case - the "fuzzification", as you mention in your terminology - if you can beat human training this thing to do it, these little micro-interactions that have big implications to user experience and potentially even company growth. That's a huge gap being missed.
 
-**Evan Prodromou:** Yeah, and I think it's an exciting part of -- you know, it's not the entire AI ecosystem; it's not everything that's happening in AI, but like any software ecosystem, I think that there's going to be a lot of different players. There's gonna be a lot of different things going on there. And for every exciting \[unintelligible 01:14:51.16\] that is pretty amazing; it's pretty amazing that those systems work. I think that we all have to understand that there are gonna be lots of sharp edges that we will buff off using AI, and it's gonna make using software a lot better. We're all gonna enjoy it a lot more. It's gonna be something that we're going to actually be looking forward to.
+**Evan Prodromou:** Yeah, and I think it's an exciting part of -- you know, it's not the entire AI ecosystem; it's not everything that's happening in AI, but like any software ecosystem, I think that there's going to be a lot of different players. There's gonna be a lot of different things going on there. And for every exciting AlphaGo, that is pretty amazing; it's pretty amazing that those systems work. I think that we all have to understand that there are gonna be lots of sharp edges that we will buff off using AI, and it's gonna make using software a lot better. We're all gonna enjoy it a lot more. It's gonna be something that we're going to actually be looking forward to.
 
 We've done a lot of work on this over the last 10-20 years, to the point that people are almost in this addictive behavior with their software, but I think that there's gonna be a lot of things that we can do to make it more fulfilling and enjoyable and fun to be using software, and with lots of little agents that kind of help you along the path.
 
