@@ -146,7 +146,7 @@ There are definitely a couple of different aspects, because a reference, and eve
 
 **Adam Stacoviak:** Yeah.
 
-**Andrew Godwin:** But thats also crutial to have, and having been on both sides of the fence, having used open source as well as maintaining it, I try and think about what I appreciate when I use open source tools and try and \[unintelligible 00:23:08.02\] as much of that as I can myself.
+**Andrew Godwin:** But thats also crutial to have, and having been on both sides of the fence, having used open source as well as maintaining it, I try and think about what I appreciate when I use open source tools and try and bewrite as much of that as I can myself.
 
 **Jerod Santo:** I think it's a natural place to take our first break. On the other side, we will dive into Django - what's new, what's a flagship, features of Django, why would you wanna use it, from Andrew's perspective, as well as a deep conversation on Andrew's baby, which is Django Channels. So we'll be right back and we'll talk about those things after this break.
 
