@@ -84,7 +84,7 @@ Okay, so a shift in strategy, lots of things learned... Hey, it takes guts to ki
 
 **Adam Stacoviak:** A lot more devices than phones.
 
-**Dustin Kirkland:** A lot more devices than phones, that's right. And some devices have probably been around for a few years, and they're not getting updates. If you wanna have some fun, go home, open up a Linux terminal and \[unintelligible 00:06:29.08\] your entire network. Nmap will run a series of heuristics and try to guess the operating system in kernel that's running on all of those devices. You're gonna find a whole bunch of unmaintained Linux 2.4, Linux 2.6, 10-15 year old kernels on devices you didn't even know were running an operating system, much less the Linux-based operating system.
+**Dustin Kirkland:** A lot more devices than phones, that's right. And some devices have probably been around for a few years, and they're not getting updates. If you wanna have some fun, go home, open up a Linux terminal and `sudo nmap --fingerprint-os`  your entire network. Nmap will run a series of heuristics and try to guess the operating system in kernel that's running on all of those devices. You're gonna find a whole bunch of unmaintained Linux 2.4, Linux 2.6, 10-15 year old kernels on devices you didn't even know were running an operating system, much less the Linux-based operating system.
 
 **Adam Stacoviak:** Okay.
 
@@ -182,7 +182,7 @@ That's a space where I think open source and free software is extremely importan
 
 **Adam Stacoviak:** If you had been successful though, would it have been a Apple iOS/Google Android/Canonical Ubuntu world? I'm just kind of curious if that's what you were trying to do, or was it simply open source secure Linux?
 
-**Dustin Kirkland:** The real vision was always convergence. It's when this laptop here that you're looking at and your phone merge into one thing, so that when your phone is nearby \[unintelligible 00:11:13.03\] that's providing the CPU memory, RAM, the disk, the storage, the network connectivity for this larger format shell that you're in. And a bigger screen, a user keyboard to type on... But when you take that phone away, it's got everything that you need on, so you can be just as productive on that. So we were going for convergence.
+**Dustin Kirkland:** The real vision was always convergence. It's when this laptop here that you're looking at and your phone merge into one thing, so that when your phone is nearby or touching or docked into this that's providing the CPU memory, RAM, the disk, the storage, the network connectivity for this larger format shell that you're in. And a bigger screen, a user keyboard to type on... But when you take that phone away, it's got everything that you need on, so you can be just as productive on that. So we were going for convergence.
 
 Over the course of the couple years, we showed that vision, but it's just really hard to do when you don't control the hardware platform and when you're the third entrant in an already crowded market.
 
