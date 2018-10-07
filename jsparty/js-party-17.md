@@ -42,7 +42,7 @@ Now, the way that that's treated by the IRS is just straight up capital gains, s
 
 **Adam Stacoviak:** You know, the mice race.
 
-**Mikeal Rogers:** I was thinking fidget spinners. I thought this was like \[unintelligible 00:04:39.12\]
+**Mikeal Rogers:** I was thinking fidget spinners. I thought this was like a millennial reference.
 
 **Rachel White:** Yeah, me too... \[laughter\]
 
@@ -70,7 +70,7 @@ Now, the way that that's treated by the IRS is just straight up capital gains, s
 
 **Rachel White:** No, it's not. It's worth like $20 maybe. It was the only one that compelled me to figure out how to do mining, and I was like "Cool!", and it's worth nothing.
 
-**Mikeal Rogers:** Oh, you mined them... Okay. I mean, I've bought some of them... I think honestly if you're just out with friends and you want to transfer some money between people, it is surprisingly the easiest way to do that currently. If you just have -- what's the app called? Coinbase. If you just have Coinbase on your phone, you can just use your phones to transfer money, and it's almost instantaneous. Bitcoin takes like 10 minutes. It's actually kind of a better way to \[unintelligible 00:07:20.08\] money like that... And you're seeing more and more services set up support for accepting Bitcoin as currency... Bitcoin and some other currencies, as well.
+**Mikeal Rogers:** Oh, you mined them... Okay. I mean, I've bought some of them... I think honestly if you're just out with friends and you want to transfer some money between people, it is surprisingly the easiest way to do that currently. If you just have -- what's the app called? Coinbase. If you just have Coinbase on your phone, you can just use your phones to transfer money, and it's almost instantaneous. Bitcoin takes like 10 minutes. It's actually kind of a better way to trade around money like that... And you're seeing more and more services set up support for accepting Bitcoin as currency... Bitcoin and some other currencies, as well.
 
 What I was talking about before with -- if you pull it out in cash, you've made capital gains on that money, so there's a lot of incentive to just keep the money being exchanged for other value inside of the system, because it's not being treated as a currency, which is a weird thing to think about - by not treating it as a currency, you've actually inflated people's use of the currency in a way, because they don't want to pay the capital gains.
 
@@ -191,7 +191,7 @@ You mess with a lot of these, Rachel. What do you recommend that people pick up 
 
 **Rachel White:** I think that if you don't know anything about hardware at all and you're wanting to get started, the best thing that I would suggest is the Johnny-Five starter kit that comes with a Tessel. You can get it on SparkFun. The benefit of the Tessel versus an Arduino is -- the Arduino you're gonna have to flash with custom firmware, and if it's your first time using that kind of board, you might not necessarily know how to do that. But the Tessel just comes and it's ready to go, essentially. You just plug it into your computer, and you can either run the code from your machine the same way that you do with your Arduino and other boards... Or you can just push the code up to the Tessel, so it runs on the actual board, which is more similar to the boards that have embedded systems on them, which is really great. Plus, it's ready for Node out of the bat.
 
-The projects that I think it gives you to build are -- there's like a little robot \[unintelligible 00:29:52.24\]. I honestly just get the kits now, because -- like, whenever you go to conferences and there's people giving stuff away for swag, I just break everything apart into individual components I can use later... But there's a whole bunch of documentation that comes with it that helps you get up and running.
+The projects that I think it gives you to build are -- there's like a little robot one, it comes with DC motors. I honestly just get the kits now, because -- like, whenever you go to conferences and there's people giving stuff away for swag, I just break everything apart into individual components I can use later... But there's a whole bunch of documentation that comes with it that helps you get up and running.
 
 The other libraries that you can use are -- Bryan Hughes has a library that allows you to use Javascript for the Raspberry Pi... I only recently started using a Raspberry Pi. The new model 3 makes it a lot easier to be able to use it without having to plug it into your router or SSH into it, because you can use something called PiBakery to start your card up... So it already has the Raspbian operating system on it, and then you can configure this thing called "VNC Viewer", which lets you essentially -- it's like a virtual machine on your computer that you're actually logged into the Raspberry Pi with, so you see the whole Linux operating system.
 
@@ -259,7 +259,7 @@ Another one that I just installed recently that I'm loving is called Version Len
 
 **Mikeal Rogers:** I didn't know that it's official... \[laughter\]
 
-**Rachel White:** Well, it's because people try and use the name -- it's a really popular theme. It's really pretty, it's nice. I have an HTML Snippets one, which is similar to \[unintelligible 00:38:00.29\], and then I have like Sass in Python, and ESLint, and also Babel ES6, ES7 syntax coloring one... And that's it. I should probably delete all these and start new... But yeah, those are mine.
+**Rachel White:** Well, it's because people try and use the name -- it's a really popular theme. It's really pretty, it's nice. I have an HTML Snippets one, which is similar to like Emmet, and then I have like Sass in Python, and ESLint, and also Babel ES6, ES7 syntax coloring one... And that's it. I should probably delete all these and start new... But yeah, those are mine.
 
 **Adam Stacoviak:** I actually talked to Zeno Rocha about some back-story on Dracula, which was pretty interesting.
 
@@ -311,13 +311,13 @@ I'm \[unintelligible 00:42:07.04\] surprised by the things that I love from Micr
 
 **Mikeal Rogers:** They're really nice hardware though, too. That's really surprising, I haven't seen Microsoft make hardware that good, ever. It's funny, because I have heard complains about the Surface Pros, but all of the complaints have been in software, or operating system things that people don't like about Windows. I haven't heard anyone, not a single person complain about hardware.
 
-**Adam Stacoviak:** Well, that's the thing though -- I think Microsoft has sort of like kept this bad name or this bruise... They got punched in the face, as the 1999 Mikeal would have done - punched Microsoft in the face because it just wasn't adding up, and they were walking around with a fake black eye, or something like that, because it's not really there anymore; it's sort of done. \[unintelligible 00:43:44.27\] It's just not there anymore... So they've changed, but everyone keeps the previous opinion about them, even though it may not be warranted, like the person in the Facebook comment you mentioned.
+**Adam Stacoviak:** Well, that's the thing though -- I think Microsoft has sort of like kept this bad name or this bruise... They got punched in the face, as the 1999 Mikeal would have done - punched Microsoft in the face because it just wasn't adding up, and they were walking around with a fake black eye, or something like that, because it's not really there anymore; it's sort of done. I bumped my leg now, just by the way. That was a loud rumble. It's just not there anymore... So they've changed, but everyone keeps the previous opinion about them, even though it may not be warranted, like the person in the Facebook comment you mentioned.
 
 **Rachel White:** \[00:44:03.05\] Well, I know that one of the things that people harp on Microsoft a lot of for is everyone's like "Blue Screen of Death! It's so horrible!" and people love to take pictures of stuff out in the wild that have the Blue Screen of Death on, and they can just be like "Ha-ha... Look at Microsoft!", except I don't think that people realize that the reason there's a Blue Screen of Death there is more often than not the reason because since they've made it so accessible for people to build their own custom stuff for Windows, the Blue Screen of Death is Windows as an operating system telling you that there is a problem, and it's usually because of software that you're using that wasn't built by Microsoft. So it's like doing you a favor...
 
 **Mikeal Rogers:** Yeah... I mean, also, if there is a blue screen, I think that they stopped doing that like ten years ago in their operating system. So these dumb kiosks have 10-year-old operating system, of course they're awful, of course they wrote awful software on top of it...
 
-**Adam Stacoviak:** Well, I've also gotten the kernel panic on a Mac before; it happened maybe a small handful of times my whole entire \[unintelligible 00:45:11.14\] but I've seen that, too.
+**Adam Stacoviak:** Well, I've also gotten the kernel panic on a Mac before; it happened maybe a small handful of times my whole entire use of a Mac ever but I've seen that, too.
 
 **Mikeal Rogers:** Also, kernel panics on Linux are just part of using Linux. It's not like this is like a solved problem there.
 
