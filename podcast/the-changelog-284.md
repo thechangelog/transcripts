@@ -12,7 +12,7 @@
 
 **Jerod Santo:** Right.
 
-**Todd Gamblin:** But Moore's Law is not dead. It's fair to be confused, because there's been a lot of articles written about this. There was an article on MIT review that said "Moore's Law is dead. Now what?", but it predicted the death of Moore's Law I think out in the 2020's. The Intel CEO says Moore's Law is fine, the chips are gonna continue to improve. I think it's kind of hard to see what's really happening in the process \[unintelligible 00:03:45.10\]
+**Todd Gamblin:** But Moore's Law is not dead. It's fair to be confused, because there's been a lot of articles written about this. There was an article on MIT review that said "Moore's Law is dead. Now what?", but it predicted the death of Moore's Law I think out in the 2020's. The Intel CEO says Moore's Law is fine, the chips are gonna continue to improve. I think it's kind of hard to see what's really happening in the processor landscape.
 
 What Moore's Law actually says is that the number of transistors that you can cram on a chip doubles every 18 to 24 months. That's the part that is still relatively true, although it's slowing down. The interesting thing, and the thing that people typically get confused with this is -- so there's something else called Dennard's scaling, that broke down around 2006. I think that's what has led to us having all these multi-core chips now, where you got a lot of performance out of your single-core chips before.
 
@@ -146,7 +146,7 @@ There's lots of these different sequential optimizations that people have done, 
 
 **Todd Gamblin:** Oh, there's tons of layers. If you think about it, that people started out just programming to the chip... If you got a new machine back in the founding days of this laboratory (1952), you would read the manual, the instructions -- the programmer manual had assembly code and it said "Here's the instructions you can execute on this chip. This is what it can do", and you have to actually think about memory, how you're managing it, what you're pulling into the core, how much memory you have... Things like that. And now, you don't even think about that. You can instantiate things dynamically, you don't have to think very much about memory in most of the modern languages, and it's a pretty nice ecosystem.
 
-The reason that the multicore stuff doesn't change your perception of what's going on on the computer quite as much, or at least from a programming perspective - one reason is that there are a lot of multi-threaded programs, and even your operating system is... You know, even before you had multi-core chips, your operating system was executing multiple things at the same time; it was just doing it by time-sharing \[unintelligible 00:24:00.09\] So you know what a context switch is - it's when you're executing one program and then the OS says "Well, there's this other thing that's running at the same time; I'm gonna swap that in, execute it for a little bit, then I'm gonna preempt it and switch back to the other thing that you were doing."
+The reason that the multicore stuff doesn't change your perception of what's going on on the computer quite as much, or at least from a programming perspective - one reason is that there are a lot of multi-threaded programs, and even your operating system is... You know, even before you had multi-core chips, your operating system was executing multiple things at the same time; it was just doing it by time-sharing. So you know what a context switch is - it's when you're executing one program and then the OS says "Well, there's this other thing that's running at the same time; I'm gonna swap that in, execute it for a little bit, then I'm gonna preempt it and switch back to the other thing that you were doing."
 
 \[00:24:16.01\] And effectively, that's how your OS did multitasking before you had multi-core chips, is by just switching back and forth between different tasks really rapidly. And now, on your chip you really can have things executing actually in parallel, so to some extent it's kind of a natural transition, because you can just execute different threads on different cores, and the operating system has to manage that... But you still have context-switching too, so you can still execute many more tasks on your chip than you had cores.
 
@@ -190,7 +190,7 @@ In our community, the other places that people are looking - so there's quantum 
 
 There's a D-Wave system... Los Alamos has a D-Wave system that they're looking at. It's a type of quantum computer that can do something called quantum annealing, which allows you to solve certain optimization problems very fast. But again, that's a different model of computation; it's not like a script, it's another type of thing. So if you have to do optimization problems, that's a good thing to use, and you can do it really fast.
 
-There's something called cognitive computing, that we're looking at. At Livermore we have a partnership with IBM where we're looking at their TrueNorth \[unintelligible 00:29:39.01\] They call it a cognitive computer - effectively what it is is it's a chip that you can basically put a neural network on and you can evaluate it very quickly, so it's good for machine learning workloads. If you need to do some machine learning evaluation along with your workload, where I'm distinguishing between training and evaluation, then you could potentially do it faster with a TrueNorth chip. Then to some extent there are limitations to how you can do that; you have to discretize the neural net a certain way, so that it fits on the chip, and you can only do certain types of neural nets... But you can pose a lot of neural net problems that way, so we think it could be useful for helping to accelerate some of the simulations that we're doing, or help to solve problems that are really hard for humans to optimize at runtime. So that's another model.
+There's something called cognitive computing, that we're looking at. At Livermore we have a partnership with IBM where we're looking at their TrueNorth architecture. They call it a cognitive computer - effectively what it is is it's a chip that you can basically put a neural network on and you can evaluate it very quickly, so it's good for machine learning workloads. If you need to do some machine learning evaluation along with your workload, where I'm distinguishing between training and evaluation, then you could potentially do it faster with a TrueNorth chip. Then to some extent there are limitations to how you can do that; you have to discretize the neural net a certain way, so that it fits on the chip, and you can only do certain types of neural nets... But you can pose a lot of neural net problems that way, so we think it could be useful for helping to accelerate some of the simulations that we're doing, or help to solve problems that are really hard for humans to optimize at runtime. So that's another model.
 
 **Jerod Santo:** Are there private sector equivalents, Todd, to these things that you're speaking of, or are these the kinds of things that you only find in the public sector, in terms of the cognitive learning machines?
 
@@ -205,7 +205,7 @@ But I think the theme across all these different areas is that it's more special
 
 **Todd Gamblin:** Yeah.
 
-**Jerod Santo:** \[00:31:54.01\] Tell us real quick -- you mentioned you work at Lawrence Livermore National Lab, and you said "We care about high-performance computing." Maybe explain the specific use cases as much as is public knowledge (not top secret stuff) that you guys do \[unintelligible 00:32:15.10\]
+**Jerod Santo:** \[00:31:54.01\] Tell us real quick -- you mentioned you work at Lawrence Livermore National Lab, and you said "We care about high-performance computing." Maybe explain the specific use cases as much as is public knowledge (not top secret stuff that you guys do and you're applying these technologies to).
 
 **Todd Gamblin:** Okay, so I work for the Department of Energy; I think the Department of Energy has been in the news as Trump has picked his cabinet lately... We deal with a couple of different things. I think the DOE is the biggest funder of science research in the US, alongside the NSF, and that involves funding universities, it involves funding the national laboratories, and we're also in charge of managing the US nuclear stockpile and making sure that it stays safe and reliable.
 
@@ -239,7 +239,7 @@ And I guess the other interesting facility here that's in the news frequently is
 
 **Adam Stacoviak:** So it's all these lasers colliding, the light from these lasers colliding, that creates the fusion burn...
 
-**Todd Gamblin:** Yeah, that's right. The lasers come in, they hit this cylindrical thing called a \[unintelligible 00:36:54.14\] that's made of gold; that gets really hot, X-rays come out of it and implode the target in the middle. That's the idea.
+**Todd Gamblin:** Yeah, that's right. The lasers come in, they hit this cylindrical thing called a hohlraum, that's made of gold; that gets really hot, X-rays come out of it and implode the target in the middle. That's the idea.
 
 **Jerod Santo:** Are you doing that a lot, or are you simulating on computers and then doing it very few times?
 
@@ -322,7 +322,7 @@ The GPUs have kind of won in terms of that's the thing that hasn't a market out 
 
 **Jerod Santo:** Well, I think you'd be bleeding edge.
 
-**Todd Gamblin:** Alright... \[laughter\] With simulation we can make it better. \[unintelligible 00:44:55.23\] That sounds scary, though; I think we should think about the consequences in doing that.
+**Todd Gamblin:** Alright... \[laughter\] With simulation we can make it better. We can more effecive sharks with laser beams. That sounds scary, though; I think we should think about the consequences in doing that.
 
 **Break:** \[00:45:08.12\]
 
@@ -361,7 +361,7 @@ One of the things we've developed is -- we call them performance portability fra
 
 **Adam Stacoviak:** So you get assigned hours, but you don't get assigned like 9 in the morning to 10 in the morning... You get just hours and you're in a queue; whenever your queue comes up, you execute.
 
-**Todd Gamblin:** Right. You get a bank that comes with your project; we call it a bank - that's how many total CPU hours you have. If you submit a job, when you submit it you have to say "Here's how long I expect it to run for" and the scheduler will kill it after that much time. Then you \[unintelligible 00:54:04.14\] and then it runs for that long; the length of time it runs, times the number of nodes that you use, times the number of CPUs per node is how much they subtract from your bank at the end of that. So if you get a few multi-million CPU hour allocation, you can run that out pretty quickly if you run giant jobs that run for a long time.
+**Todd Gamblin:** Right. You get a bank that comes with your project; we call it a bank - that's how many total CPU hours you have. If you submit a job, when you submit it you have to say "Here's how long I expect it to run for" and the scheduler will kill it after that much time. Then you sumbit the number of nodes you want and then it runs for that long; the length of time it runs, times the number of nodes that you use, times the number of CPUs per node is how much they subtract from your bank at the end of that. So if you get a few multi-million CPU hour allocation, you can run that out pretty quickly if you run giant jobs that run for a long time.
 
 **Jerod Santo:** So Todd, I first met you at the Sustain event last spring (almost summertime, I suppose) at the GitHub headquarters; you were very involved in that, and in fact that's when you hopped into our Slack for the first time and helped bring some people from the lab to that event... So you have interest in and passion around sustaining open source, because that's why you were there and involved, and we appreciated your help... But tell us and the audience the intersection of where open source comes in with the work you're doing with the supercomputers in the lab work.
 
@@ -401,7 +401,7 @@ I would say that Livermore computing at least, on the infrastructure side, is de
 
 So I guess I'd say there are a lot of different ways to get time on the machines. It's pretty low overhead. It's not quite like writing a full academic proposal. It's pretty open.
 
-**Adam Stacoviak:** Yeah, and we're on this open source gig, I was just curious how that flavored in, because as you're describing your choices, and I guess the primary choice of choosing open source, and that's your preference, it seems like while there's a lot of process around the proposal flow, maybe there's a little bit more \[unintelligible 01:00:57.22\] as you mentioned at involvement with other teams that have access to these super expensive machines... That's a huge privilege, because I don't have access to a 200-million dollar machine; I can barely afford one that costs seven, and I've gotta borrow money from grandma, or something like that... \[laughs\]
+**Adam Stacoviak:** Yeah, and we're on this open source gig, I was just curious how that flavored in, because as you're describing your choices, and I guess the primary choice of choosing open source, and that's your preference, it seems like while there's a lot of process around the proposal flow, maybe there's a little bit more cross-talk as you mentioned at involvement with other teams that have access to these super expensive machines... That's a huge privilege, because I don't have access to a 200-million dollar machine; I can barely afford one that costs seven, and I've gotta borrow money from grandma, or something like that... \[laughs\]
 
 **Jerod Santo:** Seven what? Seven million?
 
@@ -417,17 +417,17 @@ So I guess I'd say there are a lot of different ways to get time on the machines
 
 **Todd Gamblin:** I had the same question. \[laughter\]
 
-**Jerod Santo:** I guess what we're trying to say, Todd, is how can we get some time on this computer \[unintelligible 01:01:41.23\]? \[laughter\]
+**Jerod Santo:** I guess what we're trying to say, Todd, is how can we get some time on this computer, possibly out of this ? \[laughter\]
 
 **Adam Stacoviak:** Yeah. We've got some research...
 
 **Todd Gamblin:** Yeah, so I guess if I had to boil it down to something, you have to have justification for getting on the machine. You have to be able to show that you can make scientific progress with your hours. That's what the process is about.
 
-**Adam Stacoviak:** Shark and lasers, man...
+**Adam Stacoviak:** Sharks and lasers, man...
 
 **Jerod Santo:** Sharks with clicking laser beams on their heads... I told you our justification already.
 
-**Todd Gamblin:** \[unintelligible 01:02:00.26\]
+**Todd Gamblin:** \[unintelligible 01:02:00.26\] 
 
 **Adam Stacoviak:** Oh, boy... \[laughter\]
 
@@ -461,7 +461,7 @@ There is a release process that you have to go through that's kind of cumbersome
 
 I would say that the interaction model on the projects is maybe not quite the same as like a large infrastructure project, like Kubernetes or Docker or something like that, just because -- I mean, it's scientific computing, so people get funded to solve a particular problem, not to develop software. So there are sustainability issues around how much software development time can we actually put on this project.
 
-On the production side though, the facilities - their job is to keep the center running and to do it efficiently, and I think that's why you see a lot of open source coming out of there. But then again, there are long-lived research projects that are very widely used. One good example of that is in the Math Library community, so for large-scale parallel solvers. The different labs have teams working on that stuff and there are some solver libraries; Livermore has Hyper, Sandia has \[unintelligible 01:06:34.24\] and Berkeley Lab has some solvers... And also things like finite element frameworks, things for meshing and for building these big models of physical systems... Livermore has a library called MFEM that has a big open source community around it -- well, not big by Javascript standards, but big by scientific computing standards.
+On the production side though, the facilities - their job is to keep the center running and to do it efficiently, and I think that's why you see a lot of open source coming out of there. But then again, there are long-lived research projects that are very widely used. One good example of that is in the Math Library community, so for large-scale parallel solvers. The different labs have teams working on that stuff and there are some solver libraries; Livermore has Hyper, Sandia has Trilinos and Berkeley Lab has some solvers... And also things like finite element frameworks, things for meshing and for building these big models of physical systems... Livermore has a library called MFEM that has a big open source community around it -- well, not big by Javascript standards, but big by scientific computing standards.
 
 So some of them operate like communities, I would say, and then others tend to stay within a particular group, or they maybe don't have a cross-lab community... It just depends on the software and what the funding and the interaction model has been historically. I do think more community could help a lot of projects, if people started thinking more in terms of like "How do I sustain this over time? How do I get more contributors?" I don't necessarily think that we build research software with growing contributors in mind.
 
@@ -485,7 +485,7 @@ So some of them operate like communities, I would say, and then others tend to s
 
 **Adam Stacoviak:** "Bring your own file system, okay?"
 
-**Todd Gamblin:** When you get them, you're all painted on the side of the machine. If you look at like the \[unintelligible 01:08:50.02\] they have a picture of a grasshopper painted on the side of their machine.
+**Todd Gamblin:** Haven't ever got a T-shirt but you do get a mural painted on the side of the machine. If you look at like the Norsk machines they have a picture of a grasshopper painted on the side of their machine.
 
 **Jerod Santo:** That's cool.
 
