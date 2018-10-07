@@ -50,7 +50,7 @@ In fact, even just last week we launched an open source model called Cloud Event
 
 **Jerod Santo:** Yeah, it was a long one.
 
-**Adam Stacoviak:** We came here instead \[unintelligible 00:07:15.21\]
+**Adam Stacoviak:** We came here instead , we would have you (on the podcast)
 
 **Corey Sanders:** I owe you, I owe you...
 
@@ -102,7 +102,7 @@ In fact, even just last week we launched an open source model called Cloud Event
 
 **Corey Sanders:** There's a latency SLA. It's the only service that has a latency SLA. Yeah, it's really cool.
 
-**Jerod Santo:** Interesting. So how does that work? You say, "I need like \[unintelligible 00:09:33.20\]
+**Jerod Santo:** Interesting. So how does that work? You say, "I need like 50 millisecond SLA..."
 
 **Corey Sanders:** It's basically a commitment of sort of "When contacting the service, this is how long it will take you to get reads and writes out."
 
@@ -114,9 +114,13 @@ In fact, even just last week we launched an open source model called Cloud Event
 
 **Corey Sanders:** Sure.
 
-**Jerod Santo:** ...because I've taken a few stabs at serverless... I think it makes tons of sense for the IoT space, especially when there's like -- maybe not single-use devices, but simple use devices... Areas where I get into confusion are like -- I'm like "Well, am I doing this wrong, or what's the deal?" I start shoving all this stuff into a single function, or I start wondering "As a developer, how do I get my--"
+**Jerod Santo:** ...because I've taken a few stabs at serverless... I think it makes tons of sense for the IoT space, especially when there's like -- maybe not single-use devices, but simple use devices...
 
-**Corey Sanders:** Where do you draw the lines \[unintelligible 00:10:53.05\]
+**Corey Sanders:** Sure.
+
+**Jerod Santo:** Areas where I get into confusion are like -- I'm like "Well, am I doing this wrong, or what's the deal?" I start shoving all this stuff into a single function, or I start wondering "As a developer, how do I get my"
+
+**Corey Sanders:** Where do you draw the lines for your functions.
 
 **Jerod Santo:** Yeah, like, we believe in the single responsibility principle, and refactoring into smaller functions etc. How do you architect these serverless things? Do they scale up, or is it only good in the small?
 
@@ -138,7 +142,7 @@ In fact, even just last week we launched an open source model called Cloud Event
 
 **Jerod Santo:** Yeah, it was a facade.
 
-**Corey Sanders:** Exactly right, it was a facade... And with \[unintelligible 00:12:52.28\] So until you sort of got to models that were actually built with object-oriented first class... I think we'll get there; I just don't think we're there yet. That would be at least my perspective on the serverless world.
+**Corey Sanders:** Exactly right, it was a facade... And with pound defines right. So until you sort of got to models that were actually built with object-oriented first class... I think we'll get there; I just don't think we're there yet. That would be at least my perspective on the serverless world.
 
 **Jerod Santo:** Well, that's heartening, because I just thought maybe it was--
 
@@ -192,7 +196,7 @@ I feel like there's constructs that are still missing, and frankly, we're workin
 
 **Adam Stacoviak:** Something like that...
 
-**Corey Sanders:** Well, zepto is \[unintelligible 00:15:47.04\] Anyway, you can look it up.
+**Corey Sanders:** Well, zepto is the big side but then it starts getting... Anyway, you can look it up.
 
 **Adam Stacoviak:** Jerod's googling right now.
 
@@ -269,7 +273,7 @@ But then you start thinking to yourself, all CI/CD -- I mean, what CI/CD pipelin
 **Corey Sanders:** Yeah.
 
 **Jerod Santo:** What is that runtime, what does it look like?
-**Corey Sanders:** It's fairly simple. It effectively runs containers and manages the health of the containers running inside that edge device. In the example today, the camera - it could run containers inside the camera, and the camera had enough computing power to be able to sort of do that, and do that work. That included cognitive services, it included functions, it included those aspects, and then the IoT Edge was basically taking the containers that were built in public Azure and accepting them and deploying them, and sort of managing them so they could take updates, and they could communicate back, and they could communicate the health of the containers, and so on. So it ends up being sort of a hosting platform for the actual container \[unintelligible 00:21:01.18\]
+**Corey Sanders:** It's fairly simple. It effectively runs containers and manages the health of the containers running inside that edge device. In the example today, the camera - it could run containers inside the camera, and the camera had enough computing power to be able to sort of do that, and do that work. That included cognitive services, it included functions, it included those aspects, and then the IoT Edge was basically taking the containers that were built in public Azure and accepting them and deploying them, and sort of managing them so they could take updates, and they could communicate back, and they could communicate the health of the containers, and so on. So it ends up being sort of a hosting platform for the actual containers running on it.
 
 **Jerod Santo:** Kind of like an operating system, or actually, well--
 
@@ -277,7 +281,7 @@ But then you start thinking to yourself, all CI/CD -- I mean, what CI/CD pipelin
 
 **Jerod Santo:** What technologies is that built with?
 
-**Corey Sanders:** Well, it's built with a lot of technology inside Azure. It uses components of actually Service Fabric, which has got some capabilities to do container management, but it also has actually Kubernetes-based support as well. So it's ending up trying to be kind of an enablement of whatever type of orchestration you want, but it also shouldn't matter. So it's built with those sort of core functionality capabilities, but in the end the customers just see that their containers are deploying, so \[unintelligible 00:21:41.26\]
+**Corey Sanders:** Well, it's built with a lot of technology inside Azure. It uses components of actually Service Fabric, which has got some capabilities to do container management, but it also has actually Kubernetes-based support as well. So it's ending up trying to be kind of an enablement of whatever type of orchestration you want, but it also shouldn't matter. So it's built with those sort of core functionality capabilities, but in the end the customers just see that their containers are deploying, so you know - they bully.
 
 **Jerod Santo:** We saw that today running on a Raspberry Pi.
 
@@ -463,7 +467,11 @@ Some of the things that we showed today, the developer tools, things like doing 
 
 **Jerod Santo:** "It's okay... Turn it off."
 
-**Adam Stacoviak:** Making it like that makes it more approachable, to not feel like somebody's watching you? \[unintelligible 00:29:51.17\]
+**Adam Stacoviak:** Making it like that makes it more approachable, to not feel like somebody's watching you? 
+
+**Jerod Santo:** Oh then I have a real person watching me !
+
+**Corey Sanders:** Yeah, that's right. It could be...
 
 **Corey Sanders:** Oh, gosh... I'm not allowed to bring that up, am I? No...
 
@@ -641,7 +649,7 @@ So you're actually seeing an acceleration of the research and you're seeing thes
 
 **Steve Guggenheimer:** Well, if you think of this, there's patterns relative to AI, and one of them is AI assisting humans. This notion of "How do you help people?" How does Microsoft and the industry and AI help us as humans in any field is incredibly powerful.
 
-\[00:48:10.03\] The one that always catches you the most is healthcare. Project Emma, if you go look that up, and what we're doing relative to Parkinson's... Seeing AI, the ability to help people who are sight-impaired... I mean, the ability to help people, the work going on in genomics and radiomics... Look, I'm getting old; this stuff \[unintelligible 00:48:28.15\] is pretty cool. I might be needing some of it soon.
+\[00:48:10.03\] The one that always catches you the most is healthcare. Project Emma, if you go look that up, and what we're doing relative to Parkinson's... Seeing AI, the ability to help people who are sight-impaired... I mean, the ability to help people, the work going on in genomics and radiomics... Look, I'm getting old; this stuff is like "Boy it's pretty cool!". I might be needing some of it soon.
 
 **Jerod Santo:** Yeah, you might be using it sometime soon.
 
