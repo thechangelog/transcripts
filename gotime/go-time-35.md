@@ -86,11 +86,11 @@ It is very much the same at Honeycomb. You've got a tiny little statically linke
 
 **Erik St. Martin:** Every technology you adopt comes with overhead too, right? Teams need to learn and understand, and they need to maintain it, they need to know what the failure scenarios of those things are, how to debug it... So it's just one of those things, it's added overhead if you don't have a team or infrastructure the size that gains more from it than it costs.
 
-**Charity Majors:** Totally. It's another layer of abstraction, and I like that policy about not naming your host. I haven't done that in like decades. But yeah, orders of magnitude... And it's also a function of the complexity, the number of host types that you have. I do like the way that we're going, but a lot of these things are not fake. Have you seen the best practices for Kubernetes? Sorry, it doesn't exist. It's like, "How to get data out?" "Um, maybe tail it out into an Elasticsearch cluster and grep through it...?" It's just like \*shrug\*. Nobody knows. We aren't Google... Google's infrastructure \[unintelligible 00:10:07.19\] is well-meaning, but mostly driven by sort of academic type technologists who are \[unintelligible 00:10:14.25\] type of technologists.
+**Charity Majors:** Totally. It's another layer of abstraction, and I like that policy about not naming your host. I haven't done that in like decades. But yeah, orders of magnitude... And it's also a function of the complexity, the number of host types that you have. I do like the way that we're going, but a lot of these things are not fake. Have you seen the best practices for Kubernetes? Sorry, it doesn't exist. It's like, "How to get data out?" "Um, maybe tail it out into an Elasticsearch cluster and grep through it...?" It's just like \*shrug\*. Nobody knows. We aren't Google... Google's infrastructure little giffy thing is well-meaning, but mostly driven by sort of academic type technologists who are \[unintelligible 00:10:14.25\] type of technologists.
 
 **Erik St. Martin:** Yeah, I think that with all of that stuff it's an early technology, which means it's not fully flushed out yet, which means that if you're struggling and you can gain from it and it's something that you can build off of and save yourself problems and engineering time, then awesome. But if you're not willing to take the ride with the project and work through the kinks and build your own things to round it out (your complete use case) then it's probably not worth adopting. But I think it's promising for a lot of people, as it evolves.
 
-**Charity Majors:** Oh, for sure. Yeah, there's a lot of really good stuff there. The bones are great, and it's exciting to get to play with some of these toys. It's just that we - exactly as you said - we'd have to know that they are toys for most of us. And if you don't have the drive to go all in on it when times get hard - because they're gonna get hard a lot - then I \[unintelligible 00:11:12.04\]
+**Charity Majors:** Oh, for sure. Yeah, there's a lot of really good stuff there. The bones are great, and it's exciting to get to play with some of these toys. It's just that we - exactly as you said - we'd have to know that they are toys for most of us. And if you don't have the drive to go all in on it when times get hard - because they're gonna get hard a lot - then I don't recommend.
 
 **Brian Ketelsen:** Yes, times always get hard a lot, especially when you're on the bleeding edge. There's craziness, for sure.
 
@@ -114,7 +114,7 @@ So let's talk a little bit about what's going on at Honeycomb, what all of you a
 
 **Erik St. Martin:** Now, for anybody who's not familiar, do you wanna give a brief explanation of what Scuba is?
 
-**Charity Majors:** Yeah, absolutely. I'll tell you what Honeycomb is, because it's less Facebooky. We accept JSON at the edge \[unintelligible 00:15:39.02\] set up key-value pairs. We aggregate in real-time on all of those dimensions at once, so there's no indexes. You don't have to pick the three or four or five things that you wanna be able to search on; you can search on any key as soon as you drop it in. And if you wanna stop sending it, there's no schemas. We're dropping key-value pairs, we aggregate on them and then you can just explore; you can just slice and dice any of the dimensions, any combination, add one...
+**Charity Majors:** Yeah, absolutely. I'll tell you what Honeycomb is, because it's less Facebooky. We accept JSON at the edge and arbitrarily wide set up key-value pairs. We aggregate in real-time on all of those dimensions at once, so there's no indexes. You don't have to pick the three or four or five things that you wanna be able to search on; you can search on any key as soon as you drop it in. And if you wanna stop sending it, there's no schemas. We're dropping key-value pairs, we aggregate on them and then you can just explore; you can just slice and dice any of the dimensions, any combination, add one...
 
 \[00:16:10.07\] We pre-compute things like percentile buckets, max and min are always there... Having that raw, original row, like getting to deal with events while you're debugging is mind-blowing. It's so impossible to go back to aggregates or rollups or ticks or counters after that. On the backend we had to write our own column store in Go...
 
@@ -122,11 +122,11 @@ So let's talk a little bit about what's going on at Honeycomb, what all of you a
 
 **Charity Majors:** No, not really... It's not even close, actually. They're like distant cousins, sure. But it's not a database. People give me shit all the time about writing a database after spending my entire life telling people not to write databases; we didn't, we did not write a database. There was hardly any query engine and there was no transactions. We wrote an optimized file format. I'm trying that out. \[laughter\] Anyway, and it uses a Cassandra model, so we can partition your reads over a whole bunch of nodes, so it's really fast. It's very important to us that this is interactive, that this is not a thing that you set a new constructive query and then walk away from your desk. It's interactive because debugging is interactive.
 
-When systems get sufficiently complex, they outstrip your ability to predict what is going to break. And I think a lot of us are hitting that threshold faster and sooner than ever before, because there are so many trends that are pushing this level of complexity - everything from schedulers and containers to \[unintelligible 00:17:43.09\] to your distributed systems, microservices... All these things are awesome, but they're a lot harder to debug than the LAMP stack was. A lot more of the intelligence lives in the edges between the nodes, not just deep diving in the nodes themselves. In fact, you may not even have any servers, and now what do you do? And it's really important just to stitch together everything from the edge, with your mobile or IoT device... Storage is out there increasingly, too. How do you know where this bit is supposed to be? All the way through the code that you write yourself; it has to be native SDKs, like an APM \[unintelligible 00:18:23.12\]
+When systems get sufficiently complex, they outstrip your ability to predict what is going to break. And I think a lot of us are hitting that threshold faster and sooner than ever before, because there are so many trends that are pushing this level of complexity - everything from schedulers and containers to \[unintelligible 00:17:43.09\] to your distributed systems, microservices... All these things are awesome, but they're a lot harder to debug than the LAMP stack was. A lot more of the intelligence lives in the edges between the nodes, not just deep diving in the nodes themselves. In fact, you may not even have any servers, and now what do you do? And it's really important just to stitch together everything from the edge, with your mobile or IoT device... Storage is out there increasingly, too. How do you know where this bit is supposed to be? All the way through the code that you write yourself; it has to be native SDKs, like an APM ergo SDKs are amazing.
 
 It's really important to us to be able to debug your database. I don't know how people DBA without this kind of thing, and the answer is that they don't. They just know how to look for slow queries, but that's very often not actually the problem. For instance, people are like "Oh, my database is getting slow, and I looked for slow reads, because reads that used to take one second are now taking you 30 seconds." Well, okay, that may be the symptom that you're seeing, but often the problem is something like your write volume is getting higher, and they're all contending for this one row or this one lock, and because those writes can yield, if they're just reaching period saturation you can tune read queries all you want, it's not actually going to make a dent.
 
-The problem - with our tool what you can do is add up all of the time that each lock is being held by each lock query, and there it is. It's just so easy to deviate once you can see these things. \[unintelligible 00:19:24.27\] way more interesting Go stuff to say, but we're using Go for everything - the UI, all the way down to the guts, and it's not been one of our top ten problems, even close.
+The problem - with our tool what you can do is add up all of the time that each lock is being held by each lock query, and there it is. It's just so easy to deviate once you can see these things. I get down to the weeds of the databases I guess if Cristina is here it's way more interesting Go stuff to say, but we're using Go for everything - the UI, all the way down to the guts, and it's not been one of our top ten problems, even close.
 
 **Brian Ketelsen:** So when you're putting together Honeycomb, the idea is that you capture and collect all of the data from all of the different pieces in these distributed systems that we're building today...
 
@@ -156,7 +156,7 @@ People spend so much time talking about what their tools says, versus what someb
 
 **Erik St. Martin:** And every time you change it you end up upsetting some subset of the people using it. People don't even have to use something; if you take it away from them, they feel lost. "What if I needed it?"
 
-**Charity Majors:** Yeah... "I knew how to do that. I know I'm gonna \[unintelligible 00:21:54.12\] in the middle of the night someday and I'm gonna need that button."
+**Charity Majors:** Yeah... "I knew how to do that. I know I'm gonna get paged in the middle of the night someday and I'm gonna need that button."
 
 **Erik St. Martin:** So I think it is about time for our first sponsored break. Our first sponsor today is Toptal.
 
@@ -180,7 +180,7 @@ People spend so much time talking about what their tools says, versus what someb
 
 **Brian Ketelsen:** I'm crushed.
 
-**Charity Majors:** \[unintelligible 00:23:11.27\]
+**Charity Majors:** We're apologetic
 
 **Erik St. Martin:** Is that React?
 
@@ -326,7 +326,7 @@ I remember one of the things that frustrated me about being a corporate develope
 
 **Erik St. Martin:** Full stack is just an excuse. Somebody kind of lead to that... Full stack is kind of like an excuse to just underpay people. That's like your first programming job where they're like "You are the programmer, the system administrator and the IT support guy, and we're gonna pay you McDonald's income for it."
 
-**Charity Majors:** It always reminds me of all \[unintelligible 00:34:15.26\] San Francisco looking for that technical co-founder who will do everything, you know? \[laughter\] They've got the marketing, they've got the design, they've got the blah... They just seem like somebody that will just do it all.
+**Charity Majors:** It always reminds me of all douchebag wondering around San Francisco looking for that technical co-founder who will do everything, you know? \[laughter\] They've got the marketing, they've got the design, they've got the blah... They just seem like somebody that will just do it all.
 
 **Erik St. Martin:** So how about you, Carlisia - are you going to any release parties tonight?
 
@@ -390,7 +390,7 @@ I remember one of the things that frustrated me about being a corporate develope
 
 **Brian Ketelsen:** That's a pretty important compromise, though...
 
-**Charity Majors:** We were home schooled, no sugar, we grew our own food... It was kind of like \[unintelligible 00:37:24.00\]
+**Charity Majors:** We were home schooled, no sugar, we grew our own food... It was kind of like women's compound honestly.
 
 **Carlisia Pinto:** That's a whole other show right there... \[laughter\]
 
@@ -414,7 +414,7 @@ And then another cool thing that was released today, I saw Ron Evans of the Hybr
 
 **Charity Majors:** Oh, wow...
 
-**Erik St. Martin:** Yeah, so they have \[unintelligible 00:38:48.00\], they have stuff that just talks I²C... I think there's SPI in there too, but yeah... It's ridiculously cool if you wanna play with hardware and not have to write C++ or C.
+**Erik St. Martin:** Yeah, so they have stuff to work with paired drones, they have stuff that just talks I²C... I think there's SPI in there too, but yeah... It's ridiculously cool if you wanna play with hardware and not have to write C++ or C.
 
 **Charity Majors:** Great.
 
@@ -584,7 +584,7 @@ Anything that he's written... His giant library stuff over at the Facebook Go - 
 
 **Brian Ketelsen:** Right...
 
-**Erik St. Martin:** Yeah, I mean... How can you possibly be secure without a $30,000 vendor product \[unintelligible 00:53:50.21\]?
+**Erik St. Martin:** Yeah, I mean... How can you possibly be secure without a $30,000 vendor product ,I mean. It's just no way?
 
 **Charity Majors:** Thank you.
 
