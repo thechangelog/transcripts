@@ -40,7 +40,7 @@ Alright, let's jump into it. We're gonna talk about actually using ES6 and ES7, 
 
 **Alex Sexton:** Sorry to interrupt... The semantics are maybe easier, because it's just like -- we talked about this a little bit while you guys were gone... It is kind of just the literal scope of the variables; there's no bound... It's just the lexical scope of variables, so you can reason about what a variable or what this is much more simply, because it's impossible for it to be anything but lexically bound. So to some degree, you can forget about some things that functions add, and then to another degree it's hard to scan maybe, especially implicit returns.
 
-**Mikeal Rogers:** Yeah, I was just gonna say... Whatever complexity they take out of the \[unintelligible 00:05:44.22\] by not having this, they probably add it with the implicit return stuff.
+**Mikeal Rogers:** Yeah, I was just gonna say... Whatever complexity they take out of the pool by not having this, they probably add it with the implicit return stuff.
 
 I don't know if you saw this or not, but there was a post that somebody did where he was essentially saying that his style guide now is that he no longer uses the function keyword ever. So he doesn't use old style functions anywhere. Everything is arrow functions, and classes have a different, new function syntax for properties. So he uses those when you would have traditionally used functions for any kind of prototypal stuff or referencing this...
 
@@ -68,7 +68,7 @@ So there are still gotchas if you use the class syntax. You could still go furth
 
 **Alex Sexton:** And I think if you are going to say "We require arrow functions everywhere they can be used", you should also require them in classes, too. So rather than saying "function name(arguments)" and then brackets with the function, you should say "function name=(fatArrow)" brackets, if that makes sense.
 
-**Mikeal Rogers:** Yeah. I don't think that the point that any of these people are trying to make though is to be zealots about arrow functions. I think the point that they're making is that we can deprecate the use of the "function" keyword and just rely on these numerals, and then we get out of a lot of ambiguity if we're just using the new rules around classes and \[unintelligible 00:10:28.05\]
+**Mikeal Rogers:** Yeah. I don't think that the point that any of these people are trying to make though is to be zealots about arrow functions. I think the point that they're making is that we can deprecate the use of the "function" keyword and just rely on these numerals, and then we get out of a lot of ambiguity if we're just using the new rules around classes and arrows.
 
 **Alex Sexton:** I think I disagree on what those people -- at least the people I've talked to who are doing this aren't necessarily... They're not doing it just because they think it looks better or it's smaller or it's more streamlined or anything like that; they're explicitly doing it because the lexically bound ambiguity problems go away. So you end up with a program that only has lexically bindable functions, so it's important to do it everywhere, even if the syntax is old. If there's some way to use the old function syntax and then just say "Oh, this is a lexically bound function" - they would still be cool with that. It's not about the fat arrow, it's about the semantics of how the function exists and how it can change and what contexts it can run in. It's taking away the footgun of this changing out from under you I think is the goal.
 
@@ -86,7 +86,7 @@ So there are still gotchas if you use the class syntax. You could still go furth
 
 **Mikeal Rogers:** That seems a little nuts to me. I really enjoy line numbers and all the simplicity of not having it...
 
-**Alex Sexton:** \[unintelligible 00:13:53.25\]
+**Alex Sexton:** Well all that works...
 
 **Mikeal Rogers:** Well, yes... Provided that you have all that tooled properly, and it can be kind of a pain. Look, if you're gonna use Babel, then you're already in this -- or sorry, if you're gonna use React, you're already in this, right? So there's enough people using frameworks or other upper-level tools where the compiler is just a part of that toolchain already, but I'm certainly not gonna add Babel to my Node project in order to use object spread. That's not gonna be -- I don't understand that thinking, and I don't think that a lot of people do that.
 
@@ -234,7 +234,7 @@ So there needs to be good configuration on whether you're kind of in a mode wher
 
 **Mikeal Rogers:** ...because I've spent so much time fighting caches, it's just worrisome...
 
-**Alex Sexton:** Yeah. I put a service worker early on the TXJS website in 2015 (I think) and if someone had hit it between 2 AM and 3 AM a week before the conference, then they would still have \[unintelligible 00:37:16.21\] being served that version of the website for the rest of their lives, unless they went in and cleared the service worker. \[laughter\]
+**Alex Sexton:** Yeah. I put a service worker early on the TXJS website in 2015 (I think) and if someone had hit it between 2 AM and 3 AM a week before the conference, then they would have been served that version of the website for the rest of their lives, unless they went in and cleared the service worker. \[laughter\]
 
 So there's definitely some danger to where you can get yourself in a place where you accidentally cache everything and there's no way to break out, and that can be unfortunate.
 
@@ -242,7 +242,7 @@ I haven't dug deep into their service worker implementation, but my gut is if yo
 
 It's probably very baseline, very lazy in the sense that it isn't gonna do too much because it can't assume as much. But if you think about just like a caching strategy of "Have we seen this before?" \[unintelligible 00:38:10.23\] if we've seen it before, return the old one, and always go grab the new one. And if there is a new one that's different from the old one, go ahead and also send up another event for new data." If that's kind of built into the idea of how you render things, which a lot of the React stuff is, as things change, it automatically updates, and it can kind of be a good default strategy.
 
-**Mikeal Rogers:** Oh yeah, I hadn't really thought about that. React has a lot of understanding about the individual components, so \[unintelligible 00:38:43.09\] rerenders need to happen when the backend updates. That's interesting.
+**Mikeal Rogers:** Oh yeah, I hadn't really thought about that. React has a lot of understanding about the individual components, so it knows its rerenders need to happen when the backend updates. That's interesting.
 
 **Alex Sexton:** Yeah, there's some nice synchronicity in some of that stuff, I think. It's not gonna be a silver bullet, but I think it's pretty good. Ember CLI doesn't have service worker, but by default whenever you do Ember serve a CSP (content security policy), which I think is a really cool default to have, just to make that a more widely used thing... Just like by default XSS is harder in Ember apps than it is in other apps because they do CSP.
 
@@ -384,7 +384,7 @@ Alright, moving on to our picks... Everybody got their picks locked and loaded?
 
 **Alex Sexton:** Tree shaking.
 
-**Mikeal Rogers:** \[laughs\] Alright, I'm just gonna go on a little bit of a tangent here and you're gonna get mad about it... But I think that if you need tree shaking, you're dependent on some anti-patterns. I don't think that we should have these \[unintelligible 00:56:50.06\] modules with a bunch of other properties in them that you should be shaking out. I think that we should be using modules that do one thing and only export one thing, and then you don't need to tree shake. There you go...
+**Mikeal Rogers:** \[laughs\] Alright, I'm just gonna go on a little bit of a tangent here and you're gonna get mad about it... But I think that if you need tree shaking, you're dependent on some anti-patterns. I don't think that we should have these grab bag modules with a bunch of other properties in them that you should be shaking out. I think that we should be using modules that do one thing and only export one thing, and then you don't need to tree shake. There you go...
 
 **Alex Sexton:** Maybe...
 
@@ -404,7 +404,7 @@ So yeah, if anybody else was wondering about that kind of thing, there's a link 
 
 **Mikeal Rogers:** Awesome.
 
-**Alex Sexton:** \[01:00:10.11\] Earlier in the episode we talked about features that we don't use... My wish is that there was a way to use Immutable.js as the default in the syntax... Like there could be a Babel plugin for immutable versions of things. And there actually is a spec - I think \[unintelligible 01:00:27.26\] proposed immutable data structures to ECMA, but I think it's dead and it's not gonna go, and it makes me sad... I really want to use Immutable.js but I really hate changing the syntax for everything. I want native immutable data structures... So that's a good example of something that I don't use that I wish I could.
+**Alex Sexton:** \[01:00:10.11\] Earlier in the episode we talked about features that we don't use... My wish is that there was a way to use Immutable.js as the default in the syntax... Like there could be a Babel plugin for immutable versions of things. And there actually is a spec - I think Sebastian Markbåge proposed immutable data structures to ECMA, but I think it's dead and it's not gonna go, and it makes me sad... I really want to use Immutable.js but I really hate changing the syntax for everything. I want native immutable data structures... So that's a good example of something that I don't use that I wish I could.
 
 **Rachel White:** Cool.
 
