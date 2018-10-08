@@ -1,4 +1,4 @@
-**Jerod Santo:** Welcome to our first Spotlight series, recorded at OSCON London 2016. I'm Jerod Santo, managing editor of Changelog. Katrina Owen is an accomplished speaker, creator of the excellent coding practice and feedback site Exercism.io, and co-author of 99 Bottles of OOP.
+**Jerod Santo:** \[00:00:31\] Welcome to our first Spotlight series, recorded at OSCON London 2016. I'm Jerod Santo, managing editor of Changelog. Katrina Owen is an accomplished speaker, creator of the excellent coding practice and feedback site Exercism.io, and co-author of 99 Bottles of OOP.
 
 Have you ever heard the story of how Katrina went from anonymous developer to sharing a byline with Sandi Metz? She shared all the details during this face-to-face chat. Listen in.
 

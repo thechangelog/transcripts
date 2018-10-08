@@ -1,4 +1,4 @@
-**Adam Stacoviak:** Welcome to our Spotlight series titled The Future of Node, recorded at Node Interactive 2016 in Austin, Texas. We produced this series in partnership with the Linux Foundation, the Node.js Foundation, and it's sponsored by IBM and StrongLoop.
+**Adam Stacoviak:** \[00:00:31\] Welcome to our Spotlight series titled The Future of Node, recorded at Node Interactive 2016 in Austin, Texas. We produced this series in partnership with the Linux Foundation, the Node.js Foundation, and it's sponsored by IBM and StrongLoop.
 
 **Break:** \[00:00:45.20\]
 

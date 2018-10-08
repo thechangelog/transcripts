@@ -38,4 +38,4 @@ Very unique opportunities for us to get out there in the community, make new fri
 
 **Jerod Santo:** Gotta get a hug.
 
-**Adam Stacoviak:** With that, we'll leave it there. Once again, changelog.com/spotlight, or go to your favorite podcast app and search for Changelog Spotlight, hit subscribe and we'll see you soon.
+**Adam Stacoviak:** With that, we'll leave it there. Once again, [changelog.com/spotlight](https://changelog.com/spotlight), or go to your favorite podcast app and search for Changelog Spotlight, hit subscribe and we'll see you soon.

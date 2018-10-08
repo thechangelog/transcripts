@@ -1,4 +1,4 @@
-**Jerod Santo:** Welcome to our first Spotlight series, recorded at OSCON London 2016. I'm Jerod Santo, managing editor at Changelog. Coby Chapple has been a product designer at GitHub since 2012. This conversation took place shortly after GitHub Universe, where they launched projects, transactional code reviews and GraphQL, all of which we discussed in depth.
+**Jerod Santo:** \[00:00:31\] Welcome to our first Spotlight series, recorded at OSCON London 2016. I'm Jerod Santo, managing editor at Changelog. Coby Chapple has been a product designer at GitHub since 2012. This conversation took place shortly after GitHub Universe, where they launched projects, transactional code reviews and GraphQL, all of which we discussed in depth.
 
 Coby drops a lot of knowledge bombs in this interview, so take a listen.
 
