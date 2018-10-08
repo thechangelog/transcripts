@@ -4,7 +4,7 @@
 
 **Daniel Whitenack:** We have Amanda, Peter, and Latifa with us here. Two joining from Pennsylvania, and Latifa joining from Tanzania. The first thing I'd like to do is just have you guys intro yourselves a little bit. Maybe one of you can do that for all three of you. Amanda, do you want to take that?
 
-**Amanda Ramcharan:** Sure. Hi, everyone. My name is Amanda. I am a post-doctoral research fellow here at Penn State, and I got my Ph.D. in agricultural engineering and computer science. I work with PlantVillage to design models that diagnose plant diseases on a phone.
+**Amanda Ramcharan:** Sure. Hi, everyone. My name is Amanda. I am a post-doctoral research fellow here at Penn State, and I got my Ph.D. in agricultural engineering and computer science. I work with [PlantVillage](https://plantvillage.psu.edu/) to design models that diagnose plant diseases on a phone.
 
 With me, I have Pete. Pete is a research technician for PlantVillage, and he's my right-hand guy to help us train the models and test the models. He also helps a lot with the development on TensorFlow.
 
@@ -216,7 +216,7 @@ So, when you have a tool like that, a tool that can integrate what the experts k
 
 **Chris Benson:** \[00:39:07.24\] I think that person making the Instagram filters is crying right now. \[laughter\]
 
-**Daniel Whitenack:** Well, maybe they'll just make an Instagram filter now that detects cassava plants and labels them. \[laughter\] So the next \[unintelligible 00:39:25.06\] is the Instagram plug-in. \[laughter\]
+**Daniel Whitenack:** Well, maybe they'll just make an Instagram filter now that detects cassava plants and labels them. \[laughter\] So the next tie-in is the Instagram plug-in. \[laughter\]
 
 We're kind of wrapping up, but before we jumped on the recording here, Amanda, you were talking and you were super-excited about the next steps, and really just viewing this as the beginning... Do you want to close this out by just mentioning some of the future directions that you guys are excited about, and maybe other challenges that people could get involved with as well?
 
