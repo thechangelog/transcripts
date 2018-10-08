@@ -1,4 +1,4 @@
-**Jerod Santo:** Welcome to our first Spotlight series, recorded at OSCON London 2016. I'm Jerod Santo, managing editor at Changelog. OSCON London's biggest news by far was the launch of the JS Foundation, and I sat down with Kris Borchers, who's the executive director of the foundation, right after the big announcement, to learn all about it. Listen in!
+**Jerod Santo:** \[00:00:31\] Welcome to our first Spotlight series, recorded at OSCON London 2016. I'm Jerod Santo, managing editor at Changelog. OSCON London's biggest news by far was the launch of the JS Foundation, and I sat down with Kris Borchers, who's the executive director of the foundation, right after the big announcement, to learn all about it. Listen in!
 
 \* \* \*
 
