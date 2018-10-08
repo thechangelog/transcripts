@@ -376,7 +376,7 @@ So I guess they had a way to do that, and I think it's really interesting how th
 
 **Olivier Lacan:** If they made it easier to manage and deal with tags, then it would be very simple for us to generate a changelog on the fly, based on the Git tags. That would be, to me, the best possible paradigm, because now instead of managing this file, you could have any service parse your Git tags and generate a changelog on their own and display it the way they want... And it would be portable by virtue of being in your Git history.
 
-**Jerod Santo:** Yeah, the only time it would be lost is if someone downloaded like a bundle of your files, or something, without the Git \[unintelligible 00:50:21.20\]
+**Jerod Santo:** Yeah, the only time it would be lost is if someone downloaded like a bundle of your files, or something, without the Git hidden directory
 
 **Olivier Lacan:** Right. But let's say you could have a little generator with whatever your make tool is, to make your release - you could have it just actually dump an actual changelog file, and that'd be really cool.
 
