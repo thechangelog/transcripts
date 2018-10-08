@@ -427,7 +427,7 @@ So I guess I'd say there are a lot of different ways to get time on the machines
 
 **Jerod Santo:** Sharks with clicking laser beams on their heads... I told you our justification already.
 
-**Todd Gamblin:** \[unintelligible 01:02:00.26\] 
+**Todd Gamblin:** Ill-tempered sea bass.
 
 **Adam Stacoviak:** Oh, boy... \[laughter\]
 
