@@ -1,4 +1,4 @@
-**Adam Stacoviak:** In this episode I talked to Shiya Lou about how China does Node; software development is very done differently in China, pretty much because of the slow translations of documentation and books from English to Chinese, but also because of this Great Firewall of China you've heard about. It's a censorship and surveillance project by the government, and it makes it very hard to do the internet, basically. Let's take a listen.
+**Adam Stacoviak:** \[00:01:05\] In this episode I talked to Shiya Lou about how China does Node; software development is very done differently in China, pretty much because of the slow translations of documentation and books from English to Chinese, but also because of this Great Firewall of China you've heard about. It's a censorship and surveillance project by the government, and it makes it very hard to do the internet, basically. Let's take a listen.
 
 \* \* \*
 
