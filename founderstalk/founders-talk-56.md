@@ -118,7 +118,7 @@ It was fantastic, it was a huge boost for people's trust in the system, to make 
 
 Then I remember getting an e-mail from Sindre, I think on day two, and in that e-mail, he said "Hey, I just wanted to be aware... GitHub is asking me to pull the plug on Code Sponsor." I read this, and I read this over, and I read this over, and I thought "Oh my gosh, what am I gonna do?" So immediately I went over to the GitHub support area; they had a support area... And I said "Hey, this is who I am, I'm with Code Sponsor. Can I talk to somebody about this?" and I got some crazy looks, like "Oh, you're the crazy person that's trying to tear down the ship...", or whatever it might be... You know, it was like a bad feeling that I got...
 
-**Adam Stacoviak:** You're \[unintelligible 00:23:39.10\]
+**Adam Stacoviak:** Right. You're him!
 
 **Eric Berry:** Yeah, yeah... A "bandito". And they didn't wanna talk to me. It came down to "Look, we can't talk to you. You have to go through this channel." So Tanner and I sat down, we drafted a big, long e-mail, explaining what we are... The reasoning that they wanted them pulled is because they claimed that we were an ad platform, and even though we weren't technically an ad platform, we showed a lot of signs of being an ad platform... We were trying to be a way for sponsors to be able to fund projects.
 
@@ -306,7 +306,7 @@ Jerod and I went back and forth a little bit, because I might have open-sourced 
 
 \[01:04:09.19\] Advertising is so dirty, but when you say "Our whole advertising platform is open source, and these are our claims, and you can go verify", it becomes a lot easier to trust, or not require trust on that.
 
-**Adam Stacoviak:** Yeah, it's easy to get out of the box, because there's certain stigmas that are squashed out the box by saying "We follow these patterns, our code is open source, these are our guidelines, whatever they might be..." You \[unintelligible 01:04:36.25\] on the open-sourcing part - we just put the baton up and hope people follow us, and we're following others, too. We're just leading the leaders and following the followers, because I think it's the way to go... We dreamt of being able to when we built the CMS that now powers Changelog.com
+**Adam Stacoviak:** Yeah, it's easy to get out of the box, because there's certain stigmas that are squashed out the box by saying "We follow these patterns, our code is open source, these are our guidelines, whatever they might be..." You created us on the open-sourcing part - we just put the baton up and hope people follow us, and we're following others, too. We're just leading the leaders and following the followers, because I think it's the way to go... We dreamt of being able to when we built the CMS that now powers Changelog.com
 
 Our dream was to be able to make sure it was open source, because we felt like, gosh, we've been covering open source since 2009. Open source moves fast, we're just trying to keep up and help everybody, too... And we could not in any way go beyond Tumblr or WordPress, which were our first two platforms, and build our own and not make it open source... Because it wasn't about fueling competitors or anything like that, it was about "Can we start a conversation? Can we establish trust, can we invite the community in?" There's so many benefits that we see because of it, and... If we kept it closed source, where would we be? What would that be like? That's silly.
 

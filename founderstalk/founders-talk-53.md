@@ -56,7 +56,7 @@ If I continue to live the lifestyle I've been living as a startup founder, then 
 
 **Adam Stacoviak:** You're using a photography reference, I like that. That means that you're letting all the light in, full-on bokeh, shallow depth of field, total focus.
 
-**Danielle Morrill:** That's really interesting, what you notice when you can widen that perspective. There's things that were there, \[unintelligible 00:13:10.25\]
+**Danielle Morrill:** That's really interesting, what you notice when you can widen that perspective. There's things that were there, that you were maybe not paying attention to.
 
 **Adam Stacoviak:** What matters to you?
 
@@ -105,7 +105,7 @@ Kevin and I went off on vacation with his family - we went to Hawaii I think in 
 
 So we got back and we had a board meeting I think in early March, and that's when we kind of presented to the board, like "Hey, this is kind of how we see the business. We don't really wanna ask to take more money at the same valuation as before. We would be signing up for 2-4 more years of grinding, just to get another round of financing... It would still not necessarily be that big of a business. We think we should find a buyer", and we just got a lot of support there and kicked off a process.
 
-I could talk more about the process, of course, but I think it's really important just to pause on the first part, which is the making the decision... Because I think there's the abstract idea of like "Hey, I should sell the company now, because I can't raise more money", but I think for me another big part was just actually being able to visualize life as not the CEO at Mattermark... Which was really different, and at first really scary, but then slowly became kind of compelling, too. It was like "Oh, I could, like, sleep, and I could not have \[unintelligible 00:23:22.15\]" and all these things... I just never really considered that I could set those burdens down. So I'll pause there... I know that was a bit of a long answer.
+I could talk more about the process, of course, but I think it's really important just to pause on the first part, which is the making the decision... Because I think there's the abstract idea of like "Hey, I should sell the company now, because I can't raise more money", but I think for me another big part was just actually being able to visualize life as not the CEO at Mattermark... Which was really different, and at first really scary, but then slowly became kind of compelling, too. It was like "Oh, I could, like, sleep, and I could not have to run HR." and all these things... I just never really considered that I could set those burdens down. So I'll pause there... I know that was a bit of a long answer.
 
 **Adam Stacoviak:** I think that's a good place to pause too, because -- again, I'm still learning this story, but it sounds like you've put a lot of effort into creating Mattermark. It was \[unintelligible 00:23:39.09\] passion project in lots of ways, that pivoted or not pivoted, based on--
 

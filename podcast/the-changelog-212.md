@@ -46,9 +46,9 @@ We had two sponsors for today's show, Rollbar and Compose.
 
 **Jerod Santo:** \[laughs\] Adam and I met on the internet just a few short years ago.
 
-**Adam Stacoviak:** How long did it take us to actually meet face-to-face?
+**Adam Stacoviak:** How long did it take us to actually meet face-to-face? Two years?
 
-**Jerod Santo:** I started helping out in early 2013, and the first time we met was at \[unintelligible 00:04:30.00\], wasn't that? In November 2015...?
+**Jerod Santo:** I started helping out in early 2013, and the first time we met was at Keep Ruby Weird, wasn't that? In November 2015...?
 
 **Adam Stacoviak:** 2014.
 
@@ -64,7 +64,7 @@ We had two sponsors for today's show, Rollbar and Compose.
 
 **Adam Stacoviak:** Oh, boy... Anyways...
 
-**Jerod Santo:** Well, thanks for the warm fuzzy \[unintelligible 00:04:54.04\]
+**Jerod Santo:** Well, thanks for the warm fuzzies, back to-
 
 **Adam Stacoviak:** \[laughs\] Back to Peter. Peter, we like to show the listeners the backstory of -- something like this coming to be is kind of figuring out where you came from. Help us understand what your backstory is. How did you get into programming?
 

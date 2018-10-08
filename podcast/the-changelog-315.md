@@ -6,7 +6,7 @@ The situation around Twitter was a little bit different at the time. It wasn't s
 
 I've been aware of the existence of federated social networks for a few years. Back in 2010 I think was the first I heard of them from a friend. We used to discuss that technology and we used to even post on Identi.ca, which was the federated network at the time (that's what it was called).
 
-Back in 2010 it was kind of a promising technology actually, because they had support from Google; Google was developing their own social network, which was the predecessor of Google+, and it was (I think) called Google Buzz. They actually had a hand in developing some of the protocols that were later used in Identi.ca, which was later renamed to StatusNet, which would later become GNU social.
+Back in 2010 it was kind of a promising technology actually, because they had support from Google; Google was developing their own social network, which was the predecessor of Google+, and it was, I think, called Google Buzz. They actually had a hand in developing some of the protocols that were later used in Identi.ca, which was later renamed to StatusNet, which would later become GNU social.
 
 \[00:04:08.07\] In March 2016 I just wanted to check, "Well, how is that GNU social thing doing right now?" I saw that it was still alive, but it obviously looked kind of awful visually... So I was like, "Yeah, I like using TweetDeck; I kind of wanna make an interface for it that works like TweetDeck, and that looks good, and maybe people will switch." But I didn't have any big ambitions about that; I just I'd make something that people who really used GNU social would just switch to. I wasn't expecting anyone from outside that circle to make a jump.
 
@@ -38,7 +38,7 @@ Then in November 2016 is when the interface was ready enough that I posted a lin
 
 **Adam Stacoviak:** Controls...
 
-**Eugen Rochko:** ...controls each one of them, or in the case of Facebook, controls two of them and a chat service - it always kind of bothered me. And certainly, I had that angle from before I even started Mastodon. I think for a few years before that I was thinking "Oh, Twitter should be public utility", except obviously my idea hasn't formed back then, and I was just thinking in terms of some kind of government control, and the server becomes a public \[unintelligible 00:10:42.01\] kind of like water pipes, you know?
+**Eugen Rochko:** ...controls each one of them, or in the case of Facebook, controls two of them and a chat service - it always kind of bothered me. And certainly, I had that angle from before I even started Mastodon. I think for a few years before that I was thinking "Oh, Twitter should be public utility", except obviously my idea hasn't formed back then, and I was just thinking in terms of some kind of government control, and the server becomes a public utility kind of like water pipes, you know?
 
 Then, obviously, that idea evolved, and I no longer think that's a very good idea, because governments owning large amounts of private data about citizens isn't really a good idea anymore, certainly not after -- which year was it when we got the Snowden revelations...? In any case...
 
@@ -46,7 +46,7 @@ Then, obviously, that idea evolved, and I no longer think that's a very good ide
 
 **Eugen Rochko:** Yeah, I was thinking about that time... I think the idea of multiple organizations and individuals owning in equal parts their independent servers that intercommunicate with each other is a lot better anyway; it scales a lot better, it works a lot better for self-determination... If there are servers in Germany, there are servers in France, and they can operate according to their own customers and values and laws - I think that's just a lot better than if just Twitter was owned by the U.S. government, god forbid.
 
-**Jerod Santo:** \[00:11:53.01\] Right. There's a lot of nuance in things at play here. You have Adam saying it is a utility - well, not in a governmental, political sense, it's not a utility. We're saying that it's very -- I think your word was "indispensible", which I think is a strong word... There are people who want it to be a utility - these things should be taken over; there's lots of ins and outs and what you about really the politics around these things, and definitely I think we can all agree - at least us three here on the call - that having a large amount of data and really broadcast ability in the hands of a few entities, whether those are public or private... Like you said, the U.S. government owning these things - maybe not any better than Twitter Inc. owning these things. Who knows...?
+**Jerod Santo:** \[00:11:53.01\] Right. There's a lot of nuance in things at play here. You have Adam saying it is a utility - well, not in a governmental, political sense, it's not a utility. We're saying that it's very -- I think your word was "indispensable", which I think is a strong word... There are people who want it to be a utility - these things should be taken over; there's lots of ins and outs and what you about really the politics around these things, and definitely I think we can all agree - at least us three here on the call - that having a large amount of data and really broadcast ability in the hands of a few entities, whether those are public or private... Like you said, the U.S. government owning these things - maybe not any better than Twitter Inc. owning these things. Who knows...?
 
 But this federated model that you're doing with Mastodon definitely is a response -- or not a response to that, but it answers a lot of the problems that singular control introduces. Now, it probably has its own problems, but...
 
@@ -148,7 +148,7 @@ If you want to be in kind of a safe space environment, you're gonna go and get o
 
 **Jerod Santo:** You're not cool, okay. \[laughter\] So there's some of that with like what is your e-mail address; it kind of signals to people what kind of person you are.
 
-**Adam Stacoviak:** It's \[unintelligible 00:27:54.15\]
+**Adam Stacoviak:** It's a label of sorts.
 
 **Jerod Santo:** But not so much as like "I hang out on this forum, or this BBS." That's a stronger association, so probably a bigger decision.
 
@@ -184,11 +184,11 @@ So definitely not a new problem, and definitely not a solved problem anywhere, s
 
 **Eugen Rochko:** It can be solved, yeah. It's not really -- I mean, the thing is you could really solve everything if you just use brute force... Like, "Okay, so I've got 40,000 posts on my account, and I've got 139,000 followers. Let me move to a different server!" If I wanted to, okay, go through every one of those 40,000 posts, re-download them on the new server, and go through 140,000 people and resubscribe them to the new account. I mean, it's possible; the only problem is that's a bit of a computationally-expensive operation, isn't it? That's the only real obstacle on the path there.
 
-**Jerod Santo:** \[00:32:11.06\] Yeah. Where it gets a little bit confusing for me - it makes sense as a new user, just sign up for Mastodon.social. I definitely understand where there would be people saying "Okay, now we're basically centralizing on this single instance. Potentially bad, especially if Eugene goes power-hungry and changes everything, or something." But then it's like "Okay, maybe I don't wanna do that. Maybe I wanna pick one", so here's another one, Mastodon.technology. This is just one that I've found; there's a little picker where you can through some of the instances... This Mastodon instance is for people interested in technology. Discussions aren't limited to technology, because tech folks shouldn't be limited to technology either... So it's not like I have to talk about technology if I join that instance, but it's for people who associate with technology - it seems like a pretty broad brush.
+**Jerod Santo:** \[00:32:11.06\] Yeah. Where it gets a little bit confusing for me - it makes sense as a new user, just sign up for Mastodon.social. I definitely understand where there would be people saying "Okay, now we're basically centralizing on this single instance. Potentially bad, especially if Eugene goes power-hungry and changes everything, or something." But then it's like "Okay, maybe I don't wanna do that. Maybe I wanna pick one", so here's another one, Mastodon.technology. This is just one that I've found; there's a little picker where you can through some of the instances... This Mastodon instance is for people interested in technology. Discussions aren't limited to technology, but because tech folks shouldn't be limited to technology either... So it's not like I have to talk about technology if I join that instance, but it's for people who associate with technology - it seems like a pretty broad brush.
 
 It just feels like such a big decision, like "Am I a tech folk?" \[laughs\]
 
-**Eugen Rochko:** There's an absolute freedom in how people can run their servers, so there's different types of ways that people define what their server is for. There's general purpose, like Mastodon.social or Octodon.social, where it's like -- there's no theme, there's no topic. You just sign up, you have an account, you talk to your friends.
+**Eugen Rochko:** There's an absolute freedom in how people can run their servers, so there's different types of ways that people define what their server is for. There's general purpose, like Mastodon.social or Octodon.social, where it's just like -- there's no theme, there's no topic. You just sign up, you have an account, you talk to your friends.
 
 But then there are ones that are like oh, this is for LGBT people, or this is for CyberPunk enthusiasts, or this is for Star Trek fans... But most of them actually don't say "Oh, you can only talk about Star Trek here." It's more like, "Oh, you just wanna hang out with Star Trek fans, but talk about your life." You're fine to do that.
 
@@ -204,13 +204,15 @@ But then there are ones that are like oh, this is for LGBT people, or this is fo
 
 **Eugen Rochko:** It's an interesting phenomenon that comes from one particular feature... Mastodon still has a firehose. I don't know if people would be familiar with the term, but Twitter used to have a public timeline, where every public post would appear, and they called it the firehose. They still call it the firehose, but it's a closed API nowadays.
 
-Mastodon does have that. There is a timeline of every public post, and you can filter that by "Posts from everyone" or "Posts by people on your server." That's where the whole topic thing comes into it, because you can look at posts just from your server, and so you get this kind of feeling of community, with your neighbors, and that's where the potential for hanging out with people with the same interests comes into it... Because you can see posts from people you're not following yet.
+**Jerod Santo:** Right.
+
+**Eugen Rochko:** So Mastodon does have that. There is a timeline of every public post, and you can filter that by "Posts from everyone" or "Posts by people on your server." That's where the whole topic thing comes into it, because you can look at posts just from your server, and so you get this kind of feeling of community, with your neighbors, and that's where the potential for hanging out with people with the same interests comes into it... Because you can see posts from people you're not following yet.
 
 **Jerod Santo:** \[00:36:05.26\] Gotcha.
 
 **Eugen Rochko:** It's kind of like a big chat room. But it's funny, because it's kind of an incidental feature; it wasn't really made for this, it was more like "Here's a timeline of everyone, just so you can find somebody to follow. Here's a way to filter it", and suddenly here's this whole thing where instances are created around specific topics.
 
-**Adam Stacoviak:** It kind of reminds me, Jerod, like, if we did one -- because I saw that there's a feature for organizations, which I'm sure we can go into a little deeper... But just thinking, so typically you may be a community, but then you might be an organization, and if we had a Mastodon instance, we would essentially be topical too, just by nature, right? We would be laser-focused on, say, a software developer's life, for example.
+**Adam Stacoviak:** It kind of reminds me, Jerod, like, if we did one -- because I saw that there's a feature for organizations, which I'm sure we can go into a little deeper... But just thinking, so typically you may be a community, but then you might be like an organization, and if we had a Mastodon instance, we would essentially be topical too, just by nature, right? We would be laser-focused on, say, a software developer's life, for example.
 
 Essentially, what our Slack community represents - if that became a Mastodon, we're essentially putting up a flag saying, "Hey, if this type of topic or community is of interest to you, here's your invitation. This is the kind of people you can expect to see here", not "You can only talk about this."
 
@@ -226,7 +228,7 @@ Essentially, what our Slack community represents - if that became a Mastodon, we
 
 **Jerod Santo:** \[laughs\]
 
-**Eugen Rochko:** But as I was saying, for organizations it's a big plus to run their own Mastodon, and this is because nobody except them can actually shut them out. They own their space, they own their social media megaphone. It's kind of an opportunity for a bit of branding as well, because if you host other people, they have your brand in their username, which can be an advantage...
+**Eugen Rochko:** But as I was saying, for organizations it's a big plus to run their own Mastodon instances because nobody except them can actually shut them out. They own their space, they own their social media megaphone. It's kind of an opportunity for a bit of branding as well, because if you host other people, they have your brand in their username, which can be an advantage...
 
 **Adam Stacoviak:** Yeah, that's true.
 
@@ -248,9 +250,9 @@ Essentially, what our Slack community represents - if that became a Mastodon, we
 
 **Jerod Santo:** Conceptually.
 
-**Eugen Rochko:** Yeah, pretty much. From the user's side you can decide "Oh, I don't wanna see anything from this domain", as a personal decision; that's step one. And on the administrational level, you have the ability to shut out posts from a specific server, or completely remove it from your database, so that there is zero interaction between them. That's what you would do if such a Ku Klux Klan would spring up.
+**Eugen Rochko:** Yeah, pretty much. From the user's side you can decide "Oh, I don't wanna see anything from this domain", as a personal decision; that's step one. And on the administrational level, you have the ability to shut out posts from a specific server, or completely remove it from your database, so that there is zero interaction between them. That's what you would do if such a Ku Klux Klan server would spring up.
 
-**Jerod Santo:** That's pretty cool, and that all makes sense. How about the moderation? You said each instance is individually owned and operated, so they have their own codes of conduct, their own moderators, their own rules of the game with regard to what kind of content you can be posting on that instance... But what about subscriptions? If I'm on Adam's Changelog instance as a user, and I subscribe to the Ku Klux Klan member - does Adam need to moderate that because it's on his instance, or is it only me that sees it anyways, and so it's kind of a mute point? How does that work?
+**Jerod Santo:** That's pretty cool, and that all makes sense. How about the moderation? You said each instance is individually owned and operated, so they have their own codes of conduct, their own moderators, their own rules of the game with regard to what kind of content you can be posting on that instance... But what about subscriptions? So, If I'm on Adam's Changelog instance as a user, and I subscribe to the Ku Klux Klan member - does Adam need to moderate that because it's on his instance, or is it only me that sees it anyways, and so it's kind of a mute point? How does that work?
 
 **Eugen Rochko:** There's different levels of moderation that are available here. On one hand, you could completely shut down, as I said, the Ku Klux Klan server from your side, so that you wouldn't be able to follow them. On the other hand, there is the other level - for something perhaps a bit less extreme, you could sandbox it, so people can still follow users from that server, but they just don't appear in the firehose view, and they cannot appear in notifications of people who don't follow them.
 
@@ -300,7 +302,7 @@ Mastodon has a principle - API first, and... Yeah, that's essentially it - API f
 
 We don't even try to do an official mobile app, because that sort of tends to allow you to create some kind of proprietary behavior that's only available in one app... So by always having third-party apps, we're like -- you know, we're working together with independent developers. A thing that's available to one is available to all others, so competition is possible.
 
-So yeah, there's Tusky for Android, there's Amaroq for iOS... There's apps in development for iOS; one is called Toot!.app, by \[unintelligible 00:46:34.12\] and I think the guy who developed Twitterrific is developing an app for Mastodon, but I don't know what the name of that is yet... So that's in the works.
+So yeah, there's Tusky for Android, there's Amaroq for iOS... There's apps in development for iOS; one is called Toot!.app, by Dag Ågren and I think the guy who developed Twitterrific is developing an app for Mastodon, but I don't know what the name of that is yet... So that's in the works.
 
 There's more. There's Subway Tooter, there is Tootdon, and probably more.
 
@@ -344,7 +346,7 @@ So when you decide to use Mastodon, you're not really just gambling on the succe
 
 Essentially, it's part of the design that eventually, years later maybe, some developer comes along and develops something that is 1,000 times better than Mastodon, but as long as it uses the same protocol, people can just switch smoothly, and rather than losing all of their social graph, their connections, their friends, they're still in the same network, and it's just like switching to a different account... And I think that's the strength of Mastodon, and its main ideological differentiator.
 
-**Adam Stacoviak:** Well, that's pretty important too, because if you take what Mastodon is and you wanna create your -- the question rather is like why fracture and have so many apps, and it sounds like that's an advantage, because I can make a Mastodon instance and I can create an application that gives my users \[unintelligible 00:55:22.11\] at large access to it, but I can also say "Hey, I intend to have a Vine-like experience, for those Vine lovers out there. We want it back, we need it, we want it." It gives you a chance to make your own, essentially, aside from maybe several technical hurdles, I'm sure, for bandwidth reasons and whatnot around video and that kind of stuff...
+**Adam Stacoviak:** Well, that's pretty important too, because if you take what Mastodon is and you wanna create your -- the question rather is like why fracture and have so many apps, and it sounds like that's an advantage, because I can make a Mastodon instance and I can create an application that gives my users or whatever Mastodon at large access to it, but I can also say "Hey, I intend to have a Vine-like experience, for those Vine lovers out there. We want it back, we need it, we want it." It gives you a chance to make your own, essentially, aside from maybe several technical hurdles, I'm sure, for bandwidth reasons and whatnot around video and that kind of stuff...
 
 Essentially, you give them the ability to do that and they can have their own instance, it's federated, all that good stuff, they have their own application, but somebody else could use the same application and connect their own Vine-like Mastodon instance.
 
@@ -466,7 +468,7 @@ Some people are okay with having volunteer moderators, and people are maybe will
 
 **Eugen Rochko:** No, you can absolutely do it; there's no problem with it.
 
-**Adam Stacoviak:** Fully managed Mastodon hosting - this is at masto.host. Interesting \[unintelligible 01:09:31.15\] your homepage for JoinMastodon.org.
+**Adam Stacoviak:** Fully managed Mastodon hosting - this is at masto.host. Interesting, so that's right on your homepage for JoinMastodon.org.
 
 Well, let's get to maybe a more colorful side, which is naming. The naming scheme of things is always kind of fun. Toot is what you call the object, the thing that you put out there. Twitter has tweets, Mastodon has toots. \[laughter\]
 
@@ -524,7 +526,7 @@ The other big thing is account migration. As we've been talking about, it's kind
 
 I think that's it... Other than that, it's really just improving the user interface and solving bugs etc. As for growth opportunities - well, I can never really predict that sort of thing. It's kind of weird, because I work on a new release for a very long time, I add some exciting new features... Then it comes out and it doesn't make a big splash, but then randomly, a few months later, nothing of note happens but there's a huge wave where 500,000 people join, and it has nothing to do with anything I've been doing. So you know, I can't really predict that... But let's hope for the best.
 
-**Adam Stacoviak:** What about getting started for developers? Anybody who is listening to this and they're like "You know what, I've got a community. I've got a Slack channel I've been kind of \[unintelligible 01:17:40.15\] about that has limited search, or it's not my data", or it could be anything else, whatever... And someone's like "I think I should start an instance." Is there a Getting Started document, or a guide that does this? I noticed in your GitHub profile you have a Vagrant instance; I'm assuming that's probably for some local VM development, or something like that... What's a good way for someone to get started on the hacker front of this?
+**Adam Stacoviak:** What about getting started for developers? Anybody who is listening to this and they're like "You know what, I've got a community. I've got a Slack channel I've been kind of PO-d about that has limited search, or it's not my data", or it could be anything else, whatever... And someone's like "I think I should start an instance." Is there a Getting Started document, or a guide that does this? I noticed in your GitHub profile you have a Vagrant instance; I'm assuming that's probably for some local VM development, or something like that... What's a good way for someone to get started on the hacker front of this?
 
 **Eugen Rochko:** Well, if you're familiar with Ruby on Rails, then you'll have a really easy time, because Mastodon is just a Ruby on Rails application. It follows the conventions as much as possible. Perhaps the service pattern that we're using is maybe a bit unconventional, but at the same time also not really new to Ruby developers, and I think it quite elegantly encapsulates complex logic into classes that can be reasonably found if you're looking for them.
 

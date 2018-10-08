@@ -8,7 +8,7 @@
 
 If you're a new speaker, we do the research to say "Hey, this person's contributing to this project and no one knows their name, but it doesn't mean they don't get to speak." So we try to pull people up and make sure that the voices of the community are being heard. That's the role of the program chair.
 
-**Jerod Santo:** So we're here on -- well, for us it's day one, but day three of the conference, the first day of sessions... Is your job done at this point? Is the pressure off and you're just enjoying the show, or you've still got a lot of \[unintelligible 00:03:14.29\]
+**Jerod Santo:** So we're here on -- well, for us it's day one, but day three of the conference, the first day of sessions... Is your job done at this point? Is the pressure off and you're just enjoying the show, or you've still got a lot of balls in the air.
 
 **Kelsey Hightower:** Well, for me it's like going around and seeing all the sponsors, seeing the people at The Changelog show up and making sure the community is right. I kind of focus on all the parts of the community. There's the business side of the community, there's the people that are here for the very first time, there are people here on diversity scholarships, there are people that are thinking about open source and this is like their first introduction to open source.
 
@@ -36,7 +36,7 @@ So there's some of that, and then you've also got some new projects... Like, all
 
 **Kelsey Hightower:** My first OSCON was probably 5-6 years ago, when it was in Portland. I remember walking in there like, "Wow, this is a BIG conference." A lot of big people there... You meet all these interesting people, and it felt different for me than any other conference where it was more about a product or a particular technology. I think of OSCON as like the GitHub of conferences - all the projects are here, not a lot of people trying to sell anything... People are trying to prove their value in their contributions. Here if you wanna show value you've gotta have contributions to talk about.
 
-And from there, just doing work in the community, I was invited to be a co-chair, which was an honor of itself. I've spoken at OSCON, I've given tutorials before, but \[unintelligible 00:06:32.10\] a chair to shape it for everyone else, for the same person that will have the same experience that I had six years ago.
+And from there, just doing work in the community, I was invited to be a co-chair, which was an honor of itself. I've spoken at OSCON, I've given tutorials before, but to get the oppotunity to be a chair to shape it for everyone else, for the same person that will have the same experience that I had six years ago.
 
 **Adam Stacoviak:** So having this history with it -- those who were not here today, listening to this show later on, what are they missing out on? What's a common misconception about this conference that someone's like "I'm not gonna fork over..." -- I don't know what the ticket is (about $1,000). So it's harder for individuals to afford it, it's easier for companies to sponsor it... So what's that misconception, what's the hurdle for people that aren't here? Why aren't they here and what are they missing out on?
 
@@ -108,7 +108,7 @@ I think a lot of people don't understand that part... That's why I do the live d
 
 **Jerod Santo:** Have you ever had one that just completely exploded on you?
 
-**Kelsey Hightower:** No, I didn't, and I think that's when I started to do them more. I got a little bit more confident. I was at one of the very first Kubernetes ones \[unintelligible 00:15:02.23\] around the 1.0 launch, and we were all in San Francisco. \[unintelligible 00:15:06.08\] and I met the core engineering team, and we were all there for the Kubernetes summit. I was doing this demo - it was smooth... I was actually doing it on my laptop. And then the networking switched, and all the VMs crashed, and I'm like almost out of time... I was like, "Anyone wanna see me finish this?" and they were like "Yeah!!!", because everyone was on the edge of their seats to see how this thing goes down. So I deleted the whole cluster and I built it back from scratch, walked it back up, and we got the whole thing done, and it was like "mic drop."
+**Kelsey Hightower:** No, I didn't, and I think that's when I started to do them more. I got a little bit more confident. I was at one of the very first Kubernetes ones where we were all getting around the 1.0 launch, and we were all in San Francisco. \[unintelligible 00:15:06.08\] and I met the core engineering team, and we were all there for the Kubernetes summit. I was doing this demo - it was smooth... I was actually doing it on my laptop. And then the networking switched, and all the VMs crashed, and I'm like almost out of time... I was like, "Anyone wanna see me finish this?" and they were like "Yeah!!!", because everyone was on the edge of their seats to see how this thing goes down. So I deleted the whole cluster and I built it back from scratch, walked it back up, and we got the whole thing done, and it was like "mic drop."
 
 Someone came up to me afterwards and was like "You did that on purpose, you were just trying to show off." I was like "Man, I'm sweating bricks, dude!" That was so dope, and then that told me that it's okay to mess up. What people come to see is you make it through it, and that's what gave me that confidence... "If that's the worst, then I'm good from here."
 
@@ -404,7 +404,7 @@ I talked a little bit about what that means for us to exist in a society that gl
 
 **Safia Abdalla:** Yeah... "Don't wanna compromise our brand..." \[laughter\]
 
-**Adam Stacoviak:** That's interesting though... To glorify the Mark Zuckerbergs but not the open source tools out there that enabled Mark to be Mark. Well, not Mark to be Mark, but \[unintelligible 00:37:25.11\]
+**Adam Stacoviak:** That's interesting though... To glorify the Mark Zuckerbergs but not the open source tools out there that enabled Mark to be Mark. Well, not Mark to be Mark, but Mark to be Mark of Facebook.
 
 **Jerod Santo:** Glorify that!
 
@@ -576,7 +576,7 @@ We also get a glimpse at a different side of GitHub... The side that Nadia and M
 
 **Adam Stacoviak:** Yeah. Moving on...
 
-**Jerod Santo:** Let's talk about the projects a little bit, because we were lucky enough to have a few of them on the show... Hospital Run, Mimic... \[unintelligible 00:48:16.28\]
+**Jerod Santo:** Let's talk about the projects a little bit, because we were lucky enough to have a few of them on the show... Hospital Run, Mimic... and that's it.
 
 **Adam Stacoviak:** We didn't talk about Open Collective here... But on the show, yeah.
 
@@ -632,7 +632,7 @@ We also get a glimpse at a different side of GitHub... The side that Nadia and M
 
 **Adam Stacoviak:** That was about two years ago roughly, right?
 
-**Mike McQuaid:** Yeah, and he spent a while almost like thinking about -- I mean, initially he moved to almost be like "I'm gonna get GitHub's open source projects in shape", and then it became more about the community and stuff like that. I think the real thing that probably gave a lot of people a wake-up call at GitHub was \[unintelligible 00:50:51.20\] last year, and just the impact of realizing that "Okay, there's a lot of people in our community who don't feel listened to. They don't feel like we're listening to their concerns." And also a realization of us internally, like, we almost don't have the relationships with these people. We maybe on an individual basis, but we don't as a company have any sort of formal way of having these communications.
+**Mike McQuaid:** Yeah, and he spent a while almost like thinking about -- I mean, initially he moved to almost be like "I'm gonna get GitHub's open source projects in shape", and then it became more about the community and stuff like that. I think the real thing that probably gave a lot of people a wake-up call at GitHub was GitHub like last year, and just the impact of realizing that "Okay, there's a lot of people in our community who don't feel listened to. They don't feel like we're listening to their concerns." And also a realization of us internally, like, we almost don't have the relationships with these people. We maybe on an individual basis, but we don't as a company have any sort of formal way of having these communications.
 
 When I speak to people as a GitHubber, if people had complaints with GitHub, I would say "Well, send a e-mail to support, and then that will get turned into a feature request", and I appreciate from most people's perspective that's a black box; they don't get any feedback from that. Our support team are great and they do e-mail people back when those features get implemented, but people have problems, and those problems aren't getting solved, and I feel like we now have more of a communication channel and more people who are dedicated to building those relationships as part of our job, so that we can make GitHub better for those people.
 
@@ -650,7 +650,7 @@ When I speak to people as a GitHubber, if people had complaints with GitHub, I w
 
 **Adam Stacoviak:** Anything on the horizon you can mention that's like so close...? Considering this is gonna come out in a couple weeks, what can you share?
 
-**Nadia Eghbal:** I don't wanna \[unintelligible 00:52:43.03\] \[laughter\]
+**Nadia Eghbal:** I don't wanna f*** up \[laughter\]
 
 **Adam Stacoviak:** So close...
 
@@ -658,7 +658,7 @@ When I speak to people as a GitHubber, if people had complaints with GitHub, I w
 
 **Nadia Eghbal:** Nice try, Adam, but... Yeah. I mean, one thing that's changing too just about the way that we're unrolling some of these things is -- our team has worked harder this year to establish these formal relationships with open source maintainers and some of our biggest fans on GitHub; instead of it being these individual relationships, making it so that they feel like they can talk to GitHub. So as we're releasing these new product features and stuff, we're actively talking to those maintainers and getting feedback from them, and involving them in the process.
 
-**Adam Stacoviak:** The feedback \[unintelligible 00:53:15.27\]
+**Adam Stacoviak:** The feedback moves closer.
 
 **Nadia Eghbal:** Yeah, totally. That's something I'm really proud of.
 

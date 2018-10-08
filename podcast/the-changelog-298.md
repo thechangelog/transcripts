@@ -70,7 +70,7 @@ I think there was always energy there, but it was just a strong mantra of like, 
 
 **Jerod Santo:** To get that stat, like "We're gonna be the number one!"
 
-**Julia White:** We didn't. We didn't say "Hey, we're gonna be number one!" We really didn't. I mean, to me, it's one of those moments where you're like "Well, it's not something we're faking, or trying to make it in. It just happened. It literally just happened. \[unintelligible 00:07:22.21\] hey everyone (thousands of developers), go forth and do what makes you successful internally", and this is where we got to in terms of the contributions. It's amazing -- to me, that's like a true indicator of change. Satya set out to do it a few years back, and it actually happened, when you see that kind of stat.
+**Julia White:** We didn't. We didn't say "Hey, we're gonna be number one!" We really didn't. I mean, to me, it's one of those moments where you're like "Well, it's not something we're faking, or trying to make it in. It just happened. It literally just happened. In terms of hey everyone (thousands of developers), go forth and do what makes you successful internally", and this is where we got to in terms of the contributions. It's amazing -- to me, that's like a true indicator of change. Satya set out to do it a few years back, and it actually happened, when you see that kind of stat.
 
 **Jerod Santo:** One of the things that I've been thinking about with regards to Microsoft's (we'll just call it) success in open source is that open source, the mindset - and it's an idealistic mindset that we realized doesn't exist in reality, but there's this meritocracy to it, where it's like "May the best code win" or "Let the cream rise to the top", and on our best days you can't market, or you can't shove, or you can't do anything except for like show up with your software, to get the respect that people earn through open source efforts.
 
@@ -80,7 +80,7 @@ I think there was always energy there, but it was just a strong mantra of like, 
 
 **Julia White:** Totally. People are like, "I don't understand this community and how it works", and I always start with exactly your point of "It's absolutely earned. You can't buy your way into it, you can't relationship your way in..." You just earn it, which I love; at some level it's just so true, and authentic... But yeah, it is absolutely earned. And it takes time. It's taken a long time, but that's okay... We're in, we're doing this thing. We're committed.
 
-\[unintelligible 00:09:00.18\] of course we look at other clouds out there, and I actually think we're in a weird, crazy and ironic way being more open source friendly than the alternatives... Which is like "How did we become the best in class?" \[laughs\] ...someone who's been around this long; it's interesting. But I love it, I'm like "Let's go forward and just blow everyone's minds."
+I mean what I love absolutely is of course we look at other clouds out there, and I actually think we're in a weird, crazy and ironic way being more open source friendly than the alternatives... Which is like "How did we become the best in class?" \[laughs\] ...someone who's been around this long; it's interesting. But I love it, I'm like "Let's go forward and just blow everyone's minds."
 
 **Adam Stacoviak:** Anything unexpected coming up for open source? Like, anything that's Windows, or anything that's like-- \[laughter\]
 
@@ -110,7 +110,7 @@ Interestingly though, in the pivot of like "How much do we support Linux? What d
 
 **Adam Stacoviak:** Anything you can share, your perspective. You've been a co-presenter with him, you've been here for a very long time, corporate vice-president...
 
-**Julia White:** I made him improve his style. \[unintelligible 00:11:14.28\]
+**Julia White:** I made him improve his style. I want to make sure I get some points for that.
 
 **Adam Stacoviak:** Well, the jacket... Did you end up getting a Twitter handle for the jacket?
 
@@ -136,7 +136,7 @@ Interestingly though, in the pivot of like "How much do we support Linux? What d
 
 **Julia White:** I know, I had no idea it was --
 
-**Jerod Santo:** This could be like the best purchase ever \[unintelligible 00:11:46.29\]
+**Jerod Santo:** This could be like the best purchase ever. I did not think that you will buy a nice jacket.
 
 **Julia White:** Right?! Someone was like "You need to put that thing in the Microsoft museum. You made Microsoft history with your jacket!" So literally for like two years after that wonderful presentation, everyone's like "I don't know who you are, but I know you've got a good jacket! I know you and your jacket."
 
@@ -313,7 +313,7 @@ I remember they came to me and they were like "How are we gonna do customer supp
 
 **Jerod Santo:** I agree, yeah.
 
-**Julia White:** These cloud services is where the world is going, it's unquestionable -- and because it's a better model. There's so much \[unintelligible 00:29:24.14\] I wanna make clear when I say that - we have a clear worldview about the cloud in Edge; we talk about hybrid cloud - intelligent cloud/intelligent edge is another flavor of that, essentially, where the edge is not just your data center, your edge is this distributed thing. So when I say the world is going to a cloud model, that means the approach, not necessarily every piece of code will sit \[unintelligible 00:29:45.02\]
+**Julia White:** These cloud services is where the world is going, it's unquestionable -- and because it's a better model. There's so much truth to it. I wanna make clear when I say that - we have a clear worldview about the cloud in Edge; we talk about hybrid cloud - intelligent cloud/intelligent edge is another flavor of that, essentially, where the edge is not just your data center, your edge is this distributed thing. So when I say the world is going to a cloud model, that means the approach, not necessarily every piece of code will sit on the public cloud.
 
 **Adam Stacoviak:** Right. It's involved, yeah.
 
@@ -331,7 +331,7 @@ I remember they came to me and they were like "How are we gonna do customer supp
 
 **Jerod Santo:** \[00:31:49.29\] ...so I suspect we live very different lives. I'm thinking about your work life, what it means to be corporate vice-president, and I was just thinking you have to have worlds of insight into leadership, into getting things done, pushing the ball forward... Can you share with us stuff that you've learned through the years about how to inspire people to do what they're doing and how to push the ball forward at Microsoft?
 
-**Julia White:** We've all got an opinion, so I'm happy to give you mine, from the wisdom that I've gleaned over these years... First of all, as a leader I think authenticity is so core to everything, and I think other human beings smell bull\*\*\*t (can I say that?). I have a bit of \[unintelligible 00:32:29.13\] so I've gotta check myself. No, but human beings smell that; if you don't feel like that leader is being authentic and true to you, and brave, even though they don't know all the answers, people waver... So I think that's so, so important, staying super authentic to who you are and what you believe, and getting people to follow you and wanna work with you and be with you and take these crazy risks with you... So that's super essential.
+**Julia White:** We've all got an opinion, so I'm happy to give you mine, from the wisdom that I've gleaned over these years... First of all, as a leader I think authenticity is so core to everything, and I think other human beings smell bull\*\*\*t (can I say that?). I have a bit of potty mouth so I've gotta check myself. No, but human beings smell that; if you don't feel like that leader is being authentic and true to you, and brave, even though they don't know all the answers, people waver... So I think that's so, so important, staying super authentic to who you are and what you believe, and getting people to follow you and wanna work with you and be with you and take these crazy risks with you... So that's super essential.
 
 I think as a leader in tech particularly, you constantly have to be questioning everything you've done. Just because it worked last year doesn't mean it's gonna work next year... And that uncomfortable push of changing all the time. You know, human beings don't love change; it's caused us to survive all these years, being risk-averse... But that absolutely destroys you in technology, so having the willingness to be like "I know we did everything like that last year, but we're gonna change it all next year." Everyone's like, "Ugh...!", and there's so much resistance in the system...
 
@@ -341,7 +341,7 @@ I talk to teams on things like "Change doesn't feel good, but it doesn't mean it
 
 **Jerod Santo:** How can you detect that? Is it always in retrospect? How do you know when the resistance is because we're wrong, versus the resistance is because there's change?
 
-**Julia White:** Because \[unintelligible 00:34:24.21\] if you're like "I'm always right, everyone's always wrong!" and I just jam my ideas on them.
+**Julia White:** Because you quickly become tone deaf if you're like "I'm always right, everyone's always wrong!" and I just jam my ideas on them.
 
 **Jerod Santo:** Exactly, exactly!
 
@@ -405,7 +405,7 @@ I talk to teams on things like "Change doesn't feel good, but it doesn't mean it
 
 **Jerod Santo:** I like that, too.
 
-**Julia White:** See? And you can remember it, too. It breaks it all down. Because there's like 65 wheels of leadership, blah-blah-blah; I can't remember that \[unintelligible 00:37:24.27\]
+**Julia White:** See? And you can remember it, too. It breaks it all down. Because there's like 65 wheels of leadership, blah-blah-blah; I can't remember that crap.
 
 **Adam Stacoviak:** "Give me three!"
 
@@ -435,7 +435,7 @@ I talk to teams on things like "Change doesn't feel good, but it doesn't mean it
 
 **Adam Stacoviak:** What's a day like in your day?
 
-**Julia White:** Never the same, I would say. Where I spend my energy is essentially making sure that people have the right direction, and then I'm getting obstacles out of their way. Like, "This is where we've gotta go. What do we need to get it done?" And some days \[unintelligible 00:38:36.01\] sit down and write something or build something... But it's about making sure that the direction we have set is moving forward smoothly, whether that's reviewing something, or approving something, or authorizing something, or giving feedback, or tackling a blocker... That's kind of how I spend my time.
+**Julia White:** Never the same, I would say. Where I spend my energy is essentially making sure that people have the right direction, and then I'm getting obstacles out of their way. Like, "This is where we've gotta go. What do we need to get it done?" And some days that I can sit down and write something or build something... But it's about making sure that the direction we have set is moving forward smoothly, whether that's reviewing something, or approving something, or authorizing something, or giving feedback, or tackling a blocker... That's kind of how I spend my time.
 
 **Adam Stacoviak:** That's fun, right? Tackling blockers...
 
@@ -451,7 +451,7 @@ I talk to teams on things like "Change doesn't feel good, but it doesn't mean it
 
 **Adam Stacoviak:** And how maybe it was strategic in leadership.
 
-**Julia White:** You know, it's super recent, so let me pick it, because it's super recent and on top of mind... So we announced here Project Kinect for Azure, basically bringing the technology that was in the Kinect Sensor that we launched with Xbox, and \[unintelligible 00:39:31.03\] and now essentially connected it with Azure AI services to create a new, very intelligent edge with this incredible depth sensor. So we made the decision, we're gonna announce this, we're gonna do this thing, and we're gonna be part of the Azure family. Previously it was over in the Xbox team, and from the Xbox perspective they had sunsetted the product...
+**Julia White:** You know, it's super recent, so let me pick it, because it's super recent and on top of mind... So we announced here Project Kinect for Azure, basically bringing the technology that was in the Kinect Sensor that we launched with Xbox, and into the Hololens and now essentially connected it with Azure AI services to create a new, very intelligent edge with this incredible depth sensor. So we made the decision, we're gonna announce this, we're gonna do this thing, and we're gonna be part of the Azure family. Previously it was over in the Xbox team, and from the Xbox perspective they had sunsetted the product...
 
 **Jerod Santo:** Right.
 
@@ -459,7 +459,7 @@ I talk to teams on things like "Change doesn't feel good, but it doesn't mean it
 
 **Jerod Santo:** There's a lot of technology sitting in that thing, right?
 
-**Julia White:** \[00:40:03.14\] Yeah, like unbelievable, right? But then, if you were from the Xbox team, you just made the decision to end-of-life this thing, and now you're onto different pastures, and we \[unintelligible 00:40:12.27\] So there was this incredible resistance to this idea of how we do this, and why, and when, and was it gonna feel like we're just bringing something back, and all these things... So we really had to a) provide clarity of like "What is this about?" and "What you believed this tech was for before - it's about a whole new thing." Yes, it's the same tech, but a totally new use case, and a different approach, and a different way... So just getting everyone, kind of top-down, when everyone came up like "Oh my god, this is ridiculous, this is crazy!" Like, no, no, let me explain why it's not... I spent some time making sure they understand the vision for the future.
+**Julia White:** \[00:40:03.14\] Yeah, like unbelievable, right? But then, if you were from the Xbox team, you just made the decision to end-of-life this thing, and now you're onto different pastures, and we work with people to move on. So there was this incredible resistance to this idea of how we do this, and why, and when, and was it gonna feel like we're just bringing something back, and all these things... So we really had to a) provide clarity of like "What is this about?" and "What you believed this tech was for before - it's about a whole new thing." Yes, it's the same tech, but a totally new use case, and a different approach, and a different way... So just getting everyone, kind of top-down, when everyone came up like "Oh my god, this is ridiculous, this is crazy!" Like, no, no, let me explain why it's not... I spent some time making sure they understand the vision for the future.
 
 And then also really listen to -- like, I didn't know the history, so I had to be like "What was this? Tell me. I don't wanna do the same things again. I don't wanna step into a big doo-doo."
 
@@ -509,7 +509,7 @@ So the edge is gonna become maybe just as powerful as a data center, but a far m
 
 **Jerod Santo:** Oh, a world developer... So I think I understand intelligent edge a little better now that you've explained it, because I'm likening it to kind of the move away from mainframes with dumb terminals, to more of a -- still a client-server model in the traditional sense, but now you have the fit clients, right? So the idea is our edge points - that button in your house, or that thing in your fridge is not going to be a sensor that's just sending data, which is what they've kind of been so far...
 
-**Julia White:** Yes, they've been dumb edges. \[unintelligible 00:46:09.29\] largely disconnected and not dumb edge.
+**Julia White:** Yes, they've been dumb edges. Small and largely disconnected and not dumb edge.
 
 **Jerod Santo:** Right. So now the idea is like "Now let's actually move - similarly with fit client architecture - that intelligence into the edge." Of course, still the cloud is where the bulk of the work will be -- or maybe the source of truth is, but there's lots we can in these devices; of course, smartphones is the number one example of like a very fit client, a very smart edge.
 

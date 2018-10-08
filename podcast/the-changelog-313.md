@@ -4,17 +4,19 @@
 
 **Jerod Santo:** Nice to meet you, too. Well, let's get to know you a little bit, Paul, and your background, and what brings you to be the CTO and co-founder of WSO2.
 
-**Paul Fremantle:** \[00:03:56.26\] I grew up a complete geek. I had a ZX80 as soon it came out, when I was 12; I badgered my parents. My birthday is just near Christmas, and I got them to buy me the computer \[unintelligible 00:04:10.09\] birthday, Christmas and all my savings put together.
+**Paul Fremantle:** \[00:03:56.26\] I grew up a complete geek. I had a ZX80 as soon it came out, when I was 12; I badgered my parents. My birthday is just near Christmas, and I got them to buy me the computer as a joint birthday, Christmas and all my savings put together.
 
 **Jerod Santo:** Now, do you get double presents around Christmas time because of that, or do you get a lack of presents?
 
 **Paul Fremantle:** I would always try and kind of wangle a big present. I would say "Look, I'm gonna join them together. Give me the best you can."
 
-**Jerod Santo:** I like that angle. It seems to have worked. Yeah, because otherwise you just end up with like a good one for your birthday, and then three weeks later they've got no ideas and they give you a useless one, so... So there we go.
+**Jerod Santo:** I like that angle. It seems to have worked.
+
+**Paul Fremantle:** Yeah, because otherwise you just end up with like a good one for your birthday, and then three weeks later they've got no ideas and they give you a useless one, so... So there we go.
 
 So I kind of grew up as a massive geek, and programming - I guess I've programmed in 20 different languages... And I ended up joining IBM kind of in the '90s, working on internet stuff, and security, firewall, a bit of web design... All sorts of kind of webby things.
 
-And then I joined a group just when dynamic web applications were first coming out, and people needed software... And we created some of the early software to do that, using Java around servlets, long before it was called \[unintelligible 00:05:20.25\] And then I got into helping people build web systems... And just at the end of the '90s, beginning of 2000, I came across XML, and I suddenly started getting into distributed computing, and stuff... And integration, and how you connect different systems together. That led into something called service-oriented architecture.
+And then I joined a group just when dynamic web applications were first coming out, and people needed software... And we created some of the early software to do that, using Java around servlets, long before it was called web server express. And then I got into helping people build web systems... And just at the end of the '90s, beginning of 2000, I came across XML, and I suddenly started getting into distributed computing, and stuff... And integration, and how you connect different systems together. That led into something called service-oriented architecture.
 
 In 2005 I and another guy at IBM were really into SOA and web services and distributed systems, and we were building those at IBM and we realized that actually there was an opportunity to do something in open source, and to set up a company. So we set up WSO2 back in August 2005, so we are as of about two weeks ago officially teenagers; the company is 13 years old, so...
 
@@ -112,7 +114,7 @@ That's a luxury that I guess not many companies have, but it was a nice luxury f
 
 **Jerod Santo:** So were you one of those people? I mean, CTO - probably not. You've probably got other things to do.
 
-**Paul Fremantle:** I wasn't one of these people, and I regret that. I regret that. But you know, even sort of being a side player on this has been really fun. I don't take a lot of credit for this. I'm just the mouthpiece that gets to talk about it, really... But it's still an exciting initiative, and it's kind of really exciting for me, because I always -- you know, I love programming; I really am not a great programmer \[unintelligible 00:28:12.28\]
+**Paul Fremantle:** I wasn't one of these people, and I regret that. I regret that. But you know, even sort of being a side player on this has been really fun. I don't take a lot of credit for this. I'm just the mouthpiece that gets to talk about it, really... But it's still an exciting initiative, and it's kind of really exciting for me, because I always -- you know, I love programming; I really am not a great programmer, to be honest. I shouldn't be telling you that \[laughter\].
 
 **Jerod Santo:** \[00:28:16.00\] Why not?
 
@@ -248,7 +250,7 @@ So what's missing? You know, I don't think there's anything really major missing
 
 So I think we want to get to the point where we think this is really a robust, resilient foundation for the future, and we're not quite there yet. Every time you make a nice tweak and you tidy it up a bit, you think "Well, hey, what if we did that there?"
 
-\[00:52:12.21\] The union type system that I was talking about earlier - a really good example of this is when you have JSON and XML built in. Now, you can just think of JSON as being a union of different things. JSON is either a string, or an int, or an array, or another JSON. So we \[unintelligible 00:52:37.04\] we're like "Oh, we could rebuild our JSON support just as a union type of other stuff."
+\[00:52:12.21\] The union type system that I was talking about earlier - a really good example of this is when you have JSON and XML built in. Now, you can just think of JSON as being a union of different things. JSON is either a string, or an int, or an array, or another JSON. So we put in this union type system and we're like "Oh, we could rebuild our JSON support just as a union type of other stuff."
 
 **Jerod Santo:** Yeah.
 
@@ -326,7 +328,7 @@ The way we do it is we basically create open Google Docs, and we use them to doc
 
 **Jerod Santo:** Nice.
 
-**Paul Fremantle:** So we're gonna be doing more of those, so keep an eye out on Ballerina.io. And the other thing I guess I'd like to say is that we do run regular webinars from the Ballerina team often with other partners, talking about how we fit into build systems like Codefresh, into observability like Jaeger and Prometheus, into \[unintelligible 01:10:56.29\] and Honeycomb, into all sorts of stuff... So come along and sign up to our mailing list and you'll get notifications for all those.
+**Paul Fremantle:** So we're gonna be doing more of those, so keep an eye out on Ballerina.io. And the other thing I guess I'd like to say is that we do run regular webinars from the Ballerina team often with other partners, talking about how we fit into build systems like Codefresh, into observability like Jaeger and Prometheus and Honeycomb, into all sorts of stuff... So come along and sign up to our mailing list and you'll get notifications for all those.
 
 **Jerod Santo:** Very good. Well, this has been a joy, Paul. Thanks so much for joining us.
 

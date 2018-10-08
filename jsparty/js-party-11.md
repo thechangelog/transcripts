@@ -122,7 +122,7 @@ So there will be a way for you to say like "This one's not a module. This is my 
 
 **Mike Taylor:** Amazing.
 
-**Alex Sexton:** One interesting thing that I guess I didn't really consider until now - and I may be considering it incorrectly... Whenever they did the modules back in TC39, there are things about modules that are true that they \[unintelligible 00:10:56.25\] and if you're using a module, that must mean you're using new Javascript, which means that they can make different defaults to the language while you're in a module, if that makes sense. So they assume that since you're in a module, you must be in strict mode. I believe that's the case.
+**Alex Sexton:** One interesting thing that I guess I didn't really consider until now - and I may be considering it incorrectly... Whenever they did the modules back in TC39, there are things about modules that are true that they were able to like, since modules are new, and if you're using a module, that must mean you're using new Javascript, which means that they can make different defaults to the language while you're in a module, if that makes sense. So they assume that since you're in a module, you must be in strict mode. I believe that's the case.
 
 So this would be the first time - since this is the first native implementation of modules anywhere - that that is enforced, versus just...
 
@@ -144,7 +144,7 @@ Let's talk about... Mike, you work on low compatibility; it's kind of similar to
 
 So with that being one of the guiding principles of what Mozilla does, we obviously want the internet to work in Firefox, but we also want the web to work in Chrome, in Edge, in XYZ, Opera Mini etc. So I think by the nature of what it is that we do, we collaborate a lot with other vendors.
 
-This morning I was on a call with some of the good people at Google who work on the platform predictability team. Rick Byers is one, \[unintelligible 00:15:31.12\] another, who used to be at Opera... And we were talking about ways we can collaborate and understand what are the pain points in the platform where things -- you know, like "Is this something that Chrome is not following the spec, but lots of web pages depend on? So what are the solutions there? Is Google willing to break that to move towards a standard, or should we change the standards to move towards reality?"
+This morning I was on a call with some of the good people at Google who work on the platform predictability team. Rick Byers is one, Philip Jägenstedt another, who used to be at Opera... And we were talking about ways we can collaborate and understand what are the pain points in the platform where things -- you know, like "Is this something that Chrome is not following the spec, but lots of web pages depend on? So what are the solutions there? Is Google willing to break that to move towards a standard, or should we change the standards to move towards reality?"
 
 **Alex Sexton:** That's what happens... That's kind of the default answer, usually. Especially with very old Internet Explorer stuff, it seemed like half of HTML5 was us just standardizing internet for...
 
@@ -152,7 +152,7 @@ This morning I was on a call with some of the good people at Google who work on 
 
 **Alex Sexton:** Is it still the case?
 
-**Mike Taylor:** \[00:16:11.06\] It's often the case. A lot of the work I've been doing in the past year and a half, two years is just standardizing what I call "the de facto web". So you've got the web that you were promised, or the web that was written in specs \[unintelligible 00:16:28.02\] and others said "Code to web standards, and it will work everywhere." And then you've got the reality, which is, you know, like Apple came out with some really cool advanced CSS features years ago... Five, six, seven, eight years ago they had masks and gradients and reflections and all this cool stuff that you just couldn't do anywhere else... So of course designers and developers wanna experiment, they wanna put that in their products, and what happens over time is Apple didn't do such a great job at actually moving those things towards standards bodies, but it worked in browsers, and then we know Chrome came to be and they ended up using WebKit, and then they forked to Blink and inherited all this code.
+**Mike Taylor:** \[00:16:11.06\] It's often the case. A lot of the work I've been doing in the past year and a half, two years is just standardizing what I call "the de facto web". So you've got the web that you were promised, or the web that was written in specs and, you know, like people like Zeldman and others said "Code to web standards, and it will work everywhere." And then you've got the reality, which is, you know, like Apple came out with some really cool advanced CSS features years ago... Five, six, seven, eight years ago they had masks and gradients and reflections and all this cool stuff that you just couldn't do anywhere else... So of course designers and developers wanna experiment, they wanna put that in their products, and what happens over time is Apple didn't do such a great job at actually moving those things towards standards bodies, but it worked in browsers, and then we know Chrome came to be and they ended up using WebKit, and then they forked to Blink and inherited all this code.
 
 So basically, the internet depends on this one feature, so you can either pretend, or get really upset, like "Oh, it's non-standard." You can care about that, or you can just say like "You know what? This is part of the web and it has a crappy name... That crappy name happens to just start with -webkit, so let's create a spec for it and let's get all the browsers to implement it, and then it just works."
 
@@ -160,9 +160,9 @@ At the same time, that kind of stuff kind of ruffles feathers. People are not en
 
 To circle back, you were hinting at this... There's an expression, "Pave the cow paths." I'm not sure if everyone's ever heard that with respect to standards or just like path-paving in general - I don't know if that's a profession.
 
-**Alex Sexton:** I \[unintelligible 00:18:24.20\] editor of the HTML5 specs default response, like his autoresponder on his e-mail is just "We're actually just standardizing the way things have always been, not designing a new thing." That seemed like his answer to a lot of things, which is fair, but often frustrating.
+**Alex Sexton:** I always assumed that Ian Hickson the editor of the HTML5 specs default response, like his autoresponder on his e-mail is just "We're actually just standardizing the way things have always been, not designing a new thing." That seemed like his answer to a lot of things, which is fair, but often frustrating.
 
-**Mike Taylor:** Yeah. I mean, that's why Dragon Drop is so terrible, for example, right? It's like, "Well, IE3 did this, and then Safari 2 copied it, so we might as well make everyone else do it", and then nobody uses it.
+**Mike Taylor:** Yeah. I mean, that's why drag and drop is so terrible, for example, right? It's like, "Well, IE3 did this, and then Safari 2 copied it, so we might as well make everyone else do it", and then nobody uses it.
 
 So paving the cow path is this notion that like, you know, all these cows walked this way, so that's obviously the optimal solution, so you wanna lay down some asphalt on that. So that's kind of one aspect of this work.
 
@@ -282,7 +282,7 @@ Later, when I was in college, I was 22 years old or something, I was at my buddy
 
 **Alex Sexton:** It was a challenge from Karl... "Don't tell me what I can't do."
 
-**Mike Taylor:** \[unintelligible 00:32:05.02\] spite-driven development.
+**Mike Taylor:** You kid! It was spite-driven development.
 
 **Alex Sexton:** \[00:32:08.29\] Exactly.
 
@@ -314,7 +314,7 @@ So Prepack will go through and it will do that operation for you beforehand, so 
 
 Long story short, I was thinking about this... I've spent years in college in syntax classes, and our homework was basically like "Here's a sentence. Now write an AST for this sentence using Chomsky's minimalist syntax, whatever... So it was a lot of drawing trees and doing grammar transformation, so I think that logical education definitely helped understand programming, and it's probably helped with spec writing; you have to be really algorithmic. I'm terrible at everything I do, but it's not so foreign as you might imagine if you have that kind of background.
 
-**Alex Sexton:** \[00:36:14.25\] That's nifty. I guess it sounds weird, but you were talking about Prepack, and we're talking a little bit about news... There was a thing that came out this week called Interface Lovers, \[unintelligible 00:36:25.21\] is a dev out of New York. It's InterfaceLovers.com. It's interviews kind of like what we're talking about, on just great designers from different backgrounds on "Where do you come from? How did you get into design?" It's more design-focused than Javascript-focused, but I thought it would be interesting from a perspective of most Javascript developers care at least somewhat about the interface design and UX. I just wanted to give it a shoutout, since this was kind of relevant to the things we were talking about here.
+**Alex Sexton:** \[00:36:14.25\] That's nifty. I guess it sounds weird, but you were talking about Prepack, and we're talking a little bit about news... There was a thing that came out this week called Interface Lovers, Ekechukwu is a friend of the podcast, Iheanyi is a dev out of New York. It's InterfaceLovers.com. It's interviews kind of like what we're talking about, on just great designers from different backgrounds on "Where do you come from? How did you get into design?" It's more design-focused than Javascript-focused, but I thought it would be interesting from a perspective of most Javascript developers care at least somewhat about the interface design and UX. I just wanted to give it a shoutout, since this was kind of relevant to the things we were talking about here.
 
 I think we may land a plane and go into another break here, but we'll be back with some more from Wes after this, since he's a little bit too polite to interrupt Mike and I.
 
@@ -326,7 +326,11 @@ I think we may land a plane and go into another break here, but we'll be back wi
 
 For the record, Mike, Wes and I all go back to the days of the jQuery IRC channel from 2009-2010 area. We were all helpers in that channel back when that was cool, and we know each other from conferences. So before Wes became massively famous and successful doing tutorials, I knew him as a person who helped newbs in the jQuery IRC channel.
 
-**Wes Bos:** Yeah. Or I was asking for help myself. \[unintelligible 00:39:00.19\]
+**Wes Bos:** Yeah. Or I was asking for help myself. What a nightmare! Already! Work!
+
+**Mike Taylor:** Nobody knows.
+
+**Wes Bos:** Nobody knows.
 
 **Alex Sexton:** So tell us a little bit about the stuff you've been putting out, and I'll ask you some more questions about techniques and stuff.
 
@@ -386,7 +390,7 @@ The other thing that is interesting is that React kind of moves quickly. How do 
 
 It's not for absolutely everybody; I think that there's a certain type of person that you need to be in order to make a bootcamp work for you, but I'm definitely a big fan of them. And I don't just say that because I run one; I actually think that. I've seen hundreds and hundreds of people come out of it, both from the HackerYou one, as well as other people I talk to that take my course, and they're all in really good shape.
 
-**Alex Sexton:** I guess that's kind of the next question that I'm interested in. My feeling is that you \[unintelligible 00:46:48.00\], and I don't think this is the case with HackerYou, but I think the average pitch for these courses is -- there's a huge lack of available programmers, and because of that, you can come in and learn everything you need to learn by doing this extensive ten-hour day course for ten weeks, and pay these thousands of dollars, and then immediately when you leave, you'll make a six-figure salary.
+**Alex Sexton:** I guess that's kind of the next question that I'm interested in. My feeling is that the way that, and I don't think this is the case with HackerYou, but I think the average pitch for these courses is -- there's a huge lack of available programmers, and because of that, you can come in and learn everything you need to learn by doing this extensive ten-hour day course for ten weeks, and pay these thousands of dollars, and then immediately when you leave, you'll make a six-figure salary.
 
 I think they are very responsible, and I think HackerYou definitely falls into this category of more responsible -- and I don't even necessarily disagree with the idea behind that, which is definitely there's a need for programmers... Honestly, I find that the need for programmers should more be stated "There's a need for senior programmers." I personally don't think people hire nearly enough junior programmers, but how do you find the transition out of the school? My gut is that it's actually more like you can go become an intern at a company and then you can turn that into a job if you do well, and then three years later you can have the hundred thousand dollar salary - which is still great, but I'm interested in how the bootcamp that you see typically translates into being able to get a job, being able to get a high salary, or what the pathway is to that.
 
@@ -408,7 +412,7 @@ That's generally how it is - you can get a paying job right out of the gate if y
 
 So yeah, a huge push for diversity, and I think it's great to see that sort of stuff, an increase in diversity in the industry.
 
-**Alex Sexton:** \[00:52:24.28\] Yeah. And I know we're three white guys on a podcast \[unintelligible 00:52:28.02\] so we should get Heather on the show sometime for sure, because she has a lot of very interesting, good input on all this stuff. But the focus at these bootcamps on diversity seems very important and good, because a lot of times it is absolutely not the case that this is the only problem, but your pipeline is part of the problem; the pipeline of available engineers who exist is not a great pipeline, as well as the industry does not have favorable conditions for diverse members of our community. But if we can get these kind of quicker starts, it seems like a faster fix than going -- which we should actively still do; we should do the slow fix, but also the fast fix.
+**Alex Sexton:** \[00:52:24.28\] Yeah. And I know we're three white guys on a podcast talking about diversity so we should get Heather on the show sometime for sure, because she has a lot of very interesting, good input on all this stuff. But the focus at these bootcamps on diversity seems very important and good, because a lot of times it is absolutely not the case that this is the only problem, but your pipeline is part of the problem; the pipeline of available engineers who exist is not a great pipeline, as well as the industry does not have favorable conditions for diverse members of our community. But if we can get these kind of quicker starts, it seems like a faster fix than going -- which we should actively still do; we should do the slow fix, but also the fast fix.
 
 You can go to elementary schools in different parts of town and put in more computers and add more teachers doing more courses... There's all that, but that's like a 20-year path to fixing things, which we should do... But I really like that if someone came up through a different path, they can switch into the bootcamp path and change their career... Obviously, that opportunity is gonna be available to people who have better opportunities in general, and that's not always the case with diversity, but focusing on that I think can really help to magnify those efforts more quickly, which I think is good.
 
@@ -422,9 +426,9 @@ You can go to elementary schools in different parts of town and put in more comp
 
 That stuff definitely comes, and there's definitely a lot of pain moments that you can hit along the way, but generally it's more focused on actually learning the stuff and getting the fundamentals down.
 
-**Alex Sexton:** I think there's definitely a difference between web compatibility in the sense that things work back to IE6 and web compatibility in the sense that things work in all current major browsers because \[unintelligible 00:55:14.21\] Those are two different skills...
+**Alex Sexton:** I think there's definitely a difference between web compatibility in the sense that things work back to IE6 and web compatibility in the sense that things work in all current major browsers because the existing \[unintelligible 00:55:14.21\] and stuff like that. Those are two different skills...
 
-**Wes Bos:** Yeah, and it's honestly not even that big of a deal anymore. It's funny, because you do hear these bootcamp students and part-time students going off about "Oh, freakin' IE11! It's so old! I can't believe I have to support that!" \[laughter\] I was like, "Oh, son... Sit down, and let me tell you about the old days of \[unintelligible 00:55:37.17\]
+**Wes Bos:** Yeah, and it's honestly not even that big of a deal anymore. It's funny, because you do hear these bootcamp students and part-time students going off about "Oh, freakin' IE11! It's so old! I can't believe I have to support that!" \[laughter\] I was like, "Oh, son... Sit down, and let me tell you about the old days of pngFix and all of these things: the rounded corner hack that we had, Cufon, so...
 
 **Alex Sexton:** Let me tell you about some sliding doors...
 
@@ -438,11 +442,11 @@ My pick this week is gonna be InterfaceLovers.com. I talked about it earlier - i
 
 Mike, do you have something? Did I catch you off-guard?
 
-**Mike Taylor:** No, I do have something... Maybe this is not cool anymore, but I recently started using this project called Prettier... I guess it's just a Javascript formatter, and it runs -- it's like an NPM thing, so you need the Node stack to get it to work; you don't have to be developing on Node to use it, but basically it's opinionated... You can configure a couple of things, but it's nice... If you've ever had to do code review and you're constantly writing \[unintelligible 00:57:52.21\] a big waste of time. So on this project I work on, we decided "Let's just stick this in there..." You can code however you want, you can use all your own weird habits, but run this thing before you submit a pull request, and it's great; you never have to worry about indenting your code ever again.
+**Mike Taylor:** No, I do have something... Maybe this is not cool anymore, but I recently started using this project called Prettier... I guess it's just a Javascript formatter, and it runs -- it's like an NPM thing, so you need the Node stack to get it to work; you don't have to be developing on Node to use it, but basically it's opinionated... You can configure a couple of things, but it's nice... If you've ever had to do code review and you're constantly writing "'nit-, space before paren', or 'nit-'" a big waste of time. So on this project I work on, we decided "Let's just stick this in there..." You can code however you want, you can use all your own weird habits, but run this thing before you submit a pull request, and it's great; you never have to worry about indenting your code ever again.
 
 **Alex Sexton:** Classic. Wes, how about you?
 
-**Wes Bos:** Mine is a Chrome extension called NiM (Node Inspector Manager). If you run a Node app from the command line and you wanna \[unintelligible 00:58:30.01\] something, you know that it's kind of stone-agey, because all you get is text and you don't get any of the formatting that you do in the regular console, or any of the debugging tools that you're getting in Chrome's tools. So if you throw --debug to a Node process, it will give you this random URL that you can visit in your browser, and then that will allow you to use the Chrome dev tools to inspect your application.
+**Wes Bos:** Mine is a Chrome extension called NiM (Node Inspector Manager). If you run a Node app from the command line and you wanna console log something, you know that it's kind of stone-agey, because all you get is text and you don't get any of the formatting that you do in the regular console, or any of the debugging tools that you're getting in Chrome's tools. So if you throw --debug to a Node process, it will give you this random URL that you can visit in your browser, and then that will allow you to use the Chrome dev tools to inspect your application.
 
 The problem with it is every time your application starts, it gives you a new URL, so you have to copy/paste or click through that URL every single time. So what Node Inspector Manager does is it will watch your system for these instances and it will automatically open it up.
 
@@ -456,7 +460,7 @@ So it's just like you would normally use in like a front-end debugging, you can 
 
 **Alex Sexton:** Make sure everyone installs it as root... \[laughs\]
 
-**Wes Bos:** Well, okay... You give it a port and everything \[unintelligible 00:59:59.14\] Maybe I am gonna get totally hacked and whatnot, but... \[laughter\] You can manually connect to it as well, but it's no way to live your life.
+**Wes Bos:** Well, okay... You give it a port and everything, and it's on Github as well. Maybe I am gonna get totally hacked and whatnot, but... \[laughter\] You can manually connect to it as well, but it's no way to live your life.
 
 **Alex Sexton:** \[01:00:12.07\] It seems really cool, because -- and I always hate talking about Node without Mikeal, because I'm sure he goes back and listens to these and then he's yelling because he knows something that I don't, but... \[laughter\] The path to this point has been long for Node debugging. We've had Chrome DevTools pretty much the entire time that Node has been around - I'm pretty sure that's roughly accurate - the good Chrome DevTools that could do this... And there have always been little projects that pop up - Node Debugger, and there was another one back in the day - and it was always just like it runs Chrome DevTools, but it actually runs it as a totally separate web server, so it's not actually the Chrome DevTools you know and all the good features are gone and you can't do any of the stuff... So it's been years in the making, and now you can finally just run your Node app and you get Chrome DevTools automatically attached.
 

@@ -96,7 +96,7 @@ It also goes back to this constant question... I say, "Yeah, I've been working w
 
 **Daniel Stenberg:** What have I been doing - that's a completely natural question, and it's not a bad question, it's just that, you know, when you're working with something and the facade or the front is the same, and the whole point with the tool and the library is that it should work the same way... We work really hard to make sure that it keeps working the same way, but of course, we added a little stuff, and we fixed bugs, and stuff. But the point is that you shouldn't realize that a lot of stuff underneath actually changed and we sort of replaced half of the engine, and added a lot of other things, or documented everything again in another way; you don't have to think about that.
 
-I wanna sometimes help people in the project and people around me to realize that we are actually doing a lot of things that even if you may not think of all these changes and you used curl the same way ten years ago, we have actually also added a whole bus load of things just the last few years, and here are some of those things that you can now do that you couldn't do before, and blah-blah-blah; why that is good, and how this helps your application or your usage of this in the future, and so on. And also - we're having \[unintelligible 00:17:26.06\] but we're adding a lot of features. We have 215 command line options...
+I wanna sometimes help people in the project and people around me to realize that we are actually doing a lot of things that even if you may not think of all these changes and you used curl the same way ten years ago, we have actually also added a whole bus load of things just the last few years, and here are some of those things that you can now do that you couldn't do before, and blah-blah-blah; why that is good, and how this helps your application or your usage of this in the future, and so on. And also -  we're adding a lot of features. We have 215 command line options...
 
 **Jerod Santo:** Wow.
 
@@ -205,7 +205,7 @@ Anyway, Google took their efforts to the IETF and said "We should make a standar
 
 **Daniel Stenberg:** TCP is like setting up a string between two computers - a physical string - and you pass on data in one end, and it will arrive in the other end. Or it might get connected, but the data will arrive or not arrive at all. But it will arrive, and it will unaltered, and it will arrive in the same order that it was sent from the sender.
 
-So it's basically a way to transport data and make sure that it's a reliable transport in both directions... But UDP on the other hand is basically sending notes in the air, writing pieces of paper and throwing them \[unintelligible 00:33:36.13\]
+So it's basically a way to transport data and make sure that it's a reliable transport in both directions... But UDP on the other hand is basically sending notes in the air, writing pieces of paper and throwing them away.
 
 **Jerod Santo:** Message in a bottle.
 

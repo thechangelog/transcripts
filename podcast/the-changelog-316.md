@@ -70,7 +70,7 @@ I really appreciate that you wanted to go back and actually then create this mis
 
 **John Resig:** Yeah... I think it's a couple things. One is having a missing manual -- and then there's a couple of things, which is that I think when we started using GraphQL versus now, there is just a lot more documentation and tool now than a year and a half ago... Which is the reality of pretty much any new technology. But additionally, I was very interested in getting people excited about this technology... I was, and am.
 
-\[00:14:59.08\] I wanted to not only have there be a good resource for people to use, but also just that -- I feel like there's some work to be done to even convince people that GraphQL is interesting in the first place. I'm convinced, but yeah... So I think part of the \[unintelligible 00:15:20.13\] is explaining and looking at REST APIs, looking at GraphQL, and looking at the benefits that GraphQL provides. So yeah, that's where my heart and mind is at.
+\[00:14:59.08\] I wanted to not only have there be a good resource for people to use, but also just that -- I feel like there's some work to be done to even convince people that GraphQL is interesting in the first place. I'm convinced, but yeah... So I think part of the book is explaining and looking at REST APIs, looking at GraphQL, and looking at the benefits that GraphQL provides. So yeah, that's where my heart and mind is at.
 
 **Jerod Santo:** It's always interesting seeing large software companies adopt these new technologies... Especially when Facebook came out and announced GraphQL and released it, they had already had a successful track record with React, but then they also had Relay, and they wanted everybody to use Relay; that hasn't panned out quite as well, but with GraphQL I think you had early signs of success when GitHub decided that GraphQL was worth them investing in, and now we see Khan Academy - especially yourself, John - writing a book about GraphQL. That's going to, I think, sway a lot of people, if they were just saying "Yeah, no big deal", to take a look at it. Is that some of your intention, and then why would you necessarily want that to be the case - so that it has a brighter future?
 
@@ -218,7 +218,7 @@ I remember at some point in the future the person running the open source projec
 
 **Suz Hinton:** This is such a classic naming problem, you know what I mean? Like, "Is the domain available? Is there already a project called this?" These days it's like "Is the name taken on Npm?"
 
-**Jerod Santo:** Right. The age-old programming problem is naming things, and cache invalidation, and \[unintelligible 00:50:36.21\]
+**Jerod Santo:** Right. The age-old programming problem is naming things, and cache invalidation, and off by one errors.
 
 Okay, so Dylan does actually have a serious question following up on his troll, which actually plays into some of the stuff you're talking about there, John, about jQuery... He says he's curious to find out what you think of jQuery's place in JS history now. "Do you have regrets with the project? Would you go back and focus more on architecture-type problems with jQuery before things got out of hand for people trying to build large apps, or do you see it as a good bridge for people from the days of old to the v-dom-based dev?"
 
@@ -234,7 +234,7 @@ So yeah, I don't know; I don't have regrets about it. I think jQuery was great, 
 
 **Jerod Santo:** As you should.
 
-**Suz Hinton:** Our next question comes from Louis Montez; it relates a little bit to Dan's question earlier - it's about REST vs. HTTP, and the advantages outside of that. They ask "Since we've had things like JSON-RPC over websockets for years, how much of the GraphQL as "the new REST" comes from REST being typically tied to HTTP, while GraphQL is transport-agnostic?" I think that's a great point. They're asking "Is the query language itself the killer feature?"
+**Suz Hinton:** Our next question comes from Louis Montez; it relates a little bit to Dan's question earlier - it's about REST vs. HTTP, and the advantages outside of that. They ask "Since we've had things like JSON-RPC over WebSockets for years, how much of the GraphQL as "the new REST" comes from REST being typically tied to HTTP, while GraphQL is transport-agnostic?" I think that's a great point. They're asking "Is the query language itself the killer feature?"
 
 **John Resig:** Yeah, I think so. I think the query language is really good, because a lot of the features that I describe are benefitting directly from that... Being able to specify the query on the client side, being able to do static analysis, and all this sort of things. So that's certainly a benefit.
 

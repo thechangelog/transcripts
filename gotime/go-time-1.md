@@ -76,7 +76,7 @@ So the article is really well worth a read if you want to get familiar with what
 
 **Erik St. Martin:** This is the Washington Post article?
 
-**Carlisia Pinto:** Yeah. They are using Go at the Washington Post, and also they are doing this core project which seems to be a platform for communities for the publishing industry. I'm not very familiar with it, but I know for example \[unintelligible 00:11:24.05\] has helped them with a project. He keeps saying "It's great, it's great". I'm not very familiar with it, I would love to have somebody from the Washington Post come and talk about it. Both that project and how they're using Go at the Washington Post.
+**Carlisia Pinto:** Yeah. They are using Go at the Washington Post, and also they are doing this core project which seems to be a platform for communities for the publishing industry. I'm not very familiar with it, but I know for example Bill Kennedy has helped them with a project. He keeps saying "It's great, it's great". I'm not very familiar with it, I would love to have somebody from the Washington Post come and talk about it. Both that project and how they're using Go at the Washington Post.
 
 **Brian Ketelsen:** I read the article, and my big complaint is he tagged it with GopherCon in the tags on the blog post, but doesn't mention GopherCon anywhere. What is going on with the GopherCon tag and no GopherCon content?
 

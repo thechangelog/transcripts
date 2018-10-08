@@ -42,9 +42,9 @@ You and I are on the same page when it comes to the education thing, because -- 
 
 At the same time, I'm a product manager at Pure Charity, I've done a lot of cool stuff in the web industry, and like you, I've got some battle scars, but I didn't go to school either... And had I gone to school, maybe I wouldn't have had the opportunities that I had, or met the people I met, or have the same outlook I have on this chaotic, uncertain industry that we work in, where it's okay to bounce around like we do.
 
-**Sam Soffes:** Yeah. Well, it's funny because I \[unintelligible 00:07:50.17\] and everytime I have a post with this kind of title, I have one of my friends - we were roommates in 2008 or something - who laughs at me every time, like "Oh, he's changing jobs again." At one point he and another friend had a running bet on how long I'd be at a job.
+**Sam Soffes:** Yeah. Well, it's funny because I'm seeing as I write this post and I can announce all this stuff and everytime I have a post with this kind of title, I have one of my friends - we were roommates in 2008 or something - who laughs at me every time, like "Oh, he's changing jobs again." At one point he and another friend had a running bet on how long I'd be at a job.
 
-**Adam Stacoviak:** \[laughs\] That's \[unintelligible 00:08:12.05\]
+**Adam Stacoviak:** \[laughs\] That's not nice
 
 **Sam Soffes:** So it's like, "Well, it's funny, I don't care anymore. Yes, I'm changing jobs, don't worry about it."
 

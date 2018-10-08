@@ -80,7 +80,7 @@ So far, that seems to work for folks. I'm saying, you don't have to read my book
 
 **Jerod Santo:** They're less likely to, yeah.
 
-**Adam Stacoviak:** \[unintelligible 00:12:53.10\]
+**Adam Stacoviak:** \[00:12:53.10\] It will merge.
 
 **Zed Shaw:** Well, they might have a problem with your code quality, and usually they'll give you feedback; they'll be like "Hey man, you've gotta use these variables like this... Can you redo this one?"
 
@@ -294,11 +294,11 @@ I feel like in a lot of readmes, a lot of open source website, it'll say right t
 
 **Zed Shaw:** Yeah, yeah. All over the place, a massive fight, big internal -- and then Joyent had to change its steering, and its licensing, and everything to fight it... But they totally fought it. They had all sorts of propaganda going back and forth, yelling all sorts of stuff, fights... It was terrible, it almost destroyed Node, right?
 
-**Adam Stacoviak:** We were pretty close to that one though. I think there were a lot of community members knee deep into the Io and Node fork and bringing the communities back together. From my perspective, I think there were plenty of community members that were what I would consider just peer-to-peer developers, not corporations that were -- I guess they were leading Io, but then they were also bringing it back to this recombination of Io/Node.
+**Adam Stacoviak:** We were pretty close to that one though. I think there were a lot of community members knee deep into the Io.js and Node fork and bringing the communities back together. From my perspective, I think there were plenty of community members that were what I would consider just peer-to-peer developers, not corporations that were -- I guess they were leading Io.js, but then they were also bringing it back to this recombination of Io/Node.
 
 **Zed Shaw:** Right, after they got Joyent to sort of agree to their things. Because Joyent wasn't really running the project ethically; they were doing exactly what I was saying.
 
-**Jerod Santo:** \[unintelligible 00:43:19.27\]
+**Jerod Santo:** \[00:43:19.27\]They were letting it languish.
 
 **Zed Shaw:** Yeah, they weren't running it well; they were only doing what they wanted and what benefitted them, but then claiming "Oh, this is a community. We're all friends!" So then Io forks for that very reason.
 

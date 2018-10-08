@@ -198,7 +198,7 @@ I guess that's what we're gonna talk about, and I'm gonna say "No" to all of tha
 
 **Mikeal Rogers:** \[laughs\] Oh, god...
 
-**Rachel White:** First I learned about \[unintelligible 00:20:02.17\]
+**Rachel White:** I guess that depends on what your goal is.
 
 **Mikeal Rogers:** \[00:20:06.01\] I know, so how far do you go...? Like, even in vanilla Javascript, what does vanilla Javascript mean? Do you learn only raw DOM calls, or are you allowed to use j.Query when you're learning Javascript?
 
