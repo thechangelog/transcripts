@@ -1,4 +1,4 @@
-**Tim Smith:** Thirteen years ago Ashley Baxter's father passed away, and she herself says on her about page that some parents leave their kids jewelry, maybe a collection of some sort, but Ashley inherited an insurance business... Although Ashley isn't still running her dad's insurance company today, even after establishing a successful wedding photography business, there was something about the insurance industry that called her name.
+**Tim Smith:** \[00:01:46\] Thirteen years ago Ashley Baxter's father passed away, and she herself says on her about page that some parents leave their kids jewelry, maybe a collection of some sort, but Ashley inherited an insurance business... Although Ashley isn't still running her dad's insurance company today, even after establishing a successful wedding photography business, there was something about the insurance industry that called her name.
 
 Now, to most people, insurance isn't something you get excited about... But Ashley is not most people.
 
