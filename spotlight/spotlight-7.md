@@ -1,4 +1,4 @@
-**Adam Stacoviak:** What role do you play in the NodeJS Foundation?
+**Adam Stacoviak:** \[00:01:25\] What role do you play in the NodeJS Foundation?
 
 **Tracy Hinds:** I am the education community manager, but my hats are many.
 
