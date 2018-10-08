@@ -40,7 +40,7 @@ We have excellent teams, really good designers, engineers, front-end and back-en
 
 **Suz Hinton:** That's the dream.
 
-**Jerod Santo:** So John, we have you here today not to talk about jQuery, but to talk about GraphQL. Khan Academy was an early adopted of React, and now you dove head-deep into GraphQL and you're so excited about it that you have a GraphQL Guide, which seems to be in progress but has some meat there, book that you're writing with Loren Sands-Ramshaw. Tell us the back-story and the introduction, which we'll link up in the show notes the Introducing the GraphQL Guide post... You give kind of the insights into how GraphQL was exposed to your team there at Khan Academy, and then some of the transition of getting into it. Can you tell us that story?
+**Jerod Santo:** So John, we have you here today not to talk about jQuery, but to talk about GraphQL. Khan Academy was an early adopted of React, and now you dove head-deep into GraphQL and you're so excited about it that you have a GraphQL Guide which seems to be in progress, but has some meat there book that you're writing with Loren Sands-Ramshaw. Tell us the back-story and the introduction, which we'll link up in the show notes the Introducing the GraphQL Guide post... You give kind of the insights into how GraphQL was exposed to your team there at Khan Academy, and then some of the transition of getting into it. Can you tell us that story?
 
 **John Resig:** Sure. At Khan Academy I guess we take a very different approach to architectural decisions than maybe most organizations. My role - I'm a front-end architect; I'm THE front-end architect, but I don't dictate anything about what we do or what we should be doing, what technologies we should be choosing. I sort of see my role as a facilitator.
 
@@ -58,7 +58,7 @@ In doing so, it ended up working really well. As we were using this, we were jus
 
 Then eventually, after a few months of this, we all kind of decided that this is actually what we wanna be doing... That GraphQL is just fundamentally so much better than what REST has provided for us. So we were willing to put in the hard work of moving over, rewriting a lot of our APIs, and all that. This is still very much an ongoing process; we sort of have a mandate now in place where we're using GraphQL for all new things that we're writing, and we're starting to convert existing things over to use GraphQL... But it's gonna be a lot of work... So we'll see. I don't know when the day is gonna arrive that 100% of our RESTful APIs are gone and we're using GraphQL for everything.
 
-I mean, frankly, we're not even to that point yet with React. We still have some pages lingering somewhere on our website that we're using jQuery and stuff... So, like, uh, we, yeah there's... the process of cleaning out technical debt is a long one, but yeah...
+I mean, frankly, we're not even to that point yet with React. We still have some pages lingering somewhere on our website that we're using jQuery, and stuff... the process of cleaning up technical debt is a long one, but yeah...
 
 **Jerod Santo:** About how many REST APIs are you talking about here? Give us an order of magnitude - hundreds, thousands, dozens...?
 
@@ -258,7 +258,7 @@ Those are two things that (at least to me) I still have questions about. But at 
 
 **John Resig:** Interesting. I'm trying to think of issues that we've had as we've used Apollo... And we have had some. I think the issues that we've had have been more when we were upgrading, like moving from one version to another, and things start breaking in ways that we don't understand... This has only happened maybe once or twice so far, and it just requires a little bit of debugging and trying to figure out how different state is moving around in different ways...
 
-I think usually issues like that are happening - if they happen at all - in the very complicated parts of our application... So maybe that also kind of speaks to us, that our applications should be simpler, and then therefore be easier to reason about. But yeah, I don't... I'm not sure.
+I think usually issues like that are happening - if they happen at all - in the very complicated parts of our application... So maybe that also kind of speaks to us, that our applications should be simpler, and then therefore be easier to reason about. But yeah, I'm not sure.
 
 **Suz Hinton:** Our last question is from Rasmus Hanson, and they ask "What are some common mistakes people make when working with or implementing GraphQL?"
 
