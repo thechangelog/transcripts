@@ -1,6 +1,6 @@
 **Adam Stacoviak:** \[00:00:31\] Welcome to our Spotlight series titled The Future Of Node, recorded at Node Interactive 2016, in Austin, Texas. We produced this in partnership with the Linux Foundation, the NodeJS Foundation and it's sponsored by IBM and StrongLoop.
 
-**Break:** \[00:00:43.29\] to \[\\00:01:05.02\]
+**Break:** \[00:00:43.29\] to \[\00:01:05.02\]
 
 **Adam Stacoviak:** In this episode I talked with Rachel White, Technical Evangelist at Microsoft, about Node, IoT, robotics... We talked about making robots, inspiring developers to try new things, having fun as a developer, letting go of impostor syndrome, RFID implants and making stuff for fun, outside of our day-to-day jobs. Take a listen.
 
