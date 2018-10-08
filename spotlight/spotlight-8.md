@@ -1,4 +1,4 @@
-**Jerod Santo:** Welcome to our first Spotlight series recorded at OSCON London 2016. I'm Jerod Santo, managing editor of Changelog. Sid Sijbrandij, the CEO of GitLab, was on the Changelog recently, discussing GitLab's Master Plan and a new style of development they call "conversational development."
+**Jerod Santo:** \[00:00:31\] Welcome to our first Spotlight series recorded at OSCON London 2016. I'm Jerod Santo, managing editor of Changelog. Sid Sijbrandij, the CEO of GitLab, was on the Changelog recently, discussing GitLab's Master Plan and a new style of development they call "conversational development."
 
 I saw down with Sid at OSCON to see how they're doing executing that plan, and we also discussed the recent controversy around GitLab and the removal and subsequent reposting of security research data. I think you'll enjoy hearing how Sid turns everything into an opportunity as much as I did. Take a listen.
 
