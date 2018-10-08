@@ -34,11 +34,11 @@ Alex and I and David were working at this company called Informatica - they're s
 
 **Suz Hinton:** So what kind of features in Dojo when it came out became immediately popular?
 
-**Dylan Schiemann:** We were pretty heavily inspired by \[unintelligible 00:06:18.02\] approach to widgets, so we created probably the first major component library in Javascript, ranging from form replacements, to grids and charts, to rich text editing, and so on. Most people I think were attracted to Dojo because of its widget capabilities. Beyond that, we just had a lot of nice improvements to the language.
+**Dylan Schiemann:** We were pretty heavily inspired by flex and Lazlow's approach to widgets, so we created probably the first major component library in Javascript, ranging from form replacements, to grids and charts, to rich text editing, and so on. Most people I think were attracted to Dojo because of its widget capabilities. Beyond that, we just had a lot of nice improvements to the language.
 
 Dojo 1 had something like 1,400 modules, so it was not a small framework at all. We had a build system, we had an early implementation of promises, we had various async patterns that are now taken for granted, but were not even conceived back then... Just lots of things that made the development of things better, and you can see lots of these things have influenced the standards that we have today.
 
-For example, promises come from deferreds, which were an early concept contributed by Alex and another person named Mark Anderson in the Dojo project... As well as another person who worked on a library called \[unintelligible 00:07:26.21\] at the time.
+For example, promises come from deferreds, which were an early concept contributed by Alex and another person named Mark Anderson in the Dojo project... As well as another person who worked on a library called mocheek at the time.
 
 What else...? You could say WebComponents are heavily inspired by Dijit. The web has tried to get web components in place forever, but that's obviously been a big change.
 
@@ -64,7 +64,7 @@ I think John Resig once told me - and I took it as a compliment; I assume it was
 
 My goal has never really been to say "Hey, we wanna own the web." Instead, it's "We wanna make a good influence on it and make it better", whether that's through using what we create, or what others create that might be inspired by it.
 
-**Alex Sexton:** Niche is maybe a bit harsh as far as Dojo's usage goes. It was pretty extensive for a long time... I think before Dojo 2, in the last few years, certainly just like jQuery and other frameworks \[unintelligible 00:10:42.16\] but IBM and a few huge enterprise-level people who needed that large set of documentation support and widgets were using it... So I don't know; it certainly wasn't jQuery-level, but it was pretty popular.
+**Alex Sexton:** Niche is maybe a bit harsh as far as Dojo's usage goes. It was pretty extensive for a long time... I think before Dojo 2, in the last few years, certainly just like jQuery and other frameworks falling off but IBM and a few huge enterprise-level people who needed that large set of documentation support and widgets were using it... So I don't know; it certainly wasn't jQuery-level, but it was pretty popular.
 
 **Dylan Schiemann:** At one point we were used in over 80% of the Fortune 500. It doesn't mean exclusively, just that it was very widespread in its usage.
 
@@ -141,7 +141,7 @@ We did make a huge bet on TypeScript. While frameworks like Angular use TypeScri
 
 **Dylan Schiemann:** \[00:24:07.16\] Dojo 1 was really its own thing. We had our own module system, our own class-like system, our own widget system and so on... And part of that was because back in the day the standards process was not great; it was more black box, things would get thrown over the wall to you, as opposed to today, where it's very much aligned with the ecosystem and there's a lot of open participation.
 
-So Dojo 2 is much different in that it's very focused with standards and common patterns. Yes, we have a widget system, but it's also built on a virtual DOM engine... One that we had originally started with using \[unintelligible 00:24:46.14\] but that we forked, so we could get a bit more control over how we render widgets. It uses ES modules, we use Typescript, we have a number of core features...
+So Dojo 2 is much different in that it's very focused with standards and common patterns. Yes, we have a widget system, but it's also built on a virtual DOM engine... One that we had originally started with using based on MECAT but that we forked, so we could get a bit more control over how we render widgets. It uses ES modules, we use Typescript, we have a number of core features...
 
 In many ways, what we've tried to do is give you the flexibility of something like React, where you kind of have all of these nice, smaller pieces, but take advantage of the fact that we want a set of things that work together, in not quite as much as, say, Ember takes, where you've got everything designed only to work together, but... The idea is that you've got all these small pieces, like a good routing implementation and a good widget library and a good system for reactive components and so on, but we want them to be able to take advantage of actually being built together consistently and coherently.
 
@@ -232,7 +232,7 @@ For example, if I'm in my Hello, world widget, I've got a list of CSS class name
 
 **Dylan Schiemann:** \[laughs\]
 
-**Alex Sexton:** I was excited to find out while I was researching the history of CSS color names that Dylan had many of the same questions that I had doing that research, and unfortunately he had asked them 11 years prior, and never got an answer. So I eventually found that information and replied to \[unintelligible 00:45:17.05\] mailing list... But that was in 2001, when CSS 3 was being kind of ratified. I hadn't realized that you had also been that deep into standards that long ago. 2001 is pre-Dojo... Yes?
+**Alex Sexton:** I was excited to find out while I was researching the history of CSS color names that Dylan had many of the same questions that I had doing that research, and unfortunately he had asked them 11 years prior, and never got an answer. So I eventually found that information and replied to www style mailing list... But that was in 2001, when CSS 3 was being kind of ratified. I hadn't realized that you had also been that deep into standards that long ago. 2001 is pre-Dojo... Yes?
 
 **Dylan Schiemann:** Oh yeah, definitely a few years before.
 
@@ -262,7 +262,7 @@ You know, my hope has always been that the foundation would encourage projects t
 
 \[00:52:09.02\] So the idea is really not to say "Hey, all these projects should become the same", but if they have clear boundaries and API approaches, can they be used together in a nice way?
 
-**Alex Sexton:** As far as like if I'm a person who maintains an open source library that's not huge, but a lot of people use my calendar implementation, or my something implementation... What do you suggest they do as far as licensing? Obviously, there are very specific licenses they could choose, but \[unintelligible 00:52:37.11\] how they manage the same minefield?
+**Alex Sexton:** As far as like if I'm a person who maintains an open source library that's not huge, but a lot of people use my calendar implementation, or my something implementation... What do you suggest they do as far as licensing? Obviously, there are very specific licenses they could choose, but suppose like foundations how they manage the same minefield?
 
 **Dylan Schiemann:** It's a challenge, because one of the goals of the foundation is not to become the graveyard for abandoned or ugly toys anymore, right? So it wants to have projects that are thriving and well-supported. So if you're a really small project, it's hard to say "Hey, I wanna join the foundation", but it might make sense to join a project that's part of the foundation, sort of thing.
 
