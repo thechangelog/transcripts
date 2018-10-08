@@ -1,4 +1,4 @@
-**Tim Smith:** For me, Justin Jackson is a special person. We met back in 2012, I wanna say, when he invited me on a now-defunct podcast to coincidentally talk about an also now-defunct podcast that I used to host. Justin has been a great friend to me, and in many ways has lived the dream of making a living by building a business that helps people create things and launch them into the world.
+**Tim Smith:** \[00:01:46\] For me, Justin Jackson is a special person. We met back in 2012, I wanna say, when he invited me on a now-defunct podcast to coincidentally talk about an also now-defunct podcast that I used to host. Justin has been a great friend to me, and in many ways has lived the dream of making a living by building a business that helps people create things and launch them into the world.
 
 As with many of us, I don't think Justin understood just how much his early life would influence who he is today.
 
