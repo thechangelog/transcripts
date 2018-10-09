@@ -200,7 +200,7 @@ I think Brian was saying you have some experience with Linode, right Jessie?
 
 **Jessie Frazelle:** Yeah. Since I set up our CI, we also needed a separate server for testing IPV 6, because it's hard to do in most cloud providers, but they had a really good setup, so we ended up using that, which was nice.
 
-**Brian Ketelsen:** Oh, that's nice. Linode was one of the first VPS's I \[unintelligible 00:19:32.07\] many years ago, probably 10 or 11 years ago now, and I really enjoyed using it for a long time.
+**Brian Ketelsen:** Oh, that's nice. Linode was one of the first VPS's as I stood up many years ago, probably 10 or 11 years ago now, and I really enjoyed using it for a long time.
 
 **Jessie Frazelle:** Nice, yeah.
 
@@ -384,7 +384,7 @@ I was talking to Dave Cheney one time and he was talking about how many times he
 
 **Erik St. Martin:** It's gonna be awesome. Did you see that Jerod started a container tech room?
 
-**Jessie Frazelle:** Yes, I'm very excited for that. All he did was say 'containers' and I just popped into his mentions. \[unintelligible 00:36:58.16\] one of those people... \[laughs\]
+**Jessie Frazelle:** Yes, I'm very excited for that. All he did was say 'containers' and I just popped into his mentions. You're like one of those people... \[laughs\]
 
 **Erik St. Martin:** I loved the response, "Yes!" The idea there is to get a bunch of people together who wanna hack on things like Kubernetes and various CoreOS projects, Docker and all that stuff. It's one of the rooms I wanna hang out in, if I can hide for long enough.
 

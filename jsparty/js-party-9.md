@@ -34,7 +34,7 @@ It has this much bigger extensibility model than web frameworks that we've seen 
 
 **Mikeal Rogers:** Yeah... I mean, normally I would be kind of skeptical of the modularity of building things this way and kind of tightly coupling them to React, but so far in the VR space and the 3D space what we've seen are a bunch of giant towers of code, that are their own plugin system and their own huge thing anyway. So there's not really a smaller module critique to this necessarily.
 
-\[00:08:05.07\\\] I mean, if you just wanted to do not VR, but 3D programming, there is a bunch of great stuff there that \[unintelligible 00:08:09.24\] is doing with small modules, but for the most part, this is competing with other really giant frameworks as well, and being integrated into a framework that's much more understood than whatever random framework that somebody just wrote for their VR library, and it's probably a lot better.
+I mean, if you just wanted to do not VR, but 3D programming, there is a bunch of great stuff there that Mikeal is doing with small modules, but for the most part, this is competing with other really giant frameworks as well, and being integrated into a framework that's much more understood than whatever random framework that somebody just wrote for their VR library, and it's probably a lot better.
 
 **Rachel White:** Yeah, and it seems like people are really jumping in already. There's already 23 issues, and six pull requests to make fixes to the library... There's some small things, but I think that people that are already involved in doing stuff with React are going to -- I don't know, I think it's gonna be interesting to see.
 
@@ -158,7 +158,7 @@ I think the best way to look at blockchains is that if you wanna have a transact
 
 **Alex Sexton:** Got it. Where does Bram Cohen fall on the cyber hobo scale?
 
-**Mikeal Rogers:** \[laughs\] I don't know. I mean, he has a company that's been around for like 10 years, and a salary from that, so I don't know if he's in in cyber hobo status... \[unintelligible 00:27:02.21\]
+**Mikeal Rogers:** \[laughs\] I don't know. I mean, he has a company that's been around for like 10 years, and a salary from that, so I don't know if he's in in cyber hobo status... \[laughing\]
 
 **Alex Sexton:** Okay... Good to know.
 
@@ -316,7 +316,7 @@ So yeah, it's a really good project, and I encourage everybody to check it out. 
 
 **Alex Sexton:** It's just plain local storage.
 
-**Rachel White:** That makes sense \[unintelligible 00:49:32.25\]
+**Rachel White:** That makes sense, especially if it's stored.
 
 **Mikeal Rogers:** Yeah... Explain local storage, or explain IndexDB?
 

@@ -140,7 +140,7 @@ Voice is the cool new thing, right? Very few people are now wanting to type in t
 
 **Daniel Whitenack:** \[00:27:31.08\] That makes total sense. I definitely, as Chris has mentioned, have appreciated the candor and the insight that we're getting, in the trends that you guys have been following and examining. I think as a data scientist or AI/ML engineer or whatever I am, what I'm thinking is, you know, as me or as Chris, who's a chief scientist, or as a software developer of AI apps, what are kind of some practicalities as far as "Okay, we get that this is a big deal... Give us some good news. What can we do?" What are some initial practical steps that would help us move in the right direction of being responsible in how we deal with people's data, even if we're not in the EU? What are some first steps that we can take?
 
-**Matthew Carroll:** Andrew, go ahead. \[unintelligible 00:28:35.11\] is just probably the best.
+**Matthew Carroll:** Andrew, go ahead. I think going through the big steps is just probably the best.
 
 **Andrew Burt:** Yeah, happily. I think one of the biggest takeaways is that what makes for good governance actually makes for good data science. Basically, good governance I think translates into good data science...
 
@@ -174,7 +174,7 @@ I could go on here for a while... I think I mentioned to both of you before we s
 
 **Matthew Carroll:** To deep dive into there, I think as Andrew said, good governance leads to good data science, and they kind of go hand in hand. I think the first thing is - and this is one of the things I learned in the government - lawyers are actually there to help you. They're not there to slow you down. And I think in a lot of these, especially if you're a data scientist that's working in a big organization, starting to align yourself into the governance organization and asking for support early and often is really key.
 
-Understanding that most large organizations have gone through a some sort of semantic context around their data. They know what amount of data they have, and generally where it is, and what are the rules around that, and starting to understand risk levels. So bringing those people in and working in your programs - it seems so simple, but yet when we talk to clients, this is not occurring. It's on a one-off kind of relationship where every so often they \[unintelligible 00:33:05.04\]
+Understanding that most large organizations have gone through a some sort of semantic context around their data. They know what amount of data they have, and generally where it is, and what are the rules around that, and starting to understand risk levels. So bringing those people in and working in your programs - it seems so simple, but yet when we talk to clients, this is not occurring. It's on a one-off kind of relationship where every so often they ask for it.
 
 **Daniel Whitenack:** Yeah, I've never seen that.
 
@@ -216,7 +216,7 @@ We tend to, based on the data we have, isolate and polarize, and that's based on
 
 **Matthew Carroll:** Yeah, I think inadvertent bias. There's always bias in our data... Otherwise there's no statistical relevance, right? But I think bias for the wrong reasons, without us knowing it, is potentially increased based on the more data we throw at it... Because it's not possible for humans to run through all of the data, and I just don't think that algorithms aren't good at looking at risk where humans are, so we need a good way to quantify the risk based on the type of model we're using, on the type of policies and the existence of regulations and law on that data, and the potential negative outcome of the algorithm itself. We need to merge that together to really think about quantifying risk in a different way.
 
-The days of \[unintelligible 00:41:53.21\] around data to quantify risk are over. The data is too big and vast and complicated, and so it's really outcome-based decision-making is really our future in the AI space, and it all starts with good governance and understanding what data is going in, and why we're using it, and based on that, choosing the right models to attack the problem.
+The days of perimeterization around data to quantify risk are over. The data is too big and vast and complicated, and so it's really outcome-based decision-making is really our future in the AI space, and it all starts with good governance and understanding what data is going in, and why we're using it, and based on that, choosing the right models to attack the problem.
 
 **Andrew Burt:** Yeah, and let me just add in... I think what Matt said is 100% correct, and one of the reasons why I think more data is not just kind of blanket "always better" is I am worried about both bias and any potential failures, and I think what we're looking at is a world in (let's say) 2-5 years (mid-term future) where no one fully understands where all the models that are deployed have gotten their data from.
 

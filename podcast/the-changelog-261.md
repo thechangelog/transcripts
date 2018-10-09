@@ -72,11 +72,11 @@ At the end of about a month or so she said "Yes, I want you to look into this", 
 
 **Tim Mecklem:** I think we were headed in the fall of last year. That may not be true... I think she's been looping for about a year now, so it was a little bit before then. But I didn't crack open my editor at that point.
 
-**Adam Stacoviak:** \[unintelligible 00:13:03.01\] for looping...
+**Adam Stacoviak:** Looping.. I like how there is a term for it. Looping...
 
 **Jerod Santo:** Yeah, it sounds like science fiction.
 
-**Tim Mecklem:** \[unintelligible 00:13:05.12\] The thing that people use to loop is their rig; it's just the tiny computer and the battery and everything, but they call them "the rigs." Amanda has a few rigs, and they're all of different sizes and varying technologies and things, but yeah, the loopers use rigs.
+**Tim Mecklem:** The thing that people use to loop is their rig; it's just the tiny computer and the battery and everything, but they call them "the rigs." Amanda has a few rigs, and they're all of different sizes and varying technologies and things, but yeah, the loopers use rigs.
 
 **Adam Stacoviak:** Wow.
 
@@ -160,7 +160,7 @@ What if they could just pull down one set of code, one project, and build it int
 
 **Adam Stacoviak:** It's also very limited.
 
-**Jerod Santo:** ...obscure \[unintelligible 00:26:04.08\] configuration. Yeah, absolutely; it limits the reach for people like Tim or like us, who can plumb those depths. So bringing that -- I thought maybe like a Docker thing would be good, but it sounds like Elixir would be a great fit, if you can have it on an embedded device... Which you've mentioned the Nerves Project a couple of times; give us the high-level of Nerves, for those who aren't familiar with the project.
+**Jerod Santo:** ...obscure spam assassin configuration. Yeah, absolutely; it limits the reach for people like Tim or like us, who can plumb those depths. So bringing that -- I thought maybe like a Docker thing would be good, but it sounds like Elixir would be a great fit, if you can have it on an embedded device... Which you've mentioned the Nerves Project a couple of times; give us the high-level of Nerves, for those who aren't familiar with the project.
 
 **Jerod Santo:** Nerves - I think the tagline is something about building bulletproof firmware. I should probably know this better, because I'm on the Core team... But ultimately, what drew me to Nerves is that I had a Raspberry Pi; I bought it literally the day they came out, like 2:30 in the morning, and I thought "This is gonna be great", and I had no idea what to do with it. I put Linux on it, it's out on a shelf, nothing happened. Nerves project actually takes custom Linux kernels built off of a thing called Buildroot, and takes those kernels, puts your Elixir OTP application on top of it and runs it. There's no init script outside of just booting up the Elixir application and running it. So you have essentially full-control of all the hardware and all the software... And in some ways, the OS is a commodity at that point for your firmware. You've got a packaged application into a operating system, on an SD card, booting up in about seven -- under 20 seconds, let's just say under 20 seconds.
 
@@ -170,7 +170,7 @@ Docker fits well on the laptop or server space; Nerves fits great it really tigh
 
 **Adam Stacoviak:** I have to agree.
 
-**Jerod Santo:** I feel like, wouldn't it be cool \[unintelligible 00:27:48.07\] Yeah, yeah, that would be really cool. \[laughter\]
+**Jerod Santo:** I feel like, wouldn't it be cool.. I wonder if they can.. Yeah, yeah, that would be really cool. \[laughter\]
 
 **Adam Stacoviak:** I was right there with you.
 
@@ -244,7 +244,7 @@ You say that everybody would want this if they could have it - I'm not sure that
 
 We actually had a couple other more scary things happen, because when you go low and there's nothing cutting off the insulin supply, your pump doesn't do it. So you're continually going a little bit lower, a little bit lower, and then you have to come out of that. And the rollercoaster ride of coming out of it, going too high, coming down and then crashing - all of that was really painful for us, trying to just get a good night of sleep. Since Amanda has started doing these things we've been sleeping pretty well. I don't get alarms from her anymore.
 
-**Adam Stacoviak:** I can say that -- I don't know about you, Jerod, but I've been politely (as Tim said) smacked by my wife in sleep, so I can imagine the \[unintelligible 00:37:50.12\]
+**Adam Stacoviak:** I can say that -- I don't know about you, Jerod, but I've been politely (as Tim said) smacked by my wife in sleep, so I can imagine the version taking a turn.
 
 **Jerod Santo:** Who hasn't?
 
@@ -254,7 +254,7 @@ We actually had a couple other more scary things happen, because when you go low
 
 **Tim Mecklem:** That's correct, yes.
 
-**Jerod Santo:** Okay. Do you guys have like a countdown timer on the wall, or like a zero-day since the last -- no, that's \[unintelligible 00:38:19.03\] Do you have like a goal in mind when that might be the case?
+**Jerod Santo:** Okay. Do you guys have like a countdown timer on the wall, or like a zero-day since the last -- no, that's a ops kind of thing. Do you have like a goal in mind when that might be the case?
 
 **Tim Mecklem:** I have a long-term goal with that happening. One of the things that's gonna cause a little bit of difficulty is that she's is a different CGM technology than the one that the pump uses, and I have specifically chosen the pump first because it's a lot easier to get the comprehensive data. The pump has all the CGM, and also has all of the history of like boluses and basal rates and everything like that. So I already have to talk to the pump; to pull the CGM is not much more work, but for people who use Dexcom, which is a different CGM, there's no support for that yet in Elixir.
 
@@ -368,7 +368,7 @@ When people ask me what I'm doing, I'd love to be able to say "Well, there's ano
 
 **Adam Stacoviak:** And all this is going down -- this podcast is a precursor to the potentially bigger (I guess) hour-long talk you'll give at ElixirConf, and this all kind of began with that proposal, which you were even surprised (you mentioned before the call) that it was accepted. Why was that?
 
-**Tim Mecklem:** Yeah... So going into all this, I've been very hesitant to really speak about this very publicly. There's privacy concerns here, there's a lot of things going on. Ultimately, what drove me over the edge was the ElixirConf call for proposals. People just kept asking me how my project was doing, what's going on with it, and I thought "Okay, fine. I'll put something together." I think everybody in the office here except me thought (or just knew) that it was gonna get accepted... But I was \[unintelligible 00:57:44.08\] I was like "This is interesting, but it's pretty niche. This only affects certain people", but at the end of the day, I think everybody likes to understand -- when there's somebody that's out there working hard to improve the lives of others, they like to hear that story. They like to understand more about that. And the fact that it happens to use the technology that they are embracing, that makes things even better for them.
+**Tim Mecklem:** Yeah... So going into all this, I've been very hesitant to really speak about this very publicly. There's privacy concerns here, there's a lot of things going on. Ultimately, what drove me over the edge was the ElixirConf call for proposals. People just kept asking me how my project was doing, what's going on with it, and I thought "Okay, fine. I'll put something together." I think everybody in the office here except me thought (or just knew) that it was gonna get accepted... But I was a hold out. I was like "This is interesting, but it's pretty niche. This only affects certain people", but at the end of the day, I think everybody likes to understand -- when there's somebody that's out there working hard to improve the lives of others, they like to hear that story. They like to understand more about that. And the fact that it happens to use the technology that they are embracing, that makes things even better for them.
 
 I see now, in retrospect, why the talk was accepted, but that's really what drove me over the edge to say "This could be a real project. Let's really go with this. People are excited about it. I can talk about it and move things forward."
 
@@ -378,7 +378,7 @@ I see now, in retrospect, why the talk was accepted, but that's really what drov
 
 **Jerod Santo:** It's very serious, so just the idea that our skillsets that we have, that we used a lot of times, we are cogging the machine of the capitalistic society that we live in, can do something for somebody else that you're trying to do... It's incredibly inspiring and exciting, so I can see absolutely why your talk was selected, and I think it'll be a bit hit. I hear this is your first one as well, so there'll be lots of interesting times coming up.
 
-**Tim Mecklem:** Yeah... The anxiety and the nerves are already growing a little bit. You did say something that I wanted to touch on. One of the \[unintelligible 00:59:41.21\] you mentioned him earlier - Doug likes to say something that we found to be true, out of the book called User Story Mapping. What he says is you don't write software to build features, you write software to change the world; it's just a lot of times we lose sight of that. We don't catch on that the things that we're building impact people's lives.
+**Tim Mecklem:** Yeah... The anxiety and the nerves are already growing a little bit. You did say something that I wanted to touch on. One of the owners here, Doug, you mentioned him earlier - Doug likes to say something that we found to be true, out of the book called User Story Mapping. What he says is you don't write software to build features, you write software to change the world; it's just a lot of times we lose sight of that. We don't catch on that the things that we're building impact people's lives.
 
 This is one of those things that for me -- I could find that direct line to exactly where I want it to go. I can see exactly how this is going to impact people positively, and I just latched on... I mean, that's exciting.
 

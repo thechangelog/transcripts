@@ -2,7 +2,7 @@
 
 **Sam Soffes:** Yeah, it was good. Thanks for having me.
 
-**Adam Stacoviak:** Yeah, man. Sam, I think that everybody has kind of been looking forward to this conversation with you, because you're the \[unintelligible 00:00:50.24\] of any developer. You've been doing a lot of fun stuff with Cheddar, you've got a great story behind you, you're a designer, you're a developer, and you've spawned this new company Nothing Magical. I don't wanna do your introduction for you, but for those who may not know exactly who Sam Soffes is, this is your time.
+**Adam Stacoviak:** Yeah, man. Sam, I think that everybody has kind of been looking forward to this conversation with you, because you're the fan of any developer. You've been doing a lot of fun stuff with Cheddar, you've got a great story behind you, you're a designer, you're a developer, and you've spawned this new company Nothing Magical. I don't wanna do your introduction for you, but for those who may not know exactly who Sam Soffes is, this is your time.
 
 **Sam Soffes:** Cool. Yeah, I quit my job a couple months ago and started a company called Nothing Magical. It's just me, and I work on an app called Cheddar currently. It's a really simple to-do list for the web, iOS and Mac version... So yeah.
 
@@ -396,7 +396,7 @@ That was a really tough decision, because as an engineer, GitHub is the best pla
 
 **Adam Stacoviak:** I'm not disappointed in that, I'm just thinking it's ballsy.
 
-**Sam Soffes:** Yeah, I mean... Well, especially turning down income, and insurance, which right now I have neither. Whenever I go \[unintelligible 00:59:16.17\] it's like, "Well, minus whatever from my bank account" and hardly anything is going into it. That's scary on its own, not to mention the opportunity to work at GitHub and be a part of some of the things they're working on. It was really tough. But I know a ton of people that hate their job. As an engineer, I was like, "What are you doing? Quit today." And not to be on the extreme, like "Whenever you're angry, just quit." There's a balance to this, but...
+**Sam Soffes:** Yeah, I mean... Well, especially turning down income, and insurance, which right now I have neither. Whenever I go out to eat, it's like, "Well, minus whatever from my bank account" and hardly anything is going into it. That's scary on its own, not to mention the opportunity to work at GitHub and be a part of some of the things they're working on. It was really tough. But I know a ton of people that hate their job. As an engineer, I was like, "What are you doing? Quit today." And not to be on the extreme, like "Whenever you're angry, just quit." There's a balance to this, but...
 
 **Adam Stacoviak:** Right, think about it. Make a wise decision.
 
@@ -546,7 +546,7 @@ I definitely spent way more time on the server and the website and all of that t
 
 **Sam Soffes:** Well, it's funny, because I care deeply about every little piece of Cheddar, and making it as good as it can possibly be.,, All with the balance of like shipping, because I could spend forever tweaking, but -- it's interesting when you care that much about all of the details how much stuff you end up making.
 
-I made a thing to do \[unintelligible 01:18:21.00\] in my docs, to make one to work the way I needed it to work... And that's open source. I recently open-sourced my \[unintelligible 01:18:31.05\] and I was using a Pusher client in Objective-C that wasn't that great, so I wrote my own. I'm selling T-shirts, and I was trying to customize Big Cartel, or Shopify or something, and I couldn't get the template to look as good as the website, and I was like "Forget it, I'll just make my own." So I made my own store... I've spent a lot of time making little things, just so everything is excellent. I think it just feels better. No one really notices that I've written all that stuff, but...
+I made a thing to do code coloring in my docs, to make one to work the way I needed it to work... And that's open source. I recently open-sourced my \[unintelligible 01:18:31.05\] and I was using a Pusher client in Objective-C that wasn't that great, so I wrote my own. I'm selling T-shirts, and I was trying to customize Big Cartel, or Shopify or something, and I couldn't get the template to look as good as the website, and I was like "Forget it, I'll just make my own." So I made my own store... I've spent a lot of time making little things, just so everything is excellent. I think it just feels better. No one really notices that I've written all that stuff, but...
 
 **Adam Stacoviak:** Yeah, when you go end-to-end of the experience of Cheddar, you certainly can't -- I can't say "certainly can't", but it's not immediately apparent that you spent as much time as you have rounding all the corners and kind of looking at it with both eyes, and you kind of cock your head to the left a little bit and you're like "Is that right? Is that not right?" You're paying attention to all the little details that just make it an end-to-end good experience.
 

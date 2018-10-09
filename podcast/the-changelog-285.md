@@ -10,11 +10,11 @@ I think after one year of learning math with him - even sometimes I was not goin
 
 **Adam Stacoviak:** Then what was your entrance into computer science?
 
-**Maxime Coutté:** I don't know if it's the common path, but I asked him a question about -- I think it was the evolution and growing of couples of rabbits, and what happened if you start adding some content and some variable to this population of rabbits. He just told me "Okay, I will show you something... You can do this using this with a sheet. Just go to Google Sheets and you can do it this way, and you can see how all the population is growing, and gender variables, and basic stuff."
+**Maxime Coutté:** I don't know if it's the common path, but I asked him a question about -- I think it was the evolution and growing of couples of rabbits, and what happened if you start adding some constant and some variable to this population of rabbits. He just told me "Okay, I will show you something... You can do this using this with a sheet. Just go to Google Sheets and you can do it this way, and you can see how all the population is growing, and gender variables, and basic stuff."
 
 **Adam Stacoviak:** Interesting.
 
-**Maxime Coutté:** Then he told me "There is another way to do it that is better, because you are not limited by the number of \[unintelligible 00:05:11.20\] you can edit it more easily, and I think you will like it. Tomorrow just go to my class and I will show you."
+**Maxime Coutté:** Then he told me "There is another way to do it that is better, because you are not limited by the number of case and you can edit it more easily, and I think you will like it. Tomorrow just go to my class and I will show you."
 
 **Adam Stacoviak:** Wow.
 
@@ -74,13 +74,13 @@ I think after one year of learning math with him - even sometimes I was not goin
 
 **Jerod Santo:** So that was when you were 13 years old, correct? And now you're 16, so you've been doing computer science by way of this robotics club for about three years.
 
-**Maxime Coutté:** Yeah, yeah. That was an amazing time, because we started with really basic things like Arduino. Those kinds of projects are really fun, because you can fast start working on really fun stuff \[unintelligible 00:11:06.18\] and improve them really fast. Basically, we ended up building some really fun robots and drones and stuff like that. This is basically where we started really working a lot together.
+**Maxime Coutté:** Yeah, yeah. That was an amazing time, because we started with really basic things like Arduino. Those kinds of projects are really fun, because you can fast start working on really fun stuff and I could improve them really fast. Basically, we ended up building some really fun robots and drones and stuff like that. This is basically where we started really working a lot together.
 
 **Adam Stacoviak:** It's interesting, so you had some time to kind of get to know one another as friends, but then also as peers, in terms of your skillset around math and computer science and programming, and working with hardware and creating software; you've had some time to kind of experiment and get to know one another, and then eventually this VR thing came around. How far down the line is that? When did you start to experiment with what we're currently talking about, which is relative?
 
-**Maxime Coutté:** \[00:12:00.06\] It was approximately one year ago. To be exact, the story is that two years ago we started working for one of the biggest robotics contests in France, and we made this project which was kind of -- when I say that, people are like "Wow, this is crazy!", but it wasn't; it was just a really simple operating system that was connected to really basic hardware that you can use to control your \[unintelligible 00:12:38.13\] device.
+**Maxime Coutté:** \[00:12:00.06\] It was approximately one year ago. To be exact, the story is that two years ago we started working for one of the biggest robotics contests in France, and we made this project which was kind of -- when I say that, people are like "Wow, this is crazy!", but it wasn't; it was just a really simple operating system that was connected to really basic hardware that you can use to control your house device.
 
-For instance, it was like a little bus with pin for serial communication, and you can just plug servo motors and some solar panel, and use the servo motor to control the solar panel, and with the little operating system implement \[unintelligible 00:13:06.20\] to control the solar panel, or stuff like that. It was a little project, but it was really fun to make.
+For instance, it was like a little bus with pin for serial communication, and you can just plug servo motors and some solar panel, and use the servo motor to control the solar panel, and with the little operating system implement first some script to control the solar panel, or stuff like that. It was a little project, but it was really fun to make.
 
 We've done some contests, and after doing it, we were like, "Okay, so this project was really fun, but now we need to find another project." I think it was the wrong way to approach this, just sitting and saying "We have to find something else." And doing this, we started to have some really bad ideas, like "Hey, we can build some kind of drones that we will control with this", and some kind of fun brainstorm where you can have some crazy and really bad ideas...
 
@@ -138,7 +138,7 @@ So we bought them and we started trying them and seeing, "Oh, okay, so this is h
 
 **Maxime Coutté:** Yeah. We said that, and he said "Okay, I will teach you about antiderivatives." So we started learning about antiderivatives, acceleration and proper acceleration, and then a bit about Quaternion... And we started going each time a little deeper about those concepts in math, and I think we spent like two months learning about this math concept, and dig into them, and do some exercise, and really just focus on the math side.
 
-\[00:20:15.29\] Then we said, "Okay, this is how it works, so now let's find some good open source library to do that", because it seems that it's something that has already been done a lot of times. We programmed in Python, we created some funny things with antiderivatives and stuff like that to have the position, and we even created some Quaternion to \[unintelligible 00:20:44.05\] and a lot of funny algorithms. Then we started implementing this. That was the first part - implementing those algorithms, which was not as hard as learning the math concepts.
+\[00:20:15.29\] Then we said, "Okay, this is how it works, so now let's find some good open source library to do that", because it seems that it's something that has already been done a lot of times. We programmed in Python, we created some funny things with antiderivatives and stuff like that to have the position, and we even created some Quaternion to alert angles and a lot of funny algorithms. Then we started implementing this. That was the first part - implementing those algorithms, which was not as hard as learning the math concepts.
 
 **Break:** \[00:21:10.23\]
 
@@ -150,7 +150,7 @@ So we bought them and we started trying them and seeing, "Oh, okay, so this is h
 
 **Maxime Coutté:** \[00:23:52.08\] Yeah, he taught us those math concepts in a way that was really useful; he gave a course, then we did some exercises to be sure that we really understood the concept, and then we tried to code everything that we think that we understand, just to be sure that we really master the concepts. We've done this with the first component, the first accelerometer, and after having played with it and implementing some little thing, we switched from a component that is the MPU, and that of DMP, that does all the calculation and send us the Quaternion.
 
-To be honest, we \[unintelligible 00:24:46.10\] with some documentation, and build the headset without knowing anything about the math concepts behind it, but we felt like we need to understand the math black boxes inside of these components. And I really feel like it was necessary to understand this math; if you don't know about those math concepts you can build the headset, you can improve it, you can even do better than us, you can improve it in a way that we haven't thought about, but we learned those math concepts just because it was a pleasure.
+To be honest, we could have directly buy this component and use it with some documentation, and build the headset without knowing anything about the math concepts behind it, but we felt like we need to understand the math black boxes inside of these components. And I really feel like it was necessary to understand this math; if you don't know about those math concepts you can build the headset, you can improve it, you can even do better than us, you can improve it in a way that we haven't thought about, but we learned those math concepts just because it was a pleasure.
 
 The component that we bought, the MPU - basically, it does all the calculations for us, because... In fact, that will be a little bit hard to explain with the language barrier, but I will try. What an accelerometer does is that it only detects acceleration. What is acceleration? If you akek a graph and you look at position and time, and you draw the function of position and time, and you search for the derivative function of position by time, you have what is called the speed. And if you look for the derivative function of speed, you have the acceleration. To go back to the position, you have to do two antiderivatives on the acceleration, to have the position.
 
@@ -182,7 +182,7 @@ Doing that, there is some drift happening because of all antiderivative works. T
 
 After some time working on the headset and having created the first prototype, we discovered that we could help democratize VR. We had a lot of fun, but what we've done wasn't useless, and it could help some other people to democratize VR. The thing is that, like every other technology, the two main aspects to democratize VR I think are price and content. For example, if you look at the mouse, the democratization of the mouse is due to those two things - the price of a mouse, I think it went from $300 in a Xerox lab, to something like $15 in Apple's one. So that is for the price aspect.
 
-The other aspect for democratizing something is the content. For the mouse, it's the fact that it became feasible to create \[unintelligible 00:30:56.14\] to use the mouse inside of them. And for VR, it's a bit the same. The first step for the democratization of VR is the price, and I think we could help on this, because our headset is a lot more affordable than an Oculus. And for the content, we try to create some kind of easy SDK to let developers create their game easily.
+The other aspect for democratizing something is the content. For the mouse, it's the fact that it became feasible to create gyro application to use the mouse inside of them. And for VR, it's a bit the same. The first step for the democratization of VR is the price, and I think we could help on this, because our headset is a lot more affordable than an Oculus. And for the content, we try to create some kind of easy SDK to let developers create their game easily.
 
 **Jerod Santo:** Let's start with the component prices, since you said the first part of this democratization is price, right?
 
@@ -270,7 +270,7 @@ The other aspect for democratizing something is the content. For the mouse, it's
 
 **Maxime Coutté:** Yeah, actually we will release soon a big update to Relative and the core of Relative, but the current version came with FastVR, which is an SDK for Unity that helps you create VR games really easily, and the SDK is really easy to understand and to customize.
 
-\[00:40:09.28\] I'm not sure that it will increase the number of VR games, but truly hope that some developers will be interested in the fact that this SDK is fully open source, and it will somehow help to create VR content. But actually, the most interesting thing about Relative is that it's compatible with Relative games, and soon we will release the update that will make Relative fully compatible with \[unintelligible 00:40:51.04\] What it means is that you will be able to play some Oculus or HTC games with it.
+\[00:40:09.28\] I'm not sure that it will increase the number of VR games, but truly hope that some developers will be interested in the fact that this SDK is fully open source, and it will somehow help to create VR content. But actually, the most interesting thing about Relative is that it's compatible with Relative games, and soon we will release the update that will make Relative fully compatible with SteamVR What it means is that you will be able to play some Oculus or HTC games with it.
 
 **Jerod Santo:** Awesome.
 
@@ -336,7 +336,7 @@ Then Oussama Ammar arrived, and he saw me and he said "Hey, are you the high sch
 
 **Maxime Coutté:** We just sat and I told him the full story about sensei and my friends, and he listened really carefully to the story, and he told me "Listen, Max. I know it can seem to be a good idea to start a company, but I've done the same when I was 16, and it was not a good idea to start a company at this age. I really want to help you, but I don't think it's a good idea to set up a company. But what we can do is I can bring you to Silicon Valley and I can introduce you to some people that will give you good advice about what to do with this technology." I was like, "Oh, awesome. Yes."
 
-What he did is he started inviting me every weekend so we can talk about the project, and he was giving me some advice, and he was convincing me that creating a company wasn't a good idea. I remember the first lunch with him I was so excited, and he told me about his story, and I was really impressed. He told me "Do you have a passport?" and I said, "Yes." And he said, "Do you want to meet the CEO of \[unintelligible 00:49:40.17\]?" and I said, "Yes..." He said, "Oh, cool. And what about meeting the CEO of Oculus?" and I said, "Yeah, that could be fun!" He said, "Okay, so let's say in one month, tell your parents that I will take you to Silicon Valley." I was like, "Okay..."
+What he did is he started inviting me every weekend so we can talk about the project, and he was giving me some advice, and he was convincing me that creating a company wasn't a good idea. I remember the first lunch with him I was so excited, and he told me about his story, and I was really impressed. He told me "Do you have a passport?" and I said, "Yes." And he said, "Do you want to meet the CEO of Core?" and I said, "Yes..." He said, "Oh, cool. And what about meeting the CEO of Oculus?" and I said, "Yeah, that could be fun!" He said, "Okay, so let's say in one month, tell your parents that I will take you to Silicon Valley." I was like, "Okay..."
 
 My mother was like, "Who is this guy?" So my mother met him, and all my brothers and my family, and they said, "Okay, you can go with him." Then we went to Silicon Valley and he introduced me to a lot of really friendly people, and it was an amazing moment. I understood that it wasn't a good idea to start a company, and that I can help by putting the project open source. And it was Oussama Ammar who made the introduction to Atman Binstock.
 
@@ -366,7 +366,7 @@ My mother was like, "Who is this guy?" So my mother met him, and all my brothers
 
 **Adam Stacoviak:** Yes.
 
-**Maxime Coutté:** As a person, and not only in the sense \[unintelligible 00:54:10.23\] but he taught us -- for example, some of my best friends I've met thanks to sensei, because he not only created that kind of perfect ecosystem for learning math, he also created a tabletop role-play club. And we went to this club and it was really amazing to be with -- by the way, sensei was the master of the game on the tabletop game... It sounds a bit strange. \[laughter\]
+**Maxime Coutté:** As a person, and not only in the scientific way     but he taught us -- for example, some of my best friends I've met thanks to sensei, because he not only created that kind of perfect ecosystem for learning math, he also created a tabletop role-play club. And we went to this club and it was really amazing to be with -- by the way, sensei was the master of the game on the tabletop game... It sounds a bit strange. \[laughter\]
 
 **Adam Stacoviak:** Does that mean he was the best, or does that mean he was in charge?
 
@@ -452,7 +452,7 @@ It was because the first version of the code was really raw/rough, and the new o
 
 **Maxime Coutté:** \[01:02:54.00\] Oh, for me it's absolutely not done. The long-term goal is to have a simple website where you can just click and buy your own DIY kit, like for example you buy some 3D printed parts on 3D apps, some components... Making the process that much easy that even non-technical people can do it. And because the goal is democratizing VR, all the work on maintaining this project will be to always keep updating the projects as VR evolves. If something new came out in VR, we will try to replicate it in an open source way. That is the long-term goal of this project - having a community that when the company is releasing something in VR, we replicate it in open source and we publish it.
 
-For example, a lot of companies are working on \[unintelligible 01:04:12.07\] That is one of the things that we will work on. And when something new will come out, we will update the project to always try to democratize all the elementary things about VR.
+For example, a lot of companies are working on pay tracking. That is one of the things that we will work on. And when something new will come out, we will update the project to always try to democratize all the elementary things about VR.
 
 **Adam Stacoviak:** Very cool. Well, thank you so much for coming on this show and just kind of sharing the story. I mean, it's such an interesting story... You have such a rich life already at a young age; I can't wait to see what you do when you're Jerod or I's age... So exciting.
 

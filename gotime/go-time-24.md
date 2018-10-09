@@ -22,7 +22,7 @@
 
 **Nate Finch:** Juju... It's a word for magic. That's what we think Juju does - magic stuff.
 
-**Carlisia Pinto:** Gummy bears in Brazil are called \[unintelligible 00:02:56.04\], so I always think of gummy bears when I see Juju. \[laughter\]
+**Carlisia Pinto:** Gummy bears in Brazil are called "jujubinha", so I always think of gummy bears when I see Juju. \[laughter\]
 
 **Erik St. Martin:** So Juju is basically an orchestration platform for tying together different services. I haven't used it myself, but it did look interesting. You guys have the Charms, which are the way applications are tied together.
 

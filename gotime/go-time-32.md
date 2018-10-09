@@ -14,7 +14,7 @@
 
 **Filippo Valsorda:** Sure. At CloudFlare we are hiring a lot of developers, and we don't really hire Go developers; we hire developers, and then we train them to work on Go, because you know how nice and easy it is to pick up the language.
 
-So I've been looking at how to smooth that process and also how to make it easier for other people in the company to interact with all these repositories that are in Go when they're not Go developers. I was going through this process, and then on a drive home from Napa, with a lot of \[unintelligible 00:02:31.17\] I was in a car with senior engineering managers, and they started ranting at me about GOPATH. And I was like, "Wait, wait..." They started telling me how Go was hard to use and they never could figure it out, and every time they have to pick it back up it's confusing and it takes them 30-40 minutes just to pick it up. I was like, "What? What are you talking about?" Yeah, you can guess it - it was all about the GOPATH and the fact that you have to clone this repository in the right place in your file system, and that's a completely extraneous process to any developer that comes from other languages... So that's what hellogopher is solving.
+So I've been looking at how to smooth that process and also how to make it easier for other people in the company to interact with all these repositories that are in Go when they're not Go developers. I was going through this process, and then on a drive home from Napa, with a lot of wine involved. I was in a car with senior engineering managers, and they started ranting at me about GOPATH. And I was like, "Wait, wait..." They started telling me how Go was hard to use and they never could figure it out, and every time they have to pick it back up it's confusing and it takes them 30-40 minutes just to pick it up. I was like, "What? What are you talking about?" Yeah, you can guess it - it was all about the GOPATH and the fact that you have to clone this repository in the right place in your file system, and that's a completely extraneous process to any developer that comes from other languages... So that's what hellogopher is solving.
 
 **Erik St. Martin:** Yeah, it's funny because it was yesterday or the day before I had a friend who had a similar issue with "Where do you check out the code to?" because most of the time you're used to just pulling it to wherever you happen to store your code. It doesn't have to be in a specific spot on your hard drive.
 
@@ -24,7 +24,7 @@ Then the other side of it that gets confusing is how to you contribute back? Tha
 
 **Erik St. Martin:** So have you had pretty good success at CloudFlare with that, with people being able to just grab a project and work on it?
 
-**Filippo Valsorda:** Yeah, I definitely shadowed a number of people through the different revisions of hellogopher. It looks like a simple project \[unintelligible 00:04:46.28\] but it went through so many changes, even before the Git history. I try to smooth forward and I'm pretty happy that I would help people pick it up and use it these days. A user at some point reported an issue and I just nudged them towards one section of the docs, and they were reporting immediately after being like, "Oh yes, got it! It worked!" That was awesome! That was like a "Yes, this works!" moment.
+**Filippo Valsorda:** Yeah, I definitely shadowed a number of people through the different revisions of hellogopher. It looks like a simple project ,it has 110 lines of make file, but it went through so many changes, even before the Git history. I try to smooth forward and I'm pretty happy that I would help people pick it up and use it these days. A user at some point reported an issue and I just nudged them towards one section of the docs, and they were reporting immediately after being like, "Oh yes, got it! It worked!" That was awesome! That was like a "Yes, this works!" moment.
 
 **Brian Ketelsen:** That's nice.
 
@@ -64,7 +64,7 @@ Then the other side of it that gets confusing is how to you contribute back? Tha
 
 **Brian Ketelsen:** Do you require any special project organization, or will this work with any project structure?
 
-**Filippo Valsorda:** \[\\00:07:49.0\\7\] The point of the hellogopher is also to avoid that Ruby-a-hundred-different-tools scenario is that it works drop-in on normal, go-gettable projects. It's not a different build tool, it's just something that wraps things and does horrible black magic with symlinks that you shouldn't look into, so that it just has a fake GOPATH that points to your repository, but it's still the normal Go structure that we are used to. It's also completely compatible with anything you already have, and it doesn't get on your colleagues toes if \[unintelligible 00:08:23.02\] GOPATH set up, etc.
+**Filippo Valsorda:** \[\\00:07:49.0\\7\] The point of the hellogopher is also to avoid that Ruby-a-hundred-different-tools scenario is that it works drop-in on normal, go-gettable projects. It's not a different build tool, it's just something that wraps things and does horrible black magic with symlinks that you shouldn't look into, so that it just has a fake GOPATH that points to your repository, but it's still the normal Go structure that we are used to. It's also completely compatible with anything you already have, and it doesn't get on your colleagues toes if they have GOPATH set up, etc.
 
 **Brian Ketelsen:** Nice.
 
@@ -130,7 +130,7 @@ But if the server refuses them all, it will still see them all... And I built th
 
 What other things are you working on? I know you're doing some TLS stuff as well.
 
-**Filippo Valsorda:** Yeah, so the approach that I've been working on for the last few months - quite a few months, wow - is TLS 1.3. The short version of the \[unintelligible 00:14:16.24\] TLS 1.3 is the new version of TLS; it's not about getting cryptographers job security, but instead about making the protocol actually more robust against future attacks, so it's a complete rework and it takes one less round trip to connect to things, so it's faster, and a bunch of other things that if you're interested in -- there's a talk at CCC 33c3 that you should watch.
+**Filippo Valsorda:** Yeah, so the approach that I've been working on for the last few months - quite a few months, wow - is TLS 1.3. The short version of the crypto like page is that TLS 1.3 is the new version of TLS; it's not about getting cryptographers job security, but instead about making the protocol actually more robust against future attacks, so it's a complete rework and it takes one less round trip to connect to things, so it's faster, and a bunch of other things that if you're interested in -- there's a talk at CCC 33c3 that you should watch.
 
 But the point is we wanted to implement TLS 1.3 and participate in the standardization process with a real implementation and deployed... So we wanted to take up TLS stack and add 1.3 ourselves. I essentially threatened to quit if they made me do it on OpenSSL -- no, I'm joking; nobody asked me. They just asked me what to use as a base, so I just jumped straight to crypto/tls, the standard library of Go, which is a wonderful stack written originally by Adam Langley, which all of the people in the industry say that it's where they go to to understand TLS. They read the spec, they fail to understand it, they go to crypto/tls, they read the Go code, and now they understand things. So that was the starting point... And we extended it to have TLS 1.3 support; we worked most on the server side, and it's now deployed globally on millions on CloudFlare sites. If you just sign up for a free account, it's on by default.
 
@@ -242,7 +242,7 @@ Now, that's super nice because it means that you can take, for example, the Cadd
 That's one step further, it's called binary transparency; it doesn't have that much to do with Go, but Go is a very good language to start this, because getting reproducible builds is incredibly hard with anything else.
 The Debian project has been primed very hard to get the whole Deb repositories reproducible, and they're jumping through hoops that you wouldn't even imagine. With Go instead, you just set the same GOPATH and you're done.
 
-**Erik St. Martin:** \[00:28:03.21\] Yeah, you would just have to make sure you have the same Go toolchain, right? The right Go version, because theoretically it wouldn't produce the same binary if you had \[unintelligible 00:28:13.04\] Go version.
+**Erik St. Martin:** \[00:28:03.21\] Yeah, you would just have to make sure you have the same Go toolchain, right? The right Go version, because theoretically it wouldn't produce the same binary if you had a different Go version.
 
 **Filippo Valsorda:** Oh, yeah.
 
@@ -482,7 +482,7 @@ Okay, any other interesting projects?
 
 **Erik St. Martin:** Carlisia, did you run across anything you wanted to talk about?
 
-**Carlisia Pinto:** I did. Sourcegraph is now is general availability with the Go language. For people who don't know, Sourcegraph is like a code navigation tool, but you use it on your browser. The cool thing over other normal code navigation tools is that it will take your \[unintelligible 00:46:59.23\] repos, and if you go to a function, for example, you can see where it is used in the entire GitHub universe, and I think even in other source control systems, maybe GitLab... I'm not sure about that, but GitHub - definitely. And that is super cool.
+**Carlisia Pinto:** I did. Sourcegraph is now is general availability with the Go language. For people who don't know, Sourcegraph is like a code navigation tool, but you use it on your browser. The cool thing over other normal code navigation tools is that it will take your across repos, and if you go to a function, for example, you can see where it is used in the entire GitHub universe, and I think even in other source control systems, maybe GitLab... I'm not sure about that, but GitHub - definitely. And that is super cool.
 
 For example, when I run into something new and I want to see how people are using it, I just use Sourcegraph and I'm able to see it. It also gives you git blame and it gives you the last time the file was updated, and a bunch of other awesome things.
 
@@ -596,7 +596,7 @@ Actually, \[unintelligible 00:51:32.24\] did the design and the images, I built 
 
 **Filippo Valsorda:** I wonder if you can still do that through either gccgo or Clang backends...
 
-**Brian Ketelsen:** Well, you can do lots of stuff with \[unintelligible 00:57:13.25\] and Clang, so... I know that's how GopherJS is getting a lot of things done.
+**Brian Ketelsen:** Well, you can do lots of stuff with llvm and Clang, so... I know that's how GopherJS is getting a lot of things done.
 
 **Erik St. Martin:** Speaking of gccgo, does anybody know how widely used that is?
 
