@@ -126,7 +126,7 @@ So there's not a lot of people - although it is gaining traction recently - for 
 
 **Brian Ketelsen:** Exactly.
 
-**Ed Muller:** \[unintelligible 00:15:29.08\]
+**Ed Muller:** Or being DDoSed.
 
 **Erik St. Martin:** And some of the other stuff too is that I feel some of that stuff comes as part of the code review. When you get into bigger environments, there's no reason you shouldn't be auditing these libraries before using them, before you put them on your production systems where they have access to your data; you should know what that library does and you should know what changed when you pull in a new version. So as part of my code review, when I submit my new feature and I pulled in a new library or I upgraded it, you should be able to see a code review, or you should be able to see what changed, and to be able to speculate what kind of problems that may cause. I never got that not checking in vendor thing.
 
@@ -210,7 +210,7 @@ Last year I was given an opportunity inside to help make Go a formally supported
 
 **Ed Muller:** That's a great review.
 
-**Brian Ketelsen:** \[unintelligible 00:29:11.19\] I'm here for you, man.
+**Brian Ketelsen:** 100% Go. I'm here for you, man.
 
 **Ed Muller:** Cool. Inside of Heroku... Large portions of the platform have actually been somewhat rewritten in Go. For instance, if you git push Heroku Master, the Git server behind that is written in Go, the thing that actually executes your slug-building. So that's what you see when you see language detected Go and then the compilation process - that's been recently rewritten as a Go process.
 
