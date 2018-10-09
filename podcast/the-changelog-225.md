@@ -62,35 +62,43 @@ I've done everything - I've been a network administrator, I've been a DBA, I wro
 
 **Sandi Metz:** Yeah, everything under the sun.
 
-**Jerod Santo:** So it's one of these overnight successes that were probably 40 years in the making, or what not. This is so different than what we have in many cases today. A programmer gets started, and the first thing she does is writes some blogging software so she can start blogging about the programming. I even encourage such things, so I'm not saying it's a terrible thing to go out there and share novice knowledge, but now you go about speaking and teaching and consulting and writing books, and you have 35 years of doing it before you got started, thereabouts.
+**Jerod Santo:** So it's one of these overnight successes that were probably 40 years in the making, or what not. This is so different than what we have in many cases today. A programmer gets started, and the first thing she does is writes some blogging software so she can start blogging about the programming. I even encourage such things, so I'm not saying it's a terrible thing to go out there and share novice knowledge, but now you go about speaking and teaching and consulting and writing books, and you have 35 years of doing it before, you know, got started, thereabouts.
 
 **Adam Stacoviak:** At least book-wise, right?
 
-**Jerod Santo:** Yeah, all of your wisdom is that you were in it for so long, and should more people of your experience level be writing and less people of my experience level be writing?
+**Jerod Santo:** Yeah, all of your wisdom is that you were in it for so long, and, and, should more people of your experience level be writing and less people of my experience level be writing?
 
-**Sandi Metz:** Well, first of all, I would not recommend the path I took, really. I think the advice that you give - if I understood you correctly - to tell people early on to start writing and sharing the things that they learn, that's probably the best thing to do.
+**Sandi Metz:** OK, well, first of all, I would not recommend the path I took, really.
 
-I didn't mean to write a book, I didn't want to write a book. The story about how that book got written is maybe longer than we wanna go into here. The short version is there are people with big publishing houses whose job it is to find authors; I got overheard doing a rant in a hall at at a Rail conference somewhere after a talk, that I thought explains some part of object-oriented programming in an overly complicated way. So I was in the hallway going, "Man, why do people do that?! It just makes everybody feel stupid! It's so simple if you just think of it this way", and someone heard me, who was one of those people on the lookout for folks to write books.
+**Jerod Santo:** OK.
 
-The woman, who is now my editor, started this campaign to get me to write a book. It took her four or five years to get me to agree (her name is Deb). So I'd go to a conference, I would see Deb, Deb would buy me a really expensive meal... \[laughter\]
+**Sandi Metz:** Uhmm, because.
+
+**Jerod Santo:** Because?
+
+**Sandi Metz:** Because... I think the advice that you give - if I understood you correctly - the advice you just said you give to tell people early on to start writing and sharing the things that they learn, that's probably the best thing to do.
+
+I didn't mean to write a book, I didn't want to write a book. The story about how that book got written is maybe longer than we wanna go into here. I mean, the short version is, you know, there are people with big publishing houses whose job it is to find authors; I got overheard doing a rant in a hall at a Ruby conference somewhere; a Rails conference maybe. After a talk, that I thought, explains some part of object-oriented programming in an overly complicated way. So I was in the hallway going, "Man, why do people do that?! It just makes everybody feel stupid! It's so simple if you just think of it this way", and someone heard me, who was one of those people on the lookout for folks to write books.
+
+And she started... the woman, who is now my editor, started this campaign to get me to write a book until I got a conference... it took her four or five years to get me to agree. So I'd go to a conference (her name is Deb), I would see Deb, Deb would buy me a really expensive meal... \[laughter\]
 
 **Jerod Santo:** I like that.
 
-**Sandi Metz:** \[00:12:00.28\] I felt so guilty. \[laughs\] Every time I went some place I would get really nice food at a really nice restaurant. So eventually I agreed to write it, but it was partly actually one of the things that... She would trot out reasons I should do it, so everytime I would see her (twice a year) there would be a new reason she would give why I should do the book, and I'm like, "Neah, I'm not gonna write a book. What do I know about writing a book? I'm not gonna write a book! I write e-mail and documentation code, I'm not gonna write a book."
+**Sandi Metz:** \[00:12:00.28\] I felt so guilty. \[laughs\] Every time I went some place I would get like a really nice food at a really nice restaurant. Until eventually I agreed to write it, but it was partly actually one of the things that... She would trot out reasons why I should do it, so everytime I would see her (twice a year) there would be a new reason she would give why I should do the book, and I'm like, "Neah, I'm not gonna write a book. What do I know about writing a book? I'm not gonna write a book! I write e-mail and documentation code, I'm not gonna write a book."
 
-Finally, she told me "You use open source software and you don't give back."
+Until finally, she told me "You use open source software and you don't give back."
 
 **Jerod Santo:** Ouch!
 
 **Sandi Metz:** Yeah...
 
-**Adam Stacoviak:** Dang! That's below the belt right there.
+**Adam Stacoviak:** Dang! \[laughs\] That's below the belt right there.
 
 **Sandi Metz:** Totally.
 
-**Jerod Santo:** \[unintelligible 00:12:46.29\]
+**Jerod Santo:** Don't you like the stepper
 
-**Sandi Metz:** That made me think really hard... It was all the guilt card, right? Guilt about the meals, guilt about the software, so finally I did agree to try to write things down, but I was willfully unprepared because I didn't really have any experience. I mean, I had a lot of experience drawing on whiteboards at my business place, I was always that guy. All the whiteboards in every office had long, complicated explanations of things, pictures that I had drawn in many colors. It was a running joke at Duke University when I worked there.
+**Sandi Metz:** Totally. Yeah, so then that made me think really hard... It was all the guilt card, right? Guilt about the meals, guilt about the software, so finally I did agree to try to write things down, but I was willfully unprepared because I had no bob, I didn't really have any experience. I mean, I had a lot of experience drawing on whiteboards at my business place, I was always that guy, right? the person who, like all the whiteboards in every office, evey whiteboard had long, complicated explanations of things, pictures that I had drawn in many colors. It was a running joke at Duke University when I worked there.
 
 So it wasn't that I was not used to being the explainer... I'm certainly not the smartest guy in the room, but when I understand things finally, they seem simple. If I get it, I can explain it to anybody. If I have one strength, it's that.
 
