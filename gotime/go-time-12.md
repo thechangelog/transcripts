@@ -184,7 +184,7 @@ Something that we think about a lot is how can we build the tooling ecosystem an
 
 **Brian Ketelsen:** Well, that's actually a really good transition into our discussion about our sponsors; people who build great tools to help you ship your software.
 
-Equinox, one of my favorite tooling companies, Equinox.io, helps you package and distribute your Go applications. You can package and release CLI and on-premise software using Equinox, and I think my favorite part about using Equinox is the native packages and installers for Mac, Windows and Linux. So you get the msi, you get the pkg file, you get Debian files, rpms, \[unintelligible 00:27:46.06\] all of that good stuff. It's really easy to create an application and then let Equinox ship it to your customers in a self-updating format.
+Equinox, one of my favorite tooling companies, Equinox.io, helps you package and distribute your Go applications. You can package and release CLI and on-premise software using Equinox, and I think my favorite part about using Equinox is the native packages and installers for Mac, Windows and Linux. So you get the msi, you get the pkg file, you get Debian files, rpms, yums, all of that good stuff. It's really easy to create an application and then let Equinox ship it to your customers in a self-updating format.
 
 We use Equinox at Backplane, and I think Beyang you mentioned that you had used it before, hadn't you?
 
