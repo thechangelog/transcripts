@@ -8,7 +8,7 @@
 
 **David Hernandez:** Yeah, I'm David Hernandez. My background is in computer science and engineering. I was studying back more than ten years ago in the uni machine learning and artificial intelligence. Mostly I never used it until recently, the last three years; machine learning was booming and I started to get through and implement -- first, my knowledge, and then I started to implement things. Probably, that's how we started MachineBox in some way.
 
-Professionally, I've been developing since I finished my degree. It's almost ten years doing distributed systems, websites... \[unintelligible 00:03:29.08\] I've worked at BBC in 2012 for the Olympics. We were delivering the real-time system to all the stats and all the video player data for the Olympics, basically. It was a really nice project. So yeah, that's it.
+Professionally, I've been developing since I finished my degree. It's almost ten years doing distributed systems, websites. My highlight is probably that I worked at BBC in 2012 for the Olympics. We were delivering the real-time system to all the stats and all the video player data for the Olympics, basically. It was a really nice project. So yeah, that's it.
 
 **Daniel Whitenack:** Sounds great. Mat, why don't you give us a little bit of an idea of where you're coming from?
 
@@ -74,7 +74,7 @@ So it's people who have already a need, which is great - they've got a problem t
 
 \[00:20:02.17\] I can download pre-trained models and that sort of thing that I don't really understand, from the TensorFlow repo and other things, and often I don't get the results that are either the published results or the quality that's promised from these pre-trained models. Now, the models that you're putting out are definitely really good quality, but I still don't really know all of what's going on the inside. So in this case, we're treating machine learning in AI models like a black box. Why do you think that, at least in certain cases treating models like this, like a black box, can be a really good thing, or maybe what are some downsides or cases in which maybe you wouldn't want to treat them like that?
 
-**David Hernandez:** Yeah, all the MachineBox models are kind of a black box. In that case, we don't have any explainability for any of the models. But also, most of the models are based in neural networks, so nobody has that answer yet in the \[unintelligible 00:21:11\] but nobody knows what is happening inside.
+**David Hernandez:** Yeah, all the MachineBox models are kind of a black box. In that case, we don't have any explainability for any of the models. But also, most of the models are based in neural networks, so nobody has that answer yet in the research. Some people have research about it, but nobody knows what is happening inside.
 
 **Daniel Whitenack:** So you just mean in terms of the complexity of the models...
 

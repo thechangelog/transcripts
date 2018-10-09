@@ -164,7 +164,7 @@ But that basically caught me up and being homeless, combined with a couple other
 
 After that, I turned all of my projects into "I'm helping the community, not the project." By helping the community, I'm getting some sort of benefit from it - they're buying my books, they're hiring me, doing something like that. That's the big change that came out of it.
 
-But the majority of the thing, like the homelessness for me at the time was basically for about six months I had to sleep on friends' couches and trying to scrounge for work. I didn't have anywhere to live, I didn't have enough money to get an apartment. So when I say "homeless", it's not like I was living on the streets \[unintelligible 00:21:33.02\] nothing like that... But it's still sort of like a big distance between what should have happened, which is if my project is being used by these companies, then I should have been receiving some sort of benefit, even if all that was was a job.
+But the majority of the thing, like the homelessness for me at the time was basically for about six months I had to sleep on friends' couches and trying to scrounge for work. I didn't have anywhere to live, I didn't have enough money to get an apartment. So when I say "homeless", it's not like I was living on the streets, nothing like that... But it's still sort of like a big distance between what should have happened, which is if my project is being used by these companies, then I should have been receiving some sort of benefit, even if all that was was a job.
 
 There was sort of like this unwritten contract in open source that we had; the unwritten contract with corporations was if you wrote open source that they were using, you got some sort of job, or consulting fees, or at least some respect so that way you could find jobs.
 
@@ -276,7 +276,7 @@ I mean, we always talk about letting your code do the talking, like bring softwa
 
 I feel like in a lot of readmes, a lot of open source website, it'll say right there... And not all the time, granted... We're just picking on Google as the example, but I don't think it's always unclear who's driving the project. I think it's usually pretty easy to either derive, or it's explicitly stated in many cases.
 
-**Zed Shaw:** No, I think actually they kind of dance on the edge of it. I think what they wanna do is they wanna have sort of the community control that a sort of like \[unintelligible 00:41:36.24\] project has, but still also have their own control. It's never explicitly said "Look, if you want this project to go in a different direction, Google's gonna tell you no." They say, "Oh, come on, buddy, you can do it! You can contribute!", but really if you contributed something that was totally anti what Google wanted, they would shut it down.
+**Zed Shaw:** No, I think actually they kind of dance on the edge of it. I think what they wanna do is they wanna have sort of the community control that a sort of like "kumba ya" project has, but still also have their own control. It's never explicitly said "Look, if you want this project to go in a different direction, Google's gonna tell you no." They say, "Oh, come on, buddy, you can do it! You can contribute!", but really if you contributed something that was totally anti what Google wanted, they would shut it down.
 
 **Jerod Santo:** Well, you would just fork it and give it a new name and do go your own way, right?
 
@@ -352,11 +352,11 @@ So for me, I think if -- yeah, Kubernetes totally made the right decision... Try
 
 **Adam Stacoviak:** But technically, they could have not presented it. They really pushed it to get funding inside of Google. Maybe I'm wrong, but if I heard correctly, it sounded like there was a choice of it could have been a Google thing or a "us three guys (I think it was three) doing this originally." There was a choice there.
 
-**Jerod Santo:** Well, they were Google employees, so \[unintelligible 00:51:19.00\] Yeah, anyways...
+**Jerod Santo:** Well, they were Google employees, so it would have been a Google thing. Yeah, anyways...
 
 **Zed Shaw:** So I think GitLab is a very good example of someone working -- like, it's two people that mainly started it, and then they just ran it, and then it got successful enough that they were able to actually receive a pretty large VC investment. But it's different... You can go with your crappy app that you hacked up in a weekend on your phone, do a pitch deck; if you know the right VC's at this company, they'll be like "Yeah, cool, here's 20 million." So open source is a much, much higher amount of effort to prove that there's a market.
 
-\[00:51:55.27\] I actually think if the guys who did Kubernetes went off to investors and said "Yeah, what we wanna do is create this thing that basically makes it so you can craft your own \[unintelligible 00:52:04.06\] infrastructure, whatever." They'd be like, "Hm... Nah, we don't wanna do that, because a bunch of our portfolio companies need free stuff."
+\[00:51:55.27\] I actually think if the guys who did Kubernetes went off to investors and said "Yeah, what we wanna do is create this thing that basically makes it so you can craft your AWS infrastructure, whatever." They'd be like, "Hm... Nah, we don't wanna do that, because a bunch of our portfolio companies need free stuff."
 
 **Jerod Santo:** Now I'm just thinking of all the different people who built -- I mean, another trend that we're tracking, and I don't disagree that it's easy in 2018... I think it was probably easier in 2016 to get VC funded in the Valley with an app or just in general with a good pitch deck... I hear it's getting harder; we're not in the Valley, I've never written a pitch deck, I don't know those things very well... But the other thing that we're saying - we've been tracking this trend of large organizations moving in - also is VC-funded open source projects, and we're coming out of our ears with them.
 
@@ -408,7 +408,7 @@ So what I see is, yeah, sure, I think corporations are taking advantage of progr
 
 **Zed Shaw:** Yeah, it was on my personal site.
 
-**Jerod Santo:** Is it down? \[unintelligible 01:00:45.06\]
+**Jerod Santo:** Is it down? Did you take it down?
 
 **Zed Shaw:** No, I think people should be allowed to move on with their lives, right?
 
@@ -438,7 +438,7 @@ I'm gonna contact this person and tell him to take it down, because I own the co
 
 **Adam Stacoviak:** We don't have to link to it... I mean, they can google it. One thing, Zed, for us, is we're definitely about lifting people up rather than putting people down, so our goal is not to shame you, nor do we want to perpetuate you being shamed... So it could be googled, and that's something that's not exactly pertinent to our conversation, so I have no concerns about linking to it. I just wanna make sure if we do, we link to the right place; that's what my concern was, not that we can find you and get you.
 
-**Zed Shaw:** Yeah, it's not problem. But you know, I will say, I have no problem with people disagreeing with me and telling me why they disagree with me. I don't know, I come from a different era, I think, where like you can disagree with someone and not hate them or think they're a terrible person. You can have wonderful disagreeing conversations, but I think what happens - I don't know if it's just a thing about Americans (I don't know), or the internet... I think they take disagreement to be an argument, and sort of like an attack from an enemy. I'm very different, I'm like "Well, no, I can disagree with you and I can still like you, and \[unintelligible 01:03:39.10\]
+**Zed Shaw:** Yeah, it's not problem. But you know, I will say, I have no problem with people disagreeing with me and telling me why they disagree with me. I don't know, I come from a different era, I think, where like you can disagree with someone and not hate them or think they're a terrible person. You can have wonderful disagreeing conversations, but I think what happens - I don't know if it's just a thing about Americans (I don't know), or the internet... I think they take disagreement to be an argument, and sort of like an attack from an enemy. I'm very different, I'm like "Well, no, I can disagree with you and I can still like you...
 
 **Adam Stacoviak:** Right, I think the line between disagreement and hate and dislike has gotten to some degree closer.
 
@@ -578,7 +578,7 @@ That happens way more often than people wanna admit, but I think it doesn't happ
 
 **Jerod Santo:** Yes, commensurate. Exactly.
 
-**Zed Shaw:** If I don't like Haskell, you go \[unintelligible 01:20:42.13\] Maybe you can say "I don't like your face." Alright, that's weird, but okay. But if I go "I don't like Haskell" and then you send me this insane e-mail about how I should kill myself, then that's kind of a disconnect. All I said was one tweet where I made fun of Haskell, and you want me to kill myself. That's a huge distance between what I did wrong to you and what you think should happen to me.
+**Zed Shaw:** If I don't like Haskell, you go "yeah well I don't like your project", and I go "I don't like your project". Maybe you can say "I don't like your face." Alright, that's weird, but okay. But if I go "I don't like Haskell" and then you send me this insane e-mail about how I should kill myself, then that's kind of a disconnect. All I said was one tweet where I made fun of Haskell, and you want me to kill myself. That's a huge distance between what I did wrong to you and what you think should happen to me.
 
 **Adam Stacoviak:** Well, since you brought it back to Twitter, this tweet storm we talked through here - which we didn't go through all of them, and I'm not sure we can actually link to it, because your account is protected, at least now...
 
@@ -604,7 +604,7 @@ But the weirdest response that I got was all these people came out and they said
 
 The one thing I did think is one problem is if you're an organization that's really huge and you would like to pay developers, you don't know what software you're using. It's really difficult to account for -- let's say you're running thousands of machines to power your website, and you know that there's some hidden GPL in there. You know there's GPL-ed code in there. So what you could do is - a blockchain's only really useful thing would be you could register code into it, and then organizations could use that registration to confirm whether they are complying with licenses, whether they need to release software or whether they need to contact you and get a license. I think that would be something viable.
 
-\[01:24:13.20\] You would probably just have to sell that tool to larger organizations, and then offer programmers -- say "Yeah, what we'll do is we'll send you a report with all these companies that are willing to say 'Yeah, we're using your GPL. We made these changes. Here you go.' and act as a proxy and solve that problem for them." But otherwise, I don't know; if I'm getting coins, I don't think I can eat. I want dollar bills, you know? The best \[unintelligible 01:24:40.07\]
+\[01:24:13.20\] You would probably just have to sell that tool to larger organizations, and then offer programmers -- say "Yeah, what we'll do is we'll send you a report with all these companies that are willing to say 'Yeah, we're using your GPL. We made these changes. Here you go.' and act as a proxy and solve that problem for them." But otherwise, I don't know; if I'm getting coins, I don't think I can eat. I want dollar bills, you know? The best coin ever.
 
 **Adam Stacoviak:** Well, I mean, I can agree on one part where the blockchain makes sense as a ledger, but the coin part obviously is the stretch. It's like "Well, not really a lot of value there." And there's a lot of volatility.
 
@@ -626,7 +626,7 @@ The one thing I did think is one problem is if you're an organization that's rea
 
 **Zed Shaw:** So they don't have to make calls out to some central repository that's tracking everything they use. They can keep that a secret.
 
-**Adam Stacoviak:** Which you can run data analysis on, \[unintelligible 01:25:51.07\] algorithms, and ranking...
+**Adam Stacoviak:** Which you can run data analysis on, and machine learning and algorithms, and ranking...
 
 **Zed Shaw:** Yeah. Can you imagine - if you're a company and you're doing this; everyone is checking their software, and you've got a central database, you know every company and all the things they're running. Then your competitor buys that company, and you're like "Oh man, now they know everything we run." So if it's like blockchain distributed, you just do that locally... You're like, "Okay, cool." People are registering their source code into it, and then you look, you go "Oh, great." Then the next step is you go and hand that person money or code. Like if it's GPL, you give them their code back, or you say "Hey, we don't wanna give you your code back. Can we just pay you cash?" A quick exchange of licenses and you're done.
 
