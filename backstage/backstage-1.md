@@ -8,7 +8,7 @@
 
 **Tim Smith:** I'm tired...
 
-**Jerod Santo:** And you've got your own \[unintelligible 00:00:45.20\] but it's a good thing.
+**Jerod Santo:** And you've got.. you're running on fumes but it's a good thing. 
 
 **Adam Stacoviak:** It's a really good thing. It feels good.
 
@@ -120,7 +120,7 @@ I think the low definitely is, man, this is tiring. It is. I'm feeling it today.
 
 **Jerod Santo:** That's right.
 
-**Adam Stacoviak:** \[unintelligible 00:05:11.23\]
+**Adam Stacoviak:** ...I'm not all he's cracked up to be. I'm not what he expected.
 
 **Tim Smith:** I feel like we've jelled really well.
 
@@ -156,7 +156,7 @@ I think the low definitely is, man, this is tiring. It is. I'm feeling it today.
 
 **Adam Stacoviak:** Familiar faces.
 
-**Jerod Santo:** \[unintelligible 00:06:31.29\] right now...
+**Jerod Santo:** Lowlights would probably be right now...
 
 **Tim Smith:** We all keep coming back to the same thing.
 
@@ -276,7 +276,7 @@ So the focus for a little bit now, maybe these next 6-8 months, is polish, growt
 
 **Jerod Santo:** ...to everyone. \[laughter\]
 
-**Adam Stacoviak:** Scalable AI. \[unintelligible 00:15:32.02\]
+**Adam Stacoviak:** Scalable AI. That's a \[unintelligible 00:15:36.02\] joke
 
 **Jerod Santo:** That's what I've learned today, or yesterday - the strength of a solid tagline for your podcast... Because when people ask you what it is, you don't even have to think; you can just say the tagline, and they're like "Okay, I've got it. There it is." So I'm glad that we've been finessing those.
 
@@ -300,7 +300,7 @@ So the focus for a little bit now, maybe these next 6-8 months, is polish, growt
 
 **Tim Smith:** I really like the direction that the two of you have been taking with the Changelog recently... And I don't know if this is 100% on purpose, but a lot of the conversations--
 
-**Jerod Santo:** Nothing we do is on purpose... \[laughter\] \[unintelligible 00:17:12.05\]
+**Jerod Santo:** Nothing we do is on purpose... \[laughter\] \...it's probably 100% on accident
 
 **Tim Smith:** ...a lot of the conversations that you've been having recently are on the sustainability of open source long-term, and I really enjoy those conversations.
 
