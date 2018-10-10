@@ -6,7 +6,7 @@
 
 **Jerod Santo:** I think that's right. In fact, we are gonna have him on this show as well. We have three awesome guests and we figured we'd let them take the spotlight, since they have been highly involved in the project as well as Ilya.
 
-**Adam Stacoviak:** Right. So we've got GitHub and Google coming together, Google cloud specifically, along with Google BigQuery. Fun announcement around data sets that run GitHub, opening those up, BigQuery... We use BigQuery actually as sort of a byproduct of previous work from Ilya with was GitHub Archive, and we worked with him to take over the \[unintelligible 00:02:28.19\] that was coming from that, and now we call that Changelog Nightly. So that's kind of interesting...
+**Adam Stacoviak:** Right. So we've got GitHub and Google coming together, Google cloud specifically, along with Google BigQuery. Fun announcement around data sets that run GitHub, opening those up, BigQuery... We use BigQuery actually as sort of a byproduct of previous work from Ilya with was GitHub Archive, and we worked with him to take over the email that was coming from that, and now we call that Changelog Nightly. So that's kind of interesting...
 
 **Jerod Santo:** Yeah. in fact we had a brief hiccup in the transition, but one that we are happy to work around. What they have been doing behind the scenes is making GitHub Archive and the Google BigQuery access to GitHub lots more interesting. We are gonna hear all about that.
 
@@ -258,7 +258,7 @@ I have this pretty interesting query that might take two minutes. What about if,
 
 **Adam Stacoviak:** That's fast.
 
-**Felipe Hoffa:** Yeah, that's how cool things get. Yes, so going to back to dreams. Just seeing data \[unintelligible 01:02:58.23\], seeing people share data here whets my appetite for how can I join different data sets. For example, something I ran last year when I got all of Hacker News inside BigQuery, the whole history of comments and posts, was to see how being mentioned on Hacker News affected the number of stars you got on GitHub. I can send you that link too.
+**Felipe Hoffa:** Yeah, that's how cool things get. Yes, so going to back to dreams. Just seeing data in BigQuery, seeing people share data here whets my appetite for how can I join different data sets. For example, something I ran last year when I got all of Hacker News inside BigQuery, the whole history of comments and posts, was to see how being mentioned on Hacker News affected the number of stars you got on GitHub. I can send you that link too.
 
 **Adam Stacoviak:** Or you can also have the public data set of the Changelog, and when we release new shows how popular that project might get.
 
@@ -314,7 +314,7 @@ Will, what's the first step for something like that? You said that that's an ope
 
 **Felipe Hoffa:** Yes. I would like to add that on the technical, if tomorrow ten thousand people want to open data sets on BigQuery, that's completely possible. Anyone can just go and load it on BigQuery and then make it public. What we are offering with this program is support to have your data set publicized, shown, taking care of paying for the hosting price, but you can just go and do it yourself. Working with us is cool, but you don't need to go through a manual process, you can go and do it.
 
-**Will Curran:** That's an excellent point, and to be clear, you can upload your data and then put \[unintelligible 01:18:14.28\] on it to make it public, and then anybody that queries that data, you are not gonna be charged for their queries.
+**Will Curran:** That's an excellent point, and to be clear, you can upload your data and then put ackles on it to make it public, and then anybody that queries that data, you are not gonna be charged for their queries.
 
 **Adam Stacoviak:** Gotcha. That's good then. So you can mainly do it if you have a big data set and you want some extra handholding, so to speak. So email the email you've mentioned. We'll also copy that down and put it in the show notes, but it's possible to do that on your own, as you mentioned, through the BigQuery interface and making it public and not being charged. That's a good thing.
 
