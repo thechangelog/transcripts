@@ -252,7 +252,7 @@ And also, I'm not convinced that we necessarily move on to a new thing. If we mo
 
 **Mikeal Rogers:** Yeah, I mean we have very good methods by which we can forget about how bad a project might be run or what state it might be in in terms of sustainability by just isolating it, rather than dealing with the problem. And that's a very problematic way to do it.
 
-**Karl Fogel:** Yeah... You know, it's funny, the argument I've been making reminds me of one I hate... I hate George W. Bush actually made this when he was governor or Texas. Basically, there were these prisoners on death row, and some of them were innocent, and these nonprofit, volunteer-run student law clinic things would go into all this research and prove that the person was innocent and finally get them off death row after years and years and every obstacle in the world being thrown at them. And when that happened, the governor who had not ever pardoned them or anything until the evidence would say, "See? The system works."
+**Karl Fogel:** Yeah... You know, it's funny, the argument I've been making reminds me of one I hate... I hate George W. Bush actually made this when he was governor or Texas. Basically, there were these prisoners on death row, and some of them were innocent, and these nonprofit, volunteer-run student law clinic things would go into all this research and prove that the person was innocent and finally get them off death row after years and years and every obstacle in the world being thrown at them. And when that happened, the governor who had not ever pardoned them or anything until the evidence was clear, would say, "See? The system works."
 
 **Nadia Eghbal:** Yeah, that's you now, Karl. You're like George W. Bush. \[laughs\]
 
