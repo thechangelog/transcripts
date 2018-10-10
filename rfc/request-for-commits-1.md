@@ -309,7 +309,7 @@ EGCS started accepting all those patches that the GCC copy wouldn't take, and ev
 
 **Karl Fogel:** Well, the degree... The ease with which it is possible to motivate people to make a fork or to change something will always be directly proportional to the amount of need for that change. If no one's motivated to change anything, that just means it's not important to someone for something to get changed, so why should we care?
 
-**Nadia Eghbal:** I don't know if people can hate using something... There's a ton of legacy open source projects that are used in everybody's code and it's just really hard to switch out because everyone uses them.
+**Nadia Eghbal:** Yeah, I don't know if--People can hate using something... There's a ton of legacy open source projects that are used in everybody's code and it's just really hard to switch out because everyone uses them.
 
 **Mikeal Rogers:** I think the difference though is that there's just not enough people... Yes, people hate using it, but there's not enough people that want to be developing on it that can't, that would then fork it and fix it. And think that there's a tension here between the people using it and the people that wanna contribute and can't, or wanna fix this and can't. And sometimes it really is too difficult to pull that out. But io.js was a pretty successful fork, and that was in large part because there were a lot of people that wanted to contribute that couldn't, and that wanted to take on ownership of the project and couldn't. So there was a thriving community actually working on it, and then people that were using were like "Oh great, I can come and use this."
 
