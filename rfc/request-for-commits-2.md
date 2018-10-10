@@ -240,7 +240,7 @@ If there's a core group of people that are really comfortable with the contribut
 
 **Karl Fogel:** I never dreamed that I would be making a market fundamentalist argument; I'm the last person to do that, but I guess I kind of am. \[laughter\] \[unintelligible 00:51:51.29\]
 
-**Mikeal Rogers:** \[00:51:57.09\] Back to your point that if it gets bad enough there will be a fork - I think that's sort of like escape your escape path, like the reason that "the market is gonna figure this out" is that if it gets bad enough there will be a fork.
+**Mikeal Rogers:** \[00:51:57.09\] Back to your point that if it gets bad enough there will be a fork - I think that's sort of like escape hatch, like the reason that "the market is gonna figure this out" is that if it gets bad enough there will be a fork.
 
 **Karl Fogel:** Oh, yeah.
 
