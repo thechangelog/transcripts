@@ -127,7 +127,7 @@ So has it changed the culture of open source? That's the thing, I'm not really s
 
 **Karl Fogel:** Yeah, and that's one thing that Subversion never had - a default visual web browser interface. There were several of them and your project had to pick, so the one you picked might be different from what some other project picked. With GitHub it's like... There are a lot of people who think of Git as GitHub. They think that that web interface that you see on GitHub, that is part of Git. Obviously, in some technical sense that's not correct, but in a larger sense, as far as their experience and their actual workflow is concerned, that's a pretty accurate way of looking at it.
 
-**Mikeal Rogers:** Yeah. I think also - and this is one that is really to glance over if you have any experience, but because we're in this new, publish-first mindset, newer people will publish stuff and put it up there, and they'll actually get contributions. And it actually takes a much broader skillset to take contributions than it takes to push them to other projects, especially in traditional tooling, and GitHub also makes that incredibly easy. Their diff view is quite nice. They have the image different...
+**Mikeal Rogers:** Yeah. I think also - and this is one that is really easy to glance over if you have any experience, but because we're in this new, publish-first mindset, newer people will publish stuff and put it up there, and they'll actually get contributions. And it actually takes a much broader skillset to take contributions than it takes to push them to other projects, especially in traditional tooling, and GitHub also makes that incredibly easy. Their diff view is quite nice. They have the image different...
 
 **Karl Fogel:** Yeah, it really is.
 
