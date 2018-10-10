@@ -134,7 +134,7 @@ So there's a general trend I think towards everything getting smaller and packag
 
 **Andrew Nesbitt:** Yeah, I don't think there are many other package managers other than NPM that allow you to run multiple versions of a package at the same time, and partly because of the danger of doing that, that you introduce potentially really subtle bugs in the process. But most of the package managers in the languages that at least I have an experience with will load the thing into a global namespace, or the resolver will make sure that it either resolves correctly to only have one particular version of a thing, or it will just throw its hands up and go "I can't resolve this dependency tree."
 
-**Mikeal Rogers:** Yeah, it's important enough that that's not part of NPM, it's part of Node. Node's resolution semantics enable you to do that; it's not actually in NPM. NPM is just the vehicle by which these things get published and put together.
+**Mikeal Rogers:** Yeah, it's important to note that's not part of NPM, it's part of Node. Node's resolution semantics enable you to do that; it's not actually in NPM. NPM is just the vehicle by which these things get published and put together.
 
 I think there's been valiant efforts to make an installer and an NPM-like thing in Python, and they eventually hit this problem where you actually need to change the module system a bit.
 
