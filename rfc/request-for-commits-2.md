@@ -234,7 +234,7 @@ If there's a core group of people that are really comfortable with the contribut
 
 **Nadia Eghbal:** Well, this is the hard thing about any sort of software infrastructure, the tension between do you just build something new or move on to the next thing when the old one has run its course, or do you try to reinvest back into older projects? And I get that software or anything digital will always move a lot faster than anything physical, but a part of me wonders whether we just accept that norm of "Oh, you know, we just move on to the next project" because there are no resources available for people to improve the existing ones?
 
-**Karl Fogel:** Yeah, I don't know how to make the argument that the places people are allocating the resources now are the wrong ones, and that they should be allocating them in some other way instead. Because whenever look closely at how someone is allocating their time and attention, I can see the reasons why they chose to do that, and I don't see a convincing way to say to them, "Oh, you should be doing this other thing instead."
+**Karl Fogel:** Yeah, I don't know how to make the argument that the places people are allocating the resources now are the wrong ones, and that they should be allocating them in some other way instead. Because whenever I look closely at how someone is allocating their time and attention, I can see the reasons why they chose to do that, and I don't see a convincing way to say to them, "Oh, you should be doing this other thing instead."
 
 **Nadia Eghbal:** I don't either, and I think that's part of the problem.
 
