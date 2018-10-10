@@ -298,7 +298,7 @@ If you launch a technology project and it fails and only your department ever kn
 
 **Mikeal Rogers:** Right. There's a lot of churn on GitHub. It's sort of baked into the system that if you do things as much, many of them are gonna fail.
 
-**Karl Fogel:** Yeah. This was the exact argument... We actually saw this debate play out with Solyndra. The US government gave some form of loan guarantee, I don't know the exact structure, but some kind of subsidy essentially, to a bunch of solar power and other clean energy companies - Solyndra was one of them - and in fact, the government turned out to have been a pretty good VC. Its successful investment ratio was not bad for those investments, but Solyndra was a pretty big fail in that set, so the administration got hugely slammed for a portfolio that any VC would have been happy to have. This just shows you how different the incentives are in government.
+**Karl Fogel:** Yeah. This was the exact argument... We actually saw this debate play out with Solyndra. The US government gave some form of loan guarantee, I don't know the exact structure, but some kind of subsidy essentially, to a bunch of solar power and other clean energy companies - Solyndra was one of them - and in fact, the government turned out to have been a pretty good VC. Its successful investment ratio was not bad for those solar investments, but Solyndra was a pretty big fail in that set, so the administration got hugely slammed for a portfolio that any VC would have been happy to have. This just shows you how different the incentives are in government.
 
 **Mikeal Rogers:** Man, I think that we have to leave it there, but I anticipate probably having you come back to talk just about this, government and open source.
 
