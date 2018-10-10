@@ -256,7 +256,7 @@ And also, I'm not convinced that we necessarily move on to a new thing. If we mo
 
 **Nadia Eghbal:** Yeah, that's you now, Karl. You're like George W. Bush. \[laughs\]
 
-**Karl Fogel:** Yes, so I'm sort of saying, "Look, things get really, really bad and people move heaven and earth to make the right outcome happen \[unintelligible 00:54:17.17\] system worked, because they could fork.
+**Karl Fogel:** Yes, so I'm sort of saying, "Look, things get really, really bad and people move heaven and earth to make the right outcome happen and like "Hey, the system worked," because they could fork.
 
 **Nadia Eghbal:** That's my fundamental... For coming from nonprofit background from way back in the day, it just sort of boggles my mind that... Yes, in the nonprofit sector for example, no one expects to get rich in nonprofits, but you get a salary, so there is money flowing into the nonprofit sector in some shape or form. I just suggest that there should just be no money flowing in, or if it works because volunteers do everything, that's fine. Sure, it might get done, but is that really the right way of doing things in the world?
 
