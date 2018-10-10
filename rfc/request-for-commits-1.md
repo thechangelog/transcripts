@@ -209,7 +209,7 @@ The ratio of the volume to the surface is constantly increasing, and most of tha
 
 **Nadia Eghbal:** I wonder if those battles are gonna be addressed maybe not through software freedom or open source or those types of movements, but I guess as you're describing it, I'm thinking more around hacker/maker movements and hardware stuff, or they might come at it from the same angle, saying "Why can't I just modify anything?"
 
-**Karl Fogel:** Yeah, and you do see a lot of that. I saw a keynote at the O'Reilly OSCom, the Open Source Convention, you probably saw it, too... The woman who had hacked her own insulin pump; the software that controls a device that dispenses a chemical into her bloodstream turned out to be hackable, so they hacked it.
+**Karl Fogel:** Yeah, and you do see a lot of that. I saw a keynote at the O'Reilly OSCon, the Open Source Convention, you probably saw it, too... The woman who had hacked her own insulin pump; the software that controls a device that dispenses a chemical into her bloodstream turned out to be hackable, so they hacked it.
 
 So I think you're right, the maker movement is driving it, and they share a lot of language and people with the open source movement. I just used the open source movement unironically; to me it's largely the same as the free software movement.
 
