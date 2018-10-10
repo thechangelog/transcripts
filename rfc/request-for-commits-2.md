@@ -108,7 +108,7 @@ The reason to have governance is the non-replicable resource; the finite resourc
 
 This is a very cynical way of saying it and I don't actually think of it this way, but it's a kind of Stalinist move. How to become Joseph Stalin or any dictator? You convince everyone in the room that everyone else in the room will obey you. Once every person believes that about the people around them, they will obey you too, because it's too dangerous not to. Well, open source is the nice version of that - how do you convince every developer that every other developer really believes in the current leadership structure and in the way things are going. Once you figure out how to do that, you're gonna have a stable project.
 
-So that is not really an exercise in governance. You don't need a police force, you don't need national defense, you don't need a courts system to make that work. You just need persuasion and personal skills.
+So that is not really an exercise in governance. You don't need a police force, you don't need a national defense, you don't need a courts system to make that work. You just need persuasion and personal skills.
 
 Now, we can notice of course that many projects do evolve some kind of formal governance structure and sometimes it involves voting. Usually, voting is a fallback mechanism for when consensus cannot be reached. It's not like they vote on every decision, but everyone knows that the potential to hold a vote is there, and so they will sense which way the wind is going and give a decision and just compromise and go with that, because they know they will lose the vote anyway or, conversely, win the vote.
 
