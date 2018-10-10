@@ -215,7 +215,7 @@ So I think you're right, the maker movement is driving it, and they share a lot 
 
 So yeah, there are various pressures toward people having the ability to customize or to invite other people to help them customize the devices that run increasingly large swaths of our lives. I guess what's happened is open source kept winning individual battles, but the number of things that software took a controlling role in kept increasing so rapidly that the percentage of things that are open source on the surface has been going down, even as open source keeps winning area after area.
 
-**Mikeal Rogers:** I think that if you separated it nicely into two camps, if you look at the production of software versus the consumption of software, the reason we keep talking about open source winning is because it really has won or very close to winning the production of software. If you were a developer in the early '90s, most if not all of your toolchain was proprietary. The way that you developed software was to use other proprietary software; that's completely turned on its head.
+**Mikeal Rogers:** I think that if you separated it nicely into two camps, if you look at the production of software versus the consumption of software, the reason we keep talking about "open source is winning" is because it really has won or very close to winning the production of software. If you were a developer in the early '90s, most if not all of your toolchain was proprietary. The way that you developed software was to use other proprietary software; that's completely turned on its head.
 
 **Karl Fogel:** Yeah, that was probably true, although it didn't have to be.
 
