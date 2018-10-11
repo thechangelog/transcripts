@@ -42,9 +42,9 @@ Jessie, you also have a new job, right?
 
 **Erik St. Martin:** So you're getting to work on Kubernetes, or...?
 
-**Jessie Frazelle:** Yeah, I'll be working on Kubernetes. I don't know specifically what yet. Before, I had previously made a PR to add a \[unintelligible 00:03:09.01\] to Kubernetes, and then I made a pull request to also clean up some Docker files and then \[unintelligible 00:03:17.02\] a few things, so hopefully that's good.
+**Jessie Frazelle:** Yeah, I'll be working on Kubernetes. I don't know specifically what yet. Before, I had previously made a PR to add a \[unintelligible 00:03:09.01\] to Kubernetes, and then I made a pull request to also clean up some Docker files and then Go Lint a few things, so hopefully that's good.
 
-**Carlisia Pinto:** \[unintelligible 00:03:20.15\]
+**Carlisia Pinto:** I want to put a word in and say congratulations, Jess.
 
 **Jessie Frazelle:** Thanks.
 
@@ -54,7 +54,7 @@ Jessie, you also have a new job, right?
 
 **Erik St. Martin:** Are you working with Kelsey and everybody, too?
 
-**Jessie Frazelle:** Yeah, Kelsey and them are all there, and Francesc - it's all super-cool \[unintelligible 00:03:43.10\] teams, and even in my first week I had multiple people e-mailing me who I had maybe only seen their names on like a kernel mailing list. I'm like, "Wow, you're really cool." So I \[unintelligible 00:03:56.04\] a ton of really cool people, I guess.
+**Jessie Frazelle:** Yeah, Kelsey and them are all there, and Francesc - it's all super-cool people teams, and even in my first week I had multiple people e-mailing me who I had maybe only seen their names on like a kernel mailing list. I'm like, "Wow, you're really cool." So they just have a ton of really cool people, I guess.
 
 **Erik St. Martin:** A little star struck?
 
@@ -140,7 +140,7 @@ After the design review, we go through and do a full-on code review, but I would
 
 **Erik St. Martin:** Docker inception.
 
-**Jessie Frazelle:** And it also just totally messes with your server after. So we then switched to Jenkins. I kind of just switched it overnight, and at first a few people got mad, just because nobody likes change. And it didn't exactly work right away, but once we got things working, now it's all still Jenkins and there's multiple architecture builds. It's kind of cool, there's like arm-power-z... IBM gave us these \[unintelligible 00:13:38.14\] and then they ended up bein really slow.
+**Jessie Frazelle:** And it also just totally messes with your server after. So we then switched to Jenkins. I kind of just switched it overnight, and at first a few people got mad, just because nobody likes change. And it didn't exactly work right away, but once we got things working, now it's all still Jenkins and there's multiple architecture builds. It's kind of cool, there's like arm-power-z... IBM gave us these power-z nodes and I was like "ooh, mainframe!" and then they ended up being really slow.
 
 **Brian Ketelsen:** Did you hack the Gibson?
 
@@ -148,9 +148,9 @@ After the design review, we go through and do a full-on code review, but I would
 
 **Erik St. Martin:** So talk to us a little bit about what you worked on for Docker, because Docker's a pretty big project. Now it's split up across I don't even know how many repos and subprojects, but what specifically did you enjoy working on?
 
-**Jessie Frazelle:** Yeah, I think most of the engine team itself worked on more the container runtime stuff and design of the CLI. Then there was another whole team that handled all the distribution of tarballs. I like more of that, and then also I ended up doing that whole thing with the CI, where I was like the CI assist admin for way too long. Then also I redid our entire bash scripts for our \[unintelligible 00:14:32.07\] repo and set up an rpm repo as well; now they're stuck with those terrible bash scripts because of me, but... \[laughs\]
+**Jessie Frazelle:** Yeah, I think most of the engine team itself worked on more the container runtime stuff and design of the CLI. Then there was another whole team that handled all the distribution of tarballs. I like more of that, and then also I ended up doing that whole thing with the CI, where I was like the CI assist admin for way too long. Then also I redid our entire bash scripts for our apt repo and set up an rpm repo as well; now they're stuck with those terrible bash scripts because of me, but... \[laughs\]
 
-**Erik St. Martin:** I hope I have the name right... I think it was \[unintelligible 00:14:47.19\] that said this, and he said something along the lines of the thing he fears the most about releasing stuff open source is having to maintain it. And it's almost the same thing - you build the CI thing out and it's awesome, but now you're the maintainer.
+**Erik St. Martin:** I hope I have the name right... I think it was Yehuda Katz that said this, and he said something along the lines of the thing he fears the most about releasing stuff open source is having to maintain it. And it's almost the same thing - you build the CI thing out and it's awesome, but now you're the maintainer.
 
 **Jessie Frazelle:** Yeah, and it became super stressful because the Windows servers that we had for some reason needed to be restarted every other day. So just the first ten minutes of my day were like restarting Windows servers, and I was like "This is such a waste..." And there was an entire team that did CI for the enterprise side of Docker, so finally they took it over and redid it; it made it way better than I ever could, because I really didn't know that much about Jenkins and stuff like that. So I think now it actually runs pretty well, but it was pretty stressful there for a time.
 
@@ -330,7 +330,7 @@ I've seen this... I think you've talked about it maybe a year or so ago, and I k
 
 **Brian Ketelsen:** Is that a bad thing, though?
 
-**Jessie Frazelle:** No, that's something that would be so cool, but I would need help from their end. They have exporting at one point, and I don't know if it was correct \[unintelligible 00:31:19.21\] let me use it, and I was like "Okay, please."
+**Jessie Frazelle:** No, that's something that would be so cool, but I would need help from their end. He had X working at one point, and I don't know if it was correct X. He wouldn't let me use it, and I was like "Okay, please."
 
 **Erik St. Martin:** He was just keeping it a secret to himself.
 
@@ -408,7 +408,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** I'll have to find some, too. Katrina Owen sent a bunch of links and videos and book suggestions on Twitter for public speaking stuff. I'll find those...
 
-**Carlisia Pinto:** I know you're super busy - if you give them to me I'll put it in. She's also on the Women Who Go channel and she has put a bunch of information. She opened a \[unintelligible 00:39:37.10\] Women, we have resources! I wanna get this thing kicked off. I know Cassandra Gil from Iron.io was looking for women to speak at the GopherFest recently, and she only got one submission from a woman, and it wasn't even technical enough. There are women Gophers out there, so let's get them speaking.
+**Carlisia Pinto:** I know you're super busy - if you give them to me I'll put it in. She's also on the Women Who Go channel and she has put a bunch of information. She opened a Trello board. Women, we have resources! I wanna get this thing kicked off. I know Cassandra Gil from Iron.io was looking for women to speak at the GopherFest recently, and she only got one submission from a woman, and it wasn't even technical enough. There are women Gophers out there, so let's get them speaking.
 
 **Jessie Frazelle:** \[00:40:04.00\] Totally!
 
@@ -462,9 +462,9 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Jessie Frazelle:** Yeah, yeah.
 
-**Erik St. Martin:** It seemed like a lot of it was logging packages, like glog and \[unintelligible 00:43:16.04\]...
+**Erik St. Martin:** It seemed like a lot of it was logging packages, like glog and logrus...
 
-**Jessie Frazelle:** Yeah, there was a \[unintelligible 00:43:19.08\] and then another one that was like top two.
+**Jessie Frazelle:** Yeah, there was logrus and then another one that was like top two.
 
 **Erik St. Martin:** I think the one that surprised me was Assert. It was used more than anything. it was used more than the context package and a bunch of other things; I was really surprised to see that, the Testify framework, which I haven't actually used, but it must be used quite a bit for it to be up there. I tend to stick to old school, I use a lot of standard library.
 
@@ -656,7 +656,7 @@ Then also my co-worker from Docker, Michael Crosby, he has the world's best gist
 
 **Erik St. Martin:** Yeah, it's got multiple columns and all that good stuff.
 
-**Brian Ketelsen:** \[unintelligible 00:57:44.13\] Midnight Commander.
+**Brian Ketelsen:** Like Midnight Commander.
 
 **Erik St. Martin:** But better.
 
@@ -664,7 +664,7 @@ Then also my co-worker from Docker, Michael Crosby, he has the world's best gist
 
 **Erik St. Martin:** It has to be better.
 
-**Brian Ketelsen:** \[unintelligible 00:57:51.05\] a DOS age. When I was a kid we didn't have Windows, we had DOS, and we used Midnight Commander.
+**Brian Ketelsen:** I am DOS age. When I was a kid we didn't have Windows, we had DOS, and we used Midnight Commander.
 
 **Jessie Frazelle:** I have a DOS computer in front of me right now. \[laughs\]
 
@@ -678,7 +678,7 @@ Then also my co-worker from Docker, Michael Crosby, he has the world's best gist
 
 **Erik St. Martin:** I don't think I wanna know what a C or C++ build takes on that.
 
-**Jessie Frazelle:** \[unintelligible 00:58:14.17\] So bad, probably.
+**Jessie Frazelle:** So bad, probably.
 
 **Brian Ketelsen:** It doesn't count if you're using it as a monitor stand, Jessie.
 
@@ -688,7 +688,7 @@ Then also my co-worker from Docker, Michael Crosby, he has the world's best gist
 
 **Jessie Frazelle:** Pretty much. I'm like a San Francisco computer hipster.
 
-**Erik St. Martin:** A lot of people are getting back into collecting old hardware like that. And what was that new Kickstarter that just came out, that \[unintelligible 00:58:52.21\] That looked really cool too, being able to play retro games on it, and stuff.
+**Erik St. Martin:** A lot of people are getting back into collecting old hardware like that. And what was that new Kickstarter that just came out, that chip. That looked really cool too, being able to play retro games on it, and stuff.
 
 **Jessie Frazelle:** Oh, nice.
 
