@@ -1,14 +1,14 @@
-**Jerod Santo:** So it's Thursday afternoon here at OSCON, things are slowing down a little bit... Everybody's enjoying their afternoons. Jerod, Adam and Tim here. What's up, guys?
+**Jerod Santo:** So it's Thursday afternoon here at OSCON, things are slowing down a little bit... Everybody's enjoying their afternoons. Jerod, Adam and Tim here. What's up, guys how are you doing today?
 
 **Tim Smith:** Hello?
 
 **Adam Stacoviak:** Very good, thank you. \[laughter\]
 
-**Jerod Santo:** As you can tell, we've reached the part of all big conferences where you're a little loopy, you've been going, going, going...
+**Jerod Santo:** As you can tell, we've reached the part of all big conferences where you're a little loopy, you've been going, going, going and going! how do you feel?
 
 **Tim Smith:** I'm tired...
 
-**Jerod Santo:** And you've got.. you're running on fumes but it's a good thing. 
+**Jerod Santo:** And you've got.. well you're running on fumes but it's a good thing. 
 
 **Adam Stacoviak:** It's a really good thing. It feels good.
 
@@ -16,7 +16,7 @@
 
 **Adam Stacoviak:** A lot of people.
 
-**Jerod Santo:** We have met a lot of people.
+**Jerod Santo:** We have met a lot of people here as you can see.
 
 **Tim Smith:** I'm shocked at how many people don't know who we are... \[laughter\] But I think that's a good thing, because that means that we're talking to the right people.
 
