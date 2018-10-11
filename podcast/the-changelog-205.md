@@ -353,11 +353,11 @@ I don't so much have this belief myself, because I'm not a true Texan - this is 
 
 **Adam Stacoviak:** ..."come and take it" is a thing that Texans say.
 
-**Jerod Santo:** That's Mark Kessler.
+**Jerod Santo:** That's machismo.
 
 **Adam Stacoviak:** Yeah, it is. Come and take it, come and take it.
 
-**Pieter Hintjens:** That's Mark Kessler. I wanted to make a conference called "Guns and Code." I had the domain name GunsAndCode and I was gonna do this probably in Oregon, rent a cabin, have a bunch of friends up there, and just rent a bunch of guns and ammunition, and randomly code and randomly shoot.
+**Pieter Hintjens:** That's machismo. I wanted to make a conference called "Guns and Code." I had the domain name GunsAndCode and I was gonna do this probably in Oregon, rent a cabin, have a bunch of friends up there, and just rent a bunch of guns and ammunition, and randomly code and randomly shoot.
 
 **Adam Stacoviak:** Could be fun, I would attend.
 
