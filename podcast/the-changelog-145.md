@@ -168,7 +168,7 @@ If you have a very particular affinity for, say -- I love riffin' on this, so I'
 
 **Adam Stacoviak:** I like the analogy.
 
-**David Heinemeier Hansson:** But the other 20 dishes, they're still designed, on the menu, because people sat down and thought, "Hey, what would make a good menu here?" Again, this is actually a \[unintelligible 00:32:39.10\] which is why I love it. Rails is still a unique argument in the world. This is one of the many things that Rails have not won the majority mainstream argument on; I'd say this is why Rails is still an outlier when it comes to full-stack assemblies... Because most people, in their hearts, even if they sort of practically can recognize "Ugh, I guess Rails kind of makes it easy to get going fast, but ugh...!" Isn't that actually annoying that there's just something there that prevents more programmers from going down that path? I think that's both curious and a little funny, that people on the one hand can realize, "Okay, I get a lot of good out of this, but somehow it's just so deeply at odds with the philosophy that it allows them to produce that good, but they can't kind of hold those ideas in their head at the same time.
+**David Heinemeier Hansson:** But the other 20 dishes, they're still designed, on the menu, because people sat down and thought, "Hey, what would make a good menu here?" Again, this is actually a contentious point which is why I love it. Rails is still a unique argument in the world. This is one of the many things that Rails have not won the majority mainstream argument on; I'd say this is why Rails is still an outlier when it comes to full-stack assemblies... Because most people, in their hearts, even if they sort of practically can recognize "Ugh, I guess Rails kind of makes it easy to get going fast, but ugh...!" Isn't that actually annoying that there's just something there that prevents more programmers from going down that path? I think that's both curious and a little funny, that people on the one hand can realize, "Okay, I get a lot of good out of this, but somehow it's just so deeply at odds with the philosophy that it allows them to produce that good, but they can't kind of hold those ideas in their head at the same time.
 
 **Jerod Santo:** It has gotten a lot easier to swap in/swap out the shellfish or whatever, to pick and choose pieces as Rails matured over time. We'll talk about the history of the framework, but I do wanna go back to the point you said about "It works great for UNIX, but it doesn't work for the web." I'm wondering why you think that is.
 
@@ -294,7 +294,7 @@ We spent the time and ported over a bunch of these Merb advances in efficiency a
 
 **Jerod Santo:** Yeah, not doubt the community bolstered and not divided is a huge win. What were some of the technical wins, in your mind, of the merge?
 
-**David Heinemeier Hansson:** \[01:00:05.29\] Efficiency. I'd say efficiency and extendability, to some extent. There was a perception that the \[unintelligible 01:00:14.15\] was completely fixed and that the chef would accept no substitutions, and that was not my opinion at all. It was my fault, obviously, for allowing that perception to be adopted out there, but what I just said was "Substitutions are fine, it's just not something I wanna work on. If you wanna work on it, if you wanna work on making it easier to swap in another testing framework, more power to you. I'll totally welcome your work. It's just not something I'm gonna spend my time on", and that was initially taken and my fault for not making that clearer, that the position was just not one that's saying like -- "Don't petition me to do it, because I'm not gonna do the damn work. Do you wanna do the damn work? Wonderful, we'll get along swimmingly", and so we did. We erased some of those misconceptions that had arisen, and we got a lot of extendability in for it.
+**David Heinemeier Hansson:** \[01:00:05.29\] Efficiency. I'd say efficiency and extendability, to some extent. There was a perception that the dish of Rails, the 21 course meal, was completely fixed and that the chef would accept no substitutions, and that was not my opinion at all. It was my fault, obviously, for allowing that perception to be adopted out there, but what I just said was "Substitutions are fine, it's just not something I wanna work on. If you wanna work on it, if you wanna work on making it easier to swap in another testing framework, more power to you. I'll totally welcome your work. It's just not something I'm gonna spend my time on", and that was initially taken and my fault for not making that clearer, that the position was just not one that's saying like -- "Don't petition me to do it, because I'm not gonna do the damn work. Do you wanna do the damn work? Wonderful, we'll get along swimmingly", and so we did. We erased some of those misconceptions that had arisen, and we got a lot of extendability in for it.
 
 I think it was after Rails 3 where RSpec, for example, didn't require a lot of monkey patching to do its work, because we had the hooks and extension points to make it possible, and we got a bunch of efficiency gains; I think the router was one of the things where a bunch of work went into that, and I think also in other places... They had just done some optimizations, because Engine Yard's work on Merb arose from watching a lot of people deploy apps on their platform and just falling over, because they had done something that either was inefficient, or -- they exposed inefficiencies in the framework, so they had a lot of data on where this went wrong, where I didn't have that data. I was sitting on the data from Basecamp, and when you were using Rails to build Basecamp, I wasn't hitting any of those things, right? And that is the power and wonder of a broad tent, of a broad community - everyone gets to bring their improvements to the table, and they can improve things even if I do not hit those problems.
 
@@ -310,7 +310,7 @@ So I was not hitting a lot of these issues, and still Rails became better. And m
 
 We need a larger team of more diverse interests where some people find great pleasure and value in doing the review of contributions work, and we have that today. That's basically what I was celebrating when we were talking about the 12,000 pull requests process. There was no way that was gonna happen back in the Rails 2 days, because we just didn't have the bandwidth as a community to adopt that and deal with it, and we learned a lot from it.
 
-\[01:04:10.19\] I think that the path today for new contributors is it's a lot nicer and friendlier than it was back then, and that's prevented us from running into the same issue \[unintelligible 01:04:20.27\] group we thought that their input wouldn't be valued.
+\[01:04:10.19\] I think that the path today for new contributors is it's a lot nicer and friendlier than it was back then, and that's prevented us from running into the same issue with the next splinter group we thought that their input wouldn't be valued.
 
 **Adam Stacoviak:** And now, a word from our sponsor.
 
@@ -322,7 +322,7 @@ We need a larger team of more diverse interests where some people find great ple
 
 Some of the optimizations - they had API changes behind them, too. So we were changing a lot of internals, and when you change a lot of internals (and we had a lot of changes like that), it just becomes harder to upgrade, and especially it becomes harder to upgrade if you have a Rails 2.3 application where you've made a lot of modifications to the framework yourself, because those modifications no longer work. If you were digging into the internals of the Rails setup, those internals just got blasted to smithereens.
 
-The upgrade from 2.3 to 3.0 was not actually terrible if you had no extensions to the Rails framework, but they were brutal if you had deep extensions to the Rails framework, because so much of the internal implementation changed, and that's of course exactly what a lot of big shops had... Because Rails 2.3 just didn't address as many concerns as Rails 4.2 does, and a lot of people at the time were making do with their own \[unintelligible 01:07:08.00\] to those implementations, and they weren't necessarily pushing that back upstream.
+The upgrade from 2.3 to 3.0 was not actually terrible if you had no extensions to the Rails framework, but they were brutal if you had deep extensions to the Rails framework, because so much of the internal implementation changed, and that's of course exactly what a lot of big shops had... Because Rails 2.3 just didn't address as many concerns as Rails 4.2 does, and a lot of people at the time were making do with their own attachments to those implementations, and they weren't necessarily pushing that back upstream.
 
 GitHub might have all sorts of extensions to let's say Active Record that dug deep into the bowels of how the query engine worked or something like that, and then if the query engine changes, then those didn't work anymore. So I think that was the core of it. But I think the asset pipeline is still a good story, because it was one in a long series of adoptions that Rails has made that was not universally liked at the time. Before that it was REST, and before that pluralization was one of the earliest ones I can remember having controversy around.
 
@@ -336,15 +336,15 @@ That reminds me of another big schism we had in the Rails community, which was t
 
 **Jerod Santo:** I thought you were gonna say CoffeeScript.
 
-**David Heinemeier Hansson:** That too, but that just follows the same pattern, so to me it's less interesting. I think the Bundler one was even more interesting, because the parallels to the asset pipeline are even clearer. To me -- I think it was probably Yehuda that showed me this, or maybe it was in a conversation with Yehuda, but very quickly after I saw Bundler I thought "This is obviously the solution." Obviously, there should be a way to declare your dependencies and have a way to resolve them, and that should not be checking in a copy of the engine you want to work with in your own source tree. That's a shitty solution. But there was so much pushback around Bundler, and a lot of the pushback came from "Bundler was broken", because Bundler was early and Bundler is solving a substantial problem, so there were just a lot of bugs in the beginning, and someone would get bitten by two or three Bundler bugs and they'd think "Bundler is a terminally flawed idea that cannot be trusted. Rip that s\*\*t up", right? \[unintelligible 01:11:02.07\]
+**David Heinemeier Hansson:** That too, but that just follows the same pattern, so to me it's less interesting. I think the Bundler one was even more interesting, because the parallels to the asset pipeline are even clearer. To me -- I think it was probably Yehuda that showed me this, or maybe it was in a conversation with Yehuda, but very quickly after I saw Bundler I thought "This is obviously the solution." Obviously, there should be a way to declare your dependencies and have a way to resolve them, and that should not be checking in a copy of the engine you want to work with in your own source tree. That's a shitty solution. But there was so much pushback around Bundler, and a lot of the pushback came from "Bundler was broken", because Bundler was early and Bundler is solving a substantial problem, so there were just a lot of bugs in the beginning, and someone would get bitten by two or three Bundler bugs and they'd think "Bundler is a terminally flawed idea that cannot be trusted. Rip that s\*\*t up", right? And that's what they would take away.
 
 It's funny, because this was not just novice users of Rails that had this opinion. I had epic debates with Jeremy Kemper over Bundler. He did not see the underlying value in Bundler for a very long time. There were some philosophical differences there too, which goes back to the debate of UNIX versus integrated systems, which was - I from the beginning said "I want (or rather I desire) the Rails dependencies to work as a bubble." When I declare that my Rails app uses this plugin, it should just be available. I don't wanna use 'require'. That's one of the underpinnings of most programming languages - you're explicit about your dependencies at the individual, sub-atomic level. In the individual file that uses a certain library, you include that specific library. I remember from my Java days where you'd just see those...
 
-**Jerod Santo:** Imports, like a bunch of \[unintelligible 01:12:05.08\]
+**Jerod Santo:** Imports, like a bunch at the top.
 
 **David Heinemeier Hansson:** \[01:12:06.24\] Imports at the top of the file, and they would just be like pages long, and I thought "That is just retarded. That's not how we're gonna play this game over here", and we didn't... Like, today in Rails, most Rails applications do not call require very much. Everything is auto-loaded when it comes to your own models and controllers and helpers and so forth, and even the default for Bundler is to auto-require the gems such that it's loaded at boot... Which I thought was a universal good, lots of other people did not at all think that that was a universal good. So that took months (if not years) for that to become established practice. Today, of course, it's a total non-issue. Nobody is going back and saying "Oh, I wish Bundler didn't exist. I wish I manually had to assemble my dependencies" and so forth. The debate is over, and we moved on.
 
-I think to a large extent the same is true for the asset pipeline. There are still some \[unintelligible 01:13:02.20\] of their own build pipes, but I think that the opposition moved on to a different spot, which is more around what should Rails do with client-side MVC, and how should it deal with that kind of stuff. Now \[unintelligible 01:13:16.20\] But the asset pipeline itself, for the use cases that Rails uses it for, that's no longer a point of controversy.
+I think to a large extent the same is true for the asset pipeline. There are still some holdouts who have their own build pipes, but I think that the opposition moved on to a different spot, which is more around what should Rails do with client-side MVC, and how should it deal with that kind of stuff. Now their sort of new \[unintelligible 01:13:16.20\] position there. But the asset pipeline itself, for the use cases that Rails uses it for, that's no longer a point of controversy.
 
 **Jerod Santo:** Right. The controversy nowadays, as you said, is on how Rails handles fat Javascript clients, and how that plays nice in that ecosystem which is becoming more and more popular as time passes... So how does it play? How now and how in the future will it handle Javascript?
 
@@ -374,7 +374,7 @@ I think going forward, we're gonna make it even easier for people who want to sa
 
 **Jerod Santo:** That sounds like a good idea to me. I've built Rails API servers and enjoyed using Active Record and Action Controller, and just not having a view layer rendering JSON; it's nice, so I'm glad to see... I used the Rails API project, which is a slimmed down version, so it's nice to see a lot of stuff is gonna get into--
 
-**David Heinemeier Hansson:** That's basically the foundation \[unintelligible 01:18:33.01\]
+**David Heinemeier Hansson:** That's basically the foundation, that's the spike.
 
 **Adam Stacoviak:** So maybe we can pause for just a second... If someone out there is working on a project that does what Merb did in the past, which maybe now has come to the table with the same opinion as you, they're something different that's an offshoot of Rails or a forked version of Rails that is better for API, how could they come back into the fold?
 
@@ -428,7 +428,7 @@ On top of that, of course, Ruby 2.2 came out, and Rails 5 is going to be a Ruby 
 
 **Adam Stacoviak:** Well, you're invited back on the show whenever you want, David. There's several offshoots to this conversation I'm sure we could have gone down, but we've been trying the best we can to cling to this 10+ years of Rails, and... I mean, in 10+ years you've got so much to cover that we really had to restrain ourselves from going down too many rabbit holes, but you're welcome back on anytime... Anytime you can make time to come back and talk through some of these offshoots.
 
-One of the things that I kind of wanted to talk through just real quick was just looking back at these ten years, \[unintelligible 01:26:14.00\] thank you for going through some of the - either accidentally or in preparation for this call - you know, mentioning 3,800 people contributed to the core Rails framework; you talked about how many pull requests that have gone out there... There's still 419 open, but there was 12,000 pull requests processed; that was in the preamble, and we're gonna try and somehow get it out there as an audio clip. But 12,000 pull requests - that's crazy. We've talked about the man hours behind that...
+One of the things that I kind of wanted to talk through just real quick was just looking back at these ten years, today thank you for going through some of the - either accidentally or in preparation for this call - you know, mentioning 3,800 people contributed to the core Rails framework; you talked about how many pull requests that have gone out there... There's still 419 open, but there was 12,000 pull requests processed; that was in the preamble, and we're gonna try and somehow get it out there as an audio clip. But 12,000 pull requests - that's crazy. We've talked about the man hours behind that...
 
 One specific thing that I think I wanna ask you before we go into a couple closing questions - and I think it's because you share so much wisdom because of this 10+ years, is you mentioned Node, you mentioned io.js earlier... We've recently had Mikeal Rogers on, who heads up io.js, among many other people. We've invited Scott Hammond on from Node, the CEO of Node, to come on this show and talk about--
 
@@ -452,7 +452,7 @@ So to think, like, just the amount of corporate, enterprisy stakes that have bee
 
 **Jerod Santo:** Diplomat.
 
-**David Heinemeier Hansson:** Yeah, that was the word I was looking for - is a better diplomat than I would ever be. I mean, it just seems like such a hard \[unintelligible 01:30:08.02\] I just don't see where the solution is gonna come from there. But also, it's not the end of the world. Obviously, Node and io, they have great momentum...
+**David Heinemeier Hansson:** Yeah, that was the word I was looking for - is a better diplomat than I would ever be. I mean, it just seems like such a hard intractable problem, I just don't see where the solution is gonna come from there. But also, it's not the end of the world. Obviously, Node and io, they have great momentum...
 
 **Adam Stacoviak:** I think it's not a technology problem, it's a community problem they're dealing with... Not so much a technology problem at all, right?
 
@@ -462,7 +462,7 @@ So to think, like, just the amount of corporate, enterprisy stakes that have bee
 
 **David Heinemeier Hansson:** Well, that's not real advice, is it? \[laughter\]
 
-**Adam Stacoviak:** Well, \[unintelligible 01:30:49.03\] that's your response to the question.
+**Adam Stacoviak:** Well, of course, that's your response to the question.
 
 **David Heinemeier Hansson:** My advice is that there's not much I can offer to this.
 
@@ -470,7 +470,7 @@ So to think, like, just the amount of corporate, enterprisy stakes that have bee
 
 **David Heinemeier Hansson:** You're gonna be more likely to get advice out of a U.N. diplomatic envoy or something, and how they've dealt with the intractable problems of world peace, than you are with getting it out from my experiences. They're just not even at the same scale.
 
-**Adam Stacoviak:** \[unintelligible 01:31:08.08\] you're not really giving advice, you're just sort of "Meh, I can't really give much, so good luck."
+**Adam Stacoviak:** Well that's something to make sure of, you're not really giving advice, you're just sort of "Meh, I can't really give much, so good luck."
 
 **Jerod Santo:** Commenting, yeah.
 
@@ -514,7 +514,7 @@ Dealing with API design, which is a large part - and perhaps the majority part o
 
 I'd say the majority of -- actually not the majority, all of the people who work in Rails core, they are professional open sourcers to some extent, in the sense that they're being paid by their company to also put contributions into Rails, at least some of the time.
 
-So it's not this hard line, I think... There's a place of the continuum where it tips, where you have too many people who are being paid to work on the open source on behalf of other people, instead of doing their own extractions from their own work, and that's where things in my opinion tend to go \[unintelligible 01:38:09.23\]
+So it's not this hard line, I think... There's a place of the continuum where it tips, where you have too many people who are being paid to work on the open source on behalf of other people, instead of doing their own extractions from their own work, and that's where things in my opinion tend to go downhill.
 
 **Adam Stacoviak:** Balance. You're really calling for balance.
 
@@ -564,7 +564,7 @@ Thanks again for so much... So much you've put into it too, and just the time yo
 
 If you want to follow me, I guess Twitter @DHH will flood your timeline with all sorts of opinions on both matters of tech and politics, so I think -- there's probably even people who have heard me on some tech podcast, who then started following DHH, and thought "Hey, whoa-whoa-whoa, I did not sign up for your opinions on national security, or whatever..."
 
-**Jerod Santo:** \[laughs\] \[unintelligible 01:46:56.17\]
+**Jerod Santo:** \[laughs\] Buyer beware.
 
 **David Heinemeier Hansson:** Exactly. Fair warning given, if you choose to do so... But that is the main place. And of course, Signal v. Noise. Signal v. Noise is where I continue to blog about new techniques and so on. It's signalvnoise.com. And finally, my own personal website is david.heinemeierhansson.com, which you can probably not spell, so better click the link in one of the notes accompanying this podcast.
 
