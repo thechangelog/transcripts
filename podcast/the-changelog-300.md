@@ -120,7 +120,7 @@ Then you come back and say "Alright, let's see what you did." If they can prove 
 
 Sure, it's great - everyone should know algorithms; that's a useful thing to learn. But if the point of algorithms is to make sure that you went to his CS 105 class in MIT, then you're just filtering people based on kind of socio-economic things, not really their skills.
 
-**Adam Stacoviak:** Right. Experience, things \[unintelligible 00:15:43.25\]
+**Adam Stacoviak:** Right. Experience, things they dealt with.
 
 **Zed Shaw:** But bug fixing is universal. It doesn't matter what programming language it is, it doesn't matter where you come from, where you went to school... If you can't fix bugs, I don't think you can really code. So it's an easy test... You can also do it without making people work for free. So you just point them at an open source project, you say "Fix bugs. That's your job interview", and they fix bugs. It's done for free. It's an easy way to check that they can understand code...
 
