@@ -16,7 +16,7 @@
 
 **Kevin Ball:** Alright. Before we dive into the main content, I’m always fascinated by how people get their online monikers and their nicknames... So can I ask each of you how you arrived at yours?
 
-**Shelley Vohr:** Yeah. Honestly, I wish I had a little bit more of an exciting story for this one, but I made my GitHub account when I was 15. Originally, I wanted codebyter with no E on the end and it was taken, so I \[unintelligible 00:03:08.27\] E on the end and now it’s too late to change... But I like it.
+**Shelley Vohr:** Yeah. Honestly, I wish I had a little bit more of an exciting story for this one, but I made my GitHub account when I was 15. Originally, I wanted codebyter with no E on the end and it was taken, so I threw an E on the end and now it’s too late to change... But I like it.
 
 **Jeremy Apthorp:** You like eating the code. I imagine you're just like getting it out of your git clone and just shoving it into your mouth. \[laughter\]
 
@@ -192,7 +192,7 @@ The number of people in the world who already know how to use those technologies
 
 **Kevin Ball:** That’s pretty darn impressive. Now, Electron is not without its detractors, and I think the biggest thing that I’ve seen is folks talking about memory usage. Do you all want to talk about that at all?
 
-**Shelley Vohr:** Sure, I can totally take a stab \[unintelligible 00:28:49.18\] a little bit. So as memory goes, generally yes, people’s typical complaint about Electron is that it takes up a lot of memory for what it’s doing. But at the same time, I think -- it’s like I said earlier a little bit, in the sense that there’s a time and a place for building an application with Electron.
+**Shelley Vohr:** Sure, I can totally take a stab into it a little bit. So as memory goes, generally yes, people’s typical complaint about Electron is that it takes up a lot of memory for what it’s doing. But at the same time, I think -- it’s like I said earlier a little bit, in the sense that there’s a time and a place for building an application with Electron.
 
 The tradeoffs in terms of memory -- let’s say Slack, it tends to come up a lot for this... So Slack - I think the question there is more what would the alternatives be that would be better? What other frameworks allow you to build something like Slack, that allows you to do all the things that Slack allows you to do, and is significantly leaner.
 
@@ -260,7 +260,7 @@ We could have done it at the time when the video is actually loaded, but we just
 
 It’s just like a mobile app. You do code splitting so that you don’t have to load a megabyte of JavaScript on a mobile device or mobile website. It’s the same exact philosophy – just figure out what the minimal amount of code you need to run to get that first paint of the UI to the screen, and just be ruthless about it... Like, two small modules, that kind of thing.
 
-**Jeremy Apthorp:** I’m curious if you came across -- I think it’s called Electron Link and \[unintelligible 00:39:18.21\] that are tools that attack the problem of loading a bunch of JavaScript in a slightly different way.
+**Jeremy Apthorp:** I’m curious if you came across -- I think it’s called Electron Link and mksnapshot that are tools that attack the problem of loading a bunch of JavaScript in a slightly different way.
 
 **Feross Aboukhadijeh:** No, I haven’t heard of those.
 
@@ -356,7 +356,7 @@ So I think Electron does a fantastic job -- not that I’m biased, but a fantast
 
 **Kevin Ball:** So speaking of those hot topics, what’s on the road map? What are you super excited about that’s coming in the next six months?
 
-**Shelley Vohr:** There’s a pretty big range of things, to be honest. I’m super excited about something that I took up recently actually, which is I started contributing more to Node core. I didn’t really think about the possibility of this until recently, because I typically am the one who upgrades Node within Electron, and the way that we do that is that Node works for us, but there’s definitely a few things we have to do to make it work more specifically for our use case. As a result of that, we float about 25 patches on top of Node, so one of the things I’ve taken up recently is trying to see how many of those patches that I can upstream into Node and make more extensible to help the \[unintelligible 00:54:52.11\] for Node itself. So I’m super excited about that, and then also super-excited about being able to interact more within the Node community and learn from them, and see if there are ways in which we can bring some of the things that we've implemented in Electron into Node.
+**Shelley Vohr:** There’s a pretty big range of things, to be honest. I’m super excited about something that I took up recently actually, which is I started contributing more to Node core. I didn’t really think about the possibility of this until recently, because I typically am the one who upgrades Node within Electron, and the way that we do that is that Node works for us, but there’s definitely a few things we have to do to make it work more specifically for our use case. As a result of that, we float about 25 patches on top of Node, so one of the things I’ve taken up recently is trying to see how many of those patches that I can upstream into Node and make more extensible to help the \[unintelligible 00:54:52.11\] even better for Node itself. So I’m super excited about that, and then also super-excited about being able to interact more within the Node community and learn from them, and see if there are ways in which we can bring some of the things that we've implemented in Electron into Node.
 
 **Jeremy Apthorp:** So I just pulled up the notes that we wrote up from last summit... As Shelley mentioned earlier, we have a summit twice a year, to get a bunch of people who are working on Electron regularly together and talk about things that are top of mind, and what we’re going to do about them, align, and also just get to know each other as a team.
 
