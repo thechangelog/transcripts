@@ -48,7 +48,7 @@ So I happen to get a lot of the conversation that comes through with that, and t
 
 There's also a little bit that I've been at Npm for a little over three years, which is a pretty long period of time at the company... Which, as you mentioned, it's relatively new as far as things go... And thus have a little bit of -- I have some background in many of the moments of high passion that people have had over time. That puts me on Twitter every once in a while; the tweet storm is nothing out of character for the general theme for how I talk about things in public, but I think that's the first time I've ever just brought data to the table as part of it.
 
-**Jerod Santo:** Yeah. So it may be worth pointing out at this point - here's one section of these tweets, which specifically speak to what you're referring to when we talk about the reactions from the outside, the support requests, or really the stuff that makes you say "I wanna talk about humanity and empathy." One of the things that you said is that there's a dark side to all of this. "We make decisions that make people angry, \[unintelligible 00:11:15.08\] Ever get hate mail at your job? What about hate tweets? People making dupe Reddit accounts with your name to talk crap about you and blame it on you?"
+**Jerod Santo:** Yeah. So it may be worth pointing out at this point - here's one section of these tweets, which specifically speak to what you're referring to when we talk about the reactions from the outside, the support requests, or really the stuff that makes you say "I wanna talk about humanity and empathy." One of the things that you said is that there's a dark side to all of this. "We make decisions that make people angry, and wow do they get violent. Ever get hate mail at your job? What about hate tweets? People making dupe Reddit accounts with your name to talk crap about you and blame it on you?"
 
 So these are things that are happening -- is this like a daily basis inside Npm? How much of this is going on?
 
@@ -186,7 +186,7 @@ In lieu of me reading more of your writing back to yourself, which does feel kin
 
 **Nick Nisi:** Before we go to break, I wanna just close and say that I do really appreciate the work that Npm does, and I appreciate this thread quite a bit... And specifically the humanizing that it does to Npm; I think that's important for everything, for everyone to understand that it's humans behind all of this, and it does help when there are problems, like big problems that are at Npm... I don't wanna bring up any one specific, but when those come up, it's good to know that those are humans, that make mistakes and that are learning and growing as we go.
 
-As this thread pointed out and as Laurie kind of pointed out in this talk at NEJS Conf last week, Npm is growing and it's taking things very seriously. I'm very excited about all of the new security features that are coming and how important \[unintelligible 00:42:46.10\] taking all of that... So just thank you for continuing that.
+As this thread pointed out and as Laurie kind of pointed out in this talk at NEJS Conf last week, Npm is growing and it's taking things very seriously. I'm very excited about all of the new security features that are coming and how important you're taking all of that... So just thank you for continuing that.
 
 **Jeff Lembeck:** It's awesome, thank you.
 
@@ -196,7 +196,7 @@ As this thread pointed out and as Laurie kind of pointed out in this talk at NEJ
 
 Chris, what are you excited about?
 
-**Christopher Hiller:** \[00:43:55.14\] So in the past weeks or so there's a pull request into Node.js by Ben Coe, who Jeff may know... He works at Npm, he also maintains stuff like Yargs, and Istanbul, and Nyc... Anyway, he made a pull request in Node that adds support for \[unintelligible 00:44:22.15\] I'm excited to see that become part of Node core, because that is some really commonly used functionality that in my opinion just kind of needs to be in there. Thank you, Ben, for the implementation.
+**Christopher Hiller:** \[00:43:55.14\] So in the past weeks or so there's a pull request into Node.js by Ben Coe, who Jeff may know... He works at Npm, he also maintains stuff like Yargs, and Istanbul, and Nyc... Anyway, he made a pull request in Node that adds support for mkdir -p or recursive mkdir in the FS module. I'm excited to see that become part of Node core, because that is some really commonly used functionality that in my opinion just kind of needs to be in there. Thank you, Ben, for the implementation.
 
 **Jerod Santo:** Excellent. Let's hop to the chat room. In the chat we have some people listening live and they've been participating in this conversation... The listener Mark is excited about Fusion.js. Fusion.js is a plugin-based universal web framework coming out of the Uber engineering team.
 
