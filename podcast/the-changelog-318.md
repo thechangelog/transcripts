@@ -296,7 +296,7 @@ It's part of the design of the system, to pull you apart, because if I can't get
 
 **Brett Cannon:** Yeah, and honestly, as soon as something negative happens, the instinct is to minimize that happening in the future, versus putting the huge amount of effort it is to not avoid it, but fix the root cause, and make it so that that doesn't happen again in the future.
 
-**Adam Stacoviak:** \[unintelligible 01:02:35.21\] error tracking. Root cause analysis. That's fun stuff. \[laughter\]
+**Adam Stacoviak:** Now let's talk about error tracking. Root cause analysis. That's fun stuff. \[laughter\]
 
 **Brett Cannon:** Yeah.
 
