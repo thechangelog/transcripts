@@ -170,13 +170,13 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Sarah Adams:** I had an app - it wasn't called StumbleUpon, but it was something like that and it acts like StumbleUpon, where you can look through and you can filter. It's like a Go project library, but it looks through GitHub and helps you stumble upon Go projects that are relatively popular. It was pretty cool.
 
-**Brian Ketelsen:** That's like. All of those queries are prone to error, because it GitHub's detection of the project type isn't accurate because maybe you don't have any Go files in the route - or whatever they use to detect the projects - they might be excluded.
+**Brian Ketelsen:** That's nice. All of those queries are prone to error, because if GitHub's detection of the project type isn't accurate because maybe you don't have any Go files in the route - or whatever they use to detect the projects - they might be excluded.
 
 **Sarah Adams:** Is that common?
 
 **Brian Ketelsen:** It is. I've seen projects that don't list themselves as the primary language that they are just because whatever GitHub uses to detect that was thwarted by maybe their directory layout, or whatever.
 
-**Erik St. Martin:** I'm not sure how that detection works. I mean, what percentage of the codebase is in what... Because if you had, say, \[unintelligible 00:17:15.02\] that's a bunch of Go, but it's a whole lot of web stuff too, HTML, CSS and Javascript too, so if there's more of one than the other, then it does that false positives.
+**Erik St. Martin:** I'm not sure how that detection works. I mean, what percentage of the codebase is in what... Because if you had, say, \[unintelligible 00:17:15.02\] that's a bunch of Go, but it's a whole lot of web stuff too, HTML, CSS and Javascript too, so is there more of one than the other, then does that cause false positives .
 
 **Carlisia Pinto:** I have always wondered that too, if somebody knows, please...
 
@@ -184,7 +184,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Carlisia Pinto:** Really?
 
-**Sarah Adams:** Well, I think \[inaudible 00:17:37.28\] generate the git-ignore.
+**Sarah Adams:** Well, I think it just helps you then generate the git-ignore.
 
 **Carlisia Pinto:** I've never seen that.
 
@@ -212,7 +212,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Carlisia Pinto:** I used it, but I've stopped using it long ago.
 
-**Sarah Adams:** \[inaudible 00:19:40.23\]
+**Sarah Adams:** And I haven't heard of Lime.
 
 **Erik St. Martin:** Have you checked it out, Sarah?
 
