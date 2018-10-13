@@ -468,7 +468,7 @@ So walk away from this show -- I always kind of ebb on this, kind of teetering t
 
 **Adam Stacoviak:** Right, he was torn.
 
-**Brett Cannon:** He was torn from his parents, and the world he knew has been twisted and contorted \[unintelligible 01:27:33.26\] has this internal conflict that you don't know about till the end, really, where he has the whole scene with his father... But you don't realize that yeah, he kind of looks like this kid, because he is. He's not Darth Vader, this grizzled, pissed off human being, because he thought his whole world was pulled away from him, and basically killed... So it was just the lack of context, and everyone just kind of living in the moment and not stopping to think that "Oh, there might be more to this story later on", just trying to go with it and "Let's see where it ends up", and then "Oh...! There was a reason..."
+**Brett Cannon:** He was torn from his parents, and the world he knew has been twisted and contorted into the meanest thing. And then of course, he has this internal conflict that you don't know about till the end, really, where he has the whole scene with his father... But you don't realize that yeah, he kind of looks like this kid, because he is. He's not Darth Vader, this grizzled, pissed off human being, because he thought his whole world was pulled away from him, and basically killed... So it was just the lack of context, and everyone just kind of living in the moment and not stopping to think that "Oh, there might be more to this story later on", just trying to go with it and "Let's see where it ends up", and then "Oh...! There was a reason..."
 
 **Adam Stacoviak:** Yeah, meeting their expectations.
 
