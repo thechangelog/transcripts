@@ -28,7 +28,7 @@ Someone I believe at JP Morgan Chase came up with this idea - "Hey, let's develo
 
 **Jerod Santo:** Every single one.
 
-**Michael Klishin:** But there weren't that many open source messaging technologies. I'm sure there were some, but I honestly cannot name any of them that actually existed back then. So that was I guess in New York, and across the pond, in London, a couple of people were working together at a consultancy looking to start a company, maybe to do a thing of their own. They discovered \[unintelligible 00:06:28.20\] it made sense to them, they wanted to try this technology called Erlang, and that's how Rabbit was born.
+**Michael Klishin:** But there weren't that many open source messaging technologies. I'm sure there were some, but I honestly cannot name any of them that actually existed back then. So that was I guess in New York, and across the pond, in London, a couple of people were working together at a consultancy looking to start a company, maybe to do a thing of their own. They discovered this MQP thing, it made sense to them, they wanted to try this technology called Erlang, and that's how Rabbit was born.
 
 Ten years later, it supports over 20 programming languages, multiple protocols, has accumulated a fair amount of technical depth, which we can get ourselves into the kinds of things you shouldn't try in your distributed system... And yes, it's used surprisingly widely.
 
@@ -38,7 +38,7 @@ Rabbit described itself as an open source message broker. We also the word -- I 
 
 **Michael Klishin:** I think there is a difference, but it's pretty subtle. For example, a lot of people use messaging and they think in terms of queues or logs of operations, that kind of thing. But the broker part is actually optional. There is a project of about the same age called ZeroMQ, started by Peter Hintjens, which doesn't really have this broker component. It's a library that you embed into a tool - well, into more than one tool, most likely... And they communicate using various messaging patterns.
 
-\[00:08:02.19\] There is this queuing aspect, but there is no broker aspect, or rather every single application plays that role a little bit. It's a pretty different architecture for RabbitMQ, but I guess most messaging technologies have this middleware. You have a node, or a bunch of nodes that clients connect to, and those nodes \[unintelligible 00:08:24.11\] store messages, expire them, deliver them, acknowledge them... All that jazz.
+\[00:08:02.19\] There is this queuing aspect, but there is no broker aspect, or rather every single application plays that role a little bit. It's a pretty different architecture for RabbitMQ, but I guess most messaging technologies have this middleware. You have a node, or a bunch of nodes that clients connect to, and those nodes do the routing, store messages, expire them, deliver them, acknowledge them... All that jazz.
 
 **Karl Nilsson:** Yeah, just to add to that, about ZeroMQ - a message queue, as Michael said, doesn't have to be a centralized thing. Your queue could be local, and I guess that's what ZeroMQ does. It's kind of almost directly addressing queues on a remote system, rather than through an intermediary. And one of the patterns that ZeroMQ have, for example, is to implement a broker using the ZeroMQ libraries. That's one of the patterns that they achieve things like service discovery - discovering services that you don't know already, directly.
 
@@ -50,7 +50,7 @@ So it's almost like a pattern, but it's a very useful one, and one that you can 
 
 **Jerod Santo:** Okay.
 
-**Karl Nilsson:** ...if you wanna look at that in very simplistic terms. If you know about the broker, you don't need to know about anything that actually is interested in that particular message; you just give it to the broker, and the broker will take care of the rest. Whereas if you go like in the ZeroMQ, \[unintelligible 00:09:58.28\] and ZeroMQ, then you would have to know about where you want the messages to go, to all the interested parties, unless you implement a broker in the middle
+**Karl Nilsson:** ...if you wanna look at that in very simplistic terms. If you know about the broker, you don't need to know about anything that actually is interested in that particular message; you just give it to the broker, and the broker will take care of the rest. Whereas if you go like in the ZeroMQ, you're just using bare-bone ZeroMQ, then you would have to know about where you want the messages to go, to all the interested parties, unless you implement a broker in the middle
 
 **Jerod Santo:** Gotcha. So let's talk use cases. I think there's probably many of them. You guys have been working on RabbitMQ for all these years, I'm sure you've seen a lot of them in production, and you probably help people out with them every day... What are some of the real perfect use cases for a message broker?
 
@@ -130,7 +130,7 @@ That said, I think Erlang/OTP is probably another open source project that's bee
 
 **Jerod Santo:** Alright, we are back, talking about RabbitMQ, talking about Erlang and Elixir a little bit... Guys, one thing we just wanted to clarify on the other side of the break was Elixir's compilation process, just so everybody's clear on how it works. We did look it up during the break just to make sure... Do you guys wanna laid that out a little bit? You don't have to go into the whole details, but explain clearly how it goes from Elixir to executing code on the hardware.
 
-**Karl Nilsson:** Right, okay. So the Elixir source code would be parsed into some abstract format, in an abstract syntax tree in Elixir; that is then translated into the Erlang abstract format, i.e. what you would get if you passed an Erlang file, and then from there it hooks into the standard Erlang compilation flow, which compiles down to core Erlang, which is then \[unintelligible 00:28:48.08\] simple machine processable functional programming language. Then from there it will then produce BEAM byte-code, your .beam files.
+**Karl Nilsson:** Right, okay. So the Elixir source code would be parsed into some abstract format, in an abstract syntax tree in Elixir; that is then translated into the Erlang abstract format, i.e. what you would get if you passed an Erlang file, and then from there it hooks into the standard Erlang compilation flow, which compiles down to core Erlang, which is an ML like, simple machine processable functional programming language. Then from there it will then produce BEAM byte-code, your .beam files.
 
 **Jerod Santo:** Very well done. There's a nice little Medium post by Xavier Noria, called "How Does Elixir Compile/Execute Code?" We'll add that to the show notes, so those who are interested in the step-by-step and the reiteration of what you said can go and read that. Very good. I just wanted to clarify that it doesn't go from Elixir source to Erlang source, which some people may have thought that... So thank you very much.
 
@@ -140,7 +140,7 @@ Let's talk about mistakes made. Who wants to kick this off, and where should we 
 
 Let's start with the latter one. It's a relatively straightforward thing... Maybe it's obvious to web developers, but folks who work on infrastructure tools sometimes kind of ignore this fact. If you maintain client libraries of any kind, ignore their quality at your own peril. It will come back to bite you hard at exactly the wrong moment.
 
-To the point, we have seen projects that build on top of RabbitMQ or use RabbitMQ as their default messaging choice having issues that came down to incomplete \[unintelligible 00:30:48.00\] or just overly opinionated client libraries. Of course, it doesn't occur to the user that "Hey, it's a library problem." What will get blamed is your server, and it happens 98 times out of 100.
+To the point, we have seen projects that build on top of RabbitMQ or use RabbitMQ as their default messaging choice having issues that came down to incomplete, buggy or just overly opinionated client libraries. Of course, it doesn't occur to the user that "Hey, it's a library problem." What will get blamed is your server, and it happens 98 times out of 100.
 
 Then there are too more experienced people who know how to debug distributed systems, and they can actually provide you some details so you can improve things. So that's just a general quality of client libraries. Some of them were not getting the attention they needed.
 
@@ -162,7 +162,7 @@ Then there are too more experienced people who know how to debug distributed sys
 
 **Michael Klishin:** Oh, man... Let's say C\#. Karl maintains that's one, so it's even better. \[laughter\] On a serious note, if you go to RabbitMQ tutorials, you will find six tutorials; almost all of them are ported to, I don't know, probably ten or so languages. Of course, we try to use libraries that we would recommend to (in particular) beginners, but just in general... What else is there?
 
-\[unintelligible 00:33:54.03\] at least to get started, it's a relatively small API surface area, you can probably compare a couple of libraries quite quickly. In my opinion, you should start with the one that's documented best. That's both because I care about documentation of open source projects, but also because I think it usually has a correlation with the amount of time the maintainer spent on it. That's not always true. I think Rabbit has a very good Haskell client, but it doesn't really have much documentation besides the types, right? Which only tell you so much.
+Because messaging, at least to get started, it's a relatively small API surface area, you can probably compare a couple of libraries quite quickly. In my opinion, you should start with the one that's documented best. That's both because I care about documentation of open source projects, but also because I think it usually has a correlation with the amount of time the maintainer spent on it. That's not always true. I think Rabbit has a very good Haskell client, but it doesn't really have much documentation besides the types, right? Which only tell you so much.
 
 **Jerod Santo:** Right.
 
@@ -176,11 +176,11 @@ If you are still not sure, come to RabbitMQ-Users, our public mailing list (it's
 
 **Jerod Santo:** Yeah, that's kind of what I was looking for - using these client libraries as a lens to a bigger question, which is "How do you choose a dependency?" I think you guys drilled that you have...
 
-\[00:35:55.01\] The problem is -- maybe it's not a problem; the situation is it's a holistic decision. It's difficult to quantify. You look at the docs, you look at the code perhaps, you look at the community tests, perhaps, and you see "Is it maintained, or are there 600 open issues and 40 pull requests against it and none of those have been addressed?" So there's all these things that have to go into it before you make a decision... I was just curious your guys' take on that; it sounds like it lines up pretty well with my own.
+\[00:35:55.01\] The problem is -- maybe it's not a problem; the situation is it's a holistic decision. It's difficult to quantify. You look at the docs, you look at the code perhaps, you look at the community, tests perhaps, and you see "Is it maintained, or are there 600 open issues and 40 pull requests against it and none of those have been addressed?" So there's all these things that have to go into it before you make a decision... I was just curious your guys' take on that; it sounds like it lines up pretty well with my own.
 
 Let's get back onto the topic of mistakes made. So not preserving the quality of client libraries of the years has been a mistake over the years, because ultimately everybody comes and thinks it's a server... Because it's gotta be somebody else's code, right? It can't be mine. So you probably have a lot of stray issues or misfires with regards to pointing the blame with not keeping the quality of those client libraries up to par. What else have you got in terms of things you guys have learned from mistakes made?
 
-**Michael Klishin:** Oh, man... How much dirty laundry \[unintelligible 00:37:03.14\] \[laughter\] Let's start with the protocol, because it will be a short one... Because to be honest, this topic is so politicized as far as the technology community goes that -- yeah, I'm going to be careful.
+**Michael Klishin:** Oh, man... How much dirty laundry are we willing to air... \[laughter\] Let's start with the protocol, because it will be a short one... Because to be honest, this topic is so politicized as far as the technology community goes that -- yeah, I'm going to be careful.
 
 Different protocols -- many messaging protocols look similar on the surface, and like I said, it's a relatively small API area, but don't let that fool you; there are protocols that are much better designed. And you know, don't make operations of your system harder. Remember, this is a distributed system; 98% of people don't know how to debug them, myself included.
 
@@ -200,13 +200,13 @@ Some of those vendors actually compete in the market in multiple areas, especial
 
 There are ridiculous marketing claims, like "This binary protocol is more efficient than that one by 20%", and when you take a look at what they actually compare, the kind of workload, they compare the smallest frames (or whatever it is called in that protocol), and that frame is usually sent only once during connection lifetimes. For those not familiar with messaging, in most messaging protocols, connections are supposed to be long-loved. So you have potentially days of traffic, but you only measure something that is sent in a fraction of a second, and then you come up with a marketing material... Things like that. It's very depressing if you are an engineer and you have to navigate this thin ice, and you have to implement it; sometimes you have to implement more than one thing, and then people from different committees come to you and ask you, "Hey, why do your tutorials use this protocol and not mine?" That kind of stuff.
 
-**Jerod Santo:** So RabbitMQ out of the box today, in 2017, if you downloaded the server, fired it up and attached \[unintelligible 00:42:29.26\] which protocol would you be talking to? Would it be AMQP 1.0? What's the default configuration?
+**Jerod Santo:** So RabbitMQ out of the box today, in 2017, if you downloaded the server, fired it up and attached to it a client, which protocol would you be talking to? Would it be AMQP 1.0? What's the default configuration?
 
 **Karl Nilsson:** The default configuration for all the clients as we publicize it is AMQP 0.9.1. As Michael mentioned earlier, AMQP 1.0 is a very different protocol; it's a completely different protocol, really, that its predecessors, if you like it.
 
 **Jerod Santo:** Gotcha.
 
-**Karl Nilsson:** So AMQP 1.0was standardized in probably 2012, which is obviously way after Rabbit was started. Rabbit was started while the AMQP protocol was still at -- Michael, you might correct me here, was it 0.8 when RabbitMQ started the implement of AMQP?
+**Karl Nilsson:** So AMQP 1.0 was standardized in probably 2012, which is obviously way after Rabbit was started. Rabbit was started while the AMQP protocol was still at -- Michael, you might correct me here, was it 0.8 when RabbitMQ started the implement of AMQP?
 
 **Michael Klishin:** Yeah. The oldest one we still support actually, we just don't advertise it is 0.8. It's very close to 0.9 and 0.9.1.
 
@@ -246,7 +246,7 @@ Karl, maybe you have something to add, or go deeper on one of those.
 
 \[00:52:01.22\] Now, the original use case, as those that know a bit about Erlang are well aware of, is switches, right? Where you have maybe only two machines, or a small number of machines that sit in there, they're all connected through the same switch, very reliable hardware, and you don't experience all the problems you might experience when you deploy distributed Erlang. You connect all these nodes and you deploy them into a cloud environment, where you might actually be crossing the internet in order to connect, and you don't really know what kind of hardware your infrastructure is running on.
 
-I think that's one of the things I would address right up front, rather than writing something in Erlang and then making it distributed, which I think is how RabbitMQ's clustering approach happened... But instead address clustering and how it distributes its data from the get go, to build that into the core of the application. I think that's \[unintelligible 00:53:11.01\] I mean, it does reasonably well in a cloud environment, but in order to do really well, you need to design that in.
+I think that's one of the things I would address right up front, rather than writing something in Erlang and then making it distributed, which I think is how RabbitMQ's clustering approach happened... But instead address clustering and how it distributes its data from the get go, to build that into the core of the application. I think that's very important, I mean, it does reasonably well in a cloud environment, but in order to do really well, you need to design that in.
 
 Michael talked about achieving consensus, building safety in things like queue mirroring - that's another thing I would definitely address upfront.
 
@@ -274,13 +274,13 @@ So let's pick back up with the history a little bit. We talked about how it star
 
 **Jerod Santo:** So what kind of project is it? Is it run entirely by Pivotal staff? Is there outside companies working on it, are there individuals? What does the team look like?
 
-**Michael Klishin:** \[00:59:50.25\] Our team is seven, soon to be eight engineers, and a couple of folks who work on \[unintelligible 00:59:56.25\] engineering topics. We have contributors from companies such as \[unintelligible 01:00:03.06\], a lot of small companies, I believe someone from a huge state/government-owned German corporation contributed recently... So yeah, there are all kinds of users who happen to contribute, as well. I would say overall we have maybe 10-11 people who are active or regular contributors.
+**Michael Klishin:** \[00:59:50.25\] Our team is seven, soon to be eight engineers, and a couple of folks who work on maybe less engineering topics. We have contributors from companies such as maybe Mirantis a lot of small companies, I believe someone from a huge state/government-owned German corporation contributed recently... So yeah, there are all kinds of users who happen to contribute, as well. I would say overall we have maybe 10-11 people who are active or regular contributors.
 
 We use GitHub for almost everything, so it's relatively straightforward. The only thing we don't use GitHub for is questions and root cause analysis and "Please investigate this for me" kind of issues... But the rest happens on GitHub, so it's pretty reasonable.
 
 **Jerod Santo:** Okay. So maybe describe the relationship between the project and Pivotal, in terms of what it does for Pivotal, how Pivotal makes money around it, how it supports seven people working on it that are on salary... Lay that out for us.
 
-**Michael Klishin:** Right, so Pivotal is a bunch of projects, but the crown jewel is Cloud Foundry, which is a platform as a service; we're not going to go into too much detail around that, but it's a lot of services on top of IaaS - your AWS, Google Cloud, \[unintelligible 01:01:25.23\] that kind of tools, that let you think in an application-centric way. So if you've ever used Heroku, you probably know what I mean; your unit of currency is an app, you push it, it is run for you. You don't necessarily care how this is happening. You have data services accessible to you - MySQL, RabbitMQ, Redis... You can add anything, to be honest. Cloud Foundry is very extensible. Then there are various monitoring and security auditing and deployment and continuous delivery tools, a bunch of Spring integration libraries, and so on.
+**Michael Klishin:** Right, so Pivotal is a bunch of projects, but the crown jewel is Cloud Foundry, which is a platform as a service; we're not going to go into too much detail around that, but it's a lot of services on top of IaaS - your AWS, Google Cloud, VSphere that kind of tools, that let you think in an application-centric way. So if you've ever used Heroku, you probably know what I mean; your unit of currency is an app, you push it, it is run for you. You don't necessarily care how this is happening. You have data services accessible to you - MySQL, RabbitMQ, Redis... You can add anything, to be honest. Cloud Foundry is very extensible. Then there are various monitoring and security auditing and deployment and continuous delivery tools, a bunch of Spring integration libraries, and so on.
 
 So Pivotal is primarily a Cloud Foundry company - I wouldn't expect other people to disagree - and RabbitMQ is one of the data services that Pivotal supports, but it's a relatively interesting one. The most popular data service as far as I know is MySQL (that's not very surprising). Then there are RabbitMQ and Redis. RabbitMQ and Redis are probably a bit more specialized, compared to MySQL. MySQL - just about everyone uses it for something.
 

@@ -816,6 +816,33 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "thgaskell",
+      "name": "Tony Gaskell",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/844945?v=4",
+      "profile": "https://github.com/thgaskell",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Hornet-Wing",
+      "name": "Hornet-Wing",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10299554?v=4",
+      "profile": "https://github.com/Hornet-Wing",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "yonasstephen",
+      "name": "Yonas",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6182669?v=4",
+      "profile": "https://github.com/yonasstephen",
+      "contributions": [
+        "doc"
+      ]
     }
   ]
 }

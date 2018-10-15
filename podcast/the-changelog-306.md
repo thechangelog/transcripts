@@ -268,7 +268,7 @@ We took away a lot of the initial boilerplate in the configuration, so you can j
 
 We want you to be able to create something now, and when you get to the point where you need to know why something's important, then you get pointed to the relevant computer science that will help you do that. Did that actually answer your question? I feel like I went on a little bit of a tangent.
 
-**Adam Stacoviak:** It was a good answer... \[laughter\] I mean, what \[unintelligible 01:06:55.00\] is there a /getstarted?
+**Adam Stacoviak:** It was a good answer... \[laughter\] I mean, what URL do you start to? Is there a /getstarted?
 
 **Jason Lengstorf:** Yeah, yeah... At gatsbyjs.org/tutorial - it starts from absolute zero. We'll link you out to what is the command line, if you need that... And if you don't, then you just kind of skip ahead to the part where you feel comfortable, and we'll walk you through the process of building a site, loading in data, doing styles, doing everything that you would need to build a functional, production-ready website with Gatsby.
 
