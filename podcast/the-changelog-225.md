@@ -30,11 +30,11 @@ We have three sponsors - Heap, Rollbar and Code School.
 
 **Adam Stacoviak:** Yes, yes!
 
-**Sandi Metz:** Okay, so here's what I would say... \[laughter\] I'm just a \[unintelligible 00:05:31.23\] and if I'm giving you hope, that means we can all give hope to each other. That is a very helpful thing.
+**Sandi Metz:** Okay, so here's what I would say... \[laughter\] I'm just a shcmuck and if I'm giving you hope, that means we can all give hope to each other. That is a very helpful thing.
 
 **Adam Stacoviak:** That's right. Let's give listeners some hope, then... Let's tell your backstory, because that's always a fun place to start when someone like you comes on a show like this and gets to tell your story and talk about your book, how you teach and all the things you're involved in. Take us back to where you began. You're just like everyone else, right? Are you special, or are you not special?
 
-**Sandi Metz:** I am not special, no. Well, I'm a woman of a certain age, I wrote code every day for 35 years, and I wrote a book - we'll get to that in a second. I got into programming because I was a music student at Florida State University, and it turned out that I was not gonna be able to graduate with a music degree because you had to perform at a certain level and I just wasn't good enough. So I was looking for a job, I was trying to figure out how to get a job. I went to a vo-tech school in - okay, I'll say it! - 1978, and learned to write code while \[unintelligible 00:06:34.15\].
+**Sandi Metz:** I am not special, no. Well, I'm a woman of a certain age, I wrote code every day for 35 years, and I wrote a book - we'll get to that in a second. I got into programming because I was a music student at Florida State University, and it turned out that I was not gonna be able to graduate with a music degree because you had to perform at a certain level and I just wasn't good enough. So I was looking for a job, I was trying to figure out how to get a job. I went to a vo-tech school in - okay, I'll say it! - 1978, and learned to write COBOL and Fortran.
 
 I got a job at a state agency and wrote code on mainframes. When PC's came out in the '80s I distinctly remember feeling quite disdainful of those devices, because I had a mainframe.
 
@@ -130,7 +130,9 @@ I didn't have any experience writing... If there's value in POODR, we should tha
 
 **Jerod Santo:** How does it go?
 
-**Adam Stacoviak:** I don't know... It's \[unintelligible 00:17:00.17\] that kind of thing, you know?
+**Sandi Metz:** Tell us!
+
+**Adam Stacoviak:** I don't know... It's "Like A Rock", I think. "Twenty years now, where have they gone", that kind of thing, you know?
 
 **Jerod Santo:** Good one.
 
@@ -206,13 +208,13 @@ So because people want to engage with internet Sandi - and internet Sandi will n
 
 **Sandi Metz:** If we had a miscommunication between the three of us right here, we could recognize that it had happened in real time and fix it very quickly, and that's much harder to do going back and forth in text.
 
-**Adam Stacoviak:** We're coming up on our first break here soon, Sandi, but before we go into that break, I wanna ask you this question... This is something we wanna hear from you particularly, considering your experience and the overnight success that you are, of course. Someone like you, back in the day, when you said \[unintelligible 00:26:04.19\] what was it that got you? I forget what you said you were going to school for that didn't work - it was music, right? And it wasn't working out...
+**Adam Stacoviak:** We're coming up on our first break here soon, Sandi, but before we go into that break, I wanna ask you this question... This is something we wanna hear from you particularly, considering your experience and the overnight success that you are, of course. Someone like you, back in the day, when you said COBOL and Fortran what was it that got you? I forget what you said you were going to school for that didn't work - it was music, right? And it wasn't working out...
 
 **Sandi Metz:** Yeah, yeah.
 
 **Adam Stacoviak:** So something wasn't happening there, but then you got kind of tapped into programming - I'm not even sure how; that'd be an interesting story to hear - and I'm curious what was it about programming that got you?
 
-**Sandi Metz:** It was back in the day, right? Nobody had PCs, so the normal human being had no experience with programming, had never written a computer program. It wasn't possible. Hardware didn't exist, for us to mess around with. I went to vo-tech school the very first day; we had an IBM 370, we punched cards; I wrote a ten-line Fortran program, and I was hooked forever. I don't know what that program did, but I remember the feeling of taking \[unintelligible 00:27:04.03\] computer operator, and having him run it and getting back output on that 11/14 green-and-white barred paper. It seemed like a miracle, it was so amazingly cool.
+**Sandi Metz:** It was back in the day, right? Nobody had PCs, so the normal human being had no experience with programming, had never written a computer program. It wasn't possible. Hardware didn't exist, for us to mess around with. I went to vo-tech school the very first day; we had an IBM 370, we punched cards; I wrote a ten-line Fortran program, and I was hooked forever. I don't know what that program did, but I remember the feeling of taking the deck into the computer operator, and having him run it and getting back output on that 11/14 green-and-white barred paper. It seemed like a miracle, it was so amazingly cool.
 
 There was something a little magical about it - you know, that whole thing about technology that you don't completely understand, indistinguishable from magic... I was bothered by the apparent magic of it, because I couldn't see how it worked, because it's all electrical somewhere. I eventually got over the magic, but being able to write a program and have it run was fascinating to me. I have written code from that day until now. I actually enjoy it as much today as I did then. I write too little code now, and it's a disappointment to me... Writing books is not nearly as much fun as writing code.
 
@@ -238,7 +240,7 @@ There was something a little magical about it - you know, that whole thing about
 
 **Jerod Santo:** Yeah. Just the ability to think about the nouns and the verbs that you're trying to program with, by using them. It's a bicycling thing, so it's bicycles and riders, and these ways that I would naturally think about it is the way that I can code it.
 
-**Sandi Metz:** And not only that, it's a natural fit for all the \[unintelligible 00:35:20.10\] things. One of the huge powers of OO is that I can create things that only exist as thoughts or ideas in the physical world - this world here; I'm gonna make a noise, right? The world of my desk. It's easy to model the world of things, but you can also create a world in which ideas are as real as things. Does that make any sense?
+**Sandi Metz:** And not only that, it's a natural fit for all the nouny things. One of the huge powers of OO is that I can create things that only exist as thoughts or ideas in the physical world - this world here; I'm gonna make a noise, right? The world of my desk. It's easy to model the world of things, but you can also create a world in which ideas are as real as things. Does that make any sense?
 
 This is an example that comes right out of the new book, and it's my mind because I've been working on this chapter... In a ticket app where you have buyers and tickets, you might also have refunds and purchases. The refund is an idea, but you can make an object for a refund, and that refund object is just as real as the buyer object, in an object-oriented application, even though out in the real world it's not. So being able to model, to create a world where ideas are as real as things is enormously powerful.
 
@@ -260,7 +262,7 @@ I'm surprised when I go to teach, at how my vision of what it means to think in 
 
 **Adam Stacoviak:** Do you think it's the way you think about it that's different? Profound?
 
-**Sandi Metz:** I think part of it is I've made so many mistakes over so many years writing OO that some things could not help but become more \[unintelligible 00:39:07.29\] to me.
+**Sandi Metz:** I think part of it is I've made so many mistakes over so many years writing OO that some things could not help but become more clear to me.
 
 **Adam Stacoviak:** You've become a master of the maze.
 
@@ -286,7 +288,7 @@ I really firmly believe that apps can be way simpler than many of the apps I've 
 
 **Sandi Metz:** Exactly.
 
-**Jerod Santo:** I think that's a brilliant way of distilling that. It's kind of easy to say, hard to do. Although in the statement there's a disclaimer - this will be hard to do. So that leads me to the thought of like -- and I've been doing object-oriented programming for ten years or so, so I've been on the good and the bad of it, and I've written stuff I can't maintain and stuff that seems to be more maintainable, and \[unintelligible 00:43:33.04\]. I've seen a lot of really bad object-oriented code out there, that's procedural and falls into many of the traps that were taught in these different techniques and tools, and you just go out and you start "I'll try this here..." and then you're like, "Oh...." You don't find out until maybe a couple years later that that was a really bad idea. So in many ways, I like Adam's metaphor of the master of the maze, because there's a lot of traps; there's a lot of bad ways of doing it. There's a lot of ways of getting it wrong, or not as well factored as it could be in order to make this maintainable and usable moving forward.
+**Jerod Santo:** I think that's a brilliant way of distilling that. It's kind of easy to say, hard to do. Although in the statement there's a disclaimer - this will be hard to do. So that leads me to the thought of like -- and I've been doing object-oriented programming for ten years or so, so I've been on the good and the bad of it, and I've written stuff I can't maintain and stuff that seems to be more maintainable, and the gambit. I've seen a lot of really bad object-oriented code out there, that's procedural and falls into many of the traps that were taught in these different techniques and tools, and you just go out and you start "I'll try this here..." and then you're like, "Oh...." You don't find out until maybe a couple years later that that was a really bad idea. So in many ways, I like Adam's metaphor of the master of the maze, because there's a lot of traps; there's a lot of bad ways of doing it. There's a lot of ways of getting it wrong, or not as well factored as it could be in order to make this maintainable and usable moving forward.
 
 \[00:44:11.21\] So I guess the question becomes -- and you're one of the masters of the maze, and you've been thinking this way so long, even a way that some of us haven't even got the right way of thinking about it... It's like, maybe the whole paradigm is too hard. Is functional programming the answer? Have you thought about, like "Maybe OO..."
 
@@ -308,7 +310,7 @@ Let me approach this from two ends. On one side, we've done a terrible job expla
 
 **Sandi Metz:** Me neither. I mean, most of them I've read now since I finally wrote a book; people think I've read everything, so it forced me to go back and get at least a passing familiarity with many books that people would think... And when I talk, I get people in my classes who have computer science degrees who certainly don't know very much about object-oriented programming. And when I ask them what kind of train they had in college, they say "We learned Java and we learned inheritance."
 
-So there's a failure of teaching - that's one thing. However, the other thing is this thing about \[unintelligible 00:47:17.13\] new ideas. I distinctly remember when I read the Design Patterns book back in the day, no long after it came out, and how I felt like I'd been saved. It was such a relief to see the clarity that they had around categories of problems that occurred over and over again, and I just used those design patterns everywhere; I used them all over my code, in appropriate places.
+So there's a failure of teaching - that's one thing. However, the other thing is this thing about cargo culting new ideas. I distinctly remember when I read the Design Patterns book back in the day, no long after it came out, and how I felt like I'd been saved. It was such a relief to see the clarity that they had around categories of problems that occurred over and over again, and I just used those design patterns everywhere; I used them all over my code, in appropriate places.
 
 Same thing when TDD came out, when I decided I was gonna get on the testing bandwagon; people who seemed smarter than me were saying it was a good idea, and I went from being a pretty useful, competent programmer who'd get a lot done, to being able to accomplish almost nothing from one day to the next, because I was so bad at writing tests. I was slow and I was bad at writing tests. So my desire to use this new thing that seemed like a good idea caused me harm instead of doing good.
 
@@ -336,7 +338,7 @@ I'll say one more thing about this and then I'm gonna shut up. I realize that I 
 
 **Jerod Santo:** Let's talk a little bit about what you've seen out there as a teacher, as a consultant, coming into these large companies that are successful and have OO-based applications that are in different states of disrepair, or perhaps still working but hard to change. What's one mistake - or give us a couple - that most programmers make with regards to production code, that you just see time and time again? We're all making the same mistakes; if you had a couple of those, what would they be?
 
-**Sandi Metz:** I would say two things - one is that everybody's test are killing them. They're absolutely killing them. \[unintelligible 00:53:40.22\] the idea of testing -- I think testing is right. I think TDD is right, and testing is right, and it will save time and money, but it feels like as a community the vast majority of our community hasn't yet tipped over to the point where they're good enough at testing so that tests save them money all the time, instead of costing them money.
+**Sandi Metz:** I would say two things - one is that everybody's test are killing them. They're absolutely killing them. It's because we have cargo culted the idea of testing -- I think testing is right. I think TDD is right, and testing is right, and it will save time and money, but it feels like as a community the vast majority of our community hasn't yet tipped over to the point where they're good enough at testing so that tests save them money all the time, instead of costing them money.
 
 Test suites run too long, they interfere with change and they make it hard to write new code. So if we could just get better at testing, it would save a lot of pain. The other thing that's been a thing I've been all over for the last couple of years - I see a lot of huge conditionals in code.
 
@@ -382,7 +384,7 @@ It's easier for me now to look at big, messy blobs of code and say, "Oh, it has 
 
 **Adam Stacoviak:** It's inviting - "a practical guide." Everybody's welcome to this. It's good for anybody. "Writing cost-effective" - that speaks to CTOs, and anybody who's trying to save money with their development team. "Maintainable" - who doesn't want that? And "Pleasing." But why this book? Why now?
 
-**Sandi Metz:** Okay, I'm teaching the course... This book is a \[unintelligible 01:03:12.19\] exercise that I do in classes in my practical object-oriented design course. The course, I am now booking next summer. I'm booked into the summer of 2017. I don't wanna raise prices anymore, because... Like, I have a blue collar background. Everything that we pay in tax seems \[unintelligible 01:03:36.21\] high to me. I am unwilling to raise prices anymore on my course, but it means I'm filtering now by time. And even so, much of the content that I'm teaching is unavailable to most people. No matter how many talks I do, no matter how many private and public classes I teach, the classes are reaching numbers probably in the four digits right now, in the thousands. The talks reach a much broader audience, but even so, there's this huge body of knowledge that is an outgrowth of the course that is completely inaccessible to most people.
+**Sandi Metz:** Okay, I'm teaching the course... This book is a programming exercise that I do in classes in my practical object-oriented design course. The course, I am now booking next summer. I'm booked into the summer of 2017. I don't wanna raise prices anymore, because... Like, I have a blue collar background. Everything that we pay in tax seems enormously high to me. I am unwilling to raise prices anymore on my course, but it means I'm filtering now by time. And even so, much of the content that I'm teaching is unavailable to most people. No matter how many talks I do, no matter how many private and public classes I teach, the classes are reaching numbers probably in the four digits right now, in the thousands. The talks reach a much broader audience, but even so, there's this huge body of knowledge that is an outgrowth of the course that is completely inaccessible to most people.
 
 \[01:04:22.07\] I feel a lot of sympathy towards programmers who are like me, who have my background - who are essentially untrained, who learned on the job, who were reliant on other people to take the time to write things down or give talks. So Katrina and I agreed that we would take what's effectively the first two days of the course and write it all down, so that we could sell it to individuals. So that's where the book came from. We meant to make it for - pricing is always an issue, but for a reasonable, reachable amount of money available to anybody who wanted to read it. So that's where it came from.
 
@@ -392,7 +394,7 @@ It's easier for me now to look at big, messy blobs of code and say, "Oh, it has 
 
 **Adam Stacoviak:** Right? It is...
 
-**Sandi Metz:** What is fair? What is right? So we started off being like, "10 dollars is the right price!" Then the years went by... We've been working on this book for two-and-a-half years. We finally decided in the end that we're gonna price it with all the other books in this category \[unintelligible 01:05:55.26\] The people we know who are self-publishing are pricing at this price point. That left us with the moral dilemma, "Okay, if our purported goal is to make this content available to people who can't afford to come to a course, what about people who don't have $49?" So we stole an idea from \[unintelligible 01:06:18.17\], which is the postcard plan. If you send me a postcard, we will e-mail you the book for free. So there are really two prices for the book: there's $49, and there's a postcard.
+**Sandi Metz:** What is fair? What is right? So we started off being like, "10 dollars is the right price!" Then the years went by... We've been working on this book for two-and-a-half years. We finally decided in the end that we're gonna price it with all the other books in it's category Avdi Grimm's book, Jim Gay's book. The people we know who are self-publishing are pricing at this price point. That left us with the moral dilemma, "Okay, if our purported goal is to make this content available to people who can't afford to come to a course, what about people who don't have $49?" So we stole an idea from Avdi Grimm, which is the postcard plan. If you send me a postcard, we will e-mail you the book for free. So there are really two prices for the book: there's $49, and there's a postcard.
 
 A postcard is not a cut up section of a box with a first-class stamp on it...
 
@@ -472,7 +474,7 @@ I can whine a little bit about the pressure, the travel gets wearing and all tha
 
 "I'd be keen to know if a person like Sandi ever gets wowed by development trends or falls victim to nerd hype."
 
-**Sandi Metz:** Yeah, I think that's a whole \[unintelligible 01:19:42.08\] "Wow, that's so cool! I'm gonna do that. They must be right!" and two weeks later you're like, "What a mess! Why did I do this? I hate myself." If we had perfect foresight we would write perfect code, but it's a matter of, you know, you just do the best you can with what you have. And don't be attached to your code. As long as I can walk away from mistakes and acknowledge I made them, then things are pretty painless. It's only when I hold on to a bad idea that I regret.
+**Sandi Metz:** Yeah, I think that's the whole cargo culting thing. We fall for stuff. "Wow, that's so cool! I'm gonna do that. They must be right!" and two weeks later you're like, "What a mess! Why did I do this? I hate myself." If we had perfect foresight we would write perfect code, but it's a matter of, you know, you just do the best you can with what you have. And don't be attached to your code. As long as I can walk away from mistakes and acknowledge I made them, then things are pretty painless. It's only when I hold on to a bad idea that I regret.
 
 **Adam Stacoviak:** \[01:20:14.15\] What's a good example of nerd hype, Jerod?
 
