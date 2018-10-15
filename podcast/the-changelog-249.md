@@ -64,7 +64,7 @@ It's kind of a long-winded answer, but I think it makes the real point that you 
 
 That is always a valid viewpoint, so as a former computer science professor, I very much write kind of like 100-200 level content from the point of view of someone who's learning, because I'm not a professional. I'm just an amateur that's been around for 25 years.
 
-**Jerod Santo:** \[00:07:52.16\] What do you say to the argument about signal versus noise? If you are a beginner, or perhaps even if you're wrong - you don't know it when you're writing, or maybe you're not a good writer... We have this mass of data that we're all pumping out new things every day, and people are trying to find answers and experiences and things that help them along their way... At a certain point are we just adding more noise? Can you actually determine \[unintelligible 00:08:16.23\] as you're writing it?
+**Jerod Santo:** \[00:07:52.16\] What do you say to the argument about signal versus noise? If you are a beginner, or perhaps even if you're wrong - you don't know it when you're writing, or maybe you're not a good writer... We have this mass of data that we're all pumping out new things every day, and people are trying to find answers and experiences and things that help them along their way... At a certain point are we just adding more noise? Can you actually determine what is signal or noise as you're writing it?
 
 **Scott Hanselman:** I don't think that you can, and I think that right now we do have a bit of a monoculture in that Google is the lens by which most people look at the internet, but PageRank has mostly worked, other than W3School.com, pretty much... \[laughter\]
 
@@ -118,11 +118,11 @@ I think it's important for us to -- if you hear an acronym in a meeting and you 
 
 **Scott Hanselman:** Yup... Well, one day, one day... Just like the electoral college will understand it and what it means...
 
-**Jerod Santo:** \[laughs\] Maybe. So let's go back a little bit. Tell us a little bit about -- you've been in it for a long time... One question I like to ask people - because software is so ephemeral nowadays... I like to think about software that endures the test of time, so one question that I like to ask people - especially those who have been industry as long as you have - what is the oldest piece of software that you wrote, that is still in production use today, and by production I mean it's still valuable and being put to use? One that's still executed \[unintelligible 00:18:31.27\]
+**Jerod Santo:** \[laughs\] Maybe. So let's go back a little bit. Tell us a little bit about -- you've been in it for a long time... One question I like to ask people - because software is so ephemeral nowadays... I like to think about software that endures the test of time, so one question that I like to ask people - especially those who have been industry as long as you have - what is the oldest piece of software that you wrote, that is still in production use today, and by production I mean it's still valuable and being put to use? It's still executed... what's that to be like... a production system?
 
 **Scott Hanselman:** Let me think here... Well, the oldest... I'm going farther and farther back... I wrote in 1994-1995 an application for the PalmPilot called GlucoPilot... Glucose and PalmPilot - that is a handheld diabetes management system; the first portable blood sugar management system. I wrote it in C++ in CodeWarrior (Metrowerks), and I still get e-mail from people who use that application. So that would be 22 years... I worked before Microsoft as a chief architect of a company called Corillian, that got bought by CheckFree, that got bought by Fiserv, and I worked on the retail online banking frontend for that, which is used in something like 25% of the U.S. retail online banking... So that's something. That was 15 years ago.
 
-Ten years ago I worked on \[unintelligible 00:19:40.20\] and Clemens Vasters and I know it's being used, because it runs my blog, and that's 13+ years... So I would say 22-odd years, maybe...
+Ten years ago I worked on DasBlog with Omar Shahine and Clemens Vasters and I know it's being used, because it runs my blog, and that's 13+ years... So I would say 22-odd years, maybe...
 
 I did another couple of apps before that, but they were Windows 3.1 and it's unlikely that they're still used. But the PalmPilot one, I know for a fact it's still being run.
 
@@ -160,7 +160,7 @@ I wrote that just sitting on the couch while we were watching Lifetime, or somet
 
 **Jerod Santo:** Oh, there you go.
 
-**Scott Hanselman:** So the kid that used it \[unintelligible 00:22:27.02\] 11, 12 years later are now maintaining the software... I have to get on that.
+**Scott Hanselman:** So the kid that used it and now grow up 11, 12 years later are now maintaining the software... I have to get on that.
 
 **Jerod Santo:** Yeah, absolutely.
 
@@ -226,7 +226,7 @@ And audio, as a passive medium, is one that I can do well mowing the lawn, or wo
 
 **Scott Hanselman:** That's good.
 
-**Jerod Santo:** I never even considered responding back in their language using Translate. I guess I assumed that would be offensive, or I could potentially offend, but I'm glad you've gotten good results \[unintelligible 00:32:36.14\] so I think that is neat.
+**Jerod Santo:** I never even considered responding back in their language using Translate. I guess I assumed that would be offensive, or I could potentially offend, but I'm glad you've gotten good results. Maybe I'll give that a shot. I think that is neat.
 
 Let's step back to where we were; we're a little bit off, navel-gazing a little bit - my fault, not yours... We were talking about Microsoft and open source, and this changing shift. We cover the open source community, and unless we're not doing our jobs very well, we've covered this change, this shift towards an investment in open source coming from Microsoft over the last few years, and I find it very interesting that it seems like from -- maybe not from the higher levels, but from the lower levels you were instrumental in pushing that forward. Can you expand some more on that? Because you touched on it, but... Just the recent history of Microsoft's open sourcing of almost all the things at this point.
 
@@ -240,7 +240,7 @@ It's pushing this rock uphill, until it eventually rolls down the other side, an
 
 **Jerod Santo:** What were the convincing arguments, the things that worked? Because obviously probably along the way there were things that don't convince the higher-ups... I believe you said -- what did you call it, the executive air?
 
-**Scott Hanselman:** Executive air cover, executive support... That's the idea that like "We're going in!", like \[unintelligible 00:35:18.28\] "We need air cover!" So it's like, I'm gonna do something stupid, I wanna make sure that I have a boss, who that when some other boss, some other general on another battlefield says "Wait a second, this is not compliant with our whatevers that your vice-president or your boss says that's a good idea."
+**Scott Hanselman:** Executive air cover, executive support... That's the idea that like "We're going in!", like we're all the grunts, "We need air cover!" So it's like, I'm gonna do something stupid, I wanna make sure that I have a boss, who that when some other boss, some other general on another battlefield says "Wait a second, this is not compliant with our whatevers that your vice-president or your boss says that's a good idea."
 
 For example, at my last company I had executive air cover, 15 years ago, when I introduced continuous integration into your pipeline. That was not a thing. We were using a program called CruiseControl.net, that was like a build server... Introducing unit testing in a build server into a bank is a big deal, and doing that you could ruffle a lot of feathers and upset a lot of people; having executive buy-in, or at least executive air cover, so that when someone gets mad or someone's cheese gets moved, the boss can say "Well yeah, you know, we needed to move your cheese... It was getting old."
 
@@ -338,7 +338,7 @@ I've said this before - if Microsoft or my team does something that I can't get 
 
 **Scott Hanselman:** Oh, that's a nightmare... So sorry.
 
-**Adam Stacoviak:** \[unintelligible 00:47:30.13\]
+**Adam Stacoviak:** We're rolling with it.
 
 **Jerod Santo:** Let's talk about conferences. You've just recently been at a couple, and we're all gonna be at OSCON in Austin next month, in May. In fact, we have a special promo code for that... By the way, listeners, if you wanna come meet us at OSCON, we will be there, Scott will be there... Use code "ChangelogHallPass" to experience the highlights of OSCON with an expo hall pass for free. Is that right, Adam?
 
@@ -364,7 +364,7 @@ Know who your audience is, but then I think it's - while this may not be the rig
 
 If you haven't already, you should start diversifying the people that you listen to, the people that you follow, and exploring... There's a whole ton of people who are not on the conference circuit, but they're building amazing stuff. Invite them. Say, "Hey, I really dig what you're doing. Come and talk with us." Work with them.
 
-The conference I just came back from called Codeland was unique because the organizer \[unintelligible 00:50:26.28\] actually coached and worked with each presenter, even myself; some people were first-time presenters, some people were 20-year presenters. She worked with them for hours, coaching, making sure the message lands right... You could tell who was a pro presented and who wasn't. They had people from the New York Public Library, they had people from the industry, they had people from the government. They had the CTO of New York City. All these different people, and it was the most consistent, clean conference I've ever seen put together, and that's because you don't just invite people and have them show up, and then do their standard shtick, and you don't just pull from the same pool of 200 people that are out there on the circuit.
+The conference I just came back from called Codeland was unique because the organizer, Saron, actually coached and worked with each presenter, even myself; some people were first-time presenters, some people were 20-year presenters. She worked with them for hours, coaching, making sure the message lands right... You could tell who was a pro presented and who wasn't. They had people from the New York Public Library, they had people from the industry, they had people from the government. They had the CTO of New York City. All these different people, and it was the most consistent, clean conference I've ever seen put together, and that's because you don't just invite people and have them show up, and then do their standard shtick, and you don't just pull from the same pool of 200 people that are out there on the circuit.
 
 You've gotta mix it up, and diversity isn't just about picking a team of good-looking power rangers... \[laughter\] It's different perspectives, it's different ages... Hey, you laugh, but it's true. This is not Nickelodeon, this is not The Suite Life of Zack & Cody.
 
@@ -436,7 +436,7 @@ My buddy Anil Dash, who is the CEO of Fog Creek, had this experiment he did wher
 
 **Scott Hanselman:** And then... You have to make them watch Office Space.
 
-**Jerod Santo:** Yeah, I was gonna say... \[unintelligible 00:58:42.22\] because I'll definitely ask them to watch Office Space.
+**Jerod Santo:** Yeah, I was gonna say... now it got awkward because I'll definitely ask them to watch Office Space.
 
 **Scott Hanselman:** It's required for everyone to watch Office Space. \[laughter\]
 
