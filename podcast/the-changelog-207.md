@@ -242,7 +242,7 @@ Then we also do... Let's call it OEM work, or work with OEM, which was originall
 
 **Adam Stacoviak:** Wow...
 
-**Jerod Santo:** \[unintelligible 01:19:05.16\] this guy already.
+**Jerod Santo:** I love this guy already.
 
 **Adam Stacoviak:** Yeah... I wanna have that conversation. It makes me want to start Founder’s Talk again, right away. Soon though, very, very soon. We have a lot of things happening here at the Changelog to make all that happen. Very soon, listeners, if you are a past listener of Founder’s Talk, it's coming soon, and that conversation with Mark will probably happen very soon. But we are out of time for this show.
 
