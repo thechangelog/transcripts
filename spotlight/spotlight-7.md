@@ -376,7 +376,7 @@ Once we have that data, we'll have more to inform us on what we should be doing 
 
 **Adam Stacoviak:** Yeah, Mikeal mentioned certifications when I talked to him. He didn't go into detail, though.
 
-**Tracy Hinds:** We're actually meeting this weekend to hash out the domains and the subtopics that the exam will cover. The aim is to be a low-cost certification exam for someone who's been writing Node professionally for a year, full-time. We're gonna be bike-shedding that and figuring out what that means. The test will be in browser and third-party proctored, and we're aiming for it to be in English as well as Chinese.
+**Tracy Hinds:** We're actually meeting this weekend to hash out the domains and the subtopics that the exam will cover. The aim is to be a low-cost certification exam for someone who's been writing Node professionally for a year, full-time. We're gonna be bikeshedding that and figuring out what that means. The test will be in browser and third-party proctored, and we're aiming for it to be in English as well as Chinese.
 
 **Adam Stacoviak:** And not using Facebook Login, because of the Great Firewall.
 
