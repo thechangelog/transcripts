@@ -350,7 +350,7 @@ So in that sense, unless it's being provided for free to all the potential progr
 
 How fatiguing it is on somebody to real-time, just-in-time translate -- not to drop that pun in there, but that's pretty good, it's like "Just in time!" You're sort of like real-time translating your thoughts from one language to another in speaking, and how fatiguing it is... But I think it would be good to add that to the future surveys, because it would start to inform the community.
 
-We examined this a few podcasts back on this show, where we were like "What's the impact of this survey? What do we learn from it?" and that's one thing that at least I am not seeing if somebody is \[unintelligible 01:07:29.22\] so that could at least give you some indicators, with 25% of the survey participants being in the United States of America; top 5 is US, Germany, UK, Canada, France and Russia, so... Was that six...? That was six, my bad; I can't count. That was a zero-based index.
+We examined this a few podcasts back on this show, where we were like "What's the impact of this survey? What do we learn from it?" and that's one thing that at least I am not seeing if somebody is ... it's at least showing countries, so that could at least give you some indicators, with 25% of the survey participants being in the United States of America; top 5 is US, Germany, UK, Canada, France and Russia, so... Was that six...? That was six, my bad; I can't count. That was a zero-based index.
 
 Let's move on a little bit... Anything to talk about more about this, before we go into maybe projects and news, or \#FreeSoftwareFriday? We've got three minutes and twenty-seven seconds...
 
