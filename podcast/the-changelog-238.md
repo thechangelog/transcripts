@@ -26,7 +26,7 @@ We have three sponsors today - our friends at GoCD, Rollbar and also Toptal.
 
 **Jerod Santo:** Well, you did take out all the pictures of sadness and put in penguins.
 
-**Karen Sandler:** I did... Fuzzy baby penguins, they're adorable. It makes you feel better about all the terrible things \[unintelligible 00:02:40.25\]
+**Karen Sandler:** I did... Fuzzy baby penguins, they're adorable. It makes you feel better about all the terrible things that are... 
 
 **Jerod Santo:** I liked that part. I actually got to make it up for... I missed yesterday's opening sessions.
 
@@ -66,7 +66,7 @@ We have three sponsors today - our friends at GoCD, Rollbar and also Toptal.
 
 **Jerod Santo:** Which is like a free operating system...
 
-**Karen Sandler:** It's a free version of \[unintelligible 00:04:21.11\] it's like a free Android. One of the cool things about it - if you are like me and think this is cool; I'm so dorky...
+**Karen Sandler:** It's a free version of CyanogenMod it's like a free Android. One of the cool things about it - if you are like me and think this is cool; I'm so dorky...
 
 **Jerod Santo:** Tell me and then I'll let you know if I do.
 
@@ -202,7 +202,7 @@ We have three sponsors today - our friends at GoCD, Rollbar and also Toptal.
 
 **Jerod Santo:** There are no alternatives, in some cases.
 
-**Karen Sandler:** Exactly. But I would say he humors me a lot, because he runs \[unintelligible 00:13:15.29\] but not Replicant... \[laughter\]
+**Karen Sandler:** Exactly. But I would say he humors me a lot, because he runs CyanogenMod on his phone but not Replicant... \[laughter\]
 
 **Jerod Santo:** He's not as hardcore.
 
@@ -242,11 +242,11 @@ Recently, a medical device manufacturer disclosed the fact that there was a vuln
 
 **Jerod Santo:** Name names.
 
-**Karen Sandler:** \[unintelligible 00:17:48.24\] Samba, Wine, Inkscape, Selenium, QEMU, phpMyAdmin... Oh, we're also the home for Outreachy, which is the internship program for women and under-represented groups in free software, and we also are perhaps best known for the work that we probably spend the least amount of our time and resources on, but gets the most press - the GPL-compliance project for Linux Kernel developers.
+**Karen Sandler:** Squeak, Samba, Wine, Inkscape, Selenium, QEMU, phpMyAdmin... Oh, we're also the home for Outreachy, which is the internship program for women and under-represented groups in free software, and we also are perhaps best known for the work that we probably spend the least amount of our time and resources on, but gets the most press - the GPL-compliance project for Linux Kernel developers.
 
 **Jerod Santo:** Okay, tell me about that... Because that gets the most press, so let's give it some more press here.
 
-**Karen Sandler:** \[laughs\] Okay. Linux Kernel developers who ideologically work on the Linux Kernel under the copyleft license of the GPL have been frustrated to see how much the license is violated in the industry, and so they came to us and asked us to enforce the licenses with companies, so we do that. Most of our coalition is anonymous, but we do have some members \[unintelligible 00:18:53.10\] developers who have been public about their identity. One of those developers is Christoph Hellwig, and after four years of trying to get compliance from VMware, last year Christoph filed a lawsuit against VMware that we're funding, basically, to get them to comply with the GPL.
+**Karen Sandler:** \[laughs\] Okay. Linux Kernel developers who ideologically work on the Linux Kernel under the copyleft license of the GPL have been frustrated to see how much the license is violated in the industry, and so they came to us and asked us to enforce the licenses with companies, so we do that. Most of our coalition is anonymous, but we do have some members, I forget it's somewhere in 6 to 8 and 6 and 10 developers who have been public about their identity. One of those developers is Christoph Hellwig, and after four years of trying to get compliance from VMware, last year Christoph filed a lawsuit against VMware that we're funding, basically, to get them to comply with the GPL.
 
 **Jerod Santo:** Is that just going through the process right now?
 
@@ -260,7 +260,7 @@ Recently, a medical device manufacturer disclosed the fact that there was a vuln
 
 **Jerod Santo:** Cool, very interesting. Let's talk about the projects that are under your umbrella. First, let's talk about what service you provide for them, and then we'll talk about...
 
-**Karen Sandler:** Yeah, so the way that conservancy works... There are a bunch of different fiscal sponsors in our space, and they all have different niches. The way that we work is that the projects are a part of us. Once they join us, it's as if we are their foundation. Some fiscal sponsors are organizations like Software In The Public Interest (SPI). Their projects have a loose affiliation with them; it's kind of like a \[unintelligible 00:20:47.13\] style relationship, where for us our projects are part of us. There are some advantages to it.
+**Karen Sandler:** Yeah, so the way that conservancy works... There are a bunch of different fiscal sponsors in our space, and they all have different niches. The way that we work is that the projects are a part of us. Once they join us, it's as if we are their foundation. Some fiscal sponsors are organizations like Software In The Public Interest (SPI). Their projects have a loose affiliation with them; it's kind of like a grant making style relationship, where for us our projects are part of us. There are some advantages to it.
 
 We signed legal agreements on behalf of our projects, so when our projects have conferences, we're the ones organizing the conferences; when they get donations, the donations come through us. We help developers travel to conferences by reimbursing their travel, we help with their trademarks... The Kernel developers aren't the only ones who want their license enforced, so we do that for our member projects who want it, as well. We help with licensing generally, any kind of legal questions that our projects might have, because they're us. Our projects are us, so our lawyers are their lawyers.
 
@@ -274,9 +274,9 @@ We signed legal agreements on behalf of our projects, so when our projects have 
 
 **Jerod Santo:** You must be busy.
 
-**Karen Sandler:** We just hired a new guy, Brad Smith; he used to work at the FSF, and in between was a developer and manager at Curoverse, which is a kind of interesting company. He has just started working for us, so we are now four full-time people. But sometimes when I go and I talk to people who know what we do, they're like, "Where is the rest of your staff?" They're struck to hear that we're less than 10 people.
+*nKaren Sandler:** We just hired a new guy, Brad Smith; he used to work at the FSF, and in between was a developer and manager at Curoverse, which is a kind of interesting company. He has just started working for us, so we are now four full-time people. But sometimes when I go and I talk to people who know what we do, they're like, "Where is the rest of your staff?" They're struck to hear that we're less than 10 people.
 
-**Jerod Santo:** So you mentioned some of your projects - Wine, Samba, Git, Linux Kernel -- or Linux Kernel is not, you're just providing \[unintelligible 00:22:14.19\]
+**Jerod Santo:** So you mentioned some of your projects - Wine, Samba, Git, Linux Kernel -- or Linux Kernel is not, you're just providing legal...
 
 **Karen Sandler:** To some Kernel developers.
 
@@ -310,7 +310,7 @@ We signed legal agreements on behalf of our projects, so when our projects have 
 
 **Jerod Santo:** Yeah, I was gonna say, they're hopping on that thing, are they?
 
-**Karen Sandler:** \[laughs\] They asked me to keynote their conference this year, so when I was tweeting about it, I used the hashtag \[unintelligible 00:23:53.15\] Yeah, and they're called Bro because with any kind of network security software, the flipside is that it could easily be turned into surveillance software, so Bro is a reference to Big Brother.
+**Karen Sandler:** \[laughs\] They asked me to keynote their conference this year, so when I was tweeting about it, I used the hashtag "betterkindofbro" Yeah, and they're called Bro because with any kind of network security software, the flipside is that it could easily be turned into surveillance software, so Bro is a reference to Big Brother.
 
 **Jerod Santo:** \[00:24:08.09\] Oh, Big Bro...
 
@@ -420,7 +420,7 @@ Personally, I cringe every time I have to use marketer speak, but if you don't o
 
 **Rachel Nabors:** We're leading to a very exciting place. One of the reasons why -- I don't know, I don't think I could have gone in-house for anybody but the Edge team. It's really changing the way the web is built. We've always thought of the web -- well, excluding that bout of Flash fun that we had, we've always thought about the web as kind of a static document thing. Even HTML is a document; it's in the tags, it's right there, "document". We think of it as kind of like a glorified microfiche, a way of storing words with the odd picture, maybe some audio or video here and there, but mostly we think of it as a way of storing words and arranging the words to make them look interesting.
 
-We don't really think about the web - or at least we didn't until recently - as a user interface or an app, or something like a tool that we can use to do things. It's been kind of interesting watching frameworks like React and Angular kind of turning the ship on that. I've been enjoying watching motion creeping in around the edges, and part of that is definitely due to native apps challenging the state of the web. You'll hear it when you go to conferences like Chrome Dev Summit, about how the web has to stay competitive with native, so that it's not completely abandoned and everyone isn't just like turning on Facebook as soon as they turn their phones on, so that they're actually going to Wikipedia, they're actually going to your personal blog site, that they're still accessing this non-walled garden, and this \[unintelligible 00:40:13.11\] of information out there where anybody can be an author and anybody can share things or design things or come up with some new invention.
+We don't really think about the web - or at least we didn't until recently - as a user interface or an app, or something like a tool that we can use to do things. It's been kind of interesting watching frameworks like React and Angular kind of turning the ship on that. I've been enjoying watching motion creeping in around the edges, and part of that is definitely due to native apps challenging the state of the web. You'll hear it when you go to conferences like Chrome Dev Summit, about how the web has to stay competitive with native, so that it's not completely abandoned and everyone isn't just like turning on Facebook as soon as they turn their phones on, so that they're actually going to Wikipedia, they're actually going to your personal blog site, that they're still accessing this non-walled garden, and this thicket of information out there where anybody can be an author and anybody can share things or design things or come up with some new invention.
 
 \[00:40:21.27\] It all starts in the web before it goes native, and the web has to be able to compete... And let's face it, native does some things better than the web does, for instance like going offline, having animated user interfaces. Animated user interfaces, by the way, are really good for users.
 
@@ -436,7 +436,7 @@ We don't really think about the web - or at least we didn't until recently - as 
 
 **Rachel Nabors:** Right, and there's a definite in art, and even more importantly, there's a science to how you do that. A lot of people are gonna do it poorly - I don't wanna use the word wrong, because that sounds so mean, but there's gonna be a learning process while everybody is nailing this down. But the great thing about how we are starting to use animation on the web now is unlike in native, unlike in gaming, and unlike in software system development (which never releases its findings anyway), the web -- we have a tendency to share our findings. If somebody finds a paper that shows that there's a better way to animate something, I'm gonna write an entire article about it and share it with the whole community. That's what I love about seeing animation coming into its own on the web. It's gonna be its own thing, and it will change the way all websites look like in the future forever.
 
-**Adam Stacoviak:** So for someone out there who's thinking, "Jeez, I've known about web animations, I've wanted to do more \[unintelligible 00:42:25.22\] that button to grow when somebody clicks it", what are some obvious hit lists that you go down with or you get asked about? What are some good hit lists of animations you recommend or places to start?
+**Adam Stacoviak:** So for someone out there who's thinking, "Jeez, I've known about web animations, I've wanted to do more of that on my site, I want that button to grow when somebody clicks it", what are some obvious hit lists that you go down with or you get asked about? What are some good hit lists of animations you recommend or places to start?
 
 **Rachel Nabors:** That's a good question. First of all, there's my newsletter - WebAnimationWeekly.com, but there's also a UIAnimationWeekly.com that's put out by Val Head. That's totally worth looking at. Currently there's not one place that you go for all the animation goodness, but if you follow these two newsletters and dig through their archives, you're gonna get some great leads. I know that sounds like a really simple answer, but it is that simple.
 
@@ -444,7 +444,7 @@ We don't really think about the web - or at least we didn't until recently - as 
 
 **Rachel Nabors:** Alright, so when we talk about user interface animations, I'm more practical over pretty. It's one of the things that I think developers tend to think about design and also animation is that it's just there to make things look pretty. Well, let's talk about utilitarian animation here. I'm not gonna tell you how to make it delightful or pretty, I'm gonna tell you how to make it look good when you have pneumonia and you're on your laptop or your touchscreen iPad and you're just bopping around and you have no idea what's going on. True story.
 
-\[00:44:06.13\] So you've got a menu that comes on and off the screen, right? You interact with something and Boom! There's a menu there. So let's talk about what happens there. Your brain, when it's just jump-cutting on and off - jump-cut is a term from film, it means when the camera just immediately cuts to a different position; there's no panning, the camera's not physically moving, it's just... You're looking at one person's face, and now you're looking at another person's face, and you've gotta infer that you're looking in another direction now. So when the human eye sees something change on the screen, it does this little magic trick where it goes, "Oh, the screen hasn't changed", does a quick check of the screen, sees that nothing changed but this one bit of information is still there, so it infers that whatever action you took prior to that new thing being there must have caused it, and that there was some in-between state - maybe if it's right below the thing you clicked, then it must have dropped down from the thing that you clicked; or if it's filling up the whole page, it's like a \[unintelligible 00:45:04.08\] but has expanded, and if you get rid of it, the page will return.
+\[00:44:06.13\] So you've got a menu that comes on and off the screen, right? You interact with something and Boom! There's a menu there. So let's talk about what happens there. Your brain, when it's just jump-cutting on and off - jump-cut is a term from film, it means when the camera just immediately cuts to a different position; there's no panning, the camera's not physically moving, it's just... You're looking at one person's face, and now you're looking at another person's face, and you've gotta infer that you're looking in another direction now. So when the human eye sees something change on the screen, it does this little magic trick where it goes, "Oh, the screen hasn't changed", does a quick check of the screen, sees that nothing changed but this one bit of information is still there, so it infers that whatever action you took prior to that new thing being there must have caused it, and that there was some in-between state - maybe if it's right below the thing you clicked, then it must have dropped down from the thing that you clicked; or if it's filling up the whole page, it's like a modal that has expanded, and if you get rid of it, the page will return.
 
 Now, think about how you could use animation to keep the brain from having to do all those checks and make all those suppositions and run that extra route. What you could do is you could have that drop down physically \[\\00:45:21.21\] or you could have it fade in. Now, there are these things called vestibular disorders - a certain number of the population is afflicted by these, wherein movement on a screen will cause them to feel a certain amount of nausea or discomfort, maybe a headache. For some people it's utterly debilitating. So if you have a lot of motion, a lot of blinking things, a lot of moving things on your page, it can cause them to really not wanna use your website.
 
@@ -588,7 +588,7 @@ What I loved about it was as a kid I didn't feel like I could have much of an im
 
 **Adam Stacoviak:** To consume...
 
-**Jono Bacon:** Yeah, and a level of \[unintelligible 00:59:50.21\]. The expectations of those communities are relatively simple.
+**Jono Bacon:** Yeah, and a level of com(munity). The expectations of those communities are relatively simple.
 
 \[00:59:55.28\] You then get write communities where people get together because they wanna build something together, and open source is the example of that, or Wikipedia, or OpenStreetMap, and they're way more complicated, because there's all kinds of expectations around how decisions are made, how we collaborate, how trust is distributed and all this kind of stuff. So my basic philosophy is, first of all, pick which community you are. Then what you need to do is essentially build a user persona around the kind of people you wanna bring in.
 
@@ -612,11 +612,11 @@ The exoskeleton essentially is "How do we put those pieces in place?", but what'
 
 **Adam Stacoviak:** So what is it that you do nowadays? Do you do contracting? How are you currently impacting the community? Are you consulting at large? You had this great idea, which sounds awesome and I think it's great - how do you help people implement it? Are you for hire?
 
-**Jono Bacon:** \[01:03:55.22\] Yeah, so I'm basically a consultant. I set up a consultancy practice about five, six months ago. I'd already been consulting for years on the side, here and there. And frankly - this is gonna sound \[unintelligible 01:04:05.24\] - I wrote a book on community called The Art Of Community, and it was mainly people who read the book who said, "Could you help us build a community?", and that's how it came in.
+**Jono Bacon:** \[01:03:55.22\] Yeah, so I'm basically a consultant. I set up a consultancy practice about five, six months ago. I'd already been consulting for years on the side, here and there. And frankly - this is gonna sound dis..., it's not meant to - I wrote a book on community called The Art Of Community, and it was mainly people who read the book who said, "Could you help us build a community?", and that's how it came in.
 
 But I always had limited time, particularly having a family... So I thought, "You know what? Let's see if we could do this full-time." So what I tend to do is work with companies and help them to build out a community strategy and then to help them execute that strategy. The execution piece varies, because some companies want me to build it out for them, and some companies want me to hire someone and then train them, or some companies want somebody else to build it. Because, you know, you don't necessarily want to pay consultant fees where you could pay a community manager, for the execution piece.
 
-I'm really enjoying it, because I love the diversity... Throughout my career, I've always loved to just work with companies and help projects as well. Where I've worked - at GitHub, Canonical or XPRIZE or elsewhere, I've always been focused on one organization, and that's cool... But now I get to work with Huawei and Microsoft, for the Creative Commons, \[unintelligible 01:05:05.19\], HackerOne, GitLab...
+I'm really enjoying it, because I love the diversity... Throughout my career, I've always loved to just work with companies and help projects as well. Where I've worked - at GitHub, Canonical or XPRIZE or elsewhere, I've always been focused on one organization, and that's cool... But now I get to work with Huawei and Microsoft, for the Creative Commons, data.world, HackerOne, GitLab...
 
 **Adam Stacoviak:** Big influence.
 
@@ -644,7 +644,7 @@ My blog is jonobacon.org and I'm just writing more and more content there. I am 
 
 **Adam Stacoviak:** \[01:07:49.15\] That was a trick question.
 
-**Jono Bacon:** \[unintelligible 01:07:51.05\] For me, a lot of it is just building relationships and having conversations with people. The thing that kind of sucks about being a consultant is I don't wanna give off the vibe that you can only talk to me if you pay me. It's a way of earning money for me, but what's way more important is getting the ideas out there and...
+**Jono Bacon:** \[laughs\], Who'd have thunk it eh? For me, a lot of it is just building relationships and having conversations with people. The thing that kind of sucks about being a consultant is I don't wanna give off the vibe that you can only talk to me if you pay me. It's a way of earning money for me, but what's way more important is getting the ideas out there and...
 
 **Adam Stacoviak:** Once it gets past a certain point, that's when it's paid, or something like that.
 
@@ -688,7 +688,7 @@ My blog is jonobacon.org and I'm just writing more and more content there. I am 
 
 **Adam Stacoviak:** No.
 
-**Jono Bacon:** You should check that out, it's cool. A buddy of mine \[unintelligible 01:10:48.29\] one of the greatest people in open source... He runs that, with obviously a lot of other people. He gets very angry whenever I tell people that he does it; he's like, "No, there's a team out there.' And he's right. He's right, but like, "Take the credit, dude." \[laughs\]
+**Jono Bacon:** You should check that out, it's cool. A buddy of mine Ilan Rabinovitch one of the greatest people in open source... He runs that, with obviously a lot of other people. He gets very angry whenever I tell people that he does it; he's like, "No, there's a team out there.' And he's right. He's right, but like, "Take the credit, dude." \[laughs\]
 
 But All Things Open to me, it's as if OSCON and SCALE made out, you know? It's got the business value of an OSCON, but it's got that community spirit -- I mean, there's business value at SCALE as well, but SCALE is known for its community spirit, and I love that. Also, it's different... It's out in Raleigh, it's not another thing in San Francisco or Austin...
 
@@ -728,9 +728,9 @@ But All Things Open to me, it's as if OSCON and SCALE made out, you know? It's g
 
 **Jono Bacon:** And I just thought to myself, when I got that e-mail I was like, "My job in Canonical, in Ubuntu is to help that kid get the best hour of his life", but my job more widely in our industry is help everybody empower kids like that to get the best out of their hours. It was just such a visible demonstration of when you can connect somebody's passion with a way in which they can make contribution effectively and they can feel a part of something...
 
-\[01:16:06.19\] I mean, just look at Wikipedia, look at open source - it's amazing, and we haven't even scratched the surface of figuring \[unintelligible 01:16:13.06\] and that's what blows my mind. It's a good time to be alive. We're gonna do some cool stuff.
+\[01:16:06.19\] I mean, just look at Wikipedia, look at open source - it's amazing, and we haven't even scratched the surface of figuring any of this stuff out and that's what blows my mind. It's a good time to be alive. We're gonna do some cool stuff.
 
-**Adam Stacoviak:** Absolutely. The one thing I'll close with is -- on that piece there was getting to the heart of it... That's where our \[unintelligible 01:16:26.16\] getting to the heart, and that's what this conference is about, that's what this series is about - it's about helping tell the stories from this community, getting to hear this piece from you here, your passions for community and help you share with everyone else how to build that exoskeleton for their community.
+**Adam Stacoviak:** Absolutely. The one thing I'll close with is -- on that piece there was getting to the heart of it... That's where our tagline came from, getting to the heart, and that's what this conference is about, that's what this series is about - it's about helping tell the stories from this community, getting to hear this piece from you here, your passions for community and help you share with everyone else how to build that exoskeleton for their community.
 
 I'm so glad that you're here to share that message, and the book coming up, and the blog series that you're writing, all the consulting you're doing - I appreciate your work in the community, man. Thank you very much.
 
