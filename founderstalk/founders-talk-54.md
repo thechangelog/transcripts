@@ -378,7 +378,7 @@ And then over time, we realized how useful it actually was. When we moved off Tu
 
 **Adam Stacoviak:** Stay tuned... Alright, cool. Well, Mikael, I have nothing else. I loved going through your history. I know this call ran a little longer than I even expected to. I really wanted to cover a lot of stuff. The only thing that we didn't talk about that was on my list – and I at least want to link it up and give it a namedrop... It was Flip The Funnel, from the CEO and co-founder of MailChimp. I think that's pretty interesting, his perspective...
 
-I discovered that as part of learning about you, what Ben shared about why he hates funnels and how you flip it; instead of saying, "Hey, you've got all your leads and you've got all the spend-the-heck-out-of-everybody kind of mentality, and then all the \[unintelligible 01:14:47\] you left down at the bottom"- You flipped it. I'm sure that based on this conversation you took that to heart. There was even a Twitter stream that you shared, which we're already talking about... We'll spend two more minutes talking to this.
+I discovered that as part of learning about you, what Ben shared about why he hates funnels and how you flip it; instead of saying, "Hey, you've got all your leads and you've got all the spend-the-heck-out-of-everybody kind of mentality, and then all the customers you left down at the bottom"- You flipped it. I'm sure that based on this conversation you took that to heart. There was even a Twitter stream that you shared, which we're already talking about... We'll spend two more minutes talking to this.
 
 **Mikael Cho:** Yes.
 
