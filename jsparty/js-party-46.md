@@ -38,7 +38,7 @@ One of the first ones that they laid out is our favorite bug ever, it's "Uncaugh
 
 **Suz Hinton:** Exactly. And I've just looked it up, and the talk is called "A year of other's bugs: the sad state of error handling." She does actually call out other languages that are more helpful, such as Rust or even just Elm - which is technically still transpiling to Javascript - and how they do much better error handling, at least for just trying to help people out.
 
-**Safia Abdalla:** \[00:07:58.06\] I don't do a lot of work with Rust, but I do do work with Elm, and it's got some great error messages when you're trying to get all your types in order and end up \[unintelligible 00:08:07.13\] It's something that, as discussed, unfortunately we don't have in the Javascript world. But I think that a big part of that might just be discrepancies in all the different Javascript engines that we have running around in different browsers.
+**Safia Abdalla:** \[00:07:58.06\] I don't do a lot of work with Rust, but I do do work with Elm, and it's got some great error messages when you're trying to get all your types in order and end up riffing inline. It's something that, as discussed, unfortunately we don't have in the Javascript world. But I think that a big part of that might just be discrepancies in all the different Javascript engines that we have running around in different browsers.
 
 **Kevin Ball:** Coming back to prevention, we have Nick's easy (in some ways) answer, though I am ashamed to admit I still am not on TypeScript, at all... There are pure Javascript solutions as well, that help you do some amount of type checking. For example, you could be using something like Flow, which lets you embed type-checking straight into vanilla Javascript.
 
