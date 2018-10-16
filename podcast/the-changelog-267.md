@@ -58,9 +58,9 @@ I went to college, started in the '90s, and then the hype cycle for object-orien
 
 **Eric Normand:** Yeah, it was at peak hype. It was a panacea, it was going to solve the software crisis, the reuse, maintenance... And it just hasn't. And in no fault of the paradigm; people were just over-selling it, and I don't wanna do that for functional programming. When I look at my code, I see the influence of procedural, functional, object-oriented all throughout my code, and they were all useful in the same block of code. So I don't think I would wanna sell functional over any of the other paradigms.
 
-**Jerod Santo:** I like that. The idea is not to pick the better hammer, it's to have multiple tools in your box, and being able to wield them when it makes the most sense, and \[unintelligible 00:15:47.17\]
+**Jerod Santo:** I like that. The idea is not to pick the better hammer, it's to have multiple tools in your box, and being able to wield them when it makes the most sense, and knowing the differences also.
 
-**Adam Stacoviak:** It makes sense thinking about it in the light too of the \[unintelligible 00:15:50.15\] we just had, Jerod, because he said we're not paid to write code, we're paid to think. The code is an artifact of the process of thinking, so if you only have one perspective for which to think from, then you're limited in your ability to solve the problem.
+**Adam Stacoviak:** It makes sense thinking about it in the light too of the OS show we just had, Jerod, because he said we're not paid to write code, we're paid to think. The code is an artifact of the process of thinking, so if you only have one perspective for which to think from, then you're limited in your ability to solve the problem.
 
 **Jerod Santo:** Absolutely.
 
@@ -82,7 +82,7 @@ When the procedure is known, you're breaking it down into subroutines, sub-proce
 
 **Eric Normand:** Exactly, exactly. And when you think about it, if you're doing object-oriented programming very often inside of a method, it's just a list of steps that you need to take. It's very procedural.
 
-Like I said before, I find myself going through my code, like "How did I do this? Oh, actually I was thinking of it as a series of steps. Oh, this one is where I was like oh, these are objects that need to talk to each other, or at least the main thread is talking to this other object, it's doing something else on the side and I'm just passing it messages." I'm thinking of it in terms of these paradigms, and then sometimes I'm separating out the data and figuring out what my calculations are and where my effects are gonna happen... So I hope to get this more formalized and publish a really nice blog post about this, because I feel like this is something that has been argued about for so long, like "What is object-oriented programming?" and really the key insight that I think is valuable is to remove the features from it and put the features in their place, like "Well, of course in object-oriented programming you're gonna see a way to define the object's behavior", the \[unintelligible 00:22:07.22\] and that's the class; it's just an artifact of how that language happens to let you express what an object does. But there's other types of object-oriented programs besides class-based; there's prototype-based, there's actor-based like in Erlang...
+Like I said before, I find myself going through my code, like "How did I do this? Oh, actually I was thinking of it as a series of steps. Oh, this one is where I was like oh, these are objects that need to talk to each other, or at least the main thread is talking to this other object, it's doing something else on the side and I'm just passing it messages." I'm thinking of it in terms of these paradigms, and then sometimes I'm separating out the data and figuring out what my calculations are and where my effects are gonna happen... So I hope to get this more formalized and publish a really nice blog post about this, because I feel like this is something that has been argued about for so long, like "What is object-oriented programming?" and really the key insight that I think is valuable is to remove the features from it and put the features in their place, like "Well, of course in object-oriented programming you're gonna see a way to define the object's behavior", the data and behavior and that's the class; it's just an artifact of how that language happens to let you express what an object does. But there's other types of object-oriented programs besides class-based; there's prototype-based, there's actor-based like in Erlang...
 
 If you remove the features and say those are just incidental, those are things that have been built up over time as useful ways of doing that kind of thinking, or expressing that kind of thinking, then you just look at it as an approach, as like a holistic perspective.
 
@@ -90,7 +90,9 @@ If you remove the features and say those are just incidental, those are things t
 
 **Eric Normand:** Right, I'm not.
 
-**Adam Stacoviak:** It should be called MostlyFunctional.tv. \[unintelligible 00:23:13.04\]
+**Adam Stacoviak:** It should be called MostlyFunctional.tv.
+
+**Jerod Santo:** It's a good play on words.
 
 **Eric Normand:** KindaFunctional.tv... \[laughter\]
 
@@ -296,7 +298,7 @@ There's plenty of evidence for this. If you go to the Clojure conferences, they 
 
 **Jerod Santo:** Yeah. They were very humble, but they basically said in a very humble way that it didn't work because basically they didn't have enough bugs. \[laughter\] Their software actually didn't need support, because it was just that good, or something. Does that ring a bell for you, Adam?
 
-**Adam Stacoviak:** It does, \[unintelligible 00:56:06.05\] If you're listening and you know this show, e-mail us and tell us; we'll put it in the show notes.
+**Adam Stacoviak:** It does, I'm not placing it though. If you're listening and you know this show, e-mail us and tell us; we'll put it in the show notes.
 
 **Jerod Santo:** Theirs was so good they put themselves out of a support job.
 
