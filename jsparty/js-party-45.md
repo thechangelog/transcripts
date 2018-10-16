@@ -176,7 +176,7 @@ There could be reasons why that would have gotchas in it, but I found that to be
 
 **Nick Nisi:** I posted a link to the room (it will be in the show notes) that gives you a good demonstration of CSS in JS with 14 different implementations of a login page using all sorts of different libraries... It's a good way to compare different strategies and approaches.
 
-**Suz Hinton:** That looks really cool. I'm absolutely gonna check that out. That's using the \[unintelligible 00:51:08.22\] page, you said?
+**Suz Hinton:** That looks really cool. I'm absolutely gonna check that out. That's using the Stripe page, you said?
 
 **Nick Nisi:** \[00:51:11.09\] It was originally based off of that. I think it's changed a little bit.
 
