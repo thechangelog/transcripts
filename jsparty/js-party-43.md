@@ -176,7 +176,7 @@ Another thing we also want to show is that it is a cycle. This started from one 
 
 **Juan Pablo Buritica:** 2013.
 
-**Julian Duque:** 2013, and from there we started JSConf Colombia, and JSConf Colombia inspired also other JSConfs in Latin America. There is a force that are starting to appear \[unintelligible 00:33:28.11\] in other parts of Latin America, but our objective is to help them and be able to establish a framework to be able to let these other people in different parts of Latin America (not only Colombia) create something similar or even more powerful than the thing we did in our country.
+**Julian Duque:** 2013, and from there we started JSConf Colombia, and JSConf Colombia inspired also other JSConfs in Latin America. There is a force that are starting to appear toward another conference that have consolidated yet in other parts of Latin America, but our objective is to help them and be able to establish a framework to be able to let these other people in different parts of Latin America (not only Colombia) create something similar or even more powerful than the thing we did in our country.
 
 **Juan Pablo Buritica:** I think from an infrastructural perspective, in countries like Colombia where technology, education is really far behind -- the education that you get in college is dictated by the job market, and the job market is usually dictated by large companies that have huge contracts with the government or huge contracts with banks, and that is the only professional experience that you can get. So unlike in the U.S., the role of being a technical programmer, or a software engineer, is considered blue-collar, it's more like labor, than a prestigious software engineer here in the States.
 
