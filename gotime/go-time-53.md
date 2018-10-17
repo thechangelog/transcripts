@@ -416,7 +416,7 @@ Everybody did an outstanding job, all the talks were great, so definitely make y
 
 **Brian Ketelsen:** Sure. He could talk about it for hours, so anytime you wanna end, it's great.
 
-**Carlisia Pinto:** \[00:47:57.24\] I just want a quick shoutout to \[unintelligible 00:47:58.18\] from Brazil who was at the conference and gave us all a very fancy bottle of wine. By no means I wanna encourage people to give us gifts (please don't), I'm just saying because he did it, so I feel very compelled to say thank you on the air. He was thanking us for such a good show, but people, don't do that. Seriously.
+**Carlisia Pinto:** \[00:47:57.24\] I just want a quick shoutout to Chairô from Brazil who was at the conference and gave us all a very fancy bottle of wine. By no means I wanna encourage people to give us gifts (please don't), I'm just saying because he did it, so I feel very compelled to say thank you on the air. He was thanking us for such a good show, but people, don't do that. Seriously.
 
 **Brian Ketelsen:** Yeah, don't bring us gifts!
 
