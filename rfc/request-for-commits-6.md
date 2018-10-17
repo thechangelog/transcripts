@@ -292,7 +292,7 @@ You still have to make your pitch be about a social cause, but if you can say, �
 
 And they’re like, “That’s what the vendor told us.” “Oracle said this was a great deal!”
 
-\[01:08:08.12\] So that is a really important cause right now that has a fair amount of momentum. 18F is where you go to work if you actually want to build the solutions. They’re like an actual contractor \[unintelligible 01:08:20.05\] that hires people to work on the actual project. USDS is where you go to set the policy.
+\[01:08:08.12\] So that is a really important cause right now that has a fair amount of momentum. 18F is where you go to work if you actually want to build the solutions. They’re like an actual contractor that is government employees that like hires people to work on the actual projects. USDS is where you go to set the policy.
 
 For instance, they are doing a lot of stuff around making all federal websites have mandatory SSL so that the NSA can’t snoop on what you’re browsing. There’s a lot of cool momentum in fixing that system.
 
