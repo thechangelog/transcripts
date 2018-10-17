@@ -224,7 +224,7 @@ This gets to how we see things a little bit farther into the future, where we ha
 
 **Jerod Santo:** \[laughter\] That's just a bad joke.
 
-**Adam Stacoviak:** I was going to say, \[unintelligible 00:44:13.21\] on humans again. But...
+**Adam Stacoviak:** I was going to say, you know, basically rely back on humans again. But...
 
 **Jerod Santo:** Yeah, exactly!
 
