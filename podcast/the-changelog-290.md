@@ -106,7 +106,7 @@ So there's some interesting stuff happening around single-maintainer projects, a
 
 **Adam Stacoviak:** \[00:17:10.28\] I remember talking to you, Mikeal, about -- everytime we connect, you're like "I've got a new project, I'm working on this fun thing", and it's always bleeding edge, and then you're talking about the different tooling you have to automate this stuff... Can you share a bit -- does it make sense in this format to share maybe some of the key findings you found to automate, like what particular areas?
 
-**Mikeal Rogers:** So Gregor, from the Hoodie project, has really been pushing this \[unintelligible 00:17:35.13\] for a while. A lot of people in the Hoodie project actually have been creating a bunch of tooling around this. The big one is called Semantic Release, which basically is complete release automation. So if all your tests pass, every time that you accept a PR, every time that you push, you just get a new release... And the version number is determined by this commit metadata that says "Is there a new feature, or a fix, or a breaking change?" that kind of stuff, and it's just a much better model for -- not having to manual-release, for one, is amazing... But also getting everybody in that kind of habit. And then if you move to 100% code coverage, which in Node there's a lot of great tools to help you with this. Tap already has code coverage integrated; I have some code on top of Puppeteer, which is like a headless Chrome testing utility... My tooling is called Cappadonna, and that basically adds the coverage into the browser sections. But there's new work that I \[unintelligible 00:18:35.01\] PR for it to get code coverage directly into Puppeteer.
+**Mikeal Rogers:** So Gregor, from the Hoodie project, has really been pushing this model for a while. A lot of people in the Hoodie project actually have been creating a bunch of tooling around this. The big one is called Semantic Release, which basically is complete release automation. So if all your tests pass, every time that you accept a PR, every time that you push, you just get a new release... And the version number is determined by this commit metadata that says "Is there a new feature, or a fix, or a breaking change?" that kind of stuff, and it's just a much better model for -- not having to manual-release, for one, is amazing... But also getting everybody in that kind of habit. And then if you move to 100% code coverage, which in Node there's a lot of great tools to help you with this. Tap already has code coverage integrated; I have some code on top of Puppeteer, which is like a headless Chrome testing utility... My tooling is called Cappadonna, and that basically adds the coverage into the browser sections. But there's new work that I just saw Ben Coe push up a PR for to get code coverage directly into Puppeteer.
 
 But anyway, once you have 100% code coverage, you're just much more confident when PRs come in with tests, that they're actually testing everything. And the coverage itself becomes a test at some point. When you have these kinds of intermittent tests that may actually gloss over a section, but still show us passed - those end up showing up. There's just a lot of really nice things that 100% code coverage gets you... And it's also one of those things where when you have a small library that you just started, it takes maybe like an hour to get to 100% code coverage... But if you have a big project, like I have Request, that's been there for years, it's basically impossible to go and get 100% code coverage. It's one of those things that's really easy to keep up with once you establish, but really hard to get to if you don't start with it.
 
@@ -118,7 +118,7 @@ Going back, Nadia, to that article you've mentioned of Mikeal's, which was calle
 
 **Adam Stacoviak:** Oh, is it? Okay, so it's not all highlights... Okay. \[laughter\]
 
-**Nadia Eghbal:** That's still totally creepy; I think I highlighted \[unintelligible 00:20:09.16\]
+**Nadia Eghbal:** That's still totally creepy; I think I highlighted like this in that article.
 
 **Adam Stacoviak:** I don't follow many people on Medium; maybe there's more highlights. I was just like "She's the only one highlighting, this is awesome! \[laughter\] Now I can read just her highlights and get what I need to get from it and that's it."
 
@@ -134,7 +134,7 @@ Going back, Nadia, to that article you've mentioned of Mikeal's, which was calle
 
 **Jerod Santo:** That would make me self-conscious about highlighting stuff, if I knew that--
 
-**Nadia Eghbal:** I know! \[unintelligible 00:20:46.25\]
+**Nadia Eghbal:** I know! Well sometimes when I highlight weird...\[laughter\]
 
 **Jerod Santo:** It's like a red herring... To lead us off your trail, you highlight something worthless...
 

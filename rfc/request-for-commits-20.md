@@ -134,7 +134,7 @@ Going back, Nadia, to that article you've mentioned of Mikeal's, which was calle
 
 **Jerod Santo:** That would make me self-conscious about highlighting stuff, if I knew that--
 
-**Nadia Eghbal:** I know! \[unintelligible 00:19:47.25\]
+**Nadia Eghbal:** I know! Well sometimes when I highlight weird...\[laughter\]
 
 **Jerod Santo:** It's like a red herring... To lead us off your trail, you highlight something worthless...
 
