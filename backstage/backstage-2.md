@@ -30,9 +30,9 @@ So I've always just eventually bought my favorites to rewatch again, or not see 
 
 **Jerod Santo:** \[00:04:14.09\] Do you have a man-crush on Matt Damon, or what's within The Martian specifically that makes that one the one you wanna watch?
 
-**Adam Stacoviak:** I'm a Sci-Fi guy, I listened to the book on audible... The audible book is so much better than the movie, but the movie is definitely a good \[unintelligible 00:04:26.09\] replacement for the actual 9+ hour-long book.
+**Adam Stacoviak:** I'm a Sci-Fi guy, I listened to the book on audible... The audible book is so much better than the movie, but the movie is definitely a good meal replacement for the actual 9+ hour-long book.
 
-**Jerod Santo:** Did you say a \[unintelligible 00:04:31.20\] replacement? \[laughs\]
+**Jerod Santo:** Did you say a meal replacement? \[laughs\]
 
 **Adam Stacoviak:** Yeah, just for fun... Why not.
 
@@ -120,7 +120,7 @@ So I've always just eventually bought my favorites to rewatch again, or not see 
 
 **Tim Smith:** Adam, you're keeping these Blu-rays after you're ripping them though, right?
 
-**Adam Stacoviak:** Of course, yeah. This isn't like a "Hey, buy it, rip it, throw it away or sell it." I mean, maybe you could, so that could be part of your strategy, eventually you might \[unintelligible 00:08:53.24\] but ultimately, what you're really trying to do, which is point number one for me, is you're just trying to backup your media.
+**Adam Stacoviak:** Of course, yeah. This isn't like a "Hey, buy it, rip it, throw it away or sell it." I mean, maybe you could, so that could be part of your strategy, eventually you might, that's a choice you could make, but ultimately, what you're really trying to do, which is point number one for me, is you're just trying to backup your media.
 
 **Tim Smith:** You see, to me this is the flaw in this strategy to a certain degree, is the reason why I don't like Blu-rays as well - it's the fact that you have to store them. There's something else that you have to find somewhere to put them.
 
@@ -130,7 +130,7 @@ So I've always just eventually bought my favorites to rewatch again, or not see 
 
 **Jerod Santo:** But you really like Blu-ray...
 
-**Adam Stacoviak:** I used to have a display case... I used to. I think everybody has treated their favorite movies like you would books, right? So the same you may be proud of your book collection, you may be... If you're an audiophile or a music person, or a movie person, then these things become sort of \[unintelligible 00:09:52.25\] with your identity, to some degree. If I go look at your collection versus mine, I could probably discern some things about you.
+**Adam Stacoviak:** I used to have a display case... I used to. I think everybody has treated their favorite movies like you would books, right? So the same you may be proud of your book collection, you may be... If you're an audiophile or a music person, or a movie person, then these things become sort of sympatico with your identity, to some degree. If I go look at your collection versus mine, I could probably discern some things about you.
 
 **Jerod Santo:** How awesome am I at movies?
 
@@ -146,7 +146,7 @@ So I've always just eventually bought my favorites to rewatch again, or not see 
 
 **Jerod Santo:** A lot of moving parts.
 
-**Adam Stacoviak:** You'd have \[unintelligible 00:10:42.17\] for CDs. This is just not common these days, I don't think.
+**Adam Stacoviak:** You'd have a disk carousel for CDs. This is just not common these days, I don't think.
 
 **Jerod Santo:** It's old jukeboxes that used to actually shuffle in and out things, right?
 
@@ -196,7 +196,7 @@ So I've always just eventually bought my favorites to rewatch again, or not see 
 
 **Jerod Santo:** Because you can't do 4K, right?
 
-**Adam Stacoviak:** Well, there's just times I'm gonna wanna reach for the actual Blu-ray because I still feel like -- I don't know, I haven't done the \[unintelligible 00:15:03.13\] I still feel like the disc can still give you some options. If I have friends over and we're gonna purposely watch a movie, then I'll probably reach for the Blu-ray, because I know we've selected a movie. But if it's about browsing and accessibility... Think about the box of DVDs and Blu-rays you have - how often do you reach for them?
+**Adam Stacoviak:** Well, there's just times I'm gonna wanna reach for the actual Blu-ray because I still feel like -- I don't know, I haven't done the tests back and forth but I still feel like the disc can still give you some options. If I have friends over and we're gonna purposely watch a movie, then I'll probably reach for the Blu-ray, because I know we've selected a movie. But if it's about browsing and accessibility... Think about the box of DVDs and Blu-rays you have - how often do you reach for them?
 
 **Jerod Santo:** Never.
 
@@ -212,7 +212,7 @@ These things, even when you have a Blu-ray in your player, it's streaming to the
 
 **Adam Stacoviak:** That's trade-offs.
 
-**Jerod Santo:** We'll get there. \[unintelligible 00:17:16.29\]
+**Jerod Santo:** We'll get there. I just keep bringing up cons. [laughter]
 
 **Adam Stacoviak:** It is a con, and it's a con worth mentioning, but I would actually categorize it as a trade-off.
 
@@ -236,7 +236,7 @@ But I played this thing in this demo and it kept buffering, so that means the wh
 
 **Jerod Santo:** And he's trying to explain how awesome it is, and then it started to buffer, and he's like "That's the first time it's ever happened..."
 
-**Adam Stacoviak:** \[unintelligible 00:18:58.23\] attention to these issues. This never happens... And it happens again. And then it happens again. I'm like, "Well, clearly this has got an issue."
+**Adam Stacoviak:** And I'm like, pay no attention to these issues. This never happens... And it happens again. And then it happens again. I'm like, "Well, clearly this has got an issue."
 
 **Jerod Santo:** I watched that video in the Dropbox web UI, because you just dropboxed it to us... And actually Dropbox was buffering your video as well. So Dropbox was buffering, and then your video was buffering Interstellar... I just had to close the tab eventually. It's only so much I can put up with. But that one wasn't your fault, it was Dropbox's fault; or my internet, I don't know.
 
@@ -444,17 +444,17 @@ I'll go out to a Redbox and rent something if I think that I know I wanna hear i
 
 **Tim Smith:** I haven't seen it.
 
-**Adam Stacoviak:** More importantly, an amazing \[unintelligible 00:44:09.27\] score. If you haven't seen it, bro... See, now you can't go back to the theater... But you come to my house and watch it with me.
+**Adam Stacoviak:** More importantly, an amazing Hans Zimmer score. If you haven't seen it, bro... See, now you can't go back to the theater... But you come to my house and watch it with me.
 
 **Tim Smith:** \[laughs\] Hey man, I'm thinking "Why not?"
-
+Hans Zimmer
 **Adam Stacoviak:** It's amazing in a 4K -- this is where I would actually probably pull out the media. If you guys came over for the night, I'd pull out the media in this case.
 
-**Jerod Santo:** \[unintelligible 00:44:30.27\] \[laughter\]
+**Jerod Santo:** Aw shucks. \[laughter\]
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** I feel special. \[unintelligible 00:44:34.10\] but I'm going up to the attic and I'm getting the media.
+**Jerod Santo:** I feel special. "I don't normally do this, but I'm going up to the attic and I'm getting the media."
 
 **Tim Smith:** Yeah.
 
@@ -466,7 +466,7 @@ So those are just some cases there. Sound is tremendous. Sound in that movie in 
 
 **Jerod Santo:** Yeah, good question. Part of this is I'm a completely different person than you two, or especially Adam, because I rarely find a movie that I like. Most of them are trash, and they've wasted two hours of my life. \[laughter\] There's no way I'm gonna watch it again. And even a movie I like, or a movie I love, the chances of me watching it a second time are so low - especially if it's Solo... Nah, I'm just kidding. I actually haven't seen that yet... It's so low, that that's why I never bought a Blu-ray.
 
-I used to collect DVDs when I was young and had dispensable money and nothing to do - I bought a bunch of stuff, and I'm looking at it and I'm like "Yeah, I love those movies", but I never watch any of them, and I will never watch any of them. A lot of \[unintelligible 00:46:12.28\] except for the kids, and movies that they wanna see again, and stuff like that - The Sound of Music, and the Pixar movies, and all that... So my setup is very basic. We have an Apple TV in the main living space, and my old laptop in the basement, which has the DVDs that I have ripped over the years via HandBrake and iTunes... And we stream from the Mac in the basement to the Apple TV, those.
+I used to collect DVDs when I was young and had dispensable money and nothing to do - I bought a bunch of stuff, and I'm looking at it and I'm like "Yeah, I love those movies", but I never watch any of them, and I will never watch any of them. A lot of it's a moot point, except for the kids, and movies that they wanna see again, and stuff like that - The Sound of Music, and the Pixar movies, and all that... So my setup is very basic. We have an Apple TV in the main living space, and my old laptop in the basement, which has the DVDs that I have ripped over the years via HandBrake and iTunes... And we stream from the Mac in the basement to the Apple TV, those.
 
 And then I'll rent on iTunes, or whatever... But mostly we'll watch almost all Netflix and Amazon Prime; that's pretty much where we live. But I'm such not a movie watcher that I just don't have these problems... \[laughter\] Or I don't have these joys. Because I just don't collect movies, so that's why I don't have too much to say on it.
 
@@ -498,7 +498,7 @@ I was actually more like that with music. Tim, I was in the same boat with you w
 
 **Tim Smith:** You see, I tried to rip a lot of discs too, but I was really disappointed with all the metadata stuff, too.
 
-**Jerod Santo:** Oh yeah, it's \[unintelligible 00:48:51.08\]
+**Jerod Santo:** Oh yeah, it's all masked.
 
 **Tim Smith:** Yeah. Because you don't have it anymore.
 
@@ -516,7 +516,7 @@ I was actually more like that with music. Tim, I was in the same boat with you w
 
 **Tim Smith:** Yeah. That is really nice.
 
-**Adam Stacoviak:** You've got Rotten Tomatoes in there, you can add or choose \[unintelligible 00:49:17.17\] It's right there. All the cast click-throughs, the movies in your libraries, you can rate it, you can see what they've rated on Rotten Tomatoes (it's 87% tomatoes, 81% popcorn), you can see the PG rating, the length of time... It even stores - something you asked earlier, Jerod - your sync of watch, so where you last left off. It will ask you when you go to play it again, just like a DVD or a Blu-ray might, if you wanna resume where you left off, at this point in time, or start from the beginning. So you see all that stuff.
+**Adam Stacoviak:** You've got Rotten Tomatoes in there, you can add or choose album art, background, it's right there. All the cast click-throughs, the movies in your libraries, you can rate it, you can see what they've rated on Rotten Tomatoes (it's 87% tomatoes, 81% popcorn), you can see the PG rating, the length of time... It even stores - something you asked earlier, Jerod - your sync of watch, so where you last left off. It will ask you when you go to play it again, just like a DVD or a Blu-ray might, if you wanna resume where you left off, at this point in time, or start from the beginning. So you see all that stuff.
 
 The experience of watching it, to me, if you're really into this stuff, is well worth it. If it's less important to you and you don't have a collection and that stuff is just not important to you, and you don't really care about owning these things and you just move on - that's not for you. For me, it's for me. I'm like that.
 
@@ -564,7 +564,7 @@ On the storage side, your mileage may vary, but basically if you're gonna go the
 
 **Jerod Santo:** Oh, wow.
 
-**Adam Stacoviak:** I would love it if it was \[unintelligible 00:55:39.28\] backup to Backblaze, or whatever, as much as I have, and charge me accordingly, as it grows. I don't wanna buy 10 TB if I only need to use 10,5.
+**Adam Stacoviak:** I would love it if it was scaled: backup to Backblaze, or whatever, as much as I have, and charge me accordingly, as it grows. I don't wanna buy 10 TB if I only need to use 2,5.
 
 **Tim Smith:** That's what Backblaze does with their NAS backup. You're only paying for the amount of data that you're actually backing up.
 
@@ -764,7 +764,7 @@ The web shows is actually pretty cool. If you really enjoy the Plex experience o
 
 **Jerod Santo:** Yeah, something like that. \[laughter\]
 
-**Adam Stacoviak:** Something like that. So these web shows \[unintelligible 01:15:15.03\] I believe the way they get in there is probably just by the same as iTunes, or YouTube. I'm sure that's probably how you get in there, it's just like that.
+**Adam Stacoviak:** Something like that. So these web shows get in there. I believe the way they get in there is probably just by the same as iTunes, or YouTube. I'm sure that's probably how you get in there, it's just like that.
 
 **Jerod Santo:** Speaking of YouTube - isn't that pretty much what we're all watching anyways? Just YouTube?
 
