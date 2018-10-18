@@ -142,7 +142,7 @@ So I've always just eventually bought my favorites to rewatch again, or not see 
 
 **Jerod Santo:** That's right.
 
-**Adam Stacoviak:** So let's summarize here - the experience of DVDs and/or Blu-rays, which is really just a 1-to-1... All the difference is is just resolution. The experience of the media, and putting it in or taking it out... I used to have this idea of a 100-disc player; those are not \[unintelligible 00:10:38.12\] I don't know why, but they're just not -- they would break down too often.
+**Adam Stacoviak:** So let's summarize here - the experience of DVDs and/or Blu-rays, which is really just a 1-to-1... All the difference is is just resolution. The experience of the media, and putting it in or taking it out... I used to have this idea of a 100-disc player; those are not the case anymore. I don't know why, but they're just not -- they would break down too often.
 
 **Jerod Santo:** A lot of moving parts.
 
