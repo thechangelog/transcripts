@@ -172,7 +172,7 @@ And I might live longer, be stronger, be able to throw my kid in the air higher.
 
 **Christopher Hiller:** Yeah, I just tried it.
 
-**Jerod Santo:** I didn't know you could do that. You can also message yourself inside of Slack, which I do use it once in a while, especially if I'm testing slash commands, and stuff... A lot of people don't know that, but you can definitely have a private message with yourself in Slack. \[unintelligible 00:40:02.27\]
+**Jerod Santo:** I didn't know you could do that. You can also message yourself inside of Slack, which I do use it once in a while, especially if I'm testing slash commands, and stuff... A lot of people don't know that, but you can definitely have a private message with yourself in Slack. Sometimes you ...
 
 **Christopher Hiller:** You can also take out your frustrations on the Slack Bot...
 
