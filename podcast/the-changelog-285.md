@@ -240,7 +240,7 @@ The other aspect for democratizing something is the content. For the mouse, it's
 
 **Adam Stacoviak:** Say it in French. Let's hear how it sounds in French.
 
-**Maxime Coutté:** Yeah, in French we say \[unintelligible 00:36:41.15\]
+**Maxime Coutté:** Yeah, in French we say "cela vaut le coup".
 
 **Adam Stacoviak:** I think that means "perfect price." I think that's how it translates, "the perfect price."
 
@@ -358,7 +358,7 @@ My mother was like, "Who is this guy?" So my mother met him, and all my brothers
 
 **Adam Stacoviak:** Absolutely. And you probably would have driven your parents crazy... Er. \[laughter\]
 
-**Maxime Coutté:** No... My father was an \[unintelligible 00:53:08.26\] He was like "Do you want to open-source it? Okay, that's cool."
+**Maxime Coutté:** No... My father was in IP. \[laughter\] So he was like "Do you want to open-source it? Okay, that's cool."
 
 **Jerod Santo:** \[laughs\] So tell us about your sensei's thoughts, and his feelings through all this... Because this is an amazing story, if you're flying to Silicon Valley, rubbing shoulders with all these important technology people, and getting this advice from the chief architect of Oculus... It has to just tickle him to have inspired this turn of events in your life, that have led to such fortune in terms of your education and experience. Has he been involved all along the way?
 
