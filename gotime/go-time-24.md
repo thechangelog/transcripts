@@ -42,7 +42,7 @@
 
 **Erik St. Martin:** With the history of Juju and the length of time it's been around - I know Gustavo was working on it back in 2013-2014, so we're talking early Go days, pre-1.0. There have to be some lessons learned, how things evolved. We were talking the other day on the show about Kubernetes and the etymology... If you look through the codebase, you can kind of see the evolution of people's understanding of the language. It started out very Java-ish, and in other areas it's very Go-ish. Do you have similar things that you've experienced?
 
-**Nate Finch:** Oh yeah, definitely. A lot of the early developers were more familiar with Python, so there's a lot of Pythonisms, which is sort of worse than Java-isms... Because Java at least is strongly typed, whereas with Python people expect to be able to just curl in whatever... So there's a few spots where there's empty \[unintelligible 00:06:05.19\] Most of that's been stripped out as we go along.
+**Nate Finch:** Oh yeah, definitely. A lot of the early developers were more familiar with Python, so there's a lot of Pythonisms, which is sort of worse than Java-isms... Because Java at least is strongly typed, whereas with Python people expect to be able to just curl in whatever... So there's a few spots where there's like empty \[unintelligible 00:06:05.19\] Most of that's been stripped out as we go along.
 
 I think one of the bigger lessons learned is we use Gustavo's GoCheck, which is a testing framework built on top of GoCast. It adds test suites so that you can have code that runs before a full suite of tests, and then code that comes before each individual test \[unintelligible 00:06:34.28\] those things do that, too.
 
