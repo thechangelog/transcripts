@@ -46,7 +46,7 @@ One of the things that's actually a good example is our metrics library, because
 
 **Carlisia Pinto:** Because I was thinking to ask you as well, I'm not sure if it applies what I wanna ask anyway... If you're using a Prometheus to collect metrics and log information.
 
-**Scott Mansfield:** Yeah, so our deployment is actually quite interesting. On the same server we're running Rend, memcached, our L2 disk-backed solution called Mnemonic which reuses part of the Rend code, and a Java-based Sidecar process that's actually the hook into the rest of the ecosystem. So in Netflix we have a system called \[unintelligible 00:07:23.01\] that does our metrics collection, and the client for that is in our Prana sidecar. So for us, we actually have the sidecar process pull Rend to pull metrics out every once in a while, instead of Rend actually pushing metrics anywhere.
+**Scott Mansfield:** Yeah, so our deployment is actually quite interesting. On the same server we're running Rend, memcached, our L2 disk-backed solution called Mnemonic which reuses part of the Rend code, and a Java-based Sidecar process that's actually the hook into the rest of the ecosystem. So in Netflix we have a system called "Atlas" that does our metrics collection, and the client for that is in our Prana sidecar. So for us, we actually have the sidecar process pull Rend to pull metrics out every once in a while, instead of Rend actually pushing metrics anywhere.
 
 **Erik St. Martin:** And now, the mnemonic part of it was the RocksDB portion of Rend, right?
 
