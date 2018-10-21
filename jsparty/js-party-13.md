@@ -68,7 +68,7 @@ When we were working on designing npm@5, one of the things we wanted to do was t
 
 **Alex Sexton:** \[00:07:58.00\] That's encouraging.
 
-**Mikeal Rogers:** Yeah, I have to say my favorite feature actually probably is the default save stuff. I think the first bug in most of my packages that I've received from other people is "You forgot to actually add this dependency" because \[unintelligible 00:08:12.08\] for half of the things that I installed, and then not one of them... This just completely solves that, I'm so excited about it.
+**Mikeal Rogers:** Yeah, I have to say my favorite feature actually probably is the default save stuff. I think the first bug in most of my packages that I've received from other people is "You forgot to actually add this dependency" because I use save for, --save for half of the things that I installed, and then not one of them... This just completely solves that, I'm so excited about it.
 
 **Kat Marchán:** Me too... I think we've been pushing to try and do this for a while... It's like, "How do we push this in?" This is a serious change in people's npm workflow, right? This is not a change that we could do lightly, as small as it seems...
 
@@ -102,7 +102,7 @@ When we were working on designing npm@5, one of the things we wanted to do was t
 
 **Alex Sexton:** I think one of the primary overarching stories behind a lot of this is most people do a thing, and they do that thing and they're like "How come npm doesn't do this?" and I think no one's invoked the "yarn" word yet, but I think a lot of what yarn was was "Hey, there's this use case that if we take away all these other constraints that npm has and all these other things that they have to do, then we can do this other thing very quickly, and add some features." It seems like a primary story of npm is that there are a lot of different use cases and continuing to support all those has very unique challenges in places that people don't even consider.
 
-**Kat Marchán:** Yeah, I mean npm is the default, and that means that we have to support all these people; not just new people that are coming in, but what five, six years of people who have old setups and don't wanna have their keys moved too much. \[unintelligible 00:11:27.29\] Maybe that's a bit of a weird metaphor at this point, but I think it's okay for npm to make tradeoffs that other things can't. We're not gonna sacrifice the user base that we have in order to primarily serve what developers -- so we can serve both, and that's what we'll do... We'll optimize for like spreading out...
+**Kat Marchán:** Yeah, I mean npm is the default, and that means that we have to support all these people; not just new people that are coming in, but what five, six years of people who have old setups and don't wanna have their keys moved too much. Although that's the \[unintelligible 00:11:27.29\] conversation yesterday.  Maybe that's a bit of a weird metaphor at this point, but I think it's okay for npm to make tradeoffs that other things can't. We're not gonna sacrifice the user base that we have in order to primarily serve what developers -- so we can serve both, and that's what we'll do... We'll optimize for like spreading out...
 
 Another aspect of npm@5 is that it is probably our most significant step in a while towards breaking npm down into significant chunks, with the intention of -- like, the dream here is to (the platonic idea, if you will) be able to take all the components that npm uses right now, pick only the ones that you like and need, and then cook up your own package manager for your particular community.
 
@@ -124,7 +124,7 @@ It's why we never integrated any kind of flat install like Bower would do. We're
 
 **Rebecca Turner:** We would hope that people would be able to build on our tools to make that, if they wanted a package manager that did that.
 
-**Kat Marchán:** Yes. \[unintelligible 00:14:32.19\] and that's the flat tree.
+**Kat Marchán:** Yes. And \[unintelligible 00:14:32.19\] have basically about that literally just wraps the \[unintelligible 00:14:32.19\] and that's the flat tree.
 
 **Rebecca Turner:** I mean, that's very hard... \[laughter\]
 
@@ -152,7 +152,7 @@ It's why we never integrated any kind of flat install like Bower would do. We're
 
 **Alex Sexton:** I guess you'd have to have GitHub Enterprise to fully cannibalize, but...
 
-**Kat Marchán:** It is not that, by the way... \[unintelligible 00:17:29.21\] That is not something you want to do a lot.
+**Kat Marchán:** It is not that, by the way... we \[unintelligible 00:17:29.21\] for every single Git dep. That is not something you want to do a lot.
 
 **Alex Sexton:** Yeah, yeah. So how does it differ from tagging something in -- oh, I guess the resolution of the tag can increase in version as a different... Before, you used to be able to do a Git dep and do hash some tag version number; now you're saying that you can kind of do like a carrot version number and it will grab the correct semver?
 
@@ -418,7 +418,7 @@ So I think Babili is the first attempt at an ES6 minifier. It will minify down t
 
 If you're doing WebRTC experiments, it's easy to just ship ES6 to the browser, because the Venn diagram of browsers that support WebRTC and don't support ES6 features is not a thing. \[unintelligible 00:50:27.28\]
 
-**Alex Sexton:** That's decently true of the animations in CSS that's written for a lot of the Stripe sites, so it's mostly \[unintelligible 00:50:35.18\] You already have a broken experience, so...
+**Alex Sexton:** That's decently true of the animations in CSS that's written for a lot of the Stripe sites, so it's mostly the thinking is you already have a broken experience, so...
 
 **Mikeal Rogers:** Yeah, it's perfect. Okay, my project of the week is called pkg. It's from Zeit; they're the creators of Now and Hyper and a bunch of other awesome stuff. It's Guillermo Rauch's new company, who started Socket.io. Pkg is something that I've wanted for a long time, which is basically take all of your Node projects - your code, all your dependencies, everything - and Node itself and turn that into one single executable file, so that somebody can go and take that and run it on a similar environment. If you have native dependencies, it's gonna have to be on the same architecture, I would imagine... But they could just go and run that wherever.
 
