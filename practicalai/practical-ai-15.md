@@ -86,7 +86,7 @@ Now, the advantage of that is it's about the same energy efficiency, so when you
 
 Now, there's still an awful lot of GPU performance on Xavier; it's over 10 Tera OPS on the CUDA cores, but there's also another 20 Tera OPS on the deep learning accelerators. So you wind up being able to support very efficiently large numbers of inference tasks on that.
 
-We're actually doing it both ways. For the embedded applications we have a hardware deep learning accelerator... For both inference and training in the \[unintelligible 00:19:31.25\] after considering all options, we have decided it's just much better to put the efficient Tensor Cores onto a programmable engine, rather than building a hardware accelerator.
+We're actually doing it both ways. For the embedded applications we have a hardware deep learning accelerator... For both inference and training in the datacenter. after considering all options, we have decided it's just much better to put the efficient Tensor Cores onto a programmable engine, rather than building a hardware accelerator.
 
 **Daniel Whitenack:** So you mention -- and this is a great lead-in... You mention a variety of fronts on which NVIDIA is working, and you also mentioned a desire that you guys have to keep things programmable and easy to interface with and customize. One of the things that I've definitely seen is that NVIDIA is definitely making contributions not only on the hardware side, but on the front of helping users be able to interface with all sorts of these new types of hardware.
 
