@@ -30,7 +30,7 @@ We were joking earlier that we're highly qualified to do this, because Alex wrot
 
 **Alex Sexton:** Yeah. It would take like three minutes for your app to boot, and then that's where -- what's his name? He's one of my favorite people in the entire world; James... Wrote AMD... Oh, my goodness, this is not good.
 
-**John-David Dalton:** \[unintelligible 00:04:07.09\] Oh, man...
+**John-David Dalton:** James, uh, Oh, man...
 
 **Alex Sexton:** \[00:04:11.26\] RequireJS...
 
@@ -78,7 +78,7 @@ But a lot of people didn't like this module system, including James Burke. They 
 
 **Alex Sexton:** I think we're far away from that, but yeah, it's some theoretical future where it's just as fast to not bundle.
 
-**Mikeal Rogers:** Right. So they AMD spec comes along... It had a lot of good \[unintelligible 00:08:29.29\]
+**Mikeal Rogers:** Right. So the AMD spec comes along... It had a lot of good fans, people that really actually...
 
 **Alex Sexton:** It was actually part of CommonJS as well. It was a CommonJS spec.
 
@@ -102,7 +102,7 @@ So anyway, they revised the spec; it's still pretty pythonic, but it definitely 
 
 **John-David Dalton:** Usually, when it comes to syntax, I'm not a chromogen, I'm pretty open to new syntax... So I'm like "Let's have the new syntax, let's start hearing on it and using it to see what shakes out." I'm all for -- at the time, I was all for the import, the export, all that stuff.
 
-**Mikeal Rogers:** \[00:11:58.16\] Right. I think the spec sat in a weird state for quite a while. This was before a lot of new processes were put into place at TC39. The spec kind of lingered with people poking at it, nobody had really implemented it yet, nobody was using it in the wild, because this was kind of pre-Babel, so we didn't have people really experimenting with syntax on a bleeding edge like that... And I think most importantly now there's a staging process where you kind of go through stage zero, stage one, and at each stage there are some \[unintelligible 00:12:30.10\] around how many implementations there need to be and how much input have they gotten... But there's a couple specs in what we call ES6 (which is really ES2015) that predate that process, and one of those specs is the ES modules spec. So it got finalized before there were really many implementations out there. There were some big question marks around the loader, for instance. The module loader is another spec in the W3C that is even less worked on.
+**Mikeal Rogers:** \[00:11:58.16\] Right. I think the spec sat in a weird state for quite a while. This was before a lot of new processes were put into place at TC39. The spec kind of lingered with people poking at it, nobody had really implemented it yet, nobody was using it in the wild, because this was kind of pre-Babel, so we didn't have people really experimenting with syntax on a bleeding edge like that... And I think most importantly now there's a staging process where you kind of go through stage zero, stage one, and at each stage there are some bars around how many implementations there need to be and how much input have they gotten... But there's a couple specs in what we call ES6 (which is really ES2015) that predate that process, and one of those specs is the ES modules spec. So it got finalized before there were really many implementations out there. There were some big question marks around the loader, for instance. The module loader is another spec in the W3C that is even less worked on.
 
 Anyway, at the time that it got kind of ratified in ES2015, there was a lot of people saying "Oh, well this is gonna be compatible with Node", because Yehuda had done a bunch of work looking at how Node modules look and work to spec, and how ES modules work, and "Let's make sure that they have feature parity."
 
@@ -178,13 +178,13 @@ But it has a lot of loader override-type things that kind of get towards that. T
 
 **John-David Dalton:** I never understood those kinds of fights. If you like CommonJS, use CommonJS. If you like AMD, use AMD. If you're a library author, support both and you'll get more users.
 
-**Alex Sexton:** I understand you \[unintelligible 00:25:35.14\] but I would have been more of a fan of just like instead of UMD needing to exist, why doesn't CommonJS just compile down to AMD? Use whatever you want, and then everyone compiles down to AMD, including people who use AMD, and that would solve everyone's problem.
+**Alex Sexton:** I understand you \[unintelligible 00:25:35.14\] JS were a AMD, or a UMD creator. We didn't talk about that either, but I would have been more of a fan of just like instead of UMD needing to exist, why doesn't CommonJS just compile down to AMD? Use whatever you want, and then everyone compiles down to AMD, including people who use AMD, and that would solve everyone's problem.
 
 **Mikeal Rogers:** But at what point do you compile it down? If you write a reasonable module, do you compile it down before you publish that module, or do you just publish that module in the regular Node module system and expect that somebody when they use it in the browser they're gonna compile --
 
 **Alex Sexton:** I think everyone -- much like now, you can't really ship ES6... Or a lot of times you can, you have to kind of transpile that way. Everyone, no matter their build stack, can use it. So the idea is like your Dist folder would have your AMD compile. You write in CommonJS and then you compile everything down to AMD in your Dist folder, along with your CoffeeScript, or whatever we were doing back then.
 
-**Mikeal Rogers:** I'm remembering my position during this weird fight with AMD, and the reality was we had way too many modules in the Node ecosystem that were being used by browser tools and being compiled in another browser to say "Okay, we're just gonna not use this spec anymore for publishing reusable components." And on the "What does it get compiled \[unintelligible 00:27:07.13\] when you use it on the browser?", yeah, AMD made more sense for people to use, but also there was already a spec for ES modules; we knew that there was gonna be a modules spec in the browser at some point in time.
+**Mikeal Rogers:** I'm remembering my position during this weird fight with AMD, and the reality was we had way too many modules in the Node ecosystem that were being used by browser tools and being compiled in another browser to say "Okay, we're just gonna not use this spec anymore for publishing reusable components." And on the "What does it get compiled to side when you use it on the browser?", yeah, AMD made more sense for people to use, but also there was already a spec for ES modules; we knew that there was gonna be a modules spec in the browser at some point in time.
 
 **Alex Sexton:** No... It was extremely early and in no way was that a thing that anyone thought would happen anytime soon, and it didn't. It didn't happen for five more years... And it still hasn't happened. \[laughs\]
 
@@ -204,7 +204,7 @@ But it has a lot of loader override-type things that kind of get towards that. T
 
 **Alex Sexton:** They all could have got better in the same amount of time, if we--
 
-**Mikeal Rogers:** No, they couldn't, because the people that innovated-- people that have been innovating in these toolchains get to work in Javascript, and that's the language that they know and love, and they're part of that same community. And the reason why we have much better toolchain-- Node is not a particularly great language for this, actually... Doing everything \[unintelligible 00:29:38.01\] callbacks is not particularly good at this case.
+**Mikeal Rogers:** No, they couldn't, because the people that innovated-- people that have been innovating in these toolchains get to work in Javascript, and that's the language that they know and love, and they're part of that same community. And the reason why we have much better toolchain-- Node is not a particularly great language for this, actually... Doing everything from I/O in the callbacks is not particularly good at this case.
 
 **Alex Sexton:** Your bias is showing, in my opinion. I think we can parse Javascript modules in any language that we want...
 
@@ -248,7 +248,7 @@ Revisionist history is to say like "Oh, well the Rails tools aren't good now." T
 
 **Mikeal Rogers:** How do you load AMD modules without any code to load the AMD module?
 
-**Alex Sexton:** AMD by default just works. It injects the script \[unintelligible 00:34:44.18\]
+**Alex Sexton:** AMD by default just works. It injects the script tag...
 
 **Mikeal Rogers:** There's a still a little loader there.
 
@@ -352,9 +352,9 @@ I will say it's not a silver bullet, but for me, since most people have multiple
 
 **John-David Dalton:** \[unintelligible 00:54:50.08\] the actual ESM loader. What this doesn't show is that the ESM loader will be a zero dependency package, and will be under 30 or under 40 kb. So the ESM loader is not only small, but zero dependency as well. I wanted people to be able to feel like they can add this to their project without having it bloat it up, so I'm using Webpack to actually build-optimize the loader, I'm using Zopfli to compress it, and then using the built-in gzip support to load it up and execute it, and it actually runs on par with a non-gzipped version, but it goes from being over 240 kb to just being under 40 kb. Again, it will be fast, it will be small, a zero dependency package that you can just include.
 
-Lodash will be taking a dependency on it - I'm incorporating feedback from people like \[unintelligible 00:55:45.02\] because he's massive in the ecosystem, so I want him on board with the ESM loader as well, the naming...
+Lodash will be taking a dependency on it - I'm incorporating feedback from people like Sindre Sorhus because he's massive in the ecosystem, so I want him on board with the ESM loader as well, the naming...
 
-**Alex Sexton:** Is that based on his tweet that said "I will never move to .mjs \[unintelligible 00:55:58.03\]"
+**Alex Sexton:** Is that based on his tweet that said "I will never move to .mjs in the history of \[unintelligible 00:55:58.03\]"
 
 **John-David Dalton:** I had been discussing this with him before that even. If you noticed in his tweet, he says he might use the loader that I'm working on, so he's been in the loop for a while.
 
