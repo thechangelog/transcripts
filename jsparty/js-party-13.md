@@ -22,7 +22,7 @@
 
 **Kat Marchán:** npm@4? So last October we released npm@4, and therefore we couldn't use the number four anymore, so we needed a bigger number to release, and we chose five as a valid increment for an integer. The further story is we've had a lot of breaking changes that we've been doing for a while, and that's usually what we do in major releases, but most important was we've had this cache rewrite on schedule in some way or another for five years. We've been putting it off, pretty much... It was meant to be this rewrite that we -- we expected it to be mostly an internal improvement. It was going to maybe speed things up slightly, maybe it was going to fix a lot of our issues, but we mostly saw it as this architectural improvement.
 
-Sometime early last year we decided that we're just gonna bite the bullet and we're gonna do the cache rewrite. We'd been talking about it for five years, we have closed many issues with going like "This will be fixed by the mythical cache rewrite that we've been talking about for five years..." So we were like, "Alright, when can we next do it? We can probably do it for Q1", so that's the schedule that we set for ourselves last year.
+Sometime mid early last year we decided that we're just gonna bite the bullet and we're gonna do the cache rewrite. We'd been talking about it for five years, we have closed many issues with going like "This will be fixed by the mythical cache rewrite that we've been talking about for five years..." So we were like, "Alright, when can we next do it? We can probably do it for Q1", so that's the schedule that we set for ourselves last year.
 
 **Rebecca Turner:** Yeah, and then Kat started playing around with it in November...
 
