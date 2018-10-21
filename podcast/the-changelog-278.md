@@ -30,7 +30,7 @@ Almost all of the original core people left MySQL development and joined MariaDB
 
 **Jerod Santo:** \[00:04:13.06\] And was it a straight code fork in terms of --
 
-**Monty Widenius:** Originally yes, but now we have some \[unintelligible 00:04:17.20\] on top of MySQL. A lot more features, a better application and much more secure.
+**Monty Widenius:** Originally yes, but now we have some thirty man-years on top of MySQL. A lot more features, a better application and much more secure.
 
 **Jerod Santo:** Very cool. I had heard the story of Maria, I never heard anybody say MariaDB out loud, obviously, but I read that that was happening, but I didn't know the state of the new thing, which is great to hear that it's production-ready, it's out there...
 
@@ -76,7 +76,7 @@ With MariaDB we don't own the code because we are a fork of MySQL, so we are bou
 
 **Adam Stacoviak:** Yeah.
 
-**Monty Widenius:** I felt really bad for all the people that I got to believe in open source, that it's here to stay \[unintelligible 00:09:34.03\] and disappeared. I would basically have let down all of them. That would not allow me to sleep, and I do value my sleep, so it was easier to work more and get good sleep.
+**Monty Widenius:** I felt really bad for all the people that I got to believe in open source, that it's here to stay; MySQL just up and disappeared. I would basically have let down all of them. That would not allow me to sleep, and I do value my sleep, so it was easier to work more and get good sleep.
 
 **Jerod Santo:** Give us some examples in Maria's model where you have the core product - you don't have licensing on that, because of the reason that you said, but then you have these side add-ons, or...
 
@@ -84,7 +84,7 @@ With MariaDB we don't own the code because we are a fork of MySQL, so we are bou
 
 **Jerod Santo:** So this an entirely different thing. You said it's Business Source License.
 
-**Monty Widenius:** Business Source License \[unintelligible 00:11:42.00\] but with lots of open source ideas around it. We have released MaxScale on this one, and going from having MaxScale as a free component in our subscription offering, now we are selling licenses, and deal size is not anymore ten thousand, they are in the hundred thousand or even in the million dollar range. So it totally transformed the business.
+**Monty Widenius:** Business Source License, its a closed source license but with lots of open source ideas around it. We have released MaxScale on this one, and going from having MaxScale as a free component in our subscription offering, now we are selling licenses, and deal size is not anymore ten thousand, they are in the hundred thousand or even in the million dollar range. So it totally transformed the business.
 
 Other options we have as a company is to be open core, but I hate open core with passion, because what I expect from software I use - I want to be in charge of my own destiny. With open core I lose all the freedoms; I can't do a bug fixing anymore, I totally depend on the company's whims, and so on. Business Source is there to be a bridge between closed source and open source, and in the end produce more open source companies who couldn't afford to do it before.
 
@@ -96,13 +96,13 @@ Other options we have as a company is to be open core, but I hate open core with
 
 **Adam Stacoviak:** I've got it pulled up right here, it's BSL 1.1 right now it seems, and it seems like if they contribute back through the Business Source License, it will eventually be open source as well.
 
-**Monty Widenius:** Yeah, that's the idea. The idea is basically with the Business Source initiative is that I want to make Business Source (BSL) as easily understood as GPL. GPL is a complex license; when I started MySQL \[unintelligible 00:14:15.14\] become GPL, I spent so much time explaining GPL to companies and the effects of that, and no people knew about this; to get BSL popular, you need to do the same thing, and that's why we have done it trivial for anybody to adopt it. So you just basically change your header files and add "This is now BSL", and then you copy one file from our website, and change three lines that describe your product name, the restrictions - when you have to pay and when your source code becomes open source. That's the only thing you have to do, so it's very trivial to do that.
+**Monty Widenius:** Yeah, that's the idea. The idea is basically with the Business Source initiative is that I want to make Business Source (BSL) as easily understood as GPL. GPL is a complex license; when I started MySQL and in the year 2000 MySQL become GPL, I spent so much time explaining GPL to companies and the effects of that, and no people knew about this; to get BSL popular, you need to do the same thing, and that's why we have done it trivial for anybody to adopt it. So you just basically change your header files and add "This is now BSL", and then you copy one file from our website, and change three lines that describe your product name, the restrictions - when you have to pay and when your source code becomes open source. That's the only thing you have to do, so it's very trivial to do that.
 
 **Jerod Santo:** So the last question - look forward 3-5 years at MariaDB, both in a technical sense and as your business... Where do you see it going? Where would you love for it to go in five years?
 
 **Monty Widenius:** So the interesting thing with open source software is that you are not the leader of where you are going. You are working with a community, and if you have the right community, who basically are the ones who are predicting and steering your future, and you are working with them, you are basically a part of it. That makes open source so strong, and that's why I want to have more companies be involved in that, to be a part of that.
 
-The only thing I know and what the trend I see right now is that much more distributed environments and setups where you're using lots of servers and exchange data behind them, like some of the NoSQL solutions, but still with a strong asset compliance so that you know that you never lose something. And we already have a product for that \[unintelligible 00:16:08.09\] analytics, but we also want to do the same thing in a transaction environment. So that's where we see at least one trend.
+The only thing I know and what the trend I see right now is that much more distributed environments and setups where you're using lots of servers and exchange data behind them, like some of the NoSQL solutions, but still with a strong asset compliance so that you know that you never lose something. And we already have a product for that in all our areas, in other words in analytics, but we also want to do the same thing in a transaction environment. So that's where we see at least one trend.
 
 \[00:16:19.12\] Another trend that we're working on is making it easy to transfer from closed source commercial databases to open source databases. So in 10.3 we are adding a PL/SQL layer on top of MariaDB.
 
@@ -156,7 +156,7 @@ The only thing I know and what the trend I see right now is that much more distr
 
 **Brian Behlendorf:** Sure, it's an open source project -- it's actually a community of projects that is focused on building technologies, building blocks for doing distributed ledgers and smart contracts/
 
-**Jerod Santo:** Okay. So I look at somebody with a Wikipedia page, a history in software... I don't wanna \[unintelligible 00:22:01.11\] too much, but you could probably do lots of things at this point in your career; why is this something that you're excited about? Why are you working at HyperLedger?
+**Jerod Santo:** Okay. So I look at somebody with a Wikipedia page, a history in software... I don't wanna stroke your ego too much, but you could probably do lots of things at this point in your career; why is this something that you're excited about? Why are you working at HyperLedger?
 
 **Brian Behlendorf:** Well, I kind of had career ADD... I've done a couple of startups, I worked for the World Economic Forum, I worked at the White House, I was a venture capitalist at one point... I never really worked for a giant company, but I've been kind of swimming around them a lot... And I had this unnerving kind of feeling over the last ten years, having been on the internet since fairly early days (early '90s), that the last ten years has been this move towards centralization rather than decentralization. As we've gotten more digital, we started to depend upon central companies more and more and have been forced to trust them, rather than choosing to trust them... And that's because it's always easier to set up a big central database than it is to build a federated or decentralized network/system. But the reason why the internet created so much value and was so much amazing was because of its decentralization.
 
@@ -168,7 +168,7 @@ The only thing I know and what the trend I see right now is that much more distr
 
 **Brian Behlendorf:** ...which now I'm sure is gonna get DDoS-ed upon somebody hearing this, but... \[laughter\]
 
-**Jerod Santo:** So you go into your SpamAssassin and update your \[unintelligible 00:23:05.26\]
+**Jerod Santo:** So you go into your SpamAssassin and update your bayesian filters \[laughter\]
 
 **Brian Behlendorf:** Exactly, there's a lot of attacks there. \[laughter\] So it's not easy, but I actually enjoy it, because I'm worried like that. So when I started hearing about Bitcoin I was kind of skeptical, because I'm not a currency speculator at heart, and I don't necessarily agree with a lot of the political side to that, but I was really attracted to the idea that "Hey, here's a bunch of people now thinking about decentralization, and autonomy, sovereign presence on the internet, all that good stuff." So I followed that a little bit from the periphery, I followed the Ethereum community from the periphery, but I was still passive as an investor at my gig just before this, where I started to talk to Bitcoin companies and blockchain companies, and I finally heard the use case which made me go "Wow!", which was land titles in emerging markets.
 
@@ -236,19 +236,19 @@ So that made me go "A-ha!", and I started digging more at it, and my next questi
 
 **Jerod Santo:** So the business...
 
-**Brian Behlendorf:** \[unintelligible 00:29:09.13\] I'm the diplomat, I'm the one who cajoles the companies into joining the project and then working nice with each other... Because it is too easy in open source projects for one vendor to run away with the brand, run away and say "We're the only Linux company!" or "We're the only Apache company!" There were lots of concerns about that in the early days of any of these projects, so a part of it is keeping that at bay, and that means doing boring things like thinking about trademark, thinking about events to be at, and how to get the right messages out.
+**Brian Behlendorf:** So, I'm the pointy haired boss.. I'm the diplomat, I'm the one who cajoles the companies into joining the project and then working nice with each other... Because it is too easy in open source projects for one vendor to run away with the brand, run away and say "We're the only Linux company!" or "We're the only Apache company!" There were lots of concerns about that in the early days of any of these projects, so a part of it is keeping that at bay, and that means doing boring things like thinking about trademark, thinking about events to be at, and how to get the right messages out.
 
 Then there's the other side, which is having the substance. It doesn't matter what you talk about if you don't have substance, right?
 
 **Jerod Santo:** Yeah, the technology itself.
 
-**Brian Behlendorf:** So how do you ge tthe communities together, how do you bring the right kinds of additional projects in, the right kind of additional thinking in, so that it's not just one person's view of what should be built, but a collective view, and where you can be challenged on that, where there's a healthy community of people who feel empowered to say "Maybe there's a different approach, maybe you're wrong..."
+**Brian Behlendorf:** So how do you get the communities together, how do you bring the right kinds of additional projects in, the right kind of additional thinking in, so that it's not just one person's view of what should be built, but a collective view, and where you can be challenged on that, where there's a healthy community of people who feel empowered to say "Maybe there's a different approach, maybe you're wrong..."
 
 **Jerod Santo:** Right. It's the multi-stakeholder thing, right? It's that same thing.
 
 **Brian Behlendorf:** "Let's get to rough consensus and running code as quickly as we can", but we really emphasize "running code." It doesn't matter that your ideas are big if you can't boil it down to running code. So get these communities together, ship it, using the best practices of the open source community, whether that's how Apache works, or on a security perspective the CII badging process... Like, how do you run security-conscious, security sensitive projects out there?
 
-And finally, a lot of the companies interested in this are new to open source, so working with them and their developers to understand how to actually post a bug in a way that is a good bug report, useful, and not have to divulge details about your client or your private business. A lot of people are very skiddish and still unsure of how to do that... So 20 years later it feels like a lot of the same issues, but these are \[unintelligible 00:30:59.26\]
+And finally, a lot of the companies interested in this are new to open source, so working with them and their developers to understand how to actually post a bug in a way that is a good bug report, useful, and not have to divulge details about your client or your private business. A lot of people are very skiddish and still unsure of how to do that... So 20 years later it feels like a lot of the same issues, but these are creepy..
 
 **Jerod Santo:** Everything old is new again. Give us the purview of the technology, where it stands, what it is... The meat of the matter.
 
@@ -422,7 +422,7 @@ Redis is fast. Everything is in memory. Any sort of well-structured Redis databa
 
 **Tague Griffith:** It'll be at the end of the month, so we'll be revealing more of the -- well, really, Salvatore will be revealing more of the roadmap and some cool changes that are coming in. I think the big one for this show, which was announced last year (the conference) is modules; that's the new really powerful thing we're working on... So this has been a collaboration between Salvatore and Redis Labs. We have several of our engineers contributing both modules and support for the modules code.
 
-What modules are gonna give Redis developers is now you have a way of extending and modifying and changing Redis without having to convince Salvatore that this is the thing that Redis needs. It's one of the great parts of open source - it's not a modular extension to Redis without needing to go through the \[unintelligible 00:53:24.12\]
+What modules are gonna give Redis developers is now you have a way of extending and modifying and changing Redis without having to convince Salvatore that this is the thing that Redis needs. It's one of the great parts of open source - it's not a modular extension to Redis without needing to go through the change request and generalization. 
 
 **Jerod Santo:** Right, right. It's actually a great proving ground too, for things that could go into core; once you have like a plugin or module model, you don't have to convince him, but if you build something that's super useful and all of a sudden everybody loves it and it becomes huge, it's like "Actually, that makes sense to be part of Redis", so it's cool that way, that you can have a proving ground.
 
