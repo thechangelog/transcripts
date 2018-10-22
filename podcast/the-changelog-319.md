@@ -32,7 +32,7 @@ Some of the stuff that's cool about Elm - 1) it's really, really reliable and ea
 
 **Jerod Santo:** Oh, okay...
 
-**Richard Feldman:** Basically, there was a function called debug.crash, and it really did what it says on the \[unintelligible 00:04:32.20\]
+**Richard Feldman:** Basically, there was a function called debug.crash, and it really did what it says on the tin.
 
 **Jerod Santo:** It sounds like you shouldn't call that in production... \[laughs\]
 
@@ -130,7 +130,7 @@ That Python paradox that he's talking about no longer applies to Python, because
 
 **Richard Feldman:** Yeah, I think it definitely correlates with a passion for programming. This is something my wife likes to say - she'll point out that "Your hobby is also your work." When I'm not working on my NoRedInk stuff, my hobby is doing more programming stuff, and running the Philadelphia Elm meetup, and whatnot.
 
-**Jerod Santo:** Right. \[unintelligible 00:17:35.17\]
+**Jerod Santo:** Right. It's not fair.
 
 **Richard Feldman:** Yeah, and I think it's important that our industry not have that as a requirement, that people need to do the same thing in their free time that they do in their work time...
 
@@ -194,7 +194,7 @@ As a consequence of that, it means you get the system-wide dead code elimination
 
 **Jerod Santo:** Good point.
 
-**Richard Feldman:** \[unintelligible 00:30:47.21\] elimination applies to Elm's standard libraries just as much as any package, so it makes it pretty tricky to measure. I guess what you could do is you could kind of like do surgery on the compiled JS, and map things back, categorize all of them, and say "Oh, this came from here and this came from there", but I don't think anybody has ever tried to do that. It sounds like a bunch of work.
+**Richard Feldman:** That dead code elimination applies to Elm's standard libraries just as much as any package, so it makes it pretty tricky to measure. I guess what you could do is you could kind of like do surgery on the compiled JS, and map things back, categorize all of them, and say "Oh, this came from here and this came from there", but I don't think anybody has ever tried to do that. It sounds like a bunch of work.
 
 **Jerod Santo:** Yeah... I was gonna say, one thing you could do from the other direction is say "Okay, how much application code do I have? How much application code have I written?" and assume that you're using all those functions, because why would you write app code for a demo that's unused...?
 
