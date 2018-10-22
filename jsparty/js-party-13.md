@@ -20,9 +20,9 @@
 
 **Rebecca Turner:** October.
 
-**Kat Marchán:** npm@4? So last October we released npm@4, and therefore we couldn't use the number four anymore, so we needed a bigger number to release, and we chose five as a valid increment for an integer. The further story is we've had a lot of breaking changes that we've been doing for a while, and that's usually what we do in major releases, but most important was we've had this cache rewrite on schedule in some way or another for five years. We've been putting it off, pretty much... It was meant to be this rewrite that we -- we expected it to be mostly an internal improvement. It was going to maybe speed things up slightly, maybe it was going to fix a lot of our issues, but we mostly saw it as this architectural improvement.
+**Kat Marchán:** npm@4? So last October we released npm@4, and therefore we couldn't use the number four anymore, so we needed a bigger number to release, and we chose five as a valid increment for an integer. The further story is we've had a lot of breaking changes that we've been doing for a while, and that's usually what we do in major releases, but most important was we've had this cache rewrite on schedule in some way or another for five years. We've been putting it off, Yeah! pretty much... It was meant to be this rewrite that we -- we expected it to be mostly an internal improvement. It was going to maybe speed things up slightly, maybe it was going to fix a lot of our issues, but we mostly saw it as this architectural improvement.
 
-Sometime early last year we decided that we're just gonna bite the bullet and we're gonna do the cache rewrite. We'd been talking about it for five years, we have closed many issues with going like "This will be fixed by the mythical cache rewrite that we've been talking about for five years..." So we were like, "Alright, when can we next do it? We can probably do it for Q1", so that's the schedule that we set for ourselves last year.
+Sometime mid early last year we decided that we're just gonna bite the bullet and we're gonna do the cache rewrite. We'd been talking about it for five years, we have closed many issues with going like "This will be fixed by the mythical cache rewrite that we've been talking about for five years..." So we were like, "Alright, when can we next do it? We can probably do it for Q1", so that's the schedule that we set for ourselves last year.
 
 **Rebecca Turner:** Yeah, and then Kat started playing around with it in November...
 
@@ -30,7 +30,7 @@ Sometime early last year we decided that we're just gonna bite the bullet and we
 
 **Rebecca Turner:** ...and we first started to actually see results -- I think you tried it out in late January...
 
-**Kat Marchán:** Late January, early February \[unintelligible 00:03:24.23\]
+**Kat Marchán:** Late January, early February, that was when I could actually poking at it \[unintelligible 00:03:24.23\]
 
 **Rebecca Turner:** ...and we were really surprised to find that it was unbelievably faster. The old cache was -- I still don't know how it was as slow as it was.
 
@@ -46,7 +46,7 @@ Sometime early last year we decided that we're just gonna bite the bullet and we
 
 Probably the single biggest aspect of the speed in the new version is the new lockfile shrinkwrap support. Having those allows the install to be much faster. It's part of the reason we made a lockfile by default - it was just speed.
 
-**Kat Marchán:** Yeah, with npm@5 it was the speed, and I'd say the second one was usability improvements that we did. We were just like, "Alright, it's a major version. People care about usability - what can we do to make this tool easier to use?" And some insight here - there's a reason that we didn't save by default for so many years. You have to understand that npm was originally designed, intended for and used as a Node library developer's tool. It is almost ideal -- it is practically idea if you are a Node developer writing libraries to publish on the npm registry. That is what Isaac designed it for - it was designed for a very specific workflow... And npm library authors are not the people who use npm the most these days anymore. The registry is too big.
+**Kat Marchán:** Yeah, but npm@5 it was the speed, and I'd say the second one was usability improvements that we did. We were just like, "Alright, it's a major version. People care about usability - what can we do to make this tool easier to use?" And some insight here - there's a reason that we didn't save by default for so many years. You have to understand that npm was originally designed, intended for and used as a Node library developer's tool. It is almost ideal -- it is practically ideal if you are a Node developer writing libraries to publish on the npm registry. That is what Isaac designed it for - it was designed for a very specific workflow... And npm library authors are not the people who use npm the most these days anymore. The registry is too big.
 
 **Rebecca Turner:** Library authors were the majority of Node developers in 2012... Not so much now.
 
