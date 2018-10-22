@@ -400,6 +400,6 @@ Then the last one was motivation, like "Is this something that's particularly ex
 
 **Kevin Ball:** I know, right?
 
-**Suz Hinton:** I wanted to thank everyone for sharing all of their stories today; a special shout-out to Robert \[unintelligible 01:04:46.19\] for calling in and sharing his. I know that takes a lot of guts, so we definitely very much appreciate it.
+**Suz Hinton:** I wanted to thank everyone for sharing all of their stories today; a special shout-out to roberttables, David Poindexter  for calling in and sharing his. I know that takes a lot of guts, so we definitely very much appreciate it.
 
 Thanks for listening to JS Party, we hope that you've enjoyed it as much as we did producing it, and we will catch you next time.
