@@ -258,7 +258,7 @@ I had lunch with him the Monday after Kevin had said no, so I just sat alone in 
 
 **Adam Stacoviak:** Oh, man...
 
-**Sam Soffes:** I just got a gym membership this week, now that I have moved, and I finally got my bike repaired... I was \[unintelligible 00:36:47.14\] Terrible. It was broken for a bit. Anyway, so now I'm like excited to get healthy.
+**Sam Soffes:** I just got a gym membership this week, now that I have moved, and I finally got my bike repaired... I was in a wreck, it was terrible. It was broken for a bit. Anyway, so now I'm like excited to get healthy.
 
 **Adam Stacoviak:** I'd have to say it like this, Sam, it doesn't sound like the last 6-8 months of your life have been very healthy for you.
 
