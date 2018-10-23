@@ -20,9 +20,9 @@
 
 **Rebecca Turner:** October.
 
-**Kat Marchán:** npm@4? So last October we released npm@4, and therefore we couldn't use the number four anymore, so we needed a bigger number to release, and we chose five as a valid increment for an integer. The further story is we've had a lot of breaking changes that we've been doing for a while, and that's usually what we do in major releases, but most important was we've had this cache rewrite on schedule in some way or another for five years. We've been putting it off, pretty much... It was meant to be this rewrite that we -- we expected it to be mostly an internal improvement. It was going to maybe speed things up slightly, maybe it was going to fix a lot of our issues, but we mostly saw it as this architectural improvement.
+**Kat Marchán:** npm@4? So last October we released npm@4, and therefore we couldn't use the number four anymore, so we needed a bigger number to release, and we chose five as a valid increment for an integer. The further story is we've had a lot of breaking changes that we've been doing for a while, and that's usually what we do in major releases, but most important was we've had this cache rewrite on schedule in some way or another for five years. We've been putting it off, Yeah! pretty much... It was meant to be this rewrite that we -- we expected it to be mostly an internal improvement. It was going to maybe speed things up slightly, maybe it was going to fix a lot of our issues, but we mostly saw it as this architectural improvement.
 
-Sometime early last year we decided that we're just gonna bite the bullet and we're gonna do the cache rewrite. We'd been talking about it for five years, we have closed many issues with going like "This will be fixed by the mythical cache rewrite that we've been talking about for five years..." So we were like, "Alright, when can we next do it? We can probably do it for Q1", so that's the schedule that we set for ourselves last year.
+Sometime mid early last year we decided that we're just gonna bite the bullet and we're gonna do the cache rewrite. We'd been talking about it for five years, we have closed many issues with going like "This will be fixed by the mythical cache rewrite that we've been talking about for five years..." So we were like, "Alright, when can we next do it? We can probably do it for Q1", so that's the schedule that we set for ourselves last year.
 
 **Rebecca Turner:** Yeah, and then Kat started playing around with it in November...
 
@@ -30,7 +30,7 @@ Sometime early last year we decided that we're just gonna bite the bullet and we
 
 **Rebecca Turner:** ...and we first started to actually see results -- I think you tried it out in late January...
 
-**Kat Marchán:** Late January, early February \[unintelligible 00:03:24.23\]
+**Kat Marchán:** Late January, early February, that was when I could actually poking at it \[unintelligible 00:03:24.23\]
 
 **Rebecca Turner:** ...and we were really surprised to find that it was unbelievably faster. The old cache was -- I still don't know how it was as slow as it was.
 
@@ -46,7 +46,7 @@ Sometime early last year we decided that we're just gonna bite the bullet and we
 
 Probably the single biggest aspect of the speed in the new version is the new lockfile shrinkwrap support. Having those allows the install to be much faster. It's part of the reason we made a lockfile by default - it was just speed.
 
-**Kat Marchán:** Yeah, with npm@5 it was the speed, and I'd say the second one was usability improvements that we did. We were just like, "Alright, it's a major version. People care about usability - what can we do to make this tool easier to use?" And some insight here - there's a reason that we didn't save by default for so many years. You have to understand that npm was originally designed, intended for and used as a Node library developer's tool. It is almost ideal -- it is practically idea if you are a Node developer writing libraries to publish on the npm registry. That is what Isaac designed it for - it was designed for a very specific workflow... And npm library authors are not the people who use npm the most these days anymore. The registry is too big.
+**Kat Marchán:** Yeah, but npm@5 it was the speed, and I'd say the second one was usability improvements that we did. We were just like, "Alright, it's a major version. People care about usability - what can we do to make this tool easier to use?" And some insight here - there's a reason that we didn't save by default for so many years. You have to understand that npm was originally designed, intended for and used as a Node library developer's tool. It is almost ideal -- it is practically ideal if you are a Node developer writing libraries to publish on the npm registry. That is what Isaac designed it for - it was designed for a very specific workflow... And npm library authors are not the people who use npm the most these days anymore. The registry is too big.
 
 **Rebecca Turner:** Library authors were the majority of Node developers in 2012... Not so much now.
 
@@ -68,7 +68,7 @@ When we were working on designing npm@5, one of the things we wanted to do was t
 
 **Alex Sexton:** \[00:07:58.00\] That's encouraging.
 
-**Mikeal Rogers:** Yeah, I have to say my favorite feature actually probably is the default save stuff. I think the first bug in most of my packages that I've received from other people is "You forgot to actually add this dependency" because \[unintelligible 00:08:12.08\] for half of the things that I installed, and then not one of them... This just completely solves that, I'm so excited about it.
+**Mikeal Rogers:** Yeah, I have to say my favorite feature actually probably is the default save stuff. I think the first bug in most of my packages that I've received from other people is "You forgot to actually add this dependency" because I use save for, --save for half of the things that I installed, and then not one of them... This just completely solves that, I'm so excited about it.
 
 **Kat Marchán:** Me too... I think we've been pushing to try and do this for a while... It's like, "How do we push this in?" This is a serious change in people's npm workflow, right? This is not a change that we could do lightly, as small as it seems...
 
@@ -102,7 +102,7 @@ When we were working on designing npm@5, one of the things we wanted to do was t
 
 **Alex Sexton:** I think one of the primary overarching stories behind a lot of this is most people do a thing, and they do that thing and they're like "How come npm doesn't do this?" and I think no one's invoked the "yarn" word yet, but I think a lot of what yarn was was "Hey, there's this use case that if we take away all these other constraints that npm has and all these other things that they have to do, then we can do this other thing very quickly, and add some features." It seems like a primary story of npm is that there are a lot of different use cases and continuing to support all those has very unique challenges in places that people don't even consider.
 
-**Kat Marchán:** Yeah, I mean npm is the default, and that means that we have to support all these people; not just new people that are coming in, but what five, six years of people who have old setups and don't wanna have their keys moved too much. \[unintelligible 00:11:27.29\] Maybe that's a bit of a weird metaphor at this point, but I think it's okay for npm to make tradeoffs that other things can't. We're not gonna sacrifice the user base that we have in order to primarily serve what developers -- so we can serve both, and that's what we'll do... We'll optimize for like spreading out...
+**Kat Marchán:** Yeah, I mean npm is the default, and that means that we have to support all these people; not just new people that are coming in, but what five, six years of people who have old setups and don't wanna have their keys moved too much. Although that's the \[unintelligible 00:11:27.29\] conversation yesterday.  Maybe that's a bit of a weird metaphor at this point, but I think it's okay for npm to make tradeoffs that other things can't. We're not gonna sacrifice the user base that we have in order to primarily serve what developers -- so we can serve both, and that's what we'll do... We'll optimize for like spreading out...
 
 Another aspect of npm@5 is that it is probably our most significant step in a while towards breaking npm down into significant chunks, with the intention of -- like, the dream here is to (the platonic idea, if you will) be able to take all the components that npm uses right now, pick only the ones that you like and need, and then cook up your own package manager for your particular community.
 
@@ -124,7 +124,7 @@ It's why we never integrated any kind of flat install like Bower would do. We're
 
 **Rebecca Turner:** We would hope that people would be able to build on our tools to make that, if they wanted a package manager that did that.
 
-**Kat Marchán:** Yes. \[unintelligible 00:14:32.19\] and that's the flat tree.
+**Kat Marchán:** Yes. And \[unintelligible 00:14:32.19\] have basically about that literally just wraps the \[unintelligible 00:14:32.19\] and that's the flat tree.
 
 **Rebecca Turner:** I mean, that's very hard... \[laughter\]
 
@@ -152,7 +152,7 @@ It's why we never integrated any kind of flat install like Bower would do. We're
 
 **Alex Sexton:** I guess you'd have to have GitHub Enterprise to fully cannibalize, but...
 
-**Kat Marchán:** It is not that, by the way... \[unintelligible 00:17:29.21\] That is not something you want to do a lot.
+**Kat Marchán:** It is not that, by the way... we \[unintelligible 00:17:29.21\] for every single Git dep. That is not something you want to do a lot.
 
 **Alex Sexton:** Yeah, yeah. So how does it differ from tagging something in -- oh, I guess the resolution of the tag can increase in version as a different... Before, you used to be able to do a Git dep and do hash some tag version number; now you're saying that you can kind of do like a carrot version number and it will grab the correct semver?
 
@@ -418,7 +418,7 @@ So I think Babili is the first attempt at an ES6 minifier. It will minify down t
 
 If you're doing WebRTC experiments, it's easy to just ship ES6 to the browser, because the Venn diagram of browsers that support WebRTC and don't support ES6 features is not a thing. \[unintelligible 00:50:27.28\]
 
-**Alex Sexton:** That's decently true of the animations in CSS that's written for a lot of the Stripe sites, so it's mostly \[unintelligible 00:50:35.18\] You already have a broken experience, so...
+**Alex Sexton:** That's decently true of the animations in CSS that's written for a lot of the Stripe sites, so it's mostly the thinking is you already have a broken experience, so...
 
 **Mikeal Rogers:** Yeah, it's perfect. Okay, my project of the week is called pkg. It's from Zeit; they're the creators of Now and Hyper and a bunch of other awesome stuff. It's Guillermo Rauch's new company, who started Socket.io. Pkg is something that I've wanted for a long time, which is basically take all of your Node projects - your code, all your dependencies, everything - and Node itself and turn that into one single executable file, so that somebody can go and take that and run it on a similar environment. If you have native dependencies, it's gonna have to be on the same architecture, I would imagine... But they could just go and run that wherever.
 
