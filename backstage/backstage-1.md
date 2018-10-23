@@ -321,3 +321,5 @@ So the focus for a little bit now, maybe these next 6-8 months, is polish, growt
 **Adam Stacoviak:** And everybody has a different perspective on that, too. Your burnout isn't my burnout; my team scaling isn't your team scaling. Everybody has a different angle for that, and everybody has a different aspect of community. I always appreciate being able to share with somebody like, "Hey, if community is a big part of what you're trying to do, then make it accessible on the homepage easily. Tell somebody where the community lives, so they can actually join... Not hide it, or obfuscate it and make it not very clear. It's an easy win."
 
 **Jerod Santo:** Changelog.com/master.
+
+**Sandeep:** Hey There
