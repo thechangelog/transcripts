@@ -50,7 +50,7 @@ The only reason I got back into programming -- I'd been doing it on and off all 
 
 **Jerod Santo:** Nice.
 
-**Max Howell:** ...back when Windows didn't have the time in the corner. Obviously, when they added that it made less sense. And I had a great Y2K bug; it turned \[unintelligible 00:04:41.21\] that little clock I made. After 2000 I tried building it out again and it claimed like it was the 15th century, or something... Couldn't handle it.
+**Max Howell:** ...back when Windows didn't have the time in the corner. Obviously, when they added that it made less sense. And I had a great Y2K bug; it turned out that little clock I made. After 2000 I tried building it out again and it claimed like it was the 15th century, or something... Couldn't handle it.
 
 **Jerod Santo:** Wow...
 
@@ -120,7 +120,7 @@ I was doing computational chemistry for my dissertation, so the professor I was 
 
 TweetDeck - I've got no ties there, but you had me at Last.fm for sure. Where did Homebrew begin?
 
-**Max Howell:** Homebrew began probably right at the end of Last.fm. Because at Last.fm we were making cross-platform software - I had to scrobble in every platform - and managing the dependencies that we had, which there were a few (not many), but \[unintelligible 00:14:58.11\] what people have nowadays \[unintelligible 00:15:00.03\] but there wasn't really any good way of doing that, so Homebrew was a kind of response to wanting a system that could be cross-platform and would allow me as a developer to control the dependencies on my system in multiple places. It's funny that these features do exist, but are not very used, they're not why it's successful at this point, but it is something it can do. You can install multiple instances of Homebrew, you just have to check it out at different places, and it will install to those places, the cross-platform as well as in Ruby. There is now a well-maintained Linux port, but the original goals was that it could be.
+**Max Howell:** Homebrew began probably right at the end of Last.fm. Because at Last.fm we were making cross-platform software - I had to scrobble in every platform - and managing the dependencies that we had, which there were a few (not many), relative to what people have nowadays \[unintelligible 00:15:00.03\] but there wasn't really any good way of doing that, so Homebrew was a kind of response to wanting a system that could be cross-platform and would allow me as a developer to control the dependencies on my system in multiple places. It's funny that these features do exist, but are not very used, they're not why it's successful at this point, but it is something it can do. You can install multiple instances of Homebrew, you just have to check it out at different places, and it will install to those places, the cross-platform as well as in Ruby. There is now a well-maintained Linux port, but the original goals was that it could be.
 
 So I started building it at the end of Last.fm, and then when I left, I left in order to make iPhones apps, because it was right at the beginning of...
 
@@ -144,7 +144,7 @@ So yeah, I had the experience so I thought I'd quit and make apps and make milli
 
 One day this guy, I think his name is Simon Willison - I forget... He used to be Twitter famous, so I'm not sure if he is anymore, but he posted a super-user question about how to manage dependencies on this Mac, so I answered with "Oh, I made this new project", and I explained a lot of the rationale behind it. That got it noticed by \[unintelligible 00:17:45.19\] who I think is at GitHub now; he was at 37signals. So he tweeted when he upgrades to Leopard, which was Mac's 10.5, he would install Homebrew, and that got me my first hundred forks, and then it just kept going up and up. Then it became addicting, because every day I'd wake up and there was a bunch of -- pull requests didn't exist at that point... It was just tickets from people saying, "Oh, I made this formula, it's in my fork. Won't you merge it?", so I'd merge it.
 
-From the start, I designed Homebrew to be really simple to contribute to, because I knew I didn't wanna write all the formula. One of my issues with \[unintelligible 00:18:27.19\] it seemed opaque, it seemed really difficult to figure out how to contribute, so I designed it so that there were commands on the command line to help you see the formulae, contribute to the formulae, edit them... It was all built on Git, that was the update mechanism, so you could just push straight away with your edits. That was the key really to its success. I think it was just the understanding about how people don't really like contributing to open source because they don't know how, so you've gotta build that in as like an easy way for them to just push back their contributions.
+From the start, I designed Homebrew to be really simple to contribute to, because I knew I didn't wanna write all the formula. One of my issues with MacPorts it seemed opaque, it seemed really difficult to figure out how to contribute, so I designed it so that there were commands on the command line to help you see the formulae, contribute to the formulae, edit them... It was all built on Git, that was the update mechanism, so you could just push straight away with your edits. That was the key really to its success. I think it was just the understanding about how people don't really like contributing to open source because they don't know how, so you've gotta build that in as like an easy way for them to just push back their contributions.
 
 I designed the formulae themselves to be very readable, so you could open any formula and understand how to make your own. It was always a part of the design I went for.
 
@@ -178,7 +178,7 @@ It's one of the nice things about pubs in Britain - they're really places you ca
 
 **Adam Stacoviak:** They serve good food even.
 
-**Max Howell:** Yeah. And hopefully it's owned by the same family for a while, although that's less and less the case, sadly. So yeah, they're a lot more savory, but still, London overdoes it, it really does. So at the time I was 28, so there was a lot of beer in my life; to be fair, I drank British beer, which is usually 3% - 3.5%, so... It seemed like a great idea. Then I thought, "Well, Homebrew is a great name for it." At the time I didn't think about the \[unintelligible 00:23:21.23\], I was just thinking about how I wanted it to feel like a platform that you could create your own packages for, and customize them the way you wanted them to be customized, so it seemed like a great name, and it just lead to the other names.
+**Max Howell:** Yeah. And hopefully it's owned by the same family for a while, although that's less and less the case, sadly. So yeah, they're a lot more savory, but still, London overdoes it, it really does. So at the time I was 28, so there was a lot of beer in my life; to be fair, I drank British beer, which is usually 3% - 3.5%, so... It seemed like a great idea. Then I thought, "Well, Homebrew is a great name for it." At the time I didn't think about the Apple connotation, I was just thinking about how I wanted it to feel like a platform that you could create your own packages for, and customize them the way you wanted them to be customized, so it seemed like a great name, and it just lead to the other names.
 
 I thought carefully about each one. There was a while that it wasn't gonna be 'formula', it was gonna be 'recipe', because they're not really formulae in the homebrewing beer space, but 'formula' was more unique. And kegs and cellars... Kegs are stored in racks, technically, but that's not really something people know. It's fun, it worked out really well. I hope I didn't contribute somewhat to the silly naming systems that seem to go on in open source nowadays.
 
@@ -248,11 +248,11 @@ I'm very proud of Homebrew, it was a project I put a lot of time, effort and tho
 
 **Adam Stacoviak:** Because it's this moment -- like you said, it can't come back... There's this point of no return, and that's hard to deal with.
 
-**Max Howell:** Yeah, it was... I felt a sort of relief once it was \[unintelligible 00:35:10.09\] Like, for one, my GitHub notifications were never readable. \[laughter\]
+**Max Howell:** Yeah, it was... I felt a sort of relief once it was done though. Like, for one, my GitHub notifications were never readable. \[laughter\]
 
 **Adam Stacoviak:** You could actually use them.
 
-**Max Howell:** Yeah, exactly. Well, I had other open source projects and they were just \[unintelligible 00:35:23.08\] because I couldn't know when someone was actually trying to get my attention for them; I couldn't really know why people wanted my attention on Homebrew either... Homebrew's notifications are not designed for a project of that popularity, for sure. So the moment it was gone, suddenly I could get back into my other projects and things that I was more interested in at the time. It made sense.
+**Max Howell:** Yeah, exactly. Well, I had other open source projects and they were just vanquished because I couldn't know when someone was actually trying to get my attention for them; I couldn't really know why people wanted my attention on Homebrew either... Homebrew's notifications are not designed for a project of that popularity, for sure. So the moment it was gone, suddenly I could get back into my other projects and things that I was more interested in at the time. It made sense.
 
 **Adam Stacoviak:** So once you were done with Homebrew, what was the next step for you? What was the next bigger milestone for you in life?
 
