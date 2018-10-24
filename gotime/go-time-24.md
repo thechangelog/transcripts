@@ -8,7 +8,7 @@
 
 **Erik St. Martin:** Would you like to give everybody a little background about yourself?
 
-**Nate Finch:** Sure. I've been doing development for 16 years now, since graduating from college about four and a half years ago, right around Go 1.01, or something like that. I started looking at Go mainly as a way to not be pigeonholed as a Windows developer, because at that time I was a Windows developer, and I wanted to be more than that. \[unintelligible 00:01:36.14\] community, and about six months later I saw Gustavo posting on Twitter that there was an opening for a Go developer at Canonical, working on Juju. I've interacted with Gustavo for a bit, and we sort of knew each other; it eventually worked out, and I started working on Juju. I've been there for just about three and a half years. I've done a bunch of Go stuff on the side, and I'm a big fan of Go.
+**Nate Finch:** Sure. I've been doing development for 16 years now, since graduating from college about four and a half years ago, right around Go 1.01, or something like that. I started looking at Go mainly as a way to not be pigeonholed as a Windows developer, because at that time I was a Windows developer, and I wanted to be more than that. \[meaningless 00:01:36.14\] community, and about six months later I saw Gustavo posting on Twitter that there was an opening for a Go developer at Canonical, working on Juju. I've interacted with Gustavo for a bit, and we sort of knew each other; it eventually worked out, and I started working on Juju. I've been there for just about three and a half years. I've done a bunch of Go stuff on the side, and I'm a big fan of Go.
 
 **Erik St. Martin:** So you were writing production Go code before most people knew about Go.
 
