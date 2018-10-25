@@ -82,7 +82,7 @@ But then on top of that, you kind of have to have -- then it becomes a cultural 
 
 You're just like, "I assume, very naively, that oh... It's the documentation, it's correct, so I must be doing something wrong." And then I found out very quickly that that wasn't the case. So that's tough, and that's in Javascript, right?
 
-Django, you know... \[unintelligible 00:13:53.26\] was giving a great talk earlier this week - and he and I were both in Python before... You know, it's tough to beat that when it comes to that level of project - you've got versioning, I believe you have it in multiple languages, which I think we'll talk about a little bit later... You know, spoken languages...
+Django, you know... [James Socol](https://jamessocol.com/) was giving a great talk earlier this week - and he and I were both in Python before... You know, it's tough to beat that when it comes to that level of project - you've got versioning, I believe you have it in multiple languages, which I think we'll talk about a little bit later... You know, spoken languages...
 
 **Alex Sexton:** There's also a book... There's the Django book too, right?
 
@@ -148,7 +148,7 @@ All documentation should have an example and it should have a known output, and 
 
 **Alex Sexton:** And we're back. During this next section, we're going to be talking a little bit about maybe a segment light about concurrency in the UI thread, or non-blocking rendering techniques to make the browser not lag whenever you try to do things or render things (render other things) or scroll.
 
-\[00:24:00.00\] We've talked a lot in the past about maybe network performance, and we talked somewhat last week about isomorphic Javascript. As a refresher, isomorphic Javascript is a name that was given to code that renders on the server and the client by \[unintelligible 00:24:17.15\] at Airbnb back in the Backbone days when we used to do it the hard way. So isomorphic Javascript refers to Javascript that you can render on the server, and then whenever the page renders, the frontend code "rehydrates" (this is the word we use) all of the nodes that are already in the DOM, and then things start working, magically.
+\[00:24:00.00\] We've talked a lot in the past about maybe network performance, and we talked somewhat last week about _Isomorphic Javascript_. As a refresher, _Isomorphic Javascript_ is a name that was given to code that renders on the server and the client by [Spike Brehm](https://www.linkedin.com/in/spikebrehm) at Airbnb back in the Backbone days when we used to do it the hard way. So _Isomorphic Javascript_ refers to Javascript that you can render on the server, and then whenever the page renders, the frontend code "rehydrates" (this is the word we use) all of the nodes that are already in the DOM, and then things start working, magically.
 
 So you have a server side render, you get SEO, you get fast rendering. You might not get fast thing to work, so if your Javascript still takes a really long time to parse and execute then none of your buttons work yet, but maybe your links do, or something like that; it'd be cool.
 
