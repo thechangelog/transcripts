@@ -194,7 +194,7 @@ For example Matt Aimonetti did a beautiful blog post about Go being for everyone
 
 **Francesc Campoy:** Yeah, that actually takes very well with something else that we discussed in the Go project room during hack day, which is we have these... We had actually two different talks with two different sessions where we ended up discussing the same things, which is the user feedback and the diversity discussion. Surprisingly, we ended up talking about pretty much the same things, which were we need more people in the community; to do that, we need to teach more people, and to teach more people we need better ways to basically welcome people that have never programmed in any other language.
 
-We have things like the Go Tour, which I think is a great tool for people that have already programmed in other languages, but if you come from no programming experience at all, when we say "Oh yeah, the \[unintelligible 00:23:35.22\] is like C++, just without the paranthesis", it's not incredibly helpful.
+We have things like the Go Tour, which I think is a great tool for people that have already programmed in other languages, but if you come from no programming experience at all, when we say "Oh yeah, the for loop is like C++, just without the paranthesis", it's not incredibly helpful.
 
 So we're talking more about okay, so how do we get this started, what kind of resources we want them to get together? Katrina was talking a lot about what kind of resources are available in the Ruby community, and I think that that is something that hopefully during this year and coming up to next GopherCon we'll have new things and new projects about how to basically get more Gophers involved.
 
