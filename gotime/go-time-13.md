@@ -312,7 +312,7 @@ There is also another idea that I think came from Katrina. Katrina works at Gith
 
 **Carlisia Pinto:** Were you at the San Francisco meetup yesterday, Francesc?
 
-**Francesc Campoy:** Yes, I was there, but I had to leave, so I missed \[unintelligible 00:42:04.16\] talk. I know he was recorded, so I'm looking forward to watching it, too.
+**Francesc Campoy:** Yes, I was there, but I had to leave, so I missed Burcu's talk. I know it was recorded, so I'm looking forward to watching it, too.
 
 **Carlisia Pinto:** Yeah, that's exactly what I was gonna mention. She is gonna put out a proposal to have an abstraction of a lot of the interface that will be required for Go to work with the hardware, including robotics and Gobots. Whenever that comes out, people should try to contribute. To make that happen, we will need to have a better interface.
 
