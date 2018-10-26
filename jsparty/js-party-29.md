@@ -6,7 +6,7 @@
 
 **Jerod Santo:** Not too much, Kball. I'll tell you what - you're doing such a great job bringing the joy, bringing the MC skills that I might have to renamed myself Jball just to steal some of your cool.
 
-**Kevin Ball:** \[laughs\] That's pretty good. Alright, so next time I actually try to write a JS Party wrap I'll call you Jball and we'll see what we can do.
+**Kevin Ball:** *laughs* That's pretty good. Alright, so next time I actually try to write a JS Party wrap I'll call you Jball and we'll see what we can do.
 
 **Jerod Santo:** Please do. It rhymes with more stuff than Jerod, I think.
 
