@@ -312,7 +312,7 @@ There's also been some work about making all this stuff work with extensions to 
 
 **Feross Aboukhadijeh:** Interesting. It sounds a little bit like in the same category as WebRTC maybe, where it's almost like the peer-to-peer use case wasn't really the intended use case for the spec, but you'll probably find people who are hacking that use case out of it, even though it's not really meant for it.
 
-**Mathias Buus:** Yeah... I mean, from a personal point of view, I think it's a good analogy you say there, because it seems very use case-driven, more than bit picture-driven... Kind of like WebRTC, we need to make \[unintelligible 01:01:46.24\] work well on the browser, and this means we need to make AMP work better, or AMP-like things, instead of big picture, like "Oh, it'd be cool to have more decentralized stuff in there, so we can make this whole new network." It's hard, I understand why.
+**Mathias Buus:** Yeah... I mean, from a personal point of view, I think it's a good analogy you say there, because it seems very use case-driven, more than bit picture-driven... Kind of like WebRTC, we need to make web recording work well on the browser, and this means we need to make AMP work better, or AMP-like things, instead of big picture, like "Oh, it'd be cool to have more decentralized stuff in there, so we can make this whole new network." It's hard, I understand why.
 
 **Feross Aboukhadijeh:** Cool, so what's next for Beaker? What's on the roadmap for the next -- I know, Paul, you said for the next six months you're gonna be working on the social networking tools, but what about like maybe the dApp protocol? Mathias, what's coming next for Dat?
 
