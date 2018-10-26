@@ -128,7 +128,7 @@ My philosophy is that when I'm writing a new service or when I'm operating a ser
 
 **Erik St. Martin:** So you had started talking about the one post that was one of the most popular that hit Hacker News and you kind of got some slack about, which was your [short methods post](https://medium.com/@copyconstruct/small-functions-considered-harmful-91035d316c29). Did you wanna give a little bit of insight into that? What was the negative reaction to that? Was it over-read into kind of they assumed you were taking a polarized view where it was like never a small method ever?
 
-**Cindy Sridharan:** \[00:32:05.17\] It was more about people genuinely believing that a lot of the things that I said weren't something \[unintelligible 00:32:10.26\], and that is totally fine. It wasn't particularly negative, the fact that the vast majority of people who commented were disagreeing with me. There were a handful of pretty negative folks, but that's fine... The vast majority, at least of people who disagreed, were just disagreeing with the content.
+**Cindy Sridharan:** \[00:32:05.17\] It was more about people genuinely believing that a lot of the things that I said weren't something that they agreed with, and that is totally fine. It wasn't particularly negative, the fact that the vast majority of people who commented were disagreeing with me. There were a handful of pretty negative folks, but that's fine... The vast majority, at least of people who disagreed, were just disagreeing with the content.
 
 Some people complained that it lacked examples, but again, I cracked it out in two hours; it wasn't like something I spent two days writing, so that probably explains why I didn't feel the need to inject a whole bunch of examples.
 
