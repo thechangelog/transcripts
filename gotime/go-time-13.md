@@ -210,7 +210,7 @@ I agree that in general the exercises tend to be a little bit too complex, and i
 
 **Erik St. Martin:** Yeah, and I think for anybody who has more of a formal background some of these things seem clearer than people who are more autodidact, they've taught themselves to program and maybe don't have the formal...
 
-**Carlisia Pinto:** While on subject, there was a lightning talk by this guy, and I keep forgetting his name... I'm looking on the GopherCon repo for the 2016 talks and I can't identify his \[unintelligible 00:26:55.16\] maybe he hasn't added it yet. In any case, he has this proposal about doing an open source collaborative effort in putting together a book, and he has some specific ideas I thought were brilliant. I'm hoping he was going to go forward with that. I'd love to get people connected to get that... Landon Jones, yes. He's a firecracker. I hope this takes off.
+**Carlisia Pinto:** While on subject, there was a lightning talk by this guy, and I keep forgetting his name... I'm looking on the GopherCon repo for the 2016 talks and I can't identify him in there, maybe he hasn't added it yet. In any case, he has this proposal about doing an open source collaborative effort in putting together a book, and he has some specific ideas I thought were brilliant. I'm hoping he was going to go forward with that. I'd love to get people connected to get that... Landon Jones, yes. He's a firecracker. I hope this takes off.
 
 **Francesc Campoy:** What talk was this you said?
 
@@ -220,7 +220,7 @@ I agree that in general the exercises tend to be a little bit too complex, and i
 
 **Brian Ketelsen:** He cornered me in the hallway. His idea for the book is called The Little Gopher. It sounds really interesting. He's even trying to line up Renee to help with some illustrations.
 
-**Francesc Campoy:** Cool. I'll take it out whenever the \[unintelligible 00:27:53.02\]
+**Francesc Campoy:** Cool. I'll take it out whenever the talks are out.
 
 **Carlisia Pinto:** If Renee cannot help him, I know a designer who can take Renee's graphics and really do something amazing.
 
@@ -252,11 +252,11 @@ So this is a good time for us to stop and take a break and thank our sponsor Lin
 
 **Erik St. Martin:** So are there any other talks anybody was able to see that were interesting? I know Donnie Berkholz's talk was really well received as well, Mining the Go Developer Community. I didn't get to see that one. Was that something you got to see, Francesc?
 
-**Francesc Campoy:** Yeah, I got to watch it and it was very interesting. Basically, he kind of did my job, because I \[unintelligible 00:32:43.10\] "Yeah, that is actually very interesting data." There were a lot of interesting things, like how people are using vendoring, what kind of tooling they're using, if people are using debuggers or not... I think it's a very good place to start to basically try to have a campaign on... If you want everybody to use gofmt - I mean, gofmt is the one that everybody uses... But things like error check - how many people are using that, that is a very interesting conversation. And try to get more people to use the tools that everybody agrees increases the quality of the code. So yeah, I loved the talk.
+**Francesc Campoy:** Yeah, I got to watch it and it was very interesting. Basically, he kind of did my job, because I tried to make the community better and "Yeah, that is actually very interesting data." There were a lot of interesting things, like how people are using vendoring, what kind of tooling they're using, if people are using debuggers or not... I think it's a very good place to start to basically try to have a campaign on... If you want everybody to use gofmt - I mean, gofmt is the one that everybody uses... But things like error check - how many people are using that, that is a very interesting conversation. And try to get more people to use the tools that everybody agrees increases the quality of the code. So yeah, I loved the talk.
 
 **Brian Ketelsen:** Here's something that's just blowing my mind. We've got one of our very remote people on Slack right now, saying that his favorite talk was the Inside The Map Implementation from Keith Randall. The reason this blows my mind is because I know he wasn't at GopherCon and he watched it over the live stream. I'm just having a little bit of a joyous moment right here.
 
-**Francesc Campoy:** Yeah, I gotta say that Keith's talk was so technical but so funny at the same time that I loved it. My favorite part was when basically in a very fine example of trolling he said, "Oh, Go doesn't have generics, but you can fix it with unsafe." I was like, "Oh my god!" \[unintelligible 00:34:16.20\] \[laughter\]
+**Francesc Campoy:** Yeah, I gotta say that Keith's talk was so technical but so funny at the same time that I loved it. My favorite part was when basically in a very fine example of trolling he said, "Oh, Go doesn't have generics, but you can fix it with unsafe." I was like, "Oh my god! You didn't go there." \[laughter\]
 
 **Brian Ketelsen:** Yeah, what was that... A map of function pointers?
 
@@ -284,7 +284,7 @@ So this is a good time for us to stop and take a break and thank our sponsor Lin
 
 **Erik St. Martin:** Yeah, there were so many good talks. So back to the Go Project room, I wanna make sure we touch on that too, because I know it's definitely something Carlisia was interested in speaking with you while you were on the show... The Diversity discussions. I wasn't in on that, how did that go?
 
-**Francesc Campoy:** It went really well, it was full all the way. That was very interesting, seeing so many people interested in talking about Diversity, and not only people that are members of Diversity, minorities represented at GopherCon, black people and women, and \[unintelligible 00:36:47.18\] etc., but there were also a lot of allies that were there to represent and basically to give support. That was very interesting.
+**Francesc Campoy:** It went really well, it was full all the way. That was very interesting, seeing so many people interested in talking about Diversity, and not only people that are members of Diversity, minorities represented at GopherCon, black people and women, and LGBTQ etc., but there were also a lot of allies that were there to represent and basically to give support. That was very interesting.
 
 We talked about many things. One of the things that I tried to propose and I hope is gonna happen - the same way there was this talk about mining the Go community, and that understands how Gophers do technical things, I was wondering if we could do something similar about who are those Gophers, where are they? Do they live somewhere in the States, in cities where they have meetups, or are they far apart? Do they have kids? Is it easy for them to attend conferences like GopherCon, or do they prefer things like the remote meetups organized by GoBridge? Is that useful for them? That was pretty interesting.
 
@@ -550,7 +550,7 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Erik St. Martin:** It does not need to be written in Go.
 
-**Francesc Campoy:** \[01:00:00.27\] Then I think I'm gonna go with something that is actually for \[unintelligible 01:00:03.19\] but we use regularly for the Google Cloud Platform Podcast, Audacity.
+**Francesc Campoy:** \[01:00:00.27\] Then I think I'm gonna go with something that is actually for real but we use regularly for the Google Cloud Platform Podcast, Audacity.
 
 **Erik St. Martin:** Yeah, that is a good one.
 
