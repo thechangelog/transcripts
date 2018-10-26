@@ -212,7 +212,7 @@ So it turns out IE invented this thing, and Safari, back when it was actually KH
 
 \[00:24:04.20\] So then Safari has it, people start probably copying and pasting code from Stack Overflow, and it just keeps on working because you had no idea this was even a thing, and it works in Chrome and it works in Edge, because they forked from IE.
 
-So this is one of these things where you're like, "Oh, we should just spec this and call it -- it's part of the web platform, it's ugly, it's historical..." Yeah, so this is something -- I'm working with \[unintelligible 00:24:35.08\] who is a web standards wizard; he works on HTML and DOM, and probably 50 other things... There's an open pull request, and then that'll just be part of the web.
+So this is one of these things where you're like, "Oh, we should just spec this and call it -- it's part of the web platform, it's ugly, it's historical..." Yeah, so this is something -- I'm working with [Anne van Kesteren](https://en.wikipedia.org/wiki/Anne_van_Kesteren) who is a web standards wizard; he works on HTML and DOM, and probably 50 other things... There's an open pull request, and then that'll just be part of the web.
 
 **Wes Bos:** You're saying the event is just not standardized?
 
