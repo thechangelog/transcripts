@@ -1,20 +1,20 @@
 **Jerod Santo:** Joseph, we're here today to talk about OSS Capital. I think this is a first in the industry, a company that invests exclusively in commercial OSS startup companies. Very cool, you announced this recently. First of all, welcome to The Changelog.
 
-**Joseph Jacks:** Thank you so much for having me. It's really cool to be here.
+**Joseph Jacks:** Thank you so much for having me. It's really, really cool to be here.
 
 **Jerod Santo:** So is this the first of its kind? I feel like maybe it's a threshold moment for the open source community. We have not just venture capital, but specifically, exclusively capital focused on open source startups.
 
-**Joseph Jacks:** Yeah, I think it is pretty much the first of its kind. It's sort of happened organically. We've been thinking about the sort of nature of open source as it relates to company building, and this sort of broad class of companies that you can call commercial open source software companies.
+**Joseph Jacks:** Yeah, I think it is pretty much the first of its kind. It sort of happened organically. We've been thinking about the sort of nature of open source as it relates to company building, and this sort of broad class of companies that you can call commercial open source software companies.
 
 There's certainly been venture capital investors who have an affinity for open source and they've certainly invested quite a lot. People like Peter Fenton come to mind, Mike Volpi, Martin Casado, Dan Skolnik, others... It's certainly a really exciting area, but what we felt needed to exist just in terms of the critical, profound nature of open source as it relates to changing the world and changing the technology industry and the software industry at large is really a focused firm that also has a bit of a different structure. We think it is pretty novel, and I'm super-excited to be talking about it here.
 
 **Adam Stacoviak:** \[00:04:32.10\] We actually shared some interesting things that you share recently on our news feed, which was an index that you have - an open source software company index of companies with 100 million dollars plus in revenue. Now, the caveat also is recurring or not, and then also an or, which adds that also potentially could just generate the equivalent of 25 million dollars in a quarter. I put my own sub note there saying these companies have found a way to build a very large business around one or many open source software projects.
 
-I think maybe a place to begin might be the fact that it exists, and there's -- I didn't even count them \[unintelligible 00:05:20.08\] real quick.
+I think maybe a place to begin might be the fact that it exists, and there's -- I didn't even count them, let me count the rows real quick.
 
 **Joseph Jacks:** I think it's 36 or 37 in there. I know there were only six or seven about four years ago meeting that criteria, so... It's quite a lot.
 
-**Adam Stacoviak:** It's grown. It's a growing space.
+**Adam Stacoviak:** It's grown. It's a space growing then.
 
 **Joseph Jacks:** I think it'll actually be a little over 40 by the end of the year. Yeah, definitely a growing space, for sure.
 
