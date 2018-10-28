@@ -70,7 +70,7 @@ To be honest, I was nervous also about being the first person on stage, but then
 
 **Brian Ketelsen:** That's an interesting segue into one of the Go projects that I was keeping my eye on this week. He released that particular package GoTrace I wanna say yesterday or the day before. It's at github.com/divan/gotrace. Really awesome tool.
 
-**Francesc Campoy:** Yeah, I was checking it this morning and the animations are just so beautiful that I wanna run it with everything. Basically the problem right now is that the browsers are not able to catch up with all the goroutines that we \[unintelligible 00:07:47.01\] Maybe we should make goroutines heavier, or browsers faster. But there's a problem here. \[laughs\]
+**Francesc Campoy:** Yeah, I was checking it this morning and the animations are just so beautiful that I wanna run it with everything. Basically the problem right now is that the browsers are not able to catch up with all the goroutines that we start in Go. Maybe we should make goroutines heavier, or browsers faster. But there's a problem here. \[laughs\]
 
 **Erik St. Martin:** Filing a bug for the browser, saying that it needs to increase performance so that we can show all of our goroutines.
 
@@ -176,11 +176,11 @@ I know that Chris Bradford was there and he took a bunch of notes, and I'm looki
 
 **Francesc Campoy:** There were many talks that were very interesting. I really loved Ivan's talk on the visualization of concurrency, because I think it's something that I struggle with. I teach many people about Go, and it's very hard to visualize what a program is doing, and I feel like with this it is so much easier. My favorite talk though probably was Katrina's.
 
-**Erik St. Martin:** Without a doubt. I haven't seen all the talks, but all the ones that I did see, that one... I think she put into really good terms something that we all struggle with. She just kicked it off really well, with all the ingredients of a Twinkie. It's like, "I have a degree in molecular biology, I know what all of these things are, but I still can't turn it into a delicious \[unintelligible 00:18:08.07\]."
+**Erik St. Martin:** Without a doubt. I haven't seen all the talks, but all the ones that I did see, that one... I think she put into really good terms something that we all struggle with. She just kicked it off really well, with all the ingredients of a Twinkie. It's like, "I have a degree in molecular biology, I know what all of these things are, but I still can't turn it into a delicious pastry."
 
 **Brian Ketelsen:** It was a great talk, very inspiring.
 
-**Francesc Campoy:** My favorite part of the talk was... I mean, the presentation was amazing and the slides were really fun. One of the slides was the metro in Barcelona, which I always appreciate... But my favorite part was the fact that she talked about how you can be fluent without being proficient. That is something I had never thought about, the fact that for instance if you're learning how to speak English, you could be totally fluent at asking beer when you're at a bar, but that doesn't mean that you know how to read Shakespeare, and that's totally fine. I think that applying that to teaching Go can be very interesting. Don't try to learn all the concurrency patterns, don't try to use generic - not generic, sorry. Whoops! \[laughter\] \[unintelligible 00:19:03.27\] Just really understand the basics, be fluent in those basics and then move on from there. I thought that was very powerful, and she explained it in such a beautiful way. I loved the talk, really.
+**Francesc Campoy:** My favorite part of the talk was... I mean, the presentation was amazing and the slides were really fun. One of the slides was the metro in Barcelona, which I always appreciate... But my favorite part was the fact that she talked about how you can be fluent without being proficient. That is something I had never thought about, the fact that for instance if you're learning how to speak English, you could be totally fluent at asking beer when you're at a bar, but that doesn't mean that you know how to read Shakespeare, and that's totally fine. I think that applying that to teaching Go can be very interesting. Don't try to learn all the concurrency patterns, don't try to use generic - not generic, sorry. Whoops! \[laughter\] Unsafe. Don't try to use reflection. Just really understand the basics, be fluent in those basics and then move on from there. I thought that was very powerful, and she explained it in such a beautiful way. I loved the talk, really.
 
 **Erik St. Martin:** Yeah, and the comparison to graphs I think really set some of that stuff home. For any of us that look at a language and are like "That makes total sense", we forget that we have all of this nodes of information and we're just drawing connections between them; it makes it easy for us to do stuff.
 
@@ -188,13 +188,13 @@ Even behavior... Like, I know in the Slack channel I've been quick to answer a q
 
 **Carlisia Pinto:** \[00:20:11.06\] And I think she also did a really great job, like you were saying Francesc, in articulating what we were thinking... I couldn't even point towards what she said before I heard her say it, and now I can, which is there is no clear path for a person who is a newcomer to Go to being proficient, or a person who's a beginner to programming and being proficient in Go; and we know Go is a very simple language to learn. So there should not be this barrier, and a lot of people were having this conversation at the conference and even after the conference.
 
-For example \[unintelligible 00:20:53.25\] did a beautiful blog post about Go being for everyone, and I think it is going to be very healthy for us to identify what we need to do and why we need to do these things, because I think a lot of us want people to join the community, and not just because we want everybody to do Go, but if you do want to do Go or try it out, there should be an easy path for you. You should be not only welcome in the community as a person, which I think we're doing a great job at that, and we can talk more about that too, but also as far as learning the language.
+For example Matt Aimonetti did a beautiful blog post about Go being for everyone, and I think it is going to be very healthy for us to identify what we need to do and why we need to do these things, because I think a lot of us want people to join the community, and not just because we want everybody to do Go, but if you do want to do Go or try it out, there should be an easy path for you. You should be not only welcome in the community as a person, which I think we're doing a great job at that, and we can talk more about that too, but also as far as learning the language.
 
-**Erik St. Martin:** And similar to that talk was Michael Matloob's talk on contributing to Go, and even open source. I think that was valuable, because a lot of people feel like they're not at the skill level they need to be in order to contribute, and there are so many ways to contribute. One think that I've advocated to people is that sometimes a solution to a problem is better than no solution. It's easy for somebody to come through and be like, "Oh, you could make this faster if you remove these couple allocations" or "It would look cleaner if you made these couple of abstractions", but we're looking at it after the fact, right? Seeing somebody's solution and thinking about how to tweak it to make it better is much easier than solving the initial problem, so I think that there's value in people contributing test cases or testing bugs to get steps to reproduce \[unintelligible 00:22:25.06\] and there's so many ways that people can contribute, but I think a lot of people are like "Well, I'm not at that standard. There's nothing I can do to help, and I shouldn't have any business being in the repo trying to submit patches."
+**Erik St. Martin:** And similar to that talk was Michael Matloob's talk on contributing to Go, and even open source. I think that was valuable, because a lot of people feel like they're not at the skill level they need to be in order to contribute, and there are so many ways to contribute. One think that I've advocated to people is that sometimes a solution to a problem is better than no solution. It's easy for somebody to come through and be like, "Oh, you could make this faster if you remove these couple allocations" or "It would look cleaner if you made these couple of abstractions", but we're looking at it after the fact, right? Seeing somebody's solution and thinking about how to tweak it to make it better is much easier than solving the initial problem, so I think that there's value in people contributing test cases or testing bugs to get steps to reproduce vague bugs people put and there's so many ways that people can contribute, but I think a lot of people are like "Well, I'm not at that standard. There's nothing I can do to help, and I shouldn't have any business being in the repo trying to submit patches."
 
 **Francesc Campoy:** Yeah, that actually takes very well with something else that we discussed in the Go project room during hack day, which is we have these... We had actually two different talks with two different sessions where we ended up discussing the same things, which is the user feedback and the diversity discussion. Surprisingly, we ended up talking about pretty much the same things, which were we need more people in the community; to do that, we need to teach more people, and to teach more people we need better ways to basically welcome people that have never programmed in any other language.
 
-We have things like the Go Tour, which I think is a great tool for people that have already programmed in other languages, but if you come from no programming experience at all, when we say "Oh yeah, the \[unintelligible 00:23:35.22\] is like C++, just without the paranthesis", it's not incredibly helpful.
+We have things like the Go Tour, which I think is a great tool for people that have already programmed in other languages, but if you come from no programming experience at all, when we say "Oh yeah, the for loop is like C++, just without the parenthesis", it's not incredibly helpful.
 
 So we're talking more about okay, so how do we get this started, what kind of resources we want them to get together? Katrina was talking a lot about what kind of resources are available in the Ruby community, and I think that that is something that hopefully during this year and coming up to next GopherCon we'll have new things and new projects about how to basically get more Gophers involved.
 
@@ -210,7 +210,7 @@ I agree that in general the exercises tend to be a little bit too complex, and i
 
 **Erik St. Martin:** Yeah, and I think for anybody who has more of a formal background some of these things seem clearer than people who are more autodidact, they've taught themselves to program and maybe don't have the formal...
 
-**Carlisia Pinto:** While on subject, there was a lightning talk by this guy, and I keep forgetting his name... I'm looking on the GopherCon repo for the 2016 talks and I can't identify his \[unintelligible 00:26:55.16\] maybe he hasn't added it yet. In any case, he has this proposal about doing an open source collaborative effort in putting together a book, and he has some specific ideas I thought were brilliant. I'm hoping he was going to go forward with that. I'd love to get people connected to get that... Landon Jones, yes. He's a firecracker. I hope this takes off.
+**Carlisia Pinto:** While on subject, there was a lightning talk by this guy, and I keep forgetting his name... I'm looking on the GopherCon repo for the 2016 talks and I can't identify him in there, maybe he hasn't added it yet. In any case, he has this proposal about doing an open source collaborative effort in putting together a book, and he has some specific ideas I thought were brilliant. I'm hoping he was going to go forward with that. I'd love to get people connected to get that... Landon Jones, yes. He's a firecracker. I hope this takes off.
 
 **Francesc Campoy:** What talk was this you said?
 
@@ -220,7 +220,7 @@ I agree that in general the exercises tend to be a little bit too complex, and i
 
 **Brian Ketelsen:** He cornered me in the hallway. His idea for the book is called The Little Gopher. It sounds really interesting. He's even trying to line up Renee to help with some illustrations.
 
-**Francesc Campoy:** Cool. I'll take it out whenever the \[unintelligible 00:27:53.02\]
+**Francesc Campoy:** Cool. I'll take it out whenever the talks are out.
 
 **Carlisia Pinto:** If Renee cannot help him, I know a designer who can take Renee's graphics and really do something amazing.
 
@@ -252,11 +252,11 @@ So this is a good time for us to stop and take a break and thank our sponsor Lin
 
 **Erik St. Martin:** So are there any other talks anybody was able to see that were interesting? I know Donnie Berkholz's talk was really well received as well, Mining the Go Developer Community. I didn't get to see that one. Was that something you got to see, Francesc?
 
-**Francesc Campoy:** Yeah, I got to watch it and it was very interesting. Basically, he kind of did my job, because I \[unintelligible 00:32:43.10\] "Yeah, that is actually very interesting data." There were a lot of interesting things, like how people are using vendoring, what kind of tooling they're using, if people are using debuggers or not... I think it's a very good place to start to basically try to have a campaign on... If you want everybody to use gofmt - I mean, gofmt is the one that everybody uses... But things like error check - how many people are using that, that is a very interesting conversation. And try to get more people to use the tools that everybody agrees increases the quality of the code. So yeah, I loved the talk.
+**Francesc Campoy:** Yeah, I got to watch it and it was very interesting. Basically, he kind of did my job, because I tried to make the community better and "Yeah, that is actually very interesting data." There were a lot of interesting things, like how people are using vendoring, what kind of tooling they're using, if people are using debuggers or not... I think it's a very good place to start to basically try to have a campaign on... If you want everybody to use gofmt - I mean, gofmt is the one that everybody uses... But things like error check - how many people are using that, that is a very interesting conversation. And try to get more people to use the tools that everybody agrees increases the quality of the code. So yeah, I loved the talk.
 
 **Brian Ketelsen:** Here's something that's just blowing my mind. We've got one of our very remote people on Slack right now, saying that his favorite talk was the Inside The Map Implementation from Keith Randall. The reason this blows my mind is because I know he wasn't at GopherCon and he watched it over the live stream. I'm just having a little bit of a joyous moment right here.
 
-**Francesc Campoy:** Yeah, I gotta say that Keith's talk was so technical but so funny at the same time that I loved it. My favorite part was when basically in a very fine example of trolling he said, "Oh, Go doesn't have generics, but you can fix it with unsafe." I was like, "Oh my god!" \[unintelligible 00:34:16.20\] \[laughter\]
+**Francesc Campoy:** Yeah, I gotta say that Keith's talk was so technical but so funny at the same time that I loved it. My favorite part was when basically in a very fine example of trolling he said, "Oh, Go doesn't have generics, but you can fix it with unsafe." I was like, "Oh my god! You didn't go there." \[laughter\]
 
 **Brian Ketelsen:** Yeah, what was that... A map of function pointers?
 
@@ -284,7 +284,7 @@ So this is a good time for us to stop and take a break and thank our sponsor Lin
 
 **Erik St. Martin:** Yeah, there were so many good talks. So back to the Go Project room, I wanna make sure we touch on that too, because I know it's definitely something Carlisia was interested in speaking with you while you were on the show... The Diversity discussions. I wasn't in on that, how did that go?
 
-**Francesc Campoy:** It went really well, it was full all the way. That was very interesting, seeing so many people interested in talking about Diversity, and not only people that are members of Diversity, minorities represented at GopherCon, black people and women, and \[unintelligible 00:36:47.18\] etc., but there were also a lot of allies that were there to represent and basically to give support. That was very interesting.
+**Francesc Campoy:** It went really well, it was full all the way. That was very interesting, seeing so many people interested in talking about Diversity, and not only people that are members of Diversity, minorities represented at GopherCon, black people and women, and LGBTQ etc., but there were also a lot of allies that were there to represent and basically to give support. That was very interesting.
 
 We talked about many things. One of the things that I tried to propose and I hope is gonna happen - the same way there was this talk about mining the Go community, and that understands how Gophers do technical things, I was wondering if we could do something similar about who are those Gophers, where are they? Do they live somewhere in the States, in cities where they have meetups, or are they far apart? Do they have kids? Is it easy for them to attend conferences like GopherCon, or do they prefer things like the remote meetups organized by GoBridge? Is that useful for them? That was pretty interesting.
 
@@ -312,7 +312,7 @@ There is also another idea that I think came from Katrina. Katrina works at Gith
 
 **Carlisia Pinto:** Were you at the San Francisco meetup yesterday, Francesc?
 
-**Francesc Campoy:** Yes, I was there, but I had to leave, so I missed \[unintelligible 00:42:04.16\] talk. I know he was recorded, so I'm looking forward to watching it, too.
+**Francesc Campoy:** Yes, I was there, but I had to leave, so I missed Burcu's talk. I know it was recorded, so I'm looking forward to watching it, too.
 
 **Carlisia Pinto:** Yeah, that's exactly what I was gonna mention. She is gonna put out a proposal to have an abstraction of a lot of the interface that will be required for Go to work with the hardware, including robotics and Gobots. Whenever that comes out, people should try to contribute. To make that happen, we will need to have a better interface.
 
@@ -550,7 +550,7 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Erik St. Martin:** It does not need to be written in Go.
 
-**Francesc Campoy:** \[01:00:00.27\] Then I think I'm gonna go with something that is actually for \[unintelligible 01:00:03.19\] but we use regularly for the Google Cloud Platform Podcast, Audacity.
+**Francesc Campoy:** \[01:00:00.27\] Then I think I'm gonna go with something that is actually for real but we use regularly for the Google Cloud Platform Podcast, Audacity.
 
 **Erik St. Martin:** Yeah, that is a good one.
 

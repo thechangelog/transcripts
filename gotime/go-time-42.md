@@ -68,7 +68,7 @@ Here is a concrete example. Julia Evans does a great job of explaining how to us
 
 **Erik St. Martin:** I really love Julia Evans' drawings.
 
-**Kavya Joshi:** Yeah, those \[unintelligible 00:09:09.27\] are pretty rad. I ended up printing a bunch of them and giving them to my interns. It was great.
+**Kavya Joshi:** Yeah, those [zines](https://jvns.ca/zines/) are pretty rad. I ended up printing a bunch of them and giving them to my interns. It was great.
 
 **Carlisia Pinto:** I love the point that Kavya's making about presenting technical content in an accessible manner, and I'm thinking here as Go is growing so fast and people are coming into the language, how do people who are writing technical content and who are writing and giving presentations - how can they do this in a better way? And I'm wondering if you have tips to share with us and with the audience...
 
@@ -98,7 +98,7 @@ So whatever people can do to make the content better, even if it has to wait, I 
 
 **Johnny Boursiquot:** One of the recommendations for beginners in Go is to avoid the goroutines and dealing with concurrency primitives, the channels and what not... Don't jump into the deep end right away, because there's a whole different world there that you don't necessarily have to have for a lot of programs that you write. It's okay to write them procedurally, because you're gonna get a major speed bump anyway, especially if you're coming from something like Ruby or Python and what not.
 
-So for somebody who basically doesn't typically program \[unintelligible 00:14:44.03\] environment and they need to sort of "Okay, I know I've been told not to jump in, but now I feel like I'm ready to jump in. I need to know some things, I need to have some background that's gonna help me to tackle concurrency in Go, and do it the right way." What would you say some of that background is? And perhaps you might even have some resources that maybe we could post after the fact on the channel or on the podcast page. What are some of the resources that you think would be useful for a beginner to have? What sort of background do they need to have to really be able to take advantage of concurrency in Go?
+So for somebody who basically doesn't typically program in a multithreaded environment and they need to sort of "Okay, I know I've been told not to jump in, but now I feel like I'm ready to jump in. I need to know some things, I need to have some background that's gonna help me to tackle concurrency in Go, and do it the right way." What would you say some of that background is? And perhaps you might even have some resources that maybe we could post after the fact on the channel or on the podcast page. What are some of the resources that you think would be useful for a beginner to have? What sort of background do they need to have to really be able to take advantage of concurrency in Go?
 
 **Kavya Joshi:** I think the Go Docs do a great job... There's the walkthrough tutorial which explains the basic concepts pretty well. But then I think the best way to learn is to read a lot of code and write a lot of code. There's several open source Go projects... If you go and walk through the code, probably bust out your favorite debugger, or just write a lot of simple -- even if you start with a simple example, to just play around with "What happens if I spawn one goroutine? What happens if I spawn two goroutines? What if I use a channel in this way? What if I use a channel in that way?" Basically, by getting really hands-on into writing code and reading code.
 
@@ -154,7 +154,7 @@ Testing - I wish we did a better job at testing, or could... Just in general, we
 
 **Kavya Joshi:** Yeah. No, that's a good question. What about y'all? Do you have any good tips for other ways to make Go production-grade?
 
-**Erik St. Martin:** Well, I guess a lot of it would be the same for any program in production - assume everything dies, and that nothing is perfect. You'll get a clock \[unintelligible 00:20:57.22\] you'll get network issues... Those are usually the odd things to track down.
+**Erik St. Martin:** Well, I guess a lot of it would be the same for any program in production - assume everything dies, and that nothing is perfect. You'll get a clock drift you'll get network issues... Those are usually the odd things to track down.
 
 **Kavya Joshi:** Yeah.
 
@@ -212,9 +212,9 @@ That allows us basically not to have to pass keys around, in the nude, so to spe
 
 **Erik St. Martin:** I need to look at how that works, because I'm interested whether Amazon has some of the newer concepts of Kubernetes, like deployments or cluster federation. Deployments would be -- so you have these primitives, like a replica set... So you have a pod, which is a group of containers that move together, and then you have a replica set that says "I need n number of these pods running within the cluster", and then you have a service that you basically expose that works basically as a load balancer between those things. So a deployment you can set up on these resources that need to be deployed, and it will basically deploy a new replica set with a new version of your containers in it, and then slowly increment account on that, but decrement account on the old one for you, and just kind of service this rolling update. I don't know whether Amazon - their container orchestration platform offers things like this.
 
-**Johnny Boursiquot:** Yeah, so on our end, basically we have -- Amazon has this concept of test definition, which basically says, "Okay, for this given container, these are the configuration parameters that we want. This is how much memory, CPU, resource allocation... When you have a \[unintelligible 00:29:41.13\] environment, this is where I want these things distributed; I want them distributed across different containers instances, in different availability zones and what not." But then Amazon also adds a service concept around that that basically say "Okay, I'm gonna create a service, and this is gonna be for long-lived tasks, defined by the test definition, and I want to have n number of them, and I'm gonna specify a maximum health percentage, and a minimum health percentage."
+**Johnny Boursiquot:** Yeah, so on our end, basically we have -- Amazon has this concept of test definition, which basically says, "Okay, for this given container, these are the configuration parameters that we want. This is how much memory, CPU, resource allocation... When you have an HA environment, this is where I want these things distributed; I want them distributed across different containers instances, in different availability zones and what not." But then Amazon also adds a service concept around that that basically say "Okay, I'm gonna create a service, and this is gonna be for long-lived tasks, defined by the test definition, and I want to have n number of them, and I'm gonna specify a maximum health percentage, and a minimum health percentage."
 
-Let's take a simple example. If I need at a minimum two of this particular container running, I'll say "I want a service with a desired account of two, and with a minimum health of 50%." At that point, what happens is when you have a new container that you wanna roll out, what it will do is because of that 50% requirement it will spin down one of them, spin up the new container image, and then once that other one is up, it will basically spin down the other one and then replace it by the newer version. So it does have some of that orchestration in place, and it also has the ability to distribute the services in different instances across \[unintelligible 00:30:49.05\], so it's kind of working out for us quite well using that scheme.
+Let's take a simple example. If I need at a minimum two of this particular container running, I'll say "I want a service with a desired account of two, and with a minimum health of 50%." At that point, what happens is when you have a new container that you wanna roll out, what it will do is because of that 50% requirement it will spin down one of them, spin up the new container image, and then once that other one is up, it will basically spin down the other one and then replace it by the newer version. So it does have some of that orchestration in place, and it also has the ability to distribute the services in different instances across [AZ's (Availability Zones)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html), so it's kind of working out for us quite well using that scheme.
 
 **Erik St. Martin:** That's awesome.
 
@@ -258,7 +258,7 @@ You can easily change that... It's just infrastructure as code, so you just comm
 
 **Carlisia Pinto:** --changing subjects... \[laughter\] Are you guys ready to talk about something else? I wanted to ask Kavya about how interested in firmware -- \[laughter\] you mentioned that you have the interest... It's something like you haven't necessarily started doing anything...? I'm super curious to know what would you do if you could get your hands on a couple hardware and you just go to do something...
 
-**Kavya Joshi:** Yeah, gosh... So the startup I work at does firmware, because there's a hardware engineering team - we make the hardware... There's a firmware team, and the firmware team actually does use Go. We have sensors, and the sensors don't run Go - it's all embedded C - but the gateways which run \[unintelligible 00:38:23.09\] to Linux, they run some C++ and some Go, and then the backend is all Go.
+**Kavya Joshi:** Yeah, gosh... So the startup I work at does firmware, because there's a hardware engineering team - we make the hardware... There's a firmware team, and the firmware team actually does use Go. We have sensors, and the sensors don't run Go - it's all embedded C - but the gateways which run [yocto Linux](https://www.yoctoproject.org/about/), they run some C++ and some Go, and then the backend is all Go.
 
 I started at this company as like a backend assistant, some infrastructure, and that sort of role... But the more I learned about the firmware side of things, I'm growing increasingly fascinated with writing firmware code. It's cool that you can run Go on firmware, so in terms of what I'd do with that - oh, gosh...
 
@@ -306,13 +306,13 @@ I don't remember the year that this came out, but it's called the Joint Test Act
 
 Then as far as the firmware goes, a lot of things like QEMU and things like that, unit tests are written... And then almost in the same way we write crash-only software and things like that, a lot of firmware development people have to try to -- because you can actually have hard faults. If you have a stack overflow or something like that, your microcontroller literally goes into a hard fault state and just like stays there. So there's a lot of things where people will basically trap those, because you get an interrupt when that happens, and you can almost set a callback on that interrupt, and people will reset the microcontroller to try to get it to reboot into a clean state, and things like that.
 
-It's an interesting world... I don't develop firmware. I know \[unintelligible 00:48:04.10\] I've had an interest in learning more things about this...
+It's an interesting world... I don't develop firmware. I know an EE (Electrical Engineer) I've had an interest in learning more things about this...
 
 **Johnny Boursiquot:** It sounds like you have a deep interest... \[laughter\]
 
 **Kavya Joshi:** Yeah!
 
-**Erik St. Martin:** \[00:48:15.00\] I'm always torn, because a part of me wants to take just like a single board computer, or like an Intel Edison and put Linux and Go on it, but a part of me really loves the Assembly and the C, and learning the guts of it... I've got some dev boards that are literally just like an ARM processor and some RAM. I just got one today. I actually thought \[unintelligible 00:48:36.23\] show up over here on the podcast... It has like a 4.3-inch touchscreen on the back of it, and a decent amount of RAM, a pretty fast Cortex microcontroller, and I'm dying to write some code for that. \[laughter\] But that's all gonna be C or C++.
+**Erik St. Martin:** \[00:48:15.00\] I'm always torn, because a part of me wants to take just like a single board computer, or like an Intel Edison and put Linux and Go on it, but a part of me really loves the Assembly and the C, and learning the guts of it... I've got some dev boards that are literally just like an ARM processor and some RAM. I just got one today. I actually thought UPS was going to show up while we were on the podcast... It has like a 4.3-inch touchscreen on the back of it, and a decent amount of RAM, a pretty fast Cortex microcontroller, and I'm dying to write some code for that. \[laughter\] But that's all gonna be C or C++.
 
 **Johnny Boursiquot:** Do you think that working on systems with so little resources - compared to the really powerful servers that we're deploying stuff on in the cloud - teaches you to write code that is more performant, that is more conservative with resource utilization?
 
@@ -354,11 +354,11 @@ In the reverse-engineering hardware world there's a thing called "glitching" - y
 
 \[00:56:04.00\] That's kind of where I started out, and one of my projects was somebody had sent me a gas sensor that supposedly was able to detect also alcohol... I was like "I'm gonna build a breathalyzer." \[laughter\] I don't know why, but I just found it cool at the time.
 
-I'll go through Adafruit or SparkFun or something and just look through stuff, and be like "Oh, that's cool... I'm gonna get an LED \[unintelligible 00:56:27.16\]. I encourage anybody who hasn't played with hardware just to even start with like a basic Arduino board, and find a shield to go with it. You start realizing it's not as unapproachable as you think it is... Except there's only a couple of common serial protocols that those chips are usually communicating with.
+I'll go through Adafruit or SparkFun or something and just look through stuff, and be like "Oh, that's cool... I'm gonna get an LED Matrix. I encourage anybody who hasn't played with hardware just to even start with like a basic Arduino board, and find a shield to go with it. You start realizing it's not as unapproachable as you think it is... Except there's only a couple of common serial protocols that those chips are usually communicating with.
 
-Brian is not on the show today, but him and I have been working on a controller for our smokers for barbecue, the heat controller stuff... He has set up an example with a Raspberry Pi, and just talking I2C over the GPI \[unintelligible 00:57:09.13\] some relays, and stuff. It's pretty easy to interface with some of that stuff.
+Brian is not on the show today, but him and I have been working on a controller for our smokers for barbecue, the heat controller stuff... He has set up an example with a Raspberry Pi, and just talking I2C over the GPI Pins to some relays, and stuff. It's pretty easy to interface with some of that stuff.
 
-**Johnny Boursiquot:** I was so bombed when his talk to actually do a barbecue using his \[unintelligible 00:57:22.08\] at GopherCon was not accepted. I wonder if the fire marshal had anything to do that. \[laughter\] Like "A live barbecue at a conference? Why not!?"
+**Johnny Boursiquot:** I was so bummed when his talk to actually do a barbecue using his [PID Controller at GopherCon](https://blog.gopheracademy.com/advent-2016/qpid/) was not accepted. I wonder if the fire marshal had anything to do that. \[laughter\] Like "A live barbecue at a conference? Why not!?"
 
 **Erik St. Martin:** I don't know whether they ever responded back to us about that... About whether or not we could bring our own barbecues. But there's still the lightning talk stuff, too...
 
@@ -390,7 +390,7 @@ Plus, like you said, having an understanding of this brings more people to the d
 
 **Kavya Joshi:** GopherJS is pretty cool...
 
-**Erik St. Martin:** Brian was in love with GopherJS. I think he's still playing with it on and off, but he was a big \[unintelligible 01:01:08.27\]
+**Erik St. Martin:** Brian was in love with GopherJS. I think he's still playing with it on and off, but he was a big advocate for a while.
 
 **Kavya Joshi:** Yeah... Writing Javascript straight up takes me so much time, but with GopherJS now, I don't even have to. It's wonderful.
 
