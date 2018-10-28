@@ -90,7 +90,7 @@ The rest of the stuff are options for how you might accelerate it, or how you mi
 
 So you went into YC - what was the YC program like for you, and was it helpful? Did it make you the company you are today and did it help you get to the next level?
 
-**Bryan Helmig:** Yeah, I think it was helpful. It's not a substitute for other stuff, if that makes sense. It's not a substitute for the work that really builds the company. Any accelerator will tell you that - "Hey, this is your show. You're the stars here, you're running it. We're just here lending a hand."
+**Bryan Helmig:** Yeah, I think it was helpful. It's not a substitute for other stuff, if that makes sense. It's not a substitute for the work that really builds the company. Any accelerator will tell you that - "Hey, this is your show. You're the stars here, you're running it. We're just here to lend a hand."
 
 Overall, it was a great program. The most useful thing as I look back on it is just being in a fast-moving stream, where everyone else is swimming, swimming, and you're in there too and you're trying to keep up and you're trying to stay ahead of things. It kind of just puts you in that place where -- that summer we just worked; I don't think we slept a whole lot, we'd just work-work-work. We worked 16-hour days pretty regularly, because we were like mad men; we just loved working on this product, it was so exciting.
 
@@ -122,7 +122,7 @@ But when I look back on that, that's just what comes to mind for me - it's just 
 
 **Break:** \[00:23:50.12\]
 
-**Adam Stacoviak:** So we're at Y Combinator, you've gone through the process, you've got three co-founders... Not really a company yet, but you've got some proof that there should be or could be one there. You've kind of extrapolated to the future, \[unintelligible 00:24:54.07\] and various things go back to those days and the focus that you had there.
+**Adam Stacoviak:** \[00:24:45.00\] So we're at Y Combinator, you've gone through the process, you've got three co-founders... Not really a company yet, but you've got some proof that there should be or could be one there. You've kind of extrapolated to the future, \[unintelligible 00:24:54.07\] and various things go back to those days and the focus that you had there.
 
 Let's go to now the place of scaling your team, because you can't be three for long, I'm assuming...
 
@@ -130,7 +130,7 @@ Let's go to now the place of scaling your team, because you can't be three for l
 
 **Adam Stacoviak:** When did you start to add employees and what was a head count of year one or year two?
 
-**Bryan Helmig:** Yeah, so throughout that summer it was just us three. As we left that summer, there was \[unintelligible 00:25:21.00\] and all that, and we raised a little bit of money... That was when we really turned to like "Okay, we wanna grow the team." By then, we were just doing -- this is a great place to be; if you find yourself just completely inundated by talking to customers as support, and this customer-centric thing taking up your time - that's a great sign, and our first hire to handle that was our very first support person... Mika, who was employee number one of Zapier, was a friend of Wade's. He knew him from college, and I think he was like an admin for like a Cubs baseball forum.
+**Bryan Helmig:** Yeah, so throughout that summer it was just us three. As we left that summer, there was demo day and all that, and we raised a little bit of money... That was when we really turned to like "Okay, we wanna grow the team." By then, we were just doing -- this is a great place to be; if you find yourself just completely inundated by talking to customers as support, and this customer-centric thing taking up your time - that's a great sign, and our first hire to handle that was our very first support person... Mika, who was employee number one of Zapier, was a friend of Wade's. He knew him from college, and I think he was like an admin for like a Cubs baseball forum.
 
 The idea was like, "Okay, if you can handle unruly Cubs fans - alright, you can handle some customer support." And we knew he was just a smart, good dude, so we brought him on as our first person. He was at that time in Chicago, so that really kind of planted the first seed for remote for us. We didn't wanna make him move... And the next people we were looking at - it was developers back in Columbia, Missouri, back in our hometown, that we really liked and respected. We knew that they had families, they weren't gonna move... And we were already doing a lot of our work in this asynchronous, remote manner. We would work next to each other, but never talk to each other. We would just chat over -- in those days I don't think it was Slack; it was like HipChat, or something. So we were using that to communicate, and we weren't really even like talking to each other in real life...
 
