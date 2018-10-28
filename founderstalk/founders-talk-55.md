@@ -122,7 +122,7 @@ But when I look back on that, that's just what comes to mind for me - it's just 
 
 **Break:** \[00:23:50.12\]
 
-**Adam Stacoviak:** So we're at Y Combinator, you've gone through the process, you've got three co-founders... Not really a company yet, but you've got some proof that there should be or could be one there. You've kind of extrapolated to the future, \[unintelligible 00:24:54.07\] and various things go back to those days and the focus that you had there.
+**Adam Stacoviak:** So we're at Y Combinator, you've gone through the process, you've got three co-founders... Not really a company yet, but you've got some proof that there should be or could be one there. You've kind of extrapolated to the future, where you're at now but zoom back and said hey well things like your developer platform and various things go back to those days and the focus that you had there.
 
 Let's go to now the place of scaling your team, because you can't be three for long, I'm assuming...
 
