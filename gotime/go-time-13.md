@@ -48,7 +48,7 @@ Today on the show we have myself, Erik St. Martin, Brian Ketelsen is also on the
 
 To be honest, I was nervous also about being the first person on stage, but then I saw Kelsey Hightower was right before me and he did an amazing job, that it was actually... It was very easy to get on stage after him, and also incredibly hard to try to compete against what he did.
 
-**Erik St. Martin:** Yeah, the \[unintelligible 00:05:40.08\] was awesome. We sent him home with a framed copy of it.
+**Erik St. Martin:** Yeah, the remix of that poem was awesome. We sent him home with a framed copy of it.
 
 **Francesc Campoy:** Yeah, when I got on stage I said that he almost made me cry, and people laughed about it like it was a joke. It was not. I was almost crying. I was like, it's gonna be hard to say that nil is a good thing while crying, so let's keep it calm. \[laughter\]
 
