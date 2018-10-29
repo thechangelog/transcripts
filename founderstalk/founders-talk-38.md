@@ -320,7 +320,7 @@ Here's one topic I wanted to talk to you about, just because of your passion wit
 
 The part he's open-sourcing is the tools and stuff to work with RubyMotion, which is like a really great place for people to contribute. It's something I've been thinking a lot about lately, because I've been considering open-sourcing most of my current project, and there's a lot of pros and cons; I'm trying to figure out what I'm gonna do, but... I don't know, I'm not like "If you're not open-sourcing it, you're bad", and I'm not even overly excited if you are. I think it depends on the different cases, I don't know.
 
-**Adam Stacoviak:** Well, you have to have some sort of motivation. It sounded like you had some desires and motivation to open-source... Your current project is Cheddar, so you're talking about open-sourcing the forthcoming Mac app, the forthcoming -- or not forthcoming because it already came out a week ago, right? The iOS app, officially. It's been in beta \[unintelligible 00:48:01.06\]
+**Adam Stacoviak:** Well, you have to have some sort of motivation. It sounded like you had some desires and motivation to open-source... Your current project is Cheddar, so you're talking about open-sourcing the forthcoming Mac app, the forthcoming -- or not forthcoming because it already came out a week ago, right? The iOS app, officially. It's been in beta for some people through TestFlight and stuff. 
 
 **Sam Soffes:** Yeah, like two weeks ago tomorrow.
 
