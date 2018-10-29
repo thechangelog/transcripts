@@ -202,7 +202,7 @@ I know Mark Jardine tweeted, he was excited about it, and it totally made my day
 
 I was looking at all these other licenses, and it's basically like hey, if you contribute anything, I own it - I'm being very specific about that - and you can't redistribute this or sell it or do anything with it; it's just like "Here, you can look at it and you can help if you want. I own that, but..."
 
-A couple of people were like, "You know what, if you're gonna make it open source, make it open source. The whole point of open source is it's free and open." I was like "Yeah, you're right", so I just picked -- "We'll just use BSD, and \[unintelligible 00:31:06.25\] because there's a bunch of complicated one; I'm like "Screw it, let's use the simplified one." It's do whatever you want. If you wanna be a jerk, fine, be a jerk, but please don't.
+A couple of people were like, "You know what, if you're gonna make it open source, make it open source. The whole point of open source is it's free and open." I was like "Yeah, you're right", so I just picked -- "We'll just use BSD, a simplified one because there's a bunch of complicated ones; I'm like "Screw it, let's use the simplified one." It's do whatever you want. If you wanna be a jerk, fine, be a jerk, but please don't.
 
 And already someone on Hacker News was like "Hey, I'll just take out the Cheddar part and just use it locally on my phone and I don't have to pay and I can do whatever I want." I was like, "Okay, fine. Have at it." I don't know.
 
