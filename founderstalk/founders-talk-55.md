@@ -90,7 +90,7 @@ The rest of the stuff are options for how you might accelerate it, or how you mi
 
 So you went into YC - what was the YC program like for you, and was it helpful? Did it make you the company you are today and did it help you get to the next level?
 
-**Bryan Helmig:** Yeah, I think it was helpful. It's not a substitute for other stuff, if that makes sense. It's not a substitute for the work that really builds the company. Any accelerator will tell you that - "Hey, this is your show. You're the stars here, you're running it. We're just here lending a hand."
+**Bryan Helmig:** Yeah, I think it was helpful. It's not a substitute for other stuff, if that makes sense. It's not a substitute for the work that really builds the company. Any accelerator woth their salt will tell you that - "Hey, this is your show. You're the stars here, you're running it. We're just here lending a hand."
 
 Overall, it was a great program. The most useful thing as I look back on it is just being in a fast-moving stream, where everyone else is swimming, swimming, and you're in there too and you're trying to keep up and you're trying to stay ahead of things. It kind of just puts you in that place where -- that summer we just worked; I don't think we slept a whole lot, we'd just work-work-work. We worked 16-hour days pretty regularly, because we were like mad men; we just loved working on this product, it was so exciting.
 
@@ -104,7 +104,7 @@ So Y Combinator really helped us bring it to a head, make it happen and really k
 
 Y Combinator has such a great name... In 2011 it had a great name as well, it was the beginning of incubators, so to speak; they were the poster child for doing it right... And just discounting the fact that what an impression that had on your team, to say "Let's go all in."
 
-Let's go to that moment then of like, okay, everybody's in San Francisco, you're in this incubation process... What's that like? What were you doing and what was the point of it?
+Let's go to that moment then of like, okay, everybody's in San Francisco, you're in this incubation process... What's that like? What were you doing? What was the point of it?
 
 **Bryan Helmig:** Yeah, I mean... If I think back of what we were doing, we were just in this tight loop of writing code and talking to users... Which is what YC will tell you to do, which is a great default loop to be in - write code, ship it, talk to your users, go back, write code, ship it, talk to your users; rinse, repeat and just keep doing that at the basic level.
 
