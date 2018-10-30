@@ -397,7 +397,7 @@ I was able to do that in two hours, so you know... That's what the cruise is gon
 
 **Adam Stacoviak:** You've got them cornered. That's the best way to make it happen... By force, basically.
 
-**Tracy Lee:** Yeah, \[unintelligible 01:01:02.10\] \[laughter\] Force pair with me! \[laughs\]
+**Tracy Lee:** Yeah, corner them with a smile. \[laughter\] Force pair with me! \[laughs\]
 
 **Adam Stacoviak:** Yes, that's --force... \[laughter\] That's a good way to do it, for sure. That sounds fun... What's the URL for the cruise?
 
