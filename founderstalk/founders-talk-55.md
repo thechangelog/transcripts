@@ -24,9 +24,9 @@ But the way I met Mike was actually through Hacker News. There was -- I can't re
 
 The one we ended up pitching was called -- I think we called it API Mixer at the time. The idea was, you know, we'd been doing some contracting stuff on the side where you build the little forms that connect MailChimp to your CRM, and just all these little bespoke but very repetitive sort of like integrations... And the idea was "Well, why don't we just have a thing that kind of like intermixes these and you get kind of the n-squared number of connections, and it all kind of -- you can kind of build these bespoke integrations with off-the-shelf parts..." And that was the pitch, and it's funny enough that we never really pivoted from that first idea, because it was basically in existence - the idea was the one that we brought to the market and ended up really resonating with the customers.
 
-That first thing we pitched was very much -- I think the initial pitch was "Busy work is nonsense. You should automate all this stuff, and we're gonna make it easier", or something to that effect.
+That first thing we pitched was very much -- I think the initial pitch was "Busy work is like nonsense. You should automate all this stuff, and we're gonna make it easier", or something to that effect.
 
-We hacked all week, and I don't think we slept more than maybe six hours amongst all of us over the 54 hours I think you get to put it together.
+We hacked all weekend, and I don't think we slept more than maybe six hours amongst all of us over the 54 hours I think you get to put it together.
 
 We ended up actually winning the Startup Weekend, which was really fun. I think we got like two grand to start, or something, and just kind of away we went from there. It was awesome. I really recommend folks go check out Startup Weekend, it's a ton of fun; it's a great org, it's a great way to spend a weekend.
 
@@ -40,7 +40,7 @@ Then we started saying, "Well, you can skip the line and join immediately if you
 
 **Adam Stacoviak:** That's so funny.
 
-**Bryan Helmig:** So we'd frantically build it like over a matter of hours, and by then, we had kind of this abstracted thing internally and we could build these APIs and these endpoints and these connections really quickly. It was common for us to turn around a new connection in 45 minutes, right? So someone would sign up and we would build it, and then they'd get their invite and say "Here it is! Check it out!"
+**Bryan Helmig:** So we'd frantically build it like over a matter of hours, and by then, we had kind of this abstracted thing internally and we could build these APIs and these endpoints and these connections really quickly. I think it was common for us to turn around a new connection in 45 minutes, right? So someone would sign up and we would build it, and then they'd get their invite and say "Here it is! Check it out!"
 
 That was amazing, just because we were able to validate that people cared enough to put their credit card in... And we really didn't care that much about the price. I think it was like $1 to start, and then maybe $5 or something... We just wanted to see if people would be willing to put their credit card in and pay for this thing.
 
