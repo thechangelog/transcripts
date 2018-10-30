@@ -36,7 +36,7 @@ I have my fat.soff.es, it's like my weight graph from my Fitbit scale...
 
 **Adam Stacoviak:** This is on GitHub, so as a fan of open source and a big contributor, you open-source this... Did you hack an API for this? You said it's from your Fitbit; I have a Fitbit too, so I'm kind of curious what you did to do this.
 
-**Sam Soffes:** \[00:04:11.05\] Yeah, there's like a Fitbit API. It's just a little \[unintelligible 00:04:12.17\] that pulls in the data, and caches it in Redis, and then there's a nice Chart.js to draw the graph. It's really basic... Because Fitbit has all this data, so I just pull it in and show it nicely.
+**Sam Soffes:** \[00:04:11.05\] Yeah, there's like a Fitbit API. It's just a little Sinatra app that pulls in the data, and caches it in Redis, and then there's a nice Chart.js to draw the graph. It's really basic... Because Fitbit has all this data, so I just pull it in and show it nicely.
 
 Yeah, I kind of wanted to make -- I've been working on this forever, a website to show everything about me... Like, how many songs I listen to, how many keys I press... Everything.
 
