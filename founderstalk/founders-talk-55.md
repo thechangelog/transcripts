@@ -90,7 +90,7 @@ The rest of the stuff are options for how you might accelerate it, or how you mi
 
 So you went into YC - what was the YC program like for you, and was it helpful? Did it make you the company you are today and did it help you get to the next level?
 
-**Bryan Helmig:** Yeah, I think it was helpful. It's not a substitute for other stuff, if that makes sense. It's not a substitute for the work that really builds the company. Any accelerator woth their salt will tell you that - "Hey, this is your show. You're the stars here, you're running it. We're just here lending a hand."
+**Bryan Helmig:** Yeah, I think it was helpful. It's not a substitute for other stuff, if that makes sense. It's not a substitute for the work that really builds the company. Any accelerator worth their salt will tell you that - "Hey, this is your show. You're the stars here, you're running it. We're just here lending a hand."
 
 Overall, it was a great program. The most useful thing as I look back on it is just being in a fast-moving stream, where everyone else is swimming, swimming, and you're in there too and you're trying to keep up and you're trying to stay ahead of things. It kind of just puts you in that place where -- that summer we just worked; I don't think we slept a whole lot, we'd just work-work-work. We worked 16-hour days pretty regularly, because we were like mad men; we just loved working on this product, it was so exciting.
 
@@ -122,7 +122,7 @@ But when I look back on that, that's just what comes to mind for me - it's just 
 
 **Break:** \[00:23:50.12\]
 
-**Adam Stacoviak:** So we're at Y Combinator, you've gone through the process, you've got three co-founders... Not really a company yet, but you've got some proof that there should be or could be one there. You've kind of extrapolated to the future, where you're at now but zoom back and said hey well things like your developer platform and various things go back to those days and the focus that you had there.
+**Adam Stacoviak:** \[00:24:45.00\] So we're at Y Combinator, you've gone through the process, you've got three co-founders... Not really a company yet, but you've got some proof that there should be or could be one there. You've kind of extrapolated to the future, where you're at now but zoom back and said hey well things like your developer platform and various things go back to those days and the focus that you had there.
 
 Let's go to now the place of scaling your team, because you can't be three for long, I'm assuming...
 
