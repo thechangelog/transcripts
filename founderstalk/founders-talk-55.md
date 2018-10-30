@@ -1,4 +1,4 @@
-**Adam Stacoviak:** We're here today with Bryan Helmig, CTO of Zapier. Zapier makes you happier, right, Bryan?
+**Adam Stacoviak:** We're here today with Bryan Helmig, CTO of Zapier. And Zapier makes you happier, right, Bryan?
 
 **Bryan Helmig:** That's correct.
 
@@ -14,7 +14,7 @@
 
 In 2011 -- you guys have an interesting you connected too, through Hacker News... Is that right?
 
-**Bryan Helmig:** It's funny... The way that I met Wade and Mike - we were both separate; we were in university together, Missou I had been playing in a jazz combo with Wade. Wade is a jazz saxophonist, quite a stellar one at that... And I was playing jazz bass, and we got together through that and learned each other, because we were working a bit together...
+**Bryan Helmig:** It's funny... The way that I met Wade and Mike - we were both separate; we were in university together, at Missou I had been playing in a jazz combo with Wade. Wade is a jazz saxophonist, quite a stellar one at that... And I was playing jazz bass, and we got together through that and learned each other, started working a bit together...
 
 But the way I met Mike was actually through Hacker News. There was -- I can't remember the site's name; I think it was like Hacker Newsers, or... It was basically like a Hacker News overlay on a map, and I think the only two people in Columbia, Missouri was Mike and myself... So he had reached out to me about that, and we grabbed beers, and I think there was a Startup Weekend happening in a couple months, and we talked about maybe doing that together... And just kind of stayed in touch until we all kind of culminated that one fateful kind of weekend at the -- I think the first inaugural Startup Weekend in Columbia, Missouri. That's really kind of where Zapier came together for the first time... At least the three of us.
 
@@ -22,21 +22,21 @@ But the way I met Mike was actually through Hacker News. There was -- I can't re
 
 **Bryan Helmig:** Yeah, we all attended. We were all also working at this company in Columbia called Veterans United... So we had been not just like on the side, but even working a little bit together; we were always chatting over the IM about like "Maybe it'll this idea, or that idea."
 
-The one we ended up pitching was called -- I think we called it API Mixer at the time. The idea was, you know, we'd been doing some contracting stuff on the side where you build the little forms that connect MailChimp to your CRM, and just all these little bespoke but very repetitive integrations... And the idea was "Well, why don't we just have a thing that kind of like intermixes these and you get kind of the n-squared number of connections, and it all kind of -- you can kind of build these bespoke integrations with off-the-shelf parts..." That was the pitch, and it's funny enough that we never really pivoted from that first idea, because it was basically in existence - the idea was the one that we brought to the market and ended up really resonating with the customers.
+The one we ended up pitching was called -- I think we called it API Mixer at the time. The idea was, you know, we'd been doing some contracting stuff on the side where you build the little forms that connect MailChimp to your CRM, and just all these little bespoke but very repetitive sort of like integrations... And the idea was "Well, why don't we just have a thing that kind of like intermixes these and you get kind of the n-squared number of connections, and it all kind of -- you can kind of build these bespoke integrations with off-the-shelf parts..." And that was the pitch, and it's funny enough that we never really pivoted from that first idea, because it was basically in existence - the idea was the one that we brought to the market and ended up really resonating with the customers.
 
 That first thing we pitched was very much -- I think the initial pitch was "Busy work is nonsense. You should automate all this stuff, and we're gonna make it easier", or something to that effect.
 
 We hacked all week, and I don't think we slept more than maybe six hours amongst all of us over the 54 hours I think you get to put it together.
 
-We ended up actually winning the Startup Weekend, which was really fun. I think we got like 2k to start, or something, and just kind of away we went from there. It was awesome. I really recommend folks go check out Startup Weekend, it's a ton of fun; it's a great org, it's a great way to spend a weekend.
+We ended up actually winning the Startup Weekend, which was really fun. I think we got like two grand to start, or something, and just kind of away we went from there. It was awesome. I really recommend folks go check out Startup Weekend, it's a ton of fun; it's a great org, it's a great way to spend a weekend.
 
 **Adam Stacoviak:** And clearly some good results. I kind of poked a joke there saying that -- not that nothing comes successfully out of there, but the feasibility of building a company in a weekend... I guess in the 54 hours you actually proved -- maybe even your first version of product-market fit, which was actually getting a goal, you know? Winning was validation that it's a good direction; somebody at least thinks it could be a good idea.
 
 **Bryan Helmig:** Yeah, it was definitely... And winning was exciting. It's kind of funny, because in the end, winning Startup Weekend means not a lot; it all comes down to bringing it to the market. So our next step was really like "How do we scale this out and prove this is useful?" and it's funny, the next thing we built after the proof of concept of like "What could this even look like?", which is what we really did for the Startup Weekend, was "How do we get this in front of users and verify that they care, that they would pay for this?"
 
-\[00:07:58.05\] What we ended up doing - we spun up, I'm gonna say, like hundreds or even thousands of landing pages for all these different combinations of services that you might wanna use... So you think like GitHub, and Trello, and Asana, and Salesforce - you name it; we were spinning up all these landing pages... Granted, none of this stuff existed, right? We didn't have any of these connections built out yet, but people would come and find it, and they would just click in and go to sign up, and we would initially just collect their e-mail. Past that, we started to say, "Well, you're gonna be in a line." I think it was like you would be at the end of the line and then you'd get an invitation, or something like that.
+\[00:07:58.05\] And what we ended up doing - we spun up, I'm gonna say, like hundreds or even thousands of landing pages for all these different combinations of services that you might wanna use... So you think like GitHub, and Trello, and Asana, and Salesforce - you name it; we were spinning up all these landing pages... Granted, none of this stuff existed, right? We didn't have any of these connections built out yet, but people would come and find it, and they would just click in and go to sign up, and we would initially just collect their e-mail. Past that, we started to say, "Well, you're gonna be in a line." I think it was like you would be at the end of the line and then you'd get an invitation, or something like that.
 
-Then we started saying, "Well, you can skip the line and join immediately if you pay $5 now", and we had a ton of people start doing that, which was frantic, because we would literally get the e-mail that someone paid for Salesforce to Asana, and it'd be like "Oh crap, we actually have to build this now."
+Then we started saying, "Well, you can skip the line and join immediately if you pay 5 bucks now", and we had a ton of people start doing that, which was frantic, because we would literally get the e-mail that someone paid for Salesforce to Asana, and it'd be like "Oh crap, we actually have to build this now."
 
 **Adam Stacoviak:** That's so funny.
 
