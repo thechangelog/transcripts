@@ -147,7 +147,7 @@ It was a similar thing where people don't really make the jump to "I'm gonna add
 
 **Jerod Santo:** \[laughs\] Well, that's not grounded, that's failing. I just flunked.
 
-**Safia Abdalla:** \[unintelligible 00:23:04.08\]
+**Safia Abdalla:** Like you've gotta repeat.
 
 **Nick Nisi:** You gotta grade on a curve.
 
@@ -161,9 +161,9 @@ It was a similar thing where people don't really make the jump to "I'm gonna add
 
 **Jerod Santo:** Nice.
 
-**Safia Abdalla:** It says that you also got a valid tag set up on like the viewport meta tag thing where you said it's like initial scale, or whatever... I'm not making any sense, but I think people know what I'm talking about. And content is sized correctly for the viewport, so I guess that's saying it's responsive... And it says "Contains some \[unintelligible 00:23:59.15\] when Javascript is not available", so I guess it loads alright.
+**Safia Abdalla:** It says that you also got a valid tag set up on like the viewport meta tag thing where you said it's like initial scale, or whatever... I'm not making any sense, but I think people know what I'm talking about. And content is sized correctly for the viewport, so I guess that's saying it's responsive... And it says "Contains some content when Javascript is not available", so I guess it loads alright.
 
-\[00:24:06.22\] You failed because you did not register a service worker - what kball was talking about earlier. It does not respond with HTTP status code 200 when offline. You don't prompt the user to install the web app; it's not configured with a custom splash screen, and the address bar does not match brand colors, which can be done, I guess, with \[unintelligible 00:24:36.03\]
+\[00:24:06.22\] You failed because you did not register a service worker - what kball was talking about earlier. It does not respond with HTTP status code 200 when offline. You don't prompt the user to install the web app; it's not configured with a custom splash screen, and the address bar does not match brand colors, which can be done, I guess, with the theme color meta tag.
 
 **Jerod Santo:** The address bar? That's like super PWA, right? The address bar is matching our brand colors - actually, that's the kind of thing Adam will probably be into, so we should probably look into that.
 
@@ -215,7 +215,7 @@ Has anybody used these? Nick, you mentioned that you had Twitter Lite installed.
 
 So it doesn't feel at home yet on iOS, but it is nice. I do like the idea that you can just go to the app in Safari and kind of try it before you install it, so you don't really have to do all of that; that's probably one of the biggest benefits of PWAs.
 
-**Kevin Ball:** That's a really interesting point. It reminds me of something that a gentleman named \[unintelligible 00:35:21.26\] was talking about with WebVR, and why WebVR was a substantially better platform than native VR, because it lets you engage progressively. It lets you start and see some of the experience, and then get a little bit deeper, and then get a little bit deeper and a little bit deeper, and PWAs have the potential at least to give us that same thing for mobile applications.
+**Kevin Ball:** That's a really interesting point. It reminds me of something that a gentleman named Kieran Farr was talking about with WebVR, and why WebVR was a substantially better platform than native VR, because it lets you engage progressively. It lets you start and see some of the experience, and then get a little bit deeper, and then get a little bit deeper and a little bit deeper, and PWAs have the potential at least to give us that same thing for mobile applications.
 
 I play with it on the web, and then get a little bit deeper and give it some permissions, and install it, and it feels as good as native in theory, or it could get there, but I was able to try that out. I had the time and not have to commit and give it a whole bunch of permissions up front, and whatever stuff.
 
@@ -248,7 +248,7 @@ So yeah, that experience -- and the same with Twitter, where it wasn't a seamles
 
 **Nick Nisi:** Do you think that that could be a limitation of iOS, in the way that PWAs are currently treated?
 
-**Safia Abdalla:** Yeah. I should add that this is my experience on an iPhone 6s running iOS that's like very old and has been through a lot. My negative experiences thus far with both the Twitter PWA and the Pinterest PWA might just be my bad luck... \[unintelligible 00:41:31.25\] what device I was on, if I was turning something into an app on my homescreen, I expect the experience to be the same. As a user, one of the reasons I use a computer is because I can reliably get the same information and experience everytime I log on, and there's no surprises.
+**Safia Abdalla:** Yeah. I should add that this is my experience on an iPhone 6s running iOS that's like very old and has been through a lot. My negative experiences thus far with both the Twitter PWA and the Pinterest PWA might just be my bad luck... But sans what device I was on, if I was turning something into an app on my homescreen, I expect the experience to be the same. As a user, one of the reasons I use a computer is because I can reliably get the same information and experience everytime I log on, and there's no surprises.
 
 **Kevin Ball:** \[00:41:52.11\] I think that makes sense, and coming back to the point that was being made at the end of the last segment, you kind of want this to be progressive; you want it to kind of draw you further and further into the experience, so I don't think you'd necessarily want to take away functionality, but you might add more functionality.
 
@@ -326,7 +326,7 @@ Those are the big priorities for me... And I wouldn't say they're new priorities
 
 **Jerod Santo:** \[laughs\] And have I scanned the topics? No, I haven't done anything; I'm the worst. Alright, parting thoughts as we wrap this up? Takeaways, action steps? Are we perhaps - and many people - still waiting for maybe a little bit better iOS support? Or go at it...? What would be your parting words with regard to this topic?
 
-**Safia Abdalla:** I think they're interesting; it's definitely hard for me as an iPhone-owning 20-something with high-speed internet access to truly appreciate PWAs, so as a consumer I'm not too interested in them, unfortunately. As a developer, I am interested in them as a way to make sure that all of my customers are getting \[unintelligible 00:52:27.10\] access to the product I'm building.
+**Safia Abdalla:** I think they're interesting; it's definitely hard for me as an iPhone-owning 20-something with high-speed internet access to truly appreciate PWAs, so as a consumer I'm not too interested in them, unfortunately. As a developer, I am interested in them as a way to make sure that all of my customers are getting resilient and reliable access to the product I'm building.
 
 **Nick Nisi:** My parting thought is gonna be based on our most recent topic, which is we might be thinking too big. When we think about these complex applications, the support is not there to necessarily make those feel as good in a PWA as it is in a native application. But when we think about these little micro-cases, like the conference website, the event website, things like that, suddenly we can have a dramatic shift forward from the status quo, with something that is really a very minor change.
 
