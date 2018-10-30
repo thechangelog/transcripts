@@ -8,7 +8,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Carlisia Pinto:** Hello everybody.
 
-**Erik St. Martin:** And we have a special guest today, long time Go community member - and I mean LONG time Go community member - he's got a great beard, and he's also the CTO and co-founder of Iron.io. We have Travis Reeder here, tell everybody hello, Travis.
+**Erik St. Martin:** And we have a special guest today, long time Go community member - and I mean _long_ time Go community member - he's got a great beard, and he's also the CTO and co-founder of Iron.io. We have Travis Reeder here, tell everybody hello, Travis.
 
 **Travis Reeder:** Hello.
 
@@ -18,7 +18,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Erik St. Martin:** No way, nobody does that.
 
-**Brian Ketelsen:** Yeah... The compiler slowed down a little bit in Go 1.6, and I saw a tweet from Dave Cheney recently that showed that one of the most recent commits cut compile times - I'm looking at his \[unintelligible 00:01:29.02\] graph, it looks to me like it cut about 40%, so we're getting much closer back to Go 1.4 compile times, which we knew would happen and I'm very excited to see. Hopefully when 1.7 ships, the compile pain won't be as bad as it was before. That's a really big event for all of us, so thank you for everybody on the compiler team - Rob Griesemer, \[unintelligible 00:01:52.20\], thanks for doing that for us, we appreciate it.
+**Brian Ketelsen:** Yeah... The compiler slowed down a little bit in Go 1.6, and I saw a tweet from Dave Cheney recently that showed that one of the most recent commits cut compile times - I'm looking at his [juju](https://github.com/juju/juju) graph, it looks to me like it cut about 40%, so we're getting much closer back to Go 1.4 compile times, which we knew would happen and I'm very excited to see. Hopefully when 1.7 ships, the compile pain won't be as bad as it was before. That's a really big event for all of us, so thank you for everybody on the compiler team - Rob Griesemer, you rock, thanks for doing that for us, we appreciate it.
 
 **Erik St. Martin:** Yeah, I think that that was kind of a public thing, when they converted the compiler to Go, because a lot of it was kind of done through code generation that we all knew that that would happen. But it's great to see the performance come back. Is that part of 1.7? Is that locked into that release, or is this just a commit that's kind of hanging?
 
@@ -68,7 +68,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Erik St. Martin:** My thought on Ruby these days is pretty similar to my thought on Java. It's not that I don't like the languages, I don't like the way people write the language. Ruby and Rails have been great, but these huge monolithic coupled together things because people just throw it together because they can, and then it becomes hard to support.
 
-**Carlisia Pinto:** Yeah. And this question that you asked, Erik, reminded me of the question we were throwing around last week about whether we optimize for performance, and I think Travis should be the expert here - I am wondering, Travis, how do you plan for performance loads that \[unintelligible 00:07:21.15\] in the future? How much pre-planning goes into identifying the \[unintelligible 00:07:27.27\] need to be performant in the future? Because I think a lot of times we go about saying, "Well, I don't need this more efficient technology because my app is never going to need that much performance", and on the other hand... Sometimes you know beforehand, but sometimes you don't know and you need to figure it out. So how does that go?
+**Carlisia Pinto:** Yeah. And this question that you asked, Erik, reminded me of the question we were throwing around last week about whether we optimize for performance, and I think Travis should be the expert here - I am wondering, Travis, how do you plan for performance loads that you update in the future? How much pre-planning goes into identifying the spaces need to be performant in the future? Because I think a lot of times we go about saying, "Well, I don't need this more efficient technology because my app is never going to need that much performance", and on the other hand... Sometimes you know beforehand, but sometimes you don't know and you need to figure it out. So how does that go?
 
 **Travis Reeder:** It's impossible to predict, right? We didn't know what we would need upfront, that's why we went from Ruby and had to switch to Go. But nowadays we do have a better idea of what we need, and we just always try to push the limit. There is a recent blog post on our blog.iron.io about getting a million messages per second on IronMQ. So we're pushing it; we have no customers that are doing that kind of speed, but we try to push and hit milestones like that, so that if a customer needs that... We're always ahead of what our customers would need.
 
@@ -86,7 +86,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Erik St. Martin:** And CockroachDB is written on top of RocksDB, too. It basically is implementing some of Google Spanners paper, mixed with some other stuff, but that's all in Go, and then their file system layer is done with RocksDB.
 
-**Travis Reeder:** Yeah, I like that Cockroach project, I don't know where it's at now; it was pretty early last time I checked, but we basically did the same thing for IronMQ - we took Rocks as the persistence layer, which is super fast. It's nice for a queue too, because all the data is sorted; it kind of worked out really nice. And then we had to build a networking and replication, and \[unintelligible 00:09:40.19\] scaling on top of Rocks, basically.
+**Travis Reeder:** Yeah, I like that Cockroach project, I don't know where it's at now; it was pretty early last time I checked, but we basically did the same thing for IronMQ - we took Rocks as the persistence layer, which is super fast. It's nice for a queue too, because all the data is sorted; it kind of worked out really nice. And then we had to build a networking and replication, and failover, and scaling on top of Rocks, basically.
 
 **Erik St. Martin:** Did you end up using Raft for your consensus protocol?
 
@@ -106,7 +106,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Erik St. Martin:** And I hope that he curates it first, because I don't have that kind of time.
 
-**Brian Ketelsen:** I do, I only share the interesting ones. The first one today I saw a couple months ago and it was just in its beginnings, but it looks like it's getting pretty nice - there is an Oauth2 server, written by Richard Knop. It's called go-oauth2-server, and it looks like it's getting pretty solid in terms of its capabilities. It's a standalone server, it's backed by \[unintelligible 00:11:11.09\] for configuration and I think postgres for data storage. It gives you the full Oauth2 flows for your apps, and it generates keys, the whole work, so it looks like something that's well worth checking out. Links to that of course will be in the show notes.
+**Brian Ketelsen:** I do, I only share the interesting ones. The first one today I saw a couple months ago and it was just in its beginnings, but it looks like it's getting pretty nice - there is an Oauth2 server, written by Richard Knop. It's called go-oauth2-server, and it looks like it's getting pretty solid in terms of its capabilities. It's a standalone server, it's backed by [etcd](https://coreos.com/etcd/) for configuration and I think postgres for data storage. It gives you the full Oauth2 flows for your apps, and it generates keys, the whole work, so it looks like something that's well worth checking out. Links to that of course will be in the show notes.
 
 **Carlisia Pinto:** It has wonderful documentation.
 
@@ -144,7 +144,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** Oauth, actually. You can query directly against the SQLiteDB on disk, and I think you're required to do all your data changes over the HTTP API, which actually just sends DDL. So the API is a really tiny JSON wrapper for DDL.
 
-**Erik St. Martin:** So the downside is just that you can't just use a normal SQLite adapter, you kind of have to develop HTTP client to start your data, but still... It's really interesting though, because things like Raft, \[unintelligible 00:13:39.17\] has really enabled people to build their own distributed systems much more easily. And to Travis' point too, they build on top of RocksDB for the persistence layer and leveraged graph, and they're doing their own distributed census internally, so you can kind of make up your own databases - not that you'd suggest everybody do that, but...
+**Erik St. Martin:** So the downside is just that you can't just use a normal SQLite adapter, you kind of have to develop HTTP client to start your data, but still... It's really interesting though, because things like Raft, and etcd, and console has really enabled people to build their own distributed systems much more easily. And to Travis' point too, they build on top of RocksDB for the persistence layer and leveraged graph, and they're doing their own distributed census internally, so you can kind of make up your own databases - not that you'd suggest everybody do that, but...
 
 **Brian Ketelsen:** Facebook did it with MongoDB. They took Mongo and stuffed Rocks underneath it, and have an extremely fast and fault-tolerant and high-performant database system. I think -- is it Charity Majors that heads that up? I can't remember, but anyway... Everybody's doing it, and it's cool.
 
@@ -156,7 +156,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** ...it's still there.
 
-**Travis Reeder:** I wonder if it's dead though, now that \[unintelligible 00:14:36.16\] is dead.
+**Travis Reeder:** I wonder if it's dead though, now that Parse is dead.
 
 **Brian Ketelsen:** That's a good question.
 
@@ -246,7 +246,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Travis Reeder:** I have not, no.
 
-**Brian Ketelsen:** I added that I think last year. I love Viper. I think it's really awesome. We used the remote config as the baseline configuration. So things that every machine, every app needs to know comes from \[unintelligible 00:23:10.06\] and then you can just layer on extra stuff on top of that, and it worked out really nicely.
+**Brian Ketelsen:** I added that I think last year. I love Viper. I think it's really awesome. We used the remote config as the baseline configuration. So things that every machine, every app needs to know comes from etcd and then you can just layer on extra stuff on top of that, and it worked out really nicely.
 
 **Travis Reeder:** That's cool, yeah.
 
@@ -360,7 +360,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Erik St. Martin:** Because you really liked tweaking the JVM, and you wanted to do it again.
 
-**Travis Reeder:** I love it, yeah. So we looked at these things, Scala was kind of popular at the time too, and Clojure was kind of hip, too. But this Go thing was there, and we saw that Google was back and there were some really smart people behind it. We tried it, and I think the simplicity of the language, with almost same performance as Java - not quite, but close... We liked that, we prototyped really quickly, a \[unintelligible 00:34:25.06\] implementation basically, and tried to see what kind of performance we could push through it, and it worked really well.
+**Travis Reeder:** I love it, yeah. So we looked at these things, Scala was kind of popular at the time too, and Clojure was kind of hip, too. But this Go thing was there, and we saw that Google was back and there were some really smart people behind it. We tried it, and I think the simplicity of the language, with almost same performance as Java - not quite, but close... We liked that, we prototyped really quickly, a queue implementation basically, and tried to see what kind of performance we could push through it, and it worked really well.
 
 We had some convincing to do, our team and our investors, because you never want to pick the wrong technology, and we just moved forward with it. It turns out it was a really good decision, luckily.
 
