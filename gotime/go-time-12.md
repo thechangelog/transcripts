@@ -208,7 +208,7 @@ I'd also like to give a shout out to Equinox's creator, Alan Shreve. He's just a
 
 **Brian Ketelsen:** That's awesome. Well, you can support Alan and his company Equinox by going to Equinox.io/gotime. Equinox is free for community and personal projects, and very inexpensive for companies to release their tool, so go check it out. We love them.
 
-**Erik St. Martin:** I'm sure he'd be perfectly happy with bags of money \[unintelligible 00:30:21.20\] \[laughter\]
+**Erik St. Martin:** I'm sure he'd be perfectly happy with bags of money too. \[laughter\]
 
 **Brian Ketelsen:** Well, I have to pay for my ngrok subscription, because I love it so damn much. I use it every single day.
 

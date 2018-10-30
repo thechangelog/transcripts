@@ -128,7 +128,7 @@ My philosophy is that when I'm writing a new service or when I'm operating a ser
 
 **Erik St. Martin:** So you had started talking about the one post that was one of the most popular that hit Hacker News and you kind of got some slack about, which was your [short methods post](https://medium.com/@copyconstruct/small-functions-considered-harmful-91035d316c29). Did you wanna give a little bit of insight into that? What was the negative reaction to that? Was it over-read into kind of they assumed you were taking a polarized view where it was like never a small method ever?
 
-**Cindy Sridharan:** \[00:32:05.17\] It was more about people genuinely believing that a lot of the things that I said weren't something \[unintelligible 00:32:10.26\], and that is totally fine. It wasn't particularly negative, the fact that the vast majority of people who commented were disagreeing with me. There were a handful of pretty negative folks, but that's fine... The vast majority, at least of people who disagreed, were just disagreeing with the content.
+**Cindy Sridharan:** \[00:32:05.17\] It was more about people genuinely believing that a lot of the things that I said weren't something that they agreed with, and that is totally fine. It wasn't particularly negative, the fact that the vast majority of people who commented were disagreeing with me. There were a handful of pretty negative folks, but that's fine... The vast majority, at least of people who disagreed, were just disagreeing with the content.
 
 Some people complained that it lacked examples, but again, I cracked it out in two hours; it wasn't like something I spent two days writing, so that probably explains why I didn't feel the need to inject a whole bunch of examples.
 
@@ -260,13 +260,13 @@ I don't know if you've been following some of the blog posts and some of the new
 
 **Carlisia Pinto:** I don't have a thing.
 
-**Erik St. Martin:** I'm gonna -- I know it's Free SOFTWARE Friday, but I'm gonna break that due to everything that's been going on... So with everything going on in Houston, the whole\[unintelligible 00:58:06.23\] army.
+**Erik St. Martin:** I'm gonna -- I know it's Free SOFTWARE Friday, but I'm gonna break that due to everything that's been going on... So with everything going on in Houston, the whole cajun army thing.
 
 **Brian Ketelsen:** Yes.
 
 **Carlisia Pinto:** No.
 
-**Erik St. Martin:** So there is a group of people kind of across the country that after Katrina kind of put themselves together... Volunteers, they call themselves the \[unintelligible 00:58:20.15\] army. When Houston was hit, they were driving from everywhere, bringing boats and everything like that; they had radios going back and forth, some people were out in boats and trucks, some people were at home just playing dispatch, basically working with people who were stuck in their houses and giving them advice and prioritizing calls and dispatching them out to volunteer rescuers on boats and stuff like that.
+**Erik St. Martin:** So there is a group of people kind of across the country that after Katrina kind of put themselves together... Volunteers, they call themselves the cajun army. When Houston was hit, they were driving from everywhere, bringing boats and everything like that; they had radios going back and forth, some people were out in boats and trucks, some people were at home just playing dispatch, basically working with people who were stuck in their houses and giving them advice and prioritizing calls and dispatching them out to volunteer rescuers on boats and stuff like that.
 
 It's not software, but I think they deserve a huge shoutout, everybody who participated in any manner for that, because seeing people help people is just awesome.
 

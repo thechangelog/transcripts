@@ -42,7 +42,7 @@ Jessie, you also have a new job, right?
 
 **Erik St. Martin:** So you're getting to work on Kubernetes, or...?
 
-**Jessie Frazelle:** Yeah, I'll be working on Kubernetes. I don't know specifically what yet. Before, I had previously made a PR to add a seccomp to Kubernetes, and then I made a pull request to also clean up some Docker files and then Go Lint a few things, so hopefully that's good.
+**Jessie Frazelle:** Yeah, I'll be working on Kubernetes. I don't know specifically what yet. Before, I had previously made a PR to add seccomp to Kubernetes, and then I made a pull request to also clean up some Docker files and then Go Lint a few things, so hopefully that's good.
 
 **Carlisia Pinto:** I want to put a word in and say congratulations, Jess.
 

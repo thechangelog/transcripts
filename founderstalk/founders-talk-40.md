@@ -132,7 +132,7 @@ Right around that time I was thinking about investment and I started going on th
 
 **Sam Soffes:** Yeah. Like, "Give me some money and I'll make something for real. This is child's play. It's a to-do app. That's the Hello World of any web framework."
 
-**Adam Stacoviak:** I think it was actually David Heinemeier Hansson, he was actually debating back in 2005 when he made the infamous whoops video, he was considering \[unintelligible 00:20:05.27\]
+**Adam Stacoviak:** I think it was actually David Heinemeier Hansson, he was actually debating back in 2005 when he made the infamous whoops video, he was considering blog? to-do app? blog? to-do app?
 
 **Sam Soffes:** Yeah. I mean...
 
