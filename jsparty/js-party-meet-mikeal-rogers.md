@@ -91,7 +91,7 @@ It needed to be something that was playful. We didn't want to come to the table 
 
 When we sit down and talk to Alex Sexton and Rachel White about their story, like we did with you today, we're gonna hear a very different perspective, how they came to where they're at, and then obviously be a part of the show.
 
-**Mikeal Rogers:** Yeah, I mean... Alex Sexton loves to disagree with me. He was one of the first people \[unintelligible 00:18:45.23\]
+**Mikeal Rogers:** Yeah, I mean... Alex Sexton loves to disagree with me. He was one of the first people that I ever thought of.
 
 **Adam Stacoviak:** He's like, "Yes, can I do that on a podcast, so everyone hears it?" \[laughter\] Sweet.
 
@@ -125,7 +125,7 @@ I think I also want to try - and this is a really difficult thing to do - to unw
 
 **Jerod Santo:** I still don't know what that means... \[laughter\] I'm pretty sure I've built a couple of them, but I don't know what that means.
 
-**Mikeal Rogers:** Right, and you'll see people -- Nolan Lawson does this sometimes... \[unintelligible 00:25:51.09\] does an amazing job of this. She's a programmer in New York. She will take a word or a subject that people throw around a lot that she has noticed other newer people are kind of afraid to ask what that means, and she'll dig into the entire history of it and explain it from the ground up for people that don't know what's going on, and that turns out to be pretty much everybody.
+**Mikeal Rogers:** Right, and you'll see people -- Nolan Lawson does this sometimes... [Mariko](https://kosamari.com/) does an amazing job of this. She's a programmer in New York. She will take a word or a subject that people throw around a lot that she has noticed other newer people are kind of afraid to ask what that means, and she'll dig into the entire history of it and explain it from the ground up for people that don't know what's going on, and that turns out to be pretty much everybody.
 
 When Nolan Lawson wrote that piece on progressive web apps, I think that everybody went, "Oh, god... Finally, I can stop pretending like I know what this means...", like there's actually this explainer now. So I really want us to try to do that, as well. When we bring up a news item about some topic in some area, we actually unwind it enough to go like, "Well, let's back up... How did this start? What does this actually mean?"
 

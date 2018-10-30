@@ -154,7 +154,7 @@ Midi files are just collections of these messages which have been assembled toge
 
 It's kind of strange how there's no sound wave inside the midi file. It's almost like digital sheet music; you need to have somebody perform the sheet music to actually hear it.
 
-**Jerod Santo:** Right, that's a good way of thinking of it. So you downloaded these hundred-thousand midi files \[unintelligible 00:31:21.15\] all these files, which are just the instructions, and then how did you get from there to BitMidi.com... Aside from the whole web app side, but the actual just playing of those - what was your process to get that done?
+**Jerod Santo:** Right, that's a good way of thinking of it. So you downloaded these hundred-thousand midi files - was it file or something - all these files, which are just the instructions, and then how did you get from there to BitMidi.com... Aside from the whole web app side, but the actual just playing of those - what was your process to get that done?
 
 **Feross Aboukhadijeh:** I had mistakenly thought that there was no way to play back these on a modern computer, at least in an easy way. I didn't realize VLC could actually play midi files until after I built the website... \[laughter\]
 
@@ -270,7 +270,7 @@ I think the Preact author was giving you props, as like "This is a high-quality 
 
 That's something that I care a lot about, because when I was working on WebTorrent I traveled a lot around the world, to different conferences and things, and I always used this free data plan that I got from T-Mobile, where you get free international data in a bunch of countries, but it's limited to (I think it's like) 128 kbs/second; I think they might have updated it to 256, but it's basically a little bit more than dial-up speed... So I quickly realized which websites I used were actually built in a minimalist way and which ones were built in a maximalist way, "Let's include everything."
 
-I came to appreciate the sites that really tried hard to keep their Javascript amount low, and built their UI in a way that feels responsive even when the network is slow, or the network is missing. I just think a lot of sites could do better. I know that people are working on this, and there's a lot of hard problems to solve; I'm not trying to \[unintelligible 00:49:24.12\] but I just thought that if I could piece together my own approach using just the code that I know I need, and where I know every line in the app needs to be there, and that I understand -- not that I understand every line of code in the app, but I know every module that's included. I know the entire dependency tree and I know exactly why everything is included... So that I could build a really minimalist, quick, fast, responsive app.
+I came to appreciate the sites that really tried hard to keep their Javascript amount low, and built their UI in a way that feels responsive even when the network is slow, or the network is missing. I just think a lot of sites could do better. I know that people are working on this, and there's a lot of hard problems to solve; I'm not trying to rain on anyone's parade but I just thought that if I could piece together my own approach using just the code that I know I need, and where I know every line in the app needs to be there, and that I understand -- not that I understand every line of code in the app, but I know every module that's included. I know the entire dependency tree and I know exactly why everything is included... So that I could build a really minimalist, quick, fast, responsive app.
 
 And it's not perfect... I think I haven't succeeded to the degree I wanted to. There's still a lot of things I need to improve about BitMidi, but it's close. I think it's close. It's pretty good. There's some stuff that's hard to do, that I haven't done yet, like stuff with making sure the UI always shows a loading indicator when you do certain things, and I sort of wanna do some animations between pages, some page transitions that look cool... I haven't figured out how to do that in a way that doesn't make you wanna pull your hair out. And I can do some server-side database caching stuff that'll make things faster.
 
@@ -324,7 +324,7 @@ You can also use this thing called Google Page Speed Insights. That one's a lot 
 
 **Feross Aboukhadijeh:** You know, after I did all this, I realized that there's actually a different C library that makes the midis sound better when they're played back, so I kind of wanna go and Emscripten a different library now. It's gonna take another few days, I think.
 
-**Jerod Santo:** \[unintelligible 01:02:58.21\] Better sound is always better, right?
+**Jerod Santo:** Better sound is always better, right?
 
 **Feross Aboukhadijeh:** Yeah. I think the sound could be better. There are certain instruments that don't sound that good. There's a clap instrument that's supposed to be like hands clapping, but it just sounds so wrong in the current implementation... I don't know whether it's the instrument that's off, or if it's the midi player that I compiled, but I would like to try this other one. It sounds a lot nicer. It's called FluidSynth. I hadn't heard of it before, but someone on Hacker News pointed me to it, and it sounds really good. There's an instrument pack for it. It's only 30 MB for all the instruments, which is really impressive.
 

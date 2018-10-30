@@ -112,7 +112,7 @@ Jessie, you also have a new job, right?
 
 **Erik St. Martin:** Do you guys keep statistics of how long it takes to turn around issues or pull requests? I'm interested to see whether some have lagged so long you just had to delete them.
 
-**Jessie Frazelle:** Yeah, so issues and stuff - there's definitely stats on this, but I don't actually know the answer. But issues, it's like we don't really care about the oldest there, but with pull requests we'll have weekly maintainer meetings and we'll go through the oldest. Usually, the oldest is something where it was controversial, so it's nice to do those in the maintainer meetings, because we can easily get two looks good from me from two people in the meeting. Or if people really are objecting to it, they can voice their concerns there without us having to do 85 million different back-and-forths on the actual pull request itself. So usually that's only like a month old probably, tops.
+**Jessie Frazelle:** Yeah, so issues and stuff - there's definitely stats on this, but I don't actually know the answer. But issues, it's like we don't really care about the oldest there, but with pull requests we'll have weekly maintainer meetings and we'll go through the oldest. Usually, the oldest is something where it was controversial, so it's nice to do those in the maintainer meetings, because we can easily get like two "looks-good-to-me"s from two people in the meeting. Or if people really are objecting to it, they can voice their concerns there without us having to do 85 million different back-and-forths on the actual pull request itself. So usually that's only like a month old probably, tops.
 
 **Brian Ketelsen:** That's not too bad.
 
