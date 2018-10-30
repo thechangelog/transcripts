@@ -30,7 +30,7 @@ Sometime mid early last year we decided that we're just gonna bite the bullet an
 
 **Rebecca Turner:** ...and we first started to actually see results -- I think you tried it out in late January...
 
-**Kat Marchán:** Late January, early February, that was when I could actually poking at it \[unintelligible 00:03:24.23\]
+**Kat Marchán:** Late January, early February, that was when I could actually do it.
 
 **Rebecca Turner:** ...and we were really surprised to find that it was unbelievably faster. The old cache was -- I still don't know how it was as slow as it was.
 
@@ -52,7 +52,7 @@ Probably the single biggest aspect of the speed in the new version is the new lo
 
 **Kat Marchán:** Now we're pretty much \[unintelligible 00:05:42.27\] developers, right?
 
-**Alex Sexton:** In that vein, one of the things I was excited to see was the symlink stuff... Stripe, where I work, has a monorepo and we definitely have some jiu-jitsu around trying to move libraries that are in our thing into our dependencies, but have dependencies still work among our subdependencies, all in the same repo, and the symlink stuff seems to solve a bunch of that. Can you explain how that works? I guess I did part of that, but \[unintelligible 00:06:18.03\]
+**Alex Sexton:** In that vein, one of the things I was excited to see was the symlink stuff... Stripe, where I work, has a monorepo and we definitely have some jiu-jitsu around trying to move libraries that are in our thing into our dependencies, but have dependencies still work among our subdependencies, all in the same repo, and the symlink stuff seems to solve a bunch of that. Can you explain how that works? I guess I did part of that, but I enjoyed that.
 
 **Rebecca Turner:** Sure! So we've had this file specifier since npm@2, so you could npm install a local directory. It was added in at the very end of the npm@2 development cycle, and it wasn't super well integrated into the rest of the npm product. What went into the shrinkwrap was never fully specified and has varied over time in various bad ways, because when it was originally put in, the fact that it even worked in shrinkwrap was kind of an accident.
 
@@ -82,7 +82,7 @@ When we were working on designing npm@5, one of the things we wanted to do was t
 
 **Kat Marchán:** Yeah, the --cache-max 0...?
 
-**Rebecca Turner:** No, because it's \[unintelligible 00:09:27.01\]
+**Rebecca Turner:** No, because it's still 304 checks. --cache-max 0 would make it not even 304 check.
 
 **Kat Marchán:** Right, right. So we have stuff on the pipeline now, things like... I've talked about --low-mem, which I need to spec out and hopefully get in something like that.
 
@@ -102,7 +102,7 @@ When we were working on designing npm@5, one of the things we wanted to do was t
 
 **Alex Sexton:** I think one of the primary overarching stories behind a lot of this is most people do a thing, and they do that thing and they're like "How come npm doesn't do this?" and I think no one's invoked the "yarn" word yet, but I think a lot of what yarn was was "Hey, there's this use case that if we take away all these other constraints that npm has and all these other things that they have to do, then we can do this other thing very quickly, and add some features." It seems like a primary story of npm is that there are a lot of different use cases and continuing to support all those has very unique challenges in places that people don't even consider.
 
-**Kat Marchán:** Yeah, I mean npm is the default, and that means that we have to support all these people; not just new people that are coming in, but what five, six years of people who have old setups and don't wanna have their keys moved too much. Although that's the \[unintelligible 00:11:27.29\] conversation yesterday.  Maybe that's a bit of a weird metaphor at this point, but I think it's okay for npm to make tradeoffs that other things can't. We're not gonna sacrifice the user base that we have in order to primarily serve what developers -- so we can serve both, and that's what we'll do... We'll optimize for like spreading out...
+**Kat Marchán:** Yeah, I mean npm is the default, and that means that we have to support all these people; not just new people that are coming in, but what five, six years of people who have old setups and don't wanna have their keys moved too much. Although that's the - \[laughter\] we had a conversation yesterday.  Maybe that's a bit of a weird metaphor at this point, but I think it's okay for npm to make tradeoffs that other things can't. We're not gonna sacrifice the user base that we have in order to primarily serve what developers -- so we can serve both, and that's what we'll do... We'll optimize for like spreading out...
 
 Another aspect of npm@5 is that it is probably our most significant step in a while towards breaking npm down into significant chunks, with the intention of -- like, the dream here is to (the platonic idea, if you will) be able to take all the components that npm uses right now, pick only the ones that you like and need, and then cook up your own package manager for your particular community.
 
@@ -124,7 +124,7 @@ It's why we never integrated any kind of flat install like Bower would do. We're
 
 **Rebecca Turner:** We would hope that people would be able to build on our tools to make that, if they wanted a package manager that did that.
 
-**Kat Marchán:** Yes. And \[unintelligible 00:14:32.19\] have basically about that literally just wraps the \[unintelligible 00:14:32.19\] and that's the flat tree.
+**Kat Marchán:** Yes. And we, fantastically, have basically about that literally just wraps the \[unintelligible 00:14:32.19\] and that's the flat tree.
 
 **Rebecca Turner:** I mean, that's very hard... \[laughter\]
 
@@ -186,7 +186,9 @@ The npm lockfile stores exactly how your Node modules should look when it's done
 
 **Rebecca Turner:** Or "Download this tarball and extract it here", and some of that includes Node modules.
 
-**Rachel White:** \[unintelligible 00:21:04.27\] does that in various ways.
+**Alex Sexton:** I see.
+
+**Rachel White:** Notably, \[unintelligible 00:21:04.27\] does that in various ways.
 
 **Rebecca Turner:** Yeah... Those, of course, don't affect the modules.
 
@@ -208,7 +210,7 @@ The npm lockfile stores exactly how your Node modules should look when it's done
 
 This is something that affects pretty much every package manager in existence pretty much.
 
-**Rebecca Turner:** I mean, everyone that doesn't essentially have an editorial board accepting packages. \[unintelligible 00:23:18.24\] package managers tend to have that. If you wanna get something into Debian, people are going to look at it before you put it in. But if you wanna publish something to PyPy or RubyGems, or the CPad. No one's gonna look at that; that code is not vetted. There is no approval process, so it can have anything.
+**Rebecca Turner:** I mean, everyone that doesn't essentially have an editorial board accepting packages. So OS package managers tend to have that. If you wanna get something into Debian, people are going to look at it before you put it in. But if you wanna publish something to PyPy or RubyGems, or the CPad. No one's gonna look at that; that code is not vetted. There is no approval process, so it can have anything.
 
 **Kat Marchán:** We do have some stuff on the pipeline which I actually don't know if I can talk about, because that's registry stuff and that's not my circus, not my monkeys, but we do have stuff to prevent the infamous worms that people are worried about. So at least automated self-publishing worms will be mitigated. They might rimraf your read directory, but it will only be your read directory, and that's great.
 
@@ -218,7 +220,7 @@ This is something that affects pretty much every package manager in existence pr
 
 **Rebecca Turner:** And they keep asking for more...
 
-**Kat Marchán:** \[unintelligible 00:25:03.19\] Can you stop? \[laughs\]
+**Kat Marchán:** I know, it's like, "Can you stop?" \[laughs\]
 
 **Mikeal Rogers:** We're coming up on the end of the segment here, but we've talked a ton about all the reasons why you should be installing npm@5 right now, today... Because it's awesome. Is there anybody that needs to worry about installing npm@5? Any kind of breaks that people might be reliant on out there that you would say "You know what? Hold off for a second...", or is it just everybody should go get it today?
 
@@ -226,13 +228,13 @@ This is something that affects pretty much every package manager in existence pr
 
 As with any major release of a tool this core, I would say that you try it, you see how it works for your setup. It might work very work very well for your setup, or there might be things that still need updating. If there are things that still need updating, let us know, we'll get to that. But this is just something that applies to pretty much any software that goes through a major release.
 
-**Rebecca Turner:** As far as things that we intentionally broke - the breaking changes of npm@5, most of those are things like the save by default and the lockfile, and the fact that output is no longer five miles long. I like that one... That one's nice. We have a little summary \[unintelligible 00:26:44.10\]
+**Rebecca Turner:** As far as things that we intentionally broke - the breaking changes of npm@5, most of those are things like the save by default and the lockfile, and the fact that output is no longer five miles long. I like that one... That one's nice. We have a little summary now.
 
 **Kat Marchán:** Yeah... Apart from people relying on things that they really shouldn't have been relying on, like very specific parts of the ouput, there's not a lot that will change, especially not for consumers of packages. A lot of this is mostly on the developer end.
 
 **Alex Sexton:** If you currently have a shrinkwrap, do you need to generate a new shrinkwrap with 5?
 
-**Kat Marchán:** No. We will probably -- in the case of most shrinkwraps; I don't know if all shrinkwraps in existence... But we will update that on run. One thing to note is that npm-shrinkwrap and package-lock.json are the same format. The main difference is that npm-shrinkwrap is publishable and package-lock is not. Shrinkwrap is meant for things that you really absolutely need to guarantee \[unintelligible 00:27:28.16\] for people who install your package. So we automatically read that we'll use it, and then we'll write it back out in the new format.
+**Kat Marchán:** No. We will probably -- in the case of most shrinkwraps; I don't know if all shrinkwraps in existence... But we will update that on run. One thing to note is that npm-shrinkwrap and package-lock.json are the same format. The main difference is that npm-shrinkwrap is publishable and package-lock is not. Shrinkwrap is meant for things that you really absolutely need to guarantee an exact read for people who install your package. So we automatically read that we'll use it, and then we'll write it back out in the new format.
 
 The thing to note is if you keep it called npm-shrinkwrap, older versions of npm down to like npm@2 will be able to install it; not npm@1, because of scope packages, but all the way down to 2 you should be able to get identical trees pretty much.
 
@@ -334,7 +336,11 @@ If you remix this Glitch site, you get a blank Sheetsee setup and it just writes
 
 **Alex Sexton:** Well, it would need to cache -- I don't know, syncing data versus caching requests are kind of two separate things.
 
-**Mikeal Rogers:** Yeah, I see what you're saying. \[unintelligible 00:40:47.07\] I'm playing with demos right now, I'm sorry... \[laughter\] I'm playing with Sheetsee demos in the background.
+**Mikeal Rogers:** Yeah, I see what you're saying. 
+
+**Jessica Lord:** Cool!
+
+**Mikeal Rogers:** I'm playing with demos right now, I'm sorry... \[laughter\] I'm playing with Sheetsee demos in the background.
 
 **Rachel White:** Is there anything else that you would like to add to Sheetsee that it doesn't have right now?
 
@@ -356,7 +362,7 @@ If you remix this Glitch site, you get a blank Sheetsee setup and it just writes
 
 **Jessica Lord:** Yeah.
 
-**Mikeal Rogers:** One of the things that I love about this is I feel like all Javascript tooling that I've used in the last 2-3 years has been a giant compile chain and it integrates into a giant compile chain, and this was like "Oh, back in the days..." where you could just insert a "script include" and then do stuff \[unintelligible 00:42:09.20\] It's like, "Oh yeah, there's actually cases where this is just so much simpler..."
+**Mikeal Rogers:** One of the things that I love about this is I feel like all Javascript tooling that I've used in the last 2-3 years has been a giant compile chain and it integrates into a giant compile chain, and this was like "Oh, back in the days..." where you could just insert a "script include" and then do stuff in the body. It's like, "Oh yeah, there's actually cases where this is just so much simpler..."
 
 **Jessica Lord:** Yeah...
 
@@ -384,7 +390,7 @@ I remember very specifically searching in Altavista and saying "Way to get infor
 
 **Mikeal Rogers:** Alright, Rachel's gonna go first... \[laughs\]
 
-**Rachel White:** I just don't want anybody else to pick my pick. My pick of the week is a really interesting repository that someone e-mailed me about and I ignored at first, but then other people did not ignore it and now it's got a bunch of stars on GitHub. It's called Chaosbot, and it's a social coding experiment that updates its own code democratically based on what the people that are involved with the project do. You can vote on things in order to get PRs merged.
+**Rachel White:** I just don't want anybody else to pick my pick. My pick of the week is a really interesting repository that someone e-mailed me about and I ignored at first, but then other people did not ignore it and now it's got a bunch of stars on GitHub. It's called [Chaosbot](https://github.com/Chaosthebot/Chaos), and it's a social coding experiment that updates its own code democratically based on what the people that are involved with the project do. You can vote on things in order to get PRs merged.
 
 I guess IIT reminds me of TwitchPlaysPokemon or like TwitchBuildsAComputer or TwitchInstallsLinux, because the fate of the project is at the whim of the people controlling it. I think it will be really interesting to see what they end up making with it.
 
@@ -394,7 +400,7 @@ I guess IIT reminds me of TwitchPlaysPokemon or like TwitchBuildsAComputer or Tw
 
 **Mikeal Rogers:** I think my favorite thing here is that they have a death counter... People hack it to merge things that actually break it with the voting mechanism, and they're really upfront about how many times the trunk has died because of this...
 
-**Rachel White:** Yeah... My favorite change that got made was this guy got a PR in so that there was no voting weight on the voting, and he was the sole person that could make decisions, which was pretty cool. \[laughter\]
+\[unintelligible 00:50:27.28\]**Rachel White:** Yeah... My favorite change that got made was this guy got a PR in so that there was no voting weight on the voting, and he was the sole person that could make decisions, which was pretty cool. \[laughter\]
 
 Yeah, I don't know... If you look at the issues, or -- I think it's in the main part... If you scroll down and...
 
@@ -410,23 +416,23 @@ Yeah, I don't know... If you look at the issues, or -- I think it's in the main 
 
 **Alex Sexton:** Wait, I just wanted to mention that I searched for Chaosbot and the first result is on the Sonic News Network - as in Sonic the Hedgehog - Wikipedia... They have their own wiki on sonic.wikia.com, and apparently there's a Chaosbot in Sonic X \#28, which is a comic... So that's the true Chaosbot.
 
-\[00:48:16.03\] My pick for this week is Babili. Is that how it's pronounced? \[unintelligible 00:48:24.21\] If you type its name into the say command, it will pronounce it correctly, apparently. It is Babel-Minify. Stripe, for instance, likes on its website only to ship ES6 code that works in all the browsers that everyone visits our site it, and it's kind of like a fun thing where you can push just real ES6 out without compiling it down with Babel, or anything like that, and it's cool. But the bad thing about shipping ES6 code is none of the current minifiers support ES6, so if you throw ES6 code, it will fail. So you have to compile down to ES5 and then you can minify.
+\[00:48:16.03\] My pick for this week is [Babili](https://www.npmjs.com/package/babili). I believe that's that how it's pronounced... If you type its name into the say command, it will pronounce it correctly, apparently. It is Babel-Minify. Stripe, for instance, likes on its website only to ship ES6 code that works in all the browsers that everyone visits our site it, and it's kind of like a fun thing where you can push just real ES6 out without compiling it down with Babel, or anything like that, and it's cool. But the bad thing about shipping ES6 code is none of the current minifiers support ES6, so if you throw ES6 code, it will fail. So you have to compile down to ES5 and then you can minify.
 
 So I think Babili is the first attempt at an ES6 minifier. It will minify down to the same syntax, just smaller, and whatever. It's still in beta 0.0.1, which is pretty beta... But for small things, I think it's probably pretty safe. They have some tests against some common open source things that appear to work still as well. So if you are interested in shipping ES 2015 to the browser, it's a good thing to start looking into. I imagine this type of thing will get much more popular.
 
 **Mikeal Rogers:** Yeah, I'm using it in I think like five projects, and only one of them, some module somewhere is doing something that it actually breaks on. It ends up outputting something that is not valid. But that was like six months ago; that may be a bug that was fixed. I tried to track it down, but tracking down bugs in minifiers is incredibly difficult, it turns out, so I kind of gave up on trying to debug it at that point... But I'm really happy with it in the other projects that I'm using it in.
 
-If you're doing WebRTC experiments, it's easy to just ship ES6 to the browser, because the Venn diagram of browsers that support WebRTC and don't support ES6 features is not a thing. \[unintelligible 00:50:27.28\]
+If you're doing WebRTC experiments, it's easy to just ship ES6 to the browser, because the Venn diagram of browsers that support WebRTC and don't support ES6 features is not a thing. They're basically the same.
 
 **Alex Sexton:** That's decently true of the animations in CSS that's written for a lot of the Stripe sites, so it's mostly the thinking is you already have a broken experience, so...
 
-**Mikeal Rogers:** Yeah, it's perfect. Okay, my project of the week is called pkg. It's from Zeit; they're the creators of Now and Hyper and a bunch of other awesome stuff. It's Guillermo Rauch's new company, who started Socket.io. Pkg is something that I've wanted for a long time, which is basically take all of your Node projects - your code, all your dependencies, everything - and Node itself and turn that into one single executable file, so that somebody can go and take that and run it on a similar environment. If you have native dependencies, it's gonna have to be on the same architecture, I would imagine... But they could just go and run that wherever.
+**Mikeal Rogers:** Yeah, it's perfect. Okay, my project of the week is called [pkg](https://www.npmjs.com/package/pkg). It's from Zeit; they're the creators of [Now](https://zeit.co/now) and [Hyper](https://hyper.is/) and a bunch of other awesome stuff. It's Guillermo Rauch's new company, who started Socket.io. Pkg is something that I've wanted for a long time, which is basically take all of your Node projects - your code, all your dependencies, everything - and Node itself and turn that into one single executable file, so that somebody can go and take that and run it on a similar environment. If you have native dependencies, it's gonna have to be on the same architecture, I would imagine... But they could just go and run that wherever.
 
 This is something that Go has had since day one, they designed it for this, but this has always been kind of a challenge with Node. They have got it working apparently, so I'm really, really excited about this.
 
 Jessica, do you have a pick for us?
 
-**Jessica Lord:** I do... \[laughs\] You'll have to just google this, so I don't have to read out the URL... It's a Medieval Fantasy City Generator. \[laughter\]
+**Jessica Lord:** I do... \[laughs\] You'll have to just google this, so I don't have to read out the URL... It's a [Medieval Fantasy City Generator](https://watabou.itch.io/medieval-fantasy-city-generator). \[laughter\]
 
 **Mikeal Rogers:** That's awesome.
 
