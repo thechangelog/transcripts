@@ -292,7 +292,7 @@ I'm curious - it sounds like you've had some pretty significant challenges as a 
 
 I think I have a tendency to just deal with problems. I sort of naively assume everything's easy to solve, which for better or worse it does give me an advantage that I'm willing to try to just like do something differently, or just assume something's gonna work, even if it completely fails. That's helped me a lot.
 
-I think there's a huge benefit to being a startup CEO, in that if you're the founder specifically, you're actually given a lot of freedom to mess things up and to learn along the way. If we hire an executive, they're not given that same kind of luxury. The CFO has to actually fully know how to do their job, whereas I've been able to learn how to do my job better and better, and I'll be better at it tomorrow, and next year, \[unintelligible 00:57:20.04\]
+I think there's a huge benefit to being a startup CEO, in that if you're the founder specifically, you're actually given a lot of freedom to mess things up and to learn along the way. If we hire an executive, they're not given that same kind of luxury. The CFO has to actually fully know how to do their job, whereas I've been able to learn how to do my job better and better, and I'll be better at it tomorrow, and next year, and the likes.
 
 Then on top of that, I've actually found our board of directors genuinely very helpful over the years. They've provided good feedback, they sort of keep my wrong opinions in check, they push my right opinions... That's been immensely helpful.
 
