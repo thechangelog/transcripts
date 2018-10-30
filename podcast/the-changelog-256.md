@@ -238,11 +238,11 @@ Click was good for packaging the Facebook app or the calendar app for the Ubuntu
 
 **Dustin Kirkland:** Yeah, that's part of it, and that's exactly where it starts. Every Snap carries with it all the files that it needs to run, which has been a pain in the RPM world, frankly.
 
-**Jerod Santo:** \[unintelligible 00:15:50.24\] isn't that good?
+**Jerod Santo:** Isn't shared libraries, isn't that good?
 
 **Dustin Kirkland:** Yes, it's good... To an extent.
 
-**Jerod Santo:** Or you thought it was good for \[unintelligible 00:15:56.03\]
+**Jerod Santo:** Or you thought it was good for a long time.
 
 **Dustin Kirkland:** Well, it's good for what it is, it's not good for what it's not... And there's a tautology for you.
 
@@ -404,7 +404,7 @@ So I think server users want to be able to take advantage of that as well.
 
 **Dustin Kirkland:** That's alright, it's good stuff. We're enjoying it.
 
-**Adam Stacoviak:** \[unintelligible 00:28:04.28\] where do they go to find out more?
+**Adam Stacoviak:** So for those listening, where do they go to find out more?
 
 **Dustin Kirkland:** \[00:28:09.06\] Rich Turner at Microsoft has a blog post that's out today talking about it. This is a new thing, it's in beta for Windows server and it will be for a while...
 
@@ -432,7 +432,7 @@ So I think server users want to be able to take advantage of that as well.
 
 **Adam Stacoviak:** Nobody knows about logbot.
 
-**Jerod Santo:** Now they do... Announcing logbot! \[unintelligible 00:29:06.29\] to an App Store not near you.
+**Jerod Santo:** Now they do... Announcing logbot! Vaporware coming to an App Store not near you.
 
 **Adam Stacoviak:** That's right, that's right.
 
