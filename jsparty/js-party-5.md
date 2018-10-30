@@ -330,7 +330,7 @@ If I ever - and of course I do wanna start adding more junior members - that wil
 
 **Mikeal Rogers:** Yeah... Anyway, let's move on to picks. Time for picks! Juan, do you have something for us?
 
-**Juan Pablo Buritica:** I need five minutes \[unintelligible 00:52:56.09\]
+**Juan Pablo Buritica:** I need five minutes. I am a procrastinator.
 
 **Alex Sexton:** I'll go first.
 
