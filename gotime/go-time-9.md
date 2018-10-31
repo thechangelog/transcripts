@@ -116,7 +116,7 @@ There's not too many places where I've bucked the trend; I've just tried to avoi
 
 **Scott Mansfield:** It's a very pragmatic approach, because it's meant to solve Netflix problems, and it's open source in the hope that it will help somebody else solve their problems as well.
 
-**Erik St. Martin:** I don't think that there's a need to be 100% either. There's a big project that came out of YouTube called \[unintelligible 00:19:37.17\] which is wire compatible with MySQL, but kind of makes MySQL distributed, and they don't support all SQL in there as well, just kind of the core things that they use.
+**Erik St. Martin:** I don't think that there's a need to be 100% either. There's a big project that came out of YouTube called Vitess which is wire compatible with MySQL, but kind of makes MySQL distributed, and they don't support all SQL in there as well, just kind of the core things that they use.
 
 **Scott Mansfield:** And that's okay, definitely if it solves their problem. I agree.
 
