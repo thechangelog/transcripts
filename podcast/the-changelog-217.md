@@ -218,7 +218,7 @@ It's great to have the source code of your product just publicly available, beca
 
 **Beyang Liu:** Yeah.
 
-**Adam Stacoviak:** And it's just like an open invitation to do that. I'm kind of curious though, whenever you search with Sourcegraph or do any of the stuff that you do, like this being able to search a function or whatever, what sources are behind Sourcegraph? Like what do you \[unintelligible 00:35:45.12\] how does that work?
+**Adam Stacoviak:** And it's just like an open invitation to do that. I'm kind of curious though, whenever you search with Sourcegraph or do any of the stuff that you do, like this being able to search a function or whatever, what sources are behind Sourcegraph? Like what do you come... like how does that work?
 
 **Beyang Liu:** \[00:35:49.17\] So we crawl a lot of the major open source code repositories. So GitHub, Bitbucket... Currently we crawl mainlyfully-formed code repositories. In the future, we might also wanna do snippets that are just found in blog posts and Q&A forums on the Internet, but right now it's just a kind of like the go-to places where most open source code is hosted.
 
@@ -226,7 +226,7 @@ It's great to have the source code of your product just publicly available, beca
 
 **Beyang Liu:** No, nothing formal. So we hit their APIs for some metadata, but by enlarge we mostly just hit the get API, so just like GetClone that kind of that kind of thing. And that's nice for us, because a lot of companies don't use a well-known code host internally, they just have a Git repository. So you can just point us to any GetClone URL and we'll be able to index that code.
 
-**Adam Stacoviak:** So whenever you do that, are you actually pulling down the full repo? Walk us through what actually happens whenever you ping a source, you pull back \[unintelligible 00:37:07.20\] schema translation you talked about before with SourceLib... What happens then? What kind of data do you actually store about a repository and the code that's in it?
+**Adam Stacoviak:** So whenever you do that, are you actually pulling down the full repo? Walk us through what actually happens whenever you ping a source, you pull back the whole schema translation you talked about before with SourceLib... What happens then? What kind of data do you actually store about a repository and the code that's in it?
 
 **Beyang Liu:** Yeah, so it's all kind of ephemeral. So if you give us access to your repository, every time we detect a new commit, we fetch that commit, we clone the repository, and then we just run SourceLib as kind of a command line tool in a Docker container, and that outputs the data in the schema that we expect, and then pushes that to an API endpoint in the Sourcegraph web application. Underneath the hood that then deserializes that and then stores it in one of several, kind of underlying database systems that we have.
 
@@ -368,7 +368,7 @@ It was almost in some ways like a nicer experience, because you didn't have the 
 
 **Adam Stacoviak:** So you must have -- not that this isn't big enough plan, you know, what you're doing at Sourcegraph, but you must have even bigger plans on top of all this knowledge, this wealth of knowledge that you're ultimately building for the developer community. Can you at all share the future for us? What's over the horizon, what's something no one knows about that you can at least tease us with what you're thinking about for the future Sourcegraph?
 
-**Beyang Liu:** Yeah, I'm happy to spitball. I just wanna declare upfront that as of now we're not working on any sort of machine learning related thing. As a person of a machine learning background, it kind of rubs me the wrong way. A lot of companies say they have some fancy machine learning algorithm and really, it's just mechanical \[unintelligible 00:58:14.15\] underneath the hood. I just wanna make it clear that Sourcegraph is not doing that.
+**Beyang Liu:** Yeah, I'm happy to spitball. I just wanna declare upfront that as of now we're not working on any sort of machine learning related thing. As a person of a machine learning background, it kind of rubs me the wrong way. A lot of companies say they have some fancy machine learning algorithm and really, it's just Mechanical Turk underneath the hood. I just wanna make it clear that Sourcegraph is not doing that.
 
 If and when we do use machine learning, we wanna have a very clear use case in mind. Now, that having been said, one of the things that got me really interested in this problem in the first place was as a person who likes data and thinking about how to model it, the dataset of all the code - it's got two properties. One, it's extremely interesting because it's such a valuable dataset and there's so much information that's embedded in it. And two, it's relatively unexplored. There's not a lot of tools that are specifically designed for reading and understanding that data. Most of the tools are optimized for creating the data, actually writing code. And so from the get-go, this has been something that's been in the back of our minds.
 
@@ -376,7 +376,7 @@ Just to name a few things that we could do after we've collected the dataset, ki
 
 \[00:59:49.17\] But what if you could actually go beyond that and suggest a variable name or suggest a parameter value based on the surrounding context? Now, that prediction problem is a lot fuzzier. You probably wouldn't be able to get that just from heuristics and what the compiler tells you alone.
 
-That's probably something that you wanna learn, like "Okay, I've seen this pattern before in code." \[unintelligible 01:00:13.04\] AST and in the past, when I've seen the token read, for example, and now this user is calling some function that writes a file, and what if they're passing you the wrong value of the permissions flag? They're setting it to 0666 instead of 0777.
+That's probably something that you wanna learn, like "Okay, I've seen this pattern before in code.", this pattern AST and in the past, when I've seen the token read, for example, and now this user is calling some function that writes a file, and what if they're passing you the wrong value of the permissions flag? They're setting it to 0666 instead of 0777.
 
 Given enough data, you could probably learn some interesting patterns there for what things to flag to the user that "Hey, maybe you're hitting this API incorrectly because you're using it in a different way than the hundred other people out there in open source use it." So that's kind of like one half-baked idea we have in the back of our minds.
 
@@ -548,7 +548,7 @@ So if you're a person who is just learning to code and it just seems like there 
 
 **Adam Stacoviak:** Well, Beyang, thank you so much for coming on the show and definitely thank you for your love for open source and your love for productivity for developers out there and obviously, all the things that Sourcegraph and your company is doing to prosper open source but also to give us better tools to not have to rework every time, recreate the wheel every time, and to leverage the collective knowledge out there available in open source and all these open repositories to help us make our day-to-day lives a little bit better. That's obviously a pretty cool thing.
 
-So sourcegraph.com is where you can find Sourcegraph obviously, github.com/sourcegraph is where \[unintelligible 01:29:04.21\] code, and with that, fellas, let's call this show done and say goodbye.
+So sourcegraph.com is where you can find Sourcegraph obviously, github.com/sourcegraph is where you can find all their code, and with that, fellas, let's call this show done and say goodbye.
 
 **Beyang Liu:** Thanks so much, Adam and Jerod, for having me on the show, I really appreciate it. I love the Changelog, keep doing what you're doing!
 
