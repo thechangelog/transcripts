@@ -256,7 +256,7 @@ Alright, so moving on. What else have we got?
 
 **Scott Mansfield:** ...so it's a pretty well-ingrained use for Java apps here. People use it all the time, and only recently have I actually started using Go Torch. I've been stuck in the stone ages apparently, using the web graph output from the pprof tool.
 
-**Erik St. Martin:** You're not the only one, I do the \[unintelligible 00:32:56.13\] thing, too.
+**Erik St. Martin:** You're not the only one, I do the SVG thing, too.
 
 **Brian Ketelsen:** Scott, I think that's the closest we've ever come to a mic drop on GoTime, thank you for that. \[laughter\] Yeah, we invented those - thanks, Erik.
 
@@ -332,7 +332,7 @@ I haven't used it, but anything that says "I'm 20 times faster" calls my attenti
 
 **Brian Ketelsen:** Yeah, didn't we talk about this last week?
 
-**Erik St. Martin:** I still can't remember what it was - I think it was a JSON Lint thing, or some kind of tool like that I had him install, and I didn't realize it was Node, and I'll never \[unintelligible 00:38:25.16\]
+**Erik St. Martin:** I still can't remember what it was - I think it was a JSON Lint thing, or some kind of tool like that I had him install, and I didn't realize it was Node, and I'll never live it down.
 
 **Brian Ketelsen:** No, I actually sent him an e-mail and said, "Report to my office. You're fired." \[laughter\]
 
