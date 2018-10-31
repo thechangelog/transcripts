@@ -110,7 +110,9 @@ There are tons of strategies you can use "Okay, we’ll make that reference a re
 
 In Elm, by starting out with the foundation of all those that are immutable, the architecture falls out of that. I think it might be interesting to see what the discovery process looked like. I noticed that my programs always were written a certain way. One of the first bigger programs that I wrote was actually a presentation about Elm in Elm. I was hacking it together very close to the time I was going to be showing it, and I finally got it working, and I went through to clean it up, and I was like, "Actually, this is decently architected. That’s weird." I had this experience a couple of times.
 
+
 I made a little Mario game for myself, and I was like, "Oh, this is fine." I wouldn’t expect it to come out that way, but then I was also like, "But I made it, so maybe I have an intuition for it, or something." So I went to what was at the time called Hacker School, and someone there, just in the course of a week, they made a little side-scrolly type game, and asked me for a code review. I was like, "This is good!" Not in an "I don’t think YOU would write good code" but after a week of coming from no experience with functional programming or Elm or anything like that, to write something that was well architected, I was like, "This is a little weird."
+
 
 \[00:20:24.29\] That’s when I started noticing this pattern that we ended up calling the Elm architecture. This idea of, you get messages in, you have an update function that updates the state of your application, and then you have a U function that says, "Here’s how I show that on the screen." That’s just how Elm programs come out, if you use the language.
 
@@ -154,7 +156,9 @@ The percentage of people who walk out, just feeling, "Oh, this is awesome! I get
 
 I also want to push back against the idea of Elm changing quickly… I think it’s true that we aren’t afraid to make improvements, but I don’t think they’ve been crazy if you think about the actual code that people are writing. When 0.17 came out… I don’t know if maybe Richard can give a better estimate, but the actual code that would have been invalidated or not work anymore is 5% of code. It’s not really a huge change, and I think I’m pretty deliberate about "How can I prove things and make an important change without disrupting everyone’s stuff?"
 
-**Richard Feldman:** For us, the change from 0.16 to 0.17 is largely a mechanical process; it’s just like, "This thing has a different name now, this thing needs to take one fewer argument, because we don’t need to pass as much stuff around." Actually, honestly, the big thing we had a lot of conversations about was how do we deal with merge conflicts? You know, baseline programmer stuff. How do you upgrade a large codebase? And of course, as pretty much always turns out to be the answer, the answer turned out to be, do it incrementally. Spoiler Alert! Conceptually, not a big change if you’re already using StartApp, which we were.
+
+**Richard Feldman:** For us, the change from 0.16 to 0.17 is largely a mechanical process; it’s just like, "This thing has a different name now, this thing needs to take one fewer argument, because we don’t need to pass as much stuff around." Actually, honestly, the big thing we had a lot of conversations about was how do we deal with merge conflicts? You know, baseline programmer stuff. How do you upgrade a large codebase? And of course, as pretty much always turns out to be the answer, the answer turned out to be, do it incrementally. Spoiler alert! \[laughter\] Conceptually, not a big change if you’re already using StartApp, which we were.
+
 
 **Jerod Santo:** On the practical side, if you were using signals, that gets changed over to subscriptions, and signals just is gone -you don’t have to worry about it anymore?
 
@@ -260,7 +264,8 @@ One thing that’s been great for Elm is to have the JavaScript ecosystem start 
 
 **Evan Czaplicki:** Yeah.
 
-**Richard Feldman:** There’s also the library chu which is just an overt port. It's like, "Hey, we’re talking Elm architecture and bringing it to JavaScript."
+
+**Richard Feldman:** There’s also the library Choo which is just an overt port. It's like, "Hey, we’re talking Elm architecture and bringing it to JavaScript."
 
 **Adam Stacoviak:** In addition to that, we’re also seeing people imitate Elm’s famously good error message, saying "Man, we can do some of that stuff over here. We can write great error messages." So the question was going to be, "How do you feel about all these people stealing your awesome ideas?" It sounds like you like it.
 
