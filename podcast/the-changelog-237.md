@@ -16,7 +16,7 @@ This came from a ping repo issue actually presented by Chris... What do you thin
 
 **Chris Lamb:** Well, my software journey starts pretty early - I was brought up in the UK, so in primary school... I may have been around 7 or 8 when I started experimenting with programming on the school computers. But it wasn't until a friend of my mom's, a technical guy, who was clearing out his hacker shed of old equipment, and he was gonna take it down to the local place when you could get rid of all computers and stuff like that. But on the way, he unfortunately had a small car accident, and the computer that was on the passenger seat went right through the windscreen into the field. Police came etc. etc. and they brought all the equipment back to his house, they just put it all back in his car, whatever... He wasn't gonna continue on to "the tip", as we call it, for some reason.
 
-Anyway, he went back, and his computer that was meant to be broken and old - he was this kind of person that, you know, "It would be absolutely magical if this computer now works", so he plugged it in and flipped the on switch, and lo and behold, for some reason, this car crash had actually resurrected this computer from the dead, and \[unintelligible 00:03:59.24\] eventually it was basically in the way and being a door stop, so he manage to offload it via my mom onto me.
+Anyway, he went back, and his computer that was meant to be broken and old - he was this kind of person that, you know, "It would be absolutely magical if this computer now works", so he plugged it in and flipped the on switch, and lo and behold, for some reason, this car crash had actually resurrected this computer from the dead, and he took it as a sign, he could't throw it out then and, eventually it was basically in the way and being a door stop, so he manage to offload it via my mom onto me.
 
 \[00:04:10.27\] It was this extremely old 8088 IBM computer. It was dreadfully old, even for the time I got it. It had no games or anything on it, it just had a copy of Turbo Pascal, and every tenth reboot, for some reason, it would revert to the BASIC programming language; there was a ROM built into the motherboard that for some reason if the main operating system didn't boot, it'd revert to a BASIC environment.
 
@@ -58,7 +58,7 @@ Well, I didn't have internet, so I was like, "Wow, I can type in http:\\\\192.16
 
 **Jerod Santo:** But what would be on your web server that you could possibly wanna -- like, would you write up there and then read it later? Or what kind of stuff would you even access to your own house?
 
-**Chris Lamb:** I don't really know that I wrote then, because that was in my own house, you're quite right. I think it was copies of software I'd seen on the internet at school... The Perl-based guestbooks, they were all the rage at the time \[unintelligible 00:09:35.14\]
+**Chris Lamb:** I don't really know that I wrote then, because that was in my own house, you're quite right. I think it was copies of software I'd seen on the internet at school... The Perl-based guestbooks, they were all the rage at the time, that might be aging where I was.
 
 Also, it was the beginning time of those short URL redirectors. This is when you had domain names like i.m... Basically a free redirection service like i.am.yourname, and it would redirect me. So I was writing Perl versions of those in CGI script.
 
@@ -174,7 +174,7 @@ It doesn't provide any authenticity, so you would need to pair that checksum wit
 
 So these developers making their iOS apps - they were happily making them, brilliant and fine, and then they went to upload them to the Apple Store and they signed them. So the signing process is completely accepted, Apple said, "Yes, this is you. The signing stuff checks out absolutely fine", but because their software development kit was backdoored, at the very last moment it would just simply replace the adverts with the ones from the attacker, and they only really noticed when they weren't really getting any ad revenue back.
 
-But you can quickly imagine what would happen if the code wasn't necessarily to just replace adverts, which sort of sounds a little bit harmful, \[unintelligible 00:30:29.07\] but what if it was sending your address book, or things like that? The original developer would swear blind they're doing nothing wrong, and from their point of view they are innocent - apart from perhaps some rather \[unintelligible 00:30:43.21\] security on their part, but you wouldn't really know who to point the finger at.
+But you can quickly imagine what would happen if the code wasn't necessarily to just replace adverts, which sort of sounds a little bit harmful, \[unintelligible 00:30:29.07\] but what if it was sending your address book, or things like that? The original developer would swear blind they're doing nothing wrong, and from their point of view they are innocent - apart from perhaps some rather lackadaisical security on their part, but you wouldn't really know who to point the finger at.
 
 That's pretty much the worst case, where you have no idea who these attackers are, you have no idea where this software is going; it sort of seems to bypass a lot of security features that were put in place, like the signing, which is entirely designed to prevent arbitrary code being uploaded to these repositories, and things like that. That's pretty much the doomsday scenario.
 
@@ -188,7 +188,11 @@ So yes, the doomsday is sort of here already in a sense, but we just don't reall
 
 I don't know how often either of you do MD5 hashes or any of this thing that you could do to determine if it's truly what you should be using. How often do you do this, Jerod? Is this something you do day-to-day? How often do you check the software you're actually running?
 
-**Jerod Santo:** I used to use the checksums, like Chris said, when I would download a large file. And I used to do it thinking it was a security thing; a lot of people believe that, and it's a little bit of a misunderstanding to think, "Oh, I'm more secure because I do this step." By the way, the other problem with that step of "I'm going to download a file from this web page and then I'm going to run the checksum to make sure it's the same" is that if a hacker actually hacked the web server insofar as they could replace the binary that you're downloading, they also could have very easily changed the checksum to match that binary \[unintelligible 00:33:32.04\]. So it's completely not a security thing, even though I used to think it was for a long time. That's more when I used to do it, but also back in the days where a 600-mb Debian ISO was like an all-day download. You wanted to make sure that it worked right, so I would do it back then, but I don't do anything... I'm very security-lax, sadly, in my current...
+**Jerod Santo:** I used to use the checksums, like Chris said, when I would download a large file. And I used to do it thinking it was a security thing; a lot of people believe that, and it's a little bit of a misunderstanding to think, "Oh, I'm more secure because I do this step." By the way, the other problem with that step of "I'm going to download a file from this web page and then I'm going to run the checksum to make sure it's the same" is that if a hacker actually hacked the web server insofar as they could replace the binary that you're downloading, they also could have very easily changed the checksum to match that binary.
+
+**Adam Stacoviak:** Right.
+
+ **Jerod Santo:** So it's completely not a security thing, even though I used to think it was for a long time. That's more when I used to do it, but also back in the days where a 600-mb Debian ISO was like an all-day download. You wanted to make sure that it worked right, so I would do it back then, but I don't do anything... I'm very security-lax, sadly, in my current...
 
 **Adam Stacoviak:** Well, how much binary code are you running these days that you would check it? How often are either of you using anything that's binary where this plays into where you take a source code down to one file, or something like that?
 
@@ -262,7 +266,7 @@ If I was that \[unintelligible 00:41:21.24\] person, I wouldn't wanna put myself
 
 **Chris Lamb:** We're maybe missing a bigger picture here, in that the security affordances that reproducible builds provide should apply to everyone, really... To all users on any technical spectrum. They don't want their to-do list app that they're just using as a thingy to have any backdoors in...
 
-**Adam Stacoviak:** \[00:44:03.02\] I think the bigger picture there is just trying to figure out -- I'm just thinking, if I'm a developer and I'm going to use something that has a binary, why not just compile it myself? I know that the arguments you've made there of the conveniences and affordances, and if at every point release I'm gonna recompile a new version of it, that's probably \[unintelligible 00:44:20.15\] I'm just trying to figure out, I guess, is reproducible builds, this philosophy, these best practices - is it enabling me as a developer to have the ability to reproduce it if I wanted to, and that's the security?
+**Adam Stacoviak:** \[00:44:03.02\] I think the bigger picture there is just trying to figure out -- I'm just thinking, if I'm a developer and I'm going to use something that has a binary, why not just compile it myself? I know that the arguments you've made there of the conveniences and affordances, and if, I'm gonna... every point release of Postgres... I'm gonna recompile a new version of it, that's probably a big pain in the butt. I'm just trying to figure out, I guess, is reproducible builds, this philosophy, these best practices - is it enabling me as a developer to have the ability to reproduce it if I wanted to, and that's the security?
 
 **Chris Lamb:** Absolutely.
 
@@ -310,7 +314,7 @@ We want to make sure that any end user can compile a software on their own machi
 
 **Jerod Santo:** Alright.
 
-**Chris Lamb:** Saying that, it can still surface interesting things \[unintelligible 00:53:52.21\] There was a repository browsing tool that had an open IDE based login system, and during the build process of it, it was generating an open IDE secret; you know how it's based on a secret of the \[unintelligible 00:54:10.10\] that the server knows about, and uses public key encryption \[unintelligible 00:54:15.20\] style cryptographic algorithm to validate logins as secure.
+**Chris Lamb:** Saying that, it can still surface interesting things and this one happens to be security-based. There was a repository browsing tool that had an open IDE based login system, and during the build process of it, it was generating an open IDE secret; you know how it's based on a secret of the private key that the server knows about, and uses public key encryption, Diffie-Hellman, etc., style cryptographic algorithm to validate logins as secure.
 
 So during the build it would generate a random number, and that would get put into the binary package. Unfortunately, this meant that every installation of this browsing tool would share the same secret.
 
@@ -326,13 +330,13 @@ So during the build it would generate a random number, and that would get put in
 
 So this is the Debian project, you guys have a great setup, you've put the time and money into this... How do other people do it? There's a set of best practices, you've described the process, which seems relatively straightforward (there's a few steps), so tactically, how do you go ahead and say, "You know what? Our group is interested in reproducible builds. How do we get from where we are to where we want to be?"
 
-**Chris Lamb:** \[00:55:49.06\] A lot of the work is being done with liaising with compilers and other toolchain-based utilities that are introducing non-reproducibility. We speak a lot with the GCC developers; for example, C developers will know the \_\_date and \_\_time macros \[unintelligible 00:56:11.07\] and previously they embedded the date and time directly into the source code as macros. This affects reproducibility because obviously every time you rebuild it, it would put the current time in, and so therefore every time you build you've got a different binary.
+**Chris Lamb:** \[00:55:49.06\] A lot of the work is being done with liaising with compilers and other toolchain-based utilities that are introducing non-reproducibility. We speak a lot with the GCC developers; for example, C developers will know the \_\_date and \_\_time macros, c-preprocessor macros, and previously they embedded the date and time directly into the source code as macros. This affects reproducibility because obviously every time you rebuild it, it would put the current time in, and so therefore every time you build you've got a different binary.
 
-A lot of the time we are speaking to developers in those kind of areas, rather than developers of - should I call them niche packages... Ones that depend on other packages, rather than \[unintelligible 00:56:40.25\] packages are depending on them.
+A lot of the time we are speaking to developers in those kind of areas, rather than developers of - should I call them niche packages... Ones that depend on other packages, rather than where packages are depending on them.
 
 The documentation generators are another example of upstreams that we're speaking to quite a bit. In terms of just getting the word out about the potential problems of a world where we can't trust the binaries that are running on our own computers - that's a lot of what we do, and talking about the problems and talking about the doomsday scenarios, as we outlined before.
 
-**Jerod Santo:** So we've outlined a little bit who's involved, and you mentioned all these different projects doing it, working hard on this - Arch Linux, Bitcoin, Debian, FreeBSD, NetBSD, Thor... Who's not involved that should be? If you could get their ear and say, "You guys need to be doing reproducible builds, and here's why." What are some groups, or some people, or some companies that should be doing these things, and as far as your knowledge they aren't.
+**Jerod Santo:** So we've outlined a little bit who's involved, and you mentioned all these different projects doing it, working hard on this - Arch Linux, Bitcoin, Debian, FreeBSD, NetBSD, Tor... Who's not involved that should be? If you could get their ear and say, "You guys need to be doing reproducible builds, and here's why." What are some groups, or some people, or some companies that should be doing these things, and as far as your knowledge they aren't.
 
 **Chris Lamb:** One thing we know they aren't in it - basically people outside of the free software space. For example, what made the recent Volkswagen emissions scandal possible is software that has been designed to lie about the sensors in a lab environment. If you had the source code under public scrutiny, adding some sort of misfeatures would have made that impossible. Without reproducible builds, it's hard to confirm that the binary code installed in the car was actually made during the source code that then verified \[unintelligible 00:58:06.01\]
 
@@ -354,13 +358,13 @@ That's a possibility there, rather than saying, "Open the code up to the world",
 
 There's something I wanted to ask... We were talking about who should be involved, but I was thinking maybe -- I was almost gonna interrupt you, Jerod, but now that I have the chair here I can ask it. Going back to the example originally with the iOS developer who got circumvented and pulled down the wrong version of the iOS SDK, what could that person have done differently, to prevent them using a scrutinized iOS SDK?
 
-**Chris Lamb:** Well, one, the obvious things of ensuring that they downloaded from a reputable source. Assuming that Apple are not gonna release the source code for the SDK, which is probably given, there's very little they can do, and that's basically the "risk" you take when you run \[unintelligible 01:00:01.09\] software.
+**Chris Lamb:** Well, one, the obvious things of ensuring that they downloaded from a reputable source. Assuming that Apple are not gonna release the source code for the SDK, which is probably given, there's very little they can do, and that's basically the "risk" you take when you run proprietary software.
 
 \[01:00:03.14\] What hopefully would have happened is that if they were in a free software world and they released the source code for their software, it would have been very obvious very quickly that the binaries they were producing did not match with their source code, and they would never have matched because of the way that their SDK was introducing the change of adverts, and things like that.
 
 So hopefully very quickly when a third party recompiles their piece of software, they would say, "That's interesting... You're distributing checks A, B, C, D, but when I compile it myself, I get D, E, F, G. What's going on here?" and questions would be raised very early.
 
-**Adam Stacoviak:** So in the case of this SDK, they pulled an iOS SDK downloaded from a reputable source, which seems to be a logical first step... But let's say they didn't; since it's proprietary code, they can't essentially leverage this best practices of reproducible builds because they don't have access to the source code and they can't \[unintelligible 01:01:08.21\]
+**Adam Stacoviak:** So in the case of this SDK, they pulled an iOS SDK downloaded from a reputable source, which seems to be a logical first step... But let's say they didn't; since it's proprietary code, they can't essentially leverage this best practices of reproducible builds because they don't have access to the source code and they can't learn from that.
 
 **Chris Lamb:** Indeed, yeah.
 
@@ -376,7 +380,7 @@ Back to who should be involved... Because I had that thought in my head, but I d
 
 **Jerod Santo:** Yeah, convince them. Don't embarrass them, convince them.
 
-**Chris Lamb:** So someone who's not really represented here is Ubuntu, and they do have \[unintelligible 01:02:02.01\] great leverage and would provide a lot of reassurance to a lot of users if Ubuntu got involved. We have actually spoken to them, and they are kind of waiting to see whether the Debian toolchain etc. kind of settles down, because it's a little bit in flux at the moment.
+**Chris Lamb:** So someone who's not really represented here is Ubuntu, and they do have a large installation-base that would be great leverage and would provide a lot of reassurance to a lot of users if Ubuntu got involved. We have actually spoken to them, and they are kind of waiting to see whether the Debian toolchain etc. kind of settles down, because it's a little bit in flux at the moment.
 
 They have no philosophical objection to it, it's just not on their radar right at this second. Hopefully, that will change in the next three or four months, and we'll start to see some of the Debian reproducible builds' work trickle down into Ubuntu, like a lot of the other work that's shared between those two projects. So I think that will be the main one that's missing in terms of user leverage.
 
@@ -384,11 +388,11 @@ In terms of people who don't really care about it, I guess anyone in proprietary
 
 **Adam Stacoviak:** They're not forced to, at least.
 
-**Chris Lamb:** Yeah, indeed. So I can't really speak to them. I mean, it'd be nice if more Windows developers had that kind of mindset, but there's still a lot of free software that's being developed for Windows; for things like Potty, a whole bunch of \[unintelligible 01:03:13.11\] released on Windows operating systems... So perhaps more in that space.
+**Chris Lamb:** Yeah, indeed. So I can't really speak to them. I mean, it'd be nice if more Windows developers had that kind of mindset, but there's still a lot of free software that's being developed for Windows; I mean, things like Putty, a whole bunch of browsers or free software released on Windows operating systems... So perhaps more in that space.
 
 **Jerod Santo:** Microsoft themselves could definitely get involved when it comes to open source developer tools in their ecosystem. They have many... .NET Core, Visual Studio Code and many things that have been open source for a while. And people who are actually developers are relying on them as their toolchain... So they could get involved.
 
-**Chris Lamb:** That's true, they could certainly help ensure \[unintelligible 01:03:41.13\] easy for developers to make their builds reproducible. That'd be very nice to see.
+**Chris Lamb:** That's true, they could certainly help ensure and certainly make it easy for developers to make their builds reproducible. That'd be very nice to see.
 
 That will be another great source of leverage there; it'd be one company getting involved... That would help quite a lot of developers and users
 
@@ -408,7 +412,7 @@ The other thing you can do is to occasionally check whether the code that you're
 
 So the first step would be just to recompile it on their own machine and see what they get, and compare it with the result that's being distributed by the original source code maintainer.
 
-**Adam Stacoviak:** I feel like that's still a hurdle that most people will just be like, "Whatever..." Maybe I'm just being agnostic against it, but I feel like we're back to the same original problem where we said "You're just verifying a checksum, essentially", which is what you want, because you want to reproduce a build by compiling, which is the question asked in the middle \[unintelligible 01:06:08.23\] "Why don't we just compile the software ourselves?" and that's essentially what we're doing to confirm we have the right thing.
+**Adam Stacoviak:** I feel like that's still a hurdle that most people will just be like, "Whatever..." Maybe I'm just being agnostic against it, but I feel like we're back to the same original problem where we said "You're just verifying a checksum, essentially", which is what you want, because you want to reproduce a build by compiling, which is the question asked in the middle there: "Why don't we just compile the software ourselves?" and that's essentially what we're doing to confirm we have the right thing.
 
 So if they're not gonna do it to use it, I'm just wondering if there's an easier hurdle to put in front of people to get over, versus that one.
 
