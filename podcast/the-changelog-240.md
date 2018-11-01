@@ -68,7 +68,7 @@ We have two sponsors today, Linode and Hired.
 
 **Adam Stacoviak:** That's true.
 
-**Jerod Santo:** Yeah, it's one of these continuums, right? Because the smaller the corporation, the more the individuals have to say, and especially once you hit a point - Twitter size, Facebook size - IPO, now you have shareholders and everything else. Twitter started off very small, it was a small subset of -- what was the \[unintelligible 00:07:55.29\] podcast company?
+**Jerod Santo:** Yeah, it's one of these continuums, right? Because the smaller the corporation, the more the individuals have to say, and especially once you hit a point - Twitter size, Facebook size - IPO, now you have shareholders and everything else. Twitter started off very small, it was a small subset of -- what was the Evan Williams podcast company?
 
 **Ben Ubois:** Odeo.
 
@@ -140,7 +140,7 @@ However, I recognize that there's a strategy tax (I don't know if that's the rig
 
 **Adam Stacoviak:** Yes, it's definitely that kind of style.
 
-**Ben Ubois:** They have an \[unintelligible 00:18:27.20\] but it crawls XML feeds. So with those kinds of conflicting interests and never being foothold at a browser level or OS level...
+**Ben Ubois:** They have an \[unintelligible 00:18:27.20\] the format but it crawls XML feeds. So with those kinds of conflicting interests and never being foothold at a browser level or OS level...
 
 **Adam Stacoviak:** Do you feel like page views is a concern here, though?
 
@@ -284,7 +284,7 @@ So I would say it is somewhat unproven whether it's a positive or a negative thi
 
 That runs on eight different servers right now, with a few Sidekick processes for piece, and then it can have maybe like 1,500 requests per second that way... Which is a number I'm proud of. I know there's probably Go and Rust people who are like, "Pff... Whatever", but that works well enough for me, and it does it in a way that I feel like it's never far behind anything. So I've been really happy with that.
 
-The only other separate service that's similar to that is this image processing system. Feedbin, when possible, will try to pull out a relevant image for the article, and put that next to the article's summary. When I was building that, it was really important to me that the image be high-quality. I have worked on designs where it was \[unintelligible 00:46:21.26\] like, "Okay, every piece of news here has to have an image next to it", and I've seen other readers designed in that way also.
+The only other separate service that's similar to that is this image processing system. Feedbin, when possible, will try to pull out a relevant image for the article, and put that next to the article's summary. When I was building that, it was really important to me that the image be high-quality. I have worked on designs where it was spec'd like, "Okay, every piece of news here has to have an image next to it", and I've seen other readers designed in that way also.
 The result is that you get some really low-quality, pixelated logo of some company, and that just doesn't look good. What I wanted to do was make sure it was frequently photography, and that there's a minimum size, formatted as a JPEG - I think that's a good indication that it's gonna be a better quality than a PNG, or more indicative that it's gonna be a photograph. So it goes through all these filters and criteria, and then it gets resized with ImageMagick, and then pushed to S3. Then Feedbin can pull that back in and display it alongside the content.
 
 Also, one thing I'm really happy with - I got this idea from Twitterrific, the iOS Twitter client, where they blogged about... Apple has a bunch of cool image APIs, and one of them does face detection. So it will tell you in like an X/Y coordinate wherein the image faces appear. What they did with that is they were like, "Okay, we'r gonna crop all these images so they fit into our template, but we don't wanna cut off heads in the crops." So using the facial detection - in this case Feedbin does not use Apple stuff, so it can't use those APIs, but it uses another project that does the same thing; it will figure out where faces are...
@@ -353,7 +353,7 @@ That was a perfect fit for what actions does, because acting on content as it's 
 
 **Ben Ubois:** \[00:55:58.27\] Yeah, that's right.
 
-**Adam Stacoviak:** That's interesting. So essentially, you're \[unintelligible 00:56:01.20\] doing some sort of grep on it, which could be a negative or a positive towards a search in there, you can include certain feeds that you've got in your feeds, and do those three things with it. Are those the only three actions you can do with it?
+**Adam Stacoviak:** That's interesting. So essentially, you're creating an action, doing some sort of grep on it, which could be a negative or a positive towards a search in there, you can include certain feeds that you've got in your feeds, and do those three things with it. Are those the only three actions you can do with it?
 
 **Ben Ubois:** Yeah.
 
