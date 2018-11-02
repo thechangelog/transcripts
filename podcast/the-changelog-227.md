@@ -116,7 +116,7 @@ There's another one we did that I thought was really cool, back before HTTPS was
 
 **Jerod Santo:** Oh, yeah...
 
-**Feross Aboukhadijeh:** Remember that? Anyone who was visiting Facebook on your network, you could click their name and then you would just be logged in as them, because it would sniff the cookies off \[unintelligible 00:15:55.29\]
+**Feross Aboukhadijeh:** Remember that? Anyone who was visiting Facebook on your network, you could click their name and then you would just be logged in as them, because it would sniff the cookies off the network.
 
 **Jerod Santo:** \[00:15:57.19\] Yeah... Just go to Starbucks, hop on the Wi-Fi and everybody was wide open, and FireSheep made it dead simple. It was like script kiddies times ten, because it was a browser extension - you just install it and go.
 
@@ -284,11 +284,11 @@ This isn't that crazy of an expectation; I mean, this is how YouTube works - you
 
 **Jerod Santo:** \[00:47:56.06\] Yeah. Although it did have some malware in it recently, or something.
 
-**Feross Aboukhadijeh:** Yeah, they had malware twice, getting into their installer files on their websites. I'm not really sure how that happened; they didn't really give a full explanation of how they got hacked, but it was pretty sad. If you installed transmission from their website during a certain period of time, you would get this BitCoin ransomware on your computer that would encrypt all your files and then try to get you to pay a BitCoin in order to get your files back.
+**Feross Aboukhadijeh:** Yeah, they had malware twice, getting into their installer files on their websites. I'm not really sure how that happened, they didn't really give a full explanation of how they got hacked, but it was pretty sad. If you installed transmission from their website during a certain period of time, you would get this BitCoin ransomware on your computer that would encrypt all your files and then try to get you to pay a BitCoin in order to get your files back.
 
 **Adam Stacoviak:** Dang.
 
-**Jerod Santo:** \[unintelligible 00:48:28.08\] if you can apply the open source philosophy here, at least for the clients that are open source, instead of just trying to convince them that they should support Web RTC; you could just go and have a pull request, or something, against the ones that you'd like to support Web RTC and just add it. That might be a more compelling way to get it on more desktop clients, at least the open source ones.
+**Jerod Santo:** It seems like you can apply the open source philosophy here, at least for the clients that are open source, instead of just trying to convince them that they should support Web RTC, you could just go and have a pull request, or something, against the ones that you'd like to support Web RTC and just add it. That might be a more compelling way to get it on more desktop clients, at least the open source ones.
 
 **Feross Aboukhadijeh:** Yeah, it's a good point. I'd like to do that, it's just...
 
@@ -342,7 +342,7 @@ It's just funny, because people think like "Oh, it's a web page, it's gonna be s
 
 **Feross Aboukhadijeh:** I'm just really happy that we took the WebTorrent library and just dropped it into an Electron app and then put a UI on it, and then we had a torrent app. It was a really good experience, it was not that hard. The hardest part honestly - if you wanna know the downsides to Electron - is you have to ensure really that you're not using any Node modules that contain native code, like C code that needs to be compiled for each platform.
 
-\[01:00:10.09\] Sometimes when you install things from NPM, you'll get this little build step where it's compiling some C library, or something like that. If you use any modules like that in your app, then when you go to ship your binary \[unintelligible 01:00:24.24\] and produce the .exe file (and so on and so forth for all the different platforms), then you have to actually have either a VM or a physical machine for each of those platforms to actually build the app. That's a little bit annoying and hard to do for every release. With WebTorrent, we've just avoided any libraries like that. WebTorrent has to basically be pure Javascript anyway to work for the browser version - because you can only do Javascript - so it was pretty easy for us to avoid it, but I recommend people try really hard to avoid -- try to find a pure Javascript version of whatever functionality you need, because then if your app is fully Javascript, you can actually build for all three platforms from one platform.
+\[01:00:10.09\] Sometimes when you install things from NPM, you'll get this little build step where it's compiling some C library, or something like that. If you use any modules like that in your app, then when you go to ship your binaries to your users and produce the .exe file (and so on and so forth for all the different platforms), then you have to actually have either a VM or a physical machine for each of those platforms to actually build the app. That's a little bit annoying and hard to do for every release. With WebTorrent, we've just avoided any libraries like that. WebTorrent has to basically be pure Javascript anyway to work for the browser version - because you can only do Javascript - so it was pretty easy for us to avoid it, but I recommend people try really hard to avoid -- try to find a pure Javascript version of whatever functionality you need, because then if your app is fully Javascript, you can actually build for all three platforms from one platform.
 
 On the Mac, I can build the Windows and the Linux and the Mac app - it's great. The build script just downloads these pre-built Electron binaries and then it reaches inside them and changes the app Javascript from this default sample Electron Javascript that's in there, and it puts your Javascript in there, and then it changes the app's icon, and then that's it. You ship that to your users. It's really simple. You don't need to have a computer or a VM to do it.
 
@@ -464,7 +464,7 @@ I've been thinking about ways to do that. I don't have anything to talk about ye
 
 **Adam Stacoviak:** I betcha you can't do it before the end of the year. \[laughter\]
 
-**Feross Aboukhadijeh:** I'll \[unintelligible 01:17:08.19\] that challenge.
+**Feross Aboukhadijeh:** I'll accept that challenge!
 
 **Jerod Santo:** Oh, there we go...
 
