@@ -1,20 +1,20 @@
-**Alex Sexton:** Alright, welcome to JS Party, where it's occasionally a party with Javascript. I refuse to say weekly, since it's been a few weeks... But nonetheless, we're here ready to party. This week we have a special guest filling in for Mikeal - Myles Borins. Introduce yourself, Myles.
+**Alex Sexton:** Alright, welcome to JS Party, where it's occasionally a party with Javascript. I refuse to say weekly, since it's been a few weeks... But nonetheless, we're here ready to party. So this week we have a special guest filling in for Mikeal - Myles Borins. Introduce yourself, Myles.
 
 **Myles Borins:** Hi, I'm Myles. I'm a developer advocate--
 
 **Alex Sexton:** Yeah, that's enough... \[laughter\] Rachel is also here with us, and this is Alex. Myles, you work on Google Cloud and Node and a bunch of stuff - actually introduce yourself now.
 
-**Myles Borins:** I'm Myles... I need to take long pauses, to make sure that I don't get stopped. I work on Node, I'm on the CTC and TSC.
+**Myles Borins:** I'm Myles... I going to take long pauses, to make sure that I don't get stopped. I work on Node, I'm on the CTC and TSC.
 
 **Alex Sexton:** What are those?
 
-**Myles Borins:** That is the Core Technical Committee and The Technical Steering Committee. I have a SlideDeck that you can look at if you're interested in learning more about how the governance model in Node works. That means I'm involved in some of the higher level technical decisions and architecture of the project itself. I also work at Google on the Google Cloud platform where I'm a developer advocate. A good chunk of my work is devoted to the Node ecosystem and working on that stuff. I travel around, I talk, and I also work internally with various product teams and engineers to make sure that the products we're making for Node developers are products that Node developers wanna use.
+**Myles Borins:** That is the Core Technical Committee and The Technical Steering Committee. I have a SlideDeck that you can look at if you're interested in learning more about how the governance model in Node works. That means I'm involved in some of the higher level technical decisions and architecture of the project itself. I also work at Google on the Google Cloud platform where I'm a developer advocate. A good chunk of my work is devoted to the Node ecosystem and working on that stuff. I travel around, I talk, and I also work internally with various product teams and engineers to make sure that the products we're making for Node developers are products that Node developers want to use.
 
 In a past life I was an artist and a musician and I'm hoping to find time to do that again in the future.
 
 **Rachel White:** Yay!!!
 
-**Alex Sexton:** Yeah, that segues well into what we wanted to talk about today, which is some music. I think between the three of us, we either have dabbled in web audio or are musicians... Rachel, what's your music history? You definitely have at least like a lot of cred in old indie bands.
+**Alex Sexton:** Yeah, that segues well into what we wanted to talk about today, which is some music. I think between the three of us, we either have dabbled in web audio or are musicians... Rachel, what's your music story, what's your music history? You definitely have at least like a lot of cred in old indie bands.
 
 **Rachel White:** Yeah, so I started out as a web person because I did a website for an online music magazine for teens, so my first concert was Warp Tour 2001 to go and interview bands like Good Charlotte.
 
@@ -26,7 +26,7 @@ In a past life I was an artist and a musician and I'm hoping to find time to do 
 
 **Rachel White:** I have not interviewed any ska bands, actually... Which, Goldfinger is questionably ska, I guess. But I've interviewed a lot of pop/punk bands. I interviewed New Found Glory, and 311... \[laughs\]
 
-**Alex Sexton:** Hey, 311 was my favorite band for a while. The drummer's name is Chad Sexton - unrelated, but I'm also a drummer, so...
+**Alex Sexton:** Hey, 311 was my favorite band for a long time. The drummer's name is Chad Sexton - unrelated, but I'm also a drummer, so...
 
 **Rachel White:** Ooooh...! \[laughter\]
 
@@ -64,7 +64,7 @@ But a lot of people thought for a long time that Prince detuned his guitar to E 
 
 **Alex Sexton:** A lot of his better tone -- a lot of people tune down to E flat just to get... You can play thicker strings because they're a little looser, so you can have kind of a fatter tone, so a lot Prince's well-known guitar tone comes from the fact that he detuned his guitar, essentially, and then was able to kind of play fatter strings, and stuff. Just some fun, normal Javascript/Prince trivia.
 
-The other interesting thing about your explanation -- I forgot... You're of the origin of Canada, I guess...?
+The other interesting thing about your explanation -- I forgot... You're of the origin of Canada, yes?
 
 **Myles Borins:** \[00:08:05.28\] Mm-hm.
 
@@ -72,11 +72,13 @@ The other interesting thing about your explanation -- I forgot... You're of the 
 
 **Myles Borins:** It came out...
 
+**Alex Sexton:** Gives it away.
+
 **Rachel White:** I feel like Myles is secretly Canadian, because he doesn't -- when I first met him I didn't know, and he kind of was like, a little quiet about being Canadian.
 
 **Myles Borins:** Am I supposed to introduce myself that way? "Hello, I'm Myles. I like maple syrup and it's called peameal \[laughter\] Thank you. Would you like a poutine and a Caesar?
 
-**Alex Sexton:** I'd actually flip it around to where you start there and THEN say your name.
+**Alex Sexton:** I'd actually flip it around to where you start there and then say your name.
 
 **Rachel White:** Yeah, that's usually... That's how it goes. Usually we know when you say "Javascript", so...
 

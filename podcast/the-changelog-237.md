@@ -192,7 +192,7 @@ I don't know how often either of you do MD5 hashes or any of this thing that you
 
 **Adam Stacoviak:** Right.
 
- **Jerod Santo:** So it's completely not a security thing, even though I used to think it was for a long time. That's more when I used to do it, but also back in the days where a 600-mb Debian ISO was like an all-day download. You wanted to make sure that it worked right, so I would do it back then, but I don't do anything... I'm very security-lax, sadly, in my current...
+**Jerod Santo:** So it's completely not a security thing, even though I used to think it was for a long time. That's more when I used to do it, but also back in the days where a 600-mb Debian ISO was like an all-day download. You wanted to make sure that it worked right, so I would do it back then, but I don't do anything... I'm very security-lax, sadly, in my current...
 
 **Adam Stacoviak:** Well, how much binary code are you running these days that you would check it? How often are either of you using anything that's binary where this plays into where you take a source code down to one file, or something like that?
 
@@ -380,7 +380,7 @@ Back to who should be involved... Because I had that thought in my head, but I d
 
 **Jerod Santo:** Yeah, convince them. Don't embarrass them, convince them.
 
-**Chris Lamb:** So someone who's not really represented here is Ubuntu, and they do have a large installation-base that would be great leverage and would provide a lot of reassurance to a lot of users if Ubuntu got involved. We have actually spoken to them, and they are kind of waiting to see whether the Debian toolchain etc. kind of settles down, because it's a little bit in flux at the moment.
+**Chris Lamb:** So someone who's not really represented here is Ubuntu, and they do have a large installation base that would obviously be great leverage and would provide a lot of reassurance to a lot of users if Ubuntu got involved. We have actually spoken to them, and they are kind of waiting to see whether the Debian toolchain etc. kind of settles down, because it's a little bit in flux at the moment.
 
 They have no philosophical objection to it, it's just not on their radar right at this second. Hopefully, that will change in the next three or four months, and we'll start to see some of the Debian reproducible builds' work trickle down into Ubuntu, like a lot of the other work that's shared between those two projects. So I think that will be the main one that's missing in terms of user leverage.
 
@@ -428,7 +428,7 @@ But if they recompile and check with the upstream's version of that binary, what
 
 **Chris Lamb:** \[01:08:06.15\] Indeed, yeah.
 
-**Adam Stacoviak:** When he said recompiler earlier, that's what I was gonna ask, before I was getting interrupted. Chris, didn't you mention something about recompilers \[unintelligible 01:08:14.27\] earlier in the call, that we didn't go into?
+**Adam Stacoviak:** When he said recompiler earlier, that's what I was gonna ask, before I was getting interrupted. Chris, didn't you mention something about recompilers a farm or something like that earlier in the call, that we didn't go into?
 
 **Chris Lamb:** That's right, yes. I think referred to them as rebuilders.
 
