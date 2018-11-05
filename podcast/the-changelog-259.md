@@ -108,7 +108,7 @@ I think a lot of people don't understand that part... That's why I do the live d
 
 **Jerod Santo:** Have you ever had one that just completely exploded on you?
 
-**Kelsey Hightower:** No, I didn't, and I think that's when I started to do them more. I got a little bit more confident. I was at one of the very first Kubernetes ones where we were all getting around the 1.0 launch, and we were all in San Francisco. \[unintelligible 00:15:06.08\] and I met the core engineering team, and we were all there for the Kubernetes summit. I was doing this demo - it was smooth... I was actually doing it on my laptop. And then the networking switched, and all the VMs crashed, and I'm like almost out of time... I was like, "Anyone wanna see me finish this?" and they were like "Yeah!!!", because everyone was on the edge of their seats to see how this thing goes down. So I deleted the whole cluster and I built it back from scratch, walked it back up, and we got the whole thing done, and it was like "mic drop."
+**Kelsey Hightower:** No, I didn't, and I think that's when I started to do them more. I got a little bit more confident. I was at one of the very first Kubernetes ones where we were all getting around the 1.0 launch, and we were all in San Francisco. This when I still at CoreOS and I met the core engineering team, and we were all there for the Kubernetes summit. I was doing this demo - it was smooth... I was actually doing it on my laptop. And then the networking switched, and all the VMs crashed, and I'm like almost out of time... I was like, "Anyone wanna see me finish this?" and they were like "Yeah!!!", because everyone was on the edge of their seats to see how this thing goes down. So I deleted the whole cluster and I built it back from scratch, walked it back up, and we got the whole thing done, and it was like "mic drop."
 
 Someone came up to me afterwards and was like "You did that on purpose, you were just trying to show off." I was like "Man, I'm sweating bricks, dude!" That was so dope, and then that told me that it's okay to mess up. What people come to see is you make it through it, and that's what gave me that confidence... "If that's the worst, then I'm good from here."
 
@@ -330,7 +330,7 @@ There was a couple of stuff more recently... I released Giddy, which is a comman
 
 **Jerod Santo:** Be there or be square. \[laughter\]
 
-**Adam Stacoviak:** Or be around... Circle. Whatever it takes, \[unintelligible 00:31:10.10\] \[laughter\]
+**Adam Stacoviak:** Or be around... Circle. Whatever it takes, come there. \[laughter\]
 
 **Jerod Santo:** Please come.
 
@@ -394,7 +394,7 @@ I talked a little bit about what that means for us to exist in a society that gl
 
 **Safia Abdalla:** Yeah... But certainly if the licenses did not require it, they probably would not have done it at all.
 
-**Jerod Santo:** \[unintelligible 00:36:52.01\] if you enforce it at a license level, you can use a software, but you have to display it -- a lot of them are like "You have to include this in the reproduced copy", or whatever, but if it actually said "And you have to display it prominently during your launch screen", or something... That would be an actual license that you insist upon...
+**Jerod Santo:** Even if you enforce it at a license level, you can use a software, but you have to display it -- a lot of them are like "You have to include this in the reproduced copy", or whatever, but if it actually said "And you have to display it prominently during your launch screen", or something... That would be an actual license that you insist upon...
 
 **Adam Stacoviak:** No one would use it...
 
@@ -556,7 +556,7 @@ We also get a glimpse at a different side of GitHub... The side that Nadia and M
 
 **Adam Stacoviak:** Careful, Mike. Continue, continue, Mike.
 
-**Jerod Santo:** \[unintelligible 00:47:23.26\] because we may die. \[laughter\] Sorry, Mike.
+**Jerod Santo:** Talk fast, because we may die. \[laughter\] Sorry, Mike.
 
 **Mike McQuaid:** The nice thing is I guess the projects that we have in Open Source Alley tend to be those that wouldn't pay money to have a booth here... So we can go and have them and have some representation, and post their logo all over the place and have people talk to the people who are running these projects... Giving them a little bit of exposure.
 
@@ -640,7 +640,7 @@ When I speak to people as a GitHubber, if people had complaints with GitHub, I w
 
 **Nadia Eghbal:** The guides...
 
-**Jerod Santo:** \[00:51:56.11\] The guides, as well as the -- even just recently, which I don't even know if it had any fanfare, but you're not adding license metadata in a very explanatory way to everything, as \[unintelligible 00:52:05.10\] So just making it easier on us when we're making those decisions that are outside of our developer wheelhouse smoother... Really helpful.
+**Jerod Santo:** \[00:51:56.11\] The guides, as well as the -- even just recently, which I don't even know if it had any fanfare, but you're not adding license metadata in a very explanatory way to everything, as you're like picking. So just making it easier on us when we're making those decisions that are outside of our developer wheelhouse smoother... Really helpful.
 
 **Nadia Eghbal:** There are some really good things coming on the pipeline too from the community and safety team, just in terms of helping you manage your communities better and manage those conversations. There are a lot of really good things in the works this year that I'm very excited about, but won't talk about because...
 
