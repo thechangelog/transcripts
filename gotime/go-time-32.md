@@ -134,7 +134,7 @@ What other things are you working on? I know you're doing some TLS stuff as well
 
 But the point is we wanted to implement TLS 1.3 and participate in the standardization process with a real implementation and deployed... So we wanted to take up TLS stack and add 1.3 ourselves. I essentially threatened to quit if they made me do it on OpenSSL -- no, I'm joking; nobody asked me. They just asked me what to use as a base, so I just jumped straight to crypto/tls, the standard library of Go, which is a wonderful stack written originally by Adam Langley, which all of the people in the industry say that it's where they go to to understand TLS. They read the spec, they fail to understand it, they go to crypto/tls, they read the Go code, and now they understand things. So that was the starting point... And we extended it to have TLS 1.3 support; we worked most on the server side, and it's now deployed globally on millions on CloudFlare sites. If you just sign up for a free account, it's on by default.
 
-\[00:15:56.17\] The nice thing we don't talk that much about, but you can definitely gather is that if our TLS 1.3 stack is in Go and you can use Go to connect to CloudFlare \[unintelligible 00:16:06.15\] it means that sometimes when you connect to CloudFlare, actually in the HTTP pipeline there is a Go HTTP reverse proxy.
+\[00:15:56.17\] The nice thing we don't talk that much about, but you can definitely gather is that if our TLS 1.3 stack is in Go and you can use Go to connect to CloudFlare site it means that sometimes when you connect to CloudFlare, actually in the HTTP pipeline there is a Go HTTP reverse proxy.
 
 **Erik St. Martin:** So all of the CloudFlare reverse proxy stuff is written in Go?
 
@@ -159,7 +159,7 @@ Saying that I'm suggesting to actually go out of your way to remove OpenSSL by a
 
 **Erik St. Martin:** What does TLS 1.3 offer over 1.2? What was the motivation to write that now?
 
-**Filippo Valsorda:** It's two-folded: there's better robustness - a lot of things that were creaky and we weren't really sure about were just removed... The policy was if it doesn't have a very good reason to be in the protocol \[unintelligible 00:19:11.22\] it's not gonna be in the protocol.
+**Filippo Valsorda:** It's two-folded: there's better robustness - a lot of things that were creaky and we weren't really sure about were just removed... The policy was if it doesn't have a very good reason to be in the protocol, cough cough hearbeat cough cough, it's not gonna be in the protocol.
 
 On the other hand, performance-wise it cuts an entire round trip. When you connect to a website, you first do the TCP handshake (that still happens) and then in TLS 1.2 you had to do two round trips - to the server and back, to the server and back - before you could start sending real data on the connection. Now, with TLS 1.3, you do only one. You send something, the server responds and we're ready to go with one less round trip. And round trips on mobile networks or in some countries, we are talking like seconds sometimes.
 
