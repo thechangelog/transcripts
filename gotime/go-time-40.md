@@ -20,7 +20,7 @@ In my case, I work on a game called the Hunter Classic. It is an online single a
 
 **Erik St. Martin:** That's really interesting. So I guess understanding the game a little bit helps with what the infrastructure is, because different types of games have different needs. Is this like a zone based game?
 
-**Luna Duclos:** No, it is a lobby based game. If you've played Diablo, it's a perfect example. Diablo has a lobby; you can create a game, you can join other people's games... In the Hunter's case, the actual multiplayer is peer-to-peer, so there is no involvement from the server for the actual multiplayer play in the game \[unintelligible 00:03:12.23\]
+**Luna Duclos:** No, it is a lobby based game. If you've played Diablo, it's a perfect example. Diablo has a lobby; you can create a game, you can join other people's games... In the Hunter's case, the actual multiplayer is peer-to-peer, so there is no involvement from the server for the actual multiplayer play in the game that uses \[unintelligible 00:03:12.23\]
 
 What the servers do is they handle all the competitions, the whole scoring system, as well as regular rotations, an in-game store, inventory management, that kind of stuff.
 
@@ -34,9 +34,9 @@ What the servers do is they handle all the competitions, the whole scoring syste
 
 **Erik St. Martin:** \[00:03:59.28\] So what was the motivation for using Go on the server side, with already having a development group that is familiar with C++ and stuff? Was there a productivity gain, or...?
 
-**Luna Duclos:** There were multiple reasons. The main reason is that the existing servers before I started were not written in C++ to start with. They are written in PHP and Python, running on AppEngine. It works; the old servers are still powering the game and doing their thing, but Python being a weakly typed language means it's really fast to develop in, however it's really easy to break things in such a large codebase as the Hunter has, which is why there's now a process ongoing to start moving development of new features to Go.
+**Luna Duclos:** There were multiple reasons. The main reason is that the existing servers before I started were not written in C++ to start with. They are written in PHP and Python, running on [AppEngine](https://cloud.google.com/appengine/). It works; the old servers are still powering the game and doing their thing, but Python being a weakly typed language means it's really fast to develop in, however it's really easy to break things in such a large codebase as the Hunter has, which is why there's now a process ongoing to start moving development of new features to Go.
 
-We have several Go servers running on Kubernetes, and all new features are going to those servers, rather than the old Python app engine ones. We're also slowly migrating over all features to the new servers, as time allows. The main reason is mostly that Go is much faster, which means cheaper servers, and it's also much harder to break things with Go, compared to Python.
+We have several Go servers running on [Kubernetes](https://kubernetes.io/), and all new features are going to those servers, rather than the old Python app engine ones. We're also slowly migrating over all features to the new servers, as time allows. The main reason is mostly that Go is much faster, which means cheaper servers, and it's also much harder to break things with Go, compared to Python.
 
 **Erik St. Martin:** Okay, so this is kind of like a microservice based architecture, and inventory management is handled by one service; rather than kind of continuing to maintain that particular service that may be running in PHP or Python, you're slowly rebuilding these things in Go.
 
@@ -50,13 +50,13 @@ We have several Go servers running on Kubernetes, and all new features are going
 
 **Erik St. Martin:** You said you're also doing Kubernetes too, right?
 
-**Luna Duclos:** Yeah, the whole new Go cluster is running in Kubernetes. It's running in Google Cloud on a GKE cluster, which is Google's managed Kubernetes offering. So we don't have to manage the cluster ourselves, Google does it for us.
+**Luna Duclos:** Yeah, the whole new Go cluster is running in Kubernetes. It's running in Google Cloud on a [GKE](https://cloud.google.com/kubernetes-engine/) cluster, which is Google's managed Kubernetes offering. So we don't have to manage the cluster ourselves, Google does it for us.
 
-**Brian Ketelsen:** One of the biggest things that I remember in the last couple of months that you did was the Kube-Cert-Manager extension for Kubernetes. Can you tell us about that? That's really exciting.
+**Brian Ketelsen:** One of the biggest things that I remember in the last couple of months that you did was the [Kube-Cert-Manager extension for Kubernetes](https://github.com/PalmStoneGames/kube-cert-manager). Can you tell us about that? That's really exciting.
 
-**Luna Duclos:** Yeah, it was actually from my previous job, though. As some people might know, I used to be self-employed and had my own business called Palm Stone Games. I was also running Kubernetes clusters at Palm Stone games, and as part of that we were using LetsEncrypt as our SSL provider.
+**Luna Duclos:** Yeah, it was actually from my previous job, though. As some people might know, I used to be self-employed and had my own business called Palm Stone Games. I was also running Kubernetes clusters at Palm Stone games, and as part of that we were using [LetsEncrypt](https://letsencrypt.org/) as our SSL provider.
 
-We did not want to request search manually every month - that's just asking for things to expire - and neither did we want to use Kubernetes Ingress objects, which was the only way to get LetsEncrypt to work automatically at the time.
+We did not want to request certs manually every month - that's just asking for things to expire - and neither did we want to use Kubernetes Ingress objects, which was the only way to get LetsEncrypt to work automatically at the time.
 
 So I ended up deciding to fork Kelsey Hightower's Kube-Cert-Manager project. I took all the documentation, as well as the basic approach of how things work, and I decided to rewrite the whole codebase to use Xenolf/Lego instead of a self-rolled Lego library, which meant that Kube-Cert-Manager, my fork, magically had support for over 20 DNS providers, while there was only one in Kelsey's version.
 
@@ -86,9 +86,9 @@ All of us remember struggling through -- you have to go to your SSL provider and
 
 **Erik St. Martin:** You know, it's that whole "One day this might be useful to me."
 
-**Luna Duclos:** Well, in \[unintelligible 00:10:27.25\] that's actually a valid reasoning to...
+**Luna Duclos:** Well, I guess they cost little enough, that's actually a valid reasoning too.
 
-**Erik St. Martin:** So actually, here's proof... Brian had owned GopherAcademy.com for some reason long before we had ever considered a conference or anything like that, and it was like "Well, we kind of need an entity to run the conference... Hey, don't you still own GopherAcademy?"
+**Erik St. Martin:** So actually, here's proof... Brian had owned [GopherAcademy.com](https://gopheracademy.com/) for some reason long before we had ever considered a conference or anything like that, and it was like "Well, we kind of need an entity to run the conference... Hey, don't you still own GopherAcademy?"
 
 **Brian Ketelsen:** Yeah, let me whip out my domain Rolodex and let's take a look.
 
@@ -96,11 +96,11 @@ All of us remember struggling through -- you have to go to your SSL provider and
 
 **Erik St. Martin:** So there is proof right there that this happens. It could be useful one day.
 
-**Brian Ketelsen:** That's right. I'm validated. Thank you, Erik. I'm buying more domain now. I'll be back. \[laughter\]
+**Brian Ketelsen:** That's right. I'm validated. Thank you, Erik. I'm buying more domains now. I'll be back. \[laughter\]
 
 **Erik St. Martin:** You're like, "But one of them... One of them was actually useful!" So what other projects are you working on these days?
 
-**Luna Duclos:** I recently released a project called Instrumented SQL. With the Go 1.8 release we had this nice context that we could pass to the database SQL package, but no one seemed to have started working on instrumentation using that concept, so I ended up doing instrumentation at work, and after checking with the big boss, I was allowed to open source that instrumentation, which is how Instrumented SQL was born.
+**Luna Duclos:** I recently released a project called [Instrumented SQL](https://github.com/ExpansiveWorlds/instrumentedsql). With the Go 1.8 release we had this nice context that we could pass to the database SQL package, but no one seemed to have started working on instrumentation using that concept, so I ended up needing instrumentation at work, and after checking with the big boss, I was allowed to open source that instrumentation, which is how Instrumented SQL was born.
 
 \[00:11:54.17\] It's a wrapping driver, basically. It will grab another SQL driver, it will wrap it with instrumentation and logging, and you can then call the wrapping driver using just a regular database SQL package, and everything will automatically be traced and logged for you based on the tracer and logger object in the contexts that are passed along.
 
@@ -118,7 +118,7 @@ There is one caveat, and that's it grabs tracers and loggers from the context - 
 
 **Erik St. Martin:** So what kind of data is logged from here?
 
-**Luna Duclos:** The instrumented SQL function can trace calls, so it can use open tracing or Google tracing to build up traces from every call, and it can also log every SQL call, so it spits out the SQL along with all the arguments that were passed to a logger that you can pass in. That's it. It's really simple, but it's been quite useful.
+**Luna Duclos:** The instrumented SQL function can trace calls, so it can use [Open Tracing](https://opentracing.io/) or Google tracing to build up traces from every call, and it can also log every SQL call, so it spits out the SQL along with all the arguments that were passed to a logger that you can pass in. That's it. It's really simple, but it's been quite useful.
 
 **Brian Ketelsen:** Yeah, it's crazy powerful.
 
@@ -198,7 +198,7 @@ So with your interest in Go and game development, have you played with any of th
 
 **Erik St. Martin:** Alright, we are back, talking to Luna Duclos. Just before the break, Brian, you wanted to change the subject. What is your new subject?
 
-**Brian Ketelsen:** I wanna talk about something that's near and dear to my heart, probably my favorite thing in the entire world, and that's frontend web development... \[laughter\] Luna, I know you've had a lot of activity in the GopherJS world, and way back when I was trying to figure out whether I could actually do GopherJS, you had written the Polymer bindings for GopherJS. Do you still spend a lot of time in GopherJS?
+**Brian Ketelsen:** I wanna talk about something that's near and dear to my heart, probably my favorite thing in the entire world, and that's frontend web development... \[laughter\] Luna, I know you've had a lot of activity in the GopherJS world, and way back when I was trying to figure out whether I could actually do [GopherJS](https://github.com/gopherjs/gopherjs), you had written the Polymer bindings for GopherJS. Do you still spend a lot of time in GopherJS?
 
 **Luna Duclos:** \[00:20:15.25\] I actually don't at all anymore... I haven't touched GopherJS since I changed jobs in December, unfortunately. Polymer is still a really interesting technology I'd like to spend more time on, as well. Unfortunately, currently I don't have enough time in a day to do so.
 
@@ -226,7 +226,7 @@ So with your interest in Go and game development, have you played with any of th
 
 **Luna Duclos:** Oh, there's an Angular binding... That's cool.
 
-**Brian Ketelsen:** Yeah, there is, and there are two or three different React bindings now, there's \[unintelligible 00:22:01.07\] there's view bindings...
+**Brian Ketelsen:** Yeah, there is, and there are two or three different React bindings now, there's Mithril bindings, there's Vue bindings...
 
 **Luna Duclos:** Very nice.
 
@@ -260,7 +260,7 @@ It seems like there's a lot of fragmentation in that area, to Brian's point... T
 
 **Brian Ketelsen:** So that is quite a bit different, although I understand that we have fragmentation, at least in the vendoring side. Apps are apps in Go, and it is quite a bit easier.
 
-**Luna Duclos:** We're slowly solving it, though. Hopefully Godep comes out and fixed all those issues... Though I have my doubts a little bit, but we'll see how that goes.
+**Luna Duclos:** We're slowly solving it, though. Hopefully [Godep](https://github.com/tools/godep) comes out and fixed all those issues... Though I have my doubts a little bit, but we'll see how that goes.
 
 **Brian Ketelsen:** Only time will tell.
 
@@ -308,7 +308,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Erik St. Martin:** I can see you back in 'Nam, sharing Rails development stories. \[laughter\] Alright, does anybody wanna talk about anything else - interesting projects, news?
 
-**Brian Ketelsen:** There's a lot of interesting stuff that came out this week. Probably the most exciting one - or at least the most interesting one is the Goggles application. Did anybody see that? From Kyle Banks. GitHub.com/kylebanks/goggles, it's an application that lets you search your GOPATH for code, and it shows you the GoDoc... It's almost like a little admin interface for your GOPATH - it will show you all of the code, all of the GoDoc... It's very pretty and well-written, and it's got a cute little pop-up gopher that comes up when you're searching... A nicely done app.
+**Brian Ketelsen:** There's a lot of interesting stuff that came out this week. Probably the most exciting one - or at least the most interesting one is the Goggles application. Did anybody see that? From Kyle Banks. [GitHub.com/kylebanks/goggles](https://github.com/KyleBanks/goggles), it's an application that lets you search your GOPATH for code, and it shows you the GoDoc... It's almost like a little admin interface for your GOPATH - it will show you all of the code, all of the GoDoc... It's very pretty and well-written, and it's got a cute little pop-up gopher that comes up when you're searching... A nicely done app.
 
 **Luna Duclos:** Oh yeah, that... I've seen that on Twitter. I've been meaning to try it out, actually. I should do that.
 
@@ -326,7 +326,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Carlisia Pinto:** \[00:32:03.05\] That's a good idea. I'm trying to get by without installing NPM and Gulp... I don't have those on this machine...
 
-**Brian Ketelsen:** I can tell you, the reason for all of that is because it uses Gallium, which is the wrapper for the Chrome web app thing that makes it a native app, and I would bet you a dollar that Kyle does not have an Apple developer account, so he can't sign those web apps or sign those Gallium apps, which means that he can't distribute applications in the new MacOS, because they're not signed, so you have to build them yourself. This all boils down to developer signatures.
+**Brian Ketelsen:** I can tell you, the reason for all of that is because it uses [Gallium](https://github.com/alexflint/gallium), which is the wrapper for the Chrome web app thing that makes it a native app, and I would bet you a dollar that Kyle does not have an Apple developer account, so he can't sign those web apps or sign those Gallium apps, which means that he can't distribute applications in the new MacOS, because they're not signed, so you have to build them yourself. This all boils down to developer signatures.
 
 **Luna Duclos:** Is it Mac only though, or does it also work on Linux?
 
@@ -356,13 +356,13 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Erik St. Martin:** Alright. What else have we got?
 
-**Brian Ketelsen:** I noticed that the GoKit team released their 0.4.0 release, and that moved to the inbuilt context library in Go 1.8, so no longer using the Xnet contact package anymore in GoKit, so that's a big release for them.
+**Brian Ketelsen:** I noticed that the [GoKit](https://github.com/go-kit/kit) team released their 0.4.0 release, and that moved to the inbuilt context library in Go 1.8, so no longer using the Xnet contact package anymore in GoKit, so that's a big release for them.
 
 **Erik St. Martin:** Oh, cool.
 
 **Brian Ketelsen:** Very exciting to see all of the cool stuff coming out of that GoKit package.
 
-**Erik St. Martin:** And speaking of releases too, I think Gobot just had a release this week too, didn't it?
+**Erik St. Martin:** And speaking of releases too, I think [Gobot](https://gobot.io/) just had a release this week too, didn't it?
 
 **Brian Ketelsen:** I don't know... If they did, I missed it.
 
@@ -404,11 +404,11 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Erik St. Martin:** Or Gobot...
 
-**Carlisia Pinto:** \[laughs\] No... Yes, I wanted to mentioned that the Women Who Go -- well, Sarah Adams, the founder of Women Who Go launched an initiative to send women Go developers to GopherCon. There are a lot of us who would not be able to afford and who don't have their company sponsor, so there's a crowdfunding effort for that. If people wanna contribute $10, $1,000... Anything is welcome, of course.
+**Carlisia Pinto:** \[laughs\] No... Yes, I wanted to mentioned that the Women Who Go -- well, Sarah Adams, the founder of [Women Who Go](https://www.womenwhogo.org/) launched an initiative to send women Go developers to [GopherCon](https://www.gophercon.com/). There are a lot of us who would not be able to afford and who don't have their company sponsor, so there's a crowdfunding effort for that. If people wanna contribute $10, $1,000... Anything is welcome, of course.
 
 **Erik St. Martin:** A million dollars...
 
-**Carlisia Pinto:** A million dollars... \[laughter\] And it's tax-deductible, because women who Go now is part of Bridge Foundry, same as GoBridge. I don't know how the tax-deductible part of this works for the Women Who Go for this initiative, but I think it is tax-deductible.
+**Carlisia Pinto:** A million dollars... \[laughter\] And it's tax-deductible, because women who Go now is part of [Bridge Foundry](https://bridgefoundry.org/), same as [GoBridge](https://golangbridge.org/). I don't know how the tax-deductible part of this works for the Women Who Go for this initiative, but I think it is tax-deductible.
 
 **Erik St. Martin:** Yeah, the Bridge Foundry, which is a 501(c)(3) probably collects the money, which makes it tax-deductible.
 
@@ -444,7 +444,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Luna Duclos:** Sounds good, too... I have to admit.
 
-**Carlisia Pinto:** One more thing I wanted to mention - there is now an official Go contribution guide. Steve Francia put it together recently (maybe last week). It gives you all the steps that you need to do to contribute to Go.
+**Carlisia Pinto:** One more thing I wanted to mention - there is now an official [Go contribution guide](https://golang.org/doc/contribute.html). [Steve Francia](https://twitter.com/spf13) put it together recently (maybe last week). It gives you all the steps that you need to do to contribute to Go.
 
 **Brian Ketelsen:** That's awesome. I haven't looked at it yet. I saw his announcement, but it's long overdue.
 
@@ -468,7 +468,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Erik St. Martin:** And then it becomes a bookmark... And two years from now I clean up my bookmarks. \[laughter\]
 
-**Brian Ketelsen:** At least we're honest about it. You know, there was one more package that I wanted to talk about... CockroachDB actually had a blog post about it too, The Arbitrary Precision Decimal Package, so that they could manage data types at arbitrary precision with a little bit more speed than Go allows. So at GitHub.com/CockroachDB/apd there's a nice arbitrary precision decimal package. I don't have a link to the blog post, but maybe we can dig that up somewhere, too. I'm pretty sure there was a blog post that went with it.
+**Brian Ketelsen:** At least we're honest about it. You know, there was one more package that I wanted to talk about... CockroachDB actually had a blog post about it too, The Arbitrary Precision Decimal Package, so that they could manage data types at arbitrary precision with a little bit more speed than Go allows. So at [GitHub.com/CockroachDB/apd](https://www.cockroachlabs.com/blog/apd-arbitrary-precision-decimal-package/) there's a nice arbitrary precision decimal package. I don't have a link to the blog post, but maybe we can dig that up somewhere, too. I'm pretty sure there was a blog post that went with it.
 
 **Erik St. Martin:** Yeah, we'll find it and we'll drop it in the show notes before this episode is released. So I think now is a perfect time for our second sponsor break. Our second sponsor for today is The Ultimate Go Training Series.
 
@@ -484,7 +484,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Erik St. Martin:** By doing conferences you mean hosting them, or attending all of them that you can, speaking at them? All of the above?
 
-**Luna Duclos:** \[00:43:54.23\] Speaking at them and attending, and maybe organize some smaller ones. I've been organizing FOSDAM when I can, because the Go team hasn't been able to do it, so I took that over. Stuff like that, and meetups that aren't too huge to organize. I wouldn't be able to organize something like GopherCon that you guys are... That's just crazy.
+**Luna Duclos:** \[00:43:54.23\] Speaking at them and attending, and maybe organize some smaller ones. I've been organizing FOSDAM when I can, because the Go team hasn't been able to do it, so I took that over. Stuff like that, and meetups that aren't too huge to organize. I wouldn't be able to organize something like GopherCon like you guys are... That's just crazy.
 
 **Erik St. Martin:** I don't even know if we can organize GopherCon...
 
@@ -548,9 +548,9 @@ Carlisia, you're not getting out of this... What would you be doing?
 
 **Brian Ketelsen:** You could be my handler.
 
-**Erik St. Martin:** I don't know, it's really hard though... The investment thing would be fun; I love doing community and conference related stuff... Maybe something in information security probably. The hard part is know people in the field and I know the different roles and some of the stuff that you wouldn't wanna do... But if I could have the ultimate -- like, I'd just get grants to sit around and hack technologies that they say are unhackable, I think that's be a lot of fun. Or investing stuff.
+**Erik St. Martin:** I don't know, it's really hard though... The investment thing would be fun; I love doing community and conference related stuff... Maybe something in information security probably. The hard part is know people in the field and I know the different roles and some of the stuff that you wouldn't wanna do... But if I could have the ultimate -- like, I'd just get grants to sit around and hack technologies that they say are unhackable, I think that's be a lot of fun. Or inventing stuff.
 
-Alright, I'm gonna go with that investing stuff. Just sitting around with gadgets and electronics and coding, and just trying to solve problems.
+Alright, I'm gonna go with that inventing stuff. Just sitting around with gadgets and electronics and coding, and just trying to solve problems.
 
 **Brian Ketelsen:** You could be Q for me. That'd be awesome!
 
@@ -568,7 +568,7 @@ Alright, I'm gonna go with that investing stuff. Just sitting around with gadget
 
 **Luna Duclos:** I'm eagerly waiting for that one!
 
-**Brian Ketelsen:** Are you ready? So my \#FreeSoftwareFriday shoutout is to - drum roll, please - Webpack! And the reason it's to Webpack is because the documentation on their website is some of the absolute best documentation I've ever seen. I was whining about Webpack on Twitter, and three people came up and said "Did you even RTFM, dude?" And I went to the documentation and I was like, "Holy cow... I should have, because I would probably solve all of my problems if I read this wonderful documentation. So huge shout out to the Webpack team.
+**Brian Ketelsen:** Are you ready? So my \#FreeSoftwareFriday shoutout is to - drum roll, please - [Webpack](https://webpack.js.org/)! And the reason it's to Webpack is because the documentation on their website is some of the absolute best documentation I've ever seen. I was whining about Webpack on Twitter, and three people came up and said "Did you even RTFM, dude?" And I went to the documentation and I was like, "Holy cow... I should have, because I would probably solve all of my problems if I read this wonderful documentation. So huge shout out to the Webpack team.
 
 It looks like the docs are community-sourced, so everybody in the Webpack community, thank you for all those fantastic documents. Nice!
 
@@ -578,7 +578,7 @@ It looks like the docs are community-sourced, so everybody in the Webpack commun
 
 **Erik St. Martin:** \[00:51:51.12\] And Luna... I'm pretty sure you've kind of gathered the gist of this... Every week we give a shoutout to a project or a maintainer (or plurals of those) just to show our love and appreciation.
 
-**Luna Duclos:** Yeah, my shoutout goes, without the shadow of a doubt, to Goa. Goa is a code generation framework that lets you declare a REST API, and will then generate all the validations, all the routes, all the security wrappers, all the middleware for you, without you having to do a thing.
+**Luna Duclos:** Yeah, my shoutout goes, without the shadow of a doubt, to [Goa](https://goa.design/). Goa is a code generation framework that lets you declare a REST API, and will then generate all the validations, all the routes, all the security wrappers, all the middleware for you, without you having to do a thing.
 
 It has saved me so much time, and it's taught me a lot by making designing the API an actual, explicit step of my development process, which is lacking in a lot of places where they just slap APIs together and see if it works afterwards, and to hell if it doesn't make sense.
 
@@ -616,7 +616,7 @@ It has saved me so much time, and it's taught me a lot by making designing the A
 
 **Luna Duclos:** One ritual I have in the morning is when I wake up I go check my GitHub alerts, see if there's anything there. I respond... I can do this before I have my breakfast.
 
-**Erik St. Martin:** Yeah, I need a better schedule, but I feel like the time there... So my \#FreeSoftwareFriday for today is Helm, which was worked on by the Deis group. I think it might be the first project that got graduated from beta directly into Kubernetes proper. So Helm is a cool tool -- they have these things called "Chart", which are basically pre-packaged applications for running, say, MySQL or Postgres on Kubernetes.
+**Erik St. Martin:** Yeah, I need a better schedule, but I feel like the time there... So my \#FreeSoftwareFriday for today is [Helm](https://helm.sh/), which was worked on by the Deis group. I think it might be the first project that got graduated from beta directly into Kubernetes proper. So Helm is a cool tool -- they have these things called "Chart", which are basically pre-packaged applications for running, say, MySQL or Postgres on Kubernetes.
 
 **Brian Ketelsen:** Helm is the bomb.
 
@@ -636,9 +636,9 @@ It has saved me so much time, and it's taught me a lot by making designing the A
 
 **Brian Ketelsen:** Right. Well, you know, anything but YAML. Every single time I touch YAML, there is a space somewhere, or a tab somewhere that beats me. Anything but YAML.
 
-**Luna Duclos:** You realize that kubectl can eat up JSON files as well, right? You don't have to use YAML if you don't wanna.
+**Luna Duclos:** You realize that `kubectl` can eat up JSON files as well, right? You don't have to use YAML if you don't wanna.
 
-**Brian Ketelsen:** I did know that, yes. And now they have nice YAML verification built into the latest kubectl, so it's not as bad as it used to be. But when I was a kid, back before Kubernetes was 1.0... Yeah, it was eating my lunch all day long.
+**Brian Ketelsen:** I did know that, yes. And now they have nice YAML verification built into the latest `kubectl`, so it's not as bad as it used to be. But when I was a kid, back before Kubernetes was 1.0... Yeah, it was eating my lunch all day long.
 
 **Luna Duclos:** Fair enough,
 
@@ -650,7 +650,7 @@ It has saved me so much time, and it's taught me a lot by making designing the A
 
 **Erik St. Martin:** I don't mind it... I guess I don't really have hatred for any language; I just prefer some languages over others.
 
-**Luna Duclos:** Oh, don't get me wrong, it's not actually because of the white space in my case... It's more the weak typing and all the others being runtime, rather than compile time. That kind of stuff scares me.
+**Luna Duclos:** Oh, don't get me wrong, it's not actually because of the white space in my case... It's more the weak typing and all the errors being runtime, rather than compile time. That kind of stuff scares me.
 
 **Erik St. Martin:** I've never had a runtime issue in production. If this was on video, my nose just grew, you know, like a mile long... \[laughter\] I love that about Go; you gain a lot of that stuff from dynamic languages, the way we write software and think about writing software, but that compile time safety is so nice.
 
@@ -660,7 +660,7 @@ It has saved me so much time, and it's taught me a lot by making designing the A
 
 **Erik St. Martin:** You can't do that, you cannot pass a string where an integer is expected.
 
-**Brian Ketelsen:** I tell you what, though... I was working on like a live admin app for Buffalo this weekend with Ashley McNamara, we were pairing on it on Saturday, trying to figure out a way to make it really nice, like Django admin or Rails Active Admin, but for Buffalo, and I actually hit a point where I wished that Go had generics... It's the first time in seven(ish) year that I was like "Damn, generics would be really useful here." That's the first time it's happened to me. I almost stopped in my tracks and wrote it down.
+**Brian Ketelsen:** I tell you what, though... I was working on like a live admin app for [Buffalo](https://gobuffalo.io/en) this weekend with Ashley McNamara, we were pairing on it on Saturday, trying to figure out a way to make it really nice, like Django admin or Rails Active Admin, but for Buffalo, and I actually hit a point where I wished that Go had generics... It's the first time in seven(ish) year that I was like "Damn, generics would be really useful here." That's the first time it's happened to me. I almost stopped in my tracks and wrote it down.
 
 **Erik St. Martin:** I guess it depends on the type of stuff you work on. There are some fields and problem spaces where I could see generics needing to be used regularly, but for most of us, we're like "Oh, that sucks... I wish I had generics", and we're like "Yeah, but there's another way, and I only have to do this once."
 
@@ -744,11 +744,11 @@ I would like him to harvest his little party somewhere else, not on my little sh
 
 **Brian Ketelsen:** Yeah... This is not a PG show anymore...
 
-**Erik St. Martin:** Alright... So with that, thank you everybody for being on the show today. Huge thank you to our listeners, both live and everybody who will be listening to this when this episode is released; a giant thank you to our sponsors for today's episode - Toptal, and the Ultimate Go Training Series.
+**Erik St. Martin:** Alright... So with that, thank you everybody for being on the show today. Huge thank you to our listeners, both live and everybody who will be listening to this when this episode is released; a giant thank you to our sponsors for today's episode - Toptal and the Ultimate Go Training Series.
 
-Definitely share this show with fellow Go programmers, friends, family, co-workers... You can subscribe by going to GoTime.fm. We are @GoTimeFM on Twitter, and if you wanna be on the show, have suggestions for guests or topics, GitHub.com/GoTimeFM/ping.
+Definitely share this show with fellow Go programmers, friends, family, co-workers... You can subscribe by going to GoTime.fm. We are on [Twitter](https://twitter.com/GoTimeFM), and if you wanna be on the show, have suggestions for guests or topics, [ping](https://github.com/GoTimeFM/ping) us.
 
-And we have two Slack channels - there's a Changelog Slack, which we are \#GoTime in, and if you're on GopherSlack, it's \#GoTimeFM. The messages actually cross back and forth, so it doesn't really matter which one you're in. It's kind of a shared channel. With that, we'll see you guys next week. Bye, everybody!
+And we have two Slack channels - there's a Changelog Slack, which we are \#GoTime in, and if you're on GopherSlack, it's [GoTimeFM](https://gophers.slack.com/messages/GoTimeFM). The messages actually cross back and forth, so it doesn't really matter which one you're in. It's kind of a shared channel. With that, we'll see you guys next week. Bye, everybody!
 
 **Carlisia Pinto:** Bye!
 
