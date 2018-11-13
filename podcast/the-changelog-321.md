@@ -14,7 +14,7 @@ So it kind of started as a project that was by developers for developers. At the
 
 An application like WordPress, if you want a photo gallery, there might be 70 or 80 different photo galleries you can pick from, and you pick which one is closest to what you need. In Drupal, you will build your photo gallery up, and you build it by using an image field module that will add images, support to upload things, you'll add a view, which displays images in a grid or in a listing, or something like that, you add a pager, and you add these other things... So you really customize it to be exactly what you want. For the most part, all of that is done without writing any code. But if you want to take what's there and then extend the crap out of it and make it really custom, or have it integrate with some external system, or you want it to output all of the data as JSON, so you can use a decoupled front-end, or a mobile app, or something like that in front of it, you can also do all of those things.
 
-I like to say that Drupal is for -- if you were a VCR kid back in the day, \[unintelligible 00:05:23.20\] and they didn't know how to fix it, so they'd call you over... And every VCR is kind of different, but you can kind of figure it out, like "Okay, well I'll press buttons, and there, it's fixed." So if you're okay tinkering with things and you kind of get a charge out of that, and kind of figuring out how stuff works, I think Drupal is a really great solution. It is not at all a good solution if you want a website up and running in five minutes that you never have to touch again. That is not what Drupal is for. For that, lots of other things - WordPress, Squarespace, other types of things would be a better fit.
+I like to say that Drupal is for -- if you were a VCR kid back in the day, you know your parents' VCR would blink twelve and they didn't know how to fix it, so they'd call you over... And every VCR is kind of different, but you can kind of figure it out, like "Okay, well I'll press buttons, and there, it's fixed." So if you're okay tinkering with things and you kind of get a charge out of that, and kind of figuring out how stuff works, I think Drupal is a really great solution. It is not at all a good solution if you want a website up and running in five minutes that you never have to touch again. That is not what Drupal is for. For that, lots of other things - WordPress, Squarespace, other types of things would be a better fit.
 
 **Jerod Santo:** Sure. I have just a little bit more experience Drupal than Adam. I had one experience on a client contract where I was basically extending an existing Drupal installation; this was probably in the 2010 range... And my takeaway then -- first of all, I had a successful install and extension, so I accomplished what I needed to accomplish... And everything seemed like it was pretty well organized, it wasn't that hard to understand, but there was so much there. I was like, "Wow, this is like you walk into a library and you see all those books." It felt that way. It felt like, "Wow, this place has a lot of books."
 
@@ -30,9 +30,9 @@ I'm always curious or I'm always interested in the architecture of things and wh
 
 **Angela Byron:** Yeah, yeah. So PhpNuke was this very monolithic -- it was driven by one developer, monolithic, did all the things built-in, and it was kind of a big mess... No offense to the people who -- I'm sure they worked hard on it... I used it, it worked, it was THE thing to use back then, but it was really large and clunky and insecure and all of these different kinds of things. So Drupal came in to be the opposite of that. We wanted something that was modular, and flexible, something that had a really solid architecture, something that was well-documented, something that was easily extensible by developers...
 
-I remember PhpNuke had these websites, like PhpNuke hacks, and by that what they meant is "Find this file, go to line 119, and start editing it, and then make it say something different than what it does." And then God forbid you use two different hacks and they collide with each other, and the god forbid again, \[unintelligible 00:09:16.14\]
+I remember PhpNuke had these websites, like PhpNuke hacks, and by that what they meant is "Find this file, go to line 119, and start editing it, and then make it say something different than what it does." And then God forbid you use two different hacks and they collide with each other, and the god forbid again, you upload...
 
-**Adam Stacoviak:** \[unintelligible 00:09:18.01\] You've gotta act accordingly.
+**Adam Stacoviak:** And 119 is no longer the hack line. You've gotta act accordingly.
 
 **Angela Byron:** Right, yeah. And then a security update comes out, and then you have to figure out how to get the security update with your hacks... It's just kind of a mess.
 
@@ -52,7 +52,7 @@ Early days, back in 2004 I wanna say, Howard Dean ran for president, and that di
 
 **Angela Byron:** He did some kind of a scream, or something... It's really funny how our threshold for what gets you throw out of politics has shifted, let's say, over the last several years...
 
-**Jerod Santo:** I know... I was just thinking, Howard Dean is rolling in his grave. Or maybe he's still alive \[unintelligible 00:11:31.19\]
+**Jerod Santo:** I know... I was just thinking, Howard Dean gotta be rolling in his grave. Or maybe he's still alive, but he's gotta be angry.
 
 **Adam Stacoviak:** He ran for presidency of the United States?
 
@@ -136,7 +136,7 @@ I ended up getting a job out of that, which I thought -- you know, I figured onc
 
 **Jerod Santo:** Wow...
 
-**Adam Stacoviak:** \[unintelligible 00:18:54.04\] for sure.
+**Adam Stacoviak:** In the trenches, for sure.
 
 **Angela Byron:** Yeah, so I try really hard to help other people who are facing that sort of impostor syndrome wall, because it definitely held me back, and I think it holds back a lot of people that would otherwise be really into what we're doing, but don't think they're good enough to contribute.
 
@@ -178,7 +178,7 @@ Part of it too is just there's such smart people there and I learn new things al
 
 So constantly learning new things, and then... I think the technical problem is really interesting as well, because you're building for multiple audiences. Every time you build a feature, you have to think not only about "How are we gonna write the APIs so that developers can extend this where they need to, and the classes and objects and stuff are all named in a way that makes sense to people etc.?", all those problem space... But then you're also thinking about "How would a non-technical content author use this feature?"
 
-\[00:24:19.15\] They're not gonna know anything about modules, or functions, or any of that stuff. They're gonna \[unintelligible 00:24:23.00\] with an interface, so how do we build an interface around this brilliant piece of technology, so that they understand it and they can use it? And I find that dichotomy really interesting and challenging, and I don't know if that comes up in other projects that are based around just one of those audiences.
+\[00:24:19.15\] They're not gonna know anything about modules, or functions, or any of that stuff. They're gonna be presented with an interface, so how do we build an interface around this brilliant piece of technology, so that they understand it and they can use it? And I find that dichotomy really interesting and challenging, and I don't know if that comes up in other projects that are based around just one of those audiences.
 
 **Break:** \[00:24:47.18\]
 
@@ -188,7 +188,7 @@ So constantly learning new things, and then... I think the technical problem is 
 
 **Jerod Santo:** \[laughs\]
 
-**Angela Byron:** I would say the fourth point is actually my employer and my job. I work for Acquia, and Acquia is a startup that is co-founded by Dries, the BDFL or project lead of Drupal. So the BDFL is my boss. No pressure. But I somehow lucked into \[unintelligible 00:26:28.23\] I lucked in, and I also worked my butt off for many, many years... But I have this job where I basically get paid full-time to make the community awesome. That involves flying around the world to sprints, and sitting with developers, and getting whiteboards, and "Let's figure out how we're gonna solve this really tough problem", or it involves talking to the different initiative teams, trying to figure out what they're trying to build, trying to communicate that in a way that humans can understand it, and trying to figure out how to unblock them from being awesome. Sometimes that's promoting the work that they're doing, sometimes it's we plan a sprint for them in some locations, sometimes it's "Let's fund this expert to just bang out this piece of code that's blocking everybody", or whatever it is.
+**Angela Byron:** I would say the fourth point is actually my employer and my job. I work for Acquia, and Acquia is a startup that is co-founded by Dries, the BDFL or project lead of Drupal. So the BDFL is my boss. No pressure. But I somehow lucked into, well I didn't luck, I lucked in, and I also worked my butt off for many, many years... But I have this job where I basically get paid full-time to make the community awesome. That involves flying around the world to sprints, and sitting with developers, and getting whiteboards, and "Let's figure out how we're gonna solve this really tough problem", or it involves talking to the different initiative teams, trying to figure out what they're trying to build, trying to communicate that in a way that humans can understand it, and trying to figure out how to unblock them from being awesome. Sometimes that's promoting the work that they're doing, sometimes it's we plan a sprint for them in some locations, sometimes it's "Let's fund this expert to just bang out this piece of code that's blocking everybody", or whatever it is.
 
 My job is basically to find the toughest problems for Drupal and solve them... And it's amazing. And Acquia was really supportive of me as well when I went through a crappy time... So yeah, I think it's that combination of the people, the learning new things all the time, the - whatever my third point was... \[laughter\]
 
@@ -392,7 +392,7 @@ There's also a PHP tool called composer, which is kind of similar to Npm or some
 
 \[01:00:15.15\] Again, everything in Drupal pretty much has both a developer-friendly way - we have a tool called Drush, which is a Drupal shell that can automate all of this stuff; you can run it in shell scripts, and it can enable modules for you, or update configuration, or all kinds of things. They have commands for just about everything. So you can go that route, or you can even just click everything together yourself if you wanna do that... So it really caters to both audiences.
 
-**Adam Stacoviak:** I'd say many audiences. There really isn't an audience that Drupal doesn't cater to. \[unintelligible 01:00:44.07\] wants to get as deep as a core committer, or someone who wants to be a site builder... It seems like the type of developer that is catered to from Drupal is to some degree infinite.
+**Adam Stacoviak:** I'd say many audiences. There really isn't an audience that Drupal doesn't cater to. I mean everyone from \[unintelligible 01:00:44.07\] wants to get as deep as a core committer, or someone who wants to be a site builder... It seems like the type of developer that is catered to from Drupal is to some degree infinite.
 
 **Angela Byron:** Yeah, it's interesting, because Drupal 8 was our big pivot point as a project. This is where we started embracing all these modern best practices with using object-oriented PHP, prior to that it was all procedural language, mostly because PHP just wasn't very good at object-oriented programming until about that time. It started adopting external tools like Composer, and all these -- I could list a bunch of PHP libraries that you don't know... Symphony is one of them; it's like an underlying framework for starting HTTP kernels for applications, and stuff like that... But we shifted focus from Drupal from being kind of a "not invented here" sort of attitude to "Hey, let's get off the island and embrace the best solution for every problem that we have." So some of the stuff does make sense for us to do ourselves, like the whole entity system that I talked about, but some stuff, it's like "Let's just use Guzzle, because it's really good at parsing web service data, and doing that kind of thing, so we'll just let that handle it.
 
@@ -446,7 +446,7 @@ Dries has always been really great at -- the phrase is "skating to where the puc
 
 \[01:12:05.24\] I think we're right now in a pendulum swing where a lot of people are hiring Javascript developers, Javascript developers wanna build a front-end in exactly the way that they wanna build it, they wanna talk to a back-end that gives it exactly the information that they want out of it, and these kinds of things, and they would look at something like Drupal and say "Oh, that's too bloated for what I want." So that's an interesting area that we find ourselves in, because there's trade-offs. If you build a custom thing, you definitely can't get a non-developer site builder to click around in an admin interface and add additional columns and add additional blocks. That requires talking to a developer and getting them to change some code, and then now you've got the block where you want it on the page.
 
-It also issues a lot of the advantages of Drupal, because Drupal's Steam system supports -- I think we have AA rating accessibility markup; not AAA, but AA rating accessibility markup, so we've already solved all those hard problems. You get something out of the box in Drupal that is very useful on a screen reader, even the dynamic bits and pieces that we have, like the toolbar, and whatever - they're all vetted by the accessibility team before they go out. So you throw out all of that, \[unintelligible 01:13:18.10\]
+It also issues a lot of the advantages of Drupal, because Drupal's Steam system supports -- I think we have AA rating accessibility markup; not AAA, but AA rating accessibility markup, so we've already solved all those hard problems. You get something out of the box in Drupal that is very useful on a screen reader, even the dynamic bits and pieces that we have, like the toolbar, and whatever - they're all vetted by the accessibility team before they go out. So you throw out all of that, you throw out the themability...
 
 **Jerod Santo:** That's excellent.
 
@@ -502,13 +502,13 @@ If you're looking for online resources, I'd say Drupal Planet is probably the wi
 
 **Angela Byron:** Oh, wow...!
 
-**Adam Stacoviak:** Hey, do it for the \[unintelligible 01:20:03.05\], do it for the greater community, and just make this conversation easier to read. Likewise, our show notes are also open source, so if we've said that has a link, that you're like "It needs to be in the show notes", go to the show, and there's a link that says "Edit on GitHub." You can fork it, add it back, get a PR really easy. Easy way to get into open source. We are kind, we are friendly, we appreciate your support, obviously, for our show notes and transcripts. And likewise, again, these links will be in the show notes, so check that.
+**Adam Stacoviak:** Hey, do it for the LOLs, do it for the greater community, and just make this conversation easier to read. Likewise, our show notes are also open source, so if we've said that has a link, that you're like "It needs to be in the show notes", go to the show, and there's a link that says "Edit on GitHub." You can fork it, add it back, get a PR really easy. Easy way to get into open source. We are kind, we are friendly, we appreciate your support, obviously, for our show notes and transcripts. And likewise, again, these links will be in the show notes, so check that.
 
 Angie, any closing thoughts? It's been such an honor to talk to you... You've got so much energy, you got me fired up for a Wednesday... I love it, way more than I expected, and I love that, too...
 
 **Jerod Santo:** Ditto.
 
-**Adam Stacoviak:** ...so help us close by just sharing any final thoughts around what you've experienced here on the show, or \[unintelligible 01:20:54.20\] need to know more about.
+**Adam Stacoviak:** ...so help us close by just sharing any final thoughts around what you've experienced here on the show, or parts of your community that we just need to know more about.
 
 **Angela Byron:** I really like the format of this show. You always get kind of stressed out about any public speaking kind of thing, but I just wanna say you guys make it really literally like a conversation. It's like I'm talking to old friends, even though we've never met, and I love that very much.
 
