@@ -176,13 +176,13 @@ If you write a Lambda function that does some process where it finds some matche
 
 **Christopher Hiller:** It's hard to say... I need to look at this Lambda API thing. I'll check it out here.
 
-**Kevin Ball:** I think we're at a good spot to take another quick break, and then we come back, we will dive a little bit deeper into this concept of architecture - what does it look like to implement an application using serverless, and do you \[unintelligible 00:44:57.11\] how does one architect to take advantage of this? We'll see you after the break!
+**Kevin Ball:** I think we're at a good spot to take another quick break, and then we come back, we will dive a little bit deeper into this concept of architecture - what does it look like to implement an application using serverless, and do you build your whole application how does one architect to take advantage of this? We'll see you after the break!
 
 **Break:** \[00:45:10.03\]
 
 **Kevin Ball:** Okay, welcome back, everyone... Back on JS Party, talking about serverless. I wanna explore with you, Jeremy, the question of how do we use this in the broader ecosystem of product development? If we're starting the flood in serverless, is this something that is like you're gonna rearchitect your system entirely to take advantage of serverless, is this something where you're gonna architect something that you have your standard application but it's calling out for little pieces? How does this play into the way that we fully build applications?
 
-**Jeremy Daly:** First of all, I would highly suggest \[unintelligible 00:47:17.26\] version 2 syndrome, and saying "Hey, let's just rewrite our whole application." Because chances are most of your application is probably running just fine, or it's at least running.
+**Jeremy Daly:** First of all, I would highly suggest about version 2 syndrome, and saying "Hey, let's just rewrite our whole application." Because chances are most of your application is probably running just fine, or it's at least running.
 
 An important thing to remember with serverless, or any technology you want to integrate in slowly - it's not an all or nothing proposition. It's not like everything has to be serverless, or vice versa. The way that I would suggest, especially if you're a new team and you're looking at this, whether you're already running microservices, or you're running a monolith, or whatever you're doing, look at what parts of your application that you wanna improve, pick a small part of it - maybe it's an ETL task, maybe it's some sort of processing task - and then you can build out a serverless or a small serverless microservice or application that handles that piece of your system. Then using something like the strangler pattern, where you would maybe use API Gateway to send most of your traffic -- most of your API traffic goes to your old monolith, or your other microservices, and then you take one route and you route that into the serverless application that you built.
 
