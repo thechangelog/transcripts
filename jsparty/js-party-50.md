@@ -76,7 +76,7 @@ So I think it's interesting, because you have to exercise this whole other part 
 
 **Nick Nisi:** Or it's often the case where you're committing on a project and the tests aren't -- not all of them pass, and people just don't even rely on it at all... That's another problem.
 
-**Jerod Santo:** Yeah. \[unintelligible 00:17:44.24\] "Well, that one's been failing for months. Just leave it."
+**Jerod Santo:** Yeah. It's like outdated docs, tests that don't pass, you just ignore them. "Well, that one's been failing for months. Just leave it."
 
 **Safia Abdalla:** \[laughs\] "It's just a flake. A ten-month-long flake", and then there's the case where although your coverage number might be pretty high, your tests are actually not a good reflection of the intricacies of your API, because I think that's sometimes where it might be at odds - you might be covering lines of code in branch statements, but you're not really getting at like "I don't know how I feel about that statement that tests our documentation, because I don't think--" There's things that are in people's brains that aren't captured by tests, even good coverage tests. I'm not explaining myself very well right now, but hopefully you all and everyone listening understands my jumbled words.
 
@@ -120,7 +120,7 @@ Just looking at the React style guide -- and I think the most popular project th
 
 **Safia Abdalla:** I can provide a little bit of insight in that... So it's really funny that you mentioned that, because the open source project that I maintain is actually a project called Interact, which is -- we call it an interactive notebook app, but the idea is that you can... It's a desktop application, and there's also a web app version, and you can build literate programming documents. You can have notes interspersed with executable code cells that you can run as code that you would usually run. The way that it's mostly used actually is not by programmers, but by data scientists and analysts to document their analytics code. So when you're doing some kind of research and you've written up some script to do some math or something like that, you would use literate programming to explain how you derived the math, how you derived the parameters for the particular code that you're writing, and just kind of like -- it's almost like writing a proof for math problems, and... Did I hear a few people shudder, because of the fear?
 
-**Jerod Santo:** No... That was just \[unintelligible 00:27:18.06\]
+**Jerod Santo:** No... That was just an interesting comparison.
 
 **Nick Nisi:** But now that you mention it...
 
@@ -128,7 +128,7 @@ Just looking at the React style guide -- and I think the most popular project th
 
 **Safia Abdalla:** Yeah... So I think the context I've seen it used in the most is not to document APIs, but it's more to document references or situations where you're actually using a particular library, or... Here's a good way to put it - where most of the effort to come up with a particular bit of code is behind the scenes, in situations where you're doing machine learning, and you've done a lot of parameter tuning beforehand, and you've figured out what parameters you need for a particular model and now you need to write some plain text in English to explain that to whoever is reading it... And things like that.
 
-\[00:28:06.08\] I think it's got \[unintelligible 00:28:03.08\] I'm a big advocate for it, obviously, because I work on this open source project, but I think it's a really interesting paradigm... Not just in the example I gave you, but also in early education, teachers really like to use it when they're teaching kids how to code, because it allows you to make a worksheet that explains what a particular piece of code is, and have your students fill in the code that they need to program, and all that.
+\[00:28:06.08\] I think it's got a time or a place. I'm a big advocate for it, obviously, because I work on this open source project, but I think it's a really interesting paradigm... Not just in the example I gave you, but also in early education, teachers really like to use it when they're teaching kids how to code, because it allows you to make a worksheet that explains what a particular piece of code is, and have your students fill in the code that they need to program, and all that.
 
 It's one of those things where I think it's got applications outside the world of engineering and more in the world of where other disciplines start to interact with software.
 
@@ -210,7 +210,7 @@ And Stripe always sweat the details... They do this little thing where they'll i
 
 I love Stripe's docs, I always have, and I think they really drilled it with a developer-focused API, and I think that a lot of different companies have taken Stripe's example and run with it, and that's awesome, too.
 
-**Safia Abdalla:** I guess following on with Stripe, one of the documentations that I wanted to mention was actually Twilio's, which kind of adopts similar \[unintelligible 00:45:34.21\] You've got your copy-paste snippets for a lot of languages, it integrates them with your personal key codes... And one thing I really like about it - I think Stripe does this, too - is it's goal-oriented documentation. So when you head over to their homepage, one of the first things you see is it says "Hey, do you wanna learn how to make phone calls with Twilio? Do you wanna learn how to send text messages? Do you wanna learn about WebRTC?" So it comes in catering to what the end goal is, and I really dig that.
+**Safia Abdalla:** I guess following on with Stripe, one of the documentations that I wanted to mention was actually Twilio's, which kind of adopts similar philosophy to Stripe. You've got your copy-paste snippets for a lot of languages, it integrates them with your personal key codes... And one thing I really like about it - I think Stripe does this, too - is it's goal-oriented documentation. So when you head over to their homepage, one of the first things you see is it says "Hey, do you wanna learn how to make phone calls with Twilio? Do you wanna learn how to send text messages? Do you wanna learn about WebRTC?" So it comes in catering to what the end goal is, and I really dig that.
 
 **Nick Nisi:** Yeah, and one that I really like is Chai. I was just trying to think of one, and one that I ended up using quite a lot because we use Chai for a lot of our assertions is that, and I just appreciate that it's really easy to search for the different types of assertions, because that seems to be always the thing that I'm forgetting about... You know, is there something more specific than strict equal that I can use? And it makes it really easy to find that.
 
