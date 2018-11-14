@@ -176,7 +176,7 @@ If you write a Lambda function that does some process where it finds some matche
 
 **Christopher Hiller:** It's hard to say... I need to look at this Lambda API thing. I'll check it out here.
 
-**Kevin Ball:** I think we're at a good spot to take another quick break, and then we come back, we will dive a little bit deeper into this concept of architecture - what does it look like to implement an application using serverless, and do you build your whole application how does one architect to take advantage of this? We'll see you after the break!
+**Kevin Ball:** I think we're at a good spot to take another quick break, and then we come back, we will dive a little bit deeper into this concept of architecture - what does it look like to implement an application using serverless, and do you build your whole application, how does one architect to take advantage of this? We'll see you after the break!
 
 **Break:** \[00:45:10.03\]
 
