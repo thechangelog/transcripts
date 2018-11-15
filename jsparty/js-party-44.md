@@ -48,7 +48,7 @@ I was scheduling interviews for one of these conferences, and the conference was
 
 **Nick Nisi:** I saw a tweet a little while back, I wish I could find it to attribute it correctly, but it said something along the lines of "I was really excited for humans to travel to Mars, until I realized the impact it would have on date parsing and time zones." \[laughter\]
 
-**Suz Hinton:** That's really good! There's also a comment in our Slack, which is from \[unintelligible 00:07:16.21\] saying that I recently learned of Julian format, which is you have your four digits for the year, and then you just have the amount of days in the year. They said that today would be 2018, 256, because we're at our 256th day, or 257th day... Interesting.
+**Suz Hinton:** That's really good! There's also a comment in our Slack, which is from Rouzbeh saying that I recently learned of Julian format, which is you have your four digits for the year, and then you just have the amount of days in the year. They said that today would be 2018, 256, because we're at our 256th day, or 257th day... Interesting.
 
 **Jerod Santo:** Time is really hard, especially when you're trying to organize a live show. Maybe, Suz, you can talk about how you do it with Twitch, and stuff... For instance this show, the question is always -- you don't wanna be so USA-centric, even though we are in the USA, so the timing of the actual recording kind of has to be around the people who are gonna be on the show... That being said, we want as many people as possible to listen live, and we want to message to them in a way that, you know, comes to them, as opposed to come to us.
 
