@@ -8,7 +8,7 @@
 
 **Erik St. Martin:** Would you like to give everybody a little background about yourself?
 
-**Nate Finch:** Sure. I've been doing development for 16 years now, since graduating from college about four and a half years ago, right around Go 1.01, or something like that. I started looking at Go mainly as a way to not be pigeonholed as a Windows developer, because at that time I was a Windows developer, and I wanted to be more than that. \[unintelligible 00:01:36.14\] community, and about six months later I saw Gustavo posting on Twitter that there was an opening for a Go developer at Canonical, working on Juju. I've interacted with Gustavo for a bit, and we sort of knew each other; it eventually worked out, and I started working on Juju. I've been there for just about three and a half years. I've done a bunch of Go stuff on the side, and I'm a big fan of Go.
+**Nate Finch:** Sure. I've been doing development for 16 years now, since graduating from college about four and a half years ago, right around Go 1.01, or something like that. I started looking at Go mainly as a way to not be pigeonholed as a Windows developer, because at that time I was a Windows developer, and I wanted to be more than that... And I met Go, and then I went into the community, and about six months later I saw Gustavo posting on Twitter that there was an opening for a Go developer at Canonical, working on Juju. I've interacted with Gustavo for a bit, and we sort of knew each other; it eventually worked out, and I started working on Juju. I've been there for just about three and a half years. I've done a bunch of Go stuff on the side, and I'm a big fan of Go.
 
 **Erik St. Martin:** So you were writing production Go code before most people knew about Go.
 
@@ -152,7 +152,7 @@ Yes, you have to do "if error =/= nil, blah", but that's good, because that mean
 
 People always talk about, "Oh, it makes my happy path look all messy", and I'm like "This is programming. There is no happy path."
 
-**Erik St. Martin:** Yeah, especially when you write network software, right? The amount of things that can go wrong is just... Anybody who's supported the applications \[unintelligible 00:26:33.05\], the odd things that start happening to every application when different resources start hitting their level of saturation, when the out-of-memory killer starts going, or when you run out of disk space and the network drops, or somebody decides to take down a link and bring it back up, or assign a new IP address to it... Random stuff happens on the machine. Like you said, there's no happy path.
+**Erik St. Martin:** Yeah, especially when you write network software, right? The amount of things that can go wrong is just... Anybody who's supported applications in prod is aware of stuff like that, the odd things that start happening to every application when different resources start hitting their level of saturation, when the out-of-memory killer starts going, or when you run out of disk space and the network drops, or somebody decides to take down a link and bring it back up, or assign a new IP address to it... Random stuff happens on the machine. Like you said, there's no happy path.
 
 **Carlisia Pinto:** That's very interesting, yeah.
 
@@ -210,7 +210,7 @@ The difference with Dave's is that he actually grabs the stack trace the first t
 
 **Carlisia Pinto:** Yeah, it is.
 
-**Nate Finch:** Okay, good. Dave and I have been working on this for a long time, being able to compile code as a plugin that can be loaded by other Go code. The other main application loads it using -- there's a new plugin package in the standard library \[unintelligible 00:39:57.26\]. It basically works like plugins, so we can load new data, you can call functions and stuff... It's very interesting.
+**Nate Finch:** Okay, good. Dave and I have been working on this for a long time, being able to compile code as a plugin that can be loaded by other Go code. The other main application loads it using -- there's a new plugin package in the stdlib on [Tip](https://tip.golang.org/), and... It basically works like plugins, so we can load new data, you can call functions and stuff... It's very interesting.
 
 **Erik St. Martin:** \[00:40:09.14\] So this is basically loading it as a dynamic library, like a DLL or an .so file, for other languages.
 
