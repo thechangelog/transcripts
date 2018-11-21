@@ -52,7 +52,7 @@ That really spoke to the power of the language. You can work on some pretty hard
 
 **Erik St. Martin:** It was awesome for us, because we were doing some service discovery stuff in distributed systems, and when you looked at that, if you did Zookeeper, you would have to resync periodically; if you lost your session, you'd have to reconcile the differences. And you see that mirrored now in things like Etcd, or whenever you get a listing of a path, you get back a specific version and that way you can start your watch from that point on.
 
-**Blake Mizerany:** Right. There's always that chance that you'll miss the window. People offline for too long will have to resync, but it's more of a \[unintelligible 00:07:47.10\] But it's still pretty cool.
+**Blake Mizerany:** Right. There's always that chance that you'll miss the window. People offline for too long will have to resync, but it's more of a performance optimization. But it's still pretty cool.
 
 **Erik St. Martin:** So with that project, how much Ruby baggage do you feel like you brought along? Because that kind of turns out to be the thing whenever you adopt a new language.
 
@@ -84,7 +84,7 @@ And like you said, I think your point is so good, because it ends up not being t
 
 **Erik St. Martin:** I think you hit on it a little bit at a talk you did - I believe it was a DotGo a couple years ago... You talked about pre-determinism. When you attack a problem and you think you already know what you need, and for most of us, especially when you come from Python, Django or Ruby with Rails, you feel like "Okay, I need to build a web app... I need a framework, because that's what I'm used to having when I build one", instead of kind of starting to build it and figuring out what you need as you go along.
 
-**Blake Mizerany:** On the other side of that, I wouldn't recommend implementing your own database driver or \[unintelligible 00:15:08.26\] Those types of things aren't something you just kind of throw together pretty quickly and then be done with it; they require a little bit of thought. The nice thing about those is that they have very specific problems that they solve, rather than trying to solve every single problem.
+**Blake Mizerany:** On the other side of that, I wouldn't recommend implementing your own database driver, or cryptography library, or bucketed rate limiting. Those types of things aren't something you just kind of throw together pretty quickly and then be done with it; they require a little bit of thought. The nice thing about those is that they have very specific problems that they solve, rather than trying to solve every single problem.
 
 **Erik St. Martin:** That's a fair point.
 
@@ -354,7 +354,7 @@ I think that we owe them a ton of gratitude for all the things that they're doin
 
 **Carlisia Pinto:** I wanna give a shout out to coffee... Nah, I'm just kidding. I'm not, but... \[laughter\]
 
-**Erik St. Martin:** \[unintelligible 00:48:17.22\] delightful alternative, Red Bull.
+**Erik St. Martin:** And its delightful alternative, Red Bull.
 
 **Carlisia Pinto:** It's amazing what two cups of coffee can do, I tell you. Anyway... I wanna give a shout out to this repo that is called Stability Badges. Basically, it gives you SVG badges for Go projects, but I can't see why this couldn't be used for any project. The badges are things like Experimental, Unstable, Stable, Frozen and Deprecated. It would be super nice if project maintainers could add badges to their repo, so people would know "Hey, this is deprecated" or "This is active, stable" or "Experimental."
 
