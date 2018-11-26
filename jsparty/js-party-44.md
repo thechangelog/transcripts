@@ -1,4 +1,4 @@
-**Suz Hinton:** Today you're listening to JS Party, which is a weekly celebration of everything Javascript. I'm Suz Hinton, I'm your host for this episode, and I'm very lucky to be joined by some fantastic panelists... So let's say hello to all of them. First we have Kball. Hey, KBall, how's it going?
+**Suz Hinton:** Today you're listening to JS Party, which is a weekly celebration of everything Javascript. I'm Suz Hinton, I'm your host for this episode, and I'm very lucky to be joined by some fantastic panelists... So let's say hello to all of them. First we have KBall. Hey, KBall, how's it going?
 
 **Kevin Ball:** Going good. Excited to talk about failure.
 
@@ -20,7 +20,7 @@
 
 If you aren't in the community Slack or the livestream, what are you doing? You should totally come in. You'll be able to find the different links on our website in order to check that out. So without further ado, let's get started about some Javascript failures and gotchas.
 
-I'm seeing that Kball had a weird time/date parsing issue with my home country, by the sounds of it... Do you wanna tell us a little bit about that?
+I'm seeing that KBall had a weird time/date parsing issue with my home country, by the sounds of it... Do you wanna tell us a little bit about that?
 
 **Kevin Ball:** Sure. I mean, it's not that crazy, but it's in that theme of "I've been doing this how long (...?) and I still f this up." I have a client right now that's based in Australia, and I don't know if you all know, but they do their days and months backwards over there...
 
@@ -66,7 +66,7 @@ So I have to be aware that not everyone is getting up at 8 AM to watch my stream
 
 **Jerod Santo:** Well, that kind of stinks that you have to do it at 8 AM. Does that change your mood, your content, the quality of the streams?
 
-**Suz Hinton:** I'm a little more sleepy, but I'm an early bird anyway; it's just that sometimes I'm hungry, because I didn't' have time to make breakfast, so yeah...
+**Suz Hinton:** \[laughs\] I'm a little more sleepy, but I'm an early bird anyway; it's just that sometimes I'm hangry, because I didn't have time to make breakfast, so yeah...
 
 **Jerod Santo:** So what was the overall consensus? Are you okay to move it, are you stuck at 8 AM?
 
@@ -298,9 +298,9 @@ I thought they were gonna hate me and be super angry and wanna sue me... So I fi
 
 **Suz Hinton:** Thanks for sharing that story. I feel like yours have been some of the scarier ones, Jerod... \[laughter\] Where you've had that moment, and you're like, "Oh, no...!"
 
-**Jerod Santo:** \[00:43:51.25\] Yeah... Yeah, I guess they have been. Those are both recent as well, and like Kball said, talking about the experience - we all still do it; this has been my job for my entire career, and I made that mistake in April or March of 2018. This was not like the battle days, when I used to stink at this. This was very, very recent. So mistakes happen, and that's the issue with leverage... I mean, this is a concept that I bring up a lot and I think about a lot - the power of leverage and what we have as software developers - this is why it's kind of intimidating, because... Think about a popular open source project - the Linux Kernel, Npm... Think about something where you can write a little bit of code and substantially improve the lives of millions of people when that code gets deployed around the world. That's an amazing amount of leverage. The time spent versus the value produced is outstanding, and that's why it's so cool.
+**Jerod Santo:** \[00:43:51.25\] Yeah... Yeah, I guess they have been. Those are both recent as well, and like KBall said, talking about the experience - we all still do it; this has been my job for my entire career, and I made that mistake in April or March of 2018. This was not like the battle days, when I used to stink at this. This was very, very recent. So mistakes happen, and that's the issue with leverage... I mean, this is a concept that I bring up a lot and I think about a lot - the power of leverage and what we have as software developers - this is why it's kind of intimidating, because... Think about a popular open source project - the Linux Kernel, Npm... Think about something where you can write a little bit of code and substantially improve the lives of millions of people when that code gets deployed around the world. That's an amazing amount of leverage. The time spent versus the value produced is outstanding, and that's why it's so cool.
 
-On the other side, little mistakes are also leveraged, right? So one little mistake, Kball, can affect an entire business' future, or 150 people in the business... It's intimidating, for sure.
+On the other side, little mistakes are also leveraged, right? So one little mistake, KBall, can affect an entire business' future, or 150 people in the business... It's intimidating, for sure.
 
 **Suz Hinton:** And the multiplier effect is definitely very real.
 
@@ -348,7 +348,7 @@ So I think I would actually almost say start with one of these frameworks, but s
 
 As somebody who didn't major in CS because the first CS class I took bored the hell out of me, I think it's really important that we don't take our expert's view and say "Gosh, I wish I'd worked on fundamentals", but instead look back to like -- when I'm just starting in this, I want something that's actually gonna be really cool right away, that's gonna show me the power of what's possible here.
 
-**Suz Hinton:** I think someone who does a really good job of teaching Javascript fundamentals but also trying to keep it fun is Wes Bos; he has his JavaScript 30 series, and I think that you build these things that give you that instant gratification, but you are actually kind of learning the language itself, and I think that that is probably a really good mix to have. That can be very difficult to find on your own, but I think that's a really good point, Kball.
+**Suz Hinton:** I think someone who does a really good job of teaching Javascript fundamentals but also trying to keep it fun is Wes Bos; he has his JavaScript 30 series, and I think that you build these things that give you that instant gratification, but you are actually kind of learning the language itself, and I think that that is probably a really good mix to have. That can be very difficult to find on your own, but I think that's a really good point, KBall.
 
 **Nick Nisi:** Yeah, I agree with that. And that's also a good point that -- like, in a lot of those, the development environment is already kind of set up for you, and so I guess if you can abstract away from that and not have to think about that too much, then that's not too big of a deal... And I know that with tools like Create React app and others, that makes it really easy to at least get started.
 
@@ -356,7 +356,7 @@ As somebody who didn't major in CS because the first CS class I took bored the h
 
 \[00:56:03.26\] Things like Create React app, things like the view templates - these sorts of things are way better for beginners to start from, where you have something that's gonna work, so long as you can then, as you advance your knowledge, focus on different pieces and swap those things out... Because if it takes forever to get to something working, most people will bail.
 
-**Jerod Santo:** I would definitely echo that, Kball. I think when we did advice to yourself the first time, that was definitely my advice - get a real project. So I would just add my amen to your statement there. For me personally, that's what pushed me over the edge - having something that I wanted to see exist, and learning enough to get that into the world, and then kind of rinse and repeating. Sometimes that was my own project, sometimes it was client work, but it really aids in learning, because you kind of have to learn, you don't really have a choice; it's like, "I need this thing to exist", so I think that's powerful.
+**Jerod Santo:** I would definitely echo that, KBall. I think when we did advice to yourself the first time, that was definitely my advice - get a real project. So I would just add my amen to your statement there. For me personally, that's what pushed me over the edge - having something that I wanted to see exist, and learning enough to get that into the world, and then kind of rinse and repeating. Sometimes that was my own project, sometimes it was client work, but it really aids in learning, because you kind of have to learn, you don't really have a choice; it's like, "I need this thing to exist", so I think that's powerful.
 
 So I definitely would echo that, and I also am in agreement with pretty much everything you all have been saying. I will point to a very specific resource that I would probably point myself to today, which didn't exist back when I was learning this, which is freeCodeCamp. FreeCodeCamp has thousands of projects and a huge curriculum, it's all free, it's all in one place, and they have like a trail map. So if you're brand new to coding, they recommend you start at the beginning, but they even have certifications for certain things, which... You know, anybody can make up a certification, but this is pretty intensive training. The responsive web design certification requires at least 300 hours of effort, and so it's not something to balk at.
 
@@ -376,7 +376,7 @@ The secret for me was picking something that I was really excited about as the s
 
 So I'm still very affectionate about that library, and it still is up there on Npm, because it has a lot of things that even now I look at it and I know that "Oh, I've learned even more since then, so I would approach this project in a super-different way." I think that having a topic area that doesn't have to be just about learning the Javascript can really motivate you to keep with the project.
 
-**Kevin Ball:** Well, since we're pausing there, let me jump in with another couple of recommendations... One would be pick one area or one frameworks or something and go deep on it. I think early on I sort of jumped around a lot; I see a lot of folks who are like, "There's so much... How do I pick? What am I gonna do? I've gotta learn Vue and React and Angular, and this, and that, and all these things...", and you will get so much further if you pick one of those and go deep. The thing that is not always visible when you're getting started is how much getting that understanding will actually help you learn those other things later.
+**Kevin Ball:** Well, since we're pausing there, let me jump in with another couple of recommendations... One would be pick one area or one framework or something and go deep on it. I think early on I sort of jumped around a lot; I see a lot of folks who are like, "There's so much... How do I pick? What am I gonna do? I've gotta learn Vue and React and Angular, and this, and that, and all these things...", and you will get so much further if you pick one of those and go deep. The thing that is not always visible when you're getting started is how much getting that understanding will actually help you learn those other things later.
 
 If you go and you really deeply understand Vue, or you really deeply understand... Let's start with Vue - then when you go to pick up React sometime later, you're gonna learn it so much faster than if you had tried to do those both at the same time, just at a beginner level.
 
@@ -396,10 +396,10 @@ Then the last one was motivation, like "Is this something that's particularly ex
 
 **Suz Hinton:** \[laughs\] I don't think it's ever as simple as naming a framework.
 
-**Jerod Santo:** See, actually he did name a framework, but it's his own framework, called The Three Mo's. Now I've gotta go learn the Three Mo's? Come on, Kball, this is too hard.
+**Jerod Santo:** See, actually he did name a framework, but it's his own framework, called The Three Mo's. Now I've gotta go learn the Three Mo's? Come on, KBall, this is too hard.
 
 **Kevin Ball:** I know, right?
 
-**Suz Hinton:** I wanted to thank everyone for sharing all of their stories today; a special shout-out to roberttables, David Poindexter  for calling in and sharing his. I know that takes a lot of guts, so we definitely very much appreciate it.
+**Suz Hinton:** I wanted to thank everyone for sharing all of their stories today; a special shout-out to roberttables, David Poindexter, for calling in and sharing his. I know that takes a lot of guts, so we definitely very much appreciate it.
 
 Thanks for listening to JS Party, we hope that you've enjoyed it as much as we did producing it, and we will catch you next time.
