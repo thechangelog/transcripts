@@ -290,7 +290,7 @@ There are also ways to forward reports from people, from one server to another. 
 
 **Jerod Santo:** One thing that always comes up in my mind is how do I use this from my phone? Because that's usually where I'm socializing.
 
-**Eugen Rochko:** Oh, yeah, for some reason I get a lot of questions like "Why isn't Mastodon on the app store?" and it's really weird, because there are like a million apps for Mastodon on every app store... They're just not called Mastodon, because they are developed by third-party developers.
+**Eugen Rochko:** \[45:23\] Oh, yeah, for some reason I get a lot of questions like "Why isn't Mastodon on the app store?" and it's really weird, because there are like a million apps for Mastodon on every app store... They're just not called Mastodon, because they are developed by third-party developers.
 
 Mastodon has a principle - API first, and... Yeah, that's essentially it - API first. \[laughter\]
 
