@@ -322,7 +322,7 @@ And one really cool trick that you can do with that is combine that with regular
 
 One example that I think of is the ability to, for example, get the month, day and year from a date string. If you had 2018-06-14, you could match those, match the first four numbers to this variable, so capture that. Then the next two in between the dashes as the day. And you can actually -- if you want to skip the first value in the array, or skip the first n number of values, you can just put commas inside of that destructuring, so it will just skip that and give you the next item in there.
 
-So you can say, for example, const \[unintelligible 00:46:34.20\] and then call that function, and you'll get back three variables - the year, the month and the day that just match exactly what those are. It's a pretty cool way to use those and make your code more accessible just by making it easier to read.
+So you can say, for example, const [, year, month, day ] and then call that function, and you'll get back three variables - the year, the month and the day that just match exactly what those are. It's a pretty cool way to use those and make your code more accessible just by making it easier to read.
 
 **Jerod Santo:** That's a spectacular feature. What would happen in the case of a non-match, or maybe a partial match, in this case? Would you have undefined's in those variables, or what would they end up as?
 
