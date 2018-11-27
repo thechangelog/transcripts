@@ -104,7 +104,7 @@ You always have to compete with where the screen was, and I like now how it's be
 
 **Adam Stacoviak:** Right. Almost zero. It's almost reduced to zero for the Touch ID if you've authenticated... Originally you have to start with your password, and then you can use Touch ID from that point on, similar to when you restart a phone, with similar -- like, now it's Face ID, where before it was Touch ID...
 
-The cool thing on the developer front too is the accessibility. $1,200. $1,199 is the starting price. Most developers, or even brand new people who want to come into the software world - that's an approachable price. I mean, several thousand dollars for a MacBook Pro is not, whereas this is like, it's pretty much all you need, and you get the \[unintelligible 00:13:58.01\] and I totally agree. I've embraced the touch bar. I don't love it, but I think it's kind of cool. It has future opportunities...
+The cool thing on the developer front too is the accessibility. $1,200. $1,199 is the starting price. Most developers, or even brand new people who want to come into the software world - that's an approachable price. I mean, several thousand dollars for a MacBook Pro is not, whereas this is like, it's pretty much all you need, and you get the tactile escape key, as you said you need and I totally agree. I've embraced the touch bar. I don't love it, but I think it's kind of cool. It has future opportunities...
 
 **Jerod Santo:** It's taken me about a year, but I've started to find specific use cases. I like the emoji picker... There's certain things where -- I like if you're watching YouTube and you go into full-screen mode, you still have access to the scrubber via the touch bar.
 
@@ -240,7 +240,7 @@ What's the entry-level MacBook Pro price? I'm trying to grab it... Because we we
 
 **Tim Smith:** It's perfect.
 
-**Jerod Santo:** And actually, also a caveat - I'm chilling on 16 gigs of RAM on this machine as well, so I know what that feels like, and I can suffer it. There's times where I think \[unintelligible 00:26:36.14\] but for the most part, it's fine. It's not ideal, but it's fine. The mobility, the portability... The thing is as sexy as it'll get; I love the way it looks. I think it's an excellent developer device.
+**Jerod Santo:** And actually, also a caveat - I'm chilling on 16 gigs of RAM on this machine as well, so I know what that feels like, and I can suffer it. There's times where I think I'm swapping... I've seen it swap, but for the most part, it's fine. It's not ideal, but it's fine. The mobility, the portability... The thing is as sexy as it'll get; I love the way it looks. I think it's an excellent developer device.
 
 **Adam Stacoviak:** Tim, I think you asked in the notes of our doc, "Does the new MacBook Pro even have the T2 security chip, and it does. They're definitely bringing it home there to me. They didn't spare any expense. I would wanna scrutinize the profitability level of this machine for them, because they've put so much into it... And Apple is typically known for high margins, and that's what makes them a likable stock from the mainstream stock market arena... Not much of a developer conversation, for sure, but sustainability is, so in that case I would be curious to know what their margins are on this, because they really have put so much into it, and they've even given us way more by saying "Okay, you've definitely revolted against the touch bar. We'll take it away, but we'll still give you Touch ID." T2 security chip, decent RAM, decent CPU, all-day battery life, smaller, thinner, lighter, aluminum alloy - all these things crammed into this machine.
 
@@ -356,7 +356,7 @@ And I don't think -- we don't really need to upgrade to a this newest version of
 
 **Jerod Santo:** For sure.
 
-**Tim Smith:** Yeah. I also love that they talked about the \[unintelligible 00:39:02.12\] because that's a big deal, especially for me on my MacBook - it runs so hot sometimes, and if it's not properly aired and cooled, basically your machine is not going to last very long. I love that it also has four Thunderbolt 3 ports, 10 Gigabit Ethernet... I believe it has two USB-A ports as well, which is awesome to see. The I/O is just crazy cool, and like Adam said, the price of $799 to begin with is just wonderful. I was shocked to see them start at $799.
+**Tim Smith:** Yeah. I also love that they talked about the thermal flow because that's a big deal, especially for me on my MacBook - it runs so hot sometimes, and if it's not properly aired and cooled, basically your machine is not going to last very long. I love that it also has four Thunderbolt 3 ports, 10 Gigabit Ethernet... I believe it has two USB-A ports as well, which is awesome to see. The I/O is just crazy cool, and like Adam said, the price of $799 to begin with is just wonderful. I was shocked to see them start at $799.
 
 **Adam Stacoviak:** Well, if we rewind a little, it did start before at $499, so that's kind of terrible on that front...
 
@@ -854,7 +854,7 @@ And then after I bought the Mac mini, I would then go and change from Thunderbol
 
 **Adam Stacoviak:** We do.
 
-**Jerod Santo:** Come nerd out with us... Not just about Apple stuff, but about all things software, open source, developer - you know the kind of stuff that we talk about. Changelog.com/community... If you're listening to this on the Spotlight feed, which is Changelog.com/spotlight, realize that we have a Master feed. That's where you can get all of our shows. If you like this show, if you like any of our shows, you will probably like all of our shows, so definitely check changelog.com/master. It's nice, you can remove all those Changelog subscriptions out of your podcast app and just put one in your podcast app, and get all of or shows. That's almost too good to be true right there, so check that out. Closing thoughts, guys?
+**Jerod Santo:** Come nerd out with us... Not just about Apple stuff, but about all things software, open source, developer - you know the kind of stuff that we talk about. Changelog.com/community... If you're listening to this on the Spotlight feed, which is Changelog.com/spotlight, realize that we have a Master feed. That's where you can get all of our shows. If you like this show, if you like any of our shows, you will probably like all of our shows, so definitely check changelog.com/master. It's nice, you can remove all those Changelog subscriptions out of your podcast app and just put one in your podcast app, and get all of our shows. That's almost too good to be true right there, so check that out. Closing thoughts, guys?
 
 **Adam Stacoviak:** One feed to rule them all...
 
