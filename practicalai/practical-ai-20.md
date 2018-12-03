@@ -22,7 +22,7 @@ It was a really hopeful time for those of us who were involved in the internet's
 
 **Chris Benson:** Didn't it do that...?
 
-**Brett Gaylor:** \[unintelligible 00:03:48.28\] So yes, the internet did do this, but then we sort of saw a few cracks in the utopian landscape, and around 2013 I started thinking about the ways in which the business model of the internet was leading to an increasing amount of collection of personal data about people that use the internet, and sort of this creeping surveillance capitalism model that was beginning to emerge as the sort of de-facto... Especially since in that earlier moment that I described in the internet's evolution, it was like "Oh wow, and here's another great platform - Facebook. It's gonna encourage us to share everything, and connect all the people..."
+**Brett Gaylor:** Well, yeah, and Nazis. So yes, the internet did do this, but then we sort of saw a few cracks in the utopian landscape, and around 2013 I started thinking about the ways in which the business model of the internet was leading to an increasing amount of collection of personal data about people that use the internet, and sort of this creeping surveillance capitalism model that was beginning to emerge as the sort of de-facto... Especially since in that earlier moment that I described in the internet's evolution, it was like "Oh wow, and here's another great platform - Facebook. It's gonna encourage us to share everything, and connect all the people..."
 
 **Chris Benson:** \[laughs\] Boy, it did it!
 
