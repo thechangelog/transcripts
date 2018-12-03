@@ -276,7 +276,7 @@ So the focus for a little bit now, maybe these next 6-8 months, is polish, growt
 
 **Jerod Santo:** ...to everyone. \[laughter\]
 
-**Adam Stacoviak:** Scalable AI. That's a \[unintelligible 00:15:36.02\] joke
+**Adam Stacoviak:** Scalable AI. That's a bad \[unintelligible 00:15:36.02\] joke
 
 **Jerod Santo:** That's what I've learned today, or yesterday - the strength of a solid tagline for your podcast... Because when people ask you what it is, you don't even have to think; you can just say the tagline, and they're like "Okay, I've got it. There it is." So I'm glad that we've been finessing those.
 
