@@ -349,7 +349,7 @@ From what I understand, he’s been this behind-the-scenes, incredibly helpful i
 
 **Richard Feldman:** Oh, yeah! Tickets are on sale, and you’re running out of time to get them, because it’s September 15th.
 
-**Adam Stacoviak:** The URL for that is elf-conf.us.
+**Adam Stacoviak:** The URL for that is elm-conf.us.
 
 **Richard Feldman:** Yup.
 
