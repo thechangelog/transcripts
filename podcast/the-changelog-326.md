@@ -132,13 +132,13 @@ This was an attack described like in the early '90s, by the creators of UNIX, th
 
 **Jerod Santo:** Detect.
 
-**Dominic Tarr:** Reproducible builds might have flagged this, but he might have gone to -- like, if they had checked in the malicious code, maybe no one would have noticed. Once it was apparent that there was some encrypted code that was being run, it was like "Something is differently very suspicious", but if it had unencrypted, that might have actually been more effective. We don't really know... It could have been \[unintelligible 00:28:43.22\] to encrypt it, and so that would have actually gotten past a reproducible build, because the bad stuff would have been just hiding in plain sight.
+**Dominic Tarr:** Reproducible builds might have flagged this, but he might have gone to -- like, if they had checked in the malicious code, maybe no one would have noticed. Once it was apparent that there was some encrypted code that was being run, it was like "Something is differently very suspicious", but if it had unencrypted, that might have actually been more effective. We don't really know... It could have been overkill to encrypt it, and so that would have actually gotten past a reproducible build, because the bad stuff would have been just hiding in plain sight.
 
 And the other thing is that the attack depended on the event stream code doing several things that -- well, rather the flatMap() code doing several things that really had no business doing. So to successfully steal people's Bitcoin keys and then send them back to the attacker, it needs to do network IO, and event-stream itself didn't need to do that; that is completely outside of the stated purpose of event-stream... Same with \[unintelligible 00:29:18.17\] So if there was a specific list of what permissions, on a module basis, that...
 
 **Jerod Santo:** That you could request from...
 
-**Dominic Tarr:** Yeah, that that module depended on. Event-stream was like -- it doesn't do any IO, it doesn't do any networking \[unintelligible 00:29:37.25\] it just loads other things together... Then compromising event-stream wouldn't have been useful for this attack. You would have to compromise something else that had access... And then, of course, it also monkey-patched the constructor of something that then it got the keys from; if you had a good sandboxing thing, it wouldn't have been able to do that.
+**Dominic Tarr:** Yeah, that that module depended on. Event-stream was like -- it doesn't do any IO, it doesn't do any networking or file access... it just loads other things together... Then compromising event-stream wouldn't have been useful for this attack. You would have to compromise something else that had access... And then, of course, it also monkey-patched the constructor of something that then it got the keys from; if you had a good sandboxing thing, it wouldn't have been able to do that.
 
 I've been aware of this stuff being developed for some years; there's this thing called ERights, which is quite old... This guy, Mark Miller, who is also the chief architect on the Xanadu project... Are you familiar with Xanadu?
 
@@ -170,7 +170,7 @@ Many people will point out that getting sandboxing right is extremely difficult,
 
 **Jerod Santo:** Mm-hm. It'd be easier to start fresh.
 
-**Dominic Tarr:** Well, I think it could actually be added \[unintelligible 00:35:03.00\] You might have to go through and be like "This thing can have these permissions or not."
+**Dominic Tarr:** Well, I think it could actually be added in user space. You might have to go through and be like "This thing can have these permissions or not."
 
 **Adam Stacoviak:** You mentioned earlier that it didn't need IO access, so that would be an easy one... So if this module ever requested or used IO, then something is very odd about its behavior, because its described behavior says that it shouldn't use certain APIs or certain feature sets, essentially.
 
