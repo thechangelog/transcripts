@@ -24,7 +24,7 @@
 
 **Jerod Santo:** I'm more of a morning person than you are, Adam, and you were here at 9 AM, ready to listen... So I'm guessing you had to set an alarm, or at least think about getting up. What was your routine?
 
-**Adam Stacoviak:** I just had to speed up my morning routine, really. I'm up early. I'm just not ready to work until like ten... Nine-thirty, ten. That's when my voice warms up, that's when my brain warms up. I need at least an hour to boot. It takes me a bit to get to full capacity. But I went to bed earlier last night than my norm, which is good, and I woke up -- I don't know, like eight(ish), I guess, so I guess it's a little earlier for me... But it was worth it, because, for one, \[unintelligible 00:03:51.24\] call prepared, we had some notes in the background, which was great, we had a live \#AppleNerds channel in Slack... So if you're listening to this either now, live, or in the future, we have a channel dedicated to Apple nerds. Jerod, I think you started this channel a while back, and I was like "Okay..." I mean, I'm an Apple nerd too, but I never thought we'd actually have deeper commentary in there, because we've never traditionally been Apple fanboys, or Apple fanpeople, so to speak... I mean, definitely users, but never like--
+**Adam Stacoviak:** I just had to speed up my morning routine, really. I'm up early. I'm just not ready to work until like ten... Nine-thirty, ten. That's when my voice warms up, that's when my brain warms up. I need at least an hour to boot. It takes me a bit to get to full capacity. But I went to bed earlier last night than my norm, which is good, and I woke up -- I don't know, like eight(ish), I guess, so I guess it's a little earlier for me... But it was worth it, because I mean, for one, being at this call prepared, we had some notes in the background, which was great, we had a live \#AppleNerds channel in Slack... So if you're listening to this either now, live, or in the future, we have a channel dedicated to Apple nerds. Jerod, I think you started this channel a while back, and I was like "Okay..." I mean, I'm an Apple nerd too, but I never thought we'd actually have deeper commentary in there, because we've never traditionally been Apple fanboys, or Apple fanpeople, so to speak... I mean, definitely users, but never like--
 
 **Jerod Santo:** \[00:04:30.03\] Right.
 
@@ -38,7 +38,7 @@
 
 **Tim Smith:** Agreed.
 
-**Jerod Santo:** But I wanna say, we haven't covered Apple in the past... Oh, you see what I did there with the bag? It's not my shopping cart. We haven't really covered too much of this stuff in the past; we definitely are internally users of Apple products, for different things... Of course, we also use other manufacturers' products. That being said -- and we know there's a lot of commentary around these events, and around Apple in general, and we don't wanna be a me-too or \[unintelligible 00:05:50.08\] in that category; I think we wanna bring a little bit of a different perspective, because we are developers, we are podcasters, and we're really going to look at Apple's announcements through that lens, specifically developer-focused commentary, because that's what we are and that's what we do... And because of that, I think this event got us three super-excited, more so than WWDC, even though I'm typically more of a software person than a hardware person, so I tend to get geeked about WWDC... But man, everything here, I'm just like, "Shut up and take my money." \[laughter\]
+**Jerod Santo:** But I wanna say, we haven't covered Apple in the past... Oh, you see what I did there with the bag? It's not my shopping cart. We haven't really covered too much of this stuff in the past; we definitely are internally users of Apple products, for different things... Of course, we also use other manufacturers' products. That being said -- and we know there's a lot of commentary around these events, and around Apple in general, and we don't wanna be a me-too or an also-ran in that category; I think we wanna bring a little bit of a different perspective, because we are developers, we are podcasters, and we're really going to look at Apple's announcements through that lens, specifically developer-focused commentary, because that's what we are and that's what we do... And because of that, I think this event got us three super-excited, more so than WWDC, even though I'm typically more of a software person than a hardware person, so I tend to get geeked about WWDC... But man, everything here, I'm just like, "Shut up and take my money." \[laughter\]
 
 **Adam Stacoviak:** We need the hardware, and we need Apple to remain a company focused on hardware that delivers for creatives. Since you've just mentioned developer, it may jump the gun a little bit, but the shout-out to 1Password - such a dedicated team to great software, out of Canada... Amazing team. They have continued to be a number one must install application for literally all devices for me. So they got a shout-out for that around the Touch ID section, which was later for the MacBook Air, and I'm definitely jumping the gun, but that was pretty cool.
 
@@ -232,7 +232,7 @@ What's the entry-level MacBook Pro price? I'm trying to grab it... Because we we
 
 **Adam Stacoviak:** Come on, now... Keep it friendly.
 
-**Jerod Santo:** Okay, alright. That's \[unintelligible 00:26:03.12\] Painting a picture...
+**Jerod Santo:** Okay, alright. That's how to verbalate. Painting a picture...
 
 **Tim Smith:** I do think though if the MacBook Air isn't your primary machine, it is ideal for what Adam just explained. As a conference-going machine, it's perfect.
 
@@ -284,11 +284,11 @@ I think the other reason you would go to a MacBook Pro would simply be to tweak 
 
 **Tim Smith:** Oh, man...
 
-**Adam Stacoviak:** You are getting the upgrade Radeon Pro... I think this is truly for somebody that's graphics-intensive. I wouldn't recommend a MacBook Air to somebody who's really kicking it on Photoshop, or into any 3ds Max, or anything that's really GPU-heavy, many more monitors... I'm assuming this, at least in the monitor front, it may be able to be capable for dual 5K monitors, or something like that... But I would say anything video - video people are not gonna be grabbing this MacBook Air. They're gonna try, but I think they may have it for, say, somebody who is on the video team that needs to do some stuff occasionally, that can be okay with puttering here and there. \[unintelligible 00:31:46.08\]
+**Adam Stacoviak:** You are getting the upgrade Radeon Pro... I think this is truly for somebody that's graphics-intensive. I wouldn't recommend a MacBook Air to somebody who's really kicking it on Photoshop, or into any 3ds Max, or anything that's really GPU-heavy, many more monitors... I'm assuming this, at least in the monitor front, it may be able to be capable for dual 5K monitors, or something like that... But I would say anything video - video people are not gonna be grabbing this MacBook Air. They're gonna try, but I think they may have it for, say, somebody who is on the video team that needs to do some stuff occasionally, that can be okay with puttering here and there. But anything that needs to be quick...
 
 **Tim Smith:** Yeah, you could do a quick edit on the MacBook Air...
 
-**Adam Stacoviak:** Yeah, and you're gonna embrace it... But a daily machine, you're gonna be like "Man, this sucks. I'd rather spend the extra grand or two maybe to get something that's more capable."
+**Adam Stacoviak:** Yeah, I mean, and you're gonna embrace it... But a daily machine, you're gonna be like "Man, this sucks. I'd rather spend the extra grand or two maybe to get something that's more capable."
 
 **Tim Smith:** \[00:32:01.13\] Right, right. But that's what I'm saying - like we were talking about before, as a portable, conference-going machine for what we do... I mean, we could totally do a quick edit of a video on this, on location, for sure.
 
@@ -344,7 +344,7 @@ And I don't think -- we don't really need to upgrade to a this newest version of
 
 **Jerod Santo:** So they're basically just like regular RAM DIMMs, but they're half the size, so they fit better into smaller spaces, like in the Mac mini. I don't know why customers would care so much. Maybe they're popping them open and replacing them, I don't know...
 
-**Adam Stacoviak:** Yeah, I think that's definitely mentioned as an earmark for "Hey, if you plan to crack this open, you're gonna deal with SO-DIMMs." And I'm assuming you can crack it open. I'm also assuming, based on this conversation, or at least what they've shown so far, that the form-factor hasn't changed... Because one thing that would really \[unintelligible 00:38:07.23\] is if the form factor of the new Mac mini changes so much that you couldn't use all of the existing rack mount options out there for Mac minis currently.
+**Adam Stacoviak:** Yeah, I think that's definitely mentioned as an earmark for "Hey, if you plan to crack this open, you're gonna deal with SO-DIMMs." And I'm assuming you can crack it open. I'm also assuming, based on this conversation, or at least what they've shown so far, that the form-factor hasn't changed... Because one thing that would really chap my butt is if the form factor of the new Mac mini changes so much that you couldn't use all of the existing rack mount options out there for Mac minis currently.
 
 **Tim Smith:** Yeah.
 
@@ -360,11 +360,11 @@ And I don't think -- we don't really need to upgrade to a this newest version of
 
 **Adam Stacoviak:** Well, if we rewind a little, it did start before at $499, so that's kind of terrible on that front...
 
-**Jerod Santo:** \[laughs\] Terrible...
+**Jerod Santo:** \[laughs\] "That's kind of terrible..."
 
 **Adam Stacoviak:** \[00:39:58.22\] I mean, the difference on the starting price is kind of terrible. \[unintelligible 00:39:57.21\]
 
-**Tim Smith:** \[unintelligible 00:40:00.24\] is right now though. The old generation is $499. When it was new, it didn't start at $499.
+**Tim Smith:** No no no, $499 is the price that it is right now though. The old generation is $499. When it was new, it didn't start at $499.
 
 **Jerod Santo:** I think it might have. I think it was at $499 and then it went up to maybe $699. I can't remember the exact history, but there was an entry-level of $499, because I remember thinking "Get on the MacOS (or back then it was OS10) for $500." That was kind of the sales pitch in my mind for a Mac mini.
 
@@ -414,7 +414,7 @@ And I don't think -- we don't really need to upgrade to a this newest version of
 
 So you're talking about in the case of replacing the need for a MacBook Pro, and I think it's still not there. Just based on that. Because when you go to, say, a fully-spec'ed out MacBook Pro, which I'm assuming you may or may not desire, is a Radeon Pro 560X (560-ten, if you wanna stay on-brand with Apple), with four gigs of GDDR5 memory. So a big difference. That thing alone is gonna handle all of your video performance, it's gonna push your different displays, it's gonna allow you to edit in 4K and not drop frames, and you still have the option to push your RAM and push your SSD, and you have four Thunderbolt 3 ports, not three or two.
 
-The I/O is really interesting. I think the Mac mini in my opinion is probably a good fit in server-like installations, or people who don't do graphics that need server-like scenarios; so then let's push in, say, a NAS... Or RAIDs, or something like that. It's your networked macOS server locally; it's maybe commanding your many -- I don't know if macOS Sever is still a thing. They don't talk about it much. I think it is still there. But basically, you have the idea of active directory in windows, where you have all the people in one machine and you manage the people in a local network via one machine. That's where this is gonna thrive. And there's a lot of people who use it like that, because you have a lot of Mac installs, and \[unintelligible 00:47:02.17\] you tend to have to go from machine, to machine, to machine, where in this case you wanna have a networked Mac Server... And we've had to deal with a Mac mini that wouldn't keep up, and you wouldn't wanna buy a Mac Pro because maybe it's just too costly, so... Something in the middle there, I would imagine, where the Mac mini fits in price point-wise and capability-wise where you wanna go.
+The I/O is really interesting. I think the Mac mini in my opinion is probably a good fit in server-like installations, or people who don't do graphics that need server-like scenarios; so then let's push in, say, a NAS... Or RAIDs, or something like that. It's your networked macOS server locally; it's maybe commanding your many -- I don't know if macOS Sever is still a thing. They don't talk about it much. I think it is still there. But basically, you have the idea of active directory in windows, where you have all the people in one machine and you manage the people in a local network via one machine. That's where this is gonna thrive. And there's a lot of people who use it like that, because you have a lot of Mac installs, and as IT you tend to have to go from machine, to machine, to machine, where in this case you wanna have a networked Mac Server... And we've had to deal with a Mac mini that wouldn't keep up, and you wouldn't wanna buy a Mac Pro because maybe it's just too costly, so... Something in the middle there, I would imagine, where the Mac mini fits in price point-wise and capability-wise where you wanna go.
 
 **Jerod Santo:** So the answer from Adam is "No, because of video."
 
@@ -450,13 +450,13 @@ The I/O is really interesting. I think the Mac mini in my opinion is probably a 
 
 **Tim Smith:** Right.
 
-**Adam Stacoviak:** The other piece is the original size of the 4K, and then the smaller size, which isn't much, but still enough to add to the 4K size of a proxy file. And then file management. It just gets to be error-prone. It's so much nicer if you \[unintelligible 00:50:58.09\] and just literally push the space bar and go...
+**Adam Stacoviak:** The other piece is the original size of the 4K, and then the smaller size, which isn't much, but still enough to add to the 4K size of a proxy file. And then file management. It just gets to be error-prone. It's so much nicer if you can just pull up the 4K footage and just literally push the space bar and go...
 
 **Tim Smith:** Yeah.
 
 **Adam Stacoviak:** I'm curious though, seven minutes ago \[unintelligible 00:51:06.16\] in our Apple Nerds chat room - he did something interesting around when it comes to developer-isms with the Mac mini, where he's pushing a CI environment that's powered by GitLab. He's using VirtualBox to run VMs for Windows and Linux, and then he's also got GitLab on the macOS. So he's got three OSs he's doing continuous integration for. I'm not really sure of his use cases; we do plan to do potentially a Backstage on this... So he hasn't said it yet, but I wanna earmark that, because that is one interesting thing where this machine can be used by, say, developers in an environment where they need to do CI, or anything that's debugging on several platforms, and potentially offer that to the other folks in their network to utilize for those needs.
 
-**Jerod Santo:** \[00:52:10.02\] Worth noting that Apple also gave a shout-out to people who are running Mac minis in servers, so they're very well aware that this is a thing that people are doing. What was the name of that company that had 8,000 Mac minis racked...? \[unintelligible 00:52:18.09\]
+**Jerod Santo:** \[00:52:10.02\] Worth noting that Apple also gave a shout-out to people who are running Mac minis in servers, so they're very well aware that this is a thing that people are doing. What was the name of that company that had 8,000 Mac minis racked in a server farm? MacStadium?
 
 **Adam Stacoviak:** Interesting.
 
@@ -528,7 +528,7 @@ That gives you 10 Gigabit Ethernet, 128 gigs of SSD storage, 8 gigs of RAM - bec
 
 **Jerod Santo:** And that shows it right there. Maybe it's not for you, maybe the pricing -- you go crunch the numbers and it doesn't make sense to do an eGPU for that use case, but the fact that you have options... There are so many ports in the back... And I think the biggest deal with this Mac mini release is just the fact that it's not dead in the water, and Apple is updating it once again. Hopefully they don't wait for more years... Just give us spec bumps every year; you don't have to have a big event for it, but just keep it updated, and there's a lot of uses that we can go and use it for, so... Super-exciting. Just the fact that we have a new Mac mini, that's big news.
 
-**Adam Stacoviak:** Going back to one more spec on this, which we covered quickly, is the \[unintelligible 00:58:08.29\] I think what that's gonna offer you is quietness. When it comes to whether or not you can kick it on your desk, as we say - like you mentioned, Jerod, your MacBook Pro still has trouble with Skype and several things happening; your fans spin up... For those reasons, that's why we typically don't--
+**Adam Stacoviak:** Going back to one more spec on this, which we covered quickly, is the thermoflow - I think what that's gonna offer you is quietness. When it comes to whether or not you can kick it on your desk, as we say - like you mentioned, Jerod, your MacBook Pro still has trouble with Skype and several things happening; your fans spin up... For those reasons, that's why we typically don't--
 
 **Jerod Santo:** Google Hangouts, I hate you...
 
@@ -566,7 +566,7 @@ So you might be on to something. I would say the price points on eGPU's will get
 
 **Tim Smith:** With huge bezels, too.
 
-**Adam Stacoviak:** \[01:03:48.04\] Huge bezels, many colors... An amazing machine. I've actually seen several of them, even though it's uncommon these days to see the oldest school iMacs of anything, right? But then you compare that to an iMac Pro, and you take the picture of the iMac generation from one, and all of the visual differences and changes from then to now, and you just see it basically get thinner and thinner and thinner, bigger and bigger, and better and better. And that to me is like this pencil idea, Jerod - the previous generations were like "Hey, we're releasing this today, and we can already predict 2018's release in October. We know it's gonna attach via magnetic, we know we're gonna offer the wireless charging, and we'll take one on the nose today, from the \[unintelligible 01:04:40.01\] and the memes." That's Apple's braveness and willingness to embrace that and take that, and say nothing. That's so cool.
+**Adam Stacoviak:** \[01:03:48.04\] Huge bezels, many colors... An amazing machine. I've actually seen several of them, even though it's uncommon these days to see the oldest school iMacs of anything, right? But then you compare that to an iMac Pro, and you take the picture of the iMac generation from one, and all of the visual differences and changes from then to now, and you just see it basically get thinner and thinner and thinner, bigger and bigger, and better and better. And that to me is like this pencil idea, Jerod - the previous generations were like "Hey, we're releasing this today, and we can already predict 2018's release in October. We know it's gonna attach via magnetic, we know we're gonna offer the wireless charging, and we'll take one on the nose today, from the pundits and the memes." That's Apple's braveness and willingness to embrace that and take that, and say nothing. That's so cool.
 
 **Tim Smith:** I don't think they've ever done the different colors with iPad Pro, but I just feel -- and I think we touched on this before with the MacBook Air, that the black bezel just looks so nice, and now that it's almost edge to edge, which we should quote Jerod on this one, "with 100% less notch", it just looks so nice and sleek and stylish.
 
@@ -574,7 +574,7 @@ So you might be on to something. I would say the price points on eGPU's will get
 
 **Adam Stacoviak:** The presenter even said "That is nuts!"
 
-**Jerod Santo:** Yeah... Because it really is, any sort of improvement like that. We've got USB-C in the bottom, we've got Face ID, it's 5.9 millimeters thin... I mean, let's address the elephant int he room, which \[unintelligible 01:06:05.03\] said during the event in our Apple Nerds chat: "You still can't do web dev on it", so from our developer perspective it's potentially falling apart in this particular piece of hardware right now, unless you're doing Swift Playgrounds... But man, this thing is cool!
+**Jerod Santo:** Yeah... Because it really is, any sort of improvement like that. We've got USB-C in the bottom, we've got Face ID, it's 5.9 millimeters thin... I mean, let's address the elephant in the room, which sir Timly said during the event in our Apple Nerds chat: "You still can't do web dev on it", so from our developer perspective it's potentially falling apart in this particular piece of hardware right now, unless you're doing Swift Playgrounds... But man, this thing is cool!
 
 I was not ready to be impressed by an iPad Pro release today; it was kind of an after-thought to me. I figured, yeah, they'd spec-bump it, it'd be fine, it'd be the next iPad. I don't own an iPad; I've had an iPad, I gave it to my wife and moved on, but man, this thing is hot!
 
@@ -602,7 +602,7 @@ I was not ready to be impressed by an iPad Pro release today; it was kind of an 
 
 **Jerod Santo:** AR...
 
-**Adam Stacoviak:** \[01:07:49.13\] Now, we kind of laugh at that, but I made a note here. I've seen Spielberg use AR stuff to create spaces, so like space creators meaning people designing spaces, which they've \[unintelligible 01:07:58.26\] with Adobe, and whatnot... I think that's an area where we think it's only -- AR and gameplay, in the future, or stuff around that, is kind of like "Meh", not so much to me. But the way Spielberg used AR to jump into scenes for Ready Player One, because all those were CGI-created... That's an area of developer that we cater to tangentially now more so than we had before, that I'm just curious of your thoughts on.
+**Adam Stacoviak:** \[01:07:49.13\] Now, we kind of laugh at that, but I made a note here. I've seen Spielberg use this AR stuff to create spaces, so like space creators meaning people designing spaces, which they've showed off with Adobe, and whatnot... I think that's an area where we think it's only -- AR and gameplay, in the future, or all that stuff around that, is kind of like "Meh", not so much to me. But the way Spielberg used AR to jump into scenes for Ready Player One, because all those were CGI-created... That's an area of developer that we cater to tangentially now more so than we had before, that I'm just curious of your thoughts on.
 
 **Jerod Santo:** AR definitely has potential. I think the only real valuable SpaceBoard in the kind of programming that I do is mostly web development. Shopify has done some interesting things with AR, and enabling that for their customers to do eCommerce sales. I think it's a perfect pitch for that use case, whereas like "Here is a product. It's a vase." I'm not sure how it will look on my table. "Well, here is the AR-ified 3D rendering of that vase. You can now put that into real space and see what it looks like, and then click Buy and pay with Apple Pay. It's a pretty cool demo. I think it's actually a very valuable use case for getting sales, because the customer doesn't have to be in a store; they can be on their iPad and can actually envision what this product will look like in the room they're sitting in, and they're way more likely to buy it, as opposed to having to drive to Bed Bath & Beyond, or buy vases from some store.
 
@@ -654,7 +654,7 @@ I was not ready to be impressed by an iPad Pro release today; it was kind of an 
 
 I haven't seen any games that have really taken the world by storm, besides I guess Pokémon Go, where they put the Pokémon out there on your screen... That's basically what we've gotten so far, but I do believe that there's actually going to be that thing, it's just not here yet.
 
-**Adam Stacoviak:** \[unintelligible 01:12:44.19\] out there, actually. If you can create on an iPad Pro and sell what you create on an iPad Pro, like filters, or whatever... If that was a sellable market, you can -- I'm gonna just assume that you can probably easy make 50k-100k per year as an iPad Pro creator of some sort.
+**Adam Stacoviak:** There could be economy out there, actually. If you can create on an iPad Pro and sell what you create on an iPad Pro, like filters, or whatever... If that was a sellable market, you can -- I'm gonna just assume that you can probably easy make 50k-100k per year as an iPad Pro creator of some sort.
 
 **Jerod Santo:** Well, I quit. I'm gonna go do that.
 
@@ -682,7 +682,7 @@ Yeah, so there's a certain class of games that work well on mobile, and these ar
 
 **Jerod Santo:** Similar with shooters... Anything where it's fast-twitch, you do not want a touch device. Because of that, I think it's very much limited, the types of games that are on iOS and on Android, to the kind of games I'm describing, plus a few others I'm not thinking of... But these are not just -- I don't know, would people call them hardcore games? I'm not sure what the title is, but a game like that is not gonna be fun on an iPad, no matter how fast it can render it, or how many frames per second, how smooth it is, and how much that actually looks like LeBron James - it's not going to be fun, unless you have a gaming controller. This is why the consoles -- or maybe have a full-on keypad in the case of Call of Duty style of game, or a Fortnite, where you wanna have the full-on WASD controls... All these buttons, right? Zero buttons is not the right number of buttons.
 
-**Adam Stacoviak:** \[unintelligible 01:18:09.03\] where I believe they're missing out, and it could be something that you go "Oh my gosh..." when I say it.
+**Adam Stacoviak:** I have an area where I believe they're missing out, and it could be something that you go "Oh my gosh..." when I say it.
 
 **Jerod Santo:** Okay, I'm getting excited...
 
@@ -818,9 +818,9 @@ And then after I bought the Mac mini, I would then go and change from Thunderbol
 
 **Adam Stacoviak:** Not interested.
 
-**Jerod Santo:** Have you ever done \[unintelligible 01:31:38.29\] You don't need to have a central Houston headquarters, you just have a cloud.
+**Jerod Santo:** Have you ever done BackBlaze or whatetver? It's like, takes you thirty days and then... You don't need to have a central Houston headquarters, you just have a cloud.
 
-**Adam Stacoviak:** I do, I have a \[unintelligible 01:31:46.00\] to AWS.
+**Adam Stacoviak:** I do, I have a fiber right connection to AWS.
 
 **Jerod Santo:** Yeah, so upload that stuff to AWS.
 
