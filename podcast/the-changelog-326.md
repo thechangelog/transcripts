@@ -24,7 +24,7 @@ I wrote the event-stream module like seven years ago, and at that time -- Node.j
 
 **Dominic Tarr:** So event-stream was of that era. I went on to write a huge number of stream-related modules, and event-stream was actually the very first one that I wrote. I wrote it, and then after about 11 months of stream experience, I realized that event-stream was kind of the wrong basis, and I wrote a thing called Through, which became the basis for all of my streams stuff after that. So even by that point - that was six years ago - I had basically moved on from event-stream; I wasn't really interested in -- I wasn't using it as my first go-to thing for writing streams anymore.
 
-Then another year or two after that the Node core team had decided they were gonna fix all the problems with Streams and create Streams 2. I hadn't managed to participate in any of these discussions on what was gonna go in Streams 2; it was all at this Node conference in California, and I wasn't there... And when I saw what they wanted to add, I was like "This is horribly bloated and ugly." But it was also backwards-compatible, which made it twice as bad. I tried some old protesting, and they were just like "We already decided this is how we're gonna do it."
+Then another year or two after that the Node core team had decided they were gonna fix all the problems with Streams and create Streams 2. I hadn't managed to participate in any of these discussions on what was gonna go in Streams 2; it was all at this Node conference in California, and I wasn't there... And when I saw what they wanted to add, I was like "This is horribly bloated and ugly." But it was also backwards-compatible, which made it twice as bad. I tried some mild protesting, and they were just like "We've already decided, this is how we're gonna do it."
 
 That sort of spurred me to be like "Well, if you're gonna really make a really minimal efficient stream thing that wasn't backwards-compatible with the current streams, what would it look like?" I started experimenting - me and some friends - and came out with pull-stream. Pull-stream is really minimal -- you just have two functions; one function is just a normal Node async function, and you call it repeatedly, one at a time. So you have a readable function. And then you have a reader function, which is a function that the readable was passed to. I've got detailed blog posts about both the history of Node.js streams and pull-stream, so you can go through them at dominictarr.com.
 
@@ -40,7 +40,7 @@ Some people caught on and there's a pretty good community of people that use it.
 
 **Dominic Tarr:** Yeah, it's Gulp.
 
-**Adam Stacoviak:** They all run together to me - Grunt, Gulp... All in the same era, of this event-ish streams to build things era prior to Webpack becoming more and more popular and things changing.
+**Adam Stacoviak:** They all run together to me - Grunt, Gulp... All in the same era, of this "events as streams to build things" era prior to Webpack becoming more and more popular and things changing.
 
 **Jerod Santo:** The real interesting thing about this situation is that the compromise or the injection of this code didn't come from hacking GitHub's permissions, or Npmjs.com... It was really a third-party who came to you on a project that, like you said, you moved on from twice. This is the @right9ctrl user on GitHub, which is no longer a user on GitHub, of course; a malicious actor... And must have been acting like a normal, and obtained credentials to this repository basically by asking for them, and then used that access to add, according to FallingSnow, flatmap-stream, which has an injection in it... Very briefly added it, published a new version, and then took it out in order to cover their tracks and leave the actual installed version, of course, on as many computers as possible.
 
@@ -138,7 +138,7 @@ And the other thing is that the attack depended on the event stream code doing s
 
 **Jerod Santo:** That you could request from...
 
-**Dominic Tarr:** Yeah, that a module depended on. Event-stream was like -- it doesn't do any IO, it doesn't do any networking or file access, it just loads other things together... Then compromising event-stream wouldn't have been useful for this attack. You would have to compromise something else that had access... And then, of course, it also monkey-patched the constructor of something that then it got the keys from; if you had a good sandboxing thing, it wouldn't have been able to do that.
+**Dominic Tarr:** Yeah, that that module depended on. Event-stream was like -- it doesn't do any IO, it doesn't do any networking or file access... it just loads other things together... Then compromising event-stream wouldn't have been useful for this attack. You would have to compromise something else that had access... And then, of course, it also monkey-patched the constructor of something that then it got the keys from; if you had a good sandboxing thing, it wouldn't have been able to do that.
 
 I've been aware of this stuff being developed for some years; there's this thing called ERights, which is quite old... This guy, Mark Miller, who is also the chief architect on the Xanadu project... Are you familiar with Xanadu?
 
@@ -166,11 +166,11 @@ Many people will point out that getting sandboxing right is extremely difficult,
 
 **Jerod Santo:** So who would be the people that would be tasked with working on something like this? Are we talking about browser vendors? Node? Are we talking about package managers? Where would the sandboxing and the application of these principles go?
 
-**Dominic Tarr:** Adding it to an actual, deployed application, that was originally created without this stuff in mind, so currently written code in applications, \[unintelligible 00:34:52.08\] someone would have to decide, I guess, what APIs things have access to, and stuff like that, so...
+**Dominic Tarr:** Adding it to a natural, deployed application, that was originally created without this stuff in mind, so currently written code in applications, that are running and Npm is up to date, someone would have to decide, I guess, what APIs things have access to, and stuff like that, so...
 
 **Jerod Santo:** Mm-hm. It'd be easier to start fresh.
 
-**Dominic Tarr:** Well, I think it could actually be added in user space. You might have to go through and be like "This thing can have these permissions or not."
+**Dominic Tarr:** Well, I think it could actually be added in userspace. You might have to go through and be like "This thing can have these permissions or not."
 
 **Adam Stacoviak:** You mentioned earlier that it didn't need IO access, so that would be an easy one... So if this module ever requested or used IO, then something is very odd about its behavior, because its described behavior says that it shouldn't use certain APIs or certain feature sets, essentially.
 
@@ -180,7 +180,7 @@ Many people will point out that getting sandboxing right is extremely difficult,
 
 **Adam Stacoviak:** Right. Gosh, yeah... What a world...
 
-**Dominic Tarr:** Yeah, I think it would be a good improvement, like Android phones etc already have this kind of permissions system. And I think most people would just click Okay.
+**Dominic Tarr:** Yeah, I think it would be a good improvement, like Android phones, etc, already have this kind of permissions system. And I think most people would just click Okay.
 
 **Jerod Santo:** Exactly, yeah. \[laughs\] We're pushing the attack vector up the stack, to the end user, who's more likely to not even know what the heck it's talking about and say yes.
 
@@ -188,7 +188,7 @@ Many people will point out that getting sandboxing right is extremely difficult,
 
 **Jerod Santo:** Right.
 
-**Dominic Tarr:** So when you install something, you say "Oh, that should never do such and such", and then it's basically a question of like "Who do you trust?" And perhaps if you were something like a high-value target, such as a Bitcoin wallet, then you would just go through the entire tree and be like "What should this be able to access? What should this be able to access?", which might take a while if you have hundreds of modules, but it would definitely give you peace of mind and be an appropriate action, and this kind of attack would \[unintelligible 00:37:15.08\]
+**Dominic Tarr:** So when you install something, you say "Oh, that should never do such and such", and then it's basically a question of like "Who do you trust?" And perhaps if you were something like a high-value target, such as a Bitcoin wallet, then you would just go through the entire tree and be like "What should this be able to access? What should this be able to access?", which might take a while if you have hundreds of modules, but it would definitely give you peace of mind and be an appropriate action, and this kind of attack wouldn't even be worth bothering with.
 
 **Adam Stacoviak:** Well, you said something there too, like, the trust... So we talked through sort of like systematic ways to prevent this, which seem to have varying degrees of user experience degradation and/or as you said, Jerod, just pushing the attack vector up or down the stack to different places that may have ill effects, like clicking Okay, or just bothering the developer at some point, or maybe even the user at some point with things that they're just not concerned with... The other is what you said there, Dominic, around trust... And even in your readme, the statement on event-stream's compromise, you mentioned two strong solutions to this problem, one being paying the maintainers, but the additive to that was only depending upon modules that you know are definitely maintained... So I'd like to kind of get your idea of what "definitely maintained" means to you, because your version of that, my version of that and Jerod's version of that may or may not be the same...
 
@@ -296,7 +296,7 @@ I've always said it's a balance, it's a trade-off, you have to make these decisi
 
 **Jerod Santo:** What are some of the heuristics for you? What are the things that make you satisfied? Is it a personal relationship with the maintainer, or at least maybe a reputation of quality, or is your own inspection of their code? What makes you more comfortable than less comfortable?
 
-**Dominic Tarr:** For things like, I didn't create JavaScript, that problem is too big to handle and here's a good thing that does it. One is like if it's a small thing that I could do, I would end up looking for a whole bunch of options, or something; I would evaluate them in terms of "Is this sufficiently compatible with my opinions? Would I do it the same way? Does this make me really mad, or something like that? Is this some stuff that would just be a pain in the butt to create myself, like time zones?"
+**Dominic Tarr:** For things like: I didn't create JavaScript or implement my own JavaScript... They're problems too big to handle when, here's a good thing that does it... One is like if it's a small thing that I could do, I would end up looking for a whole bunch of options, or something; I would evaluate them in terms of "Is this sufficiently compatible with my opinions? Would I do it the same way? Does this make me really mad, or something like that? Is this some stuff that would just be a pain in the butt to create myself, like time zones?"
 
 **Jerod Santo:** \[laughs\] Well, time zones are easy, what are you talking about? Just kidding.
 
@@ -330,7 +330,7 @@ I've always said it's a balance, it's a trade-off, you have to make these decisi
 
 **Dominic Tarr:** I've received many personal messages of support from old friends, and other open source developers, and sometimes random strangers who had admired my work, and stuff like this, so... I really felt quite boosted overall from that. They certainly gave me the confidence to use this to draw attention to what I feel is the plight of the open source developer, and what are the systematic ways that something like this can be approached and addressed.
 
-I think the way that I've been very determined to shirk responsibility for actually \[unintelligible 01:03:28.06\] It made them way more upset.
+I think the way that I've been very determined to shirk responsibility for actually adding a thing, actually \[unintelligible 01:03:28.06\], it made all the people who thought I should apologize... It made them way more upset.
 
 **Jerod Santo:** \[laughs\] You were very nonchalant about it all...
 
@@ -346,7 +346,7 @@ I think the way that I've been very determined to shirk responsibility for actua
 
 **Adam Stacoviak:** As Brett Cannon said in that recent episode, Jerod - I forget which number it is; help me out if you can - open source maintainers owe nothing. I believe that's somewhat a direct quote. Correct me if I'm wrong; we can pull up the transcripts and confirm that, but... Just basically like, you know, the maintainers of projects haven't signed on for a "We'll maintain this, we'll be responsible for everything in this forever." It's in their good interest and their heartfelt interest to create in open source in the first place, and it's your choice to use it, so they owe you nothing.
 
-**Dominic Tarr:** The other thing I want to say is like, on one level, creating open source is fun, challenging, interesting technical problems, but also the social side of it. So for the most part, you're just solving problems with friends and helping each other out, and no one is the boss of anyone... So if you want to get things done, you can persuade people. And sometimes people get wound up and there's strong emotions because it's things that people feel strongly about, but on the whole it's a very rewarding kind of node of interaction, and I wish that more of life gave you the ability to effect change on things that affect you like you get in open source. I think that's a big part of why I've continued to do it for the best part of the decade.
+**Dominic Tarr:** The other thing I want to say is like, on one level, creating open source is fun, challenging, interesting technical problems, but also the social side of it. So for the most part, you're just solving problems with friends and helping each other out, and no one is the boss of anyone... So if you want to get things done, you can persuade people. And sometimes people get wound up and there's strong emotions because it's things that people feel strongly about, but on the whole it's a very rewarding kind of mode of interaction, and I wish that more of life gave you the ability to effect change on things that affect you like you get in open source. I think that's a big part of why I've continued to do it for the best part of the decade.
 
 **Jerod Santo:** Absolutely. Dominic, we just wanna say thank you for all the work that you have done. No doubt, you've brought lots of value to lots of people, countless people around the world that you've never even met, and the beauty of open source - all these modules on Npm, the work that you're doing in the Javascript community... Hey, we definitely want to get you back to talk about Scuttlebutt and the interesting stuff there. Talk about hacking with your friends - this seems like a very cool kind of offline social networking thing happening, which is very much in the spirit of what we like to cover on The Changelog, so we definitely want to have you back, but... We're happy to have you, we're glad you joined us, especially on short notice, to talk about this situation.
 
