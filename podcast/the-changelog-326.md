@@ -138,7 +138,7 @@ And the other thing is that the attack depended on the event stream code doing s
 
 **Jerod Santo:** That you could request from...
 
-**Dominic Tarr:** Yeah, that that module depended on. Event-stream was like -- it doesn't do any IO, it doesn't do any networking or file access, it just loads other things together... Then compromising event-stream wouldn't have been useful for this attack. You would have to compromise something else that had access... And then, of course, it also monkey-patched the constructor of something that then it got the keys from; if you had a good sandboxing thing, it wouldn't have been able to do that.
+**Dominic Tarr:** Yeah, that that module depended on. Event-stream was like -- it doesn't do any IO, it doesn't do any networking or file access... it just loads other things together... Then compromising event-stream wouldn't have been useful for this attack. You would have to compromise something else that had access... And then, of course, it also monkey-patched the constructor of something that then it got the keys from; if you had a good sandboxing thing, it wouldn't have been able to do that.
 
 I've been aware of this stuff being developed for some years; there's this thing called ERights, which is quite old... This guy, Mark Miller, who is also the chief architect on the Xanadu project... Are you familiar with Xanadu?
 
