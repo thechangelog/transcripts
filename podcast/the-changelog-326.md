@@ -26,15 +26,15 @@ I wrote the event-stream module like seven years ago, and at that time -- Node.j
 
 Then another year or two after that the Node core team had decided they were gonna fix all the problems with Streams and create Streams 2. I hadn't managed to participate in any of these discussions on what was gonna go in Streams 2; it was all at this Node conference in California, and I wasn't there... And when I saw what they wanted to add, I was like "This is horribly bloated and ugly." But it was also backwards-compatible, which made it twice as bad. I tried some mild protesting, and they were just like "We've already decided, this is how we're gonna do it."
 
-That sort of spurred me to be like "Well, if you're gonna really make a really minimal efficient stream thing that wasn't backwards-compatible with the current streams, what would it look like?" I started experimenting - me and some friends - and came out with pause-stream. Pause-stream is really minimal -- you just have two functions; one function is just a normal Node async function, and you call it repeatedly, one at a time. So you have a readable function. And then you have a reader function, which is a function that the readable was passed to. I've got detailed blog posts about both the history of Node.js streams and pause-stream, so you can go through them at dominictarr.com.
+That sort of spurred me to be like "Well, if you're gonna really make a really minimal efficient stream thing that wasn't backwards-compatible with the current streams, what would it look like?" I started experimenting - me and some friends - and came out with pull-stream. Pull-stream is really minimal -- you just have two functions; one function is just a normal Node async function, and you call it repeatedly, one at a time. So you have a readable function. And then you have a reader function, which is a function that the readable was passed to. I've got detailed blog posts about both the history of Node.js streams and pull-stream, so you can go through them at dominictarr.com.
 
-\[00:07:46.25\] Pause-stream was like -- I decided this was actually so much better and solved several of the problems that node streams had, like error propagation... So if the error occurs somewhere in the stream, it cleans up and aborts the whole stream, and you know that the stream ended in error... Or just move data about, like you did with event-stream. It was just much more minimal and lightweight and efficient, and benchmarks said it was faster, and stuff like this... Even though I hadn't really tried to optimize it, I had just written all this code... So I had fully moved on by that point. It was like "This thing is great." And I've really tried to promote pause-streams.
+\[00:07:46.25\] Pull-stream was like -- I decided this was actually so much better and solved several of the problems that node streams had, like error propagation... So if the error occurs somewhere in the stream, it cleans up and aborts the whole stream, and you know that the stream ended in error... Or just move data about, like you did with event-stream. It was just much more minimal and lightweight and efficient, and benchmarked that it was faster, and stuff like this... Even though I hadn't really tried to optimize it, I had just written all this code... So I had fully moved on by that point. It was like "This thing is great." And I've really tried to promote pull-streams.
 
-Some people cottoned on, and there's a pretty good community of people that use it... But anyway, by the time -- that was also several years ago, so I had completely moved on from event-stream like twice.
+Some people caught on and there's a pretty good community of people that use it... But anyway, by the time -- that was also several years ago, so I had completely moved on from event-stream like twice.
 
 **Jerod Santo:** Yeah, not only had you stopped working on it and maintaining it, but you had replaced it with things that you consider much better quality, the way to go. In your mind, this particular package was ancient history, right?
 
-**Dominic Tarr:** Yeah. And at that point it wasn't really popular, yet I think it became popular when Gulp used it. I never used Gulp... It's like a build tool, kind of like Make, or something like that. It's for building all of your projects, and stuff like that... I always felt that Javascript didn't really need one of those, but anyway, Gulp happened and got pretty big, and it used event-stream; in the first version it used event-stream in its example documentation, and stuff... So that's when it actually became more popular, but that was after I had already moved on to pause-stream's family enough.
+**Dominic Tarr:** Yeah. And at that point it wasn't really popular, yet I think it became popular when Gulp used it. I never used Gulp... It's like a build tool, kind of like Make, or something like that. It's for building all of your projects, and stuff like that... I always felt that Javascript didn't really need one of those, but anyway, Gulp happened and got pretty big, and it used event-stream; in the first version it used event-stream in its example documentation, and stuff... So that's when it actually became more popular, but that was after I had already moved on to pull-stream's family enough.
 
 **Adam Stacoviak:** So you moved on twice, then it became popular, and you're still moved on from this project... Like, from how you use it, its usefulness to you. Not so much just the project, but its usefulness to you - how you use it to develop applications, or using your tools and toolchain... But Grunt made it popular, Gulp... I'm not sure if Grunt may have used it or not, but they were all on -- no, you said Gulp, I said Grunt.
 
@@ -128,13 +128,13 @@ This was an attack described like in the early '90s, by the creators of UNIX, th
 
 **Jerod Santo:** So we're talking about ways that these kinds of attacks can be prevented down the road, systematic things we can do, or maybe if we can't do them and maybe certain platforms have to do them; certainly, maintainers have things that we can do, but you mentioned the deterministic builds/reproducible builds, but you also have some other things that could be features of our systems, that would help from this kind of attack happening. Wanna elaborate on those, Dominic.
 
-**Dominic Tarr:** Yeah. Well, firstly, reproducibly might have made it easier to...
+**Dominic Tarr:** Yeah. Well, firstly, reproducible builds might have made it easier to...
 
 **Jerod Santo:** Detect.
 
 **Dominic Tarr:** Reproducible builds might have flagged this, but he might have gone to -- like, if they had checked in the malicious code, maybe no one would have noticed. Once it was apparent that there was some encrypted code that was being run, it was like "Something is differently very suspicious", but if it had unencrypted, that might have actually been more effective. We don't really know... It could have been overkill to encrypt it, and so that would have actually gotten past a reproducible build, because the bad stuff would have been just hiding in plain sight.
 
-And the other thing is that the attack depended on the event stream code doing several things that -- well, rather the flatMap() code doing several things that really had no business doing. So to successfully steal people's Bitcoin keys and then send them back to the attacker, it needs to do network IO, and event-stream itself didn't need to do that; that is completely outside of the stated purpose of event-stream... Same with \[unintelligible 00:29:18.17\] and the Crypto module. So if there was a specific list of what permissions, on a module basis, that...
+And the other thing is that the attack depended on the event stream code doing several things that -- well, rather the flatMap() code doing several things that really had no business doing. So to successfully steal people's Bitcoin keys and then send them back to the attacker, it needs to do network IO, and event-stream itself didn't need to do that; that is completely outside of the stated purpose of event-stream... Same with accessing the crypto module and that sort of stuff. So if there was a specific list of what permissions, on a module basis, that...
 
 **Jerod Santo:** That you could request from...
 
@@ -146,7 +146,7 @@ I've been aware of this stuff being developed for some years; there's this thing
 
 **Dominic Tarr:** This is something you should definitely know about... Maybe you should do a whole podcast on it. So this guy Ted Nelson had this idea for the World Wide Web, but better. It had versioning built in, and you had this thing called transclusion, where a link just embedded other documents. But the thing is he had this idea in the 1960's, and then spent several decades trying to develop it... And by the time the web came along, the first release of the web from Tim Berners-Lee cited Xanadu, and was like "I wish Xanadu was ready, but given that it isn't, here's a crappy version of the idea that I cobbled together."
 
-Project Xanadu was like a faster, more ambitious idea. It actually inspired a lot of people, but failed to deliver any usable software. The history of it is quite amazing, because it has quite a big impact in terms of ideas, but it didn't successfully deliver anything. It still was instrumental in actually creating the web, but the creator of Xanadu was like "The web is actually a really disappointing, crappy version of what we were trying to do."
+Project Xanadu was like a far, far more ambitious idea. It actually inspired a lot of people, but failed to deliver any usable software. The history of it is quite amazing, because it has quite a big impact in terms of ideas, but it didn't successfully deliver anything. It still was instrumental in actually creating the web, but the creator of Xanadu was like "The web is actually a really disappointing, crappy version of what we were trying to do."
 
 **Jerod Santo:** I found Project Xanadu on Wikipedia, reading a little bit along, and I agree this would make a great show to do separately... But what's interesting is that there was a working deliverable called Open Xanadu that was released in 2014; it was called "Open" because you can see all the parts... So not necessarily open source, but just open to see.
 
@@ -170,7 +170,7 @@ Many people will point out that getting sandboxing right is extremely difficult,
 
 **Jerod Santo:** Mm-hm. It'd be easier to start fresh.
 
-**Dominic Tarr:** Well, I think it could actually be added userspace. You might have to go through and be like "This thing can have these permissions or not."
+**Dominic Tarr:** Well, I think it could actually be added in userspace. You might have to go through and be like "This thing can have these permissions or not."
 
 **Adam Stacoviak:** You mentioned earlier that it didn't need IO access, so that would be an easy one... So if this module ever requested or used IO, then something is very odd about its behavior, because its described behavior says that it shouldn't use certain APIs or certain feature sets, essentially.
 
@@ -180,7 +180,7 @@ Many people will point out that getting sandboxing right is extremely difficult,
 
 **Adam Stacoviak:** Right. Gosh, yeah... What a world...
 
-**Dominic Tarr:** Yeah, I think it would be a good improvement, but Android phones, etc, have this kind of permissions system. And I think most people would just click Okay.
+**Dominic Tarr:** Yeah, I think it would be a good improvement, like Android phones, etc, already have this kind of permissions system. And I think most people would just click Okay.
 
 **Jerod Santo:** Exactly, yeah. \[laughs\] We're pushing the attack vector up the stack, to the end user, who's more likely to not even know what the heck it's talking about and say yes.
 
@@ -270,7 +270,7 @@ That seems to make sense to me in terms of the passing of the torch. That seems 
 
 But in this case, if there was a way for Dominic to say to Npm, "Hey, I want to abandon this. Let me attach an Abandoned flag..." This is what you're saying, Jerod, where the dependency tree now knows that, so as I ever use this package or dependency, then I'm somehow made aware, like "Hey, this dependency you have in your tree has been flagged as abandoned on Npm. There may be something you wanna look at here, and/or look for a fork, and/or create your own fork, and begin a new line of trust." What you're saying is that if that's the case, then this abandoned version is cemented in stone and frozen forever.
 
-**Dominic Tarr:** So let's say I had just been like "Okay, I've abandoned event-stream." If that somehow prompted the users of event-stream to update, then that would actually be a prime time for them to come along and be like "Oh, I'm maintaining a new fork of event-stream. I'll respond to things, and users, that sort of stuff", and people then opt into that... You could pull off the same kind of thing there.
+**Dominic Tarr:** So let's say I had just been like "Okay, I've abandoned event-stream." If that somehow prompted the users of event-stream to update, then that would actually be a prime time for the attacker to come along and be like "Oh, I'm maintaining a new fork of event-stream. I'll respond to things, and users, that sort of stuff", and people then opt into that. You could pull off the same kind of thing there.
 
 **Jerod Santo:** Yeah, you're right.
 
