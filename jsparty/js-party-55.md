@@ -12,7 +12,7 @@
 
 **Kevin Ball:** We're excited to have you with us. You gave a talk yesterday afternoon... Do you wanna tell us a little bit about it?
 
-**Nick Nisi:** Sure. It was called "npm and the future of Javascript", which is a pretty lazy title on my part, because I realized a couple months ago that basically I'm always talking about npm and the future of Javascript; no matter what it is that I'm specifically talking about, it always involves npm and stuff that's going to happen. But specifically what I was talking about in this case was I was trying to help people make technical choices in 2019 by giving them some results from an analysis of the huge pile of data that npm has available to us about what people who write Javascript are up to.
+**Laurie Voss:** Sure. It was called "npm and the future of Javascript", which is a pretty lazy title on my part, because I realized a couple months ago that basically I'm always talking about npm and the future of Javascript; no matter what it is that I'm specifically talking about, it always involves npm and stuff that's going to happen. But specifically what I was talking about in this case was I was trying to help people make technical choices in 2019 by giving them some results from an analysis of the huge pile of data that npm has available to us about what people who write Javascript are up to.
 
 The two sources of data that we used were basic registry stats, so we can tell if people are downloading more stuff or less stuff on a per-package basis, and we also ran a really big survey of 16,000 npm users, and asked them directly "So what are you doing?"
 
