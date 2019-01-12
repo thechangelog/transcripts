@@ -342,7 +342,7 @@ For example, for people who want something like YouTube, where you upload videos
 
 There is a project that focuses on image sharing, kind of like Instagram. It's called PixelFed and it's gonna work the same way - you follow a PixelFed user from your Mastodon account and the photos just appear in your feed. And if you reply to them, your reply appears as a comment on that photo. Again, with the videos - you comment on the video and the comment appears under the video on PeerTube.
 
-So when you decide to use Mastodon, you're not really just gambling on the success of Mastodon by itself, you're gambling on this interoperable network that implements this protocol. We actually call it the FedeVerse, like Federated Universe... So you would likely hear that term used commonly.
+So when you decide to use Mastodon, you're not really just gambling on the success of Mastodon by itself, you're gambling on this interoperable network that implements this protocol. We actually call it the Fediverse, like Federated Universe... So you would likely hear that term used commonly.
 
 Essentially, it's part of the design that eventually, years later maybe, some developer comes along and develops something that is 1,000 times better than Mastodon, but as long as it uses the same protocol, people can just switch smoothly, and rather than losing all of their social graph, their connections, their friends, they're still in the same network, and it's just like switching to a different account... And I think that's the strength of Mastodon, and its main ideological differentiator.
 
