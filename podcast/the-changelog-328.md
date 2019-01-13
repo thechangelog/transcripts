@@ -104,7 +104,9 @@ Sure, we mentioned earlier the three C's, but that's just the boilerplate, it's 
 
 I think another thing that sticks out for me is that it was sort of a different style of show for us.
 
-**Jerod Santo:** Absolutely. I was gonna say that. I think we just sort of like stepped back and said "What are some other conversations we wanna have that aren't exactly open source per se or project per se, with that kind of underpinning? What's a good story that we need to tell, that really makes sense and resonates?"
+**Jerod Santo:** Absolutely. I was gonna say that.
+
+**Adam Stacoviak:** I think we just sort of like stepped back and said "What are some other conversations we wanna have that aren't exactly open source per se or project per se, with that kind of underpinning? What's a good story that we need to tell, that really makes sense and resonates?"
 
 I think one is just the managing and being a leader within a developer organization, and in particular Julia's perspective on that and how she's helped grow that team... So that was a scaling show not just about tech scaling, but also people scaling, relationship scaling, and how you deal with the ins and outs, and things like that. So I think it had a lot of really unique, humanistic perspectives that for me I just walked away really enjoying it, and I think that's probably what the audience felt, as well.
 
