@@ -16,7 +16,7 @@
 
 **Daniel Whitenack:** Yeah, it looked like a portrait of a guy.
 
-**Chris Benson:** Yeah, it was called &quot;Portrait of Edmond de Belamy&quot;, if I&#39;m saying that correctly, and it&#39;s a fictional person, from a fictional family. When you were telling us about it last, it hadn&#39;t gone to auction yet, but [unintelligible 00:02:14.14] was going to, and they were expecting it to raise somewhere between $7,000 and $10,000. A few days after our episode went live, it actually went to auction and it ended up selling for $432,500.
+**Chris Benson:** Yeah, it was called &quot;Portrait of Edmond de Belamy&quot;, if I&#39;m saying that correctly, and it&#39;s a fictional person, from a fictional family. When you were telling us about it last, it hadn&#39;t gone to auction yet, but Christies was going to, and they were expecting it to raise somewhere between $7,000 and $10,000. A few days after our episode went live, it actually went to auction and it ended up selling for $432,500.
 
 **Daniel Whitenack:** Boom! That&#39;s crazy.
 
