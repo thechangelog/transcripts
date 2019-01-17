@@ -74,7 +74,7 @@ I mean, it wasn't a choice that I was interested in no matter what, but I'm actu
 
 **Adam Stacoviak:** Because that's why at infrastructure levels it's like "If we build and we can't make money from it..."
 
-**Brendan Burns:** Yeah, I know, it's tough, and I actually feel like as a cloud provider if we're not creating a platform that you can make money on as \[unintelligible 00:09:12.08\] software vendor, long-term we're making a mistake... And I think one of the great -- it's attributed to Bill Gates, but one of the things he said early on was "For every dollar that Microsoft makes, our partners have to make ten dollars." I think if you don't have that vision, and if you don't have that notion that to build a successful platform you have to enable other people to make on it... You can't be always cannibalizing their stuff. I don't know that we're there in cloud yet, but I think we really should try and get there.
+**Brendan Burns:** Yeah, I know, it's tough, and I actually feel like as a cloud provider if we're not creating a platform that you can make money on as an independent software vendor, long-term we're making a mistake... And I think one of the great -- it's attributed to Bill Gates, but one of the things he said early on was "For every dollar that Microsoft makes, our partners have to make ten dollars." I think if you don't have that vision, and if you don't have that notion that to build a successful platform you have to enable other people to make on it... You can't be always cannibalizing their stuff. I don't know that we're there in cloud yet, but I think we really should try and get there.
 
 **Adam Stacoviak:** Any risks coming up that you're aware of around this concern?
 
@@ -136,7 +136,7 @@ And one thing I'll often have to tell people about our perspective when it comes
 
 **Brendan Burns:** "No one else is here." Is this really winning?
 
-**Adam Stacoviak:** What triumph is worthy \[unintelligible 00:18:53.00\]
+**Adam Stacoviak:** What triumph is worthy of \[unintelligible 00:18:53.00\]
 
 **Brendan Burns:** Yeah, and I think that's the trouble - some people focus more on the winning than on empowering the user. And obviously, it's great -- I love the fact that we're here and there's 7,500 people here... That's amazing. It's way better than me being in my basement and being like "Look at my Kubernetes projects... I wish somebody would look at it." But as I said at the get-go - I think we're here because we've had that "Take the high road, build people up" sort of ethos; we've invited people in, we've invited people to join, and to help, and to find a place where they can contribute.
 
@@ -206,7 +206,7 @@ I've been spending a lot of time on the VS Code extension for Kubernetes. I've b
 
 **Adam Stacoviak:** Is that right? Okay.
 
-**Brendan Burns:** And by way of experiment, I'm gonna show the complexity of how we build these libraries, starting with a GitHub issue that's sitting out there, because somebody wants to use our generated library to proxy request, and they find out that they can only do \[unintelligible 00:31:10.11\] and they file an issue and they're like "Why can't I do this?"
+**Brendan Burns:** And by way of experiment, I'm gonna show the complexity of how we build these libraries, starting with a GitHub issue that's sitting out there, because somebody wants to use our generated library to proxy a request and they find out that they can only do GETs. They can't PUT bodies and they can't do POSTs and PUTs, so they file an issue and they're like "Why can't I do this?"
 
 All of our libraries are built from OpenAPI specifications. So it's a JSON specification for an API that the Kubernetes community puts out; you take it, you put it into a code generator, it generates a whole bunch of code. That tool actually we don't control. It's another open source project.
 
@@ -340,7 +340,7 @@ As a tribute to all of that, and a tribute to the fact that KubeCon had come to 
 
 **Brendan Burns:** Oh, yes, I've seen some of that stuff.
 
-**Adam Stacoviak:** For whatever reason, the conferences \[unintelligible 00:40:00.14\] still had a huge stack, I wanna say maybe like 25 of them, and I've been thinking... Like, I wanna keep one for me. I've got one of them framed, ready to go up on the wall, because I wanna place it in my studio...
+**Adam Stacoviak:** For whatever reason, the conference from last year still had a huge stack, I wanna say maybe like 25 of them, and I've been thinking... Like, I wanna keep one for me. I've got one of them framed, ready to go up on the wall, because I wanna place it in my studio...
 
 **Brendan Burns:** \[00:40:15.25\] Right.
 
