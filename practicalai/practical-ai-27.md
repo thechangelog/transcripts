@@ -1,5 +1,3 @@
-\[00:00:45.08\]
-
 **Daniel Whitenack:** Well, hey Chris. How are you doing?
 
 **Chris Benson:** I'm doing fine. How's it going today, Daniel?
@@ -159,5 +157,3 @@ That change I think is very much for the positive, and people who do experience 
 **Chris Benson:** Fantastic. Thank you both for coming on the show. I wish you very well in this work. Goodbye!
 
 **Ajay Royyuru:** Thank you. It was a pleasure talking to you.
-
-Break: \[00:40:06.26\] to \[00:41:43.04\]
