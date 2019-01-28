@@ -6,6 +6,7 @@
   ],
   "imageSize": 100,
   "commit": true,
+  "contributorsPerLine": 6,
   "contributors": [
     {
       "login": "alexandrumaier",
