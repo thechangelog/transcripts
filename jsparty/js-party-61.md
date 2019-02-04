@@ -4,7 +4,7 @@
 
 **Nick Nisi:** And Kball.
 
-**Daniel Whitenack:** I'm back! Again.
+**Kevin Ball:** I'm back! Again.
 
 **Nick Nisi:** Welcome back. Today we're gonna cover a couple of different topics. We're gonna start with a great article on the CSS-Tricks blog called The Great Divide. Then we're going to talk about why 2019 is looking like it's going to be the year of TypeScript, and then we're going to give some shout-outs to people who are just doing awesome things in the community.
 
@@ -14,7 +14,7 @@ With that first topic, let's start right off. This is a blog post on CSS-Tricks 
 
 **Nick Nisi:** \[00:03:41.03\] Yeah, I noticed that too, and I definitely see that personally with what I tend to work on. I definitely would consider myself to be more in the doing less CSS and HTML part, and doing more the logic and moving data around part, while still being on the front-end. But that hasn't always been the case. I've definitely done a lot with HTML and CSS, and I think that I can do a lot with it, but when I look at what has changed and what's coming in the CSS world, and even with markup, with semantic HTML, I often have to remind myself what semantic tags are out there, and what might be the best way to go about doing something in CSS.
 
-**Daniel Whitenack:** I think there's a couple different aspects that we can look at here... There's this question of "Where is this divide coming from?" Is it due to the fact that the front-end ecosystem as a whole is getting much more powerful and expansive, so specialization is kind of resulting in this? Or are there other cultural aspects leading to it?
+**Kevin Ball:** I think there's a couple different aspects that we can look at here... There's this question of "Where is this divide coming from?" Is it due to the fact that the front-end ecosystem as a whole is getting much more powerful and expansive, so specialization is kind of resulting in this? Or are there other cultural aspects leading to it?
 
 One of the things that I think about a lot is the relationship between design and front-end development, and I think that's a place where there are kind of blurred and shifting lines. There's always been some tension between design and development as a whole, and the front-end is one of the places where those two -- I won't say competing, but two groups with different priorities often end up colliding and having to interact... And that where those lines are, and what's considered design or what's considered development has been shifting and blurring and moving around.
 
@@ -34,13 +34,13 @@ That's my take on it. I think it's a lot of gatekeeping defensiveness and people
 
 **Nick Nisi:** Yeah, I agree, and I too would like to see less of a divergence of these fields, but I'm wondering if the current state of frameworks and just Javascript in general is kind of helping push towards that as we abstract away those things like HTML and CSS into a CSS-in-JS and JSX future... Is that what's pushing this divergence, too? Because then you're locked into the way that maybe these frameworks do things; and they are standardizing in different ways, but still, without coming to it from a programming background, it's a massive thing to undertake to learn that if you're not familiar with it.
 
-**Daniel Whitenack:** I wonder how much of this is not actually a new divide, but rather a shifting in the lines of an existing divide... Because I'm remembering when I first started working in the web, there was very little -- I mean, jQuery was super-advanced; that was like "Whoa, we're talking advanced Javascript here. jQuery - man, this stuff is cool!" and there was a divide already between the back-end engineers, the folks who were doing all of the intensive logic and all these high-level concepts and not worried so much about what the user interface looked like, and those folks who were thinking about things from a more visual and interaction perspective. There was a lot of debate and argument, "What's the right way to do interactions? Should this be valued or should that be valued? It doesn't really matter what happens on the front-end, so long as the back-end is right." That whole argument played out then, and it was happening between people who self-conceptualized as front-end developers and people who self-conceptualized as back-end developers.
+**Kevin Ball:** I wonder how much of this is not actually a new divide, but rather a shifting in the lines of an existing divide... Because I'm remembering when I first started working in the web, there was very little -- I mean, jQuery was super-advanced; that was like "Whoa, we're talking advanced Javascript here. jQuery - man, this stuff is cool!" and there was a divide already between the back-end engineers, the folks who were doing all of the intensive logic and all these high-level concepts and not worried so much about what the user interface looked like, and those folks who were thinking about things from a more visual and interaction perspective. There was a lot of debate and argument, "What's the right way to do interactions? Should this be valued or should that be valued? It doesn't really matter what happens on the front-end, so long as the back-end is right." That whole argument played out then, and it was happening between people who self-conceptualized as front-end developers and people who self-conceptualized as back-end developers.
 
 Today, due to a number of factors, much more of the application logic is happening in what is now called the front-end, but is still logic code, not necessarily thinking about user experience or visualization, and we're having what sounds very similar in terms of interaction, but now it's between two sets of people who both identify as front-end developers, because now all of that user experience independent logic or various things is happening in the front-end.
 
 **Nick Nisi:** David.Dexter in the chat points out that you used to have front-end and back-end, but now front-ends have their own back-ends, that are also in the front-end... And then a back-end as well. So things have gotten a lot more complex, and that definitely could be contributing to this.
 
-**Daniel Whitenack:** I think it's worth looking at the different frameworks that have risen to prominence, and the ways in which they have their own cultures; they have the cultures that they're coming out of, and then they also have the cultures which have sort of sprung up around them in the open source community.
+**Kevin Ball:** I think it's worth looking at the different frameworks that have risen to prominence, and the ways in which they have their own cultures; they have the cultures that they're coming out of, and then they also have the cultures which have sort of sprung up around them in the open source community.
 
 \[00:12:15.29\] If we think about our top three Javascript frameworks of the day, we have React, Angular and Vue, and both React and Angular are coming out of companies that have a reputation of being very much engineering-first and engineering-driven... And not having as much emphasis - at least in the cultural side - on user interface, on user-centered design, on any of these types of things... And perhaps not coincidentally, the frameworks themselves are extremely complex in terms of the concepts required - especially Angular, but I think React as well; React has a lot of emphasis on pretty programming-centric, very CS-y concepts around functional programming and various other things that have (maybe intentionally, maybe not) fostered communities that exacerbate this divide.
 
@@ -60,11 +60,11 @@ So I'm confused as to why these cultural things happen, because a lot of the tim
 
 **Nick Nisi:** I love that.
 
-**Daniel Whitenack:** There's a concept that was very deeply embedded in the development of the web, that I feel like we've kind of forgotten as an industry, which is the principle of least power.
+**Kevin Ball:** There's a concept that was very deeply embedded in the development of the web, that I feel like we've kind of forgotten as an industry, which is the principle of least power.
 
 **Suz Hinton:** Yes...
 
-**Daniel Whitenack:** And for those who may not be super-familiar with it, the idea is that we should use the least powerful language available to us that is sufficient to express whatever we're trying to do. So if we have something that is expressible purely in static markup, we should use static markup to do it, not a full-featured programming language that can then do it. If we have something that requires a little bit more, maybe it needs CSS because it's doing something, we should layer that on, and only do the things that we absolutely need all the power of a fully-featured programming language in that language.
+**Kevin Ball:** And for those who may not be super-familiar with it, the idea is that we should use the least powerful language available to us that is sufficient to express whatever we're trying to do. So if we have something that is expressible purely in static markup, we should use static markup to do it, not a full-featured programming language that can then do it. If we have something that requires a little bit more, maybe it needs CSS because it's doing something, we should layer that on, and only do the things that we absolutely need all the power of a fully-featured programming language in that language.
 
 The thinking behind this is what I think is commonly missed. The thinking behind this is the simpler the expression, the more tricks/analyses/other things we can do automatically with it. If you have something that is purely markup, the things that we can do in terms of statically analyzing that, and having machines do things to it, and transform it, and do all sorts of stuff is phenomenal. By the time you get to Javascript, the amount of static analysis we can do and the amount of things that for example Google search crawler, or whatever - our ability to do things with that that don't require a human drops dramatically... And we've kind of gone around to another direction, where the industry at large is in a place of "throw as much power at it as possible." Templating languages don't let you do everything that Javascript is, so let's actually wrap up all of Javascript in something that sort of looks like a templating language and call it JSX, because you never know when you're gonna need all that power.
 
@@ -82,7 +82,7 @@ I think that is harming us along many dimensions, and it's creating -- you know,
 
 I'm excited about the idea of people trying to make this easier and trying to create abstractions, because making a webpage is actually complex; even if you are doing it with just HTML and CSS, there are a lot of things you need to think about. But I think we really need to step back and value a lot of the older crufts of the industry before you can actually start automating it.
 
-**Daniel Whitenack:** The thing I wanna highlight on the principle of least power is something I'm gonna quote around from Tim Berners-Lee's explanation of that - he's saying the idea of doing this declarative form allows the data that you're putting there to be analyzed in ways that are never dreamed of by its creators. So by moving everything into Javascript, we give the creators more power, but at the cost of taking away that power from other people who might wanna interpret that data... And that plays out very directly in things like accessibility.
+**Kevin Ball:** The thing I wanna highlight on the principle of least power is something I'm gonna quote around from Tim Berners-Lee's explanation of that - he's saying the idea of doing this declarative form allows the data that you're putting there to be analyzed in ways that are never dreamed of by its creators. So by moving everything into Javascript, we give the creators more power, but at the cost of taking away that power from other people who might wanna interpret that data... And that plays out very directly in things like accessibility.
 
 If something is all markup, then somebody who cares very deeply about accessibility can worry about the right way to interpret that markup to make it accessible, and that can vary widely by device. Different devices might interact with that in a different way. When you move it into Javascript, now suddenly the creator has to think about all the possible ways that somebody might want to read and access this data, and I can guarantee you that most creators don't have in their minds all of those accessibility things. I certainly don't; I don't deal with it every day. I'd far rather let somebody who deals with it every day be able to interpret my stuff and make it work well for them.
 
@@ -94,7 +94,7 @@ If something is all markup, then somebody who cares very deeply about accessibil
 
 I think that the big thing that kicked off this year of TypeScript might have come in August of last year, when Babel added support for TypeScript.
 
-**Daniel Whitenack:** Yeah, that definitely made a huge difference, because one of the things that was holding folks back... We had a conversation with Laurie Voss of Npm, and he sort of highlighted one interested thing - he said if you're using a build system anyway, maybe Javascript isn't the language you wanna be using.
+**Kevin Ball:** Yeah, that definitely made a huge difference, because one of the things that was holding folks back... We had a conversation with Laurie Voss of Npm, and he sort of highlighted one interested thing - he said if you're using a build system anyway, maybe Javascript isn't the language you wanna be using.
 
 A lot of the value of Javascript was you could just write code and it would just work, but by the time you're using a build system, maybe you wanna explore some other things, with some other additional power. Well, folks were using a build system, but it was Babel-based, and they didn't wanna lose some of the other things that they had from Babel... But once you could flip the switch, keep using your same build system, but start using TypeScript -- and I think TypeScript facilitates this by being very incremental... You can adopt just types, you don't have to adopt all sorts of other stuff; it's a superset of Javascript, you don't have to refactor your whole application... This made the road to experiment with and using TypeScript so much smoother, so yeah, that was probably -- I mean, it would be interesting to see if there was a graph somewhere of TypeScript use, but I bet that was a kink in the curve.
 
@@ -110,7 +110,7 @@ A lot of the value of Javascript was you could just write code and it would just
 
 **Nick Nisi:** I think that when I first started playing with it, it was in 2013 - so that was before ES6 (2015) came out, and all of those features, so I think that when I first started looking at it was not something that I liked at all, because it had this weird module thing that they've since renamed to namespaces, that I didn't really understand. Then they had special ways of working with AMD code, or CommonJS, and it just seemed really weird to me. But then, when they started getting behind ES6 and the proposals in there, and going that route, things started to make more sense to me. And yeah, totally, interfaces were the thing that really got me hooked, and I think from a more direct route, it was being able to specifically state what a method should accept as arguments and what it's going to return. I saw that as "Wow, I can just document this, and it's like \[unintelligible 00:31:56.22\] but it's just in the code, and now look at all of these unit tests that I don't have to write." Because if I just rely completely on the type system warning me if I'm not passing the right things to it, then I don't have to worry about checking to make sure that I pass the right arguments.
 
-**Daniel Whitenack:** \[00:32:14.04\] I have to admit I'm not actually using TypeScript yet. It is number one on my list of things to learn for the year, but I'm not using it yet. But I will tell you what triggered me over into saying "This is number one I'm gonna make the jump and start using it" - it was nothing related to TypeScript itself, really. I've been in what I think of as duck typed, or loosely typed languages for a long time; Ruby and Python and Javascript are kind of my go-to's... And I've been working on a project (for not that long) using Go. And Go has types, and particularly for working in a project where I didn't build it from scratch -- and now I'm building a new one from scratch; but working in projects where perhaps you're expecting to bring in new folks, or things like that, the discoverability aspect of having types in there, and the ability to sort of "I'm working with a new library, that I'm not very familiar with, and it tells me when I'm using it wrong" - that's so cool!
+**Kevin Ball:** \[00:32:14.04\] I have to admit I'm not actually using TypeScript yet. It is number one on my list of things to learn for the year, but I'm not using it yet. But I will tell you what triggered me over into saying "This is number one I'm gonna make the jump and start using it" - it was nothing related to TypeScript itself, really. I've been in what I think of as duck typed, or loosely typed languages for a long time; Ruby and Python and Javascript are kind of my go-to's... And I've been working on a project (for not that long) using Go. And Go has types, and particularly for working in a project where I didn't build it from scratch -- and now I'm building a new one from scratch; but working in projects where perhaps you're expecting to bring in new folks, or things like that, the discoverability aspect of having types in there, and the ability to sort of "I'm working with a new library, that I'm not very familiar with, and it tells me when I'm using it wrong" - that's so cool!
 
 It made the learning curve and the feeling of security without having to write a million unit tests much more powerful, and especially when working with things that are potentially hard to unit test, because they're working with third-party libraries and I'm still learning how those libraries are working - having those types in there just made it way easier to get started and be productive. So that got me thinking, "Hey, this duck typing thing that I've been so used to, and where I got frustrated when I was doing stuff with Flow, and whatever - maybe I should just bite the bullet and get over the learning curve", especially now that TypeScript, the recent stuff, they have an ability to do smarter things with functions that take multiple functions, and that sort of thing. This stuff is pretty cool.
 
@@ -118,7 +118,7 @@ It made the learning curve and the feeling of security without having to write a
 
 **Nick Nisi:** I was gonna say the exact same thing. My Java friends laugh at me when I'm like "This is the coolest thing! Look, it knows what I want!" \[laughter\]
 
-**Daniel Whitenack:** But I think what is really nice about the modern era of typed languages - you know, thinking about things like TypeScript and Go and stuff like that - is that they appear to accomplish that level of support without the feeling of being strangled in a straight jacket that I always felt when I was trying to code in Java, or something like that.
+**Kevin Ball:** But I think what is really nice about the modern era of typed languages - you know, thinking about things like TypeScript and Go and stuff like that - is that they appear to accomplish that level of support without the feeling of being strangled in a straight jacket that I always felt when I was trying to code in Java, or something like that.
 
 **Nick Nisi:** Precisely, I totally agree with that. It's not like trying to take the static type system of another language and bring it to the web; it's trying to build a type system on top of a language that has never had types before, and allowing you to have that structure, but also to by-pass it when you really need to. But that's becoming less and less of a thing that you need to do, as types have been getting smarter, and things like conditional types and more complex generics have taken hold... It makes it really hard to justify using \[unintelligible 00:35:55.16\]
 
@@ -126,17 +126,17 @@ It made the learning curve and the feeling of security without having to write a
 
 There are three big projects that I wanted to highlight, that have announced that they're moving to TypeScript. The first one - and I think the oldest news - is Vue moving to TypeScript, so Vue 3 will be using TypeScript. But more recently, Jest is moving to TypeScript, as well as Yarn. I think that was just announced today. Those are two pretty big projects, that are both from Facebook, or have some origin at Facebook... Which is really interesting, because Facebook also has the competing type language for Javascript, and that's Flow. So it's really interesting to see these two projects move in that way.
 
-**Daniel Whitenack:** Yeah. And there was an article that I came across this week (that is going out in my newsletter) around someone moving from Flow to TypeScript. They highlighted a number of things, and they pointed out some places where Flow seemed better, some places where TypeScript seemed better, but the big thing that was showing up, and what I suspect is one of the reasons behind more and more of these projects moving to TypeScript, was community adoption and support.
+**Kevin Ball:** Yeah. And there was an article that I came across this week (that is going out in my newsletter) around someone moving from Flow to TypeScript. They highlighted a number of things, and they pointed out some places where Flow seemed better, some places where TypeScript seemed better, but the big thing that was showing up, and what I suspect is one of the reasons behind more and more of these projects moving to TypeScript, was community adoption and support.
 
 The number of public types files in -- what's it called for TypeScript...?
 
 **Nick Nisi:** DefinitelyTyped?
 
-**Daniel Whitenack:** Yeah, exactly... It dramatically outweighs the number of existing public Flow stuff, which means that it's more and more possible to take advantage of types end-to-end, through not only your project, but all of the dependencies that you are pulling in... And that the community support in terms of people being able to help you out if you have questions is much higher. It seems to have reached critical mass, and that brings a whole slew of benefits in an of itself that Flow may have never gotten to.
+**Kevin Ball:** Yeah, exactly... It dramatically outweighs the number of existing public Flow stuff, which means that it's more and more possible to take advantage of types end-to-end, through not only your project, but all of the dependencies that you are pulling in... And that the community support in terms of people being able to help you out if you have questions is much higher. It seems to have reached critical mass, and that brings a whole slew of benefits in an of itself that Flow may have never gotten to.
 
 **Nick Nisi:** Yeah. And in that article it has a link to a comment on Flow about having public milestones, and a Facebook developer responds to that with noting that Facebook has been very inward-facing with Flow, and working on performance, and hasn't really been keeping up with the full-time job of community engagement and understanding, whereas TypeScript, like you said, has taken over with its community support, and the third-party typings available has just skyrocketed... And I think that's defintely DefinitelyTyped that has facilitated that, but also the adoption of that through the @types Npm user that TypeScript uses to make it easier to pull in those types automatically.
 
-**Daniel Whitenack:** I saw Laurie Voss tweeted a teaser, essentially... In some talks last year he was highlighting that 40%+ of folks responding to the Npm Survey were saying they were using TypeScript. Well, apparently, in the next survey, which is not yet published, but has been taken, that's up to 62% of users who respond to Npm's survey are using TypeScript in some form or another. That's incredible penetration.
+**Kevin Ball:** I saw Laurie Voss tweeted a teaser, essentially... In some talks last year he was highlighting that 40%+ of folks responding to the Npm Survey were saying they were using TypeScript. Well, apparently, in the next survey, which is not yet published, but has been taken, that's up to 62% of users who respond to Npm's survey are using TypeScript in some form or another. That's incredible penetration.
 
 **Suz Hinton:** That's much higher than I expected it to be, for sure.
 
@@ -144,29 +144,29 @@ The number of public types files in -- what's it called for TypeScript...?
 
 \[00:40:10.04\] But then we're also seeing native TypeScript support being added to possibly the future of Npm. There was a tweet by @maybekatz on Twitter about tink, which is the proposed next-generation CLI for Npm, supporting TypeScript out of the box. So you can just point it to a TypeScript file, and with no configuration it will be able to run that.
 
-**Daniel Whitenack:** Yeah, and I think this is penetrating into folks' consciousness. I wrote at the beginning of the year a "What should you learn in front-end development post?" and I had TypeScript as my number one, and I think if I had done that two years ago, people would have laughed me out of the house. It would have been like "What are you talking about? Why would I learn TypeScript?" This year, that was probably the most viral post I've written in a long time. Folks were all about that.
+**Kevin Ball:** Yeah, and I think this is penetrating into folks' consciousness. I wrote at the beginning of the year a "What should you learn in front-end development post?" and I had TypeScript as my number one, and I think if I had done that two years ago, people would have laughed me out of the house. It would have been like "What are you talking about? Why would I learn TypeScript?" This year, that was probably the most viral post I've written in a long time. Folks were all about that.
 
 So I think this idea that if you're not using TypeScript, you should be using it soon, you should be learning it - it is starting to become just what people do.
 
 **Nick Nisi:** Yeah, exactly. And I think that another thing that we've learned from surveys is that VS Code has just skyrocketed in popularity as well. That's built with TypeScript, and it uses TypeScript for inference on TypeScript projects and JS projects. So it uses that language server built in... And I think that that might be contributing to it as well, because it's kind of free marketing for TypeScript. When you bring up your Javascript project in VS Code and it starts giving you hints on things that it's trying to infer, it's just kind of giving you a small taste of what your TypeScript future could be, which is kind of genius marketing, I guess.
 
-**Daniel Whitenack:** Though of course you can integrate that TypeScript into other editors, and if you're like me and you steal Nick Nisi's Vim config, you get it for free. \[laughter\]
+**Kevin Ball:** Though of course you can integrate that TypeScript into other editors, and if you're like me and you steal Nick Nisi's Vim config, you get it for free. \[laughter\]
 
 **Suz Hinton:** I'm team Vim too, that's why I laughed.
 
 **Nick Nisi:** Why didn't we talk about Vim on this episode...? \[laughter\]
 
-**Daniel Whitenack:** But you noticed what I did there, I brought it in.
+**Kevin Ball:** But you noticed what I did there, I brought it in.
 
 **Nick Nisi:** Yeah, definitely.
 
 **Suz Hinton:** We could have a "Top Vim plugins for Javascript development" as a segment maybe in the future.
 
-**Daniel Whitenack:** \[laughs\]
+**Kevin Ball:** \[laughs\]
 
 **Nick Nisi:** So many opinions...
 
-**Daniel Whitenack:** And we should probably survey the users, as well. I think the penetration of Vim among the panelists is probably way higher than among listeners, but... I could be wrong. I could be wrong.
+**Kevin Ball:** And we should probably survey the users, as well. I think the penetration of Vim among the panelists is probably way higher than among listeners, but... I could be wrong. I could be wrong.
 
 **Nick Nisi:** Suz, are you currently using TypeScript right now? I'm actually not sure.
 
@@ -180,7 +180,7 @@ So I'm very excited to do that... I'm sort of breaking things out into modules, 
 
 **Nick Nisi:** And Kball, it's on your "Things to learn in 2019", so I assume that the same goes for you.
 
-**Daniel Whitenack:** Yeah, it's on my "Things to learn." I will probably start with doing a play project with it, rather than trying to pull it into one of my client projects whole hog, that's existing... But yeah, definitely it's something I anticipate by the end of 2019 most or all of my new projects will be using TypeScript.
+**Kevin Ball:** Yeah, it's on my "Things to learn." I will probably start with doing a play project with it, rather than trying to pull it into one of my client projects whole hog, that's existing... But yeah, definitely it's something I anticipate by the end of 2019 most or all of my new projects will be using TypeScript.
 
 **Nick Nisi:** Nice. Same with me, but that's been the same for a while, so... \[laughter\]
 
@@ -188,7 +188,7 @@ So I'm very excited to do that... I'm sort of breaking things out into modules, 
 
 **Nick Nisi:** I'm constantly trying to make it a TS Party. \[laughter\]
 
-**Daniel Whitenack:** You already have a TS Party...
+**Kevin Ball:** You already have a TS Party...
 
 **Break:** \[00:45:14.20\]
 
@@ -206,31 +206,31 @@ If you go to magenta.tensorflow.org/demos, they have some really cool stuff that
 
 **Suz Hinton:** Yay!
 
-**Daniel Whitenack:** Yeah, I hadn't either. That looks interesting. Do you wanna call out any particular of the demos she's done, or...?
+**Kevin Ball:** Yeah, I hadn't either. That looks interesting. Do you wanna call out any particular of the demos she's done, or...?
 
 **Suz Hinton:** Yeah, I really like Tenori, which is basically generating drum sequence patterns when you hit Improvise. Also, Magic Sketchpad is really cute as well. I think that's using David Ha's work, who was working on basically training a model how to actually do sketching based on thousands of human sketches fed into the system.
 
-**Daniel Whitenack:** \[00:48:20.25\] Awesome. Tenori was the drum thing... And what was the other one after Tenori? I was trying to find Tenori.
+**Kevin Ball:** \[00:48:20.25\] Awesome. Tenori was the drum thing... And what was the other one after Tenori? I was trying to find Tenori.
 
 **Suz Hinton:** Yeah, it was the Magic Sketchpad, which is at the top of the Featured.
 
-**Daniel Whitenack:** Alright. Yeah, these are cool. Awesome.
+**Kevin Ball:** Alright. Yeah, these are cool. Awesome.
 
 **Suz Hinton:** I think the whole goal of Magenta is to show the more creative use of machine learning. I know a lot of machine learning has been used for things like profit, or surveillance, and things like that, and I really like that the idea - trying to bring this more over to the creative side of things. I'm a huge fan of creative coding, so I think that is really cool.
 
 **Nick Nisi:** The Sketchpad is so fun.
 
-**Daniel Whitenack:** Yeah, I've gotta turn it off, because otherwise I'll be too distracted for the rest of this call. That looks really cool, I'm gonna definitely check those out!
+**Kevin Ball:** Yeah, I've gotta turn it off, because otherwise I'll be too distracted for the rest of this call. That looks really cool, I'm gonna definitely check those out!
 
 **Suz Hinton:** Awesome! Who's next?
 
 **Nick Nisi:** I'll go next. The one I wanted to call out was Dan Abramov. He is very good at teaching things, I think. I think that I first watched his Redux videos - he basically has you build Redux from scratch in a series of short videos, and it was really great... But he started a blog called Overreacted.io, and it's just really great - really great writing, a lot of information that's very informative and very educational, that I've learned a lot from... And I particularly liked his "Things I don't know as of 2018." It was just so nice seeing somebody like Dan calling out all of these things that he doesn't know. Because we have this celebrity in JS, it's good to see that there's a lot of things that he doesn't know, and he's very open about that, and things that he needs to learn and brush up on, so I really appreciate that... And using that as something that we can all learn from.
 
-**Daniel Whitenack:** Yeah, I love how humble and outgoing he is at the same time. A lot of times the React community can be, shall we say, a little bit dismissive of folks outside of the community, and he is exactly the opposite of that. I'd see a conversation he's in on Twitter around something that isn't working right - he's always trying to understand where people are having challenges, and how they can bridge that, and how that they can bridge out that community. He is an incredible role model when it comes to trying to bridge that great divide that we talked about in the first segment.
+**Kevin Ball:** Yeah, I love how humble and outgoing he is at the same time. A lot of times the React community can be, shall we say, a little bit dismissive of folks outside of the community, and he is exactly the opposite of that. I'd see a conversation he's in on Twitter around something that isn't working right - he's always trying to understand where people are having challenges, and how they can bridge that, and how that they can bridge out that community. He is an incredible role model when it comes to trying to bridge that great divide that we talked about in the first segment.
 
 **Suz Hinton:** Yeah, I was actually about to say, he seems like one of the people that can be the antidote to that kind of thing. It was pretty refreshing.
 
-**Daniel Whitenack:** Alright, I'll do a couple shout-outs as well, and I'm gonna focus on potentially coming the other way on that great divide. This podcast is focused on Javascript, but I think we have a lot of folks who are in the front-end world, and there is so much incredibly powerful stuff in the CSS side of things, especially when you look at things like CSS grid, but there's lots of different other things... So I wanna call out two women that do an incredible job at teaching and explaining concepts in CSS.
+**Kevin Ball:** Alright, I'll do a couple shout-outs as well, and I'm gonna focus on potentially coming the other way on that great divide. This podcast is focused on Javascript, but I think we have a lot of folks who are in the front-end world, and there is so much incredibly powerful stuff in the CSS side of things, especially when you look at things like CSS grid, but there's lots of different other things... So I wanna call out two women that do an incredible job at teaching and explaining concepts in CSS.
 
 The first one I wanna call out is Jen Simmons. She works, I believe, at Mozilla; I think she's a developer advocate there. But she does both articles, but particularly she has this YouTube channel called Layout Land, where she just walks through all sorts of things related to CSS layout. She's a great teacher, and I think somebody that is well worth your attention as you start to look at "What can I actually do with this modern CSS?", which is just incredibly powerful.
 
