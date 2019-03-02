@@ -1,5 +1,3 @@
-\[00:01:32.22\]
-
 **Chris Benson:** Welcome to another Fully Connected episode, where Daniel and I keep you connected with everything that's going on in the AI community. We'll take some time to discuss the latest AI news, and we'll dig into some learning resources to help you level up on your machine learning game.
 
 I am your co-host, Chris Benson. I'm Chief AI Strategist at Lockheed Martin, RMS APA Innovations. With me is my co-host, Daniel Whitenack, who is a data scientist with SIL International. How's it going, Daniel?
@@ -175,5 +173,3 @@ I know I pointed you to these illustrated ones a little bit earlier... Did you g
 **Daniel Whitenack:** Awesome. Well, this has been a great discussion, Chris. Thanks for all your insights, and looking forward to talking to you again soon!
 
 **Chris Benson:** Sounds good. As you said, we've got more interviews coming up... So have a very good week, and we'll talk to you next week!
-
-Break: \[00:39:33.17\] to \[00:40:29.00\]
