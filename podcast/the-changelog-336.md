@@ -4,7 +4,7 @@
 
 **Jerod Santo:** Kzap. Kzap we know well, he hangs out on our Slack... Within a few days saying "Hey, you've gotta do a show on Singularity", and they both gave really strong pitches, so... It seems like maybe you have a hidden gem here; there's lots of people using it, but there's a lot of other people who have no idea what Singularity is. Let's just start off with what it is, and then we'll figure out why it's so quiet.
 
-**Greg Kurtzer:** That is a great question... It's probably best to start off with a little bit of my background and what created it, what caused it, and why there is this large amount of users. We've definitely hit critical mass, but nobody knows of it. That's a kind of weird dichotomy.
+**Gregory Kurtzer:** That is a great question... It's probably best to start off with a little bit of my background and what created it, what caused it, and why there is this large amount of users. We've definitely hit critical mass, but nobody knows of it. That's a kind of weird dichotomy.
 
 To start off with, I've spent a number of years (almost 20 years) working for Lawrence Berkeley National Laboratory as a high-performance computing architect. In that role I had the opportunity to work with a lot of researchers, a lot of scientists, and people that had problems that they needed to solve computationally. In that role, I would develop these large HPC systems in order to solve the problems or whatever they had, that we had to build up for.
 
@@ -24,7 +24,7 @@ If I write something and it gets out there and people start saying, "This isn't 
 
 **Jerod Santo:** Why do you think that is?
 
-**Greg Kurtzer:** Oh, I don't know. I think I'm just weird. I see things a little differently. So the first version actually ended up being extraordinarily like what Ubuntu Snaps is today. Very, very similar to that. Basically, I was doing a ptrace of an application run; as it executes, I was watching all of the system calls of everything that it's opening, and building a reproducible environment based on that, based on that ptrace, that run. Then I would build what looks like a container out of that. That was version one of Singularity.
+**Gregory Kurtzer:** Oh, I don't know. I think I'm just weird. I see things a little differently. So the first version actually ended up being extraordinarily like what Ubuntu Snaps is today. Very, very similar to that. Basically, I was doing a ptrace of an application run; as it executes, I was watching all of the system calls of everything that it's opening, and building a reproducible environment based on that, based on that ptrace, that run. Then I would build what looks like a container out of that. That was version one of Singularity.
 
 I released it, and everyone basically said the same thing, "This is great. You're on to some really great ideas here... But we need more to really make this fantastic." When people started articulating this to me, I said "Well, okay, so we have to revamp this a little bit."
 
@@ -32,7 +32,7 @@ I released it, and everyone basically said the same thing, "This is great. You'r
 
 **Jerod Santo:** Well, that's progress. \[laughter\]
 
-**Greg Kurtzer:** And version two lasted for years. The uptake was just phenomenal. Within about six months it was installed on most of the biggest supercomputers in the world. It just continues to grow through not just high-performance computing, but through this whole new area of enterprise-focused compute, like AI, machine learning, compute-driven analytics, data science - all of these new areas that enterprise, non-traditionally compute-focused centers are now trying to do compute all of a sudden... And Singularity really being designed for that compute focus, and being really good at that, and solving the problems on data mobility, containerization mobility, reproducible workflows, trusted containers, being able to sign your actual container image, package that up and then move it around and then know that you can always validate and guarantee immutability, guarantee the fact that it's not been tampered with, things like that.
+**Gregory Kurtzer:** And version two lasted for years. The uptake was just phenomenal. Within about six months it was installed on most of the biggest supercomputers in the world. It just continues to grow through not just high-performance computing, but through this whole new area of enterprise-focused compute, like AI, machine learning, compute-driven analytics, data science - all of these new areas that enterprise, non-traditionally compute-focused centers are now trying to do compute all of a sudden... And Singularity really being designed for that compute focus, and being really good at that, and solving the problems on data mobility, containerization mobility, reproducible workflows, trusted containers, being able to sign your actual container image, package that up and then move it around and then know that you can always validate and guarantee immutability, guarantee the fact that it's not been tampered with, things like that.
 
 This is basically in the direct architecture of Singularity. These are some of the primary tenants of why we created it... So it makes it a very smooth transition, going from HPC and science-focused compute, to things like AI and machine learning and so on, into these other areas. So we've built this critical mass; we have a lot of users using Singularity at this point.
 
@@ -44,7 +44,7 @@ So we have great advances, we have a huge community at this point, yet nobody ou
 
 So that kind of sometimes explains why is this brand new to so many people, and yet, like you said, inside of that community you guys have hit critical mass; you have huge computers running this, you have NVIDIA using it, you have Harvard... You have all these very important institutions using it, but very few people heard about it, and it seems like maybe what you point out -- I just wanna highlight what you pointed out there, it seems like maybe artificial intelligence needs, with deep learning and the other high-performance computing needs are moving over into enterprise, and that might be kind of the tie that binds these two worlds together, or at least starts to.
 
-**Greg Kurtzer:** \[00:12:00.17\] Yeah. There is a person that I love to quote for this line - Al Gara, a fellow at Intel, has said that the cross-pollination of AI, traditional simulation, which is HPC in compute, machine learning and so on and so forth - we're gonna end up with systems and technology that is basically crossing those chasms. We're basically able to start tying some of this together - some of the compute side that's coming from HPC, as well as the compute side that enterprise is looking at, and leverage the technology from both.
+**Gregory Kurtzer:** \[00:12:00.17\] Yeah. There is a person that I love to quote for this line - Al Gara, a fellow at Intel, has said that the cross-pollination of AI, traditional simulation, which is HPC in compute, machine learning and so on and so forth - we're gonna end up with systems and technology that is basically crossing those chasms. We're basically able to start tying some of this together - some of the compute side that's coming from HPC, as well as the compute side that enterprise is looking at, and leverage the technology from both.
 
 For example, we've been doing things with distributed parallel jobs for a long time; we know how to do that. We know how to do things like parallel file systems, we know how to do things like very efficient batch scheduling. And on the enterprise side, the HPC world is like "Well, now there's this new thing called orchestration. How can we redevelop some of our scientific workflows to be service-based compute, versus batch-based compute? And how can we use that to do real-time analytics, data processing, and so on and so forth, using this new technology called orchestration? And how do we cross that chasm?"
 
@@ -56,11 +56,11 @@ So we're seeing some really interesting necessity for that cross-pollination, ju
 
 **Jerod Santo:** Right...
 
-**Greg Kurtzer:** And vice-versa is happening, right? Some of the new developments in enterprise, in massive scale, and support for this massive scale, is now starting to get an interest in the HPC world... Both science, as well as commercially-driven HPC.
+**Gregory Kurtzer:** And vice-versa is happening, right? Some of the new developments in enterprise, in massive scale, and support for this massive scale, is now starting to get an interest in the HPC world... Both science, as well as commercially-driven HPC.
 
 **Jerod Santo:** That's awesome. It goes to one of the things that I talk about a lot on this show, which is the cross-pollination of ideas and techniques, and even code, from one industry to another, or from one language/ecosystem to another. The benefits of that across the open source world are amazing to behold. It sounds like there's a really big market opportunity here, maybe an arbitrage, where you have like "Here's a bunch of stuff that the HPC people are good at, and here's a bunch of enterprises who are ready to make money off of these things, and they need those things", so maybe that's where Singularity and Sylabs try to sit in that gap and fill that need.
 
-**Greg Kurtzer:** Can I bring you on my pitch when I go out to VCs and whatnot? \[laughter\] Exactly! Yes, yes, huge opportunity.
+**Gregory Kurtzer:** Can I bring you on my pitch when I go out to VCs and whatnot? \[laughter\] Exactly! Yes, yes, huge opportunity.
 
 **Adam Stacoviak:** Well, point them to this episode.
 
@@ -68,21 +68,21 @@ So we're seeing some really interesting necessity for that cross-pollination, ju
 
 One of the things I did want to talk about - you mentioned that your version one was really just a go at it, it was like this proof of concept maybe, or like you said, if people are somewhat skeptical, or they think you're crazy, maybe you're on to a good idea... Version two seemed like maybe that was a semantic versioning kind of a thing, where it was just like it was gonna break existing users, so that's why you went to two... One thing that kzap said in his pitch - speaking of pitches - on why we should do this show with you is that there was this big rewrite for version 3 from Python, Bash, to Go and C. I'm curious if you could maybe elucidate why that rewrite, how did it go etc.
 
-**Greg Kurtzer:** \[00:16:25.26\] Yeah, absolutely. And by the way, I love how you're reasoning through that - yeah, it was definitely a proof of concept, version one, and we totally meant to do that. \[laughter\]
+**Gregory Kurtzer:** \[00:16:25.26\] Yeah, absolutely. And by the way, I love how you're reasoning through that - yeah, it was definitely a proof of concept, version one, and we totally meant to do that. \[laughter\]
 
 **Adam Stacoviak:** That's funny. "We meant to do that... But maybe not." \[laughter\]
 
 **Jerod Santo:** Everything's intentional in retrospect, right?
 
-**Greg Kurtzer:** \[unintelligible 00:16:45.29\]
+**Gregory Kurtzer:** \[unintelligible 00:16:45.29\]
 
 **Jerod Santo:** Yeah, exactly.
 
-**Greg Kurtzer:** \[laughs\] Yeah, so I like how you positioned it like that.
+**Gregory Kurtzer:** \[laughs\] Yeah, so I like how you positioned it like that.
 
 **Jerod Santo:** Take me on your pitches. I'm good at this.
 
-**Greg Kurtzer:** \[laughs\] So what was the question -- oh, yeah, as we've been moving forward... So version one was this kind of prototype, proof of concept. Version two basically solidified the idea and the model of what we wanna do and where we're going with it, but it was also developed in a silo. I mean, it's over three years old at this point. This is before OCI existed, this is before CNCF existed; it was pretty much Docker. Everybody talking about containers was talking about Docker. Docker, of course, wasn't the only container system at this point, but it was definitely the lion's share in terms of what brought containers and created a household name for containers. So most everything was really focused towards Docker at this point.
+**Gregory Kurtzer:** \[laughs\] So what was the question -- oh, yeah, as we've been moving forward... So version one was this kind of prototype, proof of concept. Version two basically solidified the idea and the model of what we wanna do and where we're going with it, but it was also developed in a silo. I mean, it's over three years old at this point. This is before OCI existed, this is before CNCF existed; it was pretty much Docker. Everybody talking about containers was talking about Docker. Docker, of course, wasn't the only container system at this point, but it was definitely the lion's share in terms of what brought containers and created a household name for containers. So most everything was really focused towards Docker at this point.
 
 We did some work to enable the compatibility with Docker because there were a lot of containers, and there are a lot of containers, that are in Docker Hub, in Docker registries, and whatnot... So we basically took the Singularity base, which is actually -- you know, the first version of Singularity, as well as the second version, was predominantly C. I wrote mostly in C, and we had some fantastic contributions and people from the community that jumped on board and basically said "Well, we've got a whole bunch of containers that are out there in Docker. We need to support those containers. We need to somehow leverage those existing containers, that existing work, bring that into Singularity in a way that makes sense, and then build support for that." That was what we've done through version two.
 
@@ -102,7 +102,7 @@ To get back on track - my thoughts bounce all over the place; I apologize for th
 
 **Jerod Santo:** It's all good.
 
-**Greg Kurtzer:** We basically developed in a silo, we were going in our own direction, we realized later - kind of late to the party - that the rest of the ecosystem went in a different direction, and now we've gotta go play catch-up. So we spent some time, we invested in "How do we properly interface with things like Kubernetes? How do we properly support new types of compute-based workflows? How do we absolutely 100% trust the containers that we run on? Things like cryptographic validation, things like encryption - how do we do that?" Those are the things that we've been working on, and we've solved most of them at this point. But again, it's a different solution than what most people are used to, so we're kind of a little late to the party, even though we were early to the party. \[laughs\]
+**Gregory Kurtzer:** We basically developed in a silo, we were going in our own direction, we realized later - kind of late to the party - that the rest of the ecosystem went in a different direction, and now we've gotta go play catch-up. So we spent some time, we invested in "How do we properly interface with things like Kubernetes? How do we properly support new types of compute-based workflows? How do we absolutely 100% trust the containers that we run on? Things like cryptographic validation, things like encryption - how do we do that?" Those are the things that we've been working on, and we've solved most of them at this point. But again, it's a different solution than what most people are used to, so we're kind of a little late to the party, even though we were early to the party. \[laughs\]
 
 **Jerod Santo:** It's almost like there were two parties, and then it's like "Let's merge these two parties into one. Hey, everybody, did you know Singularity exists at this party over here?"
 
@@ -110,13 +110,13 @@ To get back on track - my thoughts bounce all over the place; I apologize for th
 
 **Jerod Santo:** Yeah, I was gonna the same thing. Good question.
 
-**Greg Kurtzer:** Yeah, it is a good question. We operated in a silo just because of the ecosystem of what high-performance computing is typically like. We have these very large systems that are a very different architecture than pretty much everything that's being done, at least to my knowledge, on the enterprise side. From our perspective, there's just not a lot of necessity for cross-pollination, and going back 3-4 years, AI was just really starting to pick up steam and whatnot, and for most enterprises it wasn't even on the roadmap yet. So there wasn't even a necessity for any cross-pollination... But from my perspective, that's really the gist of why it was kind of pigeon-holed into just the HPC sector.
+**Gregory Kurtzer:** Yeah, it is a good question. We operated in a silo just because of the ecosystem of what high-performance computing is typically like. We have these very large systems that are a very different architecture than pretty much everything that's being done, at least to my knowledge, on the enterprise side. From our perspective, there's just not a lot of necessity for cross-pollination, and going back 3-4 years, AI was just really starting to pick up steam and whatnot, and for most enterprises it wasn't even on the roadmap yet. So there wasn't even a necessity for any cross-pollination... But from my perspective, that's really the gist of why it was kind of pigeon-holed into just the HPC sector.
 
 \[00:24:01.21\] Another open source project that I created, which is still live and kicking and actually uses the basis of something called OpenHPC for provisioning is a very large-scale operating provisioning and management system called Warewulf. I founded that project in 2001, and I still lead it today, although honestly I haven't been spending as much time on it, for a couple of reasons... First off, Singularity has been taking most of my time, but also it's incredibly stable, and the few amount of changes that we need has been basically driven and spearheaded by the OpenHPC community, which is a Linux Foundation and Intel project. But there's not been much cross-pollination there either. At some point, there were some fairly large web infrastructures that decided that they wanted to use Warewulf to manage their web server load... But aside from that, I've never heard of anybody in enterprise using something like Warewulf to manage all of their servers.
 
 **Adam Stacoviak:** What is the opposite of not working in a silo? So if you're working in a silo, what does that look like? Do you just not give talks? Do you not talk to user groups locally, or are your docs not open, are you not tweeting about it? What does being in a silo look like, or the opposite?
 
-**Greg Kurtzer:** So the HPC industry is really big; it's a 40 billion dollar annual - at least by 2020 it's forecasted to be about a 40 billion dollar industry. There's a lot of conferences, there's a lot of user groups, there's a lot of meetups, but that whole thing is kind of like siloed. The example you guys gave about there's two parties going on is a really good one, because the people that are at that party almost never go to the other side, and vice-versa. I mean, there's just not a lot of cross-pollination; they've been two completely separate worlds for so long.
+**Gregory Kurtzer:** So the HPC industry is really big; it's a 40 billion dollar annual - at least by 2020 it's forecasted to be about a 40 billion dollar industry. There's a lot of conferences, there's a lot of user groups, there's a lot of meetups, but that whole thing is kind of like siloed. The example you guys gave about there's two parties going on is a really good one, because the people that are at that party almost never go to the other side, and vice-versa. I mean, there's just not a lot of cross-pollination; they've been two completely separate worlds for so long.
 
 At one of these conferences, at a super-computing event, which last year we brought in about 13,000 people, just to give you an idea of scope... Usually, wherever super-computing goes, we sell out the whole city. Hotels are usually going for like 3 to 5 times their normal price, because there's just no room anywhere.
 
@@ -128,7 +128,7 @@ And to go back to the earlier point, that's really why we've created Sylabs, why
 
 **Jerod Santo:** So Greg, we both mentioned Sylabs off-handed; we've obviously been talking about Singularity... You said that the reason for Sylabs at the end of the last segment -- let's talk about that relationship, the dichotomy between an open source project... Maybe you can tell us about Singularity licensing and all that, what Sylabs brings to the table, and your thoughts on commercializing open source in general.
 
-**Greg Kurtzer:** With my prior hat on, working for the U.S. government, Department of Energy, building open source projects was always kind of an incidental thing; it's like "We need something, let's build that, let's hope the community will get involved and it will help", and whatnot. There was never a necessity to build a business model.
+**Gregory Kurtzer:** With my prior hat on, working for the U.S. government, Department of Energy, building open source projects was always kind of an incidental thing; it's like "We need something, let's build that, let's hope the community will get involved and it will help", and whatnot. There was never a necessity to build a business model.
 
 As I've now moved away from the Department of Energy, created a company, and this company is built around the idea of an open source project that has gained a lot of momentum, gained a lot of steam, how do you take the open source users, the open source community and monetize it in a way that allows us to be not only sustainable, but hopefully a little bit profitable, and not alienate the open source community, not do anything that creates a resentment or creates any sort of a misalignment? And that's a challenge. There's been a lot of companies out here that have really tried to monetize on open source projects, and again, it's a very difficult, tight rope to walk.
 
@@ -144,35 +144,35 @@ So it is a mutualistic synergy between the open source version and the commercia
 
 **Adam Stacoviak:** I've got a question for you there, on that note, before we move on.
 
-**Greg Kurtzer:** Yeah.
+**Gregory Kurtzer:** Yeah.
 
 **Adam Stacoviak:** Does that mean that others can support Singularity as well, like you are? I'm thinking like the Tidelift models, for example.
 
-**Greg Kurtzer:** Yeah, absolutely.
+**Gregory Kurtzer:** Yeah, absolutely.
 
 **Adam Stacoviak:** So you're not saying that you're the only supporter of it, it just means that you're taking the snapshots, that you can put them to the side, call it SingularityPro, and provide support and licensing?
 
-**Greg Kurtzer:** Yeah. And it's a risk, right? But that's the risk with open source. Anybody can always fork an open source project, and then spin it their own way.
+**Gregory Kurtzer:** Yeah. And it's a risk, right? But that's the risk with open source. Anybody can always fork an open source project, and then spin it their own way.
 
 **Adam Stacoviak:** Of course. I like how you're not holding it hostage, as you said; that's the point I wanted to get at, that you're not even holding the business model hostage.
 
-**Greg Kurtzer:** We believe 100% that if you build a company -- and this is one of the reasons why I think my open source projects have always done very well... It's because I build these based on integrity, I built it based on stated values, stated ethics, and I maintain that. I believe that the best project, the best product and the best supplier is going to win. And what makes someone the best is, well, you're not only doing a fantastic job of what it is that you're set out to do, but you also have a high level of integrity, you have a high level of respect, and you want to work with people.
+**Gregory Kurtzer:** We believe 100% that if you build a company -- and this is one of the reasons why I think my open source projects have always done very well... It's because I build these based on integrity, I built it based on stated values, stated ethics, and I maintain that. I believe that the best project, the best product and the best supplier is going to win. And what makes someone the best is, well, you're not only doing a fantastic job of what it is that you're set out to do, but you also have a high level of integrity, you have a high level of respect, and you want to work with people.
 
 So if somebody else were to come along and try to fork Singularity, well they're gonna not only have to beat me on being better at support, but they're also gonna have to beat us at being higher levels of integrity and everything else. And if that's the case, then they deserve to win. That's the game that we're playing; we want to be the best, and we have an advantage, because the primary developers of Singularity - you can believe, I have lured and hired... Because it's not just me anymore. And as a matter of fact, I've hired and recruited people into the open source community and into the company who are much better people at developing software, much smarter than I am. Because believe me, many people can do this better than I can. I told you about my version one already... \[laughter\]
 
 **Adam Stacoviak:** I changed your direction. Go back to where you were going. I don't wanna derail you completely.
 
-**Greg Kurtzer:** \[laughs\] Where was I going...?
+**Gregory Kurtzer:** \[laughs\] Where was I going...?
 
 **Jerod Santo:** Completely derailed. Good job, Adam.
 
 **Adam Stacoviak:** Sorry about that.
 
-**Greg Kurtzer:** I'm trying to remember what the question was...
+**Gregory Kurtzer:** I'm trying to remember what the question was...
 
 **Adam Stacoviak:** Well, you were moving on from the fact that you're not holding the open source hostage, by describing you supporting it.
 
-**Greg Kurtzer:** Oh, yeah, thank you. So the first product that we have is basically just a re-spun version of the open source code that's out there, and we professionally support it - we offer professional services, we offer support for it, everything you can imagine. It's somewhat obligatory, right? We have an open source project, we have this piece of software that we're supporting and we're maintaining out there - we have to be able to support it, we have to be able to help people with it... So those are the obligatory offerings.
+**Gregory Kurtzer:** Oh, yeah, thank you. So the first product that we have is basically just a re-spun version of the open source code that's out there, and we professionally support it - we offer professional services, we offer support for it, everything you can imagine. It's somewhat obligatory, right? We have an open source project, we have this piece of software that we're supporting and we're maintaining out there - we have to be able to support it, we have to be able to help people with it... So those are the obligatory offerings.
 
 \[00:36:09.07\] Then we have some uniqueness that this particular container system offers. For example, one of these is we support cryptographic signatures. I've alluded to this already previously. If you were to sign a container -- and remember, our containers are a different format from OCI; this is a new format. The format is capable of supporting OCI, and encapsulating OCI and Docker containers and whatnot, so we can take all of that and we can properly encapsulate it into a single file.
 
@@ -184,19 +184,19 @@ You can say, for example - now you can say definitively - "Well, if I trust Greg
 
 **Jerod Santo:** That's not supposed to be possible.
 
-**Greg Kurtzer:** Oh, it's not supposed to be, but it's... \[laughter\]
+**Gregory Kurtzer:** Oh, it's not supposed to be, but it's... \[laughter\]
 
 **Jerod Santo:** I don't think you're gonna say how these things work. You can't do that.
 
 **Adam Stacoviak:** That's why the signature is so important.
 
-**Greg Kurtzer:** Yeah. From our perspective, you can do one of two things... Or you should do one of two things. You should absolutely never, never run a container as root. That's first off. Second off, if you have to run a container as root, you should never, under any circumstance, run an untrusted container as root.
+**Gregory Kurtzer:** Yeah. From our perspective, you can do one of two things... Or you should do one of two things. You should absolutely never, never run a container as root. That's first off. Second off, if you have to run a container as root, you should never, under any circumstance, run an untrusted container as root.
 
 \[00:40:07.21\] Here's a really simple example. As a system administrator - I imagine that there's a lot of system administrators that are gonna be listening to this show... So as a system administrator who has root on a very high-visibility production system, it's probably discouraged, it's probably looked down upon to go to the internet, download a whole bunch of random code and start executing it as root on your production system, right? You don't wanna run untrusted code as root.
 
 **Jerod Santo:** Right.
 
-**Greg Kurtzer:** Now, the container ecosystems do what they can to isolate, but there's always going to be - at least from my perspective, and I'm now getting into religion, so I'm sorry if I'm going up against somebody's religion here, but... You know, POSIX was kind of defined around the idea of users, and privilege, and whatnot, and we have a very strong standard for "Well, the super-user is the super-user." When you're root, you're root. The whole system is yours. Now, what we're doing with the container ecosystem is we're saying, "Yeah, but root over here is not the same as root over here, is not the same as root over here." Everything is seen as a different thing, but at the same token, POSIX is defined, and traditional UNIX standards have defined that "Well, root is root." So we're trying to limit what root can do. And I know I'm going off on another tangent here again, but that's the premise of this security issue from our perspective. If you want to limit the exposure, don't run it as root. But if you have to run it as route, make sure it's trusted. We offer a trusted solution here.
+**Gregory Kurtzer:** Now, the container ecosystems do what they can to isolate, but there's always going to be - at least from my perspective, and I'm now getting into religion, so I'm sorry if I'm going up against somebody's religion here, but... You know, POSIX was kind of defined around the idea of users, and privilege, and whatnot, and we have a very strong standard for "Well, the super-user is the super-user." When you're root, you're root. The whole system is yours. Now, what we're doing with the container ecosystem is we're saying, "Yeah, but root over here is not the same as root over here, is not the same as root over here." Everything is seen as a different thing, but at the same token, POSIX is defined, and traditional UNIX standards have defined that "Well, root is root." So we're trying to limit what root can do. And I know I'm going off on another tangent here again, but that's the premise of this security issue from our perspective. If you want to limit the exposure, don't run it as root. But if you have to run it as route, make sure it's trusted. We offer a trusted solution here.
 
 Going back now to the business model, and I'm sorry again for the tangent... In terms of the business model, we have a key store. And this key store, plus Singularity, plus the design of the Singularity image format, gives us the ability to absolutely trust these container environments. So if you're gonna run it as root, you should run something you trust, and we offer that as a service now.
 
@@ -204,27 +204,27 @@ So it is a free service that we're offering, and we're going to be figuring out 
 
 **Adam Stacoviak:** Is it a popular service?
 
-**Greg Kurtzer:** Say that again?
+**Gregory Kurtzer:** Say that again?
 
 **Adam Stacoviak:** Is it a popular service at this point, or is it still new?
 
-**Greg Kurtzer:** We haven't even released a GA yet.
+**Gregory Kurtzer:** We haven't even released a GA yet.
 
 **Adam Stacoviak:** Okay.
 
-**Greg Kurtzer:** As a matter of fact, we're going to be releasing a GA--
+**Gregory Kurtzer:** As a matter of fact, we're going to be releasing a GA--
 
 **Adam Stacoviak:** Soon to be popular.
 
-**Greg Kurtzer:** Yeah, in about a month. So we're expecting to see some increase and uptake... But at the same token, this is still brand new for people, right? Most people think of containers -- and you know, OCI has a portion of their spec talking about how to sign containers and whatnot... But it's signing the metadata for those containers, it's not actually signing the runtime format. Those containers are actually tarballs, and those tarballs get splat out the disk, and that creates new data. The signed tarball - well, that relates to the tarball, not the new data. And then that new data can honestly take a life of its own and nobody would ever know. Our format is the actual runtime format, so there's no metadata, there's no tarballs...
+**Gregory Kurtzer:** Yeah, in about a month. So we're expecting to see some increase and uptake... But at the same token, this is still brand new for people, right? Most people think of containers -- and you know, OCI has a portion of their spec talking about how to sign containers and whatnot... But it's signing the metadata for those containers, it's not actually signing the runtime format. Those containers are actually tarballs, and those tarballs get splat out the disk, and that creates new data. The signed tarball - well, that relates to the tarball, not the new data. And then that new data can honestly take a life of its own and nobody would ever know. Our format is the actual runtime format, so there's no metadata, there's no tarballs...
 
 **Jerod Santo:** That's interesting.
 
-**Greg Kurtzer:** You just download a 10 or a 100 GB container, you type in "singularity shell" and you're instantly inside that container, because it doesn't have to splat anything out to disk.
+**Gregory Kurtzer:** You just download a 10 or a 100 GB container, you type in "singularity shell" and you're instantly inside that container, because it doesn't have to splat anything out to disk.
 
 **Jerod Santo:** What you get is what you get, and what you get is what's been signed.
 
-**Greg Kurtzer:** Yes, exactly. So that's one of our business models, which is to add value. Don't hold it hostage, but somehow add value to that open source piece of software... And we can do that commercially. That's a cloud service. That's not something that we're planning on open-sourcing. That's a cloud service.
+**Gregory Kurtzer:** Yes, exactly. So that's one of our business models, which is to add value. Don't hold it hostage, but somehow add value to that open source piece of software... And we can do that commercially. That's a cloud service. That's not something that we're planning on open-sourcing. That's a cloud service.
 
 **Jerod Santo:** But you're making it pretty, so...
 
@@ -232,33 +232,33 @@ So it is a free service that we're offering, and we're going to be figuring out 
 
 **Jerod Santo:** Free for now. Freemium.
 
-**Greg Kurtzer:** \[00:44:06.14\] Yeah, so we've talked about the freemium thing too, and I have mixed emotions about it... But at this point, what we know for sure is we need to drive adoption. We want people to use this, we want people to be able to run trusted containers, we want people to be able to leverage Singularity in our format, and make good use of it within their environments, their ecosystems... And we have to hit critical mass. Or at least we're trying to. We've hit it in HPC--
+**Gregory Kurtzer:** \[00:44:06.14\] Yeah, so we've talked about the freemium thing too, and I have mixed emotions about it... But at this point, what we know for sure is we need to drive adoption. We want people to use this, we want people to be able to run trusted containers, we want people to be able to leverage Singularity in our format, and make good use of it within their environments, their ecosystems... And we have to hit critical mass. Or at least we're trying to. We've hit it in HPC--
 
 **Jerod Santo:** Well, you mentioned the pitch deck, so you're raising money, right?
 
-**Greg Kurtzer:** Yes... \[laughs\]
+**Gregory Kurtzer:** Yes... \[laughs\]
 
 **Jerod Santo:** So you're gonna have to hit critical mass. That's the trade-off, right? If it was all bootstrapped, you could open up -- is it called Sylabs Cloud? I'm reading about that... Is that what you're referring to, the service?
 
-**Greg Kurtzer:** Yup.
+**Gregory Kurtzer:** Yup.
 
 **Jerod Santo:** You could open that up, just charge some money from day one, and if the gross revenues cover your expenses and there's some leftover at the end of the day, you've got your profit.
 
-**Greg Kurtzer:** \[laughs\]
+**Gregory Kurtzer:** \[laughs\]
 
 **Adam Stacoviak:** Business 101, y'all. Thanks, Jerod.
 
 **Jerod Santo:** You're welcome.
 
-**Greg Kurtzer:** \[laughs\] I'm taking notes.
+**Gregory Kurtzer:** \[laughs\] I'm taking notes.
 
 **Jerod Santo:** But you're not going that route. You're going for the home run.
 
-**Greg Kurtzer:** We're trying to drive adoption and usage, not get just enough to pay the bills. We wanna actually encourage people to utilize this. We want to help support the ecosystem, and change how people think of trusted environments. We want people to feel like they can absolutely trust whatever environment that they're in, and manage that environment like any other data that they have to manage.
+**Gregory Kurtzer:** We're trying to drive adoption and usage, not get just enough to pay the bills. We wanna actually encourage people to utilize this. We want to help support the ecosystem, and change how people think of trusted environments. We want people to feel like they can absolutely trust whatever environment that they're in, and manage that environment like any other data that they have to manage.
 
 **Jerod Santo:** Did you consider closed source? Was it even a thought? Because that simplifies business cases a lot, but it complicates other things.
 
-**Greg Kurtzer:** For Singularity, we never considered it. For our cloud development -- I mean, it is a cloud service, so that's not something that we're open-sourcing. So that is definitely a closed source. But we've actually gotten some really interesting information, which is - everybody's talking about cloud, everybody's talking about getting all their apps and everything up to the cloud, and so we developed this cloud service thinking everybody wants to go up to the cloud. A really interesting spin on this, and something I totally didn't expect, is that almost everybody - well, maybe not everybody; I'm exaggerating... Maybe about half of the people that we talk to wants to run that on-prem, and I wasn't expecting that.
+**Gregory Kurtzer:** For Singularity, we never considered it. For our cloud development -- I mean, it is a cloud service, so that's not something that we're open-sourcing. So that is definitely a closed source. But we've actually gotten some really interesting information, which is - everybody's talking about cloud, everybody's talking about getting all their apps and everything up to the cloud, and so we developed this cloud service thinking everybody wants to go up to the cloud. A really interesting spin on this, and something I totally didn't expect, is that almost everybody - well, maybe not everybody; I'm exaggerating... Maybe about half of the people that we talk to wants to run that on-prem, and I wasn't expecting that.
 
 So we are figuring out how to relicense and rebrand our cloud services, and allow people to run those on-prem. And we have several different cloud services at this point. The key store that I was mentioning before is just one of them. Another one is a build service, so you can actually build containers without requiring root or without requiring any sort of privilege escalation, because we have a service that does that in a controlled way. We also have something called the container library.
 
@@ -272,7 +272,7 @@ So it gives us the ability to do things like inject security back into the dev o
 
 **Jerod Santo:** That's cool.
 
-**Greg Kurtzer:** So all of this is in our cloud services that we're building right now, and people are asking for it for not only cloud access, but also on-prem. So in terms of, again, building our model, the idea is if we're gonna build anything that's non-open source, it has to 100% add value; not hold hostage, but add value to that open source codebase.
+**Gregory Kurtzer:** So all of this is in our cloud services that we're building right now, and people are asking for it for not only cloud access, but also on-prem. So in terms of, again, building our model, the idea is if we're gonna build anything that's non-open source, it has to 100% add value; not hold hostage, but add value to that open source codebase.
 
 **Jerod Santo:** This reminds me of Isaac Schlueter...
 
@@ -290,7 +290,7 @@ So it gives us the ability to do things like inject security back into the dev o
 
 **Adam Stacoviak:** This is the Javascript package management world, potentially influencing Greg and future stuff around the cloud.
 
-**Greg Kurtzer:** Exactly. Thank you for that pointer, by the way.
+**Gregory Kurtzer:** Exactly. Thank you for that pointer, by the way.
 
 **Jerod Santo:** Go check that out.
 
@@ -298,7 +298,7 @@ So it gives us the ability to do things like inject security back into the dev o
 
 **Adam Stacoviak:** Kubernetes is well-known for its community. If you have a conversation around Kubernetes, even the founder of it will say it's about community. They've had that lens since the beginning. What is your perspective on community and how are you using that to grow?
 
-**Greg Kurtzer:** Okay, so the open source community and the idea of what it was to be an open source community and how to maintain an open source community has changed, right? Back when I first started doing it, the open source community was brutal. People were mean, people were obnoxious, and they liked to prove everybody else wrong and prove themselves being better. It was competitive, and whatnot. It took a very hard and callous personality to be able to excel in it, and I'm not that kind of a personality.
+**Gregory Kurtzer:** Okay, so the open source community and the idea of what it was to be an open source community and how to maintain an open source community has changed, right? Back when I first started doing it, the open source community was brutal. People were mean, people were obnoxious, and they liked to prove everybody else wrong and prove themselves being better. It was competitive, and whatnot. It took a very hard and callous personality to be able to excel in it, and I'm not that kind of a personality.
 
 I tried working with various other open source projects because I love the idea of open source; I'm a biochemist by degree, turned into a computer geek, because I thought it was totally cool how we were able to create bio-informatics tools based on Linux in the mid-nineties. I thought that was fantastic, so I just immediately became enamored with the idea of open source, but I didn't have the personality, honestly, to really be part and be so callous to be able to handle this sort of things, and whatnot... So I actually found it easier to start communities, and start them with a different tone, start them with a much more friendly tone, a much more considerate tone, and people always felt comfortable.
 
@@ -306,23 +306,23 @@ As an example of this, I would start up a mailing list, start up an IRC server, 
 
 **Jerod Santo:** I do remember Freshmeat. I haven't heard that name in a long time...
 
-**Greg Kurtzer:** Just a quick, funny story... My mother at some point decided to do a search for me, and Freshmeat came up; she was like "I don't know what Freshmeat was. I'm scared to click on the link... Why are you on Freshmeat?"
+**Gregory Kurtzer:** Just a quick, funny story... My mother at some point decided to do a search for me, and Freshmeat came up; she was like "I don't know what Freshmeat was. I'm scared to click on the link... Why are you on Freshmeat?"
 
 **Jerod Santo:** \[laughs\] That's hilarious...
 
-**Greg Kurtzer:** But Freshmeat was really the big way that you'd get your new open source stuff out there. So I'd post to Freshmeat, and build this community, but it was always just about super-friendly, wanting to just chat with people, be real with people, be open to people, be open to new ideas, teach people, bring them up to speed and whatnot... I mean, even early Warewulf days, early CentOS days, people would ask questions. On the CentOS mailing list people would say "Oh my god, I'm stuck in Vim, and I can't get out! Aargh!" They'd post questions, really simple, basic questions, and...
+**Gregory Kurtzer:** But Freshmeat was really the big way that you'd get your new open source stuff out there. So I'd post to Freshmeat, and build this community, but it was always just about super-friendly, wanting to just chat with people, be real with people, be open to people, be open to new ideas, teach people, bring them up to speed and whatnot... I mean, even early Warewulf days, early CentOS days, people would ask questions. On the CentOS mailing list people would say "Oh my god, I'm stuck in Vim, and I can't get out! Aargh!" They'd post questions, really simple, basic questions, and...
 
 **Jerod Santo:** \[00:56:11.17\] That's still an issue for many people.
 
-**Greg Kurtzer:** \[laughs\] ...and I'm always so happy to just help out.
+**Gregory Kurtzer:** \[laughs\] ...and I'm always so happy to just help out.
 
 **Jerod Santo:** Thousands of developers are fighting that fight on a daily basis.
 
-**Greg Kurtzer:** \[laughs\]
+**Gregory Kurtzer:** \[laughs\]
 
 **Jerod Santo:** Sorry. Continue.
 
-**Greg Kurtzer:** No problem at all. \[laughs\] I'm just thinking of all the \[unintelligible 00:56:25.23\]
+**Gregory Kurtzer:** No problem at all. \[laughs\] I'm just thinking of all the \[unintelligible 00:56:25.23\]
 
 **Adam Stacoviak:** We have the tweets to prove it.
 
@@ -332,7 +332,7 @@ As an example of this, I would start up a mailing list, start up an IRC server, 
 
 **Jerod Santo:** That's right.
 
-**Greg Kurtzer:** I always ended up landing in Vim, and I did most of my development in Vim, so I feel the pain, and at the same token, I was always really happy to help people get out of it. From the perspective of an outsider, here's the lead developer, the project lead, helping somebody with these extraordinarily basic questions, and I think that is absolutely necessary. And if it's the fifth time or the tenth time or the hundredth time that that question gets asked, it's obviously still an issue; you should still answer it. If you just did a Google search and just looked through their logs and the archives, you'd be able to find that, you know, I'm sorry; it's a pompous response, and it's not very welcoming.
+**Gregory Kurtzer:** I always ended up landing in Vim, and I did most of my development in Vim, so I feel the pain, and at the same token, I was always really happy to help people get out of it. From the perspective of an outsider, here's the lead developer, the project lead, helping somebody with these extraordinarily basic questions, and I think that is absolutely necessary. And if it's the fifth time or the tenth time or the hundredth time that that question gets asked, it's obviously still an issue; you should still answer it. If you just did a Google search and just looked through their logs and the archives, you'd be able to find that, you know, I'm sorry; it's a pompous response, and it's not very welcoming.
 
 So I would always be very supportive, very appreciative of everybody that came into the group, whether they're developers, whether they're users, and set the tone right away as that, and set it from the top down. I didn't tolerate people that became the jerk mentality. And it's nice to see that many more open source projects are adopting this behavior, but I feel as though it was a critical facet for what makes a good, strong community, and how do you develop that strong community and keep it on track.
 
@@ -346,11 +346,11 @@ And then also, do you want those kind of -- you know, there's open source projec
 
 In terms of features and direction, how do you manage the community side of those things, when you're trying to build a business around an open source project where maybe the community's contributions may actually go against the business' interests?
 
-**Greg Kurtzer:** You brought up a couple of really just amazing points.
+**Gregory Kurtzer:** You brought up a couple of really just amazing points.
 
 **Jerod Santo:** Well, thank you. \[laughter\] Tell me more. Just kidding.
 
-**Greg Kurtzer:** \[01:00:11.02\] For example, when you have a company that releases some software, and they release it to the open source community, it's almost becoming a marketing initiative. They're not interested in the collaborativeness and the openness and the community side of releasing software into the open source community. What they're really interested in is getting that stamp, "We are open source." And they will just release it; they don't take contributions, or they don't look favorably upon them, or when they do get them, due to wanting to run and manage and host all of their own copyrights - I've seen organizations that will actually rewrite PRs, rewrite patches using all of their own resources, because they don't want any contamination of copyright. So the fact that it is open source - it's a marketing vehicle.
+**Gregory Kurtzer:** \[01:00:11.02\] For example, when you have a company that releases some software, and they release it to the open source community, it's almost becoming a marketing initiative. They're not interested in the collaborativeness and the openness and the community side of releasing software into the open source community. What they're really interested in is getting that stamp, "We are open source." And they will just release it; they don't take contributions, or they don't look favorably upon them, or when they do get them, due to wanting to run and manage and host all of their own copyrights - I've seen organizations that will actually rewrite PRs, rewrite patches using all of their own resources, because they don't want any contamination of copyright. So the fact that it is open source - it's a marketing vehicle.
 
 So that's one side. There are companies out there doing it. That is not our side at all. We are first and foremost -- we started off as an open source community. I developed a company, I have a lot of experience with open source, I am a huge open source advocate. And when I say open source, again, not from the marketing perspective; I'm an open source advocate because there are very important advantages that the open source community and the development model brings to bear.
 
@@ -360,21 +360,21 @@ We've had contributions from companies, from individuals (obviously) from compan
 
 **Adam Stacoviak:** A question on the pro versus open source though... I'm curious, just because I'm not involved in the details of this, how usable is Singularity on its own, as just open source, and not via the stamped version. Is there any incentive to use the shared up open source version, versus SingularityPro?
 
-**Greg Kurtzer:** \[01:03:53.17\] If you don't need commercial support, there is no advantage at all. Go use the open source stuff. If you represent a company, if you represent an organization that doesn't want to rely on best effort support from a group of people sitting in a Slack channel, then that's when you wanna contact us. But in terms of individuals, in terms of developers, in terms of contributors, and many organizations that honestly just wanna work with open source software, go use it. There's no limitations, we are not holding it hostage, and we encourage it. We would love people to be using our open source software.
+**Gregory Kurtzer:** \[01:03:53.17\] If you don't need commercial support, there is no advantage at all. Go use the open source stuff. If you represent a company, if you represent an organization that doesn't want to rely on best effort support from a group of people sitting in a Slack channel, then that's when you wanna contact us. But in terms of individuals, in terms of developers, in terms of contributors, and many organizations that honestly just wanna work with open source software, go use it. There's no limitations, we are not holding it hostage, and we encourage it. We would love people to be using our open source software.
 
 **Jerod Santo:** Well, I don't think anybody will second-guess your bona fides, considering just your long history of building open source communities and projects. So that's awesome. How has it grown so far? You have people out there who are championing this, we've named off a few of the organizations who are using Singularity... How has the contributor base grown beyond Sylabs "walls" - and I know you're all remote and around the world, so there aren't any walls... But beyond your payroll - have you had an uptick in not just users, but is NVIDIA, Suse, these other organizations, are they getting involved and really making this feel like a community-driven project, or are you still trying to get that ball rolling outside of Sylabs?
 
-**Greg Kurtzer:** It's kind of funny, because every time -- not everytime; mostly, when we have people join our community, and they start being really productive, they're adding features, they're adding code, and they start to really get used to us and we all like each other, we're all friends, and we joke around a lot, I typically - and maybe this is good, maybe this is bad; I don't know - recruit them. \[laughs\] And I try to get them to work for Sylabs. And in doing so, a lot of times what we're seeing is, you know...
+**Gregory Kurtzer:** It's kind of funny, because every time -- not everytime; mostly, when we have people join our community, and they start being really productive, they're adding features, they're adding code, and they start to really get used to us and we all like each other, we're all friends, and we joke around a lot, I typically - and maybe this is good, maybe this is bad; I don't know - recruit them. \[laughs\] And I try to get them to work for Sylabs. And in doing so, a lot of times what we're seeing is, you know...
 
 **Jerod Santo:** You're gobbling up a community...
 
-**Greg Kurtzer:** Yeah... \[laughter\] And I don't know if that's good or bad, but the fact is it's hard to find the developer skills that we need to basically run and create a whole container platform.
+**Gregory Kurtzer:** Yeah... \[laughter\] And I don't know if that's good or bad, but the fact is it's hard to find the developer skills that we need to basically run and create a whole container platform.
 
 **Adam Stacoviak:** Yeah.
 
 **Jerod Santo:** Yeah.
 
-**Greg Kurtzer:** It requires not only a lot of knowledge in the upper end of application design, but also going all the way down to kernel. And there's no many people that are really anxious and eager and love to do operating system coding anymore. To kind of poke fun at this a little bit, we see -- and we saw this as well when I was working for the Department of Energy, as we were trying to recruit scientists... It was really hard, because coming out of the universities and the Ph.D's and whatnot, instead of doing research and science, they wanted to develop games for the iPhone; they were developing a dog-walking app, or something, instead of wanting to cure cancer, or something along those lines.
+**Gregory Kurtzer:** It requires not only a lot of knowledge in the upper end of application design, but also going all the way down to kernel. And there's no many people that are really anxious and eager and love to do operating system coding anymore. To kind of poke fun at this a little bit, we see -- and we saw this as well when I was working for the Department of Energy, as we were trying to recruit scientists... It was really hard, because coming out of the universities and the Ph.D's and whatnot, instead of doing research and science, they wanted to develop games for the iPhone; they were developing a dog-walking app, or something, instead of wanting to cure cancer, or something along those lines.
 
 So we've seen it as well, again, with my previous hat on, as well as from Sylabs - it's hard to find the right people. And it's really nice when we do have an open source community, because we are attracting individuals - not just corporations, but individuals; individuals at those corporations... But, I mean, there's the personal side of it. You get to meet these individuals and develop relationships with them. And as you do it, it's fairly easy to offer them jobs.
 
@@ -384,13 +384,13 @@ So we've seen it as well, again, with my previous hat on, as well as from Sylabs
 
 **Jerod Santo:** That's right. Yeah, exactly.
 
-**Greg Kurtzer:** To get back to the question on a more serious note, we've had a lot of -- people join our Slack; both contributing to GitHub, as well as joining our Slack, being part of our mailing list - we have an extremely active and friendly e-mail list, and the same thing on the Slack side. It's a lot of very friendly people. Honestly, it's much just idle chat, and getting to know each other and having fun, as well as developing code and coming up with new and innovative ideas for doing really amazing things.
+**Gregory Kurtzer:** To get back to the question on a more serious note, we've had a lot of -- people join our Slack; both contributing to GitHub, as well as joining our Slack, being part of our mailing list - we have an extremely active and friendly e-mail list, and the same thing on the Slack side. It's a lot of very friendly people. Honestly, it's much just idle chat, and getting to know each other and having fun, as well as developing code and coming up with new and innovative ideas for doing really amazing things.
 
 We have a lot of people that are involved with the process. In terms of GitHub, the last -- actually, I don't even wanna quote a number, because I don't remember, but I think it was... It's not a huge project when you compare it to something like Kubernetes and whatnot, but we have about 1,000 stars... Now it's making me wanna look. I think it's like 1,000 stars, and I think it's under 100 contributors, but it's a good amount. We're all very appreciative of everybody who wants to join the community. And again, someone doesn't have to be a developer to join. As a matter of fact, we encourage non-developers as well, because the amount of benefit in terms of feedback, in terms of just looking at things, being part of this, helping potentially with documentation, even just pointing out bugs, pointing out issues that they're finding, or being a conduit for reaching other people is so valuable, is so helpful. So we are very receptive of that.
 
 **Adam Stacoviak:** On the repo now you've got 98 watchers, 998 stars, and 252 forks, on Singularity.
 
-**Greg Kurtzer:** You know what would be fun - after this podcast, it gets out there, it'd be fun to see how much this increases.
+**Gregory Kurtzer:** You know what would be fun - after this podcast, it gets out there, it'd be fun to see how much this increases.
 
 **Jerod Santo:** There you go.
 
@@ -412,7 +412,7 @@ We have a lot of people that are involved with the process. In terms of GitHub, 
 
 **Adam Stacoviak:** I'm curious of your focus though when it comes to the future. You'd mentioned community, you'd mentioned business, you'd mentioned your principles around open source... Where are you personally placing your focus around Singularity and Sylabs? What are the biggest challenges you're facing today to move forward?
 
-**Greg Kurtzer:** We are placing a lot of emphasis and investment in everything computational. Somebody asked me recently, are we an HPC company? No, we're not. We are a compute company. We are focusing on all of the different types of compute-based workloads that are out there, and we wanna use all of the cool tools to do that; everything from Kubernetes, to HPC resources, InfiniBand, parallel file systems, batch scheduling systems... And go all the way out to edge, and cloud, and IoT. This is where we're spending a very reasonable investment in terms of moving forward.
+**Gregory Kurtzer:** We are placing a lot of emphasis and investment in everything computational. Somebody asked me recently, are we an HPC company? No, we're not. We are a compute company. We are focusing on all of the different types of compute-based workloads that are out there, and we wanna use all of the cool tools to do that; everything from Kubernetes, to HPC resources, InfiniBand, parallel file systems, batch scheduling systems... And go all the way out to edge, and cloud, and IoT. This is where we're spending a very reasonable investment in terms of moving forward.
 
 We want to facilitate the movement of AI workflows. For example, as opposed to more traditional compute, where basically you have a big HPC cluster and you run everything on that big HPC cluster, there's a lot of AI and ML workloads that are distributed. You may need a big HPC type system to train that model, but once it's trained, you now have to distribute that model wherever you're running your inferencing. In some cases, the inferencing and where you're executing these models is not extraordinarily -- it doesn't need a huge amount of resources in terms of compute... In many cases. In some cases, of course, it does, but we're seeing really different types of workflows, and these workflows - in a lot of cases, we're still doing science, trying to figure out how best to support and optimize these workflows, but these workflows are really interesting to us
 
@@ -422,11 +422,11 @@ We have this really cool technology that enables those quick wins, that enables 
 
 **Adam Stacoviak:** We mentioned - somewhere in this show; I can't remember if it was just in the breaks only, or if it was in the show - jokes around slides and Jerod helping you with the next VC pitch... You'd mentioned that you're raising funds; if there's any venture capitalist listening, are you seriously raising funds? Should they reach out to you? What's your state of fundraising, and how does that play into the sustainability of the project?
 
-**Greg Kurtzer:** Great questions. We are seed-funded at the moment, and right now we're burning on the seed, as well as living off our revenue. We are going to be doing a series A pitch. Kind of interesting is that as we are evaluating our series A pitch and doing comparables, it seems like all of our comparables are more like series B and greater, just because we've de-risked the company at this point so greatly... But yeah, a raise is gonna be coming up pretty soon, and happy to have any introductions if anybody listening is interested.
+**Gregory Kurtzer:** Great questions. We are seed-funded at the moment, and right now we're burning on the seed, as well as living off our revenue. We are going to be doing a series A pitch. Kind of interesting is that as we are evaluating our series A pitch and doing comparables, it seems like all of our comparables are more like series B and greater, just because we've de-risked the company at this point so greatly... But yeah, a raise is gonna be coming up pretty soon, and happy to have any introductions if anybody listening is interested.
 
 **Adam Stacoviak:** I said that because just a few shows ago we did an entire show with Joseph Jacks around OSS and venture-backed commercial open source, so I'm sure we're picking up more interest around there, and I'm sure that any new audience from that kind of show too is listening... Plus, I'm sure there's a lot of VCs out there in that venture capital world paying closer attention, and they're listening to shows like this to get insights.
 
-**Greg Kurtzer:** We should have a Changelog discount. If anybody comes and they reference Changelog, we can have a discount code.
+**Gregory Kurtzer:** We should have a Changelog discount. If anybody comes and they reference Changelog, we can have a discount code.
 
 **Adam Stacoviak:** Right.
 
@@ -440,11 +440,11 @@ We have this really cool technology that enables those quick wins, that enables 
 
 **Jerod Santo:** That's no big deal, right? 5% isn't that much, right? Not amongst friends.
 
-**Greg Kurtzer:** \[laughs\]
+**Gregory Kurtzer:** \[laughs\]
 
 **Adam Stacoviak:** We haven't really mentioned the Mac app; I don't know how much that plays into it, but maybe paint the picture of the future of getting involved - people who will wanna play with this, there's a Mac app, there's some user groups coming up... Help people that are looking to get plugged in, get plugged in.
 
-**Greg Kurtzer:** \[01:16:03.08\] Fantastic point. You mentioned the Mac support - something that we are working on right now and should have something released by next month is something called Singularity desktop, which is basically just being able to run Singularity in all your containers on your Mac. And again, the command line interface for Singularity is incredibly simple - it's Singularity shell pointed at your Ubuntu container, your CentOS container, or Suse, or TensorFlow event... And you hit enter, and you're now sitting on your Mac, you're now sitting in that same terminal but you're now running Linux, running inside that container. No dependencies or anything, you just install Singularity. It manages all of that operating system support and whatnot.
+**Gregory Kurtzer:** \[01:16:03.08\] Fantastic point. You mentioned the Mac support - something that we are working on right now and should have something released by next month is something called Singularity desktop, which is basically just being able to run Singularity in all your containers on your Mac. And again, the command line interface for Singularity is incredibly simple - it's Singularity shell pointed at your Ubuntu container, your CentOS container, or Suse, or TensorFlow event... And you hit enter, and you're now sitting on your Mac, you're now sitting in that same terminal but you're now running Linux, running inside that container. No dependencies or anything, you just install Singularity. It manages all of that operating system support and whatnot.
 
 We're also gonna be doing the same thing for Windows here in a little bit, but of course, first we're hitting with Mac, just because it's a little bit closer to home in terms of how to enable that on the Mac... So that's something we're working on. Imagine you don't need a VM anymore, install VMware, or anything to run Linux on your Mac. So that's something that we're working on.
 
@@ -452,15 +452,15 @@ The other thing as well - again, this is kind of on the community side - is we'v
 
 **Adam Stacoviak:** Yeah. Link in the show notes, for sure. We'll make sure we get that from you and put it in the show notes. Listeners, you know that - when you go and you listen to a show like this, you know to expect great links in the show notes, so hit that up. Links there.
 
-**Greg Kurtzer:** Very cool. I didn't wanna presume that I could plug in, and whatnot.
+**Gregory Kurtzer:** Very cool. I didn't wanna presume that I could plug in, and whatnot.
 
 **Adam Stacoviak:** No, please do.
 
-**Greg Kurtzer:** Too much.
+**Gregory Kurtzer:** Too much.
 
 **Adam Stacoviak:** No. Absolutely.
 
-**Greg Kurtzer:** Okay, so that's happening next month. We have some great talks aligned; it's gonna be mostly focused on the containerization side of compute. So if people are interested in compute and how to containerize those workflows, both HPC, science, as well as AI and enterprise-focused workflows, I encourage you to check out that user group.
+**Gregory Kurtzer:** Okay, so that's happening next month. We have some great talks aligned; it's gonna be mostly focused on the containerization side of compute. So if people are interested in compute and how to containerize those workflows, both HPC, science, as well as AI and enterprise-focused workflows, I encourage you to check out that user group.
 
 **Adam Stacoviak:** Good deal. Thank you so much, Greg, for coming on the show, man. It's been awesome to hear from you. Jerod, I'm so glad we're in the know now; I feel better about my life because now we know about Singularity. \[laughter\]
 
@@ -474,4 +474,4 @@ The other thing as well - again, this is kind of on the community side - is we'v
 
 Greg, thank you so much for your time.
 
-**Greg Kurtzer:** It's been a pleasure. I love chatting with you guys, and both the on-show, as well as the off-show discussions have been fantastic. A lot of fun, I enjoyed it thoroughly, and if you guys ever want to chat with me again, open welcome.
+**Gregory Kurtzer:** It's been a pleasure. I love chatting with you guys, and both the on-show, as well as the off-show discussions have been fantastic. A lot of fun, I enjoyed it thoroughly, and if you guys ever want to chat with me again, open welcome.
