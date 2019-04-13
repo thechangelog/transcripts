@@ -46,7 +46,7 @@ So what this is is kind of a look at that problem through a different lens, whic
 
 **Jerod Santo:** So the way it accomplishes this is really enabling you to use something that already exists now in 2019, and I think you can make the argument that Pika/web and this style of application bundling - not bundling, but lack of bundling - wasn't previously accessible or available to us as an option, and is now through ES modules. Do you wanna talk about ES modules, tell everybody about them, maybe a little bit of history if you have it, and then how Pika/web enables that as your code-loading system in the browser?
 
-**Fred K. Schott:** \[00:07:51.06\] Yeah, we actually do let ES modules do a lot of the heavylifting in terms of what we can and can't do. Some background there - ES modules I believe were released as a part of the ES6 pack before it was even \[unintelligible 00:08:01.05\] I always run into trouble translating between the two... Is that ES 2015...? You know, several years ago this spec was introduced and ratified, to have a native module system for Javascript. Up until then we'd used -- God, the whole list of them: UMD, Require.js, CommonJS, which is what Node uses when you use the require function, and module.exports... That's essentially a module system; not native to Javascript, but supported by Node, and Node gives you the functions to use those modules.
+**Fred K. Schott:** \[00:07:51.06\] Yeah, we actually do let ES modules do a lot of the heavylifting in terms of what we can and can't do. Some background there - ES modules I believe were released as a part of the ES6 spec before it was even called, I think... I always run into trouble translating between the two... Is that ES 2015...? You know, several years ago this spec was introduced and ratified, to have a native module system for Javascript. Up until then we'd used -- God, the whole list of them: UMD, Require.js, CommonJS, which is what Node uses when you use the require function, and module.exports... That's essentially a module system; not native to Javascript, but supported by Node, and Node gives you the functions to use those modules.
 
 **Jerod Santo:** Right.
 
@@ -204,7 +204,7 @@ The basic idea is that you run Publish, it takes your entire directory, everythi
 
 \[00:39:51.18\] The problem there is that we've all started moving towards more build tools, so the code that we're writing actually very rarely looks like the code that you actually run on your system. Maybe that's because you as the author wanna write a modern Javascript and then you don't wanna have to worry if that will run directly; you instead just wanna use Babel, build for Node v4, v6, v8 and then be done with it... Or maybe you're using TypeScript, maybe you wanna try something really cool and experimental. All those reasons today we're not writing Javascript that is really meant to be run directly on Node, on the browser, especially for the package creator... So this is an attempt to reimagine (for lack of a better word) how that would work; instead of just being "Here's my directory. Enjoy!", actually building out a pipeline of what packaging and what building your package for Npm really means... To simplify all this, so that you as the package create don't need to "Okay, do I write this myself? Do I use Webpack? I'm building a package - how does that work?"
 
-Up until now it's been a pretty tall lift for a lot of package creators to figure all these different tools out. Again, it's a smaller group, so there's a lot less out there for "How do I create a package that runs on as many machines as possible?" Jason Miller built something called Microbundle, which is pretty cool; that is another attempt at this. But Pika/pack is trying to look at it instead of just being "How do I build these small packages in an unopinionated way?" instead "How do I build out a build pipeline for my package?" It lets me very simply add in "Okay, I'm creating this package, and I want it to work on Node modern browsers, and I want to have other generated TypeScript definitions." Add those three plugins, similar to how you would in Babel, and run \[unintelligible 00:41:43.25\] That's at least the goal.
+Up until now it's been a pretty tall lift for a lot of package creators to figure all these different tools out. Again, it's a smaller group, so there's a lot less out there for "How do I create a package that runs on as many machines as possible?" Jason Miller built something called Microbundle, which is pretty cool; that is another attempt at this. But Pika/pack is trying to look at it instead of just being "How do I build these small packages in an unopinionated way?" instead "How do I build out a build pipeline for my package?" It lets me very simply add in "Okay, I'm creating this package, and I want it to work on Node modern browsers, and I want to have auto generated TypeScript definitions." Add those three plugins, similar to how you would in Babel, and run pack, and it just works. That's at least the goal.
 
 **Nick Nisi:** Well, I like this... It's really helping to standardize a build process and release process for packages to be the most friendly packages possible.
 
@@ -212,7 +212,7 @@ Up until now it's been a pretty tall lift for a lot of package creators to figur
 
 **Jerod Santo:** It's reimagined, guys. It's reimagined. \[laughter\]
 
-**Fred K. Schott:** It's all these complexities to get around the original way that this was built, which is - if you think back to what an Npm package was, let's say five years ago, it was "Here's my index.js file, here's my package.json file. Maybe I have a lib directory of other dependencies, but essentially that's it." Now it's much more complex. This is an attempt to build a publishing system that works for that... And there is a Publish command to this as well, that borrows heavily from the np package, if anyone's used that... It basically walks you through a publish, so "Hey, what version are you trying to bump to? Here's all the commits that will go out in this version. Does that look okay? Okay, let's make sure that this is meant to go out to public, versus private", the pre-tagging, all of these things; it gives you a step-by-step CLI to walk through those, versus Npm's \[unintelligible 00:43:00.19\] is kind of just like "Alright. Tarball. Here you go."
+**Fred K. Schott:** It's all these complexities to get around the original way that this was built, which is - if you think back to what an Npm package was, let's say five years ago, it was "Here's my index.js file, here's my package.json file. Maybe I have a lib directory of other dependencies, but essentially that's it." Now it's much more complex. This is an attempt to build a publishing system that works for that... And there is a Publish command to this as well, that borrows heavily from the np package, if anyone's used that... It basically walks you through a publish, so "Hey, what version are you trying to bump to? Here's all the commits that will go out in this version. Does that look okay? Okay, let's make sure that this is meant to go out to public, versus private", the pre-tagging, all of these things; it gives you a step-by-step CLI to walk through those, versus Npm's publish command is kind of just like "Alright. Tarball. Here you go."
 
 **Jerod Santo:** Some interesting/potentially good news, specifically with regard to Npm, because it seems like a modernized aspect on building packages for Npm is that the Npm folks are looking at this as a potential integration for them. Is that correct? Do you know what's up with that?
 
@@ -240,7 +240,7 @@ There's also some cool things you can do about -- I wanna write a library; it's 
 
 **Nick Nisi:** I did search Pika Package for that, and I've found it on there with an exact match, but it is not a web-friendly ES module, unfortunately...
 
-**Fred K. Schott:** \[unintelligible 00:47:00.09\] the Five package community to hear that... \[laughter\]
+**Fred K. Schott:** Oof. That is going to kill the Five package community to hear that... \[laughter\]
 
 **Jerod Santo:** Weird, so what exactly... I mean, if we can take this one for instance, what would we find (I'm assuming that's pretty straightforward source code) in the repository or in the package itself that would make it not? Is it just the way they're doing exports, and stuff?
 
@@ -284,7 +284,7 @@ There's also some cool things you can do about -- I wanna write a library; it's 
 
 **Jerod Santo:** Well, Pika/pack - check that out if you are a package creator, whereas Pika/web sounds like a big opportunity to simplify some things, especially on greenfield projects; get out and use ES modules directly. Hey, give it a try, let us know what you find.
 
-One of the cool things about doing this is we're bringing back the view-source. "Oh, yeah!", as you said on this blog post. \[laughter\] It's gonna open up a Javascript file... \[unintelligible 00:51:12.11\]
+One of the cool things about doing this is we're bringing back the view-source. "Oh, yeah!", as you said on this blog post. \[laughter\] It's gonna open up a Javascript file, we're going to view those sources.
 
 **Fred K. Schott:** I'm so sorry, I'm so sorry... I don't say "Bringing back view-source, Oh yeah!" like Kool-Aid guy; I say "Oh yeah, by the way..." \[laughter\] I'm so sorry.
 
@@ -302,4 +302,4 @@ One of the cool things about doing this is we're bringing back the view-source. 
 
 **Fred K. Schott:** \[laughs\] I'm sure that was a much-desired feature.
 
-**Jerod Santo:** \[unintelligible 00:51:57.04\] Yes, Five Guys hamburger, so bringing it full circle... That's our show for this week. Hey, thanks for hanging out. We'll see you next time!
+**Jerod Santo:** And I'm totally impressed. Yes, Five Guys hamburger, so bringing it full circle... That's our show for this week. Hey, thanks for hanging out. We'll see you next time!

@@ -38,7 +38,7 @@
 
 **Kevin Ball:** And then on GitHub, and then on GitHub queerviolet. Are there any stories behind those names?
 
-**Ashi Krishnan:** There are \[unintelligible 00:04:23.11\] stories behind those. Queerviolet is the older one, and I picked that one because I'm a strange flower, and sort of more seriously as a way to be visibly linguistically queer in a space that doesn't always make that obvious. It is, as my friend has pointed out, a little bit on the nose, so I started to kind of lean away from it with my Twitter handle and my Instagram handle. And for those I picked Rakshesha because -- so I might butcher this now... The Rakshasa are creatures -- they're kind of an Indian analogue of the faith where they are creatures who are other than the gods, but they are like the gods, in some sense. They were there before, and now they have gone away because the gods vanquished them. So Rakshesha is sort of a female demon that lives in the lands beyond creation, and sometimes comes in to do mischief.
+**Ashi Krishnan:** There are small stories behind those. Queerviolet is the older one, and I picked that one because I'm a strange flower, and sort of more seriously as a way to be visibly linguistically queer in a space that doesn't always make that obvious. It is, as my friend has pointed out, a little bit on the nose, so I started to kind of lean away from it with my Twitter handle and my Instagram handle. And for those I picked Rakshesha because -- so I might butcher this now... The Rakshasa are creatures -- they're kind of an Indian analogue of the faith where they are creatures who are other than the gods, but they are like the gods, in some sense. They were there before, and now they have gone away because the gods vanquished them. So Rakshesha is sort of a female demon that lives in the lands beyond creation, and sometimes comes in to do mischief.
 
 **Kevin Ball:** \[laughs\] And have you found that having those names has kind of changed the way that you present yourself publicly?
 
@@ -48,7 +48,7 @@
 
 I kind of wanna ask you - you've teased the talk a little bit, but what is it gonna be? Is it one of these visual poetry talks?
 
-**Ashi Krishnan:** It is gonna be pretty visual. Whenever I'm writing a script for a talk, there's always a little bit of something like poetry in it. \[unintelligible 00:06:54.19\] at a minimum. So at React Amsterdam it's going to be about WebGL and React, and kind of heavy on the WebGL front.
+**Ashi Krishnan:** It is gonna be pretty visual. Whenever I'm writing a script for a talk, there's always a little bit of something like poetry in it. I try to find clever turns of phrases, at a minimum. So at React Amsterdam it's going to be about WebGL and React, and kind of heavy on the WebGL front.
 
 I got an iPad - the first kind of iPad that worked with the pencil, the first-generation pencil; I got that when it came out, or a little bit after it came out, and then it got stolen about a year later. So I got the iPad Pro the first day it came out, and I've just been doing a lot of sketching and working with the stylus, so my talk is gonna focus on how to take data from the stylus in a web app and render it with WebGL, and do so in a React context. It's heavier on the WebGL part than the React part, to be honest, but there's gonna be some React in there.
 
@@ -60,7 +60,7 @@ I got an iPad - the first kind of iPad that worked with the pencil, the first-ge
 
 **Suz Hinton:** \[00:08:03.17\] ...and I'm so fascinated by the fact that you have this really cool origin story of how you first got a foothold in the industry. I'm interested in how you went from that, which to me didn't sound as creative with the coding side of things, to what you're doing actually today. Because I know that you got into code in a similar way to me, with the Commodore 64 and println(), but then what made you go into the more creative side of things after you'd been in the industry for a while?
 
-**Ashi Krishnan:** I'd always been very interested in storytelling, and in graphics, and in putting together these interesting, creative, visual things... And I just kind of had a place to put the -- and I know it's like, "Oh, you can make a website and put your things on the website", and that's true, but the other part of that is "I haven't had deadlines or places where it's like "You're giving a talk on this day, and you are going to stand there on stage for 30 minutes, whether you've prepared a talk or not, so you should probably prepare something..." \[laughter\] That kind of deadline is really -- my friend said this is excellent for my creative process, and I have to agree, because it forces me to actually produce things that are \[unintelligible 00:09:17.10\] and put them out into the world.
+**Ashi Krishnan:** I'd always been very interested in storytelling, and in graphics, and in putting together these interesting, creative, visual things... And I just kind of had a place to put the -- and I know it's like, "Oh, you can make a website and put your things on the website", and that's true, but the other part of that is "I haven't had deadlines or places where it's like "You're giving a talk on this day, and you are going to stand there on stage for 30 minutes, whether you've prepared a talk or not, so you should probably prepare something..." \[laughter\] That kind of deadline is really -- my friend said this is excellent for my creative process, and I have to agree, because it forces me to actually produce things that are \[unintelligible 00:09:17.10\] things and put them out into the world.
 
 I've kind of always been doing experiments, and projects that I've kept to myself, but giving talks really has forced me to finish things, which I think is wonderful.
 
@@ -72,11 +72,11 @@ I've kind of always been doing experiments, and projects that I've kept to mysel
 
 **Kevin Ball:** I'll do that...
 
-**Ashi Krishnan:** One of my favorite talks, "Learning from machines" - I applied to Write/Speak/Code and I applied to Strange Loop, and Write/Speak/Code turned me down and Strange Loop said yes. So I started developing it for Strange Loop, and then \[unintelligible 00:10:16.02\] came back a month or two later, and was like, "Hey, actually we have a spot... Would you like to present to Write/Speak/Code?" I was like, "Oh yeah, great! That's perfect. I'm already working on it." And I agreed without looking at the schedule and then I looked at the schedule - I'd just agreed to present this in two weeks. \[laughter\]
+**Ashi Krishnan:** One of my favorite talks, "Learning from machines" - I applied to Write/Speak/Code and I applied to Strange Loop, and Write/Speak/Code turned me down and Strange Loop said yes. So I started developing it for Strange Loop, and then Neha, who runs Write/Speak/Code, came back a month or two later, and was like, "Hey, actually we have a spot... Would you like to present to Write/Speak/Code?" I was like, "Oh yeah, great! That's perfect. I'm already working on it." And I agreed without looking at the schedule and then I looked at the schedule - I'd just agreed to present this in two weeks. \[laughter\]
 
 **Suz Hinton:** Oh, no...!
 
-**Ashi Krishnan:** So that was a bit of a crunch. But it came out still one of my favorite talks; it came out really well. So I started to understand why my artist friends, some of them have -- they're almost attracted to putting themselves into a crunch mode and just going into this hole of creativity and then coming out and being like "Here, look, I've done this thing", and \[unintelligible 00:10:55.24\] but they've done it. It feels like an accomplishment.
+**Ashi Krishnan:** So that was a bit of a crunch. But it came out still one of my favorite talks; it came out really well. So I started to understand why my artist friends, some of them have -- they're almost attracted to putting themselves into a crunch mode and just going into this hole of creativity and then coming out and being like "Here, look, I've done this thing", and they're haggard and they're bleeding, but they've done it. It feels like an accomplishment.
 
 **Kevin Ball:** I feel like even if I give myself that six-month buffer and I say "Okay, I'm gonna do it", and I do a lot of work and I get it 80% done, I redo it again in the last two weeks anyway. \[laughter\]
 
@@ -116,7 +116,7 @@ My dad stopped showing me anything, but we had these books that had programs in 
 
 **Suz Hinton:** Racing the beam. \[laughs\]
 
-**Ashi Krishnan:** Yeah... So there's not a direct analogue of that technique, but some of the things you do in shaders, where you're like "This little program is running for every pixel", they're slightly reminiscent of that... But to be honest, even that worked. When you're writing a shader program, you're writing a fairly large program in C, that's gonna get compiled and assembled... And even that lower level of tooling in our graphics pipeline is still so much higher-level than what was available on the \[unintelligible 00:17:54.06\] at the time.
+**Ashi Krishnan:** Yeah... So there's not a direct analogue of that technique, but some of the things you do in shaders, where you're like "This little program is running for every pixel", they're slightly reminiscent of that... But to be honest, even that worked. When you're writing a shader program, you're writing a fairly large program in C, that's gonna get compiled and assembled... And even that lower level of tooling in our graphics pipeline is still so much higher-level than what was available on the C64 or arcade machines at the time.
 
 **Suz Hinton:** Got it.
 
@@ -156,7 +156,7 @@ And similarly, I didn't know Angular when I started at Full Stack, and I didn't 
 
 **Suz Hinton:** And eventually, promises have to come back into it as well, because that's sort of -- you know, it's syntactic sugar on top of that.
 
-**Ashi Krishnan:** Yeah, of course, and you will sometimes end up using promises directly. You'll see some async function returning -- I don't know why you would do this, but returning Promise.resolve, or \[unintelligible 00:26:00.13\] is a favorite of mine that sometimes throws people for a loop...
+**Ashi Krishnan:** Yeah, of course, and you will sometimes end up using promises directly. You'll see some async function returning -- I don't know why you would do this, but returning Promise.resolve, or calling an async function and then chaining that catch onto it, is a favorite of mine that sometimes throws people for a loop...
 
 **Kevin Ball:** Yeah. I wonder how much of the challenge is just "asynchronicity is hard, regardless of how we sugar it up."
 
@@ -238,7 +238,7 @@ And then of course, in the WebGL side of things, when you get into the slightly 
 
 I also think anytime you can create extension opportunities, so any time you can offer an -- an API sounds so big; what I really want is the ability to write a little bit of code that talks to the program in a meta way. So if I can write a GraphQL query to query mutations that have happened to a particular variable, say, that would be nice. Or if I can write a little bit of Javascript...
 
-\[00:39:59.18\] Okay, sidebar - I've been working on TypeScript a whole lot recently, and I think it's really cool, I think it's really great. There are numerous times when I just wish I could tell TypeScript that the type of this variable should be generated by this Javascript function that runs in the compiler. There's no way to do that. I can understand how that breaks all kinds of mathematical -- this algebraic whatever form is impure if I'm allowed to write Javascript that goes and computes what the return type should be, but I should be able to write Javascript that goes and computes \[unintelligible 00:40:34.19\] given not the runtime values of the type, but the input types that it was called with.
+\[00:39:59.18\] Okay, sidebar - I've been working on TypeScript a whole lot recently, and I think it's really cool, I think it's really great. There are numerous times when I just wish I could tell TypeScript that the type of this variable should be generated by this Javascript function that runs in the compiler. There's no way to do that. I can understand how that breaks all kinds of mathematical -- this algebraic whatever form is impure if I'm allowed to write Javascript that goes and computes what the return type should be, but I should be able to write Javascript that goes and computes the return type of a function, given not the runtime values of the type, but the input types that it was called with.
 
 So I think that kind of meta-ness, where you can write code that describes how this code should be assembled - that is something we're starting to get into, and I think it's actually going to be very powerful.
 
@@ -262,7 +262,7 @@ A huge amount of times I load a module and... I still think this happens - Node 
 
 **Kevin Ball:** For sure. Let's talk a little bit about the React ecosystem in particular... Our excuse for talking today is React Amsterdam, and it seems like you've been doing a bunch of stuff in React, both on the teaching side and then on the development side. Where do you feel like the holes are in terms of React tooling? Or where are the really cool opportunities that are getting started?
 
-**Ashi Krishnan:** There's a lot of cool stuff out there. In terms of \[unintelligible 00:46:12.29\] and seeing what happens. Do I think React tooling is just great? I feel like there needs to be better tooling around hooks, since hooks are now going to be the new hotness for the next year or so.
+**Ashi Krishnan:** There's a lot of cool stuff out there. In terms of plopping a component down on a page, and feeding it data, and seeing what happens. Do I think React tooling is just great? I feel like there needs to be better tooling around hooks, since hooks are now going to be the new hotness for the next year or so.
 
 Right now, if you go into the React developer tools and you look at the hookified component, the internal state, you get to see how they've implemented hooks, which is cool and all, but not really that useful to me, if you look at the -- I guess the props are normal. Yeah, so that could improve, and I'm sure will improve.
 
