@@ -318,7 +318,7 @@ When I look back -- I don't know if you ever read "The Soul of a New Machine", t
 
 **Adam Barr:** Well, it's on Amazon, BarnesAndNoble.com... It's published by MIT Press. I know the Barnes & Nobles in Seattle had it last time I checked, if you actually wanna go to a physical bookstore and buy it. Also, it's available on Kindle and whatever other eBook formats you choose to use.
 
-**Adam Stacoviak:** You know, speaking of going to a real bookstore, I went to a Barnes & Noble recently, and those places are actually pretty cool. You can grab the book you wanna buy, you can look through it... I mean, how novel of an idea is that? You can even sit down in a comfortable chair and read a little bit of it. So cool! I would actually recommend that.
+**Adam Stacoviak:** \[00:57:26\] You know, speaking of going to a real bookstore, I went to a Barnes & Noble recently, and those places are actually pretty cool. You can grab the book you wanna buy, you can look through it... I mean, how novel of an idea is that? You can even sit down in a comfortable chair and read a little bit of it. So cool! I would actually recommend that.
 
 **Jerod Santo:** It turns out physical retail stores have value. Who would have thought...?
 
