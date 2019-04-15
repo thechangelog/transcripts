@@ -18,7 +18,7 @@
 
 **Jerod Santo:** Just jump in whenever you like. You can't possibly ruin it around here. That's the way it is with a party - you just kind of hop into conversations, you hop out, you say what you like, and we all go home a little bit happier than we were.
 
-**Chris Coyier:** Well, it's so good! It's such a cool network you all have going on here. You should be dang proud of it, it's really great! The website is really sweet, the community aspects are sweet... I was looking at your -- this is funny, because now it's gonna say "Uh-uh-uh" and a &lt;p&gt; tag on your website, because your transcriptions are so accurate.
+**Chris Coyier:** Well, it's so good! It's such a cool network you all have going on here. You should be dang proud of it, it's really great! The website is really sweet, the community aspects are sweet... I was looking at your -- this is funny, because now it's gonna say "Uh-uh-uh" in a &lt;p&gt; tag on your website, because your transcriptions are so accurate.
 
 **Jerod Santo:** Well, thank you very much. We try to sweat the details as much as we can and put out top notch stuff if and when possible, so we appreciate that you appreciate it. Well, speaking of appreciating things, we're gonna get into the front-end divide again; I know, listeners, we have ranted and raved about this once already, but it's a big topic, and we now have Chris here with us to have a whole new perspective.
 
