@@ -48,11 +48,11 @@ Jaana, is there anything that you would see taken out?
 
 I also don't like naked returns. I wish they were entirely gone. I really like to call out the variable names when I'm returning things. People think that it's a little bit verbose, but we have some tools that actually ought to fill some of those places, so I think it's not really worth to have this second-guess, or make it so indirectional. I wish that we were more consistent with naked returns.
 
-Select statement is one of the other things that I wish we could have spent some more time on... Because it's doing a lot of random things, and I wish that there was some sort of maybe a priority, or something. A very typical case is, you know, if my channel is closed, for example, I don't necessarily care much about what else is going on in that select. There are some very common patterns, and it's just so hard to figure out the right pattern, and use select in an easy way, because select statement is really complicated.
+The select statement is one of the other things that I wish we could have spent some more time on... Because it's doing a lot of random things, and I wish that there was some sort of maybe a priority, or something. A very typical case is, you know, if my channel is closed, for example, I don't necessarily care much about what else is going on in that select. There are some very common patterns, and it's just so hard to figure out the right pattern, and use select in an easy way, because the select statement is really complicated.
 
-\[00:07:57.24\] If we have time, I have some opinions on what packages I think need to be gone from 2.0. A typical example of this is the expvar package. It's like a straight copy of the \[unintelligible 00:08:08.22\] at Google, and I don't think that it's a really scalable approach. It uses global state, the number of variables is growing really quickly, the output format is human-readable but not necessarily a good representation; it doesn't really provide a good way to represent structured values... And it's really expensive to parse and format, so I don't think it's worth it at all. And there's some packages that we wanna get rid of, like the container packages, the rpc-related package, which has been deprecated...
+\[00:07:57.24\] If we have time, I have some opinions on what packages I think need to be gone from 2.0. A typical example of this is the `expvar` package. It's like a straight copy of the \[unintelligible 00:08:08.22\] at Google, and I don't think that it's a really scalable approach. It uses global state, the number of variables is growing really quickly, the output format is human-readable but not necessarily a good representation; it doesn't really provide a good way to represent structured values... And it's really expensive to parse and format, so I don't think it's worth it at all. And there's some packages that we wanna get rid of, like the `container/` packages, the rpc-related package, which has been deprecated...
 
-Net/http also has a lot of organically-grown features, and the ResponseWriter has this sort of optional interfaces. If you think about the initial http package, even HTTP/2 was not around when it first came around... And over time it started to provide some features through optional implementing some of the interfaces, that is added to the package at a later time... And I really want 2.0 to kind of like clean that up, and make it easier for library makers, as well as the user, as they're engaging with the ResponseWriter.
+`net/http` also has a lot of organically-grown features, and the ResponseWriter has this sort of optional interfaces. If you think about the initial http package, even HTTP/2 was not around when it first came around... And over time it started to provide some features through optional implementing some of the interfaces, that is added to the package at a later time... And I really want 2.0 to kind of like clean that up, and make it easier for library makers, as well as the user, as they're engaging with the ResponseWriter.
 
 **Mat Ryer:** Wow... Yeah.
 
@@ -62,13 +62,13 @@ Net/http also has a lot of organically-grown features, and the ResponseWriter ha
 
 **Mark Bates:** I gave one answer, she gave them all.
 
-**Johnny Boursiquot:** I do have a question around the expvar package though - would you replace that with anything, or you'd basically make that an external concern?
+**Johnny Boursiquot:** I do have a question around the `expvar` package though - would you replace that with anything, or you'd basically make that an external concern?
 
 **Jaana B. Dogan (JBD):** I would say it's an external concern. I would rather libraries to expose the values through APIs, and you decide on the export format, and you read it from the library and then convert it to whatever format... I don't like Go is opinionated on this, to be honest.
 
 **Johnny Boursiquot:** Mat, what about you? No one's asked you this same question.
 
-**Mat Ryer:** Well, I actually would like to simplify -- there are some things that there are multiple ways to do it in the language. For example, you can create an instance \[unintelligible 00:10:24.02\] you can do that with a new keyword, and also just kind of do it literally, and then it starts and you set the fields, and things. So anytime that there's two ways to do something, I always would like to trim that fat a little bit. So I would probably drop the new keyword.
+**Mat Ryer:** Well, I actually would like to simplify -- there are some things that there are multiple ways to do it in the language. For example, you can create an instance of a struct, you can do that with a new keyword, and also just kind of do it literally, and then it starts and you set the fields, and things. So anytime that there's two ways to do something, I always would like to trim that fat a little bit. So I would probably drop the new keyword.
 
 **Mark Bates:** Yeah, I would agree.
 
@@ -122,11 +122,11 @@ We've identified a number of things that could be done better with the existing 
 
 \[00:16:26.13\] I really like the fact that check is specifically -- it looks like maybe it's specifically trying to solve the verbosity problem, but it might actually help us to create some of these tools by intercepting every error, helping us to write some dynamic analysis tools maybe. It really depends on how much they're going to provide us some APIs maybe to diagnose what is going on... But I think it's an opportunity to us; rethinking about error handling is a good opportunity.
 
-**Mark Bates:** Yeah, I was reading the error spec earlier, and I don't know - there's a lot in there I think might be just too much, just too many things. The biggest thing I've always had -- like, I don't need check; check doesn't really bother me. Like Mat said earlier, I think the if err != nil thing has always worked for me, and I've just gotten used to it. And in a function, if I have multiple points where I need to do something if there's an error, I just write a little anonymous function in-line and just call that my own little check, basically. So I don't feel like I need any of that.
+**Mark Bates:** Yeah, I was reading the error spec earlier, and I don't know - there's a lot in there I think might be just too much, just too many things. The biggest thing I've always had -- like, I don't need check; check doesn't really bother me. Like Mat said earlier, I think the `if err != nil` thing has always worked for me, and I've just gotten used to it. And in a function, if I have multiple points where I need to do something if there's an error, I just write a little anonymous function in-line and just call that my own little check, basically. So I don't feel like I need any of that.
 
-What I really need is just a nice way to get a clean stack trace. From where the error was, that's where I want a stack trace that goes all the way back. I've been trying to use the pkg/errors package, and WithStack keeps adding on top of each other, and makes for these really hard to read stack traces. So for me, all I really want is just something that gives me the stack trace.
+What I really need is just a nice way to get a clean stack trace. From where the error was, that's where I want a stack trace that goes all the way back. I've been trying to use the `pkg/errors` package, and `WithStack` keeps adding on top of each other, and makes for these really hard to read stack traces. So for me, all I really want is just something that gives me the stack trace.
 
-**Jaana B. Dogan (JBD):** So probably you need the stack frame rather than the whole trace, and you can reconstruct the thing by just looking at the stack frame. Also, this is such a big issue if you are running things in production - and we all do; you just wanna collect errors in a way that you can analyze, and you're able to see "Hey, what are the top reasons and where are the top places that are errors are coming from? What are some of the error patterns?" And currently, just because of fmt.Errorf, we just lose the stack frame; it's not really nice if you wanna analyze... So definitely it's something that I would love to be improved... But I've seen the proposal, and it seems like it's covering a lot of things and exposing a lot of APIs, and it just looks like it's too much.
+**Jaana B. Dogan (JBD):** So probably you need the stack frame rather than the whole trace, and you can reconstruct the thing by just looking at the stack frame. Also, this is such a big issue if you are running things in production - and we all do; you just wanna collect errors in a way that you can analyze, and you're able to see "Hey, what are the top reasons and where are the top places that are errors are coming from? What are some of the error patterns?" And currently, just because of `fmt.Errorf()`, we just lose the stack frame; it's not really nice if you wanna analyze... So definitely it's something that I would love to be improved... But I've seen the proposal, and it seems like it's covering a lot of things and exposing a lot of APIs, and it just looks like it's too much.
 
 **Mark Bates:** Exactly. I was reading it and there are a few things in there I couldn't even grasp. I'm like "What is this even for? What problem is this thing solving?" And there's a few of those. I don't know if it's the best proposal I've ever seen.
 
@@ -140,13 +140,13 @@ What I really need is just a nice way to get a clean stack trace. From where the
 
 **Jaana B. Dogan (JBD):** Yeah. I would otherwise maybe advocate something more. For the error groups it's a really common case, but you can always build stuff to support those cases with a third-party library. I'm not sure if we should include more to the standard library, or we should experiment more outside of the standard library.
 
-**Mat Ryer:** Well, one of the cool things about Go as a project is that it does engage with the community. If you've got something to say about it, you can write about it, you can get involved, and I know that they pay attention to it. I was talking to one of the team recently in Paris, and they're very interested in looking at particularly errors... And there's packages like Dave Cheney's package, and a few others that have really taken part in that conversation. That's something that I like to see just from a community point of view. It's quite empowering.
+**Mat Ryer:** Well, one of the cool things about Go as a project is that it does engage with the community. If you've got something to say about it, you can write about it, you can get involved, and I know that they pay attention to it. I was talking to one of the team recently in Paris, and they're very interested in looking at particularly errors... And there's packages like [Dave Cheney's package](https://github.com/pkg/errors), and a few others that have really taken part in that conversation. That's something that I like to see just from a community point of view. It's quite empowering.
 
 **Break:** \[00:21:03.13\]
 
 **Jaana B. Dogan (JBD):** In terms of tools, I think we are not doing a good job in terms of giving introspection tools, for example. Do you have any opinions on that? What do you think is the right approach? There are errors that you wanna handle, transform into something else, or you can recover from. Then there are some errors where there's nothing else to do; just like Mat said, it's a "stop the world" type of error, and all you can do is maybe log it. What do you think our approach should be in terms of providing more visibility?
 
-**Mat Ryer:** I think it's a great question. That means I don't have an answer. \[laughter\] A secret code for that. I don't know, but for sure, particularly in APIs, often it's very convenient as you're writing code to just, like you say, bubble the error up, and it pops out at the top, and the developer can read it. But of course, \[unintelligible 00:23:01.18\] so you do want to protect that, to some extent. And with some errors it's okay for the users to see it, and some of them you'd rather not; it's sort airing your dirty laundry in public. There isn't really a simple way -- say, for example, "This is the public message for this error."
+**Mat Ryer:** I think it's a great question. That means I don't have an answer. \[laughter\] A secret code for that. I don't know, but for sure, particularly in APIs, often it's very convenient as you're writing code to just, like you say, bubble the error up, and it pops out at the top, and the developer can read it. But of course, you can \[unintelligible 00:23:01.18\] the internals doing that so you do want to protect that, to some extent. And with some errors it's okay for the users to see it, and some of them you'd rather not; it's sort airing your dirty laundry in public. There isn't really a simple way -- say, for example, "This is the public message for this error."
 
 That's an answer to your question, but... \[laughter\]
 
@@ -176,7 +176,7 @@ That's an answer to your question, but... \[laughter\]
 
 I don't know what is the best way to avoid panics. Would you rather see yourself corrupting memory rather than Go panicking?
 
-**Mark Bates:** Oh, that's a great question. I don't have an answer for that. You know, working on a project like Buffalo, for example, where there's a lot of user stuff happening, we have to really make sure that panics don't crash people's applications... And it's a real thing. The standard library panics in some very strange places, for example... One of them being if you accidentally register a database driver twice it panics... Which can happen in a variety of cases, typically involving vendoring, but that's a whole other issue... Which is going away, thankfully.
+**Mark Bates:** Oh, that's a great question. I don't have an answer for that. You know, working on a project like Buffalo, for example, where there's a lot of user stuff happening, we have to really make sure that panics don't crash people's applications... And it's a real thing. The standard library panics in some very strange places, for example... One of them being if you accidentally register a database driver twice it panics... Which can happen in a variety of cases, typically involving vendoring, but that's a whole another issue... Which is going away, thankfully.
 
 So the standard library has this pattern of if you put the "must" in front of it, it panics, which I personally -- again, I'm against panics, so I think that's a really bad approach. Like, give me an error version and let ME shut down my app. So there's stuff like that, generally...
 
@@ -192,7 +192,7 @@ So the standard library has this pattern of if you put the "must" in front of it
 
 **Mark Bates:** Yeah, exactly.
 
-**Johnny Boursiquot:** Yeah. And the other thing, too - when I teach, especially those new to Go, they kind of run into some errors that we as sort of veterans consider to be obvious... For example, the "index out of range" error. Or if you're trying to access an index or an array that doesn't exist, then that's gonna panic. Sometimes they're surprised, they're like "Oh, I didn't see that coming." Things like that. I'm not sure there's a good way of handling these kinds of situations, but perhaps there's a softer way, there's something in-between, like Jaana is saying. It can't be all or nothing; maybe there's something in-between there.
+**Johnny Boursiquot:** Yeah. And the other thing, too - when I teach, especially those new to Go, they kind of run into some errors that we as sort of veterans consider to be obvious... For example, the "index out of range" error. Or if you're trying to access an index or an array or a slice that doesn't exist, then that's gonna panic. Sometimes they're surprised, they're like "Oh, I didn't see that coming." Things like that. I'm not sure there's a good way of handling these kinds of situations, but perhaps there's a softer way, there's something in-between, like Jaana is saying. It can't be all or nothing; maybe there's something in-between there.
 
 **Mark Bates:** \[00:28:01.23\] Right. Yeah, I don't have an answer... I'm just voicing frustration.
 
@@ -204,7 +204,7 @@ So the standard library has this pattern of if you put the "must" in front of it
 
 **Johnny Boursiquot:** Like emotional errors... \[laughter\]
 
-**Mat Ryer:** Oh, mate, they're all emotional to me when I'm writing code. So what about the context, as well? Someone asked on Slack. It's pretty common now to see code where context is passed throughout the entire package. Is that something that we'd like to see implicit?
+**Mat Ryer:** Oh, mate, they're all emotional to me when I'm writing code. So what about `context` as well? Someone asked on Slack. It's pretty common now to see code where context is passed throughout the entire package. Is that something that we'd like to see implicit?
 
 **Johnny Boursiquot:** As in not passing in the context with every call down the chain?
 
@@ -214,7 +214,7 @@ So the standard library has this pattern of if you put the "must" in front of it
 
 **Mat Ryer:** ...do the same things that context gives you, yeah.
 
-**Johnny Boursiquot:** \[unintelligible 00:28:44.20\] I don't know why yet.
+**Johnny Boursiquot:** My \[unintelligible 00:28:44.20\] is tingling. I don't know why yet.
 
 **Mark Bates:** How would that even look in code?
 
@@ -222,7 +222,7 @@ So the standard library has this pattern of if you put the "must" in front of it
 
 **Mark Bates:** Yeah. Like, I just -- I don't know, how would you define "This is the context I wanna use going forward"?
 
-**Jaana B. Dogan (JBD):** Just imagine an API call that, like, you say \[unintelligible 00:29:00.02\] and then it returns, so you don't have to explicitly pass it around.
+**Jaana B. Dogan (JBD):** Just imagine an API call that, like, you say `context.Get(whatever)` and then it returns, so you don't have to explicitly pass it around.
 
 **Mark Bates:** Yeah, but how do I set the current context?
 
@@ -240,21 +240,21 @@ So the standard library has this pattern of if you put the "must" in front of it
 
 **Mat Ryer:** Yeah, well I suppose you'd be able to ignore it always, and you wouldn't even know it's there if you didn't need it, if it was implicit.
 
-**Jaana B. Dogan (JBD):** But from people who are coming to go - their primary question is like "Hey, what is context? It's everywhere." I've never seen it in other languages as such a fundamentally visible primitive. Maybe they're familiar with context or not, but I think it's just too visible in Go... You need to explain them the story and the context and why it's useful, and so on. They learn not to see it if they don't need it. They know that they need to propagate it.
+**Jaana B. Dogan (JBD):** But from people who are coming to Go - their primary question is like "Hey, what is `context`? It's everywhere." I've never seen it in other languages as such a fundamentally visible primitive. Maybe they're familiar with context or not, but I think it's just too visible in Go... You need to explain them the story and the context and why it's useful, and so on. They learn not to see it if they don't need it. They know that they need to propagate it.
 
 I think propagation is a little bit like the other concern. It's not automatic, so you need to pass it explicitly, and lots of newcomers don't know much about these concepts, and they end up breaking the chain sometimes.
 
-**Johnny Boursiquot:** Yeah, I totally agree with that. And when I explain the context package and the context propagation, I usually basically have to take a couple steps back first and say "Okay, well this is what context propagation is. This is why it's useful, why you'd use it. Now, this is how it's actually done in Go." So there's two things there, two fundamental concepts that must be introduced for somebody to understand even how to use it properly and what it is..
+**Johnny Boursiquot:** Yeah, I totally agree with that. And when I explain the `context` package and the context propagation, I usually basically have to take a couple steps back first and say "Okay, well this is what context propagation is. This is why it's useful, why you'd use it. Now, this is how it's actually done in Go." So there's two things there, two fundamental concepts that must be introduced for somebody to understand even how to use it properly and what it is..
 
-**Mark Bates:** There's also a real... Hm, what's the word I'm looking for...? In the standard library they're not using it the same way all over the place, and it's really kind of frustrating. And I'll give you an example. In the exec package, there's "exec command context" which takes a context and creates a command, yet there is no way to get back the context on that command; it's a private, unexported field. But in request, you can. On http request you can get access to it. So there's lots of places where it's not consistent, and I think maybe formalizing or making it more consistent would help a lot of problems.
+**Mark Bates:** There's also a real... Hm, what's the word I'm looking for...? In the standard library they're not using it the same way all over the place, and it's really kind of frustrating. And I'll give you an example. In the `exec` package, there's `os/exec.CommandContext()` which takes a context and creates a command, yet there is no way to get back the context on that command; it's a private, unexported field. But in request, you can. On `net/http.Request` you can get access to it. So there's lots of places where it's not consistent, and I think maybe formalizing or making it more consistent would help a lot of problems.
 
-**Jaana B. Dogan (JBD):** \[00:32:18.21\] True. And it's also like the context added to the standard library at a later time; it doesn't even follow the best practices. The context package itself says "Use this as the first argument of a function call; never pin it." And if you take a look at the http request package, context is a field, because they couldn't break the APIs; they had to put the context somewhere, and then they made it a field. So all of this organically-grown features is just making it very complicated for people coming to the language for the first time.
+**Jaana B. Dogan (JBD):** \[00:32:18.21\] True. And it's also like the context was added to the standard library at a later time; it doesn't even follow the best practices. The `context` package itself says "Use this as the first argument of a function call; never pin it." And if you take a look at the `net/http.Request`, context is a field, because they couldn't break the APIs; they had to put the context somewhere, and then they made it a field. So all of this organically-grown features is just making it very complicated for people coming to the language for the first time.
 
 I'm not sure if any of this is going to be different in 2.0.
 
 **Mat Ryer:** Well, there is an opportunity to potentially clean up some of that stuff. Context is one. It was added quite late, and I know that they didn't like the design when they had those methods in the request. They wished that \[unintelligible 00:33:08.17\]
 
-Shifting gears very slightly, which areas of Go do we feel like we haven't really explored to full potential yet? Or which areas of tech could Go move into and make a bit of an impact? I know that initially Go wasn't really awesome for building websites; but of course, Mark, maybe for those that don't know about the Buffalo package, you could just tell us briefly what that is.
+Shifting gears very slightly, which areas of Go do we feel like we haven't really explored to full potential yet? Or which areas of tech could Go move into and make a bit of an impact? I know that initially Go wasn't really awesome for building websites; but of course, Mark, maybe for those that don't know about the [Buffalo package](https://github.com/gobuffalo/buffalo), you could just tell us briefly what that is.
 
 **Mark Bates:** Oh, well the tagline basically is it's Rails for Go. \[laughter\] I'm not gonna pretend that it's anything more than that. For me, it solves a couple problems. One is I need to just knock stuff out very quickly, and I don't wanna deal with folder layouts, and I don't wanna deal with "How do I deal with sessions, and templates, and this and that and the other thing, and cookies, and whatever?" I just get all that by default with Buffalo.
 
@@ -300,7 +300,7 @@ I've worked on a lot of big rule engines, message parsing systems, and I would p
 
 **Jaana B. Dogan (JBD):** That's a really good question. I really don't like centralized systems, but I wish that we had a central package manager, like a metadata service, and maybe we can build more tools around it. It's kind of hard to --
 
-**Mark Bates:** Isn't that what Athens is trying to be?
+**Mark Bates:** Isn't that what [Athens](https://github.com/gomods/athens) is trying to be?
 
 **Jaana B. Dogan (JBD):** Yeah, exactly. Athens is also more of like a proxy, so you can -- for example, organization; you can run your Athens instance, but it's also aware of the central Athens... It's a really good model, and having this metadata somewhere stored is going to enable everybody to write tools around it. I think it will make maintenance much easier for the library owners. It probably will be easier to just query who is dependent on what, what restrictions they have in terms of versioning, and so on... So I'm really excited about Athens.
 
@@ -324,7 +324,7 @@ I've worked on a lot of big rule engines, message parsing systems, and I would p
 
 **Jaana B. Dogan (JBD):** Okay, okay. \[laughs\]
 
-**Mark Bates:** My makefiles are currently littered with go mod tidy, but that's another thing for another time. \[laughter\] You've gotta run go mod tidy at the end of every single Go command... But that's another thing altogether. But like I said, I'd love to be able to say "go exec foo" and have it run foo at whatever version is listed inside my mod file.
+**Mark Bates:** My makefiles are currently littered with `go mod tidy`, but that's another thing for another time. \[laughter\] You've gotta run `go mod tidy` at the end of every single Go command... But that's another thing altogether. But like I said, I'd love to be able to say `go exec foo` and have it run foo at whatever version is listed inside my mod file.
 
 **Jaana B. Dogan (JBD):** Would you rather the binaries are named after their version? Like for example Buffalo 1.whatever be in the binary name maybe, still in the bin directory under GOPATH, or whatever?
 
@@ -332,7 +332,7 @@ I've worked on a lot of big rule engines, message parsing systems, and I would p
 
 So it's a real problem with Go, and I see it, and I'm sure Johnny sees it when he's teaching people, and Mat, too. You see it all the time in classes - they don't have GOPATH/bin added. So first - yes, I would love to see bins go somewhere where they are useful, without having another step of setting up your environment further; but also, like I said, maybe we could do like "buffalo @ v0.1.14", "buffalo @ v0.14.1", whatever it is, and when you do "go exec buffalo", it runs the right version from your mod file, wherever those files are. That would be how I would like to see it done. And maybe you get a symlink to whatever the latest version is, or something like that. So if you just run Buffalo, you get the latest version. I'm using, obviously, Buffalo as an example; it can be anything... Buffalo. \[laughter\]
 
-**Mat Ryer:** So which of you did the survey Go 2018?
+**Mat Ryer:** So which of you did the [survey Go 2018](https://blog.golang.org/survey2018-results)?
 
 **Johnny Boursiquot:** I do it every year.
 
@@ -364,7 +364,7 @@ So it's a real problem with Go, and I see it, and I'm sure Johnny sees it when h
 
 **Break:** \[00:47:37.18\]
 
-**Johnny Boursiquot:** For the survey, some of the things that I've found interesting -- because when I sort of looked through it to find things that were particularly relevant to me and my line of work, I saw a lot of \[unintelligible 00:49:00.02\] the most common use of Go was building API and RPC services, and also building CLI tools. So a lot of people are building -- pretty much whenever there's a new project that comes along, that requires that type of use, Go is becoming more and more the go-to tool for that. That didn't surprize me at all, because from the very first time Go was introduced, it was sort of positioned as the language for the cloud, the language for building these types of services, these types of network programs... So that kind of didn't surprize me at all.
+**Johnny Boursiquot:** For the survey, some of the things that I've found interesting -- because when I sort of looked through it to find things that were particularly relevant to me and my line of work, I saw a lot of.. basically the most common use of Go was building API and RPC services, and also building CLI tools. So a lot of people are building -- pretty much whenever there's a new project that comes along, that requires that type of use, Go is becoming more and more the go-to tool for that. That didn't surprize me at all, because from the very first time Go was introduced, it was sort of positioned as the language for the cloud, the language for building these types of services, these types of network programs... So that kind of didn't surprize me at all.
 
 **Mark Bates:** Let's be honest, writing CLI tools in Go is awesome. It's really good.
 
@@ -382,7 +382,7 @@ I learned later, each request gets its own GOROUTINE, so you kind of have concur
 
 **Jaana B. Dogan (JBD):** The funny story is actually the initial Go App Engine implementation didn't really provide concurrency. There was like an event loop. You couldn't really realize that was the case, because they were able to hide it in a way that users cannot recognize, but there was actually an event loop. The new runtime is supporting full concurrency, so that's really good news, but... Yeah, it was different than the actual runtime.
 
-Going back to the App Engine case, I think if you looked at other language supports, there was always -- since App Engine is a sandbox environment, and it has so much runtime restrictions, there was a lot of complexity, figuring out what framework to use, what libraries are supported on App Engine for other language runtimes... But I think Go just worked; the standard library at least worked, and since the standard library had a lot of things, batteries-included, it was so much easier to get stared and be productive with Go on App Engine.
+Going back to the App Engine case, I think if you looked at other language supports, there was always -- since App Engine is a sandbox environment, and it has so much runtime restrictions, there was a lot of complexity, figuring out what framework to use, what libraries are supported on App Engine for other language runtimes... But I think Go just worked; the standard library at least worked, and since the standard library had a lot of things, batteries-included, it was so much easier to get started and be productive with Go on App Engine.
 
 **Mat Ryer:** Yeah, absolutely. I actually have little things that I've built, that are still running. I go to it and it's still there, and I haven't touched it in years, literally.
 
@@ -392,15 +392,15 @@ Going back to the App Engine case, I think if you looked at other language suppo
 
 **Jaana B. Dogan (JBD):** I think we sent out some e-mails, "Hey, if you're using a very old version of Go, please just migrate, or something...", because we wanted to stop supporting 1.6 a long time ago, but we couldn't, because there were so many users... And you know what happened, we introduced the context package and the old APIs got broken, and so on... And for a long time, Google had to support the context package coming from the Net package, just because we can't really break people. That was really annoying.
 
-**Mark Bates:** The switch from x/context to just context did really bite a lot of people.
+**Mark Bates:** The switch from `x/context` to just `context` did really bite a lot of people.
 
 **Jaana B. Dogan (JBD):** yes.
 
 **Mark Bates:** That was frustrating.
 
-**Johnny Boursiquot:** Wait, didn't Gofix help with that?
+**Johnny Boursiquot:** Wait, didn't `go fix` help with that?
 
-**Jaana B. Dogan (JBD):** Lots of people just didn't wanna touch their existent deployments, so they would have their existing stuff relying on the older APIs, and we couldn't break. That's how \[unintelligible 00:53:00.16\] aliases and everything actually came around, because we couldn't break and migrate people. There are lots of people who are not catching up with the latest versions, especially in cases where projects are hobby projects, or it's like a super-large company, or kind of like an enterprise company that deploys one particular solution and never touches it for ten years... It's really hard to go and tell people "Hey, you need to rebuild, you need to make sure that it's working with the newer version", and push it. Even if you enforce security releases and so on, some people don't care.
+**Jaana B. Dogan (JBD):** Lots of people just didn't wanna touch their existent deployments, so they would have their existing stuff relying on the older APIs, and we couldn't break. That's how all these aliases and everything actually came around, because we couldn't break and migrate people. There are lots of people who are not catching up with the latest versions, especially in cases where projects are hobby projects, or it's like a super-large company, or kind of like an enterprise company that deploys one particular solution and never touches it for ten years... It's really hard to go and tell people "Hey, you need to rebuild, you need to make sure that it's working with the newer version", and push it. Even if you enforce security releases and so on, some people don't care.
 
 **Mark Bates:** It's true, we see that in corporate environments all the time... Companies still using 1.8, 1.7, because that's what they built their app on. They have a whole process that you have to go through, to declare new versions through AppSec, or whatever they need to do, so most of them just stay on the version that got cleared through their lawyers, and security team, and that's it.
 
