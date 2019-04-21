@@ -72,7 +72,7 @@ What I find is when I'm dogfooding, I'll have that 80%, but I'll see another thi
 
 If I hadn't taken that approach with Buffalo, I think it wouldn't have grown the way it's been growing. I think people would have looked at it and went "No, that's just like all the other imagined frameworks I've seen out there."
 
-**Jaana B. Dogan (JBD):** I think the biggest problem is bad design is coming from people who never use their stuff, because there's a developer product. I personally worked for developer products all through my entire life; I've worked for larger companies, and we usually have like "Hey, we're going to build this product", we just don't really understand what is going on, and we over-assume some of the priorities, and design, and so on. And I ended up seeing lots of engineers that didn't really use whatever they are building, because it's not necessarily some requirement in their day-to-day lives. And since they are so clueless about what does the big picture look like, how usable it is and so on, you usually end up having all these big gaps, usability problems, design problems. It's the most ideal that you actually build something that you need... But it's also hard to scale, because at some point you need to have a big team or 5-10 people to maintain an infrastructure thing, and it becomes a job on its own to maintain that; people primarily working on it are not using it, so it's sometimes challenging...
+**Jaana B. Dogan (JBD):** I think the biggest problem is bad design is coming from people who never use their stuff, because there's a developer product side. I personally worked for developer products all through my entire life; I've worked for larger companies, and we usually have like "Hey, we're going to build this product", we just don't really understand what is going on, and we over-assume some of the priorities, and design, and so on. And I ended up seeing lots of engineers that didn't really use whatever they are building, because it's not necessarily some requirement in their day-to-day lives. And since they are so clueless about what does the big picture look like, how usable it is and so on, you usually end up having all these big gaps, usability problems, design problems. It's the most ideal that you actually build something that you need... But it's also hard to scale, because at some point you need to have a big team or 5-10 people to maintain an infrastructure thing, and it becomes a job on its own to maintain that; people primarily working on it are not using it, so it's sometimes challenging...
 
 **Mark Bates:** \[00:16:07.25\] It's always challenging. I see that all the time. You get PRs or issues in, people say "I need this thing, and I need it to be done." The one I always feel bad for is those to write a PR to solve a problem they have, that is either a) solved already, or b) is not necessarily a problem that should be solved by whatever they're contributing to... And if they'd opened an issue earlier, they would have gotten that feedback earlier.
 
@@ -84,7 +84,7 @@ We see that a lot, where it's very one-way, and it's very hard-coded to a partic
 
 **Break:** \[00:17:55.21\]
 
-**Mat Ryer:** We were just talking about the main reason why I have said no to people who have sent in PRs has been because that functionality doesn't really belong, like we talked a little bit about in the last section. It doesn't quite belong there. So one good rule is if the user can easily just do this themselves, they probably should do it, and leave your package with that. If you can do this outside in userland, the at least initially that's what you should encourage. And if lots of people start to do that, then I would say it's a good candidate for being something potentially that the package solves... But how do you decide what belongs in a package or in an API, what belongs there and what doesn't? Are there any rules, or is this more of an art?
+**Mat Ryer:** We were just talking about the main reason why I have said no to people who have sent in PRs has been because that functionality doesn't really belong, like we talked a little bit about in the last section. It doesn't quite belong there. So one good rule is if the user can easily just do this themselves, they probably should do it, and leave your package with that. If you can do this outside in userland, then at least initially that's what you should encourage. And if lots of people start to do that, then I would say it's a good candidate for being something potentially that the package solves... But how do you decide what belongs in a package or in an API, what belongs there and what doesn't? Are there any rules, or is this more of an art?
 
 **Jaana B. Dogan (JBD):** I actually find it easier in the Go community, because people really like to see a minimal API surface. I think some other language communities have this culture of "Hey, let's have all these batteries-included libraries around. Let's provide all the utilities, all the convenience functions etc."
 
@@ -156,7 +156,7 @@ The other one, of course, is Johnny what you mentioned right at the beginning of
 
 **Mark Bates:** Yeah, you see that a lot with web APIs in particular, especially legacy ones, where half your API is an XML, and the other half is in JSON, and now they've got a new protobuf one on top... And I'm not knocking XML or JSON or protobuf, but I'm just saying, over years I've seen this happen. I have dealt with many APIs where this particular API set is XML, and the other half of it that I need to use to build whatever is JSON, and now I've gotta work in these two different worlds... Or they're completely different styles. One's more of an RPC, and then they decided to move towards REST, and so you have to interact with them in very different ways.
 
-**Jaana B. Dogan (JBD):** Sometimes it's the maintainer. The maintainer changes, and their personal style takes over. I can easily tell sometimes the style differences between Brad Fitzpatrick and Russ Cox. I don't have to blame; sometimes I'm able to tell, they have different mental models. So you can tell the style of the maintainer, and if someone new takes over the entire project, sometimes you see the new packages are not super-consistent, because the style is different.
+**Jaana B. Dogan (JBD):** Sometimes it's the maintainer. The maintainer changes, and their personal style takes over. I can easily tell sometimes the style differences between [Brad Fitzpatrick](https://twitter.com/bradfitz) and [Russ Cox](https://twitter.com/_rsc). I don't have to blame; sometimes I'm able to tell, they have different mental models. So you can tell the style of the maintainer, and if someone new takes over the entire project, sometimes you see the new packages are not super-consistent, because the style is different.
 
 **Mark Bates:** Yeah. Personally, if I develop a new style or I feel that what I'm working with is one way of doing it, but now there's a better way, or things have changed in terms of usage and the way that it needs to work, I'll either do the major bump, or create a whole new package. I don't wanna inconvenience people who are still reliant on that package, just because maybe I don't like it anymore the way it's laid out or designed, or whatever. It's like "Well, let's try to migrate you to a better-written package."
 
@@ -172,17 +172,17 @@ That happened with me with Packer, where I moved from v1 to v2, and the v2 API i
 
 **Mat Ryer:** What's your name on Twitter, Mark?
 
-**Mark Bates:** It's @matryer. That's with one y and one t.
+**Mark Bates:** It's [@matryer](https://twitter.com/matryer). That's with one y and one t.
 
 **Mat Ryer:** I wanna get verified if you're trying to spoof my account... \[laughter\] But actually, Mark, you made an interesting point. You talk about if you wanna change something, it has to be a major revision, because if you're keeping the backwards compatibility, you don't wanna break things. That's another argument for having smaller and simpler APIs. It's easier to rewrite. It sounds silly, but it's actually a very sensible and pragmatic reason, I think, why you would select against adding some features, is for the simplicity.
 
 **Mark Bates:** Absolutely. We're working towards moving a lot of stuff out of Buffalo and into plugins for that exact reason. We're trying to slim down the core to be just what it needs to be, and then you pull in the things you want on top of that. No API should really be forcing a whole bunch of stuff on you that you don't want.
 
-**Mat Ryer:** Yeah. Another way to do that in Go is to look for the narrowest interfaces as well. So this is just a very practical thing that I talked about a couple of times with some friends... I made a mistake once where I built an API, and it was gonna read from a file and process the file and return some object. So the input was os.file, because that's what I was doing, I was opening a file. Now, that's fine, and in my case it worked, but then when I wanted to support web, I either had to break the API or create a file, save the request body as a file, so it could then use os.file.
+**Mat Ryer:** Yeah. Another way to do that in Go is to look for the narrowest interfaces as well. So this is just a very practical thing that I talked about a couple of times with some friends... I made a mistake once where I built an API, and it was gonna read from a file and process the file and return some object. So the input was `os.file`, because that's what I was doing, I was opening a file. Now, that's fine, and in my case it worked, but then when I wanted to support web, I either had to break the API or create a file, save the request body as a file, so it could then use os.file.
 
-Well, if I'd just instead used io.Reader, which is a much smaller type, it just has a single method interface - if I'd used that instead, it would have still taken the file, but it would also take the request body (that's a reader), it can take in-memory strings, it can take buffers... Anything. So narrower types for interfaces I think is a good practical piece of advice for Gophers.
+Well, if I'd just instead used `io.Reader`, which is a much smaller type, it just has a single method interface - if I'd used that instead, it would have still taken the file, but it would also take the request body (that's a reader), it can take in-memory strings, it can take buffers... Anything. So narrower types for interfaces I think is a good practical piece of advice for Gophers.
 
-**Jaana B. Dogan (JBD):** Yeah, I really like Dave Cheney's typical advice on this - the input needs to be as flexible as possible, and it's better if it's a small interface... But the return type must be a concrete thing, because it can be more expressive. So you're providing that flexibility by making the input types a small interface.
+**Jaana B. Dogan (JBD):** Yeah, I really like [Dave Cheney's](https://twitter.com/davecheney) typical advice on this - the input needs to be as flexible as possible, and it's better if it's a small interface... But the return type must be a concrete thing, because it can be more expressive. So you're providing that flexibility by making the input types a small interface.
 
 **Mat Ryer:** Yeah, it's a great way to think about it. And it also highlights the fact that it's very common for us to want to return interfaces, because we're optimistic about how this is gonna be used in the future. And also, for testing sometimes you think "I'll return an interface and then we can build a mock version or something else later..." But you really don't need to do it. If a user of your API needs an interface, they can just write their own, and probably it'll be more relevant, it'll be more specific, and it'll have the context in their world.
 
@@ -216,9 +216,9 @@ One example is, for backwards compatibility, JSON actually ends up being quite a
 
 **Mark Bates:** I don't know what that means... \[laughter\]
 
-**Johnny Boursiquot:** \[unintelligible 00:44:42.02\] those who are JSON proponents - they did sort of mention, or rather they were excited about a JSON schema, which I believe is a project that's still out there. I'm not sure how often it's used. I think I've used it maybe once or twice a few years ago. It did try to basically provide some structure, some sort of expectation, basically that when your data came in, you could perform some validation based on the schema, and what you expected and didn't expect... So there was an attempt to have some structure around it.
+**Johnny Boursiquot:** So in fairness basically those who are JSON proponents - they did sort of mention, or rather they were excited about a JSON schema, which I believe is a project that's still out there. I'm not sure how often it's used. I think I've used it maybe once or twice a few years ago. It did try to basically provide some structure, some sort of expectation, basically that when your data came in, you could perform some validation based on the schema, and what you expected and didn't expect... So there was an attempt to have some structure around it.
 
-**Mark Bates:** Well, that's what tools like Swagger purport to do, right? The problem I have more -- and not that I hate JSON; I use JSON all the time. It's, again, the language - or the notation really, in this case, doesn't support the typing right out of the box, in that strict enforcement. You have to do it yourself, or bring in a third-party layer that sits on top of your app. But there's something the developer has to actively work on, to make sure that that data is sane when it comes in.
+**Mark Bates:** Well, that's what tools like [Swagger](https://swagger.io/) purport to do, right? The problem I have more -- and not that I hate JSON; I use JSON all the time. It's, again, the language - or the notation really, in this case, doesn't support the typing right out of the box, in that strict enforcement. You have to do it yourself, or bring in a third-party layer that sits on top of your app. But there's something the developer has to actively work on, to make sure that that data is sane when it comes in.
 
 **Mat Ryer:** Yeah.
 
@@ -226,7 +226,7 @@ One example is, for backwards compatibility, JSON actually ends up being quite a
 
 **Mark Bates:** I don't have an answer... No, absolutely not. I don't have an answer. Just a problem that comes up often for me when I'm working with web, writing JSON APIs, is garbage data coming in. Not garbage, but you know, it's JSON, you can really shove anything you want. The NaN comes in, and how do you deal with NaN - that sort of stuff. \[laughter\] Again, \[unintelligible 00:46:10.26\] but it's happened to all of us; if I could see you and ask you to raise your hand, you'd probably all raise your hand, because you've gotten the NaN come through, right? It just happens, and that's just a downside of a wildly unstructured language, or notation rather.
 
-**Mat Ryer:** That's an especially exciting thing for me to learn, because nan here in England means grandmother, so... \[laughter\] Brilliant to hear you complain about that, Mark. You mentioned Swagger... You see, Swagger - it takes some definition and it generates; it's a big code gen thing. The problem is what it generated is fugly, \[unintelligible 00:46:48.00\] or for the editors, if they'd prefer me to not say that...
+**Mat Ryer:** That's an especially exciting thing for me to learn, because nan here in England means grandmother, so... \[laughter\] Brilliant to hear you complain about that, Mark. You mentioned Swagger... You see, Swagger - it takes some definition and it generates; it's a big code gen thing. The problem is what it generated is fugly, for who wanted a better term or for the editors, if they'd prefer me to not say that...
 
 **Johnny Boursiquot:** That might be an accurate term, yeah. That might be accurate.
 
@@ -250,7 +250,7 @@ That said, this goes squarely against the whole basically "only expose just what
 
 **Mark Bates:** Right? It's a tricky question, because it's an important design decision. That's the 80 rule, right? 80% of the time you wanna display the album and the artist and the songs, right?
 
-**Johnny Boursiquot:** \[00:51:49.00\] But sometimes you might not, which is why I love things like GraphQL, for example, which gives you the flexibility to be able to ask for some things and not others, because sometimes you just want some things and not others, right? So rather than you trying to guess ahead of time what the common usage pattern is gonna be, you provide the flexibility for somebody to ask just for what they want.
+**Johnny Boursiquot:** \[00:51:49.00\] But sometimes you might not, which is why I love things like [GraphQL](https://graphql.org/), for example, which gives you the flexibility to be able to ask for some things and not others, because sometimes you just want some things and not others, right? So rather than you trying to guess ahead of time what the common usage pattern is gonna be, you provide the flexibility for somebody to ask just for what they want.
 
 **Mark Bates:** That's great. Can you write all my GraphQL APIs, please?
 
@@ -286,7 +286,7 @@ That said, this goes squarely against the whole basically "only expose just what
 
 **Mat Ryer:** Yeah, because that'll either emerge, or -- if it's successful, people will be knocking on your door for it. The other thing is as well sometimes it's more efficient -- sometimes we'll optimize for efficiency, but we will lose some clarity, as well. I think that has to come into it as well. It's an art form for sure, designing this stuff... It's a shame we can't just come on the podcast and say "Here's a list of ten things that you should do, and here's a list of ten things you shouldn't do." It really isn't as simple as that, which is why we have jobs. \[laughter\]
 
-**Johnny Boursiquot:** Me love jobs... I don't know about you.
+**Johnny Boursiquot:** Me like jobs... I don't know about you.
 
 **Mark Bates:** Speak for yourself.
 
@@ -310,11 +310,11 @@ That said, this goes squarely against the whole basically "only expose just what
 
 **Mat Ryer:** Wow, that sounds awesome. What's the name of it?
 
-**Johnny Boursiquot:** \[00:56:03.29\] They're called The Achievement Network. And actually, now that we're talking about it, they are -- although I'm not gonna mention them too much during my upcoming talk... They are in part the subject of my keynote that's happening for GothamGo this week.
+**Johnny Boursiquot:** \[00:56:03.29\] They're called [The Achievement Network](https://www.achievementnetwork.org/). And actually, now that we're talking about it, they are -- although I'm not gonna mention them too much during my upcoming talk... They are in part the subject of my keynote that's happening for GothamGo this week.
 
 **Jaana B. Dogan (JBD):** Oh, wow.
 
-**Johnny Boursiquot:** So yeah, I do hope to see at least some of you at GothamGo this year. It's an awesome conference; I always love going there every year.
+**Johnny Boursiquot:** So yeah, I do hope to see at least some of you at [GothamGo](http://gothamgo.com/) this year. It's an awesome conference; I always love going there every year.
 
 **Mark Bates:** I might be there... \[laughter\]
 
@@ -342,7 +342,7 @@ That said, this goes squarely against the whole basically "only expose just what
 
 **Jaana B. Dogan (JBD):** Do you remember the first year?
 
-**Mark Bates:** I wasn't a host the first year. The first year it was just Gray hosting. He's really the person who does all the hard work, Gray Herter, and I actually just wanna give him a quick shout-out... Because he runs a bunch of conferences - CapitalGo, JS Nation and a few other things - and he just does so much hard work for that conference.
+**Mark Bates:** I wasn't a host the first year. The first year it was just Gray hosting. He's really the person who does all the hard work, [Gray Herter](https://twitter.com/grayherter), and I actually just wanna give him a quick shout-out... Because he runs a bunch of conferences - CapitalGo, JS Nation and a few other things - and he just does so much hard work for that conference.
 
 **Johnny Boursiquot:** True.
 
@@ -374,7 +374,7 @@ I think it's been an excellent show. I've learned a lot. Has everybody else lear
 
 **Mark Bates:** Small Mountain View startup. I think they've got some wings.
 
-**Mat Ryer:** Don't \[unintelligible 01:00:24.28\]
+**Mat Ryer:** Don't go as hard on the tails though..
 
 **Jaana B. Dogan (JBD):** Yeah, we're keeping it humble.
 
