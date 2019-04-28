@@ -4,7 +4,7 @@
 
 **Mat Ryer:** Oh, yes! That's already a good day, I'm already happy with how this podcast is going. Well, what have you done this last week? What have you been up to?
 
-**Carmen Andoh:** I just got back from Europe. I think you and I did a swap over the ocean. But yeah, I was in Austria, I spoke at DevOne Conference, which is a great conference. I also did Infrastructure as a Meetup, and Kubernetes London. So I kind of did the rounds... And it was fun.
+**Carmen Andoh:** I just got back from Europe. I think you and I did a swap over the ocean. But yeah, I was in Austria, I spoke at [DevOne Conference](https://www.youtube.com/watch?v=nCE_2Y4piQU), which is a great conference. I also did Infrastructure as a Meetup, and Kubernetes London. So I kind of did the rounds... And it was fun.
 
 **Mat Ryer:** Wow... Busy.
 
@@ -24,7 +24,7 @@
 
 **Ashley McNamara:** Yeah... He should know about this already. \[laughter\]
 
-**Mat Ryer:** Johnny did a great talk at GothamGo about diversity. Johnny...
+**Mat Ryer:** Johnny did a great talk at [GothamGo](http://gothamgo.com/) about diversity. Johnny...
 
 **Johnny Boursiquot:** Yes!
 
@@ -40,7 +40,7 @@
 
 **Johnny Boursiquot:** Yeah, it depends on how soon the GothamGo team gets around to doing whatever post-edits that they do. But yeah, I'm hoping it'll come out within the next couple of weeks or so.
 
-**Ashley McNamara:** I saw a fabulous group shot of everyone that attended, and my favorite part was that everyone was all smiles; and then there's Mat on the end, and he looks utterly confused... Which is his baseline. \[laughter\] But it was fantastic.
+**Ashley McNamara:** I saw a [fabulous group shot](https://twitter.com/GothamGo/status/1116734432046718978) of everyone that attended, and my favorite part was that everyone was all smiles; and then there's Mat on the end, and he looks utterly confused... Which is his baseline. \[laughter\] But it was fantastic.
 
 **Carmen Andoh:** \[00:04:11.24\] I don't know, I like Mat's posture. He's sort of like standing upright... It's just very proper posture going on.
 
@@ -50,7 +50,7 @@
 
 **Ashley McNamara:** Yeah, yeah. Very approachable. I liked it. \[laughter\]
 
-**Mat Ryer:** Ashley, do you remember when we gopherize.me, right?
+**Mat Ryer:** Ashley, do you remember when we did [gopherize.me](https://gopherize.me), right?
 
 **Ashley McNamara:** Yes. How could I forget...?
 
@@ -82,7 +82,7 @@
 
 **Ashley McNamara:** Hey people, stop selling my gophers on Amazon. \[laughter\]
 
-**Johnny Boursiquot:** Yeah. That's kind of cool still, but don't do it, because it's Creative Commons, isn't it?
+**Mat Ryer:** Yeah. That's kind of cool still, but don't do it, because it's Creative Commons, isn't it?
 
 **Ashley McNamara:** Yeah. I mean, technically, I guess they could, but don't.
 
@@ -96,7 +96,7 @@
 
 **Johnny Boursiquot:** Oh, yeah.
 
-**Mat Ryer:** Yeah. I mean, obviously, I sell a lot of Mark Bates memorabilia... \[laughter\]
+**Mat Ryer:** Yeah. I mean, obviously, I sell a lot of [Mark Bates](https://twitter.com/markbates) memorabilia... \[laughter\]
 
 **Carmen Andoh:** Oh...
 
@@ -104,7 +104,7 @@
 
 **Mat Ryer:** Yeah, yeah. But apart from that, yeah, I'm up for it. So today we're talking about hiring and interviews, and I thought we could kick off by just sort of, what do we think -- do we have any good interview experiences, and do we have any things that work well in interviews?
 
-**Carmen Andoh:** I really liked how Travis CI did interviews, for everybody... And that was not having whiteboarding; that was just amazing, because they sort of said, "Listen, we're hiring for you, we've already done some of our due diligence; maybe we've looked at some of your code, or we that you're experienced and we're gonna trust that... And instead, we'd rather see how you handle conflict, and conflict resolution. How you work within a team, how your personality likes to collaborate." These are really good things. Those are the best interview experiences, to try to get to the gist of -- I mean, somebody in this prep talk said that people are the most important part of the team, so how do we pick who we work with, right? So we're not picking their code, we're picking them.
+**Carmen Andoh:** I really liked how Travis CI did interviews, for everybody... And that was not having whiteboarding; that was just amazing, because they sort of said, "Listen, we're hiring for you, we've already done some of our due diligence; maybe we've looked at some of your code, or we see that you're experienced and we're gonna trust that... And instead, we'd rather see how you handle conflict, and conflict resolution. How you work within a team, how your personality likes to collaborate." These are really good things. Those are the best interview experiences, to try to get to the gist of -- I mean, somebody in this prep talk said that people are the most important part of the team, so how do we pick who we work with, right? So we're not picking their code, we're picking them.
 
 So having those interviews that really got to the gist of who this person was, how they collaborate, how they deal with conflict, how they resolve it, is just the best.
 
@@ -114,7 +114,7 @@ So having those interviews that really got to the gist of who this person was, h
 
 **Mat Ryer:** You said you wouldn't do well in a whiteboard interview.
 
-**Johnny Boursiquot:** \[00:08:04.05\] Yeah, so the tweet basically verbatim was "I've been a programmer for 20 years. I will not do well with your whiteboard technical interview process. Does that say more about me or about your process?" Basically, the way I saw it - there's a spectrum. You have folks who are new to the industry, or maybe new to programming, and you need some way of gauging ability; I get that. But also, on the other end of that, if you have somebody who's sort of a veteran and have been doing this for a while, and you put them through sort of a technical whiteboarding process, which is about "Okay, let's talk about a binary search tree", and talk about some obscure algorithm they haven't done since maybe college, or whatever (if that), this kind of interview process, these kinds of scenarios - personally, I don't do well with them, because that's not what I've been doing for the last 20+ years. So I haven't been coming up with new algorithms or reaching for some obscure way of actually sorting, and then doing that kind of stuff in my day-to-day.
+**Johnny Boursiquot:** \[00:08:04.05\] Yeah, so [the tweet](https://twitter.com/jboursiquot/status/1108113474008346636) basically verbatim was "I've been a programmer for 20 years. I will not do well with your whiteboard technical interview process. Does that say more about me or about your process?" Basically, the way I saw it - there's a spectrum. You have folks who are new to the industry, or maybe new to programming, and you need some way of gauging ability; I get that. But also, on the other end of that, if you have somebody who's sort of a veteran and have been doing this for a while, and you put them through sort of a technical whiteboarding process, which is about "Okay, let's talk about a binary search tree", and talk about some obscure algorithm they haven't done since maybe college, or whatever (if that), this kind of interview process, these kinds of scenarios - personally, I don't do well with them, because that's not what I've been doing for the last 20+ years. So I haven't been coming up with new algorithms or reaching for some obscure way of actually sorting, and then doing that kind of stuff in my day-to-day.
 
 So that really basically went to the core of what I was hoping an interview process would be like, which is basically -- I'm hoping that at some point it will be designed to allow somebody to show what they're good at.
 
@@ -172,17 +172,17 @@ I never try to have these kinds of interview questions right before lunch, becau
 
 **Carmen Andoh:** Yeah, and I think the other thing is that if you're working mostly with a team, or maybe a larger cross-functional team, it would behoove the people that you would actually work with to be doing the interviewing; so at large companies, like Google, and even Microsoft, as Johnny said, it's just another interview in the queue for a hiring committee that will never probably see you again. It just doesn't make sense.
 
-**Mat Ryer:** Yeah. I can see how this happens. When someone's given a task, or a team or a company are trying to find a process to put people through, I can kind of see how it happens, but I agree that it's a mistake, because yeah, the most important things are difficult; usually, you have to kind of tune it for each person. If you're going for a job and you're the one being interviewed, you tune it for what the company's looking for, or what you think the company's looking for. You kind of tune yourself a little bit, or at least you highlight things that you wanna emphasize. The reason we do that really si because it's a pairing, and it's unique.
+**Mat Ryer:** Yeah. I can see how this happens. When someone's given a task, or a team or a company are trying to find a process to put people through, I can kind of see how it happens, but I agree that it's a mistake, because yeah, the most important things are difficult; usually, you have to kind of tune it for each person. If you're going for a job and you're the one being interviewed, you tune it for what the company's looking for, or what you think the company's looking for. You kind of tune yourself a little bit, or at least you highlight things that you wanna emphasize. The reason we do that really is because it's a pairing, and it's unique.
 
 So whenever you're trying to create a general process, I think that's the problem - the general process might work even in a high percentage of cases, but you're still gonna miss key people that would be assets to the team.
 
-**Ashley McNamara:** \[00:19:46.24\] You're absolutely right. We are all different. We all have different specialties, we're all experts in different areas... I do this with my team, when I'm interviewing, and when I'm doing metrics even, because advocacy is weird, it's hard to measure... We do not have global metrics, I don't believe in that. There's not one process that works for everyone, so everyone has tailored metrics. I think the same thing about interviews - we should all have tailored interviews. The person that's interviewing me should have done some googling about me. I know I Google them... Mutual respect here.
+**Ashley McNamara:** \[00:19:46.24\] You're absolutely right. We are all different. We all have different specialties, we're all experts in different areas... I do this with my team, when I'm interviewing, and when I'm doing metrics even, because developer advocacy is weird, it's hard to measure... We do not have global metrics, I don't believe in that. There's not one process that works for everyone, so everyone has tailored metrics. I think the same thing about interviews - we should all have tailored interviews. The person that's interviewing me should have done some googling about me. I know I Google them... Mutual respect here.
 
 **Break:** \[00:20:24.11\]
 
-**Carmen Andoh:** Before I joined tech, I was an assistant director of admissions at a university, and I had to do interviews for college students to get into college... So in terms of being an interviewer, I did four interviews every afternoon, for nine months straight, for four years... So I know a thing or two about how interviews should be maximized when you have only so much time and so many applicants, and I think it's exactly what you said, Ashley, which is you have to do a little bit of homework on the person, and you also have to be willing to adjust the conversation and the questions based on both who the person is and how the conversation is going. I think that really maximizes your time with that person, and being very sure whether or not you're \[unintelligible 00:22:56.13\] for the right person.
+**Carmen Andoh:** Before I joined tech, I was an assistant director of admissions at a university, and I had to do interviews for college students to get into college... So in terms of being an interviewer, I did four interviews every afternoon, for nine months straight, for four years... So I know a thing or two about how interviews should be maximized when you have only so much time and so many applicants, and I think it's exactly what you said, Ashley, which is you have to do a little bit of homework on the person, and you also have to be willing to adjust the conversation and the questions based on both who the person is and how the conversation is going. I think that really maximizes your time with that person, and being very sure whether or not you're hiring for the right person.
 
-I wanted to mention here Axel Wagner (Hi!). We were kind of putting down Google's process, and he mentioned in the chat and Gopher Slack that to do anything at Google, you do need to know internal services, and the big ones, like Stubby, Borg, Critique, \[unintelligible 00:23:11.23\] I get that you need to not have what Google calls false positives, so that they can make sure that they're not overwhelmed in trying to use these big scale systems, it's just -- I just wish that it was better. I don't know what the perfect thing is, but if there's time... I certainly feel like I did really well, because I got some really good advice... So if whiteboard interviews have to happen, I got some amazing advice on how to run with them, and how to prepare for them, after you of course read that big, boring book, Ashley.
+I wanted to mention here [Axel Wagner](https://twitter.com/TheMerovius) (Hi!). We were kind of putting down Google's process, and he mentioned in the chat and Gopher Slack that to do anything at Google, you do need to know internal services, and the big ones, like Stubby, Borg, Critique, \[unintelligible 00:23:11.23\] I get that you need to not have what Google calls false positives, so that they can make sure that they're not overwhelmed in trying to use these big scale systems, it's just -- I just wish that it was better. I don't know what the perfect thing is, but if there's time... I certainly feel like I did really well, because I got some really good advice... So if whiteboard interviews have to happen, I got some amazing advice on how to run with them, and how to prepare for them, after you of course read that big, boring book, Ashley.
 
 **Johnny Boursiquot:** What was it?
 
@@ -194,7 +194,7 @@ The second good point is that most interviewers will intentionally leave out inf
 
 I got a five-word sentence in one of my Google interviews, and because I got that advice, I said "Okay, you're leaving out all this stuff", so half of the problem is sort of being able to fill in the gaps, or asking those good questions. So those were two really good points.
 
-I think the third good point is that they're intentionally made so that you can never finish in your 45 minutes of your technical screen, and you have five of those \[unintelligible 00:25:45.23\] and certain parts of dev rel engineering, but... The third thing was that you're always meant to feel like you never really finished, and that's intentional, because no one's ever gonna get up to a level ten, or distinguished engineer. There are always going to be increasing levels of challenged.
+I think the third good point is that they're intentionally made so that you can never finish in your 45 minutes of your technical screen, and you have five of those \[unintelligible 00:25:45.23\] and certain parts of dev rel engineering, but... The third thing was that you're always meant to feel like you never really finished, and that's intentional, because no one's ever gonna get up to a level ten, or distinguished engineer. There are always going to be increasing levels of challenge.
 
 And then the fourth, of course - I think Johnny already picked up to that - is be very aware of your hunger and your fatigue, and let the interviewer know that. Again, that's more communication. That might be towards the hiring committee saying, "Hey, this person probably would have done better, but it was before lunch, or it was the last interview of the day etc."
 
@@ -240,7 +240,7 @@ The only counter that someone might say is "Okay, well, then you're comparing ap
 
 **Carmen Andoh:** \[00:31:53.12\] And that so helps us see the human in that person, and how do they deal with stress. Sometimes just saying something like that to lighten the load, or the stress, or the pressure, also teaches you a lot about a person. Or just "Can I take a second to step back, and take a break?", or "I need to take a deep breath." I think I said that to the last interview of the day for Google, because my brain was just fried at that point. I'd already done four coding interviews, and... Yeah. \[laughs\] But yeah, I think it's just getting to the more human side of things; it'd be great.
 
-I also \[unintelligible 00:32:28.10\] about the "I don't know". That is such a powerful thing to say... And yet, sometimes I feel like women get dinged more for it, and I'm really very hesitant to say "I don't know", without caveating it somehow. I know that I've spoken with other people about that, and under-represented minorities also kind of can have a problem with saying "I don't know." "I don't know" sometimes seems to be the privilege of white dudes.
+I also wonder a little bit Mat about the "I don't know". That is such a powerful thing to say... And yet, sometimes I feel like women get dinged more for it, and I'm really very hesitant to say "I don't know", without caveating it somehow. I know that I've spoken with other people about that, and under-represented minorities also kind of can have a problem with saying "I don't know." "I don't know" sometimes seems to be the privilege of white dudes.
 
 **Ashley McNamara:** No, you're absolutely right, Carmen. It's the same thing when you're on stage, speaking. If a woman or a person of color gets on stage, the audience - whether they're intentional or not; it's usually unconscious - they're already wondering "Are they technical? Do they know what they're talking about?" So you're already challenged, and you have to prove that you know. In these interviews as well, when you say "I don't know", they don't think "She doesn't know this one thing", they're thinking "She doesn't know anything."
 
@@ -256,7 +256,7 @@ But once and if you do, I've often felt that the humbler personalities were the 
 
 **Johnny Boursiquot:** I'm actually glad this came up, because I can definitely second the motion that as a minority, as a woman or as a person of color, or a minority within any setting, you don't get to say "I don't know" without repercussions. I always feel a tremendous amount of pressure to sound and be technical... Very recently, one of the reasons I was struggling with my keynote, for example, was that even though I know keynotes don't have to be technical in nature, and they're designed to be more of a "rally the troops", so to speak, to get everybody to connect and enjoy the whole event... So I knew that. But in the back of my mind, I'm thinking "I'm about to talk about something that is -- I'm not showing code on the screen, I'm not displaying, I'm not being a peacock, displaying all my feathers and showing how technical I am", because I know that looking like I do, being a black man, I always feel the need to show that in order to feel like I'm being accepted.
 
-\[00:36:38.00\] This is something that I've been struggling with, and something -- over time, hopefully, I've gotten more comfortable with it; I don't feel the need to impress people anymore. But it still comes up in the back of my mind. I'm about to give a talk, "Oh my god, if it's not technical enough, then are people gonna think that I'm not as technical as I'm purporting to be?" And it's the same thing for the interview process. In my mind, I don't get to say "I don't know." I have to know the answer, or be able to talk about it to the point where I feel like I've convinced the other person that given access to actual tools that I use to actually to the work, I would be able to find the answer. I totally agree with that.
+\[00:36:38.00\] This is something that I've been struggling with, and something -- over time, hopefully, I've gotten more comfortable with; I don't feel the need to impress people anymore. But it still comes up in the back of my mind. I'm about to give a talk, "Oh my god, if it's not technical enough, then are people gonna think that I'm not as technical as I'm purporting to be?" And it's the same thing for the interview process. In my mind, I don't get to say "I don't know." I have to know the answer, or be able to talk about it to the point where I feel like I've convinced the other person that given access to actual tools that I use to actually do the work, I would be able to find the answer. I totally agree with that.
 
 **Mat Ryer:** Wow. Carmen, you earlier mentioned pressure; you mentioned feeling pressure, and also trying to make people feel easy in interviews, and things... Do you think that sometimes these technical things are designed to test people under pressure, to put them under pressure and see what they do? How do we feel about that?
 
@@ -280,7 +280,7 @@ So I'm not sure if I buy it, but the person made a very strong case for that, an
 
 **Ashley McNamara:** Honestly, that makes me wonder - do they make the process so hard so that they can kind of under-level you and under-pay you? To say "You didn't perform well in this crazy interview, therefore we're gonna give you thousands of dollars less because of it."
 
-**Carmen Andoh:** And what does that mean when we already have heard about compensation dissonance between under-represented minorities and \[unintelligible 00:42:16.27\] in terms of that? From the get-go, we already know that many women and under-represented minorities are paid well under, and is it because of a function of how they performed in these interviews... I just don't know, but yeah.
+**Carmen Andoh:** And what does that mean when we already have heard about compensation dissonance between under-represented minorities and none in terms of that? From the get-go, we already know that many women and under-represented minorities are paid well under, and is it because of a function of how they performed in these interviews... I just don't know, but yeah.
 
 **Mat Ryer:** That is really scary. It's disheartening to hear about things like that, but... I think what we can do is keep talking about it and stand up to it whenever we see it.
 
@@ -292,7 +292,7 @@ A couple of people said "Okay, I can just tell this is not for me." Working remo
 
 **Ashley McNamara:** \[00:44:29.19\] I love that. I love that so much. That's the smartest thing you've ever done, in my opinion. \[laughter\]
 
-**Mat Ryer:** No. No, no, no. Hang on. Have you guys heard about Bitbar?
+**Mat Ryer:** No. No, no, no. Hang on. Have you guys heard about [Bitbar](https://getbitbar.com)?
 
 **Carmen Andoh:** No, I don't think I have.
 
@@ -302,7 +302,7 @@ A couple of people said "Okay, I can just tell this is not for me." Working remo
 
 **Ashley McNamara:** Say "y'all", because I think it will be funny with your accent.
 
-**Mat Ryer:** Well, I'll do it in Adam's accent. \[laughter\] "Hey, we're sponsored by Fastly, y'all."
+**Mat Ryer:** Well, I'll do it in [Adam's](https://twitter.com/adamstac) accent. \[laughter\] "Hey, we're sponsored by Fastly, y'all."
 
 **Carmen Andoh:** Wow! I love that!
 
@@ -312,7 +312,7 @@ A couple of people said "Okay, I can just tell this is not for me." Working remo
 
 **Carmen Andoh:** Not bad.
 
-**Ashley McNamara:** He does Francesc, too. Can you do Francesc? Sorry, Francesc, I just love it.
+**Ashley McNamara:** He does [Francesc](https://twitter.com/francesc), too. Can you do Francesc? Sorry, Francesc, I just love it.
 
 **Mat Ryer:** Not publically, I can't. No, not publically.
 
@@ -322,15 +322,15 @@ A couple of people said "Okay, I can just tell this is not for me." Working remo
 
 So yeah, but it's tough, it's a risk... How much of a risk do you think people should take in interviews?
 
-**Ashley McNamara:** Well, sure, not everyone can take that month \[unintelligible 00:46:05.26\] But I do like the idea of it.
+**Ashley McNamara:** Well, sure, not everyone can take that month to work. If it doesn't work out, what do they do then? But I do like the idea of it.
 
 **Carmen Andoh:** Yeah.
 
-**Johnny Boursiquot:** It should probably be one of the options, the whole "Choose your own adventure" model that Ashley was talking about. For some people it might not be practical. If you've got a family and you have responsibilities, and maybe you're looking for work right now, and you have some sense of urgency because you have people who depend on you, and maybe you need a health insurance, you don't wanna let that lapse, because that would be \[unintelligible 00:46:37.17\] So there are a lot of circumstances that may prevent somebody from doing the contract option.
+**Johnny Boursiquot:** It should probably be one of the options, the whole "Choose your own adventure" model that Ashley was talking about. For some people it might not be practical. If you've got a family and you have responsibilities, and maybe you're looking for work right now, and you have some sense of urgency because you have people who depend on you, and maybe you need a health insurance, you don't wanna let that lapse, because that would be on COBRA and it would cost you an arm and a leg. So there are a lot of circumstances at least in the US that may prevent somebody from doing the contract option.
 
 In some cases it's suitable for them. Maybe they're young, they have no responsibilities, they can afford to go a couple of weeks without all the benefits and extras and whatnot that come with the contract way of doing things; and that's fine, too. But I think in all these options we've been talking about, one thing that I definitely don't wanna wave over is that having that many options - if you're one organization that is small, and you're trying to create this utopian interview process that we've been talking about here, that's probably an expensive proposition. You probably can't afford to have lots of different ways to interview people and give them options and see which one might work best. Or maybe you do; I don't know what that looks like in terms of resources and people and money. You would have to really get some feedback from companies out there; do they have a "Choose your own adventure" style of interviewing, and how it's working for them... So hit us up on the Twitters, if you can... But yeah, this comes at a cost. Some parts of the process will take longer than others, and this is something that we must also understand.
 
-Maybe there are other business reasons why a process is preferred over another, but basically just acknowledging that it is not as easy as we make it sound. If it was, I'm sure more companies would be doing it.
+Maybe there are other business reasons why a process is favourable over another, but basically just acknowledging that it is not as easy as we make it sound. If it was, I'm sure more companies would be doing it.
 
 **Mat Ryer:** \[00:48:10.20\] Yeah, but it's so important, isn't it? Isn't it the most important thing about the team - the people? Yeah, I'm sure there are challenges, but I feel like it's too important to not address it. I love the idea of giving people a choice, and whether that's even like - you could do the interview on Slack, if you're not comfortable in person, and things like that, potentially. I'd quite like to see some experiments done on this.
 
@@ -338,7 +338,7 @@ Maybe there are other business reasons why a process is preferred over another, 
 
 **Mat Ryer:** Yeah. Ashley, you made a joke earlier about me and Mark not having interviewed for a long time, which is true, but...
 
-**Ashley McNamara:** Yeah, but then Cory said that you guys interview companies a lot, which is the same...
+**Ashley McNamara:** Yeah, but then [Cory](https://twitter.com/corylanou) said that you guys interview companies a lot, which is the same...
 
 **Mat Ryer:** Yeah, so you're interviewing the company; that was, I think, his joke... But that's very true, and we talked a bit about that. Oh, I forgot what I was gonna say. That happens sometimes, doesn't it?
 
@@ -362,7 +362,7 @@ Maybe there are other business reasons why a process is preferred over another, 
 
 Has anyone else had any interview nightmares?
 
-**Ashley McNamara:** \[unintelligible 00:52:02.13\] through mine, but I wanna say good for you for walking out, because if they don't care enough, then you shouldn't either.
+**Ashley McNamara:** We already went through mine, but I wanna say good for you for walking out, because if they don't care enough, then you shouldn't either.
 
 **Mat Ryer:** Yeah, and I would say that for junior devs, too. If you can, that early experience is vital, and it will reveal what it will be like working at that company. You set your standards high.
 
