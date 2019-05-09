@@ -1,4 +1,4 @@
-**Mat Ryer:** Hello, everybody! Welcome to Go Time. I'm Mat Ryer. Today we're talking about testing, and I'm joined by some great thinkers and tinkerers from around the Go community. I'm joined by Johnny Boursiquot, Jaana B. Dogan and the one and only Jon Calhoun. Hello, everybody!
+**Mat Ryer:** Hello, everybody! Welcome to Go Time. I'm [Mat Ryer](https://twitter.com/matryer). Today we're talking about testing, and I'm joined by some great thinkers and tinkerers from around the Go community. I'm joined by [Johnny Boursiquot](https://twitter.com/jboursiquot), [Jaana B. Dogan](https://twitter.com/rakyll) and the one and only [Jon Calhoun](https://twitter.com/joncalhoun). Hello, everybody!
 
 **Jaana B. Dogan (JBD):** Hello!
 
@@ -58,7 +58,7 @@ And of course, one of the goals of good testing and good practices is to have th
 
 **Mat Ryer:** Yeah, but if you do have that 100% code coverage, aren't your tests gonna be over-fit, really, for the test code? Essentially, your real code, your program code becomes very brittle. Every change, every tweak of the implementation could break these tests, because they've got coverage to that degree. So in that way, I think you can go too far with tests. I think a lot of people probably do. I definitely have in the past, and for me it's about striking the balance between how much you need to do in order to have the benefits that testing brings you, but no more.
 
-**Jaana B. Dogan (JBD):** But isn't this a question about compatibility also? If you gave behavior promises, for example, you may actually wanna be able to cover those \[unintelligible 00:09:02.01\] details, so you don't change the behavior without -- I mean, you should be informed if your behavior is changing.
+**Jaana B. Dogan (JBD):** But isn't this a question about compatibility also? If you gave behavior promises, for example, you may actually wanna be able to cover those tiny details, so you don't change the behavior without -- I mean, you should be informed if your behavior is changing.
 
 **Mat Ryer:** Yeah, and I suppose that's a good way of putting it - it's about what promises you've made. This is where I think it's quite difficult to have these conversations in the general, because I think this will change depending on the kind of thing you're building. If you're building a binary encoder/decoder, then the test coverage and everything is gonna look very different to if you're building an e-mail sending service, or something... Don't you think?
 
@@ -68,7 +68,7 @@ And of course, one of the goals of good testing and good practices is to have th
 
 **Jaana B. Dogan (JBD):** Yeah, I think unit tests versus integration tests is a huge topic. And it's so complicated to run some of these integration tests that people would rather go to Canary and try to take a look in production... Because the environment and all the glue is really complicated.
 
-**Mat Ryer:** Yeah... So we should just spend a little bit of time just talking a bit about those differences between, say, unit tests and integration tests, and the other types of testing that there are. For sure, unit testing I think is the simplest one to understand, because it's the simplest kind of test. You have some kind of function, usually... Dave Cheney did a talk at a recent Go meetup in London, where he made the case that the unit actually should be the package, and actually that's the boundary at which you should test... And he made some quite interesting points about that.
+**Mat Ryer:** Yeah... So we should just spend a little bit of time just talking a bit about those differences between, say, unit tests and integration tests, and the other types of testing that there are. For sure, unit testing I think is the simplest one to understand, because it's the simplest kind of test. You have some kind of function, usually... [Dave Cheney](https://twitter.com/davecheney) did a talk at a recent Go meetup in London, where he made the case that the unit actually should be the package, and actually that's the boundary at which you should test... And he made some quite interesting points about that.
 
 But essentially, whatever it is you're testing in the unit - that's the unit test; it's the smallest piece. You write the test code, it runs that real code, and checks the outputs. Those are unit tests. Could someone tell us about what's an integration test then, if that's a unit test?
 
@@ -80,7 +80,7 @@ Now there are others who think, "Well, integration testing means you go outside 
 
 **Jon Calhoun:** \[00:12:24.29\] Piggybacking on that a little bit, one way that I've heard it described that I think helps sometimes is if you think about it as like I'm testing this one package/component/whatever it is, and it's interacting with other things, and you have to pretend that "I'm not gonna be changing that code. So I have to make sure that what I have works correctly with those things."
 
-**Jaana B. Dogan (JBD):** Yeah. And I think \[unintelligible 00:12:43.08\] unit tests, because you wanna make sure first the module itself is running, and the integration test is only handling if it can work together with other modules, right?
+**Jaana B. Dogan (JBD):** Yeah. And I think you run integration tests after your weekly unit tests, because you wanna make sure first the module itself is running, and the integration test is only handling if it can work together with other modules, right?
 
 **Jon Calhoun:** Yeah. One of the examples I've always liked to give is you can write a unit test for -- let's say you're connecting to a Stripe API... You can write a unit test for it and say "As long as they give me back this response, my code works correctly", but you're never actually verifying that Stripe gives that response back. So if we assume that the Stripe API -- let's assume you're allowed to talk to third-party services for your integration testing definition... The integration test might be the one that actually talks with Stripe and says "Do I actually get the response back I expected?" So the two have those two separate purposes that helps clarify what they're trying to do.
 
@@ -96,13 +96,13 @@ Now there are others who think, "Well, integration testing means you go outside 
 
 **Mat Ryer:** Yeah, absolutely right.
 
-**Johnny Boursiquot:** This touches on an interesting bit as well - basically, when I know I'm integrating with a third-party solution, because you want to make sure that during your unit tests you're not necessarily hitting those external entities, whether they be APIs or databases, and some people can argue for actually hitting those things, but outside of that, I may then say "Well, I want to be able to do mocking, and stubbing, and these kinds of things." So then there's a balance you have to strike there. I've been bitten a few times by over-mocking, or over-stubbing, and then I'd go find out during (thankfully) sometimes during the integration testing, when I'm talking to those services... But worst-case scenario, I find at runtime, when the application is in staging or production, that a particular endpoint that I was assuming some responses were coming back in my stubbing and mocking, that that's actually not the case, or something has changed over the hood, or whatever the case may be - I find out too late in the process. So there's a balance that you're trying to strike there...
+**Johnny Boursiquot:** This touches on an interesting bit as well - basically, when I know I'm integrating with a third-party solution, because you want to make sure that during your unit tests you're not necessarily hitting those external entities, whether they be APIs or databases, and some people can argue for actually hitting those things, but outside of that, I may then say "Well, I want to be able to do mocking, and stubbing, and these kinds of things." So then there's a balance you have to strike there. I've been bitten a few times by over-mocking, or over-stubbing, and then I'd go find out during (thankfully) sometimes during the integration testing, when I'm talking to those services... But worst-case scenario, I find out at runtime, when the application is in staging or production, that a particular endpoint that I was assuming some responses were coming back in my stubbing and mocking, that that's actually not the case, or something has changed over the hood, or whatever the case may be - I find out too late in the process. So there's a balance that you're trying to strike there...
 
 But a lot of people advocate for mocking and stubbing; honestly, I've started to do less and less of them, in favor of actually (like Jaana was saying) doing a Canary deploy and saying "Okay, does this thing behave? With actual, live traffic, does it behave the way it's supposed to behave?" Basically, trying to create less fakery around the thing I'm building, and actually feeding it live traffic and seeing how it behaves. That's a way more accurate representation of how your software is gonna behave than all the mocking you're gonna do around it.
 
 **Mat Ryer:** \[00:16:08.05\] I know that Monzo do that. There's a bank in London called Monzo, and they're written in Go... And I know that they do that. They have, I assume, test cards, and automated tests can execute on the live system, and essentially simulating people really using their cards, and transferring money, and I suppose doing all the features that they support... That can just be continuously running in production, and you'll see early signals if any of that is broken; it will tell you that something's broken.
 
-**Jaana B. Dogan (JBD):** Yeah. I've seen some cases where people just replicate some of the incoming traffic and forward it to this testing environment, and try to see in terms of reliability or performance, it's pretty much the same; that's how they actually do some of the performance tests. They need to simulate something that looks like real usage. They either go with incoming traffic, or what they would do is take a look at the events or ligs and try to replicate some timeframe, like a 5-minute, and then they would run their tests.
+**Jaana B. Dogan (JBD):** Yeah. I've seen some cases where people just replicate some of the incoming traffic and forward it to this testing environment, and try to see in terms of reliability or performance, it's pretty much the same; that's how they actually do some of the performance tests. They need to simulate something that looks like real usage. They either go with incoming traffic, or what they would do is take a look at the events or logs and try to replicate some timeframe, like a 5-minute, and then they would run their tests.
 
 **Mat Ryer:** Yeah. I've built a thing once where we recorded real HTTP traffic, and saved them, and that became the test files.
 
@@ -128,7 +128,7 @@ But a lot of people advocate for mocking and stubbing; honestly, I've started to
 
 **Jon Calhoun:** I think part of it is also thinking about the project you're working on, like you've just said... Because like Mat had talked about, if you're writing an API client and you're trying to test that it actually does things correctly with the endpoints, one easy way to say "We probably wanna do integration tests" is if they provide an API key; there's a good chance they're trying to hit the actual API, but if they don't, you can probably make the assumption in your tests that that's not what they're trying to do. So like you had said, you could pass the run flag; it might also be a flag that says "Provide an API key", or... There's also build tags which I like, but it's a little bit different.
 
-**Jaana B. Dogan (JBD):** \[00:20:12.02\] But I like to take a look at environments, and skip things, and I usually have some utility function... I have a testing package with a utility function that automatically skips if the variable is not set, or something... So it's really a common approach I am trying to follow in every test. I would basically take a look at the environment, and if there's enough credentials \[unintelligible 00:20:39.01\] I would just run the integration tests. Or if there's a specific environmental variable that says "Run integration tests", I would do that. Otherwise, that function would just skip, and I would make that function call in the beginning of all my test functions, so I don't have to think about this problem again and again.
+**Jaana B. Dogan (JBD):** \[00:20:12.02\] But I like to take a look at environments, and skip things, and I usually have some utility function... I have a testing package with a utility function that automatically skips if the variable is not set, or something... So it's really a common approach I am trying to follow in every test. I would basically take a look at the environment, and if there's enough credentials or whatever I would just run the integration tests. Or if there's a specific environmental variable that says "Run integration tests", I would do that. Otherwise, that function would just skip, and I would make that function call in the beginning of all my test functions, so I don't have to think about this problem again and again.
 
 **Mat Ryer:** Yeah, and the goal, of course, is that we want to run the unit tests very often. You wanna keep continuously running them. And I even have it where I hit save and it will run the tests for that package. But of course, you want that to then be quick. You need that immediate feedback. And with Go, you do get that, especially for unit tests. Of course, integration tests, they're usually slower, and I think that's the value in running them less often - you don't wanna get in everyone's way... And you wanna encourage running of the tests, because you know, if you leave the code, it sort of goes stale. This is one thing that surprised me when I first became a software engineer - I thought if you left code alone, nothing would change... But it's not. If you leave it alone and don't look at it, and you try and run it again, everything's broken. So yeah, we wanna definitely encourage --
 
@@ -266,7 +266,7 @@ So I'll start with the readme, literally, because I've done this many times, bot
 
 **Break:** \[00:46:26.00\]
 
-**Mat Ryer:** Well, listeners, remember you can join in the conversation on Slack; we're in the \#gotimefm channel. You can also tweet @GoTimeFM. And speaking of that, Cory LaNou in the Slack channel has just said "I've written tens of thousands of lines of test code, and have yet to ever feel like I need another package to help me test." So how, dear panel, do you feel about standard library only, versus use a framework, or use some other tools?
+**Mat Ryer:** Well, listeners, remember you can join in the conversation on Slack; we're in the \#gotimefm channel. You can also tweet [@GoTimeFM](https://twitter.com/GoTimeFM). And speaking of that, [Cory LaNou](https://twitter.com/corylanou) in the Slack channel has just said "I've written tens of thousands of lines of test code, and have yet to ever feel like I need another package to help me test." So how, dear panel, do you feel about standard library only, versus use a framework, or use some other tools?
 
 **Jon Calhoun:** I'll say this -- I think this is everything we've talked about. Everybody's gonna have different preferences, but the bigger thing to me is as long as a whole team or a whole project can all settle on one thing, I think that's important. Having consistency across the codebase or a project or whatever you're working on is far more important than the specific details that you choose.
 
@@ -282,9 +282,9 @@ So I'll start with the readme, literally, because I've done this many times, bot
 
 **Mat Ryer:** Oh, so you have your own testing package...
 
-**Jaana B. Dogan (JBD):** Yeah, I have some utilities... As you know, I was mentioning that, for example, it automatically skips the integration test if it's not in the environment, or whatever... So I try to maintain a testing package for every project I actually maintain... But it's more of like per project, \[unintelligible 00:49:52.20\] depends on the requirements.
+**Jaana B. Dogan (JBD):** Yeah, I have some utilities... As you know, I was mentioning that, for example, it automatically skips the integration test if it's not in the environment, or whatever... So I try to maintain a testing package for every project I actually maintain... But it's more of like per project, utility depends on the requirements.
 
-**Johnny Boursiquot:** I personally have used the testify/assert package, because it provided that core, basic utility aspect, that I was basically finding myself recreating from project to project. It comes with some extras, and I tend to not use those. I think it has mocking as well, and some other stuff. I think just using that assert package has made testing a little easier, a little more approachable.
+**Johnny Boursiquot:** I personally have used the [testify/assert](https://github.com/stretchr/testify) package, because it provided that core, basic utility aspect, that I was basically finding myself recreating from project to project. It comes with some extras, and I tend to not use those. I think it has mocking as well, and some other stuff. I think just using that assert package has made testing a little easier, a little more approachable.
 
 For some reason though - and I might not be the only one who feels this way, but when I first started Go, I almost wanted to bring some habits with me from other languages. If you're doing Ruby -- nobody that I know writes tests without any sort of framework in Ruby on Rails. You're always bringing RSpec, and you're always bringing other things. I had that tendency to just look around, "Okay, what things can I bring into this Go program to make it more akin to what I used to do?" And over the years, I've sort of regressed on that.
 
@@ -362,7 +362,7 @@ Do you think Go would benefit from having some way of saying "assert"? At least 
 
 **Jaana B. Dogan (JBD):** Sure.
 
-**Mat Ryer:** Okay, so you do it -- basically, it's the same idea, except instead of a map where the key is the name of the test, you just have the first field \[unintelligible 01:00:46.26\]
+**Jon Calhoun:** Okay, so you do it -- basically, it's the same idea, except instead of a map where the key is the name of the test, you just have the first field of the struct.
 
 **Johnny Boursiquot:** Exactly, yeah.
 
@@ -376,9 +376,7 @@ Do you think Go would benefit from having some way of saying "assert"? At least 
 
 **Jaana B. Dogan (JBD):** By the way, table-driven tests were really hard before the subtests; before t.run it was really hard...
 
-**Jon Calhoun:** They were...!
-
-**Johnny Boursiquot:** Yes. Now there's no excuse.
+**Johnny Boursiquot:** They were...! Yes. Now there's no excuse.
 
 **Jon Calhoun:** I can't think of it, but you guys were talking about how you always start with tables, and I remember there were a couple things that I wrote at one point, that coming up with the test without -- like, basically it was hard to come up with the table-driven version at first, but I just can't think of the exact cases. I think it was something to do with errors, where sometimes I wanted to ignore errors, and other times I wanted to do something else, but I don't remember what it was.
 
@@ -394,7 +392,7 @@ Do you think Go would benefit from having some way of saying "assert"? At least 
 
 **Johnny Boursiquot:** Yeah, please, go ahead.
 
-**Mat Ryer:** I was gonna say, does anyone remember, before Arrow was an interface in Go, it used to be a pointer; it was like a type, os.error.
+**Mat Ryer:** I was gonna say, does anyone remember, before error was an interface in Go, it used to be a pointer; it was like a type, os.error.
 
 **Jaana B. Dogan (JBD):** Mm-hm...
 
@@ -406,7 +404,7 @@ Another thing I like to do... Sorry, just one more thing. Something I quite like
 
 **Jon Calhoun:** \[01:03:22.15\] I will say the only thing I dislike about that is when people just put the double parentheses... And if they do it, it's fine; I just feel like it's really easy to miss those.
 
-**Jaana B. Dogan (JBD):** True. Like \[unintelligible 01:03:30.10\]
+**Jaana B. Dogan (JBD):** True. Like evaluation versus...
 
 **Jon Calhoun:** If you defer setup, and then another set of parentheses afterwards, people are like "What -- are they setting up after this...?"
 
@@ -428,7 +426,7 @@ Another thing I like to do... Sorry, just one more thing. Something I quite like
 
 **Johnny Boursiquot:** I see. Nice.
 
-**Jaana B. Dogan (JBD):** I wish that there was a way globally for a package to set up a setup function in a teardown function. Sometimes \[unintelligible 01:04:43.21\] and I sometimes forget to call the setup, or forget to call the teardown, and the test is misbehaving, or it's always been misbehaving and nobody realized that it was not cleaning up some of the resources, whatever... I wish that it was easier in the testing package to just setup something that is global; just always run this, in the beginning, and always run this in order to clean up.
+**Jaana B. Dogan (JBD):** I wish that there was a way globally for a package to set up a setup function in a teardown function. Sometimes \[unintelligible 01:04:43.21\]  variables and I sometimes forget to call the setup, or forget to call the teardown, and the test is misbehaving, or it's always been misbehaving and nobody realized that it was not cleaning up some of the resources, whatever... I wish that it was easier in the testing package to just setup something that is global; just always run this, in the beginning, and always run this in order to clean up.
 
 **Jon Calhoun:** I kind of have mixed feelings, because I feel like that would get abused with global state too much.
 
