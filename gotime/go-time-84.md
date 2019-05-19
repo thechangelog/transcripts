@@ -28,13 +28,13 @@
 
 **Mat Ryer:** Yes. And we're gonna learn a little bit more about those cheeky little robots, starting probably with TinyGo, because I think that's really where it starts, where Go's part of this starts... Doesn't it?
 
-**Ron Evans:** Yes. Well, I've been on GoTime before, talking about some of the other stuff that I've been involved with in Go - robots, and drones, and computer vision, Gobot being the best-known of those... And then last year I was talking about GoCV, which is computer vision using Go, and OpenCV... But what I've always dreamed of, and what I've wanted since the very beginning, was the ability to run Go on the tiniest of chips, and on these microcontrollers. These are the little, tiny chips that are in everything, like keyboards, and mice, break systems... The small chips that connect up to the physical world and cause all the things to happen or not happen at the right times, hopefully, if everything goes well... But we've never been able to run Go on those small chips, because they're so small. And Go is a great language, it's very powerful, it does all these amazing things, but Go is not known for being small. A number of keywords is small, and the binaries are large, let's just put it that way.
+**Ron Evans:** Yes. Well, I've been on GoTime before, talking about some of the other stuff that I've been involved with in Go - robots, and drones, and computer vision, Gobot being the best-known of those... And then last year I was talking about GoCV, which is computer vision using Go, and OpenCV... But what I've always dreamed of, and what I've wanted since the very beginning, was the ability to run Go on the tiniest of chips, and on these microcontrollers. These are the little, tiny chips that are in everything, like keyboards, and mice, break systems... The small chips that connect up to the physical world and cause all the things to happen or not happen at the right times, hopefully, if everything goes well... But we've never been able to run Go on those small chips, because they're so small. And Go is a great language, it's very powerful, it does all these amazing things, but Go is not known for being small. The number of keywords is small, and the binaries are large, let's just put it that way.
 
 **Mat Ryer:** \[00:04:21.00\] Yes. So Go was too big for those microcontrollers then.
 
 **Ron Evans:** Yes, by orders of magnitude, in fact. Hello world in Go, when you compile it for a Linux operating system, is about 1.1 megabytes. And to be fair, it includes the entire Go runtime; it's got everything that you're ever going to need, to a large extent... A program that does nothing more than output Hello world, and a program that does some fairly sophisticated processing - they're not gonna be that different in size from each other once you hit that initial baseline. But when we're talking about microcontrollers, we could be talking about processors that have 64k of RAM to the entire processor, or even less.
 
-So I've wanted this for a really long time, but it's never really been possible, and people are like, "Oh, Deadprogram, you're crazy. It's never gonna be done." But there were a few people who tried, and did some really cool stuff. There was a project called Emgo, which basically took Go and transliterated it into C code that you could then compile with the GCC Compiler for different ARM-based embedded devices. That was a step in the right direction, but it wasn't real Go code. But a very cool project and a lot of amazing work done by its main creator... But it still wasn't getting me there.
+So I've wanted this for a long time, but it's never really been possible, and people are like, "Oh, Deadprogram, you're crazy. It's never gonna be done." But there were a few people who tried, and did some really cool stuff. There was a project called Emgo, which basically took Go and transliterated it into C code that you could then compile with the GCC Compiler for different ARM-based embedded devices. That was a step in the right direction, but it wasn't real Go code. But a very cool project and a lot of amazing work done by its main creator... But it still wasn't getting me there.
 
 I talked to a few other people, trying to convince everyone who I thought could actually do something about this problem of "How can we take and compile Go down to something that's so small?" And it wasn't until last year, about September timeframe, that I became aware of this TinyGo project, which was originally started by my main collaborator, Ayke van Laëthem. He is a contributor to a number of projects in the embedded space, in particular MicroPython, which is a version of Python that runs on microcontrollers.
 
@@ -62,7 +62,7 @@ Go, it turns out, is actually written in Go. The Go compiler is written in Go.
 
 Ayke took the SSA form created by the Go compiler toolchain, and then TinyGo - this compiler project - then takes that and turns it into the LLVM intermediate representation, so it can then be compiled for whatever targets are supported by LLVM. Some of those are microcontrollers, like the Arduino, which uses the AVR microcontroller. All of the ARM-based microcontrollers, like the circuit playground, Express from Adafruit, which is a really cool microcontroller... All of the new Arduinos are based on these types of ARM microcontrollers, like the Arduino Zero and the MKR1000. So there's a lot of pretty much most of the interesting, small, inexpensive chips are based on these types of microcontroller architectures, and if we can compile this code down...
 
-In this last February I presented the first talk about TinyGo at FOSDEM in Brussels, and then it was really, really exciting. Ayke was there, he came in from the Netherlands, which is where he's from, and some of the other contributors from other places... We also had the first Birds of a Feather session right after my talk, but the organizers of FOSDEM were kind enough to put the talk into the main room, so I actually gave the first main room talk ever about Go at FOSDEM. That was kind of amazing. I'm like, "I think you guys should have picked one of the real Go people first, but... Hey, TinyGo! Let's do this!" But it was really exciting to get to share the results, and we had the first release of the software.
+In this last February I presented the first [talk about TinyGo at FOSDEM](https://video.fosdem.org/2019/K.1.105/go_on_microcontrollers.mp4) in Brussels, and then it was really, really exciting. Ayke was there, he came in from the Netherlands, which is where he's from, and some of the other contributors from other places... We also had the first Birds of a Feather session right after my talk, but the organizers of FOSDEM were kind enough to put the talk into the main room, so I actually gave the first main room talk ever about Go at FOSDEM. That was kind of amazing. I'm like, "I think you guys should have picked one of the real Go people first, but... Hey, TinyGo! Let's do this!" But it was really exciting to get to share the results, and we had the first release of the software.
 
 The demo I showed -- I showed a bunch of demos, but the one that really got a lot of people's attention was I compiled a TinyGo program that was 500 bytes in size, that ran on an 8-bit microcontroller called the ATtiny85, that has only 8k of RAM.
 
@@ -104,7 +104,7 @@ So there are trade-offs because of the environments in which it needs to execute
 
 **Ron Evans:** That is actually what we are doing, in several cases. One example is we've been working on adding MacOS support, in order to implement that in an agnostic way. But even a better example is the bare metal, where we need to be able to say "Oh, there's no operating system primitives at all", so we have to either implement them ourselves, or leave them unimplemented in some fashion.
 
-We have a wiki page on the TinyGo repository, where we talk about the main challenges we have with how Go itself is currently implemented... And that's one of them - this tight coupling between the runtime and the standard library. And there's actually been some really good talks that were done -- I was at one of them talking about design of Go 2.0... It was Ian Lance Taylor who did the talk, talking about the Go 2.0 transition. He's actually done a few talks about this; I caught the first one at GopherPalooza, I believe, in San Francisco. That was a really cool conference that took place last year. But talking about how the runtime and the standard library are a little too coupled, and some proposals for decoupling that... That way, if you implement the runtime correctly, then ideally all the standard library would still continue to work.
+We have a [wiki page](https://github.com/tinygo-org/tinygo/wiki) on the TinyGo repository, where we talk about the main challenges we have with how Go itself is currently implemented... And that's one of them - this tight coupling between the runtime and the standard library. And there's actually been some really good talks that were done -- I was at one of them talking about design of Go 2.0... It was Ian Lance Taylor who did the talk, [talking about the Go 2.0 transition](https://www.youtube.com/watch?v=LqKOY_pH8u0&list=PLeGxIOPLk9ELbB1JEbThGPffhQvNlIpPa&index=2&t=0s). He's actually done a few talks about this; I caught the first one at [GopherPalooza](http://gopherpalooza.com/), I believe, in San Francisco. That was a really cool conference that took place last year. But talking about how the runtime and the standard library are a little too coupled, and some proposals for decoupling that... That way, if you implement the runtime correctly, then ideally all the standard library would still continue to work.
 
 So for TinyGo this is a real challenge technically, but we're able to get around this by sort of reimplementing some of the primitives in ways that are logical, in the context of - you're running on something that has very little memory.
 
@@ -154,19 +154,19 @@ There's two different plushie colors, and there's ten different helmet colors. I
 
 In the helmet there is RGB LED array that gives you 15 different LEDs, each of which is individually controllable for its RGB colors. We have the blinky LED on the end of a spring, which in fact is springable. You can go "Boing!" and it still works.
 
-**Mat Ryer:** That's my favorite bit. If you go to Gopherbot.com, there's a gif that I assume you made, Ron, and it shows off the project, and it shows the little Gopherbot. And then one of the scenes is just a cutaway of Ron just dinging the spring on top of his head. It's brilliant, so you should definitely check that out on Gopherbot.com.
+**Mat Ryer:** That's my favorite bit. If you go to [Gopherbot.com](https://gopherbot.com/), there's a gif that I assume you made, Ron, and it shows off the project, and it shows the little Gopherbot. And then one of the scenes is just a cutaway of Ron just dinging the spring on top of his head. It's brilliant, so you should definitely check that out on Gopherbot.com.
 
 **Ron Evans:** That took the most engineering - an LED that could be on the end of a springy spring, and still continue to flash while going "Boing!"
 
-**Mat Ryer:** \[laughs\] Yeah. I mean, as far as requirements for a task \[unintelligible 00:30:14.00\] I think that one's gotta be up there. You see, I'm really pleased that this happened, because I've seen some talks about TinyGo, and whenever software reaches out into the real world, I get really excited... Because I was basically a web developer my whole career. So when I heard about TinyGo, I was thinking "How can I play with this? I wish there was a kit that I could put together and start to actually write code, and things..." And then, of course, Gopherbot comes along, and that's exactly what that is, isn't it?
+**Mat Ryer:** \[laughs\] Yeah. I mean, as far as requirements for a task as software goes I think that one's gotta be up there. You see, I'm really pleased that this happened, because I've seen some talks about TinyGo, and whenever software reaches out into the real world, I get really excited... Because I was basically a web developer my whole career. So when I heard about TinyGo, I was thinking "How can I play with this? I wish there was a kit that I could put together and start to actually write code, and things..." And then, of course, Gopherbot comes along, and that's exactly what that is, isn't it?
 
 **Ron Evans:** Exactly. The kit includes the LED helmet, the spring, the circuit board, a backpack to attach it to... Inside that circuit board are a bunch of sensors. There is a light intensity sensor, there is an accelerometer which can detect motion in X, Y and Z axes, or it can detect when it's moved around... There is a built-in MEMS microphone, which uses the I2S interface for sound recording. There is a digital to analog converter, which has got a little tiny speaker... It's got nine more of those NeoPixel LEDs, so you could control the colors on them individually...
 
-There's a bunch of videos that we posted on the Instagram for Furrybot, and we have a bunch of videos showing different -- I mean, it looks like it's all filtered, but literally not one of those photos is filtered. They're all taken on my Android phone, just in different positions. There's poses with a bunch of other famous robots, or toys, parts of my collection... I really like toys.
+There's a bunch of videos that we posted on the Instagram for Furriebot, and we have a bunch of videos showing different -- I mean, it looks like it's all filtered, but literally not one of those photos is filtered. They're all taken on my Android phone, just in different positions. There's poses with a bunch of other famous robots, or toys, parts of my collection... I really like toys.
 
 **Mat Ryer:** What's the Instagram for that again?
 
-**Ron Evans:** Furrybot.
+**Ron Evans:** [Furriebot](https://www.instagram.com/furriebot/).
 
 **Mat Ryer:** \[00:32:14.02\] I'm surprised that that was available. So would you be able to then write TinyGo code, and then flash it onto the Gopherbot? Is that how it works?
 
@@ -212,10 +212,10 @@ Is it really in the interest of the toy manufacturer to limit you like this, whe
 
 **Mat Ryer:** Only occasionally pulled off is only a double one.
 
-**Ron Evans:** Yeah, exactly. Well, WebAssembly is extremely interesting. For those of our listeners who are not at all familiar with it - I'd be surprised, but WebAssembly is the new attempt to create a new web runtime, where inside of a web browser the ability for code to access more native capabilities for process signal things, to make it more efficient... Not to replace Javascript in the web browser really, but to enhance it for a number of reasons, performance being a really important one, certainly in a lot of cases.
+**Ron Evans:** Yeah, exactly. Well, WebAssembly is extremely interesting. For those of our listeners who are not at all familiar with it - I'd be surprised, but WebAssembly is the new attempt to create a new web runtime, where inside of a web browser the ability for code to access more native capabilities for faster processing of things, to make it more efficient... Not to replace Javascript in the web browser really, but to enhance it for a number of reasons, performance being a really important one, certainly in a lot of cases.
 
 So there's a number of languages that are able to compile to this WebAssembly, which is actually an instruction set which is designed to execute inside this sandbox... So LLVM, which is the compiler toolchain - which you may recall from the beginning of this as the one that TinyGo is using to generate its code... LLVM can generate WebAssembly as its back-end.
-
+ 
 We have a couple of people who are focused on the WebAssembly parts. I know surprisingly little about it. I'm really learning. Justin Clift is working on it. Johan Brandhorst, who gave a really great talk at DotGo a few weeks back, where he included TinyGo as part of it, is one of our TinyGo team members now, helping to make the web safe for TinyGo.
 
 Going back to -- Go is awesome, Go is powerful, but Go is too big, and having a 1 megabyte download to your mobile device is kind of a no-starter, especially if we're talking about remote locations where bandwidth is expensive and limited, and maybe not even possible.
@@ -236,11 +236,11 @@ And then the last big one is the future. The future... \[singing\] The futureeee
 
 \[00:44:15.29\] We've talked for years about "Wouldn't it be great if you could create chips that were specific to a particular purpose, so that you could do certain kinds of processing more efficiently, or more cheaply?" But there's no practical way to do that. You need to get chip designers that know esoteric knowledge, and you have to pay big licensing fees to companies that provide -- not just because they make you, because of patents and stuff, but because you can't actually do it without their help. Like, "I'm looking to build a new chip." Ten years later, "Yeah, we're gonna build a new chip." Like, "How far did you get?" "Well, it's really hard to do that."
 
-RISC-V is a technology that some people have heard of, and other people have just heard the buzzword... What it really is - it's an open source set of silicon designs, so that you can build your own custom chips the same way that we've been able to build our own custom operating systems; either pieces of Linux to create their own Linux distros - we'll be able to do the same exact things with custom silicon. So TinyGo is gonna be able to run on RISC-V because of using the LLVM back-end... And I'm just waiting for my Sci-Fi prototype board to arrive. I mean to actually have a demo running of this before I told anyone, but I got really excited, because so many people are really doing cool stuff with RISC-V, and here I am, waiting for my shipment... I just can't take it anymore, I have to talk about it.
+RISC-V is a technology that some people have heard of, and other people have just heard the buzzword... What it really is - it's an open source set of silicon designs, so that you can build your own custom chips the same way that we've been able to build our own custom operating systems; either pieces of Linux to create their own Linux distros - we'll be able to do the same exact things with custom silicon. So TinyGo is gonna be able to run on RISC-V because of using the LLVM back-end... And I'm just waiting for my Sci-Fi prototype board to arrive. I meant to actually have a demo running of this before I told anyone, but I got really excited, because so many people are really doing cool stuff with RISC-V, and here I am, waiting for my shipment... I just can't take it anymore, I have to talk about it.
 
 **Mat Ryer:** \[laughs\]
 
-**Ron Evans:** But if you think about what that means as far as the new possibilities for creating custom chips for solving problems that were too expensive to solve, because we're gonna need too many censors to do it, or too difficult to solve because the places we need to put those sensors are too far away from everything... And you know, the problem I'm talking about of course is climate change. It's the brilliant Bret Victor (@worrydream), known for amazing experimentation in new styles of programming interfaces... And if you're not following what's going on at -- I think it's called Dynamicland... It's a really bad name for an unbelievably brilliant technology of doing real-world programming using physical objects... Absolutely stunning what they're doing.
+**Ron Evans:** But if you think about what that means as far as the new possibilities for creating custom chips for solving problems that were too expensive to solve, because we're gonna need too many censors to do it, or too difficult to solve because the places we need to put those sensors are too far away from everything... And you know, the problem I'm talking about of course is climate change. It's the brilliant [Bret Victor](https://twitter.com/worrydream), known for amazing experimentation in new styles of programming interfaces... And if you're not following what's going on at -- I think it's called [Dynamicland](https://dynamicland.org/)... It's a really bad name for an unbelievably brilliant technology of doing real-world programming using physical objects... Absolutely stunning what they're doing.
 
 **Mat Ryer:** Wow.
 
@@ -256,7 +256,7 @@ What we're gonna need to be able to do that is we're gonna need to be able to fi
 
 **Mat Ryer:** \[laughs\] And that's why I love the Gopherbot project, actually, because it gives everyone that. It gives you the thing to play with, and it's everything you need. So yeah, I recommend people head over to Gopherbot.com.
 
-Ron, are you gonna be at Gophercon?
+Ron, are you gonna be at [Gophercon](https://www.gophercon.com)?
 
 **Ron Evans:** Yes, actually this year's Gophercon is going to be the biggest and best Gophercon ever. It's in San Diego, which is...
 
@@ -286,11 +286,11 @@ One thing that we wanna do is be able to plug TinyGo in, so that it can use a re
 
 \[00:56:16.16\] That will take us into a really exciting space, where -- there's existing C code that runs on these different microcontrollers that you need. Some of it are SDKs for things like the real-time operating systems; that way we can use Zephyr, and FreeRTOS, and Riot OS, and some of the others.
 
-Another is there's closed source code that has open APIs, but the implementation \[unintelligible 00:56:42.29\] like the Bluetooth low-energy implementation on all the Nordic semiconductors like the BBC micro:bit; it's a really cool little board. All the kids in the UK got those boards a few years ago, and there's a bunch of them... Mat, you probably have one that you nicked off some kid in the neighborhood...
+Another is there's closed source code that has open APIs, but the implementation all closed like the Bluetooth low-energy implementation on all the Nordic semiconductors like the BBC micro:bit; it's a really cool little board. All the kids in the UK got those boards a few years ago, and there's a bunch of them... Mat, you probably have one that you nicked off some kid in the neighborhood...
 
-**Mat Ryer:** \[laughs\] No, I got it \[unintelligible 00:57:04.25\] through legitimate means.
+**Mat Ryer:** \[laughs\] No, I got it lit through legitimate means.
 
-**Ron Evans:** Yes, I'm sure you did, sir. I'm sure you did. \[laughter\] But the BBC micro:bit has a built-in Nordic Semiconductor nRF51 chip, which includes a whole Bluetooth low-energy stack if you can call into these closed \[unintelligible 00:57:22.28\] libraries.
+**Ron Evans:** Yes, I'm sure you did, sir. I'm sure you did. \[laughter\] But the BBC micro:bit has a built-in Nordic Semiconductor nRF51 chip, which includes a whole Bluetooth low-energy stack if you can call into these closed codes libraries.
 
 One of our big objectives is we wanna be able to combine all of this code together, execute it, very small, very fast, still using Go's concurrency... Because we're able to run goroutines right on these microcontrollers, which is in itself kind of amazing. I mean, that blinky LED on the end of a spring is actually in its own goroutine in our Gopherbot demo kit.
 
@@ -304,7 +304,7 @@ One of our big objectives is we wanna be able to combine all of this code togeth
 
 The other part of it is contributing to TinyGo itself. We've spent a fair amount of time working on improving the process for people who want to install TinyGo from source code directly. We have some make tasks, that way you can install the latest LLVM directly from source, and it makes it a lot easier for people who want to delve in and try to add something to TinyGo.
 
-\[01:00:11.14\] One of the most interesting is Carolyne Van Slyk, who's been working on adding TinyGo tests. That was we can actually use TinyGo to execute the tests themselves. That's gonna be really useful, and learning about the internals of how Go does its implementation of Go tests is also terribly interesting.
+\[01:00:11.14\] One of the most interesting is [Carolyne Van Slyk](https://twitter.com/carolynvs), who's been working on adding TinyGo tests. That was we can actually use TinyGo to execute the tests themselves. That's gonna be really useful, and learning about the internals of how Go does its implementation of Go tests is also terribly interesting.
 
 **Mat Ryer:** Hm. I bet.
 
@@ -312,7 +312,7 @@ The other part of it is contributing to TinyGo itself. We've spent a fair amount
 
 **Mat Ryer:** Yeah, brilliant.
 
-**Ron Evans:** Oh yes, I'd like to also mention - for people who want to really understand some of the low-level stuff, Ayke published a great blog post yesterday at Aykevl.nl. It's called "LLVM from a Go perspective." It talks about taking some very simple examples in Go code, and how those translate first to Go, SSA form, and then also to LLVM IR form. So it's a great way to get some ideas about how -- whether you're interested in helping contribute to TinyGo, or you just wanna understand a little bit more about how modern compilers work under the hood... Great blog post, really. I've been reading it repeatedly, just like "A-ha! That's how that worked."
+**Ron Evans:** Oh yes, I'd like to also mention - for people who want to really understand some of the low-level stuff, Ayke published a great blog post yesterday at Aykevl.nl. It's called [LLVM from a Go perspective](https://aykevl.nl/2019/04/llvm-from-go). It talks about taking some very simple examples in Go code, and how those translate first to Go, SSA form, and then also to LLVM IR form. So it's a great way to get some ideas about how -- whether you're interested in helping contribute to TinyGo, or you just wanna understand a little bit more about how modern compilers work under the hood... Great blog post, really. I've been reading it repeatedly, just like "A-ha! That's how that worked."
 
 **Mat Ryer:** It'd be a good talk, as well.
 
@@ -340,7 +340,7 @@ We talked a bit on a previous show about in interviews, one of the bits of advic
 
 **Mat Ryer:** By the way, I knew that red wire was the positive thing, because of all the James Bond films. They make that very clear... So hopefully, we're alright.
 
-**Ron Evans:** Remember that movie "The Abyss"? They're under the ocean, all \[unintelligible 01:04:42.09\] glow light sticks, and they can't tell what the colors of the wires are, to cut the right one?
+**Ron Evans:** Remember that movie "The Abyss"? They're under the ocean, all these got is one of those glow light sticks, and they can't tell what the colors of the wires are, to cut the right one?
 
 **Mat Ryer:** What a nightmare...
 
