@@ -1285,6 +1285,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "jshoyer",
+      "name": "Steen Hoyer",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2046665?v=4",
+      "profile": "https://github.com/jshoyer",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
