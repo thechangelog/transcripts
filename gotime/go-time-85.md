@@ -2,11 +2,11 @@
 
 **Ashley McNamara:** Hello, everyone.
 
-**Carmen Andoh:** And we have a returning guest, Jon Calhoun, who is the content founder for Gophercises.com, but also UseGolang.com, TestWithGo.com, ErrorsInGo.com... So I'm excited to have you on, Jon. Say hi.
+**Carmen Andoh:** And we have a returning guest, Jon Calhoun, who is the content founder for [Gophercises.com](https://gophercises.com/), but also [UseGolang.com](https://www.usegolang.com/), [TestWithGo.com](https://testwithgo.com/), [ErrorsInGo.com](https://errorsingo.com/)... So I'm excited to have you on, Jon. Say hi.
 
 **Jon Calhoun:** Hey, everybody.
 
-**Carmen Andoh:** And now we have a new guest, Dave Valentine. He's the instructor of Udemy's "A Gentle Introduction to Golang for Beginners." Welcome to our show!
+**Carmen Andoh:** And now we have a new guest, Dave Valentine. He's the instructor of Udemy's [A Gentle Introduction to Golang for Beginners](https://www.udemy.com/a-gentle-introduction-to-google-go-golang-for-beginners/?couponCode=GOTIME_2019). Welcome to our show!
 
 **David Valentine:** Thank you so much! It's a pleasure to be here for the first time.
 
@@ -40,7 +40,7 @@ I guess the first thing I wanted to start with is to ask - what is a beginner? W
 
 Since then, I've actually specialized in making something very clear it is for absolute beginners, because I actually walk them through some of the fundamentals of computer science in learning Go, and giving them a foundation if they've never seen anything before. So I've actually learned to specialize.
 
-**Carmen Andoh:** And is this the course the I mentioned before, or is this a different course?
+**Carmen Andoh:** And is this the course that I mentioned before, or is this a different course?
 
 **David Valentine:** It is exactly the course you've just mentioned, yes. That one's been in the marketplace since January of this year. It's a reboot specifically - and I've taken the other one out of the marketplace - intended for people that have never seen programming languages before, and wanna get started with the exciting computer language Go.
 
@@ -74,7 +74,7 @@ With Go, to be honest, it sort of came about for me from market research, becaus
 
 I realized that - here was a language that back in the day when I learned C for the first time, very much smelled like, tasted like, acted like C, exposed some of those fundamental computer bits, but had grown into being so much more than a system-based language. So I literally fell in love with it.
 
-\[00:12:14.07\] Then because I had intended to develop a course on it -- what I really try to do in all the courses that I teach is I try to develop a roadmap so that my students aren't depending on me. With the internet there is this amazing amount of material out there, but it's not curated in a meaningful way... And that is maybe the secret sauce that I try to bring to the table. Because people have the itch, they have that "How do I get up to speed and make meaningful use of my time in order to achieve a \[unintelligible 00:12:50.28\] understanding with Go?", or whatever their thing is. And so in the course I have what I call an emergency Golan parachute, which is learning resources, right out of the gate, saying "If you get stuck, here's all the really other cool stuff that's out there that you should know about, so that you can take advantage of that in order to supplement your learning." And then I finish off the course with "Here's where to go from here to continue your learning journey", and then take them through that piece where they can effectively then use those examples and resources.
+\[00:12:14.07\] Then because I had intended to develop a course on it -- what I really try to do in all the courses that I teach is I try to develop a roadmap so that my students aren't depending on me. With the internet there is this amazing amount of material out there, but it's not curated in a meaningful way... And that is maybe the secret sauce that I try to bring to the table. Because people have the itch, they have that "How do I get up to speed and make meaningful use of my time in order to achieve a learning understanding with Go?", or whatever their thing is. And so in the course I have what I call an emergency Golang parachute, which is learning resources, right out of the gate, saying "If you get stuck, here's all the really other cool stuff that's out there that you should know about, so that you can take advantage of that in order to supplement your learning." And then I finish off the course with "Here's where to go from here to continue your learning journey", and then take them through that piece where they can effectively then use those examples and resources.
 
 It's that very beginning. That beginning is so hard for people that don't have any experience, so giving them that ignition, even that permission to break things and experiment with things, and to think about things as they're coding and developing their exercises and so on - it gets them that little bit of traction with their wheels and gets them started. And the more students I can get started, the happier I am.
 
@@ -114,9 +114,9 @@ So if I were to add any advice with that, once you do find that something, whate
 
 **David Valentine:** Well, I specifically at this point specialize in starting from scratch, so I have my course that is designed really to bring someone up from scratch. One thing I did find is that originally some people were finding some trouble with the technical aspects of it; they were having some trouble with GOPATH and GOROOT, and some of those things... And originally, I had created Windows installation videos and saying "Hey, if you want, you can go ahead and do the same thing on Mac, you can do the same thing on Linux...", and when I rebooted the course and specialized more in helping beginners, I said "To heck with that noise", and I literally have approached it to give them videos, and follow-through instructions on Windows 10, on macOS, as well as Ubuntu Linux, so that they at least have something that looks, tastes and smells similar to whatever platform they have, because there were some people that were experiencing problems. And my intent with it is to reduce the amount of friction at all possible.
 
-Once they achieve that though, what I find is that people are really functional within it, they get an understanding... One of the beautiful things that is unique about Go as well is that if people want, they can get into the code itself; it's there, it's in your work station. If you're interested in how println() works, and things of that nature, you can sort of dive into it, and start to see these other elements and how they come together in the compiler, and provide the end user experience of the compilation and the code that gets executed.
+Once they achieve that though, what I find is that people are really functional within it, they get an understanding... One of the beautiful things that is unique about Go as well is that if people want, they can get into the Go code itself; it's there, it's in your work station. If you're interested in how println() works, and things of that nature, you can sort of dive into it, and start to see these other elements and how they come together in the compiler, and provide the end user experience of the compilation and the code that gets executed.
 
-So I think it's really similar to other programming languages in the sense that the fundamentals are the same, but it has great syntax, it's really thoughtful, it's really built for concurrency, and I think it's a really effective language for beginners, because some of those obscure elements in earlier languages aren't there, it's very quick to compile... So I'm really an evangelist when it comes to it. But I did find that some of the students that \[unintelligible 00:23:15.26\] have that little bit of friction at first, and now if I can get them over that, then they're off to the races. It's usually a very early problem early on, or they're off to the races and then asking more advanced items out of the gate. So there's this pendulum that swings in their experience, I find, where they're like "Oh, that's awesome! What's next?"
+So I think it's really similar to other programming languages in the sense that the fundamentals are the same, but it has great syntax, it's really thoughtful, it's really built for concurrency, and I think it's a really effective language for beginners, because some of those obscure elements in earlier languages aren't there, it's very quick to compile... So I'm really an evangelist when it comes to it. But I did find that some of the students that always experience that have that little bit of friction at first, and now if I can get them over that, then they're off to the races. It's usually a very early problem early on, or they're off to the races and then asking more advanced items out of the gate. So there's this pendulum that swings in their experience, I find, where they're like "Oh, that was awesome! What's next?"
 
 **Ashley McNamara:** In the beginning -- well, you know, until recently (Thanks, Go team!), GOPATH was a nightmare. Once you got through that hurdle, after you're ready to throw your computer, and then you build something, you're feeling better... But I think that the hurdle of setting up your GOPATH was such a nightmare that people were just like "No... No. If this is just setup, how's it gonna be?"
 
@@ -124,7 +124,7 @@ So I think it's really similar to other programming languages in the sense that 
 
 **Jon Calhoun:** I think that's one of the reasons why you see PHP being so popular still to this day. And I still think one of the big reasons it was was because if you knew very little, you could find a free PHP server and just upload a file, or you FTP in, or something, and connect to it and change a file, and you would see results. You didn't have to understand or install anything, and you could get stuff working. And I think every new language should strive for as much simplicity as possible.
 
-That's one of the reasons why I love the Go Playground, because I'm glad they thought about -- like, we need some way for somebody to quickly and easily just write some code; yeah, it's limited to the standard library, and some stuff like that, but it's still a great learning tool for somebody who, like you said, couldn't install it for some reason, or they just wanna see it before they actually spend that time... Because they actually spend that time. Because I think if we don't focus on that sum, there's languages like Javascript where you can have interactive tutorials really easily in Javascript, and somebody can just bring up Chrome and open up Chrome DevTools and write some Javascript... So the barrier to entry there is so small that I think it's important for other languages to keep that in mind.
+That's one of the reasons why I love the Go Playground, because I'm glad they thought about -- like, we need some way for somebody to quickly and easily just write some code; yeah, it's limited to the standard library, and some stuff like that, but it's still a great learning tool for somebody who, like you said, couldn't install it for some reason, or they just wanna see it before they actually spend that time... Because I think if we don't focus on that sum, there's languages like Javascript where you can have interactive tutorials really easily in Javascript, and somebody can just bring up Chrome and open up Chrome DevTools and write some Javascript... So the barrier to entry there is so small that I think it's important for other languages to keep that in mind.
 
 **Carmen Andoh:** Yeah, this is a good thing that I kind of was wondering... Like, how much is setup a part of learning Go versus other languages? And you mentioned PHP and Java, and if it's different. What are some of the setup gotchas in addition, or you think are gonna be the gotchas, or the learning gotchas? And maybe we can ask for audience participation on the \#GoTimeFm Slack channel.
 
@@ -138,7 +138,7 @@ That's one of the reasons why I love the Go Playground, because I'm glad they th
 
 **Jon Calhoun:** Yeah. Especially because a lot of beginners are coming from Windows, and setting environment variables has always seemed easier to me in Mac or Linux, whereas in Windows, trying to get somebody to go set that stuff up correctly was sometimes a pain.
 
-**Ashley McNamara:** Super-pain. Me and Steve Francia (Hi, Steve!) used to teach workshops, and the first thing that we would do is "Raise your hand if you use a Windows machine. Great. You guys are now friends, because you're going to need to help each other during setup, because we cannot help you."
+**Ashley McNamara:** Super-pain. Me and [Steve Francia](https://twitter.com/spf13) (Hi, Steve!) used to teach workshops, and the first thing that we would do is "Raise your hand if you use a Windows machine. Great. You guys are now friends, because you're going to need to help each other during setup, because we cannot help you."
 
 **Carmen Andoh:** Yeah, taught them, and I have that material and I thought it was amazing... A CLI workshop, and I think it was for OSCON last year, or the year before. The slide deck is something like 300-some slides, and setup, Ashley, was like the first third of that. So I just wonder - is that the hump that we just want to help beginners get over, and then they'll be able to get really productive soon after that?
 
@@ -150,7 +150,7 @@ That's one of the reasons why I love the Go Playground, because I'm glad they th
 
 **Jon Calhoun:** At some point during setup, if it stops working, you quit. But if you're writing code and you've got most things running, I think you're less likely to quit at that point.
 
-**Ashley McNamara:** And is this unique to Go? I wanna give a nod to any beginner out there, whether it's somebody who's already learned something else in terms of the programming language, or someone who's a complete beginner - is setup a quitting point for all languages, or is it a little bit more painful in Go?
+**Carmen Andoh:** And is this unique to Go? I wanna give a nod to any beginner out there, whether it's somebody who's already learned something else in terms of the programming language, or someone who's a complete beginner - is setup a quitting point for all languages, or is it a little bit more painful in Go?
 
 **Jon Calhoun:** I think it's all. I think every language has some barrier to entry, and once you get it, you're good, but up until that point it can be frustrating.
 
@@ -208,7 +208,7 @@ So I'm trying to use different artists for all of them, because I think it's coo
 
 I remember Richard Feynman talking about how he battled burnout and won a Nobel prize for his Feynam techniques; we're kind of veering into physics, but still learning for beginners... And he always said "Just keep a sense of play about you", and Ashley, that's what I love about the gophers that you bring to the table and to the community.
 
-Anyway, Jerod Santo, who's also part of the Changelog crew, said that they'd do an ELI5 (explain it like I'm 5) on the sister podcast, JS Party. That would be a great segment for Go Time. So if any of you are down to come back and do a repeat, but for 4-5 year olds, by our inner 5-year-olds, I'd love to do that episode.
+Anyway, [Jerod Santo](https://twitter.com/jerodsanto), who's also part of the Changelog crew, said that they'd do an ELI5 (explain it like I'm 5) on the sister podcast, JS Party. That would be a great segment for Go Time. So if any of you are down to come back and do a repeat, but for 4-5 year olds, by our inner 5-year-olds, I'd love to do that episode.
 
 **David Valentine:** That'd be awesome.
 
@@ -248,33 +248,33 @@ I think as course creators, it's things we have to think about... Like, is there
 
 Over time, it's gotten to this point where I can sometimes check the Slack, and somebody asked a question and somebody answered it better than I could have, before I even got to it.
 
-**Carmen Andoh:** That's great. That's always great, the feedback loops, and in-person for me is when I can get unblocked. I know that the other exercise site that I've tried is Exercism.io, for not just Go, but a variety of languages... And I was a mentor for Go. So when I signed on to be a mentor, they were like "Listen, if you agree to walk through the code exercise, we all as a community try to get the next person in the queue", so that their feedback is as quick as possible, so there is that online mentorship, and trying to scale that differently, as you said.
+**Carmen Andoh:** That's great. That's always great, the feedback loops, and in-person for me is when I can get unblocked. I know that the other exercise site that I've tried is [Exercism.io](https://exercism.io/), for not just Go, but a variety of languages... And I was a mentor for Go. So when I signed on to be a mentor, they were like "Listen, if you agree to walk through the code exercise, we all as a community try to get the next person in the queue", so that their feedback is as quick as possible, so there is that online mentorship, and trying to scale that differently, as you said.
 
-**Ashley McNamara:** I love Exercism.io. Thanks Katrina and team. Also, I feel like I need to mention it, because it's great and we haven't talked about it yet, but JustForFunc - I love it.
+**Ashley McNamara:** I love Exercism.io. Thanks Katrina and team. Also, I feel like I need to mention it, because it's great and we haven't talked about it yet, but [JustForFunc](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw) - I love it.
 
 **Carmen Andoh:** Yeah. And I just wanted to ask Jon, before I talk about other possible resources for gophers... Can you tell us a little bit more about where learners could go for Gophercises? Are they gonna get that content for asking questions within the course, as they sign on?
 
-**Jon Calhoun:** Gophercise - there's a channel in the GopherSlack, \#gophercises, and there's some people there; I don't know if that one's actually that active... That one's a little bit harder because it's not paid, so supporting it is a little bit trickier. People e-mail me, and I do try to answer where I can, in the Slack, if they ask questions... I try to check there every so often and respond. So all those are options. Because I think that one right now has something like 20,000 students, and it can be a little bit trickier sometimes, whenever I've got a bunch of other things I have to do. But I do try to help, and I do try to answer e-mail, and that sort of stuff, so those are all viable options.
+**Jon Calhoun:** Gophercises - there's a channel in the GopherSlack, \#gophercises, and there's some people there; I don't know if that one's actually that active... That one's a little bit harder because it's not paid, so supporting it is a little bit trickier. People e-mail me, and I do try to answer where I can, in the Slack, if they ask questions... I try to check there every so often and respond. So all those are options. Because I think that one right now has something like 20,000 students, and it can be a little bit trickier sometimes, whenever I've got a bunch of other things I have to do. But I do try to help, and I do try to answer e-mail, and that sort of stuff, so those are all viable options.
 
 **Carmen Andoh:** Great. Well, we're about ten minutes out... Let's go beyond Hello, world or Go 101, and Go 201. We have a great foundational course, and we have exercises - where else can Go beginners go next, once they get there?
 
-**David Valentine:** I'll jump in there. Once you've got your head around some basic Go, you've done lots of different examples and you have the basic language across, I think at that point jumping into effective Go in terms of learning how to write good, clean, idiomatic Go code is your very next step. Then, as Ashley was mentioning when we were talking about building examples, another item I think that is fantastic, which is similar to Awesome Python, is Awesome Go. If you go to awesome-go.com, you'll end up with a list of curated Go frameworks, libraries and software, and anything that floats your boat - whether you're interested in audio and music, or bot building, or any kind of different piece, there are some really outstanding resources available there.
+**David Valentine:** I'll jump in there. Once you've got your head around some basic Go, you've done lots of different examples and you have the basic language across, I think at that point jumping into effective Go in terms of learning how to write good, clean, idiomatic Go code is your very next step. Then, as Ashley was mentioning when we were talking about building examples, another item I think that is fantastic, which is similar to Awesome Python, is Awesome Go. If you go to [awesome-go.com](https://awesome-go.com/), you'll end up with a list of curated Go frameworks, libraries and software, and anything that floats your boat - whether you're interested in audio and music, or bot building, or any kind of different piece, there are some really outstanding resources available there.
 
-\[00:43:50.01\] And then finally, the third thing I'd lead off with in that respect would be to go to Go users groups, because almost any geography that you're in, either there's online forums or in-person groups (especially the in-person groups), you'll find that there are Go user groups. I live in a fairly small city in Canda called Winnipeg, which is smack central in the prairies, and yet we have a thriving Go user group locally. So unless you're rural, you may be able to find and crash a Go user group (even if you're traveling) and to connect with Go users in-person. I think it's amazing.
+\[00:43:50.01\] And then finally, the third thing I'd lead off with in that respect would be to go to Go users groups, because almost any geography that you're in, either there's online forums or in-person groups (especially the in-person groups), you'll find that there are Go user groups. I live in a fairly small city in Canada called Winnipeg, which is smack central in the prairies, and yet we have a thriving Go user group locally. So unless you're rural, you may be able to find and crash a Go user group (even if you're traveling) and to connect with Go users in-person which I think it's amazing.
 
 **Ashley McNamara:** Plus one to Go user groups.
 
-**Carmen Andoh:** Yeah, we're actually trying to build that up and strengthen a unified \[unintelligible 00:44:32.25\] called The Go Developer Network. I joined Google a couple months ago and I have another colleague that joined the team recently - his name is Van Riper - and he wants to complement GoBridge's efforts, as well as Women Who Go's efforts into getting this network of groups to be able to maybe give them content, help them, maybe something like a live broadcast, give them a chance to go at their own pace... But I really like the idea of community and the importance of in-person learning, and trying to balance that off with the people for whom maybe online courses are not working.
+**Carmen Andoh:** Yeah, we're actually trying to build that up and strengthen a unified Go user group called The Go Developer Network. I joined Google a couple months ago and I have another colleague that joined the team recently - his name is Van Riper - and he wants to complement GoBridge's efforts, as well as Women Who Go's efforts into getting this network of groups to be able to maybe give them content, help them, maybe something like a live broadcast, give them a chance to go at their own pace... But I really like the idea of community and the importance of in-person learning, and trying to balance that off with the people for whom maybe online courses are not working.
 
 **Jon Calhoun:** I think it's a really good thing that that's something you focus on. We talked about all these things with learning languages, but we didn't really talk about the community, or the fact that some coding communities really weren't that inclusive or inviting. I think the fact that Go has stressed that from the start is one of the huge things for learning it, especially if you happen to be in a minority group, or something... That can be very helpful, that you can actually feel okay being yourself and not having to pretend you're somebody else as you're learning.
 
-**Ashley McNamara:** Absolutely. That's why I moved from Python to go. The Python community is fine, but... So I've found that within the Go community there's no such thing as a dumb question, and I'm really good at asking dumb questions. People are just super, super-helpful; they will go out of their way to help you. I've never been part of a community like this.
+**Ashley McNamara:** Absolutely. That's why I moved from Python to Go. The Python community is fine, but... So I've found that within the Go community there's no such thing as a dumb question, and I'm really good at asking dumb questions. People are just super, super-helpful; they will go out of their way to help you. I've never been part of a community like this.
 
 **Carmen Andoh:** Agreed. And it's the reason I chose Go and stuck with Go, and I just really am happy for that... So yeah, thank you Jon for bringing that up, because it is, I feel, of paramount importance in terms of learning/mastering the language, and then staying and keeping in community and contributing to the language.
 
-One thing you mentioned, Dave, was Awesome Go. There's also LibHunt, which I think works for all languages, and then they have go.libhunt.com... Which is a similar thing. You can go see third-party packages, and compare them to other packages, depending on what you wanna do. They release the newest/greatest, and I kind of like that, to keep up with my things.
+One thing you mentioned, Dave, was Awesome Go. There's also [Libhunt](https://libhunt.com/), which I think works for all languages, and then they have go.libhunt.com... Which is a similar thing. You can go see third-party packages, and compare them to other packages, depending on what you wanna do. They release the newest/greatest, and I kind of like that, to keep up with my things.
 
-I know that Mark Bates, who is a panelist on this show, along with Cory LaNou, they made Gopher Guides, and I think this is along the same lines of trying to find a curated path based on a certain thing that you wanna learn, whether that's a data structure, or a type, or an algorithm... So I'm gonna give a little shout-out to them for that.
+I know that Mark Bates, who is a panelist on this show, along with Cory LaNou, they made [Gopher Guides](https://www.gopherguides.com/), and I think this is along the same lines of trying to find a curated path based on a certain thing that you wanna learn, whether that's a data structure, or a type, or an algorithm... So I'm gonna give a little shout-out to them for that.
 
 Any other resources for people to go, or go-to's (pun intended)? We've been very short on Go puns this episode. Shame on us.
 
@@ -288,7 +288,7 @@ It's not gonna happen overnight. I don't think you can ever, as a beginner, jump
 
 **Carmen Andoh:** Yeah. I love when GitHub tags "Great first issue", and then you can just sort by the tags, and they optimize their project not for getting things done necessarily, but for -- well, yes, that's certainly important, but also for being inclusive and trying to onboard new members into their project or their ecosystem and whatnot.
 
-**Jon Calhoun:** Another one is FirstTimersOnly, where basically they limit specific issues, and you have to be a first-time contributor to that project to do it.
+**Jon Calhoun:** Another one is [FirstTimersOnly](https://www.firsttimersonly.com/), where basically they limit specific issues, and you have to be a first-time contributor to that project to do it.
 
 **Carmen Andoh:** Oh, that's nice.
 
@@ -302,7 +302,7 @@ It's not gonna happen overnight. I don't think you can ever, as a beginner, jump
 
 **Ashley McNamara:** And there's so much that Mat doesn't know... \[laughter\]
 
-**Carmen Andoh:** We had to throw Mat some shade... But I think our episode is cvasi-complete, because we \[unintelligible 00:50:06.21\] with giving Steve a hello, we mentioned Mark and his Gopher Guides... Anything else we're missing before we go?
+**Carmen Andoh:** We had to throw Mat some shade... But I think our episode is quasi-complete, because we threw MAt some shade we've given Steve a hello, we mentioned Mark and his Gopher Guides... Anything else we're missing before we go?
 
 **David Valentine:** Just to add on the question piece, one thing I notice with the courses that I teach - so often someone asks a question, and then next thing you know there's a crowd of me-too's. And I'm like "Where were you a minute ago? Why did so-and-so have to be the first one to ask?" And then inevitably, when the answer is made, you get a handful of a dozen or so thank-you's. Make it interactive. Especially when you're trying to bring that about, I really find that people are unnecessarily shy, for whatever reason.
 
@@ -346,7 +346,7 @@ So it's very pointed, because you're trying to get to a particular objective... 
 
 **Carmen Andoh:** Alright, I think that's what's happening... Children's book. It is happening.
 
-**Ashley McNamara:** Please do it. Brian Ketelsen and I were supposed to do it, but we are just far too busy. I really need somebody to do this. Just selfishly, please do it.
+**Ashley McNamara:** Please do it. [Brian Ketelsen](https://twitter.com/bketelsen) and I were supposed to do it, but we are just far too busy. I really need somebody to do this. Just selfishly, please do it.
 
 **Carmen Andoh:** Amazing.
 
