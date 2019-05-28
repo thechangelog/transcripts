@@ -272,7 +272,7 @@ Over time, it's gotten to this point where I can sometimes check the Slack, and 
 
 **Carmen Andoh:** Agreed. And it's the reason I chose Go and stuck with Go, and I just really am happy for that... So yeah, thank you Jon for bringing that up, because it is, I feel, of paramount importance in terms of learning/mastering the language, and then staying and keeping in community and contributing to the language.
 
-One thing you mentioned, Dave, was Awesome Go. There's also [Libhunt](https://libhunt.com/), which I think works for all languages, and then they have go.libhunt.com... Which is a similar thing. You can go see third-party packages, and compare them to other packages, depending on what you wanna do. They release the newest/greatest, and I kind of like that, to keep up with my things.
+One thing you mentioned, Dave, was Awesome Go. There's also [libhunt.com](https://libhunt.com/), which I think works for all languages, and then they have [go.libhunt.com](https://go.libhunt.com/)... Which is a similar thing. You can go see third-party packages, and compare them to other packages, depending on what you wanna do. They release the newest/greatest, and I kind of like that, to keep up with my things.
 
 I know that Mark Bates, who is a panelist on this show, along with Cory LaNou, they made [Gopher Guides](https://www.gopherguides.com/), and I think this is along the same lines of trying to find a curated path based on a certain thing that you wanna learn, whether that's a data structure, or a type, or an algorithm... So I'm gonna give a little shout-out to them for that.
 
