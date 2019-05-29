@@ -68,7 +68,7 @@ So it's just a strange thing... Maybe they're trying to fly under the radar. It'
 
 **Kevin Ball:** Yeah, so there's two areas of this that I think are super-interesting, where GitHub can really make a difference relative to the status quo. One is I think this makes it far easier to set up internal package registries, to share code inside of an organization... Because you don't have to figure out anything new, you don't have to set up your own server to manage it, you don't have to do any of that. You just use the tools you're already using, and you can make internal packages and set up an internal registry. So I think the organizational case for that is really interesting.
 
-\[00:07:25.29\] The second piece that I think is a very interesting possibility, that we'll see if we can get to, is this potentially allows for end-to-end verification of "Is the code that is in a repository that's visible to the world - the code repository, the open source code, is that what is actually being used to generate the package?" Because we ran into situations like the event-stream hack, where there was discrepancy. People were obfuscating what's easily visible to the world, versus what's actually getting pushed into the registry. And there's obviously some complications here. Almost nobody is shipping raw code, at least in the Javascript code; you're probably transpiling it, you're \[unintelligible 00:08:12.05\] you're doing whatever... Though actually in things like Ruby and Python and other languages that might be less true.
+\[00:07:25.29\] The second piece that I think is a very interesting possibility, that we'll see if we can get to, is this potentially allows for end-to-end verification of "Is the code that is in a repository that's visible to the world - the code repository, the open source code, is that what is actually being used to generate the package?" Because we ran into situations like the event-stream hack, where there was discrepancy. People were obfuscating what's easily visible to the world, versus what's actually getting pushed into the registry. And there's obviously some complications here. Almost nobody is shipping raw code, at least in the Javascript code; you're probably transpiling it, you're bundling it, you're doing whatever... Though actually in things like Ruby and Python and other languages that might be less true.
 
 But what this enables is at least the potential to do end-to-end validation of "Is the code I'm looking at as an open source developer reviewing this actually what's getting installed in my system?"
 
@@ -84,7 +84,7 @@ But what this enables is at least the potential to do end-to-end validation of "
 
 **Jerod Santo:** The weird click-through, yeah...
 
-**Divya Sasidharan:** I always find myself -- I've done it so many times, but I'm always \[unintelligible 00:11:05.12\]
+**Divya Sasidharan:** I always find myself -- I've done it so many times, but I'm always "The git... where is the GitHub link?"
 
 **Nick Nisi:** That's all I do on Npm, is just find the GitHub link and then go there.
 
@@ -110,7 +110,7 @@ And then the second one, which is almost the inverse problem, is --
 
 **Jerod Santo:** The three-part strategy, yeah. It's such a weird dichotomy, because you do have both concerns. You have a fragmentation concern, and then you have a centralization concern, and I think they're both legitimate, you know? I could see both of them happening in certain ways, and both of them affecting negatively both the already diverse ecosystems, and then the convergent one ecosystem of GitHub.
 
-Let's talk about it specifically inside the Javascript, the front-end space - Npm is the only player in the game. You have other clients, you have \[unintelligible 00:13:50.06\] but when it comes to registries, it is Npm, and that has both spurred a lot of flourishment in terms of packages publishing, and the ease of use, and all that kind of stuff, but then it can also be lacking competition on the actual hosting and the registry side of things. In that regard, GitHub getting into this can basically put a fire under Npm's butt, and say "Hey, we've got features that you don't have" or "We can do things you don't have because we are the source code host as well, so step up your game", and that can make everybody better.
+Let's talk about it specifically inside the Javascript, the front-end space - Npm is the only player in the game. You have other clients, you have the Yarn client, but when it comes to registries, it is Npm, and that has both spurred a lot of flourishment in terms of packages publishing, and the ease of use, and all that kind of stuff, but then it can also be lacking competition on the actual hosting and the registry side of things. In that regard, GitHub getting into this can basically put a fire under Npm's butt, and say "Hey, we've got features that you don't have" or "We can do things you don't have because we are the source code host as well, so step up your game", and that can make everybody better.
 
 **Nick Nisi:** Just to confirm, do we think that this is directly competing with Npm's enterprise solutions?
 
@@ -188,7 +188,7 @@ Running a company is bloody hard, and without knowing the background, I don't wa
 
 **Divya Sasidharan:** That's a huge shift. And that probably moves us to the next segment, on job skills stuff. We can talk about that later, but... It's just an interesting way of how they've positioned themselves. In the developer community they're seen quite well now. And they've obviously done a good job, so... Yeah.
 
-**Nick Nisi:** Just to close it, there's a Twitter account \[unintelligible 00:25:19.15\] that speculates on what Npm might actually stand for, and I saw a tweet from them, "Nobody Protected Microsoft." \[laughter\]
+**Nick Nisi:** Just to close it, there's a Twitter account, @npm_parody that speculates on what Npm might actually stand for, and I saw a tweet from them, "Nobody Protected Microsoft." \[laughter\]
 
 **Kevin Ball:** I believe that Npm account was created specifically when the package manager was announced.
 
@@ -308,7 +308,7 @@ It does seem like today -- although maybe tomorrow Vue will be higher up... But 
 
 Start in React, because it's easy to get a job there. Dive deep, but have in mind, "Okay, how am I thinking about components? What are the boundaries? How are we doing that?" That understanding, that knowledge, that experience is gonna translate no matter what framework you end up moving to in the next job, or whatever.
 
-Similarly, things like declarative coding... We are increasingly moving to a declarative paradigm for our components, we're not imperatively doing things we're thinking about. "Here's what this thing should be", and letting the frameworks handle \[unintelligible 00:38:32.21\]. And that's another place where so long as what you're working in is doing that, which means maybe not focusing on jQuery... But if you're doing React, those skills are once again gonna translate.
+Similarly, things like declarative coding... We are increasingly moving to a declarative paradigm for our components, we're not imperatively doing things we're thinking about. "Here's what this thing should be", and letting the frameworks handle how and when. And that's another place where so long as what you're working in is doing that, which means maybe not focusing on jQuery... But if you're doing React, those skills are once again gonna translate.
 
 There's a lot of these mega-trends... I identified five in a blog post earlier this year. But if you look for the bigger-picture questions, and start learning those within the context of one thing you're going deep on, you're not gonna end up in trouble when suddenly the flavor of the month changes.
 
@@ -328,7 +328,7 @@ What about the back-end, guys?
 
 **Kevin Ball:** \[laughs\]
 
-**Jerod Santo:** Just learn \[unintelligible 00:42:02.13\]
+**Jerod Santo:** Just learn Express
 
 **Nick Nisi:** I'm currently using a project called NestJS, which is like a TypeScript wrapper around Express, but it makes it more Angular (that's the way I describe it), in a good way.
 
@@ -410,7 +410,7 @@ What about the back-end, guys?
 
 **Divya Sasidharan:** I think I've had that opinion on teams before, because I'm like "I like clean history", and they're like "Well, clean history is everything", and I'm like "That's not clean. You're sorting through the garbage."
 
-**Nick Nisi:** Exactly. \[unintelligible 00:48:44.13\]
+**Nick Nisi:** Exactly. The people who think that haven't used git bisect.
 
 **Kevin Ball:** Often clean history is incorrect history.
 
@@ -468,11 +468,13 @@ It's super-cool to see this UI-focused development stuff growing and being more 
 
 **Nick Nisi:** Yes!
 
-**Divya Sasidharan:** \[unintelligible 00:54:40.06\]
+**Kevin Ball:** "Baby shark doot doot"
+
+**Divya Sasidharan:** Oh no, please don't sing it!
 
 **Jerod Santo:** Yeah, please don't. Please don't. Nooo, it's too late...! It's in there.
 
-**Divya Sasidharan:** Yeah, I know. Once it's in your head, you can't get it out. And then this is another shout-out to a tool that \[unintelligible 00:54:53.27\] mentioned on the chat, which is Quokka.js. It's interesting, because this is a tool that I recently heard about, and it's funny that he posted it as well... So I was at NationJS, which is a small conference, also really great, in DC, and Nir Kaufman was one of the speakers; he's big in the React community in New York. He spoke about Quokka, and it was so -- I had never heard of it, and I think it's really cool, because it allows you to prototype... It's like a scratchpad for when you're working on stuff, so you're like "Oh wait, I'm working with this library, and I don't know how it work", and you can kind of just use it as a scratchpad, and be like "Let me try different things", and then erase it when you're done, without having to mess up your files... Which I think is so cool and interesting. Even the way that it was presented to me...
+**Divya Sasidharan:** Yeah, I know. Once it's in your head, you can't get it out. And then this is another shout-out to a tool that Rouzbeh mentioned on the chat, which is Quokka.js. It's interesting, because this is a tool that I recently heard about, and it's funny that he posted it as well... So I was at NationJS, which is a small conference, also really great, in DC, and Nir Kaufman was one of the speakers; he's big in the React community in New York. He spoke about Quokka, and it was so -- I had never heard of it, and I think it's really cool, because it allows you to prototype... It's like a scratchpad for when you're working on stuff, so you're like "Oh wait, I'm working with this library, and I don't know how it work", and you can kind of just use it as a scratchpad, and be like "Let me try different things", and then erase it when you're done, without having to mess up your files... Which I think is so cool and interesting. Even the way that it was presented to me...
 
 Most of the time you look at a framework, and you look at the documentation, and then that's how you learn how it works; a library like Lodash, for example. But with this, you can actually work on the thing... Which I've done before. I've used RunKit, and various things on Npm, where you're like "Okay, I wanna play around with this tool, and see what things are doing", but I think Quokka allows you to dig really deep into a specific library or tool, which is so interesting, just from a learning perspective... Going back to the conversation of scaling up - to be like "I'm a junior developer", to be like "I wanna progress", I think that's such a great tool for you to just learn about how tools are created, how libraries are architectured, and so on.
 
