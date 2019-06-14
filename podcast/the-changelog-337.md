@@ -8,7 +8,7 @@
 
 **Adam Stacoviak:** Gotcha. Let's go there then. We actually wanted to kind of news-hack it, but it just didn't work out to get both you and the security researcher on the show... But you're here instead, so tell us what happened.
 
-**Mike McQuaid:** Basically, we got a security disclosure through our HackerOne; it's actually been a really nice setup since we kind of moved to that. Previously we had just "Oh, well create an issue, or send us an e-mail, or whatever", and people suggested that we get set up on HackerOne; that it's a responsible disclosure platform thing, and it's free for open source... And that's worked pretty well for us.
+**Mike McQuaid:** Basically, we got a security disclosure through our HackerOne; it's actually been a really nice setup since we kind of moved to that. Previously we had just "Oh, well create an issue, or send us an email, or whatever", and people suggested that we get set up on HackerOne; that it's a responsible disclosure platform thing, and it's free for open source... And that's worked pretty well for us.
 
 Basically, late July last year a researcher identified that Jenkins - which is what we've used for Homebrew's CI and building our binary packages - had been leaking a token, unfortunately. That token actually gave him push access to some repos, and so that was obviously relatively terrifying. Obviously, the bonuses of good disclosure is that within a few hours we were able to revoke the creds, we were able to replace them and sanitize Jenkins, so this shouldn't happen in the future... And also basically check to see with the old credentials what was possible and what wasn't. Thankfully, it actually wasn't as bad as initially we feared, because although it has to have write access, that particular credential didn't have actual push access to the given repos, and we were also able to verify, with GitHub Support's help and some auditing ourselves, that it hadn't been used by anyone during the period in which the scopes were elevated and in which it had write access.
 
@@ -94,9 +94,9 @@ And again, it depends on your release model, and your verification model and thi
 
 So I think there's a certain amount of humility that needs to be involved there when you're dealing with people who know a lot more about a subject area, in this case security, than you do. And being grateful that those people are willing to go the right way and help you out there, rather than try and make fools of you.
 
-**Adam Stacoviak:** Did you end up having a personal conversation with this person, or did you end up black-on-white e-mail, texting...? What was the cross over there?
+**Adam Stacoviak:** Did you end up having a personal conversation with this person, or did you end up black-on-white email, texting...? What was the cross over there?
 
-**Mike McQuaid:** We just chatted with him through HackerOne, through our security disclosure tool, and that's the main way we had the conversation there. I think it maybe went to our personal e-mails, chatting there as well, because we wanted to coordinate the blog posts, and all that type of thing.
+**Mike McQuaid:** We just chatted with him through HackerOne, through our security disclosure tool, and that's the main way we had the conversation there. I think it maybe went to our personal emails, chatting there as well, because we wanted to coordinate the blog posts, and all that type of thing.
 
 The other fun aside with open source as well is that this all happened during my paternity leave; GitHub is very generous in that you get five months paid paternity leave...
 

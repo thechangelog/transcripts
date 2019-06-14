@@ -466,7 +466,7 @@ In this work we said, "Okay, let's now learn this unknown ground effect through 
 
 If people wanna reach out to you and talk to you about this kind of work, is there a preferred way that you have of people reaching out?
 
-**Anima Anandkumar:** Sure. I am on different social media, as well as my Caltech e-mail is public... My Twitter handle is @AnimaAnandkumar. That's a lot, but that's my first and last name. And my Caltech e-mail is anima@caltech.edu.
+**Anima Anandkumar:** Sure. I am on different social media, as well as my Caltech email is public... My Twitter handle is @AnimaAnandkumar. That's a lot, but that's my first and last name. And my Caltech email is anima@caltech.edu.
 
 **Chris Benson:** And we'll have all of those in the show notes as well. Anima, thank you so much for coming on the show. It's been a truly fascinating conversation, as I'm sure everybody will agree. Keep up the amazing work that you're doing. I'm looking forward to seeing what you do next.
 

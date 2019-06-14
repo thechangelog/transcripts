@@ -145,7 +145,7 @@ From your perspective, Rachel, when you're on the podcast yourself, you're gonna
 
 I guess now if you have a technical for Mikeal or Alex and you're afraid to ask, my DMs are open.
 
-**Adam Stacoviak:** I'm glad you mentioned that, because we actually have a soundboard now, and what we're gonna do -- we don't have a formal way to do this yet, so if you're listening to this, simply subscribe to the show or subscribe to our weekly e-mail, Changelog Weekly... You can find that by going to changelog.com/weekly. But what we plan to do is actually have it where people can submit audio-based questions and we'll play them live on the show. That's one idea we have.
+**Adam Stacoviak:** I'm glad you mentioned that, because we actually have a soundboard now, and what we're gonna do -- we don't have a formal way to do this yet, so if you're listening to this, simply subscribe to the show or subscribe to our weekly email, Changelog Weekly... You can find that by going to changelog.com/weekly. But what we plan to do is actually have it where people can submit audio-based questions and we'll play them live on the show. That's one idea we have.
 
 \[00:20:19.18\\\] So if you're taking Rachel's advice and you DM her, you can simply just record it and share an audio URL and she'll pass it along, or something like that. That's something that we have found time for in the future. If we're in the middle of the show and so-and-so has this question, we play their question and you all debate about the different nuances of it, or your different perspectives or angles. That could be fun.
 

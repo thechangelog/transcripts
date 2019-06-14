@@ -60,7 +60,7 @@ And of course, one of the goals of good testing and good practices is to have th
 
 **Jaana B. Dogan (JBD):** But isn't this a question about compatibility also? If you gave behavior promises, for example, you may actually wanna be able to cover those tiny details, so you don't change the behavior without -- I mean, you should be informed if your behavior is changing.
 
-**Mat Ryer:** Yeah, and I suppose that's a good way of putting it - it's about what promises you've made. This is where I think it's quite difficult to have these conversations in the general, because I think this will change depending on the kind of thing you're building. If you're building a binary encoder/decoder, then the test coverage and everything is gonna look very different to if you're building an e-mail sending service, or something... Don't you think?
+**Mat Ryer:** Yeah, and I suppose that's a good way of putting it - it's about what promises you've made. This is where I think it's quite difficult to have these conversations in the general, because I think this will change depending on the kind of thing you're building. If you're building a binary encoder/decoder, then the test coverage and everything is gonna look very different to if you're building an email sending service, or something... Don't you think?
 
 **Jaana B. Dogan (JBD):** Yeah, true.
 

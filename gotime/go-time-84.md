@@ -215,7 +215,7 @@ Is it really in the interest of the toy manufacturer to limit you like this, whe
 **Ron Evans:** Yeah, exactly. Well, WebAssembly is extremely interesting. For those of our listeners who are not at all familiar with it - I'd be surprised, but WebAssembly is the new attempt to create a new web runtime, where inside of a web browser the ability for code to access more native capabilities for faster processing of things, to make it more efficient... Not to replace Javascript in the web browser really, but to enhance it for a number of reasons, performance being a really important one, certainly in a lot of cases.
 
 So there's a number of languages that are able to compile to this WebAssembly, which is actually an instruction set which is designed to execute inside this sandbox... So LLVM, which is the compiler toolchain - which you may recall from the beginning of this as the one that TinyGo is using to generate its code... LLVM can generate WebAssembly as its back-end.
- 
+
 We have a couple of people who are focused on the WebAssembly parts. I know surprisingly little about it. I'm really learning. Justin Clift is working on it. Johan Brandhorst, who gave a really great talk at DotGo a few weeks back, where he included TinyGo as part of it, is one of our TinyGo team members now, helping to make the web safe for TinyGo.
 
 Going back to -- Go is awesome, Go is powerful, but Go is too big, and having a 1 megabyte download to your mobile device is kind of a no-starter, especially if we're talking about remote locations where bandwidth is expensive and limited, and maybe not even possible.
@@ -394,6 +394,6 @@ Also, physical systems are gonna be installed for a long time further than origi
 
 So it's important for us to apply very serious architectural and industrial strength thinking to distributed devices before we put them out there, not afterward; we're like "Oh, there's no way to update these. Well, too bad..." That's not an acceptable answer. It's really about ethics in device-oriented development.
 
-**Mat Ryer:** Yeah, but it's real. It is real. Well, on that bombshell, all that's left for me to say is that's our show. Thank you so much to Deadprogram, aka Ron Evans, for educating us about TinyGo, and sharing his passion about Gopherbot.com. Definitely check that project out. And don't forget about the quiz. If you wanna win a Gopherbot kit, including all the bits and pieces you need so you can write TinyGo code and create your own Go plushie robot, then check out the show notes for the quiz, and you just have to share the podcast, essentially, and send an e-mail to gotime@changelog.com.
+**Mat Ryer:** Yeah, but it's real. It is real. Well, on that bombshell, all that's left for me to say is that's our show. Thank you so much to Deadprogram, aka Ron Evans, for educating us about TinyGo, and sharing his passion about Gopherbot.com. Definitely check that project out. And don't forget about the quiz. If you wanna win a Gopherbot kit, including all the bits and pieces you need so you can write TinyGo code and create your own Go plushie robot, then check out the show notes for the quiz, and you just have to share the podcast, essentially, and send an email to gotime@changelog.com.
 
 That's it, we'll see you next week. Thank you very much.

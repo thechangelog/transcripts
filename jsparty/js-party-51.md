@@ -270,7 +270,7 @@ I think that's a super-cool idea, that you can cache your bundler results. I kno
 
 **Nick Nisi:** Very cool. Where can people reach you at, Ives?
 
-**Ives van Hoorne:** I'm on Twitter, @CompuIves. I have a new e-mail since this week. It's ives@codesandbox.io. \[laughs\] So if people wanna reach me that way, that works as well.
+**Ives van Hoorne:** I'm on Twitter, @CompuIves. I have a new email since this week. It's ives@codesandbox.io. \[laughs\] So if people wanna reach me that way, that works as well.
 
 **Nick Nisi:** Cool, thank you so much.
 

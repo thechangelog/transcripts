@@ -54,7 +54,7 @@ Some people caught on and there's a pretty good community of people that use it.
 
 Event-stream, at this point, was an old package that you wrote, that you'd moved on from twice, and it's not like you've got these six packages that you care for; you have hundreds of packages, and so like you said, the maintenance on that was you were basically ignoring it.
 
-**Dominic Tarr:** Yeah. And none of my friends used it either. I'd occasionally get issues or support e-mails, but for me these were all just annoying, just like "I wish this would go away." Then someone e-mailed me and was like "Hey, this was useful to me. I can spend a few hours a week maintaining it", and I was like "Hell yes!" I jumped at the offer. \[laughter\] "Please.., Thank you so much." It was the first person who actually offered to help, so I gave it to them.
+**Dominic Tarr:** Yeah. And none of my friends used it either. I'd occasionally get issues or support emails, but for me these were all just annoying, just like "I wish this would go away." Then someone emailed me and was like "Hey, this was useful to me. I can spend a few hours a week maintaining it", and I was like "Hell yes!" I jumped at the offer. \[laughter\] "Please.., Thank you so much." It was the first person who actually offered to help, so I gave it to them.
 
 This is a critical thing that ended up exasperating the whole situation - in-between then and now, maybe a month later, I had a whole bunch of old modules that I was no longer really interested in, that I didn't use, and occasionally people would post issues and pull requests, and it was always a huge bummer for someone to earnestly come looking for help or want to make some change, and then this would require me to probably think about the implications of their change for at least 20 minutes, or something... And I'd moved on from all of these things, and it was just a huge bummer to tell them "Look, I just can't be bothered. I'm just not interested in working on this."
 
@@ -62,7 +62,7 @@ And it was not the 20 minutes or something, it was just the letting some strange
 
 **Jerod Santo:** Oh, wow.
 
-**Dominic Tarr:** Yeah, so I wanted to do it in a way that I would no longer have access to them. So I tried an e-mail, and then used a random password that I forgot, and then used that to sign up for another Npm account called No Person's Modules; then I forgot the password to that as well, so I can't log into these things. Then I transferred hundreds of modules to that account, which now no one controls. I e-mailed Npm support and told them I was doing this, as well, based on mental health reasons.
+**Dominic Tarr:** Yeah, so I wanted to do it in a way that I would no longer have access to them. So I tried an email, and then used a random password that I forgot, and then used that to sign up for another Npm account called No Person's Modules; then I forgot the password to that as well, so I can't log into these things. Then I transferred hundreds of modules to that account, which now no one controls. I emailed Npm support and told them I was doing this, as well, based on mental health reasons.
 
 **Jerod Santo:** Drastic measures.
 

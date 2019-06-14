@@ -252,7 +252,7 @@ I think definitely robotics is a very ripe field for application. Obviously, the
 
 **Chris Benson:** Okay. Well, this has been fascinating. Thank you so much for coming on. If people wanna reach out to you and make contact with you, where are you on social media? How do you like to interact with people out there in the world?
 
-**Adam Stooke:** Yeah, sure. That's easy, you can find me either on Facebook, or old-fashioned e-mail can do the trick as well.
+**Adam Stooke:** Yeah, sure. That's easy, you can find me either on Facebook, or old-fashioned email can do the trick as well.
 
 **Chris Benson:** Alright, we'll include those as well. Thank you very much. This was a great conversation, I really enjoyed it. You really made the thought of getting into deep reinforcement learning accessible. Thanks for doing that and sharing with us... I appreciate the time.
 

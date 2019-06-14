@@ -64,7 +64,7 @@ And then I think the other thing about it is when we did that in 2010 I was kind
 
 And I tell folks, you don't have to read my books, because I don't have a book for every language, or every skill... I tell people, just take any book and sort of do it the way my books do it. Take the books, get all the code working, then read about the code in the book... Because I think most books are actually written backwards, where they talk a whole bunch, and then show you a little bit of code, and it's way easier to get the code to work, and just sort of get it up and running, and then go read what they say about the code, because you get to see the whole thing in action and it's a lot easier to understand it.
 
-So a lot of times, I tell people, like let's say you wanna learn Go. I don't do anything with Go, I don't really have any plans for it... So they'll e-mail me and say "Do you have a Go book?" I'm like, "No, but take this book. It seems to be really popular on Amazon", and it kind of doesn't matter; just get all the code working. Then just keep doing that, and getting code working, and understanding it and trying to make it work. It's like learning a language; eventually you'll get pretty good at it. Then go out and either try to make your own little projects and put them out. It's sort of like a demonstration of what you're able to do. Or go find someone else - and this is the thing I advocate a lot - find some open source project and go in there and fix bugs; find the simplest bugs, and slowly just keep squashing bugs. That's all you do. Don't make any new features, don't add anything to it, just squash bugs.
+So a lot of times, I tell people, like let's say you wanna learn Go. I don't do anything with Go, I don't really have any plans for it... So they'll email me and say "Do you have a Go book?" I'm like, "No, but take this book. It seems to be really popular on Amazon", and it kind of doesn't matter; just get all the code working. Then just keep doing that, and getting code working, and understanding it and trying to make it work. It's like learning a language; eventually you'll get pretty good at it. Then go out and either try to make your own little projects and put them out. It's sort of like a demonstration of what you're able to do. Or go find someone else - and this is the thing I advocate a lot - find some open source project and go in there and fix bugs; find the simplest bugs, and slowly just keep squashing bugs. That's all you do. Don't make any new features, don't add anything to it, just squash bugs.
 
 So far, that seems to work for folks. I'm saying, you don't have to read my books, but if you go through a bunch of books and get the code working and then go and squash bugs, that's a pretty good path.
 
@@ -100,7 +100,7 @@ Then you come back and say "Alright, let's see what you did." If they can prove 
 
 **Zed Shaw:** Nobody. I mean, probably there is. We don't know every industry--
 
-**Jerod Santo:** Listeners, if somebody out there is doing that and you know about it, give us a holler or e-mail us.
+**Jerod Santo:** Listeners, if somebody out there is doing that and you know about it, give us a holler or email us.
 
 **Adam Stacoviak:** That's every day. I mean, I can't reference any particular tweets, but there's definitely -- as we watch what we do to do Changelog News and this show, Jerod, I see those tweets and I see people say "I can't possibly deal with one more job interview to do what Zed just basically said. I can't do that one more time."
 
@@ -242,7 +242,7 @@ So yeah, corporations are gonna go out and do that. I'm not surprised. Are you s
 
 **Adam Stacoviak:** I see.
 
-**Zed Shaw:** Node.js started with a piece of my code, and then right after that they needed a new license, so rather than pay me for the license, they created a separate project that just had my code in it, and then Ryan Dahl e-mailed me and he's like "Hey buddy, can you just give me a free license for this?" Like, why are they trying to steal it from me? They could have just paid me, and I would have been like "Cool, just pay me and I'll do a new license, and we're done." This is capitalism - contracts, paying money, exchanges... That's how it works, right?
+**Zed Shaw:** Node.js started with a piece of my code, and then right after that they needed a new license, so rather than pay me for the license, they created a separate project that just had my code in it, and then Ryan Dahl emailed me and he's like "Hey buddy, can you just give me a free license for this?" Like, why are they trying to steal it from me? They could have just paid me, and I would have been like "Cool, just pay me and I'll do a new license, and we're done." This is capitalism - contracts, paying money, exchanges... That's how it works, right?
 
 So my problem with it is that if it's right for corporations to be making money, it should be right for us to make money, but that's not what's happening. There's something else going on, and it's taken me a while to sort of figure out that really this is sort of a strategy among corporations to kind of do three things at once. And these are three things that actually happened to me, or that are happening; it has been really easy to find it.
 
@@ -374,7 +374,7 @@ And then when you don't really wanna work for free, like when you go "No, screw 
 
 **Jerod Santo:** Yeah, I doubt if you digged far enough into the vaults of these organizations you're gonna find that gameplan written down in a briefing that somebody proposed to their upper management as a gameplan.
 
-**Zed Shaw:** Yeah. You know, I will say, based on the documents that we saw from Microsoft about their "embrace and extend" strategy - I remember there were things that they had said when they got sued... Remember back in the day a whole bunch of these e-mails came out? And we know what their strategy is now. I predict you actually are gonna see sort of a similar "embrace and extend" strategy come out of Google and Amazon and whatnot... And we're gonna find out that actually no, they've just been sort of exploiting open source to pad their pockets.
+**Zed Shaw:** Yeah. You know, I will say, based on the documents that we saw from Microsoft about their "embrace and extend" strategy - I remember there were things that they had said when they got sued... Remember back in the day a whole bunch of these emails came out? And we know what their strategy is now. I predict you actually are gonna see sort of a similar "embrace and extend" strategy come out of Google and Amazon and whatnot... And we're gonna find out that actually no, they've just been sort of exploiting open source to pad their pockets.
 
 \[00:55:56.22\] But again, oh well, I mean, that's companies. Why are we surprised by that? I'm not surprised by that. And then I feel open source developers, programmers in general I feel are very - I don't know why, but I think they're very fascist... Like servile fascists.
 
@@ -538,7 +538,7 @@ I asked my friends, or the people who would tell me this, I'm like "Okay, well w
 
 **Jerod Santo:** \[laughs\]
 
-**Zed Shaw:** But not a single person, I didn't read a single blog post from anyone, not a single e-mail, nothing, even my best friends didn't stand up for me. Nobody came out. People told me that they would talk to members of the PSF and they'd say like "Yeah, what do you think about Zed's post?" and members in the PSF would be like "Oh, Zed was the best thing that happened to Python, but I'm never gonna say that, because it will be really bad for me."
+**Zed Shaw:** But not a single person, I didn't read a single blog post from anyone, not a single email, nothing, even my best friends didn't stand up for me. Nobody came out. People told me that they would talk to members of the PSF and they'd say like "Yeah, what do you think about Zed's post?" and members in the PSF would be like "Oh, Zed was the best thing that happened to Python, but I'm never gonna say that, because it will be really bad for me."
 
 **Jerod Santo:** So your best friends, did you -- so with my best friends, if a stranger offends me, it's kind of like, whatever... Especially someone on the internet. Not that it doesn't hurt, but it's not going to affect my day-to-day. But if my best friends don't stand up for me, I would turn to them and say "What's up with this? Why aren't you...?
 
@@ -578,7 +578,7 @@ That happens way more often than people wanna admit, but I think it doesn't happ
 
 **Jerod Santo:** Yes, commensurate. Exactly.
 
-**Zed Shaw:** If I don't like Haskell, you go "yeah well I don't like your project", and I go "I don't like your project". Maybe you can say "I don't like your face." Alright, that's weird, but okay. But if I go "I don't like Haskell" and then you send me this insane e-mail about how I should kill myself, then that's kind of a disconnect. All I said was one tweet where I made fun of Haskell, and you want me to kill myself. That's a huge distance between what I did wrong to you and what you think should happen to me.
+**Zed Shaw:** If I don't like Haskell, you go "yeah well I don't like your project", and I go "I don't like your project". Maybe you can say "I don't like your face." Alright, that's weird, but okay. But if I go "I don't like Haskell" and then you send me this insane email about how I should kill myself, then that's kind of a disconnect. All I said was one tweet where I made fun of Haskell, and you want me to kill myself. That's a huge distance between what I did wrong to you and what you think should happen to me.
 
 **Adam Stacoviak:** Well, since you brought it back to Twitter, this tweet storm we talked through here - which we didn't go through all of them, and I'm not sure we can actually link to it, because your account is protected, at least now...
 
@@ -666,7 +666,7 @@ The one thing I did think is one problem is if you're an organization that's rea
 
 **Zed Shaw:** Totally.
 
-**Jerod Santo:** We've had a great conversation here... So is it e-mail? What's the best way -- folks can't catch you on Twitter anymore; how should they get in touch?
+**Jerod Santo:** We've had a great conversation here... So is it email? What's the best way -- folks can't catch you on Twitter anymore; how should they get in touch?
 
 **Zed Shaw:** What you can do is I have my blog, ZedShaw.com. That's kind of my personal little thing; you can go there, pop a comment in... I'll probably write a little blog post about this and announce it, so that way people can go and comment. And if you wanna talk to me about books and stuff like that, you can go to @LZSTHW (Learn Zed Shaw The Hard Way). That's my Twitter.
 

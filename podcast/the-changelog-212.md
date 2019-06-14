@@ -120,7 +120,7 @@ The tools at that time didn't have a good way to find those pages that weren't w
 
 **Jerod Santo:** How long was your paternity leave, Adam?
 
-**Adam Stacoviak:** \[00:11:55.18\] Well, my paternity leave was not given by the government, it was given by me... It was maybe two weeks. I think I even did a little bit of work during that, but I was mostly just e-mail checking. I did not get to fully enmesh myself in the process, which did suck. Then obviously when I got back, there was a pile of stuff to do.
+**Adam Stacoviak:** \[00:11:55.18\] Well, my paternity leave was not given by the government, it was given by me... It was maybe two weeks. I think I even did a little bit of work during that, but I was mostly just email checking. I did not get to fully enmesh myself in the process, which did suck. Then obviously when I got back, there was a pile of stuff to do.
 
 **Jerod Santo:** So you didn't get a year off to work on open source?
 

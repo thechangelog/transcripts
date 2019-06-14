@@ -190,7 +190,7 @@ Then I was like, "Well, I don't really care about that anymore, because I kind o
 
 **Adam Stacoviak:** So you went and did it. What was the experience like getting -- is there a fun story around how you got hired or how you took the job at Hipstamatic? Because that was after Instagram, right? Instagram was already out, and Hipstamatic was coming out and it had some fun things going on, right?
 
-**Sam Soffes:** \[00:24:00.06\] No, actually Hipstamatic was out -- they were one of the first photo apps on the store. They were app of the year the year before Instagram got app of the year. They have kind of always been around, and I'd seen it and I was kind of a fan, but their co-founder e-mailed me and said "Hey, I saw this tutorial in your blog post. Thanks so much, we're using this in Hipstamatic. Do you wanna meet up?" and I was like "Sure." Then they were like, "Well, we want you to come on and lead this new product and work here." I was like, "Oh, well that sounds fun!", so I took it.
+**Sam Soffes:** \[00:24:00.06\] No, actually Hipstamatic was out -- they were one of the first photo apps on the store. They were app of the year the year before Instagram got app of the year. They have kind of always been around, and I'd seen it and I was kind of a fan, but their co-founder emailed me and said "Hey, I saw this tutorial in your blog post. Thanks so much, we're using this in Hipstamatic. Do you wanna meet up?" and I was like "Sure." Then they were like, "Well, we want you to come on and lead this new product and work here." I was like, "Oh, well that sounds fun!", so I took it.
 
 I mean, it was kind of a long back and forth, and it was like several months later after meeting them that I actually went to work there. And I was actually a contractor first, because I was like, "Well, I just left Scribd, and it's like I don't really wanna work for anyone else again", and then I was like, "Well, okay. I kind of like really wanna lead this product." As a contractor, it's hard to have ownership of the project when you're kind of just like told what to do as a contractor.
 
@@ -214,7 +214,7 @@ I don't know, I had hoped to make a bigger impact, but I feel like I didn't real
 
 **Sam Soffes:** Yeah. I don't know...
 
-**Adam Stacoviak:** Maybe we could even go a little further back in the past, I'm just kind of curious about this piece... Not so much to dig up sad memories and stuff like that, but even with the Bible app - that's something that's substantial. I get the e-mails from them, I think it's used by 15 million people, or something like that. You were a part of the early days of that app going out, but even when it did release the first day -- it's a story that maybe you can kick off in a better way, but even when that released its first day, you couldn't really fully enjoy it.
+**Adam Stacoviak:** Maybe we could even go a little further back in the past, I'm just kind of curious about this piece... Not so much to dig up sad memories and stuff like that, but even with the Bible app - that's something that's substantial. I get the emails from them, I think it's used by 15 million people, or something like that. You were a part of the early days of that app going out, but even when it did release the first day -- it's a story that maybe you can kick off in a better way, but even when that released its first day, you couldn't really fully enjoy it.
 
 **Sam Soffes:** Yeah, well -- so I moved from Kentucky to Oklahoma in December of (gosh...) '07. At the time I had just got engaged to the girl I was dating through high school, and we were supposed to get married in June or July of '08. And I chose to move, and already enrolled in school and everything in Oklahoma, the city I was working in... But then she kind of changed her mind shortly before, and decided she didn't wanna do that, which was devastating. So for a while -- especially in that four-year period, I was single the whole time. I don't know, I thought a lot about that, because I was just like at home in my apartment, not doing anything... It was like, "Well, I'd rather just like be married than be successful at what I'm doing." I mean, relatively successful I guess, I don't know.
 
@@ -320,7 +320,7 @@ Here's one topic I wanted to talk to you about, just because of your passion wit
 
 The part he's open-sourcing is the tools and stuff to work with RubyMotion, which is like a really great place for people to contribute. It's something I've been thinking a lot about lately, because I've been considering open-sourcing most of my current project, and there's a lot of pros and cons; I'm trying to figure out what I'm gonna do, but... I don't know, I'm not like "If you're not open-sourcing it, you're bad", and I'm not even overly excited if you are. I think it depends on the different cases, I don't know.
 
-**Adam Stacoviak:** Well, you have to have some sort of motivation. It sounded like you had some desires and motivation to open-source... Your current project is Cheddar, so you're talking about open-sourcing the forthcoming Mac app, the forthcoming -- or not forthcoming because it already came out a week ago, right? The iOS app, officially. It's been in beta for some people through TestFlight and stuff. 
+**Adam Stacoviak:** Well, you have to have some sort of motivation. It sounded like you had some desires and motivation to open-source... Your current project is Cheddar, so you're talking about open-sourcing the forthcoming Mac app, the forthcoming -- or not forthcoming because it already came out a week ago, right? The iOS app, officially. It's been in beta for some people through TestFlight and stuff.
 
 **Sam Soffes:** Yeah, like two weeks ago tomorrow.
 
@@ -354,11 +354,11 @@ And another thing -- Twitter is a great example, because how many Twitter client
 
 You almost moved from what you're building now to somewhere else, and it's kind of a touchy subject maybe, but... You know, that company just recently got some awesome funding, and they're a good company, we all respect them of course, but I'll leave it to you to tee that one off.
 
-**Sam Soffes:** Yes, so I was having dinner with a friend, and I was just telling him how much I loved doing my own thing and how great it is, and I was like "I don't want another job ever again. This is great!" and he's like "Well, what if GitHub e-mails you?" I was like, "Well, I don't know. That's like the best job in the world." I'd probably have to -- I'd definitely talk to them. I don't know. I was like, "Oh, I don't even know."
+**Sam Soffes:** Yes, so I was having dinner with a friend, and I was just telling him how much I loved doing my own thing and how great it is, and I was like "I don't want another job ever again. This is great!" and he's like "Well, what if GitHub emails you?" I was like, "Well, I don't know. That's like the best job in the world." I'd probably have to -- I'd definitely talk to them. I don't know. I was like, "Oh, I don't even know."
 
 **Adam Stacoviak:** You were kind of giddy, right?
 
-**Sam Soffes:** Yeah. And then literally the next day the CEO e-mails me. He was like, "Hey, you should come work at GitHub. I almost didn't e-mail you, because you're bootstrapping and I really respect that, but you should come work at GitHub." I was like, "Oh, man... Really? What are the odds?"
+**Sam Soffes:** Yeah. And then literally the next day the CEO emails me. He was like, "Hey, you should come work at GitHub. I almost didn't email you, because you're bootstrapping and I really respect that, but you should come work at GitHub." I was like, "Oh, man... Really? What are the odds?"
 
 So anyway, we talked for a while, and they ended up making me an offer and I actually accepted the offer. Then as I was thinking about it, "Oh, I'm gonna work at GitHub in two weeks. This is gonna be great!" Because I told them I wanted to get two weeks at Nothing Magical so I could finish Cheddar; I thought that was kind of funny, giving myself two weeks, but...
 
@@ -366,7 +366,7 @@ As I was thinking about it more and more, I was like "Well, this will be great, 
 
 **Adam Stacoviak:** I bet.
 
-**Sam Soffes:** They're doing really cool things. And that's what was so hard, because these are the best people in the world working on this. I would have been working with some just amazing people. So eventually, I had to e-mail them and I was like, "Actually, I'm going to have to decline the offer after all."
+**Sam Soffes:** They're doing really cool things. And that's what was so hard, because these are the best people in the world working on this. I would have been working with some just amazing people. So eventually, I had to email them and I was like, "Actually, I'm going to have to decline the offer after all."
 
 **Adam Stacoviak:** So you actually accepted the offer.
 
@@ -400,7 +400,7 @@ That was a really tough decision, because as an engineer, GitHub is the best pla
 
 **Adam Stacoviak:** Right, think about it. Make a wise decision.
 
-**Sam Soffes:** \[00:59:52.01\] But you can get a job anywhere. Surely you'll get tons of recruiter e-mails, most of which are probably terrible, but... Everyone is hiring. I know two companies right now that would hire an iOS engineer today if I were to send them an e-mail with like "Hey, I know someone looking for work." Everyone's hiring, and that said, don't just jump from job to job. I think that's the bigger thing I've learned. I've had a lot of other great opportunities before GitHub, even while at Hipstamatic, and I was like, "Well, I don't hate working at Hipstamatic... I'm just gonna switch jobs, and start again and be really happy about it for a couple of months" and then like "Okay, well, I'm out of job again. Something else will come along and I'll move jobs..." That's pointless, besides having a lot on my resume.
+**Sam Soffes:** \[00:59:52.01\] But you can get a job anywhere. Surely you'll get tons of recruiter emails, most of which are probably terrible, but... Everyone is hiring. I know two companies right now that would hire an iOS engineer today if I were to send them an email with like "Hey, I know someone looking for work." Everyone's hiring, and that said, don't just jump from job to job. I think that's the bigger thing I've learned. I've had a lot of other great opportunities before GitHub, even while at Hipstamatic, and I was like, "Well, I don't hate working at Hipstamatic... I'm just gonna switch jobs, and start again and be really happy about it for a couple of months" and then like "Okay, well, I'm out of job again. Something else will come along and I'll move jobs..." That's pointless, besides having a lot on my resume.
 
 **Adam Stacoviak:** Yeah, actually if I was interviewing you for a job today, I would say "Why all the change?" But you even said it yourself though, Sam... You said that you almost took it with the plan to just come right back to where you're at now, and it just seemed insane to do that... Because you've done that before. The definition of insanity is to keep doing the same thing over and over and over and expecting a different result, but you've done this song and dance before.
 
@@ -556,7 +556,7 @@ Speaking of upgrade screens and just different pieces of it, I wouldn't mind if 
 
 **Sam Soffes:** Sure. It's funny, I started writing a blog post called "From nothing to shipping in 0 to 90 days" or something like that (I don't know, it had a cool title), trying to list everything I've learned, and then I started to proofread it and I was like, "I'm tired of reading this." I need to do a series of posts or something...
 
-It's funny that now I get way more excited about things other than programming. I mean, obviously that's still a really good time, but how can I price this so it will be as successful as possible? Or marketing, or the design, or pitching writers... I always get up and start my day answering all my support e-mail laying in bed, and that's really fantastic, to connect with all my users and help them if they have problems... Which is less fun, but hearing feedback and how I can make things better is great, but... I'm trying to think of --
+It's funny that now I get way more excited about things other than programming. I mean, obviously that's still a really good time, but how can I price this so it will be as successful as possible? Or marketing, or the design, or pitching writers... I always get up and start my day answering all my support email laying in bed, and that's really fantastic, to connect with all my users and help them if they have problems... Which is less fun, but hearing feedback and how I can make things better is great, but... I'm trying to think of --
 
 **Adam Stacoviak:** Well, if you need some help, I can help you out.
 
@@ -578,7 +578,7 @@ And then charging money - that's a big, huge, important point... And you know, y
 
 **Sam Soffes:** I do work a lot, but... You know, I was thinking about this today, someone was saying "You shipped the API yesterday, you're working on a Mac app today..." Like, yeah, I do work a lot, and for a long time, especially in the first month, I would get up, walk to my desk, and then stay there until like 2 AM and go to bed. But it doesn't even seem like work, this is just what I wanna do. I get up and I'm excited to go work on stuff. If it was the weekend and I'm sitting home, that's what I'm gonna do anyway, because it's fun.
 
-But yeah, I mean, it's exciting to see the result of this, and to look back and -- because when I started, I didn't... I mean, I still don't know what I'm doing. I just e-mailed a bunch of press people and I was like "Hey, do you wanna write about my thing I made?" I don't know how to pitch a press person, or any of that kind of thing.
+But yeah, I mean, it's exciting to see the result of this, and to look back and -- because when I started, I didn't... I mean, I still don't know what I'm doing. I just emailed a bunch of press people and I was like "Hey, do you wanna write about my thing I made?" I don't know how to pitch a press person, or any of that kind of thing.
 
 I'm a big fan of the 37signals way of doing things, I guess. Their biggest thing is you should charge for something if you're doing a business, and that was from the beginning like "Okay, I know I wanna do that, and I know I want people to use it." As a user, this is what I want, so this is how I made things, and people seem to like it, so I guess it worked out alright.
 
@@ -612,7 +612,7 @@ Actually, let's share something that might be -- I guess it would be super secre
 
 With the push stuff, kind of the next thought after using it for a couple minutes is wouldn't it be great if other people could use this at the same time and I could see their stuff as quickly as I can see my own stuff? And that's definitely on my list. So I plan on having that. The pricing will be a little different, and there will be pricing for teams...
 
-I don't know, kind of my thought is, like, everyone uses Basecamp, but no one uses Basecamp, they just have it. It always ends up being Reply All e-mail and pieces of paper, like to-do lists when it comes \[unintelligible 01:31:41.13\] project. No one uses Basecamp, and I think it's because entering stuff is annoying, and there's so much other cumbersome stuff. I think Cheddar is simple enough where it will work well for sharing a punch list of things to get done to ship their product. I don't wanna compete with e-mail right now, that's not on my list, but...
+I don't know, kind of my thought is, like, everyone uses Basecamp, but no one uses Basecamp, they just have it. It always ends up being Reply All email and pieces of paper, like to-do lists when it comes \[unintelligible 01:31:41.13\] project. No one uses Basecamp, and I think it's because entering stuff is annoying, and there's so much other cumbersome stuff. I think Cheddar is simple enough where it will work well for sharing a punch list of things to get done to ship their product. I don't wanna compete with email right now, that's not on my list, but...
 
 \[01:32:06.25\] Yeah, I'm really excited about seeing how first just like small teams, and seeing just how it works... I don't know. So yeah, I haven't announced that at all, but as soon as a couple things on my list are done, then that's what I'm gonna be working on full-time.
 

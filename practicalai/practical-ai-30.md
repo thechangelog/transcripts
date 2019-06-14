@@ -84,7 +84,7 @@ I believed in what it used to be when I was growing up, and I couldn't see all t
 
 **Chris Benson:** As you're doing these workshops, what specific languages, what tools and frameworks are you applying? It sounds like most ladies that are entering your program are seeing it for the first time, or are relatively new to computer science in general. There's so many languages, there's so many different tools out there - what have you chosen to use in this process and why have you made the selections that you have?
 
-**Marta Martinez-Cámara:** From 12 to 15 we use Python, because I think it's one of the most human coding languages. It's very intuitive to use... And the tools that we use are Colaboratory Google notebooks. It's a notebook, and also they are online, so they don't need to install anything; it's already there on the cloud, they just need an e-mail address and that's it. It's very easy for us. We don't need to spend time setting up computers, and everything. And also, everything is open source, no licenses, nothing.
+**Marta Martinez-Cámara:** From 12 to 15 we use Python, because I think it's one of the most human coding languages. It's very intuitive to use... And the tools that we use are Colaboratory Google notebooks. It's a notebook, and also they are online, so they don't need to install anything; it's already there on the cloud, they just need an email address and that's it. It's very easy for us. We don't need to spend time setting up computers, and everything. And also, everything is open source, no licenses, nothing.
 
 And when we work with 9 to 12-year-olds, we use Scratch, with Blocks. Again, it's coming from the MIT, from a university, it's open source, everything is online, we don't need to install anything, so it's just easy. So we just ask them to bring their laptop, because now everyone has a laptop at home. So they bring their laptops, and also an advantage of that is they go home and they can keep working on that. They don't need extra robots, or things. They can keep using it, and this is also very important for us. That's why we made this decision of keeping it as simple as possible for them.
 
@@ -102,7 +102,7 @@ Parents write to us a bit desperately "Where can I take my son/daughter now? How
 
 **Miranda Kreković:** Well, it started only with Marta and me, but then as soon as we talked about our idea to our colleagues in the lab, already two or three people just jumped in and they wanted to help. At the first workshop we were about maybe four or five. And also, here in Switzerland it's a particular problem with languages, so most of our colleagues are foreigners and they don't speak French perfectly... But then girls are also just amazing; at the age of ten they speak three or four languages. So that was not the problem, but it was nice to have mentors who speak also multiple languages, so that we can adapt during the workshop.
 
-So more and more mentors are joining us, talking to their friends and to their colleagues. Then we created a website, we put a form - if you want to help and volunteer, sign up here. We kept receiving e-mails. Each time we organize a workshop at bigger events such as Applied Machine Learning Days, we meet people "Oh, I saw you're involved in girls coding. I want to help. How can I help? Tell me what to do."
+So more and more mentors are joining us, talking to their friends and to their colleagues. Then we created a website, we put a form - if you want to help and volunteer, sign up here. We kept receiving emails. Each time we organize a workshop at bigger events such as Applied Machine Learning Days, we meet people "Oh, I saw you're involved in girls coding. I want to help. How can I help? Tell me what to do."
 
 We didn't go there and said "Okay, we need people." Suddenly, it just happened, and all these friends and colleagues, and friends of friends of friends were writing to us and joined. At the last event we were about 30 mentors only at the event, and we had about 30 girls and 30 mentors... But in total, we are more than 50, I think, if we count all the mentors who ever participated at the workshop.
 
@@ -158,7 +158,7 @@ So it's really great, from my perspective, to hear two stories of success, and g
 
 I guess as we finish up here, as people out there wanna reach out to you and make contact, how would you like people to do that? Could you let us know how listeners can reach out to you?
 
-**Marta Martinez-Cámara:** Yeah, I think the best thing would be if they send us an e-mail. Our e-mails are marta@girlscoding.org, and miranda@girlscoding.org.
+**Marta Martinez-Cámara:** Yeah, I think the best thing would be if they send us an email. Our emails are marta@girlscoding.org, and miranda@girlscoding.org.
 
 **Chris Benson:** And just to make sure spelling is good, we will include those in the show notes, so that people can make sure they get the spelling right. I hope people will go to GirlsCoding.org and take a look at the website/program.
 

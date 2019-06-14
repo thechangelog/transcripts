@@ -12,7 +12,7 @@ We have three sponsors today: Toptal, Linode and ElixirConf.
 
 **Guillermo Rauch:** Thank you, I'm excited to be here.
 
-**Adam Stacoviak:** I actually can rewind a little bit... We didn't talk about this in the pre-call, so this is sort of a curve ball to you... But we've talked over the years, I believe in direct messages or e-mail at some point, and we had planned to get you on The Changelog, but we just never pulled the trigger. I wonder why. Do you know why?
+**Adam Stacoviak:** I actually can rewind a little bit... We didn't talk about this in the pre-call, so this is sort of a curve ball to you... But we've talked over the years, I believe in direct messages or email at some point, and we had planned to get you on The Changelog, but we just never pulled the trigger. I wonder why. Do you know why?
 
 **Guillermo Rauch:** Well, I think in the very beginning of the show, if I remember correctly, it was around the time that Node was on Hacker News every single day, top of the mind for everyone, and we were at LearnBoost at the time, releasing a ton of open source projects. We were probably both really busy, but I know for a fact that... I've been following the blog and this show for a long time, and it's also been great to have gone to your message now and be able to sort of do a recap of everything that's been going on - our evolution, how we look at these open source projects, what have we learned... I'm excited to finally do it.
 
@@ -84,9 +84,9 @@ And then - I'm like 11 or 12 at this point, and all I wanted to do is play games
 
 The twist of the knob that I've found was I got obsessed with emulating games on Linux. I spent huge amounts of time optimizing my system to run Wine, to do dual booting, to do full-blown virtualization for running games, finding what were the right configurations for getting the best framerates and what are the patches that you need to apply to Wine to make that. So I remember at the time it was this proprietary fork of Wine - I'm blanking on the name - that I would always try...
 
-That also was a really cool thing, because at the end of the day I wouldn't even play the game so much, I was just obsessed with getting them started and analyzing the framerate and then going back to debugging. Then that lead me to another huge can of worms which is recompiling the kernel. My mom probably heard that phrase a million times, and she would always laugh, because she would ask like, "Well, I need to send an e-mail" or "I need to quickly check this one website" and I would be like, "No, sorry. I'm recompiling the kernel." \[laughs\]
+That also was a really cool thing, because at the end of the day I wouldn't even play the game so much, I was just obsessed with getting them started and analyzing the framerate and then going back to debugging. Then that lead me to another huge can of worms which is recompiling the kernel. My mom probably heard that phrase a million times, and she would always laugh, because she would ask like, "Well, I need to send an email" or "I need to quickly check this one website" and I would be like, "No, sorry. I'm recompiling the kernel." \[laughs\]
 
-**Adam Stacoviak:** Sorry mom, you can't answer that e-mail... I'm kind of busy recompiling the kernel. That's cool.
+**Adam Stacoviak:** Sorry mom, you can't answer that email... I'm kind of busy recompiling the kernel. That's cool.
 
 **Guillermo Rauch:** \[laughs\] So she would see all these screens jumping text...
 

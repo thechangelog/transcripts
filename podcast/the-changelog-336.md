@@ -380,11 +380,11 @@ So we've seen it as well, again, with my previous hat on, as well as from Sylabs
 
 **Jerod Santo:** \[01:07:51.15\] So the takeaway here, developers out there in developer land, is hop on the Singularity repo, start contributing back significant things, and you'll end up with a job at Sylabs. \[laughter\]
 
-**Adam Stacoviak:** Expect an e-mail. Make sure you have your e-mail in the GitHub profile, so it makes it a little easier.
+**Adam Stacoviak:** Expect an email. Make sure you have your email in the GitHub profile, so it makes it a little easier.
 
 **Jerod Santo:** That's right. Yeah, exactly.
 
-**Gregory Kurtzer:** To get back to the question on a more serious note, we've had a lot of -- people join our Slack; both contributing to GitHub, as well as joining our Slack, being part of our mailing list - we have an extremely active and friendly e-mail list, and the same thing on the Slack side. It's a lot of very friendly people. Honestly, it's much just idle chat, and getting to know each other and having fun, as well as developing code and coming up with new and innovative ideas for doing really amazing things.
+**Gregory Kurtzer:** To get back to the question on a more serious note, we've had a lot of -- people join our Slack; both contributing to GitHub, as well as joining our Slack, being part of our mailing list - we have an extremely active and friendly email list, and the same thing on the Slack side. It's a lot of very friendly people. Honestly, it's much just idle chat, and getting to know each other and having fun, as well as developing code and coming up with new and innovative ideas for doing really amazing things.
 
 We have a lot of people that are involved with the process. In terms of GitHub, the last -- actually, I don't even wanna quote a number, because I don't remember, but I think it was... It's not a huge project when you compare it to something like Kubernetes and whatnot, but we have about 1,000 stars... Now it's making me wanna look. I think it's like 1,000 stars, and I think it's under 100 contributors, but it's a good amount. We're all very appreciative of everybody who wants to join the community. And again, someone doesn't have to be a developer to join. As a matter of fact, we encourage non-developers as well, because the amount of benefit in terms of feedback, in terms of just looking at things, being part of this, helping potentially with documentation, even just pointing out bugs, pointing out issues that they're finding, or being a conduit for reaching other people is so valuable, is so helpful. So we are very receptive of that.
 

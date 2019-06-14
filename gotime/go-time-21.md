@@ -38,7 +38,7 @@ In fact, my colleague at the time - he's also an OG - Keith Rarick and I really 
 
 **Blake Mizerany:** Right, yeah. I was working on a small project at Heroku at the time when I really started to use Go, and one thing I noticed was that we needed some sort of a service discovery and we needed some configuration management, so Keith and I picked up the Chubby paper that Google had put out, and we worked on implementing our own multi-Paxos implementation, since the only one that was really out there at the time was Zookeeper; in fact, I think that was the only one that was open-sourced. Well, no, there were others, I think... A couple out of Berkeley, but we immediately looked at the design of Paxos and Go's concurrency and how it all just seemed to meld together really well.
 
-We were able to crank out a basic multi-Paxos implementation relatively quickly. I remember after we did that I immediately reached out to Rob Pike, sent him an e-mail and said "Hey, we built a multi-Paxos implementation in Go. We'd love it if you'd come take a look, let us know what you think." So he came by -- I don't know where I'm going with this; I think I'm more excited about the fact that Rob showed up when I e-mailed him. \[laughter\]
+We were able to crank out a basic multi-Paxos implementation relatively quickly. I remember after we did that I immediately reached out to Rob Pike, sent him an email and said "Hey, we built a multi-Paxos implementation in Go. We'd love it if you'd come take a look, let us know what you think." So he came by -- I don't know where I'm going with this; I think I'm more excited about the fact that Rob showed up when I emailed him. \[laughter\]
 
 That really spoke to the power of the language. You can work on some pretty hard problems in it and come up with some reasonably simple solutions. The language really allows for that.
 
@@ -154,7 +154,7 @@ And like you said, I think your point is so good, because it ends up not being t
 
 **Brian Ketelsen:** If you're subscribed to Changelog Weekly, you'll see it at the top of the coolest GitHub repository list. Oh, that's the Changelog Nightly... Never mind. That's my trigger to go to bed, did I ever mention that? Changelog Nightly comes out at midnight every night, and I'm like "Oh shoot, it's time to go to bed." \[laughs\]
 
-**Erik St. Martin:** \[00:23:56.13\] See, I get all these newsletters and there's always cool things in there and I don't have time, so I'll typically have multiple browser windows open, which are kind of like context, work and non-work, and the non-work one is always full of all the tabs that come from these e-mails and Twitter, and people sending me direct links. And they hang out there, there'll be 30 tabs, and then I'll look at two or three of them and eventually I abandon the rest, because they've been hanging out there too long. I just leave Brian to curate it for me. He tells me what the good stuff is.
+**Erik St. Martin:** \[00:23:56.13\] See, I get all these newsletters and there's always cool things in there and I don't have time, so I'll typically have multiple browser windows open, which are kind of like context, work and non-work, and the non-work one is always full of all the tabs that come from these emails and Twitter, and people sending me direct links. And they hang out there, there'll be 30 tabs, and then I'll look at two or three of them and eventually I abandon the rest, because they've been hanging out there too long. I just leave Brian to curate it for me. He tells me what the good stuff is.
 
 **Brian Ketelsen:** Well, that's a problem... I've been so busy lately I haven't even looked at most of the good stuff. I have a giant list of things that look interesting to touch, and I haven't played with them at all, which makes me sad. Although I did do something pretty cool this week that's kind of funded. If you follow me on Twitter, you'd have seen it. I embedded a term.js terminal inside Go's present tool, and hacked up the present tool to understand a syntax to open and create and attach to a Docker container, so that you could have a live terminal embedded in your presentation. That was probably the most fun hack I've done in months and months. It was so cool.
 
@@ -466,7 +466,7 @@ We should put in the show notes links to people's Twitter handles so everybody c
 
 **Brian Ketelsen:** You were congratulating the panel and thanking the listeners.
 
-**Erik St. Martin:** Yes, and if you have not subscribed already, gotime.fm, you can subscribe. Eventually, we're going to get a weekly e-mail going out, so make sure to sign up there, follow us on Twitter if you're not, we're @GoTimeFM. If you want to be on the show or have suggestions for topics or guests, please submit an issue on our GitHub repository, which is GitHub.com/GoTimeFM/ping, and I think that is it. Thanks again, everybody.
+**Erik St. Martin:** Yes, and if you have not subscribed already, gotime.fm, you can subscribe. Eventually, we're going to get a weekly email going out, so make sure to sign up there, follow us on Twitter if you're not, we're @GoTimeFM. If you want to be on the show or have suggestions for topics or guests, please submit an issue on our GitHub repository, which is GitHub.com/GoTimeFM/ping, and I think that is it. Thanks again, everybody.
 
 **Brian Ketelsen:** Thank you.
 

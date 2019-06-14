@@ -44,7 +44,7 @@ There's definitely some bias there, but the bias is universally, across all grou
 
 **Kevin Ball:** \[00:08:23.01\] Right. The survey is anonymous?
 
-**Laurie Voss:** The survey is optionally nominated. One of the things that we wanted to do when we were doing the survey is share the data with everybody, but unfortunately, as a result of not strictly saying this should be anonymous, people put a ton of really important personal information into their survey responses, so it made it very hard to put out into the world. We had to put out aggregate results only, because people kept typing their e-mail addresses and snippets of code into our survey boxes... We can't give that away, that's not safe.
+**Laurie Voss:** The survey is optionally nominated. One of the things that we wanted to do when we were doing the survey is share the data with everybody, but unfortunately, as a result of not strictly saying this should be anonymous, people put a ton of really important personal information into their survey responses, so it made it very hard to put out into the world. We had to put out aggregate results only, because people kept typing their email addresses and snippets of code into our survey boxes... We can't give that away, that's not safe.
 
 **Nick Nisi:** What does the survey tell you about the language itself?
 
@@ -192,7 +192,7 @@ There's people who are like, "Oh, if you don't understand pointer math, you don'
 
 **Kevin Ball:** Yeah, I think getting to where you can build something that is cool - and that threshold has changed over time; it's like "What is something cool?" But the faster you can get somebody there, the more likely they are to actually stick, and keep doing development.
 
-**Laurie Voss:** Right. That's the joy of the web as a platform, right? It's like, you start programming, and the same day you've got a thing. You've got buttons you can click, and stuff happens, and a line appears on the screen... And that doesn't happen with any other programming language. Programming languages that are not the web, you're like "Well, I worked all day, and if you run this command, it spits out the phrase Hello, world." Right? But on your first day as a web developer, you're like "I built a whole app. It's done. It's sending e-mails to people. People are getting genuine value out of this." The web has so much more power, and it's so much more satisfying as a platform...
+**Laurie Voss:** Right. That's the joy of the web as a platform, right? It's like, you start programming, and the same day you've got a thing. You've got buttons you can click, and stuff happens, and a line appears on the screen... And that doesn't happen with any other programming language. Programming languages that are not the web, you're like "Well, I worked all day, and if you run this command, it spits out the phrase Hello, world." Right? But on your first day as a web developer, you're like "I built a whole app. It's done. It's sending emails to people. People are getting genuine value out of this." The web has so much more power, and it's so much more satisfying as a platform...
 
 **Nick Nisi:** Yeah.
 

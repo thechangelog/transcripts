@@ -88,7 +88,7 @@ One of the most notable ones, just because of how far they've come and how well 
 
 **Chris Benson:** Okay.
 
-**Shohini Ghose:** ...although, of course, it's very dangerous to ever make predictions about technology, because we never, ever get it right; that's the only prediction I can make for certain, that I will be wrong... But that being said, currently I don't see any evidence that we are going to have desktops or laptops that are quantum computer-based, because -- for one thing, we don't need them. It's a bit of an overkill to use a quantum computer to do e-mails, for example. You're never, ever going to need that. That's not what quantum computing technology is all about.
+**Shohini Ghose:** ...although, of course, it's very dangerous to ever make predictions about technology, because we never, ever get it right; that's the only prediction I can make for certain, that I will be wrong... But that being said, currently I don't see any evidence that we are going to have desktops or laptops that are quantum computer-based, because -- for one thing, we don't need them. It's a bit of an overkill to use a quantum computer to do emails, for example. You're never, ever going to need that. That's not what quantum computing technology is all about.
 
 **Daniel Whitenack:** I don't know, I think I might need one to run all my Chrome tabs...
 

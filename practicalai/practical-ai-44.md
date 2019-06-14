@@ -238,7 +238,7 @@ If listeners wanna reach out to you, how can they access you? Are you out on soc
 
 **Chris Benson:** That's a hard one.
 
-**Ben Lorica:** And then if you wanna reach me on e-mail, I have an impossibly hard to remember e-mail address - datascientist@gmail.com.
+**Ben Lorica:** And then if you wanna reach me on email, I have an impossibly hard to remember email address - datascientist@gmail.com.
 
 **Chris Benson:** Those are two fantastic handles there. Thank you very much, and I'll let you get back to the conference.
 

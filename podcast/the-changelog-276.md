@@ -88,7 +88,7 @@ So then other kinds of advantages are the fact that coming into CNCF implies an 
 
 We have full-time press and analyst relations teams... And then, definitely an advantage is the fact that we do have some cash available that we're very interested in investing in these projects. So we're doing some things like a security audit of Envoy, or investing in documentation around rkt, or just even small things like they don't like their logo, or just sort of keeping all that material, and things like running a robot that maintains a contributor license agreement.
 
-So overall, I'd just say that we have a full-time staff that is eager to assist these projects. The maintainers tend to be extremely busy people; it's not the case that they're just e-mailing us 20 times a day asking for random things, but we do have a set of services that we provide, and it's not in any way complete/comprehensive, if there's other things that projects want help with.
+So overall, I'd just say that we have a full-time staff that is eager to assist these projects. The maintainers tend to be extremely busy people; it's not the case that they're just emailing us 20 times a day asking for random things, but we do have a set of services that we provide, and it's not in any way complete/comprehensive, if there's other things that projects want help with.
 
 \[00:28:06.08\] Some of our projects have just asked for advice on things like governance, or legal issues, or trademark, or others - we're there to help them out.
 

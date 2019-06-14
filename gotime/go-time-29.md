@@ -277,7 +277,7 @@ I've asked for a bit commit on several repos in the past that have gotten nowher
 
 **Carlisia Pinto:** Wow, you're smart. \[laughter\]
 
-**Erik St. Martin:** So I also have to interject... I just saw an e-mail come through, and the last early bird ticket for GopherCon is officially gone.
+**Erik St. Martin:** So I also have to interject... I just saw an email come through, and the last early bird ticket for GopherCon is officially gone.
 
 **Brian Ketelsen:** Nice!
 
@@ -768,7 +768,7 @@ He's the program chair for GopherCon - the great programs that we have at the co
 
 **Mark Bates:** Exactly.
 
-**Erik St. Martin:** "Shut it down!" So we should probably end the madness... Definitely thanks to everybody who's on the show. Thank you, Mark, for coming on the show. Thank you to everybody who's listening live and will be listening to this when the recording has released. If you aren't currently, we are at GoTime.fm, we are @GoTimeFM on Twitter, and there is also a GoTime FM Slack channel. If you subscribe, we will have a weekly e-mail starting up sometimes. If you wanna be on the show or have suggestions for people on the show, github.com/gotimefm/ping.
+**Erik St. Martin:** "Shut it down!" So we should probably end the madness... Definitely thanks to everybody who's on the show. Thank you, Mark, for coming on the show. Thank you to everybody who's listening live and will be listening to this when the recording has released. If you aren't currently, we are at GoTime.fm, we are @GoTimeFM on Twitter, and there is also a GoTime FM Slack channel. If you subscribe, we will have a weekly email starting up sometimes. If you wanna be on the show or have suggestions for people on the show, github.com/gotimefm/ping.
 
 Huge shout out to our sponsor StackImpact for sponsoring the show, and with that, bye everybody!
 

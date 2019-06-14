@@ -54,7 +54,7 @@ Jessie, you also have a new job, right?
 
 **Erik St. Martin:** Are you working with Kelsey and everybody, too?
 
-**Jessie Frazelle:** Yeah, Kelsey and them are all there, and Francesc - it's all super-cool people teams, and even in my first week I had multiple people e-mailing me who I had maybe only seen their names on like a kernel mailing list. I'm like, "Wow, you're really cool." So they just have a ton of really cool people, I guess.
+**Jessie Frazelle:** Yeah, Kelsey and them are all there, and Francesc - it's all super-cool people teams, and even in my first week I had multiple people emailing me who I had maybe only seen their names on like a kernel mailing list. I'm like, "Wow, you're really cool." So they just have a ton of really cool people, I guess.
 
 **Erik St. Martin:** A little star struck?
 
@@ -258,7 +258,7 @@ I've seen this... I think you've talked about it maybe a year or so ago, and I k
 
 **Carlisia Pinto:** And where do people sign up for the event?
 
-**Jessie Frazelle:** We have a website, maintainerati.org, and right now it's just a form fill-out with e-mail addresses, and then I think we're gonna send out invites pretty soon, once I get my life together. \[laughs\]
+**Jessie Frazelle:** We have a website, maintainerati.org, and right now it's just a form fill-out with email addresses, and then I think we're gonna send out invites pretty soon, once I get my life together. \[laughs\]
 
 **Carlisia Pinto:** Cool.
 
@@ -584,7 +584,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Carlisia Pinto:** Yeah...
 
-**Brian Ketelsen:** That's funny, because I don't look forward to Changelog Weekly nearly as much as I look forward to Changelog Nightly, which I get almost midnight every night. That's when I know it's time to go to bed. I look at Changelog Nightly, which has a list of all of the bursting in interest things on GitHub; it kind of shows you the projects that are taking off on GitHub, and that's kind of a neat way to catch new and interesting projects. So the Changelog Nightly e-mail is my cue to go to bed. When I see that come through, I read it and then I go to bed.
+**Brian Ketelsen:** That's funny, because I don't look forward to Changelog Weekly nearly as much as I look forward to Changelog Nightly, which I get almost midnight every night. That's when I know it's time to go to bed. I look at Changelog Nightly, which has a list of all of the bursting in interest things on GitHub; it kind of shows you the projects that are taking off on GitHub, and that's kind of a neat way to catch new and interesting projects. So the Changelog Nightly email is my cue to go to bed. When I see that come through, I read it and then I go to bed.
 
 **Erik St. Martin:** Actually, I don't think I'm signed up for the Nightly one. The weekly one I am, but not the nightly. That's terrible. I mean, how can you be a co-host on the Changelog podcast and not actually be subscribed to all of that stuff?
 
@@ -592,7 +592,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** Right? Next week it will just be Brian and Carlisia. \[laughter\]
 
-**Brian Ketelsen:** Yeah, I don't know how you can subscribe to those things. I suspect that if you went to Changelog.com and started clicking on buttons, you could find an e-mail subscription for them there, but they're both well worth it.
+**Brian Ketelsen:** Yeah, I don't know how you can subscribe to those things. I suspect that if you went to Changelog.com and started clicking on buttons, you could find an email subscription for them there, but they're both well worth it.
 
 **Erik St. Martin:** Nobody needs us. Somebody's about to drop them in the channel.
 

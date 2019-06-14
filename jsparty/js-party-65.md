@@ -20,7 +20,7 @@
 
 **Jerod Santo:** It might be a full stack party. Adam, first of all - Wathan - tell us about Full Stack Radio, that show that you do.
 
-**Adam Wathan:** Yeah, sure. Full Stack Radio is a podcast that I started back in 2014, mostly just as an excuse to ask really smart people questions that I wanted answers to... And I figured, if I just e-mail someone and say "Hey, can I harass you over Skype for an hour and bug you with questions?" they'd probably say no, but if I said, "Hey, do you wanna be a guest on my podcast?", there's a better than zero chance that they would say yes.
+**Adam Wathan:** Yeah, sure. Full Stack Radio is a podcast that I started back in 2014, mostly just as an excuse to ask really smart people questions that I wanted answers to... And I figured, if I just email someone and say "Hey, can I harass you over Skype for an hour and bug you with questions?" they'd probably say no, but if I said, "Hey, do you wanna be a guest on my podcast?", there's a better than zero chance that they would say yes.
 
 So yeah, I've been doing that for a handful of years now, and I still put on an episode every two weeks. I talk to people in the software industry about everything from product design, and marketing, to unit testing, to system administration, to front-end, to back-end, whatever. Kind of all over the place. So that's been pretty fun, it's been a great way for me to sort of quickly learn new things and find out how people who are experts in different areas tackle the problems that I run into when I'm trying to learn new stuff.
 

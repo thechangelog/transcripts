@@ -390,7 +390,7 @@ Going back to the App Engine case, I think if you looked at other language suppo
 
 **Mat Ryer:** Yeah.
 
-**Jaana B. Dogan (JBD):** I think we sent out some e-mails, "Hey, if you're using a very old version of Go, please just migrate, or something...", because we wanted to stop supporting 1.6 a long time ago, but we couldn't, because there were so many users... And you know what happened, we introduced the context package and the old APIs got broken, and so on... And for a long time, Google had to support the context package coming from the Net package, just because we can't really break people. That was really annoying.
+**Jaana B. Dogan (JBD):** I think we sent out some emails, "Hey, if you're using a very old version of Go, please just migrate, or something...", because we wanted to stop supporting 1.6 a long time ago, but we couldn't, because there were so many users... And you know what happened, we introduced the context package and the old APIs got broken, and so on... And for a long time, Google had to support the context package coming from the Net package, just because we can't really break people. That was really annoying.
 
 **Mark Bates:** The switch from `x/context` to just `context` did really bite a lot of people.
 

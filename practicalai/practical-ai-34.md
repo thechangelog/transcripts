@@ -12,7 +12,7 @@ I'm joined by my co-host, Chris Benson, who is chief AI strategist with Lockheed
 
 **Chris Benson:** So how about you? What have you been up to?
 
-**Daniel Whitenack:** I came back from vacation recently, so catching up on all things e-mail, and message, and all of that, and finally digging into some projects again. I'm excited to get a little bit more hands-on this week.
+**Daniel Whitenack:** I came back from vacation recently, so catching up on all things email, and message, and all of that, and finally digging into some projects again. I'm excited to get a little bit more hands-on this week.
 
 **Chris Benson:** Excellent. Well, we've had a lot happening since our last episode out there, and I wanted to dive on into it. A lot of our listeners are probably already aware, but we're always talking about AI in the context of what different countries are doing, and what's happening in the private sector versus government and things like that, and recently on February 11th, 2019, the White House issued their executive order on maintaining American leadership in artificial intelligence... Which is significant, because many of us in the AI community and beyond had been waiting to hear if the U.S. was gonna have a national AI strategy issued from the top level. So it is out there, and today we're gonna talk about that.
 

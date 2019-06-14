@@ -100,7 +100,7 @@ Within 18F, we chat all day, we use Slack very heavily... I think we have hundre
 
 **Aidan Feldman:** Yeah, I think credit to Hillary and others that have been around since the beginning... When I came in, you sort of wouldn't notice that 18F weren't an actual startup in the private sector. Where you really start to feel it is in the projects and the bureaucracy that you have to go through for HR or other limitations on what you can or can't talk about, those kinds of things. At 18F I think we strive to make it feel like a startup where you wouldn't even notice that it's different in terms of tooling, culture, that kind of thing.
 
-**Adam Stacoviak:** Hillary, in one of your e-mails back to us you'd mentioned some details around why you're an open source team, and maybe even why open source is such a big deal to the government and maybe even 18F directly, and then all of those that hire you internally in the government to do some cool stuff.
+**Adam Stacoviak:** Hillary, in one of your emails back to us you'd mentioned some details around why you're an open source team, and maybe even why open source is such a big deal to the government and maybe even 18F directly, and then all of those that hire you internally in the government to do some cool stuff.
 
 \[00:16:04.06\] In your own words, what are some of the reasons why it's important to you? What is open source towards the government? What influence does it have for the government?
 
@@ -416,7 +416,7 @@ If there's anything else that either of you want to mention before we close out,
 
 **Adam Stacoviak:** That's a great way to close, Hillary, and you actually have a guide to back it up. There's an 18F open source style guide, which is essentially processed to name your project, making your repo descriptions clear, readme, documentation... So if anybody out there is listening, as Hillary just said, we're gonna link up in the show notes this open source style guide to kind of help you take that next step \[unintelligible 01:16:46.24\]
 
-And if you're in government and you're listening to this show, reach out to us. We wanna hear what you have to say about this project, and just in general your questions on open source. You can e-mail us at editors@changelog.com or hit us up on GitHub; we have an open inbox there called Ping, so if you go to GitHub.com/thechangelog/ping, submit an issue... We like to do that \[unintelligible 01:17:08.08\] because, Jerod, how cool is that? This show started as an open source or an open repo ping, and it's our open inbox...
+And if you're in government and you're listening to this show, reach out to us. We wanna hear what you have to say about this project, and just in general your questions on open source. You can email us at editors@changelog.com or hit us up on GitHub; we have an open inbox there called Ping, so if you go to GitHub.com/thechangelog/ping, submit an issue... We like to do that \[unintelligible 01:17:08.08\] because, Jerod, how cool is that? This show started as an open source or an open repo ping, and it's our open inbox...
 
 **Jerod Santo:** Right.
 

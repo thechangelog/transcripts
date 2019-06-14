@@ -54,7 +54,7 @@
 
 **Jerod Santo:** I'm like 'You pay, you have no life.' \[laughter\] He just goes to conferences, whatever you want.
 
-**Adam Stacoviak:** I mean, I just, we just can't go on a whim, but yes, Strange Loop - we'd love to be there. It's an awesome conference, and I wish we could go. Alex, if you're listening to this, e-mail us.
+**Adam Stacoviak:** I mean, I just, we just can't go on a whim, but yes, Strange Loop - we'd love to be there. It's an awesome conference, and I wish we could go. Alex, if you're listening to this, email us.
 
 **Pam Selle:** \[00:03:55.14\] Yeah, if Alex hears about it, or someone else in the team... But yeah, I mean, you might not be the first person that I've heard from that can be hard to get a hold of. They just have so much on their plate, and there are also a few other conferences that collocate with them... Racket, which is a Lisp - they collocate.
 

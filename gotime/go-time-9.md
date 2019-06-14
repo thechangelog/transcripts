@@ -334,7 +334,7 @@ I haven't used it, but anything that says "I'm 20 times faster" calls my attenti
 
 **Erik St. Martin:** I still can't remember what it was - I think it was a JSON Lint thing, or some kind of tool like that I had him install, and I didn't realize it was Node, and I'll never live it down.
 
-**Brian Ketelsen:** No, I actually sent him an e-mail and said, "Report to my office. You're fired." \[laughter\]
+**Brian Ketelsen:** No, I actually sent him an email and said, "Report to my office. You're fired." \[laughter\]
 
 **Erik St. Martin:** So Govender I like. I've been using that one recently. And that seems to be kind of almost the same thing, it just uses the vendor folder that already exists, and it kind of stuffs stuff in there. I kind of like that one. I don't hate it, I should say that. But I think you're right, we're still trying to get consensus as a community over what to use there.
 

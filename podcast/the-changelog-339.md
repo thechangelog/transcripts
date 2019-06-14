@@ -312,7 +312,7 @@ When I look back -- I don't know if you ever read "The Soul of a New Machine", t
 
 **Adam Barr:** Or they were kind enough not to tell me, I don't know.
 
-**Jerod Santo:** Auto-mailer when they delete your last line of code from the system, to send an e-mail off... "Your code has been deleted. It has been wiped from the system." That would be rude.
+**Jerod Santo:** Auto-mailer when they delete your last line of code from the system, to send an email off... "Your code has been deleted. It has been wiped from the system." That would be rude.
 
 **Adam Stacoviak:** So now that we're here at the tail end, remind us where the best place is to buy this book. If someone wants to go deeper than simply this conversation; this is an industry insider where you're explaining why there's so much bad software out there, and why Academia doesn't teach programmers what industry wants them to know. If they wanna dive deeper into this, where's the best place to buy this book?
 

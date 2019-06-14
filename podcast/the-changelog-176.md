@@ -236,7 +236,7 @@ The hard part for me, specifically with the speaking, was I applied to RailsConf
 
 **Saron Yitbarek:** Yeah, that's where it began. I saw a lot of people doing Twitter chats. And if you don't know what a Twitter chat is, it's when you pick a time - we do ours on Wednesdays at 9 PM Eastern time - and you pick a hashtag. Our hashtag is \#codenewbie, and we tweet questions for one hour, and anybody can answer. We have a system where we'll say "Q1 is what language are you coding?" and then you'd respond "A1", and that allows people to easily follow the conversation.
 
-We did that for a while, and when we started, I had absolutely zero plans to start a community, or a podcast, or team projects, or any of that. I just saw something that I thought was interesting, I saw something that I thought would help people, and so I just started tweeting. I e-mailed everyone that I knew and I said, "Hey, I'm starting this thing. You should totally jump in and join the chat. I'd love for you to tell your friends and tweet about it."
+We did that for a while, and when we started, I had absolutely zero plans to start a community, or a podcast, or team projects, or any of that. I just saw something that I thought was interesting, I saw something that I thought would help people, and so I just started tweeting. I emailed everyone that I knew and I said, "Hey, I'm starting this thing. You should totally jump in and join the chat. I'd love for you to tell your friends and tweet about it."
 
 \[00:28:06.01\] That's where it all started, and eventually it got to a point where it needed to really be its own thing, where people were using the hashtag outside of that one hour, and people would tweet us questions, and specifically would tweet questions using the hashtag, and we'd have conversations around the hashtag... So I thought it makes more sense for CodeNewbie to have its own Twitter account and be its own thing, and then we can talk about being a code newbie full-time, without it being directly tied to my account. That's what happened next.
 
@@ -250,7 +250,7 @@ I didn't necessarily think that I would be the one who started that community, b
 
 **Jerod Santo:** Yeah. But you had a voice. You had your conference talks to give you a voice, and then you were also a regular on Ruby Rogues. I think you were gone for a while, and you seem to be back now.
 
-**Saron Yitbarek:** Yeah, I got guilted into coming back. Avdi Grimm sent me an e-mail and he was like, "Yeah, I know you're really busy, but we really miss having you; it would be really good if you came back", and I said "Well, if Avdi asks, then you have to say yes."
+**Saron Yitbarek:** Yeah, I got guilted into coming back. Avdi Grimm sent me an email and he was like, "Yeah, I know you're really busy, but we really miss having you; it would be really good if you came back", and I said "Well, if Avdi asks, then you have to say yes."
 
 **Jerod Santo:** Right. You can't say no to Avdi.
 
@@ -296,7 +296,7 @@ The podcast setup process was really hard. I don't know how it was for you guys 
 
 Now that we have a process set up, it's fairly straightforward... But I think it was two weeks ago, he went to visit some family in Florida, so I had to do one of my interviews on my own... We usually run the server, and the upload, and all that stuff on his computer, and this time we had to do it on mine, so we had to redo all that setup on my computer... And there were just so many pieces. I'd forgotten how many pieces there were to get it to work.
 
-A lot of you will ask me "I'm looking to start my own podcast. What equipment do you use?", and I have this set e-mail that I'll just copy and send it out to people, and there are a lot of steps to it.
+A lot of you will ask me "I'm looking to start my own podcast. What equipment do you use?", and I have this set email that I'll just copy and send it out to people, and there are a lot of steps to it.
 
 So it was really hard, but I really wanted to do it, and I love just the excuse of getting to talk to so many incredible people from all over the world, doing really interesting things, and being able to just sit and ask questions. That's such a great job to have; you just sit and you're the one that knows the least, and everyone loves that. And getting to really ping people about their lives, it's awesome.
 
@@ -532,7 +532,7 @@ For us, U.S. timezones are obviously the easiest for me, the easiest for most of
 
 **Jerod Santo:** Can you tell us about your work at Microsoft?
 
-**Saron Yitbarek:** Sure. That role I got directly because of CodeNewbie. A person, Tom Black, who works at 18F in DC, had been keeping up with CodeNewbie and the work that I've done, and he found out about this position and he e-mailed me and said "Hey, I've seen the work that you've been doing for the coding community. There's a position where they're starting a bootcamp-style technical training program. It's four months, it's full-time, it's free, it's serving underemployed and unemployed New York City residents, which sounds very similar in spirit to what you're doing with CodeNewbie, so if you're interested, I'd be happy to recommend you." I looked at it and I said, "I cannot believe this is a job. I can't believe that the thing that I'm doing on the side is a job that I can get paid for and have the support of a really big tech company for it." So I was incredibly, incredibly excited to interview and to take that position.
+**Saron Yitbarek:** Sure. That role I got directly because of CodeNewbie. A person, Tom Black, who works at 18F in DC, had been keeping up with CodeNewbie and the work that I've done, and he found out about this position and he emailed me and said "Hey, I've seen the work that you've been doing for the coding community. There's a position where they're starting a bootcamp-style technical training program. It's four months, it's full-time, it's free, it's serving underemployed and unemployed New York City residents, which sounds very similar in spirit to what you're doing with CodeNewbie, so if you're interested, I'd be happy to recommend you." I looked at it and I said, "I cannot believe this is a job. I can't believe that the thing that I'm doing on the side is a job that I can get paid for and have the support of a really big tech company for it." So I was incredibly, incredibly excited to interview and to take that position.
 
 It's a four-month program, we're doing it in partnership with CUNY, which is the community college system in New York, and with the city government. I think it was a year ago the city government pledged ten million dollars to help in workforce training, and specifically to get our residents tech skills that were valuable and that would help them be employable, and to get good, high-paying, secure jobs. It was a 10-million-dollar fund called \[unintelligible 01:03:33.09\] and we were one of the projects in a portfolio of project who were working towards that mission. It's four months, it's full-time, it's free. We've been doing a lot of community work and community outreach with a lot of organizations who are working in a very similar space of reaching these members, and it's been really interesting to me, because my network is primarily in dev; it's in tech, but on the coding side of tech. And a lot of my network -- the networking that I do is online.
 
@@ -704,7 +704,7 @@ And Jerod, we launched something new ourselves recently, Beyond Code. Do you wan
 
 **Adam Stacoviak:** There's a mailing list there too, so if you wanna know when the new seasons get announced, go ahead and subscribe; we'll let you know. BeyondCode.tv.
 
-We also have a couple e-mails, as well - Changelog Weekly and Changelog Nightly - both respectively at changelog.com/weekly or changelog.com/nightly. Those are awesome e-mails. If you don't subscribe, we make sad faces, so you should subscribe. \[laughter\]
+We also have a couple emails, as well - Changelog Weekly and Changelog Nightly - both respectively at changelog.com/weekly or changelog.com/nightly. Those are awesome emails. If you don't subscribe, we make sad faces, so you should subscribe. \[laughter\]
 
 Saron, it's been such a blast to have you on the show. Thank you so much for joining us and just taking the time to share so much about what you're doing. We definitely wanna be an encourager of you and what you're doing in the community that you're building, so definitely stay in touch.
 

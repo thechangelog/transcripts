@@ -72,7 +72,7 @@
 
 **Jerod Santo:** Very cool. Let's get to Brave, because it's definitely the thing that we're all here for, and why we invited you on the show, and something that Adam and I have both been somewhat excited about, have both used this year, and have had our own experiences, either still using it or swapping back and forth between our preferred browsers and Brave... Of course, Brendan Eich, your co-founder, and very influential in Javascript and the web in general - we've had him on Request for Commits; definitely a bright spot of knowledge in our ecosystem, so a lot of attention there, as well... Tell us about the genesis. We like to hear the beginnings of things. Whose idea was this? Did Brendan sell it to you? Did you sell it to him? What did the original pitch sound like? Give us that genesis story.
 
-**Brian Bondy:** I don't know how far back I should go, but I was at Khan Academy at the time, working... I was there for about a year and a half, and I had always really wanted to get to Khan Academy, so I finally had got in; I was really loving working there. Then a Twitter message came in from Brendan, just saying "Please DM me." I wanted to DM him but he wasn't following me, so I couldn't... \[laughter\] I did have his e-mail, so I e-mailed him; I'm just kind of playing it cool, I'm like "What's up?" Meanwhile, I'm turning to my wife, who was next to me in bed - I was on my laptop at the time - and I'm like "Holy crap! Brendan Eich just messaged me to direct-message him. I don't know why."
+**Brian Bondy:** I don't know how far back I should go, but I was at Khan Academy at the time, working... I was there for about a year and a half, and I had always really wanted to get to Khan Academy, so I finally had got in; I was really loving working there. Then a Twitter message came in from Brendan, just saying "Please DM me." I wanted to DM him but he wasn't following me, so I couldn't... \[laughter\] I did have his email, so I emailed him; I'm just kind of playing it cool, I'm like "What's up?" Meanwhile, I'm turning to my wife, who was next to me in bed - I was on my laptop at the time - and I'm like "Holy crap! Brendan Eich just messaged me to direct-message him. I don't know why."
 
 Apparently, I'd made some list -- I had worked at Mozilla before with him, and I was delivering a lot of the features, I was in a lot of the blogs, and things like that. I had recently done a Metro style enabled browser from scratch for Firefox. That was a project that was canceled last-minute... So anyways, I delivered a lot of things, and I made some list of people that he wanted to contact to start something in the future... So yeah, we got to talking. This was late December 2014.
 
@@ -366,7 +366,7 @@ So from a web developer's perspective, Brian, does Brave use the same dev tools 
 
 **Jerod Santo:** Tell us how it works inside of the browser. There's a set of BAT-enabled websites, or can any website receive your BAT, and then how does it get divvied out? Kind of give the lay of the land of how as one user uses the web inside of Brave, what that means for different website publishers and for the user.
 
-**Brian Bondy:** Yeah, so any website at all on the web can get BAT sent to them. You can also sign up to be a publisher, and if you don't sign up to be a publisher, we'll automatically e-mail you after you reach a certain threshold.
+**Brian Bondy:** Yeah, so any website at all on the web can get BAT sent to them. You can also sign up to be a publisher, and if you don't sign up to be a publisher, we'll automatically email you after you reach a certain threshold.
 
 **Jerod Santo:** And then as a user, you give away some free BAT to play with, right? So I download Brave, and I get some BAT, something like 25 tokens, and as I'm browsing -- I can turn it on/turn it off, I can participate or not, but as I browse the web on Brave, is it based on how long I've been on certain websites for a given time period, it's divvied out? Is that how it works?
 
@@ -490,7 +490,7 @@ There's different types of things that you can do. We have browser ads -- and ag
 
 **Adam Stacoviak:** Gotcha.
 
-**Jerod Santo:** And because it's opt-in, but they're already collecting them for you... Like Brian says, you get an e-mail, "Hey, you've got all this money. Come and get it", that's a pretty easy sell.
+**Jerod Santo:** And because it's opt-in, but they're already collecting them for you... Like Brian says, you get an email, "Hey, you've got all this money. Come and get it", that's a pretty easy sell.
 
 **Adam Stacoviak:** That's where the awareness needs to be then. Because here I am, sitting here and thinking -- not so much just about us in particular, because I get it, but I'm thinking about all the people who don't, that don't even take that first step to get the confidence, because they're like "Well, I'm stuck in BAT" or whatever. That's the awareness that needs to drive it home; it's like, "You're not stuck in this currency that you're totally unaware of."
 
@@ -520,7 +520,7 @@ I just think back to the Seth Meyers skit... Cryptocurrency was around the $20,0
 
 **Adam Stacoviak:** And how are we gonna enlist for the payment? \[laughter\]
 
-**Jerod Santo:** Well, I'd say we've had lots of -- or, "lots" might be a stretch; we've had a few e-mails from people who are saying "Do you know how Brave is great for browsing and reading publishers? What if there was a podcast app that could do what Brave is doing with BAT?" and most of my response is "Podcast apps are really hard to make, so make sure you actually wanna build a good podcast app first, and then think about the economy around it." It's similar to what you do in Brave - building a good browser is really hard, I'm sure, Brian, as you know... So that's usually what I tell people - maybe partner with an existing podcast app that already has a user base...
+**Jerod Santo:** Well, I'd say we've had lots of -- or, "lots" might be a stretch; we've had a few emails from people who are saying "Do you know how Brave is great for browsing and reading publishers? What if there was a podcast app that could do what Brave is doing with BAT?" and most of my response is "Podcast apps are really hard to make, so make sure you actually wanna build a good podcast app first, and then think about the economy around it." It's similar to what you do in Brave - building a good browser is really hard, I'm sure, Brian, as you know... So that's usually what I tell people - maybe partner with an existing podcast app that already has a user base...
 
 The point is that people are thinking about these things. It's interesting that you're saying, "Okay, here's an SDK for Brave payments in BAT where you can build it into your own things."
 

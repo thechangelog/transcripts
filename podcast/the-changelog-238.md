@@ -26,7 +26,7 @@ We have three sponsors today - our friends at GoCD, Rollbar and also Toptal.
 
 **Jerod Santo:** Well, you did take out all the pictures of sadness and put in penguins.
 
-**Karen Sandler:** I did... Fuzzy baby penguins, they're adorable. It makes you feel better about all the terrible things that are... 
+**Karen Sandler:** I did... Fuzzy baby penguins, they're adorable. It makes you feel better about all the terrible things that are...
 
 **Jerod Santo:** I liked that part. I actually got to make it up for... I missed yesterday's opening sessions.
 
@@ -290,7 +290,7 @@ We signed legal agreements on behalf of our projects, so when our projects have 
 
 **Jerod Santo:** How do they become a part of your umbrella? How does that happen? What's the criteria and the process?
 
-**Karen Sandler:** You can e-mail apply at SFConservancy.org to join. We have an application, and then we have a really awesome evaluations committee which is made up of free and open source software luminaries... Deb Nicholson, who I just saw walk by, is on our evaluations committee, but we've got a whole -- they're all famous people. \[laughter\]
+**Karen Sandler:** You can email apply at SFConservancy.org to join. We have an application, and then we have a really awesome evaluations committee which is made up of free and open source software luminaries... Deb Nicholson, who I just saw walk by, is on our evaluations committee, but we've got a whole -- they're all famous people. \[laughter\]
 
 **Jerod Santo:** Nice.
 
@@ -390,7 +390,7 @@ I love web animation, I love CSS animation, I love all the things that we can do
 
 **Rachel Nabors:** It wasn't a road I was purposefully following. I just remember that three years ago I was doing so much with animation: I was talking about it, I was traveling, I was finally getting my legs under me and feeling like I was actually making a difference. It's amazing... Before I did web development, I did comics, I made comics for a living, for teenage girls; I did this as a teenager. I had an interesting thing where I realized that comics weren't going to pay the bills and I had to go get a real job, and I ended up using all the skills I was using to promote comics on the web to become a developer.
 
-Long story, but the point is life comes and goes in these cycles where the thing that you love leads to the thing that you do, but not quite in the way that you thought it would. I would get these e-mails from girls saying, "Your comic changed my life. You got me through a hard time in my life" and now, only three years after I started traveling the world, talking about animations and doing great things with them, I'm getting e-mails from people who say, "Thank you for all your work. I saw your recorded talk from three years ago, it got me into animation. I can't get enough of it." Even people I look up to and I link to almost weekly in the newsletter have confided it. It's like, "Yeah, you were my inspiration to get started." I'm like, "Really? You have more Twitter followers than I do now. How did that happen? What the heck?"
+Long story, but the point is life comes and goes in these cycles where the thing that you love leads to the thing that you do, but not quite in the way that you thought it would. I would get these emails from girls saying, "Your comic changed my life. You got me through a hard time in my life" and now, only three years after I started traveling the world, talking about animations and doing great things with them, I'm getting emails from people who say, "Thank you for all your work. I saw your recorded talk from three years ago, it got me into animation. I can't get enough of it." Even people I look up to and I link to almost weekly in the newsletter have confided it. It's like, "Yeah, you were my inspiration to get started." I'm like, "Really? You have more Twitter followers than I do now. How did that happen? What the heck?"
 
 It's a booming place to be, and I'm just so happy to see this space grow, and it's kind of nice that it's all working out. I'm really happy.
 
@@ -722,11 +722,11 @@ But All Things Open to me, it's as if OSCON and SCALE made out, you know? It's g
 
 **Adam Stacoviak:** I love Ubuntu.
 
-**Jono Bacon:** Yeah, I was there for like just under eight years, and it was an absolute blast. Shortly after I joined, I get an e-mail from this kid based out in Africa, somewhere - I forget exactly which country in the continent it was - and (I think he was like 12, 13 years old) he lived in a rural village and he spent his entire week doing chores around the village and basically earning money - he didn't have a computer - and what he'd do is he'd basically earn his money, and then on the weekend on a Saturday he'd walk three hours to his local town, take that money, buy an hour's worth of internet access and contribute to Ubuntu.
+**Jono Bacon:** Yeah, I was there for like just under eight years, and it was an absolute blast. Shortly after I joined, I get an email from this kid based out in Africa, somewhere - I forget exactly which country in the continent it was - and (I think he was like 12, 13 years old) he lived in a rural village and he spent his entire week doing chores around the village and basically earning money - he didn't have a computer - and what he'd do is he'd basically earn his money, and then on the weekend on a Saturday he'd walk three hours to his local town, take that money, buy an hour's worth of internet access and contribute to Ubuntu.
 
 **Adam Stacoviak:** What?!
 
-**Jono Bacon:** And I just thought to myself, when I got that e-mail I was like, "My job in Canonical, in Ubuntu is to help that kid get the best hour of his life", but my job more widely in our industry is help everybody empower kids like that to get the best out of their hours. It was just such a visible demonstration of when you can connect somebody's passion with a way in which they can make contribution effectively and they can feel a part of something...
+**Jono Bacon:** And I just thought to myself, when I got that email I was like, "My job in Canonical, in Ubuntu is to help that kid get the best hour of his life", but my job more widely in our industry is help everybody empower kids like that to get the best out of their hours. It was just such a visible demonstration of when you can connect somebody's passion with a way in which they can make contribution effectively and they can feel a part of something...
 
 \[01:16:06.19\] I mean, just look at Wikipedia, look at open source - it's amazing, and we haven't even scratched the surface of figuring any of this stuff out and that's what blows my mind. It's a good time to be alive. We're gonna do some cool stuff.
 

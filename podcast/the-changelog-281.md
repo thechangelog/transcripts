@@ -66,7 +66,7 @@ There's obviously the sort of like action-oriented way that you can use the coin
 
 **Jerod Santo:** Isn't Git itself trademarked and owned, copywritten by Linus or the Linux Foundation or some legal entity that would own the rights to that?
 
-**Kevin Owocki:** Yeah, it's something that when we were starting the project we talked to our friends at another project that had used the Git trademark, and we had worked out sort of a scheme in which we had thought that we can use that and still be in good legal waters, but... It's not that easy to e-mail Linus, believe it or not, so I'm trying to find a way to get in touch with them.
+**Kevin Owocki:** Yeah, it's something that when we were starting the project we talked to our friends at another project that had used the Git trademark, and we had worked out sort of a scheme in which we had thought that we can use that and still be in good legal waters, but... It's not that easy to email Linus, believe it or not, so I'm trying to find a way to get in touch with them.
 
 Well, a) I just think that they're the spiritual ancestors of a generation of open source software, and I'd love to get in touch with them and see what they think about using blockchain for incentivization. If you read The Cathedral And The Bazaar, all the stuff about being open to the point of promiscuity, and delegating everything - I think a lot of that came from Linus, so I'd love to get involved in that respect. And yes, obviously, the trademark stuff is something that we're looking at also.
 
@@ -100,7 +100,7 @@ The first step that we've taken towards that is by partnering with CodeSponsor.i
 
 We mentioned directed action, and it makes tons of sense to me that your prime place to get people to bring funds to the platform is blockchain companies, because like you said, a lot of them have a lot of dispensable money that they may or may not have earned through displaying the ability, the future potential of their networks and products... And like you said, they're also looking for people with applicable skills. What about security audits, because that is a necessary thing, especially now that more and more of these developers who are working on these projects are writing code that directly moves money in and out of people's pockets... Surely, security audits are gonna become more and more essential, as more and more companies have programmatic money. Have you considered Gitcoin as a potential platform for soliciting audits, and that kind of stuff?
 
-**Kevin Owocki:** \[00:23:41.11\] Yeah, I mean... Just to take a step back before I answer your question - it is horrifying to go from web development, where the worst thing you can do in the world is drop a table on your database, or send an e-mail erroneously, to a place where you're moving tens of thousands of dollars programmatically, using your code.
+**Kevin Owocki:** \[00:23:41.11\] Yeah, I mean... Just to take a step back before I answer your question - it is horrifying to go from web development, where the worst thing you can do in the world is drop a table on your database, or send an email erroneously, to a place where you're moving tens of thousands of dollars programmatically, using your code.
 
 **Jerod Santo:** Yeah, I can imagine.
 

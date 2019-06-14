@@ -190,7 +190,7 @@ Now, that being said, a lot of times when people say "on-prem", they don't mean 
 
 \[00:36:19.17\] So our existing enterprise customers -- I wanna mention this just in case any of them are listening to this... \[laughs\] We're going to keep supporting our Npm enterprise on-prem product for quite a while. It'd be a little messed up to say "Okay, we're dropping support for our on-prem product, but our new SaaS product is not even out of beta yet." So as we do get closer to rolling this thing out and calling it GA, we're gonna have a comprehensive plan to make sure we take care of those people.
 
-**Adam Stacoviak:** Well said, yeah. In case they're listening, you've gotta make sure that they don't get "Hey, I should be e-mailing Isaac after I listen to this show, because that was not expected."
+**Adam Stacoviak:** Well said, yeah. In case they're listening, you've gotta make sure that they don't get "Hey, I should be emailing Isaac after I listen to this show, because that was not expected."
 
 **Isaac Schlueter:** "Did I just hear you decommissioning my thing?"
 

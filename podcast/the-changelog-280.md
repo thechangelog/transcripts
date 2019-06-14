@@ -215,7 +215,7 @@ There are a lot of students working on Redox actually, which has been surprising
 
 **Jerod Santo:** Let's talk about getting started and getting involved... What does a potential contributor -- what does their roadmap or their onboarding look like?
 
-**Jeremy Soller:** Yeah, the best place to get started is to go to the GitHub repo. The GitHub repo is a link to everything else. The thing that you should do though if you really wanna become involved in development is ask for an invite to the chat. It's invite-only simply because it prevents spam. If you send me an e-mail at info@redox-os.org, then I will send you an invite back. If you send me other things, I may respond; I may not, I may forget it. I have like 100 e-mails that I haven't replied to yet unfortunately. But if you get on the chat, you'll have access to the (I think) 250 people who are already there, and probably a dozen people who are usually online, responding to things.
+**Jeremy Soller:** Yeah, the best place to get started is to go to the GitHub repo. The GitHub repo is a link to everything else. The thing that you should do though if you really wanna become involved in development is ask for an invite to the chat. It's invite-only simply because it prevents spam. If you send me an email at info@redox-os.org, then I will send you an invite back. If you send me other things, I may respond; I may not, I may forget it. I have like 100 emails that I haven't replied to yet unfortunately. But if you get on the chat, you'll have access to the (I think) 250 people who are already there, and probably a dozen people who are usually online, responding to things.
 
 If you wanna develop, you don't have to download all of Redox, because obviously, building an operating system from source is not something that -- it takes a lot of bandwidth, it takes a lot of time. I would estimate it takes about 2 GB of disk space and network downloads, and about 30 minutes of time to build it from source, the entire operating system.
 
@@ -231,7 +231,7 @@ To contribute to a single project though, you can check out Ion, for example. It
 
 I think that yields better results than planning. You do have to plan, obviously. We planned the system calls, and we continue to iterate on what should be the stable version of the syscall API, because we will have to stabilize it at some point in the very near future... And we have to plan certain things, but usually that planning process takes place in the chat, at some point in time, and we reference GitHub issues.
 
-\[01:04:21.19\] Discourse is not very active; it's why at the top of the Discourse page I say "The chat is more active. Send an e-mail to this address to get invited." The Trello is something that someone made, but probably will not be kept up to date with what we have in the chat and what we have in GitHub.
+\[01:04:21.19\] Discourse is not very active; it's why at the top of the Discourse page I say "The chat is more active. Send an email to this address to get invited." The Trello is something that someone made, but probably will not be kept up to date with what we have in the chat and what we have in GitHub.
 
 **Adam Stacoviak:** Yeah, it seems sparse, the Trellos being made.
 
@@ -295,7 +295,7 @@ So yeah, the Discourse is a poor example of the Redox community. In my opinion, 
 
 **Adam Stacoviak:** And it's probably putting a lot of burden on you too, to be that gatekeeper. And that's the last thing you wanna be. You wanna be welcoming to anybody that wants to step in and get involved.
 
-**Jeremy Soller:** Well, in general, if they send an e-mail to me, they will get an invite back almost immediately. The only times I've done screening is when it goes into my spam folder, which is a problem for whoever sent it, but... Or when it looks weird, which sometimes it does. I think that process scares people away. I think the process of sending an e-mail rather than simply going to the site and setting things up scares people away from it, because it's an asynchronous process...
+**Jeremy Soller:** Well, in general, if they send an email to me, they will get an invite back almost immediately. The only times I've done screening is when it goes into my spam folder, which is a problem for whoever sent it, but... Or when it looks weird, which sometimes it does. I think that process scares people away. I think the process of sending an email rather than simply going to the site and setting things up scares people away from it, because it's an asynchronous process...
 
 **Adam Stacoviak:** It's confrontational.
 
@@ -311,11 +311,11 @@ So yeah, the Discourse is a poor example of the Redox community. In my opinion, 
 
 **Jerod Santo:** Yeah. I just think that just having clear signage up... Like, "These people go here, you go there...", and then people just know. I mean, even just that clarity will go a long way for you.
 
-**Adam Stacoviak:** Yeah. So in closing, the folks who are listening and wanna get involved, the best way is to e-mail you at the e-mail address you've mentioned to get into the private chat; that's to prevent spam. What's the e-mail address again?
+**Adam Stacoviak:** Yeah. So in closing, the folks who are listening and wanna get involved, the best way is to email you at the email address you've mentioned to get into the private chat; that's to prevent spam. What's the email address again?
 
 **Jeremy Soller:** It is info@redox-os.org.
 
-**Adam Stacoviak:** Okay. So e-mail that if you want in the private chat... Which is private to prevent spam, and then also this is where most of the real-time chat is happening, so that you can organize and plan out what's coming next, and ask questions, and all that good stuff. Any closing thoughts for those listening? It could be going to the Patreon page, which we'll link up in the show notes, of course... What's the best way you can ask for support? Not just money support, but support in general, to keep Redox going and keep you on your mission.
+**Adam Stacoviak:** Okay. So email that if you want in the private chat... Which is private to prevent spam, and then also this is where most of the real-time chat is happening, so that you can organize and plan out what's coming next, and ask questions, and all that good stuff. Any closing thoughts for those listening? It could be going to the Patreon page, which we'll link up in the show notes, of course... What's the best way you can ask for support? Not just money support, but support in general, to keep Redox going and keep you on your mission.
 
 **Jeremy Soller:** Well, I would actually throw something a little weird out there.
 

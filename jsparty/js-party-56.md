@@ -42,7 +42,7 @@ The first question I'm really curious to know about from you folks is "How do yo
 
 **Christopher Hiller:** I feel like I don't fit in, because I don't like doing that... I don't like pulling in very small packages; I like pulling in bigger packages that I don't want to write, or don't feel like I have the skills to write properly. So you'll never see me writing my own crypto, or anything like that... But for small things, like a simple (I don't know) custom functional method for an array, I would probably just write that myself, and then write tests for it.
 
-**Safia Abdalla:** I'm curious to know, do you do that for things -- one of the most common use cases for me for small packages is trying to figure out if a string contains an e-mail, or a link, or stuff like that... It's mostly like parsing and other mundane tasks that I don't have the patience to deal with. Does that fall under your criteria of things that you would write on your own, or would you bring in a third-party dependency for that?
+**Safia Abdalla:** I'm curious to know, do you do that for things -- one of the most common use cases for me for small packages is trying to figure out if a string contains an email, or a link, or stuff like that... It's mostly like parsing and other mundane tasks that I don't have the patience to deal with. Does that fall under your criteria of things that you would write on your own, or would you bring in a third-party dependency for that?
 
 **Nick Nisi:** That's a good question.
 
@@ -342,7 +342,7 @@ Tidelift is a really interesting proposition. They're packaging things together 
 
 **Safia Abdalla:** I think some good action items for anyone who's listening and does wanna give back to the community or start to be more formal about this is start talking to your engineering management about figuring out a way to dedicate some of your time to contributing to an open source project in your stack. It's probably gonna take a lot of effort, but depending on how management feels about it and how things work at your company, you can get into a position where you're spending a couple of hours a week just contributing to open source. That's one avenue if your company doesn't have the infrastructure to donate to an entity, or all of that stuff.
 
-Then also one of the things that I thought was really interesting is if you're using an open source project, just e-mail people and ask them to come in for training or a talk, and pay them for it and have that serve as like a purchase they can make, if the contributor is willing. That always works, as well.
+Then also one of the things that I thought was really interesting is if you're using an open source project, just email people and ask them to come in for training or a talk, and pay them for it and have that serve as like a purchase they can make, if the contributor is willing. That always works, as well.
 
 So there are a lot of avenues for you if you're willing to advocate for it, to have your company engage and contribute to a healthy open source ecosystem.
 

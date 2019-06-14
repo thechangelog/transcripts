@@ -46,7 +46,7 @@ Obviously, that takes a lot more work and maybe news is gonna stop at like a one
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** Well, there's two sides to us, really - we've got our quick, poignant Twitter/weekly e-mail that we ship out, and then we have deeper, more personal, more human, I guess...
+**Adam Stacoviak:** Well, there's two sides to us, really - we've got our quick, poignant Twitter/weekly email that we ship out, and then we have deeper, more personal, more human, I guess...
 
 **Jerod Santo:** Contextual, yeah.
 
@@ -136,7 +136,7 @@ How did you come up with this list and acronym you've got?
 
 **Adam Stacoviak:** Yeah, I know the movie. It was a couple...
 
-**Jerod Santo:** Yeah, there was a sequel. Oh, it's gonna be one of those shows where people are e-mailing us...
+**Jerod Santo:** Yeah, there was a sequel. Oh, it's gonna be one of those shows where people are emailing us...
 
 **Adam Stacoviak:** \[unintelligible 00:27:24.04\]
 
@@ -184,7 +184,7 @@ So really, if there's one thing that you take from this conversation or this art
 
 **Adam Stacoviak:** Do you have any examples where you enumerated the multiple candidate solutions as you mentioned here and you were very thankful for doing that task, that discipline?
 
-**Ozan Onay:** Yes, I have a story in there... I will not name the company, but this actually happened with them. They were using Kafka. The first design of their system was not very good and they responded to that by really over-engineering their second system. It was Kafka and Samza and all these really excellent technologies that operate at way, way larger scales than them, and really through a conversation with one of the engineers at the company we ended up with a design that would have more of a traditional relational data store, but which could have honestly been somebody writing into a book. That's actually the design that I push for. I actually push for the data store being somebody receives an e-mail and physically writes it down, maybe in a couple of books.
+**Ozan Onay:** Yes, I have a story in there... I will not name the company, but this actually happened with them. They were using Kafka. The first design of their system was not very good and they responded to that by really over-engineering their second system. It was Kafka and Samza and all these really excellent technologies that operate at way, way larger scales than them, and really through a conversation with one of the engineers at the company we ended up with a design that would have more of a traditional relational data store, but which could have honestly been somebody writing into a book. That's actually the design that I push for. I actually push for the data store being somebody receives an email and physically writes it down, maybe in a couple of books.
 
 **Adam Stacoviak:** Redundancy...
 

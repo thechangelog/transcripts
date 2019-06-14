@@ -354,7 +354,7 @@ So this year we made him part of our speaking team. When I asked him about what 
 
 **Adam Stacoviak:** And if there is any repetition happening or planned to happen, how can they get in touch with you or what's the plan for repeating this model?
 
-**Stu Keroff:** \[00:36:02.04\] Well, let's start at the finish line - how they can get in touch with me... People can follow me on Twitter, it's @StuKeroff. My e-mail address at the school is StuartK@csemn.org, and you can check out all of the information about the Asian Penguins on our website, which is www.asianpenguins.org. That's how you can get in touch with us and find out more about the program.
+**Stu Keroff:** \[00:36:02.04\] Well, let's start at the finish line - how they can get in touch with me... People can follow me on Twitter, it's @StuKeroff. My email address at the school is StuartK@csemn.org, and you can check out all of the information about the Asian Penguins on our website, which is www.asianpenguins.org. That's how you can get in touch with us and find out more about the program.
 
 As far as how to replicate it, the first thing that has to happen is that you do have to have an adult that wants to be a risk taker and wants to plow in and learn how to make this work. I love Robert Litt's example because he's a teacher in the Oakland School District in California who started the computer lab at his school with recycled hardware and open source software, and did it all for free. His school couldn't afford anything, and he said, "When I started, I didn't know a darn thing."
 

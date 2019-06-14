@@ -1,4 +1,4 @@
-**Jerod Santo:** Evan, we first met via e-mail back in October... You were trying to solve some podcaster problems, and you e-mailed me recently, and it seems like you've been busy solving some of your own problems since then...
+**Jerod Santo:** Evan, we first met via email back in October... You were trying to solve some podcaster problems, and you emailed me recently, and it seems like you've been busy solving some of your own problems since then...
 
 **Evan Conrad:** Yeah.
 
@@ -254,7 +254,7 @@ So Quirk's job is to kind of try and bring that emphasis down a little bit, and 
 
 **Jerod Santo:** Yes...
 
-**Adam Stacoviak:** And you may have even e-mailed us about it with some exclamation points after saying "Brain Science" in the subject line. Super-cool, but something that Mireille Reece, the doctor of clinical psychology I'm working with - something she says often is "You have to put your lid on", which means your frontal lobe. That's what makes us humans. Mammals have the mammalian brain, the brain stem, then there's a different portion of the brain, but this front part, behind the forehead area, is where you carry most of your cognitive load. That's where really a lot of your human behaviors, your human thoughts come into play... And what often happens probably in these scenarios where somebody is in these deep fears is that they're not thinking with their full brain, their frontal lobe, so to speak; they're thinking just brain stem only, very survival mechanisms like "Don't die" scenarios. They can't put their full lid on; that's something she says.
+**Adam Stacoviak:** And you may have even emailed us about it with some exclamation points after saying "Brain Science" in the subject line. Super-cool, but something that Mireille Reece, the doctor of clinical psychology I'm working with - something she says often is "You have to put your lid on", which means your frontal lobe. That's what makes us humans. Mammals have the mammalian brain, the brain stem, then there's a different portion of the brain, but this front part, behind the forehead area, is where you carry most of your cognitive load. That's where really a lot of your human behaviors, your human thoughts come into play... And what often happens probably in these scenarios where somebody is in these deep fears is that they're not thinking with their full brain, their frontal lobe, so to speak; they're thinking just brain stem only, very survival mechanisms like "Don't die" scenarios. They can't put their full lid on; that's something she says.
 
 **Evan Conrad:** Yeah.
 
@@ -274,7 +274,7 @@ So you can acknowledge that maybe you didn't do as well as you wanted to in that
 
 **Adam Stacoviak:** That makes it easy. Download it in the App Store, download it on Google Play... Fairly easy to get. I mean, there's some education behind it, like what is fortune telling and things like that, but that's a good first step. Plus, also if you're a software developer - and if you're listening to this, you're probably a software developer, and if you're not, hey, welcome; we talk about software here, and open source, if you didn't know about that... But it is also open source, which means that if you desire to, you can also give some feedback. But I understand too that there's a second component to that, that you actually wanna talk to people engaging in mental health, so professionals out there that are wanting to take part; the cool thing about open source is you can actually influence Quirk and share some ideas with Evan. What do you think, Evan?
 
-**Evan Conrad:** Yeah, so there's actually two things. If you're a mental health professional, if you're a therapist or you're a psychiatrist and you want to help the app, send me an e-mail. My e-mail is ejc@quirk.fyi. And if you're a mental health professional or a therapist or a psychiatrist and you're interested in helping this project, please send me an e-mail... Because I do not have a mental health background, I don't have a degree, so I'm definitely looking for professional help, if anybody is interested.
+**Evan Conrad:** Yeah, so there's actually two things. If you're a mental health professional, if you're a therapist or you're a psychiatrist and you want to help the app, send me an email. My email is ejc@quirk.fyi. And if you're a mental health professional or a therapist or a psychiatrist and you're interested in helping this project, please send me an email... Because I do not have a mental health background, I don't have a degree, so I'm definitely looking for professional help, if anybody is interested.
 
 Secondly, if you're a researcher and you're looking to study cognitive behavioral therapy or you're looking to study the app, one of the things Quirk is trying to do is be both private and public. By private I mean that the thought records, the things you store in the app, the thoughts - they're never shared anywhere. They store on the device, they don't go anywhere. All your private information is not collected. But all the usage statistics, which would be collected by the App Store or your OS, is shared publicly. Anonymous usage statistics, like "How many people are using this app? How often are people using this app?", stuff like that - that's shared in a csv file which you can get... And if you are interested in doing research on Quirk, this is just open for you; it's actually open for anybody, but specifically if you're trying to find the effectiveness of this app, especially when compared to worksheets, or other forms of collecting thought records - this is for you.
 
@@ -460,7 +460,7 @@ The thing that stresses me out the most is that a lot of people don't look at th
 
 **Evan Conrad:** Basically, if you are a mental health professional and you wanna help, reach out to me. And if you are a developer and you wanna help, there's definitely some features and bugs that need fixed. And if you are a translator or somebody who speaks another language and you'd like to translate it into a language that it doesn't exist in, also reach out... Because this project needs all the help it can get. Thank you so much.
 
-**Adam Stacoviak:** We'll put your e-mail in the show notes, but remind us again what your e-mail address is.
+**Adam Stacoviak:** We'll put your email in the show notes, but remind us again what your email address is.
 
 **Evan Conrad:** Ejc@quirk.fyi.
 

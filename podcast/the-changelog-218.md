@@ -6,7 +6,7 @@ We have three sponsors - Rollbar, Toptal and DataLayer, a conference put on by C
 
 **Adam Stacoviak:** Alright, we’re back. We got a fun show, Jerod. I think Richard’s got an alarm set or something like that. We've got Evan Czaplicki and Richard Feldman we’re going to introduce here in just a second, but his is a catch-up show. Six months ago, back in January, we had Richard on, talked about Elm, got really excited about it, and a lot of people loved that show. We actually got asked recently, "Another Elm show, so quickly?" What’s going on here?
 
-**Jerod Santo:** Yeah, like you said, I think Richard set a reminder. I remember at the end of that show, we said, "Oh, we got to get you back on. Six months from now, a year from now, come back; bring Evan, or not… Let’s talk about Elm again!" And then maybe six months to the day, Richard, that e-mail came in and you’re like, "Hey, it's six months, let’s do this." It was that easy.
+**Jerod Santo:** Yeah, like you said, I think Richard set a reminder. I remember at the end of that show, we said, "Oh, we got to get you back on. Six months from now, a year from now, come back; bring Evan, or not… Let’s talk about Elm again!" And then maybe six months to the day, Richard, that email came in and you’re like, "Hey, it's six months, let’s do this." It was that easy.
 
 **Richard Feldman:** I wish I could take credit for having that good of a memory, but… Yeah, I set a reminder. \[laughter\]
 

@@ -365,15 +365,15 @@ The core Go team, which is the people that you'd actually see doing things on th
 
 **Carlisia Pinto:** How about you, Russ? How many have you got?
 
-**Russ Cox:** Assuming I haven't missed an e-mail, I have gotten zero.
+**Russ Cox:** Assuming I haven't missed an email, I have gotten zero.
 
 **Carlisia Pinto:** That's amazing...
 
 **Erik St. Martin:** I feel like people may feel it's presumptuous even when being offered, so... I'd like to find more ways to do that, whether at a local meetup we host a "Bring your slides and we'll help" day, or something that encourages more people to do that.
 
-**Brian Ketelsen:** What if we put those people behind some sort of e-mail alias and made it a little more anonymous -- maybe anonymous isn't the right word, but made it a little less certain that you were gonna hit Russ Cox when you send that e-mail; maybe people would feel less intimidated by sending a request out.
+**Brian Ketelsen:** What if we put those people behind some sort of email alias and made it a little more anonymous -- maybe anonymous isn't the right word, but made it a little less certain that you were gonna hit Russ Cox when you send that email; maybe people would feel less intimidated by sending a request out.
 
-**Russ Cox:** I mean, if the goal is to get people to have e-mails land in my mailbox, then I guess that might work. \[laughter\] I actually thought about that, but I thought it was really important that people could select who they wanted to talk to, because you might feel comfortable with someone, or you might have seen someone give a talk and you feel comfortable approaching them, but you don't feel comfortable just e-mailing an anonymous list and not even knowing who's gonna see your request for help. So I thought it was actually very important that the people asking for help got to choose who they asked for help.
+**Russ Cox:** I mean, if the goal is to get people to have emails land in my mailbox, then I guess that might work. \[laughter\] I actually thought about that, but I thought it was really important that people could select who they wanted to talk to, because you might feel comfortable with someone, or you might have seen someone give a talk and you feel comfortable approaching them, but you don't feel comfortable just emailing an anonymous list and not even knowing who's gonna see your request for help. So I thought it was actually very important that the people asking for help got to choose who they asked for help.
 
 **Carlisia Pinto:** \[00:56:12.06\] That is a good point.
 

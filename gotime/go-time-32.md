@@ -88,7 +88,7 @@ But if the server refuses them all, it will still see them all... And I built th
 
 **Carlisia Pinto:** So I ran it on my machine and it didn't find my GitHub public key. I'm wondering if it's because I have multiple ones and you grabbed one that wasn't active...
 
-**Erik St. Martin:** \[00:11:46.11\] No... The way the SSH protocol works is when you do public key authentication is it will pass all of your public keys, so anything that's in your .SSH directory, you'll see the IDE\_RSA.pubs and things like that... It will pass that, which contains your e-mail address in it.
+**Erik St. Martin:** \[00:11:46.11\] No... The way the SSH protocol works is when you do public key authentication is it will pass all of your public keys, so anything that's in your .SSH directory, you'll see the IDE\_RSA.pubs and things like that... It will pass that, which contains your email address in it.
 
 **Filippo Valsorda:** There's that, but I don't even use that. I use the matching of the actual public key.
 
@@ -122,11 +122,11 @@ But if the server refuses them all, it will still see them all... And I built th
 
 **Brian Ketelsen:** All about some aliases...
 
-**Erik St. Martin:** Yeah, the cool thing about that "who's there" thing is it really makes you connect with how much information leakage there is. You don't really consider that when you try to SSH a server that you're leaking information that you could be giving away, say, e-mail addresses, or those keys could be used to match you against other databases. So... Really interesting.
+**Erik St. Martin:** Yeah, the cool thing about that "who's there" thing is it really makes you connect with how much information leakage there is. You don't really consider that when you try to SSH a server that you're leaking information that you could be giving away, say, email addresses, or those keys could be used to match you against other databases. So... Really interesting.
 
 **Filippo Valsorda:** Yeah, I didn't even go full creeper on it, because from the GitHub account you can probably jump to the Keybase account if you have Keybase, or use the links you have in your bio, and from there jump to your Facebook or your Twitter and from there jump to your bio, maybe your home address, maybe your phone number... That would have been nice, like, "Hello, you're trying to SSH into a server. You're going to get a phone call in a minute."
 
-**Erik St. Martin:** Yeah, you really could go full-on creeper because you could basically take the domain from their e-mail address, and then start doing whois's on it and get all kinds of information.
+**Erik St. Martin:** Yeah, you really could go full-on creeper because you could basically take the domain from their email address, and then start doing whois's on it and get all kinds of information.
 
 What other things are you working on? I know you're doing some TLS stuff as well.
 
@@ -624,7 +624,7 @@ Actually, \[unintelligible 00:51:32.24\] did the design and the images, I built 
 
 **Carlisia Pinto:** Good work!
 
-**Erik St. Martin:** Well, huge thank you to everybody on the show, thanks to all the listeners listening right now. Huge shoutout to our sponsors, StackImpact and Ardan Labs. If you haven't checked them out, please do. We will put links in the show notes. Definitely share this show with friends and colleagues. An easy way to subscribe is to go to GoTime.FM. We will have a weekly e-mail coming out shortly, so go ahead and get signed up to that. We are @GoTimeFM on Twitter, we have a GoTimeFM channel in the Gophers Slack. If you wanna be on the show or have suggestions for topics or guests for the show, GitHub.com/GoTimeFM/ping. With that, goodbye everybody! We'll see you next week. Mat Ryer will be joining us for next week's show.
+**Erik St. Martin:** Well, huge thank you to everybody on the show, thanks to all the listeners listening right now. Huge shoutout to our sponsors, StackImpact and Ardan Labs. If you haven't checked them out, please do. We will put links in the show notes. Definitely share this show with friends and colleagues. An easy way to subscribe is to go to GoTime.FM. We will have a weekly email coming out shortly, so go ahead and get signed up to that. We are @GoTimeFM on Twitter, we have a GoTimeFM channel in the Gophers Slack. If you wanna be on the show or have suggestions for topics or guests for the show, GitHub.com/GoTimeFM/ping. With that, goodbye everybody! We'll see you next week. Mat Ryer will be joining us for next week's show.
 
 **Brian Ketelsen:** You know, he probably rushed to finish the gopherize-me thing just before he was gonna be on the show. \[laughter\]
 

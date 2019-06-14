@@ -36,7 +36,7 @@ I've written a book about it on how to build your own programming language and s
 
 **Erik St. Martin:** So this is the callout - if anybody needs a programming language written, contact Thorsten.
 
-**Thorsten Ball:** \[laughs\] Shoot me an e-mail, right.
+**Thorsten Ball:** \[laughs\] Shoot me an email, right.
 
 **Brian Ketelsen:** I have to say, I got early access to the book and do some read-throughs on it, and it is an amazing book. If you haven't yet picked up a copy, it's well worth the read. I learned a million things and I've only made it through maybe four chapters... It's really good.
 
@@ -108,7 +108,7 @@ I don't know, maybe my argument is the same one - if you can see what you're wor
 
 I think you also have to really draw the line somewhere, because if you keep digging and if you keep breaking open those black boxes, I don't think you're gonna come away super healthy, right? \[laughter\] You're never gonna get done, and...
 
-**Erik St. Martin:** All I need to do is send an e-mail, but I need to understand how a NAND gate works. \[laughs\]
+**Erik St. Martin:** All I need to do is send an email, but I need to understand how a NAND gate works. \[laughs\]
 
 **Thorsten Ball:** That's right, yeah. Look, one and a half years ago, two years ago I tried to understand how CPUs work. Then you dig into CPUs and you understand kind of what they do, and they fetch instructions, and they decode them, and then they execute them, and they talk to memory, and I/O devices and so on. And then you peek below this level and you realize, "No, wait a second... They're actually executing five things at the same time? And then they're caching stuff and then they're pipelining stuff and they are programmed too and they're super complex and I have no clue what's going on anymore?" and you have to draw the line somewhere. Like, "Alright, this is the API, this is the level of abstraction I'm gonna work with", because you're gonna run out of time. It's the saying "It's turtles all the way down." If you keep digging, you're gonna find another level, and another level, and another level, and another black box.
 
@@ -132,7 +132,7 @@ I think you also have to really draw the line somewhere, because if you keep dig
 
 With that, I wanted to start talking about what exactly is an interpreter and a compiler, how they work and why are they the building blocks, and what makes it such a big deal and useful for us to know about them?
 
-**Thorsten Ball:** \[00:23:47.03\] Yeah, that's exactly the point you make. I think it's really funny because a lot of people, they... What you said is absolutely correct - the market of compiler writers is a small one. You don't see many advertisers or recruiters sending out e-mails like "Do you wanna write a compiler?" But a compiler is hugely complex, it's interesting, it has a lot of parts, and if you understand how they work, you can take those parts and use them in other places. If you look at those parts, you can recognize patterns and then use those patterns again.
+**Thorsten Ball:** \[00:23:47.03\] Yeah, that's exactly the point you make. I think it's really funny because a lot of people, they... What you said is absolutely correct - the market of compiler writers is a small one. You don't see many advertisers or recruiters sending out emails like "Do you wanna write a compiler?" But a compiler is hugely complex, it's interesting, it has a lot of parts, and if you understand how they work, you can take those parts and use them in other places. If you look at those parts, you can recognize patterns and then use those patterns again.
 
 The basic idea behind a compiler is it takes input, which is programming code or code, and it takes this input, transforms it and puts out something the computer can understand and execute. You take puts "Hello World" and give it to a compiler, and the compiler outputs machine code. This machine code is much longer than puts "Hello World" and it contains all the machine code instructions that tell the CPU and the computer how to display Hello World on your screen. It does this by having certain stages... You always talk about stages and passes with compilers. Source code comes in on one end, and on the other end comes out machine code, or some other form of code. I don't wanna escalate this conversation, but there are certain compilers that do not translate to machine code, but other programming languages; they're sometimes called transpilers.
 
@@ -330,7 +330,7 @@ The same thing is kind of happening... I get really shy -- people say to me, "Oh
 
 **Brian Ketelsen:** There's a reason behind that, yes.
 
-**Erik St. Martin:** It's to capture your e-mail.
+**Erik St. Martin:** It's to capture your email.
 
 **Brian Ketelsen:** Yeah. \[laughs\]
 
@@ -430,7 +430,7 @@ I use different tools like the tag bar or whatever, in Vim, so that I \[unintell
 
 **Carlisia Pinto:** I don't have one, but I am laughing at the logo, it's amazingly cute. I don't have a project today.
 
-**Erik St. Martin:** And I don't know whether we prepped you on this in the e-mail, Thorsten, but typically every show we kind of just do a shout out to a project that's making our lives easier. So if you have one, awesome; if you don't...
+**Erik St. Martin:** And I don't know whether we prepped you on this in the email, Thorsten, but typically every show we kind of just do a shout out to a project that's making our lives easier. So if you have one, awesome; if you don't...
 
 **Thorsten Ball:** I have a shout out, and I promise you, I thought of this before this show. My shout out goes to the Vim Go plugin by Fatih Arslan. It's amazing, it kind of turns Vim into a lightweight IDE, because there's so much functionality in it. Five versions ago I thought, "This is it, it's done. Feature complete", and he keeps putting new and super practical and interesting stuff in it, and the development is really amazing to watch, and it's a great piece of software.
 

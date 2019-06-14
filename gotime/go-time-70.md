@@ -274,7 +274,7 @@
 
 **Leonid Kalneus:** Yeah, same to me.
 
-**Brian Ketelsen:** I have a really good Dmitry Vyukov story. Erik, I don't know if you were there, you may remember this. At GopherCon 2015 or 2014 - it was several years ago - Dmitry was a speaker, but I hadn't met him yet because he was gonna speak on the second day, and it was the first day... So we were walking home from the pre-party, or walking home from the place where we were having beer the first night, and I had been talking to Dmitry by e-mail forever, on Twitter, and I just told him what a big fan I was and how excited I was to meet him... So I'm walking home, and this really tall person walks up next to me and says "Hi." I had no idea who it was, so I said "Hi", and he kept trying to bring up conversation points, but I was tired and I had two beers, and I was not talking well.
+**Brian Ketelsen:** I have a really good Dmitry Vyukov story. Erik, I don't know if you were there, you may remember this. At GopherCon 2015 or 2014 - it was several years ago - Dmitry was a speaker, but I hadn't met him yet because he was gonna speak on the second day, and it was the first day... So we were walking home from the pre-party, or walking home from the place where we were having beer the first night, and I had been talking to Dmitry by email forever, on Twitter, and I just told him what a big fan I was and how excited I was to meet him... So I'm walking home, and this really tall person walks up next to me and says "Hi." I had no idea who it was, so I said "Hi", and he kept trying to bring up conversation points, but I was tired and I had two beers, and I was not talking well.
 
 Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and I felt like an a--hole. So there's my Dmitry Vyukov story. Sorry, Dmitry. I was his biggest fan, and I didn't even recognize him.
 
@@ -486,7 +486,7 @@ Some other interesting statistics out of that were operating system of choice th
 
 **Brian Ketelsen:** Fair... Or maybe they bring their Macs because they're afraid of not fitting in...
 
-**Erik St. Martin:** \[00:36:08.28\] No, actually -- I mean, if you think about it, I fall into that category really well, right? I develop exclusively on Linux - I have my Linux workstation, I have a Linux laptop I write code on... But I do all my adminy stuff - social media, video chats and e-mail and all that stuff, my to-do lists and stuff are all on my Mac, so when I travel, I bring my Mac.
+**Erik St. Martin:** \[00:36:08.28\] No, actually -- I mean, if you think about it, I fall into that category really well, right? I develop exclusively on Linux - I have my Linux workstation, I have a Linux laptop I write code on... But I do all my adminy stuff - social media, video chats and email and all that stuff, my to-do lists and stuff are all on my Mac, so when I travel, I bring my Mac.
 
 **Brian Ketelsen:** That's true, good point.
 

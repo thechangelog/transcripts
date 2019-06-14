@@ -30,7 +30,7 @@ I do these things maximum one month or two months. I try to not take very long p
 
 **Jerod Santo:** Absolutely. It sounds like you have other interests. One of those interest is, as I mentioned before, Scuttlebutt; you "scuttlebutt solarpunk" on your Twitter bio, and Manyverse is a -- do you call it a Scuttlebutt client? We're gonna get into all of the nitty-gritty here...
 
-**André Staltz:** Yeah, absolutely. It's a Scuttlebutt client. Some people like to talk about Scuttlebutt as a place, a social media platform, but I really think it's like a protocol. Just as you have e-mail as a protocol, then of course you need some kind of e-mail app. It used to be Thunderbird, but of course now we have web apps... There's so many other protocols out there, and Scuttlebutt is one protocol, and you need, of course, apps to make it work.
+**André Staltz:** Yeah, absolutely. It's a Scuttlebutt client. Some people like to talk about Scuttlebutt as a place, a social media platform, but I really think it's like a protocol. Just as you have email as a protocol, then of course you need some kind of email app. It used to be Thunderbird, but of course now we have web apps... There's so many other protocols out there, and Scuttlebutt is one protocol, and you need, of course, apps to make it work.
 
 **Jerod Santo:** I love the way that you described Manyverse on the homepage, when you say "Free forever." You have this pyramid or triangle of things that it doesn't have, which is a very interesting way of pitching something. "No ads. No paywall. No data centers. No cloud. No cookies. No company. No investors. No token. No ICO." I'll run out of breath saying all the things this doesn't have. I think it gets more interesting... "No tracking. No spying. No analytics."
 
@@ -222,17 +222,17 @@ It's really about choosing who you want to connect to, and then getting their up
 
 **Jerod Santo:** Where do I start? What do I do? Do I have to have your name, do I need a device ID? Do I go to a pub? What does it look like for a user?
 
-**André Staltz:** The use case for Scuttlebutt is to connect friends with friends, so it's not so well-suited for connecting strangers through friends... For instance, on Twitter you can look up a person and follow them. As an e-mail, you could just toss an e-mail to a random strangers; these things work.
+**André Staltz:** The use case for Scuttlebutt is to connect friends with friends, so it's not so well-suited for connecting strangers through friends... For instance, on Twitter you can look up a person and follow them. As an email, you could just toss an email to a random strangers; these things work.
 
 **Jerod Santo:** Right.
 
-**André Staltz:** The downside of those is that you can also get messages from people you really don't want to get messages from. In a decentralized system, without moderation, you can get actually very undesired messages. Essentially, e-mail spam is very, very undesired messages.
+**André Staltz:** The downside of those is that you can also get messages from people you really don't want to get messages from. In a decentralized system, without moderation, you can get actually very undesired messages. Essentially, email spam is very, very undesired messages.
 
 **Jerod Santo:** Yes.
 
 **André Staltz:** Scuttlebutt sort of shields you from that by only focusing on friends that you have opt-in. Essentially, your friends and your friends of friends. You sort of opt-in to semi-strangers, which are friends that are friends with yours, and those are allowed to send messages to you. But that said, it's also technically possible to build a way where users could get my messages, even if they're complete strangers.
 
-One of the things I experimented with recently was I built a type of server that mirrors only my data, no one else's data. And then you could just literally go to that server and request an invite code, and the server would always give you an invite code, no matter who you are, and then you would get my data. It's essentially like an RSS feed, and it's set up right now, as we speak; the server is there. If I would give you the address, or if you would know the address by yourself, then you could get my data, and that's it. But the downside is that I would not get your data, which means that I would not see your comments. I would just broadcast messages, but I wouldn't get yours... Unless I would literally opt-in to get your data. So Scuttlebutt is really not suited for getting messages from strangers, such as e-mail. But it's also the same mechanics that sort of shields you from these stranger interactions.
+One of the things I experimented with recently was I built a type of server that mirrors only my data, no one else's data. And then you could just literally go to that server and request an invite code, and the server would always give you an invite code, no matter who you are, and then you would get my data. It's essentially like an RSS feed, and it's set up right now, as we speak; the server is there. If I would give you the address, or if you would know the address by yourself, then you could get my data, and that's it. But the downside is that I would not get your data, which means that I would not see your comments. I would just broadcast messages, but I wouldn't get yours... Unless I would literally opt-in to get your data. So Scuttlebutt is really not suited for getting messages from strangers, such as email. But it's also the same mechanics that sort of shields you from these stranger interactions.
 
 When you think about someone who's really famous on Twitter, their mentions are probably a nightmare. How could even filter that thing? It doesn't even have a spam filter, or something like that. Well, maybe to some extent; nowadays they do have filters, but anyway, it's probably still a nightmare, right? That's not the use case for Scuttlebutt, and I think what Scuttlebutt is trying to achieve is this so-called trust graph - a network of trusted peers.
 
@@ -360,17 +360,17 @@ Interestingly - I guess this is maybe noteworthy, or maybe not - hosted on GitLa
 
 **André Staltz:** Well, a little bit of both. I try to sometimes spread out things, so instead of putting all my eggs in one basket... I use GitLab, sometimes I use GitHub; I don't have a structure, when do I use each... But in this case I actually explicitly wanted to have the GitLab boards, and also Service Desk... It's quite useful.
 
-For instance, the bug reports that we get right now, they come as e-mails. People send an e-mail to an address GitLab provides, and then it reaches this thing called Service Desk, which becomes essentially confidential issues. So I can answer those issues, and it's confidential. I don't think GitHub has confidential issues that come through e-mail. It's quite nice.
+For instance, the bug reports that we get right now, they come as emails. People send an email to an address GitLab provides, and then it reaches this thing called Service Desk, which becomes essentially confidential issues. So I can answer those issues, and it's confidential. I don't think GitHub has confidential issues that come through email. It's quite nice.
 
 GitLab just has a bit more features, and I like it. It's also a bit more future-proof, in the sense that I could also self-host my GitLab instance if I wanted to. I don't think I can do that with GitHub. I think it's also open source, to a big degree... Yeah, that's essentially the motivation behind that.
 
-**Jerod Santo:** That's a cool feature. Is that e-mail address integrated into the app? Can you submit those things through the app in the e-mails, or do you just pop up a MailTo? How do they actually get those issues sent in?
+**Jerod Santo:** That's a cool feature. Is that email address integrated into the app? Can you submit those things through the app in the emails, or do you just pop up a MailTo? How do they actually get those issues sent in?
 
 **André Staltz:** Yeah, it would pop up a MailTo. One of the difficulties of not having analytics in the app as well. Sometimes you need to know what's going on, sometimes when bugs happen.
 
 **Jerod Santo:** Yeah.
 
-**André Staltz:** And because there's a big focus - maybe not primary, but a big focus - on privacy, people who want to use this app, they would be concerned of analytics. So I think it's just more respectful that, of course, as an e-mail, users are explicitly their data as a message.
+**André Staltz:** And because there's a big focus - maybe not primary, but a big focus - on privacy, people who want to use this app, they would be concerned of analytics. So I think it's just more respectful that, of course, as an email, users are explicitly their data as a message.
 
 **Jerod Santo:** Like consent, basically.
 

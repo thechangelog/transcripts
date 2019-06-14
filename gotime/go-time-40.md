@@ -76,9 +76,9 @@ So I ended up deciding to fork Kelsey Hightower's Kube-Cert-Manager project. I t
 
 **Erik St. Martin:** And for anybody who might not be aware of what we're talking about, as you throw up individual services that may be publically exposed in Kubernetes, this is basically something that you can run inside your Kubernetes cluster to basically issue SSL certificates on the fly using LetsEncrypt for the things that you deploy, which is just awesome.
 
-All of us remember struggling through -- you have to go to your SSL provider and you have to get all the certs and then upload them to all the servers... All of that is gone. I hate getting the e-mails... I actually spaced out my SSL cert renewals so that I wouldn't have to do a bunch at one time. \[laughter\]
+All of us remember struggling through -- you have to go to your SSL provider and you have to get all the certs and then upload them to all the servers... All of that is gone. I hate getting the emails... I actually spaced out my SSL cert renewals so that I wouldn't have to do a bunch at one time. \[laughter\]
 
-**Brian Ketelsen:** Now I get e-mails from LetsEncrypt that says my certificates are expiring and it's yet another reminder of failed projects... You know, this thing that I started up a couple months ago, isn't in use anymore, your certificate is expiring... "Oh yeah, I remember when I did that." \[laughter\] It's just like the domain's expiring. "Oh, I remember registering that domain. Oops..."
+**Brian Ketelsen:** Now I get emails from LetsEncrypt that says my certificates are expiring and it's yet another reminder of failed projects... You know, this thing that I started up a couple months ago, isn't in use anymore, your certificate is expiring... "Oh yeah, I remember when I did that." \[laughter\] It's just like the domain's expiring. "Oh, I remember registering that domain. Oops..."
 
 **Erik St. Martin:** Whenever I get the domain renewals I have to question my motivation, like... I was pretty dumb for buying that before, and I've not used it for three years now. Um, I'm gonna renew it anyway...
 
@@ -740,7 +740,7 @@ I would like him to harvest his little party somewhere else, not on my little sh
 
 **Brian Ketelsen:** I don't know, but I think we just lost half of our listenership with this show... Between gators and hitmen, we're done. Maybe I'm just gonna get voted off the island.
 
-**Erik St. Martin:** Adam's getting e-mails now from sponsors... \[laughs\]
+**Erik St. Martin:** Adam's getting emails now from sponsors... \[laughs\]
 
 **Brian Ketelsen:** Yeah... This is not a PG show anymore...
 

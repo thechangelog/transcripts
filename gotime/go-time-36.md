@@ -247,7 +247,7 @@ I know there's some hesitation around hiding it behind a feature flag or somethi
 
 **Erik St. Martin:** Alright, we are back, talking to Sam Boyer. So we were going through all the dependency tool stuff... Does everybody wanna talk about projects and news, things we've seen and come across this past week? I know you've mentioned UpSpin... I think we've got a few minutes left of the show, so...
 
-**Brian Ketelsen:** UpSpin is a big one, for sure. If you haven't seen it yet, it's a big project... It's written in Go, and it was written by Rob Pike and Andrew Gerrand among others. A lot of fancy distributed storage mechanisms to it, but at the end of the day the idea is that your content will be addressable with a key that is generally your e-mail address, and it looks like a very interesting project. I did try to install it, but got befuddled on something and gave up, so I walked away. Like almost every other thing in our list today, I've played with almost all of these, it's funny.
+**Brian Ketelsen:** UpSpin is a big one, for sure. If you haven't seen it yet, it's a big project... It's written in Go, and it was written by Rob Pike and Andrew Gerrand among others. A lot of fancy distributed storage mechanisms to it, but at the end of the day the idea is that your content will be addressable with a key that is generally your email address, and it looks like a very interesting project. I did try to install it, but got befuddled on something and gave up, so I walked away. Like almost every other thing in our list today, I've played with almost all of these, it's funny.
 
 **Sam Boyer:** UpSpin is responsible for finding an obscure bug in GPS.
 

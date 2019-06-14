@@ -170,7 +170,7 @@ They've had tremendous community buildup around it. There's all kinds of interes
 
 **Ron Evans:** I can neither confirm or deny any rumors...
 
-**Brian Ketelsen:** Oh my god, my e-mail is blowing up. Ticket sales are going through the roof for GopherCon, you'd better get your tickets now.
+**Brian Ketelsen:** Oh my god, my email is blowing up. Ticket sales are going through the roof for GopherCon, you'd better get your tickets now.
 
 **Erik St. Martin:** Speaking of which, speakers were announced... If you are listening live - or even by the time you hear this show - if you have not looked, definitely go look at the speakers. We're kind of jumping ahead, but yeah...
 

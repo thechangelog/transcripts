@@ -14,7 +14,7 @@ Today on the show we have myself, Erik St. Martin, Brian Ketelsen is also on the
 
 **Erik St. Martin:** Good, good. So let's talk about GopherCon, being that I think all of us were there, at least partially. Brian-half-sleep at GopherCon...
 
-**Brian Ketelsen:** Yeah, apparently. So this is our first show after GopherCon. GopherCon officially ended last Wednesday, it's not Thursday... I still haven't even read all my e-mail or done my laundry.
+**Brian Ketelsen:** Yeah, apparently. So this is our first show after GopherCon. GopherCon officially ended last Wednesday, it's not Thursday... I still haven't even read all my email or done my laundry.
 
 **Francesc Campoy:** I just got to my inbox zero yesterday and I was so proud. I'm done for the rest of the week.
 

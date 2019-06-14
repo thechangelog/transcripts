@@ -26,7 +26,7 @@
 
 **Adam Stacoviak:** That's right, that's right. Either way, since the last time we talked, which was episode 318, some big news, some big things happened in the Python community. One of the biggest things was that the BDFL, Guido, stepped down. Maybe give us the lay of the land of how the community, how the language, how whoever is involved in Python has reacted to this.
 
-**Brett Cannon:** It seems so far to have been well-received. When Guido retired -- well, I should rephrase. He phrased it as "taking a permanent vacation", so actually when he announced, there were a lot of conspiracy theories going around, and /hope that he was actually joking, or "Oh, he's just taking a break and he will actually come back. He didn't really retire." A lot of wordsmithing going on in that e-mail...
+**Brett Cannon:** It seems so far to have been well-received. When Guido retired -- well, I should rephrase. He phrased it as "taking a permanent vacation", so actually when he announced, there were a lot of conspiracy theories going around, and /hope that he was actually joking, or "Oh, he's just taking a break and he will actually come back. He didn't really retire." A lot of wordsmithing going on in that email...
 
 **Jerod Santo:** So what did he do then?
 
@@ -286,7 +286,7 @@ The lack of term limits so far been a problem, but then again, we haven't had a 
 
 **Jerod Santo:** Yes, and the twist ending to this story is Guido's back. He's on the list.
 
-**Brett Cannon:** Yeah, so it was funny... I put my name forward; as I said, I feel invested in Python at this point. I am lucky enough to have a lot of friends in this community, so I want to see Python keep going, if for any other reason, to just selfishly make sure PyCon continues to happen, so I get to spend a week hanging out with good friends of mine somewhere around the world... But Guido actually e-mailed me asking if I thought it was okay for him to run, because he did say when he retired that he didn't want to completely walk away from Python and didn't wanna participate; he just didn't want to be the sole person in charge anymore.
+**Brett Cannon:** Yeah, so it was funny... I put my name forward; as I said, I feel invested in Python at this point. I am lucky enough to have a lot of friends in this community, so I want to see Python keep going, if for any other reason, to just selfishly make sure PyCon continues to happen, so I get to spend a week hanging out with good friends of mine somewhere around the world... But Guido actually emailed me asking if I thought it was okay for him to run, because he did say when he retired that he didn't want to completely walk away from Python and didn't wanna participate; he just didn't want to be the sole person in charge anymore.
 
 \[00:51:57.17\] I think I've heard him in an interview kind of related to sending your kids off to college; they're still your child and you still talk to them and try to help out, but they're not living under your roof anymore and they're not coming to you day-to-day with all their problems, and you don't have to make them lunch anymore. I think that is basically where Guido is coming from.
 

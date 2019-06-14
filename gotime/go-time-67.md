@@ -254,7 +254,7 @@ I think that people get kind of bog down in some of the difficulties around buil
 
 **Carlisia Pinto:** So when you say you have opened your services, do you mean like people can contact you directly?
 
-**Cassandra Salisbury:** Absolutely, yeah. I am 100% fine with people contacting me directly on Slack, on [Twitter](https://twitter.com/Cassandraoid), my e-mail is csalisbury@google.com, or cls@golang.org. My information is everywhere on the web now, so anyone is welcome.
+**Cassandra Salisbury:** Absolutely, yeah. I am 100% fine with people contacting me directly on Slack, on [Twitter](https://twitter.com/Cassandraoid), my email is csalisbury@google.com, or cls@golang.org. My information is everywhere on the web now, so anyone is welcome.
 
 **Carlisia Pinto:** Yes, and please take advantage of that... If Cassandra gets enough pings from people, I'm sure she will turn around and say to Google, "Hey, I have so many people pinging me, I need more people to work with me", right?
 
@@ -270,7 +270,7 @@ I think that people get kind of bog down in some of the difficulties around buil
 
 **Carlisia Pinto:** \[00:51:55.24\] Very cool. Is there any last thing you would like to tell us, Cassandra?
 
-**Cassandra Salisbury:** You know what I'm interested in that is sometimes hard to get feedback on is really just how people feel they would be most helped, so how community organizers feel they'd be most helped or what was the struggle in getting started, or if you are getting started, why is it difficult or why is it awesome, and I just -- I would love to hear some more stories about that. Again, you could contact me on Twitter, you can contact me on Gopher Slack, or my e-mails... All of that is fine. I've even debated starting a Twitter thread, so maybe I'll do that... But not everyone wants to share these things publicly and I respect that, which is why I kind of like the more personal, one-on-one you tell me.
+**Cassandra Salisbury:** You know what I'm interested in that is sometimes hard to get feedback on is really just how people feel they would be most helped, so how community organizers feel they'd be most helped or what was the struggle in getting started, or if you are getting started, why is it difficult or why is it awesome, and I just -- I would love to hear some more stories about that. Again, you could contact me on Twitter, you can contact me on Gopher Slack, or my emails... All of that is fine. I've even debated starting a Twitter thread, so maybe I'll do that... But not everyone wants to share these things publicly and I respect that, which is why I kind of like the more personal, one-on-one you tell me.
 
 I'd love to just hear more from the community about their experiences, so that I can make some actionable plans for us moving forward.
 

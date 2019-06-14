@@ -94,7 +94,7 @@ I think part of the reason I wanted to do that was just because I wanted people 
 
 So Marcus Olsson did this. She recommended him to me. He created the gophers, and after he created the gophers, I really wanted something animated. If you go check out the site and see the animated gophers - I took what he had and sort of modified them a bit to make like a three or four frame animation for each one, and did those...
 
-Then I think I e-mailed you guys -- I haven't actually released them, so maybe I'll post them on Twitter after this, or something... [Egon Elbre](https://twitter.com/egonelbre) I don't know how to pronounce his name, sadly. But he's the one who does the Gotham Go art and some other art... He actually did the artwork for the test course I'm working on, and it's a really cool crash test dummy mixed with a gopher that I really like.
+Then I think I emailed you guys -- I haven't actually released them, so maybe I'll post them on Twitter after this, or something... [Egon Elbre](https://twitter.com/egonelbre) I don't know how to pronounce his name, sadly. But he's the one who does the Gotham Go art and some other art... He actually did the artwork for the test course I'm working on, and it's a really cool crash test dummy mixed with a gopher that I really like.
 
 So I've been trying to work with different artists, and every time I work with one -- this is something that I think is really cool about all the developers in the Go community... I offer to pay every single one of them, and every single time they tell me "No, just go donate it to a charity", or something like that.
 I've been trying to donate to charities every time I worked with them, based on how much time it takes them and everything like that, but... It's just been crazy that none of them will take payment for the work they're doing.
@@ -238,9 +238,9 @@ This one has some nice benchmarks and shows no allocations for almost every oper
 
 **Brian Ketelsen:** Alright, then if there's no other new news, let's move on to \#FreeSoftwareFriday. This segment is one of my personal favorites, where we just give a shout-out to a person or a project that's made an impact on you. It doesn't have to be Go-related; it can be a group, a company, a project, anything really... Just a way for us to give some appreciation to people or projects that have an impact on us.
 
-I will kick it off this week with [Luke Smith](https://github.com/LukeSmithxyz). Luke released a package called [mutt-wizard](https://github.com/LukeSmithxyz/mutt-wizard). Mutt-wizard is awesome. I've been trying to go all command line for my e-mail forever, and I tried [JessFraz's Dotfiles](https://github.com/jessfraz/dotfiles) and I couldn't figure them out... But this mutt-wizard is a really nice curses-based wizard that just walks you through the whole thing, gets everything configured.
+I will kick it off this week with [Luke Smith](https://github.com/LukeSmithxyz). Luke released a package called [mutt-wizard](https://github.com/LukeSmithxyz/mutt-wizard). Mutt-wizard is awesome. I've been trying to go all command line for my email forever, and I tried [JessFraz's Dotfiles](https://github.com/jessfraz/dotfiles) and I couldn't figure them out... But this mutt-wizard is a really nice curses-based wizard that just walks you through the whole thing, gets everything configured.
 
-\[00:44:18.16\] I spent a couple hours - I guess it was Monday or Tuesday morning - and got mutt configured, and I still really don't know what to do with attachments in mutt yet, but give me some time, I'll figure it out. Otherwise I can read my e-mail now, and I'm very grateful for Luke's work putting that together.
+\[00:44:18.16\] I spent a couple hours - I guess it was Monday or Tuesday morning - and got mutt configured, and I still really don't know what to do with attachments in mutt yet, but give me some time, I'll figure it out. Otherwise I can read my email now, and I'm very grateful for Luke's work putting that together.
 
 **Jon Calhoun:** Do you mind if I ask you what's the benefit of that?
 
@@ -250,7 +250,7 @@ I will kick it off this week with [Luke Smith](https://github.com/LukeSmithxyz).
 
 **Brian Ketelsen:** You're gonna laugh and call me OCD, and it's okay, I accept it... So I use i3 window manager, and the processor usage history - what do you call that? The three slots of processor usage is up in the top of my title bar... And for some reason, it drives me nuts when it gets high. So when I look at a mail app, especially these Electron-based mail apps these days, they're spinning my processor up too much. But mutt - or when I'm using NeoMutt - doesn't really take any processor usage, so I get to keep my processor usage really low. It's kind of OCD. I wish you hadn't asked that. \[laughter\]
 
-**Carlisia Pinto:** I have another solution to that, too. Just don't open your e-mails.
+**Carlisia Pinto:** I have another solution to that, too. Just don't open your emails.
 
 **Brian Ketelsen:** Yeah, there you go.
 

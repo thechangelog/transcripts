@@ -297,7 +297,7 @@ So I wasn't particularly happy with either of those options, so when I launched 
 Another piece of it that went into the calculation was if I made it open source and I couldn't get paid to work on it full time, if that wasn't enough money to make it a sustainable business, would it be better for the product and for its users to have it remain a side project, something that got my attention whenever it happened, whenever I had the time? Or would it be better for the product and for the users to be in a place where it was like, "I can work on this full-time and dedicate all of my energy to it."
 
 **Jerod Santo:** \[00:55:48.02\] I have two questions; you can take them in order, or take them however you like. The first one is where does the paid product begin with ngrok 2.0? Because, like I said before the break, I happily upgraded. Adam, I don't know which version you're running, but I wasn't taking advantage of any of the open sourcedness of it, I was just using it as a tool when I need it. We were very casual users; Adam said we use it to expose a web server to campa ign monitor, so that it can suck in some HTML, and I'll use it to develop a webhook here or there. So we're very casual users. So tell us where the paid side -- what model you decided to go with in terms of the paid stuff at ngrok 2.0 has, and as a follow-up to that, if you will, give us some insight into how it's going and the status of ngrok as a paid product.
- 
+
 **Alan Shreve:** Ngrok 2.0 still has a very generous free tier, and most casual users never really break out of that free tier. That's been something that I've been thinking about over the past years - do I want to consider that lead gen or do I want to actually take more things away from it that it incents people to upgrade. It's a difficult calculus. I don't want to cripple the product. I still want that really great initial user experience of like you download it, run a command, and it's instantly working, and there's no "Please pay" sort of thing immediately. You just immediately get value out of it.
 
 It's kind of all advanced features that people that are in the paid tiers today. One of the things that ngrok does that you can pay for is end-to-end encryption; instead of ngrok essentially terminating your TLS traffic at its servers and then re-encrypting it as it transfers over the tunnel, instead ngrok actually inspects the incoming TLS connections and multiplexes those to your backend so that you can actually do end-to-end encryption. Ngrok is just a router at that point, essentially, on the internet.
@@ -353,7 +353,7 @@ Equinox was built out of this desire to make the installation experience better.
 
 **Alan Shreve:** Honestly, maybe one day I will do that, and I'll find out what the answer to that question is, because I'm really curious, too.
 
-**Jerod Santo:** Well, e-mail us when you do, and we'll have you come back on the show and talk about what happened.
+**Jerod Santo:** Well, email us when you do, and we'll have you come back on the show and talk about what happened.
 
 **Alan Shreve:** Yeah. That'll be a really interesting experiment. But the unfortunate part is it's one of those experiments that you can't really run, right?
 
@@ -415,7 +415,7 @@ Equinox was built out of this desire to make the installation experience better.
 
 **Alan Shreve:** I'm not entirely sure. I think they demo-ed it at some presentation, but I'm not sure where the status of that is right now.
 
-**Adam Stacoviak:** One other thing that we like to ask at the end of the show, Alan, is radar. We have a weekly e-mail that we call Changelog Weekly, it's our editorialized take on our radar. So when we have a guest on, we'd love to learn about your radar. So what's out there - whether it's a technology, or open source... What's out there that if you had a free weekend you'd play with it? Something you wanna play with but you haven't had a chance yet.
+**Adam Stacoviak:** One other thing that we like to ask at the end of the show, Alan, is radar. We have a weekly email that we call Changelog Weekly, it's our editorialized take on our radar. So when we have a guest on, we'd love to learn about your radar. So what's out there - whether it's a technology, or open source... What's out there that if you had a free weekend you'd play with it? Something you wanna play with but you haven't had a chance yet.
 
 **Alan Shreve:** I'm really excited about all of the emerging languages, so I'd probably be playing around with those. I would be excited to try working with Rust some more, to try working with Nim, or Elm, or any of those sorts of things.
 

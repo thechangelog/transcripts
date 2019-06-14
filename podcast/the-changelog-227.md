@@ -174,7 +174,7 @@ So as an experiment, I decided to try charging for the ability to read those ess
 
 \[00:23:54.08\] I thought it was going to be a terrible idea, but it actually is working fine and people are actually paying. I charge $14 to unlock the content, basically. But you can get around it pretty easily... If you're using an incognito window, then it resets the number of essays you can read.
 
-Basically the way I see it is people who don't care enough to try to get around it are probably people who can afford it, so I wanna take their money, because they can afford it. People who really care or where that's too much money, they'll get around it or they'll e-mail me and ask for a free pass, and I've done that for several people who e-mailed me already. It seems kind of like a nice compromise.
+Basically the way I see it is people who don't care enough to try to get around it are probably people who can afford it, so I wanna take their money, because they can afford it. People who really care or where that's too much money, they'll get around it or they'll email me and ask for a free pass, and I've done that for several people who emailed me already. It seems kind of like a nice compromise.
 
 **Adam Stacoviak:** I think this is interesting too, to see how you've yet again been able to be this mad scientist, so to speak, in terms of like -- and I know this isn't exactly mad science; it seems pretty straightforward, but you must have the hacker mentality of being a mad scientist to say, "I'm gonna find a way to not throw things away, but then also kind of keep track on the web traffic to a degree to say, is this viable to people? And if it is, then do something about it." And you found a way to do what you want in open source, or in your own dreamer way, to keep doing the things that interest you around open source, and have a passive income to afford you the ability to do that.
 
@@ -504,7 +504,7 @@ I've been thinking about ways to do that. I don't have anything to talk about ye
 
 **Adam Stacoviak:** Coping as a maintainer. We'll do that show. We'll talk to you about it in the green room, we'll figure out what that show could be about. That's a good idea, for sure.
 
-If you're out there listening and you've got great ideas for Request For Commits, we have an open inbox for the Changelog, but you can always e-mail us at editors@changelog.com if you get some ideas either for Request For Commits, GoTime, The Changelog or future shows we do, or even future show ideas, so to speak.
+If you're out there listening and you've got great ideas for Request For Commits, we have an open inbox for the Changelog, but you can always email us at editors@changelog.com if you get some ideas either for Request For Commits, GoTime, The Changelog or future shows we do, or even future show ideas, so to speak.
 
 Feross, thank you so much for coming on the show today, man. I really appreciate you sharing all of your origin, the fun things happening around WebTorrent, and obviously your excitement for Electron and the future of what you plan to do there. Listeners, thank you so much for tuning in as well. That's it for this show fellas, so let's say goodbye.
 

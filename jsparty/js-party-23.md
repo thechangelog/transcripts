@@ -224,7 +224,7 @@ Let's see what we've been thinking of. Suz, let's start with you. Do you have an
 
 **Jerod Santo:** Very cool. Well, Suz, if somebody's interested in participating with you or building this thing, what's the best way to hit you up and talk to you more about this project?
 
-**Suz Hinton:** You can just tweet at me, honestly. I don't communicate by text message, and very rarely by e-mail, so Twitter is definitely the best way.
+**Suz Hinton:** You can just tweet at me, honestly. I don't communicate by text message, and very rarely by email, so Twitter is definitely the best way.
 
 **Jerod Santo:** Okay. @noopkat on Twitter. Hit her up and let Suz know if you want to participate in that project. Cool, let's kick it over to Chris. Chris, my friend, what do you not have that you wish you had, out there in the software world?
 

@@ -94,7 +94,7 @@ Our monthly recurring expenses were $14/month before NPM decided to give organiz
 
 **Nadia Eghbal:** That's a lot of people donating $2 or $5/month that adds up to the budget that you have now; it says something about people that love it enough to donate, I guess, right?
 
-**Christopher Hiller:** Yeah, and there are quite a few of those people. What I wanted to do, and I was so excited when we got our first backer, and I sent out a tweet, I was like "Hey, thanks for backing!", and then the next five people that decided to back us and donate, I sent out tweets. Then there was like 100 people, or whatever... And I get several e-mails a day - "So-and-so has donated $2 to Mocha." I want to shake everybody's hand and say thank you individually, but it doesn't scale very well.
+**Christopher Hiller:** Yeah, and there are quite a few of those people. What I wanted to do, and I was so excited when we got our first backer, and I sent out a tweet, I was like "Hey, thanks for backing!", and then the next five people that decided to back us and donate, I sent out tweets. Then there was like 100 people, or whatever... And I get several emails a day - "So-and-so has donated $2 to Mocha." I want to shake everybody's hand and say thank you individually, but it doesn't scale very well.
 
 I don't know if Sean Larkin and Webpack have figured out how to do that. He spends a lot of time on Twitter, but you know... That doesn't scale. I would love to be able to do that, but I haven't found out a good way to do that yet that works for me.
 

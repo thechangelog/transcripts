@@ -70,7 +70,7 @@ This is still being developed; I don't wanna say "This is it, this is THE idea, 
 
 And then object-oriented is all about objects that pass messages to each other. So how do you build this network of little computers that talk to each other to solve the problem? Which to me is like very unintuitive, because that's not how I perceive the world, right? As like communicating objects? No. Like, I'm the one solving the problem; it's not like these two things are passing messages to each other to solve it for me... But I still like it as a paradigm.
 
-And then the functional - to me, functional is all about identifying the data that you need, the calculations on that data that you need, and the effects (often called side-effects), the things that aren't pure calculation; they are like sending a message, sending an e-mail, outputting something to the screen... And when you break the problem down into those three pieces, you can start to compose them together and get a solution out of that.
+And then the functional - to me, functional is all about identifying the data that you need, the calculations on that data that you need, and the effects (often called side-effects), the things that aren't pure calculation; they are like sending a message, sending an email, outputting something to the screen... And when you break the problem down into those three pieces, you can start to compose them together and get a solution out of that.
 
 **Jerod Santo:** I like thinking about it like that. I think something about when you look at a list of features, or your naturalist, observationalist way that you're mentioning - which we tend to do... "Let's compare two things. Well, let's list the pros and cons of the one on the left and the pros and cons of the other on the right", and just thinking about that in light of procedural programming, which is very frowned upon because it's the simplistic, less featureful, old-school way we used to do things... But what you said there resonates with me, because a lot of what we do is literally like procedures.
 
@@ -298,7 +298,7 @@ There's plenty of evidence for this. If you go to the Clojure conferences, they 
 
 **Jerod Santo:** Yeah. They were very humble, but they basically said in a very humble way that it didn't work because basically they didn't have enough bugs. \[laughter\] Their software actually didn't need support, because it was just that good, or something. Does that ring a bell for you, Adam?
 
-**Adam Stacoviak:** It does, I'm not placing it though. If you're listening and you know this show, e-mail us and tell us; we'll put it in the show notes.
+**Adam Stacoviak:** It does, I'm not placing it though. If you're listening and you know this show, email us and tell us; we'll put it in the show notes.
 
 **Jerod Santo:** Theirs was so good they put themselves out of a support job.
 

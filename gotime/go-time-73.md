@@ -108,7 +108,7 @@ So I think it was definitely a bigger thing then to start chewing on (or whateve
 
 **Brian Ketelsen:** That's really nice.
 
-**Carlisia Pinto:** So I don't wanna make the whole show about what I'm going to ask next, but you seem to have strong opinions about a NoSQL database... Do you wanna say something real quick about what sort of pitfalls people are getting into by using that, as opposed to just going with a relational database? 
+**Carlisia Pinto:** So I don't wanna make the whole show about what I'm going to ask next, but you seem to have strong opinions about a NoSQL database... Do you wanna say something real quick about what sort of pitfalls people are getting into by using that, as opposed to just going with a relational database?
 
 **Andrei Matei:** Well, that is a holy word; I want to get into it. \[laughs\]
 
@@ -190,7 +190,7 @@ In the ARM world, we also experimented with the Raspberry Pi boards, some of who
 
 But yeah, generally, adding more cores helps. Now, I can't give you an exact number about what's the core count per machine up to which we scale linearly, because I don't know, but we definitely scale some per machine, yeah.
 
-**Brian Ketelsen:** \[00:44:09.03\] That's great. Good story, thanks for that answer. I had one more question that I lost. Oh, when we had e-mailed previously, you mentioned that you use open tracing internally... Is the open tracing that's embedded in CockroachDB available externally for people to take a look at, so they can see the performance of the database?
+**Brian Ketelsen:** \[00:44:09.03\] That's great. Good story, thanks for that answer. I had one more question that I lost. Oh, when we had emailed previously, you mentioned that you use open tracing internally... Is the open tracing that's embedded in CockroachDB available externally for people to take a look at, so they can see the performance of the database?
 
 **Andrei Matei:** Yeah, absolutely. We're big fans of open tracing, and the answer to your question is yes. If you use some sort of an open tracing trace collector, if you use a service like [LightStep](https://github.com/lightstep/lightstep-tracer-go) or you run your own [Zipkin](https://zipkin.io/) or [Jaeger](https://github.com/jaegertracing/jaeger) instances or what have you, then yes, you can see Cockroach traces in that performance monitoring system. But even if you don't, you can get a bunch of benefits from our use of open tracing, because we have our own tracers internally, and for example you can ask the system to trace one particular query and it'll give you a printout of how that trace looked like. And it won't be as pretty as how a trace would look if you look at it in one of these distributed trace collectors that have all sorts of pretty graphs and graphical views of a single trace; ours is basically a text dump... But it is a lot better than nothing, let me tell you. So yeah, we're getting all sort of benefits from open tracing.
 
@@ -279,7 +279,7 @@ But it's nice, you can just go to GitPitch.com and then paste in the URL of any 
 
 **Brian Ketelsen:** We wanna thank you very much, Andrei, for joining us, and Carlisia for asking such great questions today. Thanks to all the people out there listening to GoTime. We encourage you to share the show with your fellow programmers, people who might be interested in Go... We continue to get really inspiring messages from people who say "We just started learning Go, and we discovered your podcast. We love it!" We encourage you to continue to send us awesome messages telling us how great we are, too. We like that a lot.
 
-You can follow us on Twitter @GoTimeFM. On GitHub.com/gotimefm/ping you can suggest topics for shows or guests that we might want to add or invite... And you can go to GoTime.fm and subscribe to our upcoming weekly e-mail, and GoTime.fm to find the rest of our episodes. With that, thank you everybody. I hope you have a good week!
+You can follow us on Twitter @GoTimeFM. On GitHub.com/gotimefm/ping you can suggest topics for shows or guests that we might want to add or invite... And you can go to GoTime.fm and subscribe to our upcoming weekly email, and GoTime.fm to find the rest of our episodes. With that, thank you everybody. I hope you have a good week!
 
 **Carlisia Pinto:** Thank you, Brian.
 

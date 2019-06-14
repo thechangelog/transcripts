@@ -346,7 +346,7 @@ I know you've said some very nice things about the Facebook open source program 
 
 **Adam Stacoviak:** Fantastic, James. Thanks so much for taking the time to share with us a peek behind the curtain of Facebook and open source and how you apply that to your business, how your business began with that at code zero as you had mentioned before, and how it's a part of your DNA, how it's a part of your mission, how it helps you make better software and everything else you've shared here today. Thank you so much for your time.
 
-\[01:18:03.17\] Listeners, thank you so much for tuning into this show. Obviously, we love you contributing, but we have an open inbox ourselves, speaking of being open. If you go to github.com/thechagelog/ping, we have an open repository there of many issues that Jerod does a great job of triaging and helping kind of hear from our listeners what to cover, both in our weekly e-mail called Changelog Weekly and also on this podcast. So head there, find what's already there that you might like, add a comment or throw your own issue in there.
+\[01:18:03.17\] Listeners, thank you so much for tuning into this show. Obviously, we love you contributing, but we have an open inbox ourselves, speaking of being open. If you go to github.com/thechagelog/ping, we have an open repository there of many issues that Jerod does a great job of triaging and helping kind of hear from our listeners what to cover, both in our weekly email called Changelog Weekly and also on this podcast. So head there, find what's already there that you might like, add a comment or throw your own issue in there.
 
 That is it for this week, so everyone let's say goodbye.
 

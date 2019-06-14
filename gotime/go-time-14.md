@@ -112,7 +112,7 @@ So again, its ability to render markdown as HTML on the fly is something that is
 
 **Brian Ketelsen:** I didn't write it, I don't know. Magic happens... Anthony wrote it, Anthony Voutas.
 
-**Matt Holt:** That's good. I guess the reason I ask is because... So Let's Encrypt is a service that lets you get free TLS certificates, and the thing is that it's an automated service, so you don't point-and-click your way through a checkout form and then check your e-mail and click a link, download a certificate and install it. You need code to use this, and there are some great Go libraries out there that make it possible to add this layer of security to your application.
+**Matt Holt:** That's good. I guess the reason I ask is because... So Let's Encrypt is a service that lets you get free TLS certificates, and the thing is that it's an automated service, so you don't point-and-click your way through a checkout form and then check your email and click a link, download a certificate and install it. You need code to use this, and there are some great Go libraries out there that make it possible to add this layer of security to your application.
 
 You know, it's interesting because I was talking to some people, and some people dispute the need for it, saying their application, in their use case they don't TLS at all. Others are saying that -- actually I was just talking to someone, a project or a team leader at a large organization here recently, and he was extremely skeptical of Let's Encrypt and their certificates. And so there seemed to be a lot of, I don't know, a lot of confusion about the topic as well that I think it would be good to clear up a few things.
 

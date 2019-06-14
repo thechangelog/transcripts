@@ -120,7 +120,7 @@ So my hunch - I'm not from the Ethereum Foundation, but my hunch is that they ne
 
 **Adam Stacoviak:** EJS? \[laughter\]
 
-**Jerod Santo:** What about e-mail? We could do e-mail...
+**Jerod Santo:** What about email? We could do email...
 
 **Tim Coulter:** Ethereum Mail? Absolutely. \[laughter\] So I think with the eWASM project what they're actually doing is compiling normal languages down to Web Assembly that somehow Ethereum can know about. I'm not too well-versed on that project, but I do know that it's supposed to be the big connector of all of our current languages. The hard part there is how do you take advantage of the specific things that make the blockchain the blockchain? Like, I don't know, if you're writing Java or something, how do you specify that this is like a storage variable? A storage variable, for those listening, is data that's actually going to be stored in the blockchain, and you're paying as part of the transaction to store, versus like something in memory that you're just using as part of a computation.
 
@@ -354,7 +354,7 @@ We know that there's huge opportunity here, but his opportunity isn't going to b
 
 **Tim Coulter:** Yeah. So I mentioned previously that Truffle is six people... I haven't looked in the last couple days, but since Truffle's inception we've had something over 300,000 downloads of Truffle itself, not to mention downloads of Ganache, our blockchain tool. So we are six people working as hard as we can to build these tools for you. What we need and what helps us the most is your feedback. So whether or not you're building an application for your company or you're building something for yourself, we need to hear what problems you're having, what you're getting stopped up on, so we can make our tool better, make our documentation better, and make the whole developer experience better for you.
 
-The best way to do that is to hit us up on our Gitter channel, which is Gitter.im/consensys/truffle, or you can send me an e-mail at Tim@TruffleSuite.com. Please, please reach out.
+The best way to do that is to hit us up on our Gitter channel, which is Gitter.im/consensys/truffle, or you can send me an email at Tim@TruffleSuite.com. Please, please reach out.
 
 Oh, and I didn't mention that we are heavily tracking our issues list on GitHub for Truffle and Ganache and Drizzle. Please feel free to write an issue there if you're having one.
 

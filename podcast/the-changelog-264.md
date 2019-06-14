@@ -184,7 +184,7 @@ I think it's important for the entire bot ecosystem and app ecosystem to think a
 
 **Adam Stacoviak:** That is so funny.
 
-**Jerod Santo:** Even inside mail, when a new e-mail comes in, it will be like "From Brandon Keepers to How Do You Say Toilet In Spanish." Anyways...
+**Jerod Santo:** Even inside mail, when a new email comes in, it will be like "From Brandon Keepers to How Do You Say Toilet In Spanish." Anyways...
 
 **Adam Stacoviak:** Yeah, the uncanny valley, for sure.
 

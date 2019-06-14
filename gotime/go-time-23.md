@@ -272,7 +272,7 @@ Ultimately, it was a little bit of cleanup around the edges, but the code itself
 
 **Break:** \[00:38:41.28\]
 
-**Erik St. Martin:** So in prepping for this, you had sent an e-mail and you were mentioning a side project that you had, and I always love fun side projects.
+**Erik St. Martin:** So in prepping for this, you had sent an email and you were mentioning a side project that you had, and I always love fun side projects.
 
 **Tess Rinearson:** Yeah, this is kind of a funny one. I almost even hesitate to call it a side project, because that suggests sustained work over months, building towards something really awesome, and this is just something I play with. But you asked if I were going to hack on something this weekend, what would I hack on, and the answer is this funny thing I wrote, this little app that connects to Twilio. So when anyone rings the buzzer to my apartment building, it actually calls a Twilio number which then goes through this Go app, and then calls my phone... Maybe.
 
@@ -376,7 +376,7 @@ This will be a problem when the person delivering the vegetables does not enter 
 
 **Brian Ketelsen:** Those were the days.
 
-**Carlisia Pinto:** I was sort of lucky in that way, because when the internet started - and by that, I mean nobody knew about it, but it existed - I was in school, so I got all of that for free. A modem connection for free, a dial-up number I could call for free, I got my web space, I got my e-mail account - everything through school and it was free.
+**Carlisia Pinto:** I was sort of lucky in that way, because when the internet started - and by that, I mean nobody knew about it, but it existed - I was in school, so I got all of that for free. A modem connection for free, a dial-up number I could call for free, I got my web space, I got my email account - everything through school and it was free.
 
 **Tess Rinearson:** Sounds awesome.
 

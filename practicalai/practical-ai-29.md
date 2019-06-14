@@ -56,7 +56,7 @@ We've started with two specific APIs that our engineering team has produced. One
 
 **Chris Benson:** Absolutely.
 
-**Jennifer Marsman:** So that's one great, general purpose thing that we have an API for, that's available already; if people would like to e-mail, I think it's aiforeartapis@microsoft.com.
+**Jennifer Marsman:** So that's one great, general purpose thing that we have an API for, that's available already; if people would like to email, I think it's aiforeartapis@microsoft.com.
 
 **Chris Benson:** We can add that to the show notes later on as well. So we can check that and make sure that's good.
 

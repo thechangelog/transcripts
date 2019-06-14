@@ -256,7 +256,7 @@ I haven't built anything with it, but seeing it really makes me want to.
 
 **Nate Finch:** Nice, yeah. I used a different one for a small project... I can't remember now what the name was, but very similar. Maybe a slightly lower level; with this one you have a window and put stuff in it. The one that I used was more like your screen was a grid and you could put stuff in the grid. But this looks really cool, I definitely wanna try that one out.
 
-**Erik St. Martin:** See, I love graphical stuff. I don't know why, but I'm a command line junkie. Even at my development machine... I have a Mac and I do the podcast and stuff from that, and e-mail and chat, but I primarily develop off a Linux box, and I run the i3 window manager. That's it. I don't need any of the fluff, just give me some terminal windows and I'm good.
+**Erik St. Martin:** See, I love graphical stuff. I don't know why, but I'm a command line junkie. Even at my development machine... I have a Mac and I do the podcast and stuff from that, and email and chat, but I primarily develop off a Linux box, and I run the i3 window manager. That's it. I don't need any of the fluff, just give me some terminal windows and I'm good.
 
 **Nate Finch:** Well, I did 13 years of Windows development, so I still at times want things I can poke at with a mouse but I also love the terminals. It's nice to put those both together and you have a lightweight windowy thing. It's pretty cool.
 
@@ -294,7 +294,7 @@ He also mentioned that talk by Bryan Boreham from this year's Golang UK Conferen
 
 **Erik St. Martin:** Yeah, I haven't actually seen that video. I'm gonna put that on my list. Actually, all the dotGo videos need to be on my list to watch. Alright, so what else do we have on our list before we move on to \#FreeSoftwareFriday?
 
-**Carlisia Pinto:** One more thing I wanted to mention - Peter Bourgon e-mailed the mailing list (I forgot which one) and they have the draft spec for package management ready, and they are calling for comments; they are soliciting comments either on Gophers Slack, the vendors channel or on a mailing list. And they started implementing another prototype too, so that's definitely moving along.
+**Carlisia Pinto:** One more thing I wanted to mention - Peter Bourgon emailed the mailing list (I forgot which one) and they have the draft spec for package management ready, and they are calling for comments; they are soliciting comments either on Gophers Slack, the vendors channel or on a mailing list. And they started implementing another prototype too, so that's definitely moving along.
 
 **Nate Finch:** Yeah, I looked at that and honestly, it's so long and so detailed... I need like a TL;DR version so that I can have some idea of what the overall meaning is, because it's seven pages long. I don't know that I can get all of that.
 
@@ -362,7 +362,7 @@ With that, we are out of time unfortunately.
 
 With that, I wanna thank everybody for being on the show today. Huge shout out to our sponsors, both to stackimpact and Code School, thank you to all of our live listeners and future listeners. Definitely forward this to your friends.
 
-We are @GoTimeFM on Twitter, we have a GoTimeFM channel on the Gophers Slack. If you are not subscribed already, go to GoTime.fm, our website for e-mail. If you wanna be on the show or you have ideas for guests or topics for this show, hit us up on GitHub.com/gotimefm/ping. With that, everybody goodbye.
+We are @GoTimeFM on Twitter, we have a GoTimeFM channel on the Gophers Slack. If you are not subscribed already, go to GoTime.fm, our website for email. If you wanna be on the show or you have ideas for guests or topics for this show, hit us up on GitHub.com/gotimefm/ping. With that, everybody goodbye.
 
 **Carlisia Pinto:** Thank you, Nathan. Goodbye!
 

@@ -128,7 +128,7 @@ When you talk to people about AI - I'm sure you both get this all the time - if 
 
 **Chris Benson:** Good use of masking tape on your laptop...
 
-**Brett Gaylor:** \[laughs\] Exactly. It might lead to duct tape flying off the shelves... There's a fun one called "A week with Wanda", that basically simulates an AI that tries to be helpful in your life, but goes off the rails and starts to suggest things to you that you may or may not want. This one's gonna be all done with -- it's like an episodic, serialized e-mail exchange with you... The AI might one week be like "Oh, I noticed that you wanted to spend more time with quality friends, so I went ahead and deleted half of your Facebook friends, because you don't talk to them anymore." The idea is that this AI is being a little bit too keen and too helpful.
+**Brett Gaylor:** \[laughs\] Exactly. It might lead to duct tape flying off the shelves... There's a fun one called "A week with Wanda", that basically simulates an AI that tries to be helpful in your life, but goes off the rails and starts to suggest things to you that you may or may not want. This one's gonna be all done with -- it's like an episodic, serialized email exchange with you... The AI might one week be like "Oh, I noticed that you wanted to spend more time with quality friends, so I went ahead and deleted half of your Facebook friends, because you don't talk to them anymore." The idea is that this AI is being a little bit too keen and too helpful.
 
 There's one called "Survival of the best fit", which does address a lot of the issues that you were mentioning, Daniel, about biases in workplace hiring. They wanna show that by simulating a job application process.
 

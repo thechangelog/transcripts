@@ -528,9 +528,9 @@ So use it for that, hopefully it helps you. We'd love to hear your feedback and 
 
 **Beyang Liu:** Yeah, totally. So even for the languages that we do currently support, the toolchains could always be better. The Go, JavaScript, Python, TypeScript - those are the languages that we have kind of work-in-progress toolchains for; we'd love to get contributions for that. If your favorite language happens to be a language that's not one of those languages, if you reach out, we'd love to work with you on how to kind of build a toolchain for that.
 
-It's one of those tasks that, I think... Like, building a source code analysis toolchain seems like really fancy, but you just come talk to us. It's actually pretty straightforward and you actually kind of learn a lot about the internals of programming languages and level up as a programmer when you do so. If you're interested in any of that, just tweet at us or shoot us an e-mail and we're happy to connect and see how we can work together.
+It's one of those tasks that, I think... Like, building a source code analysis toolchain seems like really fancy, but you just come talk to us. It's actually pretty straightforward and you actually kind of learn a lot about the internals of programming languages and level up as a programmer when you do so. If you're interested in any of that, just tweet at us or shoot us an email and we're happy to connect and see how we can work together.
 
-**Adam Stacoviak:** Or on your contact page, it's hi@sourcegraph.com. Is that a good e-mail for something like that?
+**Adam Stacoviak:** Or on your contact page, it's hi@sourcegraph.com. Is that a good email for something like that?
 
 **Beyang Liu:** Yep, that's perfect.
 

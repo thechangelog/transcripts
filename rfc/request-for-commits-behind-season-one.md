@@ -244,7 +244,7 @@ If all of your product and all of your engineering is dependent on open source, 
 
 **Nadia Eghbal:** Basically... Yeah, I mean, I remember thinking -- I had talked to so many people, and plenty of conversations resonated with different people, but I felt like with Mikeal it was someone I kept coming back to again and again. I think in our first conversation I realized he had seen so many different types of communities, types of situations that I could read about and try to understand, but that I hadn't experienced myself, so that was really interesting for me. And then reading some of his older writing, there was that same level of vision, or just wanting to zoom out and say, "What does it mean that we're doing all this?" Not just doing it, but kind of zooming out and asking the questions of "Why?" So whenever we would talk in person, I was just like, "Oh wow, he can get really deep into where is the world actually going, why is it going that direction, what can we do about it...?" and he became someone that was really formative for me in terms of how I think about sustainability, and I just wanted an excuse to keep going deeper on these topics.
 
-**Adam Stacoviak:** I remember, Jerod, when we got that e-mail from Nadia... Take us back, Jerod, if you can help me share these details... I recall Jerod and I having this perspective -- and it wasn't against Mikeal, we were just so pro-Nadia at that point. We were like, "I'm not sure we really wanna do a show that has a host along with Nadia..." We felt not that you couldn't do it on your own or you could do it on your own, it was just more like... We were just really pro Nadia, I think. What do you think, Jerod?
+**Adam Stacoviak:** I remember, Jerod, when we got that email from Nadia... Take us back, Jerod, if you can help me share these details... I recall Jerod and I having this perspective -- and it wasn't against Mikeal, we were just so pro-Nadia at that point. We were like, "I'm not sure we really wanna do a show that has a host along with Nadia..." We felt not that you couldn't do it on your own or you could do it on your own, it was just more like... We were just really pro Nadia, I think. What do you think, Jerod?
 
 **Jerod Santo:** Yeah, I was calling it "The Nadia Show"... \[laughter\]
 
@@ -252,7 +252,7 @@ If all of your product and all of your engineering is dependent on open source, 
 
 **Jerod Santo:** \[00:27:57.27\] ...and I was like, "No, Nadia's fine." But then Nadia's like, "Well, I really think Mikeal would add to it", and I was like "Wow, I mean... I'm willing to give that a shot, as well", and I actually think, Nadia, you were probably right and we were probably wrong. I think the show definitely is better for having you and Mikeal as a team. You guys are making a great team, I think. You guys bring the alternating perspectives, with the battle-hardened veteran of open source and the thorough journalist asking questions... Kind of from the inside and from the outside, so I think it's turned out great. But yeah, we were a little pro-Nadia at first... We needed to be convinced.
 
-**Adam Stacoviak:** I'm gonna share - hopefully, Nadia, you're not worried about this, or get any anxiety about it - a little piece that was in the original e-mail from Nadia back to us.
+**Adam Stacoviak:** I'm gonna share - hopefully, Nadia, you're not worried about this, or get any anxiety about it - a little piece that was in the original email from Nadia back to us.
 
 **Nadia Eghbal:** Oh, Jesus...
 

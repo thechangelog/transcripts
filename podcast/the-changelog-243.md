@@ -208,7 +208,7 @@ So the long-term goal for Chrome (and I believe also for Firefox) is something c
 
 **Adam Stacoviak:** I actually put in a username and password into a site that I've done the check, I know that the URL is correct, but for whatever reason, they don't have that page secure, and I'm like "Well..." I mean, I look at the value of what the service actually is and I say "What do they have of mine that I gotta worry about this?" So what do you say to something like that where even when a little pop-up comes up and says, "Hey, this is not encrypted. You're putting your password across the wire. Are you sure you wanna continue?", like "Okay!" \[laughter\]
 
-**J. Hoffman-Andrews:** You know, I think you're wise to think twice about entering passwords in site like those. I'd recommend anyone who has need of a site that doesn't encrypt its passwords should definitely send an e-mail to their support stuff and say "This is a really big security problem. You need to fix it."
+**J. Hoffman-Andrews:** You know, I think you're wise to think twice about entering passwords in site like those. I'd recommend anyone who has need of a site that doesn't encrypt its passwords should definitely send an email to their support stuff and say "This is a really big security problem. You need to fix it."
 
 **Adam Stacoviak:** That's why Let's Encrypt is in place.
 
@@ -469,7 +469,7 @@ This is relatively new; it's been in the works for a few years now... There are 
 
 **Adam Stacoviak:** Awesome.
 
-**J. Hoffman-Andrews:** If you've used Certbot and found it lacking or difficult, file documentation bugs, or bugs on how we can make it better; that's always super welcome. And if you maintain a website and it's not yet HTTPS, go and do that. And if you use a website that's not HTTPS, e-mail them and say "Why aren't you HTTPS yet? I really wanna see this." And if you use a hosting provider that doesn't offer easy, automatic HTTPS, tell them to do it. And especially if you work for a hosting provider, enable HTTPS; make it an automatic thing that's on for everybody by default, and we'll get there.
+**J. Hoffman-Andrews:** If you've used Certbot and found it lacking or difficult, file documentation bugs, or bugs on how we can make it better; that's always super welcome. And if you maintain a website and it's not yet HTTPS, go and do that. And if you use a website that's not HTTPS, email them and say "Why aren't you HTTPS yet? I really wanna see this." And if you use a hosting provider that doesn't offer easy, automatic HTTPS, tell them to do it. And especially if you work for a hosting provider, enable HTTPS; make it an automatic thing that's on for everybody by default, and we'll get there.
 
 **Adam Stacoviak:** So advocacy is a huge part, then.
 
