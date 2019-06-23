@@ -346,7 +346,7 @@ So we're dealing with it now. Things will be bumpy, things will be rough, and I 
 
 These projects are my bread and butter for the kind of work I'm doing right now, so a big shout-out to the maintainers of those projects.
 
-**Carmen Andoh:** It's already been on the show, but of course I give love to Athens. I think it's both an interesting way to enrich the ecosystem, but also just how they are so welcoming to open source people... And of course, Kubernetes.
+**Carmen Andoh:** It's already been on the show, but of course I give love to [Athens](https://docs.gomods.io/). I think it's both an interesting way to enrich the ecosystem, but also just how they are so welcoming to open source people... And of course, [Kubernetes](https://kubernetes.io/).
 
 I wish I could have thought about that a little bit more, so I give some love to some open source projects that need some more discovery... Because there are certainly a lot out there. The ones that are out there are really the ones that do kind of like the UNIX philosophy - they might do one thing, but do one thing really well. So maybe some of these web router libraries - because the standard library doesn't have one.
 
