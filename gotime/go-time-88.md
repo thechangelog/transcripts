@@ -22,7 +22,7 @@
 
 **Carmen Andoh:** Aww... \[laughs\]
 
-**Mark Bates:** Anyway, welcome! I'm very excited. Mat couldn't be here with us. I think he's off with all the GopherCon EU peeps, doing GopherCon EU funness in the Canary Islands... So he entrusted me to guide the ship. We're gonna talk about open source this week. I think it's gonna be an interesting show, because I know Johnny you don't contribute a lot to open source, correct?
+**Mark Bates:** Anyway, welcome! I'm very excited. Mat couldn't be here with us. I think he's off with all the GopherCon EU peeps, doing [GopherConEU](https://twitter.com/gopherconeu) funness in the Canary Islands... So he entrusted me to guide the ship. We're gonna talk about open source this week. I think it's gonna be an interesting show, because I know Johnny you don't contribute a lot to open source, correct?
 
 **Johnny Boursiquot:** No, not through code... But that's definitely something we can get into. There are lots of ways to contribute to a community, but definitely not a whole lot of code.
 
@@ -48,7 +48,7 @@ So I did a lot of code, and also a lot of issue gardening, and a lot of communit
 
 **Johnny Boursiquot:** Yeah, yeah...
 
-**Mark Bates:** We should all do our impressions of Mat doing his impression of Francesc... But no, seriously - Johnny, back to you; what does open source mean to you?
+**Mark Bates:** We should all do our impressions of Mat doing his impression of [Francesc]( https://twitter.com/francesc)... But no, seriously - Johnny, back to you; what does open source mean to you?
 
 **Johnny Boursiquot:** I can tell you what I used to think open source was. Basically, to me it was free software, free stuff. You go online, and if you are a user of a software -- I remember when I didn't wanna buy a full-on Microsoft Office suite, or something; I went and found open source alternatives. There's been a few...
 
@@ -132,17 +132,17 @@ So yeah, I think about it a lot, Mark... \[laughter\]
 
 Your analogy of the hotel was so, so accurate. It's funny, because yeah, you write docs, and you put together websites, or in my case I do videos, and blog posts, and all these sorts of things in an effort to make it easier for people, and to help them answer their own questions... But invariably, you still get the GitHub issues or the Slack messages where the response is just to drop a link to the document itself. They're the "Let me google that for you" kind of approach. You get those, and like you said, those can be maddening, they can be infuriating, because you keep saying to yourself "Why do I write the docs if no one's reading the docs?"
 
-**Carmen Andoh:** Yes, exactly. And if you google -- literally, go now to your search browser; I use Google, but \[unintelligible 00:23:00.08\] any web search engine, and just type in "why are maintainers." The autofill would be "Why are they so horrible", and it really is a lack of understanding that you -- you know, you've never worked a summer job behind a hotel desk. Or maybe you weren't a registration volunteer for conferences, or something. Anything that's gonna require repetition ad nauseam.
+**Carmen Andoh:** Yes, exactly. And if you google -- literally, go now to your search browser; I use Google, but DuckDuckGo, any web search engine, and just type in "why are maintainers." The autofill would be "Why are they so horrible", and it really is a lack of understanding that you -- you know, you've never worked a summer job behind a hotel desk. Or maybe you weren't a registration volunteer for conferences, or something. Anything that's gonna require repetition ad nauseam.
 
 There's a reason why maintainers are the way they are, and just trying to say "Well, why are they that way?" goes a long way forward towards being a better contributor.
 
 **Mark Bates:** Yeah, totally. I know I occasionally can get snippy, and I try not to... But occasionally it happens when you're responding to the same thing, or... The thing that really gets me as a maintainer is the "This is broken" bug. I feel like we all know what that is. The title is usually "XYZ is broken", or doesn't work; some super-blanket... You know, it's not working.
 
-\[00:24:13.26\] And then they say "I tried to use software X and it doesn't work", and that's the whole ticket. And you know, you're just like "Look, I wanna help. Please, give me some more information. Give us a repo", like a reproducible thing; fill in the information, do the Go eng stuff we've asked for. Help us help you.
+\[00:24:13.26\] And then they say "I tried to use software X and it doesn't work", and that's the whole ticket. And you know, you're just like "Look, I wanna help. Please, give me some more information. Give us a repo", like a reproducible thing; fill in the information, do the `go env` stuff we've asked for. Help us help you.
 
 **Carmen Andoh:** And there are automated tools that GitHub and GitLab are even including in that via issue templates. If you go and click on an issue template, you have a prefilled set of questions that they want you to ask... And it is quite frustrating to see that people who file issues or bugs ignore those questions. And then you try to say something like "Please fill out all of these. If you cannot fill out all of these, then please go take it to a discussion forum, or somewhere else." Because there's this psychological effect -- I look at the number of open issues, and it's growing by hundreds or thousands. In Go's case it's something like 4,000. So then you have a lot of time gardening and triaging and just doing a lot of toil work, to the point where you can't even get to the actual work of feature requests or patches or anything like that. It's a real problem.
 
-I love @JennSchiffer on Twitter, she did that '80s meme generator, and it was like "Open source is a prison!" It just made me laugh, because those who've been in it understood exactly what that meant. I'll have to find it.
+I love [JennSchiffer](https://twitter.com/jennschiffer) on Twitter, she did that '80s meme generator, and it was like "Open source is a prison!" It just made me laugh, because those who've been in it understood exactly what that meant. I'll have to find it.
 
 **Johnny Boursiquot:** Yeah, please do find that.
 
@@ -152,7 +152,7 @@ I love @JennSchiffer on Twitter, she did that '80s meme generator, and it was li
 
 So if you're looking for a fast resolution of your problem, you kind of follow the rules of the template. That's the first thing I'd do.
 
-And second, if I know what the problem is - especially if I know what the problem is - I just open up a PR to fix it. It's not that complicated, right? \[unintelligible 00:27:11.25\] and the reason for that is a lot of times there's some fear and trepidation there. There's the impostor syndrome where you're like "I don't feel like I'm competent enough to submit a pull request to this." There's that factor of it, and that's totally fine.
+And second, if I know what the problem is - especially if I know what the problem is - I just open up a PR to fix it. It's not that complicated, right? I'll strike that but we still can leave it for recording. And the reason for that is a lot of times there's some fear and trepidation there. There's the impostor syndrome where you're like "I don't feel like I'm competent enough to submit a pull request to this." There's that factor of it, and that's totally fine.
 
 **Mark Bates:** But there's also the factor with the pull request of "Should I ask for permission to make this pull request first?"
 
@@ -190,7 +190,7 @@ Let's talk about why open source maintainers do this though. I mean, we've just 
 
 **Mark Bates:** Yeah, not just because of work.
 
-**Carmen Andoh:** Whether it was the case of Travis, or Go now, I feel like I am part of a cause, I'm contributing to a cause. I'm contributing to a thing that is gonna better other people's lives, and I think that's also where the massive network effects are happening. One of the most popular Go open source projects was Kubernetes. You have this sense that you're in a movement or you're a part of history where you're making things better for the next generation. And that's why I do it.
+**Carmen Andoh:** Whether it was the case of Travis, or Go now, I feel like I am part of a cause, I'm contributing to a cause. I'm contributing to a thing that is gonna better other people's lives, and I think that's also where the massive network effects are happening. One of the most popular Go open source projects was [Kubernetes](https://twitter.com/kubernetesio). You have this sense that you're in a movement or you're a part of history where you're making things better for the next generation. And that's why I do it.
 
 **Mark Bates:** That's a valid reason. Johnny, I know you don't run very many open source projects...
 
@@ -336,13 +336,13 @@ I expect that some things will not always be smooth, that I may have to come up 
 
 So we're dealing with it now. Things will be bumpy, things will be rough, and I as a user of the language, as a participant in this community of this technology platform, I understand that, and I'm willing to be patient, and wherever I can I'm willing to contribute to make it better. Overall, I have less complaints about things, I suppose; that's my approach, that's my stance, generally speaking, when it comes to open source software.
 
-**Mark Bates:** I love you, Johnny. I really do. You're just so positive and upbeat. You're just an amazing, you really are. I mean that. Carmen was gushing on you earlier, I'm gonna gush on you now.
+**Mark Bates:** I love you, Johnny. I really do. You're just so positive and upbeat. You're just an amazing person, you really are. I mean that. Carmen was gushing on you earlier, I'm gonna gush on you now.
 
 **Johnny Boursiquot:** \[laughs\]
 
 **Mark Bates:** Okay... Well, kids, we're getting near the end of the show here; you know what the music means... So since we're talking about open source, I just wanna ask each of you real quick - give me an open source project you're playing with these days, or smitten with, or just find really interesting right now. Johnny, you first.
 
-**Johnny Boursiquot:** \[01:00:06.00\] Let me see... A lot of the services -- I'm currently working in a microservices architecture. We have a ton of microservices, doing a lot of different things within our ecosystem of applications... And the project I use - it's basically two projects I use quite frequently in building these components - is Echo from LabStack. It's a nice router; I've used that for years now, and it covers 99% of my use cases. Every now and then I'll do something odd and I kind of have to see why it does what it does... Again, trade-offs. If it's a benefit to me 99% of the time, I'm not gonna complain it doesn't do an edge case, and whatnot. I also use gorilla/mux for a lot of that stuff, too... And I've actually started using more and more gRPC.
+**Johnny Boursiquot:** \[01:00:06.00\] Let me see... A lot of the services -- I'm currently working in a microservices architecture. We have a ton of microservices, doing a lot of different things within our ecosystem of applications... And the project I use - it's basically two projects I use quite frequently in building these components - is [Echo from LabStack](https://github.com/labstack/echo). It's a nice router; I've used that for years now, and it covers 99% of my use cases. Every now and then I'll do something odd and I kind of have to see why it does what it does... Again, trade-offs. If it's a benefit to me 99% of the time, I'm not gonna complain it doesn't do an edge case, and whatnot. I also use [gorilla/mux](https://github.com/gorilla/mux) for a lot of that stuff, too... And I've actually started using more and more [gRPC](https://grpc.io/).
 
 These projects are my bread and butter for the kind of work I'm doing right now, so a big shout-out to the maintainers of those projects.
 
@@ -350,11 +350,11 @@ These projects are my bread and butter for the kind of work I'm doing right now,
 
 I wish I could have thought about that a little bit more, so I give some love to some open source projects that need some more discovery... Because there are certainly a lot out there. The ones that are out there are really the ones that do kind of like the UNIX philosophy - they might do one thing, but do one thing really well. So maybe some of these web router libraries - because the standard library doesn't have one.
 
-The fact that they're out there and that they kind of are trying to solve a problem that the standard library \[unintelligible 01:02:00.02\] rightly so, I think, rather than focus on an implementation; just say "Let's let third-party libraries do it." So I just really like any of those kinds of libraries, where I'm reaching for again and again.
+The fact that they're out there and that they kind of are trying to solve a problem that the standard library said rightly so, I think, rather than focus on an implementation; just say "Let's let third-party libraries do it." So I just really like any of those kinds of libraries, where I'm reaching for again and again.
 
-**Mark Bates:** Alright. I wanna give a shout-out to both (I've already done it once) the Buffalo core team, but also everybody who's contributed to any of my projects over the years. I don't care what language it was in; thank you so much. Hopefully I was nice to you, and I thank you so much for all your contributions.
+**Mark Bates:** Alright. I wanna give a shout-out to both (I've already done it once) the [Buffalo](https://gobuffalo.io/en=) core team, but also everybody who's contributed to any of my projects over the years. I don't care what language it was in; thank you so much. Hopefully I was nice to you, and I thank you so much for all your contributions.
 
-The one thing I'm gonna throw out is a project called Pigeon, which is not one of mine or Buffalo's; it's a parser expression grammars, which I have been playing a lot with lately. They let you build your own little parsers, and essentially little languages. Pigeon is the Go implementation of that, and that's been pretty fun to play with, so... If you're looking to do that, check that out.
+The one thing I'm gonna throw out is a project called [Pigeon](https://github.com/mna/pigeon), which is not one of mine or Buffalo's; it's a parser expression grammars, which I have been playing a lot with lately. They let you build your own little parsers, and essentially little languages. Pigeon is the Go implementation of that, and that's been pretty fun to play with, so... If you're looking to do that, check that out.
 
 But anyway, thank you so much to Johnny, and Carmen, and Adam and the crew at Changelog. I'm Mark Bates. Why wouldn't I be...? \[laughter\] Saying "Be a good contributor, be a good community member, help your maintainers out."
 
