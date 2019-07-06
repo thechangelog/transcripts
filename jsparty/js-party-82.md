@@ -122,7 +122,7 @@ And also the V8 team - originally, Node used V8, but the V8 team did not collabo
 
 **Kevin Ball:** We have another question here...
 
-**Audience member:** Yeah. It's sort of long, I had to write it down. \[00:27:00.17\] it looks like the Node team works more like in a reactive way, instead of being proactive, and suggest changes and cool things to add... That's why I want to take advantage of having you folks here, and I want to ask you - are there any ongoing efforts towards closing that gap and having people on both teams? Is that something possible to have?
+**Audience member:** Yeah. It's sort of long, I had to write it down. \[unintelligible 00:27:00.17\] it looks like the Node team works more like in a reactive way, instead of being proactive, and suggest changes and cool things to add... That's why I want to take advantage of having you folks here, and I want to ask you - are there any ongoing efforts towards closing that gap and having people on both teams? Is that something possible to have?
 
 **Anna Henningsen:** Ruben already said a bit about that... So one big thing that happened is not only is V8 part of Node, but also Node is part of V8's CI. That has been the case for 1-2 years. It's pretty recent still. And that just makes us work together more closely inherently, because now they can't break Node without at least being aware of it.
 
