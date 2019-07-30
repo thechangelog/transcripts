@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-147-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-148-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -215,6 +215,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://www.lysandredebut.fr"><img src="https://avatars1.githubusercontent.com/u/30755778?v=4" width="100px;" alt="Lysandre Debut"/><br /><sub><b>Lysandre Debut</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=LysandreJik" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/yerke"><img src="https://avatars1.githubusercontent.com/u/5137691?v=4" width="100px;" alt="Yerkebulan Tulibergenov"/><br /><sub><b>Yerkebulan Tulibergenov</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=yerke" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/C-Saunders"><img src="https://avatars2.githubusercontent.com/u/1126917?v=4" width="100px;" alt="Charlie Saunders"/><br /><sub><b>Charlie Saunders</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=C-Saunders" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/DuaneOBrien"><img src="https://avatars1.githubusercontent.com/u/4315550?v=4" width="100px;" alt="Duane O'Brien"/><br /><sub><b>Duane O'Brien</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=DuaneOBrien" title="Documentation">📖</a></td>
   </tr>
 </table>
 
