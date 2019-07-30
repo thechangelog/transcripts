@@ -1321,6 +1321,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "C-Saunders",
+      "name": "Charlie Saunders",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1126917?v=4",
+      "profile": "https://github.com/C-Saunders",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
