@@ -38,7 +38,7 @@ This is where TinyGo kicks in and says "Let's convert that SSA form instead to L
 
 We have a team of four official members. We have 25 other contributors (I believe) now... But Ayke handles the compiler heavy-lifting, I'm sort of responsible for the hardware, peripheral interfaces, and I'm a spokesmodel for the group, so I do a lot of the talks and promotion, and just generally yell for attention... Then Johan Brandhorst does a lot of amazing work with TinyGo and WebAssembly; Justin Clift is also doing amazing work, even though he's not an official member of the organization yet... If you're listening to this, I just haven't gotten around to sending you an email, because I know you've been busy...
 
-And then \[unintelligible 00:07:25.23\] who is also Spanish, who has basically been doing all of the amazing work with all of the displays. And then we have a lot of other contributors, and over 200 people on our Slack channel now... It's sort of taking off by leaps and bounds. And that really segued nicely to the big announcements we made yesterday here at OSCON. We had three huge things that came out yesterday; we thought OSCON was a great place for us to launch these things. It's the center of the legitimate open source world, if you will, in the U.S.
+And then [conejoninja aka Daniel Esteban](https://github.com/conejoninja) who is also Spanish, who has basically been doing all of the amazing work with all of the displays. And then we have a lot of other contributors, and over 200 people on our Slack channel now... It's sort of taking off by leaps and bounds. And that really segued nicely to the big announcements we made yesterday here at OSCON. We had three huge things that came out yesterday; we thought OSCON was a great place for us to launch these things. It's the center of the legitimate open source world, if you will, in the U.S.
 
 \[00:08:06.07\] So the first one is TinyGo powered by Arduino. We've been developing a very special relationship with Arduino. They're the pioneers of open source hardware, they're a really cool company. "Arduino is love", they say, and they really mean it. They've been incredibly helpful to us.
 
@@ -56,7 +56,7 @@ We have TinyGo running on the new Arduino Nano 33 IoT chip. That particular boar
 
 **Ron Evans:** So it's the same interface. So you take your regular Go code that you've been using on your embedded Linux, and you copy and paste it into your new code that you're writing for your microcontroller, change a few things based on your authentication, and it just works. So it's a secure connection from your chip, from your Arduino Nano 33 IoT chip to your secure messaging broker in whatever cloud service you're using. That is table stakes for the internet of things. If you don't have that, you're not ready.
 
-So that was sort of our "Here we are, we're ready for our close-up, Mr. \[unintelligible 00:10:19.25\]"
+So that was sort of our, "Here we are, we're ready for our close-up, Mr. DeMille."
 
 **Jerod Santo:** So you're ready for IoT. \[laughs\]
 
@@ -86,7 +86,7 @@ The interesting part is we also support using our hardware boards emulated, simu
 
 **Ron Evans:** "...please let me license this for a lot of money, so I can build them." Those are both really good options and they've worked quite well, but there's a new, third option which is very exciting to me, because we're really at the first steps of a Cambrian explosion of unique silicon that does very efficient things for processing, deep learning models, or other types of parallel processing where doing some silicon optimization can result in a substantially better amount of computation per watt.
 
-The reason why I care about that is for two reasons. The first one is battery life. If we're talking about edge devices, we need to save on batteries. And the other one is we need to stop using so much electricity in the world. We need to reduce our power consumption, just so that we can preserve resources. The external costs of burning carbon for a data center are not measured in your cost -- I saw \[unintelligible 00:13:25.16\] the other day, he posted one of his provocative tweets, as he tends to do (great guy). It was "Has anyone done a calculation of the carbon cost of your continuous integration servers?" Dead silence on the internets, like "Whoops, you just pulled the covers back, and we don't like how we look right now... Don't answer that question..."
+The reason why I care about that is for two reasons. The first one is battery life. If we're talking about edge devices, we need to save on batteries. And the other one is we need to stop using so much electricity in the world. We need to reduce our power consumption, just so that we can preserve resources. The external costs of burning carbon for a data center are not measured in your cost -- I saw [searls](https://twitter.com/searls) the other day, he posted one of his provocative tweets, as he tends to do (great guy). It was "Has anyone done a calculation of the carbon cost of your continuous integration servers?" Dead silence on the internets, like "Whoops, you just pulled the covers back, and we don't like how we look right now... Don't answer that question..."
 
 **Jerod Santo:** Right.
 
@@ -172,9 +172,9 @@ It's an unfair comparison, just because we're a speedboat and they're a battlesh
 
 **Jerod Santo:** If you have a good enough current, you don't have to work that hard, right?
 
-**Ron Evans:** You do if you ever wanna get there in time for the \[unintelligible 00:19:40.15\]
+**Ron Evans:** You do if you ever wanna get there in time for the water.
 
-**Jerod Santo:** Oh, okay. I didn't know you had scheduled events...
+**Jerod Santo:** Oh, okay. I didn't know we had scheduled events...
 
 **Break:** \[00:19:51.26\]
 
@@ -222,7 +222,11 @@ It's an unfair comparison, just because we're a speedboat and they're a battlesh
 
 **Jerod Santo:** "It was you, sir..." \[laughs\]
 
-**Ron Evans:** "No way it was me. \[unintelligible 00:26:00.28\] It could never have been me." So there's something to be said for a certain amount of discipline. Discipline leads to freedom. If you're disciplined about going to the gym, then you'll have the freedom to maybe eat some pizza, because you've already worked out...
+**Ron Evans:** "No way it was me. `git blame`, ahh someobody modified the git logs!"
+
+**Jerod Santo:** They rewrote the history.
+
+**Ron Evans:** "It could never have been me." So there's something to be said for a certain amount of discipline. Discipline leads to freedom. If you're disciplined about going to the gym, then you'll have the freedom to maybe eat some pizza, because you've already worked out...
 
 **Jerod Santo:** Right.
 
@@ -386,17 +390,17 @@ I think one of the big differences -- what was the name of the guy who created t
 
 **Adam Stacoviak:** Me neither.
 
-**Ron Evans:** It's not Mitt Nick... Anyway.
+**Ron Evans:** It's not Mitnick... Anyway.
 
-**Jerod Santo:** \[unintelligible 00:43:25.10\]
+**Jerod Santo:** Was it Stuxnet?
 
-**Ron Evans:** He was the first \[unintelligible 00:43:27.27\] So it was not created maliciously; it was created originally because he wanted to map all the IP addresses within this space, and he wrote this code that would automatically download itself onto any computer and then do the same thing. He made an error in the code, which caused it to escape the subnet, and it took down the entire internet at the time.
+**Ron Evans:** It was the first internet worm. It was not created maliciously; it was created originally because he wanted to map all the IP addresses within this space, and he wrote this code that would automatically download itself onto any computer and then do the same thing. He made an error in the code, which caused it to escape the subnet, and it took down the entire internet at the time.
 
 \[00:43:54.20\] He got in a bit of trouble, and if it hadn't been for dad's NSA connections, he would probably still be in an undisclosed location. Actually, back in those days they still hired teenagers who were hackers to work for them as security people. Not like now.
 
-But take that idea, but apply it to biohacking. Well-meaning person, doesn't think they're doing anything bad, in a basement, not fully understanding the implications of their work, and making an error. No bad intentions. I'm ignoring the bad intentions people, just because I think that it's very hard to do anything that works at all in this space yet, so the odds of you making a mistake and having something happen are much greater than bad people doing awful things... But that's also a possibility.
+But take that idea, but apply it to biohacking. Well-meaning person, doesn't think they're doing anything bad, in a basement, not fully understanding the implications of their work, and making an error. No bad intentions. I'm ignoring the bad intentioned people, just because I think that it's very hard to do anything that works at all in this space yet, so the odds of you making a mistake and having something happen are much greater than bad people doing awful things... But that's also a possibility.
 
-But if all we do is restrict it completely, like "No man's land. You can't go there", then it's going to be done elsewhere. It's the as saying "You can't do computing on the internet, because you might transfer an internet virus." So one extreme means we remain in ignorance, and then it's like The Demon-Hunted World of Carl Sagan - we don't understand what's going on, and it's affecting us.
+But if all we do is restrict it completely, like "No man's land. You can't go there", then it's going to be done elsewhere. It's the same as saying, "You can't do computing on the internet, because you might transfer an internet virus." So one extreme means we remain in ignorance, and then it's like The Demon-Haunted World of Carl Sagan - we don't understand what's going on, and it's affecting us.
 
 The other is every human for themselves, with no control and no care over the implications - which I think has been a very common attitude in tech, which is poorly interpreting Grace Hopper's "Ask forgiveness, not permission." First of all, many people don't know that Admiral Grace Hopper said that; the attribution. But also, they don't realize what she was talking about. She was a military officer in a large organization; and if you've ever worked at a company or an organization that operates at that kind of global scale, it's very hard to get permission to do anything, because you need to go up three or four levels in the hierarchy above your boss to get permission... Especially if there's no cost to the organization and substantial benefit. So "Ask forgiveness, not permission" meant "Do the right thing within the organization, whether or not they know it. That way you can help the people that you work for." Not "Move the extrinsic cost to the public domain, so that we can profit." That is not the same thing at all.
 
@@ -430,7 +434,7 @@ But yeah, Slack is great. Twitter - we're @tinygolang on Twitter, because there 
 
 **Jerod Santo:** Yeah, that's a bingo right there. A buzzword bingo.
 
-**Ron Evans:** If you \[unintelligible 00:49:50.28\] because we hit all three of those, it's because you're just not buzzword-compliant and industrious.
+**Ron Evans:** If you don't fund us because we hit all three of those, it's because you're just not buzzword-compliant and industrious.
 
 **Jerod Santo:** That's right. Cool, Ron. Thanks so much for talking to us today, man. Lots of fun.
 
