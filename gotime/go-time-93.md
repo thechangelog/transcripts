@@ -28,17 +28,17 @@
 
 **Jon Calhoun:** Okay. And then we also have Jamal Yusuf. Did I...?
 
-**Jamal Yusuf:  ** Yes, you got it right.
+**Jamal Yusuf:** Yes, you got it right.
 
 **Jon Calhoun:** I&#39;ve asked you beforehand, but I wanna make sure I did it right. Okay. Jamal is going to be at his first GopherCon, so he&#39;s gonna be here with me asking questions, trying to get the scoop and trying to make it a little bit easier for you guys to get an idea of what to expect.
 
 Okay, so I guess just to get started, Jamal, do you have any questions for them, or do you want me to start? I don&#39;t mind...
 
-**Jamal Yusuf:  ** No, I wanna know what the band is. Everybody has guitars in their background, right? [laughter]
+**Jamal Yusuf:** No, I wanna know what the band is. Everybody has guitars in their background, right? [laughter]
 
 **Jon Calhoun:** That&#39;s the first question, what&#39;s the band...
 
-**Jamal Yusuf:  ** I&#39;m missing a part of the Go community, man... Everybody seems to play instruments, right? I&#39;ve gotta get a guitar, a harmonica, or something...
+**Jamal Yusuf:** I&#39;m missing a part of the Go community, man... Everybody seems to play instruments, right? I&#39;ve gotta get a guitar, a harmonica, or something...
 
 **Mark Bates:** If you&#39;re gonna play harmonica, you&#39;re gonna have to fight it out with Ron Evans, who&#39;s one of the most amazing harmonica players. As a matter of fact, I got my box of harmonicas out, bringing it to San Diego so he can teach me a few things on it. But yeah, the band started -- this will be the third year of the band. It started a couple years ago in Denver.
 
@@ -48,7 +48,7 @@ What we do is we get a full backline, a full band that comes in, and they usuall
 
 **Mark Bates:** Has the location of the party been announced?
 
-**Jamal Yusuf:  ** If it&#39;s not already, it&#39;s gotta be soon.
+**Jamal Yusuf:** If it&#39;s not already, it&#39;s gotta be soon.
 
 **Mark Bates:** [00:04:03.10] Yeah... I don&#39;t wanna say where it is for fear of Heather. [laughter]
 
@@ -60,7 +60,7 @@ What we do is we get a full backline, a full band that comes in, and they usuall
 
 **Mark Bates:** She is amazing. Jamal, do you play an instrument?
 
-**Jamal Yusuf:  ** I&#39;ve got some harmonicas in a drawer that I&#39;ve been meaning to learn, but I have not done that yet... But now that I see how many musicians are secretly in the Go community, I need to start practicing. [laughter]
+**Jamal Yusuf:** I&#39;ve got some harmonicas in a drawer that I&#39;ve been meaning to learn, but I have not done that yet... But now that I see how many musicians are secretly in the Go community, I need to start practicing. [laughter]
 
 **Mark Bates:** I think Go, like most communities -- you know, half the community is developers, right? Sorry, half the developers are musicians. [laughter] Half the development community is musicians, I would say. It kind of goes together, right? So bring your harmonicas, and how knows, maybe Ron can teach you a few things [unintelligible 00:04:53.26]
 
@@ -70,13 +70,13 @@ It&#39;s fun, there&#39;s a GopherCon band channel in Slack, and you can drop in
 
 **Mark Bates:** There was no guitar -- I had bought a guitar for the conference and I ended up returning it; [unintelligible 00:05:41.24] the party. Like I said, it&#39;s usually good fun for everybody, and this year&#39;s location is stunning.
 
-**Jamal Yusuf:  ** San Diego, right?
+**Jamal Yusuf:** San Diego, right?
 
 **Johnny Boursiquot:** Yeah.
 
 **Mark Bates:** Yeah... But where they&#39;re having the party - it&#39;s pretty awesome. You&#39;ll definitely want to attend, let&#39;s put it that way.
 
-**Jamal Yusuf:  ** Some question I have - just in general, going to a conference, it&#39;s nice to go and see everybody in person for the first time, but in terms of networking, I know that the conference is set up in a way to allow downtime in between workshops and talks and all that... But one of the things I&#39;m kind of struggling is planning out the entire day; it&#39;s a little overwhelming, with all the talks happening at the same time, workshops and all that... Is there a preferred time to network, other than the welcome party? Is there an unofficial, off-the-schedule, like &quot;Hey, go to this Starbucks near the  hotel. That&#39;s where all the real gophers are gonna be&quot;? [laughter]
+**Jamal Yusuf:** Some question I have - just in general, going to a conference, it&#39;s nice to go and see everybody in person for the first time, but in terms of networking, I know that the conference is set up in a way to allow downtime in between workshops and talks and all that... But one of the things I&#39;m kind of struggling is planning out the entire day; it&#39;s a little overwhelming, with all the talks happening at the same time, workshops and all that... Is there a preferred time to network, other than the welcome party? Is there an unofficial, off-the-schedule, like &quot;Hey, go to this Starbucks near the  hotel. That&#39;s where all the real gophers are gonna be&quot;? [laughter]
 
 **Mark Bates:** I don&#39;t think there&#39;s any secret society, is there, Johnny? If there is, I don&#39;t know about it.
 
@@ -100,7 +100,7 @@ So you go to that one, and then two weeks later you sit in your living room, gra
 
 **Mark Bates:** Keep it at the hotel.
 
-**Jamal Yusuf:  ** Where else am I gonna put all the stickers I get, right? [laughs]
+**Jamal Yusuf:** Where else am I gonna put all the stickers I get, right? [laughs]
 
 **Johnny Boursiquot:** Yeah, you&#39;ll have time to decorate afterwards...
 
@@ -130,7 +130,7 @@ And by the way, Heather would kill me if it sounds like we&#39;re telling everyb
 
 So do it, it&#39;s worth it. The networking is 100% worth it. And Johnny is right - everybody in the community is super-approachable. No one will yell at you or brush you off, absolutely off. They might brush me off, but not you.
 
-# **Break:** [00:14:22.01] to [00:16:22.04]
+# **Break:** [00:14:22.01]
 
 **Jon Calhoun:** So for those of us who have never gone to a training session, can you guys talk a little bit more about why -- this year might be too late, obviously, but in the future, why they should consider them? Versus -- you know, there&#39;s all these different training options; you can hire people to come into your company, you can buy courses online... There&#39;s  a million different options, but training sessions always seem to sell out pretty quickly, or they seem to do pretty well... So what makes that in-person training session at like a GopherCon or something like that - who would you pitch that to?
 
@@ -180,13 +180,13 @@ So definitely pace yourself... It&#39;s hard to say &quot;Don&#39;t be overwhelm
 
 **Mark Bates:** [00:24:20.05] Oh yeah, it&#39;s tough. Again, I agree with Johnny. I often go back to my hotel room in the afternoon - usually in the afternoon break - for a couple hours and just sit in the dark watching something on Netflix for an hour... Just trying to recenter and refocus my energy again before I go back out and do it all over again. It&#39;s a lot. Have you ever been to any conferences before, Jamal?
 
-**Jamal Yusuf:  ** I have, but I&#39;m completely new to the entire gopher community. It&#39;s not my first conference, but I never thought I&#39;d be attending a GopherCon conference. And maybe just to speak on the perspective of somebody who&#39;s just coming into the community and seeing it, all the hard work you guys are putting in... The first thing is I&#39;m coming from a C++ background, and C++ conferences are not as fun, and there aren&#39;t as many opportunities... There&#39;s almost a rigid stance on things, and it&#39;s very hard to integrate and fall into that.
+**Jamal Yusuf:** I have, but I&#39;m completely new to the entire gopher community. It&#39;s not my first conference, but I never thought I&#39;d be attending a GopherCon conference. And maybe just to speak on the perspective of somebody who&#39;s just coming into the community and seeing it, all the hard work you guys are putting in... The first thing is I&#39;m coming from a C++ background, and C++ conferences are not as fun, and there aren&#39;t as many opportunities... There&#39;s almost a rigid stance on things, and it&#39;s very hard to integrate and fall into that.
 
 I didn&#39;t even know there is a possibility of getting scholarships to come to GopherCon, or even partial scholarships... But Carmen was the one who probably taught me the most. I did Go as a hobby for a few years, and just followed the community, I read a lot of the stuff that you guys write... And it was my fun language, man; it was what I programmed in for fun. It wasn&#39;t what I did for a living. I got on Twitter and I was completely new, and it was the talk that Carmen made in 2017, the keynote speech at GothamGo, &quot;The Legacy of Go.&quot;
 
 **Mark Bates:** Oh, yeah...
 
-**Jamal Yusuf:  ** Yeah, that was the one that kind of -- because it&#39;s one thing to know how amazing a technology is, but until you know of the community or you know of some people in there you don&#39;t feel like you&#39;re a part of it. You&#39;re always on the exterior and never think that there&#39;s a pathway to get into it... But Carmen&#39;s talk really just was amazing. And I remember writing a comment under it when it was first uploaded, like &quot;Thank you, Carmen. This is so important&quot; etc. Then a year goes by and I&#39;m like &quot;You know what, I&#39;m gonna see what&#39;s up, let me get on Twitter&quot;, and one of the first people I connected with was Carmen... And she really made me feel welcome in the community, and kind of gave me a perspective that I needed... And that is probably the reason why I&#39;m still doing Go. I actually have a job now as a Go developer, which I still don&#39;t believe -- I get to use the language that I love and get paid for it.
+**Jamal Yusuf:** Yeah, that was the one that kind of -- because it&#39;s one thing to know how amazing a technology is, but until you know of the community or you know of some people in there you don&#39;t feel like you&#39;re a part of it. You&#39;re always on the exterior and never think that there&#39;s a pathway to get into it... But Carmen&#39;s talk really just was amazing. And I remember writing a comment under it when it was first uploaded, like &quot;Thank you, Carmen. This is so important&quot; etc. Then a year goes by and I&#39;m like &quot;You know what, I&#39;m gonna see what&#39;s up, let me get on Twitter&quot;, and one of the first people I connected with was Carmen... And she really made me feel welcome in the community, and kind of gave me a perspective that I needed... And that is probably the reason why I&#39;m still doing Go. I actually have a job now as a Go developer, which I still don&#39;t believe -- I get to use the language that I love and get paid for it.
 
 So it feels good to be in the community and to be working in the community, and to feel a  part of it. And I didn&#39;t even know there was a diversity scholarship. I didn&#39;t know if there&#39;s any scholarships at all, but through Twitter and you guys retweeting that, I was like &quot;What?! I can apply?&quot; Sure, and it&#39;s been Christmas since, man; I&#39;m excited to come.
 
@@ -198,11 +198,11 @@ One of the things was like -- I forgot that it&#39;s gonna be recorded. Now I&#3
 
 **Mark Bates:** [00:28:00.16] Something like that, yeah. So let me ask you - are you gonna be around on the last day, the community day?
 
-**Jamal Yusuf:  ** I am. I have not signed up for any workshops yet. I&#39;ve got a partial scholarship, so I&#39;m still thinking about the benefits of attending. I know there&#39;s benefits, but cost-benefit, cost for the ticket to attend, and all that.
+**Jamal Yusuf:** I am. I have not signed up for any workshops yet. I&#39;ve got a partial scholarship, so I&#39;m still thinking about the benefits of attending. I know there&#39;s benefits, but cost-benefit, cost for the ticket to attend, and all that.
 
 **Mark Bates:** Well, the last day is called community day, and that&#39;s part of the conference.
 
-**Jamal Yusuf:  ** Oh...
+**Jamal Yusuf:** Oh...
 
 **Mark Bates:** Bill happens to have an extra workshop that day, but that&#39;s an exception. So community day has a lot going on. I can talk about a few bits of it, but I actually get shanghai-ed; I don&#39;t get to actually see much of community day. So I run the lightning talks every year, and those are on community day. We have about three dozen talks throughout the day; seven minutes a talk, so you can imagine, three dozen speakers - it&#39;s quite the event... And they also all get professionally recorded, just like full-stage conference talks, and those are also up a few weeks later.
 
@@ -240,7 +240,7 @@ This is not just about the language, this is not just about the technology. If t
 
 **Mark Bates:** Yeah, and most of us have stickers.
 
-**Jamal Yusuf:  ** What really blew my mind was -- when I first got on Twitter, I was reading some blog posts and some books and all that, and I kept on seeing Brad&#39;s name just come up. &quot;Thank you, Brad, for all the help&quot;, blah-blah-blah. I was like &quot;Who&#39;s this guy?&quot; and I looked him up, found him on Twitter, and I think I sent him a message at like 3 in the morning... &quot;Hey, I saw that you keep being mentioned in all these books. Thanks for what you&#39;ve done for the Go community.&quot; And then like two seconds later he sent me a few sentences back. It blew my mind that he was awake at that time and he replied... [laughs]
+**Jamal Yusuf:** What really blew my mind was -- when I first got on Twitter, I was reading some blog posts and some books and all that, and I kept on seeing Brad&#39;s name just come up. &quot;Thank you, Brad, for all the help&quot;, blah-blah-blah. I was like &quot;Who&#39;s this guy?&quot; and I looked him up, found him on Twitter, and I think I sent him a message at like 3 in the morning... &quot;Hey, I saw that you keep being mentioned in all these books. Thanks for what you&#39;ve done for the Go community.&quot; And then like two seconds later he sent me a few sentences back. It blew my mind that he was awake at that time and he replied... [laughs]
 
 **Mark Bates:** He&#39;s got two very small children, so they keep him up probably anyway... [laughter] When I first met Brad was at the very first GopherCon; I was taking a taxi from the airport to the hotel, and while I was waiting for the taxi at the airport I was talking to another guy [unintelligible 00:34:27.24] HTML shirt. We started chatting, we realized we realized we&#39;re going to the conference, so we shared a cab.
 
@@ -256,7 +256,7 @@ So I spent 30 minutes in the car with him asking him if he writes Go, too. [laug
 
 **Johnny Boursiquot:** [laughs]
 
-**Jamal Yusuf:  ** I will definitely go to that day, and bug everybody, and introduce myself again.
+**Jamal Yusuf:** I will definitely go to that day, and bug everybody, and introduce myself again.
 
 **Mark Bates:** Yes. And you should absolutely -- if everybody&#39;s listening, they should absolutely introduce themselves to Mat Ryer as well. Yes, you absolutely have to meet Mat Ryer... And meet him daily, because he has -- I&#39;ve found at conferences, especially like Denver, California, he tends to forget things sometimes... So let&#39;s just hammer Mat with hellos the entire time.
 
@@ -266,7 +266,7 @@ So I spent 30 minutes in the car with him asking him if he writes Go, too. [laug
 
 **Johnny Boursiquot:** Nice, nice. Looking forward to seeing Tim.
 
-# **Break:** [00:37:03.25] to [00:38:20.24]
+# **Break:** [00:37:03.25]
 
 **Jon Calhoun:** So you were talking about community day, with the lightning talks. For anybody who&#39;s unfamiliar, can you tell them what&#39;s the difference between regular talks/lightning talks, and why they should care about one over the other? Not necessarily over the other, but you know... [laughter]
 
@@ -432,7 +432,7 @@ Somebody who actually knows what would be more appropriate for you based on your
 
 **Mark Bates:** That&#39;s a tall order, Heather...
 
-**Jamal Yusuf:  ** It&#39;s brave, because I know how technology works... There&#39;ll be like no Wi-Fi at all.
+**Jamal Yusuf:** It&#39;s brave, because I know how technology works... There&#39;ll be like no Wi-Fi at all.
 
 **Mark Bates:** And here you go - this will really help the Wi-Fi sing in the hotel. Apparently, it&#39;s complementary Wi-Fi in the guestrooms.
 
@@ -465,5 +465,3 @@ If you see Heather - she&#39;ll be rolling around on her scooter, probably yelli
 Okay, I think that&#39;s all we&#39;ve got time for, isn&#39;t it? I&#39;d love to do this in person next week.
 
 **Jon Calhoun:** Alright, thank you for joining us. That&#39;s it for Go Time.
-
-Break: [00:59:30.20] to [01:04:22.08]
