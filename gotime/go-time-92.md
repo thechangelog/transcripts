@@ -102,7 +102,7 @@ I think we just need to understand as a community that there are a lot of great 
 
 **Aaron Schlesinger:** Yeah, I ask because I recently started reaching for Echo, specifically when I'm building REST APIs... And I'm still a huge gorilla/mux and Buffalo fan if there's some front-end stuff going on, for "real" web services... But yeah, I find that Echo, especially Echo's context - it just clicks a little bit better for me, for that specific use, for the REST API use case.
 
-**Mat Ryer:** So the difference you're talking about there is where a lot of things respect or keep the pattern of the handler interface, whereas a single method \[unintelligible 00:10:36.11\] and the HTTP request. And a lot of the different tooling sticks to that pattern, so that it's more familiar and useful elsewhere... But what Echo does is it changes that and instead you just get a single echo.context into the function, and then presumably you can access a lot of helpers and things on that context.
+**Mat Ryer:** So the difference you're talking about there is where a lot of things respect or keep the pattern of the handler interface, whereas a single method and it takes two arguments, the responseWriter Interface and the HTTP request. And a lot of the different tooling sticks to that pattern, so that it's more familiar and useful elsewhere... But what Echo does is it changes that and instead you just get a single echo.context into the function, and then presumably you can access a lot of helpers and things on that context.
 
 **Mark Bates:** Same in Buffalo as well, yeah.
 
@@ -130,7 +130,7 @@ I think we just need to understand as a community that there are a lot of great 
 
 **Mark Bates:** Interesting. Yeah, I hadn't really thought that deep about it, to be honest. I just know that I can build websites a lot faster than I used to. For me, it was always about -- well, it wasn't always, because it originally stemmed from a real project where we needed a lot of that, but for me it's just about that rapid web development. I had that for so long in Rails, that it was like jumping into molasses, to just use the standard library. And as a consultant, I build a lot of apps; I need to build a lot of apps, and I need to build them very quickly. And just sitting there and repeatedly doing all the manual stuff you need to do with the standard library just got too much for me. And that's kind of where the whole thing fell out... But it's interesting to think that it's changed the conversation in that respect.
 
-**Johnny Boursiquot:** One of the things that I'm recalling from the early days was that basically folks who were coming from those frameworks - Django from the Python world, and Rails in the Ruby world - they were coming into Go and there was sort of an elitist feeling that "Well, you don't wanna use frameworks. Just use the standard library, and just deal with the things at a much lower level." Basically, to use these helpers was sort of frowned upon, for some reason. I'm not sure if it was this early adopted mindset that basically said "Well, you have to work at the low level" kind of thing; I'm not sure where that came from.
+**Johnny Boursiquot:** One of the things that I'm recalling from the early days was that basically folks who were coming from those frameworks - Django from the Python world, and Rails in the Ruby world - they were coming into Go and there was sort of an elitist feeling that "Well, you don't wanna use frameworks. Just use the standard library, and just deal with the things at a much lower level." Basically, to use these helpers was sort of frowned upon, for some reason. I'm not sure if it was this early adopters mindset that basically said "Well, you have to work at the low level" kind of thing; I'm not sure where that came from.
 
 **Mark Bates:** I think I know where it came from, but go on. I'm curious. \[laughter\]
 
@@ -140,7 +140,7 @@ I think we just need to understand as a community that there are a lot of great 
 
 But I think what happened was -- and I know myself, I hit this too in the Rails world, and others hit it in other worlds, and it's an inevitable kind of thing, and people are gonna hit it in Go too, and they're gonna hit it with Buffalo, and that's fine... You hit that point where you're working against the framework now; your application has grown too big, or the things you wanna do don't necessarily fit it. We've all been there - most of us have anyway - in our previous lives with that.
 
-And I think when those early adopters came over to Go, especially from the Ruby world - and Johnny, you certainly know a lot of players I'm talking about here - I think there was a general mentality of "Oh, frameworks are bad, and I fought with Rails for the last five years, and I don't wanna do that in Go." I think that's where the original concerns came from... But now I think Go has grown so much that those who had lived through the early days of Rails, and some of the bad experiences that left a bad taste in our mouths, are kind of now a bit more in the minority. What you're getting instead is a larger populous that's used to Express.ks, and Django, and Rails, and they're okay with those; they prefer the wins of the rapid development against the cons of having those dependencies, and \[unintelligible 00:18:08.03\] Anyway, that's just my ramblings...
+And I think when those early adopters came over to Go, especially from the Ruby world - and Johnny, you certainly know a lot of players I'm talking about here - I think there was a general mentality of "Oh, frameworks are bad, and I fought with Rails for the last five years, and I don't wanna do that in Go." I think that's where the original concerns came from... But now I think Go has grown so much that those who had lived through the early days of Rails, and some of the bad experiences that left a bad taste in our mouths, are kind of now a bit more in the minority. What you're getting instead is a larger populous that's used to Expressjs, and Django, and Rails, and they're okay with those; they prefer the wins of the rapid development against the cons of having those dependencies, and \[unintelligible 00:18:08.03\] Anyway, that's just my ramblings...
 
 **Mat Ryer:** I think you're on to something.
 
@@ -172,7 +172,7 @@ But in the case of web development, in that scenario I think it's okay to bring 
 
 **Johnny Boursiquot:** \[00:19:41.25\] It's fine, it's all good. So when you say that Buffalo is basically the Rails of Go, some people might wince at that. But I'm like, "Yeah...! Why not?" Because doing web development in Rails is super-easy. Once you get comfortable, or if you're familiar with Rails development, then coming into Go and saying that "Oh, there's something that works kind of like the same way. You get a faster, more performance server, but kind of the same idioms, same things that you're used to" - that's gonna make you a lot more productive a lot sooner if you're a Go adopter coming from those communities. So I think it's a good thing.
 
-**Mark Bates:** Yeah. And you know, we've been seeing a lot of that in the Slack channel, and on the issues, and stuff like that. We're seeing it as a great way people are coming into Go, and hopefully staying for the Go. Back in the early days of Ruby, and Rails -- well, early days of Rails, because Ruby had been around for like ten years prior to that, it was "You come for the Rails and you stay for the Ruby..." And that was true; Ruby is a very powerful, expressive language. For certain applications it's amazing. And you know, we're seeing anecdotal evidence that Buffalo is helping with that same kind of thing. People are coming into Go, they're seeing Buffalo, they're seeing that kind of Rails-like framework they're used to, and they're saying "Great, let me try to attack a problem I already know, put together a little weekend for myself using this tool", and then they see the power you get with Go... And all the wonderful tooling, and concurrency, and all that wonderful stuff you get right out of the box with Go. We're seeing a lot of people coming into the language from that angle. That's obviously very rewarding for us.
+**Mark Bates:** Yeah. And you know, we've been seeing a lot of that in the Slack channel, and on the issues, and stuff like that. We're seeing it as a great way people are coming into Go, and hopefully staying for the Go. Back in the early days of Ruby, and Rails -- well, early days of Rails, because Ruby had been around for like ten years prior to that, it was "You come for the Rails and you stay for the Ruby..." And that was true; Ruby is a very powerful, expressive language. For certain applications it's amazing. And you know, we're seeing anecdotal evidence that Buffalo is helping with that same kind of thing. People are coming into Go, they're seeing Buffalo, they're seeing that kind of Rails-like framework they're used to, and they're saying "Great, let me try to attack a problem I already know, put together a little weekend website for myself using this tool", and then they see the power you get with Go... And all the wonderful tooling, and concurrency, and all that wonderful stuff you get right out of the box with Go. We're seeing a lot of people coming into the language from that angle. That's obviously very rewarding for us.
 
 **Aaron Schlesinger:** I kind of see the development of web development (ha-ha!), the evolution of web development in Go a little bit differently than what was said. I agree definitely that -- what was that...?
 
@@ -184,7 +184,7 @@ But in the case of web development, in that scenario I think it's okay to bring 
 
 **Aaron Schlesinger:** Yeah... \[laughs\] Well, now I really have to deliver, because I've built it all up... So I actually agreed with a lot of the folks who said "Just use a standard library" in the beginning of when I started with Go, and started hearing that kind of stuff... And the reason was that there wasn't really anything Go-like out there that represented a framework. I think that was because folks who came in would build basically just Rails, but transliterate the Ruby to Go. And I think someone or something had to come in that sort of learned the rules of Go before they built a framework.
 
-With frameworks like Buffalo, and template languages like Plus, and Echo, and gorilla/mux, and sort of everything up the stack from the \[unintelligible 00:22:45.25\] all the way up, it all has that Go sort of flavor, and it is written in standard Go, so that if you come in as a Go developer and you all of a sudden wanna go from running TCP servers to writing web apps, it's familiar to you.
+With frameworks like Buffalo, and template languages like Plush, and Echo, and gorilla/mux, and sort of everything up the stack from the bear http.ServeMux all the way up, it all has that Go sort of flavor, and it is written in standard Go, so that if you come in as a Go developer and you all of a sudden wanna go from writing TCP servers to writing web apps, it's familiar to you.
 
 But then, on the other side of the coin, it's like we've been saying just now - if you come in as a brand new web developer, a brand new gopher who wants to write web apps, you still kind of see how this thing works, because you're familiar with your Django, or Rails, or whatever... And then, like you said, Mark, you kind of stay for the Go. So there's these two onramps now, and I don't think either of those onramps would have been possible if there was someone who came in and just transliterated Ruby on Rails to Go. Instead, I think it really had to be you learn the rules of Go, and then you build a framework that fits Go first, and then fits the use case of building a web app, and doing templating, and everything else under the sun that we have.
 
@@ -214,11 +214,11 @@ So I think things like Buffalo, and Echo, and all the Go tooling out there, not 
 
 **Mark Bates:** Well, honestly - so many of the problems we have are just because of Node, you know...? But it is THE way you do front-end development these days... So we do hit it. I'm not making fun of Node, I'm just saying that it's the way front-end web development is done these days, and it's not the most \[unintelligible 00:26:35.00\]
 
-**Johnny Boursiquot:** One thing I do wanna mention though - we've been talking a lot about Buffalo, and we've mentioned Echo a few times, but... Just to give a shout-out to the other frameworks out there, because they do contribute to the notion that Go is a great language for doing web development. There was Gen a while back; I remember using that for a little bit. Martini... I'm not sure which came first, but I think--
+**Johnny Boursiquot:** One thing I do wanna mention though - we've been talking a lot about Buffalo, and we've mentioned Echo a few times, but... Just to give a shout-out to the other frameworks out there, because they do contribute to the notion that Go is a great language for doing web development. There was Gin a while back; I remember using that for a little bit. Martini... I'm not sure which came first, but I think--
 
 **Mark Bates:** I think Martini came first.
 
-**Johnny Boursiquot:** Yeah, yeah. Gen and Martini, I remember using those. Those were early frameworks that folks had started adopting. I used them in production projects; I'm sure I have a production service here and there from a couple companies ago still running those frameworks, so... I learned a lot from those things.
+**Johnny Boursiquot:** Yeah, yeah. Gin and Martini, I remember using those. Those were early frameworks that folks had started adopting. I used them in production projects; I'm sure I have a production service here and there from a couple companies ago still running those frameworks, so... I learned a lot from those things.
 
 There's Bgo as well, that I've heard some good things about... There's Iris, there's Revel...
 
@@ -280,7 +280,7 @@ He also wrote Negroni, which was the middleware software... He wrote a tool call
 
 **Mat Ryer:** Yeah. So one of the interesting things - you mentioned the different web frameworks... A lot of them are packages that you import and do work, but Buffalo is different, isn't it, Mark? Because it has tools, and it has generators, and it has a command line, and all that.
 
-**Mark Bates:** Yeah, it's more of an ecosystem like Rails. Back when I used to use things like Echo and gorilla/mux straight up - I mean, there was just a lot of cut and paste, and kind of CRUD code you have to keep writing. And again, that's one of the things I loved about Rails, that quick -- like, I can do Buffalo new, I could do Rails new, and in 30 seconds I have an app that I can just start throwing my business logic at. I don't have to type \[unintelligible 00:34:07.06\] I don't have to then open up another file, decide what my folders look like, decide what all of that looks like. The tool just generates it. I'm a big fan of just letting tools do the work of people. They're so much better at it than we are, so much more efficient...
+**Mark Bates:** Yeah, it's more of an ecosystem like Rails. Back when I used to use things like Echo and gorilla/mux straight up - I mean, there was just a lot of cut and paste, and kind of CRUD code you have to keep writing. And again, that's one of the things I loved about Rails, that quick -- like, I can do Buffalo new, I could do Rails new, and in 30 seconds I have an app that I can just start throwing my business logic at. I don't have to type `main.go`. I don't have to then open up another file, decide what my folders look like, decide what all of that looks like. The tool just generates it. I'm a big fan of just letting tools do the work of people. They're so much better at it than we are, so much more efficient...
 
 **Mat Ryer:** And so what do you do in Buffalo? How would you create, if you're gonna model a library, and you've got authors and books, or something like that?
 
@@ -322,7 +322,7 @@ So in about less than a minute I can have a CRUDed version of a book's applicati
 
 **Mat Ryer:** Or spell it.
 
-**Mark Bates:** @stanislas\_m, if I can pronounce that correctly, I believe...
+**Mark Bates:** [@stanislas_m](https://twitter.com/Stanislas_M), if I can pronounce that correctly, I believe...
 
 **Mat Ryer:** Yeah, you probably lost him followers with that, somehow...
 
@@ -338,7 +338,7 @@ So in about less than a minute I can have a CRUDed version of a book's applicati
 
 **Aaron Schlesinger:** I wanted to mention it because of the migration stuff. That was the first library that I had seen in Go that would take care of your database migrations for you. Up until that time it was such a headache. I was hand-writing SQL files, and then executing them manually against my production databases, and what a headache that was... And now, again, here comes along this Rails-like thing, that was very Go-native-feeling, and all of a sudden now I can go ahead and take care of all my migrations, and check them in, and have them basically versioned, so I can roll back and roll forward... It just made the whole process way less context-switching, and way less conceptual overload. It just kind of fit more into my workflow. I really love that.
 
-**Mark Bates:** Please, tell me about it. \[laughs\] \[unintelligible 00:39:14.16\] I remember asking Matt Aimonetti when I first started \[unintelligible 00:39:18.04\] like "How do you deal with migrations?", and he was like "I just use Active Record." I was like "Ohhhh, that's just so dirty...! To have a great Go site and then you're using Active Record for your migrations."
+**Mark Bates:** Please, tell me about it. \[laughs\] I miss that. I remember asking Matt Aimonetti when I first started doing stuff like "How do you deal with migrations?", and he was like "I just use Active Record." I was like "Ohhhh, that's just so dirty...! To have a great Go site and then you're using Active Record for your migrations."
 
 No, there are tons of other -- there are definitely others... There's like Goose, and Migrate, and a few other tools out there that preceded Pop and Fizz... But the problem that I personally ran into that they couldn't solve for me was, again, the project that Buffalo stemmed from, I needed multiple database support, and I needed multiple SQL files. I needed a way to migrate all of those.
 
@@ -370,7 +370,7 @@ No, there are tons of other -- there are definitely others... There's like Goose
 
 **Aaron Schlesinger:** We'll enjoy the time until the machines take over, and... You know, I'm good with that.
 
-**Mat Ryer:** Same here. \[laughter\]
+**Mark Bates:** Same here. \[laughter\]
 
 **Aaron Schlesinger:** But really, this code generation in here blows my mind. More than Buffalo even. Because this is like -- you write 30 lines and then you just get everything handed to you on a silver platter by running their Goa CLI tool.
 
@@ -422,7 +422,7 @@ But the code generation part is hard. It's hard on a lot of levels. One, because
 
 **Mark Bates:** I've been exploring that space recently. I actually sent you, Mat, an idea of a tool that I was considering... So I agree - one of the problems I've been trying to solve recently is just getting as much data as I can about a module or a package, as quickly as I can, and also as useful as I can... And there's a lot of different places where that's very difficult still.
 
-But one of the things I've been considering was a tool that would actually rewrite your entire package or module, so that it would group all your types together and organize them nicely, with the type at the top, then the constructor... You know, all that sort of nice stuff - move then tests around and physically rewrite all these files for you, so you could take a hastily-written project and kind of gofmt the actual project package \[unintelligible 00:49:49.27\] But to do that, you really need a decent set of tools that can easily pick up each file and present to you "Hey, here are the types defined, and here are these things, and here are those things."
+But one of the things I've been considering was a tool that would actually rewrite your entire package or module, so that it would group all your types together and organize them nicely, with the type at the top, then the constructor... You know, all that sort of nice stuff - move then tests around and physically rewrite all these files for you, so you could take a hastily-written project and kind of gofmt the actual project package as opposed to it. But to do that, you really need a decent set of tools that can easily pick up each file and present to you "Hey, here are the types defined, and here are these things, and here are those things."
 
 So I agree, Mat, I think there's a place for a really nice tool that breaks down and gives you a bunch of really nice types back, that represent your files and all your stuff, right?
 
@@ -504,7 +504,7 @@ When we get to 1.0, I want that to be solid. I don't wanna race there. I talked 
 
 **Johnny Boursiquot:** But you would say it is production-ready though, because I know a lot of people that are using it in production.
 
-**Mark Bates:** Oh, absolutely. It absolutely is. Just like Hugo. I consider it production-ready, we just don't wanna slap the 1.0 on it, because that limits what we can do in terms of changes, obviously, and also, with modules and semantic versioning being what they are, going to a v2 causes some hassle right now... So we wanna keep things as stable, and we do try to keep things fairly stable, if you notice. And then when we do have to break things, we try to break them in major minor releases, which is what our kind of major release cycle is right now... And we try to provide tools that help you migrate. We do have a Buffalo fix that will try to fix those things.
+**Mark Bates:** Oh, absolutely. It absolutely is. Just like Hugo. I consider it production-ready, we just don't wanna slap the 1.0 on it, because that limits what we can do in terms of changes, obviously, and also, with modules and semantic import versioning being what they are, going to a v2 causes some hassle right now... So we wanna keep things as stable, and we do try to keep things fairly stable, if you notice. And then when we do have to break things, we try to break them in major minor releases, which is what our kind of major release cycle is right now... And we try to provide tools that help you migrate. We do have a Buffalo fix that will try to fix those things.
 
 So it is production-ready, and trust me, I know plenty of companies - big money companies - that are using it in production. Like I said, we just haven't got there because I don't think it's done. Or I don't think it's 1.0 yet. We'll get there though.
 
@@ -512,7 +512,7 @@ So it is production-ready, and trust me, I know plenty of companies - big money 
 
 **Mark Bates:** You're welcome, Mat. I did it just for you, you know...
 
-**Mat Ryer:** \[01:02:41.03\] Yeah, I know you didn't. Although you didn't mention earlier - I got you the GitHub Buffalo, the organization name.
+**Mat Ryer:** \[01:02:41.03\] Yeah, I know you didn't. Although you didn't mention earlier - I got you the github.com/buffalo, the organization name.
 
 **Mark Bates:** That's true. We do have the Buffalo Organization, and when we hit 1.0, the plan is to move from github.com/gobuffalo to github.com/buffalo. And when we do that, all of our packages, regardless of what versions they'll be at when they move over, will all get simultaneously reversioned as 1.0 at that point. They'll all have import paths too, so it'll work.
 
