@@ -64,7 +64,7 @@ What we do is we get a full backline, a full band that comes in, and they usuall
 
 **Mark Bates:** I think Go, like most communities -- you know, half the community is developers, right? Sorry, half the developers are musicians. [laughter] Half the development community is musicians, I would say. It kind of goes together, right? So bring your harmonicas, and how knows, maybe Ron can teach you a few things [unintelligible 00:04:53.26]
 
-It&#39;s fun, there&#39;s a GopherCon band channel in Slack, and you can drop in there. Brian Downes does most of the organizing, and he does a really amazing job. It&#39;s at the welcome party, so I guess that&#39;s the first tip - go to the welcome party. Don&#39;t miss it. Even if you don&#39;t like parties, do not skip the welcome party. It&#39;s more than just a party; like I said, we have a band made up of fellow gophers. Last year they rented an entire park in Denver to set up the stage, and they had about a dozen food trucks there. It was just amazing. The first year we smashed guitars, it was a good time. [laughter]
+It&#39;s fun, there&#39;s a GopherCon band channel in Slack, and you can drop in there. Brian Downs does most of the organizing, and he does a really amazing job. It&#39;s at the welcome party, so I guess that&#39;s the first tip - go to the welcome party. Don&#39;t miss it. Even if you don&#39;t like parties, do not skip the welcome party. It&#39;s more than just a party; like I said, we have a band made up of fellow gophers. Last year they rented an entire park in Denver to set up the stage, and they had about a dozen food trucks there. It was just amazing. The first year we smashed guitars, it was a good time. [laughter]
 
 **Johnny Boursiquot:** Yeah, yeah. There was no guitar smashing last year?
 
@@ -94,7 +94,7 @@ Everybody&#39;s gonna be in the hotel. The conference is in the Marriot. I think
 
 So when you&#39;re looking at a schedule and you see, say, two talks that you&#39;re really interested in, my advice - I would go to the one that&#39;s less crowded. I&#39;d go to the &quot;less popular&quot; one. You&#39;ll get better seats, the speaker will really appreciate it if the room fills up with other people, you won&#39;t be standing, and a lot of times the fire marshals will come out and they&#39;ll kick people out if they&#39;re standing in the row, or sitting down, or stuff like that.
 
-So you go to that one, and then two weeks later you sit in your living room, grab a drink, pull it up on the TV and now you have the best seat in the house for that really big, overcrowded talk you couldn&#39;t see. And then if nothing appeals to you, or you feel like &quot;I don&#39;t wanna watch any of these right now&quot;, then go into the hallway and you&#39;ll always find gophers out there - always, in the hallway - and just talk to them. Again, you can pick up those talks later. Like I said, maybe [unintelligible 00:09:12.18] wanted to spend 40 minutes watching it, but maybe at home you do. So that&#39;s always my advice [unintelligible 00:09:18.22]
+So you go to that one, and then two weeks later you sit in your living room, grab a drink, pull it up on the TV and now you have the best seat in the house for that really big, overcrowded talk you couldn&#39;t see. And then if nothing appeals to you, or you feel like &quot;I don&#39;t wanna watch any of these right now&quot;, then go into the hallway and you&#39;ll always find gophers out there - always, in the hallway - and just talk to them. Again, you can pick up those talks later. Like I said, maybe they didn't grab you at the conference where you wanted to spend 40 minutes watching it, but maybe at home you do. So that&#39;s always my advice and don't bring your laptop.
 
 **Johnny Boursiquot:** Well, if you must, bring it, but keep it--
 
@@ -132,7 +132,7 @@ So do it, it&#39;s worth it. The networking is 100% worth it. And Johnny is righ
 
 # **Break:** [00:14:22.01]
 
-**Jon Calhoun:** So for those of us who have never gone to a training session, can you guys talk a little bit more about why -- this year might be too late, obviously, but in the future, why they should consider them? Versus -- you know, there&#39;s all these different training options; you can hire people to come into your company, you can buy courses online... There&#39;s  a million different options, but training sessions always seem to sell out pretty quickly, or they seem to do pretty well... So what makes that in-person training session at like a GopherCon or something like that - who would you pitch that to?
+**Jon Calhoun:** So for those of us who have never gone to a training session, can you guys talk a little bit more about why -- this year might be too late, obviously, but in the future, why they should consider them? Versus -- you know, there&#39;s all these different training options; you can hire people to come into your company, you can buy courses online... There&#39;s  a million different options, but training sessions always seem to sell out pretty quickly, or they seem to do very well... So what makes that in-person training session at like a GopherCon or something like that - who would you pitch that to?
 
 **Mark Bates:** Johnny, you can take that...
 
@@ -242,7 +242,7 @@ This is not just about the language, this is not just about the technology. If t
 
 **Jamal Yusuf:** What really blew my mind was -- when I first got on Twitter, I was reading some blog posts and some books and all that, and I kept on seeing Brad&#39;s name just come up. &quot;Thank you, Brad, for all the help&quot;, blah-blah-blah. I was like &quot;Who&#39;s this guy?&quot; and I looked him up, found him on Twitter, and I think I sent him a message at like 3 in the morning... &quot;Hey, I saw that you keep being mentioned in all these books. Thanks for what you&#39;ve done for the Go community.&quot; And then like two seconds later he sent me a few sentences back. It blew my mind that he was awake at that time and he replied... [laughs]
 
-**Mark Bates:** He&#39;s got two very small children, so they keep him up probably anyway... [laughter] When I first met Brad was at the very first GopherCon; I was taking a taxi from the airport to the hotel, and while I was waiting for the taxi at the airport I was talking to another guy [unintelligible 00:34:27.24] HTML shirt. We started chatting, we realized we realized we&#39;re going to the conference, so we shared a cab.
+**Mark Bates:** He&#39;s got two very small children, so they keep him up probably anyway... [laughter] When I first met Brad was at the very first GopherCon; I was taking a taxi from the airport to the hotel, and while I was waiting for the taxi at the airport I was talking to another guy up in one HTML shirt. We started chatting, we realized we realized we&#39;re going to the conference, so we shared a cab.
 
 And we were in the cab, and he&#39;s saying &quot;So do you use Go?&quot; I said, &quot;Well, a little bit, here and there&quot;, whatever. &quot;What about you?&quot; &quot;I use it daily.&quot; &quot;Oh, okay.&quot; Anyway, we were talking, &quot;So what&#39;s your name?&quot; &quot;Brad&quot;, whatever... And we keep talking, and then later on we&#39;re still talking, and I&#39;m like &quot;So where do you work?&quot; He goes &quot;Google.&quot; &quot;Are you Brad Fitzpatrick?&quot; &quot;Oh, god...&quot; [laughter]
 
@@ -252,7 +252,7 @@ So I spent 30 minutes in the car with him asking him if he writes Go, too. [laug
 
 **Mark Bates:** Yeah. There will definitely be a lot of people... I&#39;m looking  at the Go team community room on the last day; like you said, there&#39;s a contributor workshop from 10 to 12, where you can learn how to contribute to Go directly.
 
-[00:35:52.23] Then at 1:30 to 3 there&#39;s Grow In Go, which is kind of like a fireside chat panel with the Go leadership and team, and then the closing... So it looks like there&#39;s a whole day where you can hang out with the team, talk to the team, get to know them... Again, like Johnny said, most of the team is gonna be there, plus a large contingent of community contributors to Go as well. There&#39;s usually a contributor summit that happens at the conference as well... So there&#39;ll be a lot of both core team and contributors just wandering the halls, all week, and you can absolutely chat to any of them. They will love to chat with you. I&#39;m just volunteering everybody [unintelligible 00:36:25.15]
+[00:35:52.23] Then at 1:30 to 3 there&#39;s Grow In Go, which is kind of like a fireside chat panel with the Go leadership and team, and then the closing... So it looks like there&#39;s a whole day where you can hang out with the team, talk to the team, get to know them... Again, like Johnny said, most of the team is gonna be there, plus a large contingent of community contributors to Go as well. There&#39;s usually a contributor summit that happens at the conference as well... So there&#39;ll be a lot of both core team and contributors just wandering the halls, all week, and you can absolutely chat to any of them. They will love to chat with you. I&#39;m just volunteering everybody.
 
 **Johnny Boursiquot:** [laughs]
 
@@ -262,7 +262,7 @@ So I spent 30 minutes in the car with him asking him if he writes Go, too. [laug
 
 **Johnny Boursiquot:** [laughs] He&#39;s gonna thank you for this, Mark.
 
-**Mark Bates:** Yeah, I know, right? It&#39;s also Tim [unintelligible 00:36:54.26] birthday next week while we&#39;re out there, so everybody say hi to him, too.
+**Mark Bates:** Yeah, I know, right? It&#39;s also Tim Raymond's birthday next week while we&#39;re out there, so everybody say hi to him, too.
 
 **Johnny Boursiquot:** Nice, nice. Looking forward to seeing Tim.
 
@@ -272,7 +272,7 @@ So I spent 30 minutes in the car with him asking him if he writes Go, too. [laug
 
 **Mark Bates:** Well, thankfully we don&#39;t have any sort of collision in terms of that... It&#39;s really &quot;Why would you come to the lightning talks and not go to a play with hardware with Ron?&quot; That&#39;s the thing I&#39;m always competing against. That&#39;s fun.
 
-So the lightning talks  - again, for those of you who don&#39;t know, they&#39;re seven minutes long; we have between 30 and three dozen speakers. The variety of people talking is just insane, and they cover all these different topics. A lot of times they&#39;re fun, and sometimes they&#39;re silly... For example, one year Sharon Allsup gave a talk on roasting your own coffee beans. It was really fun. One year someone did a talk about a dead man&#39;s switch, using their iPhone as a dead man&#39;s switch on their computer... And they hacked it all and they did it all in Go, and at 6:59, right before I pulled them off the stage, he yanked the core, the whole screen went deal, and that was the end of his demo. It was awesome. So there&#39;s all these great things that happen.
+So the lightning talks  - again, for those of you who don&#39;t know, they&#39;re seven minutes long; we have between 30 and three dozen speakers. The variety of people talking is just insane, and they cover all these different topics. A lot of times they&#39;re fun, and sometimes they&#39;re silly... For example, one year Sharon Allsup gave a talk on roasting your own coffee beans. It was really fun. One year someone did a talk about a dead man&#39;s switch, using their iPhone as a dead man&#39;s switch on their computer... And they hacked it all and they did it all in Go, and at 6:59, right before I pulled them off the stage, he yanked the core, the whole screen went dead, and that was the end of his demo. It was awesome. So there&#39;s all these great things that happen.
 
 You usually get like Ramya Rao (sorry, Ramya)... She writes the Go plugin for VS Code. She usually gives a lightning talk every year, and she&#39;s giving one this year... So that&#39;s always a great place to hear what&#39;s upcoming for things like VS Code. I know Florin from JetBrains who works on the Goland IDE - he&#39;s also giving  a talk... So there&#39;s all these really just interesting talks from people from all around the world, with all just interesting perspectives.
 
@@ -354,7 +354,7 @@ Then GoBridge, and Women Who Go... Heather says &quot;So many toys!&quot; There 
 
 **Mark Bates:** [laughs] For cash...? What do you think I&#39;m doing, Johnny? &quot;Yeah, everybody, give to the GoBridge fund. It all goes in this special bag I brought.&quot; [laughs]
 
-**Jon Calhoun:** Mark&#39;s telling everybody &quot;Yeah, live on air, I&#39;m gonna be bringing a big [unintelligible 00:51:04.01] full of cash.&quot;
+**Jon Calhoun:** Mark&#39;s telling everybody &quot;Yeah, live on air, I&#39;m gonna be bringing a big suitcase full of cash.&quot;
 
 **Mark Bates:** All of a sudden Mark Bates turned into a grifter on the air. I&#39;m not quite sure how that happened. [laughter] But seriously, there&#39;s so many -- and Bill is giving  a post-con workshop, which we&#39;ve talked about a few times... And 20k of those proceedings has gone to the GoBridge Foundation already.
 
@@ -368,7 +368,7 @@ So the GopherCon team really wants to help in any way they can, and obviously th
 
 **Jon Calhoun:** Just check those out though. If you ever go to a conference, especially GopherCon, I feel like it&#39;s pretty common for people to do some sort of meetup, and it&#39;s another chance to meet people.
 
-**Mark Bates:** Oh, and we work [unintelligible 00:52:38.25] on Friday. So when you show up next week, just keep your evenings free... Let&#39;s just put it that way.
+**Mark Bates:** Oh, and wework is hosting something on their place that's she thinks on Friday. So when you show up next week, just keep your evenings free... Let&#39;s just put it that way.
 
 **Johnny Boursiquot:** Yeah, seriously.
 
@@ -432,7 +432,7 @@ Somebody who actually knows what would be more appropriate for you based on your
 
 **Mark Bates:** That&#39;s a tall order, Heather...
 
-**Jamal Yusuf:** It&#39;s brave, because I know how technology works... There&#39;ll be like no Wi-Fi at all.
+**Jon Calhoun:** It&#39;s brave, because I know how technology works... There&#39;ll be like no Wi-Fi at all.
 
 **Mark Bates:** And here you go - this will really help the Wi-Fi sing in the hotel. Apparently, it&#39;s complementary Wi-Fi in the guestrooms.
 
