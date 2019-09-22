@@ -246,9 +246,9 @@ So we kind of discontinued that, but we've been thinking about this a lot and I 
 
 \[00:39:58.25\] One direction we could take is you give us any snippet of code and we'll kind of parse it in a mid HTML with links to the documentation and usage examples of whatever you call on Sourcegraph.
 
-Granted, when you send us the code you'll have to give us enough context so that our analyzer can actually figure out what code your thing is calling. If you just type http.newrequest and just give us that one line, that's probably not enough context for us to resolve that to the new request method in the standard library. But if you give us the import at the top, and a couple of other lines of context, I think that should be good enough.
+Granted, when you send us the code you'll have to give us enough context so that our analyzer can actually figure out what code your thing is calling. If you just type http.newrequest and just give us that one liner, that's probably not enough context for us to resolve that to the new request method in the standard library. But if you give us the import at the top, and a couple of other lines of context, I think that should be good enough.
 
-And the other angle we're thinking of coming at it is we have this Chrome extension now that you can install in Chrome. What it does is as you're browsing code on GitHub, it hits a Sourcegraph API and gives you \[unintelligible 00:40:56.18\] simple search, right in the GitHub UI. A lot of people really like that. It also does that in pull requests, and it's really useful for code review, just like being able to jump to death when you're reading through a large code review.
+And the other angle we're thinking of coming at it is we have this Chrome extension now that you can install in Chrome. What it does is as you're browsing code on GitHub, it hits a Sourcegraph API and gives you jump to def, and find refs, and symbol search, right in the GitHub UI. A lot of people really like that. It also does that in pull requests, and it's really useful for code review, just like being able to jump to def when you're reading through a large code review.
 
 But we are thinking about extending that to code snippets too, so that if you have the Chrome extension installed... Let's say you come across some post on Stack Overflow that has a lengthy snippet that references some function, and now you wanna figure out what that function does - the Chrome extension could link that snippet of code, so you can just hover over a reference to see a documentation and click it to jump straight to where it's defined if you wanna go diving into the source.
 
@@ -352,7 +352,7 @@ It was almost in some ways like a nicer experience, because you didn't have the 
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** \[unintelligible 00:56:53.07\]
+**Adam Stacoviak:** Shaving a yak.
 
 **Jerod Santo:** You still have Twitter open in a tab and they have that thing that updates the page title with the number of notifications you have, so you don't have to view it. It's just there in the tab, "Oh, I have three notifications on Twitter," and it's just an hour later and you haven't done anything.
 
@@ -496,7 +496,7 @@ And what it does is you give it a set of endpoints, programmatically - it's some
 
 And so you can run the uptime command from any EC2 instances or any set of geographically-distributed EC2 instances and pull uptime data from all across the world, push it to an S3 bucket and then checking your uptime is as simple as running a command or display of dashboard. As a side benefit, because it's so simple, you can also run it in CI, or even development.
 
-**Jerod Santo:** I love that. You've got a problem, maybe you don't have enough time to do it yourself, Matt Holt has some time and he also would like to solve such problem, and beautiful things happen \[unintelligible 01:21:18.08\].
+**Jerod Santo:** I love that. You've got a problem, maybe you don't have enough time to do it yourself, Matt Holt has some time and he also would like to solve said problem, and a beautiful thing happens, you know.
 
 It's the great new world of open source, where we do have businesses that are being run around open source and being successful and we can sponsor little things that can benefit ourselves, but also benefit the whole community. That's really cool.
 
