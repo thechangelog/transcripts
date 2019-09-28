@@ -144,13 +144,13 @@ A big thanks to GopherCon UK and GoTime for doing this together. This is awesome
 
 **Mark Bates:** See? Look, now you're just moaning at us. \[laughter\]
 
-**Mat Ryer:** That's fine. Moaning is acceptable, because at least you can hear it on the podcast, \[unintelligible 00:08:50.01\] in real life. Otherwise I do think people are gonna question that.
+**Mat Ryer:** That's fine. Moaning is acceptable, because at least you can hear it on the podcast, it backs up the way you are in real life. Otherwise I do think people are gonna question that.
 
 **Mark Bates:** Fair enough. I think we should start.
 
 **Mat Ryer:** I think we should start, too. Today we decided we're gonna start by talking about the sparkle emoji in the standard library. Again, I am better in text, but it's the sparkle, the gold, or the magic in the standard library.
 
-**Mark Bates:** I actually pinged Gotham and I said we're gonna be talking about the gems of the standard library, and he goes "Well, this is the wrong conference. We're supposed to be talking about \[unintelligible 00:09:18.16\] Ruby." \[laughter\] Yeah, so we really are on point with the name of this, absolutely, because none of us know what it is.
+**Mark Bates:** I actually pinged Gotham and I said we're gonna be talking about the gems of the standard library, and he goes "Well, this is the wrong conference. We're supposed to be talking about that Ruby." \[laughter\] Yeah, so we really are on point with the name of this, absolutely, because none of us know what it is.
 
 **Mat Ryer:** Yeah. It's the bits of the standard library that each of us have kind of fallen some more in love with, to varying degrees. I've fallen with mine a lot... In love. But others maybe not so much. \[laughter\] Exactly. Just a quick example of something that would hopefully get cut out of the podcast, \[laughter\] so no one even knows about it. But the editors are... I won't say lazy, but they leave it all in, basically.
 
@@ -222,7 +222,7 @@ A very common use case is log parameters. If you wanna log something and you wan
 
 **Mat Ryer:** And would you say you just like the Context package, you love it, or you're in love with it?
 
-**Kat Zień:** I love it, because it makes my life so much easier. I find it just the most useful day-to-day. At work we actually have a thing where our requests struct, an internal request thing - it sort of inherits the context interface, so you can pass interchangeably the context \[unintelligible 00:16:37.29\] and that just makes life so much easier. I just love it, because our logging library requires the context for all the extra params, but I can just pass in the request and I don't need to do any marshaling in between, or anything.
+**Kat Zień:** I love it, because it makes my life so much easier. I find it just the most useful day-to-day. At work we actually have a thing where our requests struct, an internal request thing - it sort of inherits the context interface, so you can pass interchangeably the context or the request and that just makes life so much easier. I just love it, because our logging library requires the context for all the extra params, but I can just pass in the request and I don't need to do any marshaling in between, or anything.
 
 **Mat Ryer:** Oh, so they've implemented the Context interface itself.
 
@@ -352,7 +352,7 @@ I always say that if you know regular expressions, your Linux commands and Vim, 
 
 **Mark Bates:** This package is amazing, because it really does show everything. There's more to it, obviously, and there's a lot of stuff -- there's actual code that happens on the syntax package too, but the documentation at the top is fantastic, and worth it alone, and I often refer to it... Like daily.
 
-**Gautam Rege:** A lot of times we don't end up using the captures. It's been there since the regular expressions \[unintelligible 00:25:40.14\] but we tend to miss out and write a lot more code; you just use substring, and parse, and figure out where the captures would actually just give you the \[unintelligible 00:25:49.20\]
+**Gautam Rege:** A lot of times we don't end up using the captures. It's been there since the regular expressions \[unintelligible 00:25:40.14\] but we tend to miss out and write a lot more code; you just use substring, and parse, and figure out where the captures would actually just give you the the array back.
 
 **Mark Bates:** Can you give us an example where that's really helped you in your code? Apart from just simple regular expressions...
 
@@ -362,7 +362,7 @@ I always say that if you know regular expressions, your Linux commands and Vim, 
 
 **Liz Rice:** \[unintelligible 00:26:03.16\] Take your time, it's fine.
 
-**Gautam Rege:** Yeah... So there was a case where we were trying to map out the entire URI, with the username, password, \[unintelligible 00:26:14.06\] everything together...
+**Gautam Rege:** Yeah... So there was a case where we were trying to map out the entire URI, with the username, password, host, port everything together...
 
 **Mark Bates:** So you wanted to write your own URI.parse.
 
@@ -372,7 +372,7 @@ I always say that if you know regular expressions, your Linux commands and Vim, 
 
 **Gautam Rege:** Yeah. You were trying to match a group of parentheses, with or without greedy searches. So you want to actually find out if -- say, for example, if you want to match just a subdomain; but a subdomain could actually go really -- if you look at the canonical name for an AWS host, it's huge. But it has everything in it, and you want to find out just the hosting, not the rest of it... You can always capture it, without greedy searches, or you can find out if it's matching the right pattern, using captures, the parentheses, in your regular expression, just to check.
 
-Well, there are ways that you can even replace stuff in it... But not recommended for readability purposes. But if you're just getting through the regexp syntax package, there's a lot of clarity which comes out. You can even name a captured feed. \[unintelligible 00:27:40.17\] so you can actually process it better.
+Well, there are ways that you can even replace stuff in it... But not recommended for readability purposes. But if you're just getting through the regexp/syntax package, there's a lot of clarity which comes out. You can even name a captured feed. It will get you back a hash in a named hash so you can actually process it better.
 
 **Mark Bates:** That's cool.
 
@@ -396,9 +396,9 @@ Well, there are ways that you can even replace stuff in it... But not recommende
 
 **Kat Zień:** I was gonna say...
 
-**Liz Rice:** It's brilliant. \[unintelligible 00:28:28.17\]
+**Liz Rice:** It's brilliant. Hours of fun.
 
-**Mark Bates:** There's actually Gobular.com, which does Go regular expressions. Whoever wrote it though was an amazing developer, and they wrote it in Buffalo... And they're just really handsome. \[laughter\] That would be me. Just to clarify... Not Mat. Because Mat's like "I don't remember writing that..." \[laughter\] I did. But yeah, it's Rubular for Go.
+**Mark Bates:** There's actually [Gobular.com](https://gobular.com), which does Go regular expressions. Whoever wrote it though was an amazing developer, and they wrote it in Buffalo... And they're just really handsome. \[laughter\] That would be me. Just to clarify... Not Mat. Because Mat's like "I don't remember writing that..." \[laughter\] I did. But yeah, it's Rubular for Go.
 
 **Kat Zień:** So how did you check your side? Because I always wonder... It's like the chicken and egg with those online regex checkers, for like "Well, if we check our regex with them, who do they check with?"
 
@@ -456,7 +456,7 @@ Well, there are ways that you can even replace stuff in it... But not recommende
 
 **Mark Bates:** What about UTF8? Go has UTF8 support built in. If you range over Hello World Chinese characters, you're gonna get the nice spaces, and the index is gonna jump appropriately, and you're gonna get a full character... Unlike other languages, where you get a third of a character. How does that actually work with regex? Are you able to regex over UTF8 characters?
 
-**Gautam Rege:** I think UTF8 support is there for regular expressions support already. And I don't think it gets to UTF8, because then \[unintelligible 00:31:43.20\] you're looking at maybe some Japanese or a Chinese character (a kanji), you cannot compare it to UTF8. You'll have to have the regular expression support wide characters for it. I haven't tried it, because I've not gone down to typing out one of the kanji stuff in the regular expression... It'd be fun, but... It should support it.
+**Gautam Rege:** I think wide UTF8 support is there for regular expressions support already. And I don't think it gets to UTF8, because then you need to... suppose you're looking at maybe some Japanese or a Chinese character (a kanji), you cannot compare it to UTF8. You'll have to have the regular expression support wide characters for it. I haven't tried it, because I've not gone down to typing out one of the kanji stuff in the regular expression... It'd be fun, but... It should support it.
 
 **Mark Bates:** \[00:32:09.22\] There you go. Fantastic. I love it.
 
@@ -472,7 +472,7 @@ Well, there are ways that you can even replace stuff in it... But not recommende
 
 **Mat Ryer:** But Liz, you were mentioning earlier about the io.Reader and io.Writer...
 
-**Liz Rice:** Yeah, so when we were first discussing doing this podcast on this topic of the Go standard library, one of the things that strikes me if you think about the whole of it is how prevalent really nice interfaces like io.Reader and io.Writer are, which means you can easily plug and play with different things that you want to input or output... And also, the richness of the things that you can plug into that interface. You wanna write out some JSON? That's there for you. You wanna write out to a file? That's there for you. You wanna write out to --
+**Liz Rice:** Yeah, so when we were first discussing doing this podcast on this topic of the gold in the standard library, one of the things that strikes me if you think about the whole of it is how prevalent really nice interfaces like io.Reader and io.Writer are, which means you can easily plug and play with different things that you want to input or output... And also, the richness of the things that you can plug into that interface. You wanna write out some JSON? That's there for you. You wanna write out to a file? That's there for you. You wanna write out to --
 
 **Mark Bates:** They're brilliant, simple interfaces, aren't they? They're just so simple and brilliant.
 
@@ -494,7 +494,7 @@ Well, there are ways that you can even replace stuff in it... But not recommende
 
 **Mark Bates:** Yeah.
 
-**Mat Ryer:** An interface with one method is so easy to implement. It gets implemented a lot, and this one - that's a good exmaple of it. It's very exciting when you're doing your own projects, when you -- I feel like it's a discovery. You discover a single-method interface, and then you can do things like the trick of using other types as the base, and then implementing that interface. Like the HandleFunc does it for handles.
+**Mat Ryer:** An interface with one method is so easy to implement. It gets implemented a lot, and this one - that's a good example of it. It's very exciting when you're doing your own projects, when you -- I feel like it's a discovery. You discover a single-method interface, and then you can do things like the trick of using other types as the base, and then implementing that interface. Like the HandleFunc does it for handles.
 
 **Mark Bates:** Yeah, I actually show that in my workshop today. That's one of my favorites. Just the way Go type systems work, where you can say "Type handler func is a func that takes a response writer and a pointer to request", and then on that you can implement another method that calls itself and implements the HTTP handler interface.
 
@@ -506,7 +506,7 @@ Well, there are ways that you can even replace stuff in it... But not recommende
 
 **Gautam Rege:** Absolutely.
 
-**Mat Ryer:** So it has that mechanical \[unintelligible 00:35:40.17\]
+**Mat Ryer:** So it has that mechanical sympathy.
 
 **Mark Bates:** I think for me it was more just like "This can't possibly be it." When I first came to it, I'm like "It's just one method. How is that writing? Isn't there other stuff I need to do when I'm writing stuff or reading stuff?" And yeah, there is, and there are other interfaces. Maybe you wanna close it, and there's a closer interface. Those are just amazing interfaces. I can see why you like them.
 
@@ -538,21 +538,21 @@ He compares it to Java, where in order to read a file, you need a reader and the
 
 **Mark Bates:** I think the standard library really does a very -- I've had lots of conversations with the Go team, and I remember I was having one with Steve Francia, who's one of the program managers for the Go team... And we were talking about just this, and he said "The standard library is designed to be building blocks. You can start there, and then layer on top of that more abstractions if you need them."
 
-\[00:40:16.09\] If you've ever used a SQL package - it's very raw, and it feels quite clunky and cumbersome; and the reason is because that's the building blocks for building more abstractions on top, if you want to. And the same thing with the HTTP package. There are times where I'm like "Ugh, it doesn't do error handling. I wish it returned an error." But that's fine, you can then build an abstraction; I actually just did this little error check thing that takes a handler and it returns a handler, or it returns my own type of \[unintelligible 00:40:43.11\] and I can do the error handling now in one place. But it's a little abstraction I just build on top of, and the standard library lets you do that, because it's so easy to work with in that way. That's how everybody has their own HTTP router now. \[laughter\]
+\[00:40:16.09\] If you've ever used a SQL package - it's very raw, and it feels quite clunky and cumbersome; and the reason is because that's the building blocks for building more abstractions on top, if you want to. And the same thing with the HTTP package. There are times where I'm like "Ugh, it doesn't do error handling. I wish it returned an error." But that's fine, you can then build an abstraction; I actually just did this little error check thing that takes a handler and it returns a handler, or it returns my own type of handler and it returns an error and I can do the error handling now in one place. But it's a little abstraction I just build on top of, and the standard library lets you do that, because it's so easy to work with in that way. That's how everybody has their own HTTP router now. \[laughter\]
 
 **Kat Zień:** Yeah. I think that's kind of a nice segue to the other package that I think Gautam mentioned, which was the httputil single reverse proxy... Which is another thing on top of HTTP that is very elegant.
 
 **Mat Ryer:** Tell us about that.. What's the single reverse proxy?
 
-**Gautam Rege:** This was something that came along, it was not something I was searching for. But it you ever get a chance, have a look at the httputil single host reverse proxy method. Basically, if you want to modify the response that is going out on your HTTP server, you can intercept any kind of these responses and make whatever changes you want. Because you have a reverse proxy there, you can basically tag it along with a particular URL.
+**Gautam Rege:** This was something that came along, it was not something I was searching for. But it you ever get a chance, have a look at net/http/httputil.NewSingleHostReverseProxy. Basically, if you want to modify the response that is going out on your HTTP server, you can intercept any kind of these responses and make whatever changes you want. Because you have a reverse proxy there, you can basically tag it along with a particular URL.
 
 Think about this - how easy or difficult is it for you to intercept a redirect request from a server? By default, we just think it's a browser thing, but it's the server who's sending back a 302. Can I intercept that 302 request, and maybe make a change in the the JWT token, or maybe a change in the URL that is getting sent back? We can do that. If you use a single-host reverse proxy method in that, it helps you modify the response; there's a method called "modify response", where you can actually take back the status quo, modify the response and send it back, seamlessly. You'll probably do it when you're in Aqua Security; I'm pretty sure you'll probably do that... Because if you have to preempt somebody from accessing something, this is the easiest way to just deny. So instead of returning a 302, you change the status quo and return a 402.
 
-**Mark Bates:** One of my favorites is actually the exact opposite of that, which is the RoundTripper interface in the HTTP standard library. Do you know it? You look at me like "What is that...?"
+**Mark Bates:** One of my favorites is actually the exact opposite of that, which is [the RoundTripper interface](https://golang.org/pkg/net/http/#RoundTripper) in the HTTP standard library. Do you know it? You look at me like "What is that...?"
 
 **Liz Rice:** Yeah, I've used it, and I can't remember what for...
 
-**Mark Bates:** Yeah, it's one of my favorites. Now, if you read the documentation, it goes on a client; an HTTP client has a default RoundTripper, which is \[unintelligible 00:42:56.21\]. The documentation will say "If you want to change how the transport mechanism works" - maybe you wanna use a file as a transport system; Unix socket files, for example... You can write your own implementation that does that. Maybe you wanna use a database as the transport mechanism, or whatever it is - you can do that. You can plug this in, and it takes a request and spits out a response, an error on the other side. So you can control that flow. But the documentation says you're not supposed to modify the request, you're never supposed to use it for this; I actually love it for that.
+**Mark Bates:** Yeah, it's one of my favorites. Now, if you read the documentation, it goes on a client; an HTTP client has a default RoundTripper, which is HTTP \[unintelligible 00:42:56.21\] request. The documentation will say "If you want to change how the transport mechanism works" - maybe you wanna use a file as a transport system; Unix socket files, for example... You can write your own implementation that does that. Maybe you wanna use a database as the transport mechanism, or whatever it is - you can do that. You can plug this in, and it takes a request and spits out a response, an error on the other side. So you can control that flow. But the documentation says you're not supposed to modify the request, you're never supposed to use it for this; I actually love it for that.
 
 One of the things I like to do -- I do it with a couple things. I will create my own RoundTrippers to do, say "Add a JWT token to all my outgoing requests." So I provide one client that everybody uses, and inside of that it'll automatically tag with JWT, or stuff like that.
 
@@ -632,7 +632,7 @@ I remember my manager coming to me and saying "Can you write a reverse proxy in 
 
 **Mat Ryer:** One use case for buffered channels that I find to be great is when you wanna control how many active goroutines are running. If you wanted to limit them, what you can do is create a buffered channel, and then at the start, when your goroutine is gonna do some work - or before that - it puts something in the channel. Say you've got five slots in this channel; the first five of those will be fine, and they'll unblock, because there'll be space in this buffer. The sixth one is gonna block, because this channel is full, and then it's gonna wait until -- and then what you do at the end when you finished processing, you read from the channel to release that thing in the semaphore, and then that leaves a space for the next one to go in. That's a way you can throttle - without much otherwise complexity in the code - how many concurrent things are gonna run, and the code stays relatively easy to read.
 
-**Liz Rice:** \[unintelligible 00:51:31.16\] just the other week, and that was exactly what I suggested.
+**Liz Rice:** \[unintelligible 00:51:31.16\] workerpools just the other week, and that was exactly what I suggested.
 
 **Mark Bates:** I do it the opposite way, where let's say I have a channel of stuff, I launch maybe five goroutines - that's my limit - and they're just ranging over the channel, so whichever one picks it up first, does it; then I don't have to use buffered channels.
 
@@ -800,13 +800,13 @@ Another way to go, for me, is something that we do at Monzo - we don't use frame
 
 **Mark Bates:** Alright, here we go.
 
-**Audience Member:** Hello. Going a bit back to context - it's a quite elegant solution and quite a good way to give timeouts and deadlines for functions; I use it a lot for \[unintelligible 01:03:29.25\] But the thing that I usually see is most developers never get the context and check if it's \[unintelligible 01:03:37.29\] They always delegate a third-party library to do the decision. And if the library returns an error, \[unintelligible 01:03:45.20\] So what do you guys think and how much do you guys look to the context to cancel your code itself?
+**Audience Member:** Hello. Going a bit back to context - it's a quite elegant solution and quite a good way to give timeouts and deadlines for functions; I use it a lot for HTTP handlers and webservices but the thing that I usually see is most developers never get the context and check if it's \[unintelligible 01:03:37.29\] They always delegate a third-party library to do the decision. And if the library returns an error, \[unintelligible 01:03:45.20\] So what do you guys think and how much do you guys look to the context to cancel your code itself?
 
 **Mat Ryer:** \[01:04:02.15\] For anyone that didn't hear that, it was talking about the -- a lot of the times you can see context just pass through; the methods themselves that you're writing don't deal with it. I think that's totally legitimate. If you're calling some of the service and it's cancellable, and you're allowing that to be canceled somewhere else upstream, sometimes it's completely appropriate to just pass that straight through and don't touch it. But whenever I'm doing any kind of heavy-lifting, looping around, I will at the top just check. And you can also check the error on a context.
 
 **Mark Bates:** Yeah, that's one of the four...
 
-**Mat Ryer:** One of the four methods... And it returns either nil if everything's okay, or a context canceled error. So sometimes you don't have to even use the channel, you can just check that error, and if there's an error, you know the context has been canceled \[unintelligible 01:04:51.14\]
+**Mat Ryer:** One of the four methods... And it returns either nil if everything's okay, or a context canceled error. So sometimes you don't have to even use the channel, you can just check that error, and if there's an error, you know the context has been canceled I think it'll just return the error.
 
 **Mark Bates:** Well, by default in the standard library though there are context deadline errors. However, if you implement your own context interface, that error can be anything you want. You can cancel the context with Done, and the error could be "The database doesn't exist." It's not necessarily a cancellation error, is it? You can still cancel it and give a better error, which is very good for goroutines, because it's hard to propagate errors up a lot in goroutines, isn't it?
 
@@ -930,15 +930,15 @@ If you avoid global state -- Peter Bourgon said it very well; he said if he had 
 
 **Mat Ryer:** You wouldn't just have one of them...
 
-**Mark Bates:** No, but you might absolutely do -- if you've got a bunch of data in your struct, and you need to formulate it, and it's big, and expensive, and it's only an operation I'm gonna do once, you'd have a sync.once in your struct; you do it and you would just return the cached value at that point. But it's all it still would contain; it's not global state anymore.
+**Mark Bates:** No, but you might absolutely do -- if you've got a bunch of data in your struct, and you need to formulate it, and it's big, and expensive, and it's only an operation I'm gonna do Once, you'd have a sync.Once in your struct; you do it and you would just return the cached value at that point. But it's all it still would contain; it's not global state anymore.
 
 That's what I'm saying - the pattern itself is not bad, it's how we use the pattern that makes it bad. Global state makes the pattern bad. The pattern itself doesn't make the pattern bad.
 
 **Mat Ryer:** Right.
 
-**Mark Bates:** You could still use it, but try not to do it globally. There are reasons I use sync.once a lot inside of stuff, and that is a singleton pattern. Sync.once enables singletons. Otherwise we'd never have sync.once, right?
+**Mark Bates:** You could still use it, but try not to do it globally. There are reasons I use sync.Once a lot inside of stuff, and that is a singleton pattern. Sync.Once enables singletons. Otherwise we'd never have sync.Once, right?
 
-**Mat Ryer:** Well, no, I use sync.once in places where it's not then a singleton, but... Yeah, I see what you mean.
+**Mat Ryer:** Well, no, I use sync.Once in places where it's not then a singleton, but... Yeah, I see what you mean.
 
 **Mark Bates:** But it enables the singleton pattern very well.
 
@@ -978,7 +978,7 @@ That's what I'm saying - the pattern itself is not bad, it's how we use the patt
 
 **Mark Bates:** On GoTime.
 
-**Mat Ryer:** \[01:15:46.21\] What an experience this was. Don't forget, this is not just a podcast, this is also an actual, live event in real life, which is this... It's also being live-streamed. There's gonna be a video, there's gonna be a book, we're gonna try to get on Netflix, it's gonna be on the iMacs...
+**Mat Ryer:** \[01:15:46.21\] What an experience this was. Don't forget, this is not just a podcast, this is also an actual, live event in real life, which is this... It's also being live-streamed. There's gonna be a video, there's gonna be a book, we're gonna try to get on Netflix, it's gonna be on the IMAX...
 
 **Liz Rice:** Can you imagine? You might have to watch this over and over again... \[laughter\]
 
