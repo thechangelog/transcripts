@@ -10,7 +10,7 @@
 
 **Ian Lance Taylor:** Hello! Thanks for having me.
 
-**Mat Ryer:** Yeah, thanks for joining. It's very exciting. We all saw you speaking at GopherCon, and actually today the videos went out. So if anyone hasn't seen Ian's talk on this very subject at GopherCon, you probably can watch the video now.
+**Mat Ryer:** Yeah, thanks for joining. It's very exciting. We all saw you speaking at GopherCon, and actually today the videos went out. So if anyone hasn't seen Ian's talk on this very subject at GopherCon, you probably can watch [the video](https://www.youtube.com/watch?v=WzgLqE-3IhY) now.
 
 **Jon Calhoun:** Not now... Like, in a couple hours.
 
@@ -34,7 +34,7 @@ So who wants to take a stab at first describing generics, for anyone not familia
 
 Now, I'm hoping that we're minimizing the complexity with our design draft, but there's no denying that it will make the language -- it adds a number of new concepts for language. Now, that said, the reason people look to see it in Go - as you say, people are familiar with generics from other languages... But there's a set of programs, a set of kinds of code that we can't really write in Go because we do not have generics. And we're used to that, and we can still write, obviously, tons of good code anyhow... But if we had generics, we could for example write libraries that provided data structures that don't currently exist. A typical example would be a ConcurrentHashMap. A HashMap which could be modified safely by multiple goroutines simultaneously, and with type-safe, just like the standard language map type is.
 
-Another example would be a set of algorithms that we can't really write today, like algorithms that work with channels of any kind. You could write just simple functions that merge to channels, or multiplex one channel into a bunch of other channels, or did whatever you wanted to do, various kinds of client-server architectures written with channels. Right now you have to write each one by itself, because there's no way of saying "I have a channel", but I don't care what the type of the channel is. You always have to say "I've got a chan int", or \[unintelligible 00:06:55.01\] You can't just say "I've just got a channel, and I still wanna write a select statement on it." That's hard to write in Go today.
+Another example would be a set of algorithms that we can't really write today, like algorithms that work with channels of any kind. You could write just simple functions that merge to channels, or multiplex one channel into a bunch of other channels, or did whatever you wanted to do, various kinds of client-server architectures written with channels. Right now you have to write each one by itself, because there's no way of saying "I have a channel", but I don't care what the type of the channel is. You always have to say "I've got a chan int", or "I've got a chan of struct something or other".  You can't just say "I've just got a channel, and I still wanna write a select statement on it." That's hard to write in Go today.
 
 **Jon Calhoun:** I think -- was it last week, Mat, when you guys were talking about the io.Writer and io.Reader interface...
 
@@ -48,7 +48,7 @@ Another example would be a set of algorithms that we can't really write today, l
 
 **Mat Ryer:** So in that case - and I saw that example in your talk, Ian - if you had a graph and a node, and you have a contract that encapsulates both, that contract would only make sense when you provide it a type for both of them, wouldn't it? Those types wouldn't essentially be required.
 
-**Ian Lance Taylor:** That's right. For the case of the graph example in the talk - yeah, you'd have to provide to type arguments every time you wanted to work with a graph, one describing the node type and one describing the edge type.
+**Ian Lance Taylor:** That's right. For the case of the graph example in the talk - yeah, you'd have to provide two type arguments every time you wanted to work with a graph, one describing the node type and one describing the edge type.
 
 **Mat Ryer:** That makes sense. And of course, if you forgot one of those types, then of course the compiler is gonna help you at that point, I suppose.
 
@@ -82,15 +82,15 @@ It was interesting, Ian... Something you said really resonated earlier. You said
 
 **Ian Lance Taylor:** \[00:12:22.18\] Yeah... I think a lot of the success of Go has been that it's simple. When you're writing a program and you're spending minutes or hours trying to decide which language construct to use (in some other language, I mean), that's not productive time. You want your language to be a tool that's powerful enough to get everything done, but it's not too hard to use. You don't wanna be puzzling over how some aspects of the language work.
 
-So if we do wind up adding generics to Go, that's a property we've gotta preserve. That's the most important feature \[unintelligible 00:12:55.16\]
+So if we do wind up adding generics to Go, that's a property we've gotta preserve. That's the most important feature in the language.
 
-**Mat Ryer:** Yeah, and also the readability. I talk a lot about this - really writing code for using the APIs and reading the code, and optimized for that, at the expense of writing... Which is why personally I don't mind writing "err!=nil" all the time. I'm actually really good at that, because when it comes to reading it - which I do far more often - it's very clear and it expresses it very well.
+**Mat Ryer:** Yeah, and also the readability. I talk a lot about this - really writing code for using the APIs and reading the code, and optimized for that, at the expense of writing... Which is why personally I don't mind writing `if err != nil` all the time. I'm actually really good at that, because when it comes to reading it - which I do far more often - it's very clear and it expresses it very well.
 
 And that is something I like about the latest proposal. If you look at the code, it kind of still looks like Go... Although there's of course an additional set of parentheses now that we have to think about.
 
 **Ian Lance Taylor:** I'm glad to hear you say that, because that is one of the things we were really aiming for. It should still look like Go.
 
-**Mat Ryer:** Yeah. That's a great goal to have, as well. And that was actually part of my objection to the Try proposal. I digress a little bit... I think the Try proposal felt a bit magic, and it didn't feel like the most expressive Go that I sort of have become used to. And definitely the latest proposal I think still has the Go-ness in it, if that's a thing...
+**Mat Ryer:** Yeah. That's a great goal to have though I think as well. And that was actually part of my objection to the Try proposal. I digress a little bit... I think the Try proposal felt a bit magic, and it didn't feel like the most expressive Go that I sort of have become used to. And definitely the latest proposal I think still has the Go-ness in it, if that's a thing...
 
 **Ian Lance Taylor:** \[laughs\] Good.
 
@@ -126,7 +126,7 @@ We also, of course, looked at the C++ syntax, which many people are familiar wit
 
 **Johnny Boursiquot:** Is that the only new very visible - other than the concept being implemented in the language - is that the new keyword being introduced, that's gonna be the very first thing developers realize "Okay, now generics \[unintelligible 00:20:13.12\] because I can use this particular keyword"? Is that the only one that's surfacing at the moment?
 
-**Ian Lance Taylor:** Yeah, that's right. One new keyword, contract. In the current design that's all we're adding. And you're right, that's the first thing developers are gonna see... But the truth is I don't think contracts are gonna be the first thing most people reach for. I think contracts are a key element of the design that we're suggesting, but you can write a lot of generic code actually without contracts. I mean, at some point you're gonna need contracts. I think we do need them in there... But you can actually do Go pretty far just writing type parameters and type arguments without contracts.
+**Ian Lance Taylor:** Yeah, that's right. One new keyword - `contract`. In the current design that's all we're adding. And you're right, that's the first thing developers are gonna see... But the truth is I don't think contracts are gonna be the first thing most people reach for. I think contracts are a key element of the design that we're suggesting, but you can write a lot of generic code actually without contracts. I mean, at some point you're gonna need contracts. I think we do need them in there... But you can actually do Go pretty far just writing type parameters and type arguments without contracts.
 
 **Mat Ryer:** So what would be -- do you mean using the existing contracts, the built-in ones?
 
@@ -152,7 +152,7 @@ We also, of course, looked at the C++ syntax, which many people are familiar wit
 
 **Ian Lance Taylor:** Well, I think you're absolutely right. New things do tend to get overused. I think the same thing happened with channels in the very early days of Go. I think it took us a while to understand where channels really are helpful, and where they introduce a little too much complexity, or a little too much early abstraction, as you say. We're just gonna have to try, and learn, and hopefully build a good and simple base that we can learn on.
 
-**Mat Ryer:** Yeah, absolutely. I think that's great. I was one of those early adopters that abused channels. I'd used them in all kinds of places where I definitely shouldn't have... And actually now I sort of start with usually just a mutex; I'll start there and manage things like that... And sometimes I never have to go beyond, actually. But yeah, I remember that... It is so good -t and we take it for granted now - that we can so easily spin up all these goroutines, have them communicating in a safe way, and just use these language primitives to do things like that. It's extremely powerful... So yeah, I can see why people get excited and want to use it.
+**Mat Ryer:** Yeah, absolutely. I think that's great. I was one of those early adopters that abused channels. I'd used them in all kinds of places where I definitely shouldn't have... And actually now I sort of start with usually just a mutex; I'll start there and manage things like that... And sometimes I never have to go beyond, actually. But yeah, I remember that... It is so good - and we take it for granted now - that we can so easily spin up all these goroutines, have them communicating in a safe way, and just use these language primitives to do things like that. It's extremely powerful... So yeah, I can see why people get excited and want to use it.
 
 **Ian Lance Taylor:** Yup.
 
@@ -194,7 +194,7 @@ There have been several unpublished proposals that I just sort of would write up
 
 **Ian Lance Taylor:** An existing Go program obviously doesn't use any generic code. The existing Go program is not gonna be any slower because generics are added to the language. But the current design actually envisions a few different compilation strategies, and we expect that if it actually gets added to the language, we're gonna have to experiment with the compiler choosing different strategies for different kinds of cases.
 
-One strategy would be the slow version, where we really do recompile everything \[unintelligible 00:32:51.13\] And I don't see a reason to use that strategy in most cases. Then there's a strategy of kind of approaching it more like the way interfaces are implemented today, but not the same, because we don't want to have the same allocation requirements that interfaces have, but sort of the class type arguments...
+One strategy would be the slow version, where we really do recompile everything for each step the right type argument. And I don't see a reason to use that strategy in most cases. Then there's a strategy of kind of approaching it more like the way interfaces are implemented today, but not the same, because we don't want to have the same allocation requirements that interfaces have, but sort of the class type arguments...
 
 You know, you can describe each type, at the simplest level, in terms of how many pointers it has. So you can recompile each generic function based on type arguments with different sets of pointers. Then if you do instantiate with a very large type argument - yeah, maybe you do a special case for that. But that's not gonna happen very often. So in that case you'd compile each generic function, say, four times or eight times. But that doesn't mean your compile is eight times slower, because most functions are not generic functions. So it's just an example of a couple of compilation strategies we could use.
 
@@ -212,7 +212,7 @@ I would say that if the compiler got 100% slower, that would be a failure. We do
 
 **Break:** \[00:35:32.20\]
 
-**Jon Calhoun:** It's really interesting to hear the discussions around compilation times, and things like that, like Mat said, because there are certain aspects that I would never think about, because I don't tend to work on aspects where compilation time -- like, you could literally 10x my compilation time and it wouldn't matter. And there are other people who are definitely not in that case... But I can imagine implementing this and bringing about new features has gotta be very complicated as a result of that.
+**Jon Calhoun:** It's really interesting to hear the discussions around compilation times, and things like that, like Mat said, because there are certain aspects that I would never think about, because I don't tend to work on projects where compilation time -- like, you could literally 10x my compilation time and it wouldn't matter. And there are other people who are definitely not in that case... But I can imagine implementing this and bringing about new features has gotta be very complicated as a result of that.
 
 **Mat Ryer:** Jon, do you write unit tests?
 
@@ -226,11 +226,11 @@ I would say that if the compiler got 100% slower, that would be a failure. We do
 
 **Johnny Boursiquot:** Yeah. Any noticeable impact on compile time, as Ian was saying, would be considered a big hit for the language and for the compile and for the developer workflow. I don't wanna have to think "Oh, if I'm using generics, then my workflow is gonna be impacted by that." I don't think that's something anybody wants.
 
-**Mat Ryer:** Yeah, and it sounds like that is in their minds. I agree, I think it is important. The other thing, of course, is -- I hear a lot of people avoid using defer, because defer has a small performance hit. And then I find out about the case that they're using it in, and there's no way it's gonna make the slightest bit of difference. People do get a little bit obsessed with "Well, can I shave off every little bit of performance out of something?" And actually, readability - what about the performance of you as a developer fixing that code later? What about that performance?
+**Mat Ryer:** Yeah, and it sounds like that is in their minds. I agree, I think it is important. The other thing, of course, is -- I hear a lot of people avoid using `defer`, because `defer` has a small performance hit. And then I find out about the case that they're using it in, and there's no way it's gonna make the slightest bit of difference. People do get a little bit obsessed with "Well, can I shave off every little bit of performance out of something?" And actually, readability - what about the performance of you as a developer fixing that code later? What about that performance?
 
-**Ian Lance Taylor:** Yeah, absolutely right. On the defer front, since you've mentioned it, I'll plug that in 1.14 I think defers are gonna really be a lot cheaper. There's some active work going on in that area.
+**Ian Lance Taylor:** Yeah, absolutely right. On the `defer` front, since you've mentioned it, I'll plug that in 1.14 I think defers are gonna really be a lot cheaper. There's some active work going on in that area.
 
-**Mat Ryer:** I've not been paying for mine already. Should I have been paying somebdoy every time I use defer? I almost would, by the way, because it's that good... \[laughter\] It's my favorite Go keyword for sure. But yeah, that's exciting. That's what I love - while the Go team are working on making the standard library better, making the compiler tools and all that better, we can without doing anything just sort of reap all those benefits... So I really love the fact that you're all working on that stuff on our behalf so hard, so... Thanks for that, for sure.
+**Mat Ryer:** I've not been paying for mine already. Should I have been paying somebody every time I use `defer`? I almost would, by the way, because it's that good... \[laughter\] It's my favorite Go keyword for sure. But yeah, that's exciting. That's what I love - while the Go team are working on making the standard library better, making the compiler tools and all that better, we can without doing anything just sort of reap all those benefits... So I really love the fact that you're all working on that stuff on our behalf so hard, so... Thanks for that, for sure.
 
 **Ian Lance Taylor:** Well, you're welcome, but you know - a lot of the stuff is not coming from the Go team. A lot of improvements are coming from other people as well. We're doing a lot of coordination, but a lot of the work is coming from outside, so thanks to everybody.
 
@@ -242,7 +242,7 @@ I would say that if the compiler got 100% slower, that would be a failure. We do
 
 **Mat Ryer:** That means it could go into one of the upcoming Go releases; it doesn't have to wait for Go 2 then.
 
-**Ian Lance Taylor:** Yeah, Go 2 is more of a conceptual idea at this point. I think we're gonna try to be as Go 1-compatible as we can going forward. If we have to break something, then we can break something... But we're gonna try not to. Maybe at some point; maybe if generics land, maybe if we get more error handling \[unintelligible 00:40:52.02\] maybe we'll call it Go 2. It might be a good marketing move, it might sound good; it might give people another reason to look at the language... But it doesn't mean that Go 1 programs are gonna stop working.
+**Ian Lance Taylor:** Yeah, Go 2 is more of a conceptual idea at this point. I think we're gonna try to be as Go 1-compatible as we can going forward. If we have to break something, then we can break something... But we're gonna try not to. Maybe at some point; maybe if generics land, maybe if we get more error handling \[unintelligible 00:40:52.02\] maybe once modules are set, maybe we'll call it Go 2. It might be a good marketing move, it might sound good; it might give people another reason to look at the language... But it doesn't mean that Go 1 programs are gonna stop working.
 
 The example I like to use is that you write a C program - not literally, from the 1970, but a C program from about 1980 - it still runs today; there's never been a C 2, so why not emulate that? It's a great, successful language.
 
@@ -266,7 +266,7 @@ The example I like to use is that you write a C program - not literally, from th
 
 **Ian Lance Taylor:** Well, I don't know. I think it's a good question. I guess I don't know. What would you think?
 
-**Mat Ryer:** I think that we already have a space where we need to have a way to be able to talk about the quality of packages. There's a few good talks -- I've seen Julie Qiu did a talk about how to select dependencies in a conscious way, rather than just take anything from anywhere; have a look at the projects, see if they seem robust, see if they see used, are there tests, how does the API look, the docs... Taking all of that into account. That is gonna be more important, because it's gonna be too tempting, I think -- if generics got into the language, it's gonna be tempting and we're gonna see a big spring up of libraries doing all kinds of awesome things, and we're gonna then have a sort of abundance of this to sift through... That's a general problem I think we still have anyway in the community - knowing which of the dependencies we can trust and which are just more playgroundy-type projects that we shouldn't be importing and having as a dependency on our production code.
+**Mat Ryer:** I think that we already have a space where we need to have a way to be able to talk about the quality of packages. There's a few good talks -- I've seen Julie Qiu did a talk about how to select dependencies in a conscious way, rather than just take anything from anywhere; have a look at the projects, see if they seem robust, see if they seem used, are there tests, how does the API look, how are the docs... Taking all of that into account. That is gonna be more important, because it's gonna be too tempting, I think -- if generics got into the language, it's gonna be tempting and we're gonna see a big spring up of libraries doing all kinds of awesome things, and we're gonna then have a sort of abundance of this to sift through... That's a general problem I think we still have anyway in the community - knowing which of the dependencies we can trust and which are just more playgroundy-type projects that we shouldn't be importing and having as a dependency on our production code.
 
 **Johnny Boursiquot:** \[00:44:07.04\] That's something I think the community is gonna work out naturally. I think a lot of the early practices that we've mentioned on this podcast alone in the early days - the abuse of channels, for example, jumping into concurrency and using all the bits and pieces you can, whether your program needs it or not... A lot of these things we've sort of worked out of our system, so to speak, and there's enough material out there to sort of educate - "Try to do this, avoid doing that, for reason X, Y and Z." Over the years we've developed what we call idiomatic Go, basically to adopt certain approaches.
 
@@ -274,7 +274,7 @@ I think yes, in the beginning you're gonna see an explosion of things that are u
 
 But what I am concerned a little bit about is newbies, folks that are either coming from different languages, or that are learning programming for the first time, and they happen to be using Go to do so - basically, how to teach that concept... Because it requires that you really think about different things in multiple layers, so to speak, to really understand where is this useful.
 
-I think on the Go Blog, the Why Generics post does a pretty good job of introducing "Okay, this is how you would do it today." You have to have a reverse for a string, a reverse for integers, and this is how generics can help you remove some of that boilerplate.
+I think on the Go Blog, [the Why Generics post](https://blog.golang.org/why-generics) does a pretty good job of introducing "Okay, this is how you would do it today." You have to have a reverse for a string, a reverse for integers, and this is how generics can help you remove some of that boilerplate.
 
 These kinds of things are gonna be critical for teaching people how to properly use these language features, and I think that's gonna happen naturally.
 
@@ -316,4 +316,4 @@ So I'll tell people "Well, just don't worry about it." And if you can say "Don't
 
 **Jon Calhoun:** Mat's never done something like that.
 
-**Mat Ryer:** It's not my style, it's not my style. But my book is still available. \[laughter\] Okay... So yeah, thank you very much as well to my other panelists, Jon Calhoun, Johnny Boursiquot... Gentleman, thank you very much. Until next time, goodbye!
+**Mat Ryer:** It's not my style, it's not my style. But my book is still available. \[laughter\] Okay... So yeah, thank you very much as well to my other panelists, Jon Calhoun, Johnny Boursiquot... Gentlemen, thank you very much. Until next time, goodbye!
