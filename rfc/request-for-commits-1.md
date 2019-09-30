@@ -159,17 +159,17 @@ GitHub, because they were thinking about Git in the scale of people and contribu
 
 **Karl Fogel:** And open source was going on for many years prior to that. I had run an open source company and had been a full-time open source developer long before the term was coined, and people just used the term 'free software' and got confused, because there was just widespread confusion about whether that meant free as in there's no charge. AOL used to ship CDs to everyone's doorstep and that software was free, but it wasn't free in the sense of free software, in the sense of freedom. So there was a lot of terminological confusion.
 
-One of the things that I think is downplayed today, or there's a little bit of historical amnesia about is the degree to which the coining of the term 'open source' was not simply an attempt to separate a development methodology from the ideological drives of the free software foundation Richard Stallman, but was also just an attempt to resolve a real terminology problem that a lot of people - and especially people who ran open source businesses were having, which was "What term do we use that won't confuse our customers and the people who use our software?"
+One of the things that I think is downplayed today, or there's a little bit of historical amnesia about is the degree to which the coining of the term 'open source' was not simply an attempt to separate a development methodology from the ideological drives of the free software foundation Richard Stallman, but was also just an attempt to resolve a real terminology problem that a lot of people - and especially people who ran open source businesses - were having, which was "What term do we use that won't confuse our customers and the people who use our software?"
 
 Cygnus Solutions, which later got bought by Red Hat, tried to go with the term 'sourceware' for a while. That was an interesting coinage, and in fact my company, Cyclic Software, which I was running with Jim Blandy at the time, we actually contacted them to see about using that term, and we got a non-committal response where it wasn't quite clear if they were trying to trademark it or they intended for only Cygnus to use it.
 
 **Nadia Eghbal:** That's even weirder.
 
-**Karl Fogel:** That wasn't gonna work... If only Cygnus can use it, that's not gonna be \[unintelligible 00:39:04.22\]
+**Karl Fogel:** So that didn't fly, right? That wasn't gonna work... If only Cygnus can use it, that's not gonna be the term that kicks over.
 
 **Nadia Eghbal:** That defeats the purpose, yeah.
 
-**Karl Fogel:** Anyway, it didn't have a good adjectival form, so it wasn't \[unintelligible 00:39:09.25\] Eventually, when the term 'open source' came out, I just felt this tremendous relief. I was like, "Okay, no term is perfect. This term has some possible confusions and problems as well, but it is way easier for explanatory purposes than free software has been, so I'm just gonna start using it." And I didn't intend any ideological switch by that. I was still very pro free software, I ran only free software on my boxes, I only developed free software... But I just thought, "Okay, here's a term that also means freedom that will confuse people less."
+**Karl Fogel:** Anyway, it didn't have a good adjectival form, so it wasn't... On its own merits, it had problems anyway. Eventually, when the term 'open source' came out, I just felt this tremendous relief. I was like, "Okay, no term is perfect. This term has some possible confusions and problems as well, but it is way easier for explanatory purposes than free software has been, so I'm just gonna start using it." And I didn't intend any ideological switch by that. I was still very pro free software, I ran only free software on my boxes, I only developed free software... But I just thought, "Okay, here's a term that also means freedom that will confuse people less."
 
 \[00:39:48.17\] And then roughly a year after that coinage, when Stallman and the FSF (Free Software Foundation) realized that a lot of the people who were driving the term open source, who had founded the term - not necessarily people who were using the term, which was a lot of us - were also not on board with the ideology. Did they start to make this distinction between free software and open source, and say "Just because you support one doesn't mean you support the other. They're not the same thing, even though it's the exact same set of licenses and software... So what do we mean by 'not the same thing'?"
 
@@ -245,7 +245,7 @@ I don't know what happens when the youngest generation now grows up... Will they
 
 **Karl Fogel:** They'll say "This is bullshit", but they'll say it on Facebook.
 
-**Nadia Eghbal:** Great! And that's the hard part, \[unintelligible 00:58:01.29\]
+**Nadia Eghbal:** Right! And that's the hard part, is sort of like you have this tyranny of ... yeah.
 
 **Karl Fogel:** I think that point about network effects is really important. What happened as an increasingly large percentage of humanity got internet connections was that the payoff ratio for building a proprietary system changed. It used to be that if you were building a system there was some reward for making it a little hackable, because the users you were likely to attract... Well, people on the internet at that time were already more likely to have potential to contribute to your system, so there was statistically some potential reward for making your system have a slightly open door to people coming in and helping out. But if you're launching something like Facebook or Snapchat in the age of most of humanity being online, then the trouble you go through to make that thing hackable versus the payoff when most of those users are not going to take advantage of that, the reward matrix just looks different now, and maybe it just doesn't make economic sense for those proprietary platforms to have a porous surface.
 
@@ -317,7 +317,7 @@ EGCS started accepting all those patches that the GCC copy wouldn't take, and ev
 
 **Mikeal Rogers:** So I've said this on a couple occasions, but I think the size of the user base is proportional... There's some percentage of that that would contribute, that wanna contribute in some way, and if they're enabled to, you'll have a thriving community. If you don't, you eventually will increase the tension, not just with your overall user base, but also with these people that would be contributing. And eventually, if that tension rises enough, you get a fork.
 
-I think that where that \[unintelligible 01:12:37.24\] when you look at Android, the users of the Android code base are not the users of Android. The users of the Android code base are companies that manufacture phones, for the most part.
+I think that where that starts to pare down is that when you look at Android, the users of the Android code base are not the users of Android. The users of the Android code base are companies that manufacture phones, for the most part.
 
 **Karl Fogel:** And indeed, they started forking Android.
 
