@@ -72,7 +72,7 @@ For me, it definitely would have not been possible to just do another project, b
 
 **Robert Griesemer:** Yeah, that was completely unexpected. So in Sydney I think we already had quite a bit written down, but not very formal, and if I remember correctly, we spent quite a bit of time trying to figure out how to do maps right. We wanted to get maps somehow into the language and we didn't quite know how to do it, and I think it was you, Rob, who eventually said "We should try to make them work in 90% of the cases really well, and for all the other cases we probably shouldn't make things more complicated." I think that was a really good decision in hindsight.
 
-**Rob Pike:** I don't remember that, but that sounds like me. We also struggled to get erase to work well, which became slices eventually.
+**Rob Pike:** I don't remember that, but that sounds like me. We also struggled to get arrays to work well, which became slices eventually.
 
 **Robert Griesemer:** Right. That took a little longer, I think.
 
@@ -82,7 +82,7 @@ For me, it definitely would have not been possible to just do another project, b
 
 **Rob Pike:** Yeah, that's absolutely true.
 
-**Jon Calhoun:** So when you say that those things were hard to figure out, was it because you'd seen other languages do it in a way that you thought was not the right way, or was it -- what made them hard, given that you've seen other languages do erase, and there are examples you could have just copied, but you chose not to?
+**Jon Calhoun:** So when you say that those things were hard to figure out, was it because you'd seen other languages do it in a way that you thought was not the right way, or was it -- what made them hard, given that you've seen other languages do arrays, and there are examples you could have just copied, but you chose not to?
 
 **Rob Pike:** \[00:11:50.18\] Yeah, you have to decide what the semantics are. At least Ken and I certainly came from a pretty C-heavy mindset, so it took us a while to let some of those ideas go. But one of the things C does not have, that I really wanted, and I think Ken and Robert would agree, was we wanted to make sure we had some way to do variable-length arrays, or what we would now call a slice... And how to do that inside of a C memory model is a little tricky.
 
