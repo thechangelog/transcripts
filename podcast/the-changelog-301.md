@@ -138,7 +138,7 @@ Anyways, Steve, you've been a contributor to Python itself. You mentioned PEP 8 
 
 **Jerod Santo:** Is it every Friday? Because that's a very clear line, right?
 
-**Steve Dower:** Yeah, and "If you e-mail me about Microsoft work on that day, you're not gonna get a response on that day because I'm not doing that work." It's very individually-managed; it comes down to how your manager feels about it, and what value is coming back out of that for either the community as a whole, or Microsoft and how that's valued.
+**Steve Dower:** Yeah, and "If you email me about Microsoft work on that day, you're not gonna get a response on that day because I'm not doing that work." It's very individually-managed; it comes down to how your manager feels about it, and what value is coming back out of that for either the community as a whole, or Microsoft and how that's valued.
 
 **Dan Taylor:** Yeah, I don't think anyone's really breathing over your shoulder at Microsoft anyways, and watching what you do every day... But yeah, with Brett, I've definitely tried to meet with him on Friday and he goes "No, not talking..."
 

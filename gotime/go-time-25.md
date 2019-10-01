@@ -208,7 +208,7 @@ So it's a total mess. And while you can always find a path through the storm and
 
 **Erik St. Martin:** Even if we all as a panel said you should use this one, it's not gonna matter because of that whole nested dependency problem, right? I use one, but I import a package that uses another one...
 
-**Peter Bourgon:** I think it was super naive in retrospect to say "The community is gonna figure it out", because what happened was you have these camps, and they kind \[unintelligible 00:33:54.01\] and for good reasons - everybody has reasonably good reasons for choosing one style or another, but now we have all these competing standards. So in my mind, the only way out of this is to - and I guess this is where we're getting - form a committee with representation from the core team, and pick a standard. Maybe that takes the form of blessing one of the existing tools officially, or maybe it takes the form of producing a hybrid tool, or a common tool, or something like that.
+**Peter Bourgon:** I think it was super naive in retrospect to say "The community is gonna figure it out", because what happened was you have these camps, and they kind of ossified and for good reasons - everybody has reasonably good reasons for choosing one style or another, but now we have all these competing standards. So in my mind, the only way out of this is to - and I guess this is where we're getting - form a committee with representation from the core team, and pick a standard. Maybe that takes the form of blessing one of the existing tools officially, or maybe it takes the form of producing a hybrid tool, or a common tool, or something like that.
 
 This is the committee that I was driving as of a couple months ago, and that's what we're in the process of doing right now, to kind of eliminate this heterogeneity in this space, and hopefully help a lot of people.
 
@@ -446,7 +446,7 @@ I think Scott disappeared on us. Where have you been at, Scott?
 
 **Erik St. Martin:** Does it make you feel better that you're trying to diagnose something, "I'm just gonna cuttle it?" \[laughs\]
 
-**Peter Bourgon:** Well, like maps, it feels coherent to me. When I cuttle, I think like the squid, like \[unintelligible 01:09:46.10\] coming to devour the world. And typically, when I'm debugging something, I feel like my mind is being devoured by all the bad decisions I've made that lead me up to that point. So it lines up, it's what I'm saying.
+**Peter Bourgon:** Well, like maps, it feels coherent to me. When I cuttle, I think like the squid, like Cthulhu coming to devour the world. And typically, when I'm debugging something, I feel like my mind is being devoured by all the bad decisions I've made that lead me up to that point. So it lines up, it's what I'm saying.
 
 **Erik St. Martin:** \[laughs\] Oh... Did anybody have any other interesting projects or news they wanted to go over before we wrap the show up?
 
@@ -572,7 +572,7 @@ So do we have anything else, or we wanna move into \#FreeSoftwareFriday?
 
 I think that solves most of the use cases for at-scale logging, because I think it gets too hard... Can anybody think of any other use cases that a system like this would need to solve?
 
-**Peter Bourgon:** \[01:20:00.27\] I mean, certainly... I cut the logging domain into two parts: one is your typical debugging \[unintelligible 01:20:06.03\] application logging, where you might need this kind of deep introspection in order to debug certain issues. But you don't need a high quality of service; you can drop some of those log messages and it's not gonna be the end of the world. But then there's this other thing, I call audit logging - maybe it has a different name in a different context - where it's like, if you're running Netflix you wanna see... Or let's say you're running a bank - you wanna see every time somebody makes a deposit or a credit. This stuff is critical to your business; you need durable, reliable logs of all of these transactions, and that probably needs to end up somewhere reliably.
+**Peter Bourgon:** \[01:20:00.27\] I mean, certainly... I cut the logging domain into two parts: one is your typical debug info warn application logging, where you might need this kind of deep introspection in order to debug certain issues. But you don't need a high quality of service; you can drop some of those log messages and it's not gonna be the end of the world. But then there's this other thing, I call audit logging - maybe it has a different name in a different context - where it's like, if you're running Netflix you wanna see... Or let's say you're running a bank - you wanna see every time somebody makes a deposit or a credit. This stuff is critical to your business; you need durable, reliable logs of all of these transactions, and that probably needs to end up somewhere reliably.
 
 Both of these things is sort of what I'm considering, although they are drastically different \[unintelligible 01:20:56.10\] guarantees.
 

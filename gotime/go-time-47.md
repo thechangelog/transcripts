@@ -264,7 +264,7 @@ I think, honestly, we're gonna look back in six months and think of it as a blip
 
 \[00:44:09.13\] We invested a lot in talking to the maintainers of the project. That's a very small group - it's less than 50 that actually have commit rights on the project or on one of the components of the project.
 
-I started an e-mail thread with them about two months before the announcement, talking about the tension between Docker as an open source product and Docker as an open source project... The fact that the communities around these two (the product and the project) are different, they have different expectations, they have different needs and we're reaching a scale where it's becoming a problem to have those two things mixed, and what do you think of what Red Hat did with the split between Fedora and Red Hat Enterprise Linux...? So there was a whole thread that went on for two months, so we invested a lot in that.
+I started an email thread with them about two months before the announcement, talking about the tension between Docker as an open source product and Docker as an open source project... The fact that the communities around these two (the product and the project) are different, they have different expectations, they have different needs and we're reaching a scale where it's becoming a problem to have those two things mixed, and what do you think of what Red Hat did with the split between Fedora and Red Hat Enterprise Linux...? So there was a whole thread that went on for two months, so we invested a lot in that.
 
 On the other end, we invested in making sure it would not disrupt our users and our customers. Anyone using Docker, we wanted to make sure they would not be affected, and also how would they understand the change to Moby. So we spent a lot of time crafting a story that would be understandable for the mainstream, and I mean our mainstream. You still have to be a developer or someone who understands and cares about Docker, but you don't have to be an open source contributor to the container engine. We spent a lot of time thinking about the best way to explain it because it's a complex topic, because really, what we did with the switch to Moby is we changed our production model...
 
@@ -402,7 +402,7 @@ So these events can be a really good way to get started in open source in genera
 
 **Adam Stacoviak:** Anytime!
 
-**Erik St. Martin:** Huge shoutout to our sponsor, Toptal, for sponsoring the show. Definitely share the show with fellow Go programmers. You can find us on [GoTime.fm](http://gotime.fm), you can subscribe to our weekly e-mail there... We are on [Twitter](https://twitter.com/GoTimeFM), and if you wanna be on the show, have questions for our guests, [ping](https://github.com/GoTimeFM/ping) us... With that, goodbye everybody! We'll see you next week.
+**Erik St. Martin:** Huge shoutout to our sponsor, Toptal, for sponsoring the show. Definitely share the show with fellow Go programmers. You can find us on [GoTime.fm](http://gotime.fm), you can subscribe to our weekly email there... We are on [Twitter](https://twitter.com/GoTimeFM), and if you wanna be on the show, have questions for our guests, [ping](https://github.com/GoTimeFM/ping) us... With that, goodbye everybody! We'll see you next week.
 
 **Adam Stacoviak:** Laterz!
 

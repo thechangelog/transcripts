@@ -88,7 +88,7 @@ But if the server refuses them all, it will still see them all... And I built th
 
 **Carlisia Pinto:** So I ran it on my machine and it didn't find my GitHub public key. I'm wondering if it's because I have multiple ones and you grabbed one that wasn't active...
 
-**Erik St. Martin:** \[00:11:46.11\] No... The way the SSH protocol works is when you do public key authentication is it will pass all of your public keys, so anything that's in your .SSH directory, you'll see the IDE\_RSA.pubs and things like that... It will pass that, which contains your e-mail address in it.
+**Erik St. Martin:** \[00:11:46.11\] No... The way the SSH protocol works is when you do public key authentication is it will pass all of your public keys, so anything that's in your .SSH directory, you'll see the IDE\_RSA.pubs and things like that... It will pass that, which contains your email address in it.
 
 **Filippo Valsorda:** There's that, but I don't even use that. I use the matching of the actual public key.
 
@@ -122,11 +122,11 @@ But if the server refuses them all, it will still see them all... And I built th
 
 **Brian Ketelsen:** All about some aliases...
 
-**Erik St. Martin:** Yeah, the cool thing about that "who's there" thing is it really makes you connect with how much information leakage there is. You don't really consider that when you try to SSH a server that you're leaking information that you could be giving away, say, e-mail addresses, or those keys could be used to match you against other databases. So... Really interesting.
+**Erik St. Martin:** Yeah, the cool thing about that "who's there" thing is it really makes you connect with how much information leakage there is. You don't really consider that when you try to SSH a server that you're leaking information that you could be giving away, say, email addresses, or those keys could be used to match you against other databases. So... Really interesting.
 
 **Filippo Valsorda:** Yeah, I didn't even go full creeper on it, because from the GitHub account you can probably jump to the Keybase account if you have Keybase, or use the links you have in your bio, and from there jump to your Facebook or your Twitter and from there jump to your bio, maybe your home address, maybe your phone number... That would have been nice, like, "Hello, you're trying to SSH into a server. You're going to get a phone call in a minute."
 
-**Erik St. Martin:** Yeah, you really could go full-on creeper because you could basically take the domain from their e-mail address, and then start doing whois's on it and get all kinds of information.
+**Erik St. Martin:** Yeah, you really could go full-on creeper because you could basically take the domain from their email address, and then start doing whois's on it and get all kinds of information.
 
 What other things are you working on? I know you're doing some TLS stuff as well.
 
@@ -134,7 +134,7 @@ What other things are you working on? I know you're doing some TLS stuff as well
 
 But the point is we wanted to implement TLS 1.3 and participate in the standardization process with a real implementation and deployed... So we wanted to take up TLS stack and add 1.3 ourselves. I essentially threatened to quit if they made me do it on OpenSSL -- no, I'm joking; nobody asked me. They just asked me what to use as a base, so I just jumped straight to crypto/tls, the standard library of Go, which is a wonderful stack written originally by Adam Langley, which all of the people in the industry say that it's where they go to to understand TLS. They read the spec, they fail to understand it, they go to crypto/tls, they read the Go code, and now they understand things. So that was the starting point... And we extended it to have TLS 1.3 support; we worked most on the server side, and it's now deployed globally on millions on CloudFlare sites. If you just sign up for a free account, it's on by default.
 
-\[00:15:56.17\] The nice thing we don't talk that much about, but you can definitely gather is that if our TLS 1.3 stack is in Go and you can use Go to connect to CloudFlare \[unintelligible 00:16:06.15\] it means that sometimes when you connect to CloudFlare, actually in the HTTP pipeline there is a Go HTTP reverse proxy.
+\[00:15:56.17\] The nice thing we don't talk that much about, but you can definitely gather is that if our TLS 1.3 stack is in Go and you can use Go to connect to CloudFlare site it means that sometimes when you connect to CloudFlare, actually in the HTTP pipeline there is a Go HTTP reverse proxy.
 
 **Erik St. Martin:** So all of the CloudFlare reverse proxy stuff is written in Go?
 
@@ -159,7 +159,7 @@ Saying that I'm suggesting to actually go out of your way to remove OpenSSL by a
 
 **Erik St. Martin:** What does TLS 1.3 offer over 1.2? What was the motivation to write that now?
 
-**Filippo Valsorda:** It's two-folded: there's better robustness - a lot of things that were creaky and we weren't really sure about were just removed... The policy was if it doesn't have a very good reason to be in the protocol \[unintelligible 00:19:11.22\] it's not gonna be in the protocol.
+**Filippo Valsorda:** It's two-folded: there's better robustness - a lot of things that were creaky and we weren't really sure about were just removed... The policy was if it doesn't have a very good reason to be in the protocol, cough cough hearbeat cough cough, it's not gonna be in the protocol.
 
 On the other hand, performance-wise it cuts an entire round trip. When you connect to a website, you first do the TCP handshake (that still happens) and then in TLS 1.2 you had to do two round trips - to the server and back, to the server and back - before you could start sending real data on the connection. Now, with TLS 1.3, you do only one. You send something, the server responds and we're ready to go with one less round trip. And round trips on mobile networks or in some countries, we are talking like seconds sometimes.
 
@@ -624,7 +624,7 @@ Actually, \[unintelligible 00:51:32.24\] did the design and the images, I built 
 
 **Carlisia Pinto:** Good work!
 
-**Erik St. Martin:** Well, huge thank you to everybody on the show, thanks to all the listeners listening right now. Huge shoutout to our sponsors, StackImpact and Ardan Labs. If you haven't checked them out, please do. We will put links in the show notes. Definitely share this show with friends and colleagues. An easy way to subscribe is to go to GoTime.FM. We will have a weekly e-mail coming out shortly, so go ahead and get signed up to that. We are @GoTimeFM on Twitter, we have a GoTimeFM channel in the Gophers Slack. If you wanna be on the show or have suggestions for topics or guests for the show, GitHub.com/GoTimeFM/ping. With that, goodbye everybody! We'll see you next week. Mat Ryer will be joining us for next week's show.
+**Erik St. Martin:** Well, huge thank you to everybody on the show, thanks to all the listeners listening right now. Huge shoutout to our sponsors, StackImpact and Ardan Labs. If you haven't checked them out, please do. We will put links in the show notes. Definitely share this show with friends and colleagues. An easy way to subscribe is to go to GoTime.FM. We will have a weekly email coming out shortly, so go ahead and get signed up to that. We are @GoTimeFM on Twitter, we have a GoTimeFM channel in the Gophers Slack. If you wanna be on the show or have suggestions for topics or guests for the show, GitHub.com/GoTimeFM/ping. With that, goodbye everybody! We'll see you next week. Mat Ryer will be joining us for next week's show.
 
 **Brian Ketelsen:** You know, he probably rushed to finish the gopherize-me thing just before he was gonna be on the show. \[laughter\]
 

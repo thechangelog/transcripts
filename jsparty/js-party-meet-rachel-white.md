@@ -36,7 +36,7 @@
 
 From there I went to an ad agency where I was doing design and development. So whatever they needed me to do dev on - I would work with .NET sites, or every single CMS on the face of the planet. Then the last job I had in St. Louis was at a really amazing place called Spry Digital, and I did a lot of WordPress and Drupal stuff. I'd been working with WordPress since it came out, so that was really easy for me. Then I just stumbled upon the opportunity to work at Adobe, and came back to the East Coast. That was in 2014, so... So many exciting things have happened to me in the past three years!
 
-**Adam Stacoviak:** Wow... It seems like you're the kind of person to say yes to a lot of fun opportunities, and not feel like you \[unintelligible 00:05:46.14\] "Well, I'm too good for that." You sort of were like, "I'll go anywhere and do whatever to enjoy what I'm doing."
+**Adam Stacoviak:** Wow... It seems like you're the kind of person to say yes to a lot of fun opportunities, and not feel like you - you said, "I've worked with .NET, I've worth with this", or you didn't say, "Well, I'm too good for that." You sort of were like, "I'll go anywhere and do whatever to enjoy what I'm doing."
 
 **Rachel White:** Well, that's the thing... I have a talk that I've been doing lately called "Alt-Ctrl: Scream into this Arduino", and it's my intro to a Javascript hardware talk, and I started off by saying, "I'm not a great developer, and I'm not great at hardware" and the last slide is "I'm a great problem solver", because that is how I feel. Even if I've never seen a codebase, if you tell me the problem that you have and what needs to get solved, I can figure it out, even if it's in a language that I don't necessarily understand. It's been that way ever since I've started programming.
 
@@ -59,7 +59,7 @@ That was my project, and it took me two months to finish everything. I open-sour
 
 I like hearing about thought process and mistakes that are made, and the things that they've learned throughout the process. I try and do that in everything that I do.
 
-\[00:11:50.11\\\] I have an RFID chip in my hand, because why not? I thought it would be funny. Right now all that it does is if you scan it with an RFID reader, it says, "Follow me on Twitter" and it has \[unintelligible 00:12:06.03\] on it. It has a unique ID in it, so I can scan it with the RFID reader that I wired up to an Arduino, and then I have a simple little pseudo-console running in the browser that I styled to look like an old monitor with green text (glowy)...
+\[00:11:50.11\\\] Let me see, what else... I have an RFID chip in my hand, because why not? I thought it would be funny. Right now all that it does is if you scan it with an RFID reader, it says, "Follow me on Twitter" and it has "@ohhoe" on it. It has a unique ID in it, so I can scan it with the RFID reader that I wired up to an Arduino, and then I have a simple little pseudo-console running in the browser that I styled to look like an old monitor with green text (glowy)...
 
 **Jerod Santo:** Nice.
 
@@ -77,7 +77,7 @@ I like hearing about thought process and mistakes that are made, and the things 
 
 **Rachel White:** If it does, it's fine...
 
-**Adam Stacoviak:** It starts \[unintelligible 00:13:23.03\] different sections of your body, like your wrist, or the inside of your elbow, or something like that...
+**Adam Stacoviak:** It starts scanning different sections of your body, like your wrist, or the inside of your elbow, or something like that...
 
 **Rachel White:** Well, I don't think that it can go anywhere, like...
 
@@ -99,7 +99,7 @@ I like hearing about thought process and mistakes that are made, and the things 
 
 **Jerod Santo:** You gotta stay on brand.
 
-**Rachel White:** I know, but it I feel like people are like, "Ugh, I hate cats \[unintelligible 00:14:36.28\]
+**Rachel White:** I know, but also I feel like people are like, "Ugh, I hate cats, there's that girl again."
 
 **Jerod Santo:** It's the cat lady!
 
@@ -145,7 +145,7 @@ From your perspective, Rachel, when you're on the podcast yourself, you're gonna
 
 I guess now if you have a technical for Mikeal or Alex and you're afraid to ask, my DMs are open.
 
-**Adam Stacoviak:** I'm glad you mentioned that, because we actually have a soundboard now, and what we're gonna do -- we don't have a formal way to do this yet, so if you're listening to this, simply subscribe to the show or subscribe to our weekly e-mail, Changelog Weekly... You can find that by going to changelog.com/weekly. But what we plan to do is actually have it where people can submit audio-based questions and we'll play them live on the show. That's one idea we have.
+**Adam Stacoviak:** I'm glad you mentioned that, because we actually have a soundboard now, and what we're gonna do -- we don't have a formal way to do this yet, so if you're listening to this, simply subscribe to the show or subscribe to our weekly email, Changelog Weekly... You can find that by going to changelog.com/weekly. But what we plan to do is actually have it where people can submit audio-based questions and we'll play them live on the show. That's one idea we have.
 
 \[00:20:19.18\\\] So if you're taking Rachel's advice and you DM her, you can simply just record it and share an audio URL and she'll pass it along, or something like that. That's something that we have found time for in the future. If we're in the middle of the show and so-and-so has this question, we play their question and you all debate about the different nuances of it, or your different perspectives or angles. That could be fun.
 

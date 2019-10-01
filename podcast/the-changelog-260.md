@@ -46,7 +46,7 @@ Obviously, that takes a lot more work and maybe news is gonna stop at like a one
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** Well, there's two sides to us, really - we've got our quick, poignant Twitter/weekly e-mail that we ship out, and then we have deeper, more personal, more human, I guess...
+**Adam Stacoviak:** Well, there's two sides to us, really - we've got our quick, poignant Twitter/weekly email that we ship out, and then we have deeper, more personal, more human, I guess...
 
 **Jerod Santo:** Contextual, yeah.
 
@@ -136,7 +136,7 @@ How did you come up with this list and acronym you've got?
 
 **Adam Stacoviak:** Yeah, I know the movie. It was a couple...
 
-**Jerod Santo:** Yeah, there was a sequel. Oh, it's gonna be one of those shows where people are e-mailing us...
+**Jerod Santo:** Yeah, there was a sequel. Oh, it's gonna be one of those shows where people are emailing us...
 
 **Adam Stacoviak:** \[unintelligible 00:27:24.04\]
 
@@ -152,7 +152,7 @@ How did you come up with this list and acronym you've got?
 
 **Jerod Santo:** I think it was just a statement of like what's cool. It was just a word, kind of an inappropriation of the word "fat", and I think he then backronymed that during the movie. Now, I don't have the full history in front of me, but I do have that much. So he said it meant "Pretty Hot And Tempting", but now you have UNPHAT.
 
-**Adam Stacoviak:** \[unintelligible 00:28:11.09\] "Un-Pretty Hot And Tempting." \[laughter\]
+**Adam Stacoviak:** "Un-Pretty Hot And Tempting." \[laughter\]
 
 **Jerod Santo:** Yeah...
 
@@ -174,7 +174,7 @@ So really, if there's one thing that you take from this conversation or this art
 
 **Jerod Santo:** I'm struggling... But I like it though.
 
-**Ozan Onay:** So how many are sufficient? I don't know. I would challenge you to at least think of one, and at least honestly give it a bit of a \[unintelligible 00:31:19.14\] because the temptation is always "I know this first thing, this default thing, and therefore it's always the best." I'm not saying you need to think of five necessarily, but at least yank yourself out of that confirmation bias, that prejudice that you have for the thing that you first thought of, and just look at it from one other perspective. Maybe after that you're gonna think about another one or another one. But if all you do is temporarily yank yourself out of this deer in the headlights kind of fixation with your language or your operating system or your data store, that's great.
+**Ozan Onay:** So how many are sufficient? I don't know. I would challenge you to at least think of one, and at least honestly give it a bit of a whirl because the temptation is always "I know this first thing, this default thing, and therefore it's always the best." I'm not saying you need to think of five necessarily, but at least yank yourself out of that confirmation bias, that prejudice that you have for the thing that you first thought of, and just look at it from one other perspective. Maybe after that you're gonna think about another one or another one. But if all you do is temporarily yank yourself out of this deer in the headlights kind of fixation with your language or your operating system or your data store, that's great.
 
 \[00:32:00.00\] So maybe with Postgres you're not thinking "Hey, do I use MySQL instead?", it wouldn't make sense, but maybe you're thinking, "Hey, do I really need to actually persist this data? Is that really a part of the problem? Could I store it in a file? Could I store it in memory?" So maybe it's that kind of thinking instead that really gives you the different perspective. "Do I really need to solve this problem? Can I just call somebody up and talk to them about it instead?" But maybe at the end you use Postgres, I don't know.
 
@@ -184,7 +184,7 @@ So really, if there's one thing that you take from this conversation or this art
 
 **Adam Stacoviak:** Do you have any examples where you enumerated the multiple candidate solutions as you mentioned here and you were very thankful for doing that task, that discipline?
 
-**Ozan Onay:** Yes, I have a story in there... I will not name the company, but this actually happened with them. They were using Kafka. The first design of their system was not very good and they responded to that by really over-engineering their second system. It was Kafka and Samza and all these really excellent technologies that operate at way, way larger scales than them, and really through a conversation with one of the engineers at the company we ended up with a design that would have more of a traditional relational data store, but which could have honestly been somebody writing into a book. That's actually the design that I push for. I actually push for the data store being somebody receives an e-mail and physically writes it down, maybe in a couple of books.
+**Ozan Onay:** Yes, I have a story in there... I will not name the company, but this actually happened with them. They were using Kafka. The first design of their system was not very good and they responded to that by really over-engineering their second system. It was Kafka and Samza and all these really excellent technologies that operate at way, way larger scales than them, and really through a conversation with one of the engineers at the company we ended up with a design that would have more of a traditional relational data store, but which could have honestly been somebody writing into a book. That's actually the design that I push for. I actually push for the data store being somebody receives an email and physically writes it down, maybe in a couple of books.
 
 **Adam Stacoviak:** Redundancy...
 
@@ -224,13 +224,13 @@ I teach databases, I have a lot of students who use these technologies, and then
 
 So I think for a newer technology, particularly if there's one key paper, the MapReduce paper, or something, that's fairly straightforward to read.
 
-For something like Postgres, because it's older and it's got a really long legacy, that's harder and you need a little bit of a guide, like a trail guide. Googling and finding a paper, maybe it's good, maybe it's not... But if you've got someone to point you in the right direction and say "Okay, Postgres has a long legacy. Really it's based on system R. In the '70s there were some key ideas..." -- well, I shouldn't say "based on." A lot of people will be angry with me if they heard that. But a lot of the key ideas in these traditional relational database management systems are from system R in the '70s. Those are well-documented and there are some famous papers there that really -- if you're trying to understand the optimizer, there's one paper there that's still required reading in most databases courses. It's about the \[unintelligible 00:38:39.09\] If you wanna understand how Postgres really optimizes your query, you wanna start by reading that paper from the '70s.
+For something like Postgres, because it's older and it's got a really long legacy, that's harder and you need a little bit of a guide, like a trail guide. Googling and finding a paper, maybe it's good, maybe it's not... But if you've got someone to point you in the right direction and say "Okay, Postgres has a long legacy. Really it's based on system R. In the '70s there were some key ideas..." -- well, I shouldn't say "based on." A lot of people will be angry with me if they heard that. But a lot of the key ideas in these traditional relational database management systems are from system R in the '70s. Those are well-documented and there are some famous papers there that really -- if you're trying to understand the optimizer, there's one paper there that's still required reading in most databases courses. It's about the Zellweger optimization model. If you wanna understand how Postgres really optimizes your query, you wanna start by reading that paper from the '70s.
 
-There are a couple of key papers like that, but they are hard to find. You can google \[unintelligible 00:38:57.00\] or you google "Postgres paper." So having a little bit of guidance there helps a lot.
+There are a couple of key papers like that, but they are hard to find. You can google "Zellweger optimization model" or you google "Postgres paper." So having a little bit of guidance there helps a lot.
 
 Hopefully you've got senior folk at your company who can point you in the right direction. If you say "Hey, I really wanna understand this at a foundational level", hopefully they'll point you to those kinds of resources and not Stack Overflow questions. But yeah, it is tough for sure. You need discipline, you need some spare time at work, ideally. You need to be at the kind of workplace where you can say "Hey, I'm gonna read this paper for a couple of hours to get a better sense of what's going on here" and for people to be cool with that.
 
-**Adam Stacoviak:** I would argue too that you should have to say "Hey, I'm gonna..." Maybe that \[unintelligible 00:39:37.28\] but you shouldn't be treated like a child, where you have to ask for permission, to say "Let me read a paper to get more knowledge on what we're gonna do." I mean, I don't know... \[laughter\]
+**Adam Stacoviak:** I would argue too that you should have to say "Hey, I'm gonna..." Maybe that is too helpful but you shouldn't be treated like a child, where you have to ask for permission, to say "Let me read a paper to get more knowledge on what we're gonna do." I mean, I don't know... \[laughter\]
 
 **Ozan Onay:** Well, you don't get any sprint points for reading a paper.
 
@@ -238,7 +238,7 @@ Hopefully you've got senior folk at your company who can point you in the right 
 
 **Jerod Santo:** \[00:40:04.07\] This might be a good time to mention the Papers We Love repo on GitHub and that community, because what I was thinking there, Oz, as you were talking, is it'd be great to have a centralized curated place where you could just come and say "Okay, when it comes to Bigtable or when it comes to MapReduce, this is the paper, and it's right here." I was thinking "Yeah, I've heard of Papers We Love", so I was looking it up, and actually that's close to what they're doing. They have a data store section, and this is Bigtable databases, Dynamo... So you can find all those papers in one centralized place, curated by a community. That takes out some of the legwork that may otherwise prohibit you from finding the best or the canonical paper for this particular subject or tool.
 
-**Ozan Onay:** I'm glad you brought that up, because they deserve a shoutout. Great community overall, particularly in New York and San Francisco. Incredible organizers. I really would encourage folks to go to those meetups if there's one in their city. Great community, great turnout. There's always a thoughtful speaker focusing on one paper... But then the people in that audience are gonna be the \[unintelligible 00:41:09.21\] where you can't ask a question like that, "Hey, I'm trying to understand this thing. What would you read if you were me, or what would you be thinking about if you were me?" It's a totally different community to the standard meetups, so big ups to them.
+**Ozan Onay:** I'm glad you brought that up, because they deserve a shoutout. Great community overall, particularly in New York and San Francisco. Incredible organizers. I really would encourage folks to go to those meetups if there's one in their city. Great community, great turnout. There's always a thoughtful speaker focusing on one paper... But then the people in that audience are gonna be the folk where you can't ask a question like that, "Hey, I'm trying to understand this thing. What would you read if you were me, or what would you be thinking about if you were me?" It's a totally different community to the standard meetups, so big ups to them.
 
 **Adam Stacoviak:** For the listeners, if there's an easy thing you wanna do right here and right now while you're listening, you can actually tweet @loveapaper. That has their repo link in it, so if you just wanna say "Hey, I heard this on the Changelog", tweet that, it'll at least point any friends you have in the right direction. We'll obviously include a link in the show notes, too.
 

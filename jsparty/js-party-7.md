@@ -424,7 +424,7 @@ Okay, I'm going now.
 
 **Alex Sexton:** My pick this week is GPG Tools. Actually, that was a little bit of a joke... My pick is Keybase. I think all of the -- so, GPG is GNU Privacy Guard, which is an OSS version of PGP, which used to stand for Pretty Good Privacy (maybe it still does). It's all encryption/privacy type stuff, so if you have public key/private key, all that kind of stuff to where you can kind of verify your identity with big, long things. I'm trying to explain it in a way that makes sense, but nothing I do -- that's the whole problem.
 
-Have you ever seen an e-mail come through and it says "Begin PGP encryption"? That's what this is. The thing that I'm actually suggesting that you use though is Keybase.io.
+Have you ever seen an email come through and it says "Begin PGP encryption"? That's what this is. The thing that I'm actually suggesting that you use though is Keybase.io.
 
 \[00:55:07.05\] You generate yourself a private key and a public key, you keep the private key to yourself, you push the public key up to Keybase as well as other key servers, and then you can tweet out from your Twitter account that says "I'm this person on Keybase", and based on that, it verifies that you are really that person. So it ties your social identities to your encrypted identities. Then, if you need to verify that someone is someone, you can use those identities, or send them encrypted mail, if they know how to do that. So that's my pick this week, Keybase.io.
 
@@ -434,7 +434,7 @@ Have you ever seen an e-mail come through and it says "Begin PGP encryption"? Th
 
 **Mikeal Rogers:** Basically it's an identity authority, essentially...
 
-**Alex Sexton:** Yeah, but federated, in the sense that... Well, it's not federated. But it uses other services in order to do those certifications. But it also doesn't need -- so it can be a web page or your e-mail or something like that as well.
+**Alex Sexton:** Yeah, but federated, in the sense that... Well, it's not federated. But it uses other services in order to do those certifications. But it also doesn't need -- so it can be a web page or your email or something like that as well.
 
 **Mikeal Rogers:** Cool. Awesome. So I picked this before and I talked about it a ton... WebTorrents is just one of the coolest projects on the internet... There's a whole Changelog episode about it, there's a great desktop client for using WebTorrent; if you don't know it, it's an implementation of BitTorrent on top of WebRTC and all the peer-to-peer protocols that we have on the web now. But what I specifically wanna plug actually is just pulling WebTorrent in as a library, like you would anything else that you run through Browsersify, and using it in some of your applications.
 

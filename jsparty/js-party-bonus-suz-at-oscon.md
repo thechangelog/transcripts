@@ -226,7 +226,7 @@ I've just moved into a new place, it's a really cool apartment... And I wanna st
 
 **Suz Hinton:** Yeah, I absolutely adored that robot. But I didn't know what to call this project, and I don't even know how we started talking about this yesterday, but I was talking about it and then you both awkwardly laughed... But then you sort of got the idea and you said "Oh, it's as if the walls could talk", and I was like "Yes! That's it!" So that's what I wanna call it - if the walls could talk.
 
-**Jerod Santo:** \[unintelligible 00:14:21.08\]
+**Jerod Santo:** Boom goes the dynamite.
 
 **Adam Stacoviak:** Boom! Dynamite.
 
@@ -264,7 +264,7 @@ I've just moved into a new place, it's a really cool apartment... And I wanna st
 
 **Jerod Santo:** I thought that was cool. Do you have anything like that?
 
-**Suz Hinton:** So a couple of those projects that other Twitchers did were inspired by a Tiara that I made. It's a battery-powered Tiara, and it has like flowers and stuff, but it has these 3D-printed fake crystals, and they each have a light in them... So I would wear the Tiara, and you could use a command -- I think it was like \[unintelligible 00:15:59.02\] and then a color, and then it would change that color. So if I'm just kind of deep in the weeds, reading documentation and I'm not paying attention to the chat, people can still kind of mess with me.
+**Suz Hinton:** So a couple of those projects that other Twitchers did were inspired by a Tiara that I made. It's a battery-powered Tiara, and it has like flowers and stuff, but it has these 3D-printed fake crystals, and they each have a light in them... So I would wear the Tiara, and you could use a command -- I think it was like !Tiara and then a color, and then it would change that color. So if I'm just kind of deep in the weeds, reading documentation and I'm not paying attention to the chat, people can still kind of mess with me.
 
 **Jerod Santo:** Right.
 
@@ -360,7 +360,7 @@ So I just hooked up a simple thermometer to the cloud, and that now shows in the
 
 **Jerod Santo:** No Johnny-Five involved here.
 
-**Suz Hinton:** It would be cool if we could put it on a little sort of wheeled platform, and it just kind of like \[unintelligible 00:19:40.17\] when my friends are here... But I feel like that's just taking it slightly too far.
+**Suz Hinton:** It would be cool if we could put it on a little sort of wheeled platform, and it just kind of like darts across doorways or something when my friends are here... But I feel like that's just taking it slightly too far.
 
 **Jerod Santo:** You could mount it to a Roomba.
 
@@ -368,7 +368,7 @@ So I just hooked up a simple thermometer to the cloud, and that now shows in the
 
 **Jerod Santo:** Three ideas I've had today...
 
-**Suz Hinton:** \[unintelligible 00:19:52.28\]
+**Suz Hinton:** That's three. Adam doesn't look impressed.
 
 **Adam Stacoviak:** How would that work?
 

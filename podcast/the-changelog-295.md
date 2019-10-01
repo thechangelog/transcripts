@@ -184,7 +184,7 @@ Another one of our often used services is Twitter, and they historically have ha
 
 **Julia Grace:** Oh, yes...
 
-**Jerod Santo:** Actually, Twitter had some downtime maybe last week, and I noticed the Fail Whale was gone. It's like a weird Octocat looking thing instead. I was like, "That's not endearing, give us the Fail Whale." But Slack really hasn't had... I mean, Adam, can you think of a time where it was just like, "Well, Slack's down... I guess we'll just e-mail each other"?
+**Jerod Santo:** Actually, Twitter had some downtime maybe last week, and I noticed the Fail Whale was gone. It's like a weird Octocat looking thing instead. I was like, "That's not endearing, give us the Fail Whale." But Slack really hasn't had... I mean, Adam, can you think of a time where it was just like, "Well, Slack's down... I guess we'll just email each other"?
 
 **Adam Stacoviak:** No, I don't. The only thing I would really ever notice - and this isn't a dig - is just maybe slower service, not down service... Which could be - but isn't - as bad.
 
@@ -242,7 +242,7 @@ Maybe before -- we wanna ask you one or two questions about your upcoming talk h
 
 Segueing into -- you had asked a few other numbers... When I first started using Slack, before I ever thought about working at the company, I had started a company and I installed all the engineering integrations on top of Slack. So I did GitHub, continuous integration, PagerDuty, we also use Zendesk for our customer support tickets... So we have a really active and vibrant developer community that builds on top of the APIs, so we've got something like 1,000 apps in our app directory. The app directory was actually the first big launch that I was part of at Slack, which was super cool, because you had to go search for apps, and that's how in my early Slack days I found apps - I would do a google search; now you can search in the app directory.
 
-This is just so cool, because I've built apps before I even joined the company; I built integrations, so I could send data, pipe data from our systems into Slack, so that if something was going wrong, I hooked up our error servers to Slack so that I could see the channel light up, versus waiting for the e-mail or waiting for the page, because I was in Slack all the time...
+This is just so cool, because I've built apps before I even joined the company; I built integrations, so I could send data, pipe data from our systems into Slack, so that if something was going wrong, I hooked up our error servers to Slack so that I could see the channel light up, versus waiting for the email or waiting for the page, because I was in Slack all the time...
 
 There's something like 155,000 of these weekly active developers building on Slack. So that's a lot of people building on Slack, and I think that's so cool, because they are building things that we never could have imagined, in a wonderful way.
 

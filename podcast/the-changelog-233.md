@@ -440,7 +440,7 @@ That's one of the things I really have been trying to encourage - I wanna find t
 
 **Adam Stacoviak:** Well with that, I think that's pretty much it. Thanks to the listeners for tuning in. I know this is a slightly longer show maybe by a few minutes, but definitely a good deep dive into your past, where Webpack is going and how this community is being governed and formed and lead by you and others. That's super awesome.
 
-If you're listening to this and you haven't yet subscribed to Changelog Weekly, you gotta do it. It's an e-mail we ship out every Saturday, and I'm only telling you this because you're missing out if you don't subscribe. I'm sorry. What do you think, Jerod?
+If you're listening to this and you haven't yet subscribed to Changelog Weekly, you gotta do it. It's an email we ship out every Saturday, and I'm only telling you this because you're missing out if you don't subscribe. I'm sorry. What do you think, Jerod?
 
 **Jerod Santo:** Do it. Do it. Do it.
 
@@ -450,7 +450,7 @@ If you're listening to this and you haven't yet subscribed to Changelog Weekly, 
 
 **Jerod Santo:** Do it...
 
-**Adam Stacoviak:** Get the e-mail, read it, love it, share it...
+**Adam Stacoviak:** Get the email, read it, love it, share it...
 
 **Sean Larkin:** Do it...
 
@@ -472,6 +472,6 @@ If you're listening to this and you haven't yet subscribed to Changelog Weekly, 
 
 \* \* \*
 
-**Adam Stacoviak:** Alright, just a reminder... This is the final show of 2016 for the Changelog. We'll see you next year in 2017 with new shows, a bigger network, a lot of fun stuff we have planned. Stay tuned. Head to changelog.com if you haven't been there in a while, subscribe to Master, go to changelog.com/master, get all of our podcasts, and don't forget our weekly e-mail, changelog.com/weekly.
+**Adam Stacoviak:** Alright, just a reminder... This is the final show of 2016 for the Changelog. We'll see you next year in 2017 with new shows, a bigger network, a lot of fun stuff we have planned. Stay tuned. Head to changelog.com if you haven't been there in a while, subscribe to Master, go to changelog.com/master, get all of our podcasts, and don't forget our weekly email, changelog.com/weekly.
 
 We'll see you in 2017. Thanks for listening!

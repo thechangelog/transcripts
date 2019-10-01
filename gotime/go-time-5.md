@@ -76,7 +76,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Brian Ketelsen:** Yeah, so all you library developers out there, if you're not putting context as the first parameter of your public functions, now is a great time to start doing that, please. I wanted to say please, I don't wanna sound too bossy. I can come across that way sometimes.
 
-**Carlisia Pinto:** And from the little experience that I have with Go, I see a lot of times when people use other network packages just so they can get the context, and I would even do that, because \[unintelligible 00:05:11.01\] But now that it's in the library, I wonder how it's going to impact the usage of the external libraries. Or if people are just gonna have to keep adding more features to make it more attractive for people to use them.
+**Carlisia Pinto:** And from the little experience that I have with Go, I see a lot of times when people use other network packages just so they can get the context, and I would even do that, because I don't wanna do that stuff by hand. But now that it's in the library, I wonder how it's going to impact the usage of the external libraries. Or if people are just gonna have to keep adding more features to make it more attractive for people to use them.
 
 **Erik St. Martin:** But is it really a competition, though? I think at the end of the day it's about writing good quality software, that's readable, and I think that by having external libraries that people really like - and we kind of get consensus on these patterns - I think it's okay to pull that stuff in. Because not everybody's gonna be aware of these things, despite how much visibility we think they have, or as people find stuff in the standard library - that's generally where people look first, so I think it's a hard debate. We're kind of pulling away users from some standard library, but I think that the library owners are probably glad to see it there. I think it will get more love in the standard library, too.
 
@@ -90,7 +90,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Sarah Adams:** Yeah, and I think the Gorilla mux even imports its own Gorilla context, within the mux package. So it will be interesting to see if they go forward with the Go standard library context.
 
-**Erik St. Martin:** We should e-mail them an ask.
+**Erik St. Martin:** We should email them an ask.
 
 **Brian Ketelsen:** Open an issue on the GitHub repo.
 
@@ -108,7 +108,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Carlisia Pinto:** Exactly.
 
-**Erik St. Martin:** \[unintelligible 00:08:58.29\] and stuff like that that runs all the suite of different tooling.
+**Erik St. Martin:** Like, there's a Go meta-linter and stuff like that that runs all the suite of different tooling.
 
 **Carlisia Pinto:** I can totally see that happening, too.
 
@@ -130,7 +130,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Carlisia Pinto:** Yeah. It's not light really, it's very thoughtful expressions of how things could be done technically. I'll find the link.
 
-**Erik St. Martin:** Awesome. So on a sad news side of things, did anybody see the e-mail that Rob Miller sent out to the Heka mailing list?
+**Erik St. Martin:** Awesome. So on a sad news side of things, did anybody see the email that Rob Miller sent out to the Heka mailing list?
 
 **Brian Ketelsen:** I did.
 
@@ -148,7 +148,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** ...and I think that they're open to somebody else taking over the project, but they don't have the time to help facilitate that takeover either, and I think he expressed some concerns about even the patterns it was designed under; the way they were using channels wasn't quite hitting the performance levels that they were wanting, and things like that. He kind of believed that there'd be some heavy refactoring. Maybe we can get him on the show and talk about it a little bit more in depth, what his thoughts are.
 
-**Brian Ketelsen:** That'd be a great idea. We'll link to the mail list announcement in our show notes. It's way too long to discuss here, but the main takeaway from the e-mail that he sent out was that the refactoring required to make Heka perform significantly better than it does now, which is actually really solid performance. But to get to that next level it would require less use of channels, and that's probably a good show topic for us at some point, talking about the performance of channels under significant load, and when channels are great and when they aren't.
+**Brian Ketelsen:** That'd be a great idea. We'll link to the mail list announcement in our show notes. It's way too long to discuss here, but the main takeaway from the email that he sent out was that the refactoring required to make Heka perform significantly better than it does now, which is actually really solid performance. But to get to that next level it would require less use of channels, and that's probably a good show topic for us at some point, talking about the performance of channels under significant load, and when channels are great and when they aren't.
 
 **Carlisia Pinto:** That would be an amazing topic, I'm sure a lot of people can benefit. I can benefit from it.
 
@@ -170,13 +170,13 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Sarah Adams:** I had an app - it wasn't called StumbleUpon, but it was something like that and it acts like StumbleUpon, where you can look through and you can filter. It's like a Go project library, but it looks through GitHub and helps you stumble upon Go projects that are relatively popular. It was pretty cool.
 
-**Brian Ketelsen:** That's like. All of those queries are prone to error, because it GitHub's detection of the project type isn't accurate because maybe you don't have any Go files in the route - or whatever they use to detect the projects - they might be excluded.
+**Brian Ketelsen:** That's nice. All of those queries are prone to error, because if GitHub's detection of the project type isn't accurate because maybe you don't have any Go files in the route - or whatever they use to detect the projects - they might be excluded.
 
 **Sarah Adams:** Is that common?
 
 **Brian Ketelsen:** It is. I've seen projects that don't list themselves as the primary language that they are just because whatever GitHub uses to detect that was thwarted by maybe their directory layout, or whatever.
 
-**Erik St. Martin:** I'm not sure how that detection works. I mean, what percentage of the codebase is in what... Because if you had, say, \[unintelligible 00:17:15.02\] that's a bunch of Go, but it's a whole lot of web stuff too, HTML, CSS and Javascript too, so if there's more of one than the other, then it does that false positives.
+**Erik St. Martin:** I'm not sure how that detection works. I mean, what percentage of the codebase is in what... Because if you had, say, [Grafana](https://grafana.com/) that's a bunch of Go, but it's a whole lot of web stuff too, HTML, CSS and Javascript too, so is there more of one than the other, then does that cause false positives .
 
 **Carlisia Pinto:** I have always wondered that too, if somebody knows, please...
 
@@ -184,7 +184,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Carlisia Pinto:** Really?
 
-**Sarah Adams:** Well, I think \[inaudible 00:17:37.28\] generate the git-ignore.
+**Sarah Adams:** Well, I think it just helps you then generate the git-ignore.
 
 **Carlisia Pinto:** I've never seen that.
 
@@ -212,7 +212,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Carlisia Pinto:** I used it, but I've stopped using it long ago.
 
-**Sarah Adams:** \[inaudible 00:19:40.23\]
+**Sarah Adams:** And I haven't heard of Lime.
 
 **Erik St. Martin:** Have you checked it out, Sarah?
 
@@ -254,7 +254,11 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** So Sarah, one project that we would love to hear you talk about is your Test2Doc. That's really cool.
 
-**Brian Ketelsen:** Thanks. So I got this idea like a year and a half ago. I was maintaining a ReST API; I was working for a company called Sproutling, we were building a web baby monitor, so I was building a ReST API that had multiples clients. We had custom hardware, which was sort of a base station that was monitoring room temperature in the baby's room; we had an iOS app, which was the second client, and we had a web app, which was the third client. So we had multiple developer teams working on each of these, and since I was the only person responsible for the ReST API - well, not because of that, but I needed to have API documentation, of course. So I started using Apiary, because I liked the format. You can write it in markdown, and the API blueprint specification was open source, which is nice. For larger changes I kept adding an endpoint, or deleting an endpoint - those were easy to remember to update the documentation, but for smaller things like deleting an attribute, all the way down to deleting a column on a database table would trickle up to the endpoint change, which would mean the field was missing on the JSON response. Those smaller changes started to add up a lot, and so my documentation was often really inconsistent with the actual API. So I forked to a tool called Dread, which is meant for testing new documentation against your actual API. It was pretty good, but I had to periodically just run \[unintelligible 00:25:28.14\] and update all of the documentation. I started to get really frustrated, because my unit tests were all there; if only my fellow engineers could read my Go unit tests and the status documentation, that would have worked great. So I realized that all of the information that you need for API documentation is in the endpoint Hammer test, so I decided I was just gonna record the requests and responses as the test ran, and put them in a markdown file in the appropriate format, and then be able to generate all of my API documentation, host it, and have everything be automated, so I would never have to worry about out of date documentation and angry developers, people asking me questions and things like that. So that's sort of where that came from.
+**Sarah Adams:** Thanks. So I got this idea like a year and a half ago. I was maintaining a ReST API; I was working for a company called Sproutling, we were building a web baby monitor, so I was building a ReST API that had multiple clients. We had custom hardware, which was sort of a base station that was monitoring room temperature in the baby's room; we had an iOS app, which was the second client, and we had a web app, which was the third client.
+
+So we had multiple developer teams working on each of these, and since I was the only person responsible for the ReST API - well, not because of that, but I needed to have API documentation, of course. So I started using [Apiary](https://apiary.io/), because I liked the format. You can write it in markdown, and the API blueprint specification was open source, which is nice. For larger changes I kept adding an endpoint, or deleting an endpoint - those were easy to remember to update the documentation, but for smaller things like deleting an attribute, all the way down to deleting a column on a database table would trickle up to the endpoint change, which would mean the field was missing on the JSON response.
+
+Those smaller changes started to add up a lot, and so my documentation was often really inconsistent with the actual API. So I forked to a tool called [Dredd](http://dredd.org/en/latest/), which is meant for testing new documentation against your actual API. It was pretty good, but I had to periodically just run this and update all of the documentation. I started to get really frustrated, because my unit tests were all there; if only my fellow engineers could read my Go unit tests and the status documentation, that would have worked great. So I realized that all of the information that you need for API documentation is in the endpoint Hammer test, so I decided I was just gonna record the requests and responses as the test ran, and put them in a markdown file in the appropriate format, and then be able to generate all of my API documentation, host it, and have everything be automated, so I would never have to worry about out of date documentation and angry developers, people asking me questions and things like that. So that's sort of where that came from.
 
 **Brian Ketelsen:** So when you're writing your tests, how much differently do you write your tests to make the documents look appropriate? Do you have to...?
 
@@ -266,7 +270,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** That's really interesting. So how do you have that implemented? You're statically analyzing the tests?
 
-**Sarah Adams:** No... Actually this is what \[unintelligible 00:27:25.25\] a while ago. But I think I used the HTTP tests.
+**Sarah Adams:** No... Actually this is what - I wrote this bit a while ago. But I think I used the HTTP tests.
 
 **Erik St. Martin:** They're like response-recorders, and stuff like that?
 
@@ -292,7 +296,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Brian Ketelsen:** Nice.
 
-**Carlisia Pinto:** I just thought about making this \[unintelligible 00:30:48.03\] or something, another tool... Make a diff between the pushes, so you can see like a change log version, that would be really cool.
+**Carlisia Pinto:** I just thought about making this - another tool... Make a diff between the pushes, so you can see like a change log version, that would be really cool.
 
 **Sarah Adams:** Yeah, that would be cool. And there are a lot of things that I wanna add to this. A couple people have requested Swagger support; I think that's probably more common that Apiary for API documentation.
 
@@ -314,7 +318,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Sarah Adams:** Thanks!
 
-**Carlisia Pinto:** Yeah. The one issue I can see with trying to make it fit in with Swagger is that Swagger has a very... Well, it has a specification, so it's strict in that way, and if you design something that is not supported - not necessarily \[unintelligible 00:33:14.22\] but it's not supported by that spec version that you're working with, then it just doesn't work.
+**Carlisia Pinto:** Yeah. The one issue I can see with trying to make it fit in with Swagger is that Swagger has a very... Well, it has a specification, so it's strict in that way, and if you design something that is not supported - not necessarily, it wouldn't be ReSTful, but it's not supported by that spec version that you're working with, then it just doesn't work.
 
 **Sarah Adams:** Well, API Blueprint has a pretty strict spec also. You just have to match the data, you have to really evaluate the spec and match the data, fit it into the spec.
 
@@ -348,7 +352,7 @@ As far as our ten chapters around the world, women actually will message me or s
 
 **Brian Ketelsen:** Is there information on WomenWhoGo.org for people who might be interested in starting their own chapter?
 
-**Sarah Adams:** Not explicitly, but people have found the hello@womenwhogo.org e-mail address there and that's usually how they contact me.
+**Sarah Adams:** Not explicitly, but people have found the hello@womenwhogo.org email address there and that's usually how they contact me.
 
 **Brian Ketelsen:** Perfect.
 
@@ -372,7 +376,7 @@ As far as our ten chapters around the world, women actually will message me or s
 
 **Sarah Adams:** True, yeah, so there's a ton...
 
-**Brian Ketelsen:** But it feels stronger in the Go community, and I love that. I love the push to have that inclusivity and that feeling of safety, so anybody can come in and learn without worrying about external factors. That's very nice, so be proud of what you've done, this is really cool. Like you were saying earlier, when you have that feeling where it's growing so big it's hard to keep track of - Erik and I get that same thing at GopherCon when somebody in Brazil sends us an e-mail and says "Hey, we wanna do a GopherCon in Brazil." "Yes, please. Go do that." It's awesome.
+**Brian Ketelsen:** But it feels stronger in the Go community, and I love that. I love the push to have that inclusivity and that feeling of safety, so anybody can come in and learn without worrying about external factors. That's very nice, so be proud of what you've done, this is really cool. Like you were saying earlier, when you have that feeling where it's growing so big it's hard to keep track of - Erik and I get that same thing at GopherCon when somebody in Brazil sends us an email and says "Hey, we wanna do a GopherCon in Brazil." "Yes, please. Go do that." It's awesome.
 
 **Sarah Adams:** Yeah, that's exactly it.
 
@@ -400,7 +404,7 @@ As far as our ten chapters around the world, women actually will message me or s
 
 **Sarah Adams:** Yes, exactly. There is a list of all of the Meetup pages, or in Tokyo's case the Connpass. There's a Twitter account for each chapter, and some of them have Facebooks, and they're on Slacks. There are links for all of those on the WomenWhoGo.org site.
 
-**Erik St. Martin:** And you said for people interested in potentially starting their own chapters, the best thing to do is to e-mail you at hello@womenwhogo.org.
+**Erik St. Martin:** And you said for people interested in potentially starting their own chapters, the best thing to do is to email you at hello@womenwhogo.org.
 
 **Carlisia Pinto:** Exactly.
 

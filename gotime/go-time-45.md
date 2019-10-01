@@ -408,7 +408,7 @@ I need to have headphones on my ears. I don't care if there is music playing... 
 
 **Adam Stacoviak:** Maybe it's like this.
 
-**Erik St. Martin:** \[00:32:01.05\] That reminds me... Do you guys remember the Strong Bad episodes, the little cartoon online? The one where he answers an e-mail, and it's something about...
+**Erik St. Martin:** \[00:32:01.05\] That reminds me... Do you guys remember the Strong Bad episodes, the little cartoon online? The one where he answers an email, and it's something about...
 
 **Adam Stacoviak:** You lost me.
 
@@ -436,11 +436,11 @@ I need to have headphones on my ears. I don't care if there is music playing... 
 
 **Adam Stacoviak:** My focused mode - it kind of depends what I'm doing... I can't compare it to coding in Go. There's lots of times where I'm writing code, there's lots of times where I'm in Sketch, designing something, there's lots of times when I'm in Adobe Audition editing something, or face in front of a mic recording something, or in front of something else, writing something. I often write a lot of stuff for the sponsors, intro stuff for us... All sorts of things, so it kind of depends.
 
-But focused mode for me is definitely, like Carlisia said, turning off notifications... Basically just closing down Slack. I don't have e-mail notifications, I silence my phone... I have stopped answering the phone, because basically I get nothing but solicitor phone calls. If I get a phone call, it's nine times (at least) -- okay, I'll say maybe ten times out of ten a solicitor. So focused mode for me is like turning that thing off. I almost don't even use the phone, except for me to call my wife or a doctor or something like that. I don't use the phone part of the phone.
+But focused mode for me is definitely, like Carlisia said, turning off notifications... Basically just closing down Slack. I don't have email notifications, I silence my phone... I have stopped answering the phone, because basically I get nothing but solicitor phone calls. If I get a phone call, it's nine times (at least) -- okay, I'll say maybe ten times out of ten a solicitor. So focused mode for me is like turning that thing off. I almost don't even use the phone, except for me to call my wife or a doctor or something like that. I don't use the phone part of the phone.
 
 But music, though? I'm a little bit there with Carlisia - I've gotta have some music on. If I'm doing something that requires me to get into flow, to get into the flow of doing it and doing it well, I find myself struggling if I don't have music going on. So if I feel myself kind of dragging, I'm like "What's wrong? Why am I not in the groove?", it's because I haven't turned on my music yet. So I've learned painlessly over time just to, at some point, turn on some music... But I don't always get to do it. If I'm editing, or something like that, I can't have Spotify or music going on AND be editing a podcast, because it's sort of like counter-intuitive to have two things of audio competing... So that's why I catch myself a lot not having audio going on.
 
-So that's kind of focused mode for me - notifications off (I do not get e-mail notifications), close things that I'm not paying attention to, and I'm a big fan of focus, and that's what I do.
+So that's kind of focused mode for me - notifications off (I do not get email notifications), close things that I'm not paying attention to, and I'm a big fan of focus, and that's what I do.
 
 **Erik St. Martin:** Yeah, the music thing helps a lot, too. I have ADHD too, so it's hard to get focused sometimes, and sometimes just kind of like getting in the groove of the music is enough to set you on track. So the question I had to add to all of this that sort of came up was styles of music, because this is actually really interesting... We did this experiment in a social gathering on one of my work trips, and it's actually really interesting to hear what everybody likes to listen to for music, what their favorite type of music is.
 

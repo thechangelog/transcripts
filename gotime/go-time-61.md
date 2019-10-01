@@ -276,7 +276,7 @@ I think that's about it. There were some other reasons why we kind of adopted it
 
 **Jason Keene:** Yeah, this is more like a hypothetical situation. I'm sure many of the people on the call have been in situations in prod where you've gotta bring back to service... But it's kind of a hypothetical situation where you have to make that choice, either or.
 
-**Erik St. Martin:** Well, usually a lot of us developers - we get an e-mail that they've already restarted it... \[laughter\] And you're like, "But, but..."
+**Erik St. Martin:** Well, usually a lot of us developers - we get an email that they've already restarted it... \[laughter\] And you're like, "But, but..."
 
 **Andrew Poydence:** And then you're instructed to go fix the problem.
 

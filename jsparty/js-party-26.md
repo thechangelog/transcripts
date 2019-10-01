@@ -30,7 +30,7 @@ It was created by a guy named Anders Hejlsberg, and he also created C\#, Delphi 
 
 **Nick Nisi:** Yeah, he has no idea what he's doing. \[laughter\] He's a brilliant guy, and it shows through his work, obviously. He was on the Changelog, wasn't he, in the past?
 
-**Jerod Santo:** That's right, we had Anders on -- man, it's quite a couple years ago now... Episode \#152, back in April of 2015. He gave the back-story, the inside story at Microsoft of TypeScript. Jonathan Turner was also on that show... So if you want the deep dive onto it being formed inside Microsoft, and then coming out, and at least the history between 2012 and 2015, go back and listen to that, we'll put it in the show notes... But no doubt, there's been progress, and really just massive adoption is what I've seen, mostly from the outside, of TypeScript, into different projects, different companies, different libraries... But I'm curious, Chris, what's your experience with TypeScript? I'll tell you mine - none. I write Javascript... I actually liked CoffeeScript back in the day, Nick, you know that; I was a fan of CoffeeScript because I didn't like a lot of the older Javascript trappings, and CoffeeScript kind of spoke to my aesthetic sensibilities. I've since moved on back to ES6 \[unintelligible 00:06:06.23\] but I haven't actually used TypeScript at all. I've seen it, I've talked a lot about it, but I don't have any practical experience. Chris, how about you?
+**Jerod Santo:** That's right, we had Anders on -- man, it's quite a couple years ago now... Episode \#152, back in April of 2015. He gave the back-story, the inside story at Microsoft of TypeScript. Jonathan Turner was also on that show... So if you want the deep dive onto it being formed inside Microsoft, and then coming out, and at least the history between 2012 and 2015, go back and listen to that, we'll put it in the show notes... But no doubt, there's been progress, and really just massive adoption is what I've seen, mostly from the outside, of TypeScript, into different projects, different companies, different libraries... But I'm curious, Chris, what's your experience with TypeScript? I'll tell you mine - none. I write Javascript... I actually liked CoffeeScript back in the day, Nick, you know that; I was a fan of CoffeeScript because I didn't like a lot of the older Javascript trappings, and CoffeeScript kind of spoke to my aesthetic sensibilities. I've since moved on back to ES6 style JavaScript but I haven't actually used TypeScript at all. I've seen it, I've talked a lot about it, but I don't have any practical experience. Chris, how about you?
 
 **Christopher Hiller:** I was also pretty wary of TypeScript. I didn't enjoy working with CoffeeScript actually, but... So you know, another thing that compiles down to Javascript, not that excited about it... So it was a while before I tried TypeScript. All I've really done with it is basically try it. I've tried to use it on two or three different occasions on personal projects, and just haven't gotten too terribly far with it.
 
@@ -60,7 +60,7 @@ It also is smart enough to understand some of the basics of JSDoc comments. So i
 
 **Jerod Santo:** So it's using your Node modules that are relative... Project-relative Node modules, via the Vim plugin or extension. Okay.
 
-**Nick Nisi:** Right. And then there's other plugins as well... I'm using one currently called \[unintelligible 00:13:25.00\]
+**Nick Nisi:** Right. And then there's other plugins as well... I'm using one currently called tsuquyomi.
 
 **Jerod Santo:** Say what?
 
@@ -92,7 +92,7 @@ Now, I've tried to use TypeScript in VS Code and TypeScript in WebStorm, and yea
 
 **Jerod Santo:** Guys, we talked about how you can take advantage of some of the TypeScript's tooling features with vanilla Javascript... What if you don't want to go all-in, but you do want some of the TypeScript features? What's the easiest way, or the happiest path to "I have a .js file and I wanna go beyond taking advantage of the TypeScript language server and I wanna use some TypeScript features. How do I get started? What do I have to do to dip my toe in TypeScript water?"
 
-**Nick Nisi:** \[00:20:17.14\] So TypeScript is a module that you install from npm, so you can bring that into your project, and then you'll want to create a tsconfig file, and you can do that through the TypeScript CLI; you can just say \[unintelligible 00:20:30.29\] and it will ask you some questions, and then it will create a tsconfig.json file from there. This is the file that configures how the TypeScript compiler actually runs.
+**Nick Nisi:** \[00:20:17.14\] So TypeScript is a module that you install from npm, so you can bring that into your project, and then you'll want to create a tsconfig file, and you can do that through the TypeScript CLI; you can just say npx tsc --init, or mabe it's just init, and it will ask you some questions, and then it will create a tsconfig.json file from there. This is the file that configures how the TypeScript compiler actually runs.
 
 So theoretically, you could start renaming files to .ts, and then in the Includes section of the tsconfig you could have some globs in there that point to those specific files, and you could start as big or as small as you want, and just have it start compiling those two Javascript. So if you just rename the files, you would see a little bit of change with the outputted .js files, and you can specify if you want it to compile to an ES6 file, and ES5 file or an ES3 file, to take advantage of whatever platform you're trying to run on, the minimum platform there. Typically it's ES5 right now.
 
@@ -173,9 +173,9 @@ And then it further complicates things when you have third-party Javascript that
 
 **Christopher Hiller:** I think if there was a large project -- say there were two at your company, and one of them was written in Javascript and one of them was written in TypeScript, and you were expected to choose between them, and which one are you going to step into and start maintaining and learn from scratch... Yeah, you should pick the TypeScript one, because it's going to be so much more clear about what everything is. I totally see that benefit. If somebody's done it for you - sure...
 
-**Jerod Santo:** \[laughs\] \[unintelligible 00:38:28.24\]
+**Jerod Santo:** \[laughs\] As long as you're not writing the types, you're happy.
 
-**Christopher Hiller:** \[unintelligible 00:38:31.23\] I have contributed a few little random PRs to TypeScript projects, and it's fun; it's easy to understand what's going on, but... Just having to think about that stuff myself, that's pain for me.
+**Christopher Hiller:** \[laughs\] You don't have to do it yourself. I have contributed a few little random PRs to TypeScript projects, and it's fun; it's easy to understand what's going on, but... Just having to think about that stuff myself, that's pain for me.
 
 **Jerod Santo:** We've seen a lot of open source library teams and authors adopt TypeScript for that reason, that they're willing to put in that extra effort upfront, if you will, or while they are building out the architecture, in order to ease adoption from contributors.
 

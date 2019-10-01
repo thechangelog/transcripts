@@ -464,7 +464,7 @@ At the time - as late as five years ago, so 2012-2011 - we were hosting a big ol
 
 **Brian Ketelsen:** And it worked... It's a miracle. Alright, so I think that wraps up our show today. I'd like to thank David Chase for joining us and going deep into compiler land. I probably learned more in the last hour that I've learned in years on compilers; I really appreciate that. And thanks to everyone who's listening and the folks out on the Slack channel. Thank you so much.
 
-If you enjoyed the show, be sure to share it with fellow Go programmers in your meetups, in your office, all across the land. You can easily subscribe by heading to [GoTime.fm](http://gotime.fm), and subscribe to our weekly e-mail which is coming soon. You can follow us on [Twitter](https://twitter.com/GoTimeFM), and if there's anything you wanna discuss on the show, or if you've got a guest that you think we should have, head over to [ping](https://github.com/GoTimeFM/ping) and open an issue.
+If you enjoyed the show, be sure to share it with fellow Go programmers in your meetups, in your office, all across the land. You can easily subscribe by heading to [GoTime.fm](http://gotime.fm), and subscribe to our weekly email which is coming soon. You can follow us on [Twitter](https://twitter.com/GoTimeFM), and if there's anything you wanna discuss on the show, or if you've got a guest that you think we should have, head over to [ping](https://github.com/GoTimeFM/ping) and open an issue.
 
 With that, thanks everyone. We really appreciate it.
 

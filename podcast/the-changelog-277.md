@@ -8,7 +8,7 @@
 
 **Adam Stacoviak:** Yeah, exactly. But we've been those people that have felt the way you're talking about, but see the new Microsoft.
 
-**Julia Liuson:** Great, and I would love for you guys to help me get that word out, because I feel like there's still so many people, even -- it got better this year, but even two years ago, they were like "What? You mean .NET is open source? What? \[unintelligible 00:04:41.04\] is cross-platform?" It's complete news to them... So I'm trying to figure out all of the places these people are hiding, and how can we get the message out as broadly as possible.
+**Julia Liuson:** Great, and I would love for you guys to help me get that word out, because I feel like there's still so many people, even -- it got better this year, but even two years ago, they were like "What? You mean .NET is open source? What? and that is cross-platform?" It's complete news to them... So I'm trying to figure out all of the places these people are hiding, and how can we get the message out as broadly as possible.
 
 **Jerod Santo:** Well, a lot of those people are listening to our podcast, so I think that's a good thing. An interesting place that I think we could start - because... You know, according to Wikipedia, which - congratulations, you have a Wikipedia page. Is that you? It is you, unless there was somebody else...
 
@@ -24,9 +24,9 @@
 
 **Jerod Santo:** Okay, I figured it was you, because a lot of that information lined up. Live review...
 
-**Julia Liuson:** \[unintelligible 00:05:27.05\] \[laughter\]
+**Julia Liuson:** \ and it even looks accurate\[laughter\]
 
-**Adam Stacoviak:** Somebody from \[unintelligible 00:05:30.05\] family wrote this about her...
+**Adam Stacoviak:** Somebody from Julia's family wrote this about her...
 
 **Jerod Santo:** Maybe... That's pretty cool, right?
 
@@ -110,7 +110,7 @@
 
 **Jerod Santo:** Right, definitely implied.
 
-**Adam Stacoviak:** I guess in a post "only Microsoft world", that would make \[unintelligible 00:09:07.29\]
+**Adam Stacoviak:** I guess in a post "only Microsoft world", that would make the pc. 
 
 **Jerod Santo:** Things change over time, but the mission statement back at that time was PC's -- I mean, it was all Windows... 98%, or whatever.
 
@@ -208,9 +208,9 @@ So it was a major transformation that we had to go through, and that transformat
 
 If we're only helping people running on Windows and targeting the Microsoft platform, that's very far from every developer and every developer team. That's when we started the pivot to the -- I think that was the first slide we showed, and we've been showing that slide for the last three, four years, which is our "Any developer, any app, any platform." That was a core strategic pivot we have made, and everything really ties with that strategic pivot in terms of "Well, how do we engage with all the developers out there and what does a meaningful engagement look like?"
 
-This is when we started doing iOS and Android development, helping with the mobile side, and we look at what people really need in the cloud space, in the mobile space, and we take \[unintelligible 00:18:08.03\] cross-platform, and it's become a fantastic way for our customers to share code, between their Unity gaming, to their cloud back-end, to their website, to their mobile apps... It's just really the best programming language that can share common business logic, and today Miguel showed you how can take the core business logic written in C\# and then embed that into your iOS and Android app.
+This is when we started doing iOS and Android development, helping with the mobile side, and we look at what people really need in the cloud space, in the mobile space, and we take open.net cross-platform, and it's become a fantastic way for our customers to share code, between their Unity gaming, to their cloud back-end, to their website, to their mobile apps... It's just really the best programming language that can share common business logic, and today Miguel showed you how can take the core business logic written in C\# and then embed that into your iOS and Android app.
 
-That capability of us understanding developers' needs and open-sourcing our core framework capability, and really allow this \[unintelligible 00:18:44.21\] that has been super powerful for us. And then with that, not to mention we also started to develop Visual Studio Code.
+That capability of us understanding developers' needs and open-sourcing our core framework capability, and really allow this breadth that has been super powerful for us. And then with that, not to mention we also started to develop Visual Studio Code.
 
 **Jerod Santo:** That was exactly what we were gonna lead to next, because you now have this bifurcation of Visual Studio, where you have the established 20-year-old project that millions of people are using, but then brand new, open, greenfield new editor. That decision.
 
@@ -308,7 +308,7 @@ I personally think the best way for us to really keep going forward is to have a
 
 **Chris Dias:** Six years ago, so...
 
-**Jerod Santo:** 2011. \[unintelligible 00:33:54.05\]
+**Jerod Santo:** 2011. 2001. 
 
 **Chris Dias:** I think Chrome at that time just came up with the notion of web workers, so being able to run processes which then enabled us to be able to do things like have IntelliSense, and errors and things like that. Erich Gamma had basically started on that project - that was his first project at Microsoft - and built that up. We needed somebody to dogfood the editor, so...
 
@@ -328,11 +328,11 @@ I personally think the best way for us to really keep going forward is to have a
 
 So we built out this editor which actually was pretty popular across Microsoft. Like, if you go to OneDrive and you look at source code, that's the editor; Azure, any place you go in there and look at source code, that's the Monaco editor. It's the same editor that's in VS Code itself.
 
-If you go to Edge browser \[unintelligible 00:35:27.25\] in Windows and look at source code, that's the Monaco editor. It's a bunch of other places... So that got pretty popular. And as we did it, we built more and more of this workbench around the editor. We had this locally hosted development environment, which since it was running on Node and it was an HTML and Javascript thing, it could easily be moved up to the cloud.
+If you go to Edge browser and maybe 12 those in Windows and look at source code, that's the Monaco editor. It's a bunch of other places... So that got pretty popular. And as we did it, we built more and more of this workbench around the editor. We had this locally hosted development environment, which since it was running on Node and it was an HTML and Javascript thing, it could easily be moved up to the cloud.
 
-So we kind of looked at it like "What's the next step from a code editor?" Like, well, we wanna develop a fuller web-based app. The Azure website \[unintelligible 00:36:01.10\] to come online, so what we decided to do was say "Hey, can we host this workbench in Azure, so that you can do live editing of your websites straight in the portal?" They said, "Yeah, let's do that", so we brought that up online. It was fairly easy, because of the whole architecture. We branded that with our name, Visual Studio "Monaco". So that's where it originated from.
+So we kind of looked at it like "What's the next step from a code editor?" Like, well, we wanna develop a fuller web-based app. The Azure website and it started to come online, so what we decided to do was say "Hey, can we host this workbench in Azure, so that you can do live editing of your websites straight in the portal?" They said, "Yeah, let's do that", so we brought that up online. It was fairly easy, because of the whole architecture. We branded that with our name, Visual Studio "Monaco". So that's where it originated from.
 
-**Jerod Santo:** \[00:36:29.18\] Okay.
+**Jerod Santo:** And it started. Okay.
 
 **Adam Stacoviak:** This is 2001.
 
@@ -368,11 +368,11 @@ But it was pretty cool, and there was a big wave of online hosted tooling that w
 
 **Chris Dias:** Browser-based tools were never really --
 
-**Adam Stacoviak:** It was a big sell. It was like, you know... \[unintelligible 00:37:45.06\] IDE in the cloud.
+**Adam Stacoviak:** It was a big sell. It was like, you know... notebook IDE in the cloud.
 
 **Chris Dias:** Office had a suite of tools that actually work in the browser fairly well; there were a lot of things you could do, and it seemed like a natural progression... Like, you've got a desktop application, which would have been Visual Studio, and then you've got browser-based tools. But you're right, the challenge with those was that -- there were a bunch of challenges... The biggest one that we saw was that it was great, you got your development tool in the browser, but all your other tools are on your machine, so there's no connection between the code that you're working on in the browser and "Oh, I need to run this other tool at the same time" - how do you bridge that gap?
 
-**Adam Stacoviak:** So it was an all-in scenario - you had to either go all-in \[unintelligible 00:38:29.10\]
+**Adam Stacoviak:** So it was an all-in scenario - you had to either go all-in cloud. 
 
 **Chris Dias:** Exactly, and people aren't all-in on the cloud for developer tools...
 
@@ -388,7 +388,7 @@ But it was pretty cool, and there was a big wave of online hosted tooling that w
 
 **Chris Dias:** Yeah, you can't work offline...
 
-**Adam Stacoviak:** \[unintelligible 00:38:41.27\]
+**Adam Stacoviak:** object browse. 
 
 **Chris Dias:** There are cool aspects to it, right? The idea where you could go and just spin up an environment instantly and not have to provision anything on your machine - that's a cool aspect of it.
 
@@ -430,7 +430,7 @@ I think also a big component of it is honestly the openness and transparency of 
 
 **Jerod Santo:** Yeah.
 
-**Chris Dias:** So you open up a VS Code, you've got a folder, you open it up, \[unintelligible 00:44:43.12\] you'll get statement completion, IntelliSense, overloads, all sorts of stuff about the express object, without having to do anything. What will happen is, since we use TypeScript as the language server for Javascript, it does a whole bunch of work for us, and analyzes the Javascript, but it also goes and actually downloads those Typescript definition files. Basically, people write Typescript files which define - or almost type - the shape of regular, old Javascript libraries.
+**Chris Dias:** So you open up a VS Code, you've got a folder, you open it up, express you'll get statement completion, IntelliSense, overloads, all sorts of stuff about the express object, without having to do anything. What will happen is, since we use TypeScript as the language server for Javascript, it does a whole bunch of work for us, and analyzes the Javascript, but it also goes and actually downloads those Typescript definition files. Basically, people write Typescript files which define - or almost type - the shape of regular, old Javascript libraries.
 
 **Jerod Santo:** Yeah. That's the coolest thing I learned today... To be clear, you don't have to be writing Typescript yourself; you're writing your regular Javascript, but in the background, what do you say - it's the language server?
 
@@ -438,13 +438,13 @@ I think also a big component of it is honestly the openness and transparency of 
 
 **Jerod Santo:** Go ahead.
 
-**Chris Dias:** So basically what happens is you've got your presentation of the source code, right? And we use TextMate grammar to syntax colorize - it's kind of standard across all editors. But when you wanna do IntelliSense or \[unintelligible 00:45:43.12\] so you kind of need a language server which will effectively offer up an AST and send that back over to VS Code. So there's a whole spectrum of support for languages and extensions for VS Code, and the ones that are the best, like Javascript or Typescript or Python or Go, all have this language server that runs basically in another process. It's usually written in the language that it's running in, which is cool, right? Because you can do Python; you probably have Python on your machine... But it's smart enough to give you all that semantic information about your source file. So for Javascript we use the Typescript compiler. We just spin that thing up, because it basically runs as Javascript.
+**Chris Dias:** So basically what happens is you've got your presentation of the source code, right? And we use TextMate grammar to syntax colorize - it's kind of standard across all editors. But when you wanna do IntelliSense or object browse so you kind of need a language server which will effectively offer up an AST and send that back over to VS Code. So there's a whole spectrum of support for languages and extensions for VS Code, and the ones that are the best, like Javascript or Typescript or Python or Go, all have this language server that runs basically in another process. It's usually written in the language that it's running in, which is cool, right? Because you can do Python; you probably have Python on your machine... But it's smart enough to give you all that semantic information about your source file. So for Javascript we use the Typescript compiler. We just spin that thing up, because it basically runs as Javascript.
 
 **Jerod Santo:** Right.
 
 **Chris Dias:** And it's smart enough, it gives you the whole completions, everything that you need - errors, warnings - but as far as you're concerned as a Javascript guy, who cares?
 
-**Jerod Santo:** It's seamless to you \[unintelligible 00:46:38.00\]
+**Jerod Santo:** It's seamless to you get all the benefits of Typescript. 
 
 **Chris Dias:** Yeah, you get a good amount... And more and more come online every month with Typescript.
 
@@ -456,7 +456,7 @@ I think also a big component of it is honestly the openness and transparency of 
 
 **Chris Dias:** Yeah, there's thousands of Typescript definition files for all the popular Javascript packages that are out there.
 
-The other thing I wanted to note on this point was -- I just forgot what it was. \[unintelligible 00:47:42.01\] Sorry.
+The other thing I wanted to note on this point was -- I just forgot what it was. It's forgotten. Sorry.
 
 **Jerod Santo:** Let's focus in on the debugging aspects. When I think about IDE's and text editors, I think of like...
 
@@ -464,7 +464,7 @@ The other thing I wanted to note on this point was -- I just forgot what it was.
 
 **Jerod Santo:** No. I'm just kidding, go ahead. \[laughter\]
 
-**Chris Dias:** So the other thing about Typescript and Javascript - you can do sort of like a single file, bar x = some string and \[unintelligible 00:48:05.14\] but with Typescript it works actually cross-file. All the files and folders in your workspace you can sort of just say "Here's the universe of things", so then I get completions against things that are in other files.
+**Chris Dias:** So the other thing about Typescript and Javascript - you can do sort of like a single file, bar x = some string and parts but with Typescript it works actually cross-file. All the files and folders in your workspace you can sort of just say "Here's the universe of things", so then I get completions against things that are in other files.
 
 **Jerod Santo:** \[00:48:20.18\] As long as they're in the same project or folder...
 
@@ -508,7 +508,7 @@ Inspecting values is that much faster; you don't have to litter your code with c
 
 \[00:52:03.29\] The shared debugging we showed today was actually really cool, because -- I mean, the scenario is really like "Hey, can you come over here and look at this? Help me debug this thing", and you basically sit there and you're both like "step-step-step-step." But if you're in another room, another place, to be able to let you do it--
 
-**Jerod Santo:** \[unintelligible 00:52:23.11\] this is not screen sharing.
+**Jerod Santo:** It's not a person  this is not screen sharing.
 
 **Chris Dias:** It is not screen sharing. It's sharing of the debug session, and the data, and the breakpoints, and the instruction pointer, call stack - everything.
 
@@ -566,7 +566,7 @@ So you can imagine in this model that there's a protocol that's running over the
 
 **Jerod Santo:** Let's talk about the roadmap a little bit... We've seen what you've been up to. First of all, are there any major features that are just clearly still lacking, that somebody says "Well, I can't switch because of feature X", and you guys are all like, "Yeah, we know. That's coming." Are there any of those, and if not, what else is--
 
-**Chris Dias:** Well, the biggest one that we just shipped literally last week was multi-workspace support. Up until now, if you wanted to open up two folders at the same time, you'd have two instances of VS Code. What we now support is the ability to have multiple top-level folders open at the same time, \[unintelligible 00:58:18.28\] work against them properly. We've been working on that for six months probably... It was a lot, a lot of work...
+**Chris Dias:** Well, the biggest one that we just shipped literally last week was multi-workspace support. Up until now, if you wanted to open up two folders at the same time, you'd have two instances of VS Code. What we now support is the ability to have multiple top-level folders open at the same time, language servers work against them properly. We've been working on that for six months probably... It was a lot, a lot of work...
 
 **PJ Meyer:** It's been in the Insider for a few months now.
 
@@ -576,7 +576,7 @@ So you can imagine in this model that there's a protocol that's running over the
 
 **Chris Dias:** So that has clearly been the biggest one that people have been asking us for, and there's a long tale of things that people are looking for. The other thing we just released was the ability to have the horizontal pane that's at the bottom of the debugger (debug console terminal) - we put that to be vertical in this space. So if you've got a widescreen monitor, you can have your console on the right, the code in the middle, and the explorer is on the left.
 
-You see a lot of feature requests for people \[unintelligible 00:59:44.23\] about wanting to have more control over the editors, the layout of the editors inside the environment, so I wanted to be able to split it horizontally or vertically at the same time. Those are things that we'll start to -- now that we're sort of out of the multi-root workspace push, which was a lot of people across the team... In the short-term, really for the upcoming month, month and a half left in the calendar year, it's really just a push on performance and bug fixing, and not like a whole slew of new features.
+You see a lot of feature requests for people stemming about wanting to have more control over the editors, the layout of the editors inside the environment, so I wanted to be able to split it horizontally or vertically at the same time. Those are things that we'll start to -- now that we're sort of out of the multi-root workspace push, which was a lot of people across the team... In the short-term, really for the upcoming month, month and a half left in the calendar year, it's really just a push on performance and bug fixing, and not like a whole slew of new features.
 
 \[01:00:18.12\] We've published our roadmap on GitHub and our wiki, so you can go up there and there's just a whole slew of things; I have to think off the top of my head what's in there.
 
@@ -598,13 +598,13 @@ You see a lot of feature requests for people \[unintelligible 00:59:44.23\] abou
 
 **Adam Stacoviak:** Yes, so given that, what's the motivation for VS Code? You mentioned... Back to the original scenario - Jerod's in Starbucks, he's cool, he's on a Mac, and you have nothing to offer him... \[laughter\] You're mostly cool.
 
-**Chris Dias:** And he's using an editor \[unintelligible 01:01:55.04\]
+**Chris Dias:** And he's using an editor right?
 
 **Adam Stacoviak:** What's the motivation? What is the mission statement behind VS Code? Why this editor, why are you guys doing this? What's the larger picture?
 
 **Chris Dias:** Well, I think the larger picture is like, the world is no longer a place where you can say "We've got this thing, this great thing... Come to us and use it, and you'll be happy." People are like "Nah, I've got all these other tools and things that I'm using." And I've kind of mentioned this before, like, we didn't have anything for this whole class of developers - not on Windows, not using IDE's, very sort of modern, webby, Node-oriented developers, Javascript and all that... We had nothing to talk to you about. There was no way to have that conversation. You were a developer we were never gonna be able to attract, at all. So the motivation for VS Code was to break down that barrier and say "Actually, you know what? We do have something that you could use." Then we give that to you, and if you like it, cool. Maybe there's some other stuff from us that you'll use at some point in the future. And if you don't like it, at least we had a conversation, and maybe in six months you'll hear about it from your buddy... "Oh yeah, I heard about it. Let me go look at it again", and maybe at that point there's enough stuff for you to sort of come on board.
 
-But the days where you could say "Here's our developer ecosystem. Come to our ecosystem, drop everything else you're doing" - that's over, and Microsoft can't survive in that model, so we really had to turn around and say "Well, we've got tools for everybody. We've got great tools, we have a history of having awesome tools, and by virtue of using our tools, perhaps you will also use these other things that we have." \[unintelligible 01:03:38.27\]
+But the days where you could say "Here's our developer ecosystem. Come to our ecosystem, drop everything else you're doing" - that's over, and Microsoft can't survive in that model, so we really had to turn around and say "Well, we've got tools for everybody. We've got great tools, we have a history of having awesome tools, and by virtue of using our tools, perhaps you will also use these other things that we have." Azure. 
 
 **Adam Stacoviak:** And is it to attract essentially things to the brand name of Microsoft that they are no longer sidized - you've used the term before. Kind of getting that respect back that may have not been there from every developer out there.
 
@@ -640,7 +640,7 @@ I think our mission for the past couple of years, seriously, has been - the firs
 
 **Chris Dias:** I think you're almost ignored.
 
-**Jerod Santo:** \[unintelligible 01:06:17.13\]
+**Jerod Santo:** Your ignored. 
 
 **Chris Dias:** Microsoft was at a point where a vast majority -- I don't know if it was a vast majority, but a large majority of developers were like "Just... Irrelevant. Doesn't matter."
 
@@ -660,7 +660,7 @@ I think our mission for the past couple of years, seriously, has been - the firs
 
 **Chris Dias:** Downloads is a bit of a vanity metric, because you can download it all you want, but if you don't use it, it doesn't matter.
 
-**Jerod Santo:** \[unintelligible 01:07:03.22\]
+**Jerod Santo:** Okay so other types. 
 
 **Chris Dias:** We look at engaged usage of it...
 
@@ -680,7 +680,7 @@ I think our mission for the past couple of years, seriously, has been - the firs
 
 **Adam Stacoviak:** Okay.
 
-**Chris Dias:** So we look at that, we watch Twitter quite a bit, because you have a very sort of instant \[unintelligible 01:07:31.02\] to what's going on. We look at NPS scores - a standardized score, I guess Facebook came up with it; I don't know a whole bunch about the history of it, but it's basically your ratio to promoters versus detractors, basically a quick survey.
+**Chris Dias:** So we look at that, we watch Twitter quite a bit, because you have a very sort of instant pulse to what's going on. We look at NPS scores - a standardized score, I guess Facebook came up with it; I don't know a whole bunch about the history of it, but it's basically your ratio to promoters versus detractors, basically a quick survey.
 
 **Adam Stacoviak:** The promoter score...
 
@@ -722,7 +722,7 @@ I think our mission for the past couple of years, seriously, has been - the firs
 
 **Jerod Santo:** 25(ish)?
 
-**Chris Dias:** So the problem is this - if I get the number wrong, because there are so few people on the team, I'm really \[unintelligible 01:09:12.04\]
+**Chris Dias:** So the problem is this - if I get the number wrong, because there are so few people on the team, I'm really cutting a person off. 
 
 **Jerod Santo:** Somebody's gonna know exactly...
 
@@ -828,7 +828,7 @@ I think there's also -- right from the get-go we kind of published, like "Here's
 
 **Jerod Santo:** Brand new features every morning, brand new bugs sometimes every morning... \[laughs\]
 
-**Chris Dias:** \[01:14:47.11\] Brand new bugs, brand new bug fixes, too. But if you think about it, since we're using it to go build VS Code... Any big blocker we usually hit, and we're not afraid to go pull the trigger and re-release an Insiders build that people \[unintelligible 01:15:03.08\] So a) I would go and do that. b) Go look at how to contribute, which is in the wiki. Look at the iteration plans... I know we've got one or two. And then I would go and do a query for -- I think it's "needs help" or "help wanted" in the repo, where you can see places where you can start to kick the tires.
+**Chris Dias:** \[01:14:47.11\] Brand new bugs, brand new bug fixes, too. But if you think about it, since we're using it to go build VS Code... Any big blocker we usually hit, and we're not afraid to go pull the trigger and re-release an Insiders build that people blocked by it So a) I would go and do that. b) Go look at how to contribute, which is in the wiki. Look at the iteration plans... I know we've got one or two. And then I would go and do a query for -- I think it's "needs help" or "help wanted" in the repo, where you can see places where you can start to kick the tires.
 
 The cool thing about it - it's really easy to use VS Code to build VS Code, and we have full instructions on how to do that. So you can run VS Code, you can develop it at the same time, you can hit a breakpoint and debug it from VS Code. So an easy way to get started there.
 

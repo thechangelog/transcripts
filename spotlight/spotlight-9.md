@@ -1,4 +1,4 @@
-**Adam Stacoviak:** In this episode I talked with James Snell from IBM, the Technical Lead for Node. James is also a member of Node's Technical Steering Committee, as well as the Core Technical Committee. He is currently working on Node's implementation of HTTP/2. I talked with James about the state of HTTP/2, what this new spec has to offer, but more importantly, what the Node community can expect from this new protocol.
+**Adam Stacoviak:** \[00:01:05\] In this episode I talked with James Snell from IBM, the Technical Lead for Node. James is also a member of Node's Technical Steering Committee, as well as the Core Technical Committee. He is currently working on Node's implementation of HTTP/2. I talked with James about the state of HTTP/2, what this new spec has to offer, but more importantly, what the Node community can expect from this new protocol.
 
 \* \* \*
 

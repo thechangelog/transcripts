@@ -48,7 +48,7 @@ A really good one is auto-stabilization of photos, or video rather. Most of peop
 
 **Carlisia Pinto:** And when you put this in a drone, for example, what are the uses for that?
 
-**Ron Evans:** So the real reason why you guys wanted me to come on this week, besides the fact that I'm a good \[unintelligible 00:11:57.18\] is more importantly all about drones... Specifically, the latest and greatest drone from DJI, which is called the Tello.
+**Ron Evans:** So the real reason why you guys wanted me to come on this week, besides the fact that I'm a good punner is more importantly all about drones... Specifically, the latest and greatest drone from DJI, which is called the Tello.
 
 \[00:12:09.15\] The Tello is a brand new drone - it was just announced at CES this year, catching everyone by surprise. For $99, it's a collaboration between DJI and Intel. DJI is drone navigation and piloting - or flight control rather - technology combined with some very interesting image processing technology from Intel.
 
@@ -279,7 +279,7 @@ The other important part of the most recent Gobot release, that was sort of over
 
 **Brian Ketelsen:** Oh yeah, that...
 
-**Erik St. Martin:** Yeah. So I imagine that we will make an announcement at least of some of the speakers here soon... But yeah, all of the acceptance and rejection e-mails will be going out pretty quickly over this week, and maybe early next week, depending on how fast we get through this stuff. So you can look forward to speaker announcements soon.
+**Erik St. Martin:** Yeah. So I imagine that we will make an announcement at least of some of the speakers here soon... But yeah, all of the acceptance and rejection emails will be going out pretty quickly over this week, and maybe early next week, depending on how fast we get through this stuff. So you can look forward to speaker announcements soon.
 
 **Brian Ketelsen:** I totally forgot that I did that, too. I'm telling you, it's been THAT week.
 

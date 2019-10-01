@@ -64,7 +64,7 @@ It was kind of an interesting round trip, but somehow Vue also got really popula
 
 **Evan You:** Yeah.
 
-**Nadia Eghbal:** The thing is it all happened pretty naturally. I didn't intentionally try to promote it in any way. I think probably the biggest contributing factor in Vue's popularity in China is because of my answers on \[unintelligible 00:11:53.21\] which is sort of like the Chinese equivalent of Quora.
+**Nadia Eghbal:** The thing is it all happened pretty naturally. I didn't intentionally try to promote it in any way. I think probably the biggest contributing factor in Vue's popularity in China is because of my answers on Zhihu which is sort of like the Chinese equivalent of Quora.
 
 \[00:11:59.29\] A lot of people directly ask questions about Vue and then ask me to answer it. A lot of times, when I have nothing better to do, I just answer those questions. I think that helped people a lot; it made them feel connected to this project more, because they were able to see the direct interaction with the author of the framework and it made them feel like the project is more connected with them.
 
@@ -250,7 +250,7 @@ I think it's usually more reliable if you look at these numbers directly, rather
 
 **Nadia Eghbal:** It's interesting to think about... Because there's also so many examples where a company has shut down an open source project, or kind of just abandoned it or not really paid attention to it, so it's funny that the assumption is that somehow it's more stable or supported.
 
-**Evan You:** Yeah, I usually try to avoid mentioning that, but it's true... The thing about company-backed open source projects is that in a lot of cases big companies open-source their projects sometimes because they want to make it sort of an open standard for a certain industry, or sometimes the simply open source it to serve as some sort of publicity improvement to help with recruiting. But fundamentally, this \[unintelligible 00:50:46.25\] needs to be supporting the company's internal work, their production projects.
+**Evan You:** Yeah, I usually try to avoid mentioning that, but it's true... The thing about company-backed open source projects is that in a lot of cases big companies open-source their projects sometimes because they want to make it sort of an open standard for a certain industry, or sometimes the simply open source it to serve as some sort of publicity improvement to help with recruiting. But fundamentally, this project needs to be supporting the company's internal work, their production projects.
 
 If this project no longer serves that purpose, then most companies will probably just cut it, or (in other terms) just give it to the community and let the community drive it. I don't know... I'm not arriving at any conclusions here, I'm just trying to...
 

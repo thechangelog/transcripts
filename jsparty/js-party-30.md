@@ -296,7 +296,7 @@ Especially when you're doing bitmasks and things like that, you don't have to wo
 
 **Jerod Santo:** There you go. \[laughter\]
 
-**Nick Nisi:** One of my cool tips I guess is using the bitwise operator, which is the tilde symbol on your keyboard... And specifically using that with something like Index Of to basically convert that to a truthy/falsy value for finding something in an array. Because if you used Index Of and the thing that you're looking for \[unintelligible 00:43:03.01\] in the array; well, that would return falsy. I don't fully understand what it does, but the bitwise operator shifts that so that it would actually be one, and the negative one that would be returned if nothing was found will be shifted into zero, so that will return falsy.
+**Nick Nisi:** One of my cool tips I guess is using the bitwise operator, which is the tilde symbol on your keyboard... And specifically using that with something like Index Of to basically convert that to a truthy/falsy value for finding something in an array. Because if you used Index Of and the thing that you're looking for is at index zero in the array; well, that would return falsy. I don't fully understand what it does, but the bitwise operator shifts that so that it would actually be one, and the negative one that would be returned if nothing was found will be shifted into zero, so that will return falsy.
 
 It's not something that I typically use a lot, unless I'm just quickly trying to do something, like a quick example, because it's not the most accessible code in terms of --
 
@@ -306,7 +306,7 @@ It's not something that I typically use a lot, unless I'm just quickly trying to
 
 **Jerod Santo:** \[00:43:56.04\] Right.
 
-**Suz Hinton:** Totally. I see the tilde used in a very similar fashion when working with hardware, where we don't have those nice APIs and a lot of the time what you have is C... So it is really, really a nice trick to get stuff into like a zero, or a one, or just trying to be able to treat it as \[unintelligible 00:44:13.04\] which is really cool.
+**Suz Hinton:** Totally. I see the tilde used in a very similar fashion when working with hardware, where we don't have those nice APIs and a lot of the time what you have is C... So it is really, really a nice trick to get stuff into like a zero, or a one, or just trying to be able to treat it as a true bool which is really cool.
 
 **Jerod Santo:** So could you BangBang bitwise Index Of? Would that work?
 
@@ -322,7 +322,7 @@ And one really cool trick that you can do with that is combine that with regular
 
 One example that I think of is the ability to, for example, get the month, day and year from a date string. If you had 2018-06-14, you could match those, match the first four numbers to this variable, so capture that. Then the next two in between the dashes as the day. And you can actually -- if you want to skip the first value in the array, or skip the first n number of values, you can just put commas inside of that destructuring, so it will just skip that and give you the next item in there.
 
-So you can say, for example, const \[unintelligible 00:46:34.20\] and then call that function, and you'll get back three variables - the year, the month and the day that just match exactly what those are. It's a pretty cool way to use those and make your code more accessible just by making it easier to read.
+So you can say, for example, const [, year, month, day ] and then call that function, and you'll get back three variables - the year, the month and the day that just match exactly what those are. It's a pretty cool way to use those and make your code more accessible just by making it easier to read.
 
 **Jerod Santo:** That's a spectacular feature. What would happen in the case of a non-match, or maybe a partial match, in this case? Would you have undefined's in those variables, or what would they end up as?
 

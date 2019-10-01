@@ -247,7 +247,7 @@ I've asked for a bit commit on several repos in the past that have gotten nowher
 
 **Mark Bates:** I try to delete my forks as quick as possible. It's for the best.
 
-**Erik St. Martin:** \[00:20:04.27\] Nathan Youngman in the GoTime FM channels says that there is a fork of the migrate library - that's our tool, or whatever you wanna call it by \[unintelligible 00:20:13.28\] that also has Cassandra support, so that's cool.
+**Erik St. Martin:** \[00:20:04.27\] Nathan Youngman in the GoTime FM channels says that there is a fork of the migrate library - that's our tool, or whatever you wanna call it by Gemnasium that also has Cassandra support, so that's cool.
 
 **Mark Bates:** Yeah.
 
@@ -277,7 +277,7 @@ I've asked for a bit commit on several repos in the past that have gotten nowher
 
 **Carlisia Pinto:** Wow, you're smart. \[laughter\]
 
-**Erik St. Martin:** So I also have to interject... I just saw an e-mail come through, and the last early bird ticket for GopherCon is officially gone.
+**Erik St. Martin:** So I also have to interject... I just saw an email come through, and the last early bird ticket for GopherCon is officially gone.
 
 **Brian Ketelsen:** Nice!
 
@@ -419,7 +419,7 @@ Then they would send me back the changes, the corrections a couple days later, a
 
 **Brian Ketelsen:** I was waiting for the laughter. There was none. Alright, fine.
 
-**Mark Bates:** Even I was silent \[unintelligible 00:32:36.18\]
+**Mark Bates:** Even I was silent on that.
 
 **Erik St. Martin:** Yeah, that was like, "Whoa, shots fired for real." \[laughter\] It's hard to change the wheels on a moving bus, is the saying, right?
 
@@ -594,7 +594,7 @@ So the last awesome tool I found is called Prism, and there's an article on Medi
 
 \[00:43:57.06\] It's really neat to show historical changes in your profiling. And it's got a nice interface, it looks really easy to use... I have not yet tried to use it, but it looks pretty nice. So Prism... I don't even remember what company released it, but it looked pretty cool.
 
-**Erik St. Martin:** Yeah, I haven't played with it myself personally, but I love the \[unintelligible 00:44:16.08\] of it, the comparison against previous versions. And the name is cool too, Prism. And it's inspecting stuff, monitoring stuff...
+**Erik St. Martin:** Yeah, I haven't played with it myself personally, but I love the aesthetics of it, the comparison against previous versions. And the name is cool too, Prism. And it's inspecting stuff, monitoring stuff...
 
 **Brian Ketelsen:** Yeah, it sounds like a CIA Black Ops project - Prism.
 
@@ -646,7 +646,7 @@ So the last awesome tool I found is called Prism, and there's an article on Medi
 
 **Carlisia Pinto:** I know. But I never did it again, though.
 
-**Erik St. Martin:** I've done similar things though, too. I was building a CNI plugin for Kubernetes, which is the container networking interface, to basically control the networking interfaces that pop up in the container, and their IPs and all that stuff, and I couldn't figure out - it was at least a day, maybe a day and a half - why my CNI plugin was not getting called, and I realized that I was using host networking, and of course host networking \[unintelligible 00:47:51.15\] \[laughter\]. Yeah, that kind of sucked. Talk about some time wasted...
+**Erik St. Martin:** I've done similar things though, too. I was building a CNI plugin for Kubernetes, which is the container networking interface, to basically control the networking interfaces that pop up in the container, and their IPs and all that stuff, and I couldn't figure out - it was at least a day, maybe a day and a half - why my CNI plugin was not getting called, and I realized that I was using host networking, and of course host networking doesn't need to call \[laughter\]. Yeah, that kind of sucked. Talk about some time wasted...
 
 **Brian Ketelsen:** \[00:47:58.00\] That's not as bad as developing on a remote Linux box and then opening a local host, calling it 8080 and wondering why your web server isn't started. \[laughter\]
 
@@ -668,11 +668,11 @@ So the last awesome tool I found is called Prism, and there's an article on Medi
 
 **Mark Bates:** Thank you, Brian. I feel exactly the same way.
 
-**Carlisia Pinto:** Sound like that guy will be getting into GopherCon after all...
+**Carlisia Pinto:** Sounds like that guy will be getting into GopherCon after all...
 
 **Brian Ketelsen:** Nope. \[laughter\] Pictures at the door.
 
-**Erik St. Martin:** He's got \[unintelligible 00:49:30.16\] countdown here, 189 days to redeem himself. \[laughter\]
+**Erik St. Martin:** He's got, wait, what's our countdown here, 189 days to redeem himself. \[laughter\]
 
 **Mark Bates:** Yeah, I'll have to grow a beard, dye my hair...
 
@@ -768,7 +768,7 @@ He's the program chair for GopherCon - the great programs that we have at the co
 
 **Mark Bates:** Exactly.
 
-**Erik St. Martin:** "Shut it down!" So we should probably end the madness... Definitely thanks to everybody who's on the show. Thank you, Mark, for coming on the show. Thank you to everybody who's listening live and will be listening to this when the recording has released. If you aren't currently, we are at GoTime.fm, we are @GoTimeFM on Twitter, and there is also a GoTime FM Slack channel. If you subscribe, we will have a weekly e-mail starting up sometimes. If you wanna be on the show or have suggestions for people on the show, github.com/gotimefm/ping.
+**Erik St. Martin:** "Shut it down!" So we should probably end the madness... Definitely thanks to everybody who's on the show. Thank you, Mark, for coming on the show. Thank you to everybody who's listening live and will be listening to this when the recording has released. If you aren't currently, we are at GoTime.fm, we are @GoTimeFM on Twitter, and there is also a GoTime FM Slack channel. If you subscribe, we will have a weekly email starting up sometimes. If you wanna be on the show or have suggestions for people on the show, github.com/gotimefm/ping.
 
 Huge shout out to our sponsor StackImpact for sponsoring the show, and with that, bye everybody!
 

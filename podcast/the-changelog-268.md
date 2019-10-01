@@ -24,7 +24,7 @@ This was kind of a crazy thing to do, because there's no -- we couldn't expect m
 
 So we gathered a team - I think we were six or seven in the beginning - and we put the project online; by project I mean the crowdfunding campaign. It was roughly one year ago, I think it was September 2016. So for two months we were open to donations, and then we got money to actually work three months on the project; it was better that we expected.
 
-So what we did is translate law into code to \[unintelligible 00:10:31.24\] those data sets. Eight, or -- no, I think I'm over-estimating it; I think it was in the beginning five or six hypotheses of how people could be using the public money in illegal ways, or not so moral ways of using it. So that's what we actually did, how it got started.
+So what we did is translate law into code to try to spot in those data sets. Eight, or -- no, I think I'm over-estimating it; I think it was in the beginning five or six hypotheses of how people could be using the public money in illegal ways, or not so moral ways of using it. So that's what we actually did, how it got started.
 
 What was pretty much important was that we got a lot of support from the media in Brazil. In a certain week we got a cover of the biggest newspaper of the country, and three minutes on the biggest TV news in the country. I think this gave us a lot of supporters in terms of not only code, but people that were very interested in what we were doing.
 
@@ -40,7 +40,7 @@ What was pretty much important was that we got a lot of support from the media i
 
 **Eduardo Cuducos:** Yes, yes. Those guidelines, for some reason, they have the same weight as the law, if you actually decide to sue someone, for example, because there's no law above it. It could be, but there's no law, so this is kind of the main piece that you would look at if someone sued a Congress person and said "Hey, you are not using this money as we expect you to do."
 
-So first of all we have to understand law; that's how it really begins. And I think the second step is a bit \[unintelligible 00:12:54.02\] because once we understand this piece of law, this agreement, these guidelines, we should think okay, so if I was to try to -- how can I say...? A little workaround to use this money in another way, how would I do it? And then we could think about "Okay, let's say someone actually did this thing we just suggested in the brainstorm... How could data tell us that someone did that?" and then we start to really organize the law into code. So we have the law, we have a way to by-pass it, and we have a way to analyze data that would say that people used that exact by-pass we've thought about, and then it's kind of easier to write code on that.
+So first of all we have to understand law; that's how it really begins. And I think the second step is a bit curious because once we understand this piece of law, this agreement, these guidelines, we should think okay, so if I was to try to -- how can I say...? A little workaround to use this money in another way, how would I do it? And then we could think about "Okay, let's say someone actually did this thing we just suggested in the brainstorm... How could data tell us that someone did that?" and then we start to really organize the law into code. So we have the law, we have a way to by-pass it, and we have a way to analyze data that would say that people used that exact by-pass we've thought about, and then it's kind of easier to write code on that.
 
 **Jerod Santo:** So let's lay out a few of the findings... I think some of the details here are important, because it's specific to the setup that you have there in Brazil with regards to the money going to the Congress people, how much they're able to spend and the fact that they do report these reimbursements, or receipts, or however it goes in, that you can use for that data.
 
@@ -64,7 +64,7 @@ The problem is actually that we've been to the Chamber of Deputies and there are
 
 **Adam Stacoviak:** Yeah, they've got an office; it's their job to kind of hang out there and do their thing.
 
-**Eduardo Cuducos:** Yes, they are part of the government but they are not the politicians themselves. They're the \[unintelligible 00:17:30.17\]
+**Eduardo Cuducos:** Yes, they are part of the government but they are not the politicians themselves. They're the state, not the government.
 
 **Adam Stacoviak:** Public servants, yeah.
 
@@ -82,7 +82,7 @@ The problem is actually that we've been to the Chamber of Deputies and there are
 
 **Jerod Santo:** There you go.
 
-**Eduardo Cuducos:** \[00:19:49.23\] There you go... \[laughs\] And I just ran a quick \[unintelligible 00:19:52.03\] okay, but imagine you have all those in a data set... And for the project we use Python and Pandas, so I'm just guessing, but in ten lines of code I could, from a sample of 1,500 receipts (that is basically what the department gets every day), I say "Okay, from this we have just 13 that are from meals or that are outliers." So in one day you can look at 13 receipts, but you can't look through 1,500 receipts... So that's the idea. And with technology it's easy; it's like ten lines of code and you can automatically approve probably most of them and just pay attention to the ones that probably deserve this extra attention. That's the idea, I guess.
+**Eduardo Cuducos:** \[00:19:49.23\] There you go... \[laughs\] And I just ran a quick live code and say, okay, but imagine you have all those in a data set... And for the project we use Python and Pandas, so I'm just guessing, but in ten lines of code I could, from a sample of 1,500 receipts (that is basically what the department gets every day), I say "Okay, from this we have just 13 that are from meals or that are outliers." So in one day you can look at 13 receipts, but you can't look through 1,500 receipts... So that's the idea. And with technology it's easy; it's like ten lines of code and you can automatically approve probably most of them and just pay attention to the ones that probably deserve this extra attention. That's the idea, I guess.
 
 **Jerod Santo:** Yeah, exactly. This is classic human empowerment, right? So the combination of a computer and a human in this case - you have the computer to basically flag outliers, or oddities, and then the human to then... You're reducing the human's load from 1,500 to maybe a dozen. Like you said, the previous number - you couldn't even do that, and then a dozen sounds like you can do that in an hour.
 
@@ -188,7 +188,7 @@ All the code itself is in English and all the comments or the discussions are in
 
 The second thing is that to this point we are kind of specialized in analyzing reimbursements. If you have other kinds of public expenses, probably our classifiers won't fit, and you'll have to really write your own classifiers. But on the other hand, we tried to design this software in a way that is pretty much pluggable. Our architecture just requires basically an adaptor, which says where Rosie can find data, and a set of classifiers for this data. All the pipeline would work the same, it doesn't matter if you're pulling data from the Brazilian government or the US government, or my city, or whatever.
 
-So we try to be useful for other -- not only other countries... Of course, other countries for sure, but even inside Brazil it's different... Like, if we are talking about a city hall or the federal government; it's completely different data sets etc. But we try to build this pipeline where we can plug adaptors for data and classifiers. So you can skip knowing the laws of your country, your city, your state, and translating it into code, maybe if you find some similarities comparing your law to Brazilian law. \[unintelligible 00:42:35.25\] it will be way easier. If it's completely different, you probably will have more work to do. But the idea is for us to grow the project to the point that we have a lot of references, and that will make it easier for people to use.
+So we try to be useful for other -- not only other countries... Of course, other countries for sure, but even inside Brazil it's different... Like, if we are talking about a city hall or the federal government; it's completely different data sets etc. But we try to build this pipeline where we can plug adaptors for data and classifiers. So you can skip knowing the laws of your country, your city, your state, and translating it into code, maybe if you find some similarities comparing your law to Brazilian law. The way we use it, it will be way easier. If it's completely different, you probably will have more work to do. But the idea is for us to grow the project to the point that we have a lot of references, and that will make it easier for people to use.
 
 Right now in Brazil I've known about different cities or different initiatives trying to adapt our code to municipalities - just city halls, basically - and we try to support as much as we can. And also, there's this big thing of the idea of the project. The day before yesterday I was told some guys were looking into another kind of expense by the government. Again, I don't know the word in English, but when the government wants to hire a service or to buy something, the government can't just walk into the supermarket and be like "Okay, I need this" and buy it. It has to publically advertise that he's looking for this service, so every company can bid.
 
@@ -284,7 +284,7 @@ There is a second reason that in Brazil when our (let's say) Federal Bureau of I
 
 **Adam Stacoviak:** \[laughter\] CarWash...
 
-**Eduardo Cuducos:** Yeah, CarWash is actually the biggest investigation on corruption in Brazil that's going on... Anyway. And there's a third reason, that it's basically our \[unintelligible 00:58:42.21\] the kind of gesture we can do as citizens to help our country. It's a cheesy one, but I love it.
+**Eduardo Cuducos:** Yeah, CarWash is actually the biggest investigation on corruption in Brazil that's going on... Anyway. And there's a third reason, that it's basically our love serenade for our country, the kind of gesture we can do as citizens to help our country. It's a cheesy one, but I love it.
 
 **Jerod Santo:** Great name, lots of meaning inside that name... That's excellent. And how can we as the hacker community get involved to help you out, further your cause? We have lots of listeners in Brazil, we have listeners around the globe... How can we help out and get involved?
 

@@ -121,7 +121,7 @@ Then also on Request For Commits - you probably remember this - with Brendan Eic
 
 **Mikeal Rogers:** \[00:16:20.16\] I think that when you look at how to fund content -- and we look at those a lot when we're talking about how to fund open source and how to have a sustainability strategy for open source... But the world of content and art is as big and dynamic, and there's not one way to fund things, and there's not content that necessarily appeals to every way of funding. So it works really well for certain kinds of artists that have a really personal following, a small but dedicated following, I'd say.
 
-I think that if you were making a couple million dollars a month on Patreon you would probably stop getting new people putting in money, regardless of how much the content \[unintelligible 00:17:01.22\]
+I think that if you were making a couple million dollars a month on Patreon you would probably stop getting new people putting in money, regardless of how much the content costs to make.
 
 **Adam Stacoviak:** Yeah, but $13 - that's horrible.
 
@@ -293,7 +293,7 @@ Also, I have the access to people that work on VS Code, so if I can't figure som
 
 Now that they've lost those monopolies in platform, they've turned everything around - Satya has really turned it all around to be a product company. And to be a product company, you have to make things that people love.
 
-I'm \[unintelligible 00:42:07.04\] surprised by the things that I love from Microsoft. I use Outlook on iOS right now... It's great, actually.
+I'm continually surprised by the things that I love from Microsoft. I use Outlook on iOS right now... It's great, actually.
 
 **Adam Stacoviak:** Really?
 
@@ -333,7 +333,7 @@ I'm \[unintelligible 00:42:07.04\] surprised by the things that I love from Micr
 
 **Rachel White:** And I know the people that are working on this stuff (the tools for the developers) are legitimately super into feedback and wanting to know what the community wants, and since there's repositories on GitHub for all this stuff, if there's something you don't like, make an issue; let it be known to the people that are working on it. They would much rather hear from you in official channels that read about somebody being like "Oh, I hate VS Code!" on Twitter or something, because that's not gonna help.
 
-**Adam Stacoviak:** We actually linked out to something on the News Stack over the weekend in our Weekly e-mail about Microsoft's transition over these years, and we've kind of covered that to quite a degree. I can remember talking to Arunesh and a couple others at Node Interactive recently... And these are like ten-year veterans at Microsoft, they've been there for a while, enough to see the two different sides that others may assume might be there. The side (as you said before, Mikeal, and I think you said it too, Rachel) where their focus is on developers, their focus is on open source, their focus is on products versus a platform, and you can see that transition happening not only on the outside as a what we get from them, but also the transition on the inside from employees.
+**Adam Stacoviak:** We actually linked out to something on the News Stack over the weekend in our Weekly email about Microsoft's transition over these years, and we've kind of covered that to quite a degree. I can remember talking to Arunesh and a couple others at Node Interactive recently... And these are like ten-year veterans at Microsoft, they've been there for a while, enough to see the two different sides that others may assume might be there. The side (as you said before, Mikeal, and I think you said it too, Rachel) where their focus is on developers, their focus is on open source, their focus is on products versus a platform, and you can see that transition happening not only on the outside as a what we get from them, but also the transition on the inside from employees.
 
 I remember Gaurav Seth saying "I've been there 11 years, and the last few years have been the best years ever." I don't wanna put words in his mouth, but he seemed to be coming from a place where "I may not have been here much longer if it didn't change." That seemed to be the sentiment, but he didn't say that though. But it was like "Microsoft has changed so much for me as a developer to make me enjoy my job, allowing me to do cool stuff as Chakra Core, and fun stuff with Node, and do stuff in the community, whereas before it was never like that."
 

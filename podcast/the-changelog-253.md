@@ -54,7 +54,7 @@
 
 **Jerod Santo:** I'm like 'You pay, you have no life.' \[laughter\] He just goes to conferences, whatever you want.
 
-**Adam Stacoviak:** I mean, I just, we just can't go on a whim, but yes, Strange Loop - we'd love to be there. It's an awesome conference, and I wish we could go. Alex, if you're listening to this, e-mail us.
+**Adam Stacoviak:** I mean, I just, we just can't go on a whim, but yes, Strange Loop - we'd love to be there. It's an awesome conference, and I wish we could go. Alex, if you're listening to this, email us.
 
 **Pam Selle:** \[00:03:55.14\] Yeah, if Alex hears about it, or someone else in the team... But yeah, I mean, you might not be the first person that I've heard from that can be hard to get a hold of. They just have so much on their plate, and there are also a few other conferences that collocate with them... Racket, which is a Lisp - they collocate.
 
@@ -192,7 +192,7 @@ One very obvious thing of "Where do you put your state?" It's gotta go somewhere
 
 **Jerod Santo:** Sure. Well, it makes you think about it in the right way.
 
-**Pam Selle:** Yeah, it makes you think about it in the right way; your function is not gonna do everything. It's gonna do this one granular thing. For example, you might have one function that gets something from the database and another function that modifies something from the database. Those are very different things, so you might have two separate jobs that do it. You might even, instead of writing directly to -- if you have other things that have to happen, maybe you don't write directly to the database, maybe you write to a cue, and then that cue can be a trigger, or something like a \[unintelligible 00:13:49.14\] that can be a trigger for another Lambda.
+**Pam Selle:** Yeah, it makes you think about it in the right way; your function is not gonna do everything. It's gonna do this one granular thing. For example, you might have one function that gets something from the database and another function that modifies something from the database. Those are very different things, so you might have two separate jobs that do it. You might even, instead of writing directly to -- if you have other things that have to happen, maybe you don't write directly to the database, maybe you write to a queue, and then that queue can be a trigger, or something like a Kinesis stream, that can be a trigger for another Lambda.
 
 But see, as I describe it -- you asked "What's revolutionary?" It's very easy to end up with a Rube Goldberg machine made of functions as a service...
 
@@ -262,7 +262,7 @@ But see, as I describe it -- you asked "What's revolutionary?" It's very easy to
 
 **Jerod Santo:** Okay. So we're making our way up the hill.
 
-**Pam Selle:** We're going up the hill on the bell curve. AWS Lambda was released in late 2014 \[unintelligible 00:18:15.00\] and we're talking right now in 2017. In computer land...
+**Pam Selle:** We're going up the hill on the bell curve. AWS Lambda was released in late 2014 for re:Invent and we're talking right now in 2017. In computer land...
 
 **Adam Stacoviak:** It's a long time.
 
@@ -286,7 +286,7 @@ But see, as I describe it -- you asked "What's revolutionary?" It's very easy to
 
 **Jerod Santo:** This happens, and then... Response.
 
-**Pam Selle:** Yeah. Then for more of a web development idea, you can run an API, because you can integrate with -- in Google cloud you could use HTTP triggers, or \[unintelligible 00:19:20.26\] API gateway... So you can run an API by saying "When I get a request, then run this function and send this response."
+**Pam Selle:** Yeah. Then for more of a web development idea, you can run an API, because you can integrate with -- in Google cloud you could use HTTP triggers, or in AWS Lambda there is API gateway... So you can run an API by saying "When I get a request, then run this function and send this response."
 
 There's so many... I think one of my most favorite recent ones is in operations, which -- this is interesting, because this is... Although, you know, when I think about this, this probably would have caused more problems, but when there was the great S3 outage earlier this year...
 
@@ -308,9 +308,9 @@ There's so many... I think one of my most favorite recent ones is in operations,
 
 **Adam Stacoviak:** They deleted their Bash history. "I didn't do that!"
 
-**Pam Selle:** \[unintelligible 00:20:16.08\] It then caused this cascading failure. So one thing that you could do \[unintelligible 00:20:26.07\] anything you can put in a playbook, you can probably run with functions of service, if I think about that. That's why it actually is a good number, functions of service, because it's a function. It's a list of instructions. Do something.
+**Pam Selle:** Hug Ops, Hug Ops... It then caused this cascading failure. So one thing that you could do with AWS Lambda is, anything you can put in a playbook, you can probably run with functions of service, if I think about that. That's why it actually is a good number, functions of service, because it's a function. It's a list of instructions. Do something.
 
-I've heard people using it for operations task of "If I delete this route, then these other things should happen" and using functions of service to run that script for you \[unintelligible 00:20:58.14\]
+I've heard people using it for operations task of "If I delete this route, then these other things should happen" and using functions as service to run that script for you in your \[unintelligible 00:20:58.14\]
 
 **Jerod Santo:** It seems really like a good fit. I mean, IoT makes sense, but also bots, because they're completely event-driven.
 
@@ -362,7 +362,7 @@ I've heard people using it for operations task of "If I delete this route, then 
 
 **Pam Selle:** We can talk about this as much as we want, but if you --
 
-**Jerod Santo:** \[unintelligible 00:22:01.20\]
+**Jerod Santo:** That's what I'm saying. Getting practical, how do you actually get started?
 
 **Pam Selle:** You've gotta actually touch it, yeah... Especially because all the three big public clouds (AWS, Google Cloud, Azure) all have really generous free tiers. So the pricing for functions of service in the number of invocations and in compute time -- compute time being a calculation based on how much memory you said you want your function to use... It's a very fancy way of saying "duration."
 

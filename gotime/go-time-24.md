@@ -8,7 +8,7 @@
 
 **Erik St. Martin:** Would you like to give everybody a little background about yourself?
 
-**Nate Finch:** Sure. I've been doing development for 16 years now, since graduating from college about four and a half years ago, right around Go 1.01, or something like that. I started looking at Go mainly as a way to not be pigeonholed as a Windows developer, because at that time I was a Windows developer, and I wanted to be more than that. \[unintelligible 00:01:36.14\] community, and about six months later I saw Gustavo posting on Twitter that there was an opening for a Go developer at Canonical, working on Juju. I've interacted with Gustavo for a bit, and we sort of knew each other; it eventually worked out, and I started working on Juju. I've been there for just about three and a half years. I've done a bunch of Go stuff on the side, and I'm a big fan of Go.
+**Nate Finch:** Sure. I've been doing development for 16 years now, since graduating from college about four and a half years ago, right around Go 1.01, or something like that. I started looking at Go mainly as a way to not be pigeonholed as a Windows developer, because at that time I was a Windows developer, and I wanted to be more than that... And I met Go, and then I went into the community, and about six months later I saw Gustavo posting on Twitter that there was an opening for a Go developer at Canonical, working on Juju. I've interacted with Gustavo for a bit, and we sort of knew each other; it eventually worked out, and I started working on Juju. I've been there for just about three and a half years. I've done a bunch of Go stuff on the side, and I'm a big fan of Go.
 
 **Erik St. Martin:** So you were writing production Go code before most people knew about Go.
 
@@ -42,9 +42,9 @@
 
 **Erik St. Martin:** With the history of Juju and the length of time it's been around - I know Gustavo was working on it back in 2013-2014, so we're talking early Go days, pre-1.0. There have to be some lessons learned, how things evolved. We were talking the other day on the show about Kubernetes and the etymology... If you look through the codebase, you can kind of see the evolution of people's understanding of the language. It started out very Java-ish, and in other areas it's very Go-ish. Do you have similar things that you've experienced?
 
-**Nate Finch:** Oh yeah, definitely. A lot of the early developers were more familiar with Python, so there's a lot of Pythonisms, which is sort of worse than Java-isms... Because Java at least is strongly typed, whereas with Python people expect to be able to just curl in whatever... So there's a few spots where there's empty \[unintelligible 00:06:05.19\] Most of that's been stripped out as we go along.
+**Nate Finch:** Oh yeah, definitely. A lot of the early developers were more familiar with Python, so there's a lot of Pythonisms, which is sort of worse than Java-isms... Because Java at least is strongly typed, whereas with Python people expect to be able to just curl in whatever... So there's a few spots where there's empty interfaces and reflection, most of that's been stripped out as we go along.
 
-I think one of the bigger lessons learned is we use Gustavo's GoCheck, which is a testing framework built on top of GoCast. It adds test suites so that you can have code that runs before a full suite of tests, and then code that comes before each individual test \[unintelligible 00:06:34.28\] those things do that, too.
+I think one of the bigger lessons learned is we use Gustavo's GoCheck, which is a testing framework built on top of GoCast. It adds test suites so that you can have code that runs before a full suite of tests, and then code that comes before each individual test very JUnit, xUnit those things do that, too.
 
 That's actually been kind of a problem, because it means that we have a lot of code that runs that's invisible, which means it's hard to know exactly why a test actually works, because it's all this stuff to set up that you don't see, and then the unit tests take on a piece of machine a good 17-18 minutes. And that's just like running Go tests for all of Juju. That's a long time.
 
@@ -74,13 +74,13 @@ So you initially came up -- was this last episode or the one before, Carlisia? W
 
 **Erik St. Martin:** If you ask me on Monday, I'll forget who we talked to last week. \[laughs\] So what was the motivation behind creating that? It's a really interesting project.
 
-**Nate Finch:** So it's very simple - there was one definite spot where I said, "I can make this!", and I was working with some JSON at work, and it gets spit out to the CLI in a big mess with no \[unintelligible 00:09:41.16\] or anything, and I was like "I need to make this look nicer." I was working with someone else and we said, "Let's do python-mjson.tool and pipe it into that." And that worked, and it made it all nicely indented and stuff, and I was like "That's great!"
+**Nate Finch:** So it's very simple - there was one definite spot where I said, "I can make this!", and I was working with some JSON at work, and it gets spit out to the CLI in a big mess with no line returns or anything, and I was like "I need to make this look nicer." I was working with someone else and we said, "Let's do python-mjson.tool and pipe it into that." And that worked, and it made it all nicely indented and stuff, and I was like "That's great!"
 
 I don't want to run Python to do that, I wanna make my thing in Go to do that, because I don't know all the Python libraries and stuff; I'm vaguely familiar with some of them, but I know the Go standards and libraries, so I was like "How can I make this work with Go?"
 
-So first I figured out how it works in Python, because \[unintelligible 00:10:21.10\] big idea. In Python, each script actually has a bit at the bottom that says, "If I'm being run as main, then do this stuff." It wraps the actual package in some smart logic to do some stuff, and in the case of json.tool, it makes the JSON look nice. So I was like, "Okay, well I can't go back and add that code to everything in the standard library, but I betcha I could generate that code."
+So first I figured out how it works in Python, because a vague big idea. In Python, each script actually has a bit at the bottom that says, "If I'm being run as main, then do this stuff." It wraps the actual package in some smart logic to do some stuff, and in the case of json.tool, it makes the JSON look nice. So I was like, "Okay, well I can't go back and add that code to everything in the standard library, but I betcha I could generate that code."
 
-I'm a big fan of generating code, because I don't wanna have to write the dumb code that's always mostly the same, I want something to write it for me; that way, I can write the good stuff. So I was like, "Well, okay, I can do that." I think I was lucky that that was my starting point. It was a fairly complicated thing of typing some JSON to a specific function to \[unintelligible 00:11:27.23\] That was a difficult use case that I think made it much easier to do everything else that Gorram can do. So that's the story.
+I'm a big fan of generating code, because I don't wanna have to write the dumb code that's always mostly the same, I want something to write it for me; that way, I can write the good stuff. So I was like, "Well, okay, I can do that." I think I was lucky that that was my starting point. It was a fairly complicated thing of typing some JSON to a specific function to prettify it, so that was a difficult use case that I think made it much easier to do everything else that Gorram can do. So that's the story.
 
 \[00:11:42.06\] I started poking at Go types, the standard library package that reads code and understands what types are in there. Luckily, much of Go code has a lot of conventions that we can use to understand what type of action this function's gonna take; so like readers and writers, and returning n for the length, and returning errors, and stuff... There's all these conventions to make it very easy to just generate some code, because you pretty much know what each thing is going to expect.
 
@@ -96,7 +96,7 @@ So I just started poking at that for like a week or so, and got some basic thing
 
 **Erik St. Martin:** That's awesome. Bill Kennedy was asking us too what your experience with working on large code bases is, with it being that large and not the norm.
 
-**Nate Finch:** It's funny, there's a \[unintelligible 00:13:22.02\] for Go 1.8 about aliases that is just before support for bigger projects; that kind of a thing actually could be pretty useful for us. We have a lot of lines of code, but also we have a lot of different repos and multiple different applications building off those. So any major modification to an API can cause lots of problems. We have to have like four different projects all change at the exact same time. So aliases, at least one time that I can think of would have been a big help, but I'm also sort of on the fence for supporting aliases because they do make it difficult to know for sure that these two things are the same. Because you can have types that look like they're different and they're actually not, and that's not that great.
+**Nate Finch:** It's funny, there's a proposal for Go 1.8 about aliases that is just before support for bigger projects; that kind of a thing actually could be pretty useful for us. We have a lot of lines of code, but also we have a lot of different repos and multiple different applications building off those. So any major modification to an API can cause lots of problems. We have to have like four different projects all change at the exact same time. So aliases, at least one time that I can think of would have been a big help, but I'm also sort of on the fence for supporting aliases because they do make it difficult to know for sure that these two things are the same. Because you can have types that look like they're different and they're actually not, and that's not that great.
 
 **Carlisia Pinto:** I wonder... Can either one of you explain what an alias is, so we can frame this issue a little better for people who don't know? I have an idea, but I couldn't explain it well. And after we explain what it is, my question for you, Nate, is do you think it could be overused? I mean, it seems that it was already implemented, right? I don't even know if there is any going back. Does anybody know?
 
@@ -152,7 +152,7 @@ Yes, you have to do "if error =/= nil, blah", but that's good, because that mean
 
 People always talk about, "Oh, it makes my happy path look all messy", and I'm like "This is programming. There is no happy path."
 
-**Erik St. Martin:** Yeah, especially when you write network software, right? The amount of things that can go wrong is just... Anybody who's supported the applications \[unintelligible 00:26:33.05\], the odd things that start happening to every application when different resources start hitting their level of saturation, when the out-of-memory killer starts going, or when you run out of disk space and the network drops, or somebody decides to take down a link and bring it back up, or assign a new IP address to it... Random stuff happens on the machine. Like you said, there's no happy path.
+**Erik St. Martin:** Yeah, especially when you write network software, right? The amount of things that can go wrong is just... Anybody who's supported applications in prod is aware of stuff like that, the odd things that start happening to every application when different resources start hitting their level of saturation, when the out-of-memory killer starts going, or when you run out of disk space and the network drops, or somebody decides to take down a link and bring it back up, or assign a new IP address to it... Random stuff happens on the machine. Like you said, there's no happy path.
 
 **Carlisia Pinto:** That's very interesting, yeah.
 
@@ -168,7 +168,7 @@ The hardest part is not knowing. It's the unknown unknowns, and I think that's w
 
 **Nate Finch:** I definitely think there are a large number of people that think that once you get into a bad state, that you no longer know what's going to happen, so you should just bail out. That's fine, but one of the ways you can avoid getting into a bad state is by understanding what can fail and how things are able to fail. Even with Go, returning an error is sort of like failing... You're saying, "I couldn't do it, something went wrong. Make no assumptions about what I was supposed to do." Often times, that will just bubble all the way back up to wherever the start of your action was.
 
-\[00:31:43.21\] In Juju, we actually have things we call "workers" that are threads, which will get restarted if they fare out. It's very similar to crash-only software \[unintelligible 00:31:57.21\] goroutine. But I don't think you need panics to do that. Panic is taking down the whole application, and I think applications these days are \[unintelligible 00:32:11.10\] enough that one small piece failing is not a need to bring down the entire thing. Usually.
+\[00:31:43.21\] In Juju, we actually have things we call "workers" that are threads, which will get restarted if they fare out. It's very similar to crash-only software just per goroutine. But I don't think you need panics to do that. Panic is taking down the whole application, and I think applications these days are complicated enough that one small piece failing is not a need to bring down the entire thing. Usually.
 
 **Erik St. Martin:** I'll agree. You should allow the highest level possible to make that decision. You have some sort of RPC service, and there was some kind of network issue through jitter, like reordered packets that lost its state, or something like that; but you wouldn't crush the whole program. You would come back up a level and that would be like, "Let's close this connection and let it reopen", because we don't really know what state the connection is is, whether it's sending a header packet, or the body - we can't figure this out to reset it, let's just close the connection and reopen one. You don't have to crash the whole program because of it.
 
@@ -176,11 +176,11 @@ Bill Kennedy actually asked, speaking of error handling, what your views were on
 
 **Nate Finch:** Well, we actually use a wrapper in Juju that we wrote a couple years ago. In the beginning we didn't use a wrapper, and that does kind of make things rough. If you don't use a wrapper, then you do have to just compare strings, if you're using it to format that error off and then just adding on more string to the string that you have. I like Dave's package - github.com/package-errors.
 
-The nice things about this is that he gets a stack trace; when you make the new error, you can still get the error that was the original error, so you can still check and see if it's an \[unintelligible 00:34:20.01\] without having to look at the string. You can see if it matches some interface.
+The nice things about this is that he gets a stack trace; when you make the new error, you can still get the error that was the original error, so you can still check and see if it's an io.EOF without having to look at the string. You can see if it matches some interface.
 
 Juju's package also lets you do that. All these packages work basically the same, and there's a lot out there. We've looked at a bunch, and I'm sure more have been written.
 
-Basically, they all just store the original error and give you back a wrapper struct that goes around it. The problem with Juju is that you have to wrap it at every return, because instead \[unintelligible 00:34:50.02\] stack trace per se, it marks where it gets wrapped on the return path up. The idea was that if you pass errors over channels, the stack trace per se may not be how you eventually get a hold of the error. In theory it was a good idea; in practice, it means that everywhere you return an error you have to do a wrapping. It was kind of a burden, mostly for when things returned multiple values, you can't tail call, like return a function, assign the values to variables and then wrap the error and then return both. That's kind of a pain.
+Basically, they all just store the original error and give you back a wrapper struct that goes around it. The problem with Juju is that you have to wrap it at every return, because instead looking at a stack trace per se, it marks where it gets wrapped on the return path up. The idea was that if you pass errors over channels, the stack trace per se may not be how you eventually get a hold of the error. In theory it was a good idea; in practice, it means that everywhere you return an error you have to do a wrapping. It was kind of a burden, mostly for when things returned multiple values, you can't tail call, like return a function, assign the values to variables and then wrap the error and then return both. That's kind of a pain.
 
 The difference with Dave's is that he actually grabs the stack trace the first time, so in theory you don't actually have to wrap it when you return it past that first time. So I think they're kind of good, and I think they're kind of not as useful as people think. In Juju, a lot of the time I can just search for the string and find a spot where it's made and figure out what's going on. I don't always need the whole stack trace. It's fairly rare that I get the whole stack trace.
 
@@ -210,7 +210,7 @@ The difference with Dave's is that he actually grabs the stack trace the first t
 
 **Carlisia Pinto:** Yeah, it is.
 
-**Nate Finch:** Okay, good. Dave and I have been working on this for a long time, being able to compile code as a plugin that can be loaded by other Go code. The other main application loads it using -- there's a new plugin package in the standard library \[unintelligible 00:39:57.26\]. It basically works like plugins, so we can load new data, you can call \[unintelligible 00:40:06.03\] and stuff... It's very interesting.
+**Nate Finch:** Okay, good. Dave and I have been working on this for a long time, being able to compile code as a plugin that can be loaded by other Go code. The other main application loads it using -- there's a new plugin package in the stdlib on [Tip](https://tip.golang.org/), and... It basically works like plugins, so we can load new data, you can call functions and stuff... It's very interesting.
 
 **Erik St. Martin:** \[00:40:09.14\] So this is basically loading it as a dynamic library, like a DLL or an .so file, for other languages.
 
@@ -218,11 +218,11 @@ The difference with Dave's is that he actually grabs the stack trace the first t
 
 **Erik St. Martin:** So how does that work for dynamically linking against it? Do you need to have the plugin at compile time, like you'd need the header files for C if you were gonna dynamically link against something? Or is this just completely generic because the information is available in the binary?
 
-**Nate Finch:** It's completely generic, which means you lose a bit of type safety going through it. I'm looking at the package now to remind myself... Basically, you can look up names of types and functions, and they get returned as an empty interface that you can \[unintelligible 00:40:55.22\]
+**Nate Finch:** It's completely generic, which means you lose a bit of type safety going through it. I'm looking at the package now to remind myself... Basically, you can look up names of types and functions, and they get returned as an empty interface that you can cast them and call them.
 
 **Erik St. Martin:** Interesting. I know there's been a few use cases where people have really wanted plugins. Kubernetes is a good example, too.
 
-**Nate Finch:** Yeah, I'm a big fan of plugins. I wrote a package to work with plugins called Pi that really, at least partially \[unintelligible 00:41:14.29\], which is fine. I think plugins are super valuable... That's half of why Kubernetes is so popular - you can swap things in and out as much as you want, and this will make it even better because then you can use real Go that you just drop in the directory.
+**Nate Finch:** Yeah, I'm a big fan of plugins. I wrote a package to work with plugins called Pi that really, at least partially obviated, which is fine. I think plugins are super valuable... That's half of why Kubernetes is so popular - you can swap things in and out as much as you want, and this will make it even better because then you can use real Go that you just drop in the directory.
 
 **Erik St. Martin:** I think it's really cool from the perspective that there's a lot of cool tools where we want them to support many different interfaces to other applications and architectures, but the core package starts to become very bloated with knowledge of all these individual versions of the same system, whatever that may be - databases, or things like that, so to be able to move it out into a plugin approach is really cool.
 
@@ -256,9 +256,9 @@ I haven't built anything with it, but seeing it really makes me want to.
 
 **Nate Finch:** Nice, yeah. I used a different one for a small project... I can't remember now what the name was, but very similar. Maybe a slightly lower level; with this one you have a window and put stuff in it. The one that I used was more like your screen was a grid and you could put stuff in the grid. But this looks really cool, I definitely wanna try that one out.
 
-**Erik St. Martin:** See, I love graphical stuff. I don't know why, but I'm a command line junkie. Even at my development machine... I have a Mac and I do the podcast and stuff from that, and e-mail and chat, but I primarily develop off a Linux box, and I run the i3 window manager. That's it. I don't need any of the fluff, just give me some terminal windows and I'm good.
+**Erik St. Martin:** See, I love graphical stuff. I don't know why, but I'm a command line junkie. Even at my development machine... I have a Mac and I do the podcast and stuff from that, and email and chat, but I primarily develop off a Linux box, and I run the i3 window manager. That's it. I don't need any of the fluff, just give me some terminal windows and I'm good.
 
-**Nate Finch:** Well, I did 13 years of Windows development, so I still at times want things \[unintelligible 00:46:55.00\] but I also love the terminals. It's nice to put those both together and you have a lightweight windowy thing. It's pretty cool.
+**Nate Finch:** Well, I did 13 years of Windows development, so I still at times want things I can poke at with a mouse but I also love the terminals. It's nice to put those both together and you have a lightweight windowy thing. It's pretty cool.
 
 **Erik St. Martin:** Yeah, I'm waiting to have some time to actually build something with it. Another cool project I found - they have a command line version for it too, but mainly for Vim and neoVim - is a fuzzy file finder that's written in Go. There's been a number of these written over the years for editors, but I thought that that was really cool. I like anything that gets rewritten in Go. Like, "Oh, here's a cool grepping tool. I'm gonna write one in Go." \[laughs\]
 
@@ -294,7 +294,7 @@ He also mentioned that talk by Bryan Boreham from this year's Golang UK Conferen
 
 **Erik St. Martin:** Yeah, I haven't actually seen that video. I'm gonna put that on my list. Actually, all the dotGo videos need to be on my list to watch. Alright, so what else do we have on our list before we move on to \#FreeSoftwareFriday?
 
-**Carlisia Pinto:** One more thing I wanted to mention - Peter Bourgon e-mailed the mailing list (I forgot which one) and they have the draft spec for package management ready, and they are calling for comments; they are soliciting comments either on Gophers Slack, the vendors channel or on a mailing list. And they started implementing another prototype too, so that's definitely moving along.
+**Carlisia Pinto:** One more thing I wanted to mention - Peter Bourgon emailed the mailing list (I forgot which one) and they have the draft spec for package management ready, and they are calling for comments; they are soliciting comments either on Gophers Slack, the vendors channel or on a mailing list. And they started implementing another prototype too, so that's definitely moving along.
 
 **Nate Finch:** Yeah, I looked at that and honestly, it's so long and so detailed... I need like a TL;DR version so that I can have some idea of what the overall meaning is, because it's seven pages long. I don't know that I can get all of that.
 
@@ -362,7 +362,7 @@ With that, we are out of time unfortunately.
 
 With that, I wanna thank everybody for being on the show today. Huge shout out to our sponsors, both to stackimpact and Code School, thank you to all of our live listeners and future listeners. Definitely forward this to your friends.
 
-We are @GoTimeFM on Twitter, we have a GoTimeFM channel on the Gophers Slack. If you are not subscribed already, go to GoTime.fm, our website for e-mail. If you wanna be on the show or you have ideas for guests or topics for this show, hit us up on GitHub.com/gotimefm/ping. With that, everybody goodbye.
+We are @GoTimeFM on Twitter, we have a GoTimeFM channel on the Gophers Slack. If you are not subscribed already, go to GoTime.fm, our website for email. If you wanna be on the show or you have ideas for guests or topics for this show, hit us up on GitHub.com/gotimefm/ping. With that, everybody goodbye.
 
 **Carlisia Pinto:** Thank you, Nathan. Goodbye!
 

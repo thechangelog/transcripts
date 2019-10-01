@@ -48,9 +48,9 @@ And then obviously this survey, OpenSourceSurvey.org - I guess that redirects to
 
 **Adam Stacoviak:** Why is that? What makes it hard to get good data? Is it selecting the right kind of people, or them self-selecting?
 
-**Frannie Zlotnick:** Yeah, so for the types of questions that people are interested in, a large part of the problem is getting access to the right people. This is a community that's kind of over-surveyed; people get a lot of e-mails asking them to take surveys, and at some point they get tired of doing it, so it's hard to get the people you wanna talk to to take the survey, so the sampling is hard; an unbiased way is very difficult to do.
+**Frannie Zlotnick:** Yeah, so for the types of questions that people are interested in, a large part of the problem is getting access to the right people. This is a community that's kind of over-surveyed; people get a lot of emails asking them to take surveys, and at some point they get tired of doing it, so it's hard to get the people you wanna talk to to take the survey, so the sampling is hard; an unbiased way is very difficult to do.
 
-\[00:08:09.10\] Generally, what people have done is they'll go through public records of open source projects and look for people who committed or otherwise participated in a project and then just e-mail them. But that means you miss this huge community of people that we know are there who are using projects and looking at them but not necessarily actively contributing to them, and we think that that's a really important part of the community, as well. But unless they leave a visible artifact of having been there, there's no way for the researchers to know that they're there.
+\[00:08:09.10\] Generally, what people have done is they'll go through public records of open source projects and look for people who committed or otherwise participated in a project and then just email them. But that means you miss this huge community of people that we know are there who are using projects and looking at them but not necessarily actively contributing to them, and we think that that's a really important part of the community, as well. But unless they leave a visible artifact of having been there, there's no way for the researchers to know that they're there.
 
 By having access to the traffic going to these projects, we have an ability to get to people in a way that is virtually impossible for most other people.
 
@@ -98,7 +98,7 @@ So there's still this sort of bias in who decides to participate, but because we
 
 We also have interest in making sure that the data is available not just to researchers but also broadly available to the people who can kind of do the most with it, which is the community itself. So the idea was really just to use our unique position with regard to the community to be able to create high-quality data that could then be used by other people to do interesting research. and to help people make decisions on what their communities need, and help people understand different parts of their community, like help maintainers understand contributors, help contributors understand users who don't necessarily contribute... Things like that.
 
-**Adam Stacoviak:** Can you go back to the moment, to some degree...? Was it some sort of message, an e-mail? Was it a face-to-face conversation? What was the original context for like "Hey, we should do this survey. We need to know this information", and who was there and what was going on to sort of surface this desire?
+**Adam Stacoviak:** Can you go back to the moment, to some degree...? Was it some sort of message, an email? Was it a face-to-face conversation? What was the original context for like "Hey, we should do this survey. We need to know this information", and who was there and what was going on to sort of surface this desire?
 
 **Frannie Zlotnick:** I think it was a video chat between me and Arfon. He sent me a message asking me to -- I think at this time Arfon was doing his nomadic thing; he was traveling around the country in a van with his family... So I don't remember exactly where he was, but I was in our office and he was in a van somewhere... \[laughter\]
 
@@ -222,7 +222,7 @@ I think open source gets an unfair reputation for that and it turns a lot of peo
 
 **Adam Stacoviak:** This is a tough subject, not often discussed - the impact of negativity in open source. Sometimes when that happens, people are force to go into private channels or to enforce their code of conduct and get into very uncomfortable situations, basically having to deal with these negative experiences that have real consequences to not just the people, but also to the project. Sometimes people just don't interact, or they just don't interact publicly. What do you think?
 
-**Frannie Zlotnick:** Yeah, people might withdraw from a project, they might keep working on the project, but start working in kind of backchannels; instead of working publicly in the repo, they may start pinging people through e-mail, Slack, or other methods, to avoid the public microscope of attention on the work, or maybe risk somebody saying something really critical and that ending up being part of their public professional record.
+**Frannie Zlotnick:** Yeah, people might withdraw from a project, they might keep working on the project, but start working in kind of backchannels; instead of working publicly in the repo, they may start pinging people through email, Slack, or other methods, to avoid the public microscope of attention on the work, or maybe risk somebody saying something really critical and that ending up being part of their public professional record.
 
 **Adam Stacoviak:** Well, no one wants that, right? If we were in an issue and Mikeal called me a name, I would probably not wanna talk to him ever again for one, and then two, I would just be like "I'm not being involved in this anymore. I'm done." Or maybe I wouldn't; maybe I would just take it and just feel stupid. What do you think, Mikeal? What are common interactions like? Is that how you would respond?
 
@@ -444,7 +444,7 @@ You've dug into it quite a big, shared a lot of details, even came up with some 
 
 **Adam Stacoviak:** Well, without having done all the work you've done of course I can have this point of view, but now that it's there, do you see the questions needing to change very much to continue the survey? Does it have to stop, or is this something that can keep operating on the random selections, as you've mentioned to Mikeal's question a little bit earlier? Can the same 54-question survey keep going to keep gathering and maybe keep a real-time pulse on the results?
 
-**Frannie Zlotnick:** Yeah, that's a good question. One of the things that we've tried to be conscious of is that open source is a community that's over-surveyed, so we don't wanna add to the noise. People in open source are constantly getting e-mails asking them to take surveys. Partly, we hope that we can cut down on some of that uncoordinated research efforts by providing one single high-quality data set that everybody uses, instead of trying to piece together their own.
+**Frannie Zlotnick:** Yeah, that's a good question. One of the things that we've tried to be conscious of is that open source is a community that's over-surveyed, so we don't wanna add to the noise. People in open source are constantly getting emails asking them to take surveys. Partly, we hope that we can cut down on some of that uncoordinated research efforts by providing one single high-quality data set that everybody uses, instead of trying to piece together their own.
 
 We don't wanna bother people with our research unless we think that these things are actually changing all the time... But if people wanna know -- like, "We saw this last year, and we wanna know how it's changed a year later, because we've invested a lot in (say) our documentation efforts." That's certainly something that we could consider doing.
 
@@ -480,6 +480,6 @@ For your individual project it may not be the case that support is the least imp
 
 **Nadia Eghbal:** I really hope that open source projects use some of this stuff to figure out how to get new contributors on board and how to strengthen their communities, because I think there's a lot of really good insights around that.
 
-**Adam Stacoviak:** OpenSourceSurvey.org. I'll also mention that at the very bottom you can subscribe to survey updates; you can put your e-mail address there, click the button Subscribe... I guess that means that we'll obviously have to do another show like this, because this was super fun. I love rountableing this and dig in through everything and getting to hear different perspectives. It's been a lot of fun. Nadia, Mikeal, Frannie, this has been fun. Thank you!
+**Adam Stacoviak:** OpenSourceSurvey.org. I'll also mention that at the very bottom you can subscribe to survey updates; you can put your email address there, click the button Subscribe... I guess that means that we'll obviously have to do another show like this, because this was super fun. I love rountableing this and dig in through everything and getting to hear different perspectives. It's been a lot of fun. Nadia, Mikeal, Frannie, this has been fun. Thank you!
 
 **Frannie Zlotnick:** Thank you!

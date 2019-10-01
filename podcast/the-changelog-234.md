@@ -202,7 +202,7 @@ Something else that we learned as well was, at the very beginning we thought tha
 
 I think that a part of why we struggled so much at the beginning was because we were seeing it through the lens of charity. You need to give to open source, because... "You are Netflix, how are you not gonna give to \[unintelligible 00:45:08.22\]? It's such a big part of your..." And that's not the right focus, that's not the best approach, and we learned that the hard way.
 
-We learned that from really not being able to find sponsors or to help collectives get sponsors. Now our focus has much more to do, as I was saying before, with everyone being part of a certain community and getting something in exchange for their support; really getting what they need - it might be support, it might be access to information, it might be just the ability to reach out every now and then to the Sean Larkins of the world and them replying to an e-mail, or things like that.
+We learned that from really not being able to find sponsors or to help collectives get sponsors. Now our focus has much more to do, as I was saying before, with everyone being part of a certain community and getting something in exchange for their support; really getting what they need - it might be support, it might be access to information, it might be just the ability to reach out every now and then to the Sean Larkins of the world and them replying to an email, or things like that.
 
 I think that there's a lot of companies out there that use these projects, that are not the Netflix and Googles and Yahoos, but they're the a thousand and one pharmacies, and they are willing to support the technology that they use, the open source software that they use. But they also need something in return, they also want to be in the know, they also wanna be part of this community. That's the framework that's been guiding our actions.
 
@@ -284,7 +284,7 @@ Everything that goes towards helping them manage the way they are sustainable an
 
 **Pia Mancini:** Yeah, very soon... Soon. Don't say that! \[laughs\]
 
-**Adam Stacoviak:** If someone's listening, where would they go to find out more? How can they submit their name to an e-mail list, or just kind of be informed? What's the best way to keep up on that?
+**Adam Stacoviak:** If someone's listening, where would they go to find out more? How can they submit their name to an email list, or just kind of be informed? What's the best way to keep up on that?
 
 **Pia Mancini:** Okay, thank you for that. So in our Open Collective Slack, slack.opencollective.com, there is a channel \[unintelligible 01:03:01.13\] Everyone's talking there. That's the place that we gather. So just join slack.opencollective.com and in there the \[unintelligible 01:03:11.00\] channel.
 
@@ -378,15 +378,15 @@ I think this is really interesting, how you're sharing all this there and inviti
 
 We do have a Slack and we're opening that up, that's something happening soon, but this is definitely leading in a good way. I like that.
 
-Well, Pia, thank you so much for joining us, and to the listeners out there, thank you for tuning in. I'm sure if you're listening to this, you love open source as much as we do. We've wrapped a great, big, green heart around open source and the communities around it. Thank you for listening to this show, and if you don't subscribe to our weekly e-mail - Jerod, is it a good e-mail or is it a bad e-mail? What kind of e-mail is it?
+Well, Pia, thank you so much for joining us, and to the listeners out there, thank you for tuning in. I'm sure if you're listening to this, you love open source as much as we do. We've wrapped a great, big, green heart around open source and the communities around it. Thank you for listening to this show, and if you don't subscribe to our weekly email - Jerod, is it a good email or is it a bad email? What kind of email is it?
 
-**Jerod Santo:** What is wrong with you, if you don't subscribe to this e-mail? Like, come on...
+**Jerod Santo:** What is wrong with you, if you don't subscribe to this email? Like, come on...
 
 **Adam Stacoviak:** Right. Changelog.com/weekly.
 
 **Jerod Santo:** You've listened this far into this episode and you're not subscribed at Changelog Weekly? What is wrong? What's wrong here, Adam?
 
-**Adam Stacoviak:** Fix the problem. Go to Changelog.com/weekly, put your e-mail in... No spam, the best e-mail ever, overarching all of open source, all of the community. It's language-agnostic... We share a lot of great stuff in there - our favorites, everything from best projects to videos we find on YouTube and elsewhere, to some of the best articles out there covering what's happening in open source today.
+**Adam Stacoviak:** Fix the problem. Go to Changelog.com/weekly, put your email in... No spam, the best email ever, overarching all of open source, all of the community. It's language-agnostic... We share a lot of great stuff in there - our favorites, everything from best projects to videos we find on YouTube and elsewhere, to some of the best articles out there covering what's happening in open source today.
 
 That's it for this show, so let's say goodbye.
 

@@ -1,4 +1,4 @@
-**Jerod Santo:** Welcome to our first Spotlight series, recorded at OSCON London 2016. I'm Jerod Santo, managing editor at Changelog. Coby Chapple has been a product designer at GitHub since 2012. This conversation took place shortly after GitHub Universe, where they launched projects, transactional code reviews and GraphQL, all of which we discussed in depth.
+**Jerod Santo:** \[00:00:31\] Welcome to our first Spotlight series, recorded at OSCON London 2016. I'm Jerod Santo, managing editor at Changelog. Coby Chapple has been a product designer at GitHub since 2012. This conversation took place shortly after GitHub Universe, where they launched projects, transactional code reviews and GraphQL, all of which we discussed in depth.
 
 Coby drops a lot of knowledge bombs in this interview, so take a listen.
 
@@ -60,15 +60,15 @@ That's the kind of stuff that I like trying to identify in a product - a shortcu
 
 **Coby Chapple:** It doesn't matter what the job title is of the person who made the change, what matters is that the change needs to happen.
 
-**Jerod Santo:** \[00:07:53.17\] Yeah. So you guys have been doing refinements for a long time - those small shortcuts, those tweaks... I love all that, but recently at GitHub Universe you had some major new features. One that I love is the code review feature... Mostly because now I can create a bunch of comments and send a single e-mail, which was like my biggest gripe. Because we use GitHub a lot for editing prose, blog posts, and now we're gonna give -- it's not code review, but it's prose review.
+**Jerod Santo:** \[00:07:53.17\] Yeah. So you guys have been doing refinements for a long time - those small shortcuts, those tweaks... I love all that, but recently at GitHub Universe you had some major new features. One that I love is the code review feature... Mostly because now I can create a bunch of comments and send a single email, which was like my biggest gripe. Because we use GitHub a lot for editing prose, blog posts, and now we're gonna give -- it's not code review, but it's prose review.
 
 **Coby Chapple:** You're drafting...
 
-**Jerod Santo:** Yeah, grammar, and we're helping and we're giving advice and thoughts... So I may review a 3,000-word document for somebody, and I may send them 17 e-mails to do so. And I actually apologize afterwards. Like, "I apologize that you just got 17 e-mails, but I have line notes", you know? So that ability is amazing.
+**Jerod Santo:** Yeah, grammar, and we're helping and we're giving advice and thoughts... So I may review a 3,000-word document for somebody, and I may send them 17 emails to do so. And I actually apologize afterwards. Like, "I apologize that you just got 17 emails, but I have line notes", you know? So that ability is amazing.
 
 The other big one is the Projects feature. Tell me about both of those in summary first.
 
-**Coby Chapple:** Sure. With the code review thing, we have the exact same problem ourselves. For a lot of the blog posts you write or press releases or internal documentation, we use pull requests ourselves and we have the exact same problem of like, okay, not only do we just get a lot of e-mails, but sometimes the first e-mail will be "Hey, I noticed this...". Second e-mail, same deal. Three e-mails later, "Oh, I see this other line, which makes all of these previous comments redundant." So that's what's great about the code review feature - you can actually batch it, and if you discover before you send the review that you wanna go back and change your earlier comments, it actually improves the quality of feedback. So it's not just improving the code, it's also improving the conversation.
+**Coby Chapple:** Sure. With the code review thing, we have the exact same problem ourselves. For a lot of the blog posts you write or press releases or internal documentation, we use pull requests ourselves and we have the exact same problem of like, okay, not only do we just get a lot of emails, but sometimes the first email will be "Hey, I noticed this...". Second email, same deal. Three emails later, "Oh, I see this other line, which makes all of these previous comments redundant." So that's what's great about the code review feature - you can actually batch it, and if you discover before you send the review that you wanna go back and change your earlier comments, it actually improves the quality of feedback. So it's not just improving the code, it's also improving the conversation.
 
 **Jerod Santo:** Right.
 

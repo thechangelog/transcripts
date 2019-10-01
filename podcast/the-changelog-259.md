@@ -108,7 +108,7 @@ I think a lot of people don't understand that part... That's why I do the live d
 
 **Jerod Santo:** Have you ever had one that just completely exploded on you?
 
-**Kelsey Hightower:** No, I didn't, and I think that's when I started to do them more. I got a little bit more confident. I was at one of the very first Kubernetes ones where we were all getting around the 1.0 launch, and we were all in San Francisco. \[unintelligible 00:15:06.08\] and I met the core engineering team, and we were all there for the Kubernetes summit. I was doing this demo - it was smooth... I was actually doing it on my laptop. And then the networking switched, and all the VMs crashed, and I'm like almost out of time... I was like, "Anyone wanna see me finish this?" and they were like "Yeah!!!", because everyone was on the edge of their seats to see how this thing goes down. So I deleted the whole cluster and I built it back from scratch, walked it back up, and we got the whole thing done, and it was like "mic drop."
+**Kelsey Hightower:** No, I didn't, and I think that's when I started to do them more. I got a little bit more confident. I was at one of the very first Kubernetes ones where we were all getting around the 1.0 launch, and we were all in San Francisco. This when I still at CoreOS and I met the core engineering team, and we were all there for the Kubernetes summit. I was doing this demo - it was smooth... I was actually doing it on my laptop. And then the networking switched, and all the VMs crashed, and I'm like almost out of time... I was like, "Anyone wanna see me finish this?" and they were like "Yeah!!!", because everyone was on the edge of their seats to see how this thing goes down. So I deleted the whole cluster and I built it back from scratch, walked it back up, and we got the whole thing done, and it was like "mic drop."
 
 Someone came up to me afterwards and was like "You did that on purpose, you were just trying to show off." I was like "Man, I'm sweating bricks, dude!" That was so dope, and then that told me that it's okay to mess up. What people come to see is you make it through it, and that's what gave me that confidence... "If that's the worst, then I'm good from here."
 
@@ -120,7 +120,7 @@ Someone came up to me afterwards and was like "You did that on purpose, you were
 
 **Jerod Santo:** \[00:16:01.28\] And then cheering them. No one's in the audience like "Ha-ha! We knew you were gonna mess up this live demo! We caught you!" Everyone's there cheering on the person.
 
-**Kelsey Hightower:** You said something really important there, "We caught you!" Like, people are there usually to support the speaker, and when people hit a rough spot or they get emotional or they get scared or nervous, you can look into people's eyes and you just see they're like "I'm right here for you. I'm not checking my e-mail right now. You're good, I'll be quiet while you get through this." I think a lot of people forget that that's the interaction we have.
+**Kelsey Hightower:** You said something really important there, "We caught you!" Like, people are there usually to support the speaker, and when people hit a rough spot or they get emotional or they get scared or nervous, you can look into people's eyes and you just see they're like "I'm right here for you. I'm not checking my email right now. You're good, I'll be quiet while you get through this." I think a lot of people forget that that's the interaction we have.
 
 **Adam Stacoviak:** That's a good point, because I think far too often when you're on the stage, you're in that spotlight, it's really easy to get totally full of fear. You're just like "I'm on the spotlight, everybody out there thinks I'm an idiot. I can't get this right... How did I get myself into this situation? Can I get out fast?" and the only thing I think -- maybe what you learned with your live demos was like "Power through!" There's something you gain once you do power through, because you kind of gain that confidence, like "Okay, it's not that hard" or "I dealt with that pressure", so to speak, and you made it out the other end. That's the hardest part, making it through.
 
@@ -330,7 +330,7 @@ There was a couple of stuff more recently... I released Giddy, which is a comman
 
 **Jerod Santo:** Be there or be square. \[laughter\]
 
-**Adam Stacoviak:** Or be around... Circle. Whatever it takes, \[unintelligible 00:31:10.10\] \[laughter\]
+**Adam Stacoviak:** Or be around... Circle. Whatever it takes, come there. \[laughter\]
 
 **Jerod Santo:** Please come.
 
@@ -394,7 +394,7 @@ I talked a little bit about what that means for us to exist in a society that gl
 
 **Safia Abdalla:** Yeah... But certainly if the licenses did not require it, they probably would not have done it at all.
 
-**Jerod Santo:** \[unintelligible 00:36:52.01\] if you enforce it at a license level, you can use a software, but you have to display it -- a lot of them are like "You have to include this in the reproduced copy", or whatever, but if it actually said "And you have to display it prominently during your launch screen", or something... That would be an actual license that you insist upon...
+**Jerod Santo:** Even if you enforce it at a license level, you can use a software, but you have to display it -- a lot of them are like "You have to include this in the reproduced copy", or whatever, but if it actually said "And you have to display it prominently during your launch screen", or something... That would be an actual license that you insist upon...
 
 **Adam Stacoviak:** No one would use it...
 
@@ -556,7 +556,7 @@ We also get a glimpse at a different side of GitHub... The side that Nadia and M
 
 **Adam Stacoviak:** Careful, Mike. Continue, continue, Mike.
 
-**Jerod Santo:** \[unintelligible 00:47:23.26\] because we may die. \[laughter\] Sorry, Mike.
+**Jerod Santo:** Talk fast, because we may die. \[laughter\] Sorry, Mike.
 
 **Mike McQuaid:** The nice thing is I guess the projects that we have in Open Source Alley tend to be those that wouldn't pay money to have a booth here... So we can go and have them and have some representation, and post their logo all over the place and have people talk to the people who are running these projects... Giving them a little bit of exposure.
 
@@ -634,13 +634,13 @@ We also get a glimpse at a different side of GitHub... The side that Nadia and M
 
 **Mike McQuaid:** Yeah, and he spent a while almost like thinking about -- I mean, initially he moved to almost be like "I'm gonna get GitHub's open source projects in shape", and then it became more about the community and stuff like that. I think the real thing that probably gave a lot of people a wake-up call at GitHub was GitHub like last year, and just the impact of realizing that "Okay, there's a lot of people in our community who don't feel listened to. They don't feel like we're listening to their concerns." And also a realization of us internally, like, we almost don't have the relationships with these people. We maybe on an individual basis, but we don't as a company have any sort of formal way of having these communications.
 
-When I speak to people as a GitHubber, if people had complaints with GitHub, I would say "Well, send a e-mail to support, and then that will get turned into a feature request", and I appreciate from most people's perspective that's a black box; they don't get any feedback from that. Our support team are great and they do e-mail people back when those features get implemented, but people have problems, and those problems aren't getting solved, and I feel like we now have more of a communication channel and more people who are dedicated to building those relationships as part of our job, so that we can make GitHub better for those people.
+When I speak to people as a GitHubber, if people had complaints with GitHub, I would say "Well, send a email to support, and then that will get turned into a feature request", and I appreciate from most people's perspective that's a black box; they don't get any feedback from that. Our support team are great and they do email people back when those features get implemented, but people have problems, and those problems aren't getting solved, and I feel like we now have more of a communication channel and more people who are dedicated to building those relationships as part of our job, so that we can make GitHub better for those people.
 
 **Jerod Santo:** It's also been like some major and minor features that you all have been doing recently, I think of some of the work that Nadia's done in the team, the open source handbook, or the...
 
 **Nadia Eghbal:** The guides...
 
-**Jerod Santo:** \[00:51:56.11\] The guides, as well as the -- even just recently, which I don't even know if it had any fanfare, but you're not adding license metadata in a very explanatory way to everything, as \[unintelligible 00:52:05.10\] So just making it easier on us when we're making those decisions that are outside of our developer wheelhouse smoother... Really helpful.
+**Jerod Santo:** \[00:51:56.11\] The guides, as well as the -- even just recently, which I don't even know if it had any fanfare, but you're not adding license metadata in a very explanatory way to everything, as you're like picking. So just making it easier on us when we're making those decisions that are outside of our developer wheelhouse smoother... Really helpful.
 
 **Nadia Eghbal:** There are some really good things coming on the pipeline too from the community and safety team, just in terms of helping you manage your communities better and manage those conversations. There are a lot of really good things in the works this year that I'm very excited about, but won't talk about because...
 

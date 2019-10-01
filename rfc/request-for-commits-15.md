@@ -94,7 +94,7 @@ Our monthly recurring expenses were $14/month before NPM decided to give organiz
 
 **Nadia Eghbal:** That's a lot of people donating $2 or $5/month that adds up to the budget that you have now; it says something about people that love it enough to donate, I guess, right?
 
-**Christopher Hiller:** Yeah, and there are quite a few of those people. What I wanted to do, and I was so excited when we got our first backer, and I sent out a tweet, I was like "Hey, thanks for backing!", and then the next five people that decided to back us and donate, I sent out tweets. Then there was like 100 people, or whatever... And I get several e-mails a day - "So-and-so has donated $2 to Mocha." I want to shake everybody's hand and say thank you individually, but it doesn't scale very well.
+**Christopher Hiller:** Yeah, and there are quite a few of those people. What I wanted to do, and I was so excited when we got our first backer, and I sent out a tweet, I was like "Hey, thanks for backing!", and then the next five people that decided to back us and donate, I sent out tweets. Then there was like 100 people, or whatever... And I get several emails a day - "So-and-so has donated $2 to Mocha." I want to shake everybody's hand and say thank you individually, but it doesn't scale very well.
 
 I don't know if Sean Larkin and Webpack have figured out how to do that. He spends a lot of time on Twitter, but you know... That doesn't scale. I would love to be able to do that, but I haven't found out a good way to do that yet that works for me.
 
@@ -108,7 +108,7 @@ I'm not sure how -- I know Webpack has an idea of how to spend their funds; I ha
 
 **Mikeal Rogers:** Yeah, I spoke with Sean a little while ago and one of the things that he said was that he focuses on things that nobody else wants to do because of this particular problem, but at the same time Sean has a full-time job and he's doing like 20 hours a week of work that nobody else wants to do on Webpack. That's not sustainable, he's gonna burn out. I don't see a world in which he doesn't burn out doing that.
 
-**Nadia Eghbal:** Something I think has been a recurring theme this season too, thinking about if you have money, where does the money go and how do you spend it efficiently, and for both of your stories -- you know, a small amount of money can be really awkward amounts of money, because what do you do with that? A big \[unintelligible 00:31:42.05\] been coming from me is "Do you fund a project? Do you fund Mocha, or do you fund your time?"
+**Nadia Eghbal:** Something I think has been a recurring theme this season too, thinking about if you have money, where does the money go and how do you spend it efficiently, and for both of your stories -- you know, a small amount of money can be really awkward amounts of money, because what do you do with that? A big distinction that's been coming up for me is "Do you fund a project? Do you fund Mocha, or do you fund your time?"
 
 The examples I've seen that have been successful are where the project itself can be sustainable in the sense of money is not coming in and out of the project - beyond, like you said, recurring expenses - but it's more about if someone already internally wants to work on the project and is able to find time, whether it's from their employer, or whether they raise money and get people to do it, or whatever... That works. So I'm wondering, have you ever asked an employer to work full-time on Mocha, or have you thought about finding ways just to sponsor it yourself?
 

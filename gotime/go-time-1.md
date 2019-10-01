@@ -20,7 +20,7 @@ I'm also a co-founding member of GoBridge, and kind of like the same reason you 
 
 **Erik St. Martin:** That's excellent. I think that's kind of a shared love of all of us here on this show, just kind of advocating community and advocating people get into this language and technology we love. Hopefully with our different backgrounds and experiences we can bring some insights to the listeners, and also introduce them into things that they might not already be familiar with.
 
-With that being said, one of the segments that will be a common thread is we'll talk about some news, events and any interesting articles that have come across our e-mails and social media and everywhere we find the things, along with having some special guests. We've actually got quite a few really interesting guests lined up for the next couple of episodes, so definitely stay tuned for those.
+With that being said, one of the segments that will be a common thread is we'll talk about some news, events and any interesting articles that have come across our emails and social media and everywhere we find the things, along with having some special guests. We've actually got quite a few really interesting guests lined up for the next couple of episodes, so definitely stay tuned for those.
 
 If you haven't already, please subscribe. The easiest way to do that is to go to GoTime.fm, and you can also subscribe to the weekly newsletter there. We also would like to advocate for everybody to hit us up on Twitter @GoTimeFM with any questions you'd like to hear us answer, questions for guests we have coming up, questions in general.
 
@@ -28,7 +28,7 @@ If you haven't already, please subscribe. The easiest way to do that is to go to
 
 **Carlisia Pinto:** Suggestions for guests to be interviewed...
 
-**Erik St. Martin:** Yes, definitely. We'd love to hear from everybody, people we should invite on the show. There's so many great people in the community that I think that we can get on here. With that being said, let's open this up to some news. Does anybody have anything interesting that's come across their e-mail and social media this week?
+**Erik St. Martin:** Yes, definitely. We'd love to hear from everybody, people we should invite on the show. There's so many great people in the community that I think that we can get on here. With that being said, let's open this up to some news. Does anybody have anything interesting that's come across their email and social media this week?
 
 **Brian Ketelsen:** I do. I think the biggest new thing that came out was Go 1.6.1 and 1.5.4 were released. Small security issues on Windows and crypto libraries, but everybody should update. There's really no reason to be using 1.4 anymore, so go update to 1.5.4 or 1.6.1 now. That's a big one.
 
@@ -110,11 +110,11 @@ So the article is really well worth a read if you want to get familiar with what
 
 **Brian Ketelsen:** Yeah, serving up Bower assets.
 
-**Erik St. Martin:** Yes, that's awesome. It's great that they released that information, too. You wonder how the Javascript community sees that, that they didn't kind of \[unintelligible 00:14:19.03\] right?
+**Erik St. Martin:** Yes, that's awesome. It's great that they released that information, too. You wonder how the Javascript community sees that, that they didn't kind of dogfood right?
 
 **Brian Ketelsen:** Well, I hope they're all as pragmatic and anti-dogma as we are. You use the right tool for the job, and in that case they proved to themselves that Go was the right tool for that job. There are places where I wouldn't want to yet use Go. I can think of a few places that Go is difficult to use, like mobile development. You gotta use the right tool.
 
-**Carlisia Pinto:** I think that has a lot to do with how we are now seeing this huge trends towards moving to Go, because people might say "Oh, I wanna have this feature, I wanna have that feature. Let's implement this feature so I can do X, which I cannot do unless I have this feature, or it would just be so annoying", but that's not what Go is all about. If you dig a little deeper, some of the past releases of Go, they had improvements, but there were no syntax changes, and like \[unintelligible 00:15:18.13\] came out and said "That's a feature, the fact that the syntax didn't change. That is a feature in itself", and that says everything about the philosophy of Go. It's not to be used for everything, it's to be used for specific things. But those specific things, it does them really well.
+**Carlisia Pinto:** I think that has a lot to do with how we are now seeing this huge trends towards moving to Go, because people might say "Oh, I wanna have this feature, I wanna have that feature. Let's implement this feature so I can do X, which I cannot do unless I have this feature, or it would just be so annoying", but that's not what Go is all about. If you dig a little deeper, some of the past releases of Go, they had improvements, but there were no syntax changes, and like Frances came out and said "That's a feature, the fact that the syntax didn't change. That is a feature in itself", and that says everything about the philosophy of Go. It's not to be used for everything, it's to be used for specific things. But those specific things, it does them really well.
 
 **Erik St. Martin:** I think we covet the things we know though, right? We naturally want to grasp to the things that we're familiar with, and especially when you're in kind of like a high-stakes environment where you're just trying to get stuff done, so you reach for some tool or technique that you've done a million times before and it's not there, it feels painful. I was around watching Brian adopt Vim, and it just seemed like this completely unnatural thing for him. \[Brian laughs\] He wanted to understand; he knows people are productive with this and they love it, but every time it just felt unnatural, and sometimes you just kind of have to put yourself in the frame of mind of somebody in that, and just kind of accept it for what it is, and then you kind of start to see the love that people have for it.
 

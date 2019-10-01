@@ -1,4 +1,4 @@
-**Adam Stacoviak:** What role do you play in the NodeJS Foundation?
+**Adam Stacoviak:** \[00:01:25\] What role do you play in the NodeJS Foundation?
 
 **Tracy Hinds:** I am the education community manager, but my hats are many.
 
@@ -296,7 +296,7 @@ Having folks that are on the ground like that gives you a less myopic perspectiv
 
 **Adam Stacoviak:** Yeah, he had some troubles with his travels and he had to flip his time clock, basically. So I sympathize with that, having to be jet-lagged.
 
-**Tracy Hinds:** Yeah. So those sorts of visits were really awesome, because it also opened us. Mikeal Rogers and I, we try and meet new people all the time, we have tons of e-mails and DMs and conversations on GitHub, and it's so not enough; those networks are still walled, in some ways.
+**Tracy Hinds:** Yeah. So those sorts of visits were really awesome, because it also opened us. Mikeal Rogers and I, we try and meet new people all the time, we have tons of emails and DMs and conversations on GitHub, and it's so not enough; those networks are still walled, in some ways.
 
 Beijing was an especially powerful visit for finding out how was behind the Great Firewall. We knew we were gonna run into some surprises, we just didn't know how rich that community would be, and we have no connection to it. So that's... They're running their own NPM.
 
@@ -376,7 +376,7 @@ Once we have that data, we'll have more to inform us on what we should be doing 
 
 **Adam Stacoviak:** Yeah, Mikeal mentioned certifications when I talked to him. He didn't go into detail, though.
 
-**Tracy Hinds:** We're actually meeting this weekend to hash out the domains and the subtopics that the exam will cover. The aim is to be a low-cost certification exam for someone who's been writing Node professionally for a year, full-time. We're gonna be bike-shedding that and figuring out what that means. The test will be in browser and third-party proctored, and we're aiming for it to be in English as well as Chinese.
+**Tracy Hinds:** We're actually meeting this weekend to hash out the domains and the subtopics that the exam will cover. The aim is to be a low-cost certification exam for someone who's been writing Node professionally for a year, full-time. We're gonna be bikeshedding that and figuring out what that means. The test will be in browser and third-party proctored, and we're aiming for it to be in English as well as Chinese.
 
 **Adam Stacoviak:** And not using Facebook Login, because of the Great Firewall.
 

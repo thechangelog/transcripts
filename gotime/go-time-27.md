@@ -124,7 +124,7 @@ There's things like that, but at some point we're gonna reach diminishing return
 
 **Keith Randall:** Right.
 
-**Erik St. Martin:** Every time I have to compile a C or C++ app I wanna e-mail all of you and thank you. \[laughter\] You forget, and then there's one day you have to work on something and build it and you're like, "Oh, this is so bad."
+**Erik St. Martin:** Every time I have to compile a C or C++ app I wanna email all of you and thank you. \[laughter\] You forget, and then there's one day you have to work on something and build it and you're like, "Oh, this is so bad."
 
 **Keith Randall:** Yeah, I had to download LLVM at one point and build it and it took like two hours. Like, how is this possible? I mean, I'm sure there's some incremental thing which you could do better if you're a developer, but from scratch it took like two hours to build.
 

@@ -74,7 +74,7 @@ It is very much the same at Honeycomb. You've got a tiny little statically linke
 
 **Charity Majors:** Yeah, if you have enough to justify schedulers, yes. But almost nobody does, and it's self-inflicted damage when they try.
 
-**Erik St. Martin:** I was talking with a group of people at KubeCon this year, which is the Kubernetes conference, and somebody was asking, "When should they scale to containers or orchestration platforms", and my first pass at that was "When you can't name all fo your machines by hostname." Saying like, "Chicago Web 1-5 doesn't count", but if you couldn't reasonably name all of your machines, then it's worth considering. If you've got three hosts, you're probably not gaining much.
+**Erik St. Martin:** I was talking with a group of people at KubeCon this year, which is the Kubernetes conference, and somebody was asking, "When should they scale to containers or orchestration platforms", and my first pass at that was "When you can't name all of your machines by hostname." Saying like, "Chicago Web 1-5 doesn't count", but if you couldn't reasonably name all of your machines, then it's worth considering. If you've got three hosts, you're probably not gaining much.
 
 **Charity Majors:** Yeah.
 
@@ -340,7 +340,7 @@ I remember one of the things that frustrated me about being a corporate develope
 
 **Carlisia Pinto:** Yeah, let's do it.
 
-**Erik St. Martin:** So I came across one that was actually really interesting called Pixterm, which allows you to do images in just an ANSI terminal, which is really cool. And it's written in Go. The stuff people can do in a terminal is insane. I fight just to get my text to line up where it's supposed to when I'm trying to do a text user interface. And people are like, "Oh yeah, I'm gonna do graphics in my terminal."
+**Erik St. Martin:** So I came across one that was actually really interesting called [Pixterm](https://github.com/eliukblau/pixterm), which allows you to do images in just an ANSI terminal, which is really cool. And it's written in Go. The stuff people can do in a terminal is insane. I fight just to get my text to line up where it's supposed to when I'm trying to do a text user interface. And people are like, "Oh yeah, I'm gonna do graphics in my terminal."
 
 **Brian Ketelsen:** Oh, that's awesome. I'm just looking at their readme, that's pretty killer. I can't even get Vim to look good, and they're making all these pretty pictures in the terminal.
 
@@ -400,9 +400,9 @@ I remember one of the things that frustrated me about being a corporate develope
 
 **Charity Majors:** Oh, yeah... \[laughs\]
 
-**Erik St. Martin:** The other thing I actually came across too - one of them I think is a month or two old, and it's right up the alley of our discussion about Honeycomb... On Backtrace's blog, if you wanna know how a debugger actually works, how GBP works internally - really cool two-part series. One where it talks about how a debugger works and how it breaks down the DWARF information inside the binary, and the other one how it does the mapping to go, and be able to map the goroutines, and stuff. We'll link to those in the show notes... Those are really cool. I ran across the second part, I forgot I had read the first part.
+**Erik St. Martin:** The other thing I actually came across too - one of them I think is a month or two old, and it's right up the alley of our discussion about Honeycomb... On Backtrace's blog, if you wanna know how a debugger actually works, how GDB works internally - really cool two-part series. One where it talks about how a debugger works and how it breaks down the DWARF information inside the binary, and the other one how it does the mapping to Go, and be able to map the goroutines, and stuff. We'll link to those in the show notes... Those are really cool. I ran across the second part, I forgot I had read the first part.
 
-And then another cool thing that was released today, I saw Ron Evans of the Hybrid Group mention that a new Gobot version...
+And then another cool thing that was released today, I saw Ron Evans of the Hybrid Group mention that a new [Gobot](https://gobot.io/) version...
 
 **Brian Ketelsen:** Oh yeah, Gobot 1.2. Always gotta shout out to the Gobot gang. They work so hard so that we can have really cool Go projects on our tiny little hardware. It makes me happy, it powers my barbecue.
 
@@ -414,7 +414,7 @@ And then another cool thing that was released today, I saw Ron Evans of the Hybr
 
 **Charity Majors:** Oh, wow...
 
-**Erik St. Martin:** Yeah, so they have stuff to work with paired drones, they have stuff that just talks I²C... I think there's SPI in there too, but yeah... It's ridiculously cool if you wanna play with hardware and not have to write C++ or C.
+**Erik St. Martin:** Yeah, so they have stuff to work with the Parrot drones, they have stuff that just talks I²C... I think there's SPI in there too, but yeah... It's ridiculously cool if you wanna play with hardware and not have to write C++ or C.
 
 **Charity Majors:** Great.
 
@@ -494,7 +494,7 @@ What that means to the community is that people who are running communities, mee
 
 **Carlisia Pinto:** Francesc Campoy has a great video. I think he did it at a Meetup; it's the recording of his talk that he did, and he goes over all the new things in 1.8, and it's pretty awesome. I learned a few things; his was a lot more clear.
 
-**Erik St. Martin:** Yeah, and Cory LaNou just linked in the GoTimeFM channel... Usually for all of the releases, Dave Cheney puts together a slide deck introducing the changes in the version, in this particular case 1.8, so that people can host their own release parties and use that. Huge shoutout to Dave for doing that; he invested a ton of time in doing that stuff. It's too late now, because by the time this episode airs all the parties will have happened, but if you wanna run one late like Brian and I, you can use this slide deck. Or if you just wanna see what was part of it, that slide deck is available online, too.
+**Erik St. Martin:** Yeah, and Cory LaNou just linked in the GoTimeFM channel... Usually for all of the releases, [Dave Cheney](https://twitter.com/davecheney) puts together a slide deck introducing the changes in the version, in this particular case 1.8, so that people can host their own release parties and use that. Huge shoutout to Dave for doing that; he invested a ton of time in doing that stuff. It's too late now, because by the time this episode airs all the parties will have happened, but if you wanna run one late like Brian and I, you can use this slide deck. Or if you just wanna see what was part of it, that slide deck is available online, too.
 
 **Brian Ketelsen:** Yeah, huge props to Dave for putting that together.
 
@@ -508,7 +508,7 @@ What that means to the community is that people who are running communities, mee
 
 **Carlisia Pinto:** I do, too. Go, Brian! \[laughter\]
 
-**Brian Ketelsen:** \[00:47:50.21\] My \#FreeSoftwareFriday shoutout is to the Eclipse Che project. If you haven't yet seen it, it's a really awesome web-powered IDE with terminal; all of that sounds kind of boring (who wants to write their stuff in the cloud?) but from my perspective, teaching Go, it allows me to use a single Docker container to give each of my students a fully operational Go web IDE and terminal that's self-contained and won't damage my servers, but allows them to have a complete Go environment with the source code for the class in it. One Docker container + Eclipse Che and everybody gets to write Go code without having to worry about installing things, so I really love Eclipse Che today. It makes me happy. Thanks, Eclipse.
+**Brian Ketelsen:** \[00:47:50.21\] My \#FreeSoftwareFriday shoutout is to the [Eclipse Che](https://www.eclipse.org/che/) project. If you haven't yet seen it, it's a really awesome web-powered IDE with terminal; all of that sounds kind of boring (who wants to write their stuff in the cloud?) but from my perspective, teaching Go, it allows me to use a single Docker container to give each of my students a fully operational Go web IDE and terminal that's self-contained and won't damage my servers, but allows them to have a complete Go environment with the source code for the class in it. One Docker container + Eclipse Che and everybody gets to write Go code without having to worry about installing things, so I really love Eclipse Che today. It makes me happy. Thanks, Eclipse.
 
 **Erik St. Martin:** Challenge accepted. Now I kind of wanna find a vulnerability in Eclipse Che. \[laughter\] Just because...
 
@@ -556,7 +556,7 @@ Anything that he's written... His giant library stuff over at the Facebook Go - 
 
 **Brian Ketelsen:** Nice.
 
-**Erik St. Martin:** \[00:51:56.26\] I'm trying to remember what library it was that came out of Facebook Go that we were using all the time. I know there was Grace, which was for the graceful restarting of the service, but I feel like there was another library \[unintelligible 00:52:10.16\]
+**Erik St. Martin:** \[00:51:56.26\] I'm trying to remember what library it was that came out of Facebook Go that we were using all the time. I know there was Grace, which was for the graceful restarting of the service, but I feel like there was another library I used to use.
 
 **Brian Ketelsen:** There was, but I swear it was from Parse, though... It wasn't from Facebook.
 
@@ -568,7 +568,7 @@ Anything that he's written... His giant library stuff over at the Facebook Go - 
 
 **Brian Ketelsen:** No, I would be violating my termination agreement. That would be bad.
 
-**Erik St. Martin:** My \#FreeSoftwareFriday for today is by a company called JetStack. It's called Kube-Lego. If you're familiar with Kubernetes, there's a concept of what they call an Ingress controller, which basically controls outbound traffic that's outside of the cluster inward. Basically, it creates a hook where it can automatically get TLS certifications through Let's Encrypt for you. You basically just start up your service and tell it that it's going to be exposed, and that "Yes, please give me a TLS certificate" and it does all the magic.
+**Erik St. Martin:** My \#FreeSoftwareFriday for today is by a company called JetStack. It's called [Kube-Lego](https://github.com/jetstack/kube-lego). If you're familiar with Kubernetes, there's a concept of what they call an Ingress controller, which basically controls outbound traffic that's outside of the cluster inward. Basically, it creates a hook where it can automatically get TLS certifications through Let's Encrypt for you. You basically just start up your service and tell it that it's going to be exposed, and that "Yes, please give me a TLS certificate" and it does all the magic.
 
 **Brian Ketelsen:** I love the "Yes, please give me a TLS certificate." The days of buying certificates are just so old.
 

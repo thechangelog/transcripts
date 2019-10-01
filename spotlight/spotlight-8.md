@@ -1,4 +1,4 @@
-**Jerod Santo:** Welcome to our first Spotlight series recorded at OSCON London 2016. I'm Jerod Santo, managing editor of Changelog. Sid Sijbrandij, the CEO of GitLab, was on the Changelog recently, discussing GitLab's Master Plan and a new style of development they call "conversational development."
+**Jerod Santo:** \[00:00:31\] Welcome to our first Spotlight series recorded at OSCON London 2016. I'm Jerod Santo, managing editor of Changelog. Sid Sijbrandij, the CEO of GitLab, was on the Changelog recently, discussing GitLab's Master Plan and a new style of development they call "conversational development."
 
 I saw down with Sid at OSCON to see how they're doing executing that plan, and we also discussed the recent controversy around GitLab and the removal and subsequent reposting of security research data. I think you'll enjoy hearing how Sid turns everything into an opportunity as much as I did. Take a listen.
 
@@ -66,7 +66,7 @@ But if you'd go there and you leave your credit card details, those details will
 
 We looked into it and we said, "Okay, what way to have here? The interest of those owners, that they get time to figure out what's going on and not have reputational damage? \[unintelligible 00:09:51.05\] so it will be easy for another person to add additional malware... Or the interest of the users, that should be protected?" We figured the interest of the user weighed heavier.
 
-It's not so likely that everyone will add this list of servers to \[unintelligible 00:10:08.15\] but by publishing it, they're putting more pressure on these people to fix their servers, and that's what started happening. 650 servers were fixed since publishing the files with names, so there was an acceleration in people fixing their stuff.
+It's not so likely that everyone will add this list of servers to their etc hosts file or something... but by publishing it, they're putting more pressure on these people to fix their servers, and that's what started happening. 650 servers were fixed since publishing the files with names, so there was an acceleration in people fixing their stuff.
 
 So we reversed the decision... The first thing, I give Willem a call, apologize that we took his list down. He was kind enough to walk over somewhere where he had internet access and tweeted about it, and we did a small blog post, and that was well received. It turned into number one on Hacker News, and someone in the comments said, "I now have to apply to GitLab. They're doing such a great thing." \[laughter\]
 

@@ -50,7 +50,7 @@ You could have special ways of showing each type of sites; maybe for a Reddit pa
 
 **Nick Nisi:** To build on that, kind of, and to build on yours, Suz, maybe a browser extension -- when I think of a browser extension, I think of an ad blocker, because that's the main one that I install... So maybe an ad blocker that has to put you into a virtual reality -- maybe an augmented reality world where you have to destroy the ads in the browser yourself... \[laughter\] So everytime you go and you wanna just look at a news article, you have to first destroy all of the ads in there, but you have to do it before the lights in your house change colors, in different ways...
 
-**Suz Hinton:** I thought you were going into more of a capture -- you know how with \[unintelligible 00:07:03.23\]
+**Suz Hinton:** I thought you were going into more of a CAPTCHA -- you know how with google CAPTCHAs...
 
 **Nick Nisi:** That's even better!
 
@@ -58,11 +58,11 @@ You could have special ways of showing each type of sites; maybe for a Reddit pa
 
 **Nick Nisi:** That's so much better!
 
-**Suz Hinton:** \[unintelligible 00:07:11.24\]
+**Suz Hinton:** ...in order to pass the Turing test.
 
 **Kevin Ball:** And as you do this, your lights are getting dimmer, and dimmer... So until you get it, it's getting darker and darker around you...
 
-**Suz Hinton:** I've done something like that before, where I had like a chatbot, and the more you interacted with it, it would actually start turning the lights off in your room, and it would also have \[unintelligible 00:07:29.24\] and things like that... So I just wanna do an extension of that, really. I like your idea the best, I think...
+**Suz Hinton:** I've done something like that before, where I had like a chatbot, and the more you interacted with it, it would actually start turning the lights off in your room, and it would also have like props lighting up and things like that... So I just wanna do an extension of that, really. I like your idea the best, I think...
 
 **Kevin Ball:** Alright, next combination. Anyone wanna throw out something new?
 
@@ -120,7 +120,7 @@ You could have special ways of showing each type of sites; maybe for a Reddit pa
 
 **Kevin Ball:** Mocha and D3. \[laughter\] That's pretty fun. Who wants to tackle that?
 
-**Suz Hinton:** I can try... I think it would be cool if you run an Npm test on your own library, and then that triggers an Npm test on all of your dependencies, and then on its dependencies' dependencies, and then you can actually see how many tests \[unintelligible 00:10:01.12\] I think that would look really cool... To see overall just how much stuff is actually covered.
+**Suz Hinton:** I can try... I think it would be cool if you run an Npm test on your own library, and then that triggers an Npm test on all of your dependencies, and then on its dependencies' dependencies, and then you can actually see how many tests and stuff in D3, I think that would look really cool... To see overall just how much stuff is actually covered.
 
 **Feross Aboukhadijeh:** Is the idea behind that like if you're about to publish a new version of a package, you can see all the packages that depend on yours, you can run their tests to see if it's gonna break them, and then if so, you have to make it a major version? Is that the idea?
 
@@ -368,7 +368,7 @@ So getting that messaging correct when they actually go to find information is k
 
 **Kevin Ball:** One other thing is to be very upfront about things like code of conduct... If you're bringing speakers in, be upfront about how much - and ideally all - that you can cover for them... Because a lot of times, folks coming from less traditional backgrounds can't afford to fly out to your conference to speak there, and if you don't say upfront "Hey, we pay travel and board for speakers", they may never apply, because they don't know if they can do it. And it's a pretty big barrier to reach out and say "Hey, do you guys fund this or not?"
 
-\[00:44:07.04\] So being upfront about your code of conduct, about the fact that you actually care about diversity, and that you will provide travel, or a room, or whatever it is that you can actually afford... And realistically, not every conference can afford to do extensive childcare, as much as I really wish they would, because that is \[unintelligible 00:44:22.08\], but be upfront about what you can do and what you are doing, so that folks don't have to ask and they don't have to second-guess, like "Could I actually do this if they accepted me?"
+\[00:44:07.04\] So being upfront about your code of conduct, about the fact that you actually care about diversity, and that you will provide travel, or a room, or whatever it is that you can actually afford... And realistically, not every conference can afford to do extensive childcare, as much as I really wish they would, because that is diversity area, but be upfront about what you can do and what you are doing, so that folks don't have to ask and they don't have to second-guess, like "Could I actually do this if they accepted me?"
 
 **Suz Hinton:** I think overcoming your biases in that way, to know to do that stuff, is probably the most difficult part... So just asking yourself constant questions, like "Who are all the people that aren't like me? What are the different scenarios...?" Think about all of your friends, think about people who you've met in your life and all of their different circumstances, and try to always question the fact that your own ideal is the norm for you, but that's only for you individually... People come from all walks of life, and they're just not gonna be anything like you, at all.
 

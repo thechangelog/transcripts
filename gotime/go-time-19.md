@@ -280,7 +280,7 @@ And I finally decided that I was gonna give up. I was not gonna learn anything. 
 
 **Carlisia Pinto:** We planned it. It was all planned. Everything we do is planned.
 
-**Erik St. Martin:** We all knew the way the topic was gonna flow. So I think we've got about 20 minutes left, and I wanted to get to a technology you had mentioned in the e-mail, Katrina, which is the GraphQL API. That's been something that has been on my radar for probably a year or two, the whole notion of GraphQL. I'd love to talk about that more.
+**Erik St. Martin:** We all knew the way the topic was gonna flow. So I think we've got about 20 minutes left, and I wanted to get to a technology you had mentioned in the email, Katrina, which is the GraphQL API. That's been something that has been on my radar for probably a year or two, the whole notion of GraphQL. I'd love to talk about that more.
 
 **Katrina Owen:** Let's do it. Should I start?
 

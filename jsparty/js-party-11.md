@@ -82,7 +82,7 @@ The web doesn't give any damn about what extension you use. You could use .php f
 
 **Alex Sexton:** Yeah, yeah. I think it's a best practice, for sure... Just to show your mastery of your knowledge of the non-importance of extensions on the web. Mike, I asked you a question and then I answered most of the question I asked you, but is there any kind of movement in the standards space here that you've seen, or has it just mostly been like "This came out"?
 
-**Mike Taylor:** Yeah, I mean... I think there's still problems that need to be resolved. I don't follow -- a lot of this work was done in conjunction with TC39, so they're the standards body that works on ECMAScript the language, which is what we know as Javascript. But the actual module loading stuff happened in the HTML spec in the WHATWG, and that's just like... If you ever run out of e-mail to read, you should subscribe to that GitHub repo, because it's -- it's impressive that individuals are able to keep up with that. I'm kind of just like... I like to collect e-mails for fun, but I haven't followed it too closely.
+**Mike Taylor:** Yeah, I mean... I think there's still problems that need to be resolved. I don't follow -- a lot of this work was done in conjunction with TC39, so they're the standards body that works on ECMAScript the language, which is what we know as Javascript. But the actual module loading stuff happened in the HTML spec in the WHATWG, and that's just like... If you ever run out of email to read, you should subscribe to that GitHub repo, because it's -- it's impressive that individuals are able to keep up with that. I'm kind of just like... I like to collect emails for fun, but I haven't followed it too closely.
 
 Alex, you were talking about some of the problems around backwards compatibility for the Node ecosystem, and you're right - we don't have those on the web, in browsers, because like any "module system" we've had, if you used a module loader like RequireJS or the other one... I think you wrote a couple maybe, Alex...
 
@@ -160,7 +160,7 @@ At the same time, that kind of stuff kind of ruffles feathers. People are not en
 
 To circle back, you were hinting at this... There's an expression, "Pave the cow paths." I'm not sure if everyone's ever heard that with respect to standards or just like path-paving in general - I don't know if that's a profession.
 
-**Alex Sexton:** I always assumed that Ian Hickson the editor of the HTML5 specs default response, like his autoresponder on his e-mail is just "We're actually just standardizing the way things have always been, not designing a new thing." That seemed like his answer to a lot of things, which is fair, but often frustrating.
+**Alex Sexton:** I always assumed that Ian Hickson the editor of the HTML5 specs default response, like his autoresponder on his email is just "We're actually just standardizing the way things have always been, not designing a new thing." That seemed like his answer to a lot of things, which is fair, but often frustrating.
 
 **Mike Taylor:** Yeah. I mean, that's why drag and drop is so terrible, for example, right? It's like, "Well, IE3 did this, and then Safari 2 copied it, so we might as well make everyone else do it", and then nobody uses it.
 
@@ -212,7 +212,7 @@ So it turns out IE invented this thing, and Safari, back when it was actually KH
 
 \[00:24:04.20\] So then Safari has it, people start probably copying and pasting code from Stack Overflow, and it just keeps on working because you had no idea this was even a thing, and it works in Chrome and it works in Edge, because they forked from IE.
 
-So this is one of these things where you're like, "Oh, we should just spec this and call it -- it's part of the web platform, it's ugly, it's historical..." Yeah, so this is something -- I'm working with \[unintelligible 00:24:35.08\] who is a web standards wizard; he works on HTML and DOM, and probably 50 other things... There's an open pull request, and then that'll just be part of the web.
+So this is one of these things where you're like, "Oh, we should just spec this and call it -- it's part of the web platform, it's ugly, it's historical..." Yeah, so this is something -- I'm working with [Anne van Kesteren](https://en.wikipedia.org/wiki/Anne_van_Kesteren) who is a web standards wizard; he works on HTML and DOM, and probably 50 other things... There's an open pull request, and then that'll just be part of the web.
 
 **Wes Bos:** You're saying the event is just not standardized?
 
@@ -246,7 +246,7 @@ I've been at it for probably 10-15 years, but I've probably built some sites eve
 
 **Alex Sexton:** So you're primarily self-taught?
 
-**Wes Bos:** \[00:28:08.18\] Yeah. Well, I would say entirely self-taught. I went to school for what's called "Business technology management", so I have a business degree that's focused on running IT. Generally, they sort of like -- you go to work at banks and stuff, and run the IT infrastructure, and you work on projects and stuff like that for these big corporations. But we were taught a lot about swimlane diagrams and sending e-mails and the business side of things, but the actual coding - there was no actual coding in the entire course. It's more like that obnoxious manager that doesn't know what they're talking about. But I was coding all through university, so I kind of have the best of both worlds now, where I can understand, I can speak to people, I can write e-mails, and I know the business side of things, but then I can also sling the code.
+**Wes Bos:** \[00:28:08.18\] Yeah. Well, I would say entirely self-taught. I went to school for what's called "Business technology management", so I have a business degree that's focused on running IT. Generally, they sort of like -- you go to work at banks and stuff, and run the IT infrastructure, and you work on projects and stuff like that for these big corporations. But we were taught a lot about swimlane diagrams and sending emails and the business side of things, but the actual coding - there was no actual coding in the entire course. It's more like that obnoxious manager that doesn't know what they're talking about. But I was coding all through university, so I kind of have the best of both worlds now, where I can understand, I can speak to people, I can write emails, and I know the business side of things, but then I can also sling the code.
 
 **Alex Sexton:** It's very interesting, because your primary job is a teacher, whether it's via the tutorials or via HackerYou school.
 
@@ -286,7 +286,7 @@ Later, when I was in college, I was 22 years old or something, I was at my buddy
 
 **Alex Sexton:** \[00:32:08.29\] Exactly.
 
-**Mike Taylor:** So later in grad school at NYU I needed a way to earn money to pay rent during the summer months; I had a fellowship which paid me $3/day to live in New York City. We were mostly covered for the academic year, and I ended up with some internships and some freelance stuff... And just kind of really self-taught, and got interested in web standards and specs and stuff like that, and just kind of read a lot e-mail in my free time.
+**Mike Taylor:** So later in grad school at NYU I needed a way to earn money to pay rent during the summer months; I had a fellowship which paid me $3/day to live in New York City. We were mostly covered for the academic year, and I ended up with some internships and some freelance stuff... And just kind of really self-taught, and got interested in web standards and specs and stuff like that, and just kind of read a lot email in my free time.
 
 Honestly, Chris Coyier (css-tricks.com) taught me CSS. That was like my go-to resource. SitePen had some amazing books and tools, and then as I got more interested in it, I got to audit a few classes at NYU. I took a Ruby on Rails class, and had no idea what I was doing.
 
@@ -478,7 +478,7 @@ Mike Taylor is one of my favorite "Kids, get off my lawn" tweeter, so if you don
 
 **Mike Taylor:** Nice!
 
-**Wes Bos:** No, you can't, because you can't search by emoji on Twitter. I get e-mails all the time; people are like "Where's the archive of your hot tips?" and I don't have one. You can use the Twitter stream API to search by emoji, but you cannot do a back search by emoji.
+**Wes Bos:** No, you can't, because you can't search by emoji on Twitter. I get emails all the time; people are like "Where's the archive of your hot tips?" and I don't have one. You can use the Twitter stream API to search by emoji, but you cannot do a back search by emoji.
 
 **Alex Sexton:** That's rough.
 

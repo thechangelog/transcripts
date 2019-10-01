@@ -357,11 +357,11 @@ One of the things we've developed is -- we call them performance portability fra
 
 **Adam Stacoviak:** Okay.
 
-**Todd Gamblin:** Basically, these things look like servers, like you'd be used to. You have a desktop machine, you SSH into the computer, and then there's a resource manager running on it. Slurm is the open source resource manager that we use; it's developed here, and now it's got a company, SchedMD around it. And the users would say, you know, "spatch command line", and then they would take that command line, put in the queue, and then eventually run it on however many nodes they ask for. Or "srun" if they wanna do it interactively and wait for some nodes to be available. The wait times can get pretty big if the queues are deep.
+**Todd Gamblin:** Basically, these things look like servers, like you'd be used to. You have a desktop machine, you SSH into the computer, and then there's a resource manager running on it. Slurm is the open source resource manager that we use; it's developed here, and now it's got a company, SchedMD around it. And the users would say, you know, "sbatch command line", and then they would take that command line, put in the queue, and then eventually run it on however many nodes they ask for. Or "srun" if they wanna do it interactively and wait for some nodes to be available. The wait times can get pretty big if the queues are deep.
 
 **Adam Stacoviak:** So you get assigned hours, but you don't get assigned like 9 in the morning to 10 in the morning... You get just hours and you're in a queue; whenever your queue comes up, you execute.
 
-**Todd Gamblin:** Right. You get a bank that comes with your project; we call it a bank - that's how many total CPU hours you have. If you submit a job, when you submit it you have to say "Here's how long I expect it to run for" and the scheduler will kill it after that much time. Then you sumbit the number of nodes you want and then it runs for that long; the length of time it runs, times the number of nodes that you use, times the number of CPUs per node is how much they subtract from your bank at the end of that. So if you get a few multi-million CPU hour allocation, you can run that out pretty quickly if you run giant jobs that run for a long time.
+**Todd Gamblin:** Right. You get a bank that comes with your project; we call it a bank - that's how many total CPU hours you have. If you submit a job, when you submit it you have to say "Here's how long I expect it to run for" and the scheduler will kill it after that much time. Then you submit the number of nodes you want and then it runs for that long; the length of time it runs, times the number of nodes that you use, times the number of CPUs per node is how much they subtract from your bank at the end of that. So if you get a few multi-million CPU hour allocation, you can run that out pretty quickly if you run giant jobs that run for a long time.
 
 **Jerod Santo:** So Todd, I first met you at the Sustain event last spring (almost summertime, I suppose) at the GitHub headquarters; you were very involved in that, and in fact that's when you hopped into our Slack for the first time and helped bring some people from the lab to that event... So you have interest in and passion around sustaining open source, because that's why you were there and involved, and we appreciated your help... But tell us and the audience the intersection of where open source comes in with the work you're doing with the supercomputers in the lab work.
 
@@ -427,7 +427,7 @@ So I guess I'd say there are a lot of different ways to get time on the machines
 
 **Jerod Santo:** Sharks with clicking laser beams on their heads... I told you our justification already.
 
-**Todd Gamblin:** \[unintelligible 01:02:00.26\] 
+**Todd Gamblin:** Ill-tempered sea bass.
 
 **Adam Stacoviak:** Oh, boy... \[laughter\]
 

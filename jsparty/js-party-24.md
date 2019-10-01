@@ -36,7 +36,7 @@ I think most of you were doing HTML on this panel back when image maps were real
 
 **Nick Nisi:** That's really funny that you say that. I was thinking the same thing, Feross, and I went to check the historic records of the Space Jam website to see if that's what they were using, if they were using the map... \[laughter\] But they are not. They are using a table, and putting each image into cells.
 
-**Suz Hinton:** Interesting! Yeah, I should have researched that, but I'm not actually sure when it did come about, and I remember those days of creating like an entire layout and then using slicing apps in Photoshop, and things like that... But I feel like instead of image maps now we have -- we still have table layouts a lot of the time in e-mails, and so each little region is like a clickable cell, I guess... So I guess we've kind of seen that approach live on in a lot of HTML e-mails, even if they're not using map anymore.
+**Suz Hinton:** Interesting! Yeah, I should have researched that, but I'm not actually sure when it did come about, and I remember those days of creating like an entire layout and then using slicing apps in Photoshop, and things like that... But I feel like instead of image maps now we have -- we still have table layouts a lot of the time in emails, and so each little region is like a clickable cell, I guess... So I guess we've kind of seen that approach live on in a lot of HTML emails, even if they're not using map anymore.
 
 **Alex Sexton:** The map was first introduced in the HTML 4.0.1 specification, so I think tables pre-date map by a good chunk.
 
@@ -101,11 +101,12 @@ And the last one is just a shout-out to &lt;iframe&gt;, because there's nothing 
 
 **Nick Nisi:** Probably, but I was oblivious.
 
-**Alex Sexton:** Being part of \[unintelligible 00:11:14.06\] was a big part of my high school experience.
+**Alex Sexton:** Being part of botnets was a big part of my high school experience.
 
 **Feross Aboukhadijeh:** Actually, I'm wondering, what's the difference between &lt;applet&gt; and &lt;object&gt; and &lt;embed&gt;? Because I think all those are similar, right? They all let you embed a flash or a Java thing...
 
-**Alex Sexton:** Yeah, there were different rules around the access that things initially had. I think initially for the Java stuff you'd have to have the little coffee logo, the Java logo that came up \[unintelligible 00:11:45.28\] but I think applets had more of like first-party access to things, which was scary... But I think also it's very specific to Java, and so &lt;embed&gt; and &lt;object&gt; became the IE and standards version of &lt;applet&gt; for arbitrary third-party things, rather than just Java.
+**Alex Sexton:** Yeah, there were different rules around the access that things initially had. I think initially for the Java stuff you'd have to have the little coffee logo, the Java logo that came up and spun, but I think applets had more of like first-party access to things, which was scary... But I think also it's very specific to Java, and so &lt;embed&gt; and &lt;object&gt; became the IE and standards version of &lt;applet&gt; for arbitrary third-party things, rather than just Java.
+
 
 **Nick Nisi:** \[00:12:08.19\] Also my first big experience with trying to create (I guess) something more than a web page was with &lt;applet&gt;. In high school, my school blocked AOL Instant Messenger for a few days, and in that time I was reading and learning Java, reading a book on Java, and there was a chat demo in there, and I was trying to make that work as an applet. I never really got it to work, because I didn't know anything about what I was doing, but it was fun to play with that.
 
@@ -259,7 +260,7 @@ I was hoping maybe we could quickly go through just some of the APIs and have y'
 
 **Suz Hinton:** Yeah, I feel like you need no permission for that.
 
-**Feross Aboukhadijeh:** Yeah, that's correct, yeah. So actually, ads used to vibrate people's devices. I think \[unintelligible 00:33:12.02\] top-level domain, but... Yeah, it's crazy.
+**Feross Aboukhadijeh:** Yeah, that's correct, yeah. So actually, ads used to vibrate people's devices. I think they now restrict it to the top-level domain, but... Yeah, it's crazy.
 
 Okay, next one - say you want to focus a windows. This is gonna be like a pop-up window that you've popped up in the past and you wanna focus it, bring it to the front.
 
@@ -353,7 +354,7 @@ Okay, what about triggering a file download?
 
 **Feross Aboukhadijeh:** It's just surprising that you can combine all these things into one event handler. So the one click can do all the things.
 
-**Alex Sexton:** I'll say kind of the meta-benefit of all this is that because this page is so annoying and bad, you can take other security vulnerabilities. So I try to report as many vulnerabilities as I can. A lot of times they're not that serious, like an open redirect, or something like that, on \[unintelligible 00:38:32.18\] it's like "Oh, this allows me to put in arbitrary Javascript, which allows me to do a window.location, which allows me to link someone to a page or redirect them somewhere else", and a lot of times people are like "Oh, we don't consider that that harmful", or whatever. But then you stick theannoyingsite into the redirect, and they're like, "Oh, this is serious, because someone went to our website and now they're at this terrible, terrible website." So it actually has been helpful in people taking things like open redirects seriously, in my experience, in the two weeks I've been adding it into things, so... Good work.
+**Alex Sexton:** I'll say kind of the meta-benefit of all this is that because this page is so annoying and bad, you can take other security vulnerabilities. So I try to report as many vulnerabilities as I can. A lot of times they're not that serious, like an open redirect, or something like that, on some web page. It's like "Oh, this allows me to put in arbitrary Javascript, which allows me to do a window.location, which allows me to link someone to a page or redirect them somewhere else", and a lot of times people are like "Oh, we don't consider that that harmful", or whatever. But then you stick theannoyingsite into the redirect, and they're like, "Oh, this is serious, because someone went to our website and now they're at this terrible, terrible website." So it actually has been helpful in people taking things like open redirects seriously, in my experience, in the two weeks I've been adding it into things, so... Good work.
 
 **Break:** \[00:39:09.13\]
 
@@ -395,7 +396,7 @@ Actually, I think people used to actually upload videos that were encoded in som
 
 **Alex Sexton:** Did everyone do Flash? Feross, did you ever do any Flash development?
 
-**Feross Aboukhadijeh:** No, no, I never actually learned how to do Flash development. I didn't really do proper programming until later, and then I just learned Javascript. I did collect Flash though, Flash animations, and I put them onto a website that was kind of like a knockoff of Newgrounds. It was all my favorite stuff, just \[unintelligible 00:44:02.13\]
+**Feross Aboukhadijeh:** No, no, I never actually learned how to do Flash development. I didn't really do proper programming until later, and then I just learned Javascript. I did collect Flash though, Flash animations, and I put them onto a website that was kind of like a knockoff of Newgrounds. It was all my favorite stuff, just to rehost it basically.
 
 **Alex Sexton:** \[00:44:07.08\] Actually, that's maybe a side conversation, but we were talking a lot about Flash, and I built some Flash stuff... I think one of my first real web pages was my sister's soccer team's web page, which was fully Flash, and I would go to the games and keep stats... That was like something to build a website for... But I pirated the entire Adobe suite and learned all that stuff as a young kid. I'm sure I downloaded like 1,000 viruses on my computer... But did you all start with legit copies of the Flash runtime, or Builder, or whatever, or did everyone pirate it? Is that everyone's history?
 
@@ -461,7 +462,7 @@ It's a game -- it's one button, usually a space bar or the mouse click, and it's
 
 The interesting thing was for a while "helicopter", if you searched for it in Google, the first result, untainted by my personal history with it, like the private window result for "helicopter" was "Helicopter Game", and then the Wikipedia entry for helicopters... Which I thought was pretty cool. I guess not to many people are wikipeding helicopters, compared to playing games.
 
-As far as old internet videos, I think it used to be on one of the sites we already talked about... Maybe eBaum's World, which we didn't mention my name, but... History of the World - that was like, "Here's the Earth. See? Wrong. Pretty sweet Earth, you might say." I could probably recite the whole thing. That wasn't funny \[unintelligible 00:51:08.18\]
+As far as old internet videos, I think it used to be on one of the sites we already talked about... Maybe eBaum's World, which we didn't mention my name, but... History of the World - that was like, "Here's the Earth. See? Wrong. Pretty sweet Earth, you might say." I could probably recite the whole thing. That wasn't funny old video.
 
 **Feross Aboukhadijeh:** Oh, no, no, no... That one was called "End of the World."
 

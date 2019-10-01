@@ -26,7 +26,7 @@ On the show today we have myself, Erik St. Martin, Carlisia Pinto is also here -
 
 **Brian Ketelsen:** Oh, okay... Sorry.
 
-**Erik St. Martin:** So our special guest today is the king of Gobot, Ron Evans... Making hard work come alive with Go.
+**Erik St. Martin:** So our special guest today is the king of [Gobot](https://gobot.io/), [Ron Evans](https://twitter.com/deadprogram)... Making hardware come alive with Go.
 
 **Ron Evans:** Hey, everybody.
 
@@ -38,7 +38,7 @@ On the show today we have myself, Erik St. Martin, Carlisia Pinto is also here -
 
 **Ron Evans:** Sure. I'm Ron Evans, a.k.a. DeadProgram on all the places that matter - GitHub, Twitter etc. I'm the ring leader of the Hybrid Group. We're a software consultancy that specializes in writing software for hardware companies. So if I have more hardware than normal people, it's because I'm supposed to, I guess.
 
-I tell people, "If you need some gear, just show up at my house with a box and something with wheels, like a \[unintelligible 00:02:37.16\]" Anyway, I've been doing open source software for hardware very actively since about 2008. I had done hardware-oriented software before that, but it was not open source related.
+I tell people, "If you need some gear, just show up at my house with a box and something with wheels, like a dolly. Anyway, I've been doing open source software for hardware very actively since about 2008. I had done hardware-oriented software before that, but it was not open source related.
 
 It was in 2008 that I discovered a project called Ruby Arduino Development, from Greg Borenstein. It wasn't actually running Ruby on Arduinos, it was the somewhat forward-thinking idea of using Ruby to create a domain-specific language which you could then compile down to Arduino code and run independently. I created a framework called Flying Robot, which was an unmanned aerial vehicle framework built on top of Ruby Arduino Development, that was mostly used to control blimps and other flying vehicles. The term 'drone' had not come... It was a kinder, gentler era. Back then, drones were strictly the purvey of the military and they were used for reconnaissance. It was before the dark times in the skies that drones come to represent to some people. But to others, of course, a drone is anything with propellers that flies around.
 
@@ -46,7 +46,7 @@ It was in 2008 that I discovered a project called Ruby Arduino Development, from
 
 In my case, anytime I check out a language, my first language is "Can I make it fly?" I mean, under its own power and land, successfully... Not just launch it into the air, although I am known to do that occasionally, but not on purpose, necessarily.
 
-**Brian Ketelsen:** So that's your touring test?
+**Brian Ketelsen:** So that's your turing test?
 
 **Ron Evans:** Yeah, exactly. We have what we call a conference-ready pilot. That means you can actually fly a drone as part of a conference demo, so you have to fly a little area of obstacle course first, or else you're not conference-rated.
 
@@ -56,7 +56,7 @@ Luckily, other more experienced gophers took pity upon my code, in particular Ma
 
 I was discussing that at lunch with Matt Aimonetti - that's really the beauty of using a language that is so deceptively simple.
 
-**Erik St. Martin:** You know, one of the things that I loved the most was -- the very first GopherCon Rob Pike did a keynote and he talked about how Go wasn't targeted for or wasn't used for embedded stuff, and then later you were showing it doing robotic stuff...
+**Erik St. Martin:** You know, one of the things that I loved the most was -- the very first GopherCon [Rob Pike](https://twitter.com/rob_pike) did a keynote and he talked about how Go wasn't targeted for or wasn't used for embedded stuff, and then later you were showing it doing robotic stuff...
 
 **Ron Evans:** The next day, yes.
 
@@ -73,18 +73,18 @@ We've been fortunate that the community has really embraced Gobot and helped us 
 **Erik St. Martin:** So here's a question... As you mentioned, you've got R2 which is in Ruby, and then you've got - I think it was Cylon.js, the Javascript version... How does it contrast with those - community involvement and the scope or usage of the project?
 
 **Ron Evans:** They all use the same core set of underlying design patterns. It's very much like Sinatra in Ruby was the progenitor of Express.js in Node and Flask in Python, and Noir in Clojure. Every language implemented the same set of patterns for doing RESTful style API definitions. So the contribution that's interesting - or one of them anyway - is that we've identified a simple set of core design patterns that you can use for building applications that have some type of physical real-world component or interaction.
-So we started it with Ruby with R2. Not to long thereafter we got impatient and we couldn't wait for people to copy it and we just decided we'll copy ourselves, so we created Cylon.js and then shortly thereafter Gobot. So the core design patterns may be the same, but the actual implementations are very much intended to be idiomatic in each of the languages that the code is implemented in. That means that there are definitely some differences in the way things work internally, where R2 uses the actor model being built on top of something called \[unintelligible 00:11:22.25\] Cylon.js is running on top of Node.js, so it's using the way that Node handles blocking I/O, and then Gobot is using channels to communicate the information between different goroutines that are running to handle different interactions with hardware devices.
+So we started it with Ruby with R2. Not to long thereafter we got impatient and we couldn't wait for people to copy it and we just decided we'll copy ourselves, so we created Cylon.js and then shortly thereafter Gobot. So the core design patterns may be the same, but the actual implementations are very much intended to be idiomatic in each of the languages that the code is implemented in. That means that there are definitely some differences in the way things work internally, where R2 uses the actor model being built on top of something called Celluloid, Cylon.js is running on top of Node.js, so it's using the way that Node handles blocking I/O, and then Gobot is using channels to communicate the information between different goroutines that are running to handle different interactions with hardware devices.
 
 The implementations are very much idiomatic with regard to the implementation patterns, but the net effect is that you're using the same application development patterns. We might think of it as a sort of software factory for building hardware-oriented applications. It's like \[unintelligible 00:12:03.22\] hardware-oriented applications. But the communities are a lot different.
 
 \[00:12:10.08\] The Ruby community sort of stalled a little, because a lot of Rubyist these days are more interested in building web applications than anything else, and also the implementations of the runtime, the things that we needed to do as far as concurrency was concerned, really we could do them best with jRuby or with Rubinius and not with the main line Ruby itself.
 With Node, we can take advantage of the way that Node handles blocking I/O, but we're also limited by the way that Node handles blocking I/O. Node is a hack. It's a useful hack, because most of the time the applications you're writing, your problem in life is blocking I/O. If you're writing web servers, your problem in life is blocking I/O. The same way as if you're writing applications that communicate with hardware sensors, your problem is blocking I/O again; this is a different I/O, but it's the same problem. The way that Go handles these things is so elegant and so concurrent...
 
-I did a talk a couple of weeks ago at FOSDEM in Brussels, which is an amazing conference, by the way... It's completely community-organized, so it's sort of a controlled chaos of a delightful kind. There was a fantastic community room for Go. Francesc Campoy was there and did a really great talk about the state of Go 1.8. And a few other talks... I gave a talk...
+I did a talk a couple of weeks ago at FOSDEM in Brussels, which is an amazing conference, by the way... It's completely community-organized, so it's sort of a controlled chaos of a delightful kind. There was a fantastic community room for Go. [Francesc Campoy](https://twitter.com/francesc) was there and did a really great talk about the state of Go 1.8. And a few other talks... I gave a talk...
 
 I'm really excited about the prospects for Go's total domination of the internet of things and robotic development world, and here's why. The first one is Go's performance - Golang's team with 1.8, the fact that the garbage collection's worst stop the world time is now one hundred microseconds, with a more typical average being ten microseconds -- microseconds, not milliseconds. This is the kind of real-time programming capability that we need for hardware-oriented applications that are flying drones around and doing aerial acrobatics and whatever else.
 
-The second is concurrency - the Go programmer embraces the concurrency model of Go and is able to benefit from it enormously. The fact that Go can take advantage of all the cores on the multi-core machine and many of the new \[unintelligible 00:14:45.07\] connected device platforms, R multi-core processors - particularly the ones from Intel, but also ones from ARM - and given how difficult it is to write multi-threaded code in C++... I mean, I've written C++ code for years, but \[unintelligible 00:15:03.04\]
+The second is concurrency - the Go programmer embraces the concurrency model of Go and is able to benefit from it enormously. The fact that Go can take advantage of all the cores on the multi-core machine and many of the new system on chip single board connected device platforms, R multi-core processors - particularly the ones from Intel, but also ones from ARM - and given how difficult it is to write multi-threaded code in C++... I mean, I've written C++ code for years, but \[unintelligible 00:15:03.04\]
 
 There's a part of my weekly activities - I regularly program in C++, Python, Javascript and Go, in the same week. That's kind of weird. But the abilities you have to create concurrent code in Go with relatively little effort, when your needs coordinate the interaction between multiple hardware devices in near real-time... And then, the real kicker, of course, is the portability - being able to cross-compile your Go on your Node computer, targeting your Intel Jewel, and you just cross-compile it, SCP it onto the target device and run it.
 
@@ -100,11 +100,11 @@ Another one is running Golang on real-time operating systems like Zephyr or Mbed
 
 And having some support for OpenCV, which is a computer vision package... You know, computer vision and machine learning - the other two pillars of the instrumented real world, right? We need the things that are the sensors giving us the data, and then we need these other software-based capabilities to analyze that data and figure out what it means, perhaps you wanna do something about it.
 
-Our role the way that we see it as members of the Gobot team, we're sort of the stewards of the de-facto low-level interfaces for Go at this point. There have been a couple of movements, but whether or not this should be actually part of Go itself is very arguable, just because keeping Go very light and minimal and then adding these types of capabilities... So I don't have a strong opinion about whether or not that should be.
+Our role the way that we see it as members of the Gobot team, we're sort of the stewards of the de-facto low-level hardware interfaces for Go at this point. There have been a couple of movements, but whether or not this should be actually part of Go itself is very arguable, just because keeping Go very light and minimal and then adding these types of capabilities... So I don't have a strong opinion about whether or not that should be.
 
 \[00:20:00.26\] What I do have an opinion about is more if we as a community can sort of rally around creating a shared set of low-level hardware interfaces, to make it easier for implementers. We can then not just have Gobot, but potentially other projects that could utilize those same interfaces and share ideas. You know, a single solution or monoculture is not really sustainable. Because of our popularity, we view that our role is to be stewards of other interesting things that other people are doing, which may be in fact designed to replace what we're doing at some point. Or they may be integrated into what we're doing, since it's all about the interfaces and helping the community create those.
 
-It always just comes back down to "Let's share ideas and see what happens." But there's a lot of exciting stuff going on as far as hardware-related activity. First of all, I made a list of some -- just even this week. So I'm Los Angeles this week for the SCALE 15x conference. SCALE is the Southern California Linux Expo. it is North America's largest community-run Linux expo, and it's in its 15th year.
+It always just comes back down to "Let's share ideas and see what happens." But there's a lot of exciting stuff going on as far as hardware-related activity. First of all, I made a list of some -- just even this week. So I'm Los Angeles this week for the SCALE 15x conference. [SCALE](https://www.socallinuxexpo.org/scale/15x) is the Southern California Linux Expo. it is North America's largest community-run Linux expo, and it's in its 15th year.
 
 **Brian Ketelsen:** Wow.
 
@@ -126,7 +126,7 @@ But this week has been really exciting in the hardware world. The Raspberry Pi Z
 
 **Ron Evans:** Yeah, that's how dedicated I am, my friends. \[laughs\] But yeah, it's really exciting... For 10 USD, it's a Raspberry Pi with all the trimmings AND the built-in wireless. I'm very excited. I've been a big fan of Raspberry Pi since I had -- I was fortunate enough to actually have the first Raspberry Pi in America. I did a demo using the Raspberry Pi the day before it was formally introduced at Maker Faire New York at the Golden Gate Ruby Conference, when we first showed kids Ruby running on the Raspberry Pi. So I've been a big fan for a long time; they're really hardworking.
 
-They've had tremendous community buildup around it. There's all kinds of interesting software that runs on the Raspberry Pi. Gobot runs really well, especially with Go 1.8's improvements substantially as far as Go's performance on ARM... Somewhat less so -- actually, \[unintelligible 00:23:51.08\] was already quite good.
+They've had tremendous community buildup around it. There's all kinds of interesting software that runs on the Raspberry Pi. Gobot runs really well, especially with Go 1.8's improvements substantially as far as Go's performance on ARM... Somewhat less so on x86 just the performance was already quite good.
 
 **Brian Ketelsen:** \[00:23:54.00\] Well, speaking of the Raspberry Pi, there's some metrics... You were mentioning adoption metrics earlier. I have some metrics that I recorded that I want to share with you. Since putting Gobot on my Raspberry Pi, I have used Gobot to control the cook of 68 racks of ribs, 17 briskets, 5 prime ribs and 10 whole chickens. \[laughter\]
 
@@ -142,7 +142,7 @@ They've had tremendous community buildup around it. There's all kinds of interes
 
 **Break:** \[00:24:43.09\]
 
-**Erik St. Martin:** Alright, we're back, talking to Ron Evans about Gobot, and important statistics about Brian's grilling with Go. During the break you were talking about the puns with Go... I really wanna see an Energizer bunny powered by Gobot, so we can really say it keeps going and goin...
+**Erik St. Martin:** Alright, we're back, talking with Ron Evans about Gobot, and important statistics about Brian's grilling with Go. During the break you were talking about the puns with Go... I really wanna see an Energizer bunny powered by Gobot, so we can really say it keeps going and goin...
 
 **Ron Evans:** It's so funny... I don't wanna take away any surprises, but there might be some interesting new toys that we will be bringing to Hardware Hack Day at GopherCon.
 
@@ -156,7 +156,7 @@ They've had tremendous community buildup around it. There's all kinds of interes
 
 **Carlisia Pinto:** Okay, give us a hint.
 
-**Ron Evans:** So I finally got to meet Renée French in real life at the last GopherCon, and obviously I'm a big admirer of the gopher, and the talk about the standards for appropriate gopherism, which I know is a topic that has concerned all of us at one time or another... So I've never actually gotten any official yay or a nay for any of these things, although I had sent Gobot T-shirts to both her and Rob Pike (the least we could do). So I never had the chance to ever meet her or talk to her about it, so I was delighted to find that she liked what we had done, and then I told her about the thing that we're gonna be bringing to Hardware Hack Day. That's all I'll give you... \[laughs\]
+**Ron Evans:** So I finally got to meet [Renée French](https://twitter.com/reneefrench) in real life at the last GopherCon, and obviously I'm a big admirer of the gopher, and the talk about the standards for appropriate gopherism, which I know is a topic that has concerned all of us at one time or another... So I've never actually gotten any official yay or a nay for any of these things, although I had sent Gobot T-shirts to both her and Rob Pike (the least we could do). So I never had the chance to ever meet her or talk to her about it, so I was delighted to find that she liked what we had done, and then I told her about the thing that we're gonna be bringing to Hardware Hack Day. That's all I'll give you... \[laughs\]
 
 **Brian Ketelsen:** Wow... This sounds huge.
 
@@ -170,7 +170,7 @@ They've had tremendous community buildup around it. There's all kinds of interes
 
 **Ron Evans:** I can neither confirm or deny any rumors...
 
-**Brian Ketelsen:** Oh my god, my e-mail is blowing up. Ticket sales are going through the roof for GopherCon, you'd better get your tickets now.
+**Brian Ketelsen:** Oh my god, my email is blowing up. Ticket sales are going through the roof for GopherCon, you'd better get your tickets now.
 
 **Erik St. Martin:** Speaking of which, speakers were announced... If you are listening live - or even by the time you hear this show - if you have not looked, definitely go look at the speakers. We're kind of jumping ahead, but yeah...
 
@@ -224,9 +224,9 @@ The alternative to that is if we can be more compassionate towards that experien
 
 If anything we wanna do with Gobot, it's to try to encourage more people to have that fearless explorer's mind, because we really don't know what the next great ideas are. That's what they're supposed to come up with.
 
-**Erik St. Martin:** I retweeted somebody a couple of days ago too, and it really kind of resonated with me. It basically said something about like if you're writing documentation or a tutorial or something, to banish the words easy and simple from that, because it's not easy or simple if you've never done anything like that before. I think that's true... And another one I'll add is the word "just" - "you just have to..." It puts people in a position where they don't feel like they're capable, or that when they're struggling that it's just not for them, because it should be easy.
+**Erik St. Martin:** I retweeted somebody a couple of days ago too, and it really kind of resonated with me. It basically said something about like if you're writing documentation or a tutorial or something, to banish the words *easy* and *simple* from that, because it's not easy or simple if you've never done anything like that before. I think that's true... And another one I'll add is the word "*just*" - "you just have to..." It puts people in a position where they don't feel like they're capable, or that when they're struggling that it's just not for them, because it should be easy.
 
-**Carlisia Pinto:** Those words are immediate triggers for impostor syndrome.
+**Carlisia Pinto:** Those words are immediate triggers for *impostor syndrome*.
 
 **Ron Evans:** I'm going to review our documents, because I am very guilty of this. I thought that I was graciously inviting people by trying to make the way seem easier, but if I'm having the opposite effect then it's my responsibility as a maintainer to try to do something about it, and of course that just means editing some text.
 
@@ -296,14 +296,14 @@ For me, that was the peak of complete hackerness - using that to engineer a soci
 I know some people have been critical about that sort of thing... I personally think -- you've gotta do what you've gotta do, and if that is the time when you're able to do that personal professional development in order to sustain your own career, by all means; that is an excellent thing to do with one's time.
 \[00:51:57.05\] So stabilizing the external interfaces was really important for us and now that we've done that, the contributors have been doing amazing work - both some of the core work for interfaces such as the I²C interfaces. We were able to do some really sophisticated things with multiple different kinds of instruments like digital compasses and barometers and accelerometers and things. That's all due to contributors.
 
-A lot of the work that we're gonna be doing is going to be improving the implementations of some of the core stuff we've already done, but without changing the external interfaces. Bill Kennedy (Ultimate Go Bill Kennedy, by the way) has been extremely helpful mentoring some of the internal refactorings that we've been doing, and he spent a lot of time thinking about package-oriented design, and he's been really helpful guiding us through this process of reassembling the plane while in flight, so that we're better situated for this current year of development.
+A lot of the work that we're gonna be doing is going to be improving the implementations of some of the core stuff we've already done, but without changing the external interfaces. [Bill Kennedy](https://twitter.com/goinggodotnet) (Ultimate Go Bill Kennedy, by the way) has been extremely helpful mentoring some of the internal refactorings that we've been doing, and he spent a lot of time thinking about package-oriented design, and he's been really helpful guiding us through this process of reassembling the plane while in flight, so that we're better situated for this current year of development.
 
 We've been putting out a release each month consistently for the last couple of months, collecting together the new hardware changes as far as this internal refactorings. Next coming is the GPIO interfaces and then we'll be adding SPI interfaces, and UART interfaces and a couple of other standard types of device-to-device integration interfaces. That way we can add on top of that all of the different capabilities of, as I mentioned, digital compasses, accelerometers, barometers, temperature sensors... All the different instrumentation.
 Ultimately, Gobots will make it possible to do a very modular style of development for the hardware side of these applications. Adding more support for new types of hardware that are coming out - that's very much on our roadmap, but also building up the tooling that you need to go all the way to full production. We've been working with a number of people from Canonical for a while on -- I think it used to be called Ubuntu Snappy Core, but now it's called Snapcraft. Snapcraft is Canonical's approach towards application packaging and sandboxing.
 
 There's also some other really interesting projects - Resin.io for deployment; there's a few other ones... The idea being that if we build up the right tooling, we make it a lot easier for professional developers to build some type of commercial product and then not just deploy it, but also keep it maintained. There's no such thing as a one-off internet connected device.
 
-If there's anything that we should've learned from the Mirai botnet, or that we should've learned from some of the recent debacles like CloudPets, or Hello Barbie - we need to take these systems seriously, even if they look like toys. In fact, the toys are small soldiers ('80s movie)... Watch out for the toys! They'll come and get you if they get \[unintelligible 00:55:15.16\], the same as anything else will.
+If there's anything that we should've learned from the Mirai botnet, or that we should've learned from some of the recent debacles like CloudPets, or Hello Barbie - we need to take these systems seriously, even if they look like toys. In fact, the toys are small soldiers ('80s movie)... Watch out for the toys! They'll come and get you if they get punned, the same as anything else will.
 
 Denial of a service attack mounted from your toy doll collection is not something you expect, but it's coming if we don't apply professional development practices to literally every single connected device. Gobots future is, if we do it right, that we build the tooling for the whole next generation of connected devices and build it on top of Go. That seems to be the strongest contender at this point, from all the stuff that we've seen, except for something completely novel that hasn't popped up into our serious radar yet. But as far as the best bet going, that seems to be it.
 
@@ -321,7 +321,7 @@ I haven't come up with a good term for it, but we need objects of independent ut
 
 So we have to be very careful, because the perverse incentives that we've seen around the behavioral economics and the kind of opportunistic pricing models... We have to be very careful that we don't ultimately create this sort of surveillance society where all the benefit flows directly to the shareholder class, and none of it is going to the consumer class. That's not a just application of this type of technology, even in just simple economic terms, because the consumers are the ones producing the data; they shouldn't be able to benefit by it in some way.
 
-Maybe we need licensing models where you're able to turn on or off the ability of sharing of data, so you can decide to whom and to whom not is it shared on a slightly more discreet level. I know that Brave (the browser) has tried this type of micropayments approach. We may need that in terms of internet connected devices as well, or else we're going to have these perverse incentives that create warped economics around these devices, and then perhaps not apply them to the right things.
+Maybe we need licensing models where you're able to turn on or off the ability of sharing of data, so you can decide to whom and to whom not is it shared on a slightly more discreet level. I know that [Brave](https://brave.com/) (the browser) has tried this type of micropayments approach. We may need that in terms of internet connected devices as well, or else we're going to have these perverse incentives that create warped economics around these devices, and then perhaps not apply them to the right things.
 
 \[01:00:09.25\] If we're putting all our emphasis into selling more stuff and not enough into reducing utilization of scarce environmental resources, for example... You know, just because one has a big benefit and the other one has no real immediate payoff - that just magnifies the kind of problems that technology has in part created, as opposed to helping alleviate them. I'm a utopian thinker, but like Buckminster Fuller said, it's utopia or oblivion.
 
@@ -341,7 +341,7 @@ Maybe we need licensing models where you're able to turn on or off the ability o
 
 **Erik St. Martin:** So for everybody who's new to the show, every week we like to give a shoutout to open source authors or projects that have been making our lives easier, just because often times they only hear from us when we want more stuff from them. Carlisia, do you wanna start this week off?
 
-**Carlisia Pinto:** Yes, I don't have a software or an app per se, but I do wanna give a shoutout to Francesc Campoy. He is the most enthusiastic gopher that I know of, and he has this "Just 4 Funk" YouTube channel. This is actually what I wanna give a shoutout to, because every so often he puts up short videos, and they're really well done; he'll be coding something and he'll record it. If you don't know about it, you should check it out.
+**Carlisia Pinto:** Yes, I don't have a software or an app per se, but I do wanna give a shoutout to Francesc Campoy. He is the most enthusiastic gopher that I know of, and he has this [Just4Func](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw/featured) YouTube channel. This is actually what I wanna give a shoutout to, because every so often he puts up short videos, and they're really well done; he'll be coding something and he'll record it. If you don't know about it, you should check it out.
 
 **Brian Ketelsen:** I love his YouTube channel. Those are so awesome, I love those shows.
 
@@ -353,11 +353,11 @@ Maybe we need licensing models where you're able to turn on or off the ability o
 
 **Erik St. Martin:** Awesome. How about yours, Ron? Did you have a project you wanted to shout out to?
 
-**Ron Evans:** I have a lot of projects I love, but lately I've been really feeling the love for NATS, the messaging system. They have a bunch of great open source software projects, clients and servers written in Go, on GitHub. They also have a really great community that's been adding integrations between Gobot and NATS. I've seen them participating in lots and lots of events and doing lots of great things for the community in addition to the code, so big kudos to them.
+**Ron Evans:** I have a lot of projects I love, but lately I've been really feeling the love for [NATS](https://nats.io/), the messaging system. They have a bunch of great open source software projects, clients and servers written in Go, on GitHub. They also have a really great community that's been adding integrations between Gobot and NATS. I've seen them participating in lots and lots of events and doing lots of great things for the community in addition to the code, so big kudos to them.
 
 **Brian Ketelsen:** Yeah, I will second that. Every time I turn around, there's somebody from the NATS community helping out somewhere. In fact, I think maybe it was last week or the week before we shouted out NATS on \#FreeSoftwareFriday, too. It's nice. Great community-focused company at APCERA.
 
-**Erik St. Martin:** \[01:03:47.03\] Mine for this week is by somebody named OJ Reeves. I'm gonna continue my trend with security tools. It's called Gobuster; it's on GitHub.com/oj-gobuster. It's like a replacement for Dirb or Dirbuster, basically to brute-force innumerate directories for websites. Basically, you can give it a word list and it tries to find cgi-bin or cPanel or things like that. So that's a super cool tool for scanning web servers. Extremely fun to see what you find, too... With permission, of course.
+**Erik St. Martin:** \[01:03:47.03\] Mine for this week is by somebody named OJ Reeves. I'm gonna continue my trend with security tools. It's called Gobuster; it's on [gitHub.com/OJ/gobuster](https://github.com/OJ/gobuster). It's like a replacement for Dirb or Dirbuster, basically to brute-force innumerate directories for websites. Basically, you can give it a word list and it tries to find cgi-bin or cPanel or things like that. So that's a super cool tool for scanning web servers. Extremely fun to see what you find, too... With permission, of course.
 
 **Brian Ketelsen:** With permission. Consult your lawyer before hacking any websites, please.
 
@@ -365,7 +365,7 @@ Maybe we need licensing models where you're able to turn on or off the ability o
 
 **Ron Evans:** I just turn on all the drones at once, and they fly me there.
 
-**Erik St. Martin:** I put too many chargers in my bag, and TSA \[unintelligible 01:04:59.10\]
+**Erik St. Martin:** I put too many chargers in my bag, and [TSA](https://www.tsa.gov/) \[unintelligible 01:04:59.10\]
 
 **Ron Evans:** I have a collection of TSA notices... Actually, I was thinking about putting into each of my flight cases a small transparent envelope where I would put all the notices and then put a little sign that said, "TSA, please place notices here." \[laughter\]
 
@@ -375,7 +375,7 @@ Maybe we need licensing models where you're able to turn on or off the ability o
 
 If you wanna do hardware hacking that's not Gobot, bring it. If you just wanna hang out and play with toys, come on down. It's gonna be fantastic.
 
-**Erik St. Martin:** JBD was hanging out there last year too, but yeah, even if you don't have hardware experience, come in. Lots of people are teaching people, and playing with stuff and collaborating. I think you did some sessions or something last time, where you were kind of walking through steps. I remember seeing a board in there.
+**Erik St. Martin:** [JBD](https://twitter.com/rakyll) was hanging out there last year too, but yeah, even if you don't have hardware experience, come in. Lots of people are teaching people, and playing with stuff and collaborating. I think you did some sessions or something last time, where you were kind of walking through steps. I remember seeing a board in there.
 
 **Ron Evans:** Yeah, we had like a self-directed thing, if you wanted to do that. Or if you just wanted to check out some hardware, like library style, lending lab style. We also had some hardware to give away to people, which we typically do... It's sort of part of my Santa Claus complex. \[laughs\]
 
@@ -415,7 +415,7 @@ If you wanna do hardware hacking that's not Gobot, bring it. If you just wanna h
 
 **Brian Ketelsen:** Alright, well thanks again, Ron.
 
-**Erik St. Martin:** Yeah, huge thank you for Ron coming on the show. Thank you to all of our listeners listening live and to everybody who will be listening to this in the future. Definitely share the show with family, friends, co-workers... Check out the cool new changelog.com/live when we are live broadcasting if you wanna listen. We are @GoTimeFM on Twitter. If you wanna be on the show, you have a suggestion for people to be on the show - GitHub.com/gotimefm/ping, and as always, a massive shoutout to our sponsors, Backtrace and The Ultimate Go Training Series for helping make this show possible. With that, goodbye, everybody. We'll see you next week!
+**Erik St. Martin:** Yeah, huge thank you for Ron coming on the show. Thank you to all of our listeners listening live and to everybody who will be listening to this in the future. Definitely share the show with family, friends, co-workers... Check out the cool new changelog.com/live when we are live broadcasting if you wanna listen. We are on [Twitter](https://twitter.com/GoTimeFM). If you wanna be on the show, you have a suggestion for people to be on the show - [ping](https://github.com/GoTimeFM/ping) us, and as always, a massive shoutout to our sponsors, Backtrace and The Ultimate Go Training Series for helping make this show possible. With that, goodbye, everybody. We'll see you next week!
 
 **Carlisia Pinto:** Goodbye!
 

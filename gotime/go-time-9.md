@@ -46,7 +46,7 @@ One of the things that's actually a good example is our metrics library, because
 
 **Carlisia Pinto:** Because I was thinking to ask you as well, I'm not sure if it applies what I wanna ask anyway... If you're using a Prometheus to collect metrics and log information.
 
-**Scott Mansfield:** Yeah, so our deployment is actually quite interesting. On the same server we're running Rend, memcached, our L2 disk-backed solution called Mnemonic which reuses part of the Rend code, and a Java-based Sidecar process that's actually the hook into the rest of the ecosystem. So in Netflix we have a system called \[unintelligible 00:07:23.01\] that does our metrics collection, and the client for that is in our Prana sidecar. So for us, we actually have the sidecar process pull Rend to pull metrics out every once in a while, instead of Rend actually pushing metrics anywhere.
+**Scott Mansfield:** Yeah, so our deployment is actually quite interesting. On the same server we're running Rend, memcached, our L2 disk-backed solution called Mnemonic which reuses part of the Rend code, and a Java-based Sidecar process that's actually the hook into the rest of the ecosystem. So in Netflix we have a system called "Atlas" that does our metrics collection, and the client for that is in our Prana sidecar. So for us, we actually have the sidecar process pull Rend to pull metrics out every once in a while, instead of Rend actually pushing metrics anywhere.
 
 **Erik St. Martin:** And now, the mnemonic part of it was the RocksDB portion of Rend, right?
 
@@ -88,7 +88,7 @@ There's not too many places where I've bucked the trend; I've just tried to avoi
 
 **Carlisia Pinto:** That happened to me, to use channels and ask for some advice about my code, and people were like "Just use a mutex here." So I would say for people who are starting out, learn how to use a mutex so that you can then make a choice if that's what you need, versus channels. A lot of times that's enough, and this performs a lot better.
 
-**Scott Mansfield:** I also think it's important to remember that nothing is magic, so for a channel there is a fast path - think buffer channel, not the one where you need \[unintelligible 00:14:37.01\] where there's no buffer. But for \[unintelligible 00:14:39.04\] there's no magic. You have pretty smart code at the front whenever you're trying to insert something, but if you end up competing for that, it's a lot. That's the way it works. You can't have anything else there. So it's not like you're going to magically be faster by having this channel for concurrency. It has to have some sort of management of that concurrent behavior internally.
+**Scott Mansfield:** I also think it's important to remember that nothing is magic, so for a channel there is a fast path - think buffer channel, not the one where you need a handshake where there's no buffer. But for \[unintelligible 00:14:39.04\] there's no magic. You have pretty smart code at the front whenever you're trying to insert something, but if you end up competing for that, it's a lot. That's the way it works. You can't have anything else there. So it's not like you're going to magically be faster by having this channel for concurrency. It has to have some sort of management of that concurrent behavior internally.
 
 **Erik St. Martin:** Yeah, and I know some of this stuff, too. This is one of the things I was guilty of early on, I was using channels for state. When I should really be using a mutex, I would create these goroutines that select on channels, and that's where the updates took place to state, and that seemed like the pattern, because go ahead channels, why would you want mutexes? And this was in the early days, but I still see people coming to the language and doing that. I don't know what the best way to offer advice for that is... Whether there's "When to use channels, when not to use channels."
 
@@ -116,7 +116,7 @@ There's not too many places where I've bucked the trend; I've just tried to avoi
 
 **Scott Mansfield:** It's a very pragmatic approach, because it's meant to solve Netflix problems, and it's open source in the hope that it will help somebody else solve their problems as well.
 
-**Erik St. Martin:** I don't think that there's a need to be 100% either. There's a big project that came out of YouTube called \[unintelligible 00:19:37.17\] which is wire compatible with MySQL, but kind of makes MySQL distributed, and they don't support all SQL in there as well, just kind of the core things that they use.
+**Erik St. Martin:** I don't think that there's a need to be 100% either. There's a big project that came out of YouTube called Vitess which is wire compatible with MySQL, but kind of makes MySQL distributed, and they don't support all SQL in there as well, just kind of the core things that they use.
 
 **Scott Mansfield:** And that's okay, definitely if it solves their problem. I agree.
 
@@ -256,7 +256,7 @@ Alright, so moving on. What else have we got?
 
 **Scott Mansfield:** ...so it's a pretty well-ingrained use for Java apps here. People use it all the time, and only recently have I actually started using Go Torch. I've been stuck in the stone ages apparently, using the web graph output from the pprof tool.
 
-**Erik St. Martin:** You're not the only one, I do the \[unintelligible 00:32:56.13\] thing, too.
+**Erik St. Martin:** You're not the only one, I do the SVG thing, too.
 
 **Brian Ketelsen:** Scott, I think that's the closest we've ever come to a mic drop on GoTime, thank you for that. \[laughter\] Yeah, we invented those - thanks, Erik.
 
@@ -332,9 +332,9 @@ I haven't used it, but anything that says "I'm 20 times faster" calls my attenti
 
 **Brian Ketelsen:** Yeah, didn't we talk about this last week?
 
-**Erik St. Martin:** I still can't remember what it was - I think it was a JSON Lint thing, or some kind of tool like that I had him install, and I didn't realize it was Node, and I'll never \[unintelligible 00:38:25.16\]
+**Erik St. Martin:** I still can't remember what it was - I think it was a JSON Lint thing, or some kind of tool like that I had him install, and I didn't realize it was Node, and I'll never live it down.
 
-**Brian Ketelsen:** No, I actually sent him an e-mail and said, "Report to my office. You're fired." \[laughter\]
+**Brian Ketelsen:** No, I actually sent him an email and said, "Report to my office. You're fired." \[laughter\]
 
 **Erik St. Martin:** So Govender I like. I've been using that one recently. And that seems to be kind of almost the same thing, it just uses the vendor folder that already exists, and it kind of stuffs stuff in there. I kind of like that one. I don't hate it, I should say that. But I think you're right, we're still trying to get consensus as a community over what to use there.
 

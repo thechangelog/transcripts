@@ -284,7 +284,7 @@ All the docs for React are still just "Open this file. Write jsx directly in it 
 
 **Mikeal Rogers:** \[laughs\] So why did you write this?
 
-**Juan Pablo Buritica:** It came from the real struggle that we were having at Ride, basically seeing the rest of the company try to adapt to the fact that engineering was completely distributed just motivated me to make sure... So these guides had to purposes. First, telling engineering how I expected them to communicate and to collaborate, the default of our values, and then we shared this document to everyone else in the company, basically telling them "This is how we work, and if you need us, please adapt to this." Because the constant interruption, the Slack channeling all the time, or the DMs... The missed expectations meant that I had to do a little bit more of a \[unintelligible 00:45:44.16\] management, but it came out really well.
+**Juan Pablo Buritica:** It came from the real struggle that we were having at Ride, basically seeing the rest of the company try to adapt to the fact that engineering was completely distributed just motivated me to make sure... So these guides had to purposes. First, telling engineering how I expected them to communicate and to collaborate, the default of our values, and then we shared this document to everyone else in the company, basically telling them "This is how we work, and if you need us, please adapt to this." Because the constant interruption, the Slack channeling all the time, or the DMs... The missed expectations meant that I had to do a little bit more of a deactive management, but it came out really well.
 
 A lot of it is, of course, inspired by the open source way of working, but it was mostly to just define the culture of how we communicated, and it turned out pretty good. I've applied the majority of this stuff at Splice now, and it's worked really well. You'll probably see me every now and then tweet about "Please don't use 'adhere' all the time, don't abuse it" because one of the most challenging things with distributed teams or hybrid teams is the constant interrupting, which is just like in an open office just being touched on the shoulder and like "Hey, can you look at this?" and you just break the entire flow. So that was the inspiration.
 
@@ -330,7 +330,7 @@ If I ever - and of course I do wanna start adding more junior members - that wil
 
 **Mikeal Rogers:** Yeah... Anyway, let's move on to picks. Time for picks! Juan, do you have something for us?
 
-**Juan Pablo Buritica:** I need five minutes \[unintelligible 00:52:56.09\]
+**Juan Pablo Buritica:** I need five minutes. I am a procrastinator.
 
 **Alex Sexton:** I'll go first.
 

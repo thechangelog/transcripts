@@ -116,7 +116,7 @@ As a bit of a bonus, it's also vector-based, so no matter how large you make tho
 
 **Adam Stacoviak:** So that wasn't on purpose? That was sort of like by accident in a way?
 
-**Dave Gandy:** No, that one was definitely on purpose, and that was largely \[unintelligible 00:17:31.28\]. I think part of it was just the inherent superiority of vectors and design making it so easy to change it that retina was just a fallout of a lot of the other advantages that packaging icons into a typeface gave you.
+**Dave Gandy:** No, that one was definitely not on purpose, that was largely by accident. I think part of it was just the inherent superiority of vectors and design making it so easy to change it that retina was just a fallout of a lot of the other advantages that packaging icons into a typeface gave you.
 
 **Adam Stacoviak:** So here you are now, you're on -- Font Awesome, by the way, if you're still catching up, as I kind of am as well. It's on GitHub, it's an open source project, you've got to date 46,000+ stars, almost 8,000 forks, so people are forking this, making their own, submitting a pull request, things like that. There's lots of people watching this - almost 1,200 watchers. The question before we go into the break is why open source? Why was that the way for this? Because it's been open source since day one, right?
 
@@ -272,7 +272,7 @@ For those that pay for Pro, you're gonna get access to all those extra icons for
 
 **Adam Stacoviak:** He's awesome.
 
-**Dave Gandy:** Yeah, another one of those guys that I just cannot speak highly enough of. So Font Awesome CDN - the notion of that really was we wanted people to be able to do things like update their version of Font Awesome without having to push any code. So you give us your e-mail address, we send you a unique code that you can put in your website, and if you ever wanna change it later you can come back in and update the version, you can turn on something that we developed that we're really proud of, that we called Auto Accessibility, and you can control async, you can actually do CSS or Javascript... There are so many different things that you can do with that.
+**Dave Gandy:** Yeah, another one of those guys that I just cannot speak highly enough of. So Font Awesome CDN - the notion of that really was we wanted people to be able to do things like update their version of Font Awesome without having to push any code. So you give us your email address, we send you a unique code that you can put in your website, and if you ever wanna change it later you can come back in and update the version, you can turn on something that we developed that we're really proud of, that we called Auto Accessibility, and you can control async, you can actually do CSS or Javascript... There are so many different things that you can do with that.
 
 So Font Awesome CND - completely free to everybody to use. Really the idea there was that's been such a helpful thing... So many people have signed up for that and are using it actively that we wanted to do something very similar for Font Awesome Pro. Now you can download the files, but then you'll have to serve them yourself, which for a lot of people really isn't a problem, but that's not everybody who uses Font Awesome, so we wanted a solution that was just as easy to use as Font Awesome CDN was.
 
@@ -280,7 +280,7 @@ If we reach that goal, we're gonna give everybody access to a year of Font Aweso
 
 **Adam Stacoviak:** This comes back to that icon subsetter where you can just choose the ones you're using and then obviously serve them, not so much from your own disk, from your own server, but from the CDN that you're providing with Font Awesome Pro CDN. It says Font Awesome Pro CDN in the stretch goal - is it Font Awesome CDN, or is it Font Awesome Pro CDN?
 
-**Dave Gandy:** It'll be the same underpinnings of the way that we're doing Font Awesome CDN, but it's specifically for serving up Pro. Since Pro is a commercial icon set, we wanted to make it \[unintelligible 00:51:05.13\] where it was really easy... Other commercial typefaces might get served up with Typekit, or a similar service.
+**Dave Gandy:** It'll be the same underpinnings of the way that we're doing Font Awesome CDN, but it's specifically for serving up Pro. Since Pro is a commercial icon set, we wanted to make it have a way where it was really easy... Other commercial typefaces might get served up with Typekit, or a similar service.
 
 **Adam Stacoviak:** Right. So it says there "We're giving all Pro backers a year of service", so those people that back a that $20 level, that initial level, they're gonna get this once you hit this stretch goal. It's like that first initial pledge of $20 keeps getting sweeter and sweeter as the amount goes up in terms of this Kickstarter.
 

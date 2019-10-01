@@ -18,7 +18,7 @@ Our sponsors today are Rollbar and Toptal.
 
 **Adam Stacoviak:** Let's find out!
 
-**Jerod Santo:** Let's see what's going on and talk about it, find out what happened and see if it's interesting. So Alan, thanks so much for joining us.
+**Jerod Santo:** Let's get Alan and talk to him about it, find out what happened and see if it's interesting. So Alan, thanks so much for joining us.
 
 **Alan Shreve:** Thank you so much for having, and thanks for the really nice intro. It's always a pleasure to hear about people who enjoy the software that I make.
 
@@ -66,21 +66,21 @@ My best friend at the time, when I told him that after I came out of the first c
 
 **Jerod Santo:** No, Visual Basic I think was my intro, and then straight into Perl and open source from there. And also C and C++.
 
-**Alan Shreve:** Turbo Pascal is an interesting environment. It's really, really well suited to beginners because it basically... It had this really distinctive user interface too, just like this blue screen with yellow text for the code - by default, at least; I never bothered to change it. It felt very '80s or '90... Before my time it felt, I guess. \[00:08:00.10\] So it was just this whole environment, it took up a full screen mode by default; it wasn't like in a window, or anything. You were just kind of immersed in the code, and then when you ran the code there were two options. One was "Run the code", and it would print like a console window, like what was coming out of standard out, and the other mode that it had was like a debug mode where it basically just fired immediately into a step through debugger with this big yellow line, or I don't remember what color it was, that highlighted the line of code that was executing, and it would just step through the program for you. As a beginner, having to never learn any... Like, I didn't have to learn about source control, or have to learn how to organize a project, or have to learn what a compiler was... It was just a full environment where there was a Run button and a Debug button. That was really great to start out with.
+**Alan Shreve:** Turbo Pascal is an interesting environment. It's really, really well suited to beginners because it basically... It had this really distinctive user interface too, just like this blue screen with yellow text for the code - by default, at least; I never bothered to learn how to change it. It felt very '80s or '90... Before my time it felt, I guess. \[00:08:00.10\] So it was just this whole environment, it took up a full screen mode by default; it wasn't like in a window, or anything. You were just kind of immersed in the code, and then when you ran the code there were two options. One was "Run the code", and it would print like a console window, like what was coming out of standard out, and the other mode that it had was like a debug mode where it basically just fired immediately into a step through debugger with this big yellow line, or I don't remember what color it was, that highlighted the line of code that was executing, and it would just step through the program for you. As a beginner, having to never learn any... Like, I didn't have to learn about source control, or have to learn how to organize a project, or have to learn what a compiler was... It was just a full environment where there was a Run button and a Debug button. That was really great to start out with.
 
 **Jerod Santo:** Take us from there to Go and ngrok.
 
-**Alan Shreve:** Oh man, there's a lot of stuff in between that.
+**Alan Shreve:** Oh man, there's a lot of stuff in between that. \[laughter\]
 
-**Jerod Santo:** \[unintelligible 00:09:12.15\] \[laughter\]
+**Jerod Santo:** Well hit the highlights.
 
 **Alan Shreve:** I finished doing the programming course in high school. After I learned Pascal I learned C, and then working the most basic knowledge of C++. Not how to use it well, of course, but how to define a class and stuff like that. I kind of actually lost track of programming for a couple years before I got an internship working at a local software firm. My first job actually was interning for this local software firm that no kidding made Fortran compilers, and they still make Fortran compilers to this day.
 
 **Jerod Santo:** Wow...
 
-**Alan Shreve:** Yeah, it's one of those where you're like, "Wow, someone still does that..." It's like their only line of business, it's crazy. So that's where I started. I actually wrote about it recently, when I was launching Equinox. I originally started there as an intern. I was actually packaging the software, which at that time meant physically assembling boxes and burning CDs and printing CD labels and stuff like that.
+**Alan Shreve:** Yeah, it's one of those where you're like, "Wow, someone still does that..." It's like their only line of business, it's crazy. So I started there. I actually wrote about it recently, when I was launching Equinox. I originally started there as an intern. I was actually packaging the software, which at that time meant physically assembling boxes and burning CDs and printing CD labels and stuff like that.
 
-**Jerod Santo:** \[unintelligible 00:10:39.18\] package managers that we talk about today. Back then it was like some tape and some cardboard, right?
+**Jerod Santo:** Well before an idea like package managers that we talk about today. Back then it was like some tape and some cardboard, right?
 
 **Alan Shreve:** Yeah, I was the package manager. \[laughter\]
 
@@ -186,15 +186,15 @@ Ngrok was essentially that, it was a port of Jeff's tool, localtunnel, actually.
 
 **Alan Shreve:** I cannot begin to tell you how excited I was when I found a five-letter pronounceable .com available. It was a beautiful moment.
 
-**Adam Stacoviak:** Yeah, and I'm just telling Jerod in the \[unintelligible 00:30:11.13\] I'm really interested in the name... Obviously 'n' stands for network, but why 'grok'?
+**Adam Stacoviak:** Yeah, and I'm just telling Jerod in the back chan, I'm really interested in the name... Obviously 'n' stands for network, but why 'grok'?
 
-**Alan Shreve:** After I cloned localtunnel and I was happy with it, I started to think about other things that I would like in terms of the product. I worked at Twilio, so I was dealing with WebHooks all day... I built a lot of Twilio applications for testing, and when you'd build a Twilio application it was this really frustrating exercise, because you would write your code, and even with localtunnel or ngrok or an SSH tunnel, you would pick up the phone and dial a number or send a text message to actually cause Twilio to call back to your code and trigger it to run. So you'd do that once, but it's obviously broken, right? So it would break, and then you would try to fix it, and then you would do the same thing again, you would pick up the phone. So I'd just end days with a pile of it, like thirty calls to this one random number, just to try to get the application working.
+**Alan Shreve:** After I cloned localtunnel and I was happy with it, I started to think about other things that I would like in terms of the product. I worked at Twilio, so I was dealing with WebHooks all day... I built a lot of Twilio applications for testing, and when you'd build a Twilio application it was this really frustrating exercise, because you would write your code, and even with localtunnel or ngrok or an SSH tunnel, you would pick up the phone and dial a number or send a text message to actually cause Twilio to call back to your code and trigger it to run. So you'd do that once, but it's always broken, right? So it would break, and then you would try to fix it, and then you would do the same thing again, you would pick up the phone. So I'd just end days with a call log with like forty calls to this one random number, just to try to get the application working.
 
 So I started thinking about the kind of things that if I were working on that type of application that would make it easier for me, and one of those was that I wanted to see all of the traffic that was flowing across the wire, that was really important, as well as being able to replay it. The introspection part of it was kind of new, or wasn't at least in any of the other tools, and I like the idea of being able to introspect things and look at them as they're happening, so the name is kind of just a play on the word grok, coined by Heinlein, which is 'to understand', and 'n' because there are a whole bunch of other network tools that start with. It was kind of a play on ngrep.
 
 \[00:32:22.02\] It's weird, it doesn't actually mean that to me any more. That was the genesis of it, but to me it just kind of is its own definition now.
 
-**Jerod Santo:** A few things about this tool that impressed me... First of all, you do a really good job of explaining its value proposition on the website. It's one of those tools that once you know you need something, you wanna expose your local development environment to somebody who's not on your network, you need \[unintelligible 00:32:50.00\] all these things... You may not understand exactly how to get all that done, but you're like "Man, I wish I could just give somebody a URL and they could actually access this demo that I have on my machine." You do a really good job of explaining, like "Hey, this is what that tool does." That was immediately impressive.
+**Jerod Santo:** A few things about this tool that impressed me... First of all, you do a really good job of explaining its value proposition on the website. It's one of those tools that once you know you need something, you wanna expose your local development environment to somebody who's not on your network, you need NAT traversal, all these things... You may not understand exactly how to get all that done, but you're like "Man, I wish I could just give somebody a URL and they could actually access this demo that I have on my machine." You do a really good job of explaining, like "Hey, this is what that tool does." That was immediately impressive.
 
 Then the fact that it is just a single Go binary, you drop it into your path and it runs, which has been kind of a flagship feature of Go for a long time; the easy distribution makes for a good first experience. Then there are a lot of little details that are really nice, and I'll just give a single example - this might be ngrok 2.0, it wasn't in 1.0, so you can help me sort that out... But for instance, when you're actually running the thing, it will show you there, there's a little display in your terminal that shows the URLs and the introspection if you want it, what's going on, but there's even a time where it detects an upgrade (there's a new binary that you can download) and it just says, "Hit Ctrl+U to update itself." So while you're running it, you just hit Ctrl+U and it downloads and upgrades itself, and you then probably have to restart the program for it to run the new version.
 
@@ -264,7 +264,7 @@ So a lot of this stuff actually did end up being open source. The actual product
 
 **Alan Shreve:** \[00:48:00.05\] Yeah, it was basically a result of a couple things. One was that ngrok was a project to learn Go, and when you're learning things, you make a lot of mistakes; there are a lot of things that you don't understand, a lot of things that you think you're smarter than other people who've been working on it for a while... So I made a lot of mistakes, a lot of things that looking back on them I'm not proud of the way that it was built.
 
-The other part was that the scope was changing. The scope for ngrok 2.0 was not this thing where there's a single server binary that the ngrok client connects to, but I wanted to make it a very reliable service. One of the other pieces of quality from a product design that isn't so much \[unintelligible 00:48:54.26\] that I care a lot about and put a lot of work into, and that you see very little of from like a user, is reliability and stability of the service. A lot of work goes into that, and one of the pieces that went into that was building out the server component in a way that it was distributed across many machines, so that it could tolerate arbitrary machine failure.
+The other part was that the scope was changing. The scope for ngrok 2.0 was not this thing where there's a single server binary that the ngrok client connects to, but I wanted to make it a very reliable service. One of the other pieces of quality from a product design that isn't so much UX that I care a lot about and put a lot of work into, and that you see very little of from like a user, is reliability and stability of the service. A lot of work goes into that, and one of the pieces that went into that was building out the server component in a way that it was distributed across many machines, so that it could tolerate arbitrary machine failure.
 
 These days - I actually just released this last week, is that ngrok actually now operates in multiple regions around the world. There are actually HA setups in a number of different data centers that coordinate with each other to actually run a global ngrok service. And that's a very far cry away from "There is one machine that runs the ngrok service."
 
@@ -282,7 +282,7 @@ These days - I actually just released this last week, is that ngrok actually now
 
 **Jerod Santo:** Sidekick is in that model, where there's the open source community version, and then there's Sidekick Pro, There's derivations of that where you have Enterprise, which has enterprisy features, but Sidekick Pro is more like SideKick++. It seems like that model could have possibly worked for you. Did you battle around all these ideas as far as different ways of doing it, or did you just throw your hands up in the air and say, "Well, I'm just gonna keep it closed."
 
-**Alan Shreve:** Totally. The other model that was the one that I considered most seriously was the model that Sentry takes in Docker as well, for Docker hub at least; all of the code is open source there. There's nothing that's like a closed add-on, but we run the service for you. So running the service is the piece that's too complicated, that you don't wanna deal with, so you pick someone else to do it. So that was the one that I considered most seriously, and I ended up having problems with all of them.
+**Alan Shreve:** Totally. The other model that was the one that I considered most seriously was the model that Sentry takes, and Docker as well, for Docker hub at least; all of the code is open source there. There's nothing that's like a closed add-on, but we run the service for you. So running the service is the piece that's too complicated, that you don't wanna deal with, so you pay someone else to do it. So that was the one that I considered most seriously, and I ended up having problems with all of them.
 
 \[00:52:07.25\] The support model is based entirely around your product being core to someone else's production infrastructure, that's the thing that you're paying insurance for. Ngrok right now is not that. It may be in the future, but at the moment, and certainly at the time, it was a development tool. So if it breaks, your developers are kind of unhappy, but it's not something where you're like, "Oh man, we need to have Alan on the line in 30 minutes notice to help us fix it if ngrok goes down." So that one was kind of out for ngrok, which was kind of validated, because I never really got any interest from people, who when it was open source were like, "Hey, can we pay you for support?"
 
@@ -296,7 +296,7 @@ So I wasn't particularly happy with either of those options, so when I launched 
 
 Another piece of it that went into the calculation was if I made it open source and I couldn't get paid to work on it full time, if that wasn't enough money to make it a sustainable business, would it be better for the product and for its users to have it remain a side project, something that got my attention whenever it happened, whenever I had the time? Or would it be better for the product and for the users to be in a place where it was like, "I can work on this full-time and dedicate all of my energy to it."
 
-**Jerod Santo:** \[00:55:48.02\] I have two questions; you can take them in order, or take them however you like. The first one is where does the paid product begin with ngrok 2.0? Because, like I said before the break, I happily upgraded. Adam, I don't know which version you're running, but I wasn't taking advantage of any of the open sourcedness of it, I was just using it as a tool when I need it. We were very casual users; Adam said we use it to expose a web server to campaign monitor, so that it can suck in some HTML, and I'll use it to develop a webhook here or there. So we're very casual users. So tell us where the paid side -- what model you decided to go with in terms of the paid stuff at ngrok 2.0 has, and as a follow-up to that, if you will, give us some insight into how it's going and the status of ngrok as a paid product.
+**Jerod Santo:** \[00:55:48.02\] I have two questions; you can take them in order, or take them however you like. The first one is where does the paid product begin with ngrok 2.0? Because, like I said before the break, I happily upgraded. Adam, I don't know which version you're running, but I wasn't taking advantage of any of the open sourcedness of it, I was just using it as a tool when I need it. We were very casual users; Adam said we use it to expose a web server to campa ign monitor, so that it can suck in some HTML, and I'll use it to develop a webhook here or there. So we're very casual users. So tell us where the paid side -- what model you decided to go with in terms of the paid stuff at ngrok 2.0 has, and as a follow-up to that, if you will, give us some insight into how it's going and the status of ngrok as a paid product.
 
 **Alan Shreve:** Ngrok 2.0 still has a very generous free tier, and most casual users never really break out of that free tier. That's been something that I've been thinking about over the past years - do I want to consider that lead gen or do I want to actually take more things away from it that it incents people to upgrade. It's a difficult calculus. I don't want to cripple the product. I still want that really great initial user experience of like you download it, run a command, and it's instantly working, and there's no "Please pay" sort of thing immediately. You just immediately get value out of it.
 
@@ -304,13 +304,13 @@ It's kind of all advanced features that people that are in the paid tiers today.
 
 The one that most people tend to upgrade for is custom domains. Right now on the free version you always get a random domain when you start ngrok, so allowing people to pick a custom subdomain of ngrok.io, or even being able to run a tunnel over their own domain name, like dev.inconshreveable.com.
 
-**Jerod Santo:** Yeah, \[unintelligible 00:58:45.23\] to a certain degree.
+**Jerod Santo:** Yeah, kind of white labeling to a certain degree.
 
 **Alan Shreve:** Yeah, that's part of the paid features as well, and also some additional businessy stuff like IP whitelisting, things like that.
 
 **Jerod Santo:** What can whitelisting do?
 
-**Alan Shreve:** It basically lets you restrict the incoming connection to your tunnel endpoint to a certain set of IPs.
+**Alan Shreve:** It basically lets you restrict the incoming connections to your tunnel endpoint to a certain set of IPs.
 
 **Jerod Santo:** Gotcha.
 
@@ -327,15 +327,15 @@ As far as Equinox goes, the work on that is kind of work on ngrok in itself.
 
 **Jerod Santo:** What is Equinox, first?
 
-**Alan Shreve:** \[00:59:57.15\] We talked earlier about the auto-updating experience that ngrok has, where it detects that there's a new version, you press Ctrl+U and it updates itself. So Equinox is all of that functionality around building a self-updating Go program packaged into a service for you. So it does that, as well as packaging and distribution. If you have a Go program, it will package it up into an NSI for Windows, and a pkg installer for OS X; it creates a custom Homebrew tap for you, so that when you release new versions you maintain all of those things.
+**Alan Shreve:** \[00:59:57.15\] We talked earlier about the auto-updating experience that ngrok has, where it detects that there's a new version, you press Ctrl+U and it updates itself. So Equinox is all of that functionality around building a self-updating Go program packaged into a service for you. So it does that, as well as packaging and distribution. If you have a Go program, it will package it up into an MSI for Windows, and a pkg installer for OS X; it creates a custom Homebrew tap for you, so that when you release new versions you maintain all of those things.
 
 Equinox was built out of this desire to make the installation experience better. Sure, there are a huge number of developers for whom you can hand them a zip and be like, "Here's the zip. It has a binary inside. Unzip it and run it", and that works for a large majority of people, but ngrok's user base is huge, and it includes a lot of people who are not technical at all; people who have never used a command line before. So being able to be useful to them means a better installation experience, a better updating experience, all of those things. So Equinox is the work that's been put together to make that better. It's been packaged up as a separate thing with the hope that it will be useful to other people.
 
-**Adam Stacoviak:** I'm just looking at version one versus version two... It seems like the original open source version wasn't what you wanted it to be in the long term, and now with 2.0 you're able to open up a web interface to it; obviously, you have custom domains, being able to look at traffic, things like that. I'm wondering if the web interface and the command line interface has a similar or a mirrored experience.
+**Adam Stacoviak:** I'm just looking at version one versus version two... It seems like 1.0, the original open source version wasn't what you wanted it to be in the long term, and now with 2.0 you're able to open up a web interface to it; obviously, you have custom domains, being able to look at traffic, things like that. I'm wondering if the web interface and the command line interface has a similar or a mirrored experience.
 
 **Alan Shreve:** Yeah, so all of those things were actually present in 1.0. There was an introspection interface as part of version one, and there was a dashboard for version one as well. The website wasn't as fully featured as it is now, but there was one that existed. As far as them being mirrored...
 
-**Adam Stacoviak:** I just mean, are they similar? Do they have similar features? Do you get more if you use the web interface versus the \[unintelligible 01:02:38.20\] interface or there's things that just maybe aren't present on either side?
+**Adam Stacoviak:** I just mean, are they similar? Do they have similar features? Do you get more if you use the web interface versus the command line interface or there's things that just maybe aren't present on either side?
 
 **Alan Shreve:** I see. They're not really mirrors; there are a couple things that are in common there, but it's not like you can exclusively use the web interface to work with ngrok. If you wanna start it, you do have to use the command line to start it. Once it's running, if you wanna look at the requests that are going over the tunnel, that's the only thing that's really mirrored, the status interface that you see in your terminal and that you see in the local web interface. Those are pretty much the same, except that the web interface is much more detailed, because it just has a lot more screen real estate to work with, and things like CSS and graphics, right?
 
@@ -353,7 +353,7 @@ Equinox was built out of this desire to make the installation experience better.
 
 **Alan Shreve:** Honestly, maybe one day I will do that, and I'll find out what the answer to that question is, because I'm really curious, too.
 
-**Jerod Santo:** Well, e-mail us when you do, and we'll have you come back on the show and talk about what happened.
+**Jerod Santo:** Well, email us when you do, and we'll have you come back on the show and talk about what happened.
 
 **Alan Shreve:** Yeah. That'll be a really interesting experiment. But the unfortunate part is it's one of those experiments that you can't really run, right?
 
@@ -367,7 +367,7 @@ Equinox was built out of this desire to make the installation experience better.
 
 **Adam Stacoviak:** Well, earlier he was saying that too, that he was hoping that he can eventually potentially open source even the code, even though paid features will be there. I mean, did I hear you wrong, Alan?
 
-**Alan Shreve:** No, that's totally right. The goal is to find ways to open source parts of it, and maybe eventually the whole thing. I've toyed around a long time with the idea of open sourcing just the client, which might be a thing that happens. Part of it might be actually taking just the protocol for actually setting up the tunnel and actually exposing that as an open source piece as well, or finding way to... I don't know, maybe experimenting with something like what Sourcegraph has done. They have their own kind of modified open source license, which still requires people to pay them for it.
+**Alan Shreve:** No, that's totally right. The goal is to find ways to open source parts of it, and maybe eventually the whole thing. I've toyed around a long time with the idea of open sourcing just the client, which might be a thing that happens. Part of it might be actually taking just the protocol for actually setting up the tunnel and actually exposing that as an open source piece as well, or finding ways to... I don't know, maybe experimenting with something like what Sourcegraph has done. They have their own kind of modified open source license, which still requires people to pay them for it.
 
 **Adam Stacoviak:** That's fair source, right?
 
@@ -415,7 +415,7 @@ Equinox was built out of this desire to make the installation experience better.
 
 **Alan Shreve:** I'm not entirely sure. I think they demo-ed it at some presentation, but I'm not sure where the status of that is right now.
 
-**Adam Stacoviak:** One other thing that we like to ask at the end of the show, Alan, is radar. We have a weekly e-mail that we call Changelog Weekly, it's our editorialized take on our radar. So when we have a guest on, we'd love to learn about your radar. So what's out there - whether it's a technology, or open source... What's out there that if you had a free weekend you'd play with it? Something you wanna play with but you haven't had a chance yet.
+**Adam Stacoviak:** One other thing that we like to ask at the end of the show, Alan, is radar. We have a weekly email that we call Changelog Weekly, it's our editorialized take on our radar. So when we have a guest on, we'd love to learn about your radar. So what's out there - whether it's a technology, or open source... What's out there that if you had a free weekend you'd play with it? Something you wanna play with but you haven't had a chance yet.
 
 **Alan Shreve:** I'm really excited about all of the emerging languages, so I'd probably be playing around with those. I would be excited to try working with Rust some more, to try working with Nim, or Elm, or any of those sorts of things.
 

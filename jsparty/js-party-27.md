@@ -88,7 +88,7 @@ I remember it was at version 0.4 or what have you for a couple years before it g
 
 **Alex Sexton:** Yeah.
 
-**Kevin Ball:** I was in the Ruby world, and I remember when the Rails Asset Pipeline came out, and in dev mode it would literally recompile every time you did a page load. So it would go through all of your assets and redo -- it was \[unintelligible 00:06:56.21\] but the idea that I could make changes and then just refresh the page and it was there was phenomenal.
+**Kevin Ball:** I was in the Ruby world, and I remember when the Rails Asset Pipeline came out, and in dev mode it would literally recompile every time you did a page load. So it would go through all of your assets and redo -- it was as all get-out -- but the idea that I could make changes and then just refresh the page and it was there was phenomenal.
 
 **Alex Sexton:** The asset pipeline was also interesting because it didn't have dependencies as a part of the system, or whatever... So no matter what, it compiled and built everything in every folder of your Javascript app, or whatever. So if you had anything you weren't using, it still would have to run through all that stuff. I remember cleaning plenty of those up.
 
@@ -168,7 +168,7 @@ The problem is that once you add a significant amount to your configuration, the
 
 **Alex Sexton:** CommonJS was just a -- it wasn't just a one-module spec, it was a set of specifications. Both the CommonJS modules that we know (the Node-style modules) and AMD were CommonJS specs. They were written around the same time... But RequireJS was very similar to what Dojo had already done for years. It just worked without eval.
 
-**Christopher Hiller:** The difference there being that RequireJS or AMD is asynchronous, and \[unintelligible 00:21:18.17\] what Browserify used is synchronous.
+**Christopher Hiller:** The difference there being that RequireJS or AMD is asynchronous, and Node require and what Browserify used is synchronous.
 
 **Alex Sexton:** Right. The CommonJS modules as we know them are synchronous and require a build in order to run them on the web, and the case for AMD asynchronous module definitions was that by default the AMD modules did not need a build tool... And I have an article on my blog that everyone can go back and read (from whatever year that was)... I think the default standards for things, and neither ended up becoming a standard, or at least by any definition of standard that -- like, browsers implementing it. But I think you shouldn't be required to run a build tool in order to use Javascript, if that makes sense. It was a nice feature before...
 
@@ -235,7 +235,7 @@ So I was able to use ESLint to create some fancy custom rules to disallow use of
 
 **Alex Sexton:** Well, Chrome Driver is an implementation of it, but yeah...
 
-**Nick Nisi:** The WebDriver \[unintelligible 00:30:46.28\]
+**Nick Nisi:** The WebDriver support.
 
 **Alex Sexton:** WebDriver, that's what it is. So WebDriver is an actual standardized API that all browsers are supposed to implement and kind of do... But yeah, those are so slow and so hard to write in a way that doesn't make them super flaky, that as much as possible doing Jest and Enzyme style, like render this without a browser, and then click the things and check the handlers - that's absolutely like 90% of Stripe's thoughts on writing these tests.
 
