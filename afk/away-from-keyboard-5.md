@@ -1,4 +1,4 @@
-**Tim Smith:** \[00:01:46\] About a month ago I got an email from a man named Justin Dorfman, and I quickly realized that his story would be perfect for this show. Justin is a developer advocate for Sticker Mule, which funnily enough, feels like a job that's taking over the world. I mean, I feel like everyone I know is dev rel these days.
+**Tim Smith:** \[00:01:46\] About a month ago I got an e-mail from a man named Justin Dorfman, and I quickly realized that his story would be perfect for this show. Justin is a developer advocate for Sticker Mule, which funnily enough, feels like a job that's taking over the world. I mean, I feel like everyone I know is dev rel these days.
 
 Justin is a passionate marketer, but if you ask him, he'll tell you this isn't the job he thought he'd have. No, no, no. He was going to be a BMX superstar.
 
