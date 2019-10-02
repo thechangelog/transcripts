@@ -102,7 +102,7 @@ Also, there are a lot of companies that do the opposite. With good intentions, t
 
 **David Kaplan:** Absolutely.
 
-**Jerod Santo:** So how do you still shepherd moving forward together as a unit, as a bunch of individuals working as a team, versus as just this \[unintelligible 00:17:38.23\] collective?
+**Jerod Santo:** So how do you still shepherd moving forward together as a unit, as a bunch of individuals working as a team, versus as just this blobule collective?
 
 **David Kaplan:** Yeah, it's a great question, and the phrase is "align to autonomy." It's a realization that leaders have where "Okay, maybe I don't need to create the whole roadmap. Instead, my job is to create alignment." And there's lots of tried and true methods of doing that now. We use OKRs (objectives and key results), which is gaining a lot of popularity in the industry, and exactly for this reason - it's a way to create alignment around the goals of the company, and make them extremely clear, but without being prescriptive. Of course, it depends on the ability of the leaders to actually create them in that way, so they're not prescriptive.
 
