@@ -402,7 +402,7 @@ I've shown Erik a video and Erik's like, "I don't see anything", and I'm like, "
 
 **Erik St. Martin:** Awesome! I need to remember that, because I've always been looking for apps to do window management when I'm on my Mac. Alright, who's next?
 
-**Carlisia Pinto:** I can go next. This week somebody showed me a tool that is like Go Playground, but for Docker, and it's really cool. This tool was made my [Marcos Nils](https://www.twitter.com/marcosnils). He's from Argentina. He did this tool - it's basically a virtual machine on the web, where you can run Docker containers and create clusters with Docker features, like swarm modes. You can also pair-program... It's really cool, you should check it out. Did you guys know this tool? I'm gonna paste the link. I had never seen it before.
+**Carlisia Pinto:** I can go next. This week somebody showed me a tool that is like Go Playground, but for Docker, and it's really cool. This tool was made by [Marcos Nils](https://www.twitter.com/marcosnils)... I'm sure I'm not saying his last name correctly, sorry Marcos. He's from Argentina. He did this tool - it's basically a virtual machine on the web, where you can run Docker containers and create clusters with Docker features, like swarm modes. You can also pair-program... It's really cool, you should check it out. Did you guys know this tool? I'm gonna paste the link. I had never seen it before.
 
 **Erik St. Martin:** No, I haven't seen it either.
 
