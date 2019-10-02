@@ -10,7 +10,7 @@ Today on the show we have myself, Erik St. Martin, we also have Carlisia Pinto..
 
 **Erik St. Martin:** Brian and I have talked about Kafka and our love for it a number of times through a couple of episodes, and I think we've even mentioned the project, so today's special guest is Travis Jeffery, here to talk to us about Jocko, which is a Go implementation of Kafka... Mixing two worlds we love!
 
-**Brian Ketelsen:** I know, it's too great taste to taste together... When you get your peanut butter in my Kafka, I couldn't be happier.
+**Brian Ketelsen:** I know, it's two great tastes to taste together... When you get your peanut butter in my Kafka, I couldn't be happier.
 
 **Erik St. Martin:** So you wanna talk to us a little bit about the project and your motivation behind it?
 
@@ -30,7 +30,7 @@ When I was around 12 I picked up a book - I think it was The Pro Book, and the s
 
 **Travis Jeffery:** Yeah, and a little bit after that DHH put up the How To Build A Blog In 10 Or 15 Minutes, and I was like "Holy crap, that's crazy", and that's how I got started making web software.
 
-Just before university, I started contributing to open source stuff; I contributed to Emacs and Vim and Django early on, and then Rail. Then between the first and second year of university, I started getting recruited by the big bad companies like Google. Around this time, when I first went o university I thought I was gonna be a math professor. Then I started warming up to the idea that I would be a programmer because I was spending all my time programming on open source.
+Just before university, I started contributing to open source stuff; I contributed to Emacs and Vim and Django early on, and then Rails. Then between the first and second year of university, I started getting recruited by the big tech companies like Google. Around this time, when I first went to university I thought I was gonna be a math professor. Then I started warming up to the idea that I would be a programmer because I was spending all my time programming on open source.
 
 Once I started getting those recruiting mails and I asked one of them, "If I don't finish my degree, can you get me into the U.S.?" and they were like, "Yes", and then I was like, "Okay, well I'm done." So I dropped out and started a startup with some friends and we ended up selling out to Shopify.
 
@@ -38,7 +38,7 @@ After that I went and worked at Basecamp (37Signals) and that was pretty cool, t
 
 \[00:03:59.20\] I ended up joining there, and that's how I was introduced to Go, because originally Segment IO was built on NodeJS, and we started to scale up and it got to the point where Node's event loop would be blocked all the time processing JSON, and so that's how I started to introduce Go, and ultimately we ended up having dozens of microservices built on Go.
 
-Today I am head of architecture at another analytics company called Taplytics So that's what I'm doing now. In the future I would like to bootstrap my own company, maybe write some scripts... I wanna make movies one day, I think that would be cool, and do lots of writing. So that's what I'm about.
+Today I am head of architecture at another analytics company called Taplytics. So that's what I'm doing now. In the future I would like to bootstrap my own company, maybe write some scripts... I wanna make movies one day, I think that would be cool, and do lots of writing. So that's what I'm about.
 
 **Erik St. Martin:** Nice. So what was the primary motivation for doing Kafka in Go?
 
@@ -53,7 +53,7 @@ But basically, the whole idea behind Jocko was writing a Kafka that would be rea
 
 **Brian Ketelsen:** The thing that I think is the most magical about Kafka is that you can use it as your system of record, and I think that's the power of Kafka for me - the idea that this crazy thing that looks and acts a little bit like Git, and the queue and the database, all at the same time can be your system of record for all of your other applications, and that's the way I like using Kafka the most - pushing all changes to Kafka and then having other systems read off of Kafka for replication of those changes.
 
-**Erik St. Martin:** Yeah, I mean it's really great for stuff like that... Brian and I worked together on some projects where... Depending on your use case, sometimes you want the same data in multiple data stores, so Kafka is kind of like a really great of being a system of record and then having all those data stores populate themselves so that you can access them in different use cases.
+**Erik St. Martin:** Yeah, I mean it's really great for stuff like that... Brian and I worked together on some projects where... Depending on your use case, sometimes you want the same data in multiple data stores, so Kafka is kind of like a really great way of being a system of record and then having all those data stores populate themselves so that you can access them in different use cases.
 
 **Travis Jeffery:** Yeah, you can think of it as like a data hub for all your data, basically. At Segment, a lot of times what we would do is that basically something would go into Kafka, a worker would pull that off, do some processing on it, and then put it back into another Kafka topic, and then so on and so forth, until finally it went out to a database, or something like that.
 
@@ -65,7 +65,7 @@ But basically, the whole idea behind Jocko was writing a Kafka that would be rea
 
 Another awesome thing is basically managing your dependency graph, so rather than having services that communicate to each other directly, you can just have your workers, which don't know their relationship to each other - they just read from Kafka and then put something else back on to Kafka, so they have no idea about each other... That's another awesome thing. You can just plugin workers as much as you want.
 
-**Erik St. Martin:** Yeah, it's basically kind of like using goroutines and channels. For instance, you don't really care about the things that are consuming stuff from your channel, just that you're pushing data to a channel that you're responsible for producing data on, or you're receiving it and doing some sort of work on it. You don't really have to be aware of all the other components in the system.
+**Erik St. Martin:** Yeah, it's basically kind of like using goroutines and channels. For instance, you don't really care about the things that are consuming stuff from your channel, just that you're either pushing data to a channel that you're responsible for, producing data on, or you're receiving it and doing some sort of work on it. You don't really have to be aware of all the other components in the system.
 
 **Travis Jeffery:** Yeah, and the same topic can also be consumed by various consumer groups. Let's say one group reads from it and they make that data immediately available. Maybe it will put it into a cache or something, and then another consumer can take that data and it will do something to it to make it available for long-term storage.
 
@@ -346,7 +346,7 @@ I like seeing different people's perspectives, because Go came out and it was re
 
 **Erik St. Martin:** That's pretty cool... I think we determined, you have to compile it into your project in order to inspect what's going on in there, but really cool tool.
 
-**Brian Ketelsen:** One thing we should mention, we are recording this and live on 19th January. Our CFP for GopherCon ends of the 31st January. If you want to put a talk proposal in for GopherCon, you're running out of time, and trust me, you want to put a talk in for GopherCon. You, out there, humble GoTime FM listener, have something to share with the Go community and we wanna hear it.
+**Brian Ketelsen:** One thing we should mention, we are recording this and live on January 19th. Our CFP for GopherCon ends of the 31st of January. If you want to put a talk proposal in for GopherCon, you're running out of time, and trust me, you want to put a talk in for GopherCon. You, out there, humble GoTime FM listener, have something to share with the Go community and we wanna hear it.
 
 **Carlisia Pinto:** Absolutely.
 
@@ -354,7 +354,7 @@ I like seeing different people's perspectives, because Go came out and it was re
 
 But if you wait till the last 48 hours, nobody will have time to respond back to you to give you feedback as to what you might be able to change to make it more appealing. And also, Dave Cheney wrote a post on the Gopher Academy blog too, giving helpful insight into writing a proposal for the conference.
 
-\[00:39:56.25\] I think that part of that can get misunderstood, too. I think people think that it has to be this crazy, highly technical proposal. I forget that sentence that was getting confused, but the basic idea of it though is we get a lot of one-sentence and two-sentence submissions. None of the reviewers know who you are, they only know what you put in that box, so that's why we talk about making sure you put enough information in there where people can gauge your knowledge of whether you'll be able to lay it out in a flow that will fit within your time and it won't be bouncing all over.
+\[00:39:56.25\] I think that part of that can get misunderstood, too. I think people think that it has to be this crazy, highly technical proposal. I forget that sentence that was getting confused, but the basic idea of it though is we get a lot of one-sentence and two-sentence submissions. None of the reviewers know who you are, they only know what you put in that box, so that's why we talk about making sure you put enough information in there where people can gauge your knowledge level or that you'll be able to lay it out in a flow that will fit within your time and it won't be bouncing all over.
 
 If you say, "I wanna talk about Go logging" and that's your proposal, that's gonna be really hard for the reviewers to be like, "Oh yeah, let's..." Logging may be something that everybody's very interested in seeing something about, but we don't know how well you know that topic, we don't know how you're gonna frame it, are the attendees gonna leave with more questions than answers, what's the takeaway... That's the thing. And we get a lot of one and two-sentence proposals.
 
@@ -372,7 +372,7 @@ That's really what we're looking for when we're trying to figure out the qualifi
 
 **Brian Ketelsen:** And the final note before we change the subject on that is that all accepted speakers will be assigned a mentor. So if you've never talked before, but you feel like it's time for you to get out there and spread your wings a little bit, we will assign you an experienced speaker who will help you every step of the way, and make sure that when you get up on stage you're confident and you give the best talk that you can possibly give. So don't be shy, don't be afraid.
 
-**Erik St. Martin:** Me, Brian and Dave have been known to have many a late night at the conference, sitting in hotel rooms where people give dry runs. We're committed to helping people give good talks and to feel comfortable getting on stage. Another note, we don't make it too clear and a lot of people don't submit because they're worried about compensation, like how are they gonna get there, because many conferences maybe provide you a ticket, so you really have to rely on your employer to sponsor you. We do pay hotel, airfare and everything for our speakers to come out, so don't let not being able to pay for travel and expenses hinder your from submitting, because we've got it covered.
+**Erik St. Martin:** Me, Brian and Dave have been known to have many a late night at the conference, sitting in hotel rooms where people give dry runs. We're committed to helping people give good talks and to feel comfortable getting on stage. Another note, we don't make it too clear and a lot of people don't submit because they're worried about compensation, like how are they gonna get there, because many conferences maybe provide you a ticket, so you really have to rely on your employer to sponsor you. We do pay hotel, airfare and everything for our speakers to come out, so don't let not being able to pay for travel and expenses hinder you from submitting, because we've got it covered.
 
 **Brian Ketelsen:** \[00:44:10.06\] That was like the GopherCon sub-segment there.
 
@@ -382,7 +382,7 @@ That's really what we're looking for when we're trying to figure out the qualifi
 
 **Erik St. Martin:** It's a big event for everybody, and it's really cool to see people come up on stage, and I'd love to see as many people take the opportunity as they can. I don't think it hurts at all.
 
-**Carlisia Pinto:** One more thing too is that GopherCon is accepting talks, keynotes, normal, regular talks, but also a tutorial in workshops. If you don't think you can give a lecture, maybe you can give a workshop teaching something. Maybe that'll be easier.
+**Carlisia Pinto:** One more thing too is that GopherCon is accepting talks, keynotes, normal, regular talks, but also tutorial and workshops. If you don't think you can give a lecture, maybe you can give a workshop teaching something. Maybe that'll be easier.
 
 **Brian Ketelsen:** Yeah, we have three different types of proposals that are accepted. We've got the plenary talks, 25-minute talks up on the big stage, we've got the tutorials, which are 45-minute talks in our split-outs in the afternoons, and then we've got workshops, which are entire-day classes that you can teach the day before the conference. So there's a way for you to engage in GopherCon no matter what you wanna teach.
 
@@ -418,9 +418,9 @@ Alright, so \#FreeSoftwareFriday... I know we're on a tight timeline with Carlis
 
 **Brian Ketelsen:** Yeah, right?
 
-**Carlisia Pinto:** The other interesting thing is that I remember him posting on Twitter maybe three months ago (four, tops) asking if there was the equivalent of Prometheus for logs, which means he wrote this afterwards, so... I don't know how somebody can whip us something this complex so quickly.
+**Carlisia Pinto:** The other interesting thing is that I remember him posting on Twitter maybe three months ago (four, tops) asking if there was the equivalent of Prometheus for logs, which means he wrote this afterwards, so... I don't know how somebody can whip up something this complex so quickly.
 
-**Brian Ketelsen:** He had a little help, and he started with the concepts from GoKit as their base, so it's certainly... I don't think it happened all alone and all Peter in just a month or so. I think Chris Heinz was deeply involved too, and several others. It still looks amazing, and I'm not diminishing the amount of effort put into it by any means.
+**Brian Ketelsen:** He had a little help, and they started with the concepts from GoKit as their base, so it's certainly... I don't think it happened all alone and all Peter in just a month or so. I think Chris Heinz was deeply involved too, and several others. It still looks amazing, and I'm not diminishing the amount of effort put into it by any means.
 
 What about you, Erik? Did you come up with something good this week for \#FreeSoftwareFriday?
 
@@ -434,7 +434,7 @@ What about you, Erik? Did you come up with something good this week for \#FreeSo
 
 **Travis Jeffery:** Yeah, I wanted to share Redis and Salvatore Sanfilippo - an old project that's been going on for a long time now. I think it was released in 2009, and it still feels as useful and as fresh as when it came out. I've been using it for a long time and there's so many use cases for it... Sometimes people think of it as a key/value store, but it's really a data structure service. If you have multiple services that wanna use the same set, or something like that, it can do a lot. I've even made like a time series database in that thing, so it's pretty cool.
 
-He also recently put out one of my favorite blog posts about a release, and I'll just read a little bit here where it says, "The first release candidate of Redis 4.0 is not yet stable, but it's soon to become, and comes with a long list of things that will make Redis more useful for we users. Finally, Redis 4.0 release candidate one is here, and is bold enough to call itself 4.0 instead of 3.4. For me, semantic versioning is not a thing. What I like instead is trying to communicate using version numbers and jumps what's up with the new version. In this specific case, 4.0 means this is the poop."
+He also recently put out one of my favorite blog posts about a release, and I'll just read a little bit here where it says, "The first release candidate of Redis 4.0 is out. It's not yet stable, but it's soon to become, and comes with a long list of things that will make Redis more useful for we users. Finally, Redis 4.0 release candidate one is here, and is bold enough to call itself 4.0 instead of 3.4. For me, semantic versioning is not a thing. What I like instead is trying to communicate using version numbers and jumps what's up with the new version. In this specific case, 4.0 means this is the poop."
 
 **Brian Ketelsen:** \[laughs\] The shizz?
 
