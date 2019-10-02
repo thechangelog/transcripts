@@ -44,7 +44,7 @@ We talked for a few minutes, and then Ken was in the next office, so I ran and g
 
 For me, it definitely would have not been possible to just do another project, because I actually just had started on another new project, which was the V8 interpreter for the upcoming new Javascript implementation that Google was working on for Chrome... So for the longest time, in fact, I tried to squeeze this in until I finally managed to get my manager to accept the fact that maybe I wanna do something else.
 
-**Rob Pike:** We definitely still all had real jobs, and so we had to squeeze this in... But I must say that our boss - or at least my boss and Ken's boss - at the time, Bill \[unintelligible 00:06:55.10\] who had come with us from Bell Labs, was extremely supportive in the early days to give us the freedom to do a significant amount of time on this, and had to defend us several times from people who thought we should be doing something else. But by about six months to a year later, I think we were all full-time on it.
+**Rob Pike:** We definitely still all had real jobs, and so we had to squeeze this in... But I must say that our boss - or at least my boss and Ken's boss - at the time, Bill Corrin who had come with us from Bell Labs, was extremely supportive in the early days to give us the freedom to do a significant amount of time on this, and had to defend us several times from people who thought we should be doing something else. But by about six months to a year later, I think we were all full-time on it.
 
 **Robert Griesemer:** That's correct, yeah. I'd agree with Rob's assessment here. We owe a huge thanks to \[unintelligible 00:07:23.11\] because if he had not given us the leeway to do this, this probably wouldn't have happened.
 
