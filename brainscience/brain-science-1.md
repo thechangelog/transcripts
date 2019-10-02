@@ -126,7 +126,7 @@ Imagine thinking about the way you drive to work. I can't really use that with y
 
 **Mireille B. Reece, Psy.D:** "I don't remember that entire drive." So it's been so habituated, that neural network is so strong that you're like "This is just what we do", and sort of on autopilot you just do it.
 
-**Adam Stacoviak:** \[00:20:00.17\] That happened today, actually. We were driving somewhere -- it was last night for dinner; and I'm getting ready to make a left, and Heather is like "No, you're gonna go straight here." That happens often, by the way... But the point was when I'm at this particular stoplight I tend to make a left, because I'm going into Tomball, and not onto the highway to go to the Woodlands, or whatever. So my brain is like "When you're here, you should be making a left", and so I habitually was like "Left turn's here,not gonna make a left", even though I know where we're trying to go.
+**Adam Stacoviak:** \[00:20:00.17\] That happened today, actually. We were driving somewhere -- it was last night for dinner; and I'm getting ready to make a left, and Heather is like "No, you're gonna go straight here." That happens often, by the way... But the point was when I'm at this particular stoplight I tend to make a left, because I'm going into Tomball, and not onto the highway to go to the Woodlands, or whatever. So my brain is like "When you're here, you should be making a left", and so I habitually was like "Left turn signal, gonna make a left", even though I know where we're trying to go.
 
 **Mireille B. Reece, Psy.D:** Right. Because your brain has just been well-practiced. So if your attention isn't on where you were switching gears to go "Oh yeah, today we're going this way", then you're just gonna do what's been automated.
 
