@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-151-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-152-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -221,6 +221,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/LishiTrinity"><img src="https://avatars2.githubusercontent.com/u/33502324?v=4" width="100px;" alt="LishiTrinity"/><br /><sub><b>LishiTrinity</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=LishiTrinity" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/ritikeshvali"><img src="https://avatars0.githubusercontent.com/u/32462019?v=4" width="100px;" alt="Ritikesh vali"/><br /><sub><b>Ritikesh vali</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=ritikeshvali" title="Documentation">📖</a></td>
   </tr>
 </table>
 
