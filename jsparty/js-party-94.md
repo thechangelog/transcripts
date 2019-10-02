@@ -64,7 +64,7 @@ One of the things that's happening is there's the Caniuse repo, and then there's
 
 **Suz Hinton:** I had trouble with this, because actually a lot of the initial programming that I did was related to games, or was related to something that basically had to always be performing in a loop. Even embedded hardware is exactly the same - you have your setup and your update functions... So it was very difficult for me to cross into things like CRUD applications, and even things like MVC, because I was like "This is so completely different to what I'm used to." I actually found the game programming more comforting for a while, just because it was what I knew. So it's really interesting hearing that you see the other way around, Jerod.
 
-**Jerod Santo:** Yeah. Different foundations tend to have different perspectives, for sure. One thing I said jokingly about this on Changelog News is we have seen Nintendo start to port their games -- not port, that's the wrong term... Create games, based on their characters and their previous intellectual property, to mobile platforms. Dr. Mario World is on iOS, probably Android as well. Mario Kart also is coming soon to mobile devices... And I jokingly said "Well, here's Mario \[unintelligible 00:11:08.03\] maybe it's time that they consider the web platform as their next platform", because they've moved from their own devices now to mobile devices, somebody else's platform.
+**Jerod Santo:** Yeah. Different foundations tend to have different perspectives, for sure. One thing I said jokingly about this on Changelog News is we have seen Nintendo start to port their games -- not port, that's the wrong term... Create games, based on their characters and their previous intellectual property, to mobile platforms. Dr. Mario World is on iOS, probably Android as well. Mario Kart also is coming soon to mobile devices... And I jokingly said "Well, here's Mario in html maybe it's time that they consider the web platform as their next platform", because they've moved from their own devices now to mobile devices, somebody else's platform.
 
 But taking that joke seriously... Are things holding the web back that would stop Nintendo from actually being able to -- I mean, this is a simplified version of Mario World, of course; an 8-bit game from back in the '80s. We have seen some good web games out there, and frameworks and whatnot to help create those kind of games, but what about the games at a level of polish that a Nintendo would require...? Do you think they would ever consider the web as a potential platform?
 
@@ -116,7 +116,7 @@ The thing I really liked about it was they described the problems they were havi
 
 \[00:20:13.27\] They have a flex-grow applied to it, and it says "Flex-grow has no effect on this element, since it's not a flex item." So they've applied flex-grow, but they forgot to put flex whatever, display flex... So it's just like "Hey, this doesn't do anything, so it's basically worthless code at this point. Go ahead and go fix that." It's such a cool -- it seems almost like... You know when things are obvious in retrospect? You're like "Of course we've always wanted this... I just didn't think of it." Am I the only one that's that excited about this feature, or is this pretty cool?
 
-**Divya Sasidharan:** I think it's cool. Then it prevents us from having to do like "color: red", and various things \[unintelligible 00:20:45.16\] \[laughter\]
+**Divya Sasidharan:** I think it's cool. Then it prevents us from having to do like "color: red", and various things in CSS \[laughter\]
 
 **Jerod Santo:** Exactly.
 
@@ -176,7 +176,7 @@ So if you're using the old one, you should make that switch. "Do not ignore depr
 
 **Suz Hinton:** When you said that you were trying to disable it, I didn't actually know that it stopped working as well, and in my head I was like "But accessibility...! No way you do that!" \[laughter\] So that makes me really happy.
 
-**Nick Nisi:** Well, I don't know... The apps looks good. I was assuming on iOS if you set your font size to be bigger, than would apply to Safari as well, so maybe you wouldn't need to zoom in... I don't know, I'm not thinking deeply enough about accessibility issues on this particular case. I know there's several issues I'm overlooking, but... Yeah, so it doesn't work, and you can't \[unintelligible 00:31:48.22\] which is good for accessibility, and it's okay for that anyway; the app still works fine. I can just no double-tap or zoom out when I do.
+**Nick Nisi:** Well, I don't know... The apps looks good. I was assuming on iOS if you set your font size to be bigger, than would apply to Safari as well, so maybe you wouldn't need to zoom in... I don't know, I'm not thinking deeply enough about accessibility issues on this particular case. I know there's several issues I'm overlooking, but... Yeah, so it doesn't work, and you can't stop someone  which is good for accessibility, and it's okay for that anyway; the app still works fine. I can just no double-tap or zoom out when I do.
 
 **Suz Hinton:** \[00:32:01.28\] To a degree, you have to have boundaries where you give up control, and just be like "You know what - it's okay if the site fails because of some strange thing", that the user did for their own purposes of being able to actually use your app.
 
