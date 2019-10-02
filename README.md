@@ -16,7 +16,7 @@ The repository of [Changelog](https://changelog.com) episode transcripts in Mark
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST nothing much to write:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 <table>
   <tr>
