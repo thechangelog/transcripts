@@ -34,7 +34,7 @@ Just before university, I started contributing to open source stuff; I contribut
 
 Once I started getting those recruiting mails and I asked one of them, "If I don't finish my degree, can you get me into the U.S.?" and they were like, "Yes", and then I was like, "Okay, well I'm done." So I dropped out and started a startup with some friends and we ended up selling out to Shopify.
 
-After that I went and worked at Basecamp (37Signals) and that was pretty cool, to end up doing that. Then I wanted to do another startup again, so I talked to one of my friends, \[unintelligible 00:03:49.24\] and I asked him where he was working, and he was telling me about this company Segment IO, which was like an analytics data startup.
+After that I went and worked at Basecamp (37Signals) and that was pretty cool, to end up doing that. Then I wanted to do another startup again, so I talked to one of my friends, TJ Holowaychuk and I asked him where he was working, and he was telling me about this company Segment IO, which was like an analytics data startup.
 
 \[00:03:59.20\] I ended up joining there, and that's how I was introduced to Go, because originally Segment IO was built on NodeJS, and we started to scale up and it got to the point where Node's event loop would be blocked all the time processing JSON, and so that's how I started to introduce Go, and ultimately we ended up having dozens of microservices built on Go.
 
@@ -44,7 +44,7 @@ Today I am head of architecture at another analytics company called Taplytics. S
 
 **Travis Jeffery:** So I've been using Kafka for a couple years now, and it's pretty awesome, I love Kafka a lot. There are some annoying things... For one thing, it comes with some baggage, like the JVM and Zookeeper. You know, they're not the nicest things, as you have to maintain Zookeeper and all that stuff... And another thing was that I don't particularly like how Kafka does configuration. That's one thing I'd like to improve on it.
 
-For instance, you can configure a topic to have a certain amount of data on a broker, how much data it will retain, and let's say you then add another topic, and that topic gets assigned to that broker. It can then go over the amount of data that you wanna \[unintelligible 00:05:32.19\] Basically, what you wanna do is set a percentage, for example... Like, say that 10% of your disk will go to a certain topic, which Kafka doesn't support, so that's one thing I'd like to do.
+For instance, you can configure a topic to have a certain amount of data on a broker, how much data it will retain, and let's say you then add another topic, and that topic gets assigned to that broker. It can then go over the amount of data that you wanted to save,  because... Basically, what you wanna do is set a percentage, for example... Like, say that 10% of your disk will go to a certain topic, which Kafka doesn't support, so that's one thing I'd like to do.
 But basically, the whole idea behind Jocko was writing a Kafka that would be really easy to set up... So I would distribute a single binary, I wouldn't depend on Zookeeper, I would maintain protocol compatibility so that people that use Kafka now, they can just drop Jocko in and it would work the same, and it would be compatible with Kafka clients and everything. That was basically the idea.
 
 **Erik St. Martin:** I wonder whether we should roll back a little bit too and talk a bit about what Kafka is and what it's useful for, too.
@@ -282,7 +282,7 @@ I've had several occasions where I've needed something similar to that, and I'm 
 
 **Erik St. Martin:** Yeah... I mean, I used godeps early on, so I don't know what features are there now, but one of the things I like about Go Vendor is some of the little tags that you can use, like "Tell me which things are missing", "Tell me which things are in my normal GOPATH but not in my vendor directory" by just doing a golist plus external, or things like that. So there was some of that, I guess, but I'm still eagerly seeking something better... Always looking for greener pastures. So yeah, a lot of good stuff here.
 
-Somebody in the channel also mentioned one of Brian's favorite people in the world, the Go versus Rust debate \[unintelligible 00:30:39.10\]
+Somebody in the channel also mentioned one of Brian's favorite people in the world, the Go versus Rust debate with ESR.
 
 **Brian Ketelsen:** Oh, don't get me started me started on ESR. So I've read his blog post, first of all, and it was actually a very well thought out blog post, but I still can't stand the man. Do we have to have this discussion?
 
@@ -338,7 +338,7 @@ I like seeing different people's perspectives, because Go came out and it was re
 
 **Erik St. Martin:** I feel like there was something I dropped in our channel earlier this week, and I completely am losing track of what it is.
 
-**Travis Jeffery:** I don't know if you guys have mentioned this, but it's called \[unintelligible 00:38:10.27\], another project by Google. It's a command to list and diagnose Go processes currently running on your system.
+**Travis Jeffery:** I don't know if you guys have mentioned this, but it's called gops, another project by Google. It's a command to list and diagnose Go processes currently running on your system.
 
 **Erik St. Martin:** Yeah, JBD was working on that, right?
 
@@ -442,7 +442,7 @@ He also recently put out one of my favorite blog posts about a release, and I'll
 
 **Brian Ketelsen:** That's awesome. I can't imagine the world without Redis. It's been around for a long time and it's still fast as heck. Awesome stuff.
 
-**Travis Jeffery:** And they recently added a module support. I think he (Salvatore) actually created a module that implements like a \[unintelligible 00:50:11.20\] Redis, so...
+**Travis Jeffery:** And they recently added a module support. I think he (Salvatore) actually created a module that implements like a neural network in Redis, so...
 
 **Brian Ketelsen:** Oh, wow...
 
@@ -534,7 +534,7 @@ The new Gopher Academy website is written in Buffalo, the new GopherCon website 
 
 **Brian Ketelsen:** Yeah, when Carlisia left, everything got informal. \[laughter\]
 
-**Travis Jeffery:** Do you guys wanna talk about this Golang \[unintelligible 00:57:30.06\] discussion about the standard login interface?
+**Travis Jeffery:** Do you guys wanna talk about this Golang dev discussion about the standard login interface?
 
 **Brian Ketelsen:** You mean the one I started?
 
