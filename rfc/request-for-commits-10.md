@@ -6,11 +6,11 @@
 
 **Mikeal Rogers:** Charlotte is the creator of Your First PR, an organization that helps people make their first open source contribution, and helps projects attract new contributors.
 
-**Nadia Eghbal:** In our time with Charlotte we got inside the head of first-time contributors and talked about what projects can do to attract, retain and communicate with contributors.
+**Nadia Eghbal:** In our time with Charlotte we will get to know what's inside the head of first-time contributors and talk about what projects can do to attract, retain and communicate with contributors.
 
 Charlotte, let's kick things off. What was your very first PR?
 
-**Charlotte Spencer:** I had to check before we had this conversation. If you're using firstpr.me, by the lovely Andrew, who I believe that you had on your podcast a couple of weeks ago...
+**Charlotte Spencer:** I had to check before having this conversation. If you're using firstpr.me, by the lovely Andrew, who I believe that you had on your podcast a couple of weeks ago...
 
 **Nadia Eghbal:** Oh, Andrew Nesbitt.
 
@@ -18,21 +18,21 @@ Charlotte, let's kick things off. What was your very first PR?
 
 **Nadia Eghbal:** Was this part of the 24 Pull Requests?
 
-**Charlotte Spencer:** No, I've just grown up; I had the nickname spell checker, because I'm physically unable to do anything until I've corrected a spelling mistake... So I just saw it, and then discovered that I could press "Edit" on the page, and then did the thing.
+**Charlotte Spencer:** No, I've just grown up like that; I have the nickname spell checker, because I'm physically unable to do anything until I've corrected a spelling mistake... So I just saw it, and then discovered that I could press "Edit" on the page, and then did the thing.
 
 **Nadia Eghbal:** Was it scary to make your first PR, or was it just sort of like "Oh, easy edit."
 
 **Charlotte Spencer:** Oh no, it was kind of scary because I wasn't even a programmer at this point. I just knew what GitHub was. This was done three years ago, and I've actually been a programmer for two years. So it was kind of a "I hope no one is mean to me and this is the right thing to do." But it went really well, and they said thank you. Always thank your contributors. It was relatively straightforward, though scary.
 
-**Nadia Eghbal:** Given that you've also recently learned how to program, and at the same time were getting into open source - I'm curious how those experiences were similar or different.
+**Nadia Eghbal:** Given that you've also recently learned how to program, and at the same time were getting into open source - I'm curious whether those experiences were similar or different.
 
-**Charlotte Spencer:** I'd say learning to do open source is obviously aided by being a developer, but I felt like the skill sets are very different. You can learn how to code, but you can do that in isolation, you can do that on your own. You can work on your own, you can be a contractor on your own in your little bedroom (where I am currently), but open source - you have to talk to people a lot, and it's way more tiring in my opinion than actually programming.
+**Charlotte Spencer:** I'd say learning to do open source is obviously aided by being a developer, but I felt like the skill sets are very different. You can learn how to code, but you can do that in isolation, you can do that on your own. But in open source - you have to talk to people a lot, and it's way more tiring in my opinion than actually programming.
 
 You're a developer, and then you have to go, "Oh wow, there are all these people who have opinions and need my help." So there's a lot more social aspect that has to be learned with open source, which is quite difficult. People call them soft skills, but I think they're hard skills.
 
 **Nadia Eghbal:** It seems scarier somehow.
 
-**Charlotte Spencer:** Yeah, well there are people - particularly when you become a project maintainer... There are lots of people who expect something of you. Like, you need to always be on and you need to always be ready to answer a question, but like "I'm in bed. Leave me alone." \[laughs\] Which I haven't said to anybody yet.
+**Charlotte Spencer:** Yeah, well there are people - particularly when you become a project maintainer... There are lots of people who expect something out of you. Like, you need to always be present and ready to answer a question, except "I'm in bed. Leave me alone." \[laughs\] Which I haven't said to anybody yet.
 
 **Mikeal Rogers:** Are there any projects that do a better job of onboarding into that social atmosphere?
 
