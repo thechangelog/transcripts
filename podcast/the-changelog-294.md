@@ -95,7 +95,7 @@ I would product-manage and I would do UX design with them kind of in real-time, 
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** We see in plain view a fairly simple drawing, but behind the scenes there's all these thoughts, and the run, and the processing, and the \[unintelligible 00:15:49.09\] and then all the post-it notes to the wall... It's a process, Lin, that's pretty intense. It's true artistry.
+**Adam Stacoviak:** We see in plain view a fairly simple drawing, but behind the scenes there's all these thoughts, and the run, and the processing, and the filling to the brim and then all the post-it notes to the wall... It's a process, Lin, that's pretty intense. It's true artistry.
 
 **Lin Clark:** \[00:15:57.16\] It is intense, and I'm so exhausted after every single one... I'm just ready to collapse.
 
