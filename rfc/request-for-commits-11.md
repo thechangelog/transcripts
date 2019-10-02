@@ -4,7 +4,7 @@
 
 **Nadia Eghbal:** On today's show, Mikeal and I talk with Brendan Eich, who founded Brave, an open source web browser based on Chromium. He's also the creator of Javascript and co-founder of Mozilla.
 
-**Mikeal Rogers:** We talked with Brendan about how the web has been founded, including a look back on the early browser wars and emerging monetization models.
+**Mikeal Rogers:** We'll talk with Brendan about how the web was founded, including a look back on the early browser wars and emerging monetization models.
 
 **Nadia Eghbal:** We also talked about why big problems are hard to solve for the internet, and the tradeoffs between centralization and distribution.
 
