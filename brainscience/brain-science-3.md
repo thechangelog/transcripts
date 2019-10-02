@@ -202,7 +202,7 @@ I don't know if we've talked about this research study about the radishes and th
 
 \[00:23:50.19\] The next group, they said "Hey, you guys can eat as many radishes as you want, but no cookies. You need to stay away from those." And the last group, they were like "I know you see this plates of radishes and cookies, but you need to just totally abstain, alright? We'll be back in a little while."
 
-So after some time passed, they came in and gave the different groups puzzles to solve. The only problem was that these puzzles weren't actually solvable. \[unintelligible 00:24:16.10\]
+So after some time passed, they came in and gave the different groups puzzles to solve. The only problem was that these puzzles weren't actually solvable.Right, always psychologists, I'll tell you.
 
 **Adam Stacoviak:** Right... Pulling some sort of game.
 
@@ -318,7 +318,7 @@ I really think that is a key part, because as we talked about initially too, fee
 
 **Mireille B. Reece, Psy.D:** \[laughs\] But recognizing that this is part of the unique design. So how then do I hack my unique design that's going to work? And I also think of that -- now I'm gonna pull in (while we're unique) that social component of going "We're all embedded in other relationships and families." So just like you talked about the way in which mountain-biking not only works for you, but with your family, I think of it like my team - like, who's on my team? Who am most often around, that accompany me?
 
-In the world of \[unintelligible 00:38:02.03\] talked about our board of advisors, because their brains didn't work as well. Like, "Who's on my board of advisors?" Who would assist me in being my best me, that my choices actually have a direct or indirect impact on them?
+In the world of brain injury talked about our board of advisors, because their brains didn't work as well. Like, "Who's on my board of advisors?" Who would assist me in being my best me, that my choices actually have a direct or indirect impact on them?
 
 **Adam Stacoviak:** Yeah, that's true.
 
