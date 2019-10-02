@@ -1,10 +1,10 @@
-**Nadia Eghbal:** I'm Nadia Eghbal.
+**Nadia Eghbal:** Hello everyone, I'm Nadia Eghbal.
 
 **Mikeal Rogers:** And I'm Mikeal Rogers.
 
-**Nadia Eghbal:** On today's show, Mikeal and I talked with Karl Fogel, author of Producing Open Source Software. Karl served on the board of the Open Source Initiative, which coined the term 'open source' and helped write Subversion. He's currently a partner at Open Tech Strategies, helping major organizations use open source to achieve their goals.
+**Nadia Eghbal:** Our guest for today's show is the eminent Karl Fogel, author of Producing Open Source Software. Karl has served on the board of the Open Source Initiative, which coined the term 'open source' and helped write Subversion. He's currently a partner at Open Tech Strategies, helping major organizations use open source to achieve their goals.
 
-**Mikeal Rogers:** Our focus on today's episode with Karl was about what has changed in open source since he first published his book ten years ago. We talked about the influence of Git and GitHub, and how they've changed both development workflows and our culture.
+**Mikeal Rogers:** Our focus on today's episode with Karl will be about what has changed in open source since he first published his book ten years ago. We will also talk about the influence of Git and GitHub, and how they've changed both development workflows and our culture.
 
 **Nadia Eghbal:** We also talked about changes in the wider perception of open source, whether open source has truly won, and the challenges that still remain.
 
