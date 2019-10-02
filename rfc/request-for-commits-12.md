@@ -4,17 +4,17 @@
 
 **Mikeal Rogers:** And I'm Mikeal Rogers.
 
-**Nadia Eghbal:** On today's show, Mikeal and I talked with Evan You. Evan is the creator of Vue.js, a Javascript framework that recently reached two million downloads. Evan works full-time on Vue and currently funds his work through Patreon.
+**Nadia Eghbal:** On today's show, Mikeal and I talk with Evan You. Evan is the creator of Vue.js, a Javascript framework that recently reached two million downloads. Evan works full-time on Vue and currently funds his work through Patreon.
 
-**Mikeal Rogers:** Our focus with Evan was crowdfunding and community organizing. We talked about what it's like to use Patreon to fully fund yourself, why he decided to do it, and how he balances his own paid work for the growing community of contributors.
+**Mikeal Rogers:** Our focus with Evan is on crowdfunding and community organizing. We'll talk about what it's like to use Patreon to fully fund yourself, why he decided to do it, and how he balances his own paid work for the growing community of contributors.
 
-**Nadia Eghbal:** We also talked about running a community project in the midst of other corporate players and where he sees the future of Vue.
+**Nadia Eghbal:** We'll also talk about running a community project in the midst of other corporate players and where he sees the future of Vue.
 
 Evan, you started Vue while you were at Google... Is that also where you started getting into open source, or did you have a background in open source before then?
 
-**Evan You:** Well, it's an interesting question because I had a small project when I was still in school called HTML5 Player. It was kind of like my first ever project that got some attention. It had several hundred stars on GitHub. That was my first taste of people paying attention to your open source work. But it was not particularly an open source project, it was more like just some code that I decided to post online for whatever reason... So I think Vue is technically the first open source project that I put online and was dedicated to maintaining it.
+**Evan You:** Well, it's an interesting question because I had a small project when I was still in school, called HTML5 Player. It was kind of like my first ever project that got some attention. It had several hundred stars on GitHub. That was my first taste of people paying attention to your open source work. But it was not particularly an open source project, it was more like just some code that I decided to post online for whatever reason... So I think Vue is technically the first open source project that I put online and was dedicated to maintaining it.
 
-**Nadia Eghbal:** Pretty awesome first experience.
+**Nadia Eghbal:** Pretty awesome first experience!
 
 **Evan You:** It depends on how we define it, yeah.
 
@@ -30,7 +30,7 @@ Evan, you started Vue while you were at Google... Is that also where you started
 
 **Evan You:** I think in the beginning the motive was very simple. It was something I wish I had when I worked on some of the projects I was working on. At the same time, it seemed like a good opportunity to just flex some technical muscles and sort of like -- the feeling that we see some great ideas or some interesting ideas that you see in other people's code, and you just want to try it out and write it yourself and see if you can actually implement it. It's a combination of the two.
 
-The motive for the project changed over time. It started more like an experiment, but it gradually evolved into something that I want to open source and maintain, but it was more like just giving it a shot, and it turned out people were actually liking it. The more people used it, the more responsibility I felt that I should keep it well maintained, and the more I felt motivated to make it better.
+The motive for the project changed over time. It started more like an experiment, but it gradually evolved into something that I wanted to open source and maintain, but it was more like just giving it a shot, and it turned out people were actually liking it. The more people used it, the more responsibility I felt that I should keep it well maintained, and the more I felt motivated to make it better.
 
 The scope of the project grew, and I guess the goal for the project also kind of evolved along the way. The goal today I would say is more like providing a framework that helps make it easier for people to build the applications. It sounds crazy ambitious. When I first started, that was definitely not what I had in mind.
 
@@ -50,21 +50,19 @@ The initial version of Vue was essentially a version that extracted the parts th
 
 This is kind of now a feature that we had when Vue was initially released, and it's still true today. Alternatively, if you want to build the professional way, you can obviously use our CLI to scaffold a full project, with boilerplates and Webpack and all the build tools, testing tools, with all the fancy stuff built in. So we offer different tasks, depending on how much you actually want from the framework.
 
-This is also why we call it a progressive framework, because it's incrementally adoptable. You can use very small pieces, just the core, for simple use cases, for rapid prototyping, but you can use the full stack for more ambitious apps. So the whole stack is incrementally adoptable; you don't have to use everything all at once.
+This is also why we call it a progressive framework, because it's incrementally adoptable. You can use very small pieces, just the core, for simple use cases or rapid prototyping, whereas you can use the full stack for more ambitious apps. So the whole stack is incrementally adoptable; you don't have to use everything all at once.
 
 **Nadia Eghbal:** I have a question about the early stages of Vue... I read that the Chinese community had kind of helped you find popularity around Vue and get it out there... Can you talk a little bit about your involvement with the Chinese developer community?
 
 **Evan You:** Sure. I myself am Chinese; I grew up in China and I came to the U.S. after high school. I also am pretty active on the Chinese social networks - basically, the Chinese version of Twitter, the Chinese version of Quora, and I will obviously talk about Vue or answer your questions about Vue on those social networks.
 
-Interestingly, a lot of people discover Vue first because of -- it's kind of like Vue got popular in the U.S. and then some people in China discovered it and realized "Oh, this is actually written by a Chinese guy" and they got really excited about it. Then they found out I'm actually active on Chinese social networks.
+Interestingly, a lot of people discovered Vue first because of -- it's kind of like Vue got popular in the U.S. and then some people in China discovered it and realized "Oh, this is actually written by a Chinese guy" and they got really excited about it. Then they found out I'm actually active on Chinese social networks.
 
-It was kind of an interesting round trip, but somehow Vue also got really popular in China. I'm not sure how much of my social network stuff contributed to it, but I think me being Chinese definitely played a role in it... But it's also because maybe in Chinese also helped some contributors from China to voluntarily translate the docs into Chinese, which helped a lot in the adoption.
+It was kind of an interesting round trip, but somehow Vue also got really popular in China. I'm not sure how much of my social network stuff contributed to it, but I think me being Chinese definitely played a role in it... It helped some contributors from China to voluntarily translate the docs into Chinese, which helped a lot in the adoption.
 
 **Nadia Eghbal:** That's awesome.
 
-**Evan You:** Yeah.
-
-**Nadia Eghbal:** The thing is it all happened pretty naturally. I didn't intentionally try to promote it in any way. I think probably the biggest contributing factor in Vue's popularity in China is because of my answers on Zhihu which is sort of like the Chinese equivalent of Quora.
+**Evan You:** Yeah. The thing is it all happened pretty naturally. I didn't intentionally try to promote it in any way. I think probably the biggest contributing factor in Vue's popularity in China is because of my answers on Zhihu which is sort of like the Chinese equivalent of Quora.
 
 \[00:11:59.29\] A lot of people directly ask questions about Vue and then ask me to answer it. A lot of times, when I have nothing better to do, I just answer those questions. I think that helped people a lot; it made them feel connected to this project more, because they were able to see the direct interaction with the author of the framework and it made them feel like the project is more connected with them.
 
