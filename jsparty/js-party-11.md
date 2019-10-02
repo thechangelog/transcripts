@@ -106,7 +106,7 @@ So there will be a way for you to say like "This one's not a module. This is my 
 
 **Alex Sexton:** Yeah, I don't think there's a ton of people using this in production quite yet, by the nature of how new it is.
 
-**Mike Taylor:** Yeah, this is like this week, right? \[unintelligible 00:09:47.05\] even serve like an evergreen demo-type thing.
+**Mike Taylor:** Yeah, this is like this week, right? \[laughter\] They even serve like an evergreen demo-type thing.
 
 **Wes Bos:** I'm just looking at a quick little blog post about it here, and for those listening that wanna know a little bit more about it, what this blog post is recommending is that you ship your ES6 modules to the browser, and then you use this "no module" attribute that Mike was talking about to signify to the browser "Hey, when you do not support ES6 modules..." So you should sort of ship two versions of your code base - one compiled and one not - and you can sort of fall back to the compiled version when there's not module support.
 
@@ -184,9 +184,9 @@ Apple went and they created this other version, which is really popular. I don't
 
 It's not an open standard, so that means you can't freely implement this, if that makes sense. You might have to pay some money to some people... And I'm being careful here, I don't wanna use the p-word because then we're all subpoenaed, and... \[laughter\] Right.
 
-So \[unintelligible 00:21:40.07\] doesn't implement this, because it's not free as in free stuff, and so...
+So Gecko doesn't implement this, because it's not free as in free stuff, and so...
 
-**Alex Sexton:** You know that one... \[laughs\]
+**Alex Sexton:** You nailed that one... \[laughs\]
 
 **Mike Taylor:** Yeah, thank you. Shoutout to my spiritual mentor, Richard Stallman. \[laughter\] So people go to look at their favorite live streaming web pages, which are typically not PG-13, and it doesn't work, and that's really frustrating, and they report this bug to us. So we come to understand that "Whoa, there's a lot of web pages that are using this non-standard streaming format. This is a problem we need to understand and tackle. What is not working for these people?"
 
@@ -274,7 +274,7 @@ Later, when I was in college, I was 22 years old or something, I was at my buddy
 
 **Alex Sexton:** I was on MyTeenOpenDiary at one point, I believe... \[laughter\]
 
-**Mike Taylor:** That sounds \[unintelligible 00:31:41.16\] I'm gonna go look for those blog posts.
+**Mike Taylor:** That sounds .. \[laughter\] I'm gonna go look for those blog posts.
 
 **Alex Sexton:** Yeah.
 
@@ -346,7 +346,7 @@ Another one -- I've got a whole bunch of free ones, as well. I've got more free 
 
 It's totally all over the place - it's from webcam stuff, to speech detection, to creating speech, to just doing basic DOM stuff, understanding how event listeners work, and clicks, and ES6 and what not... And people seem to really like it, because it's just a great way of -- I don't know, it's kind of a neat way to learn modern Javascript.
 
-**Alex Sexton:** \[unintelligible 00:40:57.18\]
+**Alex Sexton:** Get a lot of surface area
 
 **Wes Bos:** Yeah, just to put your time in and get towards that -- 10,000 hours is what they say you need?
 
@@ -484,7 +484,7 @@ Mike Taylor is one of my favorite "Kids, get off my lawn" tweeter, so if you don
 
 **Wes Bos:** Yeah...
 
-**Alex Sexton:** So Mike Taylor's Twitter is his name, @MikeTaylr - without the "o" at the end. That's what you guys both are pretty much everywhere. Check these guys' stuff out. \[unintelligible 01:02:39.20\] nice to talk to you all!
+**Alex Sexton:** So Mike Taylor's Twitter is his name, @MikeTaylr - without the "o" at the end. That's what you guys both are pretty much everywhere. Check these guys' stuff out, and well it was nice to talk to you all!
 
 **Mike Taylor:** Bye!
 
