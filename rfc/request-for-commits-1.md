@@ -2,17 +2,17 @@
 
 **Mikeal Rogers:** And I'm Mikeal Rogers.
 
-**Nadia Eghbal:** On today's show, Mikeal and I talked with Karl Fogel, author of Producing Open Source Software. Karl served on the board of the Open Source Initiative, which coined the term 'open source' and helped write Subversion. He's currently a partner at Open Tech Strategies, helping major organizations use open source to achieve their goals.
+**Nadia Eghbal:** On today's show, Mikeal and I will talk with Karl Fogel, author of Producing Open Source Software. Karl serve on the board of the Open Source Initiative, which coined the term 'open source' and help write Subversion. He's currently a partner at Open Tech Strategies, helping major organizations use open source to achieve their goals.
 
-**Mikeal Rogers:** Our focus on today's episode with Karl was about what has changed in open source since he first published his book ten years ago. We talked about the influence of Git and GitHub, and how they've changed both development workflows and our culture.
+**Mikeal Rogers:** Our focus on today's episode with Karl is about what has been changed in open source since he first published his book ten years ago. We will talk about the influence of Git and GitHub, and how they've changed both development workflows and our culture.
 
-**Nadia Eghbal:** We also talked about changes in the wider perception of open source, whether open source has truly won, and the challenges that still remain.
+**Nadia Eghbal:** We will also talk about changes in the wider perception of open source, whether open source has truly won or the challenges that still remain.
 
-**Mikeal Rogers:** So back in 2006 I started working at the Open Source Applications foundation on the Chandler Project, and I remember we had to kind of put together a governance policy and how do we manage an open source project, how do we do it openly, and basically your book kind of got slapped on everybody's desk. \[laughter\] The Producing Open Source Software first edition, and it was like "This is how you run open source projects."
+**Mikeal Rogers:** So back in 2006 I started working at the Open Source Applications foundation on the Chandler Project, and I remembered we had to kind of put together a governance policy on how do we manage an open source project, how do we do it openly, and basically your book kind of got slapped on everybody's desk. \[laughter\] The Producing Open Source Software first edition, and it was like "This is how you run open source projects."
 
 **Karl Fogel:** Wow, that's really nice to hear, thank you.
 
-**Mikeal Rogers:** And it was... Especially at that time it was an amazing guide, and I know from talking with Jacob Kaplan-Moss that the Django project did something similar, as well. I'm very curious how you got to write that book and what preceded it. It's produced by O'Reilly, right?
+**Mikeal Rogers:** And it was... Especially at that time it was an amazing guide, and I know from talking with Jacob Kaplan-Moss that the Django project did something similar, as well. I'm very curious how you get to write that book and what preceded it. It's produced by O'Reilly, right?
 
 **Karl Fogel:** Yes.
 
@@ -22,7 +22,7 @@
 
 So the answer to your main question there I'm afraid is pure luck. I really think that in the early 2000s, 2005-2006 the time was ripe for some kind of long-form guide to the social and community management aspects of open source to come out, and my book just happened to come out. If someone else had written a long-form guide, then... You know, it's like in the early days of physics - if you just happen to be the first person to think of calculus, you'll get all this credit; but there were probably ten people who thought of it, it's just that someone published this first.
 
-So yeah, I just got really lucky with the timing. And the way that I was motivated to write it, that O'Reilly had contacted me about doing a Subversion book... I was coming off five or six years as a founding developer in the Subversion project and it had been my full-time job, and I'd gone from being mostly a programmer and sort of project technical - not necessarily technical lead, but technical arbiter or technical cheerleader in some sense, to more and more community manager. I mean, I was still doing coding, but a lot of my time was spent on just organizing and coordinating the work of others and interjecting what I felt were the appropriate noises in certain contentious discussion threads and things like that.
+So yeah, I just got really lucky with the timing. And the way in which I was motivated to write it, that O'Reilly had contacted me about doing a Subversion book... I was coming off five or six years as a founding developer in the Subversion project and it had been my full-time job, and I'd gone from being mostly a programmer and sort of project technical - not necessarily technical lead, but technical arbiter or technical cheerleader in some sense, to more and more community manager. I mean, I was still doing coding, but a lot of my time was spent on just organizing and coordinating the work of others and interjecting what I felt were the appropriate noises in certain contentious discussion threads and things like that.
 
 \[00:04:09.07\] So when it came time to write a Subversion book, I had already written a book, I knew folks at O'Reilly, and they said "Would you like to be one of the authors?" There were a couple other Subversion developers that I worked with who were also interested in writing, and we had all agreed that we would co-author it.
 
