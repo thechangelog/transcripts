@@ -32,7 +32,7 @@
 
 **Adam Stacoviak:** \[00:04:04.00\] Wisdom. One thing Seth Godin says in that book is if you're in a cul de sac, get out, basically. Because if you're in a cul-de-sac, like you said, if you're going that direction and your business is in a cul-de-sac... Well what is a cul-de-sac? It's a dead end.
 
-**Lynne Tye:** Exactly. \[unintelligible 00:04:18.22\]
+**Lynne Tye:** Exactly. A pretty dead end.
 
 **Adam Stacoviak:** \[unintelligible 00:04:19.08\] keep going around there, and there's no real long-term path... And Seth's advice in that is basically what you've said before, which is why I thought you should read this if you haven't yet - it's that it's about the right time to quit. You don't start something and see it through to the end because you have to... "Winners never quit, and quitters never win" kind of mentality. But there's this dip in between starting and finishing that is this lull. In the startup world you hear it as the trough of sorrow etc. This sort of long sloth, this long time period that's very hard... But the winners are the difference between the people who can get through the dip, but is the dip worth getting through? That's the long story short.
 
@@ -202,7 +202,7 @@ So I quit that, and then I traveled, did the typical soul-searching thing, and t
 
 **Adam Stacoviak:** Yeah, it diverged. I've been there. I've been in a position where I've been early in a company, and it's similar to what we said before about the identity... You sort of identify with the direction of it, and when the direction of it changes from the identity that you had sort of planted for it, and you don't really have any control over this direction, so you start to be like "Well, this really isn't the company I thought it was gonna be", and you start to eventually divorce from it, emotionally and physically.
 
-**Lynne Tye:** Yeah, exactly... Which I know this is definitely more taboo, but I actually think -- obviously, no one gets married hoping to get divorced, but things change, and if you're not happy, I don't know... Oh my god, this is \[unintelligible 00:30:38.17\] if for some reason we don't see eye to eye, we're not happy together, then yeah, that's a very possible outcome. Of course, we don't want that to happen, and we work hard to avoid that, but of course, people are people; things change, you can't predict the future.
+**Lynne Tye:** Yeah, exactly... Which I know this is definitely more taboo, but I actually think -- obviously, no one gets married hoping to get divorced, but things change, and if you're not happy, I don't know... Oh my god, this is like really controversial if for some reason we don't see eye to eye, we're not happy together, then yeah, that's a very possible outcome. Of course, we don't want that to happen, and we work hard to avoid that, but of course, people are people; things change, you can't predict the future.
 
 And that's the other thing about what I'd mentioned earlier - you get more data as time goes on, things reveal themselves, and if you diverge from what this company is doing, then yeah, it's time to part ways, and again, it's no one's fault.
 
