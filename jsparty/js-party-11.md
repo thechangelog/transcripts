@@ -184,7 +184,7 @@ Apple went and they created this other version, which is really popular. I don't
 
 It's not an open standard, so that means you can't freely implement this, if that makes sense. You might have to pay some money to some people... And I'm being careful here, I don't wanna use the p-word because then we're all subpoenaed, and... \[laughter\] Right.
 
-So \[unintelligible 00:21:40.07\] doesn't implement this, because it's not free as in free stuff, and so...
+So Gecko doesn't implement this, because it's not free as in free stuff, and so...
 
 **Alex Sexton:** You nailed that one... \[laughs\]
 
@@ -346,7 +346,7 @@ Another one -- I've got a whole bunch of free ones, as well. I've got more free 
 
 It's totally all over the place - it's from webcam stuff, to speech detection, to creating speech, to just doing basic DOM stuff, understanding how event listeners work, and clicks, and ES6 and what not... And people seem to really like it, because it's just a great way of -- I don't know, it's kind of a neat way to learn modern Javascript.
 
-**Alex Sexton:** Get a lot of surface air
+**Alex Sexton:** Get a lot of surface area
 
 **Wes Bos:** Yeah, just to put your time in and get towards that -- 10,000 hours is what they say you need?
 
