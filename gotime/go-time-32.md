@@ -80,7 +80,7 @@ Then the other side of it that gets confusing is how to you contribute back? Tha
 
 **Erik St. Martin:** Yeah, you can understand how SSH works and how keys are exchanged, but it doesn't really connect at how you could leverage that. Actually, for anybody who's not familiar with it, do an SSH to whoami.filippo.io. It's a lot of fun. Do you wanna tell everybody what it is and explain...?
 
-**Filippo Valsorda:** I should tail the logs and say \[unintelligible 00:09:36.09\] but that would be even more creepy. \[laughter\] So yeah, whoami is this little demo that came out because my flatmate - who deserves a lot of the credit - had dumped all the public SSH keys of GitHub... You might not realize, but if you go to GitHub.com/yourusername.keys, it will show you your SSH keys. That's super handy for a number of reasons, like "I want to give this person access to my bugs", or something like that... But you can just scrape the whole -- not even scrape, just use the GitHub API to get the list of all users, then load all the keys and now you have a pretty good idea of a huge chunk of the SSH keys, to whom they belong.
+**Filippo Valsorda:** I should tail the logs and say hi back to people but that would be even more creepy. \[laughter\] So yeah, whoami is this little demo that came out because my flatmate - who deserves a lot of the credit - had dumped all the public SSH keys of GitHub... You might not realize, but if you go to GitHub.com/yourusername.keys, it will show you your SSH keys. That's super handy for a number of reasons, like "I want to give this person access to my bugs", or something like that... But you can just scrape the whole -- not even scrape, just use the GitHub API to get the list of all users, then load all the keys and now you have a pretty good idea of a huge chunk of the SSH keys, to whom they belong.
 
 At the same time I was studying the SSH protocol and trying to figure out a bit of the internal and such, and I realized that the default behavior is just to send preemptively the public keys you're willing to use, then the server responds, "Oh, yes, I like this one." If the server responds that, then you make a signature with that key to log in.
 
@@ -142,7 +142,7 @@ But the point is we wanted to implement TLS 1.3 and participate in the standardi
 
 **Brian Ketelsen:** Does the Go stack get to have like a bad day? Can it say, "I'm just not interested today?"
 
-**Filippo Valsorda:** Yes, that was actually one of the safeguards... I was like, "You know, as a team of three people total on the crypto team, mostly me working on it, I'm not going to take over the main CloudFlare reverse proxy", but we have this nice fallback system where \[unintelligible 00:17:11.19\] can literally explode, and only open connections will suffer; everything else will just downgrade to TLS 1.2
+**Filippo Valsorda:** Yes, that was actually one of the safeguards... I was like, "You know, as a team of three people total on the crypto team, mostly me working on it, I'm not going to take over the main CloudFlare reverse proxy", but we have this nice fallback system where Go SSL can literally explode, and only open connections will suffer; everything else will just downgrade to TLS 1.2
 
 **Brian Ketelsen:** Nice.
 
@@ -209,7 +209,7 @@ On the other hand, performance-wise it cuts an entire round trip. When you conne
 
 **Filippo Valsorda:** That would be 33c3, the Cloud Computing Club conference in Hamburg. You can find it if you search for 33c3 TLS 1.3. There we go through all the Crypto parts of this TLS 1.3 effort, and about the Go part - there's nothing published just yet. You can find blog posts on the Gopher Academy Advent list, which is a bunch of lessons learned from exposing a Go server to the internet, because that's effectively what we did with the Go reverse proxy.
 
-The more \[unintelligible 00:23:12.25\] I don't know... I mean, maybe GopherCon? This is probably bad taste, I'll shut up.
+The more Crypto part... I don't know... I mean, maybe GopherCon? This is probably bad taste, I'll shut up.
 
 **Erik St. Martin:** I think somebody in the GoTime FM channel just said, "I think that everybody crashed your server." \[laughs\]
 
@@ -270,11 +270,11 @@ The Debian project has been primed very hard to get the whole Deb repositories r
 
 **Filippo Valsorda:** I mean, not even joking, you can run Go on mainframes now.
 
-**Erik St. Martin:** Yeah... It's insane watching Go take off... It blows my mind, in just a couple of years, everywhere that we see Go. So you mentioned something in our show document about latency profiling, and \[unintelligible 00:29:23.11\]
+**Erik St. Martin:** Yeah... It's insane watching Go take off... It blows my mind, in just a couple of years, everywhere that we see Go. So you mentioned something in our show document about latency profiling, and Camlistore too.
 
 **Filippo Valsorda:** Yeah, let's see... Let's go for spoilers first - latency profiling is what I plan to talk about at GopherCon India; essentially, the story there is that we are used to all the profiling tools, and they're super nice, very easy to use, and you can figure out what functions take the most CPU in your program. That's nice, right? But then, at the end of the day, you realize that that's not really what we are optimizing for most of the times. It's very hard to build an application that takes a hundred percent of CPU, so what is it doing the rest of the time? Well, it's blocking on something, it's waiting on something, and what metric does that worsen? Of course, latency... Which a lot of the times is the one we care the most about.
 
-It's rare that APIs are truthful about how many things concurrently they can process; it's absolutely possible most of the times - this is debatable - but surely there's a huge interest in reducing latency, making APIs return as quickly as possible. So Go does provide the tools to inspect what functions are slow are just taking a long time, but they're not as well surfaced and publicized as their CPU counterparts. They involve mostly the Go tracer, which can then generate profiles for blocking, for I/O, for network and for \[unintelligible 00:30:59.21\] and different things that will actually make you suffer. Imagine having some function somewhere that downloads a tarball from the internet; that will not show up in the CPU profile maybe, but it will take a long time, and if your API is blocking on that, it will take forever, right?
+It's rare that APIs are truthful about how many things concurrently they can process; it's absolutely possible most of the times - this is debatable - but surely there's a huge interest in reducing latency, making APIs return as quickly as possible. So Go does provide the tools to inspect what functions are slow are just taking a long time, but they're not as well surfaced and publicized as their CPU counterparts. They involve mostly the Go tracer, which can then generate profiles for blocking, for I/O, for network and for scheduling process and different things that will actually make you suffer. Imagine having some function somewhere that downloads a tarball from the internet; that will not show up in the CPU profile maybe, but it will take a long time, and if your API is blocking on that, it will take forever, right?
 
 **Erik St. Martin:** That's actually really interesting, because that debate comes up a lot, especially when talking about garbage collection, that difference between latency and throughput. Both of them kind of represent speed, right? And deciding which one you wanna optimize for is difficult.
 
@@ -400,7 +400,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Erik St. Martin:** Yeah, it amazes me some of the stuff people know about make. It is ridiculously powerful. My knowledge of make is about equivalent to my knowledge of Bash... It's just enough to make a fork. \[laughter\]
 
-**Filippo Valsorda:** Look, I work with \[\\00:40:23.11\]
+**Filippo Valsorda:** Look, I work with John Graham-Cumming. He wrote the book on GNU make.
 
 **Brian Ketelsen:** He wrote the book...
 
@@ -486,7 +486,7 @@ Okay, any other interesting projects?
 
 For example, when I run into something new and I want to see how people are using it, I just use Sourcegraph and I'm able to see it. It also gives you git blame and it gives you the last time the file was updated, and a bunch of other awesome things.
 
-**Filippo Valsorda:** Yeah, I love their interface. I used it all the time also studying the TLS Crypto library; it works on the standard library too, and you can just click around and click to jump to definition, which is something that I always wanted. There used to be a web interface to what is now called Guru, which was called \[unintelligible 00:47:59.29\] or something like that. Anyway... Sourcegraph does that, and it's wonderful, just clicking around to...
+**Filippo Valsorda:** Yeah, I love their interface. I used it all the time also studying the TLS Crypto library; it works on the standard library too, and you can just click around and click to jump to definition, which is something that I always wanted. There used to be a web interface to what is now called Guru, which was called Pythia maybe or something like that. Anyway... Sourcegraph does that, and it's wonderful, just clicking around to...
 
 **Carlisia Pinto:** \[00:48:09.23\] Yeah, so it will work with anything that's open source, and if you want to use it on your private repos, they have a pricing structure there. You probably need to talk to your security team to find out if you can do it.
 
@@ -528,7 +528,7 @@ One of the things I love is being able to see examples of where this is used in 
 
 **Brian Ketelsen:** I'll give it a start, because I had a busy weekend this weekend putting out the GopherCon website, and these are two projects that I've probably talked about before, but I use them together and it turned out to be a peanut butter and chocolate sort of situation where everything just tasted better. So I used the new Ponzu CMS - and I think we talked a little bit about that on the interesting projects last week; I didn't waste any time, I just put it in production at GopherCon.com, and it's backed by a Buffalo website. The combination of those two together is absolutely amazing...
 
-Actually, \[unintelligible 00:51:32.24\] did the design and the images, I built the code side of it and we put up the GopherCon site -- well, it was kind of up before, but not really up. We made it a real site in just a weekend, and it was really awesome. I strongly encourage you to take a look at that combination. To make it just a little bit easier for myself, I built a code generator called Ponzi, so under my GitHub repository bketelson/ponzi and bketelson/ponzigen....
+Ashley McNamara did the design and the images, I built the code side of it and we put up the GopherCon site -- well, it was kind of up before, but not really up. We made it a real site in just a weekend, and it was really awesome. I strongly encourage you to take a look at that combination. To make it just a little bit easier for myself, I built a code generator called Ponzi, so under my GitHub repository bketelson/ponzi and bketelson/ponzigen....
 
 **Erik St. Martin:** Because Brian can't build anything without a generator...
 
