@@ -1,8 +1,8 @@
-**Mireille B. Reece, Psy.D:** It's interesting having worked with people over so many years, because I think there's some common things or threads that start to emerge... One of those things is really just what it means to be human, and I would contend that there's these fundamentals that all people struggle with; and that part of when they come in to see me, where they're at is that they don't know how to reconcile some of these things. Either they've learned maladaptive coping skills or strategies, or they just sort of are trying to not have things be true that are in fact true.
+**Mireille B. Reece, Psy.D:** It is interesting having worked with people over so many years, because I think there are some common things or threads that start to emerge... One of those things is really just what it means to be human, and I would contend that there's these fundamentals that all people struggle with; and that part of when they come in to see me, where they're at is that they don't know how to reconcile some of these things. Either they've learned maladaptive coping skills or strategies, or they just sort of are trying to not have things be true that are in fact true.
 
 One of those, I would say, would be fundamentally we're designed to feel... And it's ironic, because people actually have feelings about feelings.
 
-**Adam Stacoviak:** I'd agree with that...
+**Adam Stacoviak:** I would  agree with that...
 
 **Mireille B. Reece, Psy.D:** Right...? I think about it with crying, and going "I don't want to cry anymore, because that's an indicator of weakness." And if we're sitting with a friend, we'll be like "No, no... That's not weakness."But if you're sitting in front of your boss, you're like "Yeah, that's weakness...", right?
 
