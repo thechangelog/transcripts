@@ -372,7 +372,7 @@ As I was thinking about it more and more, I was like "Well, this will be great, 
 
 **Sam Soffes:** \[00:56:12.03\] I did.
 
-**Adam Stacoviak:** Is this what you did at \[unintelligible 00:56:13.05\] because you had this blog post, "Staying Strong", and in there you didn't mention any names... So this is actually what we're talking about, right?
+**Adam Stacoviak:** Is this what you did at look to then because you had this [blog post](https://soffes.blog/staying-strong), "Staying Strong", and in there you didn't mention any names... So this is actually what we're talking about, right?
 
 **Sam Soffes:** Yeah. Hopefully... Yeah. I felt awful about accepting, and then they told everyone, and then I told them I didn't accept, and apparently that information didn't get passed around as much internally... So people were still directing me on Twitter like "Hey, I'm so excited for you to start..." and it's like "Actually, I don't work there." I probably could have handled it better and just declined in the first place.
 
