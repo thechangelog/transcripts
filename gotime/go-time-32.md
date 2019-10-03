@@ -1,4 +1,4 @@
-**Erik St. Martin:** Welcome back everybody to another episode of GoTime. It is episode number 32. We are recording this today on 26th January. Today's show is sponsored by StackImpact and Ardan Labs series of Go training. Today on the show we have myself, Erik St. Martin, Brian Ketelsen is also here - say hello, Brian.
+**Erik St. Martin:** Welcome back everybody to another episode of GoTime. It is episode number 32. We are recording this today on January 26th. Today's show is sponsored by StackImpact and Ardan Labs series of Go training. Today on the show we have myself, Erik St. Martin, Brian Ketelsen is also here - say hello, Brian.
 
 **Brian Ketelsen:** Hello, Brian.
 
@@ -24,7 +24,7 @@ Then the other side of it that gets confusing is how to you contribute back? Tha
 
 **Erik St. Martin:** So have you had pretty good success at CloudFlare with that, with people being able to just grab a project and work on it?
 
-**Filippo Valsorda:** Yeah, I definitely shadowed a number of people through the different revisions of hellogopher. It looks like a simple project ,it has 110 lines of make file, but it went through so many changes, even before the Git history. I try to smooth forward and I'm pretty happy that I would help people pick it up and use it these days. A user at some point reported an issue and I just nudged them towards one section of the docs, and they were reporting immediately after being like, "Oh yes, got it! It worked!" That was awesome! That was like a "Yes, this works!" moment.
+**Filippo Valsorda:** Yeah, I definitely shadowed a number of people through the different revisions of hellogopher. It looks like a simple project, it has 110 lines of makefile, but it went through so many changes, even before the Git history. I try to smooth forward and I'm pretty happy that I would help people pick it up and use it these days. A user at some point reported an issue and I just nudged them towards one section of the docs, and they were reporting immediately after being like, "Oh yes, got it! It worked!" That was awesome! That was like a "Yes, this works!" moment.
 
 **Brian Ketelsen:** That's nice.
 
@@ -60,11 +60,11 @@ Then the other side of it that gets confusing is how to you contribute back? Tha
 
 **Brian Ketelsen:** You're still gonna have a GOPATH, it will just be automatically set for you if you haven't set it. So we'll still have the confusion that new developers get when they still don't understand what a GOPATH is and why they need to use it.
 
-**Filippo Valsorda:** Yeah, the default GOPATH solves one problem, and it's that now you can just write "go get" and that is enough as instructions to install something, probably, most of the times. But it's definitely not enough for anyone that just wants to Git clone and it's not enough for someone that wants to contribute, because they will still have opinions about where they want the project to be etc.
+**Filippo Valsorda:** Yeah, the default GOPATH solves one problem, and it's that now you can just write "go get" and that is enough as instructions to install something, probably, most of the times. But it's definitely not enough for anyone that just wants to Git clone and it's not enough for someone that wants to contribute, because they will still have opinions about where they want the project to be, etc.
 
 **Brian Ketelsen:** Do you require any special project organization, or will this work with any project structure?
 
-**Filippo Valsorda:** \[\\00:07:49.0\\7\] The point of the hellogopher is also to avoid that Ruby-a-hundred-different-tools scenario is that it works drop-in on normal, go-gettable projects. It's not a different build tool, it's just something that wraps things and does horrible black magic with symlinks that you shouldn't look into, so that it just has a fake GOPATH that points to your repository, but it's still the normal Go structure that we are used to. It's also completely compatible with anything you already have, and it doesn't get on your colleagues toes if they have GOPATH set up, etc.
+**Filippo Valsorda:** \[0:07:49.07\] The point of the hellogopher is also to avoid that Ruby-a-hundred-different-tools scenario is that it works drop-in on normal, go-gettable projects. It's not a different build tool, it's just something that wraps things and does horrible black magic with symlinks that you shouldn't look into, so that it just has a fake GOPATH that points to your repository, but it's still the normal Go structure that we are used to. It's also completely compatible with anything you already have, and it doesn't get on your colleagues toes if they have GOPATH set up, etc.
 
 **Brian Ketelsen:** Nice.
 
@@ -80,7 +80,7 @@ Then the other side of it that gets confusing is how to you contribute back? Tha
 
 **Erik St. Martin:** Yeah, you can understand how SSH works and how keys are exchanged, but it doesn't really connect at how you could leverage that. Actually, for anybody who's not familiar with it, do an SSH to whoami.filippo.io. It's a lot of fun. Do you wanna tell everybody what it is and explain...?
 
-**Filippo Valsorda:** I should tail the logs and stay \[unintelligible 00:09:36.09\] but that would be the most creepy. \[laughter\] So yeah, whoami is this little demo that came out because my flatmate - who deserves a lot of the credit - had dumped all the public SSH keys of GitHub... You might not realize, but if you go to GitHub.com/yourusername/keys, it will show you your SSH keys. That's super handy for a number of reasons, like "I want to give this person access to my bugs", or something like that... But you can just scrape the whole -- not even scrape, just use the GitHub API to get the list of all users, then load all the keys and now you have a pretty good idea of a huge chunk of the SSH keys, to whom they belong.
+**Filippo Valsorda:** I should tail the logs and say \[unintelligible 00:09:36.09\] but that would be even more creepy. \[laughter\] So yeah, whoami is this little demo that came out because my flatmate - who deserves a lot of the credit - had dumped all the public SSH keys of GitHub... You might not realize, but if you go to GitHub.com/yourusername.keys, it will show you your SSH keys. That's super handy for a number of reasons, like "I want to give this person access to my bugs", or something like that... But you can just scrape the whole -- not even scrape, just use the GitHub API to get the list of all users, then load all the keys and now you have a pretty good idea of a huge chunk of the SSH keys, to whom they belong.
 
 At the same time I was studying the SSH protocol and trying to figure out a bit of the internal and such, and I realized that the default behavior is just to send preemptively the public keys you're willing to use, then the server responds, "Oh, yes, I like this one." If the server responds that, then you make a signature with that key to log in.
 
@@ -132,7 +132,7 @@ What other things are you working on? I know you're doing some TLS stuff as well
 
 **Filippo Valsorda:** Yeah, so the approach that I've been working on for the last few months - quite a few months, wow - is TLS 1.3. The short version of the crypto like page is that TLS 1.3 is the new version of TLS; it's not about getting cryptographers job security, but instead about making the protocol actually more robust against future attacks, so it's a complete rework and it takes one less round trip to connect to things, so it's faster, and a bunch of other things that if you're interested in -- there's a talk at CCC 33c3 that you should watch.
 
-But the point is we wanted to implement TLS 1.3 and participate in the standardization process with a real implementation and deployed... So we wanted to take up TLS stack and add 1.3 ourselves. I essentially threatened to quit if they made me do it on OpenSSL -- no, I'm joking; nobody asked me. They just asked me what to use as a base, so I just jumped straight to crypto/tls, the standard library of Go, which is a wonderful stack written originally by Adam Langley, which all of the people in the industry say that it's where they go to to understand TLS. They read the spec, they fail to understand it, they go to crypto/tls, they read the Go code, and now they understand things. So that was the starting point... And we extended it to have TLS 1.3 support; we worked most on the server side, and it's now deployed globally on millions on CloudFlare sites. If you just sign up for a free account, it's on by default.
+But the point is we wanted to implement TLS 1.3 and participate in the standardization process with a real implementation and deployed... So we wanted to take up TLS stack and add 1.3 ourselves. I essentially threatened to quit if they made me do it on OpenSSL -- no, I'm joking; nobody asked me. They just asked me what to use as a base, so I just jumped straight to crypto/tls, the standard library of Go, which is a wonderful stack written originally by Adam Langley, which all of the people in the industry say that it's where they go to to understand TLS. They read the spec, they fail to understand it, they go to crypto/tls, they read the Go code, and now they understand things. So that was the starting point... And we extended it to have TLS 1.3 support; we worked most on the server side, and it's now deployed globally on millions of CloudFlare sites. If you just sign up for a free account, it's on by default.
 
 \[00:15:56.17\] The nice thing we don't talk that much about, but you can definitely gather is that if our TLS 1.3 stack is in Go and you can use Go to connect to CloudFlare site it means that sometimes when you connect to CloudFlare, actually in the HTTP pipeline there is a Go HTTP reverse proxy.
 
@@ -227,7 +227,7 @@ The more \[unintelligible 00:23:12.25\] I don't know... I mean, maybe GopherCon?
 
 **Erik St. Martin:** \[00:23:54.04\] That was Adam. \[laughter\] So I think now is probably a good time to take our first sponsored break. Our first sponsor today is StackImpact.
 
-**Break:** \[00:24:07.10\] to \[\\00:24:57.21\]
+**Break:** \[00:24:07.10\] to \[00:24:57.21\]
 
 **Erik St. Martin:** We are back, talking to Filippo about Crypto and TLS and all the great things he's doing at CloudFlare. What else are you working on these days? I know that you've had some interesting Caddy as well, and we've had Matt Holt on the show, too.
 
@@ -272,11 +272,11 @@ The Debian project has been primed very hard to get the whole Deb repositories r
 
 **Erik St. Martin:** Yeah... It's insane watching Go take off... It blows my mind, in just a couple of years, everywhere that we see Go. So you mentioned something in our show document about latency profiling, and \[unintelligible 00:29:23.11\]
 
-**Filippo Valsorda:** Yeah, let's see... Let's go for spoilers first - latency profiling is what I plan to talk about at GopherCon India; essentially, the story there is that we are used to all the profiling to tools, and they're super nice, very easy to use, and you can figure out what functions take the most CPU in your program. That's nice, right? But then, at the end of the day, you realize that that's not really what we are optimizing for most of the times. It's very hard to build an application that takes a hundred percent of CPU, so what is it doing the rest of the time? Well, it's blocking on something, it's waiting on something, and what metric does that worsen? Of course, latency... Which a lot of the times is the one we care the most about.
+**Filippo Valsorda:** Yeah, let's see... Let's go for spoilers first - latency profiling is what I plan to talk about at GopherCon India; essentially, the story there is that we are used to all the profiling tools, and they're super nice, very easy to use, and you can figure out what functions take the most CPU in your program. That's nice, right? But then, at the end of the day, you realize that that's not really what we are optimizing for most of the times. It's very hard to build an application that takes a hundred percent of CPU, so what is it doing the rest of the time? Well, it's blocking on something, it's waiting on something, and what metric does that worsen? Of course, latency... Which a lot of the times is the one we care the most about.
 
 It's rare that APIs are truthful about how many things concurrently they can process; it's absolutely possible most of the times - this is debatable - but surely there's a huge interest in reducing latency, making APIs return as quickly as possible. So Go does provide the tools to inspect what functions are slow are just taking a long time, but they're not as well surfaced and publicized as their CPU counterparts. They involve mostly the Go tracer, which can then generate profiles for blocking, for I/O, for network and for \[unintelligible 00:30:59.21\] and different things that will actually make you suffer. Imagine having some function somewhere that downloads a tarball from the internet; that will not show up in the CPU profile maybe, but it will take a long time, and if your API is blocking on that, it will take forever, right?
 
-**Erik St. Martin:** That's actually really interesting, because that debate comes up a lot, especially when talking about garbage collection, that difference between latency in throughput. Both of them kind of represent speed, right? And deciding which one you wanna optimize for is difficult.
+**Erik St. Martin:** That's actually really interesting, because that debate comes up a lot, especially when talking about garbage collection, that difference between latency and throughput. Both of them kind of represent speed, right? And deciding which one you wanna optimize for is difficult.
 
 **Filippo Valsorda:** That's a very good point. In Go, we almost explicitly stated that we optimize for latency, at least in the garbage collector, by making it faster and faster in terms of pauses, but slightly slower in terms of CPU and throughput. So it's interesting that the profiling tools haven't caught up to the same priorities.
 
@@ -330,9 +330,9 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Erik St. Martin:** Yeah, actually it's kicking butt.
 
-**Brian Ketelsen:** So we should give the story behind that... If you go to Gopherize.me, you can create your own Gopher avatar out of lots of different choices, and it's built for you live on the screen. It was built by Mat Ryer, with images supplied by Ashley McNamara, and the whole thing started because I asked actually for a custom gopher avatar and then changed my avatar on Twitter; then she made one for Erik and then she made one for Bill, and the next thing you know, the whole internet's asking for one, so they decided to just go make a site and give Ashley a break, so she didn't have to make custom avatars for everybody.
+**Brian Ketelsen:** So we should give the story behind that... If you go to Gopherize.me, you can create your own Gopher avatar out of lots of different choices, and it's built for you live on the screen. It was built by Mat Ryer, with images supplied by Ashley McNamara, and the whole thing started because I asked Ashley for a custom gopher avatar and then changed my avatar on Twitter; then she made one for Erik and then she made one for Bill, and the next thing you know, the whole internet's asking for one, so they decided to just go make a site and give Ashley a break, so she didn't have to make custom avatars for everybody.
 
-**Carlisia Pinto:** i have a request from Ashley and Mat... We need to have a T-shirt with the GoTime logo.
+**Carlisia Pinto:** I have a request from Ashley and Mat... We need to have a T-shirt with the GoTime logo.
 
 **Brian Ketelsen:** Oh, we need a GoTime logo.
 
@@ -412,7 +412,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Brian Ketelsen:** Yeah, just bring your book over here and tell me what I'm doing wrong.
 
-**Filippo Valsorda:** No, he actually pulled a page out of his book! He actually literally did that! \[laughs
+**Filippo Valsorda:** No, he actually pulled a page out of his book! He actually literally did that! \[laughs\]
 
 **Brian Ketelsen:** Oh, that's awesome.
 
@@ -422,7 +422,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Erik St. Martin:** Yeah... I feel like it's just like Bash every time I gotta do something. I gotta look up, like "How do you do a for loop in Bash again?" \[laughs\] I think it is about time for our second sponsored break, and then we'll get into some more projects and news. Our second sponsor today is actually Ardan Labs, with their Ultimate Go Training series.
 
-**Break:** \[00:41:51.09\] to \[\\00:42:45.24\]
+**Break:** \[00:41:51.09\] to \[00:42:45.24\]
 
 **Erik St. Martin:** Alright, and we are back talking to Filippo. For anybody who is listening live, we were just kind of joking about makefiles and the use of PHONY and how it makes Brian feel like a phony when he reads it...
 
@@ -482,7 +482,7 @@ Okay, any other interesting projects?
 
 **Erik St. Martin:** Carlisia, did you run across anything you wanted to talk about?
 
-**Carlisia Pinto:** I did. Sourcegraph is now is general availability with the Go language. For people who don't know, Sourcegraph is like a code navigation tool, but you use it on your browser. The cool thing over other normal code navigation tools is that it will take your across repos, and if you go to a function, for example, you can see where it is used in the entire GitHub universe, and I think even in other source control systems, maybe GitLab... I'm not sure about that, but GitHub - definitely. And that is super cool.
+**Carlisia Pinto:** I did. Sourcegraph is now in general availability with the Go language. For people who don't know, Sourcegraph is like a code navigation tool, but you use it on your browser. The cool thing over other normal code navigation tools is that it will take your cross repos, and if you go to a function, for example, you can see where it is used in the entire GitHub universe, and I think even in other source control systems, maybe GitLab... I'm not sure about that, but GitHub - definitely. And that is super cool.
 
 For example, when I run into something new and I want to see how people are using it, I just use Sourcegraph and I'm able to see it. It also gives you git blame and it gives you the last time the file was updated, and a bunch of other awesome things.
 
@@ -506,7 +506,7 @@ One of the things I love is being able to see examples of where this is used in 
 
 **Erik St. Martin:** Yeah, Play With Docker.
 
-**Brian Ketelsen:** Yeah, this one's really cool. I've found out about this just the other day, and I'm gonna kill poor Marcos' name, I'm sorry... Marcos Lilljedahl? I'm not sure, but on GitHub it's GitHub.com/franela and there's a project called Play With Docker. It embeds a Docker-in-Docker instance and then allows you to connect to it from a web browser, and inside the web browser you have up to five Docker terminals embedded in term.js - or xterm-whatever - terminal in your web browser, so you can have embedded terminals in your browser that are backed by a Docker-in-Docker system. That means if you've got five terminals, they are all in the same network, and you can do cool things like create Kubernetes clusters in your web browser.
+**Brian Ketelsen:** Yeah, this one's really cool. I've found out about this just the other day, and I'm gonna kill poor Marcos' name, I'm sorry... Marcos Lilljedahl? I'm not sure, but on GitHub it's GitHub.com/franela and there's a project called Play With Docker. It embeds a Docker-in-Docker instance and then allows you to connect to it from a web browser, and inside the web browser you have up to five Docker terminals embedded in term.js - or xterm-whatever - terminal in your web browser, so you can have embedded terminals in your web browser that are backed by a Docker-in-Docker system. Which means if you've got five terminals, they are all in the same network, and you can do cool things like create Kubernetes clusters in your web browser.
 
 **Filippo Valsorda:** Wow, that's great!
 
