@@ -6,7 +6,7 @@ Thanks for wanting to help out! These pointers below _should_ help you fall into
 - Adding links to referenced URLs, projects, etc.
 - Adding timestamps to key/beloved statements and sections
 - Fixing typos
-
+-adding appropriate explanation of tough words for better undestanding
 ### Contributions we DON'T love 🚫
 
 - Grammatical changes (what was said was said, grammatical or not)
