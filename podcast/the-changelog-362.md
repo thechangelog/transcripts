@@ -28,7 +28,7 @@
 
 **Amal Hussein:** Yeah, I agree wholeheartedly with your analysis there. There's a great quote, "Heavy lies the head who wears the crown", or something like that... There's a lot of freedom you get in a leadership role, where there's a lot of autonomy, you're able to drive decisions and really make an impact for good or for bad, but with that comes a lot of responsibility, and one of those is taking responsibility for failures, or missed opportunities.
 
-I think what's interesting at npm about this is -- you know, I've always had a dream of being a toolmaker; tooling, that's kind of my stuff, it's my jam. I'm always into architecture, infrastructure, how things connect... I'm very much an in-between person. When I worked on server-side code, middleware was something that was interesting to me, because of the intersectional nature of it. So at npm, in many ways, I'm fulfilling my life-long dream of being a toolmaker. And I think as an engineer that's a toolmaker, we have the toughest customers, because people are relying on us to then do their jobs, and make their magic happen. So there's this extra layer of not only scrutiny, but also really -- we're the toughest customers, software engineers... We're the toughest customers, because we can make the thing that we're using \[unintelligible 00:08:11.29\]
+I think what's interesting at npm about this is -- you know, I've always had a dream of being a toolmaker; tooling, that's kind of my stuff, it's my jam. I'm always into architecture, infrastructure, how things connect... I'm very much an in-between person. When I worked on server-side code, middleware was something that was interesting to me, because of the intersectional nature of it. So at npm, in many ways, I'm fulfilling my life-long dream of being a toolmaker. And I think as an engineer that's a toolmaker, we have the toughest customers, because people are relying on us to then do their jobs, and make their magic happen. So there's this extra layer of not only scrutiny, but also really -- we're the toughest customers, software engineers... We're the toughest customers, because we can make the thing that we're using, if we really sat down.
 
 **Adam Stacoviak:** \[00:08:15.03\] And sometimes you do. Sometimes you make your own thing, because somebody else's thing isn't good enough... And you've got two things.
 
@@ -168,7 +168,7 @@ There's a whole domain of tools, as well as some domain areas in our industry, A
 
 **Jerod Santo:** For sure.
 
-**Amal Hussein:** And what happens with library author land is folks are really busy, they're maintainers for really large projects and they're already overburdened, and getting good documentation is a challenge that most folks have out of their projects. So kind of taking the step to democratize the power of this has kind of been left on \[unintelligible 00:27:05.11\] wider community.
+**Amal Hussein:** And what happens with library author land is folks are really busy, they're maintainers for really large projects and they're already overburdened, and getting good documentation is a challenge that most folks have out of their projects. So kind of taking the step to democratize the power of this has kind of been left on us as a wider community.
 
 I've been able to leverage ASTs, actually -- I worked on a project at Bocoup where we were working with the Edge team (this was a while ago) to modernize thousands of tests that were actually written for IE, but that were valid... So these tests were valid, because the web platform is -- you know, we don't break the web; when we implement the CSS feature, when we implement this API, it's typically stable, and we just usually enhance it.
 
@@ -176,7 +176,7 @@ So there's thousands of tests that were written for IE, that were still valid fo
 
 \[00:28:24.00\] So there were a lot of similar patterns, but there were also a ton of conditions... So I was able to leverage ASTs to help me power through a bunch of refactoring for thousands of tests, and I was able to make those changes safely; had I done that work manually, it would have been just an X number of days more.
 
-**Adam Stacoviak:** \[unintelligible 00:28:51.16\]
+**Adam Stacoviak:** And error-prone, too, probably.
 
 **Amal Hussein:** Yeah, error-prone, and not a good use of a human brain. So I'm very pro automating repetitive work and using automation to limit your risk, but also to make it easier for you to repeat and rinse and iterate fast. And when you use automated refactoring, what you're able to do is build up a set of transforms, you're able to change thousands of files at once, and if you did something wrong, you just redo it; you just Git check-out, change your transform and then run your refactoring again. That type of quick feedback look is necessary to be productive in 2019 and beyond.
 
@@ -230,7 +230,7 @@ And then there is the last step, which is "Okay, now that I've queried, and I've
 
 On the Javascript complexity metric, this ranks really low. This s way below TypeScript, in my opinion, for example. People look at TypeScript and they're like "I don't understand this...!" And then a week later they're like "Oh my god, I'm converted forever." For me, the barrier to entry when I teach folks about ASTs is even lower than that. As soon as I show them an example, three minutes later they're like "I'm sold."
 
-**Jerod Santo:** Yeah. I'm basically looking at this example right here and I'm pretty much sold as well, because this is way more simple than I would expect it to be \[unintelligible 00:42:00.29\] At least to get started, it seems like it's pretty straightforward.
+**Jerod Santo:** Yeah. I'm basically looking at this example right here and I'm pretty much sold as well, because this is way more simple than I would expect it to be a bigger buy-in, at least to get started. It seems like it's pretty straightforward.
 
 **Amal Hussein:** The tooling has made it really easy...
 
