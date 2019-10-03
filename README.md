@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-154-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-155-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -224,6 +224,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/ritikeshvali"><img src="https://avatars0.githubusercontent.com/u/32462019?v=4" width="100px;" alt="Ritikesh vali"/><br /><sub><b>Ritikesh vali</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=ritikeshvali" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/EricBrianAnil"><img src="https://avatars1.githubusercontent.com/u/38664231?v=4" width="100px;" alt="Eric Brian Anil"/><br /><sub><b>Eric Brian Anil</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=EricBrianAnil" title="Documentation">📖</a></td>
     <td align="center"><a href="https://orsos.dev"><img src="https://avatars2.githubusercontent.com/u/15078488?v=4" width="100px;" alt="Adam Orsos"/><br /><sub><b>Adam Orsos</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=AdamSpindle" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/stmps"><img src="https://avatars0.githubusercontent.com/u/7938484?v=4" width="100px;" alt="stmps"/><br /><sub><b>stmps</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=stmps" title="Documentation">📖</a></td>
   </tr>
 </table>
 
