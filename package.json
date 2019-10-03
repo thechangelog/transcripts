@@ -1,9 +1,9 @@
 {
-  "name": "transcripts",
+  "name": "transcripts form",
   "description": "Changelog episode transcripts in Markdown format",
   "scripts": {
-    "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:add": "all-contributors  can add ",
+    "contributors:generate": "all-contributors can generate"
   },
   "repository": {
     "type": "git",
