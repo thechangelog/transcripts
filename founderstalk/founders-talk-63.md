@@ -84,7 +84,7 @@ I think one of those things where every software engineer thinks they're a good 
 
 **Adam Stacoviak:** A student's schedule essentially is "Show up to live class..." Maybe walks us through that; let me not assume. Walk me through what that is - what's the schedule like for a first student?
 
-**Austen Allred:** Yeah, so it's 8 AM to 5 PM Pacific. We do everything in what we call \[unintelligible 00:14:23.11\] which is from the instructor's point of view "I do, we do, you do." So there's a new topic, the instructor will build something, and then he'll build the same thing, given the same topic, as you build something alongside him; then you'll build something while the instructor watches and critiques, and we basically do that loop again and again and again.
+**Austen Allred:** Yeah, so it's 8 AM to 5 PM Pacific. We do everything in what we call "IWY Loop" which is from the instructor's point of view "I do, we do, you do." So there's a new topic, the instructor will build something, and then he'll build the same thing, given the same topic, as you build something alongside him; then you'll build something while the instructor watches and critiques, and we basically do that loop again and again and again.
 
 **Adam Stacoviak:** So it's not just theory, it's hands-on.
 
