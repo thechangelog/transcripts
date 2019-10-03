@@ -168,7 +168,7 @@ There's a whole domain of tools, as well as some domain areas in our industry, A
 
 **Jerod Santo:** For sure.
 
-**Amal Hussein:** And what happens with library author land is folks are really busy, they're maintainers for really large projects and they're already overburdened, and getting good documentation is a challenge that most folks have out of their projects. So kind of taking the step to democratize the power of this has kind of been left on like I would say.. as a wider community.
+**Amal Hussein:** And what happens with library author land is folks are really busy, they're maintainers for really large projects and they're already overburdened, and getting good documentation is a challenge that most folks have out of their projects. So kind of taking the step to democratize the power of this has kind of been left on like I would say.. us as a wider community.
 
 I've been able to leverage ASTs, actually -- I worked on a project at Bocoup where we were working with the Edge team (this was a while ago) to modernize thousands of tests that were actually written for IE, but that were valid... So these tests were valid, because the web platform is -- you know, we don't break the web; when we implement the CSS feature, when we implement this API, it's typically stable, and we just usually enhance it.
 
@@ -186,8 +186,7 @@ So you can make that decision binary, and you can enforce those things for your 
 
 And lastly, what I'll say is that using ASTs is one way to really add a resilience layer to your codebase.. Because if you're fixing a bug, the first thing you should ask yourself is "Alright, I fixed this bug. Could I have avoided this with a linting rule?" If the answer is no, the next question is "Okay, could I have avoided this with a unit test?" If the answer is no, then an integration test.
 
-\[00:32:16.02\] For me, writing your own custom linting rules or custom transforms and all of these things are like a first-layer defense for a lot of things in codebases \[
-00:32:26.10\]
+For me, writing your own custom linting rules or custom transforms and all of these things are like a first-layer defense for a lot of things in codebases.
 
 **Adam Stacoviak:** Do ASTs typically be written in the language that you're testing against? Where do you begin? What language are they written in? Are they a separate project? Do they live inside the monorepo? What's the landscape?
 
@@ -297,7 +296,7 @@ There's a culture now with some of the larger frameworks - Angular being one of 
 
 So real software, software that's been out in the wild, and has had multiple developers work on it... Applications at scale have cruft. I have yet to see applications that scale that don't use multiple languages, that don't have arcane stories behind why this weird thing exists... It's like "Alright, when you open this file, you're gonna have to turn around ten times and tap your nose once." \[laughter\]
 
-**Jerod Santo:** and every dragons...
+**Jerod Santo:** there be dragons...
 
 **Amal Hussein:** It's just the most hilarious stories. But applications are living, breathing; they have cruft... That's normal. So I wanna normalize weirdness, because that's just how applications evolve over time, with multiple people. So it's okay, there has to be some uncomfortableness in our codebases, because ultimately, you have to have something to be pushing forward as a team. I envy the folks who are really happy about everything; congratulations to them... Maybe this talk isn't for them. But this talk is for 99% of us that are remaining, that have \#realproblems.
 
