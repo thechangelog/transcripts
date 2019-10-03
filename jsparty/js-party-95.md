@@ -154,7 +154,7 @@ Again, that has certainly helped the fact that, you know, here's a tool that if 
 
 **Suz Hinton:** Yeah, absolutely.
 
-Break: \[00:39:23.25\]
+**Break:** \[00:39:23.25\]
 
 **Suz Hinton:** We wanted to finish up by talking about what sort of exciting things are happening with Node-RED in the future. I heard that there's an upcoming release happening, which is version 1.0, which is a big deal... Can you tell us a little bit about that?
 
