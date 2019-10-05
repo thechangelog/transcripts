@@ -110,7 +110,7 @@ Yeah, so that's one of the cool things - if you're the maintainer of a project a
 
 **Feross Aboukhadijeh:** I guess, yeah... \[laughter\]
 
-**Adam Stacoviak:** That also gives us a chance to plug JS Party once again, because you actually spoke about that \[unintelligible 00:17:06.15\] website on an episode of JS Party... I would say at least a year ago, I bet. But continue, continue...
+**Adam Stacoviak:** That also gives us a chance to plug JS Party once again, because you actually spoke about that annoying website on an episode of JS Party... I would say at least a year ago, I bet. But continue, continue...
 
 **Feross Aboukhadijeh:** So I was thinking of different things I could do, and one of the things I was really curious about was could I do computation using WebGL, or workers, to do useful work on people's browsers? Sort of use it as a distributed computer. So I looked into that, and the browser wasn't really quite fast enough, so I then discovered WebRTC, which lets you do peer-to-peer connections between browsers... And the idea that I had was "Why don't we connect a bunch of sites together and build something kind of like a torrent network, where the resources for a site can come from the other people on the site? And we can reduce the cost of running a site."
 
