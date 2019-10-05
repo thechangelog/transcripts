@@ -16,7 +16,7 @@ My talk is basically about this, and what was the change using Web Assembly, and
 
 **Florian Rival:** Yes, there are the core classes of the software that describe what the game is - the object in a game, and the rules that defined the game. The interesting thing about the software is that people can create their own game without programming, because they are able to create rules of that game using visual events. It's a bit visual programming, in a way. And all of this is still in C++, because there's lots of business logic that I didn't want to rewrite - all the tooling to convert your game from vis structure and memory to a real game.
 
-\[unintelligible 00:03:54.04\] are running in Javascript, actually - HTML5, WebGL and Javascript. So the idea was can I take all this logic in C++ and convert it in Web Assembly? And that's what I did, using a project called Emscripten, which is a Mozilla project, but at the beginning it was \[unintelligible 00:04:15.14\] or maybe that has changed. Anyway, that's a really nice project, that is basically a C++ to Javascript compiler, and now a compiler that is C++ to Web Assembly.
+At the end, games are running in Javascript, actually - HTML5, WebGL and Javascript. So the idea was can I take all this logic in C++ and convert it in Web Assembly? And that's what I did, using a project called Emscripten, which is a Mozilla project, but at the beginning it was \[unintelligible 00:04:15.14\] or maybe that has changed. Anyway, that's a really nice project, that is basically a C++ to Javascript compiler, and now a compiler that is C++ to Web Assembly.
 
 **Kevin Ball:** That's neat. Can you give me the spoiler? What did you have to change to get that to work?
 
