@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-157-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-158-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -229,6 +229,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/KrishnaPrasath"><img src="https://avatars2.githubusercontent.com/u/28452278?v=4" width="100px;" alt="Murdoc"/><br /><sub><b>Murdoc</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=KrishnaPrasath" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://adrianskar.com"><img src="https://avatars1.githubusercontent.com/u/12052430?v=4" width="100px;" alt="Adrian Skar"/><br /><sub><b>Adrian Skar</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=AdrianSkar" title="Documentation">📖</a></td>
   </tr>
 </table>
 
