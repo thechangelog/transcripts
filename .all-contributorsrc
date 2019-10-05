@@ -1420,6 +1420,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "AdrianSkar",
+      "name": "Adrian Skar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12052430?v=4",
+      "profile": "https://adrianskar.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
