@@ -32,7 +32,7 @@ Free is relative. You type "npm install react" or "create react app", and you di
 
 **Adam Stacoviak:** Imagine money comes from the fairies, and bills get paid.
 
-**CJ Silverio:** Yeah. You leave out a little dish of milk, and then the \[unintelligible 00:05:15.05\]
+**CJ Silverio:** Yeah. You leave out a little dish of milk, and then the Javascript...
 
 **Jerod Santo:** Once a year, yeah. Cookies once a year.
 
@@ -262,7 +262,7 @@ Anti-goals would be things like -- CocoaPods has a perfectly great solution for 
 
 **Jerod Santo:** Well, let's pause and talk about that, because that's kind of -- I don't know if it's an elephant in the room, but if you talk about the problem with centralization, at least package registry diversity is better. Like, two is better than one, and now GitHub is getting in the package management game... Your thoughts on that?
 
-**CJ Silverio:** I think, when I wear the hat of someone who's running an \[unintelligible 00:34:33.28\] I think "Oh yeah, it actually makes total sense", because team management is a huge thing...
+**CJ Silverio:** I think, when I wear the hat of someone who's running an engineering team here for the company I'm working for, I think "Oh yeah, it actually makes total sense", because team management is a huge thing...
 
 **Jerod Santo:** Exactly.
 

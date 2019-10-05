@@ -1402,6 +1402,42 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "anchetaWern",
+      "name": "Wern Ancheta",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/743603?v=4",
+      "profile": "http://anchetawern.github.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "KrishnaPrasath",
+      "name": "Murdoc",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/28452278?v=4",
+      "profile": "https://github.com/KrishnaPrasath",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "AdrianSkar",
+      "name": "Adrian Skar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12052430?v=4",
+      "profile": "https://adrianskar.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "R-fagundes",
+      "name": "R-fagundes",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/55807712?v=4",
+      "profile": "https://github.com/R-fagundes",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",

@@ -2,7 +2,7 @@
 
 **Adam Stacoviak:** There's probably a thousand ways you can use a Computer Science degree, right? Being in school so long to get a Ph.D. in computer science must be a life's journey, but I'm sure you've got some extreme opinions on how to best use a Computer Science degree in these ages.
 
-**Yaw Anokwa:** Yeah, I have some thoughts on that. I was in school for a very long time, and sort of early in that Ph.D. journey I had a moment where I realized that the stuff that I was working on didn't really matter to people; it didn't seem to have a meaningful impact. It was just like a fun thing to do. During that period I got a chance to travel to some places in Africa, where I saw how \[unintelligible 00:02:46.06\] really make a difference. That really moved me to stop working on stuff that didn't really matter to people and start focusing all the time and energy in school and education on stuff that I thought could really make a difference today, to people who needed it.
+**Yaw Anokwa:** Yeah, I have some thoughts on that. I was in school for a very long time, and sort of early in that Ph.D. journey I had a moment where I realized that the stuff that I was working on didn't really matter to people; it didn't seem to have a meaningful impact. It was just like a fun thing to do. During that period I got a chance to travel to some places in Africa, where I saw how tech can really make a difference. That really moved me to stop working on stuff that didn't really matter to people and start focusing all the time and energy in school and education on stuff that I thought could really make a difference today, to people who needed it.
 
 I think there's always gonna be lots of people working on ad targeting, or some of the stuff that big tech companies work on, but I feel a really strong passion for using technology to help folks who need help... So I've dedicated most of my graduate career and post-graduate career to working on that problem.
 
@@ -58,13 +58,13 @@ So I started working with Gaetano, and during probably my second year I saw a ta
 
 So after listening to Neal, I got a chance to put a pause on my master's degree at that time and go to Rwanda to work with a group called Partners In Health. At that time, they were deploying an open source medical records system called OpenMRS. They were doing it in a small town in rural Rwanda, and I saw during those six months that I was there how important an electronic medical records system could be to treating HIV and TB patients.
 
-A lot of chronic care like HIV and TB is done on paper, and paper really limits how effective you can be at treating those patients. It's not like malaria, where you \[unintelligible 00:13:51.27\] Every few weeks, every few months you're at the hospital. So electronic medical records definitely help.
+A lot of chronic care like HIV and TB is done on paper, and paper really limits how effective you can be at treating those patients. It's not like malaria, where you get treated once and it goes away. Every few weeks, every few months you're at the hospital. So electronic medical records definitely help.
 
 So I had that experience and I learned from it, and I saw how important paper was to the process, and how critical electronic medical records tend to be to \[unintelligible 00:14:11.22\] So I kept wandering Africa at the time, and Gaetano sort of summoned me back to Seattle, and said "You've been wandering for a while..." He was going to take a sabbatical from UDUB to go to Google to work on a mobile data collection project. This was right before Android was released, and so Gaetano had this idea that a lot of his students were sort of working in the technology for development space, and that the common theme seemed to be removing paper and digitizing processes.
 
 I thought this idea was terrible, to be honest. I was like "I'd rather just bum around in Tanzania for a little bit. I don't really wanna be back in Seattle and working on this stuff", but Gaetano and his students, friends of mine, Carl Hartung and Waylon Brunette, sort of convinced me that it was worthwhile... So the three of us went to Google as interns for a year and built out what became initially Open Data Kit. We did it open source from day one, because we're researchers and grad students and we thought it was really important to make it open source, available to as many people who wanted to do research on it.
 
-At that time Android just came out. We released the first version of ODK as soon as Android was publically released... And actually, funny story - at that time there were the Sidekick style devices; those initial devices, we took 20 of them. I think Carl and myself were the first people to bring Android devices to the entire continent of Africa, because \[unintelligible 00:15:49.24\] We stuck them in our bags and took them to Uganda to do a quick project... And that's what kicked off the project. That was in 2008.
+At that time Android just came out. We released the first version of ODK as soon as Android was publically released... And actually, funny story - at that time there were the Sidekick style devices; those initial devices, we took 20 of them. I think Carl and myself were the first people to bring Android devices to the entire continent of Africa, because it wasn't released there yet. We stuck them in our bags and took them to Uganda to do a quick project... And that's what kicked off the project. That was in 2008.
 
 \[00:16:01.22\] From there, the three of us had a year at Google as interns, and then went back to the university and started to build out what became this entire ecosystem of tools. That was in 2008, and now it's 2019, so it's gone on to become the standard set of tools that folks use when they're collecting data in a field environment, and it all sort of started from that project we started when we were interns.
 
@@ -130,7 +130,7 @@ I think those are the things that played a part - luck and timing, and the fact 
 
 So we spent a lot of time - and continue to spend a lot of time - in the field, working with folks, just watching how the user \[unintelligible 00:28:56.03\] when making those adjustments.
 
-Easy to use means that the average country office or the average person who's doing the survey can design the surveys and get them onto the device, \[unintelligible 00:29:08.11\] an enumerator can take the tool with a very little amount of training and can go out and collect the data. So that's sort of the "easy to use, easy to try" part.
+Easy to use means that the average country office or the average person who's doing the survey can design the surveys and get them onto the device, an enumerator is how we call the people who collect the data. An enumerator can take the tool with a very little amount of training and can go out and collect the data. So that's sort of the "easy to use, easy to try" part.
 
 The scale is really critical, because a lot of these projects, once they get going, they generally have a ton of momentum. I think at this point, if I look at the mobile app, over the last year we've had about 2,5 million users use it, and a lot of those users are in Nigeria, or India... So these projects start very small, but they scale up very rapidly, where they have thousands of people on the field, collecting tens of forms a day... So it just get really big, really quickly, so we wanna make sure that the software, while it is easy to try, that once you ramp up and once you go to scale from your pilot, it just kind of keeps working.
 
@@ -152,7 +152,7 @@ Yeah, we don't often get bug reports from users. We get stack traces when there'
 
 I'm gonna focus on the core ODK tools that I think most people know. Those are the ones that are just really largely deployed. The reason it's called Open Data Kit - that "Kit" is really important - is because it's a series of tools that all sort of plug and play to let you collect and manage your data.
 
-So there's ODK Collect, which is the mobile app. That essentially renders forms, and lets you collect the data. There's ODK Aggregate, which is a Java-based server that runs either locally on the cloud, \[unintelligible 00:35:07.21\] which is another server, but different stack. We have ODK Build, which is a form designer, and then we also have ODK XLS Form, which is another form designer.
+So there's ODK Collect, which is the mobile app. That essentially renders forms, and lets you collect the data. There's ODK Aggregate, which is a Java-based server that runs either locally on the cloud, there's ODK Central which is another server, but different stack. We have ODK Build, which is a form designer, and then we also have ODK XLS Form, which is another form designer.
 
 Probably the easiest way to explain this is sort of walk you through the process of what it takes to get an ODK (we call it) campaign up and running. Let's say you have a paper form with three questions - name, age and gender. And maybe a GPS location. The way you would get this form designed is that you use a tool like ODK Build, which lets you sort of drag-and-drop questions into a web interface. And once that questionnaire is essentially designed, you get it published and it goes to your ODK Aggregate server.
 
@@ -182,7 +182,7 @@ Hopefully that should give you a sense... You build a form, you get it on a serv
 
 The variety of devices also lets us handle different use cases; I was talking about Amazon rainforests... But there's places with heavy canopy, where you need an external GPS and a device that is extremely humidity-proof, so we run on those devices as well.
 
-\[00:39:59.05\] As far as being able to do OCR, we do have some researchy apps. One is called ODK Stamp. That does exactly that, where you can essentially annotate a sheet of paper, collect the data that way, feed it into the app \[unintelligible 00:40:13.07\]
+\[00:39:59.05\] As far as being able to do OCR, we do have some researchy apps. One is called ODK Stamp. That does exactly that, where you can essentially annotate a sheet of paper, collect the data that way, feed it into the app, but it's not widely deployed as the rest of our tools.
 
 **Jerod Santo:** That's really cool. I love that it runs on eReaders. And TVs - that just seems kind of ridiculous, but okay... \[laughs\]
 

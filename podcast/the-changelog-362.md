@@ -28,7 +28,7 @@
 
 **Amal Hussein:** Yeah, I agree wholeheartedly with your analysis there. There's a great quote, "Heavy lies the head who wears the crown", or something like that... There's a lot of freedom you get in a leadership role, where there's a lot of autonomy, you're able to drive decisions and really make an impact for good or for bad, but with that comes a lot of responsibility, and one of those is taking responsibility for failures, or missed opportunities.
 
-I think what's interesting at npm about this is -- you know, I've always had a dream of being a toolmaker; tooling, that's kind of my stuff, it's my jam. I'm always into architecture, infrastructure, how things connect... I'm very much an in-between person. When I worked on server-side code, middleware was something that was interesting to me, because of the intersectional nature of it. So at npm, in many ways, I'm fulfilling my life-long dream of being a toolmaker. And I think as an engineer that's a toolmaker, we have the toughest customers, because people are relying on us to then do their jobs, and make their magic happen. So there's this extra layer of not only scrutiny, but also really -- we're the toughest customers, software engineers... We're the toughest customers, because we can make the thing that we're using, if we really sat down.
+I think what's interesting at npm about this is -- you know, I've always had a dream of being a toolmaker; tooling, that's kind of my stuff, it's my jam. I'm always into architecture, infrastructure, how things connect... I'm very much an in-between person. When I worked on server-side code, middleware was something that was interesting to me, because of the intersectional nature of it. So at npm, in many ways, I'm fulfilling my life-long dream of being a toolmaker. And I think as an engineer that's a toolmaker, we have the toughest customers, because people are relying on us to then do their jobs, and make their magic happen. So there's this extra layer of not only scrutiny, but also really -- we're the toughest customers, software engineers... We're the toughest customers, because we can make the thing that we're using if we really sat down.
 
 **Adam Stacoviak:** \[00:08:15.03\] And sometimes you do. Sometimes you make your own thing, because somebody else's thing isn't good enough... And you've got two things.
 
@@ -114,7 +114,7 @@ And it's really interesting to watch the transitions that we've had, where 15 ye
 
 **Amal Hussein:** Change, yes...
 
-**Jerod Santo:** Maybe a smaller topic, actually... \[unintelligible 00:16:40.03\]
+**Jerod Santo:** Maybe a smaller topic, actually... 
 
 **Adam Stacoviak:** Well, something I wanna say is that yesterday's choices are today's consequences are today's consequences. Yesterday's choices -- and we're talking about our maturity level in terms of an industry, and people, and even as an internet, we're still learning... But yesterday's choices are today's consequences. That's kind of where we get legacy code from, and this need to transpile into new ways, and take care of tech debt, and all these things that come along with building software.
 
@@ -186,7 +186,7 @@ So you can make that decision binary, and you can enforce those things for your 
 
 And lastly, what I'll say is that using ASTs is one way to really add a resilience layer to your codebase.. Because if you're fixing a bug, the first thing you should ask yourself is "Alright, I fixed this bug. Could I have avoided this with a linting rule?" If the answer is no, the next question is "Okay, could I have avoided this with a unit test?" If the answer is no, then an integration test.
 
-\[00:32:16.02\] For me, writing your own custom linting rules or custom transforms and all of these things are like a first-layer defense for a lot of things in codebases \[unintelligible 00:32:26.10\]
+For me, writing your own custom linting rules or custom transforms and all of these things are like a first-layer defense for a lot of things in codebases.
 
 **Adam Stacoviak:** Do ASTs typically be written in the language that you're testing against? Where do you begin? What language are they written in? Are they a separate project? Do they live inside the monorepo? What's the landscape?
 
@@ -296,7 +296,7 @@ There's a culture now with some of the larger frameworks - Angular being one of 
 
 So real software, software that's been out in the wild, and has had multiple developers work on it... Applications at scale have cruft. I have yet to see applications that scale that don't use multiple languages, that don't have arcane stories behind why this weird thing exists... It's like "Alright, when you open this file, you're gonna have to turn around ten times and tap your nose once." \[laughter\]
 
-**Jerod Santo:** \[unintelligible 00:59:03.19\]
+**Jerod Santo:** there be dragons...
 
 **Amal Hussein:** It's just the most hilarious stories. But applications are living, breathing; they have cruft... That's normal. So I wanna normalize weirdness, because that's just how applications evolve over time, with multiple people. So it's okay, there has to be some uncomfortableness in our codebases, because ultimately, you have to have something to be pushing forward as a team. I envy the folks who are really happy about everything; congratulations to them... Maybe this talk isn't for them. But this talk is for 99% of us that are remaining, that have \#realproblems.
 

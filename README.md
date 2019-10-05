@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-155-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-159-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -225,6 +225,12 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/EricBrianAnil"><img src="https://avatars1.githubusercontent.com/u/38664231?v=4" width="100px;" alt="Eric Brian Anil"/><br /><sub><b>Eric Brian Anil</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=EricBrianAnil" title="Documentation">📖</a></td>
     <td align="center"><a href="https://orsos.dev"><img src="https://avatars2.githubusercontent.com/u/15078488?v=4" width="100px;" alt="Adam Orsos"/><br /><sub><b>Adam Orsos</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=AdamSpindle" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/stmps"><img src="https://avatars0.githubusercontent.com/u/7938484?v=4" width="100px;" alt="stmps"/><br /><sub><b>stmps</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=stmps" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://anchetawern.github.com"><img src="https://avatars3.githubusercontent.com/u/743603?v=4" width="100px;" alt="Wern Ancheta"/><br /><sub><b>Wern Ancheta</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=anchetaWern" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/KrishnaPrasath"><img src="https://avatars2.githubusercontent.com/u/28452278?v=4" width="100px;" alt="Murdoc"/><br /><sub><b>Murdoc</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=KrishnaPrasath" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://adrianskar.com"><img src="https://avatars1.githubusercontent.com/u/12052430?v=4" width="100px;" alt="Adrian Skar"/><br /><sub><b>Adrian Skar</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=AdrianSkar" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/R-fagundes"><img src="https://avatars0.githubusercontent.com/u/55807712?v=4" width="100px;" alt="R-fagundes"/><br /><sub><b>R-fagundes</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=R-fagundes" title="Documentation">📖</a></td>
   </tr>
 </table>
 
