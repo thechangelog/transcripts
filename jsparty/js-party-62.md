@@ -18,7 +18,7 @@ Also, we're still learning about what good user testing looks like, what good QA
 
 I think our framework works well for us, because it's also built on our understanding of what's really happening underneath the hood... So I wouldn't necessarily recommend that someone else goes and builds an open source framework for voice UI development.
 
-**Kevin Ball:** Can you walk us through -- what does one of these apps even look like? Is this some installable thing that goes on the device? Is this like a manifest file that \[unintelligible 00:05:03.19\] know what to talk to? How does this even work?
+**Kevin Ball:** Can you walk us through -- what does one of these apps even look like? Is this some installable thing that goes on the device? Is this like a manifest file that things know what to talk to? How does this even work?
 
 **Nara Kasbergen:** It's a little bit of a mix of all of those ideas, and some new ones. From the user perspective, for the most part they are essentially apps that you install, but nothing really gets downloaded onto your device for as far as I'm aware. Basically, it just kind of links your account with that app to enable you to use it... But that's really all that happens, at least as far as I'm aware. I don't know the exact way that it works behind the scenes, because that's also a little bit of the black box that both Amazon and Google control; they don't necessarily always tell you exactly what's happening... But most of what's happening we do know is actually more so in the cloud, so there's very little that's actually stored on the device itself.
 
@@ -160,7 +160,7 @@ Basically, the one thing that they all have in common is Node... And you don't h
 
 **Nick Nisi:** Gotcha, yeah.
 
-**Nara Kasbergen:** It's still kind of a struggle for us. But yeah, for Alexa if you say "play NPR", that takes you to the station \[unintelligible 00:29:24.02\] that I talked about, and if you ask "Alexa, open NPR One", you'll get the NPR One skill that I talked about.
+**Nara Kasbergen:** It's still kind of a struggle for us. But yeah, for Alexa if you say "play NPR", that takes you to the station streaming skill that I talked about, and if you ask "Alexa, open NPR One", you'll get the NPR One skill that I talked about.
 
 **Nick Nisi:** Do I have to go to the app and install these skills first, or does it just appear?
 
@@ -204,7 +204,7 @@ Basically, the one thing that they all have in common is Node... And you don't h
 
 **Kevin Ball:** So if you have an existing Vue application, how hard is it to port that into Vue NativeScript?
 
-**Jen Looper:** It's a great question, and it's something that we know that everyone wants to do, and we haven't solved it yet... But I think what we're gonna be able to do is use the Vue CLI 3 and Vue 3 when it all comes out. Vue CLI 3 is here, but Vue 3 is coming out, and we're gonna be able to more easily make plugins, at which point we'll be able to actually scrap a lot of the code that we have for NativeScript Vue, and we'll be able to go ahead and say \[unintelligible 00:34:38.17\] or some such thing, to go ahead and bolt on your native mobile app. This is the dream; we're not there yet, but we're hoping very soon... And it's exciting to kind of become close to the Vue project as it evolves, and have a little bit of input on how it's coming along. It's really exciting.
+**Jen Looper:** It's a great question, and it's something that we know that everyone wants to do, and we haven't solved it yet... But I think what we're gonna be able to do is use the Vue CLI 3 and Vue 3 when it all comes out. Vue CLI 3 is here, but Vue 3 is coming out, and we're gonna be able to more easily make plugins, at which point we'll be able to actually scrap a lot of the code that we have for NativeScript Vue, and we'll be able to go ahead and say Vue add web app, Vue add mobile or Vue add my-app-name --mobile or some such thing, to go ahead and bolt on your native mobile app. This is the dream; we're not there yet, but we're hoping very soon... And it's exciting to kind of become close to the Vue project as it evolves, and have a little bit of input on how it's coming along. It's really exciting.
 
 **Kevin Ball:** Yeah, this seems to be something that all of the big frameworks are moving towards, of having more of a pluggable rendering back-end. I know Angular - part of their big rewrite was to enable that; React has started to do that, so that you are essentially able to have this DOM back-end versus mobile back-end, versus potentially other back-ends just plug right in there.
 

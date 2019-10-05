@@ -126,7 +126,7 @@ Imagine thinking about the way you drive to work. I can't really use that with y
 
 **Mireille B. Reece, Psy.D:** "I don't remember that entire drive." So it's been so habituated, that neural network is so strong that you're like "This is just what we do", and sort of on autopilot you just do it.
 
-**Adam Stacoviak:** \[00:20:00.17\] That happened today, actually. We were driving somewhere -- it was last night for dinner; and I'm getting ready to make a left, and Heather is like "No, you're gonna go straight here." That happens often, by the way... But the point was when I'm at this particular stoplight I tend to make a left, because I'm going into Tomball, and not onto the highway to go to the Woodlands, or whatever. So my brain is like "When you're here, you should be making a left", and so I habitually was like \[unintelligible 00:20:25.08\] even though I know where we're trying to go.
+**Adam Stacoviak:** \[00:20:00.17\] That happened today, actually. We were driving somewhere -- it was last night for dinner; and I'm getting ready to make a left, and Heather is like "No, you're gonna go straight here." That happens often, by the way... But the point was when I'm at this particular stoplight I tend to make a left, because I'm going into Tomball, and not onto the highway to go to the Woodlands, or whatever. So my brain is like "When you're here, you should be making a left", and so I habitually was like "Left turn signal, gonna make a left", even though I know where we're trying to go.
 
 **Mireille B. Reece, Psy.D:** Right. Because your brain has just been well-practiced. So if your attention isn't on where you were switching gears to go "Oh yeah, today we're going this way", then you're just gonna do what's been automated.
 
@@ -144,11 +144,11 @@ The interesting thing actually with emotions is that they're actually really imp
 
 **Adam Stacoviak:** Well, help break that down then. What's the difference?
 
-**Mireille B. Reece, Psy.D:** Sympathy is sort of like "Oh, too bad. It sucks to be you."
+**Mireille B. Reece, Psy.D:** So I would say, Sympathy is sort of like "Oh, too bad. It sucks to be you."
 
 **Adam Stacoviak:** Right, "Bummer."
 
-**Mireille B. Reece, Psy.D:** But empathy is so much more of like "Wow, I can only imagine if I were you, had your background, and was going through that experience - how bad that it hurt." Or like "Ugh, I would be so inflamed!" So empathy is much more my ability to see somebody's perspective from their perspective, not my perspective of someone's perfective.
+**Mireille B. Reece, Psy.D:** But empathy is so much more of like "Wow, I can only imagine if I were you, had your background, and was going through that experience - how bad that it hurt." Or like "Ugh, I would be so inflamed!" So empathy is much more my ability to see somebody's perspective from their perspective, not my perspective of someone's perspective.
 
 **Adam Stacoviak:** Gotcha.
 

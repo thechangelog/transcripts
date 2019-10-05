@@ -136,7 +136,7 @@ Let's talk about some favorite moments then from this season. I know that I've g
 
 **Mikeal Rogers:** I really liked having Max on, because... I mean, Max is one of my really good friends and I talk to him pretty often. We used to have a company together and kind of talk every day, and very few moments in that were things that me and Max had talked about before. It was all really new stuff, the kind of stuff that we would have only talked about in this kind of setting, with this podcast... And certain things that I just never thought that I'd know. Nadia knew all this stuff, but...
 
-**Nadia Eghbal:** But I didn't know the other stuff \[unintelligible 00:13:30.15\]
+**Nadia Eghbal:** But I didn't know the other stuff that was on there.
 
 **Mikeal Rogers:** Yeah, but I had no idea. I did not know that grant funders love convenings, and that they're called convenings. I didn't even know that. \[laughter\]
 
@@ -288,7 +288,7 @@ Then when Node first started, there was a podcast called NodeUp that I hosted fo
 
 **Mikeal Rogers:** Well, I love it, but I was already a Breakmaster Cylinder fan before you all played it, so...
 
-**Jerod Santo:** You \[unintelligible 00:31:26.27\]
+**Jerod Santo:** You were primed.
 
 **Nadia Eghbal:** I didn't know who Breakmaster Cylinder was until this, but then I looked Breakmaster Cylinder up, and that was pretty cool. To Mikeal's point, by the way, about getting stuff out on time, and everything... Honestly, having you guys produce the show and keep the trains right on time is the huge part of why we're even doing this.
 
@@ -352,7 +352,7 @@ There's one guest that we've been talking about for at least three months, and I
 
 **Nadia Eghbal:** Yeah, we're not just trying to fill a slot... Because our time is precious, everyone's time is precious on this show, and we're trying to really think through what does each episode say and what does it stand for.
 
-**Adam Stacoviak:** Which I think is the exact thing I personally needed on the perspective of podcasts, because we feel like -- maybe it's more of a me thing (I don't know, Jerod, if you share this feeling or not), but we almost have this pressure in our position to create blockbuster podcasts... Good podcasts that get -- it's not even about listens, it's more about the popularity of it. And to not have simply the \[unintelligible 00:39:30.23\] to laser focus on a single season, an overarching topic across that, the right kind of guest to share that message... To me it shows a depth and thoughtfulness that I hadn't -- not so much not considered, but hadn't considered mostly because the cadence of podcasts typically is like any podcast you listen to out there, 9 times out of 10 it's weekly. And to sort of be free of those shackles was very refreshing with this podcast.
+**Adam Stacoviak:** Which I think is the exact thing I personally needed on the perspective of podcasts, because we feel like -- maybe it's more of a me thing (I don't know, Jerod, if you share this feeling or not), but we almost have this pressure in our position to create blockbuster podcasts... Good podcasts that get -- it's not even about listens, it's more about the popularity of it. And to not have simply the popularity to focus -- to laser focus on a single season, an overarching topic across that, the right kind of guest to share that message... To me it shows a depth and thoughtfulness that I hadn't -- not so much not considered, but hadn't considered mostly because the cadence of podcasts typically is like any podcast you listen to out there, 9 times out of 10 it's weekly. And to sort of be free of those shackles was very refreshing with this podcast.
 
 **Mikeal Rogers:** \[00:40:04.25\] Yeah, it's just different. I love both... I love Saturday Night Live, but they don't put together sketches because they're all the best sketches, they put it together because it's Saturday and it's midnight and they have to do a show.
 

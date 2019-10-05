@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-150-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-155-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -218,6 +218,13 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/DuaneOBrien"><img src="https://avatars1.githubusercontent.com/u/4315550?v=4" width="100px;" alt="Duane O'Brien"/><br /><sub><b>Duane O'Brien</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=DuaneOBrien" title="Documentation">📖</a></td>
     <td align="center"><a href="http://bilianavaleva.com"><img src="https://avatars3.githubusercontent.com/u/8368179?v=4" width="100px;" alt="Biliana Valeva"/><br /><sub><b>Biliana Valeva</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=Bilie" title="Documentation">📖</a></td>
     <td align="center"><a href="http://david.odohi.com"><img src="https://avatars0.githubusercontent.com/u/13089295?v=4" width="100px;" alt="Odohi David"/><br /><sub><b>Odohi David</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=spankie" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/LishiTrinity"><img src="https://avatars2.githubusercontent.com/u/33502324?v=4" width="100px;" alt="LishiTrinity"/><br /><sub><b>LishiTrinity</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=LishiTrinity" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/ritikeshvali"><img src="https://avatars0.githubusercontent.com/u/32462019?v=4" width="100px;" alt="Ritikesh vali"/><br /><sub><b>Ritikesh vali</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=ritikeshvali" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/EricBrianAnil"><img src="https://avatars1.githubusercontent.com/u/38664231?v=4" width="100px;" alt="Eric Brian Anil"/><br /><sub><b>Eric Brian Anil</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=EricBrianAnil" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://orsos.dev"><img src="https://avatars2.githubusercontent.com/u/15078488?v=4" width="100px;" alt="Adam Orsos"/><br /><sub><b>Adam Orsos</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=AdamSpindle" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/stmps"><img src="https://avatars0.githubusercontent.com/u/7938484?v=4" width="100px;" alt="stmps"/><br /><sub><b>stmps</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=stmps" title="Documentation">📖</a></td>
   </tr>
 </table>
 
