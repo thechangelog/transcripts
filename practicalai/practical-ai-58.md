@@ -84,7 +84,7 @@ So it's existing companies leveling up their AI expertise, while at the same tim
 
 So I think if other countries are really serious about this, I think it is a model that we might see more of. I think it's hard to get it right for sure, because how many times have we seen "Oh, this company is gonna work with this university" or "There's gonna be this center of excellence at a university that we're going to work with certain companies from industry", and then some stuff happens, but it's not really that impactful. So I hope that these sorts of things are a little bit more impactful.
 
-**Break:**\[00:15:56.28\] to \[00:16:40.08\]
+**Break:**\ [00:15:56.28\]
 
 **Daniel Whitenack:** It's definitely great to talk about some of the things that have been going on in parts of the world that we're not currently in, but there's certainly a lot of AI news coming from the rest of the world as well, and I think that you had something that you wanted to highlight, that you saw in -- was it from MIT, or where was it from?
 
