@@ -2,13 +2,13 @@
 
 **Chris Benson:** I'm doing fine. How's it going today, Daniel?
 
-**Daniel Whitenack:** It's going really well. I'm still in the midst of grading for my Purdue class, but I see the finish line. How about with you?
+**Daniel Whitenack:** It's going really well. I am still in the midst of grading for my Purdue class, but I see the finish line. How about with you?
 
 **Chris Benson:** Just started the new job at Lockheed Martin a couple of weeks ago and have been heads down in that, and obviously the holiday season is coming up with the family, so... A great time of the year.
 
 **Daniel Whitenack:** Yeah, definitely. Today we actually have two guests from IBM healthcare. I'm really excited that Ajay Royyuru and Guillermo Cecchi are joining us. Welcome, guys!
 
-**Ajay Royyuru:** Hey, hi!
+**Ajay Royyuru:** Hey!
 
 **Guillermo Cecchi:** Hi, Chris. Hello, Daniel.
 
