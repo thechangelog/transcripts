@@ -2,7 +2,7 @@
 
 **Nick Nisi:** Yeah.
 
-**Jerod Santo:** So fill me in, guys - what did I miss? To me, it seems like the biggest -- maybe the only hardware, but the biggest exciting thing that I'd been waiting for, is the Mac Pro details.
+**Jerod Santo:** So fill me in guys,what did I miss? To me, it seems like the biggest -- maybe the only hardware, but the biggest exciting thing that I'd been waiting for, is the Mac Pro details.
 
 **Adam Stacoviak:** I'm actually navigating to the Mac Pro page now, as I haven't seen it yet.
 
