@@ -68,7 +68,7 @@
 
 **Brian Ketelsen:** Yeah, I think a good addendum to that though is the fact that the Go Team is listening very carefully to the issues that people are having in the real world. Andrew Gerrand has asked that we do a discussion at GopherCon on the Hack Day, so there's gonna be a room where people can come in and talk about issues with Go, and they fully expect people to be talking about dependency management at a little roundtable discussion.
 
-I know that they acknowledge that the vendor directory isn't a full solution. I think they would like us as a community to come together and help them make a plan or come together and offer a solution; perhaps one with code would be even better. But yeah, they are listening.
+I know they acknowledge that the vendor directory isn't a full solution. I think they would like us as a community to come together and help them make a plan or come together and offer a solution; perhaps one with code would be even better. But yeah, they are listening.
 
 **Erik St. Martin:** \[00:08:06.28\] I think it's a valid point too, because how much time do we want the Go Team invested in working on vendors stuff, instead of things like compile times and performance and things like that? Especially when we're still kind of eeling around blindly. There hasn't been consensus on "This is exactly the approach", so it's difficult. And I think every community has gone through this whole thing with "What do we do about vendoring?", or bundling, or whatever they happen to call it in their particular community.
 
