@@ -34,7 +34,7 @@
 
 **Lynne Tye:** Exactly. A pretty dead end.
 
-**Adam Stacoviak:** \[unintelligible 00:04:19.08\] keep going around there, and there's no real long-term path... And Seth's advice in that is basically what you've said before, which is why I thought you should read this if you haven't yet - it's that it's about the right time to quit. You don't start something and see it through to the end because you have to... "Winners never quit, and quitters never win" kind of mentality. But there's this dip in between starting and finishing that is this lull. In the startup world you hear it as the trough of sorrow etc. This sort of long sloth, this long time period that's very hard... But the winners are the difference between the people who can get through the dip, but is the dip worth getting through? That's the long story short.
+**Adam Stacoviak:** It's a little circle, you just keep going around there, and there's no real long-term path... And Seth's advice in that is basically what you've said before, which is why I thought you should read this if you haven't yet - it's that it's about the right time to quit. You don't start something and see it through to the end because you have to... "Winners never quit, and quitters never win" kind of mentality. But there's this dip in between starting and finishing that is this lull. In the startup world you hear it as the trough of sorrow etc. This sort of long sloth, this long time period that's very hard... But the winners are the difference between the people who can get through the dip, but is the dip worth getting through? That's the long story short.
 
 **Lynne Tye:** For sure.
 
