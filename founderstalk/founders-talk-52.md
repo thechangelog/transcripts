@@ -16,7 +16,7 @@
 
 **Adam Stacoviak:** That's a long time ago.
 
-**Pia Mancini:** That was a long time ago when that started...
+**Pia Mancini:** That was a long time ago when that started.
 
 **Adam Stacoviak:** I went into the military the year before that. In 1998 I went into the United States military, so that's been a long time ago for me, so I know for sure that's a long time ago for you.
 
@@ -28,7 +28,7 @@
 
 **Adam Stacoviak:** What is it about politics that gets you going? Some people get into it, some people don't - what is it about politics that gets you going?
 
-**Pia Mancini:** For me it was a couple of things. I guess deep, deep down it was a sense of responsibility, in a way. I come from quite a privileged background; I was always able to travel. Both my parents are self-made, but they did very well in life, and we always traveled. I was able to do internships and work for free in order to gain experience. I studied in a very good university when I wanted to study, so I felt very privileged, and I always had this feeling that I had to give something back.
+**Pia Mancini:** For me it was a couple of things. I guess deep, deep down it was a sense of responsibility, in a way. I come from quite a privileged background; I was always able to travel. Both my parents are self-made, but they did very well in life, and we always traveled. I was able to do internships and work for free in order to gain experience. I did study in a very good university when I wanted to study, so I felt very privileged, and I always had this feeling that I had to give something back.
 
 So that was one area... And then the other reason, or what really gets me going about politics is that it really impacts our lives, like nothing else. I was always very interested in power and dynamics of power, and how we can set rules to govern ourselves, that really make us be our best selves... That really gets me going, I'm fascinated by that, and it's something that is kind of ingrained in my DNA, I guess; I can't get away from that.
 
