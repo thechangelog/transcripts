@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-161-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-162-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -233,6 +233,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/R-fagundes"><img src="https://avatars0.githubusercontent.com/u/55807712?v=4" width="100px;" alt="R-fagundes"/><br /><sub><b>R-fagundes</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=R-fagundes" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/BlackAzalea"><img src="https://avatars2.githubusercontent.com/u/16504733?v=4" width="100px;" alt="BlackAzalea"/><br /><sub><b>BlackAzalea</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=BlackAzalea" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/tmcroan"><img src="https://avatars3.githubusercontent.com/u/16582058?v=4" width="100px;" alt="Taylor Croan"/><br /><sub><b>Taylor Croan</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=tmcroan" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/mtayllan"><img src="https://avatars0.githubusercontent.com/u/33026097?v=4" width="100px;" alt="mtayllan"/><br /><sub><b>mtayllan</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=mtayllan" title="Documentation">📖</a></td>
   </tr>
 </table>
 
