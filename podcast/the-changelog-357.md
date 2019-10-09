@@ -40,7 +40,7 @@ So I think a lot of what we're talking about in Shape Up is something that kind 
 
 **Jerod Santo:** Right.
 
-**Ryan Singer:** For us it's just how we work, and we started to give names to the different practices. I was actually trying to figure out what to call the book in the end, and I was talking with my friend Chris \[unintelligible 00:07:57.19\] who helped quite a bit; he and Bob Moesta helped a lot with helping to pull out what we were doing and reflect it back to me, so we could figure out how to systematize it... And he said "Well, what do you guys say to each other when you recognize that you need to improve or that you're off-track internally?" And I mentioned to him, we still say to each other sometimes "Hey, we've gotta get real with this."
+**Ryan Singer:** For us it's just how we work, and we started to give names to the different practices. I was actually trying to figure out what to call the book in the end, and I was talking with my friend Chris Spiek, who helped quite a bit; he and Bob Moesta helped a lot with helping to pull out what we were doing and reflect it back to me, so we could figure out how to systematize it... And he said "Well, what do you guys say to each other when you recognize that you need to improve or that you're off-track internally?" And I mentioned to him, we still say to each other sometimes "Hey, we've gotta get real with this."
 
 \[00:08:27.28\] Then I realized, you know what - when it comes to actually turning some kind of a raw idea or an impulse into something that's actionable, that's gonna ship and confidently ship, we actually say "We have to shape that up." Because shaping is a function where you turn something that's unformed into something that has enough form and enough clear boundaries on it that you can see the edges of it and you can sort of contain the risk of it more, and you can confidently delegate it and give it to a team and trust that they'll be able to work out what it ultimately is.
 
@@ -92,7 +92,7 @@ So if we try to put everything into a plan upfront, like "These are the tasks, n
 
 **Ryan Singer:** It's a huge difference between saying "We're interested in spending six weeks on this thing." So rather than estimating some solution as ten weeks, it's more like "How do we design something into the bounds and the constraints of six weeks? How do we make different choices?" That aspect, of working with an appetite instead of an estimate, and working with a fixed timebox, whatever the size of that box is, started in 2003 when we did v1 of Basecamp... Because David was working ten hours a week.
 
-We built v1 with one programmer working ten hours a week, so we were constantly asking ourselves -- if we asked ourselves "How long does it take to build Basecamp?", we would have never gotten it done; but if we said to ourselves, "Man, if we've only got ten hours \[unintelligible 00:18:15.16\] this week, what's a version of message categories that we're gonna get done at the end of the week?" That's a totally different thing. So that traces all the way back to the beginning.
+We built v1 with one programmer working ten hours a week, so we were constantly asking ourselves -- if we asked ourselves "How long does it take to build Basecamp?", we would have never gotten it done; but if we said to ourselves, "Man, if we've only got ten hours of David this week, what's a version of message categories that we're gonna get done at the end of the week?" That's a totally different thing. So that traces all the way back to the beginning.
 
 Then the technique of scoping, which is instead of just splitting work out into tasks, we have this intermediate unit, which sort of corresponds to the anatomy of the animal, the big joints and muscle groups, and stuff... "How do we factor the project down into the main orthogonal parts?" That scoping practice started in 2009, because we had to build out -- we had four products at the time: Basecamp, Backpack, Highrise and Campfire, and we wanted to tie them all together into a single sign-on, and have seamless movement when you're authenticated from one into the others... And that was just a gnarly thing, to transition all those pre-existing user bases into a single sign-on, thing. So that was such a huge technical thing that we actually had to figure out how to break down the work into the right size units that integrate front-end and back-end, that we could finish, and then kind of shrink the universe of what's left, and then move on feeling better.
 
@@ -160,7 +160,7 @@ This is sort of like the wave kind of starting to recede. You know, it's not ove
 
 **Ryan Singer:** You know, we don't have any roasting pits.
 
-**Adam Stacoviak:** \[unintelligible 00:27:23.07\]
+**Adam Stacoviak:** Lashings.
 
 **Jerod Santo:** Oh, you said "something bad happenED". Okay, I thought you said "Something bad happens." I'm like, "Whoa...!"
 
@@ -282,7 +282,7 @@ So what we need is some kind of a machete in our hand, so that we are constantly
 
 **Break:** \[00:52:58.21\]
 
-**Ryan Singer:** So that almost brings us to the end of the book. The \[unintelligible 00:54:08.13\] are walking the territory and mapping out the scopes, they're capturing the discovered work that comes up into scopes, they're building the scopes out and finishing them one by one... So they're kind of like checking off whole territories on the map, like "Nope, don't need to think about that anymore. Don't need to think about that anymore." The whole universe of stuff that they have to worry about is shrinking over time, and they've got actions, tasks marked with a tilde as a nice-to-have, so they're constantly sort of managing the scope as they go...
+**Ryan Singer:** So that almost brings us to the end of the book. The teams are walking the territory and mapping out the scopes, they're capturing the discovered work that comes up into scopes, they're building the scopes out and finishing them one by one... So they're kind of like checking off whole territories on the map, like "Nope, don't need to think about that anymore. Don't need to think about that anymore." The whole universe of stuff that they have to worry about is shrinking over time, and they've got actions, tasks marked with a tilde as a nice-to-have, so they're constantly sort of managing the scope as they go...
 
 Then the last piece is - the way we've built it in Basecamp is that scopes to-do lists in Basecamp, they map to dots on a hill chart. So the hill chart, if you just sort of look at it, looks like a normal distribution, a bell curve... But that's not what it is; it's just the same shape. And the left side is showing -- if we're on the far left, bottom left of the hill, it means "I might have ideas about how I'm gonna do this, but I haven't actually cracked it open at all." If you're a quarter of the way up the hill, it's like "I've identified some of the moving parts, I've stubbed something. I think I have an idea about the approach." And the maybe nearly all the way up the hill is "I've stubbed it, I've validated that the things wire together; I thought that they would. I'm not seeing anything left that isn't clicking together." So now you're on the top of the hill. Then maybe a little bit over the top of the hill is like "I have a lot of tasks left." Toward the bottom of the hill, "I don't have that much left", and then all the way on the other end of the hill it's totally done.
 
@@ -408,7 +408,7 @@ So there's certain things in the shaping process that we actually make calls on,
 
 **Ryan Singer:** \[01:16:10.14\] So we're gonna give a team six weeks and we're gonna shape up a handful of things that are maybe like 1-2 weeks each, but they're not on a schedule to deliver, like week one and then you ship, and then week two and then you ship. There's no schedule for them. It's just like "Here's a bag. We'd like it if all this stuff could get done." And then they figure that out. They know the appetites for each individual things, so they're not gonna spend the whole six weeks unnecessarily on one of them.
 
-That's a real luxury, having two teams... Because we can make progress on one big thing, and we can kind of \[unintelligible 01:16:46.09\] a bunch of small things at the same time.
+That's a real luxury, having two teams... Because we can make progress on one big thing, and we can kind of nip and tuck a bunch of small things at the same time.
 
 **Jerod Santo:** Gotcha.
 
