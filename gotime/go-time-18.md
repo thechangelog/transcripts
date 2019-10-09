@@ -80,7 +80,7 @@ If you take a builder pattern, design pattern, something like that, and you brin
 
 **Carlisia Pinto:** Yeah, I can see that and I hugely agree with that. I did Java for quite a while and I knew Java fairly well back then when I was doing it. In the Java world - or at least in my Java world - design pattern was the go-to thing. It was pretty much like, there is a pattern, find out what it is and stick to that, because that's going to make your life easier, or it was going to make your code "better." I don't say better without quotes anymore, after Dave Cheney. But in any case, I think that is the trick with software design - trying to abstract things too early, you might end up pinning yourself against the wall. Like you're saying, Aaron, writing more code, and only really abstracting things into an interface or into a design pattern after you know what it is that you need is what I think we should be thinking about, as opposed to "Oh, we have design patterns, let's implement that!"
 
-**Erik St. Martin:** Well, that was kind of Dave's talk too, about the SOLID design, talking about single responsibility, open and closed, and the key points that will make software more maintainable, and then looking at design patterns as how they apply to that, whether they make things more complicated, and just recognizing this stuff. That's the whole thing, right? Design patterns are neither good, nor bad. Well, they're mostly good, but it's not religion. We don't have to look at some problem and then shop for the design pattern to solve that. It's okay to have things that are custom too, if it simplifies your design without creating a lot of coupling or things like that.
+**Erik St. Martin:** Well, that was kind of Dave's talk too, about the solid design, talking about single responsibility, open and closed, and the key points that will make software more maintainable, and then looking at design patterns as how they apply to that, whether they make things more complicated, and just recognizing this stuff. That's the whole thing, right? Design patterns are neither good, nor bad. Well, they're mostly good, but it's not religion. We don't have to look at some problem and then shop for the design pattern to solve that. It's okay to have things that are custom too, if it simplifies your design without creating a lot of coupling or things like that.
 
 **Aaron Schlesinger:** \[00:15:53.10\] Yeah. I think since I started writing Go, I kind of started to look at design patterns like just a recipe. If you're a cook, you wanna make an apple pie, you're gonna probably go to a couple different recipes to get the feel for how to make this pie; what's the general stuff that goes into it, how generally do you cook it, and then you're gonna probably make it your own after maybe a couple pies, after you cook for maybe a month or so. That's what I think the Go community is doing and should be doing. We're not just taking -- I keep going back to builders, so I'll continue there... We're not just taking builder from Java or C++. I've seen a couple different implementations of it, some of which are way simpler than the Gang of Four book, or what we see in Java.
 
@@ -106,7 +106,7 @@ So I think we look at our own problems differently, and I'm interested to see ho
 
 **Carlisia Pinto:** Right? I'm sure you've seen it.
 
-**Aaron Schlesinger:** I love that talk.
+**Aaron Schlesinger:** I love that.
 
 **Carlisia Pinto:** So yes, definitely, there are patterns for concurrency, and because at that point I had done concurrent code in Go, and I was just going "Oh my gosh, my code does not look like that at all", but I totally get it. I didn't memorize it, but my head was going "Oh, yeah!" So there are different ways that you can organize code according to what it is that you are doing. So it pays off, I think, for you to know what you can do.
 
@@ -196,7 +196,7 @@ As long as people are continuously refactoring a little bit to make more idiomat
 
 **Erik St. Martin:** So, does everybody wanna talk about any news and projects that have been going on?
 
-**Brian Ketelsen:** It's a pretty big week for interesting things coming out. The Go newsletter came out today, and they had like an ngrok clone for SSH. That was generally interesting on its own; I can't remember what it was called. But the thing that powers it was much more interesting to me, which is Teleport. Github.com/gravitational/teleport is a modern SSH server for clusters and teams written in Go. I had to go touch that and play with it and look at it, and it's really actually kind of awesome. You can install a highly available cluster of SSH bastion servers that will authenticate clients and then proxy them off to the servers in your system. So you can have many clusters of servers, and all of your users just go to your Teleport services and you can SSH to anything on the other side of the cluster. It's really complicated, but cool and easy to use SSH management proxy thing. I'm gonna have to play with it some more, because it looks awesome.
+**Brian Ketelsen:** It's a pretty big week for interesting things coming out. The Go newsletter came out today, and they had like an ngrok clone for SSH. That was generally interesting on its own; I can't remember what it was called. But the thing that powers it was much more interesting to me, which is Teleport. github.com/gravitational/teleport is a modern SSH server for clusters and teams written in Go. I had to go touch that and play with it and look at it, and it's really actually kind of awesome. You can install a highly available cluster of SSH bastion servers that will authenticate clients and then proxy them off to the servers in your system. So you can have many clusters of servers, and all of your users just go to your Teleport services and you can SSH to anything on the other side of the cluster. It's really complicated, but cool and easy to use SSH management proxy thing. I'm gonna have to play with it some more, because it looks awesome.
 
 **Erik St. Martin:** That's interesting, I actually didn't see that. I haven't seen the newsletter today. So one thing I saw - it was either today or yesterday - Brad Fitzpatrick mentioned that they are officially getting rid of the legacy backend for the Go compiler, which means from this point on it will be all SSA, which is cool.
 
@@ -250,7 +250,7 @@ As long as people are continuously refactoring a little bit to make more idiomat
 
 **Aaron Schlesinger:** Fair enough, I'll walk away, too.
 
-**Carlisia Pinto:** I'll go next with the news... Can I?
+**Carlisia Pinto:** I'll go next with the news... May I?
 
 **Erik St. Martin:** Yeah.
 
