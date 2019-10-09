@@ -6,7 +6,7 @@
 
 **Jordan Eldredge:** .org.
 
-**Jerod Santo:** Webamp.org. Let me share some coverage here, because I was actually looking this up as I was live streaming the other day, the hacking on this Winamp2-js... In the readme, Jordan has press coverage. He's been covered by TechCrunch, Gizmodo, Motherboard, The Changelog - which is a different section, but I understand... \[laughter\] And I was looking at the different dates and I was thinking "Do we scoop these guys?" So I looked at Motherboard, they covered it in like February this year - we scooped them. I was looking at TechCrunch - they saw Motherboard posted it, basically, and they covered, and I was like "February this year... We scooped them." And I was starting to feel pretty good about myself, and then I went to Gizmodo's coverage of Winamp2-js, and it was like February -- I don't know the month, but it was 2014... 2014. So props to Gizmodo for scooping this project up years ago \[unintelligible 00:03:23.12\] how long it's been around and how long you've been working on this.
+**Jerod Santo:** Webamp.org. Let me share some coverage here, because I was actually looking this up as I was live streaming the other day, the hacking on this Winamp2-js... In the readme, Jordan has press coverage. He's been covered by TechCrunch, Gizmodo, Motherboard, The Changelog - which is a different section, but I understand... \[laughter\] And I was looking at the different dates and I was thinking "Do we scoop these guys?" So I looked at Motherboard, they covered it in like February this year - we scooped them. I was looking at TechCrunch - they saw Motherboard posted it, basically, and they covered, and I was like "February this year... We scooped them." And I was starting to feel pretty good about myself, and then I went to Gizmodo's coverage of Winamp2-js, and it was like February -- I don't know the month, but it was 2014... 2014. So props to Gizmodo for scooping this project up years ago and i guess thats going to date how long it's been around and how long you've been working on this.
 
 Tell us a little bit of the story. It's four years later... What was this idea and what were you doing back in 2014?
 
@@ -246,7 +246,7 @@ So yeah, I certainly didn't set out on this project with any kind of noble ambit
 
 Then I just push them up to S3, because they do have to be available somewhere, and that's a pretty fast server for me to host them there...
 
-**Adam Stacoviak:** \[unintelligible 00:41:09.19\] this image for something malicious, or just whatever.
+**Adam Stacoviak:** Let me just change out this image for something malicious, or just whatever.
 
 **Jordan Eldredge:** Right, exactly.
 
@@ -254,7 +254,7 @@ Then I just push them up to S3, because they do have to be available somewhere, 
 
 **Adam Stacoviak:** I knew it...!
 
-**Jerod Santo:** Here's the plan, to the listening audience... This episode of the Changelog, Jordan has agreed to host it indefinitely at Webamp.org, which is his website for Winamp2-js (maybe we'll talk about names in a second)... Webamp.org/changelog. We'll link that up in the show notes. When you go to that page, you can listen to this episode inside Winamp2-js. Now, how cool would it be if somebody, anybody out there, created a Changelog skin that we can use \[unintelligible 00:41:58.01\] so it's branded... Super-cool, right? So if you have skills -- or even if you don't have any skills; if you've got time and you wanna try this out, contact us, we would love to work with you. We even have a brand guideline you could use, so you have all of our colors, our fonts, everything you need...
+**Jerod Santo:** Here's the plan, to the listening audience... This episode of the Changelog, Jordan has agreed to host it indefinitely at Webamp.org, which is his website for Winamp2-js (maybe we'll talk about names in a second)... Webamp.org/changelog. We'll link that up in the show notes. When you go to that page, you can listen to this episode inside Winamp2-js. Now, how cool would it be if somebody, anybody out there, created a Changelog skin that we can use on that part of this player, so it's branded... Super-cool, right? So if you have skills -- or even if you don't have any skills; if you've got time and you wanna try this out, contact us, we would love to work with you. We even have a brand guideline you could use, so you have all of our colors, our fonts, everything you need...
 
 **Adam Stacoviak:** Yeah, or you could just pull all the colors from our style sheets too, on the .com.
 
@@ -351,7 +351,7 @@ So I thought it was very cool to 1) have a much more shareable URL than \[uninte
 
 **Adam Stacoviak:** It could be like a codename, or something.
 
-**Jordan Eldredge:** \[unintelligible 00:57:04.26\] the new name, but I guess it's too late now. There's gonna be confusion, it's just a matter of "Where does that confusion live?"
+**Jordan Eldredge:** It felt worse to use the new name, but I guess it's too late now. There's gonna be confusion, it's just a matter of "Where does that confusion live?"
 
 **Adam Stacoviak:** What's crazy is that you create this thing, you tweet about it, and then the originators of Gnullsoft -- what did you say his name was again?
 
@@ -431,9 +431,9 @@ Then that led to me sort of evolving into a very Javascript-centric role there, 
 
 **Adam Stacoviak:** Hey Twitch, if you know us and you like us, give us /changelog, please. Somebody out there, help us!
 
-**Jerod Santo:** \[unintelligible 01:04:56.28\] Nobody wants it. For the time being, /changelog\_. Of course, you can also just go to our website and \[unintelligible 01:05:04.14\] click on that, follow us on there if you want to live-code with me on Monday afternoons... And I've been hacking on Winamp2-js. Jordan had a sweet idea, which has kind of morphed into what we talked about earlier, with the Webamp.org/changelog view, but how could we get a specialized player, maybe even on changelog.com? So we've been experimenting with getting Winamp2 loaded onto our site and running, and I'm happy to report that that worked, and it played one of our episodes served locally...
+**Jerod Santo:** \[unintelligible 01:04:56.28\] Nobody wants it. For the time being, /changelog\_. Of course, you can also just go to our website and find a place to click on that, follow us on there if you want to live-code with me on Monday afternoons... And I've been hacking on Winamp2-js. Jordan had a sweet idea, which has kind of morphed into what we talked about earlier, with the Webamp.org/changelog view, but how could we get a specialized player, maybe even on changelog.com? So we've been experimenting with getting Winamp2 loaded onto our site and running, and I'm happy to report that that worked, and it played one of our episodes served locally...
 
-But we hit some road bumps... As Jordan said, there's people that are hacking on this, but not too many outside contributions. So the thing that we hit first and are still kind of stuck at is there doesn't seem to be much of a public API; it seems like the way you built it it's very much for the single use of "I'm loading a single page with \[unintelligible 01:05:59.13\] Because instead of it being in the middle of the viewport, it's actually in the middle of the page, and you're not used to there being a scroll; well, our page is quite long, so it took me 15-20 minutes to realize "Oh, it's actually working... It's just completely outside of the viewport.
+But we hit some road bumps... As Jordan said, there's people that are hacking on this, but not too many outside contributions. So the thing that we hit first and are still kind of stuck at is there doesn't seem to be much of a public API; it seems like the way you built it it's very much for the single use of "I'm loading a single page with just this on it within the middle. Wich also hilariously turned out as a loop, because instead of it being in the middle of the viewport, it's actually in the middle of the page, and you're not used to there being a scroll; well, our page is quite long, so it took me 15-20 minutes to realize "Oh, it's actually working... It's just completely outside of the viewport.
 
 **Adam Stacoviak:** That's funny. I missed that live-stream, so...
 
