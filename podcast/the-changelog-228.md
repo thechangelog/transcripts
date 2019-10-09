@@ -58,7 +58,7 @@ From there, I did a bunch of startups and various things, always keeping sort of
 
 **Jack Moffitt:** Yeah, I mean... You can't sit around waiting for things to happen. You've gotta go after the things that you enjoy doing. Most of my career I've worked remotely for the companies either I've started, or when I've worked for others. So it also fulfilled sort of a social need that I had, being trapped in my house all day... Well, it's not really trapped, but being in the house all day and not having much in-person interaction with the outside world means that hobbies like that are really helpful. I can sort of get the social needs I have satisfied; even if I can't get them satisfied at work, I can get them satisfied through hobbies.
 
-**Jerod Santo:** Actually, that's one of the reasons I began podcasting and got involved with the Changelog. It was the same reason - I work remotely, I'm kind of a hired gun contract developer. I used to be in my basement, coding all day, and now I'm in an office above the garage coding all day. But I'm just very isolated, and I'm living out here kind of in the suburbs of a small town \[unintelligible 00:10:55.09\] Nebraska, and I just wanted some social interaction with people that had similar interests and people that were smarter than me, so podcasting was a natural fit. It sounds like I also could have searched out for some electronic bands and tried that route, but that sounds probably harder than just hop on the microphone and talking to people.
+**Jerod Santo:** Actually, that's one of the reasons I began podcasting and got involved with the Changelog. It was the same reason - I work remotely, I'm kind of a hired gun contract developer. I used to be in my basement, coding all day, and now I'm in an office above the garage coding all day. But I'm just very isolated, and I'm living out here kind of in the suburbs of a small town among Nebraska, and I just wanted some social interaction with people that had similar interests and people that were smarter than me, so podcasting was a natural fit. It sounds like I also could have searched out for some electronic bands and tried that route, but that sounds probably harder than just hop on the microphone and talking to people.
 
 **Jack Moffitt:** It could be. I mean, it can be. Getting up on stage and performing for a bunch of people is definitely an interesting experience. I recommend everyone try it.
 
@@ -248,7 +248,7 @@ For example, if you draw a line with that state, and then you change something, 
 
 We realized that web pages themselves are basically their own scene graphs. Once you do the layout, you get what's called a display list, which is sort of all of the things that you need to draw. The idea of Webrender is like if we can come up with a set of display list items that are expressible as GPU operations, then we can just pass the display list off to this shader, and everything happens really fast. The side benefit of doing this is that anything that you move to the GPU is like free performance on the CPU. Now, all of a sudden, if \[unintelligible 00:51:16.15\] over to the GPU, now we have even more clock cycles on the CPU to do other work, like for instance running Javascript.
 
-While Webrender doesn't make the Javascript engine faster, it's not like a new \[unintelligible 00:51:32.20\], it has the effect of having more CPU cycles for the Javascript engine, so you will see speed ups in other areas as a second order effect.
+While Webrender doesn't make the Javascript engine faster, it's not like a new JIT (Just-in-time compilation), it has the effect of having more CPU cycles for the Javascript engine, so you will see speed ups in other areas as a second order effect.
 
 **Jerod Santo:** Wow.
 
@@ -346,7 +346,7 @@ One of our team members calls these the "E-Easy piranhas", because basically if 
 
 There's also a large amount of people on the team who are really passionate about open source in general, and that's how we wanna spend our careers, working with other people on making good stuff that everyone can use.
 
-**Jerod Santo:** Well, that definitely resonates with us around here at the Changelog, for sure. Very cool. Well, that sounds like E-Easy is the way to get started. Of course, you mentioned the nightly builds, which you can download and give it a test drive. Lots to do, lots of work yet to be done, not just by those at Mozilla or those at Samsung or those at any specific camp, but the whole community can get together, build Servo together, learn some Rust \[unintelligible 01:14:48.25\]
+**Jerod Santo:** Well, that definitely resonates with us around here at the Changelog, for sure. Very cool. Well, that sounds like E-Easy is the way to get started. Of course, you mentioned the nightly builds, which you can download and give it a test drive. Lots to do, lots of work yet to be done, not just by those at Mozilla or those at Samsung or those at any specific camp, but the whole community can get together, build Servo together, learn some Rust. Sounds like a great time to me.
 
 Jack, thanks so much for joining us... Any last thoughts or last words for you that you wanna get out there - you have the ear of the developer community - before we close out?
 
