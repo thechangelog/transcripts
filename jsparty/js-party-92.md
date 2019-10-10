@@ -354,7 +354,7 @@ So how can you stand out from the crowd in that regard? Because it's hard to spe
 
 **Jerod Santo:** \[laughs\] JS Party, come for the Javascript, stay for the zoo debates, which are heated...!
 
-**Mikeal Rogers:** I wanna see a talk at an event just about this zoo. \[laughter\] I love talks that are not about technical things at technical conferences. Erin Quinn gave an amazing talk on making bacon at one of the JS conferences.
+**Mikeal Rogers:** I wanna see a talk at an event just about this zoo. \[laughter\] I love talks that are not about technical things at technical conferences. Aaron Quint gave an amazing talk on making bacon at one of the JS conferences.
 
 **Jerod Santo:** I think I remember that.
 
