@@ -203,7 +203,7 @@ I'm trying to think of any particular people who just no one would know about wh
 
 **Jerod Santo:** That's kind of amazing, isn't it?
 
-**Karthik Ram:** I had a day job, two other people had a day job; we were tweeting at each other, and then one day we said "What's your e-mail?" We got each other's e-mail, came up with a name for the project and said "Would you like to apply for funding?" We were awarded a grant, got $200,000, and then we became an entity.
+**Karthik Ram:** I had a day job, two other people had a day job; we were tweeting at each other, and then one day we said "What's your email?" We got each other's email, came up with a name for the project and said "Would you like to apply for funding?" We were awarded a grant, got $200,000, and then we became an entity.
 
 **Jerod Santo:** Just like that?
 

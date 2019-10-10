@@ -234,11 +234,11 @@ One of my favorite anecdotes, and I've been tempted to put this on the web page,
 
 **Jerod Santo:** Wow.
 
-**Rhys Arkins:** So basically, that entire leak of like half of America's social security numbers was blamed on like -- there was a single developer who missed a notice. That's a process failure; you can't say "I'm blaming one guy because he missed an e-mail, or something like that."
+**Rhys Arkins:** So basically, that entire leak of like half of America's social security numbers was blamed on like -- there was a single developer who missed a notice. That's a process failure; you can't say "I'm blaming one guy because he missed an email, or something like that."
 
 **Jerod Santo:** Yeah.
 
-**Rhys Arkins:** \[00:52:00.13\] I mean, it's probably more than an e-mail, but the reality is that if you don't have automation, you are gonna risk having those types of things happen to you. You kind of need to keep up with patches, or you will eventually have problems; that's pretty much a solid rule.
+**Rhys Arkins:** \[00:52:00.13\] I mean, it's probably more than an email, but the reality is that if you don't have automation, you are gonna risk having those types of things happen to you. You kind of need to keep up with patches, or you will eventually have problems; that's pretty much a solid rule.
 
 **Break:** \[00:52:22.11\]
 

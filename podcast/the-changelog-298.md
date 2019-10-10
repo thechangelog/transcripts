@@ -295,13 +295,13 @@ So that culmination over it, like the whole course of the time - it was probably
 
 **Adam Stacoviak:** So you had to change your perspective, because you had a different DNA then, and to evolve into the new cloud-based world, everything is a computer -- or the world is a computer... You had to evolve.
 
-**Julia White:** Absolutely. Actually, the real cloud story at Microsoft didn't actually start with Azure, it actually started back with our Exchange Server, our e-mail server, and it was actually Ray Ozzie, a million years ago... We happened to run an exchange server business back then, and he came into the company -- I remember he would come along and sit with us, and he'd be like "I don't know what's going on at Microsoft here. I feel like this world is happening, and time has stood still here."
+**Julia White:** Absolutely. Actually, the real cloud story at Microsoft didn't actually start with Azure, it actually started back with our Exchange Server, our email server, and it was actually Ray Ozzie, a million years ago... We happened to run an exchange server business back then, and he came into the company -- I remember he would come along and sit with us, and he'd be like "I don't know what's going on at Microsoft here. I feel like this world is happening, and time has stood still here."
 
 I remember Terry Myerson actually was the engineering leader of Exchange back then, and I was leading the business side... And Ray would just say these things that were like "Oh my god, it cannot be true..." Like, this world has gone somewhere and we are being left behind. Terry would be like, "What are we gonna do about this...?"
 
 Finally, Terry Myerson - I give him tons of credit... He was like "We're going to cloud. We're putting this stuff on the cloud, we're doing it", and everyone thought he was crazy... They literally thought he was crazy, so he actually did it in secret.
 
-He did this thing called Exchange Labs, where he launched it as an education program for universities, as an excuse to be able to ship things in the cloud, that wasn't gonna affect businesses, so he stayed out of the line of fire from the sales team and other things... So we started to kind of secretly out of the back closet creating this cloud service for our e-mail system, under Exchange Labs.
+He did this thing called Exchange Labs, where he launched it as an education program for universities, as an excuse to be able to ship things in the cloud, that wasn't gonna affect businesses, so he stayed out of the line of fire from the sales team and other things... So we started to kind of secretly out of the back closet creating this cloud service for our email system, under Exchange Labs.
 
 \[00:28:05.20\] It was this crazy and insane story, and Ray Ozzie, every time someone would light up at the company and be like "What is this thing!?", Ray Ozzie would protect it and shut him down... We were always running to Ray, like "Ray, help...!" And that's how it started, so many years ago. I can't even -- I wanna say 10-12 years ago... A long time ago, when we put the first thing in the cloud.
 

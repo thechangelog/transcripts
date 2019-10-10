@@ -90,7 +90,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Sarah Adams:** Yeah, and I think the Gorilla mux even imports its own Gorilla context, within the mux package. So it will be interesting to see if they go forward with the Go standard library context.
 
-**Erik St. Martin:** We should e-mail them an ask.
+**Erik St. Martin:** We should email them an ask.
 
 **Brian Ketelsen:** Open an issue on the GitHub repo.
 
@@ -130,7 +130,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Carlisia Pinto:** Yeah. It's not light really, it's very thoughtful expressions of how things could be done technically. I'll find the link.
 
-**Erik St. Martin:** Awesome. So on a sad news side of things, did anybody see the e-mail that Rob Miller sent out to the Heka mailing list?
+**Erik St. Martin:** Awesome. So on a sad news side of things, did anybody see the email that Rob Miller sent out to the Heka mailing list?
 
 **Brian Ketelsen:** I did.
 
@@ -148,7 +148,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** ...and I think that they're open to somebody else taking over the project, but they don't have the time to help facilitate that takeover either, and I think he expressed some concerns about even the patterns it was designed under; the way they were using channels wasn't quite hitting the performance levels that they were wanting, and things like that. He kind of believed that there'd be some heavy refactoring. Maybe we can get him on the show and talk about it a little bit more in depth, what his thoughts are.
 
-**Brian Ketelsen:** That'd be a great idea. We'll link to the mail list announcement in our show notes. It's way too long to discuss here, but the main takeaway from the e-mail that he sent out was that the refactoring required to make Heka perform significantly better than it does now, which is actually really solid performance. But to get to that next level it would require less use of channels, and that's probably a good show topic for us at some point, talking about the performance of channels under significant load, and when channels are great and when they aren't.
+**Brian Ketelsen:** That'd be a great idea. We'll link to the mail list announcement in our show notes. It's way too long to discuss here, but the main takeaway from the email that he sent out was that the refactoring required to make Heka perform significantly better than it does now, which is actually really solid performance. But to get to that next level it would require less use of channels, and that's probably a good show topic for us at some point, talking about the performance of channels under significant load, and when channels are great and when they aren't.
 
 **Carlisia Pinto:** That would be an amazing topic, I'm sure a lot of people can benefit. I can benefit from it.
 
@@ -254,9 +254,9 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** So Sarah, one project that we would love to hear you talk about is your Test2Doc. That's really cool.
 
-**Sarah Adams:** Thanks. So I got this idea like a year and a half ago. I was maintaining a ReST API; I was working for a company called Sproutling, we were building a web baby monitor, so I was building a ReST API that had multiple clients. We had custom hardware, which was sort of a base station that was monitoring room temperature in the baby's room; we had an iOS app, which was the second client, and we had a web app, which was the third client. 
+**Sarah Adams:** Thanks. So I got this idea like a year and a half ago. I was maintaining a ReST API; I was working for a company called Sproutling, we were building a web baby monitor, so I was building a ReST API that had multiple clients. We had custom hardware, which was sort of a base station that was monitoring room temperature in the baby's room; we had an iOS app, which was the second client, and we had a web app, which was the third client.
 
-So we had multiple developer teams working on each of these, and since I was the only person responsible for the ReST API - well, not because of that, but I needed to have API documentation, of course. So I started using [Apiary](https://apiary.io/), because I liked the format. You can write it in markdown, and the API blueprint specification was open source, which is nice. For larger changes I kept adding an endpoint, or deleting an endpoint - those were easy to remember to update the documentation, but for smaller things like deleting an attribute, all the way down to deleting a column on a database table would trickle up to the endpoint change, which would mean the field was missing on the JSON response. 
+So we had multiple developer teams working on each of these, and since I was the only person responsible for the ReST API - well, not because of that, but I needed to have API documentation, of course. So I started using [Apiary](https://apiary.io/), because I liked the format. You can write it in markdown, and the API blueprint specification was open source, which is nice. For larger changes I kept adding an endpoint, or deleting an endpoint - those were easy to remember to update the documentation, but for smaller things like deleting an attribute, all the way down to deleting a column on a database table would trickle up to the endpoint change, which would mean the field was missing on the JSON response.
 
 Those smaller changes started to add up a lot, and so my documentation was often really inconsistent with the actual API. So I forked to a tool called [Dredd](http://dredd.org/en/latest/), which is meant for testing new documentation against your actual API. It was pretty good, but I had to periodically just run this and update all of the documentation. I started to get really frustrated, because my unit tests were all there; if only my fellow engineers could read my Go unit tests and the status documentation, that would have worked great. So I realized that all of the information that you need for API documentation is in the endpoint Hammer test, so I decided I was just gonna record the requests and responses as the test ran, and put them in a markdown file in the appropriate format, and then be able to generate all of my API documentation, host it, and have everything be automated, so I would never have to worry about out of date documentation and angry developers, people asking me questions and things like that. So that's sort of where that came from.
 
@@ -352,7 +352,7 @@ As far as our ten chapters around the world, women actually will message me or s
 
 **Brian Ketelsen:** Is there information on WomenWhoGo.org for people who might be interested in starting their own chapter?
 
-**Sarah Adams:** Not explicitly, but people have found the hello@womenwhogo.org e-mail address there and that's usually how they contact me.
+**Sarah Adams:** Not explicitly, but people have found the hello@womenwhogo.org email address there and that's usually how they contact me.
 
 **Brian Ketelsen:** Perfect.
 
@@ -376,7 +376,7 @@ As far as our ten chapters around the world, women actually will message me or s
 
 **Sarah Adams:** True, yeah, so there's a ton...
 
-**Brian Ketelsen:** But it feels stronger in the Go community, and I love that. I love the push to have that inclusivity and that feeling of safety, so anybody can come in and learn without worrying about external factors. That's very nice, so be proud of what you've done, this is really cool. Like you were saying earlier, when you have that feeling where it's growing so big it's hard to keep track of - Erik and I get that same thing at GopherCon when somebody in Brazil sends us an e-mail and says "Hey, we wanna do a GopherCon in Brazil." "Yes, please. Go do that." It's awesome.
+**Brian Ketelsen:** But it feels stronger in the Go community, and I love that. I love the push to have that inclusivity and that feeling of safety, so anybody can come in and learn without worrying about external factors. That's very nice, so be proud of what you've done, this is really cool. Like you were saying earlier, when you have that feeling where it's growing so big it's hard to keep track of - Erik and I get that same thing at GopherCon when somebody in Brazil sends us an email and says "Hey, we wanna do a GopherCon in Brazil." "Yes, please. Go do that." It's awesome.
 
 **Sarah Adams:** Yeah, that's exactly it.
 
@@ -404,7 +404,7 @@ As far as our ten chapters around the world, women actually will message me or s
 
 **Sarah Adams:** Yes, exactly. There is a list of all of the Meetup pages, or in Tokyo's case the Connpass. There's a Twitter account for each chapter, and some of them have Facebooks, and they're on Slacks. There are links for all of those on the WomenWhoGo.org site.
 
-**Erik St. Martin:** And you said for people interested in potentially starting their own chapters, the best thing to do is to e-mail you at hello@womenwhogo.org.
+**Erik St. Martin:** And you said for people interested in potentially starting their own chapters, the best thing to do is to email you at hello@womenwhogo.org.
 
 **Carlisia Pinto:** Exactly.
 

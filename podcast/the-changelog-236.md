@@ -187,7 +187,7 @@ I hand him my phone and he starts playing against himself and laughing and enjoy
 
 **Adam Stacoviak:** "Where's my money?"
 
-**Mark Nadal:** Yeah, "Tim, can we talk about the investment?" Then my time was up and he said, "I'll e-mail you if we're interested." That was really nerve-wracking.
+**Mark Nadal:** Yeah, "Tim, can we talk about the investment?" Then my time was up and he said, "I'll email you if we're interested." That was really nerve-wracking.
 
 **Adam Stacoviak:** Did you get the money?
 
@@ -195,9 +195,9 @@ I hand him my phone and he starts playing against himself and laughing and enjoy
 
 **Jerod Santo:** Of course he got the money. I mean, terrible story if you didn't get the money.
 
-**Mark Nadal:** There's another story to that, which is he had actually sent the e-mail on Friday evening, and I hadn't heard anything the entire week, so I e-mailed my mentor from the accelerator "Have you heard from Tim? I haven't heard from him... Even if it's just a no, I wanna see that e-mail." The mentor's like, "No, we haven't heard anything." An entire week had passed, and the e-mail had been sitting in his inbox, he didn't even notice it. It was an offer for a quarter-million-dollar investment in the company. He just like, doesn't even notice this e-mail sitting in his...
+**Mark Nadal:** There's another story to that, which is he had actually sent the email on Friday evening, and I hadn't heard anything the entire week, so I emailed my mentor from the accelerator "Have you heard from Tim? I haven't heard from him... Even if it's just a no, I wanna see that email." The mentor's like, "No, we haven't heard anything." An entire week had passed, and the email had been sitting in his inbox, he didn't even notice it. It was an offer for a quarter-million-dollar investment in the company. He just like, doesn't even notice this email sitting in his...
 
-So then on Monday he e-mails me like, "Oh, whoops... Here's an e-mail with an offer", and I'm like, "Oh, my goodness!" It was a crazy time.
+So then on Monday he emails me like, "Oh, whoops... Here's an email with an offer", and I'm like, "Oh, my goodness!" It was a crazy time.
 
 **Adam Stacoviak:** Very crazy time.
 
@@ -338,7 +338,7 @@ It's so weird and so ethereal, but just a couple weeks ago it clicked in my head
 
 **Mark Nadal:** Yes.
 
-**Jerod Santo:** And then you always win. \[laughter\] Let's do this, Mark, because it is hard to track in the vague... When you get this thing rolling, because it sounds like an interesting strategy -- it's difficult to track exactly what you're doing, because you're speaking hypothetically and what not, so I don't fault you for that, because that's just the situation, but when you do get it going and we can actually see one in concrete, give us an e-mail. Maybe we'll bring you back on real quick, have a conversation...
+**Jerod Santo:** And then you always win. \[laughter\] Let's do this, Mark, because it is hard to track in the vague... When you get this thing rolling, because it sounds like an interesting strategy -- it's difficult to track exactly what you're doing, because you're speaking hypothetically and what not, so I don't fault you for that, because that's just the situation, but when you do get it going and we can actually see one in concrete, give us an email. Maybe we'll bring you back on real quick, have a conversation...
 
 I'm sure that people wanna see it in action, because I don't know if a VC-funded open source life is necessarily the dream, but the sustainable open source life if the dream of many of us and our listeners, so we wanna know these different ways that we can make that viable. It sounds like... I don't know if you have a way, but you at least have a...
 

@@ -244,7 +244,7 @@ That's low-hanging fruit that's really easy, but has the biggest impact for our 
 
 **Jerod Santo:** Livin' la Vyda loca...
 
-**Vida Williams:** Yes, that's it, and I am @vidachristy everywhere - on Twitter, on Google, via e-mail on Gmail... You can always get me at @vidachristy.
+**Vida Williams:** Yes, that's it, and I am @vidachristy everywhere - on Twitter, on Google, via email on Gmail... You can always get me at @vidachristy.
 
 **Adam Stacoviak:** We'll put the links in the show notes to you, and make sure everybody knows about you.
 

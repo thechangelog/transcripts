@@ -175,7 +175,7 @@ Minio is super smooth to set up. It's all written in Go, and we now have direct 
 
 **Brian Ketelsen:** That's really cool.
 
-**Erik St. Martin:** I think it's about time for our first sponsored break, and after we come back, I'd love to talk to you -- you brought up a good point in our e-mail exchange before the show about talking about open source projects, like running a large open source project and building a company around that, and I'd love to dig into that a little deeper. But first, our first sponsor for today is Toptal.
+**Erik St. Martin:** I think it's about time for our first sponsored break, and after we come back, I'd love to talk to you -- you brought up a good point in our email exchange before the show about talking about open source projects, like running a large open source project and building a company around that, and I'd love to dig into that a little deeper. But first, our first sponsor for today is Toptal.
 
 **Break:** \[00:22:46.22\]
 
@@ -230,7 +230,7 @@ I feel like part of the adoption curve in an open source project relates to the 
 
 **Erik St. Martin:** But you feel like you'd be happier that way, if you just said and did whatever you wanted, and didn't really think about the way it was perceived. You'd probably stress less about what you were doing or saying.
 
-So in your e-mail - we were talking about projects, other things in the G o world that you had some interest in, and you brought up... I think it's called Gitea. Is that how you pronounce it?
+So in your email - we were talking about projects, other things in the G o world that you had some interest in, and you brought up... I think it's called Gitea. Is that how you pronounce it?
 
 **Brian Ketelsen:** Gitea, yeah.
 
@@ -300,7 +300,7 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Joe Doliner:** Looks like it's at four thousand.
 
-**Brian Ketelsen:** Oh, wow. It's shown up almost every day on the Changelog Nightly e-mail I get that shows the top repos for the day. That's a pretty big deal. So it's a great tool. I love it, I've been using it ever since I saw the first release of it a couple days ago, and I will not stop using that one.
+**Brian Ketelsen:** Oh, wow. It's shown up almost every day on the Changelog Nightly email I get that shows the top repos for the day. That's a pretty big deal. So it's a great tool. I love it, I've been using it ever since I saw the first release of it a couple days ago, and I will not stop using that one.
 
 **Carlisia Pinto:** Yeah, I really like it too, because using curl is great, but every time we have to redo a call, we have to navigate through the line to type things out. With that, you just tap over to the different panes and type in your input or remove things... It's great.
 

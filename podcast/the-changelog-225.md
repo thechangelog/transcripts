@@ -84,7 +84,7 @@ And she started... the woman, who is now my editor, started this campaign to get
 
 **Jerod Santo:** I like that.
 
-**Sandi Metz:** \[00:12:00.28\] I felt so guilty. \[laughs\] Every time I went some place I would get like a really nice food at a really nice restaurant. Until eventually I agreed to write it, but it was partly actually one of the things that... She would trot out reasons why I should do it, so everytime I would see her (twice a year) there would be a new reason she would give why I should do the book, and I'm like, "Neah, I'm not gonna write a book. What do I know about writing a book? I'm not gonna write a book! I write e-mail and documentation code, I'm not gonna write a book."
+**Sandi Metz:** \[00:12:00.28\] I felt so guilty. \[laughs\] Every time I went some place I would get like a really nice food at a really nice restaurant. Until eventually I agreed to write it, but it was partly actually one of the things that... She would trot out reasons why I should do it, so everytime I would see her (twice a year) there would be a new reason she would give why I should do the book, and I'm like, "Neah, I'm not gonna write a book. What do I know about writing a book? I'm not gonna write a book! I write email and documentation code, I'm not gonna write a book."
 
 Until finally, she told me "You use open source software and you don't give back."
 
@@ -394,7 +394,7 @@ It's easier for me now to look at big, messy blobs of code and say, "Oh, it has 
 
 **Adam Stacoviak:** Right? It is...
 
-**Sandi Metz:** What is fair? What is right? So we started off being like, "10 dollars is the right price!" Then the years went by... We've been working on this book for two-and-a-half years. We finally decided in the end that we're gonna price it with all the other books in it's category Avdi Grimm's book, Jim Gay's book. The people we know who are self-publishing are pricing at this price point. That left us with the moral dilemma, "Okay, if our purported goal is to make this content available to people who can't afford to come to a course, what about people who don't have $49?" So we stole an idea from Avdi Grimm, which is the postcard plan. If you send me a postcard, we will e-mail you the book for free. So there are really two prices for the book: there's $49, and there's a postcard.
+**Sandi Metz:** What is fair? What is right? So we started off being like, "10 dollars is the right price!" Then the years went by... We've been working on this book for two-and-a-half years. We finally decided in the end that we're gonna price it with all the other books in it's category Avdi Grimm's book, Jim Gay's book. The people we know who are self-publishing are pricing at this price point. That left us with the moral dilemma, "Okay, if our purported goal is to make this content available to people who can't afford to come to a course, what about people who don't have $49?" So we stole an idea from Avdi Grimm, which is the postcard plan. If you send me a postcard, we will email you the book for free. So there are really two prices for the book: there's $49, and there's a postcard.
 
 A postcard is not a cut up section of a box with a first-class stamp on it...
 
@@ -406,7 +406,7 @@ A postcard is not a cut up section of a box with a first-class stamp on it...
 
 **Sandi Metz:** Because what we want is a real postcard with a postcard stamp, and then you have to write a little thing on it that says how having this book for free will help you accomplish some good thing in the world. That's what we want.
 
-We've gotten -- I don't know how many yet, because the postcards don't come to me, but it's been hundreds. Maybe 10% of the copies of the book have gone for free to people. We just had a long e-mail thing from some guy actually, because he sent a postcard from somewhere in Eastern Europe, and he wanted to know if it had arrived, because we hadn't mailed him a book yet. And he sent an e-mail, and it was this long narration of the path that his postcard would have had to have traveled geographically. Like, "It went overland from my house to here, and then it got on a boat across the Baltic Sea...", so he was trying to explain how it might be that his postcard might not have actually arrived, but to assure us that he'd sent one, he e-mailed a picture of himself holding the postcard that he mailed us, and we were like "Just send the man a book!" \[laughter\]
+We've gotten -- I don't know how many yet, because the postcards don't come to me, but it's been hundreds. Maybe 10% of the copies of the book have gone for free to people. We just had a long email thing from some guy actually, because he sent a postcard from somewhere in Eastern Europe, and he wanted to know if it had arrived, because we hadn't mailed him a book yet. And he sent an email, and it was this long narration of the path that his postcard would have had to have traveled geographically. Like, "It went overland from my house to here, and then it got on a boat across the Baltic Sea...", so he was trying to explain how it might be that his postcard might not have actually arrived, but to assure us that he'd sent one, he emailed a picture of himself holding the postcard that he mailed us, and we were like "Just send the man a book!" \[laughter\]
 
 **Jerod Santo:** \[01:08:26.08\] You've worked hard enough.
 

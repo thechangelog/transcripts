@@ -146,7 +146,7 @@ So I found this bootcamp and I went to this bootcamp, and it was terrible. They 
 
 **Erik St. Martin:** I love his stuff.
 
-**Ashley McNamara:** I love his stuff too, he's so great. And I sent him an e-mail and he said, "Why don't you just come over? I'll teach you." \[laughter\] And I learned more at Zed's house than I learned in three months at this bootcamp.
+**Ashley McNamara:** I love his stuff too, he's so great. And I sent him an email and he said, "Why don't you just come over? I'll teach you." \[laughter\] And I learned more at Zed's house than I learned in three months at this bootcamp.
 
 **Brian Ketelsen:** That's so awesome.
 
@@ -570,7 +570,7 @@ And now everybody's gonna be listening to us live talk and listening to a commer
 
 **Carlisia Pinto:** I love him.
 
-**Erik St. Martin:** He's just like "If you think you're smart... If I took you and gave you a hatchet and dropped you off in the middle of the forest/jungle, how long till you can send me an e-mail?" \[laughter\] And it goes to show -- he's like "What would happen, what do you do when the power goes out?" He's like "I know I'd do I'd sit here twiddling my thumbs. Somebody's probably working on it right now!" He's like "What would happen if it never came back on, and we had to go back into the caves because the animals are coming in because there's no lights and sounds and stuff?"
+**Erik St. Martin:** He's just like "If you think you're smart... If I took you and gave you a hatchet and dropped you off in the middle of the forest/jungle, how long till you can send me an email?" \[laughter\] And it goes to show -- he's like "What would happen, what do you do when the power goes out?" He's like "I know I'd do I'd sit here twiddling my thumbs. Somebody's probably working on it right now!" He's like "What would happen if it never came back on, and we had to go back into the caves because the animals are coming in because there's no lights and sounds and stuff?"
 
 **Carlisia Pinto:** You don't have a fridge. Stop and think about it for a second - you don't have fridge.
 

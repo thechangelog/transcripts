@@ -54,7 +54,7 @@ So these are things that are happening -- is this like a daily basis inside Npm?
 
 **Jeff Lembeck:** I wouldn't say daily for that stuff, but it's common. There have been some pretty big campaigns in the past, and they've been pretty bad. I have not been the direct target of quite a few of them, as much as I've been on the team that also received it... But these things happen.
 
-\[00:12:04.28\] There's always the interesting, creative ones. I still laugh about one that was -- and I'm going to edit myself here, because somebody did a wonderful job of sending us... They spoofed an e-mail address... So that's from \[fill in the expletive\] f@u.com, and then the subject was just F U. And that was that. \[laughs\] And it was like "I applaud your work... The work ethic you have in order to do something like that." That's intense.
+\[00:12:04.28\] There's always the interesting, creative ones. I still laugh about one that was -- and I'm going to edit myself here, because somebody did a wonderful job of sending us... They spoofed an email address... So that's from \[fill in the expletive\] f@u.com, and then the subject was just F U. And that was that. \[laughs\] And it was like "I applaud your work... The work ethic you have in order to do something like that." That's intense.
 
 **Jerod Santo:** A lot of effort.
 
@@ -152,7 +152,7 @@ And then there's a known bad actor...
 
 **Jerod Santo:** So here's a pro tip that I have never put into practice but I've heard it, and it sounds like a good idea. I actually don't have this problem very often because I tend to be on the other side of the spectrum, where I don't have much of a temper, but there's times where a temper would have actually served me where and I should have said what I was thinking, and I end up regretting on the other end... So I don't really have that "I need to sound off and just tell somebody off", it's just not my personality...
 
-But I've heard, and I think this would serve a lot of people well - if you do have that tendency of quickly getting angry and needing to vent, is that you pop open your e-mail editor and you draft an e-mail to the person to whom you are angry at Npm-ing, or Jony Ive, or \[insert target here\], and you just write that e-mail, and you just say everything you wanna say and you get it all off your chest, and then when you're done, you just hit the delete button and you just let it go. And that, I think, gives you the catharsis without any of the major consequences of sending that e-mail or posting that tweet.
+But I've heard, and I think this would serve a lot of people well - if you do have that tendency of quickly getting angry and needing to vent, is that you pop open your email editor and you draft an email to the person to whom you are angry at Npm-ing, or Jony Ive, or \[insert target here\], and you just write that email, and you just say everything you wanna say and you get it all off your chest, and then when you're done, you just hit the delete button and you just let it go. And that, I think, gives you the catharsis without any of the major consequences of sending that email or posting that tweet.
 
 **Jeff Lembeck:** That's a pretty good -- I definitely have written a lot of things and deleted them. I mostly run or go -- I've picked up lifting over the last year or two...
 
@@ -166,7 +166,7 @@ And I might live longer, be stronger, be able to throw my kid in the air higher.
 
 **Jeff Lembeck:** Yeah, also possible.
 
-**Christopher Hiller:** So the Twitter analog to the e-mail suggest might be send a DM to yourself.
+**Christopher Hiller:** So the Twitter analog to the email suggest might be send a DM to yourself.
 
 **Jerod Santo:** You can DM yourself?
 

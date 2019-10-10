@@ -106,7 +106,7 @@ Maybe part of that is because we started gathering analytics - which I don't wan
 
 **Mike McQuaid:** I guess I've been at GitHub coming up to three years, so certainly the majority of my time working on Homebrew has not been at GitHub. Similarly with my previous employees... They have, I guess, paid me to work on Homebrew on occasion when I've had Google Summer of Code students through GitHub and stuff like that, or Homebrew people at Summer of Code students which have been blessed with GitHub - I've spent work time on that.
 
-\[00:20:11.29\] In terms of day to day work, I don't - in theory at least - work on it on GitHub's time. If I'm blocked waiting for something for like five minutes, like I'm waiting for a test to finish, I'll go through my Homebrew e-mails, triage, give a little reply, whatever... Then equally, if there's something that is going to or it's currently blowing up and will affect GitHub employees - because we use Homebrew fairly heavily internally - then I'll fix that. But I don't generally do the day to day Homebrew work during GitHub time. That's mainly my evenings, weekends, spare time etc.
+\[00:20:11.29\] In terms of day to day work, I don't - in theory at least - work on it on GitHub's time. If I'm blocked waiting for something for like five minutes, like I'm waiting for a test to finish, I'll go through my Homebrew emails, triage, give a little reply, whatever... Then equally, if there's something that is going to or it's currently blowing up and will affect GitHub employees - because we use Homebrew fairly heavily internally - then I'll fix that. But I don't generally do the day to day Homebrew work during GitHub time. That's mainly my evenings, weekends, spare time etc.
 
 **Jerod Santo:** Very good. Well, I think that sets us up. Let's take a break and on the other side we'll talk about what is new with Homebrew 1.0.0. We'll be right back.
 
@@ -146,13 +146,13 @@ As a whole, it basically just provides what analytics tend to do for any piece o
 
 It's kind of disappointing when you release some stuff like the analytics, because you get some people who express obviously some sort of solidarity with like, "Okay, I understand why you're using this", and most Homebrew users are developers, so there is that. But then there's this very vocal minority who it escalates beyond that and it becomes, "How dare you have this? How dare you it be opt out rather than opt in?" My reasoning, obviously, for it being opt-out is because you can gather back the data if you're tracking the majority of people, and not just the subset of people who decide to opt in. They may well have different behavior and stuff like that, which means that you're not able to make sound decisions.
 
-So that vocal minority got very upset, some of them, on Hacker News and Reddit and stuff like that, and then start sending me personal e-mails telling me to do all sorts of things... \[laughter\] Yeah, it's not unpleasant, and with hindsight it's funny, and I'm lucky enough to have a thick enough skin that it didn't bother me too much.
+So that vocal minority got very upset, some of them, on Hacker News and Reddit and stuff like that, and then start sending me personal emails telling me to do all sorts of things... \[laughter\] Yeah, it's not unpleasant, and with hindsight it's funny, and I'm lucky enough to have a thick enough skin that it didn't bother me too much.
 
-It is depressing that we still in 2016 have to deal with stuff like this, because... If there's any of those people who -- and I did say this to someone who e-mailed me... That is what kills open source. That's what drives open source maintainers away and kills successful open source projects. I had moments -- bizarrely, some of our other major maintainers had to be talked into staying in the project at all, because they were...
+It is depressing that we still in 2016 have to deal with stuff like this, because... If there's any of those people who -- and I did say this to someone who emailed me... That is what kills open source. That's what drives open source maintainers away and kills successful open source projects. I had moments -- bizarrely, some of our other major maintainers had to be talked into staying in the project at all, because they were...
 
 \[00:31:53.08\] We talk about diversity problems sometimes in open source as well. Several of my co-workers who aren't just, you know, young white men, who I talked to about the Homebrew thing, they just said "That sounds awful. I would never want to be involved with a project where I would have that abuse, for something I do in my spare time to try to help out other people."
 
-I think it does seem to be getting better and we do seem to be as a community recognizing that this behavior is not acceptable and this behavior is not how we build software, but we don't necessarily have all the toolings and institutions and everything quite figured out how to stop stuff like that when, as you say, you're an e-mail or a Twitter message away from someone starting to be mean.
+I think it does seem to be getting better and we do seem to be as a community recognizing that this behavior is not acceptable and this behavior is not how we build software, but we don't necessarily have all the toolings and institutions and everything quite figured out how to stop stuff like that when, as you say, you're an email or a Twitter message away from someone starting to be mean.
 
 **Jerod Santo:** Well, sorry that you had to go through all that, Mike. In light of the change and the fact that you guys have had a running for a while, would you mind sharing some stats with us? Like users, or popular packages... What fruit has come from these analytics?
 
@@ -404,11 +404,11 @@ When you don't have those things, people stop working on things like Homebrew. W
 
 **Adam Stacoviak:** That's true. It's actually a good example of when people are actually nice, it's when they're angry, or should be angry or could be angry. That's totally true.
 
-One thing I wanna mention to the listeners before we close out is that we have this e-mail called Changelog Weekly - I don't know if you subscribed to it or not, Mike, but every week on Saturday... And Jerod, now it seems like Sundays have kind of been a better day for us; we've just had such business going on between the new site going out, three shows, lots of stuff happening around the business front...
+One thing I wanna mention to the listeners before we close out is that we have this email called Changelog Weekly - I don't know if you subscribed to it or not, Mike, but every week on Saturday... And Jerod, now it seems like Sundays have kind of been a better day for us; we've just had such business going on between the new site going out, three shows, lots of stuff happening around the business front...
 
 **Jerod Santo:** I've been changing our verbiage to "every weekend."
 
-**Adam Stacoviak:** Every weekend, yeah. I think Saturday has been a great day traditionally for us, but Sunday has turned out to be the day we actually end up shipping this e-mail. In that e-mail - the most recent one, issue \#124 - we mentioned Homebrew 1.0 and many other awesome things. If you're not subscribed to that, go to Changelog.com/weekly, subscribe... All we ask for is your e-mail, but if you put your name in there we greet your nicely in the e-mail. The name is optional, so don't feel like you have to. A lot of people read that e-mail; we include our latest episodes and everything in terms of open source, software development encouragement, things like Mike is talking about here, with being nice and stuff like that; a lot of stuff around software development. If you don't subscribe to that, Jerod, what have we got? Sad faces or happy faces?
+**Adam Stacoviak:** Every weekend, yeah. I think Saturday has been a great day traditionally for us, but Sunday has turned out to be the day we actually end up shipping this email. In that email - the most recent one, issue \#124 - we mentioned Homebrew 1.0 and many other awesome things. If you're not subscribed to that, go to Changelog.com/weekly, subscribe... All we ask for is your email, but if you put your name in there we greet your nicely in the email. The name is optional, so don't feel like you have to. A lot of people read that email; we include our latest episodes and everything in terms of open source, software development encouragement, things like Mike is talking about here, with being nice and stuff like that; a lot of stuff around software development. If you don't subscribe to that, Jerod, what have we got? Sad faces or happy faces?
 
 **Jerod Santo:** Emoji sad face.
 
@@ -428,9 +428,9 @@ One thing I wanna mention to the listeners before we close out is that we have t
 
 **Adam Stacoviak:** You're gonna love it. Now we have a lot of pressure on us to please Mike.
 
-**Jerod Santo:** I don't wanna see an unsubscribe on Sunday. I'm gonna e-mail you nasty things.
+**Jerod Santo:** I don't wanna see an unsubscribe on Sunday. I'm gonna email you nasty things.
 
-**Adam Stacoviak:** That's right. Yes, that's the way we do it. But that's what I wanna mention in closing, just because we mentioned Homebrew's 1.0 announcement recently in that e-mail - a great place to mention that. If you listen to this show and you don't subscribe to that e-mail, you're just missing out; that's all I can say. Do that now, take our direction. That's it for this show fellas, so let's say goodbye.
+**Adam Stacoviak:** That's right. Yes, that's the way we do it. But that's what I wanna mention in closing, just because we mentioned Homebrew's 1.0 announcement recently in that email - a great place to mention that. If you listen to this show and you don't subscribe to that email, you're just missing out; that's all I can say. Do that now, take our direction. That's it for this show fellas, so let's say goodbye.
 
 **Mike McQuaid:** Goodbye, guys.
 

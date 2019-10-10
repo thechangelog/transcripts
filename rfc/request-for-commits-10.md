@@ -145,7 +145,7 @@ Even if you have to write it down on a post-it note somewhere - new contributors
 
 **Charlotte Spencer:** Yeah. I had this lovely person... I opened an issue like a year ago and I wanted to turn the Your First PR website into a -- set it up with Jekyll so that it could take blog posts, and this really lovely person spent a long time doing that for me, and it took me like three months to review it, to the point where they closed their pull request because I just didn't... I had a few times said, "This is really good. As soon as I get a moment I'll get to it", but life finds a way to ruin everything, so it got longer and longer before I could review this pull request. And he closed it, and then ten minutes later I was like, "This is really good work. Can you re-open your pull request and I'll merge immediately?" And I did, and I obviously apologized profusely, so much so that they actually did some more work for me, and I have the tab open. If you're listening, friend, I will merge it as soon as I get off this interview. \[laughter\]
 
-**Nadia Eghbal:** I like that. It's kind of just like having open channels of communication so that people understand that everyone is trying. I feel that way about even just like e-mail and everything in general; meeting with people... We're all trying our best with the time that we have.
+**Nadia Eghbal:** I like that. It's kind of just like having open channels of communication so that people understand that everyone is trying. I feel that way about even just like email and everything in general; meeting with people... We're all trying our best with the time that we have.
 
 **Charlotte Spencer:** Yeah. I'm actually merging the pull request right now. Yaay!!
 

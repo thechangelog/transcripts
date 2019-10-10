@@ -88,7 +88,7 @@ Well, with things like Web Assembly, you start at highly optimized code because 
 
 **Chad Hietala:** Maybe. I think that some of the challenges that we have inside of Ember - and basically any Javascript application has this if you're using a router - is making sure that when you do a page transition, that you set focus onto the actual page of that transition... Otherwise it's basically dead... dead silence.
 
-So you potentially could do some detection, almost like linting, to make sure that maybe you do focus on this thing when it becomes active, or whatever like that... But I think this is a little bit more of a runtime concern, rather than a compiler... But I think that compilers \[unintelligible 00:21:29.22\] we need to call certain APIs they need to be there... I think Ryan Florence has the reach/router for React, which is really trying to bake accessibility in by default, and handling a lot of these -- specifically with routing cases, and announcing to the user the page transition, and highlighting each one element of the page whenever you do the transition.
+So you potentially could do some detection, almost like linting, to make sure that maybe you do focus on this thing when it becomes active, or whatever like that... But I think this is a little bit more of a runtime concern, rather than a compiler... But I think that compilers like linting if you need to call certain APIs they need to be there... I think Ryan Florence has the reach/router for React, which is really trying to bake accessibility in by default, and handling a lot of these -- specifically with routing cases, and announcing to the user the page transition, and highlighting each one element of the page whenever you do the transition.
 
 I think it's a bit more runtime-specific, but I think you can use compilers to make sure that certain things in your application are following best practices, or something to that effect. I'm a huge proponent of having solutions do the right thing out of the box...
 
@@ -120,7 +120,7 @@ We'll see what happens, but it's kind of interesting... We now actually have a b
 
 **Kevin Ball:** Yeah, I had a conversation with Jay Phelps about Web Assembly at some point, and he's like "Alright, so we call it Web Assembly, but really, imagine if you'd created the JVM, except instead of it being one company that could be bought out by Oracle, you had it co-designed by all the big web companies, and it was in the open, so that it was not able to be obtained by a bad actor, and then all sorts of stuff..." This could be the new virtual machine target that everybody pushes for, which is phenomenal.
 
-**Chad Hietala:** Yeah, it's pretty interesting... I mean, Java is extremely successful. We use it a lot at LinkedIn, but it had different ambitions at one point, for like \[unintelligible 00:27:29.22\] for the web, and everything like that, and Javascript was this toy language... We'll see how history treats that situation.
+**Chad Hietala:** Yeah, it's pretty interesting... I mean, Java is extremely successful. We use it a lot at LinkedIn, but it had different ambitions at one point, for like being for the web, and everything like that, and Javascript was this toy language... We'll see how history treats that situation.
 
 **Kevin Ball:** Yeah, I mean... So long as we keep Web Assembly out of Oracle's hands, I think we'll be better off, in a lot of ways. I mean, the Java ecosystem is still very powerful, and there's a lot of interesting innovation going on there, but... Yeah, it's nice to have an alternative that is more open.
 
@@ -132,7 +132,7 @@ We'll see what happens, but it's kind of interesting... We now actually have a b
 
 **Kevin Ball:** \[00:28:04.29\] I've never used Ember in a production project. I've done some playing around with it... Largely because I had friends who were big advocates. Well, the other thing is Yehuda Katz is one of my tech idols; everything he touches, I'm like "Oh, that's brilliant!" But it's always sort of been the chug-along, never taken off... Do you have a feeling as to why? Why is it that we talk about React, Angular, Vue, and Ember is doing this wicked cool stuff with the binary engine, and doing all these things, but it's not taken off?
 
-**Chad Hietala:** So I think Ember has always kind of been like this framework that has kind of always been there, you kind of talk about it, and it's lasted I think several different Javascript \[unintelligible 00:28:49.03\] at this point... So it came out right around the same time that Backbone came out, and no one really talks about Backbone anymore.
+**Chad Hietala:** So I think Ember has always kind of been like this framework that has kind of always been there, you kind of talk about it, and it's lasted I think several different Javascript half-lives at this point... So it came out right around the same time that Backbone came out, and no one really talks about Backbone anymore.
 
 **Kevin Ball:** Right.
 
@@ -174,7 +174,7 @@ I feel good about the future of Ember, just because of how things are trending. 
 
 **Kevin Ball:** Didn't the first version of the Angular CLI ship with comments that were still Ember CLI, because they forked it?
 
-**Chad Hietala:** Yeah, at stdout or something like that, to rewrite all locations of Ember into Angular, but words like "remember" were getting remapped into \[unintelligible 00:34:02.13\]
+**Chad Hietala:** Yeah, at stdout or something like that, to rewrite all locations of Ember into Angular, but words like "remember" were getting remapped into saying like "Angular" somewhere in it...
 
 **Kevin Ball:** \[laughs\] That's hilarious.
 
@@ -260,7 +260,7 @@ This is where you see this idea of benevolence and giving back in tech actually 
 
 That's the real type of thing - you're giving back to the community and to the industry, and Confluent is now rapidly growing, a startup, C round funded, several hundred people and getting in all over the place, making the world better across all industries, whereas it could have just died inside of LinkedIn...
 
-**Chad Hietala:** \[00:48:13.23\] Yeah. I'm pretty sure -- the way that whole thing went down was on very good terms. The engineering folks at LinkedIn were actually really excited for -- I think his name \[unintelligible 00:48:24.03\] and his team to kind of like go and do this, this open source consultancy type of company that provides all these solutions, and everything like that... So yeah, I'm pretty positive that they left on good terms. It's wasn't like "Get out of here!" "Oh, guess what?! I'm gonna steal this thing that we open-sourced!" and it was something of a bad actor stuff.
+**Chad Hietala:** \[00:48:13.23\] Yeah. I'm pretty sure -- the way that whole thing went down was on very good terms. The engineering folks at LinkedIn were actually really excited for, I think his name is Jay Kreps, and his team to kind of like go and do this, this open source consultancy type of company that provides all these solutions, and everything like that... So yeah, I'm pretty positive that they left on good terms. It's wasn't like "Get out of here!" "Oh, guess what?! I'm gonna steal this thing that we open-sourced!" and it was something of a bad actor stuff.
 
 **Kevin Ball:** I mean, that's what's made Silicon Valley amazing - the cross-pollination, and the fact that people are able to go back and forth and back and forth... I think it's something that some companies are very supportive of, and others sort of accept as the cost of doing business in Silicon Valley, and it's really neat to see a company doing that.
 

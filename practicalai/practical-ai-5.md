@@ -58,7 +58,7 @@ I guess I thought it would be really cool if I could discover a planet, so...
 
 **Daniel Whitenack:** How would that not be cool?
 
-**Chris Shallue:** So I did a little bit of research on -- a Google search, basically, and I found Andrew's name as someone who had worked with this data a lot. I basically wrote an e-mail to Andrew, pitching a collaboration with him, and obviously I did a good job, because we ended up working together on this project.
+**Chris Shallue:** So I did a little bit of research on -- a Google search, basically, and I found Andrew's name as someone who had worked with this data a lot. I basically wrote an email to Andrew, pitching a collaboration with him, and obviously I did a good job, because we ended up working together on this project.
 
 **Chris Benson:** \[00:08:00.09\] So I guess - this is Chris - I was wondering, if you could kind of tell us a little bit about what the goals of Kepler are, as well as the project itself, and kind of tie it all together for listeners that might not be familiar with it?
 

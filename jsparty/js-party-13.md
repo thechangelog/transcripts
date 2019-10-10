@@ -336,7 +336,7 @@ If you remix this Glitch site, you get a blank Sheetsee setup and it just writes
 
 **Alex Sexton:** Well, it would need to cache -- I don't know, syncing data versus caching requests are kind of two separate things.
 
-**Mikeal Rogers:** Yeah, I see what you're saying. 
+**Mikeal Rogers:** Yeah, I see what you're saying.
 
 **Jessica Lord:** Cool!
 
@@ -390,7 +390,7 @@ I remember very specifically searching in Altavista and saying "Way to get infor
 
 **Mikeal Rogers:** Alright, Rachel's gonna go first... \[laughs\]
 
-**Rachel White:** I just don't want anybody else to pick my pick. My pick of the week is a really interesting repository that someone e-mailed me about and I ignored at first, but then other people did not ignore it and now it's got a bunch of stars on GitHub. It's called [Chaosbot](https://github.com/Chaosthebot/Chaos), and it's a social coding experiment that updates its own code democratically based on what the people that are involved with the project do. You can vote on things in order to get PRs merged.
+**Rachel White:** I just don't want anybody else to pick my pick. My pick of the week is a really interesting repository that someone emailed me about and I ignored at first, but then other people did not ignore it and now it's got a bunch of stars on GitHub. It's called [Chaosbot](https://github.com/Chaosthebot/Chaos), and it's a social coding experiment that updates its own code democratically based on what the people that are involved with the project do. You can vote on things in order to get PRs merged.
 
 I guess IIT reminds me of TwitchPlaysPokemon or like TwitchBuildsAComputer or TwitchInstallsLinux, because the fate of the project is at the whim of the people controlling it. I think it will be really interesting to see what they end up making with it.
 

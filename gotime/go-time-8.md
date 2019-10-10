@@ -300,7 +300,7 @@ So anything else anybody wants to talk about before me close out the show? Becau
 
 **Erik St. Martin:** Nice.
 
-**Asim Aslan:** Back in the day when I was a sys admin we used to do bulk e-mails. We were sending half a million e-mails an hour and I kind of managed upwards of a hundred instances of Postflix and it made it really easy to kind of configure and manage SMTP.
+**Asim Aslan:** Back in the day when I was a sys admin we used to do bulk emails. We were sending half a million emails an hour and I kind of managed upwards of a hundred instances of Postflix and it made it really easy to kind of configure and manage SMTP.
 
 So I'm really grateful for that piece of software, because it meant I didn't have to use Sendmail and if anyone is used Sendmail, you know how painful that is.
 

@@ -8,7 +8,7 @@ We're gonna do another news and updates and learning resources episode for every
 
 **Chris Benson:** Absolutely. What have you seen this last week?
 
-**Daniel Whitenack:** The first one that came across my path was this survey that O'Reilly did, called The State of Machine Learning Adoption in the Enterprise. They have a blog post about it, but then you can actually download the full report. I think you have to put in your e-mail to download it, but it's free... And it is pretty interesting.
+**Daniel Whitenack:** The first one that came across my path was this survey that O'Reilly did, called The State of Machine Learning Adoption in the Enterprise. They have a blog post about it, but then you can actually download the full report. I think you have to put in your email to download it, but it's free... And it is pretty interesting.
 
 If you're working in particular at a larger company and interested to know how the landscape of machine learning is playing out in larger companies, I think it's really relevant. They ask a bunch of different questions, everything from what people's titles are, where they're located, but also some interesting things... The one that piqued my interest was actually who is building the machine learning models within an enterprise company. The biggest percentage of that were embedded data science teams, but then it kind of went down the percentages from there through external consultants, all the way down to cloud ML services.
 

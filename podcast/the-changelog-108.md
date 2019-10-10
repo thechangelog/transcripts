@@ -88,7 +88,7 @@ From there, I did the talk Therapeutic Refactoring, which let me travel around a
 
 But I felt like I had kind of done what I had to do there; I really brought testing into the organization. That was kind of what I was hired to do, and I was ready to move on.
 
-I met Jeff from Jumpstart Lab at a conference, and we talked, and eventually -- well, he sent me an e-mail saying that I should work for him...
+I met Jeff from Jumpstart Lab at a conference, and we talked, and eventually -- well, he sent me an email saying that I should work for him...
 
 **Adam Stacoviak:** That's always nice.
 
@@ -466,7 +466,7 @@ And we've talked about Docker quite a bit; we've had Solomon Hykes on this show 
 
 **Adam Stacoviak:** Very generous. I think that's one part of why they've made some inroads into the community. One thing I've heard -- and this is kind of elongated, just because I absolutely love Digital Ocean... But I've just heard people say "They're not that expensive, so how can they be good?" Well, don't let the price fool you; they just really want your business because they wanna show you how awesome they are.
 
-If you're the kind of person too that likes to decorate your laptop, you can send an e-mail to barry@digitalocean.com. Just tell him your shipping address and he's gonna ship you some Digital Ocean stickers.
+If you're the kind of person too that likes to decorate your laptop, you can send an email to barry@digitalocean.com. Just tell him your shipping address and he's gonna ship you some Digital Ocean stickers.
 
 I've got a couple links in the show notes I'll put there for you, and I also wanna plug the coupon (promo) code we have, which is "the changelog october". If you use that when you sign up, you'll save $10.
 

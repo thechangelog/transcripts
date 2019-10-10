@@ -279,7 +279,7 @@ The other important part of the most recent Gobot release, that was sort of over
 
 **Brian Ketelsen:** Oh yeah, that...
 
-**Erik St. Martin:** Yeah. So I imagine that we will make an announcement at least of some of the speakers here soon... But yeah, all of the acceptance and rejection e-mails will be going out pretty quickly over this week, and maybe early next week, depending on how fast we get through this stuff. So you can look forward to speaker announcements soon.
+**Erik St. Martin:** Yeah. So I imagine that we will make an announcement at least of some of the speakers here soon... But yeah, all of the acceptance and rejection emails will be going out pretty quickly over this week, and maybe early next week, depending on how fast we get through this stuff. So you can look forward to speaker announcements soon.
 
 **Brian Ketelsen:** I totally forgot that I did that, too. I'm telling you, it's been THAT week.
 

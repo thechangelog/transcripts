@@ -164,7 +164,7 @@ And finally, there's the third one, which is the groups of changes - the added c
 
 **Olivier Lacan:** You're right, absolutely.
 
-**Adam Stacoviak:** ...because so many people use that in e-mail format and whatnot, so the idea was to translate from like the normal way of writing words to something you can actually mark up without trying to.
+**Adam Stacoviak:** ...because so many people use that in email format and whatnot, so the idea was to translate from like the normal way of writing words to something you can actually mark up without trying to.
 
 **Olivier Lacan:** Which is a great idea.
 
@@ -404,7 +404,7 @@ People like that inspire me a lot. Beyond technical... It's just like, "Okay, so
 
 **Olivier Lacan:** Yeah. So I recommend anybody listening to this try to get a copy or see The Internet's Own Boy, which is a documentary that was made about it... And it's very sad, you will cry; there's no way you can come out of this like "Yay!" But it might actually spark some care for you, and just -- it doesn't have to be as epic or as dangerous as some of these things are. It could be something simple like this. So yeah, that's my hero.
 
-**Adam Stacoviak:** We'll put a link out to Aaron. And then we also linked out to the video you were talking about... It was an interview of him as a teaser to the documentary; we linked that out in the Changelog Weekly, our weekly e-mail that we were sending regularly; we took a hiatus and we're relaunching it... So if you're sending us hate mail, I'm gonna keep ignoring it for the next weeks, and then I'll let you know what's gonna happen with it, but...
+**Adam Stacoviak:** We'll put a link out to Aaron. And then we also linked out to the video you were talking about... It was an interview of him as a teaser to the documentary; we linked that out in the Changelog Weekly, our weekly email that we were sending regularly; we took a hiatus and we're relaunching it... So if you're sending us hate mail, I'm gonna keep ignoring it for the next weeks, and then I'll let you know what's gonna happen with it, but...
 
 **Olivier Lacan:** Or poop mail.
 

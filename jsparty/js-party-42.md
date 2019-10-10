@@ -18,7 +18,7 @@ We're here with Mathias Buus and Paul Frazee of the Beaker Project. I actually t
 
 **Feross Aboukhadijeh:** Okay... If we lose you, we're just gonna assume the worst; we're gonna assume it's a jaguar and call the authorities.
 
-**Mathias Buus:** \[laugh\] \[unintelligible 00:02:56.27\]
+**Mathias Buus:** \[laugh\] Take over all the modules. Sounds good.
 
 **Feross Aboukhadijeh:** Nice. How about we get started with -- just sort of tell me a little bit, high-level, what is Beaker? Maybe Paul, you can start with that.
 

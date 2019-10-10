@@ -116,11 +116,11 @@ So there was a little bit of a loophole, and I thought "Okay, I'm gonna comforta
 
 It was fantastic, it was a huge boost for people's trust in the system, to make sure that they will continue to be supported and get paid. So I took Tanner, who was, as I mentioned before, the first user, and he helped brainstorm a lot of what Code Sponsor was at the time... I took him to GitHub Universe with me. So we're having a great time, getting to know people... I met Nadia Eghbal there, a fantastic person; I got to meet a whole bunch of people... It was a great opportunity to try and connect with new advertisers, new sponsors for the platform.
 
-Then I remember getting an e-mail from Sindre, I think on day two, and in that e-mail, he said "Hey, I just wanted to be aware... GitHub is asking me to pull the plug on Code Sponsor." I read this, and I read this over, and I read this over, and I thought "Oh my gosh, what am I gonna do?" So immediately I went over to the GitHub support area; they had a support area... And I said "Hey, this is who I am, I'm with Code Sponsor. Can I talk to somebody about this?" and I got some crazy looks, like "Oh, you're the crazy person that's trying to tear down the ship...", or whatever it might be... You know, it was like a bad feeling that I got...
+Then I remember getting an email from Sindre, I think on day two, and in that email, he said "Hey, I just wanted to be aware... GitHub is asking me to pull the plug on Code Sponsor." I read this, and I read this over, and I read this over, and I thought "Oh my gosh, what am I gonna do?" So immediately I went over to the GitHub support area; they had a support area... And I said "Hey, this is who I am, I'm with Code Sponsor. Can I talk to somebody about this?" and I got some crazy looks, like "Oh, you're the crazy person that's trying to tear down the ship...", or whatever it might be... You know, it was like a bad feeling that I got...
 
 **Adam Stacoviak:** Right. You're him!
 
-**Eric Berry:** Yeah, yeah... A "bandito". And they didn't wanna talk to me. It came down to "Look, we can't talk to you. You have to go through this channel." So Tanner and I sat down, we drafted a big, long e-mail, explaining what we are... The reasoning that they wanted them pulled is because they claimed that we were an ad platform, and even though we weren't technically an ad platform, we showed a lot of signs of being an ad platform... We were trying to be a way for sponsors to be able to fund projects.
+**Eric Berry:** Yeah, yeah... A "bandito". And they didn't wanna talk to me. It came down to "Look, we can't talk to you. You have to go through this channel." So Tanner and I sat down, we drafted a big, long email, explaining what we are... The reasoning that they wanted them pulled is because they claimed that we were an ad platform, and even though we weren't technically an ad platform, we showed a lot of signs of being an ad platform... We were trying to be a way for sponsors to be able to fund projects.
 
 \[00:24:19.06\] Now, you've gotta understand, Open Collective does -- let me talk about Open Collective for a moment, because it is important here. First off, let me say I am a tremendous fan of Open Collective. I think that what they've done and are continuing to do and will do in the future is unbelievable.
 
@@ -130,7 +130,7 @@ Now, as great as that is, almost everybody that I've spoken to that participated
 
 **Adam Stacoviak:** It's not a fit for everybody, basically.
 
-**Eric Berry:** It's not a fit for everybody. It's definitely a fit for some, but not for everybody. So Open Collective really focuses well on the aspect of enabling sponsorship directly. Code Fund - or Code Sponsor at the time - was more of a way for advertisers to get money to those developers that don't wanna participate in Open Collective. So when I received that, we drafted an e-mail and we sent it along, explaining why we're not an ad platform, and explaining some steps that we'll take to move on... And we thought that was it.
+**Eric Berry:** It's not a fit for everybody. It's definitely a fit for some, but not for everybody. So Open Collective really focuses well on the aspect of enabling sponsorship directly. Code Fund - or Code Sponsor at the time - was more of a way for advertisers to get money to those developers that don't wanna participate in Open Collective. So when I received that, we drafted an email and we sent it along, explaining why we're not an ad platform, and explaining some steps that we'll take to move on... And we thought that was it.
 
 We thought "Okay, I think it's handled. We'll wait." And then we waited... And we waited... And we waited. And eventually, I got a response. That led to a chain of more responses.
 
@@ -138,7 +138,7 @@ We thought "Okay, I think it's handled. We'll wait." And then we waited... And w
 
 **Adam Stacoviak:** So Eric, you're waiting and you're waiting, and you're getting a response from GitHub, and... I'm on the edge of my seat here. What's next?
 
-**Eric Berry:** Well, you know, you've gotta understand the mentality that I had here. It was really frustrating for me, because I tried to explain in these e-mails, "Look, this is the good that we're doing. This is why we're doing it. I'm not doing this to be rich, I'm not doing this to make a big name for myself. I really just wanna help developers get funding for open source. That should be a part of our lives, as open source developers."
+**Eric Berry:** Well, you know, you've gotta understand the mentality that I had here. It was really frustrating for me, because I tried to explain in these emails, "Look, this is the good that we're doing. This is why we're doing it. I'm not doing this to be rich, I'm not doing this to make a big name for myself. I really just wanna help developers get funding for open source. That should be a part of our lives, as open source developers."
 
 **Adam Stacoviak:** Right. You felt like you were talking to somebody who should care about what you cared about too, right?
 
@@ -152,19 +152,19 @@ I announced that things are great, and then after that I wrote back to GitHub, I
 
 So I wrote back and I said "Okay, I'll tell you what... I'm gonna change this up completely, to essentially be exactly like Open Collective, but only service those projects that people don't qualify for Open Collective." Because Open Collective required a minimum of 100 stars, at least two developers to be on the project, and it required a certain amount of -- well, I can't really speak for them, but at the time I talked to Pia multiple times... I've spoken to her multiple times on the development of this, and I even asked her "Are you okay if I mimic your style on GitHub?" and she said "No problem."
 
-So I wrote back an e-mail to GitHub, pleading with them and saying "Hey, this is our effort, this is why we're doing it, and here's what I can do... And you're already allowing it, so I'm just asking for permission to do the exact same thing that you're allowing them to do."
+So I wrote back an email to GitHub, pleading with them and saying "Hey, this is our effort, this is why we're doing it, and here's what I can do... And you're already allowing it, so I'm just asking for permission to do the exact same thing that you're allowing them to do."
 
-I got an e-mail back from -- instead of their support, I got an e-mail back from their legal department, and they said... To summarize, they basically said "Look, it's our platform. We reserve the right to allow or disallow anything that we choose on our platform. We disallow you. If you're not off of our platform by December 8th, then we will be forced to take legal matters."
+I got an email back from -- instead of their support, I got an email back from their legal department, and they said... To summarize, they basically said "Look, it's our platform. We reserve the right to allow or disallow anything that we choose on our platform. We disallow you. If you're not off of our platform by December 8th, then we will be forced to take legal matters."
 
-**Adam Stacoviak:** That's not the kind of e-mail you want...
+**Adam Stacoviak:** That's not the kind of email you want...
 
-**Eric Berry:** No, it was not the kind of e-mail I wanted...
+**Eric Berry:** No, it was not the kind of email I wanted...
 
 **Adam Stacoviak:** Because they've got deeper pockets, for sure.
 
 **Eric Berry:** Yeah... And here I am, doing this on the side, losing money... I put in $30,000 of my own money into this, trying to make it work, and even though I was taking a cut, it was nowhere near what it actually cost to do, including this sponsorship, and the marketing materials, and trying to build it up. So it was really, really hard.
 
-\[00:32:05.16\] So in November I sent out an e-mail to everyone, and I published an article called "Why funding open source is hard." In that article I detailed the growth and success of Code Sponsor and I explained why it's shutting down, and I basically said in that blog post that I'm stepping out, I'm shutting it down completely.
+\[00:32:05.16\] So in November I sent out an email to everyone, and I published an article called "Why funding open source is hard." In that article I detailed the growth and success of Code Sponsor and I explained why it's shutting down, and I basically said in that blog post that I'm stepping out, I'm shutting it down completely.
 
 **Adam Stacoviak:** Yeah.
 

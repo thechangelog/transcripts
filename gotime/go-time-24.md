@@ -8,7 +8,7 @@
 
 **Erik St. Martin:** Would you like to give everybody a little background about yourself?
 
-**Nate Finch:** Sure. I've been doing development for 16 years now, since graduating from college about four and a half years ago, right around Go 1.01, or something like that. I started looking at Go mainly as a way to not be pigeonholed as a Windows developer, because at that time I was a Windows developer, and I wanted to be more than that. \[unintelligible 00:01:36.14\] community, and about six months later I saw Gustavo posting on Twitter that there was an opening for a Go developer at Canonical, working on Juju. I've interacted with Gustavo for a bit, and we sort of knew each other; it eventually worked out, and I started working on Juju. I've been there for just about three and a half years. I've done a bunch of Go stuff on the side, and I'm a big fan of Go.
+**Nate Finch:** Sure. I've been doing development for 16 years now, since graduating from college about four and a half years ago, right around Go 1.01, or something like that. I started looking at Go mainly as a way to not be pigeonholed as a Windows developer, because at that time I was a Windows developer, and I wanted to be more than that... And I met Go, and then I went into the community, and about six months later I saw Gustavo posting on Twitter that there was an opening for a Go developer at Canonical, working on Juju. I've interacted with Gustavo for a bit, and we sort of knew each other; it eventually worked out, and I started working on Juju. I've been there for just about three and a half years. I've done a bunch of Go stuff on the side, and I'm a big fan of Go.
 
 **Erik St. Martin:** So you were writing production Go code before most people knew about Go.
 
@@ -152,7 +152,7 @@ Yes, you have to do "if error =/= nil, blah", but that's good, because that mean
 
 People always talk about, "Oh, it makes my happy path look all messy", and I'm like "This is programming. There is no happy path."
 
-**Erik St. Martin:** Yeah, especially when you write network software, right? The amount of things that can go wrong is just... Anybody who's supported the applications \[unintelligible 00:26:33.05\], the odd things that start happening to every application when different resources start hitting their level of saturation, when the out-of-memory killer starts going, or when you run out of disk space and the network drops, or somebody decides to take down a link and bring it back up, or assign a new IP address to it... Random stuff happens on the machine. Like you said, there's no happy path.
+**Erik St. Martin:** Yeah, especially when you write network software, right? The amount of things that can go wrong is just... Anybody who's supported applications in prod is aware of stuff like that, the odd things that start happening to every application when different resources start hitting their level of saturation, when the out-of-memory killer starts going, or when you run out of disk space and the network drops, or somebody decides to take down a link and bring it back up, or assign a new IP address to it... Random stuff happens on the machine. Like you said, there's no happy path.
 
 **Carlisia Pinto:** That's very interesting, yeah.
 
@@ -210,7 +210,7 @@ The difference with Dave's is that he actually grabs the stack trace the first t
 
 **Carlisia Pinto:** Yeah, it is.
 
-**Nate Finch:** Okay, good. Dave and I have been working on this for a long time, being able to compile code as a plugin that can be loaded by other Go code. The other main application loads it using -- there's a new plugin package in the standard library \[unintelligible 00:39:57.26\]. It basically works like plugins, so we can load new data, you can call functions and stuff... It's very interesting.
+**Nate Finch:** Okay, good. Dave and I have been working on this for a long time, being able to compile code as a plugin that can be loaded by other Go code. The other main application loads it using -- there's a new plugin package in the stdlib on [Tip](https://tip.golang.org/), and... It basically works like plugins, so we can load new data, you can call functions and stuff... It's very interesting.
 
 **Erik St. Martin:** \[00:40:09.14\] So this is basically loading it as a dynamic library, like a DLL or an .so file, for other languages.
 
@@ -256,7 +256,7 @@ I haven't built anything with it, but seeing it really makes me want to.
 
 **Nate Finch:** Nice, yeah. I used a different one for a small project... I can't remember now what the name was, but very similar. Maybe a slightly lower level; with this one you have a window and put stuff in it. The one that I used was more like your screen was a grid and you could put stuff in the grid. But this looks really cool, I definitely wanna try that one out.
 
-**Erik St. Martin:** See, I love graphical stuff. I don't know why, but I'm a command line junkie. Even at my development machine... I have a Mac and I do the podcast and stuff from that, and e-mail and chat, but I primarily develop off a Linux box, and I run the i3 window manager. That's it. I don't need any of the fluff, just give me some terminal windows and I'm good.
+**Erik St. Martin:** See, I love graphical stuff. I don't know why, but I'm a command line junkie. Even at my development machine... I have a Mac and I do the podcast and stuff from that, and email and chat, but I primarily develop off a Linux box, and I run the i3 window manager. That's it. I don't need any of the fluff, just give me some terminal windows and I'm good.
 
 **Nate Finch:** Well, I did 13 years of Windows development, so I still at times want things I can poke at with a mouse but I also love the terminals. It's nice to put those both together and you have a lightweight windowy thing. It's pretty cool.
 
@@ -294,7 +294,7 @@ He also mentioned that talk by Bryan Boreham from this year's Golang UK Conferen
 
 **Erik St. Martin:** Yeah, I haven't actually seen that video. I'm gonna put that on my list. Actually, all the dotGo videos need to be on my list to watch. Alright, so what else do we have on our list before we move on to \#FreeSoftwareFriday?
 
-**Carlisia Pinto:** One more thing I wanted to mention - Peter Bourgon e-mailed the mailing list (I forgot which one) and they have the draft spec for package management ready, and they are calling for comments; they are soliciting comments either on Gophers Slack, the vendors channel or on a mailing list. And they started implementing another prototype too, so that's definitely moving along.
+**Carlisia Pinto:** One more thing I wanted to mention - Peter Bourgon emailed the mailing list (I forgot which one) and they have the draft spec for package management ready, and they are calling for comments; they are soliciting comments either on Gophers Slack, the vendors channel or on a mailing list. And they started implementing another prototype too, so that's definitely moving along.
 
 **Nate Finch:** Yeah, I looked at that and honestly, it's so long and so detailed... I need like a TL;DR version so that I can have some idea of what the overall meaning is, because it's seven pages long. I don't know that I can get all of that.
 
@@ -362,7 +362,7 @@ With that, we are out of time unfortunately.
 
 With that, I wanna thank everybody for being on the show today. Huge shout out to our sponsors, both to stackimpact and Code School, thank you to all of our live listeners and future listeners. Definitely forward this to your friends.
 
-We are @GoTimeFM on Twitter, we have a GoTimeFM channel on the Gophers Slack. If you are not subscribed already, go to GoTime.fm, our website for e-mail. If you wanna be on the show or you have ideas for guests or topics for this show, hit us up on GitHub.com/gotimefm/ping. With that, everybody goodbye.
+We are @GoTimeFM on Twitter, we have a GoTimeFM channel on the Gophers Slack. If you are not subscribed already, go to GoTime.fm, our website for email. If you wanna be on the show or you have ideas for guests or topics for this show, hit us up on GitHub.com/gotimefm/ping. With that, everybody goodbye.
 
 **Carlisia Pinto:** Thank you, Nathan. Goodbye!
 

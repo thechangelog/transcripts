@@ -22,7 +22,7 @@ Andrew, I'll start with you. What made you wanna build Libraries.io? How was tha
 
 \[00:04:21.05\] But you can actually use package management data to connect the dots between GitHub repositories as well. You can say, "Oh, well given this GitHub repository, how many other GitHub repositories depend on it through NPM or through RubyGems.
 
-**Mikeal Rogers:** It's good to hear that stars are useless, because I've also thought that. \[laughs\] That's my assessment, as well.
+**Mikeal Rogers:** It's good to hear that stars are useless, because I've also thought that. \[laughs\] That's been my assessment, as well.
 
 **Andrew Nesbitt:** Yeah, I've \[unintelligible 00:04:46.03\] over how you shouldn't judge a project by its GitHub stars. There's one particular project that's a great example of that, it's called Volkswagen. It is essentially a monkey patch for your CI to make sure it always passes. I think it's got something like 5,000 GitHub stars, and it's maybe downloaded 50 times on NPM; it has zero usage.
 
@@ -224,7 +224,7 @@ A lot of people do that, but they're actually working in a very small team, or w
 
 **Arfon Smith:** My prediction here is that the people and the organizations that are gonna solve this are gonna be the ones that are paying most attention to business users of open source. Because if you are a CIO and you're thinking about starting to use open source more extensively in your organization, then assessing the risk of that in terms of maintenance and service agreements and understanding of whether a project is - if it does have a security vulnerability that's likely to be patched... It's useful to know in open source generally. "Should I use this library because it's likely to see updates when Rails 5 is released?" or "When something happens, can I use my favorite framework with this, or my favorite tool? Is that likely to happen?" That's useful to know, but it's not business-critical. I think the people who really want a hard answer to this are more likely to be business consumers. That's my prediction. I think there's actually a lot of opportunity to do good stuff in this space.
 
-**Andrew Nesbitt:** \[00:57:12.00\] The Linux Foundation are a little bit around that with the Core Infrastructure Initiative, where they're trying to see, "Has this project had a security review? When was the last time it was checked for the people that are behind the project?", which I think is a harder thing to do automatically. You end up having to have a set of humans that go and contact other humans, which if those people are anything like me on e-mail, it may take ages to get a response.
+**Andrew Nesbitt:** \[00:57:12.00\] The Linux Foundation are a little bit around that with the Core Infrastructure Initiative, where they're trying to see, "Has this project had a security review? When was the last time it was checked for the people that are behind the project?", which I think is a harder thing to do automatically. You end up having to have a set of humans that go and contact other humans, which if those people are anything like me on email, it may take ages to get a response.
 
 There's a fair number of metrics that we can pull in automatically to give you a light indication of if the project is healthy. I guess you have to split it in half again and go like, "Well, what do I care about the project? Is this thing that I'm doing a throw-away fun experiment or a learning exercise, or is it something I'm gonna be putting into production?" Then you have to look at things with two very different sets of metrics.
 
@@ -256,7 +256,7 @@ We've got a little bit of policy around who gets to do releases still, just beca
 
 **Mikeal Rogers:** In the Node project we do a roll-up every month just to show, "Okay, these are the people that merge a lot of stuff", and then there's a note next to them if they're a committer or not, so that they can get onboarded if they're not. That's how we base the nominations.
 
-If that was automatically integrated in GitHub it would save me so much time... To run those scripts and \[unintelligible 01:06:33.08\] those issues, it would be fantastic.
+If that was automatically integrated into GitHub it would save me so much time... Not having to run those scripts and post those issues, it would be fantastic.
 
 **Andrew Nesbitt:** I think Ruby on Rails runs a leader board as well of the total number of commits into any of the rails projects, and you can kind of see a little star next to the ones who are currently Rails core. It kind of gamifies it a little bit, which I don't know if that's a good thing or not. I guess as long as it's people actually doing stuff for the contributions rather than just to get up the leader board...
 
@@ -282,7 +282,7 @@ I think the other part of it, the biggest change that I'm seeing is that the con
 
 **Mikeal Rogers:** That's great, I'm excited!
 
-**Andrew Nesbitt:** There's a lot of people \[unintelligible 01:12:06.20\] that area as well. Did you see the Software Heritage project that was released yesterday?
+**Andrew Nesbitt:** There's a lot of people working on that kind of area as well. Did you see the Software Heritage project that was released yesterday?
 
 **Nadia Eghbal:** Yes, yes.
 

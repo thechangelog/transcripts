@@ -1,4 +1,4 @@
-**Adam Stacoviak:** Welcome back everyone, this is The Changelog and I am your host, Adam Stacoviak. This is episode 224, and today Jerod and I talk to Bertrand Le Roy about .NET Core. Bertrand has a deep history in Microsoft technologies, and he schools us on all things about .NET Core, where it's going, the open source around it, Microsoft's take on it. Also, Bertrand hosts a live YouTube podcast called On .NET, and he also curates a weekly e-mail called "This week in .NET"
+**Adam Stacoviak:** Welcome back everyone, this is The Changelog and I am your host, Adam Stacoviak. This is episode 224, and today Jerod and I talk to Bertrand Le Roy about .NET Core. Bertrand has a deep history in Microsoft technologies, and he schools us on all things about .NET Core, where it's going, the open source around it, Microsoft's take on it. Also, Bertrand hosts a live YouTube podcast called On .NET, and he also curates a weekly email called "This week in .NET"
 
 Our sponsors today are Code School and Toptal.
 
@@ -462,13 +462,13 @@ Another thing that we've working on is converging our projects system so that al
 
 **Jerod Santo:** 2016 man, it's great.
 
-**Adam Stacoviak:** It's a good year for .NET. So we mentioned earlier on the show that article for Microsoft being one of the biggest contributors to open source; we have a weekly e-mail we ship, called Changelog Weekly. Bertrand, I'm not sure if you know about this e-mail, but if you don't, you gotta subscribe. Go to changelog.com/weekly. We put a lot of love into that e-mail every single week. Headlines, links, the latest that's happening in open source software development, our latest episodes, projects from repos...
+**Adam Stacoviak:** It's a good year for .NET. So we mentioned earlier on the show that article for Microsoft being one of the biggest contributors to open source; we have a weekly email we ship, called Changelog Weekly. Bertrand, I'm not sure if you know about this email, but if you don't, you gotta subscribe. Go to changelog.com/weekly. We put a lot of love into that email every single week. Headlines, links, the latest that's happening in open source software development, our latest episodes, projects from repos...
 
-We also have an "open inbox" we like to call it, on GitHub. Go to github.com/thechangelog/ping. You can submit an issue there and share your latest open source there. We have a section in our e-mail just for that, called Ping. That's pretty interesting.
+We also have an "open inbox" we like to call it, on GitHub. Go to github.com/thechangelog/ping. You can submit an issue there and share your latest open source there. We have a section in our email just for that, called Ping. That's pretty interesting.
 
 **Bertrand Le Roy:** Excellent.
 
-**Adam Stacoviak:** Do you subscribe with the e-mail, by any chance?
+**Adam Stacoviak:** Do you subscribe with the email, by any chance?
 
 **Bertrand Le Roy:** Not yet, but I will.
 

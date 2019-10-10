@@ -20,7 +20,7 @@ I'm also a co-founding member of GoBridge, and kind of like the same reason you 
 
 **Erik St. Martin:** That's excellent. I think that's kind of a shared love of all of us here on this show, just kind of advocating community and advocating people get into this language and technology we love. Hopefully with our different backgrounds and experiences we can bring some insights to the listeners, and also introduce them into things that they might not already be familiar with.
 
-With that being said, one of the segments that will be a common thread is we'll talk about some news, events and any interesting articles that have come across our e-mails and social media and everywhere we find the things, along with having some special guests. We've actually got quite a few really interesting guests lined up for the next couple of episodes, so definitely stay tuned for those.
+With that being said, one of the segments that will be a common thread is we'll talk about some news, events and any interesting articles that have come across our emails and social media and everywhere we find the things, along with having some special guests. We've actually got quite a few really interesting guests lined up for the next couple of episodes, so definitely stay tuned for those.
 
 If you haven't already, please subscribe. The easiest way to do that is to go to GoTime.fm, and you can also subscribe to the weekly newsletter there. We also would like to advocate for everybody to hit us up on Twitter @GoTimeFM with any questions you'd like to hear us answer, questions for guests we have coming up, questions in general.
 
@@ -28,7 +28,7 @@ If you haven't already, please subscribe. The easiest way to do that is to go to
 
 **Carlisia Pinto:** Suggestions for guests to be interviewed...
 
-**Erik St. Martin:** Yes, definitely. We'd love to hear from everybody, people we should invite on the show. There's so many great people in the community that I think that we can get on here. With that being said, let's open this up to some news. Does anybody have anything interesting that's come across their e-mail and social media this week?
+**Erik St. Martin:** Yes, definitely. We'd love to hear from everybody, people we should invite on the show. There's so many great people in the community that I think that we can get on here. With that being said, let's open this up to some news. Does anybody have anything interesting that's come across their email and social media this week?
 
 **Brian Ketelsen:** I do. I think the biggest new thing that came out was Go 1.6.1 and 1.5.4 were released. Small security issues on Windows and crypto libraries, but everybody should update. There's really no reason to be using 1.4 anymore, so go update to 1.5.4 or 1.6.1 now. That's a big one.
 

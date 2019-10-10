@@ -14,7 +14,7 @@ It's really great to have you on the show, Dylan, to talk about Dojo. Welcome!
 
 **Suz Hinton:** Dojo was started by people such as yourself, Alex Russell, David Schontzler and others. Can you give us a brief history of how that came about? I think it was released in 2004, is that right?
 
-**Dylan Schiemann:** Yeah, we started the project in 2004. Prior to that, we had another open source project called netWindows, and Alex famously sent out an e-mail I think around April 2004 saying "What would you want from a next-generation DHTML toolkit?" We had a mailing list, and a number of people started responding and talking, and then a couple months later Alex and myself and David started committing the first bits of code.
+**Dylan Schiemann:** Yeah, we started the project in 2004. Prior to that, we had another open source project called netWindows, and Alex famously sent out an email I think around April 2004 saying "What would you want from a next-generation DHTML toolkit?" We had a mailing list, and a number of people started responding and talking, and then a couple months later Alex and myself and David started committing the first bits of code.
 
 Roughly 2005 is when we first shipped a 0.1 release... But at the time we were really just trying to say "Hey, this Javascript thing is pretty cool. We've worked hard at reinventing things, and it would be nice if we could treat the web as a serious application development environment", which at the time was fairly heretical.
 

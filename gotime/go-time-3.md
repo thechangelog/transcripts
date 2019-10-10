@@ -190,7 +190,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Erik St. Martin:** Please do...
 
-**Brian Ketelsen:** My e-mail address is bketelsen@gmail.com Send me an e-mail and prove to me that somebody is doing something with GPU databases. I don't believe it until I see it.
+**Brian Ketelsen:** My email address is bketelsen@gmail.com Send me an email and prove to me that somebody is doing something with GPU databases. I don't believe it until I see it.
 
 **Erik St. Martin:** Alright... So what else do we have?
 
@@ -446,7 +446,7 @@ We had some convincing to do, our team and our investors, because you never want
 
 **Travis Reeder:** Yeah.
 
-**Brian Ketelsen:** That reminds me of my first attempt to make an addition to the Go language, to fix a bug in Go proper. I think it was in coding somewhere, like maybe base64 encoding. I solved the problem, fixed the bug, wrote a test, all of that, and I submitted the CL, and I got back a comment immediately, "This absolutely solves the problem. I need you to refactor it to get rid of the three allocations you added." And I stared at my e-mail for a good five or ten minutes, wondering what I did to add allocations and how in the world I was gonna get rid of them, because I didn't know. I came from Ruby, I didn't care about allocations. I still honestly don't care about allocations generally, but I didn't know what to do. I grabbed Erik, "Erik, what do I do?" \[laughter\]
+**Brian Ketelsen:** That reminds me of my first attempt to make an addition to the Go language, to fix a bug in Go proper. I think it was in coding somewhere, like maybe base64 encoding. I solved the problem, fixed the bug, wrote a test, all of that, and I submitted the CL, and I got back a comment immediately, "This absolutely solves the problem. I need you to refactor it to get rid of the three allocations you added." And I stared at my email for a good five or ten minutes, wondering what I did to add allocations and how in the world I was gonna get rid of them, because I didn't know. I came from Ruby, I didn't care about allocations. I still honestly don't care about allocations generally, but I didn't know what to do. I grabbed Erik, "Erik, what do I do?" \[laughter\]
 
 **Erik St. Martin:** It's funny though, because I look at code and I see some of the allocations that are obvious, but other people, they just totally outshine you. They look at something really quick and they're like, "There's five allocations there." You're like, "What?" How did you know that just by looking at it for a second? I have to go through and count: "Yup, that would be an allocation, and that one would be one..."
 

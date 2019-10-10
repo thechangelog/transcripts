@@ -194,7 +194,7 @@ So that made me go "A-ha!", and I started digging more at it, and my next questi
 
 **Jerod Santo:** Or you would get less mail, which might be kind of nice, too.
 
-**Brian Behlendorf:** But I also think the internet -- like, I was on Prodigy before I was on the internet. Prodigy was this BBS ran by IBM, where it cost you 25 cents to send an e-mail.
+**Brian Behlendorf:** But I also think the internet -- like, I was on Prodigy before I was on the internet. Prodigy was this BBS ran by IBM, where it cost you 25 cents to send an email.
 
 **Jerod Santo:** Oh, wow.
 
@@ -202,9 +202,9 @@ So that made me go "A-ha!", and I started digging more at it, and my next questi
 
 **Jerod Santo:** That would stop some spammers.
 
-**Brian Behlendorf:** Exactly. You never got any spam, but it was also 25 cents to send an e-mail.
+**Brian Behlendorf:** Exactly. You never got any spam, but it was also 25 cents to send an email.
 
-**Jerod Santo:** You also never got an e-mail. \[laughs\]
+**Jerod Santo:** You also never got an email. \[laughs\]
 
 **Brian Behlendorf:** You never had mailing lists -- in fact... Well, no, I won't go there. But what was great about the internet was you didn't have to charge people to set up mail servers, or send people mail, and websites - the same thing; you could set up a website. So I really wanted to figure out, were these two highly dependent, or could you tease them apart? And it turns out that cryptocurrencies are an application of distributed ledgers and smart contracts.
 
@@ -422,7 +422,7 @@ Redis is fast. Everything is in memory. Any sort of well-structured Redis databa
 
 **Tague Griffith:** It'll be at the end of the month, so we'll be revealing more of the -- well, really, Salvatore will be revealing more of the roadmap and some cool changes that are coming in. I think the big one for this show, which was announced last year (the conference) is modules; that's the new really powerful thing we're working on... So this has been a collaboration between Salvatore and Redis Labs. We have several of our engineers contributing both modules and support for the modules code.
 
-What modules are gonna give Redis developers is now you have a way of extending and modifying and changing Redis without having to convince Salvatore that this is the thing that Redis needs. It's one of the great parts of open source - it's not a modular extension to Redis without needing to go through the change request and generalization. 
+What modules are gonna give Redis developers is now you have a way of extending and modifying and changing Redis without having to convince Salvatore that this is the thing that Redis needs. It's one of the great parts of open source - it's not a modular extension to Redis without needing to go through the change request and generalization.
 
 **Jerod Santo:** Right, right. It's actually a great proving ground too, for things that could go into core; once you have like a plugin or module model, you don't have to convince him, but if you build something that's super useful and all of a sudden everybody loves it and it becomes huge, it's like "Actually, that makes sense to be part of Redis", so it's cool that way, that you can have a proving ground.
 

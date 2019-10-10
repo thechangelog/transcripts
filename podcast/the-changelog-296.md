@@ -34,7 +34,7 @@ I saw a really interesting -- someone said something really valuable to me, and 
 
 \[00:04:16.26\] I often like to ask people to visualize having too many browser tabs open - that's eating up too much of your browser's working memory.
 
-**Adam Stacoviak:** Right, right. Last time I actually had a bout of this - I opened up Slack with the intention of going to a particular person's private conversation to pull back... Essentially what e-mail is, very similar. I'm going into Slack to get some information I know they shared with me; I do a couple scrolls (I knew I had to do that), but before I knew it, I found out later, something else grabbed my attention, and I'm in Slack and I'm like "What am I doing?" I didn't even do the thing I was supposed to be doing, so...
+**Adam Stacoviak:** Right, right. Last time I actually had a bout of this - I opened up Slack with the intention of going to a particular person's private conversation to pull back... Essentially what email is, very similar. I'm going into Slack to get some information I know they shared with me; I do a couple scrolls (I knew I had to do that), but before I knew it, I found out later, something else grabbed my attention, and I'm in Slack and I'm like "What am I doing?" I didn't even do the thing I was supposed to be doing, so...
 
 I was pretty tired last night. I flew in from Houston to San Francisco, I went to bed early, when I normally don't go to bed very early - maybe 10, 11, 12, or whatever, but I was--
 
@@ -76,7 +76,7 @@ You shared this story too about -- Peter may not realize this, but right now it 
 
 **Adam Stacoviak:** You're post-burnout...
 
-**Jessica Rose:** ...seven, eight months ago, and I got really lucky. Being able to successfully work through burnout is really rare. But I'm working over at FutureLearn now. We're like an edtech platform, and it's the most reasonable place I think I've ever worked. I'm managing a team of really brilliant engineers. I go home right at five, and I don't answer e-mails, and I don't do Slack, and I get to fuss at my team too, like "Go home right at five, or at six", and not do... The only thing I've ever fussed folks out for is like "I saw you were emailing on a weekend!"
+**Jessica Rose:** ...seven, eight months ago, and I got really lucky. Being able to successfully work through burnout is really rare. But I'm working over at FutureLearn now. We're like an edtech platform, and it's the most reasonable place I think I've ever worked. I'm managing a team of really brilliant engineers. I go home right at five, and I don't answer emails, and I don't do Slack, and I get to fuss at my team too, like "Go home right at five, or at six", and not do... The only thing I've ever fussed folks out for is like "I saw you were emailing on a weekend!"
 
 **Adam Stacoviak:** Yes, I like that! We've been doing that... I'm not the best at it personally, however I do like it when my team is that way, because it lets me know they care about balanced life. I don't ever wanna make them feel like they have to do something that's for us, outside of like normal hours. It's just like "I don't want you to feel that way."
 
@@ -276,7 +276,7 @@ Learning to figure out how to spend the money for a project is really difficult.
 
 **Adam Stacoviak:** So let's not assume that the listening audience is familiar with your story. Give me a quick version of not so much your getting started, but this transition - you worked at Behance, you decided to make the shift... Give us that, and we'll go further from there.
 
-**Henry Zhu:** Yeah, so first I got my job at Behance because of open source. I got involved in their project, and then they e-mailed me "Hey, do you wanna move to New York and on this team?" So I was already wanting to do open source more, so I was like "If they found me through it, that means they care about it." So I was kind of doing it, but I was working on the product team, because at Behance they're mostly focused on that... So it didn't really make sense for them to have someone working on it, like just for open source.
+**Henry Zhu:** Yeah, so first I got my job at Behance because of open source. I got involved in their project, and then they emailed me "Hey, do you wanna move to New York and on this team?" So I was already wanting to do open source more, so I was like "If they found me through it, that means they care about it." So I was kind of doing it, but I was working on the product team, because at Behance they're mostly focused on that... So it didn't really make sense for them to have someone working on it, like just for open source.
 
 But halfway -- not halfway through it... Like a year later, I'm working on Babel in my free time; we use it at work, so why aren't we -- like, we shouldn't wait for me to work on it if we need something... So like "Well, why don't you let me work on it at work then?"
 

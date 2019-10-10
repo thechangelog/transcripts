@@ -232,7 +232,7 @@ Other updates - GoBot released [1.7.0](https://github.com/hybridgroup/gobot/rele
 
 **Carlisia Pinto:** Then let us know how it goes. I'm feeling so proud of Go right now... I feel like it grew from a teenager into like a young adult... \[laughter\] It's maturing.
 
-**Erik St. Martin:** And now, do you know how that's gonna compare to some of the modules for [Authboss](https://github.com/volatiletech/authboss)? Because I know they had like a password authentication, and they've got like e-mail confirmation, and things like that.
+**Erik St. Martin:** And now, do you know how that's gonna compare to some of the modules for [Authboss](https://github.com/volatiletech/authboss)? Because I know they had like a password authentication, and they've got like email confirmation, and things like that.
 
 **Brian Ketelsen:** So the last time I looked at Authboss - and I don't know if this still applies - there were a lot of broken things in Authboss and they didn't really seem to want to fix them; they wanted to do a re-write and kind of fix the overall architecture, so I don't know if Authboss has been rewritten. There were a lot of things it didn't support when I looked at it a year or so ago. So I don't know if I can answer that question very well.
 

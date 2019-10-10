@@ -14,7 +14,7 @@ Then after talking with people and kind of soliciting some feedback online, some
 
 **Jerod Santo:** Yeah, here it comes...
 
-**Brandon Keepers:** \[unintelligible 00:04:50.00\] always say yes... Jacob is amazing, he's really brilliant. He said "Hey, this seems like a really cool idea, but I feel like you're trying to create an abstraction before you have the other layers figured out." That helped articulate something I'd been feeling; I'd been working on this project in my free time for several months, and I feel like the scriptable GitHub is really close, but the conditions... So "when a new pull request is opened, if it's a first-time contributor, then do this thing" - those logic gates I guess hadn't really been teased out, so trying to implement them on this custom grammar was really hard.
+**Brandon Keepers:** If someone offers you unsolicited advice, always say yes... Jacob is amazing, he's really brilliant. He said "Hey, this seems like a really cool idea, but I feel like you're trying to create an abstraction before you have the other layers figured out." That helped articulate something I'd been feeling; I'd been working on this project in my free time for several months, and I feel like the scriptable GitHub is really close, but the conditions... So "when a new pull request is opened, if it's a first-time contributor, then do this thing" - those logic gates I guess hadn't really been teased out, so trying to implement them on this custom grammar was really hard.
 
 So Jacob kind of inspired this reboot, where it's kind of like three main components. He's like "Start with a bot framework, start with something that's just plain old Javascript, Node modules; people can do whatever else you want. Start to figure out how to make those easy to run, easy to deploy, and then as you're working through that, start to identify the common patterns and start to abstract those into a higher-level API.
 
@@ -40,7 +40,7 @@ Basically, the plan that they had laid out for me was to create a series of open
 
 **Brandon Keepers:** Yes, we sat down and we had a chat, and just gave some awesome feedback. It was things like "Hey, I'm trying to do this thing and there's no docs" or "What are you doing for testing?", which was a question we kind of wrestled through for a little while... Because a lot of it - I've been just throwing a bunch of ideas together and seeing what sticks, and not being super diligent about testing, and stuff.
 
-So I just think that \[unintelligible 00:09:14.07\] partnership I guess I would call it... We started meeting - it was probably at least once a week; we would sit down and chat about "Here's the next big hurdle." From the very beginning... I think after our initial conversation about docs, Bex, I think you started submitting pull requests to document some of the things that you had already run across. But I think just having somebody that was fully immersed in it, understood the value of where it was going, and constantly contributing questions and answers, was just an awesome experience.
+So I just think that initial partnership I guess I would call it... We started meeting - it was probably at least once a week; we would sit down and chat about "Here's the next big hurdle." From the very beginning... I think after our initial conversation about docs, Bex, I think you started submitting pull requests to document some of the things that you had already run across. But I think just having somebody that was fully immersed in it, understood the value of where it was going, and constantly contributing questions and answers, was just an awesome experience.
 
 **Adam Stacoviak:** So when you got to that point there with a lack of docs, it's a pet project so to speak, a passion project, you're not really trying to be production-worthy, so to speak... It's sort of like tinkering, in a way; a fun tinkering. What was the process going from that stage there to getting docs? Did you sit down, Brandon, and do it? Or Bex, were you the person that took that to the next level? How did the docs come from that moment there, what were the steps to go from no docs to docs?
 
@@ -52,7 +52,7 @@ So I just think that \[unintelligible 00:09:14.07\] partnership I guess I would 
 
 **Brandon Keepers:** Yeah, it's in there somewhere. I mean, I think it does force you though to think about "How does our project go from being useful to being presentable?" Part of it is just like "Here's the function that it serves", but then you also have to help people understand what that function is, and maybe even where it's going. So yeah, I think pulling together the site was a lot of that, going through "How do we wanna present this?"
 
-\[00:12:03.10\] Because there's also a part of this to me - which maybe we can dive in a little bit more - like this is step one and where I think a lot of platforms are going in a few years... The idea of scriptable extensions, and not necessarily -- ten years ago \[unintelligible 00:12:19.20\] was the big innovation, and then you had this app-platform thing start to emerge. I think making your platform scriptable was gonna be the next, and I think there's even a few steps beyond that.
+\[00:12:03.10\] Because there's also a part of this to me - which maybe we can dive in a little bit more - like this is step one and where I think a lot of platforms are going in a few years... The idea of scriptable extensions, and not necessarily -- ten years ago webhooks was the big innovation, and then you had this app-platform thing start to emerge. I think making your platform scriptable was gonna be the next, and I think there's even a few steps beyond that.
 
 **Adam Stacoviak:** What kind of platforms make sense for that to play? You probably have some ideas, but where aside from GitHub does something like Probot work?
 
@@ -62,7 +62,7 @@ Shopify has been doing this for a long time with the way they allow you to add f
 
 **Jerod Santo:** Glitch.
 
-**Brandon Keepers:** Glitch, thank you; that was the one I was trying to think about... Which is amazing, by the way; if you haven't used Glitch, check it out. So even with those, there's still some sort of maintenance overhead, so I think starting to get to the point where these scripts are run and hosted by the companies whose platforms you're trying to extend I think is gonna be a huge opportunity for a lot of these \[unintelligible 00:14:25.03\]
+**Brandon Keepers:** Glitch, thank you; that was the one I was trying to think about... Which is amazing, by the way; if you haven't used Glitch, check it out. So even with those, there's still some sort of maintenance overhead, so I think starting to get to the point where these scripts are run and hosted by the companies whose platforms you're trying to extend I think is gonna be a huge opportunity for a lot of these companies.
 
 **Adam Stacoviak:** So that's not where Probot is now; if I understand correctly, it seems like you're deploying your own version of it... Or is it run on GitHub?
 
@@ -78,7 +78,7 @@ An example - actually, Bex, do you wanna talk about Sentiment Bot, or the Welcom
 
 **Brandon Keepers:** Exactly. I think there's nine apps hosted right now. Probably about the time this airs there will be a few more; there's a couple others that are about ready, and then all of them that are listed on the site are open source. We're taking feedback on those projects, or you can stand up your own instance.
 
-**Jerod Santo:** I do wanna dive into details on both the examples - those are two great ones, the Sentiment Bot and the Welcome Bot, \[unintelligible 00:17:18.04\] other ones that exist, to give people ideas of the types of things that people are building on Probot or what you can build with Probot, and then we'd also like to talk some of the details of like how it works with the events and stuff.
+**Jerod Santo:** I do wanna dive into details on both the examples - those are two great ones, the Sentiment Bot and the Welcome Bot, but any other ones that exist, to give people ideas of the types of things that people are building on Probot or what you can build with Probot, and then we'd also like to talk some of the details of like how it works with the events and stuff.
 
 Before that, staying big picture for a minute, Bex had something interesting there a few minutes back, when they said that when they first started, they didn't realize it was gonna be Brandon's side project, or Brandon's passion project... I guess what that made me start thinking is there's this (I don't know) hazy relationship that I see from the outside with companies and people open source. So you have Brandon working on this in this spare time, but it's very much a GitHub thing, and the way you're talking, Brandon, with regards to like "In the future, it would make sense if GitHub was first-party hosting certain things...", it seems like it could be a valuable business endeavor for the company, and I would just love to have you speak on where all that stands and how you feel about it, and what it's like to have a side project that's also kind of a company project.
 
@@ -104,7 +104,7 @@ What I get really excited about with Probot, one of the reasons has kind of been
 
 **Jerod Santo:** When we talk about side projects, I always think of things like generative art, or your own programming language... Things that are either art-driven or curiosity, but this is -- I guess my point is we don't wanna make light of it because it was a side or a passion project; very much this is a proof of concept that you are very interested in seeing exist, so you spent your spare cycles working on it. Is there added pressure when you're building something that doesn't just represent Brandon, but also represents everybody who associates themselves with GitHub the company? Or no big deal.
 
-**Brandon Keepers:** That's a great question... I think it depends. There's been moments in GitHub's past where there is a lot of pressure to get something right the first time. Any company struggles with this around large product launches. If we roll out a feature, there's 5-10 million developers using it right away. \[unintelligible 00:24:06.29\] 25 million(ish) developers on GitHub at the moment, so there is a pressure in that sense.
+**Brandon Keepers:** That's a great question... I think it depends. There's been moments in GitHub's past where there is a lot of pressure to get something right the first time. Any company struggles with this around large product launches. If we roll out a feature, there's 5-10 million developers using it right away. How many is it, 25 million(ish) developers on GitHub at the moment, so there is a pressure in that sense.
 
 \[00:24:14.07\] If you're going to roll out something at large scale, you'd better be kind of sure that it's right. Our product teams have a lot of really good ways of arriving at that, and almost everything that we ship is iterative; we start to roll it out to select groups, and stuff like that. So I think there is that sense in anything that's kind of core, I guess, to the business.
 
@@ -114,7 +114,7 @@ Something like this - and maybe since this was a side project and a passion proj
 
 **Jerod Santo:** It's a big bet. He's putting his time into it, he's putting his name on it, this is where he thinks things are heading, or he hopes so... That's tough to put yourself out there like that.
 
-**Brandon Keepers:** I think for GitHub itself \[unintelligible 00:25:26.20\] for me a lot of this came out of that moment of like people are asking GitHub for things that the engineering team couldn't necessarily deliver, and that's nobody's fault. We have a very large audience, and that's a good problem to have, but that doesn't mean that we can't enable people to start building those things themselves. In fact, I think the community would be better off if we gotten to a place (we, the community, not GitHub) where as a community we were starting to actually build features for each other.
+**Brandon Keepers:** I think for GitHub itself... I probably shouldn't bring it up, "Dear GitHub", for me a lot of this came out of that moment of like people are asking GitHub for things that the engineering team couldn't necessarily deliver, and that's nobody's fault. We have a very large audience, and that's a good problem to have, but that doesn't mean that we can't enable people to start building those things themselves. In fact, I think the community would be better off if we gotten to a place (we, the community, not GitHub) where as a community we were starting to actually build features for each other.
 
 A large open source project like Kubernetes knows a lot more about the pains of managing a large open source project than someone working on some product feature at GitHub, or any company. So I kind of want us to get to the point where some of these communities that are pushing the edge of where software is are the ones that are thinking about "You know, if I build this little bot or build this little feature, it's a tool that I can source." This is kind of like open source at its heart, right?
 
@@ -184,7 +184,7 @@ I think it's important for the entire bot ecosystem and app ecosystem to think a
 
 **Adam Stacoviak:** That is so funny.
 
-**Jerod Santo:** Even inside mail, when a new e-mail comes in, it will be like "From Brandon Keepers to How Do You Say Toilet In Spanish." Anyways...
+**Jerod Santo:** Even inside mail, when a new email comes in, it will be like "From Brandon Keepers to How Do You Say Toilet In Spanish." Anyways...
 
 **Adam Stacoviak:** Yeah, the uncanny valley, for sure.
 
@@ -227,7 +227,7 @@ There's also a few bots -- I'm trying to not say bots; a few apps...
 
 **Brandon Keepers:** \[laughs\] I know; it's unfortunately named. Naming is hard. \[laughter\] The bot - part of it is just there's a lot of craze about bots. As soon as the technosphere gets excited about something, they're always kind of naturally skeptical. Bots I think are really important, but they're currently in one of those hype cycles, and I wanna make sure that as we come out of that hype cycle, that this doesn't die with that. Because I think it's more to it than just bots. It's more about building applications and utilities that extend the tools and platforms that we use.
 
-**Jerod Santo:** Right. And apps have already been through their hype cycle, back in '08... \[unintelligible 00:41:53.08\]
+**Jerod Santo:** Right. And apps have already been through their hype cycle, back in '08, or '09...
 
 **Brandon Keepers:** Now it's just practical...
 
@@ -279,7 +279,7 @@ GitHub's API is pretty intense, so you'll get a lot of information about that is
 
 **Jerod Santo:** It sounds so easy. Anything to add, Brandon?
 
-**Brandon Keepers:** No, Bex covered it. It basically tries to abstract all the details about building an app that are not unique to the app that you build, so you get \[unintelligible 00:51:36.03\] for the events, you have an authenticated GitHub client and then you can start making use of any of the API's available on GitHub.
+**Brandon Keepers:** No, Bex covered it. It basically tries to abstract all the details about building an app that are not unique to the app that you're trying to build, so you get... listen for the events, you have an authenticated GitHub client and then you can start making use of any of the API's available on GitHub.
 
 **Jerod Santo:** So it probably would be exhaustive to go through all of the events and stuff, but maybe if there's -- and of course, there's documentation now, so go read that, but is there anything that's glaringly missing? Like, "Oh, I wanna build this", but you guys have already thought of that and you can't do it because of reason X, Y or Z?
 
@@ -287,7 +287,7 @@ GitHub's API is pretty intense, so you'll get a lot of information about that is
 
 **Brandon Keepers:** Yeah, I believe so. To kind of expand on that, so GitHub apps was one of the first major features that was launched as a preview feature. It was launched last year at Universe, and the idea was to get it out in front of people so that they can start using it and building on it, and keep iterating on it.
 
-The result of that is actually that there's still some things that are in progress, one of that being some APIs still aren't set up to work with GitHub apps, but hopefully -- the platform senior was working really hard on that, so hopefully that won't be the case soon... Every API should be available, that's \[unintelligible 00:53:00.22\]
+The result of that is actually that there's still some things that are in progress, one of that being some APIs still aren't set up to work with GitHub apps, but hopefully -- the platform team was working really hard on that, so hopefully that won't be the case soon... Every API should be available, that's available now...
 
 **Jerod Santo:** Cool. So the next step, let's talk about use cases that don't exist, and maybe you all could just throw out some ideas. You've probably had more than we have in terms of thinking about a thing but not actually building the app for reasons. We have some apps that exist; are there apps that -- I mean, there obviously are apps that don't exist, but what are some things that you've thought of that you just haven't had time to build yet, or you'd love for somebody to be inspired and go build a Probot app?
 
@@ -297,7 +297,7 @@ So for reminders, I want those in GitHub, sort of introducing basically a couple
 
 There's the Linter -- Bex, do you wanna talk about that? You've probably worked on it more than I have at this point.
 
-**Bex Warner:** Yeah, Linter is my current little pet Probot I'm trying to get working. Basically, the goal of that one is to - whenever you push up a commit that \[unintelligible 00:55:12.15\] Right now it's just implemented for Javascript, because that's what Probot's in, so it's the easiest - and then it would automatically push up a follow-up commit linting your code for you, for any linting things you might have missed. So it's basically just taking the hassle out of having to read through a CI log telling you you don't have the semicolon 20 lines down.
+**Bex Warner:** Yeah, Linter is my current little pet Probot I'm trying to get working. Basically, the goal of that one is to - whenever you push up a commit that's using... Right now it's just implemented for Javascript, because that's what Probot's in, so it's the easiest - and then it would automatically push up a follow-up commit linting your code for you, for any linting things you might have missed. So it's basically just taking the hassle out of having to read through a CI log telling you you don't have the semicolon 20 lines down.
 
 **Adam Stacoviak:** Brandon, when you were saying what you said about the slash commands and things like that, it kind of made me feel like, since you said this is designed to help you add features to GitHub, it almost made me feel like the reminders idea could be similar to how a browser extension will recognize that you're on X, Y, Z site, for example Hacker News, where it'll say "buffer this" or "do something somewhere else" where it actually adds interface. So in the soundbar, rather than just a slash command, you might actually have a brand new piece of interface because you have this app installed... And the interface, maybe it's a standard way GitHub has interface. You can maybe add things to the sidebar, or add meta data to issues... Just different things like add things to GitHub that aren't GitHub, and maybe store that data somewhere - I'm not even sure how, but this seems to open the door to allow you to make GitHub your own. Is that what you're thinking?
 
@@ -315,9 +315,9 @@ Another example of this is that DCO app that Bex mentioned; we've been trying to
 
 And the status checks are really great in GitHub, except that they don't give you a spot to actually then help users resolve those errors. If your CI fails, like you click through the link and then \[unintelligible 00:58:03.29\] your CI system has the error log. So it's a really interesting thing about like "How can we bring those back into GitHub?"
 
-We're experimenting with a lot of those patterns, storing metadata on issues, slash commands, just \[unintelligible 00:58:22.09\] the results of checks, like CI or DCO...
+We're experimenting with a lot of those patterns, storing metadata on issues, slash commands, displaying the results of checks, like CI or DCO...
 
-**Adam Stacoviak:** This is very much \[unintelligible 00:58:27.29\] "It's out there, it's available, however it's early in its days", so a lot of innovation, a lot of change could be potentially expected, because you're sort of in this "How should it work? How could it work? What does the community really want, what does the community really need?" and even down to "How is it hosted?" Because you've got one, which is hosted apps (that you do) in a .github directory inside of your repository, or the opposite, which is hosting externally - Heroku, Glitch... However, it seems like you're still in the very -- it's a cake being baked. It's ready for usage, but maybe not full-on consumption.
+**Adam Stacoviak:** This is very much in the skunkworks, slash, "It's out there, it's available, however it's early in its days", so a lot of innovation, a lot of change could be potentially expected, because you're sort of in this "How should it work? How could it work? What does the community really want, what does the community really need?" and even down to "How is it hosted?" Because you've got one, which is hosted apps (that you do) in a .github directory inside of your repository, or the opposite, which is hosting externally - Heroku, Glitch... However, it seems like you're still in the very -- it's a cake being baked. It's ready for usage, but maybe not full-on consumption.
 
 **Brandon Keepers:** Yeah. I think one of the things we were trying to do with all that there was recognize at least the abstractions early on and pull those out, so that apps aren't having to -- actually, I think the config one would be a good example... Can you talk about that, Bex?
 
@@ -395,7 +395,7 @@ But it's a pretty simple process. Either me or Brandon will probably reply to an
 
 **Brandon Keepers:** The ones that are listed now are all hosted. We're still undecided if we want to -- in the back of my mind I've always had like, we'll feature the ones that are like one-click install, and then if there's other ones, anything else where you have to run it yourself, it requires a little more digging... But that's a hard chicken and egg problem for some of these apps that kind of getting traction. So I think we'll probably just exercise a little bit of editorial around -- you know, there's a couple apps... There's one that does duplicate issue detection, as an example; so you open a new issue, and it will search for other issues that look like that and then comment "Hey, were you looking for this other one?" Something like that to me seems really useful, and I would love to just see a version out there, but it basically just needs a little bit more work to improve the algorithm.
 
-**Adam Stacoviak:** \[01:08:00.11\] What's nice too is that you're actually linking up repository directories; the work in progress, for example, is \[unintelligible 01:08:05.20\] and seems to be not a githubber, from Hoodie, but the person - or persons, or community that are involved in that repository or that app get some credit when they get their app listed. Credit where credit's due, right?
+**Adam Stacoviak:** \[01:08:00.11\] What's nice too is that you're actually linking up repository directories; the work in progress, for example, is... Internet's slow... it's from Gregor, and seems to be not a githubber, from Hoodie, but the person - or persons, or community that are involved in that repository or that app get some credit when they get their app listed. Credit where credit's due, right?
 
 **Bex Warner:** Yeah. And we've also talked about adding more community content style features, adding better ways to give credit to people who are contributing to apps, but maybe not the main creator. We were also considering talking about adding a blog and featuring a different app every month and just having sort of community content, as Probot hopefully grows, to basically be able to give people credit where credit is due.
 

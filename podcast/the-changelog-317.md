@@ -72,7 +72,7 @@ At Hacktoberfest, the added aspect to that is now it's the fifth year... It's ki
 
 **Daniel Zaltsman:** Exactly, yeah.
 
-**Jerod Santo:** So as Adam was talking about at the beginning of the show, I kind of accidentally got a Hacktoberfest shirt; I think 2016. It wasn't accidental, I just didn't think that my commits were gonna add up, or something... I did know what Hacktoberfest was and what was going on, but when the shirt came in the mail, it was -- or maybe when the e-mail came; I don't know, I can't remember the logistics, but I was pleasantly surprised, and I still wear it with pride.
+**Jerod Santo:** So as Adam was talking about at the beginning of the show, I kind of accidentally got a Hacktoberfest shirt; I think 2016. It wasn't accidental, I just didn't think that my commits were gonna add up, or something... I did know what Hacktoberfest was and what was going on, but when the shirt came in the mail, it was -- or maybe when the email came; I don't know, I can't remember the logistics, but I was pleasantly surprised, and I still wear it with pride.
 
 Maybe how it works, maybe how it's changed... Has it been exactly 50 commits to any open source repo, and that's how it's always worked? Maybe just some of the details on the actual program... Because I know right now what we're all thinking is "Okay, how do I get one of these stinkin' shirts? I want one."
 
@@ -116,7 +116,7 @@ I think that when the community has values and principles guided by that communi
 
 **Jerod Santo:** Yeah, exactly.
 
-**Daniel Zaltsman:** That's why we make the rules really simple, and kind of paste them all -- they're all over the place... They're in the confirmation e-mail, they're on the website... That's really front and center. At the same time, the usual "People don't read the instructions", and "Send us an e-mail and ask us what's going on..." But you know, there's just certain ways that the community operates that you guys have even shared from your personal experiences that we're not gonna change, and we're just gonna have to embrace.
+**Daniel Zaltsman:** That's why we make the rules really simple, and kind of paste them all -- they're all over the place... They're in the confirmation email, they're on the website... That's really front and center. At the same time, the usual "People don't read the instructions", and "Send us an email and ask us what's going on..." But you know, there's just certain ways that the community operates that you guys have even shared from your personal experiences that we're not gonna change, and we're just gonna have to embrace.
 
 **Jerod Santo:** Well, it's funny that I mentioned that, because quick shout out to beardicus who's a member of the Changelog community Slack, Brian Boucheron, who works for ya'll as a technical writer. He was talking about Hacktoberfest in our Slack recently, and even in there I started asking him specific rules, like "Okay, so if I commit to my own open source repository, but I open a pull request for myself, does that count?" Just trying to figure out where are the edges of this system... And we had a fun time discussing what does or does not count, so I can see where -- as developers, that tendency of being like "Where are the boundaries of this, technically, and how exactly can I poke it in the right way?" It definitely happens unfortunately, and that means you are gonna send a T-shirt to somebody who might not have earned it, so... That's the give and take.
 
