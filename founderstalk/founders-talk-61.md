@@ -366,7 +366,7 @@ When I read that, it reminded me that, hey, when I looked up on LinkedIn, you've
 
 **Isaac Schlueter:** Probably about right, yeah. This is another interesting thing as a founder - and not as a CEO, I should say - we're just now at the point where this last batch of people that we've hired a couple months ago was the first time somebody showed up in Slack that I had never met... And it was just like "Oh, who are you? You work here? Huh, that's novel... I was not a part of your hiring process. How did this happen?" I kind of had this weird, like, "There's a stranger in my house" kind of feeling at first, the first couple times it happened.
 
-**Adam Stacoviak:** Right, and have to \[unintelligible 01:05:05.07\] in the refrigerator.
+**Adam Stacoviak:** Right, and have to trust them in the refrigerator.
 
 **Isaac Schlueter:** Right. I've gotten used to it now. I try to set up meet and greet chats with everybody, with all of our new employees, every so often... But yeah, we are growing really quickly, we have just a team that's exploding. We've built out a whole new executive leadership team, added a head of sales, head of community marketing, a COO, you name it.. We're gonna be talking more about those individuals over the next couple months probably, making some noise about them... And our main number one focus right now is just kind of getting to this GA launch of Npm Enterprise, which should be right around the corner here, a couple months.
 
