@@ -146,7 +146,7 @@
 
 **Jerod Santo:** Where people always do the worst thing... The dainty person who's like "I'm gonna go check what's in the garage..." It's like, "You're tiny. There's a killer loose..." "I'm just gonna check what's in the garage" because you heard noise?
 
-**Adam Stacoviak:** That's right... Like, "Come on, get \[unintelligible 00:05:38.09\]"
+**Adam Stacoviak:** That's right... Like, "Come on, get some..."
 
 **Jerod Santo:** It's like "Don't do that. Don't go check in the garage."
 
@@ -158,7 +158,7 @@
 
 **Jerod Santo:** What does that have to do with anything?
 
-**Adam Stacoviak:** Spud MacKenzie. \[unintelligible 00:05:48.06\]
+**Adam Stacoviak:** Spud MacKenzie. 
 
 **Jerod Santo:** Oh, the Budweiser backseat. So back in the late '90s, maybe 2000's, Sports Center was the number one show for sports fans.
 
@@ -242,7 +242,7 @@
 
 **Jerod Santo:** What does that mean?
 
-**Adam Stacoviak:** If you're on a trail and you're \[unintelligible 00:09:15.29\] and you come up to this jump, and you hit that jump right and you launch off that thing and you totally clear it, that's called sending it.
+**Adam Stacoviak:** If you're on a trail and you're shredding and you come up to this jump, and you hit that jump right and you launch off that thing and you totally clear it, that's called sending it.
 
 **Jerod Santo:** Do people tell you to send it?
 
@@ -538,9 +538,9 @@ We had a couple of people talking to us about bio -- biotech? I don't know; what
 
 **Jerod Santo:** I had no doubt that he's interesting.
 
-**Adam Stacoviak:** I'd hate to see some bad news come out about him, because he's pretty cool. And I think he's an idol to a lot, in good ways, and a model to many, on like \[unintelligible 00:25:13.03\]
+**Adam Stacoviak:** I'd hate to see some bad news come out about him, because he's pretty cool. And I think he's an idol to a lot, in good ways, and a model to many, on like just being committed to yourself.
 
-**Jerod Santo:** \[unintelligible 00:25:14.22\]
+**Jerod Santo:** Die a hero.
 
 **Adam Stacoviak:** Yeah. Or live long enough to...
 
