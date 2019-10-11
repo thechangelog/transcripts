@@ -1483,6 +1483,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "danmcclain",
+      "name": "Dan McClain",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/144138?v=4",
+      "profile": "http://danmcclain.net",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
