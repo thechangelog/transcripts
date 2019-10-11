@@ -38,7 +38,7 @@ So yeah, based on that inspiration, I -- it follows kind of a similar architectu
 
 **Nick Nisi:** I don't know much about Qt, but does that have a browser component in it then, that you're building around? Or is it more translating to native components within Qt?
 
-**Atul R:** Yeah, so Qt is basically a cross-platform C++ framework, so it renders all your widgets on the native code. For example, on the operating system OS X it would render something with \[unintelligible 00:07:51.16\] framework... Things like that. But it also has a web browser engine, which I'm not using right now. But I will have a Web View component soon on NodeGUI itself.
+**Atul R:** Yeah, so Qt is basically a cross-platform C++ framework, so it renders all your widgets on the native code. For example, on the operating system OS X it would render something with Cocoa framework... Things like that. But it also has a web browser engine, which I'm not using right now. But I will have a Web View component soon on NodeGUI itself.
 
 \[00:08:04.15\] Currently, what it does is something like what React Native does - it runs the Javascript code, but in the end it makes native calls to the native APIs to generate native widgets on the fly.
 
@@ -64,7 +64,7 @@ So yeah, based on that inspiration, I -- it follows kind of a similar architectu
 
 **Jerod Santo:** I mentioned there's two projects here, worth making the distinction, because you've made the distinction in your repos, and I think in the way that you built it out... You have NodeGUI itself, and then you have NodeGUI-React. Tell us about that distinction and the React story here.
 
-**Nick Nisi:** Yeah. So NodeGUI is basically a pure Javascript version. It does not use any other -- it's basically like writing document.createElement() in the web world, where you could just create a particular div, or things like that. But React NodeGUI is kind of a React renderer, something similar to what React Native is. You can write all the widgets as components, and then share state, or \[unintelligible 00:09:57.15\] and everything. So it's a direct translation from NodeGUI, the syntax, to React syntax, and that allows a lot of flexibility, like managing states, and things like what React provides out of the box.
+**Nick Nisi:** Yeah. So NodeGUI is basically a pure Javascript version. It does not use any other -- it's basically like writing document.createElement() in the web world, where you could just create a particular div, or things like that. But React NodeGUI is kind of a React renderer, something similar to what React Native is. You can write all the widgets as components, and then share state, or pass down props and everything. So it's a direct translation from NodeGUI, the syntax, to React syntax, and that allows a lot of flexibility, like managing states, and things like what React provides out of the box.
 
 And why I chose React is basically I am mostly familiar with React, but there is also an Angular port coming out by another colleague of mine. He is working on an Angular port as we speak.
 
@@ -74,9 +74,9 @@ And why I chose React is basically I am mostly familiar with React, but there is
 
 **Nick Nisi:** You mentioned one of the main reasons that you set off on this quest was because of the performance issues with Electron, and specifically being v8-based under that... What other insights have you seen since creating this, over something like Electron or React Native?
 
-**Atul R:** \[00:11:37.04\] When I set out to build this, initially I thought it would be kind of simple; I could just export out Qt's widgets outside and make a Node.js native add-on... But it wasn't simple, because every GUI system has its own message loop or event loop, and Node.js has its own event loop. So if you want two loops to work in a single thread, it's kind of impossible... So in order to merge them into a single loop, that's where Electron's architecture came into play. I basically followed what Electron does under the hood \[unintelligible 00:12:11.21\] Chormium's even loop and the Node.js event loop together to form a single event loop that works for both. Similarly, NodeGUI merges both Node.js and Qt's event loop to form a unified thing.
+**Atul R:** \[00:11:37.04\] When I set out to build this, initially I thought it would be kind of simple; I could just export out Qt's widgets outside and make a Node.js native add-on... But it wasn't simple, because every GUI system has its own message loop or event loop, and Node.js has its own event loop. So if you want two loops to work in a single thread, it's kind of impossible... So in order to merge them into a single loop, that's where Electron's architecture came into play. I basically followed what Electron does under the hood, they merge Chormium's event loop and the Node.js event loop together to form a single event loop that works for both. Similarly, NodeGUI merges both Node.js and Qt's event loop to form a unified thing.
 
-The best part of this is in most cases when the application is not in use, you would actually see a 0% CPU use with the applications that you build with NodeGUI, which is a super-plus, because it saves a lot of battery on laptops and everything. Other than that, for a simple Hello World app it will be around 20 MB or RAM, and there's only one thread running. So \[unintelligible 00:12:47.02\] like in the case of Electron or Chromium or Chrome, right? it's just one thread, one application running, with 20 MB of RAM, and a 0% or 1%-2% of CPU.
+The best part of this is in most cases when the application is not in use, you would actually see a 0% CPU use with the applications that you build with NodeGUI, which is a super-plus, because it saves a lot of battery on laptops and everything. Other than that, for a simple Hello World app it will be around 20 MB of RAM, and there's only one thread running. So you don't see a helper thread running, like in the case of Electron or Chromium or Chrome, right? it's just one thread, one application running, with 20 MB of RAM, and a 0% or 1%-2% of CPU.
 
 **Jerod Santo:** Sounds pretty nice to me. What about the developer experience in somebody who's familiar with Electron, or maybe already has an app on Electron? Is there any familiarity? Is there a path to porting, or is this just like "If you're starting fresh, try this", because they're different in terms of use?
 
@@ -98,7 +98,7 @@ Secondly, one of the most important things I felt was that in the case of React 
 
 **Atul R:** Yeah, so you would need to write a bit of native code if you wanna export out native functionalities... But the end user would always use the Javascript counterpart, which is what React Native also does, in the end, right? All the native plugins you write in either Java, or iOS code, and then you export it out to Javascript.
 
-Yeah, so that was one of the primary focus this time, this week. And one of the more interesting features are event support - so all the events that Qt supports are now exported out. Node.js support something \[unintelligible 00:18:29.00\] event emitter, so I just send all the events from the Qt world or the native desktop world to the event emitter, and the event emitter converts it to Javascript events. That way you have access to an entire event system, and all the style sheets that are provided by Qt; even Flexbox layering is supported.
+Yeah, so that was one of the primary focus this time, this week. And one of the more interesting features are event support - so all the events that Qt supports are now exported out. Node.js support something called EventEmitter, so I just send all the events from the Qt world or the native desktop world to the event emitter, and the event emitter converts it to Javascript events. That way you have access to an entire event system, and all the style sheets that are provided by Qt; even Flexbox layering is supported.
 
 React Native also uses something called Yoga, which is a layouting library; it allows you to do layouts based on Flexbox, things like line items, or justified content, or something like that... So now you can do that with NodeGUI also.
 
@@ -128,13 +128,13 @@ React Native also uses something called Yoga, which is a layouting library; it a
 
 **Nick Nisi:** What's the debugging story like, and how does it compare to something like React Native?
 
-**Atul R:** The debugging story is pretty similar to what you are used to in Node.js. You could set up breakpoints and everything by just calling it with --inspect on the Javascript side. But even on the C++ side you have some part of debugging, because C++ \[00:23:57.20\] as GDB. So even in VS Code you have GDB plugins which you can just plug in and you can debug your actual C++ code inside of NodeGUI, while you're working on it... If you want to do it, that is; otherwise, you could always inspect on the Javascript side by using regular Node debugging tools, like Node Inspector, or things like that.
+**Atul R:** The debugging story is pretty similar to what you are used to in Node.js. You could set up breakpoints and everything by just calling it with --inspect on the Javascript side. But even on the C++ side you have some part of debugging, because C++ supports something called as GDB. So even in VS Code you have GDB plugins which you can just plug in and you can debug your actual C++ code inside of NodeGUI, while you're working on it... If you want to do it, that is; otherwise, you could always inspect on the Javascript side by using regular Node debugging tools, like Node Inspector, or things like that.
 
 **Nick Nisi:** \[00:24:18.28\] Yeah, nice.
 
 **Atul R:** So you can just think of NodeGUI as a Node.js add-on that can exchange into Node.js, so that way you could use all the tools that Node.js supports for debugging.
 
-**Jerod Santo:** What about if you take off the \[unintelligible 00:24:30.28\] Can you just use all Node.js compatible packages, like anything on Npm that runs on Node is gonna run here, or are there any gotchas?
+**Jerod Santo:** What about if you take off the... for debugging, can you just use all Node.js compatible packages, like anything on Npm that runs on Node is gonna run here, or are there any gotchas?
 
 **Atul R:** Yeah, so anything that runs on Node.js can run on this pretty seamlessly. Even the native plugins, with something like a SaaS or things like that, if you wanna run, you could run it... If they have those C++ add-ons, they will run properly on this.
 
@@ -158,11 +158,11 @@ But yeah, there is a pretty good list of widgets already, which should be useful
 
 **Nick Nisi:** \[00:28:07.18\] Is the focus primarily right now on windowed applications? Is there any availability or future plans to support things like -- I'm thinking on Mac, like a menu bar, or more advanced things like...
 
-**Atul R:** Yeah. Like a service, right? Something like a Docker service. It is being currently worked on. We do have support for system tray icons that you see, but obviously the services part is not yet ready. You could basically create a system \[unintelligible 00:28:30.26\] right now, but the manual part is being worked on, and should be out soon. I'm not making any big promises, but yeah, that is basically on the roadmap.
+**Atul R:** Yeah. Like a service, right? Something like a Docker service. It is being currently worked on. We do have support for system tray icons that you see, but obviously the services part is not yet ready. You could basically create a system tray icon right now, but the menu part is being worked on, and should be out soon. I'm not making any big promises, but yeah, that is basically on the roadmap.
 
-The reason is I have to build a music player in the end, and the music player cannot \[unintelligible 00:28:44.02\] \[laughter\]
+The reason is I have to build a music player in the end, and the music player cannot stay undone \[laughter\] it needs to happen.
 
-**Jerod Santo:** I'm super-excited about this music player. Or maybe also consider a podcast integration \[unintelligible 00:28:52.19\] under the table.
+**Jerod Santo:** I'm super-excited about this music player. Or maybe also consider a podcast integration, a little something under the table.
 
 I have a question regarding that... Or maybe it's not regarding that, but somewhat related - big features down the road, things that it's missing, things that you wanna add... So far you mostly said "I" and "me", and a few collaborators... I remember early on when Vue.js first hit the scene, we were interviewing Evan You and I said "React has the establishment behind it, and Vue is basically you, Evan..." Obviously, he's overcome that roadblock, but when you're going to use a cross-platform framework - the framework is a big dependency, right?
 
@@ -186,11 +186,11 @@ The main focus here is on Linux, and I use Linux personally for as a desktop pla
 
 \[00:32:09.15\] That being said, it's awesome to see a lead dev who is on Linux, because usually that's the reason why it would not get the attention that it deserves, and oftentimes it's just like "Well, what OS does the lead developer run?" and that's basically the one that's gonna get the most love, so... It's nice to see you on Linux.
 
-**Atul R:** I think it's highly underrated. If you're gonna just jump in, you could like it as much as you like OS X. We just won't get a shiny application set that you get with OS X, but yeah... \[laughs\] \[unintelligible 00:32:36.07\]
+**Atul R:** I think it's highly underrated. If you're gonna just jump in, you could like it as much as you like OS X. We just won't get a shiny application set that you get with OS X, but yeah... \[laughs\] I would change that with NodeGUI, let's see.
 
 **Nick Nisi:** So what are some of the biggest challenges that you have in the near and long-term?
 
-**Atul R:** The primary challenges are on exporting the documentation part. I am actively trying to build out a system that auto-generates the documentation, but I feel that auto-generated documentations are not really helpful and are not really user-friendly... So I really love to write my own documentation. That way it's more personal, and people feel like you could actually read it, basically. That's one of the major challenges, since I would say documentation \[unintelligible 00:33:15.02\] for the future... Because the application moves forward, but the documentation stays older; I wanna improve that also... But let's see how that goes on. If anyone has any ideas, feel free to come on GitHub and open an issue and let's discuss that.
+**Atul R:** The primary challenges are on exporting the documentation part. I am actively trying to build out a system that auto-generates the documentation, but I feel that auto-generated documentations are not really helpful and are not really user-friendly... So I really love to write my own documentation. That way it's more personal, and people feel like you could actually read it, basically. That's one of the major challenges, since I would say documentation is live for the future... Because the application moves forward, but the documentation stays older; I wanna improve that also... But let's see how that goes on. If anyone has any ideas, feel free to come on GitHub and open an issue and let's discuss that.
 
 **Nick Nisi:** I love the focus on documentation, because that's in the recipe to make this a huge success. And you're focused on it.
 
