@@ -194,7 +194,7 @@ With the big events there are parties, but they're always run by companies, and 
 
 I had also gone to some sort of unconferences, and that was the beginning of the unconference trend... Which is no talks, just discussions with people. And I'd had some really good experiences with a few of those, but they're also very hit and miss... So I was interested in what made some hit, and not others... And I was generally doing a lot of just sort of community-oriented stuff at the time.
 
-Then I ran an event in 2009 for CouchDB called CouchCamp. I worked for that company at the time, so it was just sort of like on the company credit card. But I ran that event, and we ran it Walker Creek Ranch, which is this summer camp run by \[unintelligible 00:29:40.03\] and... It was phenomenal. It was the best time ever; everybody had a really good time. That got back to the organizer of JSConf, and I had been thinking about doing something for Node, an event for Node, but I didn't actually know how to run an event without my corporate card to book everything on... So Chris kind of helped me out.
+Then I ran an event in 2009 for CouchDB called CouchCamp. I worked for that company at the time, so it was just sort of like on the company credit card. But I ran that event, and we ran it Walker Creek Ranch, which is this summer camp run by Marin County Schools and... It was phenomenal. It was the best time ever; everybody had a really good time. That got back to the organizer of JSConf, and I had been thinking about doing something for Node, an event for Node, but I didn't actually know how to run an event without my corporate card to book everything on... So Chris kind of helped me out.
 
 What that turned into was that Chris took me and a lot of other people and set us all up to run events, and then we in turn helped set up a lot of the people that run events. And the fact that Javascript has this landscape of all of these tiny events that are really community-oriented is really because of the work that Chris did... Not just in running a great event, but then also in bringing up all of these organizers and making us all feel like we also owed him a little bit in that, and we should do that for others as well.
 
@@ -332,7 +332,7 @@ Another thing that I have started to do is any time I'm attending a talk, I actu
 
 **Jerod Santo:** Those are absolutely good things. What about those who wanna speak, but haven't had success at all even being selected to speak? Because you can't just walk up on stage and start talking... Or I guess you could, but you might get thrown out. As I mentioned before, a lot more people are speaking now, there's a lot more events, but there's just a lot more people submitting talks. I know at NEJS Conf, over our five years, we had more and more submissions every single year, and I don't think that was necessarily an effect of the conference; maybe a little bit, just because you get more established, but mostly I think there's just more people submitting.
 
-So how can you stand out from the crowd in that regard? Because it's hard to speak, but it's also hard to get selected to speak, and there's probably some people out there who submitted their CFPs, and they've been on \[unintelligible 00:53:08.28\] or the different websites, and they just aren't' getting picked. That can definitely wear you down as well. Thoughts on how to get a talk that's gonna get selected, so you can be a speaker?
+So how can you stand out from the crowd in that regard? Because it's hard to speak, but it's also hard to get selected to speak, and there's probably some people out there who submitted their CFPs, and they've been on PaperCall or the different websites, and they just aren't' getting picked. That can definitely wear you down as well. Thoughts on how to get a talk that's gonna get selected, so you can be a speaker?
 
 **Nick Nisi:** I think that one big thing is to try and tailor the CFP to the conference that you're submitting to. It's much like a resume, in that regard. If you just have a generic resume and you're sending that off to a bunch of different companies, it can be effectively the same. But if it has tweaks that are specific to what that company is looking for, or what that conference is looking for, then it has a higher chance of sticking out, because it's more authentic and it helps to better align with the conference's goals. And that said, make sure that you understand the conference's goals; go look at their website, go look at what they're really looking for in the CFP process, and make sure that the talk that you're submitting meets those needs. Because if it doesn't, then you're probably not gonna get selected.
 
@@ -344,7 +344,7 @@ So how can you stand out from the crowd in that regard? Because it's hard to spe
 
 **Nick Nisi:** That's true. \[laughter\]
 
-**Jerod Santo:** And at the zoo -- so we hosted our first and our last conferences at the world-famous Omaha Henry Doorly Zoo. Better than the San Diego Zoo, just to mention that, Kball... And the zoo thought we were a Java event, so they \[unintelligible 00:54:39.18\] a few different places. It was well-intended.
+**Jerod Santo:** And at the zoo -- so we hosted our first and our last conferences at the world-famous Omaha Henry Doorly Zoo. Better than the San Diego Zoo, just to mention that, Kball... And the zoo thought we were a Java event, so they plastered that a few different places. It was well-intended.
 
 **Kevin Ball:** I will say, on the zoo front - I've met somebody who's randomly from Nebraska, and they were so impressed that I knew about the zoo.
 
@@ -354,7 +354,7 @@ So how can you stand out from the crowd in that regard? Because it's hard to spe
 
 **Jerod Santo:** \[laughs\] JS Party, come for the Javascript, stay for the zoo debates, which are heated...!
 
-**Mikeal Rogers:** I wanna see a talk at an event just about this zoo. \[laughter\] I love talks that are not about technical things at technical conferences. \[unintelligible 00:55:16.00\] at one of the JS conferences.
+**Mikeal Rogers:** I wanna see a talk at an event just about this zoo. \[laughter\] I love talks that are not about technical things at technical conferences. Aaron Quint gave an amazing talk on making bacon at one of the JS conferences.
 
 **Jerod Santo:** I think I remember that.
 
@@ -374,7 +374,7 @@ So how can you stand out from the crowd in that regard? Because it's hard to spe
 
 Evan Yu is giving a talk about Vue. If it was just a talk about Vue, but given by Evan, that's obvious if you see Evan's name there. But if Evan's name is not there, then it really needs to be about why it was created, and some of the ideas behind that, and how that affects how people use it. If you didn't create it and you're using it in a unique way, you need to tell the story of why that makes it interesting for you to give that talk... Especially if you're talking about any kind of technology that's relatively popular. If you do a Javascript event right now, you're gonna get dozens of talks about Vue and React, and they're gonna have to look through those and figure out which ones are the most interesting to their audience. The talk about Vue.js but in enterprise is just not gonna do it most of the time. That on its own is not enough.
 
-For me, when I'm reviewing talks, I find it really important to see a narrative in the talk. Some kind of perspective that's coming through. I don't care as much at all about the exact details, every bullet point, and the flow, and everything. I just wanna know what that story is, and if that perspective is something that I feel like needs to \[unintelligible 00:57:50.11\]
+For me, when I'm reviewing talks, I find it really important to see a narrative in the talk. Some kind of perspective that's coming through. I don't care as much at all about the exact details, every bullet point, and the flow, and everything. I just wanna know what that story is, and if that perspective is something that I feel like needs to be at the event.
 
 **Jerod Santo:** I would agree with that. I look for thoughtfulness in the actual description. It doesn't mean it has to be long, or it doesn't have to be thorough with regards to, like you said, Mikeal, "This is how the talk is going to go." But I can tell if somebody has put thought into effectively what is a pitch, an idea for a talk... And then of course, don't -- not necessarily don't, but if you're going to do a talk about a popular technology such as a React X, Y or Z talk, know that you're gonna be facing against 17 other React talks. You're basically lumping yourself into a competition, and now you must stand out from that crowd somehow. So if you're going to do that - maybe you have an amazing talk about that - that's fine, submit it. But make sure that you stand out, and it's not (like Mikeal said) Vue for enterprise; it's not gonna catch the eye, unless this is Vue for Enterprise Conf.
 
