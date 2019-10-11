@@ -86,11 +86,11 @@ The first person joining us is Roberto Clapis. Hello, Roberto.
 
 **Mat Ryer:** \[00:08:08.21\] That's interesting. So there's an interesting lesson in that anyway then... Because I always drive towards simplicity for the sake of the fact that it's easier to maintain, and easier to work with... But of course, it's also more secure just naturally if it's simpler.
 
-**Filippo Valsorda:** Absolutely, yes. The parts of the standard library where we had the most issues have always been the ones that have the most complexity for necessity, like the HTTP stack, the TLS stack, the whole \[unintelligible 00:08:37.28\] But some of the reasons we don't have nearly as many security issues as large toolkits like OpenSSL or TLS stack is that we implement maybe 10% of the standards. We implement what's needed to make it work, to be as useful as it needs to be to get the job done... But then it's so many fewer lines of code that it's easier to audit, it's easier to reason about, it's easier to review in code reviews, and it simply doesn't have as much emergent behavior.
+**Filippo Valsorda:** Absolutely, yes. The parts of the standard library where we had the most issues have always been the ones that have the most complexity for necessity, like the HTTP stack, the TLS stack, the whole Go tool. But some of the reasons we don't have nearly as many security issues as large toolkits like OpenSSL or TLS stack is that we implement maybe 10% of the standards. We implement what's needed to make it work, to be as useful as it needs to be to get the job done... But then it's so many fewer lines of code that it's easier to audit, it's easier to reason about, it's easier to review in code reviews, and it simply doesn't have as much emergent behavior.
 
 A lot of the job of the security researcher is to understand the system better than who wrote it, and find behaviors that emerged from the complex combination of different parts of the system.
 
-**Roberto Clapis:** If I might add one thing that I really love about Go, it's that we have some ideas in the security teams that if your code compiles, it should be secure. The Go type system really helps in that sense, even if we don't just consider the standard library, which is pretty good on this matter... When you write your own libraries, you can design your APIs in a way so that -- for example, let's say we don't want to write raw bytes in an HTTP writer; we can just come up with something that \[unintelligible 00:09:52.14\] and then you're done. If your code compiles, you don't have any kind of nasty injections. Even for the SQL package, it's pretty easy to wrap it with a wrapper that doesn't allow you to pass a string as a constructor for a query, but it must be a constant compile-time string. So you don't export the type that it accepts in the signature, and that means that the only way to satisfy the constraint is to pass in a compile-time constant.
+**Roberto Clapis:** If I might add one thing that I really love about Go, it's that we have some ideas in the security teams that if your code compiles, it should be secure. The Go type system really helps in that sense, even if we don't just consider the standard library, which is pretty good on this matter... When you write your own libraries, you can design your APIs in a way so that -- for example, let's say we don't want to write raw bytes in an HTTP writer; we can just come up with something that accepts a secure writer and the only library that's allowed to construct that thing sanitizes the string that you pass in and then you're done. If your code compiles, you don't have any kind of nasty injections. Even for the SQL package, it's pretty easy to wrap it with a wrapper that doesn't allow you to pass a string as a constructor for a query, but it must be a constant compile-time string. So you don't export the type that it accepts in the signature, and that means that the only way to satisfy the constraint is to pass in a compile-time constant.
 
 **Mat Ryer:** I see. Do you find that's good advice generally then, to have those little abstractions to add extra protection? Is that a sensible thing?
 
@@ -106,7 +106,7 @@ Something I'm a really big fan of is giving absurdly annoying names to unsafe th
 
 **Mat Ryer:** Yeah, genuinely. And I got a SQL error, and I thought "Hang on, that means this probably is susceptible to SQL injections."
 
-**Filippo Valsorda:** Right, and Mat, let me stop you before you \[unintelligible 00:12:23.10\] on record... Come on...! \[laughter\]
+**Filippo Valsorda:** Right, and Mat, let me stop you before you put a [CFFA](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act) violation on record... Come on...! \[laughter\]
 
 **Mat Ryer:** Okay, could you be on all of my calls forever, please? \[laughter\] I could really use that. Yeah, anyway... So I didn't do anything with it, but what you can do is modify the SQL string, essentially. Probably what they were doing was just concatenating strings to build up the SQL query, and that's not great, because if you put a closing quote in, suddenly you're out of whatever the query they were doing, and you're into a whole world of -- you can really do anything.
 
@@ -114,7 +114,7 @@ Something I'm a really big fan of is giving absurdly annoying names to unsafe th
 
 So yeah, that's a problem that has been around since the web started existing, and we haven't solved it yet. Every time someone thinks "Okay, so I'm mixing some kind of data and some kind of code", you should really put a safe type wrapper around it, so that the type system actually helps you. Those are not strings; you are concatenating. Those are inputs and source code. They should have different types.
 
-**Mat Ryer:** So would you do like "type secure string" string, so that it's a new type based on the string? Or would it be a struct, would it be something else completely, an interface?
+**Mat Ryer:** So would you do like `type secure string` string, so that it's a new type based on the string? Or would it be a struct, would it be something else completely, an interface?
 
 **Roberto Clapis:** I would go for an opaque struct, so with an unexported field, and the SQL package that constructs the struct should be called something like "Do not import this package, or else..." Or statically-enforced, "You don't import that package." So the only safe wrappers the SQL package prepares your statements, so you don't get this wrong.
 
@@ -138,7 +138,7 @@ And yes, math/rand is completely predictable of an attacker, while crypto/rand i
 
 **Break:** \[00:16:58.13\]
 
-**Roberto Clapis:** Since I'm passionate about performance, I spent a week trying to optimize a custom-made random generator - math-based, not system call-based - that went fast enough to be faster than a buffered crypto/rand. It's not easy. You need to think a lot to make it faster than crypto/rand, especially if you use a buffered crypto/rand reader. Even if you have the remote suspect that some kind of random could affect your confidentiality integrity or availability in your service, use crypto. It's fast enough.
+**Roberto Clapis:** Since I'm passionate about performance, I spent a week trying to optimize a custom-made random generator - math-based, not syscall-based - that went fast enough to be faster than a buffered crypto/rand. It's not easy. You need to think a lot to make it faster than crypto/rand, especially if you use a buffered crypto/rand reader. Even if you have the remote suspect that some kind of random could affect your confidentiality integrity or availability in your service, use crypto. It's fast enough.
 
 **Johan Brandhorst:** But we mentioned why not always use crypto/rand. I guess you want to use math/rand when you want predictable randomness, right?
 
@@ -150,8 +150,8 @@ And yes, math/rand is completely predictable of an attacker, while crypto/rand i
 
 **Filippo Valsorda:** Yeah. As long as you log the seed, so that then you don't have to run it a million times to reproduce it, yes. Not speaking from experience here, not at all. \[laughter\]
 
-**Roberto Clapis:** Yeah. About that, I wanted to talk about one thing... It was go-fuzz. I don't know how many people know about this, but I actually found that to broadly improve my security and actually the quality of my code -- so for those who don't know about this, go-fuzz is a tool that allows you to compile your code in a different way, and you just have to implement that Fuzz function, that accepts a slice of bytes and returns an integer. If you implement that correctly, go-fuzz adds a lot more value to your tests \[unintelligible 00:21:22.10\] a round of input and tries to explore all your code. So it checks when some code was executed and when not, and just keeps randomizing until it gets a good coverage of your code... And you would be surprised to see how many bugs I found in code that I really trusted, by just going with a simple go-fuzz function. It takes a minute to write.
-
+**Roberto Clapis:** Yeah. About that, I wanted to talk about one thing... It was [go-fuzz](https://github.com/dvyukov/go-fuzz). I don't know how many people know about this, but I actually found that to broadly improve my security and actually the quality of my code -- so for those who don't know about this, go-fuzz is a tool that allows you to compile your code in a different way, and you just have to implement that Fuzz function, that accepts a slice of bytes and returns an integer. If you implement that correctly, go-fuzz adds a lot more value to your tests because it tries pseudo random input and tries to explore all your code. So it checks when some code was executed and when not, and just keeps randomizing until it gets a good coverage of your code... And you would be surprised to see how many bugs I found in code that I really trusted, by just going with a simple go-fuzz function. It takes a minute to write. 
+ 
 **Filippo Valsorda:** Go-fuzz is amazing. The folks at OSS-Fuzz are now running it continuously on some of the standard library fuzzers written by...
 
 **Roberto Clapis:** Dmitry...
@@ -168,7 +168,7 @@ So fuzzing is a way of automatically finding problematic strings or sequences of
 
 \[00:24:01.00\] And it's something that hackers use as well to try and -- a lot of applications that were built back in the day, I guess, will not have necessarily had fuzzing performed on them, and if you have some API that's not write-limited, you can be sure that a hacker is going to be trying to fuzz it and find unexpected behavior, and maybe even something like a remote code execution can come out of it.
 
-**Filippo Valsorda:** Yeah. To give a couple of common examples of fuzzing... For example, the JSON one - we would just take the random string for each fuzzing iteration and pass it to json.decoder, and see whether the decoder did something we didn't expect. And it found a panic, because it does millions and millions and millions of tries, and it learns what things trigger certain code paths. It rewrites the code, just like the Go tool cover, or go test -cover does. That way, it finds a path, as Johan was saying.
+**Filippo Valsorda:** Yeah. To give a couple of common examples of fuzzing... For example, the JSON one - we would just take the random string for each fuzzing iteration and pass it to json.decoder, and see whether the decoder did something we didn't expect. And it found a panic, because it does millions and millions and millions of tries, and it learns what things trigger certain code paths. It rewrites the code, just like the Go tool cover, or `go test -cover` does. That way, it finds a path, as Johan was saying.
 
 Something that really gets me is that - you're right, it used to be something that just hackers would write... And I never truly understood how we got to that point. Would you believe a world in which we said "Yeah, writing unit tests actually is such a good trick. Unfortunately, for some reason, just security researchers write unit tests for their people's software, just to find issues, and then they throw them away once they're done." But fuzzing is like that - security researchers fuzz things, and report issues they find, and then they move on... When instead fuzz tests should be in the same place where unit tests and integration tests are; they should be developed by the application.
 
@@ -176,21 +176,21 @@ Something that really gets me is that - you're right, it used to be something th
 
 **Roberto Clapis:** Yeah. And if there is one more (very short) thing that I might add, it's that every time your fuzzer finds a string that crushes your program, add that to unit tests. Immediately.
 
-**Filippo Valsorda:** Yeah, I was kind of leading here intentionally, because I really want fuzzing to become part of the standard library. There's been progress on that, and I'm trying to think through how that should look like, and finding either time or people interested in working on that... Because it'd be amazing to have just \[unintelligible 00:26:17.22\] that for now takes a byte slice, but maybe can take any types that we can randomize, and then it can just do the thing, just like gotest, and it does benchmarks as well.
+**Filippo Valsorda:** Yeah, I was kind of leading here intentionally, because I really want fuzzing to become part of the standard library. There's been progress on that, and I'm trying to think through how that should look like, and finding either time or people interested in working on that... Because it'd be amazing to have just `func fuzzFoo` that for now takes a byte slice, but maybe can take any types that we can randomize, and then it can just do the thing, just like `go test`, and it does benchmarks as well.
 
 **Mat Ryer:** You mentioned the JSON package, which to me is the perfect use case for fuzzing, because it's literally deserializing strings. But what about if you've just got a function where you're gonna make a greeting and say "Hello, Filippo" and you're just taking the name as a string. Would you even fuzz functions like that?
 
 **Filippo Valsorda:** There's a return of investment here in the amount of effort you put in. Just like you wouldn't write a number of tests for that function, right? You would probably just write one quick test, and then start testing a bunch of edge cases. What does make me think more is functions that do take complex inputs, but not in the form of a byte slice. Those are a hard problem, because how exactly do you randomize those, and how do you keep track of that corpus, and what do you do when there's a new field in the struct? Do you throw away all the corpus? That feels silly. You would just try all the corpus you already have with different values for the new field, but that's extremely hard.
 
-**Roberto Clapis:** Let me throw in some knowledge. A corpus is basically a directory in which you will find all the files and all the inputs that go-fuzz found useful somehow, and that it's going to reuse to generate more input.
+**Roberto Clapis:** Let me throw in some knowledge. A *corpus* is basically a directory in which you will find all the files and all the inputs that go-fuzz found useful somehow, and that it's going to reuse to generate more input.
 
 **Mat Ryer:** Also, it remembers...
 
-**Roberto Clapis:** Yeah, yeah. Or you can interrupt it any time \[unintelligible 00:27:47.21\] One thing that I've found particularly hard to fuzz is web applications. If we go back to \[unintelligible 00:27:55.21\] it's pretty hard to fuzz an application and say "Okay, here there is an XSS", or "Here there is a cross-site request forgery." That is complicated. We are kind of working on it, but we are not there yet... Especially for XSS, because cross-site request forgery can be addressed in a different way, but XSS would be nice to have fuzzing for.
+**Roberto Clapis:** Yeah, yeah. Or you can interrupt it any time and it will resume from where it was. One thing that I've found particularly hard to fuzz is web applications. If we go back to my land it's pretty hard to fuzz an application and say "Okay, here there is an XSS", or "Here there is a cross-site request forgery." That is complicated. We are kind of working on it, but we are not there yet... Especially for XSS, because cross-site request forgery can be addressed in a different way, but XSS would be nice to have fuzzing for.
 
 **Mat Ryer:** \[00:28:23.04\] Yes. Interesting you talk about web, because one of the things that's very attractive about Go is how easy it is to spin up a web server and just HTTP-listen and serve, and if you use the default mocks and all that stuff you get quite a lot of things for free... And it feels like that's kind of enough. But what more is there to do to make sure our servers are secure?
 
-**Roberto Clapis:** If you use the default and you just spin up your web service, you're going to have a list of issues. I think you can run an HTML template, that is fine. But I've seen people logging errors \[unintelligible 00:28:57.11\] That is not good. Or for example if you listen for POST requests or from submission, you're exposed to cross-site request forgery, and Go doesn't warn you about that, because the Go HTTP implementation is an implementation, it's not a framework.
+**Roberto Clapis:** If you use the default and you just spin up your web service, you're going to have a list of issues. I think you can run an HTML template, that is fine. But I've seen people logging errors like fmt.Printf a thing errors to an http.ResponseWriter. That is no good. Or for example if you listen for POST requests or form submission, you're exposed to cross-site request forgery, and Go doesn't warn you about that, because the Go HTTP implementation is an implementation, it's not a framework.
 
 For example, if you have a pprof listener installed on your service, that is going to set up on the default MUX, and you don't want to expose pprof to the internet. So there are many problems in using the defaults of MUX, like keeping connection open; someone can just connect to your service six thousand times and take it down.
 
@@ -198,7 +198,7 @@ For example, if you have a pprof listener installed on your service, that is goi
 
 **Roberto Clapis:** WebSockets.
 
-**Filippo Valsorda:** I mean, \[unintelligible 00:30:00.29\] special case hijacked connections, but still... So when you use the default HTTP server, or the default client, the other party might just keep that connection open forever and you're going to leak a goroutine and a file descriptor, and eventually run out of file descriptors and get paged while you are somewhere off in China, which I'm totally not talking about from experience.
+**Filippo Valsorda:** I mean, we would... special case hijacked connections, but still... So when you use the default HTTP server, or the default client, the other party might just keep that connection open forever and you're going to leak a goroutine and a file descriptor, and eventually run out of file descriptors and get paged while you are somewhere off in China, which I'm totally not talking about from experience.
 
 **Mat Ryer:** \[laughs\] So would you say never use the default bits?
 
@@ -232,11 +232,11 @@ For example, if you have a pprof listener installed on your service, that is goi
 
 **Filippo Valsorda:** Yes, we are. We're doing that server-side. We can't really fix that.
 
-**Roberto Clapis:** For those who don't know about this, content type is when a server sends a response to the client and says "You know what, this is text" or "This is JSON" or "This is a binary blob, and it's important that an attacker cannot control that, or that there is no way that the server is going to say 'Hey, this is HTML. \[unintelligible 00:32:43.12\] plain text?"
+**Roberto Clapis:** For those who don't know about this, content type is when a server sends a response to the client and says "You know what, this is text" or "This is JSON" or "This is a binary blob, and it's important that an attacker cannot control that, or that there is no way that the server is going to say 'Hey, this is HTML' when instead it is plain text.
 
 **Filippo Valsorda:** Yeah. A classic attack there is you upload a picture to a forum that takes picture uploads, but actually it's HTML, and then somebody opens it in their browser and it runs some Javascript, and -- I don't know, now you have a lot of points on that forum.
 
-**Roberto Clapis:** Yeah, and the problem there is that Go tries to guess -- so you know the simplicity you were talking about, Mat, when you said "Yeah, simplicity is nice. You just spin this up and it works." Yes. But the way it works is that it does some work for you that it should really not be doing. One of the things that I do when I write Go web services is to set content type header to plain text, which is text/plain. And the character is set to be UTF-8, and that's it. And I'm sure if I forget to set my content type on my HTML responses, those are not going to render. So I'm secure by default. And then when I serve HTML, I actually reset it to the content type that I know to be HTML.
+**Roberto Clapis:** Yeah, and the problem there is that Go tries to guess -- so you know the simplicity you were talking about, Mat, when you said "Yeah, simplicity is nice. You just spin this up and it works." Yes. But the way it works is that it does some work for you that it should really not be doing. One of the things that I do when I write Go web services is to set content type header to plain text, which is `text/plain`. And the character is set to be UTF-8, and that's it. And I'm sure if I forget to set my content type on my HTML responses, those are not going to render. So I'm secure by default. And then when I serve HTML, I actually reset it to the content type that I know to be HTML.
 
 **Filippo Valsorda:** So that's one point we need to put on the Wiki - always set your content types explicitly.
 
@@ -252,7 +252,7 @@ One of the nice things about using App Engine - which I use almost exclusively -
 
 **Roberto Clapis:** For security one idea that I had -- you know, with the web platform we cannot really deprecate stuff, because the web platform is kind of out there, and if a browser starts breaking websites, people will switch to the other one... So no browsers are going to completely destroy a feature. We need some features to stay there for a while. So the way we go with this is usually some sort of versioning. The service adds a header to tell the browser "I want this security level, and disable any feature that would lower this security level."
 
-\[00:36:22.01\] One thing that I plan to do for the HTML template library that we are already discussing is that when you parse a template, you want it secure. That is going to change your HTML to prevent some vulnerabilities. We cannot make this the default, because that would be a breaking change, but if we add one \[unintelligible 00:36:39.10\] API that is good, and we just need to tell people "Hey, just do .secure and pass it a level from now on", so every time we bump it, we can just bump that level and go ahead. Now, this is very \[unintelligible 00:36:52.01\] we can get some security by default, kind of.
+\[00:36:22.01\] One thing that I plan to do for the HTML template library that we are already discussing is that when you parse a template, you want it secure. That is going to change your HTML to prevent some vulnerabilities. We cannot make this the default, because that would be a breaking change, but if we add one more API that is good, and we just need to tell people "Hey, just do `.secure` and pass it a level from now on", so every time we bump it, we can just bump that level and go ahead. Now, this is very \[unintelligible 00:36:52.01\] but even before Go 2 we can get some security by default, kind of.
 
 **Filippo Valsorda:** Yeah, on one hand it's painful on a very deep level to have to tell people "Oh no, it's because you weren't calling http.secure before making your calls."
 
@@ -336,7 +336,7 @@ Think about a Linux distro. You don't want to repush all the binaries, all toget
 
 **Mat Ryer:** Oh, it's inside it?
 
-**Filippo Valsorda:** Yeah. And a new feature in Go 1.13 is that if you type "go version binary.foo", it will tell you all the build information of the binary you pointed it at. So you can just run goversion Blah and get a list of the Go version, the module versions... And if we had a way to publish structured metadata about what versions of what have what issues, we could have automated systems that look at binaries in your production systems and go like "Wait, wait, wait... That binary is built with a known insecure version of something." The problem is solving what "known insecure" means.
+**Filippo Valsorda:** Yeah. And a new feature in Go 1.13 is that if you type `go version binary.foo`, it will tell you all the build information of the binary you pointed it at. So you can just run `go version bla` and get a list of the Go version, the module versions... And if we had a way to publish structured metadata about what versions of what have what issues, we could have automated systems that look at binaries in your production systems and go like "Wait, wait, wait... That binary is built with a known insecure version of something." The problem is solving what "known insecure" means.
 
 **Roberto Clapis:** Yeah, easy.
 
@@ -440,7 +440,7 @@ Basically, they were causing a clash in security tokens just because they were l
 
 **Mat Ryer:** \[00:52:03.02\] Read the label. Always read the label, yeah.
 
-**Filippo Valsorda:** Of course, sarcasm. But yes... \[laughs\] Crazy stories... I'm bad at these kinds of questions. I can tell you the one that stuck with me the most, because it's (I suspect) how I got into security. There was an IRC bot in the Wikipedia channels on Freenode, back when IRCwas--
+**Filippo Valsorda:** Of course, sarcasm. But yes... \[laughs\] Crazy stories... I'm bad at these kinds of questions. I can tell you the one that stuck with me the most, because it's (I suspect) how I got into security. There was an IRC bot in the Wikipedia channels on Freenode, back when IRC was --
 
 **Roberto Clapis:** Whoa, what year is this?
 
