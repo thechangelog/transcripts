@@ -72,7 +72,7 @@ My grandfather is a math teacher, so he was teaching me --
 
 **Chris Benson:** So as you're growing up through this process, and becoming more and more proficient at mathematics through school and through home life and such, did you retain that passion for the engineering that you had as a child? Did that drive, or did you get more into just the pure mathematical passion that you were discovering?
 
-**Anima Anandkumar:** That's a good point... My mom and dad would take me to different industry meetings, so we'd go to these big trade shows, like GTC but for manufacturing... And I'd be seeing the latest machines, the computerized, numerically-controlled machines. Back then, if you remember, it was the green screen, and it only had some simple programs you could write; in terms of the capabilities, it was like, "Okay, which access do you go? What would be the set of movements \[unintelligible 00:11:24.23\] and which tooling do you use?" But to me, like, "Oh wow, you can program, and now you can change the material... And this is done in such an automated way..." - that was my introduction to programming, which is a very non-orthodox way of thinking of programming.
+**Anima Anandkumar:** That's a good point... My mom and dad would take me to different industry meetings, so we'd go to these big trade shows, like GTC but for manufacturing... And I'd be seeing the latest machines, the computerized, numerically-controlled machines. Back then, if you remember, it was the green screen, and it only had some simple programs you could write; in terms of the capabilities, it was like, "Okay, which access do you go? What would be the set of movements of this turret that would go, and which tooling do you use?" But to me, like, "Oh wow, you can program, and now you can change the material... And this is done in such an automated way..." - that was my introduction to programming, which is a very non-orthodox way of thinking of programming.
 
 **Chris Benson:** And how old would you have been as you really started expressing yourself in programming?
 
@@ -120,7 +120,7 @@ So I remember we were hearing about this exam in high school, and my first react
 
 **Anima Anandkumar:** Yeah, so once I was at IIT, I was just surrounded with a lot of amazing people. The faculty, the students - they've all come through the difficult test as well, right? But I found so many amazing friends that I still keep in touch with... And what fascinated me there was we all shared this common vision to ask how technology could help society, could help us have a better future... So I remember being very involved in this tech fest called Shaastra. That's the annual festival that IIT Madras (where I went to school) throws... And we were asking, "Okay, how do we bring in more students here? What kind of contest would be -- where do we get the best speakers? What are the best researchers today? How do we get them here?" To me, that was one of the highlights on -- you know, how I've seen this community come together and ask "How do we showcase today's technology? Where is that going in the future?" That kind of a community togetherness is what I experienced at IIT.
 
-Part of that was also asking -- you know, at that point I was doing research, both in my undergrad school, also in Indian Institute of Science, which is in Bangalore, and that's when "Oh my god, I have so much freedom to think, and to ask what I could be doing \[unintelligible 00:18:53.06\] what's missing today and what I could really--"
+Part of that was also asking -- you know, at that point I was doing research, both in my undergrad school, also in Indian Institute of Science, which is in Bangalore, and that's when "Oh my god, I have so much freedom to think, and to ask what I could be doing in a way of, what's missing today and what I could really--"
 
 **Chris Benson:** How you can make a difference.
 
@@ -130,7 +130,7 @@ Part of that was also asking -- you know, at that point I was doing research, bo
 
 **Anima Anandkumar:** Yeah, so I applied to quite a few schools. I ended up at Cornell University. Caltech -- I think I did apply there, but Caltech is a smaller school; we are highly selective... \[laughs\] But I'm glad I'm there now.
 
-**Chris Benson:** \[00:20:05.15\] Yeah, your idea of schools -- they're all world-class schools that you're naming here, so... It's good to have that kind of a problem, to figure out which of those schools you're gonna go to. So you got to Cornell first then.
+**Chris Benson:** Yeah, your idea of schools -- they're all world-class schools that you're naming here, so... It's good to have that kind of a problem, to figure out which of those schools you're gonna go to. So you got to Cornell first then.
 
 **Anima Anandkumar:** Yes, that's right.
 
