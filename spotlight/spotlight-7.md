@@ -204,7 +204,7 @@ It's exciting to see what the Linux Foundation is setting as example. It's easie
 
 **Tracy Hinds:** This is a very different conference. How To Conf is a single-track conference, and it is purposefully kept to 300-ish people; that's in order for people to have repeated connections over a couple of days. SingleTrack allows for sort of like the intensity of having to watch all of those speakers, you don't get a choice... But that's also a very different type of conference. This conference is trying to bring everyone together, and as part of that there's a lot happening - there's a lot of companies...
 
-**Adam Stacoviak:** Salon one, salon two... Various places people can \[unintelligible 00:27:15.13\]
+**Adam Stacoviak:** Salon one, salon two... Various places people can go to.
 
 **Tracy Hinds:** Yeah, and I think we owe it to folks to be able to give them the opportunity to get to say all of those things; if we're doing one conference in a year or two conferences in a year and we're trying to run this flagship conference for Node, then we sort of need to have high-quality, but a fair volume of choices. That definitely makes for different things to choose for running a conference, because multi-track is a different beast...
 
