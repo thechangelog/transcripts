@@ -168,7 +168,7 @@ The team doing things already had all of these things in place for months, which
 
 Having on-site childcare, having the stickers that communicate whether you wanna be talked to - I loved that too, those special touches.
 
-**Adam Stacoviak:** \[unintelligible 00:21:29.02\] the details that people just miss... For good reason; conferences are tough anyways. Then you naturally want to care, because you do care, it's just... It's already so many things happening, that if you don't have the right kind of team, the right kind of support and the right kind of attention to detail to those things that really matter, you will just miss them. And it may not be on purpose, like we said earlier. No grace given whenever you mess up.
+**Adam Stacoviak:** \[unintelligible 00:21:33.00\] Those are the details that people just miss... For good reason; conferences are tough anyways. Then you naturally want to care, because you do care, it's just... It's already so many things happening, that if you don't have the right kind of team, the right kind of support and the right kind of attention to detail to those things that really matter, you will just miss them. And it may not be on purpose, like we said earlier. No grace given whenever you mess up.
 
 We all want to do well... Or maybe we don't all want to; generally, we all desire to do well, but we all mess up to some degree, at some point in our lives.
 
