@@ -8,7 +8,7 @@
 
 **Chris Bell:** Yeah, so I've been writing Elixir full-time for about 4-5 years at this point actually. We adopted it previously at an agency we were working at. We were doing a lot of Ruby on Rails, and I think like so many people in the Elixir community, we kind of had an entry point like that. SO writing Rails apps, finding a lot of issues there, running those things in production, scale issues, just leaning on a lot of libraries, a lot of external systems to be able to build these complex applications on the web. Basically, I found Elixir and never looked back.
 
-I have been writing probably on my fourth or fifth Elixir production application in that time as well. I gave some talks about it in the past as well, that you can go back and check out. \[unintelligible 00:03:06.20\] Elixir all the way... And I can't imagine doing anything else now, so... Yeah. Go on, Desmond.
+I have been writing probably on my fourth or fifth Elixir production application in that time as well. I gave some talks about it in the past as well, that you can go back and check out. Yeah, like the latest app – Elixir all the way... And I can't imagine doing anything else now, so... Yeah. Go on, Desmond.
 
 **Desmond Bowe:** Similar story. I got into Elixir 4-5 years ago. I'd been doing Rails for a long time before that. I was consulting at the time, and had a side-project that I'd written in Rails, that needed WebSockets for some real-time update, and it turns out that Rails cannot do real-time WebSockets... And I thought "Alright, let's figure this out in 2015. I know that there's an answer for this", and I came across Elixir.
 
@@ -167,8 +167,6 @@ We could start to think about having lots of message passing between components,
 **Desmond Bowe:** Just to break that down a bit - imagine you have your UI that's broken up into several components, and one component breaks because your data is funky, or whatever... The rest of it keeps working, and you have a very localized, like "Oh, we can't show this piece over here", but the rest of the app looks fine. That's a very interesting failure case that we don't see that often.
 
 **Chris Bell:** Or restarts. If we've got supervisors, we've got restart strategies. So we can say "That bit of the UI will boot back up into its previous state, or some known good state."
-
-**Desmond Bowe:** \[unintelligible 00:32:52.25\]
 
 **Chris Bell:** I can't think of anyone else thinking about writing web applications like that. I could be wrong, I haven't done that much research into that, but... \[laughter\] I'm assuming that there aren't that many people thinking about it, so that could be really cool, I think.
 
