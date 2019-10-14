@@ -72,7 +72,7 @@ My grandfather is a math teacher, so he was teaching me --
 
 **Chris Benson:** So as you're growing up through this process, and becoming more and more proficient at mathematics through school and through home life and such, did you retain that passion for the engineering that you had as a child? Did that drive, or did you get more into just the pure mathematical passion that you were discovering?
 
-**Anima Anandkumar:** That's a good point... My mom and dad would take me to different industry meetings, so we'd go to these big trade shows, like GTC but for manufacturing... And I'd be seeing the latest machines, the computerized, numerically-controlled machines. Back then, if you remember, it was the green screen, and it only had some simple programs you could write; in terms of the capabilities, it was like, "Okay, which access do you go? What would be the set of movements \[unintelligible 00:11:24.23\] and which tooling do you use?" But to me, like, "Oh wow, you can program, and now you can change the material... And this is done in such an automated way..." - that was my introduction to programming, which is a very non-orthodox way of thinking of programming.
+**Anima Anandkumar:** That's a good point... My mom and dad would take me to different industry meetings, so we'd go to these big trade shows, like GTC but for manufacturing... And I'd be seeing the latest machines, the computerized, numerically-controlled machines. Back then, if you remember, it was the green screen, and it only had some simple programs you could write; in terms of the capabilities, it was like, "Okay, which access do you go? What would be the set of movements of this \[unintelligible 00:11:24.23\] and which tooling do you use?" But to me, like, "Oh wow, you can program, and now you can change the material... And this is done in such an automated way..." - that was my introduction to programming, which is a very non-orthodox way of thinking of programming.
 
 **Chris Benson:** And how old would you have been as you really started expressing yourself in programming?
 
@@ -100,7 +100,9 @@ So I remember we were hearing about this exam in high school, and my first react
 
 **Anima Anandkumar:** This was IIT, so they only had engineering as most of their majors... So I did take electrical engineering. That to me was a nice sweet spot, where I would be using a lot of math, I would be analyzing signals, I would still be connected to the hardware...
 
-**Chris Benson:** Yeah. You're going back to that three-year-old seeing the machine working right there...**Anima Anandkumar:** Yeah, yeah... And I would still be programming. And I had a minor in computer science, so I'd have all these different elements put together. That's where this entrance exam I felt was an opportunity for me to really go into like -- you know, when we look at physics, like, "What are the basic principles?" Not only know about the laws of physics, but how do I apply to different systems?
+**Chris Benson:** Yeah. You're going back to that three-year-old seeing the machine working right there...
+
+**Anima Anandkumar:** Yeah, yeah... And I would still be programming. And I had a minor in computer science, so I'd have all these different elements put together. That's where this entrance exam I felt was an opportunity for me to really go into like -- you know, when we look at physics, like, "What are the basic principles?" Not only know about the laws of physics, but how do I apply to different systems?
 
 \[00:16:11.28\] What made this test challenging, at least at that point - those were near to olympiad-level questions, and why are those questions challenging? That's because they're not the usual ones you would solve during your assignment, or during your usual schooling...
 
@@ -120,7 +122,7 @@ So I remember we were hearing about this exam in high school, and my first react
 
 **Anima Anandkumar:** Yeah, so once I was at IIT, I was just surrounded with a lot of amazing people. The faculty, the students - they've all come through the difficult test as well, right? But I found so many amazing friends that I still keep in touch with... And what fascinated me there was we all shared this common vision to ask how technology could help society, could help us have a better future... So I remember being very involved in this tech fest called Shaastra. That's the annual festival that IIT Madras (where I went to school) throws... And we were asking, "Okay, how do we bring in more students here? What kind of contest would be -- where do we get the best speakers? What are the best researchers today? How do we get them here?" To me, that was one of the highlights on -- you know, how I've seen this community come together and ask "How do we showcase today's technology? Where is that going in the future?" That kind of a community togetherness is what I experienced at IIT.
 
-Part of that was also asking -- you know, at that point I was doing research, both in my undergrad school, also in Indian Institute of Science, which is in Bangalore, and that's when "Oh my god, I have so much freedom to think, and to ask what I could be doing \[unintelligible 00:18:53.06\] what's missing today and what I could really--"
+Part of that was also asking -- you know, at that point I was doing research, both in my undergrad school, also in Indian Institute of Science, which is in Bangalore, and that's when "Oh my god, I have so much freedom to think, and to ask what I could be doing innovatively? What's missing today and what I could really--"
 
 **Chris Benson:** How you can make a difference.
 
@@ -248,7 +250,7 @@ The most basic algorithm - or I wouldn't call it basic, because it was sophistic
 
 **Anima Anandkumar:** Yeah, so I'm still at UC Irvine, although I took a break... This particular work, when I first started doing tensors, was in Microsoft Research. Microsoft Research, even now on the East Coast, this is headed by Jennifer Chayes... Again, an amazing role model, both for women and men. She wants to encourage open research. I went there, I gave a talk on one of my earlier topics that works on statistical physics, and her background is physics. She was so fascinated I used it in machine learning; that was not a connection that many people made before... So she was like "Oh, come over, hang out, talk to researchers, see what comes out." So we had no agenda.
 
-\[00:36:12.01\] There was \[unintelligible 00:36:12.28\] and many other researchers around... One day we started bouncing ideas about "Okay, there is PCA, this kind of algorithm on matrices...", now this topic modeling, which is looking at trying to extract topics - is that enough? And if not, why not? Why should we need more? I'm not an expert on tensors at that point, and nobody is, because we don't really study that in undergraduate. But I think asking questions is where you suddenly lead into a whole new direction and whole new area that's completely unexpected.
+\[00:36:12.01\] There was \[unintelligible 00:36:12.28\] and Daniel Shue and many other researchers around... One day we started bouncing ideas about "Okay, there is PCA, this kind of algorithm on matrices...", now this topic modeling, which is looking at trying to extract topics - is that enough? And if not, why not? Why should we need more? I'm not an expert on tensors at that point, and nobody is, because we don't really study that in undergraduate. But I think asking questions is where you suddenly lead into a whole new direction and whole new area that's completely unexpected.
 
 **Chris Benson:** And is that what happened to you?
 
@@ -298,11 +300,11 @@ One of the first things we did there was to ask "Okay, where do tensors and deep
 
 **Chris Benson:** So go ahead and share with us a little bit about what you did there, because I think you're starting to go that way anyway here..
 
-**Anima Anandkumar:** Yes, exactly. One aspect of the role of tensors was what I described earlier, with these probabilistic models and how do we extract useful latent variable modeling. So in this new one, with deep learning, we asked "Okay, why should it be only linear layers and linear algebra?" We can do these higher-order ones... So what does that add? And that's when we found you can get very high rates of compression of those networks and still get good accuracies. The \[unintelligible 00:44:02.28\] is if your data is in many dimensions, you'd rather also process it in many dimensions.
+**Anima Anandkumar:** Yes, exactly. One aspect of the role of tensors was what I described earlier, with these probabilistic models and how do we extract useful latent variable modeling. So in this new one, with deep learning, we asked "Okay, why should it be only linear layers and linear algebra?" We can do these higher-order ones... So what does that add? And that's when we found you can get very high rates of compression of those networks and still get good accuracies. The intuition is if your data is in many dimensions, you'd rather also process it in many dimensions.
 
 **Chris Benson:** That makes sense, yes.
 
-**Anima Anandkumar:** \[00:44:10.21\] So why do we then limit all to two dimensions and just matrices, when we go through the layers? That's kind of the basic \[unintelligible 00:44:18.08\] If you think about the image, it's width and height, and if it's a colored image, it's now also RGB channels.
+**Anima Anandkumar:** \[00:44:10.21\] So why do we then limit all to two dimensions and just matrices, when we go through the layers? That's kind of the basic intuition. If you think about the image, it's width and height, and if it's a colored image, it's now also RGB channels.
 
 **Chris Benson:** Sure.
 
@@ -348,7 +350,7 @@ Yeah, so seeing both the engineering side of it from a big production viewpoint,
 
 **Chris Benson:** I did not know that.
 
-**Anima Anandkumar:** Yeah... I'll send you a link; it's just so fascinating. I mean, can you think of these three luminaries coming together and saying "We need to bring all these fields together." And ultimately, that resulted in a new option we have for PhD's - and a new division, in fact - that's called the Computational Neuroscience (CNS) at Caltech. We admit students today to that discipline, and it's highly multi-disciplinary. So all that led to the formation of this conference, back then called NIPS.
+**Anima Anandkumar:** Yeah... I'll send you a link; it's just so fascinating. I mean, can you think of these three luminaries coming together and saying "We need to bring all these fields together." And ultimately, that resulted in a new option we have for PhD's - and a new division, in fact - that's called the [Computational Neuroscience (CNS)](https://www.cns.caltech.edu/) at Caltech. We admit students today to that discipline, and it's highly multi-disciplinary. So all that led to the formation of this conference, back then called NIPS.
 
 **Chris Benson:** Understood.
 
