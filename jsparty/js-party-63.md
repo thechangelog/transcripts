@@ -16,7 +16,7 @@ So yes, we will over time introduce new operators, but we have to be extremely c
 
 **Kevin Ball:** That leads into a question about the process of deciding what goes into this language. We talked about TC39 and the stage one that was going on there, but maybe can one of the panelists spell out the stages that things go through as they advance in the Javascript language?
 
-**Willian Martins:** Okay, I can try that one. We have a five-stage \[unintelligible 00:05:32.12\] It's like, we have a conversation in the bar, and we are kind of drinking, and say "Yeah, what if we do this in Javascript? Let's try it." And you try to present this to the committee, and then if you \[unintelligible 00:05:49.13\] you should shape the problem first, and then if you somebody to champion this and the committee decides that this is something that is worth more investigation, it goes to stage one.
+**Willian Martins:** Okay, I can try that one. We have a five-stage \[unintelligible 00:05:32.12\] It's like, we have a conversation in the bar, and we are kind of drinking, and say "Yeah, what if we do this in Javascript? Let's try it." And you try to present this to the committee, and then if you find a champion, and this proposal try to solve a problem, you should shape the problem first, and then if you somebody to champion this and the committee decides that this is something that is worth more investigation, it goes to stage one.
 
 Then they try to do a little bit more research on that and shape the syntax and the semantics of this proposal, and then it goes to the draft, which is stage two. Then they start to write the draft of the specification, and then sometimes they have some implementation bubble, and they send that to the developers to try that out.
 
