@@ -20,7 +20,7 @@ A lot of things that we promoted and pushed were still very brand new at the tim
 
 Some things like that changed, I certainly think for the better, where advice that we gave out, things that we were pushing, we were promoting, have become commonplace, have become widely accepted... So that's kind of heartening, on the one hand.
 
-**Dave Thomas:** And the other thing to remember is that back when this was first written ('98-'99), that was before the snowboard meeting that kicked off the Agile movement \[unintelligible 00:06:08.15\] We were part of that, but it hadn't happened yet, and a lot of the vocabulary that has come to become common nowadays was formed by that movement. We've had the opportunity to simplify some explanations in light of the fact that stuff that we were talking about has now become commonplace as part of the various different agile ways of doing things.
+**Dave Thomas:** And the other thing to remember is that back when this was first written ('98-'99), that was before the snowboard meeting that kicked off the Agile movement for one of the better world. We were part of that, but it hadn't happened yet, and a lot of the vocabulary that has come to become common nowadays was formed by that movement. We've had the opportunity to simplify some explanations in light of the fact that stuff that we were talking about has now become commonplace as part of the various different agile ways of doing things.
 
 **Adam Stacoviak:** Well, speaking of commonplace, one of the things that was not really commonplace at the time of the original launch was even Google. It was just barely out. And to be a programmer today, Google is your best friend, right? Find the answer if you've hit a wall. Even then, when you wrote the book, Google was barely even in the day-to-day lives.
 
@@ -48,7 +48,7 @@ Right now, for example, I teach a class on programming languages at a local univ
 
 **Andy Hunt:** On the world... \[laughter\]
 
-**Dave Thomas:** The problem is, like I said, people love to think that they can do it better. I mean, I know I have that problem... So they go out and they create something which is addressing the one particular \[unintelligible 00:11:15.04\] in something else, and ignoring all of the other smart decisions that went into that original thing. Then they release that as the solution to this problem, and then people adopt that, but it's missing other things, so then they go and they write their own version, which has those things... It goes on and on and on, and it never actually gets resolved.
+**Dave Thomas:** The problem is, like I said, people love to think that they can do it better. I mean, I know I have that problem... So they go out and they create something which is addressing the one particular niggle in something else, and ignoring all of the other smart decisions that went into that original thing. Then they release that as the solution to this problem, and then people adopt that, but it's missing other things, so then they go and they write their own version, which has those things... It goes on and on and on, and it never actually gets resolved.
 
 I just feel that we are too willing to hope that there is a silver bullet out there. It's 40-50 years old, and there are no silver bullets.
 
@@ -256,7 +256,7 @@ It's like when the Model T first came out - the starter instructions ran two pag
 
 **Jerod Santo:** To reuse the metaphor with the car - as developers, are we all called to be the mechanic, or can some of us be the end user of the car, in a componentized world, and maybe just have to send the component off to the mechanic every once in a while?
 
-**Dave Thomas:** Think about the car as being a network of components. At one level you buy a car, but the car consists of a \[unintelligible 00:45:52.24\]
+**Dave Thomas:** Think about the car as being a network of components. At one level you buy a car, but the car consists of a cylinder block, spark plug and injectors I am sorry....
 
 **Andy Hunt:** Thank you, there you go... Wow!
 
