@@ -84,7 +84,7 @@ I got really excited, and I thought "Oh, you know what I should do - I should ma
 
 **Jerod Santo:** Well, it could have been a lot worse. You had the capabilities of executing arbitrary Javascript on their website, so it could have gotten real nasty for them if you were a malicious person, but... Good thing you're not.
 
-**George Mandis:** Yeah, I know. That crossed my mind later, actually... Many years later, when I realized that a lot of people were doing that. Tons of people were linking -- especially when I moved it to GitHub, a lot of people were linking directly to the raw file on the GitHub page, kind of using it as a CDN, which I don't think was really the way they wanted me to do that back then... Yeah, that crossed my mind, and I'm like "Oh, that's kind of scary, and bad", and it's a lot of people not realizing they're trusting me to not make their website redirect to something stupid, \[unintelligible 00:17:08.18\]
+**George Mandis:** Yeah, I know. That crossed my mind later, actually... Many years later, when I realized that a lot of people were doing that. Tons of people were linking -- especially when I moved it to GitHub, a lot of people were linking directly to the raw file on the GitHub page, kind of using it as a CDN, which I don't think was really the way they wanted me to do that back then... Yeah, that crossed my mind, and I'm like "Oh, that's kind of scary, and bad", and it's a lot of people not realizing they're trusting me to not make their website redirect to something stupid, who knows what.
 
 **Jerod Santo:** Or inject your cryptocurrency miner and harvest the world... \[laughs\]
 
