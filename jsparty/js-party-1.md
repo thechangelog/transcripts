@@ -90,7 +90,7 @@ If you go to GitHub and you go to a project and then you click on Commit To and 
 
 **Alex Sexton:** Right.
 
-**Mikeal Rogers:** This kind of reminds me that the way we think about security on the web tends to be like, "Oh, I put CloudFlare in front of it, so I'm secure now." "I added SSL, or I added TLS, so I'm secure now." But really, security is this really multi-layered thing where when you break off one layer of the onion, you need the other layers around it to still be secure, right?
+**Mikeal Rogers:** This kind of reminds me that the way we think about security on the web tends to be like, "Oh, I put CloudFlare in front of it, so I'm secure now.", "I added SSL, or I added TLS, so I'm secure now." But really, security is this really multi-layered thing where when you break off one layer of the onion, you need the other layers around it to still be secure, right?
 
 **Alex Sexton:** Yeah. I think you almost can't even break off any of the layers of the onion. Security is really, really hard. It needs to be there at every layer, otherwise the other ones have no effect. I think an onion is a poor metaphor. A chain is much better - if you have a single weak link, then it doesn't matter; you can get through.
 
