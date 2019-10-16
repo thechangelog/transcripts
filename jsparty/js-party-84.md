@@ -212,7 +212,7 @@ Now I have less Vis because as my C++ code is more or less my business logic, I 
 
 **Kevin Ball:** Yeah, you kind of get the best of both worlds there.
 
-**Florian Rival:** Yeah. I guess that's also okay with the gotcha that I told - you get the best of both worlds; that's what I want to show in my talk. I'm not saying that \[unintelligible 00:40:04.01\] all the time, but that's something that is working. That's working.
+**Florian Rival:** Yeah. I guess that's also okay with the gotcha that I told - you get the best of both worlds; that's what I want to show in my talk. I'm not saying that you'll have a great experience, all the time, but that's something that is working. That's working.
 
 **Kevin Ball:** Yeah. Talking about the build steps - it sounds like you have a manual build still, but I've seen people do Webpack integration, essentially pulling in C++ or Rust stuff as modules, directly into Webpack.
 
