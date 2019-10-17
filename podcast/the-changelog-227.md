@@ -422,7 +422,7 @@ I've been thinking about ways to do that. I don't have anything to talk about ye
 
 **Jerod Santo:** That's all Electron.
 
-**Feross Aboukhadijeh:** No, WebTorrent played... I mean, when we were making WebTorrent desktop is where I learned all this stuff about \[unintelligible 01:14:48.00\]
+**Feross Aboukhadijeh:** No, WebTorrent played... I mean, when we were making WebTorrent desktop is where I learned all this stuff about making a solid app.
 
 **Adam Stacoviak:** I was thinking maybe you can not only do the packaging for them, but host it for them and WebTorrent can do the distribution.
 
