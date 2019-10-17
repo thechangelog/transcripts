@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-176-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-177-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -254,6 +254,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   <tr>
     <td align="center"><a href="https://github.com/aflores94"><img src="https://avatars0.githubusercontent.com/u/49214249?v=4" width="100px;" alt="Andrea Flores"/><br /><sub><b>Andrea Flores</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=aflores94" title="Documentation">📖</a></td>
     <td align="center"><a href="https://programacionymas.com"><img src="https://avatars0.githubusercontent.com/u/3101238?v=4" width="100px;" alt="JCarlos"/><br /><sub><b>JCarlos</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=JCarlosR" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/tusharhanda"><img src="https://avatars1.githubusercontent.com/u/34959654?v=4" width="100px;" alt="Tushar Handa"/><br /><sub><b>Tushar Handa</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=tusharhanda" title="Documentation">📖</a></td>
   </tr>
 </table>
 
