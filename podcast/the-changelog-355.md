@@ -66,7 +66,7 @@ And there was a point in time where it's like "This thing can't exist for free w
 
 **CJ Silverio:** That was the moment I got involved actually, and I probably wouldn't have been involved without some way to pay my salary... Or at least that amount of all-consuming work is something people don't do for free, and you should never expect them to do for free. That's the way to burn people out.
 
-Npm at the time it was founded - the very end of 2013 was when those first discussions happened, and the very beginning of 2014 is when the company started moving as a company. During that period, npm was a tire fire; it was down... It was like nine sixes of \[unintelligible 00:10:06.27\] It needed serious attention and serious operational work to stabilize it, and that's something that's hard to get from human beings, it's hard to have people on call 24/7 without paying something for their time and attention.
+Npm at the time it was founded - the very end of 2013 was when those first discussions happened, and the very beginning of 2014 is when the company started moving as a company. During that period, npm was a tire fire; it was down... It was like nine sixes of availability. It needed serious attention and serious operational work to stabilize it, and that's something that's hard to get from human beings, it's hard to have people on call 24/7 without paying something for their time and attention.
 
 And the trade-off is really interesting, because most of the language systems haven't done this. CPAN has chosen a very different approach to this, but RubyGems is a volunteer-run thing, and your expectations for RubyGems are very different from where your expectations from npm are. The scale that npm reached was possible because they had a team of professionals working on it and moving it from a single CouchDB to the system it was.
 
@@ -138,7 +138,7 @@ I was deeply inspired not by Mastodon's API, but Mastodon the concept of Activit
 
 We knew what was wrong with the API, we knew what a good API would look like, we had some very clear ideas about how to make this achievable for normal human beings. We didn't have an enormous AWS account and bandwidth to burn... So we said "Okay, let's do it." We were there for the mission, let's keep working on the mission. Let's make it so that whoever does this next doesn't need VC-level to make it work, so you can take control of your data.
 
-If Substack -- I love talking about Substack, because he's such a fascinating human being. Have you ever had him on the show? He's Jame Halliday...
+If Substack -- I love talking about Substack, because he's such a fascinating human being. Have you ever had him on the show? He's James Halliday...
 
 **Jerod Santo:** Have we, Adam?
 
@@ -146,7 +146,7 @@ If Substack -- I love talking about Substack, because he's such a fascinating hu
 
 **Jerod Santo:** What's wrong with us?
 
-**CJ Silverio:** Yeah. \[laughter\] He was very active in early Node, and he and Dominic Tarr have all these little modules that \[unintelligible 00:21:30.28\]
+**CJ Silverio:** Yeah. \[laughter\] He was very active in early Node, and he and Dominic Tarr have all these little modules that are so cool.
 
 **Jerod Santo:** We've had Dominic on the show.
 
@@ -168,7 +168,7 @@ I just want people to run a registry themselves. And I thought -- it's an ambiti
 
 **Jerod Santo:** He rewrote it for you?
 
-**CJ Silverio:** Yeah, he rewrote the whole thing for me. I believe the sentence was "And we'll still use semver, but probably standard semver, instead of npm semver." \[unintelligible 00:25:05.05\]
+**CJ Silverio:** Yeah, he rewrote the whole thing for me. I believe the sentence was "And we'll still use semver, but probably standard semver, instead of npm semver." That's the only sentence that stayed the same.
 
 **Jerod Santo:** Is it worth diving into the difference between npm versus standard semver? I didn't know there was a...
 
@@ -176,7 +176,7 @@ I just want people to run a registry themselves. And I thought -- it's an ambiti
 
 **Jerod Santo:** Gotcha.
 
-**CJ Silverio:** And Rust interprets them differently. \[unintelligible 00:25:22.12\] almost, but not quite.
+**CJ Silverio:** And Rust interprets them differently. The things that are always the worst are standards that are almost, but not quite.
 
 **Jerod Santo:** Almost standards, yeah. So he rewrote it, and he left semver in there...
 
@@ -364,7 +364,7 @@ We have a thing that we could consider signing; that content-addressable manifes
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** \[unintelligible 00:41:13.26\]
+**Adam Stacoviak:** Blockchain will solve that.
 
 **CJ Silverio:** Yeah. You have a web of identity trust, right?
 
@@ -376,7 +376,7 @@ We have a thing that we could consider signing; that content-addressable manifes
 
 **CJ Silverio:** Yes, exactly. This, by the way, is Chris' current -- the topic he's chewing on... And it's actually connected with package signing, because the identity of an instance has to be established, registered somewhere centrally. Here we go, centralization rears its ugly head. But you need to know that Entropic.dev, which is run by Ceej today, is the same Entropic.dev three months from now that's run by Ceej. You have to have a way to know that that instance is the same, that you can trust it, that its signature on a package is valid.
 
-I think right now that we're gonna end up leaning on Keybase to do this... Because they not only have that central registry of public keys, they can give you a chain of history of the public \[unintelligible 00:42:58.01\] so you can see if -- say someone loses a hard disk and has to wipe their Entropic instance; they can reestablish their ownership of that specific thing. And if you're getting bits from them, you can trust those bits.
+I think right now that we're gonna end up leaning on Keybase to do this... Because they not only have that central registry of public keys, they can give you a chain of history of the public keys and their Sigchain concepts so you can see if -- say someone loses a hard disk and has to wipe their Entropic instance; they can reestablish their ownership of that specific thing. And if you're getting bits from them, you can trust those bits.
 
 This is the thing - let's suppose we have three of these things. I publish a Twitter bot to my instance, or a tool that you use to make Twitter bots to my instance.
 
@@ -420,7 +420,7 @@ These are interesting problems, and we could get them wrong. Do you wanna talk a
 
 **Adam Stacoviak:** So we've talked about doubts... We've got our doubts, obviously, but Ceej, I'm sure that yours are better positioned than ours, simply because we're outsiders. What are your doubts with Entropic? Where are the holes in the cheese, so to speak?
 
-**CJ Silverio:** Well, we've set ourselves a pretty chewy technical problem. The problems of writing a \[unintelligible 00:46:55.17\] difficult enough, right? This is a very large ecosystem we have to support, and the way we've chosen to approach the problem is inherently more difficult than a centralized solution would be.
+**CJ Silverio:** Well, we've set ourselves a pretty chewy technical problem. The problems of writing a package registry from scratch are difficult enough, right? This is a very large ecosystem we have to support, and the way we've chosen to approach the problem is inherently more difficult than a centralized solution would be.
 
 We've talked about the security questions, how identity works when it's diffused across multiple instances, package signing, can you trust the bits you have - all of these things are more technically challenging than writing a very straightforward single-source API would be. So we've kind of set ourselves a hard problem.
 
@@ -450,7 +450,7 @@ We were talking about GitHub. GitHub is a really great place to discuss code; it
 
 **CJ Silverio:** Yes, exactly. Your design... The part where we talk about "Okay, Entropic instances have to identify themselves to each other and we have to be able to trace an identity through time, to make sure that this Entropic.dev is the same Entropic.dev as last week." That's a conversation. That's a conversation among human beings. We have to talk, to make sure we understand the problem, and have agreed "Okay, this is a good problem statement." And then we have to go off and think, and come back and talk about or propose a solution. And then sometime later you end up at GitHub, where you are discussing a specific implementation of that proposed solution. So how do we set up a project where THAT happens, in a really constructive way?
 
-**Jerod Santo:** \[unintelligible 00:50:36.02\]
+**Jerod Santo:** How do we?
 
 **CJ Silverio:** Yeah...
 
@@ -458,7 +458,7 @@ We were talking about GitHub. GitHub is a really great place to discuss code; it
 
 **Jerod Santo:** Telly-tell us!
 
-**CJ Silverio:** Well, this is experimental right now. We've set up a Discourse, so we can have a forum and talk to each other... \[unintelligible 00:50:47.03\] Chris and I didn't switch over to it, and then we were asking ourselves, "Why are we not doing it? Oh, because we're in this teeny Slack with each other." We were just talking to each other on Slack, instead of going over to the Discourse. Okay, guess what - we're gonna not do that; it's chat. And that was actually what we were looking for. It's sort of a problem that Slack is better, but Slack is not very good if you wanna have an open source project... Because we want people to just drop in. What we want is modern IRC.
+**CJ Silverio:** Well, this is experimental right now. We've set up a Discourse, so we can have a forum and talk to each other... and, this was actually hard, Chris and I didn't switch over to it, and then we were asking ourselves, "Why are we not doing it? Oh, because we're in this teeny Slack with each other." We were just talking to each other on Slack, instead of going over to the Discourse. Okay, guess what - we're gonna not do that; it's chat. And that was actually what we were looking for. It's sort of a problem that Slack is better, but Slack is not very good if you wanna have an open source project... Because we want people to just drop in. What we want is modern IRC.
 
 This to me is like recapitulating the history of open source projects of the past... "Why did they all have IRCs? IRC is terrible! Ohh, I get it now... Okay, alright. IRC is still terrible..." \[laughter\]
 
@@ -524,9 +524,9 @@ So I wanna satisfy their needs, and I think if we do that, the adoption follows.
 
 **CJ Silverio:** Yeah, it looks like either I, or Chris Dickinson and I together will be at NodeConf EU in Ireland this November to talk. We'll probably do a deep dive into what's going on technically with the API and the data model, and that'll be a lot of fun. We may even have some answers on the security side by that point.
 
-So that'll be fun... Go to Ireland, be at a beautiful resort in Ireland and talk Node. Or you could come join us in our Discourse, at our Discord; all of the disses. You can find all of these things if you go to our GitHub, which is GitHub.com/entropic-dev, and there's only one project in there... Well, actually there are two projects in there now. \[unintelligible 00:57:42.08\] Find us there, and we have pointers there to our Discourse and our Discord, as well as the code. The code is the least important thing right now. Come join with us and talk with us... Because we're in the talking phase.
+So that'll be fun... Go to Ireland, be at a beautiful resort in Ireland and talk Node. Or you could come join us in our Discourse, at our Discord; all of the disses. You can find all of these things if you go to our GitHub, which is GitHub.com/entropic-dev, and there's only one project in there... Well, actually there are two projects in there now. Kat is making projects. Find us there, and we have pointers there to our Discourse and our Discord, as well as the code. The code is the least important thing right now. Come join with us and talk with us... Because we're in the talking phase.
 
-**Adam Stacoviak:** Any plans to have entropic.dev redirect, instead of showing this \[unintelligible 00:58:02.20\]
+**Adam Stacoviak:** Any plans to have entropic.dev redirect, instead of showing this kind of...
 
 **CJ Silverio:** \[laughs\] Oh yeah, yeah... That's a joke, by the way. It's like, if you go to registry.npmjs.org you get a bunch of JSON... But we need a website. We don't have a website right now, but we understand that there are a lot of people out there who are much better at writing websites than we are. Maybe you wanna do that for us.
 

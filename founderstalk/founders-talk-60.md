@@ -90,7 +90,7 @@ A lot of us who have been in tech for a while have seen how sales sort of gets w
 
 **Travis Kimmel:** Yeah. They're like "I'm gonna compress the deal cycle time by 30%."
 
-**Adam Stacoviak:** "Sweet. We can do that, no problem. You just \[unintelligible 00:18:05.22\] numbers."
+**Adam Stacoviak:** "Sweet. We can do that, no problem. You just imagine numbers."
 
 **Travis Kimmel:** Yeah, exactly. They can make a promise, which can then be measured on the back-end, and that's awesome. If you as an engineering lead can say "Look, I need a month to pay down a bunch of technical debt. You're going to see us paying down technical debt, we'll have a picture of that, and then at the end of that the team will be moving much faster." That is a powerful thing, because you can make an agreement with the rest of the business, that they can understand and then verify. I'm preaching the gospel here a little bit, but our view is that it also has to be visual, because executives are super-busy and they tend to learn with pictures. So the first person to draw a picture wins; in an ideal world, what you want is you don't just want data, you want to pre-consume that into a visual that can be digested in 10 seconds. If you have that, it's awesome, because you can take those visuals, drop them into a slide deck, hand them to somebody who has very little attention and is only gonna spend three minutes glancing over whatever you give them, and make a powerful case.
 
