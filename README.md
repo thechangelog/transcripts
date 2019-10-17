@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-173-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-174-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -249,6 +249,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/dangerousNoodle"><img src="https://avatars2.githubusercontent.com/u/32993624?v=4" width="100px;" alt="dangerousNoodle"/><br /><sub><b>dangerousNoodle</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=dangerousNoodle" title="Documentation">📖</a></td>
     <td align="center"><a href="http://laylawrote.com"><img src="https://avatars3.githubusercontent.com/u/19983454?v=4" width="100px;" alt="Layla Hedges"/><br /><sub><b>Layla Hedges</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=N7Layla" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/RachelWyatt"><img src="https://avatars3.githubusercontent.com/u/37967627?v=4" width="100px;" alt="RachelWyatt"/><br /><sub><b>RachelWyatt</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=RachelWyatt" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Zoe7"><img src="https://avatars0.githubusercontent.com/u/3652786?v=4" width="100px;" alt="Zoé de Moffarts"/><br /><sub><b>Zoé de Moffarts</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=Zoe7" title="Documentation">📖</a></td>
   </tr>
 </table>
 
