@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-171-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-172-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -247,6 +247,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/Soundug"><img src="https://avatars3.githubusercontent.com/u/28762894?v=4" width="100px;" alt="Soundarya G"/><br /><sub><b>Soundarya G</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=Soundug" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/danherrero"><img src="https://avatars1.githubusercontent.com/u/3137638?v=4" width="100px;" alt="Dan Herrero"/><br /><sub><b>Dan Herrero</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=danherrero" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/dangerousNoodle"><img src="https://avatars2.githubusercontent.com/u/32993624?v=4" width="100px;" alt="dangerousNoodle"/><br /><sub><b>dangerousNoodle</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=dangerousNoodle" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://laylawrote.com"><img src="https://avatars3.githubusercontent.com/u/19983454?v=4" width="100px;" alt="Layla Hedges"/><br /><sub><b>Layla Hedges</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=N7Layla" title="Documentation">📖</a></td>
   </tr>
 </table>
 
