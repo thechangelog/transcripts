@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-181-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-182-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -261,6 +261,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Eventhisone"><img src="https://avatars0.githubusercontent.com/u/13039286?v=4" width="100px;" alt="Zachariah D. Turner"/><br /><sub><b>Zachariah D. Turner</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=Eventhisone" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/MissMeg"><img src="https://avatars2.githubusercontent.com/u/24844720?v=4" width="100px;" alt="Megan Amendola"/><br /><sub><b>Megan Amendola</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=MissMeg" title="Documentation">📖</a></td>
   </tr>
 </table>
 
