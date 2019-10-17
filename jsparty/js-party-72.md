@@ -44,7 +44,7 @@ So GraphQL is solving 90% of the problems because it's solving the data problem,
 
 **Kevin Ball:** Question, yes.
 
-**Audience member:** A question more about new possibilities, new tools that we need... I'm thinking or asking that we have a new kind of application, an online collaboration tool, like Wiki or Google Docs, and how state management can help us to build this solution more easily than we can build it now... Because it's like an edge technology right now because you need to synchronize state across many clients, you need to do it efficiently, easily, and you need to solve a conflict between different clients because we still have a lot of connection, and we need to solve it somehow.
+**Audience member:** A question more about new possibilities, new tools which we need... I'm thinking or asking, that we have a new kind of application, it's like an online collaboration tool, like Wiki or Google Docs more, and how state management can help us to build this solution more easily than we can build it now. Because it's like an edge technology right now. Because you need to synchronize state across many clients, you need to do it efficiently, easily, and you need to solve a conflict between different clients, because we still have a lot of connection, and we need to solve it somehow.
 
 As I see, people who start building these online synchronization tools, they struggle a lot to build something reliable. They spent a year to build something usable. Maybe you have comments and ideas how GraphQL, MobX, or maybe the next tool deals with that. I'm talking about mobx-state-tree solution maybe... If you can address that.
 
