@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-168-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-169-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -242,6 +242,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/Josh-Bran"><img src="https://avatars0.githubusercontent.com/u/54480168?v=4" width="100px;" alt="Josh Bran"/><br /><sub><b>Josh Bran</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=Josh-Bran" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/JacquesFourieAUZ"><img src="https://avatars3.githubusercontent.com/u/19422168?v=4" width="100px;" alt="JacquesFourieAUZ"/><br /><sub><b>JacquesFourieAUZ</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=JacquesFourieAUZ" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/sarcastic22101"><img src="https://avatars2.githubusercontent.com/u/44620224?v=4" width="100px;" alt="sarcastic22101"/><br /><sub><b>sarcastic22101</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=sarcastic22101" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Soundug"><img src="https://avatars3.githubusercontent.com/u/28762894?v=4" width="100px;" alt="Soundarya G"/><br /><sub><b>Soundarya G</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=Soundug" title="Documentation">📖</a></td>
   </tr>
 </table>
 
