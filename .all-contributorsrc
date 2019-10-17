@@ -1609,6 +1609,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "jenshaw86",
+      "name": "Jenny Shaw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43564151?v=4",
+      "profile": "https://dev.to/jenshaw",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
