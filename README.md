@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-178-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-179-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -256,6 +256,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://programacionymas.com"><img src="https://avatars0.githubusercontent.com/u/3101238?v=4" width="100px;" alt="JCarlos"/><br /><sub><b>JCarlos</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=JCarlosR" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/tusharhanda"><img src="https://avatars1.githubusercontent.com/u/34959654?v=4" width="100px;" alt="Tushar Handa"/><br /><sub><b>Tushar Handa</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=tusharhanda" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.linusaur.us/"><img src="https://avatars0.githubusercontent.com/u/6074681?v=4" width="100px;" alt="Linus Brogan"/><br /><sub><b>Linus Brogan</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=linusaurusrex" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://dev.to/jenshaw"><img src="https://avatars1.githubusercontent.com/u/43564151?v=4" width="100px;" alt="Jenny Shaw"/><br /><sub><b>Jenny Shaw</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=jenshaw86" title="Documentation">📖</a></td>
   </tr>
 </table>
 
