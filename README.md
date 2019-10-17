@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-165-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-176-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -239,6 +239,21 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://fckaf.de/64S"><img src="https://avatars3.githubusercontent.com/u/16854141?v=4" width="100px;" alt="Björn Pfoster"/><br /><sub><b>Björn Pfoster</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=D4rkMindz" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/abowler2"><img src="https://avatars1.githubusercontent.com/u/19564687?v=4" width="100px;" alt="April Bowler"/><br /><sub><b>April Bowler</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=abowler2" title="Documentation">📖</a></td>
     <td align="center"><a href="http://danmcclain.net"><img src="https://avatars0.githubusercontent.com/u/144138?v=4" width="100px;" alt="Dan McClain"/><br /><sub><b>Dan McClain</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=danmcclain" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Josh-Bran"><img src="https://avatars0.githubusercontent.com/u/54480168?v=4" width="100px;" alt="Josh Bran"/><br /><sub><b>Josh Bran</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=Josh-Bran" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/JacquesFourieAUZ"><img src="https://avatars3.githubusercontent.com/u/19422168?v=4" width="100px;" alt="JacquesFourieAUZ"/><br /><sub><b>JacquesFourieAUZ</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=JacquesFourieAUZ" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/sarcastic22101"><img src="https://avatars2.githubusercontent.com/u/44620224?v=4" width="100px;" alt="sarcastic22101"/><br /><sub><b>sarcastic22101</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=sarcastic22101" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Soundug"><img src="https://avatars3.githubusercontent.com/u/28762894?v=4" width="100px;" alt="Soundarya G"/><br /><sub><b>Soundarya G</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=Soundug" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/danherrero"><img src="https://avatars1.githubusercontent.com/u/3137638?v=4" width="100px;" alt="Dan Herrero"/><br /><sub><b>Dan Herrero</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=danherrero" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/dangerousNoodle"><img src="https://avatars2.githubusercontent.com/u/32993624?v=4" width="100px;" alt="dangerousNoodle"/><br /><sub><b>dangerousNoodle</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=dangerousNoodle" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://laylawrote.com"><img src="https://avatars3.githubusercontent.com/u/19983454?v=4" width="100px;" alt="Layla Hedges"/><br /><sub><b>Layla Hedges</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=N7Layla" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/RachelWyatt"><img src="https://avatars3.githubusercontent.com/u/37967627?v=4" width="100px;" alt="RachelWyatt"/><br /><sub><b>RachelWyatt</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=RachelWyatt" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Zoe7"><img src="https://avatars0.githubusercontent.com/u/3652786?v=4" width="100px;" alt="Zoé de Moffarts"/><br /><sub><b>Zoé de Moffarts</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=Zoe7" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/aflores94"><img src="https://avatars0.githubusercontent.com/u/49214249?v=4" width="100px;" alt="Andrea Flores"/><br /><sub><b>Andrea Flores</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=aflores94" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://programacionymas.com"><img src="https://avatars0.githubusercontent.com/u/3101238?v=4" width="100px;" alt="JCarlos"/><br /><sub><b>JCarlos</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=JCarlosR" title="Documentation">📖</a></td>
   </tr>
 </table>
 

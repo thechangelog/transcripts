@@ -104,7 +104,7 @@ Otherwise, I wasn't working on things like Node until this year as an open sourc
 
 **Adam Stacoviak:** Right. What's the challenge there with sponsors? Are you involved in that with this conference much, or other conferences?
 
-**Tracy Hinds:** \[00:11:44.08\] This conference I wasn't, no. Todd \[unintelligible 00:11:45.21\] lead the charge on that for us, and thank goodness, because we've all got a lot of ownership in these conferences, but for me for this it's content, recruiting speakers, making sure that we've got a good variety of lineup, as well as diversity of speakers, making sure that we're also including people who are newer speakers, as well as speakers from all over the world, because in the U.S. it tends to be U.S.-centric, so we wanna make sure that...
+**Tracy Hinds:** \[00:11:44.08\] This conference I wasn't, no. Todd Benzies and \[unintelligible 00:11:50.00\] lead the charge on that for us, and thank goodness, because we've all got a lot of ownership in these conferences, but for me for this it's content, recruiting speakers, making sure that we've got a good variety of lineup, as well as diversity of speakers, making sure that we're also including people who are newer speakers, as well as speakers from all over the world, because in the U.S. it tends to be U.S.-centric, so we wanna make sure that...
 
 **Adam Stacoviak:** Right, or even English-centric, or language barrier...
 
@@ -126,7 +126,7 @@ Otherwise, I wasn't working on things like Node until this year as an open sourc
 
 **Tracy Hinds:** Oh, okay.
 
-**Adam Stacoviak:** And we got to the end of the show, and Jerod and I, we're both from the \[unintelligible 00:14:41.06\] I'm from Houston, Texas and he's from Omaha, Nebraska - we got into the whole show, great conversation, but they were mentally tired. And we were like, "Why?" and they were like, "Well, English is not our first language." So the whole time, they're trying their best to talk fluently about a fast-moving topic anyways, in a second language. They just talked about what mental hurdles it was to do that on the fly, to try to maintain the listenership of the other persons speaking... There was two people on their side, representing Crystal, and me and Jerod, so it's four people total on this recording. It opened our eyes to think how difficult it might be to then ask like, "Okay, if English isn't your native language, how can we best appreciate you being here? Should we speak slower?"
+**Adam Stacoviak:** And we got to the end of the show, and Jerod and I, we're both from the central time zone. I'm from Houston, Texas and he's from Omaha, Nebraska - we got into the whole show, great conversation, but they were mentally tired. And we were like, "Why?" and they were like, "Well, English is not our first language." So the whole time, they're trying their best to talk fluently about a fast-moving topic anyways, in a second language. They just talked about what mental hurdles it was to do that on the fly, to try to maintain the listenership of the other persons speaking... There was two people on their side, representing Crystal, and me and Jerod, so it's four people total on this recording. It opened our eyes to think how difficult it might be to then ask like, "Okay, if English isn't your native language, how can we best appreciate you being here? Should we speak slower?"
 
 It just might make us more aware of what words not to use; just use more simple English, or just speak slower... Anybody who gets excited like I do -- I probably just talk fast. It's just a thing you never really think about, until somebody brings it to your mind.
 
@@ -168,7 +168,7 @@ The team doing things already had all of these things in place for months, which
 
 Having on-site childcare, having the stickers that communicate whether you wanna be talked to - I loved that too, those special touches.
 
-**Adam Stacoviak:** \[unintelligible 00:21:29.02\] the details that people just miss... For good reason; conferences are tough anyways. Then you naturally want to care, because you do care, it's just... It's already so many things happening, that if you don't have the right kind of team, the right kind of support and the right kind of attention to detail to those things that really matter, you will just miss them. And it may not be on purpose, like we said earlier. No grace given whenever you mess up.
+**Adam Stacoviak:** \[unintelligible 00:21:33.00\] Those are the details that people just miss... For good reason; conferences are tough anyways. Then you naturally want to care, because you do care, it's just... It's already so many things happening, that if you don't have the right kind of team, the right kind of support and the right kind of attention to detail to those things that really matter, you will just miss them. And it may not be on purpose, like we said earlier. No grace given whenever you mess up.
 
 We all want to do well... Or maybe we don't all want to; generally, we all desire to do well, but we all mess up to some degree, at some point in our lives.
 
@@ -204,7 +204,7 @@ It's exciting to see what the Linux Foundation is setting as example. It's easie
 
 **Tracy Hinds:** This is a very different conference. How To Conf is a single-track conference, and it is purposefully kept to 300-ish people; that's in order for people to have repeated connections over a couple of days. SingleTrack allows for sort of like the intensity of having to watch all of those speakers, you don't get a choice... But that's also a very different type of conference. This conference is trying to bring everyone together, and as part of that there's a lot happening - there's a lot of companies...
 
-**Adam Stacoviak:** Salon one, salon two... Various places people can \[unintelligible 00:27:15.13\]
+**Adam Stacoviak:** Salon one, salon two... Various places people can go to.
 
 **Tracy Hinds:** Yeah, and I think we owe it to folks to be able to give them the opportunity to get to say all of those things; if we're doing one conference in a year or two conferences in a year and we're trying to run this flagship conference for Node, then we sort of need to have high-quality, but a fair volume of choices. That definitely makes for different things to choose for running a conference, because multi-track is a different beast...
 
@@ -260,7 +260,7 @@ It doesn't sound at first like it would make sense to be a strategy in inclusivi
 
 **Adam Stacoviak:** Right. It shouldn't also be only on your shoulders either, as the Foundation, to do all the work. You wanna disperse that amongst the community and empower the people to do that.
 
-**Tracy Hinds:** You want them to own it, right. Exactly. That's the key. If people don't feel like they get to own things... No one's gonna raise their hand to say, "I've got this." They're gonna think somebody's handling it, and there's a lot that's happening in Node right now where that's the case, and that shouldn't be. We need to make people feel like -- I think we're getting the word out; William \[unintelligible 00:34:10.13\] he's been great about getting the word out that "There's a lot of work to be done, it needs to be done, you should be annoyed about these things that aren't happening, but you can also help with it. So capture that energy and run with it." That's absolutely what we are trying to work on doing, sort of evangelizing that, making sure people know that help is needed and that the help can come from them.
+**Tracy Hinds:** You want them to own it, right. Exactly. That's the key. If people don't feel like they get to own things... No one's gonna raise their hand to say, "I've got this." They're gonna think somebody's handling it, and there's a lot that's happening in Node right now where that's the case, and that shouldn't be. We need to make people feel like -- I think we're getting the word out; William Kapke's been great about getting the word out that "There's a lot of work to be done, it needs to be done, you should be annoyed about these things that aren't happening, but you can also help with it. So capture that energy and run with it." That's absolutely what we are trying to work on doing, sort of evangelizing that, making sure people know that help is needed and that the help can come from them.
 
 **Adam Stacoviak:** What kind of support then are you thinking about for not so much Node School in particular, but things like Node School or meetups across the world...? What kind of support can they look forward to? If they're listening to this now and they're not simply just a new user of Node or a potential contributor to Node that needs to be onboarded in terms of a user or a consumer of it, but more so guiding the localized communities... What can they look forward to? What are you thinking there?
 
