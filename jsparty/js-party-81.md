@@ -246,6 +246,6 @@ Have you ever gone into a Node modules folder and tried to fix something? Becaus
 
 **Jerod Santo:** How do people reach you online?
 
-**George Mandis:** People can google me, because a long time ago I think I got basically every George Mandis username and domain that's out there, at some point... But if you go to [george.mand.is](george.mand.is) - that's my site and blog. Anything I'm working on, you can find there. You can also find me on Twitter, where I don't say a lot, but I'm on there.
+**George Mandis:** People can google me, because a long time ago I think I got basically every George Mandis username and domain that's out there, at some point... But if you go to [george.mand.is](https://george.mand.is) - that's my site and blog. Anything I'm working on, you can find there. You can also find me on Twitter, where I don't say a lot, but I'm on there.
 
 **Jerod Santo:** Very cool. Well, thanks for joining us, George. It's been lots of fun. Thanks for helping make the web silly and frivolous all these years. We do appreciate it. That's our show for this week, we'll see you all next time.
