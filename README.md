@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-166-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-167-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -240,6 +240,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/abowler2"><img src="https://avatars1.githubusercontent.com/u/19564687?v=4" width="100px;" alt="April Bowler"/><br /><sub><b>April Bowler</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=abowler2" title="Documentation">📖</a></td>
     <td align="center"><a href="http://danmcclain.net"><img src="https://avatars0.githubusercontent.com/u/144138?v=4" width="100px;" alt="Dan McClain"/><br /><sub><b>Dan McClain</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=danmcclain" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Josh-Bran"><img src="https://avatars0.githubusercontent.com/u/54480168?v=4" width="100px;" alt="Josh Bran"/><br /><sub><b>Josh Bran</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=Josh-Bran" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/sarcastic22101"><img src="https://avatars2.githubusercontent.com/u/44620224?v=4" width="100px;" alt="sarcastic22101"/><br /><sub><b>sarcastic22101</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=sarcastic22101" title="Documentation">📖</a></td>
   </tr>
 </table>
 
