@@ -318,7 +318,7 @@ It's not just me working on the project; I think we ran the numbers recently and
 
 \[00:56:05.14\] People are starting to \[unintelligible 00:56:04.08\] to it; there was the State of Javascript 2018 Survey at the end of last year, and for the front-end framework section, Svelte was the number one write-in answer to the question "Which framework are you using?" It was ahead of Aurelia and other frameworks like that. So it's slowly gaining traction.
 
-A little bit of anecdote - I've noticed a sudden uptake in invitations to speak at conferences, and things like that, so I think people are kind of aware that this is a thing, but a lot of people are hesitant to dip their toes into a new technology stack because there is a very high switching cost. I guess our task over the coming months is to try and persuade people that the cost of not switching is ultimately higher in the long-term than the cost of -- I confused myself...
+A little bit of anecdata - I've noticed a sudden uptick in invitations to speak at conferences, and things like that, so I think people are kind of aware that this is a thing, but a lot of people are hesitant to dip their toes into a new technology stack because there is a very high switching cost. I guess our task over the coming months is to try and persuade people that the cost of not switching is ultimately higher in the long-term than the cost of -- I confused myself...
 
 **Jerod Santo:** Of switching... \[laughter\] Not switching versus switching.
 
