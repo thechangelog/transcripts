@@ -158,7 +158,7 @@ Anyway, moving past some of those caveats, I guess, what are some of the -- if y
 
 **Break:** \[00:29:08.13\]
 
-**Chris Benson:** I am assuming that Indeed is not paying you to make music recommendation systems, like you had mentioned in your \[unintelligible 00:29:58.05\] abstract... What kind of side-projects are you engaged in? What are you doing, what's fun, and what would you like to do that you may not have gotten to yet?
+**Chris Benson:** I am assuming that Indeed is not paying you to make music recommendation systems, like you had mentioned in your ATO abstract... What kind of side-projects are you engaged in? What are you doing, what's fun, and what would you like to do that you may not have gotten to yet?
 
 **Samuel Taylor:** Definitely. There are machine learning-related side-projects, and there are just sort of fun side-projects... As a fun one I'll start with, I do some volunteer coding instruction, and I think that's really enjoyable. That's one of the most fun things that I do that's not work.
 
