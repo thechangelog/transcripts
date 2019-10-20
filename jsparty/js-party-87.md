@@ -186,7 +186,7 @@ So it's not about making your site work without JS for the Hacker News trolls, i
 
 **Jerod Santo:** \[00:24:13.03\] You're not gonna quote Hacker News again, are you?
 
-**Divya Sasidharan:** \[unintelligible 00:24:13.21\]
+**Divya Sasidharan:** \[laughs\] He's always trying..
 
 **Jerod Santo:** "I would just like to quote Hacker News one more time."
 
@@ -250,11 +250,11 @@ The nice thing when websites like Slack - or I guess web apps; whatever - web th
 
 **Divya Sasidharan:** Yeah.
 
-**Kevin Ball:** So if you have a select HTML element, that element is accessible, because the browser understands how the select works, screen readers understand how that works... You don't actually need additional ARIA attributes to explain a select element; it just functions, they know how it works. Similar to the rest of \[unintelligible 00:31:34.17\] various other things, until we decide that a select element is not good enough and we want a combo box, and we're going to implement this all in Javascript. Now we have taken control back - which is true, we now have more control - but we've also taken information and we need to now add that back explicitly with Javascript.
+**Kevin Ball:** So if you have a select HTML element, that element is accessible, because the browser understands how the select works, screen readers understand how that works... You don't actually need additional ARIA attributes to explain a select element; it just functions, they know how it works. Similar to the rest of Form Elements, various other things, until we decide that a select element is not good enough and we want a combo box, and we're going to implement this all in Javascript. Now we have taken control back - which is true, we now have more control - but we've also taken information and we need to now add that back explicitly with Javascript.
 
 **Feross Aboukhadijeh:** One nice thing you can do, by the way, is just use a select element, and then the JS can see the select element there and then replace it with something at runtime... So if the JS doesn't actually load, you still have the select element; it might not be as nice as your fancy little component widget-thingy-majigger, but will still work.
 
-**Divya Sasidharan:** \[00:32:15.28\] Yes. The thing about Javascript that makes it nice when you wanna access that DOM or that \[unintelligible 00:32:18.25\] work really nicely with accessibility, so if you were to trigger events, you're like "Clicking this button does this other thing", it opens a pop-up or whatever, like you were mentioning, Kball... Currently there's no way for you to manage what exactly happens with the accessibility tree. So if you want that interactivity to work, which is often the case, then you would need access to that tree, so that you can make sure that the event propagates properly, and that screen readers have the ability to handle that appropriately, without just it bubbling up wherever it goes... Which is very jarring. Viewing the web as someone who has an impairment is very frustrating... So the ability to handle those events as they propagate, because events are obviously what happen -- event delegation, all of that thing is kind of standard on the web at this point...
+**Divya Sasidharan:** \[00:32:15.28\] Yes. The thing about Javascript that makes it nice when you wanna access that branch or that element on tree is that events work really nicely with accessibility, so if you were to trigger events, you're like "Clicking this button does this other thing", it opens a pop-up or whatever, like you were mentioning, Kball... Currently there's no way for you to manage what exactly happens with the accessibility tree. So if you want that interactivity to work, which is often the case, then you would need access to that tree, so that you can make sure that the event propagates properly, and that screen readers have the ability to handle that appropriately, without just it bubbling up wherever it goes... Which is very jarring. Viewing the web as someone who has an impairment is very frustrating... So the ability to handle those events as they propagate, because events are obviously what happen -- event delegation, all of that thing is kind of standard on the web at this point...
 
 **Kevin Ball:** Once you add Javascript.
 
@@ -364,7 +364,7 @@ So that's why it does depend... And I think Gmail even has a more obvious fallba
 
 **Kevin Ball:** Coming back to this question - there is this sort of meta-question that gets thrown around periodically around developer ergonomics, as compared to actual user value... And a lot of the over-emphasis on Javascript is around that developer ergonomics; it's really focused there... And there are times when that's the right answer and the right trade-off to make, and there are also times when (as we've just discussed) it enables a product experience that wouldn't make any sense in another world. However, I think we forget that it is actually a tradeoff very often, and we don't necessarily look at the cost that that places on users, we don't think about it; we're all using our high-end MacBooks on really fast networks, we develop things close to the servers that we're using, so we rarely have things that don't respond or time out, and we don't really deal with those error cases nearly to the extent that we probably should.
 
-I think we also have an over-emphasis on cutting-edge and latest-and-greatest. I think about Cragslist... Every developer and every designer is like "Oh, I'm gonna build a better Craigslist. Craigslist is a piece of crap. Craigslist is using this old \[unintelligible 00:46:43.12\]" Millions of people still use Craigslist every day, and if they're over the age of 40, many of them like it better than the other options.
+I think we also have an over-emphasis on cutting-edge and latest-and-greatest. I think about Cragslist... Every developer and every designer is like "Oh, I'm gonna build a better Craigslist. Craigslist is a piece of crap. Craigslist is using this old doing. Millions of people still use Craigslist every day, and if they're over the age of 40, many of them like it better than the other options.
 
 **Jerod Santo:** Isn't that more of an argument for first-to-market and network effects, versus quality tooling? They use it because they're used to it.
 
@@ -408,7 +408,7 @@ I think it's similar with how we build websites and web apps (web things). The w
 
 **Feross Aboukhadijeh:** That smug smile... You're like "I made it funny."
 
-**Divya Sasidharan:** \[unintelligible 00:50:59.21\]
+**Divya Sasidharan:** It's just... Go off! \[laughs\]
 
 **Jerod Santo:** I'm just imagining somebody fall over...
 
