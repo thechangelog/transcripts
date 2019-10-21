@@ -284,7 +284,7 @@ We had somebody on Changelog News recently, Adam, who was advocating for the use
 
 **Jerod Santo:** But that fixes it. And it actually works maybe 70% of the time without having to do that.
 
-**Adam Stacoviak:** I wonder if there's a \[unintelligible 00:23:34.26\] you can refresh, or something like that.
+**Adam Stacoviak:** I wonder if there's a keylist you can refresh, or something like that.
 
 **Jerod Santo:** I spent some time back in the day trying to do all the things, and there's just nothing... So mostly I'm just like "I feel like I need to just change it." I don't know who to blame at this point. I feel like it's macOS, or some sort of LG driver thing. Nobody else that I can find on the internet has this problem, so it's one of those un-googleable things.
 
