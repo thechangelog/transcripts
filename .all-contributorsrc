@@ -1663,6 +1663,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Schmidt-Aaron",
+      "name": "Aaron Schmidt",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10256141?v=4",
+      "profile": "http://www.aaronms.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
