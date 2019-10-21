@@ -152,7 +152,7 @@ There's some things that are left up to the implementers because they're writing
 
 **Jory Burson:** Yes... \[laughs\]
 
-**Amal Hussein:** And it's a good segue into my -- You know, proposals are proposals, and they will change; they're almost guaranteed to change. \[unintelligible 00:27:51.07\] is a prime example of that. Babel makes it really easy for us to use these stage zero, stage one presets, but now since they've added messages and warnings saying "FYI, this is going to change. This is not real Javascript yet."
+**Amal Hussein:** And it's a good segue into my -- You know, proposals are proposals, and they will change; they're almost guaranteed to change. Decorators is a prime example of that. Babel makes it really easy for us to use these stage zero, stage one presets, but now since they've added messages and warnings saying "FYI, this is going to change. This is not real Javascript yet."
 
 \[00:28:13.24\] So just understand that it's a major maintenance burden for you and your teams moving forward. Like, yeah, somebody might write some automated way to refactor it, but it's still something that you have to do, and it's still decisions that need to be made by product teams and QA teams, and... You know, it's just not worth it. Be responsible and only use real Javascript. \[laughter\] We should make like a "Real Javascript" sticker.
 
@@ -254,7 +254,7 @@ So there's multiple layers for stopping regressions from happening, and I'm tryi
 
 **Jory Burson:** That's a great question. Yes, we're a professional services firm, so there's a lot of different types of these kinds of companies, and different industries, and we serve the open source/open web tech industry. What that meant in 2009 when the company was first formed and what it means now is different, because everything changes, and you kind of have to stay with the changes. In 2009 it meant convincing people that Javascript was a language worth learning and using in enterprise; it meant teaching people a lot about new tools, like jQuery, that they could use to better work with the DOM, and that kind of thing... And it's evolved over time to include a lot of work on tools, and things that make life better for developers. Whatever happens with technology in the future, I think what Bocoup will be doing is whatever needs to be done in order to help advocate and improve the lives of developers - and users that they support, right? Because that's the other constituency that we care a lot about.
 
-In practice today that means we're working a lot on infrastructure tools, and primarily the test suites, but also Amal's team... If you wanna plug \[unintelligible 00:40:11.27\] really quick...
+In practice today that means we're working a lot on infrastructure tools, and primarily the test suites, but also Amal's team... If you wanna plug Gaia really quick...
 
 **Amal Hussein:** \[00:40:13.23\] Oh, yeah. At Bocoup, our model is we have engineers that work on our reliability standards and testing projects with our browser vendors. Then some of us also still kind of do what Bocoup was really famous for, which is we make amazing web apps; but we've really evolved from making amazing web apps, which we feel like the community is really there, but we're pushing the boundaries now with computer vision and augmented reality, games interactive media... So web applications that have all of those components, that are a little bit more niche.
 
