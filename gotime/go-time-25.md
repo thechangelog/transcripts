@@ -26,7 +26,7 @@ I tried to think of an algorithm that would really benefit from concurrency, so 
 
 **Erik St. Martin:** I'm trying to think of some of the original ones... See, this is where I start to fall under your same memory problem - I vaguely remember some stuff, but what was it? I know there's some things with my own misunderstanding of the language that kind of fell flat, but I don't know whether implementing a specific algorithm... I can't think of an exact...
 
-**Peter Bourgon:** I struggled with the concurrency stuff for a little while; my pet project at the time was this synthesizer thing which never really got anywhere, but I started off by sending individual float32s down the channel. That doesn't work. You need to \[unintelligible 00:03:31.24\] those up.
+**Peter Bourgon:** I struggled with the concurrency stuff for a little while; my pet project at the time was this synthesizer thing which never really got anywhere, but I started off by sending individual float32s down the channel. That doesn't work. You need to buffer those up.
 
 Anyway, so I dug in and managed to introduce it at my next job in a small capacity, and became even more interested and started building a lot of typical things out, like a proxy... I think my first project that stuck around was this key/value store. I guess everyone either does that, or a web router; one of the two things.
 
@@ -66,7 +66,7 @@ So we built up a relatively good background of early Go tips and tricks, and we 
 
 **Erik St. Martin:** Yeah, I'd agree, too. I always forget what the exact error is, but one of the confusing parts for me was in the early days with interfaces when you'd pass something as a value or a pointer, and it needed a pointer receiver. If it expected a pointer receiver on the method it would work, but if you passed a value it wouldn't work, and you'd get an error and there was always confusion about why that didn't work until I looked into actually how interfaces are built. When you look at them, there's actually a value inside of it, as well as a pointer to the type, so it's like "Well, it can make a pointer to the value, but it can't make a value from the pointer, or vice versa." That used to mess with me all the time, because I'd be like, "Why does it work one way but not the other?"
 
-**Carlisia Pinto:** \[00:08:07.20\] Somebody gave a talk about that one at the Go Language team members \[unintelligible 00:08:10.22\] and there was a good explanation. But yeah, it's not easy; you don't find this information right away when you start learning. Even now...
+**Carlisia Pinto:** \[00:08:07.20\] Somebody gave a talk about that one at the Go Language team members, I've forgot who, and there was a good explanation. But yeah, it's not easy; you don't find this information right away when you start learning. Even now...
 
 **Erik St. Martin:** Well, I guess it exists in the form of the language spec, right? That's actually a really good place, in the Memory Model. I remember reading the Memory Model, and that started solidifying a lot of concepts to me, about ordering, how the compiler can actually reorder your statements, so you can't actually guarantee when this is run concurrently that these things are gonna happen before each other just because you put them in the code that way, and that really started helping with my knowledge. But I think you have to have some experience. You kind of have to find your way around first, and develop some battle scars and then read it, because then you have something to relate it to.
 
@@ -140,7 +140,7 @@ When I give my little workshops, I say "If you're five engineers or fewer, there
 
 **Carlisia Pinto:** Yeah, I saw Peter's talk at Golang UK and he was very discouraging of using microservices. \[laughter\] And I really liked it because he went through all the pain points, some obvious, some not so obvious - obviously, he has a ton of experience - and he went through many pain points that you can go through by having a microservice if you are not really properly set up for it, like he was saying. If you are super small, you don't need to divide your codebase in many microservices.
 
-But at the same time, Scott's remark is to the point I think, because as I have been learning more about packaging in Go in the recent months, Go makes it so easy to really contain your code through the use of packages. I wonder if for Go the \[unintelligible 00:21:58.10\] would be different as far as a feasible size for a codebase.
+But at the same time, Scott's remark is to the point I think, because as I have been learning more about packaging in Go in the recent months, Go makes it so easy to really contain your code through the use of packages. I wonder if for Go the heuristics would be different as far as a feasible size for a codebase.
 
 **Peter Bourgon:** Do you think it would be bigger or smaller, Carlisia?
 
@@ -148,7 +148,7 @@ But at the same time, Scott's remark is to the point I think, because as I have 
 
 **Peter Bourgon:** Yeah, I think it's completely viable. I guess I don't have the stamina to give my workshop again here, but there's so many problems that come when you're splitting your business domain along process boundaries. If you can avoid doing that, if you can split it on package boundaries and then wire things up internally with some interprocess or intraprocess communication layer rather than JSON or HTTP or whatever... And package boundaries make a good proxy for that sort of thing. Although then you start entering this still quite confusing for me domain of how do you structure your repo? How do you decide where to cut up your packages?
 
-Ben Johnson has an opinion about this, but I've tried to use it and it often fails for me. Maybe I'm \[unintelligible 00:23:26.09\] it wrong. There's lots of opinions about this sort of thing; I'd love to hold a panel about that as well.
+Ben Johnson has an opinion about this, but I've tried to use it and it often fails for me. Maybe I'm holding it wrong. There's lots of opinions about this sort of thing; I'd love to hold a panel about that as well.
 
 **Carlisia Pinto:** I would, too. I'm super interested in that. By the way, the other company I was thinking about was Google. Google has a single repo. But yeah, Ben Johnson was talking about that, Bill Kennedy promised that he's going to start writing about that as well... I'm working on a talk and a blog post about packaging, although mine's going to be more like entry-level than one of you guys. But personally, I can't even imagine working with a monorepo. Just the whole "deploy everything everytime, run every single test everytime or at least once in a while..." I can't imagine.
 
@@ -238,7 +238,7 @@ So they're the core committee, and then we have this sort of trusted advisory gr
 
 **Peter Bourgon:** Right. What we did was an extensive, comprehensive survey of the states of the ecosystem, both in Go and in other languages. We consulted with all of the authors about the pain points that they experienced and if they wanted to represent their user's experience, and what things they found to be super important, the most important top K features, or whatever. And then we took feedback from the community based on user stories, based on design points... There's a whole bunch of questions. "Should the tool in this scenario do this or that? How should it interact with the GOPATH? How should it manage version ranges?" and so on and so forth.
 
-Each of these questions has a wide variety of possible answers, so we enumerated all those as best we could. Then, with this "survey" of possible use cases and design space points and user stories and all these things, we \[unintelligible 00:39:05.24\] down to what we considered to be the bare minimum usable, covering 90% of the use case tool, and it ended up being quite a small surface area, so not too many subcommands. Then we made that spec, the spec of such a tool public, and we took feedback on that. So yeah, it's sort of like lessons learned, and hopefully a common ground between what everybody's doing.
+Each of these questions has a wide variety of possible answers, so we enumerated all those as best we could. Then, with this "survey" of possible use cases and design space points and user stories and all these things, we winnowed it down to what we considered to be the bare minimum usable, covering 90% of the use case tool, and it ended up being quite a small surface area, so not too many subcommands. Then we made that spec, the spec of such a tool public, and we took feedback on that. So yeah, it's sort of like lessons learned, and hopefully a common ground between what everybody's doing.
 
 **Carlisia Pinto:** From where you stand now Peter, what do you see as a possible timeline for this coming together as a production-ready tool for vendoring? If it goes on the path that it's going now; of course, if people say it needs to change, then who knows...? But if it goes on the path that's going now and there is agreement - there will never be consensus, but if it proves itself useful the way it's coming along, what do you see as far as timeline?
 
@@ -271,7 +271,7 @@ You really do need the single standard, and we're gonna do our best to make that
 
 **Erik St. Martin:** Scott, you're firing shots on the GoTime FM channel... Aliases! \[laughs\] Hand grenade!
 
-**Scott Mansfield:** Yeah... There was one point that I wanted to bring up that I thought was very good in the document that is out there now for \[unintelligible 00:45:37.21\] The idea of keeping this very restrictive, but also just simply dropping some of the more complex requirements I think is going to work out the best, because keeping that area small, that purview small to begin with is going to let you actually observe in the real world what the problems are. And I think too many people earlier \[unintelligible 00:45:58.09\] especially in the vendor channel on the Slack, was around all these complex use cases that people could just come up with all day. But having something out there and operating in the real world is going to get you the proper tooling.
+**Scott Mansfield:** Yeah... There was one point that I wanted to bring up that I thought was very good in the document that is out there now for comment. The idea of keeping this very restrictive, but also just simply dropping some of the more complex requirements I think is going to work out the best, because keeping that area small, that purview small to begin with is going to let you actually observe in the real world what the problems are. And I think too many people earlier, part of the churn, especially in the vendor channel on the Slack, was around all these complex use cases that people could just come up with all day. But having something out there and operating in the real world is going to get you the proper tooling.
 
 **Peter Bourgon:** I totally agree. It's very easy to come up with a convoluted workflow that breaks any tool you can imagine, and all you have to do is stamp a "Required" on that workflow, and suddenly you're back to square zero. What do you do?
 
@@ -311,7 +311,7 @@ Scott, did you wanna talk about aliases, or you're just throwing jokes here? \[l
 
 **Erik St. Martin:** I don't miss the days where there was competition with like, "Look, I wrote an IRC client in one line of Perl!" You're like, "But why?!"
 
-I worked with a guy \[unintelligible 00:49:18.03\] it was a right-only language; you didn't modify Perl, you just wrote a new one.
+I worked with a guy and he used to joke it was a write-only language; you didn't modify Perl, you just wrote a new one.
 
 **Peter Bourgon:** Exactly. You know who's using Perl all the time? Damian at booking.com, they're still a Perl shop.
 
@@ -417,7 +417,7 @@ There's other packages that sort of rely on your microservice being structured i
 
 **Carlisia Pinto:** I would say gops.
 
-**Erik St. Martin:** It's this really cool debug tool for Go processes on your machine. You can run gops stack and pass \[unintelligible 01:06:41.00\] of a Go process and you can actually see the current stack and you can get GC information and memory statistics from a running Go process.
+**Erik St. Martin:** It's this really cool debug tool for Go processes on your machine. You can run gops stack and pass it the PID of a Go process and you can actually see the current stack and you can get GC information and memory statistics from a running Go process.
 
 **Peter Bourgon:** Yeah, it's something I haven't been able to use in anger yet, but I'm super excited about the potential here. Because we all know Go processes are really introspectable in theory, but I can't be the only one when looking at something in a staging environment, for example, and having to remember how to piece together the call graph from whatever endpoints happen to be exposed. The idea of a single, unified introspection tool or interface to an arbitrary process is really exciting to me, and I'm really keen to take it to a limit at some point.
 
@@ -428,17 +428,17 @@ I think Scott disappeared on us. Where have you been at, Scott?
 
 **Peter Bourgon:** Oh, interesting.
 
-**Erik St. Martin:** Yeah, we should definitely clarify that. It's not that you can take any running Go process and do that. It works similar to the way you can expose the runtime stats over HTTP, there is kind of a library for it... But this adds more functionality than just exporting the -- how's that package pronounced? \[unintelligible 01:08:43.12\] Yeah, you look at these things and you're like... So when somebody named this, how did they pronounce it?
+**Erik St. Martin:** Yeah, we should definitely clarify that. It's not that you can take any running Go process and do that. It works similar to the way you can expose the runtime stats over HTTP, there is kind of a library for it... But this adds more functionality than just exporting the -- how's that package pronounced? expvar, Yeah, you look at these things and you're like... So when somebody named this, how did they pronounce it?
 
 **Scott Mansfield:** Pronunciation just wasn't important at the time.
 
-**Erik St. Martin:** It's like, I have two words, how do I make it one word? Here we go, \[unintelligible 01:08:59.21\] I love hearing people's pronunciations of stuff. Peter, you use Kubernetes, do you call it KubeCuttle (Kubectl)?
+**Erik St. Martin:** It's like, I have two words, how do I make it one word? Here we go, expvar, I love hearing people's pronunciations of stuff. Peter, you use Kubernetes, do you call it KubeCuttle (Kubectl)?
 
 **Peter Bourgon:** KubeCuttle, yeah, sure.
 
 **Erik St. Martin:** Yeah, I don't do that. It's KubeControl or Kubectl. I've never called it KubeCuttle, but people call it that all the time.
 
-**Peter Bourgon:** I like Kubectl, too. But I like KubeCuttle because it's like a \[unintelligible 01:09:22.23\] angle to it, which is generally how I feel when I'm programming.
+**Peter Bourgon:** I like Kubectl, too. But I like KubeCuttle because it's like a Cthulhu angle to it, which is generally how I feel when I'm programming.
 
 **Erik St. Martin:** So does that work for systemd too, it's systemcuttle, and EtcdCuttle?
 
@@ -466,7 +466,7 @@ I think Scott disappeared on us. Where have you been at, Scott?
 
 **Erik St. Martin:** That's basically where I'm at. I just got back from a conference.
 
-**Carlisia Pinto:** Apparently, I have a few \[unintelligible 01:10:39.16\] to go through, but somebody cut me off and there is no time. There is the Go Font - the Go Team came up with this new font that's meant for Go code. It's on the blog, there's a blog post about it, and it shows how the font looks like. It seems okay to me.
+**Carlisia Pinto:** Apparently, I have a few things to go through, but somebody cut me off and there is no time. There is the Go Font - the Go Team came up with this new font that's meant for Go code. It's on the blog, there's a blog post about it, and it shows how the font looks like. It seems okay to me.
 
 **Erik St. Martin:** Oh, interesting.
 
@@ -558,7 +558,7 @@ So do we have anything else, or we wanna move into \#FreeSoftwareFriday?
 
 **Erik St. Martin:** Now, Scott has a different opinion on log storage. Netflix doesn't do a lot of the distributed logs. Do you wanna speak to that a little bit, Scott?
 
-**Scott Mansfield:** So I would probably need to clarify that... We do have a massive logging system; we generate a ton of logs, but I don't... So as a company - it's the same old joke: we're a logging system with side effect of streaming video, and there's a massive \[unintelligible 01:18:27.24\] for this, and I believe that \[unintelligible 01:18:33.05\]
+**Scott Mansfield:** So I would probably need to clarify that... We do have a massive logging system; we generate a ton of logs, but I don't... So as a company - it's the same old joke: we're a logging system with side effect of streaming video, and there's a massive Kafka cluster that is just for this, and I believe that it has some processing after that and goes into...
 
 **Peter Bourgon:** ...HTFS, I imagine.
 
@@ -574,7 +574,7 @@ I think that solves most of the use cases for at-scale logging, because I think 
 
 **Peter Bourgon:** \[01:20:00.27\] I mean, certainly... I cut the logging domain into two parts: one is your typical debug info warn application logging, where you might need this kind of deep introspection in order to debug certain issues. But you don't need a high quality of service; you can drop some of those log messages and it's not gonna be the end of the world. But then there's this other thing, I call audit logging - maybe it has a different name in a different context - where it's like, if you're running Netflix you wanna see... Or let's say you're running a bank - you wanna see every time somebody makes a deposit or a credit. This stuff is critical to your business; you need durable, reliable logs of all of these transactions, and that probably needs to end up somewhere reliably.
 
-Both of these things is sort of what I'm considering, although they are drastically different \[unintelligible 01:20:56.10\] guarantees.
+Both of these things is sort of what I'm considering, although they are drastically different QoS guarantees.
 
 **Carlisia Pinto:** Well, let's talk about structured versus unstructured logging... Nah, I'm kidding. \[laughter\] That's a whole show right there.
 
