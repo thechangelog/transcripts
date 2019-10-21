@@ -220,7 +220,7 @@ I'm really good at starting courses and going through about a third of them, bec
 
 **Divya Sasidharan:** I like the categorization.
 
-**Kevin Ball:** Now, I will say - we're talking a lot about learning technical subjects... There's a whole range of other things out there, so I now spend much more of my time focused on learning things like personal effectiveness, personal growth, how \[unintelligible 00:34:13.22\] better at getting things done, and being happier and healthier, and productive, communication skills, marketing skills, business skills - all these things that don't necessarily fit in quite the same way. And for some of those I've found--
+**Kevin Ball:** Now, I will say - we're talking a lot about learning technical subjects... There's a whole range of other things out there, so I now spend much more of my time focused on learning things like personal effectiveness, personal growth, how am I, more just at better at getting things done, and being happier and healthier, and productive, communication skills, marketing skills, business skills - all these things that don't necessarily fit in quite the same way. And for some of those I've found--
 
 **Jerod Santo:** Podcasts.
 
@@ -252,7 +252,7 @@ But then when it's non-technical stuff, like "Oh, I need to build a shelf", or s
 
 **Kevin Ball:** Okay, dude.
 
-**Divya Sasidharan:** I generally reach for YouTube because I'm like "Some person in the world has created this crazy..." -- like, there's a person who has this blog called "IKEA hacks", and I watch that because it's so fun to just see what's possible. They're like "Oh, I use \[unintelligible 00:39:10.27\] using these shelves, and all these things..." So it gives me ideas, or even if I'm building something... This is very specifically homebuilding, but if I need ideas on it, a video is more helpful, because I visually need to see how the pieces are put together, and exactly what tools they're using, and so on.
+**Divya Sasidharan:** I generally reach for YouTube because I'm like "Some person in the world has created this crazy..." -- like, there's a person who has this blog called "IKEA hacks", and I watch that because it's so fun to just see what's possible. They're like "Oh, I made a.. I use the MALM bed but I made it a storage bed using these shelves, and all these things..." So it gives me ideas, or even if I'm building something... This is very specifically homebuilding, but if I need ideas on it, a video is more helpful, because I visually need to see how the pieces are put together, and exactly what tools they're using, and so on.
 
 Same for cooking... There's a cooking channel I absolutely love. His name is Chef John. Well, his name is not Chef -- well, he goes by Chef John.
 
@@ -268,7 +268,7 @@ So yeah, it depends on what you're trying to learn, because I think different av
 
 **Divya Sasidharan:** But actually -- so there is a YouTube channel called Fun Fun Function, which is awesome. When I was -- I think this was years ago, in 2014, when I was trying to deepen my knowledge of Javascript more, because I was doing Ruby and then I was transitioning over... His videos were amazing. But again, going back to what I was saying, YouTube is just like everything.
 
-**Jerod Santo:** Okay. Kball, what about you on the YouTube front? \[unintelligible 00:41:37.12\] I agree with you on the curation, Divya, or on the level of quality that you are more likely to have at a teaching-specific site like Egghead, Frontend Masters, and so on and so forth. Does that mean that the people who are turning to YouTube -- because by the millions, people are turning to YouTube to learn programming. Are they getting a subpar experience, or are they learning slower or are they struggling maybe because so much noise, not the quality necessarily guaranteed? Just a thought. Kball, you've been quiet for a while. What do you think about this stuff?
+**Jerod Santo:** Okay. Kball, what about you on the YouTube front? Well it leads me to thought as like I agree with you on the curation, Divya, or on the level of quality that you are more likely to have at a teaching-specific site like Egghead, Frontend Masters, and so on and so forth. Does that mean that the people who are turning to YouTube -- because by the millions, people are turning to YouTube to learn programming. Are they getting a subpar experience, or are they learning slower or are they struggling maybe because so much noise, not the quality necessarily guaranteed? Just a thought. Kball, you've been quiet for a while. What do you think about this stuff?
 
 **Kevin Ball:** Yeah, I like video. I don't consume video very often. I will look to video, once again, when I'm trying to get started or where I feel stuck, because sometimes that gets me through it. I mentioned my process - I'll go take a course, and there the video is super-helpful.
 
