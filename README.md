@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-184-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-185-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -264,6 +264,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/MissMeg"><img src="https://avatars2.githubusercontent.com/u/24844720?v=4" width="100px;" alt="Megan Amendola"/><br /><sub><b>Megan Amendola</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=MissMeg" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/reneisrael"><img src="https://avatars2.githubusercontent.com/u/605882?v=4" width="100px;" alt="reneisrael"/><br /><sub><b>reneisrael</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=reneisrael" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/capacitator51"><img src="https://avatars0.githubusercontent.com/u/54542490?v=4" width="100px;" alt="capacitator51"/><br /><sub><b>capacitator51</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=capacitator51" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://www.aaronms.com"><img src="https://avatars0.githubusercontent.com/u/10256141?v=4" width="100px;" alt="Aaron Schmidt"/><br /><sub><b>Aaron Schmidt</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=Schmidt-Aaron" title="Documentation">📖</a></td>
   </tr>
 </table>
 
