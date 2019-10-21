@@ -570,7 +570,7 @@ On the storage side, your mileage may vary, but basically if you're gonna go the
 
 **Adam Stacoviak:** \[00:56:03.18\] And I'm sure you could probably just have that installed as an app, even on like a Mac OS, and point it at a drive and say "This is the drive I want you to watch, or these drives", and those things sync to, say, different sources or endpoints inside of Backblaze.
 
-**Jerod Santo:** Backblaze is basically $5/month per machine. So if it's mounted as a drive on that machine and it's not like an actual network storage, then that computer backs up \[unintelligible 00:56:32.24\]
+**Jerod Santo:** Backblaze is basically $5/month per machine. So if it's mounted as a drive on that machine and it's not like an actual network storage, then that computer backs up ,uhh, which is another, uh.
 
 **Adam Stacoviak:** Sweet. I should do it then.
 
