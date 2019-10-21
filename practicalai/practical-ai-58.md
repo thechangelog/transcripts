@@ -88,7 +88,7 @@ So I think if other countries are really serious about this, I think it is a mod
 
 **Daniel Whitenack:** It's definitely great to talk about some of the things that have been going on in parts of the world that we're not currently in, but there's certainly a lot of AI news coming from the rest of the world as well, and I think that you had something that you wanted to highlight, that you saw in -- was it from MIT, or where was it from?
 
-**Chris Benson:** Yeah, I saw it on \[unintelligible 00:16:58.17\] It's an article that I ran across called "Artificial Intelligence Probes Dark Matter in the Universe."
+**Chris Benson:** Yeah, I saw it on phys.org It's an article that I ran across called "Artificial Intelligence Probes Dark Matter in the Universe."
 
 **Daniel Whitenack:** Oh yeah, from ETH Zürich.
 
@@ -162,7 +162,7 @@ So I think this was the type of methodology that Hugging Face employed. Hugging 
 
 I like seeing this AI-centered piece, and when I go out and do keynotes or things like that around AI, it's one of the points I'm often making... So I was kind of delighted to see it. He kind of starts off talking about in deep learning, and how you think about the outcome first, with the intention of avoiding bias in your process, which is very easy to allow to happen, as we all know; it's probably the most common problem in deep learning that we all face with our data... But how easy it is to get to potentially a bad outcome. So by kind of keeping your people-centered outcome at the center of your process, he says you're more likely to get an outcome and better training than you would otherwise get.
 
-So the three keys that he's talking about here is transparency, and he's talking about the fact that you really need to understand what you're trying to get to, and be very clear with what your intentions are in the training, and make sure that your data is oriented on the outcome that you want, and making sure that the process of doing the model training is obvious in terms of what your inputs are to get your \[unintelligible 00:32:01.16\] so that no mistakes are made.
+So the three keys that he's talking about here is transparency, and he's talking about the fact that you really need to understand what you're trying to get to, and be very clear with what your intentions are in the training, and make sure that your data is oriented on the outcome that you want, and making sure that the process of doing the model training is obvious in terms of what your inputs are to get your output is possible so that no mistakes are made.
 
 \[00:32:05.03\] And the second point is explainability. This is obviously a huge area inside AI research, in terms of being able to understand how the inferences a model is making - how those inferences are being reached. Certainly in the industry I'm in, where we have a lot of autonomy, in terms of autonomous vehicles, being able to put people's lives in that, and being able to explain how your model is getting in that is kind of a key to people having confidence in that.
 
