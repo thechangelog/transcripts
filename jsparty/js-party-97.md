@@ -220,7 +220,7 @@ I'm really good at starting courses and going through about a third of them, bec
 
 **Divya Sasidharan:** I like the categorization.
 
-**Kevin Ball:** Now, I will say - we're talking a lot about learning technical subjects... There's a whole range of other things out there, so I now spend much more of my time focused on learning things like personal effectiveness, personal growth, how am I, more just at better at getting things done, and being happier and healthier, and productive, communication skills, marketing skills, business skills - all these things that don't necessarily fit in quite the same way. And for some of those I've found--
+**Kevin Ball:** Now, I will say - we're talking a lot about learning technical subjects... There's a whole range of other things out there, so I now spend much more of my time focused on learning things like personal effectiveness, personal growth, how am I more just better at getting things done, and being happier and healthier, and productive, communication skills, marketing skills, business skills - all these things that don't necessarily fit in quite the same way. And for some of those I've found--
 
 **Jerod Santo:** Podcasts.
 

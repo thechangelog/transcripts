@@ -38,7 +38,7 @@ There's an article that we'll reference in the show notes - and we'll reference 
 
 I like seeing it every time it's in Africa, and I know we've talked about in the past and I think we're gonna talk about that a bit today... So I'm pretty happy. And I've also noticed it's going into a lot of colleges, universities around the world that are not top-tier strictly. So instead of everything strictly being like in the U.S, Stanford, MIT, that kind of thing, there's a lot of second-tier universities that are trying to do their thing at it, and I'm very encouraged by that. It's really becoming available to everyone.
 
-**Daniel Whitenack:** Yeah, definitely. There's a lot of problems that are relevant to AI, that are probably people from those regions have more domain expertise and more empathy for these sorts of problems around things like translation, or things like certain agriculture-related applications, or other applications that I'm sure people are working on... But these sorts of problems - the major application of those seems like they would be in places where there is a lot of language diversity, or where there is a lot of agriculture, right?
+**Daniel Whitenack:** Yeah, definitely. There's a lot of problems that are relevant to AI, that are probably people from those regions have more domain expertise and more empathy for these sorts of problems around things like translation, or things like certain agriculture-related applications, or other applications that I'm sure people are working on... But these sorts of problems - the major application of those seem like they would be in places where there is a lot of language diversity, or where there is a lot of agriculture, right?
 
 Some of the things that I've seen recently are the ICLR Conference happening in Ethiopia this year; it's a big AI research conference, which is really great to see that happening there. I wish we could be there. Maybe if there's any organizers listening to this and you want our podcast there, definitely let us know.
 
@@ -88,7 +88,7 @@ So I think if other countries are really serious about this, I think it is a mod
 
 **Daniel Whitenack:** It's definitely great to talk about some of the things that have been going on in parts of the world that we're not currently in, but there's certainly a lot of AI news coming from the rest of the world as well, and I think that you had something that you wanted to highlight, that you saw in -- was it from MIT, or where was it from?
 
-**Chris Benson:** Yeah, I saw it on \[unintelligible 00:16:58.17\] It's an article that I ran across called "Artificial Intelligence Probes Dark Matter in the Universe."
+**Chris Benson:** Yeah, I saw it on phys.org. It's an article that I ran across called "Artificial Intelligence Probes Dark Matter in the Universe."
 
 **Daniel Whitenack:** Oh yeah, from ETH Zürich.
 
@@ -162,7 +162,7 @@ So I think this was the type of methodology that Hugging Face employed. Hugging 
 
 I like seeing this AI-centered piece, and when I go out and do keynotes or things like that around AI, it's one of the points I'm often making... So I was kind of delighted to see it. He kind of starts off talking about in deep learning, and how you think about the outcome first, with the intention of avoiding bias in your process, which is very easy to allow to happen, as we all know; it's probably the most common problem in deep learning that we all face with our data... But how easy it is to get to potentially a bad outcome. So by kind of keeping your people-centered outcome at the center of your process, he says you're more likely to get an outcome and better training than you would otherwise get.
 
-So the three keys that he's talking about here is transparency, and he's talking about the fact that you really need to understand what you're trying to get to, and be very clear with what your intentions are in the training, and make sure that your data is oriented on the outcome that you want, and making sure that the process of doing the model training is obvious in terms of what your inputs are to get your \[unintelligible 00:32:01.16\] so that no mistakes are made.
+So the three keys that he's talking about here is transparency, and he's talking about the fact that you really need to understand what you're trying to get to, and be very clear with what your intentions are in the training, and make sure that your data is oriented on the outcome that you want, and making sure that the process of doing the model training is as obvious in terms of what your inputs are to get your output as possible so that no mistakes are made.
 
 \[00:32:05.03\] And the second point is explainability. This is obviously a huge area inside AI research, in terms of being able to understand how the inferences a model is making - how those inferences are being reached. Certainly in the industry I'm in, where we have a lot of autonomy, in terms of autonomous vehicles, being able to put people's lives in that, and being able to explain how your model is getting in that is kind of a key to people having confidence in that.
 
