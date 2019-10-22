@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-188-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-189-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -270,6 +270,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   <tr>
     <td align="center"><a href="https://github.com/nguyenphusi"><img src="https://avatars2.githubusercontent.com/u/8143167?v=4" width="100px;" alt="Si Nguyen"/><br /><sub><b>Si Nguyen</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=nguyenphusi" title="Documentation">📖</a></td>
     <td align="center"><a href="https://blackeka.github.io/"><img src="https://avatars2.githubusercontent.com/u/23608035?v=4" width="100px;" alt="Katie Blacketor"/><br /><sub><b>Katie Blacketor</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=blackeka" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/QueenBeea"><img src="https://avatars2.githubusercontent.com/u/45769904?v=4" width="100px;" alt="QueenBeea"/><br /><sub><b>QueenBeea</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=QueenBeea" title="Documentation">📖</a></td>
   </tr>
 </table>
 
