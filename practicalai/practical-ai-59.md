@@ -22,7 +22,7 @@
 
 **Daniel Whitenack:** Wow... Well, you'll have vegetables in pies, or something.
 
-**Chris Benson:** There you go. So apparently even the meat-eating folks of the U.K. may go that way. But this isn't a vegan podcast, so I'll stop going down that... Anyway. But when I get back - I will be back into the world on this side of the pond early in October, coming back into work on the 7th, and I am gonna get to do something that's pretty fun... Participating in a program that Lockheed Martin has been driving, with some partners. It is called AlphaPilot. And today with us on this podcast we have Keith Lynn, who is the program manager at Lockheed Manager for the AlphaPilot program.
+**Chris Benson:** There you go. So apparently even the meat-eating folks of the U.K. may go that way. But this isn't a vegan podcast, so I'll stop going down that... Anyway. But when I get back - I will kinda be back into the world on this side of the pond early in October, coming back into work on the 7th, and I am gonna get to do something that's pretty fun that's participating in a program that Lockheed Martin has been driving, with some partners. It is called AlphaPilot. And today with us on this podcast we have Keith Lynn, who is the program manager at Lockheed Manager for the AlphaPilot program.
 
 \[00:04:12.16\] When he tells you about this in a few minutes, it's gonna blow your mind. It's a super cool thing, and he's been working really hard on it. Keith, welcome to the show!
 

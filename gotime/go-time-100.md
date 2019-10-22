@@ -26,7 +26,7 @@
 
 **Carmen Andoh:** Well, let's get started. Let's talk about Go. I guess one of the first things that people wanted to know was what it was like in the early days, in the very beginning, when you decided "Hey, let's start writing a programming language."
 
-**Rob Pike:** Robert, I guess it was kind of my fault, right? I'm not sure exactly how it started, but the story we like to tell is we'd just seen a talk about the release of a new version of C++, which was the language that most of the server software was written in at Google... And I had been thinking for a while about how inappropriate C++ was, because it lacked support for the new multi-core machines we were getting, and how I wanted to go back to some of the ideas I had explored many years earlier with concurrent programming... And then we were sitting -- Robert and I shared an office, and sometime in September 2007 I think I literally turned my chair around to Robert and I said "Hey, Robert, we should do something about this."
+**Rob Pike:** Robert, I guess it was kind of my fault, right? I'm not sure exactly how it started, but the story we like to tell is we'd just seen a talk about a new release, a new version of C++, which was the language that most of the server software was written in at Google... And I had been thinking for a while about how inappropriate C++ was, because it lacked support for the new multi-core machines we were getting, and how I wanted to go back to some of the ideas I had explored many years earlier with concurrent programming... And then we were sitting -- Robert and I shared an office, and sometime in September 2007 I think I literally turned my chair around to Robert and I said "Hey, Robert, we should do something about this."
 
 We talked for a few minutes, and then Ken was in the next office, so I ran and got Ken and said "Do you wanna help?" He said yes, and that was it. Does that jive with your memory, Robert?
 
@@ -34,9 +34,9 @@ We talked for a few minutes, and then Ken was in the next office, so I ran and g
 
 **Rob Pike:** \[00:04:22.21\] 45 minutes.
 
-**Robert Griesemer:** Okay, 45 minutes, and you were not particularly happy. And one of us said "We should stop doing this (complaining) and try to do something about it." I guess both of us instantly more or less decided "Yes, we should really do something about it."
+**Robert Griesemer:** Okay, 45 minutes, and you were not particularly happy. And one of us said "We should stop doing this or complaining or whatever and try to do something about it." I guess both of us sort of instantly more or less decided "Yes, we should really do something about it."
 
-**Rob Pike:** Yeah, part of that huge build was also and what I was trying to do was deal with the fact that I wasn't allowed to use threads to solve a concurrent problem in the program, because the C++ libraries didn't work properly in that way, and the style rules forbid the use of threads in the binary. So I was doing gymnastics, which were very difficult to get right, to do what struck me as a very simple job... And then every time I touched anything, I had to wait 45 minutes for another build, on a huge distributed compile cluster. At some point, my morale just broke. We had to do something... But I just think I remember turning the chair around and saying "Robert, help!"
+**Rob Pike:** Yeah, part of that huge build was also and what I was trying to do was deal with the fact that I wasn't allowed to use threads to solve a concurrent problem in the program, because the C++ libraries didn't work properly in that way, and the style rules forbid the use of threads in the binary. So I was doing gymnastics, which were very difficult to get right, to do what struck me as a very simple job... And then every time I touched anything, I had to wait 45 minutes for another build, on a huge distributed compile cluster. At some point, my morale just broke. We had to do something... But I disctinctly remember turning the chair around and saying "Robert, help!"
 
 **Jon Calhoun:** Whenever you guys started then, did you just immediately go full-time into it, or was this like a 20% type project or something on the side? Because I guess for most people it would be very hard to just drop what they're doing and go work on a language. That's a big undertaking. So what was that like - was it just like a partial "Let me work on this 20%, every Friday" or was it something else?
 
@@ -60,7 +60,7 @@ For me, it definitely would have not been possible to just do another project, b
 
 **Carmen Andoh:** No, I'll let you.
 
-**Rob Pike:** I was just gonna fill the timeline in a little more. So by April 2008 Ken wanted to work on a compiler; the first one was compiling to C code, which we then compiled with a C compiler, because that was easier to get started... Although that didn't last very long. And I think in April 2008 - I was in Sydney at the time, and I think Robert came out to Sydney then, and we had a conference room with the video calling set up full-time to Ken's office, who was still back in California, and the three of us wrote the spec together and implemented the compiler. Ken worked on the compiler, I was working on a spec, back and forth for a week or two, I think.
+**Rob Pike:** I was just gonna fill the timeline in a little more. So by April 2008 Ken was working on or wanted to work on a compiler; the first one was compiling to C code, which we then compiled with a C compiler, because that was easier to get started... Although that didn't last very long. And I think in April 2008 - I was in Sydney at the time, and I think Robert came out to Sydney then, and we had a conference room with the video calling set up full-time to Ken's office, who was still back in California, and the three of us wrote the spec together and implemented the compiler. Ken worked on the compiler, I was working on a spec, back and forth for a week or two, I think.
 
 **Robert Griesemer:** Two weeks, yeah.
 
@@ -88,7 +88,7 @@ For me, it definitely would have not been possible to just do another project, b
 
 Clearly, there were a lot of other languages that had done things like these, but we had to decide what the subset or how to choose the behavior of those features that they supported that best matched the model of the language we were trying to build. You don't get a good design by just grabbing features from other languages and gluing them together; instead, we tried to build a coherent model for the language where all the pieces worked in concert. Maps and slices were difficult, because we had to do something very different from the way we usually had thought about those things, at least from Ken and my point of view. Robert can speak for himself.
 
-**Robert Griesemer:** Yeah, so I'm coming from a completely different background. I did not grow up necessarily with C; I grew up with Pascal and its successors... And one of the successors was Modula 2 and then Oberon they had a similar feature, which was called an open array, which were dynamically sized... But they could only be passed as function arguments, so to speak. So you had an openly-sized array, dynamically-sized array inside a function, depending on the kind of array that you would pass. That was nice, but it was not as flexible as what we wanted, so it took a little bit of time to get from the various ideas from C and maybe from this idea, to get to what we have now.
+**Robert Griesemer:** Yeah, so I'm coming from a completely different background. I did not grow up necessarily with C; I grew up with Pascal and its successors... And in one of the successors was Modula 2 and then Oberon they had a similar feature, which was called an open array, which were dynamically sized... But they could only be passed as function arguments, so to speak. So you had an openly-sized array, dynamically-sized array inside a function, depending on the kind of array that you would pass. That was nice, but it was not as flexible as what we wanted, so it took a little bit of time to get from the various ideas from C and maybe from this idea, to get to what we have now.
 
 **Rob Pike:** Both maps and slices have the property, which is not true of anything in C, at least at the base level, which is that the memory representation is somewhat hidden from the user. They come with a more complex structure to hold the length of the array, or the hash buckets for the map, or whatever. And in C you never have anything like that at the basic level language... So that was a challenge. It turned out to be a challenge later, because in order to make slices and maps work properly, they have to be passed as the address of that in a descriptor block, and we struggled with how to best hide those pointers from the user.
 
@@ -122,21 +122,21 @@ At that point we were five, and the five of us worked as a group for probably qu
 
 **Robert Griesemer:** Right, right. Yeah, I think we were five or six, yes. There was a woman - I forgot her name, unfortunately.
 
-**Rob Pike:** \[unintelligible 00:17:16.24\]
+**Rob Pike:** Yes, Jeanie Kim. Yes.
 
 **Carmen Andoh:** And this was all the pre-open source. Do you wanna talk a little bit about the journey to the big day, November 10th, 2009, when it got open-sourced?
 
 **Rob Pike:** We knew that if we were ever gonna do this, it was gonna be open source... So we planned it to be an open source release. But we wanted to be able to get it right, or as close as we could get to right, before we showed it to the world. It was about two years of work before we launched it. There was an enormous rush in the last few months to clean up everything we were too embarrassed to let out the door, although we didn't get rid of everything...
 
-Those usual issues - launching from inside a corporation, we had to deal with trademarks, and patents, and all that nonsense to get the licensing right. I will say though that Google was absolutely fantastic in its approach to open source software and how much easier it was to do from inside Google than releasing things (in my experience) from inside AT&T. But to do that, we had to decide what the core libraries had to have in them. Adam doing the cryptography for us was fantastic, because it enabled TLS and other such things. Go has actually become a bit of a mainstay for a lot of cryptographic work now, largely thanks to Adam.
+Those usual issues - launching from inside a corporation, we had to deal with trademarks, and patents, and all that nonsense to get the licensing right. I will say though that Google was absolutely fantastic in its approach to open source software and how much easier it was to do from inside Google than releasing things, in my experience, from inside AT&T. But to do that, we had to decide what the core libraries had to have in them. Adam doing the cryptography for us was fantastic, because it enabled TLS and other such things. Go has actually become a bit of a mainstay for a lot of cryptographic work now, largely thanks to Adam.
 
-We had to do a website, so that people could see it; we had to get the spec into shape, we had to deal with the content management systems... We started with SVN and then moved to Perforce, because that's what Google used internally. But then Git had started to happen. The creation of Go I think predates GitHub, but not Git itself. We ran then a Mercurial, because that's what Google's open source product handled... So we used Mercurial for 2-3 years, I think, and then finally switched to Git once it was clear that was the future.
+We had to do a website, so that people could see it; we had to get the spec into shape, we had to deal with the content management systems... We started with SVN and then moved to Perforce, because that's what Google used internally. But then Git had started to happen. The creation of Go I think predates GitHub, but not Git itself. We ran then a Mercurial, because that's what Google's open source product handled... So we used Mercurial for 2 or 3 years, I think, and then finally switched to Git once it was clear that was the future.
 
 So Go has actually had four content management systems - SVN, Perforce, Mercurial and Git. That's part of loving the community - nothing constant but change.
 
 **Carmen Andoh:** This leads to another good question, which is once you unleashed it to open source, how did that change the dynamics, now that you have a community coming in and giving their opinions and co-creating?
 
-**Robert Griesemer:** Well, I think in the beginning the reaction was somewhat split into "Wow, this is great/interesting" and "This is absolutely horrible." And you take it from there, I think, slowly...
+**Robert Griesemer:** Well, I think in the beginning the reaction was somewhat split into "Wow, this is great or interesting" and "This is absolutely horrible." And you take it from there, I think, slowly...
 
 **Rob Pike:** \[00:20:04.05\] I think a lot of people didn't understand the point when we first launched it. This didn't look like an interesting language... Interesting in scare quotes. "Why is it like this? Why doesn't it have all these features I expect?" and so on. And the point of the language for us was we were trying to make it easier for us to build the software that we wrote in our day-to-day lives, and we thought that we didn't need all that complexity to do a good job of that.
 
@@ -166,7 +166,7 @@ I did see a demo of it on a YouTube video after some conference, and sort of cou
 
 **Rob Pike:** Well, nothing's ever perfect... There's a lot of stuff about the language I'd like to change, but maybe I shouldn't dig into that here. I do think that the team was not really prepared for interacting with the open source community and what that meant. Ian was the only one of us who'd spent a lot of time in the open source world, and he did more than his fair share of the community stuff.
 
-It took us a long time to understand what it meant to be part of an open source community, to have a project that's essentially paid for by a company, but with a lot of open source contributors... Actually, a lot of fantastic open source development occurred very early. The port to Windows was done entirely by outside contributors, which was fantastic... And the input of the community has been critical.
+It took us a long time to understand what it meant to be part of an open source community, to have a project that's essentially paid for by a company, but with a lot of open source contributors... We actually, a lot of fantastic open source development occurred very early. The port to Windows was done entirely by outside contributors, which was fantastic... And the input of the community has been critical.
 
 I think sometimes people think Google controls it too much, and that's their opinion, but I disagree; I think they underestimate how much the team listens to what the open source community says, reads all the issues, handles it all very well... Sometimes not so well, but then it gets fixed.
 
@@ -204,7 +204,7 @@ But people bitched about it because the compiler would yell at you for something
 
 **Jon Calhoun:** Was that the motivation behind tools like `gofmt` and stuff like that, or you were just trying to basically force people to have code that meets some set of standards? Because I know that every other language you see, everybody has different settings for Prettier, for JSON, or anything they're doing - they have some random set of "This is what we use", so no matter where you go, it all changes.
 
-**Robert Griesemer:** `gofmt` grew a little bit out of my frustration as a readability reviewer. Most companies, and certainly Google has a process where we review each other's code, so that all code that gets checked in is peer-reviewed... And much of that review follows a style guide. And if you looked at that style guide for a language like C or C++, a lot of the style guide is full of "You shall indent this much here, and you need to have a white space there" and so forth. Things that have really nothing or not much to do with engineering or the piece of code that you're writing, and just take a lot of time away. So I felt like this is something that we should totally automate. It's just so much time wasted by thousands of engineers basically telling somebody else "You need to put a white space here", or following some style guide that somebody wrote.
+**Robert Griesemer:** `gofmt` grew a little bit out of my frustration as a readability reviewer. Most companies, and certainly Google has a process where we review each other's code, so that all code that gets checked in is peer-reviewed... And much of that review follows a style guide. And if you looked at that style guide for a language like C or C++, a lot of the style guide is full of "You shall indent this much here, and you need to have a white space there" and so forth. Things that have really nothing or not much to do with engineering or the piece of code that you're writing, and just take a lot of time away. So I felt like this is something that we should totally automate. It's just so much time wasted by thousands of engineers basically telling somebody else "You need to put a white space here or not", or following some style guide that somebody wrote.
 
 Formatters had been written in the past, this was not the first time, but I suggested we should do this, and I wanted to do this... And Rob basically said "You know, show that it can be done." It took a while, there's no question about it; it took several years to get it to the place where it is now, and obviously it's not perfect, but people have come to love `gofmt`, even though they hate what `gofmt` does with their style sometimes.
 
@@ -250,7 +250,7 @@ I think our position on compatibility was also a really big deal for the communi
 
 The Go team is doing a lot of stuff on trying to improve the safety and reliability of grabbing code off the web, but... It remains a problem that surprised everybody when it landed, I think.
 
-**Robert Griesemer:** One of the things that surprised me is how many new languages appeared soon after Go came out... Because around 2007 it seemed like the language world was a little bit stagnant; there was C++, there was Java, Javascript, but there was not much else.
+**Robert Griesemer:** One of the things that surprised me is how many new languages appeared soon after Go came out... Because around 2007 it seemed like the language world was a little bit stagnated; there was C++, there was Java, Javascript, but there was not much else.
 
 **Rob Pike:** Python.
 
@@ -300,7 +300,7 @@ We've had conversations with other projects. We wanted to know how we do and how
 
 So there's aspects of our ecosystem that are not necessarily seminal, but have some influence over the way the systems of the future will be built, whatever happens with Go.
 
-\[00:55:49.16\] Go is still growing as a community, and who knows how big it'll get. As I said, I don't think it's gonna be the number one language ever, or even close to it. One place where it has not established much of a beachhead is education. I like to see it. I think it will never really become a major mainstream language until it's taught in universities... And that pretty much hasn't happened yet. There's a little tiny bit of it, but not enough. And now that Python has pretty much become the de facto language for everything except systems software, I think Python is the language of the future that you should probably be talking about.
+\[00:55:49.16\] Go is still growing as a community, and who knows how big it'll get. As I said, I don't think it's gonna be the number one language ever, or even close to it. One place where it has not established much of a beachhead is education. I'd like to see it. I think it will never really become a major mainstream language until it's taught in universities... And that pretty much hasn't happened yet. There's a little tiny bit of it, but not enough. And now that Python has pretty much become the de facto language for everything except systems software, I think Python is the language of the future that you should probably be talking about.
 
 **Carmen Andoh:** Hm... Which is a shame, because I took computer science, but I really didn't like it; and I tell everybody this story. I just wished that I had Go, because I do feel like Go is a way that we can completely rethink about how we teach computer science.
 
@@ -314,7 +314,7 @@ Python is of particular interest right now because of machine learning. Python a
 
 **Rob Pike:** Well, also Jupyter Notebooks are an absolutely astounding thing, that I wish I had when I was a student.
 
-**Carmen Andoh:** On par - same! That would have been just life-changing. Well, Jon, do you have any more questions for Rob or Robert?
+**Carmen Andoh:** Hard same! That would have been just life-changing. Well, Jon, do you have any more questions for Rob or Robert?
 
 **Jon Calhoun:** I guess the one I'd like to ask about is you guys mentioned earlier that when you went open source, you weren't fully-prepared for that. It was like a learning phase to get involved with that. And I think at least for me, I know the first open source project I released, the biggest issue I made was probably the opposite of what you guys did, where I basically took everything and anything people threw at me, because I was so excited that people cared enough to want to do something that you just kind of like take it all... And maybe three months later I'm looking at it and trying to maintain it, and I'm like "This is really hard to maintain", because I made that mistake of just taking every feature; everything I could take, I did. And you guys had the opposite mindset. Were there any other things like that - if somebody's looking to get into open source, to start branching out of that - other takeaways that you guys would say are helpful to think about, that maybe aren't obvious?
 
