@@ -12,7 +12,7 @@
 
 **Adam Stacoviak:** Right.
 
-**Mireille B. Reece, Psy.D:** So we are going to be more prone to repeat things, to do things over and over again that feel good to use, for one reason or another. And those things that we do usually have a cue; that cue is highly tethered to an environment. There's also a significant role of social, community as a part of whatever habit we do, that also is going to make us more apt to repeat a certain behavior.
+**Mireille B. Reece, Psy.D:** So we are going to be more prone to repeat things, to do things over and over and over again that feel good to us, for one reason or another. And those things that we do usually have a cue; and that cue is highly tethered to an environment. It's also there's a significant role of social, community as a part of whatever habit we do, that also is going to make us more apt to repeat a certain behavior.
 
 So habits, fundamentally, are - there's a cue, then there is some anticipated response that goes with it, and then a reward that comes from that. This is why they're hard to break. Because remember that - and I think we've mentioned this in other episodes, but we are electrochemical beings... And that means that we have this energy, and so there's chemical processes, and there's electrical processes. So where I've mentioned about how neurons either fire or they don't, it's an all-or-nothing sort of gig that when our brains are cued to respond, the neuron fires, and then it connects to all these other neurons, which together we call a network... And that, when I have that same cue, it's like, the current just runs; it runs the same play.
 
@@ -42,7 +42,7 @@ So habits, fundamentally, are - there's a cue, then there is some anticipated re
 
 **Mireille B. Reece, Psy.D:** Right? So even thinking like "Why do I continue to do the things that I don't want to do...?!"
 
-**Adam Stacoviak:** Let me ask you potentially an Inception-level question - can a habit be a habit, so to speak? Are my bad habits actually habits as well? Am I prone to execute bad habits because that's my habit?
+**Adam Stacoviak:** So let me ask you potentially an Inception-level question - can a habit be a habit, so to speak? Are my bad habits actually habits as well? Am I prone to execute bad habits because that's my habit?
 
 **Mireille B. Reece, Psy.D:** Precisely, yeah. We all are. It's not an Adam thing or a Mireille thing. It's a fundamental human thing, because we just practice them over and over again. You've heard of even muscle memory...
 
