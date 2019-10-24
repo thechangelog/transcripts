@@ -38,7 +38,7 @@ There's an article that we'll reference in the show notes - and we'll reference 
 
 I like seeing it every time it's in Africa, and I know we've talked about in the past and I think we're gonna talk about that a bit today... So I'm pretty happy. And I've also noticed it's going into a lot of colleges, universities around the world that are not top-tier strictly. So instead of everything strictly being like in the U.S, Stanford, MIT, that kind of thing, there's a lot of second-tier universities that are trying to do their thing at it, and I'm very encouraged by that. It's really becoming available to everyone.
 
-**Daniel Whitenack:** Yeah, definitely. There's a lot of problems that are relevant to AI, that are probably people from those regions have more domain expertise and more empathy for these sorts of problems around things like translation, or things like certain agriculture-related applications, or other applications that I'm sure people are working on... But these sorts of problems - the major application of those seems like they would be in places where there is a lot of language diversity, or where there is a lot of agriculture, right?
+**Daniel Whitenack:** Yeah, definitely. There's a lot of problems that are relevant to AI, that are probably people from those regions have more domain expertise and more empathy for these sorts of problems around things like translation, or things like certain agriculture-related applications, or other applications that I'm sure people are working on... But these sorts of problems - the major application of those seem like they would be in places where there is a lot of language diversity, or where there is a lot of agriculture, right?
 
 Some of the things that I've seen recently are the ICLR Conference happening in Ethiopia this year; it's a big AI research conference, which is really great to see that happening there. I wish we could be there. Maybe if there's any organizers listening to this and you want our podcast there, definitely let us know.
 
@@ -88,7 +88,7 @@ So I think if other countries are really serious about this, I think it is a mod
 
 **Daniel Whitenack:** It's definitely great to talk about some of the things that have been going on in parts of the world that we're not currently in, but there's certainly a lot of AI news coming from the rest of the world as well, and I think that you had something that you wanted to highlight, that you saw in -- was it from MIT, or where was it from?
 
-**Chris Benson:** Yeah, I saw it on phys.org It's an article that I ran across called "Artificial Intelligence Probes Dark Matter in the Universe."
+**Chris Benson:** Yeah, I saw it on phys.org. It's an article that I ran across called "Artificial Intelligence Probes Dark Matter in the Universe."
 
 **Daniel Whitenack:** Oh yeah, from ETH Zürich.
 
