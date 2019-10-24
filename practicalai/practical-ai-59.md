@@ -22,7 +22,7 @@
 
 **Daniel Whitenack:** Wow... Well, you'll have vegetables in pies, or something.
 
-**Chris Benson:** There you go. So apparently even the meat-eating folks of the U.K. may go that way. But this isn't a vegan podcast, so I'll stop going down that... Anyway. But when I get back - I will be back into the world on this side of the pond early in October, coming back into work on the 7th, and I am gonna get to do something that's pretty fun... Participating in a program that Lockheed Martin has been driving, with some partners. It is called AlphaPilot. And today with us on this podcast we have Keith Lynn, who is the program manager at Lockheed Manager for the AlphaPilot program.
+**Chris Benson:** There you go. So apparently even the meat-eating folks of the U.K. may go that way. But this isn't a vegan podcast, so I'll stop going down that... Anyway. But when I get back - I will kinda be back into the world on this side of the pond early in October, coming back into work on the 7th, and I am gonna get to do something that's pretty fun that's participating in a program that Lockheed Martin has been driving, with some partners. It is called AlphaPilot. And today with us on this podcast we have Keith Lynn, who is the program manager at Lockheed Manager for the AlphaPilot program.
 
 \[00:04:12.16\] When he tells you about this in a few minutes, it's gonna blow your mind. It's a super cool thing, and he's been working really hard on it. Keith, welcome to the show!
 
@@ -112,7 +112,7 @@ The teams that we selected are just fantastic. A lot of them are with universiti
 
 **Daniel Whitenack:** On these teams, I'm kind of curious - you mentioned universities - are they mostly student teams that are doing this as a senior design project, or something like that? Or is it graduate researchers? What's the range of experience there?
 
-**Keith Lynn:** A little bit of everything. We didn't wanna put too many restrictions on how teams formed, because we wanted people to feel comfortable working with the other individuals that made the most sense, and that they would enjoy being part of \[unintelligible 00:19:16.11\] We do have some teams where it's all undergrad students, we have some where it's a mix of grad, undergrad, and we have some where the professors are even involved. So yeah, we get a little bit of everything.
+**Keith Lynn:** A little bit of everything. We didn't wanna put too many restrictions on how teams formed, because we wanted people to feel comfortable working with the other individuals that made the most sense, and that they would enjoy being part of this with most. We do have some teams where it's all undergrad students, we have some where it's a mix of grad, undergrad, and we have some where the professors are even involved. So yeah, we get a little bit of everything.
 
 The only rules we've put on it were no more than ten individuals per team. So we didn't have anyone with 100 people on the roster, and then we have to keep tabs on all of them, and they're outsourcing tasks to the web, and things like that. And then a basic age requirement, just because you're dealing with some flying things that are really heavy and go fast, so we wanna make sure everybody is an adult. But that was it.
 
