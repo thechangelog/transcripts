@@ -1,6 +1,6 @@
-**Chris Benson:** Hi there, this is Chris Benson and welcome to another Fully Connected episode of Practical AI, where Daniel and I will keep you fully connected with everything that's happening in the AI community. We take some time to discuss the latest AI news, and we dig into learning resources to help you level up on your machine learning game. How's it going today, Daniel?
+**Chris Benson:** Hi there! This is Chris Benson and welcome to another Fully Connected episode of Practical AI, where Daniel and I will keep you fully connected with everything that's happening in the AI community. We take some time to discuss the latest AI news, and we dig into learning resources to help you level up on your machine learning game. How's it going today, Daniel?
 
-**Daniel Whitenack:** It's going great. I'm excited about some of the news we've got going on today.
+**Daniel Whitenack:** It's going great! I'm excited about some of the news we've got going on today.
 
 **Chris Benson:** Yeah, I love the format, the way we're diving into it... For those of you who may have listened to our last Fully Connected episode - hopefully, it was as good an experience for you. We're definitely listening to your feedback, trying to shape the show to better serve your needs going forward.
 
@@ -70,7 +70,7 @@ It's all good from my standpoint, in that I'm hoping that this drives prices dow
 
 **Daniel Whitenack:** Yeah, let me know if you think this is a good analogy, because I'm not sure that it is, but... All the cloud providers now pretty much have GPU support, and I think most of those are NVIDIA GPUs, but also Google has developed this TPU architecture, which is only available in Google Cloud. It seems like now Amazon is kind of doing -- maybe not the same type of play, but doing some sort of specialized hardware that's maybe only going to be available in AWS. Do you think that is kind of a similar play, or...?
 
-**Chris Benson:** \[00:16:07.03\] I do. If we go back to the episode where we had NVIDIA's chief scientist Bill Dally on, and he schooled us all in GPUs versus TPUs, and ASICs and such, and all the different hardware possibilities here... He talked about the rise of ASICs, and you can think of the TPU (to paraphrase him) as almost a lighter version -- a GPU has a whole bunch more to it, other than just doing the math necessary in a neural network. So I think you're seeing these very specific chips coming out, with Amazon and with the Google TPU.
+**Chris Benson:** \[00:16:07.03\] I do. If we go back to the episode where we had NVIDIA's chief scientist Bill Dally on, and he schooled us all in GPUs versus TPUs, and ASICs and such, and all the different hardware possibilities here - He talked about the rise of ASICs, and you can think of the TPU (to paraphrase him) as almost a lighter version -- a GPU has a whole bunch more to it, other than just doing the math necessary in a neural network. So I think you're seeing these very specific chips coming out, with Amazon and with the Google TPU.
 
 The GPUs have that same capability, but they also have a whole bunch more. But it seems to be that people really focus on that specialization of doing the matrix multiplication. It's really kind of commoditizing the industry, because instead of trying to recreate an entire GPU competitively, they're really focusing on this use case.
 
