@@ -26,7 +26,7 @@ Alright, we’re joined today by Yukihiro Matsumoto, also known as Matz. Now, if
 
 **Yukihiro Matsumoto:** Yes, 1980.
 
-**Adam Stacoviak:** Give or take. So what was it about this device, this opportunity, that made you think, "I could do this, I could make something on this, I could make my living doing this. This excites me."?
+**Adam Stacoviak:** Give or take. So what was it about this device, this opportunity, that made you think "I could do this, I could make something on this, I could make my living doing this. This excites me."?
 
 **Yukihiro Matsumoto:** I didn’t think anything about a job or working at that time. The programming has interested me very much just because I can order the computer, or I can train the computer to do things I want to do. I was interested in programming. I can program or train them to work for me.
 
