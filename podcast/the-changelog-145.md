@@ -4,7 +4,7 @@
 
 **Adam Stacoviak:** So we've got Jerod on the line... Jerod, say hello.
 
-**Jerod Santo:** What's up? I'm excited to be here.
+**Jerod Santo:** What's up? I'm excited to be here!
 
 **Adam Stacoviak:** Jerod, this has been a show in the making for us. David, you don't know this, but we've had the idea of doing this show since roughly around the 10th anniversary -- well, I guess probably the tail end of last year, so around October/November I was like "Jerod, we should do a show called 10+ years of Rails with DHH", so that's what we're doing here today. It's the tail end of February 2015, so we're finally there.
 
