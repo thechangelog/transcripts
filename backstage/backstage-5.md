@@ -614,7 +614,7 @@ Even Gravatar, for instance. That's a feature, right? I have to give my email ad
 
 **Adam Stacoviak:** It is amazing. It was the first time I had ever actually used a voice-to-something on a remote... And it was amazing. I don't have Xfinity anymore, because it's so expensive - we now have DirecTV - but I really miss that talk feature. It was the best of all talk features, and it never failed. It was always right.
 
-**Jerod Santo:** Well, speaking of top features, we've failed to mention the top feature for iOS, which was like "God's own video" and everything, which is Dark Mode. That's the headliner, right?
+**Jerod Santo:** Well, speaking of top features, we've failed to mention the top feature for iOS, which got its own video and everything, which is Dark Mode. That's the headliner, right?
 
 **Adam Stacoviak:** Yes...!
 
