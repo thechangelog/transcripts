@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-192-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-193-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -274,6 +274,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/KrishnaTG1"><img src="https://avatars3.githubusercontent.com/u/56825879?v=4" width="100px;" alt="KrishnaTG1"/><br /><sub><b>KrishnaTG1</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=KrishnaTG1" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Cappie2"><img src="https://avatars0.githubusercontent.com/u/56831523?v=4" width="100px;" alt="Cappie2"/><br /><sub><b>Cappie2</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=Cappie2" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/denislooby"><img src="https://avatars3.githubusercontent.com/u/13116686?v=4" width="100px;" alt="Denis Looby"/><br /><sub><b>Denis Looby</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=denislooby" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/GennadyAgashkov"><img src="https://avatars2.githubusercontent.com/u/5602536?v=4" width="100px;" alt="Gennady Agashkov"/><br /><sub><b>Gennady Agashkov</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=GennadyAgashkov" title="Documentation">📖</a></td>
   </tr>
 </table>
 
