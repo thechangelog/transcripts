@@ -12,13 +12,13 @@
 
 **Adam Stacoviak:** Right.
 
-**Mireille B. Reece, Psy.D:** So we are going to be more prone to repeat things, to do things over and over again that feel good to use, for one reason or another. And those things that we do usually have a cue; that cue is highly tethered to an environment. There's also a significant role of social, community as a part of whatever habit we do, that also is going to make us more apt to repeat a certain behavior.
+**Mireille B. Reece, Psy.D:** So we are going to be more prone to repeat things, to do things over and over again that feel good to us, for one reason or another. And those things that we do usually have a cue; that cue is highly tethered to an environment. There's also a significant role of social, community as a part of whatever habit we do, that also is going to make us more apt to repeat a certain behavior.
 
 So habits, fundamentally, are - there's a cue, then there is some anticipated response that goes with it, and then a reward that comes from that. This is why they're hard to break. Because remember that - and I think we've mentioned this in other episodes, but we are electrochemical beings... And that means that we have this energy, and so there's chemical processes, and there's electrical processes. So where I've mentioned about how neurons either fire or they don't, it's an all-or-nothing sort of gig that when our brains are cued to respond, the neuron fires, and then it connects to all these other neurons, which together we call a network... And that, when I have that same cue, it's like, the current just runs; it runs the same play.
 
 \[00:04:02.14\] There's a lot more research around this, even within the field of sports psychology, in terms of training... Because you want to practice training the way you wanna play, because your brain doesn't know the difference, whether it's a game or it's practice.
 
-**Adam Stacoviak:** Michael Phelps is a famous example of that recently in the Olympics, with his training methodology... How he wanted to execute his run, his swim, whatever it was, his meat or whatever term they use for that... So his daily routine was as if it was a winning day every single day.
+**Adam Stacoviak:** Michael Phelps is a famous example of that recently in the Olympics, with his training methodology... How he wanted to execute his run, his swim, whatever it was, his meet or whatever term they use for that... So his daily routine was as if it was a winning day every single day.
 
 **Mireille B. Reece, Psy.D:** Exactly, and there's been athlete upon athlete... I'm totally blanking, for whatever reason, but there's also a football player who always trained the exact same way. He was a running back and he would catch it, and run it to the goal as though it were an actual game... Because what you're doing is building that firing system to respond a certain way. Ironically, it was Tony Dungy. Are you familiar with him?
 
@@ -74,7 +74,7 @@ I've heard a story once about some guy who went over to his neighbors and he was
 
 **Adam Stacoviak:** Oh, dang...! Burn!! \[laughter\]
 
-**Mireille B. Reece, Psy.D:** We all make these choices around how much dividends it's going to pay, and dopamine is at the heart of that. So imagine you're gonna get a kickback. Your brain is gonna be like "Uuh, that feels good every time I do that behavior, because it feels good to me. It doesn't have to feel good to anybody else, but if feels good to me, so I'm going to then go redo it."
+**Mireille B. Reece, Psy.D:** We all make these choices around how much dividends it's going to pay, and dopamine is at the heart of that. So imagine you're gonna get a kickback. Your brain is gonna be like "Ooo, that feels good every time I do that behavior, because it feels good to me. It doesn't have to feel good to anybody else, but if feels good to me, so I'm going to then go redo it."
 
 So we have to learn -- everybody has a habit they don't like, right? How do I then change it? How do I modify bad habits I don't want? I have to repeal and replace. I have to acknowledge that there's a habit that isn't working well for me, and then look at how I'm going to rope in, how do I tether in a feel-good? Because that's why I'm gonna do the old bad habit. It still feels good...
 
@@ -88,7 +88,7 @@ So we have to learn -- everybody has a habit they don't like, right? How do I th
 
 **Adam Stacoviak:** What you've just said there is literally my inner dialogue. It's kind of funny, because we will choose that comfort, and we'll even rationalize to ourselves in the moment. Like you've just said, you don't wanna do this for all these reasons, however it's okay because we've done it before, or it's okay because we haven't been hurt yet, or this expected or anticipated result hasn't happened yet, so we still have time to correct things... "For now I'll just do it the old way, because it's comfortable."
 
-**Mireille B. Reece, Psy.D:** Yeah. A lot of people will look at this in terms of healthy habits. Be it exercise, eating habits, but also relationships. It's hard to break relationships. I always give the visual picture of the energy ball at the Science Museum; when you put your hand on it, all of the electricity goes to that area.
+**Mireille B. Reece, Psy.D:** Yeah. A lot of people will look at this in terms of healthy habits. Be it exercise, eating habits, but also relationships. It's hard to break relationships. I always give the visual picture of the energy ball at the science museum; when you put your hand on it, all of the electricity goes to that area.
 
 **Adam Stacoviak:** Yeah, I love that thing.
 
@@ -146,11 +146,11 @@ So I'm not going to then be prone to be like "Yeah, I think I'll go work out in 
 
 **Mireille B. Reece, Psy.D:** Correct.
 
-**Adam Stacoviak:** Embedding this change you wanna do into something else. On the note of health and fitness, one thing I've done to be more -- because my hand went up when you mentioned hitting gyms; I don't really care for gyms. And it's not because I don't like them, it's just I feel on display, uncomfortable etc. What you've just mentioned. So what I've done is I've embedded my fitness into something I actually enjoy, which is mountain-biking.
+**Adam Stacoviak:** Embedding this change you wanna do into something else. On the note of health and fitness, one thing I've done to be more -- because my hand went up when you mentioned hitting gyms; I don't really care for gyms. And it's not because I don't like them, it's just I feel on display, uncomfortable etc. What you've just mentioned. So what I've done is I've embedded my fitness into something I actually enjoy, which is mountain biking.
 
 **Mireille B. Reece, Psy.D:** Yes.
 
-**Adam Stacoviak:** So now I'm far more fit today that I had been in the last several years because I'm habitually motivated by going out and mountain-biking, and that's a very high-fitness -- you know, sometimes group activity, too. But it's not the gym. But I'm getting very similar physical activity. So that's one habit I've changed with physical fitness and health - by embedding this desirable thing into my routine.
+**Adam Stacoviak:** So now I'm far more fit today that I had been in the last several years because I'm habitually motivated by going out and mountain biking, and that's a very high-fitness -- you know, sometimes group activity, too. But it's not the gym. But I'm getting very similar physical activity. So that's one habit I've changed with physical fitness and health - by embedding this desirable thing into my routine.
 
 **Mireille B. Reece, Psy.D:** Right, but you hacked it. And I would say the social component for you might be other people outside of your family, but also your family.
 
@@ -166,7 +166,7 @@ So I'm not going to then be prone to be like "Yeah, I think I'll go work out in 
 
 **Mireille B. Reece, Psy.D:** Okay.
 
-**Adam Stacoviak:** \[00:20:06.15\] So my initial hack to getting to where I'm at is "Let me find something that's fun to do as fitness, rather than feeling like a drone having to go to the gym, and being a robot etc." Not that that's bad. If it's for you, it's for you, whatever; it's not for me. So one layer to this is actually now that I really enjoy mountain-biking and I realize that I'm less physically fit than I wanna be, while I do get my fitness from mountain-biking, it doesn't mean I get stronger because of it. Over time I might, but it's not like lifting weights, or strength training, or even particular training you might wanna do to be better at mountain-biking, which is a lot of upper-body movement, a lot of legs, a lot of back, a lot of core...
+**Adam Stacoviak:** \[00:20:06.15\] So my initial hack to getting to where I'm at is "Let me find something that's fun to do as fitness, rather than feeling like a drone having to go to the gym, and being a robot etc." Not that that's bad. If it's for you, it's for you, whatever; it's not for me. So one layer to this is actually now that I really enjoy mountain biking and I realize that I'm less physically fit than I wanna be, while I do get my fitness from mountain biking, it doesn't mean I get stronger because of it. Over time I might, but it's not like lifting weights, or strength training, or even particular training you might wanna do to be better at mountain biking, which is a lot of upper-body movement, a lot of legs, a lot of back, a lot of core...
 
 **Mireille B. Reece, Psy.D:** Yes.
 
@@ -174,7 +174,7 @@ So I'm not going to then be prone to be like "Yeah, I think I'll go work out in 
 
 **Mireille B. Reece, Psy.D:** Right?
 
-**Adam Stacoviak:** So I'm still executing on this y'all, but I'm so much closer to actually getting to the gym, because now I wanna be a better mountain-biker, and I realized my limitations, and what I'm gonna have to do to get there.
+**Adam Stacoviak:** So I'm still executing on this y'all, but I'm so much closer to actually getting to the gym, because now I wanna be a better mountain biker, and I realized my limitations, and what I'm gonna have to do to get there.
 
 **Mireille B. Reece, Psy.D:** Yeah, but do you see how you braided in, you moved it on over, so that your brain can see the payout? As opposed to it being a rational, ethereal "I know this in a non-relatable way", your brain has real-time data that goes "Yeah...!!" So you just got rid of that whole internal conflict around whether or not I go, but rather you've found out that it's going to help you both now and later in a myriad of ways. So your whole system just exploded.
 
@@ -202,7 +202,7 @@ I don't know if we've talked about this research study about the radishes and th
 
 \[00:23:50.19\] The next group, they said "Hey, you guys can eat as many radishes as you want, but no cookies. You need to stay away from those." And the last group, they were like "I know you see this plates of radishes and cookies, but you need to just totally abstain, alright? We'll be back in a little while."
 
-So after some time passed, they came in and gave the different groups puzzles to solve. The only problem was that these puzzles weren't actually solvable.Right, always psychologists, I'll tell you.
+So after some time passed, they came in and gave the different groups puzzles to solve. The only problem was that these puzzles weren't actually solvable. Right, always psychologists, I'll tell you.
 
 **Adam Stacoviak:** Right... Pulling some sort of game.
 
@@ -214,7 +214,7 @@ So after some time passed, they came in and gave the different groups puzzles to
 
 **Adam Stacoviak:** Yeah.
 
-**Mireille B. Reece, Psy.D:** So if you can, even in this process of modifying habits, be gracious with yourself, and recognizing that as there are other stressors, challenges, your resources internally are going to other things in your life, that you're considerate of those.
+**Mireille B. Reece, Psy.D:** So if you can, even in this process of modifying habits, be gracious with yourself, in recognizing that as there are other stressors, challenges, your resources internally are going to other things in your life, that you're considerate of those.
 
 I don't know if you've ever heard of the acronym HALT.
 
@@ -224,7 +224,7 @@ I don't know if you've ever heard of the acronym HALT.
 
 **Adam Stacoviak:** So I haven't heard of this one...
 
-**Mireille B. Reece, Psy.D:** It doesn't matter whether you're three, 23, 53 or 73. If you are hungry, angry, lonely or tired, you will inevitably make different decisions than if you're not any of those. I'd say willpower is sort of fitting in some of these. Because it's physiological. Your body is sending signals, "I am hungry. Feed me." "I need more energy. I need nourishment. I'm lonely, so my emotions are the frontrunner." So there's all of these different things that contribute to our personalized experience of stress, which will then affect our willpower, which then in turn affects how we run our habits.
+**Mireille B. Reece, Psy.D:** It doesn't matter whether you're three, 23, 53 or 73. If you are hungry, angry, lonely or tired, you will inevitably make different decisions than if you're not any of those. I'd say willpower is sort of fitting in some of these. Because it's physiological. Your body is sending signals, "I am hungry. Feed me." "I need more energy. I need nourishment. I'm lonely, so my emotions are frontrunner." So there's all of these different things that contribute to our personalized experience of stress, which will then affect our willpower, which then in turn affects how we run our habits.
 
 So how do we then hack these and change our habits, considering these other factors? I would say one of the things is to take a minute to reflect on your resources. If you are in a certain season of life, so to speak, or psychosocial stressor that's taking more of an energy draw from you - that's probably not the wisest time to imagine creating a major hack in one of your habits.
 
@@ -316,7 +316,7 @@ I really think that is a key part, because as we talked about initially too, fee
 
 **Adam Stacoviak:** As many books as you read, if you had a penny for every book you read, you'd be a thousandaire, or something. I'm just kidding...
 
-**Mireille B. Reece, Psy.D:** \[laughs\] But recognizing that this is part of the unique design. So how then do I hack my unique design that's going to work? And I also think of that -- now I'm gonna pull in (while we're unique) that social component of going "We're all embedded in other relationships and families." So just like you talked about the way in which mountain-biking not only works for you, but with your family, I think of it like my team - like, who's on my team? Who am most often around, that accompany me?
+**Mireille B. Reece, Psy.D:** \[laughs\] But recognizing that this is part of the unique design. So how then do I hack my unique design that's going to work? And I also think of that -- now I'm gonna pull in (while we're unique) that social component of going "We're all embedded in other relationships and families." So just like you talked about the way in which mountain biking not only works for you, but with your family, I think of it like my team - like, who's on my team? Who am most often around, that accompany me?
 
 In the world of brain injury talked about our board of advisors, because their brains didn't work as well. Like, "Who's on my board of advisors?" Who would assist me in being my best me, that my choices actually have a direct or indirect impact on them?
 
@@ -342,13 +342,13 @@ In the world of brain injury talked about our board of advisors, because their b
 
 **Adam Stacoviak:** Oh, yeah.
 
-**Mireille B. Reece, Psy.D:** Ironically, we don't want to look at what we're not doing. So if I put up on a calendar, say it's like "I want to mountain-bike four times this week", put an X on the calendar when you do it, because you're not gonna wanna look at a calendar that's empty.
+**Mireille B. Reece, Psy.D:** Ironically, we don't want to look at what we're not doing. So if I put up on a calendar, say it's like "I want to mountain bike four times this week", put an X on the calendar when you do it, because you're not gonna wanna look at a calendar that's empty.
 
 **Adam Stacoviak:** Right, yeah.
 
 **Mireille B. Reece, Psy.D:** And identify then how you're going to replace it. So if I'm looking at my day, and the context, and saying "I'm gonna be more prone to do this in the evening, based on my work schedule and my other social relationships, my family can join me etc. I'm gonna put it up on the calendar", then I have to go "What's my default? What's my previous habit that I do?" For example, a lot of people, if they're working outside the home, I could imagine one obstacle or default would be they come home and they're like "I'm done. I'm tired. I'm not changing clothes. I'm gonna sit on the sofa and turn on the TV."
 
-**Adam Stacoviak:** Yes... Playbook plays out. TV watched. 11 o'clock. Now you crack open the ice-cream... Just kidding. \[laughter\] We've gone the whole wrong way. What I love though is what you said there, and I don't know if the audience heard this as clearly as I did, but you said "Look at what you wanna do, your desired outcome, the desired thing to do, and then look at what you're doing instead." So if it's me mountain-biking or going to the gym or whatever it might be, and instead I get home tired and I just sit down, what's the routine that plays out as part of the cue of getting home? I wanna get to the gym by six; what am I doing instead of getting to the gym by six? Those are the things I need to replace. Is that right?
+**Adam Stacoviak:** Yes... Playbook plays out. TV watched. 11 o'clock. Now you crack open the ice-cream... Just kidding. \[laughter\] We've gone the whole wrong way. What I love though is what you said there, and I don't know if the audience heard this as clearly as I did, but you said "Look at what you wanna do, your desired outcome, the desired thing to do, and then look at what you're doing instead." So if it's me mountain biking or going to the gym or whatever it might be, and instead I get home tired and I just sit down, what's the routine that plays out as part of the cue of getting home? I wanna get to the gym by six; what am I doing instead of getting to the gym by six? Those are the things I need to replace. Is that right?
 
 **Mireille B. Reece, Psy.D:** Yeah, yeah. So if that's the time that I've identified that that's when I'm going to implement a new habit, then I need to look at how do I hack it? And I would say "I'm not gonna go home."
 
