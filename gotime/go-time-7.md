@@ -170,7 +170,7 @@ If you decide that you want to use a query string parameter call view, and the n
 
 **Erik St. Martin:** So I'd like to make sure we have kind of time to do a fireside chat... You know, talking about news and projects and stuff we've run across together. So before we move on off of Goa, I'd just kind of like to hear from you, what's next for Goa? What kind of functionality are you looking to add here in the near future?
 
-**Raphael Simon:** \[00:36:04.04\] Yeah, so there are a couple of things. First of all I should say that Goa is not 1.0 yet, so I think the near future is going to be finishing 1.0. We are very close, and what I think will make sense is to finish up the security examples that we've started, because that's an area that can get a bit harier than the other areas, so I think good examples around that makes lot of sense.
+**Raphael Simon:** \[00:36:04.04\] Yeah, so there are a couple of things. First of all I should say that Goa is not 1.0 yet, so I think the near future is going to be finishing 1.0. We are very close, and what I think will make sense is to finish up the security examples that we've started, because that's an area that can get a bit hairier than the other areas, so I think good examples around that makes lot of sense.
 
 So finishing those examples and making sure everybody's happy with those, and then I think at that point we'd be ready to phrase and kind of shift 1.0, whatever that means. But the idea is that then that is stable, so if you are waiting for Goa to be stable to use it, there you go; now you can start using it.
 
@@ -186,7 +186,7 @@ If you wanted to do that today, it would be a bit difficult because you couldn't
 
 **Erik St. Martin:** That's right. And you'll be actually speaking at [GopherCon](https://www.gophercon.com) this year and Brian will be speaking at Abstractions about Goa as well, if I'm correct?
 
-**Brian Ketelsen:** That's right. And we have a big announcement for people who might be interested in learning about Goa at either one of those conferences. I talked to the organizer of Abstractions and I talked with Erik, and we both agreed to do a discount code for both conferences, so you can get $50 off if you book at GopherCon or Abstractions if you use the code 'gotime', all lower case with no spacing. This will get you $50 off either conference if you want to go see Raphael talk at GopherCon or see me talk at Abstractions about Goa. [Abstractions.io](https://abstractions.io) is the website for Abstractions and [gophercon.com](www.gophercon.com) for GopherCon.
+**Brian Ketelsen:** That's right. And we have a big announcement for people who might be interested in learning about Goa at either one of those conferences. I talked to the organizer of Abstractions and I talked with Erik, and we both agreed to do a discount code for both conferences, so you can get $50 off if you book at GopherCon or Abstractions if you use the code 'gotime', all lower case with no spacing. This will get you $50 off either conference if you want to go see Raphael talk at GopherCon or see me talk at Abstractions about Goa. [Abstractions.io](https://abstractions.io) is the website for Abstractions and [gophercon.com](https://www.gophercon.com) for GopherCon.
 
 **Erik St. Martin:** Alright, so let's do some fireside chat here - news and interesting projects. We'd love for you to participate - Raphael, jump in wherever and offer your own input or things that you've come across and you find interesting.
 
