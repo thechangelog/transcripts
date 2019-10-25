@@ -6,7 +6,7 @@
 
 **Divya Sasidharan:** Hello! How's it going?
 
-**Jerod Santo:** It's going well, it's going very well. We are here to talk about Javascript and the web, celebrate such things, and we wanted to start off with a party with a little bit of catch-up. The new and noteworthy things in and around the Javascript and web ecosystem. We have lots to talk about here. I wanna flip the script and actually start with a fun one... I started at first with the most interesting, but now I wanna start with a fun one.
+**Jerod Santo:** It's going well, it's going very well. And we are here to talk about Javascript and the web, celebrate such things, and we wanted to start off with a party with a little bit of catch-up. The new and noteworthy things in and around the Javascript and web ecosystem. We have lots to talk about here. I wanna flip the script and actually start with a fun one... I started at first with the most interesting, but now I wanna start with a fun one.
 
 Let's go to the JS13kGames - winners have been announced. If you're unfamiliar with this game, it's an awesome competition where you're supposed to make a game in Javascript... And the website is down. \[laughter\] Are you serious...?
 
@@ -28,23 +28,23 @@ Let's go to the JS13kGames - winners have been announced. If you're unfamiliar w
 
 **Suz Hinton:** That is what I'm reading from the title. I was really impressed with this immediately, because the first thing that happens with this game is you get thrown into what looks like a text-based narrative kind of description, like an opening scene of a text-based narrative... And I remember thinking, "This has so much text. This has to already eat into the budget of the 13 kilobytes that you have." I'm looking at it and I'm like "This is hundreds of bytes already", and I'm thinking maybe they do something tricky... Like, are they allowed to fetch swathes of text via Ajax, and things like that. So I was looking into it, and so I thought "Whatever. I bet you the rest of the game is really small. I'll look into this later." And then you click Continue and you just end up in this 3D game, and I'm like "Are you serious right now?! How are they doing this?"
 
-\[00:04:13.29\] It's actually really cool. The idea is that you are this little pointy avatar, and there's this concept of files... I think you understand this a little better, Jerod, but you're basically navigating through this 3D sort of path, and you have to use your previous ghosts of yourself expiring in order to unlock gates and get through.
+\[00:04:13.29\] It's actually really cool. The idea is that you are this little sort of pointy avatar, and there's this concept of files... I think you understand this a little better, Jerod, but you're basically navigating through this 3D sort of path, and you have to use your previous ghosts of yourself expiring in order to sort of unlock gates to get through.
 
 **Jerod Santo:** Yes, exactly. Thanks to \[unintelligible 00:04:39.23\] in the chat who got us the direct link to the winning game, which is still loading... And the entry test that you're talking about - I'll just read it, because it's such a cool setup.
 
 "The year is 2413. Humanity is enslaved by an alien race for more than two centuries already. You are an AI weaponized virus, built to infiltrate the alien network and deactivate all power generators and weapon systems. The alien antivirus will detect and delete you after 13 seconds. But remember, a file is never really deleted. Use the execution backtrace from your previous attempts to break in and destroy the main memory core."
 
-So yeah, like you said, you basically move around and try to make it through certain gates. And the real gaming mechanism is the Backspace button, where you can start the level over and leave your previous trace there, and use it to advance. They say Backspace is kill -9 the executable, so... Super-nerdy, super-cool... Built by Ben Clarke and Salvatore \[unintelligible 00:05:40.11\] so congrats to them on an awesome game. I'm amazed by how you can fit so much into 13k.
+So yeah, like you said, you basically move around and try to make it through certain gates. And the real gaming mechanism is the Backspace button, where you can start the level over and leave your previous trace there, and use it to advance. They say Backspace is kill -9 the executable, so... Super-nerdy, super-cool... Built by Ben Clarke and Salvatore Pravidi so congrats to them on an awesome game. I'm amazed by how you can fit so much into 13k.
 
 **Suz Hinton:** Yeah, I'm looking through the source code and it's actually really nice to read. Even though it's minified, it's still incredibly readable. I've looked at the source code for these kinds of things before, like even JS1K and things like that, and it's always just been completely illegible. But this one's really cool, so you can see that in order to produce those large swathes of text at the beginning, they just created a string that had all the letters of the alphabet and the first numerical numbers from 0 to 9, all next to each other in one string, and then they're just using character code at, with the correct offset in the ASCII table in order to pull out the index of which one they need to express as the next text... Which I thought was really awesome.
 
-And then you can actually see how they've set up a lot of the levels, too. They have a bunch of mappings with Xs and Ys, and things like that. So most of the actual source code is setting up all the rooms, all the levels, and just plotting them out... I think that's really very cool, given that it feels like a very complex game.
+And then you can actually see how they've set up a lot of the levels, too. They have a bunch of mappings with Xs and Ys, and things like that. So most of the actual source code is setting up all I guess the rooms, all the levels, and just plotting them out... I think that's really very cool, given that it feels like a very complex game.
 
 **Jerod Santo:** It does. It's clever in so many facets. Just the idea itself is clever, and then the execution. The interesting thing about the way that I believe it would work is because the idea in the game is that you're replaying the previous run-through, there's so much recursive code, or just executing back the previous functions that were called, that you can squeeze a lot out of very little code, and make it feel complex, but really it's just rerunning something that's already run.
 
-**Suz Hinton:** Yeah, it's super-cool. And yeah, I'm surprised at how readable it is. They wrote some really beautiful code. A lot of the verbs and the variable namings really help you understand how it works. They didn't even have to do that, and I admire the fact that they were very thoughtful about how the code was presented as well, so... It was an absolute joy this morning to take a tour of it.
+**Suz Hinton:** Yeah, it's super-cool. And yeah, I'm just surprised at how readable it is. They wrote some really beautiful code. A lot of the verbs and the variable namings really help you understand how it works. They didn't even have to do that, and I admire the fact that they were very thoughtful about how the code was presented as well, so... It was an absolute joy this morning to take a tour of it.
 
-**Jerod Santo:** I've done one game jam in Javascript and had a lot of fun doing it, but I've never done any code golf competitions, or even really tried coding golf. I know those kinds of things began in the Perl world... That's a tongue twister, Perl world. Have either of you done code golfs, or trying to squeeze every single character down to the smallest you could possibly do?
+**Jerod Santo:** I've done one game jam in Javascript and had a lot of fun doing it, but I've never done any code golf kind of competitions, or even really tried coding golf. I know those kinds of things began in the Perl world... That's a tongue twister, Perl world. Have either of you done code golfs, or trying to squeeze every single character down to the smallest you could possibly do?
 
 **Divya Sasidharan:** I think I've seen the -- someone has done challenges within like 140 characters when Twitter used to be 140 characters... So you would write a problem, like a fizz buzz or something, within that character limit, as much as possible, which is really fun to see. It's still unreadable, but it worked.
 
@@ -60,13 +60,13 @@ Okay, let's move on to a little bit less fun, but probably more impactful for yo
 
 So for me, having to wrap things constantly just kind of made some of my code a little bit more convoluted. It was just wrapping things for the sake of wrapping things, just to get it to work, which feels like a code smell. So I like the idea of it... I'm actually kind of fascinated about how they would have implemented that in the engine more than anything. I think that it's gonna make my life easier, but other than that -- I'm not sort of pumped and shouting out into the streets about it, but I know that this was a very long game to float this by the implementers of the spec.
 
-**Divya Sasidharan:** \[00:11:45.05\] Yeah. I find it really annoying to always have to remember to reuse async when I await stuff. For instance, if you're calling an API, you're always awaiting it, but then in order for that await to work, you have to wrap the entire function in an async. So I always get that console error saying "Hey, you don't have async. You can't use await without async", which is like -- half the time I'm like "The async feels very redundant." It's almost like doing a return promise and doing a resolve when you just wanna do Promise.resolve() instead. It's the same idea, where I'm just wrapping and adding a lot of boilerplate to code that doesn't have to use that particularly.
+**Divya Sasidharan:** \[00:11:45.05\] Yeah. I find it really annoying to always have to remember to reuse async when I await stuff. So for instance, if you're calling an API, you're always awaiting it, but then in order for that await to work, you have to wrap the entire function in an async. So I always get that console error saying "Hey, you don't have async. You can't use await without async", which is like -- half the time I'm like "The async feels very redundant." It's almost like doing a return promise and doing a resolve when you just wanna do Promise.resolve() instead. It's the same idea, where I'm just wrapping and adding a lot of boilerplate to code that doesn't have to use that particularly.
 
 Specifically, a lot of times -- I write Vue, so I would have to create an entire function that's async, even though only one part of it uses await and the rest doesn't.
 
 **Suz Hinton:** Yeah, totally.
 
-**Divya Sasidharan:** So in a method it's like, that method is async, and it does multiple things, but I need an \[unintelligible 00:12:40.28\] So it makes it much cleaner this way, because there are a lot of times where you're just using -- the assumption is that there is a promise, you're making an API call or whatever, that's a promise, so you can just await it, you don't have the async.
+**Divya Sasidharan:** So in a method it's like, that method is async, and it does multiple things, but I need an await. So it makes it much cleaner this way, because there are a lot of times where you're just using -- the assumption is that there is a promise, you're making an API call or whatever, that's a promise, so you can just await it, you don't have the async.
 
 **Suz Hinton:** I really like how you likened it to some of the boilerplate you have to do with promises, where you just wanna do the thing. I've definitely felt the same sort of cringey feeling as I'm trying to put things together, and it's just causing bloat.
 
@@ -110,7 +110,7 @@ A couple of things Rich Harris wrote about is that it could be a way to block ex
 
 Now, maybe you're thinking "I already have this. It's in my dev tools." Well, that was the only place it previously existed. It was in dev tools as (I guess) syntactic sugar, or a nice way of using it without that extra anonymous function... But now you'll find it in the browsers, outside of the dev tools... So there you have it, top-level await.
 
-**Suz Hinton:** I think that \[unintelligible 00:15:51.15\] actually does make sense... But the issue is that this says you can do a while loop that runs forever, and you can stuff it in an async function, and then that will actually stop it from blocking the whole execution main thread... Which is really interesting, so I'm just hoping that people remember that they still need to put that in there.
+**Suz Hinton:** I think that footgun actually does make sense... But the issue is that this says you can do a while loop that runs forever, and you can stuff it in an async function, and then that will actually stop it from blocking the whole execution main thread... Which is really interesting, so I'm just hoping that people remember that they still need to put that in there.
 
 **Break:** \[00:16:14.18\]
 
@@ -134,7 +134,7 @@ And then the second thing I thought of was to do with bug bounties, and I was li
 
 **Jerod Santo:** Oh, stay tuned! We're gonna find out "Is Suz vulnerable?"
 
-**Suz Hinton:** I have probably \[unintelligible 00:20:47.28\] I try to keep my website very deliberately tiny... And so yeah, I'm actually excited to see... Zero total vulnerabilities!
+**Suz Hinton:** I have probably less than 2kb of JavaScript on it. I try to keep my website very deliberately tiny... And so yeah, I'm actually excited to see... Zero total vulnerabilities!
 
 **Jerod Santo:** Yaaay!
 
@@ -186,7 +186,7 @@ So they might not be showing the code that they've been working on, but talking 
 
 **Jerod Santo:** There you go.
 
-**Divya Sasidharan:** I have no idea. And I don't even think they've put a specific date on it. Perhaps the core team internally have a date, that they haven't publicly announced, just because it's hard to be accountable when there's so many variables. So end-of-year is what they've slated Vue 3 for, but there's a \[unintelligible 00:27:38.00\]
+**Divya Sasidharan:** I have no idea. And I don't even think they've put a specific date on it. Perhaps the core team internally have a date, that they haven't publicly announced, just because it's hard to be accountable when there's so many variables. So end-of-year is what they've slated Vue 3 for, but there's a chance yeah..
 
 **Jerod Santo:** Right. As the old joke goes, "They said end of year, but they didn't say which year."
 
@@ -264,13 +264,13 @@ You can check that out, I will include the link in the show notes... But it just
 
 I want to get more into this stuff. Not necessarily automation to be lazy, but just having little things happen that increase the quality of life on my computer every day, that I've sort of smoothed over because I thought "I'm not able to do that on the operating system."
 
-**Jerod Santo:** Yeah, I wonder if I can use this -- I have one desire which I have never quite filled... I want a copy as markdown system service. You basically take some HTML -- because we do a lot of stuff where we'll copy it and then we're basically covering it as a piece of news... So we wanna put the markdown in there as like a blockquote with markdown. I want a copy as markdown, and there's a Chrome extension - again, I don't use Chrome - or there's Safari things that don't really work... But I would love it to be a system service. That led me to writing some AppleScript. Then I was like "Well, I can use Javascript now, right?" So I went and looked at the Javascript APIs that Apple exposes, and it's like \[unintelligible 00:38:04.19\] what's going on there... \[laughter\] And I was like "I don't really need this that bad", so I just stopped. And I wonder if I can achieve that with Hamerspoon maybe.
+**Jerod Santo:** Yeah, I wonder if I can use this -- I have one desire which I have never quite filled... I want a copy as markdown system service. You basically take some HTML -- because we do a lot of stuff where we'll copy it and then we're basically covering it as a piece of news... So we wanna put the markdown in there as like a blockquote with markdown. I want a copy as markdown, and there's a Chrome extension - again, I don't use Chrome - or there's Safari things that don't really work... But I would love it to be a system service. That led me to writing some AppleScript. Then I was like "Well, I can use Javascript now, right?" So I went and looked at the Javascript APIs that Apple exposes, and it's like there be dragon.. what's going on there... \[laughter\] And I was like "I don't really need this that bad", so I just stopped. And I wonder if I can achieve that with Hamerspoon maybe.
 
 **Suz Hinton:** I know that there's some markdowny things that you can do in it. The API is just so incredibly extensive, and it made our life so much easier with demo stations and automation, but it is really good for other little conveniences like that.
 
 **Jerod Santo:** I didn't hear - did you say you're going to rewrite this Twitch setup, or you did rewrite this Twitch setup?
 
-**Suz Hinton:** I was aiming to, but because it's not cross-platform, I'm just wondering what I should do about that... But mostly because I also wanna be able to run some very similar tasks on Windows as well. So it hasn't solved all of my problems, because I would have to use something like maybe \[unintelligible 00:38:53.09\] or something like that on Windows. So if anyone's got some good Windows automation suggestions... Otherwise I'm gonna have to use PowerShell, which is totally fine; it's just that I don't' feel as comfortable -- it doesn't feel as intuitive to me to use something like PowerShell.
+**Suz Hinton:** I was aiming to, but because it's not cross-platform, I'm just wondering what I should do about that... But mostly because I also wanna be able to run some very similar tasks on Windows as well. So it hasn't solved all of my problems, because I would have to use something like maybe autohotkey or something like that on Windows. So if anyone's got some good Windows automation suggestions... Otherwise I'm gonna have to use PowerShell, which is totally fine; it's just that I don't' feel as comfortable -- it doesn't feel as intuitive to me to use something like PowerShell.
 
 **Jerod Santo:** Very cool. Alright, Divya, you are up. Pro Tip time.
 
@@ -344,7 +344,7 @@ I've found so many more people will answer all n questions that I have, or addre
 
 **Suz Hinton:** Yeah, I've been doing that a lot lately, too.
 
-**Divya Sasidharan:** Yeah. Because it's kind of rude to just start with the question... But at the same time, I'm like "If you started with it, they would be able to \[unintelligible 00:47:04.26\]"
+**Divya Sasidharan:** Yeah. Because it's kind of rude to just start with the question... But at the same time, I'm like "If you started with it, they would be able to.. yeah."
 
 **Jerod Santo:** Yeah.
 
@@ -358,13 +358,13 @@ I've found so many more people will answer all n questions that I have, or addre
 
 **Divya Sasidharan:** \[00:47:56.11\] You really improve the taste, but sure. Yes.
 
-**Jerod Santo:** Well, you never tasted one of my emails. They are tasty morsels. \[laughter\]
+**Jerod Santo:** Well, you've never tasted one of my emails. They are tasty morsels. \[laughter\]
 
 **Divya Sasidharan:** Short and salty.
 
 **Jerod Santo:** Short and salty. So there you have it, our pro tips. I'm curious from you two, any other tips on emails specifically, besides the numbering bit that you've found to be helpful for folks? I'm putting you on the spot.
 
-**Divya Sasidharan:** I think the other thing that gets often forgotten is the importance of the subject as well, and crafting the proper subject... Which is really hard. Sometimes if I have a question that I want answered, I put the question in the subject, which is like -- I don't know if that's effective... Because sometimes I don't want it to be too direct. If I ask the question and I don't expect them to say yes, I'll be like "If they see the question, they'll say no and they won't even bother reading the email... So I try to create a \[unintelligible 00:48:50.13\] subject, that gives enough information, but not enough, so that they have to read the email.
+**Divya Sasidharan:** I think the other thing that gets often forgotten is the importance of the subject as well, and crafting the proper subject... Which is really hard. Because sometimes if I have a question that I want answered, I put the question in the subject, which is like -- I don't know if that's effective... Because sometimes I don't want it to be too direct. Like if I ask the question and I don't expect them to say yes, I'll be like "If they see the question, they'll say no and they won't even bother reading the email... So I try to create a hook of a subject, that gives enough information, but not enough, so that they have to read the email.
 
 **Suz Hinton:** Uuh...
 
