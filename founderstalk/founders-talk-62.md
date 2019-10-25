@@ -22,7 +22,7 @@
 
 **Steve Hotze, M.D.:** It was called HoPaCo - Hotzy Paint Contracting Company. I had four friends of mine from high school that worked for me in college... So we painted homes in the nicest area of Austin, and did home remodeling.
 
-So that's what I did, and I graduated in 3,5 years. I took my \[unintelligible 00:03:09.06\] and got interviewed and got accepted to the University of Texas in Houston. Interestingly enough, I had decided if I'm not admitted to med school, I will just go on to homebuilding; I enjoyed construction, I'll go do homebuilding. But I got into the University of Texas, and interestingly enough, the first course I had to take in medical school was a Computer Route to Medicine; I had to take another computer course, and I went "Oh my gosh, I don't wanna do that", and I literally thought "Maybe I'll just drop out of med school, if I have to learn computers." Now I'm a big computer guy and we have all kinds of computers, but at that time I didn't -- I'm not a highly detailed person; I'm more of a 36,000-foot guy, entrepreneur, so I don't like the details so much. I like the big picture.
+So that's what I did, and I graduated in 3,5 years. I took my MedCat which is the medical boards and got interviewed and got accepted to the University of Texas in Houston. Interestingly enough, I had decided if I'm not admitted to med school, I will just go on to homebuilding; I enjoyed construction, I'll go do homebuilding. But I got into the University of Texas, and interestingly enough, the first course I had to take in medical school was a Computer Route to Medicine; I had to take another computer course, and I went "Oh my gosh, I don't wanna do that", and I literally thought "Maybe I'll just drop out of med school, if I have to learn computers." Now I'm a big computer guy and we have all kinds of computers, but at that time I didn't -- I'm not a highly detailed person; I'm more of a 36,000-foot guy, entrepreneur, so I don't like the details so much. I like the big picture.
 
 \[00:03:57.10\] But anyway, I got into med school at that time, and that's how I ended up in med school. I believe it was God's divine providence that was there, because he had plans for me to do something that would help people in a way that I hadn't really thought about it, and that's getting into natural approaches to health.
 
@@ -152,7 +152,7 @@ So I started seeing my dad improve on these natural modalities, and I said "Well
 
 **Steve Hotze, M.D.:** That was it.
 
-**Adam Stacoviak:** Let's go back to that timeframe, and let's maybe gear towards the business side of being a doctor, maybe \[unintelligible 00:25:24.11\] that you are in this clinic...
+**Adam Stacoviak:** Let's go back to that timeframe, and let's maybe gear towards the business side of being a doctor, maybe the doctor that you are in this clinic...
 
 **Steve Hotze, M.D.:** Hotze Health & Wellness Center.
 
@@ -168,7 +168,7 @@ Now, when I started to market on the other side of town, it was unheard of for d
 
 **Adam Stacoviak:** This was a different world then too, when that was beginning, so everyone was jumping on the HMO bandwagon.
 
-**Steve Hotze, M.D.:** It was just beginning, yeah. And they got all these doctors to buy into the situation... I had been approached about it years earlier, on the North side of town, several year earlier, and I realized then "That's a scam. That is a scam. The insurance companies think they're gonna treat the patients... They're gonna take the money and then they're gonna \[unintelligible 00:28:40.17\] and give me a little bit, and keep all the other money for themselves. That doesn't make sense to me. And they're gonna get between me and the patient, tell them what I have to do, and if I'm a good boy and don't order a lot of lab tests they're gonna give me a bonus at the end of the year for a couple of thousand dollars."
+**Steve Hotze, M.D.:** It was just beginning, yeah. And they got all these doctors to buy into the situation... I had been approached about it years earlier, on the North side of town, several year earlier, and I realized then "That's a scam. That is a scam. The insurance companies think they're gonna treat the patients... They're gonna take the money and then they're gonna capitate and give me a little bit, and keep all the other money for themselves. That doesn't make sense to me. And they're gonna get between me and the patient, tell them what I have to do, and if I'm a good boy and don't order a lot of lab tests they're gonna give me a bonus at the end of the year for a couple of thousand dollars."
 
 **Adam Stacoviak:** Is that how it works?
 
@@ -360,7 +360,7 @@ But if you're a cash-based patient - most of those doctors do cash pay as well; 
 
 So you go on to the doctor and you've got a headache. He listens to you, he talks to you, and you describe that to him. His initial diagnosis might be "You have migraine. You've got a migraine headache." "Okay." "Good, here's the drug for it." He's giving you a drug for it. Your question should always be "Why do I have a migraine headache? What is a migraine headache and why do I have it? What's causing it?" The formal medical term for it is "cephalalgia." That means headache. So he puts the term in Latin.
 
-\[00:52:09.10\] You go to him with joint muscle \[unintelligible 00:52:09.12\] he checks you out all over, runs some blood tests, sees you have an elevated ANA, which is an inflammatory mark, and goes "You have fibromyalgia." You go, "Oh my gosh, that sounds very ominous. So what do I do?" The treatment of fibromyalgia is anti-depressants; they give you anti-depressants.
+\[00:52:09.10\] You go to him with joint muscle aches and pains he checks you out all over, runs some blood tests, sees you have an elevated ANA, which is an inflammatory mark, and goes "You have fibromyalgia." You go, "Oh my gosh, that sounds very ominous. So what do I do?" The treatment of fibromyalgia is anti-depressants; they give you anti-depressants.
 
 But what does fibromyalgia mean? Well, that's a Latin term for fibrous tissue and muscle inflammation, or muscle pain; "myalgia", muscle pain. So you say "What does fibromyalgia mean?" "Well, it means you have joint muscle pain." "But that's what I told you I have", but I told you in Latin what the diagnosis was. So he labeled, he used your symptom as a label, and now he's gonna treat the label of the symptom. But he hasn't told you what's causing the underlying disorder.
 
