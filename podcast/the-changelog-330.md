@@ -58,7 +58,7 @@ Currently, the cool thing that we've just released yesterday was an analysis of 
 
 **Adam Stacoviak:** Okay.
 
-**Francesc Campoy:** I used to work at Google... If you go to a googler and you tell them "Hey, we're gonna be sending you source code over the network to some random server...", they're gonna be like "There's no way you're doing that." So we knew that source code is a very, very delicate piece of data, so everything can run on-prem; everything runs on Docker. You can even have a \[unintelligible 00:10:46.09\] and just start everything up, very easy. And everything is open source.
+**Francesc Campoy:** I used to work at Google... If you go to a googler and you tell them "Hey, we're gonna be sending you source code over the network to some random server...", they're gonna be like "There's no way you're doing that." So we knew that source code is a very, very delicate piece of data, so everything can run on-prem; everything runs on Docker. You can even have a Helm chart and just start everything up, very easy. And everything is open source.
 
 **Adam Stacoviak:** Would you do this on a laptop, would you do this at the server level? Where's the interface?
 
