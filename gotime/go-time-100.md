@@ -238,7 +238,7 @@ The other thing about having a spec is it enables alternate implementations out 
 
 A lot of the newer languages - certainly Rust, in my mind, is actually doing language research, so... There's a lot of unknowns.
 
-**Rob Pike:** Yeah, they're trying something very different and very clever, and I hope it succeeds... But yeah, they're trying to solve a very different problem from the one we were trying to solve. What else did we \[unintelligible 00:42:20.17\] the influence happening?
+**Rob Pike:** Yeah, they're trying something very different and very clever, and I hope it succeeds... But yeah, they're trying to solve a very different problem from the one we were trying to solve. What else did we had I think the influence happening?
 
 I think our position on compatibility was also a really big deal for the community. We've mentioned it before, but I think others could profit from thinking hard about how they approach forward and backward compatibility with the precision that we have... Because that was a huge effect on us and our community. It makes certain things harder, no question; if you have a good idea, you can't just implement it. If you find something wrong, you can't just fix it... But the stability of the community and all of that software has been really important to the growth of the Go ecosystem.
 
