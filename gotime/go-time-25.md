@@ -558,7 +558,7 @@ So do we have anything else, or we wanna move into \#FreeSoftwareFriday?
 
 **Erik St. Martin:** Now, Scott has a different opinion on log storage. Netflix doesn't do a lot of the distributed logs. Do you wanna speak to that a little bit, Scott?
 
-**Scott Mansfield:** So I would probably need to clarify that... We do have a massive logging system; we generate a ton of logs, but I don't... So as a company - it's the same old joke: we're a logging system with side effect of streaming video, and there's a massive Kafka cluster that is just for this, and I believe that it has some processing after that and goes into...
+**Scott Mansfield:** So I would probably need to clarify that... We do have a massive logging system; we generate a ton of logs, but I don't... So as a company - it's the same old joke: we're a logging system with side effect of streaming video, and there's a massive Kafka cluster that's the ingest for this, and I believe that it has some processing after that and goes into...
 
 **Peter Bourgon:** ...HTFS, I imagine.
 
