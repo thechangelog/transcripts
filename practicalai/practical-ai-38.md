@@ -82,7 +82,7 @@ We do a similar thing with our tag space. We do related tags, and recommended se
 
 We are doing other things now, where we're building trending tools, using various types of models, not all deep learning; some just machine learning, or some of them just kind of old school statistical algorithms. Doing language prediction stuff, we're doing head-to-head comparisons against search results, so that we can get a better sense of how our search is performing.
 
-We had a spell of time in which we were doing a lot of image annotation. Obviously, GIPHY has a whole lot of gifs, and we relied on our content team to annotate those for a long time. We have a team of people who are ultra/mega pop culture wizards, who can paddle off anybody in a gif, and then all the slugs and everything... But you know, humans can only go so far when you reach the tens of millions in terms of your catalog.
+We had a spell of time in which we were doing a lot of image annotation. Obviously, GIPHY has a whole lot of gifs, and we relied on our content team to annotate those for a long time. We have a team of people who are ultra/mega pop culture wizards, who can prattle off anybody in a gif, and then all the slugs and everything... But you know, humans can only go so far when you reach the tens of millions in terms of your catalog.
 
 **Chris Benson:** You're the kind of company that can have a pop culture wizard department.
 
@@ -154,7 +154,7 @@ Flash forward six years, I'm doing their R&D stuff. The impetus is, you know, GI
 
 **Daniel Whitenack:** In particular on the celeb detector project, as you moved into that space, what were the different things that you needed to learn tech-wise to be able to accomplish that, that you weren't doing before in your AI work?
 
-**Nick Hasty:** It's a good question. We hadn't done a lot of conv net stuff. A lot of the image recognition/object detection stuff we had used a lot of third parties for. \[unintelligible 00:25:22.23\] If you need a generalized model for object detection and images, you're not necessarily gonna train your own for that... So we didn't necessarily need that in-house. But for the celebrity detection - yeah, this was like our first real extensive deep learning project.
+**Nick Hasty:** It's a good question. We hadn't done a lot of conv net stuff. A lot of the image recognition/object detection stuff we had used a lot of third parties for. Hit API, you're not gonna build... If you need a generalized model for object detection and images, you're not necessarily gonna train your own for that... So we didn't necessarily need that in-house. But for the celebrity detection - yeah, this was like our first real extensive deep learning project.
 
 There was a lot of experimentation in the background. First it was just getting the data together against our searches. We had a lot of images around some of these celebrities, some of them we didn't, so we had to scour the web a little bit to build the image dataset. This is probably like any real machine learning or deep learning project, but making sure the labels were good; like I'd mentioned earlier, GIPHY's tag system has been going for a while, and was kind of big and difficult to carry, or difficult to manage in some ways, so we used Figure Eight (it used to be Crowdflower) to help us make sure that the labels that we had for the celebrities were really good. Then I think since it is face detection, we did use previous existing models.
 
