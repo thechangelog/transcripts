@@ -276,7 +276,7 @@ Tailwind is a lot more palatable to someone who's already used to Bootstrap. It'
 
 **Adam Wathan:** Yeah, for sure. Exactly.
 
-**Adam Stacoviak:** ...and I actually \[unintelligible 00:50:52.18\] quotes, and it opens up my editor, and all that good stuff. So that's a practice I choose.
+**Adam Stacoviak:** ...and I actually append -m in the quotes, and it opens up my editor, and all that good stuff. So that's a practice I choose.
 
 **Jerod Santo:** Right.
 
