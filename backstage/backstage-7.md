@@ -58,7 +58,7 @@
 
 **Jerod Santo:** I also used to collect DVDs, and I'm not gonna lie, I can see them from where I'm standing... I have a few regrets over there, that I'm like "You know what - I should just trash that one, because somebody might see it..." But I didn't think The Devil's Advocate was that bad. That being said, John Wick was not something that was necessarily on my radar, but both of you guys -- I think maybe my intuition is you guys are more action fans than I am. I won't go see a movie if it's an action movie. I like a movie like The Matrix, where the action is a complement to a story.
 
-I feel like many action movies it's all about the action, and the stories are so convoluted, and bad, and there's bad acting; it's all just to drive the action, and I don't enjoy it very much...
+I feel like many action movies it's all about the action, and the stories are so convoluted and bad, and there's bad acting; it's all just to drive the action, and I don't enjoy it very much...
 
 **Adam Stacoviak:** Yeah, I'm with you on that.
 

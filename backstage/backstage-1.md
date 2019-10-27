@@ -164,7 +164,7 @@ I think the low definitely is, man, this is tiring. It is. I'm feeling it today.
 
 **Adam Stacoviak:** Are you feeling it?
 
-**Jerod Santo:** Yeah, it's really bringing me down.
+**Jerod Santo:** Yeah, it's really bringing me down...
 
 **Tim Smith:** \[laughs\]
 
@@ -176,7 +176,7 @@ I think the low definitely is, man, this is tiring. It is. I'm feeling it today.
 
 **Tim Smith:** My coffee did not do anything for me.
 
-**Adam Stacoviak:** No... You need strong coffee. Espresso.
+**Adam Stacoviak:** No. You need strong coffee. Espresso.
 
 **Tim Smith:** That's what those people at Indeed promised me.
 
@@ -234,7 +234,7 @@ So the focus for a little bit now, maybe these next 6-8 months, is polish, growt
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** I think it started in ping... I think it's moved to Slack more, probably, but...
+**Jerod Santo:** I think it started in ping, I think it's moved to Slack more, probably, but...
 
 **Adam Stacoviak:** Yeah. A lot more submissions to news, that's for sure, where there wasn't any, really, besides ping; you know of get lost... Now they actually have a system. If you haven't heard, changelog.com/submit. If you've got some news, or content that is great for your greater developer community, share it.
 

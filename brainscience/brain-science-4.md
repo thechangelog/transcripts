@@ -298,9 +298,9 @@ Moving right along, other options... This is an interesting one. Have you ever h
 
 **Adam Stacoviak:** There's an actual panic.
 
-**Mireille B. Reece, Psy.D:** Right, so I'm sending the signals, like "You're in danger, you're in danger...!"
+**Mireille B. Reece, Psy.D:** Right, so I'm sending the signals, like "You're in danger, you're in danger!"
 
-**Adam Stacoviak:** Which reinforces your concerns, yeah.
+**Adam Stacoviak:** Which reinforces your concerns, yeah...
 
 **Mireille B. Reece, Psy.D:** Correct. You've catapulted a whole cycle. And that's why even just the five-count, breathing - breathing in for five, and breathing out for five. Breathing in for five seconds, and discharge and breathe out for five seconds.
 
@@ -344,7 +344,7 @@ Moving right along, other options... This is an interesting one. Have you ever h
 
 **Mireille B. Reece, Psy.D:** Yes.
 
-**Adam Stacoviak:** If you watch somebody else do something that you really enjoy, maybe your brain thinks you've done it and somehow you've acquired this skill, and maybe even some courage.
+**Adam Stacoviak:** If you watch somebody else do something that you really enjoy, maybe your brain thinks you've done it and somehow you've acquired this skill, and maybe even some courage...
 
 **Mireille B. Reece, Psy.D:** Sure, because it's further enhancing that network that goes "This is the way we play." This is why it's even (I would say) used more often in athletics that you get filmed. When you see yourself being filmed, it also facilitates more of that comprehensive picture of you doing whatever skill or play, so that then you can picture how you want it to be done, and carry that out. This is why I'm so fascinated by the brain. There's so many things around how we can do our lives, and really to help them feel better, because we don't -- I don't know... We get a second go. I just want whatever we're walking through. I think life can be incredibly enjoyable. But if we're not considerate of or reflective around our minds as sort of our steering wheel, we're gonna feel like everything just keeps hitting us, and that we're not in charge of our lives and what happens to us.
 
