@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-195-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-196-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -279,6 +279,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/GennadyAgashkov"><img src="https://avatars2.githubusercontent.com/u/5602536?v=4" width="100px;" alt="Gennady Agashkov"/><br /><sub><b>Gennady Agashkov</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=GennadyAgashkov" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/omaiyea"><img src="https://avatars0.githubusercontent.com/u/34819618?v=4" width="100px;" alt="Angelica Omaiye"/><br /><sub><b>Angelica Omaiye</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=omaiyea" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/ruuuh20"><img src="https://avatars1.githubusercontent.com/u/19366753?v=4" width="100px;" alt="P K"/><br /><sub><b>P K</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=ruuuh20" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/PDavid"><img src="https://avatars3.githubusercontent.com/u/1415396?v=4" width="100px;" alt="Dávid Paksy"/><br /><sub><b>Dávid Paksy</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=PDavid" title="Documentation">📖</a></td>
   </tr>
 </table>
 
