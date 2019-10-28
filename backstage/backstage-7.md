@@ -210,7 +210,7 @@ I feel like many action movies it's all about the action, and the stories are so
 
 **Jerod Santo:** Yeah, American football. That's right.
 
-**Adam Stacoviak:** Yeah, American football. So I'm not here, I'm from Pennsylvania, so of course I was a Penguins fan, and I loved Mario Lemieux... Mario, it depends if you're from \[unintelligible 00:12:11.20\]
+**Adam Stacoviak:** Yeah, American football. So I'm not here, I'm from Pennsylvania, so of course I was a Penguins fan, and I loved Mario Lemieux... Mario, it depends if you're from Canada.
 
 **Jerod Santo:** Here in Nebraska we call him Mario, because we're boring.
 
