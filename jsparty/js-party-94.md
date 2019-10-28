@@ -54,7 +54,7 @@ One of the things that's happening is there's the Caniuse repo, and then there's
 
 **Divya Sasidharan:** Yeah, I use Alfred for a lot of things. I use Dash as well for documentation lookup, just because it's really fast, and that gives me an excuse to never ever have to go to a website and a doc page ever.
 
-**Jerod Santo:** So in the next bit of nerdy, video game-focused developer news - at long last, Mario has come to HTML. This is an unofficial port of Mario Brothers game to HTML -- really to Javascript and HTML... To the Canvas, so it's definitely to HTML. But Nintendo did not sponsor this effort, and I bet if they found out about it -- well, maybe they would be nice about it, but they could definitely do a \[unintelligible 00:09:11.18\] and take it down if they wanted to... But very cool. Did you all check that link that I put into the show notes and play a little bit of Mario right there in your browser?
+**Jerod Santo:** So in the next bit of nerdy, video game-focused developer news - at long last, Mario has come to HTML. This is an unofficial port of Mario Brothers game to HTML -- really to Javascript and HTML... To the Canvas, so it's definitely to HTML. But Nintendo did not sponsor this effort, and I bet if they found out about it -- well, maybe they would be nice about it, but they could definitely do a DMCA takedown if they wanted to... But very cool. Did you all check that link that I put into the show notes and play a little bit of Mario right there in your browser?
 
 **Nick Nisi:** No playing.
 
