@@ -102,7 +102,7 @@ After running it for about two years and growing it to 1,800 members, Drew asked
 
 So we've had some comments in our Slack, the Changelog Slack, about wanting to get some perspective from one of the guests on the different landscape -- the landscape of AI and ML techniques, and how deep learning fits into that... So I think you would be a great person to give us that context - would you mind doing that?
 
-**Jared Lander:** Absolutely. One of the key things about learning - that's what I've seen from teaching both private clients and \[unintelligible 00:11:35.02\] - you have to disambiguate terminology, and people often just drown in the different terminology. In fact, the talk I gave at the most recent New York R Conference was comparing ML to deep learning, in R... And the first thing I started with was just the vocab, because different people from different fields will call the same exact thing with different words... Like an intercept versus a bias, or coefficients versus weights.
+**Jared Lander:** Absolutely. One of the key things about learning - that's what I've seen from teaching both private clients and at the Columbia is that - you have to disambiguate terminology, and people often just drown in the different terminology. In fact, the talk I gave at the most recent New York R Conference was comparing ML to deep learning, in R... And the first thing I started with was just the vocab, because different people from different fields will call the same exact thing with different words... Like an intercept versus a bias, or coefficients versus weights.
 
 **Daniel Whitenack:** \[00:12:07.27\] Yeah, that was actually super-confusing to me when I started to get in data science. I was like "Oh, if I just would have known this was an intercept, then that would have made things so much easier."
 
@@ -110,7 +110,7 @@ So we've had some comments in our Slack, the Changelog Slack, about wanting to g
 
 **Daniel Whitenack:** Yeah, for sure. So help us disambiguate some of that... How do you see the AI/ML landscape in general, and kind of some of the major categories within that?
 
-**Jared Lander:** I think first the AI buzz - half the time when someone says they have an AI, they mean they have an \[unintelligible 00:12:46.22\] statement.
+**Jared Lander:** I think first the AI buzz - half the time when someone says they have an AI, they mean they have an if-else statement.
 
 **Daniel Whitenack:** \[laughs\] Yeah, that's true.
 
@@ -156,7 +156,7 @@ I've been attending a number of Capitol Hill events about AI, and I heard someon
 
 **Jared Lander:** Right. So random forest was the rage, and then XGBoost came on top of random forest, and then it turns out even with XGBoost you could do a boosted random forest.
 
-**Daniel Whitenack:** Boost all the \[unintelligible 00:16:48.22\]
+**Daniel Whitenack:** Boost all the booths..
 
 **Jared Lander:** Exactly.
 
@@ -174,7 +174,7 @@ You can repeat these layers again and again, until you finally get to a point wh
 
 **Jared Lander:** So with a linear model, the reason we made it linear is because it was a simplification so that way they could do the math. But nowadays we have more powerful computers, and most things in life don't follow a linear relationship, they follow a non-linear relationship.
 
-Now, when I say non-linear, that could have different meanings, depending on the technicality, but you can imagine if you had a cloud of points with a X and Y-axis - instead of fitting a straight line through those points, \[unintelligible 00:18:50.17\] step function. Maybe for the first segment it's about a third of the way up the Y-axis; the second segment, the straight line would go two-thirds up, and the last segment - it'd be back down to the bottom of the Y-axis. That's a simple step function that is non-linear. It doesn't fit a nice, straight line, it doesn't even fit a curvy linear line; it fits a step function. That's somewhat the idea behind a tree, somewhat.
+Now, when I say non-linear, that could have different meanings, depending on the technicality, but you can imagine if you had a cloud of points with a X and Y-axis - instead of fitting a straight line through those points, if you fit a step function. Maybe for the first segment it's about a third of the way up the Y-axis; the second segment, the straight line would go two-thirds up, and the last segment - it'd be back down to the bottom of the Y-axis. That's a simple step function that is non-linear. It doesn't fit a nice, straight line, it doesn't even fit a curvy linear line; it fits a step function. That's somewhat the idea behind a tree, somewhat.
 
 The ability to capture these non-linear relationships, regardless of the method, allows us to really model reality better. That's why trees are really great, they have high predictive power, and why random forests and boosted trees. That's also why deep learning is powerful, because it is non-linear. It has a lot of non-linearities.
 
@@ -214,7 +214,7 @@ So yes, we are losing more that interpretation with a deep learning model, but d
 
 **Daniel Whitenack:** Yeah. So you mentioned NIST, and I just have like a total flashback when I was in grad school, I think... I had a part-time appointment there, and I think all I did was like spilled nanotubes all over the floor, everywhere, at NIST. That's where I found out that I should not be in an actual lab, that I should just work on a computer.
 
-**Jared Lander:** Yeah, no \[unintelligible 00:26:32.04\] work for you.
+**Jared Lander:** Yeah, no wet lab work for you.
 
 **Daniel Whitenack:** Yeah.
 
@@ -286,7 +286,7 @@ Beyond that, if you wanna start getting more specifically into ML, of course you
 
 **Daniel Whitenack:** I think we should move on to the next question.
 
-**Jared Lander:** Yes. But to finish answering the question about statistics - then once you've already got a basis in R, the question becomes "Do you already know the math, the statistics?" If you don't, there's great books out there written by Andrew Gelman, and \[unintelligible 00:33:18.08\] Jennifer Hill... Those are great books to learn about the statistics. Then if you have a grounding in that, it's about how do you do it in R?
+**Jared Lander:** Yes. But to finish answering the question about statistics - then once you've already got a basis in R, the question becomes "Do you already know the math, the statistics?" If you don't, there's great books out there written by Andrew Gelman, and Hastie, Tibshirani and Friedman and Jennifer Hill... Those are great books to learn about the statistics. Then if you have a grounding in that, it's about how do you do it in R?
 
 Now, how do you define ML? Well, you wanna learn linear regression - that's a simple one line of code. Then if you get into penalized regression, and XGBoost, you could do that all natively in R, or you could use a package called Caret. Caret was a unified interface for machine learning in R, written about ten years ago, and it's just gotten better and better since then. That was written by a guy named Max Kuhn, and he has a companion book called "Applied predictive modeling."
 

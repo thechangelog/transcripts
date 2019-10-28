@@ -48,13 +48,13 @@ So I happen to get a lot of the conversation that comes through with that, and t
 
 There's also a little bit that I've been at Npm for a little over three years, which is a pretty long period of time at the company... Which, as you mentioned, it's relatively new as far as things go... And thus have a little bit of -- I have some background in many of the moments of high passion that people have had over time. That puts me on Twitter every once in a while; the tweet storm is nothing out of character for the general theme for how I talk about things in public, but I think that's the first time I've ever just brought data to the table as part of it.
 
-**Jerod Santo:** Yeah. So it may be worth pointing out at this point - here's one section of these tweets, which specifically speak to what you're referring to when we talk about the reactions from the outside, the support requests, or really the stuff that makes you say "I wanna talk about humanity and empathy." One of the things that you said is that there's a dark side to all of this. "We make decisions that make people angry, \[unintelligible 00:11:15.08\] Ever get hate mail at your job? What about hate tweets? People making dupe Reddit accounts with your name to talk crap about you and blame it on you?"
+**Jerod Santo:** Yeah. So it may be worth pointing out at this point - here's one section of these tweets, which specifically speak to what you're referring to when we talk about the reactions from the outside, the support requests, or really the stuff that makes you say "I wanna talk about humanity and empathy." One of the things that you said is that there's a dark side to all of this. "We make decisions that make people angry, and wow do they get violent. Ever get hate mail at your job? What about hate tweets? People making dupe Reddit accounts with your name to talk crap about you and blame it on you?"
 
 So these are things that are happening -- is this like a daily basis inside Npm? How much of this is going on?
 
 **Jeff Lembeck:** I wouldn't say daily for that stuff, but it's common. There have been some pretty big campaigns in the past, and they've been pretty bad. I have not been the direct target of quite a few of them, as much as I've been on the team that also received it... But these things happen.
 
-\[00:12:04.28\] There's always the interesting, creative ones. I still laugh about one that was -- and I'm going to edit myself here, because somebody did a wonderful job of sending us... They spoofed an e-mail address... So that's from \[fill in the expletive\] f@u.com, and then the subject was just F U. And that was that. \[laughs\] And it was like "I applaud your work... The work ethic you have in order to do something like that." That's intense.
+\[00:12:04.28\] There's always the interesting, creative ones. I still laugh about one that was -- and I'm going to edit myself here, because somebody did a wonderful job of sending us... They spoofed an email address... So that's from \[fill in the expletive\] f@u.com, and then the subject was just F U. And that was that. \[laughs\] And it was like "I applaud your work... The work ethic you have in order to do something like that." That's intense.
 
 **Jerod Santo:** A lot of effort.
 
@@ -152,7 +152,7 @@ And then there's a known bad actor...
 
 **Jerod Santo:** So here's a pro tip that I have never put into practice but I've heard it, and it sounds like a good idea. I actually don't have this problem very often because I tend to be on the other side of the spectrum, where I don't have much of a temper, but there's times where a temper would have actually served me where and I should have said what I was thinking, and I end up regretting on the other end... So I don't really have that "I need to sound off and just tell somebody off", it's just not my personality...
 
-But I've heard, and I think this would serve a lot of people well - if you do have that tendency of quickly getting angry and needing to vent, is that you pop open your e-mail editor and you draft an e-mail to the person to whom you are angry at Npm-ing, or Jony Ive, or \[insert target here\], and you just write that e-mail, and you just say everything you wanna say and you get it all off your chest, and then when you're done, you just hit the delete button and you just let it go. And that, I think, gives you the catharsis without any of the major consequences of sending that e-mail or posting that tweet.
+But I've heard, and I think this would serve a lot of people well - if you do have that tendency of quickly getting angry and needing to vent, is that you pop open your email editor and you draft an email to the person to whom you are angry at Npm-ing, or Jony Ive, or \[insert target here\], and you just write that email, and you just say everything you wanna say and you get it all off your chest, and then when you're done, you just hit the delete button and you just let it go. And that, I think, gives you the catharsis without any of the major consequences of sending that email or posting that tweet.
 
 **Jeff Lembeck:** That's a pretty good -- I definitely have written a lot of things and deleted them. I mostly run or go -- I've picked up lifting over the last year or two...
 
@@ -166,13 +166,13 @@ And I might live longer, be stronger, be able to throw my kid in the air higher.
 
 **Jeff Lembeck:** Yeah, also possible.
 
-**Christopher Hiller:** So the Twitter analog to the e-mail suggest might be send a DM to yourself.
+**Christopher Hiller:** So the Twitter analog to the email suggest might be send a DM to yourself.
 
 **Jerod Santo:** You can DM yourself?
 
 **Christopher Hiller:** Yeah, I just tried it.
 
-**Jerod Santo:** I didn't know you could do that. You can also message yourself inside of Slack, which I do use it once in a while, especially if I'm testing slash commands, and stuff... A lot of people don't know that, but you can definitely have a private message with yourself in Slack. \[unintelligible 00:40:02.27\]
+**Jerod Santo:** I didn't know you could do that. You can also message yourself inside of Slack, which I do use it once in a while, especially if I'm testing slash commands, and stuff... A lot of people don't know that, but you can definitely have a private message with yourself in Slack. Sometimes you ...
 
 **Christopher Hiller:** You can also take out your frustrations on the Slack Bot...
 
@@ -186,7 +186,7 @@ In lieu of me reading more of your writing back to yourself, which does feel kin
 
 **Nick Nisi:** Before we go to break, I wanna just close and say that I do really appreciate the work that Npm does, and I appreciate this thread quite a bit... And specifically the humanizing that it does to Npm; I think that's important for everything, for everyone to understand that it's humans behind all of this, and it does help when there are problems, like big problems that are at Npm... I don't wanna bring up any one specific, but when those come up, it's good to know that those are humans, that make mistakes and that are learning and growing as we go.
 
-As this thread pointed out and as Laurie kind of pointed out in this talk at NEJS Conf last week, Npm is growing and it's taking things very seriously. I'm very excited about all of the new security features that are coming and how important \[unintelligible 00:42:46.10\] taking all of that... So just thank you for continuing that.
+As this thread pointed out and as Laurie kind of pointed out in this talk at NEJS Conf last week, Npm is growing and it's taking things very seriously. I'm very excited about all of the new security features that are coming and how important you're taking all of that... So just thank you for continuing that.
 
 **Jeff Lembeck:** It's awesome, thank you.
 
@@ -196,7 +196,7 @@ As this thread pointed out and as Laurie kind of pointed out in this talk at NEJ
 
 Chris, what are you excited about?
 
-**Christopher Hiller:** \[00:43:55.14\] So in the past weeks or so there's a pull request into Node.js by Ben Coe, who Jeff may know... He works at Npm, he also maintains stuff like Yargs, and Istanbul, and Nyc... Anyway, he made a pull request in Node that adds support for \[unintelligible 00:44:22.15\] I'm excited to see that become part of Node core, because that is some really commonly used functionality that in my opinion just kind of needs to be in there. Thank you, Ben, for the implementation.
+**Christopher Hiller:** \[00:43:55.14\] So in the past weeks or so there's a pull request into Node.js by Ben Coe, who Jeff may know... He works at Npm, he also maintains stuff like Yargs, and Istanbul, and Nyc... Anyway, he made a pull request in Node that adds support for mkdir -p or recursive mkdir in the FS module. I'm excited to see that become part of Node core, because that is some really commonly used functionality that in my opinion just kind of needs to be in there. Thank you, Ben, for the implementation.
 
 **Jerod Santo:** Excellent. Let's hop to the chat room. In the chat we have some people listening live and they've been participating in this conversation... The listener Mark is excited about Fusion.js. Fusion.js is a plugin-based universal web framework coming out of the Uber engineering team.
 

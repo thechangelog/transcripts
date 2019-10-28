@@ -356,7 +356,7 @@ There are people that I know today that four years ago I was in awe of. I've tur
 
 **Adam Stacoviak:** Let's talk about maybe those active duty/military men and women who were out there serving our country, or they're transitioning out and they're looking for that opportunity... They're listening to this podcast, or somebody who knows one is listening to this podcast - how do they reach out? What's the first step?
 
-**Jerome Hardaway:** Well, the first step is always go to vetswhocode.io. We have our application form on there. Once you apply, I'll pretty much always e-mail them, asking them to have a Facebook group. Some people just go straight to the Facebook group, but I always e-mail them personally and say "Hey, do you have Facebook? Here's our Facebook group. Join it, so we can start the application process with you."
+**Jerome Hardaway:** Well, the first step is always go to vetswhocode.io. We have our application form on there. Once you apply, I'll pretty much always email them, asking them to have a Facebook group. Some people just go straight to the Facebook group, but I always email them personally and say "Hey, do you have Facebook? Here's our Facebook group. Join it, so we can start the application process with you."
 
 They're in there with the pre-work, they're talking to other veterans... It's a way to make sure that everybody has a fair metric that we can at least start off of... And not only that, it's a way for them to meet other people who are interested in this stuff. You know, it's better to embrace the suck with a group of people than to embrace it by yourself. Misery loves company, that's why everybody misses the military days... "Oh, those were the good, old days." No, they weren't, but you made some good friends, because...
 
@@ -538,15 +538,15 @@ We do a lot of things like that, and then there's the Mozilla Festival every yea
 
 **Jerod Santo:** What does your day-to-day look like when you're trying to educate, lead, mentor, build a movement? What does that look like in a tactical sense?
 
-**Abigail Cabunoc Mayes:** It's a lot of e-mail... \[laughter\]
+**Abigail Cabunoc Mayes:** It's a lot of email... \[laughter\]
 
 **Adam Stacoviak:** Very hard work.
 
-**Jerod Santo:** A lot of e-mails.
+**Jerod Santo:** A lot of emails.
 
-**Adam Stacoviak:** Yeah, a lot of e-mails.
+**Adam Stacoviak:** Yeah, a lot of emails.
 
-**Abigail Cabunoc Mayes:** A lot of e-mails, but also a lot of video calls. I spend a lot of time just meeting with people online. We'll have big conference calls for trainings...
+**Abigail Cabunoc Mayes:** A lot of emails, but also a lot of video calls. I spend a lot of time just meeting with people online. We'll have big conference calls for trainings...
 
 **Jerod Santo:** So what kind of people are you meeting with?
 
@@ -582,7 +582,7 @@ Also, my husband - at the time, he was running this startup accelerator in Toron
 
 **Abigail Cabunoc Mayes:** Yeah. It's Mozilla only that's running it right now, but I'm trying to -- actually, we're partnering with a few people, so they can run their own versions in their organization or maybe in their language, or in their city. We've done that a few times, but I'm trying to make it more forkable, so that people can just run this program wherever they are.
 
-**Adam Stacoviak:** So is that like a face-to-face thing? You mentioned you do a lot of video calls and a lot of e-mails, and stuff... Is any of this distributed, or is it all sort of collocated?
+**Adam Stacoviak:** So is that like a face-to-face thing? You mentioned you do a lot of video calls and a lot of emails, and stuff... Is any of this distributed, or is it all sort of collocated?
 
 **Abigail Cabunoc Mayes:** So the first iteration we had was a two-day event, where we ran the training at the beginning, and then we just followed up with mentorship afterwards. Then we realized, "Oh, we could do this all online", where we just meet every week online, do a little bit of training, and then alternate weeks you do one-on-one mentorship.
 

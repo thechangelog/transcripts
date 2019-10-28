@@ -1,4 +1,4 @@
-**Tim Smith:** I met Mahdi Yusuf in Portland for OSCON, a conference put on by O'Reilly, all about open source. Mahdi was one of the keynote speakers and talked about this thing called Gyroscope. A gyroscope, he says, is the operating system for the human body. I was intrigued.
+**Tim Smith:** \[00:01:46\] I met Mahdi Yusuf in Portland for OSCON, a conference put on by O'Reilly, all about open source. Mahdi was one of the keynote speakers and talked about this thing called Gyroscope. A gyroscope, he says, is the operating system for the human body. I was intrigued.
 
 **Mahdi Yusuf:** Essentially, like, you track computers, you track servers... As engineers, most people keep an eye on what they're doing at work, and stuff like that, but there's really nothing for your body... And you've only got one of those, and people get sick, and you see people that are in their middle age just dying, and stuff like that... So ideally, what a gyroscope would be is something to monitor what's going on with your body, so you can track changes and what's happening in your body and in your life - behavioral changes, like you're spending more time at work, or you're spending more time at bars or restaurants... Stuff that can have impact on your health, generally; how much time you're spending working, what kind of stress that does, tracking HRV, which is interesting... Stuff like that.
 
@@ -10,7 +10,7 @@ Basically, it's a way to monitor and track your entire body, all passively, and 
 
 I managed to undo damage I did across like six years of just obsessively working on a computer, and learning things, and stuff. Granted, those things were beneficial and I wouldn't be where I am now, but there's gotta be some balance to be struck here, or at least something to nudge you back in the direction that you should be on.
 
-So once I saw that type of thing, I was like "Oh man, this is really awesome", and I got tired of contracting, I thought "What could I possibly do around this?" and then I found Gyroscope and I was like "This is really cool." I sent Anand, the CEO, this giant e-mail of what I thought and what was really cool.
+So once I saw that type of thing, I was like "Oh man, this is really awesome", and I got tired of contracting, I thought "What could I possibly do around this?" and then I found Gyroscope and I was like "This is really cool." I sent Anand, the CEO, this giant email of what I thought and what was really cool.
 
 Then I was interviewing in San Francisco for a bunch of positions, and then I told him I was in town and we kind of met up. I ended up joining the team. That was close to four years ago now, so we've been working on it for quite some time now, and it's been going really well.
 

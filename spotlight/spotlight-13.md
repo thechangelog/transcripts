@@ -1,4 +1,4 @@
-**Adam Stacoviak:** Welcome to our Spotlight Series titled The Future of Node, recorded at Node Interactive 2016 in Austin, Texas. We produced this in partnership with the Linux Foundation, the NodeJS Foundation, and it's sponsored by IBM and StrongLoop.
+**Adam Stacoviak:** \[00:00:31\] Welcome to our Spotlight Series titled The Future of Node, recorded at Node Interactive 2016 in Austin, Texas. We produced this in partnership with the Linux Foundation, the NodeJS Foundation, and it's sponsored by IBM and StrongLoop.
 
 **Break:** \[00:00:44.25\]
 
@@ -76,7 +76,7 @@ It comes both ways: we get to benefit from really organic discussions and PRs an
 
 **Gaurav Seth:** So Node was one example, TypeScript was another example, because our team works very closely with TypeScript as well, and we were looking at that project and seeing what an amazing momentum the community created for that project, as well. And at that point in time it was kind of clear that "Hey, if you want people to build amazing things with your stuff, you should go open source", and that was one of the biggest motivations. Like, "Hey, let's work in the open, let's innovate in the open, let's help the community in whatever way we can."
 
-**Adam Stacoviak:** Rewinding back to that moment, what had to happen to go from Chakra, which is with Edge's bindings, certain things that Microsoft \[unintelligible 00:13:29.02\] needs to have to do Windows 10 and various things? What was the effort needed to top down? How did you have to sell it? Was it developer up, was it executive down? Talk to me about the process to kind of take it from just simply Chakra to ChakraCore being open. What effort had to happen to the codebase?
+**Adam Stacoviak:** Rewinding back to that moment, what had to happen to go from Chakra, which is with Edge's bindings, certain things that Microsoft S needs to have to do Windows 10 and various things? What was the effort needed to top down? How did you have to sell it? Was it developer up, was it executive down? Talk to me about the process to kind of take it from just simply Chakra to ChakraCore being open. What effort had to happen to the codebase?
 
 **Gaurav Seth:** I think it was neither -- I mean, it was a pretty flat thing... It was neither top-down or bottom-up. But I would say it was more bottom-up than top-down. I think as we were working on things, it was all about figuring out where the people are, where the momentum is, what is the next set of things we should be doing.
 
@@ -88,7 +88,7 @@ The point when we went open source - there were things where Chakra was already 
 
 **Adam Stacoviak:** Okay, just making sure.
 
-**Gaurav Seth:** So when we were kind of looking at the technological roadmap for us, I think from what we wanna do, I think we had achieved quite a lot of it. Nothing is ever done. It's \[unintelligible 00:14:41.04\] always improving, in continuous improvement, but at that point in time we were like, "Hey, what is the best big thing that we should do for the community, to help the community?"
+**Gaurav Seth:** So when we were kind of looking at the technological roadmap for us, I think from what we wanna do, I think we had achieved quite a lot of it. Nothing is ever done. It's an era of always improving, in continuous improvement, but at that point in time we were like, "Hey, what is the best big thing that we should do for the community, to help the community?"
 
 It was suddenly becoming obvious that "Hey, we should not keep ourselves restricted to only one platform and be there, because that is not the way for us to really grow and help the community." We started out conversations internally and we just decided that it's the best thing for us to go and maybe open-source the thing.
 
@@ -186,7 +186,7 @@ So we're seeing a new resurgence, so to speak, from Microsoft in the fact that y
 
 **Adam Stacoviak:** Okay.
 
-**Arunesh Chandra:** What it does is it provides an ABI stability guarantee across versions of Node, and even \[unintelligible 00:25:23.26\]
+**Arunesh Chandra:** What it does is it provides an ABI stability guarantee across versions of Node, and even versions of VM which powers node 
 
 **Adam Stacoviak:** Okay.
 

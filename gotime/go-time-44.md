@@ -396,7 +396,7 @@ C++ is basically only usable if you have a giant standard library like Google an
 
 This was about the time that Go was coming out, so I decided I would prototype my idea in Go first. I got into that riding on the bus, which was great, because I didn't need the internet, I had good (enough) tooling at the time... This was before the `go` commands, so you had to use makefiles, but it still compiled so quickly that it wasn't too bad... And I kept finding problems of things that were missing in the standard library and things that the HTTP package didn't get right, so I just started sending changes off to the Go team, which I guess at the time was Ross and Ian and Robert. Ross kept approving my HTTP stuff, and I kept sending more, and eventually I just switched to the Go team full-time.
 
-I got an e-mail from [Rob](https://twitter.com/rob_pike) one day, and he was like "Hey, do you wanna do this full-time?" I had already done Android a few years at that point and it was pretty obvious that Android was here to stay... It wasn't a crazy idea anymore, so it was time for a new crazy idea. But now it looks like Go might be here to stay, too...
+I got an email from [Rob](https://twitter.com/rob_pike) one day, and he was like "Hey, do you wanna do this full-time?" I had already done Android a few years at that point and it was pretty obvious that Android was here to stay... It wasn't a crazy idea anymore, so it was time for a new crazy idea. But now it looks like Go might be here to stay, too...
 
 **Carlisia Pinto:** And now it's time for you to ove on...
 
@@ -560,13 +560,13 @@ The summary is -- I imagine if there's a Go 2, it would have _Generics_. I don't
 
 **Erik St. Martin:** It is.
 
-**Brian Ketelsen:** So I have a cool project and a shoutout that I wanna make... One of our listeners was listening to GoTime while hiking across the Alps, and sent us an e-mail last week about his code generation tool, because he knows how much I like some code generation...
+**Brian Ketelsen:** So I have a cool project and a shoutout that I wanna make... One of our listeners was listening to GoTime while hiking across the Alps, and sent us an email last week about his code generation tool, because he knows how much I like some code generation...
 
 This code generation tool is at [github.com/dave/jennifer](https://github.com/dave/jennifer), and unfortunately radio is not good for pictures... However, we'll try to find a way to post the picture of Dave standing on top of some giant Swiss Alps mountain, flashing us the Peace sign because he was listening to GoTime. So a shoutout to you, Dave... That's awesome. I think GoTime is probably the perfect thing to do to get you through the humdrum of hiking through those boring Alps.
 
 **Carlisia Pinto:** Does Dave have a last name?
 
-**Brian Ketelsen:** I don't know Dave's last name. I would have to dig up my e-mail to find out Dave's last name.
+**Brian Ketelsen:** I don't know Dave's last name. I would have to dig up my email to find out Dave's last name.
 
 **Erik St. Martin:** What does "It is GoTime" announcement sound like after you've climbed a mountain?
 

@@ -56,7 +56,7 @@ There's a great amount of Node School events, also there's NodeBots events... So
 
 The same person could give the same course in English and in Spanish, and people will listen to the one that's in English because they assume that the content isn't as good in Spanish. Is that still true?
 
-**Juan Pablo Buritica:** It is true. We have a pretty heavy cultural problem in Latin America which is we don't trust each other, because we tend to take a lot of advantage of each other, too. There's a lot of sketchy content or refurbished content, or just not high-quality content. If you search for web tutorials or programming tutorials in Spanish, the majority of stuff that you're gonna find is just very old, outdated content, because the bleeding edge is written in English. This probably happens across many cultures. \[unintelligible 00:07:18.08\] and I have talked about this a lot.
+**Juan Pablo Buritica:** It is true. We have a pretty heavy cultural problem in Latin America which is we don't trust each other, because we tend to take a lot of advantage of each other, too. There's a lot of sketchy content or refurbished content, or just not high-quality content. If you search for web tutorials or programming tutorials in Spanish, the majority of stuff that you're gonna find is just very old, outdated content, because the bleeding edge is written in English. This probably happens across many cultures. Mariko and I have talked about this a lot.
 
 The bleeding edge usually starts in English, and naming rights come from English. Then as you have people who are bilingual who have enough time to translate this content, then they'll do so. But you end up also having a lot of people who are bilingual who start with introductory content, so they start translating that, and ultimately you end up with a lot of outdated introductory content. So it's easier to just jump straight into English and just default into trusting English.
 
@@ -240,7 +240,7 @@ At no point in time does this tooling become entirely universal, right? Not even
 
 You're gonna tackle that problem slightly differently, 1) because you are a pretty experienced developer and you assume that you should be able to just pull something in and it'll work pretty easily... But for new developers, I think there actually are quite a few tools that can make this instant and nice, without them learning how to set it up. But let's say it even costs you a day to set up Babel and Flow, but how many days do you have to use Babel and Flow before that dividend is paid back to you? I would say it's not that long.
 
-**Juan Pablo Buritica:** Oh, right... Don't get me wrong, the return on investment - it was attractive enough for me to spend a day trying to figure it out, because it's \[unintelligible 00:35:37.26\] I think a lot of these tools have ultimately maybe a better developer, and not even having any formal computer science training, the fact that I got to a point where I valued static typing and type-checking because I thought it would be useful for my project is awesome.
+**Juan Pablo Buritica:** Oh, right... Don't get me wrong, the return on investment - it was attractive enough for me to spend a day trying to figure it out, because it's an awesome thing. I think a lot of these tools have ultimately maybe a better developer, and not even having any formal computer science training, the fact that I got to a point where I valued static typing and type-checking because I thought it would be useful for my project is awesome.
 
 \[00:35:57.29\] If I were writing code every day, it would have definitely paid off within a few hours. I do think that even as more open source projects start adopting all this tooling, they become less new contribution-friendly, and I think that's the only problem I have with it.
 
@@ -284,7 +284,7 @@ All the docs for React are still just "Open this file. Write jsx directly in it 
 
 **Mikeal Rogers:** \[laughs\] So why did you write this?
 
-**Juan Pablo Buritica:** It came from the real struggle that we were having at Ride, basically seeing the rest of the company try to adapt to the fact that engineering was completely distributed just motivated me to make sure... So these guides had to purposes. First, telling engineering how I expected them to communicate and to collaborate, the default of our values, and then we shared this document to everyone else in the company, basically telling them "This is how we work, and if you need us, please adapt to this." Because the constant interruption, the Slack channeling all the time, or the DMs... The missed expectations meant that I had to do a little bit more of a \[unintelligible 00:45:44.16\] management, but it came out really well.
+**Juan Pablo Buritica:** It came from the real struggle that we were having at Ride, basically seeing the rest of the company try to adapt to the fact that engineering was completely distributed just motivated me to make sure... So these guides had to purposes. First, telling engineering how I expected them to communicate and to collaborate, the default of our values, and then we shared this document to everyone else in the company, basically telling them "This is how we work, and if you need us, please adapt to this." Because the constant interruption, the Slack channeling all the time, or the DMs... The missed expectations meant that I had to do a little bit more of a deactive management, but it came out really well.
 
 A lot of it is, of course, inspired by the open source way of working, but it was mostly to just define the culture of how we communicated, and it turned out pretty good. I've applied the majority of this stuff at Splice now, and it's worked really well. You'll probably see me every now and then tweet about "Please don't use 'adhere' all the time, don't abuse it" because one of the most challenging things with distributed teams or hybrid teams is the constant interrupting, which is just like in an open office just being touched on the shoulder and like "Hey, can you look at this?" and you just break the entire flow. So that was the inspiration.
 
@@ -330,7 +330,7 @@ If I ever - and of course I do wanna start adding more junior members - that wil
 
 **Mikeal Rogers:** Yeah... Anyway, let's move on to picks. Time for picks! Juan, do you have something for us?
 
-**Juan Pablo Buritica:** I need five minutes \[unintelligible 00:52:56.09\]
+**Juan Pablo Buritica:** I need five minutes. I am a procrastinator.
 
 **Alex Sexton:** I'll go first.
 

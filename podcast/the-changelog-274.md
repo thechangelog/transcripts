@@ -258,9 +258,9 @@ I think the Java world, the world of application servers -- and when you get rig
 
 The only part that Sidekiq doesn't do is the web side, but that makes it sort of independent of the web or whatever the style of the day might be.
 
-**Jerod Santo:** Right. Well, let's get back to Faktory as a service, the idea. So you have one person who's potentially interested; let's say we have listeners whose ears are perking up, perhaps they're entrepreneurial ops people with some development skills, or whoever they think they happen to be, and they're like "Wow, I could be a value-added reseller for Mike." What's the path there, what's the process? They catch you up on Twitter, they e-mail you privately? Are you soliciting for people who might wanna do this, or you're just hoping that one person does it and you can make them the official Faktory service?
+**Jerod Santo:** Right. Well, let's get back to Faktory as a service, the idea. So you have one person who's potentially interested; let's say we have listeners whose ears are perking up, perhaps they're entrepreneurial ops people with some development skills, or whoever they think they happen to be, and they're like "Wow, I could be a value-added reseller for Mike." What's the path there, what's the process? They catch you up on Twitter, they email you privately? Are you soliciting for people who might wanna do this, or you're just hoping that one person does it and you can make them the official Faktory service?
 
-**Mike Perham:** I'm not soliciting actively, but I'm happy to entertain offers. The last thing I want is a dozen different drive-by e-mails from people who want me to provide 90% of the tech work, and then they just sort of spin up a bunch of Docker containers on EC2 and they're done. That's not really what I want. I'm focused on the product, on features, and kind of trying to determine what goes in the community version and what goes in the commercial version.
+**Mike Perham:** I'm not soliciting actively, but I'm happy to entertain offers. The last thing I want is a dozen different drive-by emails from people who want me to provide 90% of the tech work, and then they just sort of spin up a bunch of Docker containers on EC2 and they're done. That's not really what I want. I'm focused on the product, on features, and kind of trying to determine what goes in the community version and what goes in the commercial version.
 
 I would expect a SaaS to more focus on obviously ease of spinning up an instance, but then things like reliability and data storage, back-ups and restores, automating all that so that anybody who's using Faktory doesn't have to deal with that or worry about a disk dying, or something like that.
 
@@ -274,7 +274,7 @@ I would expect a SaaS to more focus on obviously ease of spinning up an instance
 
 **Adam Stacoviak:** It's a big claim. Ten years.
 
-**Mike Perham:** Yeah. I'm making plenty of money right now where I can justify spending the next ten years just focused on it. So it will be around, it will be supported; I'm just an e-mail away if people have any problems with it. As Ruby and Rails change over time, Sidekiq will change with them to work as best as it can.
+**Mike Perham:** Yeah. I'm making plenty of money right now where I can justify spending the next ten years just focused on it. So it will be around, it will be supported; I'm just an email away if people have any problems with it. As Ruby and Rails change over time, Sidekiq will change with them to work as best as it can.
 
 Where Faktory shines is that Ruby itself has started to get this reputation as sort of stagnant. People aren't seeing it as the hot new thing, they're not necessarily using it to build new applications anymore. Sidekiq is as robust as the Ruby community is; I mean robust in terms of growth of my business. I don't wanna see my business stagnate over time, so part of this effort is to bring the Sidekiq conventions and opinions to all languages, and at the same time continue to grow as those conventions and opinions grow more popular in all these different languages, hopefully my business will grow also.
 

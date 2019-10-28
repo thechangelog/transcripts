@@ -50,9 +50,9 @@ In the previous show, Sam, we talked quite a bit about your past. We even pulled
 
 **Adam Stacoviak:** Is it tough to explain that to people, like just normal app users? So aside from understanding "Oh, iOS works this way", is it difficult as a developer to explain that kind of stuff to your users?
 
-**Sam Soffes:** Some people are like "Hey, I really don't wanna have to worry about it. I'd rather you just automatically bill me in three months." I was like, "I know, I want to, but I can't if you do it in the app", and in the app I'm not allowed to promote doing it on the website, due to Apple's terms. It's pretty unfortunate. Basically, in three months when the first set of subscriptions expire, I need to e-mail everyone "Hey, you need to upgrade, and handle that in the app." I haven't even built that yet, because I have another month or so to go... Or two months, I guess. I'm sure it'll be annoying.
+**Sam Soffes:** Some people are like "Hey, I really don't wanna have to worry about it. I'd rather you just automatically bill me in three months." I was like, "I know, I want to, but I can't if you do it in the app", and in the app I'm not allowed to promote doing it on the website, due to Apple's terms. It's pretty unfortunate. Basically, in three months when the first set of subscriptions expire, I need to email everyone "Hey, you need to upgrade, and handle that in the app." I haven't even built that yet, because I have another month or so to go... Or two months, I guess. I'm sure it'll be annoying.
 
-I wonder if when I e-mail people that their subscription is up, if I can be like "Hey, if you do this on the website, you don't have to get these e-mails again." Because I make way more money if they do it on the website. I don't know, we'll see. I don't wanna break Apple's rules, but it's a terrible experience for the user, and they don't really give you another option, so...
+I wonder if when I email people that their subscription is up, if I can be like "Hey, if you do this on the website, you don't have to get these emails again." Because I make way more money if they do it on the website. I don't know, we'll see. I don't wanna break Apple's rules, but it's a terrible experience for the user, and they don't really give you another option, so...
 
 **Adam Stacoviak:** Well, the app is free, right? So you're paying 30% to Apple for your recurring revenue that might happen inside the app...?
 
@@ -60,7 +60,7 @@ I wonder if when I e-mail people that their subscription is up, if I can be like
 
 **Adam Stacoviak:** This is a bit of a technical question, so does the website do different transactions than the in-app?
 
-**Sam Soffes:** Yeah, so I use Stripe.com. They're a really spectacular payment processor. If you're taking money on the website -- it's amazing. Anyway, they charge 2.9% plus 30 cents per transaction. So on $1.99, that's a ton of money, which is unfortunate. But on larger things, like if I sell T-shirts \[unintelligible 00:07:46.20\] I do pretty well, comparing to iTunes.
+**Sam Soffes:** Yeah, so I use Stripe.com. They're a really spectacular payment processor. If you're taking money on the website -- it's amazing. Anyway, they charge 2.9% plus 30 cents per transaction. So on $1.99, that's a ton of money, which is unfortunate. But on larger things, like if I sell T-shirts or if you buy a year, I do pretty well, comparing to iTunes.
 
 **Adam Stacoviak:** Let's dive a little deeper into I guess exactly the business model. The business model isn't exactly a rate sheet for what you charge for the app... Let's talk about the long-term, let's be quite real here. You just came from Hipstamatic -- so if you're just catching up with this and you decided to continue listening, then go back and listen to part one; you'll learn that Sam worked at Hipstamatic, he is a good, well-experienced iOS developer, so he gets paid well, so he's obviously making a good income, but then he decides to do his own thing in lieu of enjoyment of life, which is totally a good thing, but I can imagine you've got expenses, you've got different things...
 
@@ -74,7 +74,7 @@ I just sold a bunch more Apple stock. All my savings is in Apple stock, and I so
 
 **Sam Soffes:** Yeah, I mean -- like I was saying earlier, announcements and such really drive growth, and product announcements are exciting in general. I have like -- okay, I need to make a way to see the archive, because everyone wants this, even though it's a really stupid feature; it's like, you deleted your task, you don't need it... I'm saying "archive" for technical reasons, because it's a paranoid delete and not like -- I hadn't planned on adding to see things you've deleted for a super long time...
 
-**Adam Stacoviak:** I never \[unintelligible 00:11:11.21\] to what I've deleted. I just forget them.
+**Adam Stacoviak:** I never get back to what I've deleted. I just forget them.
 
 **Sam Soffes:** Right. I think because people can't have it, they're like "I want this!" Anyway, that's really annoying... So that's on my list, and I think people will be excited. A lot of people are like "I'm gonna upgrade once I can see this." I don't know, I love when users give ultimatums for features... It's like, "Okay, well thank you for threatening me; I'm gonna keep doing what I was doing." But anyway, so there's that, and Cheddar for Mac is next. I think the last time I said I'd have a beta in like a couple weeks, and it's still...
 
@@ -134,7 +134,7 @@ I guess I'm far away enough from my end of money, but I'm not super focused on i
 
 There's a lot of things I can do to improve my conversion, but I haven't really had time to work on those things. I mean, those are all important, but I think right now getting a couple features that everyone really wants is kind of my top priority. Then once I kind of get Cheddar for Mac and all these little features wrapped up that everyone wants, on all the platforms, then I can kind of like step back for a minute and optimize some things, or start on the next big project, which is Sharing, or whatever. I don't know, I haven't really spent a lot of time on that.
 
-I guess one thing I did is if you have a Twitter.com or GitHub.com e-mail address, you get a free account for life, with the hopes that those people would share how great Cheddar is, because those people are like huge influencers, at least in the tech community. And people in the tech community in general are influencers of the rest of the internet.
+I guess one thing I did is if you have a Twitter.com or GitHub.com email address, you get a free account for life, with the hopes that those people would share how great Cheddar is, because those people are like huge influencers, at least in the tech community. And people in the tech community in general are influencers of the rest of the internet.
 
 Not a lot of people signed up, I don't think I did a good job telling people that work at those companies about it, but... I don't know. That was one thing I tried. It worked okay.
 
@@ -146,13 +146,13 @@ Not a lot of people signed up, I don't think I did a good job telling people tha
 
 **Adam Stacoviak:** Let's talk about making time. You said the reason why you're not doing those things, you're not focusing on optimization is because you don't have time and you have higher priorities. How do you as the sole person that runs this product -- I don't really know how to word it exactly, but what do you... I'll stumble with my words just a bit more here, sorry about that, but what kind of information do you use? That's the word I was looking for - what information do you use to set priority on what you should be working on and what you should work on next, considering the fact that you're a sole dude doing this? You obviously know your business, as well as the financial constraints and the direction you wanna take the product, so how do you make those choices?
 
-**Sam Soffes:** Yeah, that's good. I start and I finish every day doing support. Any tweet or text message or phone call - even though one person has called - or e-mail is all into the same place and I just go through all of them definitely when I get up and go to bed, and sometimes in the middle of the day. It's really great to hear from everyone, like tweets saying how much they love it, or e-mails saying they have this problem, or whatever. It's kind of like I don't really have -- I remember 37signals saying this a long time ago, but when they got feature requests they didn't write them down anywhere, they were just like "Okay." And then when they were like, "Hey, we need to make a new feature", they were like "Oh yeah, we should do this, because a lot of people asked for it." Versus writing down every little thing and trying to do every little feature that everyone requests.
+**Sam Soffes:** Yeah, that's good. I start and I finish every day doing support. Any tweet or text message or phone call - even though one person has called - or email is all into the same place and I just go through all of them definitely when I get up and go to bed, and sometimes in the middle of the day. It's really great to hear from everyone, like tweets saying how much they love it, or emails saying they have this problem, or whatever. It's kind of like I don't really have -- I remember 37signals saying this a long time ago, but when they got feature requests they didn't write them down anywhere, they were just like "Okay." And then when they were like, "Hey, we need to make a new feature", they were like "Oh yeah, we should do this, because a lot of people asked for it." Versus writing down every little thing and trying to do every little feature that everyone requests.
 
 **Adam Stacoviak:** So basically if you hear it often enough it sticks in your mind, and when it comes time to think about new features you use your memory.
 
 **Sam Soffes:** Yeah, I mean, I have a Cheddar list with all the stuff. If it's something I haven't heard before, I write it down just in case, like "Oh, maybe you wanna work on that." Some of them it's like "Oh, no one's asked for that, but I really like that feature and I'm gonna add it." Like tag autocompletion, which is pretty much done, I need to deploy it on the web.
 
-Anyway, so I'm kind of just like -- okay, this week almost all my e-mail besides actual support has been about people wanting to look at the archive, so it's like "Fine, I need to work on this thing."
+Anyway, so I'm kind of just like -- okay, this week almost all my email besides actual support has been about people wanting to look at the archive, so it's like "Fine, I need to work on this thing."
 
 **Adam Stacoviak:** "...I'll give it to you."
 
@@ -202,13 +202,13 @@ I know Mark Jardine tweeted, he was excited about it, and it totally made my day
 
 I was looking at all these other licenses, and it's basically like hey, if you contribute anything, I own it - I'm being very specific about that - and you can't redistribute this or sell it or do anything with it; it's just like "Here, you can look at it and you can help if you want. I own that, but..."
 
-A couple of people were like, "You know what, if you're gonna make it open source, make it open source. The whole point of open source is it's free and open." I was like "Yeah, you're right", so I just picked -- "We'll just use BSD, and \[unintelligible 00:31:06.25\] because there's a bunch of complicated one; I'm like "Screw it, let's use the simplified one." It's do whatever you want. If you wanna be a jerk, fine, be a jerk, but please don't.
+A couple of people were like, "You know what, if you're gonna make it open source, make it open source. The whole point of open source is it's free and open." I was like "Yeah, you're right", so I just picked -- "We'll just use BSD, a simplified one because there's a bunch of complicated ones; I'm like "Screw it, let's use the simplified one." It's do whatever you want. If you wanna be a jerk, fine, be a jerk, but please don't.
 
 And already someone on Hacker News was like "Hey, I'll just take out the Cheddar part and just use it locally on my phone and I don't have to pay and I can do whatever I want." I was like, "Okay, fine. Have at it." I don't know.
 
 **Adam Stacoviak:** If that's your thing, then... Yeah, that's not your customer, man; you don't wanna have him as your customer anyway. He's better off taking your codebase and doing his own thing, because he would send you crappy support requests and stupid features and probably would have a failing credit card or something like that and make your life hell in other ways.
 
-I'm not worried about this, but I just think, like, you do have an open door, but I think the internet, at least in the community you talked about, which was the early adopters... You mentioned Twitter and GitHub, if you have that after your @ sign for your e-mail address, then you get to use Cheddar for free...
+I'm not worried about this, but I just think, like, you do have an open door, but I think the internet, at least in the community you talked about, which was the early adopters... You mentioned Twitter and GitHub, if you have that after your @ sign for your email address, then you get to use Cheddar for free...
 
 **Sam Soffes:** \[00:32:13.19\] Yeah.
 
@@ -226,9 +226,9 @@ That would be kind of neat if you did what Steve Klabnik has done in the past, w
 
 **Sam Soffes:** That's cool. I should definitely do that.
 
-**Adam Stacoviak:** The question I wanted to ask you about the after the @ symbol of the e-mail address is being Twitter or GitHub, did you get any backlash about having favoritism towards certain people?
+**Adam Stacoviak:** The question I wanted to ask you about the after the @ symbol of the email address is being Twitter or GitHub, did you get any backlash about having favoritism towards certain people?
 
-**Sam Soffes:** No, I mean... A couple people e-mailed and were like "Hey, I work at Uber. I'd really like to get a free account." Or someone was like "Oh yeah, the people at GitHub and Twitter really need free stuff."
+**Sam Soffes:** No, I mean... A couple people emailed and were like "Hey, I work at Uber. I'd really like to get a free account." Or someone was like "Oh yeah, the people at GitHub and Twitter really need free stuff."
 
 **Adam Stacoviak:** Right. That's what I was thinking... \[laughs\] They don't really need free stuff.
 
@@ -236,7 +236,7 @@ That would be kind of neat if you did what Steve Klabnik has done in the past, w
 
 **Adam Stacoviak:** It is smart.
 
-**Sam Soffes:** Kyle Bragger - he founded Forrst - was screaming like "Hey, this is genius! I wanna know how this works out." I was like, "Thanks so much, I'm a big fan! This is awesome!" And a couple people - going back to people being jerks, like "Hey, I just signed up and I don't work at Twitter. You should really verify e-mail addresses" and I was like "Please don't be a jerk. If you wanna steal from me, fine, but... Whatever. I'm not gonna go out of my way-- I don't know, all that in general is just like how annoying am I gonna make it for you to steal from me? It's like, I'd rather you just not be a jerk and I don't have to worry about it, but if it's like a problem, I'll address it. But it was just one guy that wants to steal from me... Then fine, be a jerk.
+**Sam Soffes:** Kyle Bragger - he founded Forrst - was screaming like "Hey, this is genius! I wanna know how this works out." I was like, "Thanks so much, I'm a big fan! This is awesome!" And a couple people - going back to people being jerks, like "Hey, I just signed up and I don't work at Twitter. You should really verify email addresses" and I was like "Please don't be a jerk. If you wanna steal from me, fine, but... Whatever. I'm not gonna go out of my way-- I don't know, all that in general is just like how annoying am I gonna make it for you to steal from me? It's like, I'd rather you just not be a jerk and I don't have to worry about it, but if it's like a problem, I'll address it. But it was just one guy that wants to steal from me... Then fine, be a jerk.
 
 **Adam Stacoviak:** So be it, right? I mean, it would probably be more of a waste of time for you to \[unintelligible 00:35:46.28\] that person down than it would actually help you out.
 
@@ -248,7 +248,7 @@ That would be kind of neat if you did what Steve Klabnik has done in the past, w
 
 **Adam Stacoviak:** Yeah. Kyle has had a fun life, let's just say that. He's a cool dude, I enjoy chatting with him, and a lot of people listened to that show and loved it, because who doesn't love what he's done at Forrst. He's done unique things - this is totally a side topic, but Forrst has always been compared to Dribbble in a lot of ways, and there's a lot of ways they differentiate themselves, because they weren't trying to beat Dribbble, it just happened that they both came out around the same time, with similar ideas. But he's done so much cool stuff and has grown so much as a person and so much in the community, too. It was really awesome having him on the show.
 
-**Sam Soffes:** Yeah, he's fantastic. I was about getting funding. I wasn't really sure what I was gonna do, and he was like "Hey, e-mail me" and he gave me some advice. He's been awesome.
+**Sam Soffes:** Yeah, he's fantastic. I was about getting funding. I wasn't really sure what I was gonna do, and he was like "Hey, email me" and he gave me some advice. He's been awesome.
 
 **Adam Stacoviak:** So I guess speaking of funding, you mentioned yourself that you might have been seeking to be bought, or somebody tried to buy -- I'm not really sure what the exact story is, but are you looking for funding? Are you looking to get bought? What's the plan?
 
@@ -442,7 +442,7 @@ Granted, if something goes crazy and I sell it or something for like millions of
 
 **Adam Stacoviak:** So I don't know how much you look at Apple's App Store, but there's not a bad -- I mean, you've got a 3,5-star rating for... It's almost a 4 star; it's not even like a bad thing to get some negative reviews, but some of the ones are pretty brutal.
 
-**Sam Soffes:** I don't really read the App Store reviews that often. Normally, I'll read after a release briefly, to make sure people aren't having crazy crashes or something, and I'll usually read towards the end of a release cycle... So I'll kind of go through and look at all of them, and make sure that I address most of the problems. Usually, Twitter or e-mail is just a much nicer way of saying what all the reviews are saying, and the reviews are just mean for the sake of being mean, so I kind of try to stay away, just because it's such a motivation killer, just like all these people telling me how much they hate me. And you can't reply on the App Store.
+**Sam Soffes:** I don't really read the App Store reviews that often. Normally, I'll read after a release briefly, to make sure people aren't having crazy crashes or something, and I'll usually read towards the end of a release cycle... So I'll kind of go through and look at all of them, and make sure that I address most of the problems. Usually, Twitter or email is just a much nicer way of saying what all the reviews are saying, and the reviews are just mean for the sake of being mean, so I kind of try to stay away, just because it's such a motivation killer, just like all these people telling me how much they hate me. And you can't reply on the App Store.
 
 Someone's like, "Oh, I can't edit the text, so I hate you forever." It's like, "Well, you can. Sorry it's not more clear, but this is how you do it." So yeah...
 
@@ -480,11 +480,11 @@ At first, a lot of people on Twitter were like "This is so stupid, I can't belie
 
 **Sam Soffes:** Yeah, I mean, it's really unfortunate. They don't care, is the bottom line. If you think about the engineers that work on iTunes Connect and the whole thing - they've worked at Apple for like 10+ years, and they've never submitted an app to the store... They don't care. They work at Apple, and this is what they're told to do, so they do it. No one's on the other hand like -- you know, like "I'm using Cheddar every day", so it's like "Oh, this is annoying, I'm gonna fix it." But no one at Apple is really -- they don't use the apps, they don't submit things to the App Store because they work at Apple, and they work on the App Store. I think that's the root of the problem. I'm sure they don't really realize how much of a problem it is, or even if they do, they just don't care, because they're making money anyway.
 
-But yeah, it's unfortunate. I wish I could reply, or at least have the opportunity to e-mail them or something, like "Hey, I'm sorry. Even if you hate me, sorry..."
+But yeah, it's unfortunate. I wish I could reply, or at least have the opportunity to email them or something, like "Hey, I'm sorry. Even if you hate me, sorry..."
 
 **Adam Stacoviak:** \[01:12:04.24\] "Be a little nicer about it. \[laughs\] Be a little nicer about your hate."
 
-**Sam Soffes:** Yeah, \[unintelligible 01:12:05.13\] This guy sent me literally this seven-point e-mail that was super long, like "These are all the reasons why your product is terrible." I was like, "Okay..." and I replied to all of them, point by point. I was like, "You know what, I'm sorry if you don't like it. It sounds like you want something that's a little different. I recommend trying these two other apps. Thanks for trying Cheddar." He never replied, but whatever. I don't know. There's no reason for me to be a jerk to you, so if you're a jerk to me, I'm still gonna be nice to you. I don't know.
+**Sam Soffes:** Yeah, \[unintelligible 01:12:05.13\] This guy sent me literally this seven-point email that was super long, like "These are all the reasons why your product is terrible." I was like, "Okay..." and I replied to all of them, point by point. I was like, "You know what, I'm sorry if you don't like it. It sounds like you want something that's a little different. I recommend trying these two other apps. Thanks for trying Cheddar." He never replied, but whatever. I don't know. There's no reason for me to be a jerk to you, so if you're a jerk to me, I'm still gonna be nice to you. I don't know.
 
 **Adam Stacoviak:** Alright, well let's talk about lessons learned then, since we're this far into the podcast... This is the last topic we'll hit on before we say goodbye for part two. I don't know... I don't know if there'll be a part three; maybe in the future, who knows...? I mean, we weren't sure there was gonna be a part two when we did part one. I actually went back and renamed the show part one, because I knew that part two was coming up. The first one was not named part one at first, and that's just how it worked out.
 
@@ -494,7 +494,7 @@ Lessons learned - I think this is a big one, because you've been down this path 
 
 I feel like making something that is valuable and important and that I care about is way more rewarding than just typing. I think if I had come to that realization sooner, I think I'd be -- not that I was miserable my whole career, by any means; it's been great. But I feel like I would have been even more happy and enjoyed it had I realized this sooner. Because for a while, I'd get bored and switch jobs, and like... I was like, "Well, I guess it's just what I do, I just get bored", I don't know. But I feel like this was the reason... Yeah, I don't know.
 
-**Adam Stacoviak:** This is the reason, huh? What have you learned about being on your own, being that island, being the person that sets a priority, being the person that's up late at night looking at some of the e-mails, and waking up in the morning and seeing some of those e-mails from users, dealing with - or maybe not dealing with, maybe just ignoring some of the app reviews you're getting... What can you learn from some of those processes?
+**Adam Stacoviak:** This is the reason, huh? What have you learned about being on your own, being that island, being the person that sets a priority, being the person that's up late at night looking at some of the emails, and waking up in the morning and seeing some of those emails from users, dealing with - or maybe not dealing with, maybe just ignoring some of the app reviews you're getting... What can you learn from some of those processes?
 
 **Sam Soffes:** \[01:16:05.14\] Staying motivated is absolutely the number one thing. I don't have anyone telling me what to do... I mean, users complain, but... I can just take today off and it doesn't matter; no one's gonna know or care. At first, I wasn't super motivated or productive, after like the first week of wearing off, like "Hey, I'm working on Cheddar!" And getting into a rhythm of working, and "This is important. I have to go to work today, just like everyone else" and all that... Once I got that down, I was way more productive and happier and less stressed out about managing my time.
 

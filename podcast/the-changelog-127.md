@@ -164,7 +164,7 @@ And finally, there's the third one, which is the groups of changes - the added c
 
 **Olivier Lacan:** You're right, absolutely.
 
-**Adam Stacoviak:** ...because so many people use that in e-mail format and whatnot, so the idea was to translate from like the normal way of writing words to something you can actually mark up without trying to.
+**Adam Stacoviak:** ...because so many people use that in email format and whatnot, so the idea was to translate from like the normal way of writing words to something you can actually mark up without trying to.
 
 **Olivier Lacan:** Which is a great idea.
 
@@ -248,7 +248,7 @@ So if you're going to change your public API so radically, just make a little li
 
 Again, a huge generator of heat and rage in the open source world is that - breaking the API. And you're like, "Oh, there's a new version of this thing! Let's upgrade!" and then you turn into Adam, you just get really sad and bitter about upgrading... Which is what happened to me. Everything I've contributed for this, basically, is fueled by mostly anger, and... Yeah. It's all fueled by anger, so I take the anger and I try to turn it into something positive... Because I was upgrading this old app, and this was happening over and over and over again, as you said. Test suite, green, "Nope, not working." "Oh, why?" That's why. And you figure it out.
 
-**Adam Stacoviak:** \[unintelligible 00:32:12.14\] you mentioned Shields, which -- Chad Whitacre has been on the show before; I saw you all do a virtual high five whenever that moved over to Badges... That was super-cool. So that's a cool project, just for one, so just to make sure you know that we think it's an awesome project... And we haven't had you on this show -- I never really knew who did it, I just knew it was a cool thing, and now it's part of Badges, and I think there's an org behind it; they're all kind of collected into one org now on GitHub, which is just good across the board, because it's like the U.N. for badges, basically.
+**Adam Stacoviak:** And that whole little kind of... for the listeners, about 4 or 5 minutes back you mentioned Shields, which -- Chad Whitacre has been on the show before; I saw you all do a virtual high five whenever that moved over to Badges... That was super-cool. So that's a cool project, just for one, so just to make sure you know that we think it's an awesome project... And we haven't had you on this show -- I never really knew who did it, I just knew it was a cool thing, and now it's part of Badges, and I think there's an org behind it; they're all kind of collected into one org now on GitHub, which is just good across the board, because it's like the U.N. for badges, basically.
 
 **Olivier Lacan:** \[laughs\] Okay, I'm gonna steal that, because that's a really good description.
 
@@ -282,11 +282,11 @@ Again, a huge generator of heat and rage in the open source world is that - brea
 
 **Olivier Lacan:** So there you go. Jerod, that should be your thing.
 
-**Jerod Santo:** I'll open a pull request on your \[unintelligible 00:34:45.25\]
+**Jerod Santo:** I'll open a pull request on your changelog...
 
 **Olivier Lacan:** Crap, we're live... Somebody will probably register that website. \[laughter\] So basically, I just made a template. I just made a simple template. The idea of Shields is simple. It's called Shields because of one of the best TV shows of all time, The Shield. You should watch that, by the way, as a side note. It's a great show. The idea is a key and a value, just like we know; it's just like JSON or any format that has a key and a value.
 
-The key is "What is it about?" and then the value is - a simple example is "Build - passing or failing." "Dependencies - up to date, or not up to date." "Gem version - what is the gem version?" \[unintelligible 00:35:26.14\] I've actually talked to Bryan Helmkamp from Code Climate and a bunch of people from other third-party vendors that did those badges, and I said "You have this GPA thing on Code Climate, which is really cool. Why not put that on the badge, instead of your name?" And he was like, "Yeah, actually we wanted to do that, but we were super-busy with our startup." So now you know why they did that, because it was just a stopgap.
+The key is "What is it about?" and then the value is - a simple example is "Build - passing or failing." "Dependencies - up to date, or not up to date." "Gem version - what is the gem version?" Code Climate chose this. I've actually talked to Bryan Helmkamp from Code Climate and a bunch of people from other third-party vendors that did those badges, and I said "You have this GPA thing on Code Climate, which is really cool. Why not put that on the badge, instead of your name?" And he was like, "Yeah, actually we wanted to do that, but we were super-busy with our startup." So now you know why they did that, because it was just a stopgap.
 
 So you end up getting in touch with all these really great people who just meant to do well, but either didn't have the graphic skills to make a badge that looks exactly the same as -- I think the Travis badge was the first...
 
@@ -310,7 +310,7 @@ Then question two - you say it's a curated list of things... So how do I decide 
 
 **Olivier Lacan:** The first part is every single release. If you don't have something notable, you can say "No notable changes." This is something that I'm glad you asked, because this is something I hadn't really answered yet on the site... So I'll probably add that. So "When should I do that?" "All the time."
 
-It's very unlikely that you're going to make a release, or cut a release, or push a release if you don't have any notable changes. It's extremely rare. There might be some bug fixes, but even those bug fixes you can say "Okay, we had a few bug fixes - about what?" It just takes you just really quickly parsing through... If you're the release manager, or if you're main/lead contributor, it takes just asking in your contribution -- so GitHub added support for contributing.md, that you can add in your repo to say "This is what we want you to do when you contribute, so start here first. If you start an issue, \[unintelligible 00:40:00.09\]"
+It's very unlikely that you're going to make a release, or cut a release, or push a release if you don't have any notable changes. It's extremely rare. There might be some bug fixes, but even those bug fixes you can say "Okay, we had a few bug fixes - about what?" It just takes you just really quickly parsing through... If you're the release manager, or if you're main/lead contributor, it takes just asking in your contribution -- so GitHub added support for contributing.md, that you can add in your repo to say "This is what we want you to do when you contribute, so start here first. If you start an issue, it's linked to it.
 
 \[00:40:04.04\] As a maintainer, why not put in there and say "Hey, if you're going to fix a bug, please make a changelog entry. A bunch of open source projects do that. Then there you go - every minor release now has a changelog entry that says "Okay, we fixed this bug. Nothing else was added, so you can be relaxed, because we didn't screw up your thing in the background."
 
@@ -352,7 +352,7 @@ That's great, except that it's very rare that people actually -- it's even more 
 
 **Break:** \[00:45:22.01\]
 
-**Adam Stacoviak:** I think we might be kind of talking around this issue that you have on the project, "Why not use GitHub release notes?", and you've got a couple chimes in from GitHubbers - technoweenie, BeeKeepers... And I almost feel like GitHub muddied the waters, so to speak, by having this concept of releases. While there's always been this concept of changelog, why not just enforce that or help lift that up \[unintelligible 00:46:54.22\] pull requests and merges... They made these hard concepts so much easier, which is why GitHub has blown up the way it has... Because they took what used to be hard to commit to a project or fork it or add to it, and they made it so much more accessible socially. Why not do the same thing for this idea of what a changelog is and represents for a project?
+**Adam Stacoviak:** I think we might be kind of talking around this issue that you have on the project, "Why not use GitHub release notes?", and you've got a couple chimes in from GitHubbers - technoweenie, BeeKeepers... And I almost feel like GitHub muddied the waters, so to speak, by having this concept of releases. While there's always been this concept of changelog, why not just enforce that or help lift that up and pull it in too, like they had done with pull requests and merges... They made these hard concepts so much easier, which is why GitHub has blown up the way it has... Because they took what used to be hard to commit to a project or fork it or add to it, and they made it so much more accessible socially. Why not do the same thing for this idea of what a changelog is and represents for a project?
 
 **Olivier Lacan:** It's true, but at the same time I've had conversations with them... So I don't generally work for GitHub, and I just have a few people I know that work for GitHub, and every time I talk to them, it's a really good conversation and I can tell they care. I can tell they're trying to do -- that contributing file, for instance, is a good example of what you're saying... Why not just parse that changelog file and then display it somehow in the open source project's dashboard? In a sidebar, or something. That way, it will be (as you said) easier to do, and it wouldn't add one more entry point for releases...
 
@@ -376,7 +376,7 @@ So I guess they had a way to do that, and I think it's really interesting how th
 
 **Olivier Lacan:** If they made it easier to manage and deal with tags, then it would be very simple for us to generate a changelog on the fly, based on the Git tags. That would be, to me, the best possible paradigm, because now instead of managing this file, you could have any service parse your Git tags and generate a changelog on their own and display it the way they want... And it would be portable by virtue of being in your Git history.
 
-**Jerod Santo:** Yeah, the only time it would be lost is if someone downloaded like a bundle of your files, or something, without the Git \[unintelligible 00:50:21.20\]
+**Jerod Santo:** Yeah, the only time it would be lost is if someone downloaded like a bundle of your files, or something, without the Git hidden directory
 
 **Olivier Lacan:** Right. But let's say you could have a little generator with whatever your make tool is, to make your release - you could have it just actually dump an actual changelog file, and that'd be really cool.
 
@@ -392,7 +392,7 @@ You guys know, he sadly killed himself I think last year while he was being inve
 
 \[00:52:14.14\] Being French, it's weird for me to care about this, but there's even less care in France for that... So for me, people like him -- I don't want martyrs, I want people like him who just have passionately tried to make things right, and don't accept that because it's the way it is, then it should stay the way it is. When people say, "Oh, it's the law", it doesn't mean you have to break it, but that doesn't mean you can change it.
 
-If there's a bad law, or Congress is trying to make the internet less good then, maybe you should do something about it, and you could start with a tiny little thing. If you help bolster the open source community by making an open source project that allows for people to see campaign contributions... Or I have a friend called Tim Faust, and he's this crazy, super \[unintelligible 00:53:09.24\] genius guy, and he's currently parsing through the Texas (I think) gubernatorial, or one of those -- basically, the campaign spending on each parties, to see what parties waste money on... Which is super important information. It's basically civic hacking type stuff.
+If there's a bad law, or Congress is trying to make the internet less good then, maybe you should do something about it, and you could start with a tiny little thing. If you help bolster the open source community by making an open source project that allows for people to see campaign contributions... Or I have a friend called Tim Faust, and he's this crazy, super Excel genius guy, and he's currently parsing through the Texas (I think) gubernatorial, or one of those -- basically, the campaign spending on each parties, to see what parties waste money on... Which is super important information. It's basically civic hacking type stuff.
 
 People like that inspire me a lot. Beyond technical... It's just like, "Okay, so why are you doing this? What is your purpose?" Because your technical prowess is great...
 
@@ -404,7 +404,7 @@ People like that inspire me a lot. Beyond technical... It's just like, "Okay, so
 
 **Olivier Lacan:** Yeah. So I recommend anybody listening to this try to get a copy or see The Internet's Own Boy, which is a documentary that was made about it... And it's very sad, you will cry; there's no way you can come out of this like "Yay!" But it might actually spark some care for you, and just -- it doesn't have to be as epic or as dangerous as some of these things are. It could be something simple like this. So yeah, that's my hero.
 
-**Adam Stacoviak:** We'll put a link out to Aaron. And then we also linked out to the video you were talking about... It was an interview of him as a teaser to the documentary; we linked that out in the Changelog Weekly, our weekly e-mail that we were sending regularly; we took a hiatus and we're relaunching it... So if you're sending us hate mail, I'm gonna keep ignoring it for the next weeks, and then I'll let you know what's gonna happen with it, but...
+**Adam Stacoviak:** We'll put a link out to Aaron. And then we also linked out to the video you were talking about... It was an interview of him as a teaser to the documentary; we linked that out in the Changelog Weekly, our weekly email that we were sending regularly; we took a hiatus and we're relaunching it... So if you're sending us hate mail, I'm gonna keep ignoring it for the next weeks, and then I'll let you know what's gonna happen with it, but...
 
 **Olivier Lacan:** Or poop mail.
 
@@ -424,7 +424,7 @@ People like that inspire me a lot. Beyond technical... It's just like, "Okay, so
 
 **Jerod Santo:** That was backwards...
 
-**Olivier Lacan:** Let me just \[unintelligible 00:56:20.13\]
+**Olivier Lacan:** Let me just...
 
 **Adam Stacoviak:** We've got a linguist on the call who said he is -- just kidding... \[laughter\]
 

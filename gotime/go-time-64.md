@@ -170,7 +170,7 @@ If you don't think a little bit why you're organizing code in a certain way, you
 
 **Paul Dix:** Right, yeah. Most of the time you need to figure out if you're even building the right thing in the first place.
 
-**Erik St. Martin:** In our e-mail, talking about you coming on the show, you were talking about - speaking of refactoring things, you're changing out the way your hosted solution works; you kind of have like your own custom orchestrator... I believe that's what you were mentioning.
+**Erik St. Martin:** In our email, talking about you coming on the show, you were talking about - speaking of refactoring things, you're changing out the way your hosted solution works; you kind of have like your own custom orchestrator... I believe that's what you were mentioning.
 
 **Paul Dix:** Yeah, so our hosted solution is an EC2, and we started developing this in... Oh, man, I'm probably gonna get this wrong. This was 2016... Yes, 2016. I can't believe it was that long ago. So yeah, this was in February of 2016, and what we were going to do for this kind of thing was essentially it looks basically like managed databases of services. The customer comes in, they sign up, they'll get new EC2 instances where the InfluxDB clustered implementation will be deployed on containers, with some additional monitoring bits and stuff like that.
 

@@ -40,9 +40,9 @@ We have some other things like WHATWG URL implementation; it's not officially su
 
 **Mikeal Rogers:** Dig into that N-API thing a little bit, because it's like behind a flag, and stuff like that. Tell us a bit more about that in detail.
 
-**James Snell:** N-API - the whole purpose of it is to allow native add-on developers to write to an ABI that is going to remain stable, that is guaranteed to remain stable across Node versions.
+**James Snell:** N-API - the whole purpose of it is to allow native add-on developers to write to an API that is going to remain stable, that is guaranteed to remain stable across Node versions.
 
-\[00:03:58.03\] Previously, if you were writing a native add-on, you were writing to the V8 API, so you were writing to the native abstractions for Node \[unintelligible 00:04:06.18\]. The problem with those is that every time V8 changes its API, you end up having to recompile. Every time you install a new version of Node - a new major version - you end up having to recompile.
+\[00:03:58.03\] Previously, if you were writing a native add-on, you were writing to the V8 API, so you were writing to the native abstractions for Node, the nan tool. The problem with those is that every time V8 changes its API, you end up having to recompile. Every time you install a new version of Node - a new major version - you end up having to recompile.
 
 The new N-API is really designed to make it so that a native add-on can be written once and used across multiple versions of Node without recompiling on a single system. It's even possible to write a module that works both against the V8 version of Node and the Chakra Core version of Node... So not just different versions of the V8 engine, but a completely different engine altogether.
 
@@ -72,7 +72,7 @@ I think as we go down this path - it's still very early - it will make things li
 
 The other thing we did with Promises is we made it so that for a native Promise it is now domain-aware. The domains module has been deprecated for a while, but it's still used; there's still lots of people that use it. Now inside your cache you can actually access the current domain; it's relatively minor, but it is important.
 
-**Mikeal Rogers:** Did that change go in, that everybody was freaking out about, about the throwing \[unintelligible 00:09:08.29\] that whole thing?
+**Mikeal Rogers:** Did that change go in, that everybody was freaking out about, about the throwing on uncaught rejection, that whole thing?
 
 **James Snell:** No, that has not landed yet. The reason for that is we still have not settled on any kind of consensus on what that action should be. The biggest thing that we've identified right now is that when an unhandled rejection occurs, that there should at least be a process warning emitted that has the original stack trace. It is possible to do that right now using the --trace-warning argument, but what we wanna do is change it so that by default it just shows that stack trace when those happen.
 
@@ -82,9 +82,9 @@ So it's really difficult to figure those things out and see what we need to do t
 
 **Mikeal Rogers:** So pulling us out of the weeds a little bit here... I've seen a lot of people throw around this V8 TurboFan+Ignition thing in the compiler pipeline, and it gets thrown around a lot, and it's like a magic performance sauce that everybody's kind of throwing everything -- can you explain what this actually means and what it does to people's code?
 
-**James Snell:** Okay, so right now what's inside V8 - you have the compiler and \[unintelligible 00:10:58.06\] does a number of tricks to make it faster. The TurboFan+Ignition is just a new compiler and a new optimizer inside V8, and for most people, whether you're using the old Crankshaft stuff or the news stuff, there's just not gonna be any impact, you're not gonna see any difference. But the new compiler and optimizer is really geared towards optimizing the new language features, so things like class, or spread arguments, or any of the new language features. Crankshaft - which was the old optimizer - just wasn't set up to handle these new language features very well at all. The new toolchain will make it so that those things can actually perform decently going forward. For most people, they won't see a difference.
+**James Snell:** Okay, so right now what's inside V8 - you have the compiler, and you optimize with the compiler: it takes the Javascript and compiles it down to bytecode, optimizes it and does a number of tricks to make it faster. The TurboFan+Ignition is just a new compiler and a new optimizer inside V8, and for most people, whether you're using the old Crankshaft stuff or the news stuff, there's just not gonna be any impact, you're not gonna see any difference. But the new compiler and optimizer is really geared towards optimizing the new language features, so things like class, or spread arguments, or any of the new language features. Crankshaft - which was the old optimizer - just wasn't set up to handle these new language features very well at all. The new toolchain will make it so that those things can actually perform decently going forward. For most people, they won't see a difference.
 
-\[00:11:54.27\] The code that is going to see a significant difference is code that has been highly, highly optimized \[unintelligible 00:12:01.26\] quirks in the old Crankshaft optimizer. We have some examples of this in Node core itself, where we actually will unroll for loops in order to make it faster. What that means is instead of just going through the entire loop every time, we'll see "Does this thing only have one item or two items or three items?" and we will special-case handling those, and then loop only if none of the other more optimized cases apply. Under Crankshaft it ends up being significantly faster.
+\[00:11:45.27\] The code that is going to see a significant difference is code that has been highly, highly optimized to take advantage of quirks in the old Crankshaft optimizer. We have some examples of this in Node core itself, where we actually will unroll for loops in order to make it faster. What that means is instead of just going through the entire loop every time, we'll see "Does this thing only have one item or two items or three items?" and we will special-case handling those, and then loop only if none of the other more optimized cases apply. Under Crankshaft it ends up being significantly faster.
 
 Code that is highly optimized for Crankshaft could actually end up running slower under TurboFan, because a lot of those optimization tricks are not longer there or are being done a completely different way.
 
@@ -94,7 +94,7 @@ We shouldn't see code break, we shouldn't see any existing stuff just stop worki
 
 **James Snell:** Oh, yeah. Any new Javascript features should become significantly faster.
 
-**Mikeal Rogers:** Yeah, and async/await is in here too, right? I think it was also in version 7, but this is the first one that's scheduled to go into LTS; there's a lot more \[unintelligible 00:13:26.14\] coming onto it. So async/await is starting to become a feature that you can just kind of depend on.
+**Mikeal Rogers:** Yeah, and async/await is in here too, right? I think it was also in version 7, but this is the first one that's scheduled to go into LTS; there's a lot more users coming onto it. So async/await is starting to become a feature that you can just kind of depend on.
 
 **Alex Sexton:** ...in Node.
 
@@ -102,7 +102,7 @@ We shouldn't see code break, we shouldn't see any existing stuff just stop worki
 
 **Mikeal Rogers:** You said there were like a ton of major changes... A lot of those are breaks, and not these feature ads... So what are the things that were broken?
 
-**James Snell:** I'm kind of going through the list right now... Buffer \[unintelligible 00:14:04.08\] by default, if you call a new buffer. It's not really so much breaking as in functionality, but breaking in terms of performance; it's significantly slower.
+**James Snell:** I'm kind of going through the list right now... Buffer num now zero fills by default, if you call a new buffer. It's not really so much breaking as in functionality, but breaking in terms of performance; it's significantly slower.
 
 **Mikeal Rogers:** But safer.
 
@@ -110,7 +110,7 @@ We shouldn't see code break, we shouldn't see any existing stuff just stop worki
 
 Same thing with some of the crypto arguments... There's a few deprecations in here, a few new things that users really shouldn't have been using in the first place, that we're only using internally, like SyncRight stream I think is one of them -- it's always been there, but it was always intended to be just an internal only thing. We now have runtime deprecation on that.
 
-A lot of these are changes to error messages. We have to treat error message changes as semver major in core because people actually parse error messages \[unintelligible 00:15:19.10\]. So what we're doing is we're going through and adding new static error codes to all these, so that if you wanna know what error actually occurred, you'll just have to look at the code and you can ignore the message.
+A lot of these are changes to error messages. We have to treat error message changes as semver major in core because people actually parse error messages to determine what happened. So what we're doing is we're going through and adding new static error codes to all these, so that if you wanna know what error actually occurred, you'll just have to look at the code and you can ignore the message.
 
 Once we make that change, we'll be handling error message changes as semver minors or patches, and only changes to the error code or error type will be semver major. That will be a big change coming up soon. We've started that process of migrating those now.
 
@@ -158,7 +158,7 @@ Alright, I think that that covers Node 8. We're gonna take a quick break, and wh
 
 **Jessica Lord:** \[laughs\] Yes, alright. First of all, if you haven't heard of Glitch director/browser to Glitch.com, Glitch is this really awesome IDE coming out of FogCreek. Jen Schiffer is the community engineer there, and it is all the things - I'll try not to spend too much time just gushing about it... It's an in-browser IDE; you can have multiple people editing the code at the same time, but it's also free hosting, and it's free hosting with a Node server. Everything you build, you get free Node hosting, and then similar to like forking a project on GitHub, you can remix a project on Glitch.
 
-Glitch really wants to lower the barrier for entry, and building things on the web and making it fun. I think last week they released a new feature for getting help called "raise your hand." If you go to Glitch.com, you'll see at the top of the page it says "Help others \[unintelligible 00:23:20.05\]" That will show you if anybody has any questions at the time. What it lets you do is anywhere that you're editing code in a Glitch project, if you highlight some lines of code, you'll get an icon with the emoji handraiser, and you can click it and you can describe your problem and it will go to this section on the homepage.
+Glitch really wants to lower the barrier for entry, and building things on the web and making it fun. I think last week they released a new feature for getting help called "raise your hand." If you go to Glitch.com, you'll see at the top of the page it says "Help others - get thanks" That will show you if anybody has any questions at the time. What it lets you do is anywhere that you're editing code in a Glitch project, if you highlight some lines of code, you'll get an icon with the emoji handraiser, and you can click it and you can describe your problem and it will go to this section on the homepage.
 
 Then anyone who wants to help people who are learning and working on projects on Glitch can go and see who's asking for help. When you respond to someone in need, it'll ask that person to give you access to their project, and then you can get in and start coding with them.
 
@@ -184,9 +184,9 @@ I know Jessica built this really cool bot that would intervene in people learnin
 
 When you're doing Git-it, you get to the point where you add a collaborator to your project, because I felt like it was important to teach people GitHub and working with other people to actually try and simulate a little bit working with other people on GitHub... So when you add the robot - his name is RepoRobot - to your project as a collaborator, it then has access and it writes to your repos. Then you have to learn how to pull in changes, and during the rest of the course of doing Git-it, RepoRobot is verifying challenges, it's checking the people have a GitHub account and have done this or that... It's like using the GitHub API a lot to verify that the person has done what they were supposed to do in that challenge.
 
-Then at the end of it all you make a pull request and RepoRobot is merging all the pull requests. So it's going through and it's like sort of reviewing the pull request, because after a certain amount of time, errors became common - or mistakes people were making became common. So the top three or four most common mistakes RepoRobot's also looking out for, and will leave a comment on your pull request, telling you that "This thing was wrong. Here's what you can do to fix it." Then, if your pull request is great, it merges the pull request and then it rebuilds this page that has a list of everybody's names on it that have done it, which is like 13,000+ now... Which is awesome, but also -- I'm using free services as much as I can on this, and right now I have this problem where GitHub notifies you via e-mail if you've been added to a project, and then you have to accept that invitation. So I'm using this third-party e-mail service, but I'm using their free tier and right now too many people are doing Git-it, and I'm blowing through the e-mail tier... So I have to fix this.
+Then at the end of it all you make a pull request and RepoRobot is merging all the pull requests. So it's going through and it's like sort of reviewing the pull request, because after a certain amount of time, errors became common - or mistakes people were making became common. So the top three or four most common mistakes RepoRobot's also looking out for, and will leave a comment on your pull request, telling you that "This thing was wrong. Here's what you can do to fix it." Then, if your pull request is great, it merges the pull request and then it rebuilds this page that has a list of everybody's names on it that have done it, which is like 13,000+ now... Which is awesome, but also -- I'm using free services as much as I can on this, and right now I have this problem where GitHub notifies you via email if you've been added to a project, and then you have to accept that invitation. So I'm using this third-party email service, but I'm using their free tier and right now too many people are doing Git-it, and I'm blowing through the email tier... So I have to fix this.
 
-**Mikeal Rogers:** \[00:28:00.05\] Oh, man... The problems with success... I think this is all really interesting, because it seems like in a programming community - and especially in the web community - we keep coming up with these really interesting modes of education where we actually have like intervention and hand raising and a lot of follow through... And I feel like every other week I see a new e-learning platform that's just like a bunch of videos of lectures from people \[unintelligible 00:28:25.24\] \[laughs\] And it's like "I don't think that people can really learn this way."
+**Mikeal Rogers:** \[00:28:03.05\] Oh, man... The problems with success... I think this is all really interesting, because it seems like in a programming community - and especially in the web community - we keep coming up with these really interesting modes of education where we actually have like intervention and hand raising and a lot of follow through... And I feel like every other week I see a new e-learning platform that's just like a bunch of videos of lectures from people that you never see \[laughs\] And it's like "I don't think that people can really learn this way."
 
 **Jessica Lord:** Yeah, I really love about Glitch that -- you know, I feel like so much of our lives are spent talking about developer tools every day, and every new, hot developer tool and framework, but Glitch is actually trying to build tools to help people BECOME developers and think of new ways to do that. That's so awesome and refreshing, I think...
 
@@ -210,7 +210,7 @@ The fact that, as a company who can choose from a large pool of very talented de
 
 **Mikeal Rogers:** I find it kind of hilarious that one of the bigger arguments for "frameworks are easier for new people" is that they're not confronted with a bunch of choices, right? Like, they don't have to go out and find every little module to do every little thing. But before you use these frameworks that have this dev environment, there's like a ton of choices they haven't streamlined for you, that you don't know how to make... It's nice that Glitch has taken that out of the way.
 
-**Jessica Lord:** Yeah, and one of the reasons I moved also the Git-it workshop from the workshopper in the terminal was that a lot of people were doing Git-it specifically to learn Git. They weren't developers, but they might want to be developers, or they work in an office with developers and just wanna know how to use GitHub, how to comment on something, understand what their co-workers are doing on GitHub. And then the first step for doing Git-it was like "Install Node", and it's like, how do you explain to somebody what Node is, and then try to debug across systems, their Node installation and tell them "It's this invisible thing that's gonna live in your computer, don't worry about it... You just need it." So moving it to Electron meant people could just download an app, which is a really familiar process for most, and then the having Node on your system becomes totally \[unintelligible 00:33:55.19\]
+**Jessica Lord:** Yeah, and one of the reasons I moved also the Git-it workshop from the workshopper in the terminal was that a lot of people were doing Git-it specifically to learn Git. They weren't developers, but they might want to be developers, or they work in an office with developers and just wanna know how to use GitHub, how to comment on something, understand what their co-workers are doing on GitHub. And then the first step for doing Git-it was like "Install Node", and it's like, how do you explain to somebody what Node is, and then try to debug across systems, their Node installation and tell them "It's this invisible thing that's gonna live in your computer, don't worry about it... You just need it." So moving it to Electron meant people could just download an app, which is a really familiar process for most, and then the having Node on your system becomes totally obscured.
 
 **Mikeal Rogers:** Yeah, that makes a lot of sense. I think this is a good spot for a break. When we come back, we'll talk a bit about Tad, and we'll get into our projects of the week. Stick around!
 
@@ -248,11 +248,11 @@ The fact that, as a company who can choose from a large pool of very talented de
 
 **Mikeal Rogers:** I wanna think that it's from Tad the band...
 
-**Alex Sexton:** \[unintelligible 00:37:53.07\]
+**Alex Sexton:** No, that's wrong.
 
 **Mikeal Rogers:** \[laughs\] Okay...
 
-**Alex Sexton:** I'm trying to find anything. It's kind of like Tab separated \[unintelligible 00:38:02.06\] tabular data?
+**Alex Sexton:** I'm trying to find anything. Tab? It's kind of like Tab separated. Tab? Tabular data?
 
 **Mikeal Rogers:** Adam Stacoviak says "tab delimited."
 
@@ -346,13 +346,13 @@ And the project is in very good hands... Everything is very, very good. It's a v
 
 So this is like a little section with the class name of Stripe, so open up your console and go to the Stripe.com/Connect and look at the Stripe section for a beautiful designer usage of the CSS Grid. That's my pick for the week. That 10 lines of HTML and CSS. \[laughter\]
 
-It's cool though, right? I'm always so excited when Stripe launches a new product, because "Cool, my company is doing something", but I'm really excited to see what the designers do for the landing page for those various products, because they're amazing. I love them. Shout out to Benjamin De Cock and Philipp Antoni. Follow them on \[unintelligible 00:44:32.28\] or whatever designers do. \[laughter\]
+It's cool though, right? I'm always so excited when Stripe launches a new product, because "Cool, my company is doing something", but I'm really excited to see what the designers do for the landing page for those various products, because they're amazing. I love them. Shout out to Benjamin De Cock and Philipp Antoni. Follow them on Dribbble or whatever designers do. \[laughter\]
 
 **Mikeal Rogers:** Awesome. So on that note, I guess that's gonna take us out. Thank you everybody for coming on. Rate us on iTunes, or something like that. We're done a little bit early today, everybody can get some extra food. \[laughter\]
 
-**Adam Stacoviak:** Or go shopping for a \[unintelligible 00:44:55.10\]
+**Adam Stacoviak:** Or go shopping for a Tushy.
 
-**Mikeal Rogers:** \[laughter\] Exactly. \[unintelligible 00:45:00.12\]
+**Mikeal Rogers:** \[laughter\] Exactly. Can we get Tushy to sponsor us?
 
 **Adam Stacoviak:** I don't see why they wouldn't...
 

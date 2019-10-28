@@ -28,9 +28,9 @@ I realized how Ansible was like a natural continuation of Deliver, but obviously
 
 **Jerod Santo:** What's interesting about that is Deliver and eDeliver attracted me because, like you said, they were a series of shell scripts. Coming from my experience - and I fought you tooth and nail probably a little bit as we went... We laughed how old-school my approach to everything is, because a bunch of shell scripts to me is my history of deploying apps. Usually, I just write a new one each time and just rerun it to push out a new version, and stuff like that.
 
-\[00:08:05.25\] So that was very attractive, but yet once we got started, we didn't end up using either of those tools to deploy Changelog.com. I wanted to mention I e-mailed you first 3rd July of last year, 2016... And once you said that you were interested, I sent back an e-mail with a list of our needs and our wants, and then things that I wasn't sure about, and a timeline -- and I wanna bring it to the timeline, because it's funny in retrospect, and I think probably everybody who works in this industry can laugh at timelines, and the naivety sometimes of developers...
+\[00:08:05.25\] So that was very attractive, but yet once we got started, we didn't end up using either of those tools to deploy Changelog.com. I wanted to mention I emailed you first 3rd July of last year, 2016... And once you said that you were interested, I sent back an email with a list of our needs and our wants, and then things that I wasn't sure about, and a timeline -- and I wanna bring it to the timeline, because it's funny in retrospect, and I think probably everybody who works in this industry can laugh at timelines, and the naivety sometimes of developers...
 
-So this e-mail is 3rd July, and...
+So this email is 3rd July, and...
 
 **Adam Stacoviak:** What year?
 
@@ -38,13 +38,13 @@ So this e-mail is 3rd July, and...
 
 **Adam Stacoviak:** Okay.
 
-**Jerod Santo:** But in the e-mail I said as a timeline, "We want to launch in July. We have a lot of content to import into the new site, so having it up and running in the next week or two will help us keep that timeframe." Then I said, "It'd also be cool to publish our work somehow to share with others and give you some props." This show is a part of that publishing, and we also have some other ways we're gonna go about publishing as well, but I just think it's funny how I was like "Let's just launch it in a week or two", and we were very much -- when did we launch, Adam? October?
+**Jerod Santo:** But in the email I said as a timeline, "We want to launch in July. We have a lot of content to import into the new site, so having it up and running in the next week or two will help us keep that timeframe." Then I said, "It'd also be cool to publish our work somehow to share with others and give you some props." This show is a part of that publishing, and we also have some other ways we're gonna go about publishing as well, but I just think it's funny how I was like "Let's just launch it in a week or two", and we were very much -- when did we launch, Adam? October?
 
 **Adam Stacoviak:** October, yeah. And even then, it was like weeks and weeks of focused content migration, content updating from old stuff that we had - old posts, old podcasts that just kind of needed to be massaged, that was in a WordPress database that got pulled over to this, and transpiled the markdown... That whole process. It was a lot. Tagging, adding guests, adding hosts... All this new stuff the CMS has, as it just wasn't there before.
 
 **Jerod Santo:** We were 90% done, which meant we only had 90% left to complete... And I don't want to act like it was Gerhard's fault that we didn't launch right away... It was all us. But timelines are funny.
 
-And Gerhard, to that e-mail -- first of all, you were interested, you were very excited about making the approach public, because that's something that you're been about open source and sharing what you work on, sharing your findings... And you sent me a list of questions. Neither one of us probably remember the list, but I know because I've just looked it back up. You sent us 17 questions to get started.
+And Gerhard, to that email -- first of all, you were interested, you were very excited about making the approach public, because that's something that you're been about open source and sharing what you work on, sharing your findings... And you sent me a list of questions. Neither one of us probably remember the list, but I know because I've just looked it back up. You sent us 17 questions to get started.
 
 **Gerhard Lazu:** \[laughs\] That sounds like me, yeah.
 
@@ -64,7 +64,7 @@ The 17 questions which you mentioned were just like a conversation starter about
 
 This wasn't like a greenfield project, in the sense that you already had your Changelog workflows and we had to build something that would support those workflows.
 
-**Jerod Santo:** Yeah. Just to give a bit of an idea - the questions coming back were not "Which version of Postgres are you running?" and stuff like that. It was these big-picture goals. For instance -- I do have the list here, and we don't need to go into detail on these, but "What would you like to happen when the website goes down? Are you set on Linode? (that was something I had mentioned in the e-mail)" - that one's a little bit specific, but... "Do you wanna see logs from specific or all components?" Stuff like that. It's higher-level questions than you would expect at first, even though there was many of them, and like you said, they were conversation starters around what we need, and not necessarily how we want those needs to be fulfilled.
+**Jerod Santo:** Yeah. Just to give a bit of an idea - the questions coming back were not "Which version of Postgres are you running?" and stuff like that. It was these big-picture goals. For instance -- I do have the list here, and we don't need to go into detail on these, but "What would you like to happen when the website goes down? Are you set on Linode? (that was something I had mentioned in the email)" - that one's a little bit specific, but... "Do you wanna see logs from specific or all components?" Stuff like that. It's higher-level questions than you would expect at first, even though there was many of them, and like you said, they were conversation starters around what we need, and not necessarily how we want those needs to be fulfilled.
 
 **Gerhard Lazu:** Exactly... And also the process - this fits fairly well in a process which I'm very familiar with, specifically using a story backlog of stories, and you separate things into features (stories which have business value) and chores, which are stories that are required for the well-running of the team, of the project, and also bugs, regressions, or just stuff that you have already delivered, you've already gotten business points for, in terms of business value... However, if some bugs were introduced and stuff which used to work no longer does.
 
@@ -82,7 +82,7 @@ Also, having the conversations and having this delay -- it was a time delay, bec
 
 **Gerhard Lazu:** In Nebraska.
 
-**Jerod Santo:** Or as you called it in an e-mail, Oklahoma... \[laughter\] Which is close enough...
+**Jerod Santo:** Or as you called it in an email, Oklahoma... \[laughter\] Which is close enough...
 
 **Adam Stacoviak:** Close.
 
@@ -90,7 +90,7 @@ Also, having the conversations and having this delay -- it was a time delay, bec
 
 **Adam Stacoviak:** Yeah.
 
-**Gerhard Lazu:** So you had all these people, some I haven't even met - I mean, we two have, but I haven't met the others, and I haven't actually even talked to them over e-mails...
+**Gerhard Lazu:** So you had all these people, some I haven't even met - I mean, we two have, but I haven't met the others, and I haven't actually even talked to them over emails...
 
 **Adam Stacoviak:** I could not even be real; I could be fake.
 
@@ -142,7 +142,7 @@ So insights like that - that's why your questions were like, "What would happen 
 
 Before we get into the guts of it, the Docker and the Ansible and the core CI and all that good stuff and the way it all works, let's get back to the process a little bit, because on the other side of the break you mentioned working remotely together and the situation with the constraints that we were in, and how we used Pivotal Tracker to communicate this process... And this is not meant as an ad for Pivotal Tracker by any means; this is a tool that Gerhard likes and I was happy to use... But tell us, because people hear that we use Pivotal Tracker, and perhaps that's just like, "Okay, that's fine, that's how you do things... Where's the real goodness out of that?", but for me it was the went about using Pivotal.
 
-This would work just as well with another tool like Trello, but it's how you use it, which to me was unique, because I've been on lots of projects that use tools like these, and you had a certain level of thoroughness and particularness with how we went about it that ended up -- as we were doing, I was thinking, "Man, he sure is a little bit \[unintelligible 00:29:34.13\] particular about how this tool is being used..."
+This would work just as well with another tool like Trello, but it's how you use it, which to me was unique, because I've been on lots of projects that use tools like these, and you had a certain level of thoroughness and particularness with how we went about it that ended up -- as we were doing, I was thinking, "Man, he sure is a little bit umm how do I say it persnickety particular about how this tool is being used..."
 
 But at the end of the day I saw, "Oh, there's a lot of value there, because now we know everything's in there." Go ahead and break out for us how you go about this communication with Pivotal and why that was so important to success.
 
@@ -160,7 +160,7 @@ A lot of the time, the WHY gets always missed, whether it's the business WHY, wh
 
 **Jerod Santo:** Yeah... I think the word "discipline" that you said there is excellent; I wish I would have thought of that, because that's exactly what I was trying to describe. In fact, you're so disciplined with the way that you put everything into the project, in Pivotal Tracker, that I even wondered "Was this guy in the military, or something?" Because it's like that level of discipline that you don't see in too many people with the use of a tool, like "I'm going to use it this way, I'm going to use it this way every single time, and everything is going to go in the way that we plan on it." And I think it's because you think about the Pivotal Tracker project differently than I was, and that other people perhaps do, in that I didn't see any value in it as an artifact, as a documentation or a reference point once the project is over with or once it's moved on to other phases, I think of it -- maybe it's because of the way that I use even Trello... It's almost ephemeral; things come and go and they move around. Adam and I open and close boards all the time.
 
-We use them undisciplined, but you were using it in such a way that either it lives in the code or in the commit history, or it lives in the Pivotal Tracker project as open and closed tasks and chores with conversations and histories. We're gonna use that and we're gonna refer back to things as documentation at the end of the day, and I've actually used it that way since \[unintelligible 00:34:47.16\] "Why did we do this?", and I go back into the project and I see exactly why, because like you said, the WHYs were captured in there, but they wouldn't have been if you hadn't been so disciplined, because I would have e-mailed you or talked to you about it on Skype and forgot about it much later.
+We use them undisciplined, but you were using it in such a way that either it lives in the code or in the commit history, or it lives in the Pivotal Tracker project as open and closed tasks and chores with conversations and histories. We're gonna use that and we're gonna refer back to things as documentation at the end of the day, and I've actually used it that way since you know "Why did we do this?", and I go back into the project and I see exactly why, because like you said, the WHYs were captured in there, but they wouldn't have been if you hadn't been so disciplined, because I would have emailed you or talked to you about it on Skype and forgot about it much later.
 
 **Gerhard Lazu:** Exactly. I think that summarizes it really, really well. I think everything starts from a very simple concept, and that is it's not about you, it's about everyone else around you. If you're doing your job in a way that will always, always benefit the others, then that will start changing the way others around you approach their work, and they will behave the same, which means that you will benefit from what they do. So the selfishness is removed from the process, and that changes the team dynamics in a way that I think makes the team and the workplace a great, great place to be in.
 
@@ -172,7 +172,7 @@ It does take more effort, it is more difficult, but it's so much more satisfying
 
 I used it in an agile process and with two people; I'm just kind of curious on -- maybe this is going too far in the weeds to it, but why this tool is the choice you choose...? Is the feature set of the tool, or is it because it's so rigid in how you use the tool to get to the goal of completing a feature set, or something like that?
 
-**Gerhard Lazu:** It has it drawbacks, and it does have its sharp edges, as any tool does. However, from all the other tools out there, it's the one which - as I said - embodies the \[unintelligible 00:37:49.03\] process the best. And shifting our focus a little bit from Pivotal Tracker to something else that we're using, which is Ansible and Docker, both of those. They're simple, and they are -- for example Docker, it makes it really easy to get started and it handles with compartmentalizing states and just ring-fencing around dependencies really, really well.
+**Gerhard Lazu:** It has it drawbacks, and it does have its sharp edges, as any tool does. However, from all the other tools out there, it's the one which - as I said - embodies the XP process the best. And shifting our focus a little bit from Pivotal Tracker to something else that we're using, which is Ansible and Docker, both of those. They're simple, and they are -- for example Docker, it makes it really easy to get started and it handles with compartmentalizing states and just ring-fencing around dependencies really, really well.
 
 It has a lot of features; it's added so many features in the last months... Most of the new features I'm not even familiar with. But the point is, when it comes to sandboxing the runtime and making the runtime reproducible, Docker does it really well for developers. It's really easy to get started with it.
 
@@ -258,7 +258,7 @@ So it's simple; we could have downtime, but it'd be fairly easy to redeploy and 
 
 So it's different tradeoffs, but we definitely do not need a distributed "always available, always on" sort of system, so why have one in the first place?
 
-**Adam Stacoviak:** I'll also mention that our AWS bill is quite inexpensive, too. I just searched my e-mail real quick to look at the latest bill and it was $4,76. So you're seeing that they self-expire these backups... How many days do we go back for self-expiration? Do they eventually just delete themselves, or how does that process work? Do we store just endless amounts? Do we have last year's backup there? How far back does it go?
+**Adam Stacoviak:** I'll also mention that our AWS bill is quite inexpensive, too. I just searched my email real quick to look at the latest bill and it was $4,76. So you're seeing that they self-expire these backups... How many days do we go back for self-expiration? Do they eventually just delete themselves, or how does that process work? Do we store just endless amounts? Do we have last year's backup there? How far back does it go?
 
 **Gerhard Lazu:** When we configured it - I think Jerod configured this - we decided to go with seven days. So every day we take full backups, and I think there are close to 11-12 gigs. So we have seven times that, and when you set up the bucket, as you can version bucket, you can configure different policies on the bucket, and different options... One of them is just like expiring objects which are older than a specific time period.
 
@@ -402,7 +402,7 @@ It's easy to see when something works and something doesn't work, and it's easy 
 
 **Jerod Santo:** Absolutely. And some of that - which we didn't explain exactly how all that works, but every time we push to master on our public GitHub repo, Concourse kicks in and runs that pipeline for us and does a redeploy. So we very much have that desire, from a developer's perspective, "Just let me Git push, and get out of my way", but we also have the insight -- like you said, there's a dashboard that Concourse provides; we can go and watch the pipeline run, watch it fail, watch it get stuck, or whatever it's gonna do - most of the time it passes - and react as necessary. That's very cool.
 
-The backups work very well, we have notifications that work very well with regard to deploy success and failure, \[unintelligible 01:11:00.00\], we're using Pingdom for that... There's a few other checks in there, not just for the website being pingable, but also for some performance, like how many milliseconds does it respond with - that kind of stuff, which is all provided via Pingdom.
+The backups work very well, we have notifications that work very well with regard to deploy success and failure, site down, we're using Pingdom for that... There's a few other checks in there, not just for the website being pingable, but also for some performance, like how many milliseconds does it respond with - that kind of stuff, which is all provided via Pingdom.
 
 All of our logs are in a single place, which is really nice... So anytime there's something going wrong, we can go to one dashboard (we use Papertrail for that) - everything logs to Papertrail, instead of into a syslog or into their own containers, or what have you. So we have a unified logging interface, which is great when things go wrong as well.
 
@@ -444,7 +444,7 @@ Now, when it comes to Docker and the image format, most don't know that Concours
 
 \[01:16:09.05\] I don't know, I haven't used it as much as you have, Jerod, so I think you or Adam would be in a much better place to answer this question.
 
-**Jerod Santo:** Right. Yeah, so I think from our perspective - and mostly it's mine, because Adam, like he said, plays more on the front-end, and when things are not going so well, \[unintelligible 01:16:28.14\] I think that mostly it's not really technology that didn't work well; I think that it's knowledge transfer.
+**Jerod Santo:** Right. Yeah, so I think from our perspective - and mostly it's mine, because Adam, like he said, plays more on the front-end, and when things are not going so well, it usually means dealing with them, I think that mostly it's not really technology that didn't work well; I think that it's knowledge transfer.
 
 We have everything in the Pivotal Tracker that we did and that we set up, but it's not like it prognosticates problems and how to fix them, right? So basically it's that because you are the architect of this system and I've been following along, but not necessarily internalizing every aspect of it like you have, when things do go wrong, I'm very much either kind of troubleshooting in the dark (I've been doing that for many years now, so I can find my way out of problems), but then I feel like "Oh man, now I gotta bug Gerhard because I can't figure this out, or I'm afraid to live update this, or stuff like that."
 

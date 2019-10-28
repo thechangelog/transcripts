@@ -222,7 +222,7 @@ I mentioned the call with James Pearce at Facebook, and Jerod, you can back me u
 
 This wasn't in place before you championed this... How hard was this to sell to anybody else? Was this a big ordeal to get in place? What's the behind-the-scenes of this?
 
-**Will Norris:** It was a little bit scary just proposing it at first. It's important to set the stage for this that these docs are quite literally our internal documentation for how we do open source. I said this a little bit earlier - how we release code, how we patch, how we bring it in, but we've done very minimal cleanup to these docs, and it's mainly to remove references to internal things that aren't really relevant, or to remove e-mail addresses or some basic things like that. But for the most part, these are just identical copies to what we've had as our internal documentation for doing open source for many years.
+**Will Norris:** It was a little bit scary just proposing it at first. It's important to set the stage for this that these docs are quite literally our internal documentation for how we do open source. I said this a little bit earlier - how we release code, how we patch, how we bring it in, but we've done very minimal cleanup to these docs, and it's mainly to remove references to internal things that aren't really relevant, or to remove email addresses or some basic things like that. But for the most part, these are just identical copies to what we've had as our internal documentation for doing open source for many years.
 
 What's kind of interesting about that is we actually did leave in -- we didn't try to cater it to an external audience; we're very upfront about "This is the way that we do open source." We're not trying to be prescriptive; the way that we do open source is not gonna be right for every other company, so you should definitely not view this as a how-to guide. We said this in the blog post when we announced the site, that in the same way that viewing another engineer's source code and seeing how they solved a particular problem in their code is useful.
 
@@ -304,7 +304,7 @@ Our approach to this has been that we have a committee called the Invention Assi
 
 **Adam Stacoviak:** One thing too that blurs the lines there, Jerod, with GitHub's announcement - and this is "in court", so I'm not sure how accurate it is; it's a journalist, it could be not spoken correctly, but it says "As long as the work isn't related to GitHub's own "existing or perspective" products and services"... Now, if that were a Google announcement saying the same thing... You all have self-driving cars, you have search algorithms, PageRank, so it's what could not be a Google product. It'd be kind of hard.
 
-So that committee - I don't know how accessible they are or how, dare I say, human... I just mean more like, do you talk to an e-mail address, or do you actually talk to people? That's kind of good to have though, because then you can actually have some formal way to say, "Hey, I made this thing, I wanna keep it mine. Is that possible?"
+So that committee - I don't know how accessible they are or how, dare I say, human... I just mean more like, do you talk to an email address, or do you actually talk to people? That's kind of good to have though, because then you can actually have some formal way to say, "Hey, I made this thing, I wanna keep it mine. Is that possible?"
 
 **Will Norris:** Yeah, that's exactly what it is. It's real humans that you can talk to. The phrase there that you quoted... I'm not a lawyer, especially not an employment lawyer; I don't know exactly how that should be applied in all cases, and there is sometimes different jurisdictions and there's all these different things, so that's exactly why we have this committee - to provide some clarity to employees that just want a clear answer.
 
@@ -348,7 +348,7 @@ We actually spend a lot of energy in keeping track of all of the open source cod
 
 **Will Norris:** Yeah, that's correct.
 
-**Adam Stacoviak:** And then you've also got TODOgroup.org, which you can check out... And I believe you'd mentioned a mailing list that people can e-mail for feedback, which is todogroup@googlegroups.com... Is that right?
+**Adam Stacoviak:** And then you've also got TODOgroup.org, which you can check out... And I believe you'd mentioned a mailing list that people can email for feedback, which is todogroup@googlegroups.com... Is that right?
 
 **Will Norris:** That's right.
 

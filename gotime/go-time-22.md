@@ -60,7 +60,7 @@ I sort of have an irrational aversion to hardware, because my impression is that
 
 **Erik St. Martin:** It's more from just like a reverse-engineering standpoint, like "How does this work?" I've tried a couple of times to send my own commands and stuff on regular boards, but that's usually where it gets not so simple, because ordering comes into play. Reverse engineering any sort of protocol is hard because you have to understand...
 
-**JBD:** But a logic analyzer is the \[unintelligible 00:09:46.17\] of working with these protocols, and people were so surprised that I have scopes and all these logic analyzers around. But it's just like a mandatory requirement.
+**JBD:** But a logic analyzer is the printf of working with these protocols, and people were so surprised that I have scopes and all these logic analyzers around. But it's just like a mandatory requirement.
 
 **Erik St. Martin:** Yeah. So you start with something like a Raspberry Pi or Arduino, and you can look at that and you might be able to debug from a website the commands that you're sending, but ultimately you end up on GPIO pins and communicating with other hardware. At that point, you're cut off, and it's really painful to try to get it to blink a light a number of times when it hits somewhere and debug that way; typically you wanna probe in with a logic analyzer and look at the communication.
 
@@ -294,7 +294,7 @@ But having people one off proposals and talking to different people here and the
 
 **Cory LaNou:** I also think the special interest groups are really cool because a lot of times I think when people are working at their projects and they're looking at Go and saying, "Oh, if it could do this, or if I could have this from it, that would help my project", but they maybe don't think that it applies to the wider group, so they don't really engage, and if they knew there was a special interest group that was surrounding the topics they're already concerned with, I think that would really help draw more of the community in as well.
 
-**JBD:** I totally agree. I think \[unintelligible 00:57:38.20\] high-level things or brainstorming, people see it like it's just like \[unintelligible 00:57:44.23\] to talk to the team, or explain a little bit of their ideas, because nothing is finalized. People are just seeking for some sort of community to build on their initial ideas, and the workgroups will be the perfect solution to iterate on ideas, regardless of its obvious or not; we need some sort of, as I said, middle channel to feel encouraged to talk.
+**JBD:** I totally agree. I think for really high-level things or brainstorming, people see it like it's just like absurd to talk to the team, or explain a little bit of their ideas, because nothing is finalized. People are just seeking for some sort of community to build on their initial ideas, and the workgroups will be the perfect solution to iterate on ideas, regardless of its obvious or not; we need some sort of, as I said, middle channel to feel encouraged to talk.
 
 **Erik St. Martin:** I think it triggers ideas too, though. The special interest groups for Kubernetes will do weekly meetings and will do demos; when you take part in these, you'll see something demo-ed, and it will trigger your own ideas where you can contribute feedback then. I know there's been scenarios where I've seen stuff coming down the pipeline where it was a real problem I had that I thought I had to develop something else, and it just wasn't in my thought process that it could be solved in another way. These things kind of trigger more thoughts.
 
@@ -316,11 +316,11 @@ And not everybody's accustomed to reading the draft proposal form of things, so 
 
 **Cory LaNou:** Yeah, a big +1 to that. I'm a huge fan of a docs group.
 
-**Erik St. Martin:** See, every time somebody says "docs" I think "dox", like publishing information about people. \[laughter\] We just get together and dox people... \[laughs\]
+**Erik St. Martin:** See, every time somebody says "docs" I think "dox", like publishing private information about people. \[laughter\] We just get together and dox people... \[laughs\]
 
 **JBD:** Is it my accent?
 
-**Erik St. Martin:** No, even when Cory said it. \[unintelligible 01:01:31.06\]
+**Erik St. Martin:** No, even when Cory said it. Both ways, it's pronounced the same.
 
 **Carlisia Pinto:** You're saying it has the same... What's it called...?
 
@@ -384,7 +384,7 @@ And Cory, you just said yours.
 
 **Carlisia Pinto:** Yeah, it's a user, but it's a bot.
 
-**Erik St. Martin:** Okay, here we go. \[unintelligible 01:07:55.16\]
+**Erik St. Martin:** Okay, here we go. It's messaging me.
 
 **JBD:** Do I need to direct message it, or...?
 
@@ -448,7 +448,7 @@ So you don't have to throw anything in there, but if you have something, we'd lo
 
 **Erik St. Martin:** Yeah, definitely thank you for coming on, this has been a lot of fun. I think we should figure out something for having some sort of live streaming or playing with electronics over YouTube, I think that'd be kind of fun.
 
-**JBD:** It might be interesting to just record a little bit for the GoTime, just my vocal capabilities...
+**JBD:** It might be interesting to just record a little bit for the Go Time, just my vocal capabilities...
 
 **Erik St. Martin:** Oh my god, \[unintelligible 01:14:29.23\]
 

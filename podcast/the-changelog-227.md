@@ -116,7 +116,7 @@ There's another one we did that I thought was really cool, back before HTTPS was
 
 **Jerod Santo:** Oh, yeah...
 
-**Feross Aboukhadijeh:** Remember that? Anyone who was visiting Facebook on your network, you could click their name and then you would just be logged in as them, because it would sniff the cookies off \[unintelligible 00:15:55.29\]
+**Feross Aboukhadijeh:** Remember that? Anyone who was visiting Facebook on your network, you could click their name and then you would just be logged in as them, because it would sniff the cookies off the network.
 
 **Jerod Santo:** \[00:15:57.19\] Yeah... Just go to Starbucks, hop on the Wi-Fi and everybody was wide open, and FireSheep made it dead simple. It was like script kiddies times ten, because it was a browser extension - you just install it and go.
 
@@ -174,7 +174,7 @@ So as an experiment, I decided to try charging for the ability to read those ess
 
 \[00:23:54.08\] I thought it was going to be a terrible idea, but it actually is working fine and people are actually paying. I charge $14 to unlock the content, basically. But you can get around it pretty easily... If you're using an incognito window, then it resets the number of essays you can read.
 
-Basically the way I see it is people who don't care enough to try to get around it are probably people who can afford it, so I wanna take their money, because they can afford it. People who really care or where that's too much money, they'll get around it or they'll e-mail me and ask for a free pass, and I've done that for several people who e-mailed me already. It seems kind of like a nice compromise.
+Basically the way I see it is people who don't care enough to try to get around it are probably people who can afford it, so I wanna take their money, because they can afford it. People who really care or where that's too much money, they'll get around it or they'll email me and ask for a free pass, and I've done that for several people who emailed me already. It seems kind of like a nice compromise.
 
 **Adam Stacoviak:** I think this is interesting too, to see how you've yet again been able to be this mad scientist, so to speak, in terms of like -- and I know this isn't exactly mad science; it seems pretty straightforward, but you must have the hacker mentality of being a mad scientist to say, "I'm gonna find a way to not throw things away, but then also kind of keep track on the web traffic to a degree to say, is this viable to people? And if it is, then do something about it." And you found a way to do what you want in open source, or in your own dreamer way, to keep doing the things that interest you around open source, and have a passive income to afford you the ability to do that.
 
@@ -284,11 +284,11 @@ This isn't that crazy of an expectation; I mean, this is how YouTube works - you
 
 **Jerod Santo:** \[00:47:56.06\] Yeah. Although it did have some malware in it recently, or something.
 
-**Feross Aboukhadijeh:** Yeah, they had malware twice, getting into their installer files on their websites. I'm not really sure how that happened; they didn't really give a full explanation of how they got hacked, but it was pretty sad. If you installed transmission from their website during a certain period of time, you would get this BitCoin ransomware on your computer that would encrypt all your files and then try to get you to pay a BitCoin in order to get your files back.
+**Feross Aboukhadijeh:** Yeah, they had malware twice, getting into their installer files on their websites. I'm not really sure how that happened, they didn't really give a full explanation of how they got hacked, but it was pretty sad. If you installed transmission from their website during a certain period of time, you would get this BitCoin ransomware on your computer that would encrypt all your files and then try to get you to pay a BitCoin in order to get your files back.
 
 **Adam Stacoviak:** Dang.
 
-**Jerod Santo:** \[unintelligible 00:48:28.08\] if you can apply the open source philosophy here, at least for the clients that are open source, instead of just trying to convince them that they should support Web RTC; you could just go and have a pull request, or something, against the ones that you'd like to support Web RTC and just add it. That might be a more compelling way to get it on more desktop clients, at least the open source ones.
+**Jerod Santo:** It seems like you can apply the open source philosophy here, at least for the clients that are open source, instead of just trying to convince them that they should support Web RTC, you could just go and have a pull request, or something, against the ones that you'd like to support Web RTC and just add it. That might be a more compelling way to get it on more desktop clients, at least the open source ones.
 
 **Feross Aboukhadijeh:** Yeah, it's a good point. I'd like to do that, it's just...
 
@@ -342,7 +342,7 @@ It's just funny, because people think like "Oh, it's a web page, it's gonna be s
 
 **Feross Aboukhadijeh:** I'm just really happy that we took the WebTorrent library and just dropped it into an Electron app and then put a UI on it, and then we had a torrent app. It was a really good experience, it was not that hard. The hardest part honestly - if you wanna know the downsides to Electron - is you have to ensure really that you're not using any Node modules that contain native code, like C code that needs to be compiled for each platform.
 
-\[01:00:10.09\] Sometimes when you install things from NPM, you'll get this little build step where it's compiling some C library, or something like that. If you use any modules like that in your app, then when you go to ship your binary \[unintelligible 01:00:24.24\] and produce the .exe file (and so on and so forth for all the different platforms), then you have to actually have either a VM or a physical machine for each of those platforms to actually build the app. That's a little bit annoying and hard to do for every release. With WebTorrent, we've just avoided any libraries like that. WebTorrent has to basically be pure Javascript anyway to work for the browser version - because you can only do Javascript - so it was pretty easy for us to avoid it, but I recommend people try really hard to avoid -- try to find a pure Javascript version of whatever functionality you need, because then if your app is fully Javascript, you can actually build for all three platforms from one platform.
+\[01:00:10.09\] Sometimes when you install things from NPM, you'll get this little build step where it's compiling some C library, or something like that. If you use any modules like that in your app, then when you go to ship your binaries to your users and produce the .exe file (and so on and so forth for all the different platforms), then you have to actually have either a VM or a physical machine for each of those platforms to actually build the app. That's a little bit annoying and hard to do for every release. With WebTorrent, we've just avoided any libraries like that. WebTorrent has to basically be pure Javascript anyway to work for the browser version - because you can only do Javascript - so it was pretty easy for us to avoid it, but I recommend people try really hard to avoid -- try to find a pure Javascript version of whatever functionality you need, because then if your app is fully Javascript, you can actually build for all three platforms from one platform.
 
 On the Mac, I can build the Windows and the Linux and the Mac app - it's great. The build script just downloads these pre-built Electron binaries and then it reaches inside them and changes the app Javascript from this default sample Electron Javascript that's in there, and it puts your Javascript in there, and then it changes the app's icon, and then that's it. You ship that to your users. It's really simple. You don't need to have a computer or a VM to do it.
 
@@ -422,7 +422,7 @@ I've been thinking about ways to do that. I don't have anything to talk about ye
 
 **Jerod Santo:** That's all Electron.
 
-**Feross Aboukhadijeh:** No, WebTorrent played... I mean, when we were making WebTorrent desktop is where I learned all this stuff about \[unintelligible 01:14:48.00\]
+**Feross Aboukhadijeh:** No, WebTorrent played... I mean, when we were making WebTorrent desktop is where I learned all this stuff about making a solid app.
 
 **Adam Stacoviak:** I was thinking maybe you can not only do the packaging for them, but host it for them and WebTorrent can do the distribution.
 
@@ -464,7 +464,7 @@ I've been thinking about ways to do that. I don't have anything to talk about ye
 
 **Adam Stacoviak:** I betcha you can't do it before the end of the year. \[laughter\]
 
-**Feross Aboukhadijeh:** I'll \[unintelligible 01:17:08.19\] that challenge.
+**Feross Aboukhadijeh:** I'll accept that challenge!
 
 **Jerod Santo:** Oh, there we go...
 
@@ -504,7 +504,7 @@ I've been thinking about ways to do that. I don't have anything to talk about ye
 
 **Adam Stacoviak:** Coping as a maintainer. We'll do that show. We'll talk to you about it in the green room, we'll figure out what that show could be about. That's a good idea, for sure.
 
-If you're out there listening and you've got great ideas for Request For Commits, we have an open inbox for the Changelog, but you can always e-mail us at editors@changelog.com if you get some ideas either for Request For Commits, GoTime, The Changelog or future shows we do, or even future show ideas, so to speak.
+If you're out there listening and you've got great ideas for Request For Commits, we have an open inbox for the Changelog, but you can always email us at editors@changelog.com if you get some ideas either for Request For Commits, GoTime, The Changelog or future shows we do, or even future show ideas, so to speak.
 
 Feross, thank you so much for coming on the show today, man. I really appreciate you sharing all of your origin, the fun things happening around WebTorrent, and obviously your excitement for Electron and the future of what you plan to do there. Listeners, thank you so much for tuning in as well. That's it for this show fellas, so let's say goodbye.
 

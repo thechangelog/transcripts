@@ -88,7 +88,7 @@ I know that Credit Karma was one of the first larger companies to use it in term
 
 I think that they're similar, but definitely different. I think Tachyons is a little less out of the box in regards to having fully-baked components as a part of the CSS, but that was my long-term vision with creating the component library that's a part of the website... Kind of creating that in a different model. So it's not maybe out of the box in regards to you have components in the same way of just attaching the classes. I guess it's the same, but to me it was just like I wanted to give people the ability to cut and paste HTML examples or maybe React components or Vue components and be able to use those and just have a composition of Tachyons classes already put together.
 
-**Jerod Santo:** \[00:20:03.17\] Surely there are drawbacks or downsides on any argumentation around how you should be doing things on the web, especially with CSS probably \[unintelligible 00:20:13.09\] anything that goes on in the web; I was trying to limit that, but probably all things are debatable online.
+**Jerod Santo:** \[00:20:03.17\] Surely there are drawbacks or downsides on any argumentation around how you should be doing things on the web, especially with CSS probably, well also with Javascript, well anything that goes on in the web; I was trying to limit that, but probably all things are debatable online.
 
 There are probably people that say "This is not the right way to do it. This is worse than the object oriented style." I'm not very familiar with OOCSS, but it sounds like it would be kind of like this, where everything's componentized. Then there's also BEM, and then there's (the traditional) what I usually do, which is like just start throwing styles out there until it looks okay, and then hope you never have to edit it again...
 
@@ -108,7 +108,7 @@ There are probably people that say "This is not the right way to do it. This is 
 
 **Adam Morse:** That's my absolute favorite CSS joke.
 
-**Jerod Santo:** And with me, since I do client work, so I had different projects through the years, often times what I'll have is a client come back, everything's fine, but they just want one thing tweaked or changed or added, and I have to go back to CSS that I wrote a few years ago or somebody else wrote under my hire, and determine how will I do in hiding/showing elements back then, how was I doing these things, and then usually I'm just like "Well, I'm just gonna throw \[unintelligible 00:21:36.11\] at the bottom and be done with it." That doesn't scale.
+**Jerod Santo:** And with me, since I do client work, so I had different projects through the years, often times what I'll have is a client come back, everything's fine, but they just want one thing tweaked or changed or added, and I have to go back to CSS that I wrote a few years ago or somebody else wrote under my hire, and determine how will I do in hiding/showing elements back then, how was I doing these things, and then usually I'm just like "Well, I'm just gonna throw a "!important" at the bottom and be done with it." That doesn't scale.
 
 But the people who say "Functional CSS is suboptimal for reasons X, Y and Z", what are usually the downsides that people quote? Or that you found as you've gone about using it. Surely it's not a panacea or a silver bullet.
 
@@ -127,7 +127,7 @@ Yeah, I think that different people like to work different ways, and I think tha
 
 **Jerod Santo:** ...which definitely it's not. What you're doing when you're putting together a component, you're adding a bunch of classes to HTML that basically compose how that thing looks, or how it works, so you might have a -- people who are familiar with CSS frameworks, have done all these things... For you, with your grid, it's FL and then the class w-100, w-3rd, 2-25 - these are not things that computers can derive semantic meaning out.
 
-**Adam Morse:** But regular class \[unintelligible 00:27:16.01\] aren't either though, right?
+**Adam Morse:** But regular class names aren't either though, right?
 
 **Jerod Santo:** Tell me more, tell me more.
 
@@ -159,7 +159,7 @@ I think for some people in their workflow or their architecture it makes more se
 
 **Adam Morse:** Some people say "I love mixing certain parts of Tachyons into components, and then mixing it with these more monolithic component classes", and they kind of mix and match to suit their needs, and they find a lot of success with that. That never worked for me, but that doesn't make me think that it's bad.
 
-For me, now I am trying to abstract it out even more, and just have these saved components where I'm not re-writing the same things over and over again, because that's what I was doing even with Tachyons. I used \[unintelligible 00:33:26.04\] writing the same CSS over and over again, but now you're writing the same HTML over and over again.
+For me, now I am trying to abstract it out even more, and just have these saved components where I'm not re-writing the same things over and over again, because that's what I was doing even with Tachyons. You stop writing the same CSS over and over again, but now you're writing the same HTML over and over again.
 
 For me, I've found a lot of success in just -- yeah, I could build almost anything with a pretty small set of classes by just composing them onto HTML elements. It was for custom animations and interactive stuff that I would have to write a lot of CSS. And it saved me a lot of time, and it also made the pages paint about as quickly as they could, so it seemed like a win/win for me.
 
@@ -189,7 +189,7 @@ I'd have to say a number of them were people that I really look up to. I don't k
 
 **Jerod Santo:** Right. A lot of disclaimers on this episode. \[laughter\] Speak to React - how Tachyon fits in... One of the things you have here, in addition to the gallery of people using it, is you have this component library, which you're like "Off the shelf, grab the HTML, and you can just drop it in and use it." It seems like that would fit very well into building out a component with React, or a similar style Javascript tool, so... Speak to that.
 
-**Adam Morse:** My long-term vision there was like - most developers I know, if they have \[unintelligible 00:39:56.23\] HTML and CSS they need to render, can port that to whatever templating language they're building, but that's often times the difficult part for them.
+**Adam Morse:** My long-term vision there was like - most developers I know, if they have the discrete HTML and CSS they need to render, can port that to whatever templating language they're building, but that's often times the difficult part for them.
 
 Also, I was trying to drive Jackson nuts, because he was doing a lot of stuff with React, and I knew that if I just built out like a ton of static HTML, he'd build me some design tools to help me out... Which is totally what ended up happening.
 
@@ -236,18 +236,19 @@ I think with designers it's always different. I think a lot of the tooling we're
 
 Some designers just feel really comfortable hopping into the code, they actually feel really empowered by it, but others don't necessarily like the value, so some people just completely customize it and just use the CSS architecture, and the designers kind of handpick the type of scales they wanna use and they make the scales with a lot more steps and with absolutely completely different values.
 
-**Adam Stacoviak:** \[unintelligible 00:49:52.10\] for designers to not be in the code. I'm not saying they have to be, but it's a tough world whenever a lot of what you do may be in a graphics program like Sketch or Photoshop or something like that, and you're not really playing a role in the implementation of the code that makes it real. That's a tough place to be in, because you essentially create a lot of roughly good ideas when it's just a graphic that you hand over to a team.
+**Adam Stacoviak:** I feel like its a tough world for the designers to not be in the code. I'm not saying they have to be, but it's a tough world whenever a lot of what you do may be in a graphics program like Sketch or Photoshop or something like that, and you're not really playing a role in the implementation of the code that makes it real. That's a tough place to be in, because you essentially create a lot of roughly good ideas when it's just a graphic that you hand over to a team.
 
 \[00:50:20.17\] However, Sketch is making a lot of inroads to turn that into code or to aid in the handing to developers. There's a couple other unique design tools that are doing similar things, where you can actually generate code or maybe even use principles from a framework like this, where you can essentially have that API or that brain, so to speak, to say "Okay, this is what I designed, and this is how it matched the actual code."
-**Adam Morse:** Yeah, exactly. I've worked with some designers who aren't in code at all, but the way we were able to communicate, the way they design is in \[unintelligible 00:50:52.18\] of something I can't think through as quickly in code, so they were able to provide an asset with the documentation I need to implement something. But yeah, the reason I started coding was out of necessity, just because I was making images the first time somebody built something, and it wasn't looking like this image I handed off... I was like, "Cool, let's see if I can..."
+
+**Adam Morse:** Yeah, exactly. I've worked with some designers who aren't in code at all, but the way we were able to communicate, the way they design is at a fidelity of something I can't think through as quickly in code, so they were able to provide an asset with the documentation I need to implement something. But yeah, the reason I started coding was out of necessity, just because I was making images the first time somebody built something, and it wasn't looking like this image I handed off... I was like, "Cool, let's see if I can..."
 
 **Jerod Santo:** "Cool, I'm gonna do this myself."
 
-**Adam Morse:** Yeah, yeah. \[unintelligible 00:51:19.27\] Anyway, I can't decide if that was the smartest or dumbest thing I've ever decided to do.
+**Adam Morse:** Yeah, yeah. Let me get in there! Anyway, I can't decide if that was the smartest or dumbest thing I've ever decided to do.
 
 **Jerod Santo:** One thing you mentioned, Adam, was Compositor, but we haven't quite defined what that is for the listeners. Can you tell us about Compositor and Compositor Lab that you've been working on?
 
-**Adam Morse:** Yeah. Compositor started when Jackson and I, and this guy John \[unintelligible 00:51:42.20\] worked on CSS stats together. Jackson and I had launched a web app and we knew nothing about tech ops or dev ops, we knew nothing about servers, Jackson barely knew anything about Javascript at the time, and this guy comes along and just starts refactoring all of our horrible code right away and making our website way more stable.
+**Adam Morse:** Yeah. Compositor started when Jackson and I, and this guy John Otander worked on CSS stats together. Jackson and I had launched a web app and we knew nothing about tech ops or dev ops, we knew nothing about servers, Jackson barely knew anything about Javascript at the time, and this guy comes along and just starts refactoring all of our horrible code right away and making our website way more stable.
 
 After I think the 10th amazing pull request in a two-day or three-day spin, I was like "Hey, do you wanna just own this project with us?" Then we all kind of got in a chat room, and... Yeah, every now and then we would do these sprints on CSS stats, and chat, and then sometimes we'd go dark for a few months. But then I started working on Tachyons a lot more and I was stumbling on trying to get certain things done with Javascript in terms of like dynamic build things... So I asked John for help, and he started helping me out.
 

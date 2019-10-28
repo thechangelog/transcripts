@@ -86,7 +86,7 @@ We make a big effort to make sure that all the code coming out of Microsoft is P
 
 **Steve Dower:** Yeah, and the reality is teams are doing so many different things that it's really hard to enforce any kind of style. As kind of an extreme example, we have teams that are building and releasing samples and publishing them on the documentation site, and we'd really like those to be formatted nicely. We've also got a huge number of data scientists who are writing Python code that's gonna be run once and never seen again...
 
-**Jerod Santo:** Yeah, \[unintelligible 00:17:52.21\]
+**Jerod Santo:** Yeah, scrappled together.
 
 **Steve Dower:** ...and if anyone comes out and says "You must always run your code through Black" and that becomes like some edict from above, now the data scientists are going "How do we do that?" and it doesn't even really matter.
 
@@ -138,7 +138,7 @@ Anyways, Steve, you've been a contributor to Python itself. You mentioned PEP 8 
 
 **Jerod Santo:** Is it every Friday? Because that's a very clear line, right?
 
-**Steve Dower:** Yeah, and "If you e-mail me about Microsoft work on that day, you're not gonna get a response on that day because I'm not doing that work." It's very individually-managed; it comes down to how your manager feels about it, and what value is coming back out of that for either the community as a whole, or Microsoft and how that's valued.
+**Steve Dower:** Yeah, and "If you email me about Microsoft work on that day, you're not gonna get a response on that day because I'm not doing that work." It's very individually-managed; it comes down to how your manager feels about it, and what value is coming back out of that for either the community as a whole, or Microsoft and how that's valued.
 
 **Dan Taylor:** Yeah, I don't think anyone's really breathing over your shoulder at Microsoft anyways, and watching what you do every day... But yeah, with Brett, I've definitely tried to meet with him on Friday and he goes "No, not talking..."
 
@@ -176,7 +176,7 @@ Anyways, Steve, you've been a contributor to Python itself. You mentioned PEP 8 
 
 **Dan Taylor:** Well, there's a lot of different teams and I could probably pick a fifth one out there...
 
-**Jerod Santo:** Yes, I'm sure \[unintelligible 00:28:52.02\]
+**Jerod Santo:** Yes, I'm sure you'd have no trouble on that. \[laughs\]
 
 **Dan Taylor:** We actually do consult with a lot of teams across Microsoft who are doing stuff in Python, so there's many more than four or five... It's just really how I choose to bucket them in my head in terms of products. We've got our Python extension for Visual Studio Code, we've got our Python workload in Visual Studio - those are similar.
 
@@ -229,7 +229,7 @@ So those are kind of the key areas that we're really trying to move forward.
 
 **Steve Dower:** So Python 3.7 is basically just completely locked down. The fourth beta is out, we're gonna have a release candidate soon, and then the final release of that will be out within two months, I think, or thereabouts; I don't have the schedule in front of me. That has got -- I don't know that it's the most dramatic and exciting release we've ever had, but it's looking really solid. There's certainly a lot of improvements in initialization, which a few people are interested in... But it's really significant there.
 
-Data classes is one of the big ones. So when you're writing, if you just want a simple class to hold a couple of values, just like a few fields, you find yourself writing \[unintelligible 00:34:36.12\] hash functions, comparison functions... We've now got a type in there on a module that you can basically inherit from, and specify just the names in the class, and you don't have to write any code, and you'll end up with like a fully defined class that may have default values for those, it'll do comparisons, it'll do hashing, and just generate all of that boilerplate code for you.
+Data classes is one of the big ones. So when you're writing, if you just want a simple class to hold a couple of values, just like a few fields, you find yourself writing you know a def init and default values and getters, setters, you know, a hash function, comparison functions... We've now got a type in there on a module that you can basically inherit from, and specify just the names in the class, and you don't have to write any code, and you'll end up with like a fully defined class that may have default values for those, it'll do comparisons, it'll do hashing, and just generate all of that boilerplate code for you.
 
 **Jerod Santo:** That's cool, for sure.
 

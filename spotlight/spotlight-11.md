@@ -1,6 +1,6 @@
-**Adam Stacoviak:** Welcome to our Spotlight series titled The Future Of Node, recorded at Node Interactive 2016, in Austin, Texas. We produced this in partnership with the Linux Foundation, the NodeJS Foundation and it's sponsored by IBM and StrongLoop.
+**Adam Stacoviak:** \[00:00:31\] Welcome to our Spotlight series titled The Future Of Node, recorded at Node Interactive 2016, in Austin, Texas. We produced this in partnership with the Linux Foundation, the NodeJS Foundation and it's sponsored by IBM and StrongLoop.
 
-**Break:** \[00:00:43.29\] to \[\\00:01:05.02\]
+**Break:** \[00:00:43.29\] to \[00:01:05.02\]
 
 **Adam Stacoviak:** In this episode I talked with Rachel White, Technical Evangelist at Microsoft, about Node, IoT, robotics... We talked about making robots, inspiring developers to try new things, having fun as a developer, letting go of impostor syndrome, RFID implants and making stuff for fun, outside of our day-to-day jobs. Take a listen.
 
@@ -75,7 +75,7 @@ I gave a hardware talk at Node Interactive EU and I was doing four hardware demo
 
 \[00:12:03.15\] So during my presentation, after I switched from the PowerPoint slides over to some live coding demonstrations, I needed to get back to my slides, but we were already halfway through, and I couldn't remember that they key command on Windows is Shift+F5 to get to a specific slide...
 
-**Adam Stacoviak:** Of course \[unintelligible 00:12:17.28\]
+**Adam Stacoviak:** Of course, why would you remember that?
 
 **Rachel White:** Well, I tried Alternate, I tried Control and I tried Function+F5 and it all didn't work, so then I just started clicking on every single slide to get back to the 23rd slide... And I was just like, "So, how's everybody doing? This is great..." And then even the workshop after that, the code that I deployed for people to use had a bug in it, so we had to fix it together in order to get it to work. But it did work eventually, and then everybody was really excited.
 
@@ -143,7 +143,7 @@ For example, if somebody's playing Contra, you wait, and they get 25 points and 
 
 **Adam Stacoviak:** You have a different approach than, I think -- well, on the Changelog, one of the things we ask most guests on that show is their backstory, and more often than not we ask them "What got you into programming? When did you fall in love with it? Where were you at in life?" and more often than not it's gaming.
 
-\[unintelligible 00:18:56.29\] I believe that's what it was called, but I didn't know. Jerod did, Mitchell Hashimoto did, and several guests who came on the show have started out -- it wasn't Mitchell, it was somebody else; I'm mixing up names. Either way... Gaming was this epicenter, a breeding ground of software developers. These are people who have gone on to do some really cool stuff.
+It's a T3i, the texas instruments T3i I believe that's what it was called, but I didn't know. Jerod did, Mitchell Hashimoto did, and several guests who came on the show have started out -- it wasn't Mitchell, it was somebody else; I'm mixing up names. Either way... Gaming was this epicenter, a breeding ground of software developers. These are people who have gone on to do some really cool stuff.
 
 Putting that back to you, do you find that the fun mechanism in what you do is what catches people? What is it that you feel attracts people to software development that may not have otherwise done so, or dig deeper where they may not have thought so?
 
@@ -169,7 +169,7 @@ There's the NodeBots NYC group where people go and they meet up, and the format 
 
 **Adam Stacoviak:** Oh, I feel it. That's crazy.
 
-**Rachel White:** \[laughs\] So I did a project where -- I don't know if you've played \[unintelligible 00:22:18.28\] those terminals... The green CLI that you would get - I made a CSS version of it in a browser, that you scan an RFID tag, and if it's not me, like if it's any other RFID tag, it says "Access denied" and it flashes on the screen, and there's like a glow on the text. But then if I scan my hand, you get a bunch of 1990s hackers scrolling text with an ASCII skull that says "Access granted", and that project is the most ridiculous thing to show people, because obviously, they can't replicate it unless they go get an -- well, they could, but not with one in their body.
+**Rachel White:** \[laughs\] So I did a project where -- I don't know if you've played Fallout or if you remember those old terminals... The green CLI that you would get - I made a CSS version of it in a browser, that you scan an RFID tag, and if it's not me, like if it's any other RFID tag, it says "Access denied" and it flashes on the screen, and there's like a glow on the text. But then if I scan my hand, you get a bunch of 1990s hackers scrolling text with an ASCII skull that says "Access granted", and that project is the most ridiculous thing to show people, because obviously, they can't replicate it unless they go get an -- well, they could, but not with one in their body.
 But it's a hardware example of something that's super weird, but all it is is a NodeJS application with Socket.io.
 
 **Adam Stacoviak:** Dedicated.

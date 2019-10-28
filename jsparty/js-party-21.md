@@ -262,7 +262,7 @@ Imagine having a USB-focused DSL. Imagine having a torrent-focused JSL. All sort
 
 **Suz Hinton:** Yeah, it was just really fun.
 
-**Jerod Santo:** I would have used 5 s's instead of 6 s's. Those are the \[unintelligible 00:44:31.16\] "How many s's are there?"
+**Jerod Santo:** I would have used 5 s's instead of 6 s's. Those are the kind of code review comments you get -- "How many s's are there?"
 
 **Suz Hinton:** Yeah, imagine building a linter for that... Which I guess is what you would use an AST for, right? But I just thought it was cool, so I wanna know kball's thoughts on that specifically.
 
@@ -294,11 +294,11 @@ As the language is right now, a lot of the features there are basic on the prima
 
 When I've used DSL's -- coming back, once again, I've done this much more in Ruby land... There you usually use it for a library of some sort; so you're using this library and it has a particular way of interacting with it... And because Ruby the language itself is able to do the same sort of -- like, you can change fundamental pieces of the language in a way that you can't just raw do in Javascript... It can expose an interaction form or a language that reads English, or reads whatever the DSL or whatever the domain language is that you're trying to model there. So there it's just another library you import; here it's a library, but it goes into your build step, rather than into your -- like, it's extending that view of your stack; it's saying "Okay, my stack now goes down to the level of 'I can plug additional things into Babel."
 
-**Feross Aboukhadijeh:** I just had another thought - could it be used for games? I know in a lot of games you specify the layout of the level, usually in some weird kind of 2D array structure, or some long multi-line string where you put like a 1 or a 0; 1 is there's a wall there... \[unintelligible 00:51:57.28\] there's all these weird things you do. Could you make something that's like part of the language where you just more naturally specify that structure?
+**Feross Aboukhadijeh:** I just had another thought - could it be used for games? I know in a lot of games you specify the layout of the level, usually in some weird kind of 2D array structure, or some long multi-line string where you put like a 1 or a 0; 1 is there's a wall there... like if you're making a grid game, there's all these weird things you do. Could you make something that's like part of the language where you just more naturally specify that structure?
 
 **Jerod Santo:** That's the cool thing about DSL - once you have the tools for creating the DSLs, which I think is what Kevin is saying about now with Babel, you can basically create a DSL for anything... Heck, even a fictional snake language. If you can think up the actual language, you have the tools to build it.
 
-**Suz Hinton:** I'm trying to think if the creator of \[unintelligible 00:52:37.22\] did that or not. I might actually be remembering that wrong from the book that he published about how he was generating those maps... But that's a really compelling idea.
+**Suz Hinton:** I'm trying to think if the creator of Spelunky did that or not. I might actually be remembering that wrong from the book that he published about how he was generating those maps... But that's a really compelling idea.
 
 **Jerod Santo:** I didn't write a DSL, but I did write a little bit of a wrap for this show, and I thought I would do it as an outro. What do you guys think? Will you humor me and listen to this rap I wrote? You are all mentioned by name.
 

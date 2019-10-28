@@ -126,7 +126,7 @@ So there's not a lot of people - although it is gaining traction recently - for 
 
 **Brian Ketelsen:** Exactly.
 
-**Ed Muller:** \[unintelligible 00:15:29.08\]
+**Ed Muller:** Or being DDoSed.
 
 **Erik St. Martin:** And some of the other stuff too is that I feel some of that stuff comes as part of the code review. When you get into bigger environments, there's no reason you shouldn't be auditing these libraries before using them, before you put them on your production systems where they have access to your data; you should know what that library does and you should know what changed when you pull in a new version. So as part of my code review, when I submit my new feature and I pulled in a new library or I upgraded it, you should be able to see a code review, or you should be able to see what changed, and to be able to speculate what kind of problems that may cause. I never got that not checking in vendor thing.
 
@@ -210,7 +210,7 @@ Last year I was given an opportunity inside to help make Go a formally supported
 
 **Ed Muller:** That's a great review.
 
-**Brian Ketelsen:** \[unintelligible 00:29:11.19\] I'm here for you, man.
+**Brian Ketelsen:** 100% Go. I'm here for you, man.
 
 **Ed Muller:** Cool. Inside of Heroku... Large portions of the platform have actually been somewhat rewritten in Go. For instance, if you git push Heroku Master, the Git server behind that is written in Go, the thing that actually executes your slug-building. So that's what you see when you see language detected Go and then the compilation process - that's been recently rewritten as a Go process.
 
@@ -236,7 +236,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Erik St. Martin:** Challenge accepted.
 
-**Ed Muller:** \[unintelligible 00:32:44.19\] as a champion for it. We have contributors to Crystal who work here.
+**Ed Muller:** Heroku has a champion for it. We have contributors to Crystal who work here.
 
 **Brian Ketelsen:** Crystal looks pretty awesome, by the way. We need to have an episode just on all these new languages, because I love them.
 
@@ -354,7 +354,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Brian Ketelsen:** Their whole team is very prolific in open source, too. It's a company founded in Go roots, that lives and thrives in the community, so a shout out to our friends at Sourcegraph. You guys rock!
 
-**Erik St. Martin:** And they blogged for us. Remember the live blog \[unintelligible 00:42:55.05\]?
+**Erik St. Martin:** And they blogged for us. Remember the live blog?
 
 **Brian Ketelsen:** Yeah, that's right.
 
@@ -370,7 +370,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Erik St. Martin:** So two things: first, there was this project somebody showed that's in IM GUI, like immediate mode user interface, which is basically like OpenGL with windows inside of it, and it's called EweyGewey. I love the name of it, too. But it's like the alpha of the alpha right now, but I thought it looked cool, especially thinking kind of like the embedded space, having GUI on embedded devices. So I'm gonna keep watching that to see how that comes along.
 
-\[00:44:01.24\] And then that spawned this discussion about cross-platform GUI type approaches in Go, and there was a bunch of stuff. I kind of mentioned \[unintelligible 00:44:10.03\], which is the Chrome embedded framework, and somebody said no to please encourage people to contribute to this project called Gob. With Gob they're attempting to write a full web browser in Go, which is really cool. I don't have the time to contribute, so everybody else contribute so that we can have a full web browser written in Go.
+\[00:44:01.24\] And then that spawned this discussion about cross-platform GUI type approaches in Go, and there was a bunch of stuff. I kind of mentioned CEF, which is the Chrome Embedded Framework, and somebody said no to please encourage people to contribute to this project called Gob. With Gob they're attempting to write a full web browser in Go, which is really cool. I don't have the time to contribute, so everybody else contribute so that we can have a full web browser written in Go.
 
 **Brian Ketelsen:** Interesting. What are they using for the user interface components?
 
@@ -400,7 +400,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Erik St. Martin:** No worries at all. We thought you were as tired as we were.
 
-**Brian Ketelsen:** We had somebody in the GoTime FM channel in Slack, and I'm gonna butcher his name, I feel terrible, but it's Florin Patan - he mentioned the go get button Chrome extension. He had actually installed that two weeks ago when he announced it originally, so that's another good one to shout out; we'll have to add that to our show notes. When you're on a GitHub repository, you can just push the little Gopher icon and it copies the go get URL into your buffer and you can just hit Paste in \[unintelligible 00:47:51.14\] and you'll have that go get command ready for you to do a go get. It's a tiny little tool, it's really handy; I use it constantly now since I've installed it. So a big shout.
+**Brian Ketelsen:** We had somebody in the GoTime FM channel in Slack, and I'm gonna butcher his name, I feel terrible, but it's Florin Patan - he mentioned the go get button Chrome extension. He had actually installed that two weeks ago when he announced it originally, so that's another good one to shout out; we'll have to add that to our show notes. When you're on a GitHub repository, you can just push the little Gopher icon and it copies the go get URL into your buffer and you can just hit Paste in your command line and you'll have that go get command ready for you to do a go get. It's a tiny little tool, it's really handy; I use it constantly now since I've installed it. So a big shout.
 
 **Ed Muller:** \[00:48:03.29\] I'd like to shout out, it I may, to Heroku's open source Go project, some of which I've contributed to. If you take a look at our open source Go repositories on GitHub you'll see a bunch of stuff, and a lot of engineers who work there are also contributors to various things, and Go itself.
 
@@ -408,7 +408,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Brian Ketelsen:** Yeah, it is. It's awesome.
 
-**Ed Muller:** I just try to get \[unintelligible 00:48:37.05\] those guys at some point, too. I'm honored to be on the show, but... And they have a big impact early on.
+**Ed Muller:** I should just try to get Keith and those guys at some point, too. I'm honored to be on the show, but... man, did they have a big impact early on.
 
 **Carlisia Pinto:** And talking about involvement from Heroku, I wanted to also mention that Heroku is a big supporter of GoBridge, financially and otherwise, and Ed is as well. You have taught a GoBridge workshop in San Francisco, we're very grateful for that, so thank you.
 

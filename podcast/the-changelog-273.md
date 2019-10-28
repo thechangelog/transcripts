@@ -72,7 +72,7 @@ So now when we discuss privacy, we're only talking about it really in the realm 
 
 **Jerod Santo:** Yeah.
 
-**Vida Williams:** But if we could have just -- and this is my... So one of my course bases is child welfare; I work a lot in education, I'm planning a lot of impact investing and a lot of those things where I feel like we make community safer. How about if we just identified at the point in time that he became \[unintelligible 00:09:50.20\] youth, and all of a sudden his environment is instable? Why couldn't we de-privacy \[unintelligible 00:09:59.21\] some of that data events, so that we could provide services that could have helped him? But now that is a privacy issue.
+**Vida Williams:** But if we could have just -- and this is my... So one of my course bases is child welfare; I work a lot in education, I'm planning a lot of impact investing and a lot of those things where I feel like we make community safer. How about if we just identified at the point in time that he became a foster youth, and all of a sudden his environment is instable? Why couldn't we de-privacy, de-new some of that data events, so that we could provide services that could have helped him? But now that is a privacy issue.
 
 I don't know where the lines are, I just know that we don't -- I don't know where the lines are, but I know that we do not have a rational way of discussing privacy via data in a way that is actually gonna be beneficial for a community. That's what I know. So my thing is issuing a call to action to those who deal with data to begin the process of discussing "How do we templatize it? How do we standardize it? What protocols do we put into place in order to make data more available and more consumable for impact?" That's my goal, and I don't know if you're recording any of this...
 
@@ -80,7 +80,7 @@ I don't know where the lines are, I just know that we don't -- I don't know wher
 
 **Vida Williams:** Did you really?
 
-**Adam Stacoviak:** Yeah, we've already started, basically... It was like a soft opening here... \[laughter\] Unless you wanna resume \[unintelligible 00:10:51.17\] I was about to say that "By the way, we've been recording this whole thing and this is a good riff, so let's keep going..." \[laughter\]
+**Adam Stacoviak:** Yeah, we've already started, basically... It was like a soft opening here... \[laughter\] Unless you wanna resume differently. I was about to say that "By the way, we've been recording this whole thing and this is a good riff, so let's keep going..." \[laughter\]
 
 **Jerod Santo:** Well, speaking to your privacy here... You know, we've been recording everything you just said... \[laughter\] It's funny, because we normally will do like an intro thing and then we'll start, but like --
 
@@ -132,7 +132,7 @@ I don't know where the lines are, I just know that we don't -- I don't know wher
 
 **Vida Williams:** What will happen is we'll have some case that will challenge it, where the data will need to be there - the data they filmed, the metadata and the images will all need to be there, and the (we'll just call them the) legislators of the day will come up and say "You know what, our policy at that point in time was to archive it seven days because of the volume of the data, and unfortunately that was cut before we could get there."
 
-It will be some answer like that, because then that enables the legislators to vote yes, and then the execution of it to \[unintelligible 00:13:55.08\] and it'll be nobody's fault.
+It will be some answer like that, because then that enables the legislators to vote yes, and then the execution of it to fall defunct, and it'll be nobody's fault.
 
 **Jerod Santo:** Yeah... I'm starting to think of chain of custody and issues like that as well...
 
@@ -142,7 +142,7 @@ It will be some answer like that, because then that enables the legislators to v
 
 **Vida Williams:** That's why I said the metadata becomes very important, like "Who picked it up? Who cataloged it? Where did they move it? When did they move it?"
 
-We have electronic fingerprints - that's all a data issue, that's a development issue, that's an infrastructure issue, but we don't have the practices in place and nor do we have the protocols in place to deal with issues such as privacy. So now, if you had a routine traffic stop, \[unintelligible 00:14:30.07\] he's got a camera on, he's taking a picture of me. But later I go running for office, what if I cursed him out during that traffic stop? Well, that video can resurface; where's the privacy of that? That was a state-sanctioned video.
+We have electronic fingerprints - that's all a data issue, that's a development issue, that's an infrastructure issue, but we don't have the practices in place and nor do we have the protocols in place to deal with issues such as privacy. So now, if you had a routine traffic stop, I was stopped, he's got a camera on, he's taking a picture of me. But later I go running for office, what if I cursed him out during that traffic stop? Well, that video can resurface; where's the privacy of that? That was a state-sanctioned video.
 
 So there's all kinds of questions of privacy that never come up when you're dealing with data from an image perspective.
 
@@ -202,7 +202,7 @@ That's low-hanging fruit that's really easy, but has the biggest impact for our 
 
 **Adam Stacoviak:** It's the best place to invest.
 
-**Vida Williams:** They don't even know \[unintelligible 00:18:17.12\] they're not supposed to tell you this information, so... \[laughter\]
+**Vida Williams:** They don't even know that they're not supposed to tell you this information, so... \[laughter\]
 
 **Jerod Santo:** Yeah, really...
 
@@ -244,7 +244,7 @@ That's low-hanging fruit that's really easy, but has the biggest impact for our 
 
 **Jerod Santo:** Livin' la Vyda loca...
 
-**Vida Williams:** Yes, that's it, and I am @vidachristy everywhere - on Twitter, on Google, via e-mail on Gmail... You can always get me at @vidachristy.
+**Vida Williams:** Yes, that's it, and I am @vidachristy everywhere - on Twitter, on Google, via email on Gmail... You can always get me at @vidachristy.
 
 **Adam Stacoviak:** We'll put the links in the show notes to you, and make sure everybody knows about you.
 
@@ -284,7 +284,7 @@ I think it really boils down to organizational structures and having that wall i
 
 **Jerod Santo:** Right, you didn't say you're not a -- well, Vida said she wasn't a developer... You just said "What's your audience? Because I'm a ..."
 
-**Adam Stacoviak:** Do you think it's just like the community \[unintelligible 00:25:36.20\] well enough? Like, maybe not hanging out...? Since it's newish, so to speak, maybe you all haven't gotten that time to \[unintelligible 00:25:44.17\] or hang out in the same rooms and realize that you're all human beings and you all have smarts and can bring something to a changing landscape of things?
+**Adam Stacoviak:** Do you think it's just like the community hasn't gotten to know you well enough? Like, maybe not hanging out...? Since it's newish, so to speak, maybe you all haven't gotten that time to congeal or hang out in the same rooms and realize that you're all human beings and you all have smarts and can bring something to a changing landscape of things?
 
 **Michelle Casbon:** Yeah, I mean logically that makes sense...
 
@@ -398,7 +398,7 @@ We've built a lot of this on open source software. I really couldn't imagine bui
 
 **Michelle Casbon:** The heart of our machine learning - we're using Spark's MLlib; we use their LogisticRegression, random forests libraries, stuff like that. And PredictionIO is what does a lot of the NLP stuff.
 
-We're running that in Docker containers, on Kubernetes... It's all in Scala. Our storage layer is \[unintelligible 00:32:44.05\] and Cassandra.
+We're running that in Docker containers, on Kubernetes... It's all in Scala. Our storage layer is, we're using MariaDB and Cassandra.
 
 **Jerod Santo:** Lots of things.
 
@@ -460,7 +460,7 @@ We're running that in Docker containers, on Kubernetes... It's all in Scala. Our
 
 **Michelle Casbon:** Of course!
 
-**Adam Stacoviak:** Any closing thoughts to share? Any words of wisdom to part on? For the data scientists out there, the data engineers out there, and the mathematicians not \[unintelligible 00:35:10.22\] well enough what's going on.
+**Adam Stacoviak:** Any closing thoughts to share? Any words of wisdom to part on? For the data scientists out there, the data engineers out there, and the mathematicians not knowing you well enough, what's going on.
 
 **Michelle Casbon:** Feel the love...! \[laughs\] I guess I feel very personally invested in that whole data science versus engineering thing because I have one foot in both sides.
 

@@ -164,7 +164,7 @@ This year, it's our second year at the Convention Center, so we have a better id
 
 **Beyang Liu:** Really? That's crazy.
 
-**Brian Ketelsen:** It is. And when that e-mail hit my inbox, I thought, "That's a big adoption point for Go." It's not a tech company, it's not some VC-funded startup somewhere, they're not cutting edge, whatever, it's just an auto parts company. To me that felt like an inflection point for Go.
+**Brian Ketelsen:** It is. And when that email hit my inbox, I thought, "That's a big adoption point for Go." It's not a tech company, it's not some VC-funded startup somewhere, they're not cutting edge, whatever, it's just an auto parts company. To me that felt like an inflection point for Go.
 
 **Beyang Liu:** \[00:24:02.21\] I think that speaks to one of the broader trends, not just in Go but in the software world in general, which is more and more you're seeing companies that you don't think of as traditional tech companies becoming highly depending on the software they're able to build.
 
@@ -184,7 +184,7 @@ Something that we think about a lot is how can we build the tooling ecosystem an
 
 **Brian Ketelsen:** Well, that's actually a really good transition into our discussion about our sponsors; people who build great tools to help you ship your software.
 
-Equinox, one of my favorite tooling companies, Equinox.io, helps you package and distribute your Go applications. You can package and release CLI and on-premise software using Equinox, and I think my favorite part about using Equinox is the native packages and installers for Mac, Windows and Linux. So you get the msi, you get the pkg file, you get Debian files, rpms, \[unintelligible 00:27:46.06\] all of that good stuff. It's really easy to create an application and then let Equinox ship it to your customers in a self-updating format.
+Equinox, one of my favorite tooling companies, Equinox.io, helps you package and distribute your Go applications. You can package and release CLI and on-premise software using Equinox, and I think my favorite part about using Equinox is the native packages and installers for Mac, Windows and Linux. So you get the msi, you get the pkg file, you get Debian files, rpms, yums, all of that good stuff. It's really easy to create an application and then let Equinox ship it to your customers in a self-updating format.
 
 We use Equinox at Backplane, and I think Beyang you mentioned that you had used it before, hadn't you?
 
@@ -208,7 +208,7 @@ I'd also like to give a shout out to Equinox's creator, Alan Shreve. He's just a
 
 **Brian Ketelsen:** That's awesome. Well, you can support Alan and his company Equinox by going to Equinox.io/gotime. Equinox is free for community and personal projects, and very inexpensive for companies to release their tool, so go check it out. We love them.
 
-**Erik St. Martin:** I'm sure he'd be perfectly happy with bags of money \[unintelligible 00:30:21.20\] \[laughter\]
+**Erik St. Martin:** I'm sure he'd be perfectly happy with bags of money too. \[laughter\]
 
 **Brian Ketelsen:** Well, I have to pay for my ngrok subscription, because I love it so damn much. I use it every single day.
 
@@ -368,13 +368,13 @@ It was insane. It went, in total, from like 10 milliseconds...
 
 **Beyang Liu:** \[laughs\] Yeah, totally.
 
-**Erik St. Martin:** I guess I would be really interested to see the effects of importing a project. If I'm gonna import this package for something I need it for, how many packages and maybe how many lines of code in general am I importing just to get whatever that function is that I want, and maybe I use that as the determination of whether or not I should just make a copy of this one function or whether I should import the project itself. I think stuff like that might be valuable. And we should put a call out though too, to anybody who has interesting ideas. Should they shout at you at your Twitter account, should they e-mail you? File tickets?
+**Erik St. Martin:** I guess I would be really interested to see the effects of importing a project. If I'm gonna import this package for something I need it for, how many packages and maybe how many lines of code in general am I importing just to get whatever that function is that I want, and maybe I use that as the determination of whether or not I should just make a copy of this one function or whether I should import the project itself. I think stuff like that might be valuable. And we should put a call out though too, to anybody who has interesting ideas. Should they shout at you at your Twitter account, should they email you? File tickets?
 
-**Beyang Liu:** You can either tweet at Sourcegraph, @srcgraph, or just e-mail hi@sourcegraph.com
+**Beyang Liu:** You can either tweet at Sourcegraph, @srcgraph, or just email hi@sourcegraph.com
 
 **Brian Ketelsen:** Nice.
 
-**Erik St. Martin:** I always like those hi@ e-mail addresses.
+**Erik St. Martin:** I always like those hi@ email addresses.
 
 **Brian Ketelsen:** They're very friendly.
 
@@ -432,7 +432,7 @@ It was insane. It went, in total, from like 10 milliseconds...
 
 **Brian Ketelsen:** \[00:51:08.24\] All six of them are listening.
 
-**Erik St. Martin:** I think we're probably out of time... We're a few minutes over, but this has been a lot of fun and I wanna thank everybody who's on the show. I wanna thank all the listeners, I wanna thank our sponsors, Equinox (equinox.io/gotime) definitely hit them up, share the show with other programmers... If you haven't subscribed already, you can go to GoTime.fm and subscribe to our upcoming weekly e-mail newsletter, follow us on Twitter, and we are GoTimeFm on the Gophers Slack channel as well. I think with that said, goodbye everybody, and we are out next week because of GopherCon. All these conferences get in the way of podcasts.
+**Erik St. Martin:** I think we're probably out of time... We're a few minutes over, but this has been a lot of fun and I wanna thank everybody who's on the show. I wanna thank all the listeners, I wanna thank our sponsors, Equinox (equinox.io/gotime) definitely hit them up, share the show with other programmers... If you haven't subscribed already, you can go to GoTime.fm and subscribe to our upcoming weekly email newsletter, follow us on Twitter, and we are GoTimeFm on the Gophers Slack channel as well. I think with that said, goodbye everybody, and we are out next week because of GopherCon. All these conferences get in the way of podcasts.
 
 **Brian Ketelsen:** \*sigh\* But don't forget - if you're listening live, don't forget that we're live streaming GopherCon. Twitch.tv/gophercon. Did I mention that already?
 

@@ -286,7 +286,7 @@ When mobile was on the rise, we saw a new slew of frameworks that solved mobile;
 
 So this would be similar to that... You don't have to know SVG. It depends.
 
-**Mikeal Rogers:** I think you have to know D3 in order to get a D3 plugin in. Also, I haven't seen anything that was in NPM install, this library... Or even just a library that you could take off the shelf that included D3. A lot of those chart libraries that you're talking about, I always had to include it as a script tag ahead, like \[unintelligible 00:46:04.09\] 2015 style...
+**Mikeal Rogers:** I think you have to know D3 in order to get a D3 plugin in. Also, I haven't seen anything that was in NPM install, this library... Or even just a library that you could take off the shelf that included D3. A lot of those chart libraries that you're talking about, I always had to include it as a script tag ahead, like 2015 style...
 
 **Alex Sexton:** Bower for sure. \[laughter\] Yeah, most of those libraries are so far from working, even in JS DOM. It hasn't been a huge thing. But now that everybody uses Webpack to be able to pull vendor stuff out of Node modules and into actual files, I think it's all there.
 

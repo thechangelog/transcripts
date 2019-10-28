@@ -6,7 +6,7 @@ We have three sponsors - Rollbar, Toptal and DataLayer, a conference put on by C
 
 **Adam Stacoviak:** Alright, we’re back. We got a fun show, Jerod. I think Richard’s got an alarm set or something like that. We've got Evan Czaplicki and Richard Feldman we’re going to introduce here in just a second, but his is a catch-up show. Six months ago, back in January, we had Richard on, talked about Elm, got really excited about it, and a lot of people loved that show. We actually got asked recently, "Another Elm show, so quickly?" What’s going on here?
 
-**Jerod Santo:** Yeah, like you said, I think Richard set a reminder. I remember at the end of that show, we said, "Oh, we got to get you back on. Six months from now, a year from now, come back; bring Evan, or not… Let’s talk about Elm again!" And then maybe six months to the day, Richard, that e-mail came in and you’re like, "Hey, it's six months, let’s do this." It was that easy.
+**Jerod Santo:** Yeah, like you said, I think Richard set a reminder. I remember at the end of that show, we said, "Oh, we got to get you back on. Six months from now, a year from now, come back; bring Evan, or not… Let’s talk about Elm again!" And then maybe six months to the day, Richard, that email came in and you’re like, "Hey, it's six months, let’s do this." It was that easy.
 
 **Richard Feldman:** I wish I could take credit for having that good of a memory, but… Yeah, I set a reminder. \[laughter\]
 
@@ -110,7 +110,9 @@ There are tons of strategies you can use "Okay, we’ll make that reference a re
 
 In Elm, by starting out with the foundation of all those that are immutable, the architecture falls out of that. I think it might be interesting to see what the discovery process looked like. I noticed that my programs always were written a certain way. One of the first bigger programs that I wrote was actually a presentation about Elm in Elm. I was hacking it together very close to the time I was going to be showing it, and I finally got it working, and I went through to clean it up, and I was like, "Actually, this is decently architected. That’s weird." I had this experience a couple of times.
 
-I made a little Mario game for myself, and I was like, "Oh, this is fine." I wouldn’t expect it to come out that way, but then I was also like, "But I made it, so maybe I have an intuition for it, or something." So I went to what was at the time called Hacker School, and someone there, just in the course of a week, they made a little \[unintelligible 00:20:04.13\] type game, and asked me for a code review. I was like, "This is good!" Not in an "I don’t think YOU would write good code" but after a week of coming from no experience with functional programming or Elm or anything like that, to write something that was well architected, I was like, "This is a little weird."
+
+I made a little Mario game for myself, and I was like, "Oh, this is fine." I wouldn’t expect it to come out that way, but then I was also like, "But I made it, so maybe I have an intuition for it, or something." So I went to what was at the time called Hacker School, and someone there, just in the course of a week, they made a little side-scrolly type game, and asked me for a code review. I was like, "This is good!" Not in an "I don’t think YOU would write good code" but after a week of coming from no experience with functional programming or Elm or anything like that, to write something that was well architected, I was like, "This is a little weird."
+
 
 \[00:20:24.29\] That’s when I started noticing this pattern that we ended up calling the Elm architecture. This idea of, you get messages in, you have an update function that updates the state of your application, and then you have a U function that says, "Here’s how I show that on the screen." That’s just how Elm programs come out, if you use the language.
 
@@ -130,13 +132,13 @@ I told my mom about this, and she was like, "You should see if there’s any rel
 
 The term came to mean "we have interactivity and we have a map function." Basically, it’s functional and it’s reactive, so we’re going to use this terminology. It means dramatically different things to different people. In our case it meant updates come in and we handle them in a certain way. What we noticed is people were setting up the same programs, right? So I'd take these inputs, I'd merge them all together, I update my model, I send it out to My View. So no matter what your program was, people were setting up the same network signals - that's what we called them; other people called them observables. Everyone was setting up that same system. At some point, I think Richard did a lunch talk somewhere, and everything was good, but we…
 
-**Richard Feldman:** \[unintelligible 00:26:34\]
+**Richard Feldman:** Stumbled on signals.
 
 **Evan Czaplicki:** Yeah. Everything was good, but we stumbled on the signals by just explaining it. So on the walk back to the office we were just chatting, and I was like, "I bet I can hide all of that with a library before you can get back to work." So I walked upstairs and did it, and he walked back to his office, and I had it out there.
 
 I essentially found a way to create that signal graph, that basic setup that worked for, I want to say 100% of programs; we didn’t know that at the time. But we were like, "99% of the time, this is going to be enough." That was called StartApp and everyone started using that, and it was much easier way to get people started; they just didn’t have to think about a lot of concepts.
 
-At some point we realized, "This actually can cover everything that people need, just flat-out." It is generating this \[unintelligible 00:27:32.14\] underneath, but messing with that isn’t actually essential complexity.
+At some point we realized, "This actually can cover everything that people need, just flat-out." It is generating this signal graph underneath, but messing with that isn’t actually essential complexity.
 
 \[00:27:39.20\] When 0.17 happened, we did take out a… Essentially, we took out an API that was no longer was in use, and it felt very essential, but in reality, the underlying ideas behind Elm stayed the same, and the code that people were writing stayed the same. There just was this layer that fell out of use, that we just took out, so we have a simpler story, and a simpler way of thinking about all these kind of things. Does that make sense? I hope that makes sense.
 
@@ -154,7 +156,9 @@ The percentage of people who walk out, just feeling, "Oh, this is awesome! I get
 
 I also want to push back against the idea of Elm changing quickly… I think it’s true that we aren’t afraid to make improvements, but I don’t think they’ve been crazy if you think about the actual code that people are writing. When 0.17 came out… I don’t know if maybe Richard can give a better estimate, but the actual code that would have been invalidated or not work anymore is 5% of code. It’s not really a huge change, and I think I’m pretty deliberate about "How can I prove things and make an important change without disrupting everyone’s stuff?"
 
-**Richard Feldman:** For us, the change from 0.16 to 0.17 is largely a mechanical process; it’s just like, "This thing has a different name now, this thing needs to take one fewer argument, because we don’t need to pass as much stuff around." Actually, honestly, the big thing we had a lot of conversations about was how do we deal with merge conflicts? You know, baseline programmer stuff. How do you upgrade a large codebase? And of course, as pretty much always turns out to be the answer, the answer turned out to be, do it incrementally. \[unintelligible 00:31:25.19\] Conceptually, not a big change if you’re already using StartApp, which we were.
+
+**Richard Feldman:** For us, the change from 0.16 to 0.17 is largely a mechanical process; it’s just like, "This thing has a different name now, this thing needs to take one fewer argument, because we don’t need to pass as much stuff around." Actually, honestly, the big thing we had a lot of conversations about was how do we deal with merge conflicts? You know, baseline programmer stuff. How do you upgrade a large codebase? And of course, as pretty much always turns out to be the answer, the answer turned out to be, do it incrementally. Spoiler alert! \[laughter\] Conceptually, not a big change if you’re already using StartApp, which we were.
+
 
 **Jerod Santo:** On the practical side, if you were using signals, that gets changed over to subscriptions, and signals just is gone -you don’t have to worry about it anymore?
 
@@ -190,7 +194,7 @@ I can know from personal experience that we’ve had incredibly great success ma
 
 I actually had a personal experience where I did this to myself. DreamWriter is this application that I built — it was my first intro to Elm. If you look at my contribution graph over time, it’s really, really high because I was just going nuts with it, and just having an amazing time building it for a very long time, until I got the idea into my head that I needed to reorganize in terms of "components", where each sidebar had its own state, and the notes had its own state... Basically, introduced distributed state. If you look at my contribution graph — and I did look at it recently, because I was curious about this — basically it just takes a nosedive after I did this, because I just made my own codebase no longer joyful to maintain. I just made it a lot worse by componentizing everything.
 
-**Evan Czaplicki:** I want to emphasize something here, which is not that modularity is a bad idea, it’s just that modularity looks very different in an object-oriented language that doesn’t have types \[unintelligible 00:41:49.15\] a functional language that has a module-system and a type-system. It provides certain affordances to you that let you write code in different ways. Richard is not at all saying, "Don’t care about code quality." It's just that doing something nice looks quite different in these languages.
+**Evan Czaplicki:** I want to emphasize something here, which is not that modularity is a bad idea, it’s just that modularity looks very different in an object-oriented language that doesn’t have types versus a functional language that has a module-system and a type-system. It provides certain affordances to you that let you write code in different ways. Richard is not at all saying, "Don’t care about code quality." It's just that doing something nice looks quite different in these languages.
 
 **Richard Feldman:** Yes, that’s it, exactly.
 
@@ -210,7 +214,7 @@ I think there’s often a pressure to try to draw those lines when they don’t 
 
 I don’t know enough about particulars, but hopefully that gives an idea.
 
-In the end, I would argue that the ability to write modular code is just fundamentally better because of the lack of mutation. In a sense, I can have two independent components, and they can have no shared anything. But if I hand them a function, to both of them, that mutates the same state, suddenly they’re clashing with each other, even though they’re written separately and they have no overlapping code. You just can’t do that kind of thing with Elm in the first place. That’s probably the biggest source of… When you have a system that seems modular, but actually you have these weird \[unintelligible 00:48:03.00\] distance problems.
+In the end, I would argue that the ability to write modular code is just fundamentally better because of the lack of mutation. In a sense, I can have two independent components, and they can have no shared anything. But if I hand them a function, to both of them, that mutates the same state, suddenly they’re clashing with each other, even though they’re written separately and they have no overlapping code. You just can’t do that kind of thing with Elm in the first place. That’s probably the biggest source of… When you have a system that seems modular, but actually you have these weird action at a distance problems.
 
 **Richard Feldman:** \[00:48:05.00\] One of the important things to note about this is that although we have on that page one large record with 55 fields in it, that’s just because that page is complicated; those are 55 individual data points that we need. The question then becomes, "How do you organize that?" Like Evan said, the idea in Elm is that the cheapest way to make things modular is with functions. So yeah, we have one record with 55 fields in it; guess how many functions we have? I don’t know, I haven’t counted, but it’s a lot.
 
@@ -260,7 +264,8 @@ One thing that’s been great for Elm is to have the JavaScript ecosystem start 
 
 **Evan Czaplicki:** Yeah.
 
-**Richard Feldman:** There’s also the library \[unintelligible 01:02:22.13\] which is just an overt port. It's like, "Hey, we’re talking Elm architecture and bringing it to JavaScript."
+
+**Richard Feldman:** There’s also the library Choo which is just an overt port. It's like, "Hey, we’re talking Elm architecture and bringing it to JavaScript."
 
 **Adam Stacoviak:** In addition to that, we’re also seeing people imitate Elm’s famously good error message, saying "Man, we can do some of that stuff over here. We can write great error messages." So the question was going to be, "How do you feel about all these people stealing your awesome ideas?" It sounds like you like it.
 
@@ -286,7 +291,7 @@ I’m really focused on, "How can I find opportunities in debugging?" Richard’
 
 **Adam Stacoviak:** Yeah, actually I've been quiet here most of the time listening to you guys dig deep into quite a bit of stuff here, but we’re obviously building the next version of the Changelog on Elixir and Phoenix. Chris was on a most recent show, \#208, he talked about this harmony between Elixir and obviously Phoenix -- specifically Phoenix... But this kind of harmony between Elm and Phoenix. What do you guys have to say about that?
 
-**Evan Czaplicki:** \[01:08:03.19\] One thing that I’ve been slowly working on… Elm has, in the core library, a module called Process that lets you spawn these processes that will run independently, and if one of them blocks, we can swap over to another one, and do work over there. It’s still quite an immature API, but it’s the building blocks of what every Elm program is built on behind-the-scenes. I think over the next couple of years, we’ll be fleshing that out more and more. My original thesis work was focused on concurrency in particular, so this has always been an interest of mine. Over time, I’ve become really enamored with how they did the fundamental API in Erlang, so I’m trying to see how we can work nicely with that, to have a concurrency model that’s really excellent. It’s unclear where that will go, but that's \[unintelligible 01:09:12.15\].
+**Evan Czaplicki:** \[01:08:03.19\] One thing that I’ve been slowly working on… Elm has, in the core library, a module called Process that lets you spawn these processes that will run independently, and if one of them blocks, we can swap over to another one, and do work over there. It’s still quite an immature API, but it’s the building blocks of what every Elm program is built on behind-the-scenes. I think over the next couple of years, we’ll be fleshing that out more and more. My original thesis work was focused on concurrency in particular, so this has always been an interest of mine. Over time, I’ve become really enamored with how they did the fundamental API in Erlang, so I’m trying to see how we can work nicely with that, to have a concurrency model that’s really excellent. It’s unclear where that will go, but that's some thoughts.
 
 **Adam Stacoviak:** Some other questions we have towards the end here is... It’s not really a FAQ, it’s more like disbelief. We've covered it a little bit earlier in the show, but just no production errors - I’m just wondering how. One of the goals that’s stated in a recent blog post from you, Evan, it says, "One of Elm’s goals is to change our relationship with compilers. Compilers should be assistance, not adversaries." Jerod mentioned earlier you’re famous for your polite and helpful error messages or compiler error messages, but you also say compilers should not just detect bugs, but they should also help you understand why there is a bug. Can you talk about why this is such an important piece to Elm?
 
@@ -344,7 +349,7 @@ From what I understand, he’s been this behind-the-scenes, incredibly helpful i
 
 **Richard Feldman:** Oh, yeah! Tickets are on sale, and you’re running out of time to get them, because it’s September 15th.
 
-**Adam Stacoviak:** The URL for that is elf-conf.us.
+**Adam Stacoviak:** The URL for that is elm-conf.us.
 
 **Richard Feldman:** Yup.
 
@@ -366,7 +371,7 @@ From what I understand, he’s been this behind-the-scenes, incredibly helpful i
 
 **Jerod Santo:** Uh-oh.
 
-**Richard Feldman:** Someday we’re going to talk to somebody, and they’re going to be like, "Oh, we have more than you do." \[laugh\] I’m going to be like, "Aw man, \[unintelligible 01:23:49.05\]." We still have Evan. If you come to work at NoRedInk, you get to work with Evan. We still got that.
+**Richard Feldman:** Someday we’re going to talk to somebody, and they’re going to be like, "Oh, we have more than you do." \[laugh\] I’m going to be like, "Aw man, is that so important?" We still have Evan. If you come to work at NoRedInk, you get to work with Evan. We still got that.
 
 **Adam Stacoviak:** \[01:23:56.24\] There you go. Yeah, of course, that's always good. Lines of code isn't a good judge, anyway. That’s probably a good place to close things down for this show. I know that we have had our eyes set on the next wave of changes from Elm, and have you guys back to talk through some different things. I think we’ve covered quite a bit in today’s show. Is there anything, any last rock unturned that you want to mention, besides ElmConf, and to go?
 

@@ -546,7 +546,7 @@ And my third and last one would be a big shoutout to everyone who's been creatin
 
 Thanks to all the listeners who were listening live, and everybody who will listen to this once it's produced. Big shoutout to our sponsor Toptal; again, show them some love, because they make this thing happen for us.
 
-Definitely share the show with fellow Go programmers. If you wanna subscribe, you can go to GoTime.fm. We have a weekly e-mail that we're gonna be starting pretty soon, so go ahead and subscribe to that. You can follow us on [Twitter](https://twitter.com/GoTimeFM). If I don't run out of breath -- if you have something you wanna talk about on this show or suggestions for a guest, please file an issue on [ping](https://github.com/GoTimeFM/ping).
+Definitely share the show with fellow Go programmers. If you wanna subscribe, you can go to GoTime.fm. We have a weekly email that we're gonna be starting pretty soon, so go ahead and subscribe to that. You can follow us on [Twitter](https://twitter.com/GoTimeFM). If I don't run out of breath -- if you have something you wanna talk about on this show or suggestions for a guest, please file an issue on [ping](https://github.com/GoTimeFM/ping).
 
 I think that's it... Goodbye, everybody, we'll see you next week.
 

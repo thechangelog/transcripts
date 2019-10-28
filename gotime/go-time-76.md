@@ -80,7 +80,7 @@ We employ unsafe in very low quantities, exactly where we need it, to get that p
 
 We've definitely had several sort of deep hackathons on profiling and finding places where we had easy wins, basically... But there's definitely a lot more to do there, and Go's tooling keeps evolving. The tracer and all the different profiling types you can do... I think we've scratched the surface - maybe scratched it pretty deeply - but we certainly haven't broken through into all of what's possible.
 
-**Erik St. Martin:** \[00:16:08.29\] In discussions through e-mail before you came on the show you had mentioned too that part of the reason that Go was such a great fit - at least for building a distributed tool - was that you were able to cut out external dependencies like [Zookeeper](https://zookeeper.apache.org/)...
+**Erik St. Martin:** \[00:16:08.29\] In discussions through email before you came on the show you had mentioned too that part of the reason that Go was such a great fit - at least for building a distributed tool - was that you were able to cut out external dependencies like [Zookeeper](https://zookeeper.apache.org/)...
 
 **Matt Jaffee:** Yeah. You know, Go has a lot of good libraries, and a culture of making things pretty tightly packaged and not pulling in lots of dependencies into your projects, and we're trying to sort of follow that culture in Pilosa, and also it's been a great help to us to be able to pull in libraries to do things like cluster membership... And because of Go's concurrency model, it's easy to sort of have that running in the background in the same process, without really blocking anything or affecting latency of queries or anything like that.
 
@@ -226,7 +226,7 @@ What other interesting news did we have? Oh, I wanted to mention [Micro](https:/
 
 **Erik St. Martin:** Let's make that a thing.
 
-**Brian Ketelsen:** Let's do that. I'm making a note and I'm putting that in my to-do list. Matching Patreon. Alright, it's in. I'll e-mail Satya today and see what I can get.
+**Brian Ketelsen:** Let's do that. I'm making a note and I'm putting that in my to-do list. Matching Patreon. Alright, it's in. I'll email Satya today and see what I can get.
 
 **Erik St. Martin:** Just call him up on the phone. You've got his number, right?
 

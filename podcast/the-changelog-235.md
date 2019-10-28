@@ -134,7 +134,7 @@ We ran into tons of issues, man... Tons. Translating what would be a writer - it
 
 **Jerod Santo:** In the six month period?
 
-**Giovanni Caligaris:** In six months. So while I was doing the translation - I forgot to say this - the Guarani uses a Roman/Latin alphabet, plus some extra letters (six extra letters, with an accent). It's not much, but it's not easy to use it on the keyboard. I was frustrated at the time when I was doing the translation, so I created the first Guarani keyboard layout for \[unintelligible 00:11:49.23\] and then I went for Mac and then I did it for Windows.
+**Giovanni Caligaris:** In six months. So while I was doing the translation - I forgot to say this - the Guarani uses a Roman/Latin alphabet, plus some extra letters (six extra letters, with an accent). It's not much, but it's not easy to use it on the keyboard. I was frustrated at the time when I was doing the translation, so I created the first Guarani keyboard layout for Ubuntu and then I went for Mac and then I did it for Windows.
 
 **Jerod Santo:** Nice!
 
@@ -308,7 +308,7 @@ Every kid in the club, at a minimum, does that. But from there, then we have the
 
 **Stu Keroff:** We have used Ubuntu ever since we started. Everybody's got their own opinion about which distro is their favorite, and that was the one that I was using at the time we started. It was the one that our first computers came with from Free Geek. They actually don't use Ubuntu anymore now, they use Xubuntu, which is pretty cool, too. But as far as our technology plan for the school, it is worded as... Our school now says we are one school with three platforms: Windows, iOS and Linux. So the door is always open to us to change to something else.
 
-Actually, for our club meeting two weeks ago we had a lesson on different distros reversions of Linux. I had computers set up with like six or seven of them around the room, so the kids were supposed to just go around and try each one out, so they could see what's the same, what's different and get that message that since Linux and open source are about freedom, you have the freedom to make this look \[unintelligible 00:29:45.05\] the way you want it to be, and there are other options, too.
+Actually, for our club meeting two weeks ago we had a lesson on different distros reversions of Linux. I had computers set up with like six or seven of them around the room, so the kids were supposed to just go around and try each one out, so they could see what's the same, what's different and get that message that since Linux and open source are about freedom, you have the freedom to make this look and distribute the way you want it to be, and there are other options, too.
 
 We've traditionally used Ubuntu and the kids like it, so there's been no questions about that.
 
@@ -354,7 +354,7 @@ So this year we made him part of our speaking team. When I asked him about what 
 
 **Adam Stacoviak:** And if there is any repetition happening or planned to happen, how can they get in touch with you or what's the plan for repeating this model?
 
-**Stu Keroff:** \[00:36:02.04\] Well, let's start at the finish line - how they can get in touch with me... People can follow me on Twitter, it's @StuKeroff. My e-mail address at the school is StuartK@csemn.org, and you can check out all of the information about the Asian Penguins on our website, which is www.asianpenguins.org. That's how you can get in touch with us and find out more about the program.
+**Stu Keroff:** \[00:36:02.04\] Well, let's start at the finish line - how they can get in touch with me... People can follow me on Twitter, it's @StuKeroff. My email address at the school is StuartK@csemn.org, and you can check out all of the information about the Asian Penguins on our website, which is www.asianpenguins.org. That's how you can get in touch with us and find out more about the program.
 
 As far as how to replicate it, the first thing that has to happen is that you do have to have an adult that wants to be a risk taker and wants to plow in and learn how to make this work. I love Robert Litt's example because he's a teacher in the Oakland School District in California who started the computer lab at his school with recycled hardware and open source software, and did it all for free. His school couldn't afford anything, and he said, "When I started, I didn't know a darn thing."
 
@@ -442,7 +442,7 @@ That caused us a lot of trouble in the developer world, because everyone's used 
 
 **Adam Stacoviak:** But Google doesn't.
 
-**Shiya Lou:** Google doesn't. Google is more \[unintelligible 00:48:12.27\] and Microsoft started off as a software company, and that is how the basis went.
+**Shiya Lou:** Google doesn't. Google is more of internet company and Microsoft started off as a software company, and that is how the basis went.
 
 **Adam Stacoviak:** So give me the basis of your talk, then. You're obviously sharing some of your experiences with living behind a firewall, living behind, basically -- what would you call that? Separation? How do you describe this firewall and what it does to the community behind it?
 

@@ -456,7 +456,7 @@ How about you, Bryan? Any shout outs you wanna give?
 
 **Carlisia Pinto:** Yes.
 
-**Erik St. Martin:** So with that, I guess we have to say goodbye... At some point we have to, because we're out of time. I wanna thank everybody on the show, and especially I wanna thank Bryan for coming on the show and talking to us about all the great topics today. Thanks to everybody who's listening now; if you're not subscribed, you can go to GoTime.FM. We will be setting up a weekly e-mail at some point; we're kind of acquiring content at the moment. You can follow us on Twitter, @GoTimeFM and hit us up on our GitHub, which is github.com/gotimefm/ping, if you wanna be on the show, or you wanna recommend a guest or have questions. With that, goodbye everybody.
+**Erik St. Martin:** So with that, I guess we have to say goodbye... At some point we have to, because we're out of time. I wanna thank everybody on the show, and especially I wanna thank Bryan for coming on the show and talking to us about all the great topics today. Thanks to everybody who's listening now; if you're not subscribed, you can go to GoTime.FM. We will be setting up a weekly email at some point; we're kind of acquiring content at the moment. You can follow us on Twitter, @GoTimeFM and hit us up on our GitHub, which is github.com/gotimefm/ping, if you wanna be on the show, or you wanna recommend a guest or have questions. With that, goodbye everybody.
 
 **Brian Ketelsen:** Goodbye, thanks Bryan.
 

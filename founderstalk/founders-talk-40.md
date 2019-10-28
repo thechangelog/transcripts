@@ -42,9 +42,9 @@ You and I are on the same page when it comes to the education thing, because -- 
 
 At the same time, I'm a product manager at Pure Charity, I've done a lot of cool stuff in the web industry, and like you, I've got some battle scars, but I didn't go to school either... And had I gone to school, maybe I wouldn't have had the opportunities that I had, or met the people I met, or have the same outlook I have on this chaotic, uncertain industry that we work in, where it's okay to bounce around like we do.
 
-**Sam Soffes:** Yeah. Well, it's funny because I \[unintelligible 00:07:50.17\] and everytime I have a post with this kind of title, I have one of my friends - we were roommates in 2008 or something - who laughs at me every time, like "Oh, he's changing jobs again." At one point he and another friend had a running bet on how long I'd be at a job.
+**Sam Soffes:** Yeah. Well, it's funny because I'm seeing as I write this post and I can announce all this stuff and everytime I have a post with this kind of title, I have one of my friends - we were roommates in 2008 or something - who laughs at me every time, like "Oh, he's changing jobs again." At one point he and another friend had a running bet on how long I'd be at a job.
 
-**Adam Stacoviak:** \[laughs\] That's \[unintelligible 00:08:12.05\]
+**Adam Stacoviak:** \[laughs\] That's not nice
 
 **Sam Soffes:** So it's like, "Well, it's funny, I don't care anymore. Yes, I'm changing jobs, don't worry about it."
 
@@ -132,7 +132,7 @@ Right around that time I was thinking about investment and I started going on th
 
 **Sam Soffes:** Yeah. Like, "Give me some money and I'll make something for real. This is child's play. It's a to-do app. That's the Hello World of any web framework."
 
-**Adam Stacoviak:** I think it was actually David Heinemeier Hansson, he was actually debating back in 2005 when he made the infamous whoops video, he was considering \[unintelligible 00:20:05.27\]
+**Adam Stacoviak:** I think it was actually David Heinemeier Hansson, he was actually debating back in 2005 when he made the infamous whoops video, he was considering blog? to-do app? blog? to-do app?
 
 **Sam Soffes:** Yeah. I mean...
 
@@ -170,7 +170,7 @@ Right around that time I was thinking about investment and I started going on th
 
 **Adam Stacoviak:** Is there anything, considering the saturation -- we talked about this in the past shows we've had you on... Is there anything about -- because we've talked about how to-do apps are, it's a pretty saturated market; you've got a number of known competitors, a number of known competitors that actually offer this stuff for free, some that really provide good value and have paid versions of them... Is there anything that in hindsight when you're looking back at what you had done with Cheddar and what could be possible, is there anything you would have done differently with it? Because you obviously could have made money with it and you did make money with it, it just wasn't -- from what I understand it wasn't a ton... Not enough, obviously, to keep you afloat, because you wouldn't have made the changes you've made, but is there anything you would have done differently with Cheddar looking back on things, knowing what you know now?
 
-**Sam Soffes:** I wouldn't have done the API, I wouldn't have done the Mac app, and I possibly would have switched from Backbone on the front-end on the website. Because doing the API took a ton of time... And I'm really proud of the documentation and all of that. A couple people made apps for it and there's like an \[unintelligible 00:23:33.04\] extension, but all of that -- developer support there, there's a lot of stuff, and if I ever wanna add something quickly, it's impossible because I have to add really nice API support for it, not just something thrown together... Which has its pros and cons.
+**Sam Soffes:** I wouldn't have done the API, I wouldn't have done the Mac app, and I possibly would have switched from Backbone on the front-end on the website. Because doing the API took a ton of time... And I'm really proud of the documentation and all of that. A couple people made apps for it and there's like an Alfred extension, but all of that -- developer support there, there's a lot of stuff, and if I ever wanna add something quickly, it's impossible because I have to add really nice API support for it, not just something thrown together... Which has its pros and cons.
 
 And then the Mac app as well - I'm not good at Mac development. I hired a 17-year-old to help me with it, and he did a really great job, but it was just like... You know, he's back in high school now and it's like...
 
@@ -258,7 +258,7 @@ I had lunch with him the Monday after Kevin had said no, so I just sat alone in 
 
 **Adam Stacoviak:** Oh, man...
 
-**Sam Soffes:** I just got a gym membership this week, now that I have moved, and I finally got my bike repaired... I was \[unintelligible 00:36:47.14\] Terrible. It was broken for a bit. Anyway, so now I'm like excited to get healthy.
+**Sam Soffes:** I just got a gym membership this week, now that I have moved, and I finally got my bike repaired... I was in a wreck, it was terrible. It was broken for a bit. Anyway, so now I'm like excited to get healthy.
 
 **Adam Stacoviak:** I'd have to say it like this, Sam, it doesn't sound like the last 6-8 months of your life have been very healthy for you.
 
@@ -276,7 +276,7 @@ I had lunch with him the Monday after Kevin had said no, so I just sat alone in 
 
 There's pros and cons on both sides of the fence, honestly... It's not like one is much better than the other, but maybe you're like me - and I imagine you are - where I can't be happy unless I take at least some of that risk and figure it out, because if not, I'm always gonna be sitting there with some level of regret... Like, "Could I have done it? What if I did do it?"
 
-**Sam Soffes:** Yeah, I was thinking -- you were saying about all the risk and stuff, and it's like, I didn't really worry about it, but no, I think you're right, if I had had... So we talked last time, I turned down GitHub, which was really hard. I think if I worked at GitHub this time -- because that was right before the Cheddar launch. It was like a couple weeks before I launched, so I wasn't even done yet... And that was like part of the way they were really interested in me, because they saw it and were really impressed (the beta) and \[unintelligible 00:39:13.20\] But if I had been working at GitHub this whole time, I would definitely be like "What if Cheddar had done really great and I was living off of it?"
+**Sam Soffes:** Yeah, I was thinking -- you were saying about all the risk and stuff, and it's like, I didn't really worry about it, but no, I think you're right, if I had had... So we talked last time, I turned down GitHub, which was really hard. I think if I worked at GitHub this time -- because that was right before the Cheddar launch. It was like a couple weeks before I launched, so I wasn't even done yet... And that was like part of the way they were really interested in me, because they saw it and were really impressed (the beta) and like, through other friends. But if I had been working at GitHub this whole time, I would definitely be like "What if Cheddar had done really great and I was living off of it?"
 
 Now I know that I still suck at running a company, but I learned that, again -- because before I've lived on my own, sold my own software, and ran out of money and got a real job. So this has happened before. But anyway, I guess it's good to learn again. I have things to do better next time.
 
@@ -292,7 +292,7 @@ If I take an hour and watch TV, it's like "Well, I've just lost a couple hundred
 
 **Adam Stacoviak:** Thank you. And we recently had Chuck Longanecker on this show, who's famous for Hello Bar, and he runs Digital Telepathy, which is an awesome agency actually in your previous neck of the woods... And one thing we talked about on that show - I'll link to that in the show notes by the way, so if you're listening to this, we talked about following your bliss, your genius; we talked about that on that show... And you say with this tone like "I hate contracting work" - well, I think it's because it is not your bliss. And just because you aren't able to do something that was uber-successful financially with Nothing Magical (and even Cheddar, if we're gonna go down to the product level), I don't think that you were not following your bliss though, right? Because you said -- and that's where I think we can kind of play this into the conversation around GitHub and what that's gonna lead into...
 
-But they saw something in you and a desire to hire you because you were following your bliss, you were creating something, so I think you're definitely a creator, and it depends on how you gauge and measure success, whether or not from a startup perspective Nothing Magical and Cheddar may in some eyes be a failure. But in some eyes it may also be a success, if you're measuring it based on what you put out and how much you put out. \[unintelligible 00:42:40.20\] that might be a huge success, if you were measuring it based on that; or happiness level for you with what you were creating. It depends on what you're measuring, you know what I mean?
+But they saw something in you and a desire to hire you because you were following your bliss, you were creating something, so I think you're definitely a creator, and it depends on how you gauge and measure success, whether or not from a startup perspective Nothing Magical and Cheddar may in some eyes be a failure. But in some eyes it may also be a success, if you're measuring it based on what you put out and how much you put out. Right, lines per code, LOC, that might be a huge success, if you were measuring it based on that; or happiness level for you with what you were creating. It depends on what you're measuring, you know what I mean?
 
 **Sam Soffes:** Yeah, I mean, the three months of me making it and the next month or so after were some of the best times of my life as far as like -- you know, people would ask me \[unintelligible 00:43:04.22\] I work for myself, I really like it. Or they even heard your show and are like "How did you turn down GitHub?" It's like, "No, I completely love what I do. I would never do anything else", which is funny that I'm doing something else now.
 
@@ -312,7 +312,7 @@ I could do teams in like a week if I were to just sit down and do it. I just nee
 
 **Sam Soffes:** That's right... Hilarious. There's definitely some regret. I mean, it's the biggest offer salary-wise I've ever gotten. Money doesn't really motivate me, but on the other hand, having a lot of it isn't a bad problem. The thing I regret the most I think is not having the chance to work with their team. I would have been like 80-something or 90-something, and right now they're like 140, or something. They've been growing like crazy.
 
-So it's a really pivotal time for them, and I think it would be really cool to be there and experience that, even if I wasn't gonna stick around. But you know, they were like "We don't want you to be here just for a couple months, we want you to be here for a long time." I was like, "No, I know." Then, when I was quitting that, when I e-mailed Chris, the CEO -- it was only a couple days by the way; it wasn't like...
+So it's a really pivotal time for them, and I think it would be really cool to be there and experience that, even if I wasn't gonna stick around. But you know, they were like "We don't want you to be here just for a couple months, we want you to be here for a long time." I was like, "No, I know." Then, when I was quitting that, when I emailed Chris, the CEO -- it was only a couple days by the way; it wasn't like...
 
 **Adam Stacoviak:** Oh, I thought it was a couple weeks, sorry.
 
@@ -324,7 +324,7 @@ So it's a really pivotal time for them, and I think it would be really cool to b
 
 **Adam Stacoviak:** Right, right.
 
-**Sam Soffes:** Anyway. I was like, "You know what, I would love to work at GitHub. I have immense respect for you, your offer is really generous." But it was like "You know what, I think I'd be really mad at myself if I never gave Cheddar a chance, and I'd probably just quit in a couple months and go try it. Because I've always wanted to do my own thing, and now I finally get to do it, and I feel like I'm quitting before I even start." That's when I wrote that blog post Staying Strong. It's like you know what, I really need to just focus and do my own thing right now, instead of -- because like "Well, you can still work on it if you work here", and it's like "I know, but it wouldn't be the same." I don't know, I'm really glad that I turned them down and I had the experience, but on the other hand \[unintelligible 00:48:53.09\] that would have been nice. But I don't know, the predicament I'm in being like "I ran out of money", it was like "You know, this is a good experience too, and I'm excited to learn from it." I don't know, I guess the definitive answer would be "I don't wish I worked at GitHub today." Not that I -- I'd love to work at GitHub and they're amazing, but today I don't wanna work at GitHub, and I can say that consistently, since I've turned it down.
+**Sam Soffes:** Anyway. I was like, "You know what, I would love to work at GitHub. I have immense respect for you, your offer is really generous." But it was like "You know what, I think I'd be really mad at myself if I never gave Cheddar a chance, and I'd probably just quit in a couple months and go try it. Because I've always wanted to do my own thing, and now I finally get to do it, and I feel like I'm quitting before I even start." That's when I wrote that blog post Staying Strong. It's like you know what, I really need to just focus and do my own thing right now, instead of -- because like "Well, you can still work on it if you work here", and it's like "I know, but it wouldn't be the same." I don't know, I'm really glad that I turned them down and I had the experience, but on the other hand when I was running out of money that would have been nice. But I don't know, the predicament I'm in being like "I ran out of money", it was like "You know, this is a good experience too, and I'm excited to learn from it." I don't know, I guess the definitive answer would be "I don't wish I worked at GitHub today." Not that I -- I'd love to work at GitHub and they're amazing, but today I don't wanna work at GitHub, and I can say that consistently, since I've turned it down.
 
 **Adam Stacoviak:** Well, there you go.
 
@@ -346,7 +346,7 @@ David Smith (@\_davidsmith on Twitter) was really encouraging me to do indie dev
 
 **Adam Stacoviak:** Okay, so you know, we don't. But you can't tell us the details, because it's not allowed.
 
-**Sam Soffes:** Unfortunately, I can't say more currently. We have a \[unintelligible 00:51:59.19\] on our homepage; it's like "Make decisions fast, with the help of trusted friends. When in doubt, Seesaw." Oh, I think we have an About page. There's a little bit of stuff. I mean, it doesn't really say anything; you still won't know what it is... But anyway, I'm working on it, I'm employee number one. We're an app to help people make decisions, I guess that's all I can really say. It will hopefully be out early next year. I can't really say. I feel so cool to have secrets, I don't know.
+**Sam Soffes:** Unfortunately, I can't say more currently. We have a Haiku on our homepage; it's like "Make decisions fast, with the help of trusted friends. When in doubt, Seesaw." Oh, I think we have an About page. There's a little bit of stuff. I mean, it doesn't really say anything; you still won't know what it is... But anyway, I'm working on it, I'm employee number one. We're an app to help people make decisions, I guess that's all I can really say. It will hopefully be out early next year. I can't really say. I feel so cool to have secrets, I don't know.
 
 **Adam Stacoviak:** Yeah. I love secrets.
 
@@ -364,7 +364,7 @@ Now they're starting again, it's the three founders of CoTweet, and I'd met them
 
 **Sam Soffes:** Sure. Well, I guess I'll -- currently, we have five people, including myself. There's the designer co-founder, the engineering co-founder (which is also the CEO, which I think is pretty cool; and our business guy). Normally, I'm not a big fan of business guys, but he's really awesome and super valuable, so that's good.
 
-Anyway, then myself, so I'm employee number one, and my title is VP of Engineering, which sounds super cool and impressive to \[unintelligible 00:55:07.09\] people in Louisville, but it's a five-person company, so it's not really -- I mean, it's a pretty relative term... Like, "I'm the president of my own little apartment", you know? It's silly. Anyway. Then we have one other Rails engineer... Which is really cool. I signed the papers to hire him. I've never done that before. I mean, I hired a ton of people at Hipstamatic and other places, but not like -- you know, I recruited them, but \[unintelligible 00:55:38.14\] to sign the paper. But it was cool, like "Yeah, I'm hiring your right now." It was fun.
+Anyway, then myself, so I'm employee number one, and my title is VP of Engineering, which sounds super cool and impressive to \[unintelligible 00:55:07.09\] people in Louisville, but it's a five-person company, so it's not really -- I mean, it's a pretty relative term... Like, "I'm the president of my own little apartment", you know? It's silly. Anyway. Then we have one other Rails engineer... Which is really cool. I signed the papers to hire him. I've never done that before. I mean, I hired a ton of people at Hipstamatic and other places, but not like -- you know, I recruited them, but didn't like get to sign the paper. But it was cool, like "Yeah, I'm hiring your right now." It was fun.
 
 Anyway, we work with Campfire a bunch. So we usually just like get on Campfire and see what's going on. And we have a rough bullet list in Basecamp of like "Here's what we need to do", and I'll kind of like just go through and like "Okay, well I'm gonna work on these things" and then I put those things in my Cheddar list, which is silly of me...
 
@@ -372,7 +372,7 @@ I actually just recently - two weeks or so - started using Cheddar. I hadn't use
 
 **Adam Stacoviak:** We can probably guess, yeah.
 
-**Sam Soffes:** So I kind of go back and forth with the designer on -- he's @kyle, isn't that epic? That's such a great Twitter name, @kyle. Anyway, he's our designer. We work on iOS, or \[unintelligible 00:56:58.10\] or other stuff. I'll kind of hop back and forth between Rails, but not a ton. I'm trying to stay focused on iOS right now. I was hired to lead all the engineering, but at this point, since our CEO and our other engineering hire can do Rails, they stay pretty focused on that and I stay pretty focused on iOS for now, which is nice.
+**Sam Soffes:** So I kind of go back and forth with the designer on -- he's @kyle, isn't that epic? That's such a great Twitter name, @kyle. Anyway, he's our designer. We work on iOS, or mobile web or other stuff. I'll kind of hop back and forth between Rails, but not a ton. I'm trying to stay focused on iOS right now. I was hired to lead all the engineering, but at this point, since our CEO and our other engineering hire can do Rails, they stay pretty focused on that and I stay pretty focused on iOS for now, which is nice.
 
 We usually just talk in Campfire all day, and get stuff done, and we send out builds through TestFlight almost daily, or multiple times a day, it depends.
 
@@ -498,7 +498,7 @@ It's interesting, and my fiancée kind of makes fun of me for this, she's like "
 
 **Adam Stacoviak:** I guess if you're living in San Francisco maybe, but in Louisville I just can't imagine that that's hot.
 
-**Sam Soffes:** Well, in my \[unintelligible 01:13:06.17\] apartment everything was all white, and then like fake hardwood floors, and the red toaster looked awesome.
+**Sam Soffes:** Well, in my super modern apartment everything was all white, and then like fake hardwood floors, and the red toaster looked awesome.
 
 **Adam Stacoviak:** That's super modern.
 
@@ -516,7 +516,7 @@ Then not much long later, you went and pretty much repurchased all the things th
 
 **Adam Stacoviak:** Pull it?
 
-**Sam Soffes:** I mean, so in the App Store, if you make a name, you make an app with a name, then you have X number of months to use it, and then they'll send you an e-mail like "You have 30 days to use this name, or we're gonna take it away from you and you'll never have it again." So I was like, "Well, I should submit something, because I don't want Cheddar to go away in the Mac App Store." So I think I'll probably still release it, maybe I won't, I don't know. But I'll definitely open-source it. That was the plan from the beginning, to open-source it once it came out. So right now it's private. I'll probably keep doing Cheddar; that's kind of the plan. Because I've toyed with the idea of just like, it's all open source, it's all free, donation where like "Please pay me so I can pay my Heroku bill", and if it gets to the point where it's costing me a lot of money to pay Heroku, I'm just gonna turn it off, and you can hustle it yourself if you want or do whatever, I don't care.
+**Sam Soffes:** I mean, so in the App Store, if you make a name, you make an app with a name, then you have X number of months to use it, and then they'll send you an email like "You have 30 days to use this name, or we're gonna take it away from you and you'll never have it again." So I was like, "Well, I should submit something, because I don't want Cheddar to go away in the Mac App Store." So I think I'll probably still release it, maybe I won't, I don't know. But I'll definitely open-source it. That was the plan from the beginning, to open-source it once it came out. So right now it's private. I'll probably keep doing Cheddar; that's kind of the plan. Because I've toyed with the idea of just like, it's all open source, it's all free, donation where like "Please pay me so I can pay my Heroku bill", and if it gets to the point where it's costing me a lot of money to pay Heroku, I'm just gonna turn it off, and you can hustle it yourself if you want or do whatever, I don't care.
 
 That was the plan for a little bit, and the more I thought about it, the more it made me sad because I worked so hard on it and I wanted it to be good. And it can make money, it's just like, all the startups that just wanna get a bunch of users and all this stuff, it's like "Just don't be lazy." It's not the most difficult thing in the world to monetize your product. Just take your time and do it. It's just me being lazy. Cheddar can make money and it can more than support itself if I just spent the time on it. I just need to make the time for it and do it. I think Cheddar will be around -- so it's not going anywhere anytime soon.
 
@@ -528,7 +528,7 @@ So a part of me just wants to finish it just to like finish it for myself, but o
 
 **Adam Stacoviak:** Yeah. So I can imagine that at least a small portion of your users listen to this show, at least a couple, at least a small handful, so if you had a chance to speak directly to them in this scenario and thank them or say anything to them about their support of you, what would you say?
 
-**Sam Soffes:** I mean, first I need to thank you, because a bunch of people found Cheddar from Founders Talk, so thanks again for having me; this was great. But to the Cheddar users that either came from Founders Talk or just are listening, I mean, you made that five months of my life when I did nothing but Cheddar as much as humanly possible, you made that the best time of my life, because without people using it, it was just like me sitting in a room, typing, for no reason. It was exciting getting up and seeing all my replies on Twitter; people were really excited about it, and support e-mails, and people were just like -- I'd get e-mails just like "Hey, I think it's really great what you're doing. Keep it up!" It's like, "Yes, this is awesome!" I was so fired up every day to work on it, so thank you for your support. Even if you're not paying, thank you just for downloading it and checking it out. I appreciate you very much.
+**Sam Soffes:** I mean, first I need to thank you, because a bunch of people found Cheddar from Founders Talk, so thanks again for having me; this was great. But to the Cheddar users that either came from Founders Talk or just are listening, I mean, you made that five months of my life when I did nothing but Cheddar as much as humanly possible, you made that the best time of my life, because without people using it, it was just like me sitting in a room, typing, for no reason. It was exciting getting up and seeing all my replies on Twitter; people were really excited about it, and support emails, and people were just like -- I'd get emails just like "Hey, I think it's really great what you're doing. Keep it up!" It's like, "Yes, this is awesome!" I was so fired up every day to work on it, so thank you for your support. Even if you're not paying, thank you just for downloading it and checking it out. I appreciate you very much.
 
 **Adam Stacoviak:** And then I guess on to the true future, and the way we normally close this show is the horizon question - what's on the horizon for you, Sam, that no one knows about? Or maybe a few. Something super secret that you can tell us about. We obviously know you've got a \[unintelligible 01:20:40.27\] going on with Seesaw, so we won't bug you about that, but anything else?
 

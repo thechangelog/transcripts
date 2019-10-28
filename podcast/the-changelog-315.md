@@ -52,11 +52,11 @@ But this federated model that you're doing with Mastodon definitely is a respons
 
 Let's get back into that federation and let's talk -- well, let's talk a little bit how Mastodon works, and we'll go from there.
 
-**Eugen Rochko:** Okay. Federation will be familiar to those who use e-mail, even though they might not know it by name. It's the principle where a server hosts users and works internally completely independently. So if you are on Gmail, you can send e-mails to other Gmail users... But it also works with other servers. So if your friend is on Hotmail, your Hotmail friend can send you e-mail and you can send them e-mail, and it just works. That's what federation is, and that's also how Mastodon operates.
+**Eugen Rochko:** Okay. Federation will be familiar to those who use email, even though they might not know it by name. It's the principle where a server hosts users and works internally completely independently. So if you are on Gmail, you can send emails to other Gmail users... But it also works with other servers. So if your friend is on Hotmail, your Hotmail friend can send you email and you can send them email, and it just works. That's what federation is, and that's also how Mastodon operates.
 
 Each server is in itself independent and self-contained. It could be the only server in the universe and it would work fine. Users sign up just like on any other website, and they can send each other messages, but if there's more than one message on the servers, they can address each other, follow each other and talk to each other as if they were on the same website.
 
-**Jerod Santo:** So you're localized to a server or to a host, which could be multiple computers, but a single entity running an instance... But then you're able to cross boundaries because those instances are federated just like e-mail servers are federated, and they have their own protocols to intercommunicate.
+**Jerod Santo:** So you're localized to a server or to a host, which could be multiple computers, but a single entity running an instance... But then you're able to cross boundaries because those instances are federated just like email servers are federated, and they have their own protocols to intercommunicate.
 
 **Eugen Rochko:** Exactly. The protocol it uses is called ActivityPub, and it's been accepted as a W3C recommended standard last year or this year, I don't remember exactly. Last year it was a draft, that I can tell you for sure, and we were the first platform to implement it. We switched from OStatus, which I've mentioned before, because it was a bit antiquated and had a lot of missing links and flaws. It was actually quite a massive undertaking, switching an entire federated platform from one protocol to another, and it certainly involved supporting the OStatus protocol as a server legacy thing, which we still do... So currently Mastodon supports two protocols.
 
@@ -100,9 +100,9 @@ People always want something new, and the same thing is for news. They only publ
 
 **Adam Stacoviak:** But you coming on a show like this and saying "Hey, we're not trying to win, we're just trying to achieve success, which is--"
 
-**Eugen Rochko:** It's not even just that; it's not even just that. It's people's criteria for winning is not adjusted for what Mastodon is. It's a new concept. E-mail is old, but nobody thinks of it as a social network, and nobody really talks about the success of e-mail. I mean, it's pretty clear it is used by everyone, so I guess it's already successful but nobody really talks about it.
+**Eugen Rochko:** It's not even just that; it's not even just that. It's people's criteria for winning is not adjusted for what Mastodon is. It's a new concept. E-mail is old, but nobody thinks of it as a social network, and nobody really talks about the success of email. I mean, it's pretty clear it is used by everyone, so I guess it's already successful but nobody really talks about it.
 
-**Jerod Santo:** \[00:19:51.11\] That's because there's no press releases for e-mail, right? \[laughter\] There's no certain entity saying "Look how successful we are", because it's like a public good, or it's a concept...
+**Jerod Santo:** \[00:19:51.11\] That's because there's no press releases for email, right? \[laughter\] There's no certain entity saying "Look how successful we are", because it's like a public good, or it's a concept...
 
 **Eugen Rochko:** Right. People judge a new social network using the criteria they have from other social networks like Twitter or Facebook that report on active user numbers, they report on quarterly revenue, they talk about monetization, how you put ads into it... And all that stuff is kind of irrelevant to Mastodon. Even the question of celebrities, like people say "Oh, there's not enough celebrities on Mastodon." Like, do we really care about that? I mean, we kind of have local celebrities, just people who are talented, who collect following... But do we really need a random person who was in a Hollywood movie on Mastodon? What would they really give us?
 
@@ -136,27 +136,27 @@ That's not to say that user growth is not important at all. I think there is tha
 
 **Jerod Santo:** Right.
 
-**Eugen Rochko:** On Mastodon it's just a little extra step. I mean, it's a big step, but it's just one step, and you have to pick a server... But it's not so new to people. I mean, coming back to e-mail, you had to pick an e-mail server at some point. Most people join Gmail nowadays (I personally use FastMail), and some choose Live, or Yahoo! or something.
+**Eugen Rochko:** On Mastodon it's just a little extra step. I mean, it's a big step, but it's just one step, and you have to pick a server... But it's not so new to people. I mean, coming back to email, you had to pick an email server at some point. Most people join Gmail nowadays (I personally use FastMail), and some choose Live, or Yahoo! or something.
 
 Picking a server - a server is operated independently by either an individual or organization. It has its own rules, kind of like an old style forum, or in fact a Discord community, or a Slack chat, whatever. It has its own terms of service... So when you're picking one, you kind of need to pick something that you'll be happy with.
 
 If you want to be in kind of a safe space environment, you're gonna go and get one with a strict code of conduct, that forbids certain behaviors. And if you just want something different, you go and you check the code of conduct and you see "Oh, this and this is allowed; this and this is forbidden" etc. This is a bit of a tall order, so I understand that not a lot of people go through that sort of thing; most of them just end up on Mastodon.social, which I run. I'm okay with that, because I believe that as long as they do sign up on Mastodon, they always have the opportunity to learn about how it works more, and to move to a different server later... But obviously, if we lose them before sign-up, they'll probably never check it out. That's my view on that.
 
-**Jerod Santo:** Just like lots of people sign up for Gmail is not a big deal; lots of people sign up for Mastodon.social, which is the instance that you run. There's a slight disconnect there though, because when I'm picking my e-mail provider I'm not thinking of it as like a community, or as -- there's no locality to it. It doesn't mean I can mostly speak with Gmail people, or... There's a little bit of a social -- like, you know, if you're on AOL.com, you're an old schooler; I don't know what the exact connotation there is, Adam...
+**Jerod Santo:** Just like lots of people sign up for Gmail is not a big deal; lots of people sign up for Mastodon.social, which is the instance that you run. There's a slight disconnect there though, because when I'm picking my email provider I'm not thinking of it as like a community, or as -- there's no locality to it. It doesn't mean I can mostly speak with Gmail people, or... There's a little bit of a social -- like, you know, if you're on AOL.com, you're an old schooler; I don't know what the exact connotation there is, Adam...
 
 **Adam Stacoviak:** Not cool.
 
-**Jerod Santo:** You're not cool, okay. \[laughter\] So there's some of that with like what is your e-mail address; it kind of signals to people what kind of person you are.
+**Jerod Santo:** You're not cool, okay. \[laughter\] So there's some of that with like what is your email address; it kind of signals to people what kind of person you are.
 
-**Adam Stacoviak:** It's \[unintelligible 00:27:54.15\] of sorts
+**Adam Stacoviak:** It's a label of sorts.
 
 **Jerod Santo:** But not so much as like "I hang out on this forum, or this BBS." That's a stronger association, so probably a bigger decision.
 
 **Eugen Rochko:** Definitely, definitely.
 
-**Jerod Santo:** \[00:28:08.06\] In fact, I have some friends who have joined Mastodon, and I'm a very technical person and I've definitely stopped and looked at it and thought "Yeah, I'm just not sure which instance I would pick", so I just go back to e-mail and Twitter... But you're saying "If you don't know, pick Mastodon.social." Can you migrate later on? Can I switch instances?
+**Jerod Santo:** \[00:28:08.06\] In fact, I have some friends who have joined Mastodon, and I'm a very technical person and I've definitely stopped and looked at it and thought "Yeah, I'm just not sure which instance I would pick", so I just go back to email and Twitter... But you're saying "If you don't know, pick Mastodon.social." Can you migrate later on? Can I switch instances?
 
-**Eugen Rochko:** Kind of. Currently, it's a bit of a manual process; you do have to tell your followers to follow the new account, and the content doesn't move, but there is at least a helper in terms of displaying on your profile that you have, in fact, moved... So it's halfway there. We're working on something better, but it's a tall order. I mean, not a lot of federated networks have solved this kind of problem. You can't really migrate an e-mail address either; you have to tell all of your contacts to update their address books. XMPP had a similar problem as well, which was the federated chat service that Gtalk used to use and WhatsApp used to use, and they removed federation from those... But yeah, it had the same problem, that it was based on contacts, and you had to kind of let people know to friend you on a new account if you wanted to move.
+**Eugen Rochko:** Kind of. Currently, it's a bit of a manual process; you do have to tell your followers to follow the new account, and the content doesn't move, but there is at least a helper in terms of displaying on your profile that you have, in fact, moved... So it's halfway there. We're working on something better, but it's a tall order. I mean, not a lot of federated networks have solved this kind of problem. You can't really migrate an email address either; you have to tell all of your contacts to update their address books. XMPP had a similar problem as well, which was the federated chat service that Gtalk used to use and WhatsApp used to use, and they removed federation from those... But yeah, it had the same problem, that it was based on contacts, and you had to kind of let people know to friend you on a new account if you wanted to move.
 
 So definitely not a new problem, and definitely not a solved problem anywhere, so it's taking a while...
 
@@ -184,11 +184,11 @@ So definitely not a new problem, and definitely not a solved problem anywhere, s
 
 **Eugen Rochko:** It can be solved, yeah. It's not really -- I mean, the thing is you could really solve everything if you just use brute force... Like, "Okay, so I've got 40,000 posts on my account, and I've got 139,000 followers. Let me move to a different server!" If I wanted to, okay, go through every one of those 40,000 posts, re-download them on the new server, and go through 140,000 people and resubscribe them to the new account. I mean, it's possible; the only problem is that's a bit of a computationally-expensive operation, isn't it? That's the only real obstacle on the path there.
 
-**Jerod Santo:** \[00:32:11.06\] Yeah. Where it gets a little bit confusing for me - it makes sense as a new user, just sign up for Mastodon.social. I definitely understand where there would be people saying "Okay, now we're basically centralizing on this single instance. Potentially bad, especially if Eugene goes power-hungry and changes everything, or something." But then it's like "Okay, maybe I don't wanna do that. Maybe I wanna pick one", so here's another one, Mastodon.technology. This is just one that I've found; there's a little picker where you can through some of the instances... This Mastodon instance is for people interested in technology. Discussions aren't limited to technology, because tech folks shouldn't be limited to technology either... So it's not like I have to talk about technology if I join that instance, but it's for people who associate with technology - it seems like a pretty broad brush.
+**Jerod Santo:** \[00:32:11.06\] Yeah. Where it gets a little bit confusing for me - it makes sense as a new user, just sign up for Mastodon.social. I definitely understand where there would be people saying "Okay, now we're basically centralizing on this single instance. Potentially bad, especially if Eugene goes power-hungry and changes everything, or something." But then it's like "Okay, maybe I don't wanna do that. Maybe I wanna pick one", so here's another one, Mastodon.technology. This is just one that I've found; there's a little picker where you can through some of the instances... This Mastodon instance is for people interested in technology. Discussions aren't limited to technology, but because tech folks shouldn't be limited to technology either... So it's not like I have to talk about technology if I join that instance, but it's for people who associate with technology - it seems like a pretty broad brush.
 
 It just feels like such a big decision, like "Am I a tech folk?" \[laughs\]
 
-**Eugen Rochko:** There's an absolute freedom in how people can run their servers, so there's different types of ways that people define what their server is for. There's general purpose, like Mastodon.social or Octodon.social, where it's like -- there's no theme, there's no topic. You just sign up, you have an account, you talk to your friends.
+**Eugen Rochko:** There's an absolute freedom in how people can run their servers, so there's different types of ways that people define what their server is for. There's general purpose, like Mastodon.social or Octodon.social, where it's just like -- there's no theme, there's no topic. You just sign up, you have an account, you talk to your friends.
 
 But then there are ones that are like oh, this is for LGBT people, or this is for CyberPunk enthusiasts, or this is for Star Trek fans... But most of them actually don't say "Oh, you can only talk about Star Trek here." It's more like, "Oh, you just wanna hang out with Star Trek fans, but talk about your life." You're fine to do that.
 
@@ -200,17 +200,19 @@ But then there are ones that are like oh, this is for LGBT people, or this is fo
 
 **Eugen Rochko:** I get this question a lot, and I find that it's a bit of a conceptual misunderstanding... It's because these servers are created with topics in mind that people start asking "Well, can I join multiple topics?", but that's not really how it works. I mean, you have an account and you follow anyone, anywhere. If you just wanna follow everyone who's a Star Trek fan, you can sign up on Mastodon.social and follow everyone who's a Star Trek fan. You're not limited to that sort of thing.
 
-**Jerod Santo:** Right. Just like -- going back to e-mail, if I'm on Hotmail, I can talk to anybody on Gmail; there's no topic-specific e-mail server, so I guess the question becomes why do these instances associate themselves with topics? Why aren't they just like "Jerod's instance, Eugene's instance", for example?
+**Jerod Santo:** Right. Just like -- going back to email, if I'm on Hotmail, I can talk to anybody on Gmail; there's no topic-specific email server, so I guess the question becomes why do these instances associate themselves with topics? Why aren't they just like "Jerod's instance, Eugene's instance", for example?
 
 **Eugen Rochko:** It's an interesting phenomenon that comes from one particular feature... Mastodon still has a firehose. I don't know if people would be familiar with the term, but Twitter used to have a public timeline, where every public post would appear, and they called it the firehose. They still call it the firehose, but it's a closed API nowadays.
 
-Mastodon does have that. There is a timeline of every public post, and you can filter that by "Posts from everyone" or "Posts by people on your server." That's where the whole topic thing comes into it, because you can look at posts just from your server, and so you get this kind of feeling of community, with your neighbors, and that's where the potential for hanging out with people with the same interests comes into it... Because you can see posts from people you're not following yet.
+**Jerod Santo:** Right.
+
+**Eugen Rochko:** So Mastodon does have that. There is a timeline of every public post, and you can filter that by "Posts from everyone" or "Posts by people on your server." That's where the whole topic thing comes into it, because you can look at posts just from your server, and so you get this kind of feeling of community, with your neighbors, and that's where the potential for hanging out with people with the same interests comes into it... Because you can see posts from people you're not following yet.
 
 **Jerod Santo:** \[00:36:05.26\] Gotcha.
 
 **Eugen Rochko:** It's kind of like a big chat room. But it's funny, because it's kind of an incidental feature; it wasn't really made for this, it was more like "Here's a timeline of everyone, just so you can find somebody to follow. Here's a way to filter it", and suddenly here's this whole thing where instances are created around specific topics.
 
-**Adam Stacoviak:** It kind of reminds me, Jerod, like, if we did one -- because I saw that there's a feature for organizations, which I'm sure we can go into a little deeper... But just thinking, so typically you may be a community, but then you might be an organization, and if we had a Mastodon instance, we would essentially be topical too, just by nature, right? We would be laser-focused on, say, a software developer's life, for example.
+**Adam Stacoviak:** It kind of reminds me, Jerod, like, if we did one -- because I saw that there's a feature for organizations, which I'm sure we can go into a little deeper... But just thinking, so typically you may be a community, but then you might be like an organization, and if we had a Mastodon instance, we would essentially be topical too, just by nature, right? We would be laser-focused on, say, a software developer's life, for example.
 
 Essentially, what our Slack community represents - if that became a Mastodon, we're essentially putting up a flag saying, "Hey, if this type of topic or community is of interest to you, here's your invitation. This is the kind of people you can expect to see here", not "You can only talk about this."
 
@@ -226,7 +228,7 @@ Essentially, what our Slack community represents - if that became a Mastodon, we
 
 **Jerod Santo:** \[laughs\]
 
-**Eugen Rochko:** But as I was saying, for organizations it's a big plus to run their own Mastodon, and this is because nobody except them can actually shut them out. They own their space, they own their social media megaphone. It's kind of an opportunity for a bit of branding as well, because if you host other people, they have your brand in their username, which can be an advantage...
+**Eugen Rochko:** But as I was saying, for organizations it's a big plus to run their own Mastodon instances because nobody except them can actually shut them out. They own their space, they own their social media megaphone. It's kind of an opportunity for a bit of branding as well, because if you host other people, they have your brand in their username, which can be an advantage...
 
 **Adam Stacoviak:** Yeah, that's true.
 
@@ -248,9 +250,9 @@ Essentially, what our Slack community represents - if that became a Mastodon, we
 
 **Jerod Santo:** Conceptually.
 
-**Eugen Rochko:** Yeah, pretty much. From the user's side you can decide "Oh, I don't wanna see anything from this domain", as a personal decision; that's step one. And on the administrational level, you have the ability to shut out posts from a specific server, or completely remove it from your database, so that there is zero interaction between them. That's what you would do if such a Ku Klux Klan would spring up.
+**Eugen Rochko:** Yeah, pretty much. From the user's side you can decide "Oh, I don't wanna see anything from this domain", as a personal decision; that's step one. And on the administrational level, you have the ability to shut out posts from a specific server, or completely remove it from your database, so that there is zero interaction between them. That's what you would do if such a Ku Klux Klan server would spring up.
 
-**Jerod Santo:** That's pretty cool, and that all makes sense. How about the moderation? You said each instance is individually owned and operated, so they have their own codes of conduct, their own moderators, their own rules of the game with regard to what kind of content you can be posting on that instance... But what about subscriptions? If I'm on Adam's Changelog instance as a user, and I subscribe to the Ku Klux Klan member - does Adam need to moderate that because it's on his instance, or is it only me that sees it anyways, and so it's kind of a mute point? How does that work?
+**Jerod Santo:** That's pretty cool, and that all makes sense. How about the moderation? You said each instance is individually owned and operated, so they have their own codes of conduct, their own moderators, their own rules of the game with regard to what kind of content you can be posting on that instance... But what about subscriptions? So, If I'm on Adam's Changelog instance as a user, and I subscribe to the Ku Klux Klan member - does Adam need to moderate that because it's on his instance, or is it only me that sees it anyways, and so it's kind of a mute point? How does that work?
 
 **Eugen Rochko:** There's different levels of moderation that are available here. On one hand, you could completely shut down, as I said, the Ku Klux Klan server from your side, so that you wouldn't be able to follow them. On the other hand, there is the other level - for something perhaps a bit less extreme, you could sandbox it, so people can still follow users from that server, but they just don't appear in the firehose view, and they cannot appear in notifications of people who don't follow them.
 
@@ -288,7 +290,7 @@ There are also ways to forward reports from people, from one server to another. 
 
 **Jerod Santo:** One thing that always comes up in my mind is how do I use this from my phone? Because that's usually where I'm socializing.
 
-**Eugen Rochko:** Oh, yeah, for some reason I get a lot of questions like "Why isn't Mastodon on the app store?" and it's really weird, because there are like a million apps for Mastodon on every app store... They're just not called Mastodon, because they are developed by third-party developers.
+**Eugen Rochko:** \[45:23\] Oh, yeah, for some reason I get a lot of questions like "Why isn't Mastodon on the app store?" and it's really weird, because there are like a million apps for Mastodon on every app store... They're just not called Mastodon, because they are developed by third-party developers.
 
 Mastodon has a principle - API first, and... Yeah, that's essentially it - API first. \[laughter\]
 
@@ -340,7 +342,7 @@ For example, for people who want something like YouTube, where you upload videos
 
 There is a project that focuses on image sharing, kind of like Instagram. It's called PixelFed and it's gonna work the same way - you follow a PixelFed user from your Mastodon account and the photos just appear in your feed. And if you reply to them, your reply appears as a comment on that photo. Again, with the videos - you comment on the video and the comment appears under the video on PeerTube.
 
-So when you decide to use Mastodon, you're not really just gambling on the success of Mastodon by itself, you're gambling on this interoperable network that implements this protocol. We actually call it the FedeVerse, like Federated Universe... So you would likely hear that term used commonly.
+So when you decide to use Mastodon, you're not really just gambling on the success of Mastodon by itself, you're gambling on this interoperable network that implements this protocol. We actually call it the Fediverse, like Federated Universe... So you would likely hear that term used commonly.
 
 Essentially, it's part of the design that eventually, years later maybe, some developer comes along and develops something that is 1,000 times better than Mastodon, but as long as it uses the same protocol, people can just switch smoothly, and rather than losing all of their social graph, their connections, their friends, they're still in the same network, and it's just like switching to a different account... And I think that's the strength of Mastodon, and its main ideological differentiator.
 
@@ -360,11 +362,11 @@ There are no financial motivators for hosting an instance really. We're really m
 
 **Eugen Rochko:** And you could actually do that. I know at least one server that implements a paywall for signing up, and it's fair enough; you're allowed to do that.
 
-**Jerod Santo:** I was just gonna ask why that's not a motivator. For instance, going back to the e-mail scenario - a lot of people use Gmail and Yahoo! and stuff because they're free, and of course, Google and Yahoo! and Microsoft have their reasons why they want people using their e-mail, but then also you said yourself, you use FastMail. That's a service that you pay for, right?
+**Jerod Santo:** I was just gonna ask why that's not a motivator. For instance, going back to the email scenario - a lot of people use Gmail and Yahoo! and stuff because they're free, and of course, Google and Yahoo! and Microsoft have their reasons why they want people using their email, but then also you said yourself, you use FastMail. That's a service that you pay for, right?
 
 **Eugen Rochko:** Yeah, I pay for it.
 
-**Jerod Santo:** Yeah, because they provide you a solid hosting scenario and features that you like, and then give you access to e-mail.
+**Jerod Santo:** Yeah, because they provide you a solid hosting scenario and features that you like, and then give you access to email.
 
 **Eugen Rochko:** Yeah, now that I'm thinking about it, I'm pretty sure I've seen some servers that have closed registrations, but they have a message that says "If you donate to our Patreon, you can get a sign-up straight away."
 
@@ -432,7 +434,7 @@ Some people are okay with having volunteer moderators, and people are maybe will
 
 **Adam Stacoviak:** Gotcha.
 
-**Eugen Rochko:** I mean, I don't really require them to have set hours or an hourly requirement... I'm just like, "Well, here's privileges to access the moderation UI, and you're gonna get e-mails about new reports, and when you have time to deal with this, please do... But otherwise just be on standby... Just whenever you're available."
+**Eugen Rochko:** I mean, I don't really require them to have set hours or an hourly requirement... I'm just like, "Well, here's privileges to access the moderation UI, and you're gonna get emails about new reports, and when you have time to deal with this, please do... But otherwise just be on standby... Just whenever you're available."
 
 **Adam Stacoviak:** So back to Patreon... Is this unintended goal - like, you put the goal out there, you didn't expect to hit it, obviously you have... Is building and maintaining and all this good stuff around Mastodon your full-time thing?
 

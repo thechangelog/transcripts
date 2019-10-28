@@ -132,7 +132,7 @@ One thing about blockchains, like I said, is there's a lot of them. With some of
 
 **Tess Rinearson:** We use something related to PBFT, but we basically have - again, without getting too into the nuts and bolts of it - a single node that we have been calling the generator node, although we've just started discussing changing that to the block proposer, that is responsible for gathering the transactions along the network and creating a new block. This is in a lot of ways a single point of failure, but the other nodes in the system basically can audit it and can halt the system if the block generator fails.
 
-In the case of these financial networks, that's actually not a bad thing, because if some institution in the network is going rogue, you have a bigger problem than the state of your databases; you have sort of an organizational problem that has to be dealt with offline. So the fact that we use that as our consensus model, again, for now, there's room in our protocol to refine and improve. That system gives us much better performance than something like \[unintelligible 00:22:33.21\] which is what Bitcoin uses.
+In the case of these financial networks, that's actually not a bad thing, because if some institution in the network is going rogue, you have a bigger problem than the state of your databases; you have sort of an organizational problem that has to be dealt with offline. So the fact that we use that as our consensus model, again, for now, there's room in our protocol to refine and improve. That system gives us much better performance than something like proof of work, which is what Bitcoin uses.
 
 **Erik St. Martin:** So by putting it out there open source, were you hoping for contribution, or is this mainly to get people using it and coming up with use cases...?
 
@@ -198,7 +198,7 @@ It's this funny thing, where we have a product roadmap and we're very driven by 
 
 **Erik St. Martin:** I think this language is really good for making systems-level programming more approachable to people.
 
-**Tess Rinearson:** Yes. In a lot of ways, it's my first systems language. Before I was at Chain, I worked at Medium, and I was pretty full stack. Eventually, I had to learn Go to work on a new service. It was the social graph service - if you recommend something on Medium, then all of your followers can see it, the infrastructure that powers that kind of thing. I was a little bit reluctant to learn a new language. It was just silly. I was 20 years old and already \[unintelligible 00:31:56.17\] about it... But I was like, "I've been doing everything in Javascript, I'm comfortable with this."
+**Tess Rinearson:** Yes. In a lot of ways, it's my first systems language. Before I was at Chain, I worked at Medium, and I was pretty full stack. Eventually, I had to learn Go to work on a new service. It was the social graph service - if you recommend something on Medium, then all of your followers can see it, the infrastructure that powers that kind of thing. I was a little bit reluctant to learn a new language. It was just silly. I was 20 years old and already curmudgeonly about it... But I was like, "I've been doing everything in Javascript, I'm comfortable with this."
 
 \[00:32:03.11\] Learning Go and writing this new service in Go gave me a whole new perspective on building web services, and it was this sort of sweet spot of usable, but still reasonably close to the metal; not too abstracted, so I could still understand what was going on, especially coming from Node, where there's a lot of frameworks and things tend to be very abstracted... Scraping some of that off, and being able to have that perspective on web services was very empowering to me. That sense sort of spurred this interest in systems that has lead me to working at Chain.
 
@@ -240,7 +240,7 @@ It's this funny thing, where we have a product roadmap and we're very driven by 
 
 **Tess Rinearson:** Yeah. Anyway, to jump back to Carlisia's question about open source versus non-open source codebases and the way that you build them - we did not start building Chain Core with open sourcing in mind, but we always had pretty rigorous guidelines around even like commit style. And early on we had a lot of conversation about what should go into our style guide, and some of that actually made it into the formal style guide and some of it just sort of became community knowledge at the company. But really, the only things that we had to do when we open-sourced were 1) we did not open source everything.
 
-What we open-sourced we called Chain Core Developer Edition, and that's most of the guts, most of the logic, most of the interesting blockchain stuff is in there, but we do have other features around security and scalability that we withheld from the open source project. If you are a financial service paying us for an enterprise license, you get all of that good stuff too, but we didn't open source that. So we had to figure out how to split out monorepo for that, and then additionally we also had a small amount of company confidential information that we had to scrub from the Git history, but that wasn't \[unintelligible 00:37:27.13\] either.
+What we open-sourced we called Chain Core Developer Edition, and that's most of the guts, most of the logic, most of the interesting blockchain stuff is in there, but we do have other features around security and scalability that we withheld from the open source project. If you are a financial service paying us for an enterprise license, you get all of that good stuff too, but we didn't open source that. So we had to figure out how to split out monorepo for that, and then additionally we also had a small amount of company confidential information that we had to scrub from the Git history, but that wasn't too big of a deal either.
 
 Ultimately, it was a little bit of cleanup around the edges, but the code itself really didn't change. Oh, I think we also wrote some more package docs before open sourcing, but by and large we didn't have to change too much.
 
@@ -272,7 +272,7 @@ Ultimately, it was a little bit of cleanup around the edges, but the code itself
 
 **Break:** \[00:38:41.28\]
 
-**Erik St. Martin:** So in prepping for this, you had sent an e-mail and you were mentioning a side project that you had, and I always love fun side projects.
+**Erik St. Martin:** So in prepping for this, you had sent an email and you were mentioning a side project that you had, and I always love fun side projects.
 
 **Tess Rinearson:** Yeah, this is kind of a funny one. I almost even hesitate to call it a side project, because that suggests sustained work over months, building towards something really awesome, and this is just something I play with. But you asked if I were going to hack on something this weekend, what would I hack on, and the answer is this funny thing I wrote, this little app that connects to Twilio. So when anyone rings the buzzer to my apartment building, it actually calls a Twilio number which then goes through this Go app, and then calls my phone... Maybe.
 
@@ -282,13 +282,13 @@ Ultimately, it was a little bit of cleanup around the edges, but the code itself
 
 **Brian Ketelsen:** We have a much better solution for this!
 
-**Tess Rinearson:** Right! So part of it was like "What if I wanna do something else with it in the future?" Then, the other part of it was like, "Oh, but it would be so much more fun to write this myself", so I actually recently came up with the "Oh, here's actually why this is useful" piece of it, which is that I tried to sign up for a CSA \[unintelligible 00:41:09.11\] box with this company... It's pretty cool, actually - they take vegetables that don't meet FDA standards for aesthetics and they sell them...
+**Tess Rinearson:** Right! So part of it was like "What if I wanna do something else with it in the future?" Then, the other part of it was like, "Oh, but it would be so much more fun to write this myself", so I actually recently came up with the "Oh, here's actually why this is useful" piece of it, which is that I tried to sign up for a CSA, a grocery box, with this company... It's pretty cool, actually - they take vegetables that don't meet FDA standards for aesthetics and they sell them...
 
 **Erik St. Martin:** It's got a brown spot?
 
 **Tess Rinearson:** Yeah, totally. Or an onion that's too small, or a carrot that has two legs, or all these things that make something inappropriate for a grocery store, but they're still totally edible and delicious. I kind of got into this when I was living - this is also a cliché - in Berkeley, and my roommate in Berkeley has a food startup, and he'd bring home these big boxes of these "ugly" vegetables. So I was like, "Okay, great. I'm gonna sign up for this", but they only deliver between midnight and six in the morning, and I live in a part of San Francisco where if someone leaves a box of vegetables on the steps outside the apartment building, it will be gone in like 15 minutes.
 
-So the solution that the company suggests is that you give - this is turning into a very long backstory - a key to your building to them. And I was like "Yeah, I work at crypto... I don't feel good giving a key that I can't rotate to some company." So I was like "Oh, I know... I will write a code into my callbox app", so that if someone comes up, dials a number and then puts in the code within ten seconds, the Twilio app plays back a dial tone that I found online that matches the right \[unintelligible 00:42:59.15\] press nine, so it plays the tone for nine back to the buzzer, and the buzzer unlocks the door. So I can get the \[unintelligible 00:43:07.12\] in the middle of the night without getting woken up.
+So the solution that the company suggests is that you give - this is turning into a very long backstory - a key to your building to them. And I was like "Yeah, I work at crypto... I don't feel good giving a key that I can't rotate to some company." So I was like "Oh, I know... I will write a code into my callbox app", so that if someone comes up, dials a number and then puts in the code within ten seconds, the Twilio app plays back a dial tone that I found online that matches the right, you're supposed to press nine, so it plays the tone for nine back to the buzzer, and the buzzer unlocks the door. So I can get deliveries in the middle of the night without getting woken up.
 
 This will be a problem when the person delivering the vegetables does not enter the code in time and then I get a phone call anyway. But until that happens, that's my grand plan. So that's what I've been doodling around with lately.
 
@@ -376,7 +376,7 @@ This will be a problem when the person delivering the vegetables does not enter 
 
 **Brian Ketelsen:** Those were the days.
 
-**Carlisia Pinto:** I was sort of lucky in that way, because when the internet started - and by that, I mean nobody knew about it, but it existed - I was in school, so I got all of that for free. A modem connection for free, a dial-up number I could call for free, I got my web space, I got my e-mail account - everything through school and it was free.
+**Carlisia Pinto:** I was sort of lucky in that way, because when the internet started - and by that, I mean nobody knew about it, but it existed - I was in school, so I got all of that for free. A modem connection for free, a dial-up number I could call for free, I got my web space, I got my email account - everything through school and it was free.
 
 **Tess Rinearson:** Sounds awesome.
 
@@ -406,7 +406,7 @@ I came to class the next day... My teacher's like, "Very funny. You know you're 
 
 **Tess Rinearson:** Yeah, or they're social. I feel like so many stories I hear about people's accounts getting hacked have to do basically with hackers lying to customer support people.
 
-**Erik St. Martin:** Oh, yeah... Social \[unintelligible 00:51:36.02\]
+**Erik St. Martin:** Oh, yeah... Social engineering.
 
 **Tess Rinearson:** Yeah... Forget not sanitizing your inputs; people are people.
 
@@ -486,7 +486,7 @@ So who wants to talk about any news?
 
 **Brian Ketelsen:** Well, it's gonna sound terrible no matter what.
 
-**Tess Rinearson:** I mean, it'll be charming, like an elementary school \[unintelligible 00:55:37.21\] kind of thing.
+**Tess Rinearson:** I mean, it'll be charming, like an elementary school fingerpainting kind of thing.
 
 **Brian Ketelsen:** I think it will.
 

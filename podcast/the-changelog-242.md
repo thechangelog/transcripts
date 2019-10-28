@@ -1,4 +1,4 @@
-**Adam Stacoviak:** Welcome back everyone, this is The Changelog and I am your host, Adam Stacoviak. This is episode 242, and today James Long joined the show to talk about his recent blog post, "Why I'm Frequently Absent From Open Source." He shared several points in that blog post that struck a cord with us, so we invited him on the show. We pulled back the layers of open source, the people, the sustainability, the responsibility, the guilt and the balance it takes to keep it all together.
+**Adam Stacoviak:** Welcome back everyone, this is The Changelog and I am your host, Adam Stacoviak. This is episode 242, and today James Long joined the show to talk about his recent blog post, "Why I'm Frequently Absent From Open Source." He shared several points in that blog post that struck a chord with us, so we invited him on the show. We pulled back the layers of open source, the people, the sustainability, the responsibility, the guilt and the balance it takes to keep it all together.
 
 We have three sponsors - Rollbar, Toptal and Compose.
 
@@ -10,9 +10,9 @@ We have three sponsors - Rollbar, Toptal and Compose.
 
 **Adam Stacoviak:** I guess we couldn't start the show without mentioning the fact that Jerod's not here, and the reason Jerod's not here is because Jerod shipped a long-time running side-project called Nora, which is his new baby girl; his wife launched that project - as he had said - on Monday, which is great. Jerod, thanks man... Glad you got your daughter here, and have fun with the time off.
 
-Jerod actually teed up this conversation; he e-mailed you and said, "Man, I love this post." The post we're talking about is called "Why I'm Frequently Absent From Open Source." Here on this show we cover this quite a bit. We actually launched a whole separate show called Request For Commits with Nadia Eghbal and Mikeal Rogers to cover that human side of code, and I kind of feel like this is part of it... But we obviously have a deep passion for open source, a deep passion for the people of open source, the code that gets written because of it - all that good stuff. But at the end of the day it's about people.
+Jerod actually teed up this conversation; he emailed you and said, "Man, I love this post." The post we're talking about is called "Why I'm Frequently Absent From Open Source." Here on this show we cover this quite a bit. We actually launched a whole separate show called Request For Commits with Nadia Eghbal and Mikeal Rogers to cover that human side of code, and I kind of feel like this is part of it... But we obviously have a deep passion for open source, a deep passion for the people of open source, the code that gets written because of it - all that good stuff. But at the end of the day it's about people.
 
-Your post really struck a cord because at the end of it - and I may ruin it for somebody; maybe I shouldn't do that - it kind of felt like a love letter to your wife, but not really. It was more like, "This is why I'm absent, and I love you, my wife of six years."
+Your post really struck a chord because at the end of it - and I may ruin it for somebody; maybe I shouldn't do that - it kind of felt like a love letter to your wife, but not really. It was more like, "This is why I'm absent, and I love you, my wife of six years."
 
 **James Long:** \[00:04:10.09\] Yeah, it's kind of funny... I've been meaning to talk more about this, so this was supposed to mostly be a tribute to my wife. The first half of the post was probably a little bit more of a dump than I meant it to be, because I'd been meaning to write a separate post about that and just focus on that. So I wrote this in like an hour on Sunday before we went out to dinner, and then I showed her the post at dinner, and it was awesome. But I read it now and I'm like, "Wow, there were a lot of thoughts in my head that I just really dumped there." It's a good thing to talk about.
 
@@ -167,7 +167,7 @@ That might be part of my struggle - I do like to be successful, but I can't assu
 
 I love some of the core drivers of open source, and they are very mission-driven... I worked for Mozilla, which is a very mission-driven organization, and it was a very powerful way to talk about things, and there is a big mission there, keeping things open source; they're one of the few browsers that really are an independent browser. But there still this -- I think we just can't let that trickle down become too much of this thing where we pressure people to make the world a better place with open source. I think I've seen a lot of different types of projects, and I think there's the ones where it's not just that they went open source - it's fine being open source; I think there are projects where we were like, "We're gonna invest in contributors", and Mozilla was all about contributors, because that's what Mozilla does; that's how they do a lot with a small company.
 
-Firefox is localized across the world completely by contributors, or at least 98% by contributors. It's in a billion different languages because contributors for those languages \[unintelligible 00:41:58.25\] localized everything; it's crazy. And it's a very interesting, powerful model, but I just feel like...
+Firefox is localized across the world completely by contributors, or at least 98% by contributors. It's in a billion different languages because contributors for those languages will come and just localize everything; it's crazy. And it's a very interesting, powerful model, but I just feel like...
 
 Some projects were like, "We're gonna go open source and we're gonna really invest in the contributors because that's where all the power comes from", and I just look at their projects and there's just so much time spent on teaching contributors and getting everything set up correctly and writing documentation so that they all know about it... Meanwhile, they're sort of ignoring some of these really core problems that are in their project, that contributors can't fix because they're too deep, and it just seems like the wrong focus.
 
@@ -191,7 +191,7 @@ I think there's a tone. I think some people in open source probably are as jaded
 
 **Adam Stacoviak:** A "won't fix."
 
-**James Long:** Yeah, a "won't fix." I at least try to say "I'm sorry." I think it has released some of my guilt \[unintelligible 00:46:02.22\] how powerful this is. Just like doing two or three sentences. You're just like, "I'm sorry, I can't please everyone \*brownie face\*."
+**James Long:** Yeah, a "won't fix." I at least try to say "I'm sorry." I think it has released some of my guilt, which realized how powerful this is. Just like doing two or three sentences. You're just like, "I'm sorry, I can't please everyone \*brownie face\*."
 
 **Adam Stacoviak:** Right. It's almost like you have to put a signature with all of your negative or could-be-assumed negative responses, like "Sorry, I've got these other things going on and I can't", or "I'm not willing to", or "Here, you could, and here's the keys. Go ahead and open the door."
 
@@ -259,7 +259,7 @@ Then some nights, if there's something that's really complex or something that I
 
 \[01:00:00.14\] I think it's good to structure your time; it's definitely really healthy to close your computer at the end of the day and at least spend some time doing something else. If you don't have a family, I'm sure you have other hobbies. Make sure that even if you have free time, spend it doing other stuff. Even if you have another side project that is a lot more fulfilling, work on that side-project; don't feel like you have to be working on that code right there. It'll still be there in a couple of days, and it's fine that people can wait. Having that mentality is good.
 
-One last that I'll say is I really would advise people to not be getting GitHub notifications or e-mails on their phone, because - at least for me - that would be the worst way to make the guilt even more... You know, shouting at me on my phone every time I see something come through... I do not do that on my phone at all; that is just a complete no-no.
+One last that I'll say is I really would advise people to not be getting GitHub notifications or emails on their phone, because - at least for me - that would be the worst way to make the guilt even more... You know, shouting at me on my phone every time I see something come through... I do not do that on my phone at all; that is just a complete no-no.
 
 **Adam Stacoviak:** Yeah, that's a recipe for disaster, especially if you have a popular project or even a moderately successful project - you're always getting something, whether it's a pull request or an issue... There's always something that's happening. Even if it's just a comment... It doesn't even have to be an issue; it could be activity on issues. It's constantly pulling you away from the things you should be stepping away to enjoy, which is that balance portion.
 
@@ -286,14 +286,14 @@ I used to spend so much time at the computer, hacking and reading papers and doi
 
 **Adam Stacoviak:** So do you have some "shoulda/woulda/couldas" in your life? "Man, I wish I'd just spent two or three days doing that and one day pursuing a friendship"?
 
-**James Long:** Yeah, I mean I wish I -- I don't know about relationships... I feel like I had pretty good relationships, but I definitely could have been a lot closer to people; I could have pursued people more. I wish I had definitely just closed my laptop at night when I was... You know, when you're \[unintelligible 01:06:04.20\] and work on stuff. I definitely wish I had just gone out and hung out with friends and got to know other people more; I think it would have been a little bit richer life.
+**James Long:** Yeah, I mean I wish I -- I don't know about relationships... I feel like I had pretty good relationships, but I definitely could have been a lot closer to people; I could have pursued people more. I wish I had definitely just closed my laptop at night when I was... You know, when you're in a house of guys or just a room mate, it's super easy to just sit on your computer at night and work on stuff. I definitely wish I had just gone out and hung out with friends and got to know other people more; I think it would have been a little bit richer life.
 I had a great time in my 20s, I'm not saying I didn't, but it could have been even more fulfilling, and I would encourage anyone to seek balance in this world.
 
 **Adam Stacoviak:** So what are some ways besides just closing your laptop, just dedicating 4-6 hours to loved ones, or hobbies, or whatever? What other ways can we be more mindful about balance?
 
 **James Long:** I'm trying to think... I don't know, maybe just pursuing other hobbies, I guess. I mean really, the hours at the nights and on weekends, on Saturdays, going out and meeting other people are really the only things that I can think of. I can't really think of anything else.
 
-**Adam Stacoviak:** So go out, make some friends, disconnect... Saturdays - no issues, no notifications on your e-mail or your notifications from GitHub popping up; keep those things silenced. At least that would help you or help that person moderate to not feel like every waking hour is pulling them back into this thing they may be slightly jaded about, like "Oh man, I've launched this project and now it's super successful, and that's great, BUT now I've gotta keep giving my time to this thing..." Step away. Step away.
+**Adam Stacoviak:** So go out, make some friends, disconnect... Saturdays - no issues, no notifications on your email or your notifications from GitHub popping up; keep those things silenced. At least that would help you or help that person moderate to not feel like every waking hour is pulling them back into this thing they may be slightly jaded about, like "Oh man, I've launched this project and now it's super successful, and that's great, BUT now I've gotta keep giving my time to this thing..." Step away. Step away.
 
 **James Long:** Yeah. It depends on every single person, right? Every single person's gonna have a different workflow. I think I would be careful about -- if you feel that trickle of guilt, it's okay. Like we were saying before, just take the time to yourself, it's absolutely critical that you do that.
 

@@ -20,7 +20,7 @@
 
 **Jerod Santo:** Did the intoxication actually aid in your ability to suck at using the website?
 
-**Richard Littauer:** It very much did. \[laughter\] It also taught me a lot about what UX is and how it works. It was a fun thing to do. I wrote a big retrospective on Medium about "Don't drink for money, because you \[unintelligible 00:03:05.06\] hate drinking." I actually quit for like a year, because man... Man... Anyway.
+**Richard Littauer:** It very much did. \[laughter\] It also taught me a lot about what UX is and how it works. It was a fun thing to do. I wrote a big retrospective on Medium about "Don't drink for money, because you swiftly hate drinking." I actually quit for like a year, because man... Man... Anyway.
 
 **Jerod Santo:** It turns a hobby into a job really fast.
 
@@ -52,7 +52,7 @@
 
 **Jerod Santo:** Is this the kind of work that you really enjoy doing?
 
-**Richard Littauer:** It is. I love \[unintelligible 00:04:56.03\] I love getting deep into the code, but at the end of the day, what I enjoy doing is fixing spelling errors and making sure that it's easy for new developers to come on board... You know, sharing that sort of energy.
+**Richard Littauer:** It is. I love technical stuff. I love getting deep into the code, but at the end of the day, what I enjoy doing is fixing spelling errors and making sure that it's easy for new developers to come on board... You know, sharing that sort of energy.
 
 **Jerod Santo:** So you have a vested interest in seeing open source sustained, of course, because you're super invested completely into that.
 
@@ -72,7 +72,7 @@
 
 **Jerod Santo:** Yeah. One of the things we're doing here, actually going on right now as we speak, is gathering examples of people who are doing it right... So as you go around and help other people do maintenance and build communities, what are some exemplars, in your opinion, of projects that you could turn to and say "Do it like these guys and you're gonna do well."
 
-**Richard Littauer:** NPM does a lot of good stuff with their community. They're not perfect, in some ways... The CLI tools \[unintelligible 00:07:20.27\] really getting there hard, but their heart is in it, and you can see that, and I love that. Hoodie does it really well; they're all about community, they're all about how to do this. Node is getting there... I've been sitting in on some of the communications committee meetings and they're working really hard to figure that out. NodeTogether was great - that's with Ashley.
+**Richard Littauer:** NPM does a lot of good stuff with their community. They're not perfect, in some ways... The CLI tools are really getting there hard, but their heart is in it, and you can see that, and I love that. Hoodie does it really well; they're all about community, they're all about how to do this. Node is getting there... I've been sitting in on some of the communications committee meetings and they're working really hard to figure that out. NodeTogether was great - that's with Ashley.
 
 I'm a big fan of a lot of high-level decisions, like Go's decision to have a formatter, so you just get rid of a lot of the issues that you have in other languages, like \*coughs\* Javascript... \[laughter\]
 
@@ -96,7 +96,7 @@ Yeah, there's a lot of great projects, a lot of bad ones, but I love it when you
 
 **Jerod Santo:** What about smaller scale? Like you said, a lot of us are hobbyists, we're individuals, maybe we're a team of two... First of all, are there any examples of people doing it well on the small...?
 
-**Richard Littauer:** Yeah, I really like sindresorhus' way of doing things. I love how they're using an [AMA](https://github.com/sindresorhus/ama) repo that has like hundreds and thousands of stars, where you can just ask them questions. I've met him, he's a really nice guy, and it shows in his code. It's idiosyncratic and lovely, and it's just like "This is what I do here."
+**Richard Littauer:** Yeah, I really like Sindre Sorhus' way of doing things. I love how they're using an [AMA](https://github.com/sindresorhus/ama) repo that has like hundreds and thousands of stars, where you can just ask them questions. I've met him, he's a really nice guy, and it shows in his code. It's idiosyncratic and lovely, and it's just like "This is what I do here."
 
 He's not a small example, he's the most prolific coder on GitHub, but...
 
@@ -110,7 +110,7 @@ He's not a small example, he's the most prolific coder on GitHub, but...
 
 I'm trying to think of any particular people who just no one would know about who I really like, and I'm failing. Nofel. Nofel has some really great stuff. He wrote a thing called Art Of Readme, which just is a really passionate plea to have better documentation. And he just writes these beautiful little modules that are really just empathetic, "Here's where I'm coming from, here's how you access my API", and I love it.
 
-**Jerod Santo:** Very cool. Going back to \[unintelligible 00:10:36.02\] he often will hop into our ping repo -- so we have a repo on GitHub where you can just drop projects, drop links, and we'll pick them up and tweet them or we'll put them in our newsletter... And he'll often hop in there and drop things, and everytime I'm like "Sure, we'll link this up", and then I'm like... We always try to get him to come on the Changelog, and he's always like "Nah, I'm good." \[laughs\]
+**Jerod Santo:** Very cool. Going back to Sindre Sorhus he often will hop into our ping repo -- so we have a repo on GitHub where you can just drop projects, drop links, and we'll pick them up and tweet them or we'll put them in our newsletter... And he'll often hop in there and drop things, and everytime I'm like "Sure, we'll link this up", and then I'm like... We always try to get him to come on the Changelog, and he's always like "Nah, I'm good." \[laughs\]
 
 **Richard Littauer:** Yeah, good for him.
 
@@ -203,7 +203,7 @@ I'm trying to think of any particular people who just no one would know about wh
 
 **Jerod Santo:** That's kind of amazing, isn't it?
 
-**Karthik Ram:** I had a day job, two other people had a day job; we were tweeting at each other, and then one day we said "What's your e-mail?" We got each other's e-mail, came up with a name for the project and said "Would you like to apply for funding?" We were awarded a grant, got $200,000, and then we became an entity.
+**Karthik Ram:** I had a day job, two other people had a day job; we were tweeting at each other, and then one day we said "What's your email?" We got each other's email, came up with a name for the project and said "Would you like to apply for funding?" We were awarded a grant, got $200,000, and then we became an entity.
 
 **Jerod Santo:** Just like that?
 
@@ -307,7 +307,7 @@ The other thing that we do that is really important to the open source community
 
 **Karthik Ram:** No, it's software coming into our system.
 
-**Jerod Santo:** Okay, software coming in... \[unintelligible 00:25:15.08\] Wouldn't you just have the license of the project? Are you talking about modules, that they hold their own licenses?
+**Jerod Santo:** Okay, software coming in... You say you review your license.. Wouldn't you just have the license of the project? Are you talking about modules, that they hold their own licenses?
 
 **Karthik Ram:** No, we allow people to have permissive licenses, and so we make sure their license is compatible downstream. We make sure their code is well documented, has a good style, that's easily adaptable, and it's a brilliant process because everything happens in the open, on GitHub, and it takes our reviewers 5-10 hours each to review the software.
 
@@ -383,7 +383,7 @@ The other thing that we do that is really important to the open source community
 
 **Scott Ford:** Yeah, and I was speaking at that, and a lot of other people were, too...
 
-**Andrea Goulet:** It was Llewellyn Falco, \[unintelligible 00:32:46.23\] a lot of folks who just are...
+**Andrea Goulet:** It was Llewellyn Falco, Woody Zuill, Arlo Belshee a lot of folks who just are...
 
 **Scott Ford:** Michael Feathers...
 
@@ -417,7 +417,7 @@ I think a big part of legacy code is a lack of communication around things. Tell
 
 **Scott Ford:** Yes, that's why she talks a lot more than I do.
 
-**Jerod Santo:** I guess the reason I point that out is because there's good money in doing the work that a lot of other people don't wanna do, right? You guys have found that? \[unintelligible 00:35:57.08\]
+**Jerod Santo:** I guess the reason I point that out is because there's good money in doing the work that a lot of other people don't wanna do, right? You guys have found that? You're giving me the side eye, maybe there's not that good money.
 
 **Andrea Goulet:** \[00:36:01.18\] Well, I think with any business there's always gonna be ups and downs that fluctuate, but we've got a team of 12 people now, and we've got a backlog of resumes, surprisingly, of people who want to leave their current gig and come work for us...
 
@@ -477,7 +477,7 @@ I think a big part of legacy code is a lack of communication around things. Tell
 
 **Jerod Santo:** Oh... You should come hang out with me. \[laughter\]
 
-**Scott Ford:** Or make them help \[unintelligible 00:38:58.06\]
+**Scott Ford:** Or make them helpful user error messages.
 
 **Andrea Goulet:** I did that on Bundler; that was how I got started - I just said "Here, let me go in and update error messages." They got accepted, but it's hard for me to find time to do that, so it's like "These are the things that we love - how can we figure out how to make a sustainable business out of...?"
 
@@ -485,7 +485,7 @@ I think a big part of legacy code is a lack of communication around things. Tell
 
 **Jerod Santo:** That's a good point, because sometimes you have the time, but you're just out of the mental energy, because you've spent it on things you need to... And now maybe you're in a place where you're not completely time-strapped, but I know I get to the end of certain days and there's just no way I'm gonna kick out the editor and do anything of quality. Maybe I can add some bugs... \[laughter\]
 
-**Scott Ford:** \[unintelligible 00:40:08.20\]
+**Scott Ford:** Right.
 
 **Andrea Goulet:** \[00:40:10.02\] Yeah, and part of it is like "How easy is it?" If you don't have good documentation, do you have continuous deployment set up so that you can just kick something off? Or is it gonna be this big back and forth where you haven't developed a relationship with the maintainer? There's a lot of idiosyncrasies there of "Do people want me to go in and fix their error messages? I don't know."
 
@@ -561,7 +561,9 @@ We've also had a couple of clients who are supported by a foundation, so they ha
 
 **Jerod Santo:** The way that I do it with my consultancy is kind of you guys' first method of -- I work it into my contract, kind of like two levels of deliverables, where it's like first-party deliverables and second-party... And those are open source things. So I feel very free in my work; their entire stack is built upon open source, so I see this issue or this problem, or a place that need fixing, and I just plug the whole -- I don't ask individual client "Hey, can I go do this bug fix?" That being said, because of the way that I do it, I don't feel free to make large contributions. It's fine for a bug fix; even sometimes just submitting the bug is of value, reporting. Otherwise, maybe a small -- like, I change this API to accept two things instead of one.
 
-**Andrea Goulet:** Right. Like, we've had to build a small gem once \[unintelligible 00:47:51.14\]
+**Andrea Goulet:** Right. Like, we've had to build a small gem once.
+
+**Scott Ford:** Yeah, we built a couple small gems to fill a crack like that.
 
 **Jerod Santo:** Right, but I do not feel like it's in my client's best interest to go and spend 20 hours building a brand new thing or a huge feature, which probably would be generally useable to lots of people... So there has to be other ways.
 
@@ -605,7 +607,7 @@ One of the things that I've been really encouraged about at the conversations to
 
 **Jerod Santo:** You don't have to make that choice.
 
-**Andrea Goulet:** Right. And then, for example -- \[unintelligible 00:51:27.13\] just be mindful of how these are biases where women are typically note-takers, so just be mindful of that as you go through today. And small, little things like that have made a huge difference in my ability to feel not just that I am welcome here, but that I can continue to be here.
+**Andrea Goulet:** Right. And then, for example -- Gunner, he said, just be mindful of how these are biases where women are typically note-takers, so just be mindful of that as you go through today. And small, little things like that have made a huge difference in my ability to feel not just that I am welcome here, but that I can continue to be here.
 
 **Jerod Santo:** Yeah, that's awesome.
 
@@ -627,13 +629,13 @@ One of the things that I've been really encouraged about at the conversations to
 
 **Scott Ford:** Yeah, I listen to the Changelog while I do the dishes.
 
-**Jerod Santo:** Well, you might have to hear your own voice on \[unintelligible 00:52:25.11\] "What the heck? Oh, this episode is terrible!" \[laughter\] As we all self-criticize... So very cool - Legacy Code Rocks si the podcast, Corgibytes is the company...
+**Jerod Santo:** Well, you might have to hear your own voice on an upcoming.. "What the heck? Oh, this episode is terrible!" \[laughter\] As we all self-criticize... So very cool - Legacy Code Rocks is the podcast, Corgibytes is the company...
 
 **Andrea Goulet:** Yeah, right now that's the newsletter we're working towards, and you can find the podcast in Stitcher or iTunes if you just look up Legacy code rocks.
 
 **Jerod Santo:** Very cool.
 
-**Andrea Goulet:** And from the newsletter you can join the Slack channel and things like that. one of these days we'll have a whiz-bang website like you do \[unintelligible 00:52:52.29\] \[laughter\]
+**Andrea Goulet:** And from the newsletter you can join the Slack channel and things like that. One of these days we'll have a whiz-bang website like you do and fancy microphones \[laughter\]
 
 **Scott Ford:** Yeah. And then we also have a weekly mastermind group that's kind of like a virtual meetup, basically... I'm almost always there, and then whoever shows up at a given time.
 

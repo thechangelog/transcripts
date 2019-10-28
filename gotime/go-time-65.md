@@ -390,7 +390,7 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Brian Ketelsen:** Impressive.
 
-**Vitor De Mario:** \[unintelligible 00:35:46.29\] so detailed. Wow.
+**Vitor De Mario:** This Millennium Falcon is so detailed. Wow.
 
 **Brian Ketelsen:** Yup. Alright, I forgive you for going first, Erik. Carry on.
 

@@ -126,7 +126,7 @@ An example is in GraphQL - there's a lot of GraphQL repositories using Renovate,
 
 **Rhys Arkins:** That's right, with some caching, and so on.
 
-**Jerod Santo:** Yeah, so caching is definitely important there. I was thinking more of like the Library.io's approach, where they're basically creating a huge dependency graph in the sky of different libraries and versions, and they have all of that data on their own, and then when it runs, \[unintelligible 00:30:19.07\] require a centralized service and all that. Okay, very cool...
+**Jerod Santo:** Yeah, so caching is definitely important there. I was thinking more of like the Library.io's approach, where they're basically creating a huge dependency graph in the sky of different libraries and versions, and they have all of that data on their own, and then when it runs, it would already be preexisting without require a centralized service and all that. Okay, very cool...
 
 **Adam Stacoviak:** And potentially even a lot of unknown knowledge you didn't really need to have. Rhys's version is on-demand, so it's not--
 
@@ -180,7 +180,7 @@ There's other things - I think that pinning your dev dependencies makes a lot of
 
 **Rhys Arkins:** Yeah, so the two major ones are NPM and Docker, but it's definitely in -- my goal is that Renovate becomes a universal tool... Universal in terms of language and as well as in terms of platforms. Because apart from GitHub, it supports already GitLab and VSTS, and Bitbucket support is in a pull request... So my goal is to make it cross-platform and cross-package manager. We've already added Docker support, and there's requests for others, like Python, or Java, Maven, and things like that. Yeah, the goal is to make it like a universal approach.
 
-**Jerod Santo:** Did you have that goal from the start, or is it at least -- when I think of expanding beyond where you are, I think of "Well, I hope the architecture is set up to be pluggable \[unintelligible 00:42:28.26\]" and not like "Okay, in order to support Python, for instance, we're gonna have to rewrite 60% of our codebase to do that."
+**Jerod Santo:** Did you have that goal from the start, or is it at least -- when I think of expanding beyond where you are, I think of "Well, I hope the architecture is set up to be pluggable to a sense. and not like "Okay, in order to support Python, for instance, we're gonna have to rewrite 60% of our codebase to do that."
 
 **Rhys Arkins:** Yeah... It definitely was not in my foresight at the start. Most of the features of Renovate have come from users suggesting it; it's been very much like a user-driven thing. Almost every time a user wants a feature and I figure out a way to kind of gracefully add it, I kind of breathe a sigh of relief that whatever choices were made previously weren't too limiting. So yeah, again, it's a bit of luck there.
 
@@ -188,7 +188,7 @@ It started with NPM only, and then someone came along and asked if I could suppo
 
 \[00:44:08.05\] So the only way to have immutable references in Docker is to have an SHA-256 hash, which is enormous and it's very un-user-friendly. Someone actually commented that it's a pity there isn't like a renovate for Docker, and sort of mentioned me, or something like that... That's how Docker support came about, because I thought "Yeah, that's really good", because when we look at package.json dependencies, in a way you could argue that we're just automating something that people could do manually. You're automating a feasible manual job. Well in Docker you have these big, long hashes - that's starting to get to the line where it's like this automation is now essentially making something possible that really isn't feasible manually. Looking up hashes and pasting them in and not making a mistake - that's getting a bit beyond what's reasonable, and that's why hardly anybody actually uses hashes... Whereas now, when people use Dockerfiles with Renovate, and even if they have Node latest, even though they wanna do it that way, at least now it will pin Node latest at hash, and so every time Node latest actually changes, you get a pull request that kind of tells you it's changed and you can see if it still passes or doesn't break anything.
 
-Even if you wanna be "non-semver-versioning", you can still get updated whenever that hash is changed \[unintelligible 00:45:37.18\]
+Even if you wanna be "non-semver-versioning", you can still get updated whenever that hash is changed whatever tag on docker hub.
 
 I did some refactoring recently to make it a lot easier to add languages in, and there's someone who's told me that he thinks he can add in Docker Compose support pretty easily now, given that there's already Docker there. Hopefully, we'll see a lot more languages added a lot more quickly now that the code is a little bit more welcoming of outside languages and package managers.
 
@@ -234,11 +234,11 @@ One of my favorite anecdotes, and I've been tempted to put this on the web page,
 
 **Jerod Santo:** Wow.
 
-**Rhys Arkins:** So basically, that entire leak of like half of America's social security numbers was blamed on like -- there was a single developer who missed a notice. That's a process failure; you can't say "I'm blaming one guy because he missed an e-mail, or something like that."
+**Rhys Arkins:** So basically, that entire leak of like half of America's social security numbers was blamed on like -- there was a single developer who missed a notice. That's a process failure; you can't say "I'm blaming one guy because he missed an email, or something like that."
 
 **Jerod Santo:** Yeah.
 
-**Rhys Arkins:** \[00:52:00.13\] I mean, it's probably more than an e-mail, but the reality is that if you don't have automation, you are gonna risk having those types of things happen to you. You kind of need to keep up with patches, or you will eventually have problems; that's pretty much a solid rule.
+**Rhys Arkins:** \[00:52:00.13\] I mean, it's probably more than an email, but the reality is that if you don't have automation, you are gonna risk having those types of things happen to you. You kind of need to keep up with patches, or you will eventually have problems; that's pretty much a solid rule.
 
 **Break:** \[00:52:22.11\]
 
@@ -268,7 +268,7 @@ To give an example, if I have a Javascript library and I do nothing except for d
 
 **Jerod Santo:** \[00:55:58.27\] I thought you were just notifying of an upcoming breaking change. Okay, so you've got me.
 
-**Rhys Arkins:** So we saw that a lot \[unintelligible 00:56:03.03\] But if you're not using Node.js 4, what's the volatility of that? It's like zero. It's not a risk to you.
+**Rhys Arkins:** So we saw that a lot we saw people remove 4. But if you're not using Node.js 4, what's the volatility of that? It's like zero. It's not a risk to you.
 
 **Jerod Santo:** Right.
 
@@ -312,7 +312,7 @@ But when I'm trying to work out my versioning, I feel compelled by this concept 
 
 **Jerod Santo:** He's flexible, so we don't have to be.
 
-**Adam Stacoviak:** I like also that you talk about the risk management too, because that's something you don't really consider... That's one thing Jerod and I talked about in the pre-call; it was like, you know, it's essentially risk management of like how far you're willing to go, how configurable you make Renovate for yourself \[unintelligible 01:00:26.19\] risk management.
+**Adam Stacoviak:** I like also that you talk about the risk management too, because that's something you don't really consider... That's one thing Jerod and I talked about in the pre-call; it was like, you know, it's essentially risk management of like how far you're willing to go, how configurable you make Renovate for yourself it's curbing risk management.
 
 **Rhys Arkins:** Yeah.
 
@@ -328,7 +328,7 @@ But when I'm trying to work out my versioning, I feel compelled by this concept 
 
 **Adam Stacoviak:** Predictive, too.
 
-**Jerod Santo:** Automerging to me is like, "Okay, at least let me look at the thing before it gets merged", but \[unintelligible 01:01:06.24\] tell us about that feature.
+**Jerod Santo:** Automerging to me is like, "Okay, at least let me look at the thing before it gets merged", but why don't you tell us about that feature tell us about that feature.
 
 **Rhys Arkins:** Yeah, so to give you just some perspective... Automerge is where you give Renovate the permission to merge a new version to your master branch, whatever is your base branch, if it passes your test. So you do these for ones that you're confident of. And for example, like dev dependencies, or if you're updating Jest, you're updating ESLint... I mean, if you've got a new version of ESLint and all the tests pass, are you really gonna inspect anything else?
 
@@ -378,7 +378,7 @@ Right now, actually, when I look at the statistics, we have about a 2:1 ratio be
 
 **Rhys Arkins:** Yeah... Sorry, if I could say just one more thing - I think one of the challenges with the updates, and this is the hesitance that everybody has... Sometimes it's the fatigue they have after the initial positivity is that the updates become a bit like a fire hose. Automation 1.0 is sort of like, you know, whenever there's an update, here it is; it's in your face. But I've continually worked to try to have ways to reduce that noise, and so automerging is really one of those, because if you can automerge it without you needing to do something, then that's one... But other ways include grouping and scheduling. For example, you can say "Don't submit any new pull requests during our working hours", which also has a benefit meaning that your CI machines can not be holding you up with application code during working hours as well.
 
-So grouping, scheduling, automerging - these are all ways to try to kind of reduce that noise, and reduce people's frustration, that you don't have to have the firehose. If somebody says "\[unintelligible 01:07:29.10\] healthy", and you say "Yeah", and then they say "Okay, well the only solution is 5 AM boot camp every day", then you're like "Ugh, that's a little bit extreme." So if you say to people \[unintelligible 01:07:41.20\] and they say "Yeah", and you then you say "Okay, so here's what's gonna happen - I'm gonna hit you with a pull request every single hour of the day." That's like the equivalent of this 5 AM boot camp.
+So grouping, scheduling, automerging - these are all ways to try to kind of reduce that noise, and reduce people's frustration, that you don't have to have the firehose. If somebody says "Are you interested in getting healthy", and you say "Yeah", and then they say "Okay, well the only solution is 5 AM boot camp every day", then you're like "Ugh, that's a little bit extreme." So if you say to people are you interested in keeping updated? and they say "Yeah", and you then you say "Okay, so here's what's gonna happen - I'm gonna hit you with a pull request every single hour of the day." That's like the equivalent of this 5 AM boot camp.
 
 **Jerod Santo:** Right.
 
@@ -468,7 +468,7 @@ I thought that having this kind of carrot approach to pricing, rather than a sti
 
 **Adam Stacoviak:** The personal plan.
 
-**Rhys Arkins:** That's for the personal accounts. \[unintelligible 01:17:48.01\] I would have been willing to pay like $5-$10 minimum kind of thing, so I think a dollar is good. And people can sign up and lock that in.
+**Rhys Arkins:** That's for the personal accounts. I remember I would have been willing to pay like $5-$10 minimum kind of thing, so I think a dollar is good. And people can sign up and lock that in.
 
 Another reason for charging a dollar and not saying free is that I know that if I sign up to a service and they've got a free plan that suits me, I always have a concern that one day they're gonna say "You know what, we can't keep offering that, and it's now $35/month", or something like that. They'll go from free to a price that is just not valuable to you, it doesn't match with the value. So I personally prefer to have something where I can be like "Okay, I'm a paying customer then, and I get this price, and I know that there's a good chance they'll grandfather that in." That's another part of my line of thinking - not so much just like "Oh, I worry whether they'll be sustainable", because you know $1/month is not really gonna help with that, but it's more like "Oh, but I know I've got a price locked in, and that I like." This is the approach I'm taking.
 

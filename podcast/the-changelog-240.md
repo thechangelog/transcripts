@@ -68,7 +68,7 @@ We have two sponsors today, Linode and Hired.
 
 **Adam Stacoviak:** That's true.
 
-**Jerod Santo:** Yeah, it's one of these continuums, right? Because the smaller the corporation, the more the individuals have to say, and especially once you hit a point - Twitter size, Facebook size - IPO, now you have shareholders and everything else. Twitter started off very small, it was a small subset of -- what was the \[unintelligible 00:07:55.29\] podcast company?
+**Jerod Santo:** Yeah, it's one of these continuums, right? Because the smaller the corporation, the more the individuals have to say, and especially once you hit a point - Twitter size, Facebook size - IPO, now you have shareholders and everything else. Twitter started off very small, it was a small subset of -- what was the Evan Williams podcast company?
 
 **Ben Ubois:** Odeo.
 
@@ -140,7 +140,7 @@ However, I recognize that there's a strategy tax (I don't know if that's the rig
 
 **Adam Stacoviak:** Yes, it's definitely that kind of style.
 
-**Ben Ubois:** They have an \[unintelligible 00:18:27.20\] but it crawls XML feeds. So with those kinds of conflicting interests and never being foothold at a browser level or OS level...
+**Ben Ubois:** They have an \[unintelligible 00:18:27.20\] the format but it crawls XML feeds. So with those kinds of conflicting interests and never being foothold at a browser level or OS level...
 
 **Adam Stacoviak:** Do you feel like page views is a concern here, though?
 
@@ -170,7 +170,7 @@ But like you said, Ben... If you find the indie bloggers, the guy over here who 
 
 **Jerod Santo:** I tend to agree. Let's loop back into the business side of it here, Ben. Back to the Google Reader thing, we had a bit of a Cambrian explosion; you had great timing... There were other people that were scrambling to get together their alternative services. There were some little small players like yourself, there were big ones giving it away, and here you are charging. Feedly, for instance, was one that was really popular around the closing, because it was free; maybe \[unintelligible 00:22:14.17\] I don't recall, I haven't used it since... But you had all that competition, then you had the Reader thing, where you exclusive, or at least right up there up front.
 
-So you had these two big moments early on where you probably got a lot of customers, but you're very much in a dwindling - you even said, a lot of people just moved on... We are the few, the proud RSS readers. The users are small, so here you are, trying to build a thing. I thought you had \[unintelligible 00:22:45.25\] probably because your website might be updated - where you said you worked at Flickerbox. Is that no longer the case? You're full-time on Feedbin?
+So you had these two big moments early on where you probably got a lot of customers, but you're very much in a dwindling - you even said, a lot of people just moved on... We are the few, the proud RSS readers. The users are small, so here you are, trying to build a thing. I thought you had seperate full time job probably because your website might be updated - where you said you worked at Flickerbox. Is that no longer the case? You're full-time on Feedbin?
 
 **Ben Ubois:** Yeah, so I switched to doing Feedbin full-time actually in early 2014, because I had gone to the point where I felt comfortable financially to do that.
 
@@ -284,7 +284,7 @@ So I would say it is somewhat unproven whether it's a positive or a negative thi
 
 That runs on eight different servers right now, with a few Sidekick processes for piece, and then it can have maybe like 1,500 requests per second that way... Which is a number I'm proud of. I know there's probably Go and Rust people who are like, "Pff... Whatever", but that works well enough for me, and it does it in a way that I feel like it's never far behind anything. So I've been really happy with that.
 
-The only other separate service that's similar to that is this image processing system. Feedbin, when possible, will try to pull out a relevant image for the article, and put that next to the article's summary. When I was building that, it was really important to me that the image be high-quality. I have worked on designs where it was \[unintelligible 00:46:21.26\] like, "Okay, every piece of news here has to have an image next to it", and I've seen other readers designed in that way also.
+The only other separate service that's similar to that is this image processing system. Feedbin, when possible, will try to pull out a relevant image for the article, and put that next to the article's summary. When I was building that, it was really important to me that the image be high-quality. I have worked on designs where it was spec'd like, "Okay, every piece of news here has to have an image next to it", and I've seen other readers designed in that way also.
 The result is that you get some really low-quality, pixelated logo of some company, and that just doesn't look good. What I wanted to do was make sure it was frequently photography, and that there's a minimum size, formatted as a JPEG - I think that's a good indication that it's gonna be a better quality than a PNG, or more indicative that it's gonna be a photograph. So it goes through all these filters and criteria, and then it gets resized with ImageMagick, and then pushed to S3. Then Feedbin can pull that back in and display it alongside the content.
 
 Also, one thing I'm really happy with - I got this idea from Twitterrific, the iOS Twitter client, where they blogged about... Apple has a bunch of cool image APIs, and one of them does face detection. So it will tell you in like an X/Y coordinate wherein the image faces appear. What they did with that is they were like, "Okay, we'r gonna crop all these images so they fit into our template, but we don't wanna cut off heads in the crops." So using the facial detection - in this case Feedbin does not use Apple stuff, so it can't use those APIs, but it uses another project that does the same thing; it will figure out where faces are...
@@ -321,7 +321,7 @@ Tell us about the process... Does that image detection, cropping and associating
 
 **Ben Ubois:** Yeah. I almost feel like it's less of a big deal now. Browsers have de-emphasized the mixed content thing. But that was a cool little project I found from GitHub (it's called Camo) which will re-write image source attributes to point to their proxy server. So then your proxy server terminates SSL and then makes the request to the image and then returns that, so then you don't get the next content issues.
 
-**Jerod Santo:** Cool, I guess on the technical side I would just have one other line of questioning, which is around the web interface itself. It's almost hard to say, it seems like it's maybe like a single-page app launcher \[unintelligible 00:50:55.29\] or it's at least at a kind of rich Javascript environment; there's a lot of keyboard shortcuts, there's a lot of navigating without actually changing the URL... Can you talk about the frontend architecture a little bit?
+**Jerod Santo:** Cool, I guess on the technical side I would just have one other line of questioning, which is around the web interface itself. It's almost hard to say, it seems like it's maybe like a single-page app launcher login or it's at least at a kind of rich Javascript environment; there's a lot of keyboard shortcuts, there's a lot of navigating without actually changing the URL... Can you talk about the frontend architecture a little bit?
 
 **Ben Ubois:** Yeah, so the thing that I am most proud of here is the design, and that's the work of a very talented designer I work with named Todd Collins, who works at the company I used to work at, Flickerbox. And the way it all works technically is for the most part through Rails remote Javascript execution. So when you click on something, that will render a .js.erb file, which will come back over HTTP and then execute in the full Javascript environment.
 
@@ -353,7 +353,7 @@ That was a perfect fit for what actions does, because acting on content as it's 
 
 **Ben Ubois:** \[00:55:58.27\] Yeah, that's right.
 
-**Adam Stacoviak:** That's interesting. So essentially, you're \[unintelligible 00:56:01.20\] doing some sort of grep on it, which could be a negative or a positive towards a search in there, you can include certain feeds that you've got in your feeds, and do those three things with it. Are those the only three actions you can do with it?
+**Adam Stacoviak:** That's interesting. So essentially, you're creating an action, doing some sort of grep on it, which could be a negative or a positive towards a search in there, you can include certain feeds that you've got in your feeds, and do those three things with it. Are those the only three actions you can do with it?
 
 **Ben Ubois:** Yeah.
 

@@ -88,7 +88,7 @@ From there, I did the talk Therapeutic Refactoring, which let me travel around a
 
 But I felt like I had kind of done what I had to do there; I really brought testing into the organization. That was kind of what I was hired to do, and I was ready to move on.
 
-I met Jeff from Jumpstart Lab at a conference, and we talked, and eventually -- well, he sent me an e-mail saying that I should work for him...
+I met Jeff from Jumpstart Lab at a conference, and we talked, and eventually -- well, he sent me an email saying that I should work for him...
 
 **Adam Stacoviak:** That's always nice.
 
@@ -104,7 +104,7 @@ I met Jeff from Jumpstart Lab at a conference, and we talked, and eventually -- 
 
 **Jerod Santo:** Okay.
 
-**Adam Stacoviak:** I understand that earlier this year was -- you're now in Denver, which we've mentioned a bit ago, but... So now you're in Denver, and this was like (I guess) January timeframe, or first part of the year timeframe; you came and officially began at Jumpstart, and moved... I guess you played \[unintelligible 00:12:18.27\] Jumpstart Lab, and now you're in Denver, which is -- I was up in Denver in the summertime and I loved Denver; I think it's beautiful. The mountains, having that as the backdrop is just amazing for -- you know, just the scene...
+**Adam Stacoviak:** I understand that earlier this year was -- you're now in Denver, which we've mentioned a bit ago, but... So now you're in Denver, and this was like (I guess) January timeframe, or first part of the year timeframe; you came and officially began at Jumpstart, and moved... I guess you played on short end of Jumpstart Lab, and now you're in Denver, which is -- I was up in Denver in the summertime and I loved Denver; I think it's beautiful. The mountains, having that as the backdrop is just amazing for -- you know, just the scene...
 
 **Katrina Owen:** Yeah, it is an amazing place. The weather here is absolutely amazing. Sunshine, except every once in a while, but only for a very short time, it will rain or snow.
 
@@ -264,7 +264,7 @@ Jerod, you and I have had some side conversations about the state of flow even -
 
 **Katrina Owen:** Right...?
 
-**Adam Stacoviak:** That's funny... Yeah, I think that's kind of the adventurous part of Ruby; there's so many different ways that you could do things, but \[unintelligible 00:35:16.20\] Jerod, where you're like "Just tell me how to do it, the one way, so I can think about the real problem, versus the style that I have to execute this. I can do it 15 ways, but which way is really the right way to do it? Just give me those training wheels and I'll go."
+**Adam Stacoviak:** That's funny... Yeah, I think that's kind of the adventurous part of Ruby; there's so many different ways that you could do things, but I can limit... like what you were saying Jerod, where you're like "Just tell me how to do it, the one way, so I can think about the real problem, versus the style that I have to execute this. I can do it 15 ways, but which way is really the right way to do it? Just give me those training wheels and I'll go."
 
 So I guess we talked about Go a bit here... Originally, the CLI was written in Ruby, right? So was it something with Ruby that made you change, or was it simply to wanna play with Go, to do it in that?
 
@@ -274,7 +274,7 @@ So I guess we talked about Go a bit here... Originally, the CLI was written in R
 
 **Katrina Owen:** \[00:36:09.17\] ...and it's really a pain to set up all the Ruby -- like, setting up Ruby on your machine is actually quite an ordeal, especially if you don't know Ruby. So with the Go, it's possible to cross-compile for all the different operating systems and architectures, and people just have to download and install this one binary, and that's it. No dependencies.
 
-**Adam Stacoviak:** So on the homepage that you have, the Try It version, the \[unintelligible 00:36:38.12\] Will that eventually go away, or is it dead and you just haven't removed it yet?
+**Adam Stacoviak:** So on the homepage that you have, the Try It version, the quickie, "don't worry about telling us your Github", "just do it now" version, I guess, will that eventually go away, or is it dead and you just haven't removed it yet?
 
 **Katrina Owen:** Oh, the one that says "Ruby"?
 
@@ -320,7 +320,7 @@ Some people are doing exercises in the language that they use primarily, and usi
 
 **Katrina Owen:** Right?! \[laughter\]
 
-**Adam Stacoviak:** That's why I hate money, because when you start working only because you wanna make the \[unintelligible 00:41:38.24\] or whatever -- it's not cool. It changes the perspective.
+**Adam Stacoviak:** That's why I hate money, because when you start working only because you wanna make the benzies or whatever -- it's not cool. It changes the perspective.
 
 **Jerod Santo:** It's even worse on the internet where you're basically modifying your own behavior in order to affect the number in somebody's database on some server somewhere across the world... "Right now it's a 12, and I really want that number to be 13." It's so arbitrary and really valueless.
 
@@ -450,7 +450,7 @@ Thank you so much for taking the time to come on this show. Is there anything el
 
 **Adam Stacoviak:** Yeah, it's been an honor to have you on the show. I know that Jerod was a fan of yours with that talk that we've mentioned during the show, and I'm becoming more and more of a fan/stalker, whatever you wanna call it, but... Yeah, that's for sure.
 
-Definitely thank you for what you're doing with Exercism. Keep in touch, too. Whatever's changing, whatever's happening, get back with us as you have time. I know you're really busy, but we'd love to help you keep this in front of the people who are wanting to do a lot of this... So whatever \[unintelligible 00:52:57.23\] we can help you mention, we definitely wanna do that, for sure.
+Definitely thank you for what you're doing with Exercism. Keep in touch, too. Whatever's changing, whatever's happening, get back with us as you have time. I know you're really busy, but we'd love to help you keep this in front of the people who are wanting to do a lot of this... So whatever updates we can help you mention, we definitely wanna do that, for sure.
 
 I also wanna thank our sponsor for this show, Digital Ocean. As I mentioned, we've been working with Digital Ocean for quite a while, and we're working with them over the next few months to kind of help them spread the news to the developer community about some of the awesome things that they're working on and ways they're supporting the community.
 
@@ -466,7 +466,7 @@ And we've talked about Docker quite a bit; we've had Solomon Hykes on this show 
 
 **Adam Stacoviak:** Very generous. I think that's one part of why they've made some inroads into the community. One thing I've heard -- and this is kind of elongated, just because I absolutely love Digital Ocean... But I've just heard people say "They're not that expensive, so how can they be good?" Well, don't let the price fool you; they just really want your business because they wanna show you how awesome they are.
 
-If you're the kind of person too that likes to decorate your laptop, you can send an e-mail to barry@digitalocean.com. Just tell him your shipping address and he's gonna ship you some Digital Ocean stickers.
+If you're the kind of person too that likes to decorate your laptop, you can send an email to barry@digitalocean.com. Just tell him your shipping address and he's gonna ship you some Digital Ocean stickers.
 
 I've got a couple links in the show notes I'll put there for you, and I also wanna plug the coupon (promo) code we have, which is "the changelog october". If you use that when you sign up, you'll save $10.
 

@@ -50,7 +50,7 @@ I was like, "I get to work on open source, and I get paid not a pittance, so I c
 
 **Nadia Eghbal:** Maybe this is a dumb question, but because Spree is a user-facing application, which is kind of different from the types of open source project we've had on here before, was Spree being open source - did that change how you thought about the community manager role? Was it like being a community manager at any other company? Was anything about that particular to open source?
 
-**Ryan Bigg:** I've never been a community manager at any other company so far; Spree is my only experience with that. What we were doing at Spree was mainly answering e-mails, maintaining the GitHub issues, doing new releases and that sort of thing. I don't know if it's any different to any other community manager role. I didn't really get to talk to many other community managers and I really wish I did, because I think I would have got a lot better -- I would have built up a support network, and that may have prevented the burnout.
+**Ryan Bigg:** I've never been a community manager at any other company so far; Spree is my only experience with that. What we were doing at Spree was mainly answering emails, maintaining the GitHub issues, doing new releases and that sort of thing. I don't know if it's any different to any other community manager role. I didn't really get to talk to many other community managers and I really wish I did, because I think I would have got a lot better -- I would have built up a support network, and that may have prevented the burnout.
 
 **Mikeal Rogers:** You mentioned that you were traveling a lot and going to conferences and stuff like that - what was your schedule like? How much were you actually traveling?
 
@@ -62,7 +62,7 @@ The glamorous side is that you get to meet all these people and they're like "Oh
 
 **Nadia Eghbal:** Do you think some of that contributed to the feeling of burnout in that type of a role?
 
-**Ryan Bigg:** Yes, absolutely. It's this -- what's the word I'm looking for? Not Messiah complex... Fanboyism, hero worship probably is the better term for it. People think you're the most amazing thing and you do all this amazing work, and therefore my feelings for that were "People think I'm amazing, so I have to continually be amazing, I have to continually push the envelope and continue working and reply to all these issues and reply to all these e-mails and just keep going, keep going, keep going." I think that's definitely a contributing factor to the burnout; I felt like I had to be the hero.
+**Ryan Bigg:** Yes, absolutely. It's this -- what's the word I'm looking for? Not Messiah complex... Fanboyism, hero worship probably is the better term for it. People think you're the most amazing thing and you do all this amazing work, and therefore my feelings for that were "People think I'm amazing, so I have to continually be amazing, I have to continually push the envelope and continue working and reply to all these issues and reply to all these emails and just keep going, keep going, keep going." I think that's definitely a contributing factor to the burnout; I felt like I had to be the hero.
 
 **Nadia Eghbal:** \[00:12:26.23\] Do you feel the same way about documentation as well? That sort of hero worship?
 
@@ -124,9 +124,9 @@ What happened after that was from November through to (I think it was) June or J
 
 **Ryan Bigg:** Yeah, there was just so much extra stuff I just couldn't get done in the regular work day. Because the work day wasn't just all about the open source issues and code and pull requests and documentation, it was about replying to users on IRC, there were long discussions there; big issue threads on GitHub and also on the mailing list. It was just all of these conversations that were ongoing, kind of like "touch this one, touch that one, touch that out. Okay, good, now I can get back to open source." And it felt like this massive pile of work that I had to do. It was very tough.
 
-**Nadia Eghbal:** Had you tried anything prior to straight up quitting? Like "Maybe I just need to manage my e-mail better" or whatever, and then did you just hit a point where it was like "Nope. No, this is more than that."
+**Nadia Eghbal:** Had you tried anything prior to straight up quitting? Like "Maybe I just need to manage my email better" or whatever, and then did you just hit a point where it was like "Nope. No, this is more than that."
 
-**Ryan Bigg:** Yeah, I kept trying to manage the e-mail, but it's hard. "This news stuff that wasn't important, bounce it to the next day" sort of thing; I was trying to ask for support from Spree (the organization), I was just asking for somebody else to help maintain the open source issues, because that was just me doing that.
+**Ryan Bigg:** Yeah, I kept trying to manage the email, but it's hard. "This news stuff that wasn't important, bounce it to the next day" sort of thing; I was trying to ask for support from Spree (the organization), I was just asking for somebody else to help maintain the open source issues, because that was just me doing that.
 
 \[00:24:04.02\] There was interest from this company called FreeRunning Technology who is now called Stembolt, and they were doing some open source maintenance, but they weren't as interested as they are now. They actually run the fork of Spree called Solidus and they're maintaining that, because after I quit, Spree kind of fell down; it had to lie down. So these Stembolt guys picked it up as Solidus... I wish they would have done that earlier; I would probably be continuing my work with them, but you know... Things happen.
 

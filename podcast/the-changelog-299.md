@@ -28,7 +28,7 @@ So many things go what we might consider wrong - wrong in terms of sustainabilit
 
 **Adam Stacoviak:** That's a lot of time.
 
-**Daniel Stenberg:** It is totally a part of my life, and I've been doing it -- the first code I wrote was even before curl. \[unintelligible 00:06:39.01\] it's like 23 years. Yeah, it's older than my kids, it's older than my house, I've switched jobs like 3-4 times since then... So it's one of the most constant factors in my life, really. It's been with me since forever. So yes, it's really something that I don't really consider giving up ever, because it's me, really.
+**Daniel Stenberg:** It is totally a part of my life, and I've been doing it -- the first code I wrote was even before curl. Its been like 23 years. Yeah, it's older than my kids, it's older than my house, I've switched jobs like 3-4 times since then... So it's one of the most constant factors in my life, really. It's been with me since forever. So yes, it's really something that I don't really consider giving up ever, because it's me, really.
 
 **Adam Stacoviak:** Do you own the full copyright to curl, or is it a community? What's the structure, maybe the legal implications of the ownership of it?
 
@@ -60,7 +60,7 @@ But at the same time, the way I do the project, I also know that I have a pretty
 
 **Daniel Stenberg:** Right, yeah. But of course, I would like the project to be more distributed to more people than we are right now, and I'm trying to make that happen, but it's not -- I think I've sort of laid the groundwork for one way to work, and it has sort of developed into this, so it's not that easy to just say that "No, no, I just wanna do a little part in my corner here. You go ahead and do everything else", because there aren't that many others who are prepared to jump in and do the other stuff.
 
-**Adam Stacoviak:** I can recall several years ago when we talk to you before, you mentioned how some of the income you've been able to make obviously has been because of contract jobs that you've done for various companies to add features, or specific things... You know, I'm just imagining that it's very difficult to piecemeal and break off some of that whenever it's so kind of you focused in the minutiae of it... And it's not exactly - I don't wanna say not the \[unintelligible 00:11:44.03\] I've never done it, obviously, but it doesn't have this lure, like some other popular projects may have, like "Hey, come and be a contributor, and you'll have this glorious open source lifestyle." \[laughter\] I'm not sure there's much draw; how do you draw people into this project with you?
+**Adam Stacoviak:** I can recall several years ago when we talk to you before, you mentioned how some of the income you've been able to make obviously has been because of contract jobs that you've done for various companies to add features, or specific things... You know, I'm just imagining that it's very difficult to piecemeal and break off some of that whenever it's so kind of you focused in the minutiae of it... And it's not exactly - I don't wanna say not the funnest work. I've never done it, obviously, but it doesn't have this lure, like some other popular projects may have, like "Hey, come and be a contributor, and you'll have this glorious open source lifestyle." \[laughter\] I'm not sure there's much draw; how do you draw people into this project with you?
 
 **Daniel Stenberg:** \[00:12:01.14\] Yeah, that's a good question... I don't know.
 
@@ -96,7 +96,7 @@ It also goes back to this constant question... I say, "Yeah, I've been working w
 
 **Daniel Stenberg:** What have I been doing - that's a completely natural question, and it's not a bad question, it's just that, you know, when you're working with something and the facade or the front is the same, and the whole point with the tool and the library is that it should work the same way... We work really hard to make sure that it keeps working the same way, but of course, we added a little stuff, and we fixed bugs, and stuff. But the point is that you shouldn't realize that a lot of stuff underneath actually changed and we sort of replaced half of the engine, and added a lot of other things, or documented everything again in another way; you don't have to think about that.
 
-I wanna sometimes help people in the project and people around me to realize that we are actually doing a lot of things that even if you may not think of all these changes and you used curl the same way ten years ago, we have actually also added a whole bus load of things just the last few years, and here are some of those things that you can now do that you couldn't do before, and blah-blah-blah; why that is good, and how this helps your application or your usage of this in the future, and so on. And also - we're having \[unintelligible 00:17:26.06\] but we're adding a lot of features. We have 215 command line options...
+I wanna sometimes help people in the project and people around me to realize that we are actually doing a lot of things that even if you may not think of all these changes and you used curl the same way ten years ago, we have actually also added a whole bus load of things just the last few years, and here are some of those things that you can now do that you couldn't do before, and blah-blah-blah; why that is good, and how this helps your application or your usage of this in the future, and so on. And also -  we're adding a lot of features. We have 215 command line options...
 
 **Jerod Santo:** Wow.
 
@@ -160,7 +160,7 @@ I've actually just landed it in Git, so it'll be for the next curl release, the 
 
 **Daniel Stenberg:** \[00:23:50.17\] I think it's mostly a lot of internal decisions on how to do HTTP, and show headers... You know, we have this concept of headers, and curl supports a lot of different protocols, and some of them have the internal concept of headers, but I only wanted to do the bold for HTTP headers. So it was mostly because of how I had done this with curl until now, or not done it.
 
-And also, I had to change -- I don't know how to explain it, but headers come from \[unintelligible 00:24:31.26\] at the end of the line, so you wanna make sure that you actually do this on a complete header, and not on a partial header. So if it would be an extremely long header, it would still need code to handle -- that would only do the left part and not the right part of it, so it was a lot of finicky internal things.
+And also, I had to change -- I don't know how to explain it, but headers come until the carriage return line at the end of a feed, so you wanna make sure that you actually do this on a complete header, and not on a partial header. So if it would be an extremely long header, it would still need code to handle -- that would only do the left part and not the right part of it, so it was a lot of finicky internal things.
 
 **Jerod Santo:** Good old-fashioned yak shave.
 
@@ -168,7 +168,7 @@ And also, I had to change -- I don't know how to explain it, but headers come fr
 
 **Break:** \[00:25:31.02\]
 
-**Adam Stacoviak:** So I guess we came to this conversation through an embarrassing moment for me... It was early in the morning on a Sunday, and somebody in our Slack - Daniel - had said "Hey, what's the state of HTTP/2 and where is it going?" and I'm like "Great question, we should ask Ilya. We've had him on the show a while back, and it'd be great to catch up. I send him an e-mail with the subject line "Current state of HTTPS?", not /2, and I had to quickly check that, because that was obviously not right... But I was reaching out to essentially get an update on TLS 1.3, QUIC, and some other stuff... So maybe help us understand -- he said that you're working on this; you've got a lot of stuff going on. What's going on?
+**Adam Stacoviak:** So I guess we came to this conversation through an embarrassing moment for me... It was early in the morning on a Sunday, and somebody in our Slack - Daniel - had said "Hey, what's the state of HTTP/2 and where is it going?" and I'm like "Great question, we should ask Ilya. We've had him on the show a while back, and it'd be great to catch up. I send him an email with the subject line "Current state of HTTPS?", not /2, and I had to quickly check that, because that was obviously not right... But I was reaching out to essentially get an update on TLS 1.3, QUIC, and some other stuff... So maybe help us understand -- he said that you're working on this; you've got a lot of stuff going on. What's going on?
 
 **Daniel Stenberg:** There's a lot of stuff going on. Well, HTTP/2 - that shipped three years ago, right? Our last episode... And the RFC was published in May 2015, so yeah. And now, three years later, the work is of course no longer going on standard-wise on HTTP/2 very much. There are still things happening in HTTP/2, but the fundamentals are there, and it's good, and it's working, and it's being used.
 
@@ -205,7 +205,7 @@ Anyway, Google took their efforts to the IETF and said "We should make a standar
 
 **Daniel Stenberg:** TCP is like setting up a string between two computers - a physical string - and you pass on data in one end, and it will arrive in the other end. Or it might get connected, but the data will arrive or not arrive at all. But it will arrive, and it will unaltered, and it will arrive in the same order that it was sent from the sender.
 
-So it's basically a way to transport data and make sure that it's a reliable transport in both directions... But UDP on the other hand is basically sending notes in the air, writing pieces of paper and throwing them \[unintelligible 00:33:36.13\]
+So it's basically a way to transport data and make sure that it's a reliable transport in both directions... But UDP on the other hand is basically sending notes in the air, writing pieces of paper and throwing them away.
 
 **Jerod Santo:** Message in a bottle.
 
@@ -215,7 +215,7 @@ So it's basically a way to transport data and make sure that it's a reliable tra
 
 **Daniel Stenberg:** But it was never on a really wide scale, high-speed internet scale like this... So that's always been one of the biggest concerns, "Will UDP break stuff now? Because we haven't designed things for UDP at this level." But over time it has proven that most of the things actually work pretty well anyway, and over time people have also adjusted things and improved infrastructure, and routers, and things... So things are going better.
 
-And looking at Google's numbers, they claim that they -- my number is old now, but they said already like a year or two ago that 7% of the internet is quick already, and that's quite a big share of data running \[unintelligible 00:34:49.13\]
+And looking at Google's numbers, they claim that they -- my number is old now, but they said already like a year or two ago that 7% of the internet is QUIC already, and that's quite a big share of data running...
 
 **Adam Stacoviak:** So QUIC is the new version of what HTTP/2 has been, right? The evolution of HTTP/1 to HTTP/2 is now coming to QUIC, and...
 
@@ -253,7 +253,7 @@ And looking at Google's numbers, they claim that they -- my number is old now, b
 
 **Daniel Stenberg:** Exactly. That's what they call ossification nowadays. And the grand solution to that is encrypt everything, so that none of these middleboxes can actually peek into those little bits and bytes.
 
-**Jerod Santo:** \[unintelligible 00:41:16.12\]
+**Jerod Santo:** Sniff your packets, yeah.
 
 **Daniel Stenberg:** Exactly, they can't figure out you wanted this, because they don't know it, they just have to pass it on... So then you can add things, over time. That is one reason why QUIC is now really encrypted, as much as possible, really.
 
@@ -261,7 +261,7 @@ But that shows how it's hard to change even TCP over the wire, but then also jus
 
 And then there is another technical problem, for example, that TCP has and HTTP/2 - it's the problem with packet loss. When HTTP/2 was introduced, the new method of doing transfers was a lot of streams over a single physical connection... So you would typically do 100 streams of the same TCP connection, just a lot of logical streams over it, which is a good way to do a lot of parallel transfers, but only using one connection.
 
-This is really good, as long as your network is decent, and it turns out that if your network turns out to be very lossy and you start losing packets, then having just a single TCP connection is really not ideal... Because then losing one packet \[unintelligible 00:43:07.12\] that means that you're waiting for one packet to get resent to get those 100 streams continued, while previously you would do typically perhaps six connections per host, and you would do sharding, you would maybe have 20 connections or 30 connections with HTTP/1.1 to sites.
+This is really good, as long as your network is decent, and it turns out that if your network turns out to be very lossy and you start losing packets, then having just a single TCP connection is really not ideal... Because then losing one packet in the middle there, that means that you're waiting for one packet to get resent to get those 100 streams continued, while previously you would do typically perhaps six connections per host, and you would do sharding, you would maybe have 20 connections or 30 connections with HTTP/1.1 to sites.
 
 **Jerod Santo:** So it's almost like faster networks get faster, but slow networks get slower. Slow as is in -- unreliable maybe is the better word. Not slow, but unreliable.
 
@@ -347,9 +347,9 @@ I'm not sure why they picked DNS as the other protocol to use here, because... I
 
 **Jerod Santo:** So you still have to require hand-shaking, and you still have the setup time on that very first request, because you don't know if it's gonna be a QUIC server basically, until you do, and then from then on you can assume that and you can also cache that in the client.
 
-**Daniel Stenberg:** Yeah, and it has a lifetime. So if you know you're gonna provide that for a year, you can set up a really long lifetime, so everyone will cache that for a long time. But going back to the ossification, UDP is also not as successful to use over the internet as TCP is. There's still this single-digit percentage of connections that will fail over UDP. That \[unintelligible 00:57:49.22\] handshake QUIC at all. So you still have to have that fallback mechanism to go back to HTTP/2 if the QUIC connection doesn't work... At least that is what we're doing now, and for the forseeable future.
+**Daniel Stenberg:** Yeah, and it has a lifetime. So if you know you're gonna provide that for a year, you can set up a really long lifetime, so everyone will cache that for a long time. But going back to the ossification, UDP is also not as successful to use over the internet as TCP is. There's still this single-digit percentage of connections that will fail over UDP. That sort of never handshake QUIC at all. So you still have to have that fallback mechanism to go back to HTTP/2 if the QUIC connection doesn't work... At least that is what we're doing now, and for the forseeable future.
 
-**Jerod Santo:** Now, you're telling me that there's no such thing as a post-TCP world then, because \[unintelligible 00:58:08.28\] forever. \[laughter\]
+**Jerod Santo:** Now, you're telling me that there's no such thing as a post-TCP world then, because suck with this forever. \[laughter\]
 
 **Adam Stacoviak:** Post-TCP-first.
 

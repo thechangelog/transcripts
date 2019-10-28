@@ -46,9 +46,9 @@ We had two sponsors for today's show, Rollbar and Compose.
 
 **Jerod Santo:** \[laughs\] Adam and I met on the internet just a few short years ago.
 
-**Adam Stacoviak:** How long did it take us to actually meet face-to-face?
+**Adam Stacoviak:** How long did it take us to actually meet face-to-face? Two years?
 
-**Jerod Santo:** I started helping out in early 2013, and the first time we met was at \[unintelligible 00:04:30.00\], wasn't that? In November 2015...?
+**Jerod Santo:** I started helping out in early 2013, and the first time we met was at Keep Ruby Weird, wasn't that? In November 2015...?
 
 **Adam Stacoviak:** 2014.
 
@@ -64,7 +64,7 @@ We had two sponsors for today's show, Rollbar and Compose.
 
 **Adam Stacoviak:** Oh, boy... Anyways...
 
-**Jerod Santo:** Well, thanks for the warm fuzzy \[unintelligible 00:04:54.04\]
+**Jerod Santo:** Well, thanks for the warm fuzzies, back to-
 
 **Adam Stacoviak:** \[laughs\] Back to Peter. Peter, we like to show the listeners the backstory of -- something like this coming to be is kind of figuring out where you came from. Help us understand what your backstory is. How did you get into programming?
 
@@ -120,7 +120,7 @@ The tools at that time didn't have a good way to find those pages that weren't w
 
 **Jerod Santo:** How long was your paternity leave, Adam?
 
-**Adam Stacoviak:** \[00:11:55.18\] Well, my paternity leave was not given by the government, it was given by me... It was maybe two weeks. I think I even did a little bit of work during that, but I was mostly just e-mail checking. I did not get to fully enmesh myself in the process, which did suck. Then obviously when I got back, there was a pile of stuff to do.
+**Adam Stacoviak:** \[00:11:55.18\] Well, my paternity leave was not given by the government, it was given by me... It was maybe two weeks. I think I even did a little bit of work during that, but I was mostly just email checking. I did not get to fully enmesh myself in the process, which did suck. Then obviously when I got back, there was a pile of stuff to do.
 
 **Jerod Santo:** So you didn't get a year off to work on open source?
 
@@ -136,7 +136,7 @@ The tools at that time didn't have a good way to find those pages that weren't w
 
 **Jerod Santo:** It's nice that you had a year to raise them up. And you found yourself getting a little bit bored, is that the case?
 
-**Peter Hedenskog:** Yes. \[laughter\] \[unintelligible 00:12:38.16\]
+**Peter Hedenskog:** Yes. \[laughter\] So erm, in Sweden you...
 
 **Jerod Santo:** Cut to the chase.
 
@@ -158,9 +158,9 @@ The tools at that time didn't have a good way to find those pages that weren't w
 
 **Peter Hedenskog:** Yeah, so it was a shell script, but the crawler was written in Java, because Java was the thing I did -- doing something really fast, then I did it in Java at that time. But it was a bash script, so it was super simple... But it's hard to... When it gets bigger and bigger, it's hard for people to help out if it's built in the shell script, I think. That was 1.0.
 
-So I was crawling the site, and you could test a couple of URLs, and you were testing against the web performance best practice rules, YSlow in like a modified version. What's missing then was actually collecting reading metrics like how fast is the first ping time, or \[unintelligible 00:15:46.03\] time...
+So I was crawling the site, and you could test a couple of URLs, and you were testing against the web performance best practice rules, YSlow in like a modified version. What's missing then was actually collecting reading metrics like how fast is the first ping time, or DOMContentLoaded time...
 
-\[00:15:50.20\] So I built a super simple version in Java that was driving a browser in Selenium to collect those metrics. So you can use the navigation time API, \[unintelligible 00:16:02.28\] and now resource time API to get some metrics right from the browser. So that was the aim for 2.0.
+\[00:15:50.20\] So I built a super simple version in Java that was driving a browser in Selenium to collect those metrics. So you can use the navigation time API, user timing API and now resource time API to get some metrics right from the browser. So that was the aim for 2.0.
 
 Then I got help from my friend Tobias that I worked with at a previous company. I had an idea of what it would be like, and I did a rough version, and then he could make it better - making a good structure... And what's cool about it is we did a rewrite of the whole code to Node.js, and then I also did the first version, and then he did the more structured version. I think we worked well together because he got the structure and I could have the ideas and do the first version, and then he can help out doing stuff in a really good way.
 
@@ -248,9 +248,9 @@ So the thing we wanted to do is to split it into multiple different tools instea
 
 **Jerod Santo:** Okay... Go on, what other modules or what other sections are there for the new version?
 
-**Peter Hedenskog:** Yeah, that's the cool thing, because that one you can use standalone, you can build a \[unintelligible 00:30:03.20\] So you can run it standalone and get the feedback for a page. That's one thing. Another fun thing is pageXray, because the HAR file format - the format that describes how different assets are downloaded by the browser - is quite hard to work with, it's not a good JSON format, so we tried to convert it to a format that everyone can understand, and telling you more about what the page is built upon, like how many Javascripts, how many CSS files and so on. So that's one thing, pageXray.
+**Peter Hedenskog:** Yeah, that's the cool thing, because that one you can use standalone, you can build a bookmarklet and you can build a plugin for Firefox. So you can run it standalone and get the feedback for a page. That's one thing. Another fun thing is pageXray, because the HAR file format - the format that describes how different assets are downloaded by the browser - is quite hard to work with, it's not a good JSON format, so we tried to convert it to a format that everyone can understand, and telling you more about what the page is built upon, like how many Javascripts, how many CSS files and so on. So that's one thing, pageXray.
 
-The third thing, that we were actually using in 3.0 also, is Browsertime. Browsertime is the thing that Tobias has been working the most on. It drives the browser, so it uses Selenium to start Firefox or Chrome and execute some Javascript to collect some metrics. Browsertime was originally focused on just collecting timing metrics, like timings from the navigation timing API, but now it just executes Javascript. So it's a Javascript runner inside the browser, and then takes the metrics back, and you can say "Test this page five times and give me the median metric of the \[unintelligible 00:31:35.05\] load time", for example. So it collects a lot of metrics.
+The third thing, that we were actually using in 3.0 also, is Browsertime. Browsertime is the thing that Tobias has been working the most on. It drives the browser, so it uses Selenium to start Firefox or Chrome and execute some Javascript to collect some metrics. Browsertime was originally focused on just collecting timing metrics, like timings from the navigation timing API, but now it just executes Javascript. So it's a Javascript runner inside the browser, and then takes the metrics back, and you can say "Test this page five times and give me the median metric of the DOMContentLoaded time", for example. So it collects a lot of metrics.
 
 Then on top of that is SiteSpeed. In SiteSpeed you have the crawler, you can send the data to Graphite (and soon InfluxDB), you can have your own performance budget, so you can run it in your build tool so it can check your site on the way out to see, "Okay, we can break the build, for example, if the site is too slow", or if you have a massive amount of Javascript, or whatever kind of rules you set up.
 
@@ -288,7 +288,7 @@ Where you should use SiteSpeed is you can either use it on testing your code on 
 
 **Jerod Santo:** So let's talk about a performance budget. Is this something where everybody gets together and decides, you know, 300 ms is good for us in terms of a certain threshold of our page loading? When we talk about when a web page loads, you have a lot of different things that that could mean: you have time to first paint, you have DOM ready, you have completely loaded... You have all these different things, so maybe tell us how you'd go about stating a performance budget to break a build, and how granular you can be with those types of rules that you're giving there.
 
-**Peter Hedenskog:** Yeah, so in the old version, and I think most of the tools I've seen has done it like you can set a hard \[unintelligible 00:36:59.02\] to happen within 1,000 ms, or you can set up to break the build if your amount of transfer size of the Javascript is like 200 kb, or whatever. And that's good in a way, but what we are aiming for in the new version is that you can catch regression. So instead of setting a hard limit, you can see "Okay, we are doing 10% slower than yesterday, or 10% slower than the last build", or "We have a 10% bigger Javascript file." So it's better to compare with the past instead. To have those limits works in some cases, but to be able to find stuff, it's good to have comparing and find regression, I think. So that will be part of the new version, to make it easier for people, because how can you decide...? You set a limit, and it's like "Yeah, who knows if it's the right limit or not?" It's better to make sure that you don't catch regressions, I think. \[unintelligible 00:38:11.23\] can capture regressions, of course.
+**Peter Hedenskog:** Yeah, so in the old version, and I think most of the tools I've seen has done it like you can set a hard budget, so you say, DOMContentLoaded will need to happen within 1,000 ms, or you can set up to break the build if your amount of transfer size of the Javascript is like 200 kb, or whatever. And that's good in a way, but what we are aiming for in the new version is that you can catch regression. So instead of setting a hard limit, you can see "Okay, we are doing 10% slower than yesterday, or 10% slower than the last build", or "We have a 10% bigger Javascript file." So it's better to compare with the past instead. To have those limits works in some cases, but to be able to find stuff, it's good to have comparing and find regression, I think. So that will be part of the new version, to make it easier for people, because how can you decide...? You set a limit, and it's like "Yeah, who knows if it's the right limit or not?" It's better to make sure that you don't catch regressions, I think. That you can capture regressions, of course.
 
 **Jerod Santo:** So previously you used PhantomJS and recent news around Chrome dev tools is this new headless version of Chromium, right? I can't remember what it's called - is it called just Headless? I don't know. But it's upcoming, and I assume that that's something that will affect you perhaps in a good way and perhaps in a bad way. What's your reaction to that news, that the Chrome team is gonna have this headless version available? Upcoming soon.
 
@@ -344,7 +344,7 @@ So you have a Docker container for SiteSpeed, and then again a Docker container 
 
 **Peter Hedenskog:** Yeah, so we are five members of the team. It's Ori, Timo, Gilles, Aaron and me, and we do different... You know, it's a big site and we have different specialties. I work on WebPagetest - the other tool, not SiteSpeed.io - that we use to measure performance. We have been working on trying to do some technic testing where we test parts of the site or a couple of pages to see if we can find performance regressions.
 
-I've built some open source tools around that, to measure the sites. I'm now focused on an extension to the \[unintelligible 00:49:29.20\] It's helping users to know if an article page on Wikipedia can be better for performance, to get a hint on what you can do and change things to make it faster. What's really cool about Wikipedia is that we have a lot of users that really care, and they create content and they do fantastic things, and if we as performance engineers can help them to make the site faster, that's the best thing... Because, okay, we have a couple of engineers; there's a really big site, and we have a really big amount of users, and if we can give them the tools to make the site faster, that's the best thing, because then we're empowering them to make it better. So that's what I've been working on the last months.
+I've built some open source tools around that, to measure the sites. I'm now focused on an extension to the MediaWiki. It's helping users to know if an article page on Wikipedia can be better for performance, to get a hint on what you can do and change things to make it faster. What's really cool about Wikipedia is that we have a lot of users that really care, and they create content and they do fantastic things, and if we as performance engineers can help them to make the site faster, that's the best thing... Because, okay, we have a couple of engineers; there's a really big site, and we have a really big amount of users, and if we can give them the tools to make the site faster, that's the best thing, because then we're empowering them to make it better. So that's what I've been working on the last months.
 
 **Jerod Santo:** One of the major ways to increase performance nowadays is still - I mean, it's out there in production, but it's still kind of on the edge - implementing HTTP/2. Is that something at Wikimedia Foundation that you guys have done or are interested in?
 
@@ -356,13 +356,13 @@ I've built some open source tools around that, to measure the sites. I'm now foc
 
 **Jerod Santo:** Any stories from that? Was it easy? Did it take a long time? Were there many bumps in the road?
 
-**Peter Hedenskog:** I haven't been working on that... What was important for us was to make sure that we did the switch when we had the same amount of users that were using HTTP/2 as were using Speedy; we didn't do the switch too early so people are losing on performance. But I haven't been working on that, so I have no \[unintelligible 00:52:00.17\]
+**Peter Hedenskog:** I haven't been working on that... What was important for us was to make sure that we did the switch when we had the same amount of users that were using HTTP/2 as were using Speedy; we didn't do the switch too early so people are losing on performance. But I haven't been working on that, so I have no story on that.
 
-\[00:52:04.22\] But it's cool, because HTTP is the future, but still, it will not solve everything; it's still problematic. You need to know what you're doing, and you need to make sure, because... Yeah. And also, the service that supports HTTP/2 have a lot of things to do to make sure that you can prioritize content, and make sure that the prioritizing is right, so the browser can start to render the content as \[unintelligible 00:52:31.28\] as possible. I mean, it's really early in HTTP/2's life. There's a lot of things that can be done, I think.
+\[00:52:04.22\] But it's cool, because HTTP/2 is the future, but still, it will not solve everything; it's still problematic. You need to know what you're doing, and you need to make sure, because... Yeah. And also, the service that supports HTTP/2 have a lot of things to do to make sure that you can prioritize content, and make sure that the prioritizing is right, so the browser can start to render the content as early as possible. I mean, it's really early in HTTP/2's life. There's a lot of things that can be done, I think.
 
 **Jerod Santo:** So one last question and then we're gonna talk about how people can get involved and help out with SiteSpeed.io. As a performance geek, give us this: if you had to talk to a total beginner or an outsider with regards to website performance, and you had to give three tips (you can only give three, you can't give four). Three tips, low-hanging fruit - what should I be doing to make sure that my website is fast? What were the three things that you would tell that person?
 
-**Peter Hedenskog:** First, I would make sure that the cache shedders are set, so that assets are cached, so the browser doesn't ask for the same assets over and over again. For example, if you hit one page and then go to the next page and you use the same Javascript and the same CSS, the browser doesn't need to download it. That's really important, because if you don't do the request, then it will be much faster. So that's really good.
+**Peter Hedenskog:** First, I would make sure that the cache headers are set, so that assets are cached, so the browser doesn't ask for the same assets over and over again. For example, if you hit one page and then go to the next page and you use the same Javascript and the same CSS, the browser doesn't need to download it. That's really important, because if you don't do the request, then it will be much faster. So that's really good.
 
 The other one thing that even with HTTP/2 is probably really important is inlining CSS. When I started a long time ago inlining CSS inside the HTML was like the most ugliest thing that you could do, because you needed to have some structure and you needed to have have the files, but on mobile, on a really slow connection, you want to make sure that the browser can start to render things really early, so you want to inline the critical CSS that can make sure that you can start rendering the page. So that's really cool, but still, that one is maybe not for a beginner because it's a little bit hard to make, but it's really cool because it's important.
 
@@ -370,9 +370,9 @@ The other one thing that even with HTTP/2 is probably really important is inlini
 
 **Peter Hedenskog:** Yes.
 
-**Adam Stacoviak:** Above the fold, so to speak, there's \[unintelligible 00:54:35.26\] when you say "inline", do you mean the head of the document, or do you mean actually inline in the elements, as a style attribute?
+**Adam Stacoviak:** Above the fold, so to speak, there's... I saw something recently about that, but when you say "inline", do you mean the head of the document, or do you mean actually inline in the elements, as a style attribute?
 
-**Peter Hedenskog:** As a style. You do it in the head, right? You add the style... Instead of doing the request, you just inline it inside of the head. So when the browser is finished with the head, it can start rendering the page, because it's been setting up the \[unintelligible 00:55:03.12\] structure.
+**Peter Hedenskog:** As a style. You do it in the head, right? You add the style... Instead of doing the request, you just inline it inside of the head. So when the browser is finished with the head, it can start rendering the page, because it's been setting up the CSS object structure.
 
 **Adam Stacoviak:** Gotcha.
 
@@ -384,17 +384,17 @@ The other one thing that even with HTTP/2 is probably really important is inlini
 
 **Jerod Santo:** Alright, what's your number three tip here?
 
-**Peter Hedenskog:** Number three... Let me think about that. Number three would be for me to make sure that you only deliver things that you are using. A lot of sites deliver everything - you have 10, 20, 30 different Javascript libraries that are delivered to the browser and you maybe use 1% of it. On a desktop computer, \[unintelligible 00:55:47.10\] that doesn't matter, but when you are on a mobile phone and you are on a slow connection, and you have limited CPU, a lot of Javascript will make your phone slower. So trying to minimize, or at least make sure that you are using the things that you send to the browser, I think that's important.
+**Peter Hedenskog:** Number three... Let me think about that. Number three would be for me to make sure that you only deliver things that you are using. A lot of sites deliver everything - you have 10, 20, 30 different Javascript libraries that are delivered to the browser and you maybe use 1% of it. On a desktop computer, like a fast computer, that doesn't matter, but when you are on a mobile phone and you are on a slow connection, and you have limited CPU, a lot of Javascript will make your phone slower. So trying to minimize, or at least make sure that you are using the things that you send to the browser, I think that's important.
 
 **Adam Stacoviak:** \[00:56:11.15\] Yeah. A follow-up to Jerod's question on those last two, since they... The first one is definitely closer to beginner; the second two seemed a bit more...
 
 **Jerod Santo:** The second two are giving me impostor syndrome already.
 
-**Adam Stacoviak:** Yeah, definitely. \[laughter\] It's something like, okay... What's the fastest - if those are focused on beginners, or just in general, three core things you can do... What are ways to identify what -- it seems like you say to send a minimal amount of HTML, CSS, Javascript on the pipe to the browser, regardless if it's mobile or desktop. But how do you define that, for one, and then tow, the inlining the CSS - you said to focus on what the browser needs to render first. How does one go about doing that? What do you recommend for that?
+**Adam Stacoviak:** Yeah, definitely. \[laughter\] It's something like, okay... What's the fastest - if those are focused on beginners, or just in general, three core things you can do... What are ways to identify what -- it seems like you say to send a minimal amount of HTML, CSS, Javascript on the pipe to the browser, regardless if it's mobile or desktop. But how do you define that, for one, and then two, the inlining the CSS - you said to focus on what the browser needs to render first. How does one go about doing that? What do you recommend for that?
 
-**Peter Hedenskog:** Yeah, so you can use tool. There's tools where you actually can get the CSS that are rendered; I don't have it in my head. But you're right, so maybe these recommendations are more for experienced users. I would say the first one, try to minimize the number of requests in the cache address is perfect, because that's quite easy. Then it will be to make sure that you are compressing all the text that you send, so that HTML, the CSS and Javascript is compressed. Because if you're compressing it and you're sending it over the line, it will be much faster. So that will be number two.
+**Peter Hedenskog:** Yeah, so you can use tools. There's tools where you actually can get the CSS that are rendered; I don't have it in my head. But you're right, so maybe these recommendations are more for experienced users. I would say the first one, try to minimize the number of requests in the cache address is perfect, because that's quite easy. Then it will be to make sure that you are compressing all the text that you send, so that HTML, the CSS and Javascript is compressed. Because if you're compressing it and you're sending it over the line, it will be much faster. So that will be number two.
 
-And then \[unintelligible 00:57:38.21\] try to focus on a simpler number three, that would be... But I mean still, if you are a developer, you need to make sure that you are only using the things that...
+And then I would also try to focus on a simpler number three, that would be... But I mean still, if you are a developer, you need to make sure that you are only using the things that...
 
 **Adam Stacoviak:** That matter.
 
@@ -402,7 +402,7 @@ And then \[unintelligible 00:57:38.21\] try to focus on a simpler number three, 
 
 **Adam Stacoviak:** I don't think when we say beginner we mean somebody who's never built the web before. I think when we say beginner maybe it's "beginner for web performance." Someone who's just slinging CSS, Javascript everywhere and they're like, "Oh, there's such a thing as performance?" and maybe you're like, "Well, hey, you should do caching, you should be concerned about inlining CSS, for example, or only sending down to the browser what you need for that particular page, not the Javascript and CSS for ten other pages. Just for what you're actually trying to render.
 
-**Peter Hedenskog:** Yeah, so then I will say to start measuring, and that will be actually number one. Because if you don't measure, you don't know. It could be that you are super fast, and why should you spend time on trying to do things better, if you are fast \[unintelligible 00:58:47.18\], so start measuring would be the first one.
+**Peter Hedenskog:** Yeah, so then I will say to start measuring, and that will be actually number one. Because if you don't measure, you don't know. It could be that you are super fast, and why should you spend time on trying to do things better, if you are fast already, so start measuring would be the first one.
 
 **Jerod Santo:** I love that.
 
@@ -418,7 +418,7 @@ And then \[unintelligible 00:57:38.21\] try to focus on a simpler number three, 
 
 **Adam Stacoviak:** Well, on the note of promotion, let's promote something that's pretty important, which is help. You have a doc on the repo that I actually sent a pull request to while we were here on the show, which is the best ways to help. Money was at the very bottom, which, you know, it's not always all about money, but obviously, as you said before, you've got a wife, you've got twins, you've got a family, you've got things going on, you've got two team members that are helping you out, so obviously this is an important mission, and a mission that has more and more people jumping on board, so what's the best way for the listening audience to focus on helping, whether it's joining the team, whether it's contributing knowledge, whether it's advocating for support - how can people listening to this show take action today and step in and help out in whatever way?
 
-**Peter Hedenskog:** \[01:00:04.06\] Yeah, perfect. Actually, money is not important to me, but I will start with other things first. If you are a developer and doing stuff there and you like SiteSpeed, I think doing a pull request would be perfect; we've been working at making it easier to tag issues, so you know where you can start and what you can take on, but it's always best to create an issue and talk to us first, so we can guide you through and discuss what you can do. Then making the documentation better, because right now we are lacking a lot of things, and helping us write tests, because \[unintelligible 01:00:40.07\] or other tools have really good tests today, but \[unintelligible 01:00:43.09\] we don't have so good tests. So writing tests and writing documentation, that's perfect. Or helping us where we've done something wrong in the docs, that's perfect.
+**Peter Hedenskog:** \[01:00:04.06\] Yeah, perfect. Actually, money is not important to me, but I will start with other things first. If you are a developer and doing stuff there and you like SiteSpeed, I think doing a pull request would be perfect; we've been working at making it easier to tag issues, so you know where you can start and what you can take on, but it's always best to create an issue and talk to us first, so we can guide you through and discuss what you can do. Then making the documentation better, because right now we are lacking a lot of things, and helping us write tests, because parts of the tools have really good tests today, but parts we don't have so good tests. So writing tests and writing documentation, that's perfect. Or helping us where we've done something wrong in the docs, that's perfect.
 
 There's a lot of companies using SiteSpeed.io, and I'm so blessed, because I live in Sweden, I have kids, I have a partner, I work... I don't need money. But if you're using SiteSpeed.io, I would love for you to instead try to help people that are really suffering (like people in Syria) and trying to support the Red Cross and doing stuff like that instead, because there's a lot of people in the world that really need money, and you don't have to spend it on me or the people that work on SiteSpeed.io because we are really blessed, because we have money to take care of our families. It's better to help people that really need it.
 
@@ -454,7 +454,7 @@ There's a lot of companies using SiteSpeed.io, and I'm so blessed, because I liv
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** I always liked that \[unintelligible 01:05:21.26\], I thought it was very poignant. Isn't it a tomb? Or a grave site of some unknown soldier who died at war, and we don't know who it is, but we honor that person.
+**Jerod Santo:** I always liked that sentiment, I thought it was very poignant. Isn't it a tomb? Or a grave site of some unknown soldier who died at war, and we don't know who it is, but we honor that person.
 
 **Adam Stacoviak:** Yeah, exactly. It was an unidentified soldier; I believe it might have even been a marine, and it's guarded 24/7, seven days a week by die-hard marines. I think it's only marines who guard it. I could be wrong, but it's a very prestigious kind of thing that they guard that tomb, and they're very diligent about how they march around it, very specific, and it's a big deal.
 

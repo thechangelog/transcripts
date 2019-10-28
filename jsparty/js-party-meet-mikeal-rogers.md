@@ -65,7 +65,7 @@ So there wasn't a very strong focus on being very good at parallelization, actua
 
 It did go really well, and I'm still with the Node.js Foundation. From the time that we merged, the core communities I think probably quadrupled in size. There's so many more contributors, so we've had to continue to scale how that community works, and I've been involved in that, as well. But it's certainly not in danger of falling apart of collapsing, the way that people may have been concerned in earlier days. My role is much more administrative now.
 
-**Adam Stacoviak:** It's a lot of work too that you put in. I remember when we first met you around the io.js timeframe, and the side chats... We had a couple e-mails, we talked to Scott Hammond from Joyent, I got some advice from you on how to best navigate that conversation... And I just remember thinking how busy you were; I think you were at DigitalOcean at the time and you were transitioning to different roles, and I was just thinking, "You do this for the community in your spare time." I couldn't believe just how much work that people like you would put out into these communities, outside of your day-to-day "I've gotta ship something". I was just astounded by it.
+**Adam Stacoviak:** It's a lot of work too that you put in. I remember when we first met you around the io.js timeframe, and the side chats... We had a couple emails, we talked to Scott Hammond from Joyent, I got some advice from you on how to best navigate that conversation... And I just remember thinking how busy you were; I think you were at DigitalOcean at the time and you were transitioning to different roles, and I was just thinking, "You do this for the community in your spare time." I couldn't believe just how much work that people like you would put out into these communities, outside of your day-to-day "I've gotta ship something". I was just astounded by it.
 
 **Mikeal Rogers:** \[00:12:15.01\] Yeah, that was a really crazy time. I think one of the reasons why I was working so hard was that there weren't a lot of people that had history in the community that everyone that needed to be involved in the conversation would still speak to. A lot of what you didn't see at the surface was that it took a long time for things to get into the kind of bad state that they were in, and it wasn't just, "Hey, everybody is mad at Joyent..." A lot of people started to also get upset with themselves. Once there's conflict at all around something, everybody will start to conflict with each other.
 
@@ -91,7 +91,7 @@ It needed to be something that was playful. We didn't want to come to the table 
 
 When we sit down and talk to Alex Sexton and Rachel White about their story, like we did with you today, we're gonna hear a very different perspective, how they came to where they're at, and then obviously be a part of the show.
 
-**Mikeal Rogers:** Yeah, I mean... Alex Sexton loves to disagree with me. He was one of the first people \[unintelligible 00:18:45.23\]
+**Mikeal Rogers:** Yeah, I mean... Alex Sexton loves to disagree with me. He was one of the first people that I ever thought of.
 
 **Adam Stacoviak:** He's like, "Yes, can I do that on a podcast, so everyone hears it?" \[laughter\] Sweet.
 
@@ -125,7 +125,7 @@ I think I also want to try - and this is a really difficult thing to do - to unw
 
 **Jerod Santo:** I still don't know what that means... \[laughter\] I'm pretty sure I've built a couple of them, but I don't know what that means.
 
-**Mikeal Rogers:** Right, and you'll see people -- Nolan Lawson does this sometimes... \[unintelligible 00:25:51.09\] does an amazing job of this. She's a programmer in New York. She will take a word or a subject that people throw around a lot that she has noticed other newer people are kind of afraid to ask what that means, and she'll dig into the entire history of it and explain it from the ground up for people that don't know what's going on, and that turns out to be pretty much everybody.
+**Mikeal Rogers:** Right, and you'll see people -- Nolan Lawson does this sometimes... [Mariko](https://kosamari.com/) does an amazing job of this. She's a programmer in New York. She will take a word or a subject that people throw around a lot that she has noticed other newer people are kind of afraid to ask what that means, and she'll dig into the entire history of it and explain it from the ground up for people that don't know what's going on, and that turns out to be pretty much everybody.
 
 When Nolan Lawson wrote that piece on progressive web apps, I think that everybody went, "Oh, god... Finally, I can stop pretending like I know what this means...", like there's actually this explainer now. So I really want us to try to do that, as well. When we bring up a news item about some topic in some area, we actually unwind it enough to go like, "Well, let's back up... How did this start? What does this actually mean?"
 
@@ -203,7 +203,7 @@ I like the idea of having lots of different modes of engagement. It'd be great t
 
 **Adam Stacoviak:** There's two ways that can happen, actually... We have one way, which is probably the easiest way; it may not be the long-term preferred way, but you can call 888-974-24-54 (888-974-CHLG, for Changelog). So you can call that and leave us a voicemail. We use Grasshopper for our virtual voicemail system, so you can call there and just leave a message, and we get mp3s dumped to us (although they are lower quality).
 
-Or you can simply just open up QuickTime or something and just record something and then e-mail it to somebody or drop it on Dropbox and tweet us, and we'll grab those. We'll find a more formalized way for it in the future, but if you're listening to this and you want a way, that's a good way to start. We'll go from there.
+Or you can simply just open up QuickTime or something and just record something and then email it to somebody or drop it on Dropbox and tweet us, and we'll grab those. We'll find a more formalized way for it in the future, but if you're listening to this and you want a way, that's a good way to start. We'll go from there.
 
 In lieu of getting this thing wrapped up, we've got live every Friday at noon Pacific, 3 PM EST, Changelog.com/live. Follow @JSPartyFM on Twitter, or also head to changelog.com/jsparty. Subscribe, don't miss a show.
 

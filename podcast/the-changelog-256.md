@@ -84,7 +84,7 @@ Okay, so a shift in strategy, lots of things learned... Hey, it takes guts to ki
 
 **Adam Stacoviak:** A lot more devices than phones.
 
-**Dustin Kirkland:** A lot more devices than phones, that's right. And some devices have probably been around for a few years, and they're not getting updates. If you wanna have some fun, go home, open up a Linux terminal and \[unintelligible 00:06:29.08\] your entire network. Nmap will run a series of heuristics and try to guess the operating system in kernel that's running on all of those devices. You're gonna find a whole bunch of unmaintained Linux 2.4, Linux 2.6, 10-15 year old kernels on devices you didn't even know were running an operating system, much less the Linux-based operating system.
+**Dustin Kirkland:** A lot more devices than phones, that's right. And some devices have probably been around for a few years, and they're not getting updates. If you wanna have some fun, go home, open up a Linux terminal and `sudo nmap --fingerprint-os`  your entire network. Nmap will run a series of heuristics and try to guess the operating system in kernel that's running on all of those devices. You're gonna find a whole bunch of unmaintained Linux 2.4, Linux 2.6, 10-15 year old kernels on devices you didn't even know were running an operating system, much less the Linux-based operating system.
 
 **Adam Stacoviak:** Okay.
 
@@ -182,7 +182,7 @@ That's a space where I think open source and free software is extremely importan
 
 **Adam Stacoviak:** If you had been successful though, would it have been a Apple iOS/Google Android/Canonical Ubuntu world? I'm just kind of curious if that's what you were trying to do, or was it simply open source secure Linux?
 
-**Dustin Kirkland:** The real vision was always convergence. It's when this laptop here that you're looking at and your phone merge into one thing, so that when your phone is nearby \[unintelligible 00:11:13.03\] that's providing the CPU memory, RAM, the disk, the storage, the network connectivity for this larger format shell that you're in. And a bigger screen, a user keyboard to type on... But when you take that phone away, it's got everything that you need on, so you can be just as productive on that. So we were going for convergence.
+**Dustin Kirkland:** The real vision was always convergence. It's when this laptop here that you're looking at and your phone merge into one thing, so that when your phone is nearby or touching or docked into this that's providing the CPU memory, RAM, the disk, the storage, the network connectivity for this larger format shell that you're in. And a bigger screen, a user keyboard to type on... But when you take that phone away, it's got everything that you need on, so you can be just as productive on that. So we were going for convergence.
 
 Over the course of the couple years, we showed that vision, but it's just really hard to do when you don't control the hardware platform and when you're the third entrant in an already crowded market.
 
@@ -238,11 +238,11 @@ Click was good for packaging the Facebook app or the calendar app for the Ubuntu
 
 **Dustin Kirkland:** Yeah, that's part of it, and that's exactly where it starts. Every Snap carries with it all the files that it needs to run, which has been a pain in the RPM world, frankly.
 
-**Jerod Santo:** \[unintelligible 00:15:50.24\] isn't that good?
+**Jerod Santo:** Isn't shared libraries, isn't that good?
 
 **Dustin Kirkland:** Yes, it's good... To an extent.
 
-**Jerod Santo:** Or you thought it was good for \[unintelligible 00:15:56.03\]
+**Jerod Santo:** Or you thought it was good for a long time.
 
 **Dustin Kirkland:** Well, it's good for what it is, it's not good for what it's not... And there's a tautology for you.
 
@@ -404,7 +404,7 @@ So I think server users want to be able to take advantage of that as well.
 
 **Dustin Kirkland:** That's alright, it's good stuff. We're enjoying it.
 
-**Adam Stacoviak:** \[unintelligible 00:28:04.28\] where do they go to find out more?
+**Adam Stacoviak:** So for those listening, where do they go to find out more?
 
 **Dustin Kirkland:** \[00:28:09.06\] Rich Turner at Microsoft has a blog post that's out today talking about it. This is a new thing, it's in beta for Windows server and it will be for a while...
 
@@ -432,7 +432,7 @@ So I think server users want to be able to take advantage of that as well.
 
 **Adam Stacoviak:** Nobody knows about logbot.
 
-**Jerod Santo:** Now they do... Announcing logbot! \[unintelligible 00:29:06.29\] to an App Store not near you.
+**Jerod Santo:** Now they do... Announcing logbot! Vaporware coming to an App Store not near you.
 
 **Adam Stacoviak:** That's right, that's right.
 

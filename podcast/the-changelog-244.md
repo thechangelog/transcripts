@@ -40,7 +40,7 @@ We have three sponsors today: Rollbar, Hired and DataDog.
 
 **Jerod Santo:** Nice! Well, different strokes for different folks, I guess. You get him a little bit buzzed and he teaches you Javascript. That's excellent. \[laughter\]
 
-**Tracy Lee:** \[unintelligible 00:04:35.21\] like "Well, you know... Let's sit down for three hours and let me just teach you Javascript, since you asked about my job." \[laughs\]
+**Tracy Lee:** It'd be amusing to see him on a date like "Well, you know... Let's sit down for three hours and let me just teach you Javascript, since you asked about my job." \[laughs\]
 
 **Jerod Santo:** So let's give a little bit of your background, Tracy. First of all, thanks so much for joining us. You're a Google developer expert, you're a Javascript developer, you're a serial entrepreneur, have started and sold a business, and you're the co-founder of This Dot Labs, so we're talking about This Dot and a lot of the cool stuff that you guys are doing around JS and community building. You also say that you like to explore code in your free time, and building the JS community.
 
@@ -50,7 +50,7 @@ In light of that, give us the recent history of Tracy Lee, how you got into This
 
 I took three weeks off, did a week of HTML, a week of CSS, a week of Javascript and then I couldn't take it anymore, and then somebody stuck me on Ember, and I was like "Wow, this is great!" and I just spent all my free time writing Ember apps and getting excited about Javascript.
 
-That was interesting, I did that for about a year, and after I sold my company I just started another company... Doing marketing - I didn't really wanna do marketing, I was much more excited about spending my entire life coding. So I started hosting events, doing random things... I started to have a little bit of \[unintelligible 00:06:41.20\] I think after eight years of pounding on something really hard, when you all of a sudden give yourself room to breathe, anything is possible.
+That was interesting, I did that for about a year, and after I sold my company I just started another company... Doing marketing - I didn't really wanna do marketing, I was much more excited about spending my entire life coding. So I started hosting events, doing random things... I started to have a little bit of freedom - I think after eight years of pounding on something really hard, when you all of a sudden give yourself room to breathe, anything is possible.
 
 Then about a year into my coding adventures with Ember, last year I got invited to ng-conf. It's actually kind of interesting to form our communities and looking at how big they are. If you look at Ember versus Angular, the community is huge. Angular somehow just sucked me in, really just took over my entire life last year. I was asked to be a Google developer expert, and I was writing my, you know, like what you do you actually do in Angular, or in Google, I realized that... I mean, I probably attended more than four conferences a month last year related to Angular, and started speaking a lot about Angular related things.
 
@@ -92,7 +92,7 @@ You guys know about Contributor Days and This Dot Javascript, and that's sort of
 
 Adam and I both go down rabbit holes where one or both of us has lead us down slower routes or worse routes because we're shooting for perfect. I'm thinking specifically of our transcripts, which still aren't on the website, because I have huge...
 
-**Adam Stacoviak:** \[unintelligible 00:12:40.13\]
+**Adam Stacoviak:** Geez, you've gotta out yourself?
 
 **Jerod Santo:** I have huge plans for our transcripts which, for the audience's sake and for you, Tracy, we have all of our episodes transcribed.
 
@@ -126,7 +126,7 @@ Adam and I both go down rabbit holes where one or both of us has lead us down sl
 
 **Adam Stacoviak:** ...sometimes you also need permission to stop.
 
-**Tracy Lee:** Absolutely. My sister always says, "Be gentle with yourself." That's my constant thing in my head, "Be gentle with yourself." Some people are sprinters and some people are marathon runners - I'm trying to be a better marathon runner, and I think you forget sometimes when you start a business that - especially as a serial entrepreneurs - that "This is fine, it's gonna be \[unintelligible 00:15:36.15\] but it really isn't.
+**Tracy Lee:** Absolutely. My sister always says, "Be gentle with yourself." That's my constant thing in my head, "Be gentle with yourself." Some people are sprinters and some people are marathon runners - I'm trying to be a better marathon runner, and I think you forget sometimes when you start a business that - especially as a serial entrepreneurs - that "This is fine, it's gonna be chill this time but it really isn't.
 
 \[00:15:39.09\] Some of the biggest things for me this year were -- one of the things that I got really excited about last year was putting together this idea of This Dot Javascript. I guess the problem I was trying to solve was that I saw a lot of angst in the open source communities and the different frameworks communities, specifically on not feeling like they're knowing what's happening with the different frameworks, and there was complaints for example about ES2015 and TC39, and it being a closed box... So every quarter we do this thing called This Dot Javascript. It's live broadcasted online, and it's different people who are core maintainers doing ten minutes of just an update of "Hey, this is what's happening."
 
@@ -176,7 +176,7 @@ Personally, I think if you do learn Javascript, you should choose a framework an
 
 **Tracy Lee:** Okay.
 
-**Jerod Santo:** I'm just saying that even experienced developers never get past that... So let's say I'm at - and to a certain degree I agree with you - especially one that's kind of "hold your hand" quite a bit, such as Ember, that kind of gives you a batteries included framework framework, as opposed to \[unintelligible 00:26:02.13\] a couple libraries and stuff that you have to pick and choose your own things - something like that is nice when you're learning, because it's warm and cozy inside this nice, big framework... But how do people even decide what's worth investing into?
+**Jerod Santo:** I'm just saying that even experienced developers never get past that... So let's say I'm at - and to a certain degree I agree with you - especially one that's kind of "hold your hand" quite a bit, such as Ember, that kind of gives you a batteries included framework framework, as opposed to loosely coupled libraries and stuff that you have to pick and choose your own things - something like that is nice when you're learning, because it's warm and cozy inside this nice, big framework... But how do people even decide what's worth investing into?
 
 For instance, what you guys do with This Dot and This Dot Javascript is you're framework agnostic. You're interested in Angular, you're interested in Amber, React, Vue - which is, by the way, a good move for business opportunities... But for learning, like you said, pick one and go. Does it matter? To a newer developer, can you just say "Who cares? Just grab one and get a project"?
 
@@ -228,7 +228,7 @@ We collected a few of our friends who were core contributors or authors of diffe
 
 **Adam Stacoviak:** Mission-minded.
 
-**Jerod Santo:** Yeah, and that's by the way something that I tell people when they ask me questions about learning how to program and all that... You have to have a goal, whether that's like a toy or a business that you wanna build by yourself, or whatever the goal is... Something that you think needs to exist in the world \[unintelligible 00:34:18.20\]
+**Jerod Santo:** Yeah, and that's by the way something that I tell people when they ask me questions about learning how to program and all that... You have to have a goal, whether that's like a toy or a business that you wanna build by yourself, or whatever the goal is... Something that you think needs to exist in the world - or want it to...
 
 I find that I learn things best when I'm learning them as a means to an end that I care about, but not as the end goal. Adam, maybe you can speak to this as well in terms of -- this is why side projects are so important, and why open source is so important... You start something goal-oriented, you're learning, you're building something you wanna see exist in the world, and sometimes it blossoms into something you never plan on it being, and that's the beauty of really the web, but also of open source.
 
@@ -268,7 +268,7 @@ Then that as well - all you have to do is NPM install and then it just spins up 
 
 **Jerod Santo:** Right, it's all the tedious, tricky parts that you get stuck on.
 
-**Tracy Lee:** Yeah, you literally don't have to do anything except for install, and then generate a new \[unintelligible 00:41:22.02\] and then you have an app and you can just mess around with it, and you can see the results of what you're doing immediately. Like, done. This is great for children too, if you want your kids to code, like "Hey, scaffold up a new app. Go crazy." \[laughs\]
+**Tracy Lee:** Yeah, you literally don't have to do anything except for install, and then generate a new - ember new, ng new, whatever - and then you have an app and you can just mess around with it, and you can see the results of what you're doing immediately. Like, done. This is great for children too, if you want your kids to code, like "Hey, scaffold up a new app. Go crazy." \[laughs\]
 
 **Jerod Santo:** Because you can get lost in the wiring up of the glue and never make it to writing any of your own code, if you don't have those tools available at scaffolding for use. It's awesome.
 
@@ -292,7 +292,7 @@ I still think for completely new people there's a lot of work that needs to be d
 
 **Jerod Santo:** Sure...
 
-**Adam Stacoviak:** CSS for me was like the hardest thing to learn, because I was like, "What the heck is margin and padding?" and this \[unintelligible 00:43:31.10\] the same concept is there... These little silly things that should be easy, I learned by reading other people's code. That's something you said, Jerod, in a really popular blog post that you wrote on the Changelog.
+**Adam Stacoviak:** CSS for me was like the hardest thing to learn, because I was like, "What the heck is margin and padding?" and this so forever ago, but the same concept is there... These little silly things that should be easy, I learned by reading other people's code. That's something you said, Jerod, in a really popular blog post that you wrote on the Changelog.
 
 **Jerod Santo:** Right. Yeah, that's definitely a great way of learning - reading other people's code. Another point real quick, before we hit this break, is when it comes (especially) to children, but anyone who's new to programming and doesn't know much about the web, you don't even need an editor, you don't need a command line tool... All you have to do is pop up some dev tools and show them how they can manipulate the page...
 
@@ -367,7 +367,7 @@ Most of these open source people are spending their free time hacking on things.
 **Adam Stacoviak:** Yeah... Conversations are blending together that I -- it was either the James Long conversation that was recently on the podcast feed, or a side conversation that's in lieu of a future conversation that we'll have on the Changelog about this very thing of like how us humans respond on the internet, basically. You think you're talking to a machine, but there's actually a human on the other side.
 If you're listening to this and you've already listened to the James Long episode and that's it, tell us in the members Slack or on Twitter, "Adam, you've already said it somewhere else." Connect a dot for me, because I'm not sure which one it was.
 
-All too often do we talk to one another digitally. It was with James Long - now I know, because I just remembered my own thing... Through issues or comments on an issue, you just -- because GitHub has made it so accessible to collaborate, we don't feel like we're talking to another human, we feel like we're just talking to the machine, which is the internet, and we're actually talking to another human being and potentially hurting their feelings, or \[unintelligible 00:55:23.01\] that day, or demolishing their motivation because of one thing; they're doing it in their spare time, and that's not cool.
+All too often do we talk to one another digitally. It was with James Long - now I know, because I just remembered my own thing... Through issues or comments on an issue, you just -- because GitHub has made it so accessible to collaborate, we don't feel like we're talking to another human, we feel like we're just talking to the machine, which is the internet, and we're actually talking to another human being and potentially hurting their feelings, or crushing their dream that day, or demolishing their motivation because of one thing; they're doing it in their spare time, and that's not cool.
 
 **Tracy Lee:** Yeah...
 
@@ -381,7 +381,7 @@ All too often do we talk to one another digitally. It was with James Long - now 
 
 **Tracy Lee:** Well, it's because I'm passionate about bringing people together and I'm really passionate about helping people. So I'll spend a lot of time doing that because I know I'm really good at it, and I just can't help myself. Some things come about not because I premeditated them, but just because I'm like "Okay, I feel like I need to help in this area and I'm willing to devote time to it."
 
-I like making an impact in the world, and I'll choose things \[unintelligible 00:57:30.09\] Contributor Days, I think those are contributing to the greater Javascript ecosystem as a whole. Things like Ng-Cruise, for example... I'm throwing an Angular Cruise conference at the end of May - 29th May we leave Miami to cruise the Bahamas, and... I do those things because I was on a cruise last year and I said, "Hey, I should hang out with a bunch of people. Let's all go hack on a cruise!" So we're doing that. It's fun...
+I like making an impact in the world, and I'll choose things like This.JavaScript, Contributor Days - I think those are contributing to the greater Javascript ecosystem as a whole. Things like Ng-Cruise, for example... I'm throwing an Angular Cruise conference at the end of May - 29th May we leave Miami to cruise the Bahamas, and... I do those things because I was on a cruise last year and I said, "Hey, I should hang out with a bunch of people. Let's all go hack on a cruise!" So we're doing that. It's fun...
 
 **Adam Stacoviak:** And with cruises you also get those excursions... You probably have several days of boat time, and then you'll have days of excursions off to Jamaica, or somewhere in the Caribbean's, or is that...? You said you're leaving Miami, so I'm assuming the Caribbean.
 
@@ -391,13 +391,13 @@ I like making an impact in the world, and I'll choose things \[unintelligible 00
 
 You get to hang together in real life and do real things, rather than just simply thinking about code. But you also do have some of that time where you can collect together on the top -- I can't remember what it's called... The deck. And just hang out and talk about stuff, or actually conference a little bit.
 
-**Tracy Lee:** \[00:59:49.05\] Yeah. My favorite thing to do is to get all my friends in a room and then... \[laughs\] I love doing this at conferences... So we're all hanging out... I was \[unintelligible 01:00:01.04\] taught me how to use Angular and Palmer components together. Then my other friend taught me how to hook up IoT and \[unintelligible 01:00:11.24\] with Angular, and then another friend taught me how to set up a real-time database with Firebase. There was one other pairing session - I can't remember what it was now, but I was literally... Oh, yeah, that's right, NativeScript. So my friend Sebastian taught me how to use NativeScript in Angular.
+**Tracy Lee:** \[00:59:49.05\] Yeah. My favorite thing to do is to get all my friends in a room and then... \[laughs\] I love doing this at conferences... So we're all hanging out... I was at ngVikings and my friend Wassim taught me how to use Angular and Polymer components together. Then my other friend taught me how to hook up IoT and Web Bluetooth with Angular, and then another friend taught me how to set up a real-time database with Firebase. There was one other pairing session - I can't remember what it was now, but I was literally... Oh, yeah, that's right, NativeScript. So my friend Sebastian taught me how to use NativeScript in Angular.
 
 I was able to do that in two hours, so you know... That's what the cruise is gonna be like. You have all the speakers, like Jeff Cross, Victor Savkin, Mike Brocchi who is one of the main people for AngularCLI; Ben Lesh, RxJS... They're all getting on this cruise, and they can't really go anywhere... \[laughs\]
 
 **Adam Stacoviak:** You've got them cornered. That's the best way to make it happen... By force, basically.
 
-**Tracy Lee:** Yeah, \[unintelligible 01:01:02.10\] \[laughter\] Force pair with me! \[laughs\]
+**Tracy Lee:** Yeah, corner them with a smile. \[laughter\] Force pair with me! \[laughs\]
 
 **Adam Stacoviak:** Yes, that's --force... \[laughter\] That's a good way to do it, for sure. That sounds fun... What's the URL for the cruise?
 
