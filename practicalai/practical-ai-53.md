@@ -92,7 +92,7 @@ Then there is RedisGraph, which adds graph capabilities. I know all these module
 
 **Daniel Whitenack:** \[00:16:13.22\] I'm so glad you're calling this out, because I actually got burned by this very issue on a project where we were trying to implement a graph database, and I mistakenly chose a graph layer on top of MongoDB (which is another database) and it was so slow. Basically, the graph logic was really interesting and good for the project, but we got burned because of this issue that you're talking about... So thanks for explaining that.
 
-**Pieter Cailliau:** Yeah, so the difference is then you have graph native, you have an O(1) time complexity to go from one node to another node. So instead of an O(log n) in relational databases And typically, you try to keep the data as close as possible, residing in the same key, effectively.
+**Pieter Cailliau:** Yeah, so the difference is then you have graph native, you have an O(1) time complexity to go from one node to another node. So instead of an O(log n) in a relational database. And typically, you try to keep the data as close as possible, residing in the same key, effectively.
 
 Then you've got RedisBloom, which is a set of probabilistic data structures, like a Bloom Filter, a Cuckoo Filter, we also have a Top-K... We've got RedisJSON, which is going to take your JSON document and it's going to split it up inside a tree, so that in an atomic operation, in a large JSON document, you could for example append some data to an array, but you could increment a numeric value inside your JSON documents without having to fetch it and putting it back.
 
@@ -164,7 +164,7 @@ It might be, for example, that you wanna add scoring; you could say on given sea
 
 **Pieter Cailliau:** That is the thought process, exactly. We can use Onyx runtime as an intermediate format. Effectively, we're using it in certain ways where we, for example, wanna fetch some models from Spark - we can effectively then transform them in Onyx runtime and then upload them into our back-ends.
 
-It's interesting to talk about these different back-ends, because the model commands on how you execute, or your regression classification - agnostic from the back-end that it's running for. So when you would set your model, when you say "Hey, here is \[unintelligible 00:33:19.16\] I want you to host or serve my model", you would have to add some back-end specific stuff.
+It's interesting to talk about these different back-ends, because the model commands on how you execute, or your regression classification - agnostic from the back-end that it's running for. So when you would set your model, when you say "Hey, RedisAI I want you to host or serve my model", you would have to add some back-end specific stuff.
 
 But once you wanna run it, it doesn't know anymore which back-end is effectively underneath. Obviously, RedisAI knows, but your client doesn't need to specify "Hey, run me this, but TensorFlow." So your client library or your application developers that wanna work at your model as a data science string model, they get a fixed API, and you as a data scientist decide "Well, over time we think that our model in PyTorch is better than our model in TensorFlow" - you can just update that by setting a new model with the same key inside RedisAI, and all your client libraries will still keep on working.
 
