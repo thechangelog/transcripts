@@ -48,7 +48,7 @@ I've been doing since the '90s a lot of work relating specifically to either ope
 
 **Jerod Santo:** In the '80s you were the maintainer of the Scepter of Goth, which is the first commercial multiplayer role-playing game in the US and perhaps in the entire world. Can you unpack that for us and give us some details?
 
-**David A. Wheeler:** Sure. You're pulling my way back machine.Yeah way, way back. I don't know if you remember Adventure and Zork and that sort of thing, but they were these text-based game where you could type back and forth to each other... Sorry, not back and forth to each other, but type in "Get thing/Drop Thing/Kill Troll", and basically some folks had the idea of "Well, this should be cool as a multiplayer game." This is back when modems were just becoming available and that sort of thing, and I was part of a company which basically ran as a franchise, this Scepter of Goth thing, where basically people would log in with their modems and they could work with other people, choose various characters - if you're familiar with \[unintelligible 00:06:31.10\] you've got the right idea. So you choose your own character, over time you get experience, you level up... A whole lot of mechanisms that now look kind of normal and every day and lots of systems use it, but it was kind of challenging in the first ime. "Gee, nobody's ever done a multiplayer all-time game before. How do you do this?"
+**David A. Wheeler:** Sure. You're pulling my way back machine.Yeah way, way back. I don't know if you remember Adventure and Zork and that sort of thing, but they were these text-based game where you could type back and forth to each other... Sorry, not back and forth to each other, but type in "Get thing/Drop Thing/Kill Troll", and basically some folks had the idea of "Well, this should be cool as a multiplayer game." This is back when modems were just becoming available and that sort of thing, and I was part of a company which basically ran as a franchise, this Scepter of Goth thing, where basically people would log in with their modems and they could work with other people, choose various characters - if you're familiar with D&D you've got the right idea. So you choose your own character, over time you get experience, you level up... A whole lot of mechanisms that now look kind of normal and every day and lots of systems use it, but it was kind of challenging in the first ime. "Gee, nobody's ever done a multiplayer all-time game before. How do you do this?"
 
 We had all sorts of weird problems making that work, but it was a lot of fun.
 
@@ -210,7 +210,7 @@ That's particularly a problem if you are on GitHub, which a lot of folks are. Cu
 
 **Adam Stacoviak:** That's what the badge is for!
 
-**Jerod Santo:** Well, I know, but it seems like there should be one true way, shouldn't there?
+**Jerod Santo:** Well, I know, but it seems like there should be like one true way, shouldn't there?
 
 **Adam Stacoviak:** One more protocol!
 
@@ -286,13 +286,13 @@ We've got version control systems, we've got issue trackers, we've got all these
 
 **Adam Stacoviak:** So the goal of this began with the blindsiding of Heartbleed, and obviously creating a list of best practices and providing a way for open source projects to self-initiate and go and volunteer to follow them, get a badge, and then get to passing, or at least their progress level into passing... I'm curious about the lifespan of this. Is there a committee, are there people who are keeping these projects in check? How do you know once they have achieved a certain passing level they actually maintain the best practices? How does that work?
 
-**David A. Wheeler:** Well, there's actually several things. Before going into that I should probably talk a little but about how you get a badge in the first place, because I think that will help level-set stuff. To get a badge, basically, somebody from the project clicks on "Get a badge" and they fill in basically a form. You basically click on "Did I meet, did I not meet..." For almost all of them you can justify, and some you have to justify.
+**David A. Wheeler:** Well, there's actually several things.And before going into that I should probably talk a little but about how you get a badge in the first place, because I think that will help level-set stuff. To get a badge, basically, somebody from the project clicks on "Get a badge" and they fill in basically a form. Now it's basically click on "Did I meet, did I not meet..." For almost all of them you can justify, and some you have to justify.
 
 As much as we can, we want to automate this. We've already automated a number of things, because there's actually... A lot of these questions you can answer in many cases. Particularly if you're on GitHub, we can tell certain things right away; we can look at the repo and fill in some information. For some things it's just... \[unintelligible 00:50:53.12\] isn't quite up to the task of handling it, not yet. But even just with the things that we have automated now, we can quickly determine "Hey, you did eight", and kind of go from there.
 
 The current plan is to do an update of these criteria every year - we're targeting January. So basically, each year we'll have some adjustments. That means that you'll need to go back and at least update your entry over a year, and in that process that will force the automatic evaluation; technically the badge is good for a year, but you don't have to redo the work. It's not a lot of work, it only takes about an hour on average to get the information, and that assumes that your project's already in order. Obviously, if you're not doing any testing, the problem isn't that "Gee, I have to click on Unmet for testing the unique tasks" \[laughs\]
 
-**Jerod Santo:** \[unintelligible 00:51:52.17\]
+**Jerod Santo:** That's a lot harder to go get!
 
 **David A. Wheeler:** Yeah... You know what, actually people are kind of surprised... We actually don't mandate a coverage level.
 
