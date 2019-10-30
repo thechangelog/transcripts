@@ -321,7 +321,7 @@ Has [its transcript in this repo at](https://github.com/thechangelog/transcripts
 
 ### Text formatting
 
-Each transcript fragment is parsed as good ole' [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). That means you can add `*`s or `_`s for emphasis, `[links](https://changelog.com)` to referenced people/projects, etc. We _especially_ encourage addition of links. These make the transcripts much more useful to readers and provide valuable SEO juice to the link-worthy things we discuss on our shows.
+Each transcript fragment is parsed as good ole' [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). That means you can add `*`s or `_`s for emphasis, `[links](https://changelog.com)` to referenced people/projects, etc. We _especially_ encourage the addition of links. These make the transcripts much more useful to readers and provide valuable SEO juice to the link-worthy things we discuss on our shows.
 
 ### Timestamps
 
