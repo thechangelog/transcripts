@@ -370,7 +370,9 @@ I am working on a security issue that I'll try not to spoiler, because that woul
 
 **Johan Brandhorst:** Your call is important to us!
 
-**Roberto Clapis:** You're number 741 in line. Please wait. \[laughter\] Let's hope not.
+**Roberto Clapis:** You're number 741 in line. Please wait.
+
+**Johan Brandhorst:** \[laughter\] Let's hope not.
 
 **Mat Ryer:** To complete your submission, please enter your mother's maiden name.
 
@@ -428,13 +430,13 @@ Basically, they were causing a clash in security tokens just because they were l
 
 **Mat Ryer:** So you mentioned programmer laziness... It's an interesting point, but -- genuinely, a lot of teams rush; they build software extremely quickly, they're under a lot of pressure, and a lot of people, when you talk to them, they feel like that's how you build software. But there is a good argument to be had for taking your time, slow things down, spend a bit more time on it, and maybe we can start to avoid some of those things.
 
-**Roberto Clapis:** \[50:41\] Yeah. One saying that we have is that "Optimists deploy soon and work fast, and they write post-mortems." \[laughter\] Pessimists write tests and Fuzz functions, and they kind of sleep safe at night.
+**Roberto Clapis:** Yeah. One saying that we have is that "Optimists deploy soon and work fast, and they write post-mortems." \[laughter\] Pessimists write tests and Fuzz functions, and they kind of sleep safe at night.
 
 **Mat Ryer:** There we go. Any other crazy stories?
 
 **Filippo Valsorda:** I'm still not in the business of criticizing developers for being lazy. It's true that that's often a source of vulnerabilities, but so many times we've resorted to that, when in fact we were providing them with insecure platforms, insecure defaults, insecure architectures. I'm sure we blamed on developers all sorts of vulnerabilities caused by things like string copy in C, when in fact we now know it's like blaming people for being dumb because they keep touching that exposed high-voltage rail. Just don't touch the rail! \[laughter\]
 
-**Roberto Clapis:** \[51:49\] Yeah. It's like if all programmers use an API wrong, the problem is not the programmers.
+**Roberto Clapis:** Yeah. It's like if all programmers use an API wrong, the problem is not the programmers.
 
 **Filippo Valsorda:** Right. But you know, it also has a little label that explains in detail the voltage and amperage of it, and if you read it all and know about voltage and amperage, you will know you will die. They should read the label.
 
