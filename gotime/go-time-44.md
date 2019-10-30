@@ -74,7 +74,7 @@ We're trying to change that, so that Google-only contributors spend more time in
 
 **Brad Fitzpatrick:** I don't know, we haven't really had codenames for the other releases, so it'd be weird to start now.
 
-**Brian Ketelsen:** Well, you've gotta start a tradition somewhere. Everybody else does codenames for releases \[unintelligible 00:05:57.21\] I think we need some cool names in Go. That's what we're missing.
+**Brian Ketelsen:** Well, you've gotta start a tradition somewhere. Everybody else does codenames for releases: Zesty Zephyrs and Xenial Xerces and whatever. I think we need some cool names in Go. That's what we're missing.
 
 **Brad Fitzpatrick:** File a proposal. We have a proposal process.
 
@@ -170,7 +170,7 @@ Most of the time, we just immediately say Yes or No, and we don't make people go
 
 **Erik St. Martin:** So you had mentioned the 1.9 release, too... What are some of the things that you're working on specifically for 1.9? Anything you can talk about yet?
 
-**Brad Fitzpatrick:** \[unintelligible 00:12:35.16\] seeing how little code I can touch in the tree for 1.9. A lot of stuff I'm doing is really all about getting the community more involved in bug triage and code review triage... Because as Go grows both internally and externally, the number of bug reports we get and the number of changes that people send in just keeps growing and it doesn't really scale when there's only a couple of us doing reviews, because we spend all of our time triaging bugs and doing code reviews...
+**Brad Fitzpatrick:** I'm actually seeing how little code I can touch in the tree for 1.9. A lot of stuff I'm doing is really all about getting the community more involved in bug triage and code review triage... Because as Go grows both internally and externally, the number of bug reports we get and the number of changes that people send in just keeps growing and it doesn't really scale when there's only a couple of us doing reviews, because we spend all of our time triaging bugs and doing code reviews...
 
 So I'm trying to make it easier for the community to get involved, so they don't feel intimidated, they know the process, or we have better dashboards telling them what needs attention...
 
@@ -264,7 +264,7 @@ But like Brad was saying, if you label something that sounds like beginner level
 
 **Erik St. Martin:** Alright, so we are back, talking to Brad Fitzpatrick. We were talking about Go and contributing before the break, but one thing I wanna lead into is you've always got these cool hobby projects going on... What's something cool you're working on right now?
 
-**Brad Fitzpatrick:** I mean, I moved to Seattle recently, so I've been working on lots of miscellaneous home automation stuff. We got a bunch of Z-wave light switches, and I got some \[unintelligible 00:25:31.23\] security cameras and I've been working on doing my own motion detection...
+**Brad Fitzpatrick:** I mean, I moved to Seattle recently, so I've been working on lots of miscellaneous home automation stuff. We got a bunch of Z-wave light switches, and I got some cheapo security cameras and I've been working on doing my own motion detection...
 
 Actually, it was the last GopherCon that I gave a lightning talk about my motion detection security system. That's something like, whenever I have a few minutes I try to improve that a little bit.
 
@@ -334,7 +334,7 @@ I have little processes in the background that go and generate GIFs from them, l
 
 **Brad Fitzpatrick:** No, those programs - they were not good.
 
-**Erik St. Martin:** I still miss some of those days, too... I always ask people when they say they have the five-and-a-halves, it's like "Do you have \[unintelligible 00:31:04.06\]?" I betcha you can get that in the emulator now...
+**Erik St. Martin:** I still miss some of those days, too... I always ask people when they say they have the five-and-a-halves, it's like "Do you have Oregon Trial?" I betcha you can get that in the emulator now...
 
 **Brian Ketelsen:** You guys are so young... When I was a kid, we had to type in our applications from the back of Byte Magazine, and when you turned off the computer, the app went with it.
 
@@ -546,7 +546,7 @@ The summary is -- I imagine if there's a Go 2, it would have _Generics_. I don't
 
 **Brian Ketelsen:** I've got three good ones, so you go first.
 
-**Erik St. Martin:** \[unintelligible 00:51:46.11\] all the good ones?
+**Erik St. Martin:** Are you hogging all the good ones?
 
 **Brian Ketelsen:** Nope.
 
@@ -748,7 +748,7 @@ There's another proposal from Rob to make bigints just be automatic. The int typ
 
 **Erik St. Martin:** That's one of the things I'm talking about with the declaration... I don't really care for the empty struct literal, like the time.time{}... It adds no context, because you're not initializing with anything. So that'd be really cool, to be able to use just the zero value in kind of a quicker, short form way. I don't know what that would look like, because I'm not a language designer, but that would be useful.
 
-**Brad Fitzpatrick:** There's also some weird things in Go, like ranging over a string gives you the UTF-8 code points, rather than the bytes of the string, and it's the only thing in the language really that ever assumes that strings are UTF-8. So it's kind of this weird \[unintelligible 01:11:56.22\]
+**Brad Fitzpatrick:** There's also some weird things in Go, like ranging over a string gives you the UTF-8 code points, rather than the bytes of the string, and it's the only thing in the language really that ever assumes that strings are UTF-8. So it's kind of this weird wart and there's lots of those little wird warts.
 
 **Erik St. Martin:** Yeah, that's interesting. And I guess that that would become a problem too, because some of the libraries assume the output is a string, rather than a slice of bytes, so you're kind of stuck there.
 
