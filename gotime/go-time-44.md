@@ -748,7 +748,7 @@ There's another proposal from Rob to make bigints just be automatic. The int typ
 
 **Erik St. Martin:** That's one of the things I'm talking about with the declaration... I don't really care for the empty struct literal, like the time.time{}... It adds no context, because you're not initializing with anything. So that'd be really cool, to be able to use just the zero value in kind of a quicker, short form way. I don't know what that would look like, because I'm not a language designer, but that would be useful.
 
-**Brad Fitzpatrick:** There's also some weird things in Go, like ranging over a string gives you the UTF-8 code points, rather than the bytes of the string, and it's the only thing in the language really that ever assumes that strings are UTF-8. So it's kind of this weird wart and there's lots of those little wird warts.
+**Brad Fitzpatrick:** There's also some weird things in Go, like ranging over a string gives you the UTF-8 code points, rather than the bytes of the string, and it's the only thing in the language really that ever assumes that strings are UTF-8. So it's kind of this weird wart and there's lots of those weird little warts.
 
 **Erik St. Martin:** Yeah, that's interesting. And I guess that that would become a problem too, because some of the libraries assume the output is a string, rather than a slice of bytes, so you're kind of stuck there.
 
