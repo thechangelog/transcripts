@@ -30,7 +30,7 @@ Let's go to the JS13kGames - winners have been announced. If you're unfamiliar w
 
 \[00:04:13.29\] It's actually really cool. The idea is that you are this little sort of pointy avatar, and there's this concept of files... I think you understand this a little better, Jerod, but you're basically navigating through this 3D sort of path, and you have to use your previous ghosts of yourself expiring in order to sort of unlock gates to get through.
 
-**Jerod Santo:** Yes, exactly. Thanks to \[unintelligible 00:04:39.23\] in the chat who got us the direct link to the winning game, which is still loading... And the entry test that you're talking about - I'll just read it, because it's such a cool setup.
+**Jerod Santo:** Yes, exactly. Thanks to pnevares in the chat who got us the direct link to the winning game, which is still loading... And the entry test that you're talking about - I'll just read it, because it's such a cool setup.
 
 "The year is 2413. Humanity is enslaved by an alien race for more than two centuries already. You are an AI weaponized virus, built to infiltrate the alien network and deactivate all power generators and weapon systems. The alien antivirus will detect and delete you after 13 seconds. But remember, a file is never really deleted. Use the execution backtrace from your previous attempts to break in and destroy the main memory core."
 
