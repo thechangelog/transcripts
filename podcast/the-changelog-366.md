@@ -60,7 +60,7 @@ So on Saturday we diligently followed the instructions... And you know, when you
 
 **Chris Anderson:** \[00:07:43.21\] They were interested for like ten more seconds, and that was it for them. And I was like "What just happened...?" That should not be possible. Because you know, at the time drones were like predators, and Global Hawks, and military-industrial, and they were classified, and super-- ten billion dollars things... And we had just built a drone with LEGO pieces, around a dining room table, programmed by a nine-year-old. Putting aside that it was not a great drone, that should not be possible.
 
-When a nine-year-old can do something that is classified, that literally \[unintelligible 00:08:16.09\] with toy pieces, something important in this world has changed. And I wasn't clear what it was, but I knew it was something. So I set up a website. Ten years earlier it would have been a blog, and ten years later it would have been a Twitter feed, but at the moment it was a social network. So I set up a social network I called DIY Drones, and it was largely so I could chronicle my own experiments, but also to ask dumb questions in public.
+When a nine-year-old can do something that is classified, that literally export controlled is a munition with toy pieces, something important in this world has changed. And I wasn't clear what it was, but I knew it was something. So I set up a website. Ten years earlier it would have been a blog, and ten years later it would have been a Twitter feed, but at the moment it was a social network. So I set up a social network I called DIY Drones, and it was largely so I could chronicle my own experiments, but also to ask dumb questions in public.
 
 **Jerod Santo:** Learn, yeah.
 
@@ -96,7 +96,7 @@ So what we saw was that phase - I'm putting out stuff; our LEGO autopilot back i
 
 **Jerod Santo:** That helps, yeah.
 
-**Chris Anderson:** But yeah, so... I was also on the advisory board for LEGO Mindstorms later. So it all played well. By the way, a cool little bit about this - at the time (and actually still) autopilots were considered cruised missile controllers, and a weapon \[unintelligible 00:12:57.26\] so they were export-controlled. And if you export the technology for a cruise missile controller, you can go to Guantanamo Bay. It's super-bad.
+**Chris Anderson:** But yeah, so... I was also on the advisory board for LEGO Mindstorms later. So it all played well. By the way, a cool little bit about this - at the time (and actually still) autopilots were considered cruised missile controllers, and a weapon or a munition to use the phrase, so they were export-controlled. And if you export the technology for a cruise missile controller, you can go to Guantanamo Bay. It's super-bad.
 
 **Jerod Santo:** That's bad.
 
@@ -352,7 +352,7 @@ So that's what we did. We said, "Look, the drones exist." The only reason we did
 
 **Adam Stacoviak:** Yeah.
 
-**Chris Anderson:** And you know, what happened is that the U.S. government essentially banned the purchase of DJI vehicles. It's kind of a soft ban, but it's pretty clear the way the writing's on -- DOD made a hard; the Pentagon made a hard ban. So the government has essentially shut it down, which is really bad, because among the things that they were doing is they were fighting forest fires \[unintelligible 00:43:30.13\] in the Pacific West, California primarily. They used drones for that, to look through the smoke, spot hotspots, things like that... And they were at risk of having this important program shut down. Public safety, fire, police... It was basically a problem. The fleets got grounded.
+**Chris Anderson:** And you know, what happened is that the U.S. government essentially banned the purchase of DJI vehicles. It's kind of a soft ban, but it's pretty clear the way the writing's on -- DOD made a hard; the Pentagon made a hard ban. So the government has essentially shut it down, which is really bad, because among the things that they were doing is they were fighting forest fires the Department of the Interior in the Pacific West, California primarily. They used drones for that, to look through the smoke, spot hotspots, things like that... And they were at risk of having this important program shut down. Public safety, fire, police... It was basically a problem. The fleets got grounded.
 
 \[00:43:58.02\] So we realized that this was the best thing for Dronecode. Android only succeeded because Google was there to stick it into hardware and get it out there. Before that, it just didn't have critical mass. We don't have a Google for Dronecode, but what we do have now is a market. There's a vacuum in the market, where DJI is not allowed to participate... And there was demand for an open alternative. The question is who's gonna turn that into hardware.
 
