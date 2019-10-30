@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-200-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-201-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -286,6 +286,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   <tr>
     <td align="center"><a href="https://github.com/iuliavisterneanu"><img src="https://avatars2.githubusercontent.com/u/33431863?v=4" width="100px;" alt="iuliavisterneanu"/><br /><sub><b>iuliavisterneanu</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=iuliavisterneanu" title="Documentation">📖</a></td>
     <td align="center"><a href="https://bugcrowd.com/Pritam_Singh"><img src="https://avatars0.githubusercontent.com/u/27357082?v=4" width="100px;" alt="Pritam Singh"/><br /><sub><b>Pritam Singh</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=PsOverflow" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/justin-frederiksen"><img src="https://avatars3.githubusercontent.com/u/16109041?v=4" width="100px;" alt="Justin Frederiksen"/><br /><sub><b>Justin Frederiksen</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=sparksong" title="Documentation">📖</a></td>
   </tr>
 </table>
 
