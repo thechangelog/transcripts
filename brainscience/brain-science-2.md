@@ -138,7 +138,7 @@ What I'm trying to really get at is that for those who think "Oh, I'm an individ
 
 So you get in an argument with your spouse, or you have an interaction with a friend, or you're left out of the group; everybody else is doing their thing and you are the only one not invited - it literally hurts, physically. But then you're just sort of stuck, unless you develop coping skills or strategies to navigate your way out in order to feel differently.
 
-And I like to think of these things when we talk about relationship and challenges that we encounter - people are unskilled. They just haven't learned other skills that work better. So if I've only ever learned how to play defense, I'm probably not gonna be the best offensive player. Period. And that doesn't mean I can't be... It just means I then have to practice playing offense, i.e. looking at the desires that I have, not simply trying to stay in self-protection mode, so that I'm always safe. Because bear n mind, our brains are always designed to keep us alive; that's their primary job.
+And I like to think of these things when we talk about relationship and challenges that we encounter - people are unskilled. They just haven't learned other skills that work better. So if I've only ever learned how to play defense, I'm probably not gonna be the best offensive player. Period. And that doesn't mean I can't be... It just means I then have to practice playing offense, i.e. looking at the desires that I have, not simply trying to stay in self-protection mode, so that I'm always safe. Because bear in mind, our brains are always designed to keep us alive; that's their primary job.
 
 **Adam Stacoviak:** Stay alive.
 

@@ -182,7 +182,7 @@ We've actually had a lot of good overlap between people that have used Eleventy 
 
 **Divya Sasidharan:** Yeah. I'm sure he'll be chuffed to hear that, whatever he says...
 
-**Zach Leatherman:** \[unintelligible 00:34:08.13\] Yeah, it's been really cool to see, and we've actually had a bunch of bigger-name website launches too using it, which has been really awesome. Web.dev, which is Chromium Dev's website, is using Eleventy. v8.dev is using Eleventy, which is Mathias Bynens, actually... He was another very early adopter of Eleventy. He's using that on v8.dev, I think they used it at CERN for the WorldWideWeb Rebuild, which was super-awesome to see... And I know CSS-Tricks has used it a little bit, too. I think the conference website that they have set up. So yeah, it's been awesome to see what people are building with it.
+**Zach Leatherman:** Whatever he said, "chuffed, chuffed" but yeah, it's been really cool to see, and we've actually had a bunch of bigger-name website launches too using it, which has been really awesome. Web.dev, which is Chromium Dev's website, is using Eleventy. v8.dev is using Eleventy, which is Mathias Bynens, actually... He was another very early adopter of Eleventy. He's using that on v8.dev, I think they used it at CERN for the WorldWideWeb Rebuild, which was super-awesome to see... And I know CSS-Tricks has used it a little bit, too. I think the conference website that they have set up. So yeah, it's been awesome to see what people are building with it.
 
 **Nick Nisi:** That's really cool. I wanted to ask you why you went out and built a static site generator.
 
@@ -194,7 +194,7 @@ We've actually had a lot of good overlap between people that have used Eleventy 
 
 **Zach Leatherman:** Oh, nice. Thanks, I really appreciate that. All my websites are using it, basically, so yeah, I'm super-invested in it. I am really delighted to hear that you think that we're responsive to fix issues, because I've been really busy with conference stuff the last couple weeks... \[laughs\] And I owe some open source maintenance, for sure.
 
-**Divya Sasidharan:** I think usually when I have an issue with it, I just ping Phil. I'll be like "Hey, Phil, can you help me with this?" He's \[unintelligible 00:38:23.29\]
+**Divya Sasidharan:** I think usually when I have an issue with it, I just ping Phil. I'll be like "Hey, Phil, can you help me with this?" He's like defacto [laughs]......
 
 **Zach Leatherman:** Yeah, it's been super-helpful to have other people, like our cheerleaders of the project, sort of answer questions, too. That's been very awesome, because it frees up more of my time to work on new features, and bigger-ticket stuff that I wanna add.
 

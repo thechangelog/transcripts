@@ -28,7 +28,7 @@
 
 **Jerod Santo:** \[laughs\] What began your love story with this text editor? So many people love Vim. We have a \#vimparty channel in our Slack team, which was a play on JS Party; it was like "We should have a Vim Party", because so many people on the JS Party podcast are Vim users... And people tend to love or hate it; there's learning curves, some people never get over that learning curve... There's jokes about "Vim, why can't I quit you?" We've made plenty of those jokes over the years on Twitter...
 
-**Adam Stacoviak:** My favorite was the Singularity conversation. I think you said there's people that are trying to quit Vim as we speak, I believe... \[unintelligible 00:05:28.21\] you said that.
+**Adam Stacoviak:** My favorite was the Singularity conversation. I think you said there's people that are trying to quit Vim as we speak, I believe there is almost rationally you said that.
 
 **Jerod Santo:** Right. Yeah, so I'm always joking about that... It's a joke that's well used, maybe overused at this point, but I'm always one to beat a dead horse. That being said, why did you fall in love with Vim? This is obviously core to your idea of doing everything in the terminal, not using GUIs; Vim is a core piece of that... Neovim, specifically. So tell us how you fell in love with it and what you like about it so much that you're like "Hey, I'm gonna get this tattooed on my ankle.
 
@@ -180,7 +180,7 @@ Well, Tmuxinator unfortunately is a Ruby Gem, so it has a Ruby dependency upon i
 
 **Jerod Santo:** Exactly.
 
-**Lucas Fernandes da Costa:** So it's usually like, you know, my \[unintelligible 00:38:34.13\] runs things, and just keeps a window open in case I need to move files around, or anything. And the second one is always like Vim, and running some tests, or anything like that... And I can have these rules for myself. That automates it. I think it fits really nice with what most people do, actually.
+**Lucas Fernandes da Costa:** So it's usually like, you know,first I runs things, and just keeps a window open in case I need to move files around, or anything. And the second one is always like Vim, and running some tests, or anything like that... And I can have these rules for myself. That automates it. I think it fits really nice with what most people do, actually.
 
 **Jerod Santo:** Yeah, it's pretty cool. For Changelog.com, for instance, the first pane is the server, running, and then the second one is a console session, opened, with the whole framework loaded, and everything; the third one is the tests running, and then the fourth one is just a shell. So I can name them, I don't have to set them up every single time... Because you do find yourself doing the exact same thing.
 
@@ -222,7 +222,7 @@ One thing that I've done years ago - I don't even realize it anymore; I think ab
 
 **Adam Stacoviak:** \[laughs\] Lucas, help us understand why is Zsh something you reach for, since you're a minimalist, and Bash, as Jerod said before, is on every machine.
 
-**Lucas Fernandes da Costa:** When I started out I was using Bash, and then I think the thing that drew me to Zsh was the autocompletion. I think that was the clear thing for me, the clear feature; that's what brought me in. Also, all the \[unintelligible 00:45:00.28\] patterns, and all that... And I think just managing configuration with Oh-my-zsh is so easy; also \[unintelligible 00:45:10.02\] I think the killer feature for me was the autocompletion, and that you can get \[unintelligible 00:45:20.15\] for everything you use.
+**Lucas Fernandes da Costa:** When I started out I was using Bash, and then I think the thing that drew me to Zsh was the autocompletion. I think that was the clear thing for me, the clear feature; that's what brought me in. Also, all the \[unintelligible 00:45:00.28\] patterns, and all that... And I think just managing configuration with Oh-my-zsh is so easy; also \[unintelligible 00:45:10.02\] I think the killer feature for me was the autocompletion, and that you can get all the prior permissions with you were using.
 
 **Adam Stacoviak:** Well, here I am about to say, you know what - if there was Oh-my-bash, I might... Because what actually draws me to Zsh is less about Zsh and more just the fact that Oh-my-zsh existed and made it so easy, and I like the easy button... There actually isn't Oh-my-bash.
 

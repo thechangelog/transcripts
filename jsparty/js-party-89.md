@@ -66,7 +66,7 @@ So if you look at the earlier days of Node, that was how the whole ecosystem wor
 
 **Divya Sasidharan:** Oh yeah, of course. "Many packages, new frameworks built all the time. Config hell. Webpack." I feel really bad, because I essentially threw Webpack under the bus here, and I use it a lot and it's great, and their documentation is wonderful, and Sean Larkin is wonderful, but...
 
-**Mikeal Rogers:** They do have a huge configuration file. \[laughs\] It's like an unbelievable \[unintelligible 00:11:29.14\]
+**Mikeal Rogers:** They do have a huge configuration file. \[laughs\] It's like an unbelievable to manage.
 
 **Divya Sasidharan:** Yeah. \[laughs\]
 
@@ -76,7 +76,7 @@ So if you look at the earlier days of Node, that was how the whole ecosystem wor
 
 \[00:12:01.23\] A lot of times I feel like when nerds are being nerds, they can invent unnecessary problems for themselves. An example of this that I encountered a lot a few years ago was people would send a pull request to an open source project that I was in charge of, and they would be like "I converted everything to the newest syntax for you. Here you go. Oh, and also, I added 15 Babel plugins, so that we can compile it back to ES5." And they change every single line in the project.
 
-**Mikeal Rogers:** \[unintelligible 00:12:28.05\]
+**Mikeal Rogers:** You hated this so much you wrote standard.
 
 **Feross Aboukhadijeh:** Yeah, basically... It's one of those things where it's like - we have to ask ourselves, what are we doing? What are we trying to do here? When we use these new features, are we being enabled to do something that we weren't able to do before? Certainly, some language features are actually game-changers in that way; they let us completely do something that we couldn't -- like a new browser API, for example. This is not exactly Javascript, but it's in the browser; if a browser gives you a new API, you can actually do entirely new things. Suddenly now I can do WebGL, or I can do WebRTC, or I can draw into a Canvas, or I can access Bluetooth devices. That's actually complexity that's worth taking on, if it actually gives you something in return.
 
@@ -166,7 +166,7 @@ You can look at a lot of the patterns that Node developed internally, because th
 
 **Feross Aboukhadijeh:** Yeah...
 
-**Mikeal Rogers:** Whenever you're inventing your own error-handling mechanism, you are covering up a deficiency in the platform that is just \[unintelligible 00:26:55.04\]. But sometimes you have to. You just have no choice. I don't think that Facebook stood out going "You know what we should really do - rewrite the DOM as a diffing mechanism in JS." They had a problem that they needed to solve because the DOM was too slow, and that was how they solved it. It's just that because of the way that they decided to prevent the solution to that problem, it was very hard to remove that when the platform had caught up.
+**Mikeal Rogers:** Whenever you're inventing your own error-handling mechanism, you are covering up a deficiency in the platform that is like just dead. But sometimes you have to. You just have no choice. I don't think that Facebook stood out going "You know what we should really do - rewrite the DOM as a diffing mechanism in JS." They had a problem that they needed to solve because the DOM was too slow, and that was how they solved it. It's just that because of the way that they decided to prevent the solution to that problem, it was very hard to remove that when the platform had caught up.
 
 **Feross Aboukhadijeh:** One thing we should mention is that it's important to make sure that the tools you're using solve problems that you actually have. I think that's a huge source of unintentional complexity, or what I call incidental complexity earlier. If you adopt a tool because everyone else is adopting it, and that tool was meant for a company that's a thousand times your size, you're gonna have extra complexity; that's gonna be solving problems you don't have yet... And you might argue that maybe it's good to be using a tool that can scale when you're ready to handle that much traffic, but let's be honest, your app is probably not gonna get that popular.
 
@@ -216,7 +216,7 @@ I think where you start to run into problems is as you become a developer, as yo
 
 When we talk about complexity, we're not just talking about the surface complexity of an API, but we're also not really talking about the entire implementation complexity either, because almost nobody keeps the entire implementation in their head when they do this stuff.
 
-I'm somebody who severely limits my tooling. I've moved away even from graphical editors, and back to Vim, and back to doing all of my development on a remote server, just so that I can severely limit the amount of tools in-between me and my code, and running it and \[unintelligible 00:35:48.02\]
+I'm somebody who severely limits my tooling. I've moved away even from graphical editors, and back to Vim, and back to doing all of my development on a remote server, just so that I can severely limit the amount of tools in-between me and my code, and running it and and reading it.
 
 But that said, it's really important to have a diverse and broad and really high growth ecosystem. If you don't have all of those things, then you're sitting in a corner of just the technology sphere in general that might die off. We were also talking about risk earlier, and the risk that something may or may not be adopted... In ecosystems that do not have this growth problem, you literally run the risk of this whole thing that you're working with dying off and not that many people using it in the future...
 
@@ -238,13 +238,13 @@ I've heard rumblings of conversations where TC39 has been trying to reach out to
 
 That's kind of my issue with it - in a way, we shouldn't curb the growth of the community, because I think the fact that there's so many things means that people are actively contributing and actively working on things and thinking about problems, which I think is a great thing... But it's like, "How do we introduce that nuance to show developers, both seasoned and new, that certain tooling is not necessarily needed for every single use case?" Because a lot of the arguments I've heard for certain libraries have been "You have to use this, because your code will be better by it", which I think is incredibly subjective... Because I'm like "Sure, maybe. But will it, actually? And is it introducing more load and more weight to my codebase to solve one thing, that I might not even have a problem for?" So that's where I was coming from.
 
-**Adam Stacoviak:** Before Feross jumps in, I wanna mention this topic of "You are not Google, Amazon, LinkedIn etc.", choosing the right tooling for the job... We actually had this conversation on the Changelog about two years ago now. As a matter of fact, August 4th, 2017, with Oz Nova \[unintelligible 00:42:10.04\] He's actually an instructor at Bradfield School of Computer Science - president of, actually, and one of the instructors. So if you wanna hear more about that, we'll put that in the show notes... But episode \#260 of the Changelog we cover that, and that actually was based on a very thorough blog post and a very popular blog post as well from Oz. Feross?
+**Adam Stacoviak:** Before Feross jumps in, I wanna mention this topic of "You are not Google, Amazon, LinkedIn etc.", choosing the right tooling for the job... We actually had this conversation on the Changelog about two years ago now. As a matter of fact, August 4th, 2017, with Oz Nova at the time his last name was Onay, Oz Onay. He's actually an instructor at Bradfield School of Computer Science - president of, actually, and one of the instructors. So if you wanna hear more about that, we'll put that in the show notes... But episode \#260 of the Changelog we cover that, and that actually was based on a very thorough blog post and a very popular blog post as well from Oz. Feross?
 
 **Feross Aboukhadijeh:** No, you go for it, Mikeal.
 
 **Mikeal Rogers:** I was just saying, how much of this has really just been about Webpack, and React, and the actual Javascript ecosystem? \[laughter\] And I do feel like Ember deserves a little bit of credit, in that as the platform has changed over the last ten years, they have done massive rewrites in order to accept those changes and to move along with them, and not maintain a sort of hostile position to them the way that React has created Web Components.
 
-**Adam Stacoviak:** \[unintelligible 00:42:59.02\] Maybe can we talk about the future, Mike... You mentioned Web Components and this very large potential change. So if we are on the fence of whether or not tooling is or is not overly complicated, how can we simplify? Mikeal, you mentioned when you write your own code and you start a project, you sort of simplify things... So what are other ways that developers out there can sort of resist the complication, or lack thereof if there isn't any?
+**Adam Stacoviak:** We got 9 minutes left in the show. Maybe can we talk about the future, Mike... You mentioned Web Components and this very large potential change. So if we are on the fence of whether or not tooling is or is not overly complicated, how can we simplify? Mikeal, you mentioned when you write your own code and you start a project, you sort of simplify things... So what are other ways that developers out there can sort of resist the complication, or lack thereof if there isn't any?
 
 **Mikeal Rogers:** I feel like this is a really bad time to answer that question. I would have had a really good answer a few years ago... But this is a very transitional period for Javascript and for the web. I feel like the tool that you probably wanna adopt does not exist yet, and that is a problem. I think that most of what we rely on right now in the ecosystem is probably gonna implode in the next year or so.
 
@@ -266,7 +266,7 @@ That's kind of my issue with it - in a way, we shouldn't curb the growth of the 
 
 **Feross Aboukhadijeh:** In practice though, when you ship your site, don't you still bundle because the performance from downloading 100 separate modules, with 100 separate HTTP requests is still too much?
 
-**Mikeal Rogers:** Yes, that's the thing though - right now you have two options. You either load a hundred files, or you use a bundler. But if all of your dependencies were using these new standards, you would actually have quite a few options in between. You could actually use much more sophisticated loaders that did some bundling for you dynamically, that loaded a few packages together but not all of them, you can start to rely upon HTTP/2 and just say like "Oh yeah, we are gonna give you a \[unintelligible 00:45:13.14\] and we're gonna do it all at once", so it would be the same as a bundle, for instance. Your options open up a lot wider once you say "We're just not going to support all of the old syntax", essentially.
+**Mikeal Rogers:** Yes, that's the thing though - right now you have two options. You either load a hundred files, or you use a bundler. But if all of your dependencies were using these new standards, you would actually have quite a few options in between. You could actually use much more sophisticated loaders that did some bundling for you dynamically, that loaded a few packages together but not all of them, you can start to rely upon HTTP/2 and just say like "Oh yeah, we are gonna give you a 3m digital file and we're gonna do it all at once", so it would be the same as a bundle, for instance. Your options open up a lot wider once you say "We're just not going to support all of the old syntax", essentially.
 
 The reason why I bring this is up is just it's something to look at and think about, because it opens up a lot of possibilities that we don't have with the npm plus bundler scenario, but adopting them would require us to basically drop almost all of the current npm registry, and reimplement a lot of things. A lot of this code would not be substantial code changes, but quite a few.
 
