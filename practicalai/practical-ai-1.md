@@ -1,6 +1,6 @@
-**Adam Stacoviak:** I think, Jerod, for me this show goes back a while, because I met Daniel several years ago at GopherCon. He was in data science, and wowed me with his super-awesome ways; I think a while after that he came on GoTime, and we kind of struck a conversation of like "Hey, we'd love to eventually do something around data science regarding a podcast", and then now we're here, Practical AI.
+**Adam Stacoviak:** \[00:01:38\]I think, Jerod, for me this show goes back a while, because I met Daniel several years ago at GopherCon. He was in data science, and wowed me with his super-awesome ways; I think a while after that he came on GoTime, and we kind of struck a conversation of like "Hey, we'd love to eventually do something around data science regarding a podcast", and then now we're here, Practical AI.
 
-**Jerod Santo:** Here we are... And we're not just joined by Daniel, we also have Chris with us. Hi, guys.
+**Jerod Santo:** \[00:02:02\]Here we are... And we're not just joined by Daniel, we also have Chris with us. Hi, guys.
 
 **Chris Benson:** Hello.
 
