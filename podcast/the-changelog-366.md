@@ -12,7 +12,7 @@
 
 **Adam Stacoviak:** Bummer.
 
-**Jerod Santo:** Oh, no. A sad ending to your amazing story. Well, tell us about the beginning of this, back when it was fun. Go back to the fun days. \[unintelligible 00:02:55.10\]
+**Jerod Santo:** Oh, no. A sad ending to your amazing story. Well, tell us about the beginning of this, back when it was fun. Go back to the fun days. I think it was '07/'08.
 
 **Chris Anderson:** By the way, I still have fun doing other things, and it is a perfectly natural progression, and we'll get into this probably later in the conversation... But because I miss the days of it being a hobby and fun, I decided to restart the whole thing with cars, not drones. So DIY Robocars is our autonomous car racing league. It's super-fun, and remind me not to turn it into a company.
 
@@ -60,7 +60,7 @@ So on Saturday we diligently followed the instructions... And you know, when you
 
 **Chris Anderson:** \[00:07:43.21\] They were interested for like ten more seconds, and that was it for them. And I was like "What just happened...?" That should not be possible. Because you know, at the time drones were like predators, and Global Hawks, and military-industrial, and they were classified, and super-- ten billion dollars things... And we had just built a drone with LEGO pieces, around a dining room table, programmed by a nine-year-old. Putting aside that it was not a great drone, that should not be possible.
 
-When a nine-year-old can do something that is classified, that literally \[unintelligible 00:08:16.09\] with toy pieces, something important in this world has changed. And I wasn't clear what it was, but I knew it was something. So I set up a website. Ten years earlier it would have been a blog, and ten years later it would have been a Twitter feed, but at the moment it was a social network. So I set up a social network I called DIY Drones, and it was largely so I could chronicle my own experiments, but also to ask dumb questions in public.
+When a nine-year-old can do something that is classified, that literally export control it as a munition with toy pieces, something important in this world has changed. And I wasn't clear what it was, but I knew it was something. So I set up a website. Ten years earlier it would have been a blog, and ten years later it would have been a Twitter feed, but at the moment it was a social network. So I set up a social network I called DIY Drones, and it was largely so I could chronicle my own experiments, but also to ask dumb questions in public.
 
 **Jerod Santo:** Learn, yeah.
 
