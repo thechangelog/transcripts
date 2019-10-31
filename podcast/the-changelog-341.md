@@ -38,7 +38,7 @@ With this first bridge, what Emscripten did is basically designing an interface 
 
 **Jerod Santo:** Is that where Wasmer comes into play - it provides that interface to those system calls? Or how does Wasmer come into -- I know you say it's a runtime, but...
 
-**Syrus Akbary:** First, before starting Wasmer, \[unintelligible 00:09:24.17\] all the WebAssembly runtimes, and the fastest ones were actually on the browser side, and there were other implementations, or trying to have like a WebAssembly virtual machine on the server side. I reviewed all of them, and funnily enough, the faster one was Firefox... So I started sneaking into how they were implemented the WebAssembly runtime, and basically what I did is I created a toy project using their WebAssembly engine, but trying to use it outside of Javascript, so removing all the Javascript part.
+**Syrus Akbary:** First, before starting Wasmer, curiously enough I just started ruby in all the WebAssembly runtimes, and the fastest ones were actually on the browser side, and there were other implementations, or trying to have like a WebAssembly virtual machine on the server side. I reviewed all of them, and funnily enough, the faster one was Firefox... So I started sneaking into how they were implemented the WebAssembly runtime, and basically what I did is I created a toy project using their WebAssembly engine, but trying to use it outside of Javascript, so removing all the Javascript part.
 
 We started kind of just creating the runtime as a pet project, which was a very cool project... And then -- can you repeat again what was the question? I think diverged a little bit.
 
@@ -46,7 +46,7 @@ We started kind of just creating the runtime as a pet project, which was a very 
 
 **Syrus Akbary:** Yeah, regarding the system calls, how Wasmer fits is we provide different integrations or interfaces. For example, Emscripten defines a set of syscalls on top of Libc, and we just kind of like -- rather than creating these syscalls or emulating these syscalls in Javascript, we do it natively, with native functions... But the truth of the fact is we can plug Emscripten or we can plug any other kind of ABI.
 
-For example, today Mozilla released this new project, a WebAssembly common interface called WASI. They basically redefined the set of syscalls; rather than being \[unintelligible 00:11:00.00\] I think it's just like 40-50. And the cool fact of Wasmer is you can plug the ABI that you want to use for a certain binary.
+For example, today Mozilla released this new project, a WebAssembly common interface called WASI. They basically redefined the set of syscalls; rather than being 200 \[unintelligible 00:11:00.00\] I think it's just like 40-50. And the cool fact of Wasmer is you can plug the ABI that you want to use for a certain binary.
 
 There will be some WebAssembly binaries that are compiled using Emscripten, and therefore will use the Emscripten syscalls, and then there will be other WebAssembly modules that are compiled using this new WASI interface. Then you will need to use this WASI interface instead. The cool thing about Wasmer is you can plug any pre-existing ABIs that we already created, or you can plug your own ABI.
 
@@ -150,7 +150,7 @@ Talking about Java, there is a very interesting project called TeaVM. This VM ac
 
 **Syrus Akbary:** Yeah, that will probably be it. And the cool thing is it will work in Linux, and then Windows as well. Exactly the same binaries will work in Windows, Linux, Mac, and could work also on your phone; we just need to build the integration, but that should be not really hard.
 
-**Adam Stacoviak:** So what's the UX for installing currently? Is it a \[unintelligible 00:25:34.02\] command, or something like that, to install?
+**Adam Stacoviak:** So what's the UX for installing currently? Is it a cURL command, or something like that, to install?
 
 **Syrus Akbary:** It will be similar to what Npm is doing.
 
