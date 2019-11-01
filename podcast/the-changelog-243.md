@@ -66,7 +66,7 @@ So there's a slightly increased time to load cost for HTTPS, on the order of ten
 
 So that protocol was originally called Speedy; it got standardized and it's now called HTTP/2. One of the tricky things about it is it's such a radical departure from how HTTP/1 was encoded that it wasn't really practical to deploy over HTTP, because you have a number of what's called "middleboxes" - these are machines that sit on a network and try to intercept traffic (especially HTTP traffic) and do something to it.
 
-They might be caching, they might be \[unintelligible 00:14:39.16\] for inspection, they might be scanning for viruses... But a lot of these middleboxes screw up HTTP/2 in various ways, or they don't cleanly pass through things they don't recognize. So the implementers of HTTP/2 decided that it would only be supported on encrypted connections, because the middleboxes can't generally interfere with those. It was the only practical way to deploy it. What that means is today the incentives are a little flipped; you actually get a performance win from using HTTPS, because if you do, the browsers accessing your site can upgrade to HTTP/2, so you get all these great \[unintelligible 00:15:23.06\] wins.
+They might be caching, they might be siphoning off a copy for inspection, they might be scanning for viruses... But a lot of these middleboxes screw up HTTP/2 in various ways, or they don't cleanly pass through things they don't recognize. So the implementers of HTTP/2 decided that it would only be supported on encrypted connections, because the middleboxes can't generally interfere with those. It was the only practical way to deploy it. What that means is today the incentives are a little flipped; you actually get a performance win from using HTTPS, because if you do, the browsers accessing your site can upgrade to HTTP/2, so you get all these great multiplexing wins.
 
 **Jerod Santo:** That was a very nice summary, by the way. We do have a show - Adam, I didn't get a chance to pull it up... Ilya Grigorik has talked to us in a show about HTTP/2. For those interested, who wanna go deep into that, Ilya knows tons about HTTP/2. I don't have a show number... We do have a search function now on our website, which people have been asking for; just go there and search that, and you'll find that episode. It's very good.
 
@@ -139,7 +139,7 @@ Let's Encrypt was very lucky to find IdenTrust, who was willing to cross-sign fo
 
 First, obviously, you have to generate your keys and your certs; you wanna generate those keys in an HSM (Hardware Security Module). The whole point of a hardware security module is to store crypto keys in a way such that even if somebody hacked you to bits, they still wouldn't be able to make off with the keys; they might be able to trick your HSM into signing something incorrectly, but they wouldn't be able to go make a copy of your private key.
 
-So once you've generated those certs safely and written down all the steps you took -- or rather, first you write down the steps you're gonna take, then you follow them all on what's called a "key ceremony". You do it all on video, and you have auditors check that you did it all \[unintelligible 00:26:20.26\]
+So once you've generated those certs safely and written down all the steps you took -- or rather, first you write down the steps you're gonna take, then you follow them all on what's called a "key ceremony". You do it all on video, and you have auditors check that you did it all correctly.
 
 **Jerod Santo:** Really? It's all videotaped?
 **J. Hoffman-Andrews:** Yup.
@@ -168,7 +168,7 @@ I think definitely that it's a barrier to starting up a new CA, especially if yo
 
 Domain validation is where to get a cert from Let's Encrypt (a domain-validated cert), you just have to prove you control the domain for which you want the cert. If you wanted an extended validation cert from another CA, you'd have to not only prove you control the domain in the cert, you'd also have to prove who you are, what sort of business entity you are, where you're based in, show them all the documents and so on.
 
-**Jerod Santo:** \[unintelligible 00:29:09.16\] the browsers change how they do these things all the time, but at a certain point at least, they would make a big green thing in the address bar, as opposed to a little yellow lock symbol. So the incentive for a site owner to go through the extended validation is to make them look even more trustworthy to browsers.
+**Jerod Santo:** And the advantage of that one is, the browsers change how they do these things all the time, but at a certain point at least, they would make a big green thing in the address bar, as opposed to a little yellow lock symbol. So the incentive for a site owner to go through the extended validation is to make them look even more trustworthy to browsers.
 
 **J. Hoffman-Andrews:** Right, yeah.
 
@@ -196,7 +196,7 @@ I think users tend to be relatively insensitive to additional UI...
 
 **J. Hoffman-Andrews:** So I would say for most sites I wouldn't really worry about EV. It doesn't affect the quality of encryption that you have on your site, and it also doesn't impact the quality of the validation of the domain names in the cert. So it's kind of the same process in terms of validating the domain names in that ownership, that's done for both EV and DV.
 
-**Jerod Santo:** \[00:32:04.06\] Most users do not even know that there's a way they can identify a site as encrypted or not encrypted, let alone the EV versus non-EV encryption. So the goal is let's get all the sites encrypted, because people won't know one way or the other. The EV - I think it's a clout thing, or it's kind of like pimpin' your ride; \[unintelligible 00:32:27.26\] That's the only reason why I think it would be attractive to me, because like Jacob said, the encryption is the same. It just shows you went the extra mile to be audited more thoroughly than other sites did.
+**Jerod Santo:** \[00:32:04.06\] Most users do not even know that there's a way they can identify a site as encrypted or not encrypted, let alone the EV versus non-EV encryption. So the goal is let's get all the sites encrypted, because people won't know one way or the other. The EV - I think it's a clout thing, or it's kind of like pimpin' your ride, if you're a big business, "Forget if it makes sense, it's cooler!" That's the only reason why I think it would be attractive to me, because like Jacob said, the encryption is the same. It just shows you went the extra mile to be audited more thoroughly than other sites did.
 
 **J. Hoffman-Andrews:** One of the interesting points there - Google Chrome has done a lot of really cool user research on usability of security indicators, and one of the results they found, that I think other researchers have found is that users don't tend to notice the absence of a security indicator. People don't notice that the green lock is absent. They do notice when something is present that says, "Oh, this is actually bad", like if the safe browsing page pops up and says "This site might be phishing" or "This might be malware", they notice that.
 
@@ -216,7 +216,7 @@ So the long-term goal for Chrome (and I believe also for Firefox) is something c
 
 **Adam Stacoviak:** There's no more excuses, get your cert. Do it.
 
-**Jerod Santo:** Right. Let's move on a little bit from the CA requirements, because they are many, and interesting for sure... But just to keep moving along, let's talk about Boulder. Jacob, do you wanna go into Boulder? Because it's your guys' implementation of \[unintelligible 00:35:24.13\] There may or may not be interesting things to talk about there. It's up to you.
+**Jerod Santo:** Right. Let's move on a little bit from the CA requirements, because they are many, and interesting for sure... But just to keep moving along, let's talk about Boulder. Jacob, do you wanna go into Boulder? Because it's your guys' implementation of the certificate authority. There may or may not be interesting things to talk about there. It's up to you.
 
 **J. Hoffman-Andrews:** Yeah, so to talk about Boulder, I think first we have to talk about ACME. We had a number of goals with Let's Encrypt, and one of the ones that gets the most attention is free certs and automated certs. But we also want to bring about interoperability. If Let's Encrypt becomes the CA that everybody uses, it's a single point of failure. If for whatever reason it fails, it's terrible news for the internet.
 
@@ -245,14 +245,14 @@ One is the HTTP Challenge. It says, "This is a file I want you to create and I w
 
 **Adam Stacoviak:** Of course.
 
-**J. Hoffman-Andrews:** Everybody knows where robots.text is, but we don't wanna keep adding files at the top level web servers, and everybody has to know they're special, and that should prevent \[unintelligible 00:38:37.14\] from uploading them. So now that place is /wellknown, so when protocols need to register a certain path, it's under there. So that's the HTTP Challenge.
+**J. Hoffman-Andrews:** Everybody knows where robots.text is, but we don't wanna keep adding files at the top level web servers, and everybody has to know they're special, and that should prevent randos from uploading them. So now that place is /wellknown, so when protocols need to register a certain path, it's under there. So that's the HTTP Challenge.
 
 **Jerod Santo:** Is there anybody else doing that besides you? It sounds like it's becoming standardized, but is there anything else that goes in...? Because this is the only occurrence for me personally of seeing anything get put in /wellknown.
 
 **J. Hoffman-Andrews:** Yeah, there are a few. It's starting slowly, but definitely I've seen other new protocols establish that. It's a handy thing.
 There was actually a talk I just watched from Brad Hill at Enigma about better account recovery, and part of the protocol he was developing involved putting a certain file at a wellknown URL.
 
-**Jerod Santo:** Very cool. We should use those for our repos on GitHub, instead of the file files, like gemfile, dockerfile... Starfile. We should just have a .files, or something, and put everything in there. \[unintelligible 00:39:39.19\] sounds like a good idea. Definitely for web severs, though. Continue, we cut you off.
+**Jerod Santo:** Very cool. We should use those for our repos on GitHub, instead of the file files, like gemfile, dockerfile... Starfile. We should just have a .files, or something, and put everything in there. It's your junk drawer, sounds like a good idea. Definitely for web severs, though. Continue, we cut you off.
 
 **J. Hoffman-Andrews:** Okay, so there's two others. There's the DNS Challenge, which says, "Put this special token value in a DNS text record under your domain." And then there's the TLS SNI Challenge, which is "Take this token value, wrap it in a temporary cert, and we're gonna attempt to connect over TLS to your site and ask for that, and we want you to echo back that value, plus an additional validation value, in the cert itself."
 
@@ -260,7 +260,7 @@ There was actually a talk I just watched from Brad Hill at Enigma about better a
 
 **Jerod Santo:** Very cool. So you have ACME which is the specification, you have Boulder which I think is the server-side certificate authority software, and then on the client side, the ones who are requesting certificates, you have Certbot. Tell us about Certbot.
 
-**J. Hoffman-Andrews:** Yeah, absolutely. I would say actually there's dozens of clients, which is one of the really cool things about ACME - anybody can \[unintelligible 00:41:27.00\]
+**J. Hoffman-Andrews:** Yeah, absolutely. I would say actually there's dozens of clients, which is one of the really cool things about ACME - anybody can go...
 
 **Jerod Santo:** Yeah, because it's a spec, so anybody can read the spec and just implement the spec, and there you go.
 
@@ -279,7 +279,7 @@ Certbot, as the first client - it started off not so easy. Of course, private be
 
 **Adam Stacoviak:** I could be just an idiot, but one time I did try to use Let's Encrypt on a DigitalOcean server when we were running WordPress (probably about a year ago), I was using a DigitalOcean tutorial to do it, and I got stuck. I could not do it. So I don't know if I'm the idiot or if the tutorial was just dated, but I was lost. So this is helpful now, the Certbot.
 
-**J. Hoffman-Andrews:** Yeah, I think there's always more work to be done on Certbot, certainly there's a lot of places you can get stuck, and definitely there are a lot of tutorials from the early days of Certbot where a lot of stuff has changed since then. And they have a lot of pagerank because people were really excited \[unintelligible 00:44:43.20\]
+**J. Hoffman-Andrews:** Yeah, I think there's always more work to be done on Certbot, certainly there's a lot of places you can get stuck, and definitely there are a lot of tutorials from the early days of Certbot where a lot of stuff has changed since then. And they have a lot of pagerank because people were really excited and they linked to them a lot.
 
 **Jerod Santo:** \[laughs\] So pagerank can backfire sometimes.
 
@@ -354,7 +354,7 @@ So that's been really important. I think that's a big part of why now cryptograp
 
 **J. Hoffman-Andrews:** Yeah, so there's been rumblings in the government now again of "Oh, this crypto is scary. The idea that people can send stuff that we can't read is scary, so we wanna put restrictions on that, and we wanna limit cryptography in various ways." Most likely, this second time around is not gonna look like the first. It's probably not gonna be a matter of Arms Restrictions. We don't know yet exactly what that attempt will look like, but we're definitely ready to fight it and fight for people's right to keep their stuff safe.
 
-**Adam Stacoviak:** The bad part -- I guess it depends on your perspective of seeing it the bad part when I say that, so don't take that as a really bad thing... The point I'm trying to make is that it could be the good guys, or it could be the bad guys that want to keep their stuff safe, that want to keep it hidden. It's a really fine line of saying, "I think everybody should have access to security, secure internet and secure transmissions of their messages... It just sucks whenever it's the bad people trying to hurt you", you know what I mean? So that's a very tough position for any government to be in; I'm not saying that they're right or wrong in their convictions or reasons for \[unintelligible 00:59:39.11\] They have a very tough job to keep a nation safe, whether it's our nation or another.
+**Adam Stacoviak:** The bad part -- I guess it depends on your perspective of seeing it the bad part when I say that, so don't take that as a really bad thing... The point I'm trying to make is that it could be the good guys, or it could be the bad guys that want to keep their stuff safe, that want to keep it hidden. It's a really fine line of saying, "I think everybody should have access to security, secure internet and secure transmissions of their messages... It just sucks whenever it's the bad people trying to hurt you", you know what I mean? So that's a very tough position for any government to be in; I'm not saying that they're right or wrong in their convictions or reasons for doing what they do. They have a very tough job to keep a nation safe, whether it's our nation or another.
 
 **J. Hoffman-Andrews:** \[00:59:47.11\] The way I like to think of it is like the right to whisper. You can always lean over and whisper to the person next to you and have a relatively private conversation. We would never dream of telling anybody, "Look, whenever you have a conversation, you need to have it through a megaphone, just in case you might be a bad guy and the government wants to collect data of your wrongdoing." I think there are plenty of avenues besides weakening cryptography that are available to the government in law enforcement activities.
 
@@ -433,7 +433,7 @@ This is relatively new; it's been in the works for a few years now... There are 
 
 **J. Hoffman-Andrews:** Yeah. Let's Encrypt really believes in transparency, it's one of our core values, so from day one we were voluntarily logging to multiple CT logs. One thing we don't yet do is we don't embed the proofs in the certs, so that a browser can verify, "Yes, the cert was definitely logged." Embedding that proof is something we're planning to do.
 
-**Jerod Santo:** Very cool. And blockchain \[unintelligible 01:11:40.26\] people have found so many different uses for blockchains... This is a great example of that.
+**Jerod Santo:** Very cool. And blockchain FTW, recently people have found so many different uses for blockchains... This is a great example of that.
 
 **Adam Stacoviak:** Great time for it. We have a much bigger need for it now, and now that the care and technology around blockchain is getting more and more mature, it's a great time for it.
 

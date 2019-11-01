@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-193-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-202-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -277,6 +277,17 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/GennadyAgashkov"><img src="https://avatars2.githubusercontent.com/u/5602536?v=4" width="100px;" alt="Gennady Agashkov"/><br /><sub><b>Gennady Agashkov</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=GennadyAgashkov" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/omaiyea"><img src="https://avatars0.githubusercontent.com/u/34819618?v=4" width="100px;" alt="Angelica Omaiye"/><br /><sub><b>Angelica Omaiye</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=omaiyea" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/ruuuh20"><img src="https://avatars1.githubusercontent.com/u/19366753?v=4" width="100px;" alt="P K"/><br /><sub><b>P K</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=ruuuh20" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/PDavid"><img src="https://avatars3.githubusercontent.com/u/1415396?v=4" width="100px;" alt="Dávid Paksy"/><br /><sub><b>Dávid Paksy</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=PDavid" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/jChapman"><img src="https://avatars1.githubusercontent.com/u/1152464?v=4" width="100px;" alt="jChapman"/><br /><sub><b>jChapman</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=jChapman" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/anandb89"><img src="https://avatars1.githubusercontent.com/u/19282889?v=4" width="100px;" alt="Anand Bambhania"/><br /><sub><b>Anand Bambhania</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=anandb89" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/iuliavisterneanu"><img src="https://avatars2.githubusercontent.com/u/33431863?v=4" width="100px;" alt="iuliavisterneanu"/><br /><sub><b>iuliavisterneanu</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=iuliavisterneanu" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://bugcrowd.com/Pritam_Singh"><img src="https://avatars0.githubusercontent.com/u/27357082?v=4" width="100px;" alt="Pritam Singh"/><br /><sub><b>Pritam Singh</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=PsOverflow" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/justin-frederiksen"><img src="https://avatars3.githubusercontent.com/u/16109041?v=4" width="100px;" alt="Justin Frederiksen"/><br /><sub><b>Justin Frederiksen</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=sparksong" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/funspectre"><img src="https://avatars2.githubusercontent.com/u/5924650?v=4" width="100px;" alt="Tobalase Akinyemi"/><br /><sub><b>Tobalase Akinyemi</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=funspectre" title="Documentation">📖</a></td>
   </tr>
 </table>
 
@@ -313,7 +324,7 @@ Has [its transcript in this repo at](https://github.com/thechangelog/transcripts
 
 ### Text formatting
 
-Each transcript fragment is parsed as good ole' [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). That means you can add `*`s or `_`s for emphasis, `[links](https://changelog.com)` to referenced people/projects, etc. We _especially_ encourage addition of links. These make the transcripts much more useful to readers and provide valuable SEO juice to the link-worthy things we discuss on our shows.
+Each transcript fragment is parsed as good ole' [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). That means you can add `*`s or `_`s for emphasis, `[links](https://changelog.com)` to referenced people/projects, etc. We _especially_ encourage the addition of links. These make the transcripts much more useful to readers and provide valuable SEO juice to the link-worthy things we discuss on our shows.
 
 ### Timestamps
 
