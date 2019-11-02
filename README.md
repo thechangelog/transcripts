@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-203-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-204-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -289,6 +289,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://www.linkedin.com/in/justin-frederiksen"><img src="https://avatars3.githubusercontent.com/u/16109041?v=4" width="100px;" alt="Justin Frederiksen"/><br /><sub><b>Justin Frederiksen</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=sparksong" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/funspectre"><img src="https://avatars2.githubusercontent.com/u/5924650?v=4" width="100px;" alt="Tobalase Akinyemi"/><br /><sub><b>Tobalase Akinyemi</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=funspectre" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/xen-glitch"><img src="https://avatars2.githubusercontent.com/u/57036235?v=4" width="100px;" alt="xen-glitch"/><br /><sub><b>xen-glitch</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=xen-glitch" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/jaredsmorgan"><img src="https://avatars3.githubusercontent.com/u/43708112?v=4" width="100px;" alt="Jared Morgan"/><br /><sub><b>Jared Morgan</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=jaredsmorgan" title="Documentation">📖</a></td>
   </tr>
 </table>
 
