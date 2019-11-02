@@ -150,7 +150,7 @@ But I'm hopeful. I feel like I've noticed more transparency, at least in our com
 
 **Adam Stacoviak:** That's right.
 
-**Sahil Lavingia:** So I think at the end of the day it's probably the nett. The way I think about it is if you feel pretty healthy and you're doing pretty healthy things, you're gonna know. So I think at the end of the day most of it is like -- yeah, he could go running in a gym or running outside, but he's choosing to walk to work; why is that? I think part of that is the motivation behind like "How do I engage with my monkey brain a little bit more?"
+**Sahil Lavingia:** So I think at the end of the day it's probably the net. The way I think about it is if you feel pretty healthy and you're doing pretty healthy things, you're gonna know. So I think at the end of the day most of it is like -- yeah, he could go running in a gym or running outside, but he's choosing to walk to work; why is that? I think part of that is the motivation behind like "How do I engage with my monkey brain a little bit more?"
 
 **Adam Stacoviak:** Right. "How do I feel again?" is what you're saying...
 
