@@ -162,7 +162,7 @@ So over time, as things become commercially available and sort of off-the-shelf,
 
 **Chris Anderson:** \[00:19:47.12\] "We're out. We're out." So I went onto the forums and I was like "I need someone to help put together these kits." The smartest guy in the forums was this guy who was flying a remote-controlled helicopter with a Wii controller... He posted the code, and did YouTube videos; he was really good. His name is Jordi Muñoz. Never met him, just a guy on the forum... And he said that he had a little spare time and that he would be happy to help me.
 
-I said "What do you need?" and he said "I need $500 for parts", so I sent him a check, literally, a check in an envelope of $500, and he sent me back a picture of him in the garage, soddering together the parts. And I thought that was the end of it. They continued to be made, we set up a little e-commerce shop, and that was it. But he kept sending me more pictures, and just like "I've got some friends to help me. We've moved to a garage, we've moved to a bigger garage, we bought some pick-and-place machines, some \[unintelligible 00:20:50.24\] ovens..."
+I said "What do you need?" and he said "I need $500 for parts", so I sent him a check, literally, a check in an envelope of $500, and he sent me back a picture of him in the garage, soddering together the parts. And I thought that was the end of it. They continued to be made, we set up a little e-commerce shop, and that was it. But he kept sending me more pictures, and just like "I've got some friends to help me. We've moved to a garage, we've moved to a bigger garage, we bought some pick-and-place machines, some low ovens..."
 
 **Adam Stacoviak:** He's scaling operations.
 
