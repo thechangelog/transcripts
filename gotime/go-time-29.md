@@ -22,7 +22,7 @@
 
 **Brian Ketelsen:** Are you taking orders, Mark?
 
-**Mark Bates:**\[00:01.39.37\] It's a very caffeinated Mark Bates sitting here in the corner of a Dunkin' Donuts. \[laughter\] Coming to you live...
+**Mark Bates:**\[00:01:39.37\] It's a very caffeinated Mark Bates sitting here in the corner of a Dunkin' Donuts. \[laughter\] Coming to you live...
 
 **Brian Ketelsen:** Thank you for sprinting to Dunkin' Donuts to get power, since the power went out in your block; we appreciate that very much.
 
