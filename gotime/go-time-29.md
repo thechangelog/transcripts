@@ -22,7 +22,7 @@
 
 **Brian Ketelsen:** Are you taking orders, Mark?
 
-**Mark Bates:** It's a very caffeinated Mark Bates sitting here in the corner of a Dunkin' Donuts. \[laughter\] Coming to you live...
+**Mark Bates:**\[00:01.39.37\] It's a very caffeinated Mark Bates sitting here in the corner of a Dunkin' Donuts. \[laughter\] Coming to you live...
 
 **Brian Ketelsen:** Thank you for sprinting to Dunkin' Donuts to get power, since the power went out in your block; we appreciate that very much.
 
@@ -94,7 +94,7 @@ That's really what I was looking for, and that's kind of how Buffalo came to be.
 
 **Brian Ketelsen:** So would it be accurate to say that you took the best of all of the packages that exist out there, sprinkled in some SuperGlue and turned it into what you're calling in air quotes a framework?
 
-**Mark Bates:** Yeah, that's about right. If you look at the core Buffalo package itself, most of it is just glue code. There are a handful of sub-packages to other things, like provide basic rendering frameworks... You know, that could be extended using a very simple interface, and stuff like that.
+**Mark Bates:** \[00:06:09.38\] Yeah, that's about right. If you look at the core Buffalo package itself, most of it is just glue code. There are a handful of sub-packages to other things, like provide basic rendering frameworks... You know, that could be extended using a very simple interface, and stuff like that.
 
 I found a great router, for example - the gorilla/mux router is a great router. Great, let's wrap that. Let's wrap then the ability to add some nice middleware on it, an easy to use declarative syntax, a context structure, the ability to skip middleware, which nobody really does, but very useful... So that sort of glue work.
 
