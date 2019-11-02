@@ -102,7 +102,7 @@ I feel like many action movies it's all about the action, and the stories are so
 
 **Adam Stacoviak:** Brett, you should know this one perfectly. This is your heritage.
 
-**Jerod Santo:** \[laughs\] \[unintelligible 00:08:17.13\]
+**Jerod Santo:** \[laughs\] Oh, God!
 
 **Brett Cannon:** I've never even heard of it.
 
@@ -210,7 +210,7 @@ I feel like many action movies it's all about the action, and the stories are so
 
 **Jerod Santo:** Yeah, American football. That's right.
 
-**Adam Stacoviak:** Yeah, American football. So I'm not here, I'm from Pennsylvania, so of course I was a Penguins fan, and I loved Mario Lemieux... Mario, it depends if you're from \[unintelligible 00:12:11.20\]
+**Adam Stacoviak:** Yeah, American football. So I'm not here, I'm from Pennsylvania, so of course I was a Penguins fan, and I loved Mario Lemieux... Mario, it depends if you're from Canada.
 
 **Jerod Santo:** Here in Nebraska we call him Mario, because we're boring.
 
@@ -240,7 +240,7 @@ I feel like many action movies it's all about the action, and the stories are so
 
 **Brett Cannon:** Was it the first Keanu movie?
 
-**Adam Stacoviak:** It's not the first. It's one of the first that I saw. The ones previous to that were One Step Away, Comedy Factory, \[unintelligible 00:13:25.16\]
+**Adam Stacoviak:** It's not the first. It's one of the first that I saw. The ones previous to that were One Step Away, Comedy Factory, Letting Go, Night Heat...
 
 **Jerod Santo:** What point were you trying to make?
 
@@ -304,7 +304,7 @@ The thing about The Matrix, why he fit so well there, was because a guy for whom
 
 **Jerod Santo:** I am with her on that, yeah.
 
-**Brett Cannon:** So I don't have huge standing speakers, much like you can see behind Adam in the video feed... But I have a Sonos soundbar \[unintelligible 00:17:55.28\] I have a 55-inch, 4K, with ultra high def support... I have a Xbox 1 for the BluRay, ChromeCast Ultra, that kind of thing. So I get into it as much as my loving wife will let me get into it.
+**Brett Cannon:** So I don't have huge standing speakers, much like you can see behind Adam in the video feed... But I have a Sonos soundbar and the Play1s at the back for surround sound. I have a 55-inch, 4K, with ultra high def support... I have a Xbox 1 for the BluRay, ChromeCast Ultra, that kind of thing. So I get into it as much as my loving wife will let me get into it.
 
 **Jerod Santo:** And Stac, you are all in.
 
@@ -318,7 +318,7 @@ The thing about The Matrix, why he fit so well there, was because a guy for whom
 
 **Adam Stacoviak:** Right.
 
-**Brett Cannon:** ...as a justification to my wife to let me get a bigger TV. It's like, "Look, sweetie, we're this many centimeters away from the screen. Optimally, we can watch up to this size. The room can handle it", and then \[unintelligible 00:19:26.26\] "No, that will dominate the room. Forget it."
+**Brett Cannon:** ...as a justification to my wife to let me get a bigger TV. It's like, "Look, sweetie, we're this many centimeters away from the screen. Optimally, we can watch up to this size. The room can handle it", and then, of course, her answer is, "No, that will dominate the room. Forget it."
 
 **Jerod Santo:** Right.
 
@@ -372,7 +372,7 @@ And I moved five times while I was in college, so I moved that TV five times. It
 
 **Jerod Santo:** But the video is like... You know, it's a 13-inch screen, and you're on an airplane, sitting next to somebody who's breathing on you, and all that kind of stuff. So I had that going on.
 
-**Adam Stacoviak:** Well, since you guys gave your histories here, at least audio-wise - like, because of my \[unintelligible 00:21:26.19\] wanting to always have this, when we built our house in 2017 we were lucky enough to have an option to add a room upstairs that could be basically set up for a theater... And it was so inexpensive to do when we built the house, I'm like "Yeah, sure."
+**Adam Stacoviak:** Well, since you guys gave your histories here, at least audio-wise - like, because of my, y'know, 18-year-old self wanting to always have this, when we built our house in 2017 we were lucky enough to have an option to add a room upstairs that could be basically set up for a theater... And it was so inexpensive to do when we built the house, I'm like "Yeah, sure."
 
 **Brett Cannon:** Oh, nice.
 
@@ -448,7 +448,7 @@ That's the plot, and it just tells you that kind of right up in the first 15-20 
 
 **Jerod Santo:** And there was no allusion whatsoever at any point in John Wick I, really in any of them, but especially in one, that he was in any trouble whatsoever. And you'd think maybe that would remove some of the drama, like "Is he gonna make it? Is he gonna kill everybody?" I was just like "No, he's just gonna kill everybody."
 
-**Brett Cannon:** \[unintelligible 00:27:04.03\]
+**Brett Cannon:** Yeah, you know he'll make it through somehow.
 
 **Jerod Santo:** I never thought John Wick was actually in any danger whatsoever.
 
@@ -476,7 +476,7 @@ That's the plot, and it just tells you that kind of right up in the first 15-20 
 
 **Brett Cannon:** ...on tables and such, yeah.
 
-**Adam Stacoviak:** Yes. Obviously, a lot of killing too, because that's just part of the movie... In three there's so much killing. That's actually what I thought about the whole time I was watching, I was like "Everybody is just dying. He's killing everybody." There's nobody he encounters... It's like one or two people, he's like -- I forget what the person's name is; he comes up behind him... I think this might be two, actually; I'm pretty sure it's two. He comes up behind him and he says "Hey, how are you doing?" \[unintelligible 00:28:42.00\] "You should take a break." He's like "I'll take a break, John." And then he goes inside and kills everybody. But that guy gets away for some reason, which is kind of interesting.
+**Adam Stacoviak:** Yes. Obviously, a lot of killing too, because that's just part of the movie... In three there's so much killing. That's actually what I thought about the whole time I was watching, I was like "Everybody is just dying. He's killing everybody." There's nobody he encounters... It's like one or two people, he's like -- I forget what the person's name is; he comes up behind him... I think this might be two, actually; I'm pretty sure it's two. He comes up behind him and he says "Hey, how are you doing?" He's got the gun to his head. "Hey, how's the family?" Something like that. "You should take a break." He's like "I'll take a break, John." And then he goes inside and kills everybody. But that guy gets away for some reason, which is kind of interesting.
 
 **Brett Cannon:** Oh, well that was in one. That was when he walked up behind the bodyguard at the night club.
 
@@ -486,7 +486,7 @@ That's the plot, and it just tells you that kind of right up in the first 15-20 
 
 **Adam Stacoviak:** That's right. "You've lost weight, you look good." That's right. Good job remembering that. I thought it was two, for some reason.
 
-**Brett Cannon:** Two was when you learn that there's been times in his life where he's gone up against some assassin and he somehow respects and he wounds them in such a way that either they can die trying to get him, or they can step away and live. \[unintelligible 00:29:21.06\]
+**Brett Cannon:** Two was when you learn that there's been times in his life where he's gone up against some assassin and he somehow respects and he wounds them in such a way that either they can die trying to get him, or they can step away and live. I think he does that to Common, or something.
 
 **Jerod Santo:** Right, they can save their own lives.
 
@@ -532,7 +532,7 @@ And what' also interesting is that all three movies take place within the same w
 
 **Jerod Santo:** Yeah, I figured as much. I mean, three very much led -- the way it ended, you're just kind of waiting for it. But two begged for chapter three, with the ending of two.
 
-**Brett Cannon:** Yes. I believe they \[unintelligible 00:32:56.15\] both two and three at the same time, so...
+**Brett Cannon:** Yes. I believe they had already greenlit both two and three at the same time, so...
 
 **Jerod Santo:** Which makes sense, because if you think about the end of Empire, the heroes are losing. And if you think about the end of John Wick II, he is in extreme trouble. In fact, the coolest thing is when they call out the hit, they put a contract out, and it's like the worldwide group text, this thing goes out... Kind of an old-school dispatcher...
 
@@ -610,7 +610,7 @@ And what' also interesting is that all three movies take place within the same w
 
 **Jerod Santo:** Demilitarized zones.
 
-**Adam Stacoviak:** Right, yeah. This is a neutral zone, you come here and talk. And I love even in Chapter 2 when \[unintelligible 00:35:38.29\] and him are on the footstep of The Continental, and they basically...
+**Adam Stacoviak:** Right, yeah. This is a neutral zone, you come here and talk. And I love even in Chapter 2 when Common and him are on the footstep of The Continental, and they basically...
 
 **Brett Cannon:** Break the glass.
 
@@ -656,15 +656,15 @@ And what' also interesting is that all three movies take place within the same w
 
 **Jerod Santo:** Yes.
 
-**Brett Cannon:** And there was just action, and then - as you said, Jerod - I think in two, when they realized "Oh, we get to make two more films. Let's build out this world of rules..." I think it's really interesting, they made sure there's real cohesion to it. It doesn't feel like it was just thrown together like in some \[unintelligible 00:37:30.12\] "Oh, crap, we've gotta figure some stuff out." It was like "Oh, okay", like they kind of thought this true. It's like "Okay, it's gonna be kind of like the mafia; like, if you watch The Sopranos, you can tell they have certain rules they actually kind of follow.
+**Brett Cannon:** And there was just action, and then - as you said, Jerod - I think in two, when they realized "Oh, we get to make two more films. Let's build out this world of rules..." I think it's really interesting, they made sure there's real cohesion to it. It doesn't feel like it was just thrown together like in some writing room, like, "Oh, crap, we've gotta figure some stuff out." It was like "Oh, okay", like they kind of thought this true. It's like "Okay, it's gonna be kind of like the mafia; like, if you watch The Sopranos, you can tell they have certain rules they actually kind of follow.
 
 **Jerod Santo:** Right.
 
-**Brett Cannon:** And they say in three \[unintelligible 00:37:43.14\], or what separates them from being animals...
+**Brett Cannon:** And they say in three, right, "What separates us from the animals? Rules," or what separates them from being animals...
 
 **Jerod Santo:** Exactly.
 
-**Brett Cannon:** So it seems like it's been ingrained in them that there are certain rules - the Continental, and what the coins are for, the beautiful disks that they use for those markers... Then there's even the sub ones. In three, where he has his tickets from the Belarusian ballet company, that he seemed to be raised as an orphan from \[unintelligible 00:38:11.09\]
+**Brett Cannon:** So it seems like it's been ingrained in them that there are certain rules - the Continental, and what the coins are for, the beautiful disks that they use for those markers... Then there's even the sub ones. In three, where he has his tickets from the Belarusian ballet company, that he seemed to be raised as an orphan from to get --
 
 **Jerod Santo:** He cashed them in to get safe passage, or something.
 
@@ -678,7 +678,7 @@ And what' also interesting is that all three movies take place within the same w
 
 **Adam Stacoviak:** John is really popular too, as a character in this story. I know, sure, it's called John Wick, and that would make sense, but every single movie, there's somebody in the movie, a new character introduced that knows him so well through a back-story which you're not really revealed. I'm thinking of like Chapter 3 when he meets Halle Berry's character... There's always some sort of deep, past relationship, good or bad, that everyone has with the main character of Keanu Reeves, John Wick. I think it's just so wild how they all seem to know this fella so well.
 
-**Jerod Santo:** Yeah, he's \[unintelligible 00:39:31.11\]
+**Jerod Santo:** Yeah, he's infamous.
 
 **Adam Stacoviak:** There's some sort of history of his.
 
@@ -686,7 +686,7 @@ And what' also interesting is that all three movies take place within the same w
 
 **Adam Stacoviak:** Exactly.
 
-**Brett Cannon:** Or the relationship with Doc in Chapter 3, when he gets stabbed in the shoulder near a public library, and he has to go get that sutured up... And he helps him knowing full well that "Alright, you're gonna have to shoot me to prove to them that I actually didn't cheat \[unintelligible 00:40:03.29\] before you were excomunicado", but he still totally lets him come in, and helps him, and they say things to each other, and there's very much a cordial respect between them.
+**Brett Cannon:** Or the relationship with Doc in Chapter 3, when he gets stabbed in the shoulder near a public library, and he has to go get that sutured up... And he helps him knowing full well that "Alright, you're gonna have to shoot me to prove to them that I actually didn't cheat and go past before you were excomunicado", but he still totally lets him come in, and helps him, and they say things to each other, and there's very much a cordial respect between them.
 
 \[00:40:15.19\] It definitely seems like there's a -- it goes both ways, where his humanity seems to have previously existed, prior to meeting his wife... But the other points, where it's like "Oh yeah, he's a stone-cold killer", and totally pushed people away because he totally just knocks someone out that they care about.
 
@@ -706,7 +706,7 @@ Another movie that does a really good job of this is Minority Report. I don't kn
 
 **Adam Stacoviak:** Yeah.
 
-**Brett Cannon:** \[unintelligible 00:41:42.05\] the people who fill this world definitely seem to have (as you said) purpose and something behind them that's motivating them... They might not go into great detail, but you could totally imagine how that's an actual thing.
+**Brett Cannon:** Beyond the initial roles, the people who fill this world definitely seem to have (as you said) purpose and something behind them that's motivating them... They might not go into great detail, but you could totally imagine how that's an actual thing.
 
 I think another thing about these films that's really interesting is you can step out of it and think about that character, like Halle Berry's character, and you can think about what was said, and you can realize that it seems like there's a rich tapestry to their background, that you can kind of just mentally just expand upon... It's like "Oh yeah, I bet this happened, and that happened. She's that kind of person", and all that... Versus just like "Oh yeah, he just met a lady with dogs, that led to a cool fight scene.
 
@@ -752,7 +752,7 @@ I think another thing about these films that's really interesting is you can ste
 
 **Jerod Santo:** A blind action movie is like "I hit them, they're done", where it's like "That guy is still alive." And in fact, lots of times he's gotta hit people multiple times, and like you said, he always double-checks at the end.
 
-**Brett Cannon:** Honestly, now that I think about it, the only killing I can remember in all those films was the \[unintelligible 00:47:21.13\] to a guy in the forehead, and that's it.
+**Brett Cannon:** Honestly, now that I think about it, the only kill I can remember in all those films was the dramatic one at the end of two, in the Continental, where he does it almost point blank - no farther than the distance to the table - to a guy in the forehead, and that's it.
 
 **Jerod Santo:** Yeah, execution style.
 
@@ -908,9 +908,9 @@ So I do agree that the setups for the scenes were definitely more forced in thre
 
 **Jerod Santo:** Because two to me felt like it was happening to him. Like, all of a sudden, he was just reacting, and it was also fast, and I was down with that. But yeah, good point - when it goes back to his wife, it's kind of like returning to one's continuity, which makes two kind of stand out a little bit from the other two.
 
-**Brett Cannon:** \[00:55:46.11\] And I would totally understand two if they were not planning for a three. It seemed they were basically ending it at two. Then it would have gone like "Okay, we've got one. Now we've gotta find motivation for two, so now we're done." And "Oh, look, we've got a third. Well, let's maybe tie it back to his wife", versus -- there was obviously gonna be a connection from two to three, so it was like... Yeah, it went from "wife, to me, to wife", instead of some -- and maybe they just couldn't think of a better way to do the \[unintelligible 00:56:14.10\] through... But that was my problem with two - that part of the story felt kind of out of place. It's like "I'm now the one that's angry and mad, and now I'm just gonna go kill everyone, because they want me to come back here and be in this world again, and I don't want to be."
+**Brett Cannon:** \[00:55:46.11\] And I would totally understand two if they were not planning for a three. It seemed they were basically ending it at two. Then it would have gone like "Okay, we've got one. Now we've gotta find motivation for two, so now we're done." And "Oh, look, we've got a third. Well, let's maybe tie it back to his wife", versus -- there was obviously gonna be a connection from two to three, so it was like... Yeah, it went from "wife, to me, to wife", instead of some -- and maybe they just couldn't think of a better way to do the flying through... But that was my problem with two - that part of the story felt kind of out of place. It's like "I'm now the one that's angry and mad, and now I'm just gonna go kill everyone, because they want me to come back here and be in this world again, and I don't want to be."
 
-But then if that's the driving force, he's way overdoing this... And then it gets to the end, where it seems like the driving force is "I don't wanna be part of this anymore, but I'm being forced to." And then it gets to the end, and it's like "Oh, well now I'm just gonna make war life really hell, and just totally break one of the cardinal rules of this world, and really throw everything out the window", versus something else that would lead to him like, I don't know, watching \[unintelligible 00:56:54.22\] doing something that would allow him to more walk away, versus his "Lose my patience, and I'm gonna totally overblow it." And then go into three, where it's suddenly like "Oh, I overblew it. Now I've gotta try to fix the whole thing, so I can be the one who remembers my wife etc.", which also felt a little stretched... But once again, that's because of two, because he did this thing knowing full well that he would end up in that situation.
+But then if that's the driving force, he's way overdoing this... And then it gets to the end, where it seems like the driving force is "I don't wanna be part of this anymore, but I'm being forced to." And then it gets to the end, and it's like "Oh, well now I'm just gonna make war life really hell, and just totally break one of the cardinal rules of this world, and really throw everything out the window", versus something else that would lead to him like, I don't know, watching a guard outside slip up, doing something that would allow him to more walk away, versus his "Lose my patience, and I'm gonna totally overblow it." And then go into three, where it's suddenly like "Oh, I overblew it. Now I've gotta try to fix the whole thing, so I can be the one who remembers my wife etc.", which also felt a little stretched... But once again, that's because of two, because he did this thing knowing full well that he would end up in that situation.
 
 **Jerod Santo:** Are you referring to when to when he takes out the guy at the end? Because up until that point in two I didn't feel like it was about anger/revenge. I felt like it was about him having to follow his blood oath and kill the guy's sister... And then he puts a hit out on him and everything else was almost self-defense on John Wick's side. He was reacting to the trouble that was coming at him...
 
@@ -938,7 +938,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Jerod Santo:** He deserved it... \[laughs\]
 
-**Adam Stacoviak:** ...against what John and he had kind of agreed on. Didn't he break a promise to them? Wasn't there some sort of \[unintelligible 00:58:17.21\]
+**Adam Stacoviak:** ...against what John and he had kind of agreed on. Didn't he break a promise to them? Wasn't there some sort of fair agreement between the two?
 
 **Jerod Santo:** Well, he double-crossed him.
 
@@ -992,7 +992,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Brett Cannon:** Well, actually in three there is one throwback to the Matrix where they ask if he needs anything, and then Keanu Reeves said "Guns. Lots of guns."
 
-**Jerod Santo:** Oh, yeah. \[unintelligible 01:01:03.26\] That definitely is a throwback.
+**Jerod Santo:** Oh, yeah. "Lots of guns." That definitely is a throwback.
 
 **Adam Stacoviak:** That's true.
 
@@ -1004,7 +1004,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Adam Stacoviak:** Right.
 
-**Jerod Santo:** They're probably like "Hm, I could probably work something in there...", but what would you have that would confirm it? They'd have to come out and say "Yes, this is \[unintelligible 01:01:31.17\]
+**Jerod Santo:** They're probably like "Hm, I could probably work something in there...", but what would you have that would confirm it? They'd have to come out and say "Yes, this is a prequel to The Matrix."
 
 **Adam Stacoviak:** Yeah, I think you'd need confirmation from the director, or writers, somebody that's involved in the executive team of creating this film, to say "Yeah." And since there's actually a Matrix 4 being talked about or in the works, I would imagine--
 
@@ -1018,7 +1018,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Brett Cannon:** Matrix 4 is not a reboot, it is the fourth film in the series. Keanu Reeves is involved, and I believe it's Lana Wachowski (of the Wachowski siblings) also involved in writing it. So it's not a complete disconnect. But then again, as you pointed out, two and three are nowhere near as good as the first, so...
 
-**Jerod Santo:** I'm still not into it. I was so disappointed, specifically with The Matrix Reloaded. I anticipated that movie -- I think I was in high school at the time. I remember the trailer for that, which is a spectacular piece of filmmaking. It's like two-and-a-half minutes, The Matrix Reloaded... Just jam-packed. With the train scene... Just jam-packed. And then I wait and watch the film, and I'm like "What the crap is going on?" The architect, and this crazy \[unintelligible 01:02:33.14\] ridiculous stuff... Anyways.
+**Jerod Santo:** I'm still not into it. I was so disappointed, specifically with The Matrix Reloaded. I anticipated that movie -- I think I was in high school at the time. I remember the trailer for that, which is a spectacular piece of filmmaking. It's like two-and-a-half minutes, The Matrix Reloaded... Just jam-packed. With the train scene... Just jam-packed. And then I wait and watch the film, and I'm like "What the crap is going on?" The architect, and this crazy high-falootin' ridiculous stuff... Anyways.
 
 **Brett Cannon:** Yeah. The fight scenes are great, but the connections between the fight scenes are not as great.
 
@@ -1068,7 +1068,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Jerod Santo:** The Multiverse...
 
-**Adam Stacoviak:** \[unintelligible 01:04:38.15\]
+**Adam Stacoviak:** He'd be a previous Neo.
 
 **Brett Cannon:** How many times had they rebuilt the Matrix?
 
@@ -1118,7 +1118,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Adam Stacoviak:** I've got some answers then... So for number one, Viggo. For Chapter 2 I would say Ares; Ruby Rose is her real name.
 
-**Brett Cannon:** \[unintelligible 01:06:16.21\]
+**Brett Cannon:** Oh, the beaut.
 
 **Adam Stacoviak:** Yeah. And then in 3 I would just say The Adjudicator. Asia Kate Dillon. Surprisingly did really well with that role. I loved her play of that character. I think that would exactly be how I would imagine an Adjudicator.
 
@@ -1156,11 +1156,11 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Brett Cannon:** Oh, and... Do they call him a sommelier in Chapter 2, at The Continental...?
 
-**Jerod Santo:** Oh, yeah... \[unintelligible 01:08:33.19\] with guns?
+**Jerod Santo:** Oh, yeah... Who loaded him up with guns?
 
 **Brett Cannon:** Yeah.
 
-**Adam Stacoviak:** \[unintelligible 01:08:38.13\]
+**Adam Stacoviak:** Oh, is he the sommelier? Of course. Always.
 
 **Jerod Santo:** For a tasting? Yeah...
 
@@ -1280,7 +1280,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Jerod Santo:** The Elder. That's where it's like hitting in Matrix Reloaded style. It's like, okay, go out into the desert and pass out, and then the guy will appear... It's getting a little bit mythical.
 
-**Brett Cannon:** Yeah. \[unintelligible 01:13:44.21\] man out in the middle of nowhere.
+**Brett Cannon:** Yeah. This Bedouin man out in the middle of nowhere.
 
 **Jerod Santo:** Yeah... I was not into that. I mean, the scene was fine; he chopped off his own finger. It's just that part of the story was, again, like "This is just too far."
 
@@ -1364,7 +1364,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Jerod Santo:** The siege, yeah. I should be more specific - pre-fight; not the fight at the end, but the actual protecting of The Continental, with the guys with the increased body armor... And how they go out there the first time, and they're shooting guys, and they're getting back up and everything... And he realizes "I've gotta shoot these guys right in the face with this shotgun."
 
-**Adam Stacoviak:** \[unintelligible 01:16:54.05\] more accurate, yeah.
+**Adam Stacoviak:** Slightly more accurate, yeah.
 
 **Jerod Santo:** And he just starts blowing heads off... It's just like one after the next after the next... It's fun to watch. It's probably my favorite scene.
 
@@ -1412,7 +1412,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Adam Stacoviak:** Right. Which is super-cool.
 
-**Brett Cannon:** ...which helps a lot. Because suddenly you're just \[unintelligible 01:19:05.20\] Yeah. So you're getting bruised up and you're feeling it, but there's no actual penetration to the body, until that knife scene.
+**Brett Cannon:** ...which helps a lot. Because suddenly you're just getting -- Yeah. So you're getting bruised up and you're feeling it, but there's no actual penetration to the body, until that knife scene.
 
 **Adam Stacoviak:** Right.
 
@@ -1434,7 +1434,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Adam Stacoviak:** \[01:20:02.04\] Right. I bet. "I must always be me, but as a character."
 
-**Brett Cannon:** Or the \[unintelligible 01:20:07.01\] have decided that, too. Because I know that's a thing, where it's like "We will not let them have a complete messed up face."
+**Brett Cannon:** Or the movie studio may have decided that, too. Because I know that's a thing, where it's like "We will not let them have a complete messed up face."
 
 **Jerod Santo:** For sure.
 
@@ -1468,7 +1468,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Jerod Santo:** They think they're hers.
 
-**Adam Stacoviak:** \[unintelligible 01:21:34.16\] She trained those dogs.
+**Adam Stacoviak:** Even if she doesn't own them, y'know? She trained those dogs.
 
 **Jerod Santo:** She probably doesn't have any stalkers stalking around her house, because...
 
@@ -1510,7 +1510,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Jerod Santo:** And the car was like, just a car...
 
-**Brett Cannon:** Something he loved. \[unintelligible 01:23:06.01\] life is more than just that car.
+**Brett Cannon:** Something he loved. That is why his wife warns him, life is more than just that car.
 
 **Jerod Santo:** Right. So yes, it's just a dog and a car, but like Brett said, it's not just a dog...
 
@@ -1558,7 +1558,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Jerod Santo:** I mean, I liked the idea, but I don't like watching it, no.
 
-**Brett Cannon:** Yeah, that one - I actually do turn away when that \[unintelligible 01:24:50.01\]
+**Brett Cannon:** Yeah, that one - I actually do turn away when that when that scene comes on.
 
 **Jerod Santo:** But when he shoots somebody's head off, it doesn't make me do that whatsoever, because it maybe just seems so fantastical... Even though it's probably the way it would actually work out.
 
@@ -1590,9 +1590,9 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Brett Cannon:** They did not have names... But he did spare their lives.
 
-**Adam Stacoviak:** Right, he did... Which I thought was super-cool. And whenever they're trying to stab him -- like, he also gets blasted through many glass boxes... I can't believe you can bounce back from that, and get up and not be cut everywhere. But whenever he's dodging their attacks with the sword, they're cutting the glass... And I just love the visual of that scene, and the \[unintelligible 01:26:50.02\] of using those swords. And he's able to dodge it all. I just like the visual of those swords on the glass.
+**Adam Stacoviak:** Right, he did... Which I thought was super-cool. And whenever they're trying to stab him -- like, he also gets blasted through many glass boxes... I can't believe you can bounce back from that, and get up and not be cut everywhere. But whenever he's dodging their attacks with the sword, they're cutting the glass... And I just love the visual of that scene, and the samurai-ness of using those swords. And he's able to dodge it all. I just like the visual of those swords on the glass.
 
-**Brett Cannon:** Maybe they did use safety glass, not just in the film, but actually they \[unintelligible 01:27:03.28\] in real life, because that's a lot of glass in a room... So that could explain how you wouldn't get cut.
+**Brett Cannon:** Maybe they did use safety glass, not just in the film, but actually they assumed they used in real life, because that's a lot of glass in a room... So that could explain how you wouldn't get cut.
 
 **Adam Stacoviak:** Yeah, true. Possibly.
 
@@ -1612,7 +1612,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Jerod Santo:** Certain meetings...
 
-**Brett Cannon:** \[unintelligible 01:27:41.03\]
+**Brett Cannon:** When you didn't know what someone brings into it...
 
 **Adam Stacoviak:** It had like levels to it, too.
 
@@ -1710,7 +1710,7 @@ What I also think happened in Chapter 3 was this whole new sort of unraveling of
 
 **Adam Stacoviak:** An architect, Jerod?
 
-**Jerod Santo:** Yeah, maybe there's an architect to the entire system, \[unintelligible 01:34:06.08\]
+**Jerod Santo:** Yeah, maybe there's an architect to the entire system, ergo, vis-a-vis...
 
 **Adam Stacoviak:** Yeah, played by me.
 
@@ -1756,11 +1756,11 @@ What I also think happened in Chapter 3 was this whole new sort of unraveling of
 
 **Adam Stacoviak:** One-hour fitness! Just kidding...
 
-**Brett Cannon:** I remember back when it did take 24 hours, and then I remember when it became one hour. Way back... \[unintelligible 01:35:07.16\] "I've had to go develop film, children..."
+**Brett Cannon:** I remember back when it did take 24 hours, and then I remember when it became one hour. Way back... There's some dating: "I've had to go develop film, children..."
 
 **Adam Stacoviak:** There you go. That's right. Now they don't even--
 
-**Jerod Santo:** Tell us what a Polaroid is... \[unintelligible 01:35:14.17\] because of the Outkast song.
+**Jerod Santo:** Tell us what a Polaroid is... Right, it'd be a Polaroid because of the Outkast song.
 
 **Adam Stacoviak:** Let's give some homework to the listeners, especially those who've listened to this very moment, because that's a long time... One, thanks for being a super-fan, thanks for listening to Backstage, and then even listening to our back-story here with Brett...
 
@@ -1814,7 +1814,7 @@ What I also think happened in Chapter 3 was this whole new sort of unraveling of
 
 **Brett Cannon:** ...Jeremy Renner couldn't, because he got involved in the Mission Impossible films, and the Marvel films, which took up too much of his time... Because they were actually planning to make that spin-off bit actually become its own thing.
 
-**Adam Stacoviak:** I was bummed about that actually, The Bourne Legacy. I like him as an actor and I think he did amazing with that. I think his humor as Hawkeye is really awesome... Like "This is a crazy world we're living in. I'm the guy with a bow and arrow, and \[unintelligible 01:38:48.16\]" I love that, about the sort of breaking down the fourth wall.
+**Adam Stacoviak:** I was bummed about that actually, The Bourne Legacy. I like him as an actor and I think he did amazing with that. I think his humor as Hawkeye is really awesome... Like "This is a crazy world we're living in. I'm the guy with a bow and arrow, and you've got a something-or-other!" I love that, about the sort of breaking down the fourth wall.
 
 **Brett Cannon:** Have you ever read the comics?
 
@@ -1932,7 +1932,7 @@ What I also think happened in Chapter 3 was this whole new sort of unraveling of
 
 **Adam Stacoviak:** That's right.
 
-**Brett Cannon:** ...and then we were like "Oh, we should do that." And then just building on it, and slowly getting to the point where we actually \[unintelligible 01:43:52.07\] Because I actually came on--
+**Brett Cannon:** ...and then we were like "Oh, we should do that." And then just building on it, and slowly getting to the point where we actually were able to make the time to show up. Because I actually came on--
 
 **Jerod Santo:** You've been on the show since then.
 
@@ -1940,7 +1940,7 @@ What I also think happened in Chapter 3 was this whole new sort of unraveling of
 
 **Jerod Santo:** That's right.
 
-**Brett Cannon:** And Adam commented about us kind of becoming pals - I was \[unintelligible 01:44:05.23\] because Adam had an appointment and he actually had to record just within the time window of recording...
+**Brett Cannon:** And Adam commented about us kind of becoming pals - I was bummed because Adam had an appointment and he actually had to record just within the time window of recording...
 
 **Jerod Santo:** It was a short time window...
 
@@ -1954,7 +1954,7 @@ What I also think happened in Chapter 3 was this whole new sort of unraveling of
 
 **Adam Stacoviak:** What did I have going on that day? It must have been important.
 
-**Jerod Santo:** \[unintelligible 01:44:23.15\]
+**Jerod Santo:** Eh, bowling league.
 
 **Brett Cannon:** You said a pre-existing long-term plan, something; I don't remember. You didn't say. You just had to take off.
 
@@ -2000,7 +2000,7 @@ What I also think happened in Chapter 3 was this whole new sort of unraveling of
 
 **Jerod Santo:** What makes them different? Just marketing?
 
-**Brett Cannon:** \[unintelligible 01:45:41.08\]
+**Brett Cannon:** Can't get out of that WoW raid tonight?
 
 **Adam Stacoviak:** The same thing with like children's diapers - some have big birds, some have Thomas the Train. Like, get your favorite gaming character on your Depends.
 

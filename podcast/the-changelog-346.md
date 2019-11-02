@@ -382,7 +382,7 @@ GitLab just has a bit more features, and I like it. It's also a bit more future-
 
 **Jerod Santo:** \[laughs\] Okay, well that sounds like we've gotta have you come back for some more deep conversations around these things, because I know you have lots of thoughts... I think actually I'm looking back through the [Stories link](https://www.scuttlebutt.nz/stories/) on Scuttlebutt website, the different use cases, and people writing about it, and I think actually your post a year or so ago was my introduction to it... So you definitely have influenced many through your writings.
 
-What's good places for people to keep up with you? If they don't know you personally, can't catch you on Manyverse, because they don't \[unintelligible 01:03:35.18\] personally, but maybe you're on Twitter, it seems... Do you write around the web? Do you have a homepage we can send people to?
+What's good places for people to keep up with you? If they don't know you personally, can't catch you on Manyverse, because they don't know you personally, but maybe you're on Twitter, it seems... Do you write around the web? Do you have a homepage we can send people to?
 
 **André Staltz:** Yeah. My web page is [staltz.com](https://staltz.com), and I do tweet quite often, but I do post a lot of my personal insights and personal stories on Scuttlebutt, so there's more that you can learn about me on Scuttlebutt. I wish I could mention a Scuttlebutt server that's open to get my data, so any stranger could get my data on Scuttlebutt, I just don't wanna do that publicly yet...
 

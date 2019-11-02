@@ -46,7 +46,7 @@ The first person joining us is Roberto Clapis. Hello, Roberto.
 
 **Filippo Valsorda:** You'd be surprised. Some of the leaks suggested that some of the state-sponsored hackers actually used something eerily similar to JIRA. It was kind of weird.
 
-**Mat Ryer:** That is weird. I'm surprised they get any hacking done if they're using any JIRA. \[laughter\]
+**Mat Ryer:** That is weird. I'm surprised they get any hacking done if they're using JIRA. \[laughter\]
 
 **Johan Brandhorst:** Imagine trying to meet your hack quotas when you have to fit it into two-week sprints.
 
@@ -78,7 +78,7 @@ The first person joining us is Roberto Clapis. Hello, Roberto.
 
 **Filippo Valsorda:** I do, but I work on something a tad simpler than securing the web platform. I work on securing the Go standard library. I'm the primary security coordinator for the Go project, and I'm the crypto gopher on the team.
 
-**Mat Ryer:** Awesome. That's very exciting. So credentials, I believe, are plenty on this. So what are the big challenges that we're facing then? And in particular from a Go perspective, are there any things that we should all -- what are the things that every gopher needs to know about security?
+**Mat Ryer:** Awesome. That's very exciting. Cool! So credentials, I believe, are plenty on this. So what are the big challenges that we're facing then? And in particular from a Go perspective, are there any things that we should all -- what are the things that every gopher needs to know about security?
 
 **Roberto Clapis:** I think there are many things that all gophers should be aware of, but I have to say, if you write Go, you're lucky, because I think the HTML template library, for example, is a piece of art from a security standpoint. I mean, it could be improved, but compare to any other standard library - or even external library - that we have in all other languages, this is very nice; it protects from XSS and other nasty stuff. We are less lucky in other standpoints, which we'll probably get to. Let's say that for Go it's easier.
 
@@ -90,7 +90,7 @@ The first person joining us is Roberto Clapis. Hello, Roberto.
 
 A lot of the job of the security researcher is to understand the system better than who wrote it, and find behaviors that emerged from the complex combination of different parts of the system.
 
-**Roberto Clapis:** If I might add one thing that I really love about Go, it's that we have some ideas in the security teams that if your code compiles, it should be secure. The Go type system really helps in that sense, even if we don't just consider the standard library, which is pretty good on this matter... When you write your own libraries, you can design your APIs in a way so that -- for example, let's say we don't want to write raw bytes in an HTTP writer; we can just come up with something that accepts a secure writer and the only library that's allowed to construct that thing sanitizes the string that you pass in and then you're done. If your code compiles, you don't have any kind of nasty injections. Even for the SQL package, it's pretty easy to wrap it with a wrapper that doesn't allow you to pass a string as a constructor for a query, but it must be a constant compile-time string. So you don't export the type that it accepts in the signature, and that means that the only way to satisfy the constraint is to pass in a compile-time constant.
+**Roberto Clapis:** If I might add one thing that I really love about Go, it's that we have some ideas in the security teams that if your code compiles, it should be secure. The Go type system really helps in that sense, even if we don't just consider the standard library, which is pretty good on this matter... When you write your own libraries, you can design your APIs in a way so that -- for example, let's say we don't want to write raw bytes in an HTTP writer; we can just come up with something that accepts a secure writer and the only library that's allowed to construct that thing sanitizes the string that you pass in and then you're done. You know that if your code compiles, you don't have any kind of nasty injections. Even for the SQL package, it's pretty easy to wrap it with a wrapper that doesn't allow you to pass a string as a constructor for a query, but it must be a constant compile-time string. So you don't export the type that it accepts in the signature, and that means that the only way to satisfy the constraint is to pass in a compile-time constant.
 
 **Mat Ryer:** I see. Do you find that's good advice generally then, to have those little abstractions to add extra protection? Is that a sensible thing?
 
@@ -120,7 +120,7 @@ So yeah, that's a problem that has been around since the web started existing, a
 
 Johan, I'm actually interested in your opinion on this, because you happen to be on the user side. Filippo and I are more on the designer and provider side. So what's your user experience in securing Go applications? Because I honestly haven't done that.
 
-**Johan Brandhorst:** Filippo mentioned it already, but the Go standard library, what it does really well is secure by default. We've mentioned that insecures get verified, that you literally have to enable explicitly if you want to use TLS without verifying that you're talking to the correct host. And a user, most of the time, whatever you write by default is secure, which is super-useful obviously, because if you're coming from a language like PHP or even Python - in Python you have to jump through extreme hoops to enable TLS on a server, and Go obviously makes this super-easy from the start.
+**Johan Brandhorst:** Filippo mentioned it already, but the Go standard library, what it does really well is secure by default. So we've mentioned that insecures get verified, that you literally have to enable explicitly if you want to use TLS without verifying that you're talking to the correct host. And a user, most of the time, whatever you write by default is secure, which is super-useful obviously, because if you're coming from a language like PHP or even Python - in Python you have to jump through extreme hoops to enable TLS on a server, and Go obviously makes this super-easy from the start.
 
 **Roberto Clapis:** Did you ever find some code that accidentally imported stuff like text template, instead of HTML template?
 
@@ -128,21 +128,21 @@ Johan, I'm actually interested in your opinion on this, because you happen to be
 
 So there's the two different template languages in the standard library - the HTML templates and the text template. They both do templating, but one of them is secure for the web, and one of them is not. So whenever you're using templates to run your websites, make sure you're using the HTML template package.
 
-**Filippo Valsorda:** \[00:15:53.19\] Yeah, this is the same issue that we have with math/rand and crypto/rand, and every week I find someone using math/rand somewhere where security is relevant... And sometimes people don't really think about it, because for example I need to select a load balancer back-end. I can do that with math/rand; there's no security involved here... Well, except that an attacker that can predict the ordering can send all those low requests to the same back-end, for example.
+**Filippo Valsorda:** \[00:15:53.19\] Yeah, this is the same issue that we have with `math/rand` and `crypto/rand`, and every week I find someone using `math/rand` somewhere where security is relevant... And sometimes people don't really think about it, because for example I need to select a load balancer back-end. I can do that with `math/rand`; there's no security involved here... Well, except that an attacker that can predict the ordering can send all those low requests to the same back-end, for example.
 
-And yes, math/rand is completely predictable of an attacker, while crypto/rand is what you can actually use to generate keys. And it's the same problem as HTML template and text template.
+And yes, `math/rand` is completely predictable of an attacker, while `crypto/rand` is what you can actually use to generate keys. And it's the same problem as HTML template and text template.
 
-**Mat Ryer:** What's the trade-off though? Why wouldn't we always just use the crypto/rand? Is it slower?
+**Mat Ryer:** What's the trade-off though? Why wouldn't we always just use the `crypto/rand`? Is it slower?
 
-**Filippo Valsorda:** There are people that have opinions about the performance of crypto/rand, and honestly I haven't seen many examples of that being a concern that was actually relevant.
+**Filippo Valsorda:** There are people that have opinions about the performance of `crypto/rand`, and honestly I haven't seen many examples of that being a concern that was actually relevant.
 
 **Break:** \[00:16:58.13\]
 
-**Roberto Clapis:** Since I'm passionate about performance, I spent a week trying to optimize a custom-made random generator - math-based, not syscall-based - that went fast enough to be faster than a buffered crypto/rand. It's not easy. You need to think a lot to make it faster than crypto/rand, especially if you use a buffered crypto/rand reader. Even if you have the remote suspect that some kind of random could affect your confidentiality integrity or availability in your service, use crypto. It's fast enough.
+**Roberto Clapis:** Since I'm kind of passionate about performance, I spent a week trying to optimize a custom-made random generator - math-based, not syscall-based - that went fast enough to be faster than a buffered `crypto/rand`. It's not easy. You need to think a lot to make it faster than `crypto/rand`, especially if you use a buffered `crypto/rand` reader. Even if you have the remote suspect that some kind of random could affect your confidentiality integrity or availability in your service, use crypto. It's fast enough.
 
-**Johan Brandhorst:** But we mentioned why not always use crypto/rand. I guess you want to use math/rand when you want predictable randomness, right?
+**Johan Brandhorst:** But we mentioned why not always use `crypto/rand`. I guess you want to use `math/rand` when you want predictable randomness, right?
 
-**Filippo Valsorda:** When you want reproducible randomness, when you want your tests to always do the same, yes. If you don't want two different test runs to do two different things, then yes, you want math/rand. But the only example I can think of is tests. Maybe folks can think of a few others, but they're very specific.
+**Filippo Valsorda:** When you want reproducible randomness, when you want your tests to always do the same, yes. If you don't want two different test runs to do two different things, then yes, you want `math/rand`. But the only example I can think of is tests. Maybe folks can think of a few others, but they're very specific.
 
 **Roberto Clapis:** \[00:19:58.29\] Even with tests, maybe use a random seed for your random, and then log the seed if you fail your test... Because you want your test to be random if the runtime is random. So the test should be as close to reality as possible, so use a math random maybe in tests, but use a different seed every time, so that if a race is there, you see it.
 
@@ -150,7 +150,7 @@ And yes, math/rand is completely predictable of an attacker, while crypto/rand i
 
 **Filippo Valsorda:** Yeah. As long as you log the seed, so that then you don't have to run it a million times to reproduce it, yes. Not speaking from experience here, not at all. \[laughter\]
 
-**Roberto Clapis:** Yeah. About that, I wanted to talk about one thing... It was [go-fuzz](https://github.com/dvyukov/go-fuzz). I don't know how many people know about this, but I actually found that to broadly improve my security and actually the quality of my code -- so for those who don't know about this, go-fuzz is a tool that allows you to compile your code in a different way, and you just have to implement that Fuzz function, that accepts a slice of bytes and returns an integer. If you implement that correctly, go-fuzz adds a lot more value to your tests because it tries pseudo random input and tries to explore all your code. So it checks when some code was executed and when not, and just keeps randomizing until it gets a good coverage of your code... And you would be surprised to see how many bugs I found in code that I really trusted, by just going with a simple go-fuzz function. It takes a minute to write. 
+**Roberto Clapis:** Yeah. About that, I wanted to talk about one thing today... It was [go-fuzz](https://github.com/dvyukov/go-fuzz). I don't know how many people know about this, but I actually found that to broadly improve my security and actually the quality of my code -- so for those who don't know about this, go-fuzz is a tool that allows you to compile your code in a different way, and you just have to implement that Fuzz function, that accepts a slice of bytes and returns an integer. If you implement that correctly, go-fuzz adds a lot more value to your tests because it tries pseudo random input and tries to explore all your code. So it checks when some code was executed and when not, and just keeps randomizing until it gets a good coverage of your code... And you would be surprised to see how many bugs I found in code that I really trusted, by just going with a simple go-fuzz function. It takes a minute to write. 
  
 **Filippo Valsorda:** Go-fuzz is amazing. The folks at OSS-Fuzz are now running it continuously on some of the standard library fuzzers written by...
 
@@ -166,7 +166,7 @@ And yes, math/rand is completely predictable of an attacker, while crypto/rand i
 
 So fuzzing is a way of automatically finding problematic strings or sequences of bytes that can cause unexpected behavior in your application... And it does that not just by kind of hammering it with random data, but it also instruments your code to see "Oh, it goes into this branch if I give it these bytes. Maybe I'll try this sequence of bytes afterwards..." So it's a really powerful tool for exploring functions that expect arbitrary input don't crash or misbehave...
 
-\[00:24:01.00\] And it's something that hackers use as well to try and -- a lot of applications that were built back in the day, I guess, will not have necessarily had fuzzing performed on them, and if you have some API that's not write-limited, you can be sure that a hacker is going to be trying to fuzz it and find unexpected behavior, and maybe even something like a remote code execution can come out of it.
+\[00:24:01.00\] And it's something that hackers use as well to try and -- a lot of applications that were built back in the day, I guess, will not have necessarily had fuzzing performed on them, and if you have some API that's not rate-limited, you can be sure that a hacker is going to be trying to fuzz it and find unexpected behavior, and maybe even something like a remote code execution can come out of it.
 
 **Filippo Valsorda:** Yeah. To give a couple of common examples of fuzzing... For example, the JSON one - we would just take the random string for each fuzzing iteration and pass it to json.decoder, and see whether the decoder did something we didn't expect. And it found a panic, because it does millions and millions and millions of tries, and it learns what things trigger certain code paths. It rewrites the code, just like the Go tool cover, or `go test -cover` does. That way, it finds a path, as Johan was saying.
 
@@ -180,7 +180,7 @@ Something that really gets me is that - you're right, it used to be something th
 
 **Mat Ryer:** You mentioned the JSON package, which to me is the perfect use case for fuzzing, because it's literally deserializing strings. But what about if you've just got a function where you're gonna make a greeting and say "Hello, Filippo" and you're just taking the name as a string. Would you even fuzz functions like that?
 
-**Filippo Valsorda:** There's a return of investment here in the amount of effort you put in. Just like you wouldn't write a number of tests for that function, right? You would probably just write one quick test, and then start testing a bunch of edge cases. What does make me think more is functions that do take complex inputs, but not in the form of a byte slice. Those are a hard problem, because how exactly do you randomize those, and how do you keep track of that corpus, and what do you do when there's a new field in the struct? Do you throw away all the corpus? That feels silly. You would just try all the corpus you already have with different values for the new field, but that's extremely hard.
+**Filippo Valsorda:** There's a return of investment here in the amount of effort you put in. Just like you wouldn't write a number of tests for that function, right? You would probably just write one quick test, and not start testing a bunch of edge cases. What does make me think more is functions that do take complex inputs, but not in the form of a byte slice. Those are a hard problem, because how exactly do you randomize those, and how do you keep track of that corpus, and what do you do when there's a new field in the struct? Do you throw away all the corpus? That feels silly. You would just try all the corpus you already have with different values for the new field, but that's extremely hard.
 
 **Roberto Clapis:** Let me throw in some knowledge. A *corpus* is basically a directory in which you will find all the files and all the inputs that go-fuzz found useful somehow, and that it's going to reuse to generate more input.
 
@@ -206,7 +206,7 @@ For example, if you have a pprof listener installed on your service, that is goi
 
 **Filippo Valsorda:** Yeah. You don't want to use the http.Get helper, for example. You want to spin up your client, set a timeout in the timeout field on the HTTP client, and then use that... And similarly for the server.
 
-**Johan Brandhorst:** I think someone produced a blog post about how to secure your web servers on the web a few years ago. Has that been kept up to date?
+**Johan Brandhorst:** I think someone produced [a blog post about how to secure your web servers on the web](https://blog.cloudflare.com/exposing-go-on-the-internet/) a few years ago. Has that been kept up to date?
 
 **Filippo Valsorda:** \[laughs\] Somebody also has a to-do item to update that blog post... \[laughs\]
 
@@ -252,7 +252,7 @@ One of the nice things about using App Engine - which I use almost exclusively -
 
 **Roberto Clapis:** For security one idea that I had -- you know, with the web platform we cannot really deprecate stuff, because the web platform is kind of out there, and if a browser starts breaking websites, people will switch to the other one... So no browsers are going to completely destroy a feature. We need some features to stay there for a while. So the way we go with this is usually some sort of versioning. The service adds a header to tell the browser "I want this security level, and disable any feature that would lower this security level."
 
-\[00:36:22.01\] One thing that I plan to do for the HTML template library that we are already discussing is that when you parse a template, you want it secure. That is going to change your HTML to prevent some vulnerabilities. We cannot make this the default, because that would be a breaking change, but if we add one more API that is good, and we just need to tell people "Hey, just do `.secure` and pass it a level from now on", so every time we bump it, we can just bump that level and go ahead. Now, this is very \[unintelligible 00:36:52.01\] but even before Go 2 we can get some security by default, kind of.
+\[00:36:22.01\] One thing that I plan to do for the HTML template library that we are already discussing is that when you parse a template, you want it secure. That is going to change your HTML to prevent some vulnerabilities. We cannot make this the default, because that would be a breaking change, but if we add one more API that is good, and we just need to tell people "Hey, just do `.secure` and pass it a level from now on", so every time we bump it, we can just bump that level and go ahead. Now, this is very hand-wavy but even before Go 2 we can get some security by default, kind of.
 
 **Filippo Valsorda:** Yeah, on one hand it's painful on a very deep level to have to tell people "Oh no, it's because you weren't calling http.secure before making your calls."
 
@@ -260,7 +260,7 @@ One of the nice things about using App Engine - which I use almost exclusively -
 
 **Filippo Valsorda:** \[laughs\]
 
-**Mat Ryer:** It's funny because it's like the crypto with math, math/rand and stuff. It's like, "You're not using the secure one." "Well, why did you make an insecure one? And what is a secure six? I've got a six from this one, but I want a secure six."
+**Mat Ryer:** It's funny because it's like the crypto with math, `math/rand` and stuff. It's like, "You're not using the secure one." "Well, why did you make an insecure one? And what is a secure six? I've got a six from this one, but I want a secure six."
 
 **Roberto Clapis:** Yeah, but after all, do you run your prod server with race? I mean, for some things it kind of makes sense. Maybe for security, calling http.secure doesn't really make sense, but for some things I feel like we will have a more secure version that warns you if something bad happens, like a -race flag... And you just run it for a while, so that you can instrument your code to see if something bad happens, and then you just go for performance. So I feel like some things might be there, and stay there.
 
@@ -302,9 +302,9 @@ One of the nice things about using App Engine - which I use almost exclusively -
 
 **Filippo Valsorda:** Uuuh...
 
-**Mat Ryer:** \[unintelligible 00:39:57.04\] What do you mean?
+**Mat Ryer:** Carry on. What do you mean?
 
-**Roberto Clapis:** \[00:40:00.02\] You know that easy thing, like "How do I pick a library that I want to rely on, but I don't want to reimplement?" Because especially security-wise, you want to protect yourself from CSRF. That's now in the standard library. How do you go with that? That is a pretty complicated question to answer. Johan, do you have suggestions?
+**Roberto Clapis:** \[00:40:00.02\] You know that easy thing, like "How do I pick a library that I want to rely on, but I don't want to reimplement?" Because especially security-wise, you want to protect yourself from CSRF. That's not in the standard library. How do you go with that? That is a pretty complicated question to answer. Johan, do you have suggestions?
 
 **Johan Brandhorst:** Obviously, you vendor your code and then you review all the code before you add it to your source... No, I was joking. That's completely unreasonable. \[laughs\]
 
@@ -312,7 +312,7 @@ One of the nice things about using App Engine - which I use almost exclusively -
 
 **Johan Brandhorst:** Wow... Thanks for landing this in my lap. I don't think there's a really good answer at the moment. I know there's the new Go Discover site... That should maybe help a little bit finding more reputable packages, although I'm not sure it focuses so much on security... But they'll be having good maintainers that respond to issues, and merge pull request, and things like that. It's a hard problem, obviously.
 
-**Filippo Valsorda:** The author of the Discover site, Julie, presented a whole talk about finding dependable dependencies. And yeah, I don't think I can say much more than what she said in her talk, but... On the security side, we probably need some way for authors to signal security issues, or any way to tag metadata, so that we can then surface it on the Discover site.
+**Filippo Valsorda:** The author of the Discover site, Julie, presented a whole [talk about finding dependable dependencies](https://www.youtube.com/watch?v=zCragLHzP1Y). And yeah, I don't think I can say much more than what she said in her talk, but... On the security side, we probably need some way for authors to signal security issues, or any way to tag metadata, so that we can then surface it on the Discover site.
 
 There are other things that the Discover site can do, like flagging users of deprecated APIs or deprecated packages, which is my favorite hammer to swing when I can't remove something; I can deprecate it and hope that everybody is using a static check, so that they will get yelled at. But yes, that's two for two on large things that I need to find time or people that want to work for the ecosystem... Finding ways for tagging security issues. And it's a hard problem because what do you do if the module isn't maintained? How do you surface issues that have been reported, and would you consider a valid issue report that's not published by the author? Yeah, these are questions different ecosystems have different answers for.
 
@@ -360,7 +360,7 @@ I am working on a security issue that I'll try not to spoiler, because that woul
 
 **Mat Ryer:** And what's the email address?
 
-**Filippo Valsorda:** Security@golang.org.
+**Filippo Valsorda:** [security@golang.org](mailto:security@golang.org).
 
 **Mat Ryer:** Okay.
 
@@ -370,7 +370,9 @@ I am working on a security issue that I'll try not to spoiler, because that woul
 
 **Johan Brandhorst:** Your call is important to us!
 
-**Roberto Clapis:** You're number 741 in line. Please wait. \[laughter\] \[unintelligible 00:47:18.26\]
+**Roberto Clapis:** You're number 741 in line. Please wait.
+
+**Johan Brandhorst:** \[laughter\] Let's hope not.
 
 **Mat Ryer:** To complete your submission, please enter your mother's maiden name.
 
@@ -392,7 +394,7 @@ I am working on a security issue that I'll try not to spoiler, because that woul
 
 **Mat Ryer:** It doesn't have to be.
 
-**Johan Brandhorst:** You have a lot to choose from, don't you?
+**Johan Brandhorst:** You have a lot to choose from, do you?
 
 **Roberto Clapis:** \[laughs\]
 
@@ -434,7 +436,7 @@ Basically, they were causing a clash in security tokens just because they were l
 
 **Filippo Valsorda:** I'm still not in the business of criticizing developers for being lazy. It's true that that's often a source of vulnerabilities, but so many times we've resorted to that, when in fact we were providing them with insecure platforms, insecure defaults, insecure architectures. I'm sure we blamed on developers all sorts of vulnerabilities caused by things like string copy in C, when in fact we now know it's like blaming people for being dumb because they keep touching that exposed high-voltage rail. Just don't touch the rail! \[laughter\]
 
-**Roberto Clapis:** Yeah. If all programmers use an API wrong, the problem is not the programmers.
+**Roberto Clapis:** Yeah. It's like if all programmers use an API wrong, the problem is not the programmers.
 
 **Filippo Valsorda:** Right. But you know, it also has a little label that explains in detail the voltage and amperage of it, and if you read it all and know about voltage and amperage, you will know you will die. They should read the label.
 

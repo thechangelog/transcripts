@@ -64,7 +64,7 @@ What I always wonder is - you have this nice, little side project, people are us
 
 **Abhinav Asthana:** I didn't think any of that... If you enumerate it that way, it's ridiculous to start a company. Why would anybody do it? It's like you're laying on a bed that looks pretty neat, the mattress is fluffy, but the mattress gets pulled out the second day. And there's a bed of nails there, generally. \[laughs\] So I didn't think any of that.
 
-I think I really enjoyed that feedback loop that I had while working on Postman. I loved building something that I had as a problem, and I would give it to somebody and they would say that "Hey, you solved this problem for me", and that was the best feeling. Of course, you can't live on feelings alone, and I tried a lot of different ways to sustain the project. Postman had a Donate button, and I think that less than 0.0001% of people ever donated. I tried putting some sponsors in. At that time there was \[unintelligible 00:14:42.23\] got acquired.
+I think I really enjoyed that feedback loop that I had while working on Postman. I loved building something that I had as a problem, and I would give it to somebody and they would say that "Hey, you solved this problem for me", and that was the best feeling. Of course, you can't live on feelings alone, and I tried a lot of different ways to sustain the project. Postman had a Donate button, and I think that less than 0.0001% of people ever donated. I tried putting some sponsors in. At that time there was Mashape, Restlet and a bunch of other companies. Mashape became Kong and then Restlet got acquired.
 
 So I tried a whole bunch of things, but primarily what got me into doing Postman -- so I quit my job. I was like "Okay, I don't know what I'm gonna do, but I know I like working on Postman and I don't want to work for a big company or any company for a while." So I picked up a consulting gig, in which interestingly I had to design a smartphone app. I always played both hats in the previous company I was at - I was a UX designer, a UI designer, as well as a programmer... So for making money on the side, I was like "Okay, I can pay rent and I can sustain myself, so I'm gonna do this for two days a week, and for five days a week I'm gonna work on Postman, and let's see where it goes."
 
@@ -82,7 +82,7 @@ Ankit at that time was working in Mumbai, India, and I was in Bangalore, so I bo
 
 **Abhinav Asthana:** Yeah. So Ankit, Abhijit and I had this interesting relationship. I was an intern at Yahoo!, working with Ankit, and Abhijit was an intern working with me at my first company. So we knew each other through this intern/employee relationship. Ankit and I started working together; during this time when I quit my previous startup, I got a call from Google saying they want to feature Postman on the Chrome Web Store as one of the featured apps on the new platform. That was a very encouraging sign, and I think that's when Ankit and I decided to look at things a little bit more seriously, much more than a side project, and we started looking at people who might be excited about working on it, maybe on the side.
 
-We had a bunch of things, like we had this interceptor plugin, which the two of us just couldn't maintain on our own. We found out that Abhijit was in Bangalore, and Abhijit and I had worked \[unintelligible 00:17:26.01\] so we kind of picked him out... He was at Walmart Labs and we found he was in the city; I sent him a note saying "Hey, we're doing this thing. Do you wanna work with us?" and he's like "Yes." And that's it. \[laughter\]
+We had a bunch of things, like we had this interceptor plugin, which the two of us just couldn't maintain on our own. We found out that Abhijit was in Bangalore, and Abhijit and I had worked in Delhi then, so we kind of picked him out... He was at Walmart Labs and we found he was in the city; I sent him a note saying "Hey, we're doing this thing. Do you wanna work with us?" and he's like "Yes." And that's it. \[laughter\]
 
 **Adam Stacoviak:** Just like that. "Yes!" That's the response you want when you ask somebody a question like that. "Do you wanna work with us?" "Yes. Yes, I do."
 
@@ -122,7 +122,7 @@ Then I started getting more into being open to talking, and listening, and... Ev
 
 **Adam Stacoviak:** \[00:23:58.18\] It's interesting how sitting down with a user of a product you're building or have built, and how motivating that is to you, because you see them using it, and not only do you get that feedback loop going, but you kind of have this -- we're all in this, in some way, shape or form, to be in relationship with other people... And that way you're able to actually reach out and help other people solve their problems with your tooling... And I can't even imagine how motivating that was for you, to actually see people face-to-face using Postman.
 
-**Abhinav Asthana:** Yeah, it totally changed my perspective on what Postman was. Of course, I liked it as a side project, and it was fun to work on it, and I knew it had value... But once you see how passionate people are about the thing that you've built, you actually feel more responsible for it. It's not like you can think of anything -- we are very conscious of breaking changes; even for \[unintelligible 00:24:53.11\] I can say "Okay, you can go and use Postman that way", still... And you wanna respect that.
+**Abhinav Asthana:** Yeah, it totally changed my perspective on what Postman was. Of course, I liked it as a side project, and it was fun to work on it, and I knew it had value... But once you see how passionate people are about the thing that you've built, you actually feel more responsible for it. It's not like you can think of anything -- we are very conscious of breaking changes; like even for usual I can say "Okay, you can go and use Postman that way", still... And you wanna respect that.
 
 When people have invested a part of their life in learning a product that you've built, they've built workflows around it, there are mission-critical things that are happening... I think once you meet them and you see that there are real people using the product... I mean, we have more than seven million users on the website... But what is still important is the stories and use cases of each one of them. It made me more responsible, and I did the same thing with every single employee at Postman since then. We fly them out and we hold meetups. And of course we tell people "This is what Postman can do", but a lot of it is for us to just know what they're doing with the product.
 
@@ -186,7 +186,7 @@ Now we have been studying these social groups inside companies, and how that int
 
 **Jerod Santo:** Because of the effort put in, because your customers aren't asking for it...? I just wonder how seriously you've thought about it.
 
-**Abhinav Asthana:** Customers haven't really asked for it. I think generally there are more concerns around how do you access those APIs, and we don't access those APIs; we don't get anything \[unintelligible 00:42:11.01\] from the client to somebody's APIs. It totally runs on your infrastructure. So they have more concerns there, like "How are you accessing our APIs?" and we don't have access to your APIs; you have access to your APIs.
+**Abhinav Asthana:** Customers haven't really asked for it. I think generally there are more concerns around how do you access those APIs, and we don't access those APIs; we don't get anything left from the client to somebody's APIs. It totally runs on your infrastructure. So they have more concerns there, like "How are you accessing our APIs?" and we don't have access to your APIs; you have access to your APIs.
 
 **Jerod Santo:** So you store the collections, but the bits inside the collections that say "Hit this server on this IP address" or whatever it is, is internal to their network, and the result of that never comes back to your cloud sync. Is that what you're saying?
 
@@ -216,7 +216,7 @@ Now we have been studying these social groups inside companies, and how that int
 
 **Jerod Santo:** Yeah, Jerry hated him a lot. Despised him.
 
-**Abhinav Asthana:** Yeah. \[unintelligible 00:44:10.28\] If it's running tests, imagine that your test fails \[unintelligible 00:44:16.28\] tells you that five things are not working.
+**Abhinav Asthana:** Yeah. If you're automation breaks, like if it's running tests, imagine that your test fails, you want to hit that thing which tells you that five things are not working.
 
 **Break:** \[00:44:26.20\]
 
@@ -292,7 +292,7 @@ I think all those cases are valuable. In fact, billions of dollars are spent in 
 
 **Abhinav Asthana:** Postman aims to be the collaborative platform for all APIs which an organization builds. So within the enterprise or within a company that's building APIs or consuming APIs, that's the place that you go to. And you can branch out into other things, use other tools, but that's the place where you essentially work with APIs. So we want Postman to be synonymous with anything API-related.
 
-An extension of that is as APIs also help businesses and developers collaborate in building software together, Postman is something that we expect to be the network of all APIs published \[unintelligible 00:53:38.27\] effectively. That's how we built the Postman API network for public APIs, and we have Postman Pro and Postman Enterprise for essentially internal APIs.
+An extension of that is as APIs also help businesses and developers collaborate in building software together, Postman is something that we expect to be the network of all APIs published or not, effectively. That's how we built the Postman API network for public APIs, and we have Postman Pro and Postman Enterprise for essentially internal APIs.
 
 **Jerod Santo:** Well, you're on your way. You also have the second annual Postman User Conference coming up, so... A lot moving and shaking there. Tell us about this conference. Postman enthusiasts around the world... What's the deal here?
 

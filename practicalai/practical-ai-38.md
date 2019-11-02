@@ -38,9 +38,9 @@
 
 **Chris Benson:** Oh, so sorry...
 
-**Nick Hasty:** \[00:03:56.25\] Yeah, that's really funny; small world. Atlanta is doing good. So then I went to the University of Georgia as an undergrad, and I was actually an English major. I always dabbled in computing in terms of custom Doom mods, and music technology stuff; I was big into music, and -- I actually didn't really get into web stuff and more computer science until grad school, when I went to an interactive telecommunications program called ITP, at NYU. It was kind of an art technology school in \[unintelligible 00:04:23.06\] They kind of take a bunch of random people who are good at a lot of different stuff and throw technology at them; anything from algorithms, data visualization stuff, to actual light electrical engineering, and just kind of see where you end up.
+**Nick Hasty:** \[00:03:56.25\] Yeah, that's really funny; small world. Atlanta is doing good. So then I went to the University of Georgia as an undergrad, and I was actually an English major. I always dabbled in computing in terms of custom Doom mods, and music technology stuff; I was big into music, and -- I actually didn't really get into web stuff and more computer science until grad school, when I went to an interactive telecommunications program called ITP, at NYU. It was kind of an art technology school in the Tisch School of the Arts. They kind of take a bunch of random people who are good at a lot of different stuff and throw technology at them; anything from algorithms, data visualization stuff, to actual light electrical engineering, and just kind of see where you end up.
 
-I was historically very into creative tech stuff, and even art proper, so after ITP I started working for the New Museum here in New York. They have a new media art branch called Rhizome; it's been around since the mid-90's. It started off as \[unintelligible 00:04:56.13\] and an archive where they house digital art. It's like an internet art organization. I was a director of technology there for a number of years, and I got a lot of my web chops there... And being at Rhizome, we were very invested into gif early on, because the gif is like a purely internet media, I guess you could say. It predates the internet, but it really came to its own.
+I was historically very into creative tech stuff, and even art proper, so after ITP I started working for the New Museum here in New York. They have a new media art branch called Rhizome; it's been around since the mid-90's. It started off as a listserv and it's now a website, museum, and an archive where they house digital art. It's like an internet art organization. I was a director of technology there for a number of years, and I got a lot of my web chops there... And being at Rhizome, we were very invested into gif early on, because the gif is like a purely internet media, I guess you could say. It predates the internet, but it really came to its own.
 
 **Chris Benson:** Yeah, once upon a time there were only gifs and jpegs on the internet, for images...
 
@@ -64,7 +64,7 @@ You've got pop culture, and all these different things you can load into a gif..
 
 **Daniel Whitenack:** How big is GIPHY in general, just to get a sense?
 
-**Nick Hasty:** Yeah, that's a good question. There's about 100 people. There's roughly 75 in New York, and in L.A. we have our own content creation studio \[unintelligible 00:08:59.20\] there's about 25 of those. Engineering-wise, we're probably 30-40 at this point.
+**Nick Hasty:** Yeah, that's a good question. There's about 100 people. There's roughly 75 in New York, and in L.A. we have our own content creation studio, so there's like artists/animators out there and there's about 25 of those. Engineering-wise, we're probably 30-40 at this point.
 
 **Chris Benson:** That's a good sized organization. You're definitely past the early startup phase.
 
@@ -82,11 +82,11 @@ We do a similar thing with our tag space. We do related tags, and recommended se
 
 We are doing other things now, where we're building trending tools, using various types of models, not all deep learning; some just machine learning, or some of them just kind of old school statistical algorithms. Doing language prediction stuff, we're doing head-to-head comparisons against search results, so that we can get a better sense of how our search is performing.
 
-We had a spell of time in which we were doing a lot of image annotation. Obviously, GIPHY has a whole lot of gifs, and we relied on our content team to annotate those for a long time. We have a team of people who are ultra/mega pop culture wizards, who can \[unintelligible 00:11:20.10\] anybody in a gif, and then all the slugs and everything... But you know, humans can only go so far when you reach the tens of millions in terms of your catalog.
+We had a spell of time in which we were doing a lot of image annotation. Obviously, GIPHY has a whole lot of gifs, and we relied on our content team to annotate those for a long time. We have a team of people who are ultra/mega pop culture wizards, who can prattle off anybody in a gif, and then all the slugs and everything... But you know, humans can only go so far when you reach the tens of millions in terms of your catalog.
 
 **Chris Benson:** You're the kind of company that can have a pop culture wizard department.
 
-**Nick Hasty:** Oh yeah, totally. We could call it that; our content development team is definitely people whose jobs are to watch TV shows and cut gifs out of them \[unintelligible 00:11:44.10\] They'll watch the live event, they'll watch the Oscars, and they will cut gifs of the Oscars in real time, and catch all those awesome moments of people's sassy looks, or celebratory speeches, and those kinds of things, and will cut those in real time.
+**Nick Hasty:** Oh yeah, totally. We could call it that; our content development team is definitely people whose jobs are to watch TV shows and cut gifs out of them our live gif. That's not their only thing, they do a lot of other stuff. But they'll watch the live event, they'll watch the Oscars, and they will cut gifs of the Oscars in real time, and catch all those awesome moments of people's sassy looks, or celebratory speeches, and those kinds of things, and will cut those in real time.
 
 We work with partners, movie studios and various other people in the entertainment industry to live gif events, and things like that... So yeah, it's very funny.
 
@@ -154,7 +154,7 @@ Flash forward six years, I'm doing their R&D stuff. The impetus is, you know, GI
 
 **Daniel Whitenack:** In particular on the celeb detector project, as you moved into that space, what were the different things that you needed to learn tech-wise to be able to accomplish that, that you weren't doing before in your AI work?
 
-**Nick Hasty:** It's a good question. We hadn't done a lot of conv net stuff. A lot of the image recognition/object detection stuff we had used a lot of third parties for. \[unintelligible 00:25:22.23\] If you need a generalized model for object detection and images, you're not necessarily gonna train your own for that... So we didn't necessarily need that in-house. But for the celebrity detection - yeah, this was like our first real extensive deep learning project.
+**Nick Hasty:** It's a good question. We hadn't done a lot of conv net stuff. A lot of the image recognition/object detection stuff we had used a lot of third parties for. Hit API, you're not gonna build... If you need a generalized model for object detection and images, you're not necessarily gonna train your own for that... So we didn't necessarily need that in-house. But for the celebrity detection - yeah, this was like our first real extensive deep learning project.
 
 There was a lot of experimentation in the background. First it was just getting the data together against our searches. We had a lot of images around some of these celebrities, some of them we didn't, so we had to scour the web a little bit to build the image dataset. This is probably like any real machine learning or deep learning project, but making sure the labels were good; like I'd mentioned earlier, GIPHY's tag system has been going for a while, and was kind of big and difficult to carry, or difficult to manage in some ways, so we used Figure Eight (it used to be Crowdflower) to help us make sure that the labels that we had for the celebrities were really good. Then I think since it is face detection, we did use previous existing models.
 
