@@ -316,13 +316,13 @@ Carlisia Campos:… I know, I know.
 
 **Brian Ketelsen:** That's right, it sounds pretty awesome. Now I'm feeling like I need to go. I'm getting some FOMO.
 
-**Erik St. Martin:** I know. I told Carlisia that I wanna go, but I'm also gonna submit a talk to \[unintelligible 00:45:31.11\] so I need to see how that goes first, because I think I would literally fly out the last day of the conference to make it over there.
+**Erik St. Martin:** I know. I told Carlisia that I wanna go, but I'm also gonna submit a talk to KubeCon so I need to see how that goes first, because I think I would literally fly out the last day of the conference to make it over there.
 
 **Carlisia Pinto:** Submit it to both. And I also wanted to say there will be simultaneous translations, so if you are an English speaker and you don't Portuguese, we are totally ready and expecting you.
 
 **Brian Ketelsen:** That's awesome.
 
-**Erik St. Martin:** So Go projects. I have one that I saw come through - I think I saw it on Twitter a few days ago, but it goes along with this whole security mindset that we're talking about this episode, which is Hewlett-Packard released a library called \[unintelligible 00:46:12.01\] to statically analyze your code for common security or vulnerabilities, and some of which were actually validating the TLS ciphers and protocols within your project, and then there was some SQL injection vectors it looked for, and I think using some crypto primitives and stuff that were weaker. There is a whole slew of things, and it will actually be interesting now that this is here to see how many more security checks people add to the code.
+**Erik St. Martin:** So Go projects. I have one that I saw come through - I think I saw it on Twitter a few days ago, but it goes along with this whole security mindset that we're talking about this episode, which is Hewlett-Packard released a library called \[unintelligible 00:46:12.01\] - a command line tool, anyway - to statically analyze your code for common security or vulnerabilities, and some of which were actually validating the TLS ciphers and protocols within your project, and then there was some SQL injection vectors it looked for, and I think using some crypto primitives and stuff that were weaker. There is a whole slew of things, and it will actually be interesting now that this is here to see how many more security checks people add to the code.
 
 **Matt Holt:** Yeah, I saw that. It looks really cool.
 
