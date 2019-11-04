@@ -56,7 +56,7 @@ But yeah, I find it a very good problem for someone who thinks like a physicist,
 
 I published a paper -- I proved some bounds on error propagation in neural nets, and the mathematical modeling I did there was also useful to study biomolecular networks with some friends from the John Hopkins medical school, because it turns out that biomolecular networks are just weighted graphs of nonlinear nodes, just like neural nets...
 
-**Chris Benson:** Now, that's pretty cool. I had never thought of it that way. Okay, so I was gonna ask you that - you had talked about that \[unintelligible 00:14:50.17\] you were dealing with robustness in biological systems, with the technical AI safety... Is that the crossover there, are we getting to that, or am I jumping in?
+**Chris Benson:** Now, that's pretty cool. I had never thought of it that way. Okay, so I was gonna ask you that - you had talked about that factness that you were dealing with robustness in biological systems, with the technical AI safety... Is that the crossover there, are we getting to that, or am I jumping in?
 
 **El Mahdi El Mhamdi:** Not yet -- but the glue is already there; the glue is fault tolerance. There are two hemispheres in my Ph.D. One hemisphere was doing robustness in biological systems, and one hemisphere was doing technical AI safety. They don't seem to be related, but they are actually fault tolerant. I cared about fault tolerance - what happens in a complex system when some nodes are knocked out, or are misbehaving, or are lying to the group.
 

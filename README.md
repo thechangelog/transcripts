@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-199-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-206-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -285,6 +285,15 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/iuliavisterneanu"><img src="https://avatars2.githubusercontent.com/u/33431863?v=4" width="100px;" alt="iuliavisterneanu"/><br /><sub><b>iuliavisterneanu</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=iuliavisterneanu" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://bugcrowd.com/Pritam_Singh"><img src="https://avatars0.githubusercontent.com/u/27357082?v=4" width="100px;" alt="Pritam Singh"/><br /><sub><b>Pritam Singh</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=PsOverflow" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/justin-frederiksen"><img src="https://avatars3.githubusercontent.com/u/16109041?v=4" width="100px;" alt="Justin Frederiksen"/><br /><sub><b>Justin Frederiksen</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=sparksong" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/funspectre"><img src="https://avatars2.githubusercontent.com/u/5924650?v=4" width="100px;" alt="Tobalase Akinyemi"/><br /><sub><b>Tobalase Akinyemi</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=funspectre" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/xen-glitch"><img src="https://avatars2.githubusercontent.com/u/57036235?v=4" width="100px;" alt="xen-glitch"/><br /><sub><b>xen-glitch</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=xen-glitch" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/jaredsmorgan"><img src="https://avatars3.githubusercontent.com/u/43708112?v=4" width="100px;" alt="Jared Morgan"/><br /><sub><b>Jared Morgan</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=jaredsmorgan" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/ardagamus"><img src="https://avatars0.githubusercontent.com/u/53158842?v=4" width="100px;" alt="Aritra Dasgupta"/><br /><sub><b>Aritra Dasgupta</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=ardagamus" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://elsabe.dev"><img src="https://avatars3.githubusercontent.com/u/1587721?v=4" width="100px;" alt="Elsabe Ros"/><br /><sub><b>Elsabe Ros</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=AesSedai101" title="Documentation">📖</a></td>
   </tr>
 </table>
 
@@ -321,7 +330,7 @@ Has [its transcript in this repo at](https://github.com/thechangelog/transcripts
 
 ### Text formatting
 
-Each transcript fragment is parsed as good ole' [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). That means you can add `*`s or `_`s for emphasis, `[links](https://changelog.com)` to referenced people/projects, etc. We _especially_ encourage addition of links. These make the transcripts much more useful to readers and provide valuable SEO juice to the link-worthy things we discuss on our shows.
+Each transcript fragment is parsed as good ole' [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). That means you can add `*`s or `_`s for emphasis, `[links](https://changelog.com)` to referenced people/projects, etc. We _especially_ encourage the addition of links. These make the transcripts much more useful to readers and provide valuable SEO juice to the link-worthy things we discuss on our shows.
 
 ### Timestamps
 

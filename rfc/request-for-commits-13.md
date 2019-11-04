@@ -16,7 +16,7 @@ In the research role, what I do is I work with a lot of students in academia, I 
 
 **Nadia Eghbal:** Cool.
 
-**Mikeal Rogers:** So in terms of like your team and everything... Is this a bunch of people in the same physical location? I think when people hear of a lab, they're thinking like some place with a giant hadron collider, or something... Is this institution slightly virtualized, as well? You mentioned you're working with different students, and stuff like that - are they all on-site in the same place, or is the institution a little bit more virtualized?
+**Mikeal Rogers:** \[00:05:52.97\] So in terms of like your team and everything... Is this a bunch of people in the same physical location? I think when people hear of a lab, they're thinking like some place with a giant hadron collider, or something... Is this institution slightly virtualized, as well? You mentioned you're working with different students, and stuff like that - are they all on-site in the same place, or is the institution a little bit more virtualized?
 
 **Todd Gamblin:** I would say it's both. Livermore itself is a one square mile laboratory in Livermore, California; it's like an hour from San Francisco. We do have a giant laser here... We have the National Ignition Facility, which is the world's largest and highest energy laser; basically, that's like 192 beams that focus on something smaller than a pea and try to implode it. That's a fusion experiment. Some of the simulations are simulating that, so we sort of iterate with them.
 
@@ -92,9 +92,9 @@ I was on a working group here that was trying to come up with -- I guess it star
 
 **Break:** \[00:20:15.21\]
 
-**Nadia Eghbal:** Todd, you've mentioned Spack a couple of times as an open source project that you've created while at Lawrence Livermore... Could you explain a little bit about what Spack is for people that are not high performance computing people, and what inspired you to create it \[00:21:42.03\].
+**Nadia Eghbal:** Todd, you've mentioned Spack a couple of times as an open source project that you've created while at Lawrence Livermore... Could you explain a little bit about what Spack is for people that are not high performance computing people, and what inspired you to create it.
 
-**Todd Gamblin:** I have an easier time explaining Spack to people who are not high-performance computing people than to people who are high-performance computing people, in the sense that like I think people who are not high-performance computing people are familiar with package managers... Spack is a package manager; it's not a binary package manager, it builds things from source, and it's for running on these large machines that we care about. That's anything from like a Cray machine or like an IBM Blue Gene, or just a Linux cluster. We run lots of different things like that.
+**Todd Gamblin:**\[00:21:47.50\] I have an easier time explaining Spack to people who are not high-performance computing people than to people who are high-performance computing people, in the sense that like I think people who are not high-performance computing people are familiar with package managers... Spack is a package manager; it's not a binary package manager, it builds things from source, and it's for running on these large machines that we care about. That's anything from like a Cray machine or like an IBM Blue Gene, or just a Linux cluster. We run lots of different things like that.
 
 I think the reason that I built my own package manager is because the way that we distribute software in HPC is kind of different from what you would expect from most software products. People actually build their code from source on the supercomputers, typically because they wanna optimize it for hardware, but also because that's kind of how scientists put their code out there. If you download a simulation code, it comes as a tarball and it probably has dependencies on maybe some math libraries or a numerical solver, or something... And these can get really complicated.
 
