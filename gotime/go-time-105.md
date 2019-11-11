@@ -26,7 +26,7 @@ Obviously, it was Docker that made containers super-accessible and easy to use, 
 
 So what Kubernetes does is you tell it what you wanna run - "I wanna run ten copies of this container image", the image is the thingy - and then it decides where to run these things, and it makes sure that they keep running over time.
 
-\[00:04:10.10\] Then once you do that, there's a bunch of other problems you have to solve - what does networking look like, what does storage look like, how do you have these things find each other, how do you actually manage load balancers that point to a set of these things? So there's a whole bunch of problems that are downstream of that \[unintelligible 00:04:22.06\] of assigning programs to computers.
+\[00:04:10.10\] Then once you do that, there's a bunch of other problems you have to solve - what does networking look like, what does storage look like, how do you have these things find each other, how do you actually manage load balancers that point to a set of these things? So there's a whole bunch of problems that are downstream of that dynacism of assigning programs to computers.
 
 So that's Kubernetes from an orchestration point of view. Along the way, we ended up building essentially a generic distributed system kernel for being able to describe not just how you run containers, but which containers you wanna run, how you upgrade them, and we've made that extensible, and that's where a lot of the interesting stuff going on right now is in the ecosystem.
 
