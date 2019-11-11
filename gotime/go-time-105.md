@@ -278,7 +278,11 @@ And I think our goal is to get to that point where the core of Kubernetes is sup
 
 **Johnny Boursiquot:** That is useful, yes. Speaking of more jargon... Is it "kube cuttle", is it "kube control"? \[laughs\]
 
-**Joe Beda:** \[unintelligible 00:53:46.09\] We argue about this stuff all the time. We had one employee at Heptio, now at VMware - she insists on mispronouncing Kubernetes as Kapernikes (Copernicus). \[laughter\] It's kind of a game we play about finding the worst pronunciations for anything that we talk about.
+**Joe Beda:** "Queue Beck tall"!
+
+**Johnny Boursiquot:** \[laughs\]
+
+**Joe Beda:** Well I mean, so is it "I/O control" or is it "eye octal" (ioctl), right? I mean we argue about this stuff all the time. We had one employee at Heptio, now at VMware - she insists on mispronouncing Kubernetes as Kapernikes (Copernicus). \[laughter\] It's kind of a game we play about finding the worst pronunciations for anything that we talk about.
 
 **Johnny Boursiquot:** Awesome.
 
