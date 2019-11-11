@@ -218,7 +218,7 @@ So I think structurally, creating multiple binaries that can talk over the netwo
 
 **Mat Ryer:** And I guess you're also dogfooding continuously, as well.
 
-**Kris Nova:** Yeah, absolutely. We're totally dogfooding our own client. If you look at the actual official client \[unintelligible 00:43:20.00\] for how folks would build a Go program to interface with Kubernetes, that's the exact same source code that we use internally at Kubernetes itself. So we're actually running the same code that we're prescribing folks to use to solve their own problems... So I think that's a really good pattern to take away here.
+**Kris Nova:** Yeah, absolutely. We're totally dogfooding our own client. If you look at the actual official client in Go, for how folks would build a Go program to interface with Kubernetes, that's the exact same source code that we use internally at Kubernetes itself. So we're actually running the same code that we're prescribing folks to use to solve their own problems... So I think that's a really good pattern to take away here.
 
 **Mat Ryer:** Yeah, I agree with that. And even just the fact that it gets used a lot, and you find any bugs... But there's actually a few other interesting side effects that we noticed as well at Machine Box, which is a similar kind of thing - we use the SDK, we have a Go SDK for the Machine Box APIs, and we use that in our integration tests. So we kind of try and fold as much into the integration as we possibly can, just to test as much at the same time. But yeah, it does provide that level of stability, and that's really interesting.
 
