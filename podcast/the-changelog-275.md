@@ -84,7 +84,7 @@ Then Mono was -- we built this Outlook clone called Evolution, and we went throu
 
 **Miguel de Icaza:** \[00:11:46.18\] But Tcl is a language with some kinks - it was good for the time - and around that time Richard Stallman says "You know, if we recompile Tcl to Scheme, you're ten times faster. There was a paper going around at USENIX too that said "If you recompile everything to Scheme, Scheme automatically makes it fast", and minds were blown. And it turns out many years later that the measurements were all busted and they benchmarked the wrong thing...
 
-**Jerod Santo:** \[unintelligible 00:12:12.19\]
+**Jerod Santo:** Oh, broken benchmarks.
 
 **Miguel de Icaza:** But anyways, it was enough at the time to say two things - "Let's use a high-level language" and two, "Let's use Scheme." The GNU project had their own Scheme interpreter called Guile... And man, so when we started GNOME we said "Alright, we're gonna build a desktop and we're gonna build a core foundation, high performance, or performance in the sense that if you code in C, and the higher levels in a scripting language", and we started building some of the apps in Scheme, using Guile, but it took forever to start up. Launching Guile would be like four, five seconds just to get the prompt; it was way too slow. So it kind of became a thing in GNOME that we would make our core API's used in many languages. Scheme was one, and sadly, the GNU Project went into this way of developing where they work and work and never release, so... It's not like Git where you can check out, right? They would go dark, and you would get updates every few eons...
 
@@ -202,7 +202,7 @@ And then there was the uglier era when open source kind of becomes a brand, and 
 
 **Jerod Santo:** I don't remember that.
 
-**Miguel de Icaza:** \[00:29:54.25\] There were kind of a big scandal, because they got \[unintelligible 00:29:55.04\] In retrospect, I don't think there were ever very serious documents, but somebody in a massive organization wrote papers saying "Hey, this is how you do it." You write dozens of these things continuously, right?
+**Miguel de Icaza:** \[00:29:54.25\] There were kind of a big scandal, because they got annotated. In retrospect, I don't think there were ever very serious documents, but somebody in a massive organization wrote papers saying "Hey, this is how you do it." You write dozens of these things continuously, right?
 
 **Adam Stacoviak:** There were a lot of internal memos, recounts of...
 
@@ -286,7 +286,7 @@ So I do like the idea of "Let's first sit down and try to understand what proble
 
 **Jerod Santo:** Yeah. Let's think about it first.
 
-**Miguel de Icaza:** Yeah. There was a co-worker of mine from many years ago, \[unintelligible 00:40:26.03\] that started this at our previous company, at Novell. She would prototype on paper. At the beginning I was like, "Why are you doing high tech on paper? We're software engineers, we don't do paper." But she was a big influence, because she would meet with customers and she would show them "Okay, here's that UI that I've drawn on paper. Here's a menu. What would you do next?" "I would click here." "Alright, what will you do next?"
+**Miguel de Icaza:** Yeah. There was a co-worker of mine from many years ago, Anna Dirks that started this at our previous company, at Novell. She would prototype on paper. At the beginning I was like, "Why are you doing high tech on paper? We're software engineers, we don't do paper." But she was a big influence, because she would meet with customers and she would show them "Okay, here's that UI that I've drawn on paper. Here's a menu. What would you do next?" "I would click here." "Alright, what will you do next?"
 
 **Adam Stacoviak:** Wow...
 
