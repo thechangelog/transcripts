@@ -1,4 +1,4 @@
-# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-206-orange.svg?style=flat-square)](#contributors)
+# Changelog Transcripts 📚 [![All Contributors](https://img.shields.io/badge/all_contributors-207-orange.svg?style=flat-square)](#contributors)
 
 The repository of [Changelog](https://changelog.com) episode transcripts in Markdown format.
 
@@ -294,6 +294,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   <tr>
     <td align="center"><a href="https://github.com/ardagamus"><img src="https://avatars0.githubusercontent.com/u/53158842?v=4" width="100px;" alt="Aritra Dasgupta"/><br /><sub><b>Aritra Dasgupta</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=ardagamus" title="Documentation">📖</a></td>
     <td align="center"><a href="http://elsabe.dev"><img src="https://avatars3.githubusercontent.com/u/1587721?v=4" width="100px;" alt="Elsabe Ros"/><br /><sub><b>Elsabe Ros</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=AesSedai101" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/coltonshaheen"><img src="https://avatars0.githubusercontent.com/u/39281688?v=4" width="100px;" alt="Colton Shaheen"/><br /><sub><b>Colton Shaheen</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=coltonshaheen" title="Documentation">📖</a></td>
   </tr>
 </table>
 
