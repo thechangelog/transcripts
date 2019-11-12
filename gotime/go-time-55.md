@@ -70,7 +70,7 @@ That's one of the big things - you made a command line tool, it does some \[unin
 
 **Carolyn Van Slyck:** My career goes a little bit before IE 6, actually... It used to be worse.
 
-**Erik St. Martin:** Well, my career definitely goes before that, but IE 6 was probably one of the w-- because that's when people really started trying to do a lot of Javascript and CSS-based stuff, and you had browser incompatibilities. And then there was just weird ones...
+**Erik St. Martin:** Well, my career definitely goes before that, but IE 6 was probably one of the w-- because that's when people really started trying to do a lot of JavaScript and CSS-based stuff, and you had browser incompatibilities. And then there was just weird ones...
 
 **Brian Ketelsen:** \[00:08:16.01\] You guys are so cute, with your IE 6... I remember back when I was a kid Microsoft sent me Internet Explorer 4 on a CD, because I was a Microsoft certified something or other... Internet Explorer 4 on a CD. I still have it somewhere.
 
@@ -376,15 +376,15 @@ So sometimes there's things you can do that scratch your own itch, that give you
 
 **Erik St. Martin:** I'm gonna have to play with that. I still haven't done much on GopherJS.
 
-**Brian Ketelsen:** I think GopherJS is pretty darn awesome. You still have to understand the DOM. You have to understand the whole event model of the browser, but at least you don't have to write Javascript, or TypeScript, or ES2015 -- there are so many names for all this stuff... Whatever.
+**Brian Ketelsen:** I think GopherJS is pretty darn awesome. You still have to understand the DOM. You have to understand the whole event model of the browser, but at least you don't have to write JavaScript, or TypeScript, or ES2015 -- there are so many names for all this stuff... Whatever.
 
-**Erik St. Martin:** \[unintelligible 00:45:06.03\] in the web development world, so writing Javascript doesn't bother me too much.
+**Erik St. Martin:** \[unintelligible 00:45:06.03\] in the web development world, so writing JavaScript doesn't bother me too much.
 
 **Brian Ketelsen:** Whatever. \[laughter\] Whatever.
 
 **Erik St. Martin:** I'm taking my ball and going home.
 
-**Brian Ketelsen:** That's right. You just take all your Javascript and have fun with that.
+**Brian Ketelsen:** That's right. You just take all your JavaScript and have fun with that.
 
 **Erik St. Martin:** Anybody else have anything, or do we wanna jump into \#FreeSoftwareFriday?
 

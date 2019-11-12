@@ -176,7 +176,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Brian Ketelsen:** It is. I've seen projects that don't list themselves as the primary language that they are just because whatever GitHub uses to detect that was thwarted by maybe their directory layout, or whatever.
 
-**Erik St. Martin:** I'm not sure how that detection works. I mean, what percentage of the codebase is in what... Because if you had, say, [Grafana](https://grafana.com/) that's a bunch of Go, but it's a whole lot of web stuff too, HTML, CSS and Javascript too, so is there more of one than the other, then does that cause false positives .
+**Erik St. Martin:** I'm not sure how that detection works. I mean, what percentage of the codebase is in what... Because if you had, say, [Grafana](https://grafana.com/) that's a bunch of Go, but it's a whole lot of web stuff too, HTML, CSS and JavaScript too, so is there more of one than the other, then does that cause false positives .
 
 **Carlisia Pinto:** I have always wondered that too, if somebody knows, please...
 

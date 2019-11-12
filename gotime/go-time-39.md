@@ -32,7 +32,7 @@ When you have two passions, it's hard to choose... I think with Splice I was abl
 
 **Brian Ketelsen:** I was sad to see it die, or merge with whatever...
 
-**Matt Aimonetti:** Yeah, we merged with Rails... We were acquired -- I don't know what the right term would be nowadays. \[laughter\] But it was a great project, I'm really proud of the work we've done. I kept on doing exciting things and used a lot of the experience with Merb to do things in the Javascript community and then with Rust. It's great to see people moving on and doing different things, too.
+**Matt Aimonetti:** Yeah, we merged with Rails... We were acquired -- I don't know what the right term would be nowadays. \[laughter\] But it was a great project, I'm really proud of the work we've done. I kept on doing exciting things and used a lot of the experience with Merb to do things in the JavaScript community and then with Rust. It's great to see people moving on and doing different things, too.
 
 **Brian Ketelsen:** That just reminds me that we lost Ezra, Jim Wyrick... It's very sad to see those people go. We should start this show with some death and sadness. I'm so sorry about that.
 
@@ -54,7 +54,7 @@ With Ruby, for ten years I was struggling to get people to follow the same guide
 
 When we started Splice, I decided that we would start with an entire layer of APIs and it would only be written in Go.
 
-\[00:07:50.16\] We started with doing the views in Rails, because it was easier for us at that point. We very quickly ended up with a Rails frontend, talking to a Go API and adding some Javascript on top of it. That did really work out well. We didn't really want to spend too much time trying to scale the Rails layer, so we switched to Angular 1, and now we're on Angular 2.
+\[00:07:50.16\] We started with doing the views in Rails, because it was easier for us at that point. We very quickly ended up with a Rails frontend, talking to a Go API and adding some JavaScript on top of it. That did really work out well. We didn't really want to spend too much time trying to scale the Rails layer, so we switched to Angular 1, and now we're on Angular 2.
 
 So our stack is Angular 2 with TypeScript, talking to Go APIs, and then C\# and Objective-C talking to the same Go APIs, and we are rewriting the client and we're doing a lot of Go stuff at the desktop layer. We're tackling things from a different perspective and it's very exciting. I'm really excited to show more of that in the next few months.
 
@@ -140,7 +140,7 @@ We use [Visual Studio Code](https://code.visualstudio.com/), for instance, with 
 
 I think Go is actually amazing for people who are starting. I do believe it's an amazing language for people who are learning how to code. Last week you had my friend [Ron Evans](https://twitter.com/deadprogram) on the show, and Ron and I love to work on hardware; he's the one who really gets me always the latest toys and gets me to write a bunch of code with my kids, to write robots, and one thing we were talking about is Blockly. Blockly is a project from Google that's kind of like Scratch; it's basically a concept of visual blocks you put together.
 
-\[00:23:52.12\] What Ron and I were talking about last week was "Hey, what we want to do is do this and export that to Go, so people can learn visually how to code Go." We believe Go is a really good language for people who are just starting, because even though a lot of people recommend languages like Javascript, Ruby or Python to start, those languages are hard because you have so many different ways of doing the same thing, and you also don't have someone that just tells you you're actually doing it wrong here, the syntax is off... And most of the issues you're having when you start programming are related to syntax. Having a compiler that gives you that feedback right away is extremely useful.
+\[00:23:52.12\] What Ron and I were talking about last week was "Hey, what we want to do is do this and export that to Go, so people can learn visually how to code Go." We believe Go is a really good language for people who are just starting, because even though a lot of people recommend languages like JavaScript, Ruby or Python to start, those languages are hard because you have so many different ways of doing the same thing, and you also don't have someone that just tells you you're actually doing it wrong here, the syntax is off... And most of the issues you're having when you start programming are related to syntax. Having a compiler that gives you that feedback right away is extremely useful.
 
 **Erik St. Martin:** Yeah, I'd agree dynamic languages -- we talk about how easy they are, but there's a lot of knowledge to just setup, and then runtime issues, things that should have been caught by a compiler but aren't, and they're caught at runtime and it confuses people.
 

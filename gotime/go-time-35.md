@@ -168,7 +168,7 @@ People spend so much time talking about what their tools says, versus what someb
 
 **Erik St. Martin:** Is this like GopherJS? Or you just needed the frontend layer.
 
-**Charity Majors:** Yes, the query -- we are using Javascript for the actual presentation layer.
+**Charity Majors:** Yes, the query -- we are using JavaScript for the actual presentation layer.
 
 **Erik St. Martin:** Okay.
 
@@ -320,7 +320,7 @@ I think this is an approach that feels a little foreign to ops people, because t
 
 **Brian Ketelsen:** Maybe that's one thing that the startup culture has brought, though... The much smaller team where engineers have to be more versed in things like deployment and security. You don't get the luxury of specializing in just writing code.
 
-I remember one of the things that frustrated me about being a corporate developer 20 years ago was you'd have these people that were very good at writing code, but they didn't have the first clue about what happened after they checked that code in. They didn't even understand how the compilers worked, they didn't understand anything about deployment or storage or networking, and that mindset always frustrated me. Now we're at the complete opposite - you can't even have a real job anymore if you don't understand how many IOPS you can get out of an SSD when you're on the PCIe 4x card versus the 16x card. It's crazy. That's real full stack. Thank you, Erik. Full stack isn't Javascript to backend, it's browser all the way down to...
+I remember one of the things that frustrated me about being a corporate developer 20 years ago was you'd have these people that were very good at writing code, but they didn't have the first clue about what happened after they checked that code in. They didn't even understand how the compilers worked, they didn't understand anything about deployment or storage or networking, and that mindset always frustrated me. Now we're at the complete opposite - you can't even have a real job anymore if you don't understand how many IOPS you can get out of an SSD when you're on the PCIe 4x card versus the 16x card. It's crazy. That's real full stack. Thank you, Erik. Full stack isn't JavaScript to backend, it's browser all the way down to...
 
 **Charity Majors:** Hardware. Show me your hardware. Yeah. Tell me about your full stack engineer.
 

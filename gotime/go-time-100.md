@@ -42,7 +42,7 @@ We talked for a few minutes, and then Ken was in the next office, so I ran and g
 
 **Robert Griesemer:** I think we closed the door and started chatting. I actually was thinking about some language stuff for quite a while before that. I had worked in other languages before. I had a lot of ideas that I'd never written down, but they were in my head for a couple of years; I'd been on and off thinking about it... Not really thinking about doing something about it, more like a personal pet project.
 
-For me, it definitely would have not been possible to just do another project, because I actually just had started on another new project, which was the V8 interpreter for the upcoming new Javascript implementation that Google was working on for Chrome... So for the longest time, in fact, I tried to squeeze this in until I finally managed to get my manager to accept the fact that maybe I wanna do something else.
+For me, it definitely would have not been possible to just do another project, because I actually just had started on another new project, which was the V8 interpreter for the upcoming new JavaScript implementation that Google was working on for Chrome... So for the longest time, in fact, I tried to squeeze this in until I finally managed to get my manager to accept the fact that maybe I wanna do something else.
 
 **Rob Pike:** We definitely still all had real jobs, and so we had to squeeze this in... But I must say that our boss - or at least my boss and Ken's boss - at the time, Bill Coughran who had come with us from Bell Labs, was extremely supportive in the early days to give us the freedom to do a significant amount of time on this, and had to defend us several times from people who thought we should be doing something else. But by about I guess around six months to a year later, I think we were all full-time on it.
 
@@ -232,7 +232,7 @@ The run-up to Go 1.0 - there was a tremendous amount of change in the libraries 
 
 I think it was also important for us - where wish we had more influence was this idea that you write the spec first. I think a lot of follow-on work in other languages could have benefitted from that. I know Rust is only getting its formal spec now; the book is kind of underway, as I understand it... And I find that very strange, that you would implement a compiler without knowing exactly what the language is you're implementing, and having it written down.
 
-The other thing about having a spec is it enables alternate implementations out of the box... There's quite a few Go compilers now. There's ones for Go to Javascript, there's the one in the GCC/Clang suite, there's LLVM Go, there's the original Go compiler that we're running ourselves for the Go project, and all of those are based on a spec... Whereas if you don't have the spec and all you have is the compiler, you limit what you can learn about what's right in the language, what's wrong in the language, other technologies and things like that. So I think having a spec is not as widely-appreciated as it should be, but I wish it were.
+The other thing about having a spec is it enables alternate implementations out of the box... There's quite a few Go compilers now. There's ones for Go to JavaScript, there's the one in the GCC/Clang suite, there's LLVM Go, there's the original Go compiler that we're running ourselves for the Go project, and all of those are based on a spec... Whereas if you don't have the spec and all you have is the compiler, you limit what you can learn about what's right in the language, what's wrong in the language, other technologies and things like that. So I think having a spec is not as widely-appreciated as it should be, but I wish it were.
 
 **Robert Griesemer:** I think the difference here though is that with Go we didn't really try to do language research; we tried to come up with a simpler tool based on language designs and technologies that have actually been known for a long time, and we sort of packaged it up in a newer and more modern and nicer way.
 
@@ -250,7 +250,7 @@ I think our position on compatibility was also a really big deal for the communi
 
 The Go team is doing a lot of stuff on trying to improve the safety and reliability of grabbing code off the web, but... It remains a problem that surprised everybody when it landed, I think.
 
-**Robert Griesemer:** One of the things that surprised me is how many new languages appeared soon after Go came out... Because around 2007 it seemed like the language world was a little bit stagnated; there was C++, there was Java, Javascript, but there was not much else.
+**Robert Griesemer:** One of the things that surprised me is how many new languages appeared soon after Go came out... Because around 2007 it seemed like the language world was a little bit stagnated; there was C++, there was Java, JavaScript, but there was not much else.
 
 **Rob Pike:** Python.
 

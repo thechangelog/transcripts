@@ -38,7 +38,7 @@ So I've wanted this for a long time, but it's never really been possible, and pe
 
 I talked to a few other people, trying to convince everyone who I thought could actually do something about this problem of "How can we take and compile Go down to something that's so small?" And it wasn't until last year, about September timeframe, that I became aware of this TinyGo project, which was originally started by my main collaborator, Ayke van Laëthem. He is a contributor to a number of projects in the embedded space, in particular MicroPython, which is a version of Python that runs on microcontrollers.
 
-His attitude was "Well, if Python can run on microcontrollers, and if Javascript can run on microcontrollers, why can't Go?" But his take on it was really unique, and especially powerful.
+His attitude was "Well, if Python can run on microcontrollers, and if JavaScript can run on microcontrollers, why can't Go?" But his take on it was really unique, and especially powerful.
 
 Go, it turns out, is actually written in Go. The Go compiler is written in Go.
 
@@ -52,7 +52,7 @@ Go, it turns out, is actually written in Go. The Go compiler is written in Go.
 
 **Mat Ryer:** I think so, yeah.
 
-**Ron Evans:** I can't remember the exact version, but you had to do some real work in order to compile the Go compiler itself. But eventually came a time when the Go compiler was written entirely in Go. That's really useful for the Go core team, and also for anyone that wants to contribute to the Go compiler itself, because you could read the compiler code if you can read Go... And that's been the problem, by the way, for some other really cool open source languages, like Ruby or Node.js, where people said "Oh, I wanna contribute to this", and they're like "Yeah, but it's not written in Javascript. It's written in C++, and I don't know C++, so... Sorry, I can't contribute, really." So Go being written in Go, it does definitely lower the bar, but it also creates new possibilities.
+**Ron Evans:** I can't remember the exact version, but you had to do some real work in order to compile the Go compiler itself. But eventually came a time when the Go compiler was written entirely in Go. That's really useful for the Go core team, and also for anyone that wants to contribute to the Go compiler itself, because you could read the compiler code if you can read Go... And that's been the problem, by the way, for some other really cool open source languages, like Ruby or Node.js, where people said "Oh, I wanna contribute to this", and they're like "Yeah, but it's not written in JavaScript. It's written in C++, and I don't know C++, so... Sorry, I can't contribute, really." So Go being written in Go, it does definitely lower the bar, but it also creates new possibilities.
 
 \[00:08:21.21\] Because Go can parse its own language in Go, you could use Go's own libraries and tools to then take what's known as the single-static assignment, which is the -- when you take the Go text of the Go language, and the Go compiler is gonna take that and turn it into machine code, it takes it and it parses it, it breaks it apart and turns it into this SSA form before then the rest of the Go compiler toolchain turns it into the binary language.
 
@@ -212,7 +212,7 @@ Is it really in the interest of the toy manufacturer to limit you like this, whe
 
 **Mat Ryer:** Only occasionally pulled off is only a double one.
 
-**Ron Evans:** Yeah, exactly. Well, WebAssembly is extremely interesting. For those of our listeners who are not at all familiar with it - I'd be surprised, but WebAssembly is the new attempt to create a new web runtime, where inside of a web browser the ability for code to access more native capabilities for faster processing of things, to make it more efficient... Not to replace Javascript in the web browser really, but to enhance it for a number of reasons, performance being a really important one, certainly in a lot of cases.
+**Ron Evans:** Yeah, exactly. Well, WebAssembly is extremely interesting. For those of our listeners who are not at all familiar with it - I'd be surprised, but WebAssembly is the new attempt to create a new web runtime, where inside of a web browser the ability for code to access more native capabilities for faster processing of things, to make it more efficient... Not to replace JavaScript in the web browser really, but to enhance it for a number of reasons, performance being a really important one, certainly in a lot of cases.
 
 So there's a number of languages that are able to compile to this WebAssembly, which is actually an instruction set which is designed to execute inside this sandbox... So LLVM, which is the compiler toolchain - which you may recall from the beginning of this as the one that TinyGo is using to generate its code... LLVM can generate WebAssembly as its back-end.
 
@@ -230,7 +230,7 @@ As time moves forward, efficiency in computation is going to be even more import
 
 **Mat Ryer:** Yeah, right.
 
-**Ron Evans:** There's use cases for all these things. It's not either/or. That's a false dichotomy. TinyGo's mission is to say "There are places where Go has not yet been able to go. We want Go to be able to go there", because any sufficiently mature language has more than one implementation of it. Look how many implementations of Python there are. Look how many implementations of C are there. There's a bunch of C compilers. How many C++'s are there. How many Javascripts are there. We've only had one Go until TinyGo. I mean, there's a few others that have tried to do this, that I've seen, but none have really said "Let's use Go itself to write a new kind of Go, that's still Go, but is able to do some things that are important."
+**Ron Evans:** There's use cases for all these things. It's not either/or. That's a false dichotomy. TinyGo's mission is to say "There are places where Go has not yet been able to go. We want Go to be able to go there", because any sufficiently mature language has more than one implementation of it. Look how many implementations of Python there are. Look how many implementations of C are there. There's a bunch of C compilers. How many C++'s are there. How many JavaScripts are there. We've only had one Go until TinyGo. I mean, there's a few others that have tried to do this, that I've seen, but none have really said "Let's use Go itself to write a new kind of Go, that's still Go, but is able to do some things that are important."
 
 And then the last big one is the future. The future... \[singing\] The futureeeee... \[laughter\] We're really in the most exciting time for computing that I've ever seen. No joke. Why? Because we're literally on the first step of a Cambrian explosion of actual custom silicon.
 

@@ -358,7 +358,7 @@ Maybe there are other business reasons why a process is favourable over another,
 
 **Carmen Andoh:** Yeah, that's great.
 
-**Mat Ryer:** I had a job interview once, and it was a Javascript job... And when I turned up, they had a technical exam, but it was just a Java one. So I said, "Oh, this is the wrong test. I'm here for the Javascript role." He just said, "Oh yeah, just do it anyway. We'll bear that in mind." And I didn't. I walked out, because that just seems like that you care so little... And I could tell that this bloke was just busy and overworked, so he just didn't have time; the interview had snuck up on him and he's just like "Oh, here's an exam to do." Just because it wasn't an exam that was relevant at all to the job, that didn't seem to faze him, but that lack of care was just a red flag... I'm lucky enough to be able to have just walked out.
+**Mat Ryer:** I had a job interview once, and it was a JavaScript job... And when I turned up, they had a technical exam, but it was just a Java one. So I said, "Oh, this is the wrong test. I'm here for the JavaScript role." He just said, "Oh yeah, just do it anyway. We'll bear that in mind." And I didn't. I walked out, because that just seems like that you care so little... And I could tell that this bloke was just busy and overworked, so he just didn't have time; the interview had snuck up on him and he's just like "Oh, here's an exam to do." Just because it wasn't an exam that was relevant at all to the job, that didn't seem to faze him, but that lack of care was just a red flag... I'm lucky enough to be able to have just walked out.
 
 Has anyone else had any interview nightmares?
 

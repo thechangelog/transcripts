@@ -468,7 +468,7 @@ Daniel shared this week another repo called go-hep, which is High-Energy Physics
 
 **Carlisia Pinto:** I ran into a project - I have not used it before, but it looks really cool. It was here in this document, but it was also in this \[unintelligible 00:51:29.09\] newsletter about Go called The Week In Go. It is the JSON Incremental Digger (JID). Basically, you install it with Homebrew and you can navigate a JSON file on the command line. You can say, for example, "Node 0" and you get just that one node, and there are a bunch of things you can do. I thought it was really interesting.
 
-**Erik St. Martin:** \[00:52:03.00\] Yeah, that's really cool. Have you seen this, Keith? You basically can give it JSON, and then you can kind of use Javascript notation to traverse and dig down into the JSON file, and it has autocomplete of the properties, too.
+**Erik St. Martin:** \[00:52:03.00\] Yeah, that's really cool. Have you seen this, Keith? You basically can give it JSON, and then you can kind of use JavaScript notation to traverse and dig down into the JSON file, and it has autocomplete of the properties, too.
 
 **Keith Randall:** Interesting, \[unintelligible 00:52:19.06\]
 

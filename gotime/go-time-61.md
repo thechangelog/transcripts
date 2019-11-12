@@ -50,7 +50,7 @@ With Go, since a lot of these things aren't written in frameworks, you can simpl
 
 **Carlisia Pinto:** That is something we take for granted, isn't it? We don't usually use a framework and we don't have that extra thing to learn... Even though, for example, people who come from the Ruby on Rails background -- when people learned Ruby, they learned Ruby via learning Rails. The exposure to Rails was what exposed them to Ruby. But if you go a bit further back and you worked with Java (or even PHP has different frameworks), you really have a bunch of options and who knows what project is going to use what, and we don't have to go through that.
 
-**Andrew Poydence:** It lends itself to, I think, enabling people to quickly help without all this extra \[unintelligible 00:07:56.16\] and we're not switching between frameworks all the time, much like maybe on a Javascript project.
+**Andrew Poydence:** It lends itself to, I think, enabling people to quickly help without all this extra \[unintelligible 00:07:56.16\] and we're not switching between frameworks all the time, much like maybe on a JavaScript project.
 
 **Jason Keene:** \[00:08:02.00\] Also, the standard library is very high quality and it's almost intuitive. Once you learn one standard library package, the conventions, the intuition you develop from learning that package translates into most of the other packages in the standard library, so that also helps with getting people up to speed.
 

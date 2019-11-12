@@ -110,7 +110,7 @@ So the article is really well worth a read if you want to get familiar with what
 
 **Brian Ketelsen:** Yeah, serving up Bower assets.
 
-**Erik St. Martin:** Yes, that's awesome. It's great that they released that information, too. You wonder how the Javascript community sees that, that they didn't kind of dogfood right?
+**Erik St. Martin:** Yes, that's awesome. It's great that they released that information, too. You wonder how the JavaScript community sees that, that they didn't kind of dogfood right?
 
 **Brian Ketelsen:** Well, I hope they're all as pragmatic and anti-dogma as we are. You use the right tool for the job, and in that case they proved to themselves that Go was the right tool for that job. There are places where I wouldn't want to yet use Go. I can think of a few places that Go is difficult to use, like mobile development. You gotta use the right tool.
 

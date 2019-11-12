@@ -572,7 +572,7 @@ There's some cool tools too, like ReviewDog, which can automatically do some stu
 
 **Carlisia Pinto:** Oh, absolutely... You should not rely on that solely.
 
-**Adam Stacoviak:** On that note, you've got this library that's pretty popular in Javascript right now, called Prettier, and I think that's kind of what the purpose of that is. It's basically like, you write sloppy code and it cleans it up for you... So you're against that style of programming?
+**Adam Stacoviak:** On that note, you've got this library that's pretty popular in JavaScript right now, called Prettier, and I think that's kind of what the purpose of that is. It's basically like, you write sloppy code and it cleans it up for you... So you're against that style of programming?
 
 **Brian Ketelsen:** I'm not against any style of code review tools that reduce the ugliness of your code and reduce computer catchable errors, I'm just saying that that should be the first preliminary step. There should be a human behind that, actually looking at the code nicely. Just counting on `govet` or on the `gometalinter` isn't enough.
 

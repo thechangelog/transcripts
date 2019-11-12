@@ -99,7 +99,7 @@ However, the plus side of this is I sort of wrote it understanding that there ar
 
 **Sam Boyer:** \[00:15:53.16\]Yes, start tagging and using semver, that would be great. Dave Cheney put a [post](https://dave.cheney.net/2016/06/24/gophers-please-tag-your-releases) out about that a year ago or so, and of course there's been an argument for that for a while... But yes, start tagging your stuff with semver now. It will be helpful even if you're not actually using that metadata yet. Simply being able to target those versions will be an improvement.
 
-**Brian Ketelsen:** I've seen a lot of tools on GitHub, like Ruby-based tools or even Node or Javascript-based tools that do automatic tagging and GitHub releases and such. Do you think that we could encourage adoption if that were built into a Go type command, like `go tag` and `go release` and `go increment version`?
+**Brian Ketelsen:** I've seen a lot of tools on GitHub, like Ruby-based tools or even Node or JavaScript-based tools that do automatic tagging and GitHub releases and such. Do you think that we could encourage adoption if that were built into a Go type command, like `go tag` and `go release` and `go increment version`?
 
 **Sam Boyer:** Yes. Right, someone already wrote -- we put a call out asking for something like this as part of the blog post that we wrote for the Advent series last December. Someone wrote something which I am embarrassed to say that I have not actually had time to look at yet. But yes, having this as a part of the tool is probably something that would be very helpful. The reason that we maybe haven't done \[unintelligible 00:16:59.16\] of it yet is just because it ends up being -- say, `go release, for example... What are you releasing to?
 
@@ -412,7 +412,7 @@ So if you're looking for a way to do self-hosted video conferences, webinars, me
 
 **Erik St. Martin:** You know what I find funny about that project? People don't know Brian and I's history... Years ago when we first met, Brian was my boss, and he tried to fire me for installing Node on his computer. \[laughter\] And that is clearly written in Node.
 
-**Brian Ketelsen:** Jitsi-meet is not written in Node. Some of it is written in Erlang and some of it is written in Python, and there are parts that have Javascripty pieces in it... And I did not try to fire you, I just threatened to fire you if you ever installed Node on my machine again. \[laughter\]
+**Brian Ketelsen:** Jitsi-meet is not written in Node. Some of it is written in Erlang and some of it is written in Python, and there are parts that have JavaScripty pieces in it... And I did not try to fire you, I just threatened to fire you if you ever installed Node on my machine again. \[laughter\]
 
 **Erik St. Martin:** How about you, Carlisia?
 
