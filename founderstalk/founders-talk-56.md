@@ -30,7 +30,7 @@ So back in July of last year I was working for a company, I wasn't too thrilled 
 
 Once that idea clicked, everything stemmed from that, and kind of fell right into place in my mind.
 
-**Adam Stacoviak:** That's interesting... For one, of course, Remy Sharp - huge influencer of mind; DHH, definitely, Tom Dale, Yehuda Katz... Significant contributions across all four of those people into the Javascript and the Ruby ecosystems. I can remember reading Remy Sharp's blog way back in the day, and I'm just thinking like "How does this person pour so much in?" And then, of course, DHH's contribution to the Ruby world with Rails, and Tom Dale and Yehuda Katz with Ember... We've documented some of that.
+**Adam Stacoviak:** That's interesting... For one, of course, Remy Sharp - huge influencer of mind; DHH, definitely, Tom Dale, Yehuda Katz... Significant contributions across all four of those people into the JavaScript and the Ruby ecosystems. I can remember reading Remy Sharp's blog way back in the day, and I'm just thinking like "How does this person pour so much in?" And then, of course, DHH's contribution to the Ruby world with Rails, and Tom Dale and Yehuda Katz with Ember... We've documented some of that.
 
 The only person you mentioned on that list that hasn't been on any of our podcasts is Remy Sharp. We should fix that.
 
@@ -68,7 +68,7 @@ So the way it was designed was it was text-only, it looked different enough to n
 
 **Adam Stacoviak:** Hence the name Code Sponsor.
 
-**Eric Berry:** Hence the name Code Sponsor. So I took a step back and I reached out and I said "I wonder if I can find an advertiser that's interested in getting in front of the audience that Tanner is generating." Tanner has a pretty big audience of Javascript developers; I reached out to a couple of people, just flat out cold-called, and said "Hey, this is what I'm doing. Would you be interested?" and several people said "Yeah, let's give it a shot."
+**Eric Berry:** Hence the name Code Sponsor. So I took a step back and I reached out and I said "I wonder if I can find an advertiser that's interested in getting in front of the audience that Tanner is generating." Tanner has a pretty big audience of JavaScript developers; I reached out to a couple of people, just flat out cold-called, and said "Hey, this is what I'm doing. Would you be interested?" and several people said "Yeah, let's give it a shot."
 
 So that started in July, and in July I think I paid out $20, or something like that, to the developers; I think I paid it to Tanner and one other guy. And then month after month it kept on increasing. In July I had (I think) only like five repos that it was working with.
 

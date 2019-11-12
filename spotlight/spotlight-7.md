@@ -36,7 +36,7 @@
 
 **Adam Stacoviak:** So when was that for you, before you were helping with open source?
 
-**Tracy Hinds:** \[00:03:56.21\] My event organizing has always been attached to something like Node or Javascript, but I haven't been -- I mean, outside of contributing to the event open source or tooling for that, it wasn't probably until last year... I was making open source tooling for conferences, but that's what my drive was outside of work, so that's what got me interested into contributing back into the community in a way that I wouldn't have to walk everyone through it personally.
+**Tracy Hinds:** \[00:03:56.21\] My event organizing has always been attached to something like Node or JavaScript, but I haven't been -- I mean, outside of contributing to the event open source or tooling for that, it wasn't probably until last year... I was making open source tooling for conferences, but that's what my drive was outside of work, so that's what got me interested into contributing back into the community in a way that I wouldn't have to walk everyone through it personally.
 
 Otherwise, I wasn't working on things like Node until this year as an open source contributor, which is really whacky.
 
@@ -50,11 +50,11 @@ Otherwise, I wasn't working on things like Node until this year as an open sourc
 
 **Adam Stacoviak:** ...so you could make a judgment call based on the person's name or gender, or color race...
 
-**Tracy Hinds:** Yeah, so then you're pulling it back in, so you're creating tools that's like -- you know, trying to deal with the GitHub API, and also the Google API. I know at least in the Javascript community with conference organizers, a lot of people were doing that sort of thing, because one group does it and then you're like, "Okay, great... Using Google forms is great, but how did you solve this problem?" and you tell them and they're like, "No, I don't wanna do that at all... That's way too much work."
+**Tracy Hinds:** Yeah, so then you're pulling it back in, so you're creating tools that's like -- you know, trying to deal with the GitHub API, and also the Google API. I know at least in the JavaScript community with conference organizers, a lot of people were doing that sort of thing, because one group does it and then you're like, "Okay, great... Using Google forms is great, but how did you solve this problem?" and you tell them and they're like, "No, I don't wanna do that at all... That's way too much work."
 
 **Adam Stacoviak:** So are any of these tools available, open, in the process? What's the state of these things?
 
-**Tracy Hinds:** That one is under I believe the EmpireJS.org. I help run EmpireJS as well as advise for Empire Node, which I helped found. Those are two conferences in New York. I think we also created a document with my co-organizer for Cascadia... We have a How To Conf; we actually have documentation on how to run a Javascript event like we run it. I think we also give some justifications on why we do the things we do; why do you go to Javascript conferences that are max of 300 people? That sort of thing.
+**Tracy Hinds:** That one is under I believe the EmpireJS.org. I help run EmpireJS as well as advise for Empire Node, which I helped found. Those are two conferences in New York. I think we also created a document with my co-organizer for Cascadia... We have a How To Conf; we actually have documentation on how to run a JavaScript event like we run it. I think we also give some justifications on why we do the things we do; why do you go to JavaScript conferences that are max of 300 people? That sort of thing.
 
 **Adam Stacoviak:** So the How To Conf repo is everything you know about how to put on CascadiaJS or a conference like it?
 
@@ -112,7 +112,7 @@ Otherwise, I wasn't working on things like Node until this year as an open sourc
 
 **Adam Stacoviak:** I talked to Shiya from Autodesk, and we talked a lot about just the language barrier there in China. They work in Chinese, obviously, versus Japan, where they primarily work in English; they speak Japanese at work, but the can work in English. And you never really realize until you flip the coin how different it is on the other side. You just don't think about it, I guess. You can call it arrogance or whatever, but it's just like a bubble we live in sometimes... Tunnel vision.
 
-**Tracy Hinds:** Oh, sure. When I was talking with my friend Juan Pablo - he is from Columbia, and he has done incredible work with Columbia dev, which is a group that is really strengthening the tech community in Columbia and around it because of what they're doing... So there's other countries that are sort of networking and building it up together, and I was talking with him one day and he was telling me, "Go look and see how many learn to Javascript books are in Spanish right now." Spanish, a language that I would have just assumed that...
+**Tracy Hinds:** Oh, sure. When I was talking with my friend Juan Pablo - he is from Columbia, and he has done incredible work with Columbia dev, which is a group that is really strengthening the tech community in Columbia and around it because of what they're doing... So there's other countries that are sort of networking and building it up together, and I was talking with him one day and he was telling me, "Go look and see how many learn to JavaScript books are in Spanish right now." Spanish, a language that I would have just assumed that...
 
 **Adam Stacoviak:** Right.
 

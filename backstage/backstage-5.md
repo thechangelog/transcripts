@@ -374,7 +374,7 @@ We had somebody on Changelog News recently, Adam, who was advocating for the use
 
 **Jerod Santo:** Yeah, that's what I was thinking of, for sure. When I saw that, I thought "Okay, this might actually change the web to a certain degree", because it is a universal sign-in across all platforms that Apple uses... And it uses face ID, which is incredibly compelling from an end user perspective, because it's just so easy and fast. And they're actually making face ID 30% faster, which was another thing that got a huge applause... But it's something that's gonna be implemented maybe in Apple Pay, where it's gonna take actual developer adoption to get it out there on the web... Because it's gonna be instead of, or in addition to all the typical social sign-in options now.
 
-\[00:32:20.03\] So I assume there'll be some sort of Javascript SDK or something that you'll have to integrate, but I think it's a very secure and private way to get authentication out there in ways that seem like it's better in almost every way than what's currently on offer.
+\[00:32:20.03\] So I assume there'll be some sort of JavaScript SDK or something that you'll have to integrate, but I think it's a very secure and private way to get authentication out there in ways that seem like it's better in almost every way than what's currently on offer.
 
 **Adam Stacoviak:** What are the reasons why you use a third-party sign in like that? The reason why you ever sign in with Facebook, or Twitter, or others - what were the reasons, typically? Was it simply for the authentication process, or was it for the network, or was it for the "connected to the network and friends", and being able to connect to different identities? And how does this differ?
 

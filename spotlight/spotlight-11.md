@@ -37,7 +37,7 @@ I get paid to make things like that. I can get people excited to try out-of-the-
 
 **Adam Stacoviak:** Whaat?!
 
-**Rachel White:** And that was my first foray into Node, which I then kind of just pushed it aside because at that point in time I still was a frontend/full-stack Javascript developers, and I didn't have that much time. I actually just got the Facebook memory on my phone yesterday - a year ago yesterday I finished my first Node project, which was also my first hardware project, and it was an automated cat feeder that I built utilizing Johnny-Five (a Node application) with a webpage, where you go and push a button and it turns a servo and cat food comes out.
+**Rachel White:** And that was my first foray into Node, which I then kind of just pushed it aside because at that point in time I still was a frontend/full-stack JavaScript developers, and I didn't have that much time. I actually just got the Facebook memory on my phone yesterday - a year ago yesterday I finished my first Node project, which was also my first hardware project, and it was an automated cat feeder that I built utilizing Johnny-Five (a Node application) with a webpage, where you go and push a button and it turns a servo and cat food comes out.
 
 It was kind of exciting, because that one was the longest readme I've ever written, and I was so exhausted from finishing it... I published the repo, I tweeted about it, I posted it to Hacker News, I went to sleep, I woke up and it was all over the internet. Some site in Japan wrote about it...
 
@@ -123,7 +123,7 @@ She encouraged me to just apply, and I did. And now, here we are. I get to tortu
 
 **Rachel White:** Sure.
 
-**Adam Stacoviak:** ...which blends into the internet of things, and this new world we're in. I was actually talking to somebody several months ago who was a mechanical engineer. For whatever reason, his job was drying up; he had really good smarts as an engineer, and I was encouraging him like "Hey, you've got the kind of mindset to get into software development and you love hardware; you already know about all these things. Have you considered learning Javascript and getting into these things?" For people like that, since you're an evangelist, it seems like your focus is on -- is it on bringing new people in or is it nurturing those who are already there?
+**Adam Stacoviak:** ...which blends into the internet of things, and this new world we're in. I was actually talking to somebody several months ago who was a mechanical engineer. For whatever reason, his job was drying up; he had really good smarts as an engineer, and I was encouraging him like "Hey, you've got the kind of mindset to get into software development and you love hardware; you already know about all these things. Have you considered learning JavaScript and getting into these things?" For people like that, since you're an evangelist, it seems like your focus is on -- is it on bringing new people in or is it nurturing those who are already there?
 
 **Rachel White:** It's both.
 
@@ -133,7 +133,7 @@ She encouraged me to just apply, and I did. And now, here we are. I get to tortu
 
 **Adam Stacoviak:** That's what he was, from electrical engineering, but he has a mechanical engineering degree.
 
-**Rachel White:** So his name is Andy Reitano and he makes custom hardware for the NES. He made custom mappers for additional memory, so you can do more stuff with a Nintendo, and now he started learning Javascript and Node, and made this amazing thing called NESpectre, with another guy, named Zach Johnson. What it is it's reading the memory from the Nintendo real-time, using NodeJS and Socket.io, and it runs in the browser, so you can connect to it on your phone while people are playing games. There's things that you can modify, but every second you wait, you get another point...
+**Rachel White:** So his name is Andy Reitano and he makes custom hardware for the NES. He made custom mappers for additional memory, so you can do more stuff with a Nintendo, and now he started learning JavaScript and Node, and made this amazing thing called NESpectre, with another guy, named Zach Johnson. What it is it's reading the memory from the Nintendo real-time, using NodeJS and Socket.io, and it runs in the browser, so you can connect to it on your phone while people are playing games. There's things that you can modify, but every second you wait, you get another point...
 
 For example, if somebody's playing Contra, you wait, and they get 25 points and you hit in the browser "change random gun" and one of the players get a random gun while they're playing their own. That's something I love, especially people that don't come from programming backgrounds... They have a completely different way of thinking about stuff, and they have different situations that they can apply to things.
 

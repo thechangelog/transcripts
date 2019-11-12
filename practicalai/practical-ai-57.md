@@ -68,7 +68,7 @@ So at its core, Indeed has sort of a search product that is well-liked, where pe
 
 **Chris Benson:** Well, actually, before you completely eliminate the side-track - it's kind of funny you say that, because we came from software development; it sounds like all three of us have come from there... And once upon a time I did think of myself as a full stack software developer, so I wonder if we're gonna grow into the sense of being full stack machine learning engineers, data scientists, whatever.
 
-**Daniel Whitenack:** Do I have to learn more Javascript to be a full stack data scientist?
+**Daniel Whitenack:** Do I have to learn more JavaScript to be a full stack data scientist?
 
 **Chris Benson:** You have to do React with your AI at that point... \[laughs\]
 

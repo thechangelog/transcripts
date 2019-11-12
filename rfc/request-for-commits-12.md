@@ -4,7 +4,7 @@
 
 **Mikeal Rogers:** And I'm Mikeal Rogers.
 
-**Nadia Eghbal:** On today's show, Mikeal and I talked with Evan You. Evan is the creator of Vue.js, a Javascript framework that recently reached two million downloads. Evan works full-time on Vue and currently funds his work through Patreon.
+**Nadia Eghbal:** On today's show, Mikeal and I talked with Evan You. Evan is the creator of Vue.js, a JavaScript framework that recently reached two million downloads. Evan works full-time on Vue and currently funds his work through Patreon.
 
 **Mikeal Rogers:** Our focus with Evan was crowdfunding and community organizing. We talked about what it's like to use Patreon to fully fund yourself, why he decided to do it, and how he balances his own paid work for the growing community of contributors.
 

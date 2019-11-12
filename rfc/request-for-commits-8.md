@@ -36,7 +36,7 @@ Around the same time, I was getting a lot of feedback about it from people worki
 
 That seemed like a happy coincidence of events there, and we raised some money from True Ventures and a couple of angels and started the company at the beginning of 2014. It really was a shift from... You know, it wasn't a business with paying customers that I was really only working on part-time, it was something that I was doing literally the minimum required effort, because I was so busy with Node, and it was just falling into disrepair and that was really very sad to see.
 
-So it seemed like the obvious choice was to start a company around it so that I could justify hiring some full-time, dedicated ops people and actually build some products to address the needs of companies that were using it to manage their Javascript modules.
+So it seemed like the obvious choice was to start a company around it so that I could justify hiring some full-time, dedicated ops people and actually build some products to address the needs of companies that were using it to manage their JavaScript modules.
 
 \[00:07:57.02\] Since then, we've grown to about 25 people now, we have two products and they're growing pretty well. It's a ton of work running a company, but at least it's actually full-time, front and center work. That's been sort of nice, to be able to focus on it.
 
@@ -70,7 +70,7 @@ So I was able to get some help building out Sentry for our needs at Disqus, but 
 
 Honestly, I think it's sort of tricky -- I don't wanna speak for Joyent, obviously; it's a whole different company than it was when I got hired, and it was a whole different company when I left than when I got hired. It's a whole different company now. But I think for a lot of the time, the view of npm was that it was sort of this thing that's attached to Node.
 
-Maybe it's just like egotistical, but my point of view has always been Node is the thing that enables npm, and I was mostly trying to keep Node going good and working on it, because I think it's important for the broader Javascript community, and I think that npm is a central part of that.
+Maybe it's just like egotistical, but my point of view has always been Node is the thing that enables npm, and I was mostly trying to keep Node going good and working on it, because I think it's important for the broader JavaScript community, and I think that npm is a central part of that.
 
 Obviously, I'm biased; this is my pet project, and it was my labor of love long before it was my company, but there was no bad blood as I was leaving. I honestly don't think they really cared that much. It's not like they ever hired people to work on it, or anything like that, and it was never seen as a Joyent product.
 
@@ -90,7 +90,7 @@ So yeah, in the end we're still on good terms, we're actually still a Joyent cus
 
 **David Cramer:** Yeah, I think that there is always going to be some concern around incentives anytime you're dealing with people, and the less well you know them, the more concerned you're gonna be about their incentives. When somebody's your friend, you can kind of have a little bit more of that sort of natural primate trust that comes from being in the same tribe.
 
-But in general, there are some really interesting things about the Javascript community in particular. The Javascript community in particular is pretty pro-business and they're pretty open-minded about things like that. It's a sort of interesting melting pot, because almost every application touches Javascript, touches a frontend at some point. So you have developers who think of themselves as Rubyists, Python developers or Java developers, but they still need to use Javascript. So there's a sort of liberal attitude about a lot of these things, and I think also just sort of the place in history that we are made it a little bit of an easier sell.
+But in general, there are some really interesting things about the JavaScript community in particular. The JavaScript community in particular is pretty pro-business and they're pretty open-minded about things like that. It's a sort of interesting melting pot, because almost every application touches JavaScript, touches a frontend at some point. So you have developers who think of themselves as Rubyists, Python developers or Java developers, but they still need to use JavaScript. So there's a sort of liberal attitude about a lot of these things, and I think also just sort of the place in history that we are made it a little bit of an easier sell.
 
 WordPress already sort of crossed a lot of these bridges for us. There is a bunch of other examples of relatively healthy open source projects that were in some way tied to a company or to a foundation, or just some sort of hodgepodge - a foundation made up of several companies. So having a profit motive - for a lot of people I think actually makes it easier for them to see what your incentives are. They can look at npm and say, "This is the product you're selling. Okay, I get it. If I need that product, I'll maybe come consider it, but I can see that you're not trying to sell my email address. You're not trying to sell advertising space on the command line, or weird tracking beacons or whatever."
 
@@ -196,7 +196,7 @@ But then we also do now and then get bug fixes from companies. Back in the day, 
 
 **Mikeal Rogers:** I'm interested to hear Isaac's take on it, since npm is literally an ecosystem.
 
-**David Cramer:** \[00:43:49.13\] That's always been a little bit interesting with the npm client, because it was... There are a couple of different things to talk about when we talk about our participation in open source. There's the npm project itself, the CLI project. There's the massive number of open source modules which are published and shared and installed on the npm registry, and then there's the broader open source Javascript community which sort of includes Node, React, Amber and all the rest.
+**David Cramer:** \[00:43:49.13\] That's always been a little bit interesting with the npm client, because it was... There are a couple of different things to talk about when we talk about our participation in open source. There's the npm project itself, the CLI project. There's the massive number of open source modules which are published and shared and installed on the npm registry, and then there's the broader open source JavaScript community which sort of includes Node, React, Amber and all the rest.
 
 The npm client is open source - it always has been - but for a very long time it was essentially a single-author open source project, which is a very simple governance style. The governance was, "I make all the changes, and if you have an idea, I'll either take your pull request or not", but it was essentially just run by me.
 
