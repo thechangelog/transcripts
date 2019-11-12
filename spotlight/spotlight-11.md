@@ -18,7 +18,7 @@
 
 **Rachel White:** Production code.
 
-**Adam Stacoviak:** ...production code, but you create demos to get people excited about the production code and what they could do with it. \[unintelligible 00:02:27.09\] position.
+**Adam Stacoviak:** ...production code, but you create demos to get people excited about the production code and what they could do with it. It's a unique position.
 
 **Rachel White:** It's great, I love it. My only drawback is I need to stop making so many things with cats.
 
@@ -135,7 +135,7 @@ She encouraged me to just apply, and I did. And now, here we are. I get to tortu
 
 **Rachel White:** So his name is Andy Reitano and he makes custom hardware for the NES. He made custom mappers for additional memory, so you can do more stuff with a Nintendo, and now he started learning Javascript and Node, and made this amazing thing called NESpectre, with another guy, named Zach Johnson. What it is it's reading the memory from the Nintendo real-time, using NodeJS and Socket.io, and it runs in the browser, so you can connect to it on your phone while people are playing games. There's things that you can modify, but every second you wait, you get another point...
 
-For example, if somebody's playing Contra, you wait, and they get 25 points and you hit in the browser "change random gun" and one of the players get a random gun while they're playing the \[unintelligible 00:18:20.25\] That's something I love, especially people that don't come from programming backgrounds... They have a completely different way of thinking about stuff, and they have different situations that they can apply to things.
+For example, if somebody's playing Contra, you wait, and they get 25 points and you hit in the browser "change random gun" and one of the players get a random gun while they're playing their own. That's something I love, especially people that don't come from programming backgrounds... They have a completely different way of thinking about stuff, and they have different situations that they can apply to things.
 
 **Adam Stacoviak:** That's what I was trying to tell him, like... "You really should consider this, because..."
 

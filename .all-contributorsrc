@@ -1825,6 +1825,42 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "xen-glitch",
+      "name": "xen-glitch",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/57036235?v=4",
+      "profile": "https://github.com/xen-glitch",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "jaredsmorgan",
+      "name": "Jared Morgan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/43708112?v=4",
+      "profile": "https://github.com/jaredsmorgan",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "ardagamus",
+      "name": "Aritra Dasgupta",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/53158842?v=4",
+      "profile": "https://github.com/ardagamus",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "AesSedai101",
+      "name": "Elsabe Ros",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1587721?v=4",
+      "profile": "http://elsabe.dev",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
