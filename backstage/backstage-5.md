@@ -598,7 +598,7 @@ Even Gravatar, for instance. That's a feature, right? I have to give my email ad
 
 **Nick Nisi:** I didn't have accidental gestures, so yes.
 
-**Jerod Santo:** It worked much better, but I never had love for it, because I could \[unintelligible 00:51:58.10\] \[laughs\]
+**Jerod Santo:** It worked much better, but I never had love for it, because I could never find \[unintelligible 00:51:58.10\] \[laughs\]
 
 **Adam Stacoviak:** \[00:51:59.21\] What drives me crazy is latency. I don't know about you guys, but I have one -- so I have a couple Apple TVs in my house, and one of them, the latency drives me crazy, from the gesture to on-screen. It's unusable. I have to literally open up my phone and use the app instead, because that's more reliable.
 
