@@ -1,4 +1,4 @@
-**Mikeal Rogers:** Welcome to JS Party, where it's a party every week with Javascript! I'm Mikeal Rogers...
+**Mikeal Rogers:** Welcome to JS Party, where it's a party every week with JavaScript! I'm Mikeal Rogers...
 
 **Rachel White:** I'm Rachel White.
 
@@ -256,7 +256,7 @@ Every time someone is visiting your site, it's hitting the spreadsheet and getti
 
 **Jessica Lord:** This came out of my Code for America project that I did. Code for America is a non-profit based in San Francisco that pairs designers, developers and civic people with city governments to build open source software for them. I did that fellowship; I had come from the city of Boston previously, and I was really keen on not creating new bottlenecks for city IT departments which have to do everything. I felt like there are so many tools we take for granted on the web that would enable departments to manage and update their own websites without needing to go through IT for everything. That was what was kind of my guiding principle and what lead me to pick spreadsheets in general.
 
-I started building it out that year, and it started off as a bunch of Javascript built into a Wordpress theme. Then when the fellowship year was over, I got a grant from Mozilla OpenNews, which is a branch of the Mozilla Foundation that focuses on open source tools for journalism. I got a CodeSprint grant from them to spend two months pulling out all the Javascript and making it a standalone library. That's when it really became Sheetsee. Then I just recently rewrote it, a couple months ago.
+I started building it out that year, and it started off as a bunch of JavaScript built into a Wordpress theme. Then when the fellowship year was over, I got a grant from Mozilla OpenNews, which is a branch of the Mozilla Foundation that focuses on open source tools for journalism. I got a CodeSprint grant from them to spend two months pulling out all the JavaScript and making it a standalone library. That's when it really became Sheetsee. Then I just recently rewrote it, a couple months ago.
 
 **Rachel White:** \[00:31:57.21\] Yay! That's awesome. I like that I'm saying "Yay!" What are some cool uses that you've seen people use Sheetsee for?
 
@@ -362,7 +362,7 @@ If you remix this Glitch site, you get a blank Sheetsee setup and it just writes
 
 **Jessica Lord:** Yeah.
 
-**Mikeal Rogers:** One of the things that I love about this is I feel like all Javascript tooling that I've used in the last 2-3 years has been a giant compile chain and it integrates into a giant compile chain, and this was like "Oh, back in the days..." where you could just insert a "script include" and then do stuff in the body. It's like, "Oh yeah, there's actually cases where this is just so much simpler..."
+**Mikeal Rogers:** One of the things that I love about this is I feel like all JavaScript tooling that I've used in the last 2-3 years has been a giant compile chain and it integrates into a giant compile chain, and this was like "Oh, back in the days..." where you could just insert a "script include" and then do stuff in the body. It's like, "Oh yeah, there's actually cases where this is just so much simpler..."
 
 **Jessica Lord:** Yeah...
 
@@ -396,7 +396,7 @@ I guess IIT reminds me of TwitchPlaysPokemon or like TwitchBuildsAComputer or Tw
 
 **Mikeal Rogers:** This is a very interesting experiment. I'm reading this now and I'm actually like fascinated by it. \[laughs\]
 
-**Jessica Lord:** I think when I looked at it, it did not even have a ton of this stuff, and now there's like containerization, it's got Vagrant up, and... If you can look at all the open issues and pull requests... It's interesting how -- I feel like it was originally Javascript maybe... Maybe not. Like I said, I ignored it at first, because I'm a jerk. Now it's just a ton of Python. It's pretty cool.
+**Jessica Lord:** I think when I looked at it, it did not even have a ton of this stuff, and now there's like containerization, it's got Vagrant up, and... If you can look at all the open issues and pull requests... It's interesting how -- I feel like it was originally JavaScript maybe... Maybe not. Like I said, I ignored it at first, because I'm a jerk. Now it's just a ton of Python. It's pretty cool.
 
 **Mikeal Rogers:** I think my favorite thing here is that they have a death counter... People hack it to merge things that actually break it with the voting mechanism, and they're really upfront about how many times the trunk has died because of this...
 

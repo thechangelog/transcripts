@@ -28,13 +28,13 @@ Joining the conversation today we have myself, Safia, Chris, Nick and Kevin. How
 
 The first question I'm really curious to know about from you folks is "How do you decide when to use a third-party dependency or a library during your development process?" What is the criteria in which you say "Alright, it's time for me to bring in another library, something outside of my control, into this code that I'm writing."
 
-**Kevin Ball:** Wait, we're talking Javascript, right? So the answer is "Does the package exist?"
+**Kevin Ball:** Wait, we're talking JavaScript, right? So the answer is "Does the package exist?"
 
 **Safia Abdalla:** \[laughs\]
 
 **Kevin Ball:** I mean, that's our approach, right?
 
-**Safia Abdalla:** This is Javascript, but if you're working in ecosystems that are like Java or Ruby, feel free to bring in those discussions, as well. I'd be curious to know if this is something language-specific... If the environment and language you're working in kind of dictates the criteria that you use when selecting dependencies... Because each programming language has a different profile around third-party dependencies and package management, and stuff like that. But let's go with Javascript for now.
+**Safia Abdalla:** This is JavaScript, but if you're working in ecosystems that are like Java or Ruby, feel free to bring in those discussions, as well. I'd be curious to know if this is something language-specific... If the environment and language you're working in kind of dictates the criteria that you use when selecting dependencies... Because each programming language has a different profile around third-party dependencies and package management, and stuff like that. But let's go with JavaScript for now.
 
 **Kevin Ball:** \[00:04:01.21\] Well, it was a little bit of a tongue-in-cheek answer, but sort of saying "In this ecosystem the tendency is to always reach for a third-party package", and I suppose what you're highlighting is that that is probably not always and everywhere the right tendency, but I think it is something that is almost cultural more than anything... Different language ecosystems have different cultures and different ease of installation. If it requires manually pulling things in and doing a local build, as compared to a simple add-a-line, or do an npm install save, like, that's gonna change how easy or hard it is, and that's gonna dramatically lower the barrier to pulling dependencies in.
 
@@ -250,7 +250,7 @@ Then the third is more of like the Ruby model... I've not had an experience pers
 
 **Nick Nisi:** What I've picked up on -- you know, I haven't worked at a super-mega-corp for very long, about a year, and before that I worked for small companies... But with these larger companies, and in my interactions with people at larger companies, it's often the case that it is really difficult -- it's so difficult for a developer who uses some third-party dependency to actually contribute, because there is a bunch of bureaucracy involved; it's gotta get signed off by legal, and all this stuff...
 
-Where you're getting the big problems -- it's like, the more dependencies you pull in, like if you're in a Javascript ecosystem, the harder it even becomes, because you can't spread... It's just way too much red tape if there's like 20 projects you wanna contribute to versus one.
+Where you're getting the big problems -- it's like, the more dependencies you pull in, like if you're in a JavaScript ecosystem, the harder it even becomes, because you can't spread... It's just way too much red tape if there's like 20 projects you wanna contribute to versus one.
 
 \[00:43:53.03\] I think a question that we can -- I mean, I don't have any magic solutions, but something we can start thinking about is how can we make it easier for larger companies, and their legal departments or what have you, to allow their developers to contribute to these open source projects? Maybe that is some sort of certification, I don't know; I'm certainly no lawyer, but... That's kind of a problem I've noticed. I'm not sure where to go on that one.
 

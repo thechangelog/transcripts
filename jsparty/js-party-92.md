@@ -1,4 +1,4 @@
-**Jerod Santo:** Yes, the sound of those BMC beats means it's time once again for your weekly party with Javascript. Is that right, Mikeal?
+**Jerod Santo:** Yes, the sound of those BMC beats means it's time once again for your weekly party with JavaScript. Is that right, Mikeal?
 
 **Mikeal Rogers:** Yup.
 
@@ -94,7 +94,7 @@ But that access to opportunity is dependent on your network, and being involved 
 
 **Jerod Santo:** ...re:Invent is more of a business-oriented thing, and you're not probably gonna get what you're looking for there. So when it comes time to select conferences - some of us have time and money and love to travel, and can go to a bunch of conferences. Other of us have less time, or less money, and have to pick and choose... And so the question becomes "Which conferences are worth it for me and which ones aren't going to give me the value that I'm looking for?"
 
-In that regard it's important to start with what your goals are. Because maybe my goal is "I wanna make a bunch of sales of this thing that I have, and I'm on the AWS platform." It's like, well, re:Invent is probably a place to go for you. But if my goal is I like to meet some other friends who are into Javascript or whatever, now you've gotta look somewhere else.
+In that regard it's important to start with what your goals are. Because maybe my goal is "I wanna make a bunch of sales of this thing that I have, and I'm on the AWS platform." It's like, well, re:Invent is probably a place to go for you. But if my goal is I like to meet some other friends who are into JavaScript or whatever, now you've gotta look somewhere else.
 
 So start with your own goal. Ask yourself, "Why do I wanna go to a conference?" and based on that, then you can start to look around and see which conferences are going to potentially fill those needs. So what are some heuristics or what are some things to look for in conferences that you all have found have been a good indicator of "Yeah, this is something I wanna invest my time and money into"? Like, you land on the website and you're like "Hey, there's a conference." What do you look for?
 
@@ -118,7 +118,7 @@ So yeah, lots of things about how they're presenting themselves; am I able to se
 
 **Jerod Santo:** For sure.
 
-**Mikeal Rogers:** Okay, so I'll dig into this a little bit. Having organized, I just have a very different perspective. I think it really depends on the community. What I would look for right now in a Rust event is very different from what I would look for in like a Javascript event, for instance.
+**Mikeal Rogers:** Okay, so I'll dig into this a little bit. Having organized, I just have a very different perspective. I think it really depends on the community. What I would look for right now in a Rust event is very different from what I would look for in like a JavaScript event, for instance.
 
 **Jerod Santo:** How so?
 
@@ -126,7 +126,7 @@ So yeah, lots of things about how they're presenting themselves; am I able to se
 
 Whereas if somebody was doing a Rust event in a hotel ballroom, with booze, I would be very skeptical that they understand that community enough right now, and where it's at in its maturity, to actually bring the audience there and then give me an audience to address.
 
-But if you're just looking for fun and just connecting with cool people... I'm sort of biased, in that there's a selection of events that -- there used to be more of them, but particularly as the Javascript community got bigger, it became less and less practical to do these kinds of events. But we had what I call high trust events, where there was just a lot of trust in the organizers. So much trust that they could not post a schedule, and everybody trusted that "This is gonna be good, it's fine. We know them, it's cool." That doesn't happen that much anymore, because the community is so big and it's growing all the time, and people don't just already know all of each other.
+But if you're just looking for fun and just connecting with cool people... I'm sort of biased, in that there's a selection of events that -- there used to be more of them, but particularly as the JavaScript community got bigger, it became less and less practical to do these kinds of events. But we had what I call high trust events, where there was just a lot of trust in the organizers. So much trust that they could not post a schedule, and everybody trusted that "This is gonna be good, it's fine. We know them, it's cool." That doesn't happen that much anymore, because the community is so big and it's growing all the time, and people don't just already know all of each other.
 
 I did a NodeConf like that; I used to go to an event called Funconf, which was phenomenal, that was like that... And you can see a lot of other organizers that were at a place where they didn't have to prove a lot to everybody. JSConf sold out many years in a row without posting a speaker list yet; they eventually would post speakers, but they would sell out long before that.
 
@@ -188,7 +188,7 @@ I had some great people that were really already very involved in the community 
 
 That was great, and I think I spoke at that event, and decided to start speaking at more events... And eventually -- I had not even left the country, really; I didn't have a passport. I ended up traveling internationally for the first time in order to speak at the International Python Conference, and some other stuff when I was at Mozilla. But I never thought about running an event or getting involved beyond just speaking and attending.
 
-\[00:28:03.05\] Then the Javascript events started, and -- I think it's sort of under-appreciated how different the Javascript events were at that time, that what was going on in the rest of the industry. The first JSConf was very different from what you would typically expect. I mean, the talks were very good, that people went to them. Just the idea that there would be a party that the entire conference went to, that was run by the conference, seemed foreign to me at the time.
+\[00:28:03.05\] Then the JavaScript events started, and -- I think it's sort of under-appreciated how different the JavaScript events were at that time, that what was going on in the rest of the industry. The first JSConf was very different from what you would typically expect. I mean, the talks were very good, that people went to them. Just the idea that there would be a party that the entire conference went to, that was run by the conference, seemed foreign to me at the time.
 
 With the big events there are parties, but they're always run by companies, and they can't support the entire conference at the event. So the idea that the social fabric of the conference would extend beyond the sort of 9-to-5 of the event and into the social spaces was really revolutionary. I met a lot of people that I wouldn't have met otherwise, and I had a much easier time talking to people without somebody to shepherd me around like I had at OSCON... And that sort of started to reshape how I thought about events in general.
 
@@ -196,7 +196,7 @@ I had also gone to some sort of unconferences, and that was the beginning of the
 
 Then I ran an event in 2009 for CouchDB called CouchCamp. I worked for that company at the time, so it was just sort of like on the company credit card. But I ran that event, and we ran it Walker Creek Ranch, which is this summer camp run by Marin County Schools and... It was phenomenal. It was the best time ever; everybody had a really good time. That got back to the organizer of JSConf, and I had been thinking about doing something for Node, an event for Node, but I didn't actually know how to run an event without my corporate card to book everything on... So Chris kind of helped me out.
 
-What that turned into was that Chris took me and a lot of other people and set us all up to run events, and then we in turn helped set up a lot of the people that run events. And the fact that Javascript has this landscape of all of these tiny events that are really community-oriented is really because of the work that Chris did... Not just in running a great event, but then also in bringing up all of these organizers and making us all feel like we also owed him a little bit in that, and we should do that for others as well.
+What that turned into was that Chris took me and a lot of other people and set us all up to run events, and then we in turn helped set up a lot of the people that run events. And the fact that JavaScript has this landscape of all of these tiny events that are really community-oriented is really because of the work that Chris did... Not just in running a great event, but then also in bringing up all of these organizers and making us all feel like we also owed him a little bit in that, and we should do that for others as well.
 
 So yeah, I think that landscape of events - I was somewhat involved in helping create it, but I'm definitely a product of it. I don't think that any of the communities that I've been involved in, or the work that I've done really over the last ten years would have happened without these kinds of community dynamics and without these kinds of events. That's really important. That definitely affects how I think about speaking at events, and which events that I wanna go to and speak at...
 
@@ -214,7 +214,7 @@ Let's face it. Over the last decade or so, the game has been upped in terms of t
 
 **Kevin Ball:** I'm putting that out there, because I periodically do see questions about that, and I know that that is something that especially as you're starting to get into this, if you're coming from a place where you don't know anyone else who's ever spoken at a conference, you'll get that pushback and you might think "Wait, is this normal? Is this not normal?" You should not pay to speak. The conference should pay your way, they should pay your hotel, they should get you there and you should not have to pay to do that.
 
-**Mikeal Rogers:** I agree with all of that, but we should acknowledge this is a very Javascript thing. And to the extent that this happens in other communities, it's a lot of influence from the Javascript scene. This was something that Chris insisted on at the first JSConf, and it sort of permeated the entire community. But you go into other communities and this is just not the standard, at all. In Python this is not standard. Those conferences are run by their foundation, and when they did their budgeting, they did not include this kind of a thing, so it's just not part of the culture there. I don't necessarily agree with it. Also, any academic event - they're not gonna pay for you, at all. You're gonna have to buy a ticket to speak at an academic events. It's crazy.
+**Mikeal Rogers:** I agree with all of that, but we should acknowledge this is a very JavaScript thing. And to the extent that this happens in other communities, it's a lot of influence from the JavaScript scene. This was something that Chris insisted on at the first JSConf, and it sort of permeated the entire community. But you go into other communities and this is just not the standard, at all. In Python this is not standard. Those conferences are run by their foundation, and when they did their budgeting, they did not include this kind of a thing, so it's just not part of the culture there. I don't necessarily agree with it. Also, any academic event - they're not gonna pay for you, at all. You're gonna have to buy a ticket to speak at an academic events. It's crazy.
 
 **Kevin Ball:** That is true, and that is something my wife goes through a lot. Oftentimes your institution or your company will pay for you to go, and I totally get that as a budgetary need, especially with smaller conferences, where you say "You know what - we can't actually afford this, so we're gonna let you know that upfront", and so you've gotta get another institution. But if they're doing that, they should also have a scholarship fund that will help folks... Because it is absolutely a sort of inclusivity and diversity question. If you're an independent, if you are working at a small company and they won't pay for you to go, that's shutting off access.
 
@@ -338,7 +338,7 @@ So how can you stand out from the crowd in that regard? Because it's hard to spe
 
 **Jerod Santo:** Yeah, do not submit a TDD talk to a conference about emerging technologies, or something... Right?
 
-**Nick Nisi:** In five years of our Javascript conference we've only received one talk on Java, so... It's been pretty good. \[laughter\]
+**Nick Nisi:** In five years of our JavaScript conference we've only received one talk on Java, so... It's been pretty good. \[laughter\]
 
 **Jerod Santo:** Well, we have received a lot of Java stickers.
 
@@ -352,7 +352,7 @@ So how can you stand out from the crowd in that regard? Because it's hard to spe
 
 **Kevin Ball:** Thank you, gentlemen. Even though San Diego Zoo everyone knows about, you've let the audience listeners know Nebraska also has a pretty darn good zoo.
 
-**Jerod Santo:** \[laughs\] JS Party, come for the Javascript, stay for the zoo debates, which are heated...!
+**Jerod Santo:** \[laughs\] JS Party, come for the JavaScript, stay for the zoo debates, which are heated...!
 
 **Mikeal Rogers:** I wanna see a talk at an event just about this zoo. \[laughter\] I love talks that are not about technical things at technical conferences. Aaron Quint gave an amazing talk on making bacon at one of the JS conferences.
 
@@ -372,7 +372,7 @@ So how can you stand out from the crowd in that regard? Because it's hard to spe
 
 **Mikeal Rogers:** \[00:55:57.22\] Yeah, yeah... A blimp talk will probably not be accepted. When I run events, I tend to put stuff in the instructions that are about the kind of talk that I wanna see. Not everybody does that, but if people do do it, it really does inform how they're looking to see their idea presented. A few other things, like if you know that the CFP is blind, they're not looking at the names, then it's really important how you frame the story of your talk includes some notion of like why you should be giving the talk. Not who you are, but... If you were somebody involved in creating a technology that's relatively popular, you should be giving talk that's unique to that perspective, and that should be shown in the talk.
 
-Evan Yu is giving a talk about Vue. If it was just a talk about Vue, but given by Evan, that's obvious if you see Evan's name there. But if Evan's name is not there, then it really needs to be about why it was created, and some of the ideas behind that, and how that affects how people use it. If you didn't create it and you're using it in a unique way, you need to tell the story of why that makes it interesting for you to give that talk... Especially if you're talking about any kind of technology that's relatively popular. If you do a Javascript event right now, you're gonna get dozens of talks about Vue and React, and they're gonna have to look through those and figure out which ones are the most interesting to their audience. The talk about Vue.js but in enterprise is just not gonna do it most of the time. That on its own is not enough.
+Evan Yu is giving a talk about Vue. If it was just a talk about Vue, but given by Evan, that's obvious if you see Evan's name there. But if Evan's name is not there, then it really needs to be about why it was created, and some of the ideas behind that, and how that affects how people use it. If you didn't create it and you're using it in a unique way, you need to tell the story of why that makes it interesting for you to give that talk... Especially if you're talking about any kind of technology that's relatively popular. If you do a JavaScript event right now, you're gonna get dozens of talks about Vue and React, and they're gonna have to look through those and figure out which ones are the most interesting to their audience. The talk about Vue.js but in enterprise is just not gonna do it most of the time. That on its own is not enough.
 
 For me, when I'm reviewing talks, I find it really important to see a narrative in the talk. Some kind of perspective that's coming through. I don't care as much at all about the exact details, every bullet point, and the flow, and everything. I just wanna know what that story is, and if that perspective is something that I feel like needs to be at the event.
 

@@ -1,6 +1,6 @@
-**Alex Sexton:** Hello and welcome to the JS Party Podcast, where some people might say that it's a party every day with Javascript, but I certainly would never say that. This is a ridiculous tagline.
+**Alex Sexton:** Hello and welcome to the JS Party Podcast, where some people might say that it's a party every day with JavaScript, but I certainly would never say that. This is a ridiculous tagline.
 
-Anyways, today we have two guests who are members of the Javascript community who I'm happy to have on. We were talking a little bit before the show how we were finally brave enough to do an "all-Javascript dad podcast", the most important, under-represented group of Javascript developers, almost certainly.
+Anyways, today we have two guests who are members of the JavaScript community who I'm happy to have on. We were talking a little bit before the show how we were finally brave enough to do an "all-JavaScript dad podcast", the most important, under-represented group of JavaScript developers, almost certainly.
 
 Today we have Wes Bos and Mike Taylor. Wes, introduce yourself.
 
@@ -70,11 +70,11 @@ Today we have Wes Bos and Mike Taylor. Wes, introduce yourself.
 
 **Wes Bos:** Swept off the floor?
 
-**Alex Sexton:** Yeah. Well, maybe not the floor, but swept off of something... \[laughter\] I think we may be a little too far into dairy, but we can come back out. There were a few things to happen in the world of the web this week -- or Javascript I guess is the party we're having specifically. There is quite a bit of talk about ECMAScript modules hitting browsers, and I'm not sure there's a ton to talk about here... Wes, you've even done some ECMA module tutorial stuff as part of a larger tutorial, yeah?
+**Alex Sexton:** Yeah. Well, maybe not the floor, but swept off of something... \[laughter\] I think we may be a little too far into dairy, but we can come back out. There were a few things to happen in the world of the web this week -- or JavaScript I guess is the party we're having specifically. There is quite a bit of talk about ECMAScript modules hitting browsers, and I'm not sure there's a ton to talk about here... Wes, you've even done some ECMA module tutorial stuff as part of a larger tutorial, yeah?
 
 **Wes Bos:** Yes, I've got a ES6 series, and part of that is obviously learning about how the modules work, but currently what that is is you have to use Webpack or something to bundle it up... So I guess now we are able to use modules straight away in the browser.
 
-**Alex Sexton:** Yeah, and that's the type attribute equaling module. One interesting thing that I think was misunderstood a little bit from the Node drama around ECMAScript modules, which was that you were going to have to use the .mjs extension - so instead of .js, you have to use .mjs... Mike, I don't know if any of this hit standards versus just Node stuff -- because I think it's kind of Node-specific... But on the web, the web version of it, that's not actually true. You can use Javascript, because we don't currently have a module spec that people are using wrong; it's all pre-built anyways.
+**Alex Sexton:** Yeah, and that's the type attribute equaling module. One interesting thing that I think was misunderstood a little bit from the Node drama around ECMAScript modules, which was that you were going to have to use the .mjs extension - so instead of .js, you have to use .mjs... Mike, I don't know if any of this hit standards versus just Node stuff -- because I think it's kind of Node-specific... But on the web, the web version of it, that's not actually true. You can use JavaScript, because we don't currently have a module spec that people are using wrong; it's all pre-built anyways.
 
 The web doesn't give any damn about what extension you use. You could use .php for all your module files.
 
@@ -82,13 +82,13 @@ The web doesn't give any damn about what extension you use. You could use .php f
 
 **Alex Sexton:** Yeah, yeah. I think it's a best practice, for sure... Just to show your mastery of your knowledge of the non-importance of extensions on the web. Mike, I asked you a question and then I answered most of the question I asked you, but is there any kind of movement in the standards space here that you've seen, or has it just mostly been like "This came out"?
 
-**Mike Taylor:** Yeah, I mean... I think there's still problems that need to be resolved. I don't follow -- a lot of this work was done in conjunction with TC39, so they're the standards body that works on ECMAScript the language, which is what we know as Javascript. But the actual module loading stuff happened in the HTML spec in the WHATWG, and that's just like... If you ever run out of email to read, you should subscribe to that GitHub repo, because it's -- it's impressive that individuals are able to keep up with that. I'm kind of just like... I like to collect emails for fun, but I haven't followed it too closely.
+**Mike Taylor:** Yeah, I mean... I think there's still problems that need to be resolved. I don't follow -- a lot of this work was done in conjunction with TC39, so they're the standards body that works on ECMAScript the language, which is what we know as JavaScript. But the actual module loading stuff happened in the HTML spec in the WHATWG, and that's just like... If you ever run out of email to read, you should subscribe to that GitHub repo, because it's -- it's impressive that individuals are able to keep up with that. I'm kind of just like... I like to collect emails for fun, but I haven't followed it too closely.
 
 Alex, you were talking about some of the problems around backwards compatibility for the Node ecosystem, and you're right - we don't have those on the web, in browsers, because like any "module system" we've had, if you used a module loader like RequireJS or the other one... I think you wrote a couple maybe, Alex...
 
 **Alex Sexton:** No, definitely not.
 
-**Mike Taylor:** \[00:07:58.20\] That's all just like regular Javascript, right? It all evaluated to just be like -- the exact same thing is, I don't know, a script tag, at the end of the day. So there have really been no browser compatibility constraints. But there is this issue... There's this "no module" attribute, and that's something that I don't really entirely understand, and browsers don't even really support this now, but there are some kind of problems you can get into if your browser supports modules and you're mixing module code and non-module code.
+**Mike Taylor:** \[00:07:58.20\] That's all just like regular JavaScript, right? It all evaluated to just be like -- the exact same thing is, I don't know, a script tag, at the end of the day. So there have really been no browser compatibility constraints. But there is this issue... There's this "no module" attribute, and that's something that I don't really entirely understand, and browsers don't even really support this now, but there are some kind of problems you can get into if your browser supports modules and you're mixing module code and non-module code.
 
 So there will be a way for you to say like "This one's not a module. This is my fallback for Safari 9 or Firefox 38", or whatever it is.
 
@@ -122,7 +122,7 @@ So there will be a way for you to say like "This one's not a module. This is my 
 
 **Mike Taylor:** Amazing.
 
-**Alex Sexton:** One interesting thing that I guess I didn't really consider until now - and I may be considering it incorrectly... Whenever they did the modules back in TC39, there are things about modules that are true that they were able to like, since modules are new, and if you're using a module, that must mean you're using new Javascript, which means that they can make different defaults to the language while you're in a module, if that makes sense. So they assume that since you're in a module, you must be in strict mode. I believe that's the case.
+**Alex Sexton:** One interesting thing that I guess I didn't really consider until now - and I may be considering it incorrectly... Whenever they did the modules back in TC39, there are things about modules that are true that they were able to like, since modules are new, and if you're using a module, that must mean you're using new JavaScript, which means that they can make different defaults to the language while you're in a module, if that makes sense. So they assume that since you're in a module, you must be in strict mode. I believe that's the case.
 
 So this would be the first time - since this is the first native implementation of modules anywhere - that that is enforced, versus just...
 
@@ -206,7 +206,7 @@ So Gecko doesn't implement this, because it's not free as in free stuff, and so.
 
 **Mike Taylor:** And as part of that, you had this global event object. So when you're inside of an event handler, you can just access it by calling event.target, or... It was called "source element", but same thing. And so the W3C was like "No, we're gonna do our own thing called addEventListener" - I think they copied what Netscape was doing - and you pass in the event object.
 
-If you've ever written some Javascript, you'll know that when you're writing your little onclick=function and you pass in sometimes an e, or an ev, or an event, you can use that guy inside of your event handler, your callback.
+If you've ever written some JavaScript, you'll know that when you're writing your little onclick=function and you pass in sometimes an e, or an ev, or an event, you can use that guy inside of your event handler, your callback.
 
 So it turns out IE invented this thing, and Safari, back when it was actually KHTML - so this was before Apple even forked... Some crazy Norwegians in Oslo made this - they were called Trolltech... They made a browser engine which turned into KHTML, and they had to implement that for compatibility to get some banks running, or whatever.
 
@@ -314,7 +314,7 @@ So Prepack will go through and it will do that operation for you beforehand, so 
 
 Long story short, I was thinking about this... I've spent years in college in syntax classes, and our homework was basically like "Here's a sentence. Now write an AST for this sentence using Chomsky's minimalist syntax, whatever... So it was a lot of drawing trees and doing grammar transformation, so I think that logical education definitely helped understand programming, and it's probably helped with spec writing; you have to be really algorithmic. I'm terrible at everything I do, but it's not so foreign as you might imagine if you have that kind of background.
 
-**Alex Sexton:** \[00:36:14.25\] That's nifty. I guess it sounds weird, but you were talking about Prepack, and we're talking a little bit about news... There was a thing that came out this week called Interface Lovers, Ekechukwu is a friend of the podcast, Iheanyi is a dev out of New York. It's InterfaceLovers.com. It's interviews kind of like what we're talking about, on just great designers from different backgrounds on "Where do you come from? How did you get into design?" It's more design-focused than Javascript-focused, but I thought it would be interesting from a perspective of most Javascript developers care at least somewhat about the interface design and UX. I just wanted to give it a shoutout, since this was kind of relevant to the things we were talking about here.
+**Alex Sexton:** \[00:36:14.25\] That's nifty. I guess it sounds weird, but you were talking about Prepack, and we're talking a little bit about news... There was a thing that came out this week called Interface Lovers, Ekechukwu is a friend of the podcast, Iheanyi is a dev out of New York. It's InterfaceLovers.com. It's interviews kind of like what we're talking about, on just great designers from different backgrounds on "Where do you come from? How did you get into design?" It's more design-focused than JavaScript-focused, but I thought it would be interesting from a perspective of most JavaScript developers care at least somewhat about the interface design and UX. I just wanted to give it a shoutout, since this was kind of relevant to the things we were talking about here.
 
 I think we may land a plane and go into another break here, but we'll be back with some more from Wes after this, since he's a little bit too polite to interrupt Mike and I.
 
@@ -338,13 +338,13 @@ For the record, Mike, Wes and I all go back to the days of the jQuery IRC channe
 
 So just series that are approachable, they're real-world based, they're project-based, they're fun, they don't really put you to sleep... Just tutorials learning how to attack new technologies that are on the web, and how to implement them into your own world.
 
-Another one -- I've got a whole bunch of free ones, as well. I've got more free ones than paid ones. My biggest one is Javascript 30, which is essentially just like, from teaching I generally get a lot of questions from people, like "Wes, how do I get better? What do I need to do in order to get better?" Well, the answer is always just like "Keep doing it. Build lots of stuff."
+Another one -- I've got a whole bunch of free ones, as well. I've got more free ones than paid ones. My biggest one is JavaScript 30, which is essentially just like, from teaching I generally get a lot of questions from people, like "Wes, how do I get better? What do I need to do in order to get better?" Well, the answer is always just like "Keep doing it. Build lots of stuff."
 
 **Alex Sexton:** Program bore.
 
-**Wes Bos:** \[00:40:12.07\] Yeah, program bore. And they're like, "Well thanks, but that doesn't help me, because I don't know what to build." I was lucky enough that I'm always curious and I always have ideas of stuff I wanna build, but some people are not that way, or they're just sort of sitting there and they need somebody to guide them through it. So I came up with this Javascript 30, which is just 30 projects that are between 10 minutes and 30 minutes long.
+**Wes Bos:** \[00:40:12.07\] Yeah, program bore. And they're like, "Well thanks, but that doesn't help me, because I don't know what to build." I was lucky enough that I'm always curious and I always have ideas of stuff I wanna build, but some people are not that way, or they're just sort of sitting there and they need somebody to guide them through it. So I came up with this JavaScript 30, which is just 30 projects that are between 10 minutes and 30 minutes long.
 
-It's totally all over the place - it's from webcam stuff, to speech detection, to creating speech, to just doing basic DOM stuff, understanding how event listeners work, and clicks, and ES6 and what not... And people seem to really like it, because it's just a great way of -- I don't know, it's kind of a neat way to learn modern Javascript.
+It's totally all over the place - it's from webcam stuff, to speech detection, to creating speech, to just doing basic DOM stuff, understanding how event listeners work, and clicks, and ES6 and what not... And people seem to really like it, because it's just a great way of -- I don't know, it's kind of a neat way to learn modern JavaScript.
 
 **Alex Sexton:** Get a lot of surface area
 
@@ -442,7 +442,7 @@ My pick this week is gonna be InterfaceLovers.com. I talked about it earlier - i
 
 Mike, do you have something? Did I catch you off-guard?
 
-**Mike Taylor:** No, I do have something... Maybe this is not cool anymore, but I recently started using this project called Prettier... I guess it's just a Javascript formatter, and it runs -- it's like an NPM thing, so you need the Node stack to get it to work; you don't have to be developing on Node to use it, but basically it's opinionated... You can configure a couple of things, but it's nice... If you've ever had to do code review and you're constantly writing "'nit-, space before paren', or 'nit-'" a big waste of time. So on this project I work on, we decided "Let's just stick this in there..." You can code however you want, you can use all your own weird habits, but run this thing before you submit a pull request, and it's great; you never have to worry about indenting your code ever again.
+**Mike Taylor:** No, I do have something... Maybe this is not cool anymore, but I recently started using this project called Prettier... I guess it's just a JavaScript formatter, and it runs -- it's like an NPM thing, so you need the Node stack to get it to work; you don't have to be developing on Node to use it, but basically it's opinionated... You can configure a couple of things, but it's nice... If you've ever had to do code review and you're constantly writing "'nit-, space before paren', or 'nit-'" a big waste of time. So on this project I work on, we decided "Let's just stick this in there..." You can code however you want, you can use all your own weird habits, but run this thing before you submit a pull request, and it's great; you never have to worry about indenting your code ever again.
 
 **Alex Sexton:** Classic. Wes, how about you?
 

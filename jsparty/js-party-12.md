@@ -1,4 +1,4 @@
-**Mikeal Rogers:** Hey, everybody! Welcome to JS Party, where it's a party every week with Javascript. We're back! I'm Mikeal Rogers...
+**Mikeal Rogers:** Hey, everybody! Welcome to JS Party, where it's a party every week with JavaScript. We're back! I'm Mikeal Rogers...
 
 **Rachel White:** I'm Rachel White...
 
@@ -22,7 +22,7 @@ Alright, let's jump into it. We're gonna talk about actually using ES6 and ES7, 
 
 **Rachel White:** Yeah, the arrow functions are super cool and I totally get that it helps with readability so much, but I'm still stuck in that mindset of like forgetting to use it, and I feel like if I'm going to incorporate all of the new type of things, I'm gonna have to enforce it to strict in my code linting... But other than that, I'm not actively going out of my way to use it, because nobody tells me what to do when I write code.
 
-**Alex Sexton:** Let me jump in... I think I disagree that it makes code more readable. I often am looking at typed and arrow function Javascript; so there are types in there and there are arrow functions, and people are using implicit returns and stuff, and I look at it and it does not look recognizable to me. I'm smart enough to figure it out or whatever, but I can no longer scan it the same way... I don't know, it's just a skill that you can do that.
+**Alex Sexton:** Let me jump in... I think I disagree that it makes code more readable. I often am looking at typed and arrow function JavaScript; so there are types in there and there are arrow functions, and people are using implicit returns and stuff, and I look at it and it does not look recognizable to me. I'm smart enough to figure it out or whatever, but I can no longer scan it the same way... I don't know, it's just a skill that you can do that.
 
 **Rachel White:** I mean, I'm lucky enough that a lot of the stuff that I work on is fairly small, so when it's much smaller scale I think it's readable, but I can totally get if you're looking at larger systems where you would be scanning through a lot of lines; it would be kind of hard to pattern match...
 
@@ -100,11 +100,11 @@ So there are still gotchas if you use the class syntax. You could still go furth
 
 **Rachel White:** Not many, that's for sure. \[laughter\]
 
-**Alex Sexton:** Yeah, I mean... I think IoT projects in the grand scheme of the amount of Javascript that's being written are a small percentage...
+**Alex Sexton:** Yeah, I mean... I think IoT projects in the grand scheme of the amount of JavaScript that's being written are a small percentage...
 
 **Rachel White:** True.
 
-**Alex Sexton:** That doesn't make them unimportant or anything like that, I'm just saying that I think the average Javascript developer these days is working in a framework, and those frameworks somewhat already introduce enough compile steps to where it's just a non-issue to add this.
+**Alex Sexton:** That doesn't make them unimportant or anything like that, I'm just saying that I think the average JavaScript developer these days is working in a framework, and those frameworks somewhat already introduce enough compile steps to where it's just a non-issue to add this.
 
 So if you're working in Vue or you're working in React or you're working in Ember or you're working in Angular or you're working in any of these things, you have a Babel-like compiler already in your stack, so adding object spreads is just like a decision you can make or not.
 
@@ -168,7 +168,7 @@ If you want to color completely in the lines of the suggested React world set of
 
 **Mikeal Rogers:** And Webpack, for that matter...
 
-**Alex Sexton:** Yeah, that's included in the suggested React world set of tools... Then you can use create-react-app. The idea is that you can say "Create create-react-app to do" and then you have a React app for to-do's that automatically compiles your ES6, has a way to do CSS in Javascript, does error handling and building, and all sorts of the different things that you would normally have to set up manually, one by one... All is this one big package. It's kind of a template to get started with the project.
+**Alex Sexton:** Yeah, that's included in the suggested React world set of tools... Then you can use create-react-app. The idea is that you can say "Create create-react-app to do" and then you have a React app for to-do's that automatically compiles your ES6, has a way to do CSS in JavaScript, does error handling and building, and all sorts of the different things that you would normally have to set up manually, one by one... All is this one big package. It's kind of a template to get started with the project.
 
 The history is interesting... It was like a hack weekend project, because React was one of -- a lot of the feedback React got was that there's no kind of baseline of guaranteed, supported tools that work together, and this is kind of like an answer to say like "Well, this stuff all works together." So it's kind of like a hackathon one-day thing, and then it's grown up a lot since then. This is the 1.0 release. It's been in use by a lot of people already, but now it's 1.0.
 
@@ -222,9 +222,9 @@ So Jest is good at helping you manage those types of things. In general, if you'
 
 **Rachel White:** That's awesome.
 
-**Alex Sexton:** One tough thing for writing web apps is if you wanna write tests in the same Javascript that you write your components and stuff in, but if you're using Babel and Webpack and stuff in order to compile everything down, then you're starting to watch and compile your test directory... Which is cool, but then while you're writing your app, you're spending an additional three seconds every time you do a save compiling your thousands of tests that you've written.
+**Alex Sexton:** One tough thing for writing web apps is if you wanna write tests in the same JavaScript that you write your components and stuff in, but if you're using Babel and Webpack and stuff in order to compile everything down, then you're starting to watch and compile your test directory... Which is cool, but then while you're writing your app, you're spending an additional three seconds every time you do a save compiling your thousands of tests that you've written.
 
-So there needs to be good configuration on whether you're kind of in a mode where tests run or get compiled, or whether it's important for them to get recompiled... And most of that's handled to where you're not doing unnecessary work as you're working, and then your tests can still be in new, cool, good ES6-y, Babel-y stuff that you write your other components in. You don't have to switch context to write older-school Javascript for your tests.
+So there needs to be good configuration on whether you're kind of in a mode where tests run or get compiled, or whether it's important for them to get recompiled... And most of that's handled to where you're not doing unnecessary work as you're working, and then your tests can still be in new, cool, good ES6-y, Babel-y stuff that you write your other components in. You don't have to switch context to write older-school JavaScript for your tests.
 
 **Rachel White:** \[00:36:25.14\] Great.
 
@@ -274,7 +274,7 @@ I hadn't looked into it much, because it wasn't really a great place to use it, 
 
 **Alex Sexton:** I guess I was complicating it because it would be invalid syntax to just throw an import there. It needs to be supported syntax; it's not just like something you could do before but people didn't know about it. I think awaiting in import is not -- like, it needs to be statically analyzable or at least known to be a part of it that isn't statically analyzable, because it doesn't need to be... Something like that. And that's why I think it's part of the standards track to do asynchronous imports like this.
 
-So create-react-app supports this in order to do bundles, which is a huge part of the PWA community's problem. If you follow Alex Russell, you'll know that your Javascript that you're serving by default is far too large. So if you can turn on HTTP/2 and then do something like a handful of these asynchronous imports for large portions of your application, I think it could go a long way to loading far less Javascript on load, which is really nifty. I think this is such a good direction to automatically give to people. I hope they use it in the baseline example that they generate... That way people use it.
+So create-react-app supports this in order to do bundles, which is a huge part of the PWA community's problem. If you follow Alex Russell, you'll know that your JavaScript that you're serving by default is far too large. So if you can turn on HTTP/2 and then do something like a handful of these asynchronous imports for large portions of your application, I think it could go a long way to loading far less JavaScript on load, which is really nifty. I think this is such a good direction to automatically give to people. I hope they use it in the baseline example that they generate... That way people use it.
 
 **Mikeal Rogers:** \[00:44:08.01\] Following on with your talk about scaffolding, it seems like the big difference between this and what Rails does is, like you said, Rails will generate a lot of boilerplate code. This seems to generate a lot of configuration, right? The joke about Webpack is you only write one Webpack configuration and then you copy/paste it into every project.
 

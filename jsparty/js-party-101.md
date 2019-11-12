@@ -1,8 +1,8 @@
-**Nick Nisi:** Hello, and welcome to Mocha Party! Oh, wait... No, that doesn't sound right. Hello, and welcome to ECMA Party! No, not that either... Hello, and welcome to WebJS Party! Hm... I don't know where we're going with this, but today's episode we are going to be debating whether Javascript should be rebranded.
+**Nick Nisi:** Hello, and welcome to Mocha Party! Oh, wait... No, that doesn't sound right. Hello, and welcome to ECMA Party! No, not that either... Hello, and welcome to WebJS Party! Hm... I don't know where we're going with this, but today's episode we are going to be debating whether JavaScript should be rebranded.
 
-As you may or may not know, there is a long, complicated history to the actual name of the language that we all love here on this party, and it has some interesting roots, where it was originally internally called Mocha, but then they wanted to ride the coattails of the popularity of Java back at the time, so it was renamed to Javascript. But now, it's technically ECMAScript, even though none of us really even write straight Javascript anymore, whether that's TypeScript, or using Babel to do something else that isn't an in-between that with JSX... We're kind of writing this language that almost looks like Javascript, all the time.
+As you may or may not know, there is a long, complicated history to the actual name of the language that we all love here on this party, and it has some interesting roots, where it was originally internally called Mocha, but then they wanted to ride the coattails of the popularity of Java back at the time, so it was renamed to JavaScript. But now, it's technically ECMAScript, even though none of us really even write straight JavaScript anymore, whether that's TypeScript, or using Babel to do something else that isn't an in-between that with JSX... We're kind of writing this language that almost looks like JavaScript, all the time.
 
-So should Javascript be rebranded? Today we're gonna be debating that. I'll be your host, Nick Nisi, and your moderator as well. On the Yep team we have Divya...
+So should JavaScript be rebranded? Today we're gonna be debating that. I'll be your host, Nick Nisi, and your moderator as well. On the Yep team we have Divya...
 
 **Divya Sasidharan:** Hey, hey...!
 
@@ -68,13 +68,13 @@ So should Javascript be rebranded? Today we're gonna be debating that. I'll be y
 
 **Kevin Ball:** Oh, my bad.
 
-**Nick Nisi:** Getting into this... I guess, let's just dive right in. Actually, before we do - and I will turn it over to Divya to argue the Yip-Yip side on whether or not Javascript should be rebranded... But I totally am stealing an idea from you, Divya, and I'm sorry... I listened recently to the last YepNope episode with you, and you had an awesome Haiku about Javascript tooling... So I'm completely ripping that off with a limerick about today's topic.
+**Nick Nisi:** Getting into this... I guess, let's just dive right in. Actually, before we do - and I will turn it over to Divya to argue the Yip-Yip side on whether or not JavaScript should be rebranded... But I totally am stealing an idea from you, Divya, and I'm sorry... I listened recently to the last YepNope episode with you, and you had an awesome Haiku about JavaScript tooling... So I'm completely ripping that off with a limerick about today's topic.
 
 **Divya Sasidharan:** Yes!
 
 **Jerod Santo:** Nice...
 
-**Nick Nisi:** And that is "Should Javascript be rebranded? Does that seem too heavy-handed? We're going to debate, consider its fate, while not leaving users stranded."
+**Nick Nisi:** And that is "Should JavaScript be rebranded? Does that seem too heavy-handed? We're going to debate, consider its fate, while not leaving users stranded."
 
 **Divya Sasidharan:** I love that. That's great.
 
@@ -96,35 +96,35 @@ So should Javascript be rebranded? Today we're gonna be debating that. I'll be y
 
 **Divya Sasidharan:** Mikeal, yes! He tore it apart. It's fine.
 
-**Nick Nisi:** Well, on that note, let's dive right in. Divya, do you wanna start us off with your argument for why Javascript should be rebranded?
+**Nick Nisi:** Well, on that note, let's dive right in. Divya, do you wanna start us off with your argument for why JavaScript should be rebranded?
 
 **Divya Sasidharan:** Sure, I can take it away. I will begin. It's four minutes, right? I should time myself...
 
 **Nick Nisi:** Yes, four minutes.
 
-**Divya Sasidharan:** Okay, so the premise being "Should Javascript be rebranded?", and I represent the team Yep. Similar to how American football is actually less feet and more hand, Javascript should be renamed, because it's less Java and more web. Similar to what Nick mentioned earlier, with the various namings of it, whether Javascript should be called WebScript, or something else, is a valid point, because Javascript often gets conflated with Java.
+**Divya Sasidharan:** Okay, so the premise being "Should JavaScript be rebranded?", and I represent the team Yep. Similar to how American football is actually less feet and more hand, JavaScript should be renamed, because it's less Java and more web. Similar to what Nick mentioned earlier, with the various namings of it, whether JavaScript should be called WebScript, or something else, is a valid point, because JavaScript often gets conflated with Java.
 
-Many of us being web developers, have gotten the very common email from recruiters asking us whether or not we're interested in a job in Java because of our extensive experience with Java, supposedly... But this often is a case where people tend to think that Javascript includes Java, or is a subset of Java, which is completely untrue.
+Many of us being web developers, have gotten the very common email from recruiters asking us whether or not we're interested in a job in Java because of our extensive experience with Java, supposedly... But this often is a case where people tend to think that JavaScript includes Java, or is a subset of Java, which is completely untrue.
 
-So the naming itself causes a lot of confusion, especially for those who are not super-technical and not in the technical community itself... The thing being Javascript also, as Nick mentioned, is an incredibly fractured community. Not only are we not writing Javascript as is, many of us don't write vanilla Javascript anymore; we write different flavors of Javascript. There is React.js, which is now called React; I don't think anyone calls it React.js. There's Vue.js, which is a Vue flavor of Javascript... There's Angular, there's Ember, there's all these different frameworks, and so all of us are no longer writing Javascript in the same way that you would if you write vanilla Javascript. No one is always Document.querySelector(), everyone is using their flavor of things, and interacting with the DOM that way.
+So the naming itself causes a lot of confusion, especially for those who are not super-technical and not in the technical community itself... The thing being JavaScript also, as Nick mentioned, is an incredibly fractured community. Not only are we not writing JavaScript as is, many of us don't write vanilla JavaScript anymore; we write different flavors of JavaScript. There is React.js, which is now called React; I don't think anyone calls it React.js. There's Vue.js, which is a Vue flavor of JavaScript... There's Angular, there's Ember, there's all these different frameworks, and so all of us are no longer writing JavaScript in the same way that you would if you write vanilla JavaScript. No one is always Document.querySelector(), everyone is using their flavor of things, and interacting with the DOM that way.
 
-\[00:07:53.16\] So the fracturing of the Javascript community -- and this is not even to say TypeScript comes in... Because TypeScript completely fractures the community. So the framework kind of gives pockets of people who are still interacting with Javascript... But the moment we think about TypeScript, that completely moves Javascript in a completely different direction... Because Javascript by definition is dynamically-typed, and with TypeScript it adds a type system to a language that doesn't have any types. So in a sense, there is this split in a community - there's the people who are very anti-TypeScript, and then there are people who are very pro-TypeScript. This fissure that's happening already comes to the fore and questions whether or not the term Javascript actually fully encapsulates the community... Because TypeScript still uses Javascript, it just adds types on top of it.
+\[00:07:53.16\] So the fracturing of the JavaScript community -- and this is not even to say TypeScript comes in... Because TypeScript completely fractures the community. So the framework kind of gives pockets of people who are still interacting with JavaScript... But the moment we think about TypeScript, that completely moves JavaScript in a completely different direction... Because JavaScript by definition is dynamically-typed, and with TypeScript it adds a type system to a language that doesn't have any types. So in a sense, there is this split in a community - there's the people who are very anti-TypeScript, and then there are people who are very pro-TypeScript. This fissure that's happening already comes to the fore and questions whether or not the term JavaScript actually fully encapsulates the community... Because TypeScript still uses JavaScript, it just adds types on top of it.
 
-So should we now rename Javascript to something else? There are many alternatives out there. There's -- I think some people call it Mocha, which is what it was called before... I think it was called LiveScript at one point... But there's also various fun interpretations of it, such as a \[unintelligible 00:08:58.10\] depending on the language that you speak... And then there's JawaScript, so it's not Javascript; there's EichenScript, because of Brendan Eich... And then there's also this concept of ECMAScript, which is technically Javascript... Very confusing; similar to the confusion earlier with Java and Javascript, there's a confusion around why is the community that federates or talks about the standards for Javascript called ECMA... I mean, sure, there's naming and there's a lot of history around that, but there's often confusion, because ECMAScript is technically Javascript, but then there's TC39, which is the governing body for pushing standards forward...
+So should we now rename JavaScript to something else? There are many alternatives out there. There's -- I think some people call it Mocha, which is what it was called before... I think it was called LiveScript at one point... But there's also various fun interpretations of it, such as a \[unintelligible 00:08:58.10\] depending on the language that you speak... And then there's JawaScript, so it's not JavaScript; there's EichenScript, because of Brendan Eich... And then there's also this concept of ECMAScript, which is technically JavaScript... Very confusing; similar to the confusion earlier with Java and JavaScript, there's a confusion around why is the community that federates or talks about the standards for JavaScript called ECMA... I mean, sure, there's naming and there's a lot of history around that, but there's often confusion, because ECMAScript is technically JavaScript, but then there's TC39, which is the governing body for pushing standards forward...
 
-All of this confusion leads to the community not being sure what exactly is happening, at what point. So it is indeed valid, and it is a point that we should consider, to rename Javascript to bring that unity back, so that all of us are aware of what we're doing whenever we say we write Javascript.
+All of this confusion leads to the community not being sure what exactly is happening, at what point. So it is indeed valid, and it is a point that we should consider, to rename JavaScript to bring that unity back, so that all of us are aware of what we're doing whenever we say we write JavaScript.
 
 **Nick Nisi:** Very good, with five seconds to spare. Alright... Chris, your rebuttal.
 
-**Christopher Hiller:** So... What's the end goal here? If the end goal of renaming -- if you're a company and you wanna rebrand, well why do you rebrand there? There are many reasons for it. But in the case of Javascript here, it seems to me that you would want to rebrand Javascript to something else to (I don't know) increase adoption of Javascript? Is that a problem? Do we need to worry about Javascript adoption? Do we need to worry about recruiters getting confused? I don't think that's an issue.
+**Christopher Hiller:** So... What's the end goal here? If the end goal of renaming -- if you're a company and you wanna rebrand, well why do you rebrand there? There are many reasons for it. But in the case of JavaScript here, it seems to me that you would want to rebrand JavaScript to something else to (I don't know) increase adoption of JavaScript? Is that a problem? Do we need to worry about JavaScript adoption? Do we need to worry about recruiters getting confused? I don't think that's an issue.
 
-It seems to me that we have all these different frameworks, and just like any other language, Java itself has Spring, it has all sorts of different frameworks and flavors... Essentially, it's still all one language. There's only one Javascript, there's the ECMAScript standard, and you will use it insofar as what your transpiler supports, what your target browsers support... But in the end, it's really all Javascript. I don't see any reason to make 50 different names for this stuff, depending on what particular feature you're using, or where you're deploying it, or what framework you're using... I think that would actually make the problem much worse.
+It seems to me that we have all these different frameworks, and just like any other language, Java itself has Spring, it has all sorts of different frameworks and flavors... Essentially, it's still all one language. There's only one JavaScript, there's the ECMAScript standard, and you will use it insofar as what your transpiler supports, what your target browsers support... But in the end, it's really all JavaScript. I don't see any reason to make 50 different names for this stuff, depending on what particular feature you're using, or where you're deploying it, or what framework you're using... I think that would actually make the problem much worse.
 
-So to Divya's point - she said "We want to bring everything back together, and have that unity." Well, we do. We all write Javascript, right? ...insofar as the naming of it and the confusion around ECMAScript, because Oracle owns the trademark to Javascript, I would imagine that if ECMAScript could call it Javascript, they would. But they can't, because Oracle owns the trademark, so they had to come up with a different name.
+So to Divya's point - she said "We want to bring everything back together, and have that unity." Well, we do. We all write JavaScript, right? ...insofar as the naming of it and the confusion around ECMAScript, because Oracle owns the trademark to JavaScript, I would imagine that if ECMAScript could call it JavaScript, they would. But they can't, because Oracle owns the trademark, so they had to come up with a different name.
 
-\[00:12:01.28\] Javascript is ECMAScript, as Javascript is ECMAScript. There's one language... So I don't see it as being necessary to rebrand. This is kind of a solution in search of a problem. There's really no good reason in my mind to do it.
+\[00:12:01.28\] JavaScript is ECMAScript, as JavaScript is ECMAScript. There's one language... So I don't see it as being necessary to rebrand. This is kind of a solution in search of a problem. There's really no good reason in my mind to do it.
 
-**Nick Nisi:** Good points, good points for sure. You make a good point about it not really having a marketing problem, because it is the most popular language in the world... But what if that changes? What if something like -- I know everybody says it won't, but what if a WebAssembly language overtakes Javascript? Would we need to market it differently then?
+**Nick Nisi:** Good points, good points for sure. You make a good point about it not really having a marketing problem, because it is the most popular language in the world... But what if that changes? What if something like -- I know everybody says it won't, but what if a WebAssembly language overtakes JavaScript? Would we need to market it differently then?
 
 **Kevin Ball:** Nope. Nope-nope-nope-nope...
 
@@ -132,29 +132,29 @@ So to Divya's point - she said "We want to bring everything back together, and h
 
 **Divya Sasidharan:** \[laughs\] Definitely.
 
-**Jerod Santo:** Well, let me hop on that bandwagon and maybe steal the floor here for a moment... So Chris' argument is essentially "If it ain't broke, don't fix it", and I'm here to tell you that it is definitely broken. The hallmark of a bad brand is confusion. In fact, most trademark law is centered around the idea of market confusion. If you go to Wikipedia on Javascript Wikipedia page, the very first sentence, the one right after "From Wikipedia, the free encyclopedia", it says "Not to be confused with Java, the programming language." Later on it talks about the naming - Nick, you've been through some of that history - and it says "The final choice of name caused confusion, giving the impression that the language was a spin-off of the Java programming language... And the choice has been characterized as a marketing ploy by Netscape to give Javascript the cache of what was then the hot, new web programming language, Java."
+**Jerod Santo:** Well, let me hop on that bandwagon and maybe steal the floor here for a moment... So Chris' argument is essentially "If it ain't broke, don't fix it", and I'm here to tell you that it is definitely broken. The hallmark of a bad brand is confusion. In fact, most trademark law is centered around the idea of market confusion. If you go to Wikipedia on JavaScript Wikipedia page, the very first sentence, the one right after "From Wikipedia, the free encyclopedia", it says "Not to be confused with Java, the programming language." Later on it talks about the naming - Nick, you've been through some of that history - and it says "The final choice of name caused confusion, giving the impression that the language was a spin-off of the Java programming language... And the choice has been characterized as a marketing ploy by Netscape to give JavaScript the cache of what was then the hot, new web programming language, Java."
 
-I'd like to tell a little story... I had a lunch with an acquaintance on Monday wherein he was asking for advice about breaking into programming, in this industry. This is something I do pretty often nowadays, is advise people... And I spent at least 15 minutes of that one-hour lunch explaining to him the difference between Java and Javascript. Why? Because there is massive confusion around these two programming languages.
+I'd like to tell a little story... I had a lunch with an acquaintance on Monday wherein he was asking for advice about breaking into programming, in this industry. This is something I do pretty often nowadays, is advise people... And I spent at least 15 minutes of that one-hour lunch explaining to him the difference between Java and JavaScript. Why? Because there is massive confusion around these two programming languages.
 
-Think about how many developers there are, and think about how many developers are coming into our community. There's been estimates that the size of the developer ecosystem, or the number of programmers in the world has been doubling every five years. Now, think about that conversation in 2019, 25 years after the name Javascript was chosen, and we're still explaining the difference between Java and Javascript to people who are coming into our communities.
+Think about how many developers there are, and think about how many developers are coming into our community. There's been estimates that the size of the developer ecosystem, or the number of programmers in the world has been doubling every five years. Now, think about that conversation in 2019, 25 years after the name JavaScript was chosen, and we're still explaining the difference between Java and JavaScript to people who are coming into our communities.
 
-It's time to end the confusion. It's time to cut ourselves loose from the rotting corpse that is Java. It's time to rebrand Javascript. I rest my case, your honor.
+It's time to end the confusion. It's time to cut ourselves loose from the rotting corpse that is Java. It's time to rebrand JavaScript. I rest my case, your honor.
 
 **Divya Sasidharan:** \[laughs\] Yes, yes!
 
-**Kevin Ball:** Okay, so I guess that makes it my turn. I love that y'all are talking about confusion. This reminds me a lot of refactoring code that already works, because it's confusing... And sometimes that's the right thing to do, and sometimes it just creates a lot more confusion. So Javascript - yes, the name is non-ideal. Yes, it confuses recruiters. So does every other distinction in the programming world. How many of you have gotten the "Hey, long-time freelance we developer, would you be interested in this salaried embedded programming position using C++ in India?"
+**Kevin Ball:** Okay, so I guess that makes it my turn. I love that y'all are talking about confusion. This reminds me a lot of refactoring code that already works, because it's confusing... And sometimes that's the right thing to do, and sometimes it just creates a lot more confusion. So JavaScript - yes, the name is non-ideal. Yes, it confuses recruiters. So does every other distinction in the programming world. How many of you have gotten the "Hey, long-time freelance we developer, would you be interested in this salaried embedded programming position using C++ in India?"
 
 I mean, recruiters are always gonna be confused. But if you wanna confuse people, try renaming the most widely-used language in the world. Have you ever tried changing the name of a widely-used piece of code? Now try it again without Find and Replace. Try it again in over one million public packages, downloaded over a billion times a day into who knows how many private applications and packages. This is not gonna reduce confusion, folks. This is gonna ramp confusion up to 11.
 
-\[00:15:58.12\] Not even thinking about the code, what about documentation and past articles? How many millions of articles are already talking about Javascript? Now every new developer of WebScript, or EichScript, or whatever the heck you wanna call is gonna have to not only look for things in that, but also understand that these other things talking about Javascript have relevance to them. They're not gonna replace the knowledge, we're just adding onto the stack with something more and more confusing for new people coming into the industry.
+\[00:15:58.12\] Not even thinking about the code, what about documentation and past articles? How many millions of articles are already talking about JavaScript? Now every new developer of WebScript, or EichScript, or whatever the heck you wanna call is gonna have to not only look for things in that, but also understand that these other things talking about JavaScript have relevance to them. They're not gonna replace the knowledge, we're just adding onto the stack with something more and more confusing for new people coming into the industry.
 
-Every one of those recruiters is gonna talk to you "Oh, you have Javascript experience. Well, we're looking for WebScript, so you're clearly not applicable." This is not gonna make anything better. So I would close with a Haiku... \[laughter\] Because you all make it possible. "Should we rebrand it? D'oh, Javascript is just fine. Stop navel-gazing."
+Every one of those recruiters is gonna talk to you "Oh, you have JavaScript experience. Well, we're looking for WebScript, so you're clearly not applicable." This is not gonna make anything better. So I would close with a Haiku... \[laughter\] Because you all make it possible. "Should we rebrand it? D'oh, JavaScript is just fine. Stop navel-gazing."
 
 **Nick Nisi:** Very nice!
 
 **Break:** \[00:16:53.13\]
 
-**Nick Nisi:** Now, what if we could find a middle ground between the two? I think that the Yip Yips are arguing that it should be something potentially drastically different, like Mocha, or LiveScript, a completely new name, and the Nope-Nopes are saying that Javascript is just fine. But the article that this whole argument is based on actually offers a simple solution, which is why don't we just call it JS? Drop Javascript completely, and it just be JS. Or maybe have ServerJS and WebJS as distinctions between the two, between obviously the server side and the client side.
+**Nick Nisi:** Now, what if we could find a middle ground between the two? I think that the Yip Yips are arguing that it should be something potentially drastically different, like Mocha, or LiveScript, a completely new name, and the Nope-Nopes are saying that JavaScript is just fine. But the article that this whole argument is based on actually offers a simple solution, which is why don't we just call it JS? Drop JavaScript completely, and it just be JS. Or maybe have ServerJS and WebJS as distinctions between the two, between obviously the server side and the client side.
 
 The article argues that just like you don't really know what PHP stands for, eventually people will forget what JS stood for, but it'll still be this name of a language that matches the file extension that we all use right now, potentially until MJS or something else comes along.
 
@@ -186,7 +186,7 @@ The article argues that just like you don't really know what PHP stands for, eve
 
 **Divya Sasidharan:** That's cool...
 
-**Kevin Ball:** So with the kids these days now, instead of having to distinguish between Java and Javascript, looking up what does JS stand for in other places, we'd have to distinguish between the language JS and "Just Sayin'..."
+**Kevin Ball:** So with the kids these days now, instead of having to distinguish between Java and JavaScript, looking up what does JS stand for in other places, we'd have to distinguish between the language JS and "Just Sayin'..."
 
 **Nick Nisi:** \[laughs\] I've never heard that.
 
@@ -202,7 +202,7 @@ The article argues that just like you don't really know what PHP stands for, eve
 
 **Jerod Santo:** JS.
 
-**Kevin Ball:** The top five results on Google related to meanings of JS have to do with "Just Sayin'..." -- no, top four. Then we get down to Javascript. Oh, it could apparently also mean Joint Service.
+**Kevin Ball:** The top five results on Google related to meanings of JS have to do with "Just Sayin'..." -- no, top four. Then we get down to JavaScript. Oh, it could apparently also mean Joint Service.
 
 **Divya Sasidharan:** What's Joint Service?
 
@@ -224,7 +224,7 @@ Also, frameworks... Ember has a really cute little -- I don't even know what tha
 
 **Jerod Santo:** I don't know what it is.
 
-**Kevin Ball:** It sounds like instead of rebranding the name of Javascript, we should just come up with a better logo.
+**Kevin Ball:** It sounds like instead of rebranding the name of JavaScript, we should just come up with a better logo.
 
 **Nick Nisi:** What would you come up with as a logo?
 
@@ -250,7 +250,7 @@ Also, frameworks... Ember has a really cute little -- I don't even know what tha
 
 **Divya Sasidharan:** Wait, but the spider would be great, because it's like the web...
 
-**Kevin Ball:** Uuh, Javascript is the spider crawling all over and making the web...
+**Kevin Ball:** Uuh, JavaScript is the spider crawling all over and making the web...
 
 **Divya Sasidharan:** Yes! I love that.
 
@@ -258,9 +258,9 @@ Also, frameworks... Ember has a really cute little -- I don't even know what tha
 
 **Jerod Santo:** What about server-side JS though, or IoT?
 
-**Christopher Hiller:** Yeah, but the server and the web stuff - it's a false dichotomy. There's stuff that runs on the web, there's stuff that runs on Node, there's stuff that runs in both, there's stuff that runs on microcontrollers, and all sorts of things. It's a fool's errand to try to make these boxes for where your Javascript belongs.
+**Christopher Hiller:** Yeah, but the server and the web stuff - it's a false dichotomy. There's stuff that runs on the web, there's stuff that runs on Node, there's stuff that runs in both, there's stuff that runs on microcontrollers, and all sorts of things. It's a fool's errand to try to make these boxes for where your JavaScript belongs.
 
-**Divya Sasidharan:** Yeah, but at the same time you would argue that Javascript was built for the web. Us using it for server and IoT is just trying to fit it to these platforms, even though it was built specifically to run on the web. Essentially, Javascript was built as the glue for HTML. I think that's how it was phrased. They needed a way to interact with the DOM.
+**Divya Sasidharan:** Yeah, but at the same time you would argue that JavaScript was built for the web. Us using it for server and IoT is just trying to fit it to these platforms, even though it was built specifically to run on the web. Essentially, JavaScript was built as the glue for HTML. I think that's how it was phrased. They needed a way to interact with the DOM.
 
 **Kevin Ball:** And Assembly was created for mainframes. The world has moved on.
 
@@ -268,13 +268,13 @@ Also, frameworks... Ember has a really cute little -- I don't even know what tha
 
 **Jerod Santo:** And hence we need a new name, to encapsulate them all. \[laughter\]
 
-**Divya Sasidharan:** We need to split. It needs to be like "This is web Javascript, and then this is server..." Because there are often cases where someone is like "This is Javascript", but then they're showing Node code, which I'm like "The Node standards are different from the ECMA standards", for example.
+**Divya Sasidharan:** We need to split. It needs to be like "This is web JavaScript, and then this is server..." Because there are often cases where someone is like "This is JavaScript", but then they're showing Node code, which I'm like "The Node standards are different from the ECMA standards", for example.
 
 **Nick Nisi:** Yeah, and that is exactly what the article comes to - ServerJS and WebJS. So you'd have WebJS 2020 referring to ES 2020.
 
 **Jerod Santo:** Good point, Nick. Yep, let's do it.
 
-**Divya Sasidharan:** \[00:23:58.17\] Also, I wanted to say something to your confusion point about renaming being really hard... So Javascript renames all the time, because they're like "ES2015", and then "ES2016", or like ES5, and then ES6... And then they were like "Now we name by years", which is very confusing, because I'm pretty sure people still say ES6, even though it's ES2015. There's this fissure that happens, so I'm like "Javascript already renames itself every so often... So what is the difference if we were to just rebrand it completely?" People are already expecting it. \[laughter\]
+**Divya Sasidharan:** \[00:23:58.17\] Also, I wanted to say something to your confusion point about renaming being really hard... So JavaScript renames all the time, because they're like "ES2015", and then "ES2016", or like ES5, and then ES6... And then they were like "Now we name by years", which is very confusing, because I'm pretty sure people still say ES6, even though it's ES2015. There's this fissure that happens, so I'm like "JavaScript already renames itself every so often... So what is the difference if we were to just rebrand it completely?" People are already expecting it. \[laughter\]
 
 And to your point about technical articles going out of date - technical articles by nature expire within a couple of months. They're not valid, because the standards move forward, and it's just the nature of it. \[laughter\]
 
@@ -286,7 +286,7 @@ And to your point about technical articles going out of date - technical article
 
 **Divya Sasidharan:** If you write a technical book, that book is probably not gonna be up to date the moment it's published. 100%. I have not written a book; I know a lot of people who have, and they put a lot of work into writing it. Not to discount that work, but the complaint generally is that from the time of writing it to go through the publication process, by the time it's published and out into the world, lots of things have changed and they need to make updates, which is why Manning created the early release version; as you're writing the book, you can release it, so people get to see the content as you're writing it, so it's always up to standard, and then you can always make updates as it goes. But that's generally the nature of writing technical content - you're never always gonna be on point, unless you write in a specific programming language that doesn't change, for example.
 
-If you're writing in Python, Python standards don't change. Yeah, Python is moving from 2 to 3, but arguably, Python 3 will not drastically change. So if you were to write a book on Python 3, the likelihood of that being out of date in a couple of months is very low. But in Javascript, very high.
+If you're writing in Python, Python standards don't change. Yeah, Python is moving from 2 to 3, but arguably, Python 3 will not drastically change. So if you were to write a book on Python 3, the likelihood of that being out of date in a couple of months is very low. But in JavaScript, very high.
 
 **Nick Nisi:** I think you've just made the argument for the resurgence of Perl. I don't think that's changed since I was born, and it had the perfect naming because it's a cute name, it's misspelled, so it's not to be confused with pearls... And yeah, I'm pro Perl Party.
 
@@ -308,19 +308,19 @@ If you're writing in Python, Python standards don't change. Yeah, Python is movi
 
 **Divya Sasidharan:** \[laughs\]
 
-**Kevin Ball:** I don't keep track, it's all Javascript.
+**Kevin Ball:** I don't keep track, it's all JavaScript.
 
 **Divya Sasidharan:** It's ECMAScript, actually...
 
 **Jerod Santo:** It's all confusion.
 
-**Nick Nisi:** I just mean with all of the new symbols, and everything... There's a lot of Perl in there. Especially when you went from ES5 to ES2015; there was a bit of a ramp-up time to be able to read the Javascript that you were accustomed to writing.
+**Nick Nisi:** I just mean with all of the new symbols, and everything... There's a lot of Perl in there. Especially when you went from ES5 to ES2015; there was a bit of a ramp-up time to be able to read the JavaScript that you were accustomed to writing.
 
 **Break:** \[00:27:25.27\]
 
-**Christopher Hiller:** This is a question for Divya and Jerod... When someone says Javascript, are you confused about what they're talking about?
+**Christopher Hiller:** This is a question for Divya and Jerod... When someone says JavaScript, are you confused about what they're talking about?
 
-**Divya Sasidharan:** I often sometimes think whenever someone says they wrote Javascript - and I'm just gonna bring up the TypeScript point again... People often are like "I wrote Javascript", and then you look at their code and you're like "Why is there types in this?" and you're like "Oh, it's TypeScript." Sure, you can see from the extension, but I think often those two are conflated. You're like "Javascript, TypeScript... Whatever." Or it's like "Javascript with types, etc." And so sometimes it's not clear. And based on my knowledge of the person -- so if Nick were like "Hey, do you wanna look at some Javascript code I wrote?" I'm like "There's a high chance it's gonna be TypeScript... Very high chance." \[laughs\]
+**Divya Sasidharan:** I often sometimes think whenever someone says they wrote JavaScript - and I'm just gonna bring up the TypeScript point again... People often are like "I wrote JavaScript", and then you look at their code and you're like "Why is there types in this?" and you're like "Oh, it's TypeScript." Sure, you can see from the extension, but I think often those two are conflated. You're like "JavaScript, TypeScript... Whatever." Or it's like "JavaScript with types, etc." And so sometimes it's not clear. And based on my knowledge of the person -- so if Nick were like "Hey, do you wanna look at some JavaScript code I wrote?" I'm like "There's a high chance it's gonna be TypeScript... Very high chance." \[laughs\]
 
 **Nick Nisi:** You don't know me...!
 
@@ -330,7 +330,7 @@ If you're writing in Python, Python standards don't change. Yeah, Python is movi
 
 **Divya Sasidharan:** Yeah.
 
-**Kevin Ball:** This does raise an interesting question... Is Javascript just a language? I mean, we can get very technical and dry, but I'm curious about colloquial usage. Is Javascript just a language, or is it a runtime? Is Javascript essentially a build target now? Is it the equivalent of Assembly? There are many types of Assembly out there, but everybody knows "If I'm writing something, I'm gonna compile it to Assembly."
+**Kevin Ball:** This does raise an interesting question... Is JavaScript just a language? I mean, we can get very technical and dry, but I'm curious about colloquial usage. Is JavaScript just a language, or is it a runtime? Is JavaScript essentially a build target now? Is it the equivalent of Assembly? There are many types of Assembly out there, but everybody knows "If I'm writing something, I'm gonna compile it to Assembly."
 
 **Divya Sasidharan:** Yeah.
 
@@ -340,59 +340,59 @@ If you're writing in Python, Python standards don't change. Yeah, Python is movi
 
 **Jerod Santo:** Oh, perfect response. \[laughter\]
 
-**Kevin Ball:** If Javascript can also mean TypeScript, and it can mean...
+**Kevin Ball:** If JavaScript can also mean TypeScript, and it can mean...
 
 **Nick Nisi:** JSX.
 
-**Kevin Ball:** ...JSX, and it can mean anything compilable by Babel into Javascript. And maybe it can mean Elm, maybe it can mean ClojureScript. When you say Javascript, is it anything that can compile down to the language interpreted by the browser, which is currently Javascript?
+**Kevin Ball:** ...JSX, and it can mean anything compilable by Babel into JavaScript. And maybe it can mean Elm, maybe it can mean ClojureScript. When you say JavaScript, is it anything that can compile down to the language interpreted by the browser, which is currently JavaScript?
 
 **Christopher Hiller:** Is there anything else that we talk about that way?
 
 **Kevin Ball:** Assembly was the one that I was thinking.
 
-**Divya Sasidharan:** So are you thinking if you were to write something in C and then compile it to Assembly or WASM, is that Javascript? Is that the question?
+**Divya Sasidharan:** So are you thinking if you were to write something in C and then compile it to Assembly or WASM, is that JavaScript? Is that the question?
 
 **Kevin Ball:** That wasn't quite where I was going, but that's a natural extension. I kind of like it.
 
 **Christopher Hiller:** I'm confused.
 
-**Kevin Ball:** Is everything Javascript? Has this world just become--
+**Kevin Ball:** Is everything JavaScript? Has this world just become--
 
-**Jerod Santo:** Javascript is eating the world. Is that what you're saying?
+**Jerod Santo:** JavaScript is eating the world. Is that what you're saying?
 
-**Kevin Ball:** Yeah, Javascript is eating the world, if it runs with Javascript.
+**Kevin Ball:** Yeah, JavaScript is eating the world, if it runs with JavaScript.
 
 **Christopher Hiller:** If I write C and it compiles down to Assembly, I didn't say I wrote Assembly.
 
-**Kevin Ball:** That's true. So why do we do that for Javascript and TypeScript?
+**Kevin Ball:** That's true. So why do we do that for JavaScript and TypeScript?
 
 **Christopher Hiller:** Do we?
 
 **Kevin Ball:** Apparently... According to Divya.
 
-**Nick Nisi:** But TypeScript is a superset of Javascript. So there's a distinction there, versus something like ClojureScript, or CoffeeScript, where it's not really the same syntax. With TypeScript it is the same syntax, it's just with some additional stuff.
+**Nick Nisi:** But TypeScript is a superset of JavaScript. So there's a distinction there, versus something like ClojureScript, or CoffeeScript, where it's not really the same syntax. With TypeScript it is the same syntax, it's just with some additional stuff.
 
 **Divya Sasidharan:** And very hard to read, also... \[laughs\] \[unintelligible 00:31:23.07\]
 
 **Nick Nisi:** I'm not going there, I'm not going there... \[laughs\]
 
-**Divya Sasidharan:** But I agree. I think definitely certain things like ClojureScript and -- it's very different. Similar to Elm. Elm is considered in the Javascript ecosystem. I don't think Elm has been talked about as outside of it. So when we talk about frameworks, Elm kind of gets thrown in sometimes, but when you're writing Elm, it's not like writing Javascript. It compiles down to Javascript. Even though they're part of the Javascript -- it doesn't make sense.
+**Divya Sasidharan:** But I agree. I think definitely certain things like ClojureScript and -- it's very different. Similar to Elm. Elm is considered in the JavaScript ecosystem. I don't think Elm has been talked about as outside of it. So when we talk about frameworks, Elm kind of gets thrown in sometimes, but when you're writing Elm, it's not like writing JavaScript. It compiles down to JavaScript. Even though they're part of the JavaScript -- it doesn't make sense.
 
-\[00:32:00.03\] I think it's crazy... Because I'm like "Whenever you write Elm, it doesn't look like Javascript", and you're using the compiler to compile to Javascript. So that is a really confusing thing, because when you talk about frameworks in the front-end scope of things - which, front-end generally includes all Javascript-related things - that's a huge confusion, because you're like "Oh, you know Javascript? You'll be able to pick up Elm", which is totally not true. I know someone from the Elm community is probably gonna have my neck on Twitter after this gets released, but...
+\[00:32:00.03\] I think it's crazy... Because I'm like "Whenever you write Elm, it doesn't look like JavaScript", and you're using the compiler to compile to JavaScript. So that is a really confusing thing, because when you talk about frameworks in the front-end scope of things - which, front-end generally includes all JavaScript-related things - that's a huge confusion, because you're like "Oh, you know JavaScript? You'll be able to pick up Elm", which is totally not true. I know someone from the Elm community is probably gonna have my neck on Twitter after this gets released, but...
 
-**Jerod Santo:** I don't think the Elm folks claim that Elm is Javascript. I think they claim that it's a front-end framework, and I think that's a fair claim...
+**Jerod Santo:** I don't think the Elm folks claim that Elm is JavaScript. I think they claim that it's a front-end framework, and I think that's a fair claim...
 
-**Divya Sasidharan:** Yes. But I think the claim also is that if you know Javascript, you can pick up Elm, which - I'm not sure if that is a fair statement.
+**Divya Sasidharan:** Yes. But I think the claim also is that if you know JavaScript, you can pick up Elm, which - I'm not sure if that is a fair statement.
 
 **Kevin Ball:** Maybe we should take inspiration from another language - Java - and talk about the virtual machine we're compiling to, right? Java has the JVM. Maybe we just need to start calling things "The JS VM."
 
-**Divya Sasidharan:** We have a V8, right? The engine... But also, some standards are pulling from Java; there's the concept of interfaces, which I saw in this TC39 standards, where I'm just like "What?! This is a Java thing", but we're pulling it into Javascript. And there's certain things and elements that are being pulled into the Javascript language that is inspired by Java... So there's a lot of those correlations that happen, and hence the confusion overall.
+**Divya Sasidharan:** We have a V8, right? The engine... But also, some standards are pulling from Java; there's the concept of interfaces, which I saw in this TC39 standards, where I'm just like "What?! This is a Java thing", but we're pulling it into JavaScript. And there's certain things and elements that are being pulled into the JavaScript language that is inspired by Java... So there's a lot of those correlations that happen, and hence the confusion overall.
 
-**Jerod Santo:** Rebecca in the chat points out that when you talk about architecture, there's usually follow-up questions. If you say "I'm an architect", people will ask "What kind of architecture do you do?" So what about when people say "I do Javascript?" maybe it's just a matter of follow-up, maybe it's a matter of education. We need to have a larger conversation, because it encompasses so many different things now that it is really hard to just come up with one term, one word, one phrase that will encapsulate all that Javascript does or is, because it does and is so many things to so many people. So maybe it is just an education problem, and maybe our efforts would be better spent not renaming it, but improving education.
+**Jerod Santo:** Rebecca in the chat points out that when you talk about architecture, there's usually follow-up questions. If you say "I'm an architect", people will ask "What kind of architecture do you do?" So what about when people say "I do JavaScript?" maybe it's just a matter of follow-up, maybe it's a matter of education. We need to have a larger conversation, because it encompasses so many different things now that it is really hard to just come up with one term, one word, one phrase that will encapsulate all that JavaScript does or is, because it does and is so many things to so many people. So maybe it is just an education problem, and maybe our efforts would be better spent not renaming it, but improving education.
 
 That being said, going back to my conversation on Monday - it's strange, it's unfortunate, with so many people coming into this industry, that we're 25 years removed from this mistake and we're still paying for the sins of our fathers, and we're still having to explain away the confusion all these years later.
 
-**Divya Sasidharan:** Also, how do you think -- so this is my opinion on things as well, just the correlation between Javascript, the community, and how all of us relate to Javascript, and then there's the standards committee, which is TC39... And I often find there's a huge gap between the community -- and I know TC39 hates when people bring this up, and they're trying to be better about it, but there's still this huge...
+**Divya Sasidharan:** Also, how do you think -- so this is my opinion on things as well, just the correlation between JavaScript, the community, and how all of us relate to JavaScript, and then there's the standards committee, which is TC39... And I often find there's a huge gap between the community -- and I know TC39 hates when people bring this up, and they're trying to be better about it, but there's still this huge...
 
 **Jerod Santo:** You're trying to piss off everybody today, aren't you, Divya? \[laughter\]
 
@@ -406,13 +406,13 @@ That being said, going back to my conversation on Monday - it's strange, it's un
 
 **Jerod Santo:** Right...
 
-**Divya Sasidharan:** Well, because also if you're in a committee, there's a lot of processes -- so the ECMA, TC39 committee has specific ways in which they conduct their meetings, and there's language and processes, because it's just a general standards board... So the language that they speak is very different from the average Javascript developer. So there's a huge disconnect, because when TC39 has meetings and they talk about things, they're so deep down in the weeds in terms of how exactly the Javascript language works, and the repercussions of specific standards going through to various stage... As opposed to the average Javascript developer, who's like "Why don't we have this one thing? We should have this."
+**Divya Sasidharan:** Well, because also if you're in a committee, there's a lot of processes -- so the ECMA, TC39 committee has specific ways in which they conduct their meetings, and there's language and processes, because it's just a general standards board... So the language that they speak is very different from the average JavaScript developer. So there's a huge disconnect, because when TC39 has meetings and they talk about things, they're so deep down in the weeds in terms of how exactly the JavaScript language works, and the repercussions of specific standards going through to various stage... As opposed to the average JavaScript developer, who's like "Why don't we have this one thing? We should have this."
 
-\[00:36:09.04\] So the experiences are very different, and it's really hard to bring those two things together, because also TC39 tends to be -- because it's very much a wider problem, of like the problem of the web and how do we make Javascript better, so that it encompasses all of the problems you could potentially have when you work with Javascript... But it often only includes members of specific companies; it's very large-scale tech companies, like Paypal, and Google, and Microsoft, and all of them have representatives that go there. So the question then becomes "Are they representative of the average developer?" and oftentimes that answer is no... Because they're thinking about things on a different scale. So because of that, there's also this issue of how they talk to developers. Because if you're at a level that's completely different from someone else, it takes a lot for you to bring it down -- or not to bring it down, but to meet someone at their frequency.
+\[00:36:09.04\] So the experiences are very different, and it's really hard to bring those two things together, because also TC39 tends to be -- because it's very much a wider problem, of like the problem of the web and how do we make JavaScript better, so that it encompasses all of the problems you could potentially have when you work with JavaScript... But it often only includes members of specific companies; it's very large-scale tech companies, like Paypal, and Google, and Microsoft, and all of them have representatives that go there. So the question then becomes "Are they representative of the average developer?" and oftentimes that answer is no... Because they're thinking about things on a different scale. So because of that, there's also this issue of how they talk to developers. Because if you're at a level that's completely different from someone else, it takes a lot for you to bring it down -- or not to bring it down, but to meet someone at their frequency.
 
-I think the issue that we're having now in the community - this disconnect - is because that gap hasn't been closed. TC39 is trying to educate, but they're educating at a level that the average Javascript developer is like "This is not a problem I care about", or "It's not something I feel is tangible." That's a huge problem, because I'm like "They're supposed to represent us, but we don't feel represented", so that causes a lot of disconnect.
+I think the issue that we're having now in the community - this disconnect - is because that gap hasn't been closed. TC39 is trying to educate, but they're educating at a level that the average JavaScript developer is like "This is not a problem I care about", or "It's not something I feel is tangible." That's a huge problem, because I'm like "They're supposed to represent us, but we don't feel represented", so that causes a lot of disconnect.
 
-**Christopher Hiller:** Therefore we should rename Javascript, to solve this problem... \[laughter\]
+**Christopher Hiller:** Therefore we should rename JavaScript, to solve this problem... \[laughter\]
 
 **Jerod Santo:** I think Chris is just scared we might call it Mocha, and then you'd have to have Mocha-Mocha.
 
@@ -422,7 +422,7 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Christopher Hiller:** Yeah. I think there's actually a trademark now, so you can't use it. Sorry...
 
-**Divya Sasidharan:** Of Mocha or of Javascript?
+**Divya Sasidharan:** Of Mocha or of JavaScript?
 
 **Christopher Hiller:** Mocha.
 
@@ -440,7 +440,7 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Jerod Santo:** That would be fun. \[laughs\] The Open Mocha Foundation.
 
-**Kevin Ball:** Oh yeah, I talked about renaming in documentation, renaming in packages, renaming in applications, but can you imagine all of these companies that have legal documents that reference Javascript throughout their things? Once again, if you want to increase confusion and chaos, try renaming one of the most popular things and widely-used things in the world.
+**Kevin Ball:** Oh yeah, I talked about renaming in documentation, renaming in packages, renaming in applications, but can you imagine all of these companies that have legal documents that reference JavaScript throughout their things? Once again, if you want to increase confusion and chaos, try renaming one of the most popular things and widely-used things in the world.
 
 **Divya Sasidharan:** You have to get with the times.
 
@@ -458,19 +458,19 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Jerod Santo:** People are actually extending it beyond what it even goes to. Like Kleenex. That's a strong brand.
 
-**Divya Sasidharan:** Because it's so clear, it's so obvious that Coke is a soda... So when you use it, people assume. Javascript has not yet been used as a verb or a noun for various things, so clearly there's a rebranding problem.
+**Divya Sasidharan:** Because it's so clear, it's so obvious that Coke is a soda... So when you use it, people assume. JavaScript has not yet been used as a verb or a noun for various things, so clearly there's a rebranding problem.
 
 **Kevin Ball:** Except TypeScript...
 
-**Divya Sasidharan:** Like, "I'm javascripting right now. I'm on the Javascript --" I don't know...
+**Divya Sasidharan:** Like, "I'm javascripting right now. I'm on the JavaScript --" I don't know...
 
 **Jerod Santo:** "I'm javascripting right now..." \[laughter\]
 
-**Kevin Ball:** We were just talking about one of the extensions of Javascript to TypeScript. I think the brand is extremely strong. People are trying to ride the Javascript brand; increasingly, Javascript is trying to ride the Javascript brand, because we're the popular ones.
+**Kevin Ball:** We were just talking about one of the extensions of JavaScript to TypeScript. I think the brand is extremely strong. People are trying to ride the JavaScript brand; increasingly, JavaScript is trying to ride the JavaScript brand, because we're the popular ones.
 
 **Divya Sasidharan:** The cool kids.
 
-**Jerod Santo:** Well, in an effort not to rename everything, let's try to keep our podcast named JS Party, and maybe we can rename Javascript to PartyScript...
+**Jerod Santo:** Well, in an effort not to rename everything, let's try to keep our podcast named JS Party, and maybe we can rename JavaScript to PartyScript...
 
 **Divya Sasidharan:** Whaat...?
 
@@ -492,7 +492,7 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Kevin Ball:** I know, but I'm just saying, everything that has a J in it is gonna need to swap then to an R... And there's gonna be some interesting acronym-breaking.
 
-**Divya Sasidharan:** Also, I find that the J in multiple languages is pronounced very differently, and so you end up with -- if you're in a Spanish-speaking country, someone might Javascript \[Havascript\]. Even though that's not always the case... I think sometimes people just say the English version. But the J is a very confusing letter.
+**Divya Sasidharan:** Also, I find that the J in multiple languages is pronounced very differently, and so you end up with -- if you're in a Spanish-speaking country, someone might JavaScript \[Havascript\]. Even though that's not always the case... I think sometimes people just say the English version. But the J is a very confusing letter.
 
 **Kevin Ball:** When we look at the majority of the population, it doesn't use the same letter system anyway. I don't think that should be a concern. If the majority of people are using iconography because they're actually speaking in Mandarin, or they're using -- I don't know what the script is called, but for Hindu, or other things... Like, really? Should we be worried about the nuances of how a particular letter in our lettering system works? Probably not.
 
@@ -506,17 +506,17 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Kevin Ball:** Maybe we should just boil everything down to a logo, or an icon, and then you can't even say it.
 
-**Jerod Santo:** Prince tried that, and it did not work. The language formally known as Javascript.
+**Jerod Santo:** Prince tried that, and it did not work. The language formally known as JavaScript.
 
 **Divya Sasidharan:** Oh, yes! Yeah, Prince did try that, and no one understood. I mean, yeah...
 
-**Kevin Ball:** Uuh, can we draw lessons from the Prince renaming for Javascript? Everyone would just start talking about the language formerly known as Javascript.
+**Kevin Ball:** Uuh, can we draw lessons from the Prince renaming for JavaScript? Everyone would just start talking about the language formerly known as JavaScript.
 
 **Nick Nisi:** Well, that is a perfect way to end this podcast formally known as JS Party... \[laughter\]
 
 **Jerod Santo:** Is this gonna be our last episode?
 
-**Nick Nisi:** If we rename it, it will be the last episode of this. As a way to send us off then, let's have the Yip Yips, Divya and Jerod, because you are pro renaming - why don't you tell us what you would rename it to? And it doesn't have to be anything crazy or silly. It could just be JS, or whatever... And then the Nope-Nopes - let's have you tell us what mascot you would adopt to keep Javascript.
+**Nick Nisi:** If we rename it, it will be the last episode of this. As a way to send us off then, let's have the Yip Yips, Divya and Jerod, because you are pro renaming - why don't you tell us what you would rename it to? And it doesn't have to be anything crazy or silly. It could just be JS, or whatever... And then the Nope-Nopes - let's have you tell us what mascot you would adopt to keep JavaScript.
 
 **Jerod Santo:** Well, I think that the article that we referenced by \[unintelligible 00:42:28.01\] has the correct answer, which is "It's just JS, folks. It's just JS." Keep it simple, keep the extension... Boom.
 
@@ -536,13 +536,13 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Jerod Santo:** Final answer.
 
-**Nick Nisi:** Kball and Chris, what would you have as the Javascript mascot?
+**Nick Nisi:** Kball and Chris, what would you have as the JavaScript mascot?
 
 **Christopher Hiller:** I'd like a goat. \[laughter\]
 
 **Jerod Santo:** The Greatest of All Time.
 
-**Kevin Ball:** That's pretty good. I have a couple of ideas. One is if there's one thing we learned from this episode, it's that Javascript is the Coca-Cola of programming languages, so we could go with some sort of knock-off of a soft drink...
+**Kevin Ball:** That's pretty good. I have a couple of ideas. One is if there's one thing we learned from this episode, it's that JavaScript is the Coca-Cola of programming languages, so we could go with some sort of knock-off of a soft drink...
 
 **Christopher Hiller:** Gulp?
 
@@ -552,7 +552,7 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Kevin Ball:** Plus we know software developers love soft drinks...
 
-**Jerod Santo:** You can't argue that Javascript is unhealthy for us.
+**Jerod Santo:** You can't argue that JavaScript is unhealthy for us.
 
 **Divya Sasidharan:** No, you can, because you have too much of it, and then your site is bloated, so... Clearly...
 
@@ -568,7 +568,7 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Jerod Santo:** Yes, let's associate our brand with one of the most despised creatures on all of Earth... \[laughter\]
 
-**Kevin Ball:** We've already noted how the Javascript brand is so strong it's like helping other brands come along now...
+**Kevin Ball:** We've already noted how the JavaScript brand is so strong it's like helping other brands come along now...
 
 **Jerod Santo:** So now you wanna rebrand spiders...
 
@@ -576,7 +576,7 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Kevin Ball:** Recuperate spiders, yeah.
 
-**Divya Sasidharan:** I mean, you could argue that a lot of people are angry at Javascript. If you talk to other languages, a lot of people are like "Oh, you Javascript people... Blah-blah-blah. Such a fracture community..." So yeah, I feel like the spider would basically take that into account. \[laughs\]
+**Divya Sasidharan:** I mean, you could argue that a lot of people are angry at JavaScript. If you talk to other languages, a lot of people are like "Oh, you JavaScript people... Blah-blah-blah. Such a fracture community..." So yeah, I feel like the spider would basically take that into account. \[laughs\]
 
 **Jerod Santo:** Strong argument.
 
@@ -606,7 +606,7 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Nick Nisi:** That "What?!" Oh, my God...
 
-**Jerod Santo:** I was gonna say, I wish we had the video for folks, because Chris just leaning back, vaping, and he's like "Are either of you confused when I say Javascript?" I'm like, "Oh, my gosh... He's just owning us over there."
+**Jerod Santo:** I was gonna say, I wish we had the video for folks, because Chris just leaning back, vaping, and he's like "Are either of you confused when I say JavaScript?" I'm like, "Oh, my gosh... He's just owning us over there."
 
 **Divya Sasidharan:** I just want to save that soundbite, of Chris saying "What?!" And then in future episodes just intersperse it in the podcast. \[laughs\]
 

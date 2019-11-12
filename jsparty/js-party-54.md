@@ -1,4 +1,4 @@
-**Kevin Ball:** Hello, party people! Welcome to JS Party, where we are throwing a party about Javascript every week. I'm Kball, I'm your host for this episode, and I am joined by two about-to-have-new-baby expectant fathers... Jerod, how are you doing?
+**Kevin Ball:** Hello, party people! Welcome to JS Party, where we are throwing a party about JavaScript every week. I'm Kball, I'm your host for this episode, and I am joined by two about-to-have-new-baby expectant fathers... Jerod, how are you doing?
 
 **Jerod Santo:** Yay, hello! Doing well, how are you?
 
@@ -22,7 +22,7 @@
 
 **Jerod Santo:** Okay... Well, you just need to move to Nebraska and we can actually put that team on the field there, Kball.
 
-**Kevin Ball:** There we go... Alright, so talking Javascript... \[laughter\]
+**Kevin Ball:** There we go... Alright, so talking JavaScript... \[laughter\]
 
 **Jerod Santo:** Change the subject...
 
@@ -54,7 +54,7 @@
 
 **Jerod Santo:** Sounds right.
 
-**Kevin Ball:** If that can transition us over to actual Javascript, for JS Party... We actually had a really busy week this last week. A lot of stuff going on in the Javascript world in the last week or two. The first thing that we're gonna talk about is the event-stream hack. Now, if you haven't heard about it, you should look it up. Nick or Jerod, do you wanna break down what happened there?
+**Kevin Ball:** If that can transition us over to actual JavaScript, for JS Party... We actually had a really busy week this last week. A lot of stuff going on in the JavaScript world in the last week or two. The first thing that we're gonna talk about is the event-stream hack. Now, if you haven't heard about it, you should look it up. Nick or Jerod, do you wanna break down what happened there?
 
 **Nick Nisi:** \[00:03:49.11\] There is a very popular package that hasn't been maintained in a couple of years, called event-stream. It gets about almost two million downloads a day, but it hasn't been updated in a while, because the original maintainer doesn't use it anymore, and really isn't under any obligation to continue working on it if he doesn't want to... So he handed over control of it to someone who asked \[unintelligible 00:04:16.22\] asked if they could take over the project and work on it... And they did, and they made a few innocuous commits that improved things, didn't really do much, and then they added another library called -- and I'm losing it... Was it file-stream?
 
@@ -68,7 +68,7 @@ For the majority of people this didn't really do anything, but if it was install
 
 **Kevin Ball:** High-level, a code injection via malicious package. There was some pretty interesting stuff about how they obfuscated it; the malicious code was never visible in GitHub, but was pushed up in the published Npm package. They've eventually tracked it down... I was reading something from Npm indicating the actual target was the Copay release process. So it wasn't that if you were running this in one of your projects and doing things it was necessarily doing things, but when the Copay project did a build script, they were trying to get this injected in there, so then it would harvest account details, or whatever. And Copay has confirmed that this malicious code was deployed on a set of versions from 5.0.2 to 5.1.0.
 
-So as far as we know, it doesn't impact anyone who's not using a build version of Copay, or building it themselves doing that. If you're using something else and you happen to have Copay installed, but it's a version outside of that, you're probably fine... But yeah, kind of an interesting challenge, and something to think about in terms of both the Javascript world, but also just package management in general and how we deal with this stuff.
+So as far as we know, it doesn't impact anyone who's not using a build version of Copay, or building it themselves doing that. If you're using something else and you happen to have Copay installed, but it's a version outside of that, you're probably fine... But yeah, kind of an interesting challenge, and something to think about in terms of both the JavaScript world, but also just package management in general and how we deal with this stuff.
 
 **Jerod Santo:** To me, the most interesting aspect of this is the fact that it was a social engineering vector that was used successfully in order to accomplish -- well, we don't know if the actual specific target was compromised, but we know that the malware was deployed successfully to everybody who would be downloading that version of event-stream from Npm... And we haven't really seen this before, at least not ever caught in the wild, where the method of getting your malicious code is basically asking for permission from a maintainer who is no longer maintaining, and finding a popular library that's still used by millions, but is -- I wouldn't say it's in disrepair, but it's just in maintenance mode, or even non-maintenance mode, and just offering to take it over... And that was 100% effective in this case.
 
@@ -88,17 +88,17 @@ He has like 600 source repos on GitHub, he has at this point about 400 Npm modul
 
 **Nick Nisi:** Yeah, and according to their blog, they have ownership of it now... At least for now.
 
-**Kevin Ball:** This is interesting on a number of dimensions. Some folks brought up - this is more of an open source software and package management problem than a Javascript problem, but I feel like it is exacerbated in the Javascript community because we have this tendency to use so many packages, and so many small packages.
+**Kevin Ball:** This is interesting on a number of dimensions. Some folks brought up - this is more of an open source software and package management problem than a JavaScript problem, but I feel like it is exacerbated in the JavaScript community because we have this tendency to use so many packages, and so many small packages.
 
 **Jerod Santo:** Right.
 
 **Kevin Ball:** I remember in the Ruby world there was a movement towards like "Kill your dependencies. Reduce the number of additional dependencies you have, and if you're publishing a package, try your best to not import lots of other ones", because of this problem - the more dependencies you have, the more steps there are where things can be broken, things can get injected that you don't expect, all these other pieces.
 
-In the Javascript world, I install a new Vue app from the Vue CLI, and it plugs in a thousand different packages. That's a very large surface area...
+In the JavaScript world, I install a new Vue app from the Vue CLI, and it plugs in a thousand different packages. That's a very large surface area...
 
 **Jerod Santo:** Which makes it more difficult for you to monitor, vet, keep upgraded etc, as the end user of those packages. So I do think it's exacerbated... I mean, the more dependencies you have, and the more transitive dependencies you have, the harder it is for you to stay on top of these things. And as the end user of the software, as the developer who pulls these dependencies in, you basically own all of that code. You are responsible for -- the buck stops with you, with regards to the ramifications of problems. No one's gonna say "Oh, Jerod, don't worry about that hack that happened to us, because you didn't write that line of code. Somebody else did." In business scenarios, the buck stops where the person who made that decision to pull it in decided.
 
-Javascript is not the only community that pulls in lots of dependencies, but I do think just the sheer number of packages, and the small functionality in each one, which is kind of the UNIX philosophy, so I get it... But it definitely makes it a huge surface area to attack.
+JavaScript is not the only community that pulls in lots of dependencies, but I do think just the sheer number of packages, and the small functionality in each one, which is kind of the UNIX philosophy, so I get it... But it definitely makes it a huge surface area to attack.
 
 **Nick Nisi:** Do you think that library authors should maybe be more cognizant of that? I had never heard of event-stream, and I had never heard of left-pad from back in the past, but because every big library tended to be using left-pad in that case, or event-stream (two million downloads), it now does fall on me. So do you think that they should be more wary about adding in dependencies, and maybe just implementing their own solutions to things?
 
@@ -130,11 +130,11 @@ It makes me think of it, in the real world we have restaurants, and a restaurant
 
 **Break:** \[00:21:21.07\]
 
-**Kevin Ball:** Alright, coming back to things - we could talk about event-stream and implications for open source forever, but that's gonna be something that's talked about on the Changelog, on all sorts of different things. This is gonna be an ongoing conversation for a while, so let's move on to something else that happened in the Javascript world just now, which was the State of Javascript Survey for 2018 was released. It was released, it had some interesting and controversial data, and then there started to be a little bit of backlash against it, and a number of different parts of the community talking about how perhaps the practices used and the transparency of how they were used was not so good.
+**Kevin Ball:** Alright, coming back to things - we could talk about event-stream and implications for open source forever, but that's gonna be something that's talked about on the Changelog, on all sorts of different things. This is gonna be an ongoing conversation for a while, so let's move on to something else that happened in the JavaScript world just now, which was the State of JavaScript Survey for 2018 was released. It was released, it had some interesting and controversial data, and then there started to be a little bit of backlash against it, and a number of different parts of the community talking about how perhaps the practices used and the transparency of how they were used was not so good.
 
 I think we should talk both about what is the survey, what did it say, and then maybe talk a little bit about some of that backlash, and kind of assess what is the quality of this survey and should we be believing these various surveys that are published? Anybody wanna start with what is the survey?
 
-**Nick Nisi:** So it was a survey that -- I don't know how I found out about it; probably from Twitter... I think this is their third or fourth year doing it, and they got over 20,000 responses. They just asked questions about things like demographics, pay, connections, the types of Javascript that you use, frameworks, and what you're interested in, testing... Things like that. Then they laid all of that out. But they asked the questions in a way of like naming something, and then you can respond with "I've heard of it, but I'm not interested in it", "I've heard of it, but I would like to learn it", "I've used it and I would use again" or "I've used it and I would not use again." It gave some pretty interesting results, and especially when being able to compare to the previous years.
+**Nick Nisi:** So it was a survey that -- I don't know how I found out about it; probably from Twitter... I think this is their third or fourth year doing it, and they got over 20,000 responses. They just asked questions about things like demographics, pay, connections, the types of JavaScript that you use, frameworks, and what you're interested in, testing... Things like that. Then they laid all of that out. But they asked the questions in a way of like naming something, and then you can respond with "I've heard of it, but I'm not interested in it", "I've heard of it, but I would like to learn it", "I've used it and I would use again" or "I've used it and I would not use again." It gave some pretty interesting results, and especially when being able to compare to the previous years.
 
 **Kevin Ball:** Do you wanna highlight some of those interesting notes?
 
@@ -144,7 +144,7 @@ I think we should talk both about what is the survey, what did it say, and then 
 
 **Nick Nisi:** I think the negative responses were over 60%, if you combine those two.
 
-**Kevin Ball:** Yeah, so between "Heard of it, not interested" and "Used it, would not use again" it's over 60%. That obviously resulted in some folks kind of starting to pick at this and ask questions... And I think particularly because those numbers are pretty different from numbers that showed up in another 2018 survey, which was the Stack Overflow survey. Stack Overflow also did a survey about frameworks, libraries and tools. Obviously, it's a different community; they've got some Javascript folks, some not Javascript folks, but they found that Angular was actually used by far more people than React or some of these others, so that's pretty different... So the question starts to become "What is different? How do we figure out--" If you've got such disparate surveys or disparate results coming from two different surveys, what's going on here?
+**Kevin Ball:** Yeah, so between "Heard of it, not interested" and "Used it, would not use again" it's over 60%. That obviously resulted in some folks kind of starting to pick at this and ask questions... And I think particularly because those numbers are pretty different from numbers that showed up in another 2018 survey, which was the Stack Overflow survey. Stack Overflow also did a survey about frameworks, libraries and tools. Obviously, it's a different community; they've got some JavaScript folks, some not JavaScript folks, but they found that Angular was actually used by far more people than React or some of these others, so that's pretty different... So the question starts to become "What is different? How do we figure out--" If you've got such disparate surveys or disparate results coming from two different surveys, what's going on here?
 
 **Jerod Santo:** What is going on here, Kevin?
 
@@ -152,17 +152,17 @@ I think we should talk both about what is the survey, what did it say, and then 
 
 **Jerod Santo:** I thought you were about to do a big reveal.
 
-**Kevin Ball:** No, I don't know... Well, part of why I don't know is in particular the State of Javascript Survey doesn't publish anything about how they collected their data. There's nothing on there. There's nothing about like "We did this." My intuition based on what I saw is they tweeted stuff and got stuff retweeted, and people found it through Twitter... But there's no info on how they collected it, there's no info on necessarily how to do questions, things like that.
+**Kevin Ball:** No, I don't know... Well, part of why I don't know is in particular the State of JavaScript Survey doesn't publish anything about how they collected their data. There's nothing on there. There's nothing about like "We did this." My intuition based on what I saw is they tweeted stuff and got stuff retweeted, and people found it through Twitter... But there's no info on how they collected it, there's no info on necessarily how to do questions, things like that.
 
 When I started looking into this and asking questions, somebody pointed me to a talk by Melanie Sumner at EmberConf. She was talking about surveys and reproduction of data, and she kind of walked through this process of how do you think about a survey... I kind of jotted down notes from that; I do recommend going and seeing it, and there'll be a link in the show notes, because she does a way better job than I'm going to... But I think it's worth walking through the process that she describes out there.
 
 \[00:27:28.22\] She highlights that when you look at a survey like this, there's a big frontline number. "50% of people who do X use Y." In this case, maybe it's "64% of people use React and would use it again" and "60% of people are not interested in using Angular." These are big headline numbers, and they make a lot of splash, but there's something that's being kind of left out there, which is, well, 50% of the people who responded to this survey who do front-end development use React", or 60%, or whatever the numbers are. "That responded to this survey" leads to some additional questions, like "How many people responded to the survey? How representative are they of the broader population?" and to answer those questions, you need to know how the data was collected.
 
-So 20,000 people is pretty good. That seems like a lot of people. How many people do we think do Javascript?
+So 20,000 people is pretty good. That seems like a lot of people. How many people do we think do JavaScript?
 
 **Jerod Santo:** More. Millions?
 
-**Kevin Ball:** Npm has some numbers on this. Npm did their own survey, but yeah, probably millions. So this is a pretty small percentage. That's not necessarily bad, right? You can have representative with small sample sizes; that's what polling is. All this political polling that we've just gotten over - that's all based on the idea that you can create representative samples... But all those polls do a bunch of work to adjust for the demographics of the population. They take a sample, and then they say "Okay, we've got these answers, and we've mapped the people who answered it to these buckets, and we know this about the population of people broadly, so we're going to adjust those numbers based on..." - there's a lot of science that goes into that. So when you've got a survey like this, you kind of wanna know "How did those people that collected -- how did they find them and how did they relate them to the actual population of people who do Javascript?" and there's nothing. They don't say anything about that.
+**Kevin Ball:** Npm has some numbers on this. Npm did their own survey, but yeah, probably millions. So this is a pretty small percentage. That's not necessarily bad, right? You can have representative with small sample sizes; that's what polling is. All this political polling that we've just gotten over - that's all based on the idea that you can create representative samples... But all those polls do a bunch of work to adjust for the demographics of the population. They take a sample, and then they say "Okay, we've got these answers, and we've mapped the people who answered it to these buckets, and we know this about the population of people broadly, so we're going to adjust those numbers based on..." - there's a lot of science that goes into that. So when you've got a survey like this, you kind of wanna know "How did those people that collected -- how did they find them and how did they relate them to the actual population of people who do JavaScript?" and there's nothing. They don't say anything about that.
 
 Stack Overflow at least published "It's people who are members of our site, and we've got all this demographic info, and here's how you split out--", and there is demographics stuff here, but if we look at the demographics, it doesn't feel very likely to be representative.
 
@@ -170,7 +170,7 @@ Stack Overflow at least published "It's people who are members of our site, and 
 
 Bringing the Bitcoin conversation back, it reminds me of a poll I saw on Twitter a few days ago... I think it was -- not Rand Paul... Ron Paul, the libertarian political figure in America - he was asking millennials what kind of currency they care about, and it was like the dollar, Bitcoin, bonds etc, what they would value, and Bitcoin was really highly represented... And it's like, yeah, that makes a lot of sense, because libertarians tend to value Bitcoin more than the general population, so that's not a very scientific poll. Of course, it's just a Twitter poll. So that potentially could be the case here. What we don't know - there's not printed how they went about reaching these people beyond what we can assume that they reached outside of their influence zone or friend zone.
 
-**Kevin Ball:** It is interesting to think about -- like, alright, the three authors who said they are doing this, and they're probably gonna tweet about it, and they say this thing about the team, and here's the people - Sacha, Raphaël, Michael. "Be sure to check out my React GraphQL Javascript library; Raphaël's React Data Visualization library, and this Javascript library directory." It sounds a little bit like the audience of folks who are likely to have found this survey might have been particularly React-focused, which might result in particularly positive reviews for React, and it looks like maybe particularly negative reviews for Angular.
+**Kevin Ball:** It is interesting to think about -- like, alright, the three authors who said they are doing this, and they're probably gonna tweet about it, and they say this thing about the team, and here's the people - Sacha, Raphaël, Michael. "Be sure to check out my React GraphQL JavaScript library; Raphaël's React Data Visualization library, and this JavaScript library directory." It sounds a little bit like the audience of folks who are likely to have found this survey might have been particularly React-focused, which might result in particularly positive reviews for React, and it looks like maybe particularly negative reviews for Angular.
 
 **Jerod Santo:** Yeah.
 
@@ -178,27 +178,27 @@ Bringing the Bitcoin conversation back, it reminds me of a poll I saw on Twitter
 
 **Kevin Ball:** And the thing is we don't know. We have no way to test because it's not published how they found the folks, how they formalized for it... We can sort of look at other results that are happening in the industry, like the Stack Overflow study, which has its own issues, but sort of ask, like, "Are these results being reproduced in others, or not?" We can look at who did the study, and what are their motivations likely to be? Are they likely to be motivated -- or maybe not motivated, assuming best will, but are they likely to be reaching out to folks who have particular slants or opinions?
 
-All of this - if it's just for fun, who cares? But this is being published as like "This is the state of Javascript." People are gonna be making decisions on this, and it's a little spotty, and probably quite biased.
+All of this - if it's just for fun, who cares? But this is being published as like "This is the state of JavaScript." People are gonna be making decisions on this, and it's a little spotty, and probably quite biased.
 
-**Jerod Santo:** Well, even just in the fact that it's created by three Javascript developers, and not statisticians or professional survey takers who understand -- I wouldn't know how to put out a good survey, and putting out a good survey is very difficult to do, even if you know the means and mechanisms... So they probably were disadvantaged in the first place.
+**Jerod Santo:** Well, even just in the fact that it's created by three JavaScript developers, and not statisticians or professional survey takers who understand -- I wouldn't know how to put out a good survey, and putting out a good survey is very difficult to do, even if you know the means and mechanisms... So they probably were disadvantaged in the first place.
 
-And let me just say - the name of it, "The State of Javascript", of course, gives it a lot of credence... But also, to their credit, the website is spectacular, and very well made, and enjoyable, and it makes the thing have more clout because of how well it's done. It's been done for multiple years, 20,000 respondents... It seems very legit, and that's because they did a very good job of putting it together, so credit to all three on that, but especially Sacha Greif, who I think did the design. I just think it's very well done.
+And let me just say - the name of it, "The State of JavaScript", of course, gives it a lot of credence... But also, to their credit, the website is spectacular, and very well made, and enjoyable, and it makes the thing have more clout because of how well it's done. It's been done for multiple years, 20,000 respondents... It seems very legit, and that's because they did a very good job of putting it together, so credit to all three on that, but especially Sacha Greif, who I think did the design. I just think it's very well done.
 
-**Kevin Ball:** Yeah, there's a lot to be said for this, and I don't wanna necessarily say -- I don't think the folks doing the survey are trying to be malicious; however, they're also pretty clearly not following best practices for surveys, and then trying to sell this thing as representing the entire Javascript community.
+**Kevin Ball:** Yeah, there's a lot to be said for this, and I don't wanna necessarily say -- I don't think the folks doing the survey are trying to be malicious; however, they're also pretty clearly not following best practices for surveys, and then trying to sell this thing as representing the entire JavaScript community.
 
-**Jerod Santo:** I'm over here trying to figure out exactly how many Javascript developers are there in the word. I'm still stuck. I've been trying to find it, and my googles are failing me.
+**Jerod Santo:** I'm over here trying to figure out exactly how many JavaScript developers are there in the word. I'm still stuck. I've been trying to find it, and my googles are failing me.
 
 **Nick Nisi:** Well, on the topic of Angular, I wonder if -- the biggest dissatisfaction or the most disliked aspect of Angular is that it's too bloated and complex, and I wonder if that's because it is a more full-featured framework, and therefore has a larger learning curve than something like React, that is primarily focused on the view...
 
 **Kevin Ball:** Yeah, it's a good question. Well, Vue kind of strikes a middle ground there. Vue bakes in more things than React does, and Vue is still highlighting pretty well there... I don't know. I mean, my impression of Angular is it is much more complex. It certainly has a much bigger learning curve. Whether that's a positive or a negative varies on what your requirements are. Complex requirements often need complex solutions.
 
-\[00:35:38.14\] I have also noticed that sometimes the React community -- and I'm now going under the assumption that this survey... They call it The State of Javascript, but "The State of Javascript Opinions in the React Community" is my current assumption of what this is. They tend to have very strong opinions that are not necessarily aligned with the rest of the Javascript world. The CSS and JS nexus is all in the React world... And there's a lot of good things that have come out of the React world, but there's a lot of insular, very weird for the frontend stuff that comes out of the React world. That may be influencing all of these results. That particular community tends to be sort of off doing its own thing, in a lot of ways.
+\[00:35:38.14\] I have also noticed that sometimes the React community -- and I'm now going under the assumption that this survey... They call it The State of JavaScript, but "The State of JavaScript Opinions in the React Community" is my current assumption of what this is. They tend to have very strong opinions that are not necessarily aligned with the rest of the JavaScript world. The CSS and JS nexus is all in the React world... And there's a lot of good things that have come out of the React world, but there's a lot of insular, very weird for the frontend stuff that comes out of the React world. That may be influencing all of these results. That particular community tends to be sort of off doing its own thing, in a lot of ways.
 
-**Nick Nisi:** And it does really seem like React is taking over, in a lot of ways, but this is a good reminder that there is more to Javascript than React.
+**Nick Nisi:** And it does really seem like React is taking over, in a lot of ways, but this is a good reminder that there is more to JavaScript than React.
 
 **Break:** \[00:36:46.29\]
 
-**Kevin Ball:** Alright, coming back - we can't just \[unintelligible 00:37:32.11\] about vulnerabilities and survey quality and all of that all day; we've gotta give you something fun to work with, so we're gonna do a segment that we do every now and then, called Pro Tips. We talk about some of our tips that we have, whether they're code-related, Javascript-related, or just life-related, that make our lives better, and that might make your life better. Let's start -- actually, call out to Jerod. Jerod, what are your pro tips you wanna share?
+**Kevin Ball:** Alright, coming back - we can't just \[unintelligible 00:37:32.11\] about vulnerabilities and survey quality and all of that all day; we've gotta give you something fun to work with, so we're gonna do a segment that we do every now and then, called Pro Tips. We talk about some of our tips that we have, whether they're code-related, JavaScript-related, or just life-related, that make our lives better, and that might make your life better. Let's start -- actually, call out to Jerod. Jerod, what are your pro tips you wanna share?
 
 **Jerod Santo:** Very good. Well, I just have one pro tip, and it's kind of a mushy one, it's not like a 100% "Go do this, and you will be successful." It's really about being intentional with testing, and we could do shows and shows, and there could be entire podcasts about testing and the ins and outs, and how much to do it, and how little to do it, what's worth it, what's not... In my career I've spent a lot of time trying to figure that out, as I've been told everything; you know, you have the full test coverage people, the "TDD or die" types, and then you find other people who have never written a test case in their life, so they're basically manually testing their code instead of having any sort of automated testing...
 
@@ -242,7 +242,7 @@ So it's all very wishy-washy, which is why really the advice for me is to just c
 
 **Kevin Ball:** My pro tip is actually something that I know I learned from The Debugging Show. I think it was Nick actually who did it, but it was recently incredibly useful for me, so I wanna bring it up again. This is that in your Chrome Debugger you can insert a breakpoint that does a console log. So if you are debugging minified scripts, where you can't actually modify them, you can actually still insert console logs and get information. This was relevant for me recently, because I was tracking down a bug that only showed up intermittently and only showed up in minified scripts, and it was in an area where -- the backtrace was coming from something that didn't have enough context for me to know... Like, I didn't have enough from the backtrace, but that function got called thousands of times, and only sometimes intermittently would fail... So I wanted to know what was it being called with the times that it would fail, but inserting a breakpoint wouldn't get me there, and I couldn't insert a console log because it was on minified stuff, and if I changed -- anyway, it was a mess.
 
-\[00:48:10.17\] But this tip - that once again, I think Nick was the one who highlighted it on that debugging show - saved it for me, because I was able to insert a breakpoint that did a console log; it used a conditional breakpoint mechanism, which basically lets you evaluate some Javascript, and if it returns true, then it will do a breakpoint, but if you put a console log in there, it's always gonna return falsy, but it will just log it out. So I would get this log of what was the function being called with, and then the last item before the error would be the one that caused the problem... So that let me track down this intermittent issue that had been happening for months and we'd never been able to dig it up, and that was awesome.
+\[00:48:10.17\] But this tip - that once again, I think Nick was the one who highlighted it on that debugging show - saved it for me, because I was able to insert a breakpoint that did a console log; it used a conditional breakpoint mechanism, which basically lets you evaluate some JavaScript, and if it returns true, then it will do a breakpoint, but if you put a console log in there, it's always gonna return falsy, but it will just log it out. So I would get this log of what was the function being called with, and then the last item before the error would be the one that caused the problem... So that let me track down this intermittent issue that had been happening for months and we'd never been able to dig it up, and that was awesome.
 
 So I highly recommend conditional breakpoints with a console log in there as a way to track down issues in minified code.
 
@@ -256,7 +256,7 @@ So I highly recommend conditional breakpoints with a console log in there as a w
 
 **Kevin Ball:** Alright, so that's three sets of pro tips. We're a little short on this last bit, but we went long on those first ones, because we could talk about those forever... So I think, unless you all have other stuff that you wanna bring up, we can wrap up this episode, and beyond for the next week.
 
-**Jerod Santo:** Let's do it. One last stat from The State of JS... Hey, over 80% of people agree that Javascript is moving in the right direction.
+**Jerod Santo:** Let's do it. One last stat from The State of JS... Hey, over 80% of people agree that JavaScript is moving in the right direction.
 
 **Kevin Ball:** Over 80%...
 
@@ -272,11 +272,11 @@ So I highly recommend conditional breakpoints with a console log in there as a w
 
 **Jerod Santo:** Oh no, I opened up the can of worms again... I'm sorry. I was just trying to end on a positive note, but... \[laughter\[
 
-**Kevin Ball:** I think 100% of JS Party panelists believe Javascript is moving in the right direction.
+**Kevin Ball:** I think 100% of JS Party panelists believe JavaScript is moving in the right direction.
 
 **Jerod Santo:** As for JS Party, we're not so sure. You tell us.
 
-**Kevin Ball:** You tell us. Alright, that's it for this week. Thank you for joining us at JS Party, a party about Javascript every week. We'll see you next time. Take care, y'all!
+**Kevin Ball:** You tell us. Alright, that's it for this week. Thank you for joining us at JS Party, a party about JavaScript every week. We'll see you next time. Take care, y'all!
 
 **Break:** \[00:50:36.12\]
 

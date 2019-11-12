@@ -1,4 +1,4 @@
-**Kevin Ball:** Hello, party people! Welcome to JS Party! I am Kball, I will be your MC this week, where we are going to celebrate Javascript and the web and talk about all sorts of fun things, with projects big and small.
+**Kevin Ball:** Hello, party people! Welcome to JS Party! I am Kball, I will be your MC this week, where we are going to celebrate JavaScript and the web and talk about all sorts of fun things, with projects big and small.
 
 I am joined by my man Nick Nisi. Nick, how are you doing?
 
@@ -136,7 +136,7 @@ I've seen certain companies out there try to solve this with crowdsourcing, and 
 
 **Christopher Hiller:** I don't have any data, but I feel like there's an inflection point where developer productivity is going to be greater not using something like TypeScript. And as the size and the complexity of the project grows, there's some point where it would really be nice if we had types, and by then it's like it's too late.
 
-**Nick Nisi:** Yeah. See, I guess now I feel like writing any code without types - it just feels awkward to me. For the longest time, I was just kind of this vanilla Vim user who didn't expect anything from the editor; I just had to type everything in, because that's what you get in Javascript... But now I just find it really nice getting little warnings and pop-ups from the LSP, telling me that things are wrong, or things aren't as I expect, and just helping guide me a little bit more. I've just become so accustomed to that that I don't like not having it anymore.
+**Nick Nisi:** Yeah. See, I guess now I feel like writing any code without types - it just feels awkward to me. For the longest time, I was just kind of this vanilla Vim user who didn't expect anything from the editor; I just had to type everything in, because that's what you get in JavaScript... But now I just find it really nice getting little warnings and pop-ups from the LSP, telling me that things are wrong, or things aren't as I expect, and just helping guide me a little bit more. I've just become so accustomed to that that I don't like not having it anymore.
 
 **Christopher Hiller:** You know what I love? I love that other projects are written in TypeScript, and not mine... Because I get all those types in my editor, and I don't have to write my own. \[laughs\]
 
@@ -158,7 +158,7 @@ I was trying to use it on a project that was a Chrome extension. This was way ba
 
 **Christopher Hiller:** That's so everybody else doesn't have to worry about the types, except the type master. TypeMaster!
 
-**Kevin Ball:** Yeah, I do work right now both -- I'm not using TypeScript, but I do use other typed languages occasionally, and then I'm using Javascript... And I feel like the value of typing, as Nick alluded to - it goes up the more people are working with the codebase, and the more complex your code is, and the more different pieces... Because then those hints and enforcements become extremely valuable. It does kind of slow you down when you're just trying to hack something together...
+**Kevin Ball:** Yeah, I do work right now both -- I'm not using TypeScript, but I do use other typed languages occasionally, and then I'm using JavaScript... And I feel like the value of typing, as Nick alluded to - it goes up the more people are working with the codebase, and the more complex your code is, and the more different pieces... Because then those hints and enforcements become extremely valuable. It does kind of slow you down when you're just trying to hack something together...
 
 Looking back to this question about dimensions on which projects vary, if I'm doing a quick and dirty script to try something out, I'm not gonna use something typed. If I'm building a project I expect a lot of folks to interact with, types start to make a lot more sense.
 
@@ -168,7 +168,7 @@ Alright, I think that's good for this segment. Let's take another quick break, a
 
 **Kevin Ball:** Alright, welcome back to the final segment of this week's JS Party. We are going to be talking about some lessons that we have drawn or that we've seen other people draw from working on big and long-lived projects, so that folks who are still out there learning or working mostly on shorter-scale projects - maybe you're at a startup or you're at an agency and your stuff doesn't last that long - what are some of the lessons that you may need to learn to help scale for larger and longer-term projects? Anybody excited to jump on a lesson they've learned?
 
-**Nick Nisi:** Larger projects and long-lived projects are very boring, compared to very short-lived projects. Several big ones don't tend to use the latest and greatest of whatever is in the Javascript or whatever ecosystem... So there's a lot of older legacy code that, if you just go by Hacker News or Reddit, is totally dead and nobody's using, but it's actually very much in use.
+**Nick Nisi:** Larger projects and long-lived projects are very boring, compared to very short-lived projects. Several big ones don't tend to use the latest and greatest of whatever is in the JavaScript or whatever ecosystem... So there's a lot of older legacy code that, if you just go by Hacker News or Reddit, is totally dead and nobody's using, but it's actually very much in use.
 
 **Christopher Hiller:** Grunt. \[laughter\]
 
@@ -190,7 +190,7 @@ Alright, I think that's good for this segment. Let's take another quick break, a
 
 **Christopher Hiller:** What sort of updates are you talking about? Can you give an example?
 
-**Kevin Ball:** Sure. I helped out with a project - I went in and did sort of a training on a team that had a project that was written in ColdFusion. It's this old application, ColdFusion had all their SQL tied up with their templates, had these old CSS files, weren't even using Sass... Lots of different Javascript libraries getting pulled in willy-nilly... And they wanted to move to more modern front-end practices, understandably.
+**Kevin Ball:** Sure. I helped out with a project - I went in and did sort of a training on a team that had a project that was written in ColdFusion. It's this old application, ColdFusion had all their SQL tied up with their templates, had these old CSS files, weren't even using Sass... Lots of different JavaScript libraries getting pulled in willy-nilly... And they wanted to move to more modern front-end practices, understandably.
 
 Working with them to think about how do we take, for example, these pages where our concepts of how we're manipulating data and how we're displaying data are all kind of entangled together, and even give ourselves the opportunity to upgrade pieces of it by disentangling those parts, and kind of creating separated data and presentation? That's a very legacy-seeming example, right? You wouldn't expect a modern company to be doing all of those things, and yet they were, because this app had been around for ten years, and they'd never had the bandwidth or time to refactor it.
 
@@ -198,7 +198,7 @@ Working with them to think about how do we take, for example, these pages where 
 
 If you have a project that's been worked on for years and years and years, you need to be able to create modularity where it may not exist.
 
-**Nick Nisi:** And in Javascript modules didn't exist for a long time, so you might run into that still in older projects.
+**Nick Nisi:** And in JavaScript modules didn't exist for a long time, so you might run into that still in older projects.
 
 **Kevin Ball:** Yeah. Have you ever updated a non-modular project to a module-based project?
 
@@ -240,8 +240,8 @@ Then the same thing goes with introducing types. If you're going to do that with
 
 **Christopher Hiller:** Contest it up!
 
-**Kevin Ball:** Alright, so this contest is pretty exciting, and it's gonna be an experiment. The high-level is - coming up, this summer, June 21st and 22nd, there's going to be NodeConf Colombia, taking place in Medellin, Colombia, and we will be there, doing a live episode. We would love to see you there, and we have a free ticket to give away to one of our listeners. Now, caveat - the ticket only covers conference entrance, so you still have to deal with flights and hotel, but... Free ticket. And especially if you're already down in Latin America, it may be quick and easy to get there; or if you're coming from the States, there are plenty of ways to get in... I just looked at those flights, I was doing them. 
+**Kevin Ball:** Alright, so this contest is pretty exciting, and it's gonna be an experiment. The high-level is - coming up, this summer, June 21st and 22nd, there's going to be NodeConf Colombia, taking place in Medellin, Colombia, and we will be there, doing a live episode. We would love to see you there, and we have a free ticket to give away to one of our listeners. Now, caveat - the ticket only covers conference entrance, so you still have to deal with flights and hotel, but... Free ticket. And especially if you're already down in Latin America, it may be quick and easy to get there; or if you're coming from the States, there are plenty of ways to get in... I just looked at those flights, I was doing them.
 
 So anyway, we have a ticket to give away, and we're going to give it away in a raffle. There's two ways that you can get raffle entries to get this. Way number one - rate or review JS Party in your podcast app. That will get you ten entries to the raffle. Alternative for those who either don't want to do that, or wanna do that but also want more entries, because they're really excited about this ticket - share your favorite episodes from JS Party on social media. That will get you one entry into the raffle per episode shared. Whichever of these you do, take a screenshot of it and send it to jsparty@changelog.com. E-mail it to us, and we will collect entries up through the end of April, so you have all month of April to do this; then we will be putting all the entries into a raffle software. I think we're gonna use an open source raffle software, so it will all be open. It is Changelog, so we wanna use open source and highlight that, and we'll pick out a winner who will get the free ticket to NodeConf Colombia.
 
-With that, I think we're ready to wrap up this week's JS Party. Thank you for joining us, and we hope to see you next week when we have our next party about Javascript and the web. Take care, y'all!
+With that, I think we're ready to wrap up this week's JS Party. Thank you for joining us, and we hope to see you next week when we have our next party about JavaScript and the web. Take care, y'all!

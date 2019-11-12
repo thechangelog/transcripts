@@ -1,10 +1,10 @@
-**Mikeal Rogers:** Hey, everybody! Welcome to JS Party, where it's party every week with Javascript. I'm Mikeal Rogers...
+**Mikeal Rogers:** Hey, everybody! Welcome to JS Party, where it's party every week with JavaScript. I'm Mikeal Rogers...
 
 **Rachel White:** I'm Rachel White...
 
 **Alex Sexton:** And I'm Alan Samson. \[laughter\]
 
-**Mikeal Rogers:** There we go... Can't even get the right intro without Alex cracking wise. \[laughs\] Alright, we've got a great show today. We're gonna talk a bit about Node.js native modules and VM neutrality, we're gonna talk about Mastodon - the project, not the band... Although we may talk about the band, too. We're gonna talk a little bit about how to get new people into Javascript. It's gonna be a great show!
+**Mikeal Rogers:** There we go... Can't even get the right intro without Alex cracking wise. \[laughs\] Alright, we've got a great show today. We're gonna talk a bit about Node.js native modules and VM neutrality, we're gonna talk about Mastodon - the project, not the band... Although we may talk about the band, too. We're gonna talk a little bit about how to get new people into JavaScript. It's gonna be a great show!
 
 We have this new thing coming into Node.js in the version 8 release - it's kind of a big deal - called N-API. People have been calling it Nappy for a while, and then they decide that they are no longer gonna call it Nappy, and it's just N-API now.
 
@@ -22,7 +22,7 @@ Essentially, if you've done anything with Node.js for a long time, you probably 
 
 **Alex Sexton:** Okay, that makes sense.
 
-**Mikeal Rogers:** \[laughs\] But anyway... So if you've been doing Node.js for really anything, you've had to deal with a native module. Native modules are -- we've been trying to rewrite the whole world in Javascript, but sometimes you still need to bind to some kind of C or C++ module. Those modules basically get bound pretty much directly to V8, to the ABI (binary API) that V8 exposes.
+**Mikeal Rogers:** \[laughs\] But anyway... So if you've been doing Node.js for really anything, you've had to deal with a native module. Native modules are -- we've been trying to rewrite the whole world in JavaScript, but sometimes you still need to bind to some kind of C or C++ module. Those modules basically get bound pretty much directly to V8, to the ABI (binary API) that V8 exposes.
 
 The modules that you're using that are native are probably actually using this middle layer called NAN (Native Abstractions for Node), but all that does is really just kind of a marshal between an older version of Node and the V8 VM APIs there.
 
@@ -52,7 +52,7 @@ An effort was lead by Microsoft, because they, for Node Chakra (Node.js bound to
 
 **Alex Sexton:** Got it.
 
-**Mikeal Rogers:** Yeah, so they got basically rebooted around this whole native API effort. So now for the first time Node 8 (the eighth major version of Node.js), there will be a flag where you can try out this new native API, and people can start binding to it. It's really exciting, because now major versions are not gonna have these giants bricks, and if you write a Javascript virtual machine - a lot of people are writing new Javascript VMs - you can expose this API in the future and Node will just work. Questions, comments...?
+**Mikeal Rogers:** Yeah, so they got basically rebooted around this whole native API effort. So now for the first time Node 8 (the eighth major version of Node.js), there will be a flag where you can try out this new native API, and people can start binding to it. It's really exciting, because now major versions are not gonna have these giants bricks, and if you write a JavaScript virtual machine - a lot of people are writing new JavaScript VMs - you can expose this API in the future and Node will just work. Questions, comments...?
 
 **Alex Sexton:** So back to how we pronounce it... \[laughter\]
 
@@ -90,7 +90,7 @@ A lot of modules actually use NaN for maybe 90% of what they do, and then they h
 
 **Alex Sexton:** Yeah, I think this is in like half -- I don't know if I've installed Node modules in my life and this wasn't one of the modules that came down...
 
-**Mikeal Rogers:** This module looks like pure Javascript. This looks like it's not a native module, though.
+**Mikeal Rogers:** This module looks like pure JavaScript. This looks like it's not a native module, though.
 
 **Alex Sexton:** Okay... Feels very nativey. Whenever you download it, you have to get the Node headers.tar.gz thing, and that broke this past week whenever NPM went down.
 
@@ -120,13 +120,13 @@ Hopefully this will also make that a lot easier to deal with, because if they're
 
 **Mikeal Rogers:** We just went through four compile layers... \[laughter\]
 
-**Alex Sexton:** Yeah, but I feel like -- not that you can't write Javascript and it would be good, I'm just thinking in the audio situation I'm constantly resource-constrained, and I'm wondering if just the fact that Javascript can run there means that I don't have to write in whatever microcontroller bytecode directly...?
+**Alex Sexton:** Yeah, but I feel like -- not that you can't write JavaScript and it would be good, I'm just thinking in the audio situation I'm constantly resource-constrained, and I'm wondering if just the fact that JavaScript can run there means that I don't have to write in whatever microcontroller bytecode directly...?
 
 **Rachel White:** Yeah, that's the whole point.
 
-**Alex Sexton:** Javascript doesn't have the memory management to be able to handle it on that resource-constrained device, right? So I guess I'd need to write Rust, not Go if I want a memory-managed language, right? I don't know. Don't listen to anything I say.
+**Alex Sexton:** JavaScript doesn't have the memory management to be able to handle it on that resource-constrained device, right? So I guess I'd need to write Rust, not Go if I want a memory-managed language, right? I don't know. Don't listen to anything I say.
 
-**Mikeal Rogers:** Yeah, I mean... Susan's making a really good point in the chat here - the value of writing things in Javascript is that there's this huge ecosystem of modules that you can plug into...
+**Mikeal Rogers:** Yeah, I mean... Susan's making a really good point in the chat here - the value of writing things in JavaScript is that there's this huge ecosystem of modules that you can plug into...
 
 **Alex Sexton:** Well, not necessarily for my use case... There are not a lot of guitar pedal modules, currently.
 
@@ -176,7 +176,7 @@ Hopefully this will also make that a lot easier to deal with, because if they're
 
 **Mikeal Rogers:** We're gonna take a quick break, and when we come back we're gonna talk about getting new people into Node.js. Stay tuned!
 
-**Rachel White:** Getting new people into Javascript!
+**Rachel White:** Getting new people into JavaScript!
 
 **Mikeal Rogers:** Sorry...
 
@@ -184,9 +184,9 @@ Hopefully this will also make that a lot easier to deal with, because if they're
 
 **Break:** \[00:18:02.10\]
 
-**Mikeal Rogers:** And we're back! We're gonna talk a little bit about getting new people into Javascript. Why don't you take it away, Rachel?
+**Mikeal Rogers:** And we're back! We're gonna talk a little bit about getting new people into JavaScript. Why don't you take it away, Rachel?
 
-**Rachel White:** Alright, so this is something that people will come up and ask me a lot about at conferences that aren't necessarily Javascript-focused... They just basically don't know where to start, especially with how we spoke about Javascript fatigue and a bunch of other things...
+**Rachel White:** Alright, so this is something that people will come up and ask me a lot about at conferences that aren't necessarily JavaScript-focused... They just basically don't know where to start, especially with how we spoke about JavaScript fatigue and a bunch of other things...
 
 There's just so many places to start from, and where should someone start? Should they use React, should they learn React before they learn anything else? Should they pay attention to j.Query at all? Should they learn Ember or Angular, or whatever?
 
@@ -200,11 +200,11 @@ I guess that's what we're gonna talk about, and I'm gonna say "No" to all of tha
 
 **Rachel White:** I guess that depends on what your goal is.
 
-**Mikeal Rogers:** \[00:20:06.01\] I know, so how far do you go...? Like, even in vanilla Javascript, what does vanilla Javascript mean? Do you learn only raw DOM calls, or are you allowed to use j.Query when you're learning Javascript?
+**Mikeal Rogers:** \[00:20:06.01\] I know, so how far do you go...? Like, even in vanilla JavaScript, what does vanilla JavaScript mean? Do you learn only raw DOM calls, or are you allowed to use j.Query when you're learning JavaScript?
 
-**Rachel White:** Well, I guess that depends on -- I mean, I've had jobs where they've gotten mad if we used j.Query, and then I've had jobs where it was like "Use j.Query if you would like to use j.Query." I guess it depends on if you wanna focus on frontend, if you wanna focus on backend, if you wanna do full stack, if you wanna do Javascript robotics, if you wanna do creative coding... It all depends on what your focus is going to be where I think you should start.
+**Rachel White:** Well, I guess that depends on -- I mean, I've had jobs where they've gotten mad if we used j.Query, and then I've had jobs where it was like "Use j.Query if you would like to use j.Query." I guess it depends on if you wanna focus on frontend, if you wanna focus on backend, if you wanna do full stack, if you wanna do JavaScript robotics, if you wanna do creative coding... It all depends on what your focus is going to be where I think you should start.
 
-**Mikeal Rogers:** And where does some of the tooling fit in though, right? Babel is not vanilla Javascript, you are compiling it down... But you're also technically kinda using a newer version of the language, so does that count as extra stuff that you're learning and not vanilla?
+**Mikeal Rogers:** And where does some of the tooling fit in though, right? Babel is not vanilla JavaScript, you are compiling it down... But you're also technically kinda using a newer version of the language, so does that count as extra stuff that you're learning and not vanilla?
 
 **Rachel White:** You mean like somebody going in and understanding ES6 syntax, and stuff like that?
 
@@ -212,7 +212,7 @@ I guess that's what we're gonna talk about, and I'm gonna say "No" to all of tha
 
 **Rachel White:** I don't know... That's a hard question. I can only speak from what I struggle with as somebody that definitely still does not understand algorithms or anything like that... I'm pretty much just solely good with DOM manipulation stuff, frontend strictly, and obviously Node and Node robotics... But I'm a weirdo. My method was totally different, and I wish that when I started there was resources available to me that there are available to people today.
 
-I think the Javascript 30 course that Wes Bos just came out with is pretty decent... It gives you a small exercise every day, and you are slowly building up the -- I guess it wouldn't be muscle memory, but the repetition of common things that you would use in Javascript, like for loops and stuff like that to understand it.
+I think the JavaScript 30 course that Wes Bos just came out with is pretty decent... It gives you a small exercise every day, and you are slowly building up the -- I guess it wouldn't be muscle memory, but the repetition of common things that you would use in JavaScript, like for loops and stuff like that to understand it.
 
 **Alex Sexton:** I think that the question is a little bit loaded, because it's like "Should you start with libraries or should you start vanilla?", but I look at it a lot like music, or something like that. There are people who when they're four start taking lessons and then they learn all the fundamentals and they practice scales, they learn theory, and then they become musicians and are very good and have that type of knowledge. Then there are people who pick up a guitar when they're 15 to impress other people, and then they become musicians as well.
 
@@ -236,9 +236,9 @@ They're not gonna learn entirely to program that way, but it is something that w
 
 These people break it all up in the project management side, so that all these people learning how to program can bite off pieces of it and get certified. It's really cool, it's a nice mix of good course material and some real world practice, as well.
 
-**Rachel White:** I have also heard pretty good things that seem like along the same lines of Free Code Camp, about Codecademy's intro to Javascript course. I haven't taken it myself, but I've seen that it gives you those incremental steps of working on different concepts as you go through. I also really like Mozilla's Developer Network site for Javascript basics, because it tells you a story as it's telling you the elements, and I end up using it as a reference a lot when I'm working on personal projects. I should post that as a link. \[honking sound in the background\] Why do -- stop honking, geez!
+**Rachel White:** I have also heard pretty good things that seem like along the same lines of Free Code Camp, about Codecademy's intro to JavaScript course. I haven't taken it myself, but I've seen that it gives you those incremental steps of working on different concepts as you go through. I also really like Mozilla's Developer Network site for JavaScript basics, because it tells you a story as it's telling you the elements, and I end up using it as a reference a lot when I'm working on personal projects. I should post that as a link. \[honking sound in the background\] Why do -- stop honking, geez!
 
-**Alex Sexton:** Yeah, so I think that the best way to get into Javascript is to continuously do things that interest you, and the rest kind of follows. If you go about it the other way... I think once you get old enough and disappointed enough -- age is only barely related to this, but I find that now that I'm older, I've learned enough things to know that if I just sit down and slog through the fundamentals for long enough, it will really end up helping me, and I have that lesson embedded in me. So if you're that type of person, it's not necessarily better - it's probably worse even... But if you're that type of person, then sure, go learn the fundamentals as long as you can delay that reward of actually being able to create things.
+**Alex Sexton:** Yeah, so I think that the best way to get into JavaScript is to continuously do things that interest you, and the rest kind of follows. If you go about it the other way... I think once you get old enough and disappointed enough -- age is only barely related to this, but I find that now that I'm older, I've learned enough things to know that if I just sit down and slog through the fundamentals for long enough, it will really end up helping me, and I have that lesson embedded in me. So if you're that type of person, it's not necessarily better - it's probably worse even... But if you're that type of person, then sure, go learn the fundamentals as long as you can delay that reward of actually being able to create things.
 
 \[00:28:34.03\] But I think the most important thing you can do is make sure that you're not gonna lose interest, because that's the biggest barrier, I think, to learning programming - there are plenty of people who want to, and certainly it's difficult and we can make things easier in tooling and documentation and all that stuff, but I think the number one thing whenever I've worked with people, or I know people who are like "I wanna learn programming but I don't have enough time" or "I started that and I never finished it", or "I read that book, but I still don't know how to do anything yet"... I think it's just a matter of -- they haven't found the thing that grabs them enough to stick with it, and that's a tough thing; it's just like working out or losing weight, or learning an instrument, anything like that.
 
@@ -246,7 +246,7 @@ These people break it all up in the project management side, so that all these p
 
 **Alex Sexton:** Right.
 
-**Rachel White:** Are you sub-tweeting me? \[laughter\] There's one other resource that I love to recommend to people... Rebecca Murphy has this really awesome repository -- this is like, once you've got all the basics down and you are more involved in understanding Javascript, it's a whole entire repository that's built around testing, and the tests are broken and you have to figure out what you need to do in order to fix the tests, and I think that it's really good for people that are actually wanting to get into having a career for Javascript, and it's always really great for people that are starting out. I'm gonna paste that link, too... Because then it also gives people the fundamentals of understanding how testing works, so it will help in the real world, ideally...
+**Rachel White:** Are you sub-tweeting me? \[laughter\] There's one other resource that I love to recommend to people... Rebecca Murphy has this really awesome repository -- this is like, once you've got all the basics down and you are more involved in understanding JavaScript, it's a whole entire repository that's built around testing, and the tests are broken and you have to figure out what you need to do in order to fix the tests, and I think that it's really good for people that are actually wanting to get into having a career for JavaScript, and it's always really great for people that are starting out. I'm gonna paste that link, too... Because then it also gives people the fundamentals of understanding how testing works, so it will help in the real world, ideally...
 
 **Alex Sexton:** It's a little dated at this point, right? It's like five years old...
 
@@ -318,7 +318,7 @@ What they are is separate servers, but they're also separate federations, and th
 
 The main Mastodon social code of conduct actually explicitly says "No nazis" and "No Holocaust denial", no stuff that is against certain laws in Europe, which is "Hey, what place has a ton of nazis and we don't wanna hang out with them? Twitter!"
 
-So a ton of people have made the jump over to Mastodon this week. The other really great thing is it's open source. It's primarily written in Ruby, the frontend's in Javascript... There's a ton of different instances now -- there's a Witches team, which is a French base instance that's for people that identify with queer, feminism and social justice issues... Nolan Lawson made one that is toot.cafe, which is for Javascript people, and he's looking for Javascript people to join that one and play around with the frontend.
+So a ton of people have made the jump over to Mastodon this week. The other really great thing is it's open source. It's primarily written in Ruby, the frontend's in JavaScript... There's a ton of different instances now -- there's a Witches team, which is a French base instance that's for people that identify with queer, feminism and social justice issues... Nolan Lawson made one that is toot.cafe, which is for JavaScript people, and he's looking for JavaScript people to join that one and play around with the frontend.
 
 The way that the federations work too is you have an account on one federation - I am mastodon.social/oho, but I have a friend on Witches team, and her name is Kelsey; she's witches.team/@kelsey, and I can talk to Kelsey because both of our federations have agreed that "Yes, we have similar values and they're good, so we're gonna be able to allow cross-instance communications." So you're able to talks to these other places that have common interests, but different usernames because of the way that Mastodon is set up as a social network.
 

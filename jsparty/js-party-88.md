@@ -8,7 +8,7 @@
 
 For those who haven&#39;t listened before, Story of the Week is a moment in time wherein we take turns sharing what we believe is the most important, or the biggest story of the week, or it could be an article that we read that was impactful... It can really be anything, but we&#39;re talking about things going on, or things that have happened recently, what they are, why they&#39;re important, and what we think about them. So that&#39;s what we&#39;ll do first, and we&#39;ll kick off with Feross... What is your story of the week, friend?
 
-**Feross Aboukhadijeh:** I think the obvious story of the week is the PureScript npm installer fiasco... But I think I&#39;ll leave that one to you, Jerod, because I think you&#39;re gonna talk about that. I&#39;ll say something related to that, which is not in the Javascript world, but it&#39;s in the cyber-security world.
+**Feross Aboukhadijeh:** I think the obvious story of the week is the PureScript npm installer fiasco... But I think I&#39;ll leave that one to you, Jerod, because I think you&#39;re gonna talk about that. I&#39;ll say something related to that, which is not in the JavaScript world, but it&#39;s in the cyber-security world.
 
 There&#39;s this story about an Insider Logic Bomb that caught my eye. The idea was this guy who is not a very smart criminal decided that he was going to put a logic bomb inside of some spreadsheet that he created for this company... And the idea is this spreadsheet had some custom scripts inside that would update the orders in the spreadsheet. He worked there for years, but wanted to basically ensure that they would have to keep hiring him to come and work there further in the future... So he included this little time bomb that would make the code stop working on a certain date. It&#39;s super-evil, because then they basically  had to call him up and say &quot;Hey, the code isn&#39;t working. Do you wanna come back in here for some more contracting work?&quot; He just did this repeatedly and kept collecting fees from this...
 
@@ -78,7 +78,7 @@ Speaking of spreadsheets, there&#39;s a lot of people that are using spreadsheet
 
 **Jerod Santo:** Yeah... Talk about a logic bomb; throw it in there on your baby shower. Boom, it&#39;s a boy. Alright, anything else on Feross&#39; inside logic bombs? Links to these things spoken about in the show notes. Nick did locate the BBC article, all about a U.S. employee outsourcing his job (it was to China), so if you wanna read about  that, it&#39;s in the show notes.
 
-**Nick Nisi:** Transitioning into your article, Jerod, I think that this could be the vector by which we might see logic bombs, if they ever come to Javascript.
+**Nick Nisi:** Transitioning into your article, Jerod, I think that this could be the vector by which we might see logic bombs, if they ever come to JavaScript.
 
 **Jerod Santo:** I&#39;m linking to a piece of satire which was written by a fellow named Sebastian K. on Medium, where he says &quot;No way to prevent this. Only development community where this regularly happens&quot;, and it&#39;s an Onion-inspired style... I think The Onion does this about gun-control laws in the United States after major shootings happen. But he&#39;s not doing it about gun control, he&#39;s doing it about npm, and I&#39;ll just read this here:
 
@@ -130,7 +130,7 @@ First of all, I love the... What did you say -- is that optional chaining, or wh
 
 **Jerod Santo:** Yeah. So you said that&#39;s stage three; what does the rollout look like? Does it go to stage four and then it&#39;s up to the browsers? Is it in some browsers? Help me understand that.
 
-**Nick Nisi:** It&#39;s stage three... I think that&#39;s when the syntax of it - in this case the ?. and then the ?? for these operators; that syntax is pretty stable, and now they need some actual real-world usage. That&#39;s where some browsers will implement it... So we might start seeing this rolling out in the next year. I know optional chaining - but I&#39;m not sure about nullish coalescing one - will be coming into an upcoming version of TypeScript, so you&#39;ll be able to use that natively in TypeScript, and then that will backport down to whatever it needs to to run in whatever Javascript you need to run it in.
+**Nick Nisi:** It&#39;s stage three... I think that&#39;s when the syntax of it - in this case the ?. and then the ?? for these operators; that syntax is pretty stable, and now they need some actual real-world usage. That&#39;s where some browsers will implement it... So we might start seeing this rolling out in the next year. I know optional chaining - but I&#39;m not sure about nullish coalescing one - will be coming into an upcoming version of TypeScript, so you&#39;ll be able to use that natively in TypeScript, and then that will backport down to whatever it needs to to run in whatever JavaScript you need to run it in.
 
 **Jerod Santo:** What&#39;s TypeScript? I&#39;m unfamiliar.
 
@@ -146,7 +146,7 @@ First of all, I love the... What did you say -- is that optional chaining, or wh
 
 **Jerod Santo:** What&#39;s a network request? [laughs] What&#39;s a website?
 
-**Nick Nisi:** Yeah... So starting there -- that&#39;s the problem with this, you have to start from like &quot;This is silicon.&quot; So it&#39;s this way of being able to access a server that is not on the same domain as the location of the website... And this is something that you couldn&#39;t previously do. For example, if I had some Javascript on NickNisi.com and I wanted to pull in something from the Changelog website, I wouldn&#39;t be able to do an AJAX request to the Changelog website and go grab that.
+**Nick Nisi:** Yeah... So starting there -- that&#39;s the problem with this, you have to start from like &quot;This is silicon.&quot; So it&#39;s this way of being able to access a server that is not on the same domain as the location of the website... And this is something that you couldn&#39;t previously do. For example, if I had some JavaScript on NickNisi.com and I wanted to pull in something from the Changelog website, I wouldn&#39;t be able to do an AJAX request to the Changelog website and go grab that.
 
 So some workarounds were being made, things like JSON-P, or JSON with padding, I think, where I could basically put a script tag on my page that would load something from the Changelog website, and the Changelog website would be aware of this, that I was trying to do this, and they would send me a script that was basically just calling a method that I had told them to call, and passing data to that method. Then I could grab the data and use that, because it would call my method back when the script actually loads, and be able to run with that.
 
@@ -156,7 +156,7 @@ The main thing that happens when you try and make a CORS request is your browser
 
 Then it would make a request to Changelog.com, and Changelog.com, if they want to accept CORS requests, they have to respond with an Access-Control-Allow-Origin header that matches NickNisi.com, or has an asterisk in there, meaning that it matches everything. Then that way I can make requests between them.
 
-So this is a way for servers to lock that down and say &quot;Nope, we won&#39;t do any of this, because we won&#39;t send that header back.&quot; But otherwise, if they want to accept that, then they can do that, and they can specifically do that for just specific sites, which is really cool... And all of this is out of the hands of the Javascript developer and the browser; this is happening at the browser level, so Chrome is adding in these headers and doing all of this for you.
+So this is a way for servers to lock that down and say &quot;Nope, we won&#39;t do any of this, because we won&#39;t send that header back.&quot; But otherwise, if they want to accept that, then they can do that, and they can specifically do that for just specific sites, which is really cool... And all of this is out of the hands of the JavaScript developer and the browser; this is happening at the browser level, so Chrome is adding in these headers and doing all of this for you.
 
 But it does get a little bit more complicated, because there are two kinds of requests that you can make; there&#39;s a simple request and a preflighted request. A simple request would be a request that is using the method get, head or post, and is using only a subset of headers, so things like content language, content type - and with content type, only three different content types; that&#39;s multi-form data, form URL encoded, and text plain. And then also one that is not setting up an upload listener, so listening for uploads, or anything like that.
 
@@ -164,7 +164,7 @@ If it matches all of that, then the browser will send the origin with that reque
 
 But if I wanted to, for example, make a PUT request to the Changelog.com for my website, I can&#39;t do that because that&#39;s not one of the simple methods, so it would have to be a preflighted request. So what would happen is the browser would send an options request to Changelog.com first, and then that would say &quot;What are my options, Changelog? Can I make any kind of requests or not?&quot; And then Changelog can respond to that options with the proper Access-Control-Allow-Origin, and if I was trying to make a PUT request, it could respond with another header, Access-Control-Allow-Methods, and have PUT in that. Then that would say &quot;Yes, you can make the PUT&quot;, and then I can make my request after that. So it&#39;s actually two requests that end up happening.
 
-And again, this is all outside of a Javascript developer; the browser is making this request first, and then it will make the request that you asked it to. If the server comes back and says &quot;No, I don&#39;t accept that&quot;, then your request just fails and it doesn&#39;t actually try and make the second request. So it&#39;s just a way of controlling what a server can respond to or wants to respond to, and a way for the browser to make those requests in as safe a way as possible.
+And again, this is all outside of a JavaScript developer; the browser is making this request first, and then it will make the request that you asked it to. If the server comes back and says &quot;No, I don&#39;t accept that&quot;, then your request just fails and it doesn&#39;t actually try and make the second request. So it&#39;s just a way of controlling what a server can respond to or wants to respond to, and a way for the browser to make those requests in as safe a way as possible.
 
 **Jerod Santo:** [00:28:07.12] Well done. Feross, you mentioned in the break that you&#39;re teaching CORS, or you&#39;re going to be teaching CORS; is this along the lines of the way you explain it, or do you have any questions around that, or...? What are your thoughts?
 
@@ -244,7 +244,7 @@ Okay, shout-outs... Feross, you&#39;re up.
 
 The way they put it is they&#39;re bringing back the lost individual creativity of the web, which is pretty cool. The guy who created it - his name is Kyle Drake. Really nice guy. He was really sad when Geocities was taken down, and... He actually has a related project to bring back up an archive of all of the Geocities sites that folks were able to save before Geocities was shut down. I think right now all that stuff is on the internet archive, but it&#39;s not very easy to browse...
 
-So he&#39;s about to release a new site called geocities.gallery, which lets you peruse a huge chunk of the original Geocities sites. I actually helped him get the midis working again, using my midi Javascript library. So now you get the full glory of the -- and he also had to add back the blink tag, because I think that one was deprecated and removed. It&#39;s pretty cool, so shout-outs to Kyle Drake and Neocities, and geocities.gallery.
+So he&#39;s about to release a new site called geocities.gallery, which lets you peruse a huge chunk of the original Geocities sites. I actually helped him get the midis working again, using my midi JavaScript library. So now you get the full glory of the -- and he also had to add back the blink tag, because I think that one was deprecated and removed. It&#39;s pretty cool, so shout-outs to Kyle Drake and Neocities, and geocities.gallery.
 
 **Jerod Santo:** It&#39;s really cool. So if you build a Neocities site, are you basically just doing HTML, doing stuff right there in the browser, much like Geocities was? Or does it work differently than that?
 
@@ -272,7 +272,7 @@ Then they added their own async job support, and then that kind of --
 
 **Nick Nisi:** Yeah. And so they came up with a different approach to async jobs, so now plugins have to support both... But for the most part, as just an end user, Neovim seems much faster; or it did, at least when I started. I haven&#39;t used Vim 8 very much to say that it&#39;s gotten much better. I&#39;m sure it has, but I&#39;ve just still kind of stuck with Neovim, because of plugins like this, and others... But I have basically aliased Vim to neovim or to nvim in my shell, just so I don&#39;t lose that muscle memory in case I ever switch back. I just type vim for everything.
 
-**Jerod Santo:** Gotta keep your options open there. So Neovim - written mostly in C... 44% of the repo is Vimscript though, so there&#39;s also some Lua sprinkled in there. That being said, the coc.nvim is TypeScript... So does Neovim add some sort of like a Javascript way of writing these things? Because it used to be you had to write Vimscript through Vim plugins, but... Maybe Neovim enables that.
+**Jerod Santo:** Gotta keep your options open there. So Neovim - written mostly in C... 44% of the repo is Vimscript though, so there&#39;s also some Lua sprinkled in there. That being said, the coc.nvim is TypeScript... So does Neovim add some sort of like a JavaScript way of writing these things? Because it used to be you had to write Vimscript through Vim plugins, but... Maybe Neovim enables that.
 
 **Nick Nisi:** Yeah... It enables better support for plugins written in other languages.
 

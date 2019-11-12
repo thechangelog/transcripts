@@ -1,4 +1,4 @@
-**Mikeal Rogers:** Hey, everybody! Welcome to JS Party, where it's a party every week with Javascript. We've got a special guest today - say hello to John-David Dalton, also known as JDD.
+**Mikeal Rogers:** Hey, everybody! Welcome to JS Party, where it's a party every week with JavaScript. We've got a special guest today - say hello to John-David Dalton, also known as JDD.
 
 **John-David Dalton:** Hi! That's me, I'm JDD! \[laughter\]
 
@@ -22,7 +22,7 @@ We were joking earlier that we're highly qualified to do this, because Alex wrot
 
 **John-David Dalton:** I write code that supports both.
 
-**Mikeal Rogers:** So to really go as far back as we can, Javascript is like a thing you script include in your page, it's been that way for a long time. The first people to do everything are usually Dojo - they do it in this way that everybody ends up hating, but Dojo really did do modules first; they had an independent loader where you could really isolate your code and write your own stuff. This was way, way before sourcemaps, so in order to get line numbers while you were debugging, you really did have to do the async loading stuff. So they had this whole async loading system for debugging, they had a giant Java toolchain for actually bundling everything together before people really bundled their code like that.
+**Mikeal Rogers:** So to really go as far back as we can, JavaScript is like a thing you script include in your page, it's been that way for a long time. The first people to do everything are usually Dojo - they do it in this way that everybody ends up hating, but Dojo really did do modules first; they had an independent loader where you could really isolate your code and write your own stuff. This was way, way before sourcemaps, so in order to get line numbers while you were debugging, you really did have to do the async loading stuff. So they had this whole async loading system for debugging, they had a giant Java toolchain for actually bundling everything together before people really bundled their code like that.
 
 **Alex Sexton:** At first it was all synchronous, right? It literally used synchronous Ajax and eval().
 
@@ -42,7 +42,7 @@ We were joking earlier that we're highly qualified to do this, because Alex wrot
 
 **Alex Sexton:** James Burke was on the Dojo team, so AMD actually kind of came out of Dojo a little bit, and then was the official loader once the RequireJS kind of started to exist. But there was like the first synchronous loader, and then there was the asynchronous version of that, and then that kind of turned into the AMD spec. So even stuff we still kind of at least deal with today - I don't know too many people still using AMD, but it all comes from that original Dojo stuff very directly.
 
-**Mikeal Rogers:** So before we get into AMD though I think that we do need to rewind a little bit... I don't think that they really looked at Dojo at all when they did this, but there was this early ServerJS community where people were building a Javascript platform for the back-end. The primary one at the time was one called Narwhal, which was on the JVM. These were really dominant before Node came around, and there were a lot of people thinking about different ways to build out this backend. One interesting thing about Narwhal though was that it did have a lot of synchronous IO patterns inside of it.
+**Mikeal Rogers:** So before we get into AMD though I think that we do need to rewind a little bit... I don't think that they really looked at Dojo at all when they did this, but there was this early ServerJS community where people were building a JavaScript platform for the back-end. The primary one at the time was one called Narwhal, which was on the JVM. These were really dominant before Node came around, and there were a lot of people thinking about different ways to build out this backend. One interesting thing about Narwhal though was that it did have a lot of synchronous IO patterns inside of it.
 
 Their module system was synchronous, and \[unintelligible 00:05:31.29\] and all that kind of stuff. So they didn't do any sync load at all, because it didn't really matter to them, so they wrote this really simple module pattern...
 
@@ -52,7 +52,7 @@ Their module system was synchronous, and \[unintelligible 00:05:31.29\] and all 
 
 **John-David Dalton:** Okay.
 
-**Mikeal Rogers:** This was like the first more formalized spec for how you could write Javascript modules. Traditional NodeJS module users have seen this pattern, it's very similar. The big difference that I would note that is very important is that the module .exports equals a function, that whole pattern where a module can just be one function - that didn't exist in the CommonJS spec.
+**Mikeal Rogers:** This was like the first more formalized spec for how you could write JavaScript modules. Traditional NodeJS module users have seen this pattern, it's very similar. The big difference that I would note that is very important is that the module .exports equals a function, that whole pattern where a module can just be one function - that didn't exist in the CommonJS spec.
 
 **John-David Dalton:** Correct.
 
@@ -90,7 +90,7 @@ Anyway... Yeah, so that kind of brings us to ES modules. I think ES4 had a modul
 
 **Mikeal Rogers:** Right, so that dumps it into one property that is named at the top... That's totally reasonable! \[laughter\]
 
-**Alex Sexton:** It's totally different, but it's still -- I know in some systems, (like Java) whenever you import\* versus import something specific, your runtime gets a lot bigger, because you have to actually pull in all those things separately; there's separate files, all that kind of stuff. With Javascript it really matters; this is usually like a single file, it's rarely like someone re-exporting a bunch of stuff, so it ends up not changing anything.
+**Alex Sexton:** It's totally different, but it's still -- I know in some systems, (like Java) whenever you import\* versus import something specific, your runtime gets a lot bigger, because you have to actually pull in all those things separately; there's separate files, all that kind of stuff. With JavaScript it really matters; this is usually like a single file, it's rarely like someone re-exporting a bunch of stuff, so it ends up not changing anything.
 
 **Mikeal Rogers:** The main problem with it is that you have three import statements, and they all say "import\* from somewhere." One of them gets the bar property from foo, and then later in the code it's just calling bar, and you're like "Well, where the hell did bar come from? I need to know what this does, I need to look up its docs." \[laughs\] There's just no way to figure this out.
 
@@ -110,7 +110,7 @@ When Bradley started to really dig into this though (Bradley Meck) and figured o
 
 **John-David Dalton:** I got involved last year around May, June. I had seen a lot of the discussion about .mjs pop up, and I didn't really like the idea of a new file extension, so...
 
-**Mikeal Rogers:** Let's unwind that a little bit - why do you need a .mjs extension? In the browser, you have this new script include basically that signals "Hey, this is a new style module, not an old style Javascript thing", but we don't have that in Node.
+**Mikeal Rogers:** Let's unwind that a little bit - why do you need a .mjs extension? In the browser, you have this new script include basically that signals "Hey, this is a new style module, not an old style JavaScript thing", but we don't have that in Node.
 
 **John-David Dalton:** You have type=module in the browser; in Node... Node loads things based off of file extension. A .js file, a .json file, a .node are handled based on their extension, and then it defaults to .js; it falls back if it doesn't recognize the extension.
 
@@ -126,7 +126,7 @@ One of the things is like your EcmaScript module is going to have implicit stric
 
 **John-David Dalton:** But my main nitpick was just on the parse detection, or the detection of the goal. I didn't wanna introduce a new file extension, because that also carries over into the browser. I mean, you say the browser doesn't care what extension it is, but there's already blog posts that say "Hey, just write all your code in .mjs, even for the browser", and I think that seems unnecessary and it seems like there should be a way around that, so I've been kicking around alternatives.
 
-Last year I introduced with Bradley a proposal called "Unambiguous Javascript Grammar", which is a way that says "If your module has at least an import or an export, then you know that it is an ESM file, instead of a CommonJS file or a script target", because it has import or export.
+Last year I introduced with Bradley a proposal called "Unambiguous JavaScript Grammar", which is a way that says "If your module has at least an import or an export, then you know that it is an ESM file, instead of a CommonJS file or a script target", because it has import or export.
 
 At the time, Node really wanted that to be mandated by the language, so they took it to the TC39 and said "Hey, TC39, would you be interested in changing the language to mandate this?", basically saying that an ES module must have an import or export to make it unambiguous. The reason is that if you don't have an import or export, there's no way to determine if this is a script file or a CommonJS file or an ESM, because it could look like any of them. That happened to fall through though; they decided that no, they would not mandate that, and so because they couldn't get a language change, they went back to saying "Well, since we can't know based on grammar, we're gonna have to go back based on file extension", so they went, at least for right now, with that proposal.
 
@@ -190,7 +190,7 @@ But it has a lot of loader override-type things that kind of get towards that. T
 
 **Mikeal Rogers:** Right, right. I think the thing that nobody really saw coming was Babel taking off, and then frameworks being built as Babel toolchains, like React... At that point, you can use these new standards and just have them compile down to whatever. It's not even worth having an argument over what that's compiled down to, if it's AMD or CommonJS or whatever, as long as there's a good sourcemap.
 
-**Alex Sexton:** \[00:28:01.03\] I actually think it's still a little bit sad that -- like, it will eventually not be true anymore. Eventually, modules will work in the browser without Node, but I think it is a bad thing, and was bad for the web, or whatever - and there are tons of bad things for the web and it's fine, everything's gonna be fine... But I think it's a bad thing for the web that we let that happen, to the point where like if you want to use Javascript on the web, you also have to use Node. That became a rule. And that's great for Node, but bad for the web, I think. We locked people into "You must use this server-side Javascript thing in order to use this open platform that's a completely different ecosystem."
+**Alex Sexton:** \[00:28:01.03\] I actually think it's still a little bit sad that -- like, it will eventually not be true anymore. Eventually, modules will work in the browser without Node, but I think it is a bad thing, and was bad for the web, or whatever - and there are tons of bad things for the web and it's fine, everything's gonna be fine... But I think it's a bad thing for the web that we let that happen, to the point where like if you want to use JavaScript on the web, you also have to use Node. That became a rule. And that's great for Node, but bad for the web, I think. We locked people into "You must use this server-side JavaScript thing in order to use this open platform that's a completely different ecosystem."
 
 **Mikeal Rogers:** So this is what I'd argue with though - one, referring to it as a server-side thing is a little bit disingenuous, because when you use it this way, you're actually using it as like a front-end compile step, and you're using it as like the way you would use Python, or...
 
@@ -204,9 +204,9 @@ But it has a lot of loader override-type things that kind of get towards that. T
 
 **Alex Sexton:** They all could have got better in the same amount of time, if we--
 
-**Mikeal Rogers:** No, they couldn't, because the people that innovated-- people that have been innovating in these toolchains get to work in Javascript, and that's the language that they know and love, and they're part of that same community. And the reason why we have much better toolchain-- Node is not a particularly great language for this, actually... Doing everything from I/O in the callbacks is not particularly good at this case.
+**Mikeal Rogers:** No, they couldn't, because the people that innovated-- people that have been innovating in these toolchains get to work in JavaScript, and that's the language that they know and love, and they're part of that same community. And the reason why we have much better toolchain-- Node is not a particularly great language for this, actually... Doing everything from I/O in the callbacks is not particularly good at this case.
 
-**Alex Sexton:** Your bias is showing, in my opinion. I think we can parse Javascript modules in any language that we want...
+**Alex Sexton:** Your bias is showing, in my opinion. I think we can parse JavaScript modules in any language that we want...
 
 **Mikeal Rogers:** But we were...
 
@@ -214,17 +214,17 @@ But it has a lot of loader override-type things that kind of get towards that. T
 
 **Mikeal Rogers:** And in Ruby.
 
-**Alex Sexton:** ...and two, there were plenty of really fundamental, huge leaps in tooling that happened in Rails and in a lot of these things prior to any of this taking off, and to think that those tools would have just stagnated because Node never existed to come save the day because everyone could type everything in Javascript--
+**Alex Sexton:** ...and two, there were plenty of really fundamental, huge leaps in tooling that happened in Rails and in a lot of these things prior to any of this taking off, and to think that those tools would have just stagnated because Node never existed to come save the day because everyone could type everything in JavaScript--
 
 **Mikeal Rogers:** No, no, no, that's not what I'm saying...
 
 **Alex Sexton:** That's exactly what you're saying! So silly...
 
-**Mikeal Rogers:** No, what I'm saying is that it's definitely revisionist history to say that it would have been better if we didn't have to use Node for these things, because what we get from having a toolchain that can take all of these different Node pieces and put them together, regardless of what language it's in, is more valuable than not having it. So we were gonna move to this system anyway, and the reason that we moved to Node was because these people were able to innovate quicker in Javascript.
+**Mikeal Rogers:** No, what I'm saying is that it's definitely revisionist history to say that it would have been better if we didn't have to use Node for these things, because what we get from having a toolchain that can take all of these different Node pieces and put them together, regardless of what language it's in, is more valuable than not having it. So we were gonna move to this system anyway, and the reason that we moved to Node was because these people were able to innovate quicker in JavaScript.
 
 You were at it, I remember that you were here -- so in 2011 at the first NodeConf in Portland we had a panel, and one of the questions to the panel was "What should you not use Node for?" and everyone on the panel agreed - Ryan Dahl, Isaac... Everybody. I think Brendan Eich was even on it. You probably don't wanna use this for systems stuff, for what you use make scripts for and things like that. It's nice to have asynchronous flow when you do that stuff... Literally the thing that is maybe the major use case right now, and we were saying "No, it's probably not good for this." And at the time, \[unintelligible 00:31:22.15\] was able to wrap half of all the modules in Node, so that tells you the size of the ecosystem at the time that npm had grown to.
 
-After that, there were so many things written in Node and so many things written in Javascript that could be compiled down to the browser that it was like "Oh wow, we get to tap into this great ecosystem when we write this tooling. This is a much better language to do this in", and a bunch of people stopped doing this stuff in Ruby and started doing it in Node. They found it better, even though it's not particularly a better language.
+After that, there were so many things written in Node and so many things written in JavaScript that could be compiled down to the browser that it was like "Oh wow, we get to tap into this great ecosystem when we write this tooling. This is a much better language to do this in", and a bunch of people stopped doing this stuff in Ruby and started doing it in Node. They found it better, even though it's not particularly a better language.
 
 **Alex Sexton:** No, they found it required...
 
@@ -242,7 +242,7 @@ Revisionist history is to say like "Oh, well the Rails tools aren't good now." T
 
 **Alex Sexton:** I'm not saying that they aren't better.
 
-**John-David Dalton:** I thought they won because just -- I wanna write in Javascript, so when the opportunity came to be able to do that and have system-level access be able to write files and load modules and reuse code, I jumped at it. That was a no-brainer for me to switch.
+**John-David Dalton:** I thought they won because just -- I wanna write in JavaScript, so when the opportunity came to be able to do that and have system-level access be able to write files and load modules and reuse code, I jumped at it. That was a no-brainer for me to switch.
 
 **Alex Sexton:** Yeah, so I think maybe both of you are misunderstanding me. I would have immediately used all of the Node's stuff... I think it is the best tool for the job etc. etc., but I think that it is explicitly anti-web to essentially say "This is the new standard", even if it's not a real standard; everyone said "This is how everyone has to do it from now on", which required people running Node. I think the fact that Node was the standard for modules and it did not work on the web without using Node was a step backwards before we took steps forward. That's all I'm saying. I still would have used it.
 
@@ -284,7 +284,7 @@ All I'm saying is that everything's fine and I used the tools that were the best
 
 **Mikeal Rogers:** \[00:40:06.26\] I don't know, I'm so much skeptical of our ability to cut up the application code this much to make a big difference for secondary and third loads, when if you have a service worker, it gets loaded after the first load anyway, and if you have a mechanism by which you can update it before they requested the new code, like when you publish something it gets downloaded by the user in the background before it's actually needed - that's always gonna be much, much faster.
 
-**Alex Sexton:** There are definitely parts of the solution to this problem, but you can never get around the fact that the first time that you go to a web page, it takes 10 seconds on a not brand new iPhone to parse the Javascript. It's a real problem and it's not going away. I think out current build system is a direct child -- the cause of it is because we adopted a synchronous server-side tool for doing web building, and it worked for a long time.
+**Alex Sexton:** There are definitely parts of the solution to this problem, but you can never get around the fact that the first time that you go to a web page, it takes 10 seconds on a not brand new iPhone to parse the JavaScript. It's a real problem and it's not going away. I think out current build system is a direct child -- the cause of it is because we adopted a synchronous server-side tool for doing web building, and it worked for a long time.
 
 **Mikeal Rogers:** I don't agree with that at all, but okay. \[laughs\] At some point we have to move on though. Alright... So Alex Russell is gonna take a break, and then we're gonna get Alex Sexton back for a minute. \[laughs\] When we come back, we can get into the project of the week.
 
@@ -336,7 +336,7 @@ One of the first things I did was reach out to one of the Acorn devs to see if t
 
 **John-David Dalton:** To me, it's super simple - it's one function call, then after that you get it. What's nice is, as you see based on the readme, it works in the Node REPL too, which is where you just require it and then all of a sudden the syntax just works, import/export after that, which is super handy. I dig that, too.
 
-One of the things I'm excited about that's non-standard is the support of gzipped modules. You know the browser supports gzipped compression for your resources - Javascript, CSS, HTML... It seamlessly handles that; Node doesn't seamlessly handle loading those kinds of resources. Node has gzip support built in, but there's just not a loader mechanism for it. Because Lodash is depended on by a good chunk of the ecosystem, I get to see report after report about filesize, and the current build tools - going back to build tools having some issues - don't show the minified gzipped size of something, they show the on-disk size of your Node modules package, and Lodash happens to ship its dev build in the Node package. That means it's got all of it's documentation and source code in-lined, so it's a 4 mb on disk.
+One of the things I'm excited about that's non-standard is the support of gzipped modules. You know the browser supports gzipped compression for your resources - JavaScript, CSS, HTML... It seamlessly handles that; Node doesn't seamlessly handle loading those kinds of resources. Node has gzip support built in, but there's just not a loader mechanism for it. Because Lodash is depended on by a good chunk of the ecosystem, I get to see report after report about filesize, and the current build tools - going back to build tools having some issues - don't show the minified gzipped size of something, they show the on-disk size of your Node modules package, and Lodash happens to ship its dev build in the Node package. That means it's got all of it's documentation and source code in-lined, so it's a 4 mb on disk.
 
 \[00:52:33.12\] Lodash 5 will be gzipped and will be less than 90 kb on disk, so I've optimized it heavily there. One of the secret sauces to that is loading gzipped files seamlessly. To the end user, their code will just work, but instead of it loading a .js file, it's loading a .js.jz or .mjs.jz file.
 
@@ -388,7 +388,7 @@ With that, I think the need for individual packages will be reduced, and I can s
 
 **Mikeal Rogers:** \[01:00:19.13\] In order to do this, are Rollup and Webpack gonna have to become aware of your module system?
 
-**John-David Dalton:** Actually, for the gzip files, they will; they will have to become aware. I have already contributed the loader to Webpack, and it's part of their Webpack-contrib. So it's already in Webpack, it's already been published for them. For the other ones, yeah, they'll have to. What's great is that it's about two lines of Javascript to get it to work. It's really not complex, because Node already has gzip support, has a Zlib module, so... It's like, you read the file in, as a buffer, you pass it to the gzip decompressor and then you spit out the output (it's super tiny), but yeah, they'll have to add that, and I think that with Lodash it will get added, so I'm not super worried about that. There will be a time where Webpack will have it, and others won't. But I use Webpack, it's the thing with momentum, so I went and targeted that first.
+**John-David Dalton:** Actually, for the gzip files, they will; they will have to become aware. I have already contributed the loader to Webpack, and it's part of their Webpack-contrib. So it's already in Webpack, it's already been published for them. For the other ones, yeah, they'll have to. What's great is that it's about two lines of JavaScript to get it to work. It's really not complex, because Node already has gzip support, has a Zlib module, so... It's like, you read the file in, as a buffer, you pass it to the gzip decompressor and then you spit out the output (it's super tiny), but yeah, they'll have to add that, and I think that with Lodash it will get added, so I'm not super worried about that. There will be a time where Webpack will have it, and others won't. But I use Webpack, it's the thing with momentum, so I went and targeted that first.
 
 **Mikeal Rogers:** That's great. Alex, do you have any remaining questions before we move on to picks?
 
@@ -396,7 +396,7 @@ With that, I think the need for individual packages will be reduced, and I can s
 
 **Mikeal Rogers:** Yeah, this is all super compelling. Alright, Alex, why don't you kick us off.
 
-**Alex Sexton:** I am going to pick somewhat of an ecosystem of ideas, kind of... It's the Fantasy Land specification. At Stripe we use some types, and then there's some people who are really into types, and they make me use them a little more than I like, but some things end up being really pretty and good... And there's kind of this specification for interoperability of common algebraic structures in Javascript called Fantasy Land. I think they're referring to the fact that if everyone used this, everything would be so much better, which is like, maybe...
+**Alex Sexton:** I am going to pick somewhat of an ecosystem of ideas, kind of... It's the Fantasy Land specification. At Stripe we use some types, and then there's some people who are really into types, and they make me use them a little more than I like, but some things end up being really pretty and good... And there's kind of this specification for interoperability of common algebraic structures in JavaScript called Fantasy Land. I think they're referring to the fact that if everyone used this, everything would be so much better, which is like, maybe...
 
 **John-David Dalton:** Actually, I believe they were naming it that because someone had been poking fun at them in a Reddit thread, and they said "You must be living in a fantasy land!" and that's how the spec name came.
 
@@ -436,7 +436,7 @@ I would say look to those, especially if you use them in your day job. If you us
 
 **Mikeal Rogers:** Cool. My pick is Mapzen. If you've ever had to integrate a map with a website or app that you're using, you probably poked around with a few things that are terrible and then settled on Mapbox. Mapbox's definitely set like a great standard - they were better than everything else - but they get really pricey really fast if you go past the free tier.
 
-\[01:07:12.08\] Also, I have a bunch of code sitting around that I have to copy and paste in in order to figure out how to do things. So the Mapzen Javascript API is just a little bit more evolved, a little bit easier to use. They have a lot of the same support and cool tools and everything, but it's just a bit easier, the ergonomics are a bit nicer, and much more incremental pricing, so... I'm loving Mapzen. That's it.
+\[01:07:12.08\] Also, I have a bunch of code sitting around that I have to copy and paste in in order to figure out how to do things. So the Mapzen JavaScript API is just a little bit more evolved, a little bit easier to use. They have a lot of the same support and cool tools and everything, but it's just a bit easier, the ergonomics are a bit nicer, and much more incremental pricing, so... I'm loving Mapzen. That's it.
 
 Alright, thanks everybody for joining us, thanks JDD for coming on for this episode.
 

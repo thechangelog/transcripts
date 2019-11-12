@@ -1,4 +1,4 @@
-**Jerod Santo:** Alright everyone, welcome all to another JS Party... And we like to clear the stage right up front and say this is not - and I repeat, NOT - a Javascript party. Do you hear me, Oracle's lawyers? This is a JS party, and we're not interested in any ceases or any desists, so... JS Party, thank you very much.
+**Jerod Santo:** Alright everyone, welcome all to another JS Party... And we like to clear the stage right up front and say this is not - and I repeat, NOT - a JavaScript party. Do you hear me, Oracle's lawyers? This is a JS party, and we're not interested in any ceases or any desists, so... JS Party, thank you very much.
 
 **Nick Nisi:** The Jerod Santo Party.
 
@@ -39,7 +39,7 @@ We're here to talk about them today, and kball, this was your idea, so I'm gonna
 
 **Kevin Ball:** Yeah, for sure. Well, first I wanna say why have things changed, and the reason is it's no longer just Google. Back in the day, it was Google pushing this with Chrome, but now Safari has added support, Microsoft is treating PWAs as first-class citizens, so there's a whole new world when it comes to a PWA.
 
-A PWA means "progressive web app", and it's kind of similar to thinking about progressive enhancement, where you're adding things -- in design, you would progressively enhance with Javascript or things like that, except here it's talking about the network. So you want something that's going to function, in some form, even without a network connection or with a very slow network connection, and then scale up to be a full-featured web connected application.
+A PWA means "progressive web app", and it's kind of similar to thinking about progressive enhancement, where you're adding things -- in design, you would progressively enhance with JavaScript or things like that, except here it's talking about the network. So you want something that's going to function, in some form, even without a network connection or with a very slow network connection, and then scale up to be a full-featured web connected application.
 
 **Jerod Santo:** So there's certain aspects of it which I guess are required... I mean, the PWA designation, first of all, is somewhat of a marketing term, or it's a loosey-goosey thing; there's checklists and stuff, but it's not like you're gonna go and be like "npm install pwa" or something like that. It's looseyer than that, right?
 
@@ -161,7 +161,7 @@ It was a similar thing where people don't really make the jump to "I'm gonna add
 
 **Jerod Santo:** Nice.
 
-**Safia Abdalla:** It says that you also got a valid tag set up on like the viewport meta tag thing where you said it's like initial scale, or whatever... I'm not making any sense, but I think people know what I'm talking about. And content is sized correctly for the viewport, so I guess that's saying it's responsive... And it says "Contains some content when Javascript is not available", so I guess it loads alright.
+**Safia Abdalla:** It says that you also got a valid tag set up on like the viewport meta tag thing where you said it's like initial scale, or whatever... I'm not making any sense, but I think people know what I'm talking about. And content is sized correctly for the viewport, so I guess that's saying it's responsive... And it says "Contains some content when JavaScript is not available", so I guess it loads alright.
 
 \[00:24:06.22\] You failed because you did not register a service worker - what kball was talking about earlier. It does not respond with HTTP status code 200 when offline. You don't prompt the user to install the web app; it's not configured with a custom splash screen, and the address bar does not match brand colors, which can be done, I guess, with the theme color meta tag.
 
@@ -181,7 +181,7 @@ It was a similar thing where people don't really make the jump to "I'm gonna add
 
 Besides what I've seen previously, what else could I cache and provide offline that would be of any use to somebody without hitting our server? There's really not much else there. Maybe recent episodes I've listened to, but now you're taking up a hundred megs of space... There's certain things, like LetsEncrypt, right? HTTPs - everybody should have HTTPS websites, but should everybody have PWAs? That's, I guess, the bigger question. Or is it for a certain class of things?
 
-**Kevin Ball:** Good question. And some of it comes back to what Safia was saying about this not being just about something that we can handle offline behavior, but better performance, better interaction, right? If you can use a service worker to cache the most recent content and all your Javascript and CSS or something like that, you can provide somebody something that feels like it's ready instantly, even if to interact with it you're gonna need to go back to the server, right? It's gonna be something that has a much better interaction paradigm for somebody who's on a slow network connection.
+**Kevin Ball:** Good question. And some of it comes back to what Safia was saying about this not being just about something that we can handle offline behavior, but better performance, better interaction, right? If you can use a service worker to cache the most recent content and all your JavaScript and CSS or something like that, you can provide somebody something that feels like it's ready instantly, even if to interact with it you're gonna need to go back to the server, right? It's gonna be something that has a much better interaction paradigm for somebody who's on a slow network connection.
 
 **Jerod Santo:** Fair enough. So aside from getting content when your connection is slow - that's basically the baseline here with service workers - the other big aspect of it is access to the homescreen. Now, there's certain people -- we have an article that we linked up to recently called "I built a PWA and published it into three app stores. Here's what I learned", and basically what they learned was it took a lot of work... Not building the PWA took a lot of work, but dealing with all the different app stores took a lot of work.
 
@@ -260,7 +260,7 @@ So yeah, that experience -- and the same with Twitter, where it wasn't a seamles
 
 **Kevin Ball:** Yeah, so that was something that was pretty interesting - Microsoft published a post saying "Hey, welcome PWAs to the Microsoft Store", and they have the ability for any progressive web app to be a first-class citizen in the store. You discover it in the store, you find it. They are adding things automatically, so they're scraping the web - they already do that for Edge - and if they find something as a PWA that scores highly or whatever, they will add it automatically to their store, to be discovered there. They also let you submit things in sort of the standard way.
 
-What they do is they say "If you install through the store, then your PWA gets treated as a first-class citizen by Windows." They inject a whole bunch of Microsoft-specific APIs into your global Javascript scope, so suddenly you can access all of these deep-in-the-guts pieces of Windows through Javascript, and essentially do anything that any other app in the Microsoft ecosystem can.
+What they do is they say "If you install through the store, then your PWA gets treated as a first-class citizen by Windows." They inject a whole bunch of Microsoft-specific APIs into your global JavaScript scope, so suddenly you can access all of these deep-in-the-guts pieces of Windows through JavaScript, and essentially do anything that any other app in the Microsoft ecosystem can.
 
 It's different than the approach that Google has taken with Android, where they also exposed a bunch of things, but they've kind of tried to go through the standards bodies and say "Hey, we're gonna create a standard for how you access push notifications. It's a push API. We're gonna create a standard for how you access voice recognition, and then implement that in Chrome", and what have you.
 

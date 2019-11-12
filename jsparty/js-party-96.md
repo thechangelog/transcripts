@@ -1,6 +1,6 @@
 **Jerod Santo:** Alright, welcome back to JS Party, everyone. We are here with a very special show and a very special guest. It's Atul from NodeGUI and NodeGUI-React. Atul, thanks so much for joining JS Party with us today.
 
-**Atul R:** Yeah, hi everyone. My name is Atul, I am a software engineer working with a fintech startup called Anyfin. I am currently based out of Stockholm, Sweden. I'm originally from India. I primarily work in the Javascript ecosystem, but occasionally I hack around with C++ and Rust in my free time... And I'm so excited to be here to talk about NodeGUI, which is my latest and most recent project that I'm working on.
+**Atul R:** Yeah, hi everyone. My name is Atul, I am a software engineer working with a fintech startup called Anyfin. I am currently based out of Stockholm, Sweden. I'm originally from India. I primarily work in the JavaScript ecosystem, but occasionally I hack around with C++ and Rust in my free time... And I'm so excited to be here to talk about NodeGUI, which is my latest and most recent project that I'm working on.
 
 **Jerod Santo:** Awesome! Great to have you. Joining me, my partner in crime today to chat with Atul is Nick Nisi. What's up, Nick?
 
@@ -14,7 +14,7 @@
 
 **Nick Nisi:** Yes.
 
-**Jerod Santo:** And when you're trying to stay healthy, sometimes it backfires and you get less healthy. \[laughs\] It's the risks we take... But we're not here to talk about that and embarrass Nick, we're here to talk about NodeGUI and hopefully not embarrass Atul. A very cool project, NodeGUI and NodeGUI-React. This is an open source library for building cross-platform native desktop applications with Javascript and CSS-like styling. NodeGUI apps can run on the Mac, they can run on Windows and on Linux from a single codebase, so a somewhat typical story in the cross-platform regard... But it has some unique aspects to it, and so we're happy to talk about it.
+**Jerod Santo:** And when you're trying to stay healthy, sometimes it backfires and you get less healthy. \[laughs\] It's the risks we take... But we're not here to talk about that and embarrass Nick, we're here to talk about NodeGUI and hopefully not embarrass Atul. A very cool project, NodeGUI and NodeGUI-React. This is an open source library for building cross-platform native desktop applications with JavaScript and CSS-like styling. NodeGUI apps can run on the Mac, they can run on Windows and on Linux from a single codebase, so a somewhat typical story in the cross-platform regard... But it has some unique aspects to it, and so we're happy to talk about it.
 
 It made quite a splash when you announced it last month, Atul. So we heard where you're from and what got you here, but tell us about NodeGUI and why you decided to make this project, and what makes it different from what we've seen before.
 
@@ -22,7 +22,7 @@ It made quite a splash when you announced it last month, Atul. So we heard where
 
 \[00:04:05.01\] I started building it out around a year and a half with Electron. I could build it out, I finished it, but the problem was that it started using a lot of CPU and memory on the side... And I was basically stuck, because I can't just play a music player and not do anything else on the side; that doesn't work.
 
-I set out looking for other alternatives, but couldn't find anything which is really optimal... So I started building a small framework, which was NodeGUI. Back at that time I used to also work with Qt on my free time. Qt is basically a C++ framework to build cross-platform native desktop applications. The thing with Qt is that it's not as easy to work with, because it's C++, so you have to handle all the pointers and memory issues and everything... So I started creating a wrapper around it so that I could export it to Javascript.
+I set out looking for other alternatives, but couldn't find anything which is really optimal... So I started building a small framework, which was NodeGUI. Back at that time I used to also work with Qt on my free time. Qt is basically a C++ framework to build cross-platform native desktop applications. The thing with Qt is that it's not as easy to work with, because it's C++, so you have to handle all the pointers and memory issues and everything... So I started creating a wrapper around it so that I could export it to JavaScript.
 
 After a while I figured that -- I basically started working on the music player, and now I started working on the complete framework itself. So I still haven't completed building out my music player yet, but hopefully that will happen someday... But I was also working on my professional time on React; I was kind of inspired by React Native. React Native makes it very simple to make mobile applications... And I used to work with Cordova back in the day, and it was kind of like a browser solution for the mobile apps, so I wanted something similar for the desktop application also. Currently, all the desktop frameworks are on Electron, which is a browser-based solution.
 
@@ -30,7 +30,7 @@ I really love Electron for its simplicity and documentation and everything, but 
 
 But yeah, this was a side project... When I launched it, I received a lot of traction, and I basically started working on it a bit more seriously... So yeah, that's pretty much the story.
 
-**Jerod Santo:** I giggle a little bit - the fact that you don't have your music player yet... It reminds me, there's an old proverb where there's some scientist versus God, and they're trying to invent a sandwich from scratch... So the scientist goes out and they start trying to plant some wheat. And right when they get to digging, God stops them and says "Hey, get your own dirt." And I feel like as developers we're kind of like that; I mean, we're at a much higher abstraction than dirt at this point, especially in the Javascript ecosystem, but we're very much inventing our tools more than we're actually working on the things that we set out to do. It's like "Okay, now I have to invest the universe in order to create this little mp3 player."
+**Jerod Santo:** I giggle a little bit - the fact that you don't have your music player yet... It reminds me, there's an old proverb where there's some scientist versus God, and they're trying to invent a sandwich from scratch... So the scientist goes out and they start trying to plant some wheat. And right when they get to digging, God stops them and says "Hey, get your own dirt." And I feel like as developers we're kind of like that; I mean, we're at a much higher abstraction than dirt at this point, especially in the JavaScript ecosystem, but we're very much inventing our tools more than we're actually working on the things that we set out to do. It's like "Okay, now I have to invest the universe in order to create this little mp3 player."
 
 **Atul R:** Yeah. But one thing which I focused on was not to reinvent everything, so I basically took out some inspiration from how Electron works internally. I even had a chat with the Electron team; they were pretty helpful. They basically scheduled a 15-minute video chat to discuss on how I can proceed... Even though we had kind of a competing framework. But it's pretty awesome to see how helpful and how awesome the open source community is, and especially the Electron team.
 
@@ -40,7 +40,7 @@ So yeah, based on that inspiration, I -- it follows kind of a similar architectu
 
 **Atul R:** Yeah, so Qt is basically a cross-platform C++ framework, so it basically renders all your widgets on the native code. For example, on the operating system OS X it would render something with Cocoa framework... Things like that. But it also has a web browser engine, which I'm not using right now. But I will have a Web View component soon on NodeGUI itself.
 
-\[00:08:04.15\] Currently, what it does is something like what React Native does - it runs the Javascript code, but in the end it makes native calls to the native APIs to generate native widgets on the fly.
+\[00:08:04.15\] Currently, what it does is something like what React Native does - it runs the JavaScript code, but in the end it makes native calls to the native APIs to generate native widgets on the fly.
 
 **Nick Nisi:** Okay.
 
@@ -48,7 +48,7 @@ So yeah, based on that inspiration, I -- it follows kind of a similar architectu
 
 **Nick Nisi:** Oh, wow.
 
-**Atul R:** So you now have Javascript and CSS, but not a browser, basically. So all your CSS styling is there, and that cascading stuff is there. You could basically select a particular widget with the IDE and then do pseudo selectors like hover, or things like that... Which is amazing. That's why I chose Qt.
+**Atul R:** So you now have JavaScript and CSS, but not a browser, basically. So all your CSS styling is there, and that cascading stuff is there. You could basically select a particular widget with the IDE and then do pseudo selectors like hover, or things like that... Which is amazing. That's why I chose Qt.
 
 **Jerod Santo:** That's pretty cool. I never knew you could do that with Qt. It seems odd...
 
@@ -64,7 +64,7 @@ So yeah, based on that inspiration, I -- it follows kind of a similar architectu
 
 **Jerod Santo:** I mentioned there's two projects here, worth making the distinction, because you've made the distinction in your repos, and I think in the way that you built it out... You have NodeGUI itself, and then you have NodeGUI-React. Tell us about that distinction and the React story here.
 
-**Nick Nisi:** Yeah. So NodeGUI is basically a pure Javascript version. It does not use any other -- it's basically like writing document.createElement() in the web world, where you could just create a particular div, or things like that. But React NodeGUI is kind of a React renderer, something similar to what React Native is. You can write all the widgets as components, and then share state, or pass down props and everything. So it's a direct translation from NodeGUI, the syntax, to React syntax, and that allows a lot of flexibility, like managing states, and things like what React provides out of the box.
+**Nick Nisi:** Yeah. So NodeGUI is basically a pure JavaScript version. It does not use any other -- it's basically like writing document.createElement() in the web world, where you could just create a particular div, or things like that. But React NodeGUI is kind of a React renderer, something similar to what React Native is. You can write all the widgets as components, and then share state, or pass down props and everything. So it's a direct translation from NodeGUI, the syntax, to React syntax, and that allows a lot of flexibility, like managing states, and things like what React provides out of the box.
 
 And why I chose React is basically I am mostly familiar with React, but there is also an Angular port coming out by another colleague of mine. He is working on an Angular port as we speak.
 
@@ -80,7 +80,7 @@ The best part of this is in most cases when the application is not in use, you w
 
 **Jerod Santo:** Sounds pretty nice to me. What about the developer experience in somebody who's familiar with Electron, or maybe already has an app on Electron? Is there any familiarity? Is there a path to porting, or is this just like "If you're starting fresh, try this", because they're way different in terms of use?
 
-**Atul R:** It is not quite straightforward, unfortunately. But if you have React-based applications and you had followed the nice patterns of abstracting out your components, like you created your own text in Vue and other components, you could eventually port the entire stuff by rewriting only the Vue layer, the atoms of a particular project, like text or anything... But yeah, other than that, sadly at this point in time it's a complete rewrite. But it is quite similar to how you build applications on the web, so you don't have to learn anything new. You would do something similar to what you do on a web page for styling; it's just plain Javascript when you use it.
+**Atul R:** It is not quite straightforward, unfortunately. But if you have React-based applications and you had followed the nice patterns of abstracting out your components, like you created your own text in Vue and other components, you could eventually port the entire stuff by rewriting only the Vue layer, the atoms of a particular project, like text or anything... But yeah, other than that, sadly at this point in time it's a complete rewrite. But it is quite similar to how you build applications on the web, so you don't have to learn anything new. You would do something similar to what you do on a web page for styling; it's just plain JavaScript when you use it.
 
 **Jerod Santo:** I guess the fact is complicated applications which have been architected in a way that have abstracted away their UI code probably have large portions of their codebase that would port over. They just have to rewrite the UI assuming that the UI is smaller than the rest of the app. Many of the small things that we write - it's like 99% UI, and there's this one little piece of functionality that we build, like "Play music." But if you have a complicated application, maybe your code surface is mostly business logic, and not mostly UI code, at which point that would make porting a little more manageable.
 
@@ -88,17 +88,17 @@ The best part of this is in most cases when the application is not in use, you w
 
 **Break:** \[00:14:45.21\]
 
-**Jerod Santo:** \[00:15:33.00\] Let's talk a little bit about cross-platform frameworks... Because they have a long history, and some people have had success with them. I think Electron has been one of the most successful, definitely in the Javascript space. But in general, a lot of these things have been developed, and tried, and sometimes left behind, sometimes stuck with it... There's problems that they present, and it almost all falls back on Qt, I think, in the place of NodeGUI, but I'd be interested to hear your thoughts on it. You have the problem of lowest common denominator, application abilities, like how you access APIs in the native OSes... You have sometimes the uncanny valley of UI, where it looks pretty much like it belongs, but it doesn't actually look like it belongs; it's close, but it's kind of like weird, especially with windowing, and widgets and stuff... Other issues that prop up when you're building one piece of code to present on multiple platforms. So I'm curious how NodeGUI stacks up in that direction, and just your thoughts on that in general.
+**Jerod Santo:** \[00:15:33.00\] Let's talk a little bit about cross-platform frameworks... Because they have a long history, and some people have had success with them. I think Electron has been one of the most successful, definitely in the JavaScript space. But in general, a lot of these things have been developed, and tried, and sometimes left behind, sometimes stuck with it... There's problems that they present, and it almost all falls back on Qt, I think, in the place of NodeGUI, but I'd be interested to hear your thoughts on it. You have the problem of lowest common denominator, application abilities, like how you access APIs in the native OSes... You have sometimes the uncanny valley of UI, where it looks pretty much like it belongs, but it doesn't actually look like it belongs; it's close, but it's kind of like weird, especially with windowing, and widgets and stuff... Other issues that prop up when you're building one piece of code to present on multiple platforms. So I'm curious how NodeGUI stacks up in that direction, and just your thoughts on that in general.
 
 **Atul R:** Yeah, one of the main reasons why I chose Qt was the same thing. When I used other frameworks out there to build out the desktop applications that I wanted, I couldn't style them to my needs. For example, they always gave me the native look, but sometimes I want to build something which is very custom... So what Qt does is it allows you to paint over the native widget itself. You could customize it to whatever you like. The same way that you do it on web - you could just style your buttons to look whatever you like using CSS, similarly you could do it with NodeGUI. So you could make it look like a mobile app, or you can make a macOS app look like a Windows app, for example. That kind of flexibility allows me to build any kind of styling or UI that I want.
 
 Secondly, one of the most important things I felt was that in the case of React Native, why it's so successful, is that you could build out your own native widgets or native plugins other than what React Native provides. Something like a native plugin support was actually needed, which is what I released around 3-4 days ago. With this, you could actually build out or export out more widgets from Qt or any other C++ framework or anything native onto the NodeGUI world, by just writing an action plugin.
 
-**Nick Nisi:** And would that plugin be in Javascript, or in C++?
+**Nick Nisi:** And would that plugin be in JavaScript, or in C++?
 
-**Atul R:** Yeah, so you would need to write a bit of native code if you wanna export out native functionalities... But the end user would always use the Javascript counterpart, which is what React Native also does, in the end, right? All the native plugins you write in either Java, or iOS code, and then you export it out to Javascript.
+**Atul R:** Yeah, so you would need to write a bit of native code if you wanna export out native functionalities... But the end user would always use the JavaScript counterpart, which is what React Native also does, in the end, right? All the native plugins you write in either Java, or iOS code, and then you export it out to JavaScript.
 
-Yeah, so that was one of the primary focuses this time, this week. And one of the more interesting features are event support - so all the events that Qt supports are now exported out. Node.js support something called EventEmitter, so I just send all the events from the Qt world or the native desktop world to the event emitter, and the event emitter converts it to Javascript events. That way you have access to an entire event system, and all the style sheets that are provided by Qt; even Flexbox layering is supported.
+Yeah, so that was one of the primary focuses this time, this week. And one of the more interesting features are event support - so all the events that Qt supports are now exported out. Node.js support something called EventEmitter, so I just send all the events from the Qt world or the native desktop world to the event emitter, and the event emitter converts it to JavaScript events. That way you have access to an entire event system, and all the style sheets that are provided by Qt; even Flexbox layering is supported.
 
 React Native also uses something called Yoga, which is a layouting library; it allows you to do layouts based on Flexbox, things like line items, or justified content, or something like that... So now you can do that with NodeGUI also.
 
@@ -128,7 +128,7 @@ React Native also uses something called Yoga, which is a layouting library; it a
 
 **Nick Nisi:** What's the debugging story like, and how does it compare to something like React Native?
 
-**Atul R:** The debugging story is pretty similar to what you are used to in Node.js. You could set up breakpoints and everything by just calling it with --inspect on the Javascript side. But even on the C++ side you have some part of debugging, because C++ supports something called as GDB. So even in VS Code you have GDB plugins which you can just plug in and you can debug your actual C++ code inside of NodeGUI, while you're working on it... If you want to do it, that is; otherwise, you could always inspect on the Javascript side by using regular Node debugging tools, like Node Inspector, or things like that.
+**Atul R:** The debugging story is pretty similar to what you are used to in Node.js. You could set up breakpoints and everything by just calling it with --inspect on the JavaScript side. But even on the C++ side you have some part of debugging, because C++ supports something called as GDB. So even in VS Code you have GDB plugins which you can just plug in and you can debug your actual C++ code inside of NodeGUI, while you're working on it... If you want to do it, that is; otherwise, you could always inspect on the JavaScript side by using regular Node debugging tools, like Node Inspector, or things like that.
 
 **Nick Nisi:** \[00:24:18.28\] Yeah, nice.
 
@@ -138,7 +138,7 @@ React Native also uses something called Yoga, which is a layouting library; it a
 
 **Atul R:** Yeah, so anything that runs on Node.js can run on this pretty seamlessly. Even the native plugins, with something like a SASS or things like that, if you wanna run, you could run it... If they have those C++ add-ons, they will run properly on this.
 
-The only thing is while packaging a unit, to make sure that the Node add-ons that you are packaging, you actually also package the binaries with it, so that they actually run... But this is all taken care of by package library that I introduced; it's called NodeGUI Package. That basically is a webpack which collects all the add-ons, Javascript and everything, and packages it.
+The only thing is while packaging a unit, to make sure that the Node add-ons that you are packaging, you actually also package the binaries with it, so that they actually run... But this is all taken care of by package library that I introduced; it's called NodeGUI Package. That basically is a webpack which collects all the add-ons, JavaScript and everything, and packages it.
 
 **Jerod Santo:** So once you have an app package, is there anything in there that would prevent it perhaps from being accepted in any of the popular app stores, or distribution mechanisms?
 
@@ -176,7 +176,7 @@ There are a few code members already; there are two people apart from me who are
 
 I did start building this around a year ago, to be honest, and I stopped in-between. The reason is I thought I could build it out with Electron and other frameworks. There were pretty similar ideas coming out in the wild already.
 
-The main focus here is on Linux, and I use Linux personally for as a desktop platform, and there are not many good applications over there for Linux. The reason is people don't develop it because you have to develop in native languages, and this is seen as a possible step towards it, because there are a lot of Javascript devs who are willing to work on open source technology. So yeah, it's primarily built for Linux, so that people could build out stuff for it.
+The main focus here is on Linux, and I use Linux personally for as a desktop platform, and there are not many good applications over there for Linux. The reason is people don't develop it because you have to develop in native languages, and this is seen as a possible step towards it, because there are a lot of JavaScript devs who are willing to work on open source technology. So yeah, it's primarily built for Linux, so that people could build out stuff for it.
 
 **Jerod Santo:** Maybe - just maybe - NodeGUI will usher in the year of the Linux desktop.
 
