@@ -52,7 +52,7 @@ Finally, I thought, "You know who's really good with news? It's Saron Yitbarek, 
 
 So it started with just a Twitter chat, it started with using the hashtag CodeNewbie, and just me tweeting out from my personal account and saying "Hey, if you're out there and you're learning to code, what are you learning? What are you excited about? What are some languages, what are some resources that you'd like to share?" And the people responded. We did that for many months, and it kept growing, and it kept building momentum, and it got to a point where I said "These Twitter chats are great, but you can't really do in-depth conversations with Twitter chats." So I said, huh - a podcast is a really good format for in-depth conversations, so that's how the podcast got started.
 
-And then from there we've started doing project nights; once a week we have a Ruby team, we have a Javascript team, we have a Python theme, and we actually started doing Saturday discussions, and we're doing a book club as well, and we're starting a new thing called Iron Coder, where people challenge each other and take on little code quotas and work together to solve them.
+And then from there we've started doing project nights; once a week we have a Ruby team, we have a JavaScript team, we have a Python theme, and we actually started doing Saturday discussions, and we're doing a book club as well, and we're starting a new thing called Iron Coder, where people challenge each other and take on little code quotas and work together to solve them.
 
 **Adam Stacoviak:** Aah...
 
@@ -486,7 +486,7 @@ So every Sunday evening I poke him and I go "Remember we have to do the podcast 
 
 We also have a volunteer community manager; all of our team project leads are volunteers. We actually just opened up two local in-person meetups. We have one in Austin, and we have one that we announced very recently in Atlanta, and those are also volunteer organizers.
 
-So I'm so, so lucky that for the most part everyone that I'm working with and that has helped came to me, and it wasn't me saying "I need a team lead for this. Who's available?" It was them saying "Hey, I really wanna get involved, and I wanna help out. I wanna bring this to my community, I wanna bring this to Javascript. I want to take on a leadership role; what can I do?"
+So I'm so, so lucky that for the most part everyone that I'm working with and that has helped came to me, and it wasn't me saying "I need a team lead for this. Who's available?" It was them saying "Hey, I really wanna get involved, and I wanna help out. I wanna bring this to my community, I wanna bring this to JavaScript. I want to take on a leadership role; what can I do?"
 
 When you asked about market research and this community, I think that there's so many people who are excited about making that transition, and so many people who are just really excited and really passionate to be creators for possibly the first time in their lives, and getting involved is a huge honor for them... And I think that's a huge part in the sustainability question.
 
@@ -516,7 +516,7 @@ Now I think that we've had slightly more front-end developers, and now I've gott
 
 \[01:00:01.27\] I think that it's really hard to have a community where 100% of the people you want to reach out to are being catered to. A big one for us is also timezones. Everything that we do is very U.S.-centric, and I've had a lot of people tweet at us and say "Oh, it'd be really great if we could have two Twitter chats - one in the morning and one in the evening, so people in different parts of Europe can join in." And for a while, I really wanted to cater to that, and I wanted to get as many people into it as I could, and I find that that is really hard; it's really hard to make everyone happy... So what I'm trying to do is I'm trying to listen as much as I can, and to understand what the major pain points and the major subjects are, and build around that.
 
-For us, U.S. timezones are obviously the easiest for me, the easiest for most of our team, and so we're probably gonna continue to be U.S.-centric for a while, unfortunately. Ruby, Javascript and Python are three languages we picked because those were the three languages that most people were learning. Eventually, if we get big enough and there's enough demand for a Java, or a Swift, or whatever it is...
+For us, U.S. timezones are obviously the easiest for me, the easiest for most of our team, and so we're probably gonna continue to be U.S.-centric for a while, unfortunately. Ruby, JavaScript and Python are three languages we picked because those were the three languages that most people were learning. Eventually, if we get big enough and there's enough demand for a Java, or a Swift, or whatever it is...
 
 **Jerod Santo:** Swift, yeah.
 

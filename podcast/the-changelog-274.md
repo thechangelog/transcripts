@@ -326,7 +326,7 @@ One of the things they said which they've regretted to a certain degree is that 
 
 **Jerod Santo:** Absolutely.
 
-**Mike Perham:** These people have shown an interest in the background job system. They've shown that they have the willpower to sort of learn a new system and dive in and sort of build something on top of it, and that goes a long way in building up a resume that recommends them. So we'll see what happens over time, but hopefully I can get half a dozen libraries for different languages that are well maintained and reliable... Because it really doesn't take more than that. You need a Javascript, you need a Python, you need possibly like a Java or a C\# library, and that's gonna get you 90% of the industry.
+**Mike Perham:** These people have shown an interest in the background job system. They've shown that they have the willpower to sort of learn a new system and dive in and sort of build something on top of it, and that goes a long way in building up a resume that recommends them. So we'll see what happens over time, but hopefully I can get half a dozen libraries for different languages that are well maintained and reliable... Because it really doesn't take more than that. You need a JavaScript, you need a Python, you need possibly like a Java or a C\# library, and that's gonna get you 90% of the industry.
 
 **Jerod Santo:** Right.
 

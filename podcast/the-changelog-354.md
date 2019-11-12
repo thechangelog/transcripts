@@ -66,7 +66,7 @@ So that was sort of our, "Here we are, we're ready for our close-up, Mr. DeMille
 
 **Ron Evans:** The TinyGo Playground is like the Go Playground; it's a website. You can find it at play.tinygo.org. If you look at it, it looks very much like the Go Playground - it's a web page that you can enter in the left pane your Go code, and in the right pane you see the console output. But it's using TinyGo.
 
-The interesting part is we also support using our hardware boards emulated, simulated within this web browser. So you write your TinyGo code on the left pane, and it actually is compiling to WebAssembly, which is then executing against the simulator in the browser itself. So when you see the little Javascript LEDs blinking, it's because your WebAssembly code is talking to the simulator in the browser to make them blink.
+The interesting part is we also support using our hardware boards emulated, simulated within this web browser. So you write your TinyGo code on the left pane, and it actually is compiling to WebAssembly, which is then executing against the simulator in the browser itself. So when you see the little JavaScript LEDs blinking, it's because your WebAssembly code is talking to the simulator in the browser to make them blink.
 
 **Jerod Santo:** That's cool.
 
@@ -132,7 +132,7 @@ Go, the main Go implementation, the MGI, if you will... You can compile to WebAs
 
 **Ron Evans:** In fact, there was a really great blog post written by one of our team members, but a very cool collaborator; I'm sorry I forgot this person's name, but... The title of the blog post was "Using Go for WebAssembly, and then compressing it down to a 16k file using TinyGo." He had me at that point, "16k file using TinyGo", I'm in awe. But they were able to, using our code that's on the public internets, take an application that they had written using WebAssembly, compile it down to this ridiculously small size.
 
-Well, it gets better. It actually gets better. Someone else then did some WebGL experiments. I think it was Justin Clift. Using the WebGL interface from the Javascript bridge from WebAssemly, they discovered that TinyGo was actually 80% faster than the main Go implementation as well... Probably because we're using the LLVM compiler toolchain, and between Clang and LDD, which is the LLVM linker, it's getting rid of a lot of stuff.
+Well, it gets better. It actually gets better. Someone else then did some WebGL experiments. I think it was Justin Clift. Using the WebGL interface from the JavaScript bridge from WebAssemly, they discovered that TinyGo was actually 80% faster than the main Go implementation as well... Probably because we're using the LLVM compiler toolchain, and between Clang and LDD, which is the LLVM linker, it's getting rid of a lot of stuff.
 
 It's an unfair comparison, just because we're a speedboat and they're a battleship. Of course we're gonna win. If you want a cigarette boat race, an oil tanker is not the way you win.
 

@@ -160,7 +160,7 @@ Probably the easiest way to explain this is sort of walk you through the process
 
 So use Build to design the form, Aggregate to host the form and the submissions, and Collect to collect the data. That's a very typical use case.
 
-Because we have a kit, there's other ways of doing it. If you don't like a drag-and-drop form designer, we have an Excel-based form designer that's extremely popular - probably the most popular way that people design forms - called ODK XLS Form. Essentially, each row in the spreadsheet is a question that somebody's gonna ask, or see. If you don't like Aggregate, which is in Java - robust, but a pretty heavy Java-based server - we have ODK Central, which is another server that's primary Javascript-based.
+Because we have a kit, there's other ways of doing it. If you don't like a drag-and-drop form designer, we have an Excel-based form designer that's extremely popular - probably the most popular way that people design forms - called ODK XLS Form. Essentially, each row in the spreadsheet is a question that somebody's gonna ask, or see. If you don't like Aggregate, which is in Java - robust, but a pretty heavy Java-based server - we have ODK Central, which is another server that's primary JavaScript-based.
 
 So people can pick and choose which tools work best for their scale, for their users, but fundamentally you design a form, you put it on a server, and then the phone talks to the server to send those submissions.
 

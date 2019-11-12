@@ -102,7 +102,7 @@ I think that there's always been this inevitable trend in configuration manageme
 
 It's kind of crazy that we have 20 years of people thinking about unit-testing code, and yet we're having to reinvent it for configs... Like, why? We should just go to a place where there's frameworks, there's UI, there's all of the kind of stuff that we expect - code conventions, all of this stuff - and then we can express that in code.
 
-I think if you do that, not only do you end up with a better system with one source of truth, but you actually also build a more accessible system. You can have people who might otherwise just be front-end Javascript programmers, who are starting to think about deploying distributed systems. I think it's the only way that we scale the industry to the number of systems that need to be built.
+I think if you do that, not only do you end up with a better system with one source of truth, but you actually also build a more accessible system. You can have people who might otherwise just be front-end JavaScript programmers, who are starting to think about deploying distributed systems. I think it's the only way that we scale the industry to the number of systems that need to be built.
 
 So I think it's maybe like Kubernetes at the beginning, it's an experiment, it's an idea; I wanna start a conversation, start a community. I don't know that it will be the one, but I think something like it will be the way that we build systems in the future.
 

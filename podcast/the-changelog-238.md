@@ -182,7 +182,7 @@ We have three sponsors today - our friends at GoCD, Rollbar and also Toptal.
 
 **Jerod Santo:** Yeah, I think that's a good strategy, at least in terms of relating your cause. You are on the principled side of refusing to use anything that is not completely free and open source, right?
 
-**Karen Sandler:** Yeah, I mean... I will be totally honest with you - it is impossible to live in the real world today and be completely pure. Anyone who tells you that they are completely pure either has somebody else doing a lot of their normal life tasks for them... For example, if I wanna book an airline ticket, I have to use proprietary Javascript a lot of the time, to use my bank account access. I try to avoid these things. I can say to you I won't talk to you using Skype and I can make a point of it and it's easy, but at some point during the regular course of everyday living...
+**Karen Sandler:** Yeah, I mean... I will be totally honest with you - it is impossible to live in the real world today and be completely pure. Anyone who tells you that they are completely pure either has somebody else doing a lot of their normal life tasks for them... For example, if I wanna book an airline ticket, I have to use proprietary JavaScript a lot of the time, to use my bank account access. I try to avoid these things. I can say to you I won't talk to you using Skype and I can make a point of it and it's easy, but at some point during the regular course of everyday living...
 
 **Jerod Santo:** ...you have to.
 
@@ -456,7 +456,7 @@ For these users, you probably wanna limit yourself to things like fades or color
 
 **Adam Stacoviak:** ...don't worry that much?
 
-**Rachel Nabors:** Well, I'm saying you should worry, but it's one of those things where you have to decide how much you worry for your users. That's something you're going to have to take on yourself. Accessibility is a big deal on the web right now, and I'm totally 100% behind it. But you can make things 100% everywhere - runs great without Javascript, perfectly accessible, dot the i's, cross the t's, works for people with every single kind of colorblindness that there is... You can spend a lot of time doing all of that, but some of your users may not have those problems, and that might be a wasted effort.
+**Rachel Nabors:** Well, I'm saying you should worry, but it's one of those things where you have to decide how much you worry for your users. That's something you're going to have to take on yourself. Accessibility is a big deal on the web right now, and I'm totally 100% behind it. But you can make things 100% everywhere - runs great without JavaScript, perfectly accessible, dot the i's, cross the t's, works for people with every single kind of colorblindness that there is... You can spend a lot of time doing all of that, but some of your users may not have those problems, and that might be a wasted effort.
 
 It really comes down to having a conversation with your users. The more users you have, the more you gotta take in these things to be concerned with them. And you have to remember that sometimes if you're not taking accessibility into account, you're limiting your user base, by omission.
 

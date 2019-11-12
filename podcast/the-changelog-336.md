@@ -288,7 +288,7 @@ So it gives us the ability to do things like inject security back into the dev o
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** This is the Javascript package management world, potentially influencing Greg and future stuff around the cloud.
+**Adam Stacoviak:** This is the JavaScript package management world, potentially influencing Greg and future stuff around the cloud.
 
 **Gregory Kurtzer:** Exactly. Thank you for that pointer, by the way.
 

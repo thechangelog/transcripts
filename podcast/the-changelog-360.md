@@ -144,13 +144,13 @@ So what we saw was this started getting traction, not just with internal develop
 
 In 2016 we launched this concept of a team library, where you could share collections that you're working with, all in one page. It kind of becomes a shared API repository for your team. Then it eventually evolved into this concept of a workspace, where you can invite people and work with them in real time, like the way you work on Google Docs, or Slack, for all the things that you're doing together. We feel that was one very strong thread that ran through to help Postman grow.
 
-\[00:32:10.15\] And along with that, just adding more tools to enrich everybody's workflow. Now Postman can test for hundreds of different kinds of APIs. It already supports so many different kinds of protocols, and so many different ways of working with request bodies, and stuff. So we continued all of that, we added more tools to cover more of the workflow. You can create mock servers in Postman, you can build documentation in Postman... And I think the only other thing I'd mention is that we knew this nature of developers to try to tinker with the tool, to do things a little bit more efficiently, so we built this Javascript-based runtime in the product, which gave rise to other use cases like automation testing, and chaining, eventually leading up to integrations with CI/CD systems and whatnot.
+\[00:32:10.15\] And along with that, just adding more tools to enrich everybody's workflow. Now Postman can test for hundreds of different kinds of APIs. It already supports so many different kinds of protocols, and so many different ways of working with request bodies, and stuff. So we continued all of that, we added more tools to cover more of the workflow. You can create mock servers in Postman, you can build documentation in Postman... And I think the only other thing I'd mention is that we knew this nature of developers to try to tinker with the tool, to do things a little bit more efficiently, so we built this JavaScript-based runtime in the product, which gave rise to other use cases like automation testing, and chaining, eventually leading up to integrations with CI/CD systems and whatnot.
 
 So we always kept the tool extensible. It was collaborative, so people could share things, and that has helped us grow. At this point, actually, we have to discover use cases now from people. Like "Okay, what are you using Postman for?" and we know a little bit better.
 
-**Jerod Santo:** I think the collaborative stuff is on point. I wanna come back to that, because I'm not sure I understand what you mean by "There's a Javascript runtime inside of the tool." Can you tell me how that plays out?
+**Jerod Santo:** I think the collaborative stuff is on point. I wanna come back to that, because I'm not sure I understand what you mean by "There's a JavaScript runtime inside of the tool." Can you tell me how that plays out?
 
-**Abhinav Asthana:** Yeah. Imagine that you have an API that you wanna test across (let's say) 50 different variations of input parameters. So in an API client you can create 50 requests, or what you can do is you can create a collection and you can have that request be dynamically created for those parameters, and you can loop through it. Postman has this concept of a pre-request script, that can run before you send the request, and a post-response script, which we call a test script. These two things are pieces of code that you write, Javascript code.
+**Abhinav Asthana:** Yeah. Imagine that you have an API that you wanna test across (let's say) 50 different variations of input parameters. So in an API client you can create 50 requests, or what you can do is you can create a collection and you can have that request be dynamically created for those parameters, and you can loop through it. Postman has this concept of a pre-request script, that can run before you send the request, and a post-response script, which we call a test script. These two things are pieces of code that you write, JavaScript code.
 
 **Jerod Santo:** Gotcha.
 
@@ -166,7 +166,7 @@ So I guess the takeaway there is if you're building collaborative tools, and the
 
 So there was this notion of sharing of a collection, and people would describe a sequence of steps that they would do, and we just thought of making that set of steps simple. The first iteration was you can upload a collection as a link, the way you share a Google Doc. You get a link and then you can open that link, and now you can use Google Docs with that thing loaded. So you could do that with Postman through the Share a Link and then Import Flows.
 
-Once we did that, then we saw documentation pages appearing, where people would list out "Go and download Postman, click on this link, click on this button etc." and we said "How can we simplify that?" So we built this Running Postman button, which - you click the button, a page opens up, and you click a button on that page, or sometimes if it's a Javascript-enabled button, then it's one click to click that button and then you open Postman... And the collection gets preloaded for you.
+Once we did that, then we saw documentation pages appearing, where people would list out "Go and download Postman, click on this link, click on this button etc." and we said "How can we simplify that?" So we built this Running Postman button, which - you click the button, a page opens up, and you click a button on that page, or sometimes if it's a JavaScript-enabled button, then it's one click to click that button and then you open Postman... And the collection gets preloaded for you.
 
 A comparative experience there against developer documentation was if you see most API documentation, it has these call commands. So you will copy that call command, put it inside the terminal for one API. Now, if the API has 200 endpoints, you need to do that 200 times, multiplied by the number of times you have variations on that API. We just simplified all of that, and people saw a lot of value in that and it just spread more. We've always seen more forms of collaboration coming up.
 
@@ -276,7 +276,7 @@ That was our first iteration of it, and of course, we can talk about how it has 
 
 I think all those cases are valuable. In fact, billions of dollars are spent in digital transformations every year, which is basically everybody just trying to figure out what was done ten years ago.
 
-**Jerod Santo:** Yeah. So in addition to your Javascript runtime you could add a Fortran runtime, or a COBOL runtime.
+**Jerod Santo:** Yeah. So in addition to your JavaScript runtime you could add a Fortran runtime, or a COBOL runtime.
 
 **Adam Stacoviak:** Come on now.
 

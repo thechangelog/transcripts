@@ -300,7 +300,7 @@ That being said, we do wanna answer a few of the questions that were asked on Tw
 
 **Emma Wedekind:** \[00:52:00.28\] Hm... \[laughter\] I'm personally a little bit more asynchronous because I have so many commitments to things. I don't have a ton of time to sit down and devote 30 minutes or an hour to physically talking to someone through GoToMeeting, or Skype or whatnot. So typically, my management style is asynchronous, where I say "Send me a list of your goals" and then we kind of revisit our plan from there.
 
-Some people just need access to resources, need help finding tutorials to watch, and blogs to read. Some people -- I haven't gotten anything other than that, but were I to get someone who needs a little bit more help developing a project, or maybe tweaking a design, I would do what I had mentioned earlier with my previous mentorship experience... Maybe create a project like building your portfolio, and do that in phases. Step one is design it, and step two would be "Alright, let's build all the HTML for it. Then let's add some CSS and add some Javascript, if necessary." That would be my idea mentorship style.
+Some people just need access to resources, need help finding tutorials to watch, and blogs to read. Some people -- I haven't gotten anything other than that, but were I to get someone who needs a little bit more help developing a project, or maybe tweaking a design, I would do what I had mentioned earlier with my previous mentorship experience... Maybe create a project like building your portfolio, and do that in phases. Step one is design it, and step two would be "Alright, let's build all the HTML for it. Then let's add some CSS and add some JavaScript, if necessary." That would be my idea mentorship style.
 
 **Jerod Santo:** My mentorship style is usually I just roll my eyes and then say "RTFM", and then I hang up the call.
 
@@ -472,13 +472,13 @@ That's the area that I would say user experience engineers can flourish in - und
 
 **Adam Stacoviak:** We will wrap the show eventually.
 
-**Emma Wedekind:** If you want a Javascript rap, you come find me.
+**Emma Wedekind:** If you want a JavaScript rap, you come find me.
 
 **Jerod Santo:** Oh, don't think we're not gonna ask you to come on JS Party and rap, because we definitely are going to.
 
 **Adam Stacoviak:** It's done. The email is in the can.
 
-**Emma Wedekind:** If I can create a rap about \[unintelligible 01:05:54.09\] application server, I can create a rap about Javascript, so we're all good.
+**Emma Wedekind:** If I can create a rap about \[unintelligible 01:05:54.09\] application server, I can create a rap about JavaScript, so we're all good.
 
 **Jerod Santo:** Okay. The \[unintelligible 01:05:59.21\]
 

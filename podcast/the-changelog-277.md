@@ -110,7 +110,7 @@
 
 **Jerod Santo:** Right, definitely implied.
 
-**Adam Stacoviak:** I guess in a post "only Microsoft world", that would make the pc. 
+**Adam Stacoviak:** I guess in a post "only Microsoft world", that would make the pc.
 
 **Jerod Santo:** Things change over time, but the mission statement back at that time was PC's -- I mean, it was all Windows... 98%, or whatever.
 
@@ -302,13 +302,13 @@ I personally think the best way for us to really keep going forward is to have a
 
 **Adam Stacoviak:** Okay.
 
-**Chris Dias:** I'll take you back to the very beginning. It started out with an experiment to see if we could build an HTML and Javascript-based code editor that we hosted in the browser.
+**Chris Dias:** I'll take you back to the very beginning. It started out with an experiment to see if we could build an HTML and JavaScript-based code editor that we hosted in the browser.
 
 **Jerod Santo:** What year was this?
 
 **Chris Dias:** Six years ago, so...
 
-**Jerod Santo:** 2011. 2001. 
+**Jerod Santo:** 2011. 2001.
 
 **Chris Dias:** I think Chrome at that time just came up with the notion of web workers, so being able to run processes which then enabled us to be able to do things like have IntelliSense, and errors and things like that. Erich Gamma had basically started on that project - that was his first project at Microsoft - and built that up. We needed somebody to dogfood the editor, so...
 
@@ -328,7 +328,7 @@ I personally think the best way for us to really keep going forward is to have a
 
 So we built out this editor which actually was pretty popular across Microsoft. Like, if you go to OneDrive and you look at source code, that's the editor; Azure, any place you go in there and look at source code, that's the Monaco editor. It's the same editor that's in VS Code itself.
 
-If you go to Edge browser and maybe 12 those in Windows and look at source code, that's the Monaco editor. It's a bunch of other places... So that got pretty popular. And as we did it, we built more and more of this workbench around the editor. We had this locally hosted development environment, which since it was running on Node and it was an HTML and Javascript thing, it could easily be moved up to the cloud.
+If you go to Edge browser and maybe 12 those in Windows and look at source code, that's the Monaco editor. It's a bunch of other places... So that got pretty popular. And as we did it, we built more and more of this workbench around the editor. We had this locally hosted development environment, which since it was running on Node and it was an HTML and JavaScript thing, it could easily be moved up to the cloud.
 
 So we kind of looked at it like "What's the next step from a code editor?" Like, well, we wanna develop a fuller web-based app. The Azure website and it started to come online, so what we decided to do was say "Hey, can we host this workbench in Azure, so that you can do live editing of your websites straight in the portal?" They said, "Yeah, let's do that", so we brought that up online. It was fairly easy, because of the whole architecture. We branded that with our name, Visual Studio "Monaco". So that's where it originated from.
 
@@ -372,7 +372,7 @@ But it was pretty cool, and there was a big wave of online hosted tooling that w
 
 **Chris Dias:** Office had a suite of tools that actually work in the browser fairly well; there were a lot of things you could do, and it seemed like a natural progression... Like, you've got a desktop application, which would have been Visual Studio, and then you've got browser-based tools. But you're right, the challenge with those was that -- there were a bunch of challenges... The biggest one that we saw was that it was great, you got your development tool in the browser, but all your other tools are on your machine, so there's no connection between the code that you're working on in the browser and "Oh, I need to run this other tool at the same time" - how do you bridge that gap?
 
-**Adam Stacoviak:** So it was an all-in scenario - you had to either go all-in cloud. 
+**Adam Stacoviak:** So it was an all-in scenario - you had to either go all-in cloud.
 
 **Chris Dias:** Exactly, and people aren't all-in on the cloud for developer tools...
 
@@ -388,7 +388,7 @@ But it was pretty cool, and there was a big wave of online hosted tooling that w
 
 **Chris Dias:** Yeah, you can't work offline...
 
-**Adam Stacoviak:** object browse. 
+**Adam Stacoviak:** object browse.
 
 **Chris Dias:** There are cool aspects to it, right? The idea where you could go and just spin up an environment instantly and not have to provision anything on your machine - that's a cool aspect of it.
 
@@ -420,41 +420,41 @@ So that was kind of the genesis of it, and really that's the way it progressed. 
 
 **Jerod Santo:** But I've very impressed, and everybody is very impressed. What are the selling points to, say, a Vim user or an Atom user; I know these are all very different users, but... And PJ, maybe this is a good place for you to hop in. One aspect, it seems - it seems like there's a "batteries included" to it in terms of the setup experience, but what do you guys consider when you're like "Okay, here's what VS Code has going for it right out of the box today?" What are its advantages that would compel somebody to switch, or even just try it?
 
-**PJ Meyer:** Well, like Chris said, really strong editing and debugging experiences. Out of the box support for Node, Javascript, Typescript - that primarily is a function of that's the language that VS code itself is written in, but expanding it to other languages, like Python, like Java's recent one, Go - you've spoken with Ramya in the past... But that debugging experience that a lot of Visual Studio users have known and are somewhat used to - we've been able to bring that to this VS Code package that can be delivered on any operating system.
+**PJ Meyer:** Well, like Chris said, really strong editing and debugging experiences. Out of the box support for Node, JavaScript, Typescript - that primarily is a function of that's the language that VS code itself is written in, but expanding it to other languages, like Python, like Java's recent one, Go - you've spoken with Ramya in the past... But that debugging experience that a lot of Visual Studio users have known and are somewhat used to - we've been able to bring that to this VS Code package that can be delivered on any operating system.
 
 I think also a big component of it is honestly the openness and transparency of the VS Code team with the community. I think a number of people that have been converts from other tools have been because they've been able to interact with members of the VS Code team on GitHub, through issues or pull requests, or even over Twitter.
 
 \[00:44:08.01\] I think something that the team prides themself of quite a bit is how open and how engaged they are with the community of not just developers that use VS Code, but developers that use other tools.
 
-**Chris Dias:** Yeah, I'll echo... To me, it's editing and debugging. So like, you say you're a Javascript guy and you're using Sublime; probably you have a bunch of packages that you've figured out that you kind of like, and recommended from other people... It may or may not provide you sort of a completion experience for plain old Javascript, right?
+**Chris Dias:** Yeah, I'll echo... To me, it's editing and debugging. So like, you say you're a JavaScript guy and you're using Sublime; probably you have a bunch of packages that you've figured out that you kind of like, and recommended from other people... It may or may not provide you sort of a completion experience for plain old JavaScript, right?
 
 **Jerod Santo:** Yeah.
 
-**Chris Dias:** So you open up a VS Code, you've got a folder, you open it up, express you'll get statement completion, IntelliSense, overloads, all sorts of stuff about the express object, without having to do anything. What will happen is, since we use TypeScript as the language server for Javascript, it does a whole bunch of work for us, and analyzes the Javascript, but it also goes and actually downloads those Typescript definition files. Basically, people write Typescript files which define - or almost type - the shape of regular, old Javascript libraries.
+**Chris Dias:** So you open up a VS Code, you've got a folder, you open it up, express you'll get statement completion, IntelliSense, overloads, all sorts of stuff about the express object, without having to do anything. What will happen is, since we use TypeScript as the language server for JavaScript, it does a whole bunch of work for us, and analyzes the JavaScript, but it also goes and actually downloads those Typescript definition files. Basically, people write Typescript files which define - or almost type - the shape of regular, old JavaScript libraries.
 
-**Jerod Santo:** Yeah. That's the coolest thing I learned today... To be clear, you don't have to be writing Typescript yourself; you're writing your regular Javascript, but in the background, what do you say - it's the language server?
+**Jerod Santo:** Yeah. That's the coolest thing I learned today... To be clear, you don't have to be writing Typescript yourself; you're writing your regular JavaScript, but in the background, what do you say - it's the language server?
 
 **Chris Dias:** Yeah, do you want me to explain what that is, the language server?
 
 **Jerod Santo:** Go ahead.
 
-**Chris Dias:** So basically what happens is you've got your presentation of the source code, right? And we use TextMate grammar to syntax colorize - it's kind of standard across all editors. But when you wanna do IntelliSense or object browse so you kind of need a language server which will effectively offer up an AST and send that back over to VS Code. So there's a whole spectrum of support for languages and extensions for VS Code, and the ones that are the best, like Javascript or Typescript or Python or Go, all have this language server that runs basically in another process. It's usually written in the language that it's running in, which is cool, right? Because you can do Python; you probably have Python on your machine... But it's smart enough to give you all that semantic information about your source file. So for Javascript we use the Typescript compiler. We just spin that thing up, because it basically runs as Javascript.
+**Chris Dias:** So basically what happens is you've got your presentation of the source code, right? And we use TextMate grammar to syntax colorize - it's kind of standard across all editors. But when you wanna do IntelliSense or object browse so you kind of need a language server which will effectively offer up an AST and send that back over to VS Code. So there's a whole spectrum of support for languages and extensions for VS Code, and the ones that are the best, like JavaScript or Typescript or Python or Go, all have this language server that runs basically in another process. It's usually written in the language that it's running in, which is cool, right? Because you can do Python; you probably have Python on your machine... But it's smart enough to give you all that semantic information about your source file. So for JavaScript we use the Typescript compiler. We just spin that thing up, because it basically runs as JavaScript.
 
 **Jerod Santo:** Right.
 
-**Chris Dias:** And it's smart enough, it gives you the whole completions, everything that you need - errors, warnings - but as far as you're concerned as a Javascript guy, who cares?
+**Chris Dias:** And it's smart enough, it gives you the whole completions, everything that you need - errors, warnings - but as far as you're concerned as a JavaScript guy, who cares?
 
-**Jerod Santo:** It's seamless to you get all the benefits of Typescript. 
+**Jerod Santo:** It's seamless to you get all the benefits of Typescript.
 
 **Chris Dias:** Yeah, you get a good amount... And more and more come online every month with Typescript.
 
-**PJ Meyer:** But I think there's two components there. One is bringing the Typescript to writing Javascript in VS Code is what gives you the ability to write var x = some string, then when you call x dot, you get string completions, not just every completion that it could possibly be because it's Javascript and you're not sure.
+**PJ Meyer:** But I think there's two components there. One is bringing the Typescript to writing JavaScript in VS Code is what gives you the ability to write var x = some string, then when you call x dot, you get string completions, not just every completion that it could possibly be because it's JavaScript and you're not sure.
 
 **Jerod Santo:** Right, it's all there.
 
 **PJ Meyer:** But where some of the Typescript definitions come in is understanding of Node, understanding of Angular... So it's sort of going the next step in, you know, why we say IntelliSense necessarily, instead of autocomplete.
 
-**Chris Dias:** Yeah, there's thousands of Typescript definition files for all the popular Javascript packages that are out there.
+**Chris Dias:** Yeah, there's thousands of Typescript definition files for all the popular JavaScript packages that are out there.
 
 The other thing I wanted to note on this point was -- I just forgot what it was. It's forgotten. Sorry.
 
@@ -464,7 +464,7 @@ The other thing I wanted to note on this point was -- I just forgot what it was.
 
 **Jerod Santo:** No. I'm just kidding, go ahead. \[laughter\]
 
-**Chris Dias:** So the other thing about Typescript and Javascript - you can do sort of like a single file, bar x = some string and parts but with Typescript it works actually cross-file. All the files and folders in your workspace you can sort of just say "Here's the universe of things", so then I get completions against things that are in other files.
+**Chris Dias:** So the other thing about Typescript and JavaScript - you can do sort of like a single file, bar x = some string and parts but with Typescript it works actually cross-file. All the files and folders in your workspace you can sort of just say "Here's the universe of things", so then I get completions against things that are in other files.
 
 **Jerod Santo:** \[00:48:20.18\] As long as they're in the same project or folder...
 
@@ -602,9 +602,9 @@ You see a lot of feature requests for people stemming about wanting to have more
 
 **Adam Stacoviak:** What's the motivation? What is the mission statement behind VS Code? Why this editor, why are you guys doing this? What's the larger picture?
 
-**Chris Dias:** Well, I think the larger picture is like, the world is no longer a place where you can say "We've got this thing, this great thing... Come to us and use it, and you'll be happy." People are like "Nah, I've got all these other tools and things that I'm using." And I've kind of mentioned this before, like, we didn't have anything for this whole class of developers - not on Windows, not using IDE's, very sort of modern, webby, Node-oriented developers, Javascript and all that... We had nothing to talk to you about. There was no way to have that conversation. You were a developer we were never gonna be able to attract, at all. So the motivation for VS Code was to break down that barrier and say "Actually, you know what? We do have something that you could use." Then we give that to you, and if you like it, cool. Maybe there's some other stuff from us that you'll use at some point in the future. And if you don't like it, at least we had a conversation, and maybe in six months you'll hear about it from your buddy... "Oh yeah, I heard about it. Let me go look at it again", and maybe at that point there's enough stuff for you to sort of come on board.
+**Chris Dias:** Well, I think the larger picture is like, the world is no longer a place where you can say "We've got this thing, this great thing... Come to us and use it, and you'll be happy." People are like "Nah, I've got all these other tools and things that I'm using." And I've kind of mentioned this before, like, we didn't have anything for this whole class of developers - not on Windows, not using IDE's, very sort of modern, webby, Node-oriented developers, JavaScript and all that... We had nothing to talk to you about. There was no way to have that conversation. You were a developer we were never gonna be able to attract, at all. So the motivation for VS Code was to break down that barrier and say "Actually, you know what? We do have something that you could use." Then we give that to you, and if you like it, cool. Maybe there's some other stuff from us that you'll use at some point in the future. And if you don't like it, at least we had a conversation, and maybe in six months you'll hear about it from your buddy... "Oh yeah, I heard about it. Let me go look at it again", and maybe at that point there's enough stuff for you to sort of come on board.
 
-But the days where you could say "Here's our developer ecosystem. Come to our ecosystem, drop everything else you're doing" - that's over, and Microsoft can't survive in that model, so we really had to turn around and say "Well, we've got tools for everybody. We've got great tools, we have a history of having awesome tools, and by virtue of using our tools, perhaps you will also use these other things that we have." Azure. 
+But the days where you could say "Here's our developer ecosystem. Come to our ecosystem, drop everything else you're doing" - that's over, and Microsoft can't survive in that model, so we really had to turn around and say "Well, we've got tools for everybody. We've got great tools, we have a history of having awesome tools, and by virtue of using our tools, perhaps you will also use these other things that we have." Azure.
 
 **Adam Stacoviak:** And is it to attract essentially things to the brand name of Microsoft that they are no longer sidized - you've used the term before. Kind of getting that respect back that may have not been there from every developer out there.
 
@@ -640,7 +640,7 @@ I think our mission for the past couple of years, seriously, has been - the firs
 
 **Chris Dias:** I think you're almost ignored.
 
-**Jerod Santo:** Your ignored. 
+**Jerod Santo:** Your ignored.
 
 **Chris Dias:** Microsoft was at a point where a vast majority -- I don't know if it was a vast majority, but a large majority of developers were like "Just... Irrelevant. Doesn't matter."
 
@@ -660,7 +660,7 @@ I think our mission for the past couple of years, seriously, has been - the firs
 
 **Chris Dias:** Downloads is a bit of a vanity metric, because you can download it all you want, but if you don't use it, it doesn't matter.
 
-**Jerod Santo:** Okay so other types. 
+**Jerod Santo:** Okay so other types.
 
 **Chris Dias:** We look at engaged usage of it...
 
@@ -722,7 +722,7 @@ I think our mission for the past couple of years, seriously, has been - the firs
 
 **Jerod Santo:** 25(ish)?
 
-**Chris Dias:** So the problem is this - if I get the number wrong, because there are so few people on the team, I'm really cutting a person off. 
+**Chris Dias:** So the problem is this - if I get the number wrong, because there are so few people on the team, I'm really cutting a person off.
 
 **Jerod Santo:** Somebody's gonna know exactly...
 

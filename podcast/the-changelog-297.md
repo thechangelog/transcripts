@@ -32,7 +32,7 @@ So what we've seen from companies is that they maybe don't get direct permission
 
 And secondly, when you finally convince management or your server-side team or whoever it is to implement it on the server, that has to be like the most epic code deletion day of all time... Like, wouldn't you just throw a party? Like, "We get to rip all of this code out of our client now, because it all just exists server-side."
 
-**Johannes Schickling:** Yup, for sure... But the exciting thing about that is since GraphQL -- most of the early GraphQL adoption happened in Javascript, even though GraphQL is not widely spread in any language community... But when these front-end developers want GraphQL so badly that they build their own server, they use the Javascript implementation of GraphQL, and very often you would then also build this actual GraphQL server later on also in Javascript.
+**Johannes Schickling:** Yup, for sure... But the exciting thing about that is since GraphQL -- most of the early GraphQL adoption happened in JavaScript, even though GraphQL is not widely spread in any language community... But when these front-end developers want GraphQL so badly that they build their own server, they use the JavaScript implementation of GraphQL, and very often you would then also build this actual GraphQL server later on also in JavaScript.
 
 **Jerod Santo:** Code re-use...
 
