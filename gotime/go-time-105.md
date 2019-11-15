@@ -26,7 +26,7 @@ Obviously, it was Docker that made containers super-accessible and easy to use, 
 
 So what Kubernetes does is you tell it what you wanna run - "I wanna run ten copies of this container image", the image is the thingy - and then it decides where to run these things, and it makes sure that they keep running over time.
 
-\[00:04:10.10\] Then once you do that, there's a bunch of other problems you have to solve - what does networking look like, what does storage look like, how do you have these things find each other, how do you actually manage load balancers that point to a set of these things? So there's a whole bunch of problems that are downstream of that \[unintelligible 00:04:22.06\] of assigning programs to computers.
+\[00:04:10.10\] Then once you do that, there's a bunch of other problems you have to solve - what does networking look like, what does storage look like, how do you have these things find each other, how do you actually manage load balancers that point to a set of these things? So there's a whole bunch of problems that are downstream of that dynacism of assigning programs to computers.
 
 So that's Kubernetes from an orchestration point of view. Along the way, we ended up building essentially a generic distributed system kernel for being able to describe not just how you run containers, but which containers you wanna run, how you upgrade them, and we've made that extensible, and that's where a lot of the interesting stuff going on right now is in the ecosystem.
 
@@ -130,7 +130,7 @@ So you start off by first declaring what your Kubernetes cluster should look lik
 
 **Kris Nova:** That's a good question. I do know that folks - myself included - use Kubicorn from time to time. I don't think it was ever intended to be production-ready or to solve managing a Kubernetes cluster at scale in the enterprise. I think it was a good thought exercise, and I think that probably the biggest piece of value that I got out of it was it was the first open source Kubernetes management tool that was built on top of Kubeadm... And that is still in place, to this day. If you actually look at how Kubicorn works, it's relatively static at this point, because we're able to just vendor Kubeadm at runtime with the latest version that is being pushed by the upstream folks. So the way I look at Kubicorn is it's just a way of automating using Kubeadm instead of a cluster.
 
-So I think that we learned a lot with Kubicorn, we learned a lot with Kubeadm, and I think Cluster API is a really great representation of taking all of these lessons together and coming up with a way of doing this together as a community. So long answer - it's not necessarily growing, but I wouldn't say it's necessarily dead either.
+So I think that we learned a lot with Kubicorn, we learned a lot with Kops, we learned a lot with Kubeadm, and I think Cluster API is a really great representation of taking all of these lessons together and coming up with a way of doing this together as a community. So long answer - it's not necessarily growing, but I wouldn't say it's necessarily dead either.
 
 **Break:** \[00:24:18.29\]
 
@@ -168,7 +168,7 @@ And then we see people applying this to not just running stuff on Kubernetes, bu
 
 **Kris Nova:** Yeah, and I think it's important to call out - there's tooling in this space as well. We're starting with a prototype; there's a solution, the operator framework that came out of the folks at Red Hat and Core OS. We have Kubebuilder, which is an open source upstream effort... So we are starting to look at ways of building out frameworks for us to start developing controllers and operators, but again, it's a lifetime of iterating and working on it, and we're just not there yet, I don't think.
 
-**Joe Beda:** And to bring this back to Go, I think Go is the preferred language for this stuff right now... So there you go. \[laughter\]
+**Joe Beda:** And to bring this back to Go, I think Go is the preferred language for doing this stuff right now... So there you go. \[laughter\]
 
 **Mat Ryer:** Yeah, I was gonna ask about that, actually... If you look at the GitHub.com/kubernetes/kubernetes repo, which I guess is the main Kubernetes codebase...
 
@@ -196,17 +196,17 @@ I think that Go ended up being this really great mix of system-level enough that
 
 Along those lines, are you seeing Kubernetes as the platform that whatever the next deployment model is - we went from virtual machines, now it's more about containers, and we're doing the function-as-a-service thing... And whatever the next thing happens to be, are you seeing Kubernetes as the enabled? Whatever we come up with next, Kubernetes will be able to handle it through its extensibility?
 
-**Joe Beda:** I hope so. I can't predict the future... I think the first thing to recognize is developers, engineers - we have this mindset of "There's one true way to do things", so we see these new technologies, they're shiny, everybody gets excited about it... But the reality, as you see this stuff play out over time, is that we only ever add stuff, we never remove stuff, just as industry... The mainframe business is actually a growth business for IBM. So VMs aren't gonna go away any time soon.
+**Joe Beda:** I hope so. I can't predict the future... I think the first thing to recognize is developers, engineers - we have this mindset of "There's one true way to do things", so we see these new technologies, they're shiny, everybody gets excited about it... But the reality, as you see this stuff play out over time, is that we only ever add stuff, we never remove stuff, just as an industry... The mainframe business is actually a growth business for IBM. So VMs aren't gonna go away any time soon.
 
 I think one of the things that we can do is we can view this as a spectrum and we can actually provide different gradations/stops on that spectrum, such that folks can pick the right tool for the job as they're doing stuff. And I don't think even any application is necessarily a serverless app, or a container app, or a VM app. What you can say is "Hey, I'm gonna do most of it using a function-as-a-service platformy PaaSy type of thing", and then like "Oh, I have this one thing I need to do that's like a machine learning model, and maybe I need to evaluate that with containers." And then "Oh, I need to do something that's using some sort of big legacy monolith, so I'm gonna be running that (or my big iron database) in a VM or on physical hardware", or whatever. And that can all be one application, using that set of technologies. I think that's what we see as being more typical as you see these new technologies come forward, these new frameworks, versus replacing the old thing. And hopefully, Kubernetes is gonna be flexible enough that it can actually be a good basis, a good starting point for the next thing.
 
 **Break:** \[00:39:11.15\]
 
-**Mat Ryer:** Yeah, so Jon Calhoun was telling me that a lot of people look to the Kubernetes codebase for examples of patterns, and things like this. You mentioned some of it being a different kind of mindset when it was written... There are obviously gonna be then good examples too, and they're the ones that are used, according to Job. So yeah, is there any other specifics around how things are organized?
+**Mat Ryer:** Yeah, so Jon Calhoun was telling me that a lot of people look to the Kubernetes codebase for examples of patterns, and things like this. You mentioned some of it being a different kind of mindset when it was written... There are obviously gonna be then good examples too, and they're the ones that are used, according to Jon. So yeah, is there any other specifics around how things are organized?
 
 One of the things that Jon mentioned was that it had to evolve so quickly, and you sort of can't start with a good, clean design; everyone's is sort of gonna naturally evolve anyway, so I think that in itself is quite a good lesson, but... Is there anything about code structure or anything about the project, or other things for Go developers to take away from the Kubernetes codebase?
 
-**Kris Nova:** I think the Kubernetes codebase, in my mind, is probably the single best example of how to use Go interfaces. And especially when you're looking at more unconventional principles in Go, such as composition and embedding, I think we do a really good job with what we basically use \[unintelligible 00:41:32.00\], which is embedded in every Kubernetes object. That's a great example of how we're able to define generic bits and then share them across other objects that contain other specific bits to that object.
+**Kris Nova:** I think the Kubernetes codebase, in my mind, is probably the single best example of how to use Go interfaces. And especially when you're looking at more unconventional principles in Go, such as composition and embedding, I think we do a really good job with what we basically use object metaphor, which is embedded in every Kubernetes object. That's a great example of how we're able to define generic bits and then share them across other objects that contain other specific bits to that object.
 
 So again, I think this kind of alludes to an OO-style thought pattern, but these are first-class features of Go, and I think Kubernetes does a really slick job at using these in clever ways.
 
@@ -218,7 +218,7 @@ So I think structurally, creating multiple binaries that can talk over the netwo
 
 **Mat Ryer:** And I guess you're also dogfooding continuously, as well.
 
-**Kris Nova:** Yeah, absolutely. We're totally dogfooding our own client. If you look at the actual official client \[unintelligible 00:43:20.00\] for how folks would build a Go program to interface with Kubernetes, that's the exact same source code that we use internally at Kubernetes itself. So we're actually running the same code that we're prescribing folks to use to solve their own problems... So I think that's a really good pattern to take away here.
+**Kris Nova:** Yeah, absolutely. We're totally dogfooding our own client. If you look at the actual official client in Go for how folks would build a Go program to interface with Kubernetes, that's the exact same source code that we use internally at Kubernetes itself. So we're actually running the same code that we're prescribing folks to use to solve their own problems... So I think that's a really good pattern to take away here.
 
 **Mat Ryer:** Yeah, I agree with that. And even just the fact that it gets used a lot, and you find any bugs... But there's actually a few other interesting side effects that we noticed as well at Machine Box, which is a similar kind of thing - we use the SDK, we have a Go SDK for the Machine Box APIs, and we use that in our integration tests. So we kind of try and fold as much into the integration as we possibly can, just to test as much at the same time. But yeah, it does provide that level of stability, and that's really interesting.
 
@@ -230,7 +230,7 @@ I think the extensibility mechanisms are definitely amenable to this open source
 
 I think we've broken GitHub, essentially. I mean, the size of the project, and the workflows... There's essentially this system called Prow, that the Kubernetes community wrote, that essentially is GitHub automation. Essentially, almost nobody has real admin privileges in the Kubernetes GitHub org. Instead, it's all commands through /test or /approve or/lgtm in the issues, and then it's the Prow robot that actually does all this stuff there... So we can have a richer ownership model, a richer permissions model on top of that. That's stuff's all written in Go also. But that's not the code itself, but really how the community, how the code processes work is definitely part of that.
 
-**Kris Nova:** There's something to be said about the speed at which we were iterating in Kubernetes. We've brought this up a few times now, which is as an open source project, it moved very quickly, and I think we see that reflected in the Kubernetes K/K repository, with the amount of binaries that we have in there, and the amount of dependencies that we're vendoring. Not that I need to bring up \[unintelligible 00:46:37.19\] But yeah, I think that it grew quickly, and I think because of that we see the repository take a unique shape, that we might not have seen otherwise.
+**Kris Nova:** There's something to be said about the speed at which we were iterating in Kubernetes. We've brought this up a few times now, which is as an open source project, it moved very quickly, and I think we see that reflected in the Kubernetes K/K repository, with the amount of binaries that we have in there, and the amount of dependencies that we're vendoring. Not that I need to bring up vendoring on the Go Time call.. But yeah, I think that it grew quickly, and I think because of that we see the repository take a unique shape, that we might not have seen otherwise.
 
 **Johnny Boursiquot:** Speaking of governance and the influence of companies over a project, every time any popular open source project gets -- or at least the organization behind those projects gets acquired, or... Basically, there's always sort of this moment, this knee-jerk reaction moment where you're like "Ugh, there goes our project. Now we're gonna start seeing things that are beneficial to one company, and not to others..." From an outsider's perspective it appears as if Kubernetes hasn't suffered from anything like that with the acquisition of Heptio by VMware... But I'm curious, too -- at a glance, what would be, say, one or two of the most advantageous benefits since the acquisition, that basically has benefitted Kubernetes?
 
@@ -290,7 +290,7 @@ And I think our goal is to get to that point where the core of Kubernetes is sup
 
 **Johnny Boursiquot:** There you have it.
 
-**Joe Beda:** \[00:54:38.20\] I just wanna argue against that... What happens - we had a repo before we actually moved it to GitHub. I was just doing janitorial work of actually saying "Okay, let's get this thing ready for release..." \[laughs\] So I can't claim that I wrote all that code. I just was the one who check in the first code as we were cleaning stuff up to do the initial release.
+**Joe Beda:** \[00:54:38.20\] I just wanna argue against that... What happens - we had a repo before we actually moved it to GitHub. I was just doing janitorial work of actually saying "Okay, let's get this thing ready for release..." \[laughs\] So I can't claim that I wrote all that code. I just was the one who checked in the first code as we were cleaning stuff up to do the initial release.
 
 **Mat Ryer:** I think the GitHub history doesn't lie, and it is admissible in court.
 
