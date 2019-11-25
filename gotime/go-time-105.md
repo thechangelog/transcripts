@@ -206,7 +206,7 @@ I think one of the things that we can do is we can view this as a spectrum and w
 
 One of the things that Jon mentioned was that it had to evolve so quickly, and you sort of can't start with a good, clean design; everyone's is sort of gonna naturally evolve anyway, so I think that in itself is quite a good lesson, but... Is there anything about code structure or anything about the project, or other things for Go developers to take away from the Kubernetes codebase?
 
-**Kris Nova:** I think the Kubernetes codebase, in my mind, is probably the single best example of how to use Go interfaces. And especially when you're looking at more unconventional principles in Go, such as composition and embedding, I think we do a really good job with what we basically use object metaphor, which is embedded in every Kubernetes object. That's a great example of how we're able to define generic bits and then share them across other objects that contain other specific bits to that object.
+**Kris Nova:** I think the Kubernetes codebase, in my mind, is probably the single best example of how to use Go interfaces. And especially when you're looking at more unconventional principles in Go, such as composition and embedding, I think we do a really good job with what we basically use ObjectMeta for, which is embedded in every Kubernetes object. That's a great example of how we're able to define generic bits and then share them across other objects that contain other specific bits to that object.
 
 So again, I think this kind of alludes to an OO-style thought pattern, but these are first-class features of Go, and I think Kubernetes does a really slick job at using these in clever ways.
 
