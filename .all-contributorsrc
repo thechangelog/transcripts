@@ -1870,6 +1870,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "sinisterstuf",
+      "name": "Siôn le Roux",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/840466?v=4",
+      "profile": "http://www.sinisterstuf.org",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
