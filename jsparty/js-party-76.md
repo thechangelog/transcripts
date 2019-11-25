@@ -1,4 +1,4 @@
-**Kevin Ball:** Alright, hello party people, and welcome to another episode of JS Party, where we are every week throwing a party about Javascript and the web. I am your host this week, Kball, and I am joined by two of our amazing regular panelists, one who is a new panelist; I'm super-excited, I've loved all of her episodes so far, but I haven't been on one with her, so welcome and thank you for joining me, Emma Wedekind!
+**Kevin Ball:** Alright, hello party people, and welcome to another episode of JS Party, where we are every week throwing a party about JavaScript and the web. I am your host this week, Kball, and I am joined by two of our amazing regular panelists, one who is a new panelist; I'm super-excited, I've loved all of her episodes so far, but I haven't been on one with her, so welcome and thank you for joining me, Emma Wedekind!
 
 **Emma Wedekind:** Yay! I'm so happy to be here. I am excited to chat more with you.
 
@@ -32,7 +32,7 @@ Node streams - so you can think of a stream kind of like a collection of data, s
 
 And there's another function called xrange(), and it's different -- it essentially doesn't hold the whole array in memory. So you can say xrange(50 billion zillion), and Python will just go ahead and go through, but if you said range(), well, then we're gonna fill up memory with this huge, huge array.
 
-So in Javascript if an array is working with a range operator, streams are more like xrange(). Does that make sense so far?
+So in JavaScript if an array is working with a range operator, streams are more like xrange(). Does that make sense so far?
 
 **Kevin Ball:** Yeah, I think so. Basically, an array that is paged into memory a piece at a time.
 
@@ -106,7 +106,7 @@ And the final Spinjago reference is when all is lost, and they just have to blow
 
 **Emma Wedekind:** I loved that. That was a great analogy.
 
-**Kevin Ball:** Okay, and with that, let us close this segment. We're gonna take a short break, and we will be back shortly, talking about stories of the week in the Javascript and front-end space.
+**Kevin Ball:** Okay, and with that, let us close this segment. We're gonna take a short break, and we will be back shortly, talking about stories of the week in the JavaScript and front-end space.
 
 **Break:** \[00:17:10.06\]
 

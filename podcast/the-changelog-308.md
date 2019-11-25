@@ -220,7 +220,7 @@ And then also just learning more... Right now I'm working on autonomous cars, wh
 
 **Adam Stacoviak:** What exactly do you do?
 
-**Jerome Hardaway:** What we do at Vets Who Code is we teach veterans how to program; we do this remotely (100% remote) and we focus solely on open source technologies, so React, Javascript, NodeJS... Those are the main points of education, while doing a deep dive in computer science fundamentals.
+**Jerome Hardaway:** What we do at Vets Who Code is we teach veterans how to program; we do this remotely (100% remote) and we focus solely on open source technologies, so React, JavaScript, NodeJS... Those are the main points of education, while doing a deep dive in computer science fundamentals.
 
 **Adam Stacoviak:** So is this while they're still in active duty, or are they in National Guard, Reserves - what's their engagement currently with the military.
 
@@ -416,7 +416,7 @@ They're in there with the pre-work, they're talking to other veterans... It's a 
 
 **Adam Stacoviak:** Well, I mean for the companies... Same deal?
 
-**Jerome Hardaway:** Yeah, same deal. We start the conversation, because I wanna make sure you're a good fit. We've had companies come in and being like "We love what you're doing; we have colleagues who have hired your people. Would you mind doing Java?" and I'm like, "No... You don't understand how hard it is if I'm not actually there in front of that veteran to be able to get their machine prepped to do Java and Java Spring Boot well. We have to control the install phase. That's why we chose Javascript; the ease of use of being able to get that veteran from not having a dev environment to having a dev environment is super easy in Javascript, versus more stable languages... It's like, "Okay, it's very difficult to do that, so let's work on this, and then as they get interested, they'll be able to have this base of knowledge, then they can build on it."
+**Jerome Hardaway:** Yeah, same deal. We start the conversation, because I wanna make sure you're a good fit. We've had companies come in and being like "We love what you're doing; we have colleagues who have hired your people. Would you mind doing Java?" and I'm like, "No... You don't understand how hard it is if I'm not actually there in front of that veteran to be able to get their machine prepped to do Java and Java Spring Boot well. We have to control the install phase. That's why we chose JavaScript; the ease of use of being able to get that veteran from not having a dev environment to having a dev environment is super easy in JavaScript, versus more stable languages... It's like, "Okay, it's very difficult to do that, so let's work on this, and then as they get interested, they'll be able to have this base of knowledge, then they can build on it."
 
 We had a veteran right now - he last week started his first day of work at J.P. Morgan as Angular and Java Spring Boot developer. We don't teach Angular, we don't teach Java Spring Boot, but he was able to get that job because of the deep knowledge base he got with us, and then being able to go and venture out on his spare time outside of class, with Java. I was like, "Alright, that's awesome! I don't care what you do, as long as you're programming. Cool! You're building. Never stop, dudes."
 
@@ -428,7 +428,7 @@ That's another thing that programming has in common with boxing - you stop for a
 
 **Adam Stacoviak:** Anything else to share, Jerome?
 
-**Jerome Hardaway:** Follow @VetsWhoCode on Twitter. If you're looking for any good React developers, any good Javascript engineers, reach out to us. I am always looking for people who like to hire good people.
+**Jerome Hardaway:** Follow @VetsWhoCode on Twitter. If you're looking for any good React developers, any good JavaScript engineers, reach out to us. I am always looking for people who like to hire good people.
 
 **Adam Stacoviak:** Cool. It was good seeing you, man. Thank you.
 
@@ -642,7 +642,7 @@ With software companies, a lot of the times the advantages - we don't have to pr
 
 **Abigail Cabunoc Mayes:** Yeah, definitely, and I think something people forget to do is really have that concise mission, or concise vision around what they're doing, so people can understand it right away. We do try to amplify -- like you said, we do have big platforms, we do try to amplify everyone that we trust or that's coming through the program, to help give them that head start. But if they have a very confusing mission statement that people don't get, it's gonna be a bit harder for them to gather that community.
 
-We do a couple exercises around solidifying what you're doing and your messaging there, but then also once you start getting a couple people interested, how do you keep that momentum going, how do you follow up with them, and really find out why they came, so that you can give them the kind of value that they want coming out of this. Did they come because they wanna learn Javascript? Then help make that a great learning experience for them. Or did they come because they really wanna help take down the browser monopoly? Then really give them that opportunity... Back to Firefox, yeah...
+We do a couple exercises around solidifying what you're doing and your messaging there, but then also once you start getting a couple people interested, how do you keep that momentum going, how do you follow up with them, and really find out why they came, so that you can give them the kind of value that they want coming out of this. Did they come because they wanna learn JavaScript? Then help make that a great learning experience for them. Or did they come because they really wanna help take down the browser monopoly? Then really give them that opportunity... Back to Firefox, yeah...
 
 **Jerod Santo:** That's a movement right there.
 

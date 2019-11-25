@@ -194,7 +194,7 @@ Concourse is a bit more than a CI. As Jerod was alluding to, it's this automatio
 
 **Gerhard Lazu:** Let's take the most common path, which is the one where someone pushes a change into master branch. So we're not creating any branches, we're pushing a small change to the master branch. When the master branch updates, Circle CI receives the update via a webhook, and it runs the pipeline. By the way, we can also define pipelines in Circle CI, which is very nice.
 
-\[00:32:08.00\] The pipeline - all it does is, the first thing, it resolves the dependencies, makes sure that we have everything we need. Then it runs the tests. It compiles assets, any assets that we need; this is the CSS, Javascript, images... And then it publishes an image to Docker Hub.
+\[00:32:08.00\] The pipeline - all it does is, the first thing, it resolves the dependencies, makes sure that we have everything we need. Then it runs the tests. It compiles assets, any assets that we need; this is the CSS, JavaScript, images... And then it publishes an image to Docker Hub.
 
 We have this application updater which I mentioned runs within our production system, and it continuously checks to see if there's a new image. If there is a new image that was published to Docker Hub, it pulls that image, and because it's a Docker service, it will spin up a new instance of Changelog. If this new instance passes all the checks - there are a couple of health checks which we define - then it gets promoted; so we have blue-green deploy. It gets promoted to master, and actually gets promoted to the live application. The old application just gets spun down.
 

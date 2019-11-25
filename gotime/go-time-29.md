@@ -122,7 +122,7 @@ And even things like the Acid pipeline; I just pulled in Webpack and set up Webp
 
 **Carlisia Pinto:** You're fine, that's another document, Brian... We have it on \[unintelligible 00:07:34.20\] \[laughter\] You're fine, Mark, go ahead.
 
-**Mark Bates:** So an Acid pipeline is a term kind of coined from the Rails world. Essentially, it is a build system around your Javascript, your style sheets and your images and the like. In the Rails world they do it all on Ruby and it's painfully slow and difficult to use. In other worlds, they use tools like Webpack, which are faster but also difficult to use, as I've found out, but it's the latest and greatest.
+**Mark Bates:** So an Acid pipeline is a term kind of coined from the Rails world. Essentially, it is a build system around your JavaScript, your style sheets and your images and the like. In the Rails world they do it all on Ruby and it's painfully slow and difficult to use. In other worlds, they use tools like Webpack, which are faster but also difficult to use, as I've found out, but it's the latest and greatest.
 
 \[00:08:07.19\] So I pulled that in, and the nice thing about that is by using something like that you can develop ES6 right out of the box with Buffalo. You can use SASS stylesheets right out of the box with Buffalo. The Buffalo dev command does hotcode reloading of both your Go app and your asset, so as those change, it recompiles them and they're ready for you in your browser when you get there.
 

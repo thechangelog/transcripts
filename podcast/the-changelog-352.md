@@ -34,7 +34,7 @@ Some things like that changed, I certainly think for the better, where advice th
 
 **Jerod Santo:** \[00:07:54.01\] Exactly. One of the things you say in the preface, speaking to this - the things that have changed - you say that if you take a developer from 1999 and drop them into a team today, they'd struggle in this strange, new world... And that got me thinking, is there anything that you two struggle with in the strange, new world? And if not, how have you managed to keep up with the pace of change?
 
-**Andy Hunt:** Well, everything, every day. It's funny, anytime I go out and give a conference talk, I always throw in a joke that "Well, it's Wednesday. That means there've been 47 new Javascript frameworks that came out this morning", and invariably, the whole crowd laughs nervously, because that's not far off...
+**Andy Hunt:** Well, everything, every day. It's funny, anytime I go out and give a conference talk, I always throw in a joke that "Well, it's Wednesday. That means there've been 47 new JavaScript frameworks that came out this morning", and invariably, the whole crowd laughs nervously, because that's not far off...
 
 **Jerod Santo:** \[laughs\] The nervous laughter.
 
@@ -42,7 +42,7 @@ Some things like that changed, I certainly think for the better, where advice th
 
 **Dave Thomas:** I don't see it as even just necessarily keeping up; I think that the actual rate of change -- people have become accustomed, almost like adrenaline junkies, to the rate of change, and kind of want to see it... And as a result, what happens is that a lot of stuff gets developed - new frameworks, new libraries, new techniques... It never quite gets fully there. And as a result, you're constantly dealing with stuff that is almost working, or that almost integrates into other things. And what that means is as a developer you're trying to do something which is difficult in the first place. You're trying to basically build a watch from component parts, and now you're being asked to do it while riding on a surfboard. I struggle with that a lot.
 
-Right now, for example, I teach a class on programming languages at a local university, and I've been putting together some material using PEG parsers, and generating interpreters, and stuff like that... And I've probably wasted 2-3 days this last couple of weeks switching back and forth between Javascript and Typescript, and I even had a little go at OCaml, until I could find some combination of things that would actually work with all the various libraries that I wanted to work with. It was just ugly... And my heart goes out to developers nowadays, that you have to keep track of all that stuff. In a way, I think the best thing we can do for the world of developers right now would be to say "Okay, stop. Everybody, stop the madness. Let's just sit and breathe for a while, and write code using what we've got. And then let's not come up with the next big alternative to React, or others..."
+Right now, for example, I teach a class on programming languages at a local university, and I've been putting together some material using PEG parsers, and generating interpreters, and stuff like that... And I've probably wasted 2-3 days this last couple of weeks switching back and forth between JavaScript and Typescript, and I even had a little go at OCaml, until I could find some combination of things that would actually work with all the various libraries that I wanted to work with. It was just ugly... And my heart goes out to developers nowadays, that you have to keep track of all that stuff. In a way, I think the best thing we can do for the world of developers right now would be to say "Okay, stop. Everybody, stop the madness. Let's just sit and breathe for a while, and write code using what we've got. And then let's not come up with the next big alternative to React, or others..."
 
 **Jerod Santo:** Kind of like a feature freeze on all programming.
 
@@ -56,7 +56,7 @@ I just feel that we are too willing to hope that there is a silver bullet out th
 
 **Dave Thomas:** \[00:12:01.03\] Yeah, to a point. But once those bad decisions are actually stopping you going forward, then you're into the negative territory. If we were to make bad decisions more slowly, then we'd be able to make more progress, that's what I'm saying. I'm all for experimenting, I'm just saying we don't always have to be using the cutting edge of everything, every time we write a piece of code.
 
-**Andy Hunt:** Again, it comes down to context. A lot of the times boring is great. There's some applications, some things out there... The thing that's driving my pacemaker, my MRI machine, whatever - I'd like that to be built with pretty boring tech; something very stable, that's been around forever, no surprises. I do not want last Wednesday's Javascript framework involved in that.
+**Andy Hunt:** Again, it comes down to context. A lot of the times boring is great. There's some applications, some things out there... The thing that's driving my pacemaker, my MRI machine, whatever - I'd like that to be built with pretty boring tech; something very stable, that's been around forever, no surprises. I do not want last Wednesday's JavaScript framework involved in that.
 
 **Adam Stacoviak:** \[laughs\] Unless it's a web view of stats, or something.
 
@@ -212,7 +212,7 @@ For this course I'm giving, I was looking for a PDP-11 emulator, so we'd all be 
 
 **Jerod Santo:** Nice.
 
-**Dave Thomas:** It's written in Javascript, and it actually emulates a PDP-11/70 in my browser, and you have to slow it down, because by default, it would run faster than a PDP-11/70 would, running in my browser.
+**Dave Thomas:** It's written in JavaScript, and it actually emulates a PDP-11/70 in my browser, and you have to slow it down, because by default, it would run faster than a PDP-11/70 would, running in my browser.
 
 **Adam Stacoviak:** Hah! That's funny.
 
@@ -230,7 +230,7 @@ For this course I'm giving, I was looking for a PDP-11 emulator, so we'd all be 
 
 It's really staggering to me that if you go online and you look at videos of jazz musicians explaining what they're doing and how they're doing it, it's all theory. I always thought these guys were just playing out of their souls, but they play out of their souls and their brains at the same time; they actually understand the underlying reality of what they're doing... And it's the same with software; you can start off by cutting and pasting out of whatever you find online, and developing applications that way... But if at some point you wanna become a virtuoso, if you want to develop new things that haven't been done before, then you've got to go back and understand the basics; you've gotta understand the theory.
 
-**Andy Hunt:** And that's something I think -- one of the things that's changed over the interleaving years... You know, when we started off, when our careers were young, you kind of had to know a bit more of the lower levels; you had to know a little bit about boolean logic and transistors and chips and gates, and assembly language. These days you've got students starting it at Javascript, starting in at a higher-level language. So in a way -- again, it's a two-edged sword. We had kind of an unfair advantage, because you had to know a lot of that stuff back in the day.
+**Andy Hunt:** And that's something I think -- one of the things that's changed over the interleaving years... You know, when we started off, when our careers were young, you kind of had to know a bit more of the lower levels; you had to know a little bit about boolean logic and transistors and chips and gates, and assembly language. These days you've got students starting it at JavaScript, starting in at a higher-level language. So in a way -- again, it's a two-edged sword. We had kind of an unfair advantage, because you had to know a lot of that stuff back in the day.
 
 It's like when the Model T first came out - the starter instructions ran two pages, because that's what it took to get it going. You had to be a mechanic in order to own and run one. As opposed to now - you walk near the car with your fob and it just starts. It's a much different world. But that low-level knowledge, understanding how all the higher levels of abstraction feed down and actually run on the bare metal - that model is crucially important, I think, to have in your head. Otherwise, when you're operating in one of the higher-level languages and something goes wrong, you have no idea what's going on.
 

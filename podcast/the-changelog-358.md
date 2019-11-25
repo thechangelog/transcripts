@@ -152,7 +152,7 @@ But then you look a step higher beyond Python or open source, and you're like "W
 
 So basically, the way that I talk about it is we build newspaper advertising for the internet. We know your approximate geo, we know your country, so we have a little bit of data about you, and we know the section of the newspaper you're reading, basically; we know you're on some Python documentation... So basically, we can target based on content well enough that we don't have to care about who you are as a person. If you're in the U.K. and you're reading a Python ORM documentation page, we can target you with a Mongo ad, or whatever. We don't need to know who you are, and we're able to build a business that we feel is still positive and an example for folks in the ecosystem.
 
-Look at Stack Overflow - there was a thing the other day on like "Why is my Stack Overflow page playing music?" Stack Overflow, this tool for developers, that should know better - they definitely know better - is running arbitrary Javascript from an ad network on the page... And we're like "If the developers as open source platform owners, if we can't do advertising right, if we're not respecting our users, then who on earth can we depend on? If we can't show the model, then no one else is going to..." That was really our motivation - we know the problems, we understand the weird stuff that's going on, with like Javascript running in arbitrary browsers... If we don't stand against that, then who's going to?
+Look at Stack Overflow - there was a thing the other day on like "Why is my Stack Overflow page playing music?" Stack Overflow, this tool for developers, that should know better - they definitely know better - is running arbitrary JavaScript from an ad network on the page... And we're like "If the developers as open source platform owners, if we can't do advertising right, if we're not respecting our users, then who on earth can we depend on? If we can't show the model, then no one else is going to..." That was really our motivation - we know the problems, we understand the weird stuff that's going on, with like JavaScript running in arbitrary browsers... If we don't stand against that, then who's going to?
 
 **Adam Stacoviak:** Yeah. Do you become an ad network then, basically? Do you have a sales team? Is that your primary source of revenue? What is that model for you?
 
@@ -366,7 +366,7 @@ But the fact that it has been so widely adopted shows that there is a need for m
 
 **Eric Holscher:** Yeah. There we go.
 
-**Jerod Santo:** \[00:28:02.08\] Let me real quick add my Amen to something you touched upon when you giving your Medium answer - is that you have to write it down. I've been one of a handful of organizers of a local Javascript conference for the last few years, and we're always looking for new experiments, new ideas... And in our team Slack, people are always pasting in "This conference did this thing", and somebody wrote about it, whether it's the organizer themselves, saying "This worked" or "It did not work", or it's somebody who attended the event and says "This was an amazing little touch" or "I felt welcomed because X, Y or Z..." Well, those people who are interested in doing good events - they're looking for those kinds of things...
+**Jerod Santo:** \[00:28:02.08\] Let me real quick add my Amen to something you touched upon when you giving your Medium answer - is that you have to write it down. I've been one of a handful of organizers of a local JavaScript conference for the last few years, and we're always looking for new experiments, new ideas... And in our team Slack, people are always pasting in "This conference did this thing", and somebody wrote about it, whether it's the organizer themselves, saying "This worked" or "It did not work", or it's somebody who attended the event and says "This was an amazing little touch" or "I felt welcomed because X, Y or Z..." Well, those people who are interested in doing good events - they're looking for those kinds of things...
 
 **Eric Holscher:** Totally.
 
@@ -558,11 +558,11 @@ It may be more difficult for you to learn by yourself, and doing a bootcamp may 
 
 **Adam Stacoviak:** It's not a healthy thing, that's for sure... For me or for the community.
 
-**Jerod Santo:** No, it's not. But that leads me to something else... I'm thinking in terms of teaching and learning - a debate we've kind of had a little bit on JS Party and that we talk about is where do you start technologically, with beginners? Just speaking of web development specifically... There's the layered cake idea, where it's like "You teach me the HTML, and then you teach me CSS, and then you teach me Javascript", and then go from there.
+**Jerod Santo:** No, it's not. But that leads me to something else... I'm thinking in terms of teaching and learning - a debate we've kind of had a little bit on JS Party and that we talk about is where do you start technologically, with beginners? Just speaking of web development specifically... There's the layered cake idea, where it's like "You teach me the HTML, and then you teach me CSS, and then you teach me JavaScript", and then go from there.
 
-Then there's maybe the more practitioner, like "Well, just pick a Javascript framework which you can get hired for", or has its name in a list of jobs... Like, just learn React first. Start with this thing that you can use right away and then you'll back-fill the underlying technologies... I just wonder if you have opinions on this.
+Then there's maybe the more practitioner, like "Well, just pick a JavaScript framework which you can get hired for", or has its name in a list of jobs... Like, just learn React first. Start with this thing that you can use right away and then you'll back-fill the underlying technologies... I just wonder if you have opinions on this.
 
-**Ali Spittel:** I definitely have opinions on this. I started off mostly in Python, and doing back-end stuff. My second language was C++, and then I was kind of thrown into web development, and doing it on the job for the first time, learning it while doing it... So I learned React probably way sooner than I should have, and I really wish that I knew the fundamentals a lot better, because React is just Javascript; it's not anything magical or anything like that. But if I had known that, for example, classes were built into Javascript, not React, then I think that that would have been...
+**Ali Spittel:** I definitely have opinions on this. I started off mostly in Python, and doing back-end stuff. My second language was C++, and then I was kind of thrown into web development, and doing it on the job for the first time, learning it while doing it... So I learned React probably way sooner than I should have, and I really wish that I knew the fundamentals a lot better, because React is just JavaScript; it's not anything magical or anything like that. But if I had known that, for example, classes were built into JavaScript, not React, then I think that that would have been...
 
 **Jerod Santo:** Empowering...
 
@@ -570,13 +570,13 @@ Then there's maybe the more practitioner, like "Well, just pick a Javascript fra
 
 **Jerod Santo:** That would have been big to know.
 
-**Ali Spittel:** \[00:43:47.17\] Although I was also learning at that time when it was like -- ES6 was just coming out, so all the documentation was changing for that... But yeah, I really think that you can't go wrong with learning the fundamentals, because HTML, CSS and Javascript are evolving, but they are pretty stable, and a lot of the fundamentals stay the same from time to time; then these frameworks - there's one that comes up, and... You know, React has maybe won the framework battle to some extent, for now... You know, Vue and all the others are awesome too, but React is probably the dominant one right now. So it's definitely worth learning, but I think learning the Javascript fundamentals will only make learning React easier down the road, when you're trying to learn React.
+**Ali Spittel:** \[00:43:47.17\] Although I was also learning at that time when it was like -- ES6 was just coming out, so all the documentation was changing for that... But yeah, I really think that you can't go wrong with learning the fundamentals, because HTML, CSS and JavaScript are evolving, but they are pretty stable, and a lot of the fundamentals stay the same from time to time; then these frameworks - there's one that comes up, and... You know, React has maybe won the framework battle to some extent, for now... You know, Vue and all the others are awesome too, but React is probably the dominant one right now. So it's definitely worth learning, but I think learning the JavaScript fundamentals will only make learning React easier down the road, when you're trying to learn React.
 
 **Jerod Santo:** Yeah. I think specifically with HTML and CSS, not only is it that they're pretty stable, but that all the advancements are additive. They're adding to the language - they're adding elements, they're adding selector style... They're adding technologies on top, but that doesn't obsolete any of the existing things.
 
 **Ali Spittel:** Totally.
 
-**Jerod Santo:** So it's not like you're gonna... Javascript on the other hand - callbacks are out, asyc/await is in... That's not additive. I mean, it's an additional technology, but you know what I'm saying.
+**Jerod Santo:** So it's not like you're gonna... JavaScript on the other hand - callbacks are out, asyc/await is in... That's not additive. I mean, it's an additional technology, but you know what I'm saying.
 
 **Ali Spittel:** It's different.
 

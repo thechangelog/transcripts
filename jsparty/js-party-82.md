@@ -50,7 +50,7 @@ So there's gonna be some more experimentation around that... There is other peop
 
 **Kat Marchán:** I really wanna see WASM and WASI support be first-class. WASI is exciting. I'd like to see WASI replace node-gyp hopefully. That would be pretty exciting.
 
-**Anna Henningsen:** One thing that maybe not everybody cares about, but that I really wanna do is have a better embedding API for Node. Some people do that - they build an application and want to run Javascript as part of that. For example, game engines usually use something like Lua, which is really built for embedding, but Node theoretically can do that as well. Getting to a point where that is both easy and very flexible - that is one of my goals.
+**Anna Henningsen:** One thing that maybe not everybody cares about, but that I really wanna do is have a better embedding API for Node. Some people do that - they build an application and want to run JavaScript as part of that. For example, game engines usually use something like Lua, which is really built for embedding, but Node theoretically can do that as well. Getting to a point where that is both easy and very flexible - that is one of my goals.
 
 **Ruben Bridgewater:** One thing that is really important and a fundamental basis of almost everything in Node.js is streams. But the current streams implementation has a lot of downsides, and it is actually pretty slow, it's super-difficult to maintain, and having any changes in there is horrible.
 
@@ -74,7 +74,7 @@ We know we have a very diverse module ecosystem, so then you sometimes have some
 
 **Audience member:** \[unintelligible 00:16:37.19\] This is just a quick question about the Bob streams - are they related to WHATWG streams spec at all?
 
-**Ruben Bridgewater:** No. WHATWG streams is kind of a higher-level API. The Bob streams is a very low-level pool interface, and it's actually just an API. It's not an implementation. We'll be able to have the same pool API at the C++ layer and the Javascript layer. It's a very low-level primitive.
+**Ruben Bridgewater:** No. WHATWG streams is kind of a higher-level API. The Bob streams is a very low-level pool interface, and it's actually just an API. It's not an implementation. We'll be able to have the same pool API at the C++ layer and the JavaScript layer. It's a very low-level primitive.
 
 The intent, once Bob is ready and it's there - we will be able to build the WHATWG stream implementation on top of it much more efficiently than we can on the existing stream stack. So Bob is one of the building blocks for WHATWG stream support in core, but it's not that implementation yet.
 
@@ -108,7 +108,7 @@ Push streams in HTTP/2 were okay, but users couldn't make use of them. In the br
 
 We saw the Dat presentation, and some of the reasons Protocol Labs is interested in it, because of IPFS. There are some very fascinating use cases around peer-to-peer streams (just streams, just data flows), without worrying about the request and response HP semantics. Like I said, for me that's by far the more interesting part, and I can't wait to see the applications people build with that piece.
 
-**Audience member:** Hey. At some point, the Javascript spec was mentioned, and some web standards as well... For example, Node pushing for innovations, like streams, and then the web catching up with that; the other way around, like Fetch now implementing... Do you think we will reach a point of middle ground, where both web (the standards) and Node will push for innovation together, or it's much like the nature we have now?
+**Audience member:** Hey. At some point, the JavaScript spec was mentioned, and some web standards as well... For example, Node pushing for innovations, like streams, and then the web catching up with that; the other way around, like Fetch now implementing... Do you think we will reach a point of middle ground, where both web (the standards) and Node will push for innovation together, or it's much like the nature we have now?
 
 **James Snell:** It's gonna be a balance. There are some use cases that apply to the browser, that don't apply to Node; there are some that apply to Node, that don't apply to the browser. So there's always going to be some balance, some set of APIs that are only relevant in one environment. Where it makes sense, though. It makes no sense whatsoever for Node to have a Node-specific API, and the browser to have its own way of doing things. So where it makes sense, we need to get convergence. We've started down that path.
 
@@ -116,7 +116,7 @@ URL - the new URL thing - when I implemented that, there was an argument that "N
 
 So there's been some pushback... There are still people who disagree that the environments should come together, but I think we're making progress in the right direction in things like the modules implementation. Fetch is being looked at, although Fetch has a number of issues, even on the browser side implementation, that make it really difficult for us to implement in Node. So it's not just a matter of implementing the API, there's some fundamental issues that need to be addressed before we can do it... But we're moving in the right direction for getting that done.
 
-**Ruben Bridgewater:** In general, there was a shift pretty much in how specs came together... Because if you look back a couple of years, Node was just one thing out there; and then there were a couple of browsers, and each browser was doing their thing as well. Then the ECMAScript committee TC39 - they started to actually push forward for a lot of new features more and more, and now Javascript is changing as a language as well, much faster than it used to do... And not only did that happen, but now we start to communicate much stronger together.
+**Ruben Bridgewater:** In general, there was a shift pretty much in how specs came together... Because if you look back a couple of years, Node was just one thing out there; and then there were a couple of browsers, and each browser was doing their thing as well. Then the ECMAScript committee TC39 - they started to actually push forward for a lot of new features more and more, and now JavaScript is changing as a language as well, much faster than it used to do... And not only did that happen, but now we start to communicate much stronger together.
 
 And also the V8 team - originally, Node used V8, but the V8 team did not collaborate together with Node.js. That has changed completely. We are having a very good relationship together, and we are sitting down together and discussing how things could be implemented, what makes sense and what doesn't. This is really huge for me, and I think it's a good change that we start to communicate with each other and discuss what use cases there are, and how to combine all these requirements.
 

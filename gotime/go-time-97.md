@@ -290,7 +290,7 @@ A very common use case is log parameters. If you wanna log something and you wan
 
 **Mark Bates:** Well, context.TODO() differs from context.Background() in that they're the exact same thing, but the idea is you can grep for TODO in your code.
 
-**Mat Ryer:** Well, let's just always do that. Let's just write Javascript.
+**Mat Ryer:** Well, let's just always do that. Let's just write JavaScript.
 
 **Gautam Rege:** If you don't know what to do, just TODO.
 

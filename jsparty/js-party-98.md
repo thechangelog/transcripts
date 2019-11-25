@@ -1,4 +1,4 @@
-**Jerod Santo:** Hey, hey! It's your JS Party friends! We are here to hang out and talk about Javascript and the web. It's your boy Jerod, and I am joined by Suz, who's laughing at me... What's up?
+**Jerod Santo:** Hey, hey! It's your JS Party friends! We are here to hang out and talk about JavaScript and the web. It's your boy Jerod, and I am joined by Suz, who's laughing at me... What's up?
 
 **Suz Hinton:** It's great to be back! Thank you so much for having me.
 
@@ -6,13 +6,13 @@
 
 **Divya Sasidharan:** Hello! How's it going?
 
-**Jerod Santo:** It's going well, it's going very well. And we are here to talk about Javascript and the web, celebrate such things, and we wanted to start off with a party with a little bit of catch-up. The new and noteworthy things in and around the Javascript and web ecosystem. We have lots to talk about here. I wanna flip the script and actually start with a fun one... I started at first with the most interesting, but now I wanna start with a fun one.
+**Jerod Santo:** It's going well, it's going very well. And we are here to talk about JavaScript and the web, celebrate such things, and we wanted to start off with a party with a little bit of catch-up. The new and noteworthy things in and around the JavaScript and web ecosystem. We have lots to talk about here. I wanna flip the script and actually start with a fun one... I started at first with the most interesting, but now I wanna start with a fun one.
 
-Let's go to the JS13kGames - winners have been announced. If you're unfamiliar with this game, it's an awesome competition where you're supposed to make a game in Javascript... And the website is down. \[laughter\] Are you serious...?
+Let's go to the JS13kGames - winners have been announced. If you're unfamiliar with this game, it's an awesome competition where you're supposed to make a game in JavaScript... And the website is down. \[laughter\] Are you serious...?
 
 **Suz Hinton:** I have it up.
 
-**Jerod Santo:** "Whoops! It looks like something went wrong." It's a game in Javascript in less than -- what was it, 13 kilobytes of code. Correct, Suz?
+**Jerod Santo:** "Whoops! It looks like something went wrong." It's a game in JavaScript in less than -- what was it, 13 kilobytes of code. Correct, Suz?
 
 **Suz Hinton:** Mm-hm. Yeah, I have it up. I was playing it earlier this morning.
 
@@ -44,7 +44,7 @@ And then you can actually see how they've set up a lot of the levels, too. They 
 
 **Suz Hinton:** Yeah, it's super-cool. And yeah, I'm just surprised at how readable it is. They wrote some really beautiful code. A lot of the verbs and the variable namings really help you understand how it works. They didn't even have to do that, and I admire the fact that they were very thoughtful about how the code was presented as well, so... It was an absolute joy this morning to take a tour of it.
 
-**Jerod Santo:** I've done one game jam in Javascript and had a lot of fun doing it, but I've never done any code golf kind of competitions, or even really tried coding golf. I know those kinds of things began in the Perl world... That's a tongue twister, Perl world. Have either of you done code golfs, or trying to squeeze every single character down to the smallest you could possibly do?
+**Jerod Santo:** I've done one game jam in JavaScript and had a lot of fun doing it, but I've never done any code golf kind of competitions, or even really tried coding golf. I know those kinds of things began in the Perl world... That's a tongue twister, Perl world. Have either of you done code golfs, or trying to squeeze every single character down to the smallest you could possibly do?
 
 **Divya Sasidharan:** I think I've seen the -- someone has done challenges within like 140 characters when Twitter used to be 140 characters... So you would write a problem, like a fizz buzz or something, within that character limit, as much as possible, which is really fun to see. It's still unreadable, but it worked.
 
@@ -52,9 +52,9 @@ And then you can actually see how they've set up a lot of the levels, too. They 
 
 For me it's always like "I need to fit more than six frames of this gif on this device. How do I do that?" So my stuff is more like memory golfing more than actual file size golfing, I think.
 
-**Jerod Santo:** The only bit that I've done - I've read the code golfs... I think it was like a Vim golf, which maybe I've tried that, which was fun back in the day... Like, "What are the fewest number of Vim commands that you can do to accomplish whatever task is out there?" Which is a great way to learn Vim if you're into that kind of a thing. I used to do these code games where I would create code - usually in Ruby or Javascript - that represented a movie title. The goal is the person has to guess then what movie it represents. That's the only time I've really written code; not for readability, or just to get this stinking thing to work, but to write it in such a way that the form -- the form of the code is more important than what it actually executes. It's definitely mind-expanding.
+**Jerod Santo:** The only bit that I've done - I've read the code golfs... I think it was like a Vim golf, which maybe I've tried that, which was fun back in the day... Like, "What are the fewest number of Vim commands that you can do to accomplish whatever task is out there?" Which is a great way to learn Vim if you're into that kind of a thing. I used to do these code games where I would create code - usually in Ruby or JavaScript - that represented a movie title. The goal is the person has to guess then what movie it represents. That's the only time I've really written code; not for readability, or just to get this stinking thing to work, but to write it in such a way that the form -- the form of the code is more important than what it actually executes. It's definitely mind-expanding.
 
-Okay, let's move on to a little bit less fun, but probably more impactful for your general Javascript audience, those who are not making super-tiny code games or want to play them... It's that top-level await has landed in V8, and is in Babel, and a bunch of other things. Myles Borins, a friend of the show - I think he's been on one or two episodes of JS Party back in the day - writing about top-level await on the V8 website... This enables developers to use the await keyword outside of async functions. So we've had async/await for a while now, but you've never been previously able to use it outside of an async function. Now you can use it right at the top-level of a module, and all sorts of interesting use cases fly out of that. Is this something that passed your guys' radar? What do you think about async/await top-level await?
+Okay, let's move on to a little bit less fun, but probably more impactful for your general JavaScript audience, those who are not making super-tiny code games or want to play them... It's that top-level await has landed in V8, and is in Babel, and a bunch of other things. Myles Borins, a friend of the show - I think he's been on one or two episodes of JS Party back in the day - writing about top-level await on the V8 website... This enables developers to use the await keyword outside of async functions. So we've had async/await for a while now, but you've never been previously able to use it outside of an async function. Now you can use it right at the top-level of a module, and all sorts of interesting use cases fly out of that. Is this something that passed your guys' radar? What do you think about async/await top-level await?
 
 **Suz Hinton:** I know that Myles for the last few years was actually trying to gather use cases for it... Because I think he was one of the ones that initially suggested it; people were pushing back on async/await because of that, so he was trying ask -- I remember he asked me about it, and I said, well, async/await is really nice for (again) embedded. I'm like a broken record about this topic, but for hardware-related things it just makes the code so much more readable and maintainable, to a point.
 
@@ -114,9 +114,9 @@ Now, maybe you're thinking "I already have this. It's in my dev tools." Well, th
 
 **Break:** \[00:16:14.18\]
 
-**Jerod Santo:** Well, let's talk about a different thing, which is security-related, maybe not necessarily performance-related. It's a cool new tool by Liran Tal (I apologize if I pronounced your name wrong). He works for Snyk, and he's a sneaky security guy. We're actually talking with him to bring him on JS Party in a future episode and talk about security in JS and all of the different things that you have to think about to write secure Javascript code.
+**Jerod Santo:** Well, let's talk about a different thing, which is security-related, maybe not necessarily performance-related. It's a cool new tool by Liran Tal (I apologize if I pronounced your name wrong). He works for Snyk, and he's a sneaky security guy. We're actually talking with him to bring him on JS Party in a future episode and talk about security in JS and all of the different things that you have to think about to write secure JavaScript code.
 
-He has a new tool called is-website-vulnerable, which uses public Zero-Day, or listening to the CVEs, the known vulnerabilities in Javascript libraries. It's a command line tool that you can install, and then run on Npx is-website-vulnerable, pass it a domain, start with your own, and then you can move on to other people. Use it in a white hat way, please... And you can find known vulnerabilities in the front-end JS libraries.
+He has a new tool called is-website-vulnerable, which uses public Zero-Day, or listening to the CVEs, the known vulnerabilities in JavaScript libraries. It's a command line tool that you can install, and then run on Npx is-website-vulnerable, pass it a domain, start with your own, and then you can move on to other people. Use it in a white hat way, please... And you can find known vulnerabilities in the front-end JS libraries.
 
 The example is run it against example.com, and it will spit out basically "This is running jQuery 2.1.4, which has two known vulnerabilities", it will link you to more information about those, and you can run it against your websites, and then fix all your known vulnerabilities. What would be cool is if it could fix your unknown vulnerabilities, but that's a whole other step.
 
@@ -128,7 +128,7 @@ And then the second thing I thought of was to do with bug bounties, and I was li
 
 **Divya Sasidharan:** How does this work with the current Npm vulnerabilities thing? If you have things on GitHub or if you use Npm, you can do Npm audit and it shows you all of the security vulnerabilities in that. Is it similar, or...? I can't quite tell.
 
-**Jerod Santo:** \[00:19:55.26\] Yeah, that's a great question, and somebody actually asked him that. The thing that separates it from the Npm audit is this is running on a remote website. So this is not a thing that you're using internally, or in your dev dependencies, or anything that you would have private on your backend, so any Node modules you're using, with Express, or server-side - it doesn't do those. It's just whatever you're shipping to your clients. It's basically just downloading whatever Javascript that your website sends on requests, and then unpacking those, and detecting and running finger-printing tools to figure out what you're running against... So it says "Oh, you have jQuery 2.1.4", and then it basically takes that knowledge, runs it against the databases, probably does some sort of remote lookup and says "Well, what are the known vulnerabilities here?" and displays them to you.
+**Jerod Santo:** \[00:19:55.26\] Yeah, that's a great question, and somebody actually asked him that. The thing that separates it from the Npm audit is this is running on a remote website. So this is not a thing that you're using internally, or in your dev dependencies, or anything that you would have private on your backend, so any Node modules you're using, with Express, or server-side - it doesn't do those. It's just whatever you're shipping to your clients. It's basically just downloading whatever JavaScript that your website sends on requests, and then unpacking those, and detecting and running finger-printing tools to figure out what you're running against... So it says "Oh, you have jQuery 2.1.4", and then it basically takes that knowledge, runs it against the databases, probably does some sort of remote lookup and says "Well, what are the known vulnerabilities here?" and displays them to you.
 
 **Suz Hinton:** I'm running it on my website right now.
 
@@ -138,11 +138,11 @@ And then the second thing I thought of was to do with bug bounties, and I was li
 
 **Jerod Santo:** Yaaay!
 
-**Suz Hinton:** Yesss! \[laughs\] And that, folks, is how you fix up all your vulnerabilities - just don't write Javascript. \[laughter\]
+**Suz Hinton:** Yesss! \[laughs\] And that, folks, is how you fix up all your vulnerabilities - just don't write JavaScript. \[laughter\]
 
 **Jerod Santo:** Just don't write any, that's right.
 
-**Suz Hinton:** I have a tiny amount of Javascript that's sort of like -- I think there might be a small resize listener. I'm using CSS Grid in a weird way, to create sort of a Pinterest-style tile layout, but it's not quite perfect... So I have to run some Javascript to adjust the heights, and things. That's pretty much the only Javascript I think I have.
+**Suz Hinton:** I have a tiny amount of JavaScript that's sort of like -- I think there might be a small resize listener. I'm using CSS Grid in a weird way, to create sort of a Pinterest-style tile layout, but it's not quite perfect... So I have to run some JavaScript to adjust the heights, and things. That's pretty much the only JavaScript I think I have.
 
 **Jerod Santo:** Okay. Well, I'm npm-installing it as we speak, and we'll run it against changelog.com and see if we're quite as cool as Suz. Spoiler alert, probably not.
 
@@ -236,19 +236,19 @@ Let's talk about Facebook VR/AR lifelike avatars. Divya, this was your bullet po
 
 **Jerod Santo:** Alright, we are back... And we're here for Pro Tip time. This is where we share our pro tips, whether we're an actual pro, or maybe not. But we have some lifehacks, we've got lessons learned from doing dumb things... Whatever it happens to be, we like to share them with you. Suz, please, share with us your pro tip.
 
-**Suz Hinton:** Yeah, I wanna talk about Hamerspoon... Which is technically Lua, but I'm gonna try to sort of say it's similar syntactically to Javascript.
+**Suz Hinton:** Yeah, I wanna talk about Hamerspoon... Which is technically Lua, but I'm gonna try to sort of say it's similar syntactically to JavaScript.
 
 **Jerod Santo:** \[laughs\] This is not Lua Party, Suz. But I'll allow it.
 
-**Suz Hinton:** I'm sorry...! But it's really good. So it is relevant to Javascript, too.
+**Suz Hinton:** I'm sorry...! But it's really good. So it is relevant to JavaScript, too.
 
 **Jerod Santo:** Okay.
 
-**Suz Hinton:** This is only for OS10, so I'm sorry to those out there who run Linux or Windows. This is specifically for OS10 or macOS. Hamerspoon is a tool for scripting automation, so you can do certain tasks. The reason why I bring this up is because you can write AppleScript or you can write Javascript, which ends up just getting compiled back down to AppleScript. But those APIs that the native operating system gives you, even the Javascript ones, are just not fantastic.
+**Suz Hinton:** This is only for OS10, so I'm sorry to those out there who run Linux or Windows. This is specifically for OS10 or macOS. Hamerspoon is a tool for scripting automation, so you can do certain tasks. The reason why I bring this up is because you can write AppleScript or you can write JavaScript, which ends up just getting compiled back down to AppleScript. But those APIs that the native operating system gives you, even the JavaScript ones, are just not fantastic.
 
 **Jerod Santo:** I agree.
 
-**Suz Hinton:** And so Hamerspoon is aiming to be an alternative to that. It is for the Lua scripting language, but if you do write Javascript, you'll find it joyfully familiar. It's just not quite the same.
+**Suz Hinton:** And so Hamerspoon is aiming to be an alternative to that. It is for the Lua scripting language, but if you do write JavaScript, you'll find it joyfully familiar. It's just not quite the same.
 
 Hamerspoon was introduced to me by a colleague when we were running a bunch of demo stations at a conference recently. He wrote all of these scripts to set up four different demos, and we could just hit a shortcut and it would set everything up. It reminded me very closely of my Twitch stream setup, which I've written in AppleScript. This is so much better that I actually wanna move all my stuff to it.
 
@@ -264,7 +264,7 @@ You can check that out, I will include the link in the show notes... But it just
 
 I want to get more into this stuff. Not necessarily automation to be lazy, but just having little things happen that increase the quality of life on my computer every day, that I've sort of smoothed over because I thought "I'm not able to do that on the operating system."
 
-**Jerod Santo:** Yeah, I wonder if I can use this -- I have one desire which I have never quite filled... I want a copy as markdown system service. You basically take some HTML -- because we do a lot of stuff where we'll copy it and then we're basically covering it as a piece of news... So we wanna put the markdown in there as like a blockquote with markdown. I want a copy as markdown, and there's a Chrome extension - again, I don't use Chrome - or there's Safari things that don't really work... But I would love it to be a system service. That led me to writing some AppleScript. Then I was like "Well, I can use Javascript now, right?" So I went and looked at the Javascript APIs that Apple exposes, and it's like there be dragon.. what's going on there... \[laughter\] And I was like "I don't really need this that bad", so I just stopped. And I wonder if I can achieve that with Hamerspoon maybe.
+**Jerod Santo:** Yeah, I wonder if I can use this -- I have one desire which I have never quite filled... I want a copy as markdown system service. You basically take some HTML -- because we do a lot of stuff where we'll copy it and then we're basically covering it as a piece of news... So we wanna put the markdown in there as like a blockquote with markdown. I want a copy as markdown, and there's a Chrome extension - again, I don't use Chrome - or there's Safari things that don't really work... But I would love it to be a system service. That led me to writing some AppleScript. Then I was like "Well, I can use JavaScript now, right?" So I went and looked at the JavaScript APIs that Apple exposes, and it's like there be dragon.. what's going on there... \[laughter\] And I was like "I don't really need this that bad", so I just stopped. And I wonder if I can achieve that with Hamerspoon maybe.
 
 **Suz Hinton:** I know that there's some markdowny things that you can do in it. The API is just so incredibly extensive, and it made our life so much easier with demo stations and automation, but it is really good for other little conveniences like that.
 

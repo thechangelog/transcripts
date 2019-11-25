@@ -229,7 +229,7 @@ Other languages have things like a thread local storage, which Go has resisted s
 **Carlisia Pinto:** There you go.
 
 **Brian Ketelsen:** I love that. Why don't we move on to \#FreeSoftwareFriday? Andrei, if you're not familiar with this little segment, it's where we wanna give a shout-out to either people or projects that help us; they don't have to be Go-related, they can be any person, any project in the open source world that you wanna say thank you to. We do that just because it's really nice to hear your project and feel appreciated when you spend so much time on an open source project.
-I can go ahead and get started with that one... I used a project called [GitPitch](https://github.com/gitpitch/gitpitch) to present my two talks in Russia this weekend, and I really loved it. It's yet another Javascript presentation PowerPoint replacement thing, but it's particularly nice because on the presentation itself, the people watching the slides can download a zip, they can download a PDF, all without leaving their browser.
+I can go ahead and get started with that one... I used a project called [GitPitch](https://github.com/gitpitch/gitpitch) to present my two talks in Russia this weekend, and I really loved it. It's yet another JavaScript presentation PowerPoint replacement thing, but it's particularly nice because on the presentation itself, the people watching the slides can download a zip, they can download a PDF, all without leaving their browser.
 
 \[00:56:15.01\] The workflow is a little bit awkward, but I guess they're working to fix it, make it a little bit easier doing the building of the presentation part.
 

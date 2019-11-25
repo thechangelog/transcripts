@@ -32,7 +32,7 @@ So it was through programs like Google Summer of Code and Hacktoberfest - really
 
 In my freshman year in college it was my first year of involvement with Google Summer of Code. I worked with them on a Node.js project that really was a defining moment in my journey in open source.
 
-After that year, I was so impacted by that project that I wanted to give back to the community, so I decided to be a mentor for them, and mentor three different students. Then I moved on to a project that was more up my current interests, because I was working a lot on Node.js and Javascript, so I started working on Node.
+After that year, I was so impacted by that project that I wanted to give back to the community, so I decided to be a mentor for them, and mentor three different students. Then I moved on to a project that was more up my current interests, because I was working a lot on Node.js and JavaScript, so I started working on Node.
 
 \[00:08:13.29\] A bunch of helpful people along the way kept leveling me up, including Tierney, who we met at NodeConf Colombia. One of the most amazing people I've met. Overall, it got me started and gave me the enthusiasm, while Anna was helping me a lot with the technical aspects of the project.
 
@@ -46,7 +46,7 @@ That's what the whole deal is about - just meeting new people and learning from 
 
 A few years later I got into more direct web stuff. I was using Ruby on Rails, I kind of went down that road; I was building mostly applications... And at some point I realized "Hey, when I'm using one of these open source libraries tied into this, if something's not working right, I can actually not just complain about it, I can contribute a fix."
 
-So some of my first touches into open source in a positive way were small libraries on the Ruby side and a little bit in Javascript. I wasn't actually doing anything big, I was like "Oh, I have an itch. I'm trying to use it in this way, it's not working; I'm gonna file an issue, but then I'm also at the same time gonna submit a pull request that addresses that issue."
+So some of my first touches into open source in a positive way were small libraries on the Ruby side and a little bit in JavaScript. I wasn't actually doing anything big, I was like "Oh, I have an itch. I'm trying to use it in this way, it's not working; I'm gonna file an issue, but then I'm also at the same time gonna submit a pull request that addresses that issue."
 
 That's something that to this day I'm involved in ways like that, where if I'm using something that -- or if something's broken, if I have time (which sometimes I do, sometimes I don't), I will not only file an issue about it, I will also try to put aside time to file a suggested fix. And generally I'll say, "Hey, I'm new to your project. I tried to follow your guidelines. I may have failed. I'm okay if you wanna do this in a different way... I just wanna make sure this issue is fixed. If you want me to do it, tell me a different way to do it, I'll do it." Because it's really about getting the result.
 
@@ -150,7 +150,7 @@ There are a lot of tells that you can look for to see "Is this a community that 
 
 **Nick Nisi:** Another place you can check - a lot of projects have set up their own communities on Slack, or Discord, or Spectrum... So there's lots of different places that you can check, and you can go look at the history of that chat and kind of get an idea of what the community is like, and also jump in and ask for help getting started; that's a good place to get real-time asynchronous feedback, with contributors and other enthusiasts of the project.
 
-**Kevin Ball:** I will say, if you're in the Javascript world - and if you're listening to this, you're probably in the Javascript world - some of the most welcoming projects I've seen out there are Node.js and Vue.js. They are both incredibly welcoming to the community. It sounds like Ember is as well, but I have not directly been involved with that... But that's another one you could look at.
+**Kevin Ball:** I will say, if you're in the JavaScript world - and if you're listening to this, you're probably in the JavaScript world - some of the most welcoming projects I've seen out there are Node.js and Vue.js. They are both incredibly welcoming to the community. It sounds like Ember is as well, but I have not directly been involved with that... But that's another one you could look at.
 
 **Nick Nisi:** Yeah, and this Code & Learn that happened at Node.js Colombia - is that similar to the one that happened at Node.js Interactive in Vancouver, Kball?
 
@@ -160,7 +160,7 @@ There are a lot of tells that you can look for to see "Is this a community that 
 
 **Ujjwal Sharma:** Yeah, I'd say that the Node.js Code & Learns are coordinated events, and they happen more or less in the same way. I think the final details rest on who are the final \[unintelligible 00:38:25.04\] people who are organizing it... But I think it's really important to keep in mind that the community at large is involved in that. It's like, I could go on and physically help out a bunch of people, but without the support of the community sitting at their homes, merging PRs like crazy, and running CI servers every once in a while, it'd be impossible. So it's more like a whole team effort, but we try to do those as much as possible.
 
-I've personally been trying to do those more and more in regions which have been traditionally underrepresented, in Node.js core. For example, I was really happy to organize the first ever Code & Learn in Russia, a couple months ago... Which is crazy, right? Russia has an amazing community of programmers, and a bunch of really amazing Javascript developers; why don't they have enough people working in Node core? Because maybe they're not getting enough attention, so now they are. And I'm planning to organize a second one soon... But yeah, I think Code & Learn is a really important tool to impart people to contribute to this codebase.
+I've personally been trying to do those more and more in regions which have been traditionally underrepresented, in Node.js core. For example, I was really happy to organize the first ever Code & Learn in Russia, a couple months ago... Which is crazy, right? Russia has an amazing community of programmers, and a bunch of really amazing JavaScript developers; why don't they have enough people working in Node core? Because maybe they're not getting enough attention, so now they are. And I'm planning to organize a second one soon... But yeah, I think Code & Learn is a really important tool to impart people to contribute to this codebase.
 
 Nick, you talked about the impostor syndrome, and that's been something that I've been personally dealing with a lot, especially when I was initially working with the community, when I would constantly think that I'm not good enough to solve an issue. And not only that. That's actually fairly better than thinking what I used to think, that "Oh, I don't even need to ask them, because I'm just a waste of their time." Now, Code & Learn goes the extra mile of saying "You're not a waste of their time anymore, because they're literally at the same location, and it's literally a part of their job for the next couple of hours to help you. They're there to help you." And I think it bridges the gap, the asynchronous workflow that GitHub offers.
 
@@ -172,7 +172,7 @@ I think it's one of the most powerful things that I've learned, more than the co
 
 **Ujjwal Sharma:** Yes, totally. Talking about people who would never contribute again - I personally think that's perfectly fine, as long as we helped in any way whatsoever. Maybe we just helped improve their confidence, maybe we just help break the surface tension, maybe we just help them jump through that one hurdle that was blocking them from working on whatever they feel like. I think it's a worthwhile attempt.
 
-Also, as I see it, at some point the Node.js people realize that it was much harder to set up the project than to actually make a commit, that in most cases might be trivial. It's a Javascript project, you make a bunch of changes. That's what you do at a day job also.
+Also, as I see it, at some point the Node.js people realize that it was much harder to set up the project than to actually make a commit, that in most cases might be trivial. It's a JavaScript project, you make a bunch of changes. That's what you do at a day job also.
 
 On the other hand, it's probably rocket science at times to set up the project, and that's the deal. Once you set up the project at your local computer, once you know how to make the commits, how to follow the commit guidelines, how to trigger CI, how to wait for review... I think once you get through the administrative/governance related hurdles, the code part or the documentation part itself is kind of simple.
 
@@ -248,7 +248,7 @@ Talking about mentors also, as you said, I'd say that I've had hundreds of mento
 
 **Kevin Ball:** Alright. I think that's probably a good time to wrap. Any closing thoughts either of you wanna leave us with?
 
-**Ujjwal Sharma:** I guess I could just say that if you're anybody who is trying to get into open source, if you're anybody who's trying to get -- especially in the Javascript ecosystem there's this crazy amount of people out there who are just waiting to help you... Or maybe probably not just literally waiting to help you, but who would be really glad to help you is what I mean. Personally, my DMs are always open. You can find me on Twitter, you can find me on email if you prefer that...
+**Ujjwal Sharma:** I guess I could just say that if you're anybody who is trying to get into open source, if you're anybody who's trying to get -- especially in the JavaScript ecosystem there's this crazy amount of people out there who are just waiting to help you... Or maybe probably not just literally waiting to help you, but who would be really glad to help you is what I mean. Personally, my DMs are always open. You can find me on Twitter, you can find me on email if you prefer that...
 
 When I talk to people about getting them working on Node.js, a common thing that I've been known to say is that 99% of the time I would not know what to do, I would not know how to help you. But 100% of the time I know somebody who could help you... So just reach out. Reach out to me, reach out to any of these amazing people that I mentioned... Reach out to pretty much anybody on the Node.js core team. I do not know of any person in the scene right now who would not be super-glad to help you. We're really glad if you could start working on the project, and - well, we need you more than you think we need you.
 

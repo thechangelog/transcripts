@@ -196,7 +196,7 @@ I think dependency management and things like that - this is something that we s
 
 **Erik St. Martin:** And we are back. We're talking with Mat Ryer and we've been talking about Go 1.8 and some of the interesting things coming up, and other projects and dependency management...
 
-So let's talk about some interesting projects and other news that we've come across. One I particularly am excited about - have you guys seen The App Project? I know I'm gonna slaughter the name, it's github.com/murlokswarm/app. It's basically like Electron, but written in Go. You can build a GUI-based application in Go and HTML and Javascript, and it runs as a native application.
+So let's talk about some interesting projects and other news that we've come across. One I particularly am excited about - have you guys seen The App Project? I know I'm gonna slaughter the name, it's github.com/murlokswarm/app. It's basically like Electron, but written in Go. You can build a GUI-based application in Go and HTML and JavaScript, and it runs as a native application.
 
 **Kelsey Hightower:** I don't know, Erik... That doesn't really sound like fun to me. \[laughter\] I'm joking.
 

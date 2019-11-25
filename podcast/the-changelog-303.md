@@ -126,7 +126,7 @@ Previously, we've used lots of tools to track stuff over time, and it's that lea
 
 **Jerod Santo:** Exactly. So now it's more apparent to the business side of businesses that this is something worth investing in, but back when you were giving the pitch, it probably was still somewhat of a hard sell. But you weren't selling necessarily the speed; I guess you were selling the malleability of CDNs, or the programmability of infrastructure.
 
-**Kurt Mackey:** Yeah, speed is actually a really good thing to solve at this layer... But yeah, what we've ended up building now is kind of a global application platform, and ideas like "People should write Javascript once, and they should deploy it, and they shouldn't worry about where in the world it's running." It's really well-suited for proxy-level problems, it's really well-suited for people who wanna build CDNs, it's really helpful for speeding things up. We're hoping it's actually just an interesting take on application architecture and deployment, and what we think the future of building apps is gonna look like.
+**Kurt Mackey:** Yeah, speed is actually a really good thing to solve at this layer... But yeah, what we've ended up building now is kind of a global application platform, and ideas like "People should write JavaScript once, and they should deploy it, and they shouldn't worry about where in the world it's running." It's really well-suited for proxy-level problems, it's really well-suited for people who wanna build CDNs, it's really helpful for speeding things up. We're hoping it's actually just an interesting take on application architecture and deployment, and what we think the future of building apps is gonna look like.
 
 **Break:** \[00:17:50.09\]
 
@@ -150,7 +150,7 @@ It was at the end of April 2017 we actually launched our first service, and all 
 
 **Kurt Mackey:** So we ended up running about several thousand domains on that platform, on that service, and serving several hundred million requests per month on top of it, and never charged for it. We actually launched with pricing, but hadn't built billing yet... And as we looked at it, we thought "Well, this is a cool thing to give people, but it's not really the product we want them to pay for." It wasn't a good enough product, we didn't think. That was at the end of April.
 
-Then in April of 2018 we actually launched the application runtime. So it took a year, basically, of running this for people and then building what turns out to be a custom Javascript runtime from scratch, and then getting that deployed, actually launching that for customers.
+Then in April of 2018 we actually launched the application runtime. So it took a year, basically, of running this for people and then building what turns out to be a custom JavaScript runtime from scratch, and then getting that deployed, actually launching that for customers.
 
 **Jerod Santo:** That's pretty fast, I think. Things probably felt slower for you as you're the one toiling away...
 
@@ -219,7 +219,7 @@ Basically, distributed cache isn't open source, but they're local and it works j
 
 **Kurt Mackey:** Yes. I would much rather build stuff than sell stuff, usually. Jerome and I could easily just build things and never have a functional company if we weren't careful about the decisions we were making... \[laughter\] My happy weeks are the weeks that I'm talking to devs on Slack and not talking to big companies, and doing pull requests and shipping features. That's when I feel the best. It's quite fun.
 
-And I've even gotten to do talks about embedding Javascript at various Javascript meetups, and that's great fun. I'd much rather do deeply technical stuff than write a whitepaper for a VP of something at some big company to read. So yeah, I don't know if I've done anything this week, but next week I will.
+And I've even gotten to do talks about embedding JavaScript at various JavaScript meetups, and that's great fun. I'd much rather do deeply technical stuff than write a whitepaper for a VP of something at some big company to read. So yeah, I don't know if I've done anything this week, but next week I will.
 
 **Jerod Santo:** \[laughs\] Well, I see the only person that you're behind on the contributors list is Jerome, so it's a bit of a battle that you're losing, but how do you balance that? How do you know when to put the code editor down and say "I've gotta go take this investor meeting" or "I have to go sell something"?
 
@@ -245,9 +245,9 @@ I think my last commits were actually three example apps on an airplane ride whe
 
 **Kurt Mackey:** Yeah, it's more and more TypeScript. I really like TypeScript; I've always really liked types, and I used to be a pretty heavy Windows dev. I did a lot of F\#, which if you've ever done F\#, you have to like types, or you don't do F\#. And there's a lot of that stuff that's trickled into TypeScript. We both really like TypeScript, because it's easy; it's much easier to reason about. One of the things we had to implement for this runtime was a -- so we were basically implementing browser APIs, because they work really well for our use case, and browser APIs tend to be really well-designed, the modern ones... So like Fetch and Request and Response are just a really nice API to give to people. Request and Response both have bodies that can be streams or array buffers...
 
-There's a whole bunch of different things that those bodies could be, and one of the body mixins I implemented was first in Javascript, and it just got overwhelming because I couldn't reason about what was actually happening throughout that big, messy Javascript, and TypeScript made it about 1,000 easier to understand what we were dealing with and how.
+There's a whole bunch of different things that those bodies could be, and one of the body mixins I implemented was first in JavaScript, and it just got overwhelming because I couldn't reason about what was actually happening throughout that big, messy JavaScript, and TypeScript made it about 1,000 easier to understand what we were dealing with and how.
 
-The only thing that we've found -- and there's nothing TypeScript can do about this I don't think... But since we do write a library, and a lot of our customers use Javascript, you can still send untyped garbage into TypeScript and you don't have any guarantees that what the compiler just said is happening is actually what's coming through... And it's not so bad; it's just a thing that's sort of always in the back of our minds when we're making APIs. If we expect an object in a certain format, we still have to validate that at runtime, or it's not gonna go well.
+The only thing that we've found -- and there's nothing TypeScript can do about this I don't think... But since we do write a library, and a lot of our customers use JavaScript, you can still send untyped garbage into TypeScript and you don't have any guarantees that what the compiler just said is happening is actually what's coming through... And it's not so bad; it's just a thing that's sort of always in the back of our minds when we're making APIs. If we expect an object in a certain format, we still have to validate that at runtime, or it's not gonna go well.
 
 **Jerod Santo:** I see.
 
@@ -257,7 +257,7 @@ The only thing that we've found -- and there's nothing TypeScript can do about t
 
 **Kurt Mackey:** They're data, they're data structures... Yeah, exactly. TypeScript's great. We're huge fans. You've probably seen Ryan Dahl's Deno...
 
-**Jerod Santo:** Yes, in fact we had -- so another show on our network is called JS Party, which is all about Javascript... We had a TypeScript Party a couple weeks back on that show, and then we also record live on Thursday and we had a section (it's kind of a three-segment show) that was all about his talk at JSConf EU, kind of just reacting to the ten regrets he has about Node, and then his new thing...
+**Jerod Santo:** Yes, in fact we had -- so another show on our network is called JS Party, which is all about JavaScript... We had a TypeScript Party a couple weeks back on that show, and then we also record live on Thursday and we had a section (it's kind of a three-segment show) that was all about his talk at JSConf EU, kind of just reacting to the ten regrets he has about Node, and then his new thing...
 
 **Kurt Mackey:** What's interesting watching him do that is we're sort of converging on similar ideas; TypeScript was one of them. Things like the browser APIs making it so your code runs in a jail and it can't do anything except one specific Fetch function... It's all very fascinating. I like that Deno is natively TypeScript, and we've thought about how to make Fly natively TypeScript for developers instead of just ourselves, too.
 
@@ -372,7 +372,7 @@ I think it's probably just a really good mental exercise, but I also think if yo
 
 **Jerod Santo:** Alright. Anything else, Kurt, before I let you go? It's been a very fun conversation. Anything else you wanna chat about?
 
-**Kurt Mackey:** No, I think we covered it all. It was a fun talk. I love talking about Javascript and open source, so this was a good diversion from work today... If you're not working on Javascript and open source. \[laughter\]
+**Kurt Mackey:** No, I think we covered it all. It was a fun talk. I love talking about JavaScript and open source, so this was a good diversion from work today... If you're not working on JavaScript and open source. \[laughter\]
 
 **Jerod Santo:** Happy to divert you, and we thank you so much for your time. I love sharing that bit about what you're trying to do, giving these authors some equity, and hoping that works out to their benefit, as you benefit from them. That's a very cool idea, and I'm interested to hear how that goes over time.
 

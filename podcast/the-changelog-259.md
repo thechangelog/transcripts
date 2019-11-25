@@ -216,7 +216,7 @@ There was a couple of stuff more recently... I released Giddy, which is a comman
 
 **Jerod Santo:** \[laughs\] ...which is a nice question. "Why does this have to exist?"
 
-**Safia Abdalla:** Yes... And the reason is that I work a lot at the command line. Most of the work I do is in Hyper, which is a terminal built in Electron using React and Javascript. It's a really amazing and interesting technology. I usually have one pain, that is Vim, and then two pains, that are just shells for me to run tests on, or run the server, or just execute Git commands. So I'm into the command line a lot, and I kind of preach this philosophy of minimalism in my development environment, so I don't add a ton of extensions and tools, and...
+**Safia Abdalla:** Yes... And the reason is that I work a lot at the command line. Most of the work I do is in Hyper, which is a terminal built in Electron using React and JavaScript. It's a really amazing and interesting technology. I usually have one pain, that is Vim, and then two pains, that are just shells for me to run tests on, or run the server, or just execute Git commands. So I'm into the command line a lot, and I kind of preach this philosophy of minimalism in my development environment, so I don't add a ton of extensions and tools, and...
 
 **Jerod Santo:** Customization.
 
@@ -230,7 +230,7 @@ There was a couple of stuff more recently... I released Giddy, which is a comman
 
 **Safia Abdalla:** Yes.
 
-**Jerod Santo:** So you do some Python, you do some Javascript... All these tools that are NPM-installable things.
+**Jerod Santo:** So you do some Python, you do some JavaScript... All these tools that are NPM-installable things.
 
 **Safia Abdalla:** Yeah.
 
@@ -266,9 +266,9 @@ There was a couple of stuff more recently... I released Giddy, which is a comman
 
 **Adam Stacoviak:** Always part of the show...
 
-**Safia Abdalla:** The Javascript show.
+**Safia Abdalla:** The JavaScript show.
 
-**Jerod Santo:** They are the Javascript show. I mean, if you're a command line junkie or in the Javascript or NPM communities and you're on Twitter, you've seen Captain Safia retweeted around with some new awesome CLI tool. I've seen this so many times recently that I told you, I'm getting fear of inadequacy. So you're part of the show -- I mean, maybe you ever are the show at this point...
+**Jerod Santo:** They are the JavaScript show. I mean, if you're a command line junkie or in the JavaScript or NPM communities and you're on Twitter, you've seen Captain Safia retweeted around with some new awesome CLI tool. I've seen this so many times recently that I told you, I'm getting fear of inadequacy. So you're part of the show -- I mean, maybe you ever are the show at this point...
 
 **Safia Abdalla:** Oh, boy...
 
@@ -310,13 +310,13 @@ There was a couple of stuff more recently... I released Giddy, which is a comman
 
 **Adam Stacoviak:** How do you mean vibe?
 
-**Safia Abdalla:** So it's bigger. The space is bigger, there is more people... I generally either will go to a conference that's focused on a particular topic, so either a Javascript conference or a Python conference or a data science conference. There's a lot of diversity in topic material here... Which is good, because you get to kind of see more things and it encourages you to discover new things that you might not generally be interested in, but it can also be overwhelming, because there's just like so much going on...
+**Safia Abdalla:** So it's bigger. The space is bigger, there is more people... I generally either will go to a conference that's focused on a particular topic, so either a JavaScript conference or a Python conference or a data science conference. There's a lot of diversity in topic material here... Which is good, because you get to kind of see more things and it encourages you to discover new things that you might not generally be interested in, but it can also be overwhelming, because there's just like so much going on...
 
 **Jerod Santo:** There's a lot going on.
 
 **Safia Abdalla:** Yeah. And I'm definitely kind of a one-track kind of person.
 
-**Jerod Santo:** Okay. I also enjoy a small, one-track conference. In fact, I helped organize a small one-track conference about Javascript, a regional one.
+**Jerod Santo:** Okay. I also enjoy a small, one-track conference. In fact, I helped organize a small one-track conference about JavaScript, a regional one.
 
 **Adam Stacoviak:** Plug it.
 
@@ -460,7 +460,7 @@ Just like in business, there's luck and timing, and there's things outside of yo
 
 **Safia Abdalla:** I think I'll probably keep doing a lot of those small little CLI tools, because really what I'm doing there is scratching my own itch, and I like to share it with the world. Sometimes it picks up, sometimes it doesn't. I've had a few things that weren't super exciting and didn't really pick up, but they were useful to me and that's all that matters.
 
-So I'll probably keep developing that. I'm probably gonna say in the Javascript ecosystem -- for a long while, I've started to explore going into Rust and Go, but Javascript has my heart, it appears...
+So I'll probably keep developing that. I'm probably gonna say in the JavaScript ecosystem -- for a long while, I've started to explore going into Rust and Go, but JavaScript has my heart, it appears...
 
 **Adam Stacoviak:** Nice.
 

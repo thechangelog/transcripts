@@ -1,4 +1,4 @@
-**Kevin Ball:** Hello, JS Conf! How are you all doing? Alright, so we are your live JS Party. Now, JS Party is a weekly podcast; we do a party about Javascript and the web every week, and we're typically doing that live on Thursdays, where folks are chiming in on our Slack channel. This week we're gonna do it live, right here, right now, so y'all better be our Slack channel, and be chiming in.
+**Kevin Ball:** Hello, JS Conf! How are you all doing? Alright, so we are your live JS Party. Now, JS Party is a weekly podcast; we do a party about JavaScript and the web every week, and we're typically doing that live on Thursdays, where folks are chiming in on our Slack channel. This week we're gonna do it live, right here, right now, so y'all better be our Slack channel, and be chiming in.
 
 Shall we sit down a little bit...? I'll introduce myself and the panelists - I'm KBall, I will be your MC today.
 
@@ -12,9 +12,9 @@ Shall we sit down a little bit...? I'll introduce myself and the panelists - I'm
 
 **Suz Hinton:** Oh, no...
 
-**Kevin Ball:** I'm calling it Javascript Connections... The idea is there are so many crazy, awesome, amazing things going on in the Javascript world right now, and sometimes it feels like we're all off in our own silos. The folks doing robotics with Johnny-Five are barely talking to the folks over here doing React and Vue and all this other stuff... So what I wanna do is poll the audience for some really cool -- whether it's library, API, framework, something that you're using... We'll get two or three, and then the panelists are gonna live come up with an interesting combination that we can do with that.
+**Kevin Ball:** I'm calling it JavaScript Connections... The idea is there are so many crazy, awesome, amazing things going on in the JavaScript world right now, and sometimes it feels like we're all off in our own silos. The folks doing robotics with Johnny-Five are barely talking to the folks over here doing React and Vue and all this other stuff... So what I wanna do is poll the audience for some really cool -- whether it's library, API, framework, something that you're using... We'll get two or three, and then the panelists are gonna live come up with an interesting combination that we can do with that.
 
-Let's start out... Who's doing something really cool and crazy whacko with Javascript right now?
+Let's start out... Who's doing something really cool and crazy whacko with JavaScript right now?
 
 **Feross Aboukhadijeh:** Oh, come on...
 
@@ -22,7 +22,7 @@ Let's start out... Who's doing something really cool and crazy whacko with Javas
 
 \[member from the audience\] VR!
 
-**Kevin Ball:** VR. So we've got VR with Javascript. That will be our first thing, so we're gonna pull in VR. Anyone else?
+**Kevin Ball:** VR. So we've got VR with JavaScript. That will be our first thing, so we're gonna pull in VR. Anyone else?
 
 \[member from the audience\] Browser extensions.
 
@@ -74,7 +74,7 @@ You could have special ways of showing each type of sites; maybe for a Reddit pa
 
 **Suz Hinton:** Oh, god... \[laughter\]
 
-**Kevin Ball:** \[00:07:57.02\] Alright, Javascript cryptocurrency mining. That's our starter. Something else to combine it with? Yes.
+**Kevin Ball:** \[00:07:57.02\] Alright, JavaScript cryptocurrency mining. That's our starter. Something else to combine it with? Yes.
 
 \[member from the audience\] GraphQL. \[laughter\]
 
@@ -148,7 +148,7 @@ You could have special ways of showing each type of sites; maybe for a Reddit pa
 
 **Kevin Ball:** Npm has started doing some of that tree stuff for security, though it's going the other way; it's saying "What do I depend on?" and traversing down each of those packages and understanding "Are there security vulnerabilities?" and things like that. This would be kind of inverting that and saying "Everything that depends on my library - let's go and run all their tests with this..." You'd need a massive server farm, essentially... Like, kick everything off; okay, go run an AWS for three hours, come back and show me pretty graphs.
 
-Any other Javascript libraries you wanna -- I wanna throw one out... We talked about this once on an episode and I just wanna pit you two off on combining WebUSB with WebTorrents, because I think there's some really interesting things we could do there... Particularly getting around the setup problem and how do we make this something that's truly distributed, or other fun stuff. Do you have any ideas?
+Any other JavaScript libraries you wanna -- I wanna throw one out... We talked about this once on an episode and I just wanna pit you two off on combining WebUSB with WebTorrents, because I think there's some really interesting things we could do there... Particularly getting around the setup problem and how do we make this something that's truly distributed, or other fun stuff. Do you have any ideas?
 
 **Suz Hinton:** \[00:12:17.08\] I think it would be cool to use torrents to manage firmware versions of hardware, and then you can basically just download your own flavor or distribution for your hardware from WebTorrent, but then that goes straight through to WebUSB to update it on the spot. I thought that would be cool.
 
@@ -180,7 +180,7 @@ The only hard part is figuring out what the hash is that you want to trust... Bu
 
 **Break:** \[00:16:37.21\]
 
-**Kevin Ball:** The next section I wanted to do was actually kind of a meta session, talking about community, and the Javascript community in particular, the role of conferences, and a little bit about what we're doing well, because I think there's a lot of things we're doing well, but I thought it would also be really interesting to poll the audience and poll the panel about where do we still have to grow? What are we falling down on when it comes to growing our community and making it more inviting and accepting, but also in terms of how we're spreading knowledge, and that sort of thing.
+**Kevin Ball:** The next section I wanted to do was actually kind of a meta session, talking about community, and the JavaScript community in particular, the role of conferences, and a little bit about what we're doing well, because I think there's a lot of things we're doing well, but I thought it would also be really interesting to poll the audience and poll the panel about where do we still have to grow? What are we falling down on when it comes to growing our community and making it more inviting and accepting, but also in terms of how we're spreading knowledge, and that sort of thing.
 
 I don't have a particular place to start that, except maybe JS Conf... One thing I noticed immediately coming here to JS Conf is the opening statement was the Code of Conduct, which I think is a really positive thing in our industry, that we are focusing on everyone's experience, not just the loudest and sort of more traditionally supported experiences.
 
@@ -198,7 +198,7 @@ So I think that the idea of JS Conf was to bring a lot of those affordances and 
 
 In other cases we've had to write messages on mailing lists to 1,500 people and let them know something happened, this kind of behavior is inappropriate, and we can't have that at our meetups... It's important that people know who they can go to, and that they will be taken seriously in all cases.
 
-**Feross Aboukhadijeh:** One thing that's kind of different than what you two said - I was thinking back to when I first got involved in the Javascript community, and one big thing that I've experienced was just the fear of going up to the speakers and the big names in the community, and I was afraid to have them figure out maybe that I don't know something, or that maybe they'll think I'm stupid if I ask a certain question, or something like that... So it actually took me going to a couple conferences before I felt like I could actually walk up to people and talk to them.
+**Feross Aboukhadijeh:** One thing that's kind of different than what you two said - I was thinking back to when I first got involved in the JavaScript community, and one big thing that I've experienced was just the fear of going up to the speakers and the big names in the community, and I was afraid to have them figure out maybe that I don't know something, or that maybe they'll think I'm stupid if I ask a certain question, or something like that... So it actually took me going to a couple conferences before I felt like I could actually walk up to people and talk to them.
 
 I think one thing that -- we'll see actually how it goes tomorrow; I've never been to JS Conf before, but the idea of a whole day between talks, where people just get to hang out, seems like a pretty good way to make it less intimidating to come up to speakers...
 
@@ -206,7 +206,7 @@ Until I actually came up to speakers and talked to them, I had this sort of unhe
 
 Having less pressure and more free time I think is good for that. We'll see how it goes tomorrow.
 
-**Suz Hinton:** I think that's a really good point. I definitely think that we have a hero worship problem just in the Javascript community in general, and I'm really glad that you brought that up... Because it goes both ways; you're either put on a pedestal, so people are super-entitled and they expect so many things of you, when you're just like one human and you're fallible, and you have your own personal life that you're trying to also get on with, but you're just being constantly barraged by expectations... But there's also that feeling of exclusivity; it's like, "Well, I can't talk to them because they're author of X library, or something", but it's just not how most people wanna be seen, I'm sure, for the big Javascript celebrities. It's just not really a healthy attitude. I'm really glad that you brought that up.
+**Suz Hinton:** I think that's a really good point. I definitely think that we have a hero worship problem just in the JavaScript community in general, and I'm really glad that you brought that up... Because it goes both ways; you're either put on a pedestal, so people are super-entitled and they expect so many things of you, when you're just like one human and you're fallible, and you have your own personal life that you're trying to also get on with, but you're just being constantly barraged by expectations... But there's also that feeling of exclusivity; it's like, "Well, I can't talk to them because they're author of X library, or something", but it's just not how most people wanna be seen, I'm sure, for the big JavaScript celebrities. It's just not really a healthy attitude. I'm really glad that you brought that up.
 
 I think that these conferences obviously help with this, because you get to speak to them in real life, and then you realize that they're just a person... But I think that we can do better in the community at large with this kind of stuff, especially when it comes to the Twitter conversations and dramas and things like that.
 
@@ -230,7 +230,7 @@ I think that these conferences obviously help with this, because you get to spea
 
 **Kevin Ball:** How are speakers selected? Great question.
 
-**Nick Nisi:** That's a secret sauce that we can't discuss. \[laughter\] No, it's a big process... We vary how we do it, but we have -- for the conference that I run, the Nebraska Javascript Conference, there's eight organizers total, and we will put out the CFP, and then we will all come up with a list of speakers that we really want to invite to speak, and then we'll discuss those and find common ones, and then try and actually reach out to them and invite them to speak... But the last two conferences we've actually not invited any speakers and chosen completely from the CFP.
+**Nick Nisi:** That's a secret sauce that we can't discuss. \[laughter\] No, it's a big process... We vary how we do it, but we have -- for the conference that I run, the Nebraska JavaScript Conference, there's eight organizers total, and we will put out the CFP, and then we will all come up with a list of speakers that we really want to invite to speak, and then we'll discuss those and find common ones, and then try and actually reach out to them and invite them to speak... But the last two conferences we've actually not invited any speakers and chosen completely from the CFP.
 
 The process that we go through for that is -- it kind of varies from person to person, but for the most part we all go through the list in a blind way where we're just looking at the talk title and the description, trying to understand what the intention of the conference talk will be, and then trying to weigh that against other talks that are in a similar category... So if you're talking about React, or you're talking about accessibility, we kind of rank those individually on those different pieces. We wanna make sure that we cover accessibility and React, but we don't wanna have four React talks and four accessibility talks; we wanna have a good combination of everything.
 
@@ -402,4 +402,4 @@ I think that's still a difficult thing, but asking and constantly questioning ev
 
 **Suz Hinton:** It's a cool community.
 
-**Feross Aboukhadijeh:** We talk about all kinds of stuff, too... I'm hosting a show about peer-to-peer, the distributed web, and I guess it's on the sixth. But the topics are always different, it's always a new random thing, but it's always related to Javascript, so it's really fun.
+**Feross Aboukhadijeh:** We talk about all kinds of stuff, too... I'm hosting a show about peer-to-peer, the distributed web, and I guess it's on the sixth. But the topics are always different, it's always a new random thing, but it's always related to JavaScript, so it's really fun.

@@ -16,7 +16,7 @@
 
 **André Staltz:** It's actually quite hard to find a title for what I do, and I didn't wanna use very esoteric titles that just make people even more confused. I just tried to use terms that people use. Freelancers - you usually think of them as self-employed people who do contract work, and then they do it from home. I am a person who's self-employed, and I do work from home, but mostly what I do is open source.
 
-For instance, my sources of revenue are open source donations, so I run a [Cycle.js Open Collective](https://opencollective.com/cyclejs). Cycle.js is a framework for Javascript, and it has donations sometimes from backers, sometimes from companies. I do a little bit of development on that, and I get donations.
+For instance, my sources of revenue are open source donations, so I run a [Cycle.js Open Collective](https://opencollective.com/cyclejs). Cycle.js is a framework for JavaScript, and it has donations sometimes from backers, sometimes from companies. I do a little bit of development on that, and I get donations.
 
 Then there's the [Manyverse Open Collective](https://opencollective.com/manyverse); I'm sure we're gonna talk about Manyverse. And that's been also receiving donations. Then donations in total don't give me a living, so I also do workshops to teach programming libraries, and stuff like that. Those workshops give me income. Also, online training through different kinds of teaching portals. All of these things - the common theme is always some kind of open source, so I think the title is quite okay...
 

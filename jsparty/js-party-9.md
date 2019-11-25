@@ -1,4 +1,4 @@
-**Mikeal Rogers:** Hey, everybody! Welcome to JS Party, where it's a party every week with Javascript. I'm Mikeal Rogers...
+**Mikeal Rogers:** Hey, everybody! Welcome to JS Party, where it's a party every week with JavaScript. I'm Mikeal Rogers...
 
 **Rachel White:** I'm Rachel White.
 
@@ -10,7 +10,7 @@
 
 React is a framework, and it's a framework primarily for rendering DOM elements onto a page, and doing that efficiently. The core concept behind React is that you write your markup inside of React, and you use their management of lifecycle of data changing, and then you try to build your HTML with data in React, and then as your data changes, React can somewhat automatically change your web page to reflect the data that has changed inside of your state.
 
-That's a core concept pretty much in every current framework, the idea of data binding. Different frameworks do it differently, and the novel approach that React took, which is very popular now, a few years later, is that they want to make re-rendering very cheap, so what they do is they render what's called a virtual DOM, which is really just a Javascript object, and instead of having children, you have an array called "children", things like that; instead of attributes on DOM elements, you just have "properties" as like a second argument to an object. So really it's just this very simple representation of a DOM, and then anytime data changes, it goes and changes it in this object version of the DOM, instead of the actual HTML page that you can see. And then once it makes all the changes from all the data that's changed, it runs what's called a DOM diff against the old one and the new one, and it says "Okay, the only thing that changed is that the class name property on this one object way down on this part of the page changed. That's it. It would be silly if we threw away..." - back in the Backbone days you would throw away all of your HTML and then you'd re-render your entire page because one class name changed. Maybe you would just re-render an entire view, but either way, you'd re-render a whole bunch for very small data changes.
+That's a core concept pretty much in every current framework, the idea of data binding. Different frameworks do it differently, and the novel approach that React took, which is very popular now, a few years later, is that they want to make re-rendering very cheap, so what they do is they render what's called a virtual DOM, which is really just a JavaScript object, and instead of having children, you have an array called "children", things like that; instead of attributes on DOM elements, you just have "properties" as like a second argument to an object. So really it's just this very simple representation of a DOM, and then anytime data changes, it goes and changes it in this object version of the DOM, instead of the actual HTML page that you can see. And then once it makes all the changes from all the data that's changed, it runs what's called a DOM diff against the old one and the new one, and it says "Okay, the only thing that changed is that the class name property on this one object way down on this part of the page changed. That's it. It would be silly if we threw away..." - back in the Backbone days you would throw away all of your HTML and then you'd re-render your entire page because one class name changed. Maybe you would just re-render an entire view, but either way, you'd re-render a whole bunch for very small data changes.
 
 In the React world, it knows which DOM element maps to that subsection of your page, and it can just swap out the little class name section very quickly. So DOM diffing is very fast, based on some of the constraints that they put in, so you can get very fast renders without having to manage which part of the page that you're updating manually; it just feels very data-bound, even though it's not necessarily data-bound in the same sense that people might expect out of Ember, or something similar to that. Was that a good overview?
 
@@ -222,11 +222,11 @@ Essentially, you can perform a search on encrypted data. It's kind of early days
 
 So we end up with a lot of demos in this space. We talk about NodeBots, we talk about VR, we talk about P2P, and all of it I think is massively interesting and is the future, but it keeps being the future, no matter how far into the future that we go... It keeps still being the future, so I'm wondering...
 
-**Mikeal Rogers:** I would push back a little bit on that. For instance, NodeBots were new and novel in 2012. I think I had talks at NodeConf on it and people were like "What?! Robots in Javascript?"
+**Mikeal Rogers:** I would push back a little bit on that. For instance, NodeBots were new and novel in 2012. I think I had talks at NodeConf on it and people were like "What?! Robots in JavaScript?"
 
 **Alex Sexton:** Yeah, for sure, but no one ships a NodeBot as their production robot.
 
-**Mikeal Rogers:** \[00:36:01.19\\\] Yes, they do... Yes they do. Skycatch is shipping basically a drone for commercial construction sites, that are now taking over all of Japanese construction, and building 3D maps of things... Everything on the bot is Javascript and NodeBot, and in their cloud, in their frontend - it's all Javascript. That's happening.
+**Mikeal Rogers:** \[00:36:01.19\\\] Yes, they do... Yes they do. Skycatch is shipping basically a drone for commercial construction sites, that are now taking over all of Japanese construction, and building 3D maps of things... Everything on the bot is JavaScript and NodeBot, and in their cloud, in their frontend - it's all JavaScript. That's happening.
 
 **Alex Sexton:** I guess what I really mean is it's not the normal case. Certainly, there are people doing WebRTC and stuff like that; even Google does parts of this stuff for Google Hangouts, but I guess I'm still waiting for the future where this is how you would build it... I don't know. That was more my sentiment than like, obviously, someone does something for real. But it is encouraging.
 
@@ -358,7 +358,7 @@ If you're new to programming and wanted to get into open source, I would encoura
 
 Cool. Okay, I think that we're probably ready to move on to our picks now. Rachel, I know that you've got your pick all lined up, why don't you tell us about that?
 
-**Rachel White:** Yes, I do! My pick of the week, which (I don't know) is pretty popular and it's extra cute and I'm excited - it's called tiny-care-terminal, and it's made by Monica (I don't know if I'm gonna say her last name right) Dinculescu, who is notwaldorf on GitHub. It is a Node.js app that -- well, it's a Javascript application that lets you pull in...
+**Rachel White:** Yes, I do! My pick of the week, which (I don't know) is pretty popular and it's extra cute and I'm excited - it's called tiny-care-terminal, and it's made by Monica (I don't know if I'm gonna say her last name right) Dinculescu, who is notwaldorf on GitHub. It is a Node.js app that -- well, it's a JavaScript application that lets you pull in...
 
 \[00:56:05.28\\\] It's basically like a dashboard, but right in your terminal, and it's there to let you know what you've worked on recently with your GitHub commits for the current day and the previous week, and then also... This is my favorite part - it pulls in three little current Twitter feeds, one from Tiny Care Bot, one from Self Care Bot, and one from Magic Realism Bot, which are just amazingly silly -- well, two of them are very nice; they're trying to help you have a good day and take care of yourself, and then the magical realism bot is ridiculous. If you know what magical realism is, it's mostly a literary and film genre type of thing that is just very fantastical.
 
@@ -374,4 +374,4 @@ So it kind of gives you a bunch of quick, easy stats, so you no longer have to g
 
 But in the meantime, you can go and check out the old episodes, because they are all very timeless there. There is no news in them, it's all -- we talked to a lot of people about projects that have been around for like ten years. If you're really interested in web stuff, I highly recommend the one with Brendan Eich, where we get into the history of the web and how browsers have been funded and sustained over time. So check that out - changelog.com/rfc.
 
-That's our show! Thanks everybody for showing up. Rate us on iTunes, do all kinds of things to promote us; tell your friends, tell your mother... Even is she doesn't write Javascript, she can learn... That's it. Bye!
+That's our show! Thanks everybody for showing up. Rate us on iTunes, do all kinds of things to promote us; tell your friends, tell your mother... Even is she doesn't write JavaScript, she can learn... That's it. Bye!

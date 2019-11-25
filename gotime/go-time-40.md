@@ -212,7 +212,7 @@ So with your interest in Go and game development, have you played with any of th
 
 **Brian Ketelsen:** I am so frustrated right now with frontend web development, I would be happy to just throw the whole thing out... Just the whole thing. Done. I'm done.
 
-**Luna Duclos:** Well, don't get me wrong, I still do quite a bit of frontend myself. The web stuff most always ends up on the lap of the backend people, so I'm still doing web development with Javascript as well, just not with GopherJS anymore, unfortunately.
+**Luna Duclos:** Well, don't get me wrong, I still do quite a bit of frontend myself. The web stuff most always ends up on the lap of the backend people, so I'm still doing web development with JavaScript as well, just not with GopherJS anymore, unfortunately.
 
 **Brian Ketelsen:** GopherJS is sure getting cool, though. Every time I look for a binding for the bigger packages there is one now, which is really cool.
 
@@ -232,7 +232,7 @@ So with your interest in Go and game development, have you played with any of th
 
 **Erik St. Martin:** I haven't played a lot with the bindings or GopherJS... I tend to just separate... There's the API, and there's kind of the frontend code.
 
-**Luna Duclos:** Yeah, same here, pretty much. In an ideal world, I want to just deploy some static HTML, CSS and Javascript and do everything on the REST API. But that's the perfect world scenario right there.
+**Luna Duclos:** Yeah, same here, pretty much. In an ideal world, I want to just deploy some static HTML, CSS and JavaScript and do everything on the REST API. But that's the perfect world scenario right there.
 
 **Brian Ketelsen:** Yeah, my biggest problem with GopherJS is that although it's so much easier to write frontend code in GopherJS, I still have the lack of knowledge of frontend technologies, events, DOM, that sort of stuff... So now I've added another layer of translation that I have to make in order to use that, and it makes it harder for me, not easier.
 
@@ -244,7 +244,7 @@ So with your interest in Go and game development, have you played with any of th
 
 **Erik St. Martin:** That's interesting. And Brian, I think most of your struggles are usually because when you have to do fronted, you're usually trying to do it in a hurry. \[laughter\]
 
-**Brian Ketelsen:** \[00:23:43.02\] That's not true. My struggles are because when I have to do frontend, it's a freakin' disaster. Has anybody actually looked at the Javascript ecosystem recently? The problem I had - it was maybe two nights ago - was I was writing a TypeScript application for Angular 2, and then I had to bring in another library that wasn't TypeScript and it wasn't using the same module packaging format... Because I had to go down that rabbit hole, now I understand that there's AMD module packaging and UMD, and SystemJS and all of these different module packages... That's why I think the whole thing should just burn in a trash fire. \[laughter\] It's so complicated trying to make stuff work. It's frustrating.
+**Brian Ketelsen:** \[00:23:43.02\] That's not true. My struggles are because when I have to do frontend, it's a freakin' disaster. Has anybody actually looked at the JavaScript ecosystem recently? The problem I had - it was maybe two nights ago - was I was writing a TypeScript application for Angular 2, and then I had to bring in another library that wasn't TypeScript and it wasn't using the same module packaging format... Because I had to go down that rabbit hole, now I understand that there's AMD module packaging and UMD, and SystemJS and all of these different module packages... That's why I think the whole thing should just burn in a trash fire. \[laughter\] It's so complicated trying to make stuff work. It's frustrating.
 
 **Luna Duclos:** I will not disagree with you. I've had my share of frustrations because of the same reason, and also because -- it was my experience; this is not a diss to all the frontend developers out there, but a lot of frontend developers don't seem to know what they're doing. It's just lots of copy/paste embeds from various places, made to work forcefully in the current context without actually making sense entirely. A lot of the code I've looked at is that way.
 
@@ -254,7 +254,7 @@ It seems like there's a lot of fragmentation in that area, to Brian's point... T
 
 **Luna Duclos:** Yeah. I think if there was a Go equivalent - there thankfully isn't - it would be "Which context package are you using?" Thankfully, we haven't gone there.
 
-**Brian Ketelsen:** Somebody on Twitter -- when I made my snarky tweet about all of the different package management systems and dependency management in Javascript, somebody said "Well, we've got 28 versions of vendoring tools in Go", and that's true... But we have one vendor standard.
+**Brian Ketelsen:** Somebody on Twitter -- when I made my snarky tweet about all of the different package management systems and dependency management in JavaScript, somebody said "Well, we've got 28 versions of vendoring tools in Go", and that's true... But we have one vendor standard.
 
 **Luna Duclos:** Yeah, and regardless of which one you use, it pretty much works.
 
@@ -270,13 +270,13 @@ It seems like there's a lot of fragmentation in that area, to Brian's point... T
 
 **Carlisia Pinto:** I'm here... You guys are asking great questions. \[laughter\]
 
-**Brian Ketelsen:** She's writing a new dependency manager for Javascript for me. \[laughter\]
+**Brian Ketelsen:** She's writing a new dependency manager for JavaScript for me. \[laughter\]
 
 **Carlisia Pinto:** That's funny.
 
 **Erik St. Martin:** She's just sitting here thinking about like "Wow, I didn't realize how much Brian needed frontend." \[laughter\]
 
-**Brian Ketelsen:** It's not that I hate it. I mean... I actually crossed a point recently where I feel like I can understand TypeScript, because it's got classes, it's got types, it's much more strongly typed than regular Javascript... I kind of get behind that; it's not bad. And Angular is pretty easy to do for me; it's easier than most of the others. So if it's just TypeScript and Angular, it's cool. It's when I have to add in all the other stuff. It's that whole web pipeline and Sass compiling...
+**Brian Ketelsen:** It's not that I hate it. I mean... I actually crossed a point recently where I feel like I can understand TypeScript, because it's got classes, it's got types, it's much more strongly typed than regular JavaScript... I kind of get behind that; it's not bad. And Angular is pretty easy to do for me; it's easier than most of the others. So if it's just TypeScript and Angular, it's cool. It's when I have to add in all the other stuff. It's that whole web pipeline and Sass compiling...
 
 Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in the head, right now.
 

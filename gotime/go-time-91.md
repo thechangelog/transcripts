@@ -370,7 +370,7 @@ Now, we can talk about whether the characters fmt.errorf and all the ceremony th
 
 But again, it becomes like -- I have a neural groove that's well-worn, I start to look for familiar patterns and shapes... If you change that shape, you're adding a conceptual overhead that I don't want... And that's why change is hard, but I just wanted to mention about that.
 
-Kyle Simpson - he's in the Javascript world, and he wrote "You don't know JS", but he had a lovely talk (I'll try to find the link) about readability, and the assumptions that we make about terseness versus verbosity, and all the other things, and just trying to contextualize that... And I wonder if we can have an equivalent for Go. That would be great.
+Kyle Simpson - he's in the JavaScript world, and he wrote "You don't know JS", but he had a lovely talk (I'll try to find the link) about readability, and the assumptions that we make about terseness versus verbosity, and all the other things, and just trying to contextualize that... And I wonder if we can have an equivalent for Go. That would be great.
 
 **Mat Ryer:** Yeah. It's funny, I'm one of those people that loves it when there's a new feature; I get really excited... But it's not that for me, for sure. Because I love when they add new things. It's more about whether this fits in as the rest. It's whether it fits or not.
 
