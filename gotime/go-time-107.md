@@ -80,7 +80,7 @@ So you say "Okay, if I give you this five words in machine language, do this." A
 
 And the language that I wanted to build and then dissect or teach in this book should have more details, like curly braces... You know, back then I thought "Curly braces? This is a real language, I guess... Not a toy language..." \[laughter\] Now I think differently, but... It should look like a real language - proper indentation, the keywords indentation, braces, parentheses, and so on. I kind of pieced this together, and then I put the name Monkey on it.
 
-If I had to describe it, it looks kind of like JavaScript; it also acts kind of like JavaScript, because under the hood it actually acts like a scheme, or a Lisp thing, which is funnily enough also what JavaScript was based on in the beginning. It's a really small language, it has basic data types like integers, arrays, hashes, strings, it has functions, first-class functions, higher-order functions... I don't know what else, off the top of my head. It has a macrosystem in a separate chapter... Yeah, I named in Monkey because I do like monkeys, I guess.
+If I had to describe it, it looks kind of like JavaScript; it also acts kind of like JavaScript, because under the hood it actually acts like a scheme, or a Lisp thing, which is funnily enough also what JavaScript was based on in the beginning. It's a really small language, it has basic data types like integers, arrays, hashes, strings, it has functions, first-class functions, higher-order functions... I don't know what else, off the top of my head. It has a macrosystem in a separate chapter... Yeah, I named it Monkey because I do like monkeys, I guess.
 
 **Mat Ryer:** \[00:08:14.16\] So it's great for not just learning about interpreters, but the fact that you actually implement the real thing I think is a great way to learn. But of course, the skills are transferable, aren't they? That's the point. Once you can do this, once you can build an interpreter, then you can use that skill to solve other problems.
 
@@ -142,7 +142,7 @@ So just understanding the theory I think is an important part, even if you're no
 
 **Mark Bates:** I know it helped me with my understanding of the Go AST, and working with that, too.
 
-**Thorsten Ball:** Yeah. I mean, that is the (let's say) implementation; you can peek under the hood of a language. But configuration languages, for example - I think after you went through the book, you can write any parser or a TOML parser, or something. Maybe not YAML, because that seems to be the abyss of whatever people \[unintelligible 00:14:08.00\]
+**Thorsten Ball:** Yeah. I mean, that is the (let's say) implementation; you can peek under the hood of a language. But configuration languages, for example - I think after you went through the book, you can write any parser or a TOML parser, or something. Maybe not YAML, because that seems to be the abyss of whatever people think up.
 
 **Mark Bates:** It's the JavaScript of formatting. JavaScript as configuration files.
 
@@ -168,9 +168,9 @@ The second one was what you said, Mat, that it helps with learning; that after y
 
 **Mark Bates:** The thing I really liked, or the thing I got the most out of the book - and it's what we're gonna definitely wanna hear from Tim about, too - is just about parsers in general. Whether you write an interpreter at the end, or a compiler, or whatever, just writing parsers can be incredibly useful for all sorts of stuff.
 
-For example, at Gopher Guides we have a markdown parser we use, that splits up our markdown so we can then do all sorts of things with it. We can rejigger it and make nicer slides, or format it out in different ways. That's not a language, it's not something that's even that big; it's not an interpreter, it's not a compiler, but we wrote a parser because we needed to break apart this file format. So just having that ability and knowledge of how that works to write something that simple is incredibly useful.
+For example, at Gopher Guides we have a markdown parser we use, that splits up our markdown so we can then do all sorts of things with it. We can rejigger it and make nicer slides, or format it out in different ways. That's not a language, it's not something that's even that big; it's not an interpreter, it's not a compiler, but we wrote a parser because we needed to break apart this file format. So just having that ability and knowledge of how that works to write something that simple is incredibly useful. 
 
-\[unintelligible 00:18:27.04\] you don't have to write a templating package, you don't have to write a programming language; you can still make use of parsers for a ton of things.
+So in this case you don't have to write a templating package, you don't have to write a programming language; you can still make use of parsers for a ton of things.
 
 **Mat Ryer:** Yeah. Well, I think probably a lot of people have written some version or some kind of parser before. I know I have. And what happens is it works brilliantly for the specific case that I need it for, and then later I think "Oh, that'd be great. I'll add that." And if you haven't structured it properly -- the book follows these patterns that are well tested. The ones I did, didn't. I was just kind of trying to figure it out myself. And it became so frustrating... I basically wanted to Frisbee my laptop into the sea, that's how bad it was.
 
@@ -188,7 +188,7 @@ So having the actual structure, parsing properly... Simple things like knowing w
 
 **Mat Ryer:** What's PEGs?
 
-**Mark Bates:** \[00:20:07.05\] I think we should talk about PEGs. We talked about parsers, and I think that's a great introduction, and I'd love to hear Thorsten's take on them, as well. Tim. Tim Raymond is with us... Tim will be speaker need week at Gopherpalooza. By the way, I'm doing Mat's NPR voice... Just trying to fit right in there with him. So Tim will be presenting next week at Gopherpalooza, where it'll also be his birthday, and he will be talking about PEGs, which are parser expression grammars, correct, Tim?
+**Mark Bates:** \[00:20:07.05\] I think we should talk about PEGs. We talked about parsers, and I think that's a great introduction, and I'd love to hear Thorsten's take on them, as well. Tim. Tim Raymond is with us... Tim will be speaking need week at Gopherpalooza. By the way, I'm doing Mat's NPR voice... Just trying to fit right in there with him. So Tim will be presenting next week at Gopherpalooza, where it'll also be his birthday, and he will be talking about PEGs, which are parser expression grammars, correct, Tim?
 
 **Tim Raymond:** Yeah.
 
@@ -238,7 +238,7 @@ I find PEGs are nice because they follow closely to the kinds of parsers that yo
 
 But overall, each rule itself, if you break down and look at a rule, they're very simple and well defined. "If you see if followed by parentheses, followed by this stuff in the middle, it's these things, and handle it this way." And it's remarkable, like Tim said, how quick you can make progress with it.
 
-**Mat Ryer:** So it just outputs text then. The PEG doesn't know that \[unintelligible 00:25:46.22\].
+**Mat Ryer:** So it just outputs text then. The PEG doesn't know that it's Go it is generating.
 
 **Mark Bates:** The PEG is text, yeah. And then you run a tool like Pigeon over it, and Pigeon (ironically) parses the PEG, and then it spits out a .go interpretation of that as a parser.
 
@@ -328,13 +328,13 @@ You can read the second one without having read the first one, but what you then
 
 If we translate that onto computers, interpreting means taking another language the computer does not understand as input, and depending on what is being said, you execute or you immediately run the things this language tells you to do, in a language that the computer can understand. I don't know if that makes sense, but it's kind of what's happening.
 
-When you compile, you actually translate. You take the input and translate it into another language, and then pass that on to the computer. If you compile Go code to a binary, that's exactly what happens. You take the Go code, the compiler takes it in and produced machine code the computer and operating system can understand. There's a bunch of different Go REPLs, I think.
+When you compile, you actually translate. You take the input and translate it into another language, and then pass that on to the computer. If you compile Go code to a binary, that's exactly what happens. You take the Go code, the compiler takes it in and produces machine code the computer and operating system can understand. There's a bunch of different Go REPLs, I think.
 
 **Mark Bates:** There are a bunch of them.
 
 **Thorsten Ball:** Yeah. And what they do is -- well, I'm actually not sure how they implement it, come to think of it... But what they could do --
 
-**Mark Bates:** I can tell you how a lot of them work, which is compile and run on the back-end. They take the statement, compile it, and run it.
+**Mark Bates:** I can tell you how a lot of them work, which is to compile and run on the back-end. They take the statement, compile it, and run it.
 
 **Thorsten Ball:** Yeah, that's exactly what I didn't wanna hear to explain this... \[laughs\] Because since Go is a compiled language, some limitations aside, you could just as well interpret it by reading it line by line. "Oh, the next line says 'format print line', or something. Let's print a line, instead of translating that into another instruction that tells the computer to print a line." You're gonna ask me, I bet, when should you do what.
 
@@ -350,7 +350,7 @@ If you're compiling Go code on your machine, you're happy to wait a few seconds,
 
 **Mark Bates:** \[00:36:17.16\] Do we need to be here for this, or can we just go...? \[laughter\]
 
-**Thorsten Ball:** No, no, no, I've got it all figured out. Just mute your microphone... \[laughter\] So if you're willing to pay the cost upfront, then that means you can also do stuff that wouldn't be feasible to do when you run it, at the same time that you're interpreting it. For example, optimizations. If you're compiling a huge program - let's say 100,000 lines of code - there's a bunch of optimizations you can do. For example, removing duplicate code, in-lining functions, and so on. These optimizations cost time, they cost computation power... And if you have to translate and do those optimizations while running the program, that costs. You need to somehow make that happen without paying the performance penalty that would be \[unintelligible 00:37:09.10\] running program. But if you're willing to pay this cost upfront, you can do that.
+**Thorsten Ball:** No, no, no, I've got it all figured out. Just mute your microphone... \[laughter\] So if you're willing to pay the cost upfront, then that means you can also do stuff that wouldn't be feasible to do when you run it, at the same time that you're interpreting it. For example, optimizations. If you're compiling a huge program - let's say 100,000 lines of code - there's a bunch of optimizations you can do. For example, removing duplicate code, in-lining functions, and so on. These optimizations cost time, they cost computation power... And if you have to translate and do those optimizations while running the program, that costs. You need to somehow make that happen without paying the performance penalty that would be incurred on the running program. But if you're willing to pay this cost upfront, you can do that.
 
 Tying it back to Go, the Go compiler - I might be wrong on this, but I heard people on the Go team say that they really care about the speed of the compiler, so that's why they don't add too many optimizations. It's a trade-off; they're really conscious of that trade-off, as in "Yeah, we could put more optimizations into the compiler..." That would mean they could spend more time on making the code run faster, but that would also mean the compilation process gets slower, which would be a penalty we all have to pay, since all of us cherish how fast the compiler is.
 
@@ -396,9 +396,9 @@ Games companies use this for -- they call it gold builds, I think. So when the g
 
 **Mark Bates:** It's a thing now, sorry.
 
-**Mat Ryer:** I'm gonna have to write a PEG to pass my name, to make sure it's acceptable. Come on, it's a computer podcast. Those kinds of jokes are fine.
+**Mat Ryer:** I'm gonna have to write a PEG to parse my name, to make sure it's acceptable. Come on, it's a computer podcast. Those kinds of jokes are fine.
 
-**Mark Bates:** Are they though...? \[laughter\] Are they really? So I'm excited to be on the podcast with Thorsten and Tim, because as Tim mentioned earlier, we are working on a replacement for Plus. Thank you, Mat.
+**Mark Bates:** Are they though...? \[laughter\] Are they really? So I'm excited to be on the podcast with Thorsten and Tim, because as Tim mentioned earlier, we are working on a replacement for Plush. Thank you, Mat.
 
 **Mat Ryer:** What's it called?
 
@@ -424,7 +424,7 @@ Games companies use this for -- they call it gold builds, I think. So when the g
 
 **Thorsten Ball:** It does, yeah. \[laughter\]
 
-**Mark Bates:** They all do. So it's a superset of Monkey -- well, of what we ended up using for Plus.
+**Mark Bates:** They all do. So it's a superset of Monkey -- well, of what we ended up using for Plush.
 
 **Thorsten Ball:** Cool.
 
@@ -458,9 +458,9 @@ So without the prior context of having written one, you would be reading a lot m
 
 **Thorsten Ball:** I see. Question answered, yeah. \[laughs\]
 
-**Mark Bates:** I haven't read your second book. I said that at the very beginning of this show, so I don't feel bad about that. I didn't read the second book. So again, Lush is an embeddable scripting language, and it looks so much like Go... Because Monkey looks an awful lot like Go if you took away types, in a lot of places. And certainly Plus does. Lush takes it even further.
+**Mark Bates:** I haven't read your second book. I said that at the very beginning of this show, so I don't feel bad about that. I didn't read the second book. So again, Lush is an embeddable scripting language, and it looks so much like Go... Because Monkey looks an awful lot like Go if you took away types, in a lot of places. And certainly Plush does. Lush takes it even further.
 
-So to take that and to generate Go from it is not all that difficult. It's just a matter of implementing the right formatter, or \[unintelligible 00:44:45.12\] to just say "Okay, this is an if node. How do we print an if node in Go?" And some of this stuff is even easier than that. You can take a Lush map, and all you've gotta do to translate it to Go code is just take the underlying map and run it through Sprintf and you get back the actual correct Go code on the other side. So that's one of the features coming out of it. But yeah, it's not a proper compilation step, it's another code generation step.
+So to take that and to generate Go from it is not all that difficult. It's just a matter of implementing the right formatter, or print package to just say "Okay, this is an if node. How do we print an if node in Go?" And some of this stuff is even easier than that. You can take a Lush map, and all you've gotta do to translate it to Go code is just take the underlying map and run it through Sprintf and you get back the actual correct Go code on the other side. So that's one of the features coming out of it. But yeah, it's not a proper compilation step, it's another code generation step.
 
 **Thorsten Ball:** Yeah.
 
@@ -482,7 +482,7 @@ So to take that and to generate Go from it is not all that difficult. It's just 
 
 I had the same experience with compilation, where you start out "Oh, wait, I just have to walk along these nodes and just print stuff?" And you go from there and then you realize, "Oh, instead of printing stuff immediately, I should probably turn it into another thing, another data structure that I can then reorder more easily. And then I can turn this into something else, and only then I will output strings." And then suddenly you have invented an intermediate language, and a proper compilation step, or something.
 
-**Mark Bates:** Right. There are all sorts of stuff I came across working on this, as I'm working through the Go step of all this... It's things like, for example Lush (or Plush) can have unused variables \[unintelligible 00:47:11.27\] And unused variables are fine, but they're not fine in Go. So how do you output that into some Go code without knowing that the variable is gonna be used later on?
+**Mark Bates:** Right. There are all sorts of stuff I came across working on this, as I'm working through the Go step of all this... It's things like, for example Lush (or Plush) can have unused variables and so can Monkey. And unused variables are fine, but they're not fine in Go. So how do you output that into some Go code without knowing that the variable is gonna be used later on?
 
 **Thorsten Ball:** Nice, yeah.
 
@@ -544,7 +544,7 @@ I had the same experience with compilation, where you start out "Oh, wait, I jus
 
 **Mat Ryer:** That's amazing.
 
-**Mark Bates:** Yeah, the whole script does \[unintelligible 00:50:59.02\] it automatically adds it and manages it, and everything like that... But it was super-easy to do, especially with the PEG. It was just looking for that keyword, and then saying "If it's followed by a function, do something with it." The stuff you can do when you start learning parsers and PEGs blew my mind.
+**Mark Bates:** Yeah, the whole script does a `sync.Wait()` it automatically adds it and manages it, and everything like that... But it was super-easy to do, especially with the PEG. It was just looking for that keyword, and then saying "If it's followed by a function, do something with it." The stuff you can do when you start learning parsers and PEGs blew my mind.
 
 **Thorsten Ball:** For me that was when I had closures working. When you realize "Oh, it actually works..." It's a step-by-step approach to a solution. You start out with functions, then you're like "Oh, functions have values, so I can pass them around." And then you go "Oh, closures are functions that are passed around, but they carry the environment with them that they closed over", and once you have that working, you go "Nice."
 
@@ -570,7 +570,7 @@ Any Scheme or Lisp person will tell you "Once you have closures, you can built o
 
 **Thorsten Ball:** That is literally all I dream about every night... \[laughter\]
 
-**Mark Bates:** Going back to PEGs, because that's what I've been working with a lot recently, and you were talking about closures - I've found that because of the recursive parser build \[unintelligible 00:53:34.16\] it's actually fairly easy to do this, and kind of pass around these contexts. For example, Lush supports var a, let a, and a:=, and they all mean different things. I don't think they necessarily mean that in the monkey language, but certainly in Lush they do. So it lets you write over an existing variable, or declare it as a new one, in that scope. Var declares a new variable, but if one exists already, it errors. And then a:= is the same thing you'd expect it to do as in Go.
+**Mark Bates:** Going back to PEGs, because that's what I've been working with a lot recently, and you were talking about closures - I've found that because of the recursive parser build it's actually fairly easy to do this, and kind of pass around these contexts. For example, Lush supports var a, let a, and a:=, and they all mean different things. I don't think they necessarily mean that in the monkey language, but certainly in Lush they do. So it lets you write over an existing variable, or declare it as a new one, in that scope. Var declares a new variable, but if one exists already, it errors. And then a:= is the same thing you'd expect it to do as in Go.
 
 But carrying the information around with those, and checking to see whether it's currently in scope or out of scope, becomes so much easier, and it doesn't involve a whole lot of effort to start typing those sorts of things in.
 
@@ -580,9 +580,9 @@ But carrying the information around with those, and checking to see whether it's
 
 **Mat Ryer:** Right. So it's backwards compatibility.
 
-**Mark Bates:** Yeah, it supports both things like let, it also supports the Monkey style four, which is like \[unintelligible 00:54:45.19\] depending on which country you're in - variable in whatever... It supports that, but it also supports range statements, just like in Go. So Lush is moving more towards looking like an interpreted, dynamic Go, versus what Monkey necessarily was originally. But I wanted to make sure I could support all of those Plush templates as they get moved forward.
+**Mark Bates:** Yeah, it supports both things like let, it also supports the Monkey style four - which is like four parenthesis or brackets depending on which country you're in - variable in whatever... It supports that, but it also supports range statements, just like in Go. So Lush is moving more towards looking like an interpreted, dynamic Go, versus what Monkey necessarily was originally. But I wanted to make sure I could support all of those Plush templates as they get moved forward.
 
-So yeah, understanding what those were, obviously a:= and var - stole from the standard library. But the let was a much more difficult decision, and I had to kind of look around and see what other people use for something like a let. I went with I can overwrite or set. That's what let would let you do. Because var doesn't let you do that, nor does :=.
+So yeah, understanding what those were, obviously `a:=` and `var` stole from the standard library. But the `let` was a much more difficult decision, and I had to kind of look around and see what other people use for something like a `let`. I went with I can overwrite or set. That's what `let` would let you do. Because `var` doesn't let you do that, nor does `:=`.
 
 **Thorsten Ball:** Yeah, yeah.
 
@@ -594,7 +594,7 @@ So yeah, understanding what those were, obviously a:= and var - stole from the s
 
 **Mat Ryer:** It's also interesting, because we think about that - the conversations we have in the community about generics, and stuff... And a lot of people just think of it as whether they want that feature or not, not really "What does it mean to implement that feature? What are the ramifications of that?"
 
-**Mark Bates:** Templating is one of those places where I'd love to have generics... It's one of the few places where I really need it. And again, if you look at Plush, it's got this giant switch statement for how to handle the output, which I just did not like at all \[unintelligible 00:57:33.19\]
+**Mark Bates:** Templating is one of those places where I'd love to have generics... It's one of the few places where I really need it. And again, if you look at Plush, it's got this giant switch statement for how to handle the output, which I just did not like at all.
 
 **Mat Ryer:** Like a type switch, is it...?
 
@@ -652,7 +652,7 @@ A templating language, for example - you have a bunch of built-in functions, for
 
 **Thorsten Ball:** Yes!
 
-**Tim Raymond:** The first parser that I wrote was actually a formalized version of an ad-hoc, informally-specified language that was pared with regexes, and it was actually a templating language as well...
+**Tim Raymond:** The first parser that I wrote was actually a formalized version of an ad-hoc, informally-specified language that was parsed with regexes, and it was actually a templating language as well...
 
 **Mark Bates:** He's talking about one I wrote...
 
@@ -732,7 +732,7 @@ A templating language, for example - you have a bunch of built-in functions, for
 
 **Thorsten Ball:** Yeah.
 
-**Mark Bates:** Sometimes I \[unintelligible 01:06:47.00\] in color, sometimes I don't.
+**Mark Bates:** Sometimes I put a u in color, sometimes I don't.
 
 **Thorsten Ball:** Sometimes I use the Oxford comma, sometimes I just use no comma at all. \[laughter\]
 
