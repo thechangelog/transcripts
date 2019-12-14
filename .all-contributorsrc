@@ -1879,8 +1879,18 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "dander",
+      "name": "Dave Andersen",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1302979?v=4",
+      "profile": "https://github.com/dander",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
