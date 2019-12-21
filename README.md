@@ -298,6 +298,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/coltonshaheen"><img src="https://avatars0.githubusercontent.com/u/39281688?v=4" width="100px;" alt=""/><br /><sub><b>Colton Shaheen</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=coltonshaheen" title="Documentation">📖</a></td>
     <td align="center"><a href="http://www.sinisterstuf.org"><img src="https://avatars1.githubusercontent.com/u/840466?v=4" width="100px;" alt=""/><br /><sub><b>Siôn le Roux</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=sinisterstuf" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/dander"><img src="https://avatars3.githubusercontent.com/u/1302979?v=4" width="100px;" alt=""/><br /><sub><b>Dave Andersen</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=dander" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/blyxxyz"><img src="https://avatars0.githubusercontent.com/u/15526524?v=4" width="100px;" alt=""/><br /><sub><b>Jan Verbeek</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=blyxxyz" title="Documentation">📖</a></td>
   </tr>
 </table>
 
