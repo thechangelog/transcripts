@@ -1,10 +1,10 @@
-**Adam Stacoviak:** Welcome back everyone, this is The Changelog and I am your host, Adam Stacoviak. This is episode 244, and today on the show we're talking to Tracy Lee, serial entrepreneur, Javascript developer and co-founder of This Dot Labs. We talked to Tracy about learning Javascript, the ins and outs of her road to get to where she's at today, breaking into the JS community and the fun cruise, workshops and conferences she's working on for the JS community.
+**Adam Stacoviak:** Welcome back everyone, this is The Changelog and I am your host, Adam Stacoviak. This is episode 244, and today on the show we're talking to Tracy Lee, serial entrepreneur, JavaScript developer and co-founder of This Dot Labs. We talked to Tracy about learning JavaScript, the ins and outs of her road to get to where she's at today, breaking into the JS community and the fun cruise, workshops and conferences she's working on for the JS community.
 
 We have three sponsors today: Rollbar, Hired and DataDog.
 
 **Break:** \[00:01:05.06\]
 
-**Adam Stacoviak:** We're back, and we've got Tracy Lee joining us today, talking about learning Javascript, the Javascript community, and all that and in between. Jerod, we actually have a new show people may not know about yet, called JS Party.
+**Adam Stacoviak:** We're back, and we've got Tracy Lee joining us today, talking about learning JavaScript, the JavaScript community, and all that and in between. Jerod, we actually have a new show people may not know about yet, called JS Party.
 
 **Jerod Santo:** Yes, we do. It's a live show - it's our second live show, it records every Friday at 3 PM U.S. Eastern Time. Come hang out in the Changelog community and Slack with us live as we record. It's hosted by Mikeal Rogers, Alex Sexton and Rachel White. That is a fun show, we have a few episodes out there, so subscribe, join us and have a JS Party every Friday afternoon.
 
@@ -38,33 +38,33 @@ We have three sponsors today: Rollbar, Hired and DataDog.
 
 **Tracy Lee:** \[00:03:57.02\] One of my friends, Jay - he's writing a Reactive programming language and he's super into WebAssembly right now. If you can imagine this guy, he's super technical and as he gets more drunk, the more I can snipe him into talking about things. The other day I was sniping him into something related to RxJS and he went off and taught me about prototypal inheritance, so...
 
-**Jerod Santo:** Nice! Well, different strokes for different folks, I guess. You get him a little bit buzzed and he teaches you Javascript. That's excellent. \[laughter\]
+**Jerod Santo:** Nice! Well, different strokes for different folks, I guess. You get him a little bit buzzed and he teaches you JavaScript. That's excellent. \[laughter\]
 
-**Tracy Lee:** It'd be amusing to see him on a date like "Well, you know... Let's sit down for three hours and let me just teach you Javascript, since you asked about my job." \[laughs\]
+**Tracy Lee:** It'd be amusing to see him on a date like "Well, you know... Let's sit down for three hours and let me just teach you JavaScript, since you asked about my job." \[laughs\]
 
-**Jerod Santo:** So let's give a little bit of your background, Tracy. First of all, thanks so much for joining us. You're a Google developer expert, you're a Javascript developer, you're a serial entrepreneur, have started and sold a business, and you're the co-founder of This Dot Labs, so we're talking about This Dot and a lot of the cool stuff that you guys are doing around JS and community building. You also say that you like to explore code in your free time, and building the JS community.
+**Jerod Santo:** So let's give a little bit of your background, Tracy. First of all, thanks so much for joining us. You're a Google developer expert, you're a JavaScript developer, you're a serial entrepreneur, have started and sold a business, and you're the co-founder of This Dot Labs, so we're talking about This Dot and a lot of the cool stuff that you guys are doing around JS and community building. You also say that you like to explore code in your free time, and building the JS community.
 
 In light of that, give us the recent history of Tracy Lee, how you got into This Dot and how you got where you are today.
 
-**Tracy Lee:** Yeah, I recently met somebody that had a very similar story to me - Preethy - at ReactConf. She came from the VC background... The way I got into Javascript was I was selling my company about two years ago, and when you're waiting for documents and paperwork to be finalized, you get bored, especially when -- you're basically going 1,000% and then you all of a sudden slow down to 50%. So I decided to take a little bit of time off.
+**Tracy Lee:** Yeah, I recently met somebody that had a very similar story to me - Preethy - at ReactConf. She came from the VC background... The way I got into JavaScript was I was selling my company about two years ago, and when you're waiting for documents and paperwork to be finalized, you get bored, especially when -- you're basically going 1,000% and then you all of a sudden slow down to 50%. So I decided to take a little bit of time off.
 
-I took three weeks off, did a week of HTML, a week of CSS, a week of Javascript and then I couldn't take it anymore, and then somebody stuck me on Ember, and I was like "Wow, this is great!" and I just spent all my free time writing Ember apps and getting excited about Javascript.
+I took three weeks off, did a week of HTML, a week of CSS, a week of JavaScript and then I couldn't take it anymore, and then somebody stuck me on Ember, and I was like "Wow, this is great!" and I just spent all my free time writing Ember apps and getting excited about JavaScript.
 
 That was interesting, I did that for about a year, and after I sold my company I just started another company... Doing marketing - I didn't really wanna do marketing, I was much more excited about spending my entire life coding. So I started hosting events, doing random things... I started to have a little bit of freedom - I think after eight years of pounding on something really hard, when you all of a sudden give yourself room to breathe, anything is possible.
 
 Then about a year into my coding adventures with Ember, last year I got invited to ng-conf. It's actually kind of interesting to form our communities and looking at how big they are. If you look at Ember versus Angular, the community is huge. Angular somehow just sucked me in, really just took over my entire life last year. I was asked to be a Google developer expert, and I was writing my, you know, like what you do you actually do in Angular, or in Google, I realized that... I mean, I probably attended more than four conferences a month last year related to Angular, and started speaking a lot about Angular related things.
 
-On Javascript - let me answer your real question... Because I did this, and I started getting deep into Javascript, I decided that I should probably be more of a useful human being, so I decided to start This Dot Media and stick all the things that I was doing together into one.
+On JavaScript - let me answer your real question... Because I did this, and I started getting deep into JavaScript, I decided that I should probably be more of a useful human being, so I decided to start This Dot Media and stick all the things that I was doing together into one.
 
-\[00:07:59.07\] I co-founded it with my friend Taras, who's known as EmberSherpa in the community, and we just sort of stuck both our companies together and said, "Hey, let's combine efforts and really bring awesome things to the Javascript community."
+\[00:07:59.07\] I co-founded it with my friend Taras, who's known as EmberSherpa in the community, and we just sort of stuck both our companies together and said, "Hey, let's combine efforts and really bring awesome things to the JavaScript community."
 
 We're really passionate about helping people. I think one of the great things is when you work for yourself, you can do what you want; you have more control over how you spend your hours, and so I'm very lucky to have a very understanding and passionate co-founder who allows me to spend most of my time playing around and trying to help out as many people as possible.
 
-You guys know about Contributor Days and This Dot Javascript, and that's sort of how my idea of helping the community manifests.
+You guys know about Contributor Days and This Dot JavaScript, and that's sort of how my idea of helping the community manifests.
 
 **Adam Stacoviak:** Yeah, being able to experiment is core to me. I think that's a lot of what we do around here, Jerod. Everything we do is an experiment in the next step, which is just reaching out to more developers and helping people realize they're not impostors, and find new things, and just enrich the community. Having that as an ability is priceless. You have to have that.
 
-**Tracy Lee:** Like JS Party, right? You just decided you want to have a Javascript party...
+**Tracy Lee:** Like JS Party, right? You just decided you want to have a JavaScript party...
 
 **Adam Stacoviak:** Well, it was kind of like that... To some degree. There's several months in there of it, but the idea had been there for quite a while, and it got to a point where we were behind the scenes, with Mikeal Rogers, talking about what could be, and then one day Jerod's like "It should be called JS Party", and then it sort of just clicked from there, basically. Once you have the name -- the name, like anything in programming, is key.
 
@@ -128,9 +128,9 @@ Adam and I both go down rabbit holes where one or both of us has lead us down sl
 
 **Tracy Lee:** Absolutely. My sister always says, "Be gentle with yourself." That's my constant thing in my head, "Be gentle with yourself." Some people are sprinters and some people are marathon runners - I'm trying to be a better marathon runner, and I think you forget sometimes when you start a business that - especially as a serial entrepreneurs - that "This is fine, it's gonna be chill this time but it really isn't.
 
-\[00:15:39.09\] Some of the biggest things for me this year were -- one of the things that I got really excited about last year was putting together this idea of This Dot Javascript. I guess the problem I was trying to solve was that I saw a lot of angst in the open source communities and the different frameworks communities, specifically on not feeling like they're knowing what's happening with the different frameworks, and there was complaints for example about ES2015 and TC39, and it being a closed box... So every quarter we do this thing called This Dot Javascript. It's live broadcasted online, and it's different people who are core maintainers doing ten minutes of just an update of "Hey, this is what's happening."
+\[00:15:39.09\] Some of the biggest things for me this year were -- one of the things that I got really excited about last year was putting together this idea of This Dot JavaScript. I guess the problem I was trying to solve was that I saw a lot of angst in the open source communities and the different frameworks communities, specifically on not feeling like they're knowing what's happening with the different frameworks, and there was complaints for example about ES2015 and TC39, and it being a closed box... So every quarter we do this thing called This Dot JavaScript. It's live broadcasted online, and it's different people who are core maintainers doing ten minutes of just an update of "Hey, this is what's happening."
 
-It's also kind of interesting, because when you talk to the core maintainers about This Dot Javascript, in general they're fine doing it, but then you ask them to do it a quarter later and they're like, "Dude, we don't have anything crazy to announce." It's not so much about that, though... It's mainly about...
+It's also kind of interesting, because when you talk to the core maintainers about This Dot JavaScript, in general they're fine doing it, but then you ask them to do it a quarter later and they're like, "Dude, we don't have anything crazy to announce." It's not so much about that, though... It's mainly about...
 
 **Adam Stacoviak:** It's a heartbeat.
 
@@ -142,13 +142,13 @@ It's also kind of interesting, because when you talk to the core maintainers abo
 
 **Adam Stacoviak:** Or a big new feature, or some reason to praise. Celebrate the small wins is what we need to do more often, and I think that's what you're saying.
 
-**Tracy Lee:** Yeah... And then we do this thing called JS Interactive. It was funny to me, because This Dot Javascript has I think over 20,000 views already on YouTube, and JS Interactive, which is the more interesting one, has maybe 3,000 or so.
+**Tracy Lee:** Yeah... And then we do this thing called JS Interactive. It was funny to me, because This Dot JavaScript has I think over 20,000 views already on YouTube, and JS Interactive, which is the more interesting one, has maybe 3,000 or so.
 
-A month later we do this interactive panel where we bring everybody else back, and then anybody can ask any questions. We had like 550 people attend live for This Dot Javascript, and then about 300 people attend for JS Interactive, and I was so confused, because that's really the cool stuff - the fact that you can ask Misko who created Angular anything you want, or Dan Abramov anything you want.
+A month later we do this interactive panel where we bring everybody else back, and then anybody can ask any questions. We had like 550 people attend live for This Dot JavaScript, and then about 300 people attend for JS Interactive, and I was so confused, because that's really the cool stuff - the fact that you can ask Misko who created Angular anything you want, or Dan Abramov anything you want.
 
 I think that's something really special, and that's what I'm trying to do... These people who are doing cool things in the community are also just people, and it's okay, you can talk to them, they're not scary; it'll be fine. It's something that I try to encourage.
 
-**Jerod Santo:** Well, one thing we do wanna ask you about, Tracy, is especially now that you have learned Javascript over the last few years after selling your startup, so you're fresh to learning JS, and I myself kind of learned it slowly over years of just doing web development, and out of necessity, and there's a lot of people who are wanting to learn it, whether they're breaking into programming as a profession or as a hobby, or in the case of probably many of our listeners, they're coming from a different language or a different skill set inside of software development and are interested in JS because of the ubiquity of it and the opportunities there. So we're gonna ask you about learning JS, kind of have a conversation around like "Where does somebody start? How do you keep up these days?", and so on and so forth, but we're gonna take our first break, and we'll talk about that right after this.
+**Jerod Santo:** Well, one thing we do wanna ask you about, Tracy, is especially now that you have learned JavaScript over the last few years after selling your startup, so you're fresh to learning JS, and I myself kind of learned it slowly over years of just doing web development, and out of necessity, and there's a lot of people who are wanting to learn it, whether they're breaking into programming as a profession or as a hobby, or in the case of probably many of our listeners, they're coming from a different language or a different skill set inside of software development and are interested in JS because of the ubiquity of it and the opportunities there. So we're gonna ask you about learning JS, kind of have a conversation around like "Where does somebody start? How do you keep up these days?", and so on and so forth, but we're gonna take our first break, and we'll talk about that right after this.
 
 **Break:** \[00:19:29.24\]
 
@@ -156,11 +156,11 @@ I think that's something really special, and that's what I'm trying to do... The
 
 **Adam Stacoviak:** I love that name.
 
-**Jerod Santo:** Yeah, great name. Unforgettable. Tracy, when it comes to learning Javascript, things change very rapidly; they've changed since a couple years ago, they probably changed six months ago, the language is moving, the frameworks are moving, the browsers are moving...
+**Jerod Santo:** Yeah, great name. Unforgettable. Tracy, when it comes to learning JavaScript, things change very rapidly; they've changed since a couple years ago, they probably changed six months ago, the language is moving, the frameworks are moving, the browsers are moving...
 
-We kind of know where you started, to a certain degree, with Ember, but if you have someone who's new to programming - let's take it from that angle first. They're not just learning Javascript, they're also learning programming, as many people are, especially with Stanford and many of the other universities are now using Javascript as their language of choice for computer science 101 and stuff... What do you think about the best way to break into JS and the web in the first quarter of 2017?
+We kind of know where you started, to a certain degree, with Ember, but if you have someone who's new to programming - let's take it from that angle first. They're not just learning JavaScript, they're also learning programming, as many people are, especially with Stanford and many of the other universities are now using JavaScript as their language of choice for computer science 101 and stuff... What do you think about the best way to break into JS and the web in the first quarter of 2017?
 
-**Tracy Lee:** I still feel like I'm learning - and I am... For my projects mainly and what I do, I don't do it full-time. Some weeks I'll just code all week, some weeks I'll only code one day. I probably have only been doing Javascript part-time per se. Right now I'm learning RxJS, and I am doing a lot of it... In the beginning when you learn a language or learn something, you think it's really cool; then you just sort of stay there where you've landed, and you get really good and you really start understanding what you're doing.
+**Tracy Lee:** I still feel like I'm learning - and I am... For my projects mainly and what I do, I don't do it full-time. Some weeks I'll just code all week, some weeks I'll only code one day. I probably have only been doing JavaScript part-time per se. Right now I'm learning RxJS, and I am doing a lot of it... In the beginning when you learn a language or learn something, you think it's really cool; then you just sort of stay there where you've landed, and you get really good and you really start understanding what you're doing.
 
 Then, as you get deeper and you start doing things on your own, you start having more and more and more questions; you go deeper down the rabbit hole, and then there's a point of "Whow, now I know too much, and I don't know what I was supposed to know, and now I'm really frustrated because I need to know more, and I don't, and now I know I don't", right? \[laughs\]
 
@@ -168,9 +168,9 @@ Then, as you get deeper and you start doing things on your own, you start having
 
 **Tracy Lee:** Exactly... I'm lucky to have Ben Lesh and Jay Phelps as two of my best friends; Ben wrote RxJS 5, so initially I was pairing with him and he was teaching me, and it seems awesome; "of course that's how you create an observable" and "of course that's how you wrap an API", but then I started doing it by myself... I tried to basically use a Raspberry Pi and then write all my code in RxJS, and then I realized without Ben telling me what operator to use, you don't know. You really have to understand these things.
 
-\[00:24:03.27\] The other day, Ben and I sat down again and we went through it. Typescript I've done with Angular, but when you incorporate RxJS into your Angular code, you really do a lot of Typescript. So tons of Typescript, tons of RxJS, then also learning Javascript, right...? And then learning ES2015, and then learning Angular... And I think we're actually really lucky, because the people who do pick up Javascript right now - it's much easier to do and you don't have the legacy of "Oh, I know ES5, and whow... What is this ES2015 thing?", right?
+\[00:24:03.27\] The other day, Ben and I sat down again and we went through it. Typescript I've done with Angular, but when you incorporate RxJS into your Angular code, you really do a lot of Typescript. So tons of Typescript, tons of RxJS, then also learning JavaScript, right...? And then learning ES2015, and then learning Angular... And I think we're actually really lucky, because the people who do pick up JavaScript right now - it's much easier to do and you don't have the legacy of "Oh, I know ES5, and whow... What is this ES2015 thing?", right?
 
-Personally, I think if you do learn Javascript, you should choose a framework and mess around with it and get really good with it. If you choose Ember, Angular, React or Vue, they all have CLIs, so it's really for you to scaffold up a project and not have to worry about setting up your dev environment etc., it has the tests baked in for you... That in itself makes it easier, but then you learn everything all at once.
+Personally, I think if you do learn JavaScript, you should choose a framework and mess around with it and get really good with it. If you choose Ember, Angular, React or Vue, they all have CLIs, so it's really for you to scaffold up a project and not have to worry about setting up your dev environment etc., it has the tests baked in for you... That in itself makes it easier, but then you learn everything all at once.
 
 **Jerod Santo:** Let me stop you real quick, because a lot of people will never get past "pick a framework."
 
@@ -178,9 +178,9 @@ Personally, I think if you do learn Javascript, you should choose a framework an
 
 **Jerod Santo:** I'm just saying that even experienced developers never get past that... So let's say I'm at - and to a certain degree I agree with you - especially one that's kind of "hold your hand" quite a bit, such as Ember, that kind of gives you a batteries included framework framework, as opposed to loosely coupled libraries and stuff that you have to pick and choose your own things - something like that is nice when you're learning, because it's warm and cozy inside this nice, big framework... But how do people even decide what's worth investing into?
 
-For instance, what you guys do with This Dot and This Dot Javascript is you're framework agnostic. You're interested in Angular, you're interested in Amber, React, Vue - which is, by the way, a good move for business opportunities... But for learning, like you said, pick one and go. Does it matter? To a newer developer, can you just say "Who cares? Just grab one and get a project"?
+For instance, what you guys do with This Dot and This Dot JavaScript is you're framework agnostic. You're interested in Angular, you're interested in Amber, React, Vue - which is, by the way, a good move for business opportunities... But for learning, like you said, pick one and go. Does it matter? To a newer developer, can you just say "Who cares? Just grab one and get a project"?
 
-**Tracy Lee:** So I haven't played around with Vue yet, I don't know what the syntax is like, so I can't comment on that... I can only comment on Amber, Angular and React. If you want serious guard rails, then go with something like Ember or Angular. If you want to have more options of choice and learn more Javascript-specific, but maybe not be as productive... Like, more Javascript, less productive because you need to learn more Javascript and more how to configure things, then probably go with React. If you don't care about those things and you just wanna get really productive and build applications and have things done for you, then picking something like Ember, Angular is better.
+**Tracy Lee:** So I haven't played around with Vue yet, I don't know what the syntax is like, so I can't comment on that... I can only comment on Amber, Angular and React. If you want serious guard rails, then go with something like Ember or Angular. If you want to have more options of choice and learn more JavaScript-specific, but maybe not be as productive... Like, more JavaScript, less productive because you need to learn more JavaScript and more how to configure things, then probably go with React. If you don't care about those things and you just wanna get really productive and build applications and have things done for you, then picking something like Ember, Angular is better.
 
 One of my girlfriends just moved from -- she works at Netflix, and she moved from Ember to React recently because of her job... She was really happy that Ember -- she said that Ember helps you think about scale and what you need to do next, and it gives you a good foundation on how to be very organized with your project.
 
@@ -216,7 +216,7 @@ It's gonna be okay, and you don't have to force yourself to do things. I think t
 
 So don't be afraid. Ben Lesh always says, "Hey, if you need help, just let me know. It'll be fine." I think that the Angular team is very friendly and open and welcome, and the Ember community... There's the Slack channel in which you can literally go into a NeedHelp and people will mess around with you there.
 
-I'll tell you guys about This Dot Labs and this idea of having a mentor... We're really big on mentorship, myself and EmberSherpa, and what we do is we actually help companies -- I think what we realize is if you sit and you bang your head on something, whether you're working in Javascript or whether you're just learning Javascript, it can be really frustrating. You can spend many, many days doing it, where it might have just been a simple problem.
+I'll tell you guys about This Dot Labs and this idea of having a mentor... We're really big on mentorship, myself and EmberSherpa, and what we do is we actually help companies -- I think what we realize is if you sit and you bang your head on something, whether you're working in JavaScript or whether you're just learning JavaScript, it can be really frustrating. You can spend many, many days doing it, where it might have just been a simple problem.
 
 We collected a few of our friends who were core contributors or authors of different frameworks and libraries, and then you can actually buy a certain number of hours of their time for a month to sort of have that guaranteed support when you're doing code reviews, architecture etc. It's nice to just have somebody there for you, and I think that speaks a lot to just like, everybody should just find a mentor.
 
@@ -242,15 +242,15 @@ Adam, do you find that you learn better when you have a goal in mind, as opposed
 
 **Adam Stacoviak:** Ideas...
 
-**Tracy Lee:** \[00:35:56.08\] "I really wanna learn Javascript" - that's not actionable. If you're like, "Hey, I'm really trying to get this RxJS to work as a Raspberry Pi", which has been the thing that I've been messing around with lately... If you say that, then somebody who would want to help you, can help you, because you have something they can help you with.
+**Tracy Lee:** \[00:35:56.08\] "I really wanna learn JavaScript" - that's not actionable. If you're like, "Hey, I'm really trying to get this RxJS to work as a Raspberry Pi", which has been the thing that I've been messing around with lately... If you say that, then somebody who would want to help you, can help you, because you have something they can help you with.
 
-**Adam Stacoviak:** It also speaks to maybe your place on the path, too. Learning Javascript is such an open-ended thing to say... "Well, okay, at what point are you? Are you brand new to the web?" Like, you were on Facebook one day and you're like "I can actually make the web, let me do it. Somebody told me Javascript is a place to start", or are you a little further down the line and you know some HTML, you know a little CSS, you know roughly how the web works and things like that, and you're just further down that path? It speaks to where you're at.
+**Adam Stacoviak:** It also speaks to maybe your place on the path, too. Learning JavaScript is such an open-ended thing to say... "Well, okay, at what point are you? Are you brand new to the web?" Like, you were on Facebook one day and you're like "I can actually make the web, let me do it. Somebody told me JavaScript is a place to start", or are you a little further down the line and you know some HTML, you know a little CSS, you know roughly how the web works and things like that, and you're just further down that path? It speaks to where you're at.
 
-**Tracy Lee:** Yeah... I think also just people who are maybe backend developers or non-Javascript developers, because of how Javascript is these days and because of the tools that are out there (like the CLIs), it's amazing how easy it is for somebody to get started. I think the experience a few years ago was very, very different from the experience now.
+**Tracy Lee:** Yeah... I think also just people who are maybe backend developers or non-JavaScript developers, because of how JavaScript is these days and because of the tools that are out there (like the CLIs), it's amazing how easy it is for somebody to get started. I think the experience a few years ago was very, very different from the experience now.
 
 **Jerod Santo:** Yeah, speak to that, around the CLIs... I know that Ember built its own CLI and it was a hit, so the other frameworks kind of followed suit, or were inspired by that and realized that's a great user experience, especially at first run experience. When they did that, there was a lot of pushback, because there were things like Yeoman, and I don't know what else - Grunt maybe - at time, like boilerplaters and code generators... And it's kind of like these are generic tools that everybody else was using, but Ember built one specific to Ember.
 
-Tell us about the CLI landscape in Javascript nowadays, and why it's so awesome.
+Tell us about the CLI landscape in JavaScript nowadays, and why it's so awesome.
 
 **Tracy Lee:** So you have EmberCLI, which because it's -- I don't wanna say it's the oldest, but I would say...
 
@@ -284,7 +284,7 @@ It's perhaps worth mentioning now there's also, after ReactConf, Create React Na
 
 **Tracy Lee:** Yeah, the start is great. With AngularCLI you can generate your components, you can generate services and they'll create those dummy templates for you, which is kind of nice. I'm hoping that something happens with Create React App at some point in time.
 
-**Jerod Santo:** I think you're right... For developers who are just moving from space to space, coming to Javascript, especially with all these command line tools nowadays, they'll find it a lot easier to get into it, so that's great.
+**Jerod Santo:** I think you're right... For developers who are just moving from space to space, coming to JavaScript, especially with all these command line tools nowadays, they'll find it a lot easier to get into it, so that's great.
 
 I still think for completely new people there's a lot of work that needs to be done, but yeah... We're making moves.
 
@@ -320,7 +320,7 @@ I still think for completely new people there's a lot of work that needs to be d
 
 **Break:** \[00:45:00.10\]
 
-**Adam Stacoviak:** And we're back with Tracy Lee... A lot of fun here, kind of getting to know you, kind of getting to know how to learn Javascript, and ultimately organize and inspire communities. You said in the pre-call that you're organizing a cruise, a workshop, and also Angular Contributor Days. You also mentioned in the first part of the show - I probably shouldn't bring this back up again, but you mentioned you burnt out in the first part of the year... So you're doing all these things fairly soon...
+**Adam Stacoviak:** And we're back with Tracy Lee... A lot of fun here, kind of getting to know you, kind of getting to know how to learn JavaScript, and ultimately organize and inspire communities. You said in the pre-call that you're organizing a cruise, a workshop, and also Angular Contributor Days. You also mentioned in the first part of the show - I probably shouldn't bring this back up again, but you mentioned you burnt out in the first part of the year... So you're doing all these things fairly soon...
 
 **Jerod Santo:** You're rubbing it in, man...
 
@@ -381,7 +381,7 @@ All too often do we talk to one another digitally. It was with James Long - now 
 
 **Tracy Lee:** Well, it's because I'm passionate about bringing people together and I'm really passionate about helping people. So I'll spend a lot of time doing that because I know I'm really good at it, and I just can't help myself. Some things come about not because I premeditated them, but just because I'm like "Okay, I feel like I need to help in this area and I'm willing to devote time to it."
 
-I like making an impact in the world, and I'll choose things like This.JavaScript, Contributor Days - I think those are contributing to the greater Javascript ecosystem as a whole. Things like Ng-Cruise, for example... I'm throwing an Angular Cruise conference at the end of May - 29th May we leave Miami to cruise the Bahamas, and... I do those things because I was on a cruise last year and I said, "Hey, I should hang out with a bunch of people. Let's all go hack on a cruise!" So we're doing that. It's fun...
+I like making an impact in the world, and I'll choose things like This.JavaScript, Contributor Days - I think those are contributing to the greater JavaScript ecosystem as a whole. Things like Ng-Cruise, for example... I'm throwing an Angular Cruise conference at the end of May - 29th May we leave Miami to cruise the Bahamas, and... I do those things because I was on a cruise last year and I said, "Hey, I should hang out with a bunch of people. Let's all go hack on a cruise!" So we're doing that. It's fun...
 
 **Adam Stacoviak:** And with cruises you also get those excursions... You probably have several days of boat time, and then you'll have days of excursions off to Jamaica, or somewhere in the Caribbean's, or is that...? You said you're leaving Miami, so I'm assuming the Caribbean.
 

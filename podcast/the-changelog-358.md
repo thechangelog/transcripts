@@ -1,6 +1,6 @@
 **Jerod Santo:** Have you got anything new and exciting you wanna talk about? Have you got anything on your mind?
 
-**Eric Holscher:** We were just talking about open source sustainability, governance \[unintelligible 00:01:48.12\]
+**Eric Holscher:** We were just talking about open source sustainability, governance, the RFC conversation continuing.
 
 **Jerod Santo:** It continues.
 
@@ -90,7 +90,7 @@ You're completely legally able to install it, we're not saying you can't do that
 
 \[00:08:22.05\] In the PSF, luckily, we have an institution that could help manage that. Now, I'm not saying that Python should even have a document like that. We are a much more broad organization, of course... But we at least have the institutions to shepherd the community through that process, to really help be the authority that people would hopefully respect the decision if we had to make one... Guido being the classic example in the code side of things.
 
-But then you look a step higher beyond Python or open source, and you're like "Who is that? What is that? How do we all agree?" There were some great keynotes this morning from the Chef folks, Adam \[unintelligible 00:09:00.28\] I'm gonna mingle her last name, but... Just about that - being more inclusive in open source, but then also "How do we move the definition forward?"
+But then you look a step higher beyond Python or open source, and you're like "Who is that? What is that? How do we all agree?" There were some great keynotes this morning from the Chef folks, Adam, VM - I'm gonna mingle her last name, but... Just about that - being more inclusive in open source, but then also "How do we move the definition forward?"
 
 **Adam Stacoviak:** What's the answer to that question right now?
 
@@ -108,7 +108,7 @@ But then you look a step higher beyond Python or open source, and you're like "W
 
 **Jerod Santo:** Right. "Is this or is this not, according to these terms that are written down...?"
 
-**Eric Holscher:** Exactly. But open source is so much larger now. It's so much more than a license. It's a process. I think a lot of what people talk about around -- you know, \[unintelligible 00:10:06.03\] touched on this a lot, that your engagement with the community, your willingness to have contribution... People feel really strongly about that part of it. But now I feel like I'm trying to say what Adam has said more poorly... \[laughter\] I saw he was on your podcast last week, but I didn't get to listen to it yet...
+**Eric Holscher:** Exactly. But open source is so much larger now. It's so much more than a license. It's a process. I think a lot of what people talk about around -- you know, RFC touched on this a lot, that your engagement with the community, your willingness to have contribution... People feel really strongly about that part of it. But now I feel like I'm trying to say what Adam has said more poorly... \[laughter\] I saw he was on your podcast last week, but I didn't get to listen to it yet...
 
 **Jerod Santo:** That was definitely a good one... Check it out.
 
@@ -152,7 +152,7 @@ But then you look a step higher beyond Python or open source, and you're like "W
 
 So basically, the way that I talk about it is we build newspaper advertising for the internet. We know your approximate geo, we know your country, so we have a little bit of data about you, and we know the section of the newspaper you're reading, basically; we know you're on some Python documentation... So basically, we can target based on content well enough that we don't have to care about who you are as a person. If you're in the U.K. and you're reading a Python ORM documentation page, we can target you with a Mongo ad, or whatever. We don't need to know who you are, and we're able to build a business that we feel is still positive and an example for folks in the ecosystem.
 
-Look at Stack Overflow - there was a thing the other day on like "Why is my Stack Overflow page playing music?" Stack Overflow, this tool for developers, that should know better - they definitely know better - is running arbitrary Javascript from an ad network on the page... And we're like "If the developers as open source platform owners, if we can't do advertising right, if we're not respecting our users, then who on earth can we depend on? If we can't show the model, then no one else is going to..." That was really our motivation - we know the problems, we understand the weird stuff that's going on, with like Javascript running in arbitrary browsers... If we don't stand against that, then who's going to?
+Look at Stack Overflow - there was a thing the other day on like "Why is my Stack Overflow page playing music?" Stack Overflow, this tool for developers, that should know better - they definitely know better - is running arbitrary JavaScript from an ad network on the page... And we're like "If the developers as open source platform owners, if we can't do advertising right, if we're not respecting our users, then who on earth can we depend on? If we can't show the model, then no one else is going to..." That was really our motivation - we know the problems, we understand the weird stuff that's going on, with like JavaScript running in arbitrary browsers... If we don't stand against that, then who's going to?
 
 **Adam Stacoviak:** Yeah. Do you become an ad network then, basically? Do you have a sales team? Is that your primary source of revenue? What is that model for you?
 
@@ -162,7 +162,7 @@ Look at Stack Overflow - there was a thing the other day on like "Why is my Stac
 
 **Eric Holscher:** It used to be like 90/10, and I think we're actually getting down closer to like 60/40. So the money from the advertising is really letting us invest in the product, and making the subscription revenue is kind of bootstrapping that side of the business, really.
 
-**Adam Stacoviak:** I love those ideas of offsetting. I think there's a spot for promotion in advertising, so to speak, in the publishing, and I think that's a good spot. I think not having it as your primary source of revenue is probably pretty smart... But I like the idea of offsetting, and even letting the audience \[unintelligible 00:16:04.23\] "Hey, if you subscribe or you commit in these ways...", either -- I wouldn't say donation, but some sort of thing that gives them value; some sort of value-based transaction "...to offset our need for and reliance upon", I'd support it.
+**Adam Stacoviak:** I love those ideas of offsetting. I think there's a spot for promotion in advertising, so to speak, in the publishing, and I think that's a good spot. I think not having it as your primary source of revenue is probably pretty smart... But I like the idea of offsetting, and even letting the audience know "Hey, if you subscribe or you commit in these ways...", either -- I wouldn't say donation, but some sort of thing that gives them value; some sort of value-based transaction "...to offset our need for and reliance upon", I'd support it.
 
 **Eric Holscher:** \[00:16:21.21\] Totally, yeah. And we let people opt out of advertising if they've contributed code, or if you're a library that we're using in our stuff... Obviously, we'll just be like "Yeah, sure." We just won't put ads on it.
 
@@ -274,7 +274,7 @@ The other thing is we let people opt out of paid advertising. This is kind of a 
 
 **Jerod Santo:** \[laughs\]
 
-**Eric Holscher:** The idea is that when you're standing in a group of people, always leave room for one person to join you. It's just like a little babystep you can take towards inclusivity. But to think about it in kind of as a \[unintelligible 00:21:43.02\] the shape of a Pac-Man. It's very visual, but Pac-Man has its mouth, and it's always a little bit open - that's the room for someone to join your group. And when someone joins your group, reshuffle to leave a little space. It reduces the cliqueness of walking into a room and being like "I can't join any of the groups."
+**Eric Holscher:** The idea is that when you're standing in a group of people, always leave room for one person to join you. It's just like a little babystep you can take towards inclusivity. But to think about it in kind of as a rememborable rule, stand like the shape of a Pac-Man. It's very visual, but Pac-Man has its mouth, and it's always a little bit open - that's the room for someone to join your group. And when someone joins your group, reshuffle to leave a little space. It reduces the cliqueness of walking into a room and being like "I can't join any of the groups."
 
 The back-story here is basically we wanna say we're a welcoming event. This was in Write the Docs - wearing my Write the Docs hat - and we say "We're an incredibly welcoming event", but it's like "What does that mean?"
 
@@ -366,7 +366,7 @@ But the fact that it has been so widely adopted shows that there is a need for m
 
 **Eric Holscher:** Yeah. There we go.
 
-**Jerod Santo:** \[00:28:02.08\] Let me real quick add my Amen to something you touched upon when you giving your Medium answer - is that you have to write it down. I've been one of a handful of organizers of a local Javascript conference for the last few years, and we're always looking for new experiments, new ideas... And in our team Slack, people are always pasting in "This conference did this thing", and somebody wrote about it, whether it's the organizer themselves, saying "This worked" or "It did not work", or it's somebody who attended the event and says "This was an amazing little touch" or "I felt welcomed because X, Y or Z..." Well, those people who are interested in doing good events - they're looking for those kinds of things...
+**Jerod Santo:** \[00:28:02.08\] Let me real quick add my Amen to something you touched upon when you giving your Medium answer - is that you have to write it down. I've been one of a handful of organizers of a local JavaScript conference for the last few years, and we're always looking for new experiments, new ideas... And in our team Slack, people are always pasting in "This conference did this thing", and somebody wrote about it, whether it's the organizer themselves, saying "This worked" or "It did not work", or it's somebody who attended the event and says "This was an amazing little touch" or "I felt welcomed because X, Y or Z..." Well, those people who are interested in doing good events - they're looking for those kinds of things...
 
 **Eric Holscher:** Totally.
 
@@ -504,7 +504,7 @@ I think bringing that to other people and making it as accessible and exciting a
 
 **Ali Spittel:** Totally. I'd say that everybody has a different learning style, and identify that first. Do you learn best in a classroom? Do you learn best from written tutorials? Do you learn best from video tutorials? What motivates you and what is gonna keep you the most interested? Because you're in charge of your learning journey; you're not forced to be in a classroom anymore. This isn't high school. It's up to you, so do what feels right to you, what makes you feel engaged, what makes you able to understand the concepts, and find those resources that really work for you.
 
-I think that's the hardest part of being self-taught. There's so much out there, and trying to find the right things... I was mostly self-taught myself, and did have some computer science background in college, and also have taught at a bootcamp, so I've kind of seen all three, and I think all three do work for different people; I think just knowing what will work for you \[unintelligible 00:38:54.06\]
+I think that's the hardest part of being self-taught. There's so much out there, and trying to find the right things... I was mostly self-taught myself, and did have some computer science background in college, and also have taught at a bootcamp, so I've kind of seen all three, and I think all three do work for different people; I think just knowing what will work for you and dipping your toes in.
 
 **Adam Stacoviak:** Yeah. That's pretty smart, because it's the same with learning anything. I like to listen to books more than read them... Although I love to read them as well. I just have more time for listening and I get things easier from listening that way, versus reading it myself. So it's finding what works for you to learn, whatever process is fitting for you. It's smart.
 
@@ -558,11 +558,11 @@ It may be more difficult for you to learn by yourself, and doing a bootcamp may 
 
 **Adam Stacoviak:** It's not a healthy thing, that's for sure... For me or for the community.
 
-**Jerod Santo:** No, it's not. But that leads me to something else... I'm thinking in terms of teaching and learning - a debate we've kind of had a little bit on JS Party and that we talk about is where do you start technologically, with beginners? Just speaking of web development specifically... There's the layered cake idea, where it's like "You teach me the HTML, and then you teach me CSS, and then you teach me Javascript", and then go from there.
+**Jerod Santo:** No, it's not. But that leads me to something else... I'm thinking in terms of teaching and learning - a debate we've kind of had a little bit on JS Party and that we talk about is where do you start technologically, with beginners? Just speaking of web development specifically... There's the layered cake idea, where it's like "You teach me the HTML, and then you teach me CSS, and then you teach me JavaScript", and then go from there.
 
-Then there's maybe the more practitioner, like "Well, just pick a Javascript framework which you can get hired for", or has its name in a list of jobs... Like, just learn React first. Start with this thing that you can use right away and then you'll back-fill the underlying technologies... I just wonder if you have opinions on this.
+Then there's maybe the more practitioner, like "Well, just pick a JavaScript framework which you can get hired for", or has its name in a list of jobs... Like, just learn React first. Start with this thing that you can use right away and then you'll back-fill the underlying technologies... I just wonder if you have opinions on this.
 
-**Ali Spittel:** I definitely have opinions on this. I started off mostly in Python, and doing back-end stuff. My second language was C++, and then I was kind of thrown into web development, and doing it on the job for the first time, learning it while doing it... So I learned React probably way sooner than I should have, and I really wish that I knew the fundamentals a lot better, because React is just Javascript; it's not anything magical or anything like that. But if I had known that, for example, classes were built into Javascript, not React, then I think that that would have been...
+**Ali Spittel:** I definitely have opinions on this. I started off mostly in Python, and doing back-end stuff. My second language was C++, and then I was kind of thrown into web development, and doing it on the job for the first time, learning it while doing it... So I learned React probably way sooner than I should have, and I really wish that I knew the fundamentals a lot better, because React is just JavaScript; it's not anything magical or anything like that. But if I had known that, for example, classes were built into JavaScript, not React, then I think that that would have been...
 
 **Jerod Santo:** Empowering...
 
@@ -570,13 +570,13 @@ Then there's maybe the more practitioner, like "Well, just pick a Javascript fra
 
 **Jerod Santo:** That would have been big to know.
 
-**Ali Spittel:** \[00:43:47.17\] Although I was also learning at that time when it was like -- ES6 was just coming out, so all the documentation was changing for that... But yeah, I really think that you can't go wrong with learning the fundamentals, because HTML, CSS and Javascript are evolving, but they are pretty stable, and a lot of the fundamentals stay the same from time to time; then these frameworks - there's one that comes up, and... You know, React has maybe won the framework battle to some extent, for now... You know, Vue and all the others are awesome too, but React is probably the dominant one right now. So it's definitely worth learning, but I think learning the Javascript fundamentals will only make learning React easier down the road, when you're trying to learn React.
+**Ali Spittel:** \[00:43:47.17\] Although I was also learning at that time when it was like -- ES6 was just coming out, so all the documentation was changing for that... But yeah, I really think that you can't go wrong with learning the fundamentals, because HTML, CSS and JavaScript are evolving, but they are pretty stable, and a lot of the fundamentals stay the same from time to time; then these frameworks - there's one that comes up, and... You know, React has maybe won the framework battle to some extent, for now... You know, Vue and all the others are awesome too, but React is probably the dominant one right now. So it's definitely worth learning, but I think learning the JavaScript fundamentals will only make learning React easier down the road, when you're trying to learn React.
 
 **Jerod Santo:** Yeah. I think specifically with HTML and CSS, not only is it that they're pretty stable, but that all the advancements are additive. They're adding to the language - they're adding elements, they're adding selector style... They're adding technologies on top, but that doesn't obsolete any of the existing things.
 
 **Ali Spittel:** Totally.
 
-**Jerod Santo:** So it's not like you're gonna... Javascript on the other hand - callbacks are out, asyc/await is in... That's not additive. I mean, it's an additional technology, but you know what I'm saying.
+**Jerod Santo:** So it's not like you're gonna... JavaScript on the other hand - callbacks are out, asyc/await is in... That's not additive. I mean, it's an additional technology, but you know what I'm saying.
 
 **Ali Spittel:** It's different.
 
@@ -600,7 +600,7 @@ Then there's maybe the more practitioner, like "Well, just pick a Javascript fra
 
 **Adam Stacoviak:** Unless you drive an e-car, of course.
 
-**Ali Spittel:** \[unintelligible 00:45:54.04\] my favorite thing ever, and that is -- the biggest moment as a software developer is when you know that you can look at any site and know that with enough time and education you could build it. So not that you could build it right now with your current knowledge, but know that you could teach yourself the things that you would need to know to build that thing. That I think is so true - there's a moment where it kind of clicks and you're like "Yeah, if I had enough time, and if I had the right resources, I could teach myself to do that." You can't do everything, obviously; you'd have a team. But you could teach yourself how to do these things. I think that that's really true.
+**Ali Spittel:** One of my old bosses told me my favorite thing ever, and that is -- the biggest moment as a software developer is when you know that you can look at any site and know that with enough time and education you could build it. So not that you could build it right now with your current knowledge, but know that you could teach yourself the things that you would need to know to build that thing. That I think is so true - there's a moment where it kind of clicks and you're like "Yeah, if I had enough time, and if I had the right resources, I could teach myself to do that." You can't do everything, obviously; you'd have a team. But you could teach yourself how to do these things. I think that that's really true.
 
 **Jerod Santo:** Absolutely. Something I used to say is that when I taught -- I taught web development for a couple of years... And I would tell my students that I want them to become intrepid. Right now they're timid and they don't know anything; if you're bold at that point, then there's a problem... Misplaced zeal. I'm not gonna get them all the way, but I wanna get them to a point where -- it's kind of like the same exact sentiment; there's enough skills to have the confidence to think they can build anything. That'll get you places.
 
@@ -644,13 +644,13 @@ With bootcamps it's that it's an accelerated format and you can't learn everythi
 
 **Adam Stacoviak:** No, not at all that!
 
-**Ali Spittel:** \[unintelligible 00:50:36.10\]
+**Ali Spittel:** Those eighth graders--
 
 **Adam Stacoviak:** More so getting into--
 
 **Jerod Santo:** As long as we know how to podcast, we'll be safe. \[laughter\]
 
-**Ali Spittel:** True. \[unintelligible 00:50:40.12\]
+**Ali Spittel:** True, or write blog posts.
 
 **Adam Stacoviak:** I mean more so getting into the things they'll have to do as an adult too early. Like, really enjoy those younger years, because you only get them once, obviously...
 
@@ -854,7 +854,7 @@ I think for me, I get more critiques of me as a person, which is a little bit we
 
 **Hong Phuc Dang:** We develop software and hardware. We have a number of portfolio projects that are coming out of the FOSSASIA community. For instance, the hardware device that I showed you earlier, called the Pocket Science Lab. Basically is a USB-powered device that helps you measure all kinds of things, and it helps people do science experiments.
 
-You have an oscilloscope, a wave generator, a logic analyzer, a power source, and many other instruments into one single device, and everything open source. So we have the \[unintelligible 01:01:00.26\] of the hardware, the firmware, everything available on GitHub. It will be our own Android application and also desktop application.
+You have an oscilloscope, a wave generator, a logic analyzer, a power source, and many other instruments into one single device, and everything open source. So we have the kinematics of the hardware, the firmware, everything available on GitHub. We built our own Android application and also desktop application.
 
 **Jerod Santo:** Cool. So does FOSSASIA have -- is there physical get-togethers, is it all online? What does the community actually look like?
 
@@ -926,7 +926,7 @@ It's very difficult to have a huge conference where you can have all the people 
 
 So we try to do also smaller events throughout the year. Then in March every year in Singapore, the bigger conference. So we try to provide as many opportunities as possible for people to get together, face-to-face.
 
-**Jerod Santo:** \[01:08:00.03\] Well, there's one aspect that I would say of Asian influence or community \[unintelligible 01:08:03.06\] I've seen from my perspective increase in the last 18 months. We have an automated newsletter called Changelog Nightly, and it uses GitHub's activity, and those things stored in BigQuery, to basically just surface the most active or starred repositories in the last 24 hours... And it sends out every night. So you just see what people are starring, and what they're working on on GitHub.
+**Jerod Santo:** \[01:08:00.03\] Well, there's one aspect that I would say of Asian influence or community that I've seen from my perspective increase in the last 18 months. We have an automated newsletter called Changelog Nightly, and it uses GitHub's activity, and those things stored in BigQuery, to basically just surface the most active or starred repositories in the last 24 hours... And it sends out every night. So you just see what people are starring, and what they're working on on GitHub.
 
 In the last 18 months, the number of repos that are non-English descriptions -- so we include the name of the repository, the link to it, and then the description. And the number of non-English repositories has skyrocketed recently, so much so that we've added a little Translate button next to the description, to go back and forth into whatever language you happen to be reading it in.
 
@@ -960,7 +960,7 @@ I've seen a groundswell of open source, mostly Chinese language repositories on 
 
 **Adam Stacoviak:** Sorry... I heard that. Sorry about that. What's the URL for it? Where can people go to find it? Where is it on GitHub?
 
-**Hong Phuc Dang:** So it's on GitHub, \[unintelligible 01:11:06.28\] but we also have the customer version, Eventyay.com.
+**Hong Phuc Dang:** So on GitHub is the source code, but we also have the customer version, Eventyay.com.
 
 **Jerod Santo:** Oh, nice.
 
@@ -1014,7 +1014,7 @@ I've seen a groundswell of open source, mostly Chinese language repositories on 
 
 **Jerod Santo:** \[laughs\] But you don't have to be afraid of it, because Amazon is not powering Susi. So does Susi run on your own server then?
 
-**Hong Phuc Dang:** Yes. You can also run it on your own server; so the infrastructure side of Susi. We have a web application and we also have an Android application. \[unintelligible 01:13:21.07\] the Susi server. This is the back-end of the AI, and we also have a knowledge store -- it's called the Susi Knowledge Database. Basically, \[unintelligible 01:13:35.22\] question in for the AI... But we also have a CMS, similar to Alexa, where the community can contribute skill into the system. We have similar things like Alexa CMS - we have a Susi skill CMS.
+**Hong Phuc Dang:** Yes. You can also run it on your own server; so the infrastructure side of Susi. We have a web application and we also have an Android application. \[unintelligible 01:13:21.07\] the core of the Susi server. This is the back-end of the AI, and we also have a knowledge store -- it's called the Susi Knowledge Database. Basically, \[unintelligible 01:13:35.22\] question in for the AI... But we also have a CMS, similar to Alexa, where the community can contribute skill into the system. We have similar things like Alexa CMS - we have a Susi skill CMS.
 
 **Jerod Santo:** Susi, play the Changelog.
 
@@ -1024,7 +1024,7 @@ I've seen a groundswell of open source, mostly Chinese language repositories on 
 
 **Adam Stacoviak:** My Susi just started playing the Changelog.
 
-**Jerod Santo:** \[unintelligible 01:14:05.20\]
+**Jerod Santo:** \[unintelligible 01:14:05.20\] trigger warning.
 
 **Hong Phuc Dang:** Yes. And we've also built hardware, a speaker. Our Raspberry Pi -- we have our own speaker, powered by Susi.
 
@@ -1040,7 +1040,7 @@ I've seen a groundswell of open source, mostly Chinese language repositories on 
 
 **Jerod Santo:** \[laughs\] Just kidding.
 
-**Adam Stacoviak:** \[01:14:59.26\] In the last couple of weeks I've seen -- Google has admitted to storing and listening to stuff on Google Home, for example. Amazon has admitted to...
+**Adam Stacoviak:** I just see a lot of the-- In the last couple of weeks I've seen -- Google has admitted to storing and listening to stuff on Google Home, for example. Amazon has admitted to...
 
 **Jerod Santo:** ...and store all audio.
 
@@ -1064,7 +1064,7 @@ I've seen a groundswell of open source, mostly Chinese language repositories on 
 
 **Jerod Santo:** Susi, play the Changelog.
 
-**Hong Phuc Dang:** Susi is one of the projects, but I believe there are also many other open source AI projects out there. People have shared the same opinion - they don't want to be controlled by a few players in the market, so our goal here is to try to \[unintelligible 01:15:54.23\] the ecosystem, so everyone can have the freedom whatever he or she likes to do.
+**Hong Phuc Dang:** Susi is one of the projects, but I believe there are also many other open source AI projects out there. People have shared the same opinion - they don't want to be controlled by a few players in the market, so our goal here is to try to grow the ecosystem, so everyone can have the freedom whatever he or she likes to do.
 
 **Jerod Santo:** Yeah. Okay, last question here - imagine a developer; she lives in the middle of the United States and she's listening to this conversation because she likes podcasts, and she has Susi, so she says "Susi, play the Changelog." She's intrigued by FOSSASIA. What's the best way to get plugged into that community?
 
@@ -1086,7 +1086,7 @@ I've seen a groundswell of open source, mostly Chinese language repositories on 
 
 **Jerod Santo:** So much cool stuff.
 
-**Hong Phuc Dang:** And we hope to release the \[unintelligible 01:17:42.04\] for the hardware in the upcoming months.
+**Hong Phuc Dang:** And we hope to release the kinematic for the hardware in the upcoming months.
 
 **Adam Stacoviak:** Mind = blown. What's the org on GitHub? FOSSASIA?
 

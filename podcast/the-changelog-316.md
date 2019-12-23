@@ -6,7 +6,7 @@ My name is Jerod Santo and I'm happy to be here today. We have Suz with us. Suz 
 
 **Jerod Santo:** Suz, you're in Hawaii... I just got all jealous. Please tell us why.
 
-**Suz Hinton:** I'm very excited. This is the first day of my vacation, so I'm gonna have a Javascript party with you all, and then I'm gonna go and have a party on the beach.
+**Suz Hinton:** I'm very excited. This is the first day of my vacation, so I'm gonna have a JavaScript party with you all, and then I'm gonna go and have a party on the beach.
 
 **Jerod Santo:** That sounds better than what I'm going to do next, for sure...
 
@@ -108,7 +108,7 @@ What's interesting is that -- like, we're using Python on our back-end, and on o
 
 So John, what else from the front-end? This is obviously where you focus. You said GraphQL was just so much better than REST from your guys' perspective, so I guess just -- I know you've mentioned a few pieces of it, but maybe a chance to sing its praises and enumerate all the ways... You know, let me count the ways that GraphQL has won you over on the front-end. What's the biggest wins and how many are there?
 
-**John Resig:** So I've mentioned rapid prototyping, but I think one of the things that so shocked me about GraphQL is that when you have your queries defined on the client or in your Javascript code, you can statically analyze the queries. The benefit of this is that -- we have a linting rule set up where if there are any changes to a GraphQL schema or something like that and it's gonna cause one of our queries to break, it'll produce an error about that.
+**John Resig:** So I've mentioned rapid prototyping, but I think one of the things that so shocked me about GraphQL is that when you have your queries defined on the client or in your JavaScript code, you can statically analyze the queries. The benefit of this is that -- we have a linting rule set up where if there are any changes to a GraphQL schema or something like that and it's gonna cause one of our queries to break, it'll produce an error about that.
 
 Now, the cool thing about this is that it allows us to refactor our APIs, our GraphQL, in ways that were never possible with our REST APIs... Because with a REST API - at least the ones we had - it was just like, okay, here's a JSON blob; we don't know what data is being accessed or how it's being used or where it's being used, so therefore we don't know if it's ever safe to remove any data.
 
@@ -206,13 +206,13 @@ Yeah, so I think there are definitely ways of improving the performance, improvi
 
 **Jerod Santo:** Gotcha. Very good. Okay, next question from the community... This one comes from Dylan Schiemann, who listeners may remember from the Dojo episode back on JS Party \#25... Dylan says "So jQuery... That's like a query language for GraphQL, right...?"
 
-**John Resig:** \[00:48:06.13\] \[laughs\] Yeah, it's funny, because Dylan and I go way back... He was working at Dojo, I was working at jQuery... All this, at this point, old-timer Javascript framework folk... \[laughs\]
+**John Resig:** \[00:48:06.13\] \[laughs\] Yeah, it's funny, because Dylan and I go way back... He was working at Dojo, I was working at jQuery... All this, at this point, old-timer JavaScript framework folk... \[laughs\]
 
 **Jerod Santo:** Yup. In our chat room, he mentioned that you guys have been trolling each other for years, so he thought that would be appropriate...
 
 **John Resig:** \[laughs\] But I think it's funny... It's like one of those things where we -- at the time, the competition felt intense, or at least it did for me... It was just like, "Oh man, we're trying to change things and get recognition, and all this sort of stuff...", but then as things have changed and as the world has changed, and everything, now we just look back at those times... We're like, "Oh yeah, that was a thing that was happening..." \[laughs\]
 
-He's jokingly saying is jQuery a thing for creating GraphQL databases, but like, back when I named jQuery, my first name was jSelect, just for like JavascriptSelect... But I couldn't, because the domain was taken, so I didn't choose that... And I saw that jQuery was available, but there was an open source project called jQuery, and it was like a Java library for doing SQL queries, or something like that. It looked like it hadn't been updated in a while, so I was like "Okay, it's probably fine. I can just use this name." If the domain is available, I'll get the domain and I can use it.
+He's jokingly saying is jQuery a thing for creating GraphQL databases, but like, back when I named jQuery, my first name was jSelect, just for like JavaScriptSelect... But I couldn't, because the domain was taken, so I didn't choose that... And I saw that jQuery was available, but there was an open source project called jQuery, and it was like a Java library for doing SQL queries, or something like that. It looked like it hadn't been updated in a while, so I was like "Okay, it's probably fine. I can just use this name." If the domain is available, I'll get the domain and I can use it.
 
 I remember at some point in the future the person running the open source project got in touch with me and was like "Hey, you're kind of using my name." I'm like, "Oh, sorry... I thought the project was dead. I didn't realize that it was still going on..." \[laughter\] But the thing is that yeah, obviously, I feel pretty certain that web-based jQuery is far more popular than the jQuery Java SQL querying thing... \[laughs\] But yeah, I did feel a little bit bad about that.
 

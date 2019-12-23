@@ -26,7 +26,7 @@ Currently, the cool thing that we've just released yesterday was an analysis of 
 
 **Adam Stacoviak:** Yeah. I was gonna ask you about this - a pretty lengthy, data-filled blog post. Great job on that. Good timing, too.
 
-**Francesc Campoy:** Yeah. I mean, the cool thing is that there's so much data in there. You have almost two million lines of code, and we've been working on that project since 2014, I think... So that's a lot of data in there. We were able to find things like "Oh, so how many exported functions are there, and how did that grow over time?" We saw that from version 1.0 to 1.4 the API grew by four times the size... Which is bad. If we kept on doing that, it means that by now we would have -- so we went from 4,000 to 16,000; if we kept on going the same pace, we would have something like around 100,000 endpoints. That is not maintainable. It's too complex, and no contributor will be able to think about Kubernetes as a thing. You have to split it into pieces, right?
+**Francesc Campoy:** Yeah. I mean, the cool thing is that there's so much data in there. You have almost two million lines of code, and we've been working on that project since 2014, I think... So that's a lot of data in there. We were able to find things like "Oh, so how many exported functions are there, and how did that grow over time?" We saw that from version 1.0 to 1.4 the API grew by four times the size... which is bad. If we kept on doing that, it means that by now we would have -- so we went from 4,000 to 16,000; if we kept on going the same pace, we would have something like around 100,000 endpoints. That is not maintainable. It's too complex, and no contributor will be able to think about Kubernetes as a thing. You have to split it into pieces, right?
 
 **Adam Stacoviak:** Right.
 
@@ -58,7 +58,7 @@ Currently, the cool thing that we've just released yesterday was an analysis of 
 
 **Adam Stacoviak:** Okay.
 
-**Francesc Campoy:** I used to work at Google... If you go to a googler and you tell them "Hey, we're gonna be sending you source code over the network to some random server...", they're gonna be like "There's no way you're doing that." So we knew that source code is a very, very delicate piece of data, so everything can run on-prem; everything runs on Docker. You can even have a \[unintelligible 00:10:46.09\] and just start everything up, very easy. And everything is open source.
+**Francesc Campoy:** I used to work at Google... If you go to a googler and you tell them "Hey, we're gonna be sending you source code over the network to some random server...", they're gonna be like "There's no way you're doing that." So we knew that source code is a very, very delicate piece of data, so everything can run on-prem; everything runs on Docker. You can even have a Helm chart and just start everything up, very easy. And everything is open source.
 
 **Adam Stacoviak:** Would you do this on a laptop, would you do this at the server level? Where's the interface?
 
@@ -78,7 +78,7 @@ That is super-useful, because basically the whole idea is that it brings visibil
 
 We keep on putting more and more stuff inside of Git repositories, and what we're trying to do is "Sure, that's great, but now let's analyze it." Let's use that data we've put in there to try to understand what's going on.
 
-The cool thing about being SQL -- because I was, and I'm still thinking about offering a GraphQL thing, because Git repositories are trees, and once you parse code, you get a tree; so everything's trees, and GraphQL for trees is great... But the fact that it's SQL, it allows you to mix it with other datasets. You have Looker, or Power BI, or things like this where you can have many datasets and do a query across many different databases. Imagine doing something where you're saying -- say inner source; The whole goal under inner source is really make sure you break the silos in a company and that everybody collaborates with each other. Like the Google-style, Facebook-style, even though the inner source term  \[unintelligible 00:14:51.00\] at PayPal. In order to measure how well you're doing, the whole idea is that you need to first know who is in each team. Unfortunately, that is not in your Git dataset, so you're gonna need to mix it with some other dataset - HR dataset, or whatever it is. So Looker, or Power BI, and I think that even Tableau - they will allow you to do these kinds of things...
+The cool thing about being SQL -- because I was, and I'm still thinking about offering a GraphQL thing, because Git repositories are trees, and once you parse code, you get a tree; so everything's trees, and GraphQL for trees is great... But the fact that it's SQL, it allows you to mix it with other datasets. You have Looker, or Power BI, or things like this where you can have many datasets and do a query across many different databases. Imagine doing something where you're saying -- say inner source; The whole goal under inner source is really make sure you break the silos in a company and that everybody collaborates with each other. Like the Google-style, Facebook-style, even though the inner source term was created at Paypal. In order to measure how well you're doing, the whole idea is that you need to first know who is in each team. Unfortunately, that is not in your Git dataset, so you're gonna need to mix it with some other dataset - HR dataset, or whatever it is. So Looker, or Power BI, and I think that even Tableau - they will allow you to do these kinds of things...
 
 **Adam Stacoviak:** You can look up the repo URL on GitHub, even if it's a private GitHub repo as well.
 
@@ -86,7 +86,7 @@ The cool thing about being SQL -- because I was, and I'm still thinking about of
 
 **Adam Stacoviak:** Because you have teams at the org level, so you could look up not so much by the repo, but by the repo URL.
 
-**Francesc Campoy:** Yeah, yeah. So the thing is that all of that -- that is the GitHub API. We work with any Git repository, so all of the concepts that we work with are Git, for now... That's why, for instance, the organization is a GitHub or GitLab. Point you could expose it from a different dataset. Just download the whole thing, put it in a MySQL and that's it. You can do that, too.
+**Francesc Campoy:** Yeah, yeah. So the thing is that all of that -- that is the GitHub API. We work with any Git repository, so all of the concepts that we work with are Git, for now... That's why, for instance, the organization is a GitHub or GitLab. Point: you could expose it from a different dataset. Just download the whole thing, put it in a MySQL and that's it. You can do that, too.
 
 **Adam Stacoviak:** Right.
 
@@ -126,9 +126,9 @@ For data analysts - if you tell a data analyst "Oh yeah, you should use Git in o
 
 **Francesc Campoy:** \[00:20:02.01\] Yeah. \[laughs\] No, but once you tell them -- many banks do not really even know how much code they have. There's so much of it that when you tell them "Okay, so how much COBOL do you think you have?" and they're like "In-between 100,000 and maybe half a million..." I was like, "Well, if you're going to put some budget to go and rewrite that in something more modern, good luck, with that estimation..." So the idea is we're gonna be able to bring all of these data to them, so they're gonna be able to make informed decisions. Counting lines of code per language, which for us is literally a "group by" query, it's super-simple to do... For them, it was like "This is actually really interesting."
 
-The other change that lots of banks want to do is going back to the inner sourcing. Large banks, they have many IT groups all around the organization, and they want them to work together well, and the first piece is to figure out who is doing what, what resembles to what, how much code duplication you have... We have a thing that analyzes code duplication not character by character, but rather extracting the abstract syntax tree, modifying a couple things, so it's actually a very smart way of figuring out whether two pieces of code are very similar. They're so similar that if you saw them next to each other, you would say "You need to refactor them and just write one function." We're able to detect this automatically, and this helps a lot, because if you imagine you're like the CTO of a bank, and you have this codebase that dates from the '60s, and they tell you "Please put it on the cloud." That's hard. That is a harsh thing to ask from anyone.
+The other change that lots of banks want to do is going back to the inner sourcing. Large banks, they have many IT groups all around the organization, and they want them to work together well, and the first piece is to figure out who is doing what, what resembles to what, how much code duplication you have... We have a thing that analyzes code duplication not character by character, but rather extracting the abstract syntax tree, modifying a couple things, so it's actually a very smart way of figuring out whether two pieces of code are very similar. They're so similar that if you saw them next to each other, you would say "You need to refactor them and just write one function." We're able to detect this automatically, and this helps a lot, because if you imagine you're like the CTO of a bank, and you have this codebase that dates from the '60s, and they tell you "Please put it on the cloud." That's hard. That is a harsh thing to ask to anyone.
 
-The idea of being able to tell them, "Well, actually all of this source code - let's see which parts are gonna be the easiest ones, like this MTA, "modernizing traditional applications", which is not really cloud-native, but we can make it be cloud-native, we can make it run in Kubernetes... And then what is the COBOL that -- you know, that's gonna be an interesting challenge to migrate. So having a view of all of this by just running a couple queries is really powerful. The other option is literally running -- I'm gonna be very hopeful and say that you could run a really huge Bash crib calling Git very often, and maybe you will get something similar... But it would take hours instead of seconds.
+The idea of being able to tell them, "Well, actually all of this source code - let's see which parts are gonna be the easiest ones, there's MTA, "modernizing traditional applications", which is not really cloud-native, but we can make it be cloud-native, we can make it run in Kubernetes... And then what is the COBOL that -- you know, that's gonna be an interesting challenge to migrate. So having a view of all of this by just running a couple queries is really powerful. The other option is literally running -- I'm gonna be very hopeful and say that you could run a really huge Bash script calling Git very often, and maybe you will get something similar... But it would take hours instead of seconds.
 
 **Adam Stacoviak:** Yeah. I think the thing I'm trying to drive out here is that clearly you can pull back a lot of intelligence if you know what you're looking for. It seems like maybe some consulting is involved there, or at least the right kind of teams in place to know how to ask those questions of bigger data analysis for your data analyst, for example...
 
@@ -164,7 +164,7 @@ The idea of being able to tell them, "Well, actually all of this source code - l
 
 **Adam Stacoviak:** Even a better interface...
 
-**Francesc Campoy:** ...instead of doing "Find function names", it's gonna be "fun.\* " and then something that starts with the letter, whatever... That's a pain to write. And also, what if now you don't have a Go function, but you have a Go method; actually, that will not work anymore, right? So what we're doing is instead allowing you to extract the tokens that you care about. We work with this concept that we call "universal abstract syntax trees", and the whole idea is that it's an abstract syntax tree so the result of parsing a program, but it allows you to extract things by using annotations, and those annotations are universal, right? Say, a function -- a function is a function, no matter what programming language you have, right? An identifier, same thing; strings, same thing. So if you want to extract the function names, what you need to do is basically use the UAST function, you pass the content, you pass what language you want to use, and then you just pass something that, it's an \[unintelligible 00:25:35.00\] thing that basically says the function names.
+**Francesc Campoy:** ...instead of doing "Find function names", it's gonna be "func.\* " and then something that starts with the letter, whatever... That's a pain to write. And also, what if now you don't have a Go function, but you have a Go method; actually, that will not work anymore, right? So what we're doing is instead allowing you to extract the tokens that you care about. We work with this concept that we call "universal abstract syntax trees", and the whole idea is that it's an abstract syntax tree, so the result of parsing a program, but it allows you to extract things by using annotations, and those annotations are universal, right? Say, a function -- a function is a function, no matter what programming language you have, right? An identifier, same thing; strings, same thing. So if you want to extract the function names, what you need to do is basically use the UAST function, you pass the content, you pass what language you want to use, and then you just pass something that -- it's an Xpath thing that basically says the function names.
 
 **Adam Stacoviak:** Right.
 
@@ -186,7 +186,7 @@ The idea of being able to tell them, "Well, actually all of this source code - l
 
 **Adam Stacoviak:** The process to install it seems so simple... It's like, "It's probably a simple Homebrew recipe as well..."
 
-**Francesc Campoy:** Yeah... I need to work on that, but you know, it's been a busy week... \[laughs
+**Francesc Campoy:** Yeah... I need to work on that, but you know, it's been a busy week... \[laughs\]
 
 **Adam Stacoviak:** Well, just going on any macOS, install, I'm always expecting a Homebrew process, or something specific to the way a language installs certain things.
 
@@ -220,7 +220,7 @@ So now the cool thing is that you can start by doing things like, you know, coun
 
 **Francesc Campoy:** It is hard to answer, because we are somewhere in between many different fields. There's some companies that do software metrics, but the thing is that the software metrics they provide are the software metrics they provide; that's it.
 
-**Adam Stacoviak:** \[unintelligible 00:33:45.01\]
+**Adam Stacoviak:** Not the tool...
 
 **Francesc Campoy:** Yeah.
 
@@ -254,13 +254,13 @@ So now the cool thing is that you can start by doing things like, you know, coun
 
 For many people - the people that really care about deep analysis of large codebases - they tend to also not want to share their source code. So for that it doesn't make that much sense to have a SaaS for the engine.
 
-**Adam Stacoviak:** It makes sense. So if folks sign up for the beta what can they expect? That's what I was trying to do - tee up the fact that it's sort of an early release; maybe you're even looking for feedback.
+**Adam Stacoviak:** It makes sense. So if folks sign up for the beta, what can they expect? -- sorry, alpha. That's what I was trying to do - tee up the fact that it's sort of an early release; maybe you're even looking for feedback.
 
 **Francesc Campoy:** Yeah. So that's the whole point - we are trying to get people to use the product, file issues, let us know what they think... File issues for things that do not work, but also for things that they would like to do. This is a pretty young project; we released it two months ago, something like that, so it's pretty early on... The idea is that we're gonna be working with really large companies to try to make it as good as possible, but at the same time we also want to have the input from the community, because they have different needs.
 
 We don't want to end up having something that targets only large companies, but is pretty useless for developers. We want to build something that everyone can get something from. Large companies, they're gonna have some specific analyses and some specific things - that's what our enterprise edition will have... But also, our free edition will always be free. We want people to make sure that that becomes as good as possible, and also, if you feel like it, contribute. It's written in Go, it's a really cool project; we use a lot of open source, we use Pilosa, which is for making indexes on SQL, we use Vitess, which is a Google thing that YouTube created between their Python code and MySQL... We grabbed all of the SQL parsing, and stuff like that from there.
 
-We use regular expressions from -- I forgot the name of the library... Yeah, I totally forgot the name of the library, but it's also open source... So we are open source, we use everything in open source, and for now we're analyzing also open source. Open source everywhere.
+We use regular expressions from -- I forgot the name of the library... Yeah, I totally forgot the name of the library, but it's also open source... So we are open source, we use everything in open source, and for now we're analyzing also open source. So you know, open source everywhere.
 
 **Adam Stacoviak:** I was just thinking about that now - any future plans for... Any sort of list you've got running right now for future blog posts of different analyses on different source codes? Or have you got any requests? Would you like requests?
 

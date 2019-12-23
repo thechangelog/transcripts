@@ -16,7 +16,7 @@
 
 **Jason Keene:** Yeah, so I joined Pivotal about two years ago now, and I work explicitly on Cloud Foundry. Cloud Foundry, for people who don't know, is an enterprise platform as a service, similar in style to Heroku, but it's on-prem. You can also run it in the cloud, in Google, or AWS, or whatever. So yeah, that's kind of like what Cloud Foundry is all about.
 
-**Andrew Poydence:** I joined over three years ago, and started on [Loggregator](https://github.com/cloudfoundry/loggregator), which is the log system for Cloud Foundry, where if you have an application running in Cloud Foundry, your `stdout` and `stderr` could be gathered and shipped off to you, as the developer. That's then morphed into \[unintelligible 00:02:22.24\] like a dev ops perception, to where all the different VM's and stuff are shipping their logs as well, and starting to ship metrics as well, so that you can have operators maintain this \[unintelligible 00:02:34.19\] deployment involves hundreds and hundreds of VM's.
+**Andrew Poydence:** I joined over three years ago, and started on [Loggregator](https://github.com/cloudfoundry/loggregator), which is the log system for Cloud Foundry, where if you have an application running in Cloud Foundry, your `stdout` and `stderr` could be gathered and shipped off to you, as the developer. That's then morphed into also like a dev ops perception, to where all the different VM's and stuff are shipping their logs as well, and starting to ship metrics as well, so that you can have operators maintain this \[unintelligible 00:02:34.19\] deployment involves hundreds and hundreds of VM's.
 
 **Erik St. Martin:** And just for like a separation of voices, that was Jason who spoke first, and Andrew second, right?
 
@@ -50,7 +50,7 @@ With Go, since a lot of these things aren't written in frameworks, you can simpl
 
 **Carlisia Pinto:** That is something we take for granted, isn't it? We don't usually use a framework and we don't have that extra thing to learn... Even though, for example, people who come from the Ruby on Rails background -- when people learned Ruby, they learned Ruby via learning Rails. The exposure to Rails was what exposed them to Ruby. But if you go a bit further back and you worked with Java (or even PHP has different frameworks), you really have a bunch of options and who knows what project is going to use what, and we don't have to go through that.
 
-**Andrew Poydence:** It lends itself to, I think, enabling people to quickly help without all this extra \[unintelligible 00:07:56.16\] and we're not switching between frameworks all the time, much like maybe on a Javascript project.
+**Andrew Poydence:** It lends itself to, I think, enabling people to quickly help without all this extra \[unintelligible 00:07:56.16\] and we're not switching between frameworks all the time, much like maybe on a JavaScript project.
 
 **Jason Keene:** \[00:08:02.00\] Also, the standard library is very high quality and it's almost intuitive. Once you learn one standard library package, the conventions, the intuition you develop from learning that package translates into most of the other packages in the standard library, so that also helps with getting people up to speed.
 
@@ -83,7 +83,7 @@ So as these larger deployments have come out, we wanted to be able to handle all
 
 **Erik St. Martin:** That's actually a really interesting thing... So what are some areas that you ran into, like you kind of alluded to, where you had to invent some things to solve for problems that you didn't experience without having that additional scale? I'd be really interested to hear about some of those things that you ran into and the things that you had to create to work around those issues?
 
-**Jason Keene:** So the big\[unintelligible 00:14:31.28\] we ran into first was Loggregator has an agreement with app developers that when you log a `stdout', it won't be slow; in fact, it won't push back at all, it should be free. So Loggregator has the task of ensuring that while we do our best to push messages through this distributed network system, we will not push back on the application. So we use channels, obviously, for distributed data; Go has those and they're great. But what we've noticed was as you write to a channel and that channel can't receive any data because there's downstream latency, we want to not drop the new messages, we'd rather drop the old messages. So now you have some kind of complicated thing, instead of just your normal writing to a channel with a select and a default, because those would drop the new messages... So we ended up making something called a [diode](https://github.com/cloudfoundry/go-diodes), which essentially was a ring buffer that operated purely on atomics, and would therefore prioritize new messages over old ones. This enabled us to have buffer data, allow for network latency and recover from that, while ensuring we didn't push back on producers, and still trying to get the most amount of logs we possibly could to our consumers.
+**Jason Keene:** So the big one we ran into first was Loggregator has an agreement with app developers that when you log a `stdout', it won't be slow; in fact, it won't push back at all, it should be free. So Loggregator has the task of ensuring that while we do our best to push messages through this distributed network system, we will not push back on the application. So we use channels, obviously, for distributed data; Go has those and they're great. But what we've noticed was as you write to a channel and that channel can't receive any data because there's downstream latency, we want to not drop the new messages, we'd rather drop the old messages. So now you have some kind of complicated thing, instead of just your normal writing to a channel with a select and a default, because those would drop the new messages... So we ended up making something called a [diode](https://github.com/cloudfoundry/go-diodes), which essentially was a ring buffer that operated purely on atomics, and would therefore prioritize new messages over old ones. This enabled us to have buffer data, allow for network latency and recover from that, while ensuring we didn't push back on producers, and still trying to get the most amount of logs we possibly could to our consumers.
 
 \[00:15:59.10\] So we went and ripped out a lot of channels that we previously had before, to enable less buffering, fewer goroutines per connection, and a little less latent in the end.
 
@@ -165,7 +165,7 @@ Pivotal's main focus is to enable developers to do interesting things, so Cloud 
 
 **Jason Keene:** Yeah, and the wrappers for something like diodes are easy to generate, just kind of boilerplate code. \[unintelligible 00:27:38.13\] Like Andrew said, we kind of worked around it. I'm happy with the pattern that we've adopted to make our stuff generally usable, but it doesn't mean that you have to use things like interface{} (empty interface) and unsafe pointer... But we kind of contain them in a small box, so that it doesn't bleed out into the rest of your program.
 
-**Andrew Poydence:** \[00:28:03.27\] And I think that's been really key for us, again, on this massively distributed team. I think if you let your unsafe pointers or interface{} leak too far, again, if someone were to just drop in the middle of your codebase and try to help, they wouldn't have the compiler helping them there, like "What is this interface{} ? What does \[unintelligible 00:28:22.27\] How am I supposed to know?"
+**Andrew Poydence:** \[00:28:03.27\] And I think that's been really key for us, again, on this massively distributed team. I think if you let your unsafe pointers or interface{} leak too far, again, if someone were to just drop in the middle of your codebase and try to help, they wouldn't have the compiler helping them there, like "What is this interface{} ? What is it supposed to represent? How am I supposed to know?"
 
 **Jason Keene:** The casting of unsafe pointers is not always intuitive. We've had situations in the past where sometimes putting an extra * - the compiler doesn't tell you "Hey, this is referencing something you shouldn't dereference...", so yeah...
 
@@ -266,7 +266,7 @@ I think that's about it. There were some other reasons why we kind of adopted it
 
 **Brian Ketelsen:** Fight me! Run fast, before I break things! Then that would be the title of our show.
 
-**Jason Keene:** Yeah, it's amazing that there's still kind of two camps... Like, even with DevOps being a thing, there's still people who kind of fall within two camps. The question that I always ask people is if you had a production system that has, say, a memory leak, and restarting the process will fix the problem, but you will lose all forensic evidence in order to debug the issue, what do you do? Do you restart the process and resolve the issue, or do you poke around and get heap dumps and stuff like that...? And usually, you'll fall within one of the two camps; either you'll be like "No, we need to debug this" or "No, we need to restart it and \[unintelligible 00:39:00.26\]
+**Jason Keene:** Yeah, it's amazing that there's still kind of two camps... Like, even with DevOps being a thing, there's still people who kind of fall within two camps. The question that I always ask people is if you had a production system that has, say, a memory leak, and restarting the process will fix the problem, but you will lose all forensic evidence in order to debug the issue, what do you do? Do you restart the process and resolve the issue, or do you poke around and get heap dumps and stuff like that...? And usually, you'll fall within one of the two camps; either you'll be like "No, we need to debug this" or "No, we need to restart it and bring uptime back up.
 
 **Erik St. Martin:** Well, I think you left out what impact it's having on the customer, too...
 
@@ -478,7 +478,7 @@ He's going to be -- well, I think he is already, or soon to be the VP of develop
 
 **Carlisia Pinto:** It's not a paid service, right? You get the code and run on your servers.
 
-**Andrew Poydence:** Yeah, exactly. You can bring it behind \[unintelligible 00:57:24.10\] or run it wherever.
+**Andrew Poydence:** Yeah, exactly. You can bring it behind to an air gapped datacenter if you need to or run it wherever.
 
 **Jason Keene:** Yeah, its kind of sweet spot is doing pipelines. It visualizes the pipeline really well and allows you to chain different jobs and tasks into different other jobs and tasks. Whatever your build artifacts - Docker images, or whatever it may be on the other end of your pipeline, you can automate all that using Concourse. It's really nice.
 
@@ -516,7 +516,7 @@ It's a pretty nice tool to be able to have high-performance monitoring of either
 
 **Carlisia Pinto:** Yes.
 
-**Erik St. Martin:** Yeah, I believe \[unintelligible 01:01:07.14\]
+**Erik St. Martin:** Yeah, I believe I believe it has been
 
 **Brian Ketelsen:** I wanna say we tried it once and it was a massive fail.
 

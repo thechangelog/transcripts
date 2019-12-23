@@ -408,11 +408,11 @@ So yeah, I'm interested to see how it comes along and how long that takes.
 
 **Brian Ketelsen:** It's true. If you think about the things that are really shaking up our industry right now, there's a shortlist, and on them are containers; the entire container industry is driven by Go, whether it's Docker or Kubernetes - all of those pieces are written in Go. A plethora of tools that are coming out now for us are powered by Go or written in Go; Go on the backend, somewhere. So it's really neat to see that really start to come true.
 
-**Scott Mansfield:** I find this interesting, that it directly contradicts Atwood's Law, which is "Any application that can be written in Javascript will eventually be written in Javascript." \[laughter\]
+**Scott Mansfield:** I find this interesting, that it directly contradicts Atwood's Law, which is "Any application that can be written in JavaScript will eventually be written in JavaScript." \[laughter\]
 
-**Brian Ketelsen:** I think that's actually also true, because I'm pretty sure there's already a Javascript container engine.
+**Brian Ketelsen:** I think that's actually also true, because I'm pretty sure there's already a JavaScript container engine.
 
-**Erik St. Martin:** \[00:47:51.29\] Right. I was gonna say, when we get off this call I'm gonna have to Google 'containers in Javascript'. If it's not written in Javascript, there is probably at least bindings.
+**Erik St. Martin:** \[00:47:51.29\] Right. I was gonna say, when we get off this call I'm gonna have to Google 'containers in JavaScript'. If it's not written in JavaScript, there is probably at least bindings.
 
 **Brian Ketelsen:** Yeah, I'm sure there is. I realize it's a bold statement, but I think it's less hyperbole than it sounds. There's a lot of really interesting stuff happening in Go, and a lot of the great things happening in computing right now have Go in the middle of them somewhere.
 

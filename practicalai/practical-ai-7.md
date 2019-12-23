@@ -320,9 +320,9 @@ You mentioned TensorFlow, Jared... What is the state of interaction between R an
 
 **Daniel Whitenack:** They're already onto better things...
 
-**Jared Lander:** Not necessarily better things, but different fun things. We're all super-excited about using R Markdown to automate slideshows and reports, or HTML widgets to have interactive Javascript embedded in your R report... Or different types of graphics, or data manipulation, or network analysis - all this other fun stuff... Like, "Yeah, we've been doing machine learning forever, and look at all this other cool, fun stuff!"
+**Jared Lander:** Not necessarily better things, but different fun things. We're all super-excited about using R Markdown to automate slideshows and reports, or HTML widgets to have interactive JavaScript embedded in your R report... Or different types of graphics, or data manipulation, or network analysis - all this other fun stuff... Like, "Yeah, we've been doing machine learning forever, and look at all this other cool, fun stuff!"
 
-**Daniel Whitenack:** Yeah, and I guess at this point you have awesome support for things like TensorFlow, like you already said... Those sorts of interactions with Javascript widgets or whatever it might be are really -- I think they're really interesting.
+**Daniel Whitenack:** Yeah, and I guess at this point you have awesome support for things like TensorFlow, like you already said... Those sorts of interactions with JavaScript widgets or whatever it might be are really -- I think they're really interesting.
 
 **Jared Lander:** And they're really cool and fun stuff, because let's be honest, the vast majority of time a data scientist spends is not doing all the really cool modeling that we all wanna do, it's doing the data prep, the manipulation, reporting, graphing... That's 80%-90% of the job now. Now this becomes so easy to do the modeling, to do the true AI part, that everything else takes up so much time.
 
@@ -336,11 +336,11 @@ You mentioned TensorFlow, Jared... What is the state of interaction between R an
 
 **Chris Benson:** I'll tell you what, I know! I don't know whether to praise you, Daniel, or just to say "Wow, that's a little bit crazy!" Or both.
 
-**Daniel Whitenack:** Yeah, well, pair me with one of you guys and I'll do the data cleaning, and you can add an awesome Javascript widget powered by TensorFlow, or something... \[laughter\]
+**Daniel Whitenack:** Yeah, well, pair me with one of you guys and I'll do the data cleaning, and you can add an awesome JavaScript widget powered by TensorFlow, or something... \[laughter\]
 
-**Jared Lander:** It's funny you make that joke, but there's now Javascript bindings for TensorFlow.
+**Jared Lander:** It's funny you make that joke, but there's now JavaScript bindings for TensorFlow.
 
-**Daniel Whitenack:** Yeah, that's a really interesting topic, and I think that there's some very subtle, but really important implications of things like that... That's around privacy and other stuff like that. If you're actually embedding a model in Javascript and running it on someone's device, in their browser or wherever it might be, and maybe even updating a model in the browser, then data never has to leave that person's device. I think that's a really important and interesting implication of stuff like that.
+**Daniel Whitenack:** Yeah, that's a really interesting topic, and I think that there's some very subtle, but really important implications of things like that... That's around privacy and other stuff like that. If you're actually embedding a model in JavaScript and running it on someone's device, in their browser or wherever it might be, and maybe even updating a model in the browser, then data never has to leave that person's device. I think that's a really important and interesting implication of stuff like that.
 
 **Chris Benson:** I sense a show coming up on that topic.
 

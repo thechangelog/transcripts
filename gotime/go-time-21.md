@@ -200,17 +200,17 @@ It's JSON-to-Go... We'll put a link on the show notes. Basically, you drop some 
 
 **Erik St. Martin:** No is not an acceptable answer.
 
-**Brian Ketelsen:** \[laughs\] I've got another one... I think it's Bjørn Erik Pedersen that released React in Go today, his Go React library for GopherJS. I played with it way back in December of last year, when it was really brand new, and it wasn't quite ready for primetime yet, and he's still kind of couching, saying that it is still not production-ready. But the fact that he released it to the public means it might be. If you're not familiar with GopherJS, it's a Go transpiler that emits Javascript, lets you use Go on the frontend. The Go React is a GopherJS wrapper around React, so you can write react apps without writing any Javascript. That, my friends, is a win.
+**Brian Ketelsen:** \[laughs\] I've got another one... I think it's Bjørn Erik Pedersen that released React in Go today, his Go React library for GopherJS. I played with it way back in December of last year, when it was really brand new, and it wasn't quite ready for primetime yet, and he's still kind of couching, saying that it is still not production-ready. But the fact that he released it to the public means it might be. If you're not familiar with GopherJS, it's a Go transpiler that emits JavaScript, lets you use Go on the frontend. The Go React is a GopherJS wrapper around React, so you can write react apps without writing any JavaScript. That, my friends, is a win.
 
 **Erik St. Martin:** That's really interesting, because that typically is the way I'm doing web apps these days, kind of thick client with React and Go on the API side. So it would be interesting to see writing the React in Go. But I'm not always a big fan of that, because even in the Ruby world - and Carlisia and Brian, you guys probably both remember this... Remember RJS?
 
 **Brian Ketelsen:** Mm-hm.
 
-**Erik St. Martin:** I don't know whether it's still there, but it was pre three... There was something called RJS, where basically you wrote your Javascript functionality calling into your app in your templates using Ruby, and it generated Javascript on the outside. I was just never really a big fan of that.
+**Erik St. Martin:** I don't know whether it's still there, but it was pre three... There was something called RJS, where basically you wrote your JavaScript functionality calling into your app in your templates using Ruby, and it generated JavaScript on the outside. I was just never really a big fan of that.
 
 So it's kind of like doing the same thing and you wonder how much you wanna cross into the other side, but I'd be interested to see what the API for it looks like, because it may...
 
-**Brian Ketelsen:** It looks very Go-ish, and it's really not bad. The fundamental problem I have with it is that you have to understand React before you can use Go React, and in order to understand React you've got to learn from all of the tutorials and places out there that are using the Javascript version, or the JSX version, or whatever those are called. So there's a mental disconnect when you're reading these tutorials on how you're going to implement that on the Go side of things, and that makes it a little bit harder. If you know React really well already, then it's probably not a big deal. But learning to use a transpiler like that gets complicated.
+**Brian Ketelsen:** It looks very Go-ish, and it's really not bad. The fundamental problem I have with it is that you have to understand React before you can use Go React, and in order to understand React you've got to learn from all of the tutorials and places out there that are using the JavaScript version, or the JSX version, or whatever those are called. So there's a mental disconnect when you're reading these tutorials on how you're going to implement that on the Go side of things, and that makes it a little bit harder. If you know React really well already, then it's probably not a big deal. But learning to use a transpiler like that gets complicated.
 
 **Erik St. Martin:** \[00:32:10.02\] I think that falls into the leaky abstraction category, where you're trying to abstract some concept but you still have to have some deep understanding of the thing you're abstracting.
 
@@ -300,9 +300,9 @@ It was actually a really cool idea. It wouldn't be bad to try that in the Go wor
 
 I think it uses Otto, which is a...
 
-**Brian Ketelsen:** ...Javascript interpreter?
+**Brian Ketelsen:** ...JavaScript interpreter?
 
-**Erik St. Martin:** Yeah, and you can bridge between Javascript and Go, and I think that's how they're using it for queries under the hood. In my defense, I have not dug in too deep, but I knew that it does have Redis compatibility too, so I think that's really cool. And it's all in memory.
+**Erik St. Martin:** Yeah, and you can bridge between JavaScript and Go, and I think that's how they're using it for queries under the hood. In my defense, I have not dug in too deep, but I knew that it does have Redis compatibility too, so I think that's really cool. And it's all in memory.
 
 **Brian Ketelsen:** Yeah, that's pretty slick, and they claim ACID compliance, which is interesting. I wonder how fast it is, if it's got Raft and ACID at the same time. Those two together sound kind of mutually exclusive. Fast + Raft? You have to have consensus between machines, but you're getting consistency and an ACID database... There's gotta be a tradeoff there. Maybe the tradeoff is no disk writes.
 

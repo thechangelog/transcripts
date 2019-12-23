@@ -1,4 +1,4 @@
-**Mikeal Rogers:** Hey, welcome to JS Party, where it's a party every week with Javascript! Joining me is Rachel White, say hello...
+**Mikeal Rogers:** Hey, welcome to JS Party, where it's a party every week with JavaScript! Joining me is Rachel White, say hello...
 
 **Rachel White:** Hello.
 
@@ -28,19 +28,19 @@ I'm okay with the speed; obviously, that makes a lot more sense, but please, som
 
 **Rachel White:** It's okay, you go ahead first.
 
-**Mikeal Rogers:** It's a merge conflict. So you mentioned that it makes things faster - what is making it faster? There's a new format, which is HTML and Javascript, so it's somewhat different than the web...
+**Mikeal Rogers:** It's a merge conflict. So you mentioned that it makes things faster - what is making it faster? There's a new format, which is HTML and JavaScript, so it's somewhat different than the web...
 
 **Alex Sexton:** Was that a joke?
 
 **Mikeal Rogers:** No, no... Go ahead.
 
-**Alex Sexton:** Sorry, I guess I don't understand what you're saying then. It's still all valid HTML/Javascript. You add a lightning bolt to your HTML element (it's a fun little UNICODE trick) and then you write regular CSS and Javascript, but you do things like use custom elements for your images; that way, your images aren't pipelined to load immediately, if that makes sense. So you use an AMP img instead of an img, and then they can decide, "Let's put in the above-the-fold images and not the below-the-fold images." And then you agree to not have external CSS and only have 50 kilobytes of in-lined CSS. So it completely reduces the amount of CSS you can use, but it's still just regular CSS and you can do whatever you want in that 50 kilobytes.
+**Alex Sexton:** Sorry, I guess I don't understand what you're saying then. It's still all valid HTML/JavaScript. You add a lightning bolt to your HTML element (it's a fun little UNICODE trick) and then you write regular CSS and JavaScript, but you do things like use custom elements for your images; that way, your images aren't pipelined to load immediately, if that makes sense. So you use an AMP img instead of an img, and then they can decide, "Let's put in the above-the-fold images and not the below-the-fold images." And then you agree to not have external CSS and only have 50 kilobytes of in-lined CSS. So it completely reduces the amount of CSS you can use, but it's still just regular CSS and you can do whatever you want in that 50 kilobytes.
 
-So there's a bunch of rules, and they have a Javascript you can inject on your page that will validate all these rules, that will say "Hey, you're not following this rule; you may not be pipelined into the superfast AMP experience."
+So there's a bunch of rules, and they have a JavaScript you can inject on your page that will validate all these rules, that will say "Hey, you're not following this rule; you may not be pipelined into the superfast AMP experience."
 
 The other part is if you use Chrome, Chrome can do extra things to pre-fetch, and stuff. I don't know to the extent of which that happens, but they absolutely could do that, based on their rule set.
 
-They're pretty much like asm.js that we talked about last week. Asm.js is a completely valid subset of Javascript, but once you only restrict yourself to that subset, you can make certain speed improvements happen. The same thing is true of AMP. And I think the arguments are more or less the exact same for and against them. It's like, this seems fundamentally weird that we had to do this thing; it's just weird that in the past Firefox was the one who was like, "Hey, add this comment to your Javascript and it will put it into asm mode and it will speed up", and Google was like, "No, we can just make things fast all the time." Now, in this case, Google's like "Add this comment or this property that's attributed to your HTML and we can make things fast", and Firefox is like "No, we can just always do that." So I find them very related.
+They're pretty much like asm.js that we talked about last week. Asm.js is a completely valid subset of JavaScript, but once you only restrict yourself to that subset, you can make certain speed improvements happen. The same thing is true of AMP. And I think the arguments are more or less the exact same for and against them. It's like, this seems fundamentally weird that we had to do this thing; it's just weird that in the past Firefox was the one who was like, "Hey, add this comment to your JavaScript and it will put it into asm mode and it will speed up", and Google was like, "No, we can just make things fast all the time." Now, in this case, Google's like "Add this comment or this property that's attributed to your HTML and we can make things fast", and Firefox is like "No, we can just always do that." So I find them very related.
 
 **Mikeal Rogers:** So what's making it fast? That Google caching it and Chrome creating it differently?
 
@@ -140,17 +140,17 @@ So I think it should be a fundamental goal of the AMP project to enforce somehow
 
 **Break:** \[00:22:19.24\]
 
-**Mikeal Rogers:** Alright, now we're gonna talk a little bit about Javascript fatigue. I'm certainly fatigued... I even forgot that the topic was gonna be JS fatigue. There's been an amazing amount of tweets and articles about this, and it's already reaching the point where people are just referencing JS fatigue and assuming that everybody knows what they're talking about, so I feel like it's probably gonna be really good to come back around and into this a little bit.
+**Mikeal Rogers:** Alright, now we're gonna talk a little bit about JavaScript fatigue. I'm certainly fatigued... I even forgot that the topic was gonna be JS fatigue. There's been an amazing amount of tweets and articles about this, and it's already reaching the point where people are just referencing JS fatigue and assuming that everybody knows what they're talking about, so I feel like it's probably gonna be really good to come back around and into this a little bit.
 
 **Alex Sexton:** We already have JS-fatigue fatigue.
 
 **Mikeal Rogers:** Yeah, exactly. Rachel, why don't you tell us a little bit about what you think this means? What have you seen out there in the New York community about this? Because I know a whole lot of these articles have actually been written by the New York crew.
 
-**Rachel White:** Alright! Well, let me tell you... I think the Javascript fatigue is like the burden of choice of "I have so many things to use. What should I use? What can I use?"
+**Rachel White:** Alright! Well, let me tell you... I think the JavaScript fatigue is like the burden of choice of "I have so many things to use. What should I use? What can I use?"
 
 \[00:24:04.09\] Now I'm reading this thing and it's right down all of the framework, build tools, libraries you can think of for 30 seconds straight and stop. You could keep on writing the whole entire 30 seconds.
 
-There's so many different Javascript libraries that all achieve the same end goal but in various ways, depending on what you need for it. There's multiple bundlers, there's multiple things that handle your routing in Node, there's multiple ways to do Javascript animations, there's multiple MVCs, there's multiple package manager options... There's so many different things, and I think that aside from there being so many different Javascript libraries for people to choose from, I think that the fatigue is not only not being able to choose, but also having the feeling of not being able to keep up with how fast these things are coming out.
+There's so many different JavaScript libraries that all achieve the same end goal but in various ways, depending on what you need for it. There's multiple bundlers, there's multiple things that handle your routing in Node, there's multiple ways to do JavaScript animations, there's multiple MVCs, there's multiple package manager options... There's so many different things, and I think that aside from there being so many different JavaScript libraries for people to choose from, I think that the fatigue is not only not being able to choose, but also having the feeling of not being able to keep up with how fast these things are coming out.
 
 **Alex Sexton:** It's almost a social thing. It's like "I don't wanna be the person using the old, broken thing... What's cool to use?"
 
@@ -158,9 +158,9 @@ There's so many different Javascript libraries that all achieve the same end goa
 
 **Alex Sexton:** I know it's not entirely that, but there's a part of that that's there.
 
-**Rachel White:** Yeah, I mean... Whenever something comes out, people always jump on trying to learn it as fast as possible, so that they don't have that FOMO of not knowing about what's hot in the Javascript library. The worst part of it is you're gonna get as many different responses for "What should I use to achieve this goal?" as you'll get from asking somebody "Where should I go eat tacos in Austin?" You're just gonna get so many different answers, and it's hard to pinpoint what to choose.
+**Rachel White:** Yeah, I mean... Whenever something comes out, people always jump on trying to learn it as fast as possible, so that they don't have that FOMO of not knowing about what's hot in the JavaScript library. The worst part of it is you're gonna get as many different responses for "What should I use to achieve this goal?" as you'll get from asking somebody "Where should I go eat tacos in Austin?" You're just gonna get so many different answers, and it's hard to pinpoint what to choose.
 
-**Alex Sexton:** To that example, as an austinite, you'll get a ton of different answers, but in general, I feel like a) good problem to have, and b) you're probably gonna have good tacos regardless of what you choose. I hate -- this is a very rare moment in my mind where I think... Mikeal probably has some good opinions about this, but I think, Mikeal, you've done more research around the NPM ecosystem than most people, and you like to hype just raw numbers sometimes... But I feel like also your experience in the Python community prior to Node and Javascript - why is Javascript different in this regard? Why does Javascript have such -- and maybe every community thinks that they're the community that has the paralysis of choice with fatigue, but I don't believe that's true.
+**Alex Sexton:** To that example, as an austinite, you'll get a ton of different answers, but in general, I feel like a) good problem to have, and b) you're probably gonna have good tacos regardless of what you choose. I hate -- this is a very rare moment in my mind where I think... Mikeal probably has some good opinions about this, but I think, Mikeal, you've done more research around the NPM ecosystem than most people, and you like to hype just raw numbers sometimes... But I feel like also your experience in the Python community prior to Node and JavaScript - why is JavaScript different in this regard? Why does JavaScript have such -- and maybe every community thinks that they're the community that has the paralysis of choice with fatigue, but I don't believe that's true.
 
 **Mikeal Rogers:** No... It is pretty unique, yeah.
 
@@ -168,7 +168,7 @@ There's so many different Javascript libraries that all achieve the same end goa
 
 **Mikeal Rogers:** \[laughs\] Okay, so a couple notable things. One is that we used to just call this 'framework fatigue' before NPM took off, and this problem actually predates even the NPM ecosystem. Obviously, you could think of it as being a little bit accelerated into the NPM ecosystem, but we've always had this issue where there is a new framework every year for people to build their web applications in, and everybody wants you to learn it.
 
-**Alex Sexton:** There were the framework wars before Javascript fatigue, and the framework wars were like five frameworks, not 500 frameworks.
+**Alex Sexton:** There were the framework wars before JavaScript fatigue, and the framework wars were like five frameworks, not 500 frameworks.
 
 **Mikeal Rogers:** Well, no... It was five frameworks until jQuery won, and then people argued about what framework on top of jQuery to use jQuery that you were gonna build onto... And it's all the same thing, which is that...
 
@@ -176,7 +176,7 @@ There's so many different Javascript libraries that all achieve the same end goa
 
 **Mikeal Rogers:** \[00:28:05.08\] Yes... So it has exploded, but here's the thing... One of the reasons why you get this more in this space than in the cloud space, or enterprise, is because people build more new web applications than they maintain web applications. People build new stuff all the time, and so when you have new things to build, you just have the opportunity to take a new tool.
 
-**Alex Sexton:** But isn't Python primarily -- like, what about... People build websites with Python constantly too, but I guess it's because Javascript is the common language among every Python, PHP, Ruby or whatever website, that it's multiplied times all the other languages?
+**Alex Sexton:** But isn't Python primarily -- like, what about... People build websites with Python constantly too, but I guess it's because JavaScript is the common language among every Python, PHP, Ruby or whatever website, that it's multiplied times all the other languages?
 
 **Mikeal Rogers:** I mean, I know people that have Python backends, and they've swapped out -- they built three completely different web apps on top of the same backend... So they actually haven't swapped out the backend, and it would cost them a lot to swap it out, and they'd have to write a lot of new code again... Whereas when you're building a new UI, you have to build a new UI; you can't take a bunch of your old code and just reuse it again.
 
@@ -214,7 +214,7 @@ A lot of the problems that those frameworks solve, like redefining how the event
 
 So I think frameworks actually help to prevent the fatigue that a lot of people feel by making a lot of choices, by default.
 
-**Rachel White:** \[00:36:12.17\] So if the problem doesn't lie with the frameworks, and ideally the groups of people that are working on these frameworks are making the best decisions for modules to implement into those libraries, could the Javascript fatigue then just extend to the module makers that are making so many different versions of the same thing, I guess...?
+**Rachel White:** \[00:36:12.17\] So if the problem doesn't lie with the frameworks, and ideally the groups of people that are working on these frameworks are making the best decisions for modules to implement into those libraries, could the JavaScript fatigue then just extend to the module makers that are making so many different versions of the same thing, I guess...?
 
 **Mikeal Rogers:** I used to hope for a better outcome for this kind of stuff. When I started to see all these frameworks be built out of more small components, I thought that we would have a lot more longevity and a lot more sanity around them, but what we've actually seen is weird consolidation and plugin patterns, and a lot of the underlying tools turning into their own frameworks.
 
@@ -228,7 +228,7 @@ So I think frameworks actually help to prevent the fatigue that a lot of people 
 
 **Alex Sexton:** Democratized in the authorship of those... But yeah, so to kind of jump back to the other question, since I think we could talk about small modules versus large modules (and I'm sure we will again), is the pain that JS fatigue causes - does it pay off? Theoretically, if we can go through more iterations of ideas on how to solve the fundamental problems of the web and applications development, then we can have better applications faster. So the tradeoff would be if we spend all of our time learning the new things, then we don't actually gain any speed, but my feeling is that free markets - I hate saying that - kind of dictate that people have a desire to learn new things; they have problems with their old tools, and it's kind of nifty that in our community somewhat seemingly uniquely new solutions come out so quickly and are so easy to put out that we can solve some of our fundamental problems much more quickly that the Python 2 to Python 3 transition -- or like a Rails upgrade in other ecosystems.
 
-So I feel like maybe the web and Javascript tooling can move forward more quickly because of this, and is it worth the tradeoff in that thing...?
+So I feel like maybe the web and JavaScript tooling can move forward more quickly because of this, and is it worth the tradeoff in that thing...?
 
 **Rachel White:** I agree with that, plus if there's so many options and people are trying them out, the ones that don't work aren't going to get widely adopted anyway, hopefully...
 

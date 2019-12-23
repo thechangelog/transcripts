@@ -1,16 +1,16 @@
-**Suz Hinton:** Good day! You're listening to JS Party. This is another episode where we consider Javascript to be a party. Thank you so much for joining us. We actually have some really exciting stuff to talk about this particular episode. We have our regular panelist - Nick, it's great to see you!
+**Suz Hinton:** Good day! You're listening to JS Party. This is another episode where we consider JavaScript to be a party. Thank you so much for joining us. We actually have some really exciting stuff to talk about this particular episode. We have our regular panelist - Nick, it's great to see you!
 
 **Nick Nisi:** Yeah, good seeing you, too!
 
 **Suz Hinton:** And we have a very special guest joining us today to talk about a very exciting topic, machine learning. I am very excited to welcome Paige Bailey.
 
-**Paige Bailey:** Hey, friends! Hello! Delighted to be here and to talk to you all about Javascript and about TensorFlow.js.
+**Paige Bailey:** Hey, friends! Hello! Delighted to be here and to talk to you all about JavaScript and about TensorFlow.js.
 
 **Suz Hinton:** Paige, you currently work at Google, and you're a senior technical advocate for TensorFlow, is that right?
 
 **Paige Bailey:** Yeah, I am on the dev rel team for TensorFlow, which is embedded within our research and machine intelligence org. Google has a whole bunch of developer advocates, you probably follow a lot of them on Twitter, or whatever your favorite flavor of social media is... But our org is a little bit different, in that it's embedded outside of cloud, and right with the TensorFlow team. So it's kind of rad that if something is broke, I can literally look over my desk and yell at somebody to fix it... So it's kind of awesome.
 
-**Suz Hinton:** That sounds very cool. So we're gonna back up a little bit, because I know that in the Javascript community some of us will have heard of just the term TensorFlow, or the actual tool, but not everybody knows what it is, so...
+**Suz Hinton:** That sounds very cool. So we're gonna back up a little bit, because I know that in the JavaScript community some of us will have heard of just the term TensorFlow, or the actual tool, but not everybody knows what it is, so...
 
 **Nick Nisi:** Me!
 
@@ -64,7 +64,7 @@ For that last layer you might notice that it says "activation = tf.nn.softmax", 
 
 **Suz Hinton:** Uuh...
 
-**Paige Bailey:** Yeah, so that allows the same Javascript code to work in both the browser and Node.js, while binding to the underlying C implementation. That's pretty rad... And there's also -- so being able to use the GPU that you have in your laptop to train, even though you're running and creating this model in the browser, is really nifty. Does that sort of answer the question?
+**Paige Bailey:** Yeah, so that allows the same JavaScript code to work in both the browser and Node.js, while binding to the underlying C implementation. That's pretty rad... And there's also -- so being able to use the GPU that you have in your laptop to train, even though you're running and creating this model in the browser, is really nifty. Does that sort of answer the question?
 
 You can do a lot of really interesting -- most of my favorite TensorFlow examples, actually, are all created with TensorFlow.js. You can do pose detection in the browser - so if you're standing in front of your webcam and you're sort of flailing your arms around, or doing a jumping jack or something, it's able to detect where your limbs happen to be, it's able to do eye-tracking, able to do basic object segmentation, so it's able to detect that I am a human and draw a little line around me...
 
@@ -112,9 +112,9 @@ Another reason I think is because you have so many additional sort of -- like we
 
 **Suz Hinton:** That's really cool.
 
-**Nick Nisi:** If it can be written in Javascript, it eventually will be. \[laughter\]
+**Nick Nisi:** If it can be written in JavaScript, it eventually will be. \[laughter\]
 
-**Paige Bailey:** SkyNet's gonna be written in Javascript, right? That's the thing...
+**Paige Bailey:** SkyNet's gonna be written in JavaScript, right? That's the thing...
 
 **Nick Nisi:** For sure. We touched on this a little bit at the break, but could you maybe summarize what some production examples of TensorFlow might be?
 

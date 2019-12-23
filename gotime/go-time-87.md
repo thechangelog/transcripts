@@ -194,7 +194,7 @@ I think a lot of folks will find just doing that, assuming you write some decent
 
 **Aaron Schlesinger:** \[00:37:58.29\] Yeah. I mean, if you go crazy, there's gonna be a penalty for sure, because you're gonna start copying memory all over the place in the heap... But let's take the map in that functor. A map is basically an abstraction over a for loop; so you're gonna have your same array, you'll wrap it in a struct, so there's some memory penalty there... You'll wrap it in a struct and then you'll call your .map, and the .map is gonna take in a function. So there's some memory penalty there, but inside of that .map function you implement that, again, with just a for loop. So you don't get the actual runtime performance penalty there, because you're really just building a convenience function on top of a for loop, in that case.
 
-**Mat Ryer:** In this example, the map is like the `forEach()` in Javascript, isn't it?
+**Mat Ryer:** In this example, the map is like the `forEach()` in JavaScript, isn't it?
 
 **Aaron Schlesinger:** Exactly, yeah. There is one difference, in that `forEach()` doesn't return anything, but the map will return the new thing, basically; the new thing that you've transformed using that function you passed into map.
 
@@ -284,15 +284,15 @@ So this one is a really good one to know about, and I think it's more useful to 
 
 **Mat Ryer:** Arschles.com/blog. Okay, good. And there's one on there about dcode, which is a package... It's a JSON parser decoder package.
 
-**Aaron Schlesinger:** Yeah. This one was an idea that I took from another functional language called Elm. Elm is a front-end language that aims to basically just cut out Javascript completely.
+**Aaron Schlesinger:** Yeah. This one was an idea that I took from another functional language called Elm. Elm is a front-end language that aims to basically just cut out JavaScript completely.
 
 **Mat Ryer:** Why? \[laughter\]
 
-**Aaron Schlesinger:** Well, I guess the creator didn't like Javascript, for some reason... \[laughs\] Who knows why...
+**Aaron Schlesinger:** Well, I guess the creator didn't like JavaScript, for some reason... \[laughs\] Who knows why...
 
 **Mat Ryer:** They say it's good to have an enemy, if you're doing something. It's good to have an enemy sometimes, but... Fair enough.
 
-**Aaron Schlesinger:** Yeah, that's like "Necessity is the mother of invention" type of thing. The creator of Elm and a lot of the hardcore followers - they really love that it's a purely functional language. Technically not quite pure, but for the most part it's completely pure... And you just write all of your front-end code in this way that it forces you to deal with all the possible errors that can happen. And then the Elm compiler compiles it down to this crazy-looking compressed Javascript at the end of the day...
+**Aaron Schlesinger:** Yeah, that's like "Necessity is the mother of invention" type of thing. The creator of Elm and a lot of the hardcore followers - they really love that it's a purely functional language. Technically not quite pure, but for the most part it's completely pure... And you just write all of your front-end code in this way that it forces you to deal with all the possible errors that can happen. And then the Elm compiler compiles it down to this crazy-looking compressed JavaScript at the end of the day...
 
 But one of the cool things about Elm is their JSON support, especially their decoding support. Their decoding basically looks like a builder pattern. You would say something like "When I get back this bucket of bytes, I expect an array. And then inside of that array, I expect the first element to be a number, an Int32, the second element to be a string, and maybe the third element to be an object", but you also have to define the shape, exactly what that object should look like. And this is kind of starting to sound like the built-in `encoding/json`. The only difference is that you get to define exactly what should come in. You can't do things like optional or non-optional. You actually have to call those out in the decoder functionally.
 

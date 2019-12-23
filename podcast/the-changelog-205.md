@@ -271,11 +271,11 @@ So you've obviously got I guess most of your languages taken care of. It seems l
 
 It's also available as an O'Reilly book, called ZeroMQ, and there's also PDFs that you can download. O'Reilly were actually very happy with us having it available online at the same time as they made the printed version. The printed book is really nice, it's quite a fat book, it's a large book, to be honest, but it looks good in the bookshelf.
 
-**Adam Stacoviak:** Is it as thick as the Javascript book...?
+**Adam Stacoviak:** Is it as thick as the JavaScript book...?
 
-**Jerod Santo:** ...the Javascript Bible.
+**Jerod Santo:** ...the JavaScript Bible.
 
-**Pieter Hintjens:** I don't have the Javascript Bible.
+**Pieter Hintjens:** I don't have the JavaScript Bible.
 
 **Adam Stacoviak:** That's awesome. I guess one more topic here on ZeroMQ - we talked about the community, we talked about technology... Not just getting started, but what areas of the community can people fill in? We always ask the question of "How can the community help?", that's essentially the basic question. Where are the needs in ZeroMQ and how can people step up to fill those needs?
 
@@ -379,7 +379,7 @@ So we were working on this this year earlier and I had to stop, I was really get
 
 So my idea was look, you have a house full of these things, controlling - they all have GPIO, you can control stuff - controlling lights, controlling temperature, sensing rainfall, whatever you want. And they cluster together. You don't have to configure them individually because there's too many of them. You just plug them in the wall and possibly connect to a Wi-Fi and that's it. You don't program them, instead you send code to them. You don't program them by updating the firmware - whatever is involved right now, with this horrendous process of sending your compiled code to the thing. That's finished, that shouldn't be happening. Instead, these little devices should be picking up code from the network like a browser does, and running it and then throwing it away. That's how I wanted my kids to be programming the light bulbs - write a bit of code, send it to the light bulb. Switch on - become green. Switch off at 10:30... I don't know. And if there are a hundred light bulbs, they will all respond the same way. If there's two, they'll respond the same way.
 
-That notion of the internet of things becoming the web of little devices speaking some language - probably Javascript; it will be Javascript... Which is kind of sad, but that's how it's gonna be, I guess.
+That notion of the internet of things becoming the web of little devices speaking some language - probably JavaScript; it will be JavaScript... Which is kind of sad, but that's how it's gonna be, I guess.
 
 I wanted to make that happen. Then I wanted to sell - a-ha! - make money. How did you make money from open source? So I wanted to sell security on top of that, and certificates so that you could get properly signed code, that's been authenticated. This is a lovely area, it goes into things like mesh networking and so on. Devices can be also Wi-Fi routers, they can talk to each other, they can build whole structures like that.
 

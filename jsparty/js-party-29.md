@@ -1,4 +1,4 @@
-**Kevin Ball:** Alright, welcome, everyone! You are listening to another episode of JS Party. This is episode \#29 in our weekly celebration of everything Javascript. I'm Kball, I'm your host for this episode, and I'm joined by two of our awesome JS Party panelists. First off, we have Nick Nisi. How's it going, Nick?
+**Kevin Ball:** Alright, welcome, everyone! You are listening to another episode of JS Party. This is episode \#29 in our weekly celebration of everything JavaScript. I'm Kball, I'm your host for this episode, and I'm joined by two of our awesome JS Party panelists. First off, we have Nick Nisi. How's it going, Nick?
 
 **Nick Nisi:** Hey, I'm doing good.
 
@@ -14,7 +14,7 @@
 
 **Jerod Santo:** It rhymes with Kball quite nicely, yes.
 
-**Kevin Ball:** Fancy that! Alright, so today we are talking about this fancy schmancy user survey report that the Node.js Foundation shipped last week. Now, they talked to several thousand (something like 1,800) folks who are using Node, gathered a whole bunch of data, sliced it, diced it, got it analyzed by a third party, put together an interactive version of it, and there's just lots of stuff there about what's going on in the Javascript community.
+**Kevin Ball:** Fancy that! Alright, so today we are talking about this fancy schmancy user survey report that the Node.js Foundation shipped last week. Now, they talked to several thousand (something like 1,800) folks who are using Node, gathered a whole bunch of data, sliced it, diced it, got it analyzed by a third party, put together an interactive version of it, and there's just lots of stuff there about what's going on in the JavaScript community.
 
 Let's first kind of start off my talking a little bit about why do we think this is important. You all were pretty excited about doing this episode, so Jerod, maybe tell us what got you excited about this report? Why is it important?
 
@@ -28,17 +28,17 @@ I don't usually have too much output coming out; I would love to do more things 
 
 **Kevin Ball:** Yeah, I mean, I proudly rock my New Relic data nerd shirt from 2009... I will dive into anything. One of the things I really appreciated about this is they not only show the high-level and let you slice it/dice it interactively, but for the true geeks among us, they give us the data so we can actually go and analyze it.
 
-But I kind of was looking at this from a couple perspectives. One that has been bouncing around in my head for a while - there was a blog post a couple weeks ago by Anil Dash that was titled "What if Javascript wins?" It was playing with this idea - the Javascript ecosystem as a network that might be getting escape velocity and sort of dominating all other languages... So this coming out right after it made me think "Well, can we find any evidence, pro or against? Is this actually happening?"
+But I kind of was looking at this from a couple perspectives. One that has been bouncing around in my head for a while - there was a blog post a couple weeks ago by Anil Dash that was titled "What if JavaScript wins?" It was playing with this idea - the JavaScript ecosystem as a network that might be getting escape velocity and sort of dominating all other languages... So this coming out right after it made me think "Well, can we find any evidence, pro or against? Is this actually happening?"
 
-In some ways -- I mean, there's definitely strong evidence that Javascript as an ecosystem is growing extremely rapidly, but I actually found this report kind of counteracted that sense as well, because it seemed to show continuous focus in the web dev space, and if you look back a couple years, it doesn't seem like Javascript is growing in all domains; it seems like it's still pretty focused on web developers.
+In some ways -- I mean, there's definitely strong evidence that JavaScript as an ecosystem is growing extremely rapidly, but I actually found this report kind of counteracted that sense as well, because it seemed to show continuous focus in the web dev space, and if you look back a couple years, it doesn't seem like JavaScript is growing in all domains; it seems like it's still pretty focused on web developers.
 
-**Jerod Santo:** So what did Anil say would happen if Javascript wins? I personally don't really wanna see a winner declared, I don't think there will be. One of the reasons I'm excited about Wasm is bringing more people to the table. I'm a polyglot, so I like having lots of different facets, lots of different languages. I don't really want a winner, I don't want a homogenous Javascript blob that powers the entire world. What about you guys?
+**Jerod Santo:** So what did Anil say would happen if JavaScript wins? I personally don't really wanna see a winner declared, I don't think there will be. One of the reasons I'm excited about Wasm is bringing more people to the table. I'm a polyglot, so I like having lots of different facets, lots of different languages. I don't really want a winner, I don't want a homogenous JavaScript blob that powers the entire world. What about you guys?
 
-**Kevin Ball:** The post I think was kind of playing with this idea of "Where do developers and companies choose to invest first, and he highlighted that there's always gonna be room in development for niche solutions and things that are targeting particular use cases... But when your people are building developer tools or they're building libraries and frameworks or building interfaces to libraries and frameworks, they have to make prioritization decisions - which languages they're gonna target or support first... And kind of where he was saying is it is possible that we'll end up in a situation where Javascript has such incredible mindshare and so many people doing it that it becomes the first choice for all of those. And many of those products will go on and support other languages, but some won't, so it will create this kind of entangling network where the default choice if you didn't have a strong reason to do otherwise would be Javascript.
+**Kevin Ball:** The post I think was kind of playing with this idea of "Where do developers and companies choose to invest first, and he highlighted that there's always gonna be room in development for niche solutions and things that are targeting particular use cases... But when your people are building developer tools or they're building libraries and frameworks or building interfaces to libraries and frameworks, they have to make prioritization decisions - which languages they're gonna target or support first... And kind of where he was saying is it is possible that we'll end up in a situation where JavaScript has such incredible mindshare and so many people doing it that it becomes the first choice for all of those. And many of those products will go on and support other languages, but some won't, so it will create this kind of entangling network where the default choice if you didn't have a strong reason to do otherwise would be JavaScript.
 
-**Jerod Santo:** I know why he wrote that post; we're definitely seeing the tide shifting or rising, or whatever it's doing, in that direction... And it's interesting especially when we get to the section on learning Node.js, and how people go about learning... It's interesting to see, specifically Apple with open-sourcing Swift and trying to get that in such a learning aspect of the world, like education and with people who are coming into programming - that be their first language. Because what we're seeing is Javascript is a lot of people's first language now, and you can tell how important that is for continued use by how much Apple is throwing into trying to get Swift to be that first language.
+**Jerod Santo:** I know why he wrote that post; we're definitely seeing the tide shifting or rising, or whatever it's doing, in that direction... And it's interesting especially when we get to the section on learning Node.js, and how people go about learning... It's interesting to see, specifically Apple with open-sourcing Swift and trying to get that in such a learning aspect of the world, like education and with people who are coming into programming - that be their first language. Because what we're seeing is JavaScript is a lot of people's first language now, and you can tell how important that is for continued use by how much Apple is throwing into trying to get Swift to be that first language.
 
-**Kevin Ball:** \[00:08:01.02\] Yeah, absolutely. I think resources and learning is a big one, and that was actually one place where -- once again, looking at this year-over-year data, some things didn't change at all... Looking for this idea that Javascript is taking over the world, I didn't see any evidence for that; that percentage of people doing web dev versus IoT versus whatever had stayed pretty similar. But what did change year-over-year was satisfaction with the learning resources... And also, what percentage of people responding were new to programming. So I think Javascript has made - and particularly Node - has made some big strides improving the learning resources out there.
+**Kevin Ball:** \[00:08:01.02\] Yeah, absolutely. I think resources and learning is a big one, and that was actually one place where -- once again, looking at this year-over-year data, some things didn't change at all... Looking for this idea that JavaScript is taking over the world, I didn't see any evidence for that; that percentage of people doing web dev versus IoT versus whatever had stayed pretty similar. But what did change year-over-year was satisfaction with the learning resources... And also, what percentage of people responding were new to programming. So I think JavaScript has made - and particularly Node - has made some big strides improving the learning resources out there.
 
 **Jerod Santo:** Well, let's come back to learning, let's start with the rapid growth that you documented - I think this was one of the things that you highlighted in your InfoQ article... "There's 10 million Node.js users according to the survey, as compared to 7 million Node.js instances in 2017." So there we have a large rise, right?
 
@@ -62,19 +62,19 @@ They don't really go into the details of how they conducted the survey. Maybe th
 
 **Kevin Ball:** Yeah, I didn't see that either, and I noticed something that was odd, which was how under-represented China was in the data. They had -- 1% of respondents were in China. I did a little bit of looking around, and there was a study by a Node source a year or so ago that indicated that China was at least the largest in the developing world in terms of downloads of Node per month, or downloads of Node overall.
 
-Also, looking at other Javascript communities that I'm a part of, or getting more and more active in the Vue community, there's tons of Chinese representation there; there's a ton of stuff going on, and it makes me think that their survey is probably not that representative of the actual distribution of Node users... At least when it comes to China.
+Also, looking at other JavaScript communities that I'm a part of, or getting more and more active in the Vue community, there's tons of Chinese representation there; there's a ton of stuff going on, and it makes me think that their survey is probably not that representative of the actual distribution of Node users... At least when it comes to China.
 
 **Jerod Santo:** \[00:11:51.04\] These things are hard, and they're very hard to do well... As with many of these surveys, like Nick said, this is people who are -- I mean, it's going to be Node-heavy because their point is to profile Node.js users, and so that's kind of a self-fulfilling prophecy if you will... But all these numbers - they're great to think about, they're great for discussions like these, and some of them have to be taken with a grain of salt, knowing that there are flaws in methodology, and in sample size, and in all these things.
 
-**Kevin Ball:** I also found interesting that they had separate questions apparently, distinguishing between Node versus Javascript. It kind of cracked me up that only 93% of the people who responded to the survey who said they use Node - it said 100% use Node, and only 93% said they're using Javascript.
+**Kevin Ball:** I also found interesting that they had separate questions apparently, distinguishing between Node versus JavaScript. It kind of cracked me up that only 93% of the people who responded to the survey who said they use Node - it said 100% use Node, and only 93% said they're using JavaScript.
 
-**Nick Nisi:** Do you think that that could be taken as a distinguishing between front-end and back-end Javascript?
+**Nick Nisi:** Do you think that that could be taken as a distinguishing between front-end and back-end JavaScript?
 
 **Kevin Ball:** Could be... \[laughter\]
 
 **Jerod Santo:** Maybe...
 
-**Kevin Ball:** Maybe, if we're being super generous... A smaller percentage said they were doing front-end development of some sort, so... Yeah, maybe it's a distinction; maybe folks are using it, but they're only doing development in TypeScript, or some sort of compile-to-Javascript language.
+**Kevin Ball:** Maybe, if we're being super generous... A smaller percentage said they were doing front-end development of some sort, so... Yeah, maybe it's a distinction; maybe folks are using it, but they're only doing development in TypeScript, or some sort of compile-to-JavaScript language.
 
 **Jerod Santo:** I find Node difficult to explain outside of the in-crowd because of that reason. Like, it's a runtime, but...
 
@@ -82,7 +82,7 @@ Also, looking at other Javascript communities that I'm a part of, or getting mor
 
 **Jerod Santo:** Yeah, but is that the way you describe it to somebody who's maybe either a programmer in a completely different space, or maybe they're just like "What do you do?" and then you say "I do Node.js", or...?
 
-**Kevin Ball:** Yeah, I mean... I think you could say it's a runtime; that doesn't mean something -- basically, it's a system for running Javascript in places that aren't a web browser.
+**Kevin Ball:** Yeah, I mean... I think you could say it's a runtime; that doesn't mean something -- basically, it's a system for running JavaScript in places that aren't a web browser.
 
 **Jerod Santo:** That's pretty \[unintelligible 00:13:43.06\] You're good at this, Kevin. See, I'm Jball.
 
@@ -92,17 +92,17 @@ Also, looking at other Javascript communities that I'm a part of, or getting mor
 
 **Kevin Ball:** I'm gonna get you a shirt that says Jball on it.
 
-**Jerod Santo:** Yeah, there you go. So why do you think specifically -- I mean, this was put on by a third-party... The Node.js Foundation hired out a third-party to conduct the research. Why do you think in their very own survey they would distinguish between Node as a "language" versus Javascript as a language? Nick, I know you just guessed at one reason, but isn't that weird...?
+**Jerod Santo:** Yeah, there you go. So why do you think specifically -- I mean, this was put on by a third-party... The Node.js Foundation hired out a third-party to conduct the research. Why do you think in their very own survey they would distinguish between Node as a "language" versus JavaScript as a language? Nick, I know you just guessed at one reason, but isn't that weird...?
 
-**Nick Nisi:** I think it is, especially since there's no matching of any other framework, I guess... I kind of classify Node as a framework, and you don't really see that anywhere else. But then you have the two distinctions between Node and Javascript, so it is a little weird.
+**Nick Nisi:** I think it is, especially since there's no matching of any other framework, I guess... I kind of classify Node as a framework, and you don't really see that anywhere else. But then you have the two distinctions between Node and JavaScript, so it is a little weird.
 
 **Kevin Ball:** I have two hypotheses. Hypothesis number one - if I look at the PDF, it's branded "Node.js blah-blah-blah, the Linux Foundation." So that hypothesis is the survey was actually administered by a set of folks who help at the Linux Foundation who are not themselves Node users.
 
-Hypothesis number two is they're trying to create a brand distinction separate from Javascript. Both are kind of marketing(ish) reasons, but...
+Hypothesis number two is they're trying to create a brand distinction separate from JavaScript. Both are kind of marketing(ish) reasons, but...
 
-**Jerod Santo:** Yeah, I can see both of those being partially true, or maybe both of them are dead-on... Since it is a third-party conducting this deal, they do their best to completely understand... But maybe they don't. And secondly, they are -- I mean, Node.js is a thing, right? It's the Node.js Foundation, NodeJs.org... But Javascript is a bigger thing, that encapsulates that thing; so if you're trying to stand apart in your survey, then you're going to try to distinguish.
+**Jerod Santo:** Yeah, I can see both of those being partially true, or maybe both of them are dead-on... Since it is a third-party conducting this deal, they do their best to completely understand... But maybe they don't. And secondly, they are -- I mean, Node.js is a thing, right? It's the Node.js Foundation, NodeJs.org... But JavaScript is a bigger thing, that encapsulates that thing; so if you're trying to stand apart in your survey, then you're going to try to distinguish.
 
-**Kevin Ball:** Yeah... I don't know. It definitely -- you know, as someone who uses Javascript both in a Node setting and a non-Node setting, it threw me for a loop. I was like "Um, do these guys actually use the thing that they're talking about here?" \[laughs\]
+**Kevin Ball:** Yeah... I don't know. It definitely -- you know, as someone who uses JavaScript both in a Node setting and a non-Node setting, it threw me for a loop. I was like "Um, do these guys actually use the thing that they're talking about here?" \[laughs\]
 
 **Jerod Santo:** ...that they're asking about, yeah.
 
@@ -119,11 +119,11 @@ Hypothesis number two is they're trying to create a brand distinction separate f
 **Kevin Ball:** ...and I dug into that when I was writing that article about this for InfoQ. If you look at the previous year's survey, there were similar reports around how much they were intending to change. Python is gonna go way up, PHP, Go, Rust - all these big intents to change... Almost none of those actually translated into changes in this year's survey in percent saying they used it. They only ones that actually changed -- well, Python was up slightly, PHP was down slightly. Both Go and Rust, which reported massive intent to increase, were stable in terms of their percent. No change. Scala and Swift, both of which had a net report of increased intent, were down year-over-year. So that intent to change -- it might be better for us to read that as aspirational... "These are the cool, hip languages that I really wanna be using. These are the old, dead languages that I wanna get away from. Oh, shoot, I actually have to keep delivering production code...?! Well, I'll go with what I know."
 
 **Jerod Santo:** Yeah, it's similar to like an exit poll - it's like, "Who are you going to vote for?" versus who you actually vote for come polling day... We find those quite different.
-I'm still just flabbergasted, because I'm looking at the languages used... Other languages used, in addition to Node - the top language, Javascript. It's like, "Excuse me?" You know... Weird. But I have to get over it.
+I'm still just flabbergasted, because I'm looking at the languages used... Other languages used, in addition to Node - the top language, JavaScript. It's like, "Excuse me?" You know... Weird. But I have to get over it.
 
-**Nick Nisi:** I think it still does show just overall satisfaction with Javascript and the Node ecosystem, as compared to other ecosystems for Node developers. Node developers do seem to enjoy the Node ecosystem.
+**Nick Nisi:** I think it still does show just overall satisfaction with JavaScript and the Node ecosystem, as compared to other ecosystems for Node developers. Node developers do seem to enjoy the Node ecosystem.
 
-**Kevin Ball:** Javascript's gonna Javascript.
+**Kevin Ball:** JavaScript's gonna JavaScript.
 
 **Jerod Santo:** That's right, and maybe you do see that a little bit, with the aspirational intent to diversify, but then the actual not diversification. There's a lot of things that play into that; like you said, Kevin, maybe the need to ship production code, or just use the tools that you're familiar with... But specifically with the desire to get into Go, get into Rust - these are things that would compete specifically with Node on the back-end, right? Back-end developers. But the lack of actual movement may indicate that they're either completely satisfied, or other reasons that they don't actually go about switching.
 
@@ -293,7 +293,7 @@ So in the case that you want to move without having everybody go change their ha
 
 **Jerod Santo:** Oh yeah, he went deep on a few of them. It's a great talk, it's about 30 minutes... It was incredibly candid and truthful, and most of these things are the things that he regrets having designed, and they're very technical, and they're specific aspects of the Node technology. It was interesting - Mikeal Rogers, of course, one of our panelists, made the point on Twitter than Node blew up so fast and adoption was so fast that a lot of these things Ryan could have fixed had it not gotten adopted so quickly; he could have fixed them either before 1.4, or in a timed fashion, but he just wasn't able to.
 
-\[00:44:13.29\] So that was kind of the context of that talk, and that's when he revealed that he's been working on this new project - it's written in Go, although he may rewrite it in Rust - called Deno. It is a V8 runtime for TypeScript, which of course makes it also one for Javascript... And it's built to be secure and nice and modern, and all these other things. And really, what it is - I think it's a little bit of a retry, a fresh start, based on things that he learned building Node the first time, and the regrets that he has, trying to not have those regrets this time around. So that's the project. It's garnered much interest...
+\[00:44:13.29\] So that was kind of the context of that talk, and that's when he revealed that he's been working on this new project - it's written in Go, although he may rewrite it in Rust - called Deno. It is a V8 runtime for TypeScript, which of course makes it also one for JavaScript... And it's built to be secure and nice and modern, and all these other things. And really, what it is - I think it's a little bit of a retry, a fresh start, based on things that he learned building Node the first time, and the regrets that he has, trying to not have those regrets this time around. So that's the project. It's garnered much interest...
 
 **Kevin Ball:** Yeah, I saw it blew up on Hacker News, and everybody flooded it with comments and issues, and he had to shut it down and be like "Hey guys, this is early..."
 
@@ -303,7 +303,7 @@ So in the case that you want to move without having everybody go change their ha
 
 **Jerod Santo:** Alright, so the first one is that he didn't embrace Promises early on. In fact, it's more like he removed Promises -- he started with Promises... Or he didn't start with Promises, but they were introduced early. Nick, I feel like you have more history than I do, so feel free to hop in or fix, or whatever... But he introduced Promises, and then he took them out. Does that sound right, Nick?
 
-**Nick Nisi:** Yeah, so they were in for a bit, and then they were out in favor of the callback syntax for like the built-in libraries in Node... Kind of that defaults -- provide a callback in the first argument \[unintelligible 00:46:09.26\] and then you can continue on from there. I wonder if that would have been an issue if Javascript hadn't advanced so much more recently. If async/await had not been a thing that came to the language, would he have a regret about Promises - that's something I was wondering.
+**Nick Nisi:** Yeah, so they were in for a bit, and then they were out in favor of the callback syntax for like the built-in libraries in Node... Kind of that defaults -- provide a callback in the first argument \[unintelligible 00:46:09.26\] and then you can continue on from there. I wonder if that would have been an issue if JavaScript hadn't advanced so much more recently. If async/await had not been a thing that came to the language, would he have a regret about Promises - that's something I was wondering.
 
 **Kevin Ball:** I mean, even just shifting -- I haven't done too much with async/await yet, but even just shifting from callbacks to Promises in my own code... It makes it so much easier to think about asynchronicity and particularly about composing asynchronicity across different modules and functions.
 
@@ -361,7 +361,7 @@ And then the other thing, which seems minor but required a complicated implement
 
 It's an interesting occurrence, obviously. It's not like the kind of thing that is going to wholesale replace Node in 2018 or even in 2019. There's something to be said about learning from the "sins of the past" and using modern tools and techniques to apply similar ideas in a way that ultimately may be much more forward-looking.
 
-**Kevin Ball:** \[00:55:52.16\] It's interesting to think about - since it is gonna provide a Javascript runtime - how straightforward would it be to port a Node application over into that... But given the way that we do \[unintelligible 00:56:06.12\] and all that other stuff, it might be tricky. \[laughter\] I wonder if you end up with the equivalent of a Webpack or some other thing that is translating -- it goes through and parses all your Javascript in Nodeland and then rewrites it and produces for Denoland.
+**Kevin Ball:** \[00:55:52.16\] It's interesting to think about - since it is gonna provide a JavaScript runtime - how straightforward would it be to port a Node application over into that... But given the way that we do \[unintelligible 00:56:06.12\] and all that other stuff, it might be tricky. \[laughter\] I wonder if you end up with the equivalent of a Webpack or some other thing that is translating -- it goes through and parses all your JavaScript in Nodeland and then rewrites it and produces for Denoland.
 
 **Nick Nisi:** In the little bit of code that he had, kind of showing an example, he was using Unpkg to have a tiny, tiny bit of compatibility with Node... But you'd run into all the same problems; if that module is using the Node Requires, then you probably can't use it. So it'll be interesting, but it's cool to see Unpkg has a potential solution for that in the future, if something like this takes off.
 

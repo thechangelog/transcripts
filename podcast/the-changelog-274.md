@@ -76,7 +76,7 @@ That really makes the Faktory worker processes much simpler than the Sidekiq wor
 
 **Mike Perham:** Producer Consumer libraries...
 
-**Jerod Santo:** And \[unintelligible 00:13:23.07\] is kind of wow... Kind of wow how many there are already, considering this is brand new. So that speaks a little bit to your reputation in the community and the fact that people are getting excited about this. It also probably speaks to what you've just said, that they are much simpler to do than the Sidekiq worker process.
+**Jerod Santo:** And the comment we have in the note is kind of wow... Kind of wow how many there are already, considering this is brand new. So that speaks a little bit to your reputation in the community and the fact that people are getting excited about this. It also probably speaks to what you've just said, that they are much simpler to do than the Sidekiq worker process.
 
 **Mike Perham:** Well, one of the reasons why I built Faktory is because over the years - the last couple years - I've heard dozens of people ask "Is there something like Sidekiq for my language?" That tells you that there's a bit of demand there. I'm not sure if it's enough demand to warrant venture capital investment and a hundred million dollar valuation, but that's not what I'm shooting for. I'm shooting for ma-and-pa's artisanal software that I can...
 
@@ -90,7 +90,7 @@ That really makes the Faktory worker processes much simpler than the Sidekiq wor
 
 **Adam Stacoviak:** Right. Nobody invests without a return... Or they want one, at least.
 
-**Jerod Santo:** Yeah, a lot of people invest \[unintelligible 00:15:14.06\]
+**Jerod Santo:** Yeah, a lot of people invest without a return.
 
 **Mike Perham:** Which means they've gotta make a billion dollars. But that means that their pricing needs to be commensurate with that funding and with that profit goal. I can keep my prices so low that it doesn't matter if some big corp wants to come in. As long as I'm making X thousand dollars a year, I can sustain myself forever. It doesn't matter if Amazon comes in and... You know, Amazon is gonna have SQS, RabbitMQ is a thing... There's all sorts of different queuing systems that are commercial. As long as the market is big enough for another entry -- it's not a winner-take-all thing.
 
@@ -124,7 +124,7 @@ There's also API's like rate limiting. This is one example where your job may wa
 
 **Jerod Santo:** So one of the major moving pieces that you've removed from Faktory - or I guess never included in Faktory - which is a big part of Sidekiq and you mentioned it previously is Redis... But you've gotta persist at queue somewhere, so tell us about that decision to remove Redis and what you're doing instead.
 
-**Mike Perham:** Yeah, so this was quite possibly the hardest decision I had to make in designing and the initial implementation of Faktory. Obviously, you've gotta store data somewhere; you've gotta track thing and persist things. If I wanted the invert logic and push the logic from the worker process into the actual server itself, I would need to embed a storage engine, effectively... And Redis is not embeddable. Now, Redis has \[unintelligible 00:26:33.21\] it has modules, but all of those are not designed to build products on top of. They are designed for the end user to customize Redis for their own application.
+**Mike Perham:** Yeah, so this was quite possibly the hardest decision I had to make in designing and the initial implementation of Faktory. Obviously, you've gotta store data somewhere; you've gotta track thing and persist things. If I wanted the invert logic and push the logic from the worker process into the actual server itself, I would need to embed a storage engine, effectively... And Redis is not embeddable. Now, Redis has Lua hooks, it has modules, but all of those are not designed to build products on top of. They are designed for the end user to customize Redis for their own application.
 
 For instance, I can't package up Faktory as a module and distribute it because modules for Redis can only be -- you have to compile a module into Redis. And on top of that, I'd be building on top of Redis, which believe me, I considered for a while, because I've got thousands of line of code which already have all these features implemented for it, so I could literally just port the system over if I wanted to. But ultimately, I decided to go with an engine that could be embedded, so that I could ship a single compiled binary.
 
@@ -134,7 +134,7 @@ So I looked around for a bunch of different things, and the best option that I s
 
 To me, that was the best option that I had. Rocks does have some tradeoffs, it has some drawbacks versus Redis, but like I said, it's the best of what's out there right now.
 
-**Jerod Santo:** It's interesting to think about the long-term. So if Faktory is successful and you continue building on the long-term implications of that particular decision, because while a lot of us don't consider our dependencies really well thought out anyways, but when you're putting together - especially at the application layer - you're putting together usually lots of different things to serve different purposes, and some dependencies, even like Sidekiq, right? Like, okay, it's pretty much the one you go to \[unintelligible 00:29:18.27\] now, but in its day, for background jobs you could have reached for Resque, and Sidekiq, and I think delayed\_jobs, although that was getting crufty at the time... So these decisions are kind of made without extreme consideration sometimes, and sometimes that bites you and sometimes it doesn't, especially if they're more -- you can just swap them in an hour; the more modular, pluggable they are, you say "Well, I don't really like Background Job anymore, I'm gonna swap out for Sidekiq."
+**Jerod Santo:** It's interesting to think about the long-term. So if Faktory is successful and you continue building on the long-term implications of that particular decision, because while a lot of us don't consider our dependencies really well thought out anyways, but when you're putting together - especially at the application layer - you're putting together usually lots of different things to serve different purposes, and some dependencies, even like Sidekiq, right? Like, okay, it's pretty much the one you go to in the real world now, but in its day, for background jobs you could have reached for Resque, and Sidekiq, and I think delayed\_jobs, although that was getting crufty at the time... So these decisions are kind of made without extreme consideration sometimes, and sometimes that bites you and sometimes it doesn't, especially if they're more -- you can just swap them in an hour; the more modular, pluggable they are, you say "Well, I don't really like Background Job anymore, I'm gonna swap out for Sidekiq."
 
 But with this decision, anybody who's doing persistence, when you're selecting your persistence engine, it has huge ramifications down the road, so it's a really big decision to make.
 Give us some insight, how did you go about -- you said that it was production-grade and you liked that Facebook was behind it, but what was your process? Like, what do you go about "Okay, I am going to compare against Redis; I want something embeddable", but it sounds like you weren't completely sold against Redis at the time, even though you preferred an embedded solution. Did you just google around, find all the embedded Go things and then compare them? What's your style of picking a big dependency like that?
@@ -171,7 +171,7 @@ So that's where RocksDB's design really shines, because it proved to be 100 to 1
 
 Once I saw that, I thought to myself, "Okay, I need to either tune Bolt or sort of determine what's wrong here." So I actually pinged Evan Phoenix who is also a really well-known Ruby and Go person. He told me about the LSM (log-structured merge) design and pointed me to LevelDB, and projects like that.
 
-So Evan said "Oh, this is not just a flag you can tune in Bolt, it's part of the design of Bolt. That's why the performance is this slow." That's when I said "Okay, I'm gonna abstract the storage out in the interfaces and build another \[unintelligible 00:38:32.25\] with the LSM implementation of some sort." I looked around for LevelDB implementations and that's when I found Rocks.
+So Evan said "Oh, this is not just a flag you can tune in Bolt, it's part of the design of Bolt. That's why the performance is this slow." That's when I said "Okay, I'm gonna abstract the storage out in the interfaces and build another impl with the LSM implementation of some sort." I looked around for LevelDB implementations and that's when I found Rocks.
 
 **Jerod Santo:** Nice. Phone a friend option - always useful.
 
@@ -179,7 +179,7 @@ So Evan said "Oh, this is not just a flag you can tune in Bolt, it's part of the
 
 If you're doing -- well, I don't wanna pontificate on what the right use cases are for Bolt, but suffice to say that Rocks has proven to be, like I said, orders of magnitude faster, so I realized that I had to go with something like Rocks.
 
-Now, I couldn't find any other LevelDB clone for Go that was really sort of \[unintelligible 00:39:45.11\] and that's why I went with Rocks... Because I would have preferred and loved to have seen something that was native Go, something that I could tell is running in production and is gonna be supported for the next n years... And I know that Facebook has several engineers working full-time on Rocks, and they're pushing new versions all the time. That is a very strong endorsement to use it in my own stuff.
+Now, I couldn't find any other LevelDB clone for Go that was really sort of production hardened and that's why I went with Rocks... Because I would have preferred and loved to have seen something that was native Go, something that I could tell is running in production and is gonna be supported for the next n years... And I know that Facebook has several engineers working full-time on Rocks, and they're pushing new versions all the time. That is a very strong endorsement to use it in my own stuff.
 
 **Jerod Santo:** \[00:40:19.14\] Just found it here - we actually had Ben Johnson on The Changelog back in 2015, talking about BoltDB; I think he actually compared and contrasted with LevelDB at the time, so he's very well aware of these different architectures.
 
@@ -208,7 +208,7 @@ So I envision people taking a backup maybe every five minutes or every hour or w
 
 **Mike Perham:** Well, it's been a mixed bag, like any sort of decision. There's good and bad parts of it. With Rocks, the tools that it gives me are much lower-level than Redis. I'm dealing with C++ API's rather than a nice set of data structure commands that Redis exposes.
 
-Ultimately, Redis is a great thing. I love it. I will never consider ripping it out of Sidekiq. People have asked me to build Sidekiq for other storage engines, and my take is "No way! Sidekiq is \[unintelligible 00:46:21.10\] for Redis." And Redis gives you a lot of - like you say - built-in ops knowledge in the industry; people know how to run Redis. There are Redis SaaS's that are out there where you can just say "Hey, here's $50/month. Give me a Redis URL", and boom, you've got something that you can run Sidekiq against. Faktory doesn't have that, but Faktory is still brand new. We're working on that.
+Ultimately, Redis is a great thing. I love it. I will never consider ripping it out of Sidekiq. People have asked me to build Sidekiq for other storage engines, and my take is "No way! Sidekiq is optimized for Redis." And Redis gives you a lot of - like you say - built-in ops knowledge in the industry; people know how to run Redis. There are Redis SaaS's that are out there where you can just say "Hey, here's $50/month. Give me a Redis URL", and boom, you've got something that you can run Sidekiq against. Faktory doesn't have that, but Faktory is still brand new. We're working on that.
 
 Rocks doesn't give me some of the things that Redis does have, like replication, so I can't run a replica in another availability zone or in another data center, and have sort of an almost real-time backup. So there are tradeoffs for sure, but ultimately, Redis didn't have that embedded mode that I had to have if I wanted to centralize the logic into a single binary. So the ease of use of Faktory is awesome because it's just a single binary you just run, but it comes at these tradeoffs of losing the built-in ops lore that Redis has in the community.
 
@@ -326,7 +326,7 @@ One of the things they said which they've regretted to a certain degree is that 
 
 **Jerod Santo:** Absolutely.
 
-**Mike Perham:** These people have shown an interest in the background job system. They've shown that they have the willpower to sort of learn a new system and dive in and sort of build something on top of it, and that goes a long way in building up a resume that recommends them. So we'll see what happens over time, but hopefully I can get half a dozen libraries for different languages that are well maintained and reliable... Because it really doesn't take more than that. You need a Javascript, you need a Python, you need possibly like a Java or a C\# library, and that's gonna get you 90% of the industry.
+**Mike Perham:** These people have shown an interest in the background job system. They've shown that they have the willpower to sort of learn a new system and dive in and sort of build something on top of it, and that goes a long way in building up a resume that recommends them. So we'll see what happens over time, but hopefully I can get half a dozen libraries for different languages that are well maintained and reliable... Because it really doesn't take more than that. You need a JavaScript, you need a Python, you need possibly like a Java or a C\# library, and that's gonna get you 90% of the industry.
 
 **Jerod Santo:** Right.
 
@@ -338,9 +338,9 @@ One of the things they said which they've regretted to a certain degree is that 
 
 **Adam Stacoviak:** \[01:14:14.13\] You mentioned that you can install via Homebrew as well, and you have to tap that first. Do you have a tap? Because it's still kind of in flux...
 
-**Mike Perham:** Yeah, I think it's a \[unintelligible 01:14:23.01\] or something like that.
+**Mike Perham:** Yeah, I think it's a cask or a tap or something like that.
 
-**Adam Stacoviak:** \[unintelligible 01:14:26.14\]
+**Adam Stacoviak:** brew tap contrib sys/factory and then brew install factory.
 
 **Mike Perham:** Yeah, that's it. So I guess it is a tap.
 

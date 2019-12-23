@@ -72,7 +72,7 @@
 
 **Adam Stacoviak:** So you said you didn't get very good grades when you were in high school, but you were learning HTML and you were writing HTML and you were writing Mac apps and Objective-C... Those aren't simple languages exactly. HTML is a bit more simple, it's a bit more entry-level, but -- I don't wanna offend the HTML5 fanboys out there, because I'm sure it's definitely getting a lot more complex these days, but back four years ago it was not as difficult...
 
-**Sam Soffes:** Well, it was great when I started, because it was like all caps, and you'd use a center tag... It was really easy. Then Javascript kind of came around to do pop-ups, and it was like all I used it for for a long time... Then CSS kind of got introduced, and then like, no more tables, and I was like -- I don't know, I kind of started right before everything kind of took off, so it was nice to just learn along the way. Right now if you're starting, I can't imagine -- there's so many things to learn.
+**Sam Soffes:** Well, it was great when I started, because it was like all caps, and you'd use a center tag... It was really easy. Then JavaScript kind of came around to do pop-ups, and it was like all I used it for for a long time... Then CSS kind of got introduced, and then like, no more tables, and I was like -- I don't know, I kind of started right before everything kind of took off, so it was nice to just learn along the way. Right now if you're starting, I can't imagine -- there's so many things to learn.
 
 \[00:08:05.24\] Then I started doing PHP and a little bit of Flash, and then finally Objective-C... I spent all my time programming. I never really played any sports... I was in bands, but... Yeah, I just didn't really care about writing a good paper. I still suck at writing.
 
@@ -372,7 +372,7 @@ As I was thinking about it more and more, I was like "Well, this will be great, 
 
 **Sam Soffes:** \[00:56:12.03\] I did.
 
-**Adam Stacoviak:** Is this what you did at \[unintelligible 00:56:13.05\] because you had this blog post, "Staying Strong", and in there you didn't mention any names... So this is actually what we're talking about, right?
+**Adam Stacoviak:** Is this what you did allude to then because you had this [blog post](https://soffes.blog/staying-strong), "Staying Strong", and in there you didn't mention any names... So this is actually what we're talking about, right?
 
 **Sam Soffes:** Yeah. Hopefully... Yeah. I felt awful about accepting, and then they told everyone, and then I told them I didn't accept, and apparently that information didn't get passed around as much internally... So people were still directing me on Twitter like "Hey, I'm so excited for you to start..." and it's like "Actually, I don't work there." I probably could have handled it better and just declined in the first place.
 

@@ -92,7 +92,7 @@ So for the persistent use cases, there is another tool named NATS Streaming. Tha
 
 **Brian Ketelsen:** One of the things that really impresses me about NATS is how flexible it is. I was building a class this week on microservices with [Go Micro](https://github.com/micro/go-micro) and one of the plugins for Go Micro is a transport layer plugin, so that you can choose to use NATS as the entire transport for your microservice ecosystem, and it just amazed me that it was just that easy to write a couple hundred lines of Go code and substitute NATS for RPC and messaging... It's impressive how flexible NATS seems to be.
 
-**Erik St. Martin:** One of the things that I love about it is the number of platforms, because I think there's Javascript implementations... I know I've seen Arduino and things like that, so people can have IoT devices just push metrics out to NATS servers.
+**Erik St. Martin:** One of the things that I love about it is the number of platforms, because I think there's JavaScript implementations... I know I've seen Arduino and things like that, so people can have IoT devices just push metrics out to NATS servers.
 
 **Wally Quevedo:** Yeah, it's been very cool how the community has been taking off in some of the recent years. For a long time there was only the Ruby, Node.js and the Go clients. Now we have C\#, C, Elixir clients. The Python clients, they are official now...
 

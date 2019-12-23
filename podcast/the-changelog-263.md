@@ -68,13 +68,13 @@
 
 **Jerod Santo:** Okay. So are there certain kinds of technical projects that excite you more than others, or do you not care?
 
-**Richard Littauer:** I love Javascript stuff, I love NLP stuff; I was trained as a computational linguist, I love internationalization, and I'm a big fan of standards. I built a thing called Standard Readme - how to write a good readme - and I love making things compliant to that. It's kind of like pseudo-code, pseudo-documentation.
+**Richard Littauer:** I love JavaScript stuff, I love NLP stuff; I was trained as a computational linguist, I love internationalization, and I'm a big fan of standards. I built a thing called Standard Readme - how to write a good readme - and I love making things compliant to that. It's kind of like pseudo-code, pseudo-documentation.
 
 **Jerod Santo:** Yeah. One of the things we're doing here, actually going on right now as we speak, is gathering examples of people who are doing it right... So as you go around and help other people do maintenance and build communities, what are some exemplars, in your opinion, of projects that you could turn to and say "Do it like these guys and you're gonna do well."
 
 **Richard Littauer:** NPM does a lot of good stuff with their community. They're not perfect, in some ways... The CLI tools are really getting there hard, but their heart is in it, and you can see that, and I love that. Hoodie does it really well; they're all about community, they're all about how to do this. Node is getting there... I've been sitting in on some of the communications committee meetings and they're working really hard to figure that out. NodeTogether was great - that's with Ashley.
 
-I'm a big fan of a lot of high-level decisions, like Go's decision to have a formatter, so you just get rid of a lot of the issues that you have in other languages, like \*coughs\* Javascript... \[laughter\]
+I'm a big fan of a lot of high-level decisions, like Go's decision to have a formatter, so you just get rid of a lot of the issues that you have in other languages, like \*coughs\* JavaScript... \[laughter\]
 
 Yeah, there's a lot of great projects, a lot of bad ones, but I love it when you can see that people really care, and it's obvious.
 
@@ -133,7 +133,7 @@ I'm trying to think of any particular people who just no one would know about wh
 
 **Jerod Santo:** I don't even know where that is...
 
-**Richard Littauer:** It's the Northern-most human habitated place in the world. We have a Javascript conference there in a church, because why not?! \[laughter\] He has an NPM package called Geopackage, which basically -- everytime you push something to NPM, it will tag your geographical coordinates, and I'm having a lot of fun with that.
+**Richard Littauer:** It's the Northern-most human habitated place in the world. We have a JavaScript conference there in a church, because why not?! \[laughter\] He has an NPM package called Geopackage, which basically -- everytime you push something to NPM, it will tag your geographical coordinates, and I'm having a lot of fun with that.
 
 **Jerod Santo:** Oh, nice. Very cool. So you have your own little map that you keep, with places you pushed from?
 
@@ -349,7 +349,7 @@ The other thing that we do that is really important to the open source community
 
 **Andrea Goulet:** We hung out. You gave me a ride at the airport when I was speaking at...
 
-**Jerod Santo:** The Nebraska Javascript Conference a couple years back.
+**Jerod Santo:** The Nebraska JavaScript Conference a couple years back.
 
 **Andrea Goulet:** Yeah. And we were like, "Oh, you should get on, because we've got a podcast, too!" and it was like "Yeah, we should totally do that!" and then it didn't happen...
 

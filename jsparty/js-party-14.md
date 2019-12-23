@@ -1,4 +1,4 @@
-**Mikeal Rogers:** Hey, welcome to JS Party, where it's a party every week with Javascript. I'm Mikeal Rogers...
+**Mikeal Rogers:** Hey, welcome to JS Party, where it's a party every week with JavaScript. I'm Mikeal Rogers...
 
 **Alex Sexton:** I'm Alex Sexton...
 
@@ -82,7 +82,7 @@ So it's really difficult to figure those things out and see what we need to do t
 
 **Mikeal Rogers:** So pulling us out of the weeds a little bit here... I've seen a lot of people throw around this V8 TurboFan+Ignition thing in the compiler pipeline, and it gets thrown around a lot, and it's like a magic performance sauce that everybody's kind of throwing everything -- can you explain what this actually means and what it does to people's code?
 
-**James Snell:** Okay, so right now what's inside V8 - you have the compiler, and you optimize with the compiler: it takes the Javascript and compiles it down to bytecode, optimizes it and does a number of tricks to make it faster. The TurboFan+Ignition is just a new compiler and a new optimizer inside V8, and for most people, whether you're using the old Crankshaft stuff or the news stuff, there's just not gonna be any impact, you're not gonna see any difference. But the new compiler and optimizer is really geared towards optimizing the new language features, so things like class, or spread arguments, or any of the new language features. Crankshaft - which was the old optimizer - just wasn't set up to handle these new language features very well at all. The new toolchain will make it so that those things can actually perform decently going forward. For most people, they won't see a difference.
+**James Snell:** Okay, so right now what's inside V8 - you have the compiler, and you optimize with the compiler: it takes the JavaScript and compiles it down to bytecode, optimizes it and does a number of tricks to make it faster. The TurboFan+Ignition is just a new compiler and a new optimizer inside V8, and for most people, whether you're using the old Crankshaft stuff or the news stuff, there's just not gonna be any impact, you're not gonna see any difference. But the new compiler and optimizer is really geared towards optimizing the new language features, so things like class, or spread arguments, or any of the new language features. Crankshaft - which was the old optimizer - just wasn't set up to handle these new language features very well at all. The new toolchain will make it so that those things can actually perform decently going forward. For most people, they won't see a difference.
 
 \[00:11:45.27\] The code that is going to see a significant difference is code that has been highly, highly optimized to take advantage of quirks in the old Crankshaft optimizer. We have some examples of this in Node core itself, where we actually will unroll for loops in order to make it faster. What that means is instead of just going through the entire loop every time, we'll see "Does this thing only have one item or two items or three items?" and we will special-case handling those, and then loop only if none of the other more optimized cases apply. Under Crankshaft it ends up being significantly faster.
 
@@ -92,7 +92,7 @@ We shouldn't see code break, we shouldn't see any existing stuff just stop worki
 
 **Mikeal Rogers:** Particularly with ES6, right?
 
-**James Snell:** Oh, yeah. Any new Javascript features should become significantly faster.
+**James Snell:** Oh, yeah. Any new JavaScript features should become significantly faster.
 
 **Mikeal Rogers:** Yeah, and async/await is in here too, right? I think it was also in version 7, but this is the first one that's scheduled to go into LTS; there's a lot more users coming onto it. So async/await is starting to become a feature that you can just kind of depend on.
 
@@ -294,9 +294,9 @@ The fact that, as a company who can choose from a large pool of very talented de
 
 **Alex Sexton:** "I'm Mikeal. I knew about everything beforehand."
 
-**Mikeal Rogers:** \[laughs\] That's the hipster Javascript going on... I was into it before it was cool.
+**Mikeal Rogers:** \[laughs\] That's the hipster JavaScript going on... I was into it before it was cool.
 
-**Jessica Lord:** Yeah... That's why Javascript bread is over now.
+**Jessica Lord:** Yeah... That's why JavaScript bread is over now.
 
 **Mikeal Rogers:** \[laughs\] Okay... Before we beat the horse to death, why don't we get into our picks? Does everybody have their personal picks ready?
 
@@ -342,7 +342,7 @@ And the project is in very good hands... Everything is very, very good. It's a v
 
 **Alex Sexton:** So maybe I'll do some shameless self-promotion... My pick this is -- Stripe put out some new products this past week. I think Stripe Connect has a new version, and then also something -- I'm trying to remember the non-internal name... Stripe Sigma. You can go look at what those are, but very specifically I'm talking about the landing pages for those. Those are my picks this week. The designers at Stripe are very good and they work on these, so if you check out Stripe.com/connect and Stripe.com/sigma...
 
-\[00:43:06.29\] The Sigma page might as well be like a 3D C Javascript that -- I don't know, it's really nifty. And then the other one uses some -- my very specific thing that I like about it is that it uses CSS Grid, which is kind of like a slightly useable thing on desktop modern browsers now - it's something we've talked about in a previous episode - even though it might not work everywhere... But I always assumed Grid was like a layout mechanism, like "Here are some columns" type thing, or "Here are the sections of the website for content", so it kind of surprised me to see... We these skewed stripes in the background; they used to be really hard to put together - you had to do images or do these different things, and with Grid it just works perfectly.
+\[00:43:06.29\] The Sigma page might as well be like a 3D C JavaScript that -- I don't know, it's really nifty. And then the other one uses some -- my very specific thing that I like about it is that it uses CSS Grid, which is kind of like a slightly useable thing on desktop modern browsers now - it's something we've talked about in a previous episode - even though it might not work everywhere... But I always assumed Grid was like a layout mechanism, like "Here are some columns" type thing, or "Here are the sections of the website for content", so it kind of surprised me to see... We these skewed stripes in the background; they used to be really hard to put together - you had to do images or do these different things, and with Grid it just works perfectly.
 
 So this is like a little section with the class name of Stripe, so open up your console and go to the Stripe.com/Connect and look at the Stripe section for a beautiful designer usage of the CSS Grid. That's my pick for the week. That 10 lines of HTML and CSS. \[laughter\]
 

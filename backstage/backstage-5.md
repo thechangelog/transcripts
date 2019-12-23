@@ -284,7 +284,7 @@ We had somebody on Changelog News recently, Adam, who was advocating for the use
 
 **Jerod Santo:** But that fixes it. And it actually works maybe 70% of the time without having to do that.
 
-**Adam Stacoviak:** I wonder if there's a \[unintelligible 00:23:34.26\] you can refresh, or something like that.
+**Adam Stacoviak:** I wonder if there's a keylist you can refresh, or something like that.
 
 **Jerod Santo:** I spent some time back in the day trying to do all the things, and there's just nothing... So mostly I'm just like "I feel like I need to just change it." I don't know who to blame at this point. I feel like it's macOS, or some sort of LG driver thing. Nobody else that I can find on the internet has this problem, so it's one of those un-googleable things.
 
@@ -374,7 +374,7 @@ We had somebody on Changelog News recently, Adam, who was advocating for the use
 
 **Jerod Santo:** Yeah, that's what I was thinking of, for sure. When I saw that, I thought "Okay, this might actually change the web to a certain degree", because it is a universal sign-in across all platforms that Apple uses... And it uses face ID, which is incredibly compelling from an end user perspective, because it's just so easy and fast. And they're actually making face ID 30% faster, which was another thing that got a huge applause... But it's something that's gonna be implemented maybe in Apple Pay, where it's gonna take actual developer adoption to get it out there on the web... Because it's gonna be instead of, or in addition to all the typical social sign-in options now.
 
-\[00:32:20.03\] So I assume there'll be some sort of Javascript SDK or something that you'll have to integrate, but I think it's a very secure and private way to get authentication out there in ways that seem like it's better in almost every way than what's currently on offer.
+\[00:32:20.03\] So I assume there'll be some sort of JavaScript SDK or something that you'll have to integrate, but I think it's a very secure and private way to get authentication out there in ways that seem like it's better in almost every way than what's currently on offer.
 
 **Adam Stacoviak:** What are the reasons why you use a third-party sign in like that? The reason why you ever sign in with Facebook, or Twitter, or others - what were the reasons, typically? Was it simply for the authentication process, or was it for the network, or was it for the "connected to the network and friends", and being able to connect to different identities? And how does this differ?
 
@@ -474,7 +474,7 @@ Even Gravatar, for instance. That's a feature, right? I have to give my email ad
 
 **Jerod Santo:** \[00:44:00.05\] No, but it's your name. It's your info.
 
-**Nick Nisi:** Yeah, you can do that with the \[unintelligible 00:44:00.06\]
+**Nick Nisi:** Yeah, you can do that with the "share it".
 
 **Adam Stacoviak:** Well, I know, but you have to say who to share it to, and it's just a number they display.
 
@@ -598,7 +598,7 @@ Even Gravatar, for instance. That's a feature, right? I have to give my email ad
 
 **Nick Nisi:** I didn't have accidental gestures, so yes.
 
-**Jerod Santo:** It worked much better, but I never had love for it, because I could \[unintelligible 00:51:58.10\] \[laughs\]
+**Jerod Santo:** It worked much better, but I never had love for it, because I could never find \[unintelligible 00:51:58.10\] \[laughs\]
 
 **Adam Stacoviak:** \[00:51:59.21\] What drives me crazy is latency. I don't know about you guys, but I have one -- so I have a couple Apple TVs in my house, and one of them, the latency drives me crazy, from the gesture to on-screen. It's unusable. I have to literally open up my phone and use the app instead, because that's more reliable.
 
@@ -614,7 +614,7 @@ Even Gravatar, for instance. That's a feature, right? I have to give my email ad
 
 **Adam Stacoviak:** It is amazing. It was the first time I had ever actually used a voice-to-something on a remote... And it was amazing. I don't have Xfinity anymore, because it's so expensive - we now have DirecTV - but I really miss that talk feature. It was the best of all talk features, and it never failed. It was always right.
 
-**Jerod Santo:** Well, speaking of top features, we've failed to mention the top feature for iOS, which \[unintelligible 00:53:48.09\] which is Dark Mode. That's the headliner, right?
+**Jerod Santo:** Well, speaking of top features, we've failed to mention the top feature for iOS, which got its own video and everything, which is Dark Mode. That's the headliner, right?
 
 **Adam Stacoviak:** Yes...!
 
@@ -698,7 +698,7 @@ Even Gravatar, for instance. That's a feature, right? I have to give my email ad
 
 **Jerod Santo:** They definitely mentioned security, but I didn't actually pick up on what it was doing... But I guess that makes sense.
 
-**Nick Nisi:** Well, they added the secure video stuff, which it was unfortunate that -- like, I have some \[unintelligible 01:01:14.17\] cameras and I don't think they're part of it... But they'll be able to do processing and detection of things in those videos by sending that off to an iPad in your house, or a HomePod in your house (some other computer that can do it) and then send the data back, so it's all being done in network, which is pretty cool. Again, marketing for "We're the secure platform."
+**Nick Nisi:** Well, they added the secure video stuff, which it was unfortunate that -- like, I have some Arlo cameras and I don't think they're part of it... But they'll be able to do processing and detection of things in those videos by sending that off to an iPad in your house, or a HomePod in your house (some other computer that can do it) and then send the data back, so it's all being done in network, which is pretty cool. Again, marketing for "We're the secure platform."
 
 **Jerod Santo:** Yeah, exactly.
 

@@ -245,7 +245,7 @@ So there's all these creative things, and I'm really interested to hear other th
 
 **Jerod Santo:** Since you're the expert, Brian, how do they do it on Azure Functions and AWS Lambda? Surely, they have to spin up something on-demand as well in order to get the environment ready for you.
 
-**Brian Ketelsen:** There's two answers to that. Both Azure Functions and Lambda allow code execution in a sanitized environment, but it's not a container environment. So you're just executing a function. It fires up Node.js and runs your Javascript thing, but that's not in a container. I can't answer for Lambda, but I know Azure Functions allows you to run a Docker container too, so if you're using the dockerized workflow for either one of those, you're already paying that price in startup time, but if you're not, then it would be a big difference.
+**Brian Ketelsen:** There's two answers to that. Both Azure Functions and Lambda allow code execution in a sanitized environment, but it's not a container environment. So you're just executing a function. It fires up Node.js and runs your JavaScript thing, but that's not in a container. I can't answer for Lambda, but I know Azure Functions allows you to run a Docker container too, so if you're using the dockerized workflow for either one of those, you're already paying that price in startup time, but if you're not, then it would be a big difference.
 
 **Erik St. Martin:** Especially in the Kubernetes environment, too... It can be even more slowed if the container that needs to run hasn't run on that node before, because then the image has to be pulled, and then depending on how large the image is, you have to wait for that. That's even how Kubernetes works, it's an eventually consistent system. I use a declarative API to say "This is my intent, this is the desired state", and then it evolves there. There's no guarantee that that's instant, the second that Kubernetes tells me "Yay, I accepted your new pod." It doesn't mean it's running yet, and it could take who knows how long, depending on whether it needs to pull images, and things like that.
 
@@ -411,9 +411,9 @@ It's working its way towards production. We've got some people using it internal
 
 **Adam Stacoviak:** Oh, gosh...!
 
-**Erik St. Martin:** Yeah, which is the new go-to Javascript compiler that recently came out. I haven't had a chance to play with it, so I don't know how it compares to [gopherjs](https://github.com/gopherjs/gopherjs). I don't know whether you have, Brian, but it seemed cool and it's something I will probably try to play with.
+**Erik St. Martin:** Yeah, which is the new go-to JavaScript compiler that recently came out. I haven't had a chance to play with it, so I don't know how it compares to [gopherjs](https://github.com/gopherjs/gopherjs). I don't know whether you have, Brian, but it seemed cool and it's something I will probably try to play with.
 
-**Brian Ketelsen:** Yeah, it's not complete enough, so in terms of completeness, Gopher.js is close to 100% or at 100%. Joy, I think they claim roughly 80% complete; there's several things that don't compile from Go to Javascript yet... So it's not quite there.
+**Brian Ketelsen:** Yeah, it's not complete enough, so in terms of completeness, Gopher.js is close to 100% or at 100%. Joy, I think they claim roughly 80% complete; there's several things that don't compile from Go to JavaScript yet... So it's not quite there.
 
 \[00:59:57.24\] Honestly, it was one of those things that I'm glad they did it, because it's awesome, but I wondered why they didn't spend the time on changing something in Gopher.js if that was the -- if there was something missing in Gopher.js, but...
 

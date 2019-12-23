@@ -10,7 +10,7 @@ Ping is for show ideas, and the evolution now is to share your news through Chan
 
 **Jerod Santo:** \[00:03:55.19\] There you have it. Rhys, let's get to Renovate, let's hear your story and this app that -- at least you've got one happy customer, Nicholas Young, who it's changed his life a little bit. So tell us about Renovate, what it is and the back-story of how it came to be.
 
-**Rhys Arkins:** Yeah, thanks, and thanks to Nicholas, of course. Renovate is a command line tool that is also being adapted to also be a GitHub app, which is what Nicholas refers to... But primarily, it's a command line tool that is used for automating dependency updates for projects such as Javascript and Dockerfiles and a few things like that. It automates it using branches and pull requests in your existing project to try to fit in with the workflow you already have.
+**Rhys Arkins:** Yeah, thanks, and thanks to Nicholas, of course. Renovate is a command line tool that is also being adapted to also be a GitHub app, which is what Nicholas refers to... But primarily, it's a command line tool that is used for automating dependency updates for projects such as JavaScript and Dockerfiles and a few things like that. It automates it using branches and pull requests in your existing project to try to fit in with the workflow you already have.
 
 **Jerod Santo:** Very straightforward. How about the back-story? Why did it come to be and how did it come to be?
 
@@ -18,7 +18,7 @@ Ping is for show ideas, and the evolution now is to share your news through Chan
 
 A few months later I had a problem which was affecting up to 5% of users - weird errors getting caught in my Sentry reporting, and I probably spent two days trying to figure out what was going on. There was actually another developer one day, and myself a day, and eventually we discovered that it was a really strange bug that had been fixed by Google's Firebase a month earlier, or something... And I just decided "Never again", because that was a really -- I couldn't even tell exactly how it was impacting users; you're getting exceptions thrown, but you don't know for sure what they're seeing or what's failing for them, and two days of developer time as well - it's too much, so I decided to hack together a script.
 
-Basically, it was like a Bash script with Git commands - git branch, git pull, git checkout, git push - combined with just a little bit of Javascript to make the pull request.
+Basically, it was like a Bash script with Git commands - git branch, git pull, git checkout, git push - combined with just a little bit of JavaScript to make the pull request.
 
 **Jerod Santo:** I just wanted to comment on the fact that so many awesome projects begin with "So I decided to hack together a script..." How many times did we hear that?
 
@@ -192,7 +192,7 @@ Even if you wanna be "non-semver-versioning", you can still get updated whenever
 
 I did some refactoring recently to make it a lot easier to add languages in, and there's someone who's told me that he thinks he can add in Docker Compose support pretty easily now, given that there's already Docker there. Hopefully, we'll see a lot more languages added a lot more quickly now that the code is a little bit more welcoming of outside languages and package managers.
 
-**Jerod Santo:** You mentioned that with package.json you're basically automating something that people could do manually, and I'll tell you right now that you're automating something that I do manually for our application... We have an Elixir app which also has Javascript, as all web apps have Javascript somewhere in the mix. So we have a mix.exs, which is the Elixir side, and we have a package.json... And Adam and I were just talking about this, like "How do we keep up with the Joneses...?"
+**Jerod Santo:** You mentioned that with package.json you're basically automating something that people could do manually, and I'll tell you right now that you're automating something that I do manually for our application... We have an Elixir app which also has JavaScript, as all web apps have JavaScript somewhere in the mix. So we have a mix.exs, which is the Elixir side, and we have a package.json... And Adam and I were just talking about this, like "How do we keep up with the Joneses...?"
 
 **Adam Stacoviak:** You sound frustrated just describing it...
 
@@ -248,7 +248,7 @@ One of my favorite anecdotes, and I've been tempted to put this on the web page,
 
 The challenge is -- I think there can be a mismatch between people's expectations about semver... Like, is semver for the consumer, or is it for the producer of the packages? You used the word 'volatile', which is actually a really good one to include there, because semver works on a major minor patch, and in recent years there's been a movement to sort of clarify that a little as being like "breaking feature fix", mapping to the major minor patch.
 
-To give an example, if I have a Javascript library and I do nothing except for deprecate support for Node 4, I just say "Okay, I'm not gonna support that from now on" - is that a major minor or a patch? It wasn't meant to be a trick question, sorry...
+To give an example, if I have a JavaScript library and I do nothing except for deprecate support for Node 4, I just say "Okay, I'm not gonna support that from now on" - is that a major minor or a patch? It wasn't meant to be a trick question, sorry...
 
 **Jerod Santo:** Yeah, I was gonna say, it's a deprecation, so I would think that is a patch; you're not really doing anything.
 

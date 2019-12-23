@@ -50,7 +50,7 @@ I think that's building on kind of where we're at with the language too, because
 
 **Erik St. Martin:** So talk to us about what some of the most popular ones are. Do you have ones that get exponentially more viewings and followings that others, or is it pretty scattered?
 
-**Aaron Schlesinger:** \[00:07:41.19\] I think the number one by far is how to write a full stack web application, all the way from database access, down to serving up templates and writing Javascript. That one was how to do it with just the standard library. I think that one had like 5,000 views after the first week. The rest of them, maybe they get to 1,000 views in the first couple weeks. I don't know what the second or third would be, but that one's the top.
+**Aaron Schlesinger:** \[00:07:41.19\] I think the number one by far is how to write a full stack web application, all the way from database access, down to serving up templates and writing JavaScript. That one was how to do it with just the standard library. I think that one had like 5,000 views after the first week. The rest of them, maybe they get to 1,000 views in the first couple weeks. I don't know what the second or third would be, but that one's the top.
 
 **Brian Ketelsen:** Hang on a second... You did that in five minutes?
 

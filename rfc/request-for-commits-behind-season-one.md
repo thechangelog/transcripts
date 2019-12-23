@@ -46,11 +46,11 @@ Nadia, tell us about these notes, because you all gotta see some of the Google D
 
 **Adam Stacoviak:** In the worst case scenario, you'll keep them on their toes. It's like, "Wow, these people are serious... We're gonna podcast about this." And I think, to that note, one of my most favorite - not because it's the best one, but because I just love the way he came in with passion - was Brendan Eich. It was like the \[unintelligible 00:04:46.03\] and let it go, and then Brendan just told the story, the history of open source, the web, how it was funded... I think he'd have done that anyways, but maybe the notes... It was like, "Hey, this is serious... We're gonna talk about the history of the web here", and he was ready for it.
 
-**Mikeal Rogers:** I think it made him really excited too, because it made it clear that we were gonna talk about something different than most of his podcasts. Usually, he comes on and talks about either how he created Javascript in like an hour, or whatever it was, or...
+**Mikeal Rogers:** I think it made him really excited too, because it made it clear that we were gonna talk about something different than most of his podcasts. Usually, he comes on and talks about either how he created JavaScript in like an hour, or whatever it was, or...
 
 **Jerod Santo:** Ten minutes, I think.
 
-**Mikeal Rogers:** ... or what does the next version of Javascript look like. Those are the two styles of interviews that he really gets, and we were clearly gonna talk about other stuff. But for all the listeners out there that don't understand what we're talking about with these notes, because they haven't seen them... These aren't notes taken while we're talking, these are prepared notes before the interview, that are basically kind of broken into three sections, because we have the breaks in between.
+**Mikeal Rogers:** ... or what does the next version of JavaScript look like. Those are the two styles of interviews that he really gets, and we were clearly gonna talk about other stuff. But for all the listeners out there that don't understand what we're talking about with these notes, because they haven't seen them... These aren't notes taken while we're talking, these are prepared notes before the interview, that are basically kind of broken into three sections, because we have the breaks in between.
 
 Nadia essentially just does a lot of research and has a lot of possible discussion points. We never hit all of them, but it's this amazing guide that we can continue to fall back to. We try to have a conversation and move naturally, but also one of the reasons why the show continues to move forward really easily is because we always have that guide to fall back to. The notes are amazing and super thorough.
 
@@ -62,7 +62,7 @@ Nadia essentially just does a lot of research and has a lot of possible discussi
 
 **Adam Stacoviak:** Can we talk about the design of the show a little bit then on that note? Since off the cuff is something you're scared of, we kind of come into the show a little differently than maybe other podcasts where they sort of say, "So, I guess, tell everybody who you are" and they ran for it ten minutes, and burn ten minutes of show time, whereas we come in and it's like you go right into the heart of the story.
 
-**Nadia Eghbal:** This is one of the things that I didn't really think about until Mikeal pointed this out, but that we get to bring people on the show to talk about, aside of themselves, what they don't always get asked about... So it's not always about what they've done from a technical perspective, but sort of like "Who are you as a person and what is your philosophy on things?" While we open up the show with an intro side, it's more tailored to the sustainability topic and not just, "Oh, you created Javascript. Let's talk about that."
+**Nadia Eghbal:** This is one of the things that I didn't really think about until Mikeal pointed this out, but that we get to bring people on the show to talk about, aside of themselves, what they don't always get asked about... So it's not always about what they've done from a technical perspective, but sort of like "Who are you as a person and what is your philosophy on things?" While we open up the show with an intro side, it's more tailored to the sustainability topic and not just, "Oh, you created JavaScript. Let's talk about that."
 
 **Adam Stacoviak:** Right.
 

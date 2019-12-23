@@ -422,7 +422,7 @@ Actually, the markdown stuff in Roon has nothing to do with the Cheddar, it's co
 
 **Sam Soffes:** Yes. Drew added this little blur around it, or like an outer glow or whatever; it looks really nice. But yeah, it's totally like "Yay, now I can --" because I was really unhappy that I can't use the highlight, because that's totally my thing... And it's really cool now to see other people on Roon blogging and using the highlight. I was like "This is amazing! This is how I wanna read things. I just wanna read the highlighted parts if I don't really care that much."
 
-Actually, someone ported that stuff to like a Javascript one, or... People like the new stuff we added, so it's pretty cool.
+Actually, someone ported that stuff to like a JavaScript one, or... People like the new stuff we added, so it's pretty cool.
 
 **Adam Stacoviak:** You mentioned Seesaw there for a bit, and I guess we can't kind of close your chapter here without mentioning the fact - I guess we touched on it earlier in the show - that two days prior to you getting married you left Seesaw \[unintelligible 00:49:27.13\] and you'd mentioned that a lot of your open source was used there... What do you wanna say about your departure from Seesaw and just the fact that what you built there?
 

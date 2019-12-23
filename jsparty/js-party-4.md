@@ -1,10 +1,10 @@
-**Mikeal Rogers:** Hey, welcome to JS Party, where it's a party every week with Javascript. I'm gonna say that every time, until Alex's head explodes. Alright, so today we're gonna dive right into it and we're gonna talk about PWAs, we're gonna talk about Glitch, which is Jenn Schiffer's new thing, who is the best person in the world...
+**Mikeal Rogers:** Hey, welcome to JS Party, where it's a party every week with JavaScript. I'm gonna say that every time, until Alex's head explodes. Alright, so today we're gonna dive right into it and we're gonna talk about PWAs, we're gonna talk about Glitch, which is Jenn Schiffer's new thing, who is the best person in the world...
 
 **Jenn Schiffer:** It's not just Jen...
 
 **Alex Sexton:** Chill...
 
-**Mikeal Rogers:** And we're gonna talk about everybody's favorite part of Javascript, the Date object. Alright, to kick it off - PWAs (Progressive Web Applications). This is a term that gets thrown around all the time, it's a term that I don't think anybody actually understands what it means... Rachel, based on your interpretation of what this means from maybe Reddit threads or tweets or headlines of things, what do you think Progressive Web Apps are?
+**Mikeal Rogers:** And we're gonna talk about everybody's favorite part of JavaScript, the Date object. Alright, to kick it off - PWAs (Progressive Web Applications). This is a term that gets thrown around all the time, it's a term that I don't think anybody actually understands what it means... Rachel, based on your interpretation of what this means from maybe Reddit threads or tweets or headlines of things, what do you think Progressive Web Apps are?
 
 **Rachel White:** First of all, I would never read anything about programming on Reddit. Second of all, I literally know nothing, even though I've seen people talk about it... So my interpretation of what a Progressive Web App is is just taking the name and assuming that it's not an application that deals with politics that have advancing views...
 
@@ -40,7 +40,7 @@
 
 **Alex Sexton:** ...you build a web application that works on the worst browser, and then as browsers support features, then you can make the experience better, you can enhance the experience progressively based on those feature tests.
 
-\[00:04:03.04\] Progressive enhancement - the word comes from the battled days when 20% of the internet disabled Javascript... So the whole mantra was "Make sure your website works without Javascript, and then progressively enhance it to have any Javascript whatsoever." That's where that term comes from.
+\[00:04:03.04\] Progressive enhancement - the word comes from the battled days when 20% of the internet disabled JavaScript... So the whole mantra was "Make sure your website works without JavaScript, and then progressively enhance it to have any JavaScript whatsoever." That's where that term comes from.
 
 Now it has been co-opted through each generation beautifully - I don't think that's a bad thing - so now progressive enhancement often implies that you're building a progressive web app, but a progressive web app is like a new term, mostly from the Google ilk, that I can break down if we're done doing the guessing section. I don't wanna ruin it for anybody. \[laughs\]
 
@@ -66,7 +66,7 @@ I can go through the checklist, but does that make sense so far?
 
 In this case, what they wanna force people is to work offline, but they don't want people to build websites that assume anything, assume a good network connection. Because once you're offline, everything's locally cached. The most beautiful thing about service workers is that the first time you load a page, the service worker cannot run because it couldn't have installed yet. So your website has to work on browsers that don't support service workers at all, as well as on the first load for browsers that do support it.
 
-And on that first load, you can install the service worker, and then from then on out, that Javascript can run prior to the request for the page being made. That's kind of the key ingredient there - you now have Javascript that can run without any network request on future requests. So what you may do is say, "Alright, use my cache..." -- you can choose what to cache and you can choose what not to cache on all sorts of stuff. So I have a service worker, I load up a web page, and it doesn't use the service worker the first time, because I've never loaded this web page before, and then eventually some Javascript runs and says, "Okay, play this service worker onto AlexSexton.com". Then I reload AlexSexton.com and then I can say "Alright, I have a copy of the main page in my cache already. I'm just going to capture the network request and cut it off and not let it actually go out to the web, and just return what I have."
+And on that first load, you can install the service worker, and then from then on out, that JavaScript can run prior to the request for the page being made. That's kind of the key ingredient there - you now have JavaScript that can run without any network request on future requests. So what you may do is say, "Alright, use my cache..." -- you can choose what to cache and you can choose what not to cache on all sorts of stuff. So I have a service worker, I load up a web page, and it doesn't use the service worker the first time, because I've never loaded this web page before, and then eventually some JavaScript runs and says, "Okay, play this service worker onto AlexSexton.com". Then I reload AlexSexton.com and then I can say "Alright, I have a copy of the main page in my cache already. I'm just going to capture the network request and cut it off and not let it actually go out to the web, and just return what I have."
 
 Then I'll actually go ahead -- if I have a network connection, I'm gonna go see if there are any updates, like "Does Alex have a new blog entry?" And if it does, I can kind of put a little thing on the top that says "There are new entries here" or just immediately pop it in, depending on the experience, or something like that.
 
@@ -132,15 +132,15 @@ If you download one of Google's beta browsers or something like that, it actuall
 
 **Break:** \[00:20:29.21\]
 
-**Mikeal Rogers:** Alright, now we're gonna dive into date and timezones and this really rough corner of Javascript. I love Javascript as a language, it's really great in so many ways, and in this way it's really terrible. Anybody who's done Javascript for a long time or has used another language noticed how bad our Date/Time stuff is, especially what comes natively.
+**Mikeal Rogers:** Alright, now we're gonna dive into date and timezones and this really rough corner of JavaScript. I love JavaScript as a language, it's really great in so many ways, and in this way it's really terrible. Anybody who's done JavaScript for a long time or has used another language noticed how bad our Date/Time stuff is, especially what comes natively.
 
 I don't know how much you all have had to deal with this, or if you have any horror stories that you wanna bring up right now... I'll leave it open for anybody to bring that up if you want.
 
 **Alex Sexton:** Timezones?
 
-**Mikeal Rogers:** Yeah, timezones and dates in general in Javascript.
+**Mikeal Rogers:** Yeah, timezones and dates in general in JavaScript.
 
-**Alex Sexton:** Yeah, I sure have plenty of horror stories that I won't tell, but I think one of my favorite tweets was "I was really excited for us to colonize Mars until I realized how much harder date/time math would get in Javascript."
+**Alex Sexton:** Yeah, I sure have plenty of horror stories that I won't tell, but I think one of my favorite tweets was "I was really excited for us to colonize Mars until I realized how much harder date/time math would get in JavaScript."
 
 **Rachel White:** Oh my god...
 
@@ -156,7 +156,7 @@ I don't know how much you all have had to deal with this, or if you have any hor
 
 **Rachel White:** \[laughs\] Oh, god...
 
-**Mikeal Rogers:** Alright... So beyond that, there's some real complexities in working with date/time and working with timezones. In the mid-2000s I actually worked on calendaring standards at CalConnect, and on like the CalDAV scheduling standards and stuff like that. So I'm very aware of the complexity you're trying to deal with... Javascript happens to have one of the least sophisticated and built out date/time objects, so it doesn't help you very much.
+**Mikeal Rogers:** Alright... So beyond that, there's some real complexities in working with date/time and working with timezones. In the mid-2000s I actually worked on calendaring standards at CalConnect, and on like the CalDAV scheduling standards and stuff like that. So I'm very aware of the complexity you're trying to deal with... JavaScript happens to have one of the least sophisticated and built out date/time objects, so it doesn't help you very much.
 
 \[00:23:52.26\] Since really the early 2000s, we've been building these third-party libraries to deal with a lot of this. One of the problems that we continue to run into is that these are some of the largest libraries you have to include. MomentJS is really good, it does a lot of really good stuff, but it's huge, and it's not huge in a way where, "Oh, that should be a small module that does one thing..." All of the logic to do one of these things - 90% of that is required for doing the other thing. It defies a lot of the abstractions and a lot of the modularity that we like to talk about.
 
@@ -220,7 +220,7 @@ Yeah, so now we have tz data, but loading all that data takes a while. It's one 
 
 **Rachel White:** So what are ways that some other languages handle it better? The one that I can think of off the top of my head was whenever I used to do a lot of Wordpress stuff and you wanted the PHP snippet in your footer, so that people knew what year your arbitrary copyright was... That was too totally easy to do. What are some other ways that other languages handle it that you like, that you know of?
 
-**Alex Sexton:** I think it's less important to know what other languages do -- sorry, that was maybe a rude way to answer your question... But one of the key differences here is we have to ship this data to the browser a lot of times, so I think a lot of languages like PHP - it's been a while since I've done PHP, but I don't think the natives there are so amazing compared to Javascript's native stuff.
+**Alex Sexton:** I think it's less important to know what other languages do -- sorry, that was maybe a rude way to answer your question... But one of the key differences here is we have to ship this data to the browser a lot of times, so I think a lot of languages like PHP - it's been a while since I've done PHP, but I don't think the natives there are so amazing compared to JavaScript's native stuff.
 
 Maybe you don't get the weird month offset versus date offset thing that we get - that's just our own special joy - but we can't ship every last timezone and translation and everything of every different thing to the browser every time, because you're just gonna have to ship half a megabyte of time-related things with every single web app.
 
@@ -228,7 +228,7 @@ Maybe you don't get the weird month offset versus date offset thing that we get 
 
 **Rachel White:** That makes sense.
 
-**Mikeal Rogers:** Yeah. I mean, it's really complicated to load them dynamically, and if you send them all no matter what, then the Javascript bundle size is gonna be really big and then Alex Russell's gonna cry and he's gonna yell at you on Twitter, so you've gotta keep that down.
+**Mikeal Rogers:** Yeah. I mean, it's really complicated to load them dynamically, and if you send them all no matter what, then the JavaScript bundle size is gonna be really big and then Alex Russell's gonna cry and he's gonna yell at you on Twitter, so you've gotta keep that down.
 
 **Alex Sexton:** Both of those things are just guaranteed gonna happen regardless, so... \[laughter\] Change your behavior, basically... I mean, he's right, but...
 
@@ -246,7 +246,7 @@ Maybe you don't get the weird month offset versus date offset thing that we get 
 
 **Mikeal Rogers:** Yes, exactly. \[laughs\] So now it actually isn't a standards body, which is good. Hopefully we can see an easier path to getting it everywhere and in stuff by default.
 
-**Alex Sexton:** This is only a slight tangent, but I really liked the arc of the MomentJS project; I think it's kind of a beautiful arc. Tim R. Wood starts MomentJS as a pretty new Javascript developer and he's like "Hey, I see the need for this all the time..." and you can even see him get better as a Javascript developer over time... The first internationalization efforts were all community-sourced in a pretty weird way, and I could verifiably tell you that 20% of them were wrong. Someone Google translated half the languages, or whatever... But it grew and grew, and obviously the size of the project grew because it's a complex, hard problem, but also the codebase became better and better and better, as more people started depending on it, to the point where it became a self-sufficient project without Tim, and had a lot of community support.
+**Alex Sexton:** This is only a slight tangent, but I really liked the arc of the MomentJS project; I think it's kind of a beautiful arc. Tim R. Wood starts MomentJS as a pretty new JavaScript developer and he's like "Hey, I see the need for this all the time..." and you can even see him get better as a JavaScript developer over time... The first internationalization efforts were all community-sourced in a pretty weird way, and I could verifiably tell you that 20% of them were wrong. Someone Google translated half the languages, or whatever... But it grew and grew, and obviously the size of the project grew because it's a complex, hard problem, but also the codebase became better and better and better, as more people started depending on it, to the point where it became a self-sufficient project without Tim, and had a lot of community support.
 
 Then as more primitives and natives and more specific modules come out, it's seeing less usage and less contributions, and stuff like that. But it also got donated into the jQuery Foundation and now has the long-term support there. So the whole arc of the project is a very good example of people coming together and doing open source, and making the web a better place. It just makes me happy. Yes, Mike.
 
@@ -302,7 +302,7 @@ And then it just makes sense, because everyone wants people to have the ability 
 
 **Rachel White:** It also seems like it's a really good environment for people that are curious about wanting to try out more kinds of creative coding but might not necessarily know how to do a lot of things besides just experimenting with a language, and now that they can make an application and see it right in front of them is really cool, too... This is like solving the problem of somebody not open sourcing something, but you would just view the source of their site, so now you don't have to...
 
-**Jenn Schiffer:** Yeah... When I was learning how to program, when I was learning how to make websites and stuff, I was viewing the source of everything and I was copying and pasting this language called Javascript, and things weren't working and I wasn't understanding script source. I was just pasting Javascript from a library that I hadn't embedded yet, and learning the hard ways I'd go through stuff... But that was a challenge that really got me into programming.
+**Jenn Schiffer:** Yeah... When I was learning how to program, when I was learning how to make websites and stuff, I was viewing the source of everything and I was copying and pasting this language called JavaScript, and things weren't working and I wasn't understanding script source. I was just pasting JavaScript from a library that I hadn't embedded yet, and learning the hard ways I'd go through stuff... But that was a challenge that really got me into programming.
 
 Nowadays it's culture -- a lot of people who are new to development or just are younger don't remember we're a part a of the whole "view source" aspect of building. We're building applications with frameworks that obfuscate... When you look at the source you don't see exactly what's there, so people aren't learning in that way... Which is fine. That's not saying that frameworks are bad, it's just that if you wanna teach people how to program, you really can't give them a React or Ember app and say "Learn how to build your first web page with this as an example."
 

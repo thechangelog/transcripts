@@ -34,7 +34,7 @@
 
 **Lynne Tye:** Exactly. A pretty dead end.
 
-**Adam Stacoviak:** \[unintelligible 00:04:19.08\] keep going around there, and there's no real long-term path... And Seth's advice in that is basically what you've said before, which is why I thought you should read this if you haven't yet - it's that it's about the right time to quit. You don't start something and see it through to the end because you have to... "Winners never quit, and quitters never win" kind of mentality. But there's this dip in between starting and finishing that is this lull. In the startup world you hear it as the trough of sorrow etc. This sort of long sloth, this long time period that's very hard... But the winners are the difference between the people who can get through the dip, but is the dip worth getting through? That's the long story short.
+**Adam Stacoviak:** It's a little circle, you just keep going around there, and there's no real long-term path... And Seth's advice in that is basically what you've said before, which is why I thought you should read this if you haven't yet - it's that it's about the right time to quit. You don't start something and see it through to the end because you have to... "Winners never quit, and quitters never win" kind of mentality. But there's this dip in between starting and finishing that is this lull. In the startup world you hear it as the trough of sorrow etc. This sort of long sloth, this long time period that's very hard... But the winners are the difference between the people who can get through the dip, but is the dip worth getting through? That's the long story short.
 
 **Lynne Tye:** For sure.
 
@@ -60,7 +60,7 @@ A year and a half in it got really hard. That was the time when my parents were 
 
 **Adam Stacoviak:** \[00:08:10.29\] Right. It's true advice.
 
-**Lynne Tye:** Yeah, which is true. For sure. So six months later I was really miserable and I could not pinpoint what it was... It was just mind-blowing to me. And I was also doing pretty well. I think I was the first in my class to pass my qualifying exam; I'd co-authored a paper, I was published already... Things were going really well. So I think it just didn't cross my mind that the thing I was doing well at could have been the source of my misery, and I just thought it could have been anything else. Maybe I miss my friends, maybe I'm homesick... I was dating this guy from college at the time, and I was like "Maybe we should move in together. Maybe we should break up. Are we getting married?" I had no idea where \[unintelligible 00:08:56.11\]
+**Lynne Tye:** Yeah, which is true. For sure. So six months later I was really miserable and I could not pinpoint what it was... It was just mind-blowing to me. And I was also doing pretty well. I think I was the first in my class to pass my qualifying exam; I'd co-authored a paper, I was published already... Things were going really well. So I think it just didn't cross my mind that the thing I was doing well at could have been the source of my misery, and I just thought it could have been anything else. Maybe I miss my friends, maybe I'm homesick... I was dating this guy from college at the time, and I was like "Maybe we should move in together. Maybe we should break up. Are we getting married?" I had no idea where I was.
 
 **Adam Stacoviak:** \[laughs\] Questioning all the things.
 
@@ -100,7 +100,7 @@ And of course, I think it's funny I didn't notice at the time - I still build Ke
 
 **Lynne Tye:** Nice, nice.
 
-**Adam Stacoviak:** We invited our closest friends, so we didn't have to deal with the whole 300 people there, feeding everybody, throwing a big party when it should be around us and \[unintelligible 00:13:58.08\]
+**Adam Stacoviak:** We invited our closest friends, so we didn't have to deal with the whole 300 people there, feeding everybody, throwing a big party when it should be around us and our marriage.
 
 **Lynne Tye:** Yeah. Because it's hard to not be about... For you.
 
@@ -176,7 +176,7 @@ In some ways, me becoming a founder, which is so -- I never would have guessed t
 
 I think the juxtaposition from coming from a week of that, around all these people who were just genuinely excited to wake up - to me it sounded so nice, but it didn't seem real... And I saw it with my own eyes, and then coming back, I dreaded -- I was like "I hate being here. I have to pretend to be interested, I have to make small talk", I have to pay attention to something I just literally couldn't care about at all... And I just realized that I'd been pretending for so long, and it wasn't making me happy.
 
-Some people still say "You were so brave, you had all this courage" but I almost feel like it would have been harder for sure to \[unintelligible 00:26:07.10\] So to me it was the path of least resistance to just stop forcing myself to do something that made me so unhappy. And yeah, when I dropped out of grad school I had nothing lined up. Nothing. I had no idea what I wanted to do... And this of course, too -- I'm Chinese, and my parents were like... There's some saying; I'm gonna totally butcher it... There's some proverb - oh my gosh, I've gotta look this up - where "You don't give up your horse to walk, you transfer to another horse", or to an oxen, or whatever.
+Some people still say "You were so brave, you had all this courage" but I almost feel like it would have been harder for sure to \[unintelligible 00:26:07.10\] So to me it was the path of least resistance to just stop forcing myself to do something that made me so unhappy. And yeah, when I dropped out of grad school I had nothing lined up. Nothing. I had no idea what I wanted to do... And this of course, too -- I'm Chinese American and my parents were like... There's some saying; I'm gonna totally butcher it... There's some proverb - oh my gosh, I've gotta look this up - where "You don't give up your horse to walk, you transfer to another horse", or to an oxen, or whatever.
 
 **Adam Stacoviak:** Right.
 
@@ -284,7 +284,7 @@ I almost wish I was fully motivated by money, because it would be really simple.
 
 **Adam Stacoviak:** \[00:44:01.08\] So it sounds like you hit your financial goals; you had some certain amount of deals, or a certain kind of placement, a certain financial goal... What if your goal was more focused on not so much just your happiness, but that of the people that you serve? ...rather than a monetary goal. When you exchange value, money exchanges hands, in most cases. And if it doesn't, then it's not usually a good relationship on the long-term; maybe in the short-term. So if you exchange value between you and somebody else, or vice-versa, there's likely in a capitalistic world an exchange of money.
 
-**Lynne Tye:** I mean, I've always wanted to help people. That makes me happy, for sure. But I don't know how -- and this is what's really interesting... I hear all these other founders talk, I see them tweet, I listen to their podcast, I talk to them in person, and a lot of people have this -- they want to make the world a better place, or \[unintelligible 00:44:56.12\] They really wanna have the greatest impact, they wanna leave a legacy... And I'm just not genuinely motivated by some of those things. I don't know if this is super -- people say it's optimistic-nihilist, or something, but... If I really wanted to change the world, I probably wouldn't have started Key Values; there's probably a lot bigger problems. Honestly, most startups in tech - you're not really changing lives by selling ads, or getting people to use your \[unintelligible 00:45:32.06\]
+**Lynne Tye:** I mean, I've always wanted to help people. That makes me happy, for sure. But I don't know how -- and this is what's really interesting... I hear all these other founders talk, I see them tweet, I listen to their podcast, I talk to them in person, and a lot of people have this -- they want to make the world a better place, or somethin fluffy like that. They really wanna have the greatest impact, they wanna leave a legacy... And I'm just not genuinely motivated by some of those things. I don't know if this is super -- people say it's optimistic-nihilist, or something, but... If I really wanted to change the world, I probably wouldn't have started Key Values; there's probably a lot bigger problems. Honestly, most startups in tech - you're not really changing lives by selling ads, or getting people to use your phone apps.
 
 **Adam Stacoviak:** Hey, come on, don't knock my business... I'm kidding.
 
@@ -374,7 +374,7 @@ I live in a rural area of Texas called Tomball, just outside of Houston. I like 
 
 **Adam Stacoviak:** Right.
 
-**Lynne Tye:** But I understand that situation, too. It's just not for everyone. But it's just so funny to me - I had this epiphany a few weeks ago, and I actually... I have a newsletter, and it's usually introducing teams, and all these really unique, interesting facts about them, and how one may wanna work there... But in the heat of my existential crisis \[unintelligible 00:57:11.13\] I was basically just blasting my personal diary to thousands of people...
+**Lynne Tye:** But I understand that situation, too. It's just not for everyone. But it's just so funny to me - I had this epiphany a few weeks ago, and I actually... I have a newsletter, and it's usually introducing teams, and all these really unique, interesting facts about them, and how one may wanna work there... But in the heat of my existential crisis was just like prudent I was basically just blasting my personal diary to thousands of people...
 
 But I realized I'm doing that, and people reached out to me, which is so great, to just bond with people on this very real, raw, shared experience of just like "I don't know what the point of my life is, what is the purpose, what drives us..." But I realize it's comically on-brand with Key Values. I have to figure out the same exercise with everyone else; it's an ongoing process, and you have to figure out what your values are first, before you can find a place, or people, or a team to help you build along that. If you don't know what you're looking for yourself first, you're leaving it to chance that you just randomly happen to find a group of people that are on the same page with you and are trying to go the same place you're trying to go, and you wanna do it together in a way that makes sense to you.
 
@@ -568,7 +568,7 @@ It's the exact same thing with Key Values - you have to do some research to get 
 
 **Adam Stacoviak:** Yeah. So since sales is so crucial to learn as a founder, to be good at, how did you learn about it, and how do you be good at it? You personally.
 
-**Lynne Tye:** \[01:15:49.27\] Oh, man... So for me it was literally trial and error. The first thing I did... It was exactly what everyone should do after this podcast, if they're not doing it already - \[unintelligible 01:16:00.02\] a couple of people that have expressed interest, or are already using your product... Cold emails, just reach out. I know you will spend an hour probably drafting that first email, overthinking every single word, and that's fine. I think there's literally no other way to start; just start. It's not pretty in the beginning. It'll continue to be ugly for a while.
+**Lynne Tye:** \[01:15:49.27\] Oh, man... So for me it was literally trial and error. The first thing I did... It was exactly what everyone should do after this podcast, if they're not doing it already - just click a couple of people that have expressed interest, or are already using your product... Cold emails, just reach out. I know you will spend an hour probably drafting that first email, overthinking every single word, and that's fine. I think there's literally no other way to start; just start. It's not pretty in the beginning. It'll continue to be ugly for a while.
 
 **Adam Stacoviak:** \[laughs\] Wise words.
 
@@ -616,7 +616,7 @@ I started closing so many more deals by doing sales, and I was like "Oh, my god.
 
 **Adam Stacoviak:** How many hours a week do you work?
 
-**Lynne Tye:** Well, during my recent/current many existential crises I've been working anywhere between 25 and 40 hours a week. Very reasonable. Q4 and Q1 I was definitely a solid 60 hours a week, probably... Maybe 70. I don't know. Sometimes I don't know if it's work or not. \[unintelligible 01:21:40.01\] boundary a lot.
+**Lynne Tye:** Well, during my recent/current many existential crises I've been working anywhere between 25 and 40 hours a week. Very reasonable. Q4 and Q1 I was definitely a solid 60 hours a week, probably... Maybe 70. I don't know. Sometimes I don't know if it's work or not. Because like also sometimes its fun I bleed that boundary a lot.
 
 **Adam Stacoviak:** Well, I think I could dive deeper, deeper into more advice, but I don't think that this show is simply just about me...
 
@@ -648,7 +648,7 @@ I'm in San Francisco, I run into founders all the time, and talk to founders all
 
 **Lynne Tye:** Of course, of course.
 
-**Adam Stacoviak:** And that's what The Dip really is about - how do you know when it's a healthy time to quit? Because quitting just isn't \[unintelligible 01:25:31.18\] Sometimes you have to go through the hard stuff to truly appreciate... You know, you can't have the sweet without the bitter, and vice-versa. Sometimes you have to sacrifice a little bit to get the good stuff.
+**Adam Stacoviak:** And that's what The Dip really is about - how do you know when it's a healthy time to quit? Because quitting just isn't a healthy thing. Sometimes you have to go through the hard stuff to truly appreciate... You know, you can't have the sweet without the bitter, and vice-versa. Sometimes you have to sacrifice a little bit to get the good stuff.
 
 **Lynne Tye:** Yeah. And I say it, and I imagine the audience is similar to me, people who want to work hard and probably almost love working hard for the sake of working hard, which can be dangerous... But of course, if you just quit everything -- yeah, I'm not talking about that. And I'm also not talking about table flipping, and being dramatic...
 
@@ -678,7 +678,7 @@ I'm in San Francisco, I run into founders all the time, and talk to founders all
 
 **Adam Stacoviak:** In your Forbes interview, which is so awesome - you did an interview with Forbes - you mentioned three crucial questions to ask... And I think this somewhat dovetails with something I talked to Saron Yitbarek on this show recently as well, which was "What are you optimizing for?" This was this crucial question she asked herself. There were three questions you asked, that you ended this interview with. The first one was "What is the outcome I'm aiming for? What energizes me on a day-to-day basis?" and "What is keeping me from starting?"
 
-I'm not really sure what the positioning is of that, but that to me seemed like really three crucial questions to ask yourself. \[unintelligible 01:27:42.19\] is "What am I aiming for, Lynne? What energizes me day-to-day?"
+I'm not really sure what the positioning is of that, but that to me seemed like really three crucial questions to ask yourself. A couple of these, I would say, really ask yourself is "What am I aiming for, Lynne? What energizes me day-to-day?"
 
 **Lynne Tye:** Literally, so true...
 
@@ -742,7 +742,7 @@ So I think that was my fault, because I kept getting advice that didn't make sen
 
 **Adam Stacoviak:** I had to stop doing this show and a couple other podcasts I was doing, and focus on building out what has now become Changelog.com. And if it hadn't been for that quitting and that focus, which is this show, which started in 2010 - and I think this might be... What episode actually is this? I don't know, maybe this is 50-something, or whatever. 65 or so.
 
-**Lynne Tye:** Yeah. Who cares? \[unintelligible 01:33:42.21\]
+**Lynne Tye:** Yeah. Who cares? Who cares?
 
 **Adam Stacoviak:** It doesn't matter. The point is since starting in 2010, that's not a lot of shows. That's nine years.
 

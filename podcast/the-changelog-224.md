@@ -184,17 +184,17 @@ All that can seem a little bit complicated, but if you are new to .NET, you have
 
 **Adam Stacoviak:** \[00:27:54.03\] But in light of that, and it being approachable, what is the draw to -- we're gonna talk about .NET Core 1.0 in a bit, but I'm camping on this thought here... Being approachable - what is it that draws people to .NET? What is the draw to developers to look at this platform as something that they should look at as a developer? What attracts people? The community, the language, the platform?
 
-**Bertrand Le Roy:** That's a great question. Traditionally, we've been pushing the .NET brand, and to new developers it's not necessarily the way you want to approach things. When you look at other platforms, you don't say... You talk about the language first, you know? You develop in Java, you develop in Python, you develop in Go, right? The only example that I can think of that doesn't start from the language is Node, maybe. But Node is also pretty much tied to Javascript, so really it's not that different.
+**Bertrand Le Roy:** That's a great question. Traditionally, we've been pushing the .NET brand, and to new developers it's not necessarily the way you want to approach things. When you look at other platforms, you don't say... You talk about the language first, you know? You develop in Java, you develop in Python, you develop in Go, right? The only example that I can think of that doesn't start from the language is Node, maybe. But Node is also pretty much tied to JavaScript, so really it's not that different.
 
 .NET was a little different in that way. I'm of the opinion (there are a few on the team who agree with that) that we should actually start with the language more. The thing is that we have more than one language. Java has Scala, we have F\# as well as C\#, and I think starting from the language is really a good way to talk to developers. You start from the code, you show code. C\# and F\# are in my opinion wonderful languages that have lead the way in a lot of different interesting ways.
 
-Async/await, for example, is a great feature that started on C\# and is continuing that way. If you look at the latest version of C\#, you have pattern matching, which is something that comes from functional languages. F\# is a really interesting language to look at... So yeah, if I were to talk to new developers, I would point them to one of the languages, depending on where they are coming from. For example, if you come from a Java background, I would point you to C\#. If you come more from Python or Javascript, maybe F\# would be a good fit.
+Async/await, for example, is a great feature that started on C\# and is continuing that way. If you look at the latest version of C\#, you have pattern matching, which is something that comes from functional languages. F\# is a really interesting language to look at... So yeah, if I were to talk to new developers, I would point them to one of the languages, depending on where they are coming from. For example, if you come from a Java background, I would point you to C\#. If you come more from Python or JavaScript, maybe F\# would be a good fit.
 
 **Jerod Santo:** Is it fair to say that C\# is Microsoft's object-oriented language and F\# is the functional language? Just generalized.
 
 **Bertrand Le Roy:** Yeah, even though C\# does have some functional features and F\# does have some object-oriented features. But yeah, that's the general category that you could draw there.
 
-**Jerod Santo:** What would be the best comparison for F\# specifically to another language? Like, if it was friends with one that looked very similar - would it be like an Erlang or a Clojure, or would it be more like a Javascript? Can anything compare?
+**Jerod Santo:** What would be the best comparison for F\# specifically to another language? Like, if it was friends with one that looked very similar - would it be like an Erlang or a Clojure, or would it be more like a JavaScript? Can anything compare?
 
 **Bertrand Le Roy:** I'm sure people will scream at me no matter what I say here... \[laughter\]
 
@@ -202,7 +202,7 @@ Async/await, for example, is a great feature that started on C\# and is continui
 
 **Adam Stacoviak:** This is your opinion!
 
-**Bertrand Le Roy:** No, it's not very Javascript-y, it's more... I think the F\# folks, the people from the F\# team talk about a multi-paradigm functional language, or something like that, which is maybe a little too buzzwordy, but pretty accurate nonetheless. I mean, it is multiparadigm, you can do many different things with it; it's not limited to one specific domain, but it is essentially functional in orientation.
+**Bertrand Le Roy:** No, it's not very JavaScript-y, it's more... I think the F\# folks, the people from the F\# team talk about a multi-paradigm functional language, or something like that, which is maybe a little too buzzwordy, but pretty accurate nonetheless. I mean, it is multiparadigm, you can do many different things with it; it's not limited to one specific domain, but it is essentially functional in orientation.
 
 **Jerod Santo:** \[00:31:59.00\] So in terms of people that are using .NET, probably we could say the majority are on C\#, and then you have some using F\#, and then you still have some other languages - doesn't VB run on .NET still? Isn't there some more legacy languages?
 

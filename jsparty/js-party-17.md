@@ -1,8 +1,8 @@
-**Adam Stacoviak:** We're gonna do a different show today, which is we had some kerfuffles on scheduling, and we don't wanna miss the show, because we're all busy and we wanna keep it rolling... So ask us anything. if you're on Twitter, if you're on some sort of social platform, if you're right here in Slack, drop a note in there and I'm gonna do my best to ask Rachel and Mikeal some questions about Javascript, the web platform, where we're going, what we're doing...
+**Adam Stacoviak:** We're gonna do a different show today, which is we had some kerfuffles on scheduling, and we don't wanna miss the show, because we're all busy and we wanna keep it rolling... So ask us anything. if you're on Twitter, if you're on some sort of social platform, if you're right here in Slack, drop a note in there and I'm gonna do my best to ask Rachel and Mikeal some questions about JavaScript, the web platform, where we're going, what we're doing...
 
 Mikeal, maybe we can still talk about the ICO, which is unique... Is it the first of its kind, the Initial Coin Offering?
 
-**Mikeal Rogers:** No, there's been other ICOs for the cryptocurrencies... This is just one that's actually kind of related to Javascript and the web, because it's an attention token that's gonna be in the Brave browser, that relates to your -- it's an alternative to advertising, and it does micropayments instead.
+**Mikeal Rogers:** No, there's been other ICOs for the cryptocurrencies... This is just one that's actually kind of related to JavaScript and the web, because it's an attention token that's gonna be in the Brave browser, that relates to your -- it's an alternative to advertising, and it does micropayments instead.
 
 **Rachel White:** Can we mine it now?
 
@@ -149,13 +149,13 @@ Let's get off of blockchain for a while, let's move on...
 
 **Adam Stacoviak:** You dabble, and sometimes you might even have fun doing it... What do you think?
 
-**Rachel White:** I saw the question that was asked... So the reason that I use Javascript in robotics is because I know Javascript; I don't know C. If I need to get into something that is a little bit more specific to C, I can work my way around it, but I can't write it from scratch.
+**Rachel White:** I saw the question that was asked... So the reason that I use JavaScript in robotics is because I know JavaScript; I don't know C. If I need to get into something that is a little bit more specific to C, I can work my way around it, but I can't write it from scratch.
 
-Basically, the reason that I think Javascript is good for robotics and embedded hardware is because of the community that is involved that is available to the NodeBots community. The Johnny-Five site is amazing, the documentation is great...
+Basically, the reason that I think JavaScript is good for robotics and embedded hardware is because of the community that is involved that is available to the NodeBots community. The Johnny-Five site is amazing, the documentation is great...
 
-When I say robotics too, I don't mean like very intense, giant things... This is just like hobbies-level stuff, so like small little -- there's sumo bots that can push each other out of circles, or play soccer... We're not changing the world, inventing anything that's going to revolutionize the way that modern machinery is made with Javascript robotics, I don't think, but I think that it's a really interesting way to help people that are wanting to learn how to write Node, and maybe they're just not grasping the way that it works with building a single-page application.
+When I say robotics too, I don't mean like very intense, giant things... This is just like hobbies-level stuff, so like small little -- there's sumo bots that can push each other out of circles, or play soccer... We're not changing the world, inventing anything that's going to revolutionize the way that modern machinery is made with JavaScript robotics, I don't think, but I think that it's a really interesting way to help people that are wanting to learn how to write Node, and maybe they're just not grasping the way that it works with building a single-page application.
 
-I really like the way that the tangibility of even just taking a breadboard with LEDs and hooking it up to an Arduino and being able to write Javascript you can get stuff to happen... Not to mention using LEDs for visualizing different types of loops is really a great way to help understand it. It helped me understand how that kind of stuff was done.
+I really like the way that the tangibility of even just taking a breadboard with LEDs and hooking it up to an Arduino and being able to write JavaScript you can get stuff to happen... Not to mention using LEDs for visualizing different types of loops is really a great way to help understand it. It helped me understand how that kind of stuff was done.
 
 In terms of performance-based stuff, obviously C is gonna be faster than Node stuff, but I feel like all of the stuff that I've built hasn't really had any issues with the runtime, or any lag whenever I do whatever "action A triggers action B." The performance differences aren't really big enough to make a difference for at least the hobby-level stuff that I do with it.
 
@@ -165,27 +165,27 @@ In terms of performance-based stuff, obviously C is gonna be faster than Node st
 
 **Mikeal Rogers:** A lot of the IoT stuff - like yeah, you do have these use cases where you need it to be super low power, because it's gotta be on a little battery for a year, but with robotics you're gonna be pretty high-power anyway, because you're doing these pretty big movements and moving around heavy things, so that means they are gonna have a higher powered onboard device and you can run Node just as well as anything else that runs on that little embedded system.
 
-**Adam Stacoviak:** It would seem to me too that going the route of C versus going the route of Javascript, one might be a higher/lower barrier to entry. You might have to have a lot of systems knowledge, maybe a lot of deeper knowledge about programming that C would require, whereas Javascript - you can sort of run that anywhere; it's a little bit easier to get involved, and dare I even say maybe a slightly larger, more welcoming community, so it's a little easier to find your place to fit in. That seems like a pretty standard thing to think about as well.
+**Adam Stacoviak:** It would seem to me too that going the route of C versus going the route of JavaScript, one might be a higher/lower barrier to entry. You might have to have a lot of systems knowledge, maybe a lot of deeper knowledge about programming that C would require, whereas JavaScript - you can sort of run that anywhere; it's a little bit easier to get involved, and dare I even say maybe a slightly larger, more welcoming community, so it's a little easier to find your place to fit in. That seems like a pretty standard thing to think about as well.
 
 **Mikeal Rogers:** \[00:24:15.07\] Because I came from lower-level languages and I watched higher-level languages take over and get a lot more people using them than the lower-level languages, it's always hilarious to me when people from higher-level languages start to get into lower-level languages... Because they really ignore a lot of the things that higher-level languages do for you. It's just so easy to make mistakes in C; mistakes that will still be compiled and your program will still run, but will introduce a security vulnerability, or a memory leak... It's very hard to make good, reliable programs in C and C++, and that's why we built higher-order languages, so that you can stay within some extra boundaries that will make it not just easier to program, but also easier to not make mistakes.
 
 **Rachel White:** Yeah, I feel like a lot of the libraries that allow people to get started with NodeBots take the mistake-making part of the process out of it. The mistakes that you're gonna make when you're doing it is more like -- they're going to be your wiring, then the programs that you're writing, because so much of the sensors and modules that you're using already have the code written. You can pretty much just like copy/paste a ton of it and you're ready to go, and then you just have to learn a little bit about electricity and how circuits work, and then you can start combining things to make a lot more dynamic stuff.
 
-**Adam Stacoviak:** Can we rewind a bit and talk a bit about the chasm or the difference between learning Javascript and a single-page web application scenario, versus let's say robotics, where you mentioned interesting things around loops, and blinking lights... Why is it different? What's different about it?
+**Adam Stacoviak:** Can we rewind a bit and talk a bit about the chasm or the difference between learning JavaScript and a single-page web application scenario, versus let's say robotics, where you mentioned interesting things around loops, and blinking lights... Why is it different? What's different about it?
 
 **Rachel White:** For me it's a learning style thing. Some people are okay with grasping a concept, and some people just really need to visualize what they're doing in order to understand it.
 
-For me, I'm a super visual learner, and I think that's why I was so taken to the Javascript robotics stuff, because I could -- I mean, I've been programming for almost half of my life, and I'm a s\*\*\*\*y programmer; I don't know data structures, I don't understand those things... I just know what I know from repetition and building stuff.
+For me, I'm a super visual learner, and I think that's why I was so taken to the JavaScript robotics stuff, because I could -- I mean, I've been programming for almost half of my life, and I'm a s\*\*\*\*y programmer; I don't know data structures, I don't understand those things... I just know what I know from repetition and building stuff.
 
 It's just nice when you can touch something that you've built, versus just looking at -- I guess you could touch a computer screen, but it's a little bit different. I don't know...
 
-**Mikeal Rogers:** I think a more interesting question is actually "What is similar about UI programming the browser to robotics in Javascript?", because I think there's actually more similarities than differences. And when you look at a lot of the languages that people have built specifically for IoT, they're taking a lot of these threading patterns that we have for -- basically, people have written for desktop programming and operating system programming, a lot of low-level stuff, and it's interesting that Javascript and the browser didn't go that direction; they went the direction of events. We talk a lot about asynchronous programming now, but just basic DOM events, like when you click on something, something happens. That's how robotics work, and that's how Javascript robotics work, and it's actually very similar.
+**Mikeal Rogers:** I think a more interesting question is actually "What is similar about UI programming the browser to robotics in JavaScript?", because I think there's actually more similarities than differences. And when you look at a lot of the languages that people have built specifically for IoT, they're taking a lot of these threading patterns that we have for -- basically, people have written for desktop programming and operating system programming, a lot of low-level stuff, and it's interesting that JavaScript and the browser didn't go that direction; they went the direction of events. We talk a lot about asynchronous programming now, but just basic DOM events, like when you click on something, something happens. That's how robotics work, and that's how JavaScript robotics work, and it's actually very similar.
 
 I feel like UI people actually have an easier time on-boarding than people that are used to threaded C++ programming that try to move into this evented environment.
 
 **Rachel White:** \[00:27:59.14\] It depends on the on-boarding, obviously. If you can set somebody up with good documentation, then yeah, that's good. I feel like even five years ago there was still not great documentation for a ton of front-end UI stuff... At least I didn't have a good time with it.
 
-**Mikeal Rogers:** If you're getting into Javascript for robotics - or Javascript hardware stuff in general - there's a lot of libraries out there, everything in NPM; there's maybe even more embedded systems that support this. It's like the Atari 2600 days of computing, everybody's got their own specialized board...
+**Mikeal Rogers:** If you're getting into JavaScript for robotics - or JavaScript hardware stuff in general - there's a lot of libraries out there, everything in NPM; there's maybe even more embedded systems that support this. It's like the Atari 2600 days of computing, everybody's got their own specialized board...
 
 You mess with a lot of these, Rachel. What do you recommend that people pick up as a first introductory set of hardware, and what libraries would you point them to?
 
@@ -193,7 +193,7 @@ You mess with a lot of these, Rachel. What do you recommend that people pick up 
 
 The projects that I think it gives you to build are -- there's like a little robot one, it comes with DC motors. I honestly just get the kits now, because -- like, whenever you go to conferences and there's people giving stuff away for swag, I just break everything apart into individual components I can use later... But there's a whole bunch of documentation that comes with it that helps you get up and running.
 
-The other libraries that you can use are -- Bryan Hughes has a library that allows you to use Javascript for the Raspberry Pi... I only recently started using a Raspberry Pi. The new model 3 makes it a lot easier to be able to use it without having to plug it into your router or SSH into it, because you can use something called PiBakery to start your card up... So it already has the Raspbian operating system on it, and then you can configure this thing called "VNC Viewer", which lets you essentially -- it's like a virtual machine on your computer that you're actually logged into the Raspberry Pi with, so you see the whole Linux operating system.
+The other libraries that you can use are -- Bryan Hughes has a library that allows you to use JavaScript for the Raspberry Pi... I only recently started using a Raspberry Pi. The new model 3 makes it a lot easier to be able to use it without having to plug it into your router or SSH into it, because you can use something called PiBakery to start your card up... So it already has the Raspbian operating system on it, and then you can configure this thing called "VNC Viewer", which lets you essentially -- it's like a virtual machine on your computer that you're actually logged into the Raspberry Pi with, so you see the whole Linux operating system.
 
 I actually just built this cool gallery out of a 32x32 LED matrix using a Raspberry Pi, and I'm running Node on the Pi, and I'm also running Node on a single-page app that's hosted on Azure. The way that it works is you -- so there's not a lot of good Node libraries for the LED matrix, so all I did was installed the C library that already works for displaying art on the matrix, and instead I have the Node application listening over the IoT hub on Azure, and it just runs the C shell commands whenever it gets the message to display art... Which is kind of hacky and cheating, but there's a lot of ways that you can jump in and use Node with a lot of things.
 
@@ -203,7 +203,7 @@ I actually just built this cool gallery out of a 32x32 LED matrix using a Raspbe
 
 **Adam Stacoviak:** So the point of an "Ask us anything" show is people asking questions, but I guess Mikeal and I might have some questions, which we've already shared a few...
 
-**Rachel White:** You can ask us questions not about Javascript as long as they're safe for work...
+**Rachel White:** You can ask us questions not about JavaScript as long as they're safe for work...
 
 **Adam Stacoviak:** That's true, yeah.
 
@@ -221,7 +221,7 @@ There's a question about IDEs... So I've never used IDEs, I've always used strai
 
 **Mikeal Rogers:** Didn't you use it before you worked there?
 
-**Rachel White:** No, I used Sublime Text. But honestly, it doesn't really feel that different. I use Visual Studio Code with a bunch of syntax plugins for Javascript, and Node debugging stuff... I'm on my Mac right now as I type this, so I can't even open -- well, I don't have it installed on here, because I just use this for the podcast. Wow, that was a weird noise.
+**Rachel White:** No, I used Sublime Text. But honestly, it doesn't really feel that different. I use Visual Studio Code with a bunch of syntax plugins for JavaScript, and Node debugging stuff... I'm on my Mac right now as I type this, so I can't even open -- well, I don't have it installed on here, because I just use this for the podcast. Wow, that was a weird noise.
 
 It's really good... So Mikeal's looking for a new computer, right? \[laughs\] And he's like asking people "What should I get?" Well, he just wants a laptop. But the reason I bring this up is because he said it on Facebook, and some guy in his comments was like "Ugh, dev work on a Windows machine?", and just wanted to be like "Have you even tried?", because... I don't know, it's just so nice, especially with Git for -- I don't know how to say this word correctly... Ubuntu? The Bash for that on Windows is fantastic. I have it running inside of Hyper, which is great. My terminal and my code editor are beautiful, and they run great and they're fast.
 
@@ -425,7 +425,7 @@ I remember Gaurav Seth saying "I've been there 11 years, and the last few years 
 
 **Adam Stacoviak:** What about you, Mikeal?
 
-**Mikeal Rogers:** Let me think... Okay, there is a project called LeafletJS. It's a pretty amazing Javascript library for doing everything you ever wanted to do with maps - embedding maps that work on mobile, and desktop, all the interactions, putting points in... All that cool stuff. There's this great company MapZen that's a sort of cheaper and slightly easier to use alternative to MapBox for embedding maps and interacting with them, and they use this library as their base, and then they provide a bunch of tiles and services for doing smart routing, and stuff.
+**Mikeal Rogers:** Let me think... Okay, there is a project called LeafletJS. It's a pretty amazing JavaScript library for doing everything you ever wanted to do with maps - embedding maps that work on mobile, and desktop, all the interactions, putting points in... All that cool stuff. There's this great company MapZen that's a sort of cheaper and slightly easier to use alternative to MapBox for embedding maps and interacting with them, and they use this library as their base, and then they provide a bunch of tiles and services for doing smart routing, and stuff.
 
 \[00:52:15.29\] I've been building a little app in my spare time for fun with that library, and I was really impressed with how far along this LeafletJS thing is... It does literally everything. And for a task this huge you kind of have to be a big framework, but as far as big frameworks and big piles of code go, it's actually easy to use and not very obtuse.
 

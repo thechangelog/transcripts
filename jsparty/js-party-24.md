@@ -1,4 +1,4 @@
-**Feross Aboukhadijeh:** Alright, well welcome to JS Party, where every week it's a party in Javascript. I'm Feross, I'm gonna be hosting this week, first week. I'm here with three awesome panelists. The first is Suz Hinton. Suz, do you wanna say hi?
+**Feross Aboukhadijeh:** Alright, well welcome to JS Party, where every week it's a party in JavaScript. I'm Feross, I'm gonna be hosting this week, first week. I'm here with three awesome panelists. The first is Suz Hinton. Suz, do you wanna say hi?
 
 **Suz Hinton:** Hello!
 
@@ -354,7 +354,7 @@ Okay, what about triggering a file download?
 
 **Feross Aboukhadijeh:** It's just surprising that you can combine all these things into one event handler. So the one click can do all the things.
 
-**Alex Sexton:** I'll say kind of the meta-benefit of all this is that because this page is so annoying and bad, you can take other security vulnerabilities. So I try to report as many vulnerabilities as I can. A lot of times they're not that serious, like an open redirect, or something like that, on some web page. It's like "Oh, this allows me to put in arbitrary Javascript, which allows me to do a window.location, which allows me to link someone to a page or redirect them somewhere else", and a lot of times people are like "Oh, we don't consider that that harmful", or whatever. But then you stick theannoyingsite into the redirect, and they're like, "Oh, this is serious, because someone went to our website and now they're at this terrible, terrible website." So it actually has been helpful in people taking things like open redirects seriously, in my experience, in the two weeks I've been adding it into things, so... Good work.
+**Alex Sexton:** I'll say kind of the meta-benefit of all this is that because this page is so annoying and bad, you can take other security vulnerabilities. So I try to report as many vulnerabilities as I can. A lot of times they're not that serious, like an open redirect, or something like that, on some web page. It's like "Oh, this allows me to put in arbitrary JavaScript, which allows me to do a window.location, which allows me to link someone to a page or redirect them somewhere else", and a lot of times people are like "Oh, we don't consider that that harmful", or whatever. But then you stick theannoyingsite into the redirect, and they're like, "Oh, this is serious, because someone went to our website and now they're at this terrible, terrible website." So it actually has been helpful in people taking things like open redirects seriously, in my experience, in the two weeks I've been adding it into things, so... Good work.
 
 **Break:** \[00:39:09.13\]
 
@@ -396,7 +396,7 @@ Actually, I think people used to actually upload videos that were encoded in som
 
 **Alex Sexton:** Did everyone do Flash? Feross, did you ever do any Flash development?
 
-**Feross Aboukhadijeh:** No, no, I never actually learned how to do Flash development. I didn't really do proper programming until later, and then I just learned Javascript. I did collect Flash though, Flash animations, and I put them onto a website that was kind of like a knockoff of Newgrounds. It was all my favorite stuff, just to rehost it basically.
+**Feross Aboukhadijeh:** No, no, I never actually learned how to do Flash development. I didn't really do proper programming until later, and then I just learned JavaScript. I did collect Flash though, Flash animations, and I put them onto a website that was kind of like a knockoff of Newgrounds. It was all my favorite stuff, just to rehost it basically.
 
 **Alex Sexton:** \[00:44:07.08\] Actually, that's maybe a side conversation, but we were talking a lot about Flash, and I built some Flash stuff... I think one of my first real web pages was my sister's soccer team's web page, which was fully Flash, and I would go to the games and keep stats... That was like something to build a website for... But I pirated the entire Adobe suite and learned all that stuff as a young kid. I'm sure I downloaded like 1,000 viruses on my computer... But did you all start with legit copies of the Flash runtime, or Builder, or whatever, or did everyone pirate it? Is that everyone's history?
 

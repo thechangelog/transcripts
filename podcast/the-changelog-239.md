@@ -260,7 +260,7 @@ But maybe the first question is getting started. What are some of the first step
 
 **Seth Vargo:** Yeah, you know... I do some sketch diagrams, I have some hanging on the wall. But you know, let's say you're not buying what I'm saying, and you wanna try it out for yourself. Zero risk, you can launch an in-the-cloud Vault environment with an interactive tutorial right from Vault's website.
 
-VaultProject.io - there's a big ol' button, really hard to miss, it says "Launch Interactive Tutorial." If you're not driving, you can actually pull out your phone and do it now, it works on mobile. It will walk you through some really common Vault commands, and it actually launches your own Vault instance in the background. HashiCorp funds that, so that people can try out Vault zero risk, no installation; all you need is a modern browser with some Javascript enabled.
+VaultProject.io - there's a big ol' button, really hard to miss, it says "Launch Interactive Tutorial." If you're not driving, you can actually pull out your phone and do it now, it works on mobile. It will walk you through some really common Vault commands, and it actually launches your own Vault instance in the background. HashiCorp funds that, so that people can try out Vault zero risk, no installation; all you need is a modern browser with some JavaScript enabled.
 
 Once you've bought into the idea - because you will fall in love with it, trust me - the next thing you wanna do is actually download it. Before you put it in production, you're gonna wanna download it locally.
 

@@ -69,13 +69,13 @@ We also look at "Are we doing better than we used to do? Are we slowing down in 
 
 **Mikeal Rogers:** We've quadrupled in size in terms of our user community. There were 1.2 million using Node around the time that we did the io.js fork, and today it's 5.7 million. It's a hundred percent year-on-year growth; it's crazy.
 
-**Adam Stacoviak:** Is that Node, or is that Javascript, or is it both?
+**Adam Stacoviak:** Is that Node, or is that JavaScript, or is it both?
 
 **Mikeal Rogers:** It's Node.js.
 
-**Adam Stacoviak:** I know it's Node.js, but do you think that's because of Javascript itself, or is it the attraction to Node?
+**Adam Stacoviak:** I know it's Node.js, but do you think that's because of JavaScript itself, or is it the attraction to Node?
 
-**Mikeal Rogers:** Javascript itself, if you count the whole web, it's hard to find comparisons. You start to arrive at numbers that are far greater than the number of programmers.
+**Mikeal Rogers:** JavaScript itself, if you count the whole web, it's hard to find comparisons. You start to arrive at numbers that are far greater than the number of programmers.
 
 **Adam Stacoviak:** Right.
 
@@ -249,7 +249,7 @@ Rod had pioneered a lot of governance models around liberal contribution agreeme
 
 **Mikeal Rogers:** You'd mentioned IoT, you'd mentioned Node in other places that isn't just the web...
 
-**Adam Stacoviak:** Well, VM neutrality also really helps us with IoT as well. There's work that isn't public that various people are doing on more Javascript VMs, essentially, and even Javascript VMs that are entirely on device, and stuff like that. And without a stable native layer for them to expose and for everybody to bind to, it's a really tough sell for them to just integrate that in core, emulate the entire V8 C++ API. So there's a bunch of stuff there that unfortunately I can't really get into the details of, that is gonna be great for IoT.
+**Adam Stacoviak:** Well, VM neutrality also really helps us with IoT as well. There's work that isn't public that various people are doing on more JavaScript VMs, essentially, and even JavaScript VMs that are entirely on device, and stuff like that. And without a stable native layer for them to expose and for everybody to bind to, it's a really tough sell for them to just integrate that in core, emulate the entire V8 C++ API. So there's a bunch of stuff there that unfortunately I can't really get into the details of, that is gonna be great for IoT.
 
 I also think that if you're currently a Nodebots or IoT developer, one of the biggest headaches that you have is that you're dependent on native APIs; you're dependent on serial port, like Chris Williams, actually, from JSConf. But that's sort of the base underlying library that everybody has to bind to, and every major release of Node it breaks; then everybody lags behind, and there's this huge... I mean, the testing matrix for Node serial is crazy; it's worse than Node Core, because it's every random IoT device, so it takes a long time for that to get updated. That will get fixed, which is great.
 
@@ -320,7 +320,7 @@ We're starting to dedicate some of my time, some of Tracy's time to work with th
 
 **Mikeal Rogers:** Yeah...
 
-**Adam Stacoviak:** But on sustainability, one thing I was thinking about is for those developers -- actually I had a conversation just before you sat down with Athan Reines, and he was talking about how math has broken in V8; he was talking about how he's bringing this library called Standard Lib, and data science type stuff to Javascript. He basically said, in his own terms, that if you went into a job interview for data science and you tell them you do it in Javascript, they look at you and ask you "Why?" - why you're not using Julia, or R, or Python, or something like that.
+**Adam Stacoviak:** But on sustainability, one thing I was thinking about is for those developers -- actually I had a conversation just before you sat down with Athan Reines, and he was talking about how math has broken in V8; he was talking about how he's bringing this library called Standard Lib, and data science type stuff to JavaScript. He basically said, in his own terms, that if you went into a job interview for data science and you tell them you do it in JavaScript, they look at you and ask you "Why?" - why you're not using Julia, or R, or Python, or something like that.
 
 Right now he is living on his own savings, focused on this open source project... For those out there who have ideas, what kind of support can they look for from Node Foundation? Is that important? Is that something you ever plan to do? Not so much to sustain, but to help the community find a sustainable way to bring new research projects like that, experimental projects that are pushing the boundaries, innovating.
 
@@ -328,7 +328,7 @@ Right now he is living on his own savings, focused on this open source project..
 
 **Adam Stacoviak:** \[00:40:03.12\] Haven't seen what?
 
-**Mikeal Rogers:** A huge of amount of growth in, the kind of growth that we see in other places. I've spent a lot of time actually figuring out what we could do here and what our current barriers are. One barrier which I think is a problem and it needs to get resolved, but it's not the number one problem, but it is a problem - Javascript standards have not given us some of the tools that we need at the language level to do some of this.
+**Mikeal Rogers:** A huge of amount of growth in, the kind of growth that we see in other places. I've spent a lot of time actually figuring out what we could do here and what our current barriers are. One barrier which I think is a problem and it needs to get resolved, but it's not the number one problem, but it is a problem - JavaScript standards have not given us some of the tools that we need at the language level to do some of this.
 This is kind of hilarious - now that Brandon has a company that's doing Crypto in the browser, he is shifting some of his focus... Because he does a bunch of standards work as well, and there are some new 64-bit stuff and some new math stuff coming out that Brandon is pushing forward into TC39; also, the Node Foundation in partnership with the JS Foundation - the JS Foundation is a member of TC39 \[unintelligible 00:40:55.19\] they've started to send me to those meetings.
 
 There's one right now that obviously I couldn't be at, but I went to the last one that they did and resolved a lot of the module stuff, a lot of the concerns that we've had about how do we integrate these module systems; we were able to work that out. And I'll continue to go, to start to try to resolve some of those problems.

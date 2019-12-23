@@ -6,7 +6,7 @@
 
 **Jordan Eldredge:** .org.
 
-**Jerod Santo:** Webamp.org. Let me share some coverage here, because I was actually looking this up as I was live streaming the other day, the hacking on this Winamp2-js... In the readme, Jordan has press coverage. He's been covered by TechCrunch, Gizmodo, Motherboard, The Changelog - which is a different section, but I understand... \[laughter\] And I was looking at the different dates and I was thinking "Do we scoop these guys?" So I looked at Motherboard, they covered it in like February this year - we scooped them. I was looking at TechCrunch - they saw Motherboard posted it, basically, and they covered, and I was like "February this year... We scooped them." And I was starting to feel pretty good about myself, and then I went to Gizmodo's coverage of Winamp2-js, and it was like February -- I don't know the month, but it was 2014... 2014. So props to Gizmodo for scooping this project up years ago \[unintelligible 00:03:23.12\] how long it's been around and how long you've been working on this.
+**Jerod Santo:** Webamp.org. Let me share some coverage here, because I was actually looking this up as I was live streaming the other day, the hacking on this Winamp2-js... In the readme, Jordan has press coverage. He's been covered by TechCrunch, Gizmodo, Motherboard, The Changelog - which is a different section, but I understand... \[laughter\] And I was looking at the different dates and I was thinking "Do we scoop these guys?" So I looked at Motherboard, they covered it in like February this year - we scooped them. I was looking at TechCrunch - they saw Motherboard posted it, basically, and they covered, and I was like "February this year... We scooped them." And I was starting to feel pretty good about myself, and then I went to Gizmodo's coverage of Winamp2-js, and it was like February -- I don't know the month, but it was 2014... 2014. So props to Gizmodo for scooping this project up years ago and i guess thats going to date how long it's been around and how long you've been working on this.
 
 Tell us a little bit of the story. It's four years later... What was this idea and what were you doing back in 2014?
 
@@ -146,7 +146,7 @@ I think Winamp was one of the first to sort of jump on that and be like 'No, we'
 
 Another reason why I'm thinking it's so nostalgic is because it reminds us of a better piece of software than currently exists... Kind of like the glory days.
 
-**Jordan Eldredge:** Yeah. Well, you know, it was fast... And I think we have a lot of maybe -- as a Javascript developer, I feel this a little bit more cutting than others, but this sort of rebelling against modern high-level languages, which are comparatively slow and resource-heavy... It was fast, and it was graphically beautiful - depending on your aesthetic tastes.
+**Jordan Eldredge:** Yeah. Well, you know, it was fast... And I think we have a lot of maybe -- as a JavaScript developer, I feel this a little bit more cutting than others, but this sort of rebelling against modern high-level languages, which are comparatively slow and resource-heavy... It was fast, and it was graphically beautiful - depending on your aesthetic tastes.
 
 The fact that it was a singular vision from a very singular person, I think, and then it was just well executed on top of that... And it wasn't compromised into any kind of corporate requirement. It was like, this was the thing that Justin wanted to build, and that I think has a lot of power.
 
@@ -154,19 +154,19 @@ The fact that it was a singular vision from a very singular person, I think, and
 
 **Jerod Santo:** Jordan, you've been working on this off and on for 4+ years... Surely, it's taken different forms. I notice now it's built with React and Redux; those things didn't exist in 2014... So take us through some of the history of the software itself, maybe some technical hurdles or interesting bits, and we can talk about all that's packed into Winamp2-js.
 
-**Jordan Eldredge:** Yeah, so originally it was written in jQuery, and I think it didn't last very long in that form... But I honestly didn't know Javascript at all when I started the project. I was trying to figure out, like "How do you make a class?", which of course is not a thing, or "How do you split this across multiple files?"
+**Jordan Eldredge:** Yeah, so originally it was written in jQuery, and I think it didn't last very long in that form... But I honestly didn't know JavaScript at all when I started the project. I was trying to figure out, like "How do you make a class?", which of course is not a thing, or "How do you split this across multiple files?"
 
 **Jerod Santo:** What were you used to coding in at the time? What's your original language...?
 
-**Jordan Eldredge:** I was just writing bad PHP and bad jQuery, like stitching together plugins and whatnot... And it was really this project that taught me Javascript. I was curious about it, so I'd come home each night, eager to try to make it better, and as a part of that I ran up against my own limitations of knowledge. I kept having to learn, like "Okay, how do you actually (like I said) make a class?", or I'd learned about prototypical inheritance, and whatnot.
+**Jordan Eldredge:** I was just writing bad PHP and bad jQuery, like stitching together plugins and whatnot... And it was really this project that taught me JavaScript. I was curious about it, so I'd come home each night, eager to try to make it better, and as a part of that I ran up against my own limitations of knowledge. I kept having to learn, like "Okay, how do you actually (like I said) make a class?", or I'd learned about prototypical inheritance, and whatnot.
 
-\[00:28:21.21\] So I wrote it all in jQuery at first. I was very primitive at that point, I didn't do very much, and then pretty quickly I realized that this wasn't really the right way to go about it, so I rewrote it all in what we call vanilla Javascript, without any framework at all. It existed in that form for quite a while, until then I started to run up against limitations of that, and having learned a little bit about React at that point, I realized that this sort of declarative nature of being able to, rather than managing transition between states, just managing state and then a projection of that state into a DOM state seemed like it made sense for this problem.
+\[00:28:21.21\] So I wrote it all in jQuery at first. I was very primitive at that point, I didn't do very much, and then pretty quickly I realized that this wasn't really the right way to go about it, so I rewrote it all in what we call vanilla JavaScript, without any framework at all. It existed in that form for quite a while, until then I started to run up against limitations of that, and having learned a little bit about React at that point, I realized that this sort of declarative nature of being able to, rather than managing transition between states, just managing state and then a projection of that state into a DOM state seemed like it made sense for this problem.
 
 **Jerod Santo:** Were those bumps that you were hitting with the vanilla JS version? If you recall back then, what were the particular aspects? Or was it just like crazy amounts of state everywhere, and you're having to react to it? Gosh, pun unintended... \[laughter\]
 
 **Jordan Eldredge:** Yeah, I think the main thing is when you don't have this declarative sort of React model of your UI being a function of your state, you end up managing the transition between every state, and so then the complexity of your application is exponential of the number of states that you have, because you have to manage the transition between all -- you know, any two states have to be able to go between them... And so I was running into that with -- as I was adding more and more detail, the pain of maintaining that was rapidly exploding, so I felt that a switch was necessary.
 
-So yeah, I switched to React and Redux... I think from there -- it was a pretty good fit for that model, but I think the real technical limitations were not like in the framework decision, but some of these... You know, I think I said earlier about trying to do things which are surprising in a medium; the things that you can do in Javascript that you might not think you could do. Some of those technical challenges I think were a little bit more interesting.
+So yeah, I switched to React and Redux... I think from there -- it was a pretty good fit for that model, but I think the real technical limitations were not like in the framework decision, but some of these... You know, I think I said earlier about trying to do things which are surprising in a medium; the things that you can do in JavaScript that you might not think you could do. Some of those technical challenges I think were a little bit more interesting.
 
 I think the most interesting one is, you know, Winamp2-js actually loads actual skin files, and getting to do that inside the browser posed a bunch of interesting technical challenges, and I could go into that or not... But I think those kinds of problems were much more interesting than what framework to use.
 
@@ -184,7 +184,7 @@ I think the most interesting one is, you know, Winamp2-js actually loads actual 
 
 **Adam Stacoviak:** Wow...
 
-**Jordan Eldredge:** \[00:32:04.10\] It's hacks on top of hacks to get it to work inside the browser. Once I realized that Winamp skins are just zip files of bitmaps, and someone has written a Javascript zip utility, it's like, "Well, okay, you can do it, I guess..."
+**Jordan Eldredge:** \[00:32:04.10\] It's hacks on top of hacks to get it to work inside the browser. Once I realized that Winamp skins are just zip files of bitmaps, and someone has written a JavaScript zip utility, it's like, "Well, okay, you can do it, I guess..."
 
 **Jerod Santo:** So it unzips them, and... How does that work? You said you had some hurdles there...
 
@@ -194,7 +194,7 @@ I think the most interesting one is, you know, Winamp2-js actually loads actual 
 
 **Jordan Eldredge:** So the first step is, of course, unzipping this binary blob, and then you get access to these bitmap files. Then of course you need to -- those bitmap files can't just be used directly, because those are sprites... And anyone who's done stuff with sprites might know that one of the limitations of sprites is that you can't do repeating tiles using sprites very easily, because you'll end up repeating the whole spreadsheet.
 
-So we end up extracting the zip file, getting the sprite sheets out of the zip file, rendering those into a canvas, slicing the individual sprites out of that canvas into a data URI; then given those data URI's, you might think like, "Oh, I can just set these as like background images using Javascript", but in many cases you have to apply them to pseudo-elements, so like the hover state of an item, or like the handle of a slider, and there's no way to do that from Javascript.
+So we end up extracting the zip file, getting the sprite sheets out of the zip file, rendering those into a canvas, slicing the individual sprites out of that canvas into a data URI; then given those data URI's, you might think like, "Oh, I can just set these as like background images using JavaScript", but in many cases you have to apply them to pseudo-elements, so like the hover state of an item, or like the handle of a slider, and there's no way to do that from JavaScript.
 
 So what it ends up being is we get these data URI's, and then we dynamically generate a CSS style sheet and then inject that into the DOM. So none of those things are particularly beautiful, but it does work.
 
@@ -206,7 +206,7 @@ I think having an excuse to do something terrible where you're still doing the r
 
 **Adam Stacoviak:** So when you drop the .wsz file - while you guys were talking, I was hacking on some fun stuff here... Is it actually uploaded into your UI and then depacked -- because it happened pretty quickly; I dragged one on there and it changed real fast.
 
-**Jordan Eldredge:** Yeah, so I think one of the limitations I set for myself with this project is there's no server component; it's just Javascript. So everything happens inside your browser. When you drag the file in, I get access to a reference to that file, and I can get access to the bits in that file, and so it all goes from there inside your browser.
+**Jordan Eldredge:** Yeah, so I think one of the limitations I set for myself with this project is there's no server component; it's just JavaScript. So everything happens inside your browser. When you drag the file in, I get access to a reference to that file, and I can get access to the bits in that file, and so it all goes from there inside your browser.
 
 **Adam Stacoviak:** Wow... That was something you brought up actually, in your Twitch livestream yesterday, and I was thinking "That would be super cool", and then I was thinking "Where do you even begin? I don't know."
 
@@ -246,7 +246,7 @@ So yeah, I certainly didn't set out on this project with any kind of noble ambit
 
 Then I just push them up to S3, because they do have to be available somewhere, and that's a pretty fast server for me to host them there...
 
-**Adam Stacoviak:** \[unintelligible 00:41:09.19\] this image for something malicious, or just whatever.
+**Adam Stacoviak:** Let me just change out this image for something malicious, or just whatever.
 
 **Jordan Eldredge:** Right, exactly.
 
@@ -254,7 +254,7 @@ Then I just push them up to S3, because they do have to be available somewhere, 
 
 **Adam Stacoviak:** I knew it...!
 
-**Jerod Santo:** Here's the plan, to the listening audience... This episode of the Changelog, Jordan has agreed to host it indefinitely at Webamp.org, which is his website for Winamp2-js (maybe we'll talk about names in a second)... Webamp.org/changelog. We'll link that up in the show notes. When you go to that page, you can listen to this episode inside Winamp2-js. Now, how cool would it be if somebody, anybody out there, created a Changelog skin that we can use \[unintelligible 00:41:58.01\] so it's branded... Super-cool, right? So if you have skills -- or even if you don't have any skills; if you've got time and you wanna try this out, contact us, we would love to work with you. We even have a brand guideline you could use, so you have all of our colors, our fonts, everything you need...
+**Jerod Santo:** Here's the plan, to the listening audience... This episode of the Changelog, Jordan has agreed to host it indefinitely at Webamp.org, which is his website for Winamp2-js (maybe we'll talk about names in a second)... Webamp.org/changelog. We'll link that up in the show notes. When you go to that page, you can listen to this episode inside Winamp2-js. Now, how cool would it be if somebody, anybody out there, created a Changelog skin that we can use on that part of this player, so it's branded... Super-cool, right? So if you have skills -- or even if you don't have any skills; if you've got time and you wanna try this out, contact us, we would love to work with you. We even have a brand guideline you could use, so you have all of our colors, our fonts, everything you need...
 
 **Adam Stacoviak:** Yeah, or you could just pull all the colors from our style sheets too, on the .com.
 
@@ -341,7 +341,7 @@ So for now, and unless maybe a bunch of these things get added on top of the exi
 
 **Jerod Santo:** Yeah, definitely share that with us and we will add it to the show notes. Let's talk about the name - you've just mentioned Webamp again... We've been calling it Winamp2-js. Surely, there's a story there. There's always a story with names.
 
-**Jordan Eldredge:** Yeah, so Winamp2-js was I guess the name I came up with originally just because I thought it was the most terse explanation of what the project was, right? ...it's Winamp 2 in Javascript. And shortly after I tweeted it that first time, I got a tweet response from Tom Pepper, who I guess was one of the very early people at Gnullsoft, along with Justin Frankel... And he said "Hey, congratulations from Gnullsoft! We have these domains if you want them." So that was webamp.com, .org and .net.
+**Jordan Eldredge:** Yeah, so Winamp2-js was I guess the name I came up with originally just because I thought it was the most terse explanation of what the project was, right? ...it's Winamp 2 in JavaScript. And shortly after I tweeted it that first time, I got a tweet response from Tom Pepper, who I guess was one of the very early people at Gnullsoft, along with Justin Frankel... And he said "Hey, congratulations from Gnullsoft! We have these domains if you want them." So that was webamp.com, .org and .net.
 
 **Jerod Santo:** Nice.
 
@@ -351,7 +351,7 @@ So I thought it was very cool to 1) have a much more shareable URL than \[uninte
 
 **Adam Stacoviak:** It could be like a codename, or something.
 
-**Jordan Eldredge:** \[unintelligible 00:57:04.26\] the new name, but I guess it's too late now. There's gonna be confusion, it's just a matter of "Where does that confusion live?"
+**Jordan Eldredge:** It felt worse to use the new name, but I guess it's too late now. There's gonna be confusion, it's just a matter of "Where does that confusion live?"
 
 **Adam Stacoviak:** What's crazy is that you create this thing, you tweet about it, and then the originators of Gnullsoft -- what did you say his name was again?
 
@@ -367,7 +367,7 @@ So I thought it was very cool to 1) have a much more shareable URL than \[uninte
 
 **Adam Stacoviak:** Yeah, I'm reading -- and everybody else read between the lines there, we're not gonna repeat it, because it's just too close... It's too close. But this is crazy though - so a long time ago you kind of got nostalgic and you wanted to play with this back in 2014 (when you released this), and now you're doing this... I think this is such a crazy journey. This is open source at its best.
 
-**Jordan Eldredge:** It really is. There haven't been a ton of contributors. I can say there have been people who have popped in and done a thing or two that they thought was interesting... I mean, I think most notably the addition of actually parsing the skin file in the browser, using that Javascript library, was a very early pull request. But I think the amount of input that has influenced how it's evolved has been really tremendous... Just people popping in and being like "Hey, did you know this obscure thing about the Web Audio API that would allow you to do this other thing that you would probably want to do?"
+**Jordan Eldredge:** It really is. There haven't been a ton of contributors. I can say there have been people who have popped in and done a thing or two that they thought was interesting... I mean, I think most notably the addition of actually parsing the skin file in the browser, using that JavaScript library, was a very early pull request. But I think the amount of input that has influenced how it's evolved has been really tremendous... Just people popping in and being like "Hey, did you know this obscure thing about the Web Audio API that would allow you to do this other thing that you would probably want to do?"
 
 While most of the code has been commits that I've written myself, a lot of the core ideas or breakthroughs did come from people in the community. The attention that it got has really enabled that in a way that I certainly -- without people knowing about it, their ability to come in and lend their particular expertise, I don't think would be possible.
 
@@ -395,9 +395,9 @@ So I guess don't discount just having something be visible as a monetization str
 
 **Adam Stacoviak:** How much of this overlaps with the things you do day to day? How much has what you've done at the day job, either at Facebook or elsewhere, kind of led back into this, or vice-versa?
 
-**Jordan Eldredge:** Yeah, I think the vice-versa is actually more the case. I started working on this project, and then I got really into Javascript, and in order to do some of the things that I wanted to do here I had to dig pretty deep into understanding the language, and some of the web API's and whatnot... And I got really fired up about Javascript, and at my previous company, the state of the Javascript codebase was a little bit lacking, so then I sort of got on this warpath about improving things there.
+**Jordan Eldredge:** Yeah, I think the vice-versa is actually more the case. I started working on this project, and then I got really into JavaScript, and in order to do some of the things that I wanted to do here I had to dig pretty deep into understanding the language, and some of the web API's and whatnot... And I got really fired up about JavaScript, and at my previous company, the state of the JavaScript codebase was a little bit lacking, so then I sort of got on this warpath about improving things there.
 
-Then that led to me sort of evolving into a very Javascript-centric role there, sort of heading up the Javascript infrastructure at that company, and then of course that had a feedback loop to learning a lot more... So I think it really was like -- this project gave me the impetus to go really deep on some of these things, which then had value in my career, and then there was a feedback loop on top of that.
+Then that led to me sort of evolving into a very JavaScript-centric role there, sort of heading up the JavaScript infrastructure at that company, and then of course that had a feedback loop to learning a lot more... So I think it really was like -- this project gave me the impetus to go really deep on some of these things, which then had value in my career, and then there was a feedback loop on top of that.
 
 **Adam Stacoviak:** And what you're not condoning is that the only way you get hired is by having side-projects, right?
 
@@ -431,9 +431,9 @@ Then that led to me sort of evolving into a very Javascript-centric role there, 
 
 **Adam Stacoviak:** Hey Twitch, if you know us and you like us, give us /changelog, please. Somebody out there, help us!
 
-**Jerod Santo:** \[unintelligible 01:04:56.28\] Nobody wants it. For the time being, /changelog\_. Of course, you can also just go to our website and \[unintelligible 01:05:04.14\] click on that, follow us on there if you want to live-code with me on Monday afternoons... And I've been hacking on Winamp2-js. Jordan had a sweet idea, which has kind of morphed into what we talked about earlier, with the Webamp.org/changelog view, but how could we get a specialized player, maybe even on changelog.com? So we've been experimenting with getting Winamp2 loaded onto our site and running, and I'm happy to report that that worked, and it played one of our episodes served locally...
+**Jerod Santo:** \[unintelligible 01:04:56.28\] Nobody wants it. For the time being, /changelog\_. Of course, you can also just go to our website and find a place to click on that, follow us on there if you want to live-code with me on Monday afternoons... And I've been hacking on Winamp2-js. Jordan had a sweet idea, which has kind of morphed into what we talked about earlier, with the Webamp.org/changelog view, but how could we get a specialized player, maybe even on changelog.com? So we've been experimenting with getting Winamp2 loaded onto our site and running, and I'm happy to report that that worked, and it played one of our episodes served locally...
 
-But we hit some road bumps... As Jordan said, there's people that are hacking on this, but not too many outside contributions. So the thing that we hit first and are still kind of stuck at is there doesn't seem to be much of a public API; it seems like the way you built it it's very much for the single use of "I'm loading a single page with \[unintelligible 01:05:59.13\] Because instead of it being in the middle of the viewport, it's actually in the middle of the page, and you're not used to there being a scroll; well, our page is quite long, so it took me 15-20 minutes to realize "Oh, it's actually working... It's just completely outside of the viewport.
+But we hit some road bumps... As Jordan said, there's people that are hacking on this, but not too many outside contributions. So the thing that we hit first and are still kind of stuck at is there doesn't seem to be much of a public API; it seems like the way you built it it's very much for the single use of "I'm loading a single page with just this on it within the middle. Wich also hilariously turned out as a loop, because instead of it being in the middle of the viewport, it's actually in the middle of the page, and you're not used to there being a scroll; well, our page is quite long, so it took me 15-20 minutes to realize "Oh, it's actually working... It's just completely outside of the viewport.
 
 **Adam Stacoviak:** That's funny. I missed that live-stream, so...
 
@@ -447,7 +447,7 @@ But we hit some road bumps... As Jordan said, there's people that are hacking on
 
 Like I said earlier, I actually have to inject style sheets into the DOM in order to get this thing to work, and while I try very hard not to step on anyone else's toes, there are certain things that are just a little bit hard to figure out how to do on other pages...
 
-\[01:08:13.12\] But yeah, it's something I'm very open to, and I think there are people who are playing with it -- What is it...? Let me see if I can find it... 98.js.org - there's a guy who has done a really amazing Javascript clone of MS Paint, and he has this entire Windows 98 clone going on, at 98.js.org. He has included Winamp there. There are some other projects that are similarly trying to pull it in...
+\[01:08:13.12\] But yeah, it's something I'm very open to, and I think there are people who are playing with it -- What is it...? Let me see if I can find it... 98.js.org - there's a guy who has done a really amazing JavaScript clone of MS Paint, and he has this entire Windows 98 clone going on, at 98.js.org. He has included Winamp there. There are some other projects that are similarly trying to pull it in...
 
 I'd love to get it to work, and it should, and we do have some kind of public API where you can load it pre-populated, but I think there's a little bit of a question as to like "Okay, well it's its own UI... How should you be able to control it from another UI?" I think at this point I'm looking for people who have use cases that they can show to me and say "This is how I want to use it", and then I would really like to add those API's, as necessary. Because all the logic is there, it's just a matter of exposing it in a way that doesn't expose internals that I want to be able to change in the future.
 
@@ -459,11 +459,11 @@ So I would love to get it working, and I probably will continue to hack on it in
 
 **Jerod Santo:** Very cool. Anything else, aside from me bugging you to add API's, that you have planned? Like, "This is where I'm taking it." Are there aspects of Winamp 2.9 that it doesn't do? Are there grand plans for the future, or are you feeling like it's good to go?
 
-**Jordan Eldredge:** Yeah, I'm definitely approaching the limit of getting everything of these main three windows working... On the one hand, that's exciting, but on the other hand it raises the issue of like "Okay, what's next?" There are people working -- or there's at least somebody working on an Electron app, which would be one interesting place to take it... I'm a little bit skeptical that something that's like "Wow, that's so cool!" in the browser, as soon as it's an Electron app, the response would be like, "Ugh, god, Electron... Javascript... Everything is sloooow! I remember Winamp - Winamp was fast; this is not fast", and that there's gonna be this sort of like an uncanny valley... I don't know if you know that notion in 3D rendering, that as things get more and more real, eventually they reach a point where they're like so real, but not quite real enough, that they become very disconcerting, and I worry a little bit that if this does actually get packaged up as a desktop application, that something which felt like a very detailed and accurate reimplementation in the browser is gonna feel like jarringly not quite right on the desktop.
+**Jordan Eldredge:** Yeah, I'm definitely approaching the limit of getting everything of these main three windows working... On the one hand, that's exciting, but on the other hand it raises the issue of like "Okay, what's next?" There are people working -- or there's at least somebody working on an Electron app, which would be one interesting place to take it... I'm a little bit skeptical that something that's like "Wow, that's so cool!" in the browser, as soon as it's an Electron app, the response would be like, "Ugh, god, Electron... JavaScript... Everything is sloooow! I remember Winamp - Winamp was fast; this is not fast", and that there's gonna be this sort of like an uncanny valley... I don't know if you know that notion in 3D rendering, that as things get more and more real, eventually they reach a point where they're like so real, but not quite real enough, that they become very disconcerting, and I worry a little bit that if this does actually get packaged up as a desktop application, that something which felt like a very detailed and accurate reimplementation in the browser is gonna feel like jarringly not quite right on the desktop.
 
-\[01:12:23.09\] So that's one thing that I'm thinking about. The other one, of course, is that Spotify thing, although I don't think that that can ever quite be right, due to the DRM limitations... But the thing I'm actually more interested in is there's this -- one of the other iconic things about Winamp was the visualizations; there were these very ornate visualizers. I think the most notable one is called MilkDrop, which would do these psychedelic visualizations of your music in real-time, and you'd sort of see the screen ondulating in beat with your music... And all that stuff should be possible in Javascript, and in fact it is; there's a guy here in the Bay Area who's done a project called Butterchurn Visualizer (butterchurnviz.com). It's basically a Javascript reimplementation of MilkDrop, which was one of these visualizers.
+\[01:12:23.09\] So that's one thing that I'm thinking about. The other one, of course, is that Spotify thing, although I don't think that that can ever quite be right, due to the DRM limitations... But the thing I'm actually more interested in is there's this -- one of the other iconic things about Winamp was the visualizations; there were these very ornate visualizers. I think the most notable one is called MilkDrop, which would do these psychedelic visualizations of your music in real-time, and you'd sort of see the screen ondulating in beat with your music... And all that stuff should be possible in JavaScript, and in fact it is; there's a guy here in the Bay Area who's done a project called Butterchurn Visualizer (butterchurnviz.com). It's basically a JavaScript reimplementation of MilkDrop, which was one of these visualizers.
 
-We've gone back and forth a few times. I think he's interested in trying to integrate it, but he's been busy, and his project is not open source, so I can't just jump on it. And the other main visualizer which I think was built into Winamp was called AVS; I don't know what it stands for... But that actually did get open-sourced as Nullsoft sort of got acquired, or whatever. The C (or C++) source code is out there, and there are some people working on a Javascript port of that, and there's also someone working on like a Web Assembly transpilation of that.
+We've gone back and forth a few times. I think he's interested in trying to integrate it, but he's been busy, and his project is not open source, so I can't just jump on it. And the other main visualizer which I think was built into Winamp was called AVS; I don't know what it stands for... But that actually did get open-sourced as Nullsoft sort of got acquired, or whatever. The C (or C++) source code is out there, and there are some people working on a JavaScript port of that, and there's also someone working on like a Web Assembly transpilation of that.
 
 **Jerod Santo:** I was just gonna say, that might be a good use of Web Assembly for that.
 

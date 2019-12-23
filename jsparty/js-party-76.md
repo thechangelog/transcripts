@@ -1,4 +1,4 @@
-**Kevin Ball:** Alright, hello party people, and welcome to another episode of JS Party, where we are every week throwing a party about Javascript and the web. I am your host this week, Kball, and I am joined by two of our amazing regular panelists, one who is a new panelist; I'm super-excited, I've loved all of her episodes so far, but I haven't been on one with her, so welcome and thank you for joining me, Emma Wedekind!
+**Kevin Ball:** Alright, hello party people, and welcome to another episode of JS Party, where we are every week throwing a party about JavaScript and the web. I am your host this week, Kball, and I am joined by two of our amazing regular panelists, one who is a new panelist; I'm super-excited, I've loved all of her episodes so far, but I haven't been on one with her, so welcome and thank you for joining me, Emma Wedekind!
 
 **Emma Wedekind:** Yay! I'm so happy to be here. I am excited to chat more with you.
 
@@ -32,7 +32,7 @@ Node streams - so you can think of a stream kind of like a collection of data, s
 
 And there's another function called xrange(), and it's different -- it essentially doesn't hold the whole array in memory. So you can say xrange(50 billion zillion), and Python will just go ahead and go through, but if you said range(), well, then we're gonna fill up memory with this huge, huge array.
 
-So in Javascript if an array is working with a range operator, streams are more like xrange(). Does that make sense so far?
+So in JavaScript if an array is working with a range operator, streams are more like xrange(). Does that make sense so far?
 
 **Kevin Ball:** Yeah, I think so. Basically, an array that is paged into memory a piece at a time.
 
@@ -92,7 +92,7 @@ If you wanna lay things out in align, for example, Flexbox is the right tool. If
 
 **Emma Wedekind:** Yeah, so we just talked about Flexbox and Grid, but sometimes I have problems when I'm writing my CSS and my properties aren't' showing up, or my styles aren't being applied appropriately... So could you tell me a little bit more about specificity?
 
-**Kevin Ball:** Alright, specificity... And I'm gonna try to explain it like you're five, so I'm gonna go back to metaphors. My kids are no longer into PAW Patrol; the latest and greatest thing is Ninjago. Ninjago is a combination word for Ninja Legos. They are these ninja characters made up of legos, and they all have different abilities, but they're kind of all over the place. The story writing is thin. Sometimes one character is doing better, sometimes the other, and often times whichever one arrives last is gonna hit it. So if we start coming back to CSS specificity, thinking about it as Ninjago and how Ninjago \[unintelligible 00:14:38.12\]
+**Kevin Ball:** Alright, specificity... And I'm gonna try to explain it like you're five, so I'm gonna go back to metaphors. My kids are no longer into PAW Patrol; the latest and greatest thing is Ninjago. Ninjago is a combination word for Ninja Legos. They are these ninja characters made up of legos, and they all have different abilities, but they're kind of all over the place. The story writing is thin. Sometimes one character is doing better, sometimes the other, and often times whichever one arrives last is gonna hit it. So if we start coming back to CSS specificity, thinking about it as Ninjago and how Ninjago is going to tackle problems.
 
 CSS specificity, before we go into the metaphor, is essentially a set of algorithms or rules for how styles choose to get applied, and there's two core elements of this. There's how strong is the thing that we're applying, and there's what order is it that we apply it in.
 
@@ -106,7 +106,7 @@ And the final Spinjago reference is when all is lost, and they just have to blow
 
 **Emma Wedekind:** I loved that. That was a great analogy.
 
-**Kevin Ball:** Okay, and with that, let us close this segment. We're gonna take a short break, and we will be back shortly, talking about stories of the week in the Javascript and front-end space.
+**Kevin Ball:** Okay, and with that, let us close this segment. We're gonna take a short break, and we will be back shortly, talking about stories of the week in the JavaScript and front-end space.
 
 **Break:** \[00:17:10.06\]
 
@@ -144,11 +144,11 @@ You can't actually do that yet. I think there are some barriers to making that h
 
 **Christopher Hiller:** \[00:24:08.17\] There's some others, too. It helps with formatting... But I brought this up earlier - it offers a Flexbox model, so I was trying to make it render a table, and it was not having it, so I have to look into that.
 
-**Kevin Ball:** That is interesting. Yeah, CLI, but potentially actually using your entire terminal. More like \[unintelligible 00:24:26.26\] than what I might traditionally think of as a CLI, just interacting with one thing at a time. Huh. Cool.
+**Kevin Ball:** That is interesting. Yeah, CLI, but potentially actually using your entire terminal. More like readline style apps than what I might traditionally think of as a CLI, just interacting with one thing at a time. Huh. Cool.
 
 Okay, so my article that I wanna bring forward was an announcement by Microsoft. We had an episode at the end of last year, I believe, where we were talking about some of the challenges in the reduced diversification of the browser ecosystem, and Microsoft going to use a Chromium-based Edge is something that is very much on our radar... But they've made a really interesting announcement just recently, that they are actually going to build Internet Explorer into that Chromium Edge... And here's why. There are lots of businesses out there that have these old, decrepit internal web apps that they use to run their business, and have for years and years, that were developed 10-15 years ago, nobody knows how to modify them, and they only work on Internet Explorer... And that has been one of the reasons why businesses have continued to force employees to use Internet Explorer in businesses outside the tech industry, and why it has refused to die.
 
-Microsoft is saying, "Okay, we're gonna give you a browser that for those applications will behave like Internet Explorer, so you can use it... And for everything else it's actually a modern browser." To me, I was like "That's brilliant." It's using technology to solve a very non-technology, very human \[unintelligible 00:25:44.12\] business problem, but it will be a huge step forward in getting some of the last remaining, lingering people using really old, broken browsers out of that world.
+Microsoft is saying, "Okay, we're gonna give you a browser that for those applications will behave like Internet Explorer, so you can use it... And for everything else it's actually a modern browser." To me, I was like "That's brilliant." It's using technology to solve a very non-technology, very human and stodgy business problem, but it will be a huge step forward in getting some of the last remaining, lingering people using really old, broken browsers out of that world.
 
 **Christopher Hiller:** Does that mean we don't need to test in IE anymore?
 
