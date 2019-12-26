@@ -300,6 +300,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/dander"><img src="https://avatars3.githubusercontent.com/u/1302979?v=4" width="100px;" alt=""/><br /><sub><b>Dave Andersen</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=dander" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/blyxxyz"><img src="https://avatars0.githubusercontent.com/u/15526524?v=4" width="100px;" alt=""/><br /><sub><b>Jan Verbeek</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=blyxxyz" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://gophers.mu"><img src="https://avatars3.githubusercontent.com/u/38979769?v=4" width="100px;" alt=""/><br /><sub><b>Jules Michael</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=JulesMike" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
