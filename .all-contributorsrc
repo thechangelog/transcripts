@@ -1897,6 +1897,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "JulesMike",
+      "name": "Jules Michael",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/38979769?v=4",
+      "profile": "https://gophers.mu",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
