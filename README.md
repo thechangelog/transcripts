@@ -302,6 +302,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="https://gophers.mu"><img src="https://avatars3.githubusercontent.com/u/38979769?v=4" width="100px;" alt=""/><br /><sub><b>Jules Michael</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=JulesMike" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://www.oxykodit.com"><img src="https://avatars0.githubusercontent.com/u/8796347?v=4" width="100px;" alt=""/><br /><sub><b>Sofie Van Landeghem</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=svlandeg" title="Documentation">📖</a></td>
   </tr>
 </table>
 
