@@ -38,7 +38,7 @@
 
 **Mat Ryer:** \[00:04:15.08\] For people that are new to Go, I'll give a quick overview of some of the primitives and some of the language that we're probably gonna use today, just to make sure that you know what we're talking about. A goroutine you can think of like as another thread that's running. it's actually not a thread, but if you think of it as your main application runs and that's one thread, and if you want to do some work in the background, then you can spin up a goroutine to go and do some work. And actually, you can spin up quite a few of these goroutines to go off and do their work, and they'll in theory do it as best they can with the hardware available to them.
 
-And then of course we have channels, which allow communication between goroutines... So they're quite called for. You can send and receive information in a safe way, because if you have these goroutines trying to access the same memory, at the same time, you can run into problems.
+And then of course we have channels, which allow communication between goroutines... So they're quite cool for..     You can send and receive information in a safe way, because if you have these goroutines trying to access the same memory, at the same time, you can run into problems.
 
 So I'd say those are the generals of the -- two things. There's also the Go keyword, which is what kicks off a goroutine. So you can call a function and kick off a goroutine that way. So anyone who wants to learn more about this stuff, you can probably just search it in your favorite search engine - DuckDuckGo, or whichever one it is. So that's the overview I've done...
 
@@ -56,7 +56,7 @@ We probably should educate or put out some material to think about it and learn 
 
 **Mat Ryer:** Yeah, I agree with you about the select statement... When you really get that right, it can be extremely powerful. And the common way that I've used it recently a lot is checking for the context to be finished. So if I've got some work I'm doing in a loop, I'll have a little check somewhere, perhaps with a select block, that will just basically check if that context has been canceled or not, allowing me to interrupt the work and exit somewhat gracefully if it's canceled... And that's quite nice, when you wire that up with the HTTP request context as well, because then you essentially -- if the user cancels the request in the browser, in theory that is gonna stop the work that you were doing in order to prepare that request... And whatever saving that gets you, I don't know, but it's just very satisfying to know that that's what it's doing.
 
-**Jaana B. Dogan (JBD):** Do you feel like Go can do more out-of-the-box things with context? I feel like there's a lot of boilerplate... You need to make sure the context is not canceled, there's on timeout, and whatever... Do you feel like there's any place that there can be some improvements? Maybe there could be certain features of select that automatically handle some cases, or whatever... I'm just brainstorming right now, to be honest...
+**Jaana B. Dogan (JBD):** Do you feel like Go can do more out-of-the-box things with context? I feel like there's a lot of boilerplate... You need to make sure the context is not canceled, there's no timeout, and whatever... Do you feel like there's any place that there can be some improvements? Maybe there could be certain features of select that automatically handle some cases, or whatever... I'm just brainstorming right now, to be honest...
 
 **Mat Ryer:** Yeah, I don't know, that's actually a really interesting question. I wondered whether having context just part of the language - and this is kind of a non-Go thing, because Go likes to be very explicit all the time... But I could imagine there's always a context around, and you can always cancel it, and sub-functions and things will get canceled in the same way. You could almost imagine that. It's a bit like how exceptions probably work the opposite way in other languages. So I'm not sure it would get much support... But sometimes I do find myself just passing the context into every, every method, just everything, because even potentially my logging has needs for a context, so in that case so does everything; I'd like to not do that as much. But again, it's explicit, and you can't call that method without it.
 
@@ -70,7 +70,7 @@ I would really like to know when code that I'm writing gets interrupted, and I w
 
 **Mat Ryer:** \[00:11:57.06\] So it's interesting, you mention you want to know when it ends. Has anybody got any techniques of how you can find out when a goroutine has finished?
 
-**Roberto Clapis:** I think that it doesn't matter how, but you should always know... I mean, I've seen so many projects and so many projects just become unmaintainable just because they were just spinning up goroutines and let them run, without handling their graceful shutdown. Has this been someone else's experience, too?
+**Roberto Clapis:** I think that it doesn't matter how, but you should always know... I mean, I've seen so many programs and so many projects just become unmaintainable just because they were just spinning up goroutines and let them run, without handling their graceful shutdown. Has this been someone else's experience, too?
 
 **Mat Ryer:** Well, they all shut down when your program ends, right? \[laughter\]
 
@@ -100,11 +100,11 @@ This is also where channels come into play. So if the goroutine you spin off to 
 
 **Roberto Clapis:** I think it does, in kind of a good way. For some things, the layer it gives you allows you to build better abstractions. For example errgroup, which is a thing that I use everywhere, because when you cancel the context, it is immediate to know when everything has ended and propagate the shutdown. But at the same time, if you want to go lower, as you say... For example, at one point you want to drop your privileges. So if you want one goroutine to say "Okay, this program is running a root. It shall not be root anymore." Dropping privileges is still broken, and it has been broken for nine years... Because it's racy, it has problems... Go doesn't give you that fine-grain control on the underlying threads, or like pinning on a certain core, for example for graphics. The only way to do that now is from the main function say "Okay, pin me on this OS thread forever, and I'm gonna be the one that draws." And that's clunky.
 
-**Jaana B. Dogan (JBD):** \[00:16:05.09\] Yeah, it's true. And with NUMA and all these new ways of actually controlling the scheduling \[unintelligible 00:16:10.19\] You can pin yourself to certain processors or a certain group of processors, and people do this for these fine-grained optimizations, because you know more about the task or whatever you're running, and just grouping things together, or whatever... It just makes sense. I've been experimentally using Go for this purpose, but it's been such a hard topic. All you can do is just lock yourself to the OS thread, and you have some control over the OS thread through some C libraries... And that's kind of funny.
+**Jaana B. Dogan (JBD):** \[00:16:05.09\] Yeah, it's true. And with [NUMA](https://en.wikipedia.org/wiki/Non-uniform_memory_access) and all these new ways of actually controlling the scheduling you can pin yourself to certain processors or a certain group of processors, and people do this for these fine-grained optimizations, because you know more about the task or whatever you're running, and just grouping things together, or whatever... It just makes sense. I've been experimentally using Go for this purpose, but it's been such a hard topic. All you can do is just lock yourself to the OS thread, and you have some control over the OS thread through some C libraries... And that's kind of funny.
 
 **Roberto Clapis:** I think it was the Ristretto authors that said that they needed a thread local storage, but Go doesn't offer you that, so they used sync.Pool, which is lossy, and still decided they were good with that, because lossy was better than trying to share stuff with other threads... I guess when you get that far, you might be using something wrong. \[laughter\]
 
-**Johnny Boursiquot:** To be fair, they said that there was actively use of some form of thread local storage under the hood, but it wasn't accessible to you as the user of the language.
+**Johnny Boursiquot:** To be fair, they did say that there was actively use of some form of thread local storage under the hood, but it wasn't accessible to you as the user of the language.
 
 **Roberto Clapis:** Yes. Yes, that's why they did it.
 
@@ -112,17 +112,17 @@ This is also where channels come into play. So if the goroutine you spin off to 
 
 **Break:** \[00:17:51.12\]
 
-**Mat Ryer:** So what about some of the packages then in Go that we have for when it comes to working in concurrent ways? I'm thinking specifically about the sync package. Sync Once is a very helpful little utility. Essentially, you give it a function and it guarantees that that function will only be called once. So it's very useful in, say, a web context; if you've got a handler that's gonna do some initialization work upfront, and you might wanna defer that until the first time it's called - then you put it inside the handler itself... But of course, since every request gets its own goroutine in Go, it's possible that two requests could come in at this exact same time, spin up two goroutines, and they both try and do that initialization. Or they're checking for nil, or whatever they're doing, and they'll sort of step on each other's toes. You can use Sync Once to protect against things like that.
+**Mat Ryer:** So what about some of the packages then in Go that we have for when it comes to working in concurrent ways? I'm thinking specifically about the sync package. `sync.Once` is a very helpful little utility. Essentially, you give it a function and it guarantees that that function will only be called once. So it's very useful in, say, a web context; if you've got a handler that's gonna do some initialization work upfront, and you might wanna defer that until the first time it's called - then you put it inside the handler itself... But of course, since every request gets its own goroutine in Go, it's possible that two requests could come in at this exact same time, spin up two goroutines, and they both try and do that initialization. Or they're checking for nil, or whatever they're doing, and they'll sort of step on each other's toes. You can use `sync.Once` to protect against things like that.
 
 What happens is the first one that gets there runs the function, and all the rest will wait until that function is completed, and then they'll unblock and continue. Really useful, very practical, and it's such a great utility... But there are some other lower-level ones, aren't there?
 
-**Roberto Clapis:** Yeah, like Sync Map, which I think is the most misused single structure in the entire Go standard library.
+**Roberto Clapis:** Yeah, like `sync.Map`, which I think is the most misused single structure in the entire Go standard library.
 
 **Mat Ryer:** Really?
 
-**Roberto Clapis:** Yeah, because people assume it's just a thread-safe hashmap... It's not. I think a thread-safe hashmap is a map with a mutex. That's about it. The Sync Map is actually to reduce cache contention. I've seen a lot of people plumbing it everywhere they needed a sync map, but actually what they needed was just a map, with some protection on top. Sync Map is useful if you start noticing that your content cache is too much, and you have a lot more reads that writes... But I think that's about it. It's even written, "Don't use this." Or even Sync Atomic - it's specifically written "Don't be smart."
+**Roberto Clapis:** Yeah, because people assume it's just a thread-safe hashmap... It's not. I think a thread-safe hashmap is a map with a mutex. That's about it. The `sync.Map` is actually to reduce cache contention. I've seen a lot of people plumbing it everywhere they needed a `sync.Map`, but actually what they needed was just a map, with some protection on top. `sync.Map` is useful if you start noticing that your content cache is too much, and you have a lot more reads that writes... But I think that's about it. It's even written, "Don't use this." Or even Sync Atomic - it's specifically written "Don't be smart."
 
-**Jaana B. Dogan (JBD):** Yeah, I think it's the name... It's a "sync map", so I think it's just not very self-descriptive. That's the main reason. Because in the Go docs it explicitly says "Hey, most of the time you actually need a plain Go map instead." But the name just doesn't suggest that. It should have been called maybe sync dot like some, whatever map.
+**Jaana B. Dogan (JBD):** Yeah, I think it's the name... It's a `sync.Map`, so I think it's just not very self-descriptive. That's the main reason. Because in the Go docs it explicitly says "Hey, most of the time you actually need a plain Go map instead." But the name just doesn't suggest that. It should have been called maybe sync dot like some, whatever map.
 
 **Johnny Boursiquot:** So for those listening, the guidance there is to basically just use a mutex to protect the access to your maps... Right? Is that what you're saying, Rob?
 
@@ -132,7 +132,7 @@ What happens is the first one that gets there runs the function, and all the res
 
 **Johnny Boursiquot:** Right. So by default, your regular, good ol' map, the stuff you'd create in your plain jane Go code, is not safe for concurrent access. So you could have multiple goroutines trying to write to the same key, at the same time... That kind of thing. For read it potentially is okay, but typically when you want to limit the number of goroutines that basically are either writing and/or reading from your map to just one at a time. That's where your mutex - short for "mutual exclusion" - comes in. It basically guarantees that only one of your goroutines is going to be accessing or mutating something about your map at any one time.
 
-So what we've been talking about is basically that "Okay, does the sync package map type? Does it give this out of the box?" To echo Jaana - well, it's named like it should be... But it's not. You should really be using a regular map, but introduce a mutex to deal with the possibility of contention.
+So what we've been talking about is basically that "Okay, does the sync package Map type? Does it give this out of the box?" To echo Jaana - well, it's named like it should be... But it's not. You should really be using a regular map, but introduce a mutex to deal with the possibility of contention.
 
 **Mat Ryer:** Yeah. Thank you. So yeah, if you wanna access this map that Johnny was talking about, you lock the mutex, then you do your accessing, and then you unlock it when you finished... And if other things try and lock that same mutex while you've got it locked, they'll then wait for you to unlock. So they are synchronization points, and they do create contention. We're saying that we have this concurrent program, but not at these points. At these points it's not concurrent. You have to all come here and wait, for some reason... And it can get tricky to think about.
 
@@ -154,7 +154,7 @@ So what we've been talking about is basically that "Okay, does the sync package 
 
 **Mat Ryer:** But for readability, of course, defer wins, hands-down. When you open a file and you check the error, and then you say "Okay, defer file close", you've got everything to do with opening and closing files in the same place... And it's quite obvious as well to notice when you've forgotten to close things, because you're looking in that same area. It's right near where you've opened it. So I think for readability it just wins, hands-down, doesn't it?
 
-**Mat Ryer:** The typical guidance I hear from experienced developers like yourselves is "Hey, use defer because readability, and because you don't wanna forget to leave a file handle open", or something like that (that's just resource misuse). But I would say sometimes -- I've done it both ways, and yes, I have a penchant towards defer... But at the same time, depending on how big the function that I'm working with is, and how much I'm doing in there, if I open a file I may choose to have the 2-3 extra lines that I'm doing after I open the file, and then explicitly close the file, without using defer.
+**Johnny Boursiquot:** The typical guidance I hear from experienced developers like yourselves is "Hey, use defer because readability, and because you don't wanna forget to leave a file handle open", or something like that (that's just resource misuse). But I would say sometimes -- I've done it both ways, and yes, I have a penchant towards defer... But at the same time, depending on how big the function that I'm working with is, and how much I'm doing in there, if I open a file I may choose to have the 2-3 extra lines that I'm doing after I open the file, and then explicitly close the file, without using defer.
 
 So yes, generally speaking you do wanna use defer, but I don't think it should be interpreted as gospel.
 
@@ -184,7 +184,7 @@ So yes, generally speaking you do wanna use defer, but I don't think it should b
 
 **Johnny Boursiquot:** I wanna dig into that a little bit. I've seen several codes where you have a select statement and you have a number of different cases. Sometimes you have a default, sometimes you do not... Can somebody explain why that is, and what is the impact of having a default case in your select statement, as opposed to not having one?
 
-**Roberto Clapis:** So select is used to receive and send from and to channels, and select blocks, until one of the cases becomes available. If you have a default case, most like a switch. Basically, if nothing else is available, select will just continue. It takes a while to get used to, because I've seen people doing stuff in a loop, and having a default case in there... And they were just spinning, trying to get some work. Then "Well, work is not available. Let's do another round", when instead it should have just blocked. And in other cases people check in for context cancellation without a default case, and that would just block everything that was hard to debug, because -- I mean, HTTP handlers don't detect that there is a deadlock, and stuff like that.
+**Roberto Clapis:** So select is used to receive and send from and to channels, and select blocks, until one of the cases becomes available. If you have a default case, mostly like a switch. Basically, if nothing else is available, select will just continue. It takes a while to get used to, because I've seen people doing stuff in a loop, and having a default case in there... And they were just spinning, trying to get some work. Then "Well, work is not available. Let's do another round", when instead it should have just blocked. And in other cases people check in for context cancellation without a default case, and that would just block everything that was hard to debug, because -- I mean, HTTP handlers don't detect that there is a deadlock, and stuff like that.
 
 So yeah, default - non-blocking; no default - blocking. The best way to block a program from continuing is having an empty select.
 
@@ -202,7 +202,7 @@ So yeah, default - non-blocking; no default - blocking. The best way to block a 
 
 **Roberto Clapis:** Yeah. Just have a channel that is one bit. That is very nice.
 
-**Mat Ryer:** Yeah. A buffer channel with space for one thing.
+**Mat Ryer:** Yeah. A buffered channel with space for one thing.
 
 **Roberto Clapis:** Yeah.
 
@@ -210,7 +210,7 @@ So yeah, default - non-blocking; no default - blocking. The best way to block a 
 
 **Mat Ryer:** You know when you do these signal channels... These channels where you don't plan on sending any information, you only really wanna send a signal of some event, like "I've finished", or something like that, what type do you use? Do you have a favorite? Because I have a favorite... It's a loaded question; I just wanna tell you what my favorite is, so if we could just get through yours... \[laughter\]
 
-**Roberto Clapis:** For a moment I thought you were going for buffer channels, and I was like "Oh, that's a loaded question..." But you've found a better one.
+**Roberto Clapis:** For a moment I thought you were going for buffered channels, and I was like "Oh, that's a loaded question..." But you've found a better one.
 
 **Johnny Boursiquot:** \[laughs\] Okay, so one of the idioms that have been floating around is you use the empty struct as a messaging mechanism. Because it really occupies no memory, nothing's been allocated, basically... You're just signaling; just a few signals. Beginners might also be tempted to use booleans, I've seen integer types, I've seen people passing over channels... I've even seen errors being passed as a signaling mechanism over channels.
 
@@ -234,7 +234,7 @@ I'm not gonna say that these mechanisms are wrong. Sometimes the value that you 
 
 **Mat Ryer:** We need more bits like that.
 
-**Roberto Clapis:** Most of what I do right now is code review. I read way more code than I write. And when I see people using a map of something to boolean, I always ask "What if you get false, but the key isn't there?" It's the same for channels - "What are you trying to tell your users?" Or like buffer channels of size 50. I mean, I can understand one or two, but when it starts being like 100, I need a comment to tell me why.
+**Roberto Clapis:** Most of what I do right now is code review. I read way more code than I write. And when I see people using a map of something to bool, I always ask "What if you get false, but the key isn't there?" It's the same for channels - "What are you trying to tell your users?" Or like buffered channels of size 50. I mean, I can understand one or two, but when it starts being like 100, I need a comment to tell me why.
 
 **Mat Ryer:** Yeah.
 
@@ -270,7 +270,7 @@ Also, things like passing mutexes by pointers, and things like this - if you can
 
 **Johnny Boursiquot:** So we've been deliberate with our use of the word concurrent, right? So one of the first things you learn in working with Go is that concurrency is not necessarily parallelism. By having concurrent code you allow for the system that's gonna be running your code to have your code run in parallel, but that's not something you can actually control.
 
-I think it was a talk by Rob Pike actually titled as such, "Concurrency is not parallelism", that sort of shed light on that whole mechanism. So has there been any case that you've encountered where parallelism wasn't the right thing to do, that you basically wish you didn't have concurrent code that ended up being run in parallel? Like any sort of races that you didn't anticipate, or anything like that.
+I think it was a talk by Rob Pike actually titled as such, [Concurrency is not parallelism](https://www.youtube.com/watch?v=oV9rvDllKEg) that sort of shed light on that whole mechanism. So has there been any case that you've encountered where parallelism wasn't the right thing to do, that you basically wish you didn't have concurrent code that ended up being run in parallel? Like any sort of races that you didn't anticipate, or anything like that.
 
 **Roberto Clapis:** I had a big headache trying to figure out how to properly do init, because the code I was using was pulling goroutines, and was blocking until those goroutines returned. But during init time, you can't spawn goroutines. I mean, you can spawn them, but they won't run. So that code was deadlocking on startup.
 
@@ -326,9 +326,9 @@ Another way to do it, of course, is just to spin up a certain number of goroutin
 
 **Roberto Clapis:** I really like that, and I really like how Go is so simple that you can actually implement a Semaphor in three lines. Because what you described is usually a Semaphor, and channels are such a higher-level primitive that they allow you to implement whatever you want. I mean, even if you need a mutex with a trylock method, because you want to tryAcquire, and if you can't manage, well, just retry in a bit... Well, you can do that with a channel, with a select and an empty default block. Channels are so much more expressive than just mutexes.
 
-**Mat Ryer:** Yeah. And you remind me as well of the time.After that you can get in the time package, which actually returns a channel which sends the time on it after a certain duration... So you can use that in select blocks as well to say "We're gonna wait for maybe this goroutine to finish. If it hasn't finished within one second, we'll run a different case. We might update the stats, or something. We might present an update to the user, so every second they'll get an update while we're waiting." Once the task then finishes, of course the other case will trigger and it'll go and do the other thing.
+**Mat Ryer:** Yeah. And you remind me as well of the `time.After` that you can get in the time package, which actually returns a channel which sends the time on it after a certain duration... So you can use that in select blocks as well to say "We're gonna wait for maybe this goroutine to finish. If it hasn't finished within one second, we'll run a different case. We might update the stats, or something. We might present an update to the user, so every second they'll get an update while we're waiting." Once the task then finishes, of course the other case will trigger and it'll run and do the other thing.
 
-There's also a ticker that you can do as well, but time.After tends to be quite nice... A nice way to express timeouts in test code as well, if you're waiting for test code to complete... It's nice to have those little timeouts in there as well.
+There's also a ticker that you can do as well, but `time.After` tends to be quite nice... A nice way to express timeouts in test code as well, if you're waiting for test code to complete... It's nice to have that little timeouts in there as well.
 
 **Roberto Clapis:** I've had bad experiences with the time package. \[laughter\]
 
