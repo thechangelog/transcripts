@@ -78,7 +78,7 @@ We had this discussion last week - there's no good way to say "Hey, I'm just goi
 
 **Jaana B. Dogan (JBD):** Thanks, thanks.
 
-**Mat Ryer:** I don't know his last name, I will look it up, but there's a great talk by Ivan about visualizing concurrency in Go. I don't know if you've seen that.
+**Mat Ryer:** I don't know his last name, I will look it up, but there's a great talk by [Ivan](https://twitter.com/idanyliuk) about visualizing concurrency in Go. I don't know if you've seen that.
 
 **Jaana B. Dogan (JBD):** Exactly. From the GopherCon a couple of years ago, right?
 
@@ -122,7 +122,7 @@ We had this discussion last week - there's no good way to say "Hey, I'm just goi
 
 **Mat Ryer:** I don't know, actually... That's a good question. I'm in awe by anyone that speaks multiple languages, so I can't really imagine what that's like... So I don't know, is the honest answer. I like hearing phrases in other languages, translated, and you don't have any of the context, or anything. They are brilliant. Some of them are absolutely brilliant.
 
-**Jaana B. Dogan (JBD):** \[unintelligible 00:18:58.27\] give you a list, and... I can score you. \[laughs\]
+**Jaana B. Dogan (JBD):** So I should give you a list, and... I can score you. \[laughs\]
 
 **Mat Ryer:** Oh, we should do that on Twitter. That's hilarious. We should definitely start that. \[laughter\] Speaking of grinding gears - what's the thing that annoys you the most about Go? That was another question I thought might be an interesting one to chat about.
 
@@ -130,7 +130,7 @@ We had this discussion last week - there's no good way to say "Hey, I'm just goi
 
 **Mat Ryer:** How would you change it then? Would you just disallow it, so if you tried to use it, it says "This variable has already been used in another block"? Or do you allow it? What would you do? How would you change it?
 
-**Jaana B. Dogan (JBD):** Currently, they only allow shadowing of errors. If they take it further, to allow people to - you know, for convenience, to shadow the other \[unintelligible 00:19:58.11\] I think it would be way too much. So I would say that I think it's fair as it is, but it's annoying... Because it gives me this inconsistency.
+**Jaana B. Dogan (JBD):** Currently, they only allow shadowing of errors. If they take it further, to allow people to - you know, for convenience, to shadow the other variables. I think it would be way too much. So I would say that I think it's fair as it is, but it's annoying... Because it gives me this inconsistency.
 
 \[00:20:11.27\] I can see there's no other way to do this. They can completely disable it, and that would be such an inconvenient thing, because you have errors all around, so you wanna sometimes shadow it for the convenience... But it's just annoying. And sometimes I need to declare the variable, and sometimes I don't... I don't know. I really don't like how inconsistent it sometimes looks.
 
@@ -150,7 +150,7 @@ And people are just copy-pasting the style sometimes, and they're just assuming 
 
 **Mat Ryer:** Well, I know. Not cool enough.
 
-**Johnny Boursiquot:** Yeah... \[laughter\] Right, so it's not cool enough... It's kind of closely related to that, to what Jaana was saying - I see it often, especially I think the typical example that's given is if you're in a for loop, you have an iterator, you have \[unintelligible 00:22:17.01\] or something, and then you're launching a goroutine inside of there... Because of the closure that happens over the variable, you think you can actually use an iterator inside of your goroutine, inside of your function... And then not realizing that basically you're not really using a copy of that variable; basically, you're using the same reference to it. So your goroutines end up stepping all over each other.
+**Johnny Boursiquot:** Yeah... \[laughter\] Right, so it's not cool enough... It's kind of closely related to that, to what Jaana was saying - I see it often, especially I think the typical example that's given is if you're in a for loop, you have an iterator, you have an i variable or something, and then you're launching a goroutine inside of there... Because of the closure that happens over the variable, you think you can actually use an iterator inside of your goroutine, inside of your function... And then not realizing that basically you're not really using a copy of that variable; basically, you're using the same reference to it. So your goroutines end up stepping all over each other.
 
 I've seen code like that pop up enough times that I don't quite have a solution for it, but it's just something that happens often enough and I'm not sure of a way around that other than teaching people to "Hey, this is actually what happens because of the closure. If you don't pass another copy of this variable, you're gonna get unexpected results."
 
@@ -176,7 +176,7 @@ I've seen code like that pop up enough times that I don't quite have a solution 
 
 **Mat Ryer:** And it must be able to do that, because they're statically-typed, so it knows the type at compile time.
 
-**Jon Calhoun:** Yeah. You can do \[unintelligible 00:24:53.28\] and it gives them all zero value, so it definitely knows that it's there, it's just a matter of when you're declaring it or setting it up, you have to do it a slightly different way, which - I just don't like that it leads to code that it's like "Why did you do it this way this time?" "Well, because I'm using these nested things. It looks a little bit weird if I have to do it that way."
+**Jon Calhoun:** Yeah. You can do var t thing and then do t.a.b.c = something and it gives them all zero values, so it definitely knows that it's there, it's just a matter of when you're declaring it or setting it up, you have to do it a slightly different way, which - I just don't like that it leads to code that it's like "Why did you do it this way this time?" "Well, because I'm using these nested things. It looks a little bit weird if I have to do it that way."
 
 **Mat Ryer:** Yeah, again, the same thing - if you're doing something, it's nice for there to be a reason for it, not just make a thing happy.
 
@@ -214,7 +214,7 @@ I really personally like my sofa a lot, and recently I realized that I'm way mor
 
 **Mat Ryer:** Why?
 
-**Jon Calhoun:** As a new college grad, if you walk into an office space with a bunch of cubicles, and then you walk into a space like Facebook office or something, the one just seems like a better environment from where you're coming from.
+**Jon Calhoun:** As a new college grad, if you walk into an office space with a bunch of cubicles, and then you walk into an open space like Facebook office or something, the one just seems like a better environment from where you're coming from.
 
 **Johnny Boursiquot:** Because you're a fool. \[laughs\]
 
@@ -226,9 +226,9 @@ I really personally like my sofa a lot, and recently I realized that I'm way mor
 
 **Johnny Boursiquot:** Yes, yes, you could. Absolutely. It was meant for that. It was beautiful. It was a digital agency, so there was a lot of creative folks seated all over the place... And when you walked in there, the effect -- you could see people working on illustrations, design work, doing really beautiful stuff, and I think that was part of the reason for that. If you bring your prospect into the office, if you bring a customer into the office, the impact that that brings - you got hit with that. You're like "Okay, this space is serious."
 
-The coders then sit \[unintelligible 00:30:33.29\] because they were doing the cool stuff. The coders were like "We just look at text all day." There's nothing appealing about that when you first walk into the office. But that was part of the appeal of it. It was modern-looking, it had a nice, open and airy feel to it... And if you think about it, in your own home -- in my home right now I'd like to knock down a few walls, make it open, make it airy, make it feng shui, or whatever... You want that. But you know, it didn't take long before we quickly realized "Okay, this is sort of a focus killer." It's fine to look at, but if you're trying to get work done, with all the buzzing and the activity going on around you, you just can't get anything done, which is why it didn't take long... A month in, everybody got noise-canceling headphones, because we just couldn't get anything done.
+The coders then sat upfront with the designers because they were doing the cool stuff. The coders were like "We just look at text all day." There's nothing appealing about that when you first walk into the office. But that was part of the appeal of it. It was modern-looking, it had a nice, open and airy feel to it... And if you think about it, in your own home -- in my home right now I'd like to knock down a few walls, make it open, make it airy, make it feng shui, or whatever... You want that. But you know, it didn't take long before we quickly realized "Okay, this is sort of a focus killer." It's fine to look at, but if you're trying to get work done, with all the buzzing and the activity going on around you, you just can't get anything done, which is why it didn't take long... A month in, everybody got noise-canceling headphones, because we just couldn't get anything done.
 
-**Jaana B. Dogan (JBD):** How does the visual noise works like? Is it as disruptive as noise?
+**Jaana B. Dogan (JBD):** How does the visual noise work like? Is it as disruptive as noise?
 
 **Johnny Boursiquot:** It's an echoey noise. You could have two people staying on the other side of the office, and you could still hear them if you're on the other end...
 
@@ -254,7 +254,7 @@ It's kind of funny, because the same -- I don't know if it was the same people, 
 
 **Johnny Boursiquot:** Oh.
 
-**Mat Ryer:** JS Party. JS Party, mate. That competitor. Yeah, so... And I miss it. I miss the kind of atmosphere that you can get when you are collocated. But for practical productivity I can't beat screen sharing, working with people \[unintelligible 00:34:06.11\] you're just chatting, one of you sharing the screen... I do pair-programming a lot, so it's nice because you're not physically next to the person, but you're having the same kind of experience.
+**Mat Ryer:** JS Party. JS Party, mate. That competitor. Yeah, so... And I miss it. I miss the kind of atmosphere that you can get when you are collocated. But for practical productivity I can't beat screen sharing, working with people have the audio on and screen sharing you're just chatting, one of you sharing the screen... I do pair-programming a lot, so it's nice because you're not physically next to the person, but you're having the same kind of experience.
 
 **Jaana B. Dogan (JBD):** How do you pair-program without physical contact? I've never been in a situation where there's pair-programming going on... How does it work nowadays?
 
@@ -286,7 +286,7 @@ There's this pressure in the moment that just feels insurmountable. I think I've
 
 **Mat Ryer:** It's a great question.
 
-**Jaana B. Dogan (JBD):** And I think I answered \[unintelligible 00:42:00.02\] I wouldn't necessarily think that pair-programming is my thing, so I wouldn't really stress myself out because I'm not really good in it.
+**Jaana B. Dogan (JBD):** And I think I answered I wouldn't necessarily think that pair-programming is my thing, so I wouldn't really stress myself out because I'm not really good at it.
 
 **Mat Ryer:** Yeah, I think that's a great one. Mine would be something about it being okay to not know everything when you start a project. It was very tempting to fall into this trap and believe that the best software was designed meticulously and then implemented in that kind of waterfall fashion, which is how I assumed things worked... And it wasn't until -- it took me years, I think, to sort of shed that, and instead focus on, or realize really that as you're building it, you learn so much... And that should influence then what you're doing. You'd feel something back from the code, as well as you're not just in control of it. It kind of feeds back information to you as well.
 
@@ -348,11 +348,11 @@ But yeah, it is one of those things where we constantly were feeling like we wer
 
 Isn't it funny that we call this stuff soft skills? These are very hard stuff, and it's just completely not up to you. You may have some skills, or you may just help the situation, but it's just extraordinarily complicated. You need to have really good skills all across, including technical skills, to deal with any of this... And you feel like the only limit is just becoming this type of issues. I mean, technically, I think everything is possible. I mean, not everything is possible; technical problems are easy... The actual limitations are this type of problems, and it's amazing that we underestimate them as soft skills.
 
-**Johnny Boursiquot:** Personally, I think these are part of problem-solving skills. For me, the best way of understanding problems is to basically understand the business you're in, and that means you're talking to people that are not other techies, or they're not in the room coding with you, or designing with you, or whatever. So you have to actually step outside of your bubble to understand the greater world around you, and the people you work with. And hey, take the salesperson out for coffee. Get them to explain what the process is like. Go sit down with marketing and see what they do all day, and talk to the business operations folks and see what they -- I mean, you're gonna get a view of the business that is gonna inform how you solve problems, and actually recommend solutions as I above forward... But that starts with people, and being able to interact with people.
+**Johnny Boursiquot:** Personally, I think these are part of problem-solving skills. For me, the best way of understanding problems is to basically understand the business you're in, and that means you're talking to people that are not other techies, or they're not in the room coding with you, or designing with you, or whatever. So you have to actually step outside of your bubble to understand the greater world around you, and the people you work with. And hey, take the salesperson out for coffee. Get them to explain what the process is like. Go sit down with marketing and see what they do all day, and talk to the business operations folks and see what they -- I mean, you're gonna get a view of the business that is gonna inform how you solve problems, and actually recommend solutions as like keep moving a ball forward... But that starts with people, and being able to interact with people.
 
 Along those lines, I usually tell people "Look, at the end of the day, the tech is a tool that enables some entity to arrive at a particular goal... Be that goal money, or doing good in the world, whatever the case may be." Tech is a tool, and you're a specialist who knows how to use that tool. So tech doesn't matter as much as people... So be kind, and learn to interact. Give of yourself. Give and you will receive, right? Not money, but time. Give OF yourself.
 
-\[00:56:20.11\] Along those lines, the last thing I'll add is basically I've found - and over time - I like to use that phrase, "Ego is the enemy." I've found over time your ego, your self is always putting obstacles in your way. The whole thing I talked about earlier - when I pair, I feel the intense pressure to perform. That's ego. That's basically saying, "Hey, you'd better look good. Our survival depends on it." \[laughter\] Constantly you have this voice in the back of your head saying "Oh, you messed up here, man. You shouldn't have done that." Or "You've gotta say the perfect thing here", or "You've gotta be the perfect person here." That's causing you to act a certain way, causing you to act selfishly, causing you to pretend to be things you're not. All these things - that's just part of the self. Stay on top of that. honestly, that's the next decade over my life that I'm honestly trying to work on, is trying to identify when the ego is taking me for a ride, and just kicking him out the car.
+\[00:56:20.11\] Along those lines, the last thing I'll add is basically I've found - and over time - I like to use that phrase, "Ego is the enemy." I've found over time your ego, your self is always putting obstacles in your way. The whole thing I talked about earlier - when I pair, I feel the intense pressure to perform. That's ego. That's basically saying, "Hey, you'd better look good. Our survival depends on it." \[laughter\] Constantly you have this voice in the back of your head saying "Oh, you messed up here, man. You shouldn't have done that." Or "You've gotta say the perfect thing here", or "You've gotta be the perfect person here." That's causing you to act a certain way, causing you to act selfishly, causing you to pretend to be things you're not. All these things - that's just part of the self. Stay on top of that. Honestly, that's the next decade over my life that I'm honestly trying to work on, is trying to identify when the ego is taking me for a ride, and just kicking him out the car.
 
 **Mat Ryer:** Great. Yeah, you know, that little small voice in your head that tells you not to say things... What is that? How do you get one? \[laughter\]
 
@@ -374,7 +374,7 @@ But I also know that I've done screen-sharing, either to review code or to look 
 
 **Mat Ryer:** Yeah, that's interesting. I did a pair-programming session a few years ago with a more junior developer, and we were plowing through something, and it was kind of halfway through I realized I'm probably just going way too fast; I probably look really good doing it, but I make this look really hard, and like you have to be some amazing coder to be able to do it... Which, of course, isn't the case. So yeah, you're right, you have to be mindful of that as well. I was just doing my thing, trying to solve a problem, and I wasn't bringing people along with me in that case... So that was an important lesson for me.
 
-I think it is kind of a great way to work, but yeah, it does rely on that trust in the teams, and things... And I think you're right, being vulnerable and admitting "Yeah, I don't know about this. We're gonna have to figure it out together. We'll succeed together, or we won't succeed together." It is better, because you remove a lo of these personal, difficult challenges that people feel. You can remove a lot just by having a slightly different culture like that.
+I think it is kind of a great way to work, but yeah, it does rely on that trust in the teams, and things... And I think you're right, being vulnerable and admitting "Yeah, I don't know about this. We're gonna have to figure it out together. We'll succeed together, or we won't succeed together." It is better, because you remove a lot of these personal, difficult challenges that people feel. You can remove a lot just by having a slightly different culture like that.
 
 **Jon Calhoun:** I think you even see it with how people react to issues. We've all heard those stories about "Oh, some junior developer deleted the whole database", or something like that... And how the company responds to that demonstrates how they're going to take that vulnerability, how they're gonna treat it. It's a very clear indicator. So when you see a company that's like "Well, this happened. It shouldn't have been able to happen. We're not blaming him. Here's how we're fixing it." Then you're like "Okay, I have way more confidence in being vulnerable here." But when you see the person get fired, you're like "Well, time to not let anybody know about my mistakes."
 
