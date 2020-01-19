@@ -72,7 +72,7 @@ Of course, you can use defer in other cases for opening and closing the files. T
 
 **Mat Ryer:** So it's a class that has a destructor?
 
-**Dan Scales:** Yes, exactly. So you may allocate just a normal object, for instance, and it has a constructor, and you declare the variable \[unintelligible 00:11:05.06\] And if that class of that variable has a constructor, you run the constructor at the time that you enter the block. And then C++ guarantees that you will run the destructor at the end of the block, and that may deallocate sub-objects or whatnot... The main thing is it guarantees it no matter what, whether you return early from the function out of the block, or also, again, like defer, if you're panicking. And that's especially important, just like defer, if you're holding on to a resource, which is the common case, whether it's a lock or a file.
+**Dan Scales:** Yes, exactly. So you may allocate just a normal object, for instance, and it has a constructor, and you declare the variable the beginning of the block, and if that class of that variable has a constructor, you run the constructor at the time that you enter the block. And then C++ guarantees that you will run the destructor at the end of the block, and that may deallocate sub-objects or whatnot... The main thing is it guarantees it no matter what, whether you return early from the function out of the block, or also, again, like defer, if you're panicking. And that's especially important, just like defer, if you're holding on to a resource, which is the common case, whether it's a lock or a file.
 
 In C++ one of the acronyms that's used that came from Bjarne Stroustrup is "Resource Acquisition Is Initialization", which is called RAII... But in any case, he's basically just saying that you can express acquiring a resource, and then guaranteeing that you're gonna release it at the end of the block by initializing a variable. So what people do is, for instance, they might have a class which is basically a lock, and they acquire it at the beginning of the block, and then just by exiting the block, the lock is released.
 
@@ -88,7 +88,7 @@ In C++ one of the acronyms that's used that came from Bjarne Stroustrup is "Reso
 
 But suppose you have a web server that has multiple threads, and they're handling requests... And you want that web server to be reliable and up even if there's maybe a bug somewhere. So you have multiple goroutines serving requests, and one of the goroutines may run into a bug and panic - you may still wanna do what's called recover; you may want to catch that panic on the way out, and just say "Okay, I'm just gonna kill this goroutine, but I need to continue the web server."
 
-So the creators of Go \[unintelligible 00:14:10.26\] or Ken Thompson knew you kind of wanted to maybe deal with panics, and maybe have some way of recovering from them or modifying them... The defer was a way to do that. So one context for defer is it's a way to run code as you're doing a panic, either to release resources, which are important - and it's especially important if you're gonna do a recover, which means you wanna release resources that might be otherwise held by the web server that's continuing... And then also you may wanna do this recover step after you've released resources, which says "Okay, I don't wanna kill the entire program. I wanna kind of recover out, kill my goroutine and then maybe spawn another goroutine and whatnot."
+So the creators of Go and in particular Ken Thompson knew you kind of wanted to maybe deal with panics, and maybe have some way of recovering from them or modifying them... The defer was a way to do that. So one context for defer is it's a way to run code as you're doing a panic, either to release resources, which are important - and it's especially important if you're gonna do a recover, which means you wanna release resources that might be otherwise held by the web server that's continuing... And then also you may wanna do this recover step after you've released resources, which says "Okay, I don't wanna kill the entire program. I wanna kind of recover out, kill my goroutine and then maybe spawn another goroutine and whatnot."
 
 **Mat Ryer:** Yeah. Well, the default behavior is that if a panic happens inside an HTTP handler, it just prints the panic out into the terminal and carries on, doesn't it? It doesn't crash the program.
 
@@ -136,7 +136,7 @@ So the normal case of returning errors by return value; definitely you can do it
 
 **Mat Ryer:** It's so expressive... I will go as far sometimes as to structure my code so that I can use defers. For example, if I do have a for loop and it's gonna go and process a slice of things, I could just do the work in there and defer things... But of course, if you're in a loop and you're gonna open a file, you might want that file to be closed before you open the next one. So having just another in-line function that's just called immediately, and then using defers within that function - it is an extra level of nesting, but the readability of that code that you get, the fact you can just use defers in that very liberal way is so nice when it comes to maintainability.
 
-**Carmen Andoh:** And we've talked in the past about \[unintelligible 00:22:29.10\] and just conceptual overheads... I know that try finally might work for other people's ways of thinking, but I do think that defer is more of the human way of thinking. We just have a natural inclination to think about what done looks like when you start the thing. And we often lose in a try finally paradigm - at least when I did; I would forget. If I didn't make that, or structure that, or put that in now, you would forget. Also, your nesting map doesn't have -- you can safely nest-defer in a way that you can't do that with try finally.
+**Carmen Andoh:** And we've talked in the past about glanceability too and just conceptual overheads... I know that try finally might work for other people's ways of thinking, but I do think that defer is more of the human way of thinking. We just have a natural inclination to think about what done looks like when you start the thing. And we often lose in a try finally paradigm - at least when I did; I would forget. If I didn't make that, or structure that, or put that in now, you would forget. Also, your nesting map doesn't have -- you can safely nest-defer in a way that you can't do that with try finally.
 
 **Mat Ryer:** Yes, that's true.
 
@@ -152,7 +152,7 @@ So the normal case of returning errors by return value; definitely you can do it
 
 **Mat Ryer:** Yeah. Another one that I use is if I wanna do some simple debugging, sometimes -- I mentioned this in one of my talks, and I heard later some feedback... Someone just said they thought I was an idiot for this thing I'm about to repeat now, for some reason. Essentially, if I had lots of log statements and I was trying to debug something by generating the logs and having a look at what's actually happened, and sort of tracing really, unofficially... And sometimes you have just log calls peppered throughout your code, and it's very useful to just log something like either a string that's just a line of hyphens, or something, and then defer the same thing, so that you print out a line of hyphens, and then when that function defers, when it exits, it prints out the other line.
 
-So you can then capture a little snapshot. And it's a really practical way of just having a look, given potentially a lot of output, just to have a look at specific functions. If you mix that with the time, then it's quite easy to get a little timestamp at the beginning and defer printing, or capturing in some other place \[unintelligible 00:25:52.28\] and see the duration then of how long that function took to run, things like that. It's absurdly useful, and very easy to express with defer.
+So you can then capture a little snapshot. And it's a really practical way of just having a look, given potentially a lot of output, just to have a look at specific functions. If you mix that with the time, then it's quite easy to get a little timestamp at the beginning and defer printing, or capturing in some other place and now sub[tract] that time and see the duration then of how long that function took to run, things like that. It's absurdly useful, and very easy to express with defer.
 
 **Dan Scales:** Yeah, and it's especially nice to use with closures, with in-line functions. You don't have to have a separate function you're deferring, you just have code right there.
 
@@ -160,7 +160,7 @@ So you can then capture a little snapshot. And it's a really practical way of ju
 
 **Dan Scales:** Yeah, I like the design of defer also because it deals with a little issue that you sometimes run into when you use these closures, these in-line functions, which is "Do you wanna use the value of the variable when you declare the function, or do you wanna use the value when you run it?" A defer statement is a defer keyword + a function or a closure (an in-line function), and then a set of arguments. The semantics is you evaluate the function or the function pointer - not run the function, but you evaluate if it's like a method call, or something... And then you evaluate the arguments, and you save the arguments and what the function is, and you store them away so that they can run at exit.
 
-So one thing is you evaluate the arguments at the time of the defer statement. However, if you have a closure, a function - a function with \[unintelligible 00:27:20.19\] anonymous function - then you can also look at variables at the time that you run the defer, because that can look at local variables in the function. So you get a combination of both worlds. If you want to make sure you evaluate a value right at the defer statement, and that's what you're gonna use - the file to be closed, or whatever - then you can use it as an argument, and then you're sure that value you evaluate is what you're gonna use at the end of the function.
+So one thing is you evaluate the arguments at the time of the defer statement. However, if you have a closure, a function with the *func* keyword - an anonymous function - then you can also look at variables at the time that you run the defer, because that can look at local variables in the function. So you get a combination of both worlds. If you want to make sure you evaluate a value right at the defer statement, and that's what you're gonna use - the file to be closed, or whatever - then you can use it as an argument, and then you're sure that value you evaluate is what you're gonna use at the end of the function.
 
 But on the other hand, if you want to look at local variables at the exit, and how they've changed, then you can use the closure part and look at the local variable. That's exactly how you can do some of the timing tricks, or various things; you can change error values, and so on.
 
@@ -178,17 +178,17 @@ Alternatively, you could just have a normal function, in which case you don't ge
 
 **Dan Scales:** No. Stack unwinding is guaranteed. I think there might be some kind of runtime abort that will completely terminate the...
 
-**Mat Ryer:** OS exit maybe...
+**Mat Ryer:** os.Exit() maybe...
 
 **Dan Scales:** ...process with no cleanup at all. But otherwise, the guarantee is that you unwind the stack during a panic, and do these defers.
 
-**Mat Ryer:** Do they run on OS exit? I think that terminates it.
+**Mat Ryer:** Do they run on os.Exit()? I think that terminates it.
 
-**Dan Scales:** They run on Go exit, which is to exit a thread, and I'm pretty sure they run on OS exit as well. So I think it's abort -- I have to check on that.
+**Dan Scales:** They run on runtime.Goexit(), which is to exit a thread, and I'm pretty sure they run on os.Exit() as well. So I think it's abort -- I have to check on that.
 
 **Mat Ryer:** We can't stop them then. That's the thing, we've gotta be careful how many we start...
 
-**Dan Scales:** Yes. There might be other aborts... I mean, obviously they don't happen if you kill the process, and then there may be another kind of an abort that you can do, which is just end the program. But I think on OS exit they do, and they definitely do on a thing called Go exit, which is to terminate a goroutine.
+**Dan Scales:** Yes. There might be other aborts... I mean, obviously they don't happen if you kill the process, and then there may be another kind of an abort that you can do, which is just end the program. But I think on os.Exit() they do, and they definitely do on a thing called runtime.Goexit(), which is to terminate a goroutine.
 
 **Mat Ryer:** Hm... You could probably open Slack. That'd probably do it as well. That kills my computer.
 
@@ -200,7 +200,7 @@ Alternatively, you could just have a normal function, in which case you don't ge
 
 **Mat Ryer:** Don't worry, Dan. So here's another one that's a very practical thing... When you close a file, that function can return an error. So if we just defer calling close, we aren't catching that error at all sometimes. What's the right thing to do there?
 
-**Dan Scales:** Yeah, I think that's just a trade-off. I think Go tends to wanna catch all errors, but a close error is maybe slightly less interesting, so we wanna catch the main errors... But defer does give you the mechanism to deal with it, because instead of saying defer os.Close() or file.Close or whatever, you can use a closure or an in-line function and actually run it and get the error value, and then merge it into the error return of the function. So you can if you really wanna find out that the close failed; you can merge it in and make it part of the error return of the function. I don't know if you guys have ever done that; I haven't particularly tried to do anything. \[unintelligible 00:31:48.06\]
+**Dan Scales:** Yeah, I think that's just a trade-off. I think Go tends to wanna catch all errors, but a close error is maybe slightly less interesting, so we wanna catch the main errors... But defer does give you the mechanism to deal with it, because instead of saying defer os.Close() or file.Close() or whatever, you can use a closure or an in-line function and actually run it and get the error value, and then merge it into the error return of the function. So you can if you really wanna find out that the close failed; you can merge it in and make it part of the error return of the function. I don't know if you guys have ever done that; I haven't particularly tried to do anything. I have certainly merged errors in functions but not file.Close().
 
 **Jon Calhoun:** You're not supposed to say the last bit. You're supposed to say "Mat, we can't help you. You're writing bad code."
 
@@ -212,7 +212,7 @@ Alternatively, you could just have a normal function, in which case you don't ge
 
 **Mat Ryer:** I wondered whether it was that signature just to satisfy an io closer, or something; there was some early decision to have a closer type... Is it io closer? Yeah, I think so... A closer interface, with a close method... And sometimes closing things - there can be an error, especially if it's writing, and it's gonna finish writing some things, or something...
 
-**Dan Scales:** \[unintelligible 00:32:32.22\]
+**Dan Scales:** Yeah, you're right.
 
 **Mat Ryer:** I wondered if it was just left over from that. But what can happen if you close a file? It doesn't close? \[laughs\] Then what? It's like, if we're not in control of the computers, Dan... Do you know what I mean?
 
@@ -224,7 +224,7 @@ Alternatively, you could just have a normal function, in which case you don't ge
 
 **Carmen Andoh:** And it won't be very functional either.
 
-**Jon Calhoun:** He's already banned Lstatements and a bunch of other things, so... \[laughter\]
+**Jon Calhoun:** He's already banned else statements and a bunch of other things, so... \[laughter\]
 
 **Dan Scales:** Oh...
 
@@ -254,9 +254,9 @@ So we can do that in most of the frequent cases of defer. This optimization is n
 
 **Mat Ryer:** Oh yes, please, because this is way too interesting...
 
-**Dan Scales:** Yeah, exactly. So the notion is that at any defer statement -- let me describe the current way, before the optimization. The current way is at any defer statement what you do is you kind of create a defer record, and in that record you evaluate all the arguments in the function pointer that you need to defer, and you put that information in the record and you kind of add it to a chain in the runtime, that's kind of a defer that you're gonna have to run later. And then all exits you call into the runtime and you run the appropriate defers. So it's definitely runtime overhead, as you're adding to the chain in the runtime, and then at the exit you're \[unintelligible 00:37:34.16\] run all the defers that are on that big list.
+**Dan Scales:** Yeah, exactly. So the notion is that at any defer statement -- let me describe the current way, before the optimization. The current way is at any defer statement what you do is you kind of create a defer record, and in that record you evaluate all the arguments in the function pointer that you need to defer, and you put that information in the record and you kind of add it to a chain in the runtime, that's kind of a defer that you're gonna have to run later. And then all exits you call into the runtime and you run the appropriate defers. So it's definitely runtime overhead, as you're adding to the chain in the runtime, and then at the exit you're chopping into it and run all the defers that are on that big list.
 
-So the optimization is - again, in this case where there are no defers in loops - that we're gonna generate in-line code at each defer, and at that defer we're gonna do \[unintelligible 00:37:47.20\] evaluate the arguments in the function pointer, but now we'll just kind of store it in some stack slots, so basically in some local variable space... And the compiler is gonna keep track of where that data is stored.
+So the optimization is - again, in this case where there are no defers in loops - that we're gonna generate in-line code at each defer, and at that defer we're gonna evaluate the arguments in the function pointer, but now we'll just kind of store it in some stack slots, so basically in some local variable space... And the compiler is gonna keep track of where that data is stored.
 
 The other thing we're gonna do is we're gonna store in a bitmask that says "This defer was activated", so this defer statement was run. That's the way we deal with conditionals. So as you're running through the function, you're storing the defer arguments and the function pointers and you're storing in that bitmask what defers have run. And then at any exit, we generate again in-line code that says "If this bit is set in the defer bitmask, grab these arguments and this function pointer from the stack slots and run it." We go through in kind of Last In, First Out order, as the defer was defined, to run any of the active defers.
 
@@ -288,13 +288,13 @@ So the defer bits made sense for a number of cases, especially at panic, and the
 
 **Mat Ryer:** So is it one thing that runs at any exit point? Or do you literally copy the instructions?
 
-**Dan Scales:** You literally call each of the functions. So it is not just one big function, and then that function calls a bunch of functions, currently. And there are many choices. We could change this in the future, with \[unintelligible 00:42:44.09\] to the compiler, but right now we're literally calling the functions in the Last In, First Out order, and whether it's conditional or not may be depending on the defer bits or not... But you're basically saying "If this bit is set, run your second deferred function, and if this bit is set, run your first deferred function." And if there are no conditionals, then it would just be "call second deferred function, call first deferred function." So in the simplest case it's very optimized in that sense, and kind of what you might imagine.
+**Dan Scales:** You literally call each of the functions. So it is not just one big function, and then that function calls a bunch of functions, currently. And there are many choices. We could change this in the future, with a check to the compiler, but right now we're literally calling the functions in the Last In, First Out order, and whether it's conditional or not may be depending on the defer bits or not... But you're basically saying "If this bit is set, run your second deferred function, and if this bit is set, run your first deferred function." And if there are no conditionals, then it would just be "call second deferred function, call first deferred function." So in the simplest case it's very optimized in that sense, and kind of what you might imagine.
 
 There's always certain choices, more optimizations that we could do, or there are other ways of doing it, so we can certainly analyze further to see what's best, but... It's working out reasonably well.
 
 **Mat Ryer:** It's funny, because I wrote myself a little tool which took my Go code and did the first optimization that you talked about... And it just would comment out the defer line, and then copy the -- it was very rudimentary; it was just kind of an experiment.
 
-**Dan Scales:** No, that's actually a good point. That's exactly what people do a lot of the times; of course, the \[unintelligible 00:43:46.23\] is showing up in their profile, so then they do exactly what you said, which is they take the defer statements, comment them out, and put the functions at the end... So this is great, we're doing this compiler optimization...
+**Dan Scales:** No, that's actually a good point. That's exactly what people do a lot of the times; of course, the defer overhead is showing up in their profile, so then they do exactly what you said, which is they take the defer statements, comment them out, and put the functions at the end... So this is great, we're doing this compiler optimization...
 
 **Mat Ryer:** They do it manually though...
 
@@ -334,7 +334,7 @@ So readability, maintainability - that's a correctness problem too, and it's esp
 
 **Carmen Andoh:** \[00:48:02.11\] We have a question from a live listener... "Is there a way to call defer only in the case of a panic, so you only pay the penalty when it's needed?"
 
-**Dan Scales:** That's a good question... No, there's nothing in the language -- \[unintelligible 00:48:17.02\] any way to stop defers? There's no way to stop defers... So you have to run that code, and you just do a quick check, of course, but you do have to run the deferred function.
+**Dan Scales:** That's a good question... No, there's nothing in the language - Is there any way to stop defers? There's no way to stop defers... So you have to run that code, and you just do a quick check, of course, but you do have to run the deferred function.
 
 **Mat Ryer:** How expensive is it? And obviously I don't mean cash, although I'll be clear, I will still pay for it; it's that good. But how expensive is it, before your optimization?
 
@@ -350,7 +350,7 @@ So if that call is a call to unlock, which takes another nanosecond or two, then
 
 **Dan Scales:** Yeah.
 
-**Jon Calhoun:** The interesting thing about performance numbers like that is most of the time most performance numbers, or even memory allocations, that sort of thing doesn't matter... Until when it does matter - it really, really matters. So that's the hard part. When it does matter, it's a big deal.
+**Jon Calhoun:** The interesting thing about performance numbers like that is most of the time those performance numbers, or even memory allocations, that sort of thing doesn't matter... Until when it does matter - it really, really matters. So that's the hard part. When it does matter, it's a big deal.
 
 **Dan Scales:** I see. And also, I think the original part of the question was have we seen this? And yes, even in just the Go GitHub repo, the Go language itself, you see this. But within the libraries, people have removed defers for performance reasons. And definitely you see it in other Go projects, people will do it.
 
@@ -368,7 +368,7 @@ Sometimes it's not totally necessary. They see defer overhead, but it's 1% or 0,
 
 **Jon Calhoun:** When you're making changes like this, how do you go about testing it to make sure -- do you know what I mean? Because obviously, if there was a bug in this, it could be a really big deal... So how do you go about making sure that that's actually reliable, and that you're not breaking anything?
 
-**Dan Scales:** I think the Go builders are an awesome resource. Obviously, all the tests are already in the Go source tree, and then I added a bunch more of deferred tests. Being in Google, there's also an advantage you have - the whole entire Go source code to test. That's an advantage we get inside Google, that you don't have outside. And that's a little more packaged up. You can kind of run tests on that in a methodical way... And you really just have to go through all the test cases and write test cases for them, and then run through a really large amount of code. And then running on all the architectures and Go builders really helps as well, because you get a variety of timings.
+**Dan Scales:** I think the Go builders are an awesome resource. Obviously, all the tests are already in the Go source tree, and then I added a bunch more of deferred tests. Being in Google, there's also an advantage you have - the whole entire Go source code to test. That's an advantage we get inside Google, that you don't have outside. And that's a little more packaged up. You can kind of run tests on that in a methodical way... And you really just have to go through all the cases and write test cases for them, and then run through a really large amount of code. And then running on all the architectures and Go builders really helps as well, because you get a variety of timings.
 
 The Go builders have tests for running on different distributions, and they have long tests and short tests, and you can run with all the debug flags enabled and disabled, and so forth. So I wouldn't say there's a magic bullet, but it's running a whole variety of tests, in a whole variety of situations.
 
