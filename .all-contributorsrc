@@ -1924,6 +1924,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "garethrees",
+      "name": "Gareth Rees",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/282788?v=4",
+      "profile": "https://www.garethrees.co.uk",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
