@@ -679,7 +679,7 @@ And then the third one is civic institutions. There are all of these governments
 
 **Adam Stacoviak:** So what I find interesting about that is -- here's some obscure dataset that maybe nobody's paying attention to, and because of what you've done with Datasette, you're able to query in these ways and find out this information... Maybe it's just for the curious, but I find that kind of interesting to me, that you can just play with this data like that... And of the entire (not even country) continent of Australia, right...?
 
-**Simon Willison:** Right. And the dog thing is kind of -- it's amusing, but not necessarily useful. A much more useful one is -- it turns out the members of Parliament in the U.K. have to register their conflicts of interest with the Parliament in the Register of Members' Interests, and it's public data... And there's an organization called My Society who turned that into XML; I took their XML and I loaded that into a SQLite database, so now I've got a tool that lets you search 1.3 million line items of MP's saying who paid the money, who invited them to speak, who gave them a free watch... It turns out that the Sultan of Brunei hands out Christmas hampers to MP's every Christmas, and you can see which MP has had the most Christmas hampers from him. It's super fun, and actually this is news-worthy, right?
+**Simon Willison:** Right. And the dog thing is kind of -- it's amusing, but not necessarily useful. A much more useful one is -- it turns out the members of Parliament in the U.K. have to register their conflicts of interest with the Parliament in the Register of Members' Interests, and it's public data... And there's an organization called mySociety who turned that into XML; I took their XML and I loaded that into a SQLite database, so now I've got a tool that lets you search 1.3 million line items of MP's saying who paid the money, who invited them to speak, who gave them a free watch... It turns out that the Sultan of Brunei hands out Christmas hampers to MP's every Christmas, and you can see which MP has had the most Christmas hampers from him. It's super fun, and actually this is news-worthy, right?
 
 If you're wondering why does this certain MP behave in certain ways to different countries, you can dig through all of this stuff and say "Oh well, it turns out they've been giving him a lot of free watches."
 
@@ -693,7 +693,7 @@ If you're wondering why does this certain MP behave in certain ways to different
 
 **Adam Stacoviak:** And how easy is it to refresh that work? If it's so hard to, you know--
 
-**Simon Willison:** Most of the work has been done for me by this organization My Society, who've been scraping this for ten years, and dumping the data from that into these XML files... So I just wrote the thing that turns XML into a SQLite database and built on top of that.
+**Simon Willison:** Most of the work has been done for me by this organization mySociety, who've been scraping this for ten years, and dumping the data from that into these XML files... So I just wrote the thing that turns XML into a SQLite database and built on top of that.
 
 **Adam Stacoviak:** Simon, I'm sure we could talk for hours; I've promised you 20... It was a good 20, for sure, so thank you so much for sharing your story. Where can people find you on the internet?
 
