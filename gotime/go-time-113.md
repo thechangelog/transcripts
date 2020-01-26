@@ -86,7 +86,9 @@ So this Railgun thing, the idea was if we took over the connection between the t
 
 **John Graham-Cumming:** Yes, exactly. \[laughter\] Exactly. So yes, of course... But the other thing that's really important to realize is we were on 0.98, so there were bugs, and there were things that weren't implemented. Most notoriously -- so we were running on Linux, because Cloudflare uses Debian everywhere... But we were shipping software -- this Railgun thing had a component which was on the customer's website, and one of our customers were using FreeBSD; Go supported FreeBSD, but unfortunately it would run out of memory very quickly... And it was one of these situations where you think "Why is it not running out of memory on Linux, but it is on FreeBSD?" And so that was my chance to learn all about the garbage collector and how the garbage collector works. That's the beauty of open source - I was like "Well, I can debug this myself. I'll go and read all the garbage collector code..."
 
-Eventually, I realized that everything seemed fine. What was happening was when the memory is being actually released back to the operating system -- so you've collected garbage, and then you've decided "I literally don't need this bit of the heap anymore. I can give the operating system that bit back...", it caused this thing in the Go runtime called sysUnused(). And sysUnused() is meant to call something in the operating system called madvise to say "I don't need this block of memory." It does that on Linux, and on FreeBSD it didn't. And the reason it didn't is I then obviously got the source code, and I come down and I find \[unintelligible 00:15:02.17\]
+Eventually, I realized that everything seemed fine. What was happening was when the memory is being actually released back to the operating system -- so you've collected garbage, and then you've decided "I literally don't need this bit of the heap anymore. I can give the operating system that bit back...", it caused this thing in the Go runtime called sysUnused(). And sysUnused() is meant to call something in the operating system called madvise to say "I don't need this block of memory." It does that on Linux, and on FreeBSD it didn't. And the reason it didn't is I then obviously got the source code, and I come down and I find: 
+
+*// TO DO (rsc)*
 
 So that's why we were running out of memory, because every time we gave memory back to the operating system, we said "We don't need it", but the operating system didn't get it...
 
@@ -94,9 +96,9 @@ So that's why we were running out of memory, because every time we gave memory b
 
 **John Graham-Cumming:** So that was a fairly easy fix. I went in and fixed it... And if you can go back in time, you can find the request by me to say "By the way, I'm implementing this on FreeBSD", because it was missing. So there were things definitely in the early days.
 
-The other thing that was -- I mean, the syslog package needed some work; it wasn't quite compatible with the RFC, so I fixed that, because syslogging was very important... And the other thing that really was difficult right at the beginning was Sync.Pool didn't exist.
+The other thing that was -- I mean, the syslog package needed some work; it wasn't quite compatible with the RFC, so I fixed that, because syslogging was very important... And the other thing that really was difficult right at the beginning was sync.Pool didn't exist.
 
-\[00:15:57.12\] In fact, there are some things I talk about in the Channel Compendium, which is "How do you recycle memory in Go pre the existence of Sync.Pool?" and you can do it really nicely with channels. There's a really nice pattern for it. Because fundamentally, if you think about what was happening inside of Railgun, there was a lot of "We're doing this HTTP request, we're sending it over here", and then you're getting rid of it again. But then you need another one of these HTTP requests. If you go back and forth the heap, you just end up with this big mess and a huge amount of garbage... So I had to figure that out, and that was a big debugging effort.
+\[00:15:57.12\] In fact, there are some things I talk about in the Channel Compendium, which is "How do you recycle memory in Go pre the existence of sync.Pool?" and you can do it really nicely with channels. There's a really nice pattern for it. Because fundamentally, if you think about what was happening inside of Railgun, there was a lot of "We're doing this HTTP request, we're sending it over here", and then you're getting rid of it again. But then you need another one of these HTTP requests. If you go back and forth the heap, you just end up with this big mess and a huge amount of garbage... So I had to figure that out, and that was a big debugging effort.
 
 **Mat Ryer:** Did it put you off then, encountering these problems? Were these little red flags that you were sort of -- was it chipping away any sort of...? I don't know how to ask that question in a good way...
 
@@ -134,7 +136,7 @@ I know in the early days there were some times where it felt like we were fighti
 
 **Mat Ryer:** Yes. Dylan M. on Twitter asked "Do the devs pick Go up on the job, or do you only now hire gophers? Has that changed over the years?"
 
-**John Graham-Cumming:** We definitely don't only hire gophers, or rustaceans, or whatever. i think that's an enormous mistake, to be like "Yes, you have to have these specific things." You end up excluding a lot of people who are great. And I think that programmers in general are very passionate about learning new stuff and getting new skills. We're very happy for people to learn Go on the job.
+**John Graham-Cumming:** We definitely don't only hire gophers, or rustaceans, or whatever. I think that's an enormous mistake, to be like "Yes, you have to have these specific things." You end up excluding a lot of people who are great. And I think that programmers in general are very passionate about learning new stuff and getting new skills. We're very happy for people to learn Go on the job.
 
 There are lots of resources for learning about Go, it's an easy language to pick up, and we have lots of other Go programmers... Equally, we have lots of other Rust programmers. So I think that it would be a mistake if we said "You have to know Go." Yeah, it's great if you do. Super. But fundamentally, technology changes very rapidly, and I think of programming - especially in a very rapidly-changing environment like the one Cloudflare is in - as a learning job. You're gonna have to learn new stuff all the time; language is a part of it, libraries are a part of it. You've just gotta go for it.
 
@@ -166,13 +168,13 @@ There are lots of resources for learning about Go, it's an easy language to pick
 
 **Mat Ryer:** Yeah. I was definitely guilty of that, too. When I first saw channels, I just thought "Okay, this is brilliant. I mean, do you want me to concatenate some strings? I'll use channels, no problem." \[laughter\] Yeah, absolutely, and it'll be great. And with a bit more experience, sometimes you think "Do you know what - a mutex is just gonna be some simple here. I'm just gonna go for that."
 
-**John Graham-Cumming:** Yeah, I mean... That is the one instance where -- yes, sometimes it's great. If you're accessing a map concurrently - yeah, okay, wrap it with a mutex and use that, and probably not have a goroutine processing a map through channels... I mean, I guess you could do that, but... Ultimately, a lot of this stuff comes down to optimization. It's not the end of the world if you build something that's not optimal, because if work for your environment, then that's fine... And then later on you go and measure it and figure out what's bad or not.
+**John Graham-Cumming:** Yeah, I mean... That is the one instance where -- yes, sometimes it's great. If you're accessing a map concurrently - yeah, okay, wrap it with a mutex and use that, and probably not have a goroutine processing a map through channels... I mean, I guess you could do that, but... Ultimately, a lot of this stuff comes down to optimization. It's not the end of the world if you build something that's not optimal, because if it works for your environment, then that's fine... And then later on you go and measure it and figure out what's bad or not.
 
 **Mat Ryer:** I think coming from the CTO of Cloudflare, that's quite an important thing that you've just said, John... Because too often programmers are a little bit obsessed with that too early, of making it perfect, and "Don't worry about whether it's easy to read and maintain, we just care about squeezing out all that performance..." And obviously, if you do that too soon - this is the famous mistake that we all still are making, which is if you do it too soon, you make bad assumptions and things. And the kind of scale that Cloudflare runs at - that's really encouraging to hear that, I think.
 
 **John Graham-Cumming:** \[00:28:02.10\] Well, the thing is I started life as a C and assembly language programmer, writing network device drivers, and there every cycle matters. You don't \[unintelligible 00:28:09.28\] less cycles. But that's appropriate for that environment. Now we have multiprocessor CPUs... It is very obvious that you should measure it, because one of the things about measuring performance is you frequently get surprised by what is the problem. You come to a point and you're like "Wait, why is that happening?" Whereas if you used your gut, it's often completely wrong, especially in large systems; you just don't necessarily know where things are.
 
-I know that programmers like to be really clever, and it's really tempting to optimize things. "I'm gonna write my own \[unintelligible 00:28:50.14\] and make it even faster." It's like, "No, you're not."
+I know that programmers like to be really clever, and it's really tempting to optimize things. "I'm gonna write my own strcmp and make it even faster." It's like, "No, you're not."
 
 What we've done, for example with Go, is we went and optimized the crypto stuff, because we're doing a lot of cryptography because of all those HTTPS requests... So it was appropriate to go and do that work, and we have someone who loves doing that work, that used to work for Intel... So I think you've just gotta measure it and figure out where your problem is, and not right from the beginning be worried about some of this stuff, because you just -- you just optimized the wrong thing.
 
@@ -184,7 +186,7 @@ Obviously, we also have test environments, but I have to say, when you're operat
 
 One of the tools we've used a lot is a thing called a flame graph, which can show us so we can introspect and understand which functions and which parts of the code are spending a lot of time... So when we get to have to optimize things, we have tools to do that work.
 
-**Mat Ryer:** And in your case, code optimizations and things that the rest of us often think of really just as purely technical exercises, in your case they must in some situations have quite a significant business impact. The cost of doing things if you just have a few users, of course - you almost don't even have to think about it. But at your scale it matters... So have there been any situations where there's been a kind of \[unintelligible 00:30:50.13\] between business demands on one hand, and the technical on the other?
+**Mat Ryer:** And in your case, code optimizations and things that the rest of us often think of really just as purely technical exercises, in your case they must in some situations have quite a significant business impact. The cost of doing things if you just have a few users, of course - you almost don't even have to think about it. But at your scale it matters... So have there been any situations where there's been a kind of tussle between business demands on one hand, and the technical on the other?
 
 **John Graham-Cumming:** Well, I don't think they have, not from an optimization perspective... Because actually, what happens is we have a financial model where we can say how much saving CPU time saves us in terms of money... Because we're growing very rapidly, and if we can not buy new hardware quickly, then that saves us a significant amount of money... So the optimization - you can look at a dollar amount on it.
 
@@ -196,11 +198,11 @@ Those decisions have to be made, and we have a product management team that help
 
 One interesting thing that involves Go is we have an internal product which is a sort of load balancer. If you think about the growth of Cloudflare over the last 8-9 years, we've got multiple generations of hardware; we have 194 cities where we have hardware, and there are multiple generations, with different performance characteristics... And we wanted to make sure that basically every machine is running at the same CPU utilization within any city. That was not the case if you do naive load balancing, because all the machines can't handle the load.
 
-A quite typical example would be some machines running at 50% load and some at 75% or 80%, at the same time. So we wrote this coordination layer which is actually measuring the performance of the machines, understanding what they're capable of, and then real-time directing traffic between the machines... And the coordination of that is Go. That has actually brought us into line. There were quite dramatic graphs in Cloudflare where you can see this mixture of CPU percentages \[unintelligible 00:33:43.26\] and the entire graph flattens out. Every machine is running exactly the same CPU utilization. So there's many things that Go is being used for.
+A quite typical example would be some machines running at 50% load and some at 75% or 80%, at the same time. So we wrote this coordination layer which is actually measuring the performance of the machines, understanding what they're capable of, and then real-time directing traffic between the machines... And the coordination of that is Go. That has actually brought us into line. There were quite dramatic graphs in Cloudflare where you can see this mixture of CPU percentages in a column and suddenly you turn on this thing called uni\[unintelligible 00:33:43.26\] and the entire graph flattens out. Every machine is running exactly the same CPU utilization. So there's many things that Go is being used for.
 
 **Mat Ryer:** That must be so satisfying, to see those graphs change...
 
-**John Graham-Cumming:** If you use Cloudflare, you probably know that when you make a configuration change in Cloudflare, be that you click a button, or you upload some code to run on our edge computing environment, it goes global very fast. The way this works is we have this internal thing called Quicksilver, which is a distributed key-value store. That is written in Go... And it typically will distribute a change completely globally in under half a second. So everywhere from New Zealand to Atlanta, to Santiago de Chile. And that's, again, this fundamental \[unintelligible 00:34:34.24\] to be able to make those changes really, really fast... And again, that's a Go program.
+**John Graham-Cumming:** If you use Cloudflare, you probably know that when you make a configuration change in Cloudflare, be that you click a button, or you upload some code to run on our edge computing environment, it goes global very fast. The way this works is we have this internal thing called Quicksilver, which is a distributed key-value store. That is written in Go... And it typically will distribute a change completely globally in under half a second. So everywhere from New Zealand to Atlanta, to Santiago de Chile. And that's, again, this is a fundamental part of what Cloudflare does is to be able to make those changes really, really fast... And again, that's a Go program.
 
 **Mat Ryer:** That's really cool. Can you tell us a little bit about how that works? Did I read a blog post about this (Quicksilver)?
 
@@ -208,9 +210,9 @@ A quite typical example would be some machines running at 50% load and some at 7
 
 Essentially, we're running a log file system globally; you push stuff in, and then you can at any point find where you are in the log and you can catch up. So if a machine needs to catch up with the latest changes, it can just communicate and say "Okay, I'm at this checkpoint. Give me the delta."
 
-**Mat Ryer:** That's why you keep finding time bugs \[unintelligible 00:35:29.10\]
+**Mat Ryer:** That's why you keep finding time bugs for us..
 
-**John Graham-Cumming:** Maybe, yeah... \[laughs\] I mean, the team who works on that could probably tell you about all of the things they found. One of the things that's interesting is a lot of -- we looked at a lot of other distributed key-value stores and they tend to be oriented a lot of machines in a single data center. And Cloudflare has a lot of machines in a single data center, that data center being the planet. And the problem with that is there's varying packet loss around the world, and there's very varying latency. Coping with that was really what this was designed to do.
+**John Graham-Cumming:** Maybe, yeah... \[laughs\] I mean, the team who works on that could probably tell you about all of the things they found. One of the things that's interesting is a lot of -- we looked at a lot of other distributed key-value stores and they tend to be oriented around a lot of machines in a single data center. And Cloudflare has a lot of machines in a single data center, that data center being the planet. And the problem with that is there's varying packet loss around the world, and there's very varying latency. Coping with that was really what this was designed to do.
 
 **Mat Ryer:** Yeah, that's really cool. I'd love to learn more about that. I don't have a use case for it, but just sort of geeky curiosity, if you will...
 
@@ -228,7 +230,7 @@ There are bits of Cloudflare... For example, our DNS server - a lot of people sa
 
 **Mat Ryer:** Yes. The other thing as well about that is that rule of only open-source things that are in production is first of all you know it's useful, but also you know it works as well. I always think that's a great piece of advice for anybody - don't just imagine a package and build it... Well, you can do that; it's a great way to learn and explore... But the best open source packages are ones where people have just solved their problem.
 
-But of course, you gave that good example, John - they're not always appropriate, even if \[unintelligible 00:38:38.00\] you would do it. Is there ever a fight...? Sometimes people can look at that decision about open-sourcing something or not, and get a bit nervous around company IP, and those sorts of issues. Do you ever have that kind of discussion, too?
+But of course, you gave that good example, John - they're not always appropriate, even if for the greatest will you would do it. Is there ever a fight...? Sometimes people can look at that decision about open-sourcing something or not, and get a bit nervous around company IP, and those sorts of issues. Do you ever have that kind of discussion, too?
 
 **John Graham-Cumming:** Honestly, no. The way in which open-sourcing stuff works at Cloudflare is there is an internal mailing list. You just email it and say "Hey, I want to open-source this thing. This is the license I'm thinking of using." We have a small number of approved licenses... And on that list there's myself, a couple of other senior technical people, and some of our legal team. And to be honest with you, the responses to that -- I mean, if I'm asleep, I obviously don't reply quickly, but mostly it's a yes within a few hours to open-sourcing things.
 
@@ -260,7 +262,7 @@ We have a really fantastic illustrator, Carrie, who does illustrations for the b
 
 **Break:** \[00:42:29.22\]
 
-**Mat Ryer:** Changing the subject a little, every year at GopherCon UK (the U.K. Go conference) we have now a regular little tradition where we visit Bletchley Park, and John, you have a connect to Alan Turing, don't you? I'd love for you to tell that story, if you could.
+**Mat Ryer:** Changing the subject a little, every year at [GopherCon UK](https://www.gophercon.co.uk/) (the U.K. Go conference) we have now a regular little tradition where we visit Bletchley Park, and John, you have a connection to Alan Turing, don't you? I'd love for you to tell that story, if you could.
 
 **John Graham-Cumming:** Yeah, sure. I had lived abroad for a long time, as I am now doing again. But in 2009 I came back to the U.K, and I think I saw a tweet from probably Stephen Fry saying "It would have been Alan Turing's 90-something birthday today, if he hadn't killed himself." And I knew the story of Turing because first of all I'm a computer scientist, and I'm interested in computer security... So you end up -- Turing pops up all over the place.
 
@@ -272,7 +274,7 @@ So sure enough, 500 people did sign quite quickly, and I thought "Well, I'm gonn
 
 One of the first famous people who signed it was Richard Dawkins. The cool thing about Richard Dawkins signing it was that I could then go back to the press and say "I know I told you about this before, but now Richard Dawkins has signed it, so what you should write is "Richard Dawkins has signed this." So I did that, and eventually I wrote this cool postscript -- at the time, the signature names were public, and my father was actually reading them every day and saying "I think this is so-and-so (famous person)." And eventually, I automated my father.
 
-So what I did was I wrote this ugly postscript that took the names and then searched on Wikipedia to see if that person had a Wikipedia page, and if on that Wikipedia page it said something like "So-and-so is a British/Scottish/English/Welsh blah-blah-blah...", so trying to see if they were a notable person from the U.K. And if they were, then it would email me and then I could get a hold of them and ask them...
+So what I did was I wrote this ugly pearl script that took the names and then searched on Wikipedia to see if that person had a Wikipedia page, and if on that Wikipedia page it said something like "So-and-so is a British/Scottish/English/Welsh blah-blah-blah...", so trying to see if they were a notable person from the U.K. And if they were, then it would email me and then I could get a hold of them and ask them...
 
 I did that with Ian McEwan, the writer; his name was on there, and I found his email address. I emailed him and said "Are you the person who signed this?" He's like "Yes." And then I was like "Can I tell the press?" "Yes." I did stuff like that, and it grew and grew and grew.
 
@@ -308,7 +310,7 @@ So she reads it to me over the phone, and I thought it was great... It's a text 
 
 **Mat Ryer:** Really?
 
-**John Graham-Cumming:** Yes... So she's like "Gordon wants a word." I was like "Okay..." She said "He'll call you." \[laughter\] So I hang up and I'm sort of sitting there... I'm not awake, and I'm thinking "My goodness, is this really gonna happen?" And my mobile phone rings, and it's Gordon Brown. There's no ceremony; nobody calls up and says "It's the Prime Minister. Are you ready for it?" Suddenly, it's like "Hello, John. It's Gordon..." And you can imagine, Gordon Brown is not a very chatty person, if you recall, and I had flu... \[laughter\] So the two of us were under fire and not really wanting to talk to each other very much...
+**John Graham-Cumming:** Yes... So she's like "Gordon wants a word." I was like "Okay..." She said "He'll call you." \[laughter\] So I hang up and I'm sort of sitting there... I'm now awake, and I'm thinking "My goodness, is this really gonna happen?" And my mobile phone rings, and it's Gordon Brown. There's no ceremony; nobody calls up and says "It's the Prime Minister. Are you ready for it?" Suddenly, it's like "Hello, John. It's Gordon..." And you can imagine, Gordon Brown is not a very chatty person, if you recall, and I had flu... \[laughter\] So the two of us were under fire and not really wanting to talk to each other very much...
 
 The first thing he said to me - and I'm not gonna forget this - he said "Hello, John. It's Gordon. I think you know why I'm calling..." And I thought "Bloody hell I'm glad I know why \[unintelligible 00:51:22.24\] And then we had this very stilted conversation, because I felt terrible, and he's quite a serious man... And that was it. There you go. So that's my connection to Bletchley Park. After that, obviously, Turing got more recognition, and we were able to celebrate him, and I think it helped give Bletchley a leg up...
 
@@ -330,7 +332,7 @@ Then there was this idea of the pardon, and actually I was upset about the pardo
 
 Actually, John, there's another link we have... I won a copy of your Geek Atlas book by guessing -- you had some quiz, it was a reference to the prisoner. I don't know if you remember... You said whenever a website asks for your date of birth, you give the same fake date of birth, right?
 
-**John Graham-Cumming:** \[laughs\] Okay, so you're a giant nerd \[unintelligible 00:54:34.24\]
+**John Graham-Cumming:** \[laughs\] Okay, so you're a giant nerd is what you're saying
 
 **Mat Ryer:** \[laughs\] Yeah.
 
