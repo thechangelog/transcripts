@@ -24,7 +24,7 @@ Let's go through it a little bit, and I wanted to start with this question of su
 
 **Divya Sasidharan:** Well, you can sort of see it in the screencap in that repo; they show you what it looks like on Safari...
 
-**Kevin Ball:** Oh, yes. It does work on Safari. It's ugly \[unintelligible 00:04:20.18\]
+**Kevin Ball:** Oh, yes. It does work on Safari. It's ugly as sin.
 
 **Divya Sasidharan:** Yeah, it work on Safari. It's not super-great...
 
@@ -48,7 +48,7 @@ But on mobile it's nice, because it will sub-select the apps you have, like if y
 
 **Divya Sasidharan:** So that's a really easy way for you to share a resource without having to find the URL, which sometimes is an AMP link, and then you have this giant URL that you're sending people... This is much cleaner.
 
-**Kevin Ball:** I'd almost rather if it only worked on mobile... Because if you do proper feature detection, and you say "Okay, does this thing exist?", that doesn't tell you "Does this thing exist, but it's super-ugly, because you're actually on \[unintelligible 00:06:22.13\] Safari."
+**Kevin Ball:** I'd almost rather if it only worked on mobile... Because if you do proper feature detection, and you say "Okay, does this thing exist?", that doesn't tell you "Does this thing exist, but it's super-ugly, because you're actually on desktop Safari."
 
 **Jerod Santo:** That's true. The example in the web.dev website shows the feature detection, if (navigator.share). So this exists inside the navigator object, and it's the .share function... So if that function exists or is defined, then call it, basically is all they're doing. And it's promise-based.
 
@@ -94,7 +94,7 @@ Question about Share buttons - I'm so anti-Share buttons. Maybe I'm a curmudgeon
 
 **Jerod Santo:** Hang tight, Kball's doing password reset flow... \[laughter\] Will he get the email, will he not? We'll never know...! Okay.
 
-**Kevin Ball:** This will be fun, actually... Social activity over the course of 2019. Let's see if we can do that. \[unintelligible 00:10:49.13\] Sweet. Oh, interesting. So it tells me not only what did people click on to share, but it also tells me what things referred to me. These numbers don't look...
+**Kevin Ball:** This will be fun, actually... Social activity over the course of 2019. Let's see if we can do that. This is by ShareThis's report. Sweet. Oh, interesting. So it tells me not only what did people click on to share, but it also tells me what things referred to me. These numbers don't look...
 
 **Jerod Santo:** Very good?
 
@@ -110,7 +110,7 @@ Question about Share buttons - I'm so anti-Share buttons. Maybe I'm a curmudgeon
 
 **Jerod Santo:** So you're using one of those big "Share This" things that just includes all the social networks...
 
-**Kevin Ball:** \[00:12:04.09\] What I have is I have four individual buttons: Facebook, Twitter, LinkedIn and Email. And then I have a generic Share that pops up one of those things. I set this up forever ago... And it's \[unintelligible 00:12:16.26\] But yeah, it looks like people are going through those deep dives; they're digging down and finding the one they wanna do.
+**Kevin Ball:** \[00:12:04.09\] What I have is I have four individual buttons: Facebook, Twitter, LinkedIn and Email. And then I have a generic Share that pops up one of those things. I set this up forever ago... And it's slow as sin, I totally get not wanting it. But yeah, it looks like people are going through those deep dives; they're digging down and finding the one they wanna do.
 
 **Divya Sasidharan:** Interesting.
 
@@ -166,7 +166,9 @@ And honestly, I feel like I'm not thinking hard enough of all the potential poss
 
 **Jerod Santo:** Well, I'll say the most surprising one to me was the Web Coffee API. And I'll say it's Nick Nisi's favorite new API. I won't say anything else about it besides - link in the show notes. You should definitely click on the link in the show notes and check out the Web Coffee API.
 
-**Kevin Ball:** \[00:16:12.14\] Oh, dear... Let's talk about the useful ones... Because surprising is one thing. And everybody likes Web Coffee APIs. Check it out if you haven't checked it out yet.
+**Kevin Ball:** \[00:16:12.14\] Oh, dear... 
+
+**Jerod Santo:** Let's talk about the useful ones... Because surprising is one thing. And everybody likes Web Coffee APIs. Check it out if you haven't checked it out yet.
 
 **Kevin Ball:** I just checked it out, and I was not sad.
 
@@ -236,7 +238,7 @@ So just the proliferation of platforms like Shopify, Stripe... Like, when I see 
 
 **Divya Sasidharan:** This is something that I learned about when I went to Chrome Dev Summit last year, which is just the SMS Receiver API. I know there's some reservation around your app being able to read people's SMS, but there is some privacy requirement there, which is users have to opt-in. They have to be like "Yes, I want you to read my SMS." But when you do that, it's really nice for one-time passcode type things, because it's a very seamless way; so instead of having to navigate away...
 
-This is for mobile, obviously. On desktop it's like, whatever... But on mobile it makes for a much more seamless experience, because having to switch is really annoying. And already as is, switching to the authenticator app to grab the code and then \[unintelligible 00:23:44.13\] is such a pain... It's so necessary, but such a pain... And it's the same for SMS stuff as well.
+This is for mobile, obviously. On desktop it's like, whatever... But on mobile it makes for a much more seamless experience, because having to switch is really annoying. And already as is, switching to the authenticator app to grab the code and then back in is such a pain... It's so necessary, but such a pain... And it's the same for SMS stuff as well.
 
 Obviously, there are ways around it, that you don't have to use -- so the app reads your SMS... Because sometimes your SMS comes through as a notification, and then you can just quickly read the number and type it in, if you are good at remembering numbers... But in general, if you trust an application, it's a very easy flow of logging in.
 
@@ -256,7 +258,7 @@ Obviously, there are ways around it, that you don't have to use -- so the app re
 
 **Divya Sasidharan:** Yeah, one-time password. So you're logging into PayPal, or something, and then they're like "You need a one-time password. We sent it to your via SMS" and then it's like "Cool." And then it just reads it. Because it's just automatic, it happens at that moment in time.
 
-**Jerod Santo:** Yeah. I just don't understand how the front-end receives an SMS. It's the SMS Receiver API - like, who's sending it? \[unintelligible 00:25:55.29\]
+**Jerod Santo:** Yeah. I just don't understand how the front-end receives an SMS. It's the SMS Receiver API - like, who's sending it? You have to have access to that system.
 
 **Kevin Ball:** I'm looking at code examples, because there's a repo for questions... Let me drop the repo I'm looking at here... So it looks like basically you run navigator.sms.receive() and you await the response, and then that probably asks for permission at that point...
 
@@ -292,7 +294,7 @@ Obviously, there are ways around it, that you don't have to use -- so the app re
 
 **Divya Sasidharan:** Yeah, it's in your user code.
 
-**Kevin Ball:** So instead of regex, you could say "Post whatever you get back to my \[unintelligible 00:28:42.24\]."
+**Kevin Ball:** So instead of regex, you could say "Post whatever you get back to my web server."
 
 **Jerod Santo:** Exactly.
 
@@ -474,7 +476,7 @@ I thought that was a super-cool example of this technology, which has for a long
 
 **Divya Sasidharan:** For sure, yeah.
 
-**Jerod Santo:** Because ultimately, you don't wanna hold your phone up, or your iPad up to do AR. It's cool and it's fine, but if you wanna be a regular part of consumers' everyday life, \[unintelligible 00:40:41.03\] and do it in a way that we actually wanna wear it. I mean, that's the problem with Google Glass - you just looked like an idiot wearing it.
+**Jerod Santo:** Because ultimately, you don't wanna hold your phone up, or your iPad up to do AR. It's cool and it's fine, but if you wanna be a regular part of consumers' everyday life, put it in our viewport, and do it in a way that we actually wanna wear it. I mean, that's the problem with Google Glass - you just looked like an idiot wearing it.
 
 **Divya Sasidharan:** \[laughs\] I think people are also afraid, because they're like "Oh, if someone wore Google Glass and then they went to places that were considered private...", like if you went to the bathroom, or whatever...
 
@@ -504,7 +506,7 @@ I think it's very similar in terms of when a new technology comes up - we tend t
 
 **Jerod Santo:** Because that's how it kind of is, right? As a developer, you get excited about something, you look at it, it looks very interesting, and sometimes you hop into the details and you're like "Hm. I'm not so sure. I'll come back in six months and see how it looks."
 
-**Divya Sasidharan:** I think it's purely like -- you have a use case for it. I would have built an application where I would totally use it, but I don't trust other people to \[unintelligible 00:46:05.09\]
+**Divya Sasidharan:** I think it's purely like -- you have a use case for it. I would have built an application where I would totally use it, but I don't trust other people to build it well
 
 **Jerod Santo:** \[laughs\] "I could use this, but I don't want you to use it, because you're gonna screw it up." I get that.
 
