@@ -406,7 +406,7 @@ Then the site itself is hosted on the Google Cloud Platform. The high-level arch
 
 **Jon Calhoun:** Apparently, people weren't productive enough at work, so they had to get rid of it.
 
-**Mat Ryer:** Yeah. I once \[unintelligible 00:59:25.28\] my Mac so I could play the game of Minesweeper.
+**Mat Ryer:** Yeah. I once dual booted my Mac so I could play the game of Minesweeper.
 
 **Carmen Andoh:** Wow...
 
