@@ -1933,6 +1933,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "bbrks",
+      "name": "Ben Brooks",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1525809?v=4",
+      "profile": "https://bbrks.me",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
