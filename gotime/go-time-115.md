@@ -406,7 +406,7 @@ Then the site itself is hosted on the Google Cloud Platform. The high-level arch
 
 **Jon Calhoun:** Apparently, people weren't productive enough at work, so they had to get rid of it.
 
-**Mat Ryer:** Yeah. I once \[unintelligible 00:59:25.28\] my Mac so I could play the game of Minesweeper.
+**Mat Ryer:** Yeah. I once dual booted my Mac so I could play the game of Minesweeper.
 
 **Carmen Andoh:** Wow...
 
@@ -478,7 +478,7 @@ The one thing that we're finding when we're doing -- I did a lot of research and
 
 **Carmen Andoh:** It really is. I'll share more later, but yeah... I get weekly reports on that. And there's four modules for free; the whole course is eight modules. You can go to codeacademy.com.
 
-The other gap that was missing was people working in companies that they just -- for whatever reason, they didn't want... The tour of Go wasn't working for them, or other self-learning sites - Jon, Gophercises - and also other things... They wanted to be handed the problem that they wanted to solve. Like, "How do I do X in Go?" Or from Java to Go for \[unintelligible 01:04:07.09\] So we just looked at some of the things that many people were using Go - the specialties, verticals, if you will - and we chose the four most common based on the data that we have via surveys and other research, and we decided to find and provide curated learning journeys for those learners in particular, and we got really good feedback for that. Thank you for taking me step by step.
+The other gap that was missing was people working in companies that they just -- for whatever reason, they didn't want... The tour of Go wasn't working for them, or other self-learning sites - Jon, Gophercises - and also other things... They wanted to be handed the problem that they wanted to solve. Like, "How do I do X in Go?" Or "From Java to Go for why?" So we just looked at some of the things that many people were using Go - the specialties, verticals, if you will - and we chose the four most common based on the data that we have via surveys and other research, and we decided to find and provide curated learning journeys for those learners in particular, and we got really good feedback for that. Thank you for taking me step by step.
 
 Because what we found was there was two different psychological mindsets for adopters. If you've heard of Crossing the Chasm book - there's early majority/early adopters, late majority/late adopters, and there's a different psychology with each one of those. And the psychology that we're finding with Crossing the Chasm is "I wanna just explore, I wanna learn, I wanna be given the space to kind of take the time to learn it..." Versus the late majority adopter, what we call enterprise, and that is "Just show me how to do it in Go."
 
