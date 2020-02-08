@@ -306,6 +306,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="http://tarnowski.it"><img src="https://avatars3.githubusercontent.com/u/153408?v=4" width="100px;" alt=""/><br /><sub><b>Maciej Tarnowski</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=maciejtarnowski" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.garethrees.co.uk"><img src="https://avatars1.githubusercontent.com/u/282788?v=4" width="100px;" alt=""/><br /><sub><b>Gareth Rees</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=garethrees" title="Documentation">📖</a></td>
     <td align="center"><a href="https://bbrks.me"><img src="https://avatars3.githubusercontent.com/u/1525809?v=4" width="100px;" alt=""/><br /><sub><b>Ben Brooks</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=bbrks" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/stg"><img src="https://avatars3.githubusercontent.com/u/304625?v=4" width="100px;" alt=""/><br /><sub><b>D Taylor</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=stg" title="Documentation">📖</a></td>
   </tr>
 </table>
 
