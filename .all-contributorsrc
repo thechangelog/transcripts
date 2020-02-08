@@ -1942,6 +1942,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "stg",
+      "name": "D Taylor",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/304625?v=4",
+      "profile": "https://github.com/stg",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
