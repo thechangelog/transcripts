@@ -130,7 +130,7 @@ Go, the main Go implementation, the MGI, if you will... You can compile to WebAs
 
 **Adam Stacoviak:** Wow.
 
-**Ron Evans:** In fact, there was a really great blog post written by one of our team members, but a very cool collaborator; I'm sorry I forgot this person's name, but... The title of the blog post was "Using Go for WebAssembly, and then compressing it down to a 16k file using TinyGo." He had me at that point, "16k file using TinyGo", I'm in awe. But they were able to, using our code that's on the public internets, take an application that they had written using WebAssembly, compile it down to this ridiculously small size.
+**Ron Evans:** In fact, there was a really great blog post written by not one of our team members, but a very cool collaborator; I'm sorry I forgot this person's name, but... The title of the blog post was "Using Go for WebAssembly, and then compressing it down to a 16k file using TinyGo." He had me at that point, "16k file using TinyGo", I'm in awe. But they were able to, using our code that's on the public internets, take an application that they had written using WebAssembly, compile it down to this ridiculously small size.
 
 Well, it gets better. It actually gets better. Someone else then did some WebGL experiments. I think it was Justin Clift. Using the WebGL interface from the JavaScript bridge from WebAssemly, they discovered that TinyGo was actually 80% faster than the main Go implementation as well... Probably because we're using the LLVM compiler toolchain, and between Clang and LDD, which is the LLVM linker, it's getting rid of a lot of stuff.
 
