@@ -50,7 +50,7 @@ Effectively, where we got to was -- you can talk about the age of some of the te
 
 But one of the places we were stuck is the architecture of our application when we started out was just not clean, so we had a lot of back-end, or almost middleware (if you want) logic baked in with our front-end. So if I think about the root cause for what we decided to do, which was to fully replatform, it was really because "Hey, we believe consumer expectations have changed so much - because of mobile, because of other advances - that if we want to win long-term, we're not gonna be able to refactor our way to greatness."
 
-So we started out and said "Okay, if user experience matters, ease of use and simplicity, we have won on that today, but it will be harder and harder for us to win and win again, and win long-term, if we don't do something radical design-wise. Let's design those designs at where it would be... And then, you know, can we get from here to there?" And the short answer was "Not really." So we decided to replatform... And in so doing, it opened up a whole series of other problems for us.
+\[00:10:46\] So we started out and said "Okay, if user experience matters, ease of use and simplicity, we have won on that today, but it will be harder and harder for us to win and win again, and win long-term, if we don't do something radical design-wise. Let's design those designs at where it would be... And then, you know, can we get from here to there?" And the short answer was "Not really." So we decided to replatform... And in so doing, it opened up a whole series of other problems for us.
 
 Questions when you replatform - if you read Joel Spolsky, or what have you - the number one strategic mistake you can make as a software company is "You just don't do it. You're bound to fail."
 
@@ -58,7 +58,7 @@ Questions when you replatform - if you read Joel Spolsky, or what have you - the
 
 **Mike McDerment:** Yes, it's severely frowned-upon, and I think there's good reasons for that. First of all, it's gonna take longer and cost more than you think. You may never finish. That is a very likely scenario. And actually, we tried twice before, and failed... So it was the third time that we kind of got it done.
 
-My favorite ones are maybe less obvious and more business-oriented, but you could build another version of your offering, and it could fundamentally perform worse from a business standpoint, and you wouldn't even know. What happens is inside the building -- you're building a new platform, and your team is falling in love with doing the new thing... But that doesn't mean it's better, or more business-performant. And that should be the reason you're doing this stuff. Technology, as much as we all love it, is a means to an end, and if you're making the \[unintelligible 00:12:05.27\] So you wouldn't know that for sure...
+My favorite ones are maybe less obvious and more business-oriented, but you could build another version of your offering, and it could fundamentally perform worse from a business standpoint, and you wouldn't even know. What happens is inside the building -- you're building a new platform, and your team is falling in love with doing the new thing... But that doesn't mean it's better, or more business-performant. And that should be the reason you're doing this stuff. Technology, as much as we all love it, is a means to an end, and if you're making the necessary investments to make the platform, the thing better perform better. So you wouldn't know that for sure...
 
 \[00:12:14.18\] Then there's the good old "Hey, your competitors are still moving, while you're standing still, replatforming." That's not good. They're catching up if you've got a lead. Okay, that's bad, because it's probably gonna be a multi-year thing if you're relatively established... We're number two in America for small business accounting software, so it's hard to do that...
 
@@ -102,7 +102,7 @@ So here's the thing - that seemed so complex to us, but after a time I came to r
 
 **Adam Stacoviak:** Okay. I was curious how that would work out.
 
-**Mike McDerment:** Yeah. And it was like "Hey, we've acquired it." End of story. There was not much \[unintelligible 00:18:16.17\] That's fine. And they could keep using it, so whatever.
+**Mike McDerment:** Yeah. And it was like "Hey, we've acquired it." End of story. There was not much brew ha ha. That's fine. And they could keep using it, so whatever.
 
 **Adam Stacoviak:** And in all honesty, that's exactly what it was, right? I mean...
 
@@ -186,11 +186,11 @@ Then I think another thing that happened was I hired these more -- I would then 
 
 I do like other forms of books, and I like reading in general, but mostly I'm reading about how to be a better business operator and grower.
 
-Then the final thing is just surrounding myself with -- and I think where most of the stuff I've gotten in the last few years has been frankly the management team members I hire, who are all more expert... I cannot do their job. But that's not my job. My job is to build the team, and to point the company in the right direction, understanding the market, and the customer, make sure the bank accounts is full... I can do those things. But they operate their functional areas, and they're great with people leadership, people management \[unintelligible 00:32:09.24\]
+Then the final thing is just surrounding myself with -- and I think where most of the stuff I've gotten in the last few years has been frankly the management team members I hire, who are all more expert... I cannot do their job. But that's not my job. My job is to build the team, and to point the company in the right direction, understanding the market, and the customer, make sure the bank accounts is full... I can do those things. But they operate their functional areas, and they're great with people leadership, people management, so there's some learning there.
 
 \[00:32:12.06\] And then the final thing I layer on top of that is I now do these things -- we have a weekly thing called Shorthands; we offer everybody lunch and we give them recent updates of the company.
 
-And not every time, but most of the time I'll do a thing called "Mike's Musing", which is I literally talk about something I've learned about leadership. That act of having to explain it to somebody else helps to reinforce how much -- it turns out I've actually learned a bunch... But the act of consciously saying \[unintelligible 00:32:37.02\] they're always inspired by some manager or leader I'd been talking with in the last 72 hours, and then I just take this lesson, and I don't refer to that individual or anything like that, but I just say "Hey, here's how I'd handle this. Let's build our collective leadership capacity." I think those are the things on that journey that \[unintelligible 00:32:55.07\]
+And not every time, but most of the time I'll do a thing called "Mike's Musing", which is I literally talk about something I've learned about leadership. That act of having to explain it to somebody else helps to reinforce how much -- it turns out I've actually learned a bunch... But the act of consciously saying, "hey I saw something", they're always inspired by some manager or leader I'd been talking with in the last 72 hours, and then I just take this lesson, and I don't refer to that individual or anything like that, but I just say "Hey, here's how I'd handle this. Let's build our collective leadership capacity." I think those are the things on that journey that I've been down.
 
 **Adam Stacoviak:** What do you think gets you excited these days then? Just to rewind a little bit, some of the things you said - you said "I haven't worked anywhere else really", you've been a founder/CEO for quite some time now, so you've done (for a lack of better terms) this job; whether it's changed over the years or not, you've been in this position... At some point you get bored, right? Maybe, maybe not - I don't know. What keeps you excited? What is it for you?
 
