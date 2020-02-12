@@ -40,7 +40,7 @@ Eventually, after a few months of trying to figure out how to shoehorn these com
 
 **Mat Ryer:** Really?
 
-**Steve Francia:** As a community member, I was talking to the Go leadership at Google about potentially joining, and it was in a new role that they'd never really had someone do before... So as part of that, I wrote a document that was from my community perspective of the things that were missing, that we needed to address. And if I was gonna join Google, I wanted to join to build those things.
+**Steve Francia:** As a community member, I was talking to the Go leadership at Google about potentially joining, and it was in a new role that they'd never really had someone do before... So as part of that, I wrote a document that was from my community member perspective of the things that were missing, that we needed to address. And if I was gonna join Google, I wanted to join to build those things.
 
 And on that document, it had - and I'll read it to you - it was "Provide educational resources for Go adoption and best practices, working with partners to create and provide the best training materials. Write the story of the value of Go and communicate that story broadly. Solve the problem of discoverability of libraries and packages."
 
@@ -54,7 +54,7 @@ So now we fast-forward to me joining Google... I worked with Russ and Samir to o
 
 **Mat Ryer:** And will it take into account things like if packages have stopped being maintained, or if they do things that are generally accepted to not be great patterns, and things like that? Is it gonna be opinionated in that way?
 
-**Julie Qiu:** Yeah, I definitely think it's something that we've talked about and considered adding for the future. Right now, if you think about the Go ecosystem, the thing that's really out there is GoDoc.org, which provides package documentation... But it's missing a lot of this information about "Is this package still being maintained? Is this something I actually wanna integrate into my site?" So that's definitely part of what we wanna do, especially at pkg.go.dev, now that it's launched, we've laid the foundation... That's all stuff we're thinking about.
+**Julie Qiu:** Yeah, I definitely think it's something that we've talked about and considered adding for the future. Right now, if you think about the Go ecosystem, the thing that's really out there is GoDoc.org, which provides package documentation... But it's missing a lot of this information about "Is this package still being maintained? Is this something I actually wanna integrate into my site?" So that's definitely part of what we wanna do, especially at [pkg.go.dev](https://pkg.go.dev/), now that it's launched, we've laid the foundation... That's all stuff we're thinking about.
 
 **Mat Ryer:** Julie, you spoke at -- I've seen it a couple of times, actually... You do a talk about how to select good dependencies, and what to look for in things. Anyone interested in that should definitely have a search around. It's a great talk, and you talk about things like "Are there tests in this package?" What are some of the other things that are important when it comes to choosing dependencies, and why is that important?
 
@@ -66,7 +66,7 @@ I think quality is things like "Is it a well-documented package? Does the code h
 
 And then the third thing is essentially stability. Obviously, technology changes, the Go ecosystem changes, and so as things are changing, can I count on this author to think about where I am with my project? Something you don't wanna see is someone had an exported function in one version, and then all of a sudden in the next version it's not a major release, but that function got taken away... Because that is gonna create a lot of work for you as you are upgrading your codebase. That's how I would go about thinking about it.
 
-**Jon Calhoun:** One of our actual listeners had asked the question "Will any of this data that you guys are using to figure out what packages are there - I'm assuming you'll be gathering some data - be made publicly available?" The specific question they were asking was "When you're looking at packages, one of the ways you can tell if it's a good package to use is if bigger projects are using it. So if Docker is using a package, there's a good chance that they're gonna step up and make sure it doesn't die, whereas if it's a bunch of really small application, then popularity there might not matter as much as one really big entity." If you're planning on exposing that sort of data and making it possible for people to explore what big projects are using these packages...
+**Jon Calhoun:** One of our actual listeners had asked the question "Will any of this data that you guys are using to figure out what packages are there - I'm assuming you'll be gathering some data - be made publicly available?" The specific question they were asking was "When you're looking at packages, one of the ways you can tell if it's a good package to use is if bigger projects are using it. So if Docker is using a package, there's a good chance that they're gonna step up and make sure it doesn't die, whereas if it's a bunch of really small applications, then popularity there might not matter as much as one really big entity." If you're planning on exposing that sort of data and making it possible for people to explore what big projects are using these packages...
 
 **Julie Qiu:** It sounds like that information is -- they're looking for what a package is importing, and then what a package is being imported by. All of that information actually is already available today on pkg.go.dev.
 
@@ -118,7 +118,7 @@ And even if you look at front-end frameworks for JavaScript, you'd think at some
 
 **Break:** \[00:19:59.00\]
 
-**Mat Ryer:** The Context package, when that happened - that was kind of one of those shifts you talked about, Steve, where suddenly now people expected to be able to cancel things that they couldn't cancel before... For example like copying. Is there a context-aware copy operation in the standard library? If you do Io.Copy(), it jsut copies the whole thing until the end of the file, right? Is there a cancelable one, or do you have to write that on your own?
+**Mat Ryer:** The Context package, when that happened - that was kind of one of those shifts you talked about, Steve, where suddenly now people expected to be able to cancel things that they couldn't cancel before... For example like copying. Is there a context-aware copy operation in the standard library? If you do io.Copy(), it just copies the whole thing until the end of the file, right? Is there a cancelable one, or do you have to write that on your own?
 
 **Steve Francia:** I am not aware of it in the standard library.
 
@@ -134,7 +134,7 @@ And through those conversations we've heard two things that almost every company
 
 So a lot of those stories stop there. But some of those stories continued, and we had people that felt confident enough that it was a good decision that they kind of went rogue, and they built a prototype in Go, and it ended up being phenomenally successful.
 
-So those pioneers in those companies really provide the things that they wanted before, which were these stories... So we're really happy that we're able to tell some of these stories. We've been working with these companies for many months to be able to capture these stories that they shared with us, and make them publicly available, and share them broadly. And hopefully, the next round of people answer to those questions, so that when they wanna go to their leadership and answer these questions "Who else is using it? What are they using it for? Are they in our demographic of company or vertical of company?" they'll have answers to those questions.
+So those pioneers in those companies really provide the things that they wanted before, which were these stories... So we're really happy that we're able to tell some of these stories. We've been working with these companies for many months to be able to capture these stories that they shared with us, and make them publicly available, and share them broadly. And hopefully, the next round of people answers to those questions, so that when they wanna go to their leadership and answer these questions "Who else is using it? What are they using it for? Are they in our demographic of company or vertical of company?" they'll have answers to those questions.
 
 It wasn't just in these internal meetings, we also did different surveys, and this was one of the top things that people asked for in our surveys. Now, if you're coming from a small company or you might be an individual consultant, this probably sounds foreign to you. But if you're working at a big company... You know, on our website we've launched several case studies from big companies: American Express, PayPal, MercadoLibre... You can go on the website and see them all there. These are larger companies that have more hoops to jump through, more permissions to obtain, and this was an overwhelming thing that they've been asking for.
 
@@ -238,7 +238,7 @@ Awesome Go was and is still a great resource, but at the beginning, when package
 
 If you're searching for -- you know, sometimes you're searching for things that Awesome Go curated predefined categories, but sometimes you're searching for things that aren't in those predefined categories. And no matter what you're searching for, you really want to know quality... And I think it comes back to those indicators, to really help us. That's the discovery portion of the site, that is still ongoing, that we're working on.
 
-**Mat Ryer:** I once wrote a blog post and made a little repo alongside it to show the code... And I made some changes to it at some point a couple years later, and I started getting people opening issues, saying "You broke our build." This was just a repo to show off some ideas, it wasn't ever meant to be imported by anybody, so I was shocked that that happened. Is there a way that package writers and package authors and maintainers can indicate to the Go.dev and to pkg.go.dev - is there a way that we can indicate that these things are deprecated, or perhaps shouldn't be imported, or even to say "If you wanna solve this problem, there's a better package over here, so go and use that one"?
+**Mat Ryer:** I once wrote a blog post and made a little repo alongside it to show the code... And I made some changes to it at some point a couple years later, and I started getting people opening issues, saying "You broke our build." This was just a repo to show off some ideas, it wasn't ever meant to be imported by anybody, so I was shocked that that happened. Is there a way that package writers and package authors and maintainers can indicate to the tools Go.dev and to pkg.go.dev - is there a way that we can indicate that these things are deprecated, or perhaps shouldn't be imported, or even to say "If you wanna solve this problem, there's a better package over here, so go and use that one"?
 
 **Julie Qiu:** I think to indicate that something isn't working anymore, you can email us. We've gotten requests for people to take down their packages from pkg.go.dev. So that's something that we do support doing.
 
@@ -250,7 +250,7 @@ We don't currently have anything right now on the side for authors to say "You s
 
 **Julie Qiu:** Yeah, I think we've also discussed very early on during the brainstorming phase about other types of metadata that would help with that problem, too. For example, keywords would be great. If you could tag this package as like "It's a logging package", and so maybe that's what your package is, and that way you don't have to say "This is exactly the package you're looking for", but you can just have keywords for people to look in the ecosystem... But these are all things we've been thinking about and are still brainstorming about, and don't quite know what it will look like yet.
 
-**Mat Ryer:** Cool. Not, but it's exciting though.
+**Mat Ryer:** Cool. No, but it's exciting though.
 
 **Julie Qiu:** Yeah. There's a lot of cool places that we can go.
 
@@ -278,7 +278,7 @@ If you look on pkg.go.dev and you're thinking about whether or not you should us
 
 **Mat Ryer:** So therefore on the other hand if you do want things including, then pick a license that is gonna allow this.
 
-**Julie Qiu:** Yeah. That's something that we had gotten a lot of feedback about right after launch, because our license policy had been a bit strict... And also, I think we haven't provided a lot of information about exactly what information you need for your license... But we actually updated our license policy very recently. So if that's something that you wanna know more information about, we've shared that we do license detection by using the license check library, and also a list of licenses and a copy of that content in case you wanted to pick one of the ones that would just fit on the site.
+**Julie Qiu:** Yeah. That's something that we had gotten a lot of feedback about right after launch, because our license policy had been a bit strict... And also, I think we haven't provided a lot of information about exactly what information you need for your license... But we actually updated our license policy very recently. So if that's something that you want us to know more information about, we've shared that we do license detection by using the license check library, and also a list of licenses and a copy of that content in case you wanted to pick one of the ones that would just fit on the site.
 
 **Mat Ryer:** Great, yeah. There is actually a Go tool - because I've used it - which will check the licenses of all your repos as well. So I'll dig that out and put it in the show notes too, because that can be quite useful. And it's actually worth bearing in mind from the beginning, because it's all very well -- usually, what happens is you build the thing, you get it working, and then towards the end of the process someone from the legal team will say "Oh, just make sure the licenses make this all okay." And then if it doesn't, you kind of get yourself into a little bit of trouble... Or at least there's work to do to go and either find an alternative, or you sometimes have to rewrite the little bits and pieces yourself. So yeah, it is worth checking the license, as Steve was alluding to earlier. Check the license before you import.
 
@@ -354,7 +354,9 @@ Then the site itself is hosted on the Google Cloud Platform. The high-level arch
 
 **Mat Ryer:** Oh, that does sound controversial.
 
-**Julie Qiu:** Better than cabs, better than subway. Take the busses. It's so great!
+**Carmen Andoh:** Better than cabs, better than subway. Take the busses.
+
+**Julie Qiu:** It's so great!
 
 **Mat Ryer:** Really?
 
@@ -498,7 +500,7 @@ So if you wanna go fast, go alone; if you wanna go far, go together... So the na
 
 **Carmen Andoh:** We go round and round on that. Some people say "Oh gosh, if we could vote up, vote down, that is gonna be its own quality indicator of itself." The problem is everything can be gamed... So right now the only thing that can't be gamed is people whom we can trust to be ethical about curating things, and also making sure that we constantly go back and feed into what the global community needs in terms of learning gaps, whether that's content gaps, modality gaps, whatnot.
 
-So for the forseeable future, it's going to be curated. If we could find a way to do voting that we don't feel can be gamed, or turns into -- you know, the thing I wanted to stop and prevent was someone saying "Go vote on my thing, because you're my friend", versus "Go vote on my thing because you personally learned from it, or you've found it to be very beneficial for you."
+So for the forseeable future, it's going to be curated. If at such time we could find a way to do voting that we don't feel can be gamed, or turns into -- you know, the thing I wanted to stop and prevent was someone saying "Go vote on my thing, because you're my friend", versus "Go vote on my thing because you personally learned from it, or you've found it to be very beneficial for you."
 
 But we've gone round and round on it. I remember having a working group or a roundtable at GopherCon in July in San Diego, and then we had about 15 people show up to two sessions, and this was an idea that came up... Someone really wanted to push forward on that. I continued to research it, and look into it, and ultimately said "Not right now", until we can answer some of the gamifying questions.
 
