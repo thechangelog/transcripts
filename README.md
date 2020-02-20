@@ -310,6 +310,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="https://cmackenzie1.github.io"><img src="https://avatars3.githubusercontent.com/u/10947617?v=4" width="100px;" alt=""/><br /><sub><b>Cole Mackenzie</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=cmackenzie1" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/faridonfire"><img src="https://avatars1.githubusercontent.com/u/3962133?v=4" width="100px;" alt=""/><br /><sub><b>faridonfire</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=faridonfire" title="Documentation">📖</a></td>
   </tr>
 </table>
 
