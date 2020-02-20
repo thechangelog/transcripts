@@ -1951,6 +1951,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "cmackenzie1",
+      "name": "Cole Mackenzie",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10947617?v=4",
+      "profile": "https://cmackenzie1.github.io",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",

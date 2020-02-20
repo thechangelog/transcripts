@@ -308,6 +308,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://bbrks.me"><img src="https://avatars3.githubusercontent.com/u/1525809?v=4" width="100px;" alt=""/><br /><sub><b>Ben Brooks</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=bbrks" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/lemonez"><img src="https://avatars0.githubusercontent.com/u/36384768?v=4" width="100px;" alt=""/><br /><sub><b>lemonez</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=lemonez" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://cmackenzie1.github.io"><img src="https://avatars3.githubusercontent.com/u/10947617?v=4" width="100px;" alt=""/><br /><sub><b>Cole Mackenzie</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=cmackenzie1" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
