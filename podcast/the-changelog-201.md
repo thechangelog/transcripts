@@ -20,7 +20,7 @@ Hey everyone here, today we're joined by Richard Hipp. Now, Jerod, this is a dee
 
 **Richard Hipp:** \[00:03:46.19\] When I was in the 9th grade, I saw all a Teletype connected with an acoustic coupler 110-baud modem to a mainframe computer. And I said, "I've got to learn to program that." And I went to the school library and I checked out every single book about computers in my high school library, all three of them, and I read them cover to cover that night. And I got an account on that little computer and started programming away in BASIC. Saved up my money... Shortly after that, the Apple I came out, and I was about to buy the Apple I and the Apple II came out. And I bought just the motherboard for an Apple II. Got it.
 
-Had to build my own keyboard, my own power supply, sorted it altogether. The first board I got didn't work. I called up Apple, they put me through the technical support and Steve Wozniak answers the phone.
+Had to build my own keyboard, my own power supply, soldered it altogether. The first board I got didn't work. I called up Apple, they put me through the technical support and Steve Wozniak answers the phone.
 
 **Adam Stacoviak:** Whaat?
 
@@ -320,7 +320,7 @@ And I also think that SQLite is probably the second most widely used software co
 
 **Adam Stacoviak:** Somebody had said before that you stumble on the best things in the world through accidents. It speaks to your curious heart going back to your original story, which is how you got into this in the first place was complete curiosity. And maybe that's a good thing.
 
-Richard Hipp:. Yeah. I learned a lot about SQL just writing SQLite, which is kind of scary but true.
+**Richard Hipp:** Yeah. I learned a lot about SQL just writing SQLite, which is kind of scary but true.
 
 **Jerod Santo:** It's just humorous in light of how widely deployed it is in the entire world, and it's like, "Wow, you're not really a database guy."
 
