@@ -1,5 +1,3 @@
-\[00:00:59.19\]
-
 **Mireille B. Reece, Psy.D:** I think we've said this before, that where attention goes, energy flows. So the more that I focus on something, I tend to feed that, and make that grow. It's interesting, because I think attention and focus is something that all of us struggle with in one way or another... And I think it was Aristotle who said the demise of the world will come through distraction. While many years ago Socrates and Aristotle debated this idea of distraction around it being a matter of the will, but they didn't have the same distractions we had...
 
 **Adam Stacoviak:** That's right.
@@ -389,5 +387,3 @@ So when we use distractions to help us, or very much in this case of managing mo
 **Mireille B. Reece, Psy.D:** It is. So for people to recognize -- I want people to begin to practice and to experiment how might you go about it this week, and go "What am I putting my attention on?" What does that feel like to me? Do I like it? Is it aversive and I'm like "Oh no, I need to change that channel in my mind"? Or "I can stay here for a while." But recognizing that there's this perpetual interplay between the inside and the outside, and that if we don't practice even discovering within ourselves how those factors interplay, we're apt to struggle all the more throughout our day-to-day lives.
 
 So maybe consider how you might focus on something at the outset of your day, to go "This is where I'm gonna focus." You could say "I'm gonna focus on looking for tulips" or "I wanna find red cars", or "I wanna find the number three." Make it a playful exercise, so that you can begin to see the power of your own attention and how that acts as the steering wheel for your life.
-
-Break: \[00:49:23.08\] to \[00:50:38.10\]
