@@ -1969,6 +1969,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "numist",
+      "name": "Scott Perry",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/544011?v=4",
+      "profile": "http://numist.net",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
