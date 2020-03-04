@@ -312,6 +312,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://cmackenzie1.github.io"><img src="https://avatars3.githubusercontent.com/u/10947617?v=4" width="100px;" alt=""/><br /><sub><b>Cole Mackenzie</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=cmackenzie1" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/faridonfire"><img src="https://avatars1.githubusercontent.com/u/3962133?v=4" width="100px;" alt=""/><br /><sub><b>faridonfire</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=faridonfire" title="Documentation">📖</a></td>
     <td align="center"><a href="http://numist.net"><img src="https://avatars0.githubusercontent.com/u/544011?v=4" width="100px;" alt=""/><br /><sub><b>Scott Perry</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=numist" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://www.mehulkar.com"><img src="https://avatars1.githubusercontent.com/u/490968?v=4" width="100px;" alt=""/><br /><sub><b>Mehul Kar</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=mehulkar" title="Documentation">📖</a></td>
   </tr>
 </table>
 
