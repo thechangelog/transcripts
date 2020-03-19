@@ -16,7 +16,7 @@ So on one level, it sounds like a crazy moonshot, and a bit over-ambitious... An
 
 **Adam Stacoviak:** When you said "sad" regarding Mozilla and Matrix, was that because of IRC going away?
 
-**Matthew Hodgson:** Yeah. I mean, I'm an IRC geek; I'm sure that many people here have spent their lives on IRC... I started admining a network back in '99. It was \[unintelligible 00:05:23.26\] because that's how cool I am...
+**Matthew Hodgson:** Yeah. I mean, I'm an IRC geek; I'm sure that many people here have spent their lives on IRC... I started admining a network back in '99. It was a Tolkien network, actually, because that's how cool I am(!)
 
 **Jerod Santo:** \[laughs\] Cool to me.
 
@@ -24,7 +24,7 @@ So on one level, it sounds like a crazy moonshot, and a bit over-ambitious... An
 
 So we basically grew up on IRC, ended up creating Matrix... In some way, it is very heavily inspired by IRC, but built on 21st century technology and feature set, and with a slightly bigger vision, in terms of not just being a chat, but being an open fabric.
 
-So first I'd say I've got a very soft spot for it, and I felt in some ways really sad that we were the reason that they turned it off entirely. Frankly, I wish that we'd left it going and kept it bridged, but they wanted to make use of all of the moderation stuff that we have in Matrix, and try to get the best possible starting point experience and try to minimize confusion due to somebody on IRC saying "Oh, I can't see that emoji, because my client doesn't do emoji" or "I can't do threads, because IRC doesn't do threads", and that sort of thing. So I see why they did it, but I still feel like we exed it and he killed an old friend.
+So first I'd say I've got a very soft spot for it, and I felt in some ways really sad that we were the reason that they turned it off entirely. Frankly, I wish that we'd left it going and kept it bridged, but they wanted to make use of all of the moderation stuff that we have in Matrix, and try to get the best possible starting point experience and try to minimize confusion due to somebody on IRC saying "Oh, I can't see that emoji, because my client doesn't do emoji" or "I can't do threads, because IRC doesn't do threads", and that sort of thing. So I see why they did it, but I still feel like we accidentally killed an old friend.
 
 **Adam Stacoviak:** It's just funny to see you be sad, because we're so enamored with progressing that you don't often stop to see the dead, I suppose, to be very graphic... Dead technologies or things that fall by the wayside as we progress. We're so attracted to change, and the future, and modern, and 21st century, as you've just said, that we -- I was just surprised to actually see you be sad that IRC went away.
 
@@ -34,7 +34,7 @@ So first I'd say I've got a very soft spot for it, and I felt in some ways reall
 
 **Matthew Hodgson:** Yeah, I think what happens is that the brain fills in the gaps. So if you're on a big, glossy, 1080p video feed like this, it's pretty unambiguous in what's going on. You can see each other's body language, you've got all of your amazing audio, and it's like real life, it's very high bandwidth.
 
-\[00:08:10.12\] But then if you take all of that away, and you end up with a really low-bandwidth, minimalist thing like IRC, there were friends (particularly from the \[unintelligible 00:08:17.27\]) who I'd never met in real life, that I became incredibly close friends with, and subsequently did meet in real life. I ended up introducing folks through there that then got married... It's not rocket science, everybody knows how online relationships work now... It was a little bit less obvious in the late '90s. I think the more minimal you are, the less bells and whistles, that has a certain appeal, and it's not just grungy retro things, because the \[unintelligible 00:08:48.05\] geeks I hung out with weren't techies; they were total randoms who just happened to like Lord of the Rings... Before the films came out, I hasten to add...
+\[00:08:10.12\] But then if you take all of that away, and you end up with a really low-bandwidth, minimalist thing like IRC, there were friends (particularly from the Tolkien network) who I'd never met in real life, that I became incredibly close friends with, and subsequently did meet in real life. I ended up introducing folks through there that then got married... It's not rocket science, everybody knows how online relationships work now... It was a little bit less obvious in the late '90s. I think the more minimal you are, the less bells and whistles, that has a certain appeal, and it's not just grungy retro things, because the Tolkien geeks I hung out with weren't techies; they were total randoms who just happened to like Lord of the Rings... Before the films came out, I hasten to add...
 
 **Jerod Santo:** \[laughs\]
 
@@ -76,7 +76,7 @@ Anyway, long story - basically, we've gone to the other extreme. But in the end,
 
 One thing with email is that there was nothing before it, as if you had to have a bootstrap first commonality to let people talk to one another... So whatever the first thing was that could bridge that gap in a global way would have amazing first-mover advantage, as we've seen. Secondly, it's open federation, whereas IRC is closed federation nowadays. In the very dim days of IRC, right at the beginning where there was only one network, it was actually open federation and anybody could just pitch up and try to peer in, or set up an S: line or whatever it is to go and connect to another server... And it was a disaster, because it didn't scale, and it got abused.
 
-Then there was the creation of EFnet, which I think was the first fork out of the original IRC network, when they \[unintelligible 00:14:57.18\] and so on and so forth. But it was basically a closed federation, so you couldn't just jump on board. Probably the other major thing is the lack of a killer app for IRC. When we look at where open standards for communication have happened before, like SIP for VoIP, and XMPP obviously for chat, and IRC; there's never for any of them been a no-brainer killer app like Netscape was for the early web, or like -- I hate to say it, but like Outlook Express was in the early days of email, relatively early days of email. Let's face it, every single Windows box had Outlook Express in there, and people used it...
+Then there was the creation of EFnet, which I think was the first fork out of the original IRC network, when they jupitered off a server called Jupiter I think, and so on and so forth. But it was basically a closed federation, so you couldn't just jump on board. Probably the other major thing is the lack of a killer app for IRC. When we look at where open standards for communication have happened before, like SIP for VoIP, and XMPP obviously for chat, and IRC; there's never for any of them been a no-brainer killer app like Netscape was for the early web, or like -- I hate to say it, but like Outlook Express was in the early days of email, relatively early days of email. Let's face it, every single Windows box had Outlook Express in there, and people used it...
 
 **Jerod Santo:** I know...
 
@@ -84,7 +84,7 @@ Then there was the creation of EFnet, which I think was the first fork out of th
 
 **Jerod Santo:** I use it as well, in anger.
 
-**Matthew Hodgson:** \[00:15:49.06\] \[laughs\] But my point is people were really taking time to bootstrap the protocol... I guess Pine would have been the early email equivalent, and \[unintelligible 00:16:00.03\] to some extent... But Pine was pretty mainstream. When I was at university, every student had a Pine login, and it was expected to \[unintelligible 00:16:06.05\] at the risk of sounding ancient, to go and check their email via Pine. And people made clients that worked, that were usable by normal people.
+**Matthew Hodgson:** \[00:15:49.06\] \[laughs\] But my point is people were really taking time to bootstrap the protocol... I guess Pine would have been the early email equivalent, and Mutt to some extent... But Pine was pretty mainstream. When I was at university, every student had a Pine login, and it was expected to fire up PuTTY on their Windows box, or actually use a VT100 somewhere (at the risk of sounding ancient) to go and check their email via Pine. And people made clients that worked, that were usable by normal people.
 
 I think there's an elitist thing, honestly, on IRC, that geeks think "Well, this just needs to be good enough for me and my developer mates. And in fact, the geekier it looks, the cooler it is... And I don't want any of these mainstream normies going and screwing up my special IRC network."
 
@@ -124,7 +124,7 @@ So that's a reason why we might be succeeding better in terms of mainstream adop
 
 **Adam Stacoviak:** Yeah. Why are we as humanity then shortsighted when it comes to massive communities? You seem to have some deep thoughts on this stuff... So if you kind of got into Matrix and this solution by being tired of building silos, what are we missing as humankind when it comes to networks of large communities, with massive amounts of knowledge and silos?
 
-**Matthew Hodgson:** I hope nobody is listening to this, hoping that we're gonna be geeky about HTTP versus CoAP, or JSON vs CBOR, or "What is the \[unintelligible 00:20:55.19\] in our end-to-end encryption?" But no, it's an excellent question, and I'm very happy to talk about what we're missing as a species... Let me answer as a story, which is about two years into Matrix. It was kind of working; we've got hundreds of servers out there, and probably hundreds of thousands of users on the network... And we were trying to figure out where it would go from there. Honestly, we started to see some level of abuse popping up on the network. We started to see our first spam, we started to see people being unpleasant to one another.
+**Matthew Hodgson:** I hope nobody is listening to this, hoping that we're gonna be geeky about HTTP versus CoAP, or JSON vs CBOR, or "What is the ratchet we use in our end-to-end encryption?" But no, it's an excellent question, and I'm very happy to talk about what we're missing as a species... Let me answer as a story, which is about two years into Matrix. It was kind of working; we've got hundreds of servers out there, and probably hundreds of thousands of users on the network... And we were trying to figure out where it would go from there. Honestly, we started to see some level of abuse popping up on the network. We started to see our first spam, we started to see people being unpleasant to one another.
 
 As we started to introduce the end-to-end encryption, it became obvious that an open secure decentralized encrypted communication network that anybody can participate in without any restrictions whatsoever can encourage some pretty colorful (to say the least) behavior from the human species. And if this thing continued to scale - as it has since; we've got like 15 million addressable users on it now - you're gonna end up with a massive global community that just keeps growing. And if we do the right thing, it should be bigger than email.
 
@@ -142,7 +142,7 @@ So we've been spending an awful lot of time thinking about solving the small pro
 
 **Break:** \[00:25:11.29\]
 
-**Jerod Santo:** Matthey, you called it a moonshot, and you also described all the ways in which it's hamstrung versus proprietary competitors for that moonshot, which is the foundation, and the encryption, and the decentralization, and all the things of open source governance... So you have effectively a hamstrung moonshot you're trying to make. The question that comes to my mind is how do you fund a multiple-year hamstrung moonshot like this? How are you going about it?
+**Jerod Santo:** Matthew, you called it a moonshot, and you also described all the ways in which it's hamstrung versus proprietary competitors for that moonshot, which is the foundation, and the encryption, and the decentralization, and all the things of open source governance... So you have effectively a hamstrung moonshot you're trying to make. The question that comes to my mind is how do you fund a multiple-year hamstrung moonshot like this? How are you going about it?
 
 **Matthew Hodgson:** Good question. You're right that it's harder to do this in a conventional model, and ironically, we have a side-by-side comparison between the same team who were building these proprietary silos originally... And in some places they were more sophisticated than Matrix. We had things like streaming file transfer, so you could livestream video as a file upload and watch it in real-time as it downloaded. Really cute, really fun. Then we did Matrix, and I'm guessing it's about 6-10 times more manpower required, and time and effort to build something we had already built, but this time do it as open source and do it in public, do it with open governance and open standards.
 
@@ -164,7 +164,7 @@ But basically, we got independent people from the community to come onboard and 
 
 **Adam Stacoviak:** Just add the word "New" to it. They did that in Silicon Valley, the show... They were spinning off Silicon Valley startups in China as a whole thing; it was funny. It was like New PiedPiper. It wasn't anything special... \[laughs\] Anyways.
 
-**Matthew Hodgson:** I have to say that I've never watched an episode of Silicon Valley, because as far as I can tell, it is way too close to the truth, particularly the whole decentralized stuff...
+**Matthew Hodgson:** I hate to say that I've never watched an episode of Silicon Valley, because as far as I can tell, it is way too close to the truth, particularly the whole decentralized stuff...
 
 **Adam Stacoviak:** Oh gosh, it was so good... You missed out, you should do it.
 
@@ -172,7 +172,7 @@ But basically, we got independent people from the community to come onboard and 
 
 **Adam Stacoviak:** Yes.
 
-**Matthew Hodgson:** Because we live in New York.
+**Matthew Hodgson:** Possibly even New York!
 
 **Jerod Santo:** There you go.
 
@@ -212,9 +212,9 @@ The novelty on Matrix is that the conversation is replicated over all of the par
 
 In some ways, this is pretty old hat. It's very similar to Usenet. Anybody familiar with NNTP and Usenet should be familiar with the idea of conversations being replicated over a whole bunch of participating servers. Obviously, for Usenet it was done almost as a flood globally, and it didn't have the cryptographic integrity that you get from assigning it into a signed data structure like a Merkle DAG or a Git repository. I'd like to point out that we have nice hash agility in Matrix on our Git.
 
-\[00: .25\] That's basically the way it operates, and the clones can be very thin. The simplest Matrix client is \[unintelligible 00:39:58.00\] it will block until there's a message to receive, and then it will return the JSON of that message. The message can be anything you like; it's just freeform JSON. And likewise, if you wanna send a message, it's a single HTTP hit from \[unintelligible 00:40:14.25\] and you give it a message type you want to send, and some JSON body, and you send it into the room where you asked it to go.
+\[00: .25\] That's basically the way it operates, and the clients can be very thin. The simplest Matrix client is curl, and if you want to receive a message, you curl /sync on your Matrix server, and it will block until there's a message to receive, and then it will return the JSON of that message. The message can be anything you like; it's just freeform JSON. And likewise, if you wanna send a message, it's a single HTTP hit from curl. curl -X POST to send a message and you give it a message type you want to send, and some JSON body, and you send it into the room where you asked it to go.
 
-There was a joke a few months ago on Hacker News a few months ago... I wrote a four-line or five-line Matrix client in Bash \[unintelligible 00:40:31.12\] just to really try to spell out to people that your Matrix client can be as stupid and simple as possible. It's the equivalent of \[00:40:45.08\] into an IRC server and everybody says "Oh, the reason email and IRC are so great is that I can \[unintelligible 00:40:43.25\] But it's the same idea.
+There was a joke a few months ago on Hacker News a few months ago... I wrote a four-line or five-line Matrix client in bash and curl just to really try to spell out to people that your Matrix client can be as stupid and simple as possible. It's the equivalent of telnetting into an IRC server and everybody says "Oh, the reason email and IRC are so great is that I can telnet into it, and I say: Well, for Matrix, you probably could telnet if you really want to, but you'd have to type out the HTTP headers - so why not just use curl. But it's the same idea.
 
 On the other extreme though, you could have a really thick client, like Riot, which has got offline support, it has local caches of your conversations, it has end-to-end encryption built in obviously into the client, and all of this good stuff, at which point you're up in the hundreds of thousands of lines of code... But the nice thing about Matrix is that it can be anywhere in between, depending on where you want to put things.
 
@@ -228,9 +228,9 @@ Basically, if I were to kick you from this conversation if we were having it in 
 
 Everybody executes the copy of the auth chain against there via the room, and if they conclude that yes indeed, this event was allowed to happen, they accept it into their copy of history. And if you get a conflict in terms of some kind of race, some kind of contradiction, then we have state resolution kick in, which goes and defines how you merge together these key-values in a deterministic manner, such that everybody ends up concluding the same state of the room. And that's hard...
 
-We got it wrong the first time, and it was a couple of years before we realized that it was exploitably wrong, and some really lovely people both discovered the vulnerabilities and then started to break rooms and exploit them... And we had a fairly stressful summer back in 2018, going and doing an emergency rethink of the merge resolution algorithm to fix the \[unintelligible 00:43:59.10\] that we had.
+We got it wrong the first time, and it was a couple of years before we realized that it was exploitably wrong, and some really lovely people both discovered the vulnerabilities and then started to break rooms and exploit them... And we had a fairly stressful summer back in 2018, going and doing an emergency rethink of the merge resolution algorithm to fix the thinko and the thinkos that we had.
 
-There were three or four shortcomings, things like having got a tie-break incorrect, also having a \[unintelligible 00:44:07.24\] depth that should have been untrusted, but we were trusting it a bit more than we should, which was liable to people then lying about it, and abusing... And so forth.
+There were three or four shortcomings, things like having got a tie-break incorrect, also having a parameter called depth that should have been untrusted, but we were trusting it a bit more than we should, which was liable to people then lying about it, and abusing... And so forth.
 
 \[00:44:20.10\] So we shipped at the beginning of 2019 state res v2, which gets it right, and is what Matrix uses today... And so far we haven't seen any disasters with people discovering that they can inject malicious events in order to hijack rooms.
 
@@ -240,17 +240,17 @@ Again, it felt a lot like the early days of IRC; if you ever saw a netsplit, whe
 
 **Matthew Hodgson:** Yeah, again, excellent question. On testing it we have a tester called SyTest, which has got about 850 integration tests. It's a totally separate codebase to any of the servers, and it exercises one or more servers and clients to basically go through as much of the API surface as we can. And in terms of APIs, you have the client-server API, which is the one I explained earlier, for implementing clients. Then you've got the server-to-server interface, which is the much more exotic one, which has got both the cryptographic hashes flying around at the Merkle DAG, as well as state resolution. And there are three other ones. One for identity lookups, one for push, and one for application services... Application services being clients on steroids that can bridge you into other networks and link through to IRC and XMPP and that sort of thing.
 
-So SyTest primarily tests -- well, it actually tests all of those these days. It's a bit of a weird project. It's written in Perl; it's not entirely deliberate that it was written in Perl, but it's one of these things that \[unintelligible 00:46:07.29\] is stuck, and before you know it you've got 850-odd tests which are critical to any development to the platform... Stuck in your CI system; everytime somebody commits something to one of our server implementations, it gets run through the gamut.
+So SyTest primarily tests -- well, it actually tests all of those these days. It's a bit of a weird project. It's written in Perl; it's not entirely deliberate that it was written in Perl, but it's one of these things that began in Perl and has stuck, and before you know it you've got 850-odd tests which are critical to any development to the platform... Stuck in your CI system; everytime somebody commits something to one of our server implementations, it gets run through the gamut.
 
 As it happens, it doesn't have that much in the way of state resolution tests, and we actually have separate test checks for that... And it's very topical, because we have a next-generation server implementation going on at the moment called Dendrite. Our first one was written in Python and it's called Synapse. It's lots of Python and Twisted. Dendrite is written in Go, and it's ended up being written by almost totally different people to Synapse... And it had a hiatus of almost two years when we realized we didn't have bandwidth to both work on it and work on Synapse... But we're now at the point that Synapse is stable enough and we have enough manpower to actually work on Dendrite.
 
 For the last week, one of the lead developers on Dendrite, Neil Alexander, has been implementing state res v2 for Dendrite, playing catch-up with where we were a year-and-a-half ago on in Synapse... And he's been writing a lot of unit tests, lots of test gigs running SyTest against it, also writing more documentation...
 
-I don't if you've ever read the git-merge documentation, but somewhere in the Git source repo there's a doc that explains how their three-way merge thing works. It's the equivalent of our state resolution. It's surprisingly involved, and terse, and if you get it wrong, the whole thing just kind of falls apart \[unintelligible 00:47:40.04\]
+I don't if you've ever read the git-merge documentation, but somewhere in the Git source repo there's a doc that explains how their three-way merge thing works. It's the equivalent of our state resolution. It's surprisingly involved, and terse, and if you get it wrong, the whole thing just kind of falls apart in an absolute firestorm.
 
-So we're constantly redocumenting it. I think we've now got five different write-ups from different members of the team; each one advances the state of the art to better explain how it works... And I think there's also a formal proof written in \[unintelligible 00:47:55.08\] to a formal justification as to how state res works.
+So we're constantly redocumenting it. I think we've now got five different write-ups from different members of the team; each one advances the state of the art to better explain how it works... And I think there's also a formal proof written in LaTeX (so it must be true!) to explain the algorithm and provide a formal justification as to how state res works.
 
-\[00:48:06.01\] So it's by far the -- it's tje only academically-complicated bit of it, and I think that we've got it right... Just like Git in practice is quite complicated, but it works very well in reality, Matrix is also quite complicated, but hopefully it's kind of necessarily complicated; it's not over-engineered for the sake of navel-gazing. It's the minimum level of complexity needed to be able to merge together decentralized chat rooms in a deterministic, consistent manner.
+\[00:48:06.01\] So it's by far the -- it's the only academically-complicated bit of it, and I think that we've got it right... Just like Git in practice is quite complicated, but it works very well in reality, Matrix is also quite complicated, but hopefully it's kind of necessarily complicated; it's not over-engineered for the sake of navel-gazing. It's the minimum level of complexity needed to be able to merge together decentralized chat rooms in a deterministic, consistent manner.
 
 **Break:** \[00:48:44.21\]
 
@@ -300,7 +300,7 @@ The thing that went wrong with them is that we implemented them in a bit of a ru
 
 So you create a group, and you invite people, you kind of need a way to ban people, you need to have moderators in there, and it needs to have a name, and a topic, and it's got a set of rooms associated with it... And we went and implemented all of this as an entirely new API surface, before kind of realizing one day that "Hang on... We've got rooms already; they've got members who you invite, they've got topics, and names, they've got power rules, and they're decentralized..." And it was at that point the whole thing kind of ground to a halt, having realized we'd done it horribly wrong... And we went and focused on other things, and we are literally now coming back to it, to rip it out and at least experiment with the idea of what we call rooms as groups...
 
-So you just create a group, and you nest rooms in it in a beautiful Matroska way... And if you kind of then join the top-level of the room, then you would get a room directory that shows you the other rooms which are nested within it, and it becomes a much more powerful way to have hierarchies of communities... And you can see that it can map onto an active directory tree, or LDAP, or whatever other hierarchy of users you might have, or hierarchy of rooms you might have flying around. It could be your IMAP hierarchy, it could be newsgroups, it could be a Discord server split into different partitions, or whatever Discord calls them.
+So you just create a group, and you nest rooms in it in a beautiful matroska way... And if you kind of then join the top-level of the room, then you would get a room directory that shows you the other rooms which are nested within it, and it becomes a much more powerful way to have hierarchies of communities... And you can see that it can map onto an active directory tree, or LDAP, or whatever other hierarchy of users you might have, or hierarchy of rooms you might have flying around. It could be your IMAP hierarchy, it could be newsgroups, it could be a Discord server split into different partitions, or whatever Discord calls them.
 
 **Jerod Santo:** Okay. The bridging content we spoke about a little bit, but this is the idea... I'm just going through some of the jargon used around the Matrix.org website, trying to understand all your bits and bobs...
 
@@ -314,7 +314,7 @@ So you just create a group, and you nest rooms in it in a beautiful Matroska way
 
 **Matthew Hodgson:** Yeah. There are about 60 or 70 of them now, most of them built by the community. On the core team we started with IRC, because as I mentioned, we kind of like IRC, and we also wanted to bootstrap it with the IRC community... And in some ways, the IRC bridge is the most sophisticated one. Lots of people on IRC use Matrix as basically a great, big, decentralized bouncer in the sky... And I think we do about 25% of the traffic on Freenode these days, much to the -- I think Freenode are a bit nonplussed about this. On one level, it means that people are using Freenode, and IRC lives on another level; I suspect they'd probably prefer if they were just talking on IRC, rather than coming in from another land... But it is what it is, and people seem to like it.
 
-\[01:00:21.26\] We also did XNPP via Bifrost, which is a next-gen bridge kind of toolkit, which is actually an application framework to build bridges. So you implement your bridge for, say, XMPP, as a module that plugs into a general, all-purpose rainbow bridge like a Bifrost in Norse mythology/Marvel mythology would look like.
+\[01:00:21.26\] We also did XMPP via Bifrost, which is a next-gen bridge kind of toolkit, which is actually an application framework to build bridges. So you implement your bridge for, say, XMPP, as a module that plugs into a general, all-purpose rainbow bridge like a Bifrost in Norse mythology/Marvel mythology would look like.
 
 We also did Slack, and we did Gitter, and I always forget the last one... Those are probably the important ones, to be honest. And then everything else, Telegram, Discord, GroupMe, Facebook, Signal, WhatsApp -- all of this stuff comes in from the wider community. The bridge is super-easy to write, and the Slack bridge is about 50 lines of JavaScript, because it's basically just taking webhooks from Slack, turning it into the Matrix HTTP API, and then back again.
 
@@ -388,7 +388,7 @@ In terms of big ones, France is not counted in those stats. They have hundreds o
 
 They unexpectedly announced themselves on Christmas Eve, thanks to I think a freedom of information request from a journalist who heard something about it and asked them to clarify what they were up to, and it turns out that they were in the middle of a trial to deploy Matrix in that context. And also, the Federal Data Protection minister, who's (I guess) the head of GDPR for Germany, has taken a shine to Matrix and has been enthusing about how there should be a pan-European government Matrix network, so that all the governments and public sectors can collaborate together. That would be nice.
 
-Wikipedia has a Matrix server. GNOME and KDE have them also. Red Hat - I'm not sure we're allowed to talk about, but they do phone home stats, so we do know that they are running a big Matrix server, or at least they have \[unintelligible 01:10:10.18\]
+Wikipedia has a Matrix server. GNOME and KDE have them also. Red Hat - I'm not sure we're allowed to talk about, but they do phone home stats, so we do know that they are running a big Matrix server, or at least they have have at points!
 
 **Jerod Santo:** Just don't talk about it.
 
@@ -396,7 +396,7 @@ Wikipedia has a Matrix server. GNOME and KDE have them also. Red Hat - I'm not s
 
 **Matthew Hodgson:** Some of the Rust community went to Matrix, rather than Discord... I'm hoping that the rest of the Rust guys will see the light and come back, eventually. So it's honestly a weird mix of open source -- lots of cryptocurrency projects, like Tezos, and Status, Ethereum, obviously Parity (that I already mentioned), open source cryptocurrency types... Also activists and people who really care about privacy and encryption, and then on the flipside governments... And that's kind of the main uptake right now. And we haven't yet shifted into the more mainstream people who are using Slack today, but that is the big challenge that we're tackling really over the course of this year... Trying to get the UX glossy enough in Riot, trying to make sure that features like Communities are there.
 
-In terms of first-time user experience right now there's quite a lot of wtf moments, so to speak, for new users... We just haven't quite polished it as much as we should, or we've let a bit of the protocols shine through into user interface. For instance, right now you can invite users in DMs. If you're used to it, it's really useful. Somebody DMs you, and you think "Oh, \[unintelligible 01:11:20.23\]." Or if you want to invite a bot into your DM, so that it can translate it for you, or something like that. It's actually kind of useful.
+In terms of first-time user experience right now there's quite a lot of wtf moments, so to speak, for new users... We just haven't quite polished it as much as we should, or we've let a bit of the protocols shine through into user interface. For instance, right now you can invite users in DMs. If you're used to it, it's really useful. Somebody DMs you, and you think "Aah, you're not talking to the right person!  Let me invite in the right person to direct you to!" Or if you want to invite a bot into your DM, so that it can translate it for you, or something like that. It's actually kind of useful.
 
 But the level of panic that some people have when they're coming over from Slack and discover that the one-to-one that they were having with somebody can actually be magically upgraded, not even into a DM, but into a private chat, and it can even be made a public chat if you wanted to, just because you can, is a classic example of "Just because you can doesn't mean you should."
 
@@ -404,15 +404,15 @@ But the level of panic that some people have when they're coming over from Slack
 
 **Matthew Hodgson:** So lots of work, basically, on UX, to make it more mainstream. And we've just hired two more designers to join our existing, very long suffering one; both of them have experience in the professional app design space for communication apps... To try to de-geek Riot and make it more mainstream.
 
-**Adam Stacoviak:** You've mentioned the \[unintelligible 01:12:18.12\] of people behind Matrix.org foundation, but you hadn't really enlightened us on your team size, and things like that. Can you share a bit more about who's doing -- I can't imagine you're doing all this work, so...
+**Adam Stacoviak:** You've mentioned the cadre of people behind Matrix.org foundation, but you hadn't really enlightened us on your team size, and things like that. Can you share a bit more about who's doing -- I can't imagine you're doing all this work, so...
 
 **Matthew Hodgson:** Oh, God no...
 
 **Adam Stacoviak:** ...who else is with you?
 
-**Matthew Hodgson:** ...I don't think you'd want me to. So the core team, when we set up New Vector as the spin-out in 2017 was 11 people. Since then we have scaled up to 41, I think, as of this morning. So we've taken on funding, as well as the revenue I mentioned earlier. We've taken on funding, both seed and from Status, the Ethereum decentralized communication project. He wanted to support us, because they like decentralization and wanted the project to survive.
+**Matthew Hodgson:** ...I don't think you'd want me to. So the core team, when we set up New Vector as the spin-out in 2017 was 11 people. Since then we have scaled up to 41, I think, as of this morning. So we've taken on funding, as well as the revenue I mentioned earlier. We've taken on funding, both seed and from Status, the Ethereum decentralized communication project. They wanted to support us, because they like decentralization and wanted the project to survive.
 
-And then more recently from VCs in London, specifically Notion, Dorm Capital and Firstminute, who -- I think we're very lucky to have these investors, because they get the mission and the idea, as well as see the commercial possibility, in that we could become the Netscape of the Matrix ecosystem... And if Matrix takes off properly... It's a bit of a long shot -- as we said, it's a bit of a slightly hamstrung moonshot, but we're quite close to the moon at this point, and assuming we don't overshoot or crash into it, hopefully we'll have a beautiful landing... And that's allowed us to scale up the team significantly.
+And then more recently from VCs in London, specifically Notion, Dawn Capital and Firstminute, who -- I think we're very lucky to have these investors, because they get the mission and the idea, as well as see the commercial possibility, in that we could become the Netscape of the Matrix ecosystem... And if Matrix takes off properly... It's a bit of a long shot -- as we said, it's a bit of a slightly hamstrung moonshot, but we're quite close to the moon at this point, and assuming we don't overshoot or crash into it, hopefully we'll have a beautiful landing... And that's allowed us to scale up the team significantly.
 
 For the foundation we don't hire anybody; it's just the directors basically looking after the governance and the IP and the evolution of the protocol... But for people paid to work full-time on Matrix, that's what we do, is New Vector... And then lots of other contributors from other companies, and individual open source contributors. Probably 600-700 into the core project, and easily thousands into the wider projects which people happen to have built on top.
 
@@ -422,7 +422,7 @@ For the foundation we don't hire anybody; it's just the directors basically look
 
 **Adam Stacoviak:** ...the future, where you're going to - what would happen to make the killer app, the killer use case, whatever it might be? What would be the next big step for Matrix?
 
-**Matthew Hodgson:** By far the biggest thing that we can do right now is to fix the first-time user experience in Riot... And it's tantalizingly close. If we can go and get the UX, so that people will try using it rather than Slack, and think "Oh, this is actually a bit better", then ignore all of the open source, all the decentralization, all of that stuff... Just from a pure, pragmatic user perspective, you've gotta have that \[unintelligible 01:15:01.29\] what you need it to do. That's more than anything else what I'd like to have happen.
+**Matthew Hodgson:** By far the biggest thing that we can do right now is to fix the first-time user experience in Riot... And it's tantalizingly close. If we can go and get the UX, so that people will try using it rather than Slack, and think "Oh, this is actually a bit better", then... Ignore all of the open source, all the decentralization, all of that stuff... Just from a pure, pragmatic user perspective, you've gotta have that. That's more than anything else what I'd like to have happen.
 
 Secondarily, we'd need to fix the reputation and abuse challenges. We've made some good work on that. We have the concept of shared blocklists, so that if there are abusive folks, you can choose to ban them from your room or server or community or user, and then kind of pool that information together... A bit like email blacklists, but hopefully a little bit more nuanced. That is improving things a bit, but it needs to be a lot more nuanced if it's gonna solve the kind of grayscale things. If you ban somebody for spamming a room, it's pretty concrete. But if you just happen to want to dial down the NSFW content in a room, that's getting a bit more gray as to what somebody considers safe for work etc. So we need to have that subtlety to support that.
 
@@ -446,7 +446,7 @@ Oh, the other thing I'd wave a magic wand is to migrate to Dendrite and kill off
 
 **Matthew Hodgson:** It's pretty close. It's really frustrating, actually. We probably got 80%-90% of the way there before we just had to pull people off to focus on the fact that France was going live on Synapse, and we had to do this, this and this, and a whole bunch of other commitments like that... And it's only in the last 2-3 months that we have rehired people who can focus exclusively on it. But frankly, they're on fire.
 
-Oh, there's an entire thing I haven't mentioned - \[unintelligible 01:19:46.27\] which they've also been working on. One of the ways we got Dendrite development going again is for peer-to-peer matrix, rather than client server. So as of today - and you heard it here first - we had our first ever live traffic over peer to peer Matrix. What we did was to take the Go codebase, compile it to WebAssembly, run it in a service worker on your browser, and stick it into Riot. So you literally just go and pull the server to run client-side peer-to-peer.
+Ooh, there's an entire thing I haven't mentioned *at all* which they've also been working on. One of the ways we got Dendrite development going again is for peer-to-peer matrix, rather than client server. So as of today - and you heard it here first - we had our first ever live traffic over peer to peer Matrix. What we did was to take the Go codebase, compile it to WebAssembly, run it in a service worker on your browser, and stick it into Riot. So you literally just go and pull the server to run client-side peer-to-peer.
 
 \[01:20:18.08\] We used libp2p from the IPFS Protocol Labs guys as the network transport. You just spin it outright, and it is a real paradigm shift; it's really trippy, in that you don't change a single line of the client code. It's just talking to an invisible Matrix server, and it has a URL and everything, and the service worker intercepts those outbound HTTP requests, and suddenly wormholes it into WebAssembly and gets Dendrite to run locally to service the traffic.
 
@@ -476,11 +476,11 @@ Matrix is very interesting, very cool. All the links to all the things related t
 
 **Matthew Hodgson:** It's super-open collaboration. I mean, the guardians are a safety net. They're not gatekeepers, they're just the safety nets, so that if somebody did go rogue, that they can step in and say "Oi, we're not gonna accept these evolutions to the protocol."
 
-So if you wanna get involved, come on to \#matrix-dev \[unintelligible 01:25:10.23\] or Matrix.org, as we say... That's one of the main developer hangouts. Or even just -matrix or matrix.org, the first-ever room on Matrix. It's a little eclectic, as all sort of randoms find their way into Matrix for the first time, but it's pretty cool.
+So if you wanna get involved, come on to \#matrix-dev:matrix.org... That's one of the main developer hangouts. Or even just \#matrix:matrix.org, the first-ever room on Matrix. It's a little eclectic, as all sort of randoms find their way into Matrix for the first time, but it's pretty cool.
 
 **Jerod Santo:** Last question, how did you get the Matrix.org domain? Because that is an awesome domain.
 
-**Matthew Hodgson:** Yeah. Honestly, we were thinking of names for Matrix... It started off being called Synapse as a codename, but we ended up keeping that for the server... And we're just trying to think of something that really described what we were doing. I thought of Matrix, and I thought "Oh, I can't possibly call it that, because of the film. It'd just be silly." And then realized it's been already at that point 16 years since the film, which is -- now it's been 21 years or something, if you really wanna feel old... And realized that actually perhaps it might be alright. "Is the domain available?" I went onto it and it was parked on \[unintelligible 01:26:09.01\] or something. We paid 3k for it, from memory... Which seems ludicrously good, honestly.
+**Matthew Hodgson:** Yeah. Honestly, we were thinking of names for Matrix... It started off being called Synapse as a codename, but we ended up keeping that for the server... And we're just trying to think of something that really described what we were doing. I thought of Matrix, and I thought "Oh, I can't possibly call it that, because of the film. It'd just be silly." And then realized it's been already at that point 16 years since the film, which is -- now it's been 21 years or something, if you really wanna feel old... And realized that actually perhaps it might be alright. "Is the domain available?" I went onto it and it was parked on Sedo or something. We paid 3k for it, from memory... Which seems ludicrously good, honestly.
 
 **Jerod Santo:** Not bad. I would expect it to be like 50k.
 
@@ -506,7 +506,7 @@ So if you wanna get involved, come on to \#matrix-dev \[unintelligible 01:25:10.
 
 **Jerod Santo:** That's right.
 
-**Matthew Hodgson:** If you incognito search for the word "matrix" on Google right now, I think last time I checked -- not that I do this every night before going to be, because that would be sad... Last time I checked, a few months ago, we were up at number 11, so almost on the front page... And to be competing against fundamentals of mathematics and Keanu Reeves is no mean feat... So we thought we were almost there. But obviously, Matrix 4 is just gonna knock us completely off the search rankings forever...
+**Matthew Hodgson:** If you incognito search for the word "matrix" on Google right now, I think last time I checked -- not that I do this every night before going to bed, because that would be sad... Last time I checked, a few months ago, we were up at number 11, so almost on the front page... And to be competing against fundamentals of mathematics and Keanu Reeves is no mean feat... So we thought we were almost there. But obviously, Matrix 4 is just gonna knock us completely off the search rankings forever...
 
 **Jerod Santo:** \[01:27:21.23\] Yes, it will.
 
@@ -516,11 +516,11 @@ So if you wanna get involved, come on to \#matrix-dev \[unintelligible 01:25:10.
 
 **Jerod Santo:** Well, if the new movie is as bad as the last one, maybe it'll just go by the wayside and you'll still--
 
-**Matthew Hodgson:** \[unintelligible 01:27:40.28\] straight to video. It's possible.
+**Matthew Hodgson:** You reckon straight to video? It's possible.
 
 **Jerod Santo:** \[laughs\] I mean, I hope not. I hope it's good. But I've gotta have my doubts.
 
-**Matthew Hodgson:** Yeah. I don't know, it might work out... But I was hoping that -- particularly, they might pull it back together in the third one, but it really wasn't to be, unfortunately...
+**Matthew Hodgson:** Yeah. I don't know, it might work out... But I was hoping against hope that they might pull it back together in the third one, but it really wasn't to be, unfortunately...
 
 **Jerod Santo:** No.
 
