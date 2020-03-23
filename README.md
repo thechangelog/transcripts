@@ -314,6 +314,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="http://numist.net"><img src="https://avatars0.githubusercontent.com/u/544011?v=4" width="100px;" alt=""/><br /><sub><b>Scott Perry</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=numist" title="Documentation">📖</a></td>
     <td align="center"><a href="http://www.mehulkar.com"><img src="https://avatars1.githubusercontent.com/u/490968?v=4" width="100px;" alt=""/><br /><sub><b>Mehul Kar</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=mehulkar" title="Documentation">📖</a></td>
     <td align="center"><a href="http://www.matrix.org"><img src="https://avatars2.githubusercontent.com/u/1294269?v=4" width="100px;" alt=""/><br /><sub><b>Matthew Hodgson</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=ara4n" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/mactrent"><img src="https://avatars2.githubusercontent.com/u/3249864?v=4" width="100px;" alt=""/><br /><sub><b>mactrent</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=mactrent" title="Documentation">📖</a></td>
   </tr>
 </table>
 
