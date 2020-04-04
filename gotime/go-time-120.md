@@ -122,7 +122,7 @@ Say you have a whole bunch of different zoo animals and you have discovered that
 
 **Jaana B. Dogan (JBD):** ...which makes me also maybe ask more about "How do you evaluate the results?" We talked about testing, about the testing table, but you know, the actual evaluation is more complicated than that. What goes into evaluation?
 
-**Daniel Whitenack:** Yeah, that's a great question, and the answer is kind of disappointing, in that it sort of depends on the problem that you're solving. There's a lot of metrics that are used though that are geared towards certain problems. Most of the time, what you do is you say "Oh, I'm doing a machine translation problem" or "I'm doing an object recognition problem" or "I'm doing a time series forecasting problem" - what are the metrics that have been used to evaluate these? With object recognition you might look at something like accuracy, or precision, or recall. All of thse have to do with false positives, and true positives, false negatives and true negatives, and how you balance those. In a fraud detection case you might really want to get all of the true positives, even if you get some false positives mixed in there. But that might not be what you want in another case, right?
+**Daniel Whitenack:** Yeah, that's a great question, and the answer is kind of disappointing, in that it sort of depends on the problem that you're solving. There's a lot of metrics that are used though that are geared towards certain problems. Most of the time, what you do is you say "Oh, I'm doing a machine translation problem" or "I'm doing an object recognition problem" or "I'm doing a time series forecasting problem" - what are the metrics that have been used to evaluate these? With object recognition you might look at something like accuracy, or precision, or recall. All of these have to do with false positives, and true positives, false negatives and true negatives, and how you balance those. In a fraud detection case you might really want to get all of the true positives, even if you get some false positives mixed in there. But that might not be what you want in another case, right?
 
 So your metric is very problem-dependent, and in machine translation you use this metric called "bleu", which has been developed specifically for that problem. Now, that's kind of separate from the bias issues that you talked about. So in addition to -- like, you could be very accurate, but still have bias in your training data, which will create a biased model. This has been shown with models that model recidivism for offenders coming out of jail... And the model will bias against black males, or something like that, because of the way that they've set up the data, which is obviously not something that we want to have happening...
 
@@ -174,7 +174,7 @@ I think the bigger issue is there's just different thought processes, and we hav
 
 **Mat Ryer:** Does concurrency help at all, or is that training process -- you're bound anyway by other things? Does it matter which order you do the training in, and things?
 
-**Miriah Peterson:** Generally, if you think in terms of Map and Reduce operations, training is one giant, big Reduce operation where you really need to load a lot of data into memory... At least in batches. So there's batching that can be done. And you can separate out the work between workers using some schemes, but it doesn't always result in benefits. It also depends on communication and other things... So generally, training is not really the place. But again, with inference and prediction, if you're doing batch inference, like if you want to now tag 100 million images as either cats or not, then obviously there's gonna be a huge benefit to doing that operation in parallel in some way. That's my take anyway.
+**Daniel Whitenack:** Generally, if you think in terms of Map and Reduce operations, training is one giant, big Reduce operation where you really need to load a lot of data into memory... At least in batches. So there's batching that can be done. And you can separate out the work between workers using some schemes, but it doesn't always result in benefits. It also depends on communication and other things... So generally, training is not really the place. But again, with inference and prediction, if you're doing batch inference, like if you want to now tag 100 million images as either cats or not, then obviously there's gonna be a huge benefit to doing that operation in parallel in some way. That's my take anyway.
 
 **Miriah Peterson:** I'm not gonna comment too much. I think concurrency ends up being a bigger benefit in the actual package development, and I haven't done a whole lot of actual implementation on that side, so I can't really comment effectively.
 
@@ -196,7 +196,7 @@ On Practical AI we interviewed a couple of different people around this topic, b
 
 **Mat Ryer:** So is this technology -- obviously, it works at a big scale... I mean, whenever you see those little boxes that say "I'm not a robot" and you have to click, sometimes it then says "Okay, just to make sure you're not a robot, just tell me where all the street lamps are in this image, or where the cars are" or "Which of these images contain cars?" And this is basically us all training Google's AI brain, right? So at a big scale, when you've got lots of data and all these different users, obviously you can make some real use of this technology... But what about small companies? What about people that don't have much data? Should they still pay attention?
 
-**Miriah Peterson:** Always. I'm gonna throw my company under the bus a little bit... I've been fighting this a lot at work. I'm a huge \[unintelligible 00:37:42.07\] find a lot of problems where we can use it. We're not super-big; we've got about 13,000 customers, about 60 engineers, and we have one model in production and it does really great sentiment analysis on text replies. If you text your dentist and say "Yeah, \*thumbs up\* I'm gonna be at that appointment", we know it's a confirmation. It does it great.
+**Miriah Peterson:** Always. I'm gonna throw my company under the bus a little bit... I've been fighting this a lot at work. I'm a huge AI \[unintelligible 00:37:42.07\] we fight to find a lot of problems where we can use it. We're not super-big; we've got about 13,000 customers, about 60 engineers, and we have one model in production and it does really great sentiment analysis on text replies. If you text your dentist and say "Yeah, \*thumbs up\* I'm gonna be at that appointment", we know it's a confirmation. It does it great.
 
 **Mat Ryer:** What if you say "Thumbs up\* I can't make it"?
 
@@ -204,7 +204,7 @@ On Practical AI we interviewed a couple of different people around this topic, b
 
 **Mat Ryer:** Oh...
 
-**Miriah Peterson:** But see, it does that kind of a thing, and we did start at that very early; it was one of the first things we integrated, because it was a problem we noticed. We noticed that the text reply "C for confirm and infer no" was not a good user fit. The more dynamic relationship with a great user fit, and all we needed was our text. That's a really small dataset we were able to use. I think we used in open source one, and then we were able to actually create a game for our employees to add more data. So we didn't start with a whole bunch of data, but we gradually got more and it fit really well. And it was just a really small use case. So I think there's always a problem, and a small company can benefit from using machine learning to really just make their products better.
+**Miriah Peterson:** But see, it does that kind of a thing, and we did start at that very early; it was one of the first things we integrated, because it was a problem we noticed. We noticed that the text reply "C for confirm and infer no" was not a good user fit. The more dynamic relationship was a great user fit, and all we needed was our text. That's a really small dataset we were able to use. I think we used in open source one, and then we were able to actually create a game for our employees to add more data. So we didn't start with a whole bunch of data, but we gradually got more and it fit really well. And it was just a really small use case. So I think there's always a problem, and a small company can benefit from using machine learning to really just make their products better.
 
 **Mat Ryer:** Great. I mean, next time try Y and N for yes and no, instead of C and N. Just an idea.
 
@@ -252,7 +252,7 @@ So yeah, I think that approach, transfer learning, using other APIs, using other
 
 **Mat Ryer:** But you don't have a chalkboard, do you?
 
-**Daniel Whitenack:** I don't. I would prefer a chalkboard over a whiteboard, but that's a whole other subject...
+**Daniel Whitenack:** I don't. I would prefer a chalkboard over a whiteboard, but that's a whole another subject...
 
 **Mat Ryer:** Yeah, that's for next week.
 
