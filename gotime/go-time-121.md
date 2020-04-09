@@ -154,7 +154,7 @@ And even if I have a highly concurrent program, I sort of have a fan out/fan in 
 
 **Johnny Boursiquot:** Yup.
 
-**Thorsten Ball:** Yeah, I mean... Hacker News \[unintelligible 00:23:16.12\] as far as I know... So I think it comes down to what exactly do you do with the data. Hacker News, for example - you have posts, comments, whatever; it's a pretty simple hierarchy. You can see how you can map that onto a file system. Every post is a folder, every comment is a file, whatever. Then you can use the file system... And the file systems nowadays are incredibly optimized and fast. We have SSDs... As soon as you can query the data you want without having to use an index, which is one of the big benefits of a database, then I guess you're fine. But as soon as you need different queries, and you need to group data, and you want it to be performant without loading it into memory - I guess then you need a database.
+**Thorsten Ball:** Yeah, I mean... Hacker News is file based as far as I know... So I think it comes down to what exactly do you do with the data. Hacker News, for example - you have posts, comments, whatever; it's a pretty simple hierarchy. You can see how you can map that onto a file system. Every post is a folder, every comment is a file, whatever. Then you can use the file system... And the file systems nowadays are incredibly optimized and fast. We have SSDs... As soon as you can query the data you want without having to use an index, which is one of the big benefits of a database, then I guess you're fine. But as soon as you need different queries, and you need to group data, and you want it to be performant without loading it into memory - I guess then you need a database.
 
 **Johnny Boursiquot:** \[00:24:07.10\] Yeah. If your needs extend to wanting to actually slice and dice a data, then I'd say "Hey, get the data out into some format you can actually work with." If you need to do SQL queries on that thing, dump it out; have some sort of transformer that takes the serialized format that's in the file and converts it into records in a database. Or if you wanted to use some NoSQL, whatever the latest and greatest thing is, that everybody is jumping onto, if you wanna do that, then write a transformer for that, too.
 
@@ -274,7 +274,7 @@ It's silly, but at the same time that's just something I've trained my brain to 
 
 **Johnny Boursiquot:** Right. Just put a TTL.
 
-**Thorsten Ball:** \[unintelligible 00:43:26.22\] Let's just keep it in there; let's not delete it.
+**Thorsten Ball:** Some person will say "But we might get to do this; let's just keep it in there; let's not delete it."
 
 **Johnny Boursiquot:** Someday. Someday.
 
