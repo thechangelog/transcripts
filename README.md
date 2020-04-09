@@ -316,6 +316,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="http://www.matrix.org"><img src="https://avatars2.githubusercontent.com/u/1294269?v=4" width="100px;" alt=""/><br /><sub><b>Matthew Hodgson</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=ara4n" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/mactrent"><img src="https://avatars2.githubusercontent.com/u/3249864?v=4" width="100px;" alt=""/><br /><sub><b>mactrent</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=mactrent" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="http://hookedondata.org"><img src="https://avatars3.githubusercontent.com/u/17410158?v=4" width="100px;" alt=""/><br /><sub><b>Emily Robinson</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=robinsones" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
