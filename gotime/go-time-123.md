@@ -72,7 +72,7 @@ But before that, when I was with Travis CI, I was 100% remote for four years, an
 
 **Mat Ryer:** Yeah... So what were the challenges, Jon?
 
-**Jon Calhoun:** I think some of the things that make it harder just learning -- like, when you're in an office, you have all these things that sort of set the tone of "You're going to work". People talk about getting dressed and not wearing PJs, or they talk about a million other things of routines that set that tone that you're starting to work... And when you start working from home, you just don't realize that you're losing all that. It's really to not realize that you're not training your brain to go into work mode, it's easy to let random tasks eat up your time...
+**Jon Calhoun:** I think some of the things that make it harder just learning -- like, when you're in an office, you have all these things that sort of set the tone of "You're going to work". People talk about getting dressed and not wearing PJs, or they talk about a million other things of routines that set that tone that you're starting to work... And when you start working from home, you just don't realize that you're losing all that. It's really easy to not realize that you're not training your brain to go into work mode, it's easy to let random tasks eat up your time...
 
 One example is you'll be asked to take the kids to the doctor, and then that'll lead to "Well, I need to go to the pharmacy now to get some medicine", and then all of a sudden while you're at the pharmacy you're gonna pick up some groceries. Then after you get the groceries, it's like "Well, I might as well whip something up for dinner, because they can't take these meds on an empty stomach", and before you know it, your entire day is gone, and you're like "What happened?"
 
@@ -202,7 +202,7 @@ So it's things like that that you should think about... That way you don't get b
 
 **Mark Bates:** I've found that just trying to make a point of being at my "desk", wherever that space may be, by somewhere between 9 and 10. I usually try to get my toast, and my coffee, and I'll sit down at my desk somewhere between 9 and 10, depending on what's going on that morning... And sit down and then start going through my emails, and stuff... Even if I hadn't showered yet; at least it helps get me in there. I make it a point, I sit there, I read those emails... I don't do it on my phone, I don't respond to Slack on my phone; I do it all at my desk. I mean, I might do later in the day, but that initial step is just "Get into work, Mark."
 
-Then those emails trigger the work thoughts, and then the rest of my is work -- like, I'm in work then.
+Then those emails trigger the work thoughts, and then the rest of my day is work -- like, I'm in work then.
 
 **Mat Ryer:** Yeah... So I read something that was talking about one of the things you lose when you work from home is the commute... Normally, your day is kind of bookended by getting to the office, and then getting home again... Which often can involve some kind of - even if it's just sort of like a walking exercise, or something... You know, you do get some different kind of -- it just feels different, doesn't it? And it bookends... And you can lose that. So I think that's quite important, even if they seem -- because that sounds quite funny, Carmen, when you say they'd just sit in a different chair. That sounds quite funny when you think about that. But if that works, then absolutely.
 
@@ -246,7 +246,7 @@ Things happen, and we just need to be okay with the fact that we have other resp
 
 **Break:** \[00:23:43.06\]
 
-**Mark Bates:** One of the things that when I first started it took me ages to figure it out, and then I started talking to people more and more about, is when you got to an office you don't get eight hours of uninterrupted work. You don't. You get four, maybe. That's on a good meeting day... No, I'm serious. Between people coming to your desk in interruption, you go to get a cup of coffee and you're there for ten minutes, somebody in the hall, that hallway meeting... You'd be surprised how when you add those up over the course of the day, those add up to hours in a day.
+**Mark Bates:** One of the things that when I first started it took me ages to figure it out, and then I started talking to people more and more about, is when you go to an office you don't get eight hours of uninterrupted work. You don't. You get four, maybe. That's on a good meeting day... No, I'm serious. Between people coming to your desk in interruption, you go to get a cup of coffee and you're there for ten minutes, somebody in the hall, that hallway meeting... You'd be surprised how when you add those up over the course of the day, those add up to hours in a day.
 
 So if you're at home, don't beat yourself up because you decided you're gonna take the dog for a walk in the afternoon for 20 minutes to stretch your leg. You would have done that to go to the coffee machine, and talked to Joe in accounting about his stupid March Madness that isn't happening, and you're like "I don't care, Joe. I just want a cup of coffee", and you're there for 20 minutes... \[laughter\]
 
@@ -380,7 +380,7 @@ Again, it's boundaries, separating the psychic space of "This is the home, where
 
 **Mat Ryer:** Yeah, all the Easter Island heads that you bought... \[laughter\]
 
-**Mark Bates:** I have the full collection, by the way. \[unintelligible 00:37:06.18\] But my heart goes out to them...
+**Mark Bates:** I have the full collection, by the way. One was just broken. But my heart goes out to them...
 
 **Carmen Andoh:** This is one of those things people are probably asking "Should I make that kind of investments with an unclear amount of time that I'm gonna be at home before returning to the office?" I don't know if that's the answer, but this is gonna be more than 5-6 weeks. Your back will thank you if you have the means and the space to invest in a chair.
 
@@ -514,7 +514,7 @@ And even as far as space goes - my wife and I keep an office chair at our dining
 
 **Carmen Andoh:** You two are great.
 
-**Jon Calhoun:** \[00:44:00.05\] So I guess that ca lead to another subject here... How do you communicate differently when you're remote? How do you not ask people "What do you wear to bed?" in a weird way? \[laughter\]
+**Jon Calhoun:** \[00:44:00.05\] So I guess that can lead to another subject here... How do you communicate differently when you're remote? How do you not ask people "What do you wear to bed?" in a weird way? \[laughter\]
 
 **Mat Ryer:** Yeah, don't ask in a weird way. Ask in a good way.
 
