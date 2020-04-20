@@ -18,7 +18,7 @@ So Next.js had kind of a middle ground support for producing static pages in the
 
 So for those of you that are familiar with Next.js, we've always had file system-based routing, where inside the pages directory you define your JS files, and then URLs basically become paths.
 
-But then we introduced dynamic ones, so you can use bracket notation to say, for example, \[unintelligible 00:04:57.00\] and that's a dynamic one. So in conjunction with getStaticProps, you get a new method called getStaticPaths, that allows you to basically say to Next.js "Well, there is 100 blog posts that I need to generate" or "There's 100 e-commerce items that I need to generate, and you're basically giving Next.js in this case the slug, and then Next.js basically does all the rest and it produces a site of the size that you want with regards to static site generation.
+But then we introduced dynamic ones, so you can use bracket notation to say, for example, pages is `/blog/[slug].js` and that's a dynamic one. So in conjunction with getStaticProps, you get a new method called getStaticPaths, that allows you to basically say to Next.js "Well, there is 100 blog posts that I need to generate" or "There's 100 e-commerce items that I need to generate, and you're basically giving Next.js in this case the slug, and then Next.js basically does all the rest and it produces a site of the size that you want with regards to static site generation.
 
 **Divya Sasidharan:** Cool. So that would reduce the build time overall, specifically if you were wanting to build pages on the fly... So you can have the benefit of pre-rendering, while also choosing--
 
@@ -70,7 +70,7 @@ From the perspective of the developer, the only two APIs that they need to imple
 
 **Divya Sasidharan:** Oh definitely, yeah. And it's just a matter of prerender as much as possible, and then in the cases when you do update it, having that as the ability to almost -- it's sort of like serverless rendering. Because it's on the fly, you're essentially dynamically creating that, and in the background, without the user seeing, back-filling the cache, and making sure that things are up to date.
 
-**Guillermo Rauch:** \[00:16:06.01\] And something that's really cool, that I think \[unintelligible 00:16:07.09\] that article is that we still are as fast as possible from the edge every time you hit one of these pages... Because basically, what we give you is the page as if it was an SPA. We give you the shape, or the skeleton of the page that's missing. So your customer is never held up waiting for a page that doesn't load, that doesn't feel immediately responsive... Or even a page that could fail in a way that is not recoverable.
+**Guillermo Rauch:** \[00:16:06.01\] And something that's really cool, that I think Phil does touch on in that article is that we still are as fast as possible from the edge every time you hit one of these pages... Because basically, what we give you is the page as if it was an SPA. We give you the shape, or the skeleton of the page that's missing. So your customer is never held up waiting for a page that doesn't load, that doesn't feel immediately responsive... Or even a page that could fail in a way that is not recoverable.
 
 **Divya Sasidharan:** Oh, definitely.
 
@@ -176,7 +176,7 @@ So you're really optimizing for what the user is after. Think of the idea of get
 
 **Guillermo Rauch:** I would agree. I would certainly agree with that.
 
-**Jerod Santo:** And especially \[unintelligible 00:34:11.02\] serverless functions... So you're empowering frontend developers to do more.
+**Jerod Santo:** And especially when it comes to serverless functions... So you're empowering frontend developers to do more.
 
 **Divya Sasidharan:** Completely.
 
@@ -200,7 +200,7 @@ So I see functions of this incredible, almost open plugin ecosystem for the worl
 
 A great example is Discord recently wrote about how they maintain these very highly-optimized in-memory data structures to maintain the real-time state of a certain room, of the connection state of the people that are chatting inside Discord... And a lot of the optimizations that they're making and a lot of what makes these super-real-time immersive experiences possible is that they're basically not calling out to other systems. You're basically being taken into the right in-process cache, that contains a lot of the information that you're interested in.
 
-Now, if you think about Lambda functions, the misconception is that they're stateless. In reality, you can maintain some memory that is shared by previous invocations, and then subsequent invocations. The big limitation that they have is that that cache tier cannot really be relied upon that much, because \[unintelligible 00:39:58.09\] might start with no memory whatsoever when you started scaling up or down... You're not gonna have that high cache hit ratio that you would otherwise have with a server.
+Now, if you think about Lambda functions, the misconception is that they're stateless. In reality, you can maintain some memory that is shared by previous invocations, and then subsequent invocations. The big limitation that they have is that that cache tier cannot really be relied upon that much, because each discrete invocation might start with no memory whatsoever when you started scaling up or down... You're not gonna have that high cache hit ratio that you would otherwise have with a server.
 
 \[00:40:11.16\] Now, that doesn't mean that the memory inside the function, or even the /temp directory doesn't exist. No. It's there, and you should use it. What I demonstrated in that demo is that you could even write a fully stateful system if you relied for example on Redis. So what I did to make that Pokémon demo work is that I moved the state into Redis, and then I didn't care if a certain function had this cache hit happening or not. And if it was a cache hit, because the same function keeps getting reused, I would take advantage of that.
 
@@ -208,13 +208,13 @@ So it's interesting to consider that, because when you're operating at a very hi
 
 **Divya Sasidharan:** Yeah, definitely. I think that's one thing that -- I was looking at AWS Step Functions, and just the ability for you to do I/O between functions... Because oftentimes we talk about functions as in isolation, like "This function just does one thing", but sometimes you have functions that rely on other functions, so it's just a sequence of events... So how would you do that? ...because I think generally, whenever we hear people talk about serverless functions, there isn't a lot of talk about how you would chain functions together, how they would pass from one to the next...
 
-**Guillermo Rauch:** Yeah. I do think we need the \[unintelligible 00:42:09.26\] for most implementations of serverless functions is not good enough. It's doable, with storing the state somewhere, and then another function kind of responding to that state change... But I do agree that -- I love the spirit of making your function invocations very short-lived, so that you can scale certain parts of the lifecycle of what you're doing independently. In a transformation pipeline you might have steps that require even different memory and CPU configurations.
+**Guillermo Rauch:** Yeah. I do think that the DX of that today for most implementations of serverless functions is not good enough. It's doable, with storing the state somewhere, and then another function kind of responding to that state change... But I do agree that -- I love the spirit of making your function invocations very short-lived, so that you can scale certain parts of the lifecycle of what you're doing independently. In a transformation pipeline you might have steps that require even different memory and CPU configurations.
 
 The crazy thing about functions is they're super-configurable, and they're super-granular. So when you compare this to the old serverful world, the difference is kind of crazy. In an old Express server you had kind of like free for all; all the endpoints share everything with everybody else, CPU and memory is the same, but it's shared by the entire server... The environment even, in terms of security, the variables are applied to the entire server. With functions we can make all this granular. Now, the question becomes "Are you getting too ahead of the optimization game when you were writing just a prototype?"
 
 **Divya Sasidharan:** Yeah.
 
-**Guillermo Rauch:** So this is why in Next.js API functions we did as much a we could to make it feel like you're writing Express almost, \[unintelligible 00:43:37.03\] because you have the file system. So you just create an API directory in said pages and then you put your functions in there. But we're conscious of this thing, because there's a lot of power that comes with functions, but you don't wanna over-complicate it either, right?
+**Guillermo Rauch:** So this is why in Next.js API functions we did as much a we could to make it feel like you're writing Express almost, even easier in some ways because you have the file system. So you just create an API directory in said pages and then you put your functions in there. But we're conscious of this thing, because there's a lot of power that comes with functions, but you don't wanna over-complicate it either, right?
 
 **Divya Sasidharan:** Definitely.
 
@@ -222,17 +222,17 @@ The crazy thing about functions is they're super-configurable, and they're super
 
 **Divya Sasidharan:** Yeah. I think the other thing also that's worth mentioning is that with functions - and I think this is the case; it's ubiquitous across every functions offering out there - dependency management is a little bit clunky at the moment, just because of the way that you would serve a function. You would have to ship the function by zipping the entire thing, and having an executable, so that all the dependencies live with it, and then you have to make sure that that specific dependency is not -- it has to live in the same place that your function lives, so it has access to it...
 
-**Guillermo Rauch:** I think in a nutshell, the reality that we're living in today is that functions run Node.js; that's the \[unintelligible 00:44:46.24\]
+**Guillermo Rauch:** I think in a nutshell, the reality that we're living in today is that functions run Node.js; that's the runtime.
 
 **Divya Sasidharan:** Exactly, yeah.
 
 **Guillermo Rauch:** ...but the ecosystem is shared. We all use Npm. But the ecosystem itself is targeting these environments that share the runtime, but are actually quite different. So there's almost this impedance mismatch where developers come to using a function and then they expect that everything that they're used to in the Node.js world works out of the box. And that mismatch ends up sometimes being a paper cut. We've seen this with databases...
 
-If you just wanna use the pg client for Postgres from Node, and the way that connection pooling works with PostgreSQL servers, and then you may use it with functions now, you almost immediately run up against the wall of "Oh, I opened too many connections to Postgres", and the connections were not gracefully closed. So now basically I was promised my website would never go down because of JAMstack and serverless, and now \[unintelligible 00:45:55.14\] and my server is exacerbated.
+If you just wanna use the pg client for Postgres from Node, and the way that connection pooling works with PostgreSQL servers, and then you may use it with functions now, you almost immediately run up against the wall of "Oh, I opened too many connections to Postgres", and the connections were not gracefully closed. So now basically I was promised my website would never go down because of JAMstack and serverless, and now three database queries and my server is exacerbated.
 
 **Divya Sasidharan:** Yeah.
 
-**Guillermo Rauch:** And by the way, this impedance mismatch is exactly what we were talking about with regards to that server-versus-clients rendering environment. You would have to use node-fetch for the server, and then fetch for the client, and they're slightly different. And then one \[unintelligible 00:46:16.02\] and the other one doesn't.
+**Guillermo Rauch:** And by the way, this impedance mismatch is exactly what we were talking about with regards to that server-versus-clients rendering environment. You would have to use node-fetch for the server, and then fetch for the client, and they're slightly different. And then one context has window and the other one doesn't.
 
 Npm had to navigate that problem, too. I remember Seldo started realizing by looking at the data that browser-js was getting deployed a lot to Npm. And keep in mind that to them, to Isaac and Seldo, that was a surprising emergent behavior from the community, because Npm was literally designed to be the Node package manager. I think maybe that's what originated the joke of -- you know, all the different acronyms of Npm.
 
@@ -280,7 +280,7 @@ I think this is pretty unique to JAMstack itself, because typically -- I was par
 
 **Guillermo Rauch:** Yeah. And that's what I meant by the incremental adoption curve that I love - I think the trend that now is in the place of like the laggards or whatever is enterprises have been moving towards decoupling their front and their backends. Some chose REST, some are choosing GraphQL, but that trend is now mature. Companies know that there is a big benefit to exporting their systems as publicly-consumable APIs. And even that movement in itself I think has a lot of upside still. But let's say that that's a more mature trend.
 
-\[00:55:52.26\] So now when you think of JAMstack, which is a more young trend, it's really fitting in so well with where the ecosystem already was. If you're a larger established player, you already have that API. Or you were in the process of creating it. I think this trend also hops onto the rise of mobile, because mobile native needed GraphQL, needed REST. So now you come in and you create a frontend architecture that matches what you were already doing \[unintelligible 00:56:28.22\]
+\[00:55:52.26\] So now when you think of JAMstack, which is a more young trend, it's really fitting in so well with where the ecosystem already was. If you're a larger established player, you already have that API. Or you were in the process of creating it. I think this trend also hops onto the rise of mobile, because mobile native needed GraphQL, needed REST. So now you come in and you create a frontend architecture that matches what you were already doing for mobile.
 
 **Jerod Santo:** Right.
 
@@ -298,11 +298,11 @@ That's a very straightforward mental model for developers, and one of the reason
 
 **Jerod Santo:** Yeah.
 
-**Guillermo Rauch:** I think we're nowhere near that world existing. I think - this is why I'm excited about Fauna - considering how the world in some ways had already been "sheltering in place" with regulations, and stricter borders... And these are all things that are not very exciting, especially when it comes to -- you know, we've had speakers get detained at the border, or sent home; it's a horrible trend. But the reality is that \[unintelligible 00:58:46.09\] tweeted recently, he was saying this Coronavirus might be accelerating trends that were already kind of there. For a lot of us, work from home and remote work and distributed teams was a reality, but for the vast majority of the world it wasn't... So now this is gonna accelerate it. It's gonna accelerate Zoom adoption, it's gonna accelerate deploy previous. We've seen that even over the past two weeks - the number of builds and deploys to ZEIT have just skyrocketed.
+**Guillermo Rauch:** I think we're nowhere near that world existing. I think - this is why I'm excited about Fauna - considering how the world in some ways had already been "sheltering in place" with regulations, and stricter borders... And these are all things that are not very exciting, especially when it comes to -- you know, we've had speakers get detained at the border, or sent home; it's a horrible trend. But the reality is that as Vilagis tweeted recently, he was saying this Coronavirus might be accelerating trends that were already kind of there. For a lot of us, work from home and remote work and distributed teams was a reality, but for the vast majority of the world it wasn't... So now this is gonna accelerate it. It's gonna accelerate Zoom adoption, it's gonna accelerate deploy previous. We've seen that even over the past two weeks - the number of builds and deploys to ZEIT have just skyrocketed.
 
 So all these trends are gonna get accelerated, and when it comes to databases, databases having a sense of locality has been what governments have always wanted. The most obnoxious and extreme version of this is how China wanted its own "shard" of iCloud, that lives in China, and doesn't have end-to-end encryption.
 
-So there could be a world in the future where the database is everywhere, and therefore the logic for the code that interacts with that database can also be everywhere. But that's not where we're today. We're nowhere even close to that. So the most that you can have is a distributed cache \[unintelligible 00:59:58.20\] I think they called it KV, or something like that...
+So there could be a world in the future where the database is everywhere, and therefore the logic for the code that interacts with that database can also be everywhere. But that's not where we're today. We're nowhere even close to that. So the most that you can have is a distributed cache like what Cloudflare is trying with I think they called it KV, or something like that...
 
 \[01:00:05.07\] But today, what's more realistic is that you have a certain database origin, and therefore you have a collocated API origin as well. What we're starting to see is that you can move certain functions to other locations, or even to all the edges. But that's more of a distant reality. I would be surprised if it even happened in the next 2-3 years at scale.
 
@@ -314,7 +314,7 @@ And by the way, I love that too, because like I said, I think the best outcome f
 
 **Guillermo Rauch:** I'm pretty happy with that world.
 
-**Jerod Santo:** Until a meteor hits Virginia, and then we're all \[unintelligible 01:01:12.04\]
+**Jerod Santo:** Until a meteor hits Virginia, and then we're all in trouble.
 
 **Guillermo Rauch:** Correct. \[laughter\]
 
@@ -338,11 +338,11 @@ And with regards to availability, you also have the thing about disaster recover
 
 **Divya Sasidharan:** \[01:03:50.07\] Yeah, I just wanted to ask one last question, which is just that we talked a lot about -- I think we're moving closer to this particular question... We talked about edge functions and what's possible, what the JAMstack is like now - because it's been five years since it was introduced... But where do you see the future of the JAMstack moving in (let's say) the next five years?
 
-**Guillermo Rauch:** I think we're gonna see frameworks give you the best practices, and kind of the gems, like architecture, out of the box. \[unintelligible 01:04:18.04\] and then it really evolved into being a JAMstack framework that gives you these best practices as the defaults.
+**Guillermo Rauch:** I think we're gonna see frameworks give you the best practices, and kind of the gems, like architecture, out of the box. This is for us, like I said Next.js started as this SSR thing and then it really evolved into being a JAMstack framework that gives you these best practices as the defaults.
 
 I'm really excited about that trend, because it answers one of the things that came up, which is we can't create obstacles to the adoption. But we can create lots of questions, we can create lots of do-it-yourself type things around how to successfully start with one page, and then add more and more, and then have this become your primary architecture for your company. I'm really excited about that.
 
-I'm really excited as well -- I read all the ideas of integrating with other systems. We're seeing lots of interesting collaborations right now with all the headless CMS providers, with a new \[unintelligible 01:05:07.24\] So whether you've chosen Sanity, or prismic.io, or Strapi, this will have increasingly nicer and nicer integration stories into the frameworks, so that it truly feels like -- again, going back to WordPress, we were saying "Oh, we have problem A and problem B", but when you think about the amazing things that it gave the world, one of them was this "It's all in a box sort of experience". You had your themes, you had your output, you had your frontend, but then you could go to the admin panel, and then everything was already there. You weren't thinking about "Oh, I'm gonna make a query to my headless CMS provider." That's kind of odd, if you really think about it on its own; if you look at it objectively, it's odd.
+I'm really excited as well -- I read all the ideas of integrating with other systems. We're seeing lots of interesting collaborations right now with all the headless CMS providers, with a new feature that we're introducing with Next.js previews. So whether you've chosen Sanity, or prismic.io, or Strapi, this will have increasingly nicer and nicer integration stories into the frameworks, so that it truly feels like -- again, going back to WordPress, we were saying "Oh, we have problem A and problem B", but when you think about the amazing things that it gave the world, one of them was this "It's all in a box sort of experience". You had your themes, you had your output, you had your frontend, but then you could go to the admin panel, and then everything was already there. You weren't thinking about "Oh, I'm gonna make a query to my headless CMS provider." That's kind of odd, if you really think about it on its own; if you look at it objectively, it's odd.
 
 I always take the example of like - imagine that you take this paradigm or new standard to a non-technical person. And ten years ago you show them a demo of WordPress, and now ten years later you show them a demo of your JAMstack plus headless CMS thing... And there's a lot of rough edges in that kind of experience, especially for the editor part. But I think JAMstack now has the ability to leapfrog those experiences.
 
@@ -370,7 +370,7 @@ So what it ends up being is that it feels like you're editing the website in rea
 
 **Divya Sasidharan:** Yeah.
 
-**Guillermo Rauch:** So yeah, I totally agree with that. Like you said, sites are meant to be accessible; the web is meant to be accessible to everyone. You'll have probably seen that there are so many memes on Reddit and elsewhere where people use the dev tools \[unintelligible 01:10:04.04\]
+**Guillermo Rauch:** So yeah, I totally agree with that. Like you said, sites are meant to be accessible; the web is meant to be accessible to everyone. You'll have probably seen that there are so many memes on Reddit and elsewhere where people use the dev tools to create fake content.
 
 **Divya Sasidharan:** Oh, yes... \[laughs\]
 
@@ -420,7 +420,7 @@ We've been working together with the folks of Ionic around Ionic and Next integr
 
 **Divya Sasidharan:** I assumed it was whoever was -- like, I don't know if they made a change or something, but I assume that @here at one point was everyone in the channel... And then I don't know if they changed it so @here was whoever was active and in the channel. That would make sense, but I don't know.
 
-**Jerod Santo:** Yeah, active and in the channel... Which is probably maybe like 5% of the people that are in the channel. I'm gonna give it a shot, and see if we get someone \[unintelligible 01:15:38.21\] Sorry if you're in the Slack and already listening; you're gonna get -- oh, 23 times...
+**Jerod Santo:** Yeah, active and in the channel... Which is probably maybe like 5% of the people that are in the channel. I'm gonna give it a shot, and see if anybody gets mad at me. Sorry if you're in the Slack and already listening; you're gonna get -- oh, 23 times...
 
 **Guillermo Rauch:** \[laughs\]
 
