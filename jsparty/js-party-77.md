@@ -268,7 +268,7 @@ I'll tell you right now that React is numero uno, so it wins the Game of Framewo
 
 **Jerod Santo:** Maybe it's pre-supposed. \[laughs\]
 
-**Nick Nisi:** Probably, but that's what we focus on in our interview process - fundamental JavaScript; no framework, no TypeScript, no WebPack, no Java JavaScript...
+**Nick Nisi:** Probably, but that's what we focus on in our interview process - fundamental JavaScript; no framework, no TypeScript, no webpack, no Java JavaScript...
 
 **Jerod Santo:** What about in your listings? Is that how it is as well?
 
@@ -280,7 +280,7 @@ I'll tell you right now that React is numero uno, so it wins the Game of Framewo
 
 **Kevin Ball:** So let's step back a little bit from making fun of these folks, because -- I mean, I think there are things to make fun of, but it's actually a really hard problem if you're cross-cutting, which I think they are (it's across industries), to look at what are people putting in resumes and use that to derive something interesting. That's a very hard problem. But what do we think this indicates about finding a job right now, in tech, doing JavaScript? Are there insights that we can draw from this with our additional industry context?
 
-**Divya Sasidharan:** \[00:31:53.29\] I think the expectation is much higher. So like, yes, you should know JavaScript, but there's also this expectation that you also know all these frameworks, you know TypeScript, or you've worked with WebPack... So for someone who might be newer, or who has just started picking up skills, it's really overwhelming. And I've talked to a lot of people who have gone through bootcamps, or are fresh out of school, and they're like "What should I focus on?" Usually, my answer is just like "Just get really good at JavaScript, or whatever it is you want to do..." Because I think the flavors come and go. There's a lot of frameworks that come in; React is popular now, but who knows what will happen in five years... So like you're saying, Nick, just a solid understanding of one thing, and then working your way through... But I find a lot of job descriptions tend to just give you the laundry list of everything, and that's really hard for someone who's looking for a job, to be like "Wait, I only have one of this, or two", out of twenty.
+**Divya Sasidharan:** \[00:31:53.29\] I think the expectation is much higher. So like, yes, you should know JavaScript, but there's also this expectation that you also know all these frameworks, you know TypeScript, or you've worked with webpack... So for someone who might be newer, or who has just started picking up skills, it's really overwhelming. And I've talked to a lot of people who have gone through bootcamps, or are fresh out of school, and they're like "What should I focus on?" Usually, my answer is just like "Just get really good at JavaScript, or whatever it is you want to do..." Because I think the flavors come and go. There's a lot of frameworks that come in; React is popular now, but who knows what will happen in five years... So like you're saying, Nick, just a solid understanding of one thing, and then working your way through... But I find a lot of job descriptions tend to just give you the laundry list of everything, and that's really hard for someone who's looking for a job, to be like "Wait, I only have one of this, or two", out of twenty.
 
 **Nick Nisi:** Yeah, for sure. I think that if you have a good, firm understanding of the fundamentals, you can really jump in and pick up Vue, or React, or anything, pretty quickly. It's just JavaScript.
 
@@ -346,7 +346,7 @@ What about the back-end, guys?
 
 **Divya Sasidharan:** I think especially since it moves past just working on small features, and you have to think about the overall architecture, and whether it's scalable and maintainable; those are the things that you have to think about - how does the data flow, what is the architecture of the back-end and how does it provide data to the front-end, and how does the front-end liaise with the back-end, and so on? And just understanding that requires a bit of experience, and having worked on different applications, having played around with things... Yeah, generally the more senior you get, the expectation is that you know how to do that, and how to work those problems.
 
-**Nick Nisi:** Would you classify tooling as a back-end or a front-end thing? Like WebPack, and other tooling like that.
+**Nick Nisi:** Would you classify tooling as a back-end or a front-end thing? Like webpack, and other tooling like that.
 
 **Kevin Ball:** Almost orthogonal.
 

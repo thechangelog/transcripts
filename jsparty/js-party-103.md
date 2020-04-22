@@ -46,7 +46,7 @@ As part of my daily job I'm managing teams of developers, designers, dev ops, bu
 
 **Nick Nisi:** Wow.
 
-**Matteo Collina:** That's a problem... So if the question mark is "Should we do a new version of Node that breaks Express?", yeah, probably not, right...? \[laughter\] It breaks WebPack, or Rollup, or whatever. You know, probably not, right? Would you?
+**Matteo Collina:** That's a problem... So if the question mark is "Should we do a new version of Node that breaks Express?", yeah, probably not, right...? \[laughter\] It breaks webpack, or Rollup, or whatever. You know, probably not, right? Would you?
 
 **Kevin Ball:** Probably not, though we did have -- \[unintelligible 00:06:29.07\] like "Okay, we could break this, because it'll break every use case" reminds me of the argument we had last week about whether we should rebrand JavaScript. Once it's wide enough distributed, you really can't fix your mistakes.
 

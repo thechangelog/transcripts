@@ -212,7 +212,7 @@ But I know people give Webpack grief because it's so hard to configure, and this
 
 **Kevin Ball:** I think it highlights a really interesting practice that may not be obvious if you've, once again, worked only in smaller or newer codebases, which is the first thing you wanna do when you're tackling something like that is reproduce your existing system with the new system. Don't try to modularize your code, and introduce Webpack, and all of that, all in one go.
 
-\[00:44:16.04\] Put WebPack in and just figure out "How do I use aliases to reproduce the existing build with Webpack? Okay. Once I've got that working and I know that it's there, then I can tease out bit by bit... Okay, this could become a module that's imported in a real way, or pull things apart...", but if you try to do it all at once, you'll get lost in the complexity.
+\[00:44:16.04\] Put webpack in and just figure out "How do I use aliases to reproduce the existing build with Webpack? Okay. Once I've got that working and I know that it's there, then I can tease out bit by bit... Okay, this could become a module that's imported in a real way, or pull things apart...", but if you try to do it all at once, you'll get lost in the complexity.
 
 **Christopher Hiller:** Yeah, absolutely. Just one thing at a time. And even that is just big enough. It's like, "Yeah, wow..." I mean you've got third-party vendor scripts that are pulled down and saved, and they're four versions old, and then you need to try to get everything to pull from Npm, and those versions are different, and the files on Git are different. Oh my god." But yeah, don't bite off more than you can chew. I mean, I figured I could do it, and that's why I did it, but... I knew it was possible.
 

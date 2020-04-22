@@ -2,7 +2,7 @@
 
 **Tobias Koppers:** Hi, thanks for inviting me.
 
-**Jerod Santo:** Y'all may not know Tobias's name - or maybe you do - but you definitely know he is the creator of Webpack, which is THE build solution for modern applications. Tobias - working on WebPack full-time, is that right?
+**Jerod Santo:** Y'all may not know Tobias's name - or maybe you do - but you definitely know he is the creator of webpack, which is THE build solution for modern applications. Tobias - working on webpack full-time, is that right?
 
 **Tobias Koppers:** Yes, that's right.
 
@@ -26,27 +26,27 @@
 
 **Tobias Koppers:** My wife...
 
-**Adam Stacoviak:** It might be someone in the issues, it might be somebody on Twitter... It might be you. What's some of your background to -- if you're living the dream as an open source developer, leading WebPack, what was some of your career history? What did you walk away from to do this?
+**Adam Stacoviak:** It might be someone in the issues, it might be somebody on Twitter... It might be you. What's some of your background to -- if you're living the dream as an open source developer, leading webpack, what was some of your career history? What did you walk away from to do this?
 
-**Tobias Koppers:** I've studied computer science and worked as a C\# developer, hardware-related stuff... I started WebPack as part of a side project to \[unintelligible 00:02:40.17\] so I've only worked for a short period on a real company, and then I open-sourced it.
+**Tobias Koppers:** I've studied computer science and worked as a C\# developer, hardware-related stuff... I started webpack as part of a side project to \[unintelligible 00:02:40.17\] so I've only worked for a short period on a real company, and then I open-sourced it.
 
-**Jerod Santo:** It's funny that you say you don't have customers, because if you look on your GitHub repo, WebPack has 4.1 million dependent repositories. I mean, to say it's arrived or reached critical mass would be a massive understatement. 53,000 GitHub stars, over 4 million dependent repos on GitHub alone.
+**Jerod Santo:** It's funny that you say you don't have customers, because if you look on your GitHub repo, webpack has 4.1 million dependent repositories. I mean, to say it's arrived or reached critical mass would be a massive understatement. 53,000 GitHub stars, over 4 million dependent repos on GitHub alone.
 
 It's also got to the point where it's reached so much usage that people are very willing to criticize it, complain about it, make memes... I'm guilty of a few memes, although they're always in good fun.
 
-I'm just curious if at this stage in WebPack and your career - does the public opinion of WebPack, some of the complaints, some of the criticisms or the jokes, do those get to you personally? Or do you not care about that?
+I'm just curious if at this stage in webpack and your career - does the public opinion of webpack, some of the complaints, some of the criticisms or the jokes, do those get to you personally? Or do you not care about that?
 
 **Tobias Koppers:** I don't care that much about that. I think because it's so large, you always get negative feedback. You get few positive feedback, because nobody says positive stuff about something... You get more negative feedback than positive feedback, I think, especially on Twitter and other platforms. But I tend to ignore the negative feedback a lot, not take it personally, more take it as ideas of what you can improve, or what can be done better.
 
-**Jerod Santo:** \[00:04:16.12\] How do you accomplish that? ...because this is something you work on all the time. So something that happens is when you dedicate a lot to something is you can begin to identify, like "I'm the WebPack guy." I always think of Daniel Stenberg, who's like -- cURL is his life, and he said this is his life's work, is cURL. He identifies very closely. So I'm curious, if you don't identify yourself as the WebPack guy, or if you just have thick skin and the criticisms brush off? How do you not focus on the criticisms?
+**Jerod Santo:** \[00:04:16.12\] How do you accomplish that? ...because this is something you work on all the time. So something that happens is when you dedicate a lot to something is you can begin to identify, like "I'm the webpack guy." I always think of Daniel Stenberg, who's like -- cURL is his life, and he said this is his life's work, is cURL. He identifies very closely. So I'm curious, if you don't identify yourself as the webpack guy, or if you just have thick skin and the criticisms brush off? How do you not focus on the criticisms?
 
-**Tobias Koppers:** Yeah, I think I identify as the WebPack guy. It's like my baby, so it's kind of yes... But I'm not the guy who takes it seriously that the negative feedback is bad. Often it's more like all the frustration - they say something bad, and I have the ability to ignore this, or... I don't know. Difficult to say.
+**Tobias Koppers:** Yeah, I think I identify as the webpack guy. It's like my baby, so it's kind of yes... But I'm not the guy who takes it seriously that the negative feedback is bad. Often it's more like all the frustration - they say something bad, and I have the ability to ignore this, or... I don't know. Difficult to say.
 
 **Jerod Santo:** It's a blessing right there, to be able to do that. Some people can't let it go... So I think that's a great characteristic trait for the position that you're in, to be able to let that slide off your back or not affect you. It's gotta be helpful.
 
 **Tobias Koppers:** It's helpful, yeah.
 
-**Jerod Santo:** What about the other side? So when you receive that much criticism, like you said, it's because there's just so many people using your software. Like I said, formally dependent repos; everybody uses WebPack either in love or in anger, wherever they are... Does the sheer magnitude of WebPack's influence on our industry and the amount of users you have - does that weigh heavy on your shoulders?
+**Jerod Santo:** What about the other side? So when you receive that much criticism, like you said, it's because there's just so many people using your software. Like I said, formally dependent repos; everybody uses webpack either in love or in anger, wherever they are... Does the sheer magnitude of webpack's influence on our industry and the amount of users you have - does that weigh heavy on your shoulders?
 
 **Tobias Koppers:** You're asking difficult questions... \[laughter\]
 
@@ -58,27 +58,27 @@ I'm just curious if at this stage in WebPack and your career - does the public o
 
 **Jerod Santo:** He's like, "I've never thought about it... Now I'm starting to feel like it a lot."
 
-**Tobias Koppers:** I think I'm more proud of the influence that WebPack has on the industry. We've made some decisions and they led to industry standards, like the code-splitting for example, or on-demand loading. In 2012 we started with on-demand loading of parts of parts of the application, and it took five years for this to become mainstream. I'm pretty proud that it's something I started to engage or to promote. It's become an industry standard, and similar for other things, like CSS Modules as part of the module graph, or things like that...
+**Tobias Koppers:** I think I'm more proud of the influence that webpack has on the industry. We've made some decisions and they led to industry standards, like the code-splitting for example, or on-demand loading. In 2012 we started with on-demand loading of parts of parts of the application, and it took five years for this to become mainstream. I'm pretty proud that it's something I started to engage or to promote. It's become an industry standard, and similar for other things, like CSS Modules as part of the module graph, or things like that...
 
 I think we had a lot of influence, and I think it's cool to influence what the people or the community like, or what the ecosystem is about. It's cool to have this influence in the whole JavaScript community.
 
 **Jerod Santo:** Absolutely. And well-deserved influence, I would say.
 
-**Adam Stacoviak:** I think about doing this kind of work, and I just think, like, what motivated you to -- I guess the sheer size of WebPack and its influence is one thing, but what motivated you to want to do it full-time? Was it just simply WebPack? Was it the allure of this lifestyle? What made you wanna do this?
+**Adam Stacoviak:** I think about doing this kind of work, and I just think, like, what motivated you to -- I guess the sheer size of webpack and its influence is one thing, but what motivated you to want to do it full-time? Was it just simply webpack? Was it the allure of this lifestyle? What made you wanna do this?
 
-**Tobias Koppers:** Yup. Before I started full-time, I worked like ten hours per week on WebPack, so part-time... And it was more work involved than I could do in the part-time I had, with having a real job. At this time, Sean started collecting money to Open Collective and trying to fund the WebPack project.
+**Tobias Koppers:** Yup. Before I started full-time, I worked like ten hours per week on webpack, so part-time... And it was more work involved than I could do in the part-time I had, with having a real job. At this time, Sean started collecting money to Open Collective and trying to fund the webpack project.
 
-\[00:08:04.04\] My contract ended, and I decided to not continue working at my existing job. It was a risky step, but I tried to work at least a few months from the existing money of the WebPack Collective, try to work a few months full-time, to make progress, more and more features, WebPack 2 was at this time active... So yeah, I started with the idea of only working a few months, but it took on and we got more funding, so -- I liked working on WebPack full-time, so I just continued working on that.
+\[00:08:04.04\] My contract ended, and I decided to not continue working at my existing job. It was a risky step, but I tried to work at least a few months from the existing money of the webpack Collective, try to work a few months full-time, to make progress, more and more features, webpack 2 was at this time active... So yeah, I started with the idea of only working a few months, but it took on and we got more funding, so -- I liked working on webpack full-time, so I just continued working on that.
 
-It was a risky step, because at this time we only had money to fund me about a few months (five or six). I wrote about quitting my job, and \[unintelligible 00:08:56.12\] I have a family, and I've got a baby at this time... But I think it was a good idea and a good step to do this, and work full-time on this. I think I've made a lot of progress and brought WebPack forward with working more on this.
+It was a risky step, because at this time we only had money to fund me about a few months (five or six). I wrote about quitting my job, and \[unintelligible 00:08:56.12\] I have a family, and I've got a baby at this time... But I think it was a good idea and a good step to do this, and work full-time on this. I think I've made a lot of progress and brought webpack forward with working more on this.
 
-**Adam Stacoviak:** Hearing the behind-the-scenes on that is really interesting, because as you'd said, you have a baby, so you've got a lot of responsibility... And it sounds like you were the first funded person to do WebPack full-time, which I'm assuming that since that time you've been fully funded by WebPack... And I guess part of me is kind of curious, how do you get paid? Is it once per month? Who cuts the check? How does that work for you all?
+**Adam Stacoviak:** Hearing the behind-the-scenes on that is really interesting, because as you'd said, you have a baby, so you've got a lot of responsibility... And it sounds like you were the first funded person to do webpack full-time, which I'm assuming that since that time you've been fully funded by webpack... And I guess part of me is kind of curious, how do you get paid? Is it once per month? Who cuts the check? How does that work for you all?
 
 **Tobias Koppers:** Yeah, once per month... And the bill is paid by Open Collective. So we're collecting money through Open Collective, and once a month I decide who gets how much amount of money; it's automatic, depending on contribution on GitHub. So I pay myself, and I pay the other contributors...
 
 I pay myself a fixed wage, and the other contributors get money depending on the contributions they made to it, depending on how much they do each month. Yeah, basically that's how it's working.
 
-**Jerod Santo:** So you've been full-time for three years, and WebPack's budget has continued to increase... I believe it's around $500,000 annual estimated, according to the current Open Collective. Have you gotten a raise?
+**Jerod Santo:** So you've been full-time for three years, and webpack's budget has continued to increase... I believe it's around $500,000 annual estimated, according to the current Open Collective. Have you gotten a raise?
 
 **Tobias Koppers:** If I got what?
 
@@ -86,7 +86,7 @@ I pay myself a fixed wage, and the other contributors get money depending on the
 
 **Tobias Koppers:** It's not set amounts that we have, it's more like we get about the money monthly which we need to pay all the contributors. So it's kind of an equal situation currently. With Trivago sponsoring us a lot, we have like 2k a month extra we can save, but I also think it's important to make some kind of savings for the future, if some sponsors go away, or whatever happens... So that you can pay the contributors and paying myself for longer than the sponsors are there. More like a long-term investment into the future... Although it makes sense from a sponsor perspective, because most sponsors want to have a long-term support... But it's for the project itself a good idea to make some long-term guarantee.
 
-**Adam Stacoviak:** Yeah. We definitely wanna dive deeper at some point into the value-add for those brands who sponsor WebPack, for sure, more deeply... But I'm curious if you would say that you feel like you've sacrificed quite a bit to be a part of WebPack. Would you consider what you're doing a sacrifice?
+**Adam Stacoviak:** Yeah. We definitely wanna dive deeper at some point into the value-add for those brands who sponsor webpack, for sure, more deeply... But I'm curious if you would say that you feel like you've sacrificed quite a bit to be a part of webpack. Would you consider what you're doing a sacrifice?
 
 **Tobias Koppers:** \[00:12:05.03\] I don't think it's a sacrifice. I want to work on this, and I do it for fun, and for my work, for my job... So I'm not sure...
 
@@ -94,7 +94,7 @@ I pay myself a fixed wage, and the other contributors get money depending on the
 
 I say that because there's so much in open source that happens because of goodwill, not a direct "Tobias puts out work, Tobias gets dollars to survive himself, his family, to provide, to invest in his future, plan for retirement etc." There's so many things that layer into people's careers and lives and how they accumulate wealth etc. to just live there and enjoy their life. And I ask you that because I see a lot of sacrifice in open source... Now, I would (from my perspective) say that it seems you've sacrificed.
 
-**Tobias Koppers:** Honestly, I see often that most maintainers \[unintelligible 00:13:10.03\] But I hope that WebPack is at least a little bit better; we pay our contributors, we pay myself... Maybe the contributors or myself don't get what's worth the work, but I think at least we get enough to make it not as sacrifice -- you probably get more if you're working for a company in the industry; if you want to get rich, then don't work for open source...
+**Tobias Koppers:** Honestly, I see often that most maintainers \[unintelligible 00:13:10.03\] But I hope that webpack is at least a little bit better; we pay our contributors, we pay myself... Maybe the contributors or myself don't get what's worth the work, but I think at least we get enough to make it not as sacrifice -- you probably get more if you're working for a company in the industry; if you want to get rich, then don't work for open source...
 
 **Adam Stacoviak:** Right.
 
@@ -114,7 +114,7 @@ I say that because there's so much in open source that happens because of goodwi
 
 **Adam Stacoviak:** Yeah. I'm glad you said that, because that's what I'm trying to figure out... Because as we do this show, and we're thinking, okay, there are other future maintainers or current maintainers out there that are like "I just need to try. I need somebody to cling to", and Tobias has got some wisdom; he's done this thing, he's stepped off in these ways, and... It's like, "How do I do those things with some assurances, as well? How do I have a frame of reference for my future in open source?" Thinking about the listeners listening to this show...
 
-**Jerod Santo:** Right. So WebPack is unique insofar as it has gained a substantial amount of financial backing, which many projects never reach that. Many open source maintainers, like you said, Adam, they struggle to reach at least financial sustainability for their projects... And WebPack has gotten there. Now, "there" comes with other problems; we'll get into those. But Tobias, in your eyes - like I said, a $500,000 estimated annual budget according to the current sponsors, and all that kind of stuff... So not an insignificant amount of money - like you said, maybe not as much money as value that WebPack's bringing - though I think that it's really low... But in your eyes, how did you get here? How did you, the team of WebPack, get to this place where you have large corporations sponsoring you in substantial sums? What got you here?
+**Jerod Santo:** Right. So webpack is unique insofar as it has gained a substantial amount of financial backing, which many projects never reach that. Many open source maintainers, like you said, Adam, they struggle to reach at least financial sustainability for their projects... And webpack has gotten there. Now, "there" comes with other problems; we'll get into those. But Tobias, in your eyes - like I said, a $500,000 estimated annual budget according to the current sponsors, and all that kind of stuff... So not an insignificant amount of money - like you said, maybe not as much money as value that webpack's bringing - though I think that it's really low... But in your eyes, how did you get here? How did you, the team of webpack, get to this place where you have large corporations sponsoring you in substantial sums? What got you here?
 
 **Tobias Koppers:** \[00:16:07.27\] I would say Sean got us here. He started all the ideas about going to companies \[unintelligible 00:16:13.04\] I also think we had a good timing, because the community or the ecosystem and the companies are starting to invest more in open source, and care about open source... And I think the mentality of companies changed in the recent times; they're more willing to pay/invest into open source maintaining or open source funding. So it's probably luck, and... Yeah, it's also Sean - he did a good job in going to companies and asking them to fund us and sponsor us.
 
@@ -124,7 +124,7 @@ Also, the visibility of the company scaled from all those sponsors and the good 
 
 **Adam Stacoviak:** 233.
 
-**Jerod Santo:** Even back then, he was relentlessly enthusiastic about WebPack... And I even would joke that if you can't figure out your WebPack config, just complain about it on Twitter and Sean Larkin will...
+**Jerod Santo:** Even back then, he was relentlessly enthusiastic about webpack... And I even would joke that if you can't figure out your webpack config, just complain about it on Twitter and Sean Larkin will...
 
 **Adam Stacoviak:** Magically appear. \[laughs\]
 
@@ -132,15 +132,15 @@ Also, the visibility of the company scaled from all those sponsors and the good 
 
 **Adam Stacoviak:** Yeah... That was 2016. December 2016.
 
-**Jerod Santo:** Yeah. He may have invented the -- if you look at the core team on your guys' GitHub, yourself, Johannes Ewald, who's on loaders and plugins, you have Kees Kluskens on development, and then Sean Larkin on public relations... And I think back then -- it's pretty avantgarde for Sean to be a PR person for an open source project... And like you said, he convinced a lot of these companies to bring money to the table. Where did Sean come from? How did you get him on the team? Did he drop out of the sky? Did you convince him that WebPack was the bomb? How did you get Sean involved?
+**Jerod Santo:** Yeah. He may have invented the -- if you look at the core team on your guys' GitHub, yourself, Johannes Ewald, who's on loaders and plugins, you have Kees Kluskens on development, and then Sean Larkin on public relations... And I think back then -- it's pretty avantgarde for Sean to be a PR person for an open source project... And like you said, he convinced a lot of these companies to bring money to the table. Where did Sean come from? How did you get him on the team? Did he drop out of the sky? Did you convince him that webpack was the bomb? How did you get Sean involved?
 
-**Tobias Koppers:** I think he basically joined by himself, so it's not that we went to him... We weren't organized at that time when Sean joined. He thought we did a good job on the product, on WebPack, and he used it at his company... So then he came to us and said that he'd want to get us funded, and want to get us organized.
+**Tobias Koppers:** I think he basically joined by himself, so it's not that we went to him... We weren't organized at that time when Sean joined. He thought we did a good job on the product, on webpack, and he used it at his company... So then he came to us and said that he'd want to get us funded, and want to get us organized.
 
 At this time we also started, maybe because of Sean, to organize ourselves as a core team. We had no core team or organization, stuff like that before... But at this time we moved to Open Collective, moved the \[unintelligible 00:19:16.19\] JS Foundation, and organized as a core team... So we basically made all the management stuff. And he just joined by himself, so it's not that we hired him for anything.
 
 **Adam Stacoviak:** That's so wild.
 
-**Jerod Santo:** You didn't put a Craigslist post out there, "We need an evangelist for WebPack..."
+**Jerod Santo:** You didn't put a Craigslist post out there, "We need an evangelist for webpack..."
 
 **Adam Stacoviak:** Yeah. \[laughs\] It's wild how he joined himself, too. He saw the ingredients for a great recipe, and made it a meal. Do you like that?
 
@@ -158,7 +158,7 @@ There's also some kind of factoring \[unintelligible 00:21:30.01\] everybody got
 
 **Jerod Santo:** Yeah, you could game it.
 
-**Tobias Koppers:** It's hidden away, or secret... But I think it's the most fair way if it's automated and nobody decides how much to get. I think there were only very few complaints in the last years about "I get too few money", or something. So I think it's working, and I hope people don't see it like "I want to work for WebPack because I get money." I hope nobody wants to contribute because of money, because if we have no sponsors, you don't get money, so you can't rely on this money... And I obviously recommend to not rely on the money from WebPack. I want it to look more like an extra benefit, an extra incentive you get out... And you should be happy that you get it and don't demand for the money.
+**Tobias Koppers:** It's hidden away, or secret... But I think it's the most fair way if it's automated and nobody decides how much to get. I think there were only very few complaints in the last years about "I get too few money", or something. So I think it's working, and I hope people don't see it like "I want to work for webpack because I get money." I hope nobody wants to contribute because of money, because if we have no sponsors, you don't get money, so you can't rely on this money... And I obviously recommend to not rely on the money from webpack. I want it to look more like an extra benefit, an extra incentive you get out... And you should be happy that you get it and don't demand for the money.
 
 **Jerod Santo:** I never advise anybody to get into open source for the money. There's lots of good reasons to do open source; money is not a good reason. As developers, we have very marketable skills. Open source is not a place to go if you're trying to get rich quick, or slow... But there's a lot of good reasons to be involved.
 
@@ -196,7 +196,7 @@ It's fairly easy from the contributor's site, and I think it's also pretty easy 
 
 **Jerod Santo:** Sure. It's just a matter of privacy. Are you guys solely on Open Collective, or do you also do Patreon, or any other ways that people can support you?
 
-**Tobias Koppers:** I also started to make some GitHub Sponsors profile for myself, like of non-WebPack-related stuff, or if you want to just give me money personally, or whatever, to make something else... But it's not a lot of money there.
+**Tobias Koppers:** I also started to make some GitHub Sponsors profile for myself, like of non-webpack-related stuff, or if you want to just give me money personally, or whatever, to make something else... But it's not a lot of money there.
 
 Open Collective also recently joined with GitHub Sponsors, so you can make a GitHub Sponsors profile, which redirects the money to Open Collective. We don't have Patreon. I tried it, but it doesn't work. I also think it's more beneficial to have only a single platform. It's more simple.
 
@@ -214,9 +214,9 @@ Open Collective also recently joined with GitHub Sponsors, so you can make a Git
 
 **Break:** \[00:29:13.09\]
 
-**Jerod Santo:** Tobias, you've been working on WebPack full-time for a while now... I'm just curious what your average workday looks like. Is there an average workday?
+**Jerod Santo:** Tobias, you've been working on webpack full-time for a while now... I'm just curious what your average workday looks like. Is there an average workday?
 
-**Tobias Koppers:** I think so, yeah. Usually, I check issues every day, and try to answer all the issues. Then I usually check the PRs on WebPack... I don't have enabled GitHub notifications or emails. I only try to make it when I request it, so it's like a pull system. I pull the work from the issues, I pull the work from the pull requests. Basically, I'm viewing pull requests and trying to finish pull requests if they are in good shape.
+**Tobias Koppers:** I think so, yeah. Usually, I check issues every day, and try to answer all the issues. Then I usually check the PRs on webpack... I don't have enabled GitHub notifications or emails. I only try to make it when I request it, so it's like a pull system. I pull the work from the issues, I pull the work from the pull requests. Basically, I'm viewing pull requests and trying to finish pull requests if they are in good shape.
 
 Sometimes I do work myself, so it's -- really, most time I spend to view pull requests or finishing pull requests... Because in most cases the pull request is in a good shape, but it's not like it's super-finished and I could instantly merge it. And I don't want to request too many nitpicks from the people, so it's often that I finish the pull requests myself, doing menial stuff that fits better in the whole system, and so on.
 
@@ -250,9 +250,9 @@ There's a lot of work involved in really finishing pull requests from contributo
 
 **Adam Stacoviak:** You mentioned you have a bot too, that's closing things... Is that right? Did you say the bot closes the issues that you need closed?
 
-**Tobias Koppers:** Yeah. We have a WebPack bot, and it's closing after three months inactivity. If people put a lot of comments on the -- basically, the bot warns you two weeks in advances that the issue will soon close, and if somebody comments at this time, then usually it stays open. It's also a good factor to -- if an issue is open longer, if it doesn't get closed by the bot, then people are really behind the issue, and it's really important... It's also good to see that only the important issues stay open. If nobody even addressed it in the issue and it wasn't fixed, then the bot is closing it.
+**Tobias Koppers:** Yeah. We have a webpack bot, and it's closing after three months inactivity. If people put a lot of comments on the -- basically, the bot warns you two weeks in advances that the issue will soon close, and if somebody comments at this time, then usually it stays open. It's also a good factor to -- if an issue is open longer, if it doesn't get closed by the bot, then people are really behind the issue, and it's really important... It's also good to see that only the important issues stay open. If nobody even addressed it in the issue and it wasn't fixed, then the bot is closing it.
 
-I think WebPack has many issues; there are bugs at edge cases... The whole configuration comes with a lot of edge cases, if the combination of whatever doesn't work. So if some people write issues about really edge-casey stuff and they never get fixed, and they are not behind pushing this issue, then it probably won't get fixed.
+I think webpack has many issues; there are bugs at edge cases... The whole configuration comes with a lot of edge cases, if the combination of whatever doesn't work. So if some people write issues about really edge-casey stuff and they never get fixed, and they are not behind pushing this issue, then it probably won't get fixed.
 
 **Adam Stacoviak:** Okay. So what you're saying is you like the +1, or the repaint list, the thing people say in issue comments, where they bubble it back up... What's that, again? Ping, or something?
 
@@ -268,21 +268,21 @@ I think WebPack has many issues; there are bugs at edge cases... The whole confi
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** Right. So what we're doing is we're teaching users out there how to game the WebPack open issue system... Periodically bump your issues, folks. Otherwise...
+**Jerod Santo:** Right. So what we're doing is we're teaching users out there how to game the webpack open issue system... Periodically bump your issues, folks. Otherwise...
 
 **Tobias Koppers:** It's better if you close the issue and reopen a new issue.
 
-**Jerod Santo:** Oh, even better. These are pro tips right here... "How to get help on WebPack."
+**Jerod Santo:** Oh, even better. These are pro tips right here... "How to get help on webpack."
 
 **Adam Stacoviak:** Close and reopen.
 
-**Jerod Santo:** So there's maintenance, which we're talking about, and then there progress. And as the core developer, one of the four (and one is a PR person), so you have a few people on the core team, pushing the progress forward, pushing WebPack forward. How do you decide when you're gonna maintain and when you're gonna make progress?
+**Jerod Santo:** So there's maintenance, which we're talking about, and then there progress. And as the core developer, one of the four (and one is a PR person), so you have a few people on the core team, pushing the progress forward, pushing webpack forward. How do you decide when you're gonna maintain and when you're gonna make progress?
 
 **Tobias Koppers:** \[00:36:03.14\] I try to maintain, to have no unread issues and unread pull requests; so just basic maintenance. I also try to fix bugs reported as soon as possible, but it's not very often that there's a bug which can easily be fixed... But it's the basic maintenance, that I always do. After that, it's more like what I have fun to do. Sometimes I want to do progress, do some innovation stuff, make some cool new feature, or whatever... And sometimes I have fun making the pull request somebody did, and maintaining/fixing stuff, reorganizing things.
 
 Most maintenance is refactoring, and cleaning up. Most bugs need some refactoring, reorganization and cleanup. That's what's fun, \[unintelligible 00:37:04.00\]
 
-But we also have contributors who want to push the progress... So I think most progress or most new features or most progress for WebPack is done by contributors. We have the project board, and people can look it up, pick something up and do some progress, make a pull request, and... Most of the time I finish the pull request, but it's all the people making pull requests and then I finish the pull request, which is some feature from the project board, which is pushing WebPack forward.
+But we also have contributors who want to push the progress... So I think most progress or most new features or most progress for webpack is done by contributors. We have the project board, and people can look it up, pick something up and do some progress, make a pull request, and... Most of the time I finish the pull request, but it's all the people making pull requests and then I finish the pull request, which is some feature from the project board, which is pushing webpack forward.
 
 **Jerod Santo:** Right. Kind of mood-driven development. You know, "What am I -- am I in the mood to close some stuff?"
 
@@ -294,13 +294,13 @@ But we also have contributors who want to push the progress... So I think most p
 
 **Tobias Koppers:** Yeah. But also, most progress comes from issues. So if there's an issue, I have an idea about a feature, I have some problems that could inspire me to make this feature, make this improvement...
 
-I also think that progress comes from issues. Writing issues, and contributors that write issues - which are also contributors, kind of - are the inspiration for new features and for the direction of WebPack.
+I also think that progress comes from issues. Writing issues, and contributors that write issues - which are also contributors, kind of - are the inspiration for new features and for the direction of webpack.
 
-**Adam Stacoviak:** So anyone out there that's on Twitter who are doing these criticisms, as Jerod mentioned earlier, these memes, instead of complaining or meme-ing (if that's a thing), maybe they should just hang out in the issues and try to drive progress. Because if I'm hearing you correctly, then that means that the feedback from the community is critical to the progress of WebPack, because it's a significant driving force of it.
+**Adam Stacoviak:** So anyone out there that's on Twitter who are doing these criticisms, as Jerod mentioned earlier, these memes, instead of complaining or meme-ing (if that's a thing), maybe they should just hang out in the issues and try to drive progress. Because if I'm hearing you correctly, then that means that the feedback from the community is critical to the progress of webpack, because it's a significant driving force of it.
 
 **Jerod Santo:** Well, as evidence of that, the 369 open issues - only 27 of those are bugs; they have a bug label. So we're kind of talking about bugs versus progress. Fixing things versus creating new things. Many, many of those open issues - and I assume many of which are also pull requests - like Tobias says, they're not maintaining the status quo, they're just issues that happen to be pushing progress forward.
 
-**Tobias Koppers:** Yeah. Basically, I prioritize bugs. So it's kind of \[unintelligible 00:39:49.13\] I want to make WebPack as good as possible, but to ensure high quality and stability for WebPack. I think stability and bug-freeness is one of WebPack's main features compared to competitors. So I really prioritize bugs and I really want to get rid of them. If bugs are reported, I usually fix them within days.
+**Tobias Koppers:** Yeah. Basically, I prioritize bugs. So it's kind of \[unintelligible 00:39:49.13\] I want to make webpack as good as possible, but to ensure high quality and stability for webpack. I think stability and bug-freeness is one of webpack's main features compared to competitors. So I really prioritize bugs and I really want to get rid of them. If bugs are reported, I usually fix them within days.
 
 **Jerod Santo:** \[00:40:16.03\] So hack number two, how to get your issue addressed - put the bug label on it. Even if it happens to be a feature, just throw "bug" on there and Tobias is gonna give it at least two looks. \[laughter\]
 
@@ -324,19 +324,19 @@ I also think that progress comes from issues. Writing issues, and contributors t
 
 **Jerod Santo:** That's nice.
 
-**Tobias Koppers:** It's also a really good inspiration that a competitor decided to make their own product... Because most often they do it because they want to have some special feature. For example, Rollup was created to make some ES module-first approach, and make some super-special optimizations which are related to ECMAScript modules... And we also took this feature and integrated it into WebPack.
+**Tobias Koppers:** It's also a really good inspiration that a competitor decided to make their own product... Because most often they do it because they want to have some special feature. For example, Rollup was created to make some ES module-first approach, and make some super-special optimizations which are related to ECMAScript modules... And we also took this feature and integrated it into webpack.
 
 It's not that easy to integrate features from competitors, because we also have to be compatible to all existing features, which makes it sometimes more involved, more difficult, more edge cases to integrate features from competitors. But we try our best to get the ideas from competitors and integrate them... Rollup inspired us to build an ECMAScript integration parcel for easier configuration, and for speed... But most of them are a trade-off. You can make a really special bundler which focuses on something we can't focus on, because we have a broader user base, more features, and it's more \[unintelligible 00:42:27.08\] So it's not often that easy to just copy the feature from competitors... But we try our best to add all the cool features from competitors, too.
 
-It's open source, so it's more the mentality of open source to share ideas. I also think if you're doing new bundlers, you're also copying most features from WebPack, and it's \[unintelligible 00:42:58.05\] and in the end, the user benefits if all tools have a similar feature set, or at least a shared, common feature set, which can work across bundlers.
+It's open source, so it's more the mentality of open source to share ideas. I also think if you're doing new bundlers, you're also copying most features from webpack, and it's \[unintelligible 00:42:58.05\] and in the end, the user benefits if all tools have a similar feature set, or at least a shared, common feature set, which can work across bundlers.
 
-**Adam Stacoviak:** \[00:43:14.18\] If someone is listening to this that happens to be considering a competitor or a maintainer of a competitor, what would you say to them in terms of collaboration? Is it something where there's sort of like a WebPack guild of sorts, where you sort of have this build step union, so to speak, or collective where you're sharing knowledge and sort of leveling each other up, and you can help them optimize their things, and maybe there's a place for their tool and a place for your tool as well, that - while you're competitors, you don't have to be blood-thirsty competitors, you could be collaborative.
+**Adam Stacoviak:** \[00:43:14.18\] If someone is listening to this that happens to be considering a competitor or a maintainer of a competitor, what would you say to them in terms of collaboration? Is it something where there's sort of like a webpack guild of sorts, where you sort of have this build step union, so to speak, or collective where you're sharing knowledge and sort of leveling each other up, and you can help them optimize their things, and maybe there's a place for their tool and a place for your tool as well, that - while you're competitors, you don't have to be blood-thirsty competitors, you could be collaborative.
 
 **Tobias Koppers:** Yes... I would say, if somebody has new ideas and wants to do some cool stuff, then you can write an issue and we can discuss this. We also have a Slack channel where we can chat with each other and share ideas.
 
-I often see that people don't want to contribute to WebPack because it's too complicated, and they start a new bundler because it's easier to create a new bundler with the special ideas, the new ideas, the features they want... And yes, it's true, but I hope that long-term people write a bundler prototype, and then long-term they want to invest into integrating it into WebPack... But I can't force anybody to contribute to WebPack or to integrate to WebPack, and often it's not possible... If you wrote the bundler in Go, then it's very difficult to integrate it into WebPack. So it's kind of difficult.
+I often see that people don't want to contribute to webpack because it's too complicated, and they start a new bundler because it's easier to create a new bundler with the special ideas, the new ideas, the features they want... And yes, it's true, but I hope that long-term people write a bundler prototype, and then long-term they want to invest into integrating it into webpack... But I can't force anybody to contribute to webpack or to integrate to webpack, and often it's not possible... If you wrote the bundler in Go, then it's very difficult to integrate it into webpack. So it's kind of difficult.
 
-**Adam Stacoviak:** Yeah. I'm curious - taking a sidestep, I guess, to an overarching team which often happens to people who are obsessed with their work, or really into what they do... It seems like you're really into what you do. Clearly, you've made a very purposeful career path towards open source, towards WebPack, and you're committed to it... Burnout often happens whenever you're in that kind of state. Sometimes you excel and there's on burnout, but how do you maintain your experienced burnout? Share with us maybe your aspects on burnout, if you have ever been near to it...
+**Adam Stacoviak:** Yeah. I'm curious - taking a sidestep, I guess, to an overarching team which often happens to people who are obsessed with their work, or really into what they do... It seems like you're really into what you do. Clearly, you've made a very purposeful career path towards open source, towards webpack, and you're committed to it... Burnout often happens whenever you're in that kind of state. Sometimes you excel and there's on burnout, but how do you maintain your experienced burnout? Share with us maybe your aspects on burnout, if you have ever been near to it...
 
 **Tobias Koppers:** People burn out on open source, and so far I'm happy and I don't think I'm burning out... But also, I'm a bit afraid that it may happen. And yeah, I'm not sure yet.
 
@@ -346,8 +346,8 @@ I often see that people don't want to contribute to WebPack because it's too com
 
 **Adam Stacoviak:** One antidote we've seen to burnout is having some sort of analog, some sort of AFK kind of thing; when you're not at the keyboard, when you're not working, when you're not in issues or pull requests, you're not coding... What's your pastime? You have a family, so maybe that's it, but share with us maybe what you may purposefully do, or by happenstance do as an antidote to burnout.
 
-**Tobias Koppers:** Basically, I spend most of the time on WebPack, and in my free time -- I have a family, I have two small children; one is one year, the other is two years, nearly three. So it's really a lot of work with family, and the children... So family is my alternative to working.
+**Tobias Koppers:** Basically, I spend most of the time on webpack, and in my free time -- I have a family, I have two small children; one is one year, the other is two years, nearly three. So it's really a lot of work with family, and the children... So family is my alternative to working.
 
-**Jerod Santo:** Well, Tobias, thanks so much for coming on the show. We really appreciate you, we really appreciate all the work that you put in, really the trailblazing that you've done on WebPack along with Sean and the team. Congratulations on all your success, and hope for future success as well. We just really appreciate what you've been up to, and sitting down with us and telling us about it.
+**Jerod Santo:** Well, Tobias, thanks so much for coming on the show. We really appreciate you, we really appreciate all the work that you put in, really the trailblazing that you've done on webpack along with Sean and the team. Congratulations on all your success, and hope for future success as well. We just really appreciate what you've been up to, and sitting down with us and telling us about it.
 
 **Tobias Koppers:** Thank you.

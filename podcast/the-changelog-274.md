@@ -246,7 +246,7 @@ So I can either sell it on premises for anybody that wants to run it internally,
 
 Like I said, I'm gonna put another six months to a year into this and see what happens with Faktory, see if it grows nicely or if it just sort of plateaus early and really doesn't go anywhere. Time will tell.
 
-**Jerod Santo:** Looking at this from a macro level, which I guess Adam and I tend to do, because we talk to a lot of people in open source trying to use different means and methods of sustaining their work in open source, we look at exemplars and I think over time we've said you've got your Red Hat style, you've got your GitLabs, you have your WebPack who's making Open Collective work, you've got Evan You who's making Patreon work, and you have Mike Perham who's making kind of a freemium -- or not freemium... What do you call it? Like a pro and community edition work...
+**Jerod Santo:** Looking at this from a macro level, which I guess Adam and I tend to do, because we talk to a lot of people in open source trying to use different means and methods of sustaining their work in open source, we look at exemplars and I think over time we've said you've got your Red Hat style, you've got your GitLabs, you have your webpack who's making Open Collective work, you've got Evan You who's making Patreon work, and you have Mike Perham who's making kind of a freemium -- or not freemium... What do you call it? Like a pro and community edition work...
 
 **Mike Perham:** They describe it as open core.
 
