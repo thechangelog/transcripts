@@ -176,7 +176,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Have you ever watched the show Trouble?
 
-**Emma Bostian:** I'm losing my English \[unintelligible 00:08:44.15\] This is unfair.
+**Emma Bostian:** I'm losing my English from living abroad. This is unfair.
 
 **Jerod Santo:** This is JS Danger Party here. Things are getting dangerous. Emma, your turn. There's some dangerous language at play.
 
@@ -1160,7 +1160,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Emma Bostian:** Um, I'm gonna pass. But before I pass, Jerod, I just wanna say we're all in the negative, so this should just reflect on you. \[laughter\] That's all.
 
-**Scott Tolinski:** I'm smart \[unintelligible 00:42:57.02\]
+**Scott Tolinski:** I'm smart, I should \[unintelligible 00:42:57.02\]
 
 **Jerod Santo:** Ouch... Ouch. Well, you know, trivia is tough.
 
