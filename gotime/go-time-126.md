@@ -112,7 +112,7 @@ In comparison, the previous place I worked, which was Halo, we went through a mo
 
 **Mat Ryer:** But does microservices solve that, or does it just move that problem somewhere else? Because if you do have a component and you need to add some capability to a dependency, you kind of need to do that anyway, even if it's a microservice or if it's in a monolith. Of course, if it's in a little monolith, then you can get things like type safety... We can describe our boundaries with interfaces and things in Go, for example, and it's very clean... But when we deploy it, or if we build that as a big microservice architecture, does it really solve these problems, or does it just change them?
 
-**Tom Wilkie:** \[00:12:15.23\] I mean, there's a strong argument that changing things in a monolith is actually somewhat easier. It's deployed atomically, you deploy the whole thing at once, so interdepencies between the services are not something you really have to worry about... And you've got kind of control over the whole codebase. At any one point you can kind of atomically snapshot "This is the code at this point in time. This is what I'm gonna deploy."
+**Tom Wilkie:** \[00:12:15.23\] I mean, there's a strong argument that changing things in a monolith is actually somewhat easier. It's deployed atomically, you deploy the whole thing at once, so interdependencies between the services are not something you really have to worry about... And you've got kind of control over the whole codebase. At any one point you can kind of atomically snapshot "This is the code at this point in time. This is what I'm gonna deploy."
 
 So there's an argument, especially with small teams and simple development processes, that monoliths will allow you to move quicker. I don't wanna be the one fighting the corner for monoliths - we also run microservices - but I feel like they get a bad rep sometimes.
 
@@ -168,7 +168,7 @@ And now you can actually -- a single binary, a single process, a single command 
 
 **Mat Ryer:** And you get the best of both worlds.
 
-**Jaana Dogan:** Isn't this also super-useful for development time \[unintelligible 00:19:19.03\] having trouble just running things locally, or in a staging environment...? So maybe we can provide several ways of deploying things for people who want all the flexibility. They can maybe go and deploy microservices individually...
+**Jaana Dogan:** Isn't this also super-useful for development time lots of people are having trouble just running things locally, or in a staging environment...? So maybe we can provide several ways of deploying things for people who want all the flexibility. They can maybe go and deploy microservices individually...
 
 **Tom Wilkie:** Exactly, yeah.
 
@@ -234,7 +234,7 @@ I think one example of that would be a money type. If you're ever using money in
 
 **Tom Wilkie:** I think that's really the big advantage of microservices, is the isolation extends all the way down to the development process. My experience tends to be that teams look after sets of microservices, and not just individual services. I always normally find that that set of microservices could easily have just been a micro-monolith, or microlith, or whatever catchy phrase you wanna use for today... But I still think dividing code up along team boundaries - Conway's Law - is super-important. It's both a kind of necessary evil, like you have to do it, otherwise people's productivity is terrible, and it's also kind of like -- it's really detrimental when you actually wanna get cross-service flows in place; when you want to do something that's gonna end up touching tens or hundreds of services, you have to talk to tens or hundreds of people.
 
-**Jaana Dogan:** You mentioned that there's always \[unintelligible 00:29:27.06\] between the team and the services, or like a service group... I'm seeing some common services end up being in a bad spot in terms of lots of people are trying to contribute small fixes and so on, especially in organizations where there's a single monorepo, and it's so easy to just push things... \[laughter\] What do you think about that? Maybe it's not a super-critical thing, but I'm seeing some organizations tend to just enable that culture... Which might be good or might be bothersome.
+**Jaana Dogan:** You mentioned that there's always an affiliation between the team and the services, or like a service group... I'm seeing some common services end up being in a bad spot in terms of lots of people are trying to contribute small fixes and so on, especially in organizations where there's a single monorepo, and it's so easy to just push things... \[laughter\] What do you think about that? Maybe it's not a super-critical thing, but I'm seeing some organizations tend to just enable that culture... Which might be good or might be bothersome.
 
 **Matt Heath:** I think ownership is definitely very important. I think the best way to enforce that is every service needs to have a clearly-defined owner. We use GitHub for code review, which means we can use code owners within the repository... So it means each service can have a defined owner. I think any of the engineers in the company can propose a change, but the code owner has to approve the change. I think that's really important. It gives people the flexibility to fix problems that they experience, rather than the problems being hidden behind this API that they find frustrating. You can see what the problem is, you can potentially fix it... That means people are really happy, because you fix bugs for them.
 
@@ -298,7 +298,7 @@ So yeah, we have many core services that provide common functionality. Those evo
 
 **Jaana Dogan:** I'm also seeing proxying is a good way to sometimes debug things... Like, people just proxy to be able to collect more data over the thing. So that's a legit case, which is a separate topic, but... You know, I just wanted to interrupt the discussion. \[laughter\]
 
-**Tom Wilkie:** That's the whole service \[unintelligible 00:39:44.15\]
+**Tom Wilkie:** That's the whole service mesh idea, isn't it? Proxy everything.
 
 **Matt Heath:** Yeah, I've definitely seen that with service messages.
 
@@ -326,9 +326,9 @@ But we've already talked about the level of complexity you really necessarily ne
 
 **Matt Heath:** We had quite a bad tracing system that I wrote a long time ago...
 
-**Mat Ryer:** \[unintelligible 00:41:51.18\] Was it just you running around? \[laughter\]
+**Mat Ryer:** Was it just you running around? \[laughter\]
 
-**Matt Heath:** \[unintelligible 00:41:53.14\]
+**Matt Heath:** \[laughter\] Probably about as good.
 
 **Tom Wilkie:** I mean, most people's tracing systems is grepping a unique identifier through a log, right? ...which actually gets you most of the way there. You don't need fancy visualization, you don't need a lot of things... But that's still tracing, in my opinion at least. And yeah, you've got a long way there, but you still need that. It's the first thing people introduce, in my opinion, and it's -- you know, especially, there's a big difference between latencies, effectively... Like, if your latency class is like a couple hundred milliseconds, then you can get away with a lot of brute force and ignorance... But if you are doing high-volume, if you're doing trading, if you're doing anything where you're expecting to handle a huge amount of small things - you know, low latency applications and so on - tracing is just 100% necessary.
 
@@ -380,7 +380,7 @@ The way that we've done that - we've used Go interfaces actually to describe our
 
 **Tom Wilkie:** If you were wondering what I was 3D-printing, it's a clamp.
 
-**Mat Ryer:** What's that for, mate? \[unintelligible 00:48:14.17\] It's like a Monzo card.
+**Mat Ryer:** What's that for, mate? It's like a Monzo card.
 
 **Tom Wilkie:** Yeah, because I'm just a big fan of Monzo, Mat...
 
@@ -396,7 +396,7 @@ The way that we've done that - we've used Go interfaces actually to describe our
 
 **Mat Ryer:** Fine, but why?
 
-**Matt Heath:** \[unintelligible 00:48:37.05\]
+**Matt Heath:** It's got a screwy thing...
 
 **Tom Wilkie:** Mat, you clearly don't understand 3D printing if you're asking why.
 
@@ -454,7 +454,7 @@ The way that we've done that - we've used Go interfaces actually to describe our
 
 **Tom Wilkie:** \[00:55:57.11\] A lot of people will argue for testing in production... And I'm not one of them, but they've got some very good points. If you can arrange a system... You know, I've never been a huge fan of service meshes, but this is one of the things they can do which is really kind of nice... Is partition off a separate area of effectively production, that you can use for testing. That is kind of a nice system.
 
-**Matt Heath:** Yeah, those are the two main areas that we're looking at at the moment... One of them - we ran our last crowdfunding through the same platform, which at face value might sound insane, but it allowed us to use many of the same systems to make things reliable, but it requires to load-test lots of things. So we built a shadow traffic system there, where we can multifamily traffic at our edge, and we can \[unintelligible 00:56:44.28\] that traffic through the production infrastructure, so that we can effectively get the same usage patterns, but just dramatically scaled up. We use that as one kind of load testing system, and we run that periodically.
+**Matt Heath:** Yeah, those are the two main areas that we're looking at at the moment... One of them - we ran our last crowdfunding through the same platform, which at face value might sound insane, but it allowed us to use many of the same systems to make things reliable, but it requires to load-test lots of things. So we built a shadow traffic system there, where we can multifamily traffic at our edge, and we can replay that traffic through the production infrastructure, so that we can effectively get the same usage patterns, but just dramatically scaled up. We use that as one kind of load testing system, and we run that periodically.
 
 The other aspect is the service mesh approach that you mentioned, Tom. One of the things that we've added recently is if you're propagating a context all the way through your request, which allows you to pass trace IDs, and various other useful stuff, we can propagate the environment through that as well, and we have mechanisms to make sure they're not modified. But that allows us to mirror production traffic into another environment, or mirror staging traffic into another environment. Those are the things we're looking at at the moment... Not in production yet, but we've got prototypes of those running in our staging environments at the moment, for testing, and isolation between different teams, to be honest, which is a big benefit there.
 
@@ -522,7 +522,7 @@ We started right from the beginning with microservices, and we based that on pri
 
 **Jaana Dogan:** Sure... I actually have an unpopular opinion about microservices. Even if you're working for a small company, it's a microservices environment; even if you have a monolith, you still have some external dependencies... Or it's just like really being -- you're not exposed to a lot of scale-related issues, but just being in a large organization, working on a single service is not quite different than working for a monolith. You're just very focused; that's the main reason microservices exist, as a way to scale the organizational problems. Most of your time is just really isolated and focused on a single service.
 
-And yes, you have some external dependencies, and so on... And at a small company, you're likely to have an external service from a different provider probably, so you can still put some of these practices in your daily routine, like the stuff that we talked about, monitoring and debugging things... Maybe you won't be able to touch all the specs in terms of building this internal tooling that works very consistently, or having some core services, but you can still get a good feeling of what it feels to work in a primarily microservices environment.
+And yes, you have some external dependencies, and so on... And at a small company, you're likely to have an external service from a different provider probably, so you can still put some of these practices in your daily routine, like the stuff that we talked about, monitoring and debugging things... Maybe you won't be able to touch all the aspects in terms of building this internal tooling that works very consistently, or having some core services, but you can still get a good feeling of what it feels to work in a primarily microservices environment.
 
 I mean, everything is a microservice at the end of the day. When they get bigger, we just split them more.
 
