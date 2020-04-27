@@ -54,7 +54,7 @@ Natalie, three meetups and three conferences you organize. That's phenomenal. Th
 
 **Mat Ryer:** Yeah, that's a good one.
 
-**Ronna Steinberg:** Okay. So for me, it's more about the quality of delivering pretty much anything. A lot of us are very used to the agile way of doing things, delivering things very rapidly... I think everybody -- because communication is harder right now, it creates a massive amount of ping-pong. So whether it's defining a task, whether it's actually delivering a big fix - whatever it is, it needs to be in very high quality.
+**Ronna Steinberg:** Okay. So for me, it's more about the quality of delivering pretty much anything. A lot of us are very used to the agile way of doing things, delivering things very rapidly... I think everybody -- because communication is harder right now, it creates a massive amount of ping-pong. So whether it's defining a task, whether it's actually delivering a bug fix - whatever it is, it needs to be in very high quality.
 
 The same goes for code reviews. If you write a message to somebody \[unintelligible 00:05:35.25\] try to be mindful of other people in this process...Because it's addictive, right? Delivering things very quickly is addictive; right now I think everybody needs to slow down a little bit.
 
@@ -166,7 +166,7 @@ But you can't really beat actually going and physically being a place, and that'
 
 **Mat Ryer:** And there will also be lots of people hopefully listening where they sort of -- they don't feel like there is representation, or maybe there isn't a meetup in their area... What can they do? I mean, it doesn't sound easy to just start a meetup, is it?
 
-**Natalie Pistunovich:** It depends a lot on all kinds of things. If you have a place you can go to and ask "Please give me space", then it's definitely easier to roll, because you can host a remote talk, like you said; you can find maybe a speaker from the community, or give a talk yourself, or just host a fish bowl session, a QA, watch some other together.
+**Natalie Pistunovich:** It depends a lot on all kinds of things. If you have a place you can go to and ask "Please give me space", then it's definitely easier to roll, because you can host a remote talk, like you said; you can find maybe a speaker from the community, or give a talk yourself, or just host a fish bowl session, a QA, watch some other talk together.
 
 But finding a space is not always obvious. If your company is able to host this, this is great. If you know some co-working space that will give this, this is also great. But this is never taken for granted.
 
@@ -176,9 +176,9 @@ But finding a space is not always obvious. If your company is able to host this,
 
 **Natalie Pistunovich:** \[00:16:26.06\] I think that's a great question. From the little bit that I got to see, Go is not yet as popular, so you can find many people individually working on this... But the network is still being built. For comparison, the Berlin User Group I think has almost 1,000 people, and many of them work in companies that are using Go.
 
-And even in the Berlin meetup it's sometimes hard to find people to give a talk, because they think their project is boring, because they think "Oh, it's just what I'm doing at work." So if this is a language you're learning for fun, and you're coming to listen and not necessarily to give the talk, then having enough speakers is harder. But this is harder with any community that is beginning, and I think that Go is just not yet as popular there.
+And even in the Berlin meetup it's sometimes hard to find people to give a talk, because they think their project is boring, because they think "Oh, it's just what I'm doing at work." So if this is a language you're learning for fun, and you're coming to listen and not necessarily to give a  talk, then having enough speakers is harder. But this is harder with any community that is beginning, and I think that Go is just not yet as popular there.
 
-Another thing is what Mat mentioned, doing the \[unintelligible 00:17:22.01\] talks. This is great, that the internet worked all the way through. This is also something that's not obvious, and you probably need to pre-record this as a back-up, or just count on everybody's patience if there's some kind of a hiccup with the internet.
+Another thing is what Mat mentioned, doing the remote talks. This is great, that the internet worked all the way through. This is also something that's not obvious, and you probably need to pre-record this as a back-up, or just count on everybody's patience if there's some kind of a hiccup with the internet.
 
 **Mat Ryer:** Yeah. The London Gophers, actually - they put all of their talks online as well. They're just on YouTube. That's nice for anyone obviously that can't make it, but it is also nice to get a sense of what these meetups are like... But you don't really see some of the main advantages, which you get from actually physically meeting in person... Which we perhaps shouldn't dwell on at the moment, but eventually we're gonna be back to normal, we're gonna be back at meetups, and stuff.
 
@@ -192,19 +192,19 @@ Then our members would do a real-life, industry-level challenge; something that 
 
 **Ronna Steinberg:** Yeah. There is a bunch of them. We do them once a month. Of course, right now it's a bit of a problem... What it does - it actually leverages the fact that everybody is in the same room and then I can group them up to make sure that people will finish the challenge, which is ideally what should happen. We do cool things, and it's a lot of fun. So yeah, this is a very big setback for us, so we're trying to figure out what to do right now.
 
-**Mat Ryer:** Yeah. I mean, moving that all online is for sure gonna be a challenge. So I didn't realize, that's not just a meetup that you're describing, Ronna; that is what you actually get together and work, and build something.
+**Mat Ryer:** Yeah. I mean, moving that all online is for sure gonna be a challenge. So I didn't realize, that's not just a meetup that you're describing, Ronna; that is where you actually get together and work, and build something.
 
 **Ronna Steinberg:** It's workshops, yeah.
 
 **Mat Ryer:** That's really cool, and that's a whole different ball game as well. So much to actually get your hands on and get stuck into. I find hands-on experience is a great way to learn for a lot of people, especially me... So yeah, learning by actually building is a nice thing that others ought to probably think about as well.
 
-**Ronna Steinberg:** \[00:20:12.21\] Yeah, it comes from my own experience. I mean, if there's one thing that I learned in my career, it's that I learned best when I was paid to learn something... \[laughs\] And I was actually doing it on the job. So I'm giving people the opportunity to learn on the job. They have access to mentors from the hosting company, the hosting company gets to maybe try and recruit people off of that, so they can \[unintelligible 00:20:39.06\] a bit of a market going on, I'm not going to deny it. Hopefully, we'll get a lot of people recruited, and a lot of people hired, and we'll increase the community.
+**Ronna Steinberg:** \[00:20:12.21\] Yeah, it comes from my own experience. I mean, if there's one thing that I learned in my career, it's that I learned best when I was paid to learn something... \[laughs\] And I was actually doing it on the job. So I'm giving people the opportunity to learn on the job. They have access to mentors from the hosting company, the hosting company gets to maybe try and recruit people off of that, so they can you know.. a bit of a market going on, I'm not going to deny it. Hopefully, we'll get a lot of people recruited, and a lot of people hired, and we'll increase the community.
 
 **Mat Ryer:** Great.
 
 **Natalie Pistunovich:** Yeah, I think you touched a really important point, which is exactly this place to seek for opportunities... Because yes, it's possible to chat with everybody in an online event, but it's not the same as talking to people from the hosting company, or talking to people from other companies who are looking to hire... Many people find their next jobs in such events, or in meetups or in conferences.
 
-When your pool of opportunities of companies that you can go to is smaller, because there's not so many big companies, or there's not so many companies that are using Go... To answer your question, Johnny - I think this is another big difference between \[unintelligible 00:21:35.15\] that I noticed in Europe versus Africa, just from being present in those two mainly.
+When your pool of opportunities of companies that you can go to is smaller, because there's not so many big companies, or there's not so many companies that are using Go... To answer your question, Johnny - I think this is another big difference between meetups that I noticed in Europe versus Africa, just from being present in those two mainly.
 
 **Johnny Boursiquot:** I'm curious if you've encountered perhaps any cultural barriers as well in those environments... Or is the age group young enough and progressive enough to not be hindered by certain things that hold folks back? And I'm gonna be blunt here and basically say that in certain parts of the world, Africa included, which is kind of what we've been talking about here, there are men who cannot stand having a woman go up on stage and try to teach them something. That's a very real thing.
 
@@ -274,7 +274,7 @@ I think it's very important, because we do put a lot of work into this, and we'r
 
 **Mat Ryer:** I tell a lie, I did have the opportunity to have some hair with one of the filters, so I enjoyed that, but... Not quite what you're talking about, is it?
 
-**Ronna Steinberg:** \[unintelligible 00:34:44.07\]
+**Ronna Steinberg:** Important too though..
 
 **Natalie Pistunovich:** Well, for context, for a long time on the Facebook Messenger is where Ronna and me would chat about life. We just used that as our regular communication channel.
 
@@ -370,7 +370,7 @@ When you're organizing something, it's all about that organization and all the e
 
 **Mat Ryer:** Yeah. \[laughter\] If it was the plan all along, that's an entirely different -- that's sort of evil organizing in the community. We'll do a separate episode on that.
 
-**Natalie Pistunovich:** Well, this is the reason I was proposing the name \[unintelligible 00:45:54.13\] Engineering for this episode, because making a conference is a lot like that. You do your best to have a good -- the equivalent of uptime would be "Things functioning as planned." You always have to be prepared for when it's not going well, because preparing for when it does go well is the easy part.
+**Natalie Pistunovich:** Well, this is the reason I was proposing the name Chaos Engineering for this episode, because making a conference is a lot like that. You do your best to have a good -- the equivalent of uptime would be "Things functioning as planned." You always have to be prepared for when it's not going well, because preparing for when it does go well is the easy part.
 
 **Mat Ryer:** It's kind of like writing Go code. We deliberately handle errors all the time, don't we? We sort of expect things to go wrong. It kind of works.
 
@@ -428,7 +428,7 @@ And it's the holiday season, so everybody is out of office, and longer vacations
 
 **Mat Ryer:** Final resort.
 
-**Natalie Pistunovich:** No answers, yeah. And then I showed up in person, and they said that since they committed - usually companies commit a few months ahead; we have this kind of \[unintelligible 00:50:22.16\] - they decided not to use Go, so they would not be interested in hosting us anymore...
+**Natalie Pistunovich:** No answers, yeah. And then I showed up in person, and they said that since they committed - usually companies commit a few months ahead; we have this kind of a queue - they decided not to use Go, so they would not be interested in hosting us anymore...
 
 **Mat Ryer:** Oh, nice.
 
@@ -448,7 +448,7 @@ And it's the holiday season, so everybody is out of office, and longer vacations
 
 **Mat Ryer:** So as attendees, as people that are gonna take part in this community but aren't involved in organizing, what things can we do to make your lives easier? That's always an interesting thing to think about, and often the answers surprise me, so it might be nice for people to hear. Is there anything in particular that we should or shouldn't be doing, that we do, that we probably just don't even know we're doing it?
 
-**Natalie Pistunovich:** I would be curious after answering this what is the most surprising answer you heard.
+**Natalie Pistunovich:** I would be curious to hear after answering this what is the most surprising answer you heard.
 
 **Mat Ryer:** Okay.
 
@@ -490,7 +490,7 @@ There's not enough words to stress how helpful it is to stick to the agenda and 
 
 **Mat Ryer:** Good. People will love that. I'll get letters.
 
-**Johnny Boursiquot:** \[laughs\] So in the early days of community days of community organizing I learned a lesson that I've never forgotten... And to this day, it is one of the core principles that I hold to when I'm organizing meetups and things like that.
+**Johnny Boursiquot:** \[laughs\] So in the early days of community organizing I learned a lesson that I've never forgotten... And to this day, it is one of the core principles that I hold to when I'm organizing meetups and things like that.
 
 I had organized an event, and kind of dealing with the same logistical issues that Natalie was just talking about... Basically, I had planned for an event to happen, in a particular venue, on a particular date, I ordered food and all that stuff, and sort of doing all of that logistic stuff... And then it turned out that last-minute the location we were gonna host the event - they had an event happening on that day; it was very last-minute, and we had to scramble. Virtually the same story, Natalie, you just talked about... You're sort of scrambling last-minute.
 
@@ -538,7 +538,7 @@ The first thing that you even see when you look at the function signature is the
 
 There is another point there, because in Go, when using an interface, we are causing an allocation to the heap, so there's something to say about that. It's a performance enhancement, though... It's not necessarily something that you should be considering. But if your program does require that kind of zero allocations consideration, you might want to forget about everything that I just said... But I think that we should treat this as a limitation in Go, and not as something that is wanted and is a good experience.
 
-**Mat Ryer:** Yeah, interesting. I hear sometimes - and I think I've said also sometimes - talk about this idea of early abstraction... But what you've said really does make sense. If you're using an interface to tell a story, or -- I like what you said about you can just use a subset of what you need. So if there is a concrete type that you're thinking of when you build your thing, but you're only gonna use a couple of the methods, having an interface with just those couple of methods in is great storytelling, and communicates very clearly the intent of what you're gonna use that thing for. And of course, the fewer methods, the easier interfaces are to implement as well.
+**Mat Ryer:** Yeah, interesting. I hear sometimes - and I think I've said also sometimes - talk about this idea of early abstraction... But what you've said really does make sense. If you're using an interface to tell a story, or -- I like what you said about you can just use a subset of what you need. So if there is a concrete type that you're thinking of when you build your thing, but you're only gonna use a couple of the methods, having an interface with just those couple of methods in is a great storytelling, and communicates very clearly the intent of what you're gonna use that thing for. And of course, the fewer methods, the easier interfaces are to implement as well.
 
 That's a great one, actually, Ronna. Thank you very much.
 
@@ -612,7 +612,7 @@ You can play a role in this. You can't leave it up to others, least of all those
 
 **Mat Ryer:** That's a fair point. It sounds like a targeted attack on me, but... \[laughter\] As a general point, I think it's absolutely right. It's a good point. That's why talking about this stuff is important, because this is how we find out about these things. Because this stuff is not obvious to people that aren't in these groups. So yeah, good/fair point. Community gives back, again; it's what you were saying in your keynote, Johnny.
 
-Johnny's keynote is also still available on the internet. You can find it with your favorite search engine by typing in "johnny" or something... I don't know the exact keywords, but I assume "johnny boursiquot keynote". Mind you, spelling Boursiquot is also a bit of a challenge for people, isn't it? Maybe...
+[Johnny's keynote](https://www.youtube.com/watch?v=_Pc0bzz4-gM) is also still available on the internet. You can find it with your favorite search engine by typing in "johnny" or something... I don't know the exact keywords, but I assume "johnny boursiquot keynote". Mind you, spelling Boursiquot is also a bit of a challenge for people, isn't it? Maybe...
 
 **Johnny Boursiquot:** It can be. But \[unintelligible 01:12:42.14\] will help you.
 
