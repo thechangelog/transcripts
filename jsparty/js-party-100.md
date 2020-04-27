@@ -194,7 +194,7 @@ You only really need the bulk data to get the analysis piece to understand which
 
 **Kevin Ball:** Front-end haystack.
 
-**Jerod Santo:** ...the haystack developer? The move of the front-end developer, really the empowerment to a certain degree of the front-end developer to be more full-stack than traditionally we have been - well, I've always considered myself relatively full-stack, because I've worked on teams of one, sometimes two... So when I'm not full-stack, I'm very much the horse image on the slide that \[unintelligible 00:14:25.28\] put up, where I have a very immaculate back. I never thought I'd say that about myself.
+**Jerod Santo:** ...the haystack developer? The move of the front-end developer, really the empowerment to a certain degree of the front-end developer to be more full-stack than traditionally we have been - well, I've always considered myself relatively full-stack, because I've worked on teams of one, sometimes two... So when I'm not full-stack, I'm very much the horse image on the slide that Chris Coyier put up, where I have a very immaculate back-end. I never thought I'd say that about myself.
 
 **Matt Broberg:** Yeah, yeah, an immaculate tail.
 
@@ -204,7 +204,7 @@ You only really need the bulk data to get the analysis piece to understand which
 
 **Matt Broberg:** This metaphor has gone off the rails, but I hear you... Yeah, so you're better on one end of it...
 
-**Jerod Santo:** \[unintelligible 00:14:38.19\] So I've always been at like a 90% stack. Where I lack a little bit in skills is usually in the CSS domain, where I can hold my own, but I do not feel like an expert. So I've always been very proficient at everything else...
+**Jerod Santo:** I don't know it's feeling pretty apropos at this point. So I've always been at like a 90% stack. Where I lack a little bit in skills is usually in the CSS domain, where I can hold my own, but I do not feel like an expert. So I've always been very proficient at everything else...
 
 **Matt Broberg:** Right.
 
