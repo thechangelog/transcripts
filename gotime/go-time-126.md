@@ -10,7 +10,7 @@
 
 **Jaana Dogan:** \[laughs\]
 
-**Mat Ryer:** You know, this subject, microservices and monoliths often generates a lot of heat... But not today, not on this show, because Jaana and I have sourced two extremely cordial and polite young me. The first is Matt Heath, from Monzo. Matt is a senior staff engineer at Monzo, which is a bank here in the U.K, where he works on Monzo's microservices platform. Hello, Matt.
+**Mat Ryer:** You know, this subject, microservices and monoliths often generates a lot of heat... But not today, not on this show, because Jaana and I have sourced two extremely cordial and polite young men. The first is Matt Heath, from Monzo. Matt is a senior staff engineer at Monzo, which is a bank here in the U.K, where he works on Monzo's microservices platform. Hello, Matt.
 
 **Matt Heath:** Hello! Thanks for having me.
 
@@ -92,7 +92,7 @@ You're not gonna have any guests for a while, so turn yourself around, if that h
 
 **Mat Ryer:** \[laughs\] Okay, great. So microservices versus monoliths then... Let's get into that. For anyone that doesn't know what these two things are, does anyone wanna give a broad overview, in highlight of what we're talking about here?
 
-**Matt Heath:** Yeah, I can give a brief intro. I'm sure you can all correct me... The way I say it is a long time ago, when I started writing software, I'd write fairly straightforward applications, and I've have one application, one codebase, and I'd deploy it in one go. And that was really quite nice and simple, and you have one component. And that has lots of pros and lots of cons.
+**Matt Heath:** Yeah, I can give a brief intro. I'm sure you can all correct me... The way I say it is a long time ago, when I started writing software, I'd write fairly straightforward web applications, and I've have one application, one codebase, and I'd deploy it in one go. And that was really quite nice and simple, and you have one component. And that has lots of pros and lots of cons.
 
 And in my experience, as the applications got larger and larger, sometimes you want to break those things into smaller components. You can do that through classes, or various other approaches, depending on the language. Modules, obviously, in Go. And then I think the real difference is if you want to deploy them independently. That's certainly the approach that I've seen quite a lot, where you have a number of applications that are either relatively simple servers, but you can have many of them, and they all talk to each other through HTTP, or some other mechanism. You might have a small number or you might have a very large number of them, that would depend... \[laughter\]
 
@@ -208,7 +208,7 @@ As an example, we've built our own Mastercard processor. So Monzo is both an iss
 
 **Tom Wilkie:** Do you run regionally within Monzo, and would you count the same service in two regions as two different services?
 
-**Matt Heath:** \[00:24:13.29\] So currently we run across three availability zones, and some physical locations, for a variety of reasons. Those would still be -- we treat that as like one deployment. I think as we move into having many Kubernetes clusters, that deployment that many of our engineers will see may translate to many Kubernetes deployments, but we would still see that as one deployment of a service, just running in different geographic regions.
+**Matt Heath:** \[00:24:13.29\] So currently we run across three availability zones, and some physical locations, for a variety of reasons. Those would still be -- we treat that as like one deployment. I think as we move into having many Kubernetes clusters, that deployment that many of our engineers will see may translate to many Kubernetes deployments, but we would still see that as a deployment of a service, just running in different geographic regions.
 
 But yeah, the thing that we're trying to do is provide isolation, which we kind of talked about, and the ability to independently tune them, but also reducing the blast radius. As an example, we don't really have one API. If we built many services that broke up our domain logic, we would have just ended up with one huge application that was an API that provided that to our apps, and various other parties. So instead we follow a kind of similar pattern to Netflix, where we have a gateway, a bit like Zuul, and then behind that there's 200 or so APIs. So every path is a different binary, which is a different deployment. So lots of moving parts...
 
@@ -404,7 +404,7 @@ The way that we've done that - we've used Go interfaces actually to describe our
 
 **Break:** \[00:48:47.08\]
 
-**Mat Ryer:** So testing is another area that I think is quite interesting. One of the things that appeals to me with the microservices is this idea that you could really well test it. You could test that service almost every possible input and output. You could test it that much if you so inclined... And because it's so focused, then hopefully you create good tests as well. Are there other things to consider when it comes to testing? Does it get easier or harder, have you found?
+**Mat Ryer:** So testing is another area that I think is quite interesting. One of the things that appeals to me with the microservices is this idea that you could really well test it. You could test that service almost every possible input and output. You could test it that much if you're so inclined... And because it's so focused, then hopefully you create good tests as well. Are there other things to consider when it comes to testing? Does it get easier or harder, have you found?
 
 **Matt Heath:** A controversial opinion, perhaps - is that testing always useful?
 
@@ -454,7 +454,7 @@ The way that we've done that - we've used Go interfaces actually to describe our
 
 **Tom Wilkie:** \[00:55:57.11\] A lot of people will argue for testing in production... And I'm not one of them, but they've got some very good points. If you can arrange a system... You know, I've never been a huge fan of service meshes, but this is one of the things they can do which is really kind of nice... Is partition off a separate area of effectively production, that you can use for testing. That is kind of a nice system.
 
-**Matt Heath:** Yeah, those are the two main areas that we're looking at at the moment... One of them - we ran our last crowdfunding through the same platform, which at face value might sound insane, but it allowed us to use many of the same systems to make things reliable, but it requires to load-test lots of things. So we built a shadow traffic system there, where we can multifamily traffic at our edge, and we can replay that traffic through the production infrastructure, so that we can effectively get the same usage patterns, but just dramatically scaled up. We use that as one kind of load testing system, and we run that periodically.
+**Matt Heath:** Yeah, those are the two main areas that we're looking at at the moment... One of them - we ran our last crowdfunding through the same platform, which at face value might sound insane, but it allowed us to use many of the same systems to make things reliable, but it requires to load-test lots of things. So we built a shadow traffic system there, where we can multiply traffic at our edge, and we can replay that traffic through the production infrastructure, so that we can effectively get the same usage patterns, but just dramatically scaled up. We use that as one kind of load testing system, and we run that periodically.
 
 The other aspect is the service mesh approach that you mentioned, Tom. One of the things that we've added recently is if you're propagating a context all the way through your request, which allows you to pass trace IDs, and various other useful stuff, we can propagate the environment through that as well, and we have mechanisms to make sure they're not modified. But that allows us to mirror production traffic into another environment, or mirror staging traffic into another environment. Those are the things we're looking at at the moment... Not in production yet, but we've got prototypes of those running in our staging environments at the moment, for testing, and isolation between different teams, to be honest, which is a big benefit there.
 
@@ -480,7 +480,7 @@ The other aspect is the service mesh approach that you mentioned, Tom. One of th
 
 **Mat Ryer:** Okay. Well, then do you want to do an unpopular one?
 
-**Tom Wilkie:** I think I'll choose configuration management. I'm gonna say -- obviously, no one loves YAML. That's not an unpopular opinion. But I really despise Helm... And for good reason. I don't wanna belittle the work that the engineers have done, and it's incredibly popular, so clearly onto something... But the level of boilerplate templating and repetition that's been encouraged by Helm is something that really grinds my gears.
+**Tom Wilkie:** I think I'll choose configuration management. I'm gonna say -- obviously, no one loves YAML. That's not an unpopular opinion. But I really despise Helm... And for good reason. I don't wanna belittle the work that the engineers have done, and it's incredibly popular, so they are clearly onto something... But the level of boilerplate templating and repetition that's been encouraged by Helm is something that really grinds my gears.
 
 We at Grafana Labs - and we've been encouraging anyone who will listen - use something called Jsonnet. Jsonnet is this config language that extends JSON with functions, and comprehensions, and all the jazz. From there, it has this really nice operator that allows you to compose together two dictionaries, like merge together two dictionaries.
 
