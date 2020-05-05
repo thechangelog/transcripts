@@ -66,17 +66,17 @@ The main things in quality were applying design techniques, then showing them ho
 
 **Adam Stacoviak:** Yeah...
 
-**William Nichols:** And we showed them that "You should be able to get in the test, and it should run the test first time. You're not gonna get into here and run the test to find out where your problems were and fix the ones \[unintelligible 00:09:46.16\] You're gonna actually get it to run the first time. The thinking here is this makes the entire development process more consistent, it makes it more predictable, and it gets you a much higher quality product in the end.
+**William Nichols:** And we showed them that "You should be able to get in the test, and it should run the test first time. You're not gonna get into here and run the test to find out where your problems were and fix the ones that hit, you're gonna actually get it to run the first time. The thinking here is this makes the entire development process more consistent, it makes it more predictable, and it gets you a much higher quality product in the end.
 
 So there were a handful of adopters, and the people who were in these PSP courses were from industry. There were some university classes, but 90% of the data was from industry; it was from organizations that we were working with, trying to teach them how to manage software projects. And part of the training was taking the PSP course.
 
-So the developers on the team would all take the course, they'd learn these techniques for how to estimate it, how to improve quality... And then we'd use that to help them manage their project. And we had some very notable successes with that. I could go into a few examples, but probably the most spectacular was the rewrite of the \[unintelligible 00:10:48.29\] is the stock trading engine they use in Mexico... And they were falling behind, and there really are only a handful of engines in the world, a handful of those big trading engines for stocks, derivatives and so forth... One of them was in Mexico.
+So the developers on the team would all take the course, they'd learn these techniques for how to estimate it, how to improve quality... And then we'd use that to help them manage their project. And we had some very notable successes with that. I could go into a few examples, but probably the most spectacular was the rewrite of the BursaTech trading engine. You've probably never heard of it, but BursaTech is the stock trading engine they use in Mexico... And they were falling behind, and there really are only a handful of engines in the world, a handful of those big trading engines for stocks, derivatives and so forth... One of them was in Mexico.
 
 Their choice was either rewrite it, because it couldn't keep up with modern times, or buy the one they were using in New York or London. So they decided to rewrite it. And they with a relatively small team - I think maximum was a couple dozen people - it took them a little over a year. They put together probably about 500,000 lines of code. They had to run it in shadow mode before it went operational.
 
 In the first year of operations it had a total of downtime that was in the order of minutes. Literally, minutes of downtime. And their performance was about a factor of ten. They could handle about ten times the number of transactions of any system that existed at the time.
 
-So that was part of the benefit of doing things right the first way, doing things \[unintelligible 00:12:00.24\] That was kind of where all of this PSP training was coming from.
+So that was part of the benefit of doing things right the first way, doing things in a disciplined manner. That was kind of where all of this PSP training was coming from.
 
 **Jerod Santo:** \[00:12:07.03\] Gotcha.
 
@@ -118,7 +118,7 @@ And by just throwing these into bins and aggregating them, you can get a pretty 
 
 What I did initially was I said "Okay, everyone's done the same program." What was the variation of how long it took them to get that program done? I said "I'm not gonna complicate this by looking across different languages... Let's just look at the people who used the same language." That's why I trimmed it down to about 13% of the dataset, and just looked at the C programmers. I can do this with C++ and Java, with slightly smaller datasets. Beyond that it gets into really small data... But let's use the same program.
 
-\[00:15:56.19\] Okay... Now I \[unintelligible 00:15:56.23\] to 494 of these developers. I ranked them 1 through 494. I used 500 because it's close and it's a round number. There were essentially 500. Okay... And I could actually, rather than looking at the size of the program and lines of code or anything, I just said "How long did it take them to finish?" Okay. Then I did the same thing with the second program and the third. And one of the things that really struck me was that the distribution of the times was just remarkably consistent.
+\[00:15:56.19\] Okay... Now I it turned out there were 494 of these developers. I ranked them 1 through 494. I used 500 because it's close and it's a round number. There were essentially 500. Okay... And I could actually, rather than looking at the size of the program and lines of code or anything, I just said "How long did it take them to finish?" Okay. Then I did the same thing with the second program and the third. And one of the things that really struck me was that the distribution of the times was just remarkably consistent.
 
 The ratio of the fastest programmer to the 25th percentile, the median, the 75th - they looked like almost straight lines if you plot these across the ten programs. There was a lot of jitter when you looked at the outliers, the ones in the slowest 25%. A lot of variation there.
 
@@ -176,7 +176,7 @@ And their range - this range of where you could place them was pretty close to h
 
 You should be aware that not everyone that took the class was a professional programmer. We had some people here who were managers, who hadn't programmed in a while. We had some people who might have been with the process improvement group, who weren't current... So it's not too surprising that we had some outliers on the slow side. But what the data was telling me is that - yeah, there's definitely a difference between your best programmers and your weakest programmers.
 
-It gets really hard to tell the difference between a good programmer and a pretty good one. You can kind of tell an average programmer from your very best, but you'd better have a few data points, because there's a good change that you're gonna get them wrong if you just take one sample.
+It gets really hard to tell the difference between a good programmer and a pretty good one. You can kind of tell an average programmer from your very best, but you'd better have a few data points, because there's a good chance that you're gonna get them wrong if you just take one sample.
 
 **Adam Stacoviak:** Did you have any of this spectrum across the years? You mentioned it was over a decade, is that right?
 
@@ -204,7 +204,7 @@ And when I say "within", I say "What is the variation of an individual programme
 
 I did not get a chance to look at their behavior over time. We didn't get a chance to revisit that. But we did get a chance to look at what was the behavior of this overall super-group of programmers, what was the variation there, and what was the variation of the individual programmer.
 
-The funny thing is when I looked at the total variation, when I did things like regressions, and very conventional measures variation, it was almost 50/50. That is almost half the variation was what \[unintelligible 00:25:31.25\] 500 developers, and about half the variation was within individual developers. So it told me that the individual programmer varied from himself almost as much as the different programmers varied from each other. Now, again, to be clear, that doesn't mean that some programmers really aren't better than others...
+The funny thing is when I looked at the total variation, when I did things like regressions, and very conventional measures variation, it was almost 50/50. That is almost half the variation was what total group wide among the 500 developers, and about half the variation was within individual developers. So it told me that the individual programmer varied from himself almost as much as the different programmers varied from each other. Now, again, to be clear, that doesn't mean that some programmers really aren't better than others...
 
 **Jerod Santo:** Sure.
 
@@ -258,7 +258,7 @@ You can look at the guy who shoots 65% from threes (well, no one really does tha
 
 **Jerod Santo:** Oh yeah, 1980.
 
-**William Nichols:** Herb Brooks said "I don't want the best players, I want the best team." He was criticized for not taking some really good hockey players... But he had a specific type of game he wanted to play. He needed certain types of skills and he needed a certain mix of skills to make it work. And for a software development team it's really the same thing. It's not like you have to have the \[unintelligible 00:34:18.12\] surgical team, but you do need to have certain types of skills. You need to have people who know how to use different tools. You wanna have people who are really good at design.
+**William Nichols:** Herb Brooks said "I don't want the best players, I want the best team." He was criticized for not taking some really good hockey players... But he had a specific type of game he wanted to play. He needed certain types of skills and he needed a certain mix of skills to make it work. And for a software development team it's really the same thing. It's not like you have to have the Harlan Mills surgical team, but you do need to have certain types of skills. You need to have people who know how to use different tools. You wanna have people who are really good at design.
 
 We've been most effective when we had one or two people who were really, really good at reviewing work... They might have been really good at reviewing designs, they might have been really good at reviewing code. And when you put those on a team, it's where you get that situation where the whole really is more than the sum of the parts.
 
@@ -312,7 +312,7 @@ So it's really a matter of -- you're taking these numbers entirely as a way of g
 
 **Adam Stacoviak:** No.
 
-**William Nichols:** \[00:39:52.25\] Oh, okay, look up "replication crisis". There's a lot of literature on that, especially since about 2005. A Stanford professor -- don't ask me to pronounce his name \[unintelligible 00:40:01.00\] was noting that it was very hard to find results in social sciences that replicate. And a lot of that is because of a number of very predictable thing. You're gonna have the \[unintelligible 00:40:11.17\] effect "If you don't find what you want, your study never sees the light of day." There are all sorts of things that people call, like p-hacking. P is the measure of statistical significance.
+**William Nichols:** \[00:39:52.25\] Oh, okay, look up "replication crisis". There's a lot of literature on that, especially since about 2005. A Stanford professor -- don't ask me to pronounce his name Ioannidis was noting that it was very hard to find results in social sciences that replicate. And a lot of that is because of a number of very predictable things. You're gonna have the file drawer effect... "If you don't find what you want, your study never sees the light of day." There are all sorts of things that people call, like p-hacking. P is the measure of statistical significance.
 
 So there are easy ways that if you wanna get a result, you can manipulate your data to kind of nudge it in that direction.
 
@@ -372,7 +372,7 @@ So it's got some of that noise, but we knew "Was this defect injected in the req
 
 We've found that, by and large, it just wasn't growing that fast. It was growing, but typically if you've found a defect during your development, it was pretty cheap. If you've found it after development, it took a factor typically a couple of times as big to fix.
 
-It took longer to find and fix if it was a test-type defect, compared to (say) a review defect. But once \[unintelligible 00:45:06.02\] it was relatively flat... So one of the inferences would be that modern development has really flattened that curve. I don't know how long you guys have been -- when I started programming, my first program I wrote on punch cards.
+It took longer to find and fix if it was a test-type defect, compared to (say) a review defect. But once it was any kind of test or field, it was relatively flat... So one of the inferences would be that modern development has really flattened that curve. I don't know how long you guys have been -- when I started programming, my first program I wrote on punch cards.
 
 **Jerod Santo:** You beat us.
 
@@ -388,7 +388,7 @@ It took longer to find and fix if it was a test-type defect, compared to (say) a
 
 **William Nichols:** Yeah. I learned how to program with Emacs, but it was really hard in the early days, wherein you had to do these builds on programs, and they would take forever because you had to recompile everything based on cards, or you had to submit it to a batch system... The modern development environment, with most things at your desktop, the builds are so quick - a lot of things that really took a long time before have been flattened.
 
-Developer-facing time on fixing those things isn't all that different. Yeah, for a \[unintelligible 00:46:10.20\] it can be hard to find the actual source of the problem...
+Developer-facing time on fixing those things isn't all that different. Yeah, for a field of defect it can be hard to find the actual source of the problem...
 
 **Jerod Santo:** Yeah...
 
@@ -440,7 +440,7 @@ Superficially, it sounds like they're at odds. They really aren't. But the minds
 
 **William Nichols:** Sure. I wrote a technical report, but that's mostly just a data dump. Technically, I had to get a lot of the data out there, so that I could publish it openly; it had to go through a lot of different approvals. The underlying problem is we have all of these commercial tools for analyzing code and finding defects.
 
-You're probably familiar with things \[unintelligible 00:53:32.22\] These things are very good at finding defects... And I wasn't really interested in comparing one to another, because they often find different types of things. But the question was "How do they affect the software development process?" If I'm a program manager and I have to make a decision, should I spend the money to put these things on the project, and have the developers use them? Is that money well spent?
+You're probably familiar with things like Coverity, Clang, SonarQube, Klocwork, FxCop... These things are very good at finding defects... And I wasn't really interested in comparing one to another, because they often find different types of things. But the question was "How do they affect the software development process?" If I'm a program manager and I have to make a decision, should I spend the money to put these things on the project, and have the developers use them? Is that money well spent?
 
 So I decided I could look at this from a very narrow standpoint - I don't care about how much they spend specifically (that's a financial problem), but using these tools, how much time do they take? How many defects do they find? And what I was finding was that pretty consistently the teams that I was following, the teams that I had data for, that use these tools, were consistently finding defects, they were removing them... Removal costs were relatively low, and from an economic standpoint, at the margins, they were actually finishing faster, and spending less time in development. So operationally at least, these tools had a small but measurable improvement in the performance.
 
@@ -494,7 +494,7 @@ So I did some parametric averages of the defects finds in different phases, and 
 
 **Jerod Santo:** \[01:00:00.15\] Gotcha.
 
-**William Nichols:** Exactly. Basically, with something like a COCOMO \[unintelligible 01:00:03.09\] about how big is the software gonna be; it might start out with a function point estimate, but you have to get into something like lines of code. You'll put a bunch of tuning parameters, like "What is the experience of the developers who are gonna work on this? Is this precendeted?" Various types of parameters... And you get an estimate out at the end. COQUALMO basically uses what I would call a parameterized defect containment model to estimate the costs associated with managing quality during the development.
+**William Nichols:** Exactly. Basically, with something like a COCOMO you'll get some kind of wag about how big is the software gonna be; it might start out with a function point estimate, but you have to get into something like lines of code. You'll put a bunch of tuning parameters, like "What is the experience of the developers who are gonna work on this? Is this precendeted?" Various types of parameters... And you get an estimate out at the end. COQUALMO basically uses what I would call a parameterized defect containment model to estimate the costs associated with managing quality during the development.
 
 **Jerod Santo:** So you mentioned you had anecdotal evidence on the improvement side... And you had good results on the TSP data that you had...
 
@@ -622,7 +622,7 @@ I'll give you another example... Have you ever heard of William Shockley?
 
 **William Nichols:** \[01:12:06.26\] He was such a terrible person to work for that the guy who founded Intel left and made a fortune, because he couldn't stand working for Shockley. But Shockley wrote a short paper thinking about "Why are some people so much more productive than others, from writing papers?" And he sat down, thought about "Well, let's see... To have a good paper, you have to have a good idea. You have to be good at managing the research. You have to be really good at collecting and managing your data. You have to be really good at writing." He'd put together a list of maybe six, seven items, just brainstorming, that you had to be good at.
 
-So he said, "Okay, what are the odds that someone's gonna be better than average in these seven different categories?" And he said "Oh, that's gonna lead you to a \[unintelligible 01:12:56.19\] distribution" which is kind of what we see, isn't it? Well, I would take that as - yeah, you're not going to find too many people who are better than average at seven different categories.
+So he said, "Okay, what are the odds that someone's gonna be better than average in these seven different categories?" And he said "Oh, that's gonna lead you to a log-normal distribution" which is kind of what we see, isn't it? Well, I would take that as - yeah, you're not going to find too many people who are better than average at seven different categories.
 
 **Jerod Santo:** Right.
 
@@ -640,7 +640,7 @@ Now, you always have that individual that will be the Scottie Pippen, the force 
 
 **William Nichols:** ...when you're trying to build a strong team, do the things that help you build a strong team. Don't wait for the Scottie Pippen to come around. Look for the ways to put together that effective team. Herb Brooks beat the mighty Soviet Red Army team.
 
-**Jerod Santo:** That's right. \[unintelligible 01:14:40.11\]
+**Jerod Santo:** That's right. The Miracle on Ice.
 
 **William Nichols:** With a bunch of college players.
 
