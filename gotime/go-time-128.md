@@ -196,7 +196,7 @@ So the problem is, of course, that you need the low-level access. And the great 
 
 So if you're writing a game, you typically use some kind of game engine, whether you're writing it yourself or it's some third-party thing, and you need all the drawing to go through that. By splitting up Gio from the actual operating system or native part, it's very easy to integrate with games. So yes, it's very much a thing that I'd like to see done with Gio. But the point is just that Gio in itself does not make writing games that much easier; it makes writing the user interfaces much easier, of course, I hope... But it doesn't really help you with the details of, say, writing a 3D game, or 2D game, or so on. So even though it's using the GPU, it doesn't give you the tools to efficiently and portable do an interesting game with.
 
-That is not quite true... So the guy (Eachan) who did the logo for Gio, has done some interesting animations with Gio, which was done quite inefficiently, because Gio doesn't give him that much to work with... But he still managed to get something that renders quite quickly on his machine. So it is, I suppose, possible to do a game, if it's vector-based, and so on.
+That is not quite true... So the guy (Egon) who did the logo for Gio, has done some interesting animations with Gio, which was done quite inefficiently, because Gio doesn't give him that much to work with... But he still managed to get something that renders quite quickly on his machine. So it is, I suppose, possible to do a game, if it's vector-based, and so on.
 
 **Jon Calhoun:** What is your ideal application that you'd like to see built with Gio? If something would just pop up and just blow you away and just excite you... Was there anything in mind whenever you were building it, that you'd really love to see built with it?
 
@@ -210,7 +210,7 @@ You don't see many new desktop applications done these days... And if you do, it
 
 **Mat Ryer:** Oh, that is cool. Well, you've mentioned the logo... I think projects should have logos, as a general rule; open source projects like this one. The Gio logo is very good, by the way. Compliments to -- who is it who did it?
 
-**Elias Naur:** Eachan \[unintelligible 00:43:21.28\] if I've pronounced his name correctly. He does a lot of these Go illustrations, and logos, and so on. At some point -- I think I mentioned on Twitter some months ago, and said "Well, it has a name, it has a website, but it doesn't have a logo. If anyone has ideas...", something like that. And I think half an hour passed and he came up and said "I'll do one if you like." And we did a bit of back-and-forth on the Slack channel, and then he came up with the logo... And I completely agree, I love that logo. It perfectly embodies what I think Gio is. It's simple, it's vector-based...
+**Elias Naur:** Egon Elbre (if I've pronounced his name correctly). He does a lot of these Go illustrations, and logos, and so on. At some point -- I think I mentioned on Twitter some months ago, and said "Well, it has a name, it has a website, but it doesn't have a logo. If anyone has ideas...", something like that. And I think half an hour passed and he came up and said "I'll do one if you like." And we did a bit of back-and-forth on the Slack channel, and then he came up with the logo... And I completely agree, I love that logo. It perfectly embodies what I think Gio is. It's simple, it's vector-based...
 
 **Mat Ryer:** Immediate...
 
@@ -384,11 +384,11 @@ Yeah, it's a great project... Thank you so much, and thanks for coming on the sh
 
 **Break:** \[01:00:32.12\]
 
-**Johnny Boursiquot:** When I came to the U.S. and I kept hearing "Casper, Casper, Casper...", I'm like "What is this Casper thing everybody keeps talking about?" He's like "Dad, this is a childhood thing... Casper, Casper!" And I finally saw Casper, the Friendly Ghost, the original -- I don't wanna say black and white, but it was an old, old either short, or film, or something. And I was like "Oh, okay. Casper, the Friendly Ghost."
+**Johnny Boursiquot:** When I came to the U.S. and I kept hearing "Casper, Casper, Casper...", I'm like "What is this Casper thing everybody keeps talking about?" He's like "Yeah, this is a childhood thing... Casper, Casper!" And I finally saw Casper, the Friendly Ghost, the original -- I don't wanna say black and white, but it was an old, old either short, or film, or something. And I was like "Oh, okay. Casper, the Friendly Ghost."
 
 Then I started seeing Casper on mattresses, and things, I started seeing Casper everywhere. I'm like "What?! I don't understand. This confusing." \[laughs\]
 
-**Mat Ryer:** I don't get that. What is it? Why was everyone talk about Casper so much, Johnny, when you moved to the U.S.? It's Casper \[unintelligible 01:02:55.27\] "You've not seen Casper?! You've gotta see Casper!" Everyone just loves it.
+**Mat Ryer:** I don't get that. What is it? Why was everyone talk about Casper so much, Johnny, when you moved to the U.S.? Is Casper all the thing? "You've not seen Casper?! You've gotta see Casper!" Everyone just loves it.
 
 **Johnny Boursiquot:** I know. Yeah, everybody's talking about Casper. I'm like, "I've gotta see this Casper cat." It turns out it was a ghost.
 
