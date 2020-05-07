@@ -398,7 +398,7 @@ I always think companies ought to do something extra for people that are contrib
 
 **Jaana Dogan:** Yeah, I revealed a secret...
 
-**Sean DuBois:** I feel successful, because the GoTime channel on Slack has gone off about my GPL comments... So I think I did. That was my only goal.
+**Sean DuBois:** I feel successful, because the GoTime channel on Slack has gone off about my GPL comments... So I think I did it.. That was my only goal.
 
 **Mat Ryer:** Yes, it turned out to be somewhat popular. And you also came out of this section looking like a saint, Sean... And that is not the purpose of Unpopular Opinion. It's meant to have the opposite effect. I want to damage careers, not help them...
 
