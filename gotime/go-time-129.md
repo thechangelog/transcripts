@@ -98,7 +98,7 @@ If you pick up a programming book and it' just strictly "This is how you do X", 
 
 So it just sort of spurred off of my history with Go. I started using Go -- I think 7-8 years ago might be the first commit to GitHub. We had a tool that was written in JavaScript using Node, and I basically used Go to rewrite that. That was my first introduction. After that, it sort of became the tool for everything. Obviously, it doesn't handle anything that we need, but I think it was most of the tasks. I became very productive with it, so after an extended period of time I felt like we could do a book like this. My co-authors Dan Kottmann and Chris Patten, they're also amazing Go developers as well, and the certainly -- the book wouldn't have come to a close without those guys. Certainly Dan pushed it to the end for us as well.
 
-**Johnny Boursiquot:** So if I may give a review of this book, I've been having fun with it, honestly. It has shown me different use cases for Go, that I typically don't think about... I'm like "Oh, you CAN do that with Go..." And now I have a whole new appreciation for the net package... I'm blown away by some of the things you can do, and I've been having fun with it, extracting bits and pieces there, and meetups, and teaching people about writing more scanners, and building proxies, and things... It's been incredibly fun having these kinds of projects, where you're not just learning syntax, you're not just learning the mechanics of Go, but you have things to build that are kind of fun.
+**Johnny Boursiquot:** So if I may give a review of this book, I've been having fun with it, honestly. It has shown me different use cases for Go, that I typically don't think about... I'm like "Oh, you CAN do that with Go..." And now I have a whole new appreciation for the net package... I'm blown away by some of the things you can do, and I've been having fun with it, extracting bits and pieces there, and meetups, and teaching people about writing port scanners, and building proxies, and things... It's been incredibly fun having these kinds of projects, where you're not just learning syntax, you're not just learning the mechanics of Go, but you have things to build that are kind of fun.
 
 I've really been enjoying this book, so kudos to you and the others. This is a really great book, and I'm having fun with it.
 
@@ -424,7 +424,7 @@ So it's interesting that it's worth thinking of just the very practical ways of 
 
 **Tom Steele:** It comes right back up?
 
-**Roberto Clapis:** Yes... \[laughter\] Why did you build this? If it finally goes down, why is it up anyways? Turn it off."
+**Roberto Clapis:** Yes... \[laughter\] Why did you build this? If it's fine if it goes down, why is it up anyways? Turn it off."
 
 **Mat Ryer:** I thought they were gonna say "Don't send that bit." Don't send that byte, or whatever it is.
 
