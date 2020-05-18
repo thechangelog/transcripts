@@ -90,11 +90,11 @@ In October, when 14 becomes active LTS, Node 12 will be in maintenance LTS, whic
 
 **Christopher Hiller:** Yeah, it's slow.
 
-**Jerod Santo:** I'm a brew-install Node kind of guy.
+**Jerod Santo:** I'm a `brew install node` kind of guy.
 
 **Nick Nisi:** I've heard that that's not officially supported, and there's problems with that... \[laughter\]
 
-**Jerod Santo:** Well, I'm a problematic kind of guy, apparently... I'm on 13, but \[unintelligible 00:11:21.20\]
+**Jerod Santo:** Well, I'm a problematic kind of guy, apparently... I'm on 13.
 
 **Divya:** It is on their website.
 
@@ -212,7 +212,7 @@ So that's why you need something like is-promise, because you need to be able to
 
 **Jerod Santo:** \[00:20:19.01\] Wow...
 
-**Christopher Hiller:** If something is a then( ) function, it's a promise...
+**Christopher Hiller:** If something has a then( ) function, it's a promise...
 
 **Divya:** \[laughs\] Easy...
 
@@ -220,7 +220,7 @@ So that's why you need something like is-promise, because you need to be able to
 
 **Divya:** Wow...
 
-**Jerod Santo:** So I would submit that a better solution than a package called is-promise is some documentation, or a blog post that's the number one hit on your favorite search engines of choice, that says "How do I find out if it's a promise?" And it says "Check for then( ) function." Wouldn't that route around issues like these? And we could all just check for a then( ) function.
+**Jerod Santo:** So I would submit that a better solution than a package called is-promise is some documentation, or a blog post that's the number one hit on your favorite search engines of choice, that says "How do I find out if it's a promise?" And it says "Check for a then( ) function." Wouldn't that route around issues like these? And we could all just check for a then( ) function.
 
 **Christopher Hiller:** So the thing with these one-line packages - and I haven't looked at this one, but I've used plenty of one-line packages before - is that one line is gonna have like 200 lines of tests. They will test the hell out of that one line; and if you write that one line in your code, I can guarantee you're not gonna do that. So that's the benefit. It's a trade-off, of course, because something like this can happen.
 
