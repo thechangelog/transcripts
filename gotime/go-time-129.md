@@ -66,7 +66,7 @@ Joining me today, Johnny Boursiquot. Hello, Johnny!
 
 **Roberto Clapis:** Oh, physical one?
 
-**Johnny Boursiquot:** I know, right? \[unintelligible 00:05:48.27\]
+**Johnny Boursiquot:** I know, right? Dead tree..
 
 **Mat Ryer:** I didn't know they did those. They just printed out the internet. \[laughter\] You should get Tom to sign it for you.
 
@@ -96,7 +96,7 @@ So I think more along the terms of what No Starch was thinking, was like these a
 
 If you pick up a programming book and it' just strictly "This is how you do X", like "This is how you handle arrays", or "This is how you do a for loop" - that's great, but if you give yourself projects that you can actively use in your work, those tend you help you learn the language quicker. So that was really what we were going for.
 
-So it just sort of spurred off of my history with Go. I started using Go -- I think 7-8 years ago might be the first commit to GitHub. We had a tool that was written in JavaScript using Node, and I basically used Go to rewrite that. That was my first introduction. After that, it sort of became the tool for everything. Obviously, it doesn't handle anything that we need, but I think it was most of the tasks. I became very productive with it, so after an extended period of time I felt like we could do a book like this. My co-authors Dan Kottmann and Chris Patten, they're also amazing Go developers as well, and the certainly -- the book wouldn't have come to a close without those guys. Certainly Dan pushed it to the end for us as well.
+So it just sort of spurred off of my history with Go. I started using Go -- I think 7-8 years ago might be the first commit to GitHub. We had a tool that was written in JavaScript using Node, and I basically used Go to rewrite that. That was my first introduction. After that, it sort of became the tool for everything. Obviously, it doesn't handle anything that we need, but I think it was most of the tasks. I became very productive with it, so after an extended period of time I felt like we could do a book like this. My co-authors Dan Kottmann and Chris Patten, they're also amazing Go developers as well, and they certainly -- the book wouldn't have come to a close without those guys. Certainly Dan pushed it to the end for us as well.
 
 **Johnny Boursiquot:** So if I may give a review of this book, I've been having fun with it, honestly. It has shown me different use cases for Go, that I typically don't think about... I'm like "Oh, you CAN do that with Go..." And now I have a whole new appreciation for the net package... I'm blown away by some of the things you can do, and I've been having fun with it, extracting bits and pieces there, and meetups, and teaching people about writing port scanners, and building proxies, and things... It's been incredibly fun having these kinds of projects, where you're not just learning syntax, you're not just learning the mechanics of Go, but you have things to build that are kind of fun.
 
@@ -104,7 +104,7 @@ I've really been enjoying this book, so kudos to you and the others. This is a r
 
 **Tom Steele:** Awesome. Thank you. I think that's probably the most useful aspect of Go for us, is the ability to just interface with TCP, and do it very quickly, and start doing interesting things, like writing odd proxies. The amount of times that we've been trying to get out of a network how to write some crazy proxy to get around things has been -- we've done a lot, we've done quite a bit... So yeah, it's awesome.
 
-**Roberto Clapis:** That has been basically my experience with Go. During a penetration test we needed to build a weird proxy. We needed to take a WebSocket on one side, and needed to downgrade it to a TCP connection on the other side, because that's what we got; because when you do a penetration test, you get going whatever you get going. So we needed to write a proxy, and I had just started learning Go... And I said "Well, \[unintelligible 00:11:28.23\], the other one is a readWriteCloser. I can just io.Copy them together and let's see if it works." And it worked.
+**Roberto Clapis:** That has been basically my experience with Go. During a penetration test we needed to build a weird proxy. We needed to take a WebSocket on one side, and needed to downgrade it to a TCP connection on the other side, because that's what we got; because when you do a penetration test, you get going whatever you get going. So we needed to write a proxy, and I had just started learning Go... And I said "Well, one is a net.Conn, the other one is a io.ReadWriteCloser. I can just io.Copy them together and let's see if it works." And it worked.
 
 It was my first experience with Go in writing a tool that I actually needed at work... And it's a blast, because you just use Go, stuff that is in the standard library. Actually, in your book I think most of the imports you don't even mention them, because just running Go import on your snippet would import all the right packages, because you just use a lot of standard library and some external packages here and there, which I really appreciate.
 
@@ -230,7 +230,7 @@ Once I was out at dinner with a friend of mine, who is an extremely good softwar
 
 **Johnny Boursiquot:** Okay, so I'm seeing a lot of parallels with operations. In my line of work - and I do SRE currently - I've found that developers and engineers tend to think of the operability of something towards when they start needing to ship it. It's like a concern, like "Oh yeah, I'll worry about that when I get to it." And then we sit down, and I'm like "Well, have you thought about this? Have you thought about that, before putting this thing into production?" They're like "Ohhh...! Yeah, let me go back and fix that."
 
-So it's almost like security, and making sure that your software isn't vulnerable to some obvious things. It sounds like this is also one of those things where, you know, as an engineer, folks are building features, and then you go sit down with a security review team, and they start poking holes in your thing, and you're like "Ugh... Now I've gotta go back and plug those holes." The art of engineering requires so much more than just writing features, and I'm seeing \[unintelligible 00:30:47.22\] in this talk.
+So it's almost like security, and making sure that your software isn't vulnerable to some obvious things. It sounds like this is also one of those things where, you know, as an engineer, folks are building features, and then you go sit down with a security review team, and they start poking holes in your thing, and you're like "Ugh... Now I've gotta go back and plug those holes." The art of engineering requires so much more than just writing features, and I'm seeing this parallel in this talk.
 
 **Tom Steele:** Yeah, I agree. I think that you obviously wanna try to design your feature with security in mind from the beginning. However, I am very sympathetic to that, to basically having to just get something running. That's another flaw that you see a lot in the security industry too, is the exact opposite, where they come in and they basically go "This has no security", but they're not thinking about the fact that it works, or it needs to work first. So there's a lot that goes into building and just making a product run, that sometimes you need to be able to give up a little bit of security as well while you're getting that going. So I think there's a happy medium, and that medium is constantly moving, depending on your risk.
 
@@ -260,13 +260,13 @@ I'm not gonna get into this, but the lack of generics probably helps in some of 
 
 **Mat Ryer:** That is cool then.
 
-**Roberto Clapis:** Yeah, the HTML template does \[unintelligible 00:34:02.24\]
+**Roberto Clapis:** Yeah, the HTML template does contextual escaping.
 
 **Mat Ryer:** Yes.
 
 **Roberto Clapis:** I think Go was one of the first languages in the open source world that had it. Maybe there was a Java library by Google, but...
 
-**Tom Steele:** If you go check out the documentation for that library, you'll basically see a reference to a paper about congestion aware encoding, and I don't think any other language read that paper and implemented it... I'll talk about it with one of \[unintelligible 00:34:27.05\]
+**Tom Steele:** If you go check out the documentation for that library, you'll basically see a reference to a paper about context-aware coding, and I don't think any other language read that paper and implemented it... I'll talk about it with one of \[unintelligible 00:34:27.05\]
 
 **Mat Ryer:** So for anyone not familiar, this is where when the template is rendered, it knows if it's putting it inside, say, an attribute, versus in the body as HTML to be seen, and things like that. It does different things, depending on the context.
 
@@ -280,13 +280,13 @@ Also, the paper that you were talking about, Tom - I think it's like several ten
 
 **Roberto Clapis:** Yeah, it's not for everyone.
 
-**Mat Ryer:** Well, the Go team read that kind of stuff for breakfast, don't they? That's what I like, because it solved for us, and as developers we get to just use it. So thinking about that then, are there any common gotchas? And actually, this was a question I got from Kamal on Twitter. He asks "What are the most common mistakes that developers make that lead to exploits and security vulnerabilities?"
+**Mat Ryer:** Well, the Go team read that kind of stuff for breakfast, don't they? That's what I like, because it's solved for us, and as developers we get to just use it. So thinking about that then, are there any common gotchas? And actually, this was a question I got from Kamal on Twitter. He asks "What are the most common mistakes that developers make that lead to exploits and security vulnerabilities?"
 
-**Tom Steele:** \[00:35:59.25\] Yeah, so I've thought about this... At Atredis we've actually tested quite a number of Go applications. We do a lot of software security type of things, and so the things that I see -- was gonna go into that, this is actually a nice feature of Go... For example, say you wanna take JSON and you wanna move that into a struct that you eventually wanna insert into a database; this is a very common thing... The nice thing about Go is that you're explicitly defining the fields that you want in that struct. So you're not gonna get random fields.
+**Tom Steele:** \[00:35:59.25\] Yeah, so I've thought about this... At Atredis we've actually tested quite a number of Go applications. We do a lot of software security type of things, and so the things that I see -- I was gonna go into that, this is actually a nice feature of Go... For example, say you wanna take JSON and you wanna move that into a struct that you eventually wanna insert into a database; this is a very common thing... The nice thing about Go is that you're explicitly defining the fields that you want in that struct. So you're not gonna get random fields.
 
-For example, if you're using something like Node, we see this a lot, where they basically take request.body, if you're familiar with that, and they slam it into a database and now you've got \[unintelligible 00:36:36.09\]
+For example, if you're using something like Node, we see this a lot, where they basically take request.body, if you're familiar with that, and they slam it into a database and now you've got real problems at hands.
 
-So what I see is that actually works quite well, because now you know the objects that you want; "objects" in quotes. And now you've also defined the field types; you know that what's coming in is gonna be a string. Sometimes it might cast \[unintelligible 00:36:54.27\] depending on the library that you're using, and that sort of thing, but you are defining at least the data types that you want coming in.
+So what I see is that actually works quite well, because now you know the objects that you want; "objects" in quotes. And now you've also defined the field types; you know that what's coming in is gonna be a string. Sometimes it might cast an integer to a string depending on the library that you're using, and that sort of thing, but you are defining at least the data types that you want coming in.
 
 So the stuff that I see just from that end is sometimes you have a struct that represents something that's in the database, a user item. If you serialize that directly into the database, directly from JSON, you've got something called mass assignment, where you're basically not filtering the fields that you expect, because your form might take three fields to find the user; the first name, the last name and the email address. However, what if you have another field that's like a boolean, "isadmin", or something like this... Just because your form doesn't provide that value doesn't mean that the user won't provide that. And when you serialize that JSON or that form value even into the struct, and then you put that struct in the database, you've got a serious problem on your hands now, because now they're starting to modify objects, and things like this. So I see that quite a bit.
 
@@ -296,7 +296,7 @@ This particular instance was basically they had a partial template that would lo
 
 But I think those are few and far between. I think most of the Go things that we're testing, people aren't actually using templates to render server-side anymore. They're mostly using a JSON or other services. However, I would probably stick to the standard Go template, or at least something that wraps that pretty thinly. That's just my opinion. But we don't see a lot of that stuff.
 
-We see that mass assignment issue... For whatever reason, when you've cross-site request forgery, we see the protections implemented, but often incorrectly.
+We see that mass assignment issue... For whatever reason, when you've got cross-site request forgery, we see the protections implemented, but often incorrectly.
 
 **Roberto Clapis:** Yeah. If I might add, I also saw that a lot... Because people don't have it in the standard library. It's an XSRF/CSRF token, so people don't see it, people don't know about it. So far, I've found that to be one of the most common vulnerabilities in Go applications.
 
@@ -308,7 +308,7 @@ We see that mass assignment issue... For whatever reason, when you've cross-site
 
 Basically, there needs to be an extra parameter that you strip away, but it needs to be there, and it needs to be tied to the user and to the session. Otherwise, attackers can craft those requests. I will link the package in the podcast.
 
-**Tom Steele:** \[00:39:57.18\] Yeah, and my advice there is -- yeah, the CSRF packages themselves are actually good. It's when you try to get clever. So my suggestion is be explicit. If you're building an HTTP application, build a handler that accepts only a post request. Don't process \[unintelligible 00:40:11.04\]. What I've seen is they protected the post verb with CSRF, but they will process ahead with the same value. That can be a big issue as well.
+**Tom Steele:** \[00:39:57.18\] Yeah, and my advice there is -- yeah, the CSRF packages themselves are actually good. It's when you try to get clever. So my suggestion is be explicit. If you're building an HTTP application, build a handler that accepts only a POST request. Don't process HEAD, GET and POST in the same handler because that's when you're going to end up with what I've seen is they protected the POST verb with CSRF, but they will process a HEAD with the same value. That can be a big issue as well.
 
 **Mat Ryer:** Hm. I'm just gonna go... \[laughter\]
 
@@ -316,7 +316,7 @@ Basically, there needs to be an extra parameter that you strip away, but it need
 
 **Tom Steele:** Yeah, so some CSRF bypass stuff is one... You see a lot of -- like, they wanna implement core setters, and I've seen some really interesting bypasses there, where you're not using the correct regex... But a lot of that stuff has been resolved.
 
-**Roberto Clapis:** Okay, but to be fair, CORS is hard.
+**Roberto Clapis:** Okay, but to be fair, [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is hard.
 
 **Tom Steele:** It's difficult, yeah.
 
@@ -342,7 +342,7 @@ I'm not super-happy with the way the validator libraries in Go work. There is on
 
 So the frameworks tend to hide and make things easy, and I remember back when I was doing Rails work, there were articles about how Rails basically prevents you from shooting yourself in the foot from a security standpoint. You can't get a little Bobby Tables kind of situation in your system if you're using Rails, because you're hoping that the framework is gonna take care of these things for you.
 
-\[00:43:57.20\] At the same time, when I think about it I'm like "Well, shouldn't I know as a developer why something is working \[unintelligible 00:44:02.11\] is working?" In order to be explicit - which is the advice we're giving here - that means you have to dive deeper; you have to go lower. Basically, leave the abstractions of the framework behind, get deeper, in order to know exactly what's going on. There must be some sort of happy medium there. I'm not sure where it is in the context of this conversation, but is it your advice to default to the explicitness, versus relying on packages and frameworks?
+\[00:43:57.20\] At the same time, when I think about it I'm like "Well, shouldn't I know as a developer why something is working or said it is working?" In order to be explicit - which is the advice we're giving here - that means you have to dive deeper; you have to go lower. Basically, leave the abstractions of the framework behind, get deeper, in order to know exactly what's going on. There must be some sort of happy medium there. I'm not sure where it is in the context of this conversation, but is it your advice to default to the explicitness, versus relying on packages and frameworks?
 
 **Roberto Clapis:** Personally, I think that if a framework is well-designed -- for example, Rails gives you a hand in Ruby. If a framework is well-designed or a package is well-designed, like the HTML template package, you should not know. You should be able to use it and not have vulnerabilities. That's how a framework should be done.
 
@@ -350,7 +350,7 @@ But then if you want to do an extra step... For example, in the HTML template pa
 
 **Tom Steele:** I definitely think there's things that you shouldn't implement yourself. I think you should rely on packages that you trust, if you can, from trusted sources. But you've gotta remember, if you import something, you're now responsible for it.
 
-With Go we've seen some interested things where some packages were overriding the \[unintelligible 00:45:45.01\] and HTTP clients and things like this, and you don't know that it's doing that. Or they're opening files in the background and you don't even look, because you're just like "This does the thing that I wanted it to do." But I don't think that you should implement everything yourself. When I said "be explicit", I meant more "Be explicit in what you accept as valid input from an unknown source." Don't trust the input coming in, and interrogate it as much as reasonable before processing it.
+With Go we've seen some interested things where some packages were overriding the user agent and HTTP clients and things like this, and you don't know that it's doing that. Or they're opening files in the background and you don't even look, because you're just like "This does the thing that I wanted it to do." But I don't think that you should implement everything yourself. When I said "be explicit", I meant more "Be explicit in what you accept as valid input from an unknown source." Don't trust the input coming in, and interrogate it as much as reasonable before processing it.
 
 In relation to that, we see good encryption, good use of encryption. No one's writing their own version of AES. But then I also see people using it incorrectly. The difficult thing with Go is people aren't writing -- typically, if they're leveraging Go, they're doing something probably pretty interesting, pretty difficult, as far as like they're breaking new ground in their application... Because this isn't just like "Well, I can just use WordPress and write a little plugin that does it." They're breaking new ground and doing something tough, so you might have to use encryption there.
 
@@ -420,7 +420,7 @@ So it's interesting that it's worth thinking of just the very practical ways of 
 
 **Johnny Boursiquot:** Or they assume it's gonna be handled at the edge of the network or something, by the provider or something.
 
-**Roberto Clapis:** One of my worst moments - I was presenting a vulnerability to the client and I showed that with a single packet I could make it backend-generate several tens of thousands of packets, and take it down. And they said "Well, it only goes down..."
+**Roberto Clapis:** One of my worst moments - I was presenting a vulnerability to the client and I showed that with a single packet I could make it backend-generated several tens of thousands of packets, and take it down. And they said "Well, it only goes down..."
 
 **Tom Steele:** It comes right back up?
 
@@ -474,7 +474,7 @@ So it's interesting that it's worth thinking of just the very practical ways of 
 
 **Roberto Clapis:** And do not expose that to the internet. Those are two steps you don't have to make, especially together.
 
-**Tom Steele:** Yeah. Don't just do everything as root. Use permissions, and use the least amount of privileges you need. Don't store your encryption keys in the database... Yeah. Also, \[unintelligible 00:57:28.19\] that you store in the database, too. Don't assume that just because it's in the database it hasn't been tainted with.
+**Tom Steele:** Yeah. Don't just do everything as root. Use permissions, and use the least amount of privileges you need. Don't store your encryption keys in the database... Yeah. Also, validate the signed ciphertext that you store in the database, too. Don't assume that just because it's in the database it hasn't been tainted with.
 
 **Mat Ryer:** That's a good point.
 
@@ -512,7 +512,7 @@ So it's interesting that it's worth thinking of just the very practical ways of 
 
 **Tom Steele:** Yeah, for sure.
 
-**Johnny Boursiquot:** Maybe you pull that from a database, or from some sort of YAML file that gets pulled, or at runtime you read it and then Boom!.=
+**Johnny Boursiquot:** Maybe you pull that from a database, or from some sort of YAML file that gets pulled, or at runtime you read it and then Boom!
 
 **Tom Steele:** Yeah, that's the correct way.
 
@@ -522,7 +522,7 @@ So it's interesting that it's worth thinking of just the very practical ways of 
 
 **Johnny Boursiquot:** Oh, bad move.
 
-**Tom Steele:** That way it works in \[unintelligible 00:59:26.26\]
+**Tom Steele:** That way it works in Test and in Prod.
 
 **Johnny Boursiquot:** Yup.
 
@@ -542,7 +542,7 @@ So it's interesting that it's worth thinking of just the very practical ways of 
 
 **Tom Steele:** Yeah, you pilfer. That's right. You find the ciphertexts, and you find the banking data, things like that.
 
-**Mat Ryer:** Yeah... It's good stuff \[unintelligible 01:00:07.18\] We're approaching the end, but we've got a bit of time...
+**Mat Ryer:** Yeah... It's good stuff in it I bet. This is it any final thoughts? We're approaching the end, but we've got a bit of time...
 
 **Roberto Clapis:** I have an unpopular opinion.
 
