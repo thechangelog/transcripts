@@ -1,6 +1,6 @@
-**Johnny Boursiquot:** Hello, and welcome to this episode of Go Time. Once again, thank you very much for those of you who listen to the show regularly, and a special shout-out to our live listeners and those than engage with us on the Gophers Slack channel on a regular basis. If you also want to join the fun, do check out gotime.fm for all the details. Again, thank you so much. You all make this recording every week worthwhile, you make it more fun.
+**Johnny Boursiquot:** Hello, and welcome to this episode of Go Time. Once again, thank you very much for those of you who listen to the show regularly, and a special shout-out to our live listeners and those that engage with us on the Gophers Slack channel on a regular basis. If you also want to join the fun, do check out gotime.fm for all the details. Again, thank you so much. You all make this recording every week worthwhile, you make it more fun.
 
-I'm Johnny Boursiquot, I will be your co-host for today. Joining me also so co-host is Jon Calhoun. Say hello, Mr. Calhoun.
+I'm Johnny Boursiquot, I will be your co-host for today. Joining me also as co-host is Jon Calhoun. Say hello, Mr. Calhoun.
 
 **Jon Calhoun:** Hey, Johnny. How are you?
 
@@ -40,7 +40,7 @@ I think about, when I make a method call, the execution kind of ping-pongs throu
 
 **Jon Calhoun:** It's interesting that you mentioned the happy path, because as far as I can tell, there's nothing specific about Go (the language itself) that enforces that. It's just kind of the convention everybody's adopted, and I don't know if it's the fact that all the developers who were working on it were working on complicated enough problems that they were like "We need some sort of sanity check here" or what... But all these other languages - there's definitely no reason why they couldn't do it.
 
-I remember when I first started programming - I think it was Java, is what I saw it in... And there were people who made the argument that if you ever have an if statement, there should be an else statement. And in Go it's the exact opposite argument. If you can avoid that if statement, go ahead and avoid it. Just return or do whatever you can, and get everything back, so that it's not indented any further. So it's interesting to see those differences.
+I remember when I first started programming - I think it was Java, is what I saw it in... And there were people who made the argument that if you ever have an if statement, there should be an else statement. And in Go it's the exact opposite argument. If you can avoid that else statement, go ahead and avoid it. Just return or do whatever you can, and get everything back, so that it's not indented any further. So it's interesting to see those differences.
 
 It's also interesting to hear you talk about it this way, Denise, because we've had Dave Cheney on the podcast before; last time we had them, he basically had just published the Zen of Go website, which basically kind of fell out of a talk he gave -- I believe it was at GopherCon Israel, or something like that... But basically, he was making the case for not really treating idiomatic Go - what we consider idiomatic Go - as Gospel. And I could definitely understand where he's coming from.
 
@@ -154,7 +154,7 @@ So community and safety exists to build tools to help maintainers grow sustainab
 
 \[00:32:22.28\] I'll give an example of reactive... Let's say you're arguing with someone on a GitHub Issues thread, and they start becoming really abusive, and they start cussing you out, or just being unpleasant. So for a long time, all you could do was report that all the way up to GitHub admins... Which is a good strategy, and that's definitely a very valuable layer to have... But the problem there is site-wide admins don't have all the context; they would have to maybe go back through lots and lots of previous comments and try to figure out exactly what happened, what led to this moment, as part of investigating whether it is a high-priority incident to respond to.
 
-A feature that my team introduced is called tiered moderation. Most of this work was done before I got here, so I'm not taking any credit for the engineering work. This credit goes to the community and the team before I got there. So tiered reporting means that - well, okay, if you don't report all the way up to site admins, who else can you report to? So a more logical person actually would be the maintainer team of an organization... Because if you've been working on an open source community for a number of years, you kind of know who the problem actors are, and you kind of know who has good intentions, but maybe struggles with written communication.
+A feature that my team introduced is called tiered moderation. Most of this work was done before I got here, so I'm not taking any credit for the engineering work. This credit goes to the community and safety team before I got there. So tiered reporting means that - well, okay, if you don't report all the way up to site admins, who else can you report to? So a more logical person actually would be the maintainer team of an organization... Because if you've been working on an open source community for a number of years, you kind of know who the problem actors are, and you kind of know who has good intentions, but maybe struggles with written communication.
 
 So if you now give people the option to report to community maintainers, that's another layer of this sort of progressive escalation, I guess, that we give to community members. Community maintainers also might be in a better position to reach out to the person who's being aggressive and just find out "Hey, what's wrong?" Maybe someone is really stressed out because of this global pandemic that we're all living through. Maybe someone misinterpreted something. We sort of give people tools to assume best intent, but take action for the safety of the community. That's kind of reactive.
 
@@ -288,7 +288,7 @@ Jon, anything else we wanna touch on before we ask Denise to drop her unpopular 
 
 **Johnny Boursiquot:** Yeah, please.
 
-**Denise Yu:** My unpopular is that buying and selling turnips in Animal Crossing is overrated.
+**Denise Yu:** My unpopular opinion is that buying and selling turnips in Animal Crossing is overrated.
 
 **Johnny Boursiquot:** Oooh. Okay...
 
@@ -334,7 +334,7 @@ When I was younger, I played Diablo II a lot, and they had ways you could just m
 
 **Denise Yu:** A mobile Diablo?
 
-**Jon Calhoun:** Yeah, I'm pretty sure there is. Because at one point there were supposed to be announcing Diablo IV, and they announced Diablo the mobile game, and everybody got really, really mad.
+**Jon Calhoun:** Yeah, I'm pretty sure there is. Because at one point they were supposed to be announcing Diablo IV, and they announced Diablo the mobile game, and everybody got really, really mad.
 
 **Denise Yu:** Oh, yes, I think this rings a bell... I think I remember reading about this.
 
