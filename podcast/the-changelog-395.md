@@ -86,7 +86,7 @@ What if we could change the way that people had pager rotations, as an example? 
 
 **Jason Warner:** That's the kind of scale you're thinking about here.
 
-**Adam Stacoviak:** Yeah, that's a good problem to have and solve. Fun to solve, for sure, because - I mean, who wouldn't wanna have a juggernaut like GitHub is, and create sub-ten-billion-dollar companies within it? That's a fun job to have...
+**Adam Stacoviak:** Yeah, that's a good problem to have and solve. Fun to solve, for sure, because - I mean, who wouldn't wanna have a juggernaut, like GitHub is, and create sub-ten-billion-dollar companies within it? That's a fun job to have...
 
 **Jerod Santo:** \[laughs\] That's what I was saying.
 
@@ -196,7 +196,7 @@ But on the flipside, you've got other types of businesses that are very classica
 
 \[00:28:16.14\] So we have to intuit a lot from disparate pieces of data, or feedback, or even positive and negative criticism... And we have to kind of use what we think as well from that. So that's what I mean by "trust your gut" in some of these, as opposed to be exclusively led by the data.
 
-Another good example of this - and I'll use one from GiHub's history - is GitHub did not build CI for a long time. I had that decision at one point to make while I was pre-acquisitioning GitHub as well, and a lot of people wanted us to build CI. A lot of people did. But we looked at it and we said "We can't afford to build CI, because it is such a cog's suck for us." But we could change the notion, we could skip it; skip the build step and go right to deploying workflows, and give them a pseudo-ability to do CI. It won't be the full solution, but it'll be enough where the really forward-looking people can understand \[unintelligible 00:29:13.13\] going to build in the future... But we're not going to do that right now.
+Another good example of this - and I'll use one from GiHub's history - is GitHub did not build CI for a long time. I had that decision at one point to make while it was pre-acquisitioning GitHub as well, and a lot of people wanted us to build CI. A lot of people did. But we looked at it and we said "We can't afford to build CI, because it is such a COGS suck for us." But we could change the notion, we could skip it; skip the build step and go right to deploying workflows, and give them a pseudo-ability to do CI. It won't be the full solution, but it'll be enough where the really forward-looking people can understand what we're hat-tipping what we're going to build in the future... But we're not going to do that right now.
 
 But if we listened to the data, we would have said "Build CI", and we would have had to figure out a way to make it work. But we had to think a little bit differently, and that's where we trusted our gut, saying "Hey, we're gonna skip it", because we think we understand why people really are asking for CI, and go to the next thing, or the thing after that, and then build backwards.
 
@@ -248,7 +248,7 @@ I think it put those folks -- not on notice, because that would be the wrong ter
 
 That didn't work out, so I just kept iterating on my notebook, because I said "What would I do if I had GitHub? What would I do? GitHub sits in the most interesting market position in software development... What would I do?" That goes from a product perspective, but then you have to take into account the company's maturity, and the leadership's maturity and other things, too... So I just kind of put together a couple-year plan on what I would do. One of my favorite artifacts from that time - I will not lose that notebook; it's sitting in my library, and I am going to keep it out on the shelf, always.
 
-\[00:35:58.15\] The fun story with that one is I had in that notebook, June of -- I think it was 2019 I put it on there; I said \[unintelligible 00:36:04.25\] Not that we would take an acquisition offer, that's not the goal. But to get an actual, legitimate, at-our-value acquisition offer - gotta think about that as a goal, because we wanna drive the perceived value of the company to that point, where we need it. And I'm pretty happy with that.
+\[00:35:58.15\] The fun story with that one is I had in that notebook, June of -- I think it was 2019 I put it on there; I said get acquisition offer. I had it circled several times with a star next to it. Not that we would take an acquisition offer, that's not the goal. But to get an actual, legitimate, at-our-value acquisition offer - gotta think about that as a goal, because we wanna drive the perceived value of the company to that point, where we need it. And I'm pretty happy with that.
 
 **Adam Stacoviak:** You were in the role of senior vice president of technology at that point, right?
 
