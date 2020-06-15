@@ -318,6 +318,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="http://hookedondata.org"><img src="https://avatars3.githubusercontent.com/u/17410158?v=4" width="100px;" alt=""/><br /><sub><b>Emily Robinson</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=robinsones" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://nasirhussain.tech"><img src="https://avatars1.githubusercontent.com/u/35005234?v=4" width="100px;" alt=""/><br /><sub><b>Nasir Hussain</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=nasirhm" title="Documentation">📖</a></td>
   </tr>
 </table>
 
