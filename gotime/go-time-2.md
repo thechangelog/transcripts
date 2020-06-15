@@ -332,7 +332,7 @@ We are basically one group, we spread the word, we spread the meetups over two m
 
 **Erik St. Martin:** So typically the way we close out the show, we like to kind of go through... Brian kind of triggered off this \#FreeSoftwareFriday on Twitter a while back, and I think we all kind of fell in love with the idea of that. It's not always financial for people, just hearing 'thank you' from people who benefit from their projects is nice. With that said, Brian, do you wanna kick one off?
 
-**Brian Ketelsen:** I absolutely have a big one this week. GopherJS. If anybody follows me on Twitter, you know I have this hate/hate relationship with frontend development, and GopherJS has been eye-opening for me over this last week or two. I didn't realize that it didn't have to be JavaScript on the frontend, it could actually be something that is Go, and \[unintelligible 00:44:41.17\] down to JavaScript, and it's just really changed everything. I'm really excited about GopherJS. It's helped me get over my big, ugly fear of frontend code. You guys rock, thank you GopherJS team. Thank you, thank you, thank you.
+**Brian Ketelsen:** I absolutely have a big one this week. GopherJS. If anybody follows me on Twitter, you know I have this hate/hate relationship with frontend development, and GopherJS has been eye-opening for me over this last week or two. I didn't realize that it didn't have to be JavaScript on the frontend, it could actually be something that is Go, and transpiles down to JavaScript, and it's just really changed everything. I'm really excited about GopherJS. It's helped me get over my big, ugly fear of frontend code. You guys rock, thank you GopherJS team. Thank you, thank you, thank you.
 
 **Erik St. Martin:** Carlisia, how about you?
 
