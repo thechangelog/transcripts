@@ -126,7 +126,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** This \*stack\* would go well spread on a piece of toast.
 
-**Emma Bostian:** Jerod, you're being \[unintelligible 00:08:08.13\]
+**Emma Bostian:** Jerod, you're being you're being a little lenient with the time, sir!
 
 **Divya:** Oh, JAMstack. What is JAMstack. Oh, my god.
 
@@ -684,7 +684,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Emma Bostian:** I will find whoever wrote these...
 
-**Jerod Santo:** I've got \[unintelligible 00:26:07.26\] on my hands... Okay, well everybody got it wrong, so it's fair.
+**Jerod Santo:** I've got a mutiny on my hands... Okay, well everybody got it wrong, so it's fair.
 
 **Divya:** Oh, God... That was brutal.
 
@@ -1416,7 +1416,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Divya:** It's not my front page, but yeah...
 
-**Jerod Santo:** You see, their own titles... So this is like websites according to themselves.
+**Jerod Santo:** You see, they write their own titles... So this is like websites according to themselves.
 
 **Divya:** I mean, I figured... People at Reddit think they are the front page, but... Only for dudes.
 
