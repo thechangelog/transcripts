@@ -106,7 +106,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** Yeah, and I think that the vendor stuff is probably early for that stuff to kind of get pulled in, at least adopted the Go team, right? Because it's only been recently that there's been this agreement that maybe the Go tooling should handle vendoring more, so it will be interesting to see how much they think should be pulled in. But I imagine we'll start seeing tools like Vim-Go and all that jazz incorporating in this, in something like the meta tooling.
 
-**Carlisia Pinto:** Exactly.
+**Sarah Adams:** Exactly.
 
 **Erik St. Martin:** Like, there's a Go meta-linter and stuff like that that runs all the suite of different tooling.
 
@@ -278,7 +278,7 @@ Those smaller changes started to add up a lot, and so my documentation was often
 
 **Erik St. Martin:** Does this support header logic, too?
 
-**Brian Ketelsen:** Yeah, all your headers are logged also to the same buffer, and they're in the appropriate format for the API blueprint.
+**Sarah Adams:** Yeah, all your headers are logged also to the same buffer, and they're in the appropriate format for the API blueprint.
 
 **Erik St. Martin:** That's really awesome, I kind of wanna play with this.
 
