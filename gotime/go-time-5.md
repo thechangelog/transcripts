@@ -428,7 +428,7 @@ The other one that I've been meaning to say for the longest time is the Sourcegr
 
 **Carlisia Pinto:** Yes.
 
-**Erik St. Martin:** For me this week - and hopefully I pronounce this correctly, because I don't think I've heard anybody say it - it's Rofi, which is a kind of an application launcher and window switcher for Linux, and I use that while I'm in i32. Open up new programs...
+**Erik St. Martin:** For me this week - and hopefully I pronounce this correctly, because I don't think I've heard anybody say it - it's Rofi, which is a kind of an application launcher and window switcher for Linux, and I use that while I'm in i3 to open up new programs instead of dmenu.
 
 **Brian Ketelsen:** +1.
 
