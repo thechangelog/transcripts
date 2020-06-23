@@ -76,7 +76,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Brian Ketelsen:** Yeah, so all you library developers out there, if you're not putting context as the first parameter of your public functions, now is a great time to start doing that, please. I wanted to say please, I don't wanna sound too bossy. I can come across that way sometimes.
 
-**Carlisia Pinto:** And from the little experience that I have with Go, I see a lot of times when people use other network packages just so they can get the context, and I would even do that, because I don't wanna do that stuff by hand. But now that it's in the library, I wonder how it's going to impact the usage of the external libraries. Or if people are just gonna have to keep adding more features to make it more attractive for people to use them.
+**Carlisia Pinto:** And from the little experience that I have with Go, I see a lot of times when people use other network packages just so they can get the context, and I would even do that, because I don't wanna do that stuff by hand. But now that it's in the standard library, I wonder how it's going to impact the usage of the external libraries. Or if people are just gonna have to keep adding more features to make it more attractive for people to use them.
 
 **Erik St. Martin:** But is it really a competition, though? I think at the end of the day it's about writing good quality software, that's readable, and I think that by having external libraries that people really like - and we kind of get consensus on these patterns - I think it's okay to pull that stuff in. Because not everybody's gonna be aware of these things, despite how much visibility we think they have, or as people find stuff in the standard library - that's generally where people look first, so I think it's a hard debate. We're kind of pulling away users from some standard library, but I think that the library owners are probably glad to see it there. I think it will get more love in the standard library, too.
 
@@ -90,7 +90,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Sarah Adams:** Yeah, and I think the Gorilla mux even imports its own Gorilla context, within the mux package. So it will be interesting to see if they go forward with the Go standard library context.
 
-**Erik St. Martin:** We should email them an ask.
+**Erik St. Martin:** We should email them and ask.
 
 **Brian Ketelsen:** Open an issue on the GitHub repo.
 
@@ -292,7 +292,7 @@ Those smaller changes started to add up a lot, and so my documentation was often
 
 **Erik St. Martin:** So what's the process for this? You just run this tool after you're done, so that you're kind of committing this documentation?
 
-**Sarah Adams:** Yeah, I have it built into our CI flow. You push out some code on a feature branch, and when it's ready to land into the development branch, or whatever you use - master... You land that in, and then we have a special hook that says, "Oh, if I'm on the master branch, I need to run the combined API BEE file script", and push that up to -- well, how I have it is I push that up to a separate branch, a dox branch on a repo, and then have Apiary actually read that file to show the parsed, beautiful API documentation.
+**Sarah Adams:** Yeah, I have it built into our CI flow. You push out some code on a feature branch, and when it's ready to land into the development branch, or whatever you use - master... You land that in, and then we have a special hook that says, "Oh, if I'm on the master branch, I need to run the combined API BEE file script", and push that up to -- well, how I have it is I push that up to a separate branch, a docs branch on a repo, and then have Apiary actually read that file to show the parsed, beautiful API documentation.
 
 **Brian Ketelsen:** Nice.
 
@@ -302,7 +302,7 @@ Those smaller changes started to add up a lot, and so my documentation was often
 
 **Erik St. Martin:** Swagger has really blown up lately.
 
-**Sarah Adams:** Yeah. The interesting thing about Swagger though is they seem to want you to generate your sort of hammer skeletons. I'm not really sure how that fits into this sort of test-generates-dox flow, because really what they want you to do is have a spec generate the code... It's sort of cyclical. I'm not sure how that's gonna work, I haven't played with it yet. We'll see.
+**Sarah Adams:** Yeah. The interesting thing about Swagger though is they seem to want you to generate your sort of hammer skeletons. I'm not really sure how that fits into this sort of test-generates-docs flow, because really what they want you to do is have a spec generate the code... It's sort of cyclical. I'm not sure how that's gonna work, I haven't played with it yet. We'll see.
 
 **Erik St. Martin:** Yeah, they kind of fit in different parts of the workflow, right?
 
@@ -312,7 +312,7 @@ Those smaller changes started to add up a lot, and so my documentation was often
 
 **Sarah Adams:** Exactly, it's a different workflow.
 
-**Carlisia Pinto:** Here's the perfect workflow: you do your specs, you run it, you spit out the Swagger dox, you run the Swagger dox and that then generates your codes.
+**Carlisia Pinto:** Here's the perfect workflow: you do your specs, you run it, you spit out the Swagger docs, you run the Swagger docs and that then generates your codes.
 
 **Erik St. Martin:** But I think this is interesting though, because people love Swagger, but everybody likes building their APIs in different ways, and we see that prevalent in all the number of frameworks out there for building APIs right now. But yours, it doesn't have any ties into those specific... You can write in whatever you wanted to and have similar documentation to Swagger, and I think that's an awesome idea.
 
