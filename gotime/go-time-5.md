@@ -158,7 +158,9 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** There is now the Go LibHunt. It's go.libhunt.com, and you can basically browse around, categorize projects and libraries in Go, and then kind of rank them.
 
-**Brian Ketelsen:** You know, just because somebody lists a bunch of libraries in Go does not replace my curation, Erik. \[laughter\] The added value that I bring every week to the curation of cool projects is what's important here. You cannot replace me with a bash script. We can try.
+**Brian Ketelsen:** You know, just because somebody lists a bunch of libraries in Go does not replace my curation, Erik. \[laughter\] The added value that I bring every week to the curation of cool projects is what's important here. You cannot replace me with a bash script. 
+
+**Erik St. Martin:** We can try. \[laughter\]
 
 **Sarah Adams:** Brian, what's your process? How do you find the Go projects?
 
