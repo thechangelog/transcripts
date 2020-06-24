@@ -194,7 +194,7 @@ One thing I've started realizing is that every interaction with a person is abou
 
 **Adam Stacoviak:** It gets too easy... Which part?
 
-**Jerod Santo:** What gets too easy, your job does? \[unintelligible 00:19:39.09\]
+**Jerod Santo:** What gets too easy, your job does? I know this place too well.
 
 **Jessica Kerr:** Exactly. When you do know this system really well, when you are that person that people can just come to with questions, and when you do something you know exactly where to push it and what buttons to twiddle... I can do 15 minutes of work a day, answer questions for a good chunk of the rest, and be more productive than anyone who's been there for two years or less.
 
@@ -548,7 +548,7 @@ Then now when I deploy the site, I can go and look at the graphs in Honeycomb. A
 
 **Jessica Kerr:** We need testing both locally, and in CI - which is consistent - and in production.
 
-**Jerod Santo:** You're still not \[unintelligible 00:46:16.19\] all the way to the end result necessarily, right? I think a lot of the "Move fast and break things" attitude, even if you're testing \[unintelligible 00:46:24.26\] and having your observability in production, it's like not seeing the logical, or sometimes illogical conclusion of your changes as they manifest in the real-world.
+**Jerod Santo:** You're still not all the way to the end result necessarily, right? I think a lot of the "Move fast and break things" attitude, even if you're testing and having your observability in production, it's like not seeing the logical, or sometimes illogical conclusion of your changes as they manifest in the real-world.
 
 **Jessica Kerr:** Yeah, because you can meet requirements; you can make it do what they told you to make it do, and that still be totally useless and bad!
 
