@@ -1,5 +1,3 @@
-\[00:01:48.10\]
-
 **Chris Benson:** Welcome to another Fully Connected episode of Practical AI, where Daniel and I keep you fully connected with everything that's happening in the AI community. We're gonna take some time to discuss the latest AI news and dig into some learning resources to help you level up on your machine learning game.
 
 My name is Chris Benson, I'm a principal AI strategist at Lockheed Martin, and with me as always is Daniel Whitenack, who is a data scientist at SIL International. Hey, how's it going today, Daniel?
@@ -142,7 +140,7 @@ Before we move on, I'll just mention too - there's an episode, \#322, from our f
 
 **Chris Benson:** Right. If people are wondering how that fits in - and it's not really specific to what I'm doing; this could be for a whole lot of different possibilities... If you are operating an organization and you have operational data, things that you're doing with whatever your organization is, and you need a data store to keep that, but you may also wanna provide analytics on that, you may wanna apply some AI modeling to some of that data... So it really all comes down to the fact that you're integrating AI into your software workflow. That's a good sign, that's a sign of maturity.
 
-**Break:** \[00:16:08.02\] to \[00:16:56.18\]
+**Break:** \[00:16:08.02\]
 
 **Daniel Whitenack:** So we were just getting into the topic, and you mentioned something that was really important about AI not just being about code, but being about data... And I think along with that data - a certain piece of data, which is the model itself, which is really just another piece of data... So there is the code piece, but then there is the data piece, and oftentimes there's this weirdness because code is open-sourced on GitHub, but then to me it seems like "Oh, there's this very structured way to go about finding open source code", and things... And then open data is just sort of like all over the place. It's like, totally scattered and weird. I don't know if you have a similar experience...
 
@@ -228,7 +226,7 @@ Even if you just browse around that site, I think, and look at the various thing
 
 **Chris Benson:** We've had the benefit of standing on top of the software development communities' shoulders. So many of these problems that had we not had that privilege of doing would have definitely slowed down the process... So we're seeing warped speed in the AI world in terms of its evolution, largely because we can look to other places that are associated, that are related, and say "Oh, that's how it was solved. Something very similar."
 
-**Break:** \[00:29:08.10\] to \[00:30:08.01\]
+**Break:** \[00:29:08.10\]
 
 **Daniel Whitenack:** Alright, well we've talked a good bit about the tooling and the code and everything that is out there... I'm curious for you - let's say that you're approaching a problem and you're using a new toolkit. Maybe it's the Dgraph thing that you were talking about - you're wanting to get into that, or... You know, for me recently - I was doing some speech-related things; there's some new speech-related stuff out of NVIDIA that's pretty interesting...
 
@@ -303,5 +301,3 @@ I saw a tweet - I was just pulling it up - from Clem, who was on the show quite 
 **Daniel Whitenack:** Yeah, definitely. I hope you enjoy the hot weather, and stay safe, stay inside, and we'll talk to you soon.
 
 **Chris Benson:** Will do. Take care.
-
-Break: \[00:46:20.04\] to \[00:47:17.25\]
