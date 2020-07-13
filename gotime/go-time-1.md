@@ -46,7 +46,7 @@ The Atom editor got a big update this week, I think it's at 1.6 now.
 
 **Brian Ketelsen:** 1.7, okay. So it got a big update this week, and the Go tools there look fantastic, too. So there's really a lot of great options for editing code if you like just text editors, and then the IntelliJ big plugin for Go and on the IDEA platform is awesome, it looks really good. If you don't mind having that big IDE, then the IntelliJ with the Go plugin is amazing, too.
 
-**Erik St. Martin:** And Carlisia, you're an Atom used, aren't you?
+**Erik St. Martin:** And Carlisia, you're an Atom user, aren't you?
 
 **Carlisia Pinto:** I am, die-hard fan.
 
