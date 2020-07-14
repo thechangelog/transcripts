@@ -24,7 +24,7 @@ When we looked at what was available to do that, there just wasn't much. There w
 
 Going fast forward, RightScale kind of shifted towards Go, and I thought it will be good to see if we could do something like that in Go. To be honest, I wasn't sure initially that will be possible. We played around with a few things, and it took me about a year really to come up with something that started to look like it may work. There two big a-ha moments in that kind of research phase. One was the realization that code generation was the perfect approach for achieving the goal of keeping the design and implementation separate. We were making sure that the design is directly enforced.
 
-\[00:03:51.14\] The second realization was that the design should be written in a DSL, so that the language used to describe the API used the right terms. You want to talk about resources, actions, responses, requests, and you don't want to have to deal with programming language artifacts, so that DSL will have to be a Go DSL obviously, so that it could be understood right away, and also so that it's still possible to use the legal language when it's needed.
+\[00:03:51.14\] The second realization was that the design should be written in a DSL, so that the language used to describe the API used the right terms. You want to talk about resources, actions, responses, requests, and you don't want to have to deal with programming language artifacts, so that DSL will have to be a Goa DSL obviously, so that it could be understood right away, and also so that it's still possible to use the legal language when it's needed.
 
 Fast forward a year and a half, I have to say that the result turned out a lot better than I thought it would be, and I think the credit goes to the Go language. The Go language provides a very simple and powerful mechanism to create the DSL. It also has as very good code analysis support, which is essential and a very good code generation package, the template package in particular.
 
@@ -44,7 +44,7 @@ GoAgent also generates documentation in the form of Swagger and JSON schema so t
 
 **Erik St. Martin:** So I have two comments. I found Goa in October or November, I guess, of last year and two things struck me immediately when I saw Goa. The first was that the generated code looked hand-written, and I have to commend you for that, because for me, that was the most impressive part of the project; all other code generation facilities I've seen before, it's really clear that it's generated code and it doesn't feel idiomatic, it doesn't feel like Go, it feels like somebody generated some Go code. So having that generated code in Goa looks so handwritten, it was very impressive for me.
 
-**Raphael Simon:** Well, thank you. Yeah, I mean that was definitely a design goal. When I started Go I was a little bit - not afraid, but I was a bit worried about the reception that the Go community will have, because I know that the Go programmers are very, not picky, but they like the Go code to be idiomatic. They like the code to look a certain way and behave a certain way. I didn't want the generated code to be an issue, basically; I wanted that to be a non-issue. I wanted people to look at it and say, "Yeah, okay. It looks good enough. It's not terrible", so I definitely tried to put some efforts to make that a non-issue for the adoption of Goa.
+**Raphael Simon:** Well, thank you. Yeah, I mean that was definitely a design goal. When I started Goa I was a little bit - not afraid, but I was a bit worried about the reception that the Go community will have, because I know that the Go programmers are very, not picky, but they like the Go code to be idiomatic. They like the code to look a certain way and behave a certain way. I didn't want the generated code to be an issue, basically; I wanted that to be a non-issue. I wanted people to look at it and say, "Yeah, okay. It looks good enough. It's not terrible", so I definitely tried to put some efforts to make that a non-issue for the adoption of Goa.
 
 **Erik St. Martin:** Now, speaking of the kind of idiomatic Go and reception from the community, what's the reception like for the actual DSL itself? Because I've seen the generated code, which I think is highly idiomatic, but I don't know whether the DSL is so much. Do you get a lot of slack about that or are people pretty comfortable with that?
 
@@ -254,7 +254,7 @@ And when SHIELD first came out, I read the code because there was no description
 
 **Carlisia Pinto:** What is it?
 
-**Brian Ketelsen:** NSQ. It's a distributed Q that's incredibly fault-tolerant and really fast and it's written in Go, and it's written really smartly.
+**Brian Ketelsen:** NSQ. It's a distributed Queue that's incredibly fault-tolerant and really fast and it's written in Go, and it's written really smartly.
 
 **Erik St. Martin:** Yeah. Actually Matt Reiferson did a talk in GopherCon 2014 on it. I think the talk was titled ["Spray Some NSQ On It"](https://speakerdeck.com/snakes/spray-some-nsq-on-it) or something like that.
 
