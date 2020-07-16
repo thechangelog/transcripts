@@ -28,7 +28,7 @@
 
 **Jerod Santo:** Dangerous. Something dangerous.
 
-**Kevin Ball:** Dangerous. Yeah, I feel like you two have summed it up pretty well. I'm not sure I dig the metaphor, but one of the layers that I would put on top of that is -- if you think about a REST API, everything is centered around resources, and each resource has its own place that you go and get it. But if there are relationships between those resources, you have to on the client-side understand those resources, and go and fetch the pieces that you want. GraphQL starts from also having a whole set of resources. That's the schema that you're talking about, the schema-driven nature of it... But it maps out the connections between those resources, so that anytime you are accessing one resource, you can specify all the graph of relationships you wanna follow down and pull data from.
+**Kevin Ball:** Dangerous. Yeah, I feel like you two have summed it up pretty well. I'm not sure I dig the metaphor, but one of the layers that I would put on top of that is -- if you think about a REST API, everything is centered around resources, and each resource has its own place that you go and get it. But if there are relationships between those resources, you have to on the client-side understand those relationships, and go and fetch the pieces that you want. GraphQL starts from also having a whole set of resources. That's the schema that you're talking about, the schema-driven nature of it... But it maps out the connections between those resources, so that anytime you are accessing one resource, you can specify all the graph of relationships you wanna follow down and pull data from.
 
 Then the other piece in terms of having the single place to go - it is one location, one endpoint, but there is this set of top-level queries that you can run, where the API provider still gets to define what are the ways into my buffet, so to speak...
 
@@ -40,7 +40,7 @@ Let's use the GitHub API as an example. If we look at the GitHub API, what are t
 
 **Jerod Santo:** It's a breakfast buffet?
 
-**Kevin Ball:** But you could get eggs with a relationship to bacon, or you could get pancakes in a relationship to bacon, right? You have these sort of enters into the API that you can start with, and then you can follow down the relationships as far as you go.
+**Kevin Ball:** But you could get eggs with a relationship to bacon, or you could get pancakes in a relationship to bacon, right? You have these sort of entrées into the API that you can start with, and then you can follow down the relationships as far as you go.
 
 **Jerod Santo:** \[00:08:01.08\] What kind of buffet doesn't have bacon as a top-level entry? Come on. Just start with the bacon and go from there.
 
