@@ -24,7 +24,7 @@ First of all, let's find out - why Go, specifically? We're all here because we'r
 
 **Benjamin Bryant:** Well, even that. But also going to different Go meetups - similar to how on Go Time it says you guys talk about microservices and Kubernetes, and words like that, those were words I had never encountered at university, at least while I was there... And I definitely wasn't self-studying or researching, because I don't think the word "Kubernetes" even existed to me until I went into -- I mean, I have no idea why would you ever Google that word at all, for any reason... But yeah, it's very ubiquitous. Even something like Docker is something I'd never even heard about before encountering this kind of community.
 
-**Mat Ryer:** Yeah, so I wonder then -- because a lot of the things you've talked about are quite new, or certainly were quite new... And I suppose the computer science courses and things take a bit of time to catch up with that... Shaquille, when you start with your internship - well, you're starting today - how did you find out about that? How did you get into doing that?
+**Mat Ryer:** Yeah, so I wonder then -- because a lot of the things you've talked about are quite new, or certainly were quite new... And I suppose the computer science courses and things take a bit of time to catch up with that... Shaquille, when you started with your internship - well, you're starting today - how did you find out about that? How did you get into doing that?
 
 **Shaquille Que:** Are you talking about the Google internship right now?
 
@@ -40,7 +40,7 @@ First of all, let's find out - why Go, specifically? We're all here because we'r
 
 **Mat Ryer:** Yeah, that sounds really interesting. It's funny that you mentioned that the challenge you did was fun. I think that's something that I remember being very important - and still is today - whenever I'm looking at a new technology; the technologies that I find the most fun and I have the most enjoyment with are the ones that tend to stick. Aditya, is that the same for you? I mean, you're in high school, so you're technically -- I mean, you don't have to be doing any programming at all, do you?
 
-**Aditya Prerepa:** No, I don't. But I guess the entire idea of making stuff has always enthralled me. Just to give you a bit of an example - the way I got introduced to go was I was doing a lot of server programming, and I was doing it primarily in Java. I didn't like it much, but I didn't really know what alternatives were out there, so I was just doing some research and I came across Go. And it turns out that Go is really good for server programming, and I slowly learned it through example in projects, and stuff... And the one condition that I did these projects on was they were fun; I kept doing these, and I slowly got better, and I went from basic Hello, World to concurrency, and stuff. I appreciated it for what it was.
+**Aditya Prerepa:** No, I don't. But I guess the entire idea of making stuff has always enthralled me. Just to give you a bit of an example - the way I got introduced to Go was I was doing a lot of server programming, and I was doing it primarily in Java. I didn't like it much, but I didn't really know what alternatives were out there, so I was just doing some research and I came across Go. And it turns out that Go is really good for server programming, and I slowly learned it through example in projects, and stuff... And the one condition that I did these projects on was they were fun; I kept doing these, and I slowly got better, and I went from basic Hello, World to concurrency, and stuff. I appreciated it for what it was.
 
 **Mat Ryer:** So what sorts of things were you building?
 
@@ -132,7 +132,7 @@ Like I said before, I don't really like to interact with really low-level stuff,
 
 **Mat Ryer:** It's funny that the politics almost in that was the challenging bit... And I wonder, is there anything that stands out as kind of intimidating or concerning? Is there anything that stands out like that when you look at tech? Or is it all just kind of new and exciting, and you're not too worried about anything?
 
-**Benjamin Bryant:** I will try not to think about that... Because if I think about all the overhead that I'm gonna get, I probably won't do the project. So I try not to think about that stuff.
+**Aditya Prerepa:** I will try not to think about that... Because if I think about all the overhead that I'm gonna get, I probably won't do the project. So I try not to think about that stuff.
 
 **Mat Ryer:** What about you, Ben?
 
@@ -150,7 +150,7 @@ One of my first Go projects that I worked on as a sort of joke is that I wanted 
 
 **Mat Ryer:** Yeah, and it was great. I remember the audience loved it. You were kind of talking as well about your story of learning this, and this way that you went about that. So did that talk - it was a catalyst for you to actually do and deliver... But was there also value in that, in giving the talk as well? And was that a kind of scary thing to be doing?
 
-**Benjamin Bryant:** I found at least doing the talk kind of helped me get more engaged with the community, since after the fact, since people had seen the talk and they were willing to -- I guess it felt easier walking up to people and talking to them, which could help with at least unlocking a new language, or unlocking different places that you might find and think about applying Go to.
+**Benjamin Bryant:** I found at least doing the talk kind of helped me get more engaged with the community, since after the fact, since people had seen the talk and they were willing to -- I guess it felt easier walking up to people and talking to them, which could help with at least unlocking a new language, or unlocking different places that you might find and think about applying or to go to.
 
 Yes, I guess it helped with me wanting to program something, because I knew that at the end of it I would be presenting it... So that kind of drove me to at least want to do a good(ish) job on what I was doing.
 
@@ -166,7 +166,7 @@ So yeah, I think, Shaquille, you're right - there's gonna be things changing, an
 
 **Shaquille Que:** I have not given a talk, if that's what the question is... But I have attended some meetups; I've gone to a couple Austin Go meetups, and that was pretty interesting. This was around last year, last summer. At the time I was a freshman student, and I didn't really understand a lot of what people were saying, and a lot of tradeoffs they were discussing were just not things that I'd run into at all yet, at least in my career... And now I think I have a little more understanding of that, just from looking around in Reddit threads and Hacker News posts... Which are pretty interesting, by the way.
 
-But yeah, I'd say those meetups - a lot of those meetups can be intimidating at times, because if you come in and you don't know anyone, it's pretty hard to interact with people. Also, when people start talking about what they're doing, and all this really cool tech stuff and you don't really understand what they are... It's just kind of hard to "Hm. I see..." or just keep asking "Can you tell me more about that?", because then you're gonna take up all their \[unintelligible 00:30:27.11\]
+But yeah, I'd say those meetups - a lot of those meetups can be intimidating at times, because if you come in and you don't know anyone, it's pretty hard to interact with people. Also, when people start talking about what they're doing, and all this really cool tech stuff and you don't really understand what they are... It's just kind of hard to "Hm. I see..." or just keep asking "Can you tell me more about that?", because then you're gonna take up all their time.
 
 **Mat Ryer:** Is that what you did though? Would you ask people questions?
 
@@ -174,11 +174,11 @@ But yeah, I'd say those meetups - a lot of those meetups can be intimidating at 
 
 **Benjamin Bryant:** From my experience, I think people like talking about stuff that they're interested in... Because when I went to these meetups as well, as I mentioned earlier, I didn't know what Docker was, or anything like that... So similar to you, a lot of this stuff went over my head. But I'd still go to a pub afterwards and I'd still ask questions... And especially if you can somehow find someone who's working on something - if you simply ask why a couple of times, or even just ask some questions for them, they will continue talking for probably longer than you'd want them to anyway, because they're just that interested in what they're doing. So I wouldn't worry too much about that.
 
-I also found that meetups were a great place to unlocking language... So much stuff that's mentioned there is just stuff that's kind of internally known, and is very difficult to find entirely on your own. But at least if you got there, you can pick up the words you need to google afterwards.
+I also found that meetups were a great place to unlocking language... So much stuff that's mentioned there is just stuff that's kind of internally known, and is very difficult to find entirely on your own. But at least if you go there, you can pick up the words you need to google afterwards.
 
 **Mat Ryer:** Oh yeah, that's really interesting. Do you find the same, Aditya? Do you find yourself in these communities and there are concepts and things that you don't seem familiar with, and it gives you something to go and look into?
 
-**Aditya Prerepa:** \[00:32:05.25\] Oh, yeah. I can talk a little bit about my open source -- like, trying to open-source... Because I kind of knew nothing about -- like Benjamin, I knew nothing about Kubernetes, Docker, any of this stuff, but I found out the best way I learn was through experience... So I decided to pick a repository on GitHub, and you go and just jump into it. My first attempt was gRPC, and I knew nothing about a lot of things... But I've that I couldn't do much there, so I decided to go to something else. I've found that in Istio, where I'm currently contributing, where I've sort of found my niche, everybody there is super-nice and supportive... And I sort of like bug people on Slack about certain things, and they're so nice about it, and they always answer. Yeah, just learning through people, and experience, and reading stuff. That's how I sort of get myself to where I wanna be.
+**Aditya Prerepa:** \[00:32:05.25\] Oh, yeah. I can talk a little bit about my open source -- like, trying to open-source... Because I kind of knew nothing about -- like Benjamin, I knew nothing about Kubernetes, Docker, any of this stuff, but I found out the best way I learn was through experience... So I decided to pick a repository on GitHub, and you go and just jump into it. My first attempt was gRPC, and I knew nothing about a lot of things... But I've found out that I couldn't do much there, so I decided to go to something else. I've found that in Istio, where I'm currently contributing, where I've sort of found my niche, everybody there is super-nice and supportive... And I sort of like bug people on Slack about certain things, and they're so nice about it, and they always answer. Yeah, just learning through people, and experience, and reading stuff. That's how I sort of get myself to where I wanna be.
 
 **Mat Ryer:** Hm... That's interesting you say "bug people", and it's a shame that it feels like that... But I think there is a bit of that. You have to sort of be a little bit like that. In fact, Aditya, you reached out to me to pitch coming on a podcast, for example; so it's that very proactive, quite a bold step. It's not without risk; those kinds of things can be quite embarrassing if they don't work, so it's a risk you take... But if you can, I think it's a risk worth taking. Now we get to meet you and hang out on the podcast, so in that case it worked, so that's great.
 
@@ -232,17 +232,17 @@ So Ben, did you ever have anybody mentoring you in this way
 
 I didn't open a terminal till I think after my first class at university... So I came into programming I guess a tiny bit late. And I also remember avoiding -- because it was Java at university, and I remember avoiding installing it on my computer because I found it too complicated to figure out how to install and then run it... So I just used the university's computers to do my coursework.
 
-But then eventually, when I needed to actually do work at home, I kind of had to sit down and figure out "Okay, how do I install Java, so I could actually get to work?" So a slightly different path...
+But then eventually, when I needed to actually work at home, I kind of had to sit down and figure out "Okay, how do I install Java, so I could actually get to work?" So a slightly different path...
 
 **Mat Ryer:** \[00:40:18.11\] Was that something that attracted you about Go then? The fact that actually it is quite easy to install and to build things. You don't have the JVM, right? You don't have these virtual machines... It is a simpler thing, is it not?
 
-**Benjamin Bryant:** Well, at that point I had been in university for four years, so I kind of got over my fear of installing programming languages... I guess \[unintelligible 00:40:41.05\] actually avoid installing programming languages all the way to the final year. \[unintelligible 00:40:46.00\] in the first year. But yeah, it's actually pretty easy to install Go. I think at the time when I started using Go, there was this GOPATH thing. That wasn't easy... \[unintelligible 00:40:54.16\] I was like "I've messed up."
+**Benjamin Bryant:** Well, at that point I had been in university for four years, so I kind of got over my fear of installing programming languages... I guess some people at university actually avoid installing programming languages all the way to the final year. \[unintelligible 00:40:46.00\] in the first year. But yeah, it's actually pretty easy to install Go. I think at the time when I started using Go, there was this GOPATH thing. That wasn't easy... *go mod* made it slightly easier \[unintelligible 00:40:54.16\] I was like "I've messed up."
 
 **Shaquille Que:** Go modules were the biggest struggle I had last year. I remember just being super-frustrated, trying to download dependencies for Go modules, and not finding a definitive resource out there that tells me "Oh, this is how you start a Go module. This is how you use it." But now, with the official support, it's a lot easier, and pretty much every new tutorial out there can tell you how Go modules work. But that last year, I had to ask people a lot of questions to really understand how do you use Go modules...
 
 **Mat Ryer:** Yeah, me too, mate. And actually, it's the transition from GOPATH... GOPATH in the beginning was, in a way, kind of this minimalist idea, which is just this one path, and your code goes in there, and it follows the folder structure that also follows the go get kind of structure.
 
-For a while, it really kind of was quite simple, and then it didn't quite scale, of course... So modules comes along, and we have to transition. So that's why - yeah, all the articles that just assume GOPATH -- it's just "Setup your GOPATH, and just link off to some thing." Suddenly, it isn't as simple as that... And I think that happens sometimes, doesn't it? In communities, when the things evolve and things start to change, it does create some tension.
+For a while, it really kind of was quite simple, and then it didn't quite scale, of course... So modules comes along, and we have to transition. So that's why - yeah, all the articles that just assume GOPATH -- it's just "Setup your GOPATH, and just link off to some thing." Suddenly, it isn't as simple as that... And I think that happens sometimes, doesn't it? In communities, when the tech evolves and things start to change, it does create some tension.
 
 What about you, Aditya? Was modules a tricky thing, or did it make sense to you?
 
@@ -262,7 +262,7 @@ Another thing I like about Go is you don't have to do a factory factory, like yo
 
 I remember there was a university project I had to do, and there was a heated debate about how many spaces we were gonna do, and if we'd even dare to use tabs... And that was just one small part of the kind of code style we were trying to get going. I just like how just everything already has a style. It's a small thing, but it's very useful.
 
-**Mat Ryer:** No, I completely agree. The Go project shipped in the very beginning with the gofmt tool, which did all the formatting. And you know, if you think about working on open source project, or actually collaborating in any way, it's quite important those things, especially when we're dealing with pull requests, and things... You don't want to see pull requests with just lots of formatting noise in there. What's nice is as long as everybody gofmts their code before they push it, you really only see what's actually meaningful that's changed; you don't see "Oh, this change, but also, look, my editors put all these tabs as well", so it's just red and green everywhere. So yeah, I think that is actually a pretty good choice as well, mate.
+**Mat Ryer:** No, I completely agree. The Go project shipped in the very beginning with the gofmt tool, which did all the formatting. And you know, if you think about working on open source projects, or actually collaborating in any way, it's quite important those things, especially when we're dealing with pull requests, and things... You don't want to see pull requests with just lots of formatting noise in there. What's nice is as long as everybody gofmts their code before they push it, you really only see what's actually meaningful that's changed; you don't see "Oh, this change, but also, look, my editors put all these tabs as well", so it's just red and green everywhere. So yeah, I think that is actually a pretty good choice as well, mate.
 
 Shaquille, have you got a particular favorite language feature?
 
@@ -306,7 +306,9 @@ So there's lots of ways you can break the rules or bend the rules and do differe
 
 I know a lot of people do do that - they have the big plan, and stick to it, and it really works for them. So I'd say there isn't an answer; there isn't a route that everyone should take. You have to find your own path. How does that sound?
 
-**Benjamin Bryant:** It sounds good. On that note, we did discuss a lot on this podcast about hobbies and doing things that are interesting... So all the times I look back to, when I first learned programming, or when I first learned a new language, that sort of childlike curiosity and excitement you get out of doing something simple... And then slowly, as you start to learn more languages, programs and patterns, that sort of childlike wonder seems to be more muted and fades down a little, because a lot of these are things that you've seen before, in just a different form... So I'm curious, Mat, do you still have that sense of childlike wonder and curiosity when you dive into different things now? And if so, how do you keep that alive throughout the years?
+**Benjamin Bryant:** It sounds good.
+
+**Shaquille Que:** On that note, we did discuss a lot on this podcast about hobbies and doing things that are interesting... So all the times I look back to, when I first learned programming, or when I first learned a new language, that sort of childlike curiosity and excitement you get out of doing something simple... And then slowly, as you start to learn more languages, programs and patterns, that sort of childlike wonder seems to be more muted and fades down a little, because a lot of these are things that you've seen before, in just a different form... So I'm curious, Mat, do you still have that sense of childlike wonder and curiosity when you dive into different things now? And if so, how do you keep that alive throughout the years?
 
 **Mat Ryer:** That's a great question. Actually, the answer is yes, I do still have it. And what happened to me was the things that I learned, and that just became kind of tools that I could use - in the beginning they were exciting things I didn't understand. And then once you understand them and they do somewhat become mundane, actually they just become tools. There's always more things, and that's the nice message I can tell you from the future, if you imagine I'm in the future. I can't tell you any lottery numbers, it's against the time-traveling laws, but...
 
@@ -316,11 +318,11 @@ I know a lot of people do do that - they have the big plan, and stick to it, and
 
 Somebody I read said that creativity actually is just making connections that other people haven't made yet, between things that already exist. So in that sense, you might know about a messaging system, and you might know HTML, so you could build a web frontend; you might have these various tools, which in their own right, if you've done them for long enough, become not very exciting or cool. Don't have that sparkle to them. But then you can use them to mix them together in new ways that other people haven't done before, and tackle problems -- and even tackle problems that have already been solved, in different ways, in new ways. So yeah, it never runs dry, there's always more to learn, and I think that's the good news I can give you from the future.
 
-**Benjamin Bryant:** That's very wise. It sounds good. It sounds like there's a lot to look forward to.
+**Shaquille Que:** That's very wise. It sounds good. It sounds like there's a lot to look forward to.
 
 **Mat Ryer:** Yes, there is. There definitely is. Any other questions?
 
-**Shaquille Que:** \[00:56:01.14\] Yes. So last year, at my Life360 internship, I was like -- there was this one senior engineer who would sit perpendicular to me... And we were both working on the same sort of area, so he knew a lot of stuff... And I would go to him a lot for help; after a certain point, I felt like I was being intrusive, so I stopped going for help that much, and that sort of slowed me down. I'm just wondering, how much time should be spent trying to figure out a problem before bugging a senior dev with that problem?
+**Aditya Prerepa:*** \[00:56:01.14\] Yes. So last year, at my Life360 internship, I was like -- there was this one senior engineer who would sit perpendicular to me... And we were both working on the same sort of area, so he knew a lot of stuff... And I would go to him a lot for help; after a certain point, I felt like I was being intrusive, so I stopped going for help that much, and that sort of slowed me down. I'm just wondering, how much time should be spent trying to figure out a problem before bugging a senior dev with that problem?
 
 **Mat Ryer:** I think that is a good question, which again, isn't gonna have a very simple answer... Because it'll just depend so much on the situation. But the fact that you're even thinking like that I think is the good thing, because it's about -- you know, you do have the respect for other people's time, and that's important. But I think it just depends on the situation. And having that as a sort of open conversation and asking people about it - I think that's the way to do it. "Do you mind if I come and bug you? Would you prefer I just did it at certain times? What works for you?" Those kinds of things. I think you'll find most of the time people like helping.
 
@@ -356,9 +358,9 @@ I think that's right, it will change over time, and it'll be different at differ
 
 **Mat Ryer:** Yeah, it's funny - I think one of the big things is browser support. Now, you can do gRPC in the browser; it's not as easy as RESTful services. And I think yeah, the legacy, Aditya, that you talk about, of the fact that we've had REST for a long time - that is probably what carries it.
 
-If you sat down and looked at the both, and just did a sort of analysis and a comparison, gRPC is a binary protocol. You use protobuff to describe the messages... Essentially, you describe a struct, basically, if you think of it in Go terms. But one of the cool things it has is you put a number for each field, and once you've used that number, you never will change it. You can delete them and not use it, but you can't ever reuse that number. So that's sort of future-proofs API design; old messages with still work in the future.
+If you sat down and looked at them both, and just did a sort of analysis and a comparison, gRPC is a binary protocol. You use protobuf to describe the messages... Essentially, you describe a struct, basically, if you think of it in Go terms. But one of the cool things it has is you put a number for each field, and once you've used that number, you never will change it. You can delete them and not use it, but you can't ever reuse that number. So that's sort of future-proofs API design; old messages with still work in the future.
 
-There's a few other benefits, and things... It's a binary protocol where REST tends to be text, whether it's JSON or something... And yeah, you can also get some very fast serialization down at gRPC. Typically, I've seen people use it in systems, if you've got microservices and things... They'll use something like gRPC and sometimes protobuff on its own for the messaging there... But when it comes to building a web experience, there isn't yet the bit that reaches into the browser enough, I think, for that adoption to happen. But there's no reason why that won't happen.
+There's a few other benefits, and things... It's a binary protocol where REST tends to be text, whether it's JSON or something... And yeah, you can also get some very fast serialization down at gRPC. Typically, I've seen people use it in systems, if you've got microservices and things... They'll use something like gRPC and sometimes protobuf on its own for the messaging there... But when it comes to building a web experience, there isn't yet the bit that reaches into the browser enough, I think, for that adoption to happen. But there's no reason why that won't happen.
 
 \[01:04:07.23\] So yeah, we could well see something like gRPC -- or there are other kind of binary protocols... But we could easily see that take over and become the one. You'll notice, if you go to a Stripe API, or Amazon Web Services, or these kinds of APIs - they tend to be still following the patterns of the web.
 
@@ -368,7 +370,7 @@ RPC things, which gRPC is one, of course - not of course, but it is - is more ab
 
 So I think it's interesting - I think web protocols and REST still is by far the biggest player, but it doesn't mean it's better technically. It is probably easier to interface with, so that's why it might be winning.
 
-**Shaquille Que:** One last thing... When I see microservices that use REST to communicate, it baffles me... Because let's say a company wants to move to a faster RPC model; one of the reasons they might not do that is you will have to migrate all of your microservices from REST to gRPC, and there's gonna be so many things that could go wrong there. But there are services that I'm not sure -- maybe I'm just not in the loop, but I'm not sure why more entities aren't utilizing it; there's stuff like Envoy, and gRPC Gateway, which transcribes REST into JSON, and JSON into REST. And that actually -- you know, it supports REST while you're getting a taste of what gRPC is. So that's an interesting topic - adoption, players in adoption, like Envoy and gRPC Gateway are super-useful when dealing with that stuff.
+**Aditya Prerepa:** One last thing... When I see microservices that use REST to communicate, it baffles me... Because let's say a company wants to move to a faster RPC model; one of the reasons they might not do that is you will have to migrate all of your microservices from REST to gRPC, and there's gonna be so many things that could go wrong there. But there are services that I'm not sure -- maybe I'm just not in the loop, but I'm not sure why more entities aren't utilizing it; there's stuff like Envoy, and gRPC Gateway, which transcribes REST into JSON, and JSON into REST. And that actually -- you know, it supports REST while you're getting a taste of what gRPC is. So that's an interesting topic - adoption, players in adoption, like Envoy and gRPC Gateway are super-useful when dealing with that stuff.
 
 **Mat Ryer:** Yeah, absolutely. I think it's just a case of inertia. Here's the thing... If you get to a project and you're responsible for choosing which technology you're gonna use, you could sit down and just compare the two technologies and very reasonably come to the conclusion that "Well, gRPC is the one." But if that team has never heard of gRPC before, then that is quite a big thing, that's quite a big consideration that you have to make when choosing tech.
 
@@ -380,7 +382,7 @@ But if instead you want to just provide a surface and let people write to that s
 
 The gRPC Gateway thing is interesting. As you mentioned, proxies essentially lets you do -- I think it spins up the gRPC server and it spins up a JSON server... So depending on how you're deploying code, that might not work, too. You might not be able to do things like that. I'm thinking of how App Engine used to work in Google Cloud - it was a locked down kind of environment, so you weren't able to just open up any ports you want; it was very controlled. It's less so the case now, but there are definitely considerations like that too about deployment, and things... But yeah, I think it's a great one, and we should probably have another episode on it at some point, and we'll invite you back.
 
-**Aditya Prerepa:** I completely agree. One last thing - gRPC, to actually sort of move it away from a Google product, they actually renamed it to gRPC (Remote Procedural Call), so it's sort of a recursive acronym.
+**Aditya Prerepa:** I completely agree. One last thing - gRPC, to actually sort of move it away from a Google product, they actually renamed it to gRPC Remote Procedural Call, so it's sort of a recursive acronym.
 
 **Mat Ryer:** Right, right. So the g stands for gRPC.
 
@@ -402,7 +404,7 @@ The gRPC Gateway thing is interesting. As you mentioned, proxies essentially let
 
 Shaquille, have you got anything unpopular to say? So far you've just been saying popular things.
 
-**Shaquille Que:** Yeah. I'd say updating Go versions is a terrible experience. It's not as terrible as other languages, for example, but the fact that you have to do a lot of things manually - go through a website, download it, delete the odd one, and all of that, where we have a lot of Go tools that do other things... I think that's kind of sad.
+**Shaquille Que:** Yeah. I'd say updating Go versions is a terrible experience. It's not as terrible as other languages, for example, but the fact that you have to do a lot of things manually - go through a website, download it, delete the old one, and all of that, where we have a lot of Go tools that do other things... I think that's kind of sad.
 
 **Mat Ryer:** Interesting. There is an installer which will just do it for you. It probably depends on how you installed it in the first place, I guess.
 
@@ -418,7 +420,7 @@ How about we have you on again next year and see where you are? We can check in.
 
 **Outro:** \[01:13:11.11\]
 
-**Mat Ryer:** We could easily end up in a kind of arms' race against other people, and I never find that to be particularly enjoyable... So I think being indifferent is the way. I like to say "Think different." \[laughs\]
+**Mat Ryer:** We could easily end up in a kind of arms' race against other people, and I never find that to be particularly enjoyable... So I think being different is the way. I like to say "Think different." \[laughs\]
 
 **Jerod Santo:** Did you just make that up?
 
