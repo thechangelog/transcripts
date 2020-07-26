@@ -1,4 +1,4 @@
-**Jerod Santo:** Caleb, thanks for coming on Maintainer Spotlight. Thanks for being an open source maintainer. Why don't you tell me about yourself and what you've been maintaining?
+ **Jerod Santo:** Caleb, thanks for coming on Maintainer Spotlight. Thanks for being an open source maintainer. Why don't you tell me about yourself and what you've been maintaining?
 
 **Caleb Porzio:** Yeah, so first, thanks for having me.
 
@@ -6,7 +6,7 @@
 
 **Caleb Porzio:** About myself... I do a lot of development; there's a lot of outside things we could talk about, but the development-related things - I quit my job about a year ago. I worked full-time at a web agency; it's a Laravel and Vue and React shop, and... I don't know, I wanted to -- at first it was actually just to take a sabbatical. I just wanted a break from programming. And about a day into that sabbatical I got hooked on this project that's now Livewire. We could talk a little bit about that later. So that's my main project, and it's been my main project for over a year now.
 
-And then Alpine, a little JavaScript framework package thing, kind of popped up along the way, and now that's another project. They kind of work together, but those are my two big projects. Then a bunch of little side things...
+And then Alpine, a little JavaScript framework package thing, kind of popped up al ong the way, and now that's another project. They kind of work together, but those are my two big projects. Then a bunch of little side things...
 
 **Jerod Santo:** Yeah, I've found one of your side projects fun and interesting. Gitdown...?
 
@@ -112,7 +112,7 @@ So you've been working on Livewire, you've got lots of people interested in it, 
 
 **Caleb Porzio:** Yeah, that's a great question. I will say that I maybe barely consider myself in a sustainable place. This started out as a sabbatical. I've been really in the financial independence and that whole community for a while, so I've already kind of taken on the habits of somebody reaching for early retirement. So I cranked up my savings when I was working full-time, and I was just kind of piling money away in investments...
 
-And my standard of living is pretty low. My wife and I both -- we don't have any school death, we share one car, we rent a small apartment... There's a lot of things about our life that just -- we don't need a ton of money. So there's that, there's also the pile of money sitting there, and so I went to take the sabbatical and thought "I mean, I can live for two months on no income, easily." So I did that, and then it just kept going, and at some point -- so I decided I'll never pull from savings. I'll never go into my investments. Anything I put in for 401K or anything like that - I'll never do that. If I get to that point, I'll get a job, or something.
+And my standard of living is pretty low. My wife and I both -- we don't have any school debt, we share one car, we rent a small apartment... There's a lot of things about our life that just -- we don't need a ton of money. So there's that, there's also the pile of money sitting there, and so I went to take the sabbatical and thought "I mean, I can live for two months on no income, easily." So I did that, and then it just kept going, and at some point -- so I decided I'll never pull from savings. I'll never go into my investments. Anything I put in for 401K or anything like that - I'll never do that. If I get to that point, I'll get a job, or something.
 
 So a) my wife is a photographer, so she brings in some money, where before it was always just kind of on the top, because I had the developer job, and now it's--
 
@@ -126,9 +126,9 @@ So a) my wife is a photographer, so she brings in some money, where before it wa
 
 **Jerod Santo:** Are these professionals? Are these people that are trying to get into programming? Who can, at an individual level, spend $150/hour for training?
 
-**Caleb Porzio:** Yeah... So generally, they're professionals, and they're Laravel professionals. I guess I've been fortunate enough that over time I've built a bit of an audience in the Laravel community. So it's kind of been my thing for a while now. So I've spoken at three Laracons, I'm speaking at two this year... So I have a little bit of a name in the community, and I've already done a lot of educating publicly, and I work for Titan, which is one of the top Laravel shops...
+**Caleb Porzio:** Yeah... So generally, they're professionals, and they're Laravel developers. I guess I've been fortunate enough that over time I've built a bit of an audience in the Laravel community. So it's kind of been my thing for a while now. So I've spoken at three Laracons, I'm speaking at two this year... So I have a little bit of a name in the community, and I've already done a lot of educating publicly, and I work for Titan, which is one of the top Laravel shops...
 
-So that really was the power behind this, was that I already had this audience. So it wasn't just beginners coming to me, going "How do I program?", it was lik, people who listen to my podcast and know how I think, and are already in deep on projects, whether it's for a company, or they're solopreneurs, or whatever...
+So that really was the power behind this, was that I already had this audience. So it wasn't just beginners coming to me, going "How do I program?", it was like, people who listen to my podcast and know how I think, and are already in deep on projects, whether it's for a company, or they're solopreneurs, or whatever...
 
 **Jerod Santo:** Are they using Livewire, or are they just using Laravel?
 
@@ -192,7 +192,7 @@ So Alpine internally -- I don't know if there's any dependencies. There might be
 
 **Break:** \[00:26:50.11\]
 
-**Jerod Santo:** So Caleb, the thing that caught my eye of what you've been up to - because like I said, I'm not deep in the Laravel community... And I'm not excited about Alpine, but I did not find Alpine until just now...
+**Jerod Santo:** So Caleb, the thing that caught my eye of what you've been up to - because like I said, I'm not deep in the Laravel community... And I'm now excited about Alpine, but I did not find Alpine until just now...
 
 **Caleb Porzio:** Oh, really?
 
@@ -304,7 +304,7 @@ So after the podcast, when I actually sat down to implement all this stuff, I re
 
 **Jerod Santo:** And then you turned around and you sent an email to your mailing list that said basically "Okay, I'm writing Sushi. If you want me to open-source it, I've gotta get to 75 GitHub sponsors." I'm wondering how much of this may have been because of the novelty of the idea. Because there's some of that... Especially that a lot of your backers might be indies and devs, and like "Oh, cool." Obviously, you can't necessarily quantify all this, but I'm just curious, how did you actually pitch this to your audience, and I'm wondering how much we could rinse and repeat this and have success for the people?
 
-**Caleb Porzio:** \[00:40:12.04\] Right, yeah. So there's a lot of factors here. To give more details, the email list was 3,000 people... Which is a decent list, at least for me. That's my generic email. I've resisted segmenting my email list, so it's basically one giant list of people that I send an email to every so often, that are generally interested in the things that I do, and are generally in the Laravel community \[unintelligible 00:40:35.07\] of those things. And on Twitter I have like 10,5k followers. Actually, I had less than 10k before I did that tweet. I gained a bunch just from the tweet.
+**Caleb Porzio:** \[00:40:12.04\] Right, yeah. So there's a lot of factors here. To give more details, the email list was 3,000 people... Which is a decent list, at least for me. That's my generic email. I've resisted segmenting my email list, so it's basically one giant list of people that I send an email to every so often, that are generally interested in the things that I do, and are generally in the Laravel community and aware of those things. And on Twitter I have like 10,5k followers. Actually, I had less than 10k before I did that tweet. I gained a bunch just from the tweet.
 
 So the original Sushi tweet had 1,200 likes, which is probably in the top five tweets ever for me. I think it's worth mentioning that it's--
 
@@ -350,7 +350,7 @@ I have a tiny bit of experience with this sort of thing, launching something to 
 
 **Caleb Porzio:** No, so the marketing was all back-channel, emails and Twitter.
 
-**Jerod Santo:** So you could do a thing where you actually create the repo public, open source, and just keep the source code out, and let the readme be part of your marketing. You could even have readme-driven development. You could have the API out there, everything. The code.
+**Jerod Santo:** So you could do a thing where you actually create the repo public, open source, and just keep the source code out, and let the readme be part of your marketing. You could even have readme-driven development. You could have the API out there, everything except for the code.
 
 **Caleb Porzio:** Yeah, right.
 
@@ -482,7 +482,7 @@ So my mind was like "Alright, I could use the extra money, and it will plug me i
 
 **Caleb Porzio:** Oh, interesting.
 
-**Jerod Santo:** ...so you can get involved with then, but it's not like now you're basically -- because you actually put a cap on your time at that tier. Because you only have so many two-hour sessions a month that you can actually divvy out before you are basically a consultant.
+**Jerod Santo:** ...so you can get involved with them, but it's not like now you're basically -- because you actually put a cap on your time at that tier. Because you only have so many two-hour sessions a month that you can actually divvy out before you are basically a consultant.
 
 **Caleb Porzio:** Yeah, definitely. That's a really good point. If it was like just six hours, and there's your pool of sponsor time, it would communicate something else. It would communicate "You're not paying me for my time all the time." It would be clear that you're not paying for my time. The time is an added benefit of you committing to the project at this level.
 
@@ -506,7 +506,7 @@ If you're a freelancer and now you're looking at this and you're going "Well, ye
 
 So that was a change... And then the big one was like "If you're an agency, you should be at this higher tier." I had somebody who was sponsoring me at $100, bump up to $250, basically because of the language change, where they went "Yeah, okay. That's right. I'll respect his expectation", I guess.
 
-**Jerod Santo:** Well, those are some great insights. Caleb, thanks so much for talking to me today and sharing this experiment you've been doing. And all the awesome open source listeners, check out Livewire, Alpine; check out Gitdown, it's kind of cool... And definitely subscribe to whatever Caleb's up to to find out when Project L comes out. He's been teasing that relentlessly... We're all excited for it - reference, implementation of all these things... I think that's a great idea, and my guess is it'll be a hit as sponsorware, as well.
+**Jerod Santo:** Well, those are some great insights. Caleb, thanks so much for talking to me today and sharing this experiment you've been doing. And all the awesome open source listeners, check out Livewire, Alpine; check out Gitdown, it's kind of cool... And definitely subscribe to whatever Caleb's up to to find out when Project L comes out. He's been teasing that relentlessly... We're all excited for it - reference implementation of all these things... I think that's a great idea, and my guess is it'll be a hit as sponsorware, as well.
 
 Caleb, thanks for joining us. This has been very insightful, and a lot of fun.
 
