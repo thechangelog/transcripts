@@ -30,7 +30,7 @@ And that's the thing... One of the things that I have always been careful - and 
 
 **Jerod Santo:** Right...
 
-**José Valim:** So we knew that it needs to be a community effort. So I think the first person, who was Eric - he joined the core team in 2014, and since then, the core team has been growing. So when it comes to Elixir, I was the only person that was really bankrolled at Plataformatec. It was not like half of the core team, it was one-sixth, one-fifth of the core team was bankrolled. And I think that's great, because there's always the buzz number factor as well. I don't want things depending on me, like if I die, does it mean the project is over, for example?
+**José Valim:** So we knew that it needs to be a community effort. So I think the first person, who was Eric - he joined the core team in 2014, and since then, the core team has been growing. So when it comes to Elixir, I was the only person that was really bankrolled at Plataformatec. It was not like half of the core team, it was one-sixth, one-fifth of the core team was bankrolled. And I think that's great, because there's always the bus number factor as well. I don't want things depending on me, like if I die, does it mean the project is over, for example?
 
 **Jerod Santo:** Right.
 
@@ -338,7 +338,7 @@ But I'm also reaching out to people who have filled in, and having conversations
 
 **Jerod Santo:** Huh.
 
-**José Valim:** Because we need to have some kind of access controls that -- let's say the official ones are the open source ones, because they're almost all open source \[unintelligible 01:02:56.20\] so we are building our own, and it has been very fun.
+**José Valim:** Because we need to have some kind of access controls that -- let's say the official ones are the open source ones, because they're almost all open source, but they don't have, so we are building our own, and it has been very fun.
 
 **Jerod Santo:** That sounds a lot more fun than global taxes.
 
