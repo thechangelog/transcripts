@@ -1,4 +1,4 @@
- **Jerod Santo:** Caleb, thanks for coming on Maintainer Spotlight. Thanks for being an open source maintainer. Why don't you tell me about yourself and what you've been maintaining?
+**Jerod Santo:** Caleb, thanks for coming on Maintainer Spotlight. Thanks for being an open source maintainer. Why don't you tell me about yourself and what you've been maintaining?
 
 **Caleb Porzio:** Yeah, so first, thanks for having me.
 
