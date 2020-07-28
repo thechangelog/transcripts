@@ -194,7 +194,11 @@ I have this filter on my phone that turns things in this nice shade of red when 
 
 **Danielle Rath:** Mireille, didn't you also use an acronym in a previous podcast? It was like CAR, or something...
 
-**Mireille Reece, PsyD:** Yeah, so I \[unintelligible 00:21:17.25\] So there's multiple systems involved with our reward system, and adenosine is not dopamine, right?
+**Mireille Reece, PsyD:** Yeah, so I... Dude, like Cue, Craving, Response, Reward. 
+
+**Danielle Rath:** Yes!
+
+**Mireille Reece, PsyD:** So cue, anticipated response, reward. But, so there's multiple systems involved with our reward system, and adenosine is not dopamine, right?
 
 **Danielle Rath:** Yes. I remember listening to that podcast and having to pull over and take notes on my phone...
 
