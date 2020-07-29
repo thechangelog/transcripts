@@ -70,7 +70,7 @@ Then the other side of it that gets confusing is how to you contribute back? Tha
 
 **Erik St. Martin:** Now, this is agnostic too, what you use for your vendoring tool, right?
 
-**Filippo Valsorda:** Correct, you can vendor with whatever you want. A few tools will freak out if you're not in the GOPATH, which is kind of legitimate, because vendoring doesn't even turn on outside GOPATH, but if you can get them to actually do their job and vendor stuff, any tool that you use for vendoring will do. I patched JWT so that it doesn't complain if there's a makefile... That's how I solved the JWT.
+**Filippo Valsorda:** Correct, you can vendor with whatever you want. A few tools will freak out if you're not in the GOPATH, which is kind of legitimate, because vendoring doesn't even turn on outside GOPATH, but if you can get them to actually do their job and vendor stuff, any tool that you use for vendoring will do. I patched GVT so that it doesn't complain if there's a makefile... That's how I solved the GVT.
 
 **Brian Ketelsen:** Nice.
 
@@ -82,7 +82,7 @@ Then the other side of it that gets confusing is how to you contribute back? Tha
 
 **Filippo Valsorda:** I should tail the logs and say hi back to people but that would be even more creepy. \[laughter\] So yeah, whoami is this little demo that came out because my flatmate - who deserves a lot of the credit - had dumped all the public SSH keys of GitHub... You might not realize, but if you go to GitHub.com/yourusername.keys, it will show you your SSH keys. That's super handy for a number of reasons, like "I want to give this person access to my bugs", or something like that... But you can just scrape the whole -- not even scrape, just use the GitHub API to get the list of all users, then load all the keys and now you have a pretty good idea of a huge chunk of the SSH keys, to whom they belong.
 
-At the same time I was studying the SSH protocol and trying to figure out a bit of the internal and such, and I realized that the default behavior is just to send preemptively the public keys you're willing to use, then the server responds, "Oh, yes, I like this one." If the server responds that, then you make a signature with that key to log in.
+At the same time I was studying the SSH protocol and trying to figure out a bit of the internals and such, and I realized that the default behavior is just to send preemptively the public keys you're willing to use, then the server responds, "Oh, yes, I like this one." If the server responds that, then you make a signature with that key to log in.
 
 But if the server refuses them all, it will still see them all... And I built this little tool with the golang.org/x/sshpackage that would ask you to use your public keys, refuse them all, but block them, then ask you to do keyboard interactive logging, which is a weird thing that I could just make happen automatically - so log you in any case... Then, if I found you in the database, I would tell you your name and surname and GitHub account, because I cross-reference that to the database. Once you explain it, it's kind of trivial, but the surprise, the impact is pretty strong.
 
@@ -132,7 +132,7 @@ What other things are you working on? I know you're doing some TLS stuff as well
 
 **Filippo Valsorda:** Yeah, so the approach that I've been working on for the last few months - quite a few months, wow - is TLS 1.3. The short version of the crypto like page is that TLS 1.3 is the new version of TLS; it's not about getting cryptographers job security, but instead about making the protocol actually more robust against future attacks, so it's a complete rework and it takes one less round trip to connect to things, so it's faster, and a bunch of other things that if you're interested in -- there's a talk at CCC 33c3 that you should watch.
 
-But the point is we wanted to implement TLS 1.3 and participate in the standardization process with a real implementation and deployed... So we wanted to take up TLS stack and add 1.3 ourselves. I essentially threatened to quit if they made me do it on OpenSSL -- no, I'm joking; nobody asked me. They just asked me what to use as a base, so I just jumped straight to crypto/tls, the standard library of Go, which is a wonderful stack written originally by Adam Langley, which all of the people in the industry say that it's where they go to to understand TLS. They read the spec, they fail to understand it, they go to crypto/tls, they read the Go code, and now they understand things. So that was the starting point... And we extended it to have TLS 1.3 support; we worked most on the server side, and it's now deployed globally on millions of CloudFlare sites. If you just sign up for a free account, it's on by default.
+But the point is we wanted to implement TLS 1.3 and participate in the standardization process with a real implementation deployed... So we wanted to take up TLS stack and add 1.3 ourselves. I essentially threatened to quit if they made me do it on OpenSSL -- no, I'm joking; nobody asked me. They just asked me what to use as a base, so I just jumped straight to crypto/tls, the standard library of Go, which is a wonderful stack written originally by Adam Langley, which all of the people in the industry say that it's where they go to to understand TLS. They read the spec, they fail to understand it, they go to crypto/tls, they read the Go code, and now they understand things. So that was the starting point... And we extended it to have TLS 1.3 support; we worked most on the server side, and it's now deployed globally on millions of CloudFlare sites. If you just sign up for a free account, it's on by default.
 
 \[00:15:56.17\] The nice thing we don't talk that much about, but you can definitely gather is that if our TLS 1.3 stack is in Go and you can use Go to connect to CloudFlare site it means that sometimes when you connect to CloudFlare, actually in the HTTP pipeline there is a Go HTTP reverse proxy.
 
@@ -207,7 +207,7 @@ On the other hand, performance-wise it cuts an entire round trip. When you conne
 
 **Carlisia Pinto:** But Filippo does have a talk on TLS 1.3... Where did you give that talk?
 
-**Filippo Valsorda:** That would be 33c3, the Cloud Computing Club conference in Hamburg. You can find it if you search for 33c3 TLS 1.3. There we go through all the Crypto parts of this TLS 1.3 effort, and about the Go part - there's nothing published just yet. You can find blog posts on the Gopher Academy Advent list, which is a bunch of lessons learned from exposing a Go server to the internet, because that's effectively what we did with the Go reverse proxy.
+**Filippo Valsorda:** That would be 33c3, the Chaos Computing Club conference in Hamburg. You can find it if you search for 33c3 TLS 1.3. There we go through all the Crypto parts of this TLS 1.3 effort, and about the Go part - there's nothing published just yet. You can find blog posts on the Gopher Academy Advent list, which is a bunch of lessons learned from exposing a Go server to the internet, because that's effectively what we did with the Go reverse proxy.
 
 The more Crypto part... I don't know... I mean, maybe GopherCon? This is probably bad taste, I'll shut up.
 
@@ -235,7 +235,7 @@ The more Crypto part... I don't know... I mean, maybe GopherCon? This is probabl
 
 Now, that's super nice because it means that you can take, for example, the Caddy build server, which is a nice server that does builds for you and gets you this single binary that you can deploy, and you can prove that Matt is not an evil spy with a plan to conquer the world - sorry, Matt! - you can reproduce the binary and prove that it matches what the build server built, so you can prove there is no backdoor. So what I plan to do is to do a first experiment reproducing the builds of Caddy, but then build small tools to allow anyone to reproduce builds and publish signatures maybe with Keybase to show that they match... Maybe even publish them to our key transparency log, which is like CT, but now I'm crypto-nerding too hard.
 
-**Brian Ketelsen:** Yeah, you lost me there with CT.
+**Brian Ketelsen:** Yeah, you lost me there.. What's CT?
 
 **Filippo Valsorda:** Sorry, that was too much of a tangent... CT is a way to get CAs, the ones that sign TLS certificates more accountable by forcing them to disclose all the certificates they sign to a log where - long story short - they can't be hidden or removed. You could use the same ideas to make a build server publish all the things it builds to a log where they can't be removed, so if they build something with a backdoor in it, it will show - they can't hide it and only provide it to some people - and then you can prove it has a backdoor because it doesn't reproduce, because you can't build it from another machine.
 
@@ -292,7 +292,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Erik St. Martin:** Check the website first before buying plane tickets and hotel... You might be early or late.
 
-**Filippo Valsorda:** 24th. I was wrong. \[unintelligible 00:32:27.25\]
+**Filippo Valsorda:** 24th. I was wrong.
 
 **Carlisia Pinto:** Because you're Italian, I'm going to ask you... Did you go to the GopherCon in Italy?
 
@@ -332,7 +332,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Brian Ketelsen:** So we should give the story behind that... If you go to Gopherize.me, you can create your own Gopher avatar out of lots of different choices, and it's built for you live on the screen. It was built by Mat Ryer, with images supplied by Ashley McNamara, and the whole thing started because I asked Ashley for a custom gopher avatar and then changed my avatar on Twitter; then she made one for Erik and then she made one for Bill, and the next thing you know, the whole internet's asking for one, so they decided to just go make a site and give Ashley a break, so she didn't have to make custom avatars for everybody.
 
-**Carlisia Pinto:** I have a request from Ashley and Mat... We need to have a T-shirt with the GoTime logo.
+**Carlisia Pinto:** I have a request for Ashley and Mat... We need to have a T-shirt with the GoTime logo.
 
 **Brian Ketelsen:** Oh, we need a GoTime logo.
 
@@ -378,7 +378,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Brian Ketelsen:** Oh, where's my list? I have a million things.
 
-**Filippo Valsorda:** I wanted to give a shoutout to the pre-alpha dep tool. The team that is working on giving a blessed answer to "How do you fill your vendor folder?" has published a first tool that uses this library called GPS, which is meant to become the shared backend for all the vendoring tools, if my understanding is correct. I have no affiliation into that, but having \[unintelligible 00:37:39.28\] I know how much pain is involved... So huge shoutout.
+**Filippo Valsorda:** I wanted to give a shoutout to the pre-alpha dep tool. The team that is working on giving a blessed answer to "How do you fill your vendor folder?" has published a first tool that uses this library called GPS, which is meant to become the shared backend for all the vendoring tools, if my understanding is correct. I have no affiliation into that, but having built GVT I know how much pain is involved... So huge shoutout.
 
 **Erik St. Martin:** Yeah, we're gonna try to get Sam Boyer on the show. We've actually been communicating right now, while we're on this call. Hopefully in the next couple episodes we will actually get him on and talk about this tool and some of the stuff going on behind the scenes.
 
@@ -386,7 +386,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Brian Ketelsen:** It makes this come full circle, because when I started Go, back in 'Nam, we had to use makefiles then, too. \[laughter\]
 
-**Erik St. Martin:** Yeah, I remember the makefiles, so it's kind of interesting circling back. \[laughs\] I mean, make is super powerful too, so I can't realy hate using makefile.
+**Erik St. Martin:** Yeah, I remember the makefiles, so it's kind of interesting circling back. \[laughs\] I mean, make is super powerful too, so I can't really hate using makefile.
 
 **Brian Ketelsen:** I put makefiles in everything. For me, it's more of not being a workflow, but being a recipe for what you expect people to do with your application. My makefile may just say "go build" under make build, but it more often has very explicit directions in each recipe on what needs to be done, so I think it's its own form of documentation that's more canonical for each project.
 
@@ -482,7 +482,7 @@ Okay, any other interesting projects?
 
 **Erik St. Martin:** Carlisia, did you run across anything you wanted to talk about?
 
-**Carlisia Pinto:** I did. Sourcegraph is now in general availability with the Go language. For people who don't know, Sourcegraph is like a code navigation tool, but you use it on your browser. The cool thing over other normal code navigation tools is that it will take your cross repos, and if you go to a function, for example, you can see where it is used in the entire GitHub universe, and I think even in other source control systems, maybe GitLab... I'm not sure about that, but GitHub - definitely. And that is super cool.
+**Carlisia Pinto:** I did. Sourcegraph is now in general availability with the Go language. For people who don't know, Sourcegraph is like a code navigation tool, but you use it on your browser. The cool thing over other normal code navigation tools is that it will take you across repos, and if you go to a function, for example, you can see where it is used in the entire GitHub universe, and I think even in other source control systems, maybe GitLab... I'm not sure about that, but GitHub - definitely. And that is super cool.
 
 For example, when I run into something new and I want to see how people are using it, I just use Sourcegraph and I'm able to see it. It also gives you git blame and it gives you the last time the file was updated, and a bunch of other awesome things.
 
@@ -552,7 +552,7 @@ Ashley McNamara did the design and the images, I built the code side of it and w
 
 **Erik St. Martin:** It's a fantastic tool to run on your codebase before committing, for sure, and it only continues to evolve. And I guess that's largely thanks to you antagonizing him. \[laughter\]
 
-**Brian Ketelsen:** I did notice in the Golang Dev -- no, Golan Nuts mailing list... One of the Golang mailing lists, that they're changing the import paths of those, so if you rely on those, double check your repository locations, because I know that he just renamed them.
+**Brian Ketelsen:** I did notice in the Golang Dev -- no, Golang Nuts mailing list... One of the Golang mailing lists, that they're changing the import paths of those, so if you rely on those, double check your repository locations, because I know that he just renamed them.
 
 **Erik St. Martin:** Nice. A little plug here... Florin in the GoTime FM channel just listed his Patreon account, if you want to support Dominik's work.
 
@@ -628,7 +628,7 @@ Ashley McNamara did the design and the images, I built the code side of it and w
 
 **Brian Ketelsen:** You know, he probably rushed to finish the gopherize-me thing just before he was gonna be on the show. \[laughter\]
 
-**Carlisia Pinto:** Just for us!
+**Carlisia Pinto:** Good for us!
 
 **Brian Ketelsen:** Now I understand everything.
 
