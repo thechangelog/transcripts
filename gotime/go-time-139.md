@@ -208,7 +208,7 @@ I wanted to just talk about the format though, the readability of it, because th
 
 **Mat Ryer:** And then from that, you can generate some quite nice-looking failures. If something fails, it reads quite nicely... But I've found it to be too verbose actually, and just saying "Not equal" and then showing you the two values or something was just easier to see.
 
-**Mark Bates:** The thing I like about BDD versus unit testing actually has to do with the names of the tests... You know, when you're writing a simple test - you know, test that create does something; that's a pretty simple testing. But when you start having all those weird variants, then the string-based text names become really useful. When you just need a little bit more description as to what it is you're trying to test... And that's harder to do in a units type of a test, where you have a function name.
+**Mark Bates:** The thing I like about BDD versus unit testing actually has to do with the names of the tests... You know, when you're writing a simple test - you know, test that create does something; that's a pretty simple test name. But when you start having all those weird variants, then the string-based text names become really useful. When you just need a little bit more description as to what it is you're trying to test... And that's harder to do in a units type of a test, where you have a function name.
 
 \[00:20:05.21\] For me, I get around that a little bit in Go with underscores in my test names. So I have a different approach to how I do my test names. So it obviously starts with "test", because we all have to start there, and then usually it's an underscore, with the next thing being if I'm testing, say, something on a struct, or a type, then it'll be the type. So it's test\_type\_method, or something like that, where I can kind of look at the tests, read them a little bit better, try to figure out what they're doing... And also, when I'm trying to do run, it helps me, because I have a bit of a pattern. So if I wanna test all the file stuff, my types called "file", and I wanna run all the file tests, I can do test\_file\_ and it's gonna get me all of the tests for the file type when I do the run.
 
@@ -380,11 +380,11 @@ I use that pattern quite a lot too (I like that), of "Here's a default way of do
 
 **Mat Ryer:** Yeah. A good use of that is if you need to control time, because the time.now function just returns the current time. Obviously, in real code, that's different every time... But you can have a function field that matches the time.now signature - which I think is just empty func - and then assign it by default to time.now, and then control that in your test code. So yeah, I love those sort of mini-mocks almost...
 
-**Mark Bates:** \[00:40:03.22\] In Ruby we had a great thing called timecop; it was such a random Ruby thing... It would override basically time.now to be whatever \[unintelligible 00:40:10.06\] \[laughter\] You could just override anything; you could say like "I wanna be three weeks into the future", and time.now would return three weeks in the future.
+**Mark Bates:** \[00:40:03.22\] In Ruby we had a great thing called timecop; it was such a random Ruby thing... It would override basically time.now to be whatever value you wanted it to be \[laughter\] You could just override anything; you could say like "I wanna be three weeks into the future", and time.now would return three weeks in the future.
 
 **Boyan Soubachov:** Great Scott! \[laughter\]
 
-**Mark Bates:** It was spectacularly awful and good fun... \[laughs\] It was one of those things you can only do in a dynamic language though. It's also the reason I'm not using a dynamic language anymore...
+**Mark Bates:** It was spectacularly awful, and good, and fun... \[laughs\] It was one of those things you can only do in a dynamic language though. It's also the reason I'm not using a dynamic language anymore...
 
 **Boyan Soubachov:** The way I look at it, at least - if it's something that's... How likely is it to change? Basically, how likely is your database state to change? How likely is your time to change? If it's anything other than low, take it out, mock it out, make it as a dependency that's injected. But that's a rule of thumb that I follow anyways...
 
