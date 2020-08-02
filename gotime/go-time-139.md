@@ -76,7 +76,7 @@
 
 **Mat Ryer:** What are testing frameworks then, and what does it mean in Go? Maybe it's worth just a bit of an overview for junior developers or people that aren't familiar with this yet. What are we talking about?
 
-**Mark Bates:** Well, that was actually -- I was making a bad little joke there about the testing frameworks, but I do have a legitimate thing... I think we need to talk about the language. Are we talking about assertion libraries, which are \[unintelligible 00:05:27.05\] Or are we talking about frameworks like Ginkgo and Gomega and stuff, where you have to buy in to their entire process. GoConvey has its own scripting language if you want a testing/scripting thing, if you wanna go through that... So when we talk testing frameworks, are we talking one, are we talking the other, or are we talking both?
+**Mark Bates:** Well, that was actually -- I was making a bad little joke there about the testing frameworks, but I do have a legitimate thing... I think we need to talk about the language. Are we talking about assertion libraries, which are this .. false, true, not nil? Or are we talking about frameworks like Ginkgo and Gomega and stuff, where you have to buy in to their entire process. GoConvey has its own scripting language if you want a testing/scripting thing, if you wanna go through that... So when we talk testing frameworks, are we talking one, are we talking the other, or are we talking both?
 
 **Mat Ryer:** We're talking all of those things today, I think...
 
@@ -98,7 +98,7 @@ For example, the simplest case, like the syntactic sugar case - and I think Test
 
 **Boyan Soubachov:** Sure, of course. Obviously, Testify -- well, Mat, I believe you were one of the original authors...
 
-**Mat Ryer:** \[00:07:52.02\] Okay, yeah... So this was way back -- I think even before the first GopherCon. So this was like 2014 time. And we came from Ruby, and I'd done a lot of JavaScript and C\#, and a lot of these languages have testing frameworks, or even some of them are just built-in, where you can use language like assert= and you give it two things. And if those two things aren't equal, that's considered then a failing test. So in Go, if you don't use a testing framework, you end up writing long-hand really that process. So you'll use an if, and check two variables; if they're not equal, or whatever the condition is, then you use the TestingT to do some work to either report the error, or fail the test, or whatever it is you wanna do.
+**Mat Ryer:** \[00:07:52.02\] Okay, yeah... So this was way back -- I think even before the first GopherCon. So this was like 2014 time. And we came from Ruby, and I'd done a lot of JavaScript and C\#, and a lot of these languages have testing frameworks, or even some of them are just built-in, where you can use language like assertEqual and you give it two things. And if those two things aren't equal, that's considered then a failing test. So in Go, if you don't use a testing framework, you end up writing long-hand really that process. So you'll use an if, and check two variables; if they're not equal, or whatever the condition is, then you use the testing.T to do some work to either report the error, or fail the test, or whatever it is you wanna do.
 
 We did Testify just because we were used to writing in that format, that's all. It was purely kind of syntactic sugar. And then because it was so early, it just kind of became part of an easy choice. It was the oldest, probably, at one point, and probably always is...
 
@@ -114,7 +114,7 @@ We did Testify just because we were used to writing in that format, that's all. 
 
 **Mat Ryer:** Yeah, absolutely. It's funny, because some of the innovation that happened over the years with that - there is a Require package, which has kind of a slightly different behavior. I think one of them lets you carry on...
 
-**Mark Bates:** That's the one I use. Assert lets your test keep running, and just logs the failures. Require stops the test. For me, I love Require. I use it for all my tests. As a matter of fact, my \[unintelligible 00:10:48.26\] Go snippet when I type "test tab", it fills in the require.new TestingT thing right there. It's just part of my tests.
+**Mark Bates:** That's the one I use. Assert lets your test keep running, and just logs the failures. Require stops the test. For me, I love Require. I use it for all my tests. As a matter of fact, my \[unintelligible 00:10:48.26\] Go snippet when I type "test tab", it fills in the require.new testing.T thing right there. It's just part of my tests.
 
 My problem with the Assert is typically, if something fails, I want the test to just stop, and not keep throwing panics for the next five minutes, which is usually what happens... Because something that wasn't supposed to be nil is nil now, and your test is just panicking all over the place... \[laughs\] So I like that.
 
@@ -214,7 +214,7 @@ I wanted to just talk about the format though, the readability of it, because th
 
 So that's how I'm getting around it in Go, is with using that... But there are frameworks like Ginkgo that let you experience that a bit more in Go.
 
-**Boyan Soubachov:** I think a key thing there - and at least my takeaway of it - is because the philosophies behind BDD and TDD, at least the way I understand it, is that BDD should be more focused on the user or the consumer that we're writing this code where, whereas TDD is a lot more technical or engineer-focused, personally, I tend to hybridize, where I'll do them TDD style, because I find them simpler and less verbose; I'm not expecting the user to read my tests... But I'll try and order and make the tests actually focus on user behavior in more complex functions, rather than just proving that the function works, or stopping it from regressing, in a way.
+**Boyan Soubachov:** I think a key thing there - and at least my takeaway of it - is because the philosophies behind BDD and TDD, at least the way I understand it, is that BDD should be more focused on the user or the consumer that we're writing this code for, whereas TDD is a lot more technical or engineer-focused, personally, I tend to hybridize, where I'll do them TDD style, because I find them simpler and less verbose; I'm not expecting the user to read my tests... But I'll try and order and make the tests actually focus on user behavior in more complex functions, rather than just proving that the function works, or stopping it from regressing, in a way.
 
 **Mat Ryer:** Yeah, have you seen property-based testing as well? This is another kind of style.
 
@@ -232,7 +232,7 @@ So that's how I'm getting around it in Go, is with using that... But there are f
 
 **Mat Ryer:** I have once, but it was really to play with it. But I think it depends on the kind of code you're writing, because it's not suitable for everything, is it?
 
-**Mark Bates:** Yeah, I think I'm the same as Mat. I've done it once to try it out... Yeah, \[unintelligible 00:24:19.15\] Did that sound about right?
+**Mark Bates:** Yeah, I think I'm the same as Mat. I've done it once to try it out... Yeah, Damian Gryski is all on it. Did that sound about right?
 
 **Mat Ryer:** I don't know, I let you do it. \[laughter\]
 
@@ -354,7 +354,7 @@ In Go, it's not my problem. \[laughter\] My tests are still plenty fast. They're
 
 **Mark Bates:** Okay. Sorry, I was legitimately confused for a second.
 
-**Mat Ryer:** No, it's fine... \[laughter\] Yes, there are some simple ways to mock out databases as well that I've seen, and used in the past. Sometimes it's a case of just have your own interface that you describe in your code, and your implementation of it touches a real database and has the database code in there... But that could be quite easy to mock. And then you aren't making database calls, but they might be something like "load user" or "load \[unintelligible 00:35:23.10\]", where in production that's gonna be a database request; you could mock out that interface at that level. So it's a kind of slightly higher-level wave of doing it. Have you done things like that before, anyone?
+**Mat Ryer:** No, it's fine... \[laughter\] Yes, there are some simple ways to mock out databases as well that I've seen, and used in the past. Sometimes it's a case of just have your own interface that you describe in your code, and your implementation of it touches a real database and has the database code in there... But that could be quite easy to mock. And then you aren't making database calls, but they might be something like *loadUser* or *loadLesson*, where in production that's gonna be a database request; you could mock out that interface at that level. So it's a kind of slightly higher-level wave of doing it. Have you done things like that before, anyone?
 
 **Boyan Soubachov:** Personally, at least in the last few years, where I've been working in larger Go teams, definitely that has been the way we've done things...
 
@@ -374,11 +374,11 @@ I think it's better not to make assertions about what was called in that, becaus
 
 **Mark Bates:** I think it's okay to assert errors, and stuff like that in there. If you're getting a new UUID and it errors out, or something, I think it's okay to do that. But yeah, asserting on the data there... I often do that field function thing not just on test structs, but regular types too, where there are areas where I want to provide maybe a default implementation and then allow people to replace it. So one might be around ENVs for example. I've been kind of recently playing around with this idea of using zero-value structs for my configuration, where the methods on that struct - there's no real field, it's just methods, and those methods will look for an ENV, and then if they find it, return it, or otherwise return maybe some default. And I like that you can just kind of grab a config, just var it up, and boom, all your stuff's there, you don't need to really initialize it.
 
-But obviously, when you're dealing with environments, it's really hard to test. And sometimes - not even that, but you want to, maybe on a specific request as you're passing maybe a config down, you wanna change a value. And you can't do that if they're all functions. So one of the things I do there is have kind of a "getENV" function that matches os.GetENV... But you can set it, and all those functions that are on my config will check and say "Oh, if there's this function defined, let me use that", and that could just be returning a test value. Or use the default, which is os.getENV.
+But obviously, when you're dealing with environments, it's really hard to test. And sometimes - not even that, but you want to, maybe on a specific request as you're passing maybe a config down, you wanna change a value. And you can't do that if they're all functions. So one of the things I do there is have kind of a *getEnv()* function that matches *os.getEnv()*... But you can set it, and all those functions that are on my config will check and say "Oh, if there's this function defined, let me use that", and that could just be returning a test value. Or use the default, which is *os.getEnv()*.
 
 I use that pattern quite a lot too (I like that), of "Here's a default way of doing things, and then here's a function you can implement as a field", same signature, and it'll call that instead, if it has it.
 
-**Mat Ryer:** Yeah. A good use of that is if you need to control time, because the time.now function just returns the current time. Obviously, in real code, that's different every time... But you can have a function field that matches the time.now signature - which I think is just empty func - and then assign it by default to time.now, and then control that in your test code. So yeah, I love those sort of mini-mocks almost...
+**Mat Ryer:** Yeah. A good use of that is if you need to control time, because the *time.Now()* function just returns the current time. Obviously, in real code, that's different every time... But you can have a function field that matches the *time.Now()* signature - which I think is just empty func - and then assign it by default to *time.Now()*, and then control that in your test code. So yeah, I love those sort of mini-mocks almost...
 
 **Mark Bates:** \[00:40:03.22\] In Ruby we had a great thing called timecop; it was such a random Ruby thing... It would override basically time.now to be whatever \[unintelligible 00:40:10.06\] \[laughter\] You could just override anything; you could say like "I wanna be three weeks into the future", and time.now would return three weeks in the future.
 
@@ -394,9 +394,9 @@ I use that pattern quite a lot too (I like that), of "Here's a default way of do
 
 **Boyan Soubachov:** Great question, Great Scott! \[laughs\] So one, due to obviously its size and popularity, a lot of people wanted to work for them, and that's fair enough. I think our goal is to have a framework that makes life as easy for as many people as possible. That being said, you have infinite different use cases for it.
 
-A big difficulty there is just how many different requests we have to add this specific feature, so that it works in my case, and this specific feature in my case... And we try and be as fair as possible and consider each case, but ultimately we're guided by what the community as a whole or as a greater have benefit from this. Also, a big thing is to always be vigilant of starting to couple it to be dependent on either some other technology or some other proprietary standard, or whatever... Because I think a great example was we've had a request to change how the framework works, so that it makes it easier to run in Go land... Which would break it forever on who's not using Go land... So that was a no-no in our books.
+A big difficulty there is just how many different requests we have to add this specific feature, so that it works in my case, and this specific feature in my case... And we try and be as fair as possible and consider each case, but ultimately we're guided by what the community as a whole or as a greater have benefit from this. Also, a big thing is to always be vigilant of starting to couple it to be dependent on either some other technology or some other proprietary standard, or whatever... Because I think a great example was we've had a request to change how the framework works, so that it makes it easier to run in GoLand... Which would break it forever on who's not using GoLand... So that was a no-no in our books.
 
-**Mark Bates:** \[00:44:40.06\] One of the things that I often hear people say about Testify, obviously (because it's one of the big ones), but about any of the assertion libraries, is "Well, occasionally I'll hit a rough spot, or I'll hit something that doesn't quite work." Equal is always a great example of that. There's some really edge cases there. I ran into just yesterday an edge case with Testify zero, where I had an expectation that if I implemented \[unintelligible 00:45:08.15\] which is kind of like an unofficial interface you'll find across a standard library (Time has it), I thought that if I did that and called not-zero, or zero on Testify, that it would look at my type, see that it implements the zero, returns false, and then is not -- you know, whatever. And that's not the case. And I even dug deep into Reflect, because it uses Reflect zero, and even that doesn't call that interface.
+**Mark Bates:** \[00:44:40.06\] One of the things that I often hear people say about Testify, obviously (because it's one of the big ones), but about any of the assertion libraries, is "Well, occasionally I'll hit a rough spot, or I'll hit something that doesn't quite work." Equal is always a great example of that. There's some really edge cases there. I ran into just yesterday an edge case with Testify zero, where I had an expectation that if I implemented *isZero() bool* which is kind of like an unofficial interface you'll find across a standard library (Time has it), I thought that if I did that and called not-zero, or zero on Testify, that it would look at my type, see that it implements the zero, returns false, and then is not -- you know, whatever. And that's not the case. And I even dug deep into Reflect, because it uses Reflect zero, and even that doesn't call that interface.
 
 So I hit one of those edge cases, and it took me a few minutes to dig through the code, figure it out, and then I said "Oh, man - okay, I really thought it worked that way. It doesn't. I'll just change the way I'm running my tests a little bit." And I just moved on. I don't know, I don't put a lot of credence into the "I hit one random edge case, so they're all terrible" argument. I find that if you hit one edge case, you've hit one edge case. If the rest of the time it's working just fine for you, that's definitely a baby with the bathwater kind of a thing.
 
@@ -410,7 +410,7 @@ If I threw out all my tests yesterday because the Require zero did not follow th
 
 **Boyan Soubachov:** Agreed.
 
-**Mark Bates:** Yeah. And I'll keep adding the tests as things break, and I find those new edge cases; I'll keep adding new tests to cover them. But yeah, you've just gotta move on with your day at some point. And like I said, there was no way I was throwing out Testify because \[unintelligible 00:47:07.15\] didn't behave quite the way I thought it did... Despite the fact that -- and don't forget, the documentation makes no claims to respecting that pseudo-random interface anyway. I made an assumption on my part, proved out to be wrong, and I just changed my test to \[unintelligible 00:47:23.02\] And that was fine; I just made that little change, but...
+**Mark Bates:** Yeah. And I'll keep adding the tests as things break, and I find those new edge cases; I'll keep adding new tests to cover them. But yeah, you've just gotta move on with your day at some point. And like I said, there was no way I was throwing out Testify because *isZero()* didn't behave quite the way I thought it did... Despite the fact that -- and don't forget, the documentation makes no claims to respecting that pseudo-random interface anyway. I made an assumption on my part, proved out to be wrong, and I just changed my test to \[unintelligible 00:47:23.02\] And that was fine; I just made that little change, but...
 
 **Mat Ryer:** \[00:47:33.12\] Yeah. I think that's right. When Testify was in its early stages we had this policy of anybody that contributed a PR was invited to become a maintainer. This was an idea that -- because it's a community-owned thing; it was completely open source, so it's kind of this community spirit and inclusiveness, and stuff. The effect of that, I think, in Testify's case, was that the API grew quite a lot. And if you look at the index page in GoDoc for stretchr/testify/assert package, it's massive. And of course, the Require is too, yeah.
 
@@ -434,7 +434,7 @@ If you have a test and you want to assert, but you now want to figure out "Which
 
 **Mat Ryer:** The contains one you can do by doing "assert true"...
 
-**Mark Bates:** Strings contains... Yeah, I could do strings contains; I could do \[unintelligible 00:50:56.18\] I don't wanna write the error message.
+**Mark Bates:** *strings.Contains()*... Yeah, I could do *strings.Contains()*; I could do *equals()* on all of these but I don't wanna write the error message.
 
 **Mat Ryer:** Right, yeah. That's it, yeah.
 
