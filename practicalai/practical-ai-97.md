@@ -82,7 +82,7 @@ When we talk about MLOps, we talk about the ability to move from the data scient
 
 So basically, what do we say here? We said that there was a single piece of software, that it was tested and it works, and that you need to take that and you need to scale that out and replicate that. And that happens only in production. Well, in AI, everything around that is actually different.
 
-First of all, as you guys know, machine learning/deep learning experiments can be very heavy workloads. You actually mentioned that yourself when you were talking about building your own computer at the beginning; you're gonna run things that are gonna take hours, or even days. So on regular software you need to be able to run stuff on large machines, from day one, in terms of development. So that's one big difference.
+First of all, as you guys know, machine learning/deep learning experiments can be very heavy workloads. You actually mentioned that yourself when you were talking about building your own computer at the beginning; you're gonna run things that are gonna take hours, or even days. So unlike regular software you need to be able to run stuff on large machines, from day one, in terms of development. So that's one big difference.
 
 The second thing is what you're doing is you're running software that's not tested, because you're doing it during development. The third thing is you're running experiments, and what you're trying to do obviously is a lot of experiments, because that's the whole process; you're doing lots of experimentation, until you reach your goal.
 
