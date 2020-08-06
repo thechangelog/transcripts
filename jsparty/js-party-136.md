@@ -332,7 +332,7 @@ So that's one thing, but then there's also this other part where you can do thes
 
 **Jerod Santo:** Mm-hm.
 
-**Mikeal Rogers:** So Feross isn't giving himself enough credit here... What Feross did, without politicking in standards for a decade, without bugging browser vendors for a decade -- Feross is like an individual developer on GitHub, and upgraded the whole internet, actually.
+**Mikeal Rogers:** So Feross isn't giving himself enough credit here... What Feross did, without politicking in standards for a decade, without bugging browser vendors for a decade -- Feross as like an individual developer on GitHub, upgraded the whole internet, actually.
 
 **Feross Aboukhadijeh:** Oh, God...
 
@@ -342,13 +342,13 @@ So that's one thing, but then there's also this other part where you can do thes
 
 **Jerod Santo:** Please, explain that.
 
-**Mikeal Rogers:** Okay, so in 2013, when this project started, I believe a majority (at the time) of internet traffic was BitTorrent. I think it was a majority. It was very high. It was like a noticeable percentage if it wasn't the majority; it was something like 30%-40%. So this is like a protocol that accounts for a substantial portion of what is happening on the internet... And the thing about BitTorrent at that time - and on some level still - it is a protocol that is not compatible with the web. Every part of it basically was incompatible with the web. The one part that you might be able to make work on the web is the torrent file format, and kind of breaking up the file... But the actual transport to \[unintelligible 00:47:26.22\] WebRTC. The tracker protocol is not a protocol that you could use in the browser either.
+**Mikeal Rogers:** Okay, so in 2013, when this project started, I believe a majority (at the time) of internet traffic was BitTorrent. I think it was a majority. It was very high. It was like a noticeable percentage if it wasn't the majority; it was something like 30%-40%. So this is like a protocol that accounts for a substantial portion of what is happening on the internet... And the thing about BitTorrent at that time - and on some level still - it is a protocol that is not compatible with the web. Every part of it basically was incompatible with the web. The one part that you might be able to make work on the web is the torrent file format, and kind of breaking up the file... But the actual transport to share it on like, they didn't work out WebRTC. The tracker protocol is not a protocol that you could use in the browser either.
 
 So what Feross did is he took the torrent file format, and then made it work on top of WebRTC and on top of a new tracker format using WebSockets. So now you have a web version of BitTorrent that wasn't actually BitTorrent.
 
 **Suz Hinton:** But it feels like it, yeah.
 
-**Mikeal Rogers:** \[00:47:55.03\] It feels like it, it feels like it. But this isn't like upgrading the internet; this is just like a RAD application. Then what Feross did is he implemented all of this in Node, and in Node.js you can actually talk to the real BitTorrent protocols; you can talk to the real trackers, you can talk to the real network, you can get on the DHT... You can participate in a network that everybody on the internet that is using BitTorrent is using.
+**Mikeal Rogers:** \[00:47:55.03\] It feels like it, it feels like it. But this isn't like upgrading the internet; this is just like a rad application. Then what Feross did is he implemented all of this in Node, and in Node.js you can actually talk to the real BitTorrent protocols; you can talk to the real trackers, you can talk to the real network, you can get on the DHT... You can participate in a network that everybody on the internet that is using BitTorrent is using.
 
 And what happens when you use his library in Node.js, or when you run the desktop version of WebTorrent as an Electron app, is that you bridge these two networks together. So now all of the people just on UDP (in the old BitTorrent protocol) are not in a separate network from everybody who's in WebRTC. These networks are now bridged together. And this was so successful that they upgraded -- BitTorrent actually upgraded some of their protocols to include WebTorrent trackers as a thing in there. Now if you look at most BitTorrent files, you will see regular trackers AND WebTorrent trackers, all the major implementations... Even beyond Feross' Node.js version, a bunch of the other main implementations implemented support for all the WebRTC stuff, and they're also bridge nodes now. All of these changes have just been taken into all of the regular BitTorrent ecosystem, and that entire portion of the internet is now compatible with the web, and upgraded just because of the work that Feross did. So there we go... \[laughter\]
 
@@ -356,7 +356,7 @@ And what happens when you use his library in Node.js, or when you run the deskto
 
 **Feross Aboukhadijeh:** I couldn't blush anymore than I am now... \[laughter\]
 
-**Jerod Santo:** Well, let's see if we can fix that. So my soundboard is broken, but I do have an applause track on my soundboard that's broken; let's all just clap for Feross real quick... \[laughter\]
+**Jerod Santo:** Well, let's see if we can fix that. So my soundboard is broken, but I do have an applause track on my soundboard that's broken; so let's all just clap for Feross real quick... \[laughter\]
 
 **Feross Aboukhadijeh:** Oh, thank you guys. Thank you. Oh, my God... Thank you, everybody.
 
@@ -372,9 +372,9 @@ And what happens when you use his library in Node.js, or when you run the deskto
 
 **Feross Aboukhadijeh:** I feel really good, yeah. \[laughter\]
 
-**Mikeal Rogers:** I mean, nobody gave him any money for this, by the way... So the credit is all he gets. \[laughs\]
+**Mikeal Rogers:** I mean, nobody ever gave him any money for this, by the way... So the credit is all he gets. \[laughs\]
 
-**Feross Aboukhadijeh:** Yup, that's true. The project has been really fun to work on though. I got to meet a lot of people around the world and give talks on this stuff. I made so many connections with people, and stuff... So it's been really good for me, even though I haven't made any money, like Mikeal said... \[laughter\] So it's been really fun.
+**Feross Aboukhadijeh:** Yup, that's true. The project has been really fun to work on though. I got to meet a lot of people around the world and give talks on this stuff. I made so many connections with people, and stuff... So it's been really good for me, even though I haven't made any money, like Mikeal said... \[laughter\] But it's been really fun.
 
 **Mikeal Rogers:** I mean, you're fine, but--
 
