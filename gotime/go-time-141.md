@@ -28,7 +28,7 @@ Okay, so let's start then... Just quickly, for beginners, in case somebody's rea
 
 **Daniel Martí:** It's practically everywhere. Practically, every language out there that's modern today has to have JSON support, because you just do... And your computer - you might not see it, but it definitely is running JSON at some level.
 
-**Mat Ryer:** \[00:03:54.22\] Yeah. So it's like an object, and it has fields, and those fields have some types... And it's the types that we're used to as well in Go, like strings, and numbers, and booleans, objects, arrays, those kinds of things. I think that might be the whole list. And why did it get such popular use on the web? It is kind of perfect for web technologies...
+**Mat Ryer:** \[00:03:54.22\] Yeah. So it's like an object, and it has fields, and those fields have some types... And it's the types that we're used to as well in Go, like strings, and numbers, and booleans. And, you know, there's other objects, arrays, those kinds of things. I think that might be the whole list. And why did it get such popular use on the web? I mean, it is kind of perfect for web technologies.
 
 **Daniel Martí:** I would say it came from all the success that browsers had, the modern web had... And suddenly, HTTP, HTML, CSS and JavaScript and JSON - all these technologies kind of took everybody by surprise. Initially, everybody thought they were just toys, but now suddenly people are building real companies on top of them... And JSON has too much momentum. I don't think anything is ever going to replace it at this point, honestly.
 
@@ -202,7 +202,7 @@ And the way a JSON number is implemented, if the input JSON is actually a string
 
 **Mat Ryer:** I've just got to Go... What do you mean it's buggy?! \[laughter\] Tell me why, please.
 
-**Daniel Martí:** So this was found by Joe, one of the maintainers, about a year ago... And the bug is the decoder is meant to be useful for streams of JSON values. And that is for example when you do go test with a JSON flag, it's gonna give you a new line separated stream of JSON values, or JSON objects.
+**Daniel Martí:** So this was found by Joe, one of the maintainers, about a year ago... And the bug is the decoder is meant to be useful for streams of JSON values. And that is for example when you do go test with a JSON flag, it's gonna give you a new line separated stream of JSON values, of JSON objects.
 
 **Mat Ryer:** Yeah, that's kind of how I was using it in those tools I was talking about.
 
@@ -210,7 +210,7 @@ And the way a JSON number is implemented, if the input JSON is actually a string
 
 **Mat Ryer:** In a way, it is kind of streaming, in a way... It takes the reader. For each object it buffers it, I guess, but it discards that previous object, doesn't it?
 
-**Daniel Martí:** \[00:36:06.14\] Yeah.
+**Daniel Martí:** \[00:36:06.14\] Yup.
 
 **Mat Ryer:** ...the next time. Right. So in a sense, it's streaming.
 
@@ -382,7 +382,7 @@ The nice thing about JSON though is that you can always add fields to it, can't 
 
 **Johnny Boursiquot:** \[laughs\] Oh, come on...!
 
-**Mat Ryer:** This is the guy responsible for making it faster... \[laughter\]
+**Mat Ryer:** Wow! This is the guy responsible for making it faster... \[laughter\]
 
 **Daniel Martí:** Well, I'm going to say generally, where generally means it most likely applies to you... But it might not apply to the 1% that's doing something completely esoteric, such as handling 20 gigabytes of JSON... But most people don't do that. And my point goes back to the trade-offs. Yes, if you pick another package, you can get maybe a 2x, 3x, maybe even 4x improvement, but is it really worth sticking with JSON at that point? The overlap between the people that are stuck with JSON because they are, and the people that have to deal with a lot of data is very small... Because the people that have to deal with a lot of data - they generally pick better formats, that are faster to decode.
 
