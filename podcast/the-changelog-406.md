@@ -46,9 +46,9 @@ And since this is people's daily driver, they're in the command line all the tim
 
 **Jerod Santo:** It looks like you're also working on some stuff -- a lot of times the UX and UI are different, but can be intertwined, and a lot of that experience, or the way you interact with the program is the integration into the other aspects of the operating system. So I see you're adding things like Alt+Click to open a pane, and you're also adding -- what's the one that seemed more like an integration? Oh yeah, opening the Windows Terminal - Right-Click from the context menu there, integrations into the broader OS... Which aren't exactly UI -- I mean, they do have their own interfaces, but they're definitely really tying it in and making it accessible and available where you need it.
 
-**Kayla Cinnamon:** Yeah. And our goal is to make it as intertwined and ingrained in Windows as possible, so it doesn't feel like a separate app anymore. It feels like you're just launching the command line and it's just in Windows Terminal. Eventually, we want it to be like a default setting; so when you launch CMD, it will come out in Terminal. That's a goal that we have, I think it's on our 2.0 roadmap. So we're aiming to get that in by 2.0. But then it will feel like part of Windows, rather than this extra terminal emulator I installed on the side, and I can only launch by launching Windows Terminal, rather than the traditional ways that you do it on Windows.
+**Kayla Cinnamon:** Yeah. And our goal is to make it as intertwined and ingrained in Windows as possible, so it doesn't feel like a separate app anymore. It feels like you're just launching the command line and it's just in Windows Terminal. Eventually, we want it to be like a default setting; so when you launch CMD, it will come out in Terminal. That's a goal that we have, I think it's on our 2.0 roadmap. So we're aiming to get that in by 2.0. But then it will feel like part of Windows, rather than this extra terminal emulator I installed on the side, and I can only launch it from launching Windows Terminal, rather than the traditional ways that you do it on Windows.
 
-**Jerod Santo:** \[unintelligible 00:08:54.00\] from being there today, where you can at least opt in - maybe not by default - on new installs, but opt into the new one when you launch the command executable?
+**Jerod Santo:** What's holding it back from being there today, where you can at least opt in - maybe not by default - on new installs, but opt into the new one when you launch the command executable?
 
 **Kayla Cinnamon:** Since this is a Windows change, we have to wait for the Windows release cycles to go through, which are much less frequent...
 
@@ -86,7 +86,7 @@ So it's just kind of unifying what it means to be a command line application on 
 
 **Kayla Cinnamon:** Yeah.
 
-**Jerod Santo:** Yeah, and Microsoft's dogged pursuit of backwards compatibility definitely makes changes like that darn near impossible. If you think replacing cmd.exe is tough, I'm pretty sure that just the assumption that the directory separators to be backslashes is probably hardcoded into millions of programs around the world.
+**Jerod Santo:** Yeah, and Microsoft's dogged pursuit of backwards compatibility definitely makes changes like that darn near impossible. If you think replacing cmd.exe is tough, I'm pretty sure that just the assumption that the directory separators will be backslashes is probably hardcoded into millions of programs around the world.
 
 **Kayla Cinnamon:** Yeah.
 
@@ -158,7 +158,7 @@ So since it's still such a new product, and we only have about five developers o
 
 **Jerod Santo:** Hah! What are the major blockers for folks? If you had a shortlist of things that are obviously not there yet, that gets requested all the time...
 
-**Kayla Cinnamon:** Yeah, \[unintelligible 00:29:01.27\] is a big one. A lot of people don't wanna open a JSON file, which is valid. Also, opening administrator tabs next to non-administrator tabs - that's another big one. Or run the terminal as another user - that's a big one as well.
+**Kayla Cinnamon:** Yeah, so Settings UI is a big one. A lot of people don't wanna open a JSON file, which is valid. Also, opening administrator tabs next to non-administrator tabs - that's another big one. Or run the terminal as another user - that's a big one as well.
 
 A big one that we unblocked was the right-click open in Windows Terminal Windows integration, where you can right-click on a folder in a file explorer and it would show up. That was a big one that a lot of people were asking for. I know Quake mode is another big one, where you would hit a hotkey and then the terminal would open at the top of the screen and you could do something really quick, and then you could toss it away...
 
@@ -176,7 +176,7 @@ A big one that we unblocked was the right-click open in Windows Terminal Windows
 
 **Kayla Cinnamon:** Yup, yup.
 
-**Jerod Santo:** Okay, I \[unintelligible 00:29:49.19\] I thought you said Quick Mode. I was like "She surely didn't say Quake", and then I was like "Oh, she said Quick." And now I'm both wrong and stupid. \[laughter\] Please, continue.
+**Jerod Santo:** Okay, I retconned your word, I thought you said Quick Mode. I was like "She surely didn't say Quake", and then I was like "Oh, she said Quick." And now I'm both wrong and stupid. \[laughter\] Please, continue.
 
 **Kayla Cinnamon:** We're working towards Quake mode now in terms of...
 
