@@ -88,7 +88,7 @@ So yeah, I think it's this feeling of wanting to be a little more out of the spo
 
 **Adam Stacoviak:** When I drive my car, I'm not dependent upon that video performing well.
 
-**Jerod Santo:** Right. You just close your Periscope account, or you just stop posting the videos, and you can then opt out of that fame. And sure, whatever you put out there is out there. It'll reverb down through the ages, to a certain degree... But it's not as if you ignoring that is going to cause a future problem in somebody else's software stack somewhere, and maybe expose some information... I mean, there's so many things that can go wrong in software that it's kind of crazy, actually.
+**Jerod Santo:** Right. You just close your Periscope account, or you just stop posting new videos, and you can then opt out of that fame. And sure, whatever you put out there is out there. It'll reverb down through the ages, to a certain degree... But it's not as if you ignoring that is going to cause a future problem in somebody else's software stack somewhere, and maybe expose some information... I mean, there's so many things that can go wrong in software that it's kind of crazy, actually.
 
 **Nadia Eghbal:** Yeah, it really gets down to, I think -- for me, it very clearly points to maintenance costs being different from these creation costs. And if you think about the example of a viral video that maybe unexpectedly became popular - yeah, sure, someone might have a random huge hit on TikTok, or whatever... But then they can choose to just not make anymore, if they wanted to. It's like, "Well, I had that one really big hit." But if a creator says "Oh, I had a really big hit. Now I wanna start making more videos and leverage that into a whole brand", they can do that. But you can think of that as they're just trying to build their reputation as a creator, and that reputation in itself is something that requires maintenance. They have to keep creating content in order for them to continue to be popular. And I think similarly with open source developers, but even more amplified is if they do have that one random viral library, which is the equivalent of a viral video, then they can't just be like "Well, I just chose to do it once, and not anymore." There is still an ongoing maintenance cost, even with that first thing.
 
@@ -102,7 +102,7 @@ So yeah, I think it's this feeling of wanting to be a little more out of the spo
 
 **Jerod Santo:** It's an overloaded word, isn't it?
 
-**Nadia Eghbal:** All viruses banned from this discussion... \[laughter\]
+**Nadia Eghbal:** All viruses banned from this conversation... \[laughter\]
 
 **Adam Stacoviak:** You do mention on the note of platforms and creators -- and I mentioned Periscope; I'm not unaware that TikTok exists, but there are platforms (YouTube etc.) that creators hinge upon. You mentioned the criticalness that the role of a platform plays to creators, and that sort of relationship back and forth. Can you dive more into what you've learned about the relationship between the platform and the creator, and the criticalness of that?
 
@@ -188,7 +188,7 @@ So it is very not people-centric, and like you said, I think that is why people 
 
 **Adam Stacoviak:** Right, exactly. The network effect only really exists to the degree it exists inside of GitHub. So every new thing like this is just more lock-in. Should we be concerned about that? Should we be like "Yeah, that's great"? What do you think, Nadia?
 
-**Nadia Eghbal:** It's really tough. I think about this framework of \[unintelligible 00:39:18.04\] and when you have citizens of a country, or in this case users of a platform, when is the right time to exercise your voice within that country and be an active, participating citizen, and when is the time to leave/exit. I think we place a lot of emphasis on open source on exit, which makes sense, because developers like to have...
+**Nadia Eghbal:** It's really tough. I think about this framework of exit versus voice, and when you have citizens of a country, or in this case users of a platform, when is the right time to exercise your voice within that country and be an active, participating citizen, and when is the time to leave, a.k.a. exit. I think we place a lot of emphasis in open source on exit, which makes sense, because developers like to have...
 
 **Jerod Santo:** Autonomy.
 
