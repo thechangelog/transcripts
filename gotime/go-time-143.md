@@ -16,7 +16,7 @@
 
 **Mat Ryer:** Good. Are you having a nice week this far?
 
-**Francesc Campoy:** Yeah. I mean, you know, what Jaan was saying - all day is the same day... But excited to be talking to friends, and stuff. It changes my life a little bit. I'm excited.
+**Francesc Campoy:** Yeah. I mean, you know, what Jaana was saying - all day is the same day... But excited to be talking to friends, and stuff. It changes my life a little bit. I'm excited.
 
 **Mat Ryer:** That's it - if we can just change it a little bit, for better or worse...
 
@@ -42,7 +42,7 @@
 
 **Isobel Redelmeier:** Or the visa wait one also...
 
-**Mat Ryer:** Oh... No, thank you. Well, we're gonna talk today about context, and I had a quick look in the docs for the Context package. It says that package Context defines the context type which carries deadlines, cancelation signals and other request-scoped values across API boundaries and between processes. Emphasis - mine. Who wants to have a Go explaining what that means?
+**Mat Ryer:** Oh... No, thank you. Well, we're gonna talk today about context, and I had a quick look in the docs for the Context package. It says that package Context defines the context type which carries deadlines, cancellation signals and other request-scoped values across API boundaries and between processes. Emphasis - mine. Who wants to have a Go explaining what that means?
 
 **Isobel Redelmeier:** I can talk a bit about how the latter part makes things exciting for things like open telemetry, where you really have a lot of use cases for distributed contexts, distributed as in across process or over the wire... Or we can dig into that after.
 
@@ -62,13 +62,13 @@
 
 You can also use it to pass values around as well, can't you? Request-scoped values. What's that for?
 
-**Francesc Campoy:** That's a good question. I actually like the Context package for cancellation stuff. I think that's the main usage that I will recommend for inside of your own process. Passing data inside of Context - I would think very much before I've started doing it, because otherwise what you end up is just having a bag of stuff, and it can be a pretty bad idiom to follow. But for cancellation - yeah. The way I normally explain why Context makes sense is imagine that you have something very expensive to do, and after one second out of one hour of computation the user decides that they don't care about this anymore, or they just crash. You don't wanna do that whole hour of process for no reason. That's why cancelation makes sense.
+**Francesc Campoy:** That's a good question. I actually like the Context package for cancellation stuff. I think that's the main usage that I will recommend for inside of your own process. Passing data inside of Context - I would think very much before I've started doing it, because otherwise what you end up is just having a bag of stuff, and it can be a pretty bad idiom to follow. But for cancellation - yeah. The way I normally explain why Context makes sense is imagine that you have something very expensive to do, and after one second out of one hour of computation the user decides that they don't care about this anymore, or they just crash. You don't wanna do that whole hour of process for no reason. That's why cancellation makes sense.
 
 And the way you implement it is actually interesting, because the idea is that you could technically keep this data somewhere else, and many other languages do that. For instance, for Java we have ThreadLocals. Go doesn't expose ThreadLocals, which means that you actually need to make that explicit. But making it explicit and passing this context around all the data is not an easy thing to do. You would need to keep on adding more parameters to your functions as you go. Context kind of solves that, and it also provides the possibility of passing things that you don't even know you're passing.
 
 So as a function, if I receive a context, maybe in that context there's some value that one of the functions I'm gonna be calling will retrieve. I don't even need to know about that. So it's those sides, like cancellation, and then kind of a generic way of passing data that you don't care about.
 
-**Jaana Dogan:** \[00:07:54.26\] Can we say, in a way, that in the critical path of a user request you are going through a lot of different things, right? It could be a lot of microservices, or in the same microservice you may be bouncing between different goroutines. Some work may be getting done in our goroutine, and some of the other one is just getting done... So in order to coordinate all that work, we sometimes need to pass some values, as well as need to single some lifecycle-related events such as cancelation... Because let's say that if the user cancelled some task, all the lower-end services might have received some incoming request to do some work about it... But we already know at the higher level service that it's just not required anymore, so you may wanna propagate that signal to cancel all the work.
+**Jaana Dogan:** \[00:07:54.26\] Can we say, in a way, that in the critical path of a user request you are going through a lot of different things, right? It could be a lot of microservices, or in the same microservice you may be bouncing between different goroutines. Some work may be getting done in our goroutine, and some of the other one is just getting done... So in order to coordinate all that work, we sometimes need to pass some values, as well as need to single some lifecycle-related events such as cancellation... Because let's say that if the user cancelled some task, all the lower-end services might have received some incoming request to do some work about it... But we already know at the higher level service that it's just not required anymore, so you may wanna propagate that signal to cancel all the work.
 
 It also applies within the same process. You're sharing some work between multiple goroutines, for example, and then you wanna just cancel all that work, because we already received some additional signal that that work is not required anymore.
 
@@ -82,7 +82,7 @@ So it gives us this good, unified way of passing around some data and passing ar
 
 But that is completely unrelated to the fact that maybe that request should be canceled. I feel like we put them both together just because, you know, once you have cancellation and everything, and you define an interface for it, you could also put values in there so why not... But also, it could have been completely different things, and I think that it's important to think about Context in that way, and the fact that it does two things that are completely unrelated, and that you can use one without even ever understanding or looking at the other.
 
-**Isobel Redelmeier:** I find deadline on contexts to be kind of an interesting bridge, since on the one hand, it has a lot of functionality that is similar to more general-purpose cancelation, and on the other hand it is kind of this special value where you can check the active deadline on a context, last I checked...
+**Isobel Redelmeier:** I find deadline on contexts to be kind of an interesting bridge, since on the one hand, it has a lot of functionality that is similar to more general-purpose cancellation, and on the other hand it is kind of this special value where you can check the active deadline on a context, last I checked...
 
 **Francesc Campoy:** Yeah, true. It's kind of like metadata that you -- it's data around the cancellation, so technically you're also passing values, but you use that value for cancellation. Yeah, it's kind of in-between, that's true.
 
@@ -100,11 +100,11 @@ The interesting thing is that implementation-wise, that's also how it works. Wha
 
 **Mat Ryer:** So when you access values then - and this kind of points out one of the dangers of Context... When you access a value from that, you basically pass in a key, which is of type interface, so that means it can be anything; anything can be a key... And you get back an interface, because of course, it is kind of generic in some way, and this is what generics in Go kind of looks like, for now... And you get a second boolean, whether the value was there or not. So what's the danger there? What do we lose by having that way of accessing and storing information?
 
-**Isobel Redelmeier:** You need to handle the type checks and existence yourself, and you also need to make sure that you don't have key collisions. So there's an idiom, basically, around having dedicated structs for each of the keys that you can about, so that you don't, for example, use a string called "key" and then have collisions with everyone else, for example.
+**Isobel Redelmeier:** You need to handle the type checks and existence yourself, and you also need to make sure that you don't have key collisions. So there's an idiom, basically, around having dedicated structs for each of the keys that you care about, so that you don't, for example, use a string called "key" and then have collisions with everyone else, for example.
 
-**Francesc Campoy:** Yeah, that's actually a very good point. It's something that not that many people actually use, but that's something that's like -- so if you're creating a package and you're gonna be storing data that you know that you're gonna be retrieving later, instead of choosing a string, or an integer, no matter how complicated the string could be... You could find a super-fancy string that you know no one else will repeat, or I guess you could also copyright it if you want to... But the important thing is instead you could just use a -- even an empty struct, and an empty struct with a type that is not exported. Because when you're comparing two different interfaces, the first thing you do before you compare anything else that's compared with it, the type is exactly the same. If it's not the same, then it's different. It's different values. So then you can just have -- normally, what I do is \[unintelligible 00:15:12.17\]
+**Francesc Campoy:** Yeah, that's actually a very good point. It's something that not that many people actually use, but that's something that's like -- so if you're creating a package and you're gonna be storing data that you know that you're gonna be retrieving later, instead of choosing a string, or an integer, no matter how complicated the string could be... You could find a super-fancy string that you know no one else will repeat, or I guess you could also copyright it if you want to... But the important thing is instead you could just use a -- even an empty struct, and an empty struct with a type that is not exported. Because when you're comparing two different interfaces, the first thing you do before you compare anything else that's compared with it, the type is exactly the same. If it's not the same, then it's different. It's different values. So then you can just have -- normally, what I do is *type key struct {}* - key in lower case, that way you make sure you have avoided any conflicts.
 
-**Jaana Dogan:** And there's an example of this in the GoDoc, by the way, if you take a look at like width value; it's kind of harder to explain this concept on a podcast, but there's an example, and that's almost how you use/create canonical key types, so there's no collision. You create your own key type and use that.
+**Jaana Dogan:** And there's an example of this in the GoDoc, by the way, if you take a look at *func WithValue(parent Context, key, val interface{}) Context* it's kind of harder to explain this concept on a podcast, but there's an example, and that's almost how you use/create canonical key types, so there's no collision. You create your own key type and use that.
 
 **Mat Ryer:** And would you recommend exporting those keys, so that people can access the values? Or is there a better way?
 
@@ -190,7 +190,7 @@ If you just literally do that on every single HTTP (what is the word?) handler -
 
 **Francesc Campoy:** Yeah, copy-pasting is the best.
 
-**Jaana Dogan:** You mentioned something really significant affecting people, which is the fact that \[unintelligible 00:26:16.24\] added to the standard library at a later time, 1.6... And now in terms of APIs--
+**Jaana Dogan:** You mentioned something really significant affecting people, which is the fact that context package was added to the standard library at a later time, 1.6... And now in terms of APIs--
 
 **Francesc Campoy:** Sorry to interrupt, but actually I just looked at it, and we were wrong; it was Go 1.7.
 
@@ -220,7 +220,7 @@ But yeah, what I wanted to say is it is a challenge for people, because they don
 
 **Isobel Redelmeier:** \[00:28:05.06\] Very much so. And I think someone else mentioned earlier that, for example, Java has ThreadLocal variables. The problem that you run into with any language that has ThreadLocal variables, let alone only global variables, is that at some point likely someone is going to want something that is finer-grained than threads. Goroutines are one example of this; it's probably familiar to most of the audience here. But then other languages like let's say Python, for example, have things like futures, which are, again, different from threads. So Python handled this by adding context local variables after the fact. But then if you're writing a library, you still have to handle the case of something maybe having something not yet supporting context local variables.
 
-**Jaana Dogan:** Yeah. Actually, I have a follow-up question on that. So we have explicit context propagation with the context objects in many language; actually, context propagation is implicit. How does that, in your experience, affect people's awareness around there is TLS, or context propagation, there is maybe signals that you can kind of like use to cancel, or you can propagate some values...
+**Jaana Dogan:** Yeah. Actually, I have a follow-up question on that. So we have explicit context propagation with the context objects in many languages; actually, context propagation is implicit. How does that, in your experience, affect people's awareness around there is TLS, or context propagation, there is maybe signals that you can kind of like use to cancel, or you can propagate some values...
 
 I think in terms of awareness or in terms of usability, explicitness is also a positive contribution. Do you agree?
 
@@ -250,7 +250,7 @@ So if your parallelization is using something that maps nicely to your context l
 
 **Break:** \[00:34:27.29\]
 
-**Mat Ryer:** \[00:35:56.02\] So we've talked about Context in an HTTP context... So we can access the context method on the HTTP request, and we can also use with context on that to get a new request, if we want to set the context in a request. Are there other places -- one thing I'm thinking is I actually use Context in my normal tools in Go, in command line tools, and I have the signal, the Ctrl+C signal \[unintelligible 00:36:25.19\] to actually cancel the context... And that turns out to be quite a nice pattern. Does that break the rules a little bit? Some people think that you should only be using it in a kind of request-response world, but then maybe CLIs are kind of request-response.
+**Mat Ryer:** \[00:35:56.02\] So we've talked about Context in an HTTP context... So we can access the context method on the HTTP request, and we can also use with context on that to get a new request, if we want to set the context in a request. Are there other places -- one thing I'm thinking is I actually use Context in my normal tools in Go, in command line tools, and I have the signal, the Ctrl+C signal - interrupt - to actually cancel the context... And that turns out to be quite a nice pattern. Does that break the rules a little bit? Some people think that you should only be using it in a kind of request-response world, but then maybe CLIs are kind of request-response.
 
 **Isobel Redelmeier:** I would consider them request-response. Slight side note - Dave Cheney has a couple parallel articles; one is called "Context is for cancellation", and the other is called "Context isn't for cancellation."
 
@@ -272,7 +272,7 @@ Those are small things that you can get a lot of performance, especially when yo
 
 **Mat Ryer:** Hm...!
 
-**Isobel Redelmeier:** And for those unfamiliar with tail latency and its implications, what can happen is that you have what's called a long tail, where some small percentage of your requests take all of the time, and often \[unintelligible 00:39:46.04\] a lot of the resources. So rather than letting them take all of the resources, instead cancel them, it can actually improve your throughput by freeing up those resources for the faster requests.
+**Isobel Redelmeier:** And for those unfamiliar with tail latency and its implications, what can happen is that you have what's called a long tail, where some small percentage of your requests take all of the time, and often almost all of the times a lot of the resources. So rather than letting them take all of the resources, instead cancel them, it can actually improve your throughput by freeing up those resources for the faster requests.
 
 **Mat Ryer:** \[00:40:02.00\] That's brilliant. Why is one of them taking a minute? What's it doing?
 
@@ -308,17 +308,17 @@ Those are small things that you can get a lot of performance, especially when yo
 
 **Isobel Redelmeier:** On the note of gRPC and more code examples, a lot of the gRPC Go code around context is also pretty readable. For example, there's a Peer package, which is almost only for context handling. It basically has (I think) two functions; one for adding pure to a context, one for retrieving pure from a context, so you can see how it works in the wild.
 
-**Mat Ryer:** Oh, it's a great tip, yeah. There's another thing that was quite interesting. We had a problem where we were using io.copy to copy from some source data to some destination place, \[00:42:33.04\] the io.Reader/io.Writer pair. We wanted to cancel that, and because you can't pass a context into copy, the way we solved it was we made our own reader, that essentially wrapped the other reader... And this reader was context-aware, so that it would check to see \[unintelligible 00:42:48.26\] which happens multiple times as io.copy is reading through that source data... Each time, it would check to see if the context has been cancelled, or if it's gonna return an error. And then if it did, it would return that error from the read method, which then would propagate through and get returned from io.copy.
+**Mat Ryer:** Oh, it's a great tip, yeah. There's another thing that was quite interesting. We had a problem where we were using io.copy to copy from some source data to some destination place, it takes the io.Reader/io.Writer pair. We wanted to cancel that, and because you can't pass a context into copy, the way we solved it was we made our own reader, that essentially wrapped the other reader... And this reader was context-aware, so that it would check to see if it calls a Read which happens multiple times as io.copy is reading through that source data... Each time, it would check to see if the context has been cancelled, or if it's gonna return an error. And then if it did, it would return that error from the read method, which then would propagate through and get returned from io.copy.
 
 That was an interesting solution to how we could actually add context support to places that don't yet have it. But those kinds of things are crazy, aren't they...?
 
-**Francesc Campoy:** That's interesting, because I really like the solution. When you mentioned the problem, I was like "Oh yeah, that's how I would have done it, too." But also, it doesn't mean you were storing a context in a struct... How dare you? \[laughter\] That goes against what everybody says you should do.
+**Francesc Campoy:** That's interesting, because I really like the solution. When you mentioned the problem, I was like "Oh yeah, that's how I would have done it, too." But also, doesn't it mean you were storing a context in a struct... How dare you? \[laughter\] That goes against what everybody says you should do.
 
 **Mat Ryer:** No, we didn't, because we used a closure, I think...
 
 **Francesc Campoy:** Oh... Sure, okay. Yeah.
 
-**Jaana Dogan:** I was about to give that as an example... Lots of people are asking, for example, this particular thing - how can you get rid of a goroutine once you're done, or whatever? What is the most canonical API? One way to do this is actually using cancel. If you have this infinite select, for example; you start a goroutine, there's an infinite select, whatever - you can just basically rely on that. I'm not sure if I was following your example, Mat, but was it something like that? Like, you had some task, and just basically using cancellation as is a way to signal that cancellation and lifecycle events.
+**Jaana Dogan:** I was about to give that as an example... Lots of people are asking, for example, this particular thing - how can you get rid of a goroutine once you're done, or whatever? What is the most canonical API? One way to do this is actually using cancel. If you have this infinite select, for example; you start a goroutine, there's an infinite select, whatever - you can just basically rely on that. I'm not sure if I was following your example, Mat, but was it something like that? Like, you had some task, and just basically using cancellation as a way to signal that cancellation and lifecycle events?
 
 **Mat Ryer:** \[00:44:21.08\] Yeah, it was... Because you can call the error method, can't you? The err. You can call that anytime.
 
@@ -370,11 +370,11 @@ Yeah, it's quite simple, and very easy to read. It's just normal Go code, which 
 
 For instance, in the example of the CLI - you're running your CLI, and at the beginning there's no previous context, or anything; maybe at one point we will have actually a context coming from signal. That would be an interesting thing. But otherwise, we don't have anything. So you would go "background".
 
-Context.TODO was added just so as different functions -- like, you're creating a tree of functions that are calling and passing contexts around... So how do you do it if you want to add it to all of them, but little by little? If you start from the top, it's gonna be -- you cannot pass functions until they're accepted. But if you do it the other way around, you'd build a function that starts by saying "Oh, I accept a context now, and you can pass that context to me." Then the caller could say "Oh, okay, so I should have a context, but I do not have it yet." So instead of calling context.Background, which implicitly says "I do not have a context and I never will", .TODO is just "Hey, I do not have it yet, but let's fix it later." So it's literally just so when you grab .TODO, you \[unintelligible 00:49:51.22\] do more work... \[laughter\] And I think that's kind of cool; the fact that they've thought about these -- I mean, you could have done the same calling context.Background and then having on top a \[unintelligible 00:50:03.29\] But they did it this way so it's more explicit, and you actually could do code analysis and see "Hey, this is not done yet."
+Context.TODO was added just so as different functions -- like, you're creating a tree of functions that are calling and passing contexts around... So how do you do it if you want to add it to all of them, but little by little? If you start from the top, it's gonna be -- you cannot pass functions until they're accepted. But if you do it the other way around, you'd build a function that starts by saying "Oh, I accept a context now, and you can pass that context to me." Then the caller could say "Oh, okay, so I should have a context, but I do not have it yet." So instead of calling context.Background, which implicitly says "I do not have a context and I never will", TODO is just "Hey, I do not have it yet, but let's fix it later." So it's literally just so when you grab .TODO, you can find a way where you can still do more work... \[laughter\] And I think that's kind of cool; the fact that they've thought about these -- I mean, you could have done the same calling context.Background and then having on top a comment going "TODO".. but they did it this way so it's more explicit, and you actually could do code analysis and see "Hey, this is not done yet."
 
 **Isobel Redelmeier:** That's a very real use case. One example that I've encountered multiple times is trying to add distributed tracing to existing codebases that don't use context yet... I kind of hinted at this before, but most open source distributed tracing libraries at the very least use context to propagate what are called Trace and Span IDs, so basically your metadata keeping track of the trace. So if you're adding it to an existing codebase, you don't have those contexts yet, then you don't want to be starting Spans from scratch; you want to be able to connect those Spans to one another at some point, but not necessarily from day zero, if you have a multi-hundred-thousand-line codebase and you have a lot of context to re-add.
 
-**Mat Ryer:** Yeah, that's a really good point. I mean, you can tell that this came out of real engineering, the fact that it has that .TODO and the fact that it kind of, as you said earlier, Francesc, it is a kind of very elegant design, it's a very elegant solution, and I think it's worth looking at. There isn't much code, as you say; it's worth taking a look... And some interesting things in there, too. There's a string method often on these contexts... So when you print them out, they tell you meaningful information. That was a surprise when I've found that in the code.
+**Mat Ryer:** Yeah, that's a really good point. I mean, you can tell that this came out of real engineering, the fact that it has that TODO and the fact that it kind of, as you said earlier, Francesc, it is a kind of very elegant design, it's a very elegant solution, and I think it's worth looking at. There isn't much code, as you say; it's worth taking a look... And some interesting things in there, too. There's a string method often on these contexts... So when you print them out, they tell you meaningful information. That was a surprise when I've found that in the code.
 
 **Francesc Campoy:** I actually didn't know.
 
@@ -392,7 +392,7 @@ Context.TODO was added just so as different functions -- like, you're creating a
 
 **Mat Ryer:** \[00:52:12.00\] Yeah, you probably can't, no. But I've seen it for at least telling you the type of that context, and things... Because often you pass around the .context interface, and sometimes -- well, hopefully not, but...
 
-**Francesc Campoy:** Yeah, I actually tried it, and it's kind of cool, the way it prints it. I just wrote a little \[unintelligible 00:52:30.19\] context.Background, and then I add a value... It was like key is one, and value is two, and then I print that. And what it prints is context.Background with value, and then the value inside. So it kind of creates this linked list of like what are the things that you obtain, and prints it... They key is type int, so it doesn't tell me what key it is, and the value is "not a stringer". That's what it says... So yeah.
+**Francesc Campoy:** Yeah, I actually tried it, and it's kind of cool, the way it prints it. I just wrote a little program that calls context.Background, and then I add a value... It was like key is one, and value is two, and then I print that. And what it prints is context.Background.withValue, and then the value inside. So it kind of creates this linked list of like what are the things that you obtain, and prints it... They key is type int, so it doesn't tell me what key it is, and the value is "not a stringer". That's what it says... So yeah.
 
 **Jaana Dogan:** Okay... That's not useful. \[laughs\]
 
@@ -524,11 +524,11 @@ In Oto, for example, it's a compile error if you haven't implemented the interfa
 
 **Jaana Dogan:** \[laughs\]
 
-**Isobel Redelmeier:** And if you don't have a panic -- I saw code like this recently, where it had \[unintelligible 01:07:38.06\] implemented all over the place, and it didn't have a panic handler. So if you had your routing misconfigured or something, suddenly you were basically accidentally self-DDOSing.
+**Isobel Redelmeier:** And if you don't have a panic -- I saw code like this recently, where it had the "Not implemented" all over the place, and it didn't have a panic handler. So if you had your routing misconfigured or something, suddenly you were basically accidentally self-DDOSing.
 
 **Francesc Campoy:** Interesting.
 
-**Mat Ryer:** Yeah. Well, I'm afraid that's all the time we have for today. What a great conversation; thank you so much. I think I've learned a lot about contexts there. Don't forget to check the show notes, because there's lots of bits and pieces in there that we've talked about today. Thank you very much to Francesc Campoy. Francesc, thank you. Thanks for coming.
+**Mat Ryer:** Yeah. Well, I'm afraid that's all the time we have for today. What a great conversation; thank you so much. I think I've learned a lot about context there. Don't forget to check the show notes, because there's lots of bits and pieces in there that we've talked about today. Thank you very much to Francesc Campoy. Francesc, thank you. Thanks for coming.
 
 **Francesc Campoy:** Thank you for having me.
 
