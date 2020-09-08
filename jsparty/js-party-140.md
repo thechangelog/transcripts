@@ -204,7 +204,7 @@ Now that we kind of know what realms are, could you explain again what is all th
 
 **Emma Bostian:** Okay, so I know we've got \`Array.IsArray()\`. I want Array.WhyIsMyArrayNotAnArray. Tell me where it went wrong. \[laughter\]
 
-**Jordan Harband:** I actually have an Npm package called IsThatEqual, where you can pass it two things and there's a why function in it. You can pass it two things and it'll give you some text that tells you why they're different, if that's helpful...
+**Jordan Harband:** I actually have an npm package called IsThatEqual, where you can pass it two things and there's a why function in it. You can pass it two things and it'll give you some text that tells you why they're different, if that's helpful...
 
 **Emma Bostian:** Oh...!
 
@@ -218,7 +218,7 @@ Now that we kind of know what realms are, could you explain again what is all th
 
 **Jordan Harband:** Challenge accepted. Pull requests open. \[laughter\]
 
-**Amal Hussein:** No, just kidding. Actually, I'll just take a tangent on module design... What's his -- is it Sindorus? I never know how to pronounce his name. The cool dinosaur guy who has every single package on Npm.
+**Amal Hussein:** No, just kidding. Actually, I'll just take a tangent on module design... What's his -- is it Sindorus? I never know how to pronounce his name. The cool dinosaur guy who has every single package on npm.
 
 **Jordan Harband:** I don't know how to pronounce it out loud either.
 
@@ -304,7 +304,7 @@ What finally ended up relaxing it was another committee member, Yulia, who works
 
 **Amal Hussein:** Oh...
 
-**Jordan Harband:** I don't remember the exact order in which these happened, but smoosh was because the original name for array.prototype.flat was array.prototype.flatten, and it turns out that a library called MoTools had used that word, so it would break websites if arrays started having a flatten method... And one of the champions -- or the champion for that proposal posted a (I think) mostly joking GitHub issue saying that he was gonna rename it from flatten to smoosh, and a lot of folks took it very seriously, and some folks even tried to create a campaign to make it web-incompatible to name it smoosh. They tried to make it so that websites would break if arrays started having smoosh.
+**Jordan Harband:** I don't remember the exact order in which these happened, but smoosh was because the original name for array.prototype.flat was array.prototype.flatten, and it turns out that a library called MooTools had used that word, so it would break websites if arrays started having a flatten method... And one of the champions -- or the champion for that proposal posted a (I think) mostly joking GitHub issue saying that he was gonna rename it from flatten to smoosh, and a lot of folks took it very seriously, and some folks even tried to create a campaign to make it web-incompatible to name it smoosh. They tried to make it so that websites would break if arrays started having smoosh.
 
 **Amal Hussein:** I thought that was a little taking it too far though. I thought that was not nice. It was like people trying to actively start a guerilla campaign to jeopardize the success of this proposal. It was a joke to begin with, but most people didn't know that it was a joke, and then it just got out of hand really fast, and it was just like "WTF...?" \[laughs\]
 
@@ -332,7 +332,7 @@ A date picker I wrote broke one time because we picked midnight as the just plac
 
 Luckily, there's a stage two proposal called Temporal that's attempting to address this... And some of its champions actually are maintainers of Moment.js, which is one of the libraries that has solved this the best in the ecosystem so far.
 
-**Amal Hussein:** Actually, can we take a moment to think Moment.js, and folks like Maggie Pint from Microsoft, Philipp Dunkel from Bloomberg...
+**Amal Hussein:** Actually, can we take a moment to thank Moment.js, and folks like Maggie Pint from Microsoft, Philipp Dunkel from Bloomberg...
 
 **Jordan Harband:** And Matt, yeah...
 
