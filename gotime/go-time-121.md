@@ -6,7 +6,7 @@
 
 **Jon Calhoun:** I'm doing well. Excited to get into this one, because there's a lot of interesting things here.
 
-**Johnny Boursiquot:** Yes, indeed. One thing we will not do - or I'm hoping we won't do, is talking about tools... And to be specific, we're talking about not just tools built in Go, although that's certainly part of it, and not just tools unique or specialized for Go development, but really all the things that make up your developer workflow. It could be editors, it could be containerization that you use locally, it could be how you do live reloading and testing, it could be your shell... All the tools that we as developers use to build and ship software.
+**Johnny Boursiquot:** Oh yes, indeed. So, one thing we will not do - or I'm hoping we won't do, in talking about tools... and to be specific, we're talking about not just tools built in Go, although that's certainly part of it, and not just tools unique or specialized for Go development, but really all the things that make up your developer workflow. It could be editors, it could be containerization that you use locally, it could be how you do live reloading and testing, it could be your shell... All the tools that we as developers use to build and ship software.
 
 But going back to my original point - we will try very hard not to start any wars over things like editors and whatnot, because everybody has their favorites... And it's the same thing for every tool on this list here. Maybe you have something that you really like, and you think it's the best thing since sliced bread, and that's okay, too. We're here to talk about a wide range of things, and then hopefully tie it all back to our daily Go development.
 
@@ -14,9 +14,9 @@ So let us start -- well, where to start...? This is such a broad field... We can
 
 **Thorsten Ball:** I would say the number one tool that I would need on any computer that I work with would be a terminal, a shell. I often think about this question, because it's an interview question where I work, at Sourcegraph, so I get to ask it a bunch of times and discuss it a lot... And I think my answer would be a Unix environment, a shell, where you can boot up a bunch of tools.
 
-\[00:04:08.00\] I use Vim, so I start up Vim a bunch of times, I put it in a background with Ctrl+C, I run ripgrep, everything is in a tmux session... I spawn a ton of different shells, close them, spawn new ones, close them...
+\[00:04:08.00\] I use Vim, so I start up Vim a bunch of times, I put it in a background with Ctrl+Z, I run ripgrep, everything is in a tmux session... I spawn a ton of different shells, close them, spawn new ones, close them...
 
-When I try to switch to VS Code, for example, this was the thing that I noticed the most - it's not a specific syntax highlighting or theme or whatever, it is the ability to quickly run stuff in the shell and close the shell. So that's my number one must-have tool.
+When I tried to switch to VS Code, for example, this was the thing that I noticed the most - it's not a specific syntax highlighting or theme or whatever, it is the ability to quickly run stuff in the shell and close the shell. So that's my number one must-have tool.
 
 **Jon Calhoun:** I think it's interesting how everybody is very unique there. I see people who use VS Code and use the terminal built in... I can't do that. I'm just like, "I'm sorry." I want that terminal to go away and leave me alone, because it's just not what I'm using. Because I just have global hotkeys that bring up the terminal, and that's how I get back and forth between the two. But I use VS Code more than probably anything else.
 
@@ -56,7 +56,7 @@ A long time ago, when I first started doing coding and whatnot, all the tools th
 
 **Thorsten Ball:** Yeah.
 
-**Jon Calhoun:** When you look at things like Docker 2 that are coming out, they've all sort of helped push that... Because these days, anytime somebody asks -- even on a macOS, there are easy ways to install things like Postgres, but if you are familiar with Docker, there are much easier ways to just spin something up that's running Docker than installing it.
+**Jon Calhoun:** When you look at things like Docker too that are coming out, they've all sort of helped push that... Because these days, anytime somebody asks -- even on a macOS, there are easy ways to install things like Postgres, but if you are familiar with Docker, there are much easier ways to just spin something up that's running Docker than installing it.
 
 So knowing that that'll work on any operating system if you understand Docker is really helfpul, and I think that also really helps support that argument you're making where all these operating systems are kind of getting close to parity.
 
