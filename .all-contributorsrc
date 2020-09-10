@@ -2041,6 +2041,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "rsynnest",
+      "name": "rsynnest",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4392850?v=4",
+      "profile": "https://github.com/rsynnest",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
