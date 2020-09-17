@@ -322,6 +322,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://maikelvlasman.com"><img src="https://avatars0.githubusercontent.com/u/1732671?v=4" width="100px;" alt=""/><br /><sub><b>Maikel</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=maikelvl" title="Documentation">📖</a></td>
     <td align="center"><a href="http://marcram.com"><img src="https://avatars0.githubusercontent.com/u/1065828?v=4" width="100px;" alt=""/><br /><sub><b>Marc Ram</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=MarcRam" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/rsynnest"><img src="https://avatars0.githubusercontent.com/u/4392850?v=4" width="100px;" alt=""/><br /><sub><b>rsynnest</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=rsynnest" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/danlaush"><img src="https://avatars3.githubusercontent.com/u/1204500?v=4" width="100px;" alt=""/><br /><sub><b>danlaush</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=danlaush" title="Documentation">📖</a></td>
   </tr>
 </table>
 

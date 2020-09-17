@@ -70,7 +70,7 @@ There's a keyboard company in Japan called ergodox-ez. They create these amazing
 
 **Lea Anthony:** Yeah, I guess it just depends on the original project. The difference between running an application in native UI versus an application in a browser versus an application in WebView, which is even more limited than a browser - you're gonna hit some limitations somewhere, based on the use case. The obvious one is complexity on a native UI perspective. "How do I make that work on different platforms?" There are some approaches that you can take to do that.
 
-\[00:16:03.16\] When you do a server app, obviously, you have that disconnect between the frontend and the backend... And in the browser as well you have things like local storage, which you don't actually have in WebView. So the limitation I'd say of writing a Wails app would be twofold. One is it isn't a full browser, which makes it good, in a way; it's \[unintelligible 00:16:22.09\] resources... But you also don't necessarily know which libraries would necessarily work. There are so many libraries out there; if you use one that uses something that's native to a browser, then you're gonna hit that limitation. That's one.
+\[00:16:03.16\] When you do a server app, obviously, you have that disconnect between the frontend and the backend... And in the browser as well you have things like local storage, which you don't actually have in WebView. So the limitation I'd say of writing a Wails app would be twofold. One is it isn't a full browser, which makes it good, in a way; it's slimline it's making good use of the resources... But you also don't necessarily know which libraries would necessarily work. There are so many libraries out there; if you use one that uses something that's native to a browser, then you're gonna hit that limitation. That's one.
 
 The other one would be that Wails uses the native renderer on your system. There's pros and cons with that. The con is that on Windows it's still basically IE11, so you'd have to deal with that. And there's a lot of libraries that kind of get around. I've not really hit that problem, but some people do.
 
@@ -238,7 +238,7 @@ It's fairly customizable, because the actual system assets that it generates - i
 
 **Jon Calhoun:** So when you're embedding those assets - I know recently there was like an embed proposal for Go... Have you had a chance to check that out?
 
-**Lea Anthony:** Yeah, it's definitely something that I wish \[unintelligible 00:39:15.28\] before I decided to try and make a packer. That would have been good. There's many solutions to this problem, so...
+**Lea Anthony:** Yeah, it's definitely something that I wish had been there before I decided to try and make a packer. That would have been good. There's many solutions to this problem, so...
 
 **Jon Calhoun:** Does that solution look like it would solve the needs you have then?
 

@@ -56,9 +56,9 @@ There's a reason we test everything, and it's because we don't always know where
 
 **Roberto Clapis:** Right. I would also add that when you write the fuzz test target, you want to expect on properties of the stuff that you work on. Instead, when you work on unit tests, you expect some output. For example, in the strings.split case you can say "I'm going to call a strings.split with two parameters, and I'm going to check that the second one never appears in the returned slices", because the separator should never appear.
 
-\[00:08:02.10\] And that is something you would generally not test in a unit test. Or you're going to check that the returned slices are less than the \[unintelligible 00:08:08.26\] there must be a problem, and this is stuff that normally doesn't get tested... I'm pretty bad at writing tests, but whenever I unit-test, I don't test for this kind of condition.
+\[00:08:02.10\] And that is something you would generally not test in a unit test. Or you're going to check that the returned slices are less than the characters of the string. If you return more characters than there are there must be a problem, and this is stuff that normally doesn't get tested... I'm pretty bad at writing tests, but whenever I unit-test, I don't test for this kind of condition.
 
-**Filippo Valsorda:** Yeah, and another example of something that would be good to check in a fuzz test of the split function is that if you put it back together, putting the separators between the things you split, do you get back the regional string? If you do, it probably did its job right. And that's the kind of stuff that fuzzers are pretty good at finding, because they can just go and find some input where -- I don't know, the separator is at the end, and is missing one character, or I don't know, where the thing doesn't roundtrip.
+**Filippo Valsorda:** Yeah, and another example of something that would be good to check in a fuzz test of the split function is that if you put it back together, putting the separators between the things you split, do you get back the original string? If you do, it probably did its job right. And that's the kind of stuff that fuzzers are pretty good at finding, because they can just go and find some input where -- I don't know, the separator is at the end, and is missing one character, or I don't know, where the thing doesn't roundtrip.
 
 **Roberto Clapis:** That gives you even more, because then you now are testing for an additional property, which is if you string split and then you string join, you must get the same thing out... Which is a normal expectation. When I use the strings package, I expect that to be true... But I don't know if there is anyone that has been fuzzing that to make sure that that is actually true... Especially in edge cases like nil slices, or slices of empty strings, what happens would be interesting to see.
 
@@ -140,7 +140,7 @@ There's a lot of different things I'm not totally sure would be supported. If it
 
 **Mat Ryer:** I wonder if we're gonna end up in a situation like with Bitcoin miners, where we've got all these machines that are just spending all the time crunching through, fuzzing stuff... \[laughter\] When we've got Fuzzcoin.
 
-**Filippo Valsorda:** OSS files already exist. There's a project by Google that basically provides what internally we call ClusterFuzz, which I don't know if I was allowed to say; but yup, we're rolling! For open source projects, where any open source project can submit... And there are criteria, of course; I don't know what they are exactly, but they will just run your fuzzers for you. And if we make it standard how to do that with Go, it would be extremely easy to submit Go projects.
+**Filippo Valsorda:** OSS Fuzz already exist. There's a project by Google that basically provides what internally we call ClusterFuzz, which I don't know if I was allowed to say; but yup, we're rolling! For open source projects, where any open source project can submit... And there are criteria, of course; I don't know what they are exactly, but they will just run your fuzzers for you. And if we make it standard how to do that with Go, it would be extremely easy to submit Go projects.
 
 **Mat Ryer:** Yeah, that gets very exciting, actually. That's really cool.
 
@@ -222,7 +222,7 @@ In the proposal, the example is "It takes a testing.T, and A, which is a string,
 
 **Katie Hockman:** I expect it would probably panic... Because what you're doing is you're basically telling it "Here's two ints", and it's expecting a string and a big int. And maybe that can work with static check and things like that, to find those things at build time...
 
-**Filippo Valsorda:** For anybody who hasn't read the proposal, f.add is the function used to seed the corpus; it's the function that you use to say "Here's the starting points." Which by the way, is one of my favorite things of the proposal, because usually you have to just create a bunch of files, one for each input, and put them in a \[unintelligible 00:36:29.16\] Actually, I'm gonna do something else... And instead, here you just write f.add, and "Here's my \[unintelligible 00:36:34.26\] These are examples. Go for it." So f.add is the function that adds to the corpus, while f.fuzz is the function that actually runs the fuzzer, and it runs a function that takes the same types of arguments... I'm just mentioning it in case people haven't read the proposal yet.
+**Filippo Valsorda:** For anybody who hasn't read the proposal, f.add is the function used to seed the corpus; it's the function that you use to say "Here's the starting points." Which by the way, is one of my favorite things of the proposal, because usually you have to just create a bunch of files, one for each input, and put them in a foo.. Actually, I'm gonna do something else... And instead, here you just write f.add, and "Here's my \[unintelligible 00:36:34.26\] certificate. These are examples. Go for it." So f.add is the function that adds to the corpus, while f.fuzz is the function that actually runs the fuzzer, and it runs a function that takes the same types of arguments... I'm just mentioning it in case people haven't read the proposal yet.
 
 **Mat Ryer:** Thank you, brilliant. And I love the fact that it kind of still -- I mean, it's designed to fit into what we already have. So it knows about go test, and it kind of cooperates with go test as well, doesn't it?
 
@@ -242,7 +242,7 @@ So it's kind of easier to write fuzz targets than people assume, but since fuzz 
 
 **Roberto Clapis:** Not that slower, but yeah... That's kind of the point.
 
-**Filippo Valsorda:** Another example that I had written up for the blog is that I had this parser... No, sorry, not this parser, actually... This serializer. And you're like "How do you test a serializer? How do you know if the thing it generated is good?" Well, the thing I wanted to know was whether if it would work using buffers, for performance reasons; I didn't want to allocate a new buffer or \[unintelligible 00:41:07.20\] every time. I just wanted to give it the old packet and say "Just serialize over this one."
+**Filippo Valsorda:** Another example that I had written up for the Gopher blog is that I had this parser... No, sorry, not this parser, actually... This serializer. And you're like "How do you test a serializer? How do you know if the thing it generated is good?" Well, the thing I wanted to know was whether if it would work using buffers, for performance reasons; I didn't want to allocate a new buffer or \[unintelligible 00:41:07.20\] every time. I just wanted to give it the old packet and say "Just serialize over this one."
 
 So what I did was write a fuzzer that would parse a packet, but in this case with the Go proposal I would not even maybe do the parse step. I would just tell it "Give me a random packet structure, and then serialize it on both empty an empty buffer of old zeroes, and on full buffers of all one bit." If they come out different, it means that it's not set in zeroes in some of the fields... And it did. That might or might not have been why some stuff in the cloud for DNS server wasn't working... And that's the kind of stuff you can find with fuzzers.
 
@@ -254,7 +254,7 @@ In general, testing should really be about defining expected behaviors, and that
 
 Now, unit tests are always going to be needed, but if you put on top something that asserts the actual property that you meant, you're adding a lot of value.
 
-**Filippo Valsorda:** One opinion I heard that I'm not supporting - retweets are not endorsements - was that "Why would you write unit tests if you already know that your program is going to break on? Just don't write the bug." I mean... \[laughter\] Yes, yes, yes. I know. But there is a degree of truth to that. The things you can write unit tests -- unit tests are actually more useful for refacturing later and for regressions. But that's the thing - it's unlikely you will think of inputs that break on the program you just wrote, because you thought about those edge cases. And fuzzing will just not care about what you thought about. Fuzzing will find where it hurts.
+**Filippo Valsorda:** One opinion I heard that I'm not supporting - retweets are not endorsements - was that "Why would you write unit tests if you already know that your program is going to break on? Just don't write the bug." I mean... \[laughter\] Yes, yes, yes. I know. But there is a degree of truth to that. The things you can write unit tests -- unit tests are actually more useful for refactoring later and for regressions. But that's the thing - it's unlikely you will think of inputs that break on the program you just wrote, because you thought about those edge cases. And fuzzing will just not care about what you thought about. Fuzzing will find where it hurts.
 
 **Roberto Clapis:** \[00:44:04.25\] Right... And one thing that I like to say is that I write test targets for my future interaction with the code, because I also used to do TDD most of the time. So I write the tests, and then I write the code that implements whatever I am testing for... And in the future, when I refactor, one of the tests will pass, when I said that I write fuzzers for the code that I wrote in the past. So basically, the fuzzer makes sure that whatever is there is actually what it meant to do, and the tests are there so that the future code will keep doing it.
 
@@ -282,7 +282,7 @@ Now, unit tests are always going to be needed, but if you put on top something t
 
 **Mat Ryer:** I love it when the machines do kind of get this emergent intelligence. I find that to be really quite amazing, especially when there's so much chaos in what's actually going on. I think the thing that I've learned and I'll take away is it's less about random input and it's more about variations of the realistic kind of input that you're gonna pass in, right? ...that didn't resonate, because I can tell on my screen that there's no... Go on, correct me if that's wrong.
 
-**Filippo Valsorda:** No, I just wanted to say -- I was putting stuff on top of this, which is... The fuzzer doesn't care about what the code does, and that's important, because if we had a machine learning algorithm fuzzing our code, just trying to learn how the code behaves, at one point it would do as humans would. It would understand what the code is supposed to do, and kind of accept the code works. Instead, if you're just using an algorithm that just tries to bash with random stuff, at one point you find -- like, after two years you've been fuzzing a target, a new edge case that crashes... And this is something that I love, because a human, or an intelligent design - in our way of defining intelligence - would not find it... Because why would you keep doing for two years the same thing, expecting a different result? Isn't that the definition of madness?
+**Roberto Clapis:** No, I just wanted to say -- I was putting stuff on top of this, which is... The fuzzer doesn't care about what the code does, and that's important, because if we had a machine learning algorithm fuzzing our code, just trying to learn how the code behaves, at one point it would do as humans would. It would understand what the code is supposed to do, and kind of accept the code works. Instead, if you're just using an algorithm that just tries to bash with random stuff, at one point you find -- like, after two years you've been fuzzing a target, a new edge case that crashes... And this is something that I love, because a human, or an intelligent design - in our way of defining intelligence - would not find it... Because why would you keep doing for two years the same thing, expecting a different result? Isn't that the definition of madness?
 
 **Mat Ryer:** Yeah, but we are gonna end up with fuzzing terminators literally just running around, trying all kinds of different things to get you... And it just like goes and hacks some things, smashes it, kicks a puppy, throws a baby in the sea... Do you know what I mean? Doing all kinds of -- just to see what works.
 
@@ -310,7 +310,7 @@ Now, unit tests are always going to be needed, but if you put on top something t
 
 **Katie Hockman:** That's a highly social skilled one, because you need to be able to talk to people and understand -- like, if they disclose a report, you need to be able to communicate with them, and understand them, and be able to communicate back, and you need to be able to communicate really complicated things in a really simple way, that other people can understand, which is really hard... And I think that's a field where it's even more important that you have good social skills, because the stakes are so high.
 
-**Filippo Valsorda:** Yeah... To be fair, I should point out that the Go community is extremely nice. The kind of people that \[unintelligible 00:51:07.23\] are usually a delight to work with. I was just making a cheap shot at the...
+**Filippo Valsorda:** Yeah... To be fair, I should point out that the Go community is extremely nice. The kind of people that I used to work for are usually a delight to work with. I was just making a cheap shot at the...
 
 **Roberto Clapis:** Right...
 
@@ -322,7 +322,7 @@ Now, unit tests are always going to be needed, but if you put on top something t
 
 **Mat Ryer:** You're safe, aren't you, from that? What can they ever do...?
 
-**Filippo Valsorda:** Right... \[laughter\] Now that you say that, Katie, I think one of the important things about the human aspect of software is like when you design an API, you have to design it in a way that people will understand. I hate when people say "Users of this API are stupid, because they can't use it right." When you're designing something, you're communicating to the user... People keep forgetting that issue.
+**Roberto Clapis:** Right... \[laughter\] Now that you say that, Katie, I think one of the important things about the human aspect of software is like when you design an API, you have to design it in a way that people will understand. I hate when people say "Users of this API are stupid, because they can't use it right." When you're designing something, you're communicating to the user... People keep forgetting that issue.
 
 **Mat Ryer:** Yeah, that is true, actually... Because you do think -- in the beginning I thought APIs were for machines to talk to each other, but they aren't. They're for humans to build the thing that allows the machines to talk to each other. Yeah, so that is true.
 
@@ -346,7 +346,7 @@ Now, unit tests are always going to be needed, but if you put on top something t
 
 **Roberto Clapis:** Whoa...
 
-**Katie Hockman:** Yeah. I mean, I do actually agree with you that it makes things complicated. I mean, yeah, it can be a source of joy for people like me, \[unintelligible 00:53:58.08\] love them, but also, if it's a source of conflict and discomfort, or worse, for people that I work with or people around me, then that isn't ideal either, and... Yeah, aside from the case of like a service dog, which I know that Filippo agrees that that's totally fine...
+**Katie Hockman:** Yeah. I mean, I do actually agree with you that it makes things complicated. I mean, yeah, it can be a source of joy for people like me, who aren't allergic and I love them, but also, if it's a source of conflict and discomfort, or worse, for people that I work with or people around me, then that isn't ideal either, and... Yeah, aside from the case of like a service dog, which I know that Filippo agrees that that's totally fine...
 
 **Filippo Valsorda:** Oh yeah, of course.
 
