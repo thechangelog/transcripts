@@ -404,9 +404,9 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Divya:** But anyway... What are you doing? What have you been up to?
 
-**Horse JS:** This is a Rust stand account now.
+**Horse JS:** This is a Rust stan account now.
 
-**Jerod Santo:** A Rust stand account? I hadn't heard anything about Rust. What got you interested in Rust, Horse JS?
+**Jerod Santo:** A Rust stan account? I hadn't heard anything about Rust. What got you interested in Rust, Horse JS?
 
 **Horse JS:** Rust fan boys need to learn.
 
