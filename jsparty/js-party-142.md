@@ -416,7 +416,7 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Divya:** Wow, that sucks. So did you learn anything from that?
 
-**Horse JS:** [WebPack is pretty great. Don't @ me.](https://twitter.com/horse_js/status/1228398099242115073) \[laughter\]
+**Horse JS:** [Webpack is pretty great. Don't @ me.](https://twitter.com/horse_js/status/1228398099242115073) \[laughter\]
 
 **Nick Nisi:** Everyone knows that. Tell us something though we don't know.
 
@@ -432,11 +432,11 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Jerod Santo:** No, he said TypeScript, Horse JS.
 
-**Horse JS:** \[00:32:08.23\] React. It's okay.
+**Horse JS:** \[00:32:08.23\] [React. It's okay.](https://twitter.com/horse_js/status/1279264003768881152)
 
 **Jerod Santo:** I guess that's your Reac-tion to TypeScript?
 
-**Horse JS:** React. It's okay.
+**Horse JS:** [React. It's okay.](https://twitter.com/horse_js/status/1279264003768881152)
 
 **Divya:** That's your view.
 
@@ -472,7 +472,7 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Divya:** Wow... \[laughter\] Okay, Horse JS, I think you can air your grievances on TikTok. Maybe it's time for a new platform. Any final words before we let you go?
 
-**Horse JS:** Okay, let me toss out one last hand grenade before I go to bed: immutability is sometimes.
+**Horse JS:** [Okay, let me toss out one last hand grenade before I go to bed: immutability is sometimes.](https://twitter.com/horse_js/status/1248492585393344512)
 
 **Divya:** Cool.
 
@@ -498,4 +498,4 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Nick Nisi:** Yes, yes.
 
-**Horse JS:** JavaScript, I just want you to know that I've cried.
+**Horse JS:** [JavaScript, I just want you to know that I've cried.](https://twitter.com/horse_js/status/1224472331566886919)
