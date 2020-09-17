@@ -106,7 +106,7 @@ I wanna say that I was listening to a Changelog podcast where they were talking 
 
 **Jerod Santo:** What else is new?
 
-**Nick Nisi:** The third big thing in there is probably the short-circuit assignment. So we have that with several different logical operators, like + and -, where you can just say \[unintelligible 00:09:25.01\] and that will set the value of A to be whatever A was, plus B, and give that as the new value. So that's existed for like plus, minus, multiplication, division, exponents, things like that. Now it works with the \[unintelligible 00:09:41.26\] I'm forgetting the name of the two question marks. What is the two question marks?
+**Nick Nisi:** The third big thing in there is probably the short-circuit assignment. So we have that with several different logical operators, like plus and minus, where you can just say A plus-equals B and that will set the value of A to be whatever A was, plus B, and give that as the new value. So that's existed for like plus, minus, multiplication, division, exponents, things like that. Now it works with the And, Or, and... I'm forgetting the name of the two question marks. What is the two question marks?
 
 **Jerod Santo:** Double pipe? Oh, two question marks...
 
@@ -130,7 +130,7 @@ I wanna say that I was listening to a Changelog podcast where they were talking 
 
 **Jerod Santo:** Nick reads the docs. It can be a whole segment.
 
-**Divya:** Yes! It could be a whole segment, where you read the docs \[unintelligible 00:10:48.12\] so you know you're not gonna read it...
+**Divya:** Yes! It could be a whole segment, where you read the docs you... so you know you're not gonna read it...
 
 **Nick Nisi:** That'd be pretty cool.
 
@@ -172,7 +172,7 @@ I wanna say that I was listening to a Changelog podcast where they were talking 
 
 **Jerod Santo:** Come on, Divya...
 
-**Nick Nisi:** \[unintelligible 00:13:16.01\]
+**Nick Nisi:** I swear, right? JavaScript, and TypeScript.
 
 **Divya:** I don't actually know that one...
 
@@ -180,7 +180,7 @@ I wanna say that I was listening to a Changelog podcast where they were talking 
 
 **Jerod Santo:** Incorrect. No, I don't know...
 
-**Divya:** \[laughs\] \[unintelligible 00:13:28.13\]
+**Divya:** \[laughs\] You don't know the answer, too?
 
 **Jerod Santo:** I'm pulling out my JS Danger soundboard, so when you guys figure it out, I will give you correct answers.
 
@@ -198,7 +198,7 @@ I wanna say that I was listening to a Changelog podcast where they were talking 
 
 **Divya:** Wait, so how does it work? What's the process in which it would work?
 
-**Nick Nisi:** So in my limited deep-dive into it, it seems like it's a collection of code mods that will help you to migrate to TypeScript. They kind of have a diagram in the blog post that kind of shows -- you know, you start with your JavaScript code and you create a ts-config, so you configure TypeScript in the way that you would want it, with all of your hopefully strict \[unintelligible 00:14:35.11\] and all of that. Then you can go through and rename all of your JS files to ts, or tsx, depending on what you're writing... And then you can run these code mods. And the code modes will do things like declare any missing class properties; anything that you didn't really have to do before in JavaScript because it didn't care, it will help you to infer that in your new code, and write that for you. So it'll output updated versions of that, of your code.
+**Nick Nisi:** So in my limited deep-dive into it, it seems like it's a collection of code mods that will help you to migrate to TypeScript. They kind of have a diagram in the blog post that kind of shows -- you know, you start with your JavaScript code and you create a ts-config, so you configure TypeScript in the way that you would want it, with all of your hopefully strict set to true, and all of that. Then you can go through and rename all of your JS files to ts, or tsx, depending on what you're writing... And then you can run these code mods. And the code modes will do things like declare any missing class properties; anything that you didn't really have to do before in JavaScript because it didn't care, it will help you to infer that in your new code, and write that for you. So it'll output updated versions of that, of your code.
 
 It's unclear to me if this is like you run these step-by-step, or all at once, or how that works... But that does seem like the -- they're utilizing code mods to do that, which is really cool. Code mods are so cool.
 
@@ -276,9 +276,9 @@ It's unclear to me if this is like you run these step-by-step, or all at once, o
 
 **Jerod Santo:** Ahh, the nostalgia...
 
-**Divya:** Did you see?! There was one of the games where he was like "I was creating this game..." I forget what the game was called. And he goes like "I needed combatants in it", and then he couldn't figure it out, because the memory of that cartridge was so small and he used up so much of it... And he's like "Oh, there was one way I could squeeze more memory out, but \[unintelligible 00:22:25.20\]
+**Divya:** Did you see?! There was one of the games where he was like "I was creating this game..." I forget what the game was called. And he goes like "I needed combatants in it", and then he couldn't figure it out, because the memory of that cartridge was so small and he used up so much of it... And he's like "Oh, there was one way I could squeeze more memory out, by XORing the bits! \[laughter\]
 
-**Jerod Santo:** Yeah... \[unintelligible 00:22:30.06\] you're like "Oh, my goodness..."
+**Jerod Santo:** Yeah... Those guys are so leet, you're like "Oh, my goodness..."
 
 **Divya:** So I think anything is possible, really. I mean, if those guys were able to create very interactive and compelling games with way less space than we have now...
 
@@ -358,15 +358,15 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Break:** \[00:28:53.03\]
 
-**Horse JS:** Hello, JavaScript developers. I just want to take a moment...
+**Horse JS:** [Hello, JavaScript developers. I just want to take a moment...](https://twitter.com/horse_js/status/1210968330456174593)
 
 **Jerod Santo:** Wow. Well, thanks so much for joining us. Horse JS, everybody. Horse JS is here... A little birdy actually told me that you're a big fan of JS Party.
 
-**Horse JS:** I keep wondering about why JavaScript developed this culture.
+**Horse JS:** [I keep wondering about why JavaScript developed this culture.](https://twitter.com/horse_js/status/1265859663469383686)
 
 **Nick Nisi:** Hah! We ask ourselves that same thing every day... But I'm curious, what's your favorite episode so far?
 
-**Horse JS:** What if we only call it JavaScript?
+**Horse JS:** [What if we only call it JavaScript?](https://twitter.com/horse_js/status/1280680602765836288)
 
 **Jerod Santo:** Oh, you must be thinking about that episode, 101 -- do you guys remember the Yep/Nope debate on rebranding JavaScript? What if we renamed it...? I don't really remember -- what was the final conclusion of that? Did we decide to keep the name, or...? Do you remember, Divya?
 
@@ -380,7 +380,7 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Divya:** It was inconclusive, yeah. We couldn't come to a conclusion.
 
-**Nick Nisi:** So we \[unintelligible 00:30:39.12\] TypeScript then.
+**Nick Nisi:** So we went with TypeScript then.
 
 **Jerod Santo:** That was one thing we all unanimously decided not to do... \[laughter\]
 
@@ -390,13 +390,13 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Nick Nisi:** Horse JS, your voice keeps changing on us... What's going on?
 
-**Horse JS:** Whatever Google decides is best.
+**Horse JS:** [Whatever Google decides is best.](https://twitter.com/horse_js/status/1206788155258671107)
 
 **Jerod Santo:** Okay...
 
 **Nick Nisi:** Well, it's kind of hard to listen to, honestly...
 
-**Horse JS:** I have no time for JavaScript haters.
+**Horse JS:** [I have no time for JavaScript haters.](https://twitter.com/horse_js/status/1195133103406231552)
 
 **Divya:** Wow... We're not haters. We're really not. We talk a lot about JavaScript. Didn't you know this whole podcast is called JS Party?
 
@@ -404,31 +404,31 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Divya:** But anyway... What are you doing? What have you been up to?
 
-**Horse JS:** This is a Rust stan account now.
+**Horse JS:** [This is a Rust stan account now.](https://twitter.com/horse_js/status/1245376044074401792)
 
 **Jerod Santo:** A Rust stan account? I hadn't heard anything about Rust. What got you interested in Rust, Horse JS?
 
-**Horse JS:** Rust fan boys need to learn.
+**Horse JS:** [Rust fan boys need to learn.](https://twitter.com/horse_js/status/1265452374958772229)
 
 **Nick Nisi:** What should they learn...?
 
-**Horse JS:** I had to learn Java in one day.
+**Horse JS:** [I had to learn Java in one day.](https://twitter.com/horse_js/status/1230939070672625665)
 
 **Divya:** Wow, that sucks. So did you learn anything from that?
 
-**Horse JS:** WebPack is pretty great. Don't @ me. \[laughter\]
+**Horse JS:** [WebPack is pretty great. Don't @ me.](https://twitter.com/horse_js/status/1228398099242115073) \[laughter\]
 
 **Nick Nisi:** Everyone knows that. Tell us something though we don't know.
 
-**Horse JS:** I will clarify that I do not regret using Redux.
+**Horse JS:** [I will clarify that I do not regret using Redux.](https://twitter.com/horse_js/status/1205287769091837954)
 
 **Divya:** Oh, really? How about MobX? I heard that's pretty good.
 
-**Horse JS:** Redux. You're asking for too much. \[laughter\]
+**Horse JS:** [Redux. You're asking for too much.](https://twitter.com/horse_js/status/1293949188095516673) \[laughter\]
 
 **Nick Nisi:** I have to know... What's your reaction to all this TypeScript type?
 
-**Horse JS:** React. It's okay.
+**Horse JS:** [React. It's okay.](https://twitter.com/horse_js/status/1279264003768881152)
 
 **Jerod Santo:** No, he said TypeScript, Horse JS.
 
@@ -442,33 +442,33 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Jerod Santo:** There you go. Well, I guess that's a few frontend things/takes. What about the server side? Do you have anything to say about server-side JS?
 
-**Horse JS:** Most exciting thing about Deno - Node.
+**Horse JS:** [Most exciting thing about Deno - Node.](https://twitter.com/horse_js/status/1261066172650254336)
 
 **Divya:** Oh, really?! Why? \[laughs\]
 
-**Horse JS:** Node.js will be dead in two years, and you shouldn't learn Node at all.
+**Horse JS:** [Node.js will be dead in two years, and you shouldn't learn Node at all.](https://twitter.com/horse_js/status/1261571317465329669)
 
 **Divya:** Wow...
 
 **Jerod Santo:** So, first you say it's the most exciting thing about Deno, then you say it's gonna be dead in two years... You're kind of contradicting yourself quite a bit here, Horse JS.
 
-**Horse JS:** I hate almost all code.
+**Horse JS:** [I hate almost all code.](https://twitter.com/horse_js/status/1262455449938472960)
 
 **Nick Nisi:** Wow, you seem so negative. There's so much hate in your heart. Why?
 
-**Horse JS:** JavaScript, I just want you to know that I've cried.
+**Horse JS:** [JavaScript, I just want you to know that I've cried.](https://twitter.com/horse_js/status/1224472331566886919)
 
 **Divya:** Oh, that's sad... But let's try to make this a little bit more uplifting. I think it took a negative turn. You must have something good to say about JavaScript, right? I mean, you are after all Horse JS.
 
-**Horse JS:** Array reduce( ) is the best. \[laughter\]
+**Horse JS:** [Array reduce( ) is the best.](https://twitter.com/horse_js/status/1213274114993119233?s=20) \[laughter\]
 
 **Jerod Santo:** Okay, that's a start, I guess... You like Array reduce( ), very good. Anything else you can tell us that's good?
 
-**Horse JS:** Name a funnier person in the JS community. Oh, wait...
+**Horse JS:** [Name a funnier person in the JS community. Oh, wait...](https://twitter.com/horse_js/status/1186022908524683264)
 
 **Nick Nisi:** There's a lot of funny people. Maybe not right on this show, but... \[laughter\] There's a lot of funny people. You're kind of full of yourself though, aren't you?
 
-**Horse JS:** Any JavaScript nerds wanna get wrecked?
+**Horse JS:** [Any JavaScript nerds wanna get wrecked?](https://twitter.com/horse_js/status/1212155205489430530?s=20)
 
 **Divya:** Wow... \[laughter\] Okay, Horse JS, I think you can air your grievances on TikTok. Maybe it's time for a new platform. Any final words before we let you go?
 
@@ -480,13 +480,13 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Divya:** He didn't say bye. He just mic-dropped and left. It's so rude. Unacceptable. We're all friends here.
 
-**Horse JS:** Immutability is sometimes. \[laughter\]
+**Horse JS:** [Immutability is sometimes.](https://twitter.com/horse_js/status/1248492585393344512) \[laughter\]
 
 **Divya:** \[unintelligible 00:34:14.25\]
 
 **Outro:** \[00:34:24.29\]
 
-**Divya:** There was a project that I've found recently... It's a project called Metatyping, and he essentially wrote functions and algorithms in TypeScript. So he's just using various TypeScript \[unintelligible 00:35:37.17\] which is insane.
+**Divya:** There was a project that I've found recently... It's a project called Metatyping, and he essentially wrote functions and algorithms in TypeScript. So he's just using various TypeScript hacks. Which is insane.
 
 **Nick Nisi:** I was looking at that. That is amazing.
 
