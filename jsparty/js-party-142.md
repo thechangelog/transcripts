@@ -358,15 +358,15 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Break:** \[00:28:53.03\]
 
-**Horse JS:** [Hello, JavaScript developers. I just want to take a moment...](https://twitter.com/horse_js/status/1210968330456174593)
+**Horse JS:** [Hello JavaScript developers I just want to take a moment](https://twitter.com/horse_js/status/1210968330456174593)
 
 **Jerod Santo:** Wow. Well, thanks so much for joining us. Horse JS, everybody. Horse JS is here... A little birdy actually told me that you're a big fan of JS Party.
 
-**Horse JS:** [I keep wondering about why JavaScript developed this culture.](https://twitter.com/horse_js/status/1265859663469383686)
+**Horse JS:** [keep wondering about why javascript developed this culture](https://twitter.com/horse_js/status/1265859663469383686)
 
 **Nick Nisi:** Hah! We ask ourselves that same thing every day... But I'm curious, what's your favorite episode so far?
 
-**Horse JS:** [What if we only call it JavaScript?](https://twitter.com/horse_js/status/1280680602765836288)
+**Horse JS:** [what if. what if we only call it "javascript"](https://twitter.com/horse_js/status/1280680602765836288)
 
 **Jerod Santo:** Oh, you must be thinking about that episode, 101 -- do you guys remember the Yep/Nope debate on rebranding JavaScript? What if we renamed it...? I don't really remember -- what was the final conclusion of that? Did we decide to keep the name, or...? Do you remember, Divya?
 
@@ -390,13 +390,13 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Nick Nisi:** Horse JS, your voice keeps changing on us... What's going on?
 
-**Horse JS:** [Whatever Google decides is best.](https://twitter.com/horse_js/status/1206788155258671107)
+**Horse JS:** [whatever Google decides is best](https://twitter.com/horse_js/status/1206788155258671107)
 
 **Jerod Santo:** Okay...
 
 **Nick Nisi:** Well, it's kind of hard to listen to, honestly...
 
-**Horse JS:** [I have no time for JavaScript haters.](https://twitter.com/horse_js/status/1195133103406231552)
+**Horse JS:** [I have no time for JavaScript haters](https://twitter.com/horse_js/status/1195133103406231552)
 
 **Divya:** Wow... We're not haters. We're really not. We talk a lot about JavaScript. Didn't you know this whole podcast is called JS Party?
 
@@ -404,27 +404,27 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Divya:** But anyway... What are you doing? What have you been up to?
 
-**Horse JS:** [This is a Rust stan account now.](https://twitter.com/horse_js/status/1245376044074401792)
+**Horse JS:** [this is a Rust stan account now.](https://twitter.com/horse_js/status/1245376044074401792)
 
 **Jerod Santo:** A Rust stan account? I hadn't heard anything about Rust. What got you interested in Rust, Horse JS?
 
-**Horse JS:** [Rust fan boys need to learn.](https://twitter.com/horse_js/status/1265452374958772229)
+**Horse JS:** [Rust fan boys need to learn](https://twitter.com/horse_js/status/1265452374958772229)
 
 **Nick Nisi:** What should they learn...?
 
-**Horse JS:** [I had to learn Java in one day.](https://twitter.com/horse_js/status/1230939070672625665)
+**Horse JS:** [I had to learn Java in one day](https://twitter.com/horse_js/status/1230939070672625665)
 
 **Divya:** Wow, that sucks. So did you learn anything from that?
 
-**Horse JS:** [Webpack is pretty great. Don't @ me.](https://twitter.com/horse_js/status/1228398099242115073) \[laughter\]
+**Horse JS:** [webpack is pretty great. Don't @ me.](https://twitter.com/horse_js/status/1228398099242115073) \[laughter\]
 
 **Nick Nisi:** Everyone knows that. Tell us something though we don't know.
 
-**Horse JS:** [I will clarify that I do not regret using Redux.](https://twitter.com/horse_js/status/1205287769091837954)
+**Horse JS:** [I will clarify that I do not regret using redux](https://twitter.com/horse_js/status/1205287769091837954)
 
 **Divya:** Oh, really? How about MobX? I heard that's pretty good.
 
-**Horse JS:** [Redux. You're asking for too much.](https://twitter.com/horse_js/status/1293949188095516673) \[laughter\]
+**Horse JS:** [Redux, you’re asking for too much.](https://twitter.com/horse_js/status/1293949188095516673) \[laughter\]
 
 **Nick Nisi:** I have to know... What's your reaction to all this TypeScript type?
 
@@ -442,33 +442,33 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Jerod Santo:** There you go. Well, I guess that's a few frontend things/takes. What about the server side? Do you have anything to say about server-side JS?
 
-**Horse JS:** [Most exciting thing about Deno - Node.](https://twitter.com/horse_js/status/1261066172650254336)
+**Horse JS:** [Most exciting thing about Deno? Node](https://twitter.com/horse_js/status/1261066172650254336)
 
 **Divya:** Oh, really?! Why? \[laughs\]
 
-**Horse JS:** [Node.js will be dead in two years, and you shouldn't learn Node at all.](https://twitter.com/horse_js/status/1261571317465329669)
+**Horse JS:** [NodeJS will be dead in 2 years and you shouldn’t learn node at all. 😬](https://twitter.com/horse_js/status/1261571317465329669)
 
 **Divya:** Wow...
 
 **Jerod Santo:** So, first you say it's the most exciting thing about Deno, then you say it's gonna be dead in two years... You're kind of contradicting yourself quite a bit here, Horse JS.
 
-**Horse JS:** [I hate almost all code.](https://twitter.com/horse_js/status/1262455449938472960)
+**Horse JS:** [I hate almost all code](https://twitter.com/horse_js/status/1262455449938472960)
 
 **Nick Nisi:** Wow, you seem so negative. There's so much hate in your heart. Why?
 
-**Horse JS:** [JavaScript, I just want you to know that I've cried.](https://twitter.com/horse_js/status/1224472331566886919)
+**Horse JS:** [JavaScript, I just want you to know that I’ve cried](https://twitter.com/horse_js/status/1224472331566886919)
 
 **Divya:** Oh, that's sad... But let's try to make this a little bit more uplifting. I think it took a negative turn. You must have something good to say about JavaScript, right? I mean, you are after all Horse JS.
 
-**Horse JS:** [Array reduce( ) is the best.](https://twitter.com/horse_js/status/1213274114993119233?s=20) \[laughter\]
+**Horse JS:** [array.reduce is the best](https://twitter.com/horse_js/status/1213274114993119233) \[laughter\]
 
 **Jerod Santo:** Okay, that's a start, I guess... You like Array reduce( ), very good. Anything else you can tell us that's good?
 
-**Horse JS:** [Name a funnier person in the JS community. Oh, wait...](https://twitter.com/horse_js/status/1186022908524683264)
+**Horse JS:** [Name a funnier person in the JS community. I'll wait.](https://twitter.com/horse_js/status/1186022908524683264)
 
 **Nick Nisi:** There's a lot of funny people. Maybe not right on this show, but... \[laughter\] There's a lot of funny people. You're kind of full of yourself though, aren't you?
 
-**Horse JS:** [Any JavaScript nerds wanna get wrecked?](https://twitter.com/horse_js/status/1212155205489430530?s=20)
+**Horse JS:** [Any JavaScript nerds wanna get rekt?](https://twitter.com/horse_js/status/1212155205489430530)
 
 **Divya:** Wow... \[laughter\] Okay, Horse JS, I think you can air your grievances on TikTok. Maybe it's time for a new platform. Any final words before we let you go?
 
@@ -482,7 +482,7 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Horse JS:** [Immutability is sometimes.](https://twitter.com/horse_js/status/1248492585393344512) \[laughter\]
 
-**Divya:** \[unintelligible 00:34:14.25\]
+**Divya:** That's not even a sentence. \[laughter\]
 
 **Outro:** \[00:34:24.29\]
 
@@ -498,4 +498,4 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Nick Nisi:** Yes, yes.
 
-**Horse JS:** [JavaScript, I just want you to know that I've cried.](https://twitter.com/horse_js/status/1224472331566886919)
+**Horse JS:** [JavaScript, I just want you to know that I’ve cried](https://twitter.com/horse_js/status/1224472331566886919)
