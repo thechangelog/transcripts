@@ -66,9 +66,9 @@ So it wound up being a much larger thing of archiving on a sort of week-to-week,
 
 **Jon Evans:** \[unintelligible 00:11:30.09\] So it's nice to have that handy if, for whatever reason, GitHub's IP numbers aren't accessible in your country at that time, that sort of thing. And more generally, it's just useful to have another copy around, so you can go back and refer to that if needed.
 
-**Jerod Santo:** Then there's also GH Archive, which - I think it lives in BigQuery. Is that right? We use it for our Changelog Nightly newsletter, which queries. It's queriable, and it's the events that happen on GitHub, but there's also source code involved in that as well. Is that part of the archive program, or is that a separate project altogether?
+**Jerod Santo:** Then there's also GH Archive, which - I think it lives in BigQuery. Is that right? We use it for our Changelog Nightly newsletter, which queries. It's queryable, and it's the events that happen on GitHub, but there's also source code involved in that as well. Is that part of the archive program, or is that a separate project altogether?
 
-**Jon Evans:** Yeah, they're affiliated with us. They predated the archive program, and we sort of reached out and tried to incorporate them into that. There's them, there's also Software Heritage, who are doing much the same thing... The Internet Archive - except they're trying to get all source code everywhere, and keep it in one single monorepo of their own. They're based in \[unintelligible 00:12:16.27\] in Paris, and they have their own technology and scraping and so forth. So you know, as with all backups, we want multiple copies.
+**Jon Evans:** Yeah, they're affiliated with us. They predated the archive program, and we sort of reached out and tried to incorporate them into that. There's them, there's also Software Heritage, who are doing much the same thing... The Internet Archive - except they're trying to get all source code everywhere, and keep it in one single monorepo of their own. They're based in Inria in Paris, and they have their own technology and scraping and so forth. So you know, as with all backups, we want multiple copies.
 
 **Jerod Santo:** \[00:12:26.05\] Yeah. If it doesn't exist in three places, it doesn't exist, right?
 
@@ -100,9 +100,9 @@ So it wound up being a much larger thing of archiving on a sort of week-to-week,
 
 **Jerod Santo:** We all do, don't we?
 
-**Jon Evans:** Yes, exactly. \[laughter\] I've been doing this on mine, I'm not gonna lie. \[laughs\] So anything with a commit for a full year before the snapshot was also taken. And anything with more than 250 stars, regardless of commit date, was captured. So if there's old stuff that the community thought was important but hadn't been updated in some years, we grabbed that as well, because we figured 250 stars was a pretty significant indicator that somebody thought this was okay.
+**Jon Evans:** Yes, exactly. \[laughter\] I've been known to star mine, I'm not gonna lie. \[laughs\] So anything with a commit for a full year before the snapshot was also taken. And anything with more than 250 stars, regardless of commit date, was captured. So if there's old stuff that the community thought was important but hadn't been updated in some years, we grabbed that as well, because we figured 250 stars was a pretty significant indicator that somebody thought this was okay.
 
-Obviously, this is some level of judgment, because we did have a limited amount of space, but we tried to minimize that to the extent possible, and be as inclusive as we could with that certain criteria.
+Obviously, this has some level of judgment, because we did have a limited amount of space, but we tried to minimize that to the extent possible, and be as inclusive as we could with that certain criteria.
 
 **Jerod Santo:** So let's talk about the space required then of that snapshot. How big was it, in laymen's terms, so we can understand? Terabytes, petabytes, whatever.
 
@@ -194,7 +194,7 @@ Very cool. Adam and I were looking at that, because we started to notice there's
 
 **Jerod Santo:** Oh yes, I have seen the picture of that building. It's very cool. So you can't do any bug fixes though; so you can't go up there, extract your code, fix something real quick... Because that's in history forever. I'm sure I have bugs in there.
 
-**Jon Evans:** \[00:27:48.04\] Oh, I definitely do. I fixed one the other day, and I thought "The stupid little typo is now eternal." \[laughter\] So yeah, one of my personal repos that happened to get captured up there... But I guess that's part of the appeal. Maybe in the future they'll look back and think "In these antiquated days of software development they still had bugs, they didn't have AI to automatically fix them while they were working. How fascinating." You know, maybe something like that.
+**Jon Evans:** \[00:27:48.04\] Oh, I definitely do. I fixed one the other day, and I actually thought "The stupid little typo is now eternal." \[laughter\] So yeah, one of my personal repos that happened to get captured up there... But I guess that's part of the appeal. Maybe in the future they'll look back and think "In these antiquated days of software development they still had bugs, they didn't have AI to automatically fix them while they were working. How fascinating." You know, maybe something like that.
 
 **Jerod Santo:** Or they might think "We don't know who this Jerod Santo fella is, but he was a real idiot. He was a real bad programmer." \[laughter\] Well, speaking of that, I guess, can you opt out? Can you say "Yeah, not for me... This code is public, but I don't want it to be in perpetuity."
 
