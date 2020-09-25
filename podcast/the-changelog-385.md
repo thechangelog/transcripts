@@ -28,7 +28,7 @@
 
 **Adam Stacoviak:** It might be someone in the issues, it might be somebody on Twitter... It might be you. What's some of your background to -- if you're living the dream as an open source developer, leading webpack, what was some of your career history? What did you walk away from to do this?
 
-**Tobias Koppers:** I've studied computer science and worked as a C\# developer, hardware-related stuff... I started webpack as part of a side project to \[unintelligible 00:02:40.17\] so I've only worked for a short period on a real company, and then I open-sourced it.
+**Tobias Koppers:** I've studied computer science and worked as a C\# developer, hardware-related stuff... I started webpack as part of a side project to my Master's Degree so I've only worked for a short period on a real company, and then I open-sourced it.
 
 **Jerod Santo:** It's funny that you say you don't have customers, because if you look on your GitHub repo, webpack has 4.1 million dependent repositories. I mean, to say it's arrived or reached critical mass would be a massive understatement. 53,000 GitHub stars, over 4 million dependent repos on GitHub alone.
 
@@ -70,7 +70,7 @@ I think we had a lot of influence, and I think it's cool to influence what the p
 
 \[00:08:04.04\] My contract ended, and I decided to not continue working at my existing job. It was a risky step, but I tried to work at least a few months from the existing money of the webpack Collective, try to work a few months full-time, to make progress, more and more features, webpack 2 was at this time active... So yeah, I started with the idea of only working a few months, but it took on and we got more funding, so -- I liked working on webpack full-time, so I just continued working on that.
 
-It was a risky step, because at this time we only had money to fund me about a few months (five or six). I wrote about quitting my job, and \[unintelligible 00:08:56.12\] I have a family, and I've got a baby at this time... But I think it was a good idea and a good step to do this, and work full-time on this. I think I've made a lot of progress and brought webpack forward with working more on this.
+It was a risky step, because at this time we only had money to fund me about a few months (five or six). I wrote about quitting my job, and wasting time, I have a family, and I've got a baby at this time... But I think it was a good idea and a good step to do this, and work full-time on this. I think I've made a lot of progress and brought webpack forward with working more on this.
 
 **Adam Stacoviak:** Hearing the behind-the-scenes on that is really interesting, because as you'd said, you have a baby, so you've got a lot of responsibility... And it sounds like you were the first funded person to do webpack full-time, which I'm assuming that since that time you've been fully funded by webpack... And I guess part of me is kind of curious, how do you get paid? Is it once per month? Who cuts the check? How does that work for you all?
 
