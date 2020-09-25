@@ -28,7 +28,7 @@
 
 **Adam Stacoviak:** It might be someone in the issues, it might be somebody on Twitter... It might be you. What's some of your background to -- if you're living the dream as an open source developer, leading webpack, what was some of your career history? What did you walk away from to do this?
 
-**Tobias Koppers:** I've studied computer science and worked as a C\# developer, hardware-related stuff... I started webpack as part of a side project to \[unintelligible 00:02:40.17\] so I've only worked for a short period on a real company, and then I open-sourced it.
+**Tobias Koppers:** I've studied computer science and worked as a C\# developer, hardware-related stuff... I started webpack as part of a side project to my Master's Degree so I've only worked for a short period on a real company, and then I open-sourced it.
 
 **Jerod Santo:** It's funny that you say you don't have customers, because if you look on your GitHub repo, webpack has 4.1 million dependent repositories. I mean, to say it's arrived or reached critical mass would be a massive understatement. 53,000 GitHub stars, over 4 million dependent repos on GitHub alone.
 
