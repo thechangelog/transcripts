@@ -1,5 +1,3 @@
-\[00:01:37.19\]
-
 **Mat Ryer:** Hello, and welcome to Go Time. I'm Mat Ryer. Today we're doing a very special live Q&A episode, because yesterday Jon Calhoun, who is with us today... Hello, Jon.
 
 **Jon Calhoun:** Hey, Mat.
@@ -146,7 +144,7 @@ I've tried to build UIs with Go. I still prefer the TypeScript approach, some th
 
 **Roberto Clapis:** Right. But I also think that it matters how much of your brain you're willing to dedicate to the language, instead of the code that you are writing, instead of the logic that you are writing, and how much you're willing to dedicate to the actual problem that you're trying to solve. Sometimes Go might exceed on the other side, but I like that when I read Go and when I write Go, my brain doesn't invest any energy in "How do I do this in Go?" I know how to do this in Go, and I just do it, which is not true in many other cases... So I like that simplicity and I like that I don't have to focus to write Go on Go, but I can focus on something else.
 
-**Break:** \[00:21:27.21\] to \[00:22:59.02\]
+**Break:** \[00:21:27.21\]
 
 **Mat Ryer:** There's some interesting questions actually around some of the specifics of how we actually do things as well. There's a lot on structuring, which I think we'll come to later, but there's one that I quite like here, which we can discuss, and we may have differing opinions... To constructor or not to constructor. Some languages make heavy use - in fact, sometimes they're compulsory; in order to create a class you have a constructor. In Go you don't really have classes, but you can still have this idea of constructors, where you just sort of have a function, usually pretty fixed with new, to create something, and then it returns the thing, and maybe sometimes an error, if there's some work to do to get that thing. How do we feel about constructors?
 
@@ -418,7 +416,7 @@ But you shouldn't have package-level state, right? In general, you should try to
 
 **Peter Bourgon:** Right. And I hope it's uncontroversial to say, this is a design choice that was made in \[unintelligible 00:50:14.13\] the language, that there would be this global registry and package db, and this would be basically the way to use it. And I hope it's uncontroversial to say that this pattern has not stood the test of time. This is not a good pattern. So to use the global registry and package db you have to do it this way, and that's true, and it's too bad. But if you're writing your own package, do not copy this pattern. This is not the way to do things.
 
-**Break:** \[00:50:50.12\] to \[00:52:05.01\]
+**Break:** \[00:50:50.12\]
 
 **Mat Ryer:** I think probably our final question is gonna be a big, meaty one. We get this a lot, I certainly get this a lot, and it actually turns out to be a very difficult one to answer, but we're gonna do our best... Or your money back; it's free. You get to forget the ads, that's the way we'll refund you; you can forget all about the ads from this podcast. The question is "How do you structure Go code?" This is something that people care a lot about, it's the kind of thing that for beginners is very intimidating.
 
@@ -570,7 +568,7 @@ So it's not just that the language influenced the libraries and the ecosystem, i
 
 Thank you so much to our guests, Peter Bourgon, Roberto Clapis, and Jon Calhoun was also here... And I was here too, obviously. See you next time!
 
-**Break:** \[01:09:51.10\] to \[01:11:42.11\]
+**Outro:** \[01:09:51.10\]
 
 **Jon Calhoun:** So if anyone's wondering why Mat has a team with just one other person, it's probably comments like that... \[laughter\]
 
