@@ -236,7 +236,7 @@ But yeah, you can end up in a yak shave. This whole yak shave on reading a paper
 
 **Adam Stacoviak:** That's right.
 
-**Jerod Santo:** But sometimes you can spike out a thing in a couple hours and get your answer... You have this answer of "Is this feasible? Is this a good idea?", but you don't necessarily have the side effect of "I still don't know how it works. I just know that it worked out in the math." But the napkin math way of going about it - if you don't understand the system's principles, you can't really just grab a napkin and get your numbers. You've gotta go get the knowledge... And maybe that takes two hours and then you \[unintelligible 00:40:34.12\] but you ended up with "Now I understand how search works."
+**Jerod Santo:** But sometimes you can spike out a thing in a couple hours and get your answer... You have this answer of "Is this feasible? Is this a good idea?", but you don't necessarily have the side effect of "I still don't know how it works. I just know that it worked out in the math." But the napkin math way of going about it - if you don't understand the system's principles, you can't really just grab a napkin and get your numbers. You've gotta go get the knowledge... And maybe that takes two hours and then you've got a wash, but you ended up with "Now I understand how search works."
 
 **Simon Eskildsen:** If you can't do the napkin math, it's probably also too early to go and actually implement the system. I call this "programming through the wall", when you just keep writing code, and it's like "Oh, I'm almost there", and then you just write code a little bit harder... When in a lot of cases you just wanna step back and think about the system and learn a little bit more about it.
 
