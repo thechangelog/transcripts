@@ -192,7 +192,7 @@ I'd mentioned at some point I moved to Canada... I moved to Canada as part of my
 
 **Quincy Larson:** It must have been a dramatic transition for you...
 
-**Adam Stacoviak:** Yeah, and then going there... And it's nothing against Canadians, but I felt really -- I don't know how to describe it. I just felt really sad that these people would not buy from me because of where I'm from and because I have an American accent, and I'm not Canadian and I won't say.. I love Canadians, they're amazing... And I was like "Okay, I just can't make ends meet." Long story short, I went there to work for this company, and I just couldn't cut it. So I knew somebody who ran this IT business, which is really where my story of technology and true web and software and stuff became a thing... And networking... Because this business was called IT Weapons. They were IT Weapons... You get it, right? Okay... It was pretty cool.
+**Adam Stacoviak:** Yeah, and then going there... And it's nothing against Canadians, but I felt really -- I don't know how to describe it. I just felt really sad that these people would not buy from me because of where I'm from and because I have an American accent, and I'm not Canadian and don't say "eh"... I love Canadians, they're amazing... And I was like "Okay, I just can't make ends meet." Long story short, I went there to work for this company, and I just couldn't cut it. So I knew somebody who ran this IT business, which is really where my story of technology and true web and software and stuff became a thing... And networking... Because this business was called IT Weapons. They were IT Weapons... You get it, right? Okay... It was pretty cool.
 
 **Jerod Santo:** \[laughs\] Pretty cool.
 
