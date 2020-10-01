@@ -302,7 +302,7 @@ The biggest one that has been confusing and issued bug submissions - really, it'
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** First of all, we think the 30-day trial was kind of a misfire by us, so maybe we should take \[unintelligible 00:33:48.28\] Supercast and blame Adam. Adam, that was your idea.
+**Jerod Santo:** First of all, we think the 30-day trial was kind of a misfire by us, so maybe we should take it off Supercast and blame Adam. Adam, that was your idea.
 
 **Adam Stacoviak:** That was my idea. I'm trying to be generous.
 
@@ -312,7 +312,7 @@ The biggest one that has been confusing and issued bug submissions - really, it'
 
 **Jerod Santo:** Unless it is new stuff, right?
 
-**Adam Stacoviak:** Right. \[unintelligible 00:34:20.23\]
+**Adam Stacoviak:** Right. If they already had a membership..
 
 **Jerod Santo:** Insider content that you've never seen before... Or like Disney+. You want a 30-day trial because there's a bunch of shows that you don't know what they are, and maybe you don't--
 
@@ -438,7 +438,7 @@ However, their importer is not quite smart enough to just ping us every once in 
 
 **Adam Stacoviak:** Yes, yes.
 
-**Jerod Santo:** Anyways... There are your winners. That's one thing we would like to do a lot more of, is these giveaways. I think giving stuff away to our membership is like an awesome, fun thing that we'd love to do more... And we have lots of opportunities at swag, at books, at trials, at discounts, stuff like that... So expect more like this one. If you didn't win, we apologize, but if you won - congratulations. And hopefully, more giveaways will be coming down the pipeline. Let us know how we could best communicate those with y'all, and \[unintelligible 00:45:07.23\] what's coming up next, or look forward to maybe winning a few things just for supporting us, which we appreciate and we'll be happy to do.
+**Jerod Santo:** Anyways... There are your winners. That's one thing we would like to do a lot more of, is these giveaways. I think giving stuff away to our membership is like an awesome, fun thing that we'd love to do more... And we have lots of opportunities at swag, at books, at trials, at discounts, stuff like that... So expect more like this one. If you didn't win, we apologize, but if you won - congratulations. And hopefully, more giveaways will be coming down the pipeline. Let us know how we could best communicate those with y'all, and may already know what's coming up next, or look forward to maybe winning a few things just for supporting us, which we appreciate and we'll be happy to do.
 
 **Adam Stacoviak:** Yeah. I have an idea... Why don't we put together a type form? You asked the question earlier "Do you like the ads?" I think we can ask that question, and maybe "Do you like these giveaways?" and maybe a couple more questions, totally optional, and it's only being told to you listening to this... But in these show notes will be a link to a type form, all questions options, but it will be great feedback for me and Jerod as we begin to make more and more plans to make Changelog++ better, for you and for others. So a couple questions; let us know what you think.
 
