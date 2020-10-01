@@ -36,7 +36,7 @@ Then the next job that I ended up getting was actually officially as a software 
 
 And support engineers, or support technicians, or whatever, even folks supporting customer service - they get that empathy factor... So it's just such a great segue into tech. For me, the whole notion of "software engineer is the only job in tech" is complete BS, because for every software engineer there's n number of peripheral roles that need to support that person's work and output, both on the input side and the output side... Meaning that there's things that are upstream from that person's work, like product people, and user experience researchers, and designers, and this and that... And then there's all this downstream work, with QA, and support, and the release engineering. There's just so many things to do in this industry, and I think Kevin's advice -- or Kball's advice... People are like "Who's Kevin?!" Kball, as you may all know him, not Kevin... Kball's advice is just so spot on. Just get your foot in the door. If you're having trouble that first "engineering" job, here's a dirty little secret I'll tell you - engineering is problem-solving. And product managers and anybody who solves a problem is engineering.
 
-\[00:08:07.05\] It's just engineering through code is a specific way to solve a problem, but the reality is you're always solving problems. If you're \[unintelligible 00:08:14.28\] solving problems in the tech industry, or in a tech role, it's not just limited to software engineers.
+\[00:08:07.05\] It's just engineering through code is a specific way to solve a problem, but the reality is you're always solving problems. If you're interested in solving problems in the tech industry, or in a tech role, it's not just limited to software engineers.
 
 **Nick Nisi:** Yeah, and with that, coming in as like just a straight software engineer, you might be solving a problem that no one has. It's definitely about getting that empathy and understanding the problem, and then coming in. Developer experience is great, but users really don't care about that.
 
@@ -302,7 +302,7 @@ There are times in my career where I do wish that there was a path for me. My br
 
 **Divya:** Oh, cool.
 
-**Kevin Ball:** And I just have a list that has three columns. The first one is Considerations, the second one is Importance, where I have a simple 1-2-3 ranking scale, where one means this is important/good, two means medium; it's valuable, but not crazy important. And three is either it's not important or bad for me. And then I have a third column which is just for \[unintelligible 00:54:44.25\] considerations, like if there's a different way of thinking about it.
+**Kevin Ball:** And I just have a list that has three columns. The first one is Considerations, the second one is Importance, where I have a simple 1-2-3 ranking scale, where one means this is important/good, two means medium; it's valuable, but not crazy important. And three is either it's not important or bad for me. And then I have a third column which is just for type of considerations, like if there's a different way of thinking about it.
 
 And then I start by just throwing down "What are the different aspects of different jobs, or things that I might care about?" So I have Schedule Flexibility, a Sane Work Schedule, Learning and Growth, Team, Salary, Commute, Vacation, Open Source Time and Opportunities, Opportunities for other extras, Writing, Speaking and Teaching Opportunities, Leadership Opportunities, Networking Opportunities, Impact... And don't even think about which ones are the most important, just think about the different characteristics you might care about, throw them down, keep it dynamic, so you can always add things, and then say what's most important to you.
 
@@ -320,7 +320,7 @@ I think Divya, your point about talking to people can help expand your awareness
 
 **Divya:** Yeah.
 
-**Kevin Ball:** And now I kind of wish I'd known that earlier, before I had family and stuff, the \[unintelligible 00:58:01.09\]
+**Kevin Ball:** And now I kind of wish I'd known that earlier, before I had family and stuff that tied me down in other ways.
 
 **Amal Hussein:** \[laughs\] Well... \[singing\] If I could turn back time... Right? If I could find-- alright, I'll stop singing now. And by the way, I don't know what I sound like; not my singing voice. I'm in Vermont, dear listeners, and I didn't bring a travel mic or anything, so I apologize if my sound quality is extra-bad. I apologize.
 
@@ -370,7 +370,7 @@ So I would say "Advice is recycled nostalgia", I think. And I can't take credit 
 
 **Divya:** Yeah, I do. I have the Asian genes.
 
-**Amal Hussein:** \[laughs\] It's okay. I have \[unintelligible 01:01:25.26\]
+**Amal Hussein:** \[laughs\] It's okay. I have the African genes so...
 
 **Divya:** Yeah, I'm told it will be great when I'm 40, or 50. They'll come in handy. Now it just sucks... But it's fine.
 
