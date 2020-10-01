@@ -292,7 +292,7 @@ Tools like JIRA and Slack... I mean, Slack - the fact that you can just interrup
 
 **Mat Ryer:** And especially features like that @here, where you can just -- in a channel you can just write @here and then send a message, and that will alert everyone who happens to be online and in that channel... Which can sometimes be -- I saw one the other day, 85 people were alerted because of this thing. Imagine that. Imagine walking int a room and there's 85 people, and you just go "Here!" and scream it, and everyone has to look at you... And then you say "Has anyone seen that document that I need?" People wouldn't tolerate it, but we tolerate it on Slack, for some reason. So that kind of thing...
 
-**Jerod Santo:** \[00:51:54.14\] Yeah... It's funny you say that, because while we talk, Adam is slacking me right now, and trying to distract me while I'm on this call with you, which is incredibly rude. And then also, \[unintelligible 00:52:03.11\] you're gonna bring up JIRA. Surely, Slack is not the only one to blame here, because -- I mean, the infamous Reply All on email has been going on for, I guess, decades now. I won't name names, but I've had some friends who work at large corporations and will talk about some email chains which would be going out to literally thousands and thousands of people, and be concerning like two or three of them... And it's just insane, the inefficiencies there.
+**Jerod Santo:** \[00:51:54.14\] Yeah... It's funny you say that, because while we talk, Adam is slacking me right now, and trying to distract me while I'm on this call with you, which is incredibly rude. And then also, reminds me of slack you're gonna bring up JIRA. Surely, Slack is not the only one to blame here, because -- I mean, the infamous Reply All on email has been going on for, I guess, decades now. I won't name names, but I've had some friends who work at large corporations and will talk about some email chains which would be going out to literally thousands and thousands of people, and be concerning like two or three of them... And it's just insane, the inefficiencies there.
 
 **Mat Ryer:** I think Gmail hides Reply All now, but you have to kind of dig into the menus to find it. So the default is it would just reply to the one person.
 
@@ -372,7 +372,7 @@ So if we got somebody on Go Time that was better at organizing and planning and 
 
 **Jerod Santo:** I hadn't judged it yet. I was trying to find the Stop button on my recording.
 
-**Mat Ryer:** Okay, well spoiler alert - it does. It's too inauthentic. Let me do \[unintelligible 01:01:25.05\]
+**Mat Ryer:** Okay, well spoiler alert - it does. It's too inauthentic. Let me do it one more time.
 
 **Jerod Santo:** Okay, well we'll just leave this part in, and then everybody will know that you were concerned about it.
 
