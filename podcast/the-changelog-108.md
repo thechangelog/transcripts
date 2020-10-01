@@ -24,7 +24,7 @@
 
 **Adam Stacoviak:** Wow. And from what I understand, you just came here to the U.S. -- you live in Denver, and we kind of mentioned in the intro that you're an instructor, and that's pretty freakin' neat that you're an instructor six years later after learning to program... And Jumpstart is not just anybody, they're really well respected, so... I mean, that's cool!
 
-**Katrina Owen:** Jumpstart is awesome. Jumpstart Lab does amazing Ruby training, Rails training, that sort of thing; some Javascript... They're starting to work on some iOS stuff, and ops code stuff. There's a lot of really interesting things going on with them.
+**Katrina Owen:** Jumpstart is awesome. Jumpstart Lab does amazing Ruby training, Rails training, that sort of thing; some JavaScript... They're starting to work on some iOS stuff, and ops code stuff. There's a lot of really interesting things going on with them.
 
 **Jerod Santo:** So you got out of genetics because you didn't wanna work in a lab...
 
@@ -68,7 +68,7 @@ At first, all I really was gonna do was help them test stuff and write little sc
 
 **Katrina Owen:** Yeah, so one of the things -- I was very frustrated when I was learning how to program, because everything seemed so arbitrary, or confusing... Everything would explain it as though I knew all the things. The blog posts would be making assumptions about what I knew, or the readmes would be making assumptions about what I knew, and often I was just confused and frustrated.
 
-A lot of the things -- when you're picking up programming without any formal background, at least six years ago there was very little guidance on doing well, like choosing good names, or structuring your code in a good way, or writing unit tests and proving that your code was behaving the way that you expected it to behave... It was all very, like, copy stuff from Javascript websites or PHP websites and kind of mess with it until it works.
+A lot of the things -- when you're picking up programming without any formal background, at least six years ago there was very little guidance on doing well, like choosing good names, or structuring your code in a good way, or writing unit tests and proving that your code was behaving the way that you expected it to behave... It was all very, like, copy stuff from JavaScript websites or PHP websites and kind of mess with it until it works.
 
 I found that to be very frustrating and I got kind of obsessed with the whole XP thing. I read everything I could find about XP and pair programming, and TDD, and all of those things, and tried to figure out how to make that work in my environment at work.
 
@@ -230,9 +230,9 @@ I was like, "I really like these names because - this, that and the other. I lov
 
 **Jerod Santo:** I think we can talk about that a little bit, but first, which languages have exercises? Is it just Ruby, or are there other languages supported?
 
-**Katrina Owen:** It started off as just Ruby, because I was writing it mainly just to give it to my students here in Denver... And then one of my colleagues started porting the exercises to Javascript. Then once I had launched it, someone probably in the second week was like "We need Elixir and Clojure", so they ported it to Elixir and Clojure. Then someone else said "Why don't we have Python?" and I was like "Because I don't know how to write Python, but you're totally welcome to..." \[laughs\]
+**Katrina Owen:** It started off as just Ruby, because I was writing it mainly just to give it to my students here in Denver... And then one of my colleagues started porting the exercises to JavaScript. Then once I had launched it, someone probably in the second week was like "We need Elixir and Clojure", so they ported it to Elixir and Clojure. Then someone else said "Why don't we have Python?" and I was like "Because I don't know how to write Python, but you're totally welcome to..." \[laughs\]
 
-I think now we have Clojure, Elixir, Ruby, Javascript, Python and Haskell, and somebody is porting it to Rust, and I'm working on the Go exercises. And somebody is working on CoffeeScript... A couple days ago someone said they'd start working on Scala, and then I heard someone say Objective-C, but that's gonna take a little bit more -- there's a little bit more ceremony involved in getting that running.
+I think now we have Clojure, Elixir, Ruby, JavaScript, Python and Haskell, and somebody is porting it to Rust, and I'm working on the Go exercises. And somebody is working on CoffeeScript... A couple days ago someone said they'd start working on Scala, and then I heard someone say Objective-C, but that's gonna take a little bit more -- there's a little bit more ceremony involved in getting that running.
 
 **Jerod Santo:** So you're gonna start writing the Go version, and your command line is in Go - is this a newfound love for you, a new language?
 

@@ -82,7 +82,7 @@ I'm curious -- you coined the MEAN stack phrase... What was that - Mongo, Expres
 
 **Jerod Santo:** Okay. There you go.
 
-**Valeri Karpov:** \[00:11:46.01\] So by virtue of that, Automattic took over the IP rights to Mongoose. So they still own the Mongoosejs.com domain name, they still have the repo underneath their org... However, I have not had much interaction with Automattic. There was one brief time when they accidentally took down the docs, because they were migrating it to HTTPS, so I had to find -- the person who pushed the commit was one of their sysadmins at Automattic, so I ended up finding him on Twitter and just angrily tweeting at him, like "Hey \[unintelligible 00:12:18.26\] I don't know what's going on with my docs site."
+**Valeri Karpov:** \[00:11:46.01\] So by virtue of that, Automattic took over the IP rights to Mongoose. So they still own the Mongoosejs.com domain name, they still have the repo underneath their org... However, I have not had much interaction with Automattic. There was one brief time when they accidentally took down the docs, because they were migrating it to HTTPS, so I had to find -- the person who pushed the commit was one of their sysadmins at Automattic, so I ended up finding him on Twitter and just angrily tweeting at him, like "Hey can you please reach out to me, I don't know what's going on with my docs site."
 
 **Jerod Santo:** Wow... That's funny. Interesting that there's all these goings-on around the property and the domain name and all this... But on your day-to-day, in your life, Val, it hasn't really affected you too much, besides that one terrible day, and then Twitter to the rescue, at least, in terms of reaching out and getting to the right person.
 
@@ -148,7 +148,7 @@ Have you ever thought about hanging it up, or passing the torch? Tweeting out, j
 
 **Jerod Santo:** \[00:19:56.01\] Yeah, for sure. We had a whole episode on it. Dominic didn't feel bad, so I don't think you offend him, but... Definitely a thing that can happen. So you haven't really thought too much about hanging it up... What's your greatest challenge with this stuff? Is it time, is it knowing what to do next, dealing with humans?
 
-**Valeri Karpov:** \[laughs\] A little bit of both. The hardest challenge -- there's no one challenge that's particularly overwhelming, but you know, some day-to-day challenges... Let's see. Software always changes, and even though Mongoose itself has gone through -- I don't think I have really changed the fundamental ideas of Mongoose, or the fundamental concepts; they more or less stayed the same. But the Javascript community around it has just evolved so much that now I have to be thinking about TypeScript, I have to be debugging bugs that only happen in Jest, because Jest is a weird Javascript runtime, not a testing framework.
+**Valeri Karpov:** \[laughs\] A little bit of both. The hardest challenge -- there's no one challenge that's particularly overwhelming, but you know, some day-to-day challenges... Let's see. Software always changes, and even though Mongoose itself has gone through -- I don't think I have really changed the fundamental ideas of Mongoose, or the fundamental concepts; they more or less stayed the same. But the JavaScript community around it has just evolved so much that now I have to be thinking about TypeScript, I have to be debugging bugs that only happen in Jest, because Jest is a weird JavaScript runtime, not a testing framework.
 
 There's always issues that pop up with people now that Docker is more of a thing. There's always weird things that pop up like "Hey, I'm writing MongoDB in Docker here, and how do I get my DNS to work properly?" There's always new little things that come up like that, always strange little surprises. Serverless has been another interesting challenge for Mongoose as well...
 
@@ -172,7 +172,7 @@ I have a former colleague who's working on YugaByte DB, or something like that..
 
 **Jerod Santo:** Gotcha.
 
-**Valeri Karpov:** I'm not really sure what that one is. But with that one, I'm like "Hey, let me try this out." "Must have Python 2.7 installed. Nope." Done. I'm out. \[laughter\] Because I'm like "Okay, I went through all this effort to set up Python 3 for a work project I am working on, and now all of a sudden it's like "Oh, I have to set up a virtual \[unintelligible 00:23:16.01\] so I need to run Python 2.7, so I can just try this database." It's too much effort to just try one thing.
+**Valeri Karpov:** I'm not really sure what that one is. But with that one, I'm like "Hey, let me try this out." "Must have Python 2.7 installed. Nope." Done. I'm out. \[laughter\] Because I'm like "Okay, I went through all this effort to set up Python 3 for a work project I am working on, and now all of a sudden it's like "Oh, I have to set up a virtual env so I need to run Python 2.7, so I can just try this database." It's too much effort to just try one thing.
 
 I've been looking forward to playing with Atomic, and I did back when it was something that you could run locally... And they have a lot of really cool ideas with Atomic, but the basic DX isn't quite there, because you have to point it at AWS. There's a whole long setup where you need to go through and be like "Okay, go into AWS, set up this IAM user, set up this particular thing, install this thing from the Amazon Marketplace, and now you can finally try Atomic." I'm like, "That's too much effort."
 
@@ -188,7 +188,7 @@ For me it was just like "I just don't wanna learn to maintain something else, wh
 
 **Jerod Santo:** You know how, yeah.
 
-**Valeri Karpov:** Yeah. I am used to it, I understand the tooling around it... Mongo has made it a lot easier with their Atlas solution, which is MongoDB as a service in the cloud; you just \[unintelligible 00:25:28.25\] and all of a sudden you have a production MongoDB instance, with monitoring and backup baked in.
+**Valeri Karpov:** Yeah. I am used to it, I understand the tooling around it... Mongo has made it a lot easier with their Atlas solution, which is MongoDB as a service in the cloud; you just click in a web UI and all of a sudden you have a production MongoDB instance, with monitoring and backup baked in.
 
 **Jerod Santo:** Nice.
 
@@ -196,7 +196,7 @@ For me it was just like "I just don't wanna learn to maintain something else, wh
 
 **Jerod Santo:** Oh, really? Just right before then.
 
-**Valeri Karpov:** Yeah, exactly. \[unintelligible 00:26:00.28\] but you can pretty accurately get what was the database like at this particular minute of the day, which is pretty amazing.
+**Valeri Karpov:** Yeah, exactly. Much a lot like you know what ever clock skew minor time inconsistencies, but you can pretty accurately get what was the database like at this particular minute of the day, which is pretty amazing.
 
 **Jerod Santo:** I talk to a lot of maintainers, and you're going strong here, five years in, and it doesn't seem like you have signs of burnout; you've got a GitHub streak going. You're ready to maintain this seemingly into the future, unless you fall out of love with MongoDB, which probably won't happen in this case... Or if Automattic kicks you out of the project, which also probably won't happen. At this case, do you have any advice, tips, tricks, things that make your life as a maintainer easier, that you've learned over the years, that you could share with us, maybe people who are struggling a little bit more? And maybe you are struggling, you just put on a good face about it, but what do you have for me in terms of ways that you go about doing what you do?
 
@@ -224,13 +224,13 @@ And now what happens if you have an old version of Connect Mongo that's using an
 
 **Jerod Santo:** So is that something that you've found out on your own, or did your users dutifully tell you about it when the bugs started hitting?
 
-**Valeri Karpov:** No, these are just issues that sometimes pop up. They come up every once in a while, where someone is getting a warning message, and it's like "Wait a minute, where is this warning coming from?" "Because you're using this version of Mongoose. So why don't you just give me your Npm \[unintelligible 00:31:00.13\] and then we can see where that might be coming from?"
+**Valeri Karpov:** No, these are just issues that sometimes pop up. They come up every once in a while, where someone is getting a warning message, and it's like "Wait a minute, where is this warning coming from?" "Because you're using this version of Mongoose. So why don't you just give me your 'npm list | grep mongo' and then we can see where that might be coming from?"
 
-**Jerod Santo:** One thing you mentioned earlier and I was gonna follow up on it and I forgot to, but I'm remembering now - you said "I've been considering TypeScript stuff. As things change around me...", as the ecosystem moves more so than Mongoose moves, you have to consider new things. I was looking at the stats, and 99.3% Javascript, only 0.7% other, which is probably just the markdown files, or...
+**Jerod Santo:** One thing you mentioned earlier and I was gonna follow up on it and I forgot to, but I'm remembering now - you said "I've been considering TypeScript stuff. As things change around me...", as the ecosystem moves more so than Mongoose moves, you have to consider new things. I was looking at the stats, and 99.3% JavaScript, only 0.7% other, which is probably just the markdown files, or...
 
 **Valeri Karpov:** Yeah, markdown, CSS...
 
-**Jerod Santo:** Yeah, exactly. So this is a pure Javascript thing, and it has been, probably the entire time... What are your thoughts around TypeScript? Is that something that you're considering using, or trying, or...? What are your thoughts there?
+**Jerod Santo:** Yeah, exactly. So this is a pure JavaScript thing, and it has been, probably the entire time... What are your thoughts around TypeScript? Is that something that you're considering using, or trying, or...? What are your thoughts there?
 
 **Valeri Karpov:** I've been tempted to try playing with TypeScript, but it's something that I haven't really found a use for yet. Mongoose would be one project where I would either be interested in someday supporting official TypeScript bindings, or maybe even porting parts of the project to TypeScript. But Mongoose is a very different project than most other projects.
 
@@ -260,7 +260,7 @@ Let's see here... I do love ESLint. It took me a while to warm up to it, because
 
 **Valeri Karpov:** What I wanted to say about ESLint is that for a while I just didn't think I could get too much value out of it, and it seemed pretty overwhelming to lint the entire Mongoose codebase, because the style was a little inconsistent when I first started... But once I got past that initial hurdle, ESLint has been quite great; it helped me catch quite a few bugs. And there's a pretty surprising amount of cool things you can bake into ESLint.
 
-\[00:36:13.19\] The serve module on Npm - that one is also a pretty important module in my workflow. It's more of a command line tool for spinning up a web server, so just \[unintelligible 00:36:25.28\] gives you a web server that just serves up the current directory over HTTP. That one is pretty amazing for testing doc sites, and I've been looking to migrate Mongoose over to using it... But most of my other stuff already uses serve. Serve is great.
+\[00:36:13.19\] The serve module on Npm - that one is also a pretty important module in my workflow. It's more of a command line tool for spinning up a web server, so just 'serve .' gives you a web server that just serves up the current directory over HTTP. That one is pretty amazing for testing doc sites, and I've been looking to migrate Mongoose over to using it... But most of my other stuff already uses serve. Serve is great.
 
 Another reason why I really like it is it has really great developer experience baked in... Little things like when you run serve. it automatically puts the URL to your clipboard, so you can just go to the browser, Ctrl+V and all of a sudden you're looking at your directory.
 
@@ -284,11 +284,11 @@ Another interesting little bit of back-story - I interned at Google back in the 
 
 \[00:39:31.00\] Another guy who used to be on the Angular team, Vojta Jina... He originally wrote Karma. Karma is one of those tools that I really thought was \[unintelligible 00:39:39.21\] Karma was actually Vojta's Masters thesis project. He wrote a thesis about it, and then implemented it as an open source project. It actually got great adoption, as well... So it was really great to see that whole process that he went through to make that happen. I'm not actually sure where he is right now. Last I talked to him he joined Apple for a while. I don't know what he's doing now. But yeah, his Karma was a pretty amazing tool at the time, really ground-breaking.
 
-**Jerod Santo:** Cool, Val. Well, last thing I wanna ask you is if you have a call-to-action or if you have anything in particular with regard to Mongoose...? Or I know you have some eBooks in the Javascript space that you'd like to have the community rally around you, support you, help you, get involved with anything? What would you say to the open source community out there with regard to you and the projects that you're maintaining?
+**Jerod Santo:** Cool, Val. Well, last thing I wanna ask you is if you have a call-to-action or if you have anything in particular with regard to Mongoose...? Or I know you have some eBooks in the JavaScript space that you'd like to have the community rally around you, support you, help you, get involved with anything? What would you say to the open source community out there with regard to you and the projects that you're maintaining?
 
 **Valeri Karpov:** Yeah, check out my eBooks. I have an eBook on generators, and more recently an eBook on Async/Await. Just look up "Mastering Async/Await." The website is asyncawait.net. I've put that out about last June, and just kind of like distilling all the patterns that I've learned from using Async/Await, and before that co and generators over the last several years.
 
-I think Async/Await will kill or change the way we think about Javascript, and Javascript frameworks in particular. A lot of Javascript frameworks, especially ones that predate 2015, one of their core tenants was to minimize the amount that you had to use callbacks. Now that we don't really need to use callbacks, Javascript is gonna have to evolve, and I think Mastering Async/Await helps you see how Javascript is going to evolve in response to Async/Await.
+I think Async/Await will kill or change the way we think about JavaScript, and JavaScript frameworks in particular. A lot of JavaScript frameworks, especially ones that predate 2015, one of their core tenants was to minimize the amount that you had to use callbacks. Now that we don't really need to use callbacks, JavaScript is gonna have to evolve, and I think Mastering Async/Await helps you see how JavaScript is going to evolve in response to Async/Await.
 
 **Jerod Santo:** Awesome, Val. Thanks so much for coming on, thanks for all the work you do, and I'll just encourage you to keep up the great work and keep that GitHub streak going, man. It's long enough now, you can't stop. Keep it going!
 

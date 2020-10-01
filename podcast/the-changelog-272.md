@@ -20,9 +20,9 @@ It was also about this time that I saw a talk by Christopher Joseph, who was wor
 
 **Jerod Santo:** Wow.
 
-**Adam Morse:** This just melted my brain, so I asked him out for coffee, and he sat and chatted with me and illuminated me on all these different ways you could test CSS performance. So I got set up with Telemetry, which was inside the Chromium build. It's just this testing suite where you can test a wide variety of Javascript and CSS things.
+**Adam Morse:** This just melted my brain, so I asked him out for coffee, and he sat and chatted with me and illuminated me on all these different ways you could test CSS performance. So I got set up with Telemetry, which was inside the Chromium build. It's just this testing suite where you can test a wide variety of JavaScript and CSS things.
 
-Javascript at the time was not of my wheelset or interest, but I was interested in learning more things about CSS performance. So I set out to write the mic drop blog post on why object oriented CSS was awful, and I just came up with all these code examples and they just painted faster than my examples that I thought were optimized for how CSS should be written.
+JavaScript at the time was not of my wheelset or interest, but I was interested in learning more things about CSS performance. So I set out to write the mic drop blog post on why object oriented CSS was awful, and I just came up with all these code examples and they just painted faster than my examples that I thought were optimized for how CSS should be written.
 
 **Adam Stacoviak:** Wow. So in the process of writing this blog post against something, that something changed your mind...
 
@@ -64,7 +64,7 @@ When that's not a reality, that's when you take a look at "Okay, what's tripping
 
 If you're a listener out there and you know what I'm talking about, send us a link or remind us what we read out there, because it was very interesting, and I know kind of wish I had it right here right now to put it in the show notes... And I don't, I'm sorry, but that's what it is. What do you know about that, Adam? Does that ring a bell for you, do you know what we're talking about?
 
-**Adam Morse:** That doesn't ring a bell for me in terms of something I've read recently, but the trend is definitely there. I think the other part of these things is that the way Javascript is working now, there are a lot of frameworks where even using something like Tachyons, you can still localize the component level, and it'll manipulate the class names and hash them out so that there are no collisions, and only inject the CSS that you're using.
+**Adam Morse:** That doesn't ring a bell for me in terms of something I've read recently, but the trend is definitely there. I think the other part of these things is that the way JavaScript is working now, there are a lot of frameworks where even using something like Tachyons, you can still localize the component level, and it'll manipulate the class names and hash them out so that there are no collisions, and only inject the CSS that you're using.
 
 So there's so many different options, even regardless of how your actual CSS architecture is, of how that gets included and encapsulated into a component.
 
@@ -84,11 +84,11 @@ I know that Credit Karma was one of the first larger companies to use it in term
 
 **Jerod Santo:** Let's talk about Tachyons, where it fits into the landscape, so some people can have a frame of reference with regards to what it is as a thing. We've mentioned it's a framework, a tool for doing this style of building components on the web... People may be familiar with a Bootstrap or a Foundation or maybe a Semantic UI; does Tachyons fit into that category of a framework, or is it working at a different level than those?
 
-**Adam Morse:** I don't know. I think those are definitely more complex in regards to they offer a Javascript layer, and kind of interactivity of the components that Tachyons does not have, but I also know that some people just use the CSS of Bootstrap and none of the Javascript, and just use the visual styles.
+**Adam Morse:** I don't know. I think those are definitely more complex in regards to they offer a JavaScript layer, and kind of interactivity of the components that Tachyons does not have, but I also know that some people just use the CSS of Bootstrap and none of the JavaScript, and just use the visual styles.
 
 I think that they're similar, but definitely different. I think Tachyons is a little less out of the box in regards to having fully-baked components as a part of the CSS, but that was my long-term vision with creating the component library that's a part of the website... Kind of creating that in a different model. So it's not maybe out of the box in regards to you have components in the same way of just attaching the classes. I guess it's the same, but to me it was just like I wanted to give people the ability to cut and paste HTML examples or maybe React components or Vue components and be able to use those and just have a composition of Tachyons classes already put together.
 
-**Jerod Santo:** \[00:20:03.17\] Surely there are drawbacks or downsides on any argumentation around how you should be doing things on the web, especially with CSS probably, well also with Javascript, well anything that goes on in the web; I was trying to limit that, but probably all things are debatable online.
+**Jerod Santo:** \[00:20:03.17\] Surely there are drawbacks or downsides on any argumentation around how you should be doing things on the web, especially with CSS probably, well also with JavaScript, well anything that goes on in the web; I was trying to limit that, but probably all things are debatable online.
 
 There are probably people that say "This is not the right way to do it. This is worse than the object oriented style." I'm not very familiar with OOCSS, but it sounds like it would be kind of like this, where everything's componentized. Then there's also BEM, and then there's (the traditional) what I usually do, which is like just start throwing styles out there until it looks okay, and then hope you never have to edit it again...
 
@@ -179,7 +179,7 @@ I'd have to say a number of them were people that I really look up to. I don't k
 
 \[00:38:05.04\] Like I said, there's a speed that they can get to; they just don't have to think about a bunch of stuff and they don't have to type out a bunch of stuff they already know they need.
 
-**Jerod Santo:** One of the other things you mentioned is that when you first started doing it people would have this guttural reaction against the style of CSS, and that started to change. Like Adam said, the trend has been moving more towards the style... I think we're seeing the benefits, especially as many of us still doing the traditional style CSS are pulling hairs out of different areas and trying to maintain sites that have existed for a very long time. It seems like some of that shift has been around the kind of React-ification of web development, with a focus on components with the moving of the CSS - or at least class things even into Javascript... We have a CSS in Javascript now, so it seems like the whole developer ecosystem is more open to kind of like taking our sacred cows out, behind the barn and killing them in order to find a better way; we're not holding on to what we used to consider the best practice.
+**Jerod Santo:** One of the other things you mentioned is that when you first started doing it people would have this guttural reaction against the style of CSS, and that started to change. Like Adam said, the trend has been moving more towards the style... I think we're seeing the benefits, especially as many of us still doing the traditional style CSS are pulling hairs out of different areas and trying to maintain sites that have existed for a very long time. It seems like some of that shift has been around the kind of React-ification of web development, with a focus on components with the moving of the CSS - or at least class things even into JavaScript... We have a CSS in JavaScript now, so it seems like the whole developer ecosystem is more open to kind of like taking our sacred cows out, behind the barn and killing them in order to find a better way; we're not holding on to what we used to consider the best practice.
 
 **Adam Stacoviak:** We're not advocating killing cows here, by the way.
 
@@ -187,7 +187,7 @@ I'd have to say a number of them were people that I really look up to. I don't k
 
 **Adam Stacoviak:** Unless you eat hamburger of course, but otherwise...
 
-**Jerod Santo:** Right. A lot of disclaimers on this episode. \[laughter\] Speak to React - how Tachyon fits in... One of the things you have here, in addition to the gallery of people using it, is you have this component library, which you're like "Off the shelf, grab the HTML, and you can just drop it in and use it." It seems like that would fit very well into building out a component with React, or a similar style Javascript tool, so... Speak to that.
+**Jerod Santo:** Right. A lot of disclaimers on this episode. \[laughter\] Speak to React - how Tachyon fits in... One of the things you have here, in addition to the gallery of people using it, is you have this component library, which you're like "Off the shelf, grab the HTML, and you can just drop it in and use it." It seems like that would fit very well into building out a component with React, or a similar style JavaScript tool, so... Speak to that.
 
 **Adam Morse:** My long-term vision there was like - most developers I know, if they have the discrete HTML and CSS they need to render, can port that to whatever templating language they're building, but that's often times the difficult part for them.
 
@@ -220,7 +220,7 @@ That to me is pretty wild, that the beginning of it though however was about per
 
 **Adam Morse:** Right, and what I learned is Nicole Sullivan is a genius, and I've never seen her be wrong. Yeah, I was also using CSSLint at the time, and it was yelling at me about some things and I was like "Is this true? Did somebody just make up these rules?" and testing multiple different frameworks and it was like "Nope, these rules are all definitely accurate." She has basically just been a constant voice of reason at the beginning of my career, as I was learning about CSS.
 
-**Adam Stacoviak:** \[00:46:20.22\] Yeah. I wanna put my designer hat on for a second, because that's where I began, as anything on the web. That was my forefront, on the front-end side, but primarily HTML, CSS... Not really much Javascript, but really the designer, the user experience person, and so I look at things like these components, collections and stuff like that and I think "Okay, how can I, as a designer, work with a team that plans to and wants to use Tachyons - or even its principles - and design around its constraints, essentially?" So how can I take the various collections that are there, but then also the ones that we can even dream of or build, and help my team make really awesome-looking stuff, and all they've gotta do is essentially either generate them or use the right classes, with the right numbers, and all those different things to essentially assemble this beautiful page?
+**Adam Stacoviak:** \[00:46:20.22\] Yeah. I wanna put my designer hat on for a second, because that's where I began, as anything on the web. That was my forefront, on the front-end side, but primarily HTML, CSS... Not really much JavaScript, but really the designer, the user experience person, and so I look at things like these components, collections and stuff like that and I think "Okay, how can I, as a designer, work with a team that plans to and wants to use Tachyons - or even its principles - and design around its constraints, essentially?" So how can I take the various collections that are there, but then also the ones that we can even dream of or build, and help my team make really awesome-looking stuff, and all they've gotta do is essentially either generate them or use the right classes, with the right numbers, and all those different things to essentially assemble this beautiful page?
 
 The collections that you've got here - this is a particular component we're talking about - there's six different examples, all very similar code (or the same code) and very much different user interactions.
 
@@ -248,9 +248,9 @@ Some designers just feel really comfortable hopping into the code, they actually
 
 **Jerod Santo:** One thing you mentioned, Adam, was Compositor, but we haven't quite defined what that is for the listeners. Can you tell us about Compositor and Compositor Lab that you've been working on?
 
-**Adam Morse:** Yeah. Compositor started when Jackson and I, and this guy John Otander worked on CSS stats together. Jackson and I had launched a web app and we knew nothing about tech ops or dev ops, we knew nothing about servers, Jackson barely knew anything about Javascript at the time, and this guy comes along and just starts refactoring all of our horrible code right away and making our website way more stable.
+**Adam Morse:** Yeah. Compositor started when Jackson and I, and this guy John Otander worked on CSS stats together. Jackson and I had launched a web app and we knew nothing about tech ops or dev ops, we knew nothing about servers, Jackson barely knew anything about JavaScript at the time, and this guy comes along and just starts refactoring all of our horrible code right away and making our website way more stable.
 
-After I think the 10th amazing pull request in a two-day or three-day spin, I was like "Hey, do you wanna just own this project with us?" Then we all kind of got in a chat room, and... Yeah, every now and then we would do these sprints on CSS stats, and chat, and then sometimes we'd go dark for a few months. But then I started working on Tachyons a lot more and I was stumbling on trying to get certain things done with Javascript in terms of like dynamic build things... So I asked John for help, and he started helping me out.
+After I think the 10th amazing pull request in a two-day or three-day spin, I was like "Hey, do you wanna just own this project with us?" Then we all kind of got in a chat room, and... Yeah, every now and then we would do these sprints on CSS stats, and chat, and then sometimes we'd go dark for a few months. But then I started working on Tachyons a lot more and I was stumbling on trying to get certain things done with JavaScript in terms of like dynamic build things... So I asked John for help, and he started helping me out.
 
 Jackson at the time was building lots of open source tools, everything from lots of different color tools, to his rebase library of stateless React components. So the three of us were all kind of still in the same chat room, and John and I worked together, and Jackson and I worked together professionally, but not a lot on dedicated open source projects...
 
@@ -265,7 +265,7 @@ I think Jackson and I have been together for five companies now. Most companies,
 
 Our first product is Lab, and that's basically a tool where you can build React components from scratch, you can build the design system, and set scales for typography, for spacing, for color pallet... And then, as you're building out components, you can compose them together. And in your React app, we have a command line interface, and we'll also be releasing a separate app for this, but you can tweak values in your design system or edit things about your component and see them editing in real-time. You can drag sliders on border radius so you can change colors, and it's -- yeah, it'd be like if you could edit sketch symbols and see that update at the same time and not have to switch between artboards. That's always been my dream - to be able to edit things about a system and then see them propagate everywhere and know what's gonna render, and not have it be unpredictable.
 
-I'm really excited about Lab, because I am not good at Javascript or React, so it's helped me speed up my ability to build components and reason through that abstraction.
+I'm really excited about Lab, because I am not good at JavaScript or React, so it's helped me speed up my ability to build components and reason through that abstraction.
 
 **Jerod Santo:** I always love to hear how open source hackers are trying to keep doing open source. So many avenues, so many of those end in failure, so hopefully Compositor is a success.
 
@@ -337,7 +337,7 @@ So we have big plans for that down the road, and we're basically working on all 
 
 **Adam Stacoviak:** Nice.
 
-**Adam Morse:** Like I said, we just wanted to make something where we could start to get some user testing and then learn some things about building the type of generative design tools we wanted to with Javascript. So yeah, we definitely wanna keep that free for the open source community, and like I said, we've been a little stagnant on updating it for a little while, but we've got a huge long-term vision to make that a really robust thing.
+**Adam Morse:** Like I said, we just wanted to make something where we could start to get some user testing and then learn some things about building the type of generative design tools we wanted to with JavaScript. So yeah, we definitely wanna keep that free for the open source community, and like I said, we've been a little stagnant on updating it for a little while, but we've got a huge long-term vision to make that a really robust thing.
 
 **Adam Stacoviak:** It's a smart strategy too for listeners too to earmark in the fact that you released something as part of this growing, budding company that has much deeper plans and much long-term plans to put something out there as a way to get QA basically, to get quality assurance or to get beta testers, so to speak, to see how the things you're building can be used or are being used so you can learn. It's a pretty smart strategy.
 

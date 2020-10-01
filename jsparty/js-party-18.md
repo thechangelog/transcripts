@@ -1,4 +1,4 @@
-**Mikeal Rogers:** Welcome to JS party, where it's a party every week with Javascript. I'm Mikeal Rogers.
+**Mikeal Rogers:** Welcome to JS party, where it's a party every week with JavaScript. I'm Mikeal Rogers.
 
 **Alex Sexton:** I'm Alex Sexton.
 
@@ -40,7 +40,7 @@ I'm glad that the Foundation is talking about China a bit more. I tried to talk 
 
 **Mikeal Rogers:** Yeah, so these are all just checkboxes, right? What you really wanna know is how many people checked the front-end box and not the full stack or back-end box. How many people only checked the front-end box? That's the one we wanna know, right?
 
-**Alex Sexton:** No, I don't need -- like, I'm a full stack developer, but I don't write Node servers at my job, like I do for fun, or whatever. But at my job, Stripe is a Ruby stack for the most part, so I mostly write Ruby if I'm writing back-end. So I would consider myself a full stack developer, but my day-to-day is writing Javascript that either runs in Node as a build step, or Javascript that runs in the browser.
+**Alex Sexton:** No, I don't need -- like, I'm a full stack developer, but I don't write Node servers at my job, like I do for fun, or whatever. But at my job, Stripe is a Ruby stack for the most part, so I mostly write Ruby if I'm writing back-end. So I would consider myself a full stack developer, but my day-to-day is writing JavaScript that either runs in Node as a build step, or JavaScript that runs in the browser.
 
 **Mikeal Rogers:** Well, it looks like this question was posed in the context of using Node.js, not in the context of like "What kind of developer are you?"
 
@@ -54,7 +54,7 @@ I'm glad that the Foundation is talking about China a bit more. I tried to talk 
 
 **Paul Frazee:** What would you think it means if I just say I use Node.js for my front-end?
 
-**Mikeal Rogers:** I like the desktop application, mobile and IoT stuff was on here too, because it makes front-end really mean Javascript front-end. If your front-end is an Electron app, you're gonna click the desktop application box... So that's great.
+**Mikeal Rogers:** I like the desktop application, mobile and IoT stuff was on here too, because it makes front-end really mean JavaScript front-end. If your front-end is an Electron app, you're gonna click the desktop application box... So that's great.
 
 **Alex Sexton:** \[00:07:55.19\] Mikeal, I know you used to have numbers on downloads, but it still feels like based on what gets downloaded from NPM, that over 50% of all use of NPM is for building front-end tooling, right?
 
@@ -66,7 +66,7 @@ But Babel gets pulled in by other toolchains, Webpack gets pulled in by other to
 
 A good example of this is like -- Request is depended on quite a bit, and it's depended on directly quite a bit, but there are small dependencies of Request, because it's broken into a bunch of modules, and those modules are depended on by almost nobody but Request, and they have astronomical download numbers.
 
-**Alex Sexton:** If you look at the top 10 Javascript libraries that are distributed across the Alexa top one million, Yepnope is like number 12 or 8 or something like that; it's extremely high up there, and virtually no one put on their page, but Modernizr put it into Modernizr, and now it's one of the top scripts ever distributed on the internet... But I just leave that other part out whenever I tell people that I wrote it.
+**Alex Sexton:** If you look at the top 10 JavaScript libraries that are distributed across the Alexa top one million, Yepnope is like number 12 or 8 or something like that; it's extremely high up there, and virtually no one put on their page, but Modernizr put it into Modernizr, and now it's one of the top scripts ever distributed on the internet... But I just leave that other part out whenever I tell people that I wrote it.
 
 **Mikeal Rogers:** \[laughs\] Exactly. That's why I think that -- when you're trying to quantify people, download metrics are a really problematic metric to look at.
 
@@ -288,9 +288,9 @@ It's similar to a federation, with the idea that one of the services that does i
 
 **Mikeal Rogers:** Awesome. This has been great. I think we've gotta start wrapping up the show now, so we're gonna get into picks. Everybody have personal picks that they brought... Why don't we start with you, Alex?
 
-**Alex Sexton:** This week I'm gonna go with another internationalization pick. I think I started this season off with an internationalization pick, but -- GlobalizeJS is a collection of tools for number formatting, messaging formatting, and currency and all that kind of stuff. More importantly though it does parsing, which is one of the harder things to do. I'm typing in numbers that have commas as decimal points, and then trying to turn that into a number in Javascript is a much harder thing that rendering formatting something with MomentJS, or something. The same is true of dates; it can parse dates in a similar way... And that's really difficult.
+**Alex Sexton:** This week I'm gonna go with another internationalization pick. I think I started this season off with an internationalization pick, but -- GlobalizeJS is a collection of tools for number formatting, messaging formatting, and currency and all that kind of stuff. More importantly though it does parsing, which is one of the harder things to do. I'm typing in numbers that have commas as decimal points, and then trying to turn that into a number in JavaScript is a much harder thing that rendering formatting something with MomentJS, or something. The same is true of dates; it can parse dates in a similar way... And that's really difficult.
 
-That's been a lifesaver for me in my real job this week, and lately. It's completely backed off of the CLDR, which is the Unicode Common Locale Data Repository, and that's where they keep the standard set of all the locale information. It's great. It's what Twitter uses to localize their website, if that's helpful... It's actually a Javascript Foundation project, previously the jQuery Foundation.
+That's been a lifesaver for me in my real job this week, and lately. It's completely backed off of the CLDR, which is the Unicode Common Locale Data Repository, and that's where they keep the standard set of all the locale information. It's great. It's what Twitter uses to localize their website, if that's helpful... It's actually a JavaScript Foundation project, previously the jQuery Foundation.
 
 Interestingly enough, the message format implementation inside of it is mine, that I wrote, but at Stripe we don't use that one, we pulled in a different one before we added Globalize, so we don't use my library... But it doesn't count. Alright, that's my pick.
 

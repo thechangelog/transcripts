@@ -40,7 +40,7 @@
 
 \[00:04:02.17\] It would do that one at a time on the nodes of the syntax tree, with no look ahead, very little look behind... The code it generated wasn't very good, because there were a lot of moves you didn't need, there were a lot of operations that if you did that same add twice, it would execute that add twice instead of reusing the result.
 
-So SSA instead takes the abstract syntax tree and builds a control flow graph, and a value graph. And then we can do all sorts of optimizations on that graph, like common self-expression elimination, we can do bounce check elimination, we can do better scheduling, dead code elimination, all that sort of stuff - all of which benefit the generated code and make it better than what was generated previously straight from the abstract syntax tree.
+So SSA instead takes the abstract syntax tree and builds a control flow graph, and a value graph. And then we can do all sorts of optimizations on that graph, like common self-expression elimination, we can do bounds check elimination, we can do better scheduling, dead code elimination, all that sort of stuff - all of which benefit the generated code and make it better than what was generated previously straight from the abstract syntax tree.
 
 SSA compilers have been around for a while. I know I've worked on one 15 years ago, so it's a pretty mature compiler technology. GCC uses it, LLVM uses it... It's a pretty common compiler technology. This is not sort of a researchy thing; SSA is known to be a good way to generate code for compilers. We need to get Go up to speed so that we can compete with the other languages.
 
@@ -108,7 +108,7 @@ As far as the compiler itself, whether you can embed a compiler in some other pr
 
 **Bill Kennedy:** Are there optimizations that - I guess once all this SSA stuff is done - you'd like to see maybe going forward?
 
-**Keith Randall:** Sure. We got some of the major ones, like common self-expression, which are very important. There are ones that we could do that sort of are more domain specific. We could certainly improve our generation of floating-point code, for example. We could do a better job at balanced check elimination. We could do some simple alias analysis that would get rid of some variables that would otherwise have to be stored on the stack - we could put them in registers.
+**Keith Randall:** Sure. We got some of the major ones, like common self-expression, which are very important. There are ones that we could do that sort of are more domain specific. We could certainly improve our generation of floating-point code, for example. We could do a better job at bounds check elimination. We could do some simple alias analysis that would get rid of some variables that would otherwise have to be stored on the stack - we could put them in registers.
 
 There's things like that, but at some point we're gonna reach diminishing returns; it's not worth the extra effort of coding, it's not worth the extra runtime with the compiler to do those sorts of things. Then at some point we're gonna have to declare that we're done, or at least we're done unless someone comes up with new ideas.
 
@@ -134,7 +134,7 @@ There's things like that, but at some point we're gonna reach diminishing return
 
 **Erik St. Martin:** And the 56k modems... I don't wanna go back.
 
-**Keith Randall:** Our house at home just got upgraded from a 2 MB connection to a 6MB connection, as we live in the boonies and we're too far from the central office for anything good. But just the jump from 2 MB to 6 MB has been awesome.
+**Keith Randall:** Our house at home just got upgraded from a 2 MBits connection to a 6MBits connection, as we live in the boonies and we're too far from the central office for anything good. But just the jump from 2 MBits to 6 MBits has been awesome.
 
 **Erik St. Martin:** It's like life-changing.
 
@@ -264,13 +264,13 @@ So I agree that the semantics of a functional language are much easier to unders
 
 **Keith Randall:** Yeah, the pauses we got rid of... There's a bunch of stuff that you have to do when you stop the world. When you do a GC, you stop the world, you sort of set some bits, then you have to do some stuff and then you have to start the world up again. And the stuff you need to do, we've been shrinking and shrinking and shrinking, and now it's down to just sets and bits in various places... And start again; you don't even need to scan a single goroutine stack before you can start the world again. So it's getting quite a bit better. Sub-microsecond for almost everybody, and well a sub-microsecond for lots of people.
 
-**Erik St. Martin:** And then I know this release also saw some improvements with the overhead and calling out to see cgo.
+**Erik St. Martin:** And then I know this release also saw some improvements with the overhead and calling out to Cgo.
 
 **Keith Randall:** Right.
 
 **Erik St. Martin:** I don't remember what they were... I wanna say it was like cut in half, or something like that; a big concern for people using cgo was the expense of calling out to C, so most of the time the code got written in C, and then there were these logical breakpoints where flow of execution kind of got handed over to C, it did its thing, came back, rather than the more iterative tight loop type calls into C.
 
-**Keith Randall:** Right, and a lot of people we'll serve are stuck with legacy stuff in C, and you've gotta use it... Yeah, so I think the big improvements were in defer. We've put some defer records on the stack instead of allocating them from the heap, and that sort of helps a lot when you have to do -- you basically have to do a defer every time you go into C; in case some panics, you need to defer there to recover. I think that was the big thing, but in general it got a lot of love in this release. Ian looked at it quite a bit to get the overheads down as much as we can.
+**Keith Randall:** Right, and a lot of people we'll serve are stuck with legacy stuff in C, and you've gotta use it... Yeah, so I think the big improvements were in defer. We've put some defer records on the stack instead of allocating them from the heap, and that sort of helps a lot when you have to do -- you basically have to do a defer every time you go into C; in case something panics, you need to defer there to recover. I think that was the big thing, but in general it got a lot of love in this release. Ian looked at it quite a bit to get the overheads down as much as we can.
 
 **Erik St. Martin:** Speaking of which, defer itself was improved. Was that kind of where this was gained? The overhead was kind of saved there because it leverages defer and then defer itself had performance improvements?
 
@@ -322,7 +322,7 @@ Basically, it detects if you have a reader and a writer at the same time for a m
 
 **Keith Randall:** No, I wasn't.
 
-**Bill Kennedy:** I was there... Yeah, they built an entire \[unintelligible 00:36:32.19\] so you wouldn't have to use the C libraries anymore. It looks really interesting.
+**Bill Kennedy:** I was there... Yeah, they built an entire package in Go so you wouldn't have to use the C libraries anymore. It looks really interesting.
 
 **Erik St. Martin:** What were the other two, Carlisia?
 
@@ -334,7 +334,7 @@ For people who don't know, every December Gopher Academy does this, and every da
 
 **Carlisia Pinto:** That is a good point. I know for sure there are openings for backups.
 
-**Erik St. Martin:** Oh, yes. And there was a talk at GopherCon this year too, Michael Matloob I think it was... He did a talk about contributing, which was really awesome.
+**Erik St. Martin:** Oh, yes. And there was a talk at GopherCon this year too, Michael Matloob I think it was... He did a talk about contributing too, which was really awesome.
 
 **Carlisia Pinto:** That is true. Contributing to Go, you mean...
 
@@ -466,11 +466,11 @@ Daniel shared this week another repo called go-hep, which is High-Energy Physics
 
 **Erik St. Martin:** Oh, interesting. And how about you, Carlisia?
 
-**Carlisia Pinto:** I ran into a project - I have not used it before, but it looks really cool. It was here in this document, but it was also in this \[unintelligible 00:51:29.09\] newsletter about Go called The Week In Go. It is the JSON Incremental Digger (JID). Basically, you install it with Homebrew and you can navigate a JSON file on the command line. You can say, for example, "Node 0" and you get just that one node, and there are a bunch of things you can do. I thought it was really interesting.
+**Carlisia Pinto:** I ran into a project - I have not used it before, but it looks really cool. It was here in this document, but it was also in this Brazilian newsletter about Go called The Week In Go. It is the JSON Incremental Digger (JID). Basically, you install it with Homebrew and you can navigate a JSON file on the command line. You can say, for example, "Node 0" and you get just that one node, and there are a bunch of things you can do. I thought it was really interesting.
 
-**Erik St. Martin:** \[00:52:03.00\] Yeah, that's really cool. Have you seen this, Keith? You basically can give it JSON, and then you can kind of use Javascript notation to traverse and dig down into the JSON file, and it has autocomplete of the properties, too.
+**Erik St. Martin:** \[00:52:03.00\] Yeah, that's really cool. Have you seen this, Keith? You basically can give it JSON, and then you can kind of use JavaScript notation to traverse and dig down into the JSON file, and it has autocomplete of the properties, too.
 
-**Keith Randall:** Interesting, \[unintelligible 00:52:19.06\]
+**Keith Randall:** Interesting, I haven't seen it.
 
 **Erik St. Martin:** Drop the link in the Slack channel too, for anybody who's in there. It's super cool to be able to do that.
 

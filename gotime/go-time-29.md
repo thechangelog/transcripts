@@ -22,7 +22,7 @@
 
 **Brian Ketelsen:** Are you taking orders, Mark?
 
-**Mark Bates:** It's a very caffeinated Mark Bates sitting here in the corner of a Dunkin' Donuts. \[laughter\] Coming to you live...
+**Mark Bates:**\[00:01:39.37\] It's a very caffeinated Mark Bates sitting here in the corner of a Dunkin' Donuts. \[laughter\] Coming to you live...
 
 **Brian Ketelsen:** Thank you for sprinting to Dunkin' Donuts to get power, since the power went out in your block; we appreciate that very much.
 
@@ -94,13 +94,13 @@ That's really what I was looking for, and that's kind of how Buffalo came to be.
 
 **Brian Ketelsen:** So would it be accurate to say that you took the best of all of the packages that exist out there, sprinkled in some SuperGlue and turned it into what you're calling in air quotes a framework?
 
-**Mark Bates:** Yeah, that's about right. If you look at the core Buffalo package itself, most of it is just glue code. There are a handful of sub-packages to other things, like provide basic rendering frameworks... You know, that could be extended using a very simple interface, and stuff like that.
+**Mark Bates:** \[00:06:09.38\] Yeah, that's about right. If you look at the core Buffalo package itself, most of it is just glue code. There are a handful of sub-packages to other things, like provide basic rendering frameworks... You know, that could be extended using a very simple interface, and stuff like that.
 
 I found a great router, for example - the gorilla/mux router is a great router. Great, let's wrap that. Let's wrap then the ability to add some nice middleware on it, an easy to use declarative syntax, a context structure, the ability to skip middleware, which nobody really does, but very useful... So that sort of glue work.
 
-And even things like the Acid pipeline; I just pulled in Webpack and set up Webpack for you and made it kind of all work. So just taking the best of all those worlds.
+And even things like the asset pipeline; I just pulled in Webpack and set up Webpack for you and made it kind of all work. So just taking the best of all those worlds.
 
-**Brian Ketelsen:** What is an Acid pipeline? Can you explain that for people like me who don't know a damn thing about the web?
+**Brian Ketelsen:** What is an *asset pipeline*? Can you explain that for people like me who don't know a damn thing about the web?
 
 **Mark Bates:** \[laughs\] Yeah, I know that because I've tried to help you with it several times.
 
@@ -122,7 +122,7 @@ And even things like the Acid pipeline; I just pulled in Webpack and set up Webp
 
 **Carlisia Pinto:** You're fine, that's another document, Brian... We have it on \[unintelligible 00:07:34.20\] \[laughter\] You're fine, Mark, go ahead.
 
-**Mark Bates:** So an Acid pipeline is a term kind of coined from the Rails world. Essentially, it is a build system around your Javascript, your style sheets and your images and the like. In the Rails world they do it all on Ruby and it's painfully slow and difficult to use. In other worlds, they use tools like Webpack, which are faster but also difficult to use, as I've found out, but it's the latest and greatest.
+**Mark Bates:** So an *asset pipeline* is a term kind of coined from the Rails world. Essentially, it is a build system around your JavaScript, your style sheets and your images and the like. In the Rails world they do it all on Ruby and it's painfully slow and difficult to use. In other worlds, they use tools like Webpack, which are faster but also difficult to use, as I've found out, but it's the latest and greatest.
 
 \[00:08:07.19\] So I pulled that in, and the nice thing about that is by using something like that you can develop ES6 right out of the box with Buffalo. You can use SASS stylesheets right out of the box with Buffalo. The Buffalo dev command does hotcode reloading of both your Go app and your asset, so as those change, it recompiles them and they're ready for you in your browser when you get there.
 
@@ -188,13 +188,13 @@ I know Brian has used it and is favorable towards it, if I could use those words
 
 **Mark Bates:** Yeah, I pulled in Gore, which is, again, an awesome little project. I do, again, just a little bit - I generate a little bit of code to import your models and actions into the REPL right away, so you don't have to import those later. But yeah, it's really cool, and again, it didn't take much time at all to pull something like that in.
 
-**Erik St. Martin:** And if the term REPL sounds odd or confusing to anybody, I believe it read-execute-print loop, if I recall...
+**Erik St. Martin:** And if the term REPL sounds odd or confusing to anybody, I believe it's Read-Execute-Print Loop, if I recall...
 
-**Brian Ketelsen:** It might be 'evaluate'.
+**Brian Ketelsen:** It might be 'Evaluate'.
 
-**Mark Bates:** Yeah, I think it's 'evaluate'.
+**Mark Bates:** Yeah, I think it's 'Evaluate'.
 
-**Erik St. Martin:** Yeah, it might be 'evaluate'. But it's basically just a console to interact with the language.
+**Erik St. Martin:** Yeah, it might be 'Evaluate'. But it's basically just a console to interact with the language.
 
 **Mark Bates:** With your Go application - how awesome is that?
 
@@ -247,7 +247,7 @@ I've asked for a bit commit on several repos in the past that have gotten nowher
 
 **Mark Bates:** I try to delete my forks as quick as possible. It's for the best.
 
-**Erik St. Martin:** \[00:20:04.27\] Nathan Youngman in the GoTime FM channels says that there is a fork of the migrate library - that's our tool, or whatever you wanna call it by Gemnasium that also has Cassandra support, so that's cool.
+**Erik St. Martin:** \[00:20:04.27\] Nathan Youngman in the GoTime FM channels says that there is a fork of the migrate library - that's a tool, or whatever you wanna call it by Gemnasium that also has Cassandra support, so that's cool.
 
 **Mark Bates:** Yeah.
 
@@ -532,7 +532,7 @@ Alright, other exciting projects, let's see... These are all my projects; did yo
 
 \[00:39:52.10\] It's an awesome app that does cross-compiling and it will automatically build your app and tag a release on GitHub and upload the binaries for you, which is really cool, something I was looking to do recently and didn't have a way to do it without RubyGem. So that one's pretty slick, I like that a lot. I wish it would actually do the tagging for me, but it doesn't do the tagging yet. I'm sure PRs are accepted.
 
-A cool one I found this morning - Mutagen, at the GitHub repo havoc/iomutagen. I'm a huge fan of synchronizing code between 8,000 different machines that I use, and Mutagen is kind of like a Unison clone, if you've used Unison before. It's really fast, and it runs in the background and it has some nice tools; so I was playing with that today. I like Mutagen quite a bit.
+A cool one I found this morning - Mutagen, at the GitHub repo mutagen-io/mutagen. I'm a huge fan of synchronizing code between 8,000 different machines that I use, and Mutagen is kind of like a Unison clone, if you've used Unison before. It's really fast, and it runs in the background and it has some nice tools; so I was playing with that today. I like Mutagen quite a bit.
 
 **Erik St. Martin:** So what happened to -- was it SyncThing, the one you were using before?
 
@@ -706,7 +706,7 @@ He's the program chair for GopherCon - the great programs that we have at the co
 
 **Brian Ketelsen:** Somebody on Slack mentioned that the errors package should be in standard library. I've been begging for that ever since it came out, and I think we need to start an actual movement and just get it to happen, because it's completely compatible with the errors package in standard library; there is no reason not to have it included. So let's start calling our representatives and elected officials and make that happen.
 
-**Mark Bates:** I one hundred percent absolutely agree. Not having stack traces and errors seems like a bit of an oversight, and being able to have those back because of Dav Cheney is amazing.
+**Mark Bates:** I one hundred percent absolutely agree. Not having stack traces and errors seems like a bit of an oversight, and being able to have those back because of Dave Cheney is amazing.
 
 **Brian Ketelsen:** Yes. Thanks, Dave. We love you.
 

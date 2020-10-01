@@ -30,7 +30,7 @@
 
 **Suz Hinton:** Yeah.
 
-**Jerod Santo:** So you're preparing for this keynote - by the way, by far the most talked about things that we've heard... Live coding, at OSCON, probably 2,000 people in the crowd, with hardware involved, Javascript involved, ten minutes... You gave yourself an actual countdown timer; nobody asked you to do that...
+**Jerod Santo:** So you're preparing for this keynote - by the way, by far the most talked about things that we've heard... Live coding, at OSCON, probably 2,000 people in the crowd, with hardware involved, JavaScript involved, ten minutes... You gave yourself an actual countdown timer; nobody asked you to do that...
 
 **Suz Hinton:** \[laughs\]
 

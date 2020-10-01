@@ -166,7 +166,7 @@ I guess you wouldn't know that you're using an Apple Card unless you're using th
 
 **Jerod Santo:** Slap down my titanium Apple Card...
 
-**Adam Stacoviak:** I'm like, "Dang, Jerod..." \[unintelligible 00:25:36.07\] I wanna hang with you.
+**Adam Stacoviak:** I'm like, "Dang, Jerod..." like, that card has no number, I wanna hang with you.
 
 **Jerod Santo:** That card has no number, no signature, there's no CVV on the back... Which we joke about, but that's actually pretty cool for security though. As we said, the titanium card is just your name and a chip. That's all there is on it.
 
@@ -508,7 +508,7 @@ And then my last thought, talking about the Amazon Prime app, because we're just
 
 **Jerod Santo:** Yeah. And it says who he's playing. Sometimes it'll say the location where the scene was shot, stuff like that... So there's all this little extra information that they surface when you turn on the X-Ray. It's just a really neat feature. I don't know how they accomplish it actually, because it's gotta be metadata on maybe like a second-by-second basis, because it changes based on who's currently on camera. It's super-cool, check it out if you haven't yet.
 
-**Adam Stacoviak:** \[00:59:52.21\] I wonder if it's a second pass on \[unintelligible 00:59:54.16\] Because you do this -- it's called tracking whenever you're doing stuff in After Effects or whatever, you can mark an object and attach text to it, or an effect, or whatever; you can track a subject. So I would imagine, similar to the way they do camera technology, when you pull out your phone (even your iPhone), it's got facial recognition, it can recognize the faces. I would imagine there's probably some (like you said) metadata attached to that.
+**Adam Stacoviak:** \[00:59:52.21\] I wonder if it's a second pass on like, just a point Because you do this -- it's called tracking whenever you're doing stuff in After Effects or whatever, you can mark an object and attach text to it, or an effect, or whatever; you can track a subject. So I would imagine, similar to the way they do camera technology, when you pull out your phone (even your iPhone), it's got facial recognition, it can recognize the faces. I would imagine there's probably some (like you said) metadata attached to that.
 
 **Jerod Santo:** Well, that's one thing I was thinking at first - maybe there's metadata, but maybe there's facial recognition that's happening, computer vision, and when you pause it, it just scans the current image and matches them as fast as they can.
 

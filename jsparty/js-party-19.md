@@ -1,4 +1,4 @@
-**Alex Sexton:** Alright, welcome to JS Party, where it's occasionally a party with Javascript. I refuse to say weekly, since it's been a few weeks... But nonetheless, we're here ready to party. So this week we have a special guest filling in for Mikeal - Myles Borins. Introduce yourself, Myles.
+**Alex Sexton:** Alright, welcome to JS Party, where it's occasionally a party with JavaScript. I refuse to say weekly, since it's been a few weeks... But nonetheless, we're here ready to party. So this week we have a special guest filling in for Mikeal - Myles Borins. Introduce yourself, Myles.
 
 **Myles Borins:** Hi, I'm Myles. I'm a developer advocate--
 
@@ -46,7 +46,7 @@ In a past life I was an artist and a musician and I'm hoping to find time to do 
 
 **Alex Sexton:** Sure, a solid, unrelapsed five years of pure time. So is that your only project? So you have a keyboard, I assume, on your keyboard. You pretend like you're playing a piano, and then it makes the sounds in the browser?
 
-**Myles Borins:** Exactly. The thing that was neat about it was that it was built with this Javascript framework that was all accessibility first. The website actually had no instructions on how to use it unless you were using a screen reader, and if you were using a screen reader, it had a full in-depth tutorial on how to use it. It also had an exposed API, so you could change what the frequency of A4 was.
+**Myles Borins:** Exactly. The thing that was neat about it was that it was built with this JavaScript framework that was all accessibility first. The website actually had no instructions on how to use it unless you were using a screen reader, and if you were using a screen reader, it had a full in-depth tutorial on how to use it. It also had an exposed API, so you could change what the frequency of A4 was.
 
 **Alex Sexton:** I see... In case you were a 432-er.
 
@@ -62,13 +62,13 @@ But a lot of people thought for a long time that Prince detuned his guitar to E 
 
 **Myles Borins:** Yeah, that's amazing.
 
-**Alex Sexton:** A lot of his better tone -- a lot of people tune down to E flat just to get... You can play thicker strings because they're a little looser, so you can have kind of a fatter tone, so a lot Prince's well-known guitar tone comes from the fact that he detuned his guitar, essentially, and then was able to kind of play fatter strings, and stuff. Just some fun, normal Javascript/Prince trivia.
+**Alex Sexton:** A lot of his better tone -- a lot of people tune down to E flat just to get... You can play thicker strings because they're a little looser, so you can have kind of a fatter tone, so a lot Prince's well-known guitar tone comes from the fact that he detuned his guitar, essentially, and then was able to kind of play fatter strings, and stuff. Just some fun, normal JavaScript/Prince trivia.
 
 The other interesting thing about your explanation -- I forgot... You're of the origin of Canada, yes?
 
 **Myles Borins:** \[00:08:05.28\] Mm-hm.
 
-**Alex Sexton:** Yeah, the Javascript owes...
+**Alex Sexton:** Yeah, the JavaScript owes...
 
 **Myles Borins:** It came out...
 
@@ -80,7 +80,7 @@ The other interesting thing about your explanation -- I forgot... You're of the 
 
 **Alex Sexton:** I'd actually flip it around to where you start there and then say your name.
 
-**Rachel White:** Yeah, that's usually... That's how it goes. Usually we know when you say "Javascript", so...
+**Rachel White:** Yeah, that's usually... That's how it goes. Usually we know when you say "JavaScript", so...
 
 **Myles Borins:** I'm changing my Twitter profile, it says "Canadian Myles" now.
 
@@ -182,9 +182,9 @@ I don't know if there's too much to talk about from this... Have you guys ever s
 
 **Rachel White:** No, I don't know how they work. \[laughs\]
 
-**Alex Sexton:** Cool. So it always requires input... If you haven't seen the CSS games -- the most simple example of CSS that works like a program would, versus one that works in a way that styling would is a slideshow. If you think about check boxes as having a style around checked or unchecked, you can kind of like put a giant transparent check box on either side of a slideshow, and whenever you check a checkbox - you know, put one between each slide - you can kind of say "Show the slide that is the sibling element (the next sibling) of the selected check box", and then you hide all the check boxes to where they're transparent, but on top. So you essentially build this whole slideshow that has no Javascript, but every time you click the next hidden check box, it shows the next slide because now the next slide is the one that's the next sibling of the thing. So you can kind of see how you can take Javascript out of the equation by using this one cool trick to say "Do something based on the act of check box."
+**Alex Sexton:** Cool. So it always requires input... If you haven't seen the CSS games -- the most simple example of CSS that works like a program would, versus one that works in a way that styling would is a slideshow. If you think about check boxes as having a style around checked or unchecked, you can kind of like put a giant transparent check box on either side of a slideshow, and whenever you check a checkbox - you know, put one between each slide - you can kind of say "Show the slide that is the sibling element (the next sibling) of the selected check box", and then you hide all the check boxes to where they're transparent, but on top. So you essentially build this whole slideshow that has no JavaScript, but every time you click the next hidden check box, it shows the next slide because now the next slide is the one that's the next sibling of the thing. So you can kind of see how you can take JavaScript out of the equation by using this one cool trick to say "Do something based on the act of check box."
 
-You can actually do the same thing to make a game. Tic-tac-toe is an interesting one, to where you can theoretically make check boxes that have x's or o's, but you can make the game have a win state, like say "You won" if it detects any of the potential win states as like, you can imagine, like a selector that has the selector for all possible combinations of three x's in a row. So people can make tic-tac-toe based solely on selectors, and that's kind of like making games that rely on no Javascript... And there are much more complicated games than that.
+You can actually do the same thing to make a game. Tic-tac-toe is an interesting one, to where you can theoretically make check boxes that have x's or o's, but you can make the game have a win state, like say "You won" if it detects any of the potential win states as like, you can imagine, like a selector that has the selector for all possible combinations of three x's in a row. So people can make tic-tac-toe based solely on selectors, and that's kind of like making games that rely on no JavaScript... And there are much more complicated games than that.
 
 **Rachel White:** So isn't the majority of the time that people make the Turing complete CSS projects when -- it's to refute the notion that CSS isn't a "real" programming language?
 
@@ -198,13 +198,13 @@ I think more than anything it's just like a fun exploration of taking technology
 
 **Rachel White:** Actually, that's just an abstraction of the esolang Brainfuck it sounds like. I don't know if you're familiar with that.
 
-**Alex Sexton:** Yeah, I am. It's not... It's similar, but it uses very specific properties of Javascript to where it can kind of bootstrap itself by grabbing letters off of prototype functions and then eval-ing them, all based on positions and arrays... It's very interesting-looking, and it doesn't really work the same as the other one you mentioned, but it is very similar in its incomprehensibility... But everyone should check it out.
+**Alex Sexton:** Yeah, I am. It's not... It's similar, but it uses very specific properties of JavaScript to where it can kind of bootstrap itself by grabbing letters off of prototype functions and then eval-ing them, all based on positions and arrays... It's very interesting-looking, and it doesn't really work the same as the other one you mentioned, but it is very similar in its incomprehensibility... But everyone should check it out.
 
 I think it's just a good example of doing something entirely unexpected with a language. It falls into the category of uselessware that I think you and I have talked about, Rachel, before; at least on Twitter, maybe... Of just like building something for the sake of saying "This is cool and fun and weird", but no one should necessarily do this for their job.
 
 **Rachel White:** Yeah. I mean, I think it takes a certain type of person that has a full grasp, a full down to the nuts and bolts grasp of a language to be able to even get down to figuring out that kind of stuff... At least from my perspective, as someone who does not have a full grasp of a language. Not even English, let's be honest.
 
-**Alex Sexton:** Yeah... \[laughs\] Sorry, I was saying 'yeah' to myself. \[laughter\] Yes, you are bad at English, Rachel. I do find it really fun to try to get so deep into some topic to where you can kind of flip it on its head, break the norms and do something interesting and cool, even if like -- there's a reason why it's not the norm, because it would be a terrible idea. But it's just kind of like, take everything to its logical maximum, to where theoretically we only need three characters in Javascript to run any program, which is a cool idea, and I'm glad that someone wrote a compiler for it and we can talk about it on the show, but I don't anticipate anyone actually using it in their application. For one, it would break all my CSP rules.
+**Alex Sexton:** Yeah... \[laughs\] Sorry, I was saying 'yeah' to myself. \[laughter\] Yes, you are bad at English, Rachel. I do find it really fun to try to get so deep into some topic to where you can kind of flip it on its head, break the norms and do something interesting and cool, even if like -- there's a reason why it's not the norm, because it would be a terrible idea. But it's just kind of like, take everything to its logical maximum, to where theoretically we only need three characters in JavaScript to run any program, which is a cool idea, and I'm glad that someone wrote a compiler for it and we can talk about it on the show, but I don't anticipate anyone actually using it in their application. For one, it would break all my CSP rules.
 
 \[00:32:17.22\] Myles, can you think of -- this is a little bit on the spot, but can you think of other things in this vein? I know you tend to gravitate -- not gravitate, but you tend to be associated with a lot of projects that do similar... For instance, making a piano that has a tunable middle A, and programmable interval keys is a good example of breaking outside the norm. I'm trying to think if there's other things...
 

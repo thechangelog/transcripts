@@ -534,13 +534,13 @@ The new Gopher Academy website is written in Buffalo, the new GopherCon website 
 
 **Brian Ketelsen:** Yeah, when Carlisia left, everything got informal. \[laughter\]
 
-**Travis Jeffery:** Do you guys wanna talk about this Golang dev discussion about the standard login interface?
+**Travis Jeffery:** Do you guys wanna talk about this Golang dev discussion about the standard logging interface?
 
 **Brian Ketelsen:** You mean the one I started?
 
 **Travis Jeffery:** Yeah, I guess you started -- well, someone else started it, but they started it because they saw your tweet.
 
-**Brian Ketelsen:** Yeah, Peter started it because of my tweet. So I suggested on Twitter a couple days ago that it would be nice if we had a single interface for login.
+**Brian Ketelsen:** Yeah, Peter started it because of my tweet. So I suggested on Twitter a couple days ago that it would be nice if we had a single interface for logging.
 
 **Travis Jeffery:** Yes... Yes!!!
 

@@ -388,7 +388,7 @@ All these other things I think are the deeper problems. Because if lean really h
 
 **Ryan Singer:** Yeah, sure. I'll point to two examples that are in the book, so that way people who are interested can dig deeper into them. At the end of the chapter on pitching there's two example pitches. One of them is a feature that we called To-do Groups. We wanted the ability to segment a to-do list into subgroups. We wanted to do it in such a way that it was going to be a big boost. It's like a whole other level of organization for the people who can take advantage of it... But at the same time, we really didn't wanna add complexity to to-do's because Basecamp has this kind of -- we call it "Fisher-Price simple"; it's like almost toy-like, it's so simple for people to approach it.
 
-So how do we not change one of the core features of Basecamp, but introduce this entire new level of structure in a to-do? That was a six-week project, and it actually touched a ton of stuff, and it involved a lot of hairy questions about "How do we display completed items?" It involved changing the Javascript that we use to reposition items, not only within a list, but across lists... Hairy stuff. That was done in six weeks.
+So how do we not change one of the core features of Basecamp, but introduce this entire new level of structure in a to-do? That was a six-week project, and it actually touched a ton of stuff, and it involved a lot of hairy questions about "How do we display completed items?" It involved changing the JavaScript that we use to reposition items, not only within a list, but across lists... Hairy stuff. That was done in six weeks.
 
 **Jerod Santo:** Are those the kind of things that were then discovered by the builders, or known by the...
 

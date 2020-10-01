@@ -1,4 +1,4 @@
-**Mikeal Rogers:** Hey, everybody! Welcome to JS Party, where it's a party every week with Javascript. Alright, let's just dive right into it.
+**Mikeal Rogers:** Hey, everybody! Welcome to JS Party, where it's a party every week with JavaScript. Alright, let's just dive right into it.
 
 **Alex Sexton:** I still don't want that to be the slogan. \[laughter\] I want my voice to be heard that I think that's a dumb slogan. Move on...
 
@@ -78,7 +78,7 @@ If you go to GitHub and you go to a project and then you click on Commit To and 
 
 **Alex Sexton:** True.
 
-**Mikeal Rogers:** This gets really ugly, actually, in codecs and containers. For multihash, for instance, there's libraries in pretty much every language ever, including a very well maintained Javascript implementation that works in the browser and in Node. So that's what I've used in a couple of projects recently. But the funny thing is that Linus is actually still just not convinced. He's basically said that the way that Git uses it is still not prone to these attacks, because they have the length of the body, and that makes this harder. We'll see how that ends up.
+**Mikeal Rogers:** This gets really ugly, actually, in codecs and containers. For multihash, for instance, there's libraries in pretty much every language ever, including a very well maintained JavaScript implementation that works in the browser and in Node. So that's what I've used in a couple of projects recently. But the funny thing is that Linus is actually still just not convinced. He's basically said that the way that Git uses it is still not prone to these attacks, because they have the length of the body, and that makes this harder. We'll see how that ends up.
 
 **Alex Sexton:** I mean, it does make it a lot harder, for what it's worth.
 
@@ -100,7 +100,7 @@ If you go to GitHub and you go to a project and then you click on Commit To and 
 
 Maybe someone doesn't get your authentication credentials, but hopefully you don't reuse those anywhere else, so...
 
-**Mikeal Rogers:** Alright. Do we have anything else to say about hashing algorithms? This is a pretty deep topic to start a Javascript show with...
+**Mikeal Rogers:** Alright. Do we have anything else to say about hashing algorithms? This is a pretty deep topic to start a JavaScript show with...
 
 **Alex Sexton:** \[00:11:59.24\] Yeah, interesting choice.
 
@@ -312,9 +312,9 @@ What AR.js does is it blends all of these things together and allows you to use 
 
 **Rachel White:** No! \[laughs\] They're like QR code. Basically, any kind of digital marker is just using image processing with nearest neighbor type of math-y things... I'm great at explaining things technically. Basically, what AR.js does is -- unfortunately, if you have an iOS phone it doesn't work, so I can't even test it, which bums me out... But if you have an Android phone, you can set it up so that you have your 3D environment that you've crafted with A-Frame, and A-Frame is built on top of three.js, because it allows for the 3D objects in the browser.
 
-Then it uses the AR toolkit, which was originally elaborated in C, and they've made it work with Javascript. It does that nearest neighbor processing of the hero marker, and it assigns your 3D object so that when you use your phone in a WebGL supported browser and you point it at the marker, either on a computer screen or a piece of paper that's printed out, whatever 3D object you've assigned to that marker in your code will appear on the phone or the device that you're viewing it through as a hologram type thing.
+Then it uses the AR toolkit, which was originally elaborated in C, and they've made it work with JavaScript. It does that nearest neighbor processing of the hero marker, and it assigns your 3D object so that when you use your phone in a WebGL supported browser and you point it at the marker, either on a computer screen or a piece of paper that's printed out, whatever 3D object you've assigned to that marker in your code will appear on the phone or the device that you're viewing it through as a hologram type thing.
 
-It's really cool. A-Frame is really accessible for people that are just starting out in Javascript. Their documentation is amazing, and pretty much what this AR.js library does is it allows you to take -- they basically took all of the difficult steps out of the equation. Everything is built together for you, the documentation on it is pretty good; it says that it runs at 60 FPS on a Nexus 6, which is pretty impressive, and there's a lot of examples of three.js things that you can do with it, so I'm excited to see what people make with it, because I'm very interested in any kind of augmented reality, virtual reality, mixed reality situation that we can do with Javascript. It's super exciting.
+It's really cool. A-Frame is really accessible for people that are just starting out in JavaScript. Their documentation is amazing, and pretty much what this AR.js library does is it allows you to take -- they basically took all of the difficult steps out of the equation. Everything is built together for you, the documentation on it is pretty good; it says that it runs at 60 FPS on a Nexus 6, which is pretty impressive, and there's a lot of examples of three.js things that you can do with it, so I'm excited to see what people make with it, because I'm very interested in any kind of augmented reality, virtual reality, mixed reality situation that we can do with JavaScript. It's super exciting.
 
 **Alex Sexton:** This is only a slight side check... So it runs at 60 FPS, and if you look at the pictures of it, it's like this blob that sits on a piece of paper, and you can look around and the blob stays on the piece of paper, which is pretty nifty. You can move it and animate it and things like that; you can spin it on the piece of paper while you look around. That runs at 60 FPS, and that's pretty verifiable on the phone. But I can't get a div to animate from 200-pixels-high to 500-pixels-high at 60 FPS. I can't get my web page to scroll at 60 FPS by default half the time.
 
@@ -364,7 +364,7 @@ You could just put a marker on your hand to know a position; you can get an RFID
 
 **Alex Sexton:** Actually, one thing mashup I'd love to see with this - just spitballing here - is some sort of like... If you use a piece of paper, and then you're able to kind of draw shapes, and then press some button on your keyboard and then it AR-ifies it to where you can pick up the shape... Does that make sense? It's essentially like the style in the super futuristic movies - I feel like we're almost there, where you can draw something and then manipulate it in 3D space.
 
-**Rachel White:** Well, there is something that exists like that. Not in the Javascript world, but there is an application called Vuforia, that allows you to create those augmented experiences where you can interact with this. So maybe somebody should do that.
+**Rachel White:** Well, there is something that exists like that. Not in the JavaScript world, but there is an application called Vuforia, that allows you to create those augmented experiences where you can interact with this. So maybe somebody should do that.
 
 **Alex Sexton:** Yeah, I look forward to one of our listeners from this week presenting that on the show next week. It just takes one week, right?
 

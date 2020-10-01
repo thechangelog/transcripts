@@ -46,7 +46,7 @@ The Atom editor got a big update this week, I think it's at 1.6 now.
 
 **Brian Ketelsen:** 1.7, okay. So it got a big update this week, and the Go tools there look fantastic, too. So there's really a lot of great options for editing code if you like just text editors, and then the IntelliJ big plugin for Go and on the IDEA platform is awesome, it looks really good. If you don't mind having that big IDE, then the IntelliJ with the Go plugin is amazing, too.
 
-**Erik St. Martin:** And Carlisia, you're an Atom used, aren't you?
+**Erik St. Martin:** And Carlisia, you're an Atom user, aren't you?
 
 **Carlisia Pinto:** I am, die-hard fan.
 
@@ -110,7 +110,7 @@ So the article is really well worth a read if you want to get familiar with what
 
 **Brian Ketelsen:** Yeah, serving up Bower assets.
 
-**Erik St. Martin:** Yes, that's awesome. It's great that they released that information, too. You wonder how the Javascript community sees that, that they didn't kind of dogfood right?
+**Erik St. Martin:** Yes, that's awesome. It's great that they released that information, too. You wonder how the JavaScript community sees that, that they didn't kind of dogfood right?
 
 **Brian Ketelsen:** Well, I hope they're all as pragmatic and anti-dogma as we are. You use the right tool for the job, and in that case they proved to themselves that Go was the right tool for that job. There are places where I wouldn't want to yet use Go. I can think of a few places that Go is difficult to use, like mobile development. You gotta use the right tool.
 

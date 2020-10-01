@@ -184,9 +184,9 @@ For the past couple of releases, yes, there have been more contributions, and I 
 
 One of the things I wanted to touch on - what are you actually writing your code in for the editor? Is it like TypeScript? What are you actually developing in?
 
-**Ramya Rao:** It's TypeScript, yeah. All VS Code extensions are written in either TypeScript or Javascript, and then if you are trying to give language support, there is something called Language Service... I don't know if you've heard of the [Language Service protocol](https://langserver.org/), but Microsoft and Red Hat, and you know, there was a hackathon of sorts a year ago and then we came up with the Language Server protocol.
+**Ramya Rao:** It's TypeScript, yeah. All VS Code extensions are written in either TypeScript or JavaScript, and then if you are trying to give language support, there is something called Language Service... I don't know if you've heard of the [Language Service protocol](https://langserver.org/), but Microsoft and Red Hat, and you know, there was a hackathon of sorts a year ago and then we came up with the Language Server protocol.
 
-The idea behind this is you implement a language server once, and then you're able to use that again for multiple editors... You know, the ones that support language servers. So that you can write in any language you want, but extensions are TypeScript and Javascript.
+The idea behind this is you implement a language server once, and then you're able to use that again for multiple editors... You know, the ones that support language servers. So that you can write in any language you want, but extensions are TypeScript and JavaScript.
 
 **Carlisia Pinto:** I want to ask also, Ramya, how do you 1) come up with features to add to VS Code? and 2) prioritize what should go in at any given point? That makes me think of [Fatih](https://twitter.com/fatih) and Vim Code... Vim Code - am I saying that right?
 
@@ -208,7 +208,7 @@ In your completion, without even importing a package -- say if you didn't import
 
 **Ramya Rao:** Yes, definitely. But at the same time, it's not the only measure. I know that there's one feature request for which there are 35 upvotes, but I still haven't gotten to that because implementing that with the current set is just gonna have a slow experience... So until there's like a faster solution, I didn't wanna jump into it right away. So it's a mix of all these things.
 
-Then the other direction... Sometimes from the core VS Code product we release some APIs, some new features. TypeScript and Javascript is appointed by default by VS Code, right? And we support new language features. Now, it's up to the extension owners to get up to speed and implement them in their own extensions. So this is sometimes from the other direction - I get ideas that "Oh, VS Code can now do this, so I should implement that in the Go extension." So that is another way where things can happen. That is the one where you can keep up with the product, or else you end up in a state where you see that "Oh, VS Code can do ABC, but I don't see the Go extension doing it." So unless you play catch up with the Code product, you won't get to see those cool features.
+Then the other direction... Sometimes from the core VS Code product we release some APIs, some new features. TypeScript and JavaScript is appointed by default by VS Code, right? And we support new language features. Now, it's up to the extension owners to get up to speed and implement them in their own extensions. So this is sometimes from the other direction - I get ideas that "Oh, VS Code can now do this, so I should implement that in the Go extension." So that is another way where things can happen. That is the one where you can keep up with the product, or else you end up in a state where you see that "Oh, VS Code can do ABC, but I don't see the Go extension doing it." So unless you play catch up with the Code product, you won't get to see those cool features.
 
 **Carlisia Pinto:** Makes sense.
 

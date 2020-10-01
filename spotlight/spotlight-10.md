@@ -122,7 +122,7 @@ For someone like me, who uses Fastly as our CDN, which is a US-based company, wh
 
 **Shiya Lou:** Yeah. Then you definitely would need to have servers in China.
 
-**Adam Stacoviak:** Plus, we built the website just for fun. We built it in Elixir, which is known to be pretty fast, because it sits on top of the Erlang VM, and we used Phoenix the web framework, and we purposefully used a smaller Javascript footprint. We purposely didn't use frameworks that would have more than we needed just to have a couple features. We actually wrote our own Javascript for our own web player; so we did some things to kind of keep it fast, for those reasons.
+**Adam Stacoviak:** Plus, we built the website just for fun. We built it in Elixir, which is known to be pretty fast, because it sits on top of the Erlang VM, and we used Phoenix the web framework, and we purposefully used a smaller JavaScript footprint. We purposely didn't use frameworks that would have more than we needed just to have a couple features. We actually wrote our own JavaScript for our own web player; so we did some things to kind of keep it fast, for those reasons.
 
 So for people like us, or people that aspire to be like us, to have that kind of focus, with speed and our own CDN, what can they get right, I guess? Using our own CDN, that's obviously helpful, but you've mentioned the speed barrier... What's the speed roughly for outside of the borders? I'm just curious.
 

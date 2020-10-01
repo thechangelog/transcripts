@@ -134,7 +134,7 @@ We held those elections from mid-January to mid-February. We did that, and the e
 
 **Jerod Santo:** Right.
 
-**Brett Cannon:** Or even Javascript - they have ECMA there, and companies pay people full-time to work on Javascript, so there is no worry of Javascript disappearing. Python, on the other hand - I think now we can potentially claim we have a single core dev who gets to spend all his time on Python, and honestly he gets to do that because he just declared one day at work he was going to do it and no one said no.
+**Brett Cannon:** Or even JavaScript - they have ECMA there, and companies pay people full-time to work on JavaScript, so there is no worry of JavaScript disappearing. Python, on the other hand - I think now we can potentially claim we have a single core dev who gets to spend all his time on Python, and honestly he gets to do that because he just declared one day at work he was going to do it and no one said no.
 
 I think he calculated, if you add up all the core devs who get any form of paid time, I think we might equate to three developers on Python. So it's very volunteer-based, which means pretty much everyone who's participating isn't really being driven by their employer. It's pretty much across the board driven by people who are choosing to put their time and effort into it.
 

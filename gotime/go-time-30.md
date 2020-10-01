@@ -16,11 +16,11 @@ If you are joining us live, feel free to jump into the GoTime FM channel on the 
 
 Any thoughts, anybody wanna kick off this conversation?
 
-**Bill Kennedy:** Well, I think it's good to start with the definition... We have to sort of understand the problem.
+**Johnny Boursiquot:** Well, I think it's good to start with the definition... We have to sort of understand the problem.
 
 **Carlisia Pinto:** I was just gonna say that.
 
-**Bill Kennedy:** \[laughs\] See, we're thinking alike already.
+**Johnny Boursiquot:** \[laughs\] See, we're thinking alike already.
 
 **Carlisia Pinto:** Yeah. Because I think sometimes maybe we mix up impostor syndrome, which can be a very debilitating thing, with just lack of confidence, which is a different thing. Also not good, but it's different.
 
@@ -68,7 +68,7 @@ I think I'm a little bit like that. After I spoke a couple times, I'm like "Okay
 
 **Johnny Boursiquot:** This is a nice tie-in into the whole meetup and sort of leveling up to a full conference with a larger audience. Those baby steps that you're talking about, you can take them within the context of a small audience. Your local Meetup group is a perfect place to do that, because it's a much smaller audience, chances are you already know a lot of these people, you go to the same Meetup every month... The comfort level there is gonna be much higher.
 
-That's like your training ground to be able to deliver a talk, make mistakes and get some constructive feedback and learn from those experience, and then sort of build up to the point where you can actually submit a proposal to something like GopherCon where you're gonna have 1,500 people looking at you.
+That's like your training ground to be able to deliver a talk, make mistakes and get some constructive feedback and learn from those experiences, and then sort of build up to the point where you can actually submit a proposal to something like GopherCon where you're gonna have 1,500 people looking at you.
 
 \[00:11:57.09\] You're not gonna go 0 to 100 and expect to have the best result possible. That may happen, but to those that it happens to, those are outliers. For the vast majority of people I know who do an excellent job of delivering a talk, they practice their hearts out. They put in time and time and time again.
 
@@ -90,7 +90,7 @@ For me, I don't have the problem delivering the message, I'm lucky that way... B
 
 \[00:15:44.24\] The people who work the hardest at understanding where their gaps are, what they need to work on, what they need to study - those are the people who are continuously improving themselves, those are the people I wanna model myself after. The thing about, "Oh, it's gonna come naturally" - again, those are outliers. The vast majority of people who are really good at something, they work at it, and being able to identify that, you have to sort of be very careful that you're not drawing yourself in impostor syndrome in that sense, but really get the benefit, the good out of that sort of fear, to say, "Hey, I know what I don't know. I need to work on that."
 
-**Erik St. Martin:** The interesting thing though too is there's kind of two additional factor with putting yourself out there to teach somebody something, whether that's training or giving a talk or writing a blog post - at the end of the day, you're trying the technology you have and educate people. There's two sides to this. One could argue that maybe there is somebody who knows this topic better than you, but are they also willing to put in the time to produce the content? That may not be true, which means that you do a disservice to the people who don't share at least the level of understanding that you do, by not sharing, because the person you fear is smarter than you isn't going to produce that content anyway.
+**Erik St. Martin:** The interesting thing though too is there's kind of two additional factors with putting yourself out there to teach somebody something, whether that's training or giving a talk or writing a blog post - at the end of the day, you're trying the technology you have and educate people. There's two sides to this. One could argue that maybe there is somebody who knows this topic better than you, but are they also willing to put in the time to produce the content? That may not be true, which means that you do a disservice to the people who don't share at least the level of understanding that you do, by not sharing, because the person you fear is smarter than you isn't going to produce that content anyway.
 
 Secondly, mentoring people is a great way to learn yourself, because you do not want to teach somebody incorrectly, therefore you're going to be more careful and make sure that you fully understand the things that you're about to tell somebody. I can tell you that going into the book and coming out of the book, I know way more now about Go than I did before we started on the book.
 
@@ -100,7 +100,7 @@ When you sit down and you start working on that, you're like "Wait..." You start
 
 **Bill Kennedy:** Florian made a really good point that I wanna bring up - every once in a while you've got to have somebody validate what you're doing, even if it's months later. Without some level of validation - at least I know for myself... Every once in a while, that's the pickup that I need, that somebody says "Thank you." Validation becomes important, or at least for me, it could completely just shut down.
 
-**Erik St. Martin:** I think that getting validation is good and it helps gauge you, but I think it can become toxic too, because then you're constantly seeking validation to be proud of your own accomplishments, and that's not good either. You're never gonna be happy, and people see that. It happens all the time and conferences, speakers will have people come up, and they'll kind of like hang on every word and things like that, looking for the speaker to be like, "Yeah, that's awesome, you're doing good work."
+**Erik St. Martin:** I think that getting validation is good and it helps gauge you, but I think it can become toxic too, because then you're constantly seeking validation to be proud of your own accomplishments, and that's not good either. You're never gonna be happy, and people see that. It happens all the time at conferences, speakers will have people come up, and they'll kind of like hang on every word and things like that, looking for the speaker to be like, "Yeah, that's awesome, you're doing good work."
 
 It becomes hard, because if you're not excited and proud of your own work, it shows in your delivery. You're gonna kind of hang, waiting to get that feedback, whether you're watching the audience or not, and it's gonna show, you're not gonna deliver the powerful thing.
 
@@ -118,7 +118,7 @@ That's kind of like, you know, Bill, when you get up and talk, you have this way
 
 I think that can also play a huge role in it too, because you feel like because you don't have that computer science degree, that you're constantly looking for a way to prove that you share the same knowledge and skill set as these people you're surrounded by that have masters degrees in computer science. Does anybody feel the same way?
 
-**Johnny Boursiquot:** I constantly feel like when I'm in the company of said people who do have those advanced levels of knowledge, that the moment they start talking about the highly technical stuff and start talking about how you optimize this and start throwing terms around that I've never heard before and that I don't come in contact with day to day in what I do for a living, then automatically I'm like, "Oh man, I'm out of depth here. If they turn to me and they ask something, how am I going to answer it?" and I start to panic a little bit. I have to catch myself, I have to seize myself and not let that drag me down. Because 9 out of 10 times there will be something you can contribute, there will be an experience that you've had that can impact the way that conversation unfolds. You should never discount your own experiences. If you don't know what a term means, heck, I go back to my desk and I google it. I'm like, "Okay, that's one thing I didn't know." So you see these things as opportunities for learning from others who are a bit more advanced in their careers that you are, but never discount your own experiences. Those things are valuable, because those experiences are different from theirs - you have different contexts, different knowledge, different things you can bring to bear in that conversation.
+**Johnny Boursiquot:** I constantly feel like when I'm in the company of said people who do have those advanced levels of knowledge, that the moment they start talking about the highly technical stuff and start talking about how you optimize this and start throwing terms around that I've never heard before and that I don't come in contact with day to day in what I do for a living, then automatically I'm like, "Oh man, I'm out of my depth here. If they turn to me and they ask something, how am I going to answer it?" and I start to panic a little bit. I have to catch myself, I have to seize myself and not let that drag me down. Because 9 out of 10 times there will be something you can contribute, there will be an experience that you've had that can impact the way that conversation unfolds. You should never discount your own experiences. If you don't know what a term means, heck, I go back to my desk and I google it. I'm like, "Okay, that's one thing I didn't know." So you see these things as opportunities for learning from others who are a bit more advanced in their careers that you are, but never discount your own experiences. Those things are valuable, because those experiences are different from theirs - you have different contexts, different knowledge, different things you can bring to bear in that conversation.
 
 **Erik St. Martin:** If you know the answer, it's easy. If you don't, it's impossible, right?
 
@@ -132,13 +132,13 @@ That really helped me put in perspective what I know and where I'm at, depending
 
 The other question, leading back to the whole autodidact thing - does anybody here have a formal CS degree?
 
-**Johnny Boursiquot:** I have an undergraduate degree.
+**Bill Kennedy:** I have an undergraduate degree.
 
 **Erik St. Martin:** What about you, Carlisia?
 
 **Carlisia Pinto:** Same, my CS degree is a graduate degree.
 
-**Erik St. Martin:** So I'd like to hear the other side of it, because this is interesting. As somebody holding a degree, do you get similar feelings of insecurity when you're around somebody that appears - at least from an outside perspective - to have more knowledge than you, that did not go that route?
+**Erik St. Martin:** So I'd like to hear the other side of it, because this is interesting. As somebody holding a degree, do you get similar feelings of insecurity when you're around somebody that appears to be - at least from an outside perspective - to have more knowledge than you, that did not go that route?
 
 **Carlisia Pinto:** I don't even have to be necessarily around somebody like that... Just being around myself. \[laughter\] Literally, every once in a while my confidence goes down to a level -- this happens once in a while, not all the time... Once in a while, my confidence just dips and I have to go on LinkedIn and look at everything that I've done, because that's what I forget. And I'm like, "Oh my gosh, I have a CS degree... It's a masters degree - that's amazing!" Then I pump myself up and like, "Wow, I've done this project and that project", and then I pump myself up.
 
@@ -154,7 +154,7 @@ I have to go and look at my resume multiple times a day for a few days to bring 
 
 **Carlisia Pinto:** Exactly! I've done stuff, I'm not a failure, I can do things like these!
 
-**Erik St. Martin:** I don't know, I think for me -- especially when we're talking about the validation, I feel like sometimes getting the validation makes me feel worse. I feel like almost like the whole impostor side of it, it's like "Oh, crap, it's gonna be when it's discovered I'm not as smart as that."
+**Erik St. Martin:** I don't know, I think for me -- especially when we're talking about the validation, I feel like sometimes getting the validation makes me feel worse. I feel like almost like the whole impostor side of it, it's like "Oh, crap, it's gonna be worse when it's discovered I'm not as smart as that."
 
 But speaking to the whole constantly reminding yourself aspect, I'll constantly fight stupid issues, just environment issues on my own development workstation; I'll be like, "Why am I a programmer? Why did anybody give me a job doing this?" It's just funny.
 
@@ -196,7 +196,7 @@ But I think it also carries weight for us internally, too. You use it as your ow
 
 **Johnny Boursiquot:** You have to inspire, Bill.
 
-**Bill Kennedy:** I know, but I really don't feel like I should be standing up in front of the faculty, telling them anything. I think it ties back into the fact that they're PhD, they're... I don't know. I know it sounds crazy, but impostor syndrome x 1,000 right there.
+**Bill Kennedy:** I know, but I really don't feel like I should be standing up in front of the faculty, telling them anything. I think it ties back into the fact that they're PhDs, faculty there... I don't know. I know it sounds crazy, but impostor syndrome x 1,000 right there.
 
 **Johnny Boursiquot:** It's real.
 
@@ -210,7 +210,7 @@ But I think it also carries weight for us internally, too. You use it as your ow
 
 But everybody - and we've talked to the speakers at GopherCon, too... Everybody here wants to see you do well. There's nobody in the audience hoping you fail. And even so, even if you mess up, most people don't even notice. They're too busy in their own minds and worlds, and if they're that engaged in your talk, then they don't care about the little thing you messed up.
 
-I think that's the great aspect of it, just to consider it in those terms - even if you did extremely bad, it's not gonna affect your career and life, it's not over. The next day, nobody even remembers. Everybody's leaving the conference or the meeting excited about something. Nobody's leaving all pumped up like, "Oh my god, you know what happened?!"
+I think that's the great aspect of it, just to consider it in that terms - even if you did extremely bad, it's not gonna affect your career and life, it's not over. The next day, nobody even remembers. Everybody's leaving the conference or the meeting excited about something. Nobody's leaving all pumped up like, "Oh my god, you know what happened?!"
 
 **Johnny Boursiquot:** For me, when I look back at some of the most inspiring talks I've seen at conferences, I don't remember the highly technical ones. There might be one or two that might have basically opened my eyes to a whole new different way of doing things, but it's nothing that I couldn't have found out of eventually or learned about with some googling or by reading a book; there was nothing earth shattering. But the ones I remember the most, the ones that had the most impact on my career professionally are the ones where the person is telling me a story.
 
@@ -236,13 +236,13 @@ I remember when Adam and Jerod from the Changelog first interviewed Brian and I 
 
 **Bill Kennedy:** I had somebody - this is how bad it can be - just recently at a Meetup during a Q&A session say something to me, and they said it with some anger to them, right? And again, I can't hear and I couldn't process it fast enough, and I hate drama, so I just backed off and assumed he was right, and tried to change. But for two days after that, when I had moments of thought in my head, I kept trying to relive that moment to figure out, "Did I say something wrong? Was he right?" It took me a couple of days and now I'm over it, but it can extend beyond even just that moment, it can linger a couple of days while you're trying to figure it out.
 
-**Erik St. Martin:** \[00:43:38.13\] And there's this weird atmosphere though too, because there's a couple of conditions that happen, even outside somebody stomping the speaker and just kind of throwing them off their game. You have people who aren't courteous to others on the mic; they just want to talk and just tell a story about their own project, seeking validation from the speaker, and it's kind of monopolizing the mic, and there's no real question, there's no real value for anybody else except the speaker being like "Yeah, that's cool."
+**Erik St. Martin:** \[00:43:38.13\] And there's this weird atmosphere though too, because there's a couple of conditions too that happen, even outside somebody stomping the speaker and just kind of throwing them off their game. You have people who aren't courteous to others on the mic; they just want to talk and just tell a story about their own project, seeking validation from the speaker, and it's kind of monopolizing the mic, and there's no real question, there's no real value for anybody else except the speaker being like "Yeah, that's cool."
 
-There's situations like that that can happen, so all in all, the Q&A thing gets difficult to do. The you have other people sometimes who, because of their insecurities, need to try to stomp the speaker, so they can basically live vicariously, right? Like, "Okay, I don't need to speak publicly, because Bill Kennedy spoke and I'm smarter than him, so therefore I could speak if I wanted to." These are just kind of the types of personalities, and stuff. There's just a lot of weird things that can happen with the Q&A, and it's just easier not to do it, and to let people catch them in the hallway.
+There's situations like that that can happen, so all in all, the Q&A thing gets difficult to do. Then you have other people sometimes who, because of their insecurities, need to try to stomp the speaker, so they can basically live vicariously, right? Like, "Okay, I don't need to speak publicly, because Bill Kennedy spoke and I'm smarter than him, so therefore I could speak if I wanted to." These are just kind of the types of personalities, and stuff. There's just a lot of weird things that can happen with the Q&A, and it's just easier not to do it, and to let people catch them in the hallway.
 
 Somebody was saying they found it hard to go to speakers in the hallway. I think people should question that assumption... Because even though I've always had a problem getting up on stage or putting myself publicly, I have always seen other people as people, so I'll walk up to speakers and talk to them.
 
-I think you should, I think they're excited about their topic, they wanna talk with other people. And to Bill's point, he wants that validation, he wants people to come up and tell them, "Oh, that was awesome. I love this", and ask questions about it. But that's more of a one-on-one, rather than being put on the spot in front of a bunch of people.
+I think you should, I think they're excited about their topic, they wanna talk with other people. And to Bill's point, he wants that validation, he wants people to come up and tell them, "Oh, that was awesome. I love this", and ask questions about this. But that's more of a one-on-one, rather than being put on the spot in front of a bunch of people.
 
 **Johnny Boursiquot:** That is way easier said than done though, Erik, you have to admit. While it might come easy for you, I know I've been in situations where I'm like, "Oh man, this is so-and-so...", because you're idolizing them in some way, because they're doing the things you wanna do at that level. It's like seeing a Hollywood superstar that you really admire; you're almost like, "Wow, should I even go approach them and talk to them?" You're scared. It really puts fear into you. How do you deal with that?
 
@@ -274,9 +274,9 @@ If you see him at GopherCon this year, you should definitely walk up and talk to
 
 **Carlisia Pinto:** I have something to say. Giving a talk - any talk if you haven't given any talk, is terrifying. Now, I don't know how it will be for other people, but I will share my experience. The first time I ever gave a talk, I think it was at an internship I was doing, and every intern needed to give a presentation at the end of the internship. It was absolutely terrifying, because there were PhD's, my boss, my co-workers, who were real developers, and I'm just an intern, what do I know? And I had to give a presentation about a project I worked on. I was so nervous, but I had to do it. I would have backed out, but I had to do it; it was part of the deal. It was nerve-wracking.
 
-The second time I gave a talk, I don't even remember... It was like a third nerve-wracking. So it's not going to be nerve-wracking every single time. The first time is going to be terrifying, and then it's going to get a ton better - or maybe not, but the point is you need to do it. If you want to give talks - and not everybody needs to do it; it's not mandatory that you do it, but if you want to, find a meetup... Like we always say here, find a meetup, give the talk, or just find a few friends and get them on Hangouts and give the talk to them... Because the first time it really truly is going to be terrifying. Truly, it is. Now, it gets often better... That's what I have to share.
+The second time I gave a talk, I don't even remember... It was like a third nerve-wracking. So it's not going to be nerve-wracking every single time. The first time is going to be terrifying, and then it's going to get a ton better - or maybe not, but the point is you need to do it. If you want to give talks - and not everybody needs to do it; it's not mandatory that you do it, but if you want to, find a meetup... Like we always say here, find a meetup, give the talk, or just find a few friends and get them on Hangouts and give the talk to them... Because the first time is really truly is going to be terrifying. Truly, it is. Now, it gets often better... That's what I have to share.
 
-**Bill Kennedy:** \[00:51:55.04\] It is a skill just like any other, and you get better at it by doing more of it. To use a now cliché term, "lean into it."
+**Johnny Boursiquot:** \[00:51:55.04\] It is a skill just like any other, and you get better at it by doing more of it. To use a now cliché term, "lean into it."
 
 **Carlisia Pinto:** You get better, but my point is... I gave a couple talks last year; I gave two lightning talks at GopherCon - one at GopherCon and one at the opening party, and then I gave a keynote talk at Golang UK. And I'm not super good, but I wasn't terrified, because I had given some talks before. So yes, I'm going to get better the more talks I give, but I'm talking about the terrifying scale. When you're terrified, you get paralyzed; you have to get over it, to the point where you're not paralyzed anymore. Then you can focus on getting better.
 
@@ -320,15 +320,15 @@ Same thing here - I think some of the best episodes on this show are when people
 
 **Johnny Boursiquot:** He already announced that himself, so you're in the clear. \[laughter\]
 
-**Bill Kennedy:** Yeah, we're in the clear... To the point that we have that document out in GoBridge that can really help you prepare for presentations, I'm really out there, I'm willing to work with everybody who wants to give a talk. And even if your talk doesn't make GopherCon, there's so many other conferences out there that it's worth your time if you really want to give a talk. Even if you don't have a topic right now, but you're just like, "No, I wanna give a talk", reach out to me and we'll find what that topic si and I'll help you prepare that talk and we'll submit it to GopherCon or anything else that's coming up.
+**Bill Kennedy:** Yeah, we're in the clear... To the point that we have that document out in GoBridge that can really help you prepare for presentations, I'm really out there, I'm willing to work with everybody who wants to give a talk. And even if your talk doesn't make GopherCon, there's so many other conferences out there that it's worth your time if you really want to give a talk. Even if you don't have a topic right now, but you're just like, "No, I wanna give a talk", reach out to me and we'll find what that topic is and I'll help you prepare that talk and we'll submit it to GopherCon or anything else that's coming up.
 
 If you have inside of you this desire to really try to give a talk, it's something you wanna do, let me know.
 
 **Johnny Boursiquot:** And for those of you listening, you should really take this to the heart. This is from somebody who's given lots and lots of talks, who's very experienced at this, so this is the stuff money can't buy; definitely take advantage of it.
 
-**Erik St. Martin:** I challenge everybody... This is a new year - everybody set yourself a goal... Do some public speaking. If you've always been afraid of it, do one thing this year. Pick one event, do a meetup, do an online meetup, do a lightning talk, if you don't wanna prepare a 20-minute or 40-minute presentation... Just share some sort of love. Tell me that you can't stand your dog waking you up in the morning, so you're building an Alexa plugin to tell Alexa to let the dog out. Just share something, and get over that fear and realize that it's not what you put it in your as, it's not how you make it out to be the experience. Get used to it, and start thinking... We have the whole impostor syndrome we were talking about earlier on the show; a lot of people - myself included - you go to a conference and you start thinking, "All these other people are amazing speakers. What are they gonna think of me? I'm not a good speaker, I've never spoken before", and the reality of it is none of them care; they're too focused on their own talk and delivering it well to really care about how much experience you have or how well you do on your talk.
+**Erik St. Martin:** I challenge everybody... This is a new year - everybody set yourself a goal... Do some public speaking. If you've always been afraid of it, do one thing this year. Pick one event, do a meetup, do an online meetup, do a lightning talk, if you don't wanna prepare a 20-minute or 40-minute presentation... Just share some sort of love. Tell me that you can't stand your dog waking you up in the morning, so you're building an Alexa plugin to tell Alexa to let the dog out. Just share something, and get over that fear and realize that it's not what you put it in your head as, it's not how you make it out to be the experience. Get used to it, and start thinking... We have the whole impostor syndrome we were talking about earlier on the show; a lot of people - myself included - you go to a conference and you start thinking, "All these other people are amazing speakers. What are they gonna think of me? I'm not a good speaker, I've never spoken before", and the reality of it is none of them care; they're too focused on their own talk and delivering it well to really care about how much experience you have or how well you do on your talk.
 
-\[01:04:13.18\] Let's start to accept that people are people. Approach them, treat them as you would anybody else at a party that you don't know who this person is. You do yourself and them a disservice. Let's start thinking that what we see of people is only what we see and that our perception might not be the reality. If I post pictures of some tinkering with hardware or software-define radio and it was like, "Oh man, Erik knows that, too?" No, I don't. \[laughter\] Software-defined radio - I know zero. I'm struggling just figuring it out. Hardware - I can tinker, I can build stuff at best, I am not an electrical engineer.
+\[01:04:13.18\] Let's start to accept that people are people. Approach them, treat them as you would anybody else at a party that you don't know who this person is. You do yourself and them a disservice. Let's start thinking that what we see of people is only what we see and that our perception may not be the reality. If I post pictures of some tinkering with hardware or software-define radio and it was like, "Oh man, Erik knows that, too?" No, I don't. \[laughter\] Software-defined radio - I know zero. I'm struggling just figuring it out. Hardware - I can tinker, I can build stuff at best, I am not an electrical engineer.
 
 Let's start to accept that maybe we've built false perceptions of people and we're holding them to a standard that maybe we shouldn't, because it doesn't do them service and it doesn't do you service.
 
@@ -368,7 +368,7 @@ I remember the first time that I had to tell a colleague when he was writing a f
 
 The whole point of it is that you have learned things, you have been accomplished, but just imagine how much more you could accomplish if you didn't have that blockage.
 
-**Johnny Boursiquot:** And I think it also helps to quickly reach out to friends. I talk to Erik and Carlisia every day... Not every day, but maybe once a week we have these types of conversations and we help each other through it. You can't suppress it down, you gotta talk about it and find people that you trust to have those conversations.
+**Bill Kennedy:** And I think it also helps to quickly reach out to friends. I talk to Erik and Carlisia every day... Not every day, but maybe once a week we have these types of conversations and we help each other through it. You can't suppress it down, you gotta talk about it and find people that you trust to have those conversations.
 
 **Carlisia Pinto:** Absolutely, yes.
 
@@ -380,9 +380,9 @@ Adam's hiding behind the forth wall here, but Adam has tried to get me on camera
 
 You don't need the right question, you just say, "I'm having a hard time", and they'll help you move on. I have people that I do this with, like you were saying. With the GoTime co-hosts and producers - we talk a lot about this stuff, and other people too that I have as resources. It really helps make a difference.
 
-**Johnny Boursiquot:** Something that I tell a lot of people too, if this is holding you back at some level - I have a mild form of Tourette's... My daughter has it more advanced, with vocal ticks. She's amazing... She's in college and she deals with that. I have a mild form of Tourette's, and when I get really nervous, it can get bad. That's a fear of mine too, sometimes, when I'm out on stage. I have trouble watching videos, because I see the ticks. It drives me crazy.
+**Bill Kennedy:** Something that I tell a lot of people too, if this is holding you back at some level - I have a mild form of Tourette's... My daughter has it more advanced, with vocal ticks. She's amazing... She's in college and she deals with that. I have a mild form of Tourette's, and when I get really nervous, it can get bad. That's a fear of mine too, sometimes, when I'm out on stage. I have trouble watching videos, because I see the ticks. It drives me crazy.
 
-I've shown Erik a video and Erik's like, "I don't see anything", and I'm like, "Dude, look at this, this, this and this." So if you also feel like "Maybe I have - not necessarily Tourette's, but some sort of handicap and that's gonna cause me to have problems, I'll also fight through that as well", if this is something you really wanna do.
+I've shown Erik a video and Erik's like, "I don't see anything", and I'm like, "Dude, look at this, this, this and this." So if you also feel like "Maybe I have - not necessarily Tourette's, but some sort of handicap and that's gonna cause me to have problems, I'll also try to fight through that as well", if this is something you really wanna do.
 
 **Erik St. Martin:** I think we've had a long engaging discussion here and ran through time, so we'll skip over the projects and news. Does anybody have something they wanna do for \#FreeSoftwareFriday?
 
@@ -420,7 +420,7 @@ Before we close out the show - Johnny, you've got a shoutout?
 
 \[01:16:07.24\] My last shoutout is to you - yes, you, the one listening to this show right now, that's dealing with impostor syndrome, and you're sort of thinking, "Okay, how do I muster up the energy and the courage to rise above it?" Know that you are not alone. The internet's got lots of resources... Take advantage of some of the resources that we're pointing out during the show, and know that I'm rooting for you, I'll be right there; if you wanna reach out, there's plenty of people that will help you do this. You are not alone. Best of luck to you!
 
-**Erik St. Martin:** I'd like to add to that... There's likely nobody on this show that is less secure than you. Or... Yeah. Man, double negative \[unintelligible 01:16:47.05\] \[laughter\] But everybody here on this show is just as insecure. Some of us more than others, but there's nobody on this show that feels confident in all of their abilities, all day, every day. It just doesn't happen like that. Like Johnny said, you're not alone. Feel free to reach out to us, too. We're happy to talk about some of the stuff behind the scenes, too. We're getting a little more public during this episode, but I know I've had conversations with several people behind the scenes and shared personally what it's really like behind the scenes, versus the public perception.
+**Erik St. Martin:** I'd like to add to that... There's likely nobody on this show that is less secure than you. Or... Yeah. Man, double negative's are hard! \[laughter\] But everybody here on this show is just as insecure. Some of us more than others, but there's nobody on this show that feels confident in all of their abilities, all day, every day. It just doesn't happen like that. Like Johnny said, you're not alone. Feel free to reach out to us, too. We're happy to talk about some of the stuff behind the scenes, too. We're getting a little more public during this episode, but I know I've had conversations with several people behind the scenes and shared personally what it's really like behind the scenes, versus the public perception.
 
 And back to our point before \#FreeSoftwareFriday, make 2017 the year that you step out of your shell and get out in front of people, even if it's a five-minute lightning talk. Meetup organizers, organize lighting talk night, where every talk that night is lightning talks. No one person talking the whole meetup, just ten five-minute talks, and let people just get that five minutes. They can rush through it and feel done, and then they can feel confident the next time, where nothing bad happened from that five minutes. "Maybe I'll do another one."
 
@@ -430,8 +430,8 @@ And back to our point before \#FreeSoftwareFriday, make 2017 the year that you s
 
 Definitely share this show with fellow Go programmers. This one isn't necessarily just Go, so if you know somebody who has impostor syndrome, send them this episode... Have them join and listen to every episode. We are GoTime.fm on the web - if you haven't subscribed yet. We are @GoTimeFM on Twitter. Github.com/gotimefm/ping if you wanna be on the show, if you have comments, if you have topic suggestions. With that, goodbye everybody! We'll see you next week.
 
-**Johnny Boursiquot:** Goodbye!
+**Bill Kennedy:** Goodbye!
 
 **Carlisia Pinto:** Bye! This was fun!
 
-**Bill Kennedy:** Bye!
+**Johnny Boursiquot:** Bye!

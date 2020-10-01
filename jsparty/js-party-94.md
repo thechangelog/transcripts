@@ -12,7 +12,7 @@ We have an awesome panel, per the usual... And joining me today is Suz Hinton. H
 
 **Divya Sasidharan:** Heey!
 
-**Jerod Santo:** Well, today we thought we would start with what's new and what's noteworthy - things going on around the Javascript and web ecosystem. Some of these things might be new, some might just be noteworthy... Things that we thought might be interesting to talk about, and we thought we'd kick it off with what seems like to me is -- I don't know, it seemed like the coolest thing that I ran across recently, which is that the Caniuse team and the MDN (Mozilla Developer Network, I think MDN stands for) team are collaborating.
+**Jerod Santo:** Well, today we thought we would start with what's new and what's noteworthy - things going on around the JavaScript and web ecosystem. Some of these things might be new, some might just be noteworthy... Things that we thought might be interesting to talk about, and we thought we'd kick it off with what seems like to me is -- I don't know, it seemed like the coolest thing that I ran across recently, which is that the Caniuse team and the MDN (Mozilla Developer Network, I think MDN stands for) team are collaborating.
 
 Way back in the day, Caniuse started collecting compatibility data on which features can be supported on which browsers, and then also Mozilla started collecting similar, but different, but similar, but different data on compatibility... And these were efforts that were running alongside each other, and really kind of duplicated efforts for a very long time.
 
@@ -54,7 +54,7 @@ One of the things that's happening is there's the Caniuse repo, and then there's
 
 **Divya Sasidharan:** Yeah, I use Alfred for a lot of things. I use Dash as well for documentation lookup, just because it's really fast, and that gives me an excuse to never ever have to go to a website and a doc page ever.
 
-**Jerod Santo:** So in the next bit of nerdy, video game-focused developer news - at long last, Mario has come to HTML. This is an unofficial port of Mario Brothers game to HTML -- really to Javascript and HTML... To the Canvas, so it's definitely to HTML. But Nintendo did not sponsor this effort, and I bet if they found out about it -- well, maybe they would be nice about it, but they could definitely do a \[unintelligible 00:09:11.18\] and take it down if they wanted to... But very cool. Did you all check that link that I put into the show notes and play a little bit of Mario right there in your browser?
+**Jerod Santo:** So in the next bit of nerdy, video game-focused developer news - at long last, Mario has come to HTML. This is an unofficial port of Mario Brothers game to HTML -- really to JavaScript and HTML... To the Canvas, so it's definitely to HTML. But Nintendo did not sponsor this effort, and I bet if they found out about it -- well, maybe they would be nice about it, but they could definitely do a DMCA takedown if they wanted to... But very cool. Did you all check that link that I put into the show notes and play a little bit of Mario right there in your browser?
 
 **Nick Nisi:** No playing.
 
@@ -286,7 +286,7 @@ So there are certain words now that I say in an American accent, like parsing, j
 
 **Break:** \[00:42:57.02\]
 
-**Jerod Santo:** We are gonna finish off today's show with things that we are excited about. We call this "I'm excited about X", and in parentheses we say "where X is literally anything." So it doesn't have to be Javascript or web-related, it doesn't have to be developer-related, it could be anything. It could even be an apple harvest, but I forecast... Let's start with somebody else. Divya, what are you excited about?
+**Jerod Santo:** We are gonna finish off today's show with things that we are excited about. We call this "I'm excited about X", and in parentheses we say "where X is literally anything." So it doesn't have to be JavaScript or web-related, it doesn't have to be developer-related, it could be anything. It could even be an apple harvest, but I forecast... Let's start with somebody else. Divya, what are you excited about?
 
 **Divya Sasidharan:** I guess I can start with something that's not technical and then move to something that's more technical. I'm excited to move; that'll be great. I'm currently in a somewhat temporary situation.
 
@@ -330,7 +330,7 @@ I feel like the authorization and authentication world feels like a completely d
 
 **Jerod Santo:** Well, thank you. Um, I broke the show.
 
-**Suz Hinton:** \[00:47:51.11\] I'm gonna be a total cliché, as usual... This is Javascript hardware-related. I'm very excited for the rebirth of the serial API, but for reals this time... At least in Chrome. But the history of this API is just that it was an experimental API that was only allowed to be accessed within either Chrome extensions or Chrome apps. It then got removed from Chrome extensions and was only available on ChromeOS within Chrome apps... And that was a bit of a downer, because that's such a small surface area to be able to use it.
+**Suz Hinton:** \[00:47:51.11\] I'm gonna be a total cliché, as usual... This is JavaScript hardware-related. I'm very excited for the rebirth of the serial API, but for reals this time... At least in Chrome. But the history of this API is just that it was an experimental API that was only allowed to be accessed within either Chrome extensions or Chrome apps. It then got removed from Chrome extensions and was only available on ChromeOS within Chrome apps... And that was a bit of a downer, because that's such a small surface area to be able to use it.
 
 So it's now an official, proper spec, rather than just an experimental API, and it is actually already in Chrome today; it's not a complete implementation, but it's starting to get there. Just so that people know what that means - it means things like you can plug an Arduino in and start basically reading any kind of data that it's sending via the serial port over to the browser. So instead of having to have these WebSockets because you're reading it from a Node.js program instead, and then you have to pass that along to the actual browser, which is running your front-end, you can just do it all directly in the browser now, and it actually has better security in that there has to be a user gesture that actually initiates the connection to the actual device itself, and things like that.
 

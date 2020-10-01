@@ -34,7 +34,7 @@
 
 **Erik St. Martin:** So today we're gonna be talking with Bill about Mechanical Sympathy. I think this is gonna be a really interesting topic; before we get into that, let’s talk news and interesting projects. Anybody have any interesting they want to talk about before we get into it with Bill?
 
-**Bill Kennedy:** You know, it was a pretty quiet week in Go news from my perspective. But I did find two relatively interesting projects. The first one I thought might be a winner in the best hack of the year award. In the show notes you'll find a link to the blog post from Acksin, acksin.com, where they hacked together a way to send stats dtype metrics to Google Analytics, which seems like an interesting shoehorn and it looks like it works pretty well. So you get a nice free stats D monitoring for your servers using Google Analytics inappropriately. I approve completely of this plan.
+**Brian Ketelsen:** You know, it was a pretty quiet week in Go news from my perspective. But I did find two relatively interesting projects. The first one I thought might be a winner in the best hack of the year award. In the show notes you'll find a link to the blog post from Acksin, acksin.com, where they hacked together a way to send stats dtype metrics to Google Analytics, which seems like an interesting shoehorn and it looks like it works pretty well. So you get a nice free stats D monitoring for your servers using Google Analytics inappropriately. I approve completely of this plan.
 
 **Erik St. Martin:** You know, but the interesting thing about that though is that you can see it alongside metrics that you are already collecting in Google Analytics. And how some of those things might impact your funnel. I can’t think of any specific uses I'd use it for off the bat, but I think it has potential to be valuable.
 
@@ -54,7 +54,7 @@
 
 **Erik St. Martin:** ...you still wouldn’t have access to the code, but some of it also comes in the way submodules work. So if I pulled down your project and I needed to do a Git submodule update to update my local versions of those submodules, but if I don’t do that, I’m still running with my prior versions of those submodules. So by checking out your code it doesn’t move my submodules with it, so I can accidentally commit my older versions of your stuff, and those lines are really easy to mess. There’s a couple issues too with the way those things that are kind of merged too, so I’m interested to see how that's solved. Because people step on each other's submodules all the time. You see it where I pulled down your changes but I didn’t notice you had submodule updates, but then I commit my commit and my submodule versions are different than yours, and I just kind of step on yours. But I mean, these are problems that people were having years ago, so maybe there's some stuff in Git now that accounts for... Maybe the tool accounts for it a little bit too. I guess if you did it on like a commit hook or something, you could probably... But yeah, it’s interesting though... Submodules can be valuable and they can also be a pain, but I guess everything in programming can be, right?
 
-**Bill Kennedy:** Always.
+**Brian Ketelsen:** Always.
 
 **Erik St. Martin:** Have you guys used submodules before, anybody?
 
@@ -128,7 +128,7 @@
 
 **Erik St. Martin:** \[00:15:55.04\] And I guess another example would be like a multidimensional ray, right? Iterating over row-based versus column-based.
 
-**Erik St. Martin:** Yeah, we actually have some examples in the training with that over benchmarking, where you actually see a significant difference in performance. If you go row base you see it’s much faster than if you go in column base... Kind of breaking, you know, going against the grain.
+**Bill Kennedy:** Yeah, we actually have some examples in the training with that over benchmarking, where you actually see a significant difference in performance. If you go row base you see it’s much faster than if you go in column base... Kind of breaking, you know, going against the grain.
 
 **Erik St. Martin:** Yes, so it’s interesting though, because we typically think about memory for free, right? You know, we're like, "Yeah, it’s on a RAM. RAM is fast. At least I don’t have to go to disc for it", right? But doing something like column first or row first iteration over an array like that, it really demonstrates the point how much slower it is to go to RAM than CPU cache. And it really shows its head the bigger that it grows.
 

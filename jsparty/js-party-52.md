@@ -1,4 +1,4 @@
-**Jerod Santo:** Alright friends, welcome back to JS Party. You know that we love music around here; we like those BMC beats. You know we've known to do bad rapping even, and we like music... We aren't good at music, but we enjoy it, and we thought we'd bring on some folks who are actually good at music, and Javascript music... But first of all, let me introduce my co-host today, Suz Hinton. Suz, how are you doing?
+**Jerod Santo:** Alright friends, welcome back to JS Party. You know that we love music around here; we like those BMC beats. You know we've known to do bad rapping even, and we like music... We aren't good at music, but we enjoy it, and we thought we'd bring on some folks who are actually good at music, and JavaScript music... But first of all, let me introduce my co-host today, Suz Hinton. Suz, how are you doing?
 
 **Suz Hinton:** Hey! It's really good to be back. I've not been at JS Party for a while and I miss you all so much.
 
@@ -20,7 +20,7 @@ Today we have a couple of super-special guests, two-thirds of a band called Nest
 
 **Jan Monschke:** We have to talk about him, yeah.
 
-**Jerod Santo:** So for the loyal JS Party listeners, you'll probably remember that I mentioned Nested Loops off the cuff a couple weeks back on the show with Safia and team, talking about documentation. I did a real-life retweet of Kahlil, who had mentioned something funny on Twitter about documentation, and I thought it was poignant and completely relevant to that conversation. And I mentioned, Kahlil, that you're in a band called Nested Loops... And I was just speaking off the cuff; I called it a reggae band, which was really silly to say that. I knew it was more of an electronic, like rap, like EDM with rap and Javascript band, but the reason why I said reggae is because when you actually come in and do your rapping, you have kind of a reggae style or Jamaican (I don't know) accent to your rapping. Is that fair to say, at least?
+**Jerod Santo:** So for the loyal JS Party listeners, you'll probably remember that I mentioned Nested Loops off the cuff a couple weeks back on the show with Safia and team, talking about documentation. I did a real-life retweet of Kahlil, who had mentioned something funny on Twitter about documentation, and I thought it was poignant and completely relevant to that conversation. And I mentioned, Kahlil, that you're in a band called Nested Loops... And I was just speaking off the cuff; I called it a reggae band, which was really silly to say that. I knew it was more of an electronic, like rap, like EDM with rap and JavaScript band, but the reason why I said reggae is because when you actually come in and do your rapping, you have kind of a reggae style or Jamaican (I don't know) accent to your rapping. Is that fair to say, at least?
 
 **Kahlil Lechelt:** Yeah, definitely.
 
@@ -58,7 +58,7 @@ Then everybody just dispersed into different directions because people had to go
 
 I had a gig with my hip-hop band back then, and there was this dancehall sound system that was playing after us, and I really loved the music, and we linked up. So I really got deep into that music, and I just kind of gravitated to the energy of that music very strongly... And I still love it. And I just wanted to do it. I saw these artists perform on stage, on videos on YouTube and stuff like that, and I was like "That's kind of what I wanna do, so I'm gonna try to get into this." I got into the language - or accent, or whatever you wanna call it \[unintelligible 00:11:52.01\] and then I got kind of serious about it. I recorded a demo, I sent it to labels, and there was actually a label in Germany that took me on, wanted to mentor me and manage me, and we did...
 
-\[00:12:11.13\] After my studies I was just doing that for like four years. I was living in Leipzig (Germany), where that label was, and I was really stoked to be with that label because back in the day they were the only German kind of label that was releasing really good music in that genre... At least that was my opinion at the time. \[unintelligible 00:12:38.17\] to start to work with them, and then I started working with them and we recorded a lot of singles and released a lot of stuff digitally. I was touring in Europe a lot during those four years, and it went kind of well. It was pretty undergroundy, the whole scene... It did okay.
+\[00:12:11.13\] After my studies I was just doing that for like four years. I was living in Leipzig (Germany), where that label was, and I was really stoked to be with that label because back in the day they were the only German kind of label that was releasing really good music in that genre... At least that was my opinion at the time. I was really stoked to start to work with them, and then I started working with them and we recorded a lot of singles and released a lot of stuff digitally. I was touring in Europe a lot during those four years, and it went kind of well. It was pretty undergroundy, the whole scene... It did okay.
 
 One of the most exciting things was that there was a Japanese label that wanted to do an album with me and we went to Japan for a week to promote it, and stuff like that. That was really cool.
 
@@ -66,9 +66,9 @@ One of the most exciting things was that there was a Japanese label that wanted 
 
 **Kahlil Lechelt:** Yeah, hanging out in Tokyo for a week... That was really awesome. So that was just part of my life, or was my life, for a long time. Then I just made the decision to go back into development after a while, because it didn't really work out financially for me, and also, the team that I was surrounded by was not a really good fit in the end... And development was always a passion of mine too, and it was fun to get back into that as well. But I also met my now wife, I needed some stability, so I started working as a developer again, and then that became my main life... But I was always doing music somehow in the background. I'm always doing music somehow, a little bit, here or there.
 
-Then this happened, where Jan saw -- for some reason, I felt like tweeting out this video because nobody really... Because on Twitter people know me as this Javascript developer and nobody knows me from back then, so I tweeted out that video - which is this video we made in Japan, in the streets, and I was performing that song from that album - just to kind of shock people... \[laughter\] And just to have fun. Then Jan responded to that, and that was kind of how it came together. He was like, "Do you wanna do this performance with me?" and I said "Yeah, sure. Let's figure something out." That's basically how it started.
+Then this happened, where Jan saw -- for some reason, I felt like tweeting out this video because nobody really... Because on Twitter people know me as this JavaScript developer and nobody knows me from back then, so I tweeted out that video - which is this video we made in Japan, in the streets, and I was performing that song from that album - just to kind of shock people... \[laughter\] And just to have fun. Then Jan responded to that, and that was kind of how it came together. He was like, "Do you wanna do this performance with me?" and I said "Yeah, sure. Let's figure something out." That's basically how it started.
 
-So Jan would be the technical part, I would be the rapping part, and there was somebody else who was supposed to be the music part, so somebody who produces the music... And we had no idea what we were actually going to do back then. It was just like "Hey, Jan does all this stuff in the browser and make sure that Javascript takes care of playing the music" at least, right? Or you can manipulate the music, or something like that. There was this vague idea.
+So Jan would be the technical part, I would be the rapping part, and there was somebody else who was supposed to be the music part, so somebody who produces the music... And we had no idea what we were actually going to do back then. It was just like "Hey, Jan does all this stuff in the browser and make sure that JavaScript takes care of playing the music" at least, right? Or you can manipulate the music, or something like that. There was this vague idea.
 
 Then there was this other guy who was into producing, and I was (like I said) a rapper, and we were then brainstorming in the Slack channel and we were trying to come up with a musical style that we could all agree upon. I think the styles that me and Jan wanted to do weren't really a good fit for our then third person... Is that fair, Jan?
 
@@ -96,9 +96,9 @@ We did that, and luckily, we found something that Jan also liked, and I liked, a
 
 **Suz Hinton:** Oh, wow...
 
-**Jan Monschke:** Very well-produced. It's pretty good. I still listen to it from time to time. And yeah, I kind of wanted to do the same. The cool thing was Kahlil's tweet, where he talked about his musician life, came at the right time, because for a very long time it was just me having this idea and not knowing how to execute, because my musical background is rather shaky... So finding musicians on Twitter that also liked Javascript was like "What are the odds...?!", so that had to happen. So I think it was this TED talk that influenced this entire thing.
+**Jan Monschke:** Very well-produced. It's pretty good. I still listen to it from time to time. And yeah, I kind of wanted to do the same. The cool thing was Kahlil's tweet, where he talked about his musician life, came at the right time, because for a very long time it was just me having this idea and not knowing how to execute, because my musical background is rather shaky... So finding musicians on Twitter that also liked JavaScript was like "What are the odds...?!", so that had to happen. So I think it was this TED talk that influenced this entire thing.
 
-**Kahlil Lechelt:** That's right, that's right. That was the original idea. Then we thought, okay, we can take Javascript talks from people that we admire, and then try to cut that together to something, to a message of some sort, or something like that. Then what we started to do is just download all these talks that we thought were funny or interesting -- well, not funny, but mostly interesting...
+**Kahlil Lechelt:** That's right, that's right. That was the original idea. Then we thought, okay, we can take JavaScript talks from people that we admire, and then try to cut that together to something, to a message of some sort, or something like that. Then what we started to do is just download all these talks that we thought were funny or interesting -- well, not funny, but mostly interesting...
 
 **Jerod Santo:** Sure.
 
@@ -130,15 +130,15 @@ What also came into that -- we did not only take the audio snippets, we also too
 
 **Jerod Santo:** And it all came together.
 
-**Kahlil Lechelt:** Yeah, it all came together. And we ended up just playing around with the snippets on top of the beat at my place on one weekend when we were meeting all together, and that's when actually the story of how the snippets play off of each other came together. It just was funny... We just tried to talk about Javascript and about its quirks, or let the speakers talk about Javascript and its quirks, and what Javascript is or isn't, in a funny way where these snippets are taken out of context... And because they play off of each other, they then make you laugh. That's kind of the recipe that worked for us the best, and it was the easiest to come with that and play around with that - just take them completely out of context and see what happens... But also kind of pick up on subjects of the last year of Javascript world, for instance functional programming, or React, or virtual DOM.
+**Kahlil Lechelt:** Yeah, it all came together. And we ended up just playing around with the snippets on top of the beat at my place on one weekend when we were meeting all together, and that's when actually the story of how the snippets play off of each other came together. It just was funny... We just tried to talk about JavaScript and about its quirks, or let the speakers talk about JavaScript and its quirks, and what JavaScript is or isn't, in a funny way where these snippets are taken out of context... And because they play off of each other, they then make you laugh. That's kind of the recipe that worked for us the best, and it was the easiest to come with that and play around with that - just take them completely out of context and see what happens... But also kind of pick up on subjects of the last year of JavaScript world, for instance functional programming, or React, or virtual DOM.
 
 I think our first track that we did for JSConf had a whole bunch of "Virtual DOM, virtual DOM", in the first iteration... \[laughter\] Just "Virtual DOM, virtual DOM, virtual DOM..." It sounded funny, and it was such a big topic... Yeah, so we were playing with actual big topics, and these snippets out of context. It was funny, and it was fun.
 
 **Jan Monschke:** Yeah, I especially liked that we make Crockford say that he loves classes. \[laughter\] That was amazing. There's a smirk on my face when I listen to that line. \[laughter\]
 
-**Suz Hinton:** Can you give us a few more technical details around the tools you used? You've sort of alluded to having some challenges when it came to trying to drive this whole thing with Javascript, but can you maybe just break down the pieces at a high-level, so we can sort of drill down on a deeper level for some of the other parts?
+**Suz Hinton:** Can you give us a few more technical details around the tools you used? You've sort of alluded to having some challenges when it came to trying to drive this whole thing with JavaScript, but can you maybe just break down the pieces at a high-level, so we can sort of drill down on a deeper level for some of the other parts?
 
-You have your MIDI, but then is that connected to Javascript? And then you have your videos, and is that playing in a browser? What kind of tools did you use that are standard for this sort of industry, and then where did you have to get creative when it came to Javascript, such as having three gigs of RAM?
+You have your MIDI, but then is that connected to JavaScript? And then you have your videos, and is that playing in a browser? What kind of tools did you use that are standard for this sort of industry, and then where did you have to get creative when it came to JavaScript, such as having three gigs of RAM?
 
 **Jan Monschke:** Yeah, so there are two iterations of the software. There's the one that is a good piece of software that I did for the last two years, the last two performances, and then there's this obscure hack. But essentially, it's this - you have a MIDI instrument, and it has a bunch of buttons. Midi is just a standard of like a messaging format that is used for mainly music hall devices. Let's say I press a button on this thing that is connected to my computer, and then the browser registers that through the Web MIDI API. There's actually an API that lets you connect and talk with these big music MIDI controllers.
 
@@ -148,13 +148,13 @@ Then what becomes tricky - the MIDI thingy is very real-time, so I press this bu
 
 There were some glitches in the first performance, that probably nobody who's not really listening to if there are quirks and glitches hears, but as a performer you definitely hear these things. The second iteration had this whole scheduling built into it.
 
-So yeah, the first one was only a plain Javascript HTML website, and it had a Canvas element... Let me go back one second. The video had all the audio in it, so you would play the video with your MIDI device, you would trigger that, and then there was a Canvas that was connected to the Web Audio API, which is another set of API, that would analyze the audio of the video and then would show waveforms as a visualization of what they are talking about, and we would use that. It would also use the Web Audio API to actually route the audio of that video to your external speakers, and all that stuff. It was very bare bones. Does that make sense?
+So yeah, the first one was only a plain JavaScript HTML website, and it had a Canvas element... Let me go back one second. The video had all the audio in it, so you would play the video with your MIDI device, you would trigger that, and then there was a Canvas that was connected to the Web Audio API, which is another set of API, that would analyze the audio of the video and then would show waveforms as a visualization of what they are talking about, and we would use that. It would also use the Web Audio API to actually route the audio of that video to your external speakers, and all that stuff. It was very bare bones. Does that make sense?
 
 **Suz Hinton:** Yes, it totally made sense.
 
 **Jan Monschke:** Okay, cool.
 
-**Suz Hinton:** I really liked that you talked about the scheduler, too. I've definitely written a sequencer before in Javascript, and because I'm so bad at music, I just said "Whichever beat it's closest to, just schedule it for that next time." \[laughs\]
+**Suz Hinton:** I really liked that you talked about the scheduler, too. I've definitely written a sequencer before in JavaScript, and because I'm so bad at music, I just said "Whichever beat it's closest to, just schedule it for that next time." \[laughs\]
 
 **Jan Monschke:** Yeah, exactly.
 
@@ -182,7 +182,7 @@ Whenever there was a bug, he would just send me his zip file form this Electron 
 
 **Suz Hinton:** That's a very cool collaboration.
 
-**Kahlil Lechelt:** Yeah, it's so cool that you can do that with Javascript, that you can make a desktop app and implement something with drag and drop, or upload those snippets in there and stuff, so he could use it very easily. That was really awesome. It's actually a really good, very cool piece of software. If you wanna do this sort of thing, it's all on GitHub.
+**Kahlil Lechelt:** Yeah, it's so cool that you can do that with JavaScript, that you can make a desktop app and implement something with drag and drop, or upload those snippets in there and stuff, so he could use it very easily. That was really awesome. It's actually a really good, very cool piece of software. If you wanna do this sort of thing, it's all on GitHub.
 
 **Suz Hinton:** Did you say that you did it in Electron as well?
 
@@ -210,7 +210,7 @@ So yeah, in the second iteration, this was built into the software as well, and 
 
 **Jan Monschke:** Yes. This is all Martin's work, so I'm not taking any credit here. He had this idea, and when Martin has an idea, that's always a good sign; then he gets really obsessed with this. He's like "So we have this amazing venue, and it has these lights, and we can control these lights..." Because all these lights in all venues - they also have a protocol that they all speak. It's like MIDI for these music instruments, they speak DMX, which is a similar kind of protocol. And he's like "Well, I don't like programming DMX."
 
-\[00:36:13.26\] He could control all these lights, rotations, color changes with Javascript, but he's like "There has to be a descriptive way of doing this", so he built his own CSS light editor. It's like a superset of CSS that he can punch into this editor, and then he changes the lights in the venue. That blew my mind. It's like, you type some CSS, and then all of a sudden that spotlight there is grey, or white, and then it turns blue; he's like, "Yeah, yeah, I can do that."
+\[00:36:13.26\] He could control all these lights, rotations, color changes with JavaScript, but he's like "There has to be a descriptive way of doing this", so he built his own CSS light editor. It's like a superset of CSS that he can punch into this editor, and then he changes the lights in the venue. That blew my mind. It's like, you type some CSS, and then all of a sudden that spotlight there is grey, or white, and then it turns blue; he's like, "Yeah, yeah, I can do that."
 
 Then he also built in transitions. \[unintelligible 00:36:57.12\] Of course, CSS is animations, so of course his light programming thingy also needs to have animations, so he's like, "Okay, let me animate the rotation", and then all of a sudden all the lights in the venue were just spinning, and it's all done in this CSS editor that he built... It's like, "What is going on?!" I was so blown away when he did that. I'm not sure if that's open source.
 
@@ -228,7 +228,7 @@ Then he also built in transitions. \[unintelligible 00:36:57.12\] Of course, CSS
 
 **Jerod Santo:** I don't know about you, Suz, but all this makes me feel kind of like a worthless excuse for a developer over here... \[laughter\] Like, "Man, I'm a non-contributing zero. This stuff is amazing! What have I ever done...?"
 
-**Suz Hinton:** \[laughs\] There were just so many pieces that came together, and on top of that it's all Javascript and open web technologies. It's so many combinations of wonderful things that even just hearing you talk about it without actually being there - you can imagine all the different pieces coming together. It's incredible.
+**Suz Hinton:** \[laughs\] There were just so many pieces that came together, and on top of that it's all JavaScript and open web technologies. It's so many combinations of wonderful things that even just hearing you talk about it without actually being there - you can imagine all the different pieces coming together. It's incredible.
 
 **Break:** \[00:39:51.28\]
 
@@ -238,11 +238,11 @@ Guys, I wanna go big-picture for a minute and talk about maybe an emerging trend
 
 I'm curious what your guys' thoughts are -- I know you've done these three performances; Nested Loops seems to kind of exist around and for JSConf, but is this something that could potentially become its own mini-movement? Or maybe it is and I just don't know about it.
 
-**Kahlil Lechelt:** Good question. I'm not sure. I only know of us and JS Live Network, which they also really -- their contribution last year for JSConf was also really amazing. They're also combining visuals with music, but they just have way more gadgets than we do, everything is kind of driven by Javascript... And I'm not really aware of any other program or bands. Have you seen any more around, or...?
+**Kahlil Lechelt:** Good question. I'm not sure. I only know of us and JS Live Network, which they also really -- their contribution last year for JSConf was also really amazing. They're also combining visuals with music, but they just have way more gadgets than we do, everything is kind of driven by JavaScript... And I'm not really aware of any other program or bands. Have you seen any more around, or...?
 
-**Jerod Santo:** Well, in the pre-party Jan mentioned that there's multiple Javascript bands, so I was interested to hear about what that means.
+**Jerod Santo:** Well, in the pre-party Jan mentioned that there's multiple JavaScript bands, so I was interested to hear about what that means.
 
-**Jan Monschke:** Yeah, I don't think Kahlil remembers my other Javascript bands...
+**Jan Monschke:** Yeah, I don't think Kahlil remembers my other JavaScript bands...
 
 **Kahlil Lechelt:** Oh, the Semi-Colons!
 
@@ -256,13 +256,13 @@ I'm curious what your guys' thoughts are -- I know you've done these three perfo
 
 **Jerod Santo:** Okay.
 
-**Jan Monschke:** But these are catered towards these two conferences, but I happen to be the organizer of the Web Audio Conference, and in the Web Audio's scene there are many people that are actually live-performing music with web technology. They don't necessarily refer to Javascript in the lyrics or anything, it's like legit musicians. There's some people -- there's Matt Mckegg, with an awesome... It's called Loop Drop. It's an Electron-based music production environment, and he has been performing at festivals with that, with this Electron app. But he is also struggling with that, because Javascript and Electron - they have all these quirks where they might just crash. The browser is not yet ready for like a live set of 1.5 hours of heavy music performance.
+**Jan Monschke:** But these are catered towards these two conferences, but I happen to be the organizer of the Web Audio Conference, and in the Web Audio's scene there are many people that are actually live-performing music with web technology. They don't necessarily refer to JavaScript in the lyrics or anything, it's like legit musicians. There's some people -- there's Matt Mckegg, with an awesome... It's called Loop Drop. It's an Electron-based music production environment, and he has been performing at festivals with that, with this Electron app. But he is also struggling with that, because JavaScript and Electron - they have all these quirks where they might just crash. The browser is not yet ready for like a live set of 1.5 hours of heavy music performance.
 
-But there are definitely people out there, people that do live-coding environments, and that is pretty cool. I think Javascript is ready for primetime in a sense, but I haven't seen major acts using it yet.
+But there are definitely people out there, people that do live-coding environments, and that is pretty cool. I think JavaScript is ready for primetime in a sense, but I haven't seen major acts using it yet.
 
-**Jerod Santo:** \[00:46:11.20\] When you look at these things, I guess maybe from a business level perspective, or maybe analytical, you look at communities growing or shrinking, and in terms of your potential listener base as a Javascript-focused band, or Javascript-based band, or whatever it is, it's something that is growing leaps and bounds. The programmer community at large is growing leaps and bounds, and then Javascript inside that. Only Python is growing at a faster rate of adoption than Javascript right now, and I think that's mostly due to a lot of the machine learning tooling around Python; other reasons, of course, but I think that's a major factor.
+**Jerod Santo:** \[00:46:11.20\] When you look at these things, I guess maybe from a business level perspective, or maybe analytical, you look at communities growing or shrinking, and in terms of your potential listener base as a JavaScript-focused band, or JavaScript-based band, or whatever it is, it's something that is growing leaps and bounds. The programmer community at large is growing leaps and bounds, and then JavaScript inside that. Only Python is growing at a faster rate of adoption than JavaScript right now, and I think that's mostly due to a lot of the machine learning tooling around Python; other reasons, of course, but I think that's a major factor.
 
-It's a community that's getting bigger and bigger, and so you have people that are more and more interested, where you could make music that not just reaches them in a musical sense, but also intellectually tickles their Javascript or programmer/nerd things that you're already doing. I think there's some potential there.
+It's a community that's getting bigger and bigger, and so you have people that are more and more interested, where you could make music that not just reaches them in a musical sense, but also intellectually tickles their JavaScript or programmer/nerd things that you're already doing. I think there's some potential there.
 
 **Jan Monschke:** Oh, I see. Now I see where you're getting at, yeah.
 
@@ -280,7 +280,7 @@ Nerd audiences are, I think, a really cool target audience. I remember there was
 
 **Jerod Santo:** Yeah. He's so good... He's so good he's anonymous. \[laughter\]
 
-**Jan Monschke:** But I honestly think that there are enough topics only in Javascript land that can be like a muse. If you look at only things in React land right now... Whenever there is like a big announcement from the React team, you can make a song out of that. \[laughter\]
+**Jan Monschke:** But I honestly think that there are enough topics only in JavaScript land that can be like a muse. If you look at only things in React land right now... Whenever there is like a big announcement from the React team, you can make a song out of that. \[laughter\]
 
 **Kahlil Lechelt:** We could make a Nested Loops song just with two talks about that.
 
@@ -292,7 +292,7 @@ Nerd audiences are, I think, a really cool target audience. I remember there was
 
 **Kahlil Lechelt:** Jump on some beats. You can get some instrumentals from iTunes, or whatever, and then just jump on that. But of course, writing those lyrics is definitely some effort. \[laughter\]
 
-**Jerod Santo:** \[00:50:20.16\] Oh, of course. I'm not looking for a get-rich-quick plan here. \[laughter\] I just feel like we're coming to a point where the critical mass -- I mean, Robert Tables in our chat has been talking about "How do you even keep up with the Javascript community, let alone the technology?" The technologies are far-reaching and fast-moving, but the community is everywhere.
+**Jerod Santo:** \[00:50:20.16\] Oh, of course. I'm not looking for a get-rich-quick plan here. \[laughter\] I just feel like we're coming to a point where the critical mass -- I mean, Robert Tables in our chat has been talking about "How do you even keep up with the JavaScript community, let alone the technology?" The technologies are far-reaching and fast-moving, but the community is everywhere.
 
 Suz, you're out there in the community all the time, and you can't be on the podcast because you're always at a conference, so there's just so much going on that I feel like we're a growing group.
 
@@ -300,7 +300,7 @@ Suz, you're out there in the community all the time, and you can't be on the pod
 
 **Kahlil Lechelt:** That's a good idea.
 
-**Jerod Santo:** I think we're onto something here. So this Loop Drop tool is cool; I got that in the show notes as well, loopjs.com. Suz and I are not in this space creatively very much, so we were wondering if you guys have knowledge of, or can point people towards tooling in the web technologies or in the Javascript space, beyond the ones you've mentioned already, that people can use to create either generative music, or this kind of thing... What kind of tools are out there, or what's missing in the community where \[unintelligible 00:51:40.10\] make music?
+**Jerod Santo:** I think we're onto something here. So this Loop Drop tool is cool; I got that in the show notes as well, loopjs.com. Suz and I are not in this space creatively very much, so we were wondering if you guys have knowledge of, or can point people towards tooling in the web technologies or in the JavaScript space, beyond the ones you've mentioned already, that people can use to create either generative music, or this kind of thing... What kind of tools are out there, or what's missing in the community where \[unintelligible 00:51:40.10\] make music?
 
 **Jan Monschke:** I think for a lot of people it's missing the basics of what music making means. I include myself in that group as well, because I don't have a musical background per se, but... There are some amazing web-based tools to learn how to make music and then also to get into making that yourself. Ableton, who is the producer of one of the biggest music production softwares in the world, and they have this website called learningmusic.ableton.com; it's a web audio app that pretty much teaches you everything you need to know to get started in making music, and how music fundamentally works, how the timing works, what the different genres are, and how to make a nice drum line, and all these things.
 
@@ -338,6 +338,6 @@ Then you can go one step further and look into "Okay, the Web Audio API is out t
 
 **Kahlil Lechelt:** That's cool.
 
-**Jerod Santo:** Alright, so... Coming to headphones near you, potentially; "there's conversations" about a potential JS Party Nested Loops collaboration. Stay tuned for that... That's super-exciting. Also, if you enjoyed this episode, go back and listened to the conversation I had with Feross a couple weeks back, all about BitMidi, which is another really cool music-focused, web-based Javascript application, and all the nitty-gritty on that. That was a fun one, so go back and listen to that.
+**Jerod Santo:** Alright, so... Coming to headphones near you, potentially; "there's conversations" about a potential JS Party Nested Loops collaboration. Stay tuned for that... That's super-exciting. Also, if you enjoyed this episode, go back and listened to the conversation I had with Feross a couple weeks back, all about BitMidi, which is another really cool music-focused, web-based JavaScript application, and all the nitty-gritty on that. That was a fun one, so go back and listen to that.
 
 That's our show for today. Thanks so much for the Nested Loops gang being here, and hey, you never know, you might be hearing them again soon. We'll see you all next week!

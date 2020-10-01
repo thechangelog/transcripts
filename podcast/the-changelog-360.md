@@ -64,7 +64,7 @@ What I always wonder is - you have this nice, little side project, people are us
 
 **Abhinav Asthana:** I didn't think any of that... If you enumerate it that way, it's ridiculous to start a company. Why would anybody do it? It's like you're laying on a bed that looks pretty neat, the mattress is fluffy, but the mattress gets pulled out the second day. And there's a bed of nails there, generally. \[laughs\] So I didn't think any of that.
 
-I think I really enjoyed that feedback loop that I had while working on Postman. I loved building something that I had as a problem, and I would give it to somebody and they would say that "Hey, you solved this problem for me", and that was the best feeling. Of course, you can't live on feelings alone, and I tried a lot of different ways to sustain the project. Postman had a Donate button, and I think that less than 0.0001% of people ever donated. I tried putting some sponsors in. At that time there was \[unintelligible 00:14:42.23\] got acquired.
+I think I really enjoyed that feedback loop that I had while working on Postman. I loved building something that I had as a problem, and I would give it to somebody and they would say that "Hey, you solved this problem for me", and that was the best feeling. Of course, you can't live on feelings alone, and I tried a lot of different ways to sustain the project. Postman had a Donate button, and I think that less than 0.0001% of people ever donated. I tried putting some sponsors in. At that time there was Mashape, Restlet and a bunch of other companies. Mashape became Kong and then Restlet got acquired.
 
 So I tried a whole bunch of things, but primarily what got me into doing Postman -- so I quit my job. I was like "Okay, I don't know what I'm gonna do, but I know I like working on Postman and I don't want to work for a big company or any company for a while." So I picked up a consulting gig, in which interestingly I had to design a smartphone app. I always played both hats in the previous company I was at - I was a UX designer, a UI designer, as well as a programmer... So for making money on the side, I was like "Okay, I can pay rent and I can sustain myself, so I'm gonna do this for two days a week, and for five days a week I'm gonna work on Postman, and let's see where it goes."
 
@@ -82,7 +82,7 @@ Ankit at that time was working in Mumbai, India, and I was in Bangalore, so I bo
 
 **Abhinav Asthana:** Yeah. So Ankit, Abhijit and I had this interesting relationship. I was an intern at Yahoo!, working with Ankit, and Abhijit was an intern working with me at my first company. So we knew each other through this intern/employee relationship. Ankit and I started working together; during this time when I quit my previous startup, I got a call from Google saying they want to feature Postman on the Chrome Web Store as one of the featured apps on the new platform. That was a very encouraging sign, and I think that's when Ankit and I decided to look at things a little bit more seriously, much more than a side project, and we started looking at people who might be excited about working on it, maybe on the side.
 
-We had a bunch of things, like we had this interceptor plugin, which the two of us just couldn't maintain on our own. We found out that Abhijit was in Bangalore, and Abhijit and I had worked \[unintelligible 00:17:26.01\] so we kind of picked him out... He was at Walmart Labs and we found he was in the city; I sent him a note saying "Hey, we're doing this thing. Do you wanna work with us?" and he's like "Yes." And that's it. \[laughter\]
+We had a bunch of things, like we had this interceptor plugin, which the two of us just couldn't maintain on our own. We found out that Abhijit was in Bangalore, and Abhijit and I had worked in Delhi then, so we kind of picked him out... He was at Walmart Labs and we found he was in the city; I sent him a note saying "Hey, we're doing this thing. Do you wanna work with us?" and he's like "Yes." And that's it. \[laughter\]
 
 **Adam Stacoviak:** Just like that. "Yes!" That's the response you want when you ask somebody a question like that. "Do you wanna work with us?" "Yes. Yes, I do."
 
@@ -122,7 +122,7 @@ Then I started getting more into being open to talking, and listening, and... Ev
 
 **Adam Stacoviak:** \[00:23:58.18\] It's interesting how sitting down with a user of a product you're building or have built, and how motivating that is to you, because you see them using it, and not only do you get that feedback loop going, but you kind of have this -- we're all in this, in some way, shape or form, to be in relationship with other people... And that way you're able to actually reach out and help other people solve their problems with your tooling... And I can't even imagine how motivating that was for you, to actually see people face-to-face using Postman.
 
-**Abhinav Asthana:** Yeah, it totally changed my perspective on what Postman was. Of course, I liked it as a side project, and it was fun to work on it, and I knew it had value... But once you see how passionate people are about the thing that you've built, you actually feel more responsible for it. It's not like you can think of anything -- we are very conscious of breaking changes; even for \[unintelligible 00:24:53.11\] I can say "Okay, you can go and use Postman that way", still... And you wanna respect that.
+**Abhinav Asthana:** Yeah, it totally changed my perspective on what Postman was. Of course, I liked it as a side project, and it was fun to work on it, and I knew it had value... But once you see how passionate people are about the thing that you've built, you actually feel more responsible for it. It's not like you can think of anything -- we are very conscious of breaking changes; like even for usual I can say "Okay, you can go and use Postman that way", still... And you wanna respect that.
 
 When people have invested a part of their life in learning a product that you've built, they've built workflows around it, there are mission-critical things that are happening... I think once you meet them and you see that there are real people using the product... I mean, we have more than seven million users on the website... But what is still important is the stories and use cases of each one of them. It made me more responsible, and I did the same thing with every single employee at Postman since then. We fly them out and we hold meetups. And of course we tell people "This is what Postman can do", but a lot of it is for us to just know what they're doing with the product.
 
@@ -144,13 +144,13 @@ So what we saw was this started getting traction, not just with internal develop
 
 In 2016 we launched this concept of a team library, where you could share collections that you're working with, all in one page. It kind of becomes a shared API repository for your team. Then it eventually evolved into this concept of a workspace, where you can invite people and work with them in real time, like the way you work on Google Docs, or Slack, for all the things that you're doing together. We feel that was one very strong thread that ran through to help Postman grow.
 
-\[00:32:10.15\] And along with that, just adding more tools to enrich everybody's workflow. Now Postman can test for hundreds of different kinds of APIs. It already supports so many different kinds of protocols, and so many different ways of working with request bodies, and stuff. So we continued all of that, we added more tools to cover more of the workflow. You can create mock servers in Postman, you can build documentation in Postman... And I think the only other thing I'd mention is that we knew this nature of developers to try to tinker with the tool, to do things a little bit more efficiently, so we built this Javascript-based runtime in the product, which gave rise to other use cases like automation testing, and chaining, eventually leading up to integrations with CI/CD systems and whatnot.
+\[00:32:10.15\] And along with that, just adding more tools to enrich everybody's workflow. Now Postman can test for hundreds of different kinds of APIs. It already supports so many different kinds of protocols, and so many different ways of working with request bodies, and stuff. So we continued all of that, we added more tools to cover more of the workflow. You can create mock servers in Postman, you can build documentation in Postman... And I think the only other thing I'd mention is that we knew this nature of developers to try to tinker with the tool, to do things a little bit more efficiently, so we built this JavaScript-based runtime in the product, which gave rise to other use cases like automation testing, and chaining, eventually leading up to integrations with CI/CD systems and whatnot.
 
 So we always kept the tool extensible. It was collaborative, so people could share things, and that has helped us grow. At this point, actually, we have to discover use cases now from people. Like "Okay, what are you using Postman for?" and we know a little bit better.
 
-**Jerod Santo:** I think the collaborative stuff is on point. I wanna come back to that, because I'm not sure I understand what you mean by "There's a Javascript runtime inside of the tool." Can you tell me how that plays out?
+**Jerod Santo:** I think the collaborative stuff is on point. I wanna come back to that, because I'm not sure I understand what you mean by "There's a JavaScript runtime inside of the tool." Can you tell me how that plays out?
 
-**Abhinav Asthana:** Yeah. Imagine that you have an API that you wanna test across (let's say) 50 different variations of input parameters. So in an API client you can create 50 requests, or what you can do is you can create a collection and you can have that request be dynamically created for those parameters, and you can loop through it. Postman has this concept of a pre-request script, that can run before you send the request, and a post-response script, which we call a test script. These two things are pieces of code that you write, Javascript code.
+**Abhinav Asthana:** Yeah. Imagine that you have an API that you wanna test across (let's say) 50 different variations of input parameters. So in an API client you can create 50 requests, or what you can do is you can create a collection and you can have that request be dynamically created for those parameters, and you can loop through it. Postman has this concept of a pre-request script, that can run before you send the request, and a post-response script, which we call a test script. These two things are pieces of code that you write, JavaScript code.
 
 **Jerod Santo:** Gotcha.
 
@@ -166,7 +166,7 @@ So I guess the takeaway there is if you're building collaborative tools, and the
 
 So there was this notion of sharing of a collection, and people would describe a sequence of steps that they would do, and we just thought of making that set of steps simple. The first iteration was you can upload a collection as a link, the way you share a Google Doc. You get a link and then you can open that link, and now you can use Google Docs with that thing loaded. So you could do that with Postman through the Share a Link and then Import Flows.
 
-Once we did that, then we saw documentation pages appearing, where people would list out "Go and download Postman, click on this link, click on this button etc." and we said "How can we simplify that?" So we built this Running Postman button, which - you click the button, a page opens up, and you click a button on that page, or sometimes if it's a Javascript-enabled button, then it's one click to click that button and then you open Postman... And the collection gets preloaded for you.
+Once we did that, then we saw documentation pages appearing, where people would list out "Go and download Postman, click on this link, click on this button etc." and we said "How can we simplify that?" So we built this Running Postman button, which - you click the button, a page opens up, and you click a button on that page, or sometimes if it's a JavaScript-enabled button, then it's one click to click that button and then you open Postman... And the collection gets preloaded for you.
 
 A comparative experience there against developer documentation was if you see most API documentation, it has these call commands. So you will copy that call command, put it inside the terminal for one API. Now, if the API has 200 endpoints, you need to do that 200 times, multiplied by the number of times you have variations on that API. We just simplified all of that, and people saw a lot of value in that and it just spread more. We've always seen more forms of collaboration coming up.
 
@@ -186,7 +186,7 @@ Now we have been studying these social groups inside companies, and how that int
 
 **Jerod Santo:** Because of the effort put in, because your customers aren't asking for it...? I just wonder how seriously you've thought about it.
 
-**Abhinav Asthana:** Customers haven't really asked for it. I think generally there are more concerns around how do you access those APIs, and we don't access those APIs; we don't get anything \[unintelligible 00:42:11.01\] from the client to somebody's APIs. It totally runs on your infrastructure. So they have more concerns there, like "How are you accessing our APIs?" and we don't have access to your APIs; you have access to your APIs.
+**Abhinav Asthana:** Customers haven't really asked for it. I think generally there are more concerns around how do you access those APIs, and we don't access those APIs; we don't get anything left from the client to somebody's APIs. It totally runs on your infrastructure. So they have more concerns there, like "How are you accessing our APIs?" and we don't have access to your APIs; you have access to your APIs.
 
 **Jerod Santo:** So you store the collections, but the bits inside the collections that say "Hit this server on this IP address" or whatever it is, is internal to their network, and the result of that never comes back to your cloud sync. Is that what you're saying?
 
@@ -216,7 +216,7 @@ Now we have been studying these social groups inside companies, and how that int
 
 **Jerod Santo:** Yeah, Jerry hated him a lot. Despised him.
 
-**Abhinav Asthana:** Yeah. \[unintelligible 00:44:10.28\] If it's running tests, imagine that your test fails \[unintelligible 00:44:16.28\] tells you that five things are not working.
+**Abhinav Asthana:** Yeah. If you're automation breaks, like if it's running tests, imagine that your test fails, you want to hit that thing which tells you that five things are not working.
 
 **Break:** \[00:44:26.20\]
 
@@ -276,7 +276,7 @@ That was our first iteration of it, and of course, we can talk about how it has 
 
 I think all those cases are valuable. In fact, billions of dollars are spent in digital transformations every year, which is basically everybody just trying to figure out what was done ten years ago.
 
-**Jerod Santo:** Yeah. So in addition to your Javascript runtime you could add a Fortran runtime, or a COBOL runtime.
+**Jerod Santo:** Yeah. So in addition to your JavaScript runtime you could add a Fortran runtime, or a COBOL runtime.
 
 **Adam Stacoviak:** Come on now.
 
@@ -292,7 +292,7 @@ I think all those cases are valuable. In fact, billions of dollars are spent in 
 
 **Abhinav Asthana:** Postman aims to be the collaborative platform for all APIs which an organization builds. So within the enterprise or within a company that's building APIs or consuming APIs, that's the place that you go to. And you can branch out into other things, use other tools, but that's the place where you essentially work with APIs. So we want Postman to be synonymous with anything API-related.
 
-An extension of that is as APIs also help businesses and developers collaborate in building software together, Postman is something that we expect to be the network of all APIs published \[unintelligible 00:53:38.27\] effectively. That's how we built the Postman API network for public APIs, and we have Postman Pro and Postman Enterprise for essentially internal APIs.
+An extension of that is as APIs also help businesses and developers collaborate in building software together, Postman is something that we expect to be the network of all APIs published or not, effectively. That's how we built the Postman API network for public APIs, and we have Postman Pro and Postman Enterprise for essentially internal APIs.
 
 **Jerod Santo:** Well, you're on your way. You also have the second annual Postman User Conference coming up, so... A lot moving and shaking there. Tell us about this conference. Postman enthusiasts around the world... What's the deal here?
 

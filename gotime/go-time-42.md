@@ -274,7 +274,7 @@ The set of constraints you're dealing with is very different, and I think that's
 
 **Kavya Joshi:** In general, but Go sounds like a very convenient way to get started, with things like [Gobot](https://github.com/hybridgroup/gobot) and everything else that's coming out now.
 
-**Erik St. Martin:** I think I kind of mirror the thoughts about the hardware... I'm not an electrical engineer, but I have \[unintelligible 00:41:16.26\] because I'm slowly learning. I think the fun part about learning firmware is 1) we write so much code that runs somewhere else, so writing code that you actually get to interact with, like see it turn things or light stuff up - it's really gratifying. And the thought that you can now invent physical things, not just programs to run is really cool. But I think that wanting a deep understanding of how stuff works is really cool, too. Understanding -- like you said, there's odd constraints that come to writing firmware, actual interrupts, and the amount of time your interrupt runs for, and how many assembly instructions... You can't do a Load, Modify, Store because if an interrupt takes place and modifies that registry out from underneath you, you can munge it and... It sounds like a pain in the butt, but I guess the more you build stuff, you want harder problems.
+**Erik St. Martin:** I think I kind of mirror the thoughts about the hardware... I'm not an electrical engineer, but I have piles of parts because I'm slowly learning. I think the fun part about learning firmware is 1) we write so much code that runs somewhere else, so writing code that you actually get to interact with, like see it turn things or light stuff up - it's really gratifying. And the thought that you can now invent physical things, not just programs to run is really cool. But I think that wanting a deep understanding of how stuff works is really cool, too. Understanding -- like you said, there's odd constraints that come to writing firmware, actual interrupts, and the amount of time your interrupt runs for, and how many assembly instructions... You can't do a Load, Modify, Store because if an interrupt takes place and modifies that registry out from underneath you, you can munge it and... It sounds like a pain in the butt, but I guess the more you build stuff, you want harder problems.
 
 **Kavya Joshi:** Yeah...
 
@@ -392,19 +392,19 @@ Plus, like you said, having an understanding of this brings more people to the d
 
 **Erik St. Martin:** Brian was in love with GopherJS. I think he's still playing with it on and off, but he was a big advocate for a while.
 
-**Kavya Joshi:** Yeah... Writing Javascript straight up takes me so much time, but with GopherJS now, I don't even have to. It's wonderful.
+**Kavya Joshi:** Yeah... Writing JavaScript straight up takes me so much time, but with GopherJS now, I don't even have to. It's wonderful.
 
-**Erik St. Martin:** I think I've spent so many years writing Javascript that it's just easier for me to just write Javascript... But in all fairness, I haven't tried GopherJS.
+**Erik St. Martin:** I think I've spent so many years writing JavaScript that it's just easier for me to just write JavaScript... But in all fairness, I haven't tried GopherJS.
 
-**Kavya Joshi:** We're actually considering writing large swathes of our Javascript code in Go, so we can use GopherJS, and then run Javascript.
+**Kavya Joshi:** We're actually considering writing large swathes of our JavaScript code in Go, so we can use GopherJS, and then run JavaScript.
 
-**Erik St. Martin:** Here's an interesting question about the adoption of GopherJS - how does that typically work, say, at your company? Because thinking about the way most companies are structured, you usually have a backend team and a frontend team, and the frontend team typically controls a lot of the Javascript... So is there a barrier to entry for the frontend team to pick up Go to learn GopherJS, or is this mostly just a group of full stack (as much as I hate using these buzzwords) engineers just kind of controlling the whole application?
+**Erik St. Martin:** Here's an interesting question about the adoption of GopherJS - how does that typically work, say, at your company? Because thinking about the way most companies are structured, you usually have a backend team and a frontend team, and the frontend team typically controls a lot of the JavaScript... So is there a barrier to entry for the frontend team to pick up Go to learn GopherJS, or is this mostly just a group of full stack (as much as I hate using these buzzwords) engineers just kind of controlling the whole application?
 
-**Kavya Joshi:** The engineering team at Samsara is pretty small - we're like 10-12 people, and we certainly have areas of focus. I'm on the assistance or the backend team (and there's three of us on that team), but the teams are not so much rigidly defined teams; they're fluid teams. I don't tend to do a lot of frontend, but there are certainly people who do both frontend and will do a little bit of backend. So I feel like most of the people who work on the Javascript side are familiar with Go and write a lot of Go code as well.
+**Kavya Joshi:** The engineering team at Samsara is pretty small - we're like 10-12 people, and we certainly have areas of focus. I'm on the assistance or the backend team (and there's three of us on that team), but the teams are not so much rigidly defined teams; they're fluid teams. I don't tend to do a lot of frontend, but there are certainly people who do both frontend and will do a little bit of backend. So I feel like most of the people who work on the JavaScript side are familiar with Go and write a lot of Go code as well.
 
 In general, the parts that we want to convert to Go and then use GopherJS for - I feel like it'll have to be in a slow and careful transition, like piece by piece. But I feel like the team as a whole is on board with it.
 
-**Erik St. Martin:** Oh, that's really interesting. That's always been a question of mine for people adopting it. But yeah, I guess if you're working across the stack, that makes sense. But Go is not that hard to pick up though, I guess I'd argue... Maybe less though than Javascript; it's easier to pick up some Javascript.
+**Erik St. Martin:** Oh, that's really interesting. That's always been a question of mine for people adopting it. But yeah, I guess if you're working across the stack, that makes sense. But Go is not that hard to pick up though, I guess I'd argue... Maybe less though than JavaScript; it's easier to pick up some JavaScript.
 
 **Kavya Joshi:** \[laughs\] In my opinion, but that's just me...
 

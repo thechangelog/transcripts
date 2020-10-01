@@ -226,7 +226,7 @@ With Hoodie, we always have someone around that will be able to guide someone if
 
 **Mikeal Rogers:** It sounds like the most important thing is to build the support system, and then the support system can improve on itself by improving the criteria for first-timer issues and stuff like that. But as long as you have that support system there, you're gonna be able to help people out anyway, right?
 
-**Charlotte Spencer:** Yeah, I mean building a support system is extremely difficult. I'm an admin for a relatively new Javascript Slack called WeAllJS.org, which was started by Kat Marchán, and I can tell you that 50% of the conversation and the messages sent in that Slack group is the admins in the private channel going "How can we be better? How can we be more supportive?" and there is no instant answer to that. I think you just make mistakes and then you build upon them. We certainly did make a couple of mistakes in the beginning of building that community, but they informed the rest of our work into making that community supportive. I guess you can never get it perfect, but trying is nine-tenths of the problem, I suppose.
+**Charlotte Spencer:** Yeah, I mean building a support system is extremely difficult. I'm an admin for a relatively new JavaScript Slack called WeAllJS.org, which was started by Kat Marchán, and I can tell you that 50% of the conversation and the messages sent in that Slack group is the admins in the private channel going "How can we be better? How can we be more supportive?" and there is no instant answer to that. I think you just make mistakes and then you build upon them. We certainly did make a couple of mistakes in the beginning of building that community, but they informed the rest of our work into making that community supportive. I guess you can never get it perfect, but trying is nine-tenths of the problem, I suppose.
 
 **Nadia Eghbal:** I think it's a good time to take a break. When we come back, we'll talk about how to get new contributors coming back.
 
@@ -324,7 +324,7 @@ Again, we go back to intention. What is your intention? Know that from the begin
 
 Obviously, if you can't make the setup event, then there'll probably be some extra preamble at the beginning of the event trying to help people again. But be prepared to be taking people through a setup. There's absolutely no way that people are gonna be fully prepared.
 
-I used to do Javascript workshops, and it was more than a handful of times that people turned up without a laptop. So maybe even having spare laptops where people can just run a repl or something, you know? Disaster planning is something that you learn very quickly when you're an events organizer. Assume that everything is going to go wrong, and then how are we gonna fix that?
+I used to do JavaScript workshops, and it was more than a handful of times that people turned up without a laptop. So maybe even having spare laptops where people can just run a repl or something, you know? Disaster planning is something that you learn very quickly when you're an events organizer. Assume that everything is going to go wrong, and then how are we gonna fix that?
 
 **Mikeal Rogers:** Yeah.
 

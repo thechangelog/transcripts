@@ -616,7 +616,7 @@ Once you start recognizing those patterns (`dw` is Delete Word) it becomes much 
 
 **Kris Nova:** It's highly optimized for Go, and it works great. I use it for demos and I code in it all the time.
 
-**Brian Ketelsen:** Now, one of the things we were talking about with indexing speed today - if you have Javascript mixed into your GOPATH with Go code, the indexing is significantly longer, which is part of my problem, because I've got this gigantic GOPATH. But I've put all of my code in my GOPATH; I just figured GOPATH is a great place to put all code, so that's why my indexing takes longer than most, because I have all these projects with Javascript stuff, and it's indexing those too, for all of its code intellisense stuff.
+**Brian Ketelsen:** Now, one of the things we were talking about with indexing speed today - if you have JavaScript mixed into your GOPATH with Go code, the indexing is significantly longer, which is part of my problem, because I've got this gigantic GOPATH. But I've put all of my code in my GOPATH; I just figured GOPATH is a great place to put all code, so that's why my indexing takes longer than most, because I have all these projects with JavaScript stuff, and it's indexing those too, for all of its code intellisense stuff.
 
 **Kris Nova:** I have a question - open question for the gang here... I have multiple GOPATHs in my home directory, for different modes of writing Go that I'm in, and then I just change my GOPATH variable based on like if I'm in Kubernetes mode, or if I'm in Azure mode. Am I the only one who does that, or...?
 
@@ -786,7 +786,7 @@ That's the disadvantage to crafting your own workspace and environment...
 
 **Erik St. Martin:** I have to see the ASCII video conversion.
 
-**Kris Nova:** Yeah, it's [ascii-video](https://www.npmjs.com/package/ascii-video). It's a Javascript package, of course. There you go.
+**Kris Nova:** Yeah, it's [ascii-video](https://www.npmjs.com/package/ascii-video). It's a JavaScript package, of course. There you go.
 
 **Brian Ketelsen:** Nice.
 

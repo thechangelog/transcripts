@@ -1,4 +1,4 @@
-**Nick Nisi:** Hello and welcome to another episode of JS Party, where it's a party every week with Javascript. I'll be your host today, Nick Nisi, and I'm joined with my fellow panelists, Suz Hinton - hey, Suz.
+**Nick Nisi:** Hello and welcome to another episode of JS Party, where it's a party every week with JavaScript. I'll be your host today, Nick Nisi, and I'm joined with my fellow panelists, Suz Hinton - hey, Suz.
 
 **Suz Hinton:** Hey, how's it going? It's good to be back.
 
@@ -6,7 +6,7 @@
 
 **Jerod Santo:** Hello! Excited to chat with you all - DevTools, debugging, fun stuff!
 
-**Nick Nisi:** Yeah, lots of fun and very practical for everyone. Let's dig right into it today. We thought we'd talk about debugging and some DevTools magic and kind of how we approach that part of the job of developing with Javascript; how we manage/deal with bugs, and some cool features that the platforms provide us.
+**Nick Nisi:** Yeah, lots of fun and very practical for everyone. Let's dig right into it today. We thought we'd talk about debugging and some DevTools magic and kind of how we approach that part of the job of developing with JavaScript; how we manage/deal with bugs, and some cool features that the platforms provide us.
 
 I guess I'll start off with a basic question - how do you get into debugging? You have a bug that you don't really know much information about - what are the first steps that you take? Why don't we start with you, Suz?
 
@@ -36,13 +36,13 @@ So you can't really fix a bug until you identify it, isolate it and make sure th
 
 **Jerod Santo:** Yeah, I don't know... Just making up words over here. Yeah, isolation, identification... Once you have an actual diagnosis - and that's where I usually will use tracing tools to come to that, and then fixing it is a whole other aspect of the job.
 
-**Nick Nisi:** Sure, yeah. So I do run into a lot of issues with that. I will start with the trace debugging, as you mentioned, and start going down that route... But sometimes I get thrown into projects that I really have no idea what's actually going on... Maybe I'm just hired as support to come in and try and diagnose one specific bug in a codebase I don't know, or do other things... So I've been trying to get really efficient at isolating the bugs, isolating where things could be occurring, and then trying to set up the traces just in that piece of code, instead of the whole entire codebase, and getting smarter about that. That can be the big challenge, and especially with how complex Javascript has gotten in recent years with all of the build tools, and Webpack, and source maps - all of that can be really hard to find... The bug is actually online 8,000 of this single Javascript file, and stepping in through there...
+**Nick Nisi:** Sure, yeah. So I do run into a lot of issues with that. I will start with the trace debugging, as you mentioned, and start going down that route... But sometimes I get thrown into projects that I really have no idea what's actually going on... Maybe I'm just hired as support to come in and try and diagnose one specific bug in a codebase I don't know, or do other things... So I've been trying to get really efficient at isolating the bugs, isolating where things could be occurring, and then trying to set up the traces just in that piece of code, instead of the whole entire codebase, and getting smarter about that. That can be the big challenge, and especially with how complex JavaScript has gotten in recent years with all of the build tools, and Webpack, and source maps - all of that can be really hard to find... The bug is actually online 8,000 of this single JavaScript file, and stepping in through there...
 
 But it can be a lot of fun, too. A lot of times I like to think of myself as like Dr. House standing in front of the whiteboard, trying to figure out what the diagnosis is, crossing off a bunch of them... "It's never lupus" and just continuing on from there. \[laughter\]
 
 **Jerod Santo:** \[00:08:17.04\] It's never lupus...
 
-**Suz Hinton:** I feel like there's a pun coming on there with lupus and something about Javascript loops, or something like that...
+**Suz Hinton:** I feel like there's a pun coming on there with lupus and something about JavaScript loops, or something like that...
 
 **Nick Nisi:** Oh, man... That would be so clever if I had thought of that. So some things that I'll do to try and get in there is I will use the console statements, but I will also use the debugger and try and pause the debugger when the error comes. If you're really lucky, you'll be able to just set that Pause on Errors setting in Chrome or Firefox, and it will just pause on the line that is gonna throw an error... But often times it seems like the errors are being caught, so you have to enable that checkbox to tell it to break on caught errors as well.
 
@@ -172,11 +172,11 @@ That sounds very useful, I just haven't actually done it beside trying it, but..
 
 **Suz Hinton:** That is a total life-saver. You know, when you're just constantly refreshing and it's maybe a situation where you can't always faithfully reproduce it - that is huge; I actually didn't know you could do that... And you know, when it always pauses on the breakpoint and you get really annoyed and you have to click Forward, and it feels so unproductive... I'm totally gonna use this.
 
-**Nick Nisi:** Yeah, definitely. It's a big help if you are running into some kind of race condition... Because like you said, if you actually hit the breakpoint, it pauses Javascript execution right there, and then maybe things have settled by the time you start executing again, and you won't be able to reproduce the bug in that sense. But if you're able to add logging in, sometimes you can glean more information about that without actually having to stop the execution of the Javascript.
+**Nick Nisi:** Yeah, definitely. It's a big help if you are running into some kind of race condition... Because like you said, if you actually hit the breakpoint, it pauses JavaScript execution right there, and then maybe things have settled by the time you start executing again, and you won't be able to reproduce the bug in that sense. But if you're able to add logging in, sometimes you can glean more information about that without actually having to stop the execution of the JavaScript.
 
 **Suz Hinton:** I love that.
 
-**Nick Nisi:** \[00:28:09.10\] Then the other one I mentioned is DOM breakpoints. This is really cool if you have something on the page that is being updated, but you don't really know what part of the code is updating that... Maybe it's the color of a button or it's the text inside of this div, or something like that - you can right-click on the element in DevTools and then say "Break on" and there's a couple of options. There's "Subtree modification", so if any of its children are updated, attribute modifications if any of its attributes are modified, or if the node is removed, and it will stop on the line of Javascript that caused the modification to happen to that element or to its children, and you can look at the stack trace and see maybe what part of your code triggered that node removal or modification... Which can be really helpful fi you have no idea about the code base and you're just trying to get in there and quickly find where things are going wrong.
+**Nick Nisi:** \[00:28:09.10\] Then the other one I mentioned is DOM breakpoints. This is really cool if you have something on the page that is being updated, but you don't really know what part of the code is updating that... Maybe it's the color of a button or it's the text inside of this div, or something like that - you can right-click on the element in DevTools and then say "Break on" and there's a couple of options. There's "Subtree modification", so if any of its children are updated, attribute modifications if any of its attributes are modified, or if the node is removed, and it will stop on the line of JavaScript that caused the modification to happen to that element or to its children, and you can look at the stack trace and see maybe what part of your code triggered that node removal or modification... Which can be really helpful fi you have no idea about the code base and you're just trying to get in there and quickly find where things are going wrong.
 
 **Suz Hinton:** That is super cool, because what would you have to do normally to emulate that in your debugging? Would you have to do a mutation observer, or something? That would be super annoying to set up. I really wanna try this out, as well. I did know it existed, but I haven't had a good use case yet.
 
@@ -202,7 +202,7 @@ Another thing that's kind of related to that, although not really, is you can pa
 
 **Break:** \[00:30:52.02\]
 
-**Nick Nisi:** What are some cool things that Javascript can do that maybe aren't really apparent to others? Or going along with the topic of tips and tricks, some really cool things that Javascript the language can do? Jerod, do you want to start off there?
+**Nick Nisi:** What are some cool things that JavaScript can do that maybe aren't really apparent to others? Or going along with the topic of tips and tricks, some really cool things that JavaScript the language can do? Jerod, do you want to start off there?
 
 **Jerod Santo:** Yeah, absolutely. This segment I've internally name "JS can do that?!" I like that because that's how I read -- if you guys have seen the VsCodeCanDoThat.com website, where they show off stuff that Visual Studio Code can do... Everytime I see that, I read it "...can do THAT?" \[laughter\] That's a side note.
 
@@ -216,7 +216,7 @@ But without those things, it's previously been a pain to just say "Okay, given t
 
 I'll put the actual code in the notes, as I'm describing it orally here and it's sounding ridiculous in my brain... So that way you can look at it. But it's like this really cool little shorthand where you can basically uniquify an array by passing a set with a spread operator, combining those two together. I've used that recently, and I thought "That is neat. I didn't know JS could do THAT!" \[laughter\]
 
-Last one for me - this one is really brief, but I use it all the time; anytime you have a singular falsy value - you know, those things that aren't False, but they're falsy, like null, undefined, empty string, zero, I believe... Although I might get into some of the Javascript words there... !0==true ? I can't remember...
+Last one for me - this one is really brief, but I use it all the time; anytime you have a singular falsy value - you know, those things that aren't False, but they're falsy, like null, undefined, empty string, zero, I believe... Although I might get into some of the JavaScript words there... !0==true ? I can't remember...
 
 **Nick Nisi:** \[00:36:11.07\] It's False.
 
@@ -268,7 +268,7 @@ Those are my two things that JS can do, that hopefully if you didn't know, now y
 
 **Suz Hinton:** Yeah, I was like really excited but also frustrated to find out that -- I think this has been a feature since ES 2015, so I felt like I was super late to the party by only finding out about it...
 
-So Javascript supports things like bytes in hexadecimal format, and it's supported that for a really long time. Some of you might know that I write a lot of Javascript hardware libraries and just general projects with Javascript hardware, so using hacks in Javascript is pretty common for me in order to kind of send opcodes and things like that to hardware... But sometimes you just want it to be in the full binary format, so instead of having FF as the hex code, you can actually have like eight ones in a row, right? I'm pretty sure that's 255; someone correct me if it's not.
+So JavaScript supports things like bytes in hexadecimal format, and it's supported that for a really long time. Some of you might know that I write a lot of JavaScript hardware libraries and just general projects with JavaScript hardware, so using hacks in JavaScript is pretty common for me in order to kind of send opcodes and things like that to hardware... But sometimes you just want it to be in the full binary format, so instead of having FF as the hex code, you can actually have like eight ones in a row, right? I'm pretty sure that's 255; someone correct me if it's not.
 
 So that is so convenient to have that... And then the way that you write it out is you have 0b, and then you write your bits from there. And it doesn't just support a 8 bits, it supports longer than that. So it's pretty cool... I really needed it recently when I was working on a steganography project where I was trying to encode messages in images, and then I was trying to then decode the message back out of the images. And because you're working with a bit at a time, using hexadecimals is actually really frustrating, and you kind of have to write the bits out in string format, and then somehow figure out a function to then convert that properly back into hex code. That's now unnecessary, and I wish I'd known about it earlier.
 
@@ -318,7 +318,7 @@ It's not something that I typically use a lot, unless I'm just quickly trying to
 
 That's really helpful for avoiding having to say "Oh, this array sub zero is this, and this array sub one is this" and having that all over it kind of lets you better name the variables and use those names throughout, so that your code is more legible.
 
-And one really cool trick that you can do with that is combine that with regular expression methods in Javascript. One example is the match string method. On a string there's a match function - you can call that and pass an irregular expression to it, and inside of that irregular expression you can have captures (the parentheses), and then what gets returned from there is an array that contains everything that was captured... Everything that was captured from the irregular expression is the first thing in the array, and then each of the little subcaptures within there will be the next items in the array. So at sub one it will be the first thing, two will be the next thing, and so on... So you can use that destructuring to name those variables.
+And one really cool trick that you can do with that is combine that with regular expression methods in JavaScript. One example is the match string method. On a string there's a match function - you can call that and pass an irregular expression to it, and inside of that irregular expression you can have captures (the parentheses), and then what gets returned from there is an array that contains everything that was captured... Everything that was captured from the irregular expression is the first thing in the array, and then each of the little subcaptures within there will be the next items in the array. So at sub one it will be the first thing, two will be the next thing, and so on... So you can use that destructuring to name those variables.
 
 One example that I think of is the ability to, for example, get the month, day and year from a date string. If you had 2018-06-14, you could match those, match the first four numbers to this variable, so capture that. Then the next two in between the dashes as the day. And you can actually -- if you want to skip the first value in the array, or skip the first n number of values, you can just put commas inside of that destructuring, so it will just skip that and give you the next item in there.
 
@@ -350,7 +350,7 @@ So you can say, for example, const [, year, month, day ] and then call that func
 
 **Break:** \[00:49:07.09\]
 
-**Nick Nisi:** Alright, so let's talk about clean Git history. This is an article that changelog.com actually posted I don't know when exactly, but a little while ago... It's an article from GitLab called "Keeping your Git history clean, or how and why you would want to." I thought it'd be an interesting topic to go over. While it's not Javascript-specific, it is something that we all typically have to work with, especially if we're dealing with Git, which it seems like everyone is at this point.
+**Nick Nisi:** Alright, so let's talk about clean Git history. This is an article that changelog.com actually posted I don't know when exactly, but a little while ago... It's an article from GitLab called "Keeping your Git history clean, or how and why you would want to." I thought it'd be an interesting topic to go over. While it's not JavaScript-specific, it is something that we all typically have to work with, especially if we're dealing with Git, which it seems like everyone is at this point.
 
 I thought we'd jump right into it and talk about what the article is trying to convey, and some of the useful scenarios, and maybe some opinions. When I brought this up, Jerod mentioned that this is the ultimate -- what did you say...?
 

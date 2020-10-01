@@ -380,7 +380,7 @@ Then that means I can work a lot less hours and you can still get paid. If you c
 
 **Adam Stacoviak:** "Come to a workshop - how to do open source."
 
-**Henry Zhu:** Doing a workshop, yeah, definitely. Before, I was like "What kind of workshop would I do?" and I realized there's a few that I could do. One would be teaching people about Javascript itself. I think it's pretty easy to market "The maintainer of Babel teaches you Javascript." Then there is how to get involved in open source and maintaining open source, if someone wants to do that for their own open source... And then the last thing is "How do you contribute to Babel itself", and then talking about that.
+**Henry Zhu:** Doing a workshop, yeah, definitely. Before, I was like "What kind of workshop would I do?" and I realized there's a few that I could do. One would be teaching people about JavaScript itself. I think it's pretty easy to market "The maintainer of Babel teaches you JavaScript." Then there is how to get involved in open source and maintaining open source, if someone wants to do that for their own open source... And then the last thing is "How do you contribute to Babel itself", and then talking about that.
 
 Some companies would be interested... I mean, I think most of would just be like "Oh, can you give a talk at our company?"
 
@@ -442,13 +442,13 @@ I think for me I really like working on Babel, but I think another thing I like 
 
 **Adam Stacoviak:** That's interesting. I guess my perspective so far has been you full-time on open source means Babel involvement; it sounds like that's not exactly... Not that you have plans, but just that your mind is open to one day Babel not needing you, that you may have skills and abilities to be put elsewhere, whether that's another project, or just a new thing, or whatever.
 
-**Henry Zhu:** I mean, for any open source project -- it's gonna go away eventually. In Babel's case that's not really true in the same way as most, because the funny thing is that most projects, maybe people just stop using it, but with Babel the whole point is that you're implementing syntax that goes with Javascript. So as long as people still use Javascript and we have new syntax, then there's always gonna be a need for Babel for the people that want to use it. So in that sense, it's always gonna be there. But people get bored, or whatever -- I don't think I'm gonna get bored with it, but the reason why I wanna look into the other things is just... It will help me think about open source differently, and maybe it's just -- I don't wanna leave the project, it's just... I would maybe look into how other people are doing things or getting involved, and that would help me do it better in what I'm doing.
+**Henry Zhu:** I mean, for any open source project -- it's gonna go away eventually. In Babel's case that's not really true in the same way as most, because the funny thing is that most projects, maybe people just stop using it, but with Babel the whole point is that you're implementing syntax that goes with JavaScript. So as long as people still use JavaScript and we have new syntax, then there's always gonna be a need for Babel for the people that want to use it. So in that sense, it's always gonna be there. But people get bored, or whatever -- I don't think I'm gonna get bored with it, but the reason why I wanna look into the other things is just... It will help me think about open source differently, and maybe it's just -- I don't wanna leave the project, it's just... I would maybe look into how other people are doing things or getting involved, and that would help me do it better in what I'm doing.
 
 **Adam Stacoviak:** I always get this guilt-free kind of perspective when I think about it like bands. Sometimes a band might tour with another band, or this band, or the lead singer might go to this band and do a cross-over. It's never like they're leaving their band - unless they actually do leave their band, but it gives you the freedom to sort of cross-pollinate. I think there's a lot of under-appreciated opportunities in cross-pollination.
 
 **Henry Zhu:** Yeah, and I think at least I should be trying to look -- if I have the time, then I can look into what are the projects that are related to Babel. It doesn't even have to be a different language, or something crazy like that... It's just like "Oh, Webpack is used with Babel, so maybe I should learn more about how they do things and we can work together" or Vue and React... I think that's a good way to kind of like naturally look into other projects.
 
-I had this idea in my mind of "What does it look like to be a Javascript ecosystem maintainer?" So not just like one project, but a lot of what that is -- I mean, that seems like really burdensome, but you know, I think that would help coordinate things, or at least talk to people, instead of just like they're all in their little isolated bubble, or something.
+I had this idea in my mind of "What does it look like to be a JavaScript ecosystem maintainer?" So not just like one project, but a lot of what that is -- I mean, that seems like really burdensome, but you know, I think that would help coordinate things, or at least talk to people, instead of just like they're all in their little isolated bubble, or something.
 
 **Adam Stacoviak:** \[00:52:05.11\] Yeah. Anything I didn't ask you that you wanna share, that I just missed?
 
@@ -532,7 +532,7 @@ So I took that, I turned it into a SQLite database, and I've published that as a
 
 **Adam Stacoviak:** Right.
 
-**Simon Willison:** The bigger tool is this tool I've built called Datasette. Datasette is a couple of things. Firstly, it's a little web server that given one or more SQL databases gives you an HTML user interface for browsing that data, so you can click on it and reorder by columns, and filter it, and so forth. And it also gives you a JSON API. So anything that you can see on screen, you can get back as JSON. This means that you can take a CSV file, turn it into a database file, and then turn that database into a JSON API that you can run queries against from Javascript.
+**Simon Willison:** The bigger tool is this tool I've built called Datasette. Datasette is a couple of things. Firstly, it's a little web server that given one or more SQL databases gives you an HTML user interface for browsing that data, so you can click on it and reorder by columns, and filter it, and so forth. And it also gives you a JSON API. So anything that you can see on screen, you can get back as JSON. This means that you can take a CSV file, turn it into a database file, and then turn that database into a JSON API that you can run queries against from JavaScript.
 
 The final piece of this is the Datasette Publish command, which as a command line tool, it will take that SQLite database, publish it on the internet with ZEIT, add the dataset application itself, and essentially in one go wrap the whole thing up and turn it into data that you can access as a URL, with a JSON API and an HTML interface.
 
@@ -663,7 +663,7 @@ And then the third one is civic institutions. There are all of these governments
 
 **Adam Stacoviak:** Gotcha.
 
-**Simon Willison:** \[01:15:48.25\] On top of that, I have a one-second time limit on SQL queries, so if you try and do something too expensive, it won't work... But other than that, you can just be completely free with it. Javascript get very excited about GraphQL, because it lets them specify exactly what they want to get back from the server; with Datasette, you can do that with SQL. You can write SQL in your Javascript, selecting the exact columns you want joining against different things... And it works, and it's fast, and it gives you back that data as JSON.
+**Simon Willison:** \[01:15:48.25\] On top of that, I have a one-second time limit on SQL queries, so if you try and do something too expensive, it won't work... But other than that, you can just be completely free with it. JavaScript get very excited about GraphQL, because it lets them specify exactly what they want to get back from the server; with Datasette, you can do that with SQL. You can write SQL in your JavaScript, selecting the exact columns you want joining against different things... And it works, and it's fast, and it gives you back that data as JSON.
 
 **Adam Stacoviak:** You were showing me (you got really excited about this, too) the example of Australia and dogs.
 
@@ -679,7 +679,7 @@ And then the third one is civic institutions. There are all of these governments
 
 **Adam Stacoviak:** So what I find interesting about that is -- here's some obscure dataset that maybe nobody's paying attention to, and because of what you've done with Datasette, you're able to query in these ways and find out this information... Maybe it's just for the curious, but I find that kind of interesting to me, that you can just play with this data like that... And of the entire (not even country) continent of Australia, right...?
 
-**Simon Willison:** Right. And the dog thing is kind of -- it's amusing, but not necessarily useful. A much more useful one is -- it turns out the members of Parliament in the U.K. have to register their conflicts of interest with the Parliament in the Register of Members' Interests, and it's public data... And there's an organization called My Society who turned that into XML; I took their XML and I loaded that into a SQLite database, so now I've got a tool that lets you search 1.3 million line items of MP's saying who paid the money, who invited them to speak, who gave them a free watch... It turns out that the Sultan of Brunei hands out Christmas hampers to MP's every Christmas, and you can see which MP has had the most Christmas hampers from him. It's super fun, and actually this is news-worthy, right?
+**Simon Willison:** Right. And the dog thing is kind of -- it's amusing, but not necessarily useful. A much more useful one is -- it turns out the members of Parliament in the U.K. have to register their conflicts of interest with the Parliament in the Register of Members' Interests, and it's public data... And there's an organization called mySociety who turned that into XML; I took their XML and I loaded that into a SQLite database, so now I've got a tool that lets you search 1.3 million line items of MP's saying who paid the money, who invited them to speak, who gave them a free watch... It turns out that the Sultan of Brunei hands out Christmas hampers to MP's every Christmas, and you can see which MP has had the most Christmas hampers from him. It's super fun, and actually this is news-worthy, right?
 
 If you're wondering why does this certain MP behave in certain ways to different countries, you can dig through all of this stuff and say "Oh well, it turns out they've been giving him a lot of free watches."
 
@@ -693,7 +693,7 @@ If you're wondering why does this certain MP behave in certain ways to different
 
 **Adam Stacoviak:** And how easy is it to refresh that work? If it's so hard to, you know--
 
-**Simon Willison:** Most of the work has been done for me by this organization My Society, who've been scraping this for ten years, and dumping the data from that into these XML files... So I just wrote the thing that turns XML into a SQLite database and built on top of that.
+**Simon Willison:** Most of the work has been done for me by this organization mySociety, who've been scraping this for ten years, and dumping the data from that into these XML files... So I just wrote the thing that turns XML into a SQLite database and built on top of that.
 
 **Adam Stacoviak:** Simon, I'm sure we could talk for hours; I've promised you 20... It was a good 20, for sure, so thank you so much for sharing your story. Where can people find you on the internet?
 

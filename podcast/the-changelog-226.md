@@ -272,7 +272,7 @@ For those that pay for Pro, you're gonna get access to all those extra icons for
 
 **Adam Stacoviak:** He's awesome.
 
-**Dave Gandy:** Yeah, another one of those guys that I just cannot speak highly enough of. So Font Awesome CDN - the notion of that really was we wanted people to be able to do things like update their version of Font Awesome without having to push any code. So you give us your email address, we send you a unique code that you can put in your website, and if you ever wanna change it later you can come back in and update the version, you can turn on something that we developed that we're really proud of, that we called Auto Accessibility, and you can control async, you can actually do CSS or Javascript... There are so many different things that you can do with that.
+**Dave Gandy:** Yeah, another one of those guys that I just cannot speak highly enough of. So Font Awesome CDN - the notion of that really was we wanted people to be able to do things like update their version of Font Awesome without having to push any code. So you give us your email address, we send you a unique code that you can put in your website, and if you ever wanna change it later you can come back in and update the version, you can turn on something that we developed that we're really proud of, that we called Auto Accessibility, and you can control async, you can actually do CSS or JavaScript... There are so many different things that you can do with that.
 
 So Font Awesome CND - completely free to everybody to use. Really the idea there was that's been such a helpful thing... So many people have signed up for that and are using it actively that we wanted to do something very similar for Font Awesome Pro. Now you can download the files, but then you'll have to serve them yourself, which for a lot of people really isn't a problem, but that's not everybody who uses Font Awesome, so we wanted a solution that was just as easy to use as Font Awesome CDN was.
 
@@ -352,7 +352,7 @@ So we wanted to take that same ease of use of Font Awesome and bring it to SVG. 
 
 **Adam Stacoviak:** Is this something that needs a repo, or is it simply a way of doing things?
 
-**Dave Gandy:** There's gonna be enough code behind it... In order to pull it off, we're gonna need some bits of Javascript, so Rob Madole, our local Javascript master is gonna be doing a good portion of that. It could have its own repo, that's possible, but I think it will just be a part of the Font Awesome Pro repo. Something that we didn't mention is that for everybody who's a backer we're gonna have a private repo, where everybody can have access to the code and they can follow along in our development, our alpha, beta pre-releases - all of that along the way, people can follow along.
+**Dave Gandy:** There's gonna be enough code behind it... In order to pull it off, we're gonna need some bits of JavaScript, so Rob Madole, our local JavaScript master is gonna be doing a good portion of that. It could have its own repo, that's possible, but I think it will just be a part of the Font Awesome Pro repo. Something that we didn't mention is that for everybody who's a backer we're gonna have a private repo, where everybody can have access to the code and they can follow along in our development, our alpha, beta pre-releases - all of that along the way, people can follow along.
 
 We'll be getting input from people on the specific issues, on which icon categories we're developing all along the way, so the code for that is gonna be in that same repo.
 

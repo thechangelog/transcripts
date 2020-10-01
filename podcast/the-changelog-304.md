@@ -467,7 +467,7 @@ Some of the things that we showed today, the developer tools, things like doing 
 
 **Jerod Santo:** "It's okay... Turn it off."
 
-**Adam Stacoviak:** Making it like that makes it more approachable, to not feel like somebody's watching you? 
+**Adam Stacoviak:** Making it like that makes it more approachable, to not feel like somebody's watching you?
 
 **Jerod Santo:** Oh then I have a real person watching me !
 
@@ -601,7 +601,7 @@ We're starting to build a normalized set of cognitive services - the ability to 
 
 So now as a developer I can say "Hey, can I infuse sight into my application, or listening into my application, or reasoning? How can I start to infuse AI into the applications I'm building and how do I have that as a tool set where I can pull it from Visual Studio or whatever tools that I wanna use? I can use them against the cloud, I can use them at the edge..." So you're moving from a world that's been pretty heavy research where you pretty much do it on your own, to a set of tools that are more standardized, so every developer can use AI, or every data scientist now can more easily work with data and create models.
 
-**Adam Stacoviak:** \[00:44:12.16\] It almost kind of reminds me of Javascript Sprinkles in a way... Like, AI Sprinkles.
+**Adam Stacoviak:** \[00:44:12.16\] It almost kind of reminds me of JavaScript Sprinkles in a way... Like, AI Sprinkles.
 
 **Steve Guggenheimer:** Yeah, Sprinkles, for sure.
 

@@ -52,7 +52,7 @@ If you're in the EU and the bank says, "Sorry, you're not getting this loan", yo
 
 **Erik St. Martin:** The hard part, if people imagine that problem, is this data is continuously changing every day. Sometimes data will be bad and have to be purged from the system, and the dataset is constantly changing that's being used as part of the scoring model so to be able to go back in time and say, "This is the specific data that went into that calculation..." Because the consumer is gonna come back after some period of time and your dataset can change significantly in a month or two months. And to be able to easily go back and say, "This is exactly the dataset that was used to calculate that" is huge.
 
-**Joe Doliner:** \[00:07:50.29\] Yeah, absolutely. And the other thing that we really like about provenance is that it really allows the scientific method. Because if you've got data running in the company - you're a data scientist, you come in, you see some result there that was computed by some huge chain of steps that your company has defined over the last year, and something looks weird to you. You wanna do some further investigation into where this result came from. If you can't easily just trace it back through those steps, find the input data and find the processing that went into it, you can waste so much time just going and asking people about that, just so that you can do some further experimentation... Whereas with Pachyderm it's all recorded there, it's all reproducible. You can just look it all up and you're off and running, doing your own experiments to further clarify the results.
+**Joe Doliner:** \[00:07:50.29\] Yeah, absolutely. And the other thing that we really like about provenance is that it really allows the scientific method. Because if you've got a data lake running in the company - you're a data scientist, you come in, you see some result there that was computed by some huge chain of steps that your company has defined over the last year, and something looks weird to you. You wanna do some further investigation into where this result came from. If you can't easily just trace it back through those steps, find the input data and find the processing that went into it, you can waste so much time just going and asking people about that, just so that you can do some further experimentation... Whereas with Pachyderm it's all recorded there, it's all reproducible. You can just look it all up and you're off and running, doing your own experiments to further clarify the results.
 
 **Brian Ketelsen:** That's really amazing. Can you talk about where Go fits into this? I know there's a lot of containerization, but do you have daemons that are written in Go? What's the glue that holds all this together?
 
@@ -73,7 +73,7 @@ The code that you will write is just a binary, and you put it in a container, yo
 
 \[00:11:58.28\] After that code runs, Pachyderm knows to slurp up that data, put it back into the file system and trigger downstream processes in exactly the same way. We orchestrate all of that pipelining, we orchestrate all of where the data goes, and you just orchestrate what specifically the actual analysis is.
 
-This can get pretty complicated too with how you're joining data sets. Youn can do vast multi-way joins of different data sets and we'll distribute all of that, we'll orchestrate all of that so that your code gets run... But again, you're just writing the "Once I've got data on disk, what do I do with it?" That's all you need to write.
+This can get pretty complicated too with how you're joining data sets. You can do vast multi-way joins of different data sets and we'll distribute all of that, we'll orchestrate all of that so that your code gets run... But again, you're just writing the "Once I've got data on disk, what do I do with it?" That's all you need to write.
 
 **Brian Ketelsen:** Oh my god, I just wanna stop what I'm doing now and go play with it.
 
@@ -111,7 +111,7 @@ This can get pretty complicated too with how you're joining data sets. Youn can 
 
 **Joe Doliner:** Yeah, I've done that, too.
 
-**Brian Ketelsen:** Could I not possibly have learned the first time?
+**Brian Ketelsen:** Could I not possibly have learned at the first time?
 
 **Erik St. Martin:** I wanna point out how awesome the channel is, because I made the joke that somebody in the channel would do it. In less than 30 seconds, somebody had it linked.
 
@@ -131,7 +131,7 @@ This can get pretty complicated too with how you're joining data sets. Youn can 
 
 **Joe Doliner:** The features of Go that really make it work well are a) just having all the built-in libraries that you need; having an HTTP library that's there and it's really good... Before this, I was programming in C++ on RethinkDB, and there I remember writing our own HTTP libraries, writing our own HTTP server, because it was just hard to integrate something.
 
-I really think that the single best feature of Go is how batteries included it is. You have just good things in the standard libraries that you can use. Other than that, having goroutines is to me the best way to do concurrency. We
+I really think that the single best feature of Go is how batteries included it is. You have just good things in the standard libraries that you can use. Other than that, having goroutines is to me the best way to do concurrency.
 
 When we were making RethinkDB, one of the first things we did was make a call routine library for C++ so that we could have that style of concurrency, and it was nowhere near as clean and elegant as Go's is, because it just has a few primitives and you can basically do everything. Other than that, we're using all the standard stuff. We're using interfaces, functions and stuff like that... But again, I think that you can't really use Go without those things.
 
@@ -165,7 +165,7 @@ So these are all the standard edges that you start to sand down as soon as you a
 
 **Joe Doliner:** Yeah, so one of the major pieces of Pachyderm is the Pachyderm File System, which is a distributed file system. That's the main feature that sets that apart from other distributed file systems, as that's the thing that's got all the version control logic inside of it. Yeah, I definitely see use cases for a bunch of different distributed file systems. One of the projects we're really excited about right now is Minio, which I guess isn't technically a distributed file system, it's an object store, but you know, potatoe-potato... They could be used in a lot of the same ways.
 
-The Minio guys actually came in and got Pachyderm running on Minio, which is really exciting, because before then you ran Pachyderm on top of an object store, so this is really nice if you're deploying on a cloud platform, because you've got S3 or you've got Google Cloud storage or you've got Azure Blob storage. But if you want an agnostic way to do this or you wanna run it on-prem, our best answer for people was \[\\00:21:31.25\] which is the thing that backs Seth... Which is S3 compatible, but it's kind of hard to set up.
+The Minio guys actually came in and got Pachyderm running on Minio, which is really exciting, because before then you ran Pachyderm on top of an object store, so this is really nice if you're deploying on a cloud platform, because you've got S3 or you've got Google Cloud storage or you've got Azure Blob storage. But if you want an agnostic way to do this or you wanna run it on-prem, our best answer for people was RADOS which is the thing that backs Ceph... Which is S3 compatible, but it's kind of hard to set up.
 
 Minio is super smooth to set up. It's all written in Go, and we now have direct support for it in Pachyderm, so that's our preferred on-prem solution right now.
 
@@ -198,7 +198,7 @@ You also need to navigate how easy it's going to be for your product to be deplo
 We saw that people were switching to containers, people were switching to container orchestrators like Kubernetes, and in fact, Kubernetes really seemed like the cream of the crop in terms of container orchestrators... So we made the decision very early on to make our product just completely deploy on Kubernetes. What that means is that when we're trying to get someone to use our product, if they're already using Kubernetes, then we can get it up and running for them in like 30 seconds. It's just a straight Kubernetes manifest that deploys on them. Getting people to that first magic moment with your product, where they're actually doing something with it - the shorter you can make that feedback loop the better, and the more successful you're gonna be.
 
 The other very interesting aspect of this is how do you build a company around it, because one of the things that we've needed to do, we've gotten some developers of the open source community that have come in, but most of the people who do the heavy lifting of Pachyderm development are developers that we employ, and they're getting paid to do their job, which is a great way to align incentives with money.
-For that, you need to have some way that you can eventually make money off of your product. I think for a lot of different kinds of open source projects, I just don't see any way that this can ever happen. If you're making an open source BitTorrent client for example, I don't see how anybody's ever gonna pay for that. Maybe I'm wrong, I'd love to be proven wrong, but I think a lot of people won't.
+For that, you need to have some way that you can eventually make money off of your product. I think for a lot of different kinds of open source projects, I just don't see any way that this can ever happen. If you're making an open source BitTorrent client for example, I don't see how anybody's ever gonna pay for that. Maybe I'm wrong, I'd love to be proven wrong, but I think there is a lot of people who won't.
 
 \[00:27:51.21\] For us, fortunately... Companies, when they invest in data infrastructure, it's a big investment. If they're running Pachyderm, they're probably gonna have 10, 20 engineers who are just using it every single day as a major part of their workflow. In those cases, companies are often very willing to pay for support contracts, because it will just make their developers more effective, it saves money... That's how we make money right now, we just sell companies support contracts. That means they get to call us on the phone and we'll fix whatever problems that they have.
 
@@ -230,11 +230,11 @@ I feel like part of the adoption curve in an open source project relates to the 
 
 **Erik St. Martin:** But you feel like you'd be happier that way, if you just said and did whatever you wanted, and didn't really think about the way it was perceived. You'd probably stress less about what you were doing or saying.
 
-So in your email - we were talking about projects, other things in the G o world that you had some interest in, and you brought up... I think it's called Gitea. Is that how you pronounce it?
+So in your email - we were talking about projects, other things in the Go world that you had some interest in, and you brought up... I think it's called Gitea. Is that how you pronounce it?
 
 **Brian Ketelsen:** Gitea, yeah.
 
-**Joe Doliner:** Yeah, which I guess is a \[unintelligible 00:33:02.26\] like the beverage. Yeah, I was browsing around Go projects I want to do and saw that. It looked really cool to me just because it's like an open source GitHub, and I think one of the long-term untenable things in the open source world right now is the fact that GitHub has become the center of mass for open source, and yet it's not itself open source. That just doesn't seem like it can last indefinitely, I don't know. Maybe GitHub is gonna be forced to open source something.
+**Joe Doliner:** Yeah, which I guess is a \[unintelligible 00:33:02.26\] of git and tea like the beverage. Yeah, I was browsing around Go projects I want to do and saw that. It looked really cool to me just because it's like an open source GitHub, and I think one of the long-term untenable things in the open source world right now is the fact that GitHub has become the center of mass for open source, and yet it's not itself open source. That just doesn't seem like it can last indefinitely, I don't know. Maybe GitHub is gonna be forced to open source something.
 
 There's also GitLab, and I'm actually friends with the founders there; I'd love to see them eventually upset the open source world. But even though I think that GitLab is great, I just can't not have Pachyderm on GitHub right now, because that just is where people are gonna look for open source projects, and it's kind of like "If you're not on GitHub, you don't exist." I always am just interested to see open source projects that are challenging that.
 
@@ -254,13 +254,13 @@ So it was a fun class to give, but one of the things that I found to be almost p
 
 **Joe Doliner:** Yeah... Linus made us a nice decentralized version controlled system and GitHub was nice enough to centralize it for us, so that someone could monetize it. The irony runs deep in that.
 
-**Erik St. Martin:** And the hard part about that though is whether it's a new view in a technology, right? Linus developed it as a way of having distributed teams, right? But I think GitHub did put their own little spin on it though. They changed the way developers share code, too.
+**Erik St. Martin:** And the hard part about that though is whether it's a new view on a technology, right? Linus developed it as a way of having distributed teams, right? But I think GitHub did put their own little spin on it though. They changed the way developers share code, too.
 
 \[00:36:02.21\] I guess there was SourceForge and things like that before GitHub, but it didn't feel as interactive as GitHub does.
 
 **Brian Ketelsen:** It wasn't at all. GitHub made it social, and that's the big difference, I think. That was huge. And again, that was a vision. That was a group of people who shared a vision for the way something should work, and people bought into that vision and it made Git take off. Before GitHub, Git wasn't that popular, let's be honest.
 
-**Joe Doliner:** No, it wasn't. I feel like I've been hating on GitHub a little bit here for being closed source. What they did for the open source community was amazing. I used SourceForge for a project what I was in college, and it was unbelievable. I couldn't figure out how to do even the simplest things. Even with someone helping me I couldn't figure it out, and on GitHub it really does just -- it just works, and it has the features that you want, and it's social... It's one of those things where I can't quite put my finger on exactly what all the differences are that made it work, where other systems had failed.
+**Joe Doliner:** No, it wasn't. I feel like I've been hating on GitHub a little bit here for being closed source. What they did for the open source community was amazing. I used SourceForge for a project when I was in college, and it was unbelievable. I couldn't figure out how to do even the simplest things. Even with someone helping me I couldn't figure it out, and on GitHub it really does just -- it just works, and it has the features that you want, and it's social... It's one of those things where I can't quite put my finger on exactly what all the differences are that made it work, where other systems had failed.
 
 It's sort of like what the iPhone was for smartphones, to draw a very clichéd analogy. It just got all of the little pieces right and it just all gelled into a very compelling product.
 
@@ -296,7 +296,7 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Erik St. Martin:** Because you had to Google Hangout me to show it to me.
 
-**Brian Ketelsen:** I did, I was so excited about it. It's like Postman, if you've ever used the Chrome extension Postma for doing curl requests, or whatever. It's a beautiful ASCII interface that you can use directly from your terminal, and you can change headers and you can add payloads and make requests and get responses and see them all on the terminal, and it's just one last reason to leave my command prompt. Very nicely done, and it's got two or three thousand stars on GitHub even days after its release.
+**Brian Ketelsen:** I did, I was so excited about it. It's like Postman, if you've ever used the Chrome extension Postman for doing curl requests, or whatever. It's a beautiful ASCII interface that you can use directly from your terminal, and you can change headers and you can add payloads and make requests and get responses and see them all on the terminal, and it's just one last reason to leave my command prompt. Very nicely done, and it's got two or three thousand stars on GitHub even days after its release.
 
 **Joe Doliner:** Looks like it's at four thousand.
 
@@ -304,11 +304,11 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Carlisia Pinto:** Yeah, I really like it too, because using curl is great, but every time we have to redo a call, we have to navigate through the line to type things out. With that, you just tap over to the different panes and type in your input or remove things... It's great.
 
-**Erik St. Martin:** I guess I don't suffer there, because I have the Vim \[unintelligible 00:42:02.21\] so I just use Vim commands to jump around and modify it.
+**Erik St. Martin:** I guess I don't suffer there, because I have the Vim bash setup so I just use Vim commands to jump around and modify it.
 
 **Brian Ketelsen:** it's pretty nice.
 
-**Joe Doliner:** I love this... I'm always a fan. I really like these types of command line interface GUI type things. They're sort of a nice middle ground between an actual application I have to open and my command line. I also like it because man, have I spent a lot of time staring at the curl man page, trying to figure out what exactly is going on, and having this in just a nice visual form where it will tell me the curl that I want at the end of the day, and validate request, it's just awesome.
+**Joe Doliner:** I love this... I'm always a fan. I really like these types of command line interface GUI type things. They're sort of a nice middle ground between an actual application I have to open and my command line. I also like it because man, have I spent a lot of time staring at the curl man page, trying to figure out what exactly is going on, and having this in just a nice visual form where it will tell me the curl that I want at the end of the day and validate a request, it's just awesome.
 
 **Brian Ketelsen:** Yeah. Yesterday there was a point where I think I had five of these windows open, and each one of them was sending a different request or getting a different response, and it's just so beautiful to inspect all of that at once. It made me happy. I love open source projects that solve a simple problem really well, and make me happy.
 
@@ -324,7 +324,7 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Brian Ketelsen:** Yeah. All of the fun ones.
 
-**Erik St. Martin:** Yeah. But you could use these things with code generators too, so you could generate the code better than \[unintelligible 00:44:47.12\]
+**Erik St. Martin:** Yeah. But you could use these things with code generators too, so you could generate the code better than \[unintelligible 00:44:47.12\] later by reflection.
 
 **Joe Doliner:** Yeah, that is very true. In fact, you can further abuse struct tags that way if you want to.
 
@@ -372,7 +372,7 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Brian Ketelsen:** \[00:47:49.12\] Yeah, you know there's a lot of math behind that... Just think about the dependency chain and the graphs behind all of that - there's gotta be way more math that I'm interested in doing.
 
-**Joe Doliner:** It's a very hard problem too, because if you're not careful, you accidentally wind up solving \[\\00:48:04.14\] complete problem, and then your tool just grinds to a halt. So you have to figure out how to do it very efficiently.
+**Joe Doliner:** It's a very hard problem too, because if you're not careful, you accidentally wind up solving an NP-complete problem, and then your tool just grinds to a halt. So you have to figure out how to do it very efficiently.
 
 **Brian Ketelsen:** Yeah.
 
@@ -386,7 +386,7 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Brian Ketelsen:** I think it's a problem everywhere, though.
 
-**Joe Doliner:** It is. Different languages have solved this to different degrees, and a lot of times people tell you it's a little bit rosier than it is. I hear that life is really good is Rustland - I think they have Cargo, or something... But there's a lot of inherent problems to dependency management that you can't just magically solve, so you have to sort of pick your poison a bit, and then you always have some weird edge cases.
+**Joe Doliner:** It is. Different languages have solved this to different degrees, and a lot of times people tell you it's a little bit rosier than it is. I hear that life is really good in Rustland - I think they have Cargo, or something... But there's a lot of inherent problems to dependency management that you can't just magically solve, so you have to sort of pick your poison a bit, and then you always have some weird edge cases.
 
 **Brian Ketelsen:** Yeah, I agree. Cargo has done a pretty good job, but the problem I've seen in the Rust world is less Cargo than it is the fast-moving breaking APIs of Rust itself. Even today... I know when I was playing with Rust two years ago you couldn't pick up a piece of Rust code that you found on the internet and compile it ever, because the API changed so much, the packages had changed so much, and it's still pretty bad in terms of breaking changes in Rust, whereas one of the things that I truly appreciate about Go is that Go 1.0 guarantee. Code that was written for Go 1.0 will compile, and they release Go 1.8 next week.
 
@@ -400,9 +400,9 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Brian Ketelsen:** Wasn't it the HTTP...? Something in HTTP?
 
-**Erik St. Martin:** No, it was basically when characters changed from \[unintelligible 00:50:10.14\]
+**Erik St. Martin:** No, it was basically when characters changed from int..
 
-**Brian Ketelsen:** \[unintelligible 00:50:13.07\]
+**Brian Ketelsen:** Oh, to runes?
 
 **Erik St. Martin:** Yeah, and that was it. Because they couldn't make the determination whether it was really supposed to be an integer or whether it was supposed to be a character, so they kind of left you on your own there.
 
@@ -450,11 +450,11 @@ I remember Ruby broke me of that. I was so spoiled by Visual Studio in the .NET 
 
 **Joe Doliner:** Yeah, I don't use debuggers at all when I write Go. I use them a lot with C++, but Go has just broken me of the habit.
 
-**Erik St. Martin:** Yeah... Nowadays, because I don't write anything in C or C++ aside from hardware project - I use debuggers there, and that's mainly because they're hard to test otherwise. It's running on a microcontroller next to you, it's not like you can just \[unintelligible 00:53:56.12\] \[laughter\] So you're kind of forced to step through with a debugger.
+**Erik St. Martin:** Yeah... Nowadays, because I don't write anything in C or C++ aside from hardware projects - I use debuggers there, and that's mainly because they're hard to test otherwise. It's running on a microcontroller next to you, it's not like you can just printf \[laughter\] So you're kind of forced to step through with a debugger.
 
 **Brian Ketelsen:** Blink three times if your value is two.
 
-**Erik St. Martin:** You know, that actually is the equivalent of just doing a print, just having LEDs and turning them on, and blinking them \[unintelligible 00:54:11.00\]
+**Erik St. Martin:** You know, that actually is the equivalent of just doing a print, just having LEDs and turning them on, and blinking them, that's with serial connections.
 
 **Brian Ketelsen:** Everybody has to have a serial out, yeah.
 
@@ -464,9 +464,9 @@ I remember Ruby broke me of that. I was so spoiled by Visual Studio in the .NET 
 
 **Erik St. Martin:** For anybody who hasn't watched it yet, Francesc did a video on the state of Go, talking about a bunch of stuff in 1.8. We'll drop that in the channel and in the show notes, too. That's good stuff if you haven't seen it and you're interested in all the things that are coming in 1.8. Now we can move on to \#FreeSoftwareFriday, how's that sounds?
 
-**Brian Ketelsen:** Awesome. It the odd circumstance that you haven't heard about \#FreeSoftwareFriday yet, it's our favorite part of the show where we get to shout out to the open source projects, be they Go or not Go, that make us happy, that make our lives easier, because writing open source and maintaining a project is generally a thankless job and it's something that we wanna do to help those open source maintainers remember just how much we appreciate the projects that they make and how much we love the projects that they build for us, and appreciate them sharing them.
+**Brian Ketelsen:** Awesome. In the odd circumstance that you haven't heard about \#FreeSoftwareFriday yet, it's our favorite part of the show where we get to shout out to the open source projects, be they Go or not Go, that make us happy, that make our lives easier, because writing open source and maintaining a project is generally a thankless job and it's something that we wanna do to help those open source maintainers remember just how much we appreciate the projects that they make and how much we love the projects that they build for us, and appreciate them sharing them.
 
-Today I'll start off with NATS from APCERA and Derek Collison. I saw a really complex project with NATS this morning that I really didn't think I was gonna be able to solve, and it just blew me away. It took me less than an hour and I spent many hours trying to find other solutions to this problem. I was just so happy to find that solution, and NATS solved it so nicely for me. They're strong members of our community too, and I appreciate that a lot.
+Today I'll start off with NATS from APCERA and Derek Collison. I solved a really complex project with NATS this morning that I really didn't think I was gonna be able to solve, and it just blew me away. It took me less than an hour and I spent many hours trying to find other solutions to this problem. I was just so happy to find that solution, and NATS solved it so nicely for me. They're strong members of our community too, and I appreciate that a lot.
 
 **Erik St. Martin:** How about you, Carlisia?
 
@@ -514,9 +514,9 @@ Thank you for everybody being on the show, especially thank you Joe for coming o
 
 **Brian Ketelsen:** \[laughs\] It's a data lake. You just gotta go swim in it, man!
 
-**Joe Doliner:** A little tidbit I found out recently about the term big data - I did an interview for this French blog called LeBigData... So that term has just been translate one-for-one into French; that's the French term for it, too. I just thought the name LeBigData was hilarious.
+**Joe Doliner:** A little tidbit I found out recently about the term big data - I did an interview for this French blog called LeBigData... So that term has just been translated one-for-one into French; that's the French term for it, too. I just thought the name LeBigData was hilarious.
 
-**Brian Ketelsen:** That's so non-France, though... They're so protective of their language, they hate English words coming into the French language... There's a society to protect the language for Anglicism. They don't want any English words in French.
+**Brian Ketelsen:** That's so non-France, though... They're so protective of their language, they hate English words coming into the French language... There's a society to protect the language from Anglicism. They don't want any English words in French.
 
 **Joe Doliner:** And they must have words for big and data... I mean, I took some French, I know they do. They've got an alternative, but these hoodlums on the internet aren't respecting the society, I guess.
 

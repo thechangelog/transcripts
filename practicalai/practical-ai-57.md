@@ -68,7 +68,7 @@ So at its core, Indeed has sort of a search product that is well-liked, where pe
 
 **Chris Benson:** Well, actually, before you completely eliminate the side-track - it's kind of funny you say that, because we came from software development; it sounds like all three of us have come from there... And once upon a time I did think of myself as a full stack software developer, so I wonder if we're gonna grow into the sense of being full stack machine learning engineers, data scientists, whatever.
 
-**Daniel Whitenack:** Do I have to learn more Javascript to be a full stack data scientist?
+**Daniel Whitenack:** Do I have to learn more JavaScript to be a full stack data scientist?
 
 **Chris Benson:** You have to do React with your AI at that point... \[laughs\]
 
@@ -158,7 +158,7 @@ Anyway, moving past some of those caveats, I guess, what are some of the -- if y
 
 **Break:** \[00:29:08.13\]
 
-**Chris Benson:** I am assuming that Indeed is not paying you to make music recommendation systems, like you had mentioned in your \[unintelligible 00:29:58.05\] abstract... What kind of side-projects are you engaged in? What are you doing, what's fun, and what would you like to do that you may not have gotten to yet?
+**Chris Benson:** I am assuming that Indeed is not paying you to make music recommendation systems, like you had mentioned in your ATO abstract... What kind of side-projects are you engaged in? What are you doing, what's fun, and what would you like to do that you may not have gotten to yet?
 
 **Samuel Taylor:** Definitely. There are machine learning-related side-projects, and there are just sort of fun side-projects... As a fun one I'll start with, I do some volunteer coding instruction, and I think that's really enjoyable. That's one of the most fun things that I do that's not work.
 

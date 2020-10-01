@@ -1,16 +1,16 @@
 **Alex Sexton:** Alright, welcome to episode 24 or so... Of the yayQuery podcast, a takeover of the JS Party podcast. It's been a couple minutes, maybe a few weeks here now since we've had a yayQuery episode, but for JS Party listeners who don't know yayQuery - yayQuery is myself, and then... In order, introduce yourselves: Paul, Rebecca, Adam.
 
-**Paul Irish:** Paul Irish. I am a Javascript developer and I like the web. And that's me. \[laughter\]
+**Paul Irish:** Paul Irish. I am a JavaScript developer and I like the web. And that's me. \[laughter\]
 
 **Alex Sexton:** Known for his ability to communicate well, Paul Irish.
 
-**Rebecca Murphey:** Known for liking the web... Paul Irish. I'm Rebecca Murphey. I'm also a Javascript developer. I think the web's okay.
+**Rebecca Murphey:** Known for liking the web... Paul Irish. I'm Rebecca Murphey. I'm also a JavaScript developer. I think the web's okay.
 
 **Paul Irish:** That's fair...
 
-**Adam Sontag:** I'm Adam Sontag. I love the WWW which is I believe Paul's real original bio. Also, I'm an erstwhile Javascript developer, and now a community director, I guess.
+**Adam Sontag:** I'm Adam Sontag. I love the WWW which is I believe Paul's real original bio. Also, I'm an erstwhile JavaScript developer, and now a community director, I guess.
 
-**Alex Sexton:** We used to have a podcast called yayQuery... One of the first nascent Javascript podcasts. It was loosely about jQuery, but we branched very quickly into most frontend web development topics pretty quickly. JS Party actually somewhat gets its name from the whimsy of the yayQuery days. I think one of the original names for JS Party was JS Matters, because it's events and things about Javascript, and also that it matters...
+**Alex Sexton:** We used to have a podcast called yayQuery... One of the first nascent JavaScript podcasts. It was loosely about jQuery, but we branched very quickly into most frontend web development topics pretty quickly. JS Party actually somewhat gets its name from the whimsy of the yayQuery days. I think one of the original names for JS Party was JS Matters, because it's events and things about JavaScript, and also that it matters...
 
 **Adam Sontag:** Not like Family Matters?
 
@@ -28,11 +28,11 @@ I think Rebecca and I both have children now...
 
 **Rebecca Murphey:** It seems so important...
 
-**Alex Sexton:** \[00:03:52.06\] Yeah. I mean... It was, at the time. Alright, I think we're gonna start off with not a traditional segment, but we kind of wanna talk about things that didn't exist in the web or Javascript the last time we were all on a podcast together - which is quite a bit, which is kind of cool in how fast things gather speed and become the main deals that everyone talks about, but you don't realize how quickly that comes up. Paul, do you wanna talk about something that has happened since then?
+**Alex Sexton:** \[00:03:52.06\] Yeah. I mean... It was, at the time. Alright, I think we're gonna start off with not a traditional segment, but we kind of wanna talk about things that didn't exist in the web or JavaScript the last time we were all on a podcast together - which is quite a bit, which is kind of cool in how fast things gather speed and become the main deals that everyone talks about, but you don't realize how quickly that comes up. Paul, do you wanna talk about something that has happened since then?
 
-**Paul Irish:** Sure, there was a Javascript framework that was introduced in this time period that some of you might be familiar with, called ReactJS.
+**Paul Irish:** Sure, there was a JavaScript framework that was introduced in this time period that some of you might be familiar with, called ReactJS.
 
-**Rebecca Murphey:** I hear they wanna put XML in our Javascript?
+**Rebecca Murphey:** I hear they wanna put XML in our JavaScript?
 
 **Paul Irish:** Yeah, exactly.
 
@@ -100,19 +100,19 @@ I think they were trying to focus on the autobindy-type stuff, because that was 
 
 **Rebecca Murphey:** And it would take ten minutes...
 
-**Alex Sexton:** For sure... I mean, it was small enough. Since then, we've had FlowType and Typescript come up. FlowType's written in OCaml, so if you ever wanna tribute to that, brush up on your OCaml. But I guess I'm interested in knowing what the uptick on types across the regular Javascript community is. It seems popular. Paul? Adam?
+**Alex Sexton:** For sure... I mean, it was small enough. Since then, we've had FlowType and Typescript come up. FlowType's written in OCaml, so if you ever wanna tribute to that, brush up on your OCaml. But I guess I'm interested in knowing what the uptick on types across the regular JavaScript community is. It seems popular. Paul? Adam?
 
-**Paul Irish:** Yeah, at least, I'll say -- \[laughter\] I work on a few projects... I work on both the Chrome DevTools and on Lighthouse, which is kind of auditing performance tool. DevTools is written -- we use the Closure Compiler, so everything has the annotations. When the entire project is annotated, that compilation step is super valuable and super useful. Or in Lighthouse we have a portion of it, our CLI - we actually ported it over to Typescript, and then we're using Closure annotations for the remainder of the Javascript in the project. So we're using a little bit of both there.
+**Paul Irish:** Yeah, at least, I'll say -- \[laughter\] I work on a few projects... I work on both the Chrome DevTools and on Lighthouse, which is kind of auditing performance tool. DevTools is written -- we use the Closure Compiler, so everything has the annotations. When the entire project is annotated, that compilation step is super valuable and super useful. Or in Lighthouse we have a portion of it, our CLI - we actually ported it over to Typescript, and then we're using Closure annotations for the remainder of the JavaScript in the project. So we're using a little bit of both there.
 
-And it's interesting, because at least on our team, we haven't come to a conclusion about it. It's like, "Well, the Typescript is nice, because it catches different things, and there is better in-editor tooling support, but the compile step is annoying... Whereas the immediate reload or rerun of just Javascript is so attractive." So we're just kind of like in that holding pattern.
+And it's interesting, because at least on our team, we haven't come to a conclusion about it. It's like, "Well, the Typescript is nice, because it catches different things, and there is better in-editor tooling support, but the compile step is annoying... Whereas the immediate reload or rerun of just JavaScript is so attractive." So we're just kind of like in that holding pattern.
 
-**Adam Sontag:** I've overheard people say things to that effect, which is like "Are you in Typescript?" "No, I'm going as far as ES6 modules." It feels like if I wanna be going down the path of what Javascript is going down, maybe I might avoid that.
+**Adam Sontag:** I've overheard people say things to that effect, which is like "Are you in Typescript?" "No, I'm going as far as ES6 modules." It feels like if I wanna be going down the path of what JavaScript is going down, maybe I might avoid that.
 
-**Rebecca Murphey:** And I think that what we've seen is that the types help, but they don't make you write good Javascript. And so you can have a Closure Compiler comment that says "These 40 arguments are these types", but you still are passing in 40 arguments. I think it can seem like kind of a safety net for people who maybe aren't used to writing Javascript, which is kind of my world, but it doesn't make your Javascript good.
+**Rebecca Murphey:** And I think that what we've seen is that the types help, but they don't make you write good JavaScript. And so you can have a Closure Compiler comment that says "These 40 arguments are these types", but you still are passing in 40 arguments. I think it can seem like kind of a safety net for people who maybe aren't used to writing JavaScript, which is kind of my world, but it doesn't make your JavaScript good.
 
-**Alex Sexton:** \[00:12:04.13\] Yeah. It's interesting, because I think part of the standards bodies are kind of maybe taking -- like, normally, when people do their own things and add to, like -- CoffeeScript happened, and then I think a lot of ES6 was at least sped up, and some syntax like Feathers were inspired by CoffeeScript. The innovations to the language end up in the spec, but I almost feel like the opposite thing is happening with types, where they're like "We wanna get types in. We've been looking at it for a long time, it's hard. Let's try this, let's try this..." and then whenever FlowType and Typescript came out, they were like "Okay, well those things solve it, so let's not work on it as hard in the spec, because people have options already." So I'm interested to see how that plays out long-term. I don't ever see Javascript bringing types, for what it's worth; it would just change it too fundamentally... But maybe I'm wrong. That's a prediction.
+**Alex Sexton:** \[00:12:04.13\] Yeah. It's interesting, because I think part of the standards bodies are kind of maybe taking -- like, normally, when people do their own things and add to, like -- CoffeeScript happened, and then I think a lot of ES6 was at least sped up, and some syntax like Feathers were inspired by CoffeeScript. The innovations to the language end up in the spec, but I almost feel like the opposite thing is happening with types, where they're like "We wanna get types in. We've been looking at it for a long time, it's hard. Let's try this, let's try this..." and then whenever FlowType and Typescript came out, they were like "Okay, well those things solve it, so let's not work on it as hard in the spec, because people have options already." So I'm interested to see how that plays out long-term. I don't ever see JavaScript bringing types, for what it's worth; it would just change it too fundamentally... But maybe I'm wrong. That's a prediction.
 
-In that same vein, ES5 - we did an episode whenever ES5 landed, and we talked about the new array prototype functions and things like that, and how you'd have to use polyfills to get it all to work. Since then, a few versions of Javascript have been released, and it's kind of evergreen now, and it's hard... I guess Javascript isn't evergreen, it's HTML, whatever. But we've had ES6, ES7, ES2015, ES2016, and now we're in the midst of 2017. I think we're all using -- everyone's using Babel for everything. I guess DevTools probably isn't, Paul, right?
+In that same vein, ES5 - we did an episode whenever ES5 landed, and we talked about the new array prototype functions and things like that, and how you'd have to use polyfills to get it all to work. Since then, a few versions of JavaScript have been released, and it's kind of evergreen now, and it's hard... I guess JavaScript isn't evergreen, it's HTML, whatever. But we've had ES6, ES7, ES2015, ES2016, and now we're in the midst of 2017. I think we're all using -- everyone's using Babel for everything. I guess DevTools probably isn't, Paul, right?
 
 **Rebecca Murphey:** ...except Brian LaRue.
 
@@ -122,7 +122,7 @@ In that same vein, ES5 - we did an episode whenever ES5 landed, and we talked ab
 
 **Alex Sexton:** Cool. And one of the news segments on the show that we did was talk about when Node was released at JSConf EU...
 
-**Rebecca Murphey:** No one's ever gonna use Javascript on the server. \[laughter\]
+**Rebecca Murphey:** No one's ever gonna use JavaScript on the server. \[laughter\]
 
 **Alex Sexton:** We seemed excited about it, but I think none of us really understood what it was, and we were all just excited because Twitter was so excited about it.
 
@@ -130,7 +130,7 @@ In that same vein, ES5 - we did an episode whenever ES5 landed, and we talked ab
 
 **Alex Sexton:** Go ahead.
 
-**Adam Sontag:** You all know my story, which is that when Node.js came out, we all were excited about it running around in Europe, and I was like "What is No.js? What is No.js?" and like "NoSQL looks like a thing", and I was like "Oooh, so No.js is like a NoSQL of Javascript! It's like Javascript without Javascript!", but then I found out that it was called NODE.js... \[laughter\]
+**Adam Sontag:** You all know my story, which is that when Node.js came out, we all were excited about it running around in Europe, and I was like "What is No.js? What is No.js?" and like "NoSQL looks like a thing", and I was like "Oooh, so No.js is like a NoSQL of JavaScript! It's like JavaScript without JavaScript!", but then I found out that it was called NODE.js... \[laughter\]
 
 **Alex Sexton:** No.js... I like it.
 
@@ -138,11 +138,11 @@ In that same vein, ES5 - we did an episode whenever ES5 landed, and we talked ab
 
 **Paul Irish:** Can I ask another question on this topic? Because I think one of you guys know the answer better than me... Around ES modules and .mjs extension. Because I don't really know where things are completely, but I just remember being slightly infuriated that we're gonna have to adopt .mjs for all the ES module files, for this whole load compatibility, and I was like "Come on! The people that have been doing it wrong, they get the real extension, and now the real thing gets kicked off...? This is so stupid! It's stupid!" And then at some point I was hanging out with Alex Russell and Domenic Denicola, and I was like "Guys, isn't this so stupid?!" and they were like "Why? What's the problem with it?" They were like "It seems okay..." and I was like "Well, if they think it's okay, then probably I guess it's okay..." \[laughter\]
 
-**Alex Sexton:** \[00:16:07.15\] You kind of glossed over that -- I think Bradley Meck mostly was working on how to do importing of Javascript modules in Node.js officially based on this stuff... I don't even know the exact details of the problem, but there was some problem where because people were doing modules in a weird way before, all their stuff would break if we kept using the same system that they're currently using. So in order to differentiate between those two different systems, you would name your real new official modules with the extension .mjs instead of .js... And I think I agree that the people who broke it should have to change -- I think it's an Office Space quote, "Why should I have to change my name? He's the one who sucks." \[laughter\]
+**Alex Sexton:** \[00:16:07.15\] You kind of glossed over that -- I think Bradley Meck mostly was working on how to do importing of JavaScript modules in Node.js officially based on this stuff... I don't even know the exact details of the problem, but there was some problem where because people were doing modules in a weird way before, all their stuff would break if we kept using the same system that they're currently using. So in order to differentiate between those two different systems, you would name your real new official modules with the extension .mjs instead of .js... And I think I agree that the people who broke it should have to change -- I think it's an Office Space quote, "Why should I have to change my name? He's the one who sucks." \[laughter\]
 
 We don't have a ton of time to get to the beginning of this, so we're gonna move on a little bit. There was an io.js release and fork, and a few other things, but Node.js 8 is coming out soon, so I don't think we can cover all that... Plus Mikeal's not on the show and he'll want to have opinions.
 
-That was our section of things that didn't exist in Javascript since we last had an episode; I don't think we nailed it, because we talked about two things we've talked about on previous episodes, but whatever.
+That was our section of things that didn't exist in JavaScript since we last had an episode; I don't think we nailed it, because we talked about two things we've talked about on previous episodes, but whatever.
 
 The next section we have in here is things that used to exist when we had episodes, but don't anymore. I only put two things in here - YepNope... I deprecated YepNope, but people still use it; it's still very popular, for some reason. And JSConf US is something we talked about a lot... Maybe it'll come back though.
 
@@ -176,13 +176,13 @@ But anyways, that EtherPad instance that we had was hosted on OkSoClap.com, and 
 
 **Break:** \[00:20:10.18\]
 
-**Alex Sexton:** And we're back. During the break, Paul reminded me of the fact that the OkSoClap EtherPad instance was actually used by TC39, the Technical Committee number 39 from the ECMA standards body organization system enterprise... \[laughter\] They used the OkSoClap for years to take notes, so the official Javascript language was partially developed using the OkSoClap.com EtherPad created by yayQuery... So our tentacles go deep into the language.
+**Alex Sexton:** And we're back. During the break, Paul reminded me of the fact that the OkSoClap EtherPad instance was actually used by TC39, the Technical Committee number 39 from the ECMA standards body organization system enterprise... \[laughter\] They used the OkSoClap for years to take notes, so the official JavaScript language was partially developed using the OkSoClap.com EtherPad created by yayQuery... So our tentacles go deep into the language.
 
 **Paul Irish:** \[laughter\] So deep.
 
 **Adam Sontag:** I remember, it's a symbol of how different that whole standards process is than when we started yayQuery. It's a lot more open, and I think that that is a nice thing to point out.
 
-**Paul Irish:** Yeah, the fact that when we started it was a bunch of people that -- who knew who it even was? And then nowadays not only Rick Waldron has been involved in it forever, but people from Twitter and Node, and a lot of actual Javascript developers from the community are engaged in TC39, so it's a much different and a much more open, collaborative feeling these days.
+**Paul Irish:** Yeah, the fact that when we started it was a bunch of people that -- who knew who it even was? And then nowadays not only Rick Waldron has been involved in it forever, but people from Twitter and Node, and a lot of actual JavaScript developers from the community are engaged in TC39, so it's a much different and a much more open, collaborative feeling these days.
 
 **Alex Sexton:** I think it was Rick that was the crossover between yayQuery backchanneling and taking notes at TC39 meetings. And he did that through the jQuery Foundation seat that we bought on TC39 for him and Yehuda. So it was actually -- the popularity of jQuery was able to raise enough money to create a foundation that was able to buy seats on TC39 to put real developers and open up notes and do those things.
 
@@ -264,7 +264,7 @@ Then we got to go see yaySayer at the after party, in the VIP section. We were t
 
 **Paul Irish:** Sure. In DevTools, what you can do is -- it's in a place that we call "the drawer", which is the little console at the bottom, when you hit Escape and that pops up... So you can definitely hit Escape to bring up that, or you can go through the top-right, the little three dots menu, go to More Tools and click Coverage. Either way, you're gonna click a little menu, the three dots, and go for Coverage. From there, there's a little Record button; start recording, and stop it when you're done.
 
-You can do it instantly... If all you wanna look at is CSS, it's just gonna look at the CSS that's used on the page. But usually, you're looking at scripts, so you'll wanna load the page and maybe open up, like try out some functionality. Then you get a report on exactly how many bytes of every file that's loaded have been evaluated, either by the Javascript engine or the style engine, and then from there you can go see the exact lines, and whether they were evaluated or not... And evaluate, figure out on your own what you can kill off, or what you could move to another module, lazy-load it, things like that.
+You can do it instantly... If all you wanna look at is CSS, it's just gonna look at the CSS that's used on the page. But usually, you're looking at scripts, so you'll wanna load the page and maybe open up, like try out some functionality. Then you get a report on exactly how many bytes of every file that's loaded have been evaluated, either by the JavaScript engine or the style engine, and then from there you can go see the exact lines, and whether they were evaluated or not... And evaluate, figure out on your own what you can kill off, or what you could move to another module, lazy-load it, things like that.
 
 **Alex Sexton:** Very nifty.
 
@@ -314,7 +314,7 @@ You can do it instantly... If all you wanna look at is CSS, it's just gonna look
 
 **Alex Sexton:** I think the other part is a gif though, right?
 
-**Rebecca Murphey:** No, there's one line of Javascript.
+**Rebecca Murphey:** No, there's one line of JavaScript.
 
 **Alex Sexton:** Oh, okay...
 
@@ -322,11 +322,11 @@ You can do it instantly... If all you wanna look at is CSS, it's just gonna look
 
 **Paul Irish:** It's an onclick handler...
 
-**Alex Sexton:** Oh, they really should have done the old CheckBox Checked thing, where you didn't need Javascript...
+**Alex Sexton:** Oh, they really should have done the old CheckBox Checked thing, where you didn't need JavaScript...
 
 **Paul Irish:** Yeah, I mean, they're using a straight up on-click handler, like in-line onclicks. That's pretty classic.
 
-**Adam Sontag:** So you just mean that they might not need Javascript? \[laughter\]
+**Adam Sontag:** So you just mean that they might not need JavaScript? \[laughter\]
 
 **Alex Sexton:** I also... As part of the plugin of the week - I don't think it was ever the plugin of the week, but this felt like the right place to talk about it... One friend of the podcast, Ralph Holzmann, let me know recently that there was recent activity in the LABjs project. LABjs, if you remember, was one of the many entrants to the script loader wars back in the day, the good ol' wars, for asynchronous...
 
@@ -402,7 +402,7 @@ Next up, we were going to have "Paul Irish's jQuery Anti-pattern for Performance
 
 **Alex Sexton:** Classic!
 
-**Rebecca Murphey:** \[00:39:51.02\] He did just do that... As men do. No, sorry. No, I just saw this video, and... A lot of people are mystified by Webpack and how it works - especially people who are kind of new to Javascript and frontend development, or people who have been doing it for a while, but feel like they need to be "doing it right" now, and they're like "Oh, I need to learn Webpack" and "Yikes, that's scary!" This was just a really great video by Naomi Jacobs at BuzzJS, so check that out. I haven't heard of her, but she was just a really approachable speaker, who kind of laid out "Here's what Webpack actually does. It's not magic, it's just Javascript to make your app be able to load asynchronously, be able to load in tiny chunks, instead of all at once, and be able to do all the cool things that you can do with Webpack."
+**Rebecca Murphey:** \[00:39:51.02\] He did just do that... As men do. No, sorry. No, I just saw this video, and... A lot of people are mystified by Webpack and how it works - especially people who are kind of new to JavaScript and frontend development, or people who have been doing it for a while, but feel like they need to be "doing it right" now, and they're like "Oh, I need to learn Webpack" and "Yikes, that's scary!" This was just a really great video by Naomi Jacobs at BuzzJS, so check that out. I haven't heard of her, but she was just a really approachable speaker, who kind of laid out "Here's what Webpack actually does. It's not magic, it's just JavaScript to make your app be able to load asynchronously, be able to load in tiny chunks, instead of all at once, and be able to do all the cool things that you can do with Webpack."
 
 So check it out, it's 45 minutes or so long, but it was super approachable. I sat in a room with a bunch of other devs watching it, and could see them like "Oh, I get it now...", so I highly recommend it.
 
@@ -468,11 +468,11 @@ This friend was saying that by default now we should use fat arrows that way; ev
 
 **Rebecca Murphey:** But I don't know if there's a reason to do it...
 
-**Alex Sexton:** My opinion is pretty much that I'm fine for our company choosing to have an application where we lint in this way and write Javascript in this style, but I think it's weird to refer to fat arrows as like the default way to write functions and to refer to functions.
+**Alex Sexton:** My opinion is pretty much that I'm fine for our company choosing to have an application where we lint in this way and write JavaScript in this style, but I think it's weird to refer to fat arrows as like the default way to write functions and to refer to functions.
 
-**Adam Sontag:** And I feel like it's kind of a beginner-unfriendly history, like it's a retcon of Javascript to try and be like "This is the new right way to do it, and everything you've seen that's older than three years ago is just wrong and weird now."
+**Adam Sontag:** And I feel like it's kind of a beginner-unfriendly history, like it's a retcon of JavaScript to try and be like "This is the new right way to do it, and everything you've seen that's older than three years ago is just wrong and weird now."
 
-**Alex Sexton:** Yeah, and I think one interesting thing about this person is that pretty much their entire Javascript career is in the era of fat arrows, so I think actually to them fat arrows are default; like, why would you write out function? And to me, that's just a bizarre concept. The first thing I do is write a function, and then if I think about it and I want it to be bound to a lexical "this", then I would choose to use the fat arrow. But that's not always true.
+**Alex Sexton:** Yeah, and I think one interesting thing about this person is that pretty much their entire JavaScript career is in the era of fat arrows, so I think actually to them fat arrows are default; like, why would you write out function? And to me, that's just a bizarre concept. The first thing I do is write a function, and then if I think about it and I want it to be bound to a lexical "this", then I would choose to use the fat arrow. But that's not always true.
 
 Some of the stuff with fat arrows is inside classes can get a little wonky. You have to do an equals fat arrow rather than do the shorthand, because then things aren't bound to a lexical "this". So there are some tricks and stuff that don't make it super easy, but I don't know... I think I'm kind of sold.
 
@@ -486,7 +486,7 @@ Some of the stuff with fat arrows is inside classes can get a little wonky. You 
 
 **Alex Sexton:** I think every once in a while we get an explicit tag, so... We'll see. Even back in the day we used to curse -- I mean, not a ton, but a good amount. But how many sparkles and ponies and rainbows were presented definitely did not give a fair indication of the amount of cursing that'd end up on a show.
 
-This isn't a segment either, but we did this during our live reunion show last time, and I thought I might bring it back. I wanted to feel the air for predictions for the web or Javascript in the next 1-5 years, or something like that. What's gonna change, what standards are gonna make it, what's gonna die? Does anyone have any considerable thoughts here?
+This isn't a segment either, but we did this during our live reunion show last time, and I thought I might bring it back. I wanted to feel the air for predictions for the web or JavaScript in the next 1-5 years, or something like that. What's gonna change, what standards are gonna make it, what's gonna die? Does anyone have any considerable thoughts here?
 
 **Rebecca Murphey:** I have one... Somebody's gonna tell me why I'm wrong...
 
@@ -628,7 +628,7 @@ But there were conversations on both of these cases, to introduce shorter APIs f
 
 **Alex Sexton:** Okay, cool. We're gonna do two picks - Rebecca and Paul - because we're a little bit short on time... So Rebecca, what's your pick?
 
-**Rebecca Murphey:** So I lied when I said I'm a Javascript developer; I'm actually mostly a manager these days, so that's my dirty secret. But my pick is Camille Fournier's book "The Manager's Path." If you, like us, have grown up in the last few years and maybe you're taking on some more responsibilities at work - even if you're not a manager - it's a really, really awesome book about technical leadership and navigating that in organizations. So not about Javascript, but I highly recommend it.
+**Rebecca Murphey:** So I lied when I said I'm a JavaScript developer; I'm actually mostly a manager these days, so that's my dirty secret. But my pick is Camille Fournier's book "The Manager's Path." If you, like us, have grown up in the last few years and maybe you're taking on some more responsibilities at work - even if you're not a manager - it's a really, really awesome book about technical leadership and navigating that in organizations. So not about JavaScript, but I highly recommend it.
 
 **Alex Sexton:** Cool. Paul, you said you had a pick?
 
