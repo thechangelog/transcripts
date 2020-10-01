@@ -60,7 +60,7 @@ So while we're here, we'd like to really have a fluid conversation with Brad, ma
 
 **Mat Ryer:** \[laughs\] That's great.
 
-**Brad Fitzpatrick:** So we had this bootleg Apple 2 that I always saw my dad screwing around on, and at some point - I was like 5 or 6 - he had taught me how to write BASIC. He wrote a program on paper that was like \[unintelligible 00:08:00.15\] and he was like "What do you think this does?" And I was like "Well, clearly it prints something on our printer." And he's like "Well, no, actually it doesn't print on the printer, it prints on the screen." I was like "Oh, okay..."
+**Brad Fitzpatrick:** So we had this bootleg Apple 2 that I always saw my dad screwing around on, and at some point - I was like 5 or 6 - he had taught me how to write BASIC. He wrote a program on paper that was like 10 PRINT "HELLO WORLD" 20 GOTO 10 and he was like "What do you think this does?" And I was like "Well, clearly it prints something on our printer." And he's like "Well, no, actually it doesn't print on the printer, it prints on the screen." I was like "Oh, okay..."
 
 **Mat Ryer:** \[00:08:14.24\] You were sassy for a 5-year-old, weren't you?
 
@@ -90,7 +90,7 @@ So while we're here, we'd like to really have a fluid conversation with Brad, ma
 
 **Brad Fitzpatrick:** If you saw all the talk about the file system proposal that's coming out now... People are complaining that it doesn't have context in it, and we're like "Well, yeah, but contexts don't really work with most operating system layers, and also it doesn't exist in the OS package, so it wouldn't compose well with that..." It's just so many trade-offs all the time.
 
-**Johnny Boursiquot:** We use to have this saying circling around the Go community - even I have uttered it on many occasions - "If you wanna know how Go is written, look at the standard library." But now I'm kind of hesitant on saying that, because again, if somebody doesn't know that, okay, there's multiple generations, and multiple best practices, and things you wish you could go back and redo, because we normally do things a certain way; it's kind of hard to tell somebody who's picking up Go today, like "Hey, \[unintelligible 00:10:12.27\]" So are there parts of the Go standard library that you wouldn't point somebody to, but other parts of the standard library today that you'd definitely say "Okay, this is an example of how you should write Go"?
+**Johnny Boursiquot:** We used to have this saying circling around the Go community - even I have uttered it on many occasions - "If you wanna know how Go is written, look at the standard library." But now I'm kind of hesitant on saying that, because again, if somebody doesn't know that, okay, there's multiple generations, and multiple best practices, and things you wish you could go back and redo, because we normally do things a certain way; it's kind of hard to tell somebody who's picking up Go today, like "Hey, just go and read the standard library". So are there parts of the Go standard library that you wouldn't point somebody to, but other parts of the standard library today that you'd definitely say "Okay, this is an example of how you should write Go"?
 
 **Brad Fitzpatrick:** I wouldn't read the runtime, for instance, or anything using unsafe or cgo is pretty nasty. And even Http is just full of corner cases, because the world of the internet and browsers and servers are so bizarre in so many edge cases that the code just gets unnecessarily complex... But there's little bits and pieces. When I was relearning how gif and jpeg worked, I would just -- it's easier for me to go read the Go implementation of some of these file formats, or zip files, or something... Rather than read the spec, you can just go read the Go code and it's often easier to learn how a file format or a network protocol works.
 
@@ -114,7 +114,7 @@ So while we're here, we'd like to really have a fluid conversation with Brad, ma
 
 **Brad Fitzpatrick:** Well, I always fought networks a lot... And then I was helping my dad set up a networking port; my parents bought this RV. They are retired now and they're just kind of traveling around the U.S. - or they were traveling around the U.S, prior to pandemics and wildfires, and stuff... And my dad wanted to have monitoring on his RV. There's this CAN bus that lets him control all the lights and fans and heaters in the thing, and it also lets him see temperatures, and fuel levels, and what their black water and clean water - the levels around all that, and how long the generator has been running... So he wanted to build a dashboard to see all this, and he wanted to see it from anywhere in the world.
 
-So we had set up this whole contraption of Raspberry Pi in the RV, and an LTE modem, and all these reverse proxies, and stuff... And then I set up WireGuard for him, and that was just so cool and empowering, compared to the complexity of what we had been doing prior, that I just started playing with it more myself, like putting WireGuard tunnels between things... But it can get pretty tedious to set it all up yourself, so when I found out that \[unintelligible 00:13:50.04\] who I also worked with on Go was doing a company all around making WireGuard fun and easy, I was like "Oh, I wanna go do that."
+So we had set up this whole contraption of Raspberry Pi in the RV, and an LTE modem, and all these reverse proxies, and stuff... And then I set up WireGuard for him, and that was just so cool and empowering, compared to the complexity of what we had been doing prior, that I just started playing with it more myself, like putting WireGuard tunnels between things... But it can get pretty tedious to set it all up yourself, so when I found out that David Crawshaw who I also worked with on Go was doing a company all around making WireGuard fun and easy, I was like "Oh, I wanna go do that."
 
 I had a bunch of friends that were all kind of doing startups at the same time, and I was getting some startup FOMO... Thinking back to the old days of me doing the LiveJournal startup... So I wanted to relive the startup glory days.
 
@@ -164,7 +164,7 @@ So then it was just like me and my friends from high school, my friends from the
 
 So then it turned into a company for the whole time I was in college, and a few years afterwards... And then I sold it to a company in San Francisco, because I just got burnt out running it. It was just non-stop stress. Our site was constantly falling over. We went from one server to 150 servers or so, so we had to invent load balancers for things, and figure out sharding, which - I didn't know the name for it; the name didn't exist at the time, so we called it something else... But sharding users over database clusters, and doing HA databases, and doing HTTP load balancers, and doing a distributed file system... It was effectively S3 at the time, for photos... But the site's constantly on fire, so you're constantly writing stuff to \[unintelligible 00:19:25.00\] because we were hitting our databases too hard, so...
 
-\[unintelligible 00:19:29.03\] good times. It was fun goofing around... And you know, there's constantly something broken to fix.
+It was good times. It was fun goofing around... And you know, there's constantly something broken to fix.
 
 **Mat Ryer:** It's amazing to hear all the different types of technologies that you had to innovate at the time. It's kind of really surprising. And now, of course, LiveJournal - it says on their website they are now at version 427... And that's great.
 
@@ -176,7 +176,7 @@ So that's what led me to go build our MogileFS, which is an anagram of OmgFiles.
 
 **Johnny Boursiquot:** So you were creating all this tech, which is now commonplace, right?
 
-**Brad Fitzpatrick:** Yeah. So that's the other reason I kind of wanted to go do a startup. When I first joined Google, they had all this secret sauce, like Borg, and BigTable... There was amazing technology, so I wanted to go to Google and see how the grown-ups did distributed systems. But now I feel like all the secret sauce is out there, in open source... But I've never had really a chance to use it. At Google I had access to it, but I wasn't necessarily using it. I could just use it if I wanted, so I used it for the Go build system, and stuff... So this is kind of like my first company that I've got to do where the cloud existed, and I can use all this distributed systems stuff for free... And it's great; we're setting up our proxy relays around the world for tailscale for the people who don't have direct connectivity, for like 4%-5% of connections; if we can't penetrate the \[00:22:32.04\] we end up proxying the encrypted packets through our relays... We're like "Okay, yeah, let's just spin up some ones around the world", and we've just got a bunch of $5/month instances in all the regions around the world, and it doesn't take any time. That stuff used to be downright impossible, so... It's fun. I always knew that this stuff existed, but being able to use it for the first time is pretty fun.
+**Brad Fitzpatrick:** Yeah. So that's the other reason I kind of wanted to go do a startup. When I first joined Google, they had all this secret sauce, like Borg, and BigTable... There was amazing technology, so I wanted to go to Google and see how the grown-ups did distributed systems. But now I feel like all the secret sauce is out there, in open source... But I've never had really a chance to use it. At Google I had access to it, but I wasn't necessarily using it. I could just use it if I wanted, so I used it for the Go build system, and stuff... So this is kind of like my first company that I've got to do where the cloud existed, and I can use all this distributed systems stuff for free... And it's great; we're setting up our proxy relays around the world for tailscale for the people who don't have direct connectivity, for like 4%-5% of connections; if we can't penetrate the NAT on those sites we end up proxying the encrypted packets through our relays... We're like "Okay, yeah, let's just spin up some ones around the world", and we've just got a bunch of $5/month instances in all the regions around the world, and it doesn't take any time. That stuff used to be downright impossible, so... It's fun. I always knew that this stuff existed, but being able to use it for the first time is pretty fun.
 
 **Mat Ryer:** Yeah, it's nice to see that these things are becoming accessible, these technologies which in the past - like you - you had to just create them... Like memcached, which we should definitely talk about more. So yeah, I think it's a great way also for projects to emerge; like you say, memcached came out of the LiveJournal stuff. It's that thing of solving real problems, and having to, like you say, when it's on fire. So you have no choice; there are imperative things, you've got to solve these problems. I find some great tech comes out of those kinds of situations.
 
@@ -206,13 +206,13 @@ So that's what led me to go build our MogileFS, which is an anagram of OmgFiles.
 
 **Brad Fitzpatrick:** I started off with BASIC and C. But neither one -- you know, in BASIC you hit limits pretty quickly, and C is not very fun. It's like, it exists to do things when you need to use it, but I don't enjoy writing in C. It just feels tedious.
 
-So when I discovered Perl, in '93-'94 or something like this - it was Perl 4 at the time - I was like "Whoa, I can do things really quickly!" But this was also the language everyone at the time was doing CGI scripts into, so it was also the language that let me do cool, dynamic web stuff.
+So when I discovered Perl, in '93-'94 or something like this - it was Perl 4 at the time - I was like "Whoa, I can do things really quickly!" But this was also the language everyone at the time was doing CGI scripts in too, so it was also the language that let me do cool, dynamic web stuff.
 
 \[00:28:07.04\] So I was very in the Perl community, very involved, and all of LiveJournal was pretty much all Perl, except for little bits and pieces that needed to be C for performance reasons. Memcached was originally in Perl, but it fell over within like a second, as I suspected it would. The prototype was in Perl, but then we quickly rewrote it in C.
 
 So I love Perl, and I never really jumped on the Python or Ruby trains, because they were just not different enough from Perl for me to care. They had all the same pros and cons; they weren't much better. They were still like explode at runtime, and no type checking... Python and Ruby were even slower than Perl, so performance wasn't a reason... And maybe the syntax was a little cleaner, but at that point I didn't care, because I already knew Perl.
 
-And then I joined Google, and they use lots of Python, C++ and Java, so I wrote in all of these kind of out of necessity, but I didn't really love any of them. I worked on Android for a couple of years and wrote a lot of Java, and a lot of Google frontends were often in Java, and Google backends were often in C++... I launched a service that was a whole mx of things. It was like Java, C++, \[unintelligible 00:29:22.12\] which was Google's language for logs analysis, which Rob Pike worked on prior to Go... I kind of hated it, but that's what everyone at Google wrote their logs analysis in at the time. Nowadays they've migrated off \[unintelligible 00:29:34.18\] onto Go.
+And then I joined Google, and they use lots of Python, C++ and Java, so I wrote in all of these kind of out of necessity, but I didn't really love any of them. I worked on Android for a couple of years and wrote a lot of Java, and a lot of Google frontends were often in Java, and Google backends were often in C++... I launched a service that was a whole mx of things. It was like Java, C++, Sawzall which was Google's language for logs analysis, which Rob Pike worked on prior to Go... I kind of hated it, but that's what everyone at Google wrote their logs analysis in at the time. Nowadays they've migrated off Sawzall onto Go.
 
 Yeah, so I was never really excited about any of the Google languages. I wrote in them because I had to, because there was no choice... And then I saw Go come out. I went to a bunch of the internal talks on Go, and I was like "Yeah, yeah, whatever..." Google had a bunch of internal languages, and most of them were so-so... So I was not super-excited at the time.
 
@@ -220,7 +220,7 @@ Somebody had a question from the audience, like "Does Go have closures? Do you h
 
 But then when they said they were open-sourcing it, I was like "Oh, I should look again. And then I noticed they had added closures in the meantime. I guess Russ Cox just went in one day when Ken Thompson was on vacation, and couldn't object, and Russ just added them. \[laughter\]
 
-**Johnny Boursiquot:** \[unintelligible 00:30:59.24\]
+**Johnny Boursiquot:** Russ? No..
 
 **Brad Fitzpatrick:** Yeah, that doesn't sound like Russ... One of the Russes... \[laughter\] So then after that I started just screwing around on it. I was spending like 2,5 hours a day on the Google bus, going back and forth between San Francisco and Mountain View, and I just had a lot of time to screw around on my laptop... So I decided the Perkeep, which at the time was called Camlistore, was originally kind of a set of ideas and data structures of how I would want my personal life archiving storage system to work... But I wasn't excited to write it, because I didn't wanna write it in Perl; I was sick of scripting languages... I didn't wanna write it in C++, because that just didn't sound fun for a personal project... And so when Go came out, I was like "Well, the best way to learn a language or learn anything new is to use it", so I was like "Let's try to build this storage system idea that I had. Let's try to write that in Go."
 
@@ -240,7 +240,7 @@ But then when they said they were open-sourcing it, I was like "Oh, I should loo
 
 **Mat Ryer:** Oh, okay.
 
-**Brad Fitzpatrick:** I've reimplemented the server in C++ inside Google; that's what the App Engine -- there's a version of memcached inside Google that is all based on Google's RPC system, Which is all protocol buffers, and stuff... It's kind of like gRPC, basically. And that's written in C++, but it's not -- I mean, a memcached server is kind of like a good Hello World network server. It's very simple. It's a HashMap hooked up to a \[unintelligible 00:33:31.28\] effectively.
+**Brad Fitzpatrick:** I've reimplemented the server in C++ inside Google; that's what the App Engine -- there's a version of memcached inside Google that is all based on Google's RPC system, Which is all protocol buffers, and stuff... It's kind of like gRPC, basically. And that's written in C++, but it's not -- I mean, a memcached server is kind of like a good Hello World network server. It's very simple. It's a HashMap hooked up to a Get and Set effectively.
 
 **Johnny Boursiquot:** Well, that's kind of putting it lightly... But yeah, sure. \[laughter\]
 
@@ -256,7 +256,7 @@ So that's the only real trick inside memcached... But nowadays all the normal li
 
 And I think about the same time I had an internet outage at my house, because -- I forget what I was using for a gateway, but I had like 2-3 gateway failures in a row, where my router failed in my house... And it was super-annoying. So I decided that my goal was gonna be to build a high-availability internet router that had no single points of failure.
 
-I was like "Well, I can't have one failure. I need to have at least three, because I need to have \[unintelligible 00:35:39.21\] if one fails."
+I was like "Well, I can't have one server. I need to have at least three, because I need to have a \[unintelligible 00:35:39.21\] quorum if one fails."
 
 First I started off with VMware, because I was using it at work, with ESXi, but I couldn't stand how corporaty and enterprisy the whole thing was, so I switched to Proxmox. So now I had just VMs that were just floating around, and I don't really know which VM is on which of the three nodes... And if one of the nodes dies, the VMs just float somewhere else. I use Ceph for storage, so the storage is sprayed over all the three machines too, and I don't have to worry about where my block devices are; they're all just highly available.
 
@@ -340,11 +340,11 @@ I kind of think that Go's popularity - it helps it be more popular, but I think 
 
 **Brad Fitzpatrick:** Yes and no. I mean, if we were allowed to change the standard library and make it clean and consistent, then you wouldn't see these three or four generations of styles in the standard library, right? We could put context everywhere, or we could build context into the language, and then make it implicit, or something...
 
-**Mat Ryer:** Just do \[unintelligible 00:44:03.06\] and make a new language with a different name... \[laughter\]
+**Mat Ryer:** Just do a Perl 6 and make a new language with a different name... \[laughter\]
 
 **Brad Fitzpatrick:** \[00:44:08.29\] Yeah, we see how well that worked out for Python 3 and Perl 6, right? In practice, these things don't work. Ian wrote a document about all the languages, and the successful ones are the ones that don't nuke the world and start over, so... You've gotta find a way to do it iteratively.
 
-**Johnny Boursiquot:** How do you manage your modules? That's another point of contention within the Go community, right? Basically, how do we manage the introduction of Go modules in the semantic import versioning, and all that stuff? I'm curious what you feel about it, if anything. Do you just say "Well, we're gonna be at v1 forever, because we don't wanna have a v2", or how do you treat that?
+**Johnny Boursiquot:** How do you manage your modules? That's another point of contention within the Go community, right? Basically, how do we manage the introduction of Go modules and the semantic import versioning, and all that stuff? I'm curious what you feel about it, if anything. Do you just say "Well, we're gonna be at v1 forever, because we don't wanna have a v2", or how do you treat that?
 
 **Brad Fitzpatrick:** Well, it's easier to be at v0 forever. Then you don't have your rules.
 
@@ -440,7 +440,7 @@ I kind of think that Go's popularity - it helps it be more popular, but I think 
 
 **Brad Fitzpatrick:** Yeah... The spec was called GIF89.TEXT, all-caps... And now I'm trying to find it.
 
-**Mat Ryer:** How did they spell it? \[laughter\] You just read it like that, \[unintelligible 00:52:34.18\] It just says it's pronounced G-I-F.
+**Mat Ryer:** How did they spell it? \[laughter\] You just read it like that Brad. It just says it's pronounced G-I-F.
 
 **Brad Fitzpatrick:** Yeah, it's not an 89a spec...
 
@@ -530,7 +530,7 @@ And in the past they've been pretty good about trying to bow out of the voting o
 
 **Brad Fitzpatrick:** I've been debating a lot what I'm gonna do when the time comes... It has to be engaging enough. It has to be contemporary somehow. I don't think getting him an Apple 2 terminal would be quite so exciting. Lego might be fun; the little turtle graphics is always fun.
 
-**Mat Ryer:** \[01:00:12.25\] If I had a kid, I would bring it up kind of in the same timescale that I was brought up, to have a spectrum first... You know what I mean? Like, it can learn on that. Because I don't think kids appreciate how good technology is.
+**Mat Ryer:** \[01:00:12.25\] If I had a kid, I would bring it up kind of in the same timescale that I was brought up, to have a Spectrum first... You know what I mean? Like, it can learn on that. Because I don't think kids appreciate how good technology is.
 
 **Brad Fitzpatrick:** There is a guy online - he said when his kid reached a certain age, he got to have a certain video game console, and he got him every one that had ever come out in order, and he made them use it for like six months, or something. So he could play Pong or whatever, with the little silly paddle thing, for like six months. And then he could advance to the 8-bit games, and the SEGA... So he can see progressions of decades of game consoles getting better.
 
