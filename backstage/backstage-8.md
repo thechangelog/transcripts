@@ -372,7 +372,7 @@ So if we got somebody on Go Time that was better at organizing and planning and 
 
 **Jerod Santo:** I hadn't judged it yet. I was trying to find the Stop button on my recording.
 
-**Mat Ryer:** Okay, well spoiler alert - it does. It's too inauthentic. Let me do one more time.
+**Mat Ryer:** Okay, well spoiler alert - it does. It's too inauthentic. Let me do it one more time.
 
 **Jerod Santo:** Okay, well we'll just leave this part in, and then everybody will know that you were concerned about it.
 
