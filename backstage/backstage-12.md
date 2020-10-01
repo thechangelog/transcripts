@@ -28,7 +28,7 @@
 
 **Jerod Santo:** You had relaunched... It must have been beginning of 2013, end of 2012 was when I got involved...
 
-**Adam Stacoviak:** Yeah. Well, I had high hopes, man. I was hoping that our listening audience would be like "Yes", and they'll support all the \[unintelligible 00:02:15.07\] and that did not happen.
+**Adam Stacoviak:** Yeah. Well, I had high hopes, man. I was hoping that our listening audience would be like "Yes", and they'll support all the things and that did not happen.
 
 **Jerod Santo:** Right. And this was what was -- maybe we need to say it's a little bit embarrassing... This was when I saw it, and I thought "Hm, interesting..." - it was because it was something that we both know about you... The pure, romantic announcement "Members only. No ads. We're going full member-supported." That's what the launch was, wasn't it? Fully member supported.
 
@@ -224,7 +224,7 @@ So yes, when you click on the ++ logo in our nav, or when you go to changelog.co
 
 **Jerod Santo:** Yeah. We're fine.
 
-**Adam Stacoviak:** ...it opened our eyes to a need that -- you know, it would be nice to give our loyal listeners that wanted... They already want this kind of thing, they enjoy this exchange with \[unintelligible 00:25:52.26\] And that combined with Supercast - their graciousness to change their platform and take ideas... I mean, if you want, you can speak to some specifics, but there were some specific ideas you had given them, Jerod, that changed the way they did importing, and stuff like that... That was cool, that riffing. It's like creators riffing, even.
+**Adam Stacoviak:** ...it opened our eyes to a need that -- you know, it would be nice to give our loyal listeners that wanted... They already want this kind of thing, they enjoy this exchange with the creator and the opportunity.. And that combined with Supercast - their graciousness to change their platform and take ideas... I mean, if you want, you can speak to some specifics, but there were some specific ideas you had given them, Jerod, that changed the way they did importing, and stuff like that... That was cool, that riffing. It's like creators riffing, even.
 
 **Jerod Santo:** Right.
 
@@ -392,7 +392,7 @@ With that said though, we did talk about - which we haven't done yet, and that's
 
 **Adam Stacoviak:** That's right, I like that...
 
-**Jerod Santo:** I came up with that because I love saying it with JavaScript people. Like, "You know, what I like to do is use Express.js, because it's closer to the metal", which is a \[unintelligible 00:39:52.04\] sentence...
+**Jerod Santo:** I came up with that because I love saying it with JavaScript people. Like, "You know, what I like to do is use Express.js, because it's closer to the metal", which is a hilarious sentence...
 
 **Adam Stacoviak:** Oh, yes.
 
