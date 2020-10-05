@@ -32,7 +32,7 @@ I think chat clients are a very different business. There's a lot more people th
 
 **Matthew Hodgson:** Yeah. I mean, from the Matrix side, that is the goal that we're aiming for, to basically get the best of both worlds. Some say that if GitLab did have a chat client integrated in it, it wouldn't be the only way in which you can interact with ChatOps functionality. You would also be able to come in via Slack, or via Gitter, or via Elements as a native Matrix client.
 
-So I wouldn't totally rule out the idea of a kind of interoperable world of ChatOps in the context of an app like GitLab, but I also completely understand why it isn't core relative to the key of products. But it's gonna be really exciting, obviously, to go and take Gitter and natively, properly merge it into the wider Matrix network.
+So I wouldn't totally rule out the idea of a kind of interoperable world of ChatOps in the context of an app like GitLab, but I also completely understand why it isn't core relative to the key of products. But it's gonna be really really exciting, obviously, to go and take Gitter and natively, properly merge it into the wider Matrix network.
 
 **Jerod Santo:** So we have this transition, a passing of the torch... Who called whom? How did this deal come together? It's always fun to know what was the pitch, what was the idea, and who got it all started?
 
