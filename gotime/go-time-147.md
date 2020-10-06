@@ -520,7 +520,7 @@ Well, it's that time of the show where we do our unpopular opinions.
 
 **Peter Bourgon:** Don't bring us into your \[unintelligible 01:04:38.04\]
 
-**Mat Ryer:** Well, Jon does. In the privacy of his own dungeon is his own business; in his own code dungeon.
+**Mat Ryer:** What Jon does in the privacy of his own dungeon is his own business; in his own code dungeon.
 
 **Jon Calhoun:** I write this code thinking "I'm gonna have a real treat for myself later, when I try to read this..." \[laughter\]
 
