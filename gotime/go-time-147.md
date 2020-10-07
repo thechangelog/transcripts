@@ -132,7 +132,7 @@ I've tried to build UIs with Go. I still prefer the TypeScript approach, some th
 
 **Jon Calhoun:** A follow-up to that - since you're switching mindsets, one of the big things in Go is you write readable code. Do you find in other languages that you don't prioritize that as much, just because that's kind of the norm in the language?
 
-**Roberto Clapis:** Yes. I find Java unreadable. It's a big \[unintelligible 00:18:48.25\] for me, because Java uses very long lines, and most of the time you have an auto-format there that will split the line automatically. So I'm used that in Go one line means one thing, and in Java sometimes you have like 24 lines that are saying a single statement. That kills me.
+**Roberto Clapis:** Yes. I find Java unreadable. It's a big limiter for me, because Java uses very long lines, and most of the time you have an auto-format there that will split the line automatically. So I'm used that in Go one line means one thing, and in Java sometimes you have like 24 lines that are saying a single statement. That kills me.
 
 **Peter Bourgon:** What I find super-interesting is that even what constitutes readable is completely different from ecosystem to ecosystem, or person-to-person also. This subjective definition difference is also super-interesting to me, because I think for a lot of people, for example in maybe the Rust sphere (I don't know), readable is like what is somewhat terse, and compact, and conveys the most semantic information; not objectively the most, but a lot of semantic information, in a few characters. But for Go, simplicity has a completely different meaning. What we mean when we say it is totally something else.
 
@@ -208,7 +208,7 @@ So yes, but for me it depends on the case, which doesn't help. For services and 
 
 **Mat Ryer:** The ones I've seen that have done well with those fluent APIs, they just change state; they're basically just changing internal state in a controlled way. They can't error. So that's why. And then usually there's an operation at the end, which is the big operation, and that one will return an error potentially. But they do make testing hard, or they can make testing hard if you wanna stub things out, or have some kind of abstraction on that stuff. They can get in the way a little bit, since they're returning the concrete type often. So you can't do the trick of creating your own test interface in order to provide different mechanisms for it, or a different implementation.
 
-**Roberto Clapis:** Right. The one good use of builders that I've seen - and recently I had to use this - was for security reasons. We wanted to make sure that a certain object was constructed in a precise way by passing arguments in a certain order, and nothing would ever happen out of order. Basically, in the middle of the chain you would call a certain function that would return a new type, and on that one you could specify more stuff. So basically, \[unintelligible 00:30:56.21\] types that were not the entire thing, but in every phase you had to specify some things, and then you had to move on to the next state.
+**Roberto Clapis:** Right. The one good use of builders that I've seen - and recently I had to use this - was for security reasons. We wanted to make sure that a certain object was constructed in a precise way by passing arguments in a certain order, and nothing would ever happen out of order. Basically, in the middle of the chain you would call a certain function that would return a new type, and on that one you could specify more stuff. So basically, it returned types that were not the entire thing, but in every phase you had to specify some things, and then you had to move on to the next state.
 
 **Mat Ryer:** How did you name those types? That sounds like a nightmare.
 
@@ -220,13 +220,13 @@ So yes, but for me it depends on the case, which doesn't help. For services and 
 
 **Mat Ryer:** It's just gonna be 1, 2, 3, ain't it? Step one...
 
-**Roberto Clapis:** This issue was opened a month ago, and we haven't decided on the names yet. So yeah, you got the problem \[unintelligible 00:31:26.11\]
+**Roberto Clapis:** This issue was opened a month ago, and we haven't decided on the names yet. So yeah, you got a problem with that.
 
 **Peter Bourgon:** Wait, I'm trying to understand... So you have a thing and a high level, which is like in the end a sequence of substeps, or something like that, right? And you're using the builder pattern -- you're modeling the substeps as different types, and you're using the builder pattern to move from one substep to the next. Is that right?
 
-**Roberto Clapis:** Yeah, basically I can give you the concrete example. We are building a framework to develop web applications, and when you set up your entire server, you register handlers. After you have registered handlers, you're supposed to register \[unintelligible 00:31:57.25\]. That is something that will intercept requests and responses, for security reasons. Most of the logic will just be in handlers.
+**Roberto Clapis:** Yeah, basically I can give you the concrete example. We are building a framework to develop web applications, and when you set up your entire server, you register handlers. After you have registered handlers, you're supposed to register plugins. That is something that will intercept requests and responses, for security reasons. Most of the logic will just be in handlers.
 
-\[00:32:06.25\] And then after you're done, you start a server, and at that point you are not supposed to change nor the handlers, not the plugins anymore. And vice-versa, when you install a plugin, you still \[unintelligible 00:32:15.17\] register a handler at that point. We could do this by panicking, if you did things out of order... And this is still on the plate. But we found out that checking these at compile time, making sure that if your code compiles and you did stuff in the right order felt like a good thing to provide.
+\[00:32:06.25\] And then after you're done, you start a server, and at that point you are not supposed to change nor the handlers, not the plugins anymore. And vice-versa, when you install a plugin, you still had to register a handler at that point. We could do this by panicking, if you did things out of order... And this is still on the plate. But we found out that checking these at compile time, making sure that if your code compiles and you did stuff in the right order felt like a good thing to provide.
 
 **Mat Ryer:** I've genuinely never seen that as an example in Go.
 
@@ -284,7 +284,7 @@ So if your type has these semantics, then they can be good. But with that said, 
 
 **Jon Calhoun:** \[00:36:15.08\] And you still have to look something up. So I think at the end of the day, the short answer is that you're gonna have to look something up. Looking up a specific date is really not that big of a deal, compared to looking something else up. And there's tooling that makes that easier.
 
-**Peter Bourgon:** Yeah, I always have to look up the \[unintelligible 00:36:29.08\] stuff personally. I never remember that.
+**Peter Bourgon:** Yeah, I always have to look up the \[unintelligible 00:36:29.08\] time stuff personally. I never remember that.
 
 **Mat Ryer:** Okay, well I'm with the questioner now. I think that is a bit weird. But the answer is that's just the way it is. This actually could be quite easy; we could just hammer through these with that, if that's our answer. \[laughter\]
 
@@ -334,7 +334,7 @@ So if your type has these semantics, then they can be good. But with that said, 
 
 **Roberto Clapis:** I don't know, that feels weird.
 
-**Mat Ryer:** Yeah. I probably wouldn't have done it, but it's completely fine. You could make the same arguments for the status codes. Frankly, I find those to be much more readable, especially because I don't know all the HTTP \[unintelligible 00:39:25.01\]
+**Mat Ryer:** Yeah. I probably wouldn't have done it, but it's completely fine. You could make the same arguments for the status codes. Frankly, I find those to be much more readable, especially because I don't know all the HTTP status codes.
 
 **Roberto Clapis:** Yeah, exactly. That makes sense, because you read words, instead of a number.
 
@@ -414,7 +414,7 @@ But you shouldn't have package-level state, right? In general, you should try to
 
 **Mat Ryer:** See what I mean about magic?
 
-**Peter Bourgon:** Right. And I hope it's uncontroversial to say, this is a design choice that was made in \[unintelligible 00:50:14.13\] the language, that there would be this global registry and package db, and this would be basically the way to use it. And I hope it's uncontroversial to say that this pattern has not stood the test of time. This is not a good pattern. So to use the global registry and package db you have to do it this way, and that's true, and it's too bad. But if you're writing your own package, do not copy this pattern. This is not the way to do things.
+**Peter Bourgon:** Right. And I hope it's uncontroversial to say, this is a design choice that was made in pre v1 of the language, that there would be this global registry and package db, and this would be basically the way to use it. And I hope it's uncontroversial to say that this pattern has not stood the test of time. This is not a good pattern. So to use the global registry and package db you have to do it this way, and that's true, and it's too bad. But if you're writing your own package, do not copy this pattern. This is not the way to do things.
 
 **Break:** \[00:50:50.12\]
 
@@ -622,7 +622,7 @@ So for programs it's easy. Just the latest. For libraries it's not that easy, in
 
 **Peter Bourgon:** I would love that so much... And if you could get Russ on, so I can understand his perspective a little bit better - even better. \[laughter\]
 
-**Roberto Clapis:** I think you should make episode on rants. You just bring people that have complaints, and you throw them against someone that \[unintelligible 01:14:47.17\]
+**Roberto Clapis:** I think you should make episode on rants. You just bring people that have complaints, and you throw them against someone that caused that pain.
 
 **Mat Ryer:** Like face your -- yeah, it's grim... But yeah. Just this. You get to do just this. Yeah. I don't know, because we're quite nice, aren't we? We're all a bit too nice for that. It sounds like a roast. Maybe we should just do a Gopher roast, where we just get Dave Cheney and we just write loads of horrible jokes about him.
 
@@ -718,7 +718,7 @@ So for programs it's easy. Just the latest. For libraries it's not that easy, in
 
 **Mat Ryer:** That's too many pages, mate.
 
-**Peter Bourgon:** So Brad, that's a \[unintelligible 01:18:20.12\] from Roberto.
+**Peter Bourgon:** So Brad, that's a shot across the bow from Roberto.
 
 **Mat Ryer:** Brad Fitzpatrick is on next week's show, so we'll absolutely be playing a clip of this, and getting his reaction.
 
