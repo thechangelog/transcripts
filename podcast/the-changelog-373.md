@@ -4,7 +4,7 @@
 
 **Adam Stacoviak:** What is it that draws you to open source and the things you're doing today? ...before we kind of get into the details of things. What is it that draws you to the community of open source in what you're doing?
 
-**Ovilia:** I think it's cool to get people to know what you are doing and how you do it... And I think this is the spirit of the open source - that people can see how you do it, \[unintelligible 00:01:57.16\] what you are doing. I think it's very cool to make interesting things in the projects that are really useful on GitHub.
+**Ovilia:** I think it's cool to get people to know what you are doing and how you do it... And I think this is the spirit of the open source - that people can see how you do it, allows what you are doing. I think it's very cool to make interesting things in the projects that are really useful on GitHub.
 
 **Adam Stacoviak:** Maybe what specifically you yourself, what's your developer path? Give us some background on you.
 
