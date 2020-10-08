@@ -328,6 +328,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/daivikpurani"><img src="https://avatars0.githubusercontent.com/u/35226862?v=4" width="100px;" alt=""/><br /><sub><b>Daivik Purani</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=daivikpurani" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/aru233"><img src="https://avatars3.githubusercontent.com/u/23175498?v=4" width="100px;" alt=""/><br /><sub><b>Arushi Agarwal</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=aru233" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/iuryrosal/"><img src="https://avatars1.githubusercontent.com/u/36707351?v=4" width="100px;" alt=""/><br /><sub><b>Iury Lima Rosal</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=iuryrosal" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/a-r-1"><img src="https://avatars0.githubusercontent.com/u/72340836?v=4" width="100px;" alt=""/><br /><sub><b>a-r-1</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=a-r-1" title="Documentation">📖</a></td>
   </tr>
 </table>
 
