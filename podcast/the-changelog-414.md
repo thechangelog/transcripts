@@ -32,13 +32,13 @@ I think chat clients are a very different business. There's a lot more people th
 
 **Matthew Hodgson:** Yeah. I mean, from the Matrix side, that is the goal that we're aiming for, to basically get the best of both worlds. Some say that if GitLab did have a chat client integrated in it, it wouldn't be the only way in which you can interact with ChatOps functionality. You would also be able to come in via Slack, or via Gitter, or via Elements as a native Matrix client.
 
-So I wouldn't totally rule out the idea of a kind of interoperable world of ChatOps in the context of an app like GitLab, but I also completely understand why it isn't core relative to the key of products. But it's gonna be really exciting, obviously, to go and take Gitter and natively, properly merge it into the wider Matrix network.
+So I wouldn't totally rule out the idea of a kind of interoperable world of ChatOps in the context of an app like GitLab, but I also completely understand why it isn't core relative to the key of products. But it's gonna be really really exciting, obviously, to go and take Gitter and natively, properly merge it into the wider Matrix network.
 
 **Jerod Santo:** So we have this transition, a passing of the torch... Who called whom? How did this deal come together? It's always fun to know what was the pitch, what was the idea, and who got it all started?
 
 **Sid Sijbrandij:** I assume that Eliran reached out to Element... But Matthew, what do you think?
 
-**Matthew Hodgson:** Yeah, he did. He did, indeed. We know Eliran well, and have been chatting to him. In fact, I met him in-person at GUADEC, for the GNOME Developer Conference a few years ago, and I think I might have bumped into him at FOSDEM, too. We have been chatting on and off, and... Yeah, he reached out on behalf of GitLab a couple of months ago and explained the possibility here, and see wherever we thought that there might be a match, given that \[unintelligible 00:10:16.06\] hasn't become core to GitLab, it absolutely can become core to the Matrix ecosystem. Our plan is to go and make it the poster child of how you integrate an existing chat platform into the Matrix network.
+**Matthew Hodgson:** Yeah, he did. He did, indeed. We know Eliran well, and have been chatting to him. In fact, I met him in-person at GUADEC, for the GNOME Developer Conference a few years ago, and I think I might have bumped into him at FOSDEM, too. We have been chatting on and off, and... Yeah, he reached out on behalf of GitLab a couple of months ago and explained the possibility here, and see wherever we thought that there might be a match, given that whilst Gitter hasn't become core to GitLab, it absolutely can become core to the Matrix ecosystem. Our plan is to go and make it the poster child of how you integrate an existing chat platform into the Matrix network.
 
 But it was a really good conversation, and I think we're on the same page. I know Sid has helped us with advice on Matrix and growing Element as a company over the years, so honestly, we were very flattered. They asked if we could help out, and it really is a nice win/win, I think, on both sides.
 
