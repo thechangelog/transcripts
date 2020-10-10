@@ -112,7 +112,7 @@ The way that I've found - and this may not be applicable in necessarily your sit
 
 **Suz Hinton:** This is exactly why I use Tape, for very similar reasons - few options, easy extensibility, and also outputs TAP, so... I think we're on the same page there.
 
-I get asked a lot about why I use Tape, and some people haven't heard of it just because I think it's been around for a while and it doesn't have async/await support out of the box \[unintelligible 00:31:35.28\] these days, but that's easily resolved... So a lot of people haven't seen it before, and they do say "Why don't you use Mocha instead?" and I say "Well, this gives me pretty much everything that I need, and no more than that."
+I get asked a lot about why I use Tape, and some people haven't heard of it just because I think it's been around for a while and it doesn't have async/await support out of the box. So, Promise support out of the box these days, but that's easily resolved... So a lot of people haven't seen it before, and they do say "Why don't you use Mocha instead?" and I say "Well, this gives me pretty much everything that I need, and no more than that."
 
 **Christopher Hiller:** \[00:31:51.12\] Yeah, there's a philosophical difference, too. If you look at something like Mocha, which is maybe halfway between Tape and something like Jest, where it's just like enormous and totally configurable -- and some people prefer one thing or the other. I'm kind of curious, how does that relate back to this idea of, you know, saying no to options in the business. Like, what if really what you're trying to build is this very complex thing that does everything? Is that just a recipe for failure? Because like we've seen with Jest - that's successful and it works for a lot of people.
 
@@ -156,7 +156,7 @@ So thinking about the individual purpose of each test, and kind of talking throu
 
 **Christopher Hiller:** I find it valuable when a test that was already written, and so go and you make some unrelated change, and a test breaks somewhere else. That tells me that I've done something right in writing that test.
 
-Now, you can go overboard with that almost daily. If I make a change \[unintelligible 00:40:42.16\] written a test that is not useless. As I said, it may go overboard, where it just becomes -- you have so many tests that are so tightly couples to your implementation and you can't make a move without breaking a bunch of stuff. That's going too far. But I definitely expect tests to fail, and I am happy when they do... So I'm on the right track there.
+Now, you can go overboard with that almost daily. If I make a change and a test breaks, well then I've probably at least written a test that is not useless. As I said, it may go overboard, where it just becomes -- you have so many tests that are so tightly coupled to your implementation and you can't make a move without breaking a bunch of stuff. That's going too far. But I definitely expect tests to fail, and I am happy when they do... So I'm on the right track there.
 
 **Justin Searls:** Yeah, and that's actually probably a good way to talk about what's our purpose with each test that we write... And the way that I arrive at that usually, especially when I'm looking at a test or watching people writing tests on a team, is I ask "Okay, so why should this fail? What is something that could happen, that you would expect to cause this test to fail?" That'll tell you why that test exists.
 
@@ -194,9 +194,9 @@ So I said instead -- I went up to a whiteboard and I drew a 5x5 grid, and I said
 
 **Nick Nisi:** Absolutely.
 
-**Suz Hinton:** And we'll use this as an excuse to call out \[unintelligible 00:50:45.18\] having people reach out to him on Twitter, if they have follow-up questions or something like that... Maybe we could have a comical little "Well, I would love to ask you so many more questions, but if I was to find you on social media, would that be okay?"
+**Suz Hinton:** And we'll use this as an excuse to call out, if Searls is comfortable, having people reach out to him on Twitter, if they have follow-up questions or something like that... Maybe we could have a comical little "Well, I would love to ask you so many more questions, but if I was to find you on social media, would that be okay?"
 
-**Justin Searls:** Oh, wow. Excellent segue. That was very graceful. Yeah, so I am a wide-open system; I have open DMs. My Twitter handle is my last name, @searls, which phonetically spelling it is difficult... So it's like Pearls, but with an S instead of a P. And yeah, I'd love to heard from anyone listening to this. If I can help you out in any way, it's literally my job.
+**Justin Searls:** Oh, wow. Excellent segue. That was very graceful. Yeah, so I am a wide-open system; I have open DMs. My Twitter handle is my last name, @searls, which phonetically spelling it is difficult... So it's like Pearls, but with an S instead of a P. And yeah, I'd love to hear from anyone listening to this. If I can help you out in any way, it's literally my job.
 
 **Christopher Hiller:** Thank you, Justin.
 
