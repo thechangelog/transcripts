@@ -4,7 +4,7 @@ I'm gonna explain the rules really quickly, and then we'll just go ahead and jum
 
 **Kevin Ball:** Schmancy!
 
-**Emma Bostian:** Yeah \[unintelligible 00:01:52.02\] way too much effort into this. I should have had this all worked out, but you know... Last-minute preparations. So while I'm getting this up, we'll start with Jake, since Jake is our guest... Really quickly, Jake, do you wanna introduce yourself while I get my life together over here?
+**Emma Bostian:** Yeah I put way too much effort into this. I should have had this all worked out, but you know... Last-minute preparations. So while I'm getting this up, we'll start with Jake, since Jake is our guest... Really quickly, Jake, do you wanna introduce yourself while I get my life together over here?
 
 **Jake Dohm:** Sure. I am Jake Dohm, web developer at Good Work Software Consultancy out of Dallas. I build websites and tweet about JavaScript at @JakeDohm. Don't come troll me, or do... Yeah.
 
@@ -128,7 +128,11 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Emma Bostian:** Absolutely. This is a conceptual model and is a set of communication protocols used in the internet and similar computer networks.
 
-**Kevin Ball:** \[00:07:57.25\] The conceptual model... Interesting. Huh. \[unintelligible 00:08:02.00\]
+**Kevin Ball:** \[00:07:57.25\] The conceptual model... Interesting. Huh. 
+
+**Jake Dohm:** Doo doo doo doo...
+
+**Kevin Ball:** Yeah, I know...
 
 **Emma Bostian:** Five more seconds. Take a guess.
 
@@ -168,7 +172,7 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Kevin Ball:** I was in between TCP/IP and HTTP, but... Whatever. We got it.
 
-**Emma Bostian:** Well, hold on to that \[unintelligible 00:09:22.13\]
+**Emma Bostian:** Well, hold on to that term \[unintelligible 00:09:24.13\]
 
 **Kevin Ball:** And why choose TCP instead of UDP?
 
@@ -224,7 +228,7 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Emma Bostian:** That is correct. Media query!
 
-**Jake Dohm:** Boom! I have to get one.
+**Jake Dohm:** Boom! I had to get one.
 
 **Emma Bostian:** You know, it was just the end of last year I realized media queries was not just about browser resolutions, it's also about like if people have -- what is it?
 
@@ -402,7 +406,7 @@ If you guys are not in the JS Party channel, please join us, because it's a lot 
 
 **Christopher Hiller:** Give me JavaScript level 1 for 200.
 
-**Emma Bostian:** Alright. This is used to declare a block-scoped element and can't be redeclared.
+**Emma Bostian:** Alright. This is used to declare a block-scoped element and can be redeclared.
 
 **Christopher Hiller:** What is let?
 
@@ -454,7 +458,7 @@ If you guys are not in the JS Party channel, please join us, because it's a lot 
 
 **Christopher Hiller:** Say that again?
 
-**Emma Bostian:** Yeah, if I can... \[unintelligible 00:20:24.27\] This global attribute indicates than its element can be focused and where it participates in sequential keyword navigation.
+**Emma Bostian:** Yeah, if I can... I messed up reading it. This global attribute indicates than its element can be focused on and where it participates in sequential keyword navigation.
 
 **Christopher Hiller:** What is tab index?
 
@@ -520,7 +524,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** That's obscure...
 
-**Emma Bostian:** That's why it's valuable... \[laughs\]
+**Emma Bostian:** That's why it's the highest value... \[laughs\]
 
 **Kevin Ball:** I'm not gonna look up the survey, and I'm actually gonna guess based on the MVVM. What is Knockout.js?
 
@@ -628,7 +632,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** 2,000, double Jeopardy.
 
-**Emma Bostian:** That is 2,000.
+**Emma Bostian:** It is 2,000.
 
 **Christopher Hiller:** What is... I don't know. What is CSS? \[laughter\]
 
@@ -654,7 +658,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** Exactly. So you are now at 3,700. Chris is at 3,700 - he is actually in the lead - Jake is in second place at 3,500, and in a twist of events, Kball is last, with 2,800 points. Alright, Jake, you're up...
 
-**Jake Dohm:** I have the turntables... Let's see. You know you're on JS Party when no one wants to take HTML, so I'm gonna brave that. I'm gonna take HTML for 1,000 and see how it goes.
+**Jake Dohm:** My how the turn tables... Let's see. You know you're on JS Party when no one wants to take HTML, so I'm gonna brave that. I'm gonna take HTML for 1,000 and see how it goes.
 
 **Emma Bostian:** HTML for 1,000. It was really hard to find questions for this category \[unintelligible 00:30:53.28\] This element is used to draw graphics and animations.
 
@@ -682,7 +686,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Christopher Hiller:** Oh wait -- yeah, it's Kevin's turn.
 
-**Emma Bostian:** Is that?
+**Emma Bostian:** Is it?
 
 **Kevin Ball:** Because you picked that one, right?
 
@@ -722,7 +726,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** Even More JavaScript for 800... Okay - this is a hard one, I'm sorry. This refers to the process of using event propagation or bubbling to handle events at a higher level in the DOM than the element on which the event originated. I would not have gotten this right...
 
-**Christopher Hiller:** Yeah, I'm not sure... What does this have to do with JavaScript? \[laughter\] Yeah, I don' know. Pass.
+**Christopher Hiller:** Yeah, I'm not sure... What does this have to do with JavaScript? \[laughter\] Yeah, I don't know. Pass.
 
 **Emma Bostian:** It's okay. Jake, you're up. Do you have any idea?
 
@@ -738,7 +742,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Jake Dohm:** It's thirteen, yeah...
 
-**Emma Bostian:** Thirteen. This is episode is gonna be called "Emma trying to do math." \[laughter\] Yeah, event delegation - that's one that I feel like I've been asked in a technical interview, but again, had trouble describing, so...
+**Emma Bostian:** Thirteen. This episode is gonna be called "Emma trying to do math." \[laughter\] Yeah, event delegation - that's one that I feel like I've been asked in a technical interview, but again, had trouble describing, so...
 
 **Jake Dohm:** Yeah. That description - it took me a minute. I had a light bulb moment, but that was after a minute.
 
@@ -764,7 +768,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Jake Dohm:** \[laughs\] JAKEuery.
 
-4:I think that's in a Twitter handle. Alright, Kball, you're up.
+**Emma Bostian:** I think that's a new Twitter handle. Alright, Kball, you're up.
 
 **Kevin Ball:** Let's go with the last remaining 800, CSS Part II for 800.
 
@@ -890,7 +894,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** Yeah.
 
-**Christopher Hiller:** Okay. Object dot -- I don't think I ever use \[unintelligible 00:40:55.20\]
+**Christopher Hiller:** Okay. Object dot -- I don't think I ever use this \[unintelligible 00:40:57.20\]
 
 **Emma Bostian:** I don't think it's a proper function, let me take that back... It's a special keyword, I guess, that would check whether the prototype property of a constructor--
 
@@ -908,7 +912,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** What is instance of?
 
-**Emma Bostian:** That is the correct, yes. Instance of.
+**Emma Bostian:** That is correct, yes. Instance of.
 
 **Jake Dohm:** Oh, that's good stuff.
 
@@ -916,7 +920,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Break:** \[00:41:58.03\]
 
-**Emma Bostian:** Alright, so we are back with the final wrap-up for JS Jeopardy. Unfortunately, Chris had to leave, but we have given him an onorary medal of survival, because he survived... And I think he hates me now. But in any case, Chris, you did a great job. And let's just continue... I don't remember who we left off with?
+**Emma Bostian:** Alright, so we are back with the final wrap-up for JS Jeopardy. Unfortunately, Chris had to leave, but we have given him an honorary medal of survival, because he survived... And I think he hates me now. But in any case, Chris, you did a great job. And let's just continue... I don't remember who we left off with?
 
 **Kevin Ball:** I think it's Jake's turn.
 
@@ -1062,11 +1066,11 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** Yeah. And hopefully, at some point you flip into the mode or there's enough abundance for you or there's enough opportunities for you where you're also interviewing them, to be like "Is this a place I wanna work?" and if they're asking questions like these, the answer is probably no. So yeah... I mean, there's lots of good ways to do interviews, there's lots of bad ways to do interviews, and we should be having this conversation -- I think we talked about this in the All Things Open episode and a few other things. This type of interview question is not helpful for interviewing... But it's fun. So let's keep rolling out, I don't wanna detour us too far.
 
-**Emma Bostian:** Correct, yeah. And as a lesson, these are really good topics to know about. You don't need to know their definitions, but understanding pseudo-selectors is really important, understanding CSS specificity is important, and understanding scope, closure, all those things. In any case...
+**Emma Bostian:** Correct, yeah. And as a last note, these are really good topics to know about. You don't need to know their definitions, but understanding pseudo-selectors is really important, understanding CSS specificity is important, and understanding scope, closure, all those things. In any case...
 
-**Kevin Ball:** Oh, absolutely. And they are valuable topics, and these are really useful -- thee would be really good as a way to like "Oh, I don't know anything about that. Let me go study it." But yeah, don't be using them in interview questions. Alright, last 400, Even More JavaScript.
+**Kevin Ball:** Oh, absolutely. And they are valuable topics, and these are really useful -- this would be really good as a way to like "Oh, I don't know anything about that. Let me go study it." But yeah, don't be using them in interview questions. Alright, last 400, Even More JavaScript.
 
-**Emma Bostian:** Even More JavaScript for 400. Do you know how hard it is to finds things on an iPad when things aren't organized...? Okay. Even More JavaScript for 400. This operator returns a string indicating the type of the unevaluated operant--
+**Emma Bostian:** Even More JavaScript for 400. Do you know how hard it is to find things on an iPad when things aren't organized...? Okay. Even More JavaScript for 400. This operator returns a string indicating the type of the unevaluated operant--
 
 **Kevin Ball:** What is the type of operator?
 
@@ -1076,7 +1080,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** HTML for 200.
 
-**Jake Dohm:** Trying to steal Kball's \[unintelligible 00:49:50.12\] HTML over there.
+**Jake Dohm:** Trying to steal Kball's Gimme HTML over there.
 
 **Emma Bostian:** This element represents a portion of the document whose content is only indirectly related to the main content.
 
@@ -1100,7 +1104,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** That is absolutely correct.
 
-**Kevin Ball:** Popular by what dimension? I think jQuery is still \[unintelligible 00:50:56.08\]
+**Kevin Ball:** Popular by what dimension? I think jQuery is still on more websites.
 
 **Jake Dohm:** \[laughs\] Ooh...
 
@@ -1144,7 +1148,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** It's that insertion order thing.
 
-**Jake Dohm:** \[unintelligible 00:52:39.19\] Yeah, yeah... That's a good steal.
+**Jake Dohm:** I was like... it can't be set again. Yeah, yeah... That's a good steal.
 
 **Emma Bostian:** Alright, so here's where we're at - Jake, you've got 8,100 points. Kball, you have 7,400 points. There's one final question, and I'm gonna need you to each write in the chat, the public JS Party chat right now, how many points you're wagering on this answer. You can wager nothing, and just take it and run, or you could bet it all, and who knows - Kball, you might come out on top. So write in your chat, final Jeopardy, how many points you are staking on this answer.
 
