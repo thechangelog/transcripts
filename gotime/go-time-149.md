@@ -166,19 +166,19 @@ If you're inexperienced, these things feel like "Oh my God, something bad just h
 
 **Johnny Boursiquot:** Amazing.
 
-**Mat Ryer:** Yeah, but it shouldn't be like two minutes, mark. You're not getting a standing ovation after every joke.
+**Mat Ryer:** Yeah, but it shouldn't be like two minutes, Mark. You're not getting a standing ovation after every joke.
 
 **Mark Bates:** That's true. Admittedly, the last conference talk, I did. I did wait for the standing ovation, and I did keep telling people to calm down, and just relax... It was mayhem.
 
 **Mat Ryer:** \[00:19:57.06\] Oh, that's great.
 
-**Mark Bates:** But like Johnny said, those jokes -- I'll tell you, some of the biggest things for us at Gopher Guides... Like, when we're doing the in-person stuff we don't have this opportunity with the virtual nearly as much, because of what Jon said, and Johnny (and everybody's kind of saying that), that lack of interaction. When we're in classrooms, or we're at companies and we've got 20-30 people in a room or whatever it is, you're talking, you're having lunch, you're learning about them as people, as individuals, as a company... And there's a lot of stuff you -- I like to take some of those in-jokes from them, and incorporate it back in; like some of what they're working on.
+**Mark Bates:** But like Johnny said, those jokes -- I'll tell you, one of the biggest things for us at Gopher Guides... Like, when we're doing the in-person stuff we don't have this opportunity with the virtual nearly as much, because of what Jon said, and Johnny (and everybody's kind of saying that), that lack of interaction. When we're in classrooms, or we're at companies and we've got 20-30 people in a room or whatever it is, you're talking, you're having lunch, you're learning about them as people, as individuals, as a company... And there's a lot of stuff you -- I like to take some of those in-jokes from them, and incorporate it back in; like some of what they're working on.
 
 If I'm trying to come up with an off-the-cuff kind of an example to describe something, if somebody had a question or whatever, I try to use their experiences. If it's Uber, which we've done a ton of training for...
 
 **Mat Ryer:** Other car shares are available... Sorry, carry on. \[laughter\]
 
-**Mark Bates:** Yes... But you know, I'll use self-driving cars a lot as examples, because that's the group I was doing a lot of training for... And using those examples -- because they understand them, and they can related to those things.
+**Mark Bates:** Yes... But you know, I'll use self-driving cars a lot as examples, because that's the group I was doing a lot of training for... And using those examples -- because they understand them, and they can relate to those things.
 
 But the other big thing that you don't get virtually for us was the in-class demos. I love doing live demos in class, and Johnny, I'm sure you have the exact same thing, right?
 
@@ -322,7 +322,7 @@ But I think those who have to work in these multiple environments, multiple lang
 
 **Mat Ryer:** Right... Is that because they have already this previous knowledge, and they know how interfaces work?
 
-**Johnny Boursiquot:** \[00:40:08.23\] Yeah, where's the \[unintelligible 00:40:08.21\] or something, right?
+**Johnny Boursiquot:** \[00:40:08.23\] Yeah, where's the *implements IPersonal* or something, right?
 
 **Jon Calhoun:** I think people are just so used to that--
 
@@ -336,7 +336,7 @@ But I think those who have to work in these multiple environments, multiple lang
 
 **Jon Calhoun:** And it is confusing.
 
-**Mark Bates:** It is. Well, I always say it's implicit versus explicit. We don't have to say "foo implements bar", it just does. And then people are always like "But how do you know it does?" I'm like, "It just does." They're like, "But how do I know that my thing implements it?" It's like, well, you look at the function definition you're trying to call, and it says "I need an io writer." You look at the doc for an io writer, and "Hey, my thing happens to implement that. Fantastic." But people don't get those two things.
+**Mark Bates:** It is. Well, I always say it's implicit versus explicit. We don't have to say "foo implements bar", it just does. And then people are always like "But how do you know it does?" I'm like, "It just does." They're like, "But how do I know that my thing implements it?" It's like, well, you look at the function definition you're trying to call, and it says "I need an ioWriter." You look at the doc for an io.Writer, and "Hey, my thing happens to implement that. Fantastic." But people don't get those two things.
 
 And the big question I get a lot, too - as I'm sure you guys - is "Well, how do I know if I'm not implementing some other interface?"
 
@@ -346,7 +346,7 @@ And the big question I get a lot, too - as I'm sure you guys - is "Well, how do 
 
 **Mat Ryer:** Right, yes.
 
-**Mark Bates:** \[unintelligible 00:41:24.12\] it doesn't really matter.
+**Mark Bates:** It could be, it doesn't really matter.
 
 **Mat Ryer:** Yeah, that's true. I remember that exact thought, like "What happens if by accident I happen to just match the method on signature for something else, and then it gets abused, or it gets used in the wrong way?" But it just doesn't happen. And because of the simplicity... For example, you can't have overloaded methods. In some languages you can have the same method name, but with different arguments. And Go doesn't let you do that. So yeah, it feels at the beginning like that's constraining you, and it feels like "Well, they need to add that feature." But actually, it pays dividends when it comes to maintainability, readability and clarity, doesn't it?
 
@@ -376,7 +376,7 @@ And even for courses, it's really hard, because some people just wanna follow al
 
 **Jon Calhoun:** The hand-typing is one of the things I loved about physical books - there was no copy-paste. It's like, "Good luck, buddy."
 
-**Johnny Boursiquot:** \[laughs\] Forcing you to do it... Yeah, there's truth to that. But interestingly enough, the other day I ran a quick Twitter poll, obviously limited to my audience and my reach and whatnot... But of the folks who follow me, pretty much mostly, 90% of them are technologists, and engineers in some way... I wanted to find out how they learned technical content. And the options I had on there were like video, vlogs, documentation or something like that... But basically not the kind of content, but the medium; what medium do they use to learn.
+**Johnny Boursiquot:** \[laughs\] Forcing you to do it... Yeah, there's truth to that. But interestingly enough, the other day I ran a quick Twitter poll, obviously limited to my audience and my reach and whatnot... But of the folks who follow me, pretty much mostly, 90% of them are technologists, and engineers in some way... I wanted to find out how they learned technical content. And the options I had on there were like video, blogs, documentation or something like that... But basically not the kind of content, but the medium; what medium do they use to learn.
 
 \[00:48:07.00\] I was expecting video to be the runaway winner. It actually ended up being a nice distribution across all the different mediums, including reading (the long way), watching videos, reading tutorials and how-to's, and having a live training, that kind of thing... Again, reinforcing the idea that different people learn in different ways. But in the comments, what I was getting - there was like an underlying thread there.
 
@@ -396,7 +396,7 @@ I'm not sure what you call these kinds of learners, but I spend a lot of time ga
 
 Often, if I have a big project I'm working on for a client or something, often there's a piece of it - "Oh, I've never done this before." Or maybe there's a new API I need to work with, or a library that I'm gonna have to work with... So I'll just open up a simple, main, basic project, and I'll start just a rudimentary playing with it in there; I'll pull up docs, and I'll watch some videos, and I'll read some blog posts... Until I get something that is actually working, and that's simplistic, almost linear, serialized programming top to bottom, just to get it work. That's how I learn. I need to physically be in the problem to get the education out of it.
 
-**Johnny Boursiquot:** There's an interesting \[unintelligible 00:51:12.22\] I'm wondering if teachers feel the need, or if some teachers feel the need to get enough of a complete, broad set of knowledge, but then they advise their students to not learn in that way. They advise their learners to actually get the hands on, rather than try to acquire all the knowledge first... Because that's part of my reasoning. That's why I try to acquire as much knowledge as possible... Because only then do I feel comfortable telling somebody "This is what you should learn and how you should learn it." Because I feel the need to know enough about a topic. I feel the need to develop expertise on a topic before I can then pretend to be a teacher for that thing.
+**Johnny Boursiquot:** There's an interesting dynamic going here I'm wondering if teachers feel the need, or if some teachers feel the need to get enough of a complete, broad set of knowledge, but then they advise their students to not learn in that way. They advise their learners to actually get the hands on, rather than try to acquire all the knowledge first... Because that's part of my reasoning. That's why I try to acquire as much knowledge as possible... Because only then do I feel comfortable telling somebody "This is what you should learn and how you should learn it." Because I feel the need to know enough about a topic. I feel the need to develop expertise on a topic before I can then pretend to be a teacher for that thing.
 
 **Mark Bates:** \[00:52:00.19\] Oh, if we're talking about teaching, versus learning - absolutely. I'm not gonna go and teach anybody how to write MUMPS. I've never written MUMPS in my life, and I'm not gonna pretend to sit there and teach people how to write MUMPS code. But learning I think is a very different process, at least for me anyway. For me, learning is that hands-on "I've got to be practical. I can't get it into my head any other way."
 
@@ -454,7 +454,7 @@ So it's like "How do we give an example that illustrates these points and is com
 
 And a lot of people are like "Why does it cost so much?" It's like, look, you can do this on your own, but given that you as a developer you probably make at least $25/hour, probably much more than that, it's really cheap in comparison to how much time you're gonna waste.
 
-**Johnny Boursiquot:** Right. And this is where we slightly deviated, so talking about the business value. I don't know if \[unintelligible 01:01:40.04\] but really, this is where you have to look at "Okay, what am I paying, but what am I getting in return here?" You're not just getting basically 50 bucks, 100 bucks, 300 bucks, $1,000 worth of content. What you're getting is -- and let's be honest, anything that I teach in my classroom, and I'll go as far as to say anything that all of us on the panel here teach, you can google around for it if you want. There's nothing that we're teaching that is proprietary, or magical, there's nothing you're gonna learn in our classrooms that with sufficient time and persistence you're not gonna find out there and teach yourself.
+**Johnny Boursiquot:** Right. And this is where we slightly deviated, so talking about the business value. I don't know if I sound like a suit but really, this is where you have to look at "Okay, what am I paying, but what am I getting in return here?" You're not just getting basically 50 bucks, 100 bucks, 300 bucks, $1,000 worth of content. What you're getting is -- and let's be honest, anything that I teach in my classroom, and I'll go as far as to say anything that all of us on the panel here teach, you can google around for it if you want. There's nothing that we're teaching that is proprietary, or magical, there's nothing you're gonna learn in our classrooms that with sufficient time and persistence you're not gonna find out there and teach yourself.
 
 **Mark Bates:** Well, how do you think we learned it all?
 
@@ -482,7 +482,7 @@ But he didn't get there by accident either. Again, he puts a lot of effort and t
 
 **Jon Calhoun:** Start small and see if you like it. Because it's good to have more teachers.
 
-**Mark Bates:** One of the things I always recommend -- when I used to run development teams, I used to force brown bag lunches every two weeks, and force all of the engineers, one at a time, to do a presentation during a brown bag lunch. And it could be on the library, a plugin, something that they're working on at work, it doesn't really matter. It's a safe, small environment, with half a dozen of us in the room, or whatever... But it gives everybody a chance to stand up and start to learn a little bit of how to teach and how to mentor. Because at the end of the day, as we grow in our careers, whether we make our livings as educators or we're working in dev shops as senior developers or directors, or VPs, or whatever - as you move up in your career, mentoring and teaching is a big part of your job. And as you move up, that's why you get paid so much. You get paid to mentor the people below you, and you've gotta start learning how to do that now.
+**Mark Bates:** One of the things I always recommend -- when I used to run development teams, I used to force brown bag lunches every two weeks, and force all of the engineers, one at a time, to do a presentation during a brown bag lunch. And it could be on the library, a plugin, something that they're working on at work, it doesn't really matter. It's a safe, small environment, with half a dozen of us in the room, or whatever... But it gives everybody a chance to stand up and start to learn a little bit of how to teach and how to mentor. Because at the end of the day, as we grow in our careers, whether we make our livings as educators or we're working in dev shops as senior developers or directors, or VPs, or whatever - as you move up through your career, mentoring and teaching is a big part of your job. And as you move up, that's why you get paid so much. You get paid to mentor the people below you, and you've gotta start learning how to do that now.
 
 So if you are thinking of that, or you're just looking at your future prospects, I think you need to start -- try doing some of those things in-line, at your company; a brown bag, teach some stuff. Have other people teach some stuff. I think you'll do great.
 
@@ -554,15 +554,15 @@ So if you go on stage, whether you're giving a conference talk, or whether you'r
 
 **Jon Calhoun:** I've struggled with how to convey that opinion just because--
 
-**Mark Bates:** \[unintelligible 01:11:47.10\]
+**Mark Bates:** What, with me swearing?
 
-**Jon Calhoun:** Because I completely agree with you guys \[unintelligible 01:11:51.00\] \[laughter\] It's a struggle to convey that opinion, because it's almost like I'm saying somebody who learns how to present material and has the smarts to understand their audience and relate with them and figure out the best way to teach them isn't smart, and that's not what I mean... I think it's more like Johnny said, there are some people who are -- it's almost like they're just so focused on their own intelligence and showing people how intelligent they are...
+**Jon Calhoun:** Because I completely agree with you guys not this swearing...\[laughter\] It's a struggle to convey that opinion, because it's almost like I'm saying somebody who learns how to present material and has the smarts to understand their audience and relate with them and figure out the best way to teach them isn't smart, and that's not what I mean... I think it's more like Johnny said, there are some people who are -- it's almost like they're just so focused on their own intelligence and showing people how intelligent they are...
 
 **Mark Bates:** Yeah, they live up here... They all live up here.
 
 **Jon Calhoun:** Yeah. They have to be able to step down and relate to the audience. And I think, in my experience - at least with university, and stuff - the teachers who tended to be like that were the ones who were there strictly for research, and they were forced to teach a class, and it showed. They were not teachers, they were very smart people who did not wanna be teachers.
 
-**Mark Bates:** They wrote something on the whiteboard and expected you to know it, and that was it. Yeah, I'm with you...
+**Mark Bates:** They wrote some \*blip\* thing on the whiteboard and expected you to know it, and that was it. Yeah, I'm with you...
 
 **Mat Ryer:** That's your second strike, Bates... \[laughter\]
 
