@@ -42,7 +42,7 @@ As part of my daily job I'm managing teams of developers, designers, dev ops, bu
 
 **Kevin Ball:** What do you think has led to them sticking around so long?
 
-**Matteo Collina:** Oh. Node exploding... You know, Node became so big, so fast, and we couldn't change them anymore. Changing streams now will be meaning to basically every web application built with Express will need to be rewritten. \[unintelligible 00:05:41.06\] will need to be rewritten, or will need a significant amount of fixes... And then everything that does some file manipulation will probably need to be rewritten. Summing all those things up, this means probably all use cases of Node. So we cannot really do a breaking change on streams, a big breaking change.
+**Matteo Collina:** Oh. Node exploding... You know, Node became so big, so fast, and we couldn't change them anymore. Changing streams now will be meaning to basically every web application built with Express will need to be rewritten. Every web application will need to be rewritten, or will need a significant amount of fixes... And then everything that does some file manipulation will probably need to be rewritten. Summing all those things up, this means probably all use cases of Node. So we cannot really do a breaking change on streams, a big breaking change.
 
 **Nick Nisi:** Wow.
 
