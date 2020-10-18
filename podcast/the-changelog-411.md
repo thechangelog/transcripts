@@ -12,11 +12,11 @@
 
 **Jerod Santo:** So Nat came to you... Why you? Why Jon? Did you have a history of archiving things, were you a friend of his? Why did he select you for this?
 
-**Jon Evans:** \[unintelligible 00:04:55.07\] explicitly, but I think the notion was that he wanted someone with enough technical depth and background to understand the nitty gritty of how actually to get all the code into whatever very long-term storage we were talking about, which is a non-futile process. But also, a sense of imagination, enabling this to work outside of the usual thinking, and I guess the history of writing novels and bouncing around the world spoke to that, to some extent.
+**Jon Evans:** We never talked about it explicitly, but I think the notion was that he wanted someone with enough technical depth and background to understand the nitty gritty of how actually to get all the code into whatever very long-term storage we were talking about, which is a non-futile process. But also, a sense of imagination, enabling this to work outside of the usual thinking, and I guess the history of writing novels and bouncing around the world spoke to that, to some extent.
 
 **Jerod Santo:** Hm. So you took a sabbatical and you decided "Well, we're gonna archive this under the auspices of GitHub." What were the first steps?" Was it like "Go find the coldest place on Earth" or "Get a file format down"? What were your first steps?
 
-**Jon Evans:** Well, the first steps were obviously to see what other people were doing in this area, which was actually super-interesting. There's a project called "The memory of mankind", which is built in a salt mine in Austria, for instance, which is perhaps one of the oldest working mines in the world; it's been worked since probably 3,000-4,000 BC. They are writing down data to ceramic tablets and putting it in this ancient salt mine in the Alps. The salt slowly moves and accumulates over time, and so this is gonna be sealed off by this giant, slow wave of salt, as a time capsule for the future... Which is a fascinating idea. It didn't really fit with what we were doing, as it's hard to fit terabytes of code on ceramic tablets, it turns out... And also sealing off a time capsule with a giant wall of salt isn't the most \[unintelligible 00:06:23.21\]
+**Jon Evans:** Well, the first steps were obviously to see what other people were doing in this area, which was actually super-interesting. There's a project called "The memory of mankind", which is built in a salt mine in Austria, for instance, which is perhaps one of the oldest working mines in the world; it's been worked since probably 3,000-4,000 BC. They are writing down data to ceramic tablets and putting it in this ancient salt mine in the Alps. The salt slowly moves and accumulates over time, and so this is gonna be sealed off by this giant, slow wave of salt, as a time capsule for the future... Which is a fascinating idea. It didn't really fit with what we were doing, as it's hard to fit terabytes of code on ceramic tablets, it turns out... And also sealing off a time capsule with a giant wall of salt isn't the most convenient way to get to it.
 
 **Jerod Santo:** Yeah, salt doesn't sound like the best way.
 
@@ -64,7 +64,7 @@ So it wound up being a much larger thing of archiving on a sort of week-to-week,
 
 **Jerod Santo:** Right.
 
-**Jon Evans:** \[unintelligible 00:11:30.09\] So it's nice to have that handy if, for whatever reason, GitHub's IP numbers aren't accessible in your country at that time, that sort of thing. And more generally, it's just useful to have another copy around, so you can go back and refer to that if needed.
+**Jon Evans:** It's a globally insecure protocol. So it's nice to have that handy if, for whatever reason, GitHub's IP numbers aren't accessible in your country at that time, that sort of thing. And more generally, it's just useful to have another copy around, so you can go back and refer to that if needed.
 
 **Jerod Santo:** Then there's also GH Archive, which - I think it lives in BigQuery. Is that right? We use it for our Changelog Nightly newsletter, which queries. It's queryable, and it's the events that happen on GitHub, but there's also source code involved in that as well. Is that part of the archive program, or is that a separate project altogether?
 
