@@ -28,7 +28,7 @@ Gatsby does generate sites statically, can write your application with React, wi
 
 So I'm curious if Gatsby is doing anything -- well, first off, how big of a problem does that end up being with Gatsby sites? What's that interactivity gap look like in terms of time? And then two, if there's anything on the radar to address that.
 
-**Dustin Schau:** For sure. \[unintelligible 00:04:45.28\] metrics like TTI. It looks like it might be ready, but I'm still waiting for JavaScript to load in the background, and that kind of thing...
+**Dustin Schau:** For sure. So are you kind of referring to metrics like TTI? It looks like it might be ready, but I'm still waiting for JavaScript to load in the background, and that kind of thing...
 
 **Kevin Ball:** Yeah...
 
@@ -110,7 +110,7 @@ So yeah, I think we'd be foolish to not at least keep that option on the table, 
 
 **Dustin Schau:** Yeah. And that's the thing - it's kind of like how we prioritize. How many people are actually asking for this; how closely is the user of Svelte -- is that even a user of Gatsby ever? Definitely not today, because it's literally not possible. But \[unintelligible 00:13:52.13\] So yeah, I think it's a really interesting question. It'd be definitely cool to do someday, especially if the competitive landscape changes, and React isn't the way people write the UIs. I started my career as a front-end dev, and I was learning jQuery and jQuery Mobile. A year later it was Angular, and now it's not Angular anymore.
 
-Landscape changes fast. I think React is here to stay. I think it's kind of stabilized, and it feels to me that \[unintelligible 00:14:21.08\] maybe some people are using Svelte... But yeah, it's definitely an interesting space to keep monitoring.
+Landscape changes fast. I think React is here to stay. I think it's kind of stabilized, and it feels to me that people are using React, Angular, Vue, maybe some people are using Svelte... But yeah, it's definitely an interesting space to keep monitoring.
 
 **Kevin Ball:** I wonder if we could invert it and say -- instead of saying "Gatsby has to support all these view layers", instead saying (and maybe you already do this) "Gatsby is going to clarify the interface into the data layer, such that someone else could pull that in and use it for a different framework." But not having it be something that is like "Okay, Gatsby now has to do all these things, change the runtime", but rather you have Gatsby data and Gatsby UI, or whatever it is.
 
@@ -124,7 +124,7 @@ One thing that we haven't as of yet captured - at least not on a broader scale..
 
 \[00:16:15.23\] The RFC process is how other spaces do this, so React has an RFC process, Next.js, a similar React framework in the same kind of space we're in, has an RFC process... Our RFC process is really not so much something necessarily new. It's a tweak on the model, so we have it as a separate repo. We found as open source maintainers it's really hard to keep a pulse on disparate repos, outside of the main Gatsby flow. So what we're really looking for is more eyes on these RFCs by internalizing them into our main monorepo.
 
-People look at the Gatsby monorepo sometimes as a bit overwhelming, but literally everything we do is in that monorepo. We have our starters there, we have all of our Gatsby packages as like a \[unintelligible 00:16:55.18\] monorepo, and then now we'll have RFCs that if and when they get merged, you can help shape the Gatsby roadmap and propose a chunk of work that will benefit the broader Gatsby ecosystem. Super-exciting process that we're beginning to experiment with and roll out, and that hopefully we'll see some success with.
+People look at the Gatsby monorepo sometimes as a bit overwhelming, but literally everything we do is in that monorepo. We have our starters there, we have all of our Gatsby packages as like a Lerna monorepo, and then now we'll have RFCs that if and when they get merged, you can help shape the Gatsby roadmap and propose a chunk of work that will benefit the broader Gatsby ecosystem. Super-exciting process that we're beginning to experiment with and roll out, and that hopefully we'll see some success with.
 
 So yeah, my call-to-action for our community is if you have a great idea, something that you really wanted to be possible in Gatsby, and you have some insight into maybe implementing it, we'd love to see some RFCs, we'd love to see some chunks of work proposed... And I think it's a super-exciting thing as a contributor, because you'll get tons of replies from our direct open source maintainer line, and we can help guide what this feature could look like, when we should do it etc.
 
