@@ -166,7 +166,7 @@ From there, there's a couple of utilities like \`createAction\`, which generates
 
 And \`createReducer\` also uses this Immer library inside to let you write what looks like mutating syntax in your reducers, but it's actually turned into safe, correct, immutable updates internally. So from there, we have an API called createSlice, and we've traditionally used the word "slice" to refer to the reducer for a single part of your Redux state. For example, if I have a blogging app with state.users, state.posts and state.comments, the users reducer and the users actions represent a slice of your state.
 
-\[00:31:55.03\] So createSlice builds on createAction and createReducer. You give it a set of reducer functions in an object, and you give them meaningful names. Giving the classic to-do app example, \[unintelligible 00:32:09.23\] stuff like that... And it automatically generates the action creators and the action types internally, based on the names of the reducer functions that you provided. And this actually gets to that grepability factor that you were asking about earlier.
+\[00:31:55.03\] So createSlice builds on createAction and createReducer. You give it a set of reducer functions in an object, and you give them meaningful names. Giving the classic to-do app example, todoAdded, todoToggled, changeFilter, stuff like that... And it automatically generates the action creators and the action types internally, based on the names of the reducer functions that you provided. And this actually gets to that grepability factor that you were asking about earlier.
 
 One of the advantages of having all those action types as const variables in the codebase was that you could look at the Redux DevTools and see "Okay, I dispatched the Add\_todo" action type, and now I can Ctrl+Shift+F, search the whole codebase textually for uses of that action type.
 
@@ -218,7 +218,7 @@ I get that people have -- okay, there's this baseline of packages that everybody
 
 What I used to do back in the day was with HTML5 Boilerplate - I'm not sure if you guys remember that awesome project from Paul Irish and the gang - is I would never actually use the boilerplate code. I would generate the boilerplate code, and then I would stare at it as I wrote my own, and just picked and chose what I liked and what I thought was good, and I just discarded the rest. Could you use this project that way and not actually install it itself, but just use Redux and maybe pick and choose, and use it as like a best practice, as a guide, but not the code... Or is it better just to use the code and go from there?
 
-**Mark Erikson:** So Redux Toolkit is a set of distinct API functions. Each one for a different purpose - configure store, create action, reducer, slice, \[unintelligible 00:46:35.27\] And we certainly suggest that you should be using all of them as the default approaches in your Redux application... But they are all "pick and choose your own adventure".
+**Mark Erikson:** So Redux Toolkit is a set of distinct API functions. Each one for a different purpose - configureStore(), createAction(), -Reducer(), -Slice(), createAsyncThunk, and createEntityAdapter. As well as including the Reselect createSelector() API out of the box and we use it with createEntityAdapter.  And we certainly suggest that you should be using all of them as the default approaches in your Redux application... But they are all "pick and choose your own adventure".
 
 **Jerod Santo:** Okay.
 
@@ -226,7 +226,7 @@ What I used to do back in the day was with HTML5 Boilerplate - I'm not sure if y
 
 Say you've got a large existing Redux app, and you want to start using Redux Toolkit. So you swap out your store setup code for configureStore once, you pick a reducer and the associated action types, you replace them with a call to createSlice, you swap up hooking up the reducer function and dispatching those actions. All the rest of the existing code works just fine as is. And then you just keep migrating one reducer and its related actions at a time.
 
-**Amal Hussein:** Actually, Mark, that brings me to the question - is there a diff out there that is viewable to the public, where it's like "Here's an actual app that used Redux, and here's the \[unintelligible 00:48:10.17\] to use Redux Toolkit..."
+**Amal Hussein:** Actually, Mark, that brings me to the question - is there a diff out there that is viewable to the public, where it's like "Here's an actual app that used Redux, and here's the commit diff to use Redux Toolkit..."
 
 **Jerod Santo:** \[00:48:16.07\] Well, that would be awesome.
 
