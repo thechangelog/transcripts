@@ -170,7 +170,7 @@ I think we were impacted a bit by it being the summer, and so lost a bunch of ti
 
 And then as soon as we possibly can - it really depends on how fast Eric and the bridge team here can get this bridge up and running, we should start to see people flooding in natively from Matrix into the chat rooms, rather than the super-annoying Matrix bot channeling everybody and getting banned every two weeks. Instead, it will be proper native people coming in... And likewise - and we haven't decided this for sure yet, but it's possible that we might just expose al of Matrix into Gitter. So rather than just joining chat rooms which are backed by repositories on GitLab and GitHub, you could just use it as a freeform Matrix client and talk to people anywhere else. So if you wanted to talk to Mozilla people, you could just go off and talk to the Firefox team directly. That could be fun.
 
-**Sid Sijbrandij:** In the email where you asked people permission to transfer their data, are you gonna work in a red pill/blue pill joke, or is that pushing it? \[laughter\]
+**Sid Sijbrandij:** In the email where you ask people permission to transfer their data, are you gonna work in a red pill/blue pill joke, or is that pushing it? \[laughter\]
 
 **Matthew Hodgson:** I think that might be pushing it unfortunately, although it is slightly tempting. When we began doing Matrix, it was already 15 years since the Matrix film came out...
 
@@ -178,9 +178,9 @@ And then as soon as we possibly can - it really depends on how fast Eric and the
 
 **Matthew Hodgson:** And 15 years is long enough that people started to forget about it. Now here we are, 22 years later--
 
-**Jerod Santo:** It's a cool classic, come on...
+**Jerod Santo:** It's a cult classic, come on...
 
-**Matthew Hodgson:** ...it is a cool classic, but it seems to be getting more and more cool by the minute, and particularly the red pill/blue pill thing seems to have taken on political overtones...
+**Matthew Hodgson:** ...it is a cult classic, but it seems to be getting more and more cult by the minute, and particularly the red pill/blue pill thing seems to have taken on political overtones...
 
 **Jerod Santo:** Oh, true... I didn't think about that.
 
