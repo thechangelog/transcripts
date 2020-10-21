@@ -68,9 +68,9 @@
 
 **Aaron Schlesinger:** I'll take a stab at it...
 
-**Johnny Boursiquot:** Stab it.
+**Johnny Boursiquot:** Stab it please.
 
-**Mat Ryer:** Please. Stab it to death.
+**Mat Ryer:** Stab it to death.
 
 **Aaron Schlesinger:** I'll only do it in four paragraphs instead of the five that you got there.
 
@@ -166,7 +166,7 @@ Service A could interact with services B and C in a way that was manageable and 
 
 **Aaron Schlesinger:** Yeah, yeah...
 
-**Jon Calhoun:** That's when you ask "Is this a project for school? Because otherwise it's a little scary..."
+**Jon Calhoun:** That's when you ask "Is this a project for school?" Because otherwise it's a little scary...
 
 **Aaron Schlesinger:** Yeah, yeah, for sure.
 
@@ -196,7 +196,7 @@ One of the mistakes I see developers make all the time is they get lured by all 
 
 **Mat Ryer:** Brilliant. Thank you. You've solved it.
 
-**Aaron Schlesinger:** So I think it depends. The amount of PaaS increases as the organization size increases... Because once you get to your 30, your 40, your 50-person engineering groups, now you have to really draw those lines between "Oh, hey, here's the dev ops team. Oh, hey, here's the ops team if we have that. Oh, hey, here's release management. Hey, here's development." And those role - that's a Venn diagram; that's not separate and mutually-exclusive groups. So now you're gonna have people on Kubernetes who are touching it as YAML developers; and you're gonna have other people writing Flask apps, who don't care about YAML. They wanna get their app up, and they need a public IP, and they need an SSL certificate, and whatever else.
+**Aaron Schlesinger:** So I think it depends. The amount of PaaS increases as the organization size increases... Because once you get to your 30, your 40, your 50-person engineering groups, now you have to really draw those lines between "Oh, hey, here's the dev ops team. Oh, hey, here's the ops team if we have that. Oh, hey, here's release management. Hey, here's development." And those roles - that's a Venn diagram; that's not separate and mutually-exclusive groups. So now you're gonna have people on Kubernetes who are touching it as YAML developers; and you're gonna have other people writing Flask apps, who don't care about YAML. They wanna get their app up, and they need a public IP, and they need an SSL certificate, and whatever else.
 
 So those are really, really different personas, and at that point - now you're looking at a group of probably SREs who are gonna be writing code to make it really easy for developers to deploy that Flask app, but also make it really hard for them to mess up the Kubernetes install, and make it really hard for them to do something that's gonna deploy an API that doesn't have an SSL cert, for example, or something that's bad practice, pretty much.
 
@@ -272,7 +272,7 @@ Another thing that is a handy thing to have is the ability to be able to rip tho
 
 But Go, for instance, is one that -- I feel like interfaces in Go make it so much easier to separate these things, without actually caring how you're communicating. Like, I don't care if this is a microservice, or if it's something that's running on the same server. I just need an interface here, and I'm gonna talk to it. That's one of the things I've really liked about Go, is that it just makes it so much easier to completely ignore that part of it and just write your code to be like "If you can get me this little set of functionality, I can do my job."
 
-**Aaron Schlesinger:** I think once you get to that point where in your Go codebase you really are taking advantage of well-defined interfaces, and have multiple implementations of them hopefully, you're in a good spot then to try to evaluate "Hey, do I need to start splitting out microservices?" But what I think a lot of people underestimate is how much technology you have to learn in order to split that stuff out, just to get one process talking to another process on local host over a network. That's hard enough. And this is all day zero, before you actually see this thing running in production. Just day zero, "I've decided I'm gonna build a third implementation of my interface that talks over the network to this thing that I've split out..." Well, you have to figure out a couple things right then and there. Am I gonna do HTTP, am I gonna do JSON? Am I gonna do gRPC? Am I gonna wade into that 3,000-project list of things in the CNCF site to figure out if there's something else?
+**Aaron Schlesinger:** I think once you get to that point where in your Go codebase you really are taking advantage of well-defined interfaces, and have multiple implementations of them hopefully, you're in a good spot then to try to evaluate "Hey, do I need to start splitting out microservices?" But what I think a lot of people underestimate is how much technology you have to learn in order to split that stuff out, just to get one process talking to another process on local host over a network. That's hard enough. And this is all day zero, before you actually see this thing running in production. Just day zero, "I've decided I'm gonna build a third implementation of my interface that talks over the network to this thing that I've split out..." Well, you have to figure out a couple things right then and there. Am I gonna do HTTP? Am I gonna do JSON? Am I gonna do gRPC? Am I gonna wade into that 3,000-project list of things in the CNCF site to figure out if there's something else?
 
 **Johnny Boursiquot:** \[00:48:04.09\] \[laughs\] "I think I need Istio", right?
 
@@ -394,7 +394,7 @@ I chuckle, and it makes me sort of happy inside at the same time, and I think a 
 
 **Mat Ryer:** I say good one. What we're doing is taking the clips of all the unpopular opinions and then doing a poll on Twitter. So you can follow @GoTimeFM on Twitter and you can vote to decide whether that is indeed unpopular or not. So far, they've all been popular... And I don't know if it's just that the guests make such a compelling case, and we're just suggestible... Or if in fact people are just not taking the segment seriously enough. \[laughter\] Has anyone else got any unpopular opinions?
 
-**Johnny Boursiquot:** I do... But again, I have to, I guess -- well, let me not poison the world here; I'm just gonna say it, and if you think it's unpopular, that's your business. I think every startup at least, but even within the enterprise - just because you're in the enterprise and you have more \[unintelligible 01:01:35.06\] doesn't mean everything needs to be microservices... But I think you should reason your way out of a monolith before you adopt microservices. Find all the reasons why you don't need to deploy an application as a monolith before you come up with the reasons, and the excuses and whatever it is you wanna tell yourself for adopting microservices and all the orchestration and baggage that comes along with it. Because if you cannot, realistically - and I don't mean just sit down by yourself, write yourself a list and then kind of weigh pros and cons all by yourself, alone... No. Get some feedback. Have your entire team weigh in. Heck, create some language around it and have your business leadership team weigh in on it if you can. I bet they'll ask you "Hey, what's gonna take you longest to do? What's gonna take you longest to manage/maintain? What's gonna cost more in terms of people?"
+**Johnny Boursiquot:** I do... But again, I have to, I guess -- well, let me not poison the well here; I'm just gonna say it, and if you think it's unpopular, that's your business. I think every startup at least, but even within the enterprise - just because you're in the enterprise and you have more operation layers doesn't mean everything needs to be microservices... But I think you should reason your way out of a monolith before you adopt microservices. Find all the reasons why you don't need to deploy an application as a monolith before you come up with the reasons, and the excuses and whatever it is you wanna tell yourself for adopting microservices and all the orchestration and baggage that comes along with it. Because if you cannot, realistically - and I don't mean just sit down by yourself, write yourself a list and then kind of weigh pros and cons all by yourself, alone... No. Get some feedback. Have your entire team weigh in. Heck, create some language around it and have your business leadership team weigh in on it if you can. I bet they'll ask you "Hey, what's gonna take the longest to do? What's gonna take longest to manage/maintain? What's gonna cost more in terms of people?"
 
 All these things factor into that decision. So basically, you need to reason your way out of not choosing a monolith before you adopt microservices... Because sometimes I think we try to look for reasons why we should use the tech we think is shiny, and new, and cool, and we shy away from the stuff that might be old, but it works. The boring tech. There's a reason why SREs like boring tech... Because excitement in infrastructure is never a fun thing. \[laughter\] So yeah, that's my piece of advice, I guess.
 
