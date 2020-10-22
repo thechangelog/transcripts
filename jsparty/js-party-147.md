@@ -196,7 +196,7 @@
 
 **Mikeal Rogers:** There's like a section of people that are into arrays and functional programming on arrays, and their favorite is always map. So I feel like they've just self-selected into doing map.
 
-**Kevin Ball:** We've got that. Yeah. And if \[unintelligible 00:09:35.19\]
+**Kevin Ball:** We've got that. Yeah. And if `forEach` isn't on there then `reduce` won't be on there.
 
 **Mikeal Rogers:** Especially if reduce wasn't there, right? Like, if reduce wasn't there, then - hm...
 
@@ -262,9 +262,9 @@
 
 **Mikeal Rogers:** I was thinking virtual space, too.
 
-**Ali Spittel:** Yeah, I think we had wildly different \[unintelligible 00:11:47.09\] on this...
+**Ali Spittel:** Yeah, I think we had wildly different interpretations on this...
 
-**Jerod Santo:** Wildly different answers. \[unintelligible 00:11:47.22\] That's right. 26 people answered coffee shop, or cafe, or Starbucks. That was your number one answer. So there's six answers total on the board. Two of them have already been taken, since you've both hit them, and Abenezer won the board, so your team can now play it or pass it. What would you like to do?
+**Jerod Santo:** Wildly different answers. That's right. 26 people answered coffee shop, or cafe, or Starbucks. That was your number one answer. So there's six answers total on the board. Two of them have already been taken, since you've both hit them, and Abenezer won the board, so your team can now play it or pass it. What would you like to do?
 
 **Emma Bostian:** It's up to you, sir.
 
@@ -448,7 +448,7 @@
 
 **Jerod Santo:** Dubstep did not make the list. So Mikeal has won the board. Team Kball gets to play for the first time... Or you can pass it back to team Emma. What would you like to do?
 
-**Mikeal Rogers:** \[unintelligible 00:18:24.23\]
+**Mikeal Rogers:**  What do y'all think?
 
 **Jerod Santo:** There's four answers on the board.
 
@@ -536,7 +536,7 @@
 
 **Kevin Ball:** No. And there is a substantial difference between reggae and reggaeton.
 
-**Jerod Santo:** See, that's \[unintelligible 00:20:29.00\] I don't even know the difference, so I have no taste there in that place. Okay, so chance to steal... Didn't mean to laugh at you, Kball.
+**Jerod Santo:** See, that's what a lout I am. I don't even know the difference, so I have no taste there in that place. Okay, so chance to steal... Didn't mean to laugh at you, Kball.
 
 **Kevin Ball:** Y'all are just missing out.
 
@@ -602,7 +602,7 @@
 
 **Jerod Santo:** No. We've moved on from functions.
 
-**Kevin Ball:** You've \[unintelligible 00:23:25.23\] so far.
+**Kevin Ball:** You've stumped me so far.
 
 **Jerod Santo:** Name something you might bring to a frontend job interview.
 
@@ -714,7 +714,7 @@
 
 **Jerod Santo:** On the way...! Good call. Alright, you've got one more chance here, Ali. You've got two answers left.
 
-**Ali Spittel:** This is so hard. Your own whiteboard? I have no idea. \[fail sound\] \[laughter\] \[unintelligible 00:26:40.03\]
+**Ali Spittel:** This is so hard. Your own whiteboard? I have no idea. \[fail sound\] \[laughter\] I just really want to get whiteboarded...
 
 **Kevin Ball:** "Your whiteboard is insufficient. I brought mine!"
 
@@ -754,7 +754,7 @@
 
 **Emma Bostian:** Are you serious?
 
-**Kevin Ball:** I was gonna comment on that, but then held back \[unintelligible 00:28:06.29\]
+**Kevin Ball:** I was gonna comment on that, but then held back in hopes of winning.
 
 **Jerod Santo:** Because it's different. It's a different thing. Isn't it?
 
@@ -874,7 +874,7 @@
 
 **Kevin Ball:** We've gotta say some nasty things about Emma to make sure she's actually muted, right?
 
-**Jerod Santo:** Can you believe that \[unintelligible 00:33:19.27\] \[laughter\] She's laughing, so I don't think she's muted yet.
+**Jerod Santo:** Can you believe that one? \[laughter\] She's laughing, so I don't think she's muted yet.
 
 **Mikeal Rogers:** I don't think someone would cheat to get a non-existent prize.
 
@@ -1014,7 +1014,7 @@
 
 **Emma Bostian:** I'm a little surprised by that.
 
-**Mikeal Rogers:** \[unintelligible 00:37:16.00\]
+**Mikeal Rogers:** I thought section would be above article.
 
 **Emma Bostian:** That's like you're trying to prove how smart you are at HTML.
 
@@ -1042,7 +1042,7 @@ Name something that you associate with Google Chrome. Abenezer, you said DevTool
 
 **Jerod Santo:** Okay, so number one answer was DevTools, with 37. Number two was memory use and RAM, with 24. \[laughter\] Number three was tracking and privacy, with 13, and then monopoly was number four, with 5. And then just the word Google... People associate Google with Google Chrome. Five people said that. Three said tabs, three said extensions, two said v8.
 
-**Abenezer Abebe:** \[unintelligible 00:38:45.26\]
+**Abenezer Abebe:** Tab city.
 
 **Jerod Santo:** So no points for Emma there.
 
@@ -1068,7 +1068,7 @@ Name something that you associate with Google Chrome. Abenezer, you said DevTool
 
 **Jerod Santo:** Ramen, Beef Jerky and Soylent.
 
-**Mikeal Rogers:** I feel like there's some kind of \[unintelligible 00:39:34.28\]
+**Mikeal Rogers:** I feel like there's some kind of Always Sunny in Philedelphia Charlie in there who's always saying Blockchain and Soylent \[laughter\]
 
 **Jerod Santo:** Yeah. There were two Soylents though...
 
