@@ -76,7 +76,7 @@ So it wound up being a much larger thing of archiving on a sort of week-to-week,
 
 **Jerod Santo:** So that's the warm store; you've got the GH Archive, which is associated, and you have the other foundation which is associated, and then you have this long-term -- which is a snapshot; you all did the snapshot on February 2nd, 2020, I believe. Was this all public GitHub repositories at the time, or you picked your favorites, you picked the most relevant repos?
 
-**Jon Evans:** We talked about that very early on, whether we wanted \[unintelligible 00:12:53.06\] picked and chose, and we decided to avoid that to the extent possible.
+**Jon Evans:** We talked about that very early on, whether we wanted to be sort of editorial about what we picked and chose, and we decided to avoid that to the extent possible.
 
 **Jerod Santo:** I think that's a good idea.
 
@@ -118,7 +118,7 @@ Obviously, this has some level of judgment, because we did have a limited amount
 
 **Jerod Santo:** \[00:16:18.05\] Sure. So when you that "we have space for", are you talking about terabytes, are you talking about physical space in this vault? You only have so much surface area in there, volume that you can fill. Is that correct?
 
-**Jon Evans:** Yeah, I mean -- the vault is a former coal mine. So in terms of cubic meters or cubic feet, there's a very large amount of space. \[laughter\] \[unintelligible 00:16:38.26\] But we had a limited amount of tapes that we were generating, and 186 I think it turned out to be... And each of those has a limitation of about 110 gigabytes, which - you know, on the one hand it's actually fairly dense, for something which is written to a visual format... But on the other hand, when you're accustomed to one terabyte USB sticks and so forth, it seems a little worrying, and something you have to sort of recalculate around.
+**Jon Evans:** Yeah, I mean -- the vault is a former coal mine. So in terms of cubic meters or cubic feet, there's a very large amount of space. \[laughter\] Coal is not the densest stuff on earth. But we had a limited amount of tapes that we were generating, and 186 I think it turned out to be... And each of those has a limitation of about 110 gigabytes, which - you know, on the one hand it's actually fairly dense, for something which is written to a visual format... But on the other hand, when you're accustomed to one terabyte USB sticks and so forth, it seems a little worrying, and something you have to sort of recalculate around.
 
 **Jerod Santo:** Yeah. And so a quick note for the listener - if you're curious, "Do I have code in the GitHub Arctic Code Vault?", just go to your profile; they've added now a badge for everybody who does. And if you were active during that time period at all, then likely you do. But you can be sure - and they'll even list; if you hover over that, they'll even list which repos... A shortlist of the ones that you contributed to, which yes, do have code in the Arctic Code Vault.
 
@@ -136,7 +136,7 @@ Very cool. Adam and I were looking at that, because we started to notice there's
 
 **Jerod Santo:** ...that format is super-important.
 
-**Jon Evans:** Yeah. And ironically, that's one of the reasons of the archive - to document things like file formats and so forth, for the future. And fortunately, this is a thing which the format that we're using, which is sort of \[unintelligible 00:20:43.12\] Because ultimately, to just get basic information out of a piece of film, you need some source of light and some magnifier. So each of those 186 reels is actually in and of itself a self-contained archive. It stars with human-readable, visible text and pictures, explaining in several languages what is on the reel, and how to access it, and how to make sense of its contents, and an index of the things which are on it... Before going into the more encoded, QR code(ish) visual data.
+**Jon Evans:** Yeah. And ironically, that's one of the reasons of the archive - to document things like file formats and so forth, for the future. And fortunately, this is a thing which the format that we're using, which is sort of a hardened microfilm (it's an oversimplification but it's not too much of an oversimplification), is useful for. Because ultimately, to just get basic information out of a piece of film, you need some source of light and some magnifier. So each of those 186 reels is actually in and of itself a self-contained archive. It stars with human-readable, visible text and pictures, explaining in several languages what is on the reel, and how to access it, and how to make sense of its contents, and an index of the things which are on it... Before going into the more encoded, QR code(ish) visual data.
 
 **Jerod Santo:** Like an instruction manual.
 
@@ -156,7 +156,7 @@ Very cool. Adam and I were looking at that, because we started to notice there's
 
 **Jerod Santo:** Until a meteor hits that mountain. That particular mountain. \[laughter\]
 
-**Jon Evans:** Well, there is actually another backup; we're taking a couple of reels with the 15,000 most-starred repos on GitHub, and also a random sampling of just all other repos, because we still wanted to include some of \[unintelligible 00:22:50.11\] and we're gonna give those to libraries. So we're intending to give those to various more traditional archives and libraries in other locations around the world.
+**Jon Evans:** Well, there is actually another backup; we're taking a couple of reels with the 15,000 most-starred repos on GitHub, and also a random sampling of just all other repos, because we still wanted to include some of the sort of "inclusive democratic everyone" thing and we're gonna give those to libraries. So we're intending to give those to various more traditional archives and libraries in other locations around the world.
 
 **Jerod Santo:** Yeah, that's interesting, because I did read from some of your marketing copy - you say "This protects the priceless knowledge by storing multiple copies on an ongoing basis, across various data formats and locations." And I was like "and locations..." So I thought maybe this Arctic storage vault is just the first of multiple locations. But is that referring to like the Wayback Machine and these other libraries, or do you think you'll say "Well, we've got one in the Arctic. How about the Antarctic? And how about the Equator?" That'd be a bad place to store it, but...
 
@@ -202,7 +202,7 @@ Very cool. Adam and I were looking at that, because we started to notice there's
 
 **Jerod Santo:** Yeah. How would you imagine somebody finding this or unpacking it a thousand years from now? What would they do with this archive? Would they read the code and try to figure out what we were like? Would they try to run the code, execute it? Are they trying to restore from backup, because something went crazy? \[laughter\] What do you imagine?
 
-**Jon Evans:** We've talked about this a lot. I think the most likely thing is that it's going to be a primarily historical value. I think people might try and run the code again, especially since there are some games there... The Internet Archive - you can go to the Wayback Machine right now, or at least to archive.org, and play the initial Prince of Persia, for instance, which is very popular. And the same when the 8 bits became a weird aesthetic not so long ago. It's possible that people will wanna craft emulators of today's antiquated computers and run software the way it used to be in the old days, in the same way that people build 19th century train sets, or mount train sets today. There's also the possibility that \[unintelligible 00:30:19.07\] will be useful.
+**Jon Evans:** We've talked about this a lot. I think the most likely thing is that it's going to be a primarily historical value. I think people might try and run the code again, especially since there are some games there... The Internet Archive - you can go to the Wayback Machine right now, or at least to archive.org, and play the initial Prince of Persia, for instance, which is very popular. And the same when the 8 bits became a weird aesthetic not so long ago. It's possible that people will wanna craft emulators of today's antiquated computers and run software the way it used to be in the old days, in the same way that people build 19th century train sets, or mount train sets today. There's also the possibility that you know, this will actually be useful.
 
 A thing that people don't realize necessarily is that software is surprisingly ephemeral. It's all on hard drives. Hard drives don't last that long - years, maybe decades. Backup tapes are also -- they're good for decades. And over the long run, we kind of expect everything to get copied to the next storage medium, and the next storage medium, and so forth... And probably most of it will, but also, they're gonna have losses along the way... So it's easy to envision some piece of industrial software, that something vital has been running on for the last 40 years, without anyone noticing suddenly we need to patch, or some data format that's suddenly important for some high-profile legal case or something that we need to be able to access, that sort of thing... And someone going back and saying "Wait, where is that code from 2017 describing this obscure data format that looked like a good idea at the time for about two years?" in 2067. And someone's like "Um, Svalbard? Maybe we could find it there." \[laughter\]
 
@@ -212,7 +212,7 @@ A thing that people don't realize necessarily is that software is surprisingly e
 
 **Jerod Santo:** I mean, it could be sort of a Rosetta Stone if there were other code that was found, that they didn't know how to interpret it, or didn't know how to execute it... Because this has those instructions. Maybe there's an opportunity there to find the runtime that that ran against, or fix that dependency problem... Like "Hey, is all of Npm in here? Maybe we can actually resolve these dependencies." That's what I think about, when it comes to execution... Because a lot of the code up there - you're not vendoring your dependencies in your repo, right? So a lot of the source code is there. Are you taking binaries too, like executable code? Or would everything have to be built from source in this hypothetical situation where someone's trying to restore something.
 
-**Jon Evans:** \[00:31:59.08\] There are some binaries up there. The repos with a lot of stars have gotten binaries, though mostly it's just source. I am kind of curious myself just how many copies of Node modules we wound up \[unintelligible 00:32:07.14\] because I thought seriously about excluding that from the archive, but then I decided not to in the end... And even that might have some value, an implicit snapshot of the various dependencies along the way, and how those changed. But it wouldn't shock me greatly if there were a lot of Node modules just raw up there, duplicated over and over and over again. But that might be useful as well.
+**Jon Evans:** \[00:31:59.08\] There are some binaries up there. The repos with a lot of stars have gotten binaries, though mostly it's just source. I am kind of curious myself just how many copies of Node modules we wound up caching because I thought seriously about excluding that from the archive, but then I decided not to in the end... And even that might have some value, an implicit snapshot of the various dependencies along the way, and how those changed. But it wouldn't shock me greatly if there were a lot of Node modules just raw up there, duplicated over and over and over again. But that might be useful as well.
 
 There is also gonna be a master index. So in principal, assuming everything's on GitHub, which most open source is these days, and it's not some sort of private repo, then you should be able to, given time and good computers, sort of reconstruct most of the dependency tree for any given project.
 
@@ -234,7 +234,7 @@ So in theory, there'd be enough information that you could in fact reconstruct a
 
 **Jerod Santo:** \[laughs\]
 
-**Jon Evans:** But Stack Overflow is also Creative Commons, so we are in fact \[unintelligible 00:36:42.28\] Stack Overflow and drop it in the Tech Tree as well, next to Wikipedia, yes.
+**Jon Evans:** But Stack Overflow is also Creative Commons, so we are in fact going to get a dump of Stack Overflow and drop it in the Tech Tree as well, next to Wikipedia, yes.
 
 **Jerod Santo:** That's awesome. What else is going in there?
 
@@ -242,7 +242,7 @@ So in theory, there'd be enough information that you could in fact reconstruct a
 
 **Jerod Santo:** I'll snatch that one up and link it for those interested in seeing all the things inside the Tech Tree. Are you guys taking suggestions?
 
-**Jon Evans:** We are actively taking suggestions right now. We're incorporating some at the moment, yeah. We still have to work with publishers, since we're literally making a copy. Copyright becomes an issue, obviously... So we have to figure out the \[unintelligible 00:37:21.28\] which is one reason it's been a little slower than the rest of the project... But we are actively working on compiling that and adding it to the vault.
+**Jon Evans:** We are actively taking suggestions right now. We're incorporating some at the moment, yeah. We still have to work with publishers, since we're literally making a copy. Copyright becomes an issue, obviously... So we have to figure out the rights issues with a bunch of these and so forth, which is one reason it's been a little slower than the rest of the project... But we are actively working on compiling that and adding it to the vault.
 
 **Jerod Santo:** Okay, very cool. Yeah, I've found it, and you have it broken out into different areas, such as hardware architectures, hardware development, electronic components, and then you have books, and you have articles, I assume... Written modern software development, and under there you have these different books that are gonna be included... So that's very interesting.
 
