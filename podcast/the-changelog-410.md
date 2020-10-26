@@ -16,7 +16,7 @@ And during the summer - it must have been like three years ago now - they moved 
 
 **Mike Fix:** Create and share beautiful images of your source code. When you say it that way, I know it sounds like we're just doing it for show, but at the same time, I like to think about it as making it a lot easier to consume code through these mediums that make it difficult right now... So like through Twitters, or through blogs, or in a presentation. You still do want these presentation layers, because it not only makes it easier on your eyes, it makes it easier to look at, but it actually makes it easier to consume the information when you have the correct syntax highlighting, when you have consistency between all your files, that sort of thing. Yeah, it just makes it easier on educators that way... And we've seen that to be true.
 
-I was stoked recently to find out that NASA has these \[unintelligible 00:05:15.12\] has standard guidelines for sharing code presentations when they wanna do updates on what they've been working on recently, and they explicitly recommend Carbon as a way to present that code in a way that's better for consuming on the other end. Stories like that is what really excites me about Carbon and how it's growing over time... Back to the initial goal of producing it on day one, just in response to wanting to tweet easier.
+I was stoked recently to find out that NASA has these, in a jet propulsion laboratory, has standard guidelines for sharing code presentations when they wanna do updates on what they've been working on recently, and they explicitly recommend Carbon as a way to present that code in a way that's better for consuming on the other end. Stories like that is what really excites me about Carbon and how it's growing over time... Back to the initial goal of producing it on day one, just in response to wanting to tweet easier.
 
 **Jerod Santo:** Wanting to tweet easier. So we initially covered this back when it was first launched, and when Adam came to me and said "Hey, let's do a show with the Carbon person", I said "Isn't that like an agency, or something?" Maybe I'm just misremembering, but were you and your buddies kind of presenting this as a business, or like an open source project from your business, and maybe that has drifted away? Because I thought it was actually a design agency that put this out there, and now it's not like that anymore... Or am I just misremembering?
 
@@ -48,7 +48,7 @@ So what's next, I guess - there's definitely longer-term things we could easily 
 
 So that's always existed. And we could have released it pretty much at any time, but the thing about that is we're not sure we want to release it, because there's better mechanisms for sharing code than there are an image. The Save Snippet idea, which always has the alt text for accessibility, it always points back to source, so people can copy-paste it easier... You can use an embed, which allows you to do copy text buttons, that sort of thing, or highlight the code, which are all more accessible mechanisms than using an API to return just a static image.
 
-So \[unintelligible 00:14:31.15\] is not that we don't wanna give users what they want, but we want to create a tool that's actually good for the end users, the people that are consuming this code, helping educators with a way to share their code in a way that the end consumer will be able to consume it easy.
+So our hesitation is not that we don't wanna give users what they want, but we want to create a tool that's actually good for the end users, the people that are consuming this code, helping educators with a way to share their code in a way that the end consumer will be able to consume it easy.
 
 **Jerod Santo:** Yeah, that's really cool. I've never thought about all those little concerns. Of course, you've thought about this deeply, and we've just used it, so that's really neat. I'm curious what that Safari issue is; why can't Safari do some of the image creation side?
 
@@ -114,7 +114,7 @@ Going back to what Adam said about freedom - I'm very passionate about the idea 
 
 Along those lines, in the future I can imagine companies who have a mission, and a mission that resonates with a lot of people. There's a lot of developers that potentially would love to contribute to that mission, but still wanna maintain their freedom. They wanna maintain the optionality of not being employed somewhere. Having the freedom to take advantage of their own lives, and maintain their own schedules, but yet still contribute to these missions at large. And that's something I think open source has a stable foundation to help facilitate, and it is a matter of figuring out how to fund it in the correct ways, where people are appreciated for their work in some way.
 
-**Adam Stacoviak:** So what's your goal then with Carbon? It started out as a way to save time from people, essentially; put code out there in \[unintelligible 00:23:42.08\] ways, but save a designer's time... What's that going out? It's evolved over the years, so what's the situation?
+**Adam Stacoviak:** So what's your goal then with Carbon? It started out as a way to save time from people, essentially; put code out there in fun ways, but save a designer's time... What's that going out? It's evolved over the years, so what's the situation?
 
 **Mike Fix:** \[00:23:54.11\] Yeah... So as a product, it's kind of doing its job, and if it never changed again, I think I would still be happy with it. And the reason I keep wanting to change it and maintaining it and pushing it forward is to act as like a public staple of open source. The fact that there's not too many products that are fully open source... I want it to act as that figure, that symbol for people that want to operate their business or their product in a different way, and still show that it can have reach, that it can have impact; that maybe in the future I can make money.
 
@@ -130,7 +130,7 @@ The reason I'm really excited about that is because -- not that it's gonna make 
 
 \[00:28:04.05\] Right, we could toss up ads and make some money, but it's not gonna make enough money to viscerally change my happiness, and definitely it won't improve the users' lives when using Carbon. So this other thing would be kind of like a better translation, because 1) I think it actually would add value to Carbon. People could come to Carbon and see what's new. It's not so static, it's not just like always the same screen every time. And 2) I think it would parallel well with helping small creators just like we were when we started Carbon out - we had no audience, and we wanted to share this thing we made. That seems like the best business model for us to take it in a direction for, but we're still figuring out how to do that that fits well with the community, and like I said before, sustain that program going forward in a more self-serve way.
 
-**Adam Stacoviak:** That's what drew me to do this show, because I saw that Dracula Pro was on Carbon. I'm like "That's cool!" I can imagine its distribution for an indie creator like Zeno... And I see what you see, which is like this could be a moving billboard; not so much in terms of a make-money billboard, but an easy way -- because it's got a lot of interest and eyeballs using it on the daily, many engineers all over the world using Carbon... And why not show off your code and show off Zeno's work with Dracula Pro... And I don't know what else is beneath the surface, because I haven't dove in and discovered, but I imagine it's an open opportunity now for, say, the designer behind -- I believe Inter is the font... That's something else we wanna talk to around Maintainer Spotlight, is like making this really awesome open source font that a lot of people are using; it's amazing, a lot of work, I'm sure, has gone into it. I'm assuming \[unintelligible 00:29:54.15\] But you get people like that behind there, and you've got sort of a distribution channel for indie creators, basically.
+**Adam Stacoviak:** That's what drew me to do this show, because I saw that Dracula Pro was on Carbon. I'm like "That's cool!" I can imagine its distribution for an indie creator like Zeno... And I see what you see, which is like this could be a moving billboard; not so much in terms of a make-money billboard, but an easy way -- because it's got a lot of interest and eyeballs using it on the daily, many engineers all over the world using Carbon... And why not show off your code and show off Zeno's work with Dracula Pro... And I don't know what else is beneath the surface, because I haven't dove in and discovered, but I imagine it's an open opportunity now for, say, the designer behind -- I believe Inter is the font... That's something else we wanna talk to around Maintainer Spotlight, is like making this really awesome open source font that a lot of people are using; it's amazing, a lot of work, I'm sure, has gone into it. I'm assuming the story we'll hear from that. But you get people like that behind there, and you've got sort of a distribution channel for indie creators, basically.
 
 **Mike Fix:** Yeah. And right now it's kind of just like embedded in the product itself. We have affiliate links for Dracula Pro, for MonoLisa and for Dank Mono.
 
@@ -140,7 +140,7 @@ The reason I'm really excited about that is because -- not that it's gonna make 
 
 **Adam Stacoviak:** What's Dank?
 
-**Jerod Santo:** \[unintelligible 00:30:18.19\]
+**Jerod Santo:** That's what I hear.
 
 **Mike Fix:** That one's a font by Phil out of Formidable. A really fun font. It's definitely unique, and I have that as actually my default font on my editor still, on my personal computer. So yeah, it's embedded in Carbon right now, and probably hard to find. I'm not sure many people even see it coming across using Carbon in their day-to-day... But the next stop obviously is to make a more centralized home for these links, make it like a marketplace where people can actually scroll through it. I would love to do that, and I would easily put time into creating that; it's just a matter of finding enough tools to showcase. Right now we have three; that doesn't make much of a marketplace. But if there were a few dozen small creators that wanted to showcase fonts, their themes, their developer-focused tools - yeah, I would love to help them out.
 
@@ -156,7 +156,7 @@ The reason I'm really excited about that is because -- not that it's gonna make 
 
 **Jerod Santo:** Right.
 
-**Mike Fix:** Other systems... Creating a premium version of it - I'm sure that would make some money, but has \[unintelligible 00:33:27.04\] overhead trade-offs, and potentially that's going in the direction of not being able to sustain Carbon long-term. So that's why this sort of developer marketplace idea is the one that is the great middle ground for me. I think it's sustainable, I think it is in line with the people that use Carbon, helping the small developers and designers that are self-starters, that sort of thing... And it's the same \[unintelligible 00:33:52.29\] where every dollar it does make is just additional. It's not something that I'm relying on, it's not something that is eating up my developer time, or anything like that. That's what makes the most sense in terms of the sustainability aspect.
+**Mike Fix:** Other systems... Creating a premium version of it - I'm sure that would make some money, but has eng overhead trade-offs, and potentially that's going in the direction of not being able to sustain Carbon long-term. So that's why this sort of developer marketplace idea is the one that is the great middle ground for me. I think it's sustainable, I think it is in line with the people that use Carbon, helping the small developers and designers that are self-starters, that sort of thing... And it's the same in the way where every dollar it does make is just additional. It's not something that I'm relying on, it's not something that is eating up my developer time, or anything like that. That's what makes the most sense in terms of the sustainability aspect.
 
 **Jerod Santo:** What about the donations route? You have Open Collective, you have other things going on, you have some backers... It seems like you have all the widgets turned on... Because like you said, you're experimenting, which - that's a great place to do that, right?
 
@@ -220,7 +220,7 @@ In the footer of Carbon we have an Offsets link; that is maybe like a tongue-in-
 
 **Mike Fix:** Yeah, it's cool that you say that. The way developer tools are going these days, you build a developer tool - you raise VC funding; you create a new language, you have a whole round of venture capital funding in order to get your team off the ground. So maybe that is a future where Dark Lang could have a little affiliate link in Carbon and we add it to that dropdown.
 
-Yeah, I could see there being a definite threshold, but the interesting part about these sorts of \[unintelligible 00:42:57.21\] tools is that they're very temporal. If it meets the threshold now, a year from now nobody will wanna use Dank Mono anymore, or people will be on to the new hotness, whatever, and we can shift it up there... Which is kind of what I like about the marketplace idea - it's fresher, it gives people something to come and check out what's new...
+Yeah, I could see there being a definite threshold, but the interesting part about these sorts of shapes of tools is that they're very temporal. If it meets the threshold now, a year from now nobody will wanna use Dank Mono anymore, or people will be on to the new hotness, whatever, and we can shift it up there... Which is kind of what I like about the marketplace idea - it's fresher, it gives people something to come and check out what's new...
 
 And yeah, I could see it pointing to other things that maybe aren't so digital too, if there's other things that just developers and designers like. I can easily see pointing Carbon to that, as long as there's the right way to fit it within the product so it's not too distracting.
 
@@ -230,7 +230,7 @@ And yeah, I could see it pointing to other things that maybe aren't so digital t
 
 **Jerod Santo:** So those are some ways that you're gonna extend the product to capture some value, but what about extending the product to create more value? You said you want to enable creators and teachers to share code in ways that are more valuable and more accessible in all these different ways. Have you considered moving images?
 
-**Mike Fix:** Oh, yeah. Absolutely. We would love to do that. It's one of the open issues right now. The cool part about that is someone actually created a prototype of it on Carbon on their own branch, and it's up there right now, \[unintelligible 00:45:34.00\]
+**Mike Fix:** Oh, yeah. Absolutely. We would love to do that. It's one of the open issues right now. The cool part about that is someone actually created a prototype of it on Carbon on their own branch, and it's up there right now, linking to the issue...
 
 **Jerod Santo:** Really? That's cool.
 
@@ -256,9 +256,9 @@ That's an issue that at first glance I thought "Hey, we're not gonna support thi
 
 **Mike Fix:** Yeah. So that's why I was saying I really wanna keep it pretty not featureful, in the sense that we wouldn't want to create a ton of different movie files or something, and then you have to have an encoding server in the background, and maintain all this infrastructure just to create a moving image... But there are things that you can do in the browser. You can create a GIF in the browser without having an internet connection. That seems like a perfect MVP for us to create, get the feature out the door, let people start exporting GIFs, and it still fits the rest of the platform without too much overhead. Yeah, if we can keep it on the frontend, we can keep it open source, we can fit it in with the rest of the code that's on GitHub, and people can run with the bugs, and then post the bugs themselves, fix the bugs themselves... And that helps a lot with the sustainability of these sorts of features, too.
 
-**Jerod Santo:** Post a GIF of the bug \[unintelligible 00:49:43.28\] GIF feature...?
+**Jerod Santo:** Post a GIF of the bug in the GIF feature...?
 
-**Mike Fix:** Yeah, exactly. \[laughs\] Like, \[unintelligible 00:49:48.10\] export and then using the tool itself to post the bug about the tool.
+**Mike Fix:** Yeah, exactly. \[laughs\] Like, ran this export and then using the tool itself to post the bug about the tool.
 
 **Adam Stacoviak:** That'd be cool.
 
@@ -332,6 +332,6 @@ But as a book, I'm most excited about her anthropological approach to writing it
 
 So I'm glad he can be there to be one example of that, and I hope we tell stories and share narratives in a way where in the future that's more of a commonplace thing, and not something that is just like lucky, or by chance. Kids going through college can be like "Yo, I wanna be an open source developer as my career. There's these steps to do it. I get into these systems, and I learn these skills", so that they can build software in a different approach. Because open source is sometimes the right way to do it. You shouldn't have to trade value, trade money to do it in the right way.
 
-**Adam Stacoviak:** Well, Mike thanks so much for sharing your time today, and sharing your story most of all. I appreciate you being an awesome open source maintainer and someone that people can look to for advice, wisdom, and \[unintelligible 01:01:16.24\] Thanks so much for your time, it's been awesome.
+**Adam Stacoviak:** Well, Mike thanks so much for sharing your time today, and sharing your story most of all. I appreciate you being an awesome open source maintainer and someone that people can look to for advice, wisdom, and how to do things right, man. Thanks so much for your time, it's been awesome.
 
 **Mike Fix:** Oh, thanks so much for having me, this was a lot of fun. Feel free to have people reach out anytime; I'd love to help. And yeah, thanks for chatting, y'all. This was awesome.
