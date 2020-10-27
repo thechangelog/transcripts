@@ -18,7 +18,7 @@
 
 **Brian Ketelsen:** Shhh! We're not supposed to tell anybody about that, Ashley. We were gonna keep that our secret.
 
-**Ashley McNamara:** I think \[unintelligible 00:01:51.15\] I think I gave it to everyone; I don't know...
+**Ashley McNamara:** I think I'm patient zero, I think I gave it to everyone; I don't know...
 
 **Erik St. Martin:** And then our special guest for today's show is Alexander Neumann. Now, I'll let you kind of lead in a little bit of kind of who you are and what you're working on. He came today to talk with us about a very cool backup program that he's written... Over like three years I think you said, right?
 
@@ -36,7 +36,7 @@ So I started a new program and I tried to find a project for writing something i
 
 **Alexander Neumann:** Yeah, and this is even with all the deduplication at work, and every byte that needs to be deduplicated and needs to be read is accessed at least three or four times. I think one of the main differences between Restic and all the other backup programs is that for Restic the focus is really on the one hand security, but on the other hand speed and usability, because nobody wants backup, everybody wants restore, right? So backup needs to be very fast, because otherwise you are tempted to skip it. If it's too slow or too complicated to do, then you think "Oh no, I'm not gonna do a backup today. Maybe tomorrow, maybe next week", and then your hard drive burns down and all the data is lost.
 
-I think it's very important to make it very easy for users to just run a backup now and then, and not needing to think about it, and how to \[unintelligible 00:04:47.25\] and so on. The program should figure it out, and I can restore my data later - that's the most important thing. And I'm glad you liked it.
+I think it's very important to make it very easy for users to just run a backup now and then, and not needing to think about it, and how do you call this backup and so on. The program should figure it out, and I can restore my data later - that's the most important thing. And I'm glad you liked it.
 
 **Brian Ketelsen:** Well, my GOPATH is 25.1 gigabytes, and the backup locally takes less than a minute and a half, with all the compression...
 
@@ -104,7 +104,7 @@ Somebody even started a Python implementation for the repository format, and so 
 
 I think as a person who ships binary, you should commit that vendor directory if you want to have reproducible builds, and your whole point is to have nice, simple, easy builds for the people who are using Restic, so good job!
 
-**Alexander Neumann:** Thank you! This is actually one of the things that took some time to \[unintelligible 00:08:49.27\] a binary that can be described completely by the GitHub commit ID that is currently checked out in the branch.
+**Alexander Neumann:** Thank you! This is actually one of the things that took some time to create, a binary that can be described completely by the GitHub commit ID that is currently checked out in the branch.
 
 The other thing in Restic that's a bit different from other projects - maybe other projects like Camlistore and Docker already also have that - we have a build script called `build.go`. At the moment you can't install Restic by using `go get`, and some part of that is intentional, because when I'm using `go get`, then I don't have any information when this binary was built and which code exactly was built into the binary, apart from the timestamp of the binary itself. But the build script uses the vendor dependencies and also includes the commit ID or the version number in the final binary and in the GitHub issue template I have this slot for "Please insert the output of Restic version here", and there's everything you need: there's the build timestamp, there's the commit ID, there's the version number, there's the Go version and the operating system and architecture.
 
@@ -250,7 +250,7 @@ Have you tried the _Fuse Mount_ yet?
 
 **Alexander Neumann:** Yeah, this is something like the question earlier regarding support... I had two other instances where people created an issue and said "Oh, something is very strange here." One guy started using Restic and made a backup of this complete laptop, like 200 gigabytes, to S3, something like that. Then he started restoring into the test directory and said "Oh yeah, this works." Then he canceled the restore and reformatted his hard drive. Afterwards he tried to restore the data from S3 and Restic kept telling him "The password is wrong."
 
-Then he created an issue and at first it was like, "If you have mistyped your password, then your data is gone." There's a really good key derivation function that that's the password to \[unintelligible 00:29:11.16\] conversion (it's called Scrypt). It even uses a lot of memory to be hard against custom \[unintelligible 00:29:20.19\] that can crack this... So if you lose your password, then your data is gone for real. I made sure that this is the case. But it turns out that he just had a typo in the S3 buckets pass at the end, so he just had the wrong directory on S3, so the error message could be improved, and I did that afterwards and all his data was safe.
+Then he created an issue and at first it was like, "If you have mistyped your password, then your data is gone." There's a really good key derivation function that that's the password to \[unintelligible 00:29:11.16\] conversion (it's called Scrypt). It even uses a lot of memory to be hard against custom ASICs that can crack this... So if you lose your password, then your data is gone for real. I made sure that this is the case. But it turns out that he just had a typo in the S3 buckets pass at the end, so he just had the wrong directory on S3, so the error message could be improved, and I did that afterwards and all his data was safe.
 
 When I first read this issue when I came home from work and said "Oh, what did I do?! Why did I release software that let people backup their data into a cloud service, and so on?" But the resolution was really good, because he just logged into the S3 console and saw that it was the wrong directory and everything was fine. This was really interesting.
 
@@ -298,7 +298,7 @@ As far as user interface and user experience goes, Restic is good.
 
 **Alexander Neumann:** Yeah, indeed.
 
-**Brian Ketelsen:** But you use [Viper](https://github.com/spf13/viper) for the command line interface now \[unintelligible 00:34:28.18\] Viper is about as good as it gets on the command line side of things in Go.
+**Brian Ketelsen:** But you use [Viper](https://github.com/spf13/viper) for the command line interface now and that helps a lot too, Viper is about as good as it gets on the command line side of things in Go.
 
 **Alexander Neumann:** Yeah, I thought of writing my own framework and then found Viper, and it does all that I need it to do right now. What's missing from Restic at the moment -- no, I think [Cobra](https://github.com/spf13/cobra) is the CLI framework and Viper is the configuration framework.
 
@@ -312,7 +312,7 @@ As far as user interface and user experience goes, Restic is good.
 
 **Erik St. Martin:** What would happen if somebody changed their key in the middle of a backup? Just thinking of things that could go wrong with config files...
 
-**Alexander Neumann:** Yeah, this is an interesting question. What I was talking about was like a local configuration file where you say like "Oh, this is my backend, this is my exclude list for this directory" and so on. When you change the key, in Restic there is only just two keys for one repository. Whenever you initiate a new repository, then Restic randomly generates an encryption key and a sign in key, and that's it. Those are just symmetric keys for AES and \[unintelligible 00:35:56.00\] this is the Mac algorithm. These two keys are encrypted with a key derived from your password.
+**Alexander Neumann:** Yeah, this is an interesting question. What I was talking about was like a local configuration file where you say like "Oh, this is my backend, this is my exclude list for this directory" and so on. When you change the key, in Restic there is only just two keys for one repository. Whenever you initiate a new repository, then Restic randomly generates an encryption key and a sign in key, and that's it. Those are just symmetric keys for AES and poly1305 this is the Mac algorithm. These two keys are encrypted with a key derived from your password.
 
 It's especially important - the password is independent of the key. You can change your password and still access the old data that has been saved in the repo weeks before. So there is no key that you can change.
 
@@ -332,7 +332,7 @@ For example, I would like to support compression, because at the moment, when th
 
 Other parts of the project - we have a huge list of things that need to be reworked. It's the same, I think, with every non-trivial program. One of the things is that some operations for Restic are not so fast as they could be, and mainly this is a problem that we don't cache any data locally. Restic does not have any local states; all the state is in the repository.
 
-Some operations, like the prune operation - which goes through the list of all the blobs and looks for blobs that are not in use anymore but are not referenced anymore, and this is very time-consuming because it \[unintelligible 00:40:08.10\] tree structures in JSON and requests all the trees from the repository... So this is something that needs to be done every once in a while and it's really slow, so this is something that I would like to tackle and improve a lot.
+Some operations, like the prune operation - which goes through the list of all the blobs and looks for blobs that are not in use anymore but are not referenced anymore, and this is very time-consuming because it traverses all the tree structures in JSON and requests all the trees from the repository... So this is something that needs to be done every once in a while and it's really slow, so this is something that I would like to tackle and improve a lot.
 
 I have many ideas which can also be made better, but this is the case with all the open source programs out there, I think.
 
@@ -424,7 +424,7 @@ That's crazy how much stuff has passed that we didn't get a chance to talk about
 
 **Alexander Neumann:** It's an interactive input thingy. You can have a list of lines, pipe it into [rofi](https://github.com/DaveDavenport/rofi/); it displays an interactive list where you can select an entry, for example by typing in one of the characters that is in there, select the entry, and it will spew out this line to stand it out, and you can use it for all kinds of shell scripts. I'm using it for all my stuff at work, and that's really awesome.
 
-And there is another shell script called [rofi-pass](https://github.com/carnager/rofi-pass), which uses the password stored at Orc password manager. It's a really nice thing in itself, it uses GPG for example, and it uses rofi and pass to do interactive password logins. It can do all kinds of things, like in the password store you can have a user field and a password field and then you can go to some websites, have a shortcut for rofi-pass \[unintelligible 00:48:58.29\] the name of the website and it can enter "Here's the name and the password and a tap character in between, so I don't need to do anything, I don't need to copy or paste any username or password." It's awesome.
+And there is another shell script called [rofi-pass](https://github.com/carnager/rofi-pass), which uses the password stored at Orc password manager. It's a really nice thing in itself, it uses GPG for example, and it uses rofi and pass to do interactive password logins. It can do all kinds of things, like in the password store you can have a user field and a password field and then you can go to some websites, have a shortcut for rofi-pass it queries for the name of the website and it can enter "Here's the name and the password and a tap character in between, so I don't need to do anything, I don't need to copy or paste any username or password." It's awesome.
 
 **Ashley McNamara:** You guys can't see this, but in the notes - and I'm assuming this is from Brian, it's all caps - it says "WHAT?! ROFI-PASS? OMG!"
 
