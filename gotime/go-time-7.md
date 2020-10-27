@@ -20,7 +20,7 @@ Part of going from this single-raise app to all those distributed services, we f
 
 As you probably know, once an API is alive it's almost impossible to change it. Once you have customers that start using it or once your internal services rely on it, then that API is gonna be there forever. So it is very important that you spend the time designing it properly.
 
-When we looked at what was available to do that, there just wasn't much. There were a few tools here and there, but nothing that we felt would be enough for us. So we ended up creating a framework at the time \[unintelligible 00:02:53.10\] in Ruby called [Praxis](http://praxis-framework.io), that basically allowed you to write the design code and then the framework would leverage the design in runtime.
+When we looked at what was available to do that, there just wasn't much. There were a few tools here and there, but nothing that we felt would be enough for us. So we ended up creating a framework at the time, a framework in Ruby called [Praxis](http://praxis-framework.io), that basically allowed you to write the design code and then the framework would leverage the design in runtime.
 
 Going fast forward, RightScale kind of shifted towards Go, and I thought it will be good to see if we could do something like that in Go. To be honest, I wasn't sure initially that will be possible. We played around with a few things, and it took me about a year really to come up with something that started to look like it may work. There two big a-ha moments in that kind of research phase. One was the realization that code generation was the perfect approach for achieving the goal of keeping the design and implementation separate. We were making sure that the design is directly enforced.
 
@@ -50,7 +50,7 @@ GoAgent also generates documentation in the form of Swagger and JSON schema so t
 
 **Raphael Simon:** Yeah, so there has been a few comments on the repo on GitHub of people trying to make it look more like Go, but then I'm always very... I kind of have a hard line, saying "This is not Go, it's a DSL. It's a different language. It's implemented in Go, but it's not Go." So for example one thing that you sort of have to do when use DSL is use .imports, and there are a lot of people who don't like that. And I agree, I don't think that imports are good either. I think if you write Go code, you shouldn't use them and nothing else in Go uses that, but for the purpose of implementing a DSL, that ends up making the whole thing a lot nicer, feel a lot more natural. So there is a little bit of that pushback, but then my response is "Well, this is not Go and I'm not trying for DSL to be idiomatic Go because it's not Go in the first place."
 
-\[00:11:47.03\] You should think about it, some of the target outputs for the DSL is documentation. There is also a JavaScript client that you can generate from that DSL. And in the future there can be \[unintelligible 00:12:02.00\] written to generate clients in other languages. So if the language has to be agnostic, it has to remain independent of any target that it generates, and sure Go is the main target for sure, but still a language should try to remain as agnostic as possible.
+\[00:11:47.03\] You should think about it, some of the target outputs for the DSL is documentation. There is also a JavaScript client that you can generate from that DSL. And in the future there can be pretty easily written to generate clients in other languages. So if the language has to be agnostic, it has to remain independent of any target that it generates, and sure Go is the main target for sure, but still a language should try to remain as agnostic as possible.
 
 **Erik St. Martin:** Right. So people just need to disconnect a little better, right? It's kind of like JRPC; the DSL is essentially the protobufs, and then the generator generates from that, and yours just happens to be...
 
@@ -96,7 +96,7 @@ So one of the code generation principals behind Goa is that user code and genera
 
 I mean, basically the idea is if you change your design and you add - let's say you add a new field to a request payload, you regenerate your code, all that means is now your context subject has a new field and you can use it, and you don't have to worry about anything else.
 
-Obviously, there are cases where the interface may break. They may change between different tools, but in that case it should be clear, it should be you moving from 1.0 to 2.0, and you're doing that \[unintelligible 00:21:22.06\] It shouldn't be something that is a side effect.
+Obviously, there are cases where the interface may break. They may change between different tools, but in that case it should be clear, it should be you moving from 1.0 to 2.0, and you're doing that consciously. It shouldn't be something that is a side effect.
 
 So I've been very careful about that, because in the past I've had experience with CORBA, IDL, MIDL, and it was always really painful whenever the generate code mixed with user code. Because now what do you do? Do you test the whole thing? Do you now own the generated code? Do you need to test it, to maintain it? And then you're running into the issues of lifecycle when you change the source, then you need to change the code... Sometimes some MIDL generators would put markers and comments in your file, and then they would find those markers and change the coding between, and you're not supposed to change that.
 
@@ -178,7 +178,7 @@ And now for moving on for the next, 2.0, I think there's a couple of interesting
 
 And another interesting space is making the DSL engine a bit more flexible. So today we've mentioned it's possible to write plugins, and plugins can define their own DSL and/or they can define their own output. But it's a bit more difficult if you want an output from one plugin to affect the output of another plugin, or a built-in generator. An example of that would be, what if you wanted to write a security plugin, and there would be some DSL that you can put in your API description that says, "Hey, if you need to call this action then this the authorization middle way that you need to go through."
 
-If you wanted to do that today, it would be a bit difficult because you couldn't modify the output generated by the built-in generator for the \[unintelligible 00:38:11.07\] HTTP server glue. I think that's another interesting dimension to look at in terms of trying to make Goa a bit more open and have more people being able to contribute more plugins to it. So this is also something I'm thinking about.
+If you wanted to do that today, it would be a bit difficult because you couldn't modify the output generated by the built-in generator for the low level HTTP server glue. I think that's another interesting dimension to look at in terms of trying to make Goa a bit more open and have more people being able to contribute more plugins to it. So this is also something I'm thinking about.
 
 **Erik St. Martin:** This is great. I guess if anybody wants to keep up with or investigate Goa, [goa.design](https://goa.design) is probably the best place. The GitHub link's there.
 
@@ -280,7 +280,7 @@ There are a bunch of new features that are very interesting, very useful. I'm ju
 
 \[00:51:39.29\] And something else I wanted mention - it's not a project, but I wanted to give a shout out to other companies that let their own employees develop open source projects, because it takes time, and we all going to have to make a living, and at the end of the day the companies that allow their employees to develop open source projects are really enablers and I think we need to thank them for that.
 
-And I'm thankful for \[unintelligible 00:52:10.18\] obviously with Goa, but I was also thinking about JP Robinson at New York Times doing Gizmo... I mean, there are many, many examples of people that work in the industry and where their company actually pays them to develop open source projects. I think that's awesome.
+And I'm thankful for RightScale obviously with Goa, but I was also thinking about JP Robinson at New York Times doing Gizmo... I mean, there are many, many examples of people that work in the industry and where their company actually pays them to develop open source projects. I think that's awesome.
 
 **Erik St. Martin:** And I actually get to cheat because we got to just talk about the Netflix post and RocksDB, and I love RocksDB, so I'm going to give a shout out to them. \[laughter\]
 
