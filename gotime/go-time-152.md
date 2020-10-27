@@ -190,7 +190,7 @@ So how do we create new interactions, how do we create some interactions to get 
 
 **Mark Bates:** Gopher Time.
 
-**Mat Ryer:** Mark doesn't listen to the show. \[laughter\] It's not his cup of tea
+**Mat Ryer:** Mark doesn't listen to the show. \[laughter\] It's not his cup of tea.
 
 **Mark Bates:** I thought we were on the Rust Podcast for the first 15 minutes, to be honest... So who am I to judge? I thought I came in late to that podcast. So every year we do the GopherCon band, which is for me, one of my highlights; I just love it. We get all these fun people together, and we all get up on stage, we're playing music, and usually there's a big party... And again, talk about Heather going above and beyond last year in San Diego - we had the GopherCon band and the party on the deck of a battleship. It was a -- what do you call that?
 
@@ -306,7 +306,7 @@ So after that, we take roughly the top third of submissions that are rated, and 
 
 **Mark Bates:** Yeah, what a terrible British joke...
 
-**Mat Ryer:** Oh, yeah... Well, I had a message from -- I think his name is Gram Orsinium which does sound like a precious metal from the periodic table... And he was saying that he came from Python to Go, and the community there has initiatives like PyLadies, and Django Girls, and things that focus on diversity and making sure that opportunities are open to everyone... This is something that I remember hearing from that very first GopherCon. There was a big emphasis on making sure that people that otherwise wouldn't be represented at conferences did get represented. So where did that come from, Erik, and how effective has it been to have that sort of focus?
+**Mat Ryer:** Oh, yeah... Well, I had a message from -- I think his name is Gram Orsinium, which does sound like a precious metal from the periodic table... And he was saying that he came from Python to Go, and the community there has initiatives like PyLadies, and Django Girls, and things that focus on diversity and making sure that opportunities are open to everyone... This is something that I remember hearing from that very first GopherCon. There was a big emphasis on making sure that people that otherwise wouldn't be represented at conferences did get represented. So where did that come from, Erik, and how effective has it been to have that sort of focus?
 
 **Erik St. Martin:** I think that came from just basic human decency... We all need to do a better job at this, right? So I actually kind of would like to take this opportunity -- I know that we do a lot for diversity initiatives, and it's something that's very important to us... But I also don't wanna take this opportunity to pat ourselves on the back either, because I think as a conference, we still have a lot more that we can do, and I think even as a tech community we have even more that we still need to do. So I think that we need to keep iterating, we need to keep getting better about this, and I think we need to keep making it a priority.
 
