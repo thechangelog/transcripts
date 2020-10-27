@@ -32,7 +32,7 @@ We also wanted to have some sort of performance, because the service that I work
 
 **Scott Mansfield:** \[00:03:58.14\] So there is actually a new version of the Chaos Monkey coming out. It's not open source yet, but the whole backend of the Chaos Monkey has been rewritten in Go, and it's actually in production right now, striking fear into everybody's hearts here. I actually spoke to the developer before this to get some reasoning, and partly it was because Go itself is so easy to learn that he's not worried about people coming in and working on his code later. The old codebase was actually such a mess that people were afraid of changing it, so now he's rewritten it in Go.
 
-**Erik St. Martin:** That's awesome, because until now I love everything Go does, and now it's wreaking chaos on my system \[unintelligible 00:04:45.19\] \[laughter\] It is now both evil and good.
+**Erik St. Martin:** That's awesome, because until now I love everything Go does, and now it's wreaking chaos on my system right? \[laughter\] It is now both evil and good.
 
 **Carlisia Pinto:** I wanted to ask you, with the project, the Rend library being so in need of performance... Did you apply specific techniques, did you apply any design concepts, did you use specific libraries to make it as performant as possible? Or did you just apply good Go idioms and it came out performing well and that was it?
 
@@ -70,7 +70,7 @@ As a part of that now, Rend is the on-box memcached proxy that does... It's a wi
 
 **Erik St. Martin:** Do you have anything special between the two layers? Did you implement Bloom filters or anything like that to save seeking the data off-disk if it doesn't exist there, the cold data? Or is it almost guaranteed to exist when you're looking for it in memcached, in your particular use case?
 
-**Scott Mansfield:** Not necessarily true. When you do things like \[unintelligible 00:11:08.28\] evacuate a single region and split it between the other regions, you might have a huge number of misses in L1 very quickly. I didn't actually work on the RocksDB part, my teammate \[unintelligible 00:11:23.03\] did a lot of work to make that very efficient. The part that he's reusing is just the protocol parsing, the server loop piece of Rend, but the backend storage is all him, and there's a variety of different ways he's made the storage efficient enough to be able to handle misses like that.
+**Scott Mansfield:** Not necessarily true. When you do things like [Chaos Kong](https://netflixtechblog.com/chaos-engineering-upgraded-878d341f15fa) where we evacuate a single region and split it between the other regions, you might have a huge number of misses in L1 very quickly. I didn't actually work on the RocksDB part, my teammate \[unintelligible 00:11:23.03\] did a lot of work to make that very efficient. The part that he's reusing is just the protocol parsing, the server loop piece of Rend, but the backend storage is all him, and there's a variety of different ways he's made the storage efficient enough to be able to handle misses like that.
 
 **Erik St. Martin:** \[00:11:43.12\] Yeah, RocksDB has been a favorite of mine for a long time. I'm kind of jealous you guys got to build something really cool with it. So walk us through the performance of that. You spoke to having to kind of go against the idioms to get the type of performance that you are, the one-millisecond latency on that. Is there a lot of those that you had to go by? Do you have kind of like a running list of things like that, of reproducible patterns that get to perform some operation in a more performant way than is currently idiomatic?
 
@@ -126,7 +126,7 @@ There's not too many places where I've bucked the trend; I've just tried to avoi
 
 **Erik St. Martin:** Right, or forks. Kind of on a different track here - was it yesterday, or the day before? - I came across another one of your blog posts, which I actually love, which was called How To Block Forever In Go. That was kind of like a list of all the different ways... Are these just things you came across, where people would create deadlocks in code?
 
-**Scott Mansfield:** Not strictly. I think it's still in the Rend code, I have been making a new wait group and then adding one and trying to wait on it so \[unintelligible 00:20:43.22\] and of course, I thought that was a little bit absurd. So a while ago we were talking in the Gopher Slack about this, and I mentioned ways to block forever, and then other people started piling in and adding suggestions and other things, and I thought it was kind of funny, because there was just... I don't know how many are listed here...?
+**Scott Mansfield:** Not strictly. I think it's still in the Rend code, I have been making a new wait group and then adding one and trying to wait on it so it could block forever in my main and of course, I thought that was a little bit absurd. So a while ago we were talking in the Gopher Slack about this, and I mentioned ways to block forever, and then other people started piling in and adding suggestions and other things, and I thought it was kind of funny, because there was just... I don't know how many are listed here...?
 
 **Erik St. Martin:** It was probably ten or more... There was quite a few, and I actually have one that's missing.
 
@@ -288,7 +288,7 @@ Alright, so moving on. What else have we got?
 
 **Erik St. Martin:** I don't think I've seen Iris... So what's the spirit of it? Is it like closer to a Revel, is it closer to a Martini, or a Negroni?
 
-**Carlisia Pinto:** Yes, so HttpRouter... He actually has a graph here that he benchmarked - I'm assuming it's a he - the Iris package with HttpRouter, GorillaMux, Gin, Beego, Martini, \[unintelligible 00:35:27.26\] and other ones that I've never heard of. And he claims that it's twenty times faster. I learned of it from \[unintelligible 00:35:36.16\] when he did one of the remote Go meetups and he said that he uses it and he loves it.
+**Carlisia Pinto:** Yes, so HttpRouter... He actually has a graph here that he benchmarked - I'm assuming it's a he - the Iris package with HttpRouter, GorillaMux, Gin, Beego, Martini, the standard lib package and other ones that I've never heard of. And he claims that it's twenty times faster. I learned of it from \[unintelligible 00:35:36.16\] when he did one of the remote Go meetups and he said that he uses it and he loves it.
 
 I haven't used it, but anything that says "I'm 20 times faster" calls my attention.
 
