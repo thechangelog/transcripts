@@ -78,7 +78,7 @@ But for the kids, for them to understand - which we all just waved at Nick's dau
 
 **Nick Nisi:** Yeah, that is a challenge. If you hear kids in the background, it's because I have no choice right now. They can't go anywhere, I can't go anywhere... \[laughter\] But we're all having fun together. I'm wearing Spiderman pajamas, she's wearing Spiderman pajamas, so... You know, we're having fun.
 
-**Kevin Ball:** Yeah. And once again, many folks who are being thrust right now into working from home, at the last minute, no ability to prepare or do anything like that... I've seen some pretty inventive setups. I saw somebody set up a standing desk where they had a cardboard area supported by \[unintelligible 00:12:04.11\] or something like that, and various other things... Like, you can be inventive; circumstances are less than ideal.
+**Kevin Ball:** Yeah. And once again, many folks who are being thrust right now into working from home, at the last minute, no ability to prepare or do anything like that... I've seen some pretty inventive setups. I saw somebody set up a standing desk where they had a cardboard area supported by LaCroixs or something like that, and various other things... Like, you can be inventive; circumstances are less than ideal.
 
 \[00:12:14.02\] If you're working from home because of an emergency like this, you can't go and build yourself a new room, like Jerod did, but you can think about how do you create that space, and at least a little bit of mental separation as much as possible.
 
@@ -128,7 +128,7 @@ Anybody have any specific pics, or hardware, or anything in their space?
 
 **Jerod Santo:** I love that.
 
-**Suz Hinton:** For me, I like to warm up a space aesthetically... And expanding on that, what I mean is just having things that doesn't make it look like your room is very clinical. Because you're in your own space, you can actually be a bit more creative than perhaps you're allowed to be in an office... So even just things like a cork board - is that what you call it in America? Like a pinboard... And I put little knick-knacks and Polaroid photos and things up there, as well as the cheatsheet for \[unintelligible 00:20:08.22\] and things like that, that I constantly refer to. That makes me really happy.
+**Suz Hinton:** For me, I like to warm up a space aesthetically... And expanding on that, what I mean is just having things that doesn't make it look like your room is very clinical. Because you're in your own space, you can actually be a bit more creative than perhaps you're allowed to be in an office... So even just things like a cork board - is that what you call it in America? Like a pinboard... And I put little knick-knacks and Polaroid photos and things up there, as well as the cheatsheet for OpenSCAD and things like that, that I constantly refer to. That makes me really happy.
 
 \[00:20:15.02\] And as far as being able to just cover walls with things, especially if you're in a rental - I have a giant tapestry, which is just like a piece of cotton with a printed design on it that I got from Society6. It's pinned with two thumbtacks. Sorry, I'm trying to internationalize how I'm describing these items...
 
@@ -322,11 +322,11 @@ When I reevaluated balance to be a dynamic tension, it got me thinking about "Ok
 
 **Jerod Santo:** Whaaaat...?!
 
-**Suz Hinton:** And that is the worst timing for a game \[unintelligible 00:50:13.02\] like that... And I'm so disappointed, because I was going to play locally with someone on their island, and now I can't.
+**Suz Hinton:** And that is the worst timing for a game mechanic like that... And I'm so disappointed, because I was going to play locally with someone on their island, and now I can't.
 
 **Jerod Santo:** That sucks...
 
-**Suz Hinton:** Nintendo, please fix this, just for us. I realize that, as a programmer, that is asking for the world. It's like, "Just completely reprogram a whole new dynamic into the game and launch it next week. Cool. Thanks." But yeah, I'm so sad, because I think that online community is now more important than ever, and having something exciting like that to kind of end your day with - it's like, "Okay, it's time for Animal Crossing now." That's \[unintelligible 00:50:46.08\].
+**Suz Hinton:** Nintendo, please fix this, just for us. I realize that, as a programmer, that is asking for the world. It's like, "Just completely reprogram a whole new dynamic into the game and launch it next week. Cool. Thanks." But yeah, I'm so sad, because I think that online community is now more important than ever, and having something exciting like that to kind of end your day with - it's like, "Okay, it's time for Animal Crossing now." That's kind of put a damper on things for me a bit.
 
 **Jerod Santo:** Sad, but true. But let's turn now to some additional resources. Of course, we're not the end all be all talkers about this subject. As I mentioned, Go Time also giving their insights, people from around the web are sharing tips and tricks, advice, their thoughts... So there's lots of other things out there, and other people to listen to and to communicate with about this thing that we're all kind of going through right now... So we thought we'd share a few resources here, as we tail off this show, that you can follow up with.
 
@@ -356,7 +356,7 @@ So I think that those three books are particularly relevant. There's the work, b
 
 **Break:** \[00:56:24.17\]
 
-**Suz Hinton:** There might be a bit of background noise... \[unintelligible 00:57:18.16\] is just absolutely blooming right now, so there's a lot of gas-powered landscaping going on.
+**Suz Hinton:** There might be a bit of background noise... Queen Anne is just absolutely blooming right now, so there's a lot of gas-powered landscaping going on.
 
 **Jerod Santo:** I can't hear it from where I'm standing, so...
 
@@ -384,7 +384,7 @@ So I think that those three books are particularly relevant. There's the work, b
 
 **Suz Hinton:** I really love some Australian words, and I didn't realize how colloquial they were until I moved here, which was really great. Whipper-snipper is one that Americans absolutely love. It's just like a universal joy-bringing word.
 
-**Jerod Santo:** It is. Well, we say whipper-snappers, or at least in Nebraska... My parents used to say whipper-snappers. And that is like \[unintelligible 00:58:16.16\] little kids, like "Ah, those little whipper-snappers...", like when they're causing trouble... I don't know where that comes from, but whipper-snipper is --
+**Jerod Santo:** It is. Well, we say whipper-snappers, or at least in Nebraska... My parents used to say whipper-snappers. And that is like darnit little kids, like "Ah, those little whipper-snappers...", like when they're causing trouble... I don't know where that comes from, but whipper-snipper is --
 
 **Nick Nisi:** I've heard that, too.
 
