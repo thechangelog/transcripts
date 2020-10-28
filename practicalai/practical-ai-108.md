@@ -32,7 +32,7 @@ So that resulted in my getting admitted to UT Austin, under professor Joydeep Gh
 
 **Chris Benson:** No... Sadly, I was there with you. It's not cool anymore.
 
-**Suju Rajan:** It's not \[unintelligible 00:06:41.00\]
+**Suju Rajan:** It's not cool.
 
 **Chris Benson:** They make fun of us.
 
@@ -48,7 +48,7 @@ So that resulted in my getting admitted to UT Austin, under professor Joydeep Gh
 
 **Daniel Whitenack:** Exactly. \[laughter\]
 
-**Suju Rajan:** So at UT Austin - again, it was a very interesting application. It was to analyze satellite images, and it was very hard to get labeled data for these images. So you would have these \[unintelligible 00:07:16.00\] in Botswana and all of those places, and you had to identify what was the sort of vegetation that grows.
+**Suju Rajan:** So at UT Austin - again, it was a very interesting application. It was to analyze satellite images, and it was very hard to get labeled data for these images. So you would have these marshy lands in Botswana and all of those places, and you had to identify what was the sort of vegetation that grows.
 
 **Daniel Whitenack:** Interesting.
 
@@ -56,17 +56,17 @@ So that resulted in my getting admitted to UT Austin, under professor Joydeep Gh
 
 **Daniel Whitenack:** Talk about annotation \[unintelligible 00:07:36.22\]
 
-**Suju Rajan:** Seriously, right? \[laughter\] No mechanical \[unintelligible 00:07:42.01\] fly out to Botswana. But over there, my thesis was on knowledge transfer, because you kind of wanted to learn from seasonal data to some extent, so you can extrapolate to satellite images in the future. Also, from related geographic regions as well... Basically, to bring down the cost of annotation, while maintaining good performance. So that was what I did; I had a very fun time.
+**Suju Rajan:** Seriously, right? \[laughter\] No mechanical turkers to fly out to Botswana. But over there, my thesis was on knowledge transfer, because you kind of wanted to learn from seasonal data to some extent, so you can extrapolate to satellite images in the future. Also, from related geographic regions as well... Basically, to bring down the cost of annotation, while maintaining good performance. So that was what I did; I had a very fun time.
 
 \[00:08:08.08\] I converted into an internship at Yahoo. Yahoo Labs, Yahoo Research, lots of different names... But it was a fantastic nine years as an individual contributor/applied machine learning scientist, call it what you will, but got to work on a whole bunch of different machine learning applications, and I think it was right at the point where ML was kind of taking off, big data was taking off. MapReduce was starting to come in, but when I started we didn't have it yet. In the beginning it was still all of the single models that you would build to build classifiers, better keyword clustering for sponsored search, targeting for advertisements and whatnot. So I had a lot of fun.
 
-Eventually, it became larger and larger data, and we had to do news clustering within a few hundred milliseconds, and so on and so forth. We had to have all of these models \[unintelligible 00:08:57.12\] to be able to figure out if someone's going to convert for an ad, or read a news article, and so on. So I had a lot of fun doing that.
+Eventually, it became larger and larger data, and we had to do news clustering within a few hundred milliseconds, and so on and so forth. We had to have all of these models that were tens of twenties milliseconds to be able to figure out if someone's going to convert for an ad, or read a news article, and so on. So I had a lot of fun doing that.
 
 I eventually switched into managing a group that worked on, again, personalization across a whole bunch of Yahoo products. This was on the apps, on video recommendation, news recommendation... I really got a good sense for what would work as a consumer-facing machine learning product; how do we measure interactions... Following which I went to Criteo, where I headed the Criteo AI lab. This was my full deep dive into computational advertising.
 
 Now, if you talk to anyone about machine learning for advertising, they immediately think of CTR prediction... And hey, it's kind of done, it's sort of already there; there's nothing interesting going on in that space... But given the amount of money that is spent on advertising, there is a lot more that's got to do with the causality of the models, because the people who are funding these campaigns want to know that something useful is coming for that money that they are spending... So how do we show that our models actually work was an interesting phenomenon.
 
-And more than anything else, I was working at this company which was sort of like a demand-side platform... So you're kind of listening to all of these publishers who want to put ads on their different pages, and you have all these advertisers that you're synchronizing with... But if you ever had a deep dive into that world, there are so many players; there's this waterfall model that they have. The first party publishes \[unintelligible 00:10:37.13\] If they cannot do it, then it goes to the exchanges, and so on and so forth. But all of that entails a very, very, very tiny window in which you need to make that bid, and then assemble the ad unit to be shown, and so on and so forth.
+And more than anything else, I was working at this company which was sort of like a demand-side platform... So you're kind of listening to all of these publishers who want to put ads on their different pages, and you have all these advertisers that you're synchronizing with... But if you ever had a deep dive into that world, there are so many players; there's this waterfall model that they have. The first party publishes the first dibs. If they cannot do it, then it goes to the exchanges, and so on and so forth. But all of that entails a very, very, very tiny window in which you need to make that bid, and then assemble the ad unit to be shown, and so on and so forth.
 
 So it was a very interesting time, where I learned quite a bit about the real-world constraints. It's not as much about the technical complexity of the model, but hey, can it work in this specific constraints, in terms of the latency in which you have to operate.
 
