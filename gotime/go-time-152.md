@@ -190,7 +190,7 @@ So how do we create new interactions, how do we create some interactions to get 
 
 **Mark Bates:** Gopher Time.
 
-**Mat Ryer:** Mark doesn't listen to the show. \[laughter\] \[unintelligible 00:23:01.11\]
+**Mat Ryer:** Mark doesn't listen to the show. \[laughter\] It's not his cup of tea.
 
 **Mark Bates:** I thought we were on the Rust Podcast for the first 15 minutes, to be honest... So who am I to judge? I thought I came in late to that podcast. So every year we do the GopherCon band, which is for me, one of my highlights; I just love it. We get all these fun people together, and we all get up on stage, we're playing music, and usually there's a big party... And again, talk about Heather going above and beyond last year in San Diego - we had the GopherCon band and the party on the deck of a battleship. It was a -- what do you call that?
 
@@ -242,7 +242,7 @@ Like I said, we're trying to use that Go line-up on the side of the stage, by th
 
 **Erik St. Martin:** Basically, you submit the proposal, and it's wiped of any personal data. We don't know who you are, or anything about you... And there's a series of reviewers who will review it based on its technical merit... So if you are submitting a proposal, you have to remember that. Somebody - the only thing they know about you and your content and your knowledge on that subject is what you give us. If you give us three sentences that says "I'm going to talk about Buffalo", or whatever... I'm gonna just keep picking on Buffalo today.
 
-**Mark Bates:** \[00:28:08.17\] Um, excuse me, that was an exact submission from this \[unintelligible 00:28:08.00\] Almost verbatim. I don't appreciate your breaking my anonymity here.
+**Mark Bates:** \[00:28:08.17\] Um, excuse me, that was an exact submission from this year. Almost verbatim. I don't appreciate your breaking my anonymity here.
 
 **Erik St. Martin:** So you're gonna end up with a bunch of people who are like "Well, I don't know. I don't know whether they're gonna be able to write good content about this, I don't know how well they know the subject matter... And it's gonna get rated poorly." So I think it's important to make sure that somebody who knows nothing about you or anything would be able to read that and gauge how well you're going to be able to present this topic.
 
@@ -306,7 +306,7 @@ So after that, we take roughly the top third of submissions that are rated, and 
 
 **Mark Bates:** Yeah, what a terrible British joke...
 
-**Mat Ryer:** Oh, yeah... Well, I had a message from -- I think his name is Graham \[unintelligible 00:34:35.18\] which does sound like a precious metal from the periodic table... And he was saying that he came from Python to Go, and the community there has initiatives like PyLadies, and Django Girls, and things that focus on diversity and making sure that opportunities are open to everyone... This is something that I remember hearing from that very first GopherCon. There was a big emphasis on making sure that people that otherwise wouldn't be represented at conferences did get represented. So where did that come from, Erik, and how effective has it been to have that sort of focus?
+**Mat Ryer:** Oh, yeah... Well, I had a message from -- I think his name is Gram Orsinium, which does sound like a precious metal from the periodic table... And he was saying that he came from Python to Go, and the community there has initiatives like PyLadies, and Django Girls, and things that focus on diversity and making sure that opportunities are open to everyone... This is something that I remember hearing from that very first GopherCon. There was a big emphasis on making sure that people that otherwise wouldn't be represented at conferences did get represented. So where did that come from, Erik, and how effective has it been to have that sort of focus?
 
 **Erik St. Martin:** I think that came from just basic human decency... We all need to do a better job at this, right? So I actually kind of would like to take this opportunity -- I know that we do a lot for diversity initiatives, and it's something that's very important to us... But I also don't wanna take this opportunity to pat ourselves on the back either, because I think as a conference, we still have a lot more that we can do, and I think even as a tech community we have even more that we still need to do. So I think that we need to keep iterating, we need to keep getting better about this, and I think we need to keep making it a priority.
 
@@ -350,7 +350,7 @@ If the people at the top, whether that be the people on the language team itself
 
 **Mat Ryer:** \[00:40:14.03\] That last question though, it's -- so obviously he knows something... Do you know what I mean? It's like when a really bad TV interviewer says "So, did anything happen to you on the way to the studio?" \[laughter\]
 
-**Erik St. Martin:** You all can -- because we're on a Zoom call, and anybody who's watching this on Twitch can see behind me; I've got like an Electronics \[unintelligible 00:40:31.21\] back here... So Rust is something I've been wanting to learn, to do some embedded stuff on here... But we've had some projects at work kick up, that use Rust. One of those is a Kubernetes node agent that basically pretends to be a node in the cluster, and orchestrates Web Assembly to host, and stuff like that.
+**Erik St. Martin:** You all can -- because we're on a Zoom call, and anybody who's watching this on Twitch can see behind me; I've got like an Electronics desk back here... So Rust is something I've been wanting to learn, to do some embedded stuff on here... But we've had some projects at work kick up, that use Rust. One of those is a Kubernetes node agent that basically pretends to be a node in the cluster, and orchestrates Web Assembly to host, and stuff like that.
 
 **Mat Ryer:** Sorry, you've broken my brain.
 
@@ -424,7 +424,7 @@ But looking at what they do for error handling, I really like that. Obviously, g
 
 **Erik St. Martin:** I probably have a lot of them... Which ones are appropriate to say on...
 
-**Mark Bates:** Yeah, I'm in the exact same \[unintelligible 00:51:54.22\]
+**Mark Bates:** Yeah, I'm in the exact same boat.
 
 **Erik St. Martin:** ...on a medium that's going to exist forever? Yeah, I've got a few of them... Tech-wise, full-stack developers are a myth. I think that you can find people who can do all of this stuff, but -- I used to be a senior web developer, and a junior backend developer. Now I'm a principal backend developer and a junior web developer. It's really hard to stay up on all of these topics; so as you evolve in one, you're naturally gonna fall off in others. So I think it's important to -- you may be able to operate on all levels of a stack, but you're not the same level at all levels of the stack; and if you are, you're an amazing human being, and you deserve all of the money.
 
@@ -470,7 +470,7 @@ But looking at what they do for error handling, I really like that. Obviously, g
 
 **Erik St. Martin:** I'm pretty sure that's unamerican.
 
-**Mat Ryer:** Yeah, it might be \[unintelligible 00:55:12.26\]
+**Mat Ryer:** Yeah, it might be treason.
 
 **Mark Bates:** It's alright... I'll take sausage over bacon any day.
 
@@ -520,7 +520,7 @@ But looking at what they do for error handling, I really like that. Obviously, g
 
 **Mat Ryer:** We'll see. You'll have to wait and find out.
 
-**Mark Bates:** A new car? A years' worth of Turtle \[unintelligible 00:57:11.05\] something like that?
+**Mark Bates:** A new car? A years' worth of Turtle wax, something like that?
 
 **Mat Ryer:** Yeah, they sound like great gifts.
 
