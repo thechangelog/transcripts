@@ -36,7 +36,7 @@ After the talk, someone told me about having a YAML loader, because there are a 
 
 **Vladimir de Turckheim:** So it will be used in productions at least for APMs, because it will be the only way to intercept loading modules. So that's definitely a business need for APMs. Regarding transformations - yes. I mean, the TypeScript transformation - I would recommend having a build step. But if you want to load other things, like YAML - this is a great example - I don't see any reason why you would not choose that in production when it's stable.
 
-The only potentially \[unintelligible 00:06:02.15\] in the future is that "How do you compose multiple loader hooks?" We know that the JavaScript ecosystem is really strong in having entropy and diverse things in the ecosystem... So I hope that will be soon a standard for people to play along, and not to step on each other's feet when loading modules.
+The only potentially issue in the future is that "How do you compose multiple loader hooks?" We know that the JavaScript ecosystem is really strong in having entropy and diverse things in the ecosystem... So I hope that will be soon a standard for people to play along, and not to step on each other's feet when loading modules.
 
 **Nick Nisi:** Very cool. So you can only use one loader at a time, is that right?
 
@@ -44,7 +44,7 @@ The only potentially \[unintelligible 00:06:02.15\] in the future is that "How d
 
 **Nick Nisi:** Okay. Another example that you gave in your talk yesterday was mocking, or stubbing modules by changing them, and you were using a proxy. Do you wanna describe that a little bit for our listeners?
 
-**Vladimir de Turckheim:** Yeah. It was a pretty complex use case... The idea is that, as I told you, you can rewrite the modules dynamically, as they are loaded... So in my example, which is a proof of concept - please don't choose that, even if it's on GitHub, so I guess it's public domain - what I do is that when a module is loaded, I check everything that is exported, because it's just an array of strings with the names of the things that are exported. And I replace all of the exports by your proxy, which is a native object in JavaScript that enables you to trap everything that happens on an object. So I replace each of these exports by your proxy, and I expose the proxy handler, the definition of how the proxy behaves, to the end user... Meaning that when you load the modules that have been transformed, you also have access to a set of objects that enable you to change the behavior of all of the exports. Of course, to make it smarter, we need \[unintelligible 00:07:43.08\] to change deeper fields, but as a first of anything, it's good enough.
+**Vladimir de Turckheim:** Yeah. It was a pretty complex use case... The idea is that, as I told you, you can rewrite the modules dynamically, as they are loaded... So in my example, which is a proof of concept - please don't choose that, even if it's on GitHub, so I guess it's public domain - what I do is that when a module is loaded, I check everything that is exported, because it's just an array of strings with the names of the things that are exported. And I replace all of the exports by your proxy, which is a native object in JavaScript that enables you to trap everything that happens on an object. So I replace each of these exports by your proxy, and I expose the proxy handler, the definition of how the proxy behaves, to the end user... Meaning that when you load the modules that have been transformed, you also have access to a set of objects that enable you to change the behavior of all of the exports. Of course, to make it smarter, we need better recursivity to change deeper fields, but as a first of anything, it's good enough.
 
 Basically, instead of changing your code to make it easier to test, you would just need to load your code, and then in your test file you will be able to mock by changing the proxies and the behavior of the code, but only for your test file, not for the whole world.
 
@@ -64,7 +64,7 @@ So do you see loader hooks as like the solution for those types of problems in t
 
 **Nick Nisi:** Yeah, definitely. So that really opens up things like -- what was one example... You were fetching something, right?
 
-**Vladimir de Turckheim:** Yeah, I think it's the equivalent of \[unintelligible 00:10:47.15\] of the Go module loading system, where you don't have the package.json. Disclaimer, I love package.json, I just love to do weird stuff to in my free time.
+**Vladimir de Turckheim:** Yeah, I think it's the equivalent of Yarn plug and play of the Go module loading system, where you don't have the package.json. Disclaimer, I love package.json, I just love to do weird stuff to in my free time.
 
 So basically, you would be loading modules from a URL, because it's just plain text at the end of the day, or bytes. And if you have a streamed byte that Node.js knows how to instrument it, whether it's JavaScript or WebAssembly, you just need to find a way to get it locally on your machine, and to give that to Node.js to build a module for.
 
@@ -112,7 +112,7 @@ So she goes to Pioneras, and we only created a meetup, but this meetup really ch
 
 **Nick Nisi:** That's so awesome. What kind of technology does the group focus on?
 
-**Marian Villa:** Our core was Node, because we have a really cool mentors that are here, at this conference. They are really \[unintelligible 00:19:03.14\] from the tech culture in Colombia, because they created different conferences in our country. There was JSConf, I was co-organizer in 2018 and 2017, and I'm very close to this community.
+**Marian Villa:** Our core was Node, because we have a really cool mentors that are here, at this conference. They are really great for the tech culture in Colombia, because they created different conferences in our country. There was JSConf, I was co-organizer in 2018 and 2017, and I'm very close to this community.
 
 Actually, most of them -- I know Node is back-end, but most of them have really strong roots in the JavaScript language. Most of them are front-end developers, but we have really cool \[00:19:35.07\] smart girls doing Node in Colombia.
 
@@ -158,7 +158,7 @@ And the third thing will be food, because we like to share with them some snacks
 
 **Marian Villa:** Yeah. See, we need people to share knowledge. We always know something to share, but perhaps you are always apprentice in life... But we really knowledge and time; time is the most valuable currency that you already have, so if you have the time to share one hour with these young women in Colombia, it would be great.
 
-We need to improve our English skills, because they are really smart, but they need to pass the barrier of the language, and we need to practice our skills. So perhaps \[unintelligible 00:25:49.17\] English skills, I don't know.
+We need to improve our English skills, because they are really smart, but they need to pass the barrier of the language, and we need to practice our skills. So perhaps it will be English skills, I don't know.
 
 **Nick Nisi:** Very good. And was there anything that you didn't mention in your talk, that you want to get out to everyone?
 
