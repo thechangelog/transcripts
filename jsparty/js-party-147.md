@@ -418,7 +418,7 @@
 
 **Jerod Santo:** The truth comes out...
 
-**Mikeal Rogers:** If you have good enough tests in there in Actions, why not.
+**Mikeal Rogers:** If you have good enough tests and they're in Actions, why not.
 
 **Jerod Santo:** Right. Alright, that concludes round two. Team Emma, the -- what's your name, the Assassins?
 
@@ -702,9 +702,9 @@
 
 **Jerod Santo:** \[win sound\] That's the number four answer. Notebook, or pen and paper. I combined those.
 
-**Emma Bostian:** You actually said you were gonna bring your pet skunk, or something... \[laughter\]
+**Emma Bostian:** You act like you said you were gonna bring your pet skunk, or something... \[laughter\]
 
-**Jerod Santo:** I thought you were gonna say rigatoni again. \[laughter\] Okay, that's correct...
+**Jerod Santo:** I thought he was gonna say rigatoni again. \[laughter\] Okay, that's correct! So you're still in it...
 
 **Abenezer Abebe:** Rigatoni... \[laughs\]
 
@@ -716,19 +716,19 @@
 
 **Ali Spittel:** This is so hard. Your own whiteboard? I have no idea. \[fail sound\] \[laughter\] I just really want to get whiteboarded...
 
-**Kevin Ball:** "Your whiteboard is insufficient. I brought mine!"
+**Kevin Ball:** "Your whiteboards are insufficient. I brought mine!"
 
 **Abenezer Abebe:** It's a very different BYOB.
 
 **Jerod Santo:** Yeah, really. Okay, so chance to steal, team Emma.
 
-**Emma Bostian:** Alright, guys, I have ideas. I think it's either something intangible, like confidence, or a smile...
+**Emma Bostian:** Alright, guys, I have ideas. I'm thinking it's either something intangible, like confidence, or a smile...
 
 **Abenezer Abebe:** I was thinking confidence, too.
 
 **Nick Nisi:** I was thinking something like code examples. Printed out... "I printed out my code."
 
-**Emma Bostian:** Yeah, like a coding book, or like... But at the same time, the last time we were pretty certain it was gonna be white noise, and now I'm like "Hm... Maybe it is confidence."
+**Emma Bostian:** Yeah, like a coding book, or like... But at the same time, last time we were pretty certain it was gonna be white noise, and now I'm like "Hm... Maybe it is confidence."
 
 **Abenezer Abebe:** Do frontend developers bring a portfolio? Is that a thing?
 
