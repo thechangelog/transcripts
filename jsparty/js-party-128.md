@@ -122,7 +122,7 @@ But the main kind of takeaway is we're in a similar space to Angular, but we und
 
 **Nick Nisi:** Yeah...
 
-**Matt Gadd:** Yeah, \[unintelligible 00:17:02.05\] Obviously, we provide CLIs for grading, for testing, for building widget libraries, for building applications, obviously we have the bootstrapping for you to start making an app... In terms of the actual framework-level stuff - yes, we've got a state store, we have routing, or rooting, as English people like to call it... We've got obviously internationalization--
+**Matt Gadd:** Yeah, we got an awful lot, Obviously, we provide CLIs for grading, for testing, for building widget libraries, for building applications, obviously we have the bootstrapping for you to start making an app... In terms of the actual framework-level stuff - yes, we've got a state store, we have routing, or rooting, as English people like to call it... We've got obviously internationalization--
 
 **Jerod Santo:** Why do they do that? Come on. Routing.
 
@@ -134,7 +134,7 @@ But the main kind of takeaway is we're in a similar space to Angular, but we und
 
 **Jerod Santo:** Oh, you do? At least that's consistent. Alright, I'm \[unintelligible 00:17:44.25\]
 
-**Matt Gadd:** Yeah, we're consistently wrong alright... \[laughter\] But yeah, so a huge thing again was massive in Dojo 1 - Dojo 1 was one of the first frameworks that really pushed internationalization out of the box, for when you're writing apps. Because when you writing big apps, English isn't the only language that exists in the world. It's a kind of shoehorn in \[unintelligible 00:18:07.05\] terms of support and internationalization, and localization is very difficult.
+**Matt Gadd:** Yeah, we're consistently wrong alright... \[laughter\] But yeah, so a huge thing again was massive in Dojo 1 - Dojo 1 was one of the first frameworks that really pushed internationalization out of the box, for when you're writing apps. Because when you writing big apps, English isn't the only language that exists in the world. It's a kind of shoehorn and it's kind of a second thought in terms of support and internationalization, and localization is very difficult.
 
 So again, in modern Dojo that's a key concept. All of our widgets are internationalizable out of the box, and we provide easy mechanisms to be able to localize and do translations etc. So yeah, that's a huge part. Obviously, our widgets, again - in Dojo 1 we had huge contributions from IBM to make all of the widgets accessible and provide a framework for creating accessible widgets... And then obviously, in modern Dojo we had a really good engineer in Sarah Higley, who went on to -- she's working at Microsoft in accessibility stuff, and she did a lot of work in conceptualizing the modern Dojo widgets with being properly accessible... So that's something we massively care about.
 
@@ -182,7 +182,7 @@ In the past we were kind of manually updating markdown to document what the inte
 
 **Jerod Santo:** What's hyperscript?
 
-**Matt Gadd:** Hyperscript is basically just -- so TSX and JSX are obviously made up XML-like syntax that gets compiled down to (if you're using React) React's \[unintelligible 00:27:39.12\]. Basically, that functional API was what we used before instead of JSX. And we supported TSX and JSX. TSX was always more declarative, and the hyperscript is basically a completely programmatic API. We supported both from day one, but in our reluctance to look too much like Re-- I think there's a strong affiliation with JSX and TSX with React. At the time, obviously, we preferred showing the programmatic API and using it.
+**Matt Gadd:** Hyperscript is basically just -- so TSX and JSX are obviously made up XML-like syntax that gets compiled down to (if you're using React) React's create element. Basically, that functional API was what we used before instead of JSX. And we supported TSX and JSX. TSX was always more declarative, and the hyperscript is basically a completely programmatic API. We supported both from day one, but in our reluctance to look too much like Re-- I think there's a strong affiliation with JSX and TSX with React. At the time, obviously, we preferred showing the programmatic API and using it.
 
 \[00:28:15.06\] There's no functional difference in terms of what actually happened under the hood, but we've slowly over time realized that one of the biggest things about React actually wasn't React, it was about people writing (if you look at it) HTML-like things in a reactive way... So we fully embrace TSX now, in documentation and the rest of it.
 
@@ -222,7 +222,7 @@ And obviously, we've really ramped up the amount of testing we've had to do arou
 
 **Matt Gadd:** That is honestly one of the most difficult parts. Going back to before - I think there's two huge constraints that we have with this. One is TypeScript, like I've mentioned before; when we write APIs, we try and write APIs that work well with TypeScript. Now, that does mean that you do have some constraints on the TypeScript side. So quite a lot of the time really loosely-coupled stuff in TypeScript causes you a problem, because you can't get that type inference. So we design a lot of our APIs with TypeScript in mind, and a lot of our APIs kind of have similar constraints of IE11.
 
-Now, what we won't do is -- early on we did flip that kind of constraint, in that yes, we \[unintelligible 00:34:59.14\] out of the box when Dojo 2 released the legacy bundle was the default way around, if that makes sense... As in, we would ship a legacy bundle to cover that. But over time, we have to be forward-thinking and modern. So there is a lot of design that goes into that in terms of our APIs; the polyfill projects that we've just completed for Dojo 7 - there was a lot of thought there in terms of how we can ship less code to the browser while still supporting IE11. And I think that, like you said, it is a push/pull.
+Now, what we won't do is -- early on we did flip that kind of constraint, in that yes, we were out of the box when Dojo 2 released the legacy bundle was the default way around, if that makes sense... As in, we would ship a legacy bundle to cover that. But over time, we have to be forward-thinking and modern. So there is a lot of design that goes into that in terms of our APIs; the polyfill projects that we've just completed for Dojo 7 - there was a lot of thought there in terms of how we can ship less code to the browser while still supporting IE11. And I think that, like you said, it is a push/pull.
 
 At some point, that still continues even in modern browsers, because of the way that everything's moving a lot quicker nowadays, in terms of people intending to ship things early and frequently in the browsers... But there is still -- when you look at Safari, in terms of how quickly they ship things, for example, I think they only just ship ResizeObservers in their last release or the release before.
 
@@ -254,7 +254,7 @@ The key thing for us is we want you to be able to write tests that are consisten
 
 I think reactive components are kind of a tricky thing to test, because at the end of the day they're a render function, and really the unit of that test is the entirety of that widget, because that's what gets returned, and that's really what a VDOM is about - every time that render function is called, you're effectively returning the entirety of that widget. So testing little bits of it isn't really the correct way to think about it. So kind of what the test renderer in Dojo 7 and in the previous versions - this is just an enhanced version of it.
 
-The approach we've got is we want you to be able to write tests in a partial manner, as in only test the things that you think are changing, but \[unintelligible 00:41:23.06\] the entirety of it. So rather than just \[unintelligible 00:41:30.01\] but still modifying those things in a partial way.
+The approach we've got is we want you to be able to write tests in a partial manner, as in only test the things that you think are changing, but assert the entirety of it. So rather than just asserting partial against the things, asserting against the full thing but still modifying those things in a partial way.
 
 I think we could go massive into depth into testing. I think there's a load of different opinions. We do support multiple styles. We do use Intern as our testing tool in the CLI, and that allows you to write in-browser tests for starters, which I think people have forgotten about. Everyone's very used to Jest and other test runners that just don't work in the browser still, to this day. I do think you can't beat testing something in the environment it's going to run in. And obviously, Intern supports functional tests with Selenium as well, so I think, as always, there's not one right way to write tests; it's a good mixture of low-level and high-level ones.
 
