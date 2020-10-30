@@ -46,7 +46,7 @@ So that's a little bit of my origin story... I'm also a community organizer, pod
 
 **Nick Nisi:** Yeah, I do.
 
-**Amal Hussein:** We did a live interview at a conference, so... \[unintelligible 00:06:18.10\]
+**Amal Hussein:** We did a live interview at a conference, so... we did that too.
 
 **Jerod Santo:** Awesome. So now you're here for good. You're a regular panelist, and we're gonna get to know you even better by asking you random questions, in rapid-fire style, that may or may not have to do with JS... And we'll start with this one - Amal, describe your perfect breakfast.
 
@@ -304,7 +304,7 @@ So I really like it... It's super-clean, super-smooth... There's so many differe
 
 **Divya:** We talked about this...
 
-**Amal Hussein:** Holy crap! Yeah, we did talk about this. That's so funny. I keep forgetting that you \[unintelligible 00:29:01.16\] as well.
+**Amal Hussein:** Holy crap! Yeah, we did talk about this. That's so funny. I keep forgetting that you did game development as well.
 
 **Divya:** Yeah, I do. So I took game development classes. I did it in Unity, hated Unity because I wrote it in Jscript, because I refuse to write C\#... \[laughs\] And sort of dropped that aside. But then I've found this new engine called Godot, and it's open source, which is awesome; I'm all for that.
 
@@ -336,7 +336,7 @@ I think the biggest thing, from reading Reddit posts and stuff, is they're sort 
 
 **Jerod Santo:** Sweet.
 
-**Divya:** ...just because I think it's cool. The art style can be super low-fi, which is really fun... And \[unintelligible 00:30:14.13\] this is another fun tool thing, if anyone's interested... I'm using this tool called Aseprite (link in the show notes) for pixel art. You can use whatever, you can use Illustrator or anything, but Aseprite is a very low-definition tool for pixel art. There is a cost for it, so it's like $5 for the app, but it's free if you download the binary from GitHub and build it yourself... Which I did, because I'm cheap... \[laughs\] Like any other developer, I'm like "I know how to do this", so I pulled it down and I essentially executed the binary, and it runs...
+**Divya:** ...just because I think it's cool. The art style can be super low-fi, which is really fun... And for pixel tools, this is another fun tool thing, if anyone's interested... I'm using this tool called Aseprite (link in the show notes) for pixel art. You can use whatever, you can use Illustrator or anything, but Aseprite is a very low-definition tool for pixel art. There is a cost for it, so it's like $5 for the app, but it's free if you download the binary from GitHub and build it yourself... Which I did, because I'm cheap... \[laughs\] Like any other developer, I'm like "I know how to do this", so I pulled it down and I essentially executed the binary, and it runs...
 
 **Amal Hussein:** You should put it up on DockerHub and make everyone's life easier in the future.
 
