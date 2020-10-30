@@ -84,7 +84,7 @@ Typically speaking, unless you're making bucketloads of money, that's all work t
 
 But then you have Egghead. Egghead is very much also self-directed, but each of these have different payment plans; I don't like "payment plans", that's not the right phrase... Different payment structures, I guess... So yeah, to the point of like passive income -- some companies will actually pay you upfront to work, and then you also make royalties off that... But some companies - you're solely on royalty-based income. So it really just kind of varies... But agreed, the amount of work you put into a course is absurd, and then you also have to update it.
 
-I wanted to just mention a few of my favorite course-makers... To Wes Bos, tangentially, is Scott Tolinski. He's incredible; his Level Up Tutorials site... I have taken so many courses on there, he's a great teacher, but he's always updating it. Tyler McGinnis as well, I loved all his React and JavaScript stuff. \[unintelligible 00:13:10.11\] works really hard... Bianca Gandolfo - I liked her courses over on Frontend Masters as well.
+I wanted to just mention a few of my favorite course-makers... To Wes Bos, tangentially, is Scott Tolinski. He's incredible; his Level Up Tutorials site... I have taken so many courses on there, he's a great teacher, but he's always updating it. Tyler McGinnis as well, I loved all his React and JavaScript stuff. Dave Ceddia works really hard... Bianca Gandolfo - I liked her courses over on Frontend Masters as well.
 
 You can tell great teachers... They make it seem so easy, but when you look at the amount of work they've put into it... It's like "Oh, that's why you're so good at this", right?
 
@@ -220,7 +220,7 @@ A lot of times Chris Biscardi and I - we're working on identical courses, at the
 
 **Break:** \[00:36:32.21\]
 
-**Emma Bostian:** So we've talked a little bit about courses... \[laughter\] I was just saying \[unintelligible 00:38:01.20\] and I totally am losing it... We're gonna talk more about courses. Let's talk about what makes a good course and what differentiates it from the pack.
+**Emma Bostian:** So we've talked a little bit about courses... \[laughter\] I was just saying on the break that I don't know how to english a name and I totally am losing it... We're gonna talk more about courses. Let's talk about what makes a good course and what differentiates it from the pack.
 
 **Jason Lengstorf:** Are we gonna finish this up as Sean Connery? "Differentcheate."
 
@@ -228,7 +228,7 @@ A lot of times Chris Biscardi and I - we're working on identical courses, at the
 
 **Jason Lengstorf:** \[laughs\]
 
-**Emma Bostian:** \[unintelligible 00:38:20.19\]
+**Emma Bostian:** Past 7pm, my motor functions decline
 
 **Kevin Ball:** Well, letch talk about this...
 
@@ -338,7 +338,7 @@ Once again, I'm not saying this to try and discourage people. I think if you hav
 
 So when I read that book, it was at the right time and the right experience level, where the things he was teaching helped drop a lot of knowledge that I had into a slot that was actually useful and applicable, while introducing new concepts that help me think better about architecture and about writing more extendable and maintainable code.
 
-It's such an experiential thing, because I've seen all these other amazing courses; I've learned animation, or I had -- \[unintelligible 00:54:01.20\] did a course on Lambda calculus that is so fantastically well put together, and she's such an amazing teacher... But I don't use Lambda calculus every day, so in terms of the impact that it had on me... Professionally, the impact was low. As an educator, the impact was super-high, because I was like "Man, I wanna be as good as \[unintelligible 00:54:20.12\] at teaching, because she's so fantastic."
+It's such an experiential thing, because I've seen all these other amazing courses; I've learned animation, or I had that Anjana Vakil did a course on Lambda calculus that is so fantastically well put together, and she's such an amazing teacher... But I don't use Lambda calculus every day, so in terms of the impact that it had on me... Professionally, the impact was low. As an educator, the impact was super-high, because I was like "Man, I wanna be as good as Anjana at teaching, because she's so fantastic."
 
 But yeah, I would say in terms of professional impact, that "You Don't Know JavaScript" was probably the most impactful.
 
