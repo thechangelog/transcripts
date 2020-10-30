@@ -32,7 +32,7 @@ Our entry files typically take around 900 milliseconds the first hit. They're st
 
 **Kevin Ball:** ...and then everything else is cached and is just the same as if you'd built it statically ahead.
 
-**Brian Leroux:** \[00:03:56.11\] Yeah. So it's only one hit. What I like about this is it keeps your markup clean, so that your markup is just referencing files that conceptually, logically you have on your file system... But the 302 redirect is doing all the caching smarts for you, and so all the ugly \[unintelligible 00:04:11.10\] are hidden away.
+**Brian Leroux:** \[00:03:56.11\] Yeah. So it's only one hit. What I like about this is it keeps your markup clean, so that your markup is just referencing files that conceptually, logically you have on your file system... But the 302 redirect is doing all the caching smarts for you, and so all the ugly GUIDs are hidden away.
 
 What I don't like about this is that performance penalty, and we're rolling our own caching logic, so... You know, the old joke in computer science is that the hardest problem in computer science is cache invalidation and off-by-1 errors...
 
@@ -238,7 +238,7 @@ What I do like are patterns like Redux, and having a single state atom and being
 
 **Kevin Ball:** ...where you're saying "This is what I want. Make it happen."
 
-**Brian Leroux:** Yes, yes. That's important to me. And there's a little bit of debate about this in the serverless community right now. What everyone can agree on is CloudFormation is verbose and complex and brittle... And some of that \[unintelligible 00:29:49.13\] the fact that it's often written in YAML. So if you have a really large YAML document that's deeply nested, and you miss one space, it's still gonna be valid YAML, but it's not gonna be a valid CloudFormation, and you're gonna have a bad day.
+**Brian Leroux:** Yes, yes. That's important to me. And there's a little bit of debate about this in the serverless community right now. What everyone can agree on is CloudFormation is verbose and complex and brittle... And some of that is downstreaming is the fact that it's often written in YAML. So if you have a really large YAML document that's deeply nested, and you miss one space, it's still gonna be valid YAML, but it's not gonna be a valid CloudFormation, and you're gonna have a bad day.
 
 **Kevin Ball:** Did I mention I've been using Kubernetes a lot?
 
