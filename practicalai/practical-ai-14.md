@@ -22,7 +22,7 @@ I will let you ask me more questions and then I can tell you more.
 
 **Wojciech Zaremba:** It's clear to me that AI consists of more or less three components. You have to be able to inject a gigantic amount of compute, most likely, you need to invent some new algorithms, and AI needs some kind of a data or environment in which it lives. These are three main components that you have to attack if you want just the capabilities of HAI.
 
-So, I think that OpenAI is extremely well-suited to pursue these goals because of a few reasons. One, we are not bounded by a product, and often when we are building a product, a quite huge fraction of the work has to do with figuring out the niche or target marketing, packaging, and so on... And it's clear that there are various problems that you can attempt that have very small economical value, but it's actually very clear that they are making actual progress.
+\[00:04:19.12\] I think that OpenAI is extremely well-suited to pursue these goals because of a few reasons. One, we are not bounded by a product, and often when we are building a product, a quite huge fraction of the work has to do with figuring out the niche or target marketing, packaging, and so on... And it's clear that there are various problems that you can attempt that have very small economical value, but it's actually very clear that they are making actual progress.
 
 If you would, for instance, be able to train a system that can solve Riemann hypotheses...
 
@@ -40,7 +40,7 @@ I think the NIPS conference sold out in like 15 minutes... It's faster than a Ta
 
 **Daniel Whitenack:** Exactly, yeah. And OpenAI is really at the center of that hype... Have you seen advantages and disadvantages to that? In terms of the progress that you're going after.
 
-**Wojciech Zaremba:** So, I mean... It's extremely important to not over-promise, deliver and so on... Otherwise, over some period of time it's gonna bite you in the ass, simple as that. The fact of being a well-recognized organization definitely helps to hire incredibly brilliant people. I'm feeling extremely honored that people around, pretty much everybody on some axis is better than me. I'm feeling honored that these folks want to work with me.
+**Wojciech Zaremba:** \[00:08:07.17\] It's extremely important to not over-promise, deliver and so on... Otherwise, over some period of time it's gonna bite you in the ass, simple as that. The fact of being a well-recognized organization definitely helps to hire incredibly brilliant people. I'm feeling extremely honored that people around, pretty much everybody on some axis is better than me. I'm feeling honored that these folks want to work with me.
 
 **Daniel Whitenack:** Awesome. Thank you for that. I definitely respect a lot of the things you're doing, so I'm looking forward to seeing what happens from here... But now I wanna talk a little bit -- you're gonna be talking about deep reinforcement learning for robotics at OpenAI... Give us just a brief sketch of what you'll be talking about.
 
@@ -54,7 +54,7 @@ Another part of the assumption is that you have to be able to reset the entire t
 
 I started myself to think that maybe the paradigm of reinforcement learning, instead of being closed to actually what is happening when the human is learning, is actually closer to what is happening during evolution, like learning... You have a really gigantic population, it has a huge number of interactions, a human kind of thinking through what truly happens and what should be the outcomes.
 
-So then it is also kind of natural to me that in the case of evolution, like learning, or let's say in the case of human learning, there are essentially two stages. There's a stage that takes this gigantic amount of data which is evolution... Actually, evolution IS reinforcement learning, it's like like "Do you wanna survive or die?" and this stage is powerful enough to create our brains, that can then rapidly learn.
+\[00:11:53.06\] It is also kind of natural to me that in the case of evolution, like learning, or let's say in the case of human learning, there are essentially two stages. There's a stage that takes this gigantic amount of data which is evolution... Actually, evolution IS reinforcement learning, it's like like "Do you wanna survive or die?" and this stage is powerful enough to create our brains, that can then rapidly learn.
 
 So I was thinking, it's actually not such a bad thing if we can learn in simulation, to slice out, to do the almost... magicry of the task, and then in reality there is quite a rapid adaptation... So that's what we did.
 
