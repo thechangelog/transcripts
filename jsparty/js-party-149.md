@@ -516,7 +516,7 @@ I have a generic list, that you'd pass in a list of things, and then you have a 
 
 **Ben Ilegbodu:** I find myself -- I'm developing TypeScript; not developing my app, I'm developing TypeScript, trying to appease it. But a lot of that happens when I have existing JavaScript that I'm trying to convert to TypeScript... I basically wrote it in a loose way, that is either not typable, or really difficult to type. So one thing I suggest to people is that when you are choosing to adopt TypeScript, you're choosing to make your code more strict, so you may have to change how your code is written in order to support what you're trying to do.
 
-If you start from TypeScript from the beginning, then it's not gonna let you do some things right off the bat, especially if you have the VS Code integration and it's complaining as you do \[unintelligible 00:58:27.25\] different things... \[laughter\] So yeah, it's difficult sometimes.
+If you start from TypeScript from the beginning, then it's not gonna let you do some things right off the bat, especially if you have the VS Code integration and it's complaining as you do manage different things... \[laughter\] So yeah, it's difficult sometimes.
 
 The TypeScript errors - they are cryptic... They are hyper-specific, which is actually not a good thing in certain cases. You're just like "Yes, what you just said in that error is correct", but I need to deduce some things, or have seen this error 20 times and now know "Oh, okay. That means I need to do X", for the more complicated cases. For the simple stuff - yeah, it makes sense. So it's all a learning curve...
 
