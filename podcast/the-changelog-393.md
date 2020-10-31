@@ -32,7 +32,7 @@ So it's a lot of work. There's a lot of "How are people gonna respond? Is there 
 
 **Jerod Santo:** Very cool. Let's back out, zoom out, talk about Gatsby writ large - what it is, why it's interesting, why you've founded a business around it, as well as an open source project. Of course, this has to be the executive summary; you can do the full Founders Talk, if you're interested, listeners; we'll link that in the show notes. Tell us, first of all, the Gatsby elevator pitch and then we'll get into the executive summary of Gatsby Inc. and where we are.
 
-**Kyle Mathews:** Sure, yeah. Basically, it's pretty clear we're at a very pivotal moment in how we build stuff on the web at all. The web started with static files, and then kind of like the web app architecture developed with databases and web servers, and the security layers and so forth, that Netscape and others did a lot of work in the '90s to develop... And that's just kind of been it for the last 25 years. And what we've seen though is that there's been a huge shift from the LAMP stack, and single-server, monolithic architectures, to more serverless/cloud \[unintelligible 00:05:48.02\] services and functions etc. that you're more like stitching together stuff from a bunch of different hosted services.
+**Kyle Mathews:** Sure, yeah. Basically, it's pretty clear we're at a very pivotal moment in how we build stuff on the web at all. The web started with static files, and then kind of like the web app architecture developed with databases and web servers, and the security layers and so forth, that Netscape and others did a lot of work in the '90s to develop... And that's just kind of been it for the last 25 years. And what we've seen though is that there's been a huge shift from the LAMP stack, and single-server, monolithic architectures, to more serverless/cloud, managed services and functions etc. that you're more like stitching together stuff from a bunch of different hosted services.
 
 **Jerod Santo:** Right.
 
@@ -98,7 +98,7 @@ So those are the two models on the web. I was like, why isn't there also an open
 
 **Jerod Santo:** You're not batching.
 
-**Kyle Mathews:** Yeah, the arbitrary \[unintelligible 00:15:12.07\]
+**Kyle Mathews:** Yeah, the arbitrary batch update time.
 
 **Jerod Santo:** Right.
 
@@ -120,7 +120,7 @@ It's like, we get a webhook from a CMS saying "Hey, something changed." We take 
 
 **Kyle Mathews:** Yeah, the dependency graph is the largest part, because it's just making sure that you can track the implication of every change, and then identify the shortest amount of stuff that needs to be done.
 
-\[00:19:56.07\] Last summer, for example, an engineer spent two months refactoring how we associate data with pages, because before that we were -- like, there's some data that was sort of like affecting most pages, or all pages, which meant that any data change made a trivial change to all pages... Which of course breaks incremental builds, because you need to be able to say "Only change these seven files." But that's baked in a whole bunch of different places... So kind of reversing that, and kind of getting the \[unintelligible 00:20:34.10\] clean took a while.
+\[00:19:56.07\] Last summer, for example, an engineer spent two months refactoring how we associate data with pages, because before that we were -- like, there's some data that was sort of like affecting most pages, or all pages, which meant that any data change made a trivial change to all pages... Which of course breaks incremental builds, because you need to be able to say "Only change these seven files." But that's baked in a whole bunch of different places... So kind of reversing that, and kind of getting the DAG clean took a while.
 
 Also, Gatsby builds do a ton of stuff. We source data from n number of places. It goes into this data transformation pipeline, so markdown is getting converted to HTML, and images are getting processed, and a variety of other possible transformations happen.
 
@@ -236,7 +236,7 @@ Anyway, it's like, we developed this capability and we can offer that scale to a
 
 GitHub's an interesting point... You mentioned they took Git and they added hosting; what's interesting about Gatsby is you've taken Gatsby and you've added building... But y'all aren't hosting. Is that just for now, is that because you don't wanna run a CDN? I'm just curious. It seems like an obvious next step.
 
-**Kyle Mathews:** Yeah, we're definitely going to continue to tighten our integrations with CDNs. But what's interesting - CDNs are phenomenally complicated to build and run. Most people who say they do hosting are actually outsourcing it to somebody else. Firebase even doesn't do their own hosting. As far as I know, Fastly is running their hosting. The company formally known as ZEIT is using Cloudflare... Netlify I think is the only one that actually has their own CDN. But even then, they're relying on an open source project like \[unintelligible 00:41:28.06\]
+**Kyle Mathews:** Yeah, we're definitely going to continue to tighten our integrations with CDNs. But what's interesting - CDNs are phenomenally complicated to build and run. Most people who say they do hosting are actually outsourcing it to somebody else. Firebase even doesn't do their own hosting. As far as I know, Fastly is running their hosting. The company formally known as ZEIT is using Cloudflare... Netlify I think is the only one that actually has their own CDN. But even then, they're relying on an open source project like traffic server, I believe, out of Yahoo.
 
 **Jerod Santo:** Sure. But from a customer's perspective, the buck stops with Netlify, right?
 
@@ -370,7 +370,7 @@ So to us, the question, of course, is "Well, how do we mainstream this?" Because
 
 **Jerod Santo:** And there's some recipes out... Is there a place for sharing recipes? Because that's the next step then. Get a recipe hub out there.
 
-**Kyle Mathews:** Yeah, that's something that's very much on our mind. We have some official recipes that you can get direct access to, and then people are just like sharing them on \[unintelligible 01:00:37.20\] or something like that. But a recipe hub, like you're saying, we think would be super-fun. Because our hope is that there's like tens of thousands of these recipes. Anything you can imagine doing, you can just search, find a recipe for that, and you're like "Oh, cool." And you can look at five different variants... It's like, "Oh, they set it up this way, they set it up this way, they set it up this way...", and then you can remix it to meet the specific needs of your project. Agencies, companies can develop their own set of recipes that they use to run stuff.
+**Kyle Mathews:** Yeah, that's something that's very much on our mind. We have some official recipes that you can get direct access to, and then people are just like sharing them on gist or something like that. But a recipe hub, like you're saying, we think would be super-fun. Because our hope is that there's like tens of thousands of these recipes. Anything you can imagine doing, you can just search, find a recipe for that, and you're like "Oh, cool." And you can look at five different variants... It's like, "Oh, they set it up this way, they set it up this way, they set it up this way...", and then you can remix it to meet the specific needs of your project. Agencies, companies can develop their own set of recipes that they use to run stuff.
 
 **Jerod Santo:** Very cool. Kyle, congratulations on finishing your long road to incremental builds.
 
