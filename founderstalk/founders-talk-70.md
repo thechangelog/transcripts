@@ -92,7 +92,7 @@ Given the timing of GitLab/GitHub, what do you say to people, especially those w
 
 **Adam Stacoviak:** Let's talk about where you're going. Let's fast-forward quite a bit, just to sort of tease where we're heading. You're planning to IPO this year; November, if I understand correctly, is that right?
 
-**Sid Sijbrandij:** Yeah, that's what we have set as a goal in 2015. I don't think it's likely we'll make that date in November, but we're getting pretty close. We're over 100 million dollars of revenue. We're still growing at a healthy \[unintelligible 00:27:10.00\] We're unlikely to go public end of this year, but it's getting really close. We're now five years after taking our first external dollar, so that's been an amazingly fast trajectory.
+**Sid Sijbrandij:** Yeah, that's what we have set as a goal in 2015. I don't think it's likely we'll make that date in November, but we're getting pretty close. We're over 100 million dollars of revenue. We're still growing at a healthy clip. We're unlikely to go public end of this year, but it's getting really close. We're now five years after taking our first external dollar, so that's been an amazingly fast trajectory.
 
 **Adam Stacoviak:** Yes. Over 400 million currently raised, I believe, if I got my numbers correctly. Current valuation - roughly 2.75 billion, which is what I wanna go into... GitHub was acquired a couple years back for 7.5 billion. They were valued at the time for two billion. You're valued now over what they were valued at then... And I'm just curious, when you choose to go -- so their route was a private acquisition, rather than going public (IPO). What is it that makes you choose that route for your company?
 
