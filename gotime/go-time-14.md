@@ -322,7 +322,7 @@ Carlisia Campos:… I know, I know.
 
 **Brian Ketelsen:** That's awesome.
 
-**Erik St. Martin:** So Go projects. I have one that I saw come through - I think I saw it on Twitter a few days ago, but it goes along with this whole security mindset that we're talking about this episode, which is Hewlett-Packard released a library called \[unintelligible 00:46:12.01\] - a command line tool, anyway - to statically analyze your code for common security or vulnerabilities, and some of which were actually validating the TLS ciphers and protocols within your project, and then there was some SQL injection vectors it looked for, and I think using some crypto primitives and stuff that were weaker. There is a whole slew of things, and it will actually be interesting now that this is here to see how many more security checks people add to the code.
+**Erik St. Martin:** So Go projects. I have one that I saw come through - I think I saw it on Twitter a few days ago, but it goes along with this whole security mindset that we're talking about this episode, which is Hewlett-Packard released a library called [`gosec`](https://github.com/securego/gosec) - a command line tool, anyway - to statically analyze your code for common security or vulnerabilities, and some of which were actually validating the TLS ciphers and protocols within your project, and then there was some SQL injection vectors it looked for, and I think using some crypto primitives and stuff that were weaker. There is a whole slew of things, and it will actually be interesting now that this is here to see how many more security checks people add to the code.
 
 **Matt Holt:** Yeah, I saw that. It looks really cool.
 
@@ -406,7 +406,7 @@ So it's a thin shell around sync.WaitGroup and the context package, but it's nic
 
 **Erik St. Martin:** It is.
 
-**Carlisia Pinto:** So let me clarify. I have been using Vim for the last few years and I've used just straight up Vin for a few months, but then I went back to \[unintelligible 00:54:34.27\], and that was Atom. And I broke up with Atom last night - and that's not Adam from the Changelog, it's Atom \[laughs\]. I just cannot hear the difference. So the editor Atom - him and I, last night, we split.
+**Carlisia Pinto:** So let me clarify. I have been using Vim for the last few years and I've used just straight up Vim for a few months, but then I went back to an IDE and used Vim inside an IDE, and that was Atom. And I broke up with Atom last night - and that's not Adam from the Changelog, it's Atom \[laughs\]. I just cannot hear the difference. So the editor Atom - him and I, last night, we split.
 
 **Erik St. Martin:** Not the robot from Real Steel?
 
@@ -456,7 +456,7 @@ Today, I'm choosing Python, which is a language that I never personally use, but
 
 **Carlisia Pinto:** So I wanted to talk about one thing that I can't believe I haven't mentioned before, which is Exercism. It's double good, because it's open source, of course, and you can work on it if you're looking for an open source project to practice or help out. Also, you can use it to learn Go or get better at Go. And I also found out that there are a bunch of issues labeled "good first patch."
 
-\[01:00:03.07\] So for people who are looking to contribute to open source doing Go and they don't have experience or they're shy or they want a beginner project, this is perfect. And you'll also be helping, you know, this project which also is kind of \[unintelligible 01:00:20.23\] because it teaches people. You're trying to learn and you're helping people teach Go, and of course other languages as well, that's why Exercism is extra super good.
+\[01:00:03.07\] So for people who are looking to contribute to open source doing Go and they don't have experience or they're shy or they want a beginner project, this is perfect. And you'll also be helping, you know, this project which also is kind of meta because it teaches people. You're trying to learn and you're helping people teach Go, and of course other languages as well, that's why Exercism is extra super good.
 
 **Brian Ketelsen:** And then how about you, Matt?
 
