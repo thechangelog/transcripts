@@ -220,7 +220,7 @@ More and more, I think Postgres itself - we've kind of reached a point where it'
 
 There's really simple ones... One of my colleagues at Crunchy Data, he's on the core for PostGIS, but he wrote one that's like just HttpGet, basically. Like, I wanna go and crawl this website. There's pg\_cron. So if you think about this, you've got pg\_cron, which is crawling your database, you can go and then curl something, and then you can go and parse that website. You can do screen scraping automatically inside your database, without ever having to run a separate scheduler, or web process. You've got different procedural languages, you've got PLV8, which is V8 directly inside Postgres. So that's an extension that you can run JavaScript inside your database.
 
-**Jerod Santo:** Okay, it's getting crazy... So how would you trigger that then? Let's go back to the kron one. Do you use a SELECT, or something? How do you actually interact with these things? Is it using the query language, standard SQL query language, or extensions with that?
+**Jerod Santo:** Okay, it's getting crazy... So how would you trigger that then? Let's go back to the cron one. Do you use a SELECT, or something? How do you actually interact with these things? Is it using the query language, standard SQL query language, or extensions with that?
 
 **Craig Kerstiens:** Yeah, so the \[unintelligible 00:47:48.05\] Depending on what it does, it's gonna enable something new. HStore is a great one. HStore is a data type. So you run create extension hstore, and now you have this new data type. So now when you're creating tables, you use the HStore data type. And HStore is a key-value store directly in Postgres. It's kind of the precursor to JSON.
 
