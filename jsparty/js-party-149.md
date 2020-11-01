@@ -104,7 +104,7 @@
 
 There is a confusion though, because especially with interfaces versus types, you can define an object in two different ways - with an interface or with a type. And even in their docs, it's really confusing as to what's the difference between one or the other... And whenever I talk about TypeScript, that's always the first question, like "Should I use an interface, or should I use a type? What's the difference between the two of them?" and I'm like "Hm... Maybe 95% of the time there's no difference." So it's already like a confusion right in the beginning...
 
-**Amal Hussein:** Yeah. For me, this is exactly why standards bodies exist. Things take a long time, because they're well-thought, and they think about the present, the back-compat, and the future story... And so when you have a bunch of folks going off on their own, and "We're gonna make a thing" - sometimes you're solving solved problems, and you're potentially creating weirdness in the language. So language design is its own art, and there are people in the TC39 committee that specialize in language design, that aren't implementers or web developers. I like to call them language nerds, but \[unintelligible 00:11:46.14\] likes to use the word "language aficionados", which is maybe more...
+**Amal Hussein:** Yeah. For me, this is exactly why standards bodies exist. Things take a long time, because they're well-thought, and they think about the present, the back-compat, and the future story... And so when you have a bunch of folks going off on their own, and "We're gonna make a thing" - sometimes you're solving solved problems, and you're potentially creating weirdness in the language. So language design is its own art, and there are people in the TC39 committee that specialize in language design, that aren't implementers or web developers. I like to call them language nerds, but Jordan Harband likes to use the word "language aficionados", which is maybe more...
 
 **Ben Ilegbodu:** It has a positive spin on it.
 
@@ -118,7 +118,7 @@ There is a confusion though, because especially with interfaces versus types, yo
 
 **Amal Hussein:** Do they create their own custom types?
 
-**Divya:** They would do bindings... For example, one of the libraries we're using is \[unintelligible 00:13:03.29\] which is like the protobuffer library for C... And then there's like a way in which you can take that and produce TypeScript types from it using a particular CLI command in order for you to use those libraries in a Java-- so it's like going one step further. So it's not just like typing your JavaScript, but allowing for interop with other languages, which I think is really interesting.
+**Divya:** They would do bindings... For example, one of the libraries we're using is `capnp` which is like the protobuffer library for C... And then there's like a way in which you can take that and produce TypeScript types from it using a particular CLI command in order for you to use those libraries in a Java-- so it's like going one step further. So it's not just like typing your JavaScript, but allowing for interop with other languages, which I think is really interesting.
 
 **Ben Ilegbodu:** Interesting.
 
@@ -244,7 +244,7 @@ So that's how those two go together - TypeScript knows to look in that package i
 
 **Ben Ilegbodu:** It's just easier if it's written in TypeScript and they get auto-generated, and everything's good.
 
-**Amal Hussein:** Yeah, I know, but I don't know if it's fair to force TypeScript on people though... Let's be honest. This is where I get upset about TypeScript, because I feel like we have created some additional burden for maintainers. If you look at the most popular packages in the JavaScript ecosystem, a lot of them are written in ES3 just so maintainers don't have to worry about the back-compat issues with using arrow functions. It's one less thing for them to maintain. And folks like \[unintelligible 00:30:16.00\] he's very lean about what fancy new JavaScript features he's gonna use. He's intentionally restrictive, so that he has less to maintain, and doesn't have to transpile, and add a bunch of tooling into it, like a library.
+**Amal Hussein:** Yeah, I know, but I don't know if it's fair to force TypeScript on people though... Let's be honest. This is where I get upset about TypeScript, because I feel like we have created some additional burden for maintainers. If you look at the most popular packages in the JavaScript ecosystem, a lot of them are written in ES3 just so maintainers don't have to worry about the back-compat issues with using arrow functions. It's one less thing for them to maintain. And folks like Jordan, he's very lean about what fancy new JavaScript features he's gonna use. He's intentionally restrictive, so that he has less to maintain, and doesn't have to transpile, and add a bunch of tooling into it, like a library.
 
 I feel like TypeScript is great for applications, great for some packages if you're okay with having a compiler and all that jazz... But it's the expectation on the community's part that I think sometimes can be burdensome for maintainers.
 
@@ -296,7 +296,7 @@ That actually did help me smoke out a lot of bugs with this system, and I ended 
 
 **Suz Hinton:** ...whereas this was a very terse and in a database, so I could perform more kinds of analytics on what's the most popular operating system that people are using testpilot with, and what's the most common error that's coming out of it, and things like that, which was really helpful. So I'm assuming that types would help me probably avoid some of those errors, but we would see.
 
-**Amal Hussein:** Yeah, that's amazing. But you'd actually be able to know that, because you can tell what version they're using, and when you introduce types, did the bug reports go down \[unintelligible 00:35:21.29\]
+**Amal Hussein:** Yeah, that's amazing. But you'd actually be able to know that, because you can tell what version they're using, and when you introduce types, did the bug reports go down...
 
 **Suz Hinton:** Totally, yeah.
 
@@ -414,7 +414,7 @@ There's a lot of interest. I'm not sure how many people are applying it into the
 
 **Amal Hussein:** Atom, okay.
 
-**Suz Hinton:** Which technically is now owned by Microsoft \[unintelligible 00:43:04.09\] \[laughter\]
+**Suz Hinton:** Which technically is now owned by Microsoft, hilariously. \[laughter\]
 
 **Ben Ilegbodu:** Yes, exactly.
 
@@ -496,7 +496,7 @@ I have a generic list, that you'd pass in a list of things, and then you have a 
 
 **Ben Ilegbodu:** Yeah. Just that feature saves so much configurability... It's like "Oh, I wish this thing was a different thing" or "I need it to be this..." It's just like "Okay, just change whatever type it is underlying, and do what you need to." It's just that. It was a great thing that Material UI did, and I definitely copied it from them. \[laughter\]
 
-**Suz Hinton:** It's copy patterns that are battle tested, and that sounds like a very highly valuable one. I would say that this is one of the big reasons why you would want to use \[unintelligible 00:55:39.20\] I think that that just sells itself right there.
+**Suz Hinton:** It's good to copy patterns that are battle tested, and that sounds like a very highly valuable one. I would say that this is one of the big reasons why you would want to use types. I think that that just sells itself right there.
 
 **Ben Ilegbodu:** I agree.
 
@@ -516,7 +516,7 @@ I have a generic list, that you'd pass in a list of things, and then you have a 
 
 **Ben Ilegbodu:** I find myself -- I'm developing TypeScript; not developing my app, I'm developing TypeScript, trying to appease it. But a lot of that happens when I have existing JavaScript that I'm trying to convert to TypeScript... I basically wrote it in a loose way, that is either not typable, or really difficult to type. So one thing I suggest to people is that when you are choosing to adopt TypeScript, you're choosing to make your code more strict, so you may have to change how your code is written in order to support what you're trying to do.
 
-If you start from TypeScript from the beginning, then it's not gonna let you do some things right off the bat, especially if you have the VS Code integration and it's complaining as you do \[unintelligible 00:58:27.25\] different things... \[laughter\] So yeah, it's difficult sometimes.
+If you start from TypeScript from the beginning, then it's not gonna let you do some things right off the bat, especially if you have the VS Code integration and it's complaining as you do various different things... \[laughter\] So yeah, it's difficult sometimes.
 
 The TypeScript errors - they are cryptic... They are hyper-specific, which is actually not a good thing in certain cases. You're just like "Yes, what you just said in that error is correct", but I need to deduce some things, or have seen this error 20 times and now know "Oh, okay. That means I need to do X", for the more complicated cases. For the simple stuff - yeah, it makes sense. So it's all a learning curve...
 
