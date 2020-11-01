@@ -98,7 +98,7 @@ So you have a nice one-two punch here with Uku and Marko. Marko wrote that post,
 
 Uku, how did you guys meet? Did you decide "I can't tell this story on my own, and I need a helper"? How did that go down?
 
-**Uku Täht:** Yeah, it was two reasons. One was, like you said - I'm good at writing code, but I'm not very good at writing blog posts, communicating stories and ideas to people. You can get good at anything, I think, if you put enough time into it, but at some point it's also useful to focus on what you're good at and try to bring someone else in who can complement your skills, so that you can both be just experts in your own fields. I like this idea of a broken \[unintelligible 00:19:03.06\] theory, where as a person you're supposed to have broad knowledge of many things, but then deep expertise in a few things.
+**Uku Täht:** Yeah, it was two reasons. One was, like you said - I'm good at writing code, but I'm not very good at writing blog posts, communicating stories and ideas to people. You can get good at anything, I think, if you put enough time into it, but at some point it's also useful to focus on what you're good at and try to bring someone else in who can complement your skills, so that you can both be just experts in your own fields. I like this idea of a broken comp theory, where as a person you're supposed to have broad knowledge of many things, but then deep expertise in a few things.
 
 I realized I'm not gonna build deep expertise in marketing and content writing. That was something that after doing it for -- I was trying to tell the story, to get people to use it for about a year... And I had minor success, but nothing to write home about.
 
@@ -228,7 +228,7 @@ I like the event tracking features; we do use it. We like to know on our website
 
 **Jerod Santo:** \[00:36:14.21\] Nice.
 
-**Uku Täht:** ...and that's gonna \[unintelligible 00:36:14.26\] which is being able to just query ad-hoc anything, basically, by clicking on whatever you want in the UI. There's no request for that, and I'm gonna do it at some point... And I've said no to things for sure, but more or less - I'd say 80% - the prioritization comes straight from users.
+**Uku Täht:** ...and that's gonna start in summer, which is being able to just query ad-hoc anything, basically, by clicking on whatever you want in the UI. There's no request for that, and I'm gonna do it at some point... And I've said no to things for sure, but more or less - I'd say 80% - the prioritization comes straight from users.
 
 **Adam Stacoviak:** I guess, Jerod, what you might be asking is "What's the backbone of your roadmap?" Do you have things you weigh against?
 
@@ -296,7 +296,7 @@ I can come from a more marketing side and I can push some of the more marketing 
 
 **Jerod Santo:** Yeah, it takes away from other things you'd be working on.
 
-**Uku Täht:** Yeah. But I have nothing against people -- it's released under MIT; that means you can do whatever you want with it. You can start your own company running the same code, if you want. But recently there's been more and more interest in self-hosting Plausible, and there's a GitHub issue with now three people involved - well, excluding me, so four people involved - and I'm trying to offer my own help as much as I can to make it self-hostable. Have a Docker image ready to go on Docker Hub, so you can \[unintelligible 00:43:57.26\]
+**Uku Täht:** Yeah. But I have nothing against people -- it's released under MIT; that means you can do whatever you want with it. You can start your own company running the same code, if you want. But recently there's been more and more interest in self-hosting Plausible, and there's a GitHub issue with now three people involved - well, excluding me, so four people involved - and I'm trying to offer my own help as much as I can to make it self-hostable. Have a Docker image ready to go on Docker Hub, so you can just pull and go.
 
 **Jerod Santo:** Yeah. I think that will net you a lot of good will over time, when you get to it.
 
@@ -576,7 +576,7 @@ I spent hours on reading, taking notes and trying to figure out what the situati
 
 **Jerod Santo:** \[01:16:13.17\] Is that just a VPS, or who's hosting your Postgres?
 
-**Uku Täht:** It's a company called \[unintelligible 01:16:16.29\] It's a Finnish company... It's a database hosting company, but they're really using Digital Ocean... Or anything. I think Digital Ocean, AWS - you can choose. I didn't choose Google Cloud for obvious reasons.
+**Uku Täht:** It's a company called Aiven. It's a Finnish company... It's a database hosting company, but they're really using Digital Ocean... Or anything. I think Digital Ocean, AWS - you can choose. I didn't choose Google Cloud for obvious reasons.
 
 **Adam Stacoviak:** Right.
 
@@ -688,7 +688,7 @@ So what I mostly wanna know - and this is hard to get even inside Google Analyti
 
 **Uku Täht:** And you can have just tabs with different stored filtered searches, or something like that. I can think of it, but building is gonna take me ages.
 
-**Jerod Santo:** No, I'm not expecting you to build this -- I don't want you to have \[unintelligible 01:27:49.19\]
+**Jerod Santo:** No, I'm not expecting you to build this -- I don't want you to have a Homer Simpson car.
 
 **Adam Stacoviak:** What about next week? Any time next week? \[laughter\]
 
@@ -726,6 +726,6 @@ So what I mostly wanna know - and this is hard to get even inside Google Analyti
 
 **Jerod Santo:** Yeah, just a little bit to get going.
 
-**Uku Täht:** But one of the things that it really needs is test data... Because if you just download it, you're gonna have no data in it. And generating test data is really difficult. So I think what I wanna do is once we have this self-hosted dev setup is I wanna take a daily or a weekly dump from the live demo and just give it \[unintelligible 01:29:20.04\] test it for development.
+**Uku Täht:** But one of the things that it really needs is test data... Because if you just download it, you're gonna have no data in it. And generating test data is really difficult. So I think what I wanna do is once we have this self-hosted dev setup is I wanna take a daily or a weekly dump from the live demo and just give it to you as test data for development.
 
 **Jerod Santo:** Yeah, totally.
