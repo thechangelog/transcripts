@@ -250,7 +250,7 @@ I really like that a lot, because you're generating the code and it becomes very
 
 **Brian Ketelsen:** Yeah, how could we possibly forget about the best debugger ever? Although I don't ever debug, so maybe that's why I forgot about it, because I don't ever debug. My code just works. \[laughter\]
 
-**Beyang Liu:** Are you \[unintelligible 00:33:46.20\]
+**Beyang Liu:** Are you printf man?
 
 **Brian Ketelsen:** I think I used Delve about twice, and I found it to be impressive.
 
@@ -332,9 +332,9 @@ It was insane. It went, in total, from like 10 milliseconds...
 
 **Brian Ketelsen:** Yeah, big release.
 
-**Erik St. Martin:** ...which kind of had some of the Ubernetes stuff in it, which is the kind of the cluster federation. They bumped up the \[unintelligible 00:41:05.21\] size too, it's like two thousand node clusters and fifty or sixty thousand containers.
+**Erik St. Martin:** ...which kind of had some of the Ubernetes stuff in it, which is the kind of the cluster federation. They bumped up the max size too, it's like two thousand node clusters and fifty or sixty thousand containers.
 
-**Brian Ketelsen:** Yeah, I saw a tweet a couple hours ago about sixty thousand pods. I don't know if that's correct, but it certainly seems like the addition of etcd 3.0 allowed them to scale quite a bit. I know that the etcd release was big, \[unintelligible 00:41:27.07\] is really awesome.
+**Brian Ketelsen:** Yeah, I saw a tweet a couple hours ago about sixty thousand pods. I don't know if that's correct, but it certainly seems like the addition of etcd 3.0 allowed them to scale quite a bit. I know that the etcd release was big, yeah many [`minikube`](https://minikube.sigs.k8s.io/docs) is really awesome.
 
 **Erik St. Martin:** I think that they're mostly compatible now with the OCI and CNI stuff, or rocket. I haven't checked out the new dashboard, but I'm looking forward to that, too. But yeah, it seems like some cool stuff there. There was another project that hit 1.0.2...
 
@@ -440,7 +440,7 @@ It was insane. It went, in total, from like 10 milliseconds...
 
 **Brian Ketelsen:** Okay, good.
 
-**Erik St. Martin:** Yeah, \[unintelligible00:52:12.09\] and if you are at GopherCon, come visit us. We will have T-shirts... And I think that's it. Thank you for being on the show too, Beyang, it's been a lot of fun.
+**Erik St. Martin:** Yeah, catch us there and if you are at GopherCon, come visit us. We will have T-shirts... And I think that's it. Thank you for being on the show too, Beyang, it's been a lot of fun.
 
 **Beyang Liu:** Thank you so much for having me, this has been awesome.
 
