@@ -168,7 +168,7 @@ There was a feature I came up with which was a pretty substantial, kind of new, 
 
 **Adam Stacoviak:** We have a winner.
 
-**Jerod Santo:** \[unintelligible 00:28:25.16\] just keep guessing jargon until I get one.
+**Jerod Santo:** It's like pin the tail on the donkey, just keep guessing jargon until I get one.
 
 **Ryan Singer:** \[laughs\] Anyway, I'm sure we used your listeners' time very well in the last ten minutes...
 
@@ -264,7 +264,7 @@ It's about making this mental flip of n of 1, and then following that functional
 
 **Jerod Santo:** Right, but this is the same person over ten weeks.
 
-**Ryan Singer:** There's a really great piece of work by this fellow Ole Peters. He's a friend of mine, and I started following his work... He's kind of redoing economics on a new foundation, and he's using a concept called ergodicity from physics. He actually wrote a paper on it, but it first got it kicked off with \[unintelligible 00:44:58.24\] This is the guy who discovered the cork, so he's in good company...
+**Ryan Singer:** There's a really great piece of work by this fellow Ole Peters. He's a friend of mine, and I started following his work... He's kind of redoing economics on a new foundation, and he's using a concept called ergodicity from physics. He actually wrote a paper on it, but it first got it kicked off with Murray Gell-Mann. This is the guy who discovered the quark, so he's in good company...
 
 **Jerod Santo:** Wow... Yeah.
 
@@ -276,7 +276,7 @@ It's about making this mental flip of n of 1, and then following that functional
 
 I was scratching my head a few weeks ago, working on this new concept I have for how to do access in BC4, how to assign what role somebody is playing in terms of their responsibility on a project... Like, are they the person who's supposed to be doing the project, or did they just have access to see it? ...this kind of a thing. And I was kind of spinning my head, trying to think through all these different cases, and I looked at some data about what percentage of projects have what percentage of people from the company on them, and what percentage of those people are active on the project etc. I'm looking at all of that stuff and none of it is giving me any insight at all.
 
-I'm looking at like 50,000 customers, \[unintelligible 00:47:00.01\] cool graph, that looks very impressive, and I'm learning nothing. And then I think to myself, okay, how do I look at this through time? And I pull up a single project from our account, and I just followed the history of events; because we drop events every time anything happens. And I looked at who created the project, when they first invited two other people, what they posted, when they invited a few other people, and then when they invited the whole rest of the company... And by looking at one project, created by one person, all of my questions went away and I had a whole design concept... Because I could see the cause and effect of like "Oh, you don't invite everybody on the first day, because you don't have anything that's ready for everybody else to see." First, you just invite the person that you're collaborating with, but then there's kind of a cover-your-ass factor, and you invite a superior who you want them to know that you're doing this thing, but you're not actually working with them...
+I'm looking at like 50,000 customers, overlaid onto some cool graph, that looks very impressive, and I'm learning nothing. And then I think to myself, okay, how do I look at this through time? And I pull up a single project from our account, and I just followed the history of events; because we drop events every time anything happens. And I looked at who created the project, when they first invited two other people, what they posted, when they invited a few other people, and then when they invited the whole rest of the company... And by looking at one project, created by one person, all of my questions went away and I had a whole design concept... Because I could see the cause and effect of like "Oh, you don't invite everybody on the first day, because you don't have anything that's ready for everybody else to see." First, you just invite the person that you're collaborating with, but then there's kind of a cover-your-ass factor, and you invite a superior who you want them to know that you're doing this thing, but you're not actually working with them...
 
 **Jerod Santo:** \[00:48:00.26\] Yeah.
 
@@ -394,7 +394,7 @@ A lot of this big data stuff is incredibly powerful if you're trying to automate
 
 So you have big data in terms of scale, but the number of dimensions is very small. So I think you want really high dimensions when you're doing this longitudinal stuff. When we do the analysis, we do ten interviews, and then when we do the clustering, we're actually clustering on something like usually on the order of 25 dimensions. We've literally got vectors that have 25 different dimensions in them that we're clustering on. But then, once you know the jobs, then you're saying "Either you're here for this, or you're here for that, or you're here for this." You're asking people like 3 or 4 questions. So you're vastly shrinking the dimensionality of the data problem. And then you're asking people simple questions, and then you're getting relatively simple answers that size it.
 
-**Adam Stacoviak:** \[01:04:12.28\] What's interesting is this a-ha moment that surfaces from this interrogation, these jobs... And once you find the problem you've solved for one, now you can find probably more so in your dataset, but then be able to attract or know the people that have this same problem, or a similar problem. So it's easy to 1) design better \[unintelligible 01:04:37.02\] because you're improving, because you understand the problem better, but it's also easier to scale those who have the same problem, and bring in more customers.
+**Adam Stacoviak:** \[01:04:12.28\] What's interesting is this a-ha moment that surfaces from this interrogation, these jobs... And once you find the problem you've solved for one, now you can find probably more so in your dataset, but then be able to attract or know the people that have this same problem, or a similar problem. So it's easy to 1) design better product tours because you're improving, because you understand the problem better, but it's also easier to scale those who have the same problem, and bring in more customers.
 
 **Ryan Singer:** That's the key insight... Look, everyone is so different; as individuals, people are totally different from each other. But if you look at the situations people find themselves in, we all live in the same world. And the world is structured the same way. And the things that we come into, like when we get hungry and need to eat and we run out of time, or when we're trying to keep track of stuff, and then we lose it, and then we don't know where we've put it - we all run into the same stuff all the time.
 
