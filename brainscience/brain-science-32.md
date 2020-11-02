@@ -1,5 +1,3 @@
-\[00:02:35.20\]
-
 **Adam Stacoviak:** Today we're joined by another expert, Dr. Elisha Goldstein. Elisha, I had actually found out about you through Calm, the Calm app. I'm sure you're familiar with that. You've done two different mindfulness, meditation - I don't know what you call those on there, but they're tracks; I listen to them. Anxiety, release, easing depression - that's how I found out about you, and I did some research, and it turns out you're pretty smart, and you do some cool stuff. So tell our audience about all the smart and cool stuff you've done.
 
 **Elisha Goldstein, PhD:** Okay, so... Thanks for that introduction. Yeah, Calm is a great app; I'm on multiple apps, and done hundreds of different meditations over time, and I think for me, I'm a psychologist, and I'm a mindfulness educator, mindfulness just being like intentionally paying attention to our lives, something that's happening, with more of a skillful eye, I would say.
@@ -311,5 +309,3 @@ Anything else to cover, anything else to say, Dr. Elisha?
 **Adam Stacoviak:** Thank you so much for your time.
 
 **Elisha Goldstein, PhD:** Yeah, thank you both.
-
-Break: \[01:02:51.09\] to \[01:04:16.07\]
