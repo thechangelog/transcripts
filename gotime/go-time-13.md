@@ -264,7 +264,7 @@ So this is a good time for us to stop and take a break and thank our sponsor Lin
 
 **Erik St. Martin:** The thing I love about the unsafe package is basically it makes you... It's like you wanna delete a GitHub repo you have to type the repo's name to be sure; so everytime you go to use unsafe you have to say 'unsafe'. It just keeps beating it into you, "I should not be doing this."
 
-**Francesc Campoy:** Yeah. I had an idea, I don't know if you saw it... I tweeted about how you can give an alias when you're doing imports. So you could do import \[unintelligible 00:35:20.22\] That fixes the problem.
+**Francesc Campoy:** Yeah. I had an idea, I don't know if you saw it... I [tweeted about how you can give an alias](https://twitter.com/francesc/status/920740297713291265) when you're doing imports. So you could do `import totessafe "unsafe"`, so instead of `unsafe.Pointer` you have `totessafe.Pointer`. That fixes the problem.
 
 **Erik St. Martin:** Totally safe dot... \[laughter\]
 
@@ -272,11 +272,11 @@ So this is a good time for us to stop and take a break and thank our sponsor Lin
 
 **Carlisia Pinto:** That sounds like a website we should have.
 
-**Brian Ketelsen:** \[unintelligible 00:35:37.11\] I think we need to make a new top-level domain, .pointer.
+**Brian Ketelsen:** I think we need to make a new top-level domain, .pointer.
 
-**Francesc Campoy:** .safe.io, yeah... \[laughter\]
+**Francesc Campoy:** .totessafe.io, yeah... \[laughter\]
 
-**Brian Ketelsen:** Actually, that would be a good vanity package for any Go package. You could use the vanity URL \[unintelligible 00:35:57.13\]
+**Brian Ketelsen:** Actually, that would be a good vanity package for any Go package. You could use the vanity URL totessafe, .totessafe
 
 **Erik St. Martin:** \[00:36:00.14\] With the tagline "You can trust us."
 
