@@ -322,7 +322,7 @@ Carlisia Campos:… I know, I know.
 
 **Brian Ketelsen:** That's awesome.
 
-**Erik St. Martin:** So Go projects. I have one that I saw come through - I think I saw it on Twitter a few days ago, but it goes along with this whole security mindset that we're talking about this episode, which is Hewlett-Packard released a library called [`gosec`](https://github.com/securego/gosec) - a command line tool, anyway - to statically analyze your code for common security or vulnerabilities, and some of which were actually validating the TLS ciphers and protocols within your project, and then there was some SQL injection vectors it looked for, and I think using some crypto primitives and stuff that were weaker. There is a whole slew of things, and it will actually be interesting now that this is here to see how many more security checks people add to the code.
+**Erik St. Martin:** So Go projects. I have one that I saw come through - I think I saw it on Twitter a few days ago, but it goes along with this whole security mindset that we're talking about this episode, which is Hewlett-Packard released a library called [`gas`](https://github.com/HewlettPackard/gas) - a command line tool, anyway - to statically analyze your code for common security or vulnerabilities, and some of which were actually validating the TLS ciphers and protocols within your project, and then there was some SQL injection vectors it looked for, and I think using some crypto primitives and stuff that were weaker. There is a whole slew of things, and it will actually be interesting now that this is here to see how many more security checks people add to the code.
 
 **Matt Holt:** Yeah, I saw that. It looks really cool.
 
