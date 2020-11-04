@@ -118,7 +118,7 @@ The way I see it - it's more of a hybrid in between a barebones Ruby app and wha
 
 **Maxime Vaillancourt:** I think it was a progressive pain point that kind of -- it never was a big thing that kind of appeared one night. It's just something that with time we started to see performance slowly degrading in terms of response times on the server, and eventually we kind of had to do something about it to improve things.
 
-Interesting story - the initial commits for that applications were Toby himself, who took it upon himself to start something, and as a prototype gets something up and running and make it as lean as possible to get started. And then eventually, that became a team, and we picked it up, and that became the project that we're working on.
+Interesting story - the initial commits for that applications were Tobi himself, who took it upon himself to start something, and as a prototype gets something up and running and make it as lean as possible to get started. And then eventually, that became a team, and we picked it up, and that became the project that we're working on.
 
 But there never was really one thing that kind of said "Okay, that's it. We're doing this thing now." It was a slow process, that eventually kind of arrived at the conclusion that we had to do something; why not try something that's a bit different than what we would usually do, and let's see where this goes, where this leads. That's where we are now. We realized that the approach made sense, and we kind of went along with it, and we're still there now.
 
@@ -146,7 +146,7 @@ Most of the time it's something that we haven't implemented in the new applicati
 
 So it helped us figure out how to go and implement what's most impactful to get towards completion and parity in terms of features as quickly as possible. So that's why at first, when we first started the project, we started to look at a single shop, to say "Okay, that's the one shop we want to try to support and target for the release of that new thing." Running the verifier mechanism gets us to a point where we're able to say "We're THAT close to getting that response to be exactly the same for the new application", and from there move on to other endpoints, other shops, and then figure out how to scale to the rest of the platform.
 
-**Jerod Santo:** So I've done this at a tiny scale, where I'd take one endpoint, I curl the endpoint, take the response, take the other endpoint - the one that's in development, the one I'm building - curl the same thing, take the response, pipe it to Diff, and then I look at the Diff, and I hope Diff says "These two files are identical", or whatever it says, right?
+**Jerod Santo:** So I've done this at a tiny scale, where I'd take one endpoint, I curl the endpoint, take the response, take the other endpoint - the one that's in development, the one I'm building - curl the same thing, take the response, pipe it to diff, and then I look at the diff, and I hope diff says "These two files are identical", or whatever it says, right?
 
 **Adam Stacoviak:** \[laughs\]
 
@@ -154,7 +154,7 @@ So it helped us figure out how to go and implement what's most impactful to get 
 
 **Jerod Santo:** You never quite got there because of all this randomness, and stuff... But was your verifier essentially a differ that you just lodged into your request pipeline? Tell us how that worked.
 
-**Maxime Vaillancourt:** Exactly. So that's exactly what the mental model around this is. It's just instead of us doing the curls and the devs manually by hand in the command line, it's something that's happening --
+**Maxime Vaillancourt:** Exactly. So that's exactly what the mental model around this is. It's just instead of us doing the curls and the diffs manually by hand in the command line, it's something that's happening --
 
 **Jerod Santo:** Your customers did it. \[laughs\]
 
@@ -296,7 +296,7 @@ So to me, it's like -- it's not ideal, but in order to rewrite in a smart way, a
 
 **Maxime Vaillancourt:** It does in rare cases. In very, very rare cases. And again, I said earlier about how the storefront implementation we're doing now is mostly a read application; the rest of the features would be mostly for everything that updates or writes - that may still be going in the monolith for now, and with time, we may be thinking about doing something where writes would also go to the new implementation. It's not clear yet if that's something we want to do... But at the moment, we're really focusing on getting those reads served by the new implementation.
 
-**Jerod Santo:** So here you are, you've ripped out the band aid, you're at the end of this process, you've made the necessary trade-offs... Was it all worth it? Would you do it again? What are the wins? What are the takeaways from Shopify and your team?
+**Jerod Santo:** So here you are, you've ripped off the band aid, you're at the end of this process, you've made the necessary trade-offs... Was it all worth it? Would you do it again? What are the wins? What are the takeaways from Shopify and your team?
 
 **Maxime Vaillancourt:** I think one of the main things I keep in mind in this is I've read so many articles and blog posts and opinions everywhere on the internet over the years that say "Don't do rewrites." That's like the main takeaway to remember for all of those articles, and I want to be the person who does the opposite and says "Rewrites are possible. You can do rewrites if you do them right. How do you do them right? There's many key things involved in there." It's not a thing where you have to push the rewrite option aside if it's something that you don't think is possible.
 
@@ -344,7 +344,7 @@ So the one thing we did was to have a simple web page that shows you the same pa
 
 So from that moment on I think there was kind of a turning point in the heads of developers working on this, to say "This is the thing we're now focusing on in terms of the future, to make sure this happens."
 
-**Adam Stacoviak:** That's awesome. I can imagine that feeling, because you were expecting that call, like "Hey, can you demo this to everybody?"
+**Adam Stacoviak:** That's awesome. I can imagine that feeling, because you weren't expecting that call, like "Hey, can you demo this to everybody?"
 
 **Maxime Vaillancourt:** Yeah, we weren't.
 
