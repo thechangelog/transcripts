@@ -116,7 +116,7 @@ The way I see it - it's more of a hybrid in between a barebones Ruby app and wha
 
 **Adam Stacoviak:** What was it that really drew you to this rewrite? When did the worst begin to show, so to speak? Obviously, Rails has worked quite well for many years. You've IPO-ed, you're worth lots of money in terms of a company, you're doing amazing... What were the main things that popped up that said "You know what - we really need to get this down"? Was it simply speed and uptime? Was it memory, was it servers falling over? Was it servers on fire? What was it that really struck this cord and said "We need to really fix this two years ago"?
 
-**Maxime Vaillancourt:** \[22:50.0\] I think it was a progressive pain point that kind of -- it never was a big thing that kind of appeared one night. It's just something that with time we started to see performance slowly degrading in terms of response times on the server, and eventually we kind of had to do something about it to improve things.
+**Maxime Vaillancourt:** \[22:48.0\] I think it was a progressive pain point that kind of -- it never was a big thing that kind of appeared one night. It's just something that with time we started to see performance slowly degrading in terms of response times on the server, and eventually we kind of had to do something about it to improve things.
 
 Interesting story - the initial commits for that applications were Tobi himself, who took it upon himself to start something, and as a prototype gets something up and running and make it as lean as possible to get started. And then eventually, that became a team, and we picked it up, and that became the project that we're working on.
 
