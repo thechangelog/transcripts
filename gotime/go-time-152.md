@@ -130,7 +130,7 @@ I don't think we realized even contractual stuff sometimes too, about the fact t
 
 **Erik St. Martin:** Yeah, so actually her team was involved year one. We used them for all of the off-site events - speaker dinner, after party, things like that. And then year two, they took over some of the logistical components of the venue, and all of that stuff. So it's been kind of like a progressive relationship, where each year they've taken on more and more for Brian and I, which has been insanely helpful... Because I think if we had to put in the amount of work that we did the first year or two, I don't think that we would still be doing it. Or at least also being engineers at the same time.
 
-**Mark Bates:** And not losing your mind either... Because it's such a crazy job. We work with Heather and Convention Designs, and they do all of this work... And you watch Heather at a facility, and it's amazing. So you walk around and your Wi-Fi is working at GopherCon - that's not an easy task. Anybody who's ever organized a conference knows that the conference Wi-Fi is a \[unintelligible 00:14:50.07\] She makes sure. She wants that to be good.
+**Mark Bates:** And not losing your mind either... Because it's such a crazy job. We work with Heather and Convention Designs, and they do all of this work... And you watch Heather at a facility, and it's amazing. So you walk around and your Wi-Fi is working at GopherCon - that's not an easy task. Anybody who's ever organized a conference knows that the conference Wi-Fi is a desperate \[unintelligible 00:14:50.07\] She makes sure. She wants that to be good.
 
 You talked about the food earlier? What was it last year - seven different options? Something like that. It was like seven or eight different food options. There's so much involved in all of this. And when you get there and it looks so gorgeous and slick and beautiful and just seamless - you've gotta know that there's people like Heather and all at Convention Designs, and Erik, and Brian, and Mat, and me, and all the CFP people...
 
@@ -544,7 +544,7 @@ But looking at what they do for error handling, I really like that. Obviously, g
 
 **Erik St. Martin:** Turn it into a Week of Go. Let's all get together, celebrate as best as we can at safe distances... But let's just turn it into a whole week. Not just for the people who are attending, but for the broader Go community. Because I know everybody looks forward to the hype around the conference, and everything...
 
-**Mark Bates:** Well, there's usually lots of great announcements, and releases, and all sorts of great stuff at GopherCon, so it's always a fun time to be a part of that lie, to hear the Go team do their keynotes, and stuff like that live, versus waiting a month, or just hearing about it on Twitter. If you're really curious as to what's gonna happen... You watched the Apple event today; why not watch Go Time? Come on.
+**Mark Bates:** Well, there's usually lots of great announcements, and releases, and all sorts of great stuff at GopherCon, so it's always a fun time to be a part of that live, to hear the Go team do their keynotes, and stuff like that live, versus waiting a month, or just hearing about it on Twitter. If you're really curious as to what's gonna happen... You watched the Apple event today; why not watch Go Time? Come on.
 
 **Mat Ryer:** But the Apple event is pre-recorded, from what I could tell... And this is not. GopherCon is live.
 
