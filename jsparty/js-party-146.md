@@ -72,11 +72,11 @@ So these were all very common pain points that people pointed to as reasons why 
 
 **Amal Hussein:** I think I was in that camp, by the way... I was in the camp of "This is like training wheels. I don't need this. I'm a pro." I was in that camp, for the record... \[laughter\] I think I just assumed that it was for newbies, yeah.
 
-**Mark Erikson:** Yeah. And the intent was that it should be helpful for both people who are starting with Redux, but also experts who have written lots of Redux code. So we officially named it to Redux Toolkit and switched to a different package name at reduxj/toolkit on Npm. And it's working out wonderfully.
+**Mark Erikson:** Yeah. And the intent was that it should be helpful for both people who are starting with Redux, but also experts who have written lots of Redux code. So we officially named it to Redux Toolkit and switched to a different package name @reduxjs/toolkit on npm. And it's working out wonderfully.
 
 We are now officially recommending it as THE way to write Redux code. You can still write code by hand if you want to, but the point is you don't have to, and we're no longer teaching that you should do that. And if you look at the downloads rate, it's just a very steady growth on a nice, straight line, angled upwards. I think it actually just broke the 50,000 downloads a day mark on a consistent basis... It's still nowhere close to the actual downloads of the core Redux package, but the adoption has been very solid, and the feedback from the community is telling me that -- you know, I used to hate Redux, and Redux Toolkit made me love it again.
 
-I just migrated our code from plain Redux to Redux Toolkit, and I cut the number of lines of code in half, and so on... So the very, very enthusiastic, positive response tells me we're headed in the right direction.
+Or, I just migrated our code from plain Redux to Redux Toolkit, and I cut the number of lines of code in half, and so on... So the very, very enthusiastic, positive response tells me we're headed in the right direction.
 
 **Jerod Santo:** That sounds great. We're gonna dive deep into Redux Toolkit after the break. But before that, I wanna throw a bit of a curveball at you here...
 

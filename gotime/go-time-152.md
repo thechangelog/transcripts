@@ -426,7 +426,7 @@ But looking at what they do for error handling, I really like that. Obviously, g
 
 **Mark Bates:** Yeah, I'm in the exact same boat.
 
-**Erik St. Martin:** ...on a medium that's going to exist forever? Yeah, I've got a few of them... Tech-wise, full-stack developers are a myth. I think that you can find people who can do all of this stuff, but -- I used to be a senior web developer, and a junior backend developer. Now I'm a principal backend developer and a junior web developer. It's really hard to stay up on all of these topics; so as you evolve in one, you're naturally gonna fall off in others. So I think it's important to -- you may be able to operate on all levels of a stack, but you're not the same level at all levels of the stack; and if you are, you're an amazing human being, and you deserve all of the money.
+**Erik St. Martin:** ...on a medium that's going to exist forever? Yeah, I've got a few of them... Tech-wise, full-stack developers are a myth. I think that you can find people who can do all of this stuff, but -- I used to be a senior web developer, and a junior backend developer. Now I'm a principal backend developer and a junior web developer. It's really hard to stay up on all of these topics; so as you evolve in one, you're naturally gonna fall off in others. So I think it's important to -- you may be able to operate on all levels of the stack, but you're not the same level at all levels of the stack; and if you are, you're an amazing human being, and you deserve all of the money.
 
 **Mark Bates:** \[00:52:41.20\] Thank you.
 
