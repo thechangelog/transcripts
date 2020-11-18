@@ -126,7 +126,7 @@ There is a confusion though, because especially with interfaces versus types, yo
 
 **Amal Hussein:** Oh my God, that sounds like Kotlin, for the folks who write mobile -- Kotlin has this interesting interop story with Java, where you have Java code next to Kotlin code, and I'm like "What is this black magic?!" But that's compilers. That's like the compilers doing all of that context management.
 
-**Ben Ilegbodu:** What I've also found is that TypeScript makes JavaScript approachable to people who write Java, C\#, and stuff like that... \[laughter\]
+**Ben Ilegbodu:** What I've also found is that TypeScript makes JavaScript approachable to people who write Java, C#, and stuff like that... \[laughter\]
 
 **Suz Hinton:** That's very true.
 
@@ -134,13 +134,13 @@ There is a confusion though, because especially with interfaces versus types, yo
 
 **Ben Ilegbodu:** They're like "Oh... I see types, interfaces, classes... Oh yes, I know what to do with this."
 
-**Suz Hinton:** I experienced that at Microsoft as well, watching people be able to move over to it from C\#... But they would still write it in a very C\# way, going back to what we were talking about... So there would be this onion skin of implementations, and I was like "Yup, this is definitely a C\# developer who wrote this."
+**Suz Hinton:** I experienced that at Microsoft as well, watching people be able to move over to it from C#... But they would still write it in a very C# way, going back to what we were talking about... So there would be this onion skin of implementations, and I was like "Yup, this is definitely a C# developer who wrote this."
 
 **Amal Hussein:** Yeah. You can now over-engineer in JavaScript syntax...
 
 **Divya:** Oh, yeah.
 
-**Amal Hussein:** You know, I've been watching TypeScript from a distance, because I've only recently had to learn it because of work, and I literally was avoiding learning it... Because it just didn't speak to my nerd heart. I was too much of a grandma about it. \[laughter\] I understand the benefits now, I see the benefit, but there's still a separation of concerns here which I think the community needs to be clear on, which is that TypeScript is really good at type-checking, and I still don't think we should be using TypeScript to transpile. I think you should be using the @babel/types plugin to transpile, so that you have a separation of concerns... And you only use TypeScript for type checking.
+**Amal Hussein:** You know, I've been watching TypeScript from a distance, because I've only recently had to learn it because of work, and I literally was avoiding learning it... Because it just didn't speak to my nerd heart. I was too much of a grandma about it. \[laughter\] I understand the benefits now, I see the benefit, but there's still a separation of concerns here which I think the community needs to be clear on, which is that TypeScript is really good at type-checking, and I still don't think we should be using TypeScript to transpile. I think you should be using the @babel/types plugin to transpile, so that you have a separation of concerns... And only use TypeScript for type checking.
 
 **Ben Ilegbodu:** That's what I use.
 
@@ -156,7 +156,7 @@ There is a confusion though, because especially with interfaces versus types, yo
 
 **Ben Ilegbodu:** Well, the docs are written for somebody with just your experience; somebody who knows JavaScript, but who's also learned another typed language before. So there's all these analogies for them, like "Oh, when you do it this way, it's like THIS now in TypeScript." So you had to have known the previous typed way before to apply it... And I find that to be challenging in the docs as well.
 
-I've had that background, so I understand it, but I can put myself in plenty of people's shoes where it's like "How would you understand what a generic is based upon how this is explained, if you hadn't used Java generics or C\# generics before?"
+I've had that background, so I understand it, but I can put myself in plenty of people's shoes where it's like "How would you understand what a generic is based upon how this is explained, if you hadn't used Java generics or C# generics before?"
 
 **Divya:** Yeah. It's the same with function overloading. I did not, for the life of me, understand it. I was like "Why would I need this?"
 
@@ -288,7 +288,7 @@ I've found it a really interesting exercise, but at the same time I was so scare
 
 **Suz Hinton:** So avrgirl is usable on the command line... So I didn't usually get very good quality bug reports, and it was really hard to get reports that weren't necessarily bugs either, just to see "Did it work with this microchip? Did the library also work on this operating system? What was the error message, if there was one?" So I ended up making just a secret, hidden command - not so hidden, but just not really functional for you to get your work done, that it was called testpilot. So if you ran the command line avrgirl and then testpilot, it would basically pop up a browser, ask you to authenticate with your GitHub account, and then you could run a bunch of diagnostic tests.
 
-So you would plug in an Arduino, tell it what type of Arduino it was, and then basically there was a backend Node process that could sniff out what operating system you were on, what version of avrgirl you were using, and what version of Node.js you were using. So it would try to kind of do a bunch of stuff with the chip, and then generate a report, and you could anonymize it if you wanted to; I just mostly use GitHub to avoid spam more than anything... And then it would basically go into a database and email me when I had a fresh report.
+So you would plug in an Arduino, tell it what type of Arduino it was, and then basically there was a backend Node process that could sniff out what operating system you were on, what version of avrgirl you were using, and what version of Node.js you were using. So it would try to kind of do a bunch of stuff with the chip, and then generate a report, and you could anonymize it if you wanted to; I just mostly used GitHub to avoid spam more than anything... And then it would basically go into a database and email me when I had a fresh report.
 
 That actually did help me smoke out a lot of bugs with this system, and I ended up with basically -- you can create GitHub issue templates, but not everybody fills them out...
 
@@ -296,7 +296,7 @@ That actually did help me smoke out a lot of bugs with this system, and I ended 
 
 **Suz Hinton:** ...whereas this was a very terse and in a database, so I could perform more kinds of analytics on what's the most popular operating system that people are using testpilot with, and what's the most common error that's coming out of it, and things like that, which was really helpful. So I'm assuming that types would help me probably avoid some of those errors, but we would see.
 
-**Amal Hussein:** Yeah, that's amazing. But you'd actually be able to know that, because you can tell what version they're using, and when you introduce types, did the bug reports go down...
+**Amal Hussein:** Yeah, that's amazing. But you'd actually be able to know that, because you can tell what version they're using, and when you introduced types, did the bug reports go down...
 
 **Suz Hinton:** Totally, yeah.
 
@@ -538,7 +538,7 @@ So just to think - you know, if you don't offer a way in which users can underst
 
 **Divya:** Yes.
 
-**Suz Hinton:** And Divya, I think you touched on a really important point there, where - yes, it makes it easier for you to basically provide a strict documentation, especially if someone doesn't use VS Code; for example, I use Vim, and I don't like to clutter it up with lots of plugins... So I'm generally not benefitting from the autocomplete in that way. But at the same time, I'm an experienced developer, so I can grok documentation very quickly. So just give me something to go with...
+**Suz Hinton:** And Divya, I think you touched on a really important point there, where - yes, it makes it easier for you to basically provide strict documentation, especially if someone doesn't use VS Code; for example, I use Vim, and I don't like to clutter it up with lots of plugins... So I'm generally not benefitting from the autocomplete in that way. But at the same time, I'm an experienced developer, so I can grok documentation very quickly. So just give me something to go with...
 
 So I want to remind people that TypeScript can actually help you at least generate the docs at the bare minimum, so there's no excuse for doing it and making people splunk through source code.
 
