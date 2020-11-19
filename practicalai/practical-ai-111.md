@@ -142,7 +142,7 @@ So I didn't last very long as an intern, because I just really wanted to fix the
 
 **Chris Benson:** Yeah.
 
-**Lukas Biewald:** So, look at them be out of date again. But this wasn't even the problem that I was trying to solve with Weights & Biases initially. The thing that was really striking to me was just that you -- it's really hard to go back and look at a run that you did in the past. This is something that's always been true with any kind of long-running thing, but I think with deep learning your runs often take days. So you want to get a sense for if they're working right away, and you wanna really have a good record of everything that happened, from system metrics, to exactly what was the last commit that went into your code...
+**Lukas Biewald:** So, look at me, I'm out of date again. But this wasn't even the problem that I was trying to solve with Weights & Biases initially. The thing that was really striking to me was just that you -- it's really hard to go back and look at a run that you did in the past. This is something that's always been true with any kind of long-running thing, but I think with deep learning your runs often take days. So you want to get a sense for if they're working right away, and you wanna really have a good record of everything that happened, from system metrics, to exactly what was the last commit that went into your code...
 
 Everyone has these notebooks - in their Emacs or VS Code, or maybe a Google Doc if you're really advanced - where they're just kind of typing, "Here's all the things I did, and here's what happened."
 
