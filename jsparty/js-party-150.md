@@ -88,7 +88,7 @@ But you changed the world, and there is no doubt.
 
 So thank you, jQuery for the amazing ride,
 
-Dollar sign left parent, document, right parent dot hide.
+Dollar sign left paren, document, right paren dot hide.
 
 **Amal Hussein:** \[laughs\]
 
@@ -188,9 +188,9 @@ But I was trying to think of things that I really would reach to jQuery for back
 
 **Jerod Santo:** Yeah, I agree that the CSS selector-based interaction was really what made jQuery take off... Because it was so easy to learn, especially alongside CSS selectors; you were already learning how to select elements via CSS selectors in order to style that with your CSS... And you could learn right alongside that how to grab those elements and manipulate them in JavaScript via using that exact same syntax inside of a string.
 
-\[00:15:48.11\] I think that was probably what did it -- now, there's always a bunch of conspirate events that make something transcend, but jQuery really became... I mean, React in mindshare is getting to that place, but it's not where jQuery was. jQuery was so pervasive that there were people that were jQuery developers. And I know there's people that are like "I'm a React developer", and I advise against doing that; please don't do that. If you need to market your skills, like "I know React" - fine. But don't define yourself as a React developer. People who are defining themselves in mass quantities as a jQuery developer - they didn't know that it was JavaScript. They thought that it was jQuery. That's how pervasive and ubiquitous it was.
+\[00:15:48.11\] I think that was probably what did it -- now, there's always a bunch of conspiring events that make something transcend, but jQuery really became... I mean, React in mindshare is getting to that place, but it's not where jQuery was. jQuery was so pervasive that there were people that were jQuery developers. And I know there's people that are like "I'm a React developer", and I advise against doing that; please don't do that. If you need to market your skills, like "I know React" - fine. But don't define yourself as a React developer. People who were defining themselves in mass quantities as a jQuery developer - they didn't know that it was JavaScript. They thought that it was jQuery. That's how pervasive and ubiquitous it was.
 
-Now, by the way, those people who are jQuery developers - how transferable are their skills into today's economy? Not very transferable, right? If they deem themselves a JavaScript developer, or - hey, drop the prefix altogether; be a software developer. Now you can play in any pool. But that selector engine was so game-changing it really made jQuery take off.
+Now, by the way, those people who were jQuery developers - how transferable are their skills into today's economy? Not very transferable, right? If they deem themselves a JavaScript developer, or - hey, drop the prefix altogether; be a software developer. Now you can play in any pool. But that selector engine was so game-changing it really made jQuery take off.
 
 **Kevin Ball:** The combination of the selector engine and the kind of functional mindset for manipulating sets of elements - this idea of "Hey, I'm gonna use a selector to get a set of DOM elements..." They're just gonna be arrays, and I can filter them, and I can map them, and I can manipulate them.
 
