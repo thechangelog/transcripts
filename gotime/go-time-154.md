@@ -446,7 +446,7 @@ Go Time records on Tuesdays, one of the worst days of the week. JS Party records
 
 **Jerod Santo:** Please do. Give us a taste.
 
-**Mat Ryer:** So here's Jack Sparrow reading filepath.Walk. \[in Jack Sparrow voice\] "Walk walks the file tree rooted at root, mate, calling walkFn for each file or directory in the tree, including root. All errors that arise visiting files and directories are filtered by walkFn. The files are walked in lexical order, mate, which makes the output deterministic, but means that for very large directories Walk can be inefficient. Walk does not follow symbolic links." \[laughter\]
+**Mat Ryer:** So here's Jack Sparrow reading filepath.Walk. \[in Jack Sparrow voice\] "Walk walks the file tree rooted at root, mate, calling walkFn for each file or directory in the tree, including root. All errors that arise visiting files and directories are filtered by walkFn. The files are walked in lexical order, mate, which makes the output deterministic, but means that for very large directories Walk can be inefficient. Walk does not follow symbolic links. Savvy?" \[laughter\]
 
 **Jerod Santo:** Okay, I take it back. Go Time is better.
 
