@@ -208,15 +208,15 @@ So if were using GitOps with Changelog, there would be a commit for every single
 
 **Jerod Santo:** Right.
 
-**Gerhard Lazu:** What we don't have - we don't apply those changes by some sort of like an automated system. It's either you, or me, that says "Apply". But we have make targets which apply all those things, and that's how we roll out changes. But for the app, what changes a lot more often - we don't have commands, we don't have a CI running commands every single time there's an update. We don't do that. We have Keel that automatically updates whatever is running in production.
+**Gerhard Lazu:** What we don't have - we don't apply those changes by some sort of like an automated system. It's either you, or me, that says "Apply". But we have make targets which apply all those things, and that's how we roll out changes. But for the app, which changes a lot more often - we don't run commands, or we don't have a CI running commands every single time there's an update. We don't do that. We have Keel that automatically updates whatever is running in production.
 
-**Jerod Santo:** And why would the GitOps advocates say that we're "doing it wrong"? It's because they want that history. They want that to be like an atomic aspect of their application; deployments to be explicit, atomic, logged things. Is that why?
+**Jerod Santo:** And why would the GitOps advocates say that we're "doing it wrong"? It's because they want that history? They want that to be like an atomic aspect of their application; deployments to be explicit, atomic, logged things. Is that why?
 
 **Gerhard Lazu:** Yes, that's one of the reasons. The other reason - the more important one - is you always know what you're running in production. So if I asked you "What version of the app we're running now in production?", you say "Master." But master always changes.
 
 **Jerod Santo:** Sure.
 
-**Gerhard Lazu:** So imagine if you're deploying 100 instances of your app - just imagine about that for a second... If you're deploying 100 app instances, by the time the 90th instance gets spun up, if it's looking at master, it may pull a different version, because master may have changed during the deployment. And if you have many developers pushing lots of code, and master always keep changing, then you could have multiple version of your application running and you wouldn't even know it.
+**Gerhard Lazu:** So imagine if you're deploying 100 instances of your app - just imagine about that for a second... If you're deploying 100 app instances, by the time the 90th instance gets spun up, if it's looking at master, it may pull a different version, because master may have changed during the deployment. And if you have many developers pushing lots of code, and master always keeps changing, then you could have multiple versions of your application running and you wouldn't even know it.
 
 **Jerod Santo:** Gotcha.
 
@@ -414,7 +414,7 @@ We can see the container is creating both the application and the database. We c
 
 So four minutes, container creating... Let's see what's the state of it. If we describe it - successfully assigned, the multi attach was fixed... Let's see if we look at the logs; there's nothing there. Database backup; still container creating. We're in container creating.
 
-This one's ready now -- no, sorry; it has just readiness probe. Let's see what state it's in. Still container creating. The database is already running, that's a good sign; there we go, we have PostreSQL secondary, and following a leader, so this is the leader now... The leadership changed. I'm not going to go into details now...
+This one's ready now -- no, sorry; it has just readiness probe. Let's see what state it's in. Still container creating. The database is already running, that's a good sign; there we go, we have PostgreSQL secondary, and following a leader, so this is the leader now... The leadership changed. I'm not going to go into details now...
 
 **Jerod Santo:** No, I like this. I feel like you could be a play-by-play commentator.
 
