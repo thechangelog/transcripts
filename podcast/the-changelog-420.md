@@ -244,19 +244,19 @@ One of the places where I saw this applied really well was a closed source shop 
 
 **George Neville-Neil:** \[00:39:52.06\] My real belief here is that our tools now should be smart enough that it doesn't matter. There should be a hidden indent character - I suggested a particular character in the latest piece - and then your editor should render it the way you think it should be rendered. Vim and Emacs and Eclipse and all the modern IDEs, Visual C and all this stuff - they can all do this for us... Instead of it being like "Oh no, only two spaces. No, only four spaces. No, eight spaces. No, it's a tab."
 
-I mean, for my eyes, which are now in their 50s, and I've always worn glasses as well, the two-space indents - they don't fly for me. That was always the GNU standard, which was what was used to write Emacs and GCC. Two-character indents just don't give me enough of a clue of where things start and stop. So I was always a fan of more indents in that. But it doesn't have to be done with spaces or tabs, it can be done with anything at this point, and people should stop arguing about that.
+I mean, for my eyes, which are now in their 50s, and I've always worn glasses as well, the two-space indents - they don't fly for me. That was always the GNU standard, which was what was used to write Emacs and GCC. Two-character indents just don't give me enough of a clue of where things start and stop. So I was always a fan of more indents than that. But it doesn't have to be done with spaces or tabs, it can be done with anything at this point, and people should stop arguing about that.
 
 **Adam Stacoviak:** Yeah. It's interface. It doesn't have to actually be a character to represent -- it's really presentation, right? It's a presentation layer.
 
 **George Neville-Neil:** Yeah. I mean, think of it like a PDF.
 
-**Jerod Santo:** Isn't that the argument for tabs though? Like with a tab stop, you can represent that however you want, but the Tab itself could be that character that represents how many indents you desire as the author? I'm not a tabs guy, but I think that's the tabbers argument.
+**Jerod Santo:** Isn't that the argument for tabs though? Like with a tab stop, you can represent that however you want, but the tab itself could be that character that represents how many indents you desire as the author? I'm not a tabs guy, but I think that's the tabber's argument.
 
-**George Neville-Neil:** That is one of the tabbers argument. The problem is that people have gotten so tied to the tab character that I picked a character that is not -- well, it's certainly printable, but you wouldn't want it to show up in your code.
+**George Neville-Neil:** That is one of the tabber's arguments. The problem is that people have gotten so tied to the tab character that I picked a character that is not -- well, it's certainly printable, but you wouldn't want it to show up in your code.
 
 **Jerod Santo:** Okay, I'm curious...
 
-**George Neville-Neil:** Well, it's the unicode character for the poo of course, because that way when you turn on what the unicode characters look like, all your indent are poos.
+**George Neville-Neil:** Well, it's the unicode character for the poo of course, because that way when you turn on what the unicode characters look like, all your indents are poos.
 
 **Jerod Santo:** Okay...
 
@@ -288,17 +288,17 @@ I despise single-character variables outside of simple loops.
 
 **Jerod Santo:** Yeah, there are times, right?
 
-**George Neville-Neil:** Yup. \[unintelligible 00:43:09.20\] But please do not name the two most important sockets in your 50,000-line routing daemon r and s.
+**George Neville-Neil:** Yup. For i = 1-10 is fine. But please do not name the two most important sockets in your 50,000-line routing daemon r and s.
 
 **Jerod Santo:** What if those are your initials, and you wanna put your stamp on it? Come on! \[laughter\]
 
-**George Neville-Neil:** Yeah... You're trying to find all instances of the variable r, and you're like -- and it's a global variable, because that's \[unintelligible 00:43:32.06\] and you're like "Ugh... Awful."
+**George Neville-Neil:** Yeah... You're trying to find all instances of the variable r, and you're like -- and it's a global variable, because that's the way the person wrote the code, and you're like "Ugh... Awful."
 
 **Jerod Santo:** Right. I heard lore of a guy who used Lord of the Rings characters for all variables in his entire software, and he had been there for years; this was like some form of job security. So you could go that route...
 
 **George Neville-Neil:** I guess I'm gonna set Gandalf to 1... But do we have Gandalf the grey and Gandalf the white...? \[laughs\]
 
-**Jerod Santo:** Yeah, it gets tricky... But you know, "We can't fire that guy." Don't do this at home, kids; this is bad practice.
+**Jerod Santo:** Yeah, it gets tricky... But you know, "You can't fire that guy." Don't do this at home, kids; this is bad practice.
 
 **George Neville-Neil:** Yeah. Kode Vicious says do not pick names from Lord of the Rings. Pick something descriptive.
 
