@@ -10,7 +10,7 @@
 
 **Nick Nisi:** Hoy-hoy!
 
-**Amal Hussein:** Hey-hey. And we're so excited to have Divya here on a show that's about div ops... We'll have to get all the bad puns out of the way now...
+**Amal Hussein:** Hey-hey. And we're so excited to have Divya here on a show that's about DivOps... We'll have to get all the bad puns out of the way now...
 
 **Jonathan Creamer:** Div-yeah...!
 
@@ -22,13 +22,13 @@
 
 **Divya:** Very good, very good.
 
-**Amal Hussein:** So Jonathan is here because we had a show with Ben Ilegbodu a few weeks ago, where we were talking about TypeScript... And Ben brought up this term called div ops. We all leaned into that, we were like "div ops?!" and he's like "Yeah. You know, I have a friend, and he's trying to make it a thing, and I'm trying to help him..." I'm like "Well, it's a thing now..."
+**Amal Hussein:** So Jonathan is here because we had a show with Ben Ilegbodu a few weeks ago, where we were talking about TypeScript... And Ben brought up this term called DivOps. We all leaned into that, we were like "DivOps?!" and he's like "Yeah. You know, I have a friend, and he's trying to make it a thing, and I'm trying to help him..." I'm like "Well, it's a thing now..."
 
 **Jonathan Creamer:** It's a thing.
 
 **Amal Hussein:** Yeah, so welcome, Jonathan. Can you tell us a little bit about yourself?
 
-**Jonathan Creamer:** Yeah, thanks. So Ben and I worked at Eventbrite together; he actually brought me on to Eventbrite, which was really fun... So that's how we're friends. We used to see each other at conferences all the time, where we'd talk about div ops things at the time, but we hadn't quite coined that term... So yeah, the DivOps thing happened because inside of Eventbrite I'm on the frontend infrastructure team, and that's kind of one of the more common terms you hear for describing a team that does the kind of work that we'll talk about, what DivOps does... But Kyle Welch, my co-worker and now manager - we used to talk about this all the time.
+**Jonathan Creamer:** Yeah, thanks. So Ben and I worked at Eventbrite together; he actually brought me on to Eventbrite, which was really fun... So that's how we're friends. We used to see each other at conferences all the time, where we'd talk about DivOps things at the time, but we hadn't quite coined that term... So yeah, the DivOps thing happened because inside of Eventbrite I'm on the frontend infrastructure team, and that's kind of one of the more common terms you hear for describing a team that does the kind of work that we'll talk about, what DivOps does... But Kyle Welch, my co-worker and now manager - we used to talk about this all the time.
 
 \[00:04:17.27\] So I'm on frontend infrastructure, I'm technically a frontend developer. I've been writing code for ten years, a lot of backend stuff, C\#, ColdFusion, then to Node and JavaScript. Tons of JavaScript. But frontend-wise, I actually don't write that much frontend code anymore. I prefer TypeScript now to do that...
 
@@ -36,7 +36,7 @@
 
 **Jonathan Creamer:** Yes, of course! But I don't actually write much client-side facing frontend code anymore. I use frontend tools to build; tools that allow other frontend engineers to do their job... Because we're a big React shop, so it's complicated. There's a lot of stuff that goes into building a web page today... And I know we'll talk about it here in a minute, what led up to that.
 
-So yeah, we were sitting there, talking, and we were like \[unintelligible 00:05:06.21\] So I sort of tweeted out, and asked the community; we got a couple different answers, and some people said frontend SRE, frontend ops, \[unintelligible 00:05:18.09\] The most popular one actually was frontend dev ops, and \[unintelligible 00:05:22.18\] And that still was like "Well, that's fine... Frontend dev ops sort of makes sense..." But then actually what happened was this guy Enrique was the one -- Enrique Staying on Twitter; he said "Frontend engineers who manage infra should be called &lt;div&gt;ops", and he actually put the angle brackets in there... And I just latched on to that immediately, and I was like "Oh my god, that is AMAZING. Div ops."
+So yeah, we were sitting there, talking, and we were like \[unintelligible 00:05:06.21\] So I sort of tweeted out, and asked the community; we got a couple different answers, and some people said frontend SRE, frontend ops, \[unintelligible 00:05:18.09\] The most popular one actually was frontend DevOps, and \[unintelligible 00:05:22.18\] And that still was like "Well, that's fine... Frontend DevOps sort of makes sense..." But then actually what happened was this guy Enrique was the one -- Enrique Staying on Twitter; he said "Frontend engineers who manage infra should be called &lt;div&gt;ops", and he actually put the angle brackets in there... And I just latched on to that immediately, and I was like "Oh my god, that is AMAZING. DivOps."
 
 And the moment that that came up, I started going to some conferences... We went to this conference called Connect.Tech in Atlanta, and I started pitching the idea there, and everybody was like "Oh, this is amazing. Yeah, do something with it!"
 
@@ -44,7 +44,7 @@ So Kyle and I started this DivOps community on Slack, and I sort of blogged abou
 
 **Amal Hussein:** Because you're ops, right? I would expect nothing les...
 
-**Jonathan Creamer:** I did an amazing GitHub Actions build pipeline though, to merge from master... So the CI is fantastic. But yeah, so div ops to me is what goes in all this tooling that we have to write to get all the other folks that work on frontend stuff get their stuff to the internet, so people can see it. Nobody sees my stuff necessarily, but people see the stuff that I help get out there.
+**Jonathan Creamer:** I did an amazing GitHub Actions build pipeline though, to merge from master... So the CI is fantastic. But yeah, so DivOps to me is what goes in all this tooling that we have to write to get all the other folks that work on frontend stuff get their stuff to the internet, so people can see it. Nobody sees my stuff necessarily, but people see the stuff that I help get out there.
 
 **Amal Hussein:** Yeah, you're the pipeline.
 
@@ -148,7 +148,7 @@ I think that's a positive, because it means that people don't have to learn a lo
 
 \[00:19:56.22\] So I think from that perspective we sort of just all had to find the ways to take what we had done and build our own little frameworks around them, and that's where teams like \[unintelligible 00:20:07.04\] taking us into the future, taking the company into the future with React.
 
-**Nick Nisi:** Cool. Just to kind of close up this section, I had one more question... Where would you delineate the difference between dev ops and div ops? Is it strictly JavaScript tooling? Is div ops and then everything else might be dev ops? Repo management can be something that a team takes advantage of, for example. Which side would that be on? And what are your thoughts on YAML?
+**Nick Nisi:** Cool. Just to kind of close up this section, I had one more question... Where would you delineate the difference between DevOps and DivOps? Is it strictly JavaScript tooling is DivOps, and then everything else might be DevOps? Repo management can be something that a team takes advantage of, for example. Which side would that be on? And what are your thoughts on YAML?
 
 **Jonathan Creamer:** \[laughs\] Well, we're switching--
 
@@ -158,11 +158,11 @@ I think that's a positive, because it means that people don't have to learn a lo
 
 **Divya:** Nice.
 
-**Jonathan Creamer:** So I would say that it's a very blurry line. The ideal line, and this is one that I had at LonelyPlanet, where I came from before Eventbrite, which is really great... We partnered with our dev ops team to have them help us create some infrastructure patterns and paradigms to where they sort of did for us what I'm doing for my engineering customers from frontends. They would create -- you know, if you copy this Jenkins file, there's a couple macros in here that will build your stuff... And then just took this Kubernetes manifest...
+**Jonathan Creamer:** So I would say that it's a very blurry line. The ideal line, and this is one that I had at LonelyPlanet, where I came from before Eventbrite, which is really great... We partnered with our DevOps team to have them help us create some infrastructure patterns and paradigms to where they sort of did for us what I'm doing for my engineering customers from frontends. They would create -- you know, if you copy this Jenkins file, there's a couple macros in here that will build your stuff... And then just took this Kubernetes manifest...
 
-So that sort of give and take between dev ops and then my world -- it's like, I understand the dev ops flows and how to create my own infrastructure when I need to; I don't necessarily need to get into networking VPCs, and routing HTTP traffic. I can, and I like to understand that stuff, but that partnership with dev ops or SRE is, I think, the ideal place where we can create an API, like anything else. And same thing I'm talking about with this tooling stuff. It's like, "How do I work with the dev ops team? What levels, what touchpoints do we have?" and sort of building that understanding between the two.
+So that sort of give and take between DevOps and then my world -- it's like, I understand the DevOps flows and how to create my own infrastructure when I need to; I don't necessarily need to get into networking VPCs, and routing HTTP traffic. I can, and I like to understand that stuff, but that partnership with DevOps or SRE is, I think, the ideal place where we can create an API, like anything else. And same thing I'm talking about with this tooling stuff. It's like, "How do I work with the DevOps team? What levels, what touchpoints do we have?" and sort of building that understanding between the two.
 
-**Amal Hussein:** That's super-cool, Jonathan. I think what's really interesting for me is this convergence of these two worlds that in previous lives never talked to each other. You have opsy, infra, cloud, CI folk, and you have folks who are writing JavaScript that are maybe at the tip of the spear... It's this really nice full circle with div ops, so thank you so much for talking to us about this cool topic. We'll get into tooling and all the other fun stuff you kids can't wait for next.
+**Amal Hussein:** That's super-cool, Jonathan. I think what's really interesting for me is this convergence of these two worlds that in previous lives never talked to each other. You have opsy, infra, cloud, CI folk, and you have folks who are writing JavaScript that are maybe at the tip of the spear... It's this really nice full circle with DivOps, so thank you so much for talking to us about this cool topic. We'll get into tooling and all the other fun stuff you kids can't wait for next.
 
 **Break:** \[00:22:41.12\]
 
@@ -170,7 +170,7 @@ So that sort of give and take between dev ops and then my world -- it's like, I 
 
 **Jonathan Creamer:** Yes.
 
-**Amal Hussein:** That was a really cool insight into div ops. And with Divya mentioning this separation of concerns, where Create React App has been create to abstract away all of the complexity around managing your configs, and lets you focus on just learning the tool... It's really nice that the community at large is starting to take that. We've seen even just with WebPack 4, many years ago there was -- I think they introduced the zeroconfigs there, as well.
+**Amal Hussein:** That was a really cool insight into DivOps. And with Divya mentioning this separation of concerns, where Create React App has been create to abstract away all of the complexity around managing your configs, and lets you focus on just learning the tool... It's really nice that the community at large is starting to take that. We've seen even just with WebPack 4, many years ago there was -- I think they introduced the zeroconfigs there, as well.
 
 \[00:24:17.25\] I've been around long enough to remember Karma was a tool that was super-widely adopted, and is still widely adopted today because of the way legacy stuff works... But I was the one person that had to set up all the configs for all my teams, because no one ever really got it. Docs were pretty poor... We've come a long, long way in terms of tooling, defaults etc. But can you give us an overview of what you consider to be really the best in class tooling landscape for frontend teams in 2020? If I was starting a project today, what would I need, and how should we go about setting it up?
 
@@ -180,7 +180,7 @@ I know eventually for teams that cannot support legacy stuff, Snowpack sounds pr
 
 Babel, obviously, has gotten so good now that it can even transpile TypeScript, generally. You guys talked a little bit about that last week with Ben... Because the TypeScript compile is really good, but it's like, it doesn't match sometimes with what -- I'm already doing all this sort of stuff in Babel, so the fact that I can now do TypeScript is fantastic.
 
-And then in terms of other tooling that they were using at Eventbrite that I would say is pretty useful industry-wide and pretty good standards is - we have a big monorepo actually of our frontend code, which... Say what you want about monorepos; there's definitely contentiousness about monorepos versus multi-repos, but for us, what we have chosen to do with our tooling stack, and all this div ops stuff, is - we're using a tool called Bolt, which is very similar to Lerna, built by the same guy, Jamie... And we're able to... Basically, we have about 150 different frontend packages, and we can go in and say -- our design system is in there, our tiny little packages that control widgets on the page are in there... And then entire applications are in there.
+And then in terms of other tooling that they were using at Eventbrite that I would say is pretty useful industry-wide and pretty good standards is - we have a big monorepo actually of our frontend code, which... Say what you want about monorepos; there's definitely contentiousness about monorepos versus multi-repos, but for us, what we have chosen to do with our tooling stack, and all this DivOps stuff, is - we're using a tool called Bolt, which is very similar to Lerna, built by the same guy, Jamie... And we're able to... Basically, we have about 150 different frontend packages, and we can go in and say -- our design system is in there, our tiny little packages that control widgets on the page are in there... And then entire applications are in there.
 
 We have tools built that can detect -- you know, if I change the button in my component system, I can see the downstream effects across my entire repo... Which is actually really hard in a multi-repo setup, unless you're gonna write some crazy tooling to go about all these different repositories.
 
@@ -218,7 +218,7 @@ So Snowpack is really great; a lot of frontend teams are starting to adopt it. W
 
 **Jonathan Creamer:** Yes, because Nick. So what we have enforced, which is a little different, and one of the things that Bolt does at its core - which, Bolt is one thing, it's like a thing, but at its core what we wanted to enforce with our monorepo was there's a consistent version of every package across the entire repo. You can't have multiple versions of React in our world. We don't support it; we don't want it. We want everything to be consistent, so that way we can predict things better, and there's not forking Node module folders, where one of the packages in my repo required React 16.9 and the next one required 16.12. That causes all these other downstream -- it's just crazy.
 
-So literally, if you would ask for a Babel plugin at 6.17.1, that's the only one that's gonna exist in the repo at any moment, period. We don't allow it; we'll fill the build. You can't do that. So we enforce that pretty strictly...
+So literally, if you would ask for a Babel plugin at 6.17.1, that's the only one that's gonna exist in the repo at any moment, period. We don't allow it; we'll fail the build. You can't do that. So we enforce that pretty strictly...
 
 And in terms of that, going to the next build pattern or the new upgrade and dealing with those breaking changes... And even -- we do a ton of migrating things; we've gone from WebPack 2, to 3, to 4, and how did that work; we've moved code around... We write a lot of Babel plugins for doing code mods, actually, which is really powerful, and fundamental to how Babel itself actually works. It's this concept of an abstract syntax tree (AST), if you're not familiar. ASTexplorer.com kind of describes it. It's basically a way for you to write code, and that code can then get compiled down into a tree of like "This is a variable. This is a function etc" And then you can easily go in and replace a function call with something else, or whatever... Which is actually how Babel works under the covers, and why all of a sudden I didn't have to use tsc to compile my TypeScript anymore, because Babel released their own AST parser for TypeScript... Which was super-handy, because now I can use babel/preset-env and babel/present-typescript, and babel/preset-commonJS to whatever, or dynamic imports... And you can kind of combine these Babel plugins into something that makes sense for what your team's targeting. We've still gotta support IE11, at least for a minute; hopefully we're gonna kill that, maybe in 2021, hopefully. We'll see. And we wanna support private fields, or whatever. You can do all that kind of stuff, because under the covers you're using these cool AST things.
 
@@ -252,7 +252,7 @@ So our team actually has written several different ASTs to help us convert from 
 
 **Jonathan Creamer:** Yeah, they have like a -- if you ever just go look... I've just dug into TypeScript before, the compiler - it's insane. God, it's insane. And it's a massively different way of looking at ASTs than Babel does, too. It's literally just this huge, long file, the TypeScript compiler; it's crazy. It's fun though, I love it.
 
-**Nick Nisi:** I have a question from a workflow standpoint. So when you're setting up these tools, and maybe as somebody who works more directly on the frontend, but they have a change that they wanna make - maybe a config change, or a tooling change, or bringing in some new tooling... How does that work? Does it go to you as a ticket? I'm just curious about the delineation... I asked about dev ops and div ops; now frontend and div ops.
+**Nick Nisi:** I have a question from a workflow standpoint. So when you're setting up these tools, and maybe as somebody who works more directly on the frontend, but they have a change that they wanna make - maybe a config change, or a tooling change, or bringing in some new tooling... How does that work? Does it go to you as a ticket? I'm just curious about the delineation... I asked about DevOps and DivOps; now frontend and DivOps.
 
 **Jonathan Creamer:** Yeah, sure. That's a great question. We leverage the code owner's file pretty heavily at Eventbrite. We on the frontend infrastructure team own everything that is not owned explicitly by a team. So we have certain teams that own the packages, whatever, this folder; or this folder, that folder. And then everything else falls through to us. But what that means is -- we just had a guy from our \[unintelligible 00:41:55.07\] office come in and say "Hey, I've noticed that the Storybook Addons ticket that you guys have put into GitHub a while ago has a help wanted tag. Can I help?" I'm like, "Absolutely. That's why I've put that label on it."
 
@@ -262,7 +262,7 @@ My name is gonna get attached to the pull request as a code owner, and I'll see 
 
 So yeah, very encouraged. We definitely push hard on telling teams "Don't just treat this as Jonathan, Kyle and Alex's project. This is everyone's thing. If you find areas where it sucks, tell us, and fix it with us, and work at it together."
 
-**Amal Hussein:** Wow... That's so incredible. I also love that y'all are using the GitHub owner's files, because I'm assuming -- because you're a monorepo, so you use the GitHub owner's file to figure out who should be tagged on pull requests, and who should approve XYZ. That's a little bit into div ops a tiny bit, right
+**Amal Hussein:** Wow... That's so incredible. I also love that y'all are using the GitHub owner's files, because I'm assuming -- because you're a monorepo, so you use the GitHub owner's file to figure out who should be tagged on pull requests, and who should approve XYZ. That's a little bit into DivOps a tiny bit, right
 
 **Jonathan Creamer:** Yeah, definitely.
 
@@ -278,7 +278,7 @@ So yeah, very encouraged. We definitely push hard on telling teams "Don't just t
 
 **Jonathan Creamer:** Every package; not like down to source components or whatever, but the package at that level does.
 
-**Amal Hussein:** Yeah, that's amazing. Well, the div ops, automating code ownership. This is super-cool.
+**Amal Hussein:** Yeah, that's amazing. Well, the DivOps, automating code ownership. This is super-cool.
 
 **Jonathan Creamer:** \[00:44:11.29\] Yes, it's all about automating.
 
@@ -292,15 +292,15 @@ So yeah, very encouraged. We definitely push hard on telling teams "Don't just t
 
 **Nick Nisi:** What you described is actually very similar to what happens at the company I'm at. We have a team like that that works on also a monorepo. We're using Lerna for that, but very much a monorepo to make sure we're all on the same version of React, using the same version of TypeScript, things like that.
 
-Some of the things that they do are kind of -- I'd say like almost doing spikes to figure out the future of things, or maybe analyzing where things might go from an architectural standpoint across all of the projects that we're doing. Is that something that you would also put into the role of div ops traditionally?
+Some of the things that they do are kind of -- I'd say like almost doing spikes to figure out the future of things, or maybe analyzing where things might go from an architectural standpoint across all of the projects that we're doing. Is that something that you would also put into the role of DivOps traditionally?
 
-**Jonathan Creamer:** Yeah, this is something that we've been trying to figure out even within our own team - how do we draw the lines between the systems sort of side of div ops, and the actual architecture side of div ops. I love both sides of that, so it's actually very hard still in my own head; I like doing both, so I don't know. I will say, functionally, yes, we do have a lot of input into the architecture that goes into the monorepo itself.
+**Jonathan Creamer:** Yeah, this is something that we've been trying to figure out even within our own team - how do we draw the lines between the systems sort of side of DivOps, and the actual architecture side of DivOps. I love both sides of that, so it's actually very hard still in my own head; I like doing both, so I don't know. I will say, functionally, yes, we do have a lot of input into the architecture that goes into the monorepo itself.
 
 Not only are we trying to help make sure that the build tools and systems (putting everything together) work, we are also trying to help steer... You know, right now we have 95 different applications; they're all using React, they're all using Redux... Like, should we squish those into a few and maybe have Next.js orchestrate those things together? And should we use Redux Form anymore? We use Redux Form pretty heavily; should we switch to something else?
 
 We've been having a lot of conversations in our frontend guild meetings about stopping using Redux Form as much in switching to hooks, because now we can use hooks. For a long time we couldn't use hooks, because we were stuck on React 15.8, or whatever it was. So that side of my head \[unintelligible 00:47:22.23\] on its game a lot of the time too, because I get asked about those questions... And then I get asked to do mentoring. Because I've been doing this for ten years, and then I'm also mentoring folks on how application architecture should work, while also maintaining that stack...
 
-So yeah, I think it does fit in. It's a wide umbrella, this div ops thing, which is part of why I like calling it out, and just that awareness of everything that I have to deal with... Just writing it down; it's like, "Okay, those are the things", and I can just visualize it all now, which is great.
+So yeah, I think it does fit in. It's a wide umbrella, this DivOps thing, which is part of why I like calling it out, and just that awareness of everything that I have to deal with... Just writing it down; it's like, "Okay, those are the things", and I can just visualize it all now, which is great.
 
 **Nick Nisi:** Yeah, I really like the idea of a team dedicated to improving the productivity of everybody else on the team, because otherwise that stuff just kind of gets pushed to the side a lot, or it happens not as part of your regular assigned task, and it's hard to get that assigned. So it's really good that there's somebody looking out for that, or a team looking out for the best interests of the development experience, while not taking away from the developers actually working on the user experience, and things like that. So it's really beneficial from that standpoint.
 
@@ -318,7 +318,7 @@ People jump from team to team inside of Eventbrite, and we even want new hires t
 
 **Jonathan Creamer:** Throughout the course of my career I've been at the benefit of having a lot of good project and product managers, that helped me do that... So we constantly are focused -- and inside of Eventbrite that's one of our big mantras, trying to make the lives of our customers better... Whether that be on the feature team for the folks creating events, or in the case of our foundations teams, helping those engineers just live better lives, and have fun writing code. No one wants to wake up every morning -- especially now we're all at home, nobody wants to just wake up and hate the environment that you're working in. We wanna make it better.
 
-**Amal Hussein:** Yeah, that's super-cool. I'm just impressed... The culture of good ops folks, traditional dev ops people - they're extremely customer-oriented, and there's this strong communication factor, because they're typically the ones coordinating a bunch of teams that are very siloed, and you're the common denominator...
+**Amal Hussein:** Yeah, that's super-cool. I'm just impressed... The culture of good ops folks, traditional DevOps people - they're extremely customer-oriented, and there's this strong communication factor, because they're typically the ones coordinating a bunch of teams that are very siloed, and you're the common denominator...
 
 **Jonathan Creamer:** Yeah.
 
@@ -394,11 +394,11 @@ I think it is a luxury to have a team dedicated to frontend infrastructure, and 
 
 **Jonathan Creamer:** Right. I think it kind of comes back to -- I heard this quote once when I was learning about all these different design patterns. Somebody said something like "Design patterns aren't created, they're discovered." And I think that's so true for this build stuff as well. Without us having gone crazy out there on these WebPack configs that are like 1,000 lines long, we wouldn't have arrived on what that webpack -p mode does. We had to kind of go crazy for a little bit...
 
-I sort of think we have reached a point at which the innovation has sort of leveled out a little bit. Snowpack is a more recent one, but... Finally, that JS fatigue -- I remember going to conferences a couple years ago, and every talk was about JS fatigue. I've seen less of that now. I think we're finally getting over that hump, to a certain extent, because people went off and innovated, and now we've sort of found those common denominators about what things need to be there... And now that's why you're seeing frameworks like Next, and Gatsby, and Create React App, and Create Next App, and all these things become more popular. And then maybe the evolution to that is -- you know, we talked a little bit in the break again about where do we in the future; maybe tools like Rust can come in and help speed things up, and who knows what's gonna happen next.
+I sort of think we have reached a point at which the innovation has sort of leveled out a little bit. Snowpack is a more recent one, but... Finally, that JS fatigue -- I remember going to conferences a couple years ago, and every talk was about JS fatigue. I've seen less of that now. I think we're finally getting over that hump, to a certain extent, because people went off and innovated, and now we've sort of found those common denominators about what things need to be there... And now that's why you're seeing frameworks like Next, and Gatsby, and Create React App, and Create Next App, and all these things become more popular. And then maybe the evolution to that is -- you know, we talked a little bit in the break again about where do we go in the future; maybe tools like Rust can come in and help speed things up, and who knows what's gonna happen next.
 
 **Divya:** Yeah, it's interesting you brought that up, because we actually -- especially with Babel, there are a lot of people talking about how Babel is complex, and sometimes it's really slow, and there's a lot of issues with it... And part of it is implementation, part of it is also just community, and how much time you can put into open source etc. But it's interesting to see JavaScript tooling move in a direction that I just never thought that it would move into.
 
-Now you see Rust coming into the fold, so you have things like SWC, that allows you to do TypeScript checking for you, which is way faster than Babel... Which I think, sort of almost to Nick's question, moves into this completely -- it sort of takes dev ops and div ops and it's almost like div ops moves in that direction really quickly... Because as we see people moving towards picking other languages other than JavaScript to write tooling, then is that even frontend anymore? Because that's almost full-on dev ops at that point.
+Now you see Rust coming into the fold, so you have things like SWC, that allows you to do TypeScript checking for you, which is way faster than Babel... Which I think, sort of almost to Nick's question, moves into this completely -- it sort of takes DevOps and DivOps and it's almost like DivOps moves in that direction really quickly... Because as we see people moving towards picking other languages other than JavaScript to write tooling, then is that even frontend anymore? Because that's almost full-on DevOps at that point.
 
 **Jonathan Creamer:** Yeah, that's a great call-out. And again, it just kind of comes back to the whole thing, like "What am I? What is my job description?" I'm a frontend infrastructure person not writing frontend at that point. But I think it's just like picking a framework; some frameworks make sense for you, some don't.
 
