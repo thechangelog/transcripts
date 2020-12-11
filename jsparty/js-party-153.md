@@ -108,7 +108,7 @@ If you want to overhaul the component - and honestly, I would suggest building y
 
 **Nick Nisi:** So in the last section you talked about using Web Components as the underlying technology for the Ionic components that you're creating. What's it like working with Web Components in 2020?
 
-**Mike Hartington:** It's actually pretty good. I know there's been a long history of maybe Web Components kind of seeming like "Oh, they'll never be ready, they'll never do this. They're never going to be supported in any other browser than Chrome." But they're supported in Chrome/Edge, Firefox supports them, even Safari supports them, which - if Safari supports something, you've gotta admit it's kind of stable.
+**Mike Hartington:** It's actually pretty good. I know there's been a long history of maybe Web Components kind of seeming like "Oh, they'll never be ready. They'll never do this. They're never going to be supported in any other browser than Chrome." But they're supported in Chrome/Edge, Firefox supports them, even Safari supports them, which - if Safari supports something, you've gotta admit it's kind of stable.
 
 **Nick Nisi:** That includes mobile Safari too, right?
 

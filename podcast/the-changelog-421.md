@@ -14,9 +14,9 @@ For one thing, almost no Mac developers at that time had worked with Intel, so f
 
 The thing that's funny that we're having now as a comparison -- I actually just talked with Ken Case over at Omni the other day, and his comment was like it's like coming home. Mac developers very often have been sharing with iOS for years and years and years already... They're using the same tooling. It almost feels like closing the loop... Like, okay, the one last thing that wasn't totally Apple in my ecosystem is now Apple, and they're just really excited about it. It shows a commitment, and it also makes it so they just have one last thing to worry about.
 
-**Jerod Santo:** It's definitely a big commitment and a huge transition, a huge amount of work, and something y'all have been investing in for probably a very long time... Why do this? You say "Close the loop, get on all of our own stuff" - we know that you tout the software/hardware integration and the advantages of that, but what was so bad or so problematic with Intel chips, and were you aware that it was worth this heavy investment?
+**Jerod Santo:** It's definitely a big commitment and a huge transition, a huge amount of work, and something y'all have been investing in for probably a very long time... Why do this? You say "Close the loop, get on all of our own stuff" - we know that you tout the software/hardware integration and the advantages of that, but what was so bad or so problematic with Intel chips, and were you worried that it was worth this heavy investment?
 
-**Tim Triemstra:** I think a lot of times you wanna look at it -- I think this phrasing I've seen people use (and I use it myself sometimes) is like "Are you running away from something or are you running to something?" And I think we always run to something. We saw an opportunity to make amazing products, and every time we've iterated on our CPUs, we saw what we could do, we saw the integration we could make, and we were able to that with the Mac; it was just an opportunity. We thought we could make really, really good Macs. And I think when people get their hands on these Macs, they'll see exactly why we did.
+**Tim Triemstra:** I think a lot of times you wanna look at it -- I think this phrasing I've seen people use (and I use it myself sometimes) is like "Are you running away from something or are you running to something?" And I think we always run to something. We saw an opportunity to make amazing products, and every time we've iterated on our CPUs, we saw what we could do, we saw the integration we could make, and we were able to do that with the Mac; it was just an opportunity. We thought we could make really, really good Macs. And I think when people get their hands on these Macs, they'll see exactly why we did.
 
 From the developer's standpoint, first of all I think they're gonna actually love having these Macs... And then when they do, they're gonna want their software to be running at absolutely maximum speed.
 
@@ -46,7 +46,7 @@ But I do think a lot of developers would probably want to go for the MacBook Pro
 
 **Adam Stacoviak:** That's true.
 
-**Jerod Santo:** We're used to having much more. And maybe it doesn't matter because of the system on the chip, and unified memory stuff - you can speak to some of that - but is this gonna be a major hold-up, maybe not for regular consumer, but for software developers and video people and the pro customers that you guys serve?
+**Jerod Santo:** We're used to having much more. And maybe it doesn't matter because of the system on a chip, and unified memory stuff - you can speak to some of that - but is this gonna be a major hold-up, maybe not for regular consumers, but for software developers and video people and the pro customers that you guys serve?
 
 **Tim Triemstra:** I think that, again, that is something that each individual developer has to make their decision for. We still offer the MacBook Pro outlines that have 32 GB of RAM available on them... My personal belief is that many projects would be more than fine to operate on the 16 GB machine; and then the portability, and speed that they get in those machines is certainly an awesome product for many software developers, especially app developers, where - you know, apps tend to be a little smaller size, you tend to spend a little bit more of your time doing incremental builds, which are fantastic about throughput, and the build time is really, really great.
 
@@ -150,7 +150,7 @@ Some of the other things that you'll see is with unified memory architecture - s
 
 In our unified memory architecture that is all consistent. When you're working on a CPU task, and then a GPU task, and moving that around memory, that's all the same memory formats that we architected, because we own the whole system. So we can make sure you're not copying, you're always reusing that same memory all the time.
 
-So the developer - stuff that you may have written, the same one-line of code actually meant a background copy is now actually just handing a pointer over to a different task. So you're seeing things that used to feel slow, like "Boom!" All of a sudden, that operation happened literally instantly, because those things in the background weren't needing to happen.
+So as a developer - stuff that you may have written, the same one-line of code actually meant a background copy, is now actually just handing a pointer over to a different task. So you're seeing things that used to feel slow, like "Boom!" All of a sudden, that operation happened literally instantly, because those things in the background weren't needing to happen.
 
 So it's not just an instruction set. It's not like "Hey, you had to write these assembly instructions, now write these assembly instructions." The way your software runs is fundamentally different, and it's really exciting.
 

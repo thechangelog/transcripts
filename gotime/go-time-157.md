@@ -458,7 +458,7 @@ So most of the decisions, the professional decisions I'm trying to make are reas
 
 **Mat Ryer:** Hmmm...?
 
-**Kris Brandow:** I feel like this actually might be an unpopular opinion... I guess it really depends on who you are, but I think a lot of the things we usually see as disadvantages, especially when it comes to the \[unintelligible 00:54:21.09\] space, like race, or gender, or sexual orientation - they can actually be advantages in a lot of ways... Say like "Well, you get less things. You don't get as much of a leg up because you're a black person within a white and Asian-dominated industry...", but I see that as like "Oh, well I have to work harder - yes. But then I know how to work harder, so I can just keep working harder." I have the extra stamina, I have the ability to keep going.
+**Kris Brandow:** I feel like this actually might be an unpopular opinion... I guess it really depends on who you are, but I think a lot of the things we usually see as disadvantages, especially when it comes to the D&I space, like race, or gender, or sexual orientation - they can actually be advantages in a lot of ways... Say like "Well, you get less things. You don't get as much of a leg up because you're a black person within a white and Asian-dominated industry...", but I see that as like "Oh, well I have to work harder - yes. But then I know how to work harder, so I can just keep working harder." I have the extra stamina, I have the ability to keep going.
 
 Or as a queer person, people are like "Oh, I would never wanna be queer", and it's like "Well, I got to choose my life. I got to sit down and think about and figure out what it was that I wanted my life to be", and I see that as like a tremendous advantage.
 
@@ -502,9 +502,12 @@ I think being new is such an advantage, and it also plays into what you would te
 
 **Natalie Pistunovich:** Exactly. And sometimes asking those silly questions would even shed a new light on something that people are like "Why actually do we do this this way? That doesn't make sense."
 
-**Angelica Hill:** Yeah, exactly. So you can bring a lot of contribution without even realizing, just by asking.
+**Angelica Hill:** Yeah, exactly. 
 
-**Mat Ryer:** That's true. I've been on a team where we had a junior member that was asking all these things, and people were saying "We didn't know that." Because sometimes you feel like you can't ask those questions, especially if you're meant to be a senior in a team. So yeah, I think we should just be a bit more chilled out about things like that. We are a bit too worried; and it must come from something real, but... We are definitely a little bit worried about asking the silly questions sometimes. And you know, it's okay. That's why I think trust in a team is very important. That's why, Angelica, the way that you think about your dev team I think is a very healthy way to do it. For that reason. You can kind of foster this environment that people can make mistakes, that people can ask those questions that no one's going to ask. Yeah, I think that's a great one.
+**Natalie Pistunovich:**
+So you can bring a lot of contribution without even realizing, just by asking.
+
+**Mat Ryer:** That's true. I've been on a team where we had a junior member that was asking all these things, and people were saying "We didn't know that." Because sometimes you feel like you can't ask those questions, especially if you're meant to be senior in a team. So yeah, I think we should just be a bit more chilled out about things like that. We are a bit too worried; and it must come from something real, but... We are definitely a little bit worried about asking the silly questions sometimes. And you know, it's okay. That's why I think trust in a team is very important. That's why, Angelica, the way that you think about your dev team I think is a very healthy way to do it. For that reason. You can kind of foster this environment that people can make mistakes, that people can ask those questions that no one's going to ask. Yeah, I think that's a great one.
 
 **Angelica Hill:** And if they don't wanna ask it, they slack me and I ask it.
 
