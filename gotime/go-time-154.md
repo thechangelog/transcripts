@@ -116,9 +116,9 @@ So yeah, I said immediately yes, and the very -- I think next day, or maybe it w
 
 **Paul Smith:** Well, we didn't really know... So this is a really important part - the team that built HealthCare.gov was still there, and from what we can understand... I think some important context here is -- just remember how much pressure there was every single day on this thing. This signature, political thing. It's literally on the news every single day. We're walking into the buildings where this is going on, and it's on CNN, in the lobby, on the big, flat panel screens.
 
-\[00:20:05.25\] The pressure was intense. And the people who were working on it, who had built it - because we didn't build it, we were just showing up there to kind of figure out what was going on - they're still there. The problem was -- well, in some ways they didn't know what they didn't know, and I'll get to that in a second, what I mean by that.
+\[00:20:05.25\] The pressure was intense. And the people who were working on it, who had built it - because we didn't build it, we were just showing up there to kind of figure out what was going wrong - they're still there. The problem was -- well, in some ways they didn't know what they didn't know, and I'll get to that in a second, what I mean by that.
 
-So they didn't quite know how to fix it, and they weren't doing the things that they needed to do to get the right kind of information up to people like the president, people on the West Wing, the White House, who were trying to operatioanlize this and try to understand what was wrong and communicate, try to prioritize how it would get fixed. They weren't doing the right sort of things that -- so for example there wasn't monitoring. Like, there was, but it wasn't accessible; it was maybe hidden behind a VPN that some people had access to, but it was really hard to figure out "Is the site up or down? What parts are up or down? What is the performance degraded, what's the baseline?" So that didn't exist. That's kind of problem one.
+So they didn't quite know how to fix it, and they weren't doing the things that they needed to do to get the right kind of information up to people like the president, people in the West Wing, the White House, who were trying to operationalize this and try to understand what was wrong and communicate, try to prioritize how it would get fixed. They weren't doing the right sort of things that -- so for example there wasn't monitoring. Like, there was, but it wasn't accessible; it was maybe hidden behind a VPN that some people had access to, but it was really hard to figure out "Is the site up or down? What parts are up or down? What is the performance degraded, what's the baseline?" So that didn't exist. That's kind of problem one.
 
 **Mat Ryer:** So they didn't have any visibility into really what was going on.
 
@@ -212,7 +212,7 @@ We knew that we weren't quite there yet, so we started to think about "How do yo
 
 **Paul Smith:** Probably, yeah. Probably a miscalculation on our part would have been an easier route to solve the Schrödinger equation, or something like that.
 
-**Mat Ryer:** Yeah... \[laughs\] So you'd say "We're busy now, but here's a ticket. Come back this time/between this time", or something like that.
+**Mat Ryer:** Yeah... \[laughs\] So you'd say "We're busy now, but here's a ticket. Come back at this time or between this time", or something like that.
 
 **Paul Smith:** Pretty much exactly that. So - super-simple idea, but we were trying to think of creative ways to just keep everybody from trying to click Reload on the site at the same time in the middle of the day, and nobody have a good experience.
 
@@ -382,7 +382,7 @@ It definitely has some downsides. There's another flywheel to go wrong somewhere
 
 **Mat Ryer:** Okay.
 
-**Jerod Santo:** So I'm not gonna come on a podcast about Go and say that JavaScript is a better programming language; I'm no fool. I wanna walk out of here alive. But. I will happily start out a proxy war by saying that JS Party is a superior podcast to Go Time.
+**Jerod Santo:** So I'm not gonna come on a podcast about Go and say that JavaScript is a better programming language; I'm no fool. I wanna walk out of here alive. But. I will happily start a proxy war by saying that JS Party is a superior podcast to Go Time.
 
 **Mat Ryer:** Ooooh...
 
@@ -400,7 +400,7 @@ Go Time records on Tuesdays, one of the worst days of the week. JS Party records
 
 **Jerod Santo:** So in review...
 
-**Mat Ryer:** See, we did poetry...
+**Mat Ryer:** See, we do poetry...
 
 **Jerod Santo:** ...we have more awesome panelists, we have more variety, it's on a better day... And this is the big finale point. You're gonna like this one. JS Party has 100% less Mat Ryer, which means we really cut down on those awkward silences. \[laughter\]
 
@@ -446,13 +446,13 @@ Go Time records on Tuesdays, one of the worst days of the week. JS Party records
 
 **Jerod Santo:** Please do. Give us a taste.
 
-**Mat Ryer:** So here's Jack Sparrow reading filepath.Walk. \[in Jack Sparrow voice\] "Walk walks the file tree rooted at root, mate, calling walkFn for each file or directory in the tree, including root. All errors that arise visiting files and directories are filtered by walkFn. The files are walked in lexical order, mate, which makes the output deterministic, but means that for very large directories Walk can be inefficient. Walk does not follow symbolic links." \[laughter\]
+**Mat Ryer:** So here's Jack Sparrow reading filepath.Walk. \[in Jack Sparrow voice\] "Walk walks the file tree rooted at root, mate, calling walkFn for each file or directory in the tree, including root. All errors that arise visiting files and directories are filtered by walkFn. The files are walked in lexical order, mate, which makes the output deterministic, but means that for very large directories Walk can be inefficient. Walk does not follow symbolic links. Savvy?" \[laughter\]
 
 **Jerod Santo:** Okay, I take it back. Go Time is better.
 
 **Johnny Boursiquot:** Oh, wow...
 
-**Mat Ryer:** That will get out though, don't worry...
+**Mat Ryer:** That will get cut out though, don't worry...
 
 **Jerod Santo:** Oh, no.
 
