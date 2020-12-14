@@ -166,7 +166,7 @@ You will buzz in when you think you have an answer. You can buzz in by saying "B
 
 **Nick Nisi:** Oh, man... Let's see. They complain about their editor.
 
-**Jerod Santo:** \[fail sound\] I'm sorry, they did not make the cut. You now have two strikes, which means the game is in Jem's hands. Jem?
+**Jerod Santo:** \[fail sound\] I'm sorry, that did not make the cut. You now have two strikes, which means the game is in Jem's hands. Jem?
 
 **Jem Young:** Oh...
 
@@ -1444,15 +1444,15 @@ So Nick, who should be playing Fast Money Round for your team?
 
 **Jerod Santo:** Startups was number five...
 
-**Divya:** They're woke. Some woke responses... Really woke.
+**Divya:** That's very woke. Some woke responses.
 
-**Amal Hussein:** Yeah.
+**Amal Hussein:** Yeah... Really woke
 
-**Jerod Santo:** And number six was tech bros, jerks. So you could have went with that answer...
+**Jerod Santo:** And number six was tech bros / jerks. So you could have went with that answer...
 
 **Amal Hussein:** Wait, hold on--
 
-**Divya:** We almost got it!
+**Divya:** You almost got it!
 
 **Jerod Santo:** But you kept talking and changed it.
 
@@ -1472,7 +1472,7 @@ So Nick, who should be playing Fast Money Round for your team?
 
 **Jerod Santo:** We're gonna have to bleep out OnlyFans as well... And again, because I just said it again.
 
-**Jem Young:** How am I gonna make money? You know, I've got a family to feed... Come on, Jerod. \[laughter\]
+**Jem Young:** How am I gonna make money? You know I've got a family to feed... Come on, Jerod. \[laughter\]
 
 **Jerod Santo:** "Name a way to determine if code is bad", and Nick said linting. That was the number six answer, with eight votes. And Amal said large functions - that's lost into the number three answer, which was kind of like verbosity, duplication, long function...
 
