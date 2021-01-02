@@ -28,7 +28,7 @@
 
 **Nate Finch:** Yeah, it's very similar to other orchestration platforms such as Kubernetes...
 
-**Erik St. Martin:** ...Docker, Swarm, Mesos...
+**Erik St. Martin:** ...Docker Swarm, Mesos...
 
 **Nate Finch:** Yeah. We're not so tied to Docker, because we existed before Docker existed, so...
 
@@ -104,7 +104,7 @@ So I just started poking at that for like a week or so, and got some basic thing
 
 **Erik St. Martin:** That's like the Ruby Hashrocket.
 
-**Nate Finch:** Okay, and what that says is "references to this type and this package are the exact same thing as references to that thing in that package." So a question that takes one, take either. And more complicated constructions like a function that takes a function that takes that thing works with either one. And if it's that second-order function of a function, that is where you actually need it, because for types you could use interfaces directly. So you can pass a strings.string meter into something that needs an io.reader.
+**Nate Finch:** Okay, and what that says is "references to this type and this package are the exact same thing as references to that thing in that package." So a question that takes one, take either. And more complicated constructions like a function that takes a function that takes that thing works with either one. And if it's that second-order function of a function, that is where you actually need it, because for types you could use interfaces directly. So you can pass a strings.Reader into something that needs an io.reader.
 
 \[00:16:06.16\] However, if you have a function that takes a string reader and something else that wants to take a function that takes a function of io.reader, that won't work. It's a little hard to explain without text.
 
@@ -114,13 +114,13 @@ I didn't realize that it worked the other way. You said that basically the indir
 
 **Nate Finch:** I'm pretty sure. I'm not one hundred percent sure, but I think that's sort of needed to make sure that you have full compatibility. But I'm not a hundred percent sure.
 
-**Erik St. Martin:** Yeah, and I think that... In Bill Kennedy's chat in here too he pointed out the fact that this is supposed to be a temporary stop gap; it's not supposed to be a feature that people heavily use. It's supposed to allow people to put that alias and to not break CI for 20 projects that all depend on this one.
+**Erik St. Martin:** Yeah, and I think that... and Bill Kennedy is chatting here too. He pointed out the fact that this is supposed to be a temporary stop gap; it's not supposed to be a feature that people heavily use. It's supposed to allow people to put that alias and to not break CI for 20 projects that all depend on this one.
 
 **Nate Finch:** Yeah, that's what they say, but we all know that no hacks are ever temporary, right? They will stick around for years; that might be one of my concerns about this.
 
 **Erik St. Martin:** Yeah, I think it has a legitimate use, but I think that people are also concerned with... Go has done a very good job at removing the footguns, you know? This seems like one, and I think that's what heated the debate; it's really polarized. There's people who really need it for legitimate purposes, and then there's everybody else that's like, "Whow-whow-whow... People are gonna really overuse this."
 
-**Carlisia Pinto:** Yeah, that's what I wanted to know, because one of the angles of the conversation was this is adding a level of indirection that's going to make reading code confusing. And the other side is saying, "Well, but you know, it's very useful, and guess what? We have Go 2 as well, which is not supposed to be used all the time, but we do have it and we use it in very specific and very sparingly." So Nate has this huge code base that he works with, and it is useful for him. What I'm wondering is if you, Nate, see the potential for this being thoroughly overused.
+**Carlisia Pinto:** Yeah, that's what I wanted to know, because one of the angles of the conversation was this is adding a level of indirection that's going to make reading code confusing. And the other side is saying, "Well, but you know, it's very useful, and guess what? We have *goto* as well, which is not supposed to be used all the time, but we do have it and we use it in very specific and very sparingly." So Nate has this huge code base that he works with, and it is useful for him. What I'm wondering is if you, Nate, see the potential for this being thoroughly overused.
 
 **Nate Finch:** I think it's very valid to say that there are things in the language now which we say "Don't do that, except for very specific cases." Like using panics - you could use them exactly like exceptions, but then everyone will tell you that you're wrong. I do agree that as a community we seem to be pretty good at following conventions that we all pretty much agree on. There's actually nothing that forces anyone to go format their code, and yet everyone does.
 
@@ -142,13 +142,13 @@ I think it's probably gone far enough, but they're not going to take it out. At 
 
 **Carlisia Pinto:** So going back to talking about how we are using Go in the most useful way of using the features that we already have - at least that's how it was playing in my mind... I know Nate wants to talk about error handling, and how the way Go does it is different and maybe even better than in other languages, so I would love to go there.
 
-**Nate Finch:** Yeah, sure. So it's funny... When Go 1.0 was announced was actually the first time that I had heard of Go, and at the time I was working in C\# for the most part with some Java and Python, and I was like "Oh, it's a language from Google. I should go and see what it's like." And the very first thing that I've noticed was no exceptions. I was like, "Wow, that's terrible... I'm not gonna use that." \[00:23:58.25\] \[laughs\] Then they announced 1.01 about six months later, and I was like "Let me look at it again", and the rest is history.
+**Nate Finch:** Yeah, sure. So it's funny... When Go 1.0 was announced which was actually the first time that I had heard of Go, and at the time I was working in C\# for the most part with some Java and Python, and I was like "Oh, it's a language from Google. I should go and see what it's like." And the very first thing that I've noticed was no exceptions. I was like, "Wow, that's terrible... I'm not gonna use that." \[00:23:58.25\] \[laughs\] Then they announced 1.01 about six months later, and I was like "Let me look at it again", and the rest is history.
 
 Exceptions are hard... Hard, hard, hard. In my last job was another big code base, I think somewhere around 50,000 lines of C\#, and I remember one instance where I was modifying some code and I was like "Oh, this code can fail. I'll have to throw in an exception." And during a code review, someone was like "You can't have that throw an exception, that's way deep in the stack. We have no idea who will catch that." That was for the first time I was like "Wow, exceptions aren't that great. They're basically a go-to, except that you don't know where going to." You can figure it out sometimes, but it's very hard to know who is going to catch this error, and you have to clean everything up. And if you're looking at a function, you have no idea what can fail. Any function that you call could fail. What's worse is that it might not fail now, but in six months someone might modify it to fail, and that's scary.
 
 I remember one of the first Go programs that I wrote was just downloading a bunch of pictures off some website, and everything that could fail returned an error. It was this epiphany of, "Oh my god, I know what can fail. I can deal with all this, and I'd know exactly what my program's gonna do." I think dealing with errors is where Go really got it right, because the multiple returns means it's very easy to just say, "Okay, this thing returns an error, but also some actual useful data."
 
-Yes, you have to do "if error =/= nil, blah", but that's good, because that means you're saying, "I know this can fail. I'm gonna do something."
+Yes, you have to do "if error != nil, blah", but that's good, because that means you're saying, "I know this can fail. I'm gonna do something."
 
 People always talk about, "Oh, it makes my happy path look all messy", and I'm like "This is programming. There is no happy path."
 
@@ -160,9 +160,9 @@ People always talk about, "Oh, it makes my happy path look all messy", and I'm l
 
 **Carlisia Pinto:** \[00:27:47.13\] That's a very good point. I remember when I started looking at Go open source projects, especially the bigger ones, like InfluxDB, Docker etc., I got really intimidated by how long the files were. I was just thinking, "Wow, it must take a lot of mental energy to hold everything that's in this file in your head." Especially coming from Ruby, where people say "Don't make your file longer than a hundred lines", and here I was looking at Go files that were super long. Now, after I learned a little bit, I noticed that a lot of it is error. My first reaction was like, "I don't wanna be looking at error handling. I wanna look at the code, I wanna look at the happy path, because that was my frame of reference, that's how I used to think." Which is to say Go has a very different (prerogative, I wanna say) approach, and now that I'm used to it, I really find it very refreshing that everything is there. It's explicit, and it's right there, so I don't have to go to other places; I don't have to follow that chain of exception-throwing all over the place. Everything is right there.
 
-Now I find that it's the opposite for me. I love it. Whereas before I used to look at a big file and think I have to hold it all in my head, now I look at a big, long Go file and I think, "Everything is here. It's so much easier for me to hold this in my head, because everything is right here." It's not a long file that it's that content and I have to go all over the place to look at where exceptions are being thrown; everything is right there, it's explicit, and it makes it a lot easier.
+Now I find that it's the opposite for me. I love it. I find it super simple. Whereas before I used to look at a big file and think I have to hold it all in my head, now I look at a big, long Go file and I think, "Everything is here. It's so much easier for me to hold this in my head, because everything is right here." It's not a long file that it's that content and I have to go all over the place to look at where exceptions are being thrown; everything is right there, it's explicit, and it makes it a lot easier.
 
-**Erik St. Martin:** You know, the one thing that I like about it is if you use idiomatic Go, then your happy path typically is at your first indentation level, so if you're just trying to get an idea for what a function does, you can kind of just scan that level. And most of your edge cases and when things return an error are typically indented in; that's typically where you find your error handling, so it's easy to scan past it when you're just trying to get a rough idea, but like you said, you can focus more on it when it matters, when you're really trying to "Oh, why would this go wrong? I should look to make sure it's handling these scenarios I'm expecting it to."
+**Erik St. Martin:** You know, the one thing that I like about it is if you use idiomatic Go, then your happy path typically is at the first indentation level, so if you're just trying to get an idea for what a function does, you can kind of just scan that level. And most of your edge cases and when things return an error are typically indented in; that's typically where you find your error handling, so it's easy to scan past it when you're just trying to get a rough idea, but like you said, you can focus more on it when it matters, when you're really trying to "Oh, why would this go wrong? I should look to make sure it's handling these scenarios I'm expecting it to."
 
 The hardest part is not knowing. It's the unknown unknowns, and I think that's why the whole crash-only software paradigm has kind of become more popular, especially with distributed computing and containers. And going back to Nate's point about people overusing panic, I wonder if it's that kind of crash-only methodology that's having people to use panic more...?
 
@@ -174,7 +174,7 @@ The hardest part is not knowing. It's the unknown unknowns, and I think that's w
 
 Bill Kennedy actually asked, speaking of error handling, what your views were on wrapping of errors, because there's a lot of polarization there too, where people think you should, so you can get more context and get stack information. Then there's also the other side of it - whenever you're wanting to handle errors, trying to do error comparisons. When you wrap errors, you end up leaving yourself needing to compare strings or regular expressions against them instead of comparing actual types.
 
-**Nate Finch:** Well, we actually use a wrapper in Juju that we wrote a couple years ago. In the beginning we didn't use a wrapper, and that does kind of make things rough. If you don't use a wrapper, then you do have to just compare strings, if you're using it to format that error off and then just adding on more string to the string that you have. I like Dave's package - github.com/package-errors.
+**Nate Finch:** Well, we actually use a wrapper in Juju that we wrote a couple years ago. In the beginning we didn't use a wrapper, and that does kind of make things rough. If you don't use a wrapper, then you do have to just compare strings, if you're using it to format that error off and then just adding on more string to the string that you have. I like Dave's package - github.com/pkg/errors.
 
 The nice things about this is that he gets a stack trace; when you make the new error, you can still get the error that was the original error, so you can still check and see if it's an io.EOF without having to look at the string. You can see if it matches some interface.
 
@@ -188,7 +188,7 @@ The difference with Dave's is that he actually grabs the stack trace the first t
 
 **Nate Finch:** Yeah, and I just haven't seen as much use out of the stack trace as I would like; it seems like a lot of work -- not really a lot of work, but more work for questionable benefit. So I'm still leaning towards saying it's a good idea, but it's not as strong as I would like. I'm not exactly sure how to make that better case, but it's a stronger "Yes, you absolutely should do that."
 
-**Erik St. Martin:** Okay, so I think it's about time for our second sponsor break, and I don't wanna get into some projects and news, especially with the 1.8 freeze going on.
+**Erik St. Martin:** Okay, so I think it's about time for our second sponsor break, and then I wanna get into some projects and news, especially with the 1.8 freeze going on.
 
 **Break:** \[00:37:03.07\]
 
@@ -200,7 +200,7 @@ The difference with Dave's is that he actually grabs the stack trace the first t
 
 **Nate Finch:** Yeah, I was looking at it, too. They've done a bunch of stuff with names and parameters and stuff. They're really puffing it up a bunch, because it was a little bare bones before, and it's nice to have people to do a lot more things. That's half of what most applications do - talk to a database.
 
-**Erik St. Martin:** Yeah, that's true, I don't know how much love I've seen in the database SQL package since early 1.0 release. It may just be because I haven't been looking for it, but I don't think a lot more functionality has been added to it, to my knowledge. One of the other cool things is the HTTP package - the server will actually have graceful shutdown by itself now, which is gonna save me a lot of boilerplate code when I build HTTP API.
+**Erik St. Martin:** Yeah, that's true, I don't know how much love I've seen in the database SQL package since early 1.0 release. It may just be because I haven't been looking for it, but I don't think a lot more functionality has been added to it, to my knowledge. One of the other cool things is the HTTP package - the server will actually have graceful shutdown by itself now, which is gonna save me a lot of boilerplate code when I build HTTP APIs.
 
 **Nate Finch:** Yeah, that is very cool.
 
@@ -250,7 +250,7 @@ So I'm not sure... Was that all the goodies coming in 1.8? Does anybody know of 
 
 **Nate Finch:** Cool.
 
-**Erik St. Martin:** So... Interesting projects. We mentioned a few shows ago the vuls (vulnerability scanner) that was written in Go; I was looking at it again recently, and I noticed that it actually uses a library called go-cy, which is actually really cool because you can build command line user interfaces in Go, and it has the concept of splits, and windows, and modal popups and stuff.
+**Erik St. Martin:** So... Interesting projects. We mentioned a few shows ago the vuls (vulnerability scanner) that was written in Go; I was looking at it again recently, and I noticed that it actually uses a library called github.com/jesseduffield/gocui, which is actually really cool because you can build command line user interfaces in Go, and it has the concept of splits, and windows, and modal popups and stuff.
 
 I haven't built anything with it, but seeing it really makes me want to.
 
@@ -268,7 +268,7 @@ I haven't built anything with it, but seeing it really makes me want to.
 
 How about you, Carlisia? Anything new you've come across this week?
 
-**Carlisia Pinto:** Yes. Well, actually not much... I wanted to mention Dave Cheney's talk, with the disclaimer that it was the only talk from dotGo that I have watched, so I'm sure there are a ton of other great talks. This one I watched and loved it. He talks about the functions as first-class citizens in Go. And I loved that he didn't take for granted that everybody knows how to use functions are arguments, basically. Am I saying this right?
+**Carlisia Pinto:** Yes. Well, actually not much... I wanted to mention Dave Cheney's talk, with the disclaimer that it was the only talk from dotGo that I have watched, so I'm sure there are a ton of other great talks. This one I watched and loved it. He talks about the functions as first-class citizens in Go. And I loved that he didn't take for granted that everybody knows how to use functions as arguments, basically. Am I saying this right?
 
 **Nate Finch:** Yeah.
 
@@ -298,7 +298,7 @@ He also mentioned that talk by Bryan Boreham from this year's Golang UK Conferen
 
 **Nate Finch:** Yeah, I looked at that and honestly, it's so long and so detailed... I need like a TL;DR version so that I can have some idea of what the overall meaning is, because it's seven pages long. I don't know that I can get all of that.
 
-**Carlisia Pinto:** Yeah, maybe the prototype they're starting to implement will be helpful in that regard. Sometimes it's easy to look at code.
+**Carlisia Pinto:** Yeah, maybe the prototype they're starting to implement will be helpful in that regard. Sometimes it's easier to look at code.
 
 **Nate Finch:** Yeah.
 
@@ -360,7 +360,7 @@ With that, we are out of time unfortunately.
 
 **Erik St. Martin:** Speaking of which, because of that we won't have a show next week. I'm traveling for that, Brian is traveling - I think he's in Amsterdam next week... I think everybody's traveling, so we will be skipping next week's show unless we can find time to squeeze one in not live in off time, but let's assume there's no show next time.
 
-With that, I wanna thank everybody for being on the show today. Huge shout out to our sponsors, both to stackimpact and Code School, thank you to all of our live listeners and future listeners. Definitely forward this to your friends.
+With that, I wanna thank everybody for being on the show today. Huge shout out to our sponsors, both to Stackimpact and Code School, thank you to all of our live listeners and future listeners. Definitely forward this to your friends.
 
 We are @GoTimeFM on Twitter, we have a GoTimeFM channel on the Gophers Slack. If you are not subscribed already, go to GoTime.fm, our website for email. If you wanna be on the show or you have ideas for guests or topics for this show, hit us up on GitHub.com/gotimefm/ping. With that, everybody goodbye.
 
