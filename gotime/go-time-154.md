@@ -24,7 +24,7 @@ On today's show we have Johnny Boursiquot... Hello, Johnny.
 
 **Jerod Santo:** \[00:04:04.03\] That's right. Supersize Me.
 
-**Jerod Santo:** Yeah, omnivore. And we're also joined by a special guest today, who you may remember from a lightning talk back at GopherCon 2015. It's Paul Smith. Hello, Paul.
+**Mat Ryer:** Yeah, omnivore. And we're also joined by a special guest today, who you may remember from a lightning talk back at GopherCon 2015. It's Paul Smith. Hello, Paul.
 
 **Paul Smith:** Hi, everybody! Glad to be here.
 
@@ -46,7 +46,7 @@ I had also pushed up against some of the limits of Python in my work, especially
 
 **Paul Smith:** Yeah, it does. So my first professional web development job was working for a small non-profit here in Chicago... We were an environmental non-profit, and I was basically one of the few web developers there, so I had a lot of freedom to pick and choose technologies. At the time I remember using Cold Fusion, and PHP, even some early Ruby on Rails in the very early days of that stack... But I helped co-found a startup with the co-creator of Django, the Django web framework, Adrian Holovaty, in 2007, called EveryBlock. EveryBlock was a hyper-local news startups. So the idea that we would go out and collect information on the web, in different sources, about news that was happening near you, on your block, in your neighborhood - you wouldn't care about it if it was across town, but if it's happening on your block, you super-care about it a lot.
 
-\[00:08:17.22\] So since obviously Adrian was the creator of Django, we used Django for that. So that kind of made the choice easy, but I've definitely experienced in my time that it was interesting set of factors that lead to you picking a different technology or a different stack... But for me, it's been about expressiveness, how productive I can be in it, and does it perform well enough. And Django, Python checked a lot of those boxes, for sure, and EveryBlock went on to be a pretty successful, although relatively short-lived startup.
+\[00:08:17.22\] So since obviously Adrian was the creator of Django, we used Django for that. So that kind of made the choice easy, but I've definitely experienced in my time that it was an interesting set of factors that lead to you picking a different technology or a different stack... But for me, it's been about expressiveness, how productive I can be in it, and does it perform well enough. And Django, Python checked a lot of those boxes, for sure, and EveryBlock went on to be a pretty successful, although relatively short-lived startup.
 
 **Mat Ryer:** Yeah, because you sold it to MSNBC, right?
 
@@ -112,7 +112,7 @@ So yeah, I said immediately yes, and the very -- I think next day, or maybe it w
 
 **Paul Smith:** Well, some of us knew each other from the campaign. That's kind of how the connection was made to "How are we gonna put this team together? Well, let's start with the people who did a good job on the technology of the campaign, and then we'll go from there." So I knew one other person on the team from the campaign, but we were all relatively new to each other. Our backgrounds were software engineers, or product managers in technology companies, or just kind of in this broader Silicon Valley startup - although I hadn't worked on a Silicon Valley startup myself, but just that idea of private sector Silicon Valley startups... That was the kind of tech talent and experience that was being drawn from.
 
-**Johnny Boursiquot:** So this team is brought in, the rescue team, The Avengers, if you will... What happened with the other team? Things were going wrong... So generally speaking -- I have this idea in my head (a crazy idea) that if something is going wrong with the project, you go to the team, and you start asking questions, "Hey, what's going on? Can you fill me in?" and you give the team a chance to react, and come up with solutions etc. Things you might expect to do at any other organization. But it sounds like this team is brought in, and the team that actually built the tech just gets jettisoned, and they're gone... So you just get handed this thing, and they go like "Fix it"? What was that transition?
+**Johnny Boursiquot:** So this team is brought in, the rescue team, The Avengers, if you will... What happened with the other team? Things were going wrong... So generally speaking -- I have this idea in my head (a crazy idea) that if something is going wrong with the project, you go to the team, and you start asking questions, "Hey, what's going on? Can you fill me in?" and you give a chance to the team to react, and come up with solutions etc. Things you might expect to do at any other organization. But it sounds like this team is brought in, and the team that actually built the tech just gets jettisoned, and they're gone... So you just get handed this thing, and they go like "Fix it"? What was that transition?
 
 **Paul Smith:** Well, we didn't really know... So this is a really important part - the team that built HealthCare.gov was still there, and from what we can understand... I think some important context here is -- just remember how much pressure there was every single day on this thing. This signature, political thing. It's literally on the news every single day. We're walking into the buildings where this is going on, and it's on CNN, in the lobby, on the big, flat panel screens.
 
@@ -140,7 +140,7 @@ But what they built was enterprise software. They architected a big, complex mac
 
 **Jerod Santo:** Right.
 
-**Paul Smith:** And then it couldn't scale. So you could potentially use scale, you could throw resources at it to kind of overcome those limitations... But the design of it made that really hard. And some of the physical realities. We take for granted we can spin up a VM in AWS, or Google Cloud, or Azure, or whatever it is. The government was not ready for all that stuff in 2013. So HealthCare.gov was deployed into a data center that -- you know, they have VMware, they had some tools like that, but fundamentally, there were racks of servers that were like "These are the HealthCare.gov racks." And that's it. And like a SAND attached to it for network storage, and things like this... But like I said, when that traffic starts flowing in and the individual components are not architected in a way for low latency and responsiveness, you start to get these bottlenecks, these pile-ups dogpile, there's not good caching... So all those components get strained and stressed, and they sort of cascadingly fail.
+**Paul Smith:** And then it couldn't scale. So you could potentially use scale, you could throw resources at it to kind of overcome those limitations... But the design of it made that really hard. And some of the physical realities. We take for granted we can spin up a VM in AWS, or Google Cloud, or Azure, or whatever it is. The government was not ready for all that stuff in 2013. So HealthCare.gov was deployed into a data center that -- you know, they had VMware, they had some tools like that, but fundamentally, there were racks of servers that were like "These are the HealthCare.gov racks." And that's it. And like a SAND attached to it for network storage, and things like this... But like I said, when that traffic starts flowing in and the individual components are not architected in a way for low latency and responsiveness, you start to get these bottlenecks, these pile-ups dogpile, there's not good caching... So all those components get strained and stressed, and they sort of cascadingly fail.
 
 \[00:24:12.21\] And then on top of all of that, the team that was building it was - they were running through the tape. They were still building things. They were exhausted. They were not communicating well across teams. So they just had this big, big, complex thing that wasn't quite the right shape for what they needed, and it wasn't in a physical place where you could just turn up the horizontal scaling knob... And then there was just this lack of communication and coordination.
 
@@ -172,9 +172,9 @@ So we put you through the narrowest part of the funnel up top... So you sign up,
 
 **Paul Smith:** Right, exactly. We used to joke on the rescue that if we were the healthcare.ca, it would just be like "You have healthcare", and that's it; static page. Anyway... \[laughter\]
 
-**Jerod Santo:** \[00:32:02.02\] Yeah... Much easier tech. That's a good reason to do it, if no other.
+**Mat Ryer:** \[00:32:02.02\] Yeah... Much easier tech. That's a good reason to do it, if no other.
 
-**Paul Smith:** And I have to say, I personally believe we should have affordable, universal healthcare in this country; I think it's a right. I'm really proud of the Affordable Care Act for moving us closer to that goal. It expanded coverage tremendously. What's what was so important to us, and why it was critical that we worked so hard to turn it around, was because we didn't wanna go backwards. We didn't wanna lose 20 million people covered with healthcare; we wanted to lock that in, although \[unintelligible 00:32:38.04\]
+**Paul Smith:** And I have to say, I personally believe we should have affordable, universal healthcare in this country; I think it's a right. I'm really proud of the Affordable Care Act for moving us closer to that goal. It expanded coverage tremendously. What's what was so important to us, and why it was critical that we worked so hard to turn it around, was because we didn't wanna go backwards. We didn't wanna lose 20 million people covered with healthcare; we wanted to lock that in, although now it's up for...
 
 **Mat Ryer:** So it had a kind of political imperative for you, along the thing that we all have about wanting to make the tech work.
 
@@ -286,7 +286,7 @@ So yeah, people knew we were from the White House. Word gets around in an instan
 
 **Jerod Santo:** This is why Mat didn't get the call.
 
-**Mat Ryer:** Yeah, I'd be like "Hi. I'm just like you, although I did \[unintelligible 00:50:49.23\] \[laughter\]
+**Mat Ryer:** Yeah, I'd be like "Hi. I'm just like you, although I did arrive in a motorcade.. \[laughter\]
 
 **Paul Smith:** The Chief of Staff at the White House told me not to screw this up, so... Don't screw it up. \[laughter\]
 
@@ -302,7 +302,7 @@ So yeah, people knew we were from the White House. Word gets around in an instan
 
 **Paul Smith:** Well, I think we felt like -- you know, there was this question of "Should we scrap the site?" The question was being asked, "Is this thing recoverable?" and I think there was a sense that "Yeah, maybe they built the wrong thing, but we can make it good enough to get through this deadline..." But the challenge is really going to be that people problem of communication, and prioritizing, and knowing what the right fixes are from our experience of having worked on the high-traffic things... So yeah, all of that pressure was there to help keep us focused. It's hard to ever say failure is not an option. You just don't quite invite that into your head in the moment.
 
-**Mat Ryer:** Hm... Well, I usually don't like it when I hear managers of teams say that... Because in a way, you need to be free to fail in an environment where you're building things... But yeah, sometimes it's just "Yeah, we actually can't fail on this one. It's just too big a deal." That's really interesting, to hear that perspective.
+**Mat Ryer:** Hm... Well, I usually don't like it when I hear managers of teams saying that... Because in a way, you need to be free to fail in an environment where you're building things... But yeah, sometimes it's just "Yeah, we actually can't fail on this one. It's just too big a deal." That's really interesting, to hear that perspective.
 
 Well, it's that time... We're gonna do Unpopular Opinions!
 
@@ -310,7 +310,7 @@ Well, it's that time... We're gonna do Unpopular Opinions!
 
 **Mat Ryer:** So who would like to put forward our first unpopular opinion of the evening?
 
-**Paul Smith:** Can I go first? Because I don't know what the history of Unpopular Opinions on this show is... So I wanna make sure that mine is like -- you know, it's like then the figure skaters go first in the order, so that the judges are like "Yeah, yeah..." And the real skaters go after. \[laughter\]
+**Paul Smith:** Can I go first? Because I don't know what the history of Unpopular Opinions on this show is... So I wanna make sure that mine is like -- you know, it's like when the figure skaters go first in the order, so that the judges are like "Yeah, yeah..." And the real skaters go after. \[laughter\]
 
 **Jerod Santo:** Please do. Go ahead.
 
@@ -344,7 +344,7 @@ It definitely has some downsides. There's another flywheel to go wrong somewhere
 
 **Johnny Boursiquot:** I think I've seen this evolution take place over the years... Usually, those who start out being backend developers, where that's really what their bread and butter is, once they start doing a little bit of frontend development, they're like "Yeah, this is the natural progression. I'm gonna use my server-side code to push out the frontend code. Great." And eventually, they'll either make that transition to doing full-on frontend, all-there, stateful JavaScript development, or they'll sort of stick with those server-side rendered pages, because there's a comfort zone there.
 
-\[00:56:11.22\] Then you have people coming to it from the other side, saying "Hey, I'm a JavaScript developer, I'm all about the UI, I'm into the CSS, I'm into the HTML DOM and all that stuff..." They're coming at it from this other side, and then they get to the edge, where they're like "Okay, I don't really wanna go do that backendy stuff you're talking about... That Django, the Rails... Maybe not." And then Node comes along and you say "Oh yeah, I can do backend now. \[laughter\] I'm gonna take my JavaScript skills and go to some backend." So it depends on where you're coming from. You're gonna have a different \[unintelligible 00:56:45.22\] But yeah, it's not right or wrong, it's just different.
+\[00:56:11.22\] Then you have people coming to it from the other side, saying "Hey, I'm a JavaScript developer, I'm all about the UI, I'm into the CSS, I'm into the HTML DOM and all that stuff..." They're coming at it from this other side, and then they get to the edge, where they're like "Okay, I don't really wanna go do that backendy stuff you're talking about... That Django, the Rails... Maybe not." And then Node comes along and you say "Oh yeah, I can do backend now. \[laughter\] I'm gonna take my JavaScript skills and go to some backend." So it depends on where you're coming from. You're gonna have a different posture but yeah, it's not right or wrong, it's just different.
 
 **Jerod Santo:** I really think it does depend on what you're building... And I know that's the moderate stance, the "it depends" stance...
 
@@ -438,7 +438,7 @@ Go Time records on Tuesdays, one of the worst days of the week. JS Party records
 
 **Johnny Boursiquot:** ...have Mat do a little dance, or something... I don't know.
 
-**Mat Ryer:** Yeah. On a podcast. We could all pretend it was good. No one would \[unintelligible 01:01:11.19\] \[laughter\]
+**Mat Ryer:** Yeah. On a podcast. We could all pretend it was good. No one would think otherwise... \[laughter\]
 
 **Jerod Santo:** Mat does do impressions. We're gonna get those going.
 
