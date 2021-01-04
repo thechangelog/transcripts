@@ -28,9 +28,9 @@ You can use that infrastructure to power all kinds of other things. The system t
 
 **Carlisia Pinto:** I guess Chain implemented its own blockchain, right?
 
-**Tess Rinearson:** That's right. We actually have our own protocol as well. Maybe you can think of a blockchain as like a generic category of protocols and services, and then we wrote this protocol called The Chain Protocol, which is a blockchain protocol designed for financial services. Then, we also have an implementation of that protocol called Chain Core, which is what I work on.
+**Tess Rinearson:** That's right. We actually have our own protocol as well. Maybe you can think of a blockchain as like the generic category of protocols and services, and then we wrote this protocol called The Chain Protocol, which is a blockchain protocol designed for financial services. Then, we also have an implementation of that protocol called Chain Core, which is what I work on.
 
-**Tess Rinearson:** \[00:03:56.29\] Makes sense.
+**Carlisia Pinto:** \[00:03:56.29\] Makes sense.
 
 **Erik St. Martin:** From what I saw, it was designed more in line with Bitcoin's implementation, where there's kind of like the UTXOs...
 
@@ -70,7 +70,7 @@ That said, we also have this thing called the testnet. Sometimes I joke it's the
 
 **Carlisia Pinto:** It sounds to me that an entity that could benefit from Chain Core wouldn't necessarily have to be a big financial institution, or even a small financial institution. It could be a business like LivingSocial, if they want to use it for loyalty points, or Groupon. Is that right?
 
-**Tess Rinearson:** Yeah, I think, potentially. We're definitely starting with financial institutions, and we're starting with financial institutions that are well-known enough that they can power their own networks and people will want to join them. That serves the power of this partnership. We just on Friday announced a partnership with VISA and the network can we're working on with them to do business-to-business payments, and it's really valuable to go be part of these well-respected financial institutions, because people trust them enough to wanna join their networks. So we're starting there, but I do think that, generically, anything that holds value is a good candidate for something that can be issued and transferred on a chainblock Chain.
+**Tess Rinearson:** Yeah, I think, potentially. We're definitely starting with financial institutions, and we're starting with financial institutions that are well-known enough that they can power their own networks and people will want to join them. That serves the power of this partnership. We just on Friday announced a partnership with VISA and the network that we're working on with them to do business-to-business payments, and it's really valuable to go be part of these well-respected financial institutions, because people trust them enough to wanna join their networks. So we're starting there, but I do think that, generically, anything that holds value is a good candidate for something that can be issued and transferred on a Chain block chain.
 
 **Erik St. Martin:** Yeah, and I think anything that you want validated to ensure that it hasn't been tampered with is also a good candidate.
 
@@ -118,7 +118,7 @@ And because in Chain's case we're not talking about public networks, we're talki
 
 **Tess Rinearson:** Yeah, I don't actually know exactly what they're working on. There are a lot of different blockchain systems out there, and I tend to be pretty heads down on what we're doing here. One thing definitely - and I don't know if this is the case with their blockchain, but definitely one reason why we open-sourced was to really just show our hand and communicate our ideas as effectively as possible. We've been planning on publishing our protocol for a while...
 
-One thing about blockchains, like I said, is there's a lot of them. With some of them it's just really hard to know what's really going on beneath the surface. There's a lot of press releases or white papers, but not too many in-depth protocol documents and even pure implementations. So one reason why we went open source is just to really communicate our ideas about what a blockchain can and should look like as clearly as possible, and also to show the world that we have something very real. And also to show the world that you can just go download a Chain Core node and write it on your computer, and connect to testnet and it all just kind of works. I mean, knock on wood, it all seems to be working.
+One thing about blockchains, like I said, is there's a lot of them. With some of them it's just hard to know what's really going on beneath the surface. There's a lot of press releases or white papers, but not too many in-depth protocol documents and even pure implementations. So one reason why we went open source is just to really communicate our ideas about what a blockchain can and should look like as clearly as possible, and also to show the world that we have something very real. And also to show the world that you can just go download a Chain Core node and write it on your computer, and connect to testnet and it all just kind of works. I mean, knock on wood, it all seems to be working.
 
 **Brian Ketelsen:** So you're telling me blockchain technology is a little bit like vendor management solutions for Go - there's a lot of hype and not a whole lot of action?
 
@@ -194,13 +194,13 @@ It's this funny thing, where we have a product roadmap and we're very driven by 
 
 **Brian Ketelsen:** That's because you forgot to use the correct file path thing, right?
 
-**Tess Rinearson:** Yeah, fortunately I don't quite enough career history, but I have battle scars from that. It sounds awful, and I'm so glad... I sort of feel like I've come of age with this language that makes it so easy...
+**Tess Rinearson:** Yeah, fortunately I don't have quite enough career history, but I have battle scars from that. It sounds awful, and I'm so glad... I sort of feel like I've come of age with this language that makes it so easy...
 
 **Erik St. Martin:** I think this language is really good for making systems-level programming more approachable to people.
 
 **Tess Rinearson:** Yes. In a lot of ways, it's my first systems language. Before I was at Chain, I worked at Medium, and I was pretty full stack. Eventually, I had to learn Go to work on a new service. It was the social graph service - if you recommend something on Medium, then all of your followers can see it, the infrastructure that powers that kind of thing. I was a little bit reluctant to learn a new language. It was just silly. I was 20 years old and already curmudgeonly about it... But I was like, "I've been doing everything in JavaScript, I'm comfortable with this."
 
-\[00:32:03.11\] Learning Go and writing this new service in Go gave me a whole new perspective on building web services, and it was this sort of sweet spot of usable, but still reasonably close to the metal; not too abstracted, so I could still understand what was going on, especially coming from Node, where there's a lot of frameworks and things tend to be very abstracted... Scraping some of that off, and being able to have that perspective on web services was very empowering to me. That sense sort of spurred this interest in systems that has lead me to working at Chain.
+\[00:32:03.11\] Learning Go and writing this new service in Go gave me a whole new perspective on building web services, and it was this sort of sweet spot of usable, but still reasonably close to the metal; not too abstracted, so I could still understand what was going on, especially coming from Node, where there's a lot of frameworks and things tend to be very abstracted... Scraping some of that off, and being able to have that perspective on building web services was very empowering to me. That sense sort of spurred this interest in systems that has lead me to working at Chain.
 
 **Erik St. Martin:** So getting into Go has kind of brought you more into systems programming and learning about distributed systems?
 
@@ -216,7 +216,7 @@ It's this funny thing, where we have a product roadmap and we're very driven by 
 
 **Carlisia Pinto:** One thing with open source, if you're building a project that you are planning to open source, I think you would be thinking to be more careful in the way you are structuring the project and best practices, maybe more than a project that's not open-sourced, and I'm wondering if Chain has a set of guidelines that the team uses for design and for implementation?
 
-**Tess Rinearson:** Yeah, so it's funny... We actually didn't know we were going to open source this until July, and we've been working on it for over a year. It's funny... This is kind of corny, but when I think about the lifecycle of this project, I actually think about GopherCon a lot, because we started building our own system after a conversation we had with our CTO at GopherCon 2015. Then, at GopherCon 2016, this year, I basically got a phone call from my team - I was the only one at GopherCon, so they call me, being like "Hey, we're planning on open-sourcing"... So both GopherCon 2015 and GopherCon 2016 were milestone moments for this project in this funny, coincidental way.
+**Tess Rinearson:** Yeah, so it's funny... We actually didn't know we were going to open source this until July, and we've been working on it for over a year. It's funny... This is kind of corny, but when I think about the lifecycle of this project, I actually think about GopherCon a lot, because we started building our own system after a conversation I had with our CTO at GopherCon 2015. Then, at GopherCon 2016, this year, I basically got a phone call from my team - I was the only one at GopherCon, so they call me, being like "Hey, we're planning on open-sourcing"... So both GopherCon 2015 and GopherCon 2016 were milestone moments for this project in this funny, coincidental way.
 
 **Erik St. Martin:** You're counting in GopherCons...
 
@@ -228,7 +228,7 @@ It's this funny thing, where we have a product roadmap and we're very driven by 
 
 **Tess Rinearson:** Right. \[laughter\]
 
-**Brian Ketelsen:** Actually, Fred Fitzpatrick did that to me two or three days ago -- no, last week. I hacked Docker into Go's present tool, so I could run a Docker container inside a slide, and I was so proud of myself... So I tweeted it, and Brad's like "I did that three GopherCons ago." I was like, "Oh, son of a gun!"
+**Brian Ketelsen:** Actually, Brad Fitzpatrick did that to me two or three days ago -- no, last week. I hacked Docker into Go's present tool, so I could run a Docker container inside a slide, and I was so proud of myself... So I tweeted it, and Brad's like "I did that three GopherCons ago." I was like, "Oh, son of a gun!"
 
 **Tess Rinearson:** Harsh!
 
@@ -334,7 +334,7 @@ This will be a problem when the person delivering the vegetables does not enter 
 
 **Erik St. Martin:** It was like their badge of "I refuse to support IE 6 just because of how much time it takes to make it work in IE 6." So glad that's over.
 
-**Brian Ketelsen:** When I was a kid, we only had one browser. \[laughter\] And it was Links.
+**Brian Ketelsen:** When I was a kid, we only had one browser. \[laughter\] And it was Lynx.
 
 **Erik St. Martin:** I thought you were gonna say Netscape.
 
@@ -342,9 +342,9 @@ This will be a problem when the person delivering the vegetables does not enter 
 
 **Brian Ketelsen:** Well, Netscape wasn't the first browser.
 
-**Carlisia Pinto:** But then, if you think of Gopher and Links, those were browsers, too.
+**Carlisia Pinto:** But then, if you think of Gopher and Lynx, those were browsers, too.
 
-**Tess Rinearson:** I don't think I have even heard of Links before.
+**Tess Rinearson:** I don't think I have even heard of Lynx before.
 
 **Erik St. Martin:** It's basically the console-based web browser for Linux.
 
@@ -372,7 +372,7 @@ This will be a problem when the person delivering the vegetables does not enter 
 
 **Brian Ketelsen:** \[00:47:54.13\] It's funny, I was thinking... My first website was some place I had to spend $10/month to buy a shell account on a Unix system. That was back in the days when you got a username and they put the little tilde in front of it, and that was your website. BlahblahblahHosting.com/~BKetelsen. You couldn't change your username, you couldn't have a domain name pointed at it, and you had a public HTML directory in your home folder and that's where you put your files.
 
-**Erik St. Martin:** With FEP...
+**Erik St. Martin:** With FTP...
 
 **Brian Ketelsen:** Those were the days.
 
@@ -382,7 +382,7 @@ This will be a problem when the person delivering the vegetables does not enter 
 
 **Brian Ketelsen:** Nice.
 
-**Erik St. Martin:** My favorite story about young years and internet coming out was I stayed home sick from school one day and we had this Cad class; it was the room that had the most computers in it because they were doing computerated design on it. And I stayed home... I had basically backdoored one of the computers and I put trojans on all of them. \[laughter\] And I turned off the screens in series, because the computers were named in order, and then opened up the CD-ROM drives and then went back the other way... Back then it was funny; you didn't go to jail for stuff like that.
+**Erik St. Martin:** My favorite story about young years and internet coming out was I stayed home sick from school one day and we had this CAD class; it was the room that had the most computers in it because they were doing computerated design on it. And I stayed home... I had basically backdoored one of the computers and I put trojans on all of them. \[laughter\] And I turned off the screens in series, because the computers were named in order, and then opened up the CD-ROM drives and then went back the other way... Back then it was funny; you didn't go to jail for stuff like that.
 
 I came to class the next day... My teacher's like, "Very funny. You know you're coming in after class and removing whatever it is that you put on these machines, right?" \[laughter\]
 
@@ -402,7 +402,7 @@ I came to class the next day... My teacher's like, "Very funny. You know you're 
 
 **Tess Rinearson:** Yeah.
 
-**Erik St. Martin:** There's the elite stuff, where somebody spends six months to reverse engineers some odd protocol for your piece of hardware, and then manages to hack you. But for the most part, these things are the basics everybody skips over.
+**Erik St. Martin:** There's the true elite stuff, where somebody spends six months to reverse engineers some odd protocol for your piece of hardware, and then manages to hack you. But for the most part, these things are the basics everybody skips over.
 
 **Tess Rinearson:** Yeah, or they're social. I feel like so many stories I hear about people's accounts getting hacked have to do basically with hackers lying to customer support people.
 
@@ -420,7 +420,7 @@ I came to class the next day... My teacher's like, "Very funny. You know you're 
 
 **Tess Rinearson:** Totally.
 
-**Erik St. Martin:** Yeah, I mean every bit of security comes at a cost of usability. I have problem too, even at home... I'll have two isolated Wi-Fi networks. I have one for people who come to my house and I have my own. And then at some point I forget what the guest network is, or I'm just lazy, and I'm like "Here, let me put you on the regular one." And that's the stuff that bites, it's because that kind of laziness and not following the process.
+**Erik St. Martin:** Yeah, I mean every bit of security comes at a cost of usability. I have problems too, even at home... I'll have two isolated Wi-Fi networks. I have one for people who come to my house and I have my own. And then at some point I forget what the guest network is, or I'm just lazy, and I'm like "Here, let me put you on the regular one." And that's the stuff that bites, it's because that kind of laziness and not following the process.
 
 So who wants to talk about any news?
 
@@ -496,7 +496,7 @@ So who wants to talk about any news?
 
 **Tess Rinearson:** Yeah, exactly.
 
-**Brian Ketelsen:** \[00:55:49.21\] Alright, let's talk about some interesting Go projects and news out there. So the one big thing that came out across my desk was the review dog software, which is kind of slick. It's a Go application that allows you to add vetting to your Git repositories, and it will automatically do whatever level of vetting you choose, and then add those vet hits as comments to your Git pull requests. Kind of slick... It works not just with Go, but with any language that has a vet tool, and I think it ships with vetting capabilities for most of the popular languages. It looked like a really slick addition to keeping your codebase clean.
+**Brian Ketelsen:** \[00:55:49.21\] Alright, let's talk about some interesting Go projects and news out there. So the one big thing that came out across my desk was the review dog software, which is kind of slick. It's a Go application that allows you to add vetting to your Git repositories, and it will automatically do whatever level of vetting you choose, and then add those vet hits as comments to your Git pull requests. Kind of slick... It works not just with Go, but with any language that has a vet tool, and I think it ships with vetting capabilities for most of the popular languages. It looked like a really slick little addition to keeping your codebase clean.
 
 **Erik St. Martin:** Yeah, it was really cool because it adds... It's like having an automated person do code reviews and it adds comments to the line in the PR, or these things that got caught in the vet or lint. It looked like there was a way to run it locally too, to see what it was gonna do. You could pass in your gifs and things like that, and then it basically uses the error format (kind of like Vim) so that it can display it to you in a pretty way.
 
@@ -526,7 +526,7 @@ And I'd like to that personal responsibility for that, because I sent a ping on 
 
 **Tess Rinearson:** Although I do feel like in order to really make the most of a lot of the things that make Go awesome - like Go fmt - you need to configure these things and you need to noodle around in your Bash profile or set up your editor to run these things. So I'm totally with you, Carlisia, in that I'm really glad that for a lot of people this removes the need to think about that level of your system setup, but at the same time I'm looking forward to maybe more elements of the Go ecosystem being that automatic for beginners.
 
-**Erik St. Martin:** \[01:00:07.26\] Yeah, anything we can do to make the language itself and the tooling more approachable... And it's funny, because when you're in that are you think about it as like, "What's so hard about setting a Go path, because you're so used to it?" I like to compare this to the Ruby on Rails world; I came from there. Ruby was awesome, I used it for years, and it's like it's so easy until I tried to have a friend who wasn't familiar with it set his environment up. It's like, "Well, first you have to install rbenv, and then Bundler, and then you gotta do this..." Getting lost along the way, and it's like this hour-long process just to get set up to teach him some Ruby. It's like, wow...
+**Erik St. Martin:** \[01:00:07.26\] Yeah, anything we can do to make the language itself and the tooling more approachable... And it's funny, because when you're in that area you think about it as like, "What's so hard about setting a Go path, because you're so used to it?" I like to compare this to the Ruby on Rails world; I came from there. Ruby was awesome, I used it for years, and it's like it's so easy until I tried to have a friend who wasn't familiar with it set his environment up. It's like, "Well, first you have to install rbenv, and then Bundler, and then you gotta do this..." Getting lost along the way, and it's like this hour-long process just to get set up to teach him some Ruby. It's like, wow...
 
 **Brian Ketelsen:** And then it fails.
 
@@ -540,7 +540,7 @@ And I'd like to that personal responsibility for that, because I sent a ping on 
 
 **Carlisia Pinto:** Yeah, it's hard for people sometimes to put themselves in other people's shoes and see that people have different entry points into things.
 
-**Erik St. Martin:** Yeah, I tinkered with C and things like that when I first started programming, but then I went those couple of years where I did PHP development, and I learned the most there because it was easy to just get started and drop files onto a server, and you didn't focus on everything else. And through doing that, I started learning a lot more about systems and stuff like that. But when you don't have that foundation to build on, it's much harder.
+**Erik St. Martin:** Yeah, I tinkered with C and things like that when I first started learning programming, but then I went those couple of years where I did PHP development, and I learned the most there because it was easy to just get started and drop files onto a server, and you didn't focus on everything else. And through doing that, I started learning a lot more about systems and stuff like that. But when you don't have that foundation to build on, it's much harder.
 
 **Carlisia Pinto:** But I also wanted to mention that what Tess was saying is a very good point. Sometimes we're so into doing what we're doing, and to us it's easy because we're doing it, but that is a good point - there's still stuff that can be done to make Go easier to use for beginners. I think what we are talking about is the workspace tool that Andrew Gerrand was talking about.
 
