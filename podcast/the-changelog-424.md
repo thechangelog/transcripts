@@ -116,13 +116,13 @@ So I made my first contribution and didn't think much of it for many years after
 
 **Jerod Santo:** Right.
 
-**Mike Pennisi:** Again, with \[unintelligible 00:13:55.14\] a guy that works on a JavaScript parser... So I try to keep that bit of feedback to myself, usually...
+**Mike Pennisi:** Again, with pedantry--you can't help it with a guy that works on a JavaScript parser... So I try to keep that bit of feedback to myself, usually...
 
 **Jerod Santo:** \[laughs\] Well, as software developers, we tend to focus in on the little things, because they sure do make a difference to a computer, right?
 
 **Mike Pennisi:** Yeah, yeah.
 
-**Jerod Santo:** And they sure do make a difference -- I mean, the legal apparatus is a lot like a computer \[unintelligible 00:14:18.21\] entry. You can to be specific, and you have to be clear... So it's worth sweating those particular details, whereas in many contexts of life, you're like "Dude, leave me alone with that. I don't care." But you have to actually care. If you care about licensing, MIT plus that clause changes everything.
+**Jerod Santo:** And they sure do make a difference -- I mean, the legal apparatus is a lot like a computer in its pedantry. You can to be specific, and you have to be clear... So it's worth sweating those particular details, whereas in many contexts of life, you're like "Dude, leave me alone with that. I don't care." But you have to actually care. If you care about licensing, MIT plus that clause changes everything.
 
 **Mike Pennisi:** Yeah. The way we learned about this was through issues -- it's funny, it was through an issue filed by a contributor that I'd never met before, saying "Please remove that clause." And it's funny, that was filed on GitHub.com, and there's certain parts about how it was filed there, because it's somewhat coincidental... For instance, it was assigned Issue \#1234, which is a kind of nice -- not round number, but...
 
@@ -196,7 +196,7 @@ In hindsight, we can see that a lot of this stuff that Mozilla was working on di
 
 **Jerod Santo:** Right.
 
-**Mike Pennisi:** There's probably \[unintelligible 00:28:42.04\] all the people that in other situations might have been jumping at the chance to implement that in this project, we're also being driven away, and going somewhere else for it.
+**Mike Pennisi:** There's probably some cusp where all the people that in other situations might have been jumping at the chance to implement that in this project, we're also being driven away, and going somewhere else for it.
 
 **Jerod Santo:** Yeah. So it's kind of like what could have been...
 
@@ -208,7 +208,7 @@ So it's almost like -- new iterations on old ideas, they have an inherent advant
 
 **Jerod Santo:** Well, you mentioned relevance and ESLint... So the question that arises in many people's minds, and which you do address in the post, but we addressed it here as well, is "Here you've got this licensing problem, you've got an adoption problem, where it was skyrocketing, now it's leveling out, and you have maybe some features that are lacking..." And here comes another project, which is an alternative - not necessarily a competitor, but an alternative project that has some technical advantages with regard to autofixing. You could have just hopped on the ESLint bandwagon and said "You know what - JSHint was a tool, it was great, it's still there, we're not gonna take it off of Npm, but no longer maintained because of these reasons, and I'm gonna start contributing to ESLint starting tomorrow, and just pick that one up and put my efforts there." Why not that?
 
-**Mike Pennisi:** It's a good question. There's a few reasons. And actually, it's funny you should ask me, because that was very much on the table. Folks that were working on JSHint -- well, one person that was on the maintainer team, Mike Sherov, did exactly that. And shortly thereafter, actually, members and maintainers actually contacted us and said "Would you like to do that? Would you like to join \[unintelligible 00:31:23.18\]?" So I was answering this question a number of years ago even. My answer at the time was mostly focused on the idea of the strengths of having alternatives, and the strengths of friendly competition, we'd say... But also, for the same reason that we like to see more browsers out there, more interpretations of the specifications.
+**Mike Pennisi:** It's a good question. There's a few reasons. And actually, it's funny you should ask me, because that was very much on the table. Folks that were working on JSHint -- well, one person that was on the maintainer team, Mike Sherov, did exactly that. And shortly thereafter, actually, members and maintainers actually contacted us and said "Would you like to do that? Would you like to join the maintainers over at ESLint?" So I was answering this question a number of years ago even. My answer at the time was mostly focused on the idea of the strengths of having alternatives, and the strengths of friendly competition, we'd say... But also, for the same reason that we like to see more browsers out there, more interpretations of the specifications.
 
 \[00:31:52.25\] I mentioned how Rick Waldron was involved in TC39. And I didn't say what TC39 was, so my apologies there; that's the standards body that decides what is JavaScript and what is not JavaScript. So it seems to me like the more projects that are actively interpreting that and implementing that and experimenting with it, the better the ecosystem becomes, and the more ideas that come to bear, the less decision-making from a language design perspective is informed by any one implementation. So that's kind of a highfalutin reason to have more than one linter...
 
@@ -326,7 +326,7 @@ It also drags you into technical challenges that I wasn't expecting. I mentioned
 
 **Mike Pennisi:** Sure, yeah. Just because that's really the one stipulation of the license - it kind of rides with the code. You have to maintain that along with the code, as long as you maintain that code; so when you fork it, it's still the same project, it's still the same codebase. So you add your additions, but you're still fundamentally contributing to the same codebase, and you're still beholden to that same license.
 
-So the one person that would be able to change it is the author. Originally, when we got this request, that's what Anton - who was still the maintainer at that moment - did, was contact the author of JSLint and ask "We have people in our project, we forked it, we've added a lot of stuff, we have a lot more contributors... Would you mind if we change license?" And they declined. So that kind of put the \[unintelligible 00:46:11.10\] that particular route.
+So the one person that would be able to change it is the author. Originally, when we got this request, that's what Anton - who was still the maintainer at that moment - did, was contact the author of JSLint and ask "We have people in our project, we forked it, we've added a lot of stuff, we have a lot more contributors... Would you mind if we change license?" And they declined. So that kind of put the kibosh on that particular route.
 
 But one thing that Anton -- Anton did a lot of really smart things, and one of the smart things that Anton did though was he was careful as he contributed to JSHint, and as it grew, to put all new source code into new files. And that included also the tests. So it does get down to a file base level. The license only governs the original source code file that JSLint was written in. So when you make changes to that file, you're still contributing to it. It's called the JSON license. So you're still contributing to a JSON-licensed file. But if you add another file, then in Node.js you require that file, and that file can be under a different license if you want.
 
@@ -334,7 +334,7 @@ So Anton was very careful from the start; he grew the project, and said "Oh, we 
 
 **Jerod Santo:** So how did you get that all done? Where did you decide to take it? You couldn't do the first move...
 
-**Mike Pennisi:** \[00:48:01.13\] That's right, yeah. So the kind of next break in the case, you would say, is that somebody -- this is another case where I've never spoken to this person in real life, so I'm gonna butcher their last name, but \[unintelligible 00:48:11.26\] was working with the Eclipse project, which is an editor that your listeners might have even used... But they showed up seemingly out of nowhere on that issue that said "Please change the license", and reported that they had a version of JSLint that was licensed with just the MIT license. The reason they had that was because back in the day this project called Orion, from the Eclipse Foundation, was distributed with free software, and they somehow received permission to distribute that software as MIT. We don't have access to the discussion that happened to make that possible, but they were granted a version of JSLint that was MIT-licensed.
+**Mike Pennisi:** \[00:48:01.13\] That's right, yeah. So the kind of next break in the case, you would say, is that somebody -- this is another case where I've never spoken to this person in real life, so I'm gonna butcher their last name, but Simon Kaegi was working with the Eclipse project, which is an editor that your listeners might have even used... But they showed up seemingly out of nowhere on that issue that said "Please change the license", and reported that they had a version of JSLint that was licensed with just the MIT license. The reason they had that was because back in the day this project called Orion, from the Eclipse Foundation, was distributed with free software, and they somehow received permission to distribute that software as MIT. We don't have access to the discussion that happened to make that possible, but they were granted a version of JSLint that was MIT-licensed.
 
 So that was really important, because it meant that we could start as though basically all the contributions that had been made to JSHint, we could pretend as though they had been made to an MIT-licensed project. So that way, the original license was no longer necessarily needed to apply.
 
@@ -388,7 +388,7 @@ So we had solved a big problem by finding this free version of JSLint and rebasi
 
 **Adam Stacoviak:** What's your cold call list? "Hey, by the way, I've found this free version I wanna replay... Can I get your permission?"
 
-**Jerod Santo:** Yeah... It's like when you have Covid, and you have to talk to all the people you were with last week. You're like "Oh, sorry I've gotta call you, but \[unintelligible 00:55:22.21\]"
+**Jerod Santo:** Yeah... It's like when you have Covid, and you have to talk to all the people you were with last week. You're like "Oh, sorry I've gotta call you, but by the way..."
 
 **Mike Pennisi:** Yeah, contact tracing.
 
@@ -430,7 +430,7 @@ But the real sticking point though was for a person that had contributed a lot. 
 
 At the end of the day though, there wasn't really anything you could do, because I can't find this person, and I certainly can't help them... So I had to just kind of say "I hope they're well, but there's nothing I can really do for that." So I had to turn my attention back to the task at hand, which was "What do I do given that there's a significant contribution and I can't get their permission to relicense?" And the answer was to rewrite that from scratch. It's a little bit trickier than that, because they didn't write just a file, they wrote patches, so I had to work to revert their patches, which other people had patched on top of.
 
-In reverting, I had merge conflicts of -- I had to strangely resolve conflicts that were intended to break the code. But once I had that, I had a version of JSHint that was kind of devoid of that unlicensed contribution. And what I could then do with that is put it in front of another developer that had not seen JSHint before, \[unintelligible 01:00:03.02\] and asked them to reimplement it.
+In reverting, I had merge conflicts of -- I had to strangely resolve conflicts that were intended to break the code. But once I had that, I had a version of JSHint that was kind of devoid of that unlicensed contribution. And what I could then do with that is put it in front of another developer that had not seen JSHint before, or seen its source code, and asked them to reimplement it.
 
 **Jerod Santo:** \[01:00:07.05\] I was gonna ask, you couldn't just copy what they did, because that is plagiarism at that point, right?
 
@@ -506,7 +506,7 @@ In reverting, I had merge conflicts of -- I had to strangely resolve conflicts t
 
 **Adam Stacoviak:** I mean, just the cycles, and the mental cycles alone, let alone the actual time cycles. And it brings up the explicit versus implicit contributor license agreement. So you explicitly asked them to sign one that changed their commits and the license that went with it, right? But you'd mentioned earlier your obligation, and license-wise there was no obligation from you as a maintainer to the open source. But there is, I suppose, some sort of implicit contributor license agreement that you contribute code to this project even though there is not CLA, and you didn't sign it, that you're contributing to that license. So you've got a bunch of people who are like "Why are you reaching out to me, Mike? Come on, are you being serious?" But there's an implicit license agreement there, because there isn't one. And there is a license to the project.
 
-**Mike Pennisi:** \[01:04:01.17\] Right, yeah. It's actually made me think a lot about my own contributions in other open source projects, and a kind of responsibility that I never really considered. Coming up in open source, just thinking like "Oh, open source is great \[unintelligible 01:04:12.15\] make projects better, and that's that." When you do that, you're kind of accruing a different kind of responsibility that people don't talk about as much... And thinking about this and dealing with this has made me more sensitive to that.
+**Mike Pennisi:** \[01:04:01.17\] Right, yeah. It's actually made me think a lot about my own contributions in other open source projects, and a kind of responsibility that I never really considered. Coming up in open source, just thinking like "Oh, open source is great as a matter of course; free software is great as a matter of course. Just make projects better, and that's that." When you do that, you're kind of accruing a different kind of responsibility that people don't talk about as much... And thinking about this and dealing with this has made me more sensitive to that.
 
 There are interesting things happening in this case, because you know, in the case of when I pass away, if that should happen and someone wants to change the license of the codebase that I contributed to, what happens then? There's some legal standing for people, especially prolific developers, bequeathing their rights as kind of like an inheritance.
 
@@ -546,7 +546,7 @@ And finally, speaking of maintainership, it's maintained in a really impressive 
 
 **Adam Stacoviak:** Is there no other maintainers now then? You're the sole maintainer?
 
-**Mike Pennisi:** There are. I guess you would have to really ask them... I think though at this point that would be Rick Waldron and Caitlin Potter. I think at this point mostly they are to humor me... So in some ways they may be relieved when they no longer have patches to review, which they do, without fail... They'll be \[unintelligible 01:11:35.00\] be done with that.
+**Mike Pennisi:** There are. I guess you would have to really ask them... I think though at this point that would be Rick Waldron and Caitlin Potter. I think at this point mostly they are to humor me... So in some ways they may be relieved when they no longer have patches to review, which they do, without fail... They'll be relieved to be done with that.
 
 **Adam Stacoviak:** There you go. Here's a question for you then. So the next time you fire up a new JS project, are you using JSHint, or ESLint?
 
