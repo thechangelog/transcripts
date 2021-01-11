@@ -160,7 +160,7 @@ So you mentioned you wanted to be an author when you grow up... What do you want
 
 **Mat Ryer:** Why?
 
-**Natalie Pistunovich:** \[unintelligible 00:15:03.11\] be in space, at least these days, but I'm sure that a couple of generations into the future it will not be a big deal. Just like flying planes. And what I really want to be now is a person with enough free time to nerd about space without having to do really committing things like bootcamps, or whatever astronauts (physical training and so on) have to go through. You know, just enjoy the space without the heavy commitment.
+**Natalie Pistunovich:** Well, you can't be in space, at least these days, but I'm sure that a couple of generations into the future it will not be a big deal. Just like flying planes. And what I really want to be now is a person with enough free time to nerd about space without having to do really committing things like bootcamps, or whatever astronauts (physical training and so on) have to go through. You know, just enjoy the space without the heavy commitment.
 
 **Mat Ryer:** You've got to go in that thing that spins you around dead fast first, I know that...
 
@@ -284,9 +284,9 @@ Kris, you're talking at GopherCon... What's your talk about?
 
 **Mat Ryer:** Okay, so I find this subject to be really quite interesting. I know that GopherCon in particular - remember the first GopherCon - had a kind of focus from the beginning on making sure that people that were otherwise not represented had a place at the conference... Have you found Go to be doing a good job with this, and is there more we can do?
 
-**Kris Brandow:** Yeah, I think in general the Go community, especially when you compare it to other software engineering communities, is pretty good at this. We have good amounts of diversity, or decent amounts of diversity, and we're a very inclusive community, I find... There haven't been many times when I've been in discussions with people where I felt like "Oh, I don't feel like I belong here. I don't feel like I can be a part of this conversation." So I think that's really good, and a really positive aspect of the Go community... And I think really the way that we get to having a more diverse community is by doing more that stuff.
+**Kris Brandow:** Yeah, I think in general the Go community, especially when you compare it to other software engineering communities, is pretty good at this. We have good amounts of diversity, or decent amounts of diversity, and we're a very inclusive community, I find... There haven't been many times when I've been in discussions with people where I felt like "Oh, I don't feel like I belong here. I don't feel like I can be a part of this conversation." So I think that's really good, and a really positive aspect of the Go community... And I think really the way that we get to having a more diverse community is by doing more of that stuff.
 
-I feel like when people first start thinking about diversity and inclusion, it's always like really big things, like "Oh, we should start a program at some school to get more kids to learn software engineering, so in ten years they can become Go engineers." Or we could just watch the way that we interact with each other and speak with each other, and try to be just a little bit more inclusive. So I think that's really what tends to be helpful. I think contrary to a lot of popular opinion, there are a lot of people of different backgrounds spread throughout software engineering as a whole, but I think over time people just stop wanting to participate in communities, because it can be extremely exhausting. It can be extremely exhausting to participate in this industry as a whole when it comes to work... So if you're getting exhausted at work by not feeling included, and by people disrespecting you or slighting you in small ways, you're just not gonna have the energy to go out into the community and deal with the same stuff.
+I feel like when people first start thinking about diversity and inclusion, it's always like really big things, like "Oh, we should start a program at some school to get more kids to learn software engineering, so in ten years they can become Go engineers." Or we could just watch the way that we interact with each other and speak with each other, and try to be just a little bit more inclusive. So I think that's really what tends to be helpful. I think contrary to a lot of popular opinion, there are a lot of people of different backgrounds spread throughout software engineering as a whole, but I think over time people just stop wanting to participate in communities, because it can be extremely exhausting. It can be extremely exhausting to participate in this industry as a whole when it comes to work... So if you're getting exhausted at work by not feeling included, and by people disrespecting you or sliding you in small ways, you're just not gonna have the energy to go out into the community and deal with the same stuff.
 
 So as a community, we kind of have to compensate for the sad state of software engineering companies right now, and what their cultures are... And I think if we focus on that and focus on "How can we undo some of that uninclusive harm that people are feeling, that's how we grow our community."
 
@@ -314,7 +314,7 @@ So what we need to do is more level the field than give people extra things to h
 
 And that can be from debugging something, but it can also be from just catching bugs that could be catastrophic in production earlier on, all the way to things like making sure we don't have accidental -isms. One of the most interesting things that I always find about modern day bathrooms in America is that there's a lot of these sensors all over the place, and they don't work really well for people that have darker skin, because a lot of the companies that built them just don't think about people that have darker skin when they calibrate them... So sometimes it's really hard for me to wash my hands, or get a paper towel, just because the companies themselves aren't diverse enough and weren't thinking "Oh, well, we have to augment this to a broader range of skin tones to make sure everybody can use it."
 
-So even those types of bugs we can really start solving if we just have one person that's different from everyone else \[unintelligible 00:38:20.13\]
+So even those types of bugs we can really start solving if we just have one person that's different from everyone else in a row.
 
 **Mat Ryer:** I see what you mean about it being tiring, because... I mean, yeah, you just don't need that. I'd be totally fine; I'm so pale that all the sensors would be going off when I walk in there, no problem. My problem with American bathrooms is all the gaps in all the doors. Like, make the doors join up, do you know what I mean?
 
@@ -428,7 +428,7 @@ I think work environments are especially difficult right now, especially with co
 
 So yeah, I think my advice to people would be like "Just give yourself space to recover." If you don't feel like doing anything, just don't do anything. Just relax. You don't have to do anything.
 
-**Mat Ryer:** So how does that sound from a product management point of you, Angelica?
+**Mat Ryer:** So how does that sound from a product management point of view, Angelica?
 
 **Angelica Hill:** I'm a big advocate for taking time off and making sure that you aren't exhausted writing code. I mean, we in the lead-up to the elections were on Google Hangouts from very early in the morning until 11 PM at night, and I was not supportive of that, but I was supportive of us getting ready for the elections, elections, meaning this week is much more chill.
 
