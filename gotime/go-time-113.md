@@ -10,11 +10,11 @@ Today I'm joined by a couple of regulars, and a special guest. Jon Calhoun is he
 
 **Mat Ryer:** Good. We're also joined by Jaana B. Dogan. Hello, Jaana.
 
-**Jaana B. Dogan (JBD):** Hello!
+**Jaana Dogan:** Hello!
 
 **Mat Ryer:** How's it going?
 
-**Jaana B. Dogan (JBD):** Good!
+**Jaana Dogan:** Good!
 
 **Mat Ryer:** And we are also joined by our special guest, CTO of Cloudflare - it's only John Graham-Cumming. Welcome, John!
 
@@ -42,7 +42,7 @@ I really liked that way of thinking and reasoning about how a program works, and
 
 So that idea of this explicit synchronization for communication makes it quite easy to reason about what your program is doing. It doesn't eliminate, of course, all problems, but it is much simpler to reason about than something that's vastly asynchronous... So that really appealed to me, and that was fundamentally what was in CSP.
 
-**Jaana B. Dogan (JBD):** John, did you see this old paper from Bell Labs? Maybe it was from the days of Plan 9... They were conceptually explaining some of the concepts around synchronization over channels. I think there was a paper like that, and I think that Go is a proper implementation of some of those concepts... If I can actually find the paper, I will send it to you. It's really interesting to see the resemblance.
+**Jaana Dogan:** John, did you see this old paper from Bell Labs? Maybe it was from the days of Plan 9... They were conceptually explaining some of the concepts around synchronization over channels. I think there was a paper like that, and I think that Go is a proper implementation of some of those concepts... If I can actually find the paper, I will send it to you. It's really interesting to see the resemblance.
 
 **John Graham-Cumming:** Yeah. Well, what's interesting about Plan 9 -- so Plan 9 arrives in the '80s, and the fundamentals of CSP are 1977 and 1978. So I think a lot of this stuff has an origin in some of this thinking about synchronization... And also, people think about "What are we gonna do if we have really big, multi-processor machines?", which they didn't have at the time, but "How are we gonna tame them?" and this was a way of taming them, with this kind of thinking.
 
@@ -78,7 +78,7 @@ So this Railgun thing, the idea was if we took over the connection between the t
 
 **John Graham-Cumming:** Yeah, that was kind of fun, because a lot of that was just, in a way, stuff I'd done at university, and I was like "Well, these are the sorts of things you can do. You can make a specific synchronization, or you can coordinate things in a different way", and that was just to show people what the possibilities of channels were... And they're not just a mechanism for getting output from your program, or something; they're fundamentals. That was the idea of that talk, it was just to give people some idea. I think it's called a Channel Compendium... Is that what it's called? I don't quite remember now. It's been a while...
 
-**Jaana B. Dogan (JBD):** Did you end up refactoring any of those bits? I'm seeing a lot of people going over some of the previous patterns, say concurrency patterns they've come up with over time... So did that happen at Cloudflare as well?
+**Jaana Dogan:** Did you end up refactoring any of those bits? I'm seeing a lot of people going over some of the previous patterns, say concurrency patterns they've come up with over time... So did that happen at Cloudflare as well?
 
 **John Graham-Cumming:** Absolutely, in terms of Railgun... Because one of the things that was interesting about Railgun was I was both learning the language and writing what was gonna be one of our products at the same time... So there were definitely times when I did things that could have been done better and it got refactored extensively... And of course, eventually a team of people took it over and in classic style said "What idiot wrote this? We need to refactor everything..." \[laughter\]
 
@@ -92,7 +92,7 @@ Eventually, I realized that everything seemed fine. What was happening was when 
 
 So that's why we were running out of memory, because every time we gave memory back to the operating system, we said "We don't need it", but the operating system didn't get it...
 
-**Jaana B. Dogan (JBD):** That's amazing...
+**Jaana Dogan:** That's amazing...
 
 **John Graham-Cumming:** So that was a fairly easy fix. I went in and fixed it... And if you can go back in time, you can find the request by me to say "By the way, I'm implementing this on FreeBSD", because it was missing. So there were things definitely in the early days.
 
@@ -108,11 +108,11 @@ But to be honest with you, I've run into problems with every programming languag
 
 **Mat Ryer:** \[laughs\] Yeah. And of course, now everyone can use Go with a lot more confidence thanks to efforts like yours, where people did go in and fix things that didn't work for them.
 
-**Jaana B. Dogan (JBD):** I think Cloudflare has been extraordinarily instrumental figuring out some of the critical things... I remember the leap second bug, that you wrote a post-mortem about. There was no monotonic clock, and there were a lot of discussions going on, but nobody was particularly interested in just considering it as an additional API, or in a way to the standard library. That situation actually became very critical, and I think that they released something in the next release, or something, right?
+**Jaana Dogan:** I think Cloudflare has been extraordinarily instrumental figuring out some of the critical things... I remember the leap second bug, that you wrote a post-mortem about. There was no monotonic clock, and there were a lot of discussions going on, but nobody was particularly interested in just considering it as an additional API, or in a way to the standard library. That situation actually became very critical, and I think that they released something in the next release, or something, right?
 
 **John Graham-Cumming:** Yeah, they did, and it's great that they did that, although I definitely believe in "A bad workman blames his tools" as a maxim... So we should never have had that bug.
 
-**Jaana B. Dogan (JBD):** Yeah.
+**Jaana Dogan:** Yeah.
 
 **John Graham-Cumming:** We were assuming that the time API was monotonic, when it wasn't... And that was quite scary. But yes, obviously by us having these mistakes, things do progress.
 
@@ -126,7 +126,7 @@ Then the other thing is we spend a lot of effort on optimization, particularly a
 
 I know in the early days there were some times where it felt like we were fighting a bit with the language, like in this garbage collection thing. Now I don't feel like that, and now it's a question of "Well, what's the right language to use for this particular problem we're solving?" I think Go is great for many, many things, and we use it a lot.
 
-**Jaana B. Dogan (JBD):** Do you ever have any guidelines around picking a language? I'm seeing some very large companies do that... "If this is the type of problem pattern you're solving, or whatever, just don't use this language." At least they're documenting some of the anti-patterns.
+**Jaana Dogan:** Do you ever have any guidelines around picking a language? I'm seeing some very large companies do that... "If this is the type of problem pattern you're solving, or whatever, just don't use this language." At least they're documenting some of the anti-patterns.
 
 **John Graham-Cumming:** No, we don't have any formal guidelines about it. We have a lot of discussions internally, depending on the project, and then people are fairly free to choose the language they want to use at Cloudflare. We don't actually have a large number of languages people use, but mostly I think from the engineers we have, they'll make a choice about what they wanna use, and it's usually within one of a very small number of languages.
 
@@ -158,7 +158,7 @@ There are lots of resources for learning about Go, it's an easy language to pick
 
 **John Graham-Cumming:** Now, having said that...
 
-**Jaana B. Dogan (JBD):** I can name too many languages actually in that category... \[laughter\]
+**Jaana Dogan:** I can name too many languages actually in that category... \[laughter\]
 
 **John Graham-Cumming:** I was gonna say, I'm not sure that it's actually possible to master C++ completely. I think everybody who writes C++ writes their own variant, which is probably what people like about it... But no, I think that fundamentally programmers like to learn; they want to work on new stuff, and early on, once Go took off and once we were pushing it, people wanted to work for us to work on Go. So they discovered it, or they were keen on it, and they were coming to us, and that was -- you know, what you want from programmers is motivation. You want people to be motivated. And if you have an intrinsic motivation, which is "Hey, I'm learning, I'm growing", that's fantastic. As a company, why would you not hire people who want to do that?
 
@@ -178,7 +178,7 @@ I know that programmers like to be really clever, and it's really tempting to op
 
 What we've done, for example with Go, is we went and optimized the crypto stuff, because we're doing a lot of cryptography because of all those HTTPS requests... So it was appropriate to go and do that work, and we have someone who loves doing that work, that used to work for Intel... So I think you've just gotta measure it and figure out where your problem is, and not right from the beginning be worried about some of this stuff, because you just -- you just optimized the wrong thing.
 
-**Jaana B. Dogan (JBD):** Talking about measurements... Where do you measure? Do you measure the production performance? Where is the data coming from?
+**Jaana Dogan:** Talking about measurements... Where do you measure? Do you measure the production performance? Where is the data coming from?
 
 **John Graham-Cumming:** Yes, we can measure production performance. There are lots of great tools for doing this. You can get in and you can use things like strace to figure out what your programs are doing in production. We do do that in production when we want to fully understand something.
 
@@ -218,7 +218,7 @@ Essentially, we're running a log file system globally; you push stuff in, and th
 
 **John Graham-Cumming:** \[00:36:13.27\] Yes, absolutely.
 
-**Jaana B. Dogan (JBD):** Yeah, talking about that - you have tons of open source projects that people keep looking at as reference... How did it all start? Did you just want to just push things because that's part of your culture, or did you just specifically did it to share, because Go was very small in the beginning and you were one of the major users?
+**Jaana Dogan:** Yeah, talking about that - you have tons of open source projects that people keep looking at as reference... How did it all start? Did you just want to just push things because that's part of your culture, or did you just specifically did it to share, because Go was very small in the beginning and you were one of the major users?
 
 **John Graham-Cumming:** Well, I'd done open source stuff in the past, so I thought open source was important. I think it's very satisfying for engineers to see their work used by others, so it wasn't difficult to encourage people to open-source stuff. And obviously, if you're modifying something, then you should upstream it. The upstream doesn't always want your modification, but you should at least do that...
 
@@ -322,11 +322,11 @@ Then there was this idea of the pardon, and actually I was upset about the pardo
 
 **Mat Ryer:** Yeah, well I was really glad he did it. Thank you for doing that. I didn't realize you worked so hard on it. I kind of had the impression it was a petition that just went viral, so... That's even better. Thanks for sharing that story.
 
-**Jaana B. Dogan (JBD):** Yeah, it's amazing - in the last ten years there was a lot of representation of Alan Turing in the popular culture, and it's all because of you. Thank you.
+**Jaana Dogan:** Yeah, it's amazing - in the last ten years there was a lot of representation of Alan Turing in the popular culture, and it's all because of you. Thank you.
 
 **John Graham-Cumming:** I think so. It's kind of hard to take credit for it, but if you look at it, it really did take off after the apology.
 
-**Jaana B. Dogan (JBD):** Exactly, yeah.
+**Jaana Dogan:** Exactly, yeah.
 
 **Mat Ryer:** I give you credit for that, John. I mean, I'm not a notable person, as your automated father made clear, but you still do get -- in fact, I mention it in my book, Go Programming Blueprints. Still available.
 

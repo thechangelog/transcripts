@@ -4,15 +4,15 @@
 
 **Mat Ryer:** We're also joined by Jaana B. Dogan. Hello, Jaana.
 
-**Jaana B. Dogan (JBD):** Hello!
+**Jaana Dogan:** Hello!
 
 **Mat Ryer:** How are you?
 
-**Jaana B. Dogan (JBD):** Good!
+**Jaana Dogan:** Good!
 
 **Mat Ryer:** Welcome back, it's been a while.
 
-**Jaana B. Dogan (JBD):** It's been quite a while...
+**Jaana Dogan:** It's been quite a while...
 
 **Mat Ryer:** Yes. Well, it's good to have you back. We're also joined by a special guest, it's only Francesc Campoy. Hello, Francesc!
 
@@ -30,7 +30,7 @@
 
 **Francesc Campoy:** Yeah, eventually coming back. Maybe next year. Maybe.
 
-**Jaana B. Dogan (JBD):** Do you need help?
+**Jaana Dogan:** Do you need help?
 
 **Francesc Campoy:** Yeah, I need extra time. That's the only thing I need. \[laughs\] No, but now I finally moved to a new house and everything, and settling down, and I will have a little studio, so I will be able to start again. Now I just need the energy. So you know, a couple months of relaxing, and then back.
 
@@ -76,7 +76,7 @@ At Dgraph what we do is instead we partition a dataset by the predicate. Say the
 
 Otherwise, if you end up partitioning in any other way - at least the ones that we have tried - as you go with more data, you end up having to send queries to all of the computers that are involved, and then that kills performance again.
 
-**Jaana B. Dogan (JBD):** Can I ask a more fundamental question? Because I think I'm super unqualified to be on this podcast... \[laughter\] So compared to, for example, to column-based DBs, what is the overall underlying storage structure for a graph DB? ...in the same node, like let's say everything is just on one machine.
+**Jaana Dogan:** Can I ask a more fundamental question? Because I think I'm super unqualified to be on this podcast... \[laughter\] So compared to, for example, to column-based DBs, what is the overall underlying storage structure for a graph DB? ...in the same node, like let's say everything is just on one machine.
 
 **Francesc Campoy:** Yeah, so it's kind of cool, because we use an open source project that was also created by Dgraph, which is called Badger... It's the project that gives name to our mascot, which is diggy the badger. This is just a key-value store, so you could think about like SSTs, and things like that, like sorted string tables and all that stuff that we use at Google... But the idea is that from a high-level point of view you just have keys and values. The way these are actually implemented internally - it's an LSTM, which is a log-structured tree... What was it...? Log-structured tree...
 
@@ -120,21 +120,21 @@ The cool thing is that once you get there, then you can present that -- we have 
 
 **Break:** \[00:21:41.19\]
 
-**Jaana B. Dogan (JBD):** Is there any additional calls of going completely schema-less? Because the indexes are going to be affected... How rebuilding the index works if you change the schema... Is this one of the reasons that on production you wanna actually lock the schema?
+**Jaana Dogan:** Is there any additional calls of going completely schema-less? Because the indexes are going to be affected... How rebuilding the index works if you change the schema... Is this one of the reasons that on production you wanna actually lock the schema?
 
 **Francesc Campoy:** \[00:23:57.22\] Not necessarily. The idea is that you can change your schema as you go. It's totally fine. If you want an index to something that didn't have an index, it will be computed on the fly... And it's fine; it's really fast also. But if you have terabytes of data, it might take a couple minutes. During those minutes you will not be able to change your data; you will be able to only retrieve data, but not do mutations... Which is fine, but the idea is while you're doing the development, you're actually working normally with a smaller dataset, and at that point it's great, because then you can click and it's basically instantaneous.
 
 So while you're developing that developer experience of schema-less, I really like it. It's somehow like when you're writing code and you're writing in Python, the fact that you can just put things together and it just works - that is great. But at the same time, when I'm going to production I want to have a little bit more rigidity, and make sure that the schema is working for me... So I'm gonna start adding things that will make it so if I do something wrong, which is totally possible, I will be notified. Some error, even if it's just a log, or a warning, or something like that, is much better than silently failing.
 
-**Jaana B. Dogan (JBD):** Yeah, completely.
+**Jaana Dogan:** Yeah, completely.
 
 **Francesc Campoy:** So that's the idea of why I want -- I like the schema-less, and it's super-useful, but once I'm in production, I'd rather be writing Go with a decent type system than be writing C and end up having weird things happening if I'm doing something wrong. I have zero trust in me.
 
-**Jaana B. Dogan (JBD):** It really happened to me when I was working with document DBs... Since there's no schema, I would just end up having all these embedded types, embedded objects. You can end up just really doing a lot of things wrong, especially if the references are referring large objects, or whatever. Everything just gets into the database, so it's kind of nice to have that option to restrict it to a schema.
+**Jaana Dogan:** It really happened to me when I was working with document DBs... Since there's no schema, I would just end up having all these embedded types, embedded objects. You can end up just really doing a lot of things wrong, especially if the references are referring large objects, or whatever. Everything just gets into the database, so it's kind of nice to have that option to restrict it to a schema.
 
 **Francesc Campoy:** Yeah, I've had issues where after debugging for ten minutes I realized that the data I was storing had a typo in the name of the field, and that took me forever... So I was like "That is the kind of thing I just don't want to happen." If I can avoid that, much better for me. That's why having a schema that is optionally enforced makes a lot of sense.
 
-**Jaana B. Dogan (JBD):** Yes.
+**Jaana Dogan:** Yes.
 
 **Johnny Boursiquot:** I'm to wrap my relational modeling head around not having to have a schema, and that's proving quite hard for me... How do you model relationships that are not just like "Oh, this piece is connected to this other piece by some sort of loose relationship between them"? How do I model things like actual relationships? Maybe I have an invoice with line items on it. This is kind of like a parent-child relationship, you can't have the line item just floating out and about; it belongs to something. It doesn't have meaning without the parent relationship... So how do you model these kinds of things? Or rather, do you have to throw that approach out the door, or leave it at the door before you entered a world of schemaless and a world of graph databases?
 
@@ -148,7 +148,7 @@ But in general, I'd say that just storing the data the most natural way possible
 
 And for data modeling I would say it's the same. Find something that is obvious and very clear, and if that doesn't work, first file an issue and let us know... Because maybe there's an issue, or something like that... But also, at that point we're gonna start looking into performance turning and doing actual debugging and figuring out how much data are we fetching... Because sometimes it might be something as silly as "Oh, you're actually not using this index, and instead of loading one item, you're actually loading all of your database." That's not good. So that is the kind of thing that you need to look into as you're writing your thing... But data modeling should be as straightforward and as natural as possible... Because at the end of the day you're gonna have to maintain that over time. So if you start getting smart, you're gonna need to be at least as smart as you are now in a month, which I'm not convinced I can, so... \[laughter\]
 
-**Jaana B. Dogan (JBD):** Good point.
+**Jaana Dogan:** Good point.
 
 **Johnny Boursiquot:** Along those lines... In my experience, you can go pretty far with a relational database before you start noticing that "Oh, I didn't have the proper index, and the right column..." You can go far before you realize "Okay, I have to do something about this. I have a problem with my actual data and how it's being stored." It sounds like with key-value stores, with graph databases you kind of have to put a bit more forethought into how we structure your data, like where it goes, how you're gonna shard, and things like that.
 
@@ -168,7 +168,7 @@ As you go, you're gonna start tuning that up, and saying "Actually, naming needs
 
 So when you start the database, you have this switch that says -- it's the serving mode, and in serving mode there's standard, or strict. The other one is completely nothing - you cannot mutate anything, you cannot change the data. You get a read-only database. So it's somewhere in between. You can write things, but you cannot modify your schema.
 
-**Jaana B. Dogan (JBD):** \[00:36:11.21\] Just because you mentioned read-only databases, is there any sort of replication of data? Can I have multiple read nodes, for example, and have one-write nodes, or...?
+**Jaana Dogan:** \[00:36:11.21\] Just because you mentioned read-only databases, is there any sort of replication of data? Can I have multiple read nodes, for example, and have one-write nodes, or...?
 
 **Francesc Campoy:** Yes, that's actually a very good point. Dgraph - the D stands for Distributed. So the idea is that you are supposed to be running multiple servers for every single function; it is designed so it doesn't have any single point of failure. If you think about how Kubernetes works - you have multiple replicas, and those replicas in a group host the same information, they do the same thing, and we use the graph to decide which one is the leader. If one of them dies, we don't care. If you have three of them and one of them dies, you still have a quorum, you have two of them, so the database is gonna continue working. And then once it comes back, it's going to be notified "Hey, you're part of this group. This is the data that you should be serving. So it catches up." So the data will be replicated.
 
@@ -198,25 +198,25 @@ So that's why for us, for Dgraph, the GraphQL - it was super-easy to adapt, beca
 
 So adapting GraphQL was super-easy - "it's basically the same language - and now what we're doing is figuring out "How can we bring the things that we added that make the language incompatible with GraphQL, how can we add them back to GraphQL in a compatible way?" And there are ways... It's super-interesting, actually. A lot of language design, and APIs, but inside GraphQL. Super-cool.
 
-**Jaana B. Dogan (JBD):** Just because you mentioned debugging, in relational databases for example there's a huge culture around analysis tools... They can analyze your query, and so on. Do you have anything for Dgraph?
+**Jaana Dogan:** Just because you mentioned debugging, in relational databases for example there's a huge culture around analysis tools... They can analyze your query, and so on. Do you have anything for Dgraph?
 
 **Francesc Campoy:** Not right now. We're actually working on having a query planner. Right now the only places -- the thing is that the way the data is structured, query planners do not make that much sense, except on how you use indexes. So that is where we're starting working... Because sometimes using the index is not necessarily the best way to do it. Basically, if you have joins of two tables in relational databases, if one of them is much smaller than the other, there's better operations that you can do than just doing the full joint. So it's kind of the same idea, of like depending on the size of the datasets, sometimes using an index is better, sometimes just going and iterating over all the items might be faster... So that's the kind of things that we are looking into.
 
 That said, in the latest version that we published we have a new thing that allows you to have an idea of how many nodes have been fetched, how much data from the disk you had to get, how many network calls you had to go through... And then on top of that - I'm sure you'll love it, Jaana - we have OpenCensus absolutely everywhere.
 
-**Jaana B. Dogan (JBD):** \[laughs\] Congratulations.
+**Jaana Dogan:** \[laughs\] Congratulations.
 
 **Francesc Campoy:** Yeah, thank you. It works surprisingly well. When you go into like "Okay, so this is slow. What is going on?" and you just open OpenCensus and you can see all of the traces hitting the different machines, hitting the disk and saying "This and this was really slow. What is going on in here?" That makes it so the tooling that we're developing on top will be useful for the end user, but for any knowledgeable person that already knows OpenCensus there's a lot already in there, thanks to open source.
 
-**Jaana B. Dogan (JBD):** \[00:44:02.29\] It's also a knowledge tool. I really like distributed traces as a knowledge tool. It's probably so hard for everyone on the team to understand everything end-to-end, so they can just basically use distributed traces to learn more about their project, right...?
+**Jaana Dogan:** \[00:44:02.29\] It's also a knowledge tool. I really like distributed traces as a knowledge tool. It's probably so hard for everyone on the team to understand everything end-to-end, so they can just basically use distributed traces to learn more about their project, right...?
 
 **Francesc Campoy:** Yeah. And that's also something that -- that is where I enjoy having control from... You know, let's say you're surveying a GraphQL layer. You have a GraphQL that is transforming into things that are sent to the alphas, and then talk to the zeroes, and then go to Badger and get something from an SSD... We own all of that code, so we're able to put OpenCensus across the whole thing and have a very clear view of what's going on.
 
-**Jaana B. Dogan (JBD):** That's great.
+**Jaana Dogan:** That's great.
 
 **Francesc Campoy:** If you try to do something like that within an adaptor, and you have an adaptor over some other database, actually that integration is gonna be super-hard.
 
-**Jaana B. Dogan (JBD):** Yeah.
+**Jaana Dogan:** Yeah.
 
 **Francesc Campoy:** So the fact that we simplify everything and everything is built by us, everything is in Go, everything OpenCensus, everything -- I'm gonna go with the word "cloud-native"; the idea of everything is supposed to be running continuously, and if something crashes, whatever - just restart it and keep going. All of those things make it so at the end of the day it is much easier to use, because there's fewer moving pieces.
 
@@ -242,7 +242,7 @@ That said, there are things like if you're doing time series data - there are mu
 
 **Francesc Campoy:** I mean, yeah... \[laughter\]
 
-**Jaana B. Dogan (JBD):** We are canceled in North Korea. Whoops... \[laughter\]
+**Jaana Dogan:** We are canceled in North Korea. Whoops... \[laughter\]
 
 **Johnny Boursiquot:** Thanks, Mat... \[laughter\]
 
@@ -266,17 +266,17 @@ So using it as an index database that is going to enhance what you can build, ra
 
 And then there's one more folder, which is the ZW. ZW is the zero write-ahead log for the cluster itself. Zeroes are the ones that manage the cluster themselves. So you're gonna have those three folders, and everything in there is just binary files. You could technically copy those and send them around and start a new database, but the problem is that these files are actually -- the way they work, they contain things like how many machines you have in your database cluster, and things like that... So over time, if you change that, probably you're gonna end up having crashes, and that's not the way to go. But we also have things that you can export all of your data to JSON, or rtf, or you even have binary backups which store in protocol buffers.
 
-**Jaana B. Dogan (JBD):** Is a file system the only way to store data, or can I just write an adapter to send it to some blob store somewhere?
+**Jaana Dogan:** Is a file system the only way to store data, or can I just write an adapter to send it to some blob store somewhere?
 
 **Francesc Campoy:** So the idea is that Badger, the key-value store, is designed to work on SSDs. If you're not running on an SSD, it will still work, but it will be way slower. So the idea is that SSDs need to be there. When you're doing a back-up, you can totally store that in a cloud storage, or whatever; that's totally fine.
 
 The interesting thing is there was actually someone that was asking about how could they do it to store all the data in memory, and there's something that we're doing for Badger, for the key-value store, where we're gonna have a diskless mode, where everything is stored in memory, and then you would be able to run everything on RAM... Which is not a great idea for a graph database that is supposed to store a lot of data, but if you have something really small that you want a really high performance on, it's definitely something that you could try.
 
-**Jaana B. Dogan (JBD):** Is it possible to use in fs, or do you have to write a new adapter?
+**Jaana Dogan:** Is it possible to use in fs, or do you have to write a new adapter?
 
 **Francesc Campoy:** Oh, it's already built... What we're doing is not adding a lot of things, we're basically removing some checks that we had. There were some blocks that were storing on disk and some small things that we had to remove. By default - yeah, we already have adapters to write everything directly in memory. You don't need to do anything.
 
-**Jaana B. Dogan (JBD):** That's cool.
+**Jaana Dogan:** That's cool.
 
 **Mat Ryer:** If the data-- sorry, Johnny. If the dataset -- I don't know why I apologize to you, because the listeners didn't know you had the hand up, did they...
 
@@ -308,7 +308,7 @@ So when you're doing this for a cache, if you don't get that right, the problem 
 
 **Mat Ryer:** And of course, none of your old Google friends will talk to you anymore, so you can't even ask them then...
 
-**Jaana B. Dogan (JBD):** \[01:00:00.08\] Why am I here on this show? \[laughter\]
+**Jaana Dogan:** \[01:00:00.08\] Why am I here on this show? \[laughter\]
 
 **Francesc Campoy:** That's a good question... \[laughter\] My god. But yeah, with ristretto the whole idea is to make Badger better and Dgraph better, and being able to use memory in a way that compensates for the extra cost in CPU... But also at the same time we wanted to make it open source, so anyone can use it for whatever they feel like it. And it's pretty successful. A lot of people have been adopting it, filing issues and feature requests and things like that, which is really nice to see.
 
@@ -328,11 +328,11 @@ So I'll just spell that out if anyone is interested... And we will post these li
 
 **Mat Ryer:** Well, I thought it was...
 
-**Jaana B. Dogan (JBD):** Is it like a coffee?
+**Jaana Dogan:** Is it like a coffee?
 
 **Francesc Campoy:** No, a ristretto is a very, very short espresso. It's like a tiny coffee.
 
-**Jaana B. Dogan (JBD):** Oh, yeah.
+**Jaana Dogan:** Oh, yeah.
 
 **Mat Ryer:** Oh. Espressos are really tiny though, aren't they?
 
@@ -342,11 +342,11 @@ So I'll just spell that out if anyone is interested... And we will post these li
 
 **Francesc Campoy:** I think if you feed your kids ristretto, you end up with someone like you at the end. Like, I would not feed ristretto to my kids... \[laughter\] It seems like a bad idea.
 
-**Jaana B. Dogan (JBD):** Yeah, it's like the same amount of coffee, but it's shorter, so it's really dense, right?
+**Jaana Dogan:** Yeah, it's like the same amount of coffee, but it's shorter, so it's really dense, right?
 
 **Francesc Campoy:** Yeah.
 
-**Jaana B. Dogan (JBD):** Something like that...
+**Jaana Dogan:** Something like that...
 
 **Francesc Campoy:** It's compressed coffee, yeah.
 

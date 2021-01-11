@@ -6,7 +6,7 @@ My name is Johnny Boursiquot, and joining me today is a stellar cast of characte
 
 **Johnny Boursiquot:** Making her triumphant return to our panel is Jaana B. Dogan, a.k.a. JDB. How have you been, Jaana?
 
-**Jaana B. Dogan (JBD):** Yeah, good. How are you?
+**Jaana Dogan:** Yeah, good. How are you?
 
 **Johnny Boursiquot:** Doing well, doing well. I hope you're ready for this, because this is gonna be good. Last but certainly not least is our special guest, a serverless connoisseur, Stevenson Jean-Pierre. Sak pase, Stevenson?
 
@@ -24,13 +24,13 @@ The promise of App Engine is you write your Go code and you give that code to Go
 
 **Stevenson Jean-Pierre:** \[00:04:03.07\] For me serverless is a combination of two things. For me it's a lot of event-driven work; I consider it serverless when it's driven by an action being taken, as opposed to constantly just being up and waiting for some kind of request to come in... That's the compute side. But then you have even serverless technologies coming out on data storage, things like RDS Serverless or Aurora Serverless, so you can have compute, and it goes to Mat's definition there, where you don't have to worry about the underlying engine, you don't have to worry about configuration... It's just there and ready to scale when you need it to.
 
-**Jaana B. Dogan (JBD):** For me it's similar to what Mat is saying - it's more of like, I don't have to deal with infrastructure that much. It's more of like an abstract layer on top. Some of the things are considered just taken care of on behalf of me.
+**Jaana Dogan:** For me it's similar to what Mat is saying - it's more of like, I don't have to deal with infrastructure that much. It's more of like an abstract layer on top. Some of the things are considered just taken care of on behalf of me.
 
 And I think what is the other important aspect is it's more of like a pay-as-you-go model. You don't use it, it scales down to zero; you pay as you go. That's what the definition of cloud should be, to be honest. But this is a really tough topic, because I think serverless became kind of this umbrella term, and I think it means more abstract things... But there's so many different layers of abstractions, and each higher level is actually more serverless than the lower layer levels. That's why I think it's good to say that the less you care about infrastructure, operating and maintaining the infrastructure, and pay as you go, and if it scales down to zero - that's serverless to me.
 
 **Johnny Boursiquot:** So the common thread here is basically not having to worry about managing the infrastructure that is running your functionality, right? Be it compute, be it storage, be it some sort of integration with the event sourcing thing, for example, like in the case of AWS, where they have different things that can trigger functions and whatnot. You as the developer don't have to worry about the plumbing, the underlying infrastructure. You don't have to provision instances, you don't have to do any of that stuff yourself. Basically, you're really sort of stitching together or linking together different Lego blocks that do certain things, that react to certain things whenever they happen with your environment.
 
-**Jaana B. Dogan (JBD):** Yeah, I think the promise is "Just care about the business logic, and we will take care of everything else. And these are the fundamental blocks you can use."
+**Jaana Dogan:** Yeah, I think the promise is "Just care about the business logic, and we will take care of everything else. And these are the fundamental blocks you can use."
 
 **Johnny Boursiquot:** When I first started getting into serverless - that term means different things to different people; there's even a framework called Serverless, and that's really not what we're talking about here. We're talking about the concept; no one technology or no one framework, no one product. When I first started exploring it, I kept seeing these use cases around, like "Upload an image to S3, and then something creates a thumbnail." Almost trivial use cases... And I'm like "This stuff is way easy, way super-easy."
 
@@ -46,7 +46,7 @@ When you get into it really, we know it's never that easy, and we're gonna get i
 
 You're getting a payload that's telling you what's happened, and it's in a scheme, it's in a shape that you understand from your function, and you take action against that. It makes life a lot easier, and it becomes that glue layer, like Johnny described, where these services are actively telling you what they're doing, and then you respond to them.
 
-**Jaana B. Dogan (JBD):** If you think about it from a cloud provider's perspective, it's almost impossible not to figure out, like -- serverless is so fundamentally important, because that's the only protocol that you can talk. You need to provide some arbitrary execution environment for some events, because there is no way -- you can talk to your cloud provider, but they cannot talk to you. So it's not surprising that it became so fundamentally useful, because that's how they talk to you back.
+**Jaana Dogan:** If you think about it from a cloud provider's perspective, it's almost impossible not to figure out, like -- serverless is so fundamentally important, because that's the only protocol that you can talk. You need to provide some arbitrary execution environment for some events, because there is no way -- you can talk to your cloud provider, but they cannot talk to you. So it's not surprising that it became so fundamentally useful, because that's how they talk to you back.
 
 **Mat Ryer:** Yeah. In the App Engine, especially now in the latest version of App Engine for standard environment, you basically write your Go program as a normal program; it's actually package main, and you use the handlers, you use whatever you're gonna do... And then you ship that to App Engine, and then I think it scales to zero, so there's nothing running. And then the first HTTP request spins up the instance, it spins up your program, and in theory then you can start replying to those requests... So I've tended to use it in that way, of really still just a web service that I'm putting up there. And it might be serving a website, and associated services, but usually it's all for me been HTTP-driven... So a request comes in, we spin up the instance and deal with it, and then that instance at some point will die.
 
@@ -70,7 +70,7 @@ There was a very good example in a blog post I remember that came out a few mont
 
 \[00:15:55.08\] This is one of the things where if you just drink the Kool-Aid, if you just buy it off the shelf just like that, and you start making everything -- everytime you wanna use a piece of functionality you just execute a Lambda, you might find yourself in some hot water. So I'm wondering, what are some of the gotchas that you yourselves have experienced, along those terms...
 
-**Jaana B. Dogan (JBD):** I personally was thinking that Lambda is like a CGI model \[unintelligible 00:16:14.12\] It's just that all the optimizations is just basically -- the cold start and the startup time is actually really fundamentally important, if you are promising some cost advantages... And one of the things that I really like about Google Cloud Run is they decided not to go deployment per function; it's more of like you're handing off this server, a long-running process... Which still has a limited execution environment, and they can kill the server in 15 minutes, but at least you can bundle a bunch of things... So when you're bootstrapping the server for the first time, at a cold start, it actually can serve multiple endpoints at least.
+**Jaana Dogan:** I personally was thinking that Lambda is like a CGI model \[unintelligible 00:16:14.12\] It's just that all the optimizations is just basically -- the cold start and the startup time is actually really fundamentally important, if you are promising some cost advantages... And one of the things that I really like about Google Cloud Run is they decided not to go deployment per function; it's more of like you're handing off this server, a long-running process... Which still has a limited execution environment, and they can kill the server in 15 minutes, but at least you can bundle a bunch of things... So when you're bootstrapping the server for the first time, at a cold start, it actually can serve multiple endpoints at least.
 
 But then if some of the endpoints are never going to be used, is it in terms of like memory, and CPU usage - it's some extra cost, right? There's always these pros and cons, but I like the fact that they're giving you the option to bundle things together... So if you believe that some endpoints, or some functions are going to be called really frequently, you can bundle them as one server, and each time you bootstrap, it's just going to be one bootstrap serving 3-4 endpoints.
 
@@ -80,7 +80,7 @@ But then if some of the endpoints are never going to be used, is it in terms of 
 
 So there's all these different options... Is it possible really to write all of your functions in a cloud-agnostic way, and have them be deployed without really having different build pipelines, and different ways, actually having to import different libraries from different cloud providers? How easy is it? And is the cost of creating abstractions worth it?
 
-**Jaana B. Dogan (JBD):** \[00:19:51.25\] Can I ask a question...? I was really skeptical about the portability aspect of serverless in general, but in the end what I realized is just like I import a library, whatever, but it's really a small piece. Then the function block, and whatever - the reusable part is actually just there; you just call maybe like two lines from a third-party library... So it was not truly a big concern, especially if you organize things in a cloud-agnostic way, plus doing \[unintelligible 00:20:21.27\] at the end.
+**Jaana Dogan:** \[00:19:51.25\] Can I ask a question...? I was really skeptical about the portability aspect of serverless in general, but in the end what I realized is just like I import a library, whatever, but it's really a small piece. Then the function block, and whatever - the reusable part is actually just there; you just call maybe like two lines from a third-party library... So it was not truly a big concern, especially if you organize things in a cloud-agnostic way, plus doing \[unintelligible 00:20:21.27\] at the end.
 
 Again, this is my personal opinion, but we are trying to now reinvent all these different abstraction models that make serverless run everywhere, including your own prem... But I'm questioning, is it really worth it to have that abstraction model, or is it just easier to just switch to those two lines and import a new library and you would be good to go?
 
@@ -90,7 +90,7 @@ Also, the reusability of your functions is one thing, but I think the overall or
 
 And that's the other thing about -- you made that point, Jaana, these functionless services are kind of meant to be sort of small and lightweight, and so I think if you are gonna be moving over to a different provider, it's a good opportunity to do a rewrite of some pieces as well, because that's something we should probably be doing anyway as good practice... But yeah, it's interesting to think of that, I think.
 
-**Jaana B. Dogan (JBD):** I think as the limitations change, you need to consider some of that. Again, ORMs were a thing, but in reality nobody does that, because each time you're changing your database, you need to almost rearchitect, at least your data layer. So I think it's natural to ask "Is it really feasible to achieve portability?"
+**Jaana Dogan:** I think as the limitations change, you need to consider some of that. Again, ORMs were a thing, but in reality nobody does that, because each time you're changing your database, you need to almost rearchitect, at least your data layer. So I think it's natural to ask "Is it really feasible to achieve portability?"
 
 **Stevenson Jean-Pierre:** I think to those points though, the handler is rarely the interesting part of the serverless function. That's just how the information comes in. But what you're actually doing with the function is the piece that probably ties you to the cloud even more, right? So if you have a handler for S3 events, then you're probably tied to the S3 API. If you have a handler for some kind of Google Cloud Storage event, then you're reaching out and doing these other things with the Google Cloud API; so the handler is probably the easiest part to swap out, but all the other technicals that are in your codebase, related to the cloud-specific APIs and things like that, that you're using to handle the event, are the things that are gonna be harder to switch out... And I rarely find that multi-cloud argument to be worth it in the end.
 
@@ -116,7 +116,7 @@ I use the sync.Once package, with handlers, and that allows me to make sure that
 
 So I'll do my full testing cycle, I'll do everything that I need to do on my local machine, and then when it comes time for me to get ready to deploy it, I'll swap out that handler that was reading in that file to be one that reads in an event from AWS... But the rest of the workflow is the same. There's nothing specific to serverless that you have to really do in your codebase to get it to work... And I feel like maybe people are intimidated by serverless because they hear these terms and they don't really understand what it actually means, but there's nothing really different, like Johnny said, to just standard Go development, or any development. It's just about how you're getting that event and how you're processing it.
 
-**Jaana B. Dogan (JBD):** And I think one of the main reasons why the cloud providers wanna provide an idiomatic experience at the end of the day - because as you put more barriers in terms of you've gotta learn new organizational tips/tricks in order to push to serverless, that's kind of like against the serverless model. The main idea is you should care about your business logic, you should be able to use your existent tools and deploy things easily, and maintain things easily.
+**Jaana Dogan:** And I think one of the main reasons why the cloud providers wanna provide an idiomatic experience at the end of the day - because as you put more barriers in terms of you've gotta learn new organizational tips/tricks in order to push to serverless, that's kind of like against the serverless model. The main idea is you should care about your business logic, you should be able to use your existent tools and deploy things easily, and maintain things easily.
 
 One of the things that I've experienced myself is usually I think organization-wide tips apply to serverless, but it also depends on - as Stevenson says - serverless is about deployment... So it really changed the way I organize my modules. I would bundle things together if I'm going to deploy them together; in terms of maintaining dependencies, I wanna make sure that they are represented by the same module file... Those are the only differences I've experienced myself. Otherwise, I can apply everything else to serverless programs.
 
@@ -144,7 +144,7 @@ But then there's something to be said for doing some sort of integration-level t
 
 And for Go at least, I will change my testing very much; because I'm writing things local and because I can still run it just as a straight-up binary, I'm doing the \_test files and I'm testing the things that I'd normally test during the function-level test, but overall it's just kind of an integration-style test where I just assert that I'm getting back what I expect to get back before I go for it and try to deploy it and see what happens.
 
-**Jaana B. Dogan (JBD):** Can I ask a question? ...before we talk about testing. How do we develop serverless apps? Given that cloud is a thing, and it's just impossible to emulate -- the development stack is just becoming so frustratingly complex... I find it so hard to keep the similar environments in my development environment. I think serverless is just adding yet another big burden, because it's just far too abstracted away. The only way that you can emulate it is just basically running the thing in the cloud provider. So what is your strategy when it comes to development?
+**Jaana Dogan:** Can I ask a question? ...before we talk about testing. How do we develop serverless apps? Given that cloud is a thing, and it's just impossible to emulate -- the development stack is just becoming so frustratingly complex... I find it so hard to keep the similar environments in my development environment. I think serverless is just adding yet another big burden, because it's just far too abstracted away. The only way that you can emulate it is just basically running the thing in the cloud provider. So what is your strategy when it comes to development?
 
 **Stevenson Jean-Pierre:** I don't believe in emulating this full environment, because like you said, it is complex, it's multi-variate, there's so many things there... So I literally run it in a test account, I'll reach out to a test S3 Bucket, I'll reach out to a test Dynamo table and I'll do that full exercising, because that's the only thing that's truly gonna test that code path that you've written for. You have to actually reach out to these APIs to find out certain things, and I think that's the right level of testing given the amount of effort that you put into these functions. You're trying to keep them small, you're trying to keep things pretty fast-moving, and setting up a full mock environment just to do that seems like overkill, in my opinion.
 
@@ -152,7 +152,7 @@ And for Go at least, I will change my testing very much; because I'm writing thi
 
 But I know that Monzo - which is a bank - is written in Go; everyone should check it out, by the way. I think what they're doing is really cool, and not just because it's in Go... But I know that they have in-production testing; kind of like canary testing, where they will actually simulate real behavior in their production environment. And these tests are just running continuously, and they're supposed to be capturing metrics and things, and checking to see how the system is performing, and all kinds of things at the same time.
 
-**Jaana B. Dogan (JBD):** Is it they are replicating some of the requests in their testing environment - is it kind of like a canary, but before it actually becomes a canary?
+**Jaana Dogan:** Is it they are replicating some of the requests in their testing environment - is it kind of like a canary, but before it actually becomes a canary?
 
 **Mat Ryer:** No, but I know that they probably -- I mean, I think any mature project probably has quite a bit testing story... But in this particular case I heard Matt Heath talk about it, one of the engineers at Monzo. You can find him online, actually; he speaks about this subject very well.
 
@@ -188,7 +188,7 @@ But that old model, of being able to go see everything in one place - with serve
 
 Maybe you have an API that fires off a Lambda as a request of this invocation, and then you're touching on 3-4 other different things before some sort of response goes back to the user, if something goes wrong somewhere in there - say the user gets a 500 error, or something - where do you start? How do you even reason about this highly distributed environment where nothing is in the same place, none of it is all in the same place? How do you go about that?
 
-**Jaana B. Dogan (JBD):** \[00:48:39.05\] I have so many opinions on this topic, but I can say that -- I think we usually start with the networking layer and distributed tracing to sort out what is the specific service the problem is coming from... And I think cloud providers are doing a good job, but not perfect job when it comes to instrumenting things, and exposing similar data signals.
+**Jaana Dogan:** \[00:48:39.05\] I have so many opinions on this topic, but I can say that -- I think we usually start with the networking layer and distributed tracing to sort out what is the specific service the problem is coming from... And I think cloud providers are doing a good job, but not perfect job when it comes to instrumenting things, and exposing similar data signals.
 
 I think the biggest problem is as a user I won't be able to see end-to-end where is the trace. And a cloud provider contributes a lot to that, because some of the traces will come from storage, some of them will come from load balancers, and so on... You are kind of somewhere in between. Sometimes the cloud provider is having an outage, not you.
 
@@ -200,33 +200,33 @@ And then I think once you figure out your service, you can just go dig and look 
 
 And even for request/response cycles for HTTP for Lambda Functions, for example, you'll have situations where you failed in a way where you can't necessarily provide a response back to the caller, and it's important that you dump out as much detail as possible... Because they're gonna get a 500, but somewhere under the hood something went wrong that you could have logged. So instead of just dumping out that function altogether, logging that kind of detail makes it easier to get back to what caused it.
 
-**Jaana B. Dogan (JBD):** One interesting thing is you have to have some sort of instrumentation already in your function, and it's just hard for people to determine what the instrument... I think we're not doing enough work in terms of maybe investing in post-mortem debugging, and that type of stuff, so you can at a later time just go and put a breakpoint, just get a snapshot of the existing instance and take a look at some of the variables, or something like that...
+**Jaana Dogan:** One interesting thing is you have to have some sort of instrumentation already in your function, and it's just hard for people to determine what the instrument... I think we're not doing enough work in terms of maybe investing in post-mortem debugging, and that type of stuff, so you can at a later time just go and put a breakpoint, just get a snapshot of the existing instance and take a look at some of the variables, or something like that...
 
 But yeah, I think we're baby-stepping... Absolutely no way to navigate to the problem, absolutely no easy way to correlate with other signals. And it's an organizational problem also. When I was working on the instrumentation team at Google, we had to collaborate with all these 50 different products, and everybody has a different mindset about what instrumentation should be, and how it should be... And there are very few standards in this area, which is also not really nice... Because Google is doing its own thing, and then you're just going to another cloud provider, AWS is doing their own thing... We can't really participate into each other's traces, or we cannot correlate, and from a user perspective this is terrible.
 
 **Stevenson Jean-Pierre:** \[00:52:29.03\] Even though there are not any standard approaches, would you say doing common things like correlation logging, for example - we go to the most fundamental level, right? You end up with a log somewhere, whether that's CloudWatch Logs, whether it's \[unintelligible 00:52:39.26\] or whatever provider you use, there's some kind of fundamental things that people can do, even if they have to kind of roll their own solution in order to trace back and understand what happened with the execution.
 
-**Jaana B. Dogan (JBD):** Yeah, when I say standards I basically just mean the trace side is standard... Which isn't actually happening right now. Maybe in a couple of years we will be able to understand each other's traces ID. It's so fundamental, because you correlate everything with a trace ID. At least we're doing that.
+**Jaana Dogan:** Yeah, when I say standards I basically just mean the trace side is standard... Which isn't actually happening right now. Maybe in a couple of years we will be able to understand each other's traces ID. It's so fundamental, because you correlate everything with a trace ID. At least we're doing that.
 
 **Stevenson Jean-Pierre:** Yeah, that will be great when that happens, when it's all unified.
 
-**Jaana B. Dogan (JBD):** Yeah. Distributed tracing is such an organically-grown tool, I think... There was no discussion between providers for a long time, and then all of a sudden people realize that it's actually against distributed tracing not to have a standard, because we're trying to compete with each other, and we can't really go to the infrastructure teams or cloud providers to go and implement this propagation format.
+**Jaana Dogan:** Yeah. Distributed tracing is such an organically-grown tool, I think... There was no discussion between providers for a long time, and then all of a sudden people realize that it's actually against distributed tracing not to have a standard, because we're trying to compete with each other, and we can't really go to the infrastructure teams or cloud providers to go and implement this propagation format.
 
 The lack of consensus is actually against the fact that distributed tracing is not becoming a mainstream tool... So everybody got together two years ago almost to draft a proposal, and the proposal is now becoming more mature; it's going to be more of a standard under W3C. There's going to be a first-class header that everybody recognizes, and it's going to be super-nice, because you can just go to MySQL and go just Hey, honor this header, or something, in some way... You can basically just go to any infrastructure tool and ask them to do something about it... At least pass it so the trace is not broken.
 
 **Stevenson Jean-Pierre:** That sounds really awesome. Is there anywhere we can read more about that kind of thing? Is there a proposal that's currently circulating?
 
-**Jaana B. Dogan (JBD):** Yeah, there's a repo... I can maybe share the repo.
+**Jaana Dogan:** Yeah, there's a repo... I can maybe share the repo.
 
 **Johnny Boursiquot:** Would you be, by chance, talking about the OpenTelemetry stuff?
 
-**Jaana B. Dogan (JBD):** I could talk about that as well. This is a different initiative. OpenTelemetry is more of like an instrumentation library project. This standard is a wire header format standard. It's under [github.com/w3c/trace-context](https://github.com/w3c/trace-context). You can read the proposal, and there's already a discussion and some implementations for some languages. That's going to be the overall standard in a couple of years.
+**Jaana Dogan:** I could talk about that as well. This is a different initiative. OpenTelemetry is more of like an instrumentation library project. This standard is a wire header format standard. It's under [github.com/w3c/trace-context](https://github.com/w3c/trace-context). You can read the proposal, and there's already a discussion and some implementations for some languages. That's going to be the overall standard in a couple of years.
 
 **Stevenson Jean-Pierre:** Very cool.
 
 **Johnny Boursiquot:** That would be huge.
 
-**Jaana B. Dogan (JBD):** Pretty much every distributed tracing vendor, including cloud providers like AWS and Google, is actually contributing.
+**Jaana Dogan:** Pretty much every distributed tracing vendor, including cloud providers like AWS and Google, is actually contributing.
 
 **Johnny Boursiquot:** That's huge, yeah. Awesome. So we've been talking about the technical pros and cons, some of the challenges, some of the things that you need to watch out for... I feel like we've been more sort of telling our cautionary tale than anything else. I think we all agree on the panel here that serverless - I'll use that term because I can't think of a better term; it's a marketing term, but I can't think of a better one to encompass all the things that make up serverless... But we know in general that it's a good thing. It gives more options, more ways to build the right abstraction into your infrastructure, into your world, whatever business problems you're solving... But from an opportunity standpoint, for Go developers, what is the draw? Why should I invest time in learning how to do serverless?
 
@@ -242,7 +242,7 @@ Also, I think it helps you practice stateless programming, and making sure you'r
 
 I feel like serverless is kind of an empowering thing for a developer, so that you can focus on the bit that makes what you're doing special, and leave the plumbing to somebody else. That's why I like it. It feels like I'm empowered, and I don't need to go and seek out help just to do things that really secondary to what I'm actually trying to do, or what I'm focused on.
 
-**Jaana B. Dogan (JBD):** For me it's more about productivity. It's a limited environment, but if it matches what I need... And why would I even have to care about all the lower-level infrastructure? I would just push things and pay as I go.
+**Jaana Dogan:** For me it's more about productivity. It's a limited environment, but if it matches what I need... And why would I even have to care about all the lower-level infrastructure? I would just push things and pay as I go.
 
 I think that's what the problem behind cloud was initially. So I would start there, and if I need less limitations, then I can always float back to the lower levels. For me a good starting point is just having a more opinionated, maybe a more limited environment, and then go delegate some of the work to my cloud provider, and then go beyond that, and going to the lower levels if I need to.
 
@@ -276,6 +276,6 @@ If you have show ideas as well, you can absolutely go on the Slack channel, GoTi
 
 **Mat Ryer:** The reason we haven't heard from him, by the way, is because he said "I don't know anything about serverless. All I do is use DigitalOcean and the Google Cloud platform." He really doesn't know about it, because he does; he's been doing it, and didn't realize.
 
-**Jaana B. Dogan (JBD):** That's the point. \[laughter\]
+**Jaana Dogan:** That's the point. \[laughter\]
 
 **Johnny Boursiquot:** Awesome, awesome. Well, thank you so much for listening, and we'll catch you on the next GoTime.
