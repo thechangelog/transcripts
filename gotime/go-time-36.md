@@ -6,7 +6,7 @@ On the show today we have myself, Erik St. Martin, Brian Ketelsen is also here..
 
 **Erik St. Martin:** And Carlisia Pinto...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And our special guest today, bringing some well-needed love and knowledge to the dependency world in Go is Sam Boyer. How are you, Sam?
 
@@ -51,7 +51,7 @@ After having done that, I'm really glad in retrospect, because it turned into a 
 
 In many ways, it sort of flowed directly from writing this giant, long article where I tried to describe the design of a good system that does this into actually doing it in an abstracted way.
 
-**Carlisia Pinto:** One thing that I noticed when I was going over the GPS library - which stands for Go Packaging Solver - is that the language, just like you explained, was meant to be a foundation for the tools to build on top. It seems that that was the motivation. Now, going forward with GoDep, is that still a goal? Because doesn't the committee want to move away from having multiple tools?
+**Carlisia Thompson:** One thing that I noticed when I was going over the GPS library - which stands for Go Packaging Solver - is that the language, just like you explained, was meant to be a foundation for the tools to build on top. It seems that that was the motivation. Now, going forward with GoDep, is that still a goal? Because doesn't the committee want to move away from having multiple tools?
 
 **Sam Boyer:** Yes, yes. That's a key part of the question, that I should address. We are very much hoping to have that become official. To be very clear, it's not like the dep tool has been blessed by the Go team at this point - this is still experimental - this is by no means guaranteed to happen, but we're on a good path and we're doing everything we can to make sure it happens. And yes, the goal is that we would obviate the need for pretty much any of the other tools that are out there today, and ideally also provide migration paths from them, so that people can just run a command and their project is converted over to the dep-based equivalent.
 
@@ -160,7 +160,7 @@ In dep it's different. The thing that determines whether or not something shows 
 
 **Sam Boyer:** This sounds totally hypothetical and not at all resembling the universe that we live in, yeah.
 
-**Carlisia Pinto:** Sam, I wanted to ask you to talk about the vendor directory. I'm looking through Ed Muller's [blog post](http://icanhazdowntime.org/post/dep-101/) "I can haz downtime", and he describes here how you do `dep ensure`, and that basically creates a vendor directory which is mostly what most people do these days. That makes sense if we're not going to have a central repository where to store the different libraries of versions. So tell us how it's going to work and what it's gonna look like and what's gonna need to be different from what people are doing today.
+**Carlisia Thompson:** Sam, I wanted to ask you to talk about the vendor directory. I'm looking through Ed Muller's [blog post](http://icanhazdowntime.org/post/dep-101/) "I can haz downtime", and he describes here how you do `dep ensure`, and that basically creates a vendor directory which is mostly what most people do these days. That makes sense if we're not going to have a central repository where to store the different libraries of versions. So tell us how it's going to work and what it's gonna look like and what's gonna need to be different from what people are doing today.
 
 **Sam Boyer:** I think that the actual structure of files on disk is not gonna change. We're still gonna need a vendor directory; those semantics are not gonna change any time soon. The thing that's worth noting about it - and this is in at least one of the issues... I wanna write a script that can go and count the number of words that I have put into comments in a repo on GitHub, because I don't know how much I've written in the last month, but my head is spinning all the time now. A lot of discussions, which is great.
 
@@ -170,7 +170,7 @@ So in one of these issues that is giving me brain fog, at the top of it we note 
 
 **Sam Boyer:** Left-padding... I mean, I've given presentations where I certainly use it as a verb, so I think it counts. Does that answer your question, Carlisia?
 
-**Carlisia Pinto:** Yeah, and also the vendor directory - is it going to be flattened?
+**Carlisia Thompson:** Yeah, and also the vendor directory - is it going to be flattened?
 
 **Sam Boyer:** Yes. Yes, always, and aggressively. Vendor is volatile, and if you put stuff in there that the tool didn't put in there, it will blow it away and not apologize.
 
@@ -178,7 +178,7 @@ So in one of these issues that is giving me brain fog, at the top of it we note 
 
 **Sam Boyer:** No, there's no apologies for that. The only thing with treating Vendor as volatile that I have concerns about is some things related to code generation. I've seen a couple of issues raised for the last year with this in Glide - I can't remember it offhand. I have a list that might have the issue in it, but I'm a little bit worried that we might get into a nasty situation where if you have to do codegen inside of your vendor directory, and the way that you're depending on the thing that you're depending on requires codegen to have happened locally, inside of its own directory structure; then we get into a nasty situation. But that strikes me basically as something where we need to just say, "If your project requires codegen, design it in a way where it can be generated in an alternative location." Don't require it to be generated inside of your own tree. Frankly, it's so much harder if we try to treat vendor as non-volatile... So much harder.
 
-**Carlisia Pinto:** \[00:32:06.28\] I don't wanna jump ahead too much and I don't even know if you can answer this question, but when are we gonna have this tool? \[laughs\]
+**Carlisia Thompson:** \[00:32:06.28\] I don't wanna jump ahead too much and I don't even know if you can answer this question, but when are we gonna have this tool? \[laughs\]
 
 **Sam Boyer:** Right! This is the most important question, right? The committee's been talking with a bunch of people; we've been talking with [Russ](https://twitter.com/_rsc) as well, and the goal is -- and I have this roadmap that I've been working on, which I was hoping to publish by today; I'm still sort of tweaking some things around in it and checking by other folks in the committee, but it should be up presently, in the next week or so. We need to stabilize the manifest and mod files, we need to stabilize the command set itself, and then we need to define and implement a basic security model for this.
 
@@ -188,11 +188,11 @@ Other stuff is important, but we can sort of continue to work on it post-merge i
 
 **Sam Boyer:** You and half of the rest of the world. So it's fair... There is a reason we waited a while to release this. We wanted it to be at least runnable, despite the big letter warning that says "Don't commit the manifest and lock files that are generated by this!" People have already done it, including people on the committee, so it's not like I can complain that much.
 
-**Carlisia Pinto:** And is there a date for 1.10?
+**Carlisia Thompson:** And is there a date for 1.10?
 
 **Sam Boyer:** That will be like the end of this year, I believe.
 
-**Carlisia Pinto:** Cool.
+**Carlisia Thompson:** Cool.
 
 **Erik St. Martin:** I'm trying to remember their releases... One's in August, and the other one is -- I can't remember.
 
@@ -202,17 +202,17 @@ Other stuff is important, but we can sort of continue to work on it post-merge i
 
 **Sam Boyer:** There you go.
 
-**Carlisia Pinto:** And talking about help, talk to us about how is the process of people getting involved going to be like? For example, are you going to want to have issues opened before people jump in and start doing things? Because how are people even gonna know what is there to do? Do you have a process, do you have people to lead this process? Do you need people all the way from that point on?
+**Carlisia Thompson:** And talking about help, talk to us about how is the process of people getting involved going to be like? For example, are you going to want to have issues opened before people jump in and start doing things? Because how are people even gonna know what is there to do? Do you have a process, do you have people to lead this process? Do you need people all the way from that point on?
 
 **Sam Boyer:** Yes. The answer is yes to all of the possible things that I could need; I need all of them, that would be great. We need people to help with kicking the tires, we need people to help with writing docs, we need people to help with figuring out some of the design issues that we have, we need people to help with the project management itself, and sort of managing the queue. We need help on all these fronts.
 
 The roadmap that I'm trying to get out there is intended to provide a generalized picture, so that people can read it and say, "Alright, I have a sense of where this is going and I have a sense of where I might direct my effort." From there we've got like a "Help wanted" and a good First PR label for our issues on GitHub, so you can find things that way. But we're trying very hard to make a clear entry doorway for people coming to this for the first time and finding their way to somewhere effective. If you can't figure out anything though, then come into the vendor channel on GopherSlack and ping me, and we'll figure something out.
 
-**Carlisia Pinto:** And this is probably the best way for people to get in contact for people who want to start helping...?
+**Carlisia Thompson:** And this is probably the best way for people to get in contact for people who want to start helping...?
 
 **Sam Boyer:** \[00:35:54.09\] Yeah. Right now the three ways in are 1) just install it, run dep on a project and do some things, run into some stuff, have some questions, post an issue... I mean, it's runnable enough now that you can really try it; you can kick the tires and just post an issue if you have a problem. You will not get yelled at, I promise. Way 2 is come to the vendor channel, ask some questions, and then way 3 will be have a look at the roadmap and follow your way down from the roadmap into epics and individual issues.
 
-**Carlisia Pinto:** Cool.
+**Carlisia Thompson:** Cool.
 
 **Erik St. Martin:** What do you envision for the future of GoDep? Do you think that will be in a place as a community with semver and things like that, and kind of agreement on the dep tool where if it comes as part of 1.10, community adoption would be mostly there before it hits the Go release? Or do you envision the Go release being the thing that helps trigger the community to adopt it? What's the future you see for the dep tool? I keep wanting to say "GoDep", because likely the tool would say `go dep`, right?
 
@@ -225,7 +225,7 @@ I think the spot we'll be in is hopefully a lot of people will have had a chance
 
 I know there's some hesitation around hiding it behind a feature flag or something like that, because ended up getting complicated with Vendor, but we'll have to see... There's a lot of considerations here, obviously. This ends up touching a lot of things, so the best we can do for now is we just keep pushing forward, hitting all the bugs that we can, hoping that our design is basically sane... Yeah, good old elbow grease and open source.
 
-**Carlisia Pinto:** A lot of work
+**Carlisia Thompson:** A lot of work
 
 **Sam Boyer:** Yeah.
 
@@ -267,7 +267,7 @@ I know there's some hesitation around hiding it behind a feature flag or somethi
 
 **Erik St. Martin:** Right. Brian was making a joke, because basically the blog post and tweet dropped while we were recording our show... He's like, "Oh, they were just waiting for us to record." \[laughs\]
 
-**Carlisia Pinto:** So we could annouce it..
+**Carlisia Thompson:** So we could annouce it..
 
 **Erik St. Martin:** So yeah, there were a couple of bugs found, that they've already been working on, one of which was really interesting... Basically, it's starting to run across where the SSA optimizations have dependencies on each other and ordering issues now. Inside a loop, if all you did was use the Atomic package, it would basically optimize away that. But it looks like it's already fixed, which is awesome.
 
@@ -305,17 +305,17 @@ I ran across one this week called [HTTPLab](https://github.com/gchaincl/httplab)
 
 **Erik St. Martin:** How about you, Carlisia?
 
-**Carlisia Pinto:** I just wanted to mentioned that Sourcegraph put out a blog post talking about how to implement code intelligence. I didn't read the whole thing, I just skimmed, but it looks pretty cool. I'm a big fan of Sourcegraph, so I think this blog post mostly gives you an insight of how they do what they do. If you're not using Sourcegraph, you definitely should because it's amazing. It really makes your workflow a lot better and faster. I sound like a salesperson. \[laughs\]
+**Carlisia Thompson:** I just wanted to mentioned that Sourcegraph put out a blog post talking about how to implement code intelligence. I didn't read the whole thing, I just skimmed, but it looks pretty cool. I'm a big fan of Sourcegraph, so I think this blog post mostly gives you an insight of how they do what they do. If you're not using Sourcegraph, you definitely should because it's amazing. It really makes your workflow a lot better and faster. I sound like a salesperson. \[laughs\]
 
 **Erik St. Martin:** \[00:48:23.03\] I think Carlisia's collecting checks. \[laughs\]
 
-**Carlisia Pinto:** Maybe I am... \[laughs\] No, I'm not.
+**Carlisia Thompson:** Maybe I am... \[laughs\] No, I'm not.
 
 **Brian Ketelsen:** "I'm not just a spokesperson, I'm a member!" \[laughter\]
 
 **Erik St. Martin:** I love their browser extension... Especially when you're trying to find example uses of a library. I think it's super handy.
 
-**Carlisia Pinto:** Yes, exactly. I use it for that a lot.
+**Carlisia Thompson:** Yes, exactly. I use it for that a lot.
 
 **Erik St. Martin:** This week was really interested for distributed tools, too. Brian, you mentioned UpSpin, but there were two other ones that were really cool - [Rook](https://github.com/rook/rook), which has actually been around for a little while... Which is a distributed storage that's written in Go. Then there was a new one that I hadn't seen before, which called [Meshbird](https://github.com/meshbird/meshbird) which I haven't played with, but it looked really cool from what they were demoing on GitHub, doing distributed networking with Go.
 
@@ -416,11 +416,11 @@ So if you're looking for a way to do self-hosted video conferences, webinars, me
 
 **Erik St. Martin:** How about you, Carlisia?
 
-**Carlisia Pinto:** Yeah, I found a really neat tool. It is written in Go, and it's called [gcli](https://github.com/tcnksm/gcli). It's a CLI generator. It's so neat... It's unbelievable. Basically you run a command line command, and one of the input arguments that you pass is the name of the framework you want to use as the CLI framework, and it outputs a whole directory structure and it's really well organized. I love that it gives you the test files already populated, and it even gives you a readme file. Now that I'm looking at it here, it gives you a version.go file, too. So you pass in the name of the CLI framework you wanna use, and you also pass in things like the commands you want to use, and that's how it lays out one file for each of the commands, and the corresponding test file. It's really neat.
+**Carlisia Thompson:** Yeah, I found a really neat tool. It is written in Go, and it's called [gcli](https://github.com/tcnksm/gcli). It's a CLI generator. It's so neat... It's unbelievable. Basically you run a command line command, and one of the input arguments that you pass is the name of the framework you want to use as the CLI framework, and it outputs a whole directory structure and it's really well organized. I love that it gives you the test files already populated, and it even gives you a readme file. Now that I'm looking at it here, it gives you a version.go file, too. So you pass in the name of the CLI framework you wanna use, and you also pass in things like the commands you want to use, and that's how it lays out one file for each of the commands, and the corresponding test file. It's really neat.
 
 **Erik St. Martin:** So it just sort of scaffolds it out for you?
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Brian Ketelsen:** I love code generators.
 
@@ -428,13 +428,13 @@ So if you're looking for a way to do self-hosted video conferences, webinars, me
 
 **Brian Ketelsen:** Yeah, Cobra... Get out.
 
-**Carlisia Pinto:** It does Codegangsta, Mitchell's CLI and... It's called Go Commands, but I think it's for the standard library.
+**Carlisia Thompson:** It does Codegangsta, Mitchell's CLI and... It's called Go Commands, but I think it's for the standard library.
 
 **Erik St. Martin:** Oh, cool.
 
 **Brian Ketelsen:** If they skipped Cobra, they're doing it wrong.
 
-**Carlisia Pinto:** \[01:00:05.00\] There's no Cobra listed here.
+**Carlisia Thompson:** \[01:00:05.00\] There's no Cobra listed here.
 
 **Erik St. Martin:** I'm sure they take pull requests.
 
@@ -452,11 +452,11 @@ So if you're looking for a way to do self-hosted video conferences, webinars, me
 
 Those folks come in, they spend the time and they figure out how to translate for others. It is the tissue that makes up the open source world, that people forget about all the time. So shout out to anyone, author or contributor, who is writing docs.
 
-**Carlisia Pinto:** That makes me remember that Katrina Owen tweeted just recently (a couple weeks ago) something like, "I don't understand why people say for people who are new to open source to start with documentation... Because that's the hardest part of open source, or of development."
+**Carlisia Thompson:** That makes me remember that Katrina Owen tweeted just recently (a couple weeks ago) something like, "I don't understand why people say for people who are new to open source to start with documentation... Because that's the hardest part of open source, or of development."
 
 **Sam Boyer:** I admit this is kind of a different angle, but once you learn enough about it, you forget how to write the docs for people who didn't know. There is this special moment when you first come to a project where your mind is still a blank slate when it comes to the way the thing works. And writing down your experiences when it comes to learning a piece of software - you can never get that moment back, and it's a chance to help out somebody else who's coming in.
 
-**Carlisia Pinto:** Yeah, good point.
+**Carlisia Thompson:** Yeah, good point.
 
 **Erik St. Martin:** Mine is a project called [Helm](https://helm.sh/), which is a part of Kubernetes. They have a thing called a chart, and it's basically like a guided install for well-known applications. They're kind of like recreating Redis or MySQL or things like that. There's these shared ways of installing and running these projects on a Kubernetes cluster. It's actually one of the first projects that have come out and been adopted out of the incubator into Kubernetes proper.
 
@@ -498,7 +498,7 @@ I saw somewhere, I think it's [Kubeapps.com](https://kubeapps.com/)... I think s
 
 **Brian Ketelsen:** Nope. Carlisia is taking your spot next week.
 
-**Carlisia Pinto:** Oh, boy... \[laughter\]
+**Carlisia Thompson:** Oh, boy... \[laughter\]
 
 **Brian Ketelsen:** You're fired! How dare you install NPM on my laptop?
 
@@ -506,7 +506,7 @@ I saw somewhere, I think it's [Kubeapps.com](https://kubeapps.com/)... I think s
 
 **Brian Ketelsen:** I've had NPM for years now... I just don't admit it. I'm the one who three years ago famously tweeted "Docker is like a condom for Node", and it's the truth. \[laughter\]
 
-**Carlisia Pinto:** No comment.
+**Carlisia Thompson:** No comment.
 
 **Erik St. Martin:** Right. Awkward... \[laughter\] So with that, thank you everybody for being on the show. Thank you so much for coming on, Sam. It was great talking with you.
 
@@ -528,6 +528,6 @@ I saw somewhere, I think it's [Kubeapps.com](https://kubeapps.com/)... I think s
 
 **Erik St. Martin:** A huge thank you to all of our listeners, both the live listeners and the people who will be listening to the show once it's produced. Definitely a huge shoutout to our sponsors for today's episode, Toptal and Compose. Without them, we wouldn't be able to continue doing this. Share the show with friends and fellow Go programmers. We are GoTime.fm online, you can find us on [Twitter](https://twitter.com/GoTimeFM), and if you wanna be on the show, if you have suggestions for guests or questions of guests that we already have scheduled, head over to [ping](https://github.com/GoTimeFM/ping). With that, goodbye everybody! We'll see you next week.
 
-**Carlisia Pinto:** Bye, and thank you, Sam.
+**Carlisia Thompson:** Bye, and thank you, Sam.
 
 **Sam Boyer:** Thanks everybody, this was great.

@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And Carlisia Pinto...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And we're peak Brian today, because our guest today is Brian Scott, who happens to work for a mouse. Brian, you actually work on and kind of contribute to a number of open source projects... Do you wanna give maybe our guests who aren't familiar with you a rundown of your history and some of the things you work on?
 
@@ -128,7 +128,7 @@ So this has been a big discussion, especially with everybody kind of recently ju
 
 **Brian Scott:** Got it, got it.
 
-**Carlisia Pinto:** He also mentioned he is going to be working on Vgo.
+**Carlisia Thompson:** He also mentioned he is going to be working on Vgo.
 
 **Erik St. Martin:** Yeah, I think he has been kind of set as a resource to work on some components of Vgo; I forget which ones those are now... But development of dep will still continue, and I believe he said that he's gonna have some more posts coming out. I know that him and Russ have had lots of discussions as well about some of his concerns.
 
@@ -170,7 +170,7 @@ But this whole mod file approach I think is really interesting, because tools li
 
 **Erik St. Martin:** Carlisia, have you had a chance to look at any of this stuff?
 
-**Carlisia Pinto:** No, I did not... I started looking at the post and I saw how tiny the fonts were, and I said, "Um, nope." No, I'm joking. I can make the fonts larger, but seriously... Does it have to be that tiny? No, it's a lot of stuff there, I haven't had time; this week was super busy for me... And I'm actually very tired today; I'm sorry I'm not participating as much.
+**Carlisia Thompson:** No, I did not... I started looking at the post and I saw how tiny the fonts were, and I said, "Um, nope." No, I'm joking. I can make the fonts larger, but seriously... Does it have to be that tiny? No, it's a lot of stuff there, I haven't had time; this week was super busy for me... And I'm actually very tired today; I'm sorry I'm not participating as much.
 
 My biggest question is about having the central repository for packages which you guys were just talking about... I think this is a necessary step to have...
 
@@ -178,7 +178,7 @@ My biggest question is about having the central repository for packages which yo
 
 **Brian Scott:** Yup, I totally agree with that. It's true.
 
-**Carlisia Pinto:** Yeah, and also having the ability of having your own central repository, like Brian was talking about.
+**Carlisia Thompson:** Yeah, and also having the ability of having your own central repository, like Brian was talking about.
 
 **Erik St. Martin:** Oh yeah, without a doubt. Yeah, people need to be able to run their own mirrors or proxies, or whatever we decide the nomenclature for this is...
 
@@ -256,11 +256,11 @@ So here's another interesting one - who read the [Cloudflare post](https://blog.
 
 **Erik St. Martin:** Did anybody have a project for \#FreeSoftwareFriday? Anybody you wanna give a shout-out to?
 
-**Carlisia Pinto:** I wanna give a shout-out to the one you're gonna give a shout-out to, so why don't you go first? \[laughs\]
+**Carlisia Thompson:** I wanna give a shout-out to the one you're gonna give a shout-out to, so why don't you go first? \[laughs\]
 
 **Erik St. Martin:** So mine for this week - I wanna give a huge shout-out to Russ Cos and Sam Boyer and everybody else who has been working on dependency management tools - the Glide maintainers, GoVendor, GoDep - just because this has been a problem for us, and yeah, we may cycle through some of these while we get to the right approach, but I'm glad that people are investing their time in trying to solve this problem and come up with the final solution. And I know not everybody can agree sometimes on what that is, but it has been nice to see people who care deeply about a problem that we felt was getting ignored for a long time.
 
-**Carlisia Pinto:** Yeah, definitely not a trivial problem to solve.
+**Carlisia Thompson:** Yeah, definitely not a trivial problem to solve.
 
 **Brian Ketelsen:** Yeah, I'll jump on that bandwagon, too. I think that's a wonderful group to shout-out - Carolyn Van Slyck, Matt Farina, Matt Butcher, Daniel whose last name I can't pronounce... Lots of people working on dependency management in Go. Thank you to all of them for moving us forward to here.
 
@@ -272,7 +272,7 @@ So here's another interesting one - who read the [Cloudflare post](https://blog.
 
 **Brian Scott:** Yeah. \[laughs\] Awesome. Well, thank you!
 
-**Carlisia Pinto:** Thank you, Brian!
+**Carlisia Thompson:** Thank you, Brian!
 
 **Brian Scott:** Thank you for having me, this was a lot of fun. I really enjoyed it.
 
@@ -280,7 +280,7 @@ So here's another interesting one - who read the [Cloudflare post](https://blog.
 
 **Erik St. Martin:** Alright, so with that, I definitely encourage sharing the show with fellow Go programmers; you can head over to GitHub.com/gotimefm/ping if you have suggestions for guests or topics. Follow us on Twitter @GoTimeFM, and with that, goodbye everybody. We'll see you next week!
 
-**Carlisia Pinto:** Bye!
+**Carlisia Thompson:** Bye!
 
 **Brian Scott:** Goodbye!
 

@@ -1,6 +1,6 @@
 **Erik St. Martin:** Welcome back, everybody, to another episode of GoTime. Today's episode is number 77. On the show today we have myself, Erik St. Martin, and Carlisia Pinto...
 
-**Carlisia Pinto:** Hi, everybody!
+**Carlisia Thompson:** Hi, everybody!
 
 **Erik St. Martin:** And Brian Ketelsen...
 
@@ -10,17 +10,17 @@
 
 **Russ Cox:** Hello, gophers!
 
-**Carlisia Pinto:** May I ask the first question?
+**Carlisia Thompson:** May I ask the first question?
 
 **Erik St. Martin:** Sure!
 
 **Brian Ketelsen:** Go.
 
-**Carlisia Pinto:** I am dying, because I forever have wanted to ask this question to somebody, and Russ is super-appropriate... So Russ, why is it that the most technically brilliant someone is, the tiniest the fonts on their website? \[laughter\] Seriously...
+**Carlisia Thompson:** I am dying, because I forever have wanted to ask this question to somebody, and Russ is super-appropriate... So Russ, why is it that the most technically brilliant someone is, the tiniest the fonts on their website? \[laughter\] Seriously...
 
 **Russ Cox:** I have no idea, I don't know.
 
-**Carlisia Pinto:** It kills me.
+**Carlisia Thompson:** It kills me.
 
 **Russ Cox:** That was not a question I was expecting.
 
@@ -147,7 +147,7 @@ So the thing I would tell to myself from 12 months ago is "Look, we've actually 
 
 That actually worked pretty well, but you couldn't automate any of that. And when we introduced URLs - absolutely, they looked ugly. But now we think "Oh yeah, that's just the way Go code looks. It's fine."
 
-**Carlisia Pinto:** And talking about changes, is `go get` going to go away?
+**Carlisia Thompson:** And talking about changes, is `go get` going to go away?
 
 **Russ Cox:** \[00:23:49.09\] I don't think `go get` will go away... It's going to change in the way it works. I'd really like to keep commands working as well as they can, as close as they can to what we have already. For example, I write lots of little throwaway commands, and there's like a two-factor authentication thing at [rsc.io/2fa](https://godoc.org/rsc.io/2fa) and I tell people "Run `go get rsc.io/2fa` and you have this command now." That's, at some level, the UI or the UX of the Go command, and I wanna preserve that. I want that to continue to install a command for you. But obviously, it's not going to work exactly the same way as it does today, because there's all this new stuff around modules and exactly what that means, but the end effect of _something gets installed_ is supposed to stay.
 
@@ -175,17 +175,17 @@ My goal would be that we do the preview in 1.11, and then in 1.12 we have the fu
 
 **Russ Cox:** Yeah, I don't know when 2.0 is happening, so it's hard to tie things to that. Actually, if you wanna shift gears just a little bit, I think that 2.0 will be kind of a non-event. I think that we'll probably end up making changes a little bit at a time in the 1 series, and at some we'll say "You know what, enough has happened. Let's call this one Go 2."
 
-**Carlisia Pinto:** \[00:28:09.12\] So you're saying there will not be _Generics_?
+**Carlisia Thompson:** \[00:28:09.12\] So you're saying there will not be _Generics_?
 
 **Russ Cox:** No, I didn't say that. \[laughter\]
 
 **Brian Ketelsen:** That was a big jump.
 
-**Carlisia Pinto:** Because that would be a big event, I would say...
+**Carlisia Thompson:** Because that would be a big event, I would say...
 
 **Russ Cox:** Well, but maybe generics are like 1.54, or something.
 
-**Carlisia Pinto:** Gotcha.
+**Carlisia Thompson:** Gotcha.
 
 **Break:** \[00:28:29.15\]
 
@@ -221,7 +221,7 @@ And clearly, if you're happy running that code, you should be happy essentially 
 
 **Brian Ketelsen:** Yeah, it's hard to put your finger on the best features of Go, but the ability for us to write tooling like that - it's gotta be top three, in the way that we can rewrite Go source code, the way we can change things on the fly... The AST parsing and all of that, it's just such an amazing feature of Go.
 
-**Carlisia Pinto:** And talking about change, Russ, I would like to ask you for -- what would you say would be things that you would like to have in the language, that maybe is not something that necessarily there will be enough consensus so it makes sense to add, but you personally would like to have? And also things that you would like to remove from the language.
+**Carlisia Thompson:** And talking about change, Russ, I would like to ask you for -- what would you say would be things that you would like to have in the language, that maybe is not something that necessarily there will be enough consensus so it makes sense to add, but you personally would like to have? And also things that you would like to remove from the language.
 
 **Russ Cox:** Oh, boy... Well, on the adding side, it's usually not so much a problem of consensus. I think that if we talk about things long enough, then typically there's specific details we might object to, and everything gets better as a result. Usually, the way it worked early on was that someone would have a crazy idea, we'd present the crazy idea to people. Instead of turning it down immediately and just saying "No, we're not gonna do that", you say "Okay, well maybe we could change this detail." If you're willing to essentially be improvisational about it and accept what's been presented and then try to figure out how to make it better... You know, we made a lot of progress that way. So I'm not so worried about not reaching consensus, I'm more worried about just never figuring out the right thing to do.
 
@@ -231,13 +231,13 @@ One example of that is _Immutability_. I would love to have better support in th
 
 What Rust does is it gets it all right and it's completely airtight. I would like to find a way to do that without quite so much annotation, and I don't know if that's possible or not.
 
-**Carlisia Pinto:** Is backwards-compatibility a constraint for making that work?
+**Carlisia Thompson:** Is backwards-compatibility a constraint for making that work?
 
 **Russ Cox:** It absolutely is, in the sense that like if we want it to just be Rust, Go wouldn't compile anymore. But it's not so much about backwards-compatibility I don't think, as about the sorts of programs we want to be able to write. I think there's a lot of things where we'd say "Well, we don't wanna have to put annotations in this program. We think that this should work." If you don't annotate every last piece of the program, then the compiler has a hard time figuring out what's going on. So it's not so much compatibility as it is conflicts with the rest of the design.
 
 Go is at a certain spot in the design space, and we consciously kind of put it there, and we don't wanna move too far away from that... You end up with a different language.
 
-**Carlisia Pinto:** That makes sense. And while we're still on the subject of making or not making changes to the language, I remember your [talk](https://www.youtube.com/watch?v=0Zbh_vmAKvk&t=2s) from last year at GopherCon Denver, and I remember you requesting the community to submit reports, and this is something that we bring up on the show once in a while, reminding people to submit those reports, and I'm curious to know if you guys ended up getting anything useful out of that.
+**Carlisia Thompson:** That makes sense. And while we're still on the subject of making or not making changes to the language, I remember your [talk](https://www.youtube.com/watch?v=0Zbh_vmAKvk&t=2s) from last year at GopherCon Denver, and I remember you requesting the community to submit reports, and this is something that we bring up on the show once in a while, reminding people to submit those reports, and I'm curious to know if you guys ended up getting anything useful out of that.
 
 **Russ Cox:** I think we've gotten a few useful ones. There haven't been that many that I've seen. I haven't looked in the last few months, but Robert and Ian have been sort of taking point on triaging all the stuff that's coming in. They've been going through all of the Go 2 issues on the issue tracker and trying to figure out "Is this an obvious yes/no? Is this something we need to put into a think-about-bucket and then trying to organize them... That's still an ongoing process.
 
@@ -339,11 +339,11 @@ The core Go team, which is the people that you'd actually see doing things on th
 
 **Erik St. Martin:** Me? Alright... So I think I may or have not mentioned this project before, but as we know, there's a lot of overlap in the containers in Go world... [Kube-lego](https://github.com/jetstack/kube-lego) by jetstack on GitHub - it is a controller that runs in your [Kubernetes](https://kubernetes.io/) cluster, and if you add annotations to your Ingress, essentially it will go out using [LetsEncrypt](https://letsencrypt.org/) and fetch certificates for all of the host names that you have configured in there, and configure [NGINX](https://www.nginx.com/) automagically for you... Which is awesome, because then we can do TLS Everywhere and nobody has to do any actual work for it... Well, assuming you're running Kubernetes.
 
-**Carlisia Pinto:** \[00:52:16.21\] That's amazing.
+**Carlisia Thompson:** \[00:52:16.21\] That's amazing.
 
 **Erik St. Martin:** Carlisia, do you wanna go next?
 
-**Carlisia Pinto:** Yeah. I have a shout-out to all of the people who added their names to the new [speakers resources wiki page](https://github.com/golang/go/wiki/NewSpeakers) that Go is maintaining... And I'm pretty sure it was Russ Cox who started this page. It's just fantastic to see a bunch of people making themselves available to help with talk proposals and speaking questions, because we do need more people speaking, and especially new people... So shout-out to every single one of you on that page.
+**Carlisia Thompson:** Yeah. I have a shout-out to all of the people who added their names to the new [speakers resources wiki page](https://github.com/golang/go/wiki/NewSpeakers) that Go is maintaining... And I'm pretty sure it was Russ Cox who started this page. It's just fantastic to see a bunch of people making themselves available to help with talk proposals and speaking questions, because we do need more people speaking, and especially new people... So shout-out to every single one of you on that page.
 
 **Russ Cox:** I'll second that. I'm absolutely thrilled that so many people are interested in helping, and absolutely, we wanna see as many new speakers and new perspectives as we can. I really wanna encourage everyone to try to make people feel welcome, I encourage people to speak, and conference organizers, do everything you can to get new people to come, because we have a million people, but that's not enough. We need all sorts of people. Let's make that happen!
 
@@ -363,11 +363,11 @@ The core Go team, which is the people that you'd actually see doing things on th
 
 **Erik St. Martin:** I take it back, I did have one.
 
-**Carlisia Pinto:** How about you, Russ? How many have you got?
+**Carlisia Thompson:** How about you, Russ? How many have you got?
 
 **Russ Cox:** Assuming I haven't missed an email, I have gotten zero.
 
-**Carlisia Pinto:** That's amazing...
+**Carlisia Thompson:** That's amazing...
 
 **Erik St. Martin:** I feel like people may feel it's presumptuous even when being offered, so... I'd like to find more ways to do that, whether at a local meetup we host a "Bring your slides and we'll help" day, or something that encourages more people to do that.
 
@@ -375,11 +375,11 @@ The core Go team, which is the people that you'd actually see doing things on th
 
 **Russ Cox:** I mean, if the goal is to get people to have emails land in my mailbox, then I guess that might work. \[laughter\] I actually thought about that, but I thought it was really important that people could select who they wanted to talk to, because you might feel comfortable with someone, or you might have seen someone give a talk and you feel comfortable approaching them, but you don't feel comfortable just emailing an anonymous list and not even knowing who's gonna see your request for help. So I thought it was actually very important that the people asking for help got to choose who they asked for help.
 
-**Carlisia Pinto:** \[00:56:12.06\] That is a good point.
+**Carlisia Thompson:** \[00:56:12.06\] That is a good point.
 
 **Brian Ketelsen:** Yeah, I agree with that. That makes sense.
 
-**Carlisia Pinto:** And realistically, we could have both.
+**Carlisia Thompson:** And realistically, we could have both.
 
 **Erik St. Martin:** This is true. And I think we can probably do a good job of reminding people of the list, that we all volunteered our names willingly; somebody just didn't put us on there.
 
@@ -387,7 +387,7 @@ The core Go team, which is the people that you'd actually see doing things on th
 
 So this is helping with people who have somehow gotten through that part and know that they would kind of like to give a talk and maybe they wanna talk it over with someone. But I think that we need to step back and also focus on these sort of bigger, higher-impact things as well.
 
-**Carlisia Pinto:** Yeah, and how about if the conference organizers helped promote this resource, for example? This resource specifically, or resources like that... Because for example if I never spoke at a conference and I have low self-confidence and I could majorly benefit from help but I couldn't get that kind of help or didn't know that help was out there, I would never submit a CFP. So I can see your conference announcement and I can see that, okay, you're making it safe for me, but if I can't really submit a good CFP, I wouldn't do it.
+**Carlisia Thompson:** Yeah, and how about if the conference organizers helped promote this resource, for example? This resource specifically, or resources like that... Because for example if I never spoke at a conference and I have low self-confidence and I could majorly benefit from help but I couldn't get that kind of help or didn't know that help was out there, I would never submit a CFP. So I can see your conference announcement and I can see that, okay, you're making it safe for me, but if I can't really submit a good CFP, I wouldn't do it.
 
 **Russ Cox:** Absolutely. We have to do everything.
 
@@ -397,7 +397,7 @@ So this is helping with people who have somehow gotten through that part and kno
 
 **Brian Ketelsen:** Yeah, that's a good idea.'
 
-**Carlisia Pinto:** Yeah, that's what I'm talking about.
+**Carlisia Thompson:** Yeah, that's what I'm talking about.
 
 **Erik St. Martin:** Then I think the next bridge to cross is a lot of people when you talk to them won't even look at the CFP page because they just think they don't really have anything of value to offer, so they don't even bother trying... How do we approach those people, and say like "We all have vast experiences, and things like that; there's usually something people can learn from your experience."
 
@@ -429,7 +429,7 @@ Alright, did anybody have any other projects we wanna give a shout-out to - or p
 
 There's absolutely no way that I could have spent the last ten years having so much fun working on Go if everyone else hadn't showed up. I would have moved on to something else and Go would have been shut down... And I'm so thrilled that that didn't happen. Thank you to everyone who's come along for the ride. It's really fun.
 
-**Carlisia Pinto:** It has been fun, yes.
+**Carlisia Thompson:** It has been fun, yes.
 
 **Erik St. Martin:** I agree. I think part of my love isn't just the language, it's the community... Just too much fun. And the conferences, too. I can't even keep up with the number of conferences that keep popping up. I'm actually really sad I'm gonna miss some of them. And they're in really cool vacationy areas too, like [Iceland](https://gophercon.is/), and [Brazil](https://2018.gopherconbr.org/)...
 
@@ -439,37 +439,37 @@ There's absolutely no way that I could have spent the last ten years having so m
 
 **Brian Ketelsen:** I could try, but I'm getting too old for that crap. \[laughter\]
 
-**Carlisia Pinto:** Oh, I highly recommend you go to the conference in Brazil. It was amazing.
+**Carlisia Thompson:** Oh, I highly recommend you go to the conference in Brazil. It was amazing.
 
 **Brian Ketelsen:** Oh, they're opening their CFP on Monday...
 
-**Carlisia Pinto:** There we go.
+**Carlisia Thompson:** There we go.
 
 **Brian Ketelsen:** Super exciting.
 
-**Carlisia Pinto:** There we go Erik, and Brian, too.
+**Carlisia Thompson:** There we go Erik, and Brian, too.
 
 **Erik St. Martin:** Yeah, I need to think of a topic.
 
-**Carlisia Pinto:** And Russ! \[laughs\]
+**Carlisia Thompson:** And Russ! \[laughs\]
 
 **Brian Ketelsen:** When is [GopherCon Brazil](https://2018.gopherconbr.org/)? What month is that in?
 
 **Erik St. Martin:** October?
 
-**Carlisia Pinto:** November.
+**Carlisia Thompson:** November.
 
 **Brian Ketelsen:** Oh, even better. As long as it's not August...
 
 **Erik St. Martin:** Feel lucky, Russ. Last time --
 
-**Carlisia Pinto:** Oh, I'm sorry. I stand corrected - it's in September. They moved the date.
+**Carlisia Thompson:** Oh, I'm sorry. I stand corrected - it's in September. They moved the date.
 
 **Erik St. Martin:** Oh yeah, I remember it shifted... For some reason I thought it was October. But yeah, the last time we had somebody from the Go team on, we had [Brad Fitzpatrick](https://twitter.com/bradfitz) on, and Carlisia got him to do something, close an issue or something... \[laughter\]
 
 **Brian Ketelsen:** That's right, she bugged him... "I've had this issue open..." \[laughter\] It was awesome.
 
-**Carlisia Pinto:** I didn't come prepared today... Darn it! \[laughter\] I could have milked something out of Russ. \[laughs\]
+**Carlisia Thompson:** I didn't come prepared today... Darn it! \[laughter\] I could have milked something out of Russ. \[laughs\]
 
 **Erik St. Martin:** So I think we are about out of time... Thank you everybody for being on the show. Huge thank you, Russ, for coming on and talking to us today. It's been a blast.
 

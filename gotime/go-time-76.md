@@ -1,6 +1,6 @@
 **Erik St. Martin:** Welcome back, everybody, to another episode of GoTime. Today's episode is number 76. On the show today we have myself, Erik St. Martin; Carlisia Pinto is also here...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And Brian Ketelsen...
 
@@ -18,7 +18,7 @@ So I led the platform team inside Umbel for about a year and a half before we sp
 
 **Erik St. Martin:** \[00:03:51.27\] That's awesome. Tell us a little bit about Pilosa itself. I know it's a distributed index, but there's some properties about it that kind of make it unique, and then we'll talk about why Go, and why Go is a good fit, and maybe even some of the points that you struggle with.
 
-**Carlisia Pinto:** But also tell us what a distributed index is, because not everybody might now...
+**Carlisia Thompson:** But also tell us what a distributed index is, because not everybody might now...
 
 **Matt Jaffee:** Sure, sure. So you take a database and it really has two parts - it's got storage, and then it's got indexing, which is basically there to speed up different queries... So with Pilosa, what we've done -- and we didn't really decide to do this initially; we just had a very specific problem that we needed to solve, but sort of after the fact we realized that what we'd done is taken the index part out of the database and made it a standalone piece of software.
 
@@ -40,19 +40,19 @@ B-tree indexing starts to fall apart, but bitmap indexing can be very good, so i
 
 **Brian Ketelsen:** I have a confession to make... I got my start in big data way back in the day, 1990-something at a company called Omnidex, and they did the same thing, but it was in C and C++. It was a lot harder to install and maintain than Pilosa looks, I can tell you that... But the same concept - bitmap indexes on data, with covered indexes, and most of the queries could be resolved without even touching the data itself. It would be covered by the indexes.
 
-**Carlisia Pinto:** \[00:08:13.01\] I'm wondering if you have any sort of numbers... So being able to scale the storage independently of the indexing system seems like it should be a slam dunk decision, it should scale a lot better... Do you have numbers to compare data storages combined with indexing, which is some regular, normal, bread and butter relational database, versus separating those two?
+**Carlisia Thompson:** \[00:08:13.01\] I'm wondering if you have any sort of numbers... So being able to scale the storage independently of the indexing system seems like it should be a slam dunk decision, it should scale a lot better... Do you have numbers to compare data storages combined with indexing, which is some regular, normal, bread and butter relational database, versus separating those two?
 
 **Erik St. Martin:** I think that the importance of the index isn't so much storage, it's that a lot of times when you're searching for data in a database, and even in a distributed database, you have to touch multiple machines or seek too many places on disk to find the data to see whether it applies... So by having indexes, you can limit the amount of data that you need to go out and fetch from wherever it's stored.
 
-**Carlisia Pinto:** Yeah, that's a good point, too. I would say that that's a different use case, but I think those are two different use cases, and you can have the need for both, right? And I am sure there are other use cases probably?
+**Carlisia Thompson:** Yeah, that's a good point, too. I would say that that's a different use case, but I think those are two different use cases, and you can have the need for both, right? And I am sure there are other use cases probably?
 
 **Matt Jaffee:** Yeah, Carlisia makes a really good point, actually, and I do have sort of rough numbers I can share. We are incredibly delinquent on making some big benchmarking blog post, but typically when you ingest data into Pilosa, the amount of memory or disk space that's taken up in Pilosa is about one-tenth the original data size, and it depends heavily on the cardinality of the data, and what fields you're indexing, and all that. But in order of magnitude, decrease is pretty typical.
 
-**Carlisia Pinto:** Yeah, well I wouldn't be surprised... And how about complexity of -- we actually just had this discussion with a different guest, different system... The complexity of installing and maintaining this, compared to just one thing, a relational database where everything is there?
+**Carlisia Thompson:** Yeah, well I wouldn't be surprised... And how about complexity of -- we actually just had this discussion with a different guest, different system... The complexity of installing and maintaining this, compared to just one thing, a relational database where everything is there?
 
 **Matt Jaffee:** There is definitely overhead when you think about having to maintain more than one system, right? I think the guest you're probably referring to is [CockroachDB](https://github.com/cockroachdb/cockroach)...
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Matt Jaffee:** I mean, wow, that is a fantastic system. I actually would love to do some benchmarks against them at some point... But I think Pilosa - our thesis is that an independent, standalone index is gonna be an important part of the technology stack in the future, and we see really cool use cases where somebody just has a whole bunch of big blobs in [S3](https://en.wikipedia.org/wiki/Amazon_S3)... Maybe they're JSON, maybe they've CSV, whatever it is, and really the only option for querying -- these cloud providers, big query type solutions where you're paying per query and it can get quite expensive... Whereas if you could just index that data in something without moving all of it into another database - you could potentially get extremely good query performance while still having it be very consistent and very durable wherever it is.
 
@@ -128,11 +128,11 @@ I'm gonna have to play with that, I'm gonna have to think about that a little bi
 
 **Brian Ketelsen:** Nice. I didn't look at the website yet... Is it exactly at the end of July? Oh, it's the 30th... So that's gonna be really close with [GopherCon UK](https://www.golanguk.com/) now. I wanna say GopherCon UK is like first, second and third of August, so that's gonna be tight.
 
-**Carlisia Pinto:** I just wanna say I love this initiative. I think we should have one-day conferences like that around the country, around the world... Just like a local -- get everybody from the region. One day doesn't require big commitments, doesn't require huge organization.
+**Carlisia Thompson:** I just wanna say I love this initiative. I think we should have one-day conferences like that around the country, around the world... Just like a local -- get everybody from the region. One day doesn't require big commitments, doesn't require huge organization.
 
 **Brian Ketelsen:** Absolutely.
 
-**Carlisia Pinto:** We need to have one like this in San Diego.
+**Carlisia Thompson:** We need to have one like this in San Diego.
 
 **Erik St. Martin:** Yeah, I'd love to see more regional events pop up all over the country, like one day... But when I say one day, one-day conferences, not like "I'd like to see them pop up one day..." Well, that too... \[laughter\]
 
@@ -142,11 +142,11 @@ I'm gonna have to play with that, I'm gonna have to think about that a little bi
 
 **Erik St. Martin:** Right...? Yesterday... Well, then I would have missed it, but... In Florida. Somebody do one in Florida.
 
-**Carlisia Pinto:** I just wanted to give a shout-out to all the organizers. You guys are awesome!
+**Carlisia Thompson:** I just wanted to give a shout-out to all the organizers. You guys are awesome!
 
 **Erik St. Martin:** Yeah, and organizers of meetups.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Erik St. Martin:** Brian and I have been terrible meetup organizers.
 
@@ -210,7 +210,7 @@ Now I have a -- I think I sent pictures out over Twitter, of this embedded board
 
 **Matt Jaffee:** Well, no, no, no... There was a promise I would be funny, but there was no explicit promise of jokes... \[laughter\]
 
-**Carlisia Pinto:** Well, that was implied, so...
+**Carlisia Thompson:** Well, that was implied, so...
 
 **Matt Jaffee:** I don't know, I guess -- if somebody asks you for a joke, you never have one ready, do you...?
 
@@ -240,29 +240,29 @@ What other interesting news did we have? Oh, I wanted to mention [Micro](https:/
 
 **Brian Ketelsen:** Alright, so this is kind of meta, and it makes me so happy - there is a project on GitHub called All-contributors, and it's under [kentcdodds/all-contributors](https://github.com/kentcdodds/all-contributors) on GitHub. It's a really neat way to recognize all the people who have contributed to your project beyond code. So you can recognize code contributors too, but... You have to go into the repo to really see it. It gives you a really pretty chart that shows you who's contributed to the project and in what way... And those ways might be things like answering questions on the forums, or promoting the project on Twitter, or writing documentation... So it's a great way to recognize the whole community that makes your project thrive, as opposed to just the people contributing code... And I love it so much I wanna adopt it for all my open source stuff.
 
-**Carlisia Pinto:** I absolutely love this, it's great.
+**Carlisia Thompson:** I absolutely love this, it's great.
 
 **Brian Ketelsen:** Isn't it awesome?
 
-**Carlisia Pinto:** It's awesome... And it looks great, too.
+**Carlisia Thompson:** It's awesome... And it looks great, too.
 
 **Brian Ketelsen:** It does!
 
-**Carlisia Pinto:** You've got a table with people's picture... Not just a list of names.
+**Carlisia Thompson:** You've got a table with people's picture... Not just a list of names.
 
 **Brian Ketelsen:** Exactly, it looks pretty, and it gives you a way to say hello to everybody and thanks to all the people who are doing the hard work. I'll post a link to that in Slack.
 
 **Erik St. Martin:** How about you, Carlisia?
 
-**Carlisia Pinto:** I want to give a shout-out to [Francesc Campoy](https://twitter.com/francesc) and his [JustForFunc](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw) project - the video production, and especially the [io.Pipes](https://www.youtube.com/watch?v=LHZ2CAZE6Gs) episode. Figuring out how to use io Pipes correctly and when to close things can be a bit mind-boggling, and he does a great job walking you through different scenarios. That's a great episode, and I'm very grateful that I had that to watch when I needed it... And JustForFunc in general I think is becoming - for me at least - a go-to place, like "Oh, I wanna figure out how this works. Maybe JustForFunc will have an episode on that." And it's like, "Yeah, it does."
+**Carlisia Thompson:** I want to give a shout-out to [Francesc Campoy](https://twitter.com/francesc) and his [JustForFunc](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw) project - the video production, and especially the [io.Pipes](https://www.youtube.com/watch?v=LHZ2CAZE6Gs) episode. Figuring out how to use io Pipes correctly and when to close things can be a bit mind-boggling, and he does a great job walking you through different scenarios. That's a great episode, and I'm very grateful that I had that to watch when I needed it... And JustForFunc in general I think is becoming - for me at least - a go-to place, like "Oh, I wanna figure out how this works. Maybe JustForFunc will have an episode on that." And it's like, "Yeah, it does."
 
 **Brian Ketelsen:** You know, Carlisia, I don't want you to think that I'm making fun of your accent, but when you say JustForFunc, that's not what I hear... And that just kind of makes me smile.
 
-**Carlisia Pinto:** What do you hear?
+**Carlisia Thompson:** What do you hear?
 
 **Brian Ketelsen:** I hear something that doesn't sound like Func...
 
-**Carlisia Pinto:** Just for Fun?
+**Carlisia Thompson:** Just for Fun?
 
 **Brian Ketelsen:** No...
 
@@ -270,11 +270,11 @@ What other interesting news did we have? Oh, I wanted to mention [Micro](https:/
 
 **Brian Ketelsen:** Not because I want to, no...
 
-**Carlisia Pinto:** When we stop recording, you're gonna have to tell me... \[laughs\]
+**Carlisia Thompson:** When we stop recording, you're gonna have to tell me... \[laughs\]
 
 **Brian Ketelsen:** I will. I'll say it off-air.
 
-**Carlisia Pinto:** I can't even imagine... \[laughter\]
+**Carlisia Thompson:** I can't even imagine... \[laughter\]
 
 **Brian Ketelsen:** I'm terrible.
 
@@ -288,7 +288,7 @@ What other interesting news did we have? Oh, I wanted to mention [Micro](https:/
 
 **Brian Ketelsen:** And she does it all off the cuff, too. I had to follow her at -- was it Golang UK last year...? And I was so mad, I was like "How the hell do you follow somebody who just goes up there and live-codes syscalls in Go on the spot, without even preparing for it?" I can't follow that. That's why [I had to put on a wig at GopherCon Russia](https://www.youtube.com/watch?v=MzTcsI6tn-0).
 
-**Carlisia Pinto:** \[laughs\] I've seen her talks too, and I have to say, she makes it look so easy... Like, "You just do this, it's simple." She doesn't say that, but she just goes over it in such a clear and direct and concise manner, and you think "Oh my gosh, this is so simple", but it's obviously not. She has a gift.
+**Carlisia Thompson:** \[laughs\] I've seen her talks too, and I have to say, she makes it look so easy... Like, "You just do this, it's simple." She doesn't say that, but she just goes over it in such a clear and direct and concise manner, and you think "Oh my gosh, this is so simple", but it's obviously not. She has a gift.
 
 **Brian Ketelsen:** She's one of my favorite speakers, she's really good.
 
@@ -352,7 +352,7 @@ Alright, did anybody have any other shout-outs before we call this show complete
 
 **Brian Ketelsen:** Not for me.
 
-**Carlisia Pinto:** Not for me.
+**Carlisia Thompson:** Not for me.
 
 **Matt Jaffee:** I'm good.
 
@@ -362,7 +362,7 @@ Alright, did anybody have any other shout-outs before we call this show complete
 
 **Erik St. Martin:** And thank you Brian and Carlisia, as always, for being amazing.
 
-**Carlisia Pinto:** Thank you, you're so generous...
+**Carlisia Thompson:** Thank you, you're so generous...
 
 **Brian Ketelsen:** It's what I do.
 

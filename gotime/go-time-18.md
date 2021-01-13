@@ -1,6 +1,6 @@
 **Erik St. Martin:** We are back for another episode of GoTime. Today's episode is number 18. Today's show is sponsored by Linode and Backtrace, so first we want to give them a huge thank you for sponsoring the show. Today on the show -- I'm gonna switch things up a little bit. First we have myself, Erik St. Martin, also we have Carlisia Campos here. Say hello, Carlisia...
 
-**Carlisia Pinto:** Hello!
+**Carlisia Thompson:** Hello!
 
 **Erik St. Martin:** And Brian Ketelsen...
 
@@ -64,7 +64,7 @@ I think that's building on kind of where we're at with the language too, because
 
 **Aaron Schlesinger:** That's a great question. I started off every week, and then pretty quickly burned out, to be honest. I've been doing every two to three weeks now.
 
-**Carlisia Pinto:** Aaron, I saw that you have an episode on the singleton design pattern, and on your repo you have an issue open for future "explain design patterns" episodes. And by the way, I wanted to mention to people that you have a repo where people can go and make requests if they want to learn about something in specific, or just upvote the issues that are there. Having a repo for that ourselves, that's very useful. There are so many interesting topics listed there, it's pretty cool.
+**Carlisia Thompson:** Aaron, I saw that you have an episode on the singleton design pattern, and on your repo you have an issue open for future "explain design patterns" episodes. And by the way, I wanted to mention to people that you have a repo where people can go and make requests if they want to learn about something in specific, or just upvote the issues that are there. Having a repo for that ourselves, that's very useful. There are so many interesting topics listed there, it's pretty cool.
 
 In any case, going back to the design patterns question that I have - how do you go about putting together a video tutorial for design patterns? Is it based on a lot of work that you have done with design patterns in Go? Or do you try to abstract how design patterns are implemented in other languages, and then sort of like how that would be done in Go? How do you go about it?
 
@@ -78,7 +78,7 @@ I try to take from all three, but I wouldn't say I have a specific strategy or a
 
 If you take a builder pattern, design pattern, something like that, and you bring it into Go, my goal is to try and explain why we should use it, instead of why we shouldn't use it. I would say from a cultural or community standpoint, I would rather not take a design pattern and write a little bit more code, rather than bring in a huge design pattern into your codebase, make it a little bit less code but harder to understand.
 
-**Carlisia Pinto:** Yeah, I can see that and I hugely agree with that. I did Java for quite a while and I knew Java fairly well back then when I was doing it. In the Java world - or at least in my Java world - design pattern was the go-to thing. It was pretty much like, there is a pattern, find out what it is and stick to that, because that's going to make your life easier, or it was going to make your code "better." I don't say better without quotes anymore, after Dave Cheney. But in any case, I think that is the trick with software design - trying to abstract things too early, you might end up pinning yourself against the wall. Like you're saying, Aaron, writing more code, and only really abstracting things into an interface or into a design pattern after you know what it is that you need is what I think we should be thinking about, as opposed to "Oh, we have design patterns, let's implement that!"
+**Carlisia Thompson:** Yeah, I can see that and I hugely agree with that. I did Java for quite a while and I knew Java fairly well back then when I was doing it. In the Java world - or at least in my Java world - design pattern was the go-to thing. It was pretty much like, there is a pattern, find out what it is and stick to that, because that's going to make your life easier, or it was going to make your code "better." I don't say better without quotes anymore, after Dave Cheney. But in any case, I think that is the trick with software design - trying to abstract things too early, you might end up pinning yourself against the wall. Like you're saying, Aaron, writing more code, and only really abstracting things into an interface or into a design pattern after you know what it is that you need is what I think we should be thinking about, as opposed to "Oh, we have design patterns, let's implement that!"
 
 **Erik St. Martin:** Well, that was kind of Dave's talk too, about the SOLID design, talking about single responsibility, open and closed, and the key points that will make software more maintainable, and then looking at design patterns as how they apply to that, whether they make things more complicated, and just recognizing this stuff. That's the whole thing, right? Design patterns are neither good, nor bad. Well, they're mostly good, but it's not religion. We don't have to look at some problem and then shop for the design pattern to solve that. It's okay to have things that are custom too, if it simplifies your design without creating a lot of coupling or things like that.
 
@@ -92,7 +92,7 @@ So I think we look at our own problems differently, and I'm interested to see ho
 
 **Brian Ketelsen:** Yeah.
 
-**Carlisia Pinto:** I think one downfall of design patterns, especially if you're doing something you don't have a ton of experience with and you set yourself to use a design pattern, is that let's say you're going to use a specific one and you might wanna do something that's a little bit out of that pattern, but then you wouldn't totally conform to the pattern and you make the choice to use the pattern, as opposed to doing the right thing for your code. That's a problem. If you don't have a lot of confidence, you don't have the experience with what you're working with, you might end up making that kind of choice. I think it's problematic when people do that. But if you keep it flexible, I think there's a lot to gain to at least know what design patterns you can use, because it can be very helpful in organizing your code, and also increasing the clarity of what you're doing, and then it's easy to communicate what it is that you're doing to other people.
+**Carlisia Thompson:** I think one downfall of design patterns, especially if you're doing something you don't have a ton of experience with and you set yourself to use a design pattern, is that let's say you're going to use a specific one and you might wanna do something that's a little bit out of that pattern, but then you wouldn't totally conform to the pattern and you make the choice to use the pattern, as opposed to doing the right thing for your code. That's a problem. If you don't have a lot of confidence, you don't have the experience with what you're working with, you might end up making that kind of choice. I think it's problematic when people do that. But if you keep it flexible, I think there's a lot to gain to at least know what design patterns you can use, because it can be very helpful in organizing your code, and also increasing the clarity of what you're doing, and then it's easy to communicate what it is that you're doing to other people.
 
 **Aaron Schlesinger:** Yeah, absolutely. If people can go back to that cookbook and say, "Oh, this looks pretty similar to visitor pattern..." The other thing I was gonna say, on your point, Carlisia, the Go programming language now is starting to give birth to concurrency design patterns that C++ and Java can't really do, because they don't have a first-class channel or a first-class lightweight thread primitive.
 
@@ -100,15 +100,15 @@ So I think we look at our own problems differently, and I'm interested to see ho
 
 **Erik St. Martin:** Yeah, and I think we see stuff, you know, fan-in, fan-out, and things like that, that become so much simpler because we have the concept of the channels. It becomes so much easier to do things like that.
 
-**Carlisia Pinto:** There is a talk by Rob Pike, it's called Go Concurrency Patterns. I've watched the whole thing before, and I was just gushing over it because it's beautiful. The patterns are beautiful.
+**Carlisia Thompson:** There is a talk by Rob Pike, it's called Go Concurrency Patterns. I've watched the whole thing before, and I was just gushing over it because it's beautiful. The patterns are beautiful.
 
 **Aaron Schlesinger:** It really is.
 
-**Carlisia Pinto:** Right? I'm sure you've seen it.
+**Carlisia Thompson:** Right? I'm sure you've seen it.
 
 **Aaron Schlesinger:** I love that talk.
 
-**Carlisia Pinto:** So yes, definitely, there are patterns for concurrency, and because at that point I had done concurrent code in Go, and I was just going "Oh my gosh, my code does not look like that at all", but I totally get it. I didn't memorize it, but my head was going "Oh, yeah!" So there are different ways that you can organize code according to what it is that you are doing. So it pays off, I think, for you to know what you can do.
+**Carlisia Thompson:** So yes, definitely, there are patterns for concurrency, and because at that point I had done concurrent code in Go, and I was just going "Oh my gosh, my code does not look like that at all", but I totally get it. I didn't memorize it, but my head was going "Oh, yeah!" So there are different ways that you can organize code according to what it is that you are doing. So it pays off, I think, for you to know what you can do.
 
 **Aaron Schlesinger:** Yeah.
 
@@ -118,11 +118,11 @@ So I know we volleyed back and forth a little bit on benefits and drawbacks, and
 
 **Aaron Schlesinger:** I would go with the latter. I know that might be heresy, but I would absolutely say learn Go, learn idioms, and once you start getting more complex, you have a 5,000-line codebase or 10,000-line codebase, that might be a good time to start looking at design patterns and finding ways to reduce your lines of code using those design patterns. But if you're starting out, I think keeping your code as simple as possible, as understandable as possible using those idioms - that's far more important in my opinion.
 
-**Carlisia Pinto:** Can I just +1 that? \[laughter\]
+**Carlisia Thompson:** Can I just +1 that? \[laughter\]
 
 **Aaron Schlesinger:** Maybe it wasn't heresy...
 
-**Carlisia Pinto:** Yeah, I agree with that, and I'm very much a newcomer to Go. So by just using the straightforward stuff and learning the idioms, you might not have that organization at the end, but you're going to end up with a much bigger tool belt that you can use. Because design patterns, they don't really change, so once you know them and learn them, they're going to be what they're going to be. But you knowing the Go idioms - if you don't take the time to implement them and know what they are, you're going to be doing yourself a disservice, I think.
+**Carlisia Thompson:** Yeah, I agree with that, and I'm very much a newcomer to Go. So by just using the straightforward stuff and learning the idioms, you might not have that organization at the end, but you're going to end up with a much bigger tool belt that you can use. Because design patterns, they don't really change, so once you know them and learn them, they're going to be what they're going to be. But you knowing the Go idioms - if you don't take the time to implement them and know what they are, you're going to be doing yourself a disservice, I think.
 
 **Brian Ketelsen:** Alright, it's time for us to take a quick break to talk about our sponsor, Linode.
 
@@ -226,7 +226,7 @@ As long as people are continuously refactoring a little bit to make more idiomat
 
 **Brian Ketelsen:** Atom has a Go package written by Joe somebody...
 
-**Carlisia Pinto:** It's called Go-plus.
+**Carlisia Thompson:** It's called Go-plus.
 
 **Brian Ketelsen:** Yeah, Go-plus, there you go. That installs all the other Go things.
 
@@ -250,11 +250,11 @@ As long as people are continuously refactoring a little bit to make more idiomat
 
 **Aaron Schlesinger:** Fair enough, I'll walk away, too.
 
-**Carlisia Pinto:** I'll go next with the news... Can I?
+**Carlisia Thompson:** I'll go next with the news... Can I?
 
 **Erik St. Martin:** Yeah.
 
-**Carlisia Pinto:** So it was just made public that Steve Francia is joining the Go Language Team at Google. So happy about that! He wrote a blog post talking about what his role will be. It seems pretty awesome.
+**Carlisia Thompson:** So it was just made public that Steve Francia is joining the Go Language Team at Google. So happy about that! He wrote a blog post talking about what his role will be. It seems pretty awesome.
 
 \[00:39:53.19\] The other thing I wanted to mention is there is a repo with patterns in Go, and it looks pretty cool. It has an accompanying website with tables for each type of patterns, and a bunch of patterns inside each table, with the status. The status means if there is a code implementation for that or not, and it seems whoever is in charge of this is putting code forward, that corresponds to each of the patterns.
 
@@ -264,11 +264,11 @@ As long as people are continuously refactoring a little bit to make more idiomat
 
 **Brian Ketelsen:** That's not the word I would've used. \[laughter\]
 
-**Carlisia Pinto:** I might have gotten this link from Aaron's repo. I'm not sure where I got it from.
+**Carlisia Thompson:** I might have gotten this link from Aaron's repo. I'm not sure where I got it from.
 
 **Aaron Schlesinger:** Yeah, I don't know if I put an issue in...
 
-**Carlisia Pinto:** There is one, yeah.
+**Carlisia Thompson:** There is one, yeah.
 
 **Aaron Schlesinger:** Maybe there is. I saw this a couple of weeks ago, read through it at 3 AM... I actually think this is awesome, because it starts the discussion that essentially we had. They might not all be good patterns, but at least it starts. Everybody is talking about, "Do we need this for Go? Do we not? What should we change?" and so on.
 
@@ -288,17 +288,17 @@ As long as people are continuously refactoring a little bit to make more idiomat
 
 **Brian Ketelsen:** What I would love to see behind each of these is a conversation about whether these things belong in Go or not. Don't get me wrong, I love design patterns, and I love the concept of thinking about code architecturally, but I just think that there are some things that have absolutely no business in Go, or should be done in such a way -- maybe that's what the link to some of these should be. "There is really no pattern for this in Go, just use a stringer", and that should be it.
 
-**Carlisia Pinto:** I'm glad you mentioned that, Brian, because as we were talking before, I was thinking, wouldn't it be great if somebody could compile these idioms that at least you have been talking about, that Go has, that could be used in place of design patterns? If we could have a compilation of things and talk, like you were saying; this would be a good chance to do that. Here's the design pattern, here's how you would do it by using idioms in Go, without actually having to do a full-blown implementation of the design pattern.
+**Carlisia Thompson:** I'm glad you mentioned that, Brian, because as we were talking before, I was thinking, wouldn't it be great if somebody could compile these idioms that at least you have been talking about, that Go has, that could be used in place of design patterns? If we could have a compilation of things and talk, like you were saying; this would be a good chance to do that. Here's the design pattern, here's how you would do it by using idioms in Go, without actually having to do a full-blown implementation of the design pattern.
 
 **Erik St. Martin:** \[00:43:54.11\] Yeah, more like, you know, you may be used to solving this with this pattern and this language, but this would be the way you would solve the same problem in Go.
 
-**Carlisia Pinto:** Exactly.
+**Carlisia Thompson:** Exactly.
 
 **Erik St. Martin:** Hey, we have new episodes of Go In 5 Minutes for you, Aaron.
 
 **Aaron Schlesinger:** Alright. It's kind of like this whole page is... Each category might be an episode, or something. \[laughter\]
 
-**Carlisia Pinto:** Yeah... \[laughs\]
+**Carlisia Thompson:** Yeah... \[laughs\]
 
 **Erik St. Martin:** Another topic that I wanted to talk about - did anybody see that post with Facebook implementing the DHTTP load balancer in Go?
 
@@ -326,7 +326,7 @@ Alright, so I think we are about out of time... Oh, the other thing - anybody wh
 
 **Erik St. Martin:** Yeah, we're still waiting for more to be released, too... But yeah, we need more time.
 
-**Carlisia Pinto:** Talking about the videos from GopherCon, there is one particular video that everybody is in awe with. It was a talk by Liz Rice. She basically did a container in Go live, in her presentation.
+**Carlisia Thompson:** Talking about the videos from GopherCon, there is one particular video that everybody is in awe with. It was a talk by Liz Rice. She basically did a container in Go live, in her presentation.
 
 **Brian Ketelsen:** Yeah, that was a really great talk.
 
@@ -360,11 +360,11 @@ Alright, so I think we are about out of time... Oh, the other thing - anybody wh
 
 **Brian Ketelsen:** \[00:47:58.00\] I retweeted it, isn't that enough?
 
-**Carlisia Pinto:** Yeah, Erik, everybody retweeted it. \[laughter\]
+**Carlisia Thompson:** Yeah, Erik, everybody retweeted it. \[laughter\]
 
 **Erik St. Martin:** Apparently, I've been absent from Twitter...
 
-**Carlisia Pinto:** I don't know where you were.
+**Carlisia Thompson:** I don't know where you were.
 
 **Brian Ketelsen:** It was one of my most proud Twitter moments too, because I tweeted at Liz and I said, "We're watching for you at GopherCon next year, Liz", and I misspelled GopherCon... And boy, did I catch hell for that!
 
@@ -386,11 +386,11 @@ Anything else anybody wants to talk about? We can start getting into some \#Free
 
 **Erik St. Martin:** Alright, who's up next? Carlisia?
 
-**Carlisia Pinto:** I can go next. I want to give a shout out to Api2Go. It's a project in Go, and it's for the use case where you want to implement a RESTful API, and if you want your responses...
+**Carlisia Thompson:** I can go next. I want to give a shout out to Api2Go. It's a project in Go, and it's for the use case where you want to implement a RESTful API, and if you want your responses...
 
 **Brian Ketelsen:** The JSONAPI spec?
 
-**Carlisia Pinto:** Yes. If you want your requests and responses to conform to the JSONAPI spec, this will facilitate your life. It will let you do stuff by hand, if you want to just use the minimum interface that they have. But they have some interfaces that if you implement them, it will automatically map your routes to the methods that you're writing for your REST API, and it's fantastic. I've been using it for a project that I'm working on, and I love it. I haven't had any problem, it's super well documented, it's got a ton of examples.
+**Carlisia Thompson:** Yes. If you want your requests and responses to conform to the JSONAPI spec, this will facilitate your life. It will let you do stuff by hand, if you want to just use the minimum interface that they have. But they have some interfaces that if you implement them, it will automatically map your routes to the methods that you're writing for your REST API, and it's fantastic. I've been using it for a project that I'm working on, and I love it. I haven't had any problem, it's super well documented, it's got a ton of examples.
 
 **Erik St. Martin:** How do you guys keep up with all of these?
 
@@ -402,7 +402,7 @@ Anything else anybody wants to talk about? We can start getting into some \#Free
 
 **Erik St. Martin:** I have not seen this one yet.
 
-**Carlisia Pinto:** Oh, there are so many.
+**Carlisia Thompson:** Oh, there are so many.
 
 **Aaron Schlesinger:** \[00:52:03.26\] Does anyone know how many are in Awesome-Go?
 
@@ -474,7 +474,7 @@ Anything else anybody wants to talk about? We can start getting into some \#Free
 
 **Erik St. Martin:** Somebody needs to come up with a new idea.
 
-**Carlisia Pinto:** We did so many blog posts out of this episode, it's not even funny.
+**Carlisia Thompson:** We did so many blog posts out of this episode, it's not even funny.
 
 **Brian Ketelsen:** You know what we need - a 5-minute video about it.
 
@@ -498,12 +498,12 @@ Anything else anybody wants to talk about? We can start getting into some \#Free
 
 **Brian Ketelsen:** No.
 
-**Carlisia Pinto:** No.
+**Carlisia Thompson:** No.
 
 **Erik St. Martin:** Alright then. I wanna thank everybody for being on the show, especially thank you to Aaron for coming on this show. Everybody definitely check out his Go In 5 Minutes videos; I think it's gonna be really interesting to see all the new ones that come out from this show. I think we've had a lot of good discussion. Thank you to the listeners, everybody who's listening live and interacting with us on Slack. Definitely subscribe - you can go to GoTime.FM to subscribe if you haven't already. We are on both iTunes and the Google Play Store. Follow us on Twitter @GoTimeFM and GitHub.com/gotimefm/ping if you want to be on the show or have recommendations. Definitely thanks to our sponsors today too, Linode and Backtrace. With that, goodbye everybody!
 
 **Brian Ketelsen:** Goodbye!
 
-**Carlisia Pinto:** Thank you Aaron, and goodbye everybody!
+**Carlisia Thompson:** Thank you Aaron, and goodbye everybody!
 
 **Aaron Schlesinger:** Goodbye, everyone!

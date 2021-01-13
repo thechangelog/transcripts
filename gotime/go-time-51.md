@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And Carlisia Pinto.
 
-**Carlisia Pinto:** Hi there!
+**Carlisia Thompson:** Hi there!
 
 **Erik St. Martin:** And our special guest for today actually gets to blend two worlds for us, both Go and information security. Please welcome to the show Aaron Hnatiw.
 
@@ -24,7 +24,7 @@ As far as Go, what got me interested in Go was I have a friend who's name is Tho
 
 Sort of building some open source tools, contributing to projects... I actually started using it as the scripting language almost for my pentesting work. Python is kind of the most common one now, but I started using Go on a regular basis... I just picked it up and started using it more and more, and to this day I really enjoy working with it, for a number of reasons. That's kind of the long-winded answer to how I got to where I am today.
 
-**Carlisia Pinto:** I wanna pick up on one thread... You mentioned that you were using Go to teach, yeah? Two related questions - how did it go teaching Go? Did the students find it easier, did they complain, did they have praises for it? How did that go? And how do you think Go compares with Python for security related things?
+**Carlisia Thompson:** I wanna pick up on one thread... You mentioned that you were using Go to teach, yeah? Two related questions - how did it go teaching Go? Did the students find it easier, did they complain, did they have praises for it? How did that go? And how do you think Go compares with Python for security related things?
 
 **Aaron Hnatiw:** To answer the first question as far as how it went teaching it - teaching it was good. I was teaching developers; they were a group of third-year programmers, so they had some of the basics; I think they had done a lot of work in Python before, Java as well, so they had some of the basics and fundamentals down. It was just a matter of teaching them -- the approach that I took was forcing them to learn a lot on their own, because as we know, when you're in software development (and InfoSec especially) you have to teach yourself a lot. So now that they knew the basics, what I did was I pointed them towards a few resources, like the [Go Tour](https://tour.golang.org/welcome/1), which is fantastic, and giving them a few books on Go.
 
@@ -40,7 +40,7 @@ The second question was how it compares to using something like Python for InfoS
 
 Right now I would say it is more difficult for most things, because you have to really do it almost from scratch, you have to do it from a much lower level, but it's not impossible, and I think once you get the basics and once you start to learn what's available to you in the standard library, then it becomes easier.
 
-**Carlisia Pinto:** So you're saying that part of the difficulty is having to write things from scratch, but it's more difficult because people are not aware of the functionality in the standard library? Because it's such a common thing for Go developers to want to always build things from scratch, and they find that there are a lot of benefits from that.
+**Carlisia Thompson:** So you're saying that part of the difficulty is having to write things from scratch, but it's more difficult because people are not aware of the functionality in the standard library? Because it's such a common thing for Go developers to want to always build things from scratch, and they find that there are a lot of benefits from that.
 
 **Aaron Hnatiw:** Yeah, if you're coming from a developer's standpoint, I would say it's a lot more fun to do that. You get to understand the language a lot more. That's one of the things that I've benefitted from in writing Go - I've gotten to understand how it works at a much lower level, because I'm diving into the source code of the actual standard library more than I would have done in any other language. So I'm learning a lot more about Go in the process, but I think the problem comes in where a lot of people that are in security are not necessarily developers, they don't have a developer background. A whole separate point is why developers would make good security engineers and good pentesters (I can cover that later), but the reason why I think it's harder is because, like I said, a lot of people in InfoSec don't necessarily come from a software development background. For me, I do, so I enjoy doing that, and I think that's one of the things that's made it easier for me. But I think a lot of people want -- Erik's right, there's a lot of one-off scripts, and if you can do something quickly using another library, then it makes it a lot easier. That's something that I think we can contribute more to, and what I'm trying to do is help build more of those things, but there's only one of me and there's a lot that needs to be done... So I would say that if you wanna contribute to InfoSec from the Go side of things, start looking at what Python libraries are available.
 
@@ -48,7 +48,7 @@ Right now I would say it is more difficult for most things, because you have to 
 
 \[00:12:19.20\] To answer your question, it's hard because of the lack of libraries, because not a lot of people come from a development background, but if you do come from a development background, it's awesome and you'll learn a lot doing it, and you just get better over time. It's the same with anything.
 
-**Carlisia Pinto:** That makes total sense.
+**Carlisia Thompson:** That makes total sense.
 
 **Brian Ketelsen:** Speaking of the background thing - one of the things that stands out when you were talking about how you got into this is just the breadth of your background. Do you feel like there's room for somebody to just come in and start learning about InfoSec and security, or do you feel like having that really broad operations and security and programming background is required, or just helpful?
 
@@ -92,7 +92,7 @@ I keep looking at these news articles about all these compromised machines acros
 
 **Erik St. Martin:** I think that that's also a management problem too though, right? Because it's not part of the lifecycle, and I think that engineering and security are two different hats. Even if you possess both skills, it's very hard to look at the problem in both ways, right? I think there's time developing features and then I think there's time kind of really going over your code in a meticulous way, looking for potential attack factors.
 
-**Carlisia Pinto:** Before Aaron answers, I wanna throw one perspective... I've been sitting here and thinking about security and thinking "Oh my god, if I had to learn enough about security to make an application thoroughly secure, it is so much..." Like Brian was saying, we have to know so many different things. And the context switching, like Erik said - you have to look at things from a totally different perspective to think about security.
+**Carlisia Thompson:** Before Aaron answers, I wanna throw one perspective... I've been sitting here and thinking about security and thinking "Oh my god, if I had to learn enough about security to make an application thoroughly secure, it is so much..." Like Brian was saying, we have to know so many different things. And the context switching, like Erik said - you have to look at things from a totally different perspective to think about security.
 
 \[00:24:09.20\] I was sitting here, thinking I am surely glad the place where I work now, they have a security team (like many companies do) and there is an audit process. So at some point in the software development, once it gets close to being ready for production, it goes through this audit. For me, it's like "Yeah, great! Find out all the problems the software has, tell me and I'll fix it." But having to know a lot more about security than I do - it's burdensome, I think.
 
@@ -126,11 +126,11 @@ I know that was a lot to take in, and I'm sure that a lot of people are probably
 
 **Brian Ketelsen:** Yeah... Please.
 
-**Carlisia Pinto:** I was gonna say, what you just said, that list, it will make a great blog post.
+**Carlisia Thompson:** I was gonna say, what you just said, that list, it will make a great blog post.
 
 **Aaron Hnatiw:** Absolutely. I might do that.
 
-**Carlisia Pinto:** Yeah, if you do it, make sure to share it with us, and we'll share it with everybody.
+**Carlisia Thompson:** Yeah, if you do it, make sure to share it with us, and we'll share it with everybody.
 
 **Erik St. Martin:** \[00:32:00.26\] These are kind of generic from any programming language. How about - since you've had some time in Go, how about Go? What are some attack factors that exist in Go, or what are some areas where Go saves you from yourself?
 
@@ -178,11 +178,11 @@ That's where things like the [OWASP Top 10](https://www.owasp.org/index.php/Top_
 
 **Brian Ketelsen:** So there's one thing that I wanna add in terms of automated help... HP Labs released an app called Gas that's included in gometalinter, and it's truly my favorite in terms of automation. Gas lets you check your code in an automated fashion against several types of vulnerabilities and known insecure things, and you can tweak which tests it runs. I highly recommend it if you're gonna have an application in production that you run Gas in your CI, in your tests suite before you put it into production. I've found that it's got some pretty decent defaults in terms of security, and it catches things like using string concatenation in your SQL queries, and things like that. I like Gas a lot. That came from HP Labs originally, but I think they've put it under its own domain. It's on GitHub now at [github.com/goASTScanner/gas](https://github.com/GoASTScanner/gas).
 
-**Carlisia Pinto:** We need a link for that, Brian... Please.
+**Carlisia Thompson:** We need a link for that, Brian... Please.
 
 **Brian Ketelsen:** Okay.
 
-**Carlisia Pinto:** And Aaron, so if I'm an engineer, and we only have so much to keep up with, but if I do want to learn at least to make sure that I'm doing the basics, and I wanna do a little bit at a time, like I don't wanna go do a project, what recommendations would you have?
+**Carlisia Thompson:** And Aaron, so if I'm an engineer, and we only have so much to keep up with, but if I do want to learn at least to make sure that I'm doing the basics, and I wanna do a little bit at a time, like I don't wanna go do a project, what recommendations would you have?
 
 **Aaron Hnatiw:** I think one of the obvious answers to me right now is -- there's actually a product that Security Campus made just to solve that problem. I don't know if there's anything else out there right now like that, but what it is is it's called [SD Elements](https://www.securitycompass.com/sdelements/). Think about it as a software security requirements checker. So you give it a list of what you're doing - it's a web application written in this language, let's say Java, and it has these kinds of users. You give it those requirements, and it basically gives you a checklist of things that you need to know as a developer to write things securely.
 There's also things like -- the OWASP top 10 is probably another really good resource, because it's giving you just 10 things that you should keep in mind when you're writing web applications. There's more to the OWASP, there's more than just the OWASP top 10, but it's a really good start, and if you had those fundamentals, then it will cause a huge improvement in your security. So I would recommend those two things just to start.
@@ -191,21 +191,21 @@ There's also things like -- the OWASP top 10 is probably another really good res
 
 **Brian Ketelsen:** \[00:43:59.27\] I also wanted to point out that there is a Go specific OWASP book at [GitHub.com/checkmarx/go-scp](https://github.com/checkmarx/go-scp). I have not read this yet, but I have heard of several people who have and found it to be a pretty decent guide as to following OWASP standards from a Go app. So if you do read it, let us know what you think about it.
 
-**Carlisia Pinto:** Nice.
+**Carlisia Thompson:** Nice.
 
 **Aaron Hnatiw:** Yeah, I read through the first part of that, it's actually pretty well done. It did cover a lot of good, specific Go OWASP security issues that you need to be aware of.
 
 **Erik St. Martin:** And there's a new book that's being worked on called [Black Hat Go](https://nostarch.com/blackhatgo).
 
-**Carlisia Pinto:** Oh yeah, I saw that. I bought it, actually. I just didn't wanna miss it.
+**Carlisia Thompson:** Oh yeah, I saw that. I bought it, actually. I just didn't wanna miss it.
 
 **Aaron Hnatiw:** Yeah, I've already pre-ordered mine.
 
-**Carlisia Pinto:** Yeah, I wanted to make sure I didn't forget about it.
+**Carlisia Thompson:** Yeah, I wanted to make sure I didn't forget about it.
 
 **Erik St. Martin:** I didn't know that they were selling it. I've reviewed a couple of chapters for them, but I didn't realize it was for sale.
 
-**Carlisia Pinto:** It's in pre-order, they don't have anything to give yet.
+**Carlisia Thompson:** It's in pre-order, they don't have anything to give yet.
 
 **Aaron Hnatiw:** I'm also doing a technical review of that as well.
 
@@ -217,15 +217,15 @@ There's also things like -- the OWASP top 10 is probably another really good res
 
 **Erik St. Martin:** Let's kind of frame it as you're an engineer and you're trying to become more red team, but you don't have a lot of time to invest in that... Like, book recommendations or something.
 
-**Carlisia Pinto:** Alright, I'm gonna be annoying. Wait, I'm gonna be annoying.
+**Carlisia Thompson:** Alright, I'm gonna be annoying. Wait, I'm gonna be annoying.
 
 **Erik St. Martin:** Go ahead.
 
-**Carlisia Pinto:** Let's define red hat...
+**Carlisia Thompson:** Let's define red hat...
 
 **Brian Ketelsen:** Red team.
 
-**Carlisia Pinto:** Or team...
+**Carlisia Thompson:** Or team...
 
 **Erik St. Martin:** Oh yeah, I think we said we would come to what those were, but I don't think we ever defined...
 
@@ -239,7 +239,7 @@ I've done a number of these assessments myself, and what it essentially involves
 
 **Erik St. Martin:** And I think to feel better about the breadth of security knowledge, those red teams are usually composed of multiple people - there's a web guy, there's a Wi-Fi guy... Usually they'll reverse-engineer depending on what's being attacked. So no one person kind of encompasses all of that knowledge. There's just too many attack factors to be familiar with.
 
-**Carlisia Pinto:** \[00:48:07.25\] So what is the difference between red hat and red team, and blue hat and blue team, black hat, black team? I don't know if there is a black team.
+**Carlisia Thompson:** \[00:48:07.25\] So what is the difference between red hat and red team, and blue hat and blue team, black hat, black team? I don't know if there is a black team.
 
 **Aaron Hnatiw:** What you're probably thinking of is white hat/black hat.
 
@@ -261,19 +261,19 @@ Then there's also HackerOne and [Cobalt.io](https://cobalt.io/) is another one. 
 
 **Erik St. Martin:** Carlisia, any follow-up questions?
 
-**Carlisia Pinto:** No, just... If Aaron could drop a link eventually for that tool he mentioned, the developers \[unintelligible 00:51:54.19\] do a check of all the things they're doing and get a recommendation.
+**Carlisia Thompson:** No, just... If Aaron could drop a link eventually for that tool he mentioned, the developers \[unintelligible 00:51:54.19\] do a check of all the things they're doing and get a recommendation.
 
 **Aaron Hnatiw:** Sure. Yeah, I'll do that.
 
-**Carlisia Pinto:** Thank you.
+**Carlisia Thompson:** Thank you.
 
 **Aaron Hnatiw:** \[00:52:04.19\] No problem. And I should note that if anyone has any questions, there's so much that can be covered and I could probably be on here for another three hours and talk about security to help discuss what the issues are... But I'm open if anyone wants to reach out to me at any point in time. I'm sure we'll post my Twitter in the show notes, but I'm always open to talk and I wanna help people with this. There's a lot to know, and I feel like sharing what I know is a way to help improve that, so don't be shy to reach out.
 
-**Carlisia Pinto:** And are you going to be at [GopherCon](https://www.gophercon.com/)?
+**Carlisia Thompson:** And are you going to be at [GopherCon](https://www.gophercon.com/)?
 
 **Aaron Hnatiw:** I so badly wanted to, but I have to be at a wedding that day that my wife's actually involved in the wedding, so I couldn't get out of that one.
 
-**Carlisia Pinto:** Oh, that's a bummer...
+**Carlisia Thompson:** Oh, that's a bummer...
 
 **Brian Ketelsen:** That's a pretty poor excuse...
 
@@ -283,11 +283,11 @@ Then there's also HackerOne and [Cobalt.io](https://cobalt.io/) is another one. 
 
 **Aaron Hnatiw:** I know, I know...
 
-**Carlisia Pinto:** The only people we forgive for missing the conference is people who are actually getting married that day.
+**Carlisia Thompson:** The only people we forgive for missing the conference is people who are actually getting married that day.
 
 **Brian Ketelsen:** Or giving birth, that's also a good one.
 
-**Carlisia Pinto:** Yeah, giving birth as well.
+**Carlisia Thompson:** Yeah, giving birth as well.
 
 **Erik St. Martin:** So is your wife in the bridal party?
 
@@ -303,7 +303,7 @@ Then there's also HackerOne and [Cobalt.io](https://cobalt.io/) is another one. 
 
 **Brian Ketelsen:** That's right, "This is like the Olympics for Go; how can you let me miss this for just sitting at some table with all of the other spouses?" \[laughter\]
 
-**Carlisia Pinto:** If it's support you need, there's more where that came from, so just get in touch with Erik or Brian.
+**Carlisia Thompson:** If it's support you need, there's more where that came from, so just get in touch with Erik or Brian.
 
 **Brian Ketelsen:** Yeah, just let us know, we're good at this; we've got years of experience.
 
@@ -311,13 +311,13 @@ Then there's also HackerOne and [Cobalt.io](https://cobalt.io/) is another one. 
 
 **Brian Ketelsen:** "We gave them a really nice gift from the registry..." \[laughter\] Alright, we better move on to news before we get ourselves all divorced. \[laughter\]
 
-**Carlisia Pinto:** I was gonna make a comment, but never mind.
+**Carlisia Thompson:** I was gonna make a comment, but never mind.
 
 **Brian Ketelsen:** It's too, late, right? \[laughter\]
 
 **Erik St. Martin:** Now, I'm interested... What was that comment going to be?
 
-**Carlisia Pinto:** \[unintelligible 00:54:17.10\]
+**Carlisia Thompson:** \[unintelligible 00:54:17.10\]
 
 **Brian Ketelsen:** Go news.
 
@@ -357,21 +357,21 @@ Then there's also HackerOne and [Cobalt.io](https://cobalt.io/) is another one. 
 
 **Erik St. Martin:** It's that time of the year, conference season.
 
-**Carlisia Pinto:** Get ready for [GopherCon Brazil](https://2017.gopherconbr.org/). The CFP is not open yet, but it's gonna happen in November; they're selling tickets...
+**Carlisia Thompson:** Get ready for [GopherCon Brazil](https://2017.gopherconbr.org/). The CFP is not open yet, but it's gonna happen in November; they're selling tickets...
 
 **Brian Ketelsen:** Can you guys hear that lightning? We'd better wrap this show up before we lose electricity again... \[laughter\]
 
 **Erik St. Martin:** So are we ready for \#FreeSoftwareFriday?
 
-**Carlisia Pinto:** I wanna mention a couple things... One, the [\#GopherConOrBust hashtag](https://twitter.com/search?q=gopherconorbust) on Twitter has been very sad.
+**Carlisia Thompson:** I wanna mention a couple things... One, the [\#GopherConOrBust hashtag](https://twitter.com/search?q=gopherconorbust) on Twitter has been very sad.
 
 **Brian Ketelsen:** It has.
 
-**Carlisia Pinto:** The years before it was awesome; two weeks to go for the conference it was buzzing. It's very sad now, so people, start using it.
+**Carlisia Thompson:** The years before it was awesome; two weeks to go for the conference it was buzzing. It's very sad now, so people, start using it.
 
 **Erik St. Martin:** I think last year it was because so many people started commuting there. You know, they were driving from Canada, and Brian drove up from Florida...
 
-**Carlisia Pinto:** That is true. There was that big CoreOS bus. They're not doing that?
+**Carlisia Thompson:** That is true. There was that big CoreOS bus. They're not doing that?
 
 **Brian Ketelsen:** That was two years ago...
 
@@ -397,11 +397,11 @@ Then there's also HackerOne and [Cobalt.io](https://cobalt.io/) is another one. 
 
 So I've found an app called WSLtty. It basically a bridge between Mintty - which is the nicest Windows command terminal thing - and WSL. It allows you to have what I would expect to be a decent Linux terminal prompt, but in Windows, and pointed at the Windows Subsystem for Linux. It has made me significantly happier working on the command line... So thank you to the WSLtty team. That's at [gitHub.com/mintty/wsltty](https://github.com/mintty/wsltty).
 
-**Carlisia Pinto:** Alright, I'll go next - I've found this actually on the Go newsletter, it's called [Goman](https://github.com/christophberger/goman). It's a tool to produce man pages based on the readme that you have on your repo, and especially for open source projects I think it's really cool. If you go to their repo readme page, they list other tools that are related... There is one called GomanGo -- gosh, I have to go there and see... But it will let you produce a man page based on comments that you put on your Go code itself. I haven't used it, but it looks really neat, and I do wanna use it.
+**Carlisia Thompson:** Alright, I'll go next - I've found this actually on the Go newsletter, it's called [Goman](https://github.com/christophberger/goman). It's a tool to produce man pages based on the readme that you have on your repo, and especially for open source projects I think it's really cool. If you go to their repo readme page, they list other tools that are related... There is one called GomanGo -- gosh, I have to go there and see... But it will let you produce a man page based on comments that you put on your Go code itself. I haven't used it, but it looks really neat, and I do wanna use it.
 
 **Erik St. Martin:** That's really cool.
 
-**Carlisia Pinto:** Yeah...
+**Carlisia Thompson:** Yeah...
 
 **Brian Ketelsen:** Yeah...!
 
@@ -421,13 +421,13 @@ So I've found an app called WSLtty. It basically a bridge between Mintty - which
 
 **Erik St. Martin:** Yeah.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Erik St. Martin:** Yeah, I haven't used VS Code, but I think people should use whatever they're comfortable in, whatever they're productive in. You don't have to kind of follow suit... If I hadn't been a Vim user for -- I don't even know now; it'll probably make me feel old thinking about it... I think VS Code looks really good.
 
 **Brian Ketelsen:** You know, I have absolutely no problem jumping editors constantly. I use Visual Studio Code, I use Gogland and I use Vim. The only thing that I do is I consistently use the Vim plugins for the editor and the IDE when I'm in Gogland and Visual Studio Code, but they're both great editors. Visual Studio Code is just fast and it's light and it's easy to open, Gogland has all kinds of awesome, powerful features, and Vim is Vim. I have no problem jumping between them, and I don't feel the need to apologize.
 
-**Carlisia Pinto:** Yeah. My policy is every two years I check out a new editor. A big thing with me is I have no problem being the user of a couple editors simultaneously; I'll use one for most things, but I'll use another one for things that that particular editor is really good at. There is no problem with that either. It's not a religion.
+**Carlisia Thompson:** Yeah. My policy is every two years I check out a new editor. A big thing with me is I have no problem being the user of a couple editors simultaneously; I'll use one for most things, but I'll use another one for things that that particular editor is really good at. There is no problem with that either. It's not a religion.
 
 **Erik St. Martin:** I might make that my mission after GopherCon - do a two-week or a month stint with VS Code.
 
@@ -441,7 +441,7 @@ So I've found an app called WSLtty. It basically a bridge between Mintty - which
 
 **Brian Ketelsen:** It's your tip of the week.
 
-**Carlisia Pinto:** Stop trolling, Brian.
+**Carlisia Thompson:** Stop trolling, Brian.
 
 **Brian Ketelsen:** I'm not trolling. \[laughter\] A little bit... Much.
 
@@ -469,6 +469,6 @@ So it might work really well for an operations team that's supporting multiple d
 
 **Brian Ketelsen:** Bye!
 
-**Carlisia Pinto:** Bye, this was fun!
+**Carlisia Thompson:** Bye, this was fun!
 
 **Aaron Hnatiw:** Bye, everyone!

@@ -1,6 +1,6 @@
 **Erik St. Martin:** Welcome back everybody to another episode of GoTime. Today's episode is number 62. On the show today we have myself, Erik St. Martin, Carlisia Pinto is also here...
 
-**Carlisia Pinto:** Hi there.
+**Carlisia Thompson:** Hi there.
 
 **Erik St. Martin:** And Brian Ketelsen, all the way from Italy...
 
@@ -22,11 +22,11 @@
 
 **Brian Ketelsen:** Well, prego and grazie...
 
-**Carlisia Pinto:** And what city are you in?
+**Carlisia Thompson:** And what city are you in?
 
 **Brian Ketelsen:** Milan.
 
-**Carlisia Pinto:** Milan, nice.
+**Carlisia Thompson:** Milan, nice.
 
 **Brian Ketelsen:** It's beautiful. Right next to my hotel is this building that they have all lit up with pretty lights, and stuff... So I'm standing outside, looking at this building, trying to figure out what it is. I walked around the block, and there's a sign out in front in Italian and English that says "This used to be a farmhouse in the 1500s." I'm like, "Holy crap...!" 500-year-old farmhouse right next to my hotel. It's just crazy.
 
@@ -42,7 +42,7 @@
 
 **Jeff Lindsay:** Yeah, especially -- so I'm doing a lot of open source stuff... Actually, for the past few years I've been doing a lot of work in kind of [Docker](https://www.docker.com/) or distributed systems and platform, ecosystem stuff and [Kubernetes](https://kubernetes.io/), and I'm really kind of pushing out above that and doing some kind of cooler stuff... Because it's too noisy. There's too much stuff going on, and I know how to do things the correct way, but it's really hard to get that out. I like this simple, and nobody likes to make anything simple, so I'm trying to find a new place to innovate, which is kind of higher up the stack.
 
-**Carlisia Pinto:** Explain, please... \[unintelligible 00:03:20.10\] We'll have to go back to that.
+**Carlisia Thompson:** Explain, please... \[unintelligible 00:03:20.10\] We'll have to go back to that.
 
 **Brian Ketelsen:** So do you wanna talk about some of the things you've done in the past, rather than expose this secret thing that you're working on? Like [Flynn](https://flynn.io/) or [Dokku](https://github.com/dokku/dokku), or my personal favorite, [Envy](https://github.com/progrium/envy)...
 
@@ -92,7 +92,7 @@ And even as a professional programmer, there's this idea -- this is kind of idea
 
 So that's really unfortunate, and I spend a lot of time thinking about that and trying to make better building blocks. That's a common theme of a lot of my work.
 
-**Carlisia Pinto:** Do you ever think of using artificial intelligence?
+**Carlisia Thompson:** Do you ever think of using artificial intelligence?
 
 **Jeff Lindsay:** You know, a lot of other people are thinking about artificial intelligence, and there's so much value you can get out of not using artificial intelligence... Just basic automation techniques. It's like, there's so many simple things that it's like oh, you could imagine modeling that in a few lines of code, and instead people are trying to build AI systems that are trying to understand what you're saying and then trying to put together some list of super limited possible ways to react, when in theory if you just gave people, empowered them to have the tools to really easily just build their own automation, I think you get more bang for your buck... Though I think in the long-term AI will have a helping hand. It's more of a tool than a solution. A lot of interesting stuff going on now.
 
@@ -299,19 +299,19 @@ So literally, to get our service monitored by [Prometheus](https://prometheus.io
 
 **Jeff Lindsay:** Wow, yeah. That's really cool.
 
-**Carlisia Pinto:** Okay, I guess it's my turn. I am going to give a shoutout to the [Google Working Group GreaterCommons](https://greatercommons.com/cwg)... It is a really long-winded name, but it's a selection of courses about Go, and they are free, and I guess they are curated by Google or done by Google, I'm not clear on that yet.
+**Carlisia Thompson:** Okay, I guess it's my turn. I am going to give a shoutout to the [Google Working Group GreaterCommons](https://greatercommons.com/cwg)... It is a really long-winded name, but it's a selection of courses about Go, and they are free, and I guess they are curated by Google or done by Google, I'm not clear on that yet.
 
 **Jeff Lindsay:** That's awesome.
 
-**Carlisia Pinto:** Yeah, it's a great resource because it's free and supposedly curated... So I'm looking forward to seeing people using this and see what feedback we get, and getting more courses in there. I know Todd - I cannot pronounce his last name... Somebody help me. You know [Todd](https://twitter.com/Todd_McLeod), we interviewed him...
+**Carlisia Thompson:** Yeah, it's a great resource because it's free and supposedly curated... So I'm looking forward to seeing people using this and see what feedback we get, and getting more courses in there. I know Todd - I cannot pronounce his last name... Somebody help me. You know [Todd](https://twitter.com/Todd_McLeod), we interviewed him...
 
 **Erik St. Martin:** McLeod?
 
-**Carlisia Pinto:** Yes. I know some of the courses are his, and he has such good feedback on his courses; everybody loves his courses. So definitely, if you're looking to learn Go, you should check it out.
+**Carlisia Thompson:** Yes. I know some of the courses are his, and he has such good feedback on his courses; everybody loves his courses. So definitely, if you're looking to learn Go, you should check it out.
 
 **Brian Ketelsen:** Awesome. Todd's got so much energy... He's fun to watch.
 
-**Carlisia Pinto:** Yeah, he's a good person.
+**Carlisia Thompson:** Yeah, he's a good person.
 
 **Brian Ketelsen:** Jeff, is there any open source project you wanted to give a shoutout to, or a person, or...?
 
@@ -327,7 +327,7 @@ So literally, to get our service monitored by [Prometheus](https://prometheus.io
 
 **Jeff Lindsay:** Yeah.
 
-**Carlisia Pinto:** And Hugo.
+**Carlisia Thompson:** And Hugo.
 
 **Brian Ketelsen:** And Hugo, exactly.
 
@@ -361,27 +361,27 @@ So literally, to get our service monitored by [Prometheus](https://prometheus.io
 
 **Brian Ketelsen:** That's right. \[laughter\] You're awesome, Carlisia.
 
-**Carlisia Pinto:** That was fun... I'm a trendsetter, that's how it should always be.
+**Carlisia Thompson:** That was fun... I'm a trendsetter, that's how it should always be.
 
 **Brian Ketelsen:** When you get somebody's attention, you've gotta get what you can get, right?
 
-**Carlisia Pinto:** Absolutely.
+**Carlisia Thompson:** Absolutely.
 
 **Brian Ketelsen:** Thanks for coming on the show, Brad. PR number 62, let's talk about it.
 
-**Carlisia Pinto:** Yeah, efficiency.
+**Carlisia Thompson:** Yeah, efficiency.
 
 **Erik St. Martin:** That's right.
 
 **Jeff Lindsay:** I mean, maybe that's how you find new people to have on the show, people who can just say "Man, I really want this PR merged, why don't you have him on your show?"
 
-**Carlisia Pinto:** Yeah, and what are they gonna say, "No"? "Of course, of course I'm gonna merge -- I'll merge it right now... Good or bad." \[laughs\]
+**Carlisia Thompson:** Yeah, and what are they gonna say, "No"? "Of course, of course I'm gonna merge -- I'll merge it right now... Good or bad." \[laughs\]
 
 **Erik St. Martin:** Then the problem becomes that people start using it in reverse, and they come on your show and then ask you to merge their PR...
 
 **Brian Ketelsen:** Oh, it's a good point.
 
-**Carlisia Pinto:** Well, we can always cut their sound, and... \[laughter\]
+**Carlisia Thompson:** Well, we can always cut their sound, and... \[laughter\]
 
 **Jeff Lindsay:** When was Brad on the show?
 
@@ -393,7 +393,7 @@ So literally, to get our service monitored by [Prometheus](https://prometheus.io
 
 **Jeff Lindsay:** I'll go back and listen to some of those episodes.
 
-**Carlisia Pinto:** \[01:06:57.18\] It was April, Brian. It was way more than a couple months.
+**Carlisia Thompson:** \[01:06:57.18\] It was April, Brian. It was way more than a couple months.
 
 **Erik St. Martin:** Yeah, episode 44.
 
@@ -409,7 +409,7 @@ So literally, to get our service monitored by [Prometheus](https://prometheus.io
 
 **Brian Ketelsen:** Yeah, we've already done that.
 
-**Carlisia Pinto:** We haven't had repeats yet.
+**Carlisia Thompson:** We haven't had repeats yet.
 
 **Erik St. Martin:** We have not.
 
@@ -417,7 +417,7 @@ So literally, to get our service monitored by [Prometheus](https://prometheus.io
 
 **Jeff Lindsay:** Totally.
 
-**Carlisia Pinto:** True.
+**Carlisia Thompson:** True.
 
 **Erik St. Martin:** What's Changelog proper at? They're at like 400 or 300 or something, I don't even know. 273 episodes.
 
@@ -427,7 +427,7 @@ So literally, to get our service monitored by [Prometheus](https://prometheus.io
 
 **Brian Ketelsen:** That doesn't count.
 
-**Carlisia Pinto:** It doesn't count.
+**Carlisia Thompson:** It doesn't count.
 
 **Brian Ketelsen:** If that counts, then we've all been on more than twice, too. Sorry, Steve. Go home. Go home, Steve, you're drunk.
 
@@ -443,7 +443,7 @@ So literally, to get our service monitored by [Prometheus](https://prometheus.io
 
 **Jeff Lindsay:** Thank you for having me. I mean, part of it is I don't share a lot of this stuff, so this is a great opportunity for me to talk about some of it.
 
-**Carlisia Pinto:** Thank you, Jeff. It was great.
+**Carlisia Thompson:** Thank you, Jeff. It was great.
 
 **Brian Ketelsen:** Thanks, Jeff.
 

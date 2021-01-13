@@ -12,13 +12,13 @@ Today on the show we have myself, Erik St. Martin, Brian Ketelsen is finally bac
 
 **Brian Ketelsen:** Is this live? Wait a minute... \[laughter\]
 
-**Carlisia Pinto:** You forgot everything, Brian.
+**Carlisia Thompson:** You forgot everything, Brian.
 
 **Brian Ketelsen:** \[laughs\]
 
 **Erik St. Martin:** And we also have Carlisia Pinto on the call, as well.
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** Today's special guest is Thorsten Ball, who many of you may have seen a recent book that came out by him, "Writing An Interpreter in Go."
 
@@ -76,21 +76,21 @@ I learned a lot more about software by learning about hardware, too. When you st
 
 **Thorsten Ball:** I totally agree. Before the show started we had a little chat in the chatroom about IDEs, and I'm hesitant about IDEs. I use Vim, I'm a big fan of it... The things is, with IDEs - my problem with them is you're on such a high level in the abstraction pyramid... You're up there in your IDE and you press a button, and something happens further down; if something further down blows up, then you suddenly don't know what it is and how it works and why it blew up. If you understand the lower levels, you can handle these problems better.
 
-**Carlisia Pinto:** \[00:12:04.20\] Yeah, that part I didn't really understand, because I don't see the difference between pressing the button on an IDE and pressing a key or a combination of keys on a Vim or Emacs. I don't know... I'm not sure what you meant.
+**Carlisia Thompson:** \[00:12:04.20\] Yeah, that part I didn't really understand, because I don't see the difference between pressing the button on an IDE and pressing a key or a combination of keys on a Vim or Emacs. I don't know... I'm not sure what you meant.
 
 **Thorsten Ball:** Okay, what I meant is it's not Vim or IntelliJ themselves, but if you use Vim - and you're probably gonna use Git on the command line, and you're gonna use a curl on the command line, and so on. If you know those tools and how to use the tools themselves, you probably understand them better than a Git hidden behind a graphical UI and hidden behind three layers of IDE. Does that make sense?
 
-**Carlisia Pinto:** Yes, it makes sense, but I'm not sure if it's more like memorizing the commands versus not memorizing the commands, because you have the visual right there... I don't know, maybe you can still understand the concepts without using the commands.
+**Carlisia Thompson:** Yes, it makes sense, but I'm not sure if it's more like memorizing the commands versus not memorizing the commands, because you have the visual right there... I don't know, maybe you can still understand the concepts without using the commands.
 
 **Thorsten Ball:** This is like a pet topic of mine... There's this book (or essay) by Neal Stephenson, and it's called In the Beginning was the Command Line. He talks about his computing history; he started with the Mac and then he went to Windows, and PC, and BIOS, and then (I think the book is 15 years old now) he switched to Linux. He talks about the command line, and he said "It was in the beginning", and in the end he ended up there again because he felt it gives him the greatest amount of power.
 
 I don't know, maybe my argument is the same one - if you can see what you're working with, if you can see more lower levels, you can use them to your advantage. I have the feeling that some software IDEs have to - they make things simpler, but they hide complexity. And the question is, if you hide complexity, how much power is lost and how much understanding is lost?
 
-**Carlisia Pinto:** I think I see your point, because for example with Git I don't use any visual graphical interface because it slows me down a lot. The reason is with the command line I can do things a lot faster, and because I can do things a lot faster, I can do more things more quickly, so I get to actually learn more commands because they're useful and they're fast enough that it's a big payoff.
+**Carlisia Thompson:** I think I see your point, because for example with Git I don't use any visual graphical interface because it slows me down a lot. The reason is with the command line I can do things a lot faster, and because I can do things a lot faster, I can do more things more quickly, so I get to actually learn more commands because they're useful and they're fast enough that it's a big payoff.
 
 **Thorsten Ball:** That's true.
 
-**Carlisia Pinto:** By learning more I think I get a greater understanding of what the thing is, so I think there is that aspect of what you're saying.
+**Carlisia Thompson:** By learning more I think I get a greater understanding of what the thing is, so I think there is that aspect of what you're saying.
 
 **Erik St. Martin:** I think the line comes between usage and implementation. If you use something that's GDB or Git tied into your IDE, you understand the principles from a usage standpoint, but not necessarily the implementation details. So when things go wrong, the implementation details are usually what matter in trying to diagnose and troubleshoot the problem. We could say this about any technology... A database, for example MySQL. Most of us just use it, but when things go wrong, having an understanding of how databases work is without a doubt going to help you, and I think it's just a tradeoff of the time involved in learning the tool at that level, versus the productivity that you need. So things like Git or something like that are maybe a slight learning curve, but it's not the same level as learning how a database is actually implemented at the disk layer.
 
@@ -102,7 +102,7 @@ I don't know, maybe my argument is the same one - if you can see what you're wor
 
 **Brian Ketelsen:** All I wanted to do was merge master into my branch so I could make sure that it worked, and I clicked buttons but I could not figure out how to just merge master into my branch, and I was getting really frustrated. So it's almost as if those layers of abstraction take away the power of the tools that you're using; I definitely agree with your point.
 
-**Carlisia Pinto:** And everybody who designs a visual tool has his visual aesthetics, and each visual tool is going to be different and you have to learn it, whereas with the command line, usually the commands have a certain commonality, like UNIX-themed, and you can sort of figure out the commands from one tool to another.
+**Carlisia Thompson:** And everybody who designs a visual tool has his visual aesthetics, and each visual tool is going to be different and you have to learn it, whereas with the command line, usually the commands have a certain commonality, like UNIX-themed, and you can sort of figure out the commands from one tool to another.
 
 **Thorsten Ball:** Yeah, I'm not against graphical interfaces. Some are vastly superior to their command line equivalent. They give you a much better understanding. The best example would be viewing your Git commit history. In a graphical interface, that gives you a much greater understanding and a lot more power, and so on.
 
@@ -114,7 +114,7 @@ I think you also have to really draw the line somewhere, because if you keep dig
 
 **Erik St. Martin:** There's just not enough time to learn all of it either.
 
-**Carlisia Pinto:** And that brings up a good point, too... I was like this earlier in my programming life, trying to just use one tool for a particular thing, and there's absolutely nothing wrong with using multiple tools; there's nothing wrong with using a couple IDEs, one to do most of the stuff and one to do other things that they do better. For example, I use a graphical Git tool to see a history, like we were talking about, but I cannot figure out -- even if I wanted to use it to merge stuff... I've tried it before and I'm like, "I don't know how this works, I don't understand it." But for looking at history it's perfect, and looking at diffs.
+**Carlisia Thompson:** And that brings up a good point, too... I was like this earlier in my programming life, trying to just use one tool for a particular thing, and there's absolutely nothing wrong with using multiple tools; there's nothing wrong with using a couple IDEs, one to do most of the stuff and one to do other things that they do better. For example, I use a graphical Git tool to see a history, like we were talking about, but I cannot figure out -- even if I wanted to use it to merge stuff... I've tried it before and I'm like, "I don't know how this works, I don't understand it." But for looking at history it's perfect, and looking at diffs.
 
 **Thorsten Ball:** \[00:20:03.09\] That's certainly true, yeah. That's exactly what I meant. As I said, you have to decide what to look into, and you have to decide how much time you're gonna spend. What I'm saying is if you're trying to understand those levels below you, and even if they at first might not seem related to what you do in your day job, I think there's gonna be a payoff if you understand them better. That's what Brian said at the beginning, that a better understanding of hardware gives you a better understanding how in the end software is gonna work on it.
 
@@ -128,7 +128,7 @@ I think you also have to really draw the line somewhere, because if you keep dig
 
 **Erik St. Martin:** And we are back, talking to Thorsten Ball about his interpreter book, Writing an Interpreter in Go, which has been really interesting.
 
-**Carlisia Pinto:** Thorsten, I was looking at the blog post from Steve Yegge, the Rich Programmer Food blog post that you mentioned, and it's absolutely fascinating. I haven't gotten to the end yet, but he talks in detail in a very funny way about why the need for learning about compilers. He also mentions that not everybody -- even people who have a CS degree, they haven't taken a compiler class because it's optional in a lot of places. It was true for me, and I remember debating... I felt like I wanted to take a compiler class because it was thoroughly -- I was very focused on design and language, but compilers were totally out of my focus, so that was attractive to me. I thought, "Well, every compiler is there. If you're programming, you're using a compiler, so it has to be useful to learn." But in the end I didn't take it. I thought it would be too niche. I thought that in practical terms I'm not gonna be building compilers, so maybe it's not going to be so useful, and I so regret not taking it... I wish I knew better.
+**Carlisia Thompson:** Thorsten, I was looking at the blog post from Steve Yegge, the Rich Programmer Food blog post that you mentioned, and it's absolutely fascinating. I haven't gotten to the end yet, but he talks in detail in a very funny way about why the need for learning about compilers. He also mentions that not everybody -- even people who have a CS degree, they haven't taken a compiler class because it's optional in a lot of places. It was true for me, and I remember debating... I felt like I wanted to take a compiler class because it was thoroughly -- I was very focused on design and language, but compilers were totally out of my focus, so that was attractive to me. I thought, "Well, every compiler is there. If you're programming, you're using a compiler, so it has to be useful to learn." But in the end I didn't take it. I thought it would be too niche. I thought that in practical terms I'm not gonna be building compilers, so maybe it's not going to be so useful, and I so regret not taking it... I wish I knew better.
 
 With that, I wanted to start talking about what exactly is an interpreter and a compiler, how they work and why are they the building blocks, and what makes it such a big deal and useful for us to know about them?
 
@@ -140,7 +140,7 @@ In the end, it's the same idea - you take source code and output something that 
 
 **Erik St. Martin:** Yeah, it does.
 
-**Carlisia Pinto:** Yeah, it makes sense.
+**Carlisia Thompson:** Yeah, it makes sense.
 
 **Erik St. Martin:** One of the coolest tricks I've ever seen with people understanding how a compiler works is actually from a security perspective.
 
@@ -208,21 +208,21 @@ If you have this in combination with the book - a teacher that guides you along 
 
 In the introduction of the book I recommend that if you want to get the most out of the book, read it and try to type off the code or follow along by writing out the code, or copy and paste it, but try to follow the steps by actually building the interpreter. I think that's how I learn the best.
 
-**Carlisia Pinto:** \[00:39:50.19\] Carlisia, you mentioned I think on a prior show that there's a Coursera course for it... Is she still here? Did we lose her?
+**Carlisia Thompson:** \[00:39:50.19\] Carlisia, you mentioned I think on a prior show that there's a Coursera course for it... Is she still here? Did we lose her?
 
 **Brian Ketelsen:** Uh-oh...
 
-**Carlisia Pinto:** I'm sorry, I was muted. I was muted, I'm sorry! \[laughter\] I just found the link for the course, and I pasted it on Slack. The next session is going to start on 19th December. I should do it...
+**Carlisia Thompson:** I'm sorry, I was muted. I was muted, I'm sorry! \[laughter\] I just found the link for the course, and I pasted it on Slack. The next session is going to start on 19th December. I should do it...
 
 **Thorsten Ball:** Do it. Do it, definitely.
 
-**Carlisia Pinto:** Yeah... I'm definitely doing it, I'm just questioning if I should do this one.
+**Carlisia Thompson:** Yeah... I'm definitely doing it, I'm just questioning if I should do this one.
 
 **Thorsten Ball:** No, it's really good.
 
 **Brian Ketelsen:** It's all about time.
 
-**Carlisia Pinto:** If somebody wants to do it with me, ping me... You're motivating me.
+**Carlisia Thompson:** If somebody wants to do it with me, ping me... You're motivating me.
 
 **Erik St. Martin:** If I delay our barbecue project any longer, Brian will probably come over here and kill me.
 
@@ -256,7 +256,7 @@ One of the big things with impostor syndrome is that you always assume that, "Oh
 
 **Erik St. Martin:** Yeah, there's no one greater than the other, it's just different.
 
-**Carlisia Pinto:** \[00:47:51.17\] Yeah, I started trying to minimize my impostor syndrome by interacting more with people that I think are amazing, and I don't want to minimize the feeling, because it's real, I feel, and I think everybody feels it to whatever extent... It's funny, because you have these people you admire, we always have people we admire, and sometimes we have a chance to see them face to face, and we might get shy about talking to them, because they're so amazing and you think, "Oh my gosh, I'm not at that level at all. Not even close", and we don't realize that they are amazing at what they do because they've been doing it for a long time, but they're not amazing at everything. Sometimes you are amazing in ways that they don't even know... Like Brian was saying about the API aspect of development.
+**Carlisia Thompson:** \[00:47:51.17\] Yeah, I started trying to minimize my impostor syndrome by interacting more with people that I think are amazing, and I don't want to minimize the feeling, because it's real, I feel, and I think everybody feels it to whatever extent... It's funny, because you have these people you admire, we always have people we admire, and sometimes we have a chance to see them face to face, and we might get shy about talking to them, because they're so amazing and you think, "Oh my gosh, I'm not at that level at all. Not even close", and we don't realize that they are amazing at what they do because they've been doing it for a long time, but they're not amazing at everything. Sometimes you are amazing in ways that they don't even know... Like Brian was saying about the API aspect of development.
 
 You can totally interact with people like that and even collaborate if you open yourself up for them to help you, for example, and keeping in mind that maybe you can help them as well. It's brilliant. Then you start seeing, "I too have things to contribute." I think it helps a lot.
 
@@ -298,7 +298,7 @@ The same thing is kind of happening... I get really shy -- people say to me, "Oh
 
 **Brian Ketelsen:** There's some cool stuff happening out there.
 
-**Carlisia Pinto:** As always.
+**Carlisia Thompson:** As always.
 
 **Brian Ketelsen:** Really cool stuff. I think we have to start with the Gopher Academy Advent Series blog posts... If you haven't been following along with that, blog.gopheracademy.com. We've had some amazing blog posts this year. One new post every day, and I have to give a huge, huge shout out to Damian Gryski for stepping in this year and helping to herd all the cats for all of the different blog posts coming up. With Erik and I both traveling this month, it was almost impossible for us to do it, so great, big, giant gopher hugs to Damian for helping to get all of that moving. Really good posts this year.
 
@@ -310,7 +310,7 @@ The same thing is kind of happening... I get really shy -- people say to me, "Oh
 
 **Brian Ketelsen:** Head moderator.
 
-**Carlisia Pinto:** Head moderator.
+**Carlisia Thompson:** Head moderator.
 
 **Erik St. Martin:** Head moderator. I couldn't think of anybody better.
 
@@ -352,11 +352,11 @@ The same thing is kind of happening... I get really shy -- people say to me, "Oh
 
 **Thorsten Ball:** And it's actually pretty good, I've tried it. It's one of the better Vim mode plugins for other editors. It's really good.
 
-**Carlisia Pinto:** Interesting. I'll try it, too.
+**Carlisia Thompson:** Interesting. I'll try it, too.
 
 **Erik St. Martin:** You just recently converted too, right Carlisia?
 
-**Carlisia Pinto:** Well, \[unintelligible 00:59:06.04\] but I've been going back to Atom a few times... I mean, I've been using Vim for a while, but recently with the Go plugin from Fatih, I went full-time. But sometimes I go back to Atom, if I'm doing a lot of copying and pasting and stuff.
+**Carlisia Thompson:** Well, \[unintelligible 00:59:06.04\] but I've been going back to Atom a few times... I mean, I've been using Vim for a while, but recently with the Go plugin from Fatih, I went full-time. But sometimes I go back to Atom, if I'm doing a lot of copying and pasting and stuff.
 
 **Brian Ketelsen:** Is that like a comfort food thing? I used to keep Sublime Text around when I first started Vim. It was probably a whole year where I had Sublime opened just for when I needed to copy and paste things. And then Erik sat me down -- literally, Erik sat me down at lunch and he's like, "Dude, I'm gonna teach you how to cut and paste stuff in Vim, and then we can move on here. \[laughter\]
 
@@ -374,17 +374,17 @@ The same thing is kind of happening... I get really shy -- people say to me, "Oh
 
 **Thorsten Ball:** Can you actually work without syntax highlighting? I probably see this only in the Go community that people willfully turn off syntax highlighting.
 
-**Carlisia Pinto:** Brian is doing it.
+**Carlisia Thompson:** Brian is doing it.
 
 **Brian Ketelsen:** Yeah, I turned off syntax highlighting maybe six or nine months ago, and I don't miss it at all. It took me three or four days, and now I agree with the other people - I think Andrew Gerrand was probably number one - who said it's much easier to read it without all of that colorization in your way. Now you can read the code, rather than be distracted by colors.
 
 **Thorsten Ball:** Really?
 
-**Carlisia Pinto:** I'm with you, Thorsten. I can't even try it. I can't even think of trying.
+**Carlisia Thompson:** I'm with you, Thorsten. I can't even try it. I can't even think of trying.
 
 **Erik St. Martin:** I still have it on. To be honest, I'll SSH into a machine that doesn't have syntax highlighting, and I'll work just fine for a little while. It won't bother me enough to try to set it up on that machine. So I feel like I could probably do it, but I think I might want somewhere in between, or at least maybe functions are highlighted, so that I could quickly scan and jump from function to function, or something.
 
-**Carlisia Pinto:** See, I'm glad you mentioned that, because when I SSH into a machine I'll bring up Vim and I wanna kill myself because "Where is my highlights, shortcuts and everything?" \[laughter\]
+**Carlisia Thompson:** See, I'm glad you mentioned that, because when I SSH into a machine I'll bring up Vim and I wanna kill myself because "Where is my highlights, shortcuts and everything?" \[laughter\]
 
 **Thorsten Ball:** But the thing is, if you forget to close a string with quotes, syntax highlighting is gonna tell you immediately, right? Because it highlights the rest of the line like a string. At least Vim does it, I don't know how other inferior editors... \[laughter\]
 
@@ -428,7 +428,7 @@ I use different tools like the tag bar or whatever, in Vim, so that I have a lay
 
 **Erik St. Martin:** Yeah, I've been looking at a lot of her work lately... Awesome. How about you, Carlisia?
 
-**Carlisia Pinto:** I don't have one, but I am laughing at the logo, it's amazingly cute. I don't have a project today.
+**Carlisia Thompson:** I don't have one, but I am laughing at the logo, it's amazingly cute. I don't have a project today.
 
 **Erik St. Martin:** And I don't know whether we prepped you on this in the email, Thorsten, but typically every show we kind of just do a shout out to a project that's making our lives easier. So if you have one, awesome; if you don't...
 
@@ -440,7 +440,7 @@ I use different tools like the tag bar or whatever, in Vim, so that I have a lay
 
 **Erik St. Martin:** \[01:07:51.09\] So I actually have a cool project that I came across that I've only really tinkered with, but it's called gitQL; we've been talking about Git... It's like a query language to query against your Git history, which is actually pretty awesome. You can do a "select author" and whatever from commits, and then you can do like "date is between whatever". That's pretty awesome for when you're trying to search around your Git history for stuff. I thought it was pretty decent with doing Git grep and things like that on the command line. This is actually really cool.
 
-**Carlisia Pinto:** And it's written in Go.
+**Carlisia Thompson:** And it's written in Go.
 
 **Brian Ketelsen:** Yeah, it is. I just made an alias in Bash, so when I type git blame, it just runs ID -u-n.
 
@@ -460,7 +460,7 @@ I use different tools like the tag bar or whatever, in Vim, so that I have a lay
 
 **Brian Ketelsen:** Yup.
 
-**Carlisia Pinto:** But this tool is really cool.
+**Carlisia Thompson:** But this tool is really cool.
 
 **Brian Ketelsen:** Yeah, gitQL is pretty awesome.
 
@@ -478,7 +478,7 @@ Follow us on Twitter @GoTimeFM, GitHub.com/GoTimeFM/ping if you wanna be on the 
 
 **Brian Ketelsen:** Happy Gophermas! Happy holiday!
 
-**Carlisia Pinto:** \[laughs\] Happy holidays, bye!
+**Carlisia Thompson:** \[laughs\] Happy holidays, bye!
 
 **Thorsten Ball:** Bye!
 

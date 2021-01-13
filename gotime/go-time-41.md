@@ -6,7 +6,7 @@ On today's show we have myself, Erik St. Martin, Brian Ketelsen is also here - s
 
 **Erik St. Martin:** \[laughs\] And we also have Carlisia Pinto. Say hello, Carlisia.
 
-**Carlisia Pinto:** Hi, everybody!
+**Carlisia Thompson:** Hi, everybody!
 
 **Erik St. Martin:** And our special guest for today is an engineer with Apcera, working on [NATS](https://nats.io/) and also a speaker at GopherCon this year. Please welcome Wally Quevedo.
 
@@ -40,15 +40,15 @@ At the beginning - with the original Ruby implementation - they didn't have clus
 
 It's very difficult to crash. I've managed to crash it a number of times, but it was by making these weird clients trying to attack it, basically. Those are all fixed now, but I like finding these weird corner cases with the buffers from a NATS server where you could make it crash... But they have all been fixed in master, so yeah, if someone manages to make it crash somehow I will be fond of looking into it.
 
-**Carlisia Pinto:** You mentioned the original implementation in Ruby...
+**Carlisia Thompson:** You mentioned the original implementation in Ruby...
 
 **Wally Quevedo:** Yeah.
 
-**Carlisia Pinto:** I'd love to go there... Were you there when that happened? Were you already at Apcera?
+**Carlisia Thompson:** I'd love to go there... Were you there when that happened? Were you already at Apcera?
 
 **Wally Quevedo:** No, I was living in Tokyo for around five years, and that's where the Cloud Foundry was originally implemented. The company I was at, they were looking for basically like a platform as a service kind of system, pretty much like what Heroku worked for, but for an internal for the company... Fortunately, Cloud Foundry was just released the same year when we were looking at some solution. There was no Kubernetes at that time, and yeah, we were one of the early adopters in Japan for NATS.
 
-**Carlisia Pinto:** Because what I wanted to ask is how much you know about the transition, the motivations behind transitioning from Ruby to Go... Were there benchmark tests? Did they consider other languages? What was it that made Go the choice to transition into? What kind of problems were they having that they felt they needed to port at all to another language?
+**Carlisia Thompson:** Because what I wanted to ask is how much you know about the transition, the motivations behind transitioning from Ruby to Go... Were there benchmark tests? Did they consider other languages? What was it that made Go the choice to transition into? What kind of problems were they having that they felt they needed to port at all to another language?
 
 **Wally Quevedo:** \[00:08:04.05\] It's worth mentioning that the original server was also within an event machine. A good reference for this is [the talk from GopherCon from Derek](https://www.youtube.com/watch?v=ylRKac5kSOk). I think it was at the first GopherCon, in 2014.
 
@@ -58,17 +58,17 @@ It's very difficult to crash. I've managed to crash it a number of times, but it
 
 **Wally Quevedo:** Yeah. So actually this year it's going to be my first GopherCon, I'm really looking forward to it.
 
-**Carlisia Pinto:** Nice.
+**Carlisia Thompson:** Nice.
 
 **Wally Quevedo:** Derek explains more in detail why Go was a good fit.
 
-**Carlisia Pinto:** Can you share with us some of those reasons?
+**Carlisia Thompson:** Can you share with us some of those reasons?
 
 **Wally Quevedo:** Go is great for these kinds of system. The performance is of course one of the big gains for NATS. I think the original server - you could get it at mostly like 150,000 messages per second, but for the NATS server it's up to the millions, right? So even though the original Ruby server was already.. -the protocol itself has not changed at all, and you could get much better scalability with the Go-based server.
 
 Of course, there's the whole building concurrency - Ruby is still having some issues there. Also, the small binaries I think were all a huge factor in a compiled language, where you can't have a small binary. It was a big plus here, that's why we can have very small Docker images, for example, a few megabytes. So I think those were the big pluses for Go that NATS has benefitted from a lot.
 
-**Carlisia Pinto:** Nice.
+**Carlisia Thompson:** Nice.
 
 **Brian Ketelsen:** One of the questions I have about NATS in general is that I find the sales pitch for NATS is a little muddy. When you look at the NATS website it says "It's the dial tone for your servers", or "It's a communication platform", but a lot of the benchmarks that they list on the website are about messaging, like message queuing... But NATS also does fanout messages, and it seems like it does a request/reply, almost like an RPC pattern... What is NATS...? What is NATS? Help us out.
 
@@ -124,13 +124,13 @@ Also, Clarifai was using NATS Streaming, as well. This is just from the content 
 
 **Erik St. Martin:** So we all end up loving when new Go releases come out, because of the performance improvements. I can only imagine the difference when you guys do a new build... \[laughs\] It's like, "Oh, we can get rid of half our servers now." \[laughter\]
 
-**Carlisia Pinto:** Can you tell us a bit about alternatives to NATS and what makes NATS a good choice for people?
+**Carlisia Thompson:** Can you tell us a bit about alternatives to NATS and what makes NATS a good choice for people?
 
 **Wally Quevedo:** I would choose NATS when I want to have low-latency communications. That is simple, right? When you care a lot about the simplicity of deployment, maybe having a lower collective overhead for your system, and you care a lot about the performance - that's where I would look for NATS.
 
 \[00:20:05.28\] These types of systems, like the Apcera platforms or Cloud Foundry, where you want to do basic communication and service discovery, I think it fits really well. The control plane use case, yeah.
 
-**Carlisia Pinto:** And how about systems that don't have so much demand. Is there any disadvantage in using something like NATS as well? For example let's say I need messaging, but I'm not at the level of Cloud Foundry, I'm not that big of a system... Would there be an advantage for me to use NATS, or would that be overkill? Is there a point in which NATS would be overkill for a system?
+**Carlisia Thompson:** And how about systems that don't have so much demand. Is there any disadvantage in using something like NATS as well? For example let's say I need messaging, but I'm not at the level of Cloud Foundry, I'm not that big of a system... Would there be an advantage for me to use NATS, or would that be overkill? Is there a point in which NATS would be overkill for a system?
 
 **Wally Quevedo:** Yeah, that's a very good use case... It's definitely the opposite of overkill. It helps to have a very simple solution for this type of communication. You don't have to have a huge platform to be able to rely on NATS. You just want to be able to have this low overhead solution. I think that fits really well because it's very simple, a very small type of configuration, it doesn't have any other dependencies... And yeah, it's easy to get running with NATS, it's pretty lightweight.
 
@@ -176,7 +176,7 @@ So that's a big deal. It isn't often that operating systems break our programmin
 
 **Brian Ketelsen:** I'm gonna put a proposal in for that.
 
-**Carlisia Pinto:** Yeah, that's a nice conference, I was there last year.
+**Carlisia Thompson:** Yeah, that's a nice conference, I was there last year.
 
 **Erik St. Martin:** I still haven't made it. Have you been to any other Go conferences, Wally?
 
@@ -198,7 +198,7 @@ So I was there at the GoCon from 2013, and then I met [Dave Cheney](https://twit
 
 **Brian Ketelsen:** So speaking of GopherCon, we announced our workshops for the day before the conference this year; those are all up on the website and available for sale. There are six workshops that have a variety of different topics, they are very low-cost, and they have limited seating. So if you're looking for something to do the day before the conference, come into town early and get your learning on, because there's some really good workshops this year. Go to gophercon.com/workshops and check them out.
 
-**Carlisia Pinto:** \[00:28:04.29\] I'm definitely doing one of those...
+**Carlisia Thompson:** \[00:28:04.29\] I'm definitely doing one of those...
 
 **Brian Ketelsen:** Spoken like a person who built that website.
 
@@ -214,7 +214,7 @@ So I was there at the GoCon from 2013, and then I met [Dave Cheney](https://twit
 
 **Brian Ketelsen:** But this looks really cool, I just pulled up the GitHub. That's awesome.
 
-**Carlisia Pinto:** I saw that project and I think it's awesome. I'm always running a tool or another to produce ERDs, because if I'm dealing with a database I wanna see all of the entities. So it's definitely very cool to have that in Go.
+**Carlisia Thompson:** I saw that project and I think it's awesome. I'm always running a tool or another to produce ERDs, because if I'm dealing with a database I wanna see all of the entities. So it's definitely very cool to have that in Go.
 
 **Brian Ketelsen:** I love it, that's really cool. I'm gonna have to check that out. Oh... Oh-oh-oh, this is big! [Vim-Go 1.12](https://github.com/fatih/vim-go) was released.
 
@@ -222,7 +222,7 @@ So I was there at the GoCon from 2013, and then I met [Dave Cheney](https://twit
 
 **Brian Ketelsen:** I didn't know what the difference is, because I always run off of master and update it every day, because I -- just that way... \[laughter\] So I couldn't tell you what's different between 1.11 and 1.12, but it's getting pretty darn amazing.
 
-**Carlisia Pinto:** He keeps a very good and well-organized changelog. It's in the repo somewhere.
+**Carlisia Thompson:** He keeps a very good and well-organized changelog. It's in the repo somewhere.
 
 **Erik St. Martin:** So what's your editor of choice, Wally?
 
@@ -256,11 +256,11 @@ So I was there at the GoCon from 2013, and then I met [Dave Cheney](https://twit
 
 **Erik St. Martin:** Alright, we are back, talking to Wally Quevedo from Apcera. So we were going through projects, news... Anybody else have any other projects they wanted to talk about?
 
-**Carlisia Pinto:** Yeah, I wanted to mention Nate Finch's blog post about his [three and a half years at Canonical](https://npf.io/2017/03/3.5yrs-500k-lines-of-go/), and 500,000 lines of Go code as part of the Juju project.
+**Carlisia Thompson:** Yeah, I wanted to mention Nate Finch's blog post about his [three and a half years at Canonical](https://npf.io/2017/03/3.5yrs-500k-lines-of-go/), and 500,000 lines of Go code as part of the Juju project.
 
 **Brian Ketelsen:** That was a great post.
 
-**Carlisia Pinto:** Wasn't it? It's really interesting. He goes into different categories of things, for example package management, project organization and testing, error handling... It's a very good read.
+**Carlisia Thompson:** Wasn't it? It's really interesting. He goes into different categories of things, for example package management, project organization and testing, error handling... It's a very good read.
 
 **Brian Ketelsen:** It really was, and probably there aren't that many projects at that sort of scale where you can get a view of that project from the outside without a non-disclosure agreement, so it's neat to see somebody intimate with that project talk about it so well.
 
@@ -268,7 +268,7 @@ So I was there at the GoCon from 2013, and then I met [Dave Cheney](https://twit
 
 **Brian Ketelsen:** Did you just mansplain us? "Actually..." \[laughter\]
 
-**Carlisia Pinto:** I think he was more like there, like "Where is NATS blog post about the three and a half years of Go usage?"
+**Carlisia Thompson:** I think he was more like there, like "Where is NATS blog post about the three and a half years of Go usage?"
 
 **Brian Ketelsen:** Well, there's a blog post on [Gopher Academy](https://gopheracademy.com/) - I think I even dropped it in the Slack - about NATS and Go and Ruby. Oh yeah, I did... High-performance cloud native messaging written in Go.
 
@@ -310,7 +310,7 @@ So I was there at the GoCon from 2013, and then I met [Dave Cheney](https://twit
 
 **Erik St. Martin:** I think they're all a blur. \[laughter\] I think life since the first one is a blur. So does anybody have anything else they wanna talk about? I didn't see any projects this week, I've just been so heads down.
 
-**Carlisia Pinto:** I don't have anything else. I mean, I do have a bunch... There's so many things...
+**Carlisia Thompson:** I don't have anything else. I mean, I do have a bunch... There's so many things...
 
 **Erik St. Martin:** You guys wanna do \#FreeSoftwareFriday? I think that Brian has a birthday today...
 
@@ -332,15 +332,15 @@ So I was there at the GoCon from 2013, and then I met [Dave Cheney](https://twit
 
 **Brian Ketelsen:** So every vessel in my house that could contain slime, is full of slime. \[laughter\] All the Mason jars, all of my tupperware - gone; full of slime. Yeah... Happy birthday, Lauren.
 
-**Carlisia Pinto:** What do you mean slime? I don't wanna derail this, but what...?
+**Carlisia Thompson:** What do you mean slime? I don't wanna derail this, but what...?
 
 **Brian Ketelsen:** It's... Oh, I don't even know how to -- it's almost like silly putty but thinner, and they make it out of common household stuff like detergent and shaving cream and glue and lotion...
 
-**Carlisia Pinto:** But what for? Just for fun? Just for the fun of making it?
+**Carlisia Thompson:** But what for? Just for fun? Just for the fun of making it?
 
 **Brian Ketelsen:** Yeah, there's absolutely no purpose behind it, which is why I know that this is a fad that will die soon, because there's nothing to do with the slime once you've made it, except put it in dad's Mason jars. So I'm looking forward to that going away.
 
-**Carlisia Pinto:** Gotcha. It's hilarious...
+**Carlisia Thompson:** Gotcha. It's hilarious...
 
 **Brian Ketelsen:** I don't even remember, where did we -- oh, that's our hard stop, and I've been talking about it for five minutes... So yeah, I gotta go pick up a birthday cake. So \#FreeSoftwareFriday, let's hit that! I've got a \#FreeSoftwareFriday that I've mentioned before, by I'm gonna mention it again because it's just THAT awesome. I spent the week building my class on Go Micro for microservices, and every time I turn over a rock, there is some other really thoughtful, amazing feature in [Go Micro](https://micro.mu/).
 
@@ -368,11 +368,11 @@ I was so surprised this week... Every time I turned around, there was some other
 
 **Erik St. Martin:** How about you, Carlisia?
 
-**Carlisia Pinto:** I don't have one today.
+**Carlisia Thompson:** I don't have one today.
 
 **Erik St. Martin:** Give a shoutout to your editor.
 
-**Carlisia Pinto:** Oh, I've been using [VS Code](https://code.visualstudio.com/).
+**Carlisia Thompson:** Oh, I've been using [VS Code](https://code.visualstudio.com/).
 
 **Brian Ketelsen:** Nice.
 
@@ -380,27 +380,27 @@ I was so surprised this week... Every time I turned around, there was some other
 
 **Brian Ketelsen:** Code has a pretty good Vim mode.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Erik St. Martin:** I know I need to try it, but it's one of those -- when you're busy, that's the hardest time to do it.
 
-**Carlisia Pinto:** I've been having some hiccups, like when I try to go to Insert mode, I press "I", and I have to press it twice, and it doesn't --
+**Carlisia Thompson:** I've been having some hiccups, like when I try to go to Insert mode, I press "I", and I have to press it twice, and it doesn't --
 
 **Erik St. Martin:** See? Carlisia just gave me the reason why I don't need to try it.
 
-**Carlisia Pinto:** I press "I" once and I start typing, and then I realize, "Oh, it didn't go to Insert mode." That kind of makes me mad.
+**Carlisia Thompson:** I press "I" once and I start typing, and then I realize, "Oh, it didn't go to Insert mode." That kind of makes me mad.
 
 **Brian Ketelsen:** There's a handful of different Vim plugins, so just try swapping one.
 
-**Carlisia Pinto:** Oh, good...
+**Carlisia Thompson:** Oh, good...
 
 **Brian Ketelsen:** I'll shoot you a message later and open mine and figure out which one I'm using, because the one I'm using is rock solid.
 
-**Carlisia Pinto:** Nice, thank you... Because this is driving me mad.
+**Carlisia Thompson:** Nice, thank you... Because this is driving me mad.
 
 **Brian Ketelsen:** Gotta figure out how I can find those plugins, though...
 
-**Carlisia Pinto:** But I love being able to so quickly navigate through the source code up and down, back and forth...
+**Carlisia Thompson:** But I love being able to so quickly navigate through the source code up and down, back and forth...
 
 **Erik St. Martin:** I think you added something to our doc, Wally, but every week we try to give a shoutout to a project or a maintainer or a group of people that are making our lives easier in the open source world. Did you have a project you wanna give a shoutout to?
 
@@ -450,6 +450,6 @@ If you wanna subscribe, the best way to do so is to go to GoTime.fm. Definitely 
 
 **Brian Ketelsen:** Bye, thanks for coming everybody!
 
-**Carlisia Pinto:** Thank you, Wally! Bye everybody!
+**Carlisia Thompson:** Thank you, Wally! Bye everybody!
 
 **Wally Quevedo:** Thank you, goodbye!

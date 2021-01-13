@@ -2,7 +2,7 @@
 
 Today on the show we have myself, Erik St. Martin, we also have Carlisia Pinto - say hi, Carlisia...
 
-**Carlisia Pinto:** Hello, everybody.
+**Carlisia Thompson:** Hello, everybody.
 
 **Erik St. Martin:** And Brian Ketelsen couldn't be here, but we are fortunate to have Johnny Boursiquot join us today.
 
@@ -42,19 +42,19 @@ It was used in, say, the Azure portal for your \[unintelligible 00:05:20.20\] Az
 
 That solves our cross-platform problem, and lets you write this amazing product using just web technologies. I love that one thing about Electron - you no longer have to write desktop applications, which is cross-platform; you no longer need to know the native technologies anymore. You know web tech, and that's all you need. And a little bit of \[unintelligible 00:06:16.20\]
 
-**Carlisia Pinto:** We heard that some other code editors have an issue of performance and that it is due to - what's the name again? Electron. But VS Code does not seem to have the same performance issues. Did you tweak something to make it the Electron performance issues go away, or what we heard is not accurate and Electron has no performance issue whatsoever?
+**Carlisia Thompson:** We heard that some other code editors have an issue of performance and that it is due to - what's the name again? Electron. But VS Code does not seem to have the same performance issues. Did you tweak something to make it the Electron performance issues go away, or what we heard is not accurate and Electron has no performance issue whatsoever?
 
 **Erik St. Martin:** Well, I think the differentiator is the editor that's written on top of Electron - I believe they're two separate editors, both written on Electron.
 
 **Ramya Rao:** I think you're referring to [Atom](https://atom.io/)...
 
-**Carlisia Pinto:** We didn't say that, you did. \[laughter\]
+**Carlisia Thompson:** We didn't say that, you did. \[laughter\]
 
 **Ramya Rao:** Oh, I didn't know it was supposed to be politically correct... \[laughter\] Yeah, Atom comes from the same -- and it is built on top of Electron. Yes, there is an opinion that certain slowness that you might see might be attributed to Electron, but I think it's just we have the time and smart design to go about building the product in a good way. The team has been contributing back to Electron as well when we saw the need for it.
 
 We didn't do any tweaks just for performance, I believe, but Ben from the Zurich team would be a better person to answer that question. Yeah, nothing that I know of.
 
-**Carlisia Pinto:** Okay.
+**Carlisia Thompson:** Okay.
 
 **Johnny Boursiquot:** \[00:07:58.28\] Well, we shouldn't bash Atom too much... I think many of us still use that, because for whatever reason we like some of the mechanics in there. But again, we run the risk of starting the editor war, which I'm sure we will touch on at some point during this broadcast. But obviously... Personally, I've been using VS Code for the better part of 4-5 months now, and before that I was sort of a Vim die hard, _you will pry it from my cold dead hands_ kind of a user, and I still use Vim pretty much on a daily basis, but when I'm doing my Go development, VS Code has sort of become what I do pretty much on a daily basis, as well.
 
@@ -76,7 +76,7 @@ Somebody mentioned in the channel that there is a new editor that either has com
 
 **Johnny Boursiquot:** Right. I tried that, and honestly, it felt so heavy to me... It just gave me nightmares from my Eclipse Java days. I don't know, I tried it, but it just wasn't for me.
 
-**Carlisia Pinto:** Yeah, _Gogland_ is really good, especially for people who are working with Scala and Java and Go at the same time. They're loving that editor. But they are the people who also love it... I also tried it and it wasn't for me.
+**Carlisia Thompson:** Yeah, _Gogland_ is really good, especially for people who are working with Scala and Java and Go at the same time. They're loving that editor. But they are the people who also love it... I also tried it and it wasn't for me.
 
 I am at the moment suffering from _Editor Fatigue_. I like investing time on my editor to make it as performant as possible for me, and I've done that... I've optimized Vim for me, I've optimized Atom for me, and there was always something that wasn't good enough, so right now I'm giving VS Code a try, and I haven't done anything; it's very much bare, because I am fatigued. But I am still giving it a try. I am having some issues with the Vim plugin, because I get stuck in _Visual Mode_ and it doesn't shift from _Normal Mode_ to _Insert Mode_ and back to _Normal Mode_...
 
@@ -84,7 +84,7 @@ I am at the moment suffering from _Editor Fatigue_. I like investing time on my 
 
 **Erik St. Martin:** Can you do that in normal Vim, go from visual to insert? Now I'm questioning that; I don't know that I've ever tried that.
 
-**Carlisia Pinto:** You can. If you can, I don't know how. That's exactly what happens - I don't know how I get into _Visual Mode_, but I'm constantly getting to _Visual Mode_. Then I wanna go to insert, thinking "Well, I am in _Normal Mode_, because I didn't do anything to put myself in _Visual Mode_, but I'm in _Visual Mode_, and then I can't go into _Insert Mode_. I have to -- oh, crap! Sorry...
+**Carlisia Thompson:** You can. If you can, I don't know how. That's exactly what happens - I don't know how I get into _Visual Mode_, but I'm constantly getting to _Visual Mode_. Then I wanna go to insert, thinking "Well, I am in _Normal Mode_, because I didn't do anything to put myself in _Visual Mode_, but I'm in _Visual Mode_, and then I can't go into _Insert Mode_. I have to -- oh, crap! Sorry...
 
 Another thing that I wanted to say is that it's good to know that Visual Studio did something special with the design to make it perform and not have the same performance issues that other editors might have... And not to have the intent to start an editor war - especially because I was a huge Atom fan - but it's just good to know that if I stick with this it's not going to get bloated down the road.
 
@@ -96,7 +96,7 @@ This was a decision made very early on, to have the extensions being hosted in a
 
 **Ramya Rao:** Another thing to note on your Vim concerns... I have a contact for you, so you can tweet at him any questions you have on the Vim plugin. Peng would be happy to answer. He spent quite a considerable amount of time getting the Vim plugin to the state it is now, as compared to 7-8 months ago.
 
-**Carlisia Pinto:** I'm gonna do that, because it drives me crazy, and I think it's sort of what's keeping me from investing time to soup up this editor... Because I haven't made my peace with this Vim plugin yet.
+**Carlisia Thompson:** I'm gonna do that, because it drives me crazy, and I think it's sort of what's keeping me from investing time to soup up this editor... Because I haven't made my peace with this Vim plugin yet.
 
 **Erik St. Martin:** See, that's always the struggle for me, too. There's been a lot of the Vim mode things and stuff, but it's really unfair of me to look at a new project and just be like "Oh, it has Vim mode" and kind of look at it the same way I've had failures in other Vim modes.
 
@@ -104,7 +104,7 @@ This was a decision made very early on, to have the extensions being hosted in a
 
 Does anybody actually use Vim mode for -- I know Firefox had one; I think Chrome has an extension for Vim mode, too. Does anybody use that stuff?
 
-**Carlisia Pinto:** I used it for five minutes.
+**Carlisia Thompson:** I used it for five minutes.
 
 **Johnny Boursiquot:** Yeah, same here.
 
@@ -112,49 +112,49 @@ Does anybody actually use Vim mode for -- I know Firefox had one; I think Chrome
 
 **Johnny Boursiquot:** Yeah, basically that was my Hammer moment. I'm like, "Yeah, I love Vim... Why not just use Vim in my browser environment, and everywhere else?" And then I'm like, "Okay, I can't use this everywhere... It's not really practical."
 
-**Carlisia Pinto:** To move on from the Vim talk, there is a PDF with a bunch of shortcuts for VS Code. I'm not sure if it's just Vim, or is it VS -- I think it's VS Code in general. Does anybody have that [link](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)? Because I lost it.
+**Carlisia Thompson:** To move on from the Vim talk, there is a PDF with a bunch of shortcuts for VS Code. I'm not sure if it's just Vim, or is it VS -- I think it's VS Code in general. Does anybody have that [link](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)? Because I lost it.
 
 **Ramya Rao:** We have something called Keymaps. If you're coming from Atom or from Sublime, if you want to use the old keyboard shortcuts that you're used to and you wanna install them on VS Code...
 
-**Carlisia Pinto:** Really?!
+**Carlisia Thompson:** Really?!
 
 **Ramya Rao:** Yeah!
 
-**Carlisia Pinto:** Where!? \[laughter\]
+**Carlisia Thompson:** Where!? \[laughter\]
 
 **Erik St. Martin:** You've just made a friend for life. \[laughter\]
 
-**Carlisia Pinto:** Yes, yes!
+**Carlisia Thompson:** Yes, yes!
 
 **Ramya Rao:** So if you have VS Code open right now, just search for "keymap" in the extension pane, and you will get one for Sublime, Atom, from Visual Studio, Emacs, Eclipse...
 
-**Carlisia Pinto:** Oh my god... That's what I need!
+**Carlisia Thompson:** Oh my god... That's what I need!
 
 **Ramya Rao:** NetBeans... There are a couple of them.
 
-**Carlisia Pinto:** Of course at this point I forgot the shortcuts... \[laughs\] No, I really needed that. Awesome!
+**Carlisia Thompson:** Of course at this point I forgot the shortcuts... \[laughs\] No, I really needed that. Awesome!
 
 **Ramya Rao:** Yeah, the intention here was that if anybody is moving from another editor, we wanted to make it as easy as possible for you to get on board.
 
-**Carlisia Pinto:** So where do I go -- so I installed that for Atom, which is what I used to use before. My Atom was all souped up. So where do I go now to see what those mappings were? Because at this point I forgot.
+**Carlisia Thompson:** So where do I go -- so I installed that for Atom, which is what I used to use before. My Atom was all souped up. So where do I go now to see what those mappings were? Because at this point I forgot.
 
 **Ramya Rao:** Just click on Atom Keymap, and on the right side you should be able to see more information about it, and there are links right there.
 
-**Carlisia Pinto:** Great! Awesome.
+**Carlisia Thompson:** Great! Awesome.
 
 **Johnny Boursiquot:** Live tech support, ladies and gentlemen. \[laughter\]
 
 **Ramya Rao:** Oh, my god... Is this gonna turn into a customer support call now?
 
-**Carlisia Pinto:** Yes!
+**Carlisia Thompson:** Yes!
 
 **Johnny Boursiquot:** \[unintelligible 00:18:45.26\] let me open my editor... \[laughter\]
 
-**Carlisia Pinto:** That was so my intention all along... It's like a customer support tutorial...
+**Carlisia Thompson:** That was so my intention all along... It's like a customer support tutorial...
 
 **Erik St. Martin:** And then she had Brad Fitzpatrick on just to get him to merge her pull request... \[laughter\]
 
-**Carlisia Pinto:** And it worked!
+**Carlisia Thompson:** And it worked!
 
 **Johnny Boursiquot:** \[laughs\] Oh, man... So Ramya, one thing I wanted to dive a little deeper on is that... I think Erik mentioned earlier that there was a _CodeLens_, a new capability that was added earlier this year in VS Code. What exactly does that provide you under the hood as sort of a plugin maker? How is that different from what was there or not there before? What is the function of _CodeLens_? How does that help you, especially when it comes to Go?
 
@@ -188,11 +188,11 @@ One of the things I wanted to touch on - what are you actually writing your code
 
 The idea behind this is you implement a language server once, and then you're able to use that again for multiple editors... You know, the ones that support language servers. So that you can write in any language you want, but extensions are TypeScript and JavaScript.
 
-**Carlisia Pinto:** I want to ask also, Ramya, how do you 1) come up with features to add to VS Code? and 2) prioritize what should go in at any given point? That makes me think of [Fatih](https://twitter.com/fatih) and Vim Code... Vim Code - am I saying that right?
+**Carlisia Thompson:** I want to ask also, Ramya, how do you 1) come up with features to add to VS Code? and 2) prioritize what should go in at any given point? That makes me think of [Fatih](https://twitter.com/fatih) and Vim Code... Vim Code - am I saying that right?
 
 **Erik St. Martin:** \[00:24:17.17\] [Vim Go](https://github.com/fatih/vim-go)?
 
-**Carlisia Pinto:** Vim Go, thank you; I knew it was wrong. And he's a developer, he's developing all day long, and he does Vim Code; I'm sure - I don't know this for a fact, but I would think that pretty much his thinking goes "Well, I need this (or I want this), so I'm gonna put it in." And I'm sure he's listening to other people as well, but it's very much him making Vim Go the best editor for him... Which very much coincides with the rest of the community who are using Vim. How does VS Code go about making those decisions?
+**Carlisia Thompson:** Vim Go, thank you; I knew it was wrong. And he's a developer, he's developing all day long, and he does Vim Code; I'm sure - I don't know this for a fact, but I would think that pretty much his thinking goes "Well, I need this (or I want this), so I'm gonna put it in." And I'm sure he's listening to other people as well, but it's very much him making Vim Go the best editor for him... Which very much coincides with the rest of the community who are using Vim. How does VS Code go about making those decisions?
 
 **Ramya Rao:** So initially, after Luke was done with the basic features like formatting, linting your build and so on and so forth, after that, when I came into the picture, initially my plan was I look at issues - the ones that were easy to do - and I just got started with that. That was my first one month of handling the project... Trying to get all the easy ones out of the -- you know, hit it out of the park.
 
@@ -200,17 +200,17 @@ After that I started going through the backlog, which is like about 100 issues, 
 
 In your completion, without even importing a package -- say if you didn't import math, you can type `math.` and you will get completion for that.
 
-**Carlisia Pinto:** That is amazing, by the way.
+**Carlisia Thompson:** That is amazing, by the way.
 
 **Ramya Rao:** Oh, thank you... That was one feature request where a lot of people were like "You know, it would be cool to have this!" and I'm like "Why not?" So that's my current criteria of deciding that - which feature requests have the most number of upvotes or the most number of passionate people saying they'd like to see it.
 
-**Carlisia Pinto:** So you're saying that it really makes a difference when people are active and they go and they voice out their opinions and what they want to have added?
+**Carlisia Thompson:** So you're saying that it really makes a difference when people are active and they go and they voice out their opinions and what they want to have added?
 
 **Ramya Rao:** Yes, definitely. But at the same time, it's not the only measure. I know that there's one feature request for which there are 35 upvotes, but I still haven't gotten to that because implementing that with the current set is just gonna have a slow experience... So until there's like a faster solution, I didn't wanna jump into it right away. So it's a mix of all these things.
 
 Then the other direction... Sometimes from the core VS Code product we release some APIs, some new features. TypeScript and JavaScript is appointed by default by VS Code, right? And we support new language features. Now, it's up to the extension owners to get up to speed and implement them in their own extensions. So this is sometimes from the other direction - I get ideas that "Oh, VS Code can now do this, so I should implement that in the Go extension." So that is another way where things can happen. That is the one where you can keep up with the product, or else you end up in a state where you see that "Oh, VS Code can do ABC, but I don't see the Go extension doing it." So unless you play catch up with the Code product, you won't get to see those cool features.
 
-**Carlisia Pinto:** Makes sense.
+**Carlisia Thompson:** Makes sense.
 
 **Erik St. Martin:** Oh, so you actually have continued development just to kind of stay up to speed with the core editor itself...?
 
@@ -220,15 +220,15 @@ Then the other direction... Sometimes from the core VS Code product we release s
 
 **Ramya Rao:** \[00:28:05.18\] Yes. I think there is one debugging related feature which came about like that. There's a launch.json file; if you need to debug your code, you need to have that file, and that's where you add your configuration. Initially you had to just handwrite it based on some document; now you have snippets that you can use in that file. You can have a snippet for debugging your test function, or a snippet to debug your package... So the scaffolding is there, and then you edit the snippet. That was one feature coming out from the core product. The hook was that all the Go extension needed to do was implement the snippets needed and hook it up, and then you start seeing it in the debug configs.
 
-**Carlisia Pinto:** By the way, does anybody wanna share with me their snippets configuration? Because I have zero. And I want snippets for starting a new function, or writing `fmt.Println` or something...
+**Carlisia Thompson:** By the way, does anybody wanna share with me their snippets configuration? Because I have zero. And I want snippets for starting a new function, or writing `fmt.Println` or something...
 
 **Ramya Rao:** Oh, so one thing that can help you there is, I think - let me just quickly try it before saying that it's possible... You can say "insert snippet" in the command palette, and that will open up all the snippets that the Go extension can do for you or can give you.
 
-**Carlisia Pinto:** Oh... Insert snippet...
+**Carlisia Thompson:** Oh... Insert snippet...
 
 **Johnny Boursiquot:** I'm trying it right now.
 
-**Carlisia Pinto:** Me too... \[laughs\]
+**Carlisia Thompson:** Me too... \[laughs\]
 
 **Erik St. Martin:** I feel like I should have had VS Code installed before this...
 
@@ -238,53 +238,53 @@ Then the other direction... Sometimes from the core VS Code product we release s
 
 **Ramya Rao:** So those are the snippets that come out of the box from the Go extension, and then you can create your own as well.
 
-**Carlisia Pinto:** So how does that work? For example, there's a snippet that's called "If" and it's for an if statement. So I type "if" and I do what? Tab? That's not working...
+**Carlisia Thompson:** So how does that work? For example, there's a snippet that's called "If" and it's for an if statement. So I type "if" and I do what? Tab? That's not working...
 
 **Ramya Rao:** No, you don't type that, you just choose it.
 
-**Carlisia Pinto:** Oh, I see. It's too much clicking though, for me... I wanna type like a couple letters, and Tab.
+**Carlisia Thompson:** Oh, I see. It's too much clicking though, for me... I wanna type like a couple letters, and Tab.
 
 **Ramya Rao:** Yeah, that's possible as well. In the editor if you know what the prefix is, for example type `for` and I think there are two snippets for `for` that come up in your suggestions list.
 
-**Carlisia Pinto:** Sorry, what do I have to type?
+**Carlisia Thompson:** Sorry, what do I have to type?
 
 **Ramya Rao:** For the for loop, just type `for`, and it will suggest the snippets for you.
 
-**Carlisia Pinto:** Yes... Oh, the first `for` that comes up is not a snippet.
+**Carlisia Thompson:** Yes... Oh, the first `for` that comes up is not a snippet.
 
 **Ramya Rao:** It's a keyword. The second and the forth are snippets. So you differentiate them by what is the icon in the suggestion item. Those box kind of things are snippets.
 
-**Carlisia Pinto:** So I have to type the downward arrow to get to the other ones. Is there a quicker way?
+**Carlisia Thompson:** So I have to type the downward arrow to get to the other ones. Is there a quicker way?
 
 **Johnny Boursiquot:** You can map it.
 
 **Ramya Rao:** There's a setting to show the snippet suggestion up top, or bottom, or in line... So you can play with that.
 
-**Carlisia Pinto:** Really?
+**Carlisia Thompson:** Really?
 
 **Ramya Rao:** Yes.
 
-**Carlisia Pinto:** Okay. So Preferences, Settings?
+**Carlisia Thompson:** Okay. So Preferences, Settings?
 
 **Ramya Rao:** Yeah. Or `Cmd,` that's a shortcut. This is really becoming a customer support call. \[laughter\] I'm not even looking at Slack... Are people asking questions in Slack?
 
 **Erik St. Martin:** No, they were basically joking about stuff and Carlisia's clicky keyboard...
 
-**Carlisia Pinto:** I'm so sorry, I forgot to change my keyboard... Oh, my gosh.
+**Carlisia Thompson:** I'm so sorry, I forgot to change my keyboard... Oh, my gosh.
 
 **Erik St. Martin:** \[00:32:10.14\] Yeah, I usually trade mine out, too. I've got a mechanical keyboard...
 
-**Carlisia Pinto:** It's the end of the show and I realized this... Sorry, guys.
+**Carlisia Thompson:** It's the end of the show and I realized this... Sorry, guys.
 
 **Johnny Boursiquot:** It's alright, you get geek creds for that. \[laughter\]
 
 **Erik St. Martin:** I think everybody's trying to guess which Cherry MX you're using, based on the sounds of the clicking. \[laughter\]
 
-**Carlisia Pinto:** Okay, I don't know if I should say or if I should let people guess... It's the brown one.
+**Carlisia Thompson:** Okay, I don't know if I should say or if I should let people guess... It's the brown one.
 
 **Erik St. Martin:** Brown?
 
-**Carlisia Pinto:** Yeah, Thor got it.
+**Carlisia Thompson:** Yeah, Thor got it.
 
 **Johnny Boursiquot:** There you go, Thor4 got it on the channel. There you go. I do wanna switch gears from tech support briefly...
 
@@ -352,7 +352,7 @@ Another cool thing that I just saw yesterday, which also came from Microsoft (th
 
 **Ramya Rao:** So it's still in the beginning phase, so file a feature request on what you'd like to see and so on. It's Open Source.
 
-**Carlisia Pinto:** \[00:40:13.01\] I just installed. It was that quick.
+**Carlisia Thompson:** \[00:40:13.01\] I just installed. It was that quick.
 
 **Johnny Boursiquot:** Wow... \[laughter\]
 
@@ -374,11 +374,11 @@ Another cool thing that I just saw yesterday, which also came from Microsoft (th
 
 **Erik St. Martin:** It is. It definitely is.
 
-**Carlisia Pinto:** So talking about conferences, we should also mention that... [GopherCon](https://www.gophercon.com/) is next month! I'm so excited!
+**Carlisia Thompson:** So talking about conferences, we should also mention that... [GopherCon](https://www.gophercon.com/) is next month! I'm so excited!
 
 **Erik St. Martin:** Oh yeah, because it's technically June right now, so yeah... One month away.
 
-**Carlisia Pinto:** We should mention that the CFP for lightning talks is open.
+**Carlisia Thompson:** We should mention that the CFP for lightning talks is open.
 
 **Erik St. Martin:** Yes, yes...
 
@@ -394,21 +394,21 @@ Another cool thing that I just saw yesterday, which also came from Microsoft (th
 
 **Johnny Boursiquot:** That's exactly what I was thinking...
 
-**Carlisia Pinto:** I cannot go to the booth... I'd be all customer supporty... \[laughter\]
+**Carlisia Thompson:** I cannot go to the booth... I'd be all customer supporty... \[laughter\]
 
 **Erik St. Martin:** You put a sign there that says "Only love, no questions."
 
 **Ramya Rao:** No, you can ask me any questions if you find me. And if you have your laptop or Mac with you, we can look at stuff.
 
-**Carlisia Pinto:** Are you signed up for the Women Who Go dinner?
+**Carlisia Thompson:** Are you signed up for the Women Who Go dinner?
 
 **Ramya Rao:** Oh, there's a Women Who Go dinner?
 
-**Carlisia Pinto:** Oh, yeah...
+**Carlisia Thompson:** Oh, yeah...
 
 **Ramya Rao:** I'm not up to date with it...
 
-**Carlisia Pinto:** It's alright, I'll send you the link.
+**Carlisia Thompson:** It's alright, I'll send you the link.
 
 **Ramya Rao:** I should \[unintelligible 00:43:04.15\]
 
@@ -448,13 +448,13 @@ It's funny though, like even wearing the swag, the amount of looks you get where
 
 **Erik St. Martin:** \[laughs\] It counts, it counts... That's watching them. I'm pretty sure Carlisia watches them.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Erik St. Martin:** That's probably one of the series that I try to make a point to watch. The conference stuff I almost have to pick and choose now, just because there's too much content.
 
 I think somebody in here put something about DevOps day?
 
-**Carlisia Pinto:** Yeah, it was me. I wanted to mention this a couple shows ago, and we ended up not going over the section, and last week I wasn't here... I really wanted to make sure to mention this talk that Kelsey Hightower gave at DevOps Days Austin a few weeks ago. Really, a huge shoutout to him for so many things, but especially for giving this talk. He goes into his background, his story, his coming of age story, how he got into tech and how he stayed in tech, and some of the experiences he had.
+**Carlisia Thompson:** Yeah, it was me. I wanted to mention this a couple shows ago, and we ended up not going over the section, and last week I wasn't here... I really wanted to make sure to mention this talk that Kelsey Hightower gave at DevOps Days Austin a few weeks ago. Really, a huge shoutout to him for so many things, but especially for giving this talk. He goes into his background, his story, his coming of age story, how he got into tech and how he stayed in tech, and some of the experiences he had.
 
 \[00:48:05.05\] I think it's a really worthwhile [talk](https://youtu.be/36S7N7OZSTI) to watch, especially for people who are fans of his, because you get to know him a little better. Nevertheless, I always think that software development is a lot about people, and you get a bit of insights on how someone can be so vulnerable and open up with stories that people usually don't talk about. And it's not sometimes because people don't want to talk about, it's just hard to fit in telling a story like that on a day-to-day basis or in a conference talk, so people don't usually get to hear those stories. I think there are a lot of people like that - not just minorities, but everybody has struggles; some people more than others, and some people perceive those struggles more than others and have a harder time, of course. Nevertheless, everybody's got struggles, and if you don't, it's good also to learn how people have challenges.
 
@@ -486,21 +486,21 @@ I don't know that you listen to this show, Ramya, but we talked about it a littl
 
 Carlisia, do you wanna kick it off?
 
-**Carlisia Pinto:** Yes, sure. So today I guess is the shoutout day to people, as opposed to software mostly... I wanna give a shoutout to [JBD](https://twitter.com/rakyll) (Jaana B. Dogan). She works for Google and she does a lot of Go work. She works mostly on -- I don't wanna say the wrong thing, but she does a lot of performance work and investigation about how Go can be improved as a language. To my understanding, she also is leading the Devex group, which is the Developer Working Group, which aims to make the onboarding experience better for developers, among other things.
+**Carlisia Thompson:** Yes, sure. So today I guess is the shoutout day to people, as opposed to software mostly... I wanna give a shoutout to [JBD](https://twitter.com/rakyll) (Jaana B. Dogan). She works for Google and she does a lot of Go work. She works mostly on -- I don't wanna say the wrong thing, but she does a lot of performance work and investigation about how Go can be improved as a language. To my understanding, she also is leading the Devex group, which is the Developer Working Group, which aims to make the onboarding experience better for developers, among other things.
 
 \[00:55:54.26\] She has many open source projects that are amazing, and she has also a very good blog post related to Go. Her blog posts are a very worthwhile read. In other words, she's an amazing person, a really hardworker; I don't think she gets enough recognition and I wanna make sure we recognize her today.
 
 **Erik St. Martin:** We all love JBD. She puts out some really great blog posts and stuff, too. I've learned a lot from her over the years.
 
-**Carlisia Pinto:** And she also was on the show on [episode 22](https://changelog.com/gotime/22).
+**Carlisia Thompson:** And she also was on the show on [episode 22](https://changelog.com/gotime/22).
 
 **Erik St. Martin:** Did you know that by heart or did you look it up?
 
-**Carlisia Pinto:** I had to look it up; I wrote it down. \[laughter\]
+**Carlisia Thompson:** I had to look it up; I wrote it down. \[laughter\]
 
 **Erik St. Martin:** Because I think there was an episode where you called out an episode number somebody was on without looking it up, and I was shocked.
 
-**Carlisia Pinto:** I'm sure I was shocked, too... \[laughs\]
+**Carlisia Thompson:** I'm sure I was shocked, too... \[laughs\]
 
 **Erik St. Martin:** Once it's like two episodes ago maybe, I forget... I know it was just a few episodes ago... \[laughter\] How about you, Johnny?
 
@@ -552,6 +552,6 @@ I think that's it... Goodbye, everybody, we'll see you next week.
 
 **Johnny Boursiquot:** Bye!
 
-**Carlisia Pinto:** Bye, this was fun!
+**Carlisia Thompson:** Bye, this was fun!
 
 **Ramya Rao:** Bye!

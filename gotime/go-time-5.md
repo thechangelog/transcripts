@@ -10,7 +10,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** We also have Carlisia here.
 
-**Carlisia Pinto:** I am also not there, I am in San Diego. \[laughter\] Hello everybody.
+**Carlisia Thompson:** I am also not there, I am in San Diego. \[laughter\] Hello everybody.
 
 **Erik St. Martin:** And today on the show we have a special guest with us, Sarah Adams, who most of you know as an engineer, speaker, and also the founder of Women Who Go.
 
@@ -50,7 +50,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** And I'm looking forward to seeing it less than 1.4, that'd be a great achievement. Imagine being even faster than 1.4 was.
 
-**Carlisia Pinto:** Is that even possible? Is that on the cards, though?
+**Carlisia Thompson:** Is that even possible? Is that on the cards, though?
 
 **Brian Ketelsen:** Anything's possible with SSA. Have you seen the team working on that? The brain trust will make it happen, I have confidence.
 
@@ -76,7 +76,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Brian Ketelsen:** Yeah, so all you library developers out there, if you're not putting context as the first parameter of your public functions, now is a great time to start doing that, please. I wanted to say please, I don't wanna sound too bossy. I can come across that way sometimes.
 
-**Carlisia Pinto:** And from the little experience that I have with Go, I see a lot of times when people use other network packages just so they can get the context, and I would even do that, because I don't wanna do that stuff by hand. But now that it's in the standard library, I wonder how it's going to impact the usage of the external libraries. Or if people are just gonna have to keep adding more features to make it more attractive for people to use them.
+**Carlisia Thompson:** And from the little experience that I have with Go, I see a lot of times when people use other network packages just so they can get the context, and I would even do that, because I don't wanna do that stuff by hand. But now that it's in the standard library, I wonder how it's going to impact the usage of the external libraries. Or if people are just gonna have to keep adding more features to make it more attractive for people to use them.
 
 **Erik St. Martin:** But is it really a competition, though? I think at the end of the day it's about writing good quality software, that's readable, and I think that by having external libraries that people really like - and we kind of get consensus on these patterns - I think it's okay to pull that stuff in. Because not everybody's gonna be aware of these things, despite how much visibility we think they have, or as people find stuff in the standard library - that's generally where people look first, so I think it's a hard debate. We're kind of pulling away users from some standard library, but I think that the library owners are probably glad to see it there. I think it will get more love in the standard library, too.
 
@@ -98,7 +98,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Brian Ketelsen:** This is interesting, because we've talked about the blog post that this originated from in our last episode, the CloudFlare blog post about creating the simplest possible SSA tools. Vendor check was an extension of that, and it's nice that it's getting some very usable features; it will be good to get that vendor directory pruned as needed.
 
-**Carlisia Pinto:** It's also almost like vendor check should be side by side with fmt.
+**Carlisia Thompson:** It's also almost like vendor check should be side by side with fmt.
 
 **Sarah Adams:** Yeah, and go imports.
 
@@ -106,21 +106,21 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** Yeah, and I think that the vendor stuff is probably early for that stuff to kind of get pulled in, at least adopted the Go team, right? Because it's only been recently that there's been this agreement that maybe the Go tooling should handle vendoring more, so it will be interesting to see how much they think should be pulled in. But I imagine we'll start seeing tools like Vim-Go and all that jazz incorporating in this, in something like the meta tooling.
 
-**Carlisia Pinto:** Exactly.
+**Carlisia Thompson:** Exactly.
 
 **Erik St. Martin:** Like, there's a Go meta-linter and stuff like that that runs all the suite of different tooling.
 
-**Carlisia Pinto:** I can totally see that happening, too.
+**Carlisia Thompson:** I can totally see that happening, too.
 
 **Brian Ketelsen:** So on that note, on the idea of having vendor tooling being built into Go itself, I know that Andrew Gerrand was talking about sponsoring a talk or a panel discussion on the hack day at GopherCon on the 13th of July, for an hour or so, talking about packaging and vendoring. So if you're got strong opinions on that, you might wanna come to Denver in July and get together and talk to the Go team directly about package management and vendoring. That would be a great opportunity to have your voice heard.
 
 **Erik St. Martin:** And strong opinions in general. I know that they're wanting to do kind of a collaborative session with big Go users and kind of seeing what pain points are there and how people feel that the Go team can ease those pains, and make it easier to adopt and use Go.
 
-**Carlisia Pinto:** And on that topic, there is an issue opened on the Go repo where they just pull in everybody's opinion into one place - at least they put links to things, and there's probably good to read through if you are going to go to this event and discuss, so we have all the information...
+**Carlisia Thompson:** And on that topic, there is an issue opened on the Go repo where they just pull in everybody's opinion into one place - at least they put links to things, and there's probably good to read through if you are going to go to this event and discuss, so we have all the information...
 
 **Brian Ketelsen:** It's a really long issue.
 
-**Carlisia Pinto:** Yeah, it's huge. But it's not the Go team endorsing any way or another; it's just gathering everybody's opinion in one place, and giving it as it is - "Okay, this is what people are saying. Let's just have it here, so we're not replicating this all over the place, so we have a starting point. We don't have to go back and talk about things that were already talked about." So it's all in there, very interesting.
+**Carlisia Thompson:** Yeah, it's huge. But it's not the Go team endorsing any way or another; it's just gathering everybody's opinion in one place, and giving it as it is - "Okay, this is what people are saying. Let's just have it here, so we're not replicating this all over the place, so we have a starting point. We don't have to go back and talk about things that were already talked about." So it's all in there, very interesting.
 
 **Erik St. Martin:** I ought to pull that up when I have a weekend.
 
@@ -128,13 +128,13 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** I can only imagine.
 
-**Carlisia Pinto:** Yeah. It's not light really, it's very thoughtful expressions of how things could be done technically. I'll find the link.
+**Carlisia Thompson:** Yeah. It's not light really, it's very thoughtful expressions of how things could be done technically. I'll find the link.
 
 **Erik St. Martin:** Awesome. So on a sad news side of things, did anybody see the email that Rob Miller sent out to the Heka mailing list?
 
 **Brian Ketelsen:** I did.
 
-**Carlisia Pinto:** No, what?
+**Carlisia Thompson:** No, what?
 
 **Brian Ketelsen:** Very, very sad.
 
@@ -150,15 +150,15 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Brian Ketelsen:** That'd be a great idea. We'll link to the mail list announcement in our show notes. It's way too long to discuss here, but the main takeaway from the email that he sent out was that the refactoring required to make Heka perform significantly better than it does now, which is actually really solid performance. But to get to that next level it would require less use of channels, and that's probably a good show topic for us at some point, talking about the performance of channels under significant load, and when channels are great and when they aren't.
 
-**Carlisia Pinto:** That would be an amazing topic, I'm sure a lot of people can benefit. I can benefit from it.
+**Carlisia Thompson:** That would be an amazing topic, I'm sure a lot of people can benefit. I can benefit from it.
 
 **Erik St. Martin:** So before we get into some discussions about all the things that Sarah is doing these days, we typically go through some interesting Go projects, because Brian is full of -- just this encyclopedia of projects. But before we go into that, we don't need Brian anymore. Have you guys seen the LibHunt thing that was going around?
 
-**Carlisia Pinto:** No.
+**Carlisia Thompson:** No.
 
 **Erik St. Martin:** There is now the Go LibHunt. It's go.libhunt.com, and you can basically browse around, categorize projects and libraries in Go, and then kind of rank them.
 
-**Brian Ketelsen:** You know, just because somebody lists a bunch of libraries in Go does not replace my curation, Erik. \[laughter\] The added value that I bring every week to the curation of cool projects is what's important here. You cannot replace me with a bash script. 
+**Brian Ketelsen:** You know, just because somebody lists a bunch of libraries in Go does not replace my curation, Erik. \[laughter\] The added value that I bring every week to the curation of cool projects is what's important here. You cannot replace me with a bash script.
 
 **Erik St. Martin:** We can try. \[laughter\]
 
@@ -180,15 +180,15 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** I'm not sure how that detection works. I mean, what percentage of the codebase is in what... Because if you had, say, [Grafana](https://grafana.com/) that's a bunch of Go, but it's a whole lot of web stuff too, HTML, CSS and JavaScript too, so is there more of one than the other, then does that cause false positives .
 
-**Carlisia Pinto:** I have always wondered that too, if somebody knows, please...
+**Carlisia Thompson:** I have always wondered that too, if somebody knows, please...
 
 **Sarah Adams:** You can also specify when you're creating a repo what language the project is.
 
-**Carlisia Pinto:** Really?
+**Carlisia Thompson:** Really?
 
 **Sarah Adams:** Well, I think it just helps you then generate the git-ignore.
 
-**Carlisia Pinto:** I've never seen that.
+**Carlisia Thompson:** I've never seen that.
 
 **Brian Ketelsen:** Interesting.
 
@@ -206,13 +206,13 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** So I will go next. I saw this a while back, and I think it was really in its infancy, which is Lime Text, which is like a Sublime Text clone, but written in Go, and it's actually been coming along quite well. I was actually curious whether Carlisia had tried it, because I know you're a Sublime user, right Carlisia?
 
-**Carlisia Pinto:** No, I'm not.
+**Carlisia Thompson:** No, I'm not.
 
 **Erik St. Martin:** Oh, I thought you were a Sublime user.
 
 **Sarah Adams:** I use Sublime.
 
-**Carlisia Pinto:** I used it, but I've stopped using it long ago.
+**Carlisia Thompson:** I used it, but I've stopped using it long ago.
 
 **Sarah Adams:** And I haven't heard of Lime.
 
@@ -224,33 +224,33 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Brian Ketelsen:** Well, it's interesting from another perspective, in that it's almost modeled on the Emacs and Neovim server and client model. So the Lime Text app has a backend, and then it can have multiple frontends. You could actually use a command line app to use Lime Text, or they've got a Qt-based editor for a graphical environment, but the backend stays the same. So that makes it unique I think, in terms of Go-based text editors. It certainly made it more interesting to me.
 
-**Carlisia Pinto:** I do wanna check it out. Yeah, I'm an Atom user - I use it with the Vim plugin, but this looks cool.
+**Carlisia Thompson:** I do wanna check it out. Yeah, I'm an Atom user - I use it with the Vim plugin, but this looks cool.
 
 **Erik St. Martin:** I don't know why I thought you used Sublime, but now I remember Atom, because you did bring up a new set of plugins for Atom. It wasn't in the last episode, but the one before.
 
-**Carlisia Pinto:** Yeah. All these editors look a lot the same in a lot of ways, so...
+**Carlisia Thompson:** Yeah. All these editors look a lot the same in a lot of ways, so...
 
 **Erik St. Martin:** I can't keep up with all the new editors.
 
-**Carlisia Pinto:** Sarah, do you have a Go project you wanted to mention?
+**Carlisia Thompson:** Sarah, do you have a Go project you wanted to mention?
 
 **Erik St. Martin:** Feel free to say no.
 
 **Sarah Adams:** No, I didn't prepare anything.
 
-**Carlisia Pinto:** Yeah, so I'll go next. I found this HDR histogram, and it's not something I have used, but I can see myself using it. It keeps track of a simple count of basically incoming requests - a simple count of incoming requests that you have. You can specify what it is that you wanna look at over time.
+**Carlisia Thompson:** Yeah, so I'll go next. I found this HDR histogram, and it's not something I have used, but I can see myself using it. It keeps track of a simple count of basically incoming requests - a simple count of incoming requests that you have. You can specify what it is that you wanna look at over time.
 
 **Erik St. Martin:** So this is showing like a requests-per-second over time, or...?
 
-**Carlisia Pinto:** I think it's requests per seconds.
+**Carlisia Thompson:** I think it's requests per seconds.
 
 **Brian Ketelsen:** I've used this package before, I think it's more generic than just requests per second. I think it's actually just a histogram package that you can use to collect metrics about any particular event, and then present them in a histogram. So a request per second is a great example of how you would use it if you were collecting metrics on a website.
 
-**Carlisia Pinto:** Yeah, exactly. It looks like that. It's configurable. They have a Go version of this, and the way I found about it and why it's relevant is because I saw a talk by Gil Tene on Strange Loop from last year, and he was talking about how network graphs usually show us the 95 percentile of the worst response times that you get. And he goes on to talk in detail about how meanless that is, and how much it hides the information that you really want to see, which is the actual count, the actual max. He also goes on to talk about the difference between service time and response time, and it's fascinating because - I don't know, I don't usually think about it in those terms, but it makes total sense. It's a fascinating talk, and if you want to monitor your stuff and what you're using is the usual commercial tools that are out there, maybe you should check this out. We will have links.
+**Carlisia Thompson:** Yeah, exactly. It looks like that. It's configurable. They have a Go version of this, and the way I found about it and why it's relevant is because I saw a talk by Gil Tene on Strange Loop from last year, and he was talking about how network graphs usually show us the 95 percentile of the worst response times that you get. And he goes on to talk in detail about how meanless that is, and how much it hides the information that you really want to see, which is the actual count, the actual max. He also goes on to talk about the difference between service time and response time, and it's fascinating because - I don't know, I don't usually think about it in those terms, but it makes total sense. It's a fascinating talk, and if you want to monitor your stuff and what you're using is the usual commercial tools that are out there, maybe you should check this out. We will have links.
 
 **Brian Ketelsen:** Will you put that link in the show notes? That sounds like a great talk.
 
-**Carlisia Pinto:** Yes, I already did. There it is.
+**Carlisia Thompson:** Yes, I already did. There it is.
 
 **Brian Ketelsen:** Perfect.
 
@@ -290,7 +290,7 @@ Those smaller changes started to add up a lot, and so my documentation was often
 
 **Sarah Adams:** Yeah, so for each package, a API BEE file is spit out, and what you actually need to do is have sort of a -- I call it a template, but it's really just the description of your API and sort of high-level things like that. Those go at the top of the API BEE file. Once all of your tests have run, you'll get back one API BEE file per package, so you need to combine them. During that step, you can actually insert... For my current company we have a list of all of our errors and error codes at the top of our documentation file, so that's generated right before we append all the API BEE files. So yeah, it's totally flexible.
 
-**Carlisia Pinto:** That's cool.
+**Carlisia Thompson:** That's cool.
 
 **Erik St. Martin:** So what's the process for this? You just run this tool after you're done, so that you're kind of committing this documentation?
 
@@ -298,7 +298,7 @@ Those smaller changes started to add up a lot, and so my documentation was often
 
 **Brian Ketelsen:** Nice.
 
-**Carlisia Pinto:** I just thought about making this - another tool... Make a diff between the pushes, so you can see like a change log version, that would be really cool.
+**Carlisia Thompson:** I just thought about making this - another tool... Make a diff between the pushes, so you can see like a change log version, that would be really cool.
 
 **Sarah Adams:** Yeah, that would be cool. And there are a lot of things that I wanna add to this. A couple people have requested Swagger support; I think that's probably more common that Apiary for API documentation.
 
@@ -314,17 +314,17 @@ Those smaller changes started to add up a lot, and so my documentation was often
 
 **Sarah Adams:** Exactly, it's a different workflow.
 
-**Carlisia Pinto:** Here's the perfect workflow: you do your specs, you run it, you spit out the Swagger docs, you run the Swagger docs and that then generates your codes.
+**Carlisia Thompson:** Here's the perfect workflow: you do your specs, you run it, you spit out the Swagger docs, you run the Swagger docs and that then generates your codes.
 
 **Erik St. Martin:** But I think this is interesting though, because people love Swagger, but everybody likes building their APIs in different ways, and we see that prevalent in all the number of frameworks out there for building APIs right now. But yours, it doesn't have any ties into those specific... You can write in whatever you wanted to and have similar documentation to Swagger, and I think that's an awesome idea.
 
 **Sarah Adams:** Thanks!
 
-**Carlisia Pinto:** Yeah. The one issue I can see with trying to make it fit in with Swagger is that Swagger has a very... Well, it has a specification, so it's strict in that way, and if you design something that is not supported - not necessarily, it wouldn't be ReSTful, but it's not supported by that spec version that you're working with, then it just doesn't work.
+**Carlisia Thompson:** Yeah. The one issue I can see with trying to make it fit in with Swagger is that Swagger has a very... Well, it has a specification, so it's strict in that way, and if you design something that is not supported - not necessarily, it wouldn't be ReSTful, but it's not supported by that spec version that you're working with, then it just doesn't work.
 
 **Sarah Adams:** Well, API Blueprint has a pretty strict spec also. You just have to match the data, you have to really evaluate the spec and match the data, fit it into the spec.
 
-**Carlisia Pinto:** Yeah, so you have to have some prior knowledge of what the spec is for the tool you're working with.
+**Carlisia Thompson:** Yeah, so you have to have some prior knowledge of what the spec is for the tool you're working with.
 
 **Sarah Adams:** Sure.
 
@@ -370,7 +370,7 @@ As far as our ten chapters around the world, women actually will message me or s
 
 **Erik St. Martin:** Yeah, I've seen Ladies Who Linux, that's gotten bigger, and there's an Infosec one too, but for the life of me, I can't remember the name of it.
 
-**Carlisia Pinto:** There is also PyLadies.
+**Carlisia Thompson:** There is also PyLadies.
 
 **Erik St. Martin:** Oh yeah, PyLadies...
 
@@ -388,17 +388,17 @@ As far as our ten chapters around the world, women actually will message me or s
 
 **Erik St. Martin:** More conferences, more meetups, more blogs, more podcasts...
 
-**Carlisia Pinto:** I think there's also a good opportunity to break some misconceptions - there are additional opportunities to break misconceptions here. There are so many misconceptions that women cannot program, or even we ourselves say "Maybe I cannot program" or "Maybe I can program but I cannot be a great programmer", and there is a sense that Go is a low-level language; it's not as low level as C, but it can be used for low-level systems development. And there is an additional misconception that women cannot do systems-level programming. I don't know if you agree that this exists, but I have seen it. So with Go, we can help break this myth.
+**Carlisia Thompson:** I think there's also a good opportunity to break some misconceptions - there are additional opportunities to break misconceptions here. There are so many misconceptions that women cannot program, or even we ourselves say "Maybe I cannot program" or "Maybe I can program but I cannot be a great programmer", and there is a sense that Go is a low-level language; it's not as low level as C, but it can be used for low-level systems development. And there is an additional misconception that women cannot do systems-level programming. I don't know if you agree that this exists, but I have seen it. So with Go, we can help break this myth.
 
 **Erik St. Martin:** Yeah, I think in STEM in general there's a lot of that, being critical of other genders and their ability to do the job, and I think it's just naive.
 
-**Carlisia Pinto:** Yeah, but it exists, so...
+**Carlisia Thompson:** Yeah, but it exists, so...
 
 **Sarah Adams:** That's one of the things I love about the Go community so much - when those things pop up, people seem to be sort of all over it, like "That's really not okay." And I love how much time and energy that people like Andrew Gerrand and Jason Buberel have put into the code of conduct. Our code of conduct thread went on for months, because people were so passionate about trying to make sure that Go was so inclusive and that everyone felt safe in the Go community, and I really thank them for that.
 
 **Erik St. Martin:** Yeah, I really applaud that effort as well. I think that that was a fantastic thing that happened. And in general too, right? I know Carlisia and I have had conversations about this before - every be nice to each other, what's hard about that? That was one of the things I loved about this community when I came into it, because I don't have a masters degree or PhD in CompSci, I'm not a highly academic programmer, but there were these PhD people all chatting up in mailing lists and stuff and perfectly happy to help and answer questions, and just their love of the language, they wanted to share that with people. I think that we should do that, whoever it is that's trying to join our community, we should be as welcoming as possible.
 
-**Carlisia Pinto:** Exactly.
+**Carlisia Thompson:** Exactly.
 
 **Sarah Adams:** Yeah, and I think since we started being really inclusive and being aware of that when we were so small - I really think that it's gonna help us as we grow, to maintain that sense of inclusivity and safety, as opposed to other languages who are sort of trying to tack it on... After they've grown a lot, it's a lot harder, or it seems a lot harder.
 
@@ -408,7 +408,7 @@ As far as our ten chapters around the world, women actually will message me or s
 
 **Erik St. Martin:** And you said for people interested in potentially starting their own chapters, the best thing to do is to email you at hello@womenwhogo.org.
 
-**Carlisia Pinto:** Exactly.
+**Carlisia Thompson:** Exactly.
 
 **Erik St. Martin:** Awesome.
 
@@ -422,13 +422,13 @@ As far as our ten chapters around the world, women actually will message me or s
 
 **Erik St. Martin:** That's awesome. Carlisia?
 
-**Carlisia Pinto:** I have two today. I will real quick give a shout out to remotemeetup.golangbridge.org, it's the Go Remote Meetup initiative that a few people are coming around to. It's what the name says - if you want to give a talk online and reach people who are not in your physical community, hop on there, we'll schedule a talk - I'm part of it too, so I'm saying 'we'. This is dear to my heart, I love it, especially because I'm not in a big tech center. San Diego is pretty good, but it's not Boston or San Francisco. So I'm looking forward to this, and people who want to see these talks, presentations, demos, tutorials and hopefully programming sessions - I have people here in San Diego who want to do that - just subscribe and you'll get notified. We have some stuff there already, and more coming.
+**Carlisia Thompson:** I have two today. I will real quick give a shout out to remotemeetup.golangbridge.org, it's the Go Remote Meetup initiative that a few people are coming around to. It's what the name says - if you want to give a talk online and reach people who are not in your physical community, hop on there, we'll schedule a talk - I'm part of it too, so I'm saying 'we'. This is dear to my heart, I love it, especially because I'm not in a big tech center. San Diego is pretty good, but it's not Boston or San Francisco. So I'm looking forward to this, and people who want to see these talks, presentations, demos, tutorials and hopefully programming sessions - I have people here in San Diego who want to do that - just subscribe and you'll get notified. We have some stuff there already, and more coming.
 
 The other one that I've been meaning to say for the longest time is the Sourcegraph Chrome Extension. Install it on your computer and then go to GitHub and when you look at code, it's gonna be magic. You just hover your mouse over functions and constants and you get all sort of extra information that you don't have to hop to other places to see. There is a mini-tutorial video that they have, and we will include that on the show notes. It's pretty cool.
 
 **Erik St. Martin:** And we actually have Beyang, one of the co-founders of Sourcegraph, lined up for an episode. So that will be coming up as well.
 
-**Carlisia Pinto:** Yes.
+**Carlisia Thompson:** Yes.
 
 **Erik St. Martin:** For me this week - and hopefully I pronounce this correctly, because I don't think I've heard anybody say it - it's Rofi, which is a kind of an application launcher and window switcher for Linux, and I use that while I'm in i3 to open up new programs instead of dmenu.
 
@@ -440,15 +440,15 @@ The other one that I've been meaning to say for the longest time is the Sourcegr
 
 **Erik St. Martin:** Yeah, and recently they had a new release that brought a lot more features and made it look a lot prettier, so I've been having a blast with it. With that said, I wanna thank everybody, I wanna thank the panel - Brian and Carlisia - and I certainly wanna thank Sarah for coming on the show. I wanna thank everybody who's listening now and everybody who will be listening when these podcasts drop. Definitely share the show with your fellow Go programmers. Best way to subscribe would be to go to GoTime.fm and we will also have a weekly newsletter coming out - you can do that. Or on Twitter as well, @GoTimeFM. With that said, thanks everybody, and we'll see you next week.
 
-**Carlisia Pinto:** I'm glad to be here.
+**Carlisia Thompson:** I'm glad to be here.
 
 **Brian Ketelsen:** Thank you.
 
-**Carlisia Pinto:** Thank you, Sarah.
+**Carlisia Thompson:** Thank you, Sarah.
 
 **Sarah Adams:** Thanks.
 
-**Carlisia Pinto:** Bye.
+**Carlisia Thompson:** Bye.
 
 **Brian Ketelsen:** Thank you, Sarah.
 

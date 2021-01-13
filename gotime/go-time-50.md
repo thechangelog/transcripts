@@ -12,7 +12,7 @@
 
 **Erik St. Martin:** On the show today we have myself, Erik St. Martin, Carlisia Pinto is also here...
 
-**Carlisia Pinto:** Hi! You so mispronounced my name, but I love you, it's okay. \[laughter\]
+**Carlisia Thompson:** Hi! You so mispronounced my name, but I love you, it's okay. \[laughter\]
 
 **Erik St. Martin:** Yeah, we're moving fast here, sorry.
 
@@ -34,7 +34,7 @@
 
 **Kris Nova:** I say Azure because I'm really into mineral collecting and my favorite mineral is azurite, so it just kind of like was a no-brainer for me. But I've heard Azure in the wild quite a bit.
 
-**Carlisia Pinto:** I would say Azure.
+**Carlisia Thompson:** I would say Azure.
 
 **Erik St. Martin:** Yeah, I actually have the same problem trying to figure that out, and I think Adam Stacoviak the producer might have corrected me during a conversation we had... And I think it's actually based on Eastern countries versus Western countries. I think in the U.K. they say Azure, or something like that.
 
@@ -46,7 +46,7 @@
 
 **Erik St. Martin:** It's official.
 
-**Carlisia Pinto:** Sorry, I cannot change it.
+**Carlisia Thompson:** Sorry, I cannot change it.
 
 **Brian Ketelsen:** I'm gonna call Scott Guthrie and let him know that that's how this is from now on. \[laughter\]
 
@@ -64,7 +64,7 @@
 
 **Brian Ketelsen:** Okay, good. It's gonna be a good show, I feel it. You were mostly behind [Kops](https://github.com/kubernetes/kops) though, right?
 
-**Carlisia Pinto:** Kris, have you finished your sentence? You were just suddenly interrupted...
+**Carlisia Thompson:** Kris, have you finished your sentence? You were just suddenly interrupted...
 
 **Kris Nova:** No, it's fine. So I worked out a lot in Kops; I helped to bring the private topology in Amazon to Kops... That was something I coded a lot end of last year, and now I'm one of the maintainers. My involvement now is pretty much I do a lot of code reviews and I help manage the project on sort of a high level.
 
@@ -248,11 +248,11 @@ So I've secretly been kind of like, "One of these days I'm gonna move my blog ov
 
 **Erik St. Martin:** Carlisia, do you play any instruments?
 
-**Carlisia Pinto:** No, I don't. I played piano for a couple years when I was -- I can't even remember; maybe I was nine. But I don't remember a thing. I remember how to position the fingers. That's it.
+**Carlisia Thompson:** No, I don't. I played piano for a couple years when I was -- I can't even remember; maybe I was nine. But I don't remember a thing. I remember how to position the fingers. That's it.
 
 **Erik St. Martin:** I think in order for me to say that I played the guitar, we would have to clearly define what the definition of "play" is... \[laughter\]
 
-**Carlisia Pinto:** I might be taking up [ukulele](https://en.wikipedia.org/wiki/Ukulele) soon...
+**Carlisia Thompson:** I might be taking up [ukulele](https://en.wikipedia.org/wiki/Ukulele) soon...
 
 **Brian Ketelsen:** Oh, ukulele is so much fun.
 
@@ -284,7 +284,7 @@ It took a while to get into this -- like, I'm holding it like a guitar, playing 
 
 **Brian Ketelsen:** Right, I was just thinking "Wow, this person has their talk done ahead of time?"
 
-**Carlisia Pinto:** That's unheard of...
+**Carlisia Thompson:** That's unheard of...
 
 **Brian Ketelsen:** Usually we spend the night before each next day, moving between hotel rooms, helping people finish their talks. Last year I don't even know if we got to sleep the night before each day, because it was just moving from one hotel room to the next, listening to people's talks, fixing their slides... It was lots of procrastination, so we're very proud of you, Kris.
 
@@ -348,11 +348,11 @@ If you go to [goplay.space](https://goplay.space/) - it's a Go playground front-
 
 **Kris Nova:** Also, just because we're all hackers here, there's a Settings button in the upper right and you can change it over to Dark Mode and it looks really legit.
 
-**Carlisia Pinto:** Nice.
+**Carlisia Thompson:** Nice.
 
 **Brian Ketelsen:** Oh, it is legit!
 
-**Carlisia Pinto:** Thank you for that.
+**Carlisia Thompson:** Thank you for that.
 
 **Brian Ketelsen:** Legit!
 
@@ -376,7 +376,7 @@ If you go to [goplay.space](https://goplay.space/) - it's a Go playground front-
 
 **Kris Nova:** Right.
 
-**Carlisia Pinto:** So the CFP for [Gotham Go](http://gothamgo.com/) - which is New York City in 5-6 October - is opened. So the CFP is open and it will close on 15th July.
+**Carlisia Thompson:** So the CFP for [Gotham Go](http://gothamgo.com/) - which is New York City in 5-6 October - is opened. So the CFP is open and it will close on 15th July.
 
 **Erik St. Martin:** ...which is roughly --
 
@@ -384,7 +384,7 @@ If you go to [goplay.space](https://goplay.space/) - it's a Go playground front-
 
 **Erik St. Martin:** Yes. I'm thinking today is June...
 
-**Carlisia Pinto:** Today IS June.
+**Carlisia Thompson:** Today IS June.
 
 **Brian Ketelsen:** It is June.
 
@@ -396,21 +396,21 @@ If you go to [goplay.space](https://goplay.space/) - it's a Go playground front-
 
 **Brian Ketelsen:** \[laughs\] Exactly.
 
-**Carlisia Pinto:** And the last thing I will mention for projects and news is that [the videos](https://www.youtube.com/watch?v=spgyXhfxZP8&list=PLx_Mc4dJcQbl4qPWbVu86u6owZeiwsErR) from [GopherCon China](http://www.gopherchina.org/) are online. Apparently, most of them are in Chinese...
+**Carlisia Thompson:** And the last thing I will mention for projects and news is that [the videos](https://www.youtube.com/watch?v=spgyXhfxZP8&list=PLx_Mc4dJcQbl4qPWbVu86u6owZeiwsErR) from [GopherCon China](http://www.gopherchina.org/) are online. Apparently, most of them are in Chinese...
 
 **Brian Ketelsen:** Oh, that's cool...
 
-**Carlisia Pinto:** It is, so let's practice our Mandarin by watching the videos.
+**Carlisia Thompson:** It is, so let's practice our Mandarin by watching the videos.
 
 **Brian Ketelsen:** I wanna learn Mandarin so badly...
 
 **Erik St. Martin:** I tried...
 
-**Carlisia Pinto:** And with that, I have to go.
+**Carlisia Thompson:** And with that, I have to go.
 
 **Erik St. Martin:** You are getting kicked out of your room?
 
-**Carlisia Pinto:** I see people -- oh, wait... They're going away. They're going away, I'm not being kicked out...
+**Carlisia Thompson:** I see people -- oh, wait... They're going away. They're going away, I'm not being kicked out...
 
 **Erik St. Martin:** Crisis averted...
 
@@ -440,7 +440,7 @@ If you go to [goplay.space](https://goplay.space/) - it's a Go playground front-
 
 **Brian Ketelsen:** Yeah, so if you've used an anonymous struct literal, or a struct literal without the keynames...
 
-**Carlisia Pinto:** Sorry, I have to go now. Bye, this was fun!
+**Carlisia Thompson:** Sorry, I have to go now. Bye, this was fun!
 
 **Brian Ketelsen:** Bye, Carlisia.
 

@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And Carlisia Campos…
 
-**Carlisia Pinto:** Hi.
+**Carlisia Thompson:** Hi.
 
 **Erik St. Martin:** And then our special guest today is pretty well known in the industry, and has quite a number of interesting projects and articles that have been out. Please welcome Ben Johnson.
 
@@ -54,7 +54,7 @@ So I really love the depth of knowledge in these. It's not written at such a lev
 
 **Erik St. Martin:** We'll link to all of these in the show notes, but we'll start dropping them in the GoTimeFM channel on Slack for anybody who's listening now, and wants to look through these posts if they haven't seen them already.
 
-**Carlisia Pinto:** And this is so timeless. It's going to be useful for probably forever. We just need to do a good job resurfacing these posts once in a while.
+**Carlisia Thompson:** And this is so timeless. It's going to be useful for probably forever. We just need to do a good job resurfacing these posts once in a while.
 
 **Ben Johnson:** The nice thing about the standard library stuff is that it doesn't really change. They'll fix bugs and make it faster, but you don't have to go back and revamp it. Well, maybe version 2.0, if that ever comes up for Go.
 
@@ -74,7 +74,7 @@ So I really love the depth of knowledge in these. It's not written at such a lev
 
 **Erik St. Martin:** I think we need a service. Library Organization as a Service. Here's my project, \[laughs\] you tell me how to lay it out.
 
-**Carlisia Pinto:** That's exactly the name of the conference talk that I think should be derived from the Standard Package Layout blog post. Packages as a Service \[laughter\].
+**Carlisia Thompson:** That's exactly the name of the conference talk that I think should be derived from the Standard Package Layout blog post. Packages as a Service \[laughter\].
 
 **Brian Ketelsen:** Nice!
 
@@ -94,7 +94,7 @@ So I really love the depth of knowledge in these. It's not written at such a lev
 
 **Erik St. Martin:** It gets really hard, right? There's the common expression 'it's hard to change the wheels on a moving bus.' Especially the bigger projects, you start going down this road, and you're kind of trapped in it. It takes too much effort to change out the organization, and abstract things out the proper way. It becomes a massive effort. Getting off on the right foot is good.
 
-**Carlisia Pinto:** \[00:08:00.20\] I really liked when I saw... Ben gave a lightning talk for Go and I was there, and I went, "Okay! This is what I'm talking about! I need to learn how to do this." Because a lot of the Go projects that I've seen, a lot of them have model package, and I just cringe. I don't know why I cringe; I started to understand why now, after going through this learning.
+**Carlisia Thompson:** \[00:08:00.20\] I really liked when I saw... Ben gave a lightning talk for Go and I was there, and I went, "Okay! This is what I'm talking about! I need to learn how to do this." Because a lot of the Go projects that I've seen, a lot of them have model package, and I just cringe. I don't know why I cringe; I started to understand why now, after going through this learning.
 
 Then I look at the models, and they have model information, and they have database implementation information altogether, and I don't like that \[laughs\]. So I really, really like the way that Ben lays everything out, and separates everything. Recently, I laid out a project from scratch. I'm not super experienced with Go, but I thought about it for a long time, because I feel that I need to have things organized, and if I don't know where to put them, I don't know what it is that I'm doing, and I need to figure it out. It's just part of the process for me.
 
@@ -122,11 +122,11 @@ Then I look at the models, and they have model information, and they have databa
 
 **Ben Johnson:** I totally agree.
 
-**Carlisia Pinto:** Going back to something that Ben said… Ben, what do you think or tell people when they say, "Well, Go is not really for web apps; I don't know if it's even for API." Do you hear people say that?
+**Carlisia Thompson:** Going back to something that Ben said… Ben, what do you think or tell people when they say, "Well, Go is not really for web apps; I don't know if it's even for API." Do you hear people say that?
 
 **Ben Johnson:** I think it does well with APIs. I think… I did a talk over at GopherCon for the kickoff party that was around... A lot of the industry is moving, we're not doing… Well, two things that Go's not really good at is templating and SQL databases. I mean, it's not great. You can use it, but it's not great. And the premise was a lot of people are moving away from SQL databases, key/value stores, or NoSQL databases, so that's less of a problem. And then using things like React on the frontend, that's making it so we are interacting with APIs and we don't have to have this templating side. I think the industry shift is actually moving more towards that goes better for.
 
-**Carlisia Pinto:** Yeah, and even Amber - I learned that actually just yesterday, that they have something that generates JSON API's pack, and if you have a schema for that, I think they auto-generate code. Somebody was saying it's super easy, and we can do that with an API in Go, of course. Now, I have to follow up on something else you said now. Why is Go not good to use with SQL? I've never heard that before.
+**Carlisia Thompson:** Yeah, and even Amber - I learned that actually just yesterday, that they have something that generates JSON API's pack, and if you have a schema for that, I think they auto-generate code. Somebody was saying it's super easy, and we can do that with an API in Go, of course. Now, I have to follow up on something else you said now. Why is Go not good to use with SQL? I've never heard that before.
 
 **Ben Johnson:** If you use something like… I came from Rails before Go; that was my most recent language I was doing before Go.
 
@@ -152,7 +152,7 @@ So SQL came to light because SQL was sellable to business people. You could teac
 
 **Erik St. Martin:** \[00:20:00.19\] I like the approach that we're starting to think about things differently. I like the idea of column-oriented databases, things like... Cassandra was a big one I kind of liked. You could have these really wide rows, and you could scan along them, and read in just as much of that as you wanted, and it kind of takes a way of thinking about the problem. But these things are highly interesting, and most people aren't doing a lot of complex stuff with data, too. They can't just write they own little key/value logic over the top of.
 
-**Carlisia Pinto:** I have to say that if you have used a NoSQL database and have experience and you can make tradeoff calculations, it's great. But if you don't have that much experience, and you want to know, "Okay, I have this data model, should I be looking at a NoSQL style or architecture?" It's really hard to figure that out, because you search on the internet - where else would you go? And there are all kinds of opinions in each and every way, and you just can't make up a decision. Without going through the experience, it's really hard to learn how to decide, okay, can I safely go in this direction? No, maybe I missed something; if you know how somebody decides to do, okay, I can safely go with NoSQL here, and I'll be fine down the road.
+**Carlisia Thompson:** I have to say that if you have used a NoSQL database and have experience and you can make tradeoff calculations, it's great. But if you don't have that much experience, and you want to know, "Okay, I have this data model, should I be looking at a NoSQL style or architecture?" It's really hard to figure that out, because you search on the internet - where else would you go? And there are all kinds of opinions in each and every way, and you just can't make up a decision. Without going through the experience, it's really hard to learn how to decide, okay, can I safely go in this direction? No, maybe I missed something; if you know how somebody decides to do, okay, I can safely go with NoSQL here, and I'll be fine down the road.
 
 **Erik St. Martin:** I think NoSQL is also an abstraction. So underneath, NoSQL is interacting with a
 
@@ -176,7 +176,7 @@ So I can agree that a key/value store is fantastic for my use case, but it becom
 
 **Ben Johnson:** Yeah, I totally agree with that. I think there's a lot of education side too that's missing. If you're going to start off in that world, it's just not much there to fall back on and to learn from. I hope that improves. I'm definitely going to be writing some blog posts on that, too.
 
-**Carlisia Pinto:** That's a call-to-action for you too, Brian \[laughter\].
+**Carlisia Thompson:** That's a call-to-action for you too, Brian \[laughter\].
 
 **Brian Ketelsen:** Exactly. So I have a question for you, Ben. This is a kind of out-there question. Usually when you have a project, you get a feel for how people are using it. What is the craziest thing you've seen done with BoltDB?
 
@@ -242,7 +242,7 @@ When we say LSM, for anybody who's not aware, log-structured merge-tree, and it'
 
 **Erik St. Martin:** What were those called, the Rails events, Brian? They held a couple locally here, too, where they kind of did it across the country, and people got together. They formed teams and built stuff. It wasn't a hackathon, they called it something else…
 
-**Carlisia Pinto:** I know what you're talking about, it was at Gopher Gala. I did it once... Rails Rumble.
+**Carlisia Thompson:** I know what you're talking about, it was at Gopher Gala. I did it once... Rails Rumble.
 
 **Erik St. Martin:** Rails Rumble. That's what I'm talking about. There were some cool things that came out of that that I really wish had gone somewhere. And some of them were completely humorous. Like, who came up with this idea?
 
@@ -260,15 +260,15 @@ It actually reminds me too, because there's a new database I saw come out too ca
 
 **Erik St. Martin:** So Adam Stacoviak from Changelog just posted a link to it. The site is not up, but the GitHub still exists for Omnominator.
 
-**Carlisia Pinto:** I want to make sure we get Ben to answer the question that Erik asked.
+**Carlisia Thompson:** I want to make sure we get Ben to answer the question that Erik asked.
 
 **Erik St. Martin:** Answer the question, Ben! \[laughter\]
 
-**Carlisia Pinto:** Now that you've written a couple of really thorough blog posts on doing the walkthrough with Go Standard libraries, are you up to doing more of it?
+**Carlisia Thompson:** Now that you've written a couple of really thorough blog posts on doing the walkthrough with Go Standard libraries, are you up to doing more of it?
 
 **Ben Johnson:** Oh, yeah. I have 27 more posts lined up, that I'm working on.
 
-**Carlisia Pinto:** Wow.
+**Carlisia Thompson:** Wow.
 
 **Ben Johnson:** I'm trying to start on the lowest level of the stack, which is why I did IO and bytes first, because I really don't depend on much Unicode stuff. But I kind of want to move up into the encoding ones, and things that lay on top of that, and so on and so forth.
 
@@ -336,35 +336,35 @@ I was trying to build the most efficient version I could, and then I kept ending
 
 **Brian Ketelsen:** It's not happening today. Why are the noms people not in GoTime FM Slack? Somebody fix this.
 
-**Carlisia Pinto:** Talking about cute logos, the project I want to mention today also has to do with database and it totally won me just for the website, because the website and the logo is also cute and well put together. It's simple and clean. So if you want to sell something to me, you know how to do it \[laughter\].
+**Carlisia Thompson:** Talking about cute logos, the project I want to mention today also has to do with database and it totally won me just for the website, because the website and the logo is also cute and well put together. It's simple and clean. So if you want to sell something to me, you know how to do it \[laughter\].
 
 **Erik St. Martin:** Give it a cute logo?
 
-**Carlisia Pinto:** If it's cute and color-coded, there we go. I'm sold.
+**Carlisia Thompson:** If it's cute and color-coded, there we go. I'm sold.
 
 **Erik St. Martin:** I have this blade of grass, but it comes with a very cool logo. \[laughter\]
 
-**Carlisia Pinto:** Exactly.
+**Carlisia Thompson:** Exactly.
 
 **Brian Ketelsen:** Sold!
 
-**Carlisia Pinto:** I'm easy like that. So this is not an ORM, this is a productive data access layer for Go. I'm finding this so funny because I think in every other language, a package like this will say, "We are an ORM. We are the best ORM", no matter how full-featured it was. But with Go, it was like, "No, no, no. We're not an ORM! We're not an ORM. \[laughs\]
+**Carlisia Thompson:** I'm easy like that. So this is not an ORM, this is a productive data access layer for Go. I'm finding this so funny because I think in every other language, a package like this will say, "We are an ORM. We are the best ORM", no matter how full-featured it was. But with Go, it was like, "No, no, no. We're not an ORM! We're not an ORM. \[laughs\]
 
 **Brian Ketelsen:** It's a dirty word in Go.
 
-**Carlisia Pinto:** It's a totally dirty word, right? So much. I chuckle every time.
+**Carlisia Thompson:** It's a totally dirty word, right? So much. I chuckle every time.
 
 So I was looking at not ORMs and ORMs recently, and I found this today - it was actually in the Go newsletter, and I think I'm going to use it. It's not full-featured, it's not doing a lot of things that makes me scared. Being very new to Go, I don't think I can recognize enough to make decisions; my package is doing way too many things, I back off. That's my measurements right now. But I want to have a little functionality. I have an API that's going to have filters and parameters, and I want to just drop them into variables, put them inside the function, and voila. I don't want to be writing out SQL and doing a bunch of things by hand. I think \[unintelligible 00:44:15.18\], so I think I'm going to use this.
 
 **Brian Ketelsen:** \[00:44:20.21\] That's where people in the programming world always differ. There's a category of people that want to write their SQL perfectly tuned by hand, execute it, and then map those back into structures, and use them for whatever they need to. There's another category of people that doesn't want to think about the database in any way, shape, or form. And there's very little in the middle.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Erik St. Martin:** So I'm actually somewhere in the middle.
 
 **Brian Ketelsen:** Oh, you just had to be contrary.
 
-**Carlisia Pinto:** With this, you can totally just send SQL. So I like that because I anticipated that I would need to do that. If it didn't have that feature, I wouldn't use it. But I think all of these libraries will have that, I would imagine. So you get something... You get both things.
+**Carlisia Thompson:** With this, you can totally just send SQL. So I like that because I anticipated that I would need to do that. If it didn't have that feature, I wouldn't use it. But I think all of these libraries will have that, I would imagine. So you get something... You get both things.
 
 **Erik St. Martin:** Some of my pain points with doing straight SQL is… Anybody who's tried using the standard database SQL package can attest to this - scanning individual things gets painful. Especially when you're changing the SQL, you didn't get your type right, and all these things. That can cause a lot of pain, so I like the idea of things that make it easy to map my data and query back into my type.
 
@@ -372,7 +372,7 @@ But there's also the other side of it. We talked about Rails. I love how easy Ra
 
 There's this translation process, but for the most part if you get familiar with Active Record, that's not a big thing. But for new people, there's also the fact that things like major ORMs can be leaky abstractions. They're perfect abstractions when everything is going well, but if you don't understand the SQL that's being run under the covers, that can really affect your performance. You get into N+1 query, N+1 issues, and stuff like that. It gets hard; where is the perfect balance? I don't know if I have the answer for that. I feel like I'm somewhere in-between.
 
-**Carlisia Pinto:** Yeah. There is the performance issue that if you're not aware what's going behind scenes, you can get into trouble. That might also be the issue where you want to do something a little bit different, and now what? But you can always fall back to SQL, I guess.
+**Carlisia Thompson:** Yeah. There is the performance issue that if you're not aware what's going behind scenes, you can get into trouble. That might also be the issue where you want to do something a little bit different, and now what? But you can always fall back to SQL, I guess.
 
 **Erik St. Martin:** It sounded like, from your standpoint, Ben, that you like the ORM side of things; you think that's a point where we could be better at, that would grow Go usage? Adoption, rather.
 
@@ -448,47 +448,47 @@ So with that, Brian, do you want to go first?
 
 **Brian Ketelsen:** \[00:55:48.01\] Yeah, I'll kick it off with Minikube; github.com/kubernetes/minikube. K-U-B-E. It's a really fast and easy way to get you going on a Kubernetes cluster on your local laptop, which is awesome if you don't want to run 17 VMs to have a cluster. Very nice, simple, lightweight, easy way to get going.
 
-**Carlisia Pinto:** I can go next. First, let me mention that library I was talking about, it's upper.io/database.
+**Carlisia Thompson:** I can go next. First, let me mention that library I was talking about, it's upper.io/database.
 
 **Brian Ketelsen:** Oh, the database library earlier?
 
-**Carlisia Pinto:** Yeah. The not-ORM library. Before I forget too, I want to mention that Ben did a remote meetup event and he showed how to use BoltDB. That was pretty awesome.
+**Carlisia Thompson:** Yeah. The not-ORM library. Before I forget too, I want to mention that Ben did a remote meetup event and he showed how to use BoltDB. That was pretty awesome.
 
 **Erik St. Martin:** Oh, cool, was that recorded?
 
-**Carlisia Pinto:** It is, yes. So if you go to remotemeetup.golangbridge.org, you will have the past events, and you'll find his event there. It was very good, I saw that one.
+**Carlisia Thompson:** It is, yes. So if you go to remotemeetup.golangbridge.org, you will have the past events, and you'll find his event there. It was very good, I saw that one.
 
 **Erik St. Martin:** Oh, awesome.
 
-**Carlisia Pinto:** The free software I want to mention today is called Stow, it's part of the… I don't know how to pronounce this…
+**Carlisia Thompson:** The free software I want to mention today is called Stow, it's part of the… I don't know how to pronounce this…
 
 **Erik St. Martin:** GNU.
 
-**Carlisia Pinto:** GNU, yes. I found this out through looking through Brian's and Erik's Doc files. I don't understand how I've been a programmer this long and I didn't know about this.
+**Carlisia Thompson:** GNU, yes. I found this out through looking through Brian's and Erik's Doc files. I don't understand how I've been a programmer this long and I didn't know about this.
 
 **Erik St. Martin:** It's actually used under the covers for a lot of stuff to manage new versions of libraries.
 
-**Carlisia Pinto:** I thought it only did symlinks?
+**Carlisia Thompson:** I thought it only did symlinks?
 
 **Erik St. Martin:** It does do symlinks, so it can basically symlink the default version of, say, a dynamic library or static library, to the most recent version of it that may exist somewhere else. But it's used for several things like that.
 
-**Carlisia Pinto:** Interesting.
+**Carlisia Thompson:** Interesting.
 
 **Brian Ketelsen:** But it's very useful for DOT files.
 
 **Erik St. Martin:** Yeah. I cheated for DOT files \[laugh\].
 
-**Carlisia Pinto:** I see, I see. That's why the description here was a bit off from what I was expecting. But yeah, to manage DOT files… Wow, it's so easy. It's so easy to use! Can't believe I didn't know about it. Not I use it to manage my symlinks.
+**Carlisia Thompson:** I see, I see. That's why the description here was a bit off from what I was expecting. But yeah, to manage DOT files… Wow, it's so easy. It's so easy to use! Can't believe I didn't know about it. Not I use it to manage my symlinks.
 
 **Erik St. Martin:** Yeah, so the cool thing about it is you can basically layer symlinks. The way I set it up in my DOT files is I have a DOT file GitHub repository, and all of my configuration files are stored in this DOT files directory, but then they're managed… The path structures based on the way it would be in my home directory, and then I can just do Stow and give it one directory, like Git. Then it symlinks all my Git DOT files to my home directory back to my DOT files' directory. Then I can just keep adding files, and keep telling it to reStow for those symlinks. If the directories already exist in your home directory, it symlinks individual files. If the directory doesn't exist, it symlinks the whole directory. It's kind of cool, because if you have Linux and Mac and all these things, you can kind of tell it to symlink just the things that on that box, rather than getting all of your DOT files, all or nothing.
 
 **Brian Ketelsen:** Yeah, it's winning.
 
-**Carlisia Pinto:** My biggest problem with symlinking manually was to remember how to un-symlink things. With Stow there's a delete command, and it's so easy.
+**Carlisia Thompson:** My biggest problem with symlinking manually was to remember how to un-symlink things. With Stow there's a delete command, and it's so easy.
 
 **Erik St. Martin:** Yeah. To un-Stow it?
 
-**Carlisia Pinto:** Yes, or un-Stow; I don't know, I don't know remember. I only did it once. I set it up super quickly and it worked, and I never had to look at it again. That's why I thought it was so great.
+**Carlisia Thompson:** Yes, or un-Stow; I don't know, I don't know remember. I only did it once. I set it up super quickly and it worked, and I never had to look at it again. That's why I thought it was so great.
 
 **Brian Ketelsen:** Stow/d, I think.
 
@@ -500,7 +500,7 @@ So with that, Brian, do you want to go first?
 
 **Brian Ketelsen:** Yay!
 
-**Carlisia Pinto:** Yes, thank you. You did a great job explaining how it works, Erik. Thank you.
+**Carlisia Thompson:** Yes, thank you. You did a great job explaining how it works, Erik. Thank you.
 
 **Erik St. Martin:** I set up that readme a long time ago. At the time, I think Brian was wanting to steal some DOT files, and a couple of other people we worked with, so I wrote up a thing because I was having to go to people's desks and help them, so it was just easier that way.
 
@@ -530,7 +530,7 @@ So Ben, do you have a project you want to thank?
 
 **Erik St. Martin:** You have to be a Go person listening to this podcast who also likes InfoSec and ArchStrike. And Arch Linux.
 
-**Carlisia Pinto:** And none of them are in the Slack right now. I'm sorry \[laughter\].
+**Carlisia Thompson:** And none of them are in the Slack right now. I'm sorry \[laughter\].
 
 **Erik St. Martin:** I think we made it all the way through our Free Software Friday. Before we start to close out the show, I do want to point out that the Changelog has another new podcast that's out that's called Request for Commits, and they're speaking with people about open source sustainability, and the human side of code. Business licensing, how projects are supported financially... That is changelog.com/rfc. Definitely check that out if you like our podcast, and the Changelog podcast - because who doesn't like the Changelog podcast?
 
@@ -540,7 +540,7 @@ So Ben, do you have a project you want to thank?
 
 **Brian Ketelsen:** There's always one guy. Like the one guy on the GopherCon survey that thought Renee's talk was unsatisfactory. Seriously, a talk on the Gopher onset? You're out. Don't come back. We don't need you.
 
-**Carlisia Pinto:** Wow, her talk was awesome, I thought.
+**Carlisia Thompson:** Wow, her talk was awesome, I thought.
 
 **Erik St. Martin:** I think it was a nice mind-break. You forget how overwhelming all that content being jammed into you for two days straight can be. I think it was fun, and I think it was a nice step away from brain overload.
 
@@ -558,6 +558,6 @@ So Ben, do you have a project you want to thank?
 
 **Brian Ketelsen:** Thanks, Ben!
 
-**Carlisia Pinto:** Thank you!
+**Carlisia Thompson:** Thank you!
 
 **Ben Johnson:** Thanks for having me.

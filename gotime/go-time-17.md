@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And Carlisia Campos...
 
-**Carlisia Pinto:** Hi!
+**Carlisia Thompson:** Hi!
 
 **Erik St. Martin:** And today as our special guest, the man who needs very little introduction - everybody knows him from both the Go and Ruby world - Bryan Lyles.
 
@@ -86,11 +86,11 @@ The third things is that I find that we... This is a point that I think she brou
 
 We need to work on breaking these down to make them more relatable, or these concepts down, to make them more relatable to more people. Like I said, this is not easy. It's extremely hard, and we're not gonna find answers this generation. It's gonna be a generation or two down the way, but we need to make it better.
 
-**Carlisia Pinto:** I'm listening to you talk about how you don't compare yourself to other people. I totally compare myself to other people.
+**Carlisia Thompson:** I'm listening to you talk about how you don't compare yourself to other people. I totally compare myself to other people.
 
 **Erik St. Martin:** I do, too.
 
-**Carlisia Pinto:** ...and I think it's useful for me to do so. I hope it's in a healthy kind of way that I do that. There is totally the unhealthy aspect to it, that I'm thinking "I'm not as good as that person and I should be." But I also try to make it in such a way that I am looking at the happy path for myself, just like Bryan Lyles was saying, what he's trying to teach - he's trying to show the happy path, what's possible for the person to achieve. I think that's awesome, it's very productive to try to teach people that way.
+**Carlisia Thompson:** ...and I think it's useful for me to do so. I hope it's in a healthy kind of way that I do that. There is totally the unhealthy aspect to it, that I'm thinking "I'm not as good as that person and I should be." But I also try to make it in such a way that I am looking at the happy path for myself, just like Bryan Lyles was saying, what he's trying to teach - he's trying to show the happy path, what's possible for the person to achieve. I think that's awesome, it's very productive to try to teach people that way.
 
 Because, to make a side note, it is hard to do something until you see what's possible; then you just go for it. At least for me it happens like that. But as far as comparing myself to other people, when I look at other engineers and I see, "Wow, they have ten years of experience, or they have five experience and look how much they accomplished." And I look at the projects they worked on and I'm just in awe. I start thinking, "Wow, I should aim for that as well, because that looks interesting to me. I'd love to know those things. How do I get there?"
 
@@ -104,7 +104,7 @@ Because we look at her success and how far she's come, but we don't understand h
 
 Once you understand why she does what she does, or why someone else does what they do, then you can understand how they're doing this and how they're getting the success.
 
-**Carlisia Pinto:** Yes. Just to clarify, because I don't want to leave people with the wrong impression. I run into a lot of things, I run into a lot of people, and a lot of things don't resonate with me. For example, when I started getting to Papers We Love, we'd just started a chapter here in San Diego - that resonates with me. I want to have that kind of knowledge, and that medium appeals to me. So I know how I feel when I run into these things.
+**Carlisia Thompson:** Yes. Just to clarify, because I don't want to leave people with the wrong impression. I run into a lot of things, I run into a lot of people, and a lot of things don't resonate with me. For example, when I started getting to Papers We Love, we'd just started a chapter here in San Diego - that resonates with me. I want to have that kind of knowledge, and that medium appeals to me. So I know how I feel when I run into these things.
 
 When I look at somebody's work and that work resonates with me, I know how I feel and that's all I need to know. Maybe asking them how they feel would help me a little, too. Maybe they feel awful about it; that would dissuade me... But the point is there are things that we could be working on, that resonate with me, and then I do want to note the How. I want to go to the next step - how do I get involved with that? How do I get enough knowledge so that if that project's going on in my company I can be one of the people working on it because I have the skills?
 
@@ -114,7 +114,7 @@ To the other point, I'd like to start seeing people share their stories. How did
 
 \[00:20:06.03\] And even backgrounds - as Bryan Lyles pointed out - the way you grew up... I didn't grow up with a lot of money; I dropped out of high-school, I went back for a GED, completely self-taught... So, like Bryan said, everybody has their own path, and there are many paths that lead to the same place. Just because yours is different doesn't mean it's wrong. I think the passion and the desire to do well and the interest in the topics that you're working on is what really gets people successful. Because you can get lost in your work. You can go home after whatever your day job currently is, and you can lose five hours into it just because you're drawn to it.
 
-**Carlisia Pinto:** Yeah, I like that idea a lot. Cassandra Gil from GoBridge had the idea of a blog post series where people will write blog posts anonymously, telling about their story. We are going to be seeking people who will have what we would call a different story from the mainstream. And I think they're probably the mainstream more than what we think is mainstream, because there is so much diversity, and I don't think we tend to talk about it.
+**Carlisia Thompson:** Yeah, I like that idea a lot. Cassandra Gil from GoBridge had the idea of a blog post series where people will write blog posts anonymously, telling about their story. We are going to be seeking people who will have what we would call a different story from the mainstream. And I think they're probably the mainstream more than what we think is mainstream, because there is so much diversity, and I don't think we tend to talk about it.
 
 **Erik St. Martin:** I love the Why question, too. I think that's a very good point, Bryan, that a Why is really what matters. Because it's always probably gonna end in passion. If somebody did something that really became a hit, it's probably because they were just really driven, for whatever reason; the technology interests them, the problem that it was solving interests them, things of that nature. I think that's what it's gonna boil down to.
 
@@ -122,7 +122,7 @@ To the other point, I'd like to start seeing people share their stories. How did
 
 I think that same thought pattern goes with learning and programming. You could have a person who's a brilliant programmer; if they don't care about what they're doing, they're probably not gonna stay a programmer long.
 
-**Carlisia Pinto:** I always say this... When people ask how I got into programming, I always say you have to really love it, because if you don't love it, you're not going to last a long time. You have to love it because it's very rigorous and demanding. I think you have to have a certain aptitude to dig deep and take the next step, even though a lot of times it's not easy. You have to keep doing it, otherwise you don't get anywhere.
+**Carlisia Thompson:** I always say this... When people ask how I got into programming, I always say you have to really love it, because if you don't love it, you're not going to last a long time. You have to love it because it's very rigorous and demanding. I think you have to have a certain aptitude to dig deep and take the next step, even though a lot of times it's not easy. You have to keep doing it, otherwise you don't get anywhere.
 
 **Erik St. Martin:** I think people need micro-successes too, to develop the love for it. Most people probably got into programming for one reason or another and then they did something, and that feeling that "I've built this" came out of it. This is a similar thing to a contractor. Long, hard working days, you bang your thumb with the hammer and all that stuff, but the exciting part is when you step back and you look at that finished product, and you're like, "I built that..." People need those wins.
 
@@ -178,7 +178,7 @@ And I'm getting older, I don't like all the hip things anymore, but I will say t
 
 **Erik St. Martin:** Awesome. I actually remembered you from TAFT too, Bryan, when we met at GopherCon. How can you forget that video...?
 
-**Carlisia Pinto:** Same here.
+**Carlisia Thompson:** Same here.
 
 **Brian Ketelsen:** It's funny, because I didn't remember TAFT, I remembered Smartacus \[00:35:55.02\] I spent so much time reading Bryan's blog posts about testing...
 
@@ -226,7 +226,7 @@ And then you know what? At the end of the day, give me credit for it; and then w
 
 I think this is one of the things that the Ruby community got really well, is that, yeah, we had a whole bunch of testing frameworks, from RSpec to whatever else, but people thought about it. In Go, I think we dismissed it quite of quickly with the whole "no dependencies" movement, where we just didn't even think about, "Hey, Google is big, they have lots of engineers, lots of smart people, but guess what? They have not solved all the problems." AWS is still beating them in cloud, other people are still competitive in other places. Google doesn't have all the answers, so we need to go out and find those answers, because they can't even give us good dependency management, so why do you think they're gonna give us good testing management? And that's not a dig, that's just reality; I love you all.
 
-**Carlisia Pinto:** Are you saying the test package in the standard library is not good enough and that we should be using others?
+**Carlisia Thompson:** Are you saying the test package in the standard library is not good enough and that we should be using others?
 
 **Bryan Liles:** How about this - I will say that it is not always good enough. I can compare two things, I can use DeepEquals, I can write out all that stuff, or I could, on other projects, like I do in dough, control, CTL or whatever you want to call it - what I do is I use the Testify package, and I use their mocking package. Is it better? I don't know. It makes me move smoother sometimes, but then there's things I can't do with it.
 
@@ -234,11 +234,11 @@ This is the fallacy of smart people - we like to think that whatever we think, a
 
 I'm never gonna say who's right and who's wrong. I'll say that we should be more pragmatic about it, and not fall into dogma.
 
-**Carlisia Pinto:** Yeah, I like this philosophy of being pragmatic. Maybe because the Go community is relatively still new, there is a lot of purism and you're never sure if you should veer off the beaten path... So it's good to hear that message too, from experienced people.
+**Carlisia Thompson:** Yeah, I like this philosophy of being pragmatic. Maybe because the Go community is relatively still new, there is a lot of purism and you're never sure if you should veer off the beaten path... So it's good to hear that message too, from experienced people.
 
 **Bryan Liles:** It's religion. You know, I like the concept of religions and I'm not anti-religious, I'm just not very religious myself. But I do feel that once you get on the soap box and start saying that we need to do it this way or that way, it's like the difference between Christianity, Judaism and Islam. There are differences, but they're awful lot alike as well, and we need to work on celebrating our alike rather than your differences.
 
-**Carlisia Pinto:** That's a very good point. In the Ruby and Ruby on Rails community they did an excellent job in bringing developers into the testing mentality, and I wanted to ask you where does the Go community stand, as far as you can tell, on the testing philosophy? You already gave some hints, but in more practical terms, what do you see?
+**Carlisia Thompson:** That's a very good point. In the Ruby and Ruby on Rails community they did an excellent job in bringing developers into the testing mentality, and I wanted to ask you where does the Go community stand, as far as you can tell, on the testing philosophy? You already gave some hints, but in more practical terms, what do you see?
 
 **Bryan Liles:** \[00:43:45.11\] Well, I will tell you this - I can go to look at the github.com/stretchr/testify and I'm sure there's a lot of stars there. That alone says that there is a lot of things going on. But then you have the other integration-style testing things that are in Go. Yeah, they're a little bit weird - they're not quite Go... I'm thinking of Gomega.
 
@@ -278,7 +278,7 @@ Just remember, all we're trying to do is write code faster. If I can write code 
 
 **Bryan Liles:** Well, past Bryan is a jerk, and we know past Bryan is a jerk, so I don't expect him to be better.
 
-**Carlisia Pinto:** For me, one thing that I have adopted at some point and since then I always use it, and it has been tremendously helpful, is to have the red there at some point. I don't care if I'm writing the test first or not, but making that test fail makes a huge difference, because you could be writing and everything's passing -- guess what? It's not passing what you think it is testing, so making sure it fails with the proper case makes a difference. Because it happens... Sometimes you write a test to fail and it doesn't fail, and you're like "Whoops! I'm not even testing what I thought I was testing..."
+**Carlisia Thompson:** For me, one thing that I have adopted at some point and since then I always use it, and it has been tremendously helpful, is to have the red there at some point. I don't care if I'm writing the test first or not, but making that test fail makes a huge difference, because you could be writing and everything's passing -- guess what? It's not passing what you think it is testing, so making sure it fails with the proper case makes a difference. Because it happens... Sometimes you write a test to fail and it doesn't fail, and you're like "Whoops! I'm not even testing what I thought I was testing..."
 
 **Erik St. Martin:** There's also some unit tests... I know in Ruby they have it - I forgot the name of the library now - where it inverts your test to basically make sure that it would fail without it. They have fuzzying tools and stuff like that.
 
@@ -286,11 +286,11 @@ So we talk about having those tests there for refactoring; unless it's a large r
 
 I think if you're on a large team and lots of people are touching the same code, I think it benefits you more to have a lot of test coverage, because there's a lot of risk there, that I start stepping in and making changes, but then, you know... Brian and Carlisia are working on stuff and I break them because I'm not testing the area that they're working on, and stuff like that. So for large projects and large teams I think it benefits more.
 
-**Carlisia Pinto:** And testing is something that really pays off to learn how to do well.
+**Carlisia Thompson:** And testing is something that really pays off to learn how to do well.
 
 **Erik St. Martin:** Without a doubt.
 
-**Carlisia Pinto:** \[00:51:47.02\] Right? I'm not there yet, I keep learning, but you look at a codebase and it has a ton of tests, and most of them are useless. It consumes time from everybody - they have to read... I mean, when I look at a new codebase, the first thing I read is the test, because it will tell me the business logics for the system. If you find everything is so convoluted, and once you start learning the codebase, you figure out, "Oh, these are all useless." It's a major waste of time.
+**Carlisia Thompson:** \[00:51:47.02\] Right? I'm not there yet, I keep learning, but you look at a codebase and it has a ton of tests, and most of them are useless. It consumes time from everybody - they have to read... I mean, when I look at a new codebase, the first thing I read is the test, because it will tell me the business logics for the system. If you find everything is so convoluted, and once you start learning the codebase, you figure out, "Oh, these are all useless." It's a major waste of time.
 
 **Erik St. Martin:** Yeah, if they not valid tests, they're just trying to hit lines of code, then there's no point in having them. But I think the takeaway is you should try to test as best as you can. If you've got a one or two-line function that does something very clear - formats a string, or something - I don't know whether you should feel guilty that you didn't get 100% coverage because you didn't test that method.
 
@@ -302,7 +302,7 @@ If you look at a project like Kubernetes, it's a little convoluted, but they hav
 
 **Bryan Liles:** Yeah.
 
-**Carlisia Pinto:** That's a very good point Bryan, because I have just started to realize a lot of the blog posts out there, a lot of the examples, a lot of the sample codes are applicable to libraries if you're writing a library; but if you're writing an application or an API, you have to do things a bit differently. It's different. And that's a good tip, so I definitely will need to look up that codebase.
+**Carlisia Thompson:** That's a very good point Bryan, because I have just started to realize a lot of the blog posts out there, a lot of the examples, a lot of the sample codes are applicable to libraries if you're writing a library; but if you're writing an application or an API, you have to do things a bit differently. It's different. And that's a good tip, so I definitely will need to look up that codebase.
 
 **Brian Ketelsen:** We need to take a break and talk about our next sponsor. Bryan, I'd like it if you just closed your ears for a moment, please?
 
@@ -322,7 +322,7 @@ If you look at a project like Kubernetes, it's a little convoluted, but they hav
 
 **Bryan Liles:** That's right.
 
-**Carlisia Pinto:** Talking about your company - how about the monorepo deal with DigitalOcean? Let's talk about that.
+**Carlisia Thompson:** Talking about your company - how about the monorepo deal with DigitalOcean? Let's talk about that.
 
 **Bryan Liles:** Oh, I'll give you where that came from. We were doing Go; let's say I did start doing Go in the middle of 2014. We started doing Go, everybody started doing Go, but the problem is that we had our internal GitHub and then we had about 15 projects inside of there and actually making sure everything mounted up just didn't work.
 
@@ -342,15 +342,15 @@ Then when we reintegrate to master, we pretty much know if it's gonna work or if
 
 I will say this, you can explore the monorepo, but realize that it's not a panacea. Like having children - they're amazing when they come out, that first second, but for the next three weeks or three months they suck, because they cry all the time. \[laughter\] Then they get older and they're amazing again. That's about where we are right now. We're right at the point where it stopped crying and it started getting amazing again, and we can see where it's going to be a really awesome adult.
 
-**Carlisia Pinto:** Do you ever talk about breaking it out?
+**Carlisia Thompson:** Do you ever talk about breaking it out?
 
 **Bryan Liles:** Some people talk about it, and I would say there are projects that aren't in the repo for reasons political or technical, but we're just trying to make sure that everyone keeps \[unintelligible 01:01:48.17\] for the greater good of the team; we keep all the Go in the same place. And you know, this is another thing that comes down to dependency management in Go. Since it's not a thing that we know about, it's not a solved problem for us, we chose to solve it by just blocking everything in and burgeoning the dependencies along with everything else.
 
-**Carlisia Pinto:** A question for you - what is your ratio of commits to merge conflicts?
+**Carlisia Thompson:** A question for you - what is your ratio of commits to merge conflicts?
 
 **Bryan Liles:** Merge conflicts? Never.
 
-**Carlisia Pinto:** Really?
+**Carlisia Thompson:** Really?
 
 **Bryan Liles:** Never. No, we don't have merge conflicts. The reason we don't is because if you think about it, we have our standard library Doge, and then all the teams... So, in any particular section of the code, there might only be like 3 or 4 developers. It's not like everybody is in there, killing everything at one time. It's one repo, but there is a lot of pieces that are being touched at once, and not everybody -- there's not hot spot inside the codebase.
 
@@ -358,17 +358,17 @@ I will say this, you can explore the monorepo, but realize that it's not a panac
 
 The way I see it is it's like software - you have to look at coupling and cohesion. If you've got two different repos that need to know a lot about each other, and changes in one often require changes in the other, that becomes a beast to maintain. How do you submit a pull request? Docker is one that I've contributed a patch to, and it's a similar thing - in one pull request you have to mention a pull request in another repo that's required for this pull request to work, and it just becomes a much bigger problem than it needs to be, if kind of all those things lived in one space.
 
-**Carlisia Pinto:** \[01:03:58.05\] Yeah, that is true. I've been there too, and you have to put a "Work in Progress, no merge please, until this one is merged. Then we can merge the other one."
+**Carlisia Thompson:** \[01:03:58.05\] Yeah, that is true. I've been there too, and you have to put a "Work in Progress, no merge please, until this one is merged. Then we can merge the other one."
 
 **Bryan Liles:** And we do that. Sometimes you will see a tweet come through that says, "Please do not merge", and no one merges it. But I think as long as communities or the teams talk about these things, it's okay. The good thing about having the monorepo is that it defeats the tribal mentality that... Developers love to get information and then not share it; but if everybody is developing in the same repo, that tribe gets way larger and we don't have such tiny, compartmentalized information. No one has to worry about the build system. You know how you can just have builds? You just put it in this repo, and it will get builds. You know how to get a binary? Mention it in this JSON file, and it will get built and published.
 
 I'll say one last cool thing - we don't worry about version. Internally, we don't do software versions. We just push out the latest thing, or the latest working thing.
 
-**Carlisia Pinto:** How about the peripheral work? For example, do you get build notifications for every single build?
+**Carlisia Thompson:** How about the peripheral work? For example, do you get build notifications for every single build?
 
 **Bryan Liles:** Yeah, in a different Slack room called Golang-build, and you just look for your name in there.
 
-**Carlisia Pinto:** Wow, that would drive me crazy.
+**Carlisia Thompson:** Wow, that would drive me crazy.
 
 **Bryan Liles:** No, I just turn all the notifications -- actually, my Slack is weird; I turned the notifications off for everything. I join all the channels and then turn all the notifications off, and then I can go look when I wanna look. But generally, I only look in there whenever I care. The only time that you will see a notification in the main Go room is whenever Master Build builds; that's important. But other than that, who cares?
 
@@ -386,7 +386,7 @@ So I'm not gonna not use those tools because it's a little slow. But also, I'll 
 
 **Erik St. Martin:** I still haven't tried Visual Studio Code. I know a lot of people rave about it... I'm just a creature of habit.
 
-**Carlisia Pinto:** I've tried it twice and I couldn't wrap my head around it.
+**Carlisia Thompson:** I've tried it twice and I couldn't wrap my head around it.
 
 **Brian Ketelsen:** I use it in my training classes, because it's a really easy thing to configure and people can see what you're doing while you're clicking, rather than wonder what you're doing while you're typing strange Vim movement commands.
 
@@ -412,7 +412,7 @@ So I'll kick this off. My \#FreeSoftwareFriday mention for the day is PfSense, o
 
 **Erik St. Martin:** And you can put it on your own beefy box if you want to. How about you, Carlisia.
 
-**Carlisia Pinto:** I don't have one today.
+**Carlisia Thompson:** I don't have one today.
 
 **Erik St. Martin:** Okay. I have one. I have been dealing with it a lot. Ansible. I love Ansible. I still struggle too, because Puppet and everything has its own appeal, but I'm still just a big fan of building out scripts for deployment using Ansible.
 
@@ -438,11 +438,11 @@ How about you, Bryan? Any shout outs you wanna give?
 
 **Erik St. Martin:** Not for three hours we haven't... So I think that is it, unless Carlisia thought of one at the last minute? No?
 
-**Carlisia Pinto:** I can +1 what Bryan Liles said.
+**Carlisia Thompson:** I can +1 what Bryan Liles said.
 
 **Erik St. Martin:** That works.
 
-**Carlisia Pinto:** Ben Johnson's posts are awesome.
+**Carlisia Thompson:** Ben Johnson's posts are awesome.
 
 **Erik St. Martin:** I love these posts like this, and I'm really loving that we've reached a point in the community's growth that we're seeing a lot more content now than we have in prior years. Lots of people are stepping up and talking about things. I love all the new stuff by Dave Cheney with the solid design, and all these things... You remember, Bryan, coming from the Ruby world, all that stuff was exciting; we were talking about patterns, testing and things like that.
 
@@ -450,11 +450,11 @@ How about you, Bryan? Any shout outs you wanna give?
 
 **Brian Ketelsen:** Amen.
 
-**Carlisia Pinto:** Yes. And we're going to have Aaron Schlesinger on the show and we're going to talk about design patterns; I'm looking forward to that.
+**Carlisia Thompson:** Yes. And we're going to have Aaron Schlesinger on the show and we're going to talk about design patterns; I'm looking forward to that.
 
 **Erik St. Martin:** Yes, that will be next week.
 
-**Carlisia Pinto:** Yes.
+**Carlisia Thompson:** Yes.
 
 **Erik St. Martin:** So with that, I guess we have to say goodbye... At some point we have to, because we're out of time. I wanna thank everybody on the show, and especially I wanna thank Bryan for coming on the show and talking to us about all the great topics today. Thanks to everybody who's listening now; if you're not subscribed, you can go to GoTime.FM. We will be setting up a weekly email at some point; we're kind of acquiring content at the moment. You can follow us on Twitter, @GoTimeFM and hit us up on our GitHub, which is github.com/gotimefm/ping, if you wanna be on the show, or you wanna recommend a guest or have questions. With that, goodbye everybody.
 
@@ -462,4 +462,4 @@ How about you, Bryan? Any shout outs you wanna give?
 
 **Bryan Liles:** Thanks for having me.
 
-**Carlisia Pinto:** Thanks, Bryan.
+**Carlisia Thompson:** Thanks, Bryan.

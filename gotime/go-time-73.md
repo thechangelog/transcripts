@@ -1,6 +1,6 @@
 **Brian Ketelsen:** Alright, welcome to another episode of GoTime. This is episode number 73, and we're joined today by Andrei Matei from CockroachDB. I am Brian Ketelsen, and with me I've got Carlisia Pinto...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Brian Ketelsen:** And our guest Andrei Matei.
 
@@ -30,7 +30,7 @@ So the product sounded really appealing, and then the company had all the other 
 
 **Andrei Matei:** That's exactly right. The holy grail is well put, and in fact, I believe that's how it was sold to me at the time... And I've been preaching it ever since. Now I tell people that maybe it is possible, and we're doing it.
 
-**Carlisia Pinto:** Andrei, as far as CockroachDB, what do you think the companies who should be using this particular database are? Because what I'm thinking is -- I haven't used it myself, so what I'm thinking is is it more complex because of what it does, which is distribute your data in different machines, I suppose? Or do you also distribute data into multiple machines... But my question is does that add enough complexity that if you just want a straight up relational database you wouldn't get so much benefit from it? Or would anybody reap some benefits from using it?
+**Carlisia Thompson:** Andrei, as far as CockroachDB, what do you think the companies who should be using this particular database are? Because what I'm thinking is -- I haven't used it myself, so what I'm thinking is is it more complex because of what it does, which is distribute your data in different machines, I suppose? Or do you also distribute data into multiple machines... But my question is does that add enough complexity that if you just want a straight up relational database you wouldn't get so much benefit from it? Or would anybody reap some benefits from using it?
 
 **Andrei Matei:** Yeah, that's a great question, and it comes up all the time. I think different people have different answers to this. I'll give you mine with the caveat that other people might say different things, and particularly marketing people might want us to focus on one niche or another... But my personal view is that anybody who's using a relational database -- first of all, everybody who's using a database should probably use a relational database, and then everybody who needs a relational database I think should use CockroachDB at this point, instead of some of the older alternatives.
 
@@ -48,13 +48,13 @@ We try to address a pretty diverse range of companies and clients. We go from th
 
 A big thing that hinders adoption of a database is novelty. When people think about their data, they don't want to experiment with new things. They like very tried and true solutions. If it's anything that's preventing adoption, it's the novelty, but I hope we're overcoming this.
 
-**Carlisia Pinto:** That is a very good point, because whenever I wanna set up a database, I don't want to think about it. I already fiddled with the database enough; I already ran into enough problems, I don't wanna learn a whole new set of problems with a new database. I wanna use something I already know. But you made so many interesting points in that answer; there are so many things we could dive into.
+**Carlisia Thompson:** That is a very good point, because whenever I wanna set up a database, I don't want to think about it. I already fiddled with the database enough; I already ran into enough problems, I don't wanna learn a whole new set of problems with a new database. I wanna use something I already know. But you made so many interesting points in that answer; there are so many things we could dive into.
 
 One thing that you were saying is you rarely need a standalone database, right? A single instance. Usually, you need replication... So there are many alternatives out there, and one alternative, I guess, is you replicate it yourself, and you manage how to synchronize the data using maybe another system, or something you write yourself, God forbid... \[laughs\]
 
 **Brian Ketelsen:** Yeah, please don't do that.
 
-**Carlisia Pinto:** Yeah, I don't know; it sounds really tough. But another option too is you contract a service like Heroku, or Amazon, and that is done for you. So my question for you is would it be sane for someone to think about "Well, I have this thing, CockroachDB... It replicates my data", and we'll just say it's easy enough for people to consider just setting up their server and save a little bit of money and set it up themselves, or do you think it would require extra skills, and extra monitoring? How do you fare against Heroku or Amazon, that's basically what I'm saying. Would you encourage people to do it on their own?
+**Carlisia Thompson:** Yeah, I don't know; it sounds really tough. But another option too is you contract a service like Heroku, or Amazon, and that is done for you. So my question for you is would it be sane for someone to think about "Well, I have this thing, CockroachDB... It replicates my data", and we'll just say it's easy enough for people to consider just setting up their server and save a little bit of money and set it up themselves, or do you think it would require extra skills, and extra monitoring? How do you fare against Heroku or Amazon, that's basically what I'm saying. Would you encourage people to do it on their own?
 
 **Andrei Matei:** \[00:12:44.14\] Yeah, it makes sense. I would encourage people to do it on their own. We try to make this product very easy to use, and the fact is that it is in my opinion easier to use than most other relational databases that I've tried. I think it's much easier to set up than a Postgres instance, or a MySQL instance... Even a standalone instance, let alone replication or some sort of a clustering solution.
 
@@ -68,19 +68,19 @@ So I think people can do it themselves. We're trying to optimize for some of the
 
 **Andrei Matei:** So we try to have... \[laughs\] Yeah, we're actually pretty big on Azure. So we try to have pretty turnkey solutions; ideally, it would only be a few clicks for anybody to set up their own cluster. And then this cluster - at least the advertisement says that it runs itself; it shouldn't need particularly comprehensive administration skills. You shouldn't need a DBA, unless your needs are pretty advanced. This is definitely the direction in which we're going. We want it to be easy to set up their own clusters.
 
-**Carlisia Pinto:** Yeah, I definitely see an advantage of having full control over your stuff like that, rather than using this service that controls it, and then I'm limited to their interface. And then one last question, and then Brian I'll let you to ask... You said that a lot of people embed CockroachDB in their applications, and my quick question is do they usually do it using a binary, or directly from the source code? How is it usually done? That's fascinating, by the way.
+**Carlisia Thompson:** Yeah, I definitely see an advantage of having full control over your stuff like that, rather than using this service that controls it, and then I'm limited to their interface. And then one last question, and then Brian I'll let you to ask... You said that a lot of people embed CockroachDB in their applications, and my quick question is do they usually do it using a binary, or directly from the source code? How is it usually done? That's fascinating, by the way.
 
 **Andrei Matei:** Yeah, this is also use case and a niche that particularly surprised me when I started to see it repeatedly. I thought in the beginning that maybe it was a one-off, but then... It seems that if you want to ship a box, if you want to ship a server that somebody puts in their data center, that runs a bunch of proprietary stuff, and you want to ship manually, you wanna scale your business, you want the support burden of managing that server remotely to be very minimal... So you want software that kind of is easy to setup and runs itself. I think that's why some of these companies are using Cockroach.
 
 Other databases -- I don't wanna speak badly of anybody; I very much respect anybody who's built a database... But they're not the easiest things to run. Sometimes they do not run themselves, and particularly when you need to manage one of these things remotely, the fewest interactions you need to have with your database, the better it is. And I would say that most people - in fact, everybody that I know of - embed our officially released binaries. I think it's rare to build from source and ship out something that you've built from source, because you want the best guarantees, you want the releases that have had the most testing, and our company (Cockroach Labs) stands behind the most -- its not uncommon for these customers to come back to us and ask for a fix or some improvements that are sometimes tailored more specifically to them... And then we'll do something for them, but generally we'll still apply those patches to a release binary, to a release branch; we'll actually make a release for them, rather than just tell them to build from source.
 
-**Carlisia Pinto:** \[00:16:59.10\] That's super nice.
+**Carlisia Thompson:** \[00:16:59.10\] That's super nice.
 
 **Andrei Matei:** Yeah. Also, another thing I'll say is that our build system is not the simplest. If you want to build from source, and particularly if you wanna make sure that what you build is a good binary because of all the dependencies that we have, you probably -- you either have to set up a lot of stuff yourself, or you have to just use what we give you... There's many tricky things, like for example the version of libc that the binary links against matters when you care about what Linux distributions your binary will run on, and stuff like that... And you're better off allowing us to do the build for you, because we have our build machines with very controlled environment and very controlled dependencies, and you know that we've tested this on a number of platforms.
 
 For the most part, you wanna pass this, rather than just build it yourself on your laptop... Because then you'll get a binary that definitely runs on your laptop, but it's less clear what other platforms it will run on. Does that make sense at all?
 
-**Carlisia Pinto:** Yeah, yeah. Let's talk about vendoring... No, I'm sorry, no. \[laughter\]
+**Carlisia Thompson:** Yeah, yeah. Let's talk about vendoring... No, I'm sorry, no. \[laughter\]
 
 **Andrei Matei:** We do vendor, we vendor a lot of stuff. \[laughter\]
 
@@ -108,11 +108,11 @@ So I think it was definitely a bigger thing then to start chewing on (or whateve
 
 **Brian Ketelsen:** That's really nice.
 
-**Carlisia Pinto:** So I don't wanna make the whole show about what I'm going to ask next, but you seem to have strong opinions about a NoSQL database... Do you wanna say something real quick about what sort of pitfalls people are getting into by using that, as opposed to just going with a relational database?
+**Carlisia Thompson:** So I don't wanna make the whole show about what I'm going to ask next, but you seem to have strong opinions about a NoSQL database... Do you wanna say something real quick about what sort of pitfalls people are getting into by using that, as opposed to just going with a relational database?
 
 **Andrei Matei:** Well, that is a holy word; I want to get into it. \[laughs\]
 
-**Carlisia Pinto:** Let's just keep it to pitfalls that people generally don't expect to have or foresee having. Every tool has its place, but sometimes we go in and we don't know what we're gonna find, right? So let's just keep it to that.
+**Carlisia Thompson:** Let's just keep it to pitfalls that people generally don't expect to have or foresee having. Every tool has its place, but sometimes we go in and we don't know what we're gonna find, right? So let's just keep it to that.
 
 **Andrei Matei:** \[00:24:35.24\] Yeah. Well, I do have opinions on the topic; they're generally favorable to the relational databases... The thing about a NoSQL database as far as I -- probably I should preface this by saying that I'm not the most experienced guy in the world with NoSQL databases; I haven't used that many of them. But the problem when you talk about them, in my opinion, is that they're not all the same, so it gets pretty tricky to bucket them all into one category. When I talk about the pitfalls, probably different people who work on a different NoSQL database will say "Well, that one doesn't apply to us" or "That one is more nuanced with us..." Because as I was saying earlier, some of the NoSQL databases I think are generally evolving into -- they are incorporating features that were traditionally a part of relational databases.
 
@@ -128,7 +128,7 @@ Then the other thing specifically about the SQL language - or lack thereof - is 
 
 **Brian Ketelsen:** Good!
 
-**Carlisia Pinto:** That was a very good answer, yeah.
+**Carlisia Thompson:** That was a very good answer, yeah.
 
 **Brian Ketelsen:** I think in my experience if you start with any sort of NoSQL solution, at some point you're going to build your own relational code on top of that, which defeats the purpose of being NoSQL in the first place. There's lots of different ways that the different document stores handle that, but I think people don't necessarily always use those tools the way they're intended to be used either. I like relational a lot.
 
@@ -138,7 +138,7 @@ Then the other thing specifically about the SQL language - or lack thereof - is 
 
 **Andrei Matei:** So yeah, I'm also a fan of the language, and the data model in general.
 
-**Carlisia Pinto:** So talking about language, tell us about your opinions on the Go language. I think you have some opinions there, too... And just for the record, we love exploring opinions that are different from our own. Of course, we're huge advocates of the Go language here on the show, and a lot of our listeners, and in that way we sort of live in a bubble. It's very refreshing when somebody comes and has different ideas and different perspectives and different opinions, so just go for it.
+**Carlisia Thompson:** So talking about language, tell us about your opinions on the Go language. I think you have some opinions there, too... And just for the record, we love exploring opinions that are different from our own. Of course, we're huge advocates of the Go language here on the show, and a lot of our listeners, and in that way we sort of live in a bubble. It's very refreshing when somebody comes and has different ideas and different perspectives and different opinions, so just go for it.
 
 **Andrei Matei:** Well, sure, but I might be in the same bubble as you guys, because we've been a Go shop for the past three years, although there are some other languages that are very slowly creeping in... But by and large, it's a Go system. Yeah, we have pretty regular flame wars about the choice of the programming language, and there's always a heated debate for and against.
 
@@ -150,15 +150,15 @@ Then I happen to have a list of pet peeves with the languages, that I'll tell to
 
 **Brian Ketelsen:** We're listening!
 
-**Carlisia Pinto:** We're listening...!
+**Carlisia Thompson:** We're listening...!
 
 **Andrei Matei:** \[laughs\] Well, then I'll tell them to you...
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Andrei Matei:** I come from a C++ background historically, so there are things about C++ that I miss. You'll probably see hints of them in my critiques of Go. So what kind of stuff do you guys wanna hear? When I talk about my pet peeves with a language, they're bucketed in a couple of categories. There's some criticisms I have for the runtime, there's some other stuff about the language itself, then maybe there's some stuff about the libraries...
 
-**Carlisia Pinto:** May I suggest you share with us what affects you the most in terms of productivity? Why don't we start there, from the most to the least, and then maybe we move on to another category?
+**Carlisia Thompson:** May I suggest you share with us what affects you the most in terms of productivity? Why don't we start there, from the most to the least, and then maybe we move on to another category?
 
 **Andrei Matei:** Well, I don't know what affects me the most, but I can tell you what scares me the most... Which is this idea that the Go runtime is meant for systems software, for relatively low-level software, but it doesn't give you particularly good control over some aspects of how your program is running. For example -- and I think this kind of stuff, as your projects gets more and more mature and you start optimizing for more and more down to the wire things, low-level things, they really start mattering a lot.
 
@@ -170,7 +170,7 @@ So we account for our memory use the best we can, although the language itself d
 
 It's points like this, points of interface with the operating system, the small stuff about garbage collection, about memory allocations where the control is not perfect, and if you try to write really efficient software that runs in a very tightly specified bounds, I think you run into that. Cockroach is at the point where we start running into that, and it's a bit unclear to me at least what we can do about it. That's what keeps me up at night in regards to this language.
 
-**Carlisia Pinto:** May I ask you a question...? And I don't have an intention to -- take it as a good intention; I'm truly curious, have you discussed this with...? Because it seems that it's a problem, I'd expect... Any software that is low-level, like a database, or a container, or things like that - I would expect them to have the same challenge. Have you ever brought this up with the language team? I know they have a form out there to collect feedback just like that. I wonder if you have, and if you have, have you heard anything back?
+**Carlisia Thompson:** May I ask you a question...? And I don't have an intention to -- take it as a good intention; I'm truly curious, have you discussed this with...? Because it seems that it's a problem, I'd expect... Any software that is low-level, like a database, or a container, or things like that - I would expect them to have the same challenge. Have you ever brought this up with the language team? I know they have a form out there to collect feedback just like that. I wonder if you have, and if you have, have you heard anything back?
 
 **Andrei Matei:** Yeah, we regularly talk to some of the Go team members, particularly the ones at Google. We make noise as we can about these things. This thing that I was telling you about particularly (or specifically), this thing about heap limits, is being discussed on a GitHub issue somewhere. There are various solutions or workarounds being proposed, but I think it's still in a bit of flux. I think it is being acknowledged by the Google Go team as an area of improvement. Then there were others where specifically us (our team, Cockroach) have raised an issue and prompted some changes to the runtime. There was something about a garbage collector behavior where sometimes the garbage collector tries to push back on the application that's generating the garbage, trying to make it run slower, at least while doing that collection, and then it turned out that that behavior was affecting us very much, and for very little benefit to the garbage collector. There was a lot of back and forth with the Google folks, and we did our best to provide traces and profiles and reproduction cases. I think that we have managed to impact some change, although I'm not sure that the change was to the degree that we were hoping... But that's another open discussion that keeps getting refreshed every now and then.
 
@@ -218,7 +218,7 @@ Other languages have things like a thread local storage, which Go has resisted s
 
 **Brian Ketelsen:** Yeah, I agree with that, too. Alright, we are -- oh, my goodness, we're running late... I forgot that I was the person who was supposed to be taking charge of time. We should move on to interesting Go projects and news... Anything really big and exciting happened over the last week or two? I was in Moscow at [GopherCon Russia](https://www.gophercon-russia.ru/), that was a blast. How about interesting Go projects - Carlisia, did you come up with anything interesting?
 
-**Carlisia Pinto:** I mainly had a cold this week... \[laughter\] I was barely keeping up.
+**Carlisia Thompson:** I mainly had a cold this week... \[laughter\] I was barely keeping up.
 
 **Brian Ketelsen:** I found one that got me quite a bit excited... [Saloon](https://github.com/go-saloon/saloon) is a forum software written in Go, and previously I've seen two or three other forum applications written in Go that were very unfinished and unpolished. Saloon is still relatively early, but it's fast and clean and pretty, and looked really nice to me, so I'm looking forward to playing with Go Saloon a little bit.
 
@@ -226,7 +226,7 @@ Other languages have things like a thread local storage, which Go has resisted s
 
 **Brian Ketelsen:** Well, that's a fantastic idea.
 
-**Carlisia Pinto:** There you go.
+**Carlisia Thompson:** There you go.
 
 **Brian Ketelsen:** I love that. Why don't we move on to \#FreeSoftwareFriday? Andrei, if you're not familiar with this little segment, it's where we wanna give a shout-out to either people or projects that help us; they don't have to be Go-related, they can be any person, any project in the open source world that you wanna say thank you to. We do that just because it's really nice to hear your project and feel appreciated when you spend so much time on an open source project.
 I can go ahead and get started with that one... I used a project called [GitPitch](https://github.com/gitpitch/gitpitch) to present my two talks in Russia this weekend, and I really loved it. It's yet another JavaScript presentation PowerPoint replacement thing, but it's particularly nice because on the presentation itself, the people watching the slides can download a zip, they can download a PDF, all without leaving their browser.
@@ -235,21 +235,21 @@ I can go ahead and get started with that one... I used a project called [GitPitc
 
 But it's nice, you can just go to GitPitch.com and then paste in the URL of any open source repository that hosts any of those slide decks and you can view that live on GitPitch.com. That's my open source thank you - thank you to the team building that. I wanna say the main developer is named Daniel, but I'm sorry I don't remember... Carlisia, did you have any?
 
-**Carlisia Pinto:** I don't have anything specific, but I do wanna give a shout-out to everyone who works in open source and is welcoming and helpful to people who are new... Just because I was exchanging a couple messages on Slack with someone who pinged me and asked me to get their resume; he was looking for an internship, he was trying to change careers. He was super experienced in one area, and was just trying to move into tech and programming, and programming in Go specifically... And I said "You should be doing open source instead of looking for an internship", just because he has professional experience, right? He's been working... And he said, "Yeah, you know--" because it took me so long to get back to him, he's like "Yeah, I actually submitted two PR's to this project." He said it was so nerve-wracking, but people had been nothing but supportive. I just wanna say it makes such a big difference, you know? It really is what keeps people going if they come in contact with you, and it's their first -- it might be their first programming experience.
+**Carlisia Thompson:** I don't have anything specific, but I do wanna give a shout-out to everyone who works in open source and is welcoming and helpful to people who are new... Just because I was exchanging a couple messages on Slack with someone who pinged me and asked me to get their resume; he was looking for an internship, he was trying to change careers. He was super experienced in one area, and was just trying to move into tech and programming, and programming in Go specifically... And I said "You should be doing open source instead of looking for an internship", just because he has professional experience, right? He's been working... And he said, "Yeah, you know--" because it took me so long to get back to him, he's like "Yeah, I actually submitted two PR's to this project." He said it was so nerve-wracking, but people had been nothing but supportive. I just wanna say it makes such a big difference, you know? It really is what keeps people going if they come in contact with you, and it's their first -- it might be their first programming experience.
 
 **Brian Ketelsen:** Yeah, we don't do open source for the money, we do it partially for the people, so... I couldn't agree more. Having a nice, welcoming project with great people makes a little small community that feels like your open source family. That's a good one.
 
-**Carlisia Pinto:** And you know, you're nice, and you attract people who are also nice, and they will have their turn at being nice and helpful, so keep up the good job, guys and girls. You're doing great.
+**Carlisia Thompson:** And you know, you're nice, and you attract people who are also nice, and they will have their turn at being nice and helpful, so keep up the good job, guys and girls. You're doing great.
 
 **Brian Ketelsen:** Awesome.
 
 **Andrei Matei:** One thing that I've noticed is that recently it seems to me that a lot of open source projects have become much more aware of the importance of this sort of stuff, of this kind of soft skills - being inclusive, being friendly to newcomers... Including the Go team at Google; I believe they've done a relatively recent push into being more open and encouraging and generally nice to people. You see all sorts of projects having more expansive codes of conduct and stuff like that. I also think it's a really good thing and very important.
 
-**Carlisia Pinto:** Wow, and coming from you, who works with open source, it's really good to hear, too... So thanks for that.
+**Carlisia Thompson:** Wow, and coming from you, who works with open source, it's really good to hear, too... So thanks for that.
 
 **Andrei Matei:** Yeah, we at Cockroach we definitely try to be friendly, and we really hope to build a community around this stuff... And I personally think it's really important to do.
 
-**Carlisia Pinto:** Yeah, and you know, all it takes is the trying; the trying is what is important.
+**Carlisia Thompson:** Yeah, and you know, all it takes is the trying; the trying is what is important.
 
 **Brian Ketelsen:** Absolutely. Andrei, did you have any projects or teams that you wanted to shout out to?
 
@@ -257,11 +257,11 @@ But it's nice, you can just go to GitPitch.com and then paste in the URL of any 
 
 **Brian Ketelsen:** Absolutely.
 
-**Carlisia Pinto:** Especially since it contradicts some of your opinions... \[laughs\]
+**Carlisia Thompson:** Especially since it contradicts some of your opinions... \[laughs\]
 
 **Andrei Matei:** Well, how so?
 
-**Carlisia Pinto:** Well, it's not a relational database, right?
+**Carlisia Thompson:** Well, it's not a relational database, right?
 
 **Andrei Matei:** No, it's not a relational database, but it can be used to build one, as CockroachDB is doing. We vendor and we use RocksDB extensively; it's our on-disk storage engine, and we are very grateful that it exists. It's a pretty important building block. It's a project from Facebook, I believe...
 
@@ -275,16 +275,16 @@ But it's nice, you can just go to GitPitch.com and then paste in the URL of any 
 
 **Brian Ketelsen:** Alright, so we've covered \#FreeSoftwareFriday... I think it's time for us to wrap up the show unless anybody has any final things they wanna add.
 
-**Carlisia Pinto:** I'm good.
+**Carlisia Thompson:** I'm good.
 
 **Brian Ketelsen:** We wanna thank you very much, Andrei, for joining us, and Carlisia for asking such great questions today. Thanks to all the people out there listening to GoTime. We encourage you to share the show with your fellow programmers, people who might be interested in Go... We continue to get really inspiring messages from people who say "We just started learning Go, and we discovered your podcast. We love it!" We encourage you to continue to send us awesome messages telling us how great we are, too. We like that a lot.
 
 You can follow us on Twitter @GoTimeFM. On GitHub.com/gotimefm/ping you can suggest topics for shows or guests that we might want to add or invite... And you can go to GoTime.fm and subscribe to our upcoming weekly email, and GoTime.fm to find the rest of our episodes. With that, thank you everybody. I hope you have a good week!
 
-**Carlisia Pinto:** Thank you, Brian.
+**Carlisia Thompson:** Thank you, Brian.
 
 **Andrei Matei:** Thanks a lot for having me on the show.
 
-**Carlisia Pinto:** Thank you, Andrei.
+**Carlisia Thompson:** Thank you, Andrei.
 
 **Andrei Matei:** Thank you, guys.

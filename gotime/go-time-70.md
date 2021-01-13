@@ -1,6 +1,6 @@
 **Erik St. Martin:** Welcome back, everybody, to another episode of GoTime. Today's episode is number 70. Today on the show we have myself, Erik St. Martin, Carlisia Pinto...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** Brian Ketelsen...
 
@@ -34,11 +34,11 @@
 
 **Leonid Kalneus:** Yeah. After that I started to work on different technical communities in Novosibirsk, so now I lead the Google developer group there, and we have several series of technical meetups - we have meetups about Golang, we have meetups about Android, we have meetups about dev ops, and so on. Also, we have one big conference there called [DevFest Siberia](https://gdg-siberia.com/). We started to organize this conference probably two years ago. We even had [Dave Cheney](https://twitter.com/davecheney) last year... In Siberia, can you imagine that? \[laughter\]
 
-**Carlisia Pinto:** I can't imagine anybody in Siberia... It's so far and so cold.
+**Carlisia Thompson:** I can't imagine anybody in Siberia... It's so far and so cold.
 
 **Brian Ketelsen:** Can you tell us a little bit about Siberia? Because in America the only thing that most people know about Siberia is that it's where people get sent for punishment, and I don't think that's accurate. Can you tell us what Siberia is really like? Is it really always cold?
 
-**Carlisia Pinto:** Yeah, exactly. I need to know that.
+**Carlisia Thompson:** Yeah, exactly. I need to know that.
 
 **Leonid Kalneus:** No, it's not always cold. In the summer we have temperatures like 30 Celsius degrees.
 
@@ -60,19 +60,19 @@
 
 **Brian Ketelsen:** Okay.
 
-**Carlisia Pinto:** I just wanted to clarify, -20 Celsius is -4 Fahrenheit, and 30 degrees Celsius is 86 degrees Fahrenheit... So that's not bad. But is it like for a day, or is like for the whole summer?
+**Carlisia Thompson:** I just wanted to clarify, -20 Celsius is -4 Fahrenheit, and 30 degrees Celsius is 86 degrees Fahrenheit... So that's not bad. But is it like for a day, or is like for the whole summer?
 
 **Leonid Kalneus:** It's for the day.
 
-**Carlisia Pinto:** One day of the summer is hot, and the other days are cold?
+**Carlisia Thompson:** One day of the summer is hot, and the other days are cold?
 
 **Leonid Kalneus:** Oh, no, no, no. In Novosibirsk it's quite usual weather in the summer.
 
-**Carlisia Pinto:** Okay. \[laughs\] Just to clarify.
+**Carlisia Thompson:** Okay. \[laughs\] Just to clarify.
 
 **Brian Ketelsen:** That sounds like a nice, normal climate.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Brian Ketelsen:** Good.
 
@@ -80,13 +80,13 @@
 
 **Brian Ketelsen:** It sounds very awesome, it sounds like a technical center of awesomeness.
 
-**Carlisia Pinto:** Well, I can't imagine anything that you said to be truthful... Starting with you got 100 people to show up at your first meetup - it's amazing!
+**Carlisia Thompson:** Well, I can't imagine anything that you said to be truthful... Starting with you got 100 people to show up at your first meetup - it's amazing!
 
 **Erik St. Martin:** That's wild. Most meetups never get that big.
 
 **Brian Ketelsen:** That is good!
 
-**Carlisia Pinto:** Yeah, so now I'm triply glad that you're here, because you're going to -- I'm just looking forward to knowing more about Siberia, and the community there... It sounds really exciting.
+**Carlisia Thompson:** Yeah, so now I'm triply glad that you're here, because you're going to -- I'm just looking forward to knowing more about Siberia, and the community there... It sounds really exciting.
 
 **Erik St. Martin:** Is there generally quite a few Go developers in that area? Is Go a really popular language for a lot of companies there?
 
@@ -94,11 +94,11 @@
 
 **Brian Ketelsen:** Wow. So you did a great job.
 
-**Carlisia Pinto:** Yeah, absolutely. I'm curious - when people decide they want to learn Go in your community... Tell me again, when was this first meetup you had? Do people go to meetups, do they get together? Do they have workshops? What are the resources available to them? Because here in the U.S. - and even in Europe - there are conferences, there's the Slack accounts... Are people on Slack? Do you have your own Russian Slack communication? How do you connect to each other?
+**Carlisia Thompson:** Yeah, absolutely. I'm curious - when people decide they want to learn Go in your community... Tell me again, when was this first meetup you had? Do people go to meetups, do they get together? Do they have workshops? What are the resources available to them? Because here in the U.S. - and even in Europe - there are conferences, there's the Slack accounts... Are people on Slack? Do you have your own Russian Slack communication? How do you connect to each other?
 
 **Leonid Kalneus:** We have Russian-speaking GopherSlack, with more than 2,000 people, I think.
 
-**Carlisia Pinto:** Oh, that's cool.
+**Carlisia Thompson:** Oh, that's cool.
 
 **Leonid Kalneus:** Also, we have our own Russian-speaking podcast called [Golang Show](http://golangshow.com/)... And we will be happy to record an episode with Brian, in Moscow.
 
@@ -112,11 +112,11 @@
 
 **Brian Ketelsen:** And that's gonna be big, because I'm going to announce a huge secret in my talk in Moscow. Huge.
 
-**Carlisia Pinto:** What is the secret?
+**Carlisia Thompson:** What is the secret?
 
 **Brian Ketelsen:** Well, it's a secret, I can't tell you. Nice try, though.
 
-**Carlisia Pinto:** Thank you.
+**Carlisia Thompson:** Thank you.
 
 **Brian Ketelsen:** But it's huge.
 
@@ -124,13 +124,13 @@
 
 **Leonid Kalneus:** \[00:07:59.16\] Yeah, also we have -- do you know Telegram?
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Brian Ketelsen:** Yes.
 
 **Leonid Kalneus:** We also have two chats there.
 
-**Carlisia Pinto:** That's a phone app, for people who don't know.
+**Carlisia Thompson:** That's a phone app, for people who don't know.
 
 **Leonid Kalneus:** Yeah, it's like WhatsApp, but much better. \[laughter\]
 
@@ -202,19 +202,19 @@
 
 **Brian Ketelsen:** \[00:12:01.09\] Oh, that's good. That's great for a first conference. Well done!
 
-**Carlisia Pinto:** That is excellent, yeah.
+**Carlisia Thompson:** That is excellent, yeah.
 
 **Leonid Kalneus:** Yeah. And if you want, I can tell you some numbers about Moscow gophers community.
 
 **Brian Ketelsen:** Yes, sure.
 
-**Carlisia Pinto:** Absolutely, yeah.
+**Carlisia Thompson:** Absolutely, yeah.
 
 **Leonid Kalneus:** Let me check my notes. Oh, by the way, we also have a mailing list for the Russian-speaking community since 2010. The first Moscow meetup was five years ago, and they had 27 people there.
 
 **Brian Ketelsen:** Wow.
 
-**Carlisia Pinto:** Yeah, impressive.
+**Carlisia Thompson:** Yeah, impressive.
 
 **Leonid Kalneus:** Yup, so that's the history of Russia Gophers community. Also, we have quite a big community in St. Petersburg, about 700 gophers there. I'm not sure the community is very active, but still, we have it.
 
@@ -222,17 +222,17 @@
 
 **Leonid Kalneus:** Yeah.
 
-**Carlisia Pinto:** Before I forget - it doesn't have to be right now, but I wanna make sure that you give us the link to at least some of the meetups you know, and link to how people can get an invite to your Gopher Slack account... Also, another thing that I wanted to ask - is there any general Twitter account that people can follow, or Facebook groups, and information for how to get on Telegram? So we can have it for posterity on the show notes, okay?
+**Carlisia Thompson:** Before I forget - it doesn't have to be right now, but I wanna make sure that you give us the link to at least some of the meetups you know, and link to how people can get an invite to your Gopher Slack account... Also, another thing that I wanted to ask - is there any general Twitter account that people can follow, or Facebook groups, and information for how to get on Telegram? So we can have it for posterity on the show notes, okay?
 
 **Leonid Kalneus:** Okay, sure. I will send it.
 
-**Carlisia Pinto:** And another thing that I wanted to ask, along those lines - is there any dedicated place for people to look for Go jobs in Russia, or in your area?
+**Carlisia Thompson:** And another thing that I wanted to ask, along those lines - is there any dedicated place for people to look for Go jobs in Russia, or in your area?
 
 **Brian Ketelsen:** Good question.
 
 **Leonid Kalneus:** Well, we have a special website called Headhunter in Russia, and you can find any jobs there. It's the first source, I guess, and the special places are our Gopher Slack, we have a special channel there for job offers... And we have also a channel in Telegram for that.
 
-**Carlisia Pinto:** Cool.
+**Carlisia Thompson:** Cool.
 
 **Brian Ketelsen:** Very nice. So it sounds like the Go community in Russia is incredibly well organized; probably better organized than the one here. That's good news.
 
@@ -262,7 +262,7 @@
 
 **Leonid Kalneus:** Yeah, they're very nice folks.
 
-**Carlisia Pinto:** I just went to the Golang wiki page, and there is a page called [Go users](https://github.com/golang/go/wiki/GoUsers) that lists companies from around the world, and it's divided up by continent and then countries, and there are only two companies under Russia, so that definitely needs to be updated. What's there right now is ITooLabs and PostmanQ.
+**Carlisia Thompson:** I just went to the Golang wiki page, and there is a page called [Go users](https://github.com/golang/go/wiki/GoUsers) that lists companies from around the world, and it's divided up by continent and then countries, and there are only two companies under Russia, so that definitely needs to be updated. What's there right now is ITooLabs and PostmanQ.
 
 **Leonid Kalneus:** Yeah. By the way, ITooLabs - we have a speaker from there. Yeah, I think we should update this list.
 
@@ -282,15 +282,15 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Brian Ketelsen:** It was. I still felt bad... I mean, this is the guy that made Go twice as fast in Go 1.4, or 1.5, or whatever it was... And then added all of that awesome race detection, and the profiler... He's a serious hero in the Go community. When I meet him in March again, I won't make that mistake.
 
-**Carlisia Pinto:** So what would you like to have in your community? What sort of support, or access, or resource would you like to have in your Go community that you don't have right now?
+**Carlisia Thompson:** So what would you like to have in your community? What sort of support, or access, or resource would you like to have in your Go community that you don't have right now?
 
 **Leonid Kalneus:** Wow, so... If you are speaking about far, far away Siberia, I will be happier if more speakers will come to visit us and talk to our gophers in person. Maybe this is the most important point for us.
 
-**Carlisia Pinto:** \[00:20:14.18\] Do you mean at your meetup?
+**Carlisia Thompson:** \[00:20:14.18\] Do you mean at your meetup?
 
 **Leonid Kalneus:** For example, we can use DevFest Siberia as a place to meet. Yeah, because it's quite huge land, we have more than 700 people there... So it's quite reasonable to come to Siberia to talk to this audience.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Brian Ketelsen:** Does DevFest happen in the same time every year?
 
@@ -308,13 +308,13 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Leonid Kalneus:** And we have speakers from 12 different countries.
 
-**Carlisia Pinto:** It truly must be an experience... Even for people who have seen snow, it must be so different. I can't even imagine. I would love to go.
+**Carlisia Thompson:** It truly must be an experience... Even for people who have seen snow, it must be so different. I can't even imagine. I would love to go.
 
 **Leonid Kalneus:** Yeah, we can talk about that later.
 
 **Brian Ketelsen:** Let's go, Carlisia. You and me - we're going to DevFest in November, in Siberia. Let's do it.
 
-**Carlisia Pinto:** Let's do it, Brian. Let's plan. Oh my gosh, I need to --
+**Carlisia Thompson:** Let's do it, Brian. Let's plan. Oh my gosh, I need to --
 
 **Brian Ketelsen:** I need to knit more hats.
 
@@ -332,13 +332,13 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Leonid Kalneus:** Yeah.
 
-**Carlisia Pinto:** Absolutely.
+**Carlisia Thompson:** Absolutely.
 
 **Leonid Kalneus:** By the way, I think Go communities are the most friendly communities I've ever seen.
 
 **Brian Ketelsen:** I agree.
 
-**Carlisia Pinto:** I hear that all the time.
+**Carlisia Thompson:** I hear that all the time.
 
 **Brian Ketelsen:** So how many organizers are there for GopherCon Russia? There's you, and a few others, right?
 
@@ -358,17 +358,17 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Brian Ketelsen:** That's awesome. That name sounds really familiar, too.
 
-**Carlisia Pinto:** Well, we talked about having her on the show.
+**Carlisia Thompson:** Well, we talked about having her on the show.
 
 **Brian Ketelsen:** Okay, that's why.
 
 **Leonid Kalneus:** Yeah, she's very active. Now she lives in Berlin, in Germany.
 
-**Carlisia Pinto:** What do you think, Leo, should we have her on the show?
+**Carlisia Thompson:** What do you think, Leo, should we have her on the show?
 
 **Leonid Kalneus:** Yeah, definitely.
 
-**Carlisia Pinto:** Definitely, right? I agree.
+**Carlisia Thompson:** Definitely, right? I agree.
 
 **Brian Ketelsen:** So what kind of projects in Go are you most excited about, Leo?
 
@@ -382,7 +382,7 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Leonid Kalneus:** Yeah. It's quite nice, quite handy stuff.
 
-**Carlisia Pinto:** That's not true, I have not played with Gobot.
+**Carlisia Thompson:** That's not true, I have not played with Gobot.
 
 **Leonid Kalneus:** You should try it.
 
@@ -444,7 +444,7 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Brian Ketelsen:** Yes!
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Leonid Kalneus:** Yeah, let's go.
 
@@ -458,7 +458,7 @@ The second item to talk about - it was 2-3 days ago, the results for the [2017 G
 
 \[00:32:05.28\] Some of the other stuff I found interesting was actually the rankings based on language expertise and preferences. I expected to see -- obviously, Go was the top one in the list, but I expected to see a lot more like Python and Ruby and JavaScript... I didn't expect to see Java and C and C++ up there. This is in order of preference, but these languages have been around longer, so I think it's somewhat of an indicator of the communities that people are coming from when adopting Go... I mean, that'd be my assumption; if I had to answer my preference list, it would probably be Go first, and then the language I came from.
 
-**Carlisia Pinto:** Yeah, that's a good assumption, I think.
+**Carlisia Thompson:** Yeah, that's a good assumption, I think.
 
 **Erik St. Martin:** Some of the other things that were interesting was - I need to find it on the list, but it was asked how long people have been doing Go for, and that seems to be getting much bigger. Last year I think CLI programs were the top thing that people used Go to write, and now it seems to be API and RPC services. I need to find it on here, but another thing that surprised me was there is an answer "Web services that return HTML." That actually ranks higher than agents and daemons, libraries and frameworks, data processing pipelines... I didn't expect there to be as much there for web, because a lot of people are already using things like Node and Django and Rails and things like that, so I was actually surprised to see that.
 
@@ -498,49 +498,49 @@ Some other interesting statistics out of that were operating system of choice th
 
 **Brian Ketelsen:** That's amazing. VS Code is really an awesome place to do Go development. But so is Vim Go.
 
-**Carlisia Pinto:** I think as more people enter the community and they have different habits, we're going to see differences in what tools people use... So that makes total sense to me.
+**Carlisia Thompson:** I think as more people enter the community and they have different habits, we're going to see differences in what tools people use... So that makes total sense to me.
 
 **Erik St. Martin:** And as far as community stuff goes, one thing that was actually really surprising to me was that 40% of respondents said that they've never attended a Go remote meetup or Go conference or training, or Go Bridge event or anything in that manner. That was actually the top answer, 40% of people haven't done that. I'd be really curious to know why that is. Is it not having the opportunity to do so, or they feel they can learn enough through video content and blog posts and things like that? Or whether those things don't feel welcoming enough... I'd be interested -- because I wouldn't have expected that to be the top answer.
 
-**Carlisia Pinto:** It's really hard to tell. We can speculate... That number would be more relevant if it was accompanied by geographical location...
+**Carlisia Thompson:** It's really hard to tell. We can speculate... That number would be more relevant if it was accompanied by geographical location...
 
 **Brian Ketelsen:** True.
 
-**Carlisia Pinto:** Because it makes such a big difference. If someone in San Francisco said "Oh, I'm doing Go but I haven't attended anything", then we should be like "Oh, we need to do better, because the resources are there... People don't know, or what's going on?" But if someone in some really remote part of the U.S. or part of the world is saying "I haven't gone", then it's good, because they are doing Go in spite of not having access to these things.
+**Carlisia Thompson:** Because it makes such a big difference. If someone in San Francisco said "Oh, I'm doing Go but I haven't attended anything", then we should be like "Oh, we need to do better, because the resources are there... People don't know, or what's going on?" But if someone in some really remote part of the U.S. or part of the world is saying "I haven't gone", then it's good, because they are doing Go in spite of not having access to these things.
 
 **Brian Ketelsen:** Right.
 
 **Erik St. Martin:** Oh, yeah.
 
-**Carlisia Pinto:** It's completely different, depending on where people are.
+**Carlisia Thompson:** It's completely different, depending on where people are.
 
 **Erik St. Martin:** I think that's actually a really good point, because even thinking about here locally in Tampa - we've been doing pretty bad about consistently holding meetups... Because it gets hard to find people to present or to have the time to create presentations, and sometimes just the overhead of trying to find a location for it and things like that, if you don't already have a company you can consistently do it at...
 
 So even here locally, right? Anybody who lives here and we're not running meetups here, or one didn't exist, and if you don't work for a company who's willing to send you to events and you don't have meetups locally, you don't have the ability to go. So maybe that's also an indicator of the spread - we're starting to spread out of the big tech hubs and into the rest of the world.
 
-**Carlisia Pinto:** Yeah. That also makes me wanna ask Leo - Leo, did you take this survey, did you know about it?
+**Carlisia Thompson:** Yeah. That also makes me wanna ask Leo - Leo, did you take this survey, did you know about it?
 
 **Leonid Kalneus:** Yes, and yes.
 
-**Carlisia Pinto:** \[00:40:06.21\] Do you think a lot of people in your community knew about it and took it, too?
+**Carlisia Thompson:** \[00:40:06.21\] Do you think a lot of people in your community knew about it and took it, too?
 
 **Leonid Kalneus:** I'm not sure, actually, because I can't track that, but I think I spread this link to the community.
 
-**Carlisia Pinto:** That's good.
+**Carlisia Thompson:** That's good.
 
 **Leonid Kalneus:** I'm not sure about the Moscow community, but I shared the link to the Siberia community definitely.
 
-**Carlisia Pinto:** So Russian is showing up as 3% of the respondents.
+**Carlisia Thompson:** So Russian is showing up as 3% of the respondents.
 
 **Leonid Kalneus:** Well... Maybe.
 
-**Carlisia Pinto:** That's good. Just as a comparison - Brazil, which is also a big country, is showing up as 2%. India is showing up as 2%, and India has been having a Go conference for a while now.
+**Carlisia Thompson:** That's good. Just as a comparison - Brazil, which is also a big country, is showing up as 2%. India is showing up as 2%, and India has been having a Go conference for a while now.
 
 **Brian Ketelsen:** Yeah, that's very good.
 
 **Erik St. Martin:** Where does China rank?
 
-**Carlisia Pinto:** It's 2%.
+**Carlisia Thompson:** It's 2%.
 
 **Erik St. Martin:** Interesting.
 
@@ -550,7 +550,7 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Brian Ketelsen:** That's true. Leo, I forgot a very important question that I need to ask you - Vim or Emacs?
 
-**Carlisia Pinto:** Oh, geez...
+**Carlisia Thompson:** Oh, geez...
 
 **Leonid Kalneus:** Sorry?
 
@@ -562,7 +562,7 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Brian Ketelsen:** Very good, Leo. It's all good, he uses Vim.
 
-**Carlisia Pinto:** One thing that I wanted to mention too from the survey -- I don't know if Erik was going to get to it; if so, sorry Erik, I'm cutting ahead of you... In the community aspect, the answer to "I feel welcome in the Go community" last year the disagreement was 15 to 1 -- sorry, the agreement to disagreement... Yeah, that wasn't gonna sound right. The agreement to disagreement last year was 15 to 1, and this year the agreement increased to 25 to 1. I think that's pretty cool.
+**Carlisia Thompson:** One thing that I wanted to mention too from the survey -- I don't know if Erik was going to get to it; if so, sorry Erik, I'm cutting ahead of you... In the community aspect, the answer to "I feel welcome in the Go community" last year the disagreement was 15 to 1 -- sorry, the agreement to disagreement... Yeah, that wasn't gonna sound right. The agreement to disagreement last year was 15 to 1, and this year the agreement increased to 25 to 1. I think that's pretty cool.
 
 **Brian Ketelsen:** That is very good.
 
@@ -574,7 +574,7 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Brian Ketelsen:** 100% of the people surveyed said that GoTime was their favorite podcast. \[laughter\]
 
-**Carlisia Pinto:** Well, the English speakers, right?
+**Carlisia Thompson:** Well, the English speakers, right?
 
 **Brian Ketelsen:** No, 100%. All of them said GoTime was their favorite podcast. Even if they came from another place where they had a different podcast, they said GoTime was better. \[laughter\]
 
@@ -602,7 +602,7 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Brian Ketelsen:** Well, that's why they're perfect for each other; if you're using "password123", then you guys were meant to be.
 
-**Carlisia Pinto:** Just grab the first one, you cannot go wrong. First one on the list that pops up, that's it.
+**Carlisia Thompson:** Just grab the first one, you cannot go wrong. First one on the list that pops up, that's it.
 
 **Brian Ketelsen:** Sold. "She's my soulmate...!"
 
@@ -612,15 +612,15 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Erik St. Martin:** Alright, did anybody have any other projects or news that they came across this week?
 
-**Carlisia Pinto:** Sorry, I have a slow come-back to that, but I have to say it... You can't be locked in security AND love, it can only be one. So if you don't find a match, that's a good thing, based on the password... \[laughter\] At least you're good with security, so... Who cares about love?
+**Carlisia Thompson:** Sorry, I have a slow come-back to that, but I have to say it... You can't be locked in security AND love, it can only be one. So if you don't find a match, that's a good thing, based on the password... \[laughter\] At least you're good with security, so... Who cares about love?
 
 **Erik St. Martin:** We commend you on your selection of secure passwords. We're sorry, you're gonna be lonely", right?
 
-**Carlisia Pinto:** Yes. \[laughs\] Alright, moving on.
+**Carlisia Thompson:** Yes. \[laughs\] Alright, moving on.
 
 **Erik St. Martin:** That is such a weird way to find a date. "Please give me all the people who share the passwords with me."
 
-**Carlisia Pinto:** That's not real, right?
+**Carlisia Thompson:** That's not real, right?
 
 **Brian Ketelsen:** Oh, I think it's real.
 
@@ -644,7 +644,7 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Brian Ketelsen:** Yeah, because I have interesting names for people in my address book that I would not want anybody to ever know.
 
-**Carlisia Pinto:** Oh, really?
+**Carlisia Thompson:** Oh, really?
 
 **Brian Ketelsen:** Yeah, like Erik... I don't call him Erik in my address book; it's something completely different, and if Erik knew that, he would be mad at me for a long time. Those are things that we don't want public.
 
@@ -654,11 +654,11 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Brian Ketelsen:** You know, I don't. I don't have a \#FreeSoftwareFriday this week; how sad is that?
 
-**Carlisia Pinto:** Oh, if Brian doesn't, I feel not so bad for not having one either, just mainly because I didn't think about it. I haven't been having one. It's hard.
+**Carlisia Thompson:** Oh, if Brian doesn't, I feel not so bad for not having one either, just mainly because I didn't think about it. I haven't been having one. It's hard.
 
 **Erik St. Martin:** Sometimes it's hard based on what you're doing, and if you're kind of doing the same thing for weeks on end, you may not be exposed to projects... Or when you are, you don't think to write that down, like "I need to give this person a shout-out."
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Erik St. Martin:** Leo, so at the end of every episode what we typically do is something we call \#FreeSoftwareFriday, where we give a shout-out to a project or a maintainer of open source - it does not have to be Go - just to kind of show our love and appreciation for what they do. I know this is on the spot, so it is okay if you don't have one, but if there's anybody or any project that you absolutely love and helps you out, feel free to give them a shout-out.
 
@@ -668,7 +668,7 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Brian Ketelsen:** That's really nice.
 
-**Carlisia Pinto:** That's interesting.
+**Carlisia Thompson:** That's interesting.
 
 **Brian Ketelsen:** [Source{d}](https://sourced.tech/), that's where [Francesc Campoy](https://twitter.com/francesc) went, right?
 
@@ -680,7 +680,7 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Erik St. Martin:** Oh, yeah?
 
-**Carlisia Pinto:** Not Francesc?
+**Carlisia Thompson:** Not Francesc?
 
 **Leonid Kalneus:** No, unfortunately. But yeah, we have Vadim - he is a Google developer expert on machine learning. Yeah, quite a cool guy. I will send his GitHub to the Slack.
 
@@ -704,6 +704,6 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Leonid Kalneus:** Thanks for having me.
 
-**Carlisia Pinto:** Bye, everybody. Leo, this was great! Thank you.
+**Carlisia Thompson:** Bye, everybody. Leo, this was great! Thank you.
 
 **Leonid Kalneus:** Bye all.

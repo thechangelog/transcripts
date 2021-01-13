@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And the lovely Carlisia Pinto.
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And our special guest for today is a speaker, author and CTO and co-founder of Splice, Matt Aimonetti.
 
@@ -36,7 +36,7 @@ When you have two passions, it's hard to choose... I think with Splice I was abl
 
 **Brian Ketelsen:** That just reminds me that we lost Ezra, Jim Wyrick... It's very sad to see those people go. We should start this show with some death and sadness. I'm so sorry about that.
 
-**Carlisia Pinto:** Yeah, we should not... \[laughter\]
+**Carlisia Thompson:** Yeah, we should not... \[laughter\]
 
 **Erik St. Martin:** So you started Splice with Ruby...?
 
@@ -78,7 +78,7 @@ We were adding - I think it was a request ID or user information on that context
 
 **Erik St. Martin:** Wow.
 
-**Carlisia Pinto:** Impressive.
+**Carlisia Thompson:** Impressive.
 
 **Matt Aimonetti:** And to be fair, this is all the work of the Go team, it's not really us doing too much. We're just careful to use the right APIs. And we had really good engineers at the beginning, people like Katrina Owen that really cared about refactoring and thinking through the code and architecting so we could scale the code.
 
@@ -90,11 +90,11 @@ The fact that we can only focus on design and new features is really freeing us 
 
 **Matt Aimonetti:** Right.
 
-**Carlisia Pinto:** And not having to update because of syntax changes.
+**Carlisia Thompson:** And not having to update because of syntax changes.
 
 **Erik St. Martin:** Yeah... Remember when Ruby changed the way you indexed the hash? \[laughter\]
 
-**Carlisia Pinto:** I was also remembering when our spec changed from version two to version three, I think... There were a bunch of syntax changes for that package.
+**Carlisia Thompson:** I was also remembering when our spec changed from version two to version three, I think... There were a bunch of syntax changes for that package.
 
 **Brian Ketelsen:** Every Ruby update was a breaker.
 
@@ -104,7 +104,7 @@ The fact that we can only focus on design and new features is really freeing us 
 
 **Matt Aimonetti:** Yeah, when you had to os.r \[\\00:14:34.07\] for the errors... But I was not really doing anything production-ready yet. The first thing I did was to do the \[unintelligible 00:14:44.22\], but it was just a fun way of learning and basically I was blurring an image using the Image package, which was not part of the standard library yet. You set a comment and it would put it back normal, and it was just dealing with lower-level image processing, which was fun because I didn't need to use external libraries.
 
-**Carlisia Pinto:** One thing that I'm always curious with people who run their own business and they're using Go for their software is the hiring. Do you even bother to look for Go developers? Do you make a point in hiring specifically some number of Go developers with experience? Or you truly don't care and just hire good developers who will quickly learn Go...? What's your philosophy?
+**Carlisia Thompson:** One thing that I'm always curious with people who run their own business and they're using Go for their software is the hiring. Do you even bother to look for Go developers? Do you make a point in hiring specifically some number of Go developers with experience? Or you truly don't care and just hire good developers who will quickly learn Go...? What's your philosophy?
 
 **Matt Aimonetti:** That's a good question. I don't think we're looking at it that way. We're not really looking for good developers. We're looking for developers who are interested in solving problems, that have expertise, and will be okay and willing to use Go. That comes from the fight that we started pretty early on... We were one of the first companies fully relying on Go, and it was hard to find people that had experience.
 
@@ -114,7 +114,7 @@ Recently I sent a tweet and I was asking "What is the first name you encountered
 
 The other thing was "The syntax just bothers me. It feels like it's from back in the '70s or something like that" and "I don't understand interfaces. This is not a good fit for me." We want to make sure when we hire that our values of being explicit over implicit, being a bit more verbose but easy to understand that performance matters to us are very clear, so that the candidates understand what they would be doing with us. Also, we understand if it's gonna be a good fit from an engineering culture perspective.
 
-**Carlisia Pinto:** How do you assess that, if I may ask? Maybe I'm getting too detailed here, but at the same time I think it's interesting as an employer how you assess that a person would be comfortable with the features of the language that you're using if they haven't been exposed to it.
+**Carlisia Thompson:** How do you assess that, if I may ask? Maybe I'm getting too detailed here, but at the same time I think it's interesting as an employer how you assess that a person would be comfortable with the features of the language that you're using if they haven't been exposed to it.
 
 **Matt Aimonetti:** It's always hard, an interview process is a really hard thing to go through for both sides. What we ask our candidates to do is to take a small test in frontend and backend. Basically, we send them the test in advance, and it's a challenge. In the case of Go, it's actually something I released as a Go challenge a while back, like "Here's a binary file that contains some information." It's kind of a joke, it's an old beta made on this old hardware device that's gone, and now we just recover the file and we recover the text file that represents the sequencing of the beat. Can you decode it and make the test pass?
 
@@ -122,7 +122,7 @@ By asking them to do that, which is not a really hard problem and it's not reall
 
 We can see if they jump onto refactoring and abstracting everything into small methods right away and we can have a discussion about it, and you can very quickly go and understand the values of an engineer by understanding the background and what they care about. So it's not perfect, but I'm trying to be as explicit as I can and we can have a discussion about it. But if they know we're using Go, they already kind of know the dogma behind it.
 
-**Carlisia Pinto:** That's a good explanation, I can see that.
+**Carlisia Thompson:** That's a good explanation, I can see that.
 
 **Erik St. Martin:** So the goal is really just to discuss how they went about things, not necessarily grading their ability in Go, because the assumption is that a lot of people are taking the test; this may be their first foray into using Go.
 
@@ -152,7 +152,7 @@ But if you already know Go, you can actually take what you know - with the excep
 
 Focusing always on concurrency to me is a bit of a mistake. It's true that for a lot of us it's very important, without it we might not be using Go, but you make it sound like you should only use Go if you care about concurrency. And going back to the Blockly example, I was talking with [Jana](https://twitter.com/rakyll) from the Go team and she was really excited about that idea and she was actually saying "Yeah, but we don't even need to have specific blogs for concurrency; we don't need to show Channels and Select and all those different things... We can start with just the basics of conditionals and methods and functions, and that would be a very good start for anybody who's learning how to program."
 
-**Carlisia Pinto:** I couldn't agree with that more. I wanna say that you did a really good job with that blog post on Medium entitled [Go is for everyone](https://medium.com/@mattetti/go-is-for-everyone-b4f84be04c43), and I think you're completely right. I didn't come to Go at the very beginning; when I came I think it was very stable already, and my impression is that the language is very simple, the syntax is very simple. The set of keywords is so small... It's very easy to learn, and even to memorize those keywords, so it's easy to use.
+**Carlisia Thompson:** I couldn't agree with that more. I wanna say that you did a really good job with that blog post on Medium entitled [Go is for everyone](https://medium.com/@mattetti/go-is-for-everyone-b4f84be04c43), and I think you're completely right. I didn't come to Go at the very beginning; when I came I think it was very stable already, and my impression is that the language is very simple, the syntax is very simple. The set of keywords is so small... It's very easy to learn, and even to memorize those keywords, so it's easy to use.
 
 \[00:27:59.02\] I completely agree with you, you can write back-to-back programs without using concurrency. You can even ignore interfaces, you get totally functional programs without using interfaces. So you can use just the basics of Go to write completely functional programs, and then as you develop more, you can start incorporating those more advanced features.
 
@@ -282,7 +282,7 @@ I think the first step is for us to reconnect as human beings. I think most of u
 
 I think you might want to bring that up to the different people, to do it... We were very receptive to it, and I think that's something that a lot of leaders would agree is really helpful, and it brings the morale up and it helps things. So if you have a hard time finding time in your own schedule to do it, go talk to your boss and potentially try to get a day off... Or actually do it with the team; you can also do a project with everybody.
 
-**Carlisia Pinto:** That sounds amazing. Because when you give and when you volunteer, or you help somebody in any way, you feel great, and it's so great to go back to work... Now I feel great about myself, because I did something good. And if the whole team is having that experience, it must be amazing.
+**Carlisia Thompson:** That sounds amazing. Because when you give and when you volunteer, or you help somebody in any way, you feel great, and it's so great to go back to work... Now I feel great about myself, because I did something good. And if the whole team is having that experience, it must be amazing.
 
 **Erik St. Martin:** And schools... Schools would be another great place to volunteer time.
 
@@ -294,7 +294,7 @@ I think you might want to bring that up to the different people, to do it... We 
 
 **Matt Aimonetti:** That sounds awesome.
 
-**Carlisia Pinto:** It does... Wow.
+**Carlisia Thompson:** It does... Wow.
 
 **Erik St. Martin:** I don't think it's a national thing, I think it is a local thing. It might even only be the county, but...
 
@@ -340,7 +340,7 @@ I saw the coolest video -- I think I saw it on Twitter... It's by Scott Lobdell.
 
 **Erik St. Martin:** Gokrazy is apparently an all Go userland for the Raspberry Pi.
 
-**Carlisia Pinto:** What's a userland?
+**Carlisia Thompson:** What's a userland?
 
 **Erik St. Martin:** So you have things that run basically in kernel space, which is the operating system itself... The things that you normally write, the everyday applications that run on top of the operating system are really userland. So it basically gets rid of a lot of C applications and some of the interactions with the kernel, and it's basically all Go.
 
@@ -364,7 +364,7 @@ I saw the coolest video -- I think I saw it on Twitter... It's by Scott Lobdell.
 
 **Erik St. Martin:** Right...? It's on my open tabs, where I have like 30 of them, like "Look at this later..." And then they graduate from -- I don't know whether it's "graduate", they probably demote from there into bookmarks, which sit there for... I think once a year I have to clean them all out, and I'm like "Man, why did I never look at those?"
 
-**Carlisia Pinto:** I wanna mention Matt's [Gobot Camp book](http://www.golangbootcamp.com/), which is online and free. We didn't talk about it, but I wanted to make sure we mentioned it. I actually used it to learn Go when I was starting out, so thank you, Matt!
+**Carlisia Thompson:** I wanna mention Matt's [Gobot Camp book](http://www.golangbootcamp.com/), which is online and free. We didn't talk about it, but I wanted to make sure we mentioned it. I actually used it to learn Go when I was starting out, so thank you, Matt!
 
 **Matt Aimonetti:** And it's open source... You're welcome. It's open source, it's also on GitHub, so if you add any items to it, if you want to make some changes, please feel free to send pull requests. If you're interested in helping me maintain it, I would also really welcome maintainers, since I don't have a lot of free time, and it looks like I'm gonna have to play with Gokrazy now, so I'm gonna have even less free time. \[laughter\]
 
@@ -402,7 +402,7 @@ So did anybody else have any other projects they wanna talk about before we move
 
 **Brian Ketelsen:** No.
 
-**Carlisia Pinto:** No.
+**Carlisia Thompson:** No.
 
 **Matt Aimonetti:** No.
 
@@ -418,7 +418,7 @@ If you have that anybody in mind, you're welcome to participate; if not, that's 
 
 **Erik St. Martin:** And how about you, Carlisia?
 
-**Carlisia Pinto:** I don't have one today.
+**Carlisia Thompson:** I don't have one today.
 
 **Erik St. Martin:** Okay. And Matt, did you have anybody?
 
@@ -456,7 +456,7 @@ If you want to help with the code, it's TypeScript, which looks a lot like Go; i
 
 **Brian Ketelsen:** Yeah, it's a dramatic difference on all three - I've got Windows, Mac and Linux. I've been using Visual Studio Code maybe half the time lately, and I can't get over how fast it is compared to everything else.
 
-**Carlisia Pinto:** Are you using that with a Vim plugin, or not?
+**Carlisia Thompson:** Are you using that with a Vim plugin, or not?
 
 **Brian Ketelsen:** Yeah, I use the Vim plugin, and I use the Go plugin, and I'm amazed. It's more responsive than Neo-Vim for me. It's a really fast editor.
 
@@ -480,7 +480,7 @@ I know Facebook's doing a ton of work, as well as some outside contributors on t
 
 **Brian Ketelsen:** Close it up!
 
-**Carlisia Pinto:** I think we're gonna need to wrap it up!
+**Carlisia Thompson:** I think we're gonna need to wrap it up!
 
 **Erik St. Martin:** Right. So definitely thank you for everybody being on the show today, especially to you, Matt, for coming on and talking to us... A lot of great topics here.
 
@@ -492,4 +492,4 @@ I know Facebook's doing a ton of work, as well as some outside contributors on t
 
 **Matt Aimonetti:** Bye, thank you!
 
-**Carlisia Pinto:** Thanks everybody, bye!
+**Carlisia Thompson:** Thanks everybody, bye!

@@ -1,6 +1,6 @@
 **Erik St. Martin:** We are back for another episode of GoTime. This episode is number 19. Today on the show we have myself, Erik St. Martin, we have Carlisia Campos also here...
 
-**Carlisia Pinto:** Hi !
+**Carlisia Thompson:** Hi !
 
 **Erik St. Martin:** ...and Brian Ketelsen...
 
@@ -38,7 +38,7 @@
 
 **Brian Ketelsen:** Yeah, your hockey stick growth is slowing us down, I can't live that long.
 
-**Carlisia Pinto:** Actually, I just remembered that a lot of people and myself included keep wondering what is idiomatic Go, because there is no such thing as a listing of what idiomatic Go is, and it sounds like it's a mythical thing to me. Exercism actually guides you through that. The comments that you get back on your solutions are very much geared towards helping you write idiomatic Go. So just by doing it, you start understanding what it is, and the comments are very helpful and very empathetic, so I highly recommend it.
+**Carlisia Thompson:** Actually, I just remembered that a lot of people and myself included keep wondering what is idiomatic Go, because there is no such thing as a listing of what idiomatic Go is, and it sounds like it's a mythical thing to me. Exercism actually guides you through that. The comments that you get back on your solutions are very much geared towards helping you write idiomatic Go. So just by doing it, you start understanding what it is, and the comments are very helpful and very empathetic, so I highly recommend it.
 
 **Erik St. Martin:** So let's actually step back for a second for anybody who's not familiar with Exercism.io. Do you wanna give a brief introduction to what that is, Kristina?
 
@@ -52,7 +52,7 @@
 
 **Katrina Owen:** No, it uses your GitHub username and avatar. We've talked about making it anonymous, but for the moment we have just not gone down that route. As you said, the format of the exercise is bite-sized, it's very small, trivial programs like "Calculate whether or not a year is a leap year"... It's mostly 20 to 50-line problems. We give you a working test suite so that you know when you're done - though 'done' is just the first iteration - and then given feedback, you can produce a new solution, iterate on it and improve things.
 
-**Carlisia Pinto:** Those test suites are awesome, by the way. My first encounter with Go, right after I started doing the exercises, and immediately I wanted to learn how to do tests, and I'm like "Oh, look at that, there are tests right here", and that's where I started learning tests from. It was perfect. They were simple, they were clear, they were concise, and they were all I needed to learn the basics, the fundamentals of how to do unit tests with Go.
+**Carlisia Thompson:** Those test suites are awesome, by the way. My first encounter with Go, right after I started doing the exercises, and immediately I wanted to learn how to do tests, and I'm like "Oh, look at that, there are tests right here", and that's where I started learning tests from. It was perfect. They were simple, they were clear, they were concise, and they were all I needed to learn the basics, the fundamentals of how to do unit tests with Go.
 
 **Katrina Owen:** That's awesome. I talked to someone at GopherCon who said that they learned Go -- so they were a game developer in Lua, and when they were switching to Go they used Exercism to learn it. When they started their new job at Fastly, they were the only person on their team that knew how to write tests in Go.
 
@@ -74,11 +74,11 @@
 
 **Katrina Owen:** \[00:07:34.09\] Right, and that's part of the thing of being on the internet - you probably don't know the person, you don't know their learning style, you don't know why they're there learning Go... Maybe they're learning programming for the first time and Go just happens to be that language. Maybe the have been programming for 20 years and Go is just for fun, maybe they need Go desperately for a project... It's hard to know.
 
-**Carlisia Pinto:** But there is also the positive reinforcement type of feedback, and there is a lot of that on Exercism. Regarding comments, I heard the Request For Commits episode number four, which is about building successful open source communities, and the guy said "Well, I have this community, I've built it, and one day I went on vacation and I came back and I saw people commenting using my voice." On Exercism, because Katrina comments on things and her style is a very solid, professional way of commenting, very kind... You definitely notice it's a good comment, if you are not familiar with code review. So you also notice people using her voice on their comments, and I thought that was so amazing; it totally blew my mind when I started noticing that.
+**Carlisia Thompson:** But there is also the positive reinforcement type of feedback, and there is a lot of that on Exercism. Regarding comments, I heard the Request For Commits episode number four, which is about building successful open source communities, and the guy said "Well, I have this community, I've built it, and one day I went on vacation and I came back and I saw people commenting using my voice." On Exercism, because Katrina comments on things and her style is a very solid, professional way of commenting, very kind... You definitely notice it's a good comment, if you are not familiar with code review. So you also notice people using her voice on their comments, and I thought that was so amazing; it totally blew my mind when I started noticing that.
 
 **Erik St. Martin:** That's interesting... So they kind of picked up the review style and the way to speak to people and are kind of mirroring that?
 
-**Carlisia Pinto:** Yes, and then I even told Katrina at one point, "Wow, this is so amazing. You come for the code, and you stay for the comments", because you also learn how to comment on code. You can be giving correct feedback and you can also positive feedback, and how you do it... Katrina is a pro, and you will learn that, either from her or from the members who are also learning from her and from each other. It's amazing.
+**Carlisia Thompson:** Yes, and then I even told Katrina at one point, "Wow, this is so amazing. You come for the code, and you stay for the comments", because you also learn how to comment on code. You can be giving correct feedback and you can also positive feedback, and how you do it... Katrina is a pro, and you will learn that, either from her or from the members who are also learning from her and from each other. It's amazing.
 
 **Brian Ketelsen:** I love that.
 
@@ -86,7 +86,7 @@
 
 **Katrina Owen:** Yes, they're elsewhere.
 
-**Carlisia Pinto:** But you can be rude without meaning to be rude. For example, I know how to do code review and I know what good, empathetic comments look like, but when I'm tired, I comment on things and then I look at it and I'm like "Oh my gosh, I could have said that in such a much nicer way, and I didn't. Ugh!" So it takes practice... You exercise that muscle so that even when you're tired you do it the way that you think is a good way, the way that you want to. So I totally see how somebody commenting and it seems it's coming across as rude, but maybe it wasn't intentionally rude. Obviously, there are those that are blatantly rude and you can see the intention behind it, but in some cases they just don't know.
+**Carlisia Thompson:** But you can be rude without meaning to be rude. For example, I know how to do code review and I know what good, empathetic comments look like, but when I'm tired, I comment on things and then I look at it and I'm like "Oh my gosh, I could have said that in such a much nicer way, and I didn't. Ugh!" So it takes practice... You exercise that muscle so that even when you're tired you do it the way that you think is a good way, the way that you want to. So I totally see how somebody commenting and it seems it's coming across as rude, but maybe it wasn't intentionally rude. Obviously, there are those that are blatantly rude and you can see the intention behind it, but in some cases they just don't know.
 
 **Erik St. Martin:** I think an important thing to remember from both sides, and I tell this to some of the guys who are new to code review, is when you're thinking about it, solving the problem is the hardest part, right? So looking at somebody else's solution and telling them how they can refine that to make it a little cleaner or a little more performant, that's significantly easier - especially if you're already knowledgeable in the domain - than it is to solve the problem.
 
@@ -120,7 +120,7 @@ Whenever I talk about this in public, I forget to mention that part, so it looks
 
 **Katrina Owen:** I don't think it's either, I think it's just the style.
 
-**Carlisia Pinto:** I think I'm less reckless at this point in Go than I ever was in Ruby, even after a few years of doing Ruby, because of two things. One, the syntax is so short, it's so easy to memorize what you have to do. And two, although you haven't memorized it yet, the compiler is giving you feedback, so you're kind of seeing what the errors. And again, going back to the first point, there are just so few errors that you memorize them quickly. So pretty much I don't get a whole lot of compiler errors because I know what to do with the syntax.
+**Carlisia Thompson:** I think I'm less reckless at this point in Go than I ever was in Ruby, even after a few years of doing Ruby, because of two things. One, the syntax is so short, it's so easy to memorize what you have to do. And two, although you haven't memorized it yet, the compiler is giving you feedback, so you're kind of seeing what the errors. And again, going back to the first point, there are just so few errors that you memorize them quickly. So pretty much I don't get a whole lot of compiler errors because I know what to do with the syntax.
 
 **Katrina Owen:** I wonder if 'reckless' is the wrong word here, because with Go I trust that the compiler is going to tell me about every single mistake. So if I do some complicated rename or start working on changing a type, I know that the compiler is going to tell me about every single location where I have to make that change. In Ruby there was nothing that was gonna tell me everything, and I couldn't trust that my tests had all the changes, so I had to tread my way much more carefully. In Go I think I just feel safer with the compiler at my back.
 
@@ -130,7 +130,7 @@ Whenever I talk about this in public, I forget to mention that part, so it looks
 
 **Erik St. Martin:** You tend to, rather than looking at it from the negative side, like "Oh, you can be more reckless in Go", maybe it's just you don't have to scrutinize your refactorings as much; you don't have to examine them and think about all the dynamic places that might cause problems during runtime.
 
-**Carlisia Pinto:** Yeah, I can see that.
+**Carlisia Thompson:** Yeah, I can see that.
 
 **Erik St. Martin:** Before we move on to other things, I wanna go back to Exercism real quick because I think we really should try to shout out and get people involved. There's multiple ways to be involved, right? By submitting exercises for languages you're familiar with and by helping to review code. Where is the best place to send people to do that?
 
@@ -204,7 +204,7 @@ I have a little bot that does some linting and a little bit of static analysis i
 
 **Erik St. Martin:** Right.
 
-**Carlisia Pinto:** My thinking when I tell people who want to learn to program or are not super experienced yet is "Master your editor and learn Git." Carrie Miller has a great talk about the need to fail to learn things, the need to experiment, and knowing your editor well and knowing Git well will help so much towards that goal. Because with Git, you add things to Git, you keep track and you change, when you wanna go back you go back, you jump around, you wipe things out, you reset things... So knowing Git well - or at least well enough - is such a big help. It makes you go from 2 to 8 as a developer, I think. Not to mention that it's super useful; you're gonna need it anyway to put things on the web, and things like that.
+**Carlisia Thompson:** My thinking when I tell people who want to learn to program or are not super experienced yet is "Master your editor and learn Git." Carrie Miller has a great talk about the need to fail to learn things, the need to experiment, and knowing your editor well and knowing Git well will help so much towards that goal. Because with Git, you add things to Git, you keep track and you change, when you wanna go back you go back, you jump around, you wipe things out, you reset things... So knowing Git well - or at least well enough - is such a big help. It makes you go from 2 to 8 as a developer, I think. Not to mention that it's super useful; you're gonna need it anyway to put things on the web, and things like that.
 
 **Katrina Owen:** Yeah, I completely agree. There's a new series by Michael Hartl that he and some of his colleagues are working on called "Learn Enough to Be Dangerous" (learnenough.com) The very first thing that he gives you is a tutorial for the command line. Like, "Get just enough command line to be dangerous." Then the second thing is a text editor, and the third thing is Git - that's super important.
 
@@ -238,15 +238,15 @@ I have a little bot that does some linting and a little bit of static analysis i
 
 **Erik St. Martin:** Yeah, that would be interesting, to start thinking about some other things like that that are kind of ancillary bits of knowledge that are required to do what we do.
 
-**Carlisia Pinto:** Talking about ancillary bits of knowledge... Read the errors.
+**Carlisia Thompson:** Talking about ancillary bits of knowledge... Read the errors.
 
 **Katrina Owen:** \[00:36:00.15\] YEAH! \[laughter\]
 
-**Carlisia Pinto:** It's not until you become beaten up by years and years of programming and debugging that you really give in, and "Okay, reading the error log is profitable. I'm going to do it." It's amazing... When people are new to programming you tell them, "Read the error log", and they don't. And you tell them, "Read the error log", and they don't... It takes a while for you to really convince yourself that is super profitable.
+**Carlisia Thompson:** It's not until you become beaten up by years and years of programming and debugging that you really give in, and "Okay, reading the error log is profitable. I'm going to do it." It's amazing... When people are new to programming you tell them, "Read the error log", and they don't. And you tell them, "Read the error log", and they don't... It takes a while for you to really convince yourself that is super profitable.
 
 **Katrina Owen:** I would actually ask people, "So what does the error say?" and they would flip back to their terminal and say, "I think what's wrong is...", and I was like "No, no, no... What does the error say?" They're like, "Well, it says that there's...", and I'm like "No, read it out loud, word for word. Tell me the words." \[laughter\] Because it's so important.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Brian Ketelsen:** But how many times do we catch ourselves not reading the error? I do it at least once a week. Or the error message is staring me right in the face, telling me exactly what's wrong, and I change 16 other things trying to fix it before I realize what I've done.
 
@@ -256,7 +256,7 @@ I have a little bot that does some linting and a little bit of static analysis i
 
 **Katrina Owen:** Yeah, because we are all foolish; let's just be honest here.
 
-**Carlisia Pinto:** I think we are in a hurry more than anything else.
+**Carlisia Thompson:** I think we are in a hurry more than anything else.
 
 **Katrina Owen:** Yeah, I think we are. About six years ago I was freaking out basically, because I thought I had to learn everything. Like, every new article that I saw was another thing I had to learn, and I had this backlog of hundreds and hundreds and hundreds of articles, tutorials and technologies I had to learn.
 
@@ -278,7 +278,7 @@ And I finally decided that I was gonna give up. I was not gonna learn anything. 
 
 **Erik St. Martin:** That was perfect. If felt kind of right in.
 
-**Carlisia Pinto:** We planned it. It was all planned. Everything we do is planned.
+**Carlisia Thompson:** We planned it. It was all planned. Everything we do is planned.
 
 **Erik St. Martin:** We all knew the way the topic was gonna flow. So I think we've got about 20 minutes left, and I wanted to get to a technology you had mentioned in the email, Katrina, which is the GraphQL API. That's been something that has been on my radar for probably a year or two, the whole notion of GraphQL. I'd love to talk about that more.
 
@@ -316,15 +316,15 @@ Then for the ones that don't have responsive maintainers, I can spend more time.
 
 I had a working prototype where I was sucking down the data, but I was using the old APIs, not the GraphQL APIs, so it wouldn't work to get me all the \[unintelligible 00:46:05.20\]
 
-**Carlisia Pinto:** Besides the use cases that you just gave us for the maintainer, for the consumer of the project, I think it would be super awesome. Every time I run into a project that I'm considering, unless it's a super well-established and well-known project, there is a checklist of things that I do. I go through the issues list, I see if there are issues abandoned, I see if there are PRs abandoned, or I see people commenting, I see if PRs are being closed, I see how many issues and how many PRs are open... Of course, if it's an active project there can be a ton of PRs open, but they are being cycled through quickly, that's fine; if things are stale... I wanna know those things, and I do them manually. So that would be so awesome, if we could have that.
+**Carlisia Thompson:** Besides the use cases that you just gave us for the maintainer, for the consumer of the project, I think it would be super awesome. Every time I run into a project that I'm considering, unless it's a super well-established and well-known project, there is a checklist of things that I do. I go through the issues list, I see if there are issues abandoned, I see if there are PRs abandoned, or I see people commenting, I see if PRs are being closed, I see how many issues and how many PRs are open... Of course, if it's an active project there can be a ton of PRs open, but they are being cycled through quickly, that's fine; if things are stale... I wanna know those things, and I do them manually. So that would be so awesome, if we could have that.
 
 **Katrina Owen:** Yeah, this would potentially... What you said - run it against the repo and say, "Yes, people are getting responses." That would actually work even if there's not a lot of activity. If people get a response very quickly, even though the project is mostly stable, then it's still a good project to contribute to. Whereas if it's a project where the average response time is months or years, you might not wanna contribute.
 
-**Carlisia Pinto:** Super cool.
+**Carlisia Thompson:** Super cool.
 
 **Erik St. Martin:** Yeah, that's awesome. Although I have to say I've never worked on a project so big that it would require hitting the API to determine the state of my project. That's a whole new world.
 
-**Carlisia Pinto:** But sometimes you might not be a maintainer that works on a project that's so big, but you might have a ton of little projects, and it takes a lot of time to be on top of everything.
+**Carlisia Thompson:** But sometimes you might not be a maintainer that works on a project that's so big, but you might have a ton of little projects, and it takes a lot of time to be on top of everything.
 
 **Katrina Owen:** \[00:48:02.24\] Yes.
 
@@ -338,11 +338,11 @@ I had a working prototype where I was sucking down the data, but I was using the
 
 **Brian Ketelsen:** Yeah, how awesome is it that our guests are answering questions live on Slack while we broadcast? This is 2016, folks. This is it. This is 2016. We have reached the future.
 
-**Carlisia Pinto:** Katrina, you also have a blog that you post to... Maybe not super frequently, but the content is amazing. I know you have one blog post that coincidentally last week Aaron Schlesinger took one of the concurrency examples... Three Trivial Concurrency Exercises For The Confused Newbie Gopher. He took exercise number two out of that and he did one episode of Go In 5 Minutes.
+**Carlisia Thompson:** Katrina, you also have a blog that you post to... Maybe not super frequently, but the content is amazing. I know you have one blog post that coincidentally last week Aaron Schlesinger took one of the concurrency examples... Three Trivial Concurrency Exercises For The Confused Newbie Gopher. He took exercise number two out of that and he did one episode of Go In 5 Minutes.
 
 **Katrina Owen:** That's awesome, I didn't know that.
 
-**Carlisia Pinto:** Yeah, I'll link to it. It's super helpful.
+**Carlisia Thompson:** Yeah, I'll link to it. It's super helpful.
 
 **Katrina Owen:** That's great to know. I just kind of write... Sometimes I'll run into a question that it seems like there should be a good answer, but there is no blog post that really does that, so I try to just write that blog post that somebody might stumble on and could be useful to them. The most recent thing I posted was how do you take a static hand crafted website and turn it into something that Hugo generates, if you discover that what you needed wasn't a brochure site after all and you're actually adding things to it regularly. It becomes really tedious if you're copying and pasting headers.
 
@@ -366,7 +366,7 @@ Anyway, that's the type of blog post that I try to write - the little thing that
 
 **Erik St. Martin:** That's commitment.
 
-**Carlisia Pinto:** She'll be on GoTime giving us tips pretty soon. \[laughter\]
+**Carlisia Thompson:** She'll be on GoTime giving us tips pretty soon. \[laughter\]
 
 **Brian Ketelsen:** Soon enough.
 
@@ -396,19 +396,19 @@ Anyway, that's the type of blog post that I try to write - the little thing that
 
 **Erik St. Martin:** Alright, anybody else have any fun projects and news?
 
-**Carlisia Pinto:** I wanna mention something that I thought was super interesting and cool... Sameer Ajmani, he managed the Go language team; he posted on Twitter a couple days ago that he's looking for people who are using Go to teach university courses, because he wants to help them have better resources. I'd really like to see Go moving in that direction. I also then found out that there was a Wiki page on the Golang Wiki that lists a bunch of CS courses that are already using Go; I had no idea.
+**Carlisia Thompson:** I wanna mention something that I thought was super interesting and cool... Sameer Ajmani, he managed the Go language team; he posted on Twitter a couple days ago that he's looking for people who are using Go to teach university courses, because he wants to help them have better resources. I'd really like to see Go moving in that direction. I also then found out that there was a Wiki page on the Golang Wiki that lists a bunch of CS courses that are already using Go; I had no idea.
 
 **Katrina Owen:** That's brilliant.
 
-**Carlisia Pinto:** \[00:56:00.20\] Yeah, right? I had no idea. So spread the word, because I think Go is such a good language to learn how to program. I might be biased... I don't know. I think it is.
+**Carlisia Thompson:** \[00:56:00.20\] Yeah, right? I had no idea. So spread the word, because I think Go is such a good language to learn how to program. I might be biased... I don't know. I think it is.
 
 **Brian Ketelsen:** I was just having a conversation two days ago with somebody who's name I've already forgotten, who teaches Go at a college in California, and he loves it. He says it's the perfect teaching language.
 
-**Carlisia Pinto:** I know, it's Todd McLeod's.
+**Carlisia Thompson:** I know, it's Todd McLeod's.
 
 **Brian Ketelsen:** Maybe that's it. I don't know. I've slept since then, so I've forgotten.
 
-**Carlisia Pinto:** He teaches in Fresno. He recently did a GoBridge workshop in Fresno, it was very cool. Actually, that is a good segue into my next thing that I want to mention, which was mentioned by Florin Patan in our ping repo (thank you!). It is Better Go Playground Chrome Extension. This thing is so cool. Basically, you install it in the Chrome and just leave it there, and every time you go to the playground, you're gonna have syntax highlighting; it gives you the option of having a dark or light theme, and it also says that it has autocompletes, but I haven't figured out how to activate it.
+**Carlisia Thompson:** He teaches in Fresno. He recently did a GoBridge workshop in Fresno, it was very cool. Actually, that is a good segue into my next thing that I want to mention, which was mentioned by Florin Patan in our ping repo (thank you!). It is Better Go Playground Chrome Extension. This thing is so cool. Basically, you install it in the Chrome and just leave it there, and every time you go to the playground, you're gonna have syntax highlighting; it gives you the option of having a dark or light theme, and it also says that it has autocompletes, but I haven't figured out how to activate it.
 
 Also, if you run your code and you have errors, there will be an indication in the line, telling you where the error is. When I got the extension, I remembered that Todd had a bunch of snippets from the Go Playground, and I just went through the list and opened them in a Go Playground to test out this extension. \[unintelligible 00:57:44.28\] That's what I wanted to mention for projects and news.
 
@@ -434,15 +434,15 @@ Also, if you run your code and you have errors, there will be an indication in t
 
 A couple hundred lines of code and I've got a fully automated solution to bring new students online, on a server, with a Go environment and a web IDE with two clicks. It's just amazing. I love Go. Thank you, Go. Thank you, Go Team, thank you everybody who's contributed to go. Big hearts everywhere.
 
-**Carlisia Pinto:** And you have a pretty cool course to teach people how to do that, right?
+**Carlisia Thompson:** And you have a pretty cool course to teach people how to do that, right?
 
 **Brian Ketelsen:** That's true, I'm teaching a lot of classes, upcoming in October. Boston, I've got an online class 24th or 23rd October, both through O'Reilly. If you're listening live, you can use discount code Ketelsen to get 25% off either one of those classes.
 
-**Carlisia Pinto:** I really wanna take your online class \[unintelligible 01:01:16.08\] you'll be teaching.
+**Carlisia Thompson:** I really wanna take your online class \[unintelligible 01:01:16.08\] you'll be teaching.
 
 **Erik St. Martin:** They have claims. \[laughs\]
 
-**Carlisia Pinto:** Well, I'll be lucky if Fastly pays for it, so I'm definitely gonna be asking. Because I think I'm right there, needing to master everything that's listed there. I feel like I'm close, but it's also very confusing to figure out what the idiomatic way is, and you spend a lot of time trying to figure that out, as opposed to just \[unintelligible 01:01:45.22\]. So I think the course is perfect for me, for where I am, so I definitely wanna take it.
+**Carlisia Thompson:** Well, I'll be lucky if Fastly pays for it, so I'm definitely gonna be asking. Because I think I'm right there, needing to master everything that's listed there. I feel like I'm close, but it's also very confusing to figure out what the idiomatic way is, and you spend a lot of time trying to figure that out, as opposed to just \[unintelligible 01:01:45.22\]. So I think the course is perfect for me, for where I am, so I definitely wanna take it.
 
 **Erik St. Martin:** So this is the thing that Brian's been trying to show off to me for like the last week, and I've been too busy. It creates a user, sandboxes them inside of a container, copies over the training material... It did a whole bunch of stuff; it has a little command line tool for it...
 
@@ -452,13 +452,13 @@ A couple hundred lines of code and I've got a fully automated solution to bring 
 
 **Brian Ketelsen:** It almost falls into what we were talking about earlier, that idea of building environments for people to learn it. I noticed Andrew Gerrand posted a slide deck about an idea today, the Go workspace tool that he's working on. The same concept - how do you get somebody from, "Okay, I've installed Go" to "How do I start using Go?" There's a gap there, and I'm aiming to narrow that gap with my students. With some time I'd like to make it open source, because I think it's powerful enough that it would be helpful for other people teaching.
 
-**Carlisia Pinto:** And for the record, he's not working on it... I think he's \[unintelligible 01:03:19.20\] out there and trying to entice people to take on the work where he left off. He's done some work, but he doesn't seem to have the bandwidth to continue. He explicitly said he's not working on it.
+**Carlisia Thompson:** And for the record, he's not working on it... I think he's \[unintelligible 01:03:19.20\] out there and trying to entice people to take on the work where he left off. He's done some work, but he doesn't seem to have the bandwidth to continue. He explicitly said he's not working on it.
 
 **Brian Ketelsen:** Well, that's too bad.
 
 **Erik St. Martin:** Alright. Carlisia, do you wanna go next?
 
-**Carlisia Pinto:** Yes. I definitely wanna give a shout out to Exercism - how could we not? It's awesome. Katrina is awesome, everything about it is awesome. If you haven't checked that out...
+**Carlisia Thompson:** Yes. I definitely wanna give a shout out to Exercism - how could we not? It's awesome. Katrina is awesome, everything about it is awesome. If you haven't checked that out...
 
 **Erik St. Martin:** I don't think I wanna know how much time she's invested into that... It's probably scary.
 
@@ -466,7 +466,7 @@ A couple hundred lines of code and I've got a fully automated solution to bring 
 
 **Erik St. Martin:** \[01:04:00.09\] Those battle scars...
 
-**Carlisia Pinto:** And I also wanna give a shout out to GoConvey. I have been using it a lot. I don't use it as a test package, but I use it to -- we were talking about refactoring, red/green. If you put it up on your project and you open it on your browser, it just gives you that nice green-red-green-red. I don't have my editor set up to check compiler errors on tests, I check it on GoConvey and I feel super productive like that. I'm changing things, either on the tests or \[unintelligible 01:04:42.04\] file on the corresponding file, and I just get the notification from GoConvey. It's quick, and it's been great. I love it. I love color-coded things as well, that makes me so happy!
+**Carlisia Thompson:** And I also wanna give a shout out to GoConvey. I have been using it a lot. I don't use it as a test package, but I use it to -- we were talking about refactoring, red/green. If you put it up on your project and you open it on your browser, it just gives you that nice green-red-green-red. I don't have my editor set up to check compiler errors on tests, I check it on GoConvey and I feel super productive like that. I'm changing things, either on the tests or \[unintelligible 01:04:42.04\] file on the corresponding file, and I just get the notification from GoConvey. It's quick, and it's been great. I love it. I love color-coded things as well, that makes me so happy!
 
 **Erik St. Martin:** I used to use it a lot, and I'm actually ashamed to say I haven't used it very much lately. I think it's like you jump in and you try to start doing stuff quickly, and then that kind of becomes your pattern and you fall off from some of these things. I need to start using it again.
 
@@ -476,11 +476,11 @@ A couple hundred lines of code and I've got a fully automated solution to bring 
 
 **Brian Ketelsen:** Yeah.
 
-**Carlisia Pinto:** Yeah, and the green is such a pretty green; you wanna see that green all the time. \[laughter\]
+**Carlisia Thompson:** Yeah, and the green is such a pretty green; you wanna see that green all the time. \[laughter\]
 
 **Brian Ketelsen:** I long for the green.
 
-**Carlisia Pinto:** Another thing that I love about it is that it gives you a percentage of your test coverage. On the left it keeps track, and you see a bar inching up as you add tests. And everytime you change a test, if there was a change to the code coverage, if it was an increase you would see an up arrow with a notification, and if it was a decrease, you would see a down arrow with a notification. It's sort of like a game, you just wanna see the up arrow all the time. You wanna see an arrow there. Because if you change something and there is no change in the code coverage, it doesn't give you anything. So you just wanna keep seeing that up arrow there all the time.
+**Carlisia Thompson:** Another thing that I love about it is that it gives you a percentage of your test coverage. On the left it keeps track, and you see a bar inching up as you add tests. And everytime you change a test, if there was a change to the code coverage, if it was an increase you would see an up arrow with a notification, and if it was a decrease, you would see a down arrow with a notification. It's sort of like a game, you just wanna see the up arrow all the time. You wanna see an arrow there. Because if you change something and there is no change in the code coverage, it doesn't give you anything. So you just wanna keep seeing that up arrow there all the time.
 
 **Brian Ketelsen:** It's like that stupid fuel economy gauge in my car - every time I see it I'm like "Oh, I need to back off the gas..." \[laughter\]
 
@@ -488,7 +488,7 @@ A couple hundred lines of code and I've got a fully automated solution to bring 
 
 **Brian Ketelsen:** That's a show all on its own.
 
-**Carlisia Pinto:** Yeah, that is true. But Go also has a very good test coverage tool. If you haven't exercised that path, you know you should. Maybe you write a test and it's not gonna be the best test; maybe it's gonna be misleading, but at least... I think not having the test is bad; having tests that are not good tests is like, "Okay, it's not good", you gotta make it better. The next step then is having tests that are meaningful.
+**Carlisia Thompson:** Yeah, that is true. But Go also has a very good test coverage tool. If you haven't exercised that path, you know you should. Maybe you write a test and it's not gonna be the best test; maybe it's gonna be misleading, but at least... I think not having the test is bad; having tests that are not good tests is like, "Okay, it's not good", you gotta make it better. The next step then is having tests that are meaningful.
 
 **Brian Ketelsen:** Yeah, any tests are better than no tests.
 
@@ -500,7 +500,7 @@ A couple hundred lines of code and I've got a fully automated solution to bring 
 
 **Brian Ketelsen:** You know, maybe that's it - it's the nearly instantaneous response time. I'm impatient.
 
-**Carlisia Pinto:** Fast tests is what hooked me to Go. Go had me at fast tests.
+**Carlisia Thompson:** Fast tests is what hooked me to Go. Go had me at fast tests.
 
 **Katrina Owen:** Yeah, fast tests was my motivation to learn how to refactor, so that I could have less decoupling and load fewer dependencies when I was testing my code.
 
@@ -542,11 +542,11 @@ A couple hundred lines of code and I've got a fully automated solution to bring 
 
 I think that what they've done with their communities is absolutely amazing. One of their team members was on another Changelog episode not too long ago, Jan Lehnardt. He was on the Request for Commits episode \#4, talking about building healthy communities. Absolutely worth a listen.
 
-**Carlisia Pinto:** That's the person I was referring to when I mentioned that he went away on vacation, then came back and people were talking in his voice. I was comparing him to you, Katrina. I noticed that pattern as well with Exercism.
+**Carlisia Thompson:** That's the person I was referring to when I mentioned that he went away on vacation, then came back and people were talking in his voice. I was comparing him to you, Katrina. I noticed that pattern as well with Exercism.
 
 **Katrina Owen:** I'm so flattered... I want to be him when I grow up. \[laughter\]
 
-**Carlisia Pinto:** Let's not end this show... Can we just keep going?
+**Carlisia Thompson:** Let's not end this show... Can we just keep going?
 
 **Brian Ketelsen:** Let's just keep going, just let it roll.
 
@@ -568,7 +568,7 @@ I think that what they've done with their communities is absolutely amazing. One
 
 **Erik St. Martin:** And thanks to all the listeners and everybody who's participating live in the Slack channel. For next week, if anybody else wants to participate, we're on the Gophers Slack in GoTime FM. We are @GoTimeFM on Twitter, we are GoTime.fm online if you want to subscribe if you haven't already subscribed. Big shout out to our sponsors, Linode and Backtrace for this episode. If you wanna be a guest or you wanna suggest guests or topics, GitHub.com/gotimefm/ping. I think I covered everything... Alright everybody, it's been fun.
 
-**Carlisia Pinto:** Thank you, goodbye!
+**Carlisia Thompson:** Thank you, goodbye!
 
 **Brian Ketelsen:** Goodbye!
 

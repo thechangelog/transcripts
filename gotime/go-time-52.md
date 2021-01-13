@@ -1,6 +1,6 @@
 **Brian Ketelsen:** Welcome back, everybody. This is GoTime episode number 52, where we're joined by David Chase. I'm Brian Ketelsen, standing in for Erik St. Martin who is out today. I'm joined by Carlisia Pinto...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Brian Ketelsen:** And Ashley McNamara...
 
@@ -100,15 +100,15 @@ So I'm thinking about what's the most accessible part of the compiler, and the m
 
 **Brian Ketelsen:** Yeah, that makes some sense. I mean, there's always a cost.
 
-**Carlisia Pinto:** What else is in the pipeline for the compiler?
+**Carlisia Thompson:** What else is in the pipeline for the compiler?
 
 **David Chase:** For 1.10?
 
-**Carlisia Pinto:** Well, yeah... 1.9, 1.10, 2.0...
+**Carlisia Thompson:** Well, yeah... 1.9, 1.10, 2.0...
 
 **David Chase:** So I don't know everything, I know around me. We tried to get in a CL, a big CL, that would have improved the debugging experience for optimized code, and we didn't make it... So that is definitely in the pipeline. We want to have a better story for that. In particular if you have a crash and you get a dump, that's generally optimized code, which is the usual case for Go.
 
-**Carlisia Pinto:** And what was the CL for?
+**Carlisia Thompson:** And what was the CL for?
 
 **David Chase:** Well, so when you run SSA, it tends to break up variable lifetimes into smaller chunks; so they'll go in and out of registers... Right now they're still homed to the same stack slot, but over this basic block it might be in a register, and then a little while later it might be in a different register, so we have to emit the debugging information that describes that value movement in and out of registers. That's something that we really want to get done at 1.10.
 
@@ -120,7 +120,7 @@ We need to fix that and we need to change the compiler to add a preemption check
 
 The garbage collector guys are looking into whether they can make generational collection work, and that will add a write barrier that's gonna be on all the time, which will then motivate -- it's still like a lot harder to write barrier optimizations. I don't know who's gonna be doing that. It might be me, it might be somebody else, but we're certainly motivated to look at it.
 
-**Carlisia Pinto:** I wonder if you have a feature that is at the top of your wish list that if you had no constraints you could implement that and make Go a ton better...
+**Carlisia Thompson:** I wonder if you have a feature that is at the top of your wish list that if you had no constraints you could implement that and make Go a ton better...
 
 **David Chase:** I hate to say "if it had no constraints", because that's not really -- that's not really Go, and...
 
@@ -132,7 +132,7 @@ The garbage collector guys are looking into whether they can make generational c
 
 **David Chase:** Well... So you're talking completely compatible -- are we talking about Go the language or Go its implementation?
 
-**Carlisia Pinto:** Go the language. I'm just trying to assess where your mind is in terms of what you admire about Go and how do you see it becoming better than it is. It doesn't really matter, I just wanted to get a sense for how you think about Go.
+**Carlisia Thompson:** Go the language. I'm just trying to assess where your mind is in terms of what you admire about Go and how do you see it becoming better than it is. It doesn't really matter, I just wanted to get a sense for how you think about Go.
 
 **David Chase:** So if I were to say "Look at the proposals that went by in the last year or so for Go 2", the one that I almost thought they could have put in - I think it had syntax that would have allowed us to put it in if we wanted to - was the multidimensional slices. That's really kind of my Fortran background speaking there. It's one of these things where people who don't write that kind of code are like "Yeah, it's easy. You just code it and it's fine." And you know, it's the usual thing... Anything that I don't actually have to do that someone else has to do, that must be easy, and it's really much nicer to have the multidimensional syntax, and it's really much better in terms of generating code and doing balance check elimination if you have it built into the language.
 
@@ -140,11 +140,11 @@ The garbage collector guys are looking into whether they can make generational c
 
 Go is just a nice, clean, comprehendable language; this is a little thing, and you could do -- it appeals to me. _Generics_? Oh yeah, _Generics_ would be cool if we could agree on what they meant, and if we could agree on their implementation characteristics of what we want it to do, and there's all sorts of risks where it might not make it a better language.
 
-**Carlisia Pinto:** Yeah, of course.
+**Carlisia Thompson:** Yeah, of course.
 
 **David Chase:** So the one for me that looked like the most likely to win would be the multidimensional slices. I liked that a lot. It didn't make it in, and that made me sad.
 
-**Carlisia Pinto:** I wanna flip this question around and ask you what is in Go today from a compiler perspective that you would be happy removing? Maybe that's not even a fair question, because as far as functionality, Go is already so minimalistic... But I was wondering if you had one or two things that you could get rid of easily.
+**Carlisia Thompson:** I wanna flip this question around and ask you what is in Go today from a compiler perspective that you would be happy removing? Maybe that's not even a fair question, because as far as functionality, Go is already so minimalistic... But I was wondering if you had one or two things that you could get rid of easily.
 
 **David Chase:** It's not a compiler thing... I have opinions about how things go back and forth to Cgo, and we're close and I think that we're converging... We may have already met and I may have just misunderstood, because I don't do enough Cgo programming to get a really good feel for some of the details. Nah, that's probably not even that. Like you said, it's a tiny language; there's not a lot of crud in it.
 
@@ -168,21 +168,21 @@ So again, you have a nice, fast compiler, but some of the algorithm's underpinni
 
 **David Chase:** The other reason to prefer simplicity, I think - and this may just be me - is I think one reason to like Go right now is that you do have a prayer of understanding it end to end, whereas a C compiler is crazy nowadays, and a Java compiler, including HotSpot, is absolutely crazy; just bananas. And what you care about that for is for things like correctness and security. Go has not a formally verified compiler; those are pretty rare, but they're getting less rare, and you can imagine that if we kept the language small that maybe we'd get there someday. Maybe not this Go compiler, but another one. But even without formal verification, we at least have a chance of reading the whole thing and understanding all the parts and how they work.
 
-**Carlisia Pinto:** It is so refreshing to hear someone like you say that. I actually wanted to confirm that when you were talking about simplicity, you were talking about readability...
+**Carlisia Thompson:** It is so refreshing to hear someone like you say that. I actually wanted to confirm that when you were talking about simplicity, you were talking about readability...
 
 **David Chase:** Well, ultimately it's -- I worry a little bit about it from the point of view of security, but... I mean, don't forget who worked on this compiler - [Ken Thompson, Trusting Trust](https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)... \[laughter\]
 
 **Brian Ketelsen:** Best paper ever.
 
-**Carlisia Pinto:** I'd like for you to tell us more about what you just mentioned about -- I forgot the words you said...
+**Carlisia Thompson:** I'd like for you to tell us more about what you just mentioned about -- I forgot the words you said...
 
 **Brian Ketelsen:** The verified compiler?
 
-**Carlisia Pinto:** Exactly. What is that?
+**Carlisia Thompson:** Exactly. What is that?
 
 **Ashley McNamara:** Yeah, somebody just asked that.
 
-**Carlisia Pinto:** And why is that important? I'm sorry, and why don't we have it?
+**Carlisia Thompson:** And why is that important? I'm sorry, and why don't we have it?
 
 **David Chase:** So I don't have direct experience with them, so I wanna be careful I don't go out on a limb and make stuff up. A verified compiler is one where you have proved formally that it's transformations are formally correct. And part of the reason that you don't have these is because if you're gonna talk about actual dotted i's and crossed t's correctness, you need to have an exact specification of the input language and its intended behavior, and then you need to have an exact specification of how the hardware is gonna behave.
 
@@ -190,7 +190,7 @@ So again, you have a nice, fast compiler, but some of the algorithm's underpinni
 
 So part of the obstacle is getting the specifications (clean specs) for the endpoints, and then the rest of the problem is that you get back to the "Boy, I want my code to run fast and I want my compiler to compile code quickly." This forces you either to have a great -- you either end up with a giant compiler, you end up with the tricky algorithms, and you might not have a proof for some of them. Is that getting in a vague direction? But you've actually proved that it's gonna do the right thing, and you have a proof, you don't just have testing.
 
-**Carlisia Pinto:** It's still hard for me to grasp the why, if we have verified -- like, we have proved it, but we just don't have the test... I don't know what that means, but we don't have to go deep into those woods.
+**Carlisia Thompson:** It's still hard for me to grasp the why, if we have verified -- like, we have proved it, but we just don't have the test... I don't know what that means, but we don't have to go deep into those woods.
 
 **Brian Ketelsen:** I'm just curious whether we have to verify every backend, every different target... So do you have to verify for x86/64 and also for ARM5 or whatever? You have to verify each different target?
 
@@ -234,11 +234,11 @@ So part of the obstacle is getting the specifications (clean specs) for the endp
 
 **Brian Ketelsen:** No, that's a really bad subset of pies. If you don't include banana cream, then it's not even a pie question.
 
-**Carlisia Pinto:** Wait, why is this question even being asked? Why not, like, what kind of muffin, or donuts...? Why pie? Is that an internal joke?
+**Carlisia Thompson:** Wait, why is this question even being asked? Why not, like, what kind of muffin, or donuts...? Why pie? Is that an internal joke?
 
 **Brian Ketelsen:** Because pie.
 
-**Carlisia Pinto:** Okay, is that why? Okay...
+**Carlisia Thompson:** Okay, is that why? Okay...
 
 **Ashley McNamara:** Right now we're just interested in pies, but we could go into the whole pastry line.
 
@@ -276,17 +276,17 @@ So part of the obstacle is getting the specifications (clean specs) for the endp
 
 **David Chase:** Pecan pie is just amazing; it's just so...
 
-**Carlisia Pinto:** I think pecan pie has too many pecans. \[laughs\]
+**Carlisia Thompson:** I think pecan pie has too many pecans. \[laughs\]
 
 **Ashley McNamara:** How dare you...? \[laughs\]
 
 **Brian Ketelsen:** It's just too nuts... \[laughter\]
 
-**Carlisia Pinto:** I know...
+**Carlisia Thompson:** I know...
 
 **David Chase:** But I do like both of those pies. They are..
 
-**Carlisia Pinto:** No Boston cream pie for you?
+**Carlisia Thompson:** No Boston cream pie for you?
 
 **David Chase:** It's okay... I mean, pie is good. I'm trying to think of which pie -- pecan has to win, actually.
 
@@ -306,11 +306,11 @@ So part of the obstacle is getting the specifications (clean specs) for the endp
 
 **Ashley McNamara:** True.
 
-**Carlisia Pinto:** Hey, can I get a pie, too? I don't even care what pie - just send a homemade pie and I'm happy...Send me pie!
+**Carlisia Thompson:** Hey, can I get a pie, too? I don't even care what pie - just send a homemade pie and I'm happy...Send me pie!
 
 **Brian Ketelsen:** So I have one thing to add on the pie subject and then we should probably move on, because we're a little bit off topic... But the best pie in the entire universe is made by Emeril Lagasse at his restaurant, and it's banana cream pie, and it's by far the best pie ever. I won't even begin to describe how good it is because I'm hungry right now, but if you get an opportunity to eat Emeril Lagasse's banana cream pie, it's a life-changing, religious experience.
 
-**Carlisia Pinto:** Where is this?
+**Carlisia Thompson:** Where is this?
 
 **Brian Ketelsen:** At any of Emeril Lagasse's restaurants. He's got a couple in Louisiana, and he has a couple here in Orlando, and I don't know where else. Good stuff. Crazy good stuff. Beyond good stuff.
 
@@ -320,7 +320,7 @@ So on that note, on that sidetrack note, we should probably move on to interesti
 
 **Brian Ketelsen:** So let's move on to Go projects and news. Anything interesting other than [GopherCon](https://www.gophercon.com/) happened in the last couple of weeks that we wanna bring up?
 
-**Carlisia Pinto:** Are you serious? Did you just ask that question?
+**Carlisia Thompson:** Are you serious? Did you just ask that question?
 
 **Brian Ketelsen:** Anything exciting OUTSIDE of GopherCon? We'll have a whole show just about GopherCon.
 
@@ -330,7 +330,7 @@ So on that note, on that sidetrack note, we should probably move on to interesti
 
 **Ashley McNamara:** No, I'm sorry. I'm still...
 
-**Carlisia Pinto:** Nobody's prepared to talk about anything besides GopherCon.
+**Carlisia Thompson:** Nobody's prepared to talk about anything besides GopherCon.
 
 **Ashley McNamara:** I'm still getting over GopherCon slowly. It's all I think about.
 
@@ -372,37 +372,37 @@ Then there's a cool game engine that I noticed on GitHub about two weeks ago tha
 
 **Ashley McNamara:** Are you impressed?
 
-**Carlisia Pinto:** Well, she didn't see the spider... Don't overestimate...
+**Carlisia Thompson:** Well, she didn't see the spider... Don't overestimate...
 
 **Brian Ketelsen:** Just because you didn't see it doesn't mean he's not crawling on your back right now.
 
 **Ashley McNamara:** Why would you do that to me? Why would you say those things to me? Monster.
 
-**Carlisia Pinto:** So to give people context, we're talking about the PocketCHIP because that was what was gifted to the GopherCon speakers.
+**Carlisia Thompson:** So to give people context, we're talking about the PocketCHIP because that was what was gifted to the GopherCon speakers.
 
 **Brian Ketelsen:** Yes. It's a $60 or $70 computer; so amazing, so much fun. If you like at all playing with small devices, especially something that is Linux, but very, very portable and has a cute little screen and keyboard, then I can't recommend the PocketCHIP enough. It's tons of fun. I really haven't stopped playing with mine since last week. Totally amazing.
 
 So back to news - there's a great new book out by Katherine Cox-Buday, one of our speakers from maybe GopherCon 2015, called [Concurrency in Go](http://shop.oreilly.com/product/0636920046189.do). That's an O'Reilly book that was just released to print, so I think it's available in electronic form, but not quite yet in paper form.
 
-**Carlisia Pinto:** In two weeks.
+**Carlisia Thompson:** In two weeks.
 
 **Brian Ketelsen:** Yeah, very exciting. I had the privilege of reading through an earlier version of it and it's very well done. Concurrency in Go is a tough topic to hit, and she did a great job on it. I'm excited that there's another good resource for concurrency out there, and a whole book dedicated to it.
 
-**Carlisia Pinto:** Yeah, exactly. I'm really excited to see a whole book about concurrency. I pre-ordered it, and I'm waiting for my hard copy, because it's important enough that I wanna hold it in my hands.
+**Carlisia Thompson:** Yeah, exactly. I'm really excited to see a whole book about concurrency. I pre-ordered it, and I'm waiting for my hard copy, because it's important enough that I wanna hold it in my hands.
 
 On the topic of schedulers, I wanted to make sure we mention [Cindy Sridharan's](https://twitter.com/copyconstruct) amazing [blog post](https://medium.com/@copyconstruct/schedulers-kubernetes-and-nomad-b0f2e14a896) about cluster schedulers. It's really well-written. She got a lot of praise online for the post, so if you're interested in schedulers, you should read that, too.
 
 **Brian Ketelsen:** Oh, that was a very good post, I agree.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Brian Ketelsen:** Now I know what you're talking about. Good, we should put the link to that up on the show notes, too.
 
-**Carlisia Pinto:** \[00:44:03.26\] Yeah, I just dropped it. I'm not sure if I'm using the right document, but...
+**Carlisia Thompson:** \[00:44:03.26\] Yeah, I just dropped it. I'm not sure if I'm using the right document, but...
 
 **Brian Ketelsen:** Oh, perfect. Yes, Cindy is really active in the San Francisco Go community.
 
-**Carlisia Pinto:** Yes.
+**Carlisia Thompson:** Yes.
 
 **Brian Ketelsen:** Alright, so we like to end our show with \#FreeSoftwareFriday, which is a shoutout to any open source group or maintainer or project that you love, that you enjoy, that you can't live without. It's something that we like to do because we use a lot of open source and we really appreciate all the hard work that people put into those projects, and we feel like they're kind of thankless.
 
@@ -418,7 +418,7 @@ I will start off by shouting out to [Dave Cheney](https://twitter.com/davecheney
 
 Anybody else have a person or a project or a thing that they wanna shout out for \#FreeSoftwareFriday?
 
-**Carlisia Pinto:** I wanna give a shoutout to `godoc`. It's such a neat tool that we have, and for people who are new and don't know, you can run `godoc` on your machine if you're flying, and you get on your browser the documentation for all packages that you have residing in your system.
+**Carlisia Thompson:** I wanna give a shoutout to `godoc`. It's such a neat tool that we have, and for people who are new and don't know, you can run `godoc` on your machine if you're flying, and you get on your browser the documentation for all packages that you have residing in your system.
 
 Yesterday I found out that you can write documentation for each of your packages in a separate file called `doc.go`. If you have a lot of documentation to write, you can put it all in there. So instead of ending up with separate files with tons of documentation in those files. It's really neat, I didn't know that.
 
@@ -444,15 +444,15 @@ Yesterday I found out that you can write documentation for each of your packages
 
 **Ashley McNamara:** Yeah, it was so good.
 
-**Carlisia Pinto:** We are talking about... A few of the meetup organizers were so taken by the whole exercise that we are -- I mean, different people went up to Steve separately and told him the same thing, which is "We should be doing this a few times a year", just getting meetup groups going through exactly that workshop. So it might be happening.
+**Carlisia Thompson:** We are talking about... A few of the meetup organizers were so taken by the whole exercise that we are -- I mean, different people went up to Steve separately and told him the same thing, which is "We should be doing this a few times a year", just getting meetup groups going through exactly that workshop. So it might be happening.
 
 **Brian Ketelsen:** It actually reminds me... One of the Arizona meetups - I just saw on Twitter today they're actually going through the same exercise at their meetup this coming month. Phoenix, yes. [Brian Downs](https://twitter.com/bdowns328). Thank you, Phoenix, for doing this exact same thing. That's awesome. You've gotta love Brian Downs for being on top of his meetup organizing game. So if you're in the Phoenix area, go to the next Phoenix meetup and you can get that same experience.
 
-**Carlisia Pinto:** My wishlist is to go through that and have someone from the Go team or one or two people going through the CL, submit it, so we can have that quick feedback loop. Anyway...
+**Carlisia Thompson:** My wishlist is to go through that and have someone from the Go team or one or two people going through the CL, submit it, so we can have that quick feedback loop. Anyway...
 
 **Brian Ketelsen:** That's awesome. Alright, so anybody else have a \#FreeSoftwareFriday shoutout that they wanna make?
 
-**Carlisia Pinto:** Dave, do you have one?
+**Carlisia Thompson:** Dave, do you have one?
 
 **David Chase:** Day in, day out, I'd have to say [MacPorts](https://www.macports.org/), because I use a Mac all the time and I use the UNIX tools all the time, and a lot of them -- you know, these guys are getting a lot of leverage off of the fact that they're packaging other open source software, but it's a lot of work. I have helped debug a few of them, and... Just all the packaging work is a big deal.
 
@@ -470,6 +470,6 @@ With that, thanks everyone. We really appreciate it.
 
 **Ashley McNamara:** Thank you.
 
-**Carlisia Pinto:** Thank you, and thank you Dave.
+**Carlisia Thompson:** Thank you, and thank you Dave.
 
 **David Chase:** You're welcome. Thank you for having me.

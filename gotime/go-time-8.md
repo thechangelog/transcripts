@@ -6,7 +6,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** And then we have the wonderful Carlisia Campos also on the line.
 
-**Carlisia Pinto:** Glad to be here, hello.
+**Carlisia Thompson:** Glad to be here, hello.
 
 **Erik St. Martin:** Let's have everybody give Asim a warm welcome and if you could give us a brief introduction, a little bit of history about yourself and then we'll kind of roll into the whole Micro framework.
 
@@ -22,11 +22,11 @@ Now I'm working on this thing called Micro. I realized everyone was really doing
 
 So when I built this, I really thought about what are the fundamental building blocks, how would you do if you built it open source first? So it needs to be pluggable... And it slowly evolved. I mean, it started as just Go Micro - the kind of core project - and now it's this bigger thing and I'm calling it an ecosystem and trying to build it really further and address every requirement, but also kind of saying, "Look, it's pluggable." We offload the hard things to the people and the tools that are really focused on those things. So service discovery - there's an interface for it, but if you want something that is consistent and distributed, you can use Console or Etcd or anything like that. It's the same for all the other kind of packages within there.
 
-**Carlisia Pinto:** \[00:04:25.27\] Before we geek out on Micro, Asim, it seems that you're working exclusively on Micro. Is that true? And if so, what is the financial sustainability plan for the project and for yourself?
+**Carlisia Thompson:** \[00:04:25.27\] Before we geek out on Micro, Asim, it seems that you're working exclusively on Micro. Is that true? And if so, what is the financial sustainability plan for the project and for yourself?
 
 **Asim Aslam:** Sure. That's right, I'm working on it full-time. Basically, I quit my job at Hailo over a year ago, because I felt so strongly about this and I wanted to build this. At the time I was talking to some venture capitalists, so the plan was, "Hey, I' m gonna raise this money, build this team and we're gonna go off and do this." You know, the Silicon Valley way. And actually we were in London so no, we couldn't do it that way and I ended up kind of going it alone. Luckily, I had some savings, so I kept going, and eventually a friend of mine who was at Hailo, who is now at Sixt, the car rental company, he went there to build a platform and he saw what I was doing and we kind of worked out a deal and that company is essentially sponsoring the project so that I can continue to work on this full-time, which is really great.
 
-**Carlisia Pinto:** Very cool.
+**Carlisia Thompson:** Very cool.
 
 **Brian Ketelsen:** Yeah, I always love to hear projects that work that way where people get sponsored to work on them full-time. Because I know a lot of people get really passionate about their open source projects and a lot of times they become abandoned when they move on to new places that no longer sponsor.
 
@@ -52,7 +52,7 @@ People learning Go for the first time could probably do this, because what reall
 
 You know every language has a different kind of syntax, therefore it's gonna come down to a certain numbers of lines. For Go it feels naturally like that, but you kind of know a lot of the time, because this is a philosophy - you know from looking at the code if it takes longer than a week to do something, then you know it's probably too big. If it takes you a lot of work to build that mental model as you're trying to change something, then you also know it's too big.
 
-**Carlisia Pinto:** That's an interesting measure, because I am thinking at the beginning when you're designing something - maybe that's what you mean - at the design/creation time how much you can hold it in your head; because for me as time goes by more and more and I'm working with the codebase... I mean, two years that I work with a codebase, I can hold a ton more than what I could in the first two months.
+**Carlisia Thompson:** That's an interesting measure, because I am thinking at the beginning when you're designing something - maybe that's what you mean - at the design/creation time how much you can hold it in your head; because for me as time goes by more and more and I'm working with the codebase... I mean, two years that I work with a codebase, I can hold a ton more than what I could in the first two months.
 
 **Asim Aslam:** Yeah, it's interesting... I mean, I agree in that the longer you go, the more you can kind of remember about it and kind of model in your head. But at the same time, if you leave the project for a little while and come back, how long does it take you to kind of build that model again? For me, it's the case of "Can I hold the entire model in my head? Can I make changes to that model in my head in a very, very easy manner and then put it down in code very, very quickly?"
 
@@ -62,7 +62,7 @@ You can kind of generally get a feel for when it's not working. I think people c
 
 I think when a team comes together, they kind of figure how they'll work and what number of services work for them and what code bases, what sizes of code bases work for them.
 
-**Carlisia Pinto:** I agree. I think you have a very good point. I like that way of thinking. You might not even use it exclusively on your team, depending on how your team is made up, but you can definitely use it as a complement.
+**Carlisia Thompson:** I agree. I think you have a very good point. I like that way of thinking. You might not even use it exclusively on your team, depending on how your team is made up, but you can definitely use it as a complement.
 
 **Asim Aslam:** Yeah. I think for me now the question I'm thinking more about is we've seen all this kind of stuff play out in organizations; what I wanna see is how this works in the open developer word. If we were to collaboratively build entire products with microservices just as general developers, would that work and on what scale could we actually achieve that?
 
@@ -148,7 +148,7 @@ I've actually seen some people kind of start to use pieces of the Go platform, w
 
 **Erik St. Martin:** Right.
 
-**Carlisia Pinto:** Before we move on, I wanted to ask you, Asim, where can people find out more, how to get started, the tutorials, where can they go to ask questions, do you have channel here on Gopher Slack? In other words, tell us how people can get started and get proficient using Micro?
+**Carlisia Thompson:** Before we move on, I wanted to ask you, Asim, where can people find out more, how to get started, the tutorials, where can they go to ask questions, do you have channel here on Gopher Slack? In other words, tell us how people can get started and get proficient using Micro?
 
 **Asim Aslam:** Sure, thanks for asking. You can go to the website micro.mu and that'll kind of take you to where you need to go. There's a blog which has the introduction, it has a getting started guide on how to write Go microservices. You can go to the GitHub repository and there's a Wiki and there's documents in every single kind of package that explains how things work, and each of them in the readme have a kind of getting started kind of guide and how to start with that.
 
@@ -156,19 +156,19 @@ We also have a Slack channel dedicated to kind of Micro and microservices in dis
 
 **Erik St. Martin:** That's great.
 
-**Carlisia Pinto:** Thank you.
+**Carlisia Thompson:** Thank you.
 
 **Erik St. Martin:** So I think we have probably like 15-20 minutes left. One of the things we like to do with our guests is just kind of have like a fireside chat where we kind of talk about interesting kind of projects and news and other things that you have interest in. I know serverless is a big thing and we kind of touched a little bit on that earlier.
 
 **Brian Ketelsen:** Worst name ever. Ever.
 
-**Carlisia Pinto:** I totally agree.
+**Carlisia Thompson:** I totally agree.
 
 **Erik St. Martin:** Is it worse than the Cloud?
 
 **Brian Ketelsen:** \[00:32:00.11\] Yes, it's far worse than the Cloud. At least with the Cloud you've got some concept that there's something somewhere. Serverless is just... Somebody should be shot for coming up with that, sorry.
 
-**Carlisia Pinto:** Yes, it's completely misleading.
+**Carlisia Thompson:** Yes, it's completely misleading.
 
 **Asim Aslam:** On the term - yeah, the term sucks a little bit. I think you have to look beyond the name and the hype and actually see what the real value is there, like what they're saying to you. And what they're really saying to you is, "Hey, this is the second coming of Platform as a Service where you don't have to deal with infrastructure, and also things will only run when they need to be run, so the cost is like orders of magnitude less."
 
@@ -180,7 +180,7 @@ We also have a Slack channel dedicated to kind of Micro and microservices in dis
 
 **Asim Aslam:** No... I guess the problem is you can't pick the naming, right? Once it takes off, it takes off. I mean you remember big data and you remember cloud and you remember DevOps and even microservices... It just happens and then it becomes the word and then there's nothing you can do.
 
-**Carlisia Pinto:** So, Asim, you seem to be very proficient with the concept of serverless. Why don't you tell everybody what it is? Because when we interviewed Travis Reeder, I had to actually go and look it up. I felt that I either wasn't getting it or I didn't see the big deal, because there is a server involved somewhere in the diagram, between the user and you and your codes. So what is it about it, please tell us.
+**Carlisia Thompson:** So, Asim, you seem to be very proficient with the concept of serverless. Why don't you tell everybody what it is? Because when we interviewed Travis Reeder, I had to actually go and look it up. I felt that I either wasn't getting it or I didn't see the big deal, because there is a server involved somewhere in the diagram, between the user and you and your codes. So what is it about it, please tell us.
 
 **Asim Aslam:** Sure. So from what I gather, the idea is that it's really about event-driven programming and there is no management of servers or anything at all involved and you don't have to manage anything yourself.
 
@@ -192,7 +192,7 @@ But people are also using it for other things. If you have side projects and you
 
 \[00:35:33.07\] Your container or whatever it is, your code is only executed when someone actually calls it. Otherwise there is nothing running in the interim, and that's really the big thing about it. There's nothing running, it only runs when something calls it. I'm not sure if I see it working at scale yet. I mean, within organizations as a full-time thing for the entire code base; I'm yet to see kind of a way of doing that, because I think when you're writing essentially functions for your code, you could end up in a spaghetti mess. I think the frameworks are emerging to kind of make this a little bit simpler, but it looks interesting so far.
 
-**Carlisia Pinto:** So it sounds to me from what you are saying that I should be thinking about the serverless approach as microservices, but instead of a full-blown microservice, an API or an app, I have a function. With microservices, I would think how would I split my application into microservices, so now I have to think about how do I extract portions of my code into functions that I can then run with a serverless approach.
+**Carlisia Thompson:** So it sounds to me from what you are saying that I should be thinking about the serverless approach as microservices, but instead of a full-blown microservice, an API or an app, I have a function. With microservices, I would think how would I split my application into microservices, so now I have to think about how do I extract portions of my code into functions that I can then run with a serverless approach.
 
 **Asim Aslam:** Yeah. I think the goal is or the thing you should really think about is it's event-driven architectures. I think what they're saying is everything is asynchronous and so you're essentially building pipelines where things are triggered based on events. And the only synchronous action you may have is on the API side when some outside user is actually calling through an API gateway and then the pipeline kind of executes.
 
@@ -206,13 +206,13 @@ I want to say that maybe 70% to 80% of frontend projects and data pipelines will
 
 So we'll see some cases where people move their entire architectures over to it, and in other cases where it is primarily focused on frontend or the API or data analytics, and we'll have kind of a split off from other kind of ways of developing software. I can't actually say whether it will be the dominant form of how to build software, because I like being able to write a certain amount of code, I like being able to write code a certain way, but I think for a lot of use cases it will be quite useful.
 
-**Carlisia Pinto:** \[00:40:01.23\] What do you know of products that are available to drive those serverless application developments for Go developers or developers in general?
+**Carlisia Thompson:** \[00:40:01.23\] What do you know of products that are available to drive those serverless application developments for Go developers or developers in general?
 
 **Asim Aslam:** I think the first one that comes to mind is just serverless.com. That serverless project is the one that's been around the longest, it seems. It started out as a project called Jaws and now it's kind of taken off. It has over 8000 stars on GitHub.
 
 The other one is Apex, which seems to be doing really well and has multi-language support, along with Go. Even IBM open sourced their actual serverless project, it's called OpenWhisk, you can find it on GitHub. That will kind of give you a breakdown of how this stuff kind of works and you could even spin it up yourself.
 
-**Carlisia Pinto:** Thank you. That's a great list, it seems.
+**Carlisia Thompson:** Thank you. That's a great list, it seems.
 
 **Asim Aslam:** There's a lot of people moving on this very fast. There's a lot of big companies moving on it very fast. If you look at it, AWS has Lambda, Google has Functions, IBM has OpenWhisk, so you can see them all very, very quickly getting involved in this, because they see the value in it.
 
@@ -220,7 +220,7 @@ The other one is Apex, which seems to be doing really well and has multi-languag
 
 I think we are getting close to time, so one think I do want to touch on before we close out the show is the 1.7 Beta release. I'd like if we just have a couple of minutes to kind of just chat about some of the stuff that came as part of that and encourage people to download the beta and start compiling the code against it and submitting bug reports, especially with the SSA compiler that's now in it.
 
-**Carlisia Pinto:** Let's do it!
+**Carlisia Thompson:** Let's do it!
 
 **Erik St. Martin:** Alright.
 
@@ -272,11 +272,11 @@ So anything else anybody wants to talk about before me close out the show? Becau
 
 **Erik St. Martin:** Yeah, I mean anytime something new like that comes out people, you know... And CoreOS kind of gets the brunt of it too, because they're trying to innovate and they're trying to do things differently and I think they catch some slack for it too, the whole rocket thing... Many of these things are fantastic and they have some really smart people working for them. It's like every year they are scooping up more people. You're like "Oh, this person is doing something cool" and it's like "Yeah, CoreOS just grabbed him." \[laughter\] But I'm interested to see how it comes along. I think that as people start to play with it, I think that they'll start to see its merits.
 
-**Carlisia Pinto:** I wanted to mention something super quickly. Tom Maiaroto was asking for a review on the Reviews channel on Gopher Slack of this tool, it's a young project called [Discfg](https://github.com/tmaiaroto/discfg) and it's a tool for a distributed serverless configuration tool for using AWS services. I'm not going to go over it, but he has a "Why another one?" section on his readme, which is actually quite so well documented, and you can read there why the reasoning for this tool. And maybe people can help him review it.
+**Carlisia Thompson:** I wanted to mention something super quickly. Tom Maiaroto was asking for a review on the Reviews channel on Gopher Slack of this tool, it's a young project called [Discfg](https://github.com/tmaiaroto/discfg) and it's a tool for a distributed serverless configuration tool for using AWS services. I'm not going to go over it, but he has a "Why another one?" section on his readme, which is actually quite so well documented, and you can read there why the reasoning for this tool. And maybe people can help him review it.
 
 **Erik St. Martin:** It's open source. Competition is good. That's why.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Erik St. Martin:** Alright. Did anybody else have anything they want to touch on? Any closing notes about Micro, especially? Because that's definitely one of the most exciting things we've talked about here.
 
@@ -292,7 +292,7 @@ So anything else anybody wants to talk about before me close out the show? Becau
 
 **Erik St. Martin:** How about you, Carlisia?
 
-**Carlisia Pinto:** Well, today we talked about stateless computing and my pick is State Management for Go, a tool for Go backend applications. It's a tool by Luis Vinicius, it's called Godux. It's also a young project, but it seems promising. I'll definitely use it if I needed to manage states.
+**Carlisia Thompson:** Well, today we talked about stateless computing and my pick is State Management for Go, a tool for Go backend applications. It's a tool by Luis Vinicius, it's called Godux. It's also a young project, but it seems promising. I'll definitely use it if I needed to manage states.
 
 **Erik St. Martin:** That's great. Asim, you can't cheat, you cannot say Micro. You can go with anybody but Micro.
 
@@ -310,7 +310,7 @@ Alright, so I think we've made it all the way around. I definitely want to congr
 
 We will definitely link to the project and the Slack and anywhere else we can find Micro on the internet for everybody in the show notes. They should be posted on Twitter, if not now in a little bit. They will be on Twitter for the live listeners and in the Slack channel. Come find us on Twitter @GoTimeFM. You can go to gotime.fm to subscribe and I think the first episode is there. We'll have more episodes coming soon. I think that's it. I'm I missing anything, everybody? No?
 
-**Carlisia Pinto:** You've got it.
+**Carlisia Thompson:** You've got it.
 
 **Brian Ketelsen:** I think you did well.
 
@@ -322,6 +322,6 @@ We will definitely link to the project and the Slack and anywhere else we can fi
 
 **Brian Ketelsen:** Thanks, everybody.
 
-**Carlisia Pinto:** This was fun, thanks.
+**Carlisia Thompson:** This was fun, thanks.
 
 **Brian Ketelsen:** Thanks guys.

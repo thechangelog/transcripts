@@ -2,7 +2,7 @@
 
 Today on the show we have myself, Erik St. Martin, Carlisia Pinto is also here. Say hello, Carlisia...
 
-**Carlisia Pinto:** Hi, everyone.
+**Carlisia Thompson:** Hi, everyone.
 
 **Erik St. Martin:** And Brian Ketelsen...
 
@@ -52,7 +52,7 @@ So I don't even know that I would have made a different decision that they did i
 
 **Charity Majors:** It was definitely the clincher.
 
-**Carlisia Pinto:** I know you're still small, but I know you're probably either hiring here and there or you're testing the waters... How do you see the pool of developers for Go, and how do you even approach it? If you had an opening right now, would you be looking for somebody with experience in Go, or somebody just really good and who would have the resources to train them in-house?
+**Carlisia Thompson:** I know you're still small, but I know you're probably either hiring here and there or you're testing the waters... How do you see the pool of developers for Go, and how do you even approach it? If you had an opening right now, would you be looking for somebody with experience in Go, or somebody just really good and who would have the resources to train them in-house?
 
 **Charity Majors:** No, I don't care what languages people know, honestly... I have huge faith in people's ability and capacity to learn. Actually, I wouldn't want to hire someone who I didn't think could learn whatever we needed. I hate it when people do that sort of thing... "Oh, I see you have experience in Blah." No! In fact, this is one of the reasons that I love Parse. When I started there as their first infrastructure person, I had never -- either we used Ruby, AWS, Mongo, Cassandra... On down the list of technologies, and they looked past that and they were just like, "You'll learn." I was like, "Yeah."
 
@@ -330,7 +330,7 @@ I remember one of the things that frustrated me about being a corporate develope
 
 **Erik St. Martin:** So how about you, Carlisia - are you going to any release parties tonight?
 
-**Carlisia Pinto:** Absolutely. The San Diego Go Meetup is having a release party.
+**Carlisia Thompson:** Absolutely. The San Diego Go Meetup is having a release party.
 
 **Erik St. Martin:** I kind of wish Brian and I hadn't dropped the ball. A release party would have been fun. \[laughter\]
 
@@ -338,7 +338,7 @@ I remember one of the things that frustrated me about being a corporate develope
 
 **Erik St. Martin:** It works for me. I love barbecue. So you guys wanna talk about any projects, or anything we've come across this week?
 
-**Carlisia Pinto:** Yeah, let's do it.
+**Carlisia Thompson:** Yeah, let's do it.
 
 **Erik St. Martin:** So I came across one that was actually really interesting called [Pixterm](https://github.com/eliukblau/pixterm), which allows you to do images in just an ANSI terminal, which is really cool. And it's written in Go. The stuff people can do in a terminal is insane. I fight just to get my text to line up where it's supposed to when I'm trying to do a text user interface. And people are like, "Oh yeah, I'm gonna do graphics in my terminal."
 
@@ -370,7 +370,7 @@ I remember one of the things that frustrated me about being a corporate develope
 
 **Erik St. Martin:** It's funny, because it's almost unbelievable. People are like, "No..." Yeah. We must have had a TV in my house for most of my childhood, I'd have to guess.
 
-**Carlisia Pinto:** Even I had a TV growing up, Brian... \[laughs\]
+**Carlisia Thompson:** Even I had a TV growing up, Brian... \[laughs\]
 
 **Charity Majors:** I didn't have a TV. My parents would drag one out of the garage every four years for the Olympics, and that was it.
 
@@ -392,7 +392,7 @@ I remember one of the things that frustrated me about being a corporate develope
 
 **Charity Majors:** We were home schooled, no sugar, we grew our own food... It was kind of like women's compound honestly.
 
-**Carlisia Pinto:** That's a whole other show right there... \[laughter\]
+**Carlisia Thompson:** That's a whole other show right there... \[laughter\]
 
 **Charity Majors:** That's a whole different story.
 
@@ -434,17 +434,17 @@ And then another cool thing that was released today, I saw Ron Evans of the Hybr
 
 **Erik St. Martin:** It will be finished one day.
 
-**Carlisia Pinto:** I wanted to mention the changes to the Go code of conduct, because I think these things are important; it affects everybody. Did you guys see this?
+**Carlisia Thompson:** I wanted to mention the changes to the Go code of conduct, because I think these things are important; it affects everybody. Did you guys see this?
 
 **Brian Ketelsen:** Yes, I did.
 
-**Carlisia Pinto:** \[00:39:55.23\] So I saw the diff for the changes, and my impression is what they are doing is saying, "We are not going to be enforcers anymore", and they explain why, and it all makes sense. So basically they're going to be sort of like counselors or advisors if a conflict happens in one of the Go official spaces.
+**Carlisia Thompson:** \[00:39:55.23\] So I saw the diff for the changes, and my impression is what they are doing is saying, "We are not going to be enforcers anymore", and they explain why, and it all makes sense. So basically they're going to be sort of like counselors or advisors if a conflict happens in one of the Go official spaces.
 
 What that means to the community is that people who are running communities, meetups or anything like that will have to be more aware or more conscious that they will have to be enforcers. There is nobody else but us to enforce any type of follow up or action that needs to be taken. And hopefully it will never happen, but just in case.
 
 **Brian Ketelsen:** Yeah, I thought it was an interesting change from the previous "We're going to be the police force of the community" versus now just trying to provide guidance for every space. It recognizes that all of the different Go spaces already have some sort of mechanisms to keep their spaces friendly, and the Go team's objective should be to provide guidance and support to them. I like the change a lot.
 
-**Carlisia Pinto:** I think the change makes sense.
+**Carlisia Thompson:** I think the change makes sense.
 
 **Brian Ketelsen:** It means I won't get yelled at by the Go team anymore, which is a good thing.
 
@@ -492,7 +492,7 @@ What that means to the community is that people who are running communities, mee
 
 **Erik St. Martin:** I'm trying to remember what some of the other stuff is... We'll link in the show notes to the release notes that will go through all the stuff. They usually highlight some of the bigger stuff, and then they'll give the long form; you know, bugs fixed, and things like that in the individual libraries. If you haven't played with it, certainly do, and shame on you, because you're supposed to help beta testers before it's released.
 
-**Carlisia Pinto:** Francesc Campoy has a great video. I think he did it at a Meetup; it's the recording of his talk that he did, and he goes over all the new things in 1.8, and it's pretty awesome. I learned a few things; his was a lot more clear.
+**Carlisia Thompson:** Francesc Campoy has a great video. I think he did it at a Meetup; it's the recording of his talk that he did, and he goes over all the new things in 1.8, and it's pretty awesome. I learned a few things; his was a lot more clear.
 
 **Erik St. Martin:** Yeah, and Cory LaNou just linked in the GoTimeFM channel... Usually for all of the releases, [Dave Cheney](https://twitter.com/davecheney) puts together a slide deck introducing the changes in the version, in this particular case 1.8, so that people can host their own release parties and use that. Huge shoutout to Dave for doing that; he invested a ton of time in doing that stuff. It's too late now, because by the time this episode airs all the parties will have happened, but if you wanna run one late like Brian and I, you can use this slide deck. Or if you just wanna see what was part of it, that slide deck is available online, too.
 
@@ -506,7 +506,7 @@ What that means to the community is that people who are running communities, mee
 
 **Brian Ketelsen:** I'll back off, sorry.
 
-**Carlisia Pinto:** I do, too. Go, Brian! \[laughter\]
+**Carlisia Thompson:** I do, too. Go, Brian! \[laughter\]
 
 **Brian Ketelsen:** \[00:47:50.21\] My \#FreeSoftwareFriday shoutout is to the [Eclipse Che](https://www.eclipse.org/che/) project. If you haven't yet seen it, it's a really awesome web-powered IDE with terminal; all of that sounds kind of boring (who wants to write their stuff in the cloud?) but from my perspective, teaching Go, it allows me to use a single Docker container to give each of my students a fully operational Go web IDE and terminal that's self-contained and won't damage my servers, but allows them to have a complete Go environment with the source code for the class in it. One Docker container + Eclipse Che and everybody gets to write Go code without having to worry about installing things, so I really love Eclipse Che today. It makes me happy. Thanks, Eclipse.
 
@@ -516,15 +516,15 @@ What that means to the community is that people who are running communities, mee
 
 **Erik St. Martin:** How about you, Carlisia?
 
-**Carlisia Pinto:** Well, I saw Brian's shoutout, and I remembered that I wanted to give a shoutout to VS Code editor, because I've been using it and I'm finding it really, really neat. It's got some kinks, but I think it could become my main editor.
+**Carlisia Thompson:** Well, I saw Brian's shoutout, and I remembered that I wanted to give a shoutout to VS Code editor, because I've been using it and I'm finding it really, really neat. It's got some kinks, but I think it could become my main editor.
 
 **Brian Ketelsen:** It's so funny that you mentioned that, because I've probably been spending half of my time in Visual Studio Code this last week or two. The latest updates have been really sharp; it's the fastest GUI for editing that I've ever used. It's really sharp.
 
-**Carlisia Pinto:** It's really sharp, and it's fast.
+**Carlisia Thompson:** It's really sharp, and it's fast.
 
 **Brian Ketelsen:** I don't hate it.
 
-**Carlisia Pinto:** Yeah. It's got a Vim plugin - I'm sure it's got an Emacs plugin, as well... It's very neat to be able to just navigate through the definitions for each method so easily. I mean, you can do that with the other editors as well, but it's just really cool.
+**Carlisia Thompson:** Yeah. It's got a Vim plugin - I'm sure it's got an Emacs plugin, as well... It's very neat to be able to just navigate through the definitions for each method so easily. I mean, you can do that with the other editors as well, but it's just really cool.
 
 **Brian Ketelsen:** Their support is solid. I definitely think that they've done a great job, and I know it's Luke Hoban that's driven most of the Go integration, but the whole Microsoft team has done a great job on that editor. I like it a lot.
 
@@ -602,7 +602,7 @@ Anything that he's written... His giant library stuff over at the Facebook Go - 
 
 **Erik St. Martin:** So huge thank you to all of our listeners, especially the people listening live right now. Huge shoutout to our sponsors for today's episode - Toptal and Compose; without them, we wouldn't have a show. Definitely share the show with fellow Go programmers. We are GoTime.fm online, @GoTimeFM on Twitter, and GitHub.com/GoTimeFM/ping if you wanna be on the show, have suggestions for guests or questions for guests that we've had. With that, bye everybody! We'll see you next week!
 
-**Carlisia Pinto:** Bye!
+**Carlisia Thompson:** Bye!
 
 **Brian Ketelsen:** Thanks for coming on, Charity. We really appreciate it!
 

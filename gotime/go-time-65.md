@@ -2,7 +2,7 @@
 
 **Brian Ketelsen:** Hello!
 
-**Carlisia Pinto:** Carlisia...
+**Carlisia Thompson:** Carlisia...
 
 **Erik St. Martin:** Oh, weird... \[laughter\] No, my Skype just told me that it was reconnecting...
 
@@ -10,7 +10,7 @@
 
 **Erik St. Martin:** Yeah. Okay... \[laughs\] So we also have Carlisia Pinto here...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And our special guest for today is Vitor De Mario. You're one of the organizers of [GopherCon](https://2017.gopherconbr.org/). Something else, you spoke at -- it was a lightning talk, I think, at GopherCon last year...
 
@@ -20,7 +20,7 @@
 
 **Vitor De Mario:** I didn't think about that, but it's gonna be a problem.
 
-**Carlisia Pinto:** You know, I did that, and [Scott Mansfield](https://twitter.com/sgmansfield) I think corrected me on Slack -- oh no, it was somebody else that corrected me... And I'm like, "Oh, I had never realized they were two different words", like they sound different, genetics and generics. I'm sure I said it the same way...
+**Carlisia Thompson:** You know, I did that, and [Scott Mansfield](https://twitter.com/sgmansfield) I think corrected me on Slack -- oh no, it was somebody else that corrected me... And I'm like, "Oh, I had never realized they were two different words", like they sound different, genetics and generics. I'm sure I said it the same way...
 
 **Vitor De Mario:** I'm probably gonna have the same problem. I'm Brazilian, just like Carlisia, and I don't have a lot of years living in the U.S., so it's probably gonna be a bigger problem for me.
 
@@ -32,25 +32,25 @@ So what Mendelics does is we receive patients here who are sent to us by a physi
 
 \[00:03:53.08\] We used it, and we built a model here, and we started telling our physicians which variants were relevant in each case and which weren't, because everyone has a lot of mutations. So if we receive a patient -- back in the day we had 50,000 mutations for each one of us, even if we are healthy, and that's normal, so finding the one that is relevant in the middle of all of it is a big problem. In the beginning it was a very manual process, it had a lot of errors, and then we built this software in Go to try to find these mutations better and delivering them to our physicians before they had to start working on each case.
 
-**Carlisia Pinto:** So you did like a free sorting of sorts to sort out who had malignant mutations?
+**Carlisia Thompson:** So you did like a free sorting of sorts to sort out who had malignant mutations?
 
 **Vitor De Mario:** We usually say the word pathogenic.
 
-**Carlisia Pinto:** Pathogenic mutations?
+**Carlisia Thompson:** Pathogenic mutations?
 
 **Vitor De Mario:** Yes, yes. It's more like filtering, because we don't show the ones that are not relevant, because there is a lot of data in any case, even if it's a relatively simple case. But what we do is we filter it with the results of the machine of the machine learning software. All of that is written in Go, and all of that inside only one program.
 
-**Carlisia Pinto:** That is pretty cool.
+**Carlisia Thompson:** That is pretty cool.
 
 **Brian Ketelsen:** Alright, so I think we need to back up a little bit. You used about 30 words that meant nothing to me in that whole description. Something-something forest, something-- can you kind of back up and tell us about the process that gets used and what you're actually computing, where the data comes from? Help me out here, because I feel stupid, I'm sorry.
 
 **Vitor De Mario:** No, it's fine.
 
-**Carlisia Pinto:** Before I come across as smarter than Brian, because I didn't ask those questions - I've watched his [lightning talk](https://www.youtube.com/watch?v=GYLOmwIqP-M), so it sort of made sense to me... \[laughter\]
+**Carlisia Thompson:** Before I come across as smarter than Brian, because I didn't ask those questions - I've watched his [lightning talk](https://www.youtube.com/watch?v=GYLOmwIqP-M), so it sort of made sense to me... \[laughter\]
 
 **Vitor De Mario:** You came prepared.
 
-**Carlisia Pinto:** I came prepared, that's all.
+**Carlisia Thompson:** I came prepared, that's all.
 
 **Vitor De Mario:** Yeah, so there are two pieces to this, two about the data. Usually, we have very little data. What comes out of our lab and comes out of the bioinformatics software is just a list of mutations. It says "Oh, for this person, she has a mutation on the chromosome tree, this specific mutation. She should have an [A](https://en.wikipedia.org/wiki/Adenine) here; she has a [G](https://en.wikipedia.org/wiki/Guanine). That's it. And we have a whole list for each person, saying every mutation that they have. But those don't mean much, because in this list of mutations there is the color of your hair, the color of your eyes - all the kind of things that make you who you are, make you special. And in the middle of all of it there's also things that cause diseases, so what we wanna do is we wanna separate these mutations from the ones that don't cause any problem.
 
@@ -98,7 +98,7 @@ So there are people trying to get Go to be a good language for it... Because of 
 
 **Vitor De Mario:** Yes, he is THE guy in this area.
 
-**Carlisia Pinto:** And we also interviewed him here.
+**Carlisia Thompson:** And we also interviewed him here.
 
 **Erik St. Martin:** Yeah, he was [one of the first episodes](https://changelog.com/gotime/40)... I wanna say it was within the first 20-25 episodes.
 
@@ -130,15 +130,15 @@ Now we have a person, Fernanda, who is a data scientist and she knows a lot more
 
 **Erik St. Martin:** That's awesome.
 
-**Carlisia Pinto:** Now, it's pretty striking too that a doctor -- he probably knew how to program before, I would imagine...
+**Carlisia Thompson:** Now, it's pretty striking too that a doctor -- he probably knew how to program before, I would imagine...
 
 **Vitor De Mario:** \[00:16:01.01\] Yes, a little bit.
 
-**Carlisia Pinto:** But he just picked up a brand new cutting-edge language that maybe didn't have that much documentation back then and examples, and just said "Hey, this looks great, and simple enough."
+**Carlisia Thompson:** But he just picked up a brand new cutting-edge language that maybe didn't have that much documentation back then and examples, and just said "Hey, this looks great, and simple enough."
 
 **Brian Ketelsen:** "Yeah, what the hell, I'll just write some code..."
 
-**Carlisia Pinto:** "...and put it in production."
+**Carlisia Thompson:** "...and put it in production."
 
 **Vitor De Mario:** He said many times to us, since that day, that if he could come back in time, he wouldn't be a doctor, he would be an engineer. So since he didn't do that, now he tries to do as much engineering as possible, when he has time for it. He's not only a doctor, he's also running the company, so there isn't much time for him to do that, but he's trying to do all of it at once.
 
@@ -162,7 +162,7 @@ I remember Ruby - "Oh, super, super readable", right? Well, not if you show a no
 
 **Vitor De Mario:** Yes. If you have a background, you'll probably see things familiar there. I also think the explicitness, the fact that everything is quite clear in it helps you. Some of the more complicated topics like understanding why he should use an interface in a place, or why a big interface is a problem - that kind of thing is not that clear, but if we're talking about handling errors and seeing why something failed in a program, it's all very... Almost obvious. So he can read the code and he can understand what it's going on. That helps a lot, too. Not only in terms of the syntax of the language.
 
-**Carlisia Pinto:** Yeah, this is one thing that really strikes me about Go. You can write a very complex system without using any interface, or goroutines or anything that could be complicated, depending on your experience in programming. Now, of course, the more code you write without using these things, the more you have to keep in your head, and you could potentially simplify it by using interfaces, and making it more efficient by using goroutines... But you don't have to. You can have a perfectly functional program.
+**Carlisia Thompson:** Yeah, this is one thing that really strikes me about Go. You can write a very complex system without using any interface, or goroutines or anything that could be complicated, depending on your experience in programming. Now, of course, the more code you write without using these things, the more you have to keep in your head, and you could potentially simplify it by using interfaces, and making it more efficient by using goroutines... But you don't have to. You can have a perfectly functional program.
 
 **Vitor De Mario:** Yeah, you can still survive without those things. The first version of the program that he showed us had none of those things, and for a while there wasn't anything. We were trying to separate things into packages, and we had our own problems trying to rebuild things in the way we were used to in other languages. We came from Java or from C\#, depending on who was working on each part of the code... So we tried to do the things that we thought were natural and they didn't necessarily fit Go, so there was all of that, but... He had his own issues not knowing those things, and we also had them. After a while, we all kind of converged, understanding the language better.
 
@@ -180,17 +180,17 @@ I remember Ruby - "Oh, super, super readable", right? Well, not if you show a no
 
 **Brian Ketelsen:** I heard.
 
-**Carlisia Pinto:** I was there... \[laughs\]
+**Carlisia Thompson:** I was there... \[laughs\]
 
 **Erik St. Martin:** I still wanna make it. I was trying to get a passport and a visa turned around in time, and it just wasn't happening.
 
 **Vitor De Mario:** Yeah, that's a big problem for people in the U.S.
 
-**Carlisia Pinto:** I'm here to give a testimony - it was a fantastic event. The organizers -- I consider them all my friends, and I don't wanna be like a fangirl, but they did everything they said they were going to do. There was no disappointment. All of the speakers who were supposed to be there were there, as per the latest roster, and it was just great. The talks were great, the hangout afterwards, and... I don't know, I had a great time, learned a ton, met new people... There were -- what, 200 people there? 200 attendees?
+**Carlisia Thompson:** I'm here to give a testimony - it was a fantastic event. The organizers -- I consider them all my friends, and I don't wanna be like a fangirl, but they did everything they said they were going to do. There was no disappointment. All of the speakers who were supposed to be there were there, as per the latest roster, and it was just great. The talks were great, the hangout afterwards, and... I don't know, I had a great time, learned a ton, met new people... There were -- what, 200 people there? 200 attendees?
 
 **Vitor De Mario:** We were saying about 250, more or less.
 
-**Carlisia Pinto:** Yeah, I thought there was more than 200.
+**Carlisia Thompson:** Yeah, I thought there was more than 200.
 
 **Brian Ketelsen:** That's really awesome.
 
@@ -198,7 +198,7 @@ I remember Ruby - "Oh, super, super readable", right? Well, not if you show a no
 
 I don't know if Carlisia had the same sensation, but for me - I was there for the first year, and then for the second, and there was a really huge difference.
 
-**Carlisia Pinto:** I wasn't there for the first year, but I felt -- like I said, everything that was supposed to happen, happened. I didn't see any glitch. I was very pleased. It was very professional, very well put together, everything worked on the schedule, and I was very happy to see Google sponsoring the conference this year, and hopefully they will continue to do it. Sponsorships are so important; it's what allows conferences to get better and better, right? And as they learn what they need, they will be able to address things and make it better.
+**Carlisia Thompson:** I wasn't there for the first year, but I felt -- like I said, everything that was supposed to happen, happened. I didn't see any glitch. I was very pleased. It was very professional, very well put together, everything worked on the schedule, and I was very happy to see Google sponsoring the conference this year, and hopefully they will continue to do it. Sponsorships are so important; it's what allows conferences to get better and better, right? And as they learn what they need, they will be able to address things and make it better.
 
 **Erik St. Martin:** You know what's funny - that was probably one of the first things Brian and I wanted to fix after our first year, too... We were like "We've gotta do better A/V!"
 
@@ -206,17 +206,17 @@ I don't know if Carlisia had the same sensation, but for me - I was there for th
 
 **Vitor De Mario:** Yeah, I understand the feeling really, really well.
 
-**Carlisia Pinto:** When are the videos gonna be out?
+**Carlisia Thompson:** When are the videos gonna be out?
 
 **Vitor De Mario:** I don't know, we had some problems with it. It was supposed to be out already, but I can't give you a date yet. I hope soon, but I'm not really directly involved in that now, so I can't give you a date.
 
-**Carlisia Pinto:** Okay. So for people thinking about going to the GopherCon Brazil conference, if you're from outside Brazil and you need a visa, just heads up that you need to start working on the visa way before the trip.
+**Carlisia Thompson:** Okay. So for people thinking about going to the GopherCon Brazil conference, if you're from outside Brazil and you need a visa, just heads up that you need to start working on the visa way before the trip.
 
 **Erik St. Martin:** Yeah, months...
 
 **Vitor De Mario:** Yeah, because it takes a while.
 
-**Carlisia Pinto:** It takes a while.
+**Carlisia Thompson:** It takes a while.
 
 **Erik St. Martin:** Speaking of people coming in from other countries, what kind of geographic demographics -- was it mostly a lot of people from Brazil and South America, or was it a lot of people flying in from other countries?
 
@@ -270,17 +270,17 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Erik St. Martin:** I think we should just rent a city for like a month, and it's just Oprah Winfrey "You get a talk! And you get a talk! Everybody gets the talk!"
 
-**Carlisia Pinto:** Yeah... And pay people's salary too for a month, like, "Take a sabbatical, we'll pay your salary. Just come to watch...", because we need people to watch the talks, too.
+**Carlisia Thompson:** Yeah... And pay people's salary too for a month, like, "Take a sabbatical, we'll pay your salary. Just come to watch...", because we need people to watch the talks, too.
 
 **Erik St. Martin:** Yeah, that's always difficult too, and this is why Carlisia was talking about sponsorships... With sponsorship money you're able to pay travel and accommodation and all that stuff for speakers, which is important, because not everybody works for a company that will fund them to go speak at a conference... Or even specific ones, depending on the technologies they work with versus where they wanna go to talk.
 
-**Carlisia Pinto:** But you know, sponsorships and volunteers - those things really make or break a conference. I remember last year - talking about CFP's - I was one of the people who helped review the CFP's, and I remember sitting... It was two weekends of coffee and nothing else but reviewing those CFP's, at the very end, and I reviewed every single one of them. [Dave Cheney](https://twitter.com/davecheney) was the one - I think he's always the one - to lead that effort of reviewing the CFP's, and at the end he said "All reviewers reviewed all of the CFP's." It's a lot of work and it makes a huge difference, but the more eyes that are on the process, the better the selection process is.
+**Carlisia Thompson:** But you know, sponsorships and volunteers - those things really make or break a conference. I remember last year - talking about CFP's - I was one of the people who helped review the CFP's, and I remember sitting... It was two weekends of coffee and nothing else but reviewing those CFP's, at the very end, and I reviewed every single one of them. [Dave Cheney](https://twitter.com/davecheney) was the one - I think he's always the one - to lead that effort of reviewing the CFP's, and at the end he said "All reviewers reviewed all of the CFP's." It's a lot of work and it makes a huge difference, but the more eyes that are on the process, the better the selection process is.
 
 **Erik St. Martin:** Yeah, I was actually quite amazed that every talk was reviewed by every person.
 
 **Vitor De Mario:** You get different opinions, and sometimes you say something and you think the talk is good, or you think it isn't, and another person comes in and says, "No, but you didn't think about that." It changes my point of view completely. That happened a lot in our CFP, which was much smaller.
 
-**Carlisia Pinto:** Yeah, absolutely.
+**Carlisia Thompson:** Yeah, absolutely.
 
 **Vitor De Mario:** It definitely happened a lot on yours, too.
 
@@ -292,25 +292,25 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Vitor De Mario:** Yeah, given the reception to her talk last year, I think she's a great choice.
 
-**Carlisia Pinto:** She's gonna do a great job, for sure.
+**Carlisia Thompson:** She's gonna do a great job, for sure.
 
 **Erik St. Martin:** We all love Ashley.
 
 **Vitor De Mario:** Actually, I'm gonna be a little bit mean here, because I met her in Denver for the first time and she didn't know who I was, of course, because nobody knew back then, but she actually told me she would do a version of the logo of the software - I was talking about Abracadabra... He's a bunny these days, and he should become a gopher. And we never spoke about it again and it never happened, so... I'd still like to do it.
 
-**Carlisia Pinto:** Wait, a logo for your company?
+**Carlisia Thompson:** Wait, a logo for your company?
 
 **Vitor De Mario:** No, for the software, Abracadabra.
 
-**Carlisia Pinto:** Which is a commercial software.
+**Carlisia Thompson:** Which is a commercial software.
 
 **Vitor De Mario:** \[00:31:55.23\] Yeah, yeah.
 
-**Carlisia Pinto:** As far as I understand, she doesn't take money to do these -- logos for commercial products should be paid, but then...
+**Carlisia Thompson:** As far as I understand, she doesn't take money to do these -- logos for commercial products should be paid, but then...
 
 **Vitor De Mario:** Yeah, that's a problem.
 
-**Carlisia Pinto:** I'm sure she's like, "Well, if I'm not gonna get paid, I'll just..." -- I don't know what she focuses on, but maybe something related to a commercial product is probably low on her priority list.
+**Carlisia Thompson:** I'm sure she's like, "Well, if I'm not gonna get paid, I'll just..." -- I don't know what she focuses on, but maybe something related to a commercial product is probably low on her priority list.
 
 **Vitor De Mario:** It was never official. I only used it in the slides I do internally here, and the ones I did in Denver and at the first edition of GopherCon Brazil. But now we are thinking about - not thinking, we're already working on - splitting the software into several parts, and some of it is going to be open source, or perhaps it can be a new logo for the open source version. We are gonna need one.
 
@@ -332,7 +332,7 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Brian Ketelsen:** Well, there are several other people in the community that are making logos, too. We should get you connected with some of them, so that you can get some good gopher logos if Ashley is too busy.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Vitor De Mario:** That would be great.
 
@@ -358,7 +358,7 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Brian Ketelsen:** Yes!
 
-**Carlisia Pinto:** Let's do it!
+**Carlisia Thompson:** Let's do it!
 
 **Erik St. Martin:** Let's do it. I wanna go first, because I think this is ridiculously cool.
 
@@ -376,7 +376,7 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Brian Ketelsen:** Okay.
 
-**Carlisia Pinto:** Is that in a document? Because I don't see it.
+**Carlisia Thompson:** Is that in a document? Because I don't see it.
 
 **Erik St. Martin:** It is, it's further down. I'm gonna drop it in the channel. But it's a 3D renderer written in Go, and I just think that's ridiculously awesome.
 
@@ -404,13 +404,13 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Erik St. Martin:** Yeah, there needs to be some sort of filter for whether or not we should play with stuff.
 
-**Carlisia Pinto:** Isn't that us? Isn't that our job?
+**Carlisia Thompson:** Isn't that us? Isn't that our job?
 
 **Brian Ketelsen:** Oh, that's righ, we're the filter. Dammit! Alright, so go play with this! I'm telling you, go play with Wallaroo, because it's really awesome. And Pony, too. If you like playing with languages, Pony is awesome, and it's named Pony because when the designer of the language told people everything he wanted to put in the language, somebody replied with "Well, why don't you just ask for a pony, too?" Because it has all of the features.
 
 **Erik St. Martin:** That's awesome.
 
-**Carlisia Pinto:** That's hilarious.
+**Carlisia Thompson:** That's hilarious.
 
 **Erik St. Martin:** I think we've mentioned it before, but another cool language to play with is [Nim](https://nim-lang.org/).
 
@@ -424,7 +424,7 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Brian Ketelsen:** That's correct.
 
-**Carlisia Pinto:** That's a good flexibility.
+**Carlisia Thompson:** That's a good flexibility.
 
 **Brian Ketelsen:** Yeah, very nice.
 
@@ -436,27 +436,27 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Brian Ketelsen:** \[laughs\]
 
-**Carlisia Pinto:** Let's not talk about naming... I have currently a folder called Common, with a file named "shared.go"
+**Carlisia Thompson:** Let's not talk about naming... I have currently a folder called Common, with a file named "shared.go"
 
 **Brian Ketelsen:** Nice!
 
-**Carlisia Pinto:** I know, help me...
+**Carlisia Thompson:** I know, help me...
 
 **Brian Ketelsen:** That's an anti-pattern, by the way. Just FYI.
 
-**Carlisia Pinto:** No kidding!?
+**Carlisia Thompson:** No kidding!?
 
 **Vitor De Mario:** Is the package named "utils"?
 
-**Carlisia Pinto:** The package is called "common", with one filename called "shared.go"
+**Carlisia Thompson:** The package is called "common", with one filename called "shared.go"
 
 **Brian Ketelsen:** We're taking away your badge.
 
-**Carlisia Pinto:** I need help, people... Seriously.
+**Carlisia Thompson:** I need help, people... Seriously.
 
 **Brian Ketelsen:** \[00:39:55.21\] We're sending [Ben Johnson](https://twitter.com/benbjohnson) over for an immediate Go Package intervention. \[laughter\] Are there any other interesting news?
 
-**Carlisia Pinto:** I will go then. My friend Scott Kurowski - he works with Mongo, and he sent me news that they are doing an official MongoDB Go driver. This is interesting, because there is a heavily used Go driver already, but they decided to do what they're gonna call [the official one](https://github.com/mongodb/mongo-go-driver), and put it on their repo, I suppose. And there is a big [blog post](https://engineering.mongodb.com/post/considering-the-community-effects-of-introducing-an-official-golang-mongodb-driver) explaining why they decided to do that.
+**Carlisia Thompson:** I will go then. My friend Scott Kurowski - he works with Mongo, and he sent me news that they are doing an official MongoDB Go driver. This is interesting, because there is a heavily used Go driver already, but they decided to do what they're gonna call [the official one](https://github.com/mongodb/mongo-go-driver), and put it on their repo, I suppose. And there is a big [blog post](https://engineering.mongodb.com/post/considering-the-community-effects-of-introducing-an-official-golang-mongodb-driver) explaining why they decided to do that.
 
 I'm just saying this because for people who do use MongoDB, which is a lot of people, this might be relevant for them, and they might want to participate in this development, or not.
 
@@ -466,7 +466,7 @@ I'm just saying this because for people who do use MongoDB, which is a lot of pe
 
 **Brian Ketelsen:** Yeah, the driver is beautiful, and I don't know what the word count on this is, but it looks like 2,000 words talking about why this open source driver written by the community and contributed freely from people's spare time doesn't meet their needs. That's kind of a kick in the teeth for open source, isn't it?
 
-**Carlisia Pinto:** I think it might be saying that, but it's also saying that they need more control as far as to what gets in, they need to have more say. Apparently, there are things that they wanted to get it that weren't getting in, as per community consensus, so they decided "Well, I guess we form our own community, with the ideals that will fit our goals better."
+**Carlisia Thompson:** I think it might be saying that, but it's also saying that they need more control as far as to what gets in, they need to have more say. Apparently, there are things that they wanted to get it that weren't getting in, as per community consensus, so they decided "Well, I guess we form our own community, with the ideals that will fit our goals better."
 
 I don't know, I'm not taking sides, just trying to...
 
@@ -474,13 +474,13 @@ I don't know, I'm not taking sides, just trying to...
 
 **Brian Ketelsen:** Right. And they're not forking, they're just starting new.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Vitor De Mario:** I heard another announcement by Gustavo himself that he wasn't gonna work on the MGO driver anymore, and he was looking for someone else to take over him some time ago; i don't think he's doing that anymore. But with this post from the MongoDB guys, I kind of feel like they missed an opportunity in communication, so if they had talked to Gustavo, maybe they could take over the project themselves and we would have the best of both worlds, perhaps.
 
 **Brian Ketelsen:** It's also possible that this is a reaction, or that Gustavo's wanting to not maintain anymore as a reaction to this, I don't know... But no use attributing drama or malice where we don't know that there's any, but this certainly smells like it might have some.
 
-**Carlisia Pinto:** We don't know that any conversation did or did not take place.
+**Carlisia Thompson:** We don't know that any conversation did or did not take place.
 
 **Vitor De Mario:** Yes, that's true.
 
@@ -488,7 +488,7 @@ I don't know, I'm not taking sides, just trying to...
 
 **Brian Ketelsen:** Yeah. Well, I hope they treated Gustavo well, because he was a huge champion for the Go community and for Mongo.
 
-**Carlisia Pinto:** Yeah. And I actually owe him a contact to bring him on the show. I can't believe I haven't done that yet. Right? We wanna have him on the show...?
+**Carlisia Thompson:** Yeah. And I actually owe him a contact to bring him on the show. I can't believe I haven't done that yet. Right? We wanna have him on the show...?
 
 **Brian Ketelsen:** Well, you can get him on the show when Vitor gets his Ashley gopher, and we'll just do all of it at once.
 
@@ -514,7 +514,7 @@ I don't know, I'm not taking sides, just trying to...
 
 **Brian Ketelsen:** Well, speaking of that, if you go to her Twitter, which is [@Danicat83]((https://twitter.com/danicat83)), she's running a fundraiser to go talk at a conference in San Francisco, and I donated to that this morning because I would love to see her talk. So if you are able to go donate to that, it's definitely a worthy cause. She's an amazing helper in our community, so go help if you can.
 
-**Carlisia Pinto:** \[00:48:19.22\] Absolutely.
+**Carlisia Thompson:** \[00:48:19.22\] Absolutely.
 
 **Brian Ketelsen:** Alright, how about \#FreeSoftwareFriday? Are we ready?
 
@@ -526,17 +526,17 @@ I don't know, I'm not taking sides, just trying to...
 
 **Brian Ketelsen:** They are, but Bootstrap is still the reigning champion.
 
-**Carlisia Pinto:** And just for the fact that they were out there early on, when there was nothing... That was like, "Oh, wow... Life is changing."
+**Carlisia Thompson:** And just for the fact that they were out there early on, when there was nothing... That was like, "Oh, wow... Life is changing."
 
 **Brian Ketelsen:** Yeah, so big love to all of the people contributing to Bootstrap and to Twitter for having the foresight to release that as a framework, thank you. Who's next?
 
-**Carlisia Pinto:** I can go next. So today I felt virtuous for like a second and a half when I opened up my Twitter and I saw Francesc tweets saying that he didn't know about something that I knew about... \[laughs\] I'm like, "Check that out!"
+**Carlisia Thompson:** I can go next. So today I felt virtuous for like a second and a half when I opened up my Twitter and I saw Francesc tweets saying that he didn't know about something that I knew about... \[laughs\] I'm like, "Check that out!"
 
 **Vitor De Mario:** That felt good, didn't it? \[laughter\]
 
 **Brian Ketelsen:** Yeah, check me!
 
-**Carlisia Pinto:** Not only I knew about it, but I've used it, and he's like "How did I not know about this?" So it just goes to show, you know, it bears repeating... Some of the projects bear repeating; not everybody knows about even the really good stuff that's out there, so my shoutout goes to [Kelsey Hightower's](https://twitter.com/kelseyhightower) configuration library called [envconfig](https://github.com/kelseyhightower/envconfig), which is really neat. It just lets you hide your environment variables in a file, and using it in the application. It's pretty neat.
+**Carlisia Thompson:** Not only I knew about it, but I've used it, and he's like "How did I not know about this?" So it just goes to show, you know, it bears repeating... Some of the projects bear repeating; not everybody knows about even the really good stuff that's out there, so my shoutout goes to [Kelsey Hightower's](https://twitter.com/kelseyhightower) configuration library called [envconfig](https://github.com/kelseyhightower/envconfig), which is really neat. It just lets you hide your environment variables in a file, and using it in the application. It's pretty neat.
 
 **Vitor De Mario:** Yeah, I've used it for many years and I love it. It's really flexible, it's really easy to use, and it solves a lot of problems.
 
@@ -558,7 +558,7 @@ I don't know, I'm not taking sides, just trying to...
 
 **Erik St. Martin:** When Brian and I first met, he was my boss.
 
-**Carlisia Pinto:** Congratulations, Brian.
+**Carlisia Thompson:** Congratulations, Brian.
 
 **Brian Ketelsen:** Thank you, it's very exciting. We're running a team doing all open source work at Microsoft, and who would have thought those days were here? I love it so much...
 
@@ -602,27 +602,27 @@ I don't know, I'm not taking sides, just trying to...
 
 **Vitor De Mario:** Yeah, I wanted to highlight it too because of the fact that a Brazilian did it, so I kind of had to talk about it. And envconfig, which Carlisia talked about - I saw someone saying in the same thread that she mentioned (with Francesc) that it's also kind of a competitor made by a guy from Sao Paolo here, which participates a lot in our meetups, which is... I don't remember the name of the library -- something-config, but it's from [crgimenes](https://github.com/crgimenes) on GitHub... So I'm kind of happy to see these projects coming out of Brazil. Sometimes we are kind of silent here, nobody knows what's going on, but there are a few cool projects coming out of the country as well.
 
-**Carlisia Pinto:** \[00:56:07.05\] So people have to go to Brazil and meet all these amazing developers.
+**Carlisia Thompson:** \[00:56:07.05\] So people have to go to Brazil and meet all these amazing developers.
 
 **Vitor De Mario:** Yes, and GopherCon Brazil is the best opportunity for that. Everyone is gonna be in the same place.
 
 **Brian Ketelsen:** Isn't [Tsuru](https://github.com/tsuru/tsuru) come out of Brazil, too?
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Brian Ketelsen:** Okay.
 
 **Vitor De Mario:** And I heard about GoReleaser because of Tsuru. One of the Tsuru guys, who is also one of the organizers of GopherCon Brazil, [Guilherme](https://twitter.com/gbrezende), he was talking about it with the GoReleaser created on Twitter, so... Tsuru is one of our most successful projects, for sure.
 
-**Carlisia Pinto:** Guilherme or [Andrews](https://twitter.com/andrewsmedina)?
+**Carlisia Thompson:** Guilherme or [Andrews](https://twitter.com/andrewsmedina)?
 
 **Vitor De Mario:** No, I saw Guilherme talking with Carlos.
 
-**Carlisia Pinto:** So there are two Tsuru guys who are organizers of the Brazilian GopherCon.
+**Carlisia Thompson:** So there are two Tsuru guys who are organizers of the Brazilian GopherCon.
 
 **Vitor De Mario:** Yes, one former, Andrews, and one current, Guilherme.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Vitor De Mario:** They kind of switched places. Andrews left the team, they hired Guilherme. So they are both from the GopherCon Brazil team. I think that was gonna happen anyway. Tsuru is probably the biggest Go project in Brazil, and one of the teams that talk more on conferences everywhere, so one of them was gonna be in the GopherCon Brazil team. That was pretty much guaranteed.
 
@@ -644,11 +644,11 @@ Okay, so did we make it through everybody?
 
 **Erik St. Martin:** Alright, anybody have any other projects or people you wanna give shoutouts to before we close the show up? I will take that as a no. So thanks everybody for being on the show, especially thank you to Vitor for coming on and talking to us about genetics and not generics... \[laughter\]
 
-**Carlisia Pinto:** Thanks, Vitor, for not talking about generics. \[laughter\]
+**Carlisia Thompson:** Thanks, Vitor, for not talking about generics. \[laughter\]
 
 **Vitor De Mario:** Yeah, I wouldn't go there. Thanks for having me on the show, and I'd like to thank Carlisia especially for talking with me about it and opening this opportunity.
 
-**Carlisia Pinto:** Of course, it was so great to have you here. It was a great show.
+**Carlisia Thompson:** Of course, it was so great to have you here. It was a great show.
 
 **Vitor De Mario:** Thank you.
 
@@ -656,6 +656,6 @@ Okay, so did we make it through everybody?
 
 **Brian Ketelsen:** Goodbye!
 
-**Carlisia Pinto:** Bye!
+**Carlisia Thompson:** Bye!
 
 **Vitor De Mario:** Goodbye!

@@ -14,7 +14,7 @@ We've got a great show lined up today. This is our first episode, so we're gonna
 
 **Erik St. Martin:** And we also have Carlisia Campos here with us. Carlisia, how are you?
 
-**Carlisia Pinto:** Hi Erik, hi Brian, and hi to the listeners. I work as a backend developer for a net tech startup. I am based in San Diego. My first contact with Go was when I went to GopherCon last year and I fell in love. It was great, it seemed to me like it brought together features of different languages that I liked, and I've been playing with it since.
+**Carlisia Thompson:** Hi Erik, hi Brian, and hi to the listeners. I work as a backend developer for a net tech startup. I am based in San Diego. My first contact with Go was when I went to GopherCon last year and I fell in love. It was great, it seemed to me like it brought together features of different languages that I liked, and I've been playing with it since.
 
 I'm also a co-founding member of GoBridge, and kind of like the same reason you guys wanted conferences, I wanted to have material to learn go and also help whoever wanted to learn Go, so I'm glad that GoBridge exists to do that.
 
@@ -26,7 +26,7 @@ If you haven't already, please subscribe. The easiest way to do that is to go to
 
 **Brian Ketelsen:** Feedback, comments, praise, kudos...
 
-**Carlisia Pinto:** Suggestions for guests to be interviewed...
+**Carlisia Thompson:** Suggestions for guests to be interviewed...
 
 **Erik St. Martin:** Yes, definitely. We'd love to hear from everybody, people we should invite on the show. There's so many great people in the community that I think that we can get on here. With that being said, let's open this up to some news. Does anybody have anything interesting that's come across their email and social media this week?
 
@@ -42,17 +42,17 @@ If you haven't already, please subscribe. The easiest way to do that is to go to
 
 The Atom editor got a big update this week, I think it's at 1.6 now.
 
-**Carlisia Pinto:** It's 1.7.
+**Carlisia Thompson:** It's 1.7.
 
 **Brian Ketelsen:** 1.7, okay. So it got a big update this week, and the Go tools there look fantastic, too. So there's really a lot of great options for editing code if you like just text editors, and then the IntelliJ big plugin for Go and on the IDEA platform is awesome, it looks really good. If you don't mind having that big IDE, then the IntelliJ with the Go plugin is amazing, too.
 
 **Erik St. Martin:** And Carlisia, you're an Atom user, aren't you?
 
-**Carlisia Pinto:** I am, die-hard fan.
+**Carlisia Thompson:** I am, die-hard fan.
 
 **Erik St. Martin:** I keep wanting to love these things, but I guess I'm too stuck in my ways. How have you been liking the new update?
 
-**Carlisia Pinto:** Well, I since 1.6 had... I actually just today noticed some features that 1.6 introduced, and I can go and talk about this stuff forever, but I hope we will have an episode just to talk about editors and the different Go tools in each editor. I'll talk more about it then.
+**Carlisia Thompson:** Well, I since 1.6 had... I actually just today noticed some features that 1.6 introduced, and I can go and talk about this stuff forever, but I hope we will have an episode just to talk about editors and the different Go tools in each editor. I'll talk more about it then.
 
 I wanted to say though that for Visual Studio I got very interested in checking it out, because I see people that I admire in the Go community using Visual Studio with Go packages, and they are loving it. I tried it twice, and I couldn't get my head wrapped around it. I totally geek out on editors, so I was willing to go out there and look for stuff, so I'm hoping somebody is going to do a video walkthrough, showing us all the features. And if somebody has already done that please let us know, because it sounds awesome but I didn't get it.
 
@@ -70,25 +70,25 @@ I wanted to say though that for Visual Studio I got very interested in checking 
 
 **Erik St. Martin:** But with that being said, we're kind of going Vim instead of Go here.
 
-**Carlisia Pinto:** Yeah, but talking about tools, I wanted to mention this article that came up this week. It was somebody from The Washington Post talking about really neat things about Go, and one of the things of course is the tooling. I absolutely love this article, it made me feel just fuzzy and warm inside, because not everything's perfect, everything has flaws etc, but I was reading the article and I was going "Yep. Yep, yep..." It mentioned all of what makes Go super awesome. When I had my first contact with Go I thought "Oh my gosh, I have to type so much. If I wanted to type so much, I would have stayed doing Java. What is this!? But let me check it out. Everybody's saying it's great, so let me just stick with it." And I that continued for a long time, until I found out about the tools. Go-imports, for example, at least in Atom, I cannot live without it. I went forever without knowing about it, and all of these little annoyances - that you usually think might be annoyances - they just go away with using these tools, which is what we are talking about here.
+**Carlisia Thompson:** Yeah, but talking about tools, I wanted to mention this article that came up this week. It was somebody from The Washington Post talking about really neat things about Go, and one of the things of course is the tooling. I absolutely love this article, it made me feel just fuzzy and warm inside, because not everything's perfect, everything has flaws etc, but I was reading the article and I was going "Yep. Yep, yep..." It mentioned all of what makes Go super awesome. When I had my first contact with Go I thought "Oh my gosh, I have to type so much. If I wanted to type so much, I would have stayed doing Java. What is this!? But let me check it out. Everybody's saying it's great, so let me just stick with it." And I that continued for a long time, until I found out about the tools. Go-imports, for example, at least in Atom, I cannot live without it. I went forever without knowing about it, and all of these little annoyances - that you usually think might be annoyances - they just go away with using these tools, which is what we are talking about here.
 
 So the article is really well worth a read if you want to get familiar with what Go has to offer. It's called "Embrace Go - A modern programming language". I don't know if you guys read it and have something to say about it.
 
 **Erik St. Martin:** This is the Washington Post article?
 
-**Carlisia Pinto:** Yeah. They are using Go at the Washington Post, and also they are doing this core project which seems to be a platform for communities for the publishing industry. I'm not very familiar with it, but I know for example Bill Kennedy has helped them with a project. He keeps saying "It's great, it's great". I'm not very familiar with it, I would love to have somebody from the Washington Post come and talk about it. Both that project and how they're using Go at the Washington Post.
+**Carlisia Thompson:** Yeah. They are using Go at the Washington Post, and also they are doing this core project which seems to be a platform for communities for the publishing industry. I'm not very familiar with it, but I know for example Bill Kennedy has helped them with a project. He keeps saying "It's great, it's great". I'm not very familiar with it, I would love to have somebody from the Washington Post come and talk about it. Both that project and how they're using Go at the Washington Post.
 
 **Brian Ketelsen:** I read the article, and my big complaint is he tagged it with GopherCon in the tags on the blog post, but doesn't mention GopherCon anywhere. What is going on with the GopherCon tag and no GopherCon content?
 
-**Carlisia Pinto:** He links to it.
+**Carlisia Thompson:** He links to it.
 
 **Brian Ketelsen:** Where?
 
-**Carlisia Pinto:** He links to GopherCon and he links to a blog on the Gopher Academy.
+**Carlisia Thompson:** He links to GopherCon and he links to a blog on the Gopher Academy.
 
 **Brian Ketelsen:** Oh, interesting.
 
-**Carlisia Pinto:** The word "momentum" is linked to GopherCon, and he links to a blog post.
+**Carlisia Thompson:** The word "momentum" is linked to GopherCon, and he links to a blog post.
 
 **Brian Ketelsen:** Oh, nice. I'll take that SEO.
 
@@ -96,7 +96,7 @@ So the article is really well worth a read if you want to get familiar with what
 
 **Brian Ketelsen:** I'm impressed!
 
-**Carlisia Pinto:** \[laughs\] It's because he highlighted "momentum" and I wanted to see what he was poining to, so I noticed.
+**Carlisia Thompson:** \[laughs\] It's because he highlighted "momentum" and I wanted to see what he was poining to, so I noticed.
 
 **Erik St. Martin:** I actually haven't had the chance to read the article yet, so I think it will be interesting for me to read. Speaking of momentum, when we look at the language and how it's grown over the years, it's just staggering. It blows my mind just how fast it blew up and the number of companies that have kind of jumped on board and have started releasing information about stuff that they're building with Go. It seems like every day there's a new Fortune 100 company being like "Yep, we're using it too."
 
@@ -114,19 +114,19 @@ So the article is really well worth a read if you want to get familiar with what
 
 **Brian Ketelsen:** Well, I hope they're all as pragmatic and anti-dogma as we are. You use the right tool for the job, and in that case they proved to themselves that Go was the right tool for that job. There are places where I wouldn't want to yet use Go. I can think of a few places that Go is difficult to use, like mobile development. You gotta use the right tool.
 
-**Carlisia Pinto:** I think that has a lot to do with how we are now seeing this huge trends towards moving to Go, because people might say "Oh, I wanna have this feature, I wanna have that feature. Let's implement this feature so I can do X, which I cannot do unless I have this feature, or it would just be so annoying", but that's not what Go is all about. If you dig a little deeper, some of the past releases of Go, they had improvements, but there were no syntax changes, and like Frances came out and said "That's a feature, the fact that the syntax didn't change. That is a feature in itself", and that says everything about the philosophy of Go. It's not to be used for everything, it's to be used for specific things. But those specific things, it does them really well.
+**Carlisia Thompson:** I think that has a lot to do with how we are now seeing this huge trends towards moving to Go, because people might say "Oh, I wanna have this feature, I wanna have that feature. Let's implement this feature so I can do X, which I cannot do unless I have this feature, or it would just be so annoying", but that's not what Go is all about. If you dig a little deeper, some of the past releases of Go, they had improvements, but there were no syntax changes, and like Frances came out and said "That's a feature, the fact that the syntax didn't change. That is a feature in itself", and that says everything about the philosophy of Go. It's not to be used for everything, it's to be used for specific things. But those specific things, it does them really well.
 
 **Erik St. Martin:** I think we covet the things we know though, right? We naturally want to grasp to the things that we're familiar with, and especially when you're in kind of like a high-stakes environment where you're just trying to get stuff done, so you reach for some tool or technique that you've done a million times before and it's not there, it feels painful. I was around watching Brian adopt Vim, and it just seemed like this completely unnatural thing for him. \[Brian laughs\] He wanted to understand; he knows people are productive with this and they love it, but every time it just felt unnatural, and sometimes you just kind of have to put yourself in the frame of mind of somebody in that, and just kind of accept it for what it is, and then you kind of start to see the love that people have for it.
 
 **Brian Ketelsen:** Yeah, I'm sure there's some sort of learning graph for that , where you try to do the things that you're used to, and eventually you give up and then try to understand how to do it the way of the tool that you're using, and for me that was a very painful process coming from Ruby. I kept trying to write Ruby code in Go, and being disappointed in how well it worked. It wasn't until you start to put yourself in the Go mindset and understand what that Go mindset is that things really click nicely.
 
-**Carlisia Pinto:** Yeah, I've said this before: there has to be some stick-to-it-ness with Go, and probably with most things. But definitely, if you stick to it a little bit, you will see it.
+**Carlisia Thompson:** Yeah, I've said this before: there has to be some stick-to-it-ness with Go, and probably with most things. But definitely, if you stick to it a little bit, you will see it.
 
 **Erik St. Martin:** It's interesting... Brian and I had a couple conversations with many publishers with the Go In Action book, and it was funny because they kept pressing this idea of "What's the silver bullet? What's that one-line selling point for Go?" The thing Brian and I kept coming back to - and talking with Bill Kennedy too, we were all kind of collaborating on this effort - was there's not silver bullet. It's all the things that are there, and it's all the things that aren't. It's all the little things collectively that make it such a fun and interesting language, and it's not this huge thing like monads, or whatever. I had to say 'monad', I had to.
 
 **Brian Ketelsen:** Thank you. Thanks for getting that in there. I think if one thing sticks out for Go though - and I've seen especially on Twitter a million times - is people say Go is optimized for programmers, because reading code is the most important thing that a developer does, and Go is really easy to read. I saw a twee, I think this morning or yesterday, the same thing: "Once my developers were able to read Go efficiently, we all decided that Go was the place for us to be, because reading Go code is simple, it's easy to understand what's happening." There are other languages that are interesting, and sexy, and exciting. Scala is a great example, but trying to understand what happens in a Scala program, it takes a PhD. I can't do it, I'm not interesting. Nope.
 
-**Carlisia Pinto:** Talking about getting to know Go and sticking to it, there is another tool - well, I should say initiative - that I came across some time ago and recently again. It's called Your First PR. There is a Twitter handle called @YourFirstPR, and there is a website on a GitHub repo. Basically it's an initiative to bring together people who have never contributed to open source, and we are hoping that if you want to do Go and are looking for ideas for projects, just hop on this and find out things that you can do, and practice your Go and practice your open source contribution. It tries to bridge people who are looking for opportunities to contribute to open source, with maintainers who have projects and have issues for people to solve, for people to implement.
+**Carlisia Thompson:** Talking about getting to know Go and sticking to it, there is another tool - well, I should say initiative - that I came across some time ago and recently again. It's called Your First PR. There is a Twitter handle called @YourFirstPR, and there is a website on a GitHub repo. Basically it's an initiative to bring together people who have never contributed to open source, and we are hoping that if you want to do Go and are looking for ideas for projects, just hop on this and find out things that you can do, and practice your Go and practice your open source contribution. It tries to bridge people who are looking for opportunities to contribute to open source, with maintainers who have projects and have issues for people to solve, for people to implement.
 
 The way it works is you, as a maintainer, have to find the issues that will be appropriate for a first-time open source contributor, and you would tweet at them the issue or you would go on the repo and add an issue there. I would imagine that you could also submit a list of filtered issues that maybe you tag with, for example 'help wanted' or 'beginner-friendly'.
 
@@ -146,7 +146,7 @@ I think that if you step out of your comfort zone you can learn a lot from other
 
 **Erik St. Martin:** How about Carlisia? What was your experience coming in and interacting with the existing community?
 
-**Carlisia Pinto:** My first interactions were just getting to know people and being completely observative because I wasn't a Go developers; nobody cared. I was at the GopherCon and everybody talked to me. I'm the kind of person who just goes up to everybody - I go up to anyone and say "Hey, what's up? What do you do? Tell me about you." I was doing that throughout all the days and got to know so many people. It was very heartwarming. I got to know the women at Women Who Go, I got to meet many new developers in the Go community. That was my very first contact and I think that counts as community contact as well, not just contributing to open source. I haven't done contributions, just mostly contributing to material for GO! Bridge as far as Go goes. Actually, I want to get better at open source contribution, and that's one of the reasons I'm so interested in these things.
+**Carlisia Thompson:** My first interactions were just getting to know people and being completely observative because I wasn't a Go developers; nobody cared. I was at the GopherCon and everybody talked to me. I'm the kind of person who just goes up to everybody - I go up to anyone and say "Hey, what's up? What do you do? Tell me about you." I was doing that throughout all the days and got to know so many people. It was very heartwarming. I got to know the women at Women Who Go, I got to meet many new developers in the Go community. That was my very first contact and I think that counts as community contact as well, not just contributing to open source. I haven't done contributions, just mostly contributing to material for GO! Bridge as far as Go goes. Actually, I want to get better at open source contribution, and that's one of the reasons I'm so interested in these things.
 
 **Erik St. Martin:** Yeah, and even small tasks. Maintaining an open source project is a lot of work, a lot of people do this in their spare time, and contributing is kind of like a means of thanking them. People are grateful for any help they can get, even the smallest bite-size task. Speaking of thinking open source projects, Brian, you've recently started this whole \#FreeSoftwareFriday.
 
@@ -158,13 +158,13 @@ I think that if you step out of your comfort zone you can learn a lot from other
 
 **Erik St. Martin:** That's great. All these container projects have been so interesting, and Rancher is unfortunately one I have not played with myself, but I think I need to add that to my list for weekend hackery.
 
-**Carlisia Pinto:** Is it just for Linux?
+**Carlisia Thompson:** Is it just for Linux?
 
 **Brian Ketelsen:** Yes, it is. It's a container orchestration tool, so it only deploys on things that... Well, it deploys on anything that runs Docker, so I guess technically now that Macs and Windows run a form of Docker, it's not just for Linux anymore. So I correct myself, it's not just for Linux - but it is just for Linux. \[laughter\]
 
 **Erik St. Martin:** And Carlisia, who would you like to thank this week?
 
-**Carlisia Pinto:** I totally geeked out on my editor just recently - I do that every once in a while - and I wanted to thank the person who created Vim Mode Plus. He only has a handle, it's @c9md. That was built on top of Vim Mode, and those two are packages for Atom, it's just so you can use Vim. It's hugely helpful for me, because I do like Vim and I want to use it, but get to a point where I get stuck, and that's where I activate the Atom interface. So it's very worth checking out, especially the new features with Vim Mode Plus. One of them that I really liked was the search functionality. You get highlighting, incremental search, search counter, and there are many other new things, so thank you!
+**Carlisia Thompson:** I totally geeked out on my editor just recently - I do that every once in a while - and I wanted to thank the person who created Vim Mode Plus. He only has a handle, it's @c9md. That was built on top of Vim Mode, and those two are packages for Atom, it's just so you can use Vim. It's hugely helpful for me, because I do like Vim and I want to use it, but get to a point where I get stuck, and that's where I activate the Atom interface. So it's very worth checking out, especially the new features with Vim Mode Plus. One of them that I really liked was the search functionality. You get highlighting, incremental search, search counter, and there are many other new things, so thank you!
 
 **Erik St. Martin:** Speaking of Vim, I would like to thank Vim itself. I guess I have to do kind of a triplet here, because Vim, Arch Linux and i3 window manager - those are the core things; everything else I do builds on top of, so I think without any of them...
 
@@ -184,14 +184,14 @@ I think that if you step out of your comfort zone you can learn a lot from other
 
 **Erik St. Martin:** Yes, and definitely as we mentioned earlier in the show, send us questions, send us people you'd like to see on the show, or if you wanna come on the show, definitely reach out to us there. We also have a GitHub set up where issues can be opened for these things, if you prefer that, which is Github.com/gotimefm/ping. With that being said, goodbye everybody until next week. Next week we have a special guest coming on the show.
 
-**Carlisia Pinto:** Cory.
+**Carlisia Thompson:** Cory.
 
 **Erik St. Martin:** Yeah, Cory LaNou. I lost my head there...
 
-**Carlisia Pinto:** I gotcha.
+**Carlisia Thompson:** I gotcha.
 
 **Erik St. Martin:** Yeah, Cory will be coming on to talk a bit about community, and I think that's something we can all relate to. So until next week, bye everybody!
 
 **Brian Ketelsen:** Goodbye.
 
-**Carlisia Pinto:** This was fun, goodbye!
+**Carlisia Thompson:** This was fun, goodbye!

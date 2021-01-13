@@ -6,7 +6,7 @@ This is episode two, and with us on the show today we have Brian - say hello, Br
 
 **Erik St. Martin:** \[laughs\] We also have Carlisia on the call.
 
-**Carlisia Pinto:** Hello everybody.
+**Carlisia Thompson:** Hello everybody.
 
 **Erik St. Martin:** And we have a special guest today, Cory LaNou, who is a developer for InfluxDB, and also highly active in the open source community, and runs I don't know how many open source meetups any more. Cory, why don't you tell everybody hello.
 
@@ -56,7 +56,7 @@ This is episode two, and with us on the show today we have Brian - say hello, Br
 
 **Erik St. Martin:** So the GopherChina stuff, there seemed like there were some interesting talks there, but one particularly caught my eye, which was Dave Cheney's talk on performance, and I happened to see the slides for that - the videos obviously aren't released yet, but the slides look good. There is a lot of stuff that I really agree with. I think he has a lot of advice for how to profile and benchmark apps, but also how to approach benchmarking, and I just kinda wanted to chat about that for a second to get everybody's opinion. When you develop code, what's your approach for performance? Do you think about performance from the beginning, do you never think about performance? Do you think about performance when specific bottlenecks come up?
 
-**Carlisia Pinto:** For me, I never think about it from the beginning. It's usually when the bottleneck happens, then yeah, let's take a look and see what we can do here. I think it is not the ideal, I think a middle ground should be reached there. I think you should think about it a little bit as you develop things, so you don't find yourself against the wall someplace down the line.
+**Carlisia Thompson:** For me, I never think about it from the beginning. It's usually when the bottleneck happens, then yeah, let's take a look and see what we can do here. I think it is not the ideal, I think a middle ground should be reached there. I think you should think about it a little bit as you develop things, so you don't find yourself against the wall someplace down the line.
 
 **Erik St. Martin:** It's rough, I think we wanna beat ourselves up when we don't have time to benchmark, but at the end of the day we're also expected to deliver products, right? So if performance isn't an issue for the product at the moment, can we justify the time to do it? So as much as we would like to make everything as performant as humanly possible, if a particular application - say it's an internal application that's not gonna be used by anybody, what's the value in making it twice as fast?
 
@@ -66,7 +66,7 @@ This is episode two, and with us on the show today we have Brian - say hello, Br
 
 **Erik St. Martin:** I think I tend to look at my code, just kind of quick-eyeing it. If I can remove an allocation or things along that line that are really obvious at the time, I know that a slice is gonna grow beyond some amount, I'll set it from the beginning; at least a base level to prevent the copying every time. It needs to grown. But aside from that, I'll do some baseline benchmarks just so that I have something to compare to later, to make sure that given algorithms aren't getting slower, and things of that nature, but usually it's some performance problem after the fact, end-to-end testing, things like that that start narrowing down hotspot areas that need to be addressed.
 
-**Carlisia Pinto:** My recollection too is that anytime, or most of the time that I did have performance issues, they were related to database queries. I don't even think of a time when I had to go back and rewrite some logic because of performance issues. But database queries definitely, that's usually where I find problems.
+**Carlisia Thompson:** My recollection too is that anytime, or most of the time that I did have performance issues, they were related to database queries. I don't even think of a time when I had to go back and rewrite some logic because of performance issues. But database queries definitely, that's usually where I find problems.
 
 **Erik St. Martin:** Yes, queries, and interestingly I think some of the issues that I've found too are bugs with goroutines kind of growing unbounded, where they don't properly close out and memory continues to grow because of it. We've had a few of those over the years.
 
@@ -86,7 +86,7 @@ This is episode two, and with us on the show today we have Brian - say hello, Br
 
 **Erik St. Martin:** That nanosecond talents, man! \[laughter\]
 
-**Carlisia Pinto:** I think developers are by default an optimistic bunch. We always like to think, "Well, we're going to get so many hits on this endpoint, I just need to prepare for that. I know it's gonna happen."
+**Carlisia Thompson:** I think developers are by default an optimistic bunch. We always like to think, "Well, we're going to get so many hits on this endpoint, I just need to prepare for that. I know it's gonna happen."
 
 **Erik St. Martin:** But I don't think it's just developers, I think it's humans, right? It's that guy in traffic who has to pass you so he's one car length closer to wherever he's going. \[laughter\] It's the same micro-optimization. You look at it and you're like "Oh, it's one car length." Alright, so... Interesting Go projects. Brian, you kind of do your nightly download of Go projects. I have no clue how you have time for that, but... Every day he's sending me I don't even know how many - I can't even come up with a curated list that he's sent me, so how he curates it is beyond me. Do you have any interesting projects to talk about?
 
@@ -114,21 +114,21 @@ This is episode two, and with us on the show today we have Brian - say hello, Br
 
 **Erik St. Martin:** Yeah, there's a lot of cognitive load there, right? Which services get touched, and you get into distributed tracing, because now how do you follow a given request and find errors that happened with it? If it reaches out to 15 services, the responses from each of those services have meaning in the debugging of that request, and it's always a tradeoff; it's kind of like performance - most of the time if you're optimizing the code for performance, you're taking away readability. It's always hard to decide where to make those decisions, and I think you get a lot of arguments about it too, based on who you ask.
 
-**Carlisia Pinto:** And going back to the Go kits in the Micro services framework in general, isn't a Go kit and maybe a Micro framework might also have a middleware that has handling across services? Isn't that correct?
+**Carlisia Thompson:** And going back to the Go kits in the Micro services framework in general, isn't a Go kit and maybe a Micro framework might also have a middleware that has handling across services? Isn't that correct?
 
 **Cory LaNou:** Yeah, Go kit has a Dapper/Zipkin-like layer that allows you to trace your calls, requests across the different layers of your services.
 
-**Carlisia Pinto:** Oh, that stuff is very important. I hear people saying "Well, if you have a convoluted logic in a monolithic, you breaking that up into services is not going to help your logic be better." But I challenge that, I think it will force you to think about how you would divide things up, and you might not even get it right the first time, but it will force you in that direction, because you have to. But it's super important, like you guys were saying, to have the tools that will allow you to manage your error handling, and all of the glue that needs to come together with Micro services.
+**Carlisia Thompson:** Oh, that stuff is very important. I hear people saying "Well, if you have a convoluted logic in a monolithic, you breaking that up into services is not going to help your logic be better." But I challenge that, I think it will force you to think about how you would divide things up, and you might not even get it right the first time, but it will force you in that direction, because you have to. But it's super important, like you guys were saying, to have the tools that will allow you to manage your error handling, and all of the glue that needs to come together with Micro services.
 
 **Erik St. Martin:** Well, I think that splitting up into Micro services also is a form of premature optimization, right? There's penalties, there's network latency between things, there's more places where things can fail between the communication of things, and the network is weird. I can't tell you how many times we've debugged RPC-type issues where just the data that came through - you get packets in reverse order and things like that, and you have to fix something that gets locked up because of it. So there's a lot of tools that you can use nowadays that are a lot more solidified for doing these types of things, but there's still risk in everything like that, and kind of having things bundled together, if you don't really have a need to pull it out.
 
 **Cory LaNou:** I think there's a lot of validity to the idea that Micro services are just as much of a social and structural concept as they are a coding concept, and structuring your Micro services around the teams might be more important than structuring them around specific code barriers that might be artificial.
 
-**Carlisia Pinto:** Definitely.
+**Carlisia Thompson:** Definitely.
 
 **Erik St. Martin:** Alright, I think we chatted about Micro services quite a bit here. Do we have any other interesting projects? I think Carlisia you were talking about a new doc tool that you were excited about, right?
 
-**Carlisia Pinto:** Yeah, this is reminiscent of my editor hacking that happened a couple weeks ago. I found out about this due to - I think it's new; it only works with Go 1.6, it's called GetDoc. It's a CLI tool, which is not super exciting; I don't wanna be reading tons of documentation, it's just out of context for me if I'm working on my editor. But the neat things about it is that it's integrated into Atom and Vim Go, and I think they also integrated it into Emacs, for people who use that. Basically it allows you to just hop over to a word and press a combination of keys that you can control over your keybinding, and the documentation will pop up for things like package in the import list, constants, it will give you the value of a constant, method calls and instruct fields. So the documentation just pops up right there, and you press Escape and it goes away. I thought that was super cool.
+**Carlisia Thompson:** Yeah, this is reminiscent of my editor hacking that happened a couple weeks ago. I found out about this due to - I think it's new; it only works with Go 1.6, it's called GetDoc. It's a CLI tool, which is not super exciting; I don't wanna be reading tons of documentation, it's just out of context for me if I'm working on my editor. But the neat things about it is that it's integrated into Atom and Vim Go, and I think they also integrated it into Emacs, for people who use that. Basically it allows you to just hop over to a word and press a combination of keys that you can control over your keybinding, and the documentation will pop up for things like package in the import list, constants, it will give you the value of a constant, method calls and instruct fields. So the documentation just pops up right there, and you press Escape and it goes away. I thought that was super cool.
 
 **Erik St. Martin:** Oh, that is cool. Alright, do we have any other interesting projects we want to talk about before we move on to discussing all things open source in the community with Cory here?
 
@@ -140,7 +140,7 @@ This is episode two, and with us on the show today we have Brian - say hello, Br
 
 **Erik St. Martin:** So I think all of us have happened to see your talk from GopherCon India in February...
 
-**Carlisia Pinto:** It was an amazing talk. It was so passionate, I loved it.
+**Carlisia Thompson:** It was an amazing talk. It was so passionate, I loved it.
 
 **Erik St. Martin:** Yes, and there's a couple of things I want to talk to you about there, but first I have to ask you about the camels. Seriously, I'm jealous, you got to ride camels.
 
@@ -150,7 +150,7 @@ This is episode two, and with us on the show today we have Brian - say hello, Br
 
 **Cory LaNou:** Yeah... But what's interesting, if you've never ridden a camel, getting up and getting down is pretty crazy. They get up pretty easy and you have to hang on, but when they get down, they basically just drop completely down to their knees. And when they drop, they drop hard, so if you're not hanging on, you're going to literally fly over the camel. \[laughter\]
 
-**Carlisia Pinto:** I've ridden a dromedary before, but not a camel, and there is a difference - one has two humps, and the other one has one. The dromedaries are more common than camels. I don't think you'll find a lot of camels outside of the Middle East or Saharan Deserts.
+**Carlisia Thompson:** I've ridden a dromedary before, but not a camel, and there is a difference - one has two humps, and the other one has one. The dromedaries are more common than camels. I don't think you'll find a lot of camels outside of the Middle East or Saharan Deserts.
 
 **Brian Ketelsen:** We learn something every day on Go Time.
 
@@ -174,21 +174,21 @@ This is episode two, and with us on the show today we have Brian - say hello, Br
 
 **Brian Ketelsen:** There's a giant rollback button on my desk. Everybody else has the easy button, I've got the rollback button.
 
-**Carlisia Pinto:** I think GitHub now has a feature for you to roll back easily, I don't think they had it before. You had to roll back things manually, which is what I would do anyway, but...
+**Carlisia Thompson:** I think GitHub now has a feature for you to roll back easily, I don't think they had it before. You had to roll back things manually, which is what I would do anyway, but...
 
 **Erik St. Martin:** With Git there is the Git Revert, which allows you to create a commit that basically inverts whatever commit that you're trying to revert.
 
-**Carlisia Pinto:** But I think GitHub put a button there that does that automagically, if I'm not mistaken.
+**Carlisia Thompson:** But I think GitHub put a button there that does that automagically, if I'm not mistaken.
 
 **Erik St. Martin:** I'm more of a command line junkie, but yeah, I can see how just being able to go to the website and click the button becomes super useful.
 
-**Carlisia Pinto:** As far as Git goes, I don't trust any UI tool. I wanna see it on the command line. If it didn't happen there, I don't know if it happened, so I wanna see it.
+**Carlisia Thompson:** As far as Git goes, I don't trust any UI tool. I wanna see it on the command line. If it didn't happen there, I don't know if it happened, so I wanna see it.
 
 **Cory LaNou:** Git for me is a Swiss army knife that has all these buttons on it, and when you press it, I stab myself every single time.
 
 **Erik St. Martin:** The thing I tell people all the time is if you learn to use the reference log, you'll feel much safer with Git. Because you're like, "Oh, it doesn't matter. If I committed it, I can totally fix it."
 
-**Carlisia Pinto:** But you said the magic words, "If you committed it." If you don't, it doesn't really matter. But it is amazing how many people don't even know that that exists, and it's a life changing thing.
+**Carlisia Thompson:** But you said the magic words, "If you committed it." If you don't, it doesn't really matter. But it is amazing how many people don't even know that that exists, and it's a life changing thing.
 
 **Erik St. Martin:** Yeah, if you have not played with the ref log, you should.
 
@@ -198,13 +198,13 @@ This is episode two, and with us on the show today we have Brian - say hello, Br
 
 **Brian Ketelsen:** That's all you need to do: rm -rf &lt;my repo&gt; git clone &lt;my repo&gt; Fixed!
 
-**Carlisia Pinto:** We'll edit that out.
+**Carlisia Thompson:** We'll edit that out.
 
 \[laughter\]
 
 **Erik St. Martin:** Yeah, yeah. Do not take Brian's advice there.
 
-**Carlisia Pinto:** Not this one, people.
+**Carlisia Thompson:** Not this one, people.
 
 **Erik St. Martin:** So back to the open source contributions too, I wanted to point out another fact. I think that people not only should contribute, but go in and dig around the code, because I think people will find that their vision of the code for any big name project is far from the reality. They're gonna start digging around and they're gonna find their own words. Regardless of their skill level, they're going to find code that they even think is bad. And I think at the end of the day, as we talked about earlier in the episode, sometimes it comes down to delivering. You have to fix a bug, and you may not have time to implement the best solution. And especially to your point, Cory, there's a limited number of people working on the project sometimes too, right? In your talk you kind of advocate that, help wherever you can. Maybe you don't have the best solution for a problem, but it's a problem that's getting solved that maybe won't get solved because the core members of the team just don't have time to work on it.
 
@@ -212,11 +212,11 @@ This is episode two, and with us on the show today we have Brian - say hello, Br
 
 The more important thing for me on that one wasn't because I wanted to help all these open source projects - that actually wasn't my intention - it was because people were always asking me "How can I get started in Go?" and I'm like "Well, there's all these projects out there that need Help Wanted." We just need to get a list of them going. So I think that that's a really cool thing to see out there now, and I'm hoping that people will start spreading the word on that and getting that out. I think that's great.
 
-**Carlisia Pinto:** Yeah, I saw you started putting together a repo? Was that it? I forgot.
+**Carlisia Thompson:** Yeah, I saw you started putting together a repo? Was that it? I forgot.
 
 **Cory LaNou:** Yes, it was a repo.
 
-**Carlisia Pinto:** We will include a link to that on the show notes for sure, so tell us more about that.
+**Carlisia Thompson:** We will include a link to that on the show notes for sure, so tell us more about that.
 
 **Cory LaNou:** Yeah, basically it spawned off of a meetup that I was doing in Chicago, and I couldn't make it down there, and the host - we missed a month and we had to get back on track, and we didn't have time to really get speakers lined up. So it was like a week before we were gonna have it, and he was kind of a little nervous, and he was like "Hey, we don't have any speakers", and I'm like "Well okay, we should have a hack night." But just having a general hack night doesn't really give you much direction, so I thought "Well, there's a lot of projects out there that need Help Wanted, and there's gonna be a lot of Go people there, and there's gonna be some people new to Go - let's just get a list of things to pick and choose from", and that's kind of where this idea came from. It really goes hand-in-hand with a lot of the community stuff at Go where I'm doing the intro to Go and stuff like that, and people really want to know "How can I contribute?" The Hello World programs, taking the tour - these are all fine and dandy, but I'm not learning anything, I don't know how to solve a real world problem, I don't know what a codebase is really gonna look like and how I should do it. And contributing to these open source projects, even on the really small Help Wanted, really start to give you a sense as a beginner in Go like "Oh, this is how a bigger project is gonna be organized, this is how a bigger project is gonna expect me to contribute", and you should learn things beyond even just Go at that point. You'll learn the process of doing the pull requests, and doing a review process and that kind of stuff. It's just a great experience.
 
@@ -224,7 +224,7 @@ The more important thing for me on that one wasn't because I wanted to help all 
 
 I think that it should be said too that skill level doesn't matter. Just getting in there, and even if your patch doesn't get accepted, you're going to learn a lot along the way.
 
-**Carlisia Pinto:** Let me throw something at you guys, because you've all been doing Go forever, and I'm a newcomer totally. So I would go to InfluxDB source code, download it to my computer, and actually kudos to all of you because I was able to install and get it running on my machine just reading the documentation; for such a big project, I thought that was amazing, I was very impressed. But anyway, so I would go around and read the code and not understand it. I've been programming for a while, and it would just kill me that "Okay, I don't know what this is doing." Then I'd be like "Okay, let me go to a simpler codebase." So I'd go to a simpler codebase and still not really get it - maybe I'm just dumb, but after a while I did get it, after I actually started coding. My point is - a lot of times you say "Just read the code and you'll understand it", and I was reading the code and I was not understanding, and I was looking up issues that had the label "beginner" and I was not understanding it. I was like "Oh my gosh, maybe this is hard. Why am I not just immediately getting it?" Because when you say "Read the code and you're gonna get it", my impression is I need to get it immediately. If not, either I'm dumb, or this code is hard, it's not as easy as people are saying.
+**Carlisia Thompson:** Let me throw something at you guys, because you've all been doing Go forever, and I'm a newcomer totally. So I would go to InfluxDB source code, download it to my computer, and actually kudos to all of you because I was able to install and get it running on my machine just reading the documentation; for such a big project, I thought that was amazing, I was very impressed. But anyway, so I would go around and read the code and not understand it. I've been programming for a while, and it would just kill me that "Okay, I don't know what this is doing." Then I'd be like "Okay, let me go to a simpler codebase." So I'd go to a simpler codebase and still not really get it - maybe I'm just dumb, but after a while I did get it, after I actually started coding. My point is - a lot of times you say "Just read the code and you'll understand it", and I was reading the code and I was not understanding, and I was looking up issues that had the label "beginner" and I was not understanding it. I was like "Oh my gosh, maybe this is hard. Why am I not just immediately getting it?" Because when you say "Read the code and you're gonna get it", my impression is I need to get it immediately. If not, either I'm dumb, or this code is hard, it's not as easy as people are saying.
 
 **Cory LaNou:** I think that some people will be more natural at figuring it out, and I think it's just more a matter of domain knowledge. So you have understanding something from a technical perspective, and you also have the understanding of domain knowledge. If you know very little about, say InfluxDB, it's gonna be a lot harder to follow the code because you're trying to pick up the code and the organization of it, the language, as well as the domain knowledge of the system as a whole, all at one time. I think it's not worth beating yourself up over that it's not quick to discover. I think I've attacked some beginner Go tasks that didn't turn out to be so beginner, and I abandoned as well.
 
@@ -234,25 +234,25 @@ I think that it should be said too that skill level doesn't matter. Just getting
 
 **Brian Ketelsen:** Definitely.
 
-**Carlisia Pinto:** ...ping them on Slack all day long.
+**Carlisia Thompson:** ...ping them on Slack all day long.
 
 **Cory LaNou:** I get a ton of people that reach out to me on Slack for Influx randomly; I have no idea who these people are, and they're like "Hey, I'm working on this bug for you. Can you help me?" Like, "Sure, what do you need?"
 
-**Carlisia Pinto:** Speaking of which, there is a reviews channel on GopherSlack which I just discovered recently. I don't know if all of you are aware. There is a lot of action in there, I wonder if people make good use...
+**Carlisia Thompson:** Speaking of which, there is a reviews channel on GopherSlack which I just discovered recently. I don't know if all of you are aware. There is a lot of action in there, I wonder if people make good use...
 
 **Erik St. Martin:** I actually didn't know that.
 
 **Brian Ketelsen:** It's a very busy channel.
 
-**Carlisia Pinto:** Yeah. I wonder if people make good use of it. If people get good feedback... I started keeping track of it.
+**Carlisia Thompson:** Yeah. I wonder if people make good use of it. If people get good feedback... I started keeping track of it.
 
 **Erik St. Martin:** So this is just a channel somebody opened up for people to post pull requests and just get anybody who has some spare cycles to review for them?
 
-**Carlisia Pinto:** Yeah, not even necessarily pull requests, just any code, just "Review this code."
+**Carlisia Thompson:** Yeah, not even necessarily pull requests, just any code, just "Review this code."
 
 **Erik St. Martin:** That's awesome. I didn't even see that yet.
 
-**Carlisia Pinto:** Yeah, GopherSlack, full of surprises.
+**Carlisia Thompson:** Yeah, GopherSlack, full of surprises.
 
 **Erik St. Martin:** So Cory, you said you have a whole bunch of free time still, right?
 
@@ -296,11 +296,11 @@ I think that it should be said too that skill level doesn't matter. Just getting
 
 **Erik St. Martin:** It's interesting that you point that out... Just kind of as an example, we started Go Tampa, because we didn't have a local meetup group, and we put together - it was either one or two, and then we got slammed because, just like you, Cory, we love to put more on our plate than we can handle. So we hadn't really been doing meetups anymore, but by that time there was some interest locally, so Aaron Greenlee, who is here locally in the market kind of just took that on, and he's the reason there's a Go Tampa now, because he organizes all the meetups, he finds the locations and so on. Sometimes just being the person to start the action, it kind of grows on its own.
 
-**Carlisia Pinto:** Reaching out for help is very important, and I put out a challenge to everybody if you are interested or have this thought - just reach out and ask for help, if that's what's keeping you. Cory for sure, he has a ton of time, he will help you. \[laughter\] And I'll help...
+**Carlisia Thompson:** Reaching out for help is very important, and I put out a challenge to everybody if you are interested or have this thought - just reach out and ask for help, if that's what's keeping you. Cory for sure, he has a ton of time, he will help you. \[laughter\] And I'll help...
 
 **Cory LaNou:** I will definitely help.
 
-**Carlisia Pinto:** ...with what I can. And I wanted to cite an example: I started the Gopher San Diego meetup in the North County of San Diego, and there was one in downtown. And what happened just organically was that we came together as a group. My company is supportive, so I get that support, so we came together as a group and we help each other out. They were doing it every month, and when I came in and started doing mine - I had a couple - they were like "Hey, what do you think of you hosting one month and we hosting the next month?" That took a lot of the pressure, because I think they were feeling, "Okay, this is being too much for us." So that's how we're doing it right now, because it's best for the group.
+**Carlisia Thompson:** ...with what I can. And I wanted to cite an example: I started the Gopher San Diego meetup in the North County of San Diego, and there was one in downtown. And what happened just organically was that we came together as a group. My company is supportive, so I get that support, so we came together as a group and we help each other out. They were doing it every month, and when I came in and started doing mine - I had a couple - they were like "Hey, what do you think of you hosting one month and we hosting the next month?" That took a lot of the pressure, because I think they were feeling, "Okay, this is being too much for us." So that's how we're doing it right now, because it's best for the group.
 
 We are basically one group, we spread the word, we spread the meetups over two months, so I only have to host one every two months. So people come together and figure things out, but if you don't get started, you are not going to find out what kind of help you're gonna get.
 
@@ -312,7 +312,7 @@ We are basically one group, we spread the word, we spread the meetups over two m
 
 **Brian Ketelsen:** Yeah, absolutely. We've probably done four or five calls with people across the world about starting a conference in their area. Don't be afraid to reach out and ask for help. There is nothing we love better than to spread the Go love and get more conferences going. So do ask, absolutely.
 
-**Carlisia Pinto:** I just looked up to see if there was a conference channel in the Gopher Slack - there is none.
+**Carlisia Thompson:** I just looked up to see if there was a conference channel in the Gopher Slack - there is none.
 
 **Erik St. Martin:** There is now... \[laughter\] So is there anything else that you would like to advocate, Cory, before we wrap this thing?
 
@@ -322,7 +322,7 @@ We are basically one group, we spread the word, we spread the meetups over two m
 
 **Cory LaNou:** \[laughs\] It might be, but this year I'm trying to stay out of politics.
 
-**Carlisia Pinto:** And even if it's just for the beginning, just be the training wheels for people just for a little while, until they get going, and then you go be the training wheels somewhere else if you can. But even if you can do it once or twice, it's great.
+**Carlisia Thompson:** And even if it's just for the beginning, just be the training wheels for people just for a little while, until they get going, and then you go be the training wheels somewhere else if you can. But even if you can do it once or twice, it's great.
 
 **Erik St. Martin:** Bill Kennedy has driven from Miami over to Tampa I think twice now, and that's like a four-hour drive, so if he can do a four-hour drive twice, you can do a two-hour drive.
 
@@ -336,19 +336,19 @@ We are basically one group, we spread the word, we spread the meetups over two m
 
 **Erik St. Martin:** Carlisia, how about you?
 
-**Carlisia Pinto:** I came across this neat little tool called Haxor News. It's a command line tool that you can use to access Hacker News. I think it's really cool because first of all I don't ever go to Hacker News - not because I don't like it, but because every time I go I just get lost, because I go from one thing to another, to another, and then find myself somewhere else. So with this tool, I just type 'hn' top for example, and I get the top news. I'm not so inclined to go chase that out, I really just wanna see the headlines. And I'm loving typing 'hn' onion if I need a chuckle I type that on the command line, and then boom! Never fails. It's awesome. \[laughter\] Do it, try it. Trust me!
+**Carlisia Thompson:** I came across this neat little tool called Haxor News. It's a command line tool that you can use to access Hacker News. I think it's really cool because first of all I don't ever go to Hacker News - not because I don't like it, but because every time I go I just get lost, because I go from one thing to another, to another, and then find myself somewhere else. So with this tool, I just type 'hn' top for example, and I get the top news. I'm not so inclined to go chase that out, I really just wanna see the headlines. And I'm loving typing 'hn' onion if I need a chuckle I type that on the command line, and then boom! Never fails. It's awesome. \[laughter\] Do it, try it. Trust me!
 
 **Brian Ketelsen:** I'm downloading it now.
 
-**Carlisia Pinto:** Yeah, it's so awesome. And it's got a lot of colors, color-coded, and you can press a number and go and see that particular item more in depth. It's so awesome...
+**Carlisia Thompson:** Yeah, it's so awesome. And it's got a lot of colors, color-coded, and you can press a number and go and see that particular item more in depth. It's so awesome...
 
 **Erik St. Martin:** I tend to stay out of the browser so that I can be productive, and you're bringing this unproductive thing to my command line now. \[laughs\]
 
-**Carlisia Pinto:** I submit that the content is not the problem, it's the browser. The browser that leads you down the rabbit hole, but this is just pure content. No buttons to click, not links to follow, just the content.
+**Carlisia Thompson:** I submit that the content is not the problem, it's the browser. The browser that leads you down the rabbit hole, but this is just pure content. No buttons to click, not links to follow, just the content.
 
 **Erik St. Martin:** Does it ignore the comments?
 
-**Carlisia Pinto:** Yes, exactly. I haven't gotten to see comments, I don't even know if they have comments. I suppose so, but...
+**Carlisia Thompson:** Yes, exactly. I haven't gotten to see comments, I don't even know if they have comments. I suppose so, but...
 
 **Erik St. Martin:** I know we're kind of blind siding you with it Cory, but are there any projects or people that you would like to thank in the open source community?
 
@@ -360,13 +360,13 @@ We are basically one group, we spread the word, we spread the meetups over two m
 
 **Brian Ketelsen:** He's a huge coffee drinker, so send him coffee. And they just had a baby, so he probably needs more.
 
-**Carlisia Pinto:** Exactly, I was gonna say that. Congrats!
+**Carlisia Thompson:** Exactly, I was gonna say that. Congrats!
 
 **Erik St. Martin:** Can we get some donations and we'll just buy him a brewery? \[laughter\] I think that's the level he's at right now.
 
 **Brian Ketelsen:** Yeah, don't forget, all you Vim Go users out there: he has a Patreon at patreon.com/fatih, and it's a great way to thank him for his Vim Go development.
 
-**Carlisia Pinto:** We'll include it in the show notes, for sure.
+**Carlisia Thompson:** We'll include it in the show notes, for sure.
 
 **Brian Ketelsen:** Yeah, it's pretty awesome.
 
@@ -376,7 +376,7 @@ We are basically one group, we spread the word, we spread the meetups over two m
 
 **Erik St. Martin:** And with that being said, I think that we are ready to close the doors on this episode, unfortunately. I wish we could talk all day, but we cannot. With that, I'd like to thank everybody for coming on the show. I want to thank everybody who is listening to the show, and everybody who will listen to the show because all of you are going to refer friends to go to GoTime.fm and register. We will also have a weekly email there that you subscribe to. If you are not already, follow us on Twitter, @GoTimeFM. If you have ideas for things you'd like for us to discuss, or questions for upcoming guests - and we'll start publishing a schedule for that - you can find us on Github.com/gotimefm/ping. We will link to all of this in our show notes. With that said, goodbye everybody.
 
-**Carlisia Pinto:** Goodbye.
+**Carlisia Thompson:** Goodbye.
 
 **Cory LaNou:** Goodbye.
 

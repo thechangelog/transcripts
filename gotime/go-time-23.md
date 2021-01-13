@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And Carlisia Campos.
 
-**Carlisia Pinto:** Hi, everybody. \[laughs\]
+**Carlisia Thompson:** Hi, everybody. \[laughs\]
 
 **Erik St. Martin:** She's already laughing... And today's special guest is Tess Rinearson. Why don't you tell everybody a little bit about yourself, Tess?
 
@@ -22,15 +22,15 @@
 
 You can use that infrastructure to power all kinds of other things. The system that I work on at Chain is sort of like a blockchain for generic assets. We work with financial institutions like NASDAQ or VISA, who have other assets (non-Bitcoin assets) that they would like to put on a blockchain to get a lot of those same decentralized benefits without using Bitcoin itself.
 
-**Carlisia Pinto:** Right this second this question came up for me - is blockchain a protocol? I didn't get it.
+**Carlisia Thompson:** Right this second this question came up for me - is blockchain a protocol? I didn't get it.
 
 **Tess Rinearson:** Yeah, that's actually a funny question. I would say no, it's not a protocol... To be honest, the word blockchain right now is a little bit like the word cloud, where maybe if you have seven or eight characteristics and if some product or service matches six of those seven or eight characteristics, then you could reasonably consider it to be a blockchain. So it's kind of like a fuzzy word to begin with.
 
-**Carlisia Pinto:** I guess Chain implemented its own blockchain, right?
+**Carlisia Thompson:** I guess Chain implemented its own blockchain, right?
 
 **Tess Rinearson:** That's right. We actually have our own protocol as well. Maybe you can think of a blockchain as like the generic category of protocols and services, and then we wrote this protocol called The Chain Protocol, which is a blockchain protocol designed for financial services. Then, we also have an implementation of that protocol called Chain Core, which is what I work on.
 
-**Carlisia Pinto:** \[00:03:56.29\] Makes sense.
+**Carlisia Thompson:** \[00:03:56.29\] Makes sense.
 
 **Erik St. Martin:** From what I saw, it was designed more in line with Bitcoin's implementation, where there's kind of like the UTXOs...
 
@@ -54,7 +54,7 @@ You can think of the UTXO model as a little bit like being a series of boxes. So
 
 **Tess Rinearson:** Yeah, that seems fair. I mean, I would say that also there's an inherent transfer of value in them, but not everyone thinks that, too. I think when you look at a blockchain, you can almost think of the assets (Bitcoin, or whatever other asset you have issued on a blockchain) as tokens of value, and you're transferring them. You have the value if you can prove ownership of the tokens, which you do with your private key.
 
-**Carlisia Pinto:** I have a question. The Chain Core - is it meant to be used by financial institutions that are brokering initial transactions? Or is the idea that there will be a hosted version of blockchain somewhere and the financial institutions will use that?
+**Carlisia Thompson:** I have a question. The Chain Core - is it meant to be used by financial institutions that are brokering initial transactions? Or is the idea that there will be a hosted version of blockchain somewhere and the financial institutions will use that?
 
 **Tess Rinearson:** \[00:08:00.17\] Right, so we're working with these financial institutions to spin up a variety of different blockchain networks. In the case of VISA - VISA is running a blockchain network of Chain Cores, and all of their clients have nodes in the system. You asked about a hosted blockchain somewhere - generally, we actually deploy Chain Core into our partner's data centers. Generally, these financial institutions have data centers that they know well and have invested in and are fond of, and so we generally deploy our software in there for them.
 
@@ -68,7 +68,7 @@ That said, we also have this thing called the testnet. Sometimes I joke it's the
 
 **Tess Rinearson:** Yeah. What people are using it for is any asset that holds value. That can be stocks, that can be currencies, that can be credit card points, frequent flier miles - all kinds of stuff.
 
-**Carlisia Pinto:** It sounds to me that an entity that could benefit from Chain Core wouldn't necessarily have to be a big financial institution, or even a small financial institution. It could be a business like LivingSocial, if they want to use it for loyalty points, or Groupon. Is that right?
+**Carlisia Thompson:** It sounds to me that an entity that could benefit from Chain Core wouldn't necessarily have to be a big financial institution, or even a small financial institution. It could be a business like LivingSocial, if they want to use it for loyalty points, or Groupon. Is that right?
 
 **Tess Rinearson:** Yeah, I think, potentially. We're definitely starting with financial institutions, and we're starting with financial institutions that are well-known enough that they can power their own networks and people will want to join them. That serves the power of this partnership. We just on Friday announced a partnership with VISA and the network that we're working on with them to do business-to-business payments, and it's really valuable to go be part of these well-respected financial institutions, because people trust them enough to wanna join their networks. So we're starting there, but I do think that, generically, anything that holds value is a good candidate for something that can be issued and transferred on a Chain block chain.
 
@@ -84,15 +84,15 @@ And because in Chain's case we're not talking about public networks, we're talki
 
 **Erik St. Martin:** Right.
 
-**Carlisia Pinto:** And when you're generating keys, who is actually validating those keys? Is Chain an authority to validate those keys, or is some distributed system...? How does that work?
+**Carlisia Thompson:** And when you're generating keys, who is actually validating those keys? Is Chain an authority to validate those keys, or is some distributed system...? How does that work?
 
 **Tess Rinearson:** Yeah, every node in the system can validate every transaction, and then there are certain -- I don't wanna get too much into the mechanics of all of it, but every node in the system can validate transactions, and then when it comes to actually creating new blocks and adding those new blocks to the blockchain, we do use a federation of signing nodes that are actually responsible for checking every transaction and signing of a block, and saying, "Hey, this block is cool. You can add it." Every node can actually validate, if they want. They just don't get to add their signature; they can just validate themselves.
 
-**Carlisia Pinto:** Who has control over this federation?
+**Carlisia Thompson:** Who has control over this federation?
 
 **Tess Rinearson:** In the case of the testnet it's us, Chain, and Microsoft and IC3. We are the three signing nodes in that network. But that's configurable on a network-by-network basis, and actually in the protocol we have a field for the consensus protocol, which can be changed on a network-by-network basis. For testnet, a block can see signatures from Chain, from IC3 and from Microsoft, but there's definitely space in the protocol to refine our consensus system.
 
-**Carlisia Pinto:** Cool.
+**Carlisia Thompson:** Cool.
 
 **Brian Ketelsen:** So what's the application for GopherCon? That's the real question here. Can we start making chains of things that we can give out to gophers and let them trade value? We can have like gopher points... Trade them in for plushies.
 
@@ -214,7 +214,7 @@ It's this funny thing, where we have a product roadmap and we're very driven by 
 
 **Tess Rinearson:** Totally.
 
-**Carlisia Pinto:** One thing with open source, if you're building a project that you are planning to open source, I think you would be thinking to be more careful in the way you are structuring the project and best practices, maybe more than a project that's not open-sourced, and I'm wondering if Chain has a set of guidelines that the team uses for design and for implementation?
+**Carlisia Thompson:** One thing with open source, if you're building a project that you are planning to open source, I think you would be thinking to be more careful in the way you are structuring the project and best practices, maybe more than a project that's not open-sourced, and I'm wondering if Chain has a set of guidelines that the team uses for design and for implementation?
 
 **Tess Rinearson:** Yeah, so it's funny... We actually didn't know we were going to open source this until July, and we've been working on it for over a year. It's funny... This is kind of corny, but when I think about the lifecycle of this project, I actually think about GopherCon a lot, because we started building our own system after a conversation I had with our CTO at GopherCon 2015. Then, at GopherCon 2016, this year, I basically got a phone call from my team - I was the only one at GopherCon, so they call me, being like "Hey, we're planning on open-sourcing"... So both GopherCon 2015 and GopherCon 2016 were milestone moments for this project in this funny, coincidental way.
 
@@ -292,23 +292,23 @@ So the solution that the company suggests is that you give - this is turning int
 
 This will be a problem when the person delivering the vegetables does not enter the code in time and then I get a phone call anyway. But until that happens, that's my grand plan. So that's what I've been doodling around with lately.
 
-**Carlisia Pinto:** Wow.
+**Carlisia Thompson:** Wow.
 
 **Erik St. Martin:** And you can audit log. You get to know when the door opened and they came in.
 
 **Tess Rinearson:** Yeah, I should definitely build that in. It's funny... That's like a really obvious...
 
-**Carlisia Pinto:** And then, of course, build the dashboard. Maybe use Prometheus.
+**Carlisia Thompson:** And then, of course, build the dashboard. Maybe use Prometheus.
 
 **Tess Rinearson:** \[00:43:48.16\] Yeah, these are all v2 things. Honestly, I haven't worked really on anything but Chain stuff for the past two months, just because we were trying to get everything in ship shape, and we had some product... You know, in addition to open-sourcing, we had product stuff that we were announcing too, so I've been pretty heads down on the Chain codebase for the past two months. But yeah, I'm excited to get back to my doorbell project.
 
-**Carlisia Pinto:** Did that involve a screwdriver? That's what I wanna know.
+**Carlisia Thompson:** Did that involve a screwdriver? That's what I wanna know.
 
 **Erik St. Martin:** Did that involve a screwdriver? \[laughs\]
 
 **Tess Rinearson:** It does not involve a screwdriver yet. \[laughter\] How did your screwdriver thing work out, by the way?
 
-**Carlisia Pinto:** It worked out. I needed to do some exercises with my hands, but it worked out in the end.
+**Carlisia Thompson:** It worked out. I needed to do some exercises with my hands, but it worked out in the end.
 
 **Tess Rinearson:** Awesome. \[laughter\]
 
@@ -338,11 +338,11 @@ This will be a problem when the person delivering the vegetables does not enter 
 
 **Erik St. Martin:** I thought you were gonna say Netscape.
 
-**Carlisia Pinto:** Netscape, that's what I thought.
+**Carlisia Thompson:** Netscape, that's what I thought.
 
 **Brian Ketelsen:** Well, Netscape wasn't the first browser.
 
-**Carlisia Pinto:** But then, if you think of Gopher and Lynx, those were browsers, too.
+**Carlisia Thompson:** But then, if you think of Gopher and Lynx, those were browsers, too.
 
 **Tess Rinearson:** I don't think I have even heard of Lynx before.
 
@@ -350,7 +350,7 @@ This will be a problem when the person delivering the vegetables does not enter 
 
 **Tess Rinearson:** Wow.
 
-**Carlisia Pinto:** Yeah. No image, just text.
+**Carlisia Thompson:** Yeah. No image, just text.
 
 **Brian Ketelsen:** Just text.
 
@@ -366,7 +366,7 @@ This will be a problem when the person delivering the vegetables does not enter 
 
 **Erik St. Martin:** You know you're only making it more tempting, right Brian? \[laughter\] Like, "What is it that's so bad he doesn't want me to see?"
 
-**Carlisia Pinto:** I'm like, "Do it, do it, do it!" \[laughs\]
+**Carlisia Thompson:** I'm like, "Do it, do it, do it!" \[laughs\]
 
 **Tess Rinearson:** I know. It's like all of us young kids who don't know how good we have it, we have to go poke at it.
 
@@ -376,7 +376,7 @@ This will be a problem when the person delivering the vegetables does not enter 
 
 **Brian Ketelsen:** Those were the days.
 
-**Carlisia Pinto:** I was sort of lucky in that way, because when the internet started - and by that, I mean nobody knew about it, but it existed - I was in school, so I got all of that for free. A modem connection for free, a dial-up number I could call for free, I got my web space, I got my email account - everything through school and it was free.
+**Carlisia Thompson:** I was sort of lucky in that way, because when the internet started - and by that, I mean nobody knew about it, but it existed - I was in school, so I got all of that for free. A modem connection for free, a dial-up number I could call for free, I got my web space, I got my email account - everything through school and it was free.
 
 **Tess Rinearson:** Sounds awesome.
 
@@ -396,7 +396,7 @@ I came to class the next day... My teacher's like, "Very funny. You know you're 
 
 **Tess Rinearson:** Yeah, yeah. And this was maybe like six years ago.
 
-**Carlisia Pinto:** Yeah, I used to... When I joined a new company, I would browse around just to see what level of security this company has, and what kind of engineering this company has. So I'd browse around, and one time I browsed through my manager's -- it was a Microsoft system and everybody's folders were right open; I was browsing through my manager's folders... I saw them, but I didn't go into them, because if I see something, I can't unsee it, and then I don't have plausible deniability. Of course, nobody knows me, but I didn't look at the things. But I told her. Man, did I get in trouble. It was not fun, so I'm like "Okay... You're welcome." \[laughs\]
+**Carlisia Thompson:** Yeah, I used to... When I joined a new company, I would browse around just to see what level of security this company has, and what kind of engineering this company has. So I'd browse around, and one time I browsed through my manager's -- it was a Microsoft system and everybody's folders were right open; I was browsing through my manager's folders... I saw them, but I didn't go into them, because if I see something, I can't unsee it, and then I don't have plausible deniability. Of course, nobody knows me, but I didn't look at the things. But I told her. Man, did I get in trouble. It was not fun, so I'm like "Okay... You're welcome." \[laughs\]
 
 **Erik St. Martin:** Most people get the basics wrong... You know, SQL injection, cross-site scripting, cross-site request forgery, remote and local file inclusion issues... Because most of it all comes down to not sanitizing inputs. You take a form field and then just stuff it in your command that you run on the command line, and don't really think about what could be done there. Those typically tend to be the things that people find.
 
@@ -426,11 +426,11 @@ So who wants to talk about any news?
 
 **Brian Ketelsen:** Oh, I've got some news. Hang on, let me get my guitar.
 
-**Carlisia Pinto:** Yes!
+**Carlisia Thompson:** Yes!
 
 **Erik St. Martin:** Oh, no...
 
-**Carlisia Pinto:** Oh, yes!
+**Carlisia Thompson:** Oh, yes!
 
 **Brian Ketelsen:** Alright. So the word on the streets is it's Bill Kennedy's birthday... And here at GoTime we love us some GoingGoDotNet, so everybody is going to sing with me Happy Birthday To Bill.
 
@@ -438,7 +438,7 @@ So who wants to talk about any news?
 
 **Brian Ketelsen:** Are we ready?
 
-**Carlisia Pinto:** Let's do this!
+**Carlisia Thompson:** Let's do this!
 
 \[singing Happy Birthday, accompanied by guitar\]
 
@@ -470,7 +470,7 @@ So who wants to talk about any news?
 
 **Brian Ketelsen:** I don't think it's possible to realign that mess.
 
-**Carlisia Pinto:** We're not a bunch that can be realigned...
+**Carlisia Thompson:** We're not a bunch that can be realigned...
 
 **Tess Rinearson:** Can they autotune it, too?
 
@@ -500,7 +500,7 @@ So who wants to talk about any news?
 
 **Erik St. Martin:** Yeah, it was really cool because it adds... It's like having an automated person do code reviews and it adds comments to the line in the PR, or these things that got caught in the vet or lint. It looked like there was a way to run it locally too, to see what it was gonna do. You could pass in your gifs and things like that, and then it basically uses the error format (kind of like Vim) so that it can display it to you in a pretty way.
 
-**Carlisia Pinto:** I love this.
+**Carlisia Thompson:** I love this.
 
 **Tess Rinearson:** That sounds awesome.
 
@@ -508,21 +508,21 @@ So who wants to talk about any news?
 
 **Tess Rinearson:** I wanna look into that for our project.
 
-**Carlisia Pinto:** Same here.
+**Carlisia Thompson:** Same here.
 
 **Brian Ketelsen:** So another bit of news... There is now a default Go path for Go 1.8, when Go 1.8 goes out. /go in your home directory; whether that's on Windows or a Unixy system, /go will be your default Go path if you don't set one, which means you now no longer need to explicitly specify a Go path. I don't really like /go as a choice, but I don't really care what color that bike shed is, because it's gonna make it a lot easier to get beginners onboarded with Go now, and I'm really excited about that.
 
 And I'd like to that personal responsibility for that, because I sent a ping on the GitHub repository, and the next responder was Rob saying, "Okay, let's do this!"
 
-**Carlisia Pinto:** Nice!
+**Carlisia Thompson:** Nice!
 
 **Brian Ketelsen:** So I think I pushed him over the edge.
 
-**Carlisia Pinto:** Nice, good work. I wonder what people are thinking about when they see the Twitter, so many people so excited about this. Because on one hand, I think you have people thinking "What's the big deal? It's not so hard to set your path." On the other hand, people might be thinking, "Oh my gosh, it must be so hard to set up Go that people are so excited about this." So they are both right, but from the perspective of a beginner or somebody who does code but is not necessarily dealing with the bash profiles of the file, or setting up requirement variables... This is a big deal. It's not so hard to set up Go; basically, that's all you need to do - you have to install and do that, and you're ready to go, as opposed to other languages I know.
+**Carlisia Thompson:** Nice, good work. I wonder what people are thinking about when they see the Twitter, so many people so excited about this. Because on one hand, I think you have people thinking "What's the big deal? It's not so hard to set your path." On the other hand, people might be thinking, "Oh my gosh, it must be so hard to set up Go that people are so excited about this." So they are both right, but from the perspective of a beginner or somebody who does code but is not necessarily dealing with the bash profiles of the file, or setting up requirement variables... This is a big deal. It's not so hard to set up Go; basically, that's all you need to do - you have to install and do that, and you're ready to go, as opposed to other languages I know.
 
 **Erik St. Martin:** I think it's just another step, right? Every time you have to take multiple steps just to be able to try something out.
 
-**Carlisia Pinto:** But it's not just another step, I think. For people who don't do that on a consistent basis, for them it's far... And even if they have done it in the past, it's just something so far, and they're like "Oh, where is it? How do I even save it? How do I edit it?" And just eliminating that is, "Wow!" Now, it just cannot get any easier than this, I don't think.
+**Carlisia Thompson:** But it's not just another step, I think. For people who don't do that on a consistent basis, for them it's far... And even if they have done it in the past, it's just something so far, and they're like "Oh, where is it? How do I even save it? How do I edit it?" And just eliminating that is, "Wow!" Now, it just cannot get any easier than this, I don't think.
 
 **Tess Rinearson:** Although I do feel like in order to really make the most of a lot of the things that make Go awesome - like Go fmt - you need to configure these things and you need to noodle around in your Bash profile or set up your editor to run these things. So I'm totally with you, Carlisia, in that I'm really glad that for a lot of people this removes the need to think about that level of your system setup, but at the same time I'm looking forward to maybe more elements of the Go ecosystem being that automatic for beginners.
 
@@ -530,7 +530,7 @@ And I'd like to that personal responsibility for that, because I sent a ping on 
 
 **Brian Ketelsen:** And then it fails.
 
-**Carlisia Pinto:** And it's hard to even explain what you're doing... It's like, "How do I even explain this?" \[laughs\]
+**Carlisia Thompson:** And it's hard to even explain what you're doing... It's like, "How do I even explain this?" \[laughs\]
 
 **Brian Ketelsen:** Yeah, somebody on Twitter the other day said, "Well, if you can't set an environment variable, you have no business programming", and that infuriated me.
 
@@ -538,11 +538,11 @@ And I'd like to that personal responsibility for that, because I sent a ping on 
 
 **Brian Ketelsen:** Actually, I walked away from feeding the troll, but I was so mad... Because everybody has to start somewhere, and I'm sure the person on Twitter who said that started somewhere too, and it just frustrates me that we can't have nice things because elitists have their terminal issues.
 
-**Carlisia Pinto:** Yeah, it's hard for people sometimes to put themselves in other people's shoes and see that people have different entry points into things.
+**Carlisia Thompson:** Yeah, it's hard for people sometimes to put themselves in other people's shoes and see that people have different entry points into things.
 
 **Erik St. Martin:** Yeah, I tinkered with C and things like that when I first started learning programming, but then I went those couple of years where I did PHP development, and I learned the most there because it was easy to just get started and drop files onto a server, and you didn't focus on everything else. And through doing that, I started learning a lot more about systems and stuff like that. But when you don't have that foundation to build on, it's much harder.
 
-**Carlisia Pinto:** But I also wanted to mention that what Tess was saying is a very good point. Sometimes we're so into doing what we're doing, and to us it's easy because we're doing it, but that is a good point - there's still stuff that can be done to make Go easier to use for beginners. I think what we are talking about is the workspace tool that Andrew Gerrand was talking about.
+**Carlisia Thompson:** But I also wanted to mention that what Tess was saying is a very good point. Sometimes we're so into doing what we're doing, and to us it's easy because we're doing it, but that is a good point - there's still stuff that can be done to make Go easier to use for beginners. I think what we are talking about is the workspace tool that Andrew Gerrand was talking about.
 
 **Erik St. Martin:** I don't think I've seen that.
 
@@ -550,11 +550,11 @@ And I'd like to that personal responsibility for that, because I sent a ping on 
 
 **Erik St. Martin:** Okay.
 
-**Carlisia Pinto:** It doesn't exist... We talked about it before. He's not working on it. He got it started, and it's out there for somebody to take over. I don't have a link right now.
+**Carlisia Thompson:** It doesn't exist... We talked about it before. He's not working on it. He got it started, and it's out there for somebody to take over. I don't have a link right now.
 
 **Tess Rinearson:** I think one thing that is really one of Go's strengths - I mean, you're talking about this troll who said, "Oh, this person has no business programming" - is that even though right now the community consists largely of people where Go was definitely not their first language; people have been programming for a long time. There's an interest in making it accessible. And the people who are visible and are leaders in the community, like the three of you, really have actively said that this is important. I think there are other languages or other technical communities where you don't have that, so I think that that alone is enough to get all of it going, I hope.
 
-**Carlisia Pinto:** I think it has the potential for going in that direction.
+**Carlisia Thompson:** I think it has the potential for going in that direction.
 
 **Tess Rinearson:** Yeah.
 
@@ -596,7 +596,7 @@ And I'd like to that personal responsibility for that, because I sent a ping on 
 
 **Erik St. Martin:** And how about you, Carlisia.
 
-**Carlisia Pinto:** I don't have one today... Forgive me.
+**Carlisia Thompson:** I don't have one today... Forgive me.
 
 **Erik St. Martin:** Alright. So mine - I've just recently found this tool, and I don't know whether they pronounce it all as one, Cinf. It's actually a cool tool for inspecting containers. If you're not familiar, like Rocket, Docker and all these things - they mainly use cgroups and namespaces. I'll link it in the channel for anybody who's listening along.
 
@@ -610,15 +610,15 @@ One of the cool things is there's like a monitor flag where you can sit there an
 
 **Brian Ketelsen:** Approved. Good one.
 
-**Carlisia Pinto:** I do have one, actually... Can I go?
+**Carlisia Thompson:** I do have one, actually... Can I go?
 
 **Erik St. Martin:** Yeah.
 
-**Carlisia Pinto:** There is a repo from Cory LaNou, it's called "OSS help wanted", and it's a repo for... Basically, you can edit the readme file and list your project. There are projects there organized in all kinds of ways, for example there is one that's "Beginner/intermediate/expert", another one is "All help wanted", "Help wanted/Easy"... So basically, throw your project up there if you need help, with a link to your project, and let's get to it.
+**Carlisia Thompson:** There is a repo from Cory LaNou, it's called "OSS help wanted", and it's a repo for... Basically, you can edit the readme file and list your project. There are projects there organized in all kinds of ways, for example there is one that's "Beginner/intermediate/expert", another one is "All help wanted", "Help wanted/Easy"... So basically, throw your project up there if you need help, with a link to your project, and let's get to it.
 
 **Tess Rinearson:** \[01:08:09.06\] That's awesome.
 
-**Carlisia Pinto:** Go Tour included. We can include it there.
+**Carlisia Thompson:** Go Tour included. We can include it there.
 
 **Erik St. Martin:** Awesome. So we are definitely over time, so I guess it's time to say our goodbyes. I definitely wanna thank everybody who's on the show today, thank you for everybody who's listening live, and everybody who's listening to the recorded version of this. Huge thank you to our sponsors, Linode and Code School for keeping us doing these things. Definitely share the show with fellow Go programmers.
 
@@ -632,4 +632,4 @@ If you haven't subscribed, you can go to GoTime.fm, and we are @GoTimeFM on Twit
 
 **Tess Rinearson:** Bye.
 
-**Carlisia Pinto:** Bye, this was fun!
+**Carlisia Thompson:** Bye, this was fun!

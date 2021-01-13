@@ -2,13 +2,13 @@
 
 Today on the show, myself - [Erik St. Martin](https://twitter.com/erikstmartin). [Brian Ketelsen's](https://twitter.com/bketelsen) here... I think he's still here. Brian?
 
-**Carlisia Pinto:** Muted?
+**Carlisia Thompson:** Muted?
 
 **Brian Ketelsen:** Alright, maybe muted, but still, I'm here. The dog was barking.
 
 **Erik St. Martin:** And [Carlisia](https://twitter.com/carlisia)?
 
-**Carlisia Pinto:** Hi! I'm here, definitely.
+**Carlisia Thompson:** Hi! I'm here, definitely.
 
 **Erik St. Martin:** And our special guest today is Cindy, also known on Twitter as [copyconstruct](https://twitter.com/copyconstruct), and I'm sure many of you have probably read a lot of her operations and devops posts that have been gaining some popularity recently. Welcome to the show, Cindy.
 
@@ -38,7 +38,7 @@ What happened was I spent 6-8 weeks doing quite literally nothing else but progr
 
 I think people beat themselves up a little bit, too... Like, you become the world's best brain surgeon, but then you're upset that you're not the world's greatest heart surgeon. It's impossible to be both, right?
 
-**Carlisia Pinto:** Cindy, tell us what it is that you're doing now. What are you working with?
+**Carlisia Thompson:** Cindy, tell us what it is that you're doing now. What are you working with?
 
 **Cindy Sridharan:** I'm a part of a startup for an image-processing company, but I don't really work on any image processing software. Like I said, I'm a fairly generalist software engineer, which means I do a whole bunch of different things, including API development, infrastructure development, and also a lot of operations, because I work for a really small company, and what that means is that as a software engineer I am expected to also be running all the services that I write. That is pretty much what I do in a nutshell.
 
@@ -74,7 +74,7 @@ Then I published it and then it sort of took a life of its own, which is still e
 
 Yes, I think that's pretty much what I do. If all these things make any sense to other people, I'm guessing it's because this kind of from the trenches story isn't very widely told.
 
-**Carlisia Pinto:** That is a very good point, I love it... Talking about the actual problems and solutions that you are working with, and using these tools to help solve is completely different than just talking about the tools in a vacuum. I agree with you, I'm sure that that's the main reason why people are so drawn to your writing.
+**Carlisia Thompson:** That is a very good point, I love it... Talking about the actual problems and solutions that you are working with, and using these tools to help solve is completely different than just talking about the tools in a vacuum. I agree with you, I'm sure that that's the main reason why people are so drawn to your writing.
 
 I also wanted to say that your posts are extremely well-written. It's really rare to find blog posts that are so well-written... And not even to judge people's intelligence - I think people write posts in a hurry, just because they have something they wanna put out there, and everybody has a job, so... I don't know how much time you take to craft your post, but it looks like it's really well crafted and really well thought out... Plus the writing skills really show through.
 
@@ -88,7 +88,7 @@ Some other posts that I've written probably have been cracked out in a matter ho
 
 Maybe had I spent more time writing that post, it could have been more -- I certainly think it could have been a little shorter, and that's true with all of my posts; they're probably way too long. I mean, I'm a professional software engineer, I'm not a writer, so this is part of what I do in my free time. Again, I'm not writing professionally, so I don't really bother with things like editing and probably making sure I'm not repeating myself... It's kind of weird, it's kind of ironic that I repeat myself a lot in my blog posts and I also wrote a blog post about how repeating yourself is not a really bad thing. But yeah, most of them take a couple hours to write. The clusters one took much longer, and probably a lot of these could a shit ton of editing. I don't do much of that. It's more like write something, post, tweet, go to sleep, wake up next morning and see what people are saying.
 
-**Carlisia Pinto:** That's very impressive; I'm impressed. I'm impressed both because you're saying you don't really pay attention to editing and yet, to me, they come out really well written, even the posts you're saying you didn't spend more than two hours on. And also because you're saying two hours, I'm thinking -- I don't write blog posts, but I feel like writing posts every once in a while, and if I think it's gonna take two hours, I'm like "Oh my god, I don't have two hours." It has to take five minutes, but of course, you can't write anything in five minutes, so it doesn't get done because I don't want to allocate two hours to write a post. But it's a good reminder that these things take time, but it's also worth it, because you get to have a conversation about it, or you get to put your thoughts out there, or you get to just write for your own benefit, like you were saying, for your own edification.
+**Carlisia Thompson:** That's very impressive; I'm impressed. I'm impressed both because you're saying you don't really pay attention to editing and yet, to me, they come out really well written, even the posts you're saying you didn't spend more than two hours on. And also because you're saying two hours, I'm thinking -- I don't write blog posts, but I feel like writing posts every once in a while, and if I think it's gonna take two hours, I'm like "Oh my god, I don't have two hours." It has to take five minutes, but of course, you can't write anything in five minutes, so it doesn't get done because I don't want to allocate two hours to write a post. But it's a good reminder that these things take time, but it's also worth it, because you get to have a conversation about it, or you get to put your thoughts out there, or you get to just write for your own benefit, like you were saying, for your own edification.
 
 Another thing that I wanted to say to you is that I personally love the different takes that you have on things. I think it's welcome just for the sake of the opinion being different or contradictory, but you made me think in different ways from reading your posts. I think it's beneficial to me, definitely, I appreciate it, but I think it's beneficial for the tech community in general to be exposed to that... Even if at the end they don't agree -- you know, herd mentality is horrible; we need to hear different voices, different opinions.
 
@@ -124,7 +124,7 @@ The good thing with old, boring technology is that being able to proactively pre
 
 My philosophy is that when I'm writing a new service or when I'm operating a service, the fewer things that I have to actually figure out for myself, the better. It's not gonna be possible to completely have everything figured out for you already. If that were the case, none of us would have jobs. It becomes really beneficial if the number of failure modes that you run into or the number of surprises that it could potentially have are very few.
 
-**Carlisia Pinto:** Very good point.
+**Carlisia Thompson:** Very good point.
 
 **Erik St. Martin:** So you had started talking about the one post that was one of the most popular that hit Hacker News and you kind of got some slack about, which was your [short methods post](https://medium.com/@copyconstruct/small-functions-considered-harmful-91035d316c29). Did you wanna give a little bit of insight into that? What was the negative reaction to that? Was it over-read into kind of they assumed you were taking a polarized view where it was like never a small method ever?
 
@@ -144,7 +144,7 @@ Something that might seem very obvious to you, something that might seem very si
 
 \[00:36:00.02\] When it comes to code, I think the best way to make something intuitive is just to be explicit, and that is I think one of the most amazing features of Go - what you see is what you get. There is not magic, there is no hidden abstractions or any talk of zero cost abstractions or any of this; it's just dead simple. It's verbose, it's not everyone's cup of tea, but it is dead simple. You look at it and you can understand what it does, and that's amazing, and that's extremely valuable for providing good user experiences to other developers.
 
-**Carlisia Pinto:** I couldn't agree more with what you said - everything, and especially what you said last, that Go is very different, and it strives to make everything explicit. I absolutely love that about Go, too.
+**Carlisia Thompson:** I couldn't agree more with what you said - everything, and especially what you said last, that Go is very different, and it strives to make everything explicit. I absolutely love that about Go, too.
 
 As far as your blog post on small functions, for me personally, when I started programming, I was more struggling with knowing how to do it right - I still struggle, it was just that I struggled a lot more - than learning how to do it perfect. But I always kept reading books like Clean Code and Pragmatic Programmer, and Martin Fowler books, and learning the best practices. When I started doing Ruby, -- I was at a point where I had enough experience with software development, but I was learning Ruby as well and watched a bunch of conference talks online and read a lot of books. It was so much about _Don't repeat yourself_ and _Write small functions_, _Refactor, refactor, refactor_, so I came to Go from that perspective. Then I noticed the files were so long, and the functions were longer than I was used to, but it didn't phase me because I quickly saw it just worked. Everything's there, I'm loving this; I didn't question it. I didn't strive to apply the Ruby on Rails dogma to Go, because I just took it as it was; I didn't try to change what I was seeing.
 
@@ -166,7 +166,7 @@ A lot of people wrote to me saying "Of course those things have to be separate f
 
 If I could go back, I'd actually go back and edit that post a lot, because I just kind of feel that a lot of ideas could be expressed both more concisely and more reusably. But frankly, I don't think I'm gonna be bothered; it's done, it's over. I'll probably write a different one, that's all.
 
-**Carlisia Pinto:** I find myself actually doing the opposite of refactoring into small functions with my code in Go. Sometimes I see small functions that I just wipe out and put the code back inside the function, or I refactor things out and then I change my mind and put it back in. I find myself doing that a lot more than refactoring things down to tiny functions.
+**Carlisia Thompson:** I find myself actually doing the opposite of refactoring into small functions with my code in Go. Sometimes I see small functions that I just wipe out and put the code back inside the function, or I refactor things out and then I change my mind and put it back in. I find myself doing that a lot more than refactoring things down to tiny functions.
 
 **Cindy Sridharan:** I think the one thing people underestimate is just how hard it can be when you technically just have to move around, even when you're reading code. One of my co-workers, who sort of started working on a Go project and he started thinking about what packages should be, what the API should look like, and he probably gave way too much thought to that way too soon.
 
@@ -184,7 +184,7 @@ And the thing is it could be a lot better for a short period of time. I think th
 
 The most successful projects are projects that evolve and live on. It's not like something that you're just going to put into production and two weeks later just get rid of. For a lot of these extremely long-running -- and potentially any project that one wishes to be successful, the goal there should be to just make it good enough, not really perfect. Perfection is, like I said, short-lived.
 
-**Carlisia Pinto:** \[00:47:53.02\] I agree with absolutely every single thing you said. In the end it is about tradeoffs, and it really sucks when you start making the tradeoffs too soon. The example you cited of your co-worker putting everything in the main package - it's hard to say that there's only one right way to do things, but for me that is absolutely the right way to do it. Do it like that, and then think about spreading things up later... Because depending on what the end product ends up being, you're going to use different decisions to work that out. At least that's how it happens to me - if I try to make those decisions up front, I go through the painful process of making that decision and figuring it out, and then at the end I see that I didn't make the right call. It's really hard to make the right call up front, before you have the finished product, or sort of what the finished product should be. I don't have to go through the same decision process again.
+**Carlisia Thompson:** \[00:47:53.02\] I agree with absolutely every single thing you said. In the end it is about tradeoffs, and it really sucks when you start making the tradeoffs too soon. The example you cited of your co-worker putting everything in the main package - it's hard to say that there's only one right way to do things, but for me that is absolutely the right way to do it. Do it like that, and then think about spreading things up later... Because depending on what the end product ends up being, you're going to use different decisions to work that out. At least that's how it happens to me - if I try to make those decisions up front, I go through the painful process of making that decision and figuring it out, and then at the end I see that I didn't make the right call. It's really hard to make the right call up front, before you have the finished product, or sort of what the finished product should be. I don't have to go through the same decision process again.
 
 So the more I work, the more I aim for the things that you were saying - readability and easy to understand code, versus optimizing for other things. And even when I start writing a function and I don't know what the function exactly is going to be or what the scope of that function is going to be once it's done, I just type like "asdf" as the name of the function; whatever I type on the keyboard, I put the brackets and I write the function. And then I'll name it after it's done. Otherwise I spend so much time trying to figure out "What is the shortest best name for this function?" and I haven't even written the function yet. I sort of know what it's gonna do... Once I'm done, it might be a bit different than what I was thinking. I might split things up... So what's the point of going through that decision-making process up front? It's a waste of time and effort.
 
@@ -200,15 +200,15 @@ Anyway, I think we should move on to projects and news...
 
 **Erik St. Martin:** We've gotta get Carlisia, and then it will be the whole show.
 
-**Carlisia Pinto:** Oh, I also have an announcement... \[laughs\] I don't have a new job. \[laughter\]
+**Carlisia Thompson:** Oh, I also have an announcement... \[laughs\] I don't have a new job. \[laughter\]
 
 **Brian Ketelsen:** That's awesome.
 
-**Carlisia Pinto:** For the record, I'm very happy where I am... So Microsoft hasn't asked, but if Microsoft asks - you don't even need to ask; I'm very happy where I am. Not looking to move.
+**Carlisia Thompson:** For the record, I'm very happy where I am... So Microsoft hasn't asked, but if Microsoft asks - you don't even need to ask; I'm very happy where I am. Not looking to move.
 
 **Erik St. Martin:** I was really happy where I was too, but the opportunity to work on Kubernetes and Docker and all of that stuff, all of the things that I love to do in my spare time, during my business hours, is really awesome.
 
-**Carlisia Pinto:** That's incredible for you guys.
+**Carlisia Thompson:** That's incredible for you guys.
 
 **Erik St. Martin:** So what else have we got? Community Outreach Working Group - that was a couple days ago.
 
@@ -234,15 +234,15 @@ If you like low-level stuff, [davidwong.fr/goasm](http://davidwong.fr/goasm/) ha
 
 **Brian Ketelsen:** I've got one more news item - there's a good blog post at [blog.minio.io](https://blog.minio.io/data-at-rest-encryption-done-right-7446c644ddb6) about a new standard for data at rest encryption. The blog post summarized said basically that we do lots about encryption and transit, but there's no standard for encryption at rest. So they propose a standard and a Go implementation of that standard. It sounds really interesting. I like their reasoning for the whole thing. They intend to use that [DARE](https://en.wikipedia.org/wiki/Drug_Abuse_Resistance_Education), which if you're an '80s kid like me, it just makes me laugh. But they intend to use DARE for their client and server versions of Minio.
 
-**Carlisia Pinto:** That is fantastic. Actually, I was thinking about mentioning a blog post, but it might not have anything to do with Go. Does Signal use Go? The Signal app? I seem to recall that they do, I don't know why.
+**Carlisia Thompson:** That is fantastic. Actually, I was thinking about mentioning a blog post, but it might not have anything to do with Go. Does Signal use Go? The Signal app? I seem to recall that they do, I don't know why.
 
 **Brian Ketelsen:** Yeah, I don't know.
 
-**Carlisia Pinto:** But really quick - Signal, the messaging app, they have a blog post explaining the encrypted profiles that they have now on public data... And I haven't finished reading the whole thing, but it's just things that you don't even think about that should be encrypted (or could be encrypted) and how they're being so careful about really providing privacy for people who are using messaging - encrypting images... This stuff is so important, people don't realize it.
+**Carlisia Thompson:** But really quick - Signal, the messaging app, they have a blog post explaining the encrypted profiles that they have now on public data... And I haven't finished reading the whole thing, but it's just things that you don't even think about that should be encrypted (or could be encrypted) and how they're being so careful about really providing privacy for people who are using messaging - encrypting images... This stuff is so important, people don't realize it.
 
 **Brian Ketelsen:** Good stuff.
 
-**Carlisia Pinto:** \[00:55:45.20\] And real quick, I wanted to go back to the Working Group news announcement, and just mention that it's for everybody. People frequently ask how they can get involved in the community - this is perfect, because they have a list of issues... First of all, you can open a new [issue](https://github.com/golang/cwg/issues); anybody can do that, obviously - it's open source, it's for the community. But they already have a list of issues they can comment on, you can volunteer to help out, to take the lead... It's fantastic. A bunch of different things, all kinds of things that need to be done. There's something for everybody.
+**Carlisia Thompson:** \[00:55:45.20\] And real quick, I wanted to go back to the Working Group news announcement, and just mention that it's for everybody. People frequently ask how they can get involved in the community - this is perfect, because they have a list of issues... First of all, you can open a new [issue](https://github.com/golang/cwg/issues); anybody can do that, obviously - it's open source, it's for the community. But they already have a list of issues they can comment on, you can volunteer to help out, to take the lead... It's fantastic. A bunch of different things, all kinds of things that need to be done. There's something for everybody.
 
 **Brian Ketelsen:** Nice. How about Free Software Friday? Cindy, this is a segment of the show where we like to give a shoutout to an open source project or a maintainer or a group, or pretty much anybody that's doing open source that we happen to appreciate, and it doesn't even have to be Go related.
 
@@ -258,13 +258,13 @@ I don't know if you've been following some of the blog posts and some of the new
 
 **Erik St. Martin:** Right? How about you, Carlisia?
 
-**Carlisia Pinto:** I don't have a thing.
+**Carlisia Thompson:** I don't have a thing.
 
 **Erik St. Martin:** I'm gonna -- I know it's Free SOFTWARE Friday, but I'm gonna break that due to everything that's been going on... So with everything going on in Houston, the whole cajun army thing.
 
 **Brian Ketelsen:** Yes.
 
-**Carlisia Pinto:** No.
+**Carlisia Thompson:** No.
 
 **Erik St. Martin:** So there is a group of people kind of across the country that after Katrina kind of put themselves together... Volunteers, they call themselves the cajun army. When Houston was hit, they were driving from everywhere, bringing boats and everything like that; they had radios going back and forth, some people were out in boats and trucks, some people were at home just playing dispatch, basically working with people who were stuck in their houses and giving them advice and prioritizing calls and dispatching them out to volunteer rescuers on boats and stuff like that.
 
@@ -292,7 +292,7 @@ I think Prometheus as well is an example of a tool that is built based on an int
 
 I think it's gonna be really interesting to see some of the developments in the infrastructure space in the next few years, because with Kubernetes rapidly approaching to being the standard way in which people are going to deploy applications in the future, it's going to be really interesting to see how other supporting tools are going to be built in. And more importantly, at least for me, it's about how seamless these tools are gonna be to adopt and to gain the most benefit from.
 
-**Carlisia Pinto:** \[01:03:04.01\] And I wanna point out that Cindy has a [blog post talking about Envoy](https://medium.com/@copyconstruct/envoy-953c340c2dca) and comparing it to HAproxy and Nginx. It's a pretty cool post.
+**Carlisia Thompson:** \[01:03:04.01\] And I wanna point out that Cindy has a [blog post talking about Envoy](https://medium.com/@copyconstruct/envoy-953c340c2dca) and comparing it to HAproxy and Nginx. It's a pretty cool post.
 
 **Erik St. Martin:** Yeah, I've been following Envoy for a few months. I haven't got to play with it yet, and I've been itching too, and I'm hoping soon... It looks ridiculously cool and it's like wire-compatible with Mongo - a couple of databases - gRPC it supports natively, and some things like that. It's ridiculously cool.
 
@@ -304,28 +304,28 @@ I think it's gonna be really interesting to see some of the developments in the 
 
 **Erik St. Martin:** Alright, so I think we are a little overtime, but we're good.
 
-**Carlisia Pinto:** What's new...?
+**Carlisia Thompson:** What's new...?
 
 **Erik St. Martin:** We're always overtime. Didn't we start this out at like 20 minutes? Wasn't that gonna be the original goal when we started the podcast?
 
 **Brian Ketelsen:** It was. It was gonna be a short little podcast... \[laughter\] That's okay.
 
-**Carlisia Pinto:** It's perfect the way it is, I think.
+**Carlisia Thompson:** It's perfect the way it is, I think.
 
 **Erik St. Martin:** Now we're at an hour and I don't even think we keep that... \[laughs\] With that, thanks everybody, and especially thank you Cindy for coming on and talking with us; I wish we had more time, but we've gotta stop the show somewhere. Huge thank you to all of the listeners. Definitely share the show with friends and co-workers.
 
 You can find us on [Twitter](https://twitter.com/GoTimeFM). If you wanna be on the show, have suggestions for guests or topics, find us on [ping](https://github.com/GoTimeFM/ping). With that, bye everybody! We'll see you next week... Although I won't see everybody next week - I'll be gone for two weeks - but everybody else will see you next week.
 
-**Carlisia Pinto:** Somebody will see somebody next week. This show is great! \[laughs\]
+**Carlisia Thompson:** Somebody will see somebody next week. This show is great! \[laughs\]
 
 **Brian Ketelsen:** Somebody will be here, we promise!
 
 **Erik St. Martin:** We'll have our people call your people. \[laughter\]
 
-**Carlisia Pinto:** I'll be here.
+**Carlisia Thompson:** I'll be here.
 
 **Brian Ketelsen:** Alright, take care, everybody!
 
 **Erik St. Martin:** Bye, everybody.
 
-**Carlisia Pinto:** Bye!
+**Carlisia Thompson:** Bye!

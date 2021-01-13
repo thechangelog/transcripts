@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And Carlisia Pinto.
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** Our special guest today is Filippo Valsorda. Why don't you give everybody kind of a quick background about yourself? Tell us a little bit about yourself and the things you're working on, and then we'll kind of get into some of the projects you've been working on.
 
@@ -30,11 +30,11 @@ Then the other side of it that gets confusing is how to you contribute back? Tha
 
 **Erik St. Martin:** Brian, Carlisia, have you guys had a chance to play with it yet?
 
-**Carlisia Pinto:** No.
+**Carlisia Thompson:** No.
 
 **Brian Ketelsen:** I've been watching the video on the GitHub repository; actually, I'm watching it again now. It's kind of cool! I'm surprised that you were able to do this so elegantly.
 
-**Carlisia Pinto:** I didn't play with it and I actually didn't know about it until today, and I wish I had, because I helped organize the Gopher meetup in San Diego, and at every meeting there is somebody, at least one person, who doesn't have the GOPATH set up, and I would have been glad to just point them to all these instructions.
+**Carlisia Thompson:** I didn't play with it and I actually didn't know about it until today, and I wish I had, because I helped organize the Gopher meetup in San Diego, and at every meeting there is somebody, at least one person, who doesn't have the GOPATH set up, and I would have been glad to just point them to all these instructions.
 
 **Erik St. Martin:** I feel like every language has that hurdle to get set up when you're not familiar with the environment. I did Ruby for a long time and it never really occurred to me how complicated it is to set up a Ruby development environment...
 
@@ -52,11 +52,11 @@ Then the other side of it that gets confusing is how to you contribute back? Tha
 
 **Erik St. Martin:** Yeah, RVM, and now they have like a Ruby Build one where it kind of builds tools on your path, too... But still, it gets confusing having to remember all these things and set them up. Now we have GOPATH and we have vendoring, and you're downloading projects with the vendor stuff, so yeah... It gets confusing and we forget about it, because we've been doing it for so long and it's just kind of part of what we do, until somebody who's not familiar with the environment is like, "Well, how do I set this thing up?"
 
-**Carlisia Pinto:** But with 1.8 we're not gonna have this problem anymore, right? This is all gonna go away...?
+**Carlisia Thompson:** But with 1.8 we're not gonna have this problem anymore, right? This is all gonna go away...?
 
 **Brian Ketelsen:** This particular problem won't go away, no.
 
-**Carlisia Pinto:** If you're setting that up the first time, unless you want in a specific place.
+**Carlisia Thompson:** If you're setting that up the first time, unless you want in a specific place.
 
 **Brian Ketelsen:** You're still gonna have a GOPATH, it will just be automatically set for you if you haven't set it. So we'll still have the confusion that new developers get when they still don't understand what a GOPATH is and why they need to use it.
 
@@ -86,7 +86,7 @@ At the same time I was studying the SSH protocol and trying to figure out a bit 
 
 But if the server refuses them all, it will still see them all... And I built this little tool with the golang.org/x/sshpackage that would ask you to use your public keys, refuse them all, but block them, then ask you to do keyboard interactive logging, which is a weird thing that I could just make happen automatically - so log you in any case... Then, if I found you in the database, I would tell you your name and surname and GitHub account, because I cross-reference that to the database. Once you explain it, it's kind of trivial, but the surprise, the impact is pretty strong.
 
-**Carlisia Pinto:** So I ran it on my machine and it didn't find my GitHub public key. I'm wondering if it's because I have multiple ones and you grabbed one that wasn't active...
+**Carlisia Thompson:** So I ran it on my machine and it didn't find my GitHub public key. I'm wondering if it's because I have multiple ones and you grabbed one that wasn't active...
 
 **Erik St. Martin:** \[00:11:46.11\] No... The way the SSH protocol works is when you do public key authentication is it will pass all of your public keys, so anything that's in your .SSH directory, you'll see the IDE\_RSA.pubs and things like that... It will pass that, which contains your email address in it.
 
@@ -96,11 +96,11 @@ But if the server refuses them all, it will still see them all... And I built th
 
 **Filippo Valsorda:** Yeah.
 
-**Carlisia Pinto:** So I'm trying to figure out why it didn't find mine.
+**Carlisia Thompson:** So I'm trying to figure out why it didn't find mine.
 
 **Erik St. Martin:** Is that key added to your GitHub account?
 
-**Carlisia Pinto:** I'm using this computer to login to push to GitHub.
+**Carlisia Thompson:** I'm using this computer to login to push to GitHub.
 
 **Erik St. Martin:** Interesting.
 
@@ -146,16 +146,16 @@ But the point is we wanted to implement TLS 1.3 and participate in the standardi
 
 **Brian Ketelsen:** Nice.
 
-**Carlisia Pinto:** So I'm trying to follow... At the beginning of the conversation did you say that the crypto/tls package can be used in place of OpenSSL?
+**Carlisia Thompson:** So I'm trying to follow... At the beginning of the conversation did you say that the crypto/tls package can be used in place of OpenSSL?
 
 **Filippo Valsorda:** Yeah, you essentially never use OpenSSL when you host a Go server that has HTTPS and TLS... You use the native Go implementation of TLS; we built TLS 1.3 into it, and we are looking to upstream it.
 
-**Carlisia Pinto:** I know that OpenSSL has a lot of bugs... Would you recommend people to use crypto/tls and use Go instead of using whatever they're using with OpenSSL? In your opinion, is it a lot better? Is it less buggy?
+**Carlisia Thompson:** I know that OpenSSL has a lot of bugs... Would you recommend people to use crypto/tls and use Go instead of using whatever they're using with OpenSSL? In your opinion, is it a lot better? Is it less buggy?
 
 **Filippo Valsorda:** It has a better security track record, at this point we can say it. It's less battle-tested. I think we are currently the widest deployment of it, I suspect. It did pass an audit... We paid for an audit, it passed, but let's say that if you are just putting NGINX in front of your site just to have OpenSSL in front of your site, but your site is a Go service, you should probably stop doing that. There's no need.
 Saying that I'm suggesting to actually go out of your way to remove OpenSSL by adding some Go in front - there are architectural decisions to be made there... Performance-wise it's probably slightly slower, or more CPU intensive, at least.
 
-**Carlisia Pinto:** Gotcha.
+**Carlisia Thompson:** Gotcha.
 
 **Erik St. Martin:** What does TLS 1.3 offer over 1.2? What was the motivation to write that now?
 
@@ -205,7 +205,7 @@ On the other hand, performance-wise it cuts an entire round trip. When you conne
 
 **Erik St. Martin:** How to make cgo tolerable. \[laughter\]
 
-**Carlisia Pinto:** But Filippo does have a talk on TLS 1.3... Where did you give that talk?
+**Carlisia Thompson:** But Filippo does have a talk on TLS 1.3... Where did you give that talk?
 
 **Filippo Valsorda:** That would be 33c3, the Chaos Computing Club conference in Hamburg. You can find it if you search for 33c3 TLS 1.3. There we go through all the Crypto parts of this TLS 1.3 effort, and about the Go part - there's nothing published just yet. You can find blog posts on the Gopher Academy Advent list, which is a bunch of lessons learned from exposing a Go server to the internet, because that's effectively what we did with the Go reverse proxy.
 
@@ -294,23 +294,23 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Filippo Valsorda:** 24th. I was wrong.
 
-**Carlisia Pinto:** Because you're Italian, I'm going to ask you... Did you go to the GopherCon in Italy?
+**Carlisia Thompson:** Because you're Italian, I'm going to ask you... Did you go to the GopherCon in Italy?
 
 **Filippo Valsorda:** Yeah, GoLab.
 
-**Carlisia Pinto:** GoLab, I'm sorry.
+**Carlisia Thompson:** GoLab, I'm sorry.
 
 **Filippo Valsorda:** Yup. It was a very nice crowd, and my keynote was about hellogopher. It's actually where I introduced hellogopher, the first time I showed it outside of CloudFlare.
 
-**Carlisia Pinto:** Did they record the talks?
+**Carlisia Thompson:** Did they record the talks?
 
 **Filippo Valsorda:** I'm not positive, but there is a recording of my screen and voice, which I usually take during talks. I've published it on my Twitter, I'll find you a link really quick and post it on Slack.
 
-**Carlisia Pinto:** Awesome.
+**Carlisia Thompson:** Awesome.
 
 **Filippo Valsorda:** There you go.
 
-**Carlisia Pinto:** Thank you.
+**Carlisia Thompson:** Thank you.
 
 **Erik St. Martin:** So Bill Kennedy just corrected us from the GoTime Slack... He said 22nd to 25th February. Now you can book tickets. \[laughter\] So you guys wanna talk about projects and news and interesting things that we've seen this week?
 
@@ -324,7 +324,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Brian Ketelsen:** Yeah, it's all my fault... Sorry.
 
-**Carlisia Pinto:** And apparently that's only the beginning. Every day...
+**Carlisia Thompson:** And apparently that's only the beginning. Every day...
 
 **Brian Ketelsen:** Yeah, every day new things are getting added, that's right.
 
@@ -332,7 +332,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Brian Ketelsen:** So we should give the story behind that... If you go to Gopherize.me, you can create your own Gopher avatar out of lots of different choices, and it's built for you live on the screen. It was built by Mat Ryer, with images supplied by Ashley McNamara, and the whole thing started because I asked Ashley for a custom gopher avatar and then changed my avatar on Twitter; then she made one for Erik and then she made one for Bill, and the next thing you know, the whole internet's asking for one, so they decided to just go make a site and give Ashley a break, so she didn't have to make custom avatars for everybody.
 
-**Carlisia Pinto:** I have a request for Ashley and Mat... We need to have a T-shirt with the GoTime logo.
+**Carlisia Thompson:** I have a request for Ashley and Mat... We need to have a T-shirt with the GoTime logo.
 
 **Brian Ketelsen:** Oh, we need a GoTime logo.
 
@@ -340,7 +340,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Brian Ketelsen:** I don't know.
 
-**Carlisia Pinto:** I was selecting the shirts, and I was like "The GoTime is what I really want."
+**Carlisia Thompson:** I was selecting the shirts, and I was like "The GoTime is what I really want."
 
 **Erik St. Martin:** Correct me if I'm wrong though - I think the codebase is written in Go, and I wanna say it's based off of one of the Google holiday images, or something...?
 
@@ -482,23 +482,23 @@ Okay, any other interesting projects?
 
 **Erik St. Martin:** Carlisia, did you run across anything you wanted to talk about?
 
-**Carlisia Pinto:** I did. Sourcegraph is now in general availability with the Go language. For people who don't know, Sourcegraph is like a code navigation tool, but you use it on your browser. The cool thing over other normal code navigation tools is that it will take you across repos, and if you go to a function, for example, you can see where it is used in the entire GitHub universe, and I think even in other source control systems, maybe GitLab... I'm not sure about that, but GitHub - definitely. And that is super cool.
+**Carlisia Thompson:** I did. Sourcegraph is now in general availability with the Go language. For people who don't know, Sourcegraph is like a code navigation tool, but you use it on your browser. The cool thing over other normal code navigation tools is that it will take you across repos, and if you go to a function, for example, you can see where it is used in the entire GitHub universe, and I think even in other source control systems, maybe GitLab... I'm not sure about that, but GitHub - definitely. And that is super cool.
 
 For example, when I run into something new and I want to see how people are using it, I just use Sourcegraph and I'm able to see it. It also gives you git blame and it gives you the last time the file was updated, and a bunch of other awesome things.
 
 **Filippo Valsorda:** Yeah, I love their interface. I used it all the time also studying the TLS Crypto library; it works on the standard library too, and you can just click around and click to jump to definition, which is something that I always wanted. There used to be a web interface to what is now called Guru, which was called Pythia maybe or something like that. Anyway... Sourcegraph does that, and it's wonderful, just clicking around to...
 
-**Carlisia Pinto:** \[00:48:09.23\] Yeah, so it will work with anything that's open source, and if you want to use it on your private repos, they have a pricing structure there. You probably need to talk to your security team to find out if you can do it.
+**Carlisia Thompson:** \[00:48:09.23\] Yeah, so it will work with anything that's open source, and if you want to use it on your private repos, they have a pricing structure there. You probably need to talk to your security team to find out if you can do it.
 
 **Erik St. Martin:** Yeah, I would assume it runs on-prem or something like that for that... I'm not really sure. They have a browser extension that's cool too, so if you're just kind of like browsing around GitHub, looking, you can just kind of click and follow along, and jump to definition...
 
 One of the things I love is being able to see examples of where this is used in other repos. That's always really useful to me, especially if the project itself doesn't have a lot of documentation on the usage of the library, you can kind of follow around and see projects that are using it.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Brian Ketelsen:** It's like Stack Overflow, without the Stack.
 
-**Carlisia Pinto:** It's hard to explain how good and useful it is... You have to use it, it's one of those things.
+**Carlisia Thompson:** It's hard to explain how good and useful it is... You have to use it, it's one of those things.
 
 **Erik St. Martin:** And I know the next one you are particularly excited about, Brian.
 
@@ -512,13 +512,13 @@ One of the things I love is being able to see examples of where this is used in 
 
 **Brian Ketelsen:** And I get excited by that kind of stuff. And of course, it's open source and all written in Go, and I've already forked it.
 
-**Carlisia Pinto:** We know what that means...
+**Carlisia Thompson:** We know what that means...
 
 **Brian Ketelsen:** Yeah... \[laughs\]
 
 **Erik St. Martin:** Something new and fun is gonna come out of this...
 
-**Carlisia Pinto:** You're going to be very prolific in the next few days.
+**Carlisia Thompson:** You're going to be very prolific in the next few days.
 
 **Erik St. Martin:** Alright... Did anybody come across anything else, any new news? Or do we wanna jump into \#FreeSoftwareFriday?
 
@@ -544,7 +544,7 @@ Ashley McNamara did the design and the images, I built the code side of it and w
 
 **Erik St. Martin:** Alright. Carlisia, do you have anything?
 
-**Carlisia Pinto:** I don't have anything today.
+**Carlisia Thompson:** I don't have anything today.
 
 **Erik St. Martin:** Alright. How about you, Filippo?
 
@@ -622,19 +622,19 @@ Ashley McNamara did the design and the images, I built the code side of it and w
 
 **Erik St. Martin:** Alright.
 
-**Carlisia Pinto:** Good work!
+**Carlisia Thompson:** Good work!
 
 **Erik St. Martin:** Well, huge thank you to everybody on the show, thanks to all the listeners listening right now. Huge shoutout to our sponsors, StackImpact and Ardan Labs. If you haven't checked them out, please do. We will put links in the show notes. Definitely share this show with friends and colleagues. An easy way to subscribe is to go to GoTime.FM. We will have a weekly email coming out shortly, so go ahead and get signed up to that. We are @GoTimeFM on Twitter, we have a GoTimeFM channel in the Gophers Slack. If you wanna be on the show or have suggestions for topics or guests for the show, GitHub.com/GoTimeFM/ping. With that, goodbye everybody! We'll see you next week. Mat Ryer will be joining us for next week's show.
 
 **Brian Ketelsen:** You know, he probably rushed to finish the gopherize-me thing just before he was gonna be on the show. \[laughter\]
 
-**Carlisia Pinto:** Good for us!
+**Carlisia Thompson:** Good for us!
 
 **Brian Ketelsen:** Now I understand everything.
 
 **Filippo Valsorda:** Well, everyone, thank you very much for having me. Last fun fact: in Florence, after GoLab, I was just going around, looking for a place to have lunch... We literally picked a random one and don't I meet Mat Ryer while I'm getting out, sitting at a table just across the room.
 
-**Carlisia Pinto:** Gophers attract Gophers.
+**Carlisia Thompson:** Gophers attract Gophers.
 
 **Brian Ketelsen:** Wow!
 
@@ -642,6 +642,6 @@ Ashley McNamara did the design and the images, I built the code side of it and w
 
 **Brian Ketelsen:** Thank you.
 
-**Carlisia Pinto:** Thank you, Filippo. Bye!
+**Carlisia Thompson:** Thank you, Filippo. Bye!
 
 **Filippo Valsorda:** Bye!
