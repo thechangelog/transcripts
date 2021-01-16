@@ -26,7 +26,7 @@ We're joined by Hana Kim, from the Go team. Hello, Hana!
 
 **Derek Parker:** Thank you. And good evening, good morning for me on the West Coast... I'm having my second cup of coffee.
 
-**Mat Ryer:** Great. Enjoy it! So yes, I should say - Derek, you work at Red Hat, and you've actually create Delve, which is a debugger.
+**Mat Ryer:** Great. Enjoy it! So yes, I should say - Derek, you work at Red Hat, and you've actually created Delve, which is a debugger.
 
 **Derek Parker:** Yes, that's correct.
 
@@ -92,7 +92,7 @@ I do println debugging all the time as well, especially when -- like, working on
 
 **Mat Ryer:** Okay, so if printing the results isn't working for you, then Delve allows you to set a breakpoint. What happens then in the program? The program stops at that point.
 
-**Derek Parker:** Yeah, exactly. So with a tool like Delve, a traditional \[unintelligible 00:14:08.06\] debugger, you're interacting with your program in real time, and that's what's fun and interesting about using a debugger - you have the ability to stop what's happening, inspect state, even change state if you wanna continue...
+**Derek Parker:** Yeah, exactly. So with a tool like Delve, a traditional source level debugger, you're interacting with your program in real time, and that's what's fun and interesting about using a debugger - you have the ability to stop what's happening, inspect state, even change state if you wanna continue...
 
 For example, when you start up a new debug session and you set a break point and you continue to it, you're telling the program "I wanna stop at this specific location and just check out what's going on. See how I got here." You can look at the stack trace, you can see the value of variables. And if you wanna experiment a little bit, debuggers also can let you experiment. You can, for example, change the value of a variable and see if that gives you the result that you wanted.
 
@@ -114,7 +114,7 @@ Go by default will build that into all binaries. You have to opt out of it speci
 
 **Hana Kim:** Well, actually, Delve is behind the scenes. Other editors, like GoLand, they also use Delve. Basically, this idea that when a user requests to debug their code, it actually formulates, "Oh, this is a Delve comment", and then invokes Delve, and asks Delve to answer the question. And most of the modern IDEs - they have either this local variable, global variable, or stack trace... So it just asks Delve, and all the information is visible through all this UI, and then users can actually step through the program using the UI... And again, we ask Delve to do all this job.
 
-So the idea is to provide the best user experience and visualize the data coming in and coming out, all the information between Delve, and the Delve frontend.
+So the idea is to provide the best user experience and visualize the data coming in and coming out, all the information between Delve and the frontend.
 
 **Mat Ryer:** That's really nice then. So you don't have to learn these complicated commands, and you don't have to know about the DWARF data or anything like that, because it's integrated.
 
@@ -124,7 +124,7 @@ So the idea is to provide the best user experience and visualize the data coming
 
 **Hana Kim:** Actually, the nice thing about Delve is Delve has the API. Like the oldest method and the instruction, they can be invoked through the RPC. So we just launch the headless Delve server, and then from VS Code we just invoke this RPC. There's some recent movement about a Debug Adapter Protocol; that is kind of like a standardized -- so Delve is a Go debugger, but there is GDB, there's LLDB, and there is a JavaScript debugger... There are all kinds of debuggers, and we have VS Code.
 
-So the VS Code team - they tried to standardize the interaction between debugger, just generally a debugger, and the editor. It's called the Debug Adapter Protocol, and a VS Code Go extension \[unintelligible 00:19:47.25\] and there is a small, tiny Delve debug adapter that actually talks Delve RPC. So it's a little bit complicated, but we try to simplify this communication path, so that the next version, I hope, the communication is more efficient. So that is the general direction we're heading in.
+So the VS Code team - they tried to standardize the interaction between debugger, just generally a debugger, and the editor. It's called the Debug Adapter Protocol, and the VS Code Go extension speaks the Delve adapter protocol and there is a small, tiny Delve debug adapter that actually talks Delve RPC. So it's a little bit complicated, but we try to simplify this communication path, so that the next version, I hope, the communication is more efficient. So that is the general direction we're heading in.
 
 **Mat Ryer:** \[00:20:16.16\] That's really cool. It's nice, because as users of this, we don't have to worry about that. That's something that happens behind the scenes. We get to just use the VS Code interface. That's really great.
 
@@ -202,7 +202,7 @@ You could also, if you have a compiled and running service, and you wanna see if
 
 **Mat Ryer:** \[00:31:56.11\] Have you ever used it, Derek? Are you aware of it?
 
-**Grant Seltzer Richman:** Yeah, I've done a few things with EBPF a little bit here and there. Actually, Delve has a trace functionality which works somewhat similar, but it works at a higher level, using ptrace and some of those other kinds of syscalls. I've thought about experimenting a little bit, replacing -- on Linux systems I supported replacing that with an EBPF-backed tracing system... So Grant, if you ever wanna send a pull request, we'd love to have it. \[laughter\]
+**Derek Parker:** Yeah, I've done a few things with EBPF a little bit here and there. Actually, Delve has a trace functionality which works somewhat similar, but it works at a higher level, using ptrace and some of those other kinds of syscalls. I've thought about experimenting a little bit, replacing -- on Linux systems I supported replacing that with an EBPF-backed tracing system... So Grant, if you ever wanna send a pull request, we'd love to have it. \[laughter\]
 
 **Hana Kim:** Yeah, I am happy to integrate it from the VS Code side, with visualization... \[laughs\]
 
@@ -220,7 +220,7 @@ You could also, if you have a compiled and running service, and you wanna see if
 
 **Mat Ryer:** Hana, you mentioned earlier that Delve has an RPC API... What is that? What does that look like? How do you consume that? How does VS Code -- is it an HTTP API? Is it a protobuf? How does that actually work?
 
-**Hana Kim:** Yeah, so Derek is here, so \[unintelligible 00:35:24.23\] to answer the question... I think that there's a JSON RPC one; it's just like the JSON stringing between client and server; it's a simple one. \[unintelligible 00:35:40.10\] JSON-RPC 2.0-based protocol... So just a JSON message exchange.
+**Hana Kim:** Yeah, so Derek is here to answer the question... I think that there's a JSON RPC one; it's just like the JSON stringing between client and server; it's a simple one. A kind of JSON-RPC 2.0-based protocol... So just a JSON message exchange.
 
 **Mat Ryer:** Hm. So you start the program, start the debugger, Delve, and does it then return back some endpoint for you to hit, or how does it work?
 
@@ -232,7 +232,7 @@ You could also, if you have a compiled and running service, and you wanna see if
 
 **Mat Ryer:** When did the VS Code plugin officially get taken up by the Go team? Because it used to just be something else before, didn't it?
 
-**Hana Kim:** Yeah, so it was originally owned by the Microsoft team, and I think VS Code Go was one of the oldest languages supporting a plugin VS Code team effort. And then for a while it was in the maintenance mode, and this year actually we got the responsibility to maintain... So I think there was a blog post from \[unintelligible 00:37:05.18\] about this transition. Now the tool team inside of the Go team in Google - we are maintaining this plugin.
+**Hana Kim:** Yeah, so it was originally owned by the Microsoft team, and I think VS Code Go was one of the oldest languages supporting a plugin VS Code team effort. And then for a while it was in the maintenance mode, and this year actually we got the responsibility to maintain... So I think there was a blog post from [blog.golang.org](https://blog.golang.org/vscode-go) about this transition. Now the tool team inside of the Go team in Google - we are maintaining this plugin.
 
 **Mat Ryer:** Hm. How many is on the Go tool team?
 
@@ -254,7 +254,7 @@ You could also, if you have a compiled and running service, and you wanna see if
 
 **Hana Kim:** \[laughs\]
 
-**Mat Ryer:** \[unintelligible 00:38:42.13\]
+**Mat Ryer:** That's legally watertight...
 
 **Hana Kim:** So what's coming next? Yeah, we are currently working really hard to use gopls as the default Go language service... And also, we are now currently working on -- I think I talked about it, the debug adapter protocol, so that we can simplify and then provide a more performant debugging experience for VS Code users. So they are the two big, main projects I am currently working on.
 
@@ -326,7 +326,7 @@ So all that to say we use lldb-server on the backend, so there's some changes th
 
 **Mat Ryer:** No, we have different versions of it, I don't know. But yeah, that is potentially unpopular.
 
-**Hana Kim:** \[unintelligible 00:45:57.11\] \[laughter\]
+**Hana Kim:** But they are missing the best in sport right?\[laughter\]
 
 **Mat Ryer:** Apparently so, yeah. That's what we've heard... According to Grant, yeah. Derek? Is baseball the best sport?
 
@@ -342,7 +342,7 @@ So all that to say we use lldb-server on the backend, so there's some changes th
 
 **Derek Parker:** Yeah, yeah.
 
-**Mat Ryer:** But I just don't go outside, so... \[unintelligible 00:46:33.23\] baseball.
+**Mat Ryer:** But I just don't go outside, so... certainly not to play baseball.
 
 **Derek Parker:** \[laughs\]
 
