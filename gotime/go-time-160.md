@@ -78,7 +78,7 @@ We're joined today by Natalie Pistunovich. Hello, Natalie.
 
 **Natalie Pistunovich:** What got you not into just computers, but what got you to be interested in Go?
 
-**Mat Ryer:** Well, yes, I wanted to build a project on Google App Engine, which is kind of one of my first serverless experiences really, where you write the code and you upload the code, and then it does the rest for you, kind of magically. It feels magic. And the choices that you could use were either Java, so no, Python, so no, and then it had this little experimental one that said Go. And it was that little Experimental badge that I sort of like a magpie couldn't resist.
+**Mat Ryer:** Well, yes, I wanted to build a project on Google App Engine, which is kind of one of my first serverless experiences really, where you write the code and you upload the code, and then it does the rest for you, kind of magically. It feels magic. And the choices that you could use were either Java, so no, Python, so no, and then it had this little experimental one that said Go. And it was that little experimental badge that I sort of like a magpie couldn't resist.
 
 And then I loved the simplicity of it, and the minimalist design, and I was able to learn it actually quite quickly... Which is nice, because the point of programming is so that you can actually do things. We have some great teachers on this panel, so we'll definitely talk more about learning and teaching as well.
 
@@ -144,7 +144,7 @@ It's interesting to see how -- I joined when it was already pretty good at scale
 
 **Mat Ryer:** Right... So that's what I wonder - is it just that everyone has to just learn the keywords and that's it?
 
-**L Körbes:** So Aditya has a -- you all know Aditya, right? \[unintelligible 00:10:44.00\] I hope I'm pronouncing his name right... So he has a talk that I've seen a couple times, where he talks about translating the keywords of the language. I'm not sure if it's a framework/tool; there's something that does that, and then you can write Go in your first language, and it basically compiles that code into regular Go. I don't recall though what were his conclusions about how effective that is; is that a very big struggle?
+**L Körbes:** So Aditya has a -- you all know Aditya, right? Aditya Mukerjee, I hope I'm pronouncing his name right... So he has a talk that I've seen a couple times, where he talks about translating the keywords of the language. I'm not sure if it's a framework/tool; there's something that does that, and then you can write Go in your first language, and it basically compiles that code into regular Go. I don't recall though what were his conclusions about how effective that is; is that a very big struggle?
 
 What I find when teaching people is that sometimes they don't know what something does when they first see a word... For example while. We don't have while in Go, but just as an example. What does while mean? I have no idea, I don't know. But once you explain the concept to the person, they pick it up pretty quick.
 
@@ -162,11 +162,11 @@ I think the real problem with that is really just the beginning, where - okay, l
 
 **Mat Ryer:** Yeah, that's true. That's quite nice. But should you? Because it depends, I guess. If it's an open source project... I mean, U.S. English I think is the standard for computer science. I've read that somewhere once. Probably in America. So if that's the case, then we probably should even write comments in U.S. English. The French comments certainly didn't help me very much, unfortunately.
 
-**L Körbes:** Yeah, I think that gets complicated, because not everyone speaks English. Yeah, if you're from a rich country, you've probably learned some English at some point... But back in Brazil - no, that's simply not the case. So if you have a bunch of comments written in English and your team is mostly Brazilians, a good chunk of the people are just not gonna be able to understand it then. I mean, there's always Google Translate and stuff like that that can help... But I think what that causes is it creates silos, whereas like -- "Okay, this was written by the Brazilian team, so it's all in Portuguese." \[unintelligible 00:13:42.12\] English are not gonna be able to read it. And if we take code that is commented in English, are we gonna be able to understand this? We can't count on all the team being able to understand. That creates some barriers that -- again, I'm not sure in practice just how bad this can get, but it's an issue. It's not very straightforward.
+**L Körbes:** Yeah, I think that gets complicated, because not everyone speaks English. Yeah, if you're from a rich country, you've probably learned some English at some point... But back in Brazil - no, that's simply not the case. So if you have a bunch of comments written in English and your team is mostly Brazilians, a good chunk of the people are just not gonna be able to understand it then. I mean, there's always Google Translate and stuff like that that can help... But I think what that causes is it creates silos, whereas like -- "Okay, this was written by the Brazilian team, so it's all in Portuguese." If you speak English you are not gonna be able to read it. And if we take code that is commented in English, are we gonna be able to understand this? We can't count on all the team being able to understand. That creates some barriers that -- again, I'm not sure in practice just how bad this can get, but it's an issue. It's not very straightforward.
 
 **Natalie Pistunovich:** And it's not just the comments, it's also function names. They also describe what you do, and you need to know the verbs, you need to know the words, you need to know the context of what it is; if you are in a domain-specific codebase, then you need to know all the terminology of that codebase. You say "Let's process this transaction." What is that transaction? What is the context of it?
 
-**Mat Ryer:** Yeah. I suppose that is a tricky problem to solve; even when everyone speaks the same language, it's hard to name functions and things like this...
+**Mat Ryer:** Yeah. I suppose that is a tricky problem really to solve; even when everyone speaks the same language, it's hard to name functions and things like this...
 
 **Natalie Pistunovich:** And variables.
 
@@ -282,7 +282,7 @@ So yeah, I definitely think encouraging people to give, especially meetup talks,
 
 **Mat Ryer:** Yeah.
 
-**L Körbes:** Or even a 5-minute talk. Sometimes, as a meetup organizer, I find it really hard to convince people to submit the talk, because they feel this is a huge commitment, and this is way above something that they can do, even though they've been developing/using a concept or a language for years... Convincing them to give a 20-minute talk, a meetup talk is a lot. A 5-minute talk is also great. This is something that I think everybody should talk about more, as meetup organizers, as attendees, and as speakers.
+**Natalie Pistunovich:** Or even a 5-minute talk. Sometimes, as a meetup organizer, I find it really hard to convince people to submit the talk, because they feel this is a huge commitment, and this is way above something that they can do, even though they've been developing/using a concept or a language for years... Convincing them to give a 20-minute talk, a meetup talk is a lot. A 5-minute talk is also great. This is something that I think everybody should talk about more, as meetup organizers, as attendees, and as speakers.
 
 **Break:** \[00:26:08.28\]
 
@@ -302,7 +302,7 @@ We have to be careful and bear that in mind when we're asking questions as well.
 
 I also see a lot of people giving talks where English isn't their first language as well... And this impresses me tremendously, because I can't even really get my head around what that would be like for people. But are there any other tips for people in that situation, where you're giving not only a complicated technical presentation, but you're doing it in a different language?
 
-**L Körbes:** As a violinist, what I'm gonna say is rehearse, rehearse, rehearse... Do a pretend presentation at home. Don't just look at the slides and think about what you're gonna say, because performance is all about muscle memory. So say the words out loud. Go over the talk many times, saying the words out loud. Maybe if you have the stomach for it - and some people don't - record it and then look back and see "Oh, this part I got my ideas all jumbled together. How do I explain this better?" And just rehearse. Because at the end of the day, you can give a talk from a natural standpoint if you're comfortable with that language. If you're not, then it's gonna be a performance, and then you should rehearse for it like any performance.
+**L Körbes:** As a violinist, what I'm gonna say is rehearse, rehearse, rehearse... Play the talk. Do a pretend presentation at home. Don't just look at the slides and think about what you're gonna say, because performance is all about muscle memory. So say the words out loud. Go over the talk many times, saying the words out loud. Maybe if you have the stomach for it - and some people don't - record it and then look back and see "Oh, this part I got my ideas all jumbled together. How do I explain this better?" And just rehearse. Because at the end of the day, you can give a talk from a natural standpoint if you're comfortable with that language. If you're not, then it's gonna be a performance, and then you should rehearse for it like any performance.
 
 Just do the thing a few times until you're physically comfortable doing it. After a few times, your body is gonna have developed the muscle memory. It's just like playing an instrument. And then you're gonna be able to do it on command. It's gonna become second-nature. And you just do that for your first three talks, for example, in English let's say, and then the fourth one you're gonna be like "Yeah, I've kind of got my way around this." But the first few times you need to rehearse.
 
@@ -348,7 +348,7 @@ Sometimes when I -- and I don't know if you have any tips for this... Sometimes 
 
 **Mat Ryer:** I thought I had that nailed.
 
-**L Körbes:** I mean, your jokes are medium, that's the problem. You can't have medium jokes. The thing is, if you do a really smart joke, half the people are not gonna get it, and some of the people will. So if you're gonna do a really smart joke, then just keep the same voice tone. Don't do the whole jokey thing. Just say the things, and people who get it are gonna laugh, people who don't get it - they're not gonna see anything.
+**L Körbes:** I mean, your jokes are medium, that's the problem. You can't have medium jokes. The thing is, if you do a really smart joke, half the people are not gonna get it, and some of the people will. So if you're gonna do a really smart joke, then just keep the same voice tone. Don't do the whole jokey thing. Just say the things, and people who get it are gonna laugh, people who don't get it - they're not gonna say anything.
 
 If you want everyone to be engaged with the joke, it needs to be a really bad, a really obvious joke, and you need to be kind of a clown about it...
 
@@ -420,7 +420,7 @@ One time I just wanna open it and be like "Huh!" And have an actual surprise. I 
 
 **Mat Ryer:** I do. Kris -- no, obviously not... I would say good things, if that happened... Kris, you were talking about your first talk, and stuff... It's interesting... Natalie, do you remember the first talk you gave, and what language it was in?
 
-**Natalie Pistunovich:** Yes, the first conference talk I ever gave was in GopherCon U.K.
+**Natalie Pistunovich:** Yes, the first conference talk I ever gave was at GopherCon U.K.
 
 **Mat Ryer:** When was that?
 
@@ -538,7 +538,7 @@ We're never gonna have a world where everyone speaks English, I think... But we 
 
 **Mat Ryer:** Oh yeah, in a pickle... Tell me an idiom from Brazil, L. Usually, they are funny. I work with David Hernandez, who's Spanish... He tells me Spanish ones all the time, and they're just kind of great when he translates them. Of course, it makes sense, for whatever reason historically... But just the direct translation just doesn't -- so I always like to learn more of them.
 
-**L Körbes:** Yeah, I can't remember on command like that.
+**L Körbes:** Yeah, I can't remember any on command like that.
 
 **Mat Ryer:** Oh, I'm sorry. It wasn't a command... It was a request.
 
