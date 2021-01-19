@@ -704,7 +704,7 @@ Okay, well this has been excellent. Unfortunately, time has moved ahead of the u
 
 **Mat Ryer:** Thanks, mate.
 
-**Natalie Pistunovich:** My unpopular opinion is that when you teach somebody how to write code, especially if it's in languages where you say that things should be very clear, like in Go, it's fine not to insist on good variable names and good documentation, because sometimes you don't fully understand what it does. You can always tell them "Just start" and then go back to it. You don't need the perfect title when you write something. Is that right, Kris?
+**Natalie Pistunovich:** My unpopular opinion is that when you teach somebody how to write code, especially if it's in languages where you say that things should be very clear, like in Go, it's fine not to insist on good variable names and good documentation, because sometimes you don't fully understand what it does. You can always tell them "Just start" and then go back to it. You don't need the perfect title when you write something. Right, Kris?
 
 **Kris Brandow:** Yeah. \[laughter\]
 
@@ -718,11 +718,11 @@ Okay, well this has been excellent. Unfortunately, time has moved ahead of the u
 
 **Natalie Pistunovich:** Hey, you said that last time. I will really have to work hard now for the next one.
 
-**Kris Brandow:** Oh, I think I have one that is probably unpopular now, but at least controversial... I think GOPATH was a very good thing, and I like it.
+**Kris Brandow:** Oh, I think I have one that is probably unpopular now, but at least controversial... I think $GOPATH was a very good thing, and I like it.
 
 **Mat Ryer:** Yeah, that one is gonna get an interesting reaction. I know what you mean... Yeah. It was weird, but once you knew it, it was very easy then, wasn't it?
 
-**Kris Brandow:** It's like I always knew where all my code was. I don't have to think about where to put it; I don't have modules, or this directory that's all a mish-mash of things, and I lose code all the time... It's like, there was something I really loved about GOPATH.
+**Kris Brandow:** It's like I always knew where all my code was. I didn't have to think about where to put it; I don't have to like, with modules I have like this directory that's all a mish-mash of things, and I lose code all the time... It's like, there was something I really loved about $GOPATH.
 
 **Mat Ryer:** We will test these on our Twitter account @GoTimeFM, so please follow along. L, do you have an unpopular opinion?
 
@@ -732,9 +732,9 @@ Okay, well this has been excellent. Unfortunately, time has moved ahead of the u
 
 **L Körbes:** And he also said it could not be about his hairline.
 
-**Mat Ryer:** Also true. I also said don't mention that last bit as well, but... \[unintelligible 01:05:40.01\]
+**Mat Ryer:** Also true. I also said don't mention that last bit as well, but two out of three ain't bad.
 
-**L Körbes:** Oh, you didn't say that; you just said it could not be about that.
+**L Körbes:** No, you didn't say that; you just said it could not be about that.
 
 **Mat Ryer:** Fair enough. Go on then.
 
