@@ -12,13 +12,13 @@
 
 **Erik St. Martin:** Why don't you go ahead and give everybody a little bit of background about yourself before we get started.
 
-**Katrina Owen:** I work as a developer advocate at GitHub on the open source team there. I do a lot of community stuff - I go to conferences, meet people, and a lot of open source work. I have a project named Exercism that I own, which is a platform for practicing programming in a number of different languages, including Go.
+**Katrina Owen:** I work as a developer advocate at GitHub on the open source team there. I do a lot of community stuff - I go to conferences, meet people, and a lot of open source work. I have a project named exercism.io, which is a platform for practicing programming in a number of different languages, including Go.
 
 **Erik St. Martin:** Yeah, Exercism has been taking off recently. I look probably like two weeks ago and was completely astonished by the number of languages that are supported there now.
 
 **Katrina Owen:** Yeah, we hit 32, which was kind of a big number - two times two, times two, times two, times two, I think... \[laughter\] We passed that a few weeks ago when we launched I believe MIPS Assembly, which was kind of cool.
 
-**Brian Ketelsen:** It is their big deband from MIPS Assembly?
+**Brian Ketelsen:** So is there big deband for MIPS Assembly?
 
 **Katrina Owen:** It turns out that Assembly language courses at universities often use a textbook that uses MIPS Assembly.
 
@@ -42,9 +42,9 @@
 
 **Erik St. Martin:** So let's actually step back for a second for anybody who's not familiar with Exercism.io. Do you wanna give a brief introduction to what that is, Kristina?
 
-**Katrina Owen:** Sure. It's basically a platform for practicing. It's different from a lot of other places where you do coding challenges and katas in that there is not competition; you're not competing with anyone, there's no leaderboard, there are no prizes or badges or anything like that. This is really about the day-to-day practice of getting better at the craft of programming, or it could be a very quick little amp up that you need when you're going to suddenly start a new project at work, in Scala, or Java or some other language, and you need to get into that language and get your head wrapped around the syntax of a language and the conventions of that language quickly, so that you can start producing code in a more complex environment.
+**Katrina Owen:** Sure. It's basically a platform for practicing. It's different from a lot of other places where you do coding challenges and katas in that there is not competition; you're not competing with anyone, there's no leaderboard, there are no prizes or badges or anything like that. This is really about the day-to-day practice of getting better at the craft of programming, or it could be a very quick little ramp up that you need when you're going to suddenly start a new project at work, in Scala, or Java or some other language, and you need to get into that language and get your head wrapped around the syntax of a language and the conventions of that language quickly, so that you can start producing code in a more complex environment.
 
-**Erik St. Martin:** \[00:04:24.25\] This is basically bite-sized problems to be solved that you submit and are reviewed by people who have more experience in the language, that kind of guide you through how you might do that.
+**Erik St. Martin:** \[00:04:24.25\] This is basically bite-sized problems to be solved that you submit and then are reviewed by people who have more experience in the language, that kind of guide you through how you might do that.
 
 **Katrina Owen:** Yeah.
 
@@ -72,7 +72,7 @@
 
 **Erik St. Martin:** I think there's some emotional side of it too, where somebody's trying to step out of their comfort zone and learn something new, and you want to support them in that and not beat them down on what feel like trivial things, too. But you commonly see that with people that are new to code review. They see something that they'd say something to a fellow programmer that they've worked with for years, but they don't wanna say it to somebody new, because they don't know how they're gonna take that.
 
-**Katrina Owen:** \[00:07:34.09\] Right, and that's part of the thing of being on the internet - you probably don't know the person, you don't know their learning style, you don't know why they're there learning Go... Maybe they're learning programming for the first time and Go just happens to be that language. Maybe the have been programming for 20 years and Go is just for fun, maybe they need Go desperately for a project... It's hard to know.
+**Katrina Owen:** \[00:07:34.09\] Right, and that's part of the thing of being on the internet - you probably don't know the person, you don't know their learning style, you don't know why they're there learning Go... Maybe they're learning programming for the first time and Go just happens to be that language. Maybe they have been programming for 20 years and Go is just for fun, maybe they need Go desperately for a project... It's hard to know.
 
 **Carlisia Thompson:** But there is also the positive reinforcement type of feedback, and there is a lot of that on Exercism. Regarding comments, I heard the Request For Commits episode number four, which is about building successful open source communities, and the guy said "Well, I have this community, I've built it, and one day I went on vacation and I came back and I saw people commenting using my voice." On Exercism, because Katrina comments on things and her style is a very solid, professional way of commenting, very kind... You definitely notice it's a good comment, if you are not familiar with code review. So you also notice people using her voice on their comments, and I thought that was so amazing; it totally blew my mind when I started noticing that.
 
@@ -92,7 +92,7 @@
 
 So if I reviewed your code, I may have a ton of things to say about your code, but if I was presented with the problem without ever seeing anybody else's solution, I may have suffered from the same things, right? So I think having that empathy and keeping that frame of mind that this evolves as somebody's understanding of the problem evolves, and you weren't there for all of the small decisions along the line that lead to this. You're looking at it as a completed product, and thinking "How can I make this better?"
 
-**Katrina Owen:** \[00:11:57.05\] And especially when you're learning a new language, you're not familiar with the standard library functions and the packages, you're not familiar with scoping works or constants work, so you'll often see a lot of flaring around as people try to figure out how to even get the syntax right. Then once it compiles, it's like "Oh, it work. Wonderful!" \[unintelligible 00:12:22.16\] and then it turns out that you've done all this extra stuff that turns out to just be noise. Once you start understanding the underlying implementation and the underlying language syntax, you can start simplifying and removing some of the complexity, and you need human feedback for that.
+**Katrina Owen:** \[00:11:57.05\] And especially when you're learning a new language, you're not familiar with the standard library functions and the packages, you're not familiar with how scoping works or constants work, so you'll often see a lot of flaring around as people try to figure out how to even get the syntax right. Then once it compiles, it's like "Oh, it work. Wonderful!" \[unintelligible 00:12:22.16\] and then it turns out that you've done all this extra stuff that turns out to just be noise. Once you start understanding the underlying implementation and the underlying language syntax, you can start simplifying and removing some of the complexity, and you need human feedback for that.
 
 **Erik St. Martin:** I think that's a fair point. And even with refactoring... Refactoring is its own skill set. There's people who can look at this and they're like "Oh yeah, I just have to check this one method and do this", but it's a whole new world that most people aren't presented with.
 
@@ -120,7 +120,7 @@ Whenever I talk about this in public, I forget to mention that part, so it looks
 
 **Katrina Owen:** I don't think it's either, I think it's just the style.
 
-**Carlisia Thompson:** I think I'm less reckless at this point in Go than I ever was in Ruby, even after a few years of doing Ruby, because of two things. One, the syntax is so short, it's so easy to memorize what you have to do. And two, although you haven't memorized it yet, the compiler is giving you feedback, so you're kind of seeing what the errors. And again, going back to the first point, there are just so few errors that you memorize them quickly. So pretty much I don't get a whole lot of compiler errors because I know what to do with the syntax.
+**Carlisia Thompson:** I think I'm less reckless at this point in Go than I ever was in Ruby, even after a few years of doing Ruby, because of two things. One, the syntax is so short, it's so easy to memorize what you have to do. And two, although you haven't memorized it yet, the compiler is giving you feedback, so you're kind of seeing what the errors are and again, going back to the first point, there are just so few errors that you memorize them quickly. So pretty much I don't get a whole lot of compiler errors because I know what to do with the syntax.
 
 **Katrina Owen:** I wonder if 'reckless' is the wrong word here, because with Go I trust that the compiler is going to tell me about every single mistake. So if I do some complicated rename or start working on changing a type, I know that the compiler is going to tell me about every single location where I have to make that change. In Ruby there was nothing that was gonna tell me everything, and I couldn't trust that my tests had all the changes, so I had to tread my way much more carefully. In Go I think I just feel safer with the compiler at my back.
 
@@ -148,7 +148,7 @@ I have a little bot that does some linting and a little bit of static analysis i
 
 **Break:** \[00:20:04.22\]
 
-**Erik St. Martin:** Okay, so we were talking about Exercism. The other thing you recently did was the GopherCon talk, which blew many of our minds. I think you really were able to capture and put into words what a lot of us feel about breaking into the language, that we're too close to the problem sometimes because already have history there and we don't really think about... Like, I loved your graph analogy. That talk was probably one of the favorites there. I know a lot of people felt really close to it.
+**Erik St. Martin:** Okay, so we were talking about Exercism. The other thing you recently did was the GopherCon talk, which blew many of our minds. I think you really were able to capture and put into words what a lot of us feel about breaking into the language, that we're too close to the problem sometimes because we already have history there and we don't really think about... Like, I loved your graph analogy. That talk was probably one of the favorites there. I know a lot of people felt really close to it.
 
 **Brian Ketelsen:** That was an amazing talk.
 
@@ -156,7 +156,7 @@ I have a little bot that does some linting and a little bit of static analysis i
 
 **Erik St. Martin:** I don't know, I think you looked like a master up on the stage.
 
-**Brian Ketelsen:** Not only did it resonate with almost everybody in the audience personally, but it was one of the best delivered talks and most compelling side decks, too. It was the total package: it was a great message, it was a great delivery, and a beautiful slide deck. First time I've seen a presentation where there was very little text on the screen, but instead images that were emotionally evocative towards the points that you were trying to make, and I thought that that was a very strong artistic use of slides. It drove home for me how much visually you can impact a presentation without words. I was really, truly impressed with the whole thing.
+**Brian Ketelsen:** Not only did it resonate with almost everybody in the audience personally, but it was one of the best delivered talks and most compelling slide decks, too. It was the total package: it was a great message, it was a great delivery, and a beautiful slide deck. First time I've seen a presentation where there was very little text on the screen, but instead images that were emotionally evocative towards the points that you were trying to make, and I thought that that was a very strong artistic use of slides. It drove home for me how much visually you can impact a presentation without words. I was really, truly impressed with the whole thing.
 
 **Katrina Owen:** Thank you.
 
@@ -186,7 +186,7 @@ I have a little bot that does some linting and a little bit of static analysis i
 
 **Katrina Owen:** \[00:28:07.05\] What's a text editor? \[laughs\]
 
-**Erik St. Martin:** Yeah. Now I need to store stuff in the database, now I need to learn SQL. You get hit with this, and it's easy to us to talk to friends or family or somebody who's interested in it, and be like "Oh yeah, all you gotta do is learn HTML and CSS and a little bit of JavaScript. From there, pick a backend language and a database..." Then they're sitting here trying to figure out how tot get their web page showing up in a web server, and they feel inadequate and that it just takes natural ability. We forget that we learned all of these things in small wins, a little bit at a time.
+**Erik St. Martin:** Yeah. Now I need to store stuff in the database, now I need to learn SQL. You get hit with this, and it's easy for us to talk to friends or family or somebody who's interested in it, and be like "Oh yeah, all you gotta do is learn HTML and CSS and a little bit of JavaScript. From there, pick a backend language and a database..." Then they're sitting here trying to figure out how tot get their web page showing up in a web server, and they feel inadequate and that it just takes natural ability. We forget that we learned all of these things in small wins, a little bit at a time.
 
 **Katrina Owen:** Yeah, we weren't born knowing it either. We should \[unintelligible 00:28:49.19\] sometimes, I think.
 
@@ -212,7 +212,7 @@ I have a little bot that does some linting and a little bit of static analysis i
 
 **Katrina Owen:** \[00:32:13.13\] Yeah, that's not very friendly towards newbies who learn to program for the first time.
 
-**Erik St. Martin:** Yeah, I think a little bit of Linux knowledge... At least being able to SSH and understanding what SSH is. In this day and age, security is a big thing, so understanding a little bit about how firewalls work, cross-site scripting... You can't think about too much of it at once, that's the problem. I wish there was like a steps things, because that's always the hardest part I find. I could write down all the things you need to learn to write a production site, but what order to approach those? Because it feels like circular dependencies.
+**Erik St. Martin:** Yeah, I think a little bit of Linux knowledge... At least being able to SSH and understanding what SSH is. In this day and age, security is a big thing, so understanding a little bit about how firewalls work, cross-site scripting... You can't think about too much of it at once, that's the problem. I wish there was like a steps thing, because that's always the hardest part I find. I could write down all the things you need to learn to write a production site, but what order to approach those? Because it feels like circular dependencies.
 
 **Katrina Owen:** It's easy to make small adjustments for syntax and for standard library stuff, but it really isn't easy to figure out which order to teach those. Like you were saying, DNS and SSH, networking, debugging, troubleshooting...
 
@@ -252,7 +252,7 @@ I have a little bot that does some linting and a little bit of static analysis i
 
 **Katrina Owen:** Yeah, I'm always making assumptions.
 
-**Brian Ketelsen:** And then I go foolish.
+**Brian Ketelsen:** And then I feel foolish.
 
 **Katrina Owen:** Yeah, because we are all foolish; let's just be honest here.
 
@@ -314,7 +314,7 @@ It was really cool thinking about that, where you have this highly nested data w
 
 Then for the ones that don't have responsive maintainers, I can spend more time. I can filter that into something that I check every day and make sure that I give the feedback that needs to be given on a regular basis, and much more aggressively. The other thing is for a repository where someone is giving feedback and they don't have commit, it would allow me to find people who probably should have commit on that repository, or they're doing the work of a maintainer but they haven't been recognized as such yet.
 
-I had a working prototype where I was sucking down the data, but I was using the old APIs, not the GraphQL APIs, so it wouldn't work to get me all the \[unintelligible 00:46:05.20\]
+I had a working prototype where I was sucking down the data, but I was using the old APIs, not the GraphQL APIs, so it wouldn't work to get me all the..It wouldn't scale.
 
 **Carlisia Thompson:** Besides the use cases that you just gave us for the maintainer, for the consumer of the project, I think it would be super awesome. Every time I run into a project that I'm considering, unless it's a super well-established and well-known project, there is a checklist of things that I do. I go through the issues list, I see if there are issues abandoned, I see if there are PRs abandoned, or I see people commenting, I see if PRs are being closed, I see how many issues and how many PRs are open... Of course, if it's an active project there can be a ton of PRs open, but they are being cycled through quickly, that's fine; if things are stale... I wanna know those things, and I do them manually. So that would be so awesome, if we could have that.
 
@@ -332,7 +332,7 @@ I had a working prototype where I was sucking down the data, but I was using the
 
 **Katrina Owen:** There's a really good question in the chat right now: what if the project is run by someone who closes the issue instantly and dismisses them? That's really not healthy behavior at all, and I don't know if we could surface that with the data. Are they also giving a response when they close it? If all of the issues are closed within... There's a difference between responding to an issue and closing an issue. I don't know, it's definitely something that is very interesting to look into.
 
-**Erik St. Martin:** Yeah, because I think there's a lot of factors that go into that too, right? Maybe they're quick fixes that require commits, maybe it's a duplicate of other issues... There's probably somebody who's better at math than I that can figure out some insights into whether it's unhealthy closing of issues, or maybe they can do some text analysis on it, sentiment analysis on the text and determine if they're closing them with very negative comments all the time.
+**Erik St. Martin:** Yeah, because I think there's a lot of factors that go into that too, right? Maybe they're quick fixes that require commits, maybe it's a duplicate of other issues... There's probably somebody who's better at math than I that can figure out some insights into whether it's unhealthy closing of issues, or maybe they can do some text analysis on it, do sentiment analysis on the text and determine if they're closing them with very negative comments all the time.
 
 **Katrina Owen:** Yeah, so thanks for the question, Florian; the question was mentioned in the GoTime FM Slack channel.
 
@@ -430,9 +430,9 @@ Also, if you run your code and you have errors, there will be an indication in t
 
 **Erik St. Martin:** Our first episode in mid-2018, we will talk about what you did with it. \[laughter\]
 
-**Brian Ketelsen:** \[00:59:45.07\] So maybe that's a good segue into \#FreeSoftwareFriday. \[laughter\] Familiar listeners will know that we love to shout out to open source projects and maintainers, and just let them that we care, we love them, we love the work they do and we appreciate their projects, so I will start out today with something that's probably a little bit cheesy, but dammit, I love Go, and I've spent so much time this last week or two building a lot of tooling for my training classes, and I just don't think there's a way in the world I could have done it without Go.
+**Brian Ketelsen:** \[00:59:45.07\] So maybe that's a good segue into \#FreeSoftwareFriday. \[laughter\] Familiar listeners will know that we love to shout out to open source projects and maintainers, and just let them know that we care, we love them, we love the work they do and we appreciate their projects, so I will start out today with something that's probably a little bit cheesy, but dammit, I love Go, and I've spent so much time this last week or two building a lot of tooling for my training classes, and I just don't think there's a way in the world I could have done it without Go.
 
-A couple hundred lines of code and I've got a fully automated solution to bring new students online, on a server, with a Go environment and a web IDE with two clicks. It's just amazing. I love Go. Thank you, Go. Thank you, Go Team, thank you everybody who's contributed to go. Big hearts everywhere.
+A couple hundred lines of code and I've got a fully automated solution to bring new students online, on a server, with a Go environment and a web IDE with two clicks. It's just amazing. I love Go. Thank you, Go. Thank you, Go Team, thank you everybody who's contributed to Go. Big hearts everywhere.
 
 **Carlisia Thompson:** And you have a pretty cool course to teach people how to do that, right?
 
@@ -494,7 +494,7 @@ A couple hundred lines of code and I've got a fully automated solution to bring 
 
 **Erik St. Martin:** Agreed.
 
-**Brian Ketelsen:** It's funny, because I think we talked about this an episode or two ago... In the Rubby world, where testing was religious, I didn't like writing tests and I didn't write a lot of tests. Now in Go I very frequently do TDD and I test everything, and it's strange... And I have that compiler backing me up too, I don't know. It's strange.
+**Brian Ketelsen:** It's funny, because I think we talked about this an episode or two ago... In the Ruby world, where testing was religious, I didn't like writing tests and I didn't write a lot of tests. Now in Go I very frequently do TDD and I test everything, and it's strange... And I have that compiler backing me up too, I don't know. It's strange.
 
 **Katrina Owen:** \[01:08:05.12\] In Ruby a lot of the tests were so slow that it was just painful. In Go the tests are much quicker.
 
@@ -538,7 +538,7 @@ A couple hundred lines of code and I've got a fully automated solution to bring 
 
 **Erik St. Martin:** Alright, I don't wanna blindside you here Katrina, but did you have anybody you wanted to give a shout out to?
 
-**Katrina Owen:** \[01:12:02.09\] I do. I would love to the Hoodie team. They are an open source project who... So this is someone who knows how to do community. They have possibly the healthiest open source community and healthiest open source project that I have ever seen in my whole life, and I aspire to basically become them, if I can, when I grow up. A lot of communities struggle with things like communication, triage, issues and prioritization and documentation, and the Hoodie team has built tools around the entire onboarding process to become a contributor, to mentor contributors, and they value the whole contributions equally; it's not like your measuring who gets commits into master. They help build out the tools so that it's clear that they value mentorship, value documentation and value triage and project management.
+**Katrina Owen:** \[01:12:02.09\] I do. I would love to give a shout out to the Hoodie team. They are an open source project who... So this is someone who knows how to do community. They have possibly the healthiest open source community and healthiest open source project that I have ever seen in my whole life, and I aspire to basically become them, if I can, when I grow up. A lot of communities struggle with things like communication, triage, issues and prioritization and documentation, and the Hoodie team has built tools around the entire onboarding process to become a contributor, to mentor contributors, and they value the whole contributions equally; it's not like your measuring who gets commits into master. They help build out the tools so that it's clear that they value mentorship, value documentation and value triage and project management.
 
 I think that what they've done with their communities is absolutely amazing. One of their team members was on another Changelog episode not too long ago, Jan Lehnardt. He was on the Request for Commits episode \#4, talking about building healthy communities. Absolutely worth a listen.
 
