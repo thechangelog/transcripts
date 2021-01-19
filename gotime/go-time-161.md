@@ -94,7 +94,7 @@ And we do have a prize, by the way... You will win, whoever wins this, a Raspber
 
 **Mark Bates:** I'm not that good at that either... Go on.
 
-**Mat Ryer:** \[00:08:06.00\] Groups Who Go - the answers are groups from around the world, groups of Gophers. That's a cool one. And we've got Pike's Proverbs, where you are gonna be asked to fill in the blanks from Rob Pike's proverbs.
+**Mat Ryer:** \[00:08:06.00\] Groups Who Go - the answers are groups from around the world, groups of Gophers. That's a cool one. And we've got Pike's Proverbs, where you are gonna be asked to fill in the blanks from Rob Pike's Go proverbs.
 
 Okay, now we know the categories... Kat, would you like to pick your first square, please?
 
