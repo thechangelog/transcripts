@@ -14,7 +14,7 @@
 
 **Aaron Schlesinger:** Yeah, sure. I've been writing Go for just about three and a half years now, at a variety of different places and on my own. It kind of just started as a hobby project. I was coming from Scala, which was kind of a mess at the time, and I was looking for simpler tools to start out. So I came to Go, kind of fell in love with the community... The first kind of big discovery was how easy concurrency was, and that's what really kind of poked me.
 
-Then I moved to a couple different companies, all writing Go. I finally landed at Deis. Through that whole process, just participating in the community in different ways... When I first started Go In 5 Minutes, I saw there was a little bit of lack of intermediate and advanced content for Go, so I wanted to combine some intermediate/advanced material with a super simple format, so I focused on these short, 5-minute screencasts to start out. Then it just grew from there.
+Then I moved to a couple different companies, all writing Go. I finally landed at Deis. I am kind of through that whole process, just participating in the community in different ways... When I first started Go In 5 Minutes, I saw there was a little bit of lack of intermediate and advanced content for Go, so I wanted to combine some intermediate/advanced material with a super simple format, so I focused on these short, 5-minute screencasts to start out. Then it just grew from there.
 
 I started writing a blog alongside of the screencasts, did some longer screencasts... I think the longest one I did was like an hour. So I've just kind of been capturing all my thoughts, all my experiences, all my input that I'd gotten from people and the community... Just kind of trying to give back to the community in any way I can, through this medium of Go In 5 Minutes.
 
@@ -22,11 +22,11 @@ I started writing a blog alongside of the screencasts, did some longer screencas
 
 **Erik St. Martin:** Now, talk to us a little bit about what the content is there. Is there a set structure where you're building on top of previous episodes, or is this more based on user feedback, questions you see around the web, and answering it in the form of video?
 
-**Aaron Schlesinger:** Yeah, it's kind of both. I have my repo on GitHub, basically it's just all the issues or requests for screencasts. There's a couple in there to remind me to fix the site, or something, but almost all of it, the vast majority is people asking about, "Can I get a screencast on how to use the SQL package?" or how to do some specific thing with Net::HTTP and what have you. So about half of the screencasts are in response to those, and the other half are just things that I've seen that might be underutilized or new, or something like that, and I just try and distill it down into that 5-minute format.
+**Aaron Schlesinger:** Yeah, it's kind of both. I have my repo on GitHub, basically it's just all the issues or requests for screencasts. There's a couple in there to remind me to fix the site, or something, but almost all of it, the vast majority is people asking about, "Can I get a screencast on how to use the SQL package?" or how to do some specific thing with net/http and what have you. So about half of the screencasts are in response to those, and the other half are just things that I've seen that might be underutilized or new, or something like that, and I just try and distill it down into that 5-minute format.
 
 \[00:03:49.20\] I try to make sure that each screencast has no prior dependencies. Some of the screencasts will be like, "If you have seen this screencast, it will help you, but you don't need it." But most of them are just like, you start at minute one and it takes you all the way through to the end. My goal is by the end you at least know the basic building blocks for how to get something done. Then, if you want to go into more detail, I put on the site the equivalent of the show notes - links to good blog posts and good documentation and so forth, for people who wanna dive a little deeper.
 
-**Erik St. Martin:** I think this is really interesting. It's kind of along the same lines of the posts that Ben Johnson has been doing, kind of giving people little stuff to chew on for Net::HTTP or things like that, introducing people more to the standard library. I'm seeing that more and more as kind of like a pattern where you're exposing people to these things they might not be familiar with.
+**Erik St. Martin:** I think this is really interesting. It's kind of along the same lines of the posts that Ben Johnson has been doing, kind of giving people little stuff to chew on for net/http or things like that, introducing people more to the standard library. I'm seeing that more and more as kind of like a pattern where you're exposing people to these things they might not be familiar with.
 
 I think that's building on kind of where we're at with the language too, because a lot of people are starting to get the syntax down, but now it's kind of idioms and learning their way around the standard library.
 
@@ -36,7 +36,7 @@ I think that's building on kind of where we're at with the language too, because
 
 **Aaron Schlesinger:** Yeah, me too.
 
-**Erik St. Martin:** What I tend to do is I tend to be familiar with at least a base package, like "I'm gonna be doing something with bytes." Then, whenever I'm trying to do something new with it, I try to explore around and see what else is there, and be like "What is this?" Or like the io TeeReader; you start tinkering with it and coming up with use cases.
+**Erik St. Martin:** What I tend to do is I tend to be familiar with at least a base package, like "I'm gonna be doing something with bytes." Then, whenever I'm trying to do something new with it, I try to explore around and see what else is there, and be like "What is this?" Or like the io.TeeReader; you start tinkering with it and coming up with use cases.
 
 **Aaron Schlesinger:** Yeah, I think that's the hard part - imagining the use case before you've actually used it. And I feel like even still, there's kind of this chicken and egg, where if the community can't really nail down use cases, then the thing is not gonna be used, so use cases won't get developed out of the thing. So it's kind of like someone or some group has to come in and say, "Hey, this is a way to use TeeReader. Go try it in your code some time and see how it works, and develop it out from there."
 
@@ -88,9 +88,9 @@ I think that there's not just one builder pattern now in Go. I think that there'
 
 **Erik St. Martin:** Yeah, and I think we can look through the standard library and we could find examples of maybe like the visitor pattern... I think the hash sorting is done in a visitor pattern if I recall. We can find examples of that, but I don't think we necessarily have to bring everything over. I think as they apply we leverage them, and we benefit from features of the language that allow us to do things in a simpler way than some of these patterns were implemented. Because all of these things, especially a lot of the patterns are based off Java, which has its own set of features, things that Go does not have, and then also things that Go has that Java does not.
 
-So I think we look at our own problems differently, and I'm interested to see how we evolve with our own patterns, and we start to see some of these little idioms that people use, little tricks that are continuing to become commonplace in some of the more common libraries. I think if you look at most large projects in Go right now, varies so much. We haven't converged on patterns in Go, that are specific to some of these larger use cases. Because you look through the Docker codebase or the Kubernetes codebase - things are very different between the two of them.
+So I think we look at our own problems differently, and I'm interested to see how we evolve with our own patterns, and we start to see some of these little idioms that people use, little tricks that are continuing to become commonplace in some of the more common libraries. I think if you look at most large projects in Go right now, it varies so much. We haven't converged on patterns in Go, that are specific to some of these larger use cases. Because you look through the Docker codebase or the Kubernetes codebase - things are very different between the two of them.
 
-**Brian Ketelsen:** Yeah.
+**Aaron Schlesinger:** Yeah.
 
 **Carlisia Thompson:** I think one downfall of design patterns, especially if you're doing something you don't have a ton of experience with and you set yourself to use a design pattern, is that let's say you're going to use a specific one and you might wanna do something that's a little bit out of that pattern, but then you wouldn't totally conform to the pattern and you make the choice to use the pattern, as opposed to doing the right thing for your code. That's a problem. If you don't have a lot of confidence, you don't have the experience with what you're working with, you might end up making that kind of choice. I think it's problematic when people do that. But if you keep it flexible, I think there's a lot to gain to at least know what design patterns you can use, because it can be very helpful in organizing your code, and also increasing the clarity of what you're doing, and then it's easy to communicate what it is that you're doing to other people.
 
@@ -130,11 +130,11 @@ So I know we volleyed back and forth a little bit on benefits and drawbacks, and
 
 **Erik St. Martin:** Excellent! So you mentioned that you worked at Deis. I'd love to talk to you a bit about the work that you guys are doing there; there's some really interesting contributions you guys are making to Kubernetes, Helm and things like that. So I'd love to hear about work that you're doing there, and maybe how Go is advantageous to you guys there. Aside from the fact that Kubernetes is written in Go, so if you wanna contribute, you're kind of forced to... \[laughter\]
 
-**Aaron Schlesinger:** When I first got to Deis, I worked on the PaaS. It's now called Deis Worflow, but at that point it was just Deis. It was basically trying to be a Heroku for Kubernetes - open source, you can go and install it on Kubernetes. Then right before I got there, Helm had kind of become a thing, but it looked super different from what it looks like now. It was just kind of like, "How do we get people to easily install the PaaS?" Because at that time there were seven or eight different components, and you could use most of those components on their own too, if you wanted to.
+**Aaron Schlesinger:** When I first got to Deis, I worked on the PaaS. It's now called Deis Workflow, but at that point it was just Deis. It was basically trying to be a Heroku for Kubernetes - open source, you can go and install it on Kubernetes. Then right before I got there, Helm had kind of become a thing, but it looked super different from what it looks like now. It was just kind of like, "How do we get people to easily install the PaaS?" Because at that time there were seven or eight different components, and you could use most of those components on their own too, if you wanted to.
 
 So it was kind of like this plug-and-play thing where if you wanna use your own logging you can, but we'll also ship you components that can do most of the logging stuff that you'll need. Then there is the router, the routing mesh - you could use that on your own, and it would fit into the PaaS.
 
-Helm popped up because we wanted to give that flexibility to people without writing a thousand page document with specifications for each module, and having sample manifest and all that stuff. So Go came into play big time with the PaaS, because we had to do things like watch the Kubernetes event stream, see when a pod comes up and see the status of the pod.
+Helm popped up because we wanted to give that flexibility to people without writing a thousand page document with specifications for each module, and having sample manifest and all that stuff. So Go came into play big time with the PaaS, because we had to do things like watch the Kubernetes event stream, see when a pod comes up and see the exit status of the pod.
 
 When you're watching an even stream that screams concurrency, once it screams concurrency, then I just pick up Go. It's just the easiest thing for me, by far. Before we picked up Go there was some Python... Actually, there was some Go before I came to Deis, and then there was some shell script. The shell script component was what I first worked on. That was the thing that we had to watch the event stream in. We started with a four-loop in a shell script.
 
@@ -146,7 +146,7 @@ We still have some old stuff in Python and it's working great. Our API server is
 
 The Go choice there has been super helpful, because just by virtue of its simplicity and its concurrency support. Looking back, I kind of think "Why didn't we move sooner to Go?" because it saved us so much strife.
 
-**Erik St. Martin:** I have a curiosity... All your watches and stuff like that for the event stream - are you using the Kubernetes client library, or did you just write an HTTP wrapper in Go?
+**Erik St. Martin:** Out of curiosity... All your watchers and stuff like that for the event stream - are you using the Kubernetes client library, or did you just write an HTTP wrapper in Go?
 
 **Aaron Schlesinger:** We are almost exclusively using the client library. I actually just saw today that they split up the client library and they're starting to pull out pieces to a new repo.
 
@@ -184,15 +184,15 @@ The Go choice there has been super helpful, because just by virtue of its simpli
 
 **Erik St. Martin:** ...generated code...
 
-**Aaron Schlesinger:** Yeah, generated code, there's some protobuffs-generated stuff in there, there is a swagger spec which I think generated some code at one point, and then they didn't generate it again, and started just building on top of the generated code. Looking at this massive codebase, you can jump to definition essentially and see the whole world of Go code styles in one repo. It's really amazing.
+**Aaron Schlesinger:** Yeah, generated code, there's some protobufs-generated stuff in there, there is a swagger spec which I think generated some code at one point, and then they didn't generate it again, and started just building on top of the generated code. Looking at this massive codebase, you can jump to definition essentially and see the whole world of Go code styles in one repo. It's really amazing.
 
 **Brian Ketelsen:** Absolutely.
 
-**Erik St. Martin:** Yeah, I'd have to agree. From file to file, things kind of... There's not a whole lot of consistency. In certain areas there's consistency; you can tell certain groups of people work in different areas, but if you're bouncing around the repository, you can definitely see the style changes. I think that will all converge over time, right? And I always mix up these two books - either Bob Martin's Lean Code book, or The Pragmatic Programmer, but they kind of lead to the boy scout rule, which is always leave the campsite a little cleaner than you found it.
+**Erik St. Martin:** Yeah, I'd have to agree. From file to file, things kind of... There's not a whole lot of consistency. In certain areas there's consistency; you can tell certain groups of people work in different areas, but if you're bouncing around the repository, you can definitely see the style changes. I think that will all converge over time, right? And I always mix up these two books - either Bob Martin's Clean Code book, or The Pragmatic Programmer, but they kind of lead to the boy scout rule, which is always leave the campsite a little cleaner than you found it.
 
 As long as people are continuously refactoring a little bit to make more idiomatic Go out of these areas they touch, it's slowly going to evolve into that. But yeah, you can definitely see Java patterns in there.
 
-**Brian Ketelsen:** Yeah, absolutely.
+**Aaron Schlesinger:** Yeah, absolutely.
 
 **Erik St. Martin:** So, does everybody wanna talk about any news and projects that have been going on?
 
@@ -330,7 +330,7 @@ Alright, so I think we are about out of time... Oh, the other thing - anybody wh
 
 **Brian Ketelsen:** Yeah, that was a really great talk.
 
-**Aaron Schlesinger:** I loved that. That was so cool. If I'm not mistaken, I think Jessie Frazelle started a repo that implemented this proof of concept where could build a containerized version of its own binary.
+**Aaron Schlesinger:** I loved that. That was so cool. If I'm not mistaken, I think Jessie Frazelle started a repo that implemented this proof of concept where Go could build a containerized version of its own binary.
 
 **Brian Ketelsen:** Wow...
 
@@ -452,7 +452,7 @@ Anything else anybody wants to talk about? We can start getting into some \#Free
 
 **Brian Ketelsen:** I still think it's true.
 
-**Aaron Schlesinger:** It is!
+**Aaron Schlesinger:** He is!
 
 **Brian Ketelsen:** Yeah, he's awesome.
 
