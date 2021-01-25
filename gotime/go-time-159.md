@@ -152,15 +152,15 @@ So the VS Code team - they tried to standardize the interaction between debugger
 
 **Mat Ryer:** Yeah, it's alright. \[laughter\] I was gonna ask, what is your talk about, on Friday?
 
-**Grant Seltzer Richman:** My talk is about tracing Go programs with EBPF. EBPF has been talked about a lot at various different conferences for the past 2-3 years, it's been getting a lot of momentum... And it's a feature of the Linux kernel, so it's certainly Linux-specific... But what it allows you to do is add ad-hoc app logic to the Linux kernel. And I know that's very abstract, but the way that it's often put - Brendan Gregg, a leader in the EBPF space likes to put it as "EBPF does to the Linux kernel what JavaScript does to HTML."
+**Grant Seltzer Richman:** My talk is about tracing Go programs with eBPF. eBPF has been talked about a lot at various different conferences for the past 2-3 years, it's been getting a lot of momentum... And it's a feature of the Linux kernel, so it's certainly Linux-specific... But what it allows you to do is add ad-hoc app logic to the Linux kernel. And I know that's very abstract, but the way that it's often put - Brendan Gregg, a leader in the eBPF space likes to put it as "eBPF does to the Linux kernel what JavaScript does to HTML."
 
-\[00:24:05.01\] So you can attach EBPF programs, you can think of them as scripts, and attach them to various hooks, such as to network sockets every time a packet comes in, and have some logic. Or to kernel probes, every time source code is executed within the Linux kernel itself.
+\[00:24:05.01\] So you can attach eBPF programs, you can think of them as scripts, and attach them to various hooks, such as to network sockets every time a packet comes in, and have some logic. Or to kernel probes, every time source code is executed within the Linux kernel itself.
 
-In particular, what my talk is about is attaching EBPF programs to something called uprobes. Uprobes attach to what essentially is source code symbols. So if you have a Go program that has a function called test function, you can attach a uprobe to that, and attach an EBPF program to that uprobe, so that every time a process executes that function - so if you run that program and it's a running service, or whatever else, you could have essentially a script respond to that function every time it's called; so you could print out what the arguments are, you could have some logic for inspecting another area of memory, and it's useful for debugging, for monitoring, potentially for fuzzing or fault injection as well.
+In particular, what my talk is about is attaching eBPF programs to something called uprobes. Uprobes attach to what essentially is source code symbols. So if you have a Go program that has a function called test function, you can attach a uprobe to that, and attach an eBPF program to that uprobe, so that every time a process executes that function - so if you run that program and it's a running service, or whatever else, you could have essentially a script respond to that function every time it's called; so you could print out what the arguments are, you could have some logic for inspecting another area of memory, and it's useful for debugging, for monitoring, potentially for fuzzing or fault injection as well.
 
 **Mat Ryer:** So does the original function still run, and you're just sort of intercepting it? Or do you replace it?
 
-**Grant Seltzer Richman:** That's a really good question. So it does still run... It doesn't stop the program from running at all; it doesn't affect the process. It runs in its own virtual machine inside the Linux kernel, actually. So the difference between where -- I guess there's a lot of difference in terms of the underlying technology, but the advantage to EBPF, which I guess could also be seen as a disadvantage compared to debuggers, is that it's not stopping the program. It's not attaching to the process. You can have a running program that is completely unaware of the fact that it's being inspected via EBPF.
+**Grant Seltzer Richman:** That's a really good question. So it does still run... It doesn't stop the program from running at all; it doesn't affect the process. It runs in its own virtual machine inside the Linux kernel, actually. So the difference between where -- I guess there's a lot of difference in terms of the underlying technology, but the advantage to eBPF, which I guess could also be seen as a disadvantage compared to debuggers, is that it's not stopping the program. It's not attaching to the process. You can have a running program that is completely unaware of the fact that it's being inspected via eBPF.
 
 **Mat Ryer:** Because you're doing it down at the low-levels of the operating system, I guess.
 
@@ -174,15 +174,15 @@ So the application there is, you know, for debugging purposes, let's say you wan
 
 It's also useful for -- not that I'm saying that this is the greatest idea; it's still a developing ecosystem, but you could attach these two services running in production, because it has such a minimal effect on the performance of the service. And you could attach it to running programs, as well.
 
-**Mat Ryer:** \[00:28:01.00\] That is really interesting. Can you interact -- I guess you can't change things in these little EBPF programs, can you?
+**Mat Ryer:** \[00:28:01.00\] That is really interesting. Can you interact -- I guess you can't change things in these little eBPF programs, can you?
 
-**Grant Seltzer Richman:** I have a little example of how you can, actually, in my talk. There's a really good talk that was given at some security conference (I can link it later) of how you can write essentially malicious code with EBPF... But even for non-malicious purposes, you could actually write to memory from EBPF. So you can change the value of parameters, which I do in my talk.
+**Grant Seltzer Richman:** I have a little example of how you can, actually, in my talk. There's a really good talk that was given at some security conference (I can link it later) of how you can write essentially malicious code with eBPF... But even for non-malicious purposes, you could actually write to memory from eBPF. So you can change the value of parameters, which I do in my talk.
 
 **Mat Ryer:** Wow. And would you recommend that, or not sure yet?
 
-**Grant Seltzer Richman:** I think it has its use cases if you are trying to do let's say something like fault injection, where you have processes that are communicating with one another, and you have a function that is pulling in from another endpoint... And if you don't wanna have that external dependency, you could have an EBPF program that writes some garbled data to a particular function and see how your program reacts to it.
+**Grant Seltzer Richman:** I think it has its use cases if you are trying to do let's say something like fault injection, where you have processes that are communicating with one another, and you have a function that is pulling in from another endpoint... And if you don't wanna have that external dependency, you could have an eBPF program that writes some garbled data to a particular function and see how your program reacts to it.
 
-You could also, if you have a compiled and running service, and you wanna see if a particular fix to your source code will fix the issue - you can insert a small EBPF program that writes correct data... You know, if it was getting incorrect data and if that fixes your whole issue, you know that's the symptom of it. But I guess it depends on a case-by-case basis. Certainly not in production, I'll say that.
+You could also, if you have a compiled and running service, and you wanna see if a particular fix to your source code will fix the issue - you can insert a small eBPF program that writes correct data... You know, if it was getting incorrect data and if that fixes your whole issue, you know that's the symptom of it. But I guess it depends on a case-by-case basis. Certainly not in production, I'll say that.
 
 **Mat Ryer:** So these scripts - what language are they? Does it have its own little language? Is it something that would be familiar to us?
 
@@ -190,7 +190,7 @@ You could also, if you have a compiled and running service, and you wanna see if
 
 **Mat Ryer:** Nice. It's a really interesting thing. What's next before we can start using that kind of technique? Because it feels like it's quite a new thing on the scene. Has it been around? Where does it come from?
 
-**Grant Seltzer Richman:** The original technology of it I think was -- I don't even wanna guess... Early 2000s. It used to be strictly for network packet processing. But I would say it's been within the past two years or so that the ecosystem has really developed. There's a group of startups -- I know Facebook does a lot of EBPF stuff, and they've contributed to the community quite a bit. I would say there's no better time to start doing it than right now, because the ecosystem definitely is developing, but there's a really strong community of people who really help one another, try and figure this all out and define what good EBPF code looks like and what the ecosystem -- how it's related to Go looks like. So I think it's best to get in at the ground floor, so to speak.
+**Grant Seltzer Richman:** The original technology of it I think was -- I don't even wanna guess... Early 2000s. It used to be strictly for network packet processing. But I would say it's been within the past two years or so that the ecosystem has really developed. There's a group of startups -- I know Facebook does a lot of eBPF stuff, and they've contributed to the community quite a bit. I would say there's no better time to start doing it than right now, because the ecosystem definitely is developing, but there's a really strong community of people who really help one another, try and figure this all out and define what good eBPF code looks like and what the ecosystem -- how it's related to Go looks like. So I think it's best to get in at the ground floor, so to speak.
 
 **Mat Ryer:** Very interesting, yeah. It's definitely something to play with. It sounds like one of those things that can be extremely powerful, but also a bit like in C and C++ - you could do operator overloading, and things, which if used correctly, can be great. But as soon as it's abused, you end up not knowing what an @ means in the code, or what a plus symbol is doing to things.
 
@@ -202,7 +202,7 @@ You could also, if you have a compiled and running service, and you wanna see if
 
 **Mat Ryer:** \[00:31:56.11\] Have you ever used it, Derek? Are you aware of it?
 
-**Derek Parker:** Yeah, I've done a few things with EBPF a little bit here and there. Actually, Delve has a trace functionality which works somewhat similar, but it works at a higher level, using ptrace and some of those other kinds of syscalls. I've thought about experimenting a little bit, replacing -- on Linux systems I supported replacing that with an EBPF-backed tracing system... So Grant, if you ever wanna send a pull request, we'd love to have it. \[laughter\]
+**Derek Parker:** Yeah, I've done a few things with eBPF a little bit here and there. Actually, Delve has a trace functionality which works somewhat similar, but it works at a higher level, using ptrace and some of those other kinds of syscalls. I've thought about experimenting a little bit, replacing -- on Linux systems I supported replacing that with an eBPF-backed tracing system... So Grant, if you ever wanna send a pull request, we'd love to have it. \[laughter\]
 
 **Hana Kim:** Yeah, I am happy to integrate it from the VS Code side, with visualization... \[laughs\]
 
@@ -210,11 +210,11 @@ You could also, if you have a compiled and running service, and you wanna see if
 
 **Mat Ryer:** This is the most productive meeting I've ever been in. \[laughter\] And it wasn't even meant to be a meeting.
 
-**Derek Parker:** Yeah. And the benefit, like Grant was talking about it the EBPF route, versus -- so Go does it at a higher level, using ptrace syscalls and various other syscalls on different platforms, like Windows, and stuff like that... But the fundamental problem of why it's slower than the approach that Grant described is EBPF stays all within the kernel. So there's no context switching from kernel space, to user space, back to kernel space, back to user space... That context switch can get expensive. So when Delve traces, in kind of a more portable way, it traces in such a way where there's -- you know, you do switch from the kernel to user space, back to the kernel, back to the user space, and typically, you don't really see that much of a slowdown if you're just tracing a program locally, or something like that... But certainly, there's a performance hit there that could be alleviated by switching to EBPF where appropriate, where possible.
+**Derek Parker:** Yeah. And the benefit, like Grant was talking about it the eBPF route, versus -- so Go does it at a higher level, using ptrace syscalls and various other syscalls on different platforms, like Windows, and stuff like that... But the fundamental problem of why it's slower than the approach that Grant described is eBPF stays all within the kernel. So there's no context switching from kernel space, to user space, back to kernel space, back to user space... That context switch can get expensive. So when Delve traces, in kind of a more portable way, it traces in such a way where there's -- you know, you do switch from the kernel to user space, back to the kernel, back to the user space, and typically, you don't really see that much of a slowdown if you're just tracing a program locally, or something like that... But certainly, there's a performance hit there that could be alleviated by switching to eBPF where appropriate, where possible.
 
 **Mat Ryer:** But usually, people are debugging not in production... Does that change at all, or we're still gonna keep doing it how we're doing it, if you know what I mean.
 
-**Derek Parker:** I think with EBPF you can make the case that it's easier and a little bit safer, and more rational to do in a production environment. I wouldn't recommend doing a Delve trace on a production system unless you really had to. You're just gonna run into some performance penalties there; that's really the biggest issue.
+**Derek Parker:** I think with eBPF you can make the case that it's easier and a little bit safer, and more rational to do in a production environment. I wouldn't recommend doing a Delve trace on a production system unless you really had to. You're just gonna run into some performance penalties there; that's really the biggest issue.
 
 **Break:** \[00:34:19.13\]
 
@@ -326,7 +326,7 @@ So all that to say we use lldb-server on the backend, so there's some changes th
 
 **Mat Ryer:** No, we have different versions of it, I don't know. But yeah, that is potentially unpopular.
 
-**Hana Kim:** But they are missing the best in sport right?\[laughter\]
+**Hana Kim:** But they are missing the best sport, right?! \[laughter\]
 
 **Mat Ryer:** Apparently so, yeah. That's what we've heard... According to Grant, yeah. Derek? Is baseball the best sport?
 
@@ -358,7 +358,7 @@ So all that to say we use lldb-server on the backend, so there's some changes th
 
 **Grant Seltzer Richman:** Oh, yeah.
 
-**Hana Kim:** All the EBPF, and all this ptrace - they are not available on other platforms.
+**Hana Kim:** All the eBPF, and all this ptrace - they are not available on other platforms.
 
 **Mat Ryer:** But what about every other app in the world? But I suppose if everyone was using it... If everyone's using it, it would work too, wouldn't it? That's a fair one... Derek, do you have an unpopular opinion?
 
