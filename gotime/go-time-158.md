@@ -270,7 +270,7 @@ I will warn you that, because most of the audience is gophers, sometimes things 
 
 **Paul Jolly:** Oh, exactly.
 
-**Marcos Nils:** Now it's called Git Restore, right? They killed me with that one. It's not Git checkout anymore. I have one, which is -- it's interesting, because I'm actually on my vacation \[unintelligible 00:59:06.17\] from work this week... And we just decided with my girlfriend that we want to bike around the city... And we realized that even though the city has all these new bike lanes, basically the problems regarding how the city operates are the same ones. People not respecting rules, either drivers, other cyclists, the people that walk on the street as well... So the unpopular opinion is that it doesn't matter the different ways or means that you can implement to try to fix an issue; if you don't basically change the core, you will not have them.
+**Marcos Nils:** Now it's called Git Restore, right? They killed me with that one. It's not Git checkout anymore. I have one, which is -- it's interesting, because I'm actually on my vacation from code from work this week... And we just decided with my girlfriend that we wanted to bike around the city... And we realized that even though the city has all these new bike lanes, basically the problems regarding how the city operates are the same ones. People not respecting rules, either drivers, other cyclists, the people that walk on the street as well... So the unpopular opinion is that it doesn't matter the different ways or means that you can implement to try to fix an issue; if you don't basically change the core, it will not happen.
 
 **Jon Calhoun:** Okay.
 
@@ -288,7 +288,7 @@ I will warn you that, because most of the audience is gophers, sometimes things 
 
 **Jon Calhoun:** I don't know how to respond to that one.
 
-**Carmen Andoh:** \[01:00:10.24\] Kind of like the way that Npm is for Node? Hm... \[laughter\]
+**Carmen Andoh:** \[01:00:10.24\] Kind of like the way that npm is for Node? Hm... \[laughter\]
 
 **Paul Jolly:** Well, I guess there's a number of -- understandably, coming from a background of their different dependency management systems, it feels like for me there is a real net benefit to what modules brings. Yes, there are bits that people find frustrating, but I think that the focus that it places on the module author to respect non-breaking changes and/or bump major versions - it kind of places the onus on the author, in much the same way that it places the onus on the author of Go code to write code that is easy for the reader to understand. It's exactly that right shift, where you wouldn't just leave the reader of some code to just make a whole load of mistakes as they're trying to understand your code. You make it as clear and easy to understand as possible.
 

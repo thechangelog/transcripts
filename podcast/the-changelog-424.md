@@ -98,7 +98,7 @@ So I made my first contribution and didn't think much of it for many years after
 
 **Jerod Santo:** Sounds like it, yeah.
 
-**Mike Pennisi:** ...it makes a clear and succinct legal contract into something that's really unenforceable and just generally scary to people that take licensing seriously... Because the term "evil" has no meaning in any court, anywhere. So either you're the type of person that disregards the license and just uses stuff because the source code is available, or you recognize that you're beholden to a contract, and you see in this contract terms that you don't understand.
+**Mike Pennisi:** ...it makes a clear and succinct legal contract into something that's really unenforceable and just generally scary to people that take licensing seriously... Because the term "evil" has no real meaning in any court, anywhere. So either you're the type of person that disregards the license and just uses stuff because the source code is available, or you recognize that you're beholden to a contract, and you see in this contract terms that you don't understand.
 
 \[00:12:04.28\] So what that means for people that have to, like I said, either take this seriously because they want to, or take it seriously because their legal team forces them to, this says to them "I can't use this project because I don't know what it is that I'm beholden to if I do."
 
@@ -350,7 +350,7 @@ So you would say that the result of that is an identical project that is now jus
 
 **Adam Stacoviak:** Yeah. So you have to go in the history of each, essentially the non-free and the free versions of each, and sort of find which commit, or at which date, or which SHA is applicable to that fork, essentially? Because at some point that MIT-licensed version is a representation of, in some history, the non-free.
 
-**Mike Pennisi:** That's right, yeah. So I went back into the history of JSHint, and that naturally involves all the commits made from JSLint. So I was able to, in Git terms, rebase JSHint on top of the free software version of JSLint. And because no one changes the license, there's no risk of conflict. It's not as though I was resolving conflicts because everybody was changing out other parts of the license, or anything like that. We learned our lessons, we weren't really accepting patches to the license at any point.
+**Mike Pennisi:** That's right, yeah. So I went back into the history of JSHint, and that naturally involves all the commits made from JSLint. So I was able to, in Git terms, rebase JSHint on top of the free software version of JSLint. And because no one changes the license, there's no risk of conflict. It's not as though I was resolving conflicts because everybody was changing out other parts of the license, or anything like that. We learned our lesson, we weren't really accepting patches to the license at any point.
 
 **Jerod Santo:** Right.
 
@@ -398,7 +398,7 @@ So we had solved a big problem by finding this free version of JSLint and rebasi
 
 **Jerod Santo:** "You came in contact with this file. You may have this disease." \[laughs\]
 
-**Mike Pennisi:** Yeah, yeah... Sometimes the JSON license can feel like a virus... \[laughter\] So I can't say though -- let's see... I can look at the signatures I received. It's a lot of signatures. Yeah, I woudl say probably 120 or so.
+**Mike Pennisi:** Yeah, yeah... Sometimes the JSON license can feel like a virus... \[laughter\] So I can't say though -- let's see... I can look at the signatures I received. It's a lot of signatures. Yeah, I would say probably 120 or so.
 
 **Jerod Santo:** So what was that process like? Just emailing people?
 
