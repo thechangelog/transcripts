@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** It is.
 
-**Carlisia Pinto:** That's precious!
+**Carlisia Thompson:** That's precious!
 
 **Brian Ketelsen:** Wow...
 
@@ -18,7 +18,7 @@
 
 **Erik St. Martin:** And also on the show we have Carlisia Pinto - say hello, Carlisia.
 
-**Carlisia Pinto:** Hi, everybody!
+**Carlisia Thompson:** Hi, everybody!
 
 **Erik St. Martin:** And as Brian just said, our special guest for today is Marc-Antoine Ruel. Now, do you wanna give everybody a little bit of background - who you are and what you're working on? Then we'll get into your project which was recently released, which is -- do you just call it Periph, or do you pronounce the io in the domain?
 
@@ -36,7 +36,7 @@ The one that has been the most popular is [panicparse](https://github.com/maruel
 
 **Marc-Antoine Ruel:** Yes. Well, actually, it has its own kinks, but it's really only --
 
-**Carlisia Pinto:** But you have it...
+**Carlisia Thompson:** But you have it...
 
 **Brian Ketelsen:** Yeah, but you have one. \[laughter\]
 
@@ -48,11 +48,11 @@ In Canada the difference is that if you're rich you don't actually get to get th
 
 **Erik St. Martin:** Right?! \[laughter\]
 
-**Carlisia Pinto:** Wow... That was a record.
+**Carlisia Thompson:** Wow... That was a record.
 
 **Erik St. Martin:** He was just sitting on that button.
 
-**Carlisia Pinto:** But today is a tough day...
+**Carlisia Thompson:** But today is a tough day...
 
 **Brian Ketelsen:** It is a very tough day.
 
@@ -62,7 +62,7 @@ In Canada the difference is that if you're rich you don't actually get to get th
 
 **Erik St. Martin:** So you haven't learned to pronounce it yet, so we're gonna make up the pronunciation on the show...
 
-**Carlisia Pinto:** \[00:04:11.01\] You have heard it here first.
+**Carlisia Thompson:** \[00:04:11.01\] You have heard it here first.
 
 **Marc-Antoine Ruel:** Yeah, that's great. So the fun thing is that it started in 2014. Back at that time there was a company named GroupGet, and they wanted to test a platform; it was a small startup. And they started to do a googlers-only selling of the [FLIR Lepton](https://www.flir.com/products/lepton/), which is an infrared camera. So I bought one and I was like "Yay, I have an infrared camera! Now what do I do with it?"
 
@@ -270,7 +270,7 @@ So that's basically the mechanism it uses. I think it's something that is the wa
 
 **Erik St. Martin:** Carlisia, is your Chromebook purchase sounding better and better now?
 
-**Carlisia Pinto:** Yup. \[laughs\]
+**Carlisia Thompson:** Yup. \[laughs\]
 
 **Brian Ketelsen:** Is that called -- what's the name of that update system? Omaha - is that right?
 
@@ -330,13 +330,13 @@ Basically, the thing is that he actually knows how to write a text editor unlike
 
 **Erik St. Martin:** Okay, so I think we are just about out of time... One thing we like to do at the end of every episode is we do something called \#FreeSoftwareFriday, where all of us give a shoutout to a project or a maintainer - and it does not have to be Go - of an open source project that makes our lives easier. Does everybody have a project they want to...? And Marc-Antoine, if you have one - that's awesome. If you don't, that's cool, too. Carlisia, did you have a project you wanted to mention this week?
 
-**Carlisia Pinto:** I do. It's called [docopt](https://github.com/docopt/docopt.go). I think it's called docopt.
+**Carlisia Thompson:** I do. It's called [docopt](https://github.com/docopt/docopt.go). I think it's called docopt.
 
 **Erik St. Martin:** That'd be my guess, too.
 
 **Brian Ketelsen:** Yes, it's docopt \[doc-opt\].
 
-**Carlisia Pinto:** docotp \[doc-opt\] - I knew there was something there that I wasn't doing right. I just thought it was a really well organized project. I love that when you fetch the arguments you specify right there if it's supposed to be used as a boolean or string... I might use it next time I need to do a CLI.
+**Carlisia Thompson:** docotp \[doc-opt\] - I knew there was something there that I wasn't doing right. I just thought it was a really well organized project. I love that when you fetch the arguments you specify right there if it's supposed to be used as a boolean or string... I might use it next time I need to do a CLI.
 
 **Erik St. Martin:** That's really awesome. How about you, Brian? Did you have anything?
 
@@ -366,7 +366,7 @@ With that, I wanna thank everybody for being on the show this week, especially t
 
 **Brian Ketelsen:** Where's the singing? I heard there was gonna be singing.
 
-**Carlisia Pinto:** I thought we agreed we were never gonna sing again.
+**Carlisia Thompson:** I thought we agreed we were never gonna sing again.
 
 **Brian Ketelsen:** I was promised singing!
 
@@ -374,7 +374,7 @@ With that, I wanna thank everybody for being on the show this week, especially t
 
 **Marc-Antoine Ruel:** Thanks a lot!
 
-**Carlisia Pinto:** Happy birthday, Brian! Bye, everybody!
+**Carlisia Thompson:** Happy birthday, Brian! Bye, everybody!
 
 **Brian Ketelsen:** Thank you!.
 

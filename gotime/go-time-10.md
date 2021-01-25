@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** ... and Carlisia Campos.
 
-**Carlisia Pinto:** Glad to be here.
+**Carlisia Thompson:** Glad to be here.
 
 **Erik St. Martin:** ... and today with us we have a special guest, Ed Muller from Heroku, who will be talking about all things Go at Heroku and some dependency management and any other random topics we decide to come up with. How are you doing, Ed?
 
@@ -24,7 +24,7 @@
 
 **Erik St. Martin:** I'm willing to bet that there probably are.
 
-**Carlisia Pinto:** 2,401, I took it today. \[laughter\]
+**Carlisia Thompson:** 2,401, I took it today. \[laughter\]
 
 **Erik St. Martin:** I have to admit, I didn't complete it all the way through. I was really trying to analyze the page where it started asking what would I change, what would I want, and I feel like I've been around too long, I'm too used to it, so I was trying to sit back and think about that constructively, and I never went back to it. So there would be 2,402, but...
 
@@ -40,11 +40,11 @@
 
 **Brian Ketelsen:** That's gotta be a lot of fun.
 
-**Carlisia Pinto:** \[00:03:57.03\] So what are the dependency packages that you support at Heroku?
+**Carlisia Thompson:** \[00:03:57.03\] So what are the dependency packages that you support at Heroku?
 
 **Ed Muller:** The managers that we support are Godep; I'm also the current maintainer of that. Govendor, GB, and - it's not released yet, but if you use the master branch of the Buildpack, Glide support. And I think I've come up with a way to manage our last version, but I need to spend some time and write a bunch of code and then test it before committing to it.
 
-**Carlisia Pinto:** Do you have stats that you can share for how many projects use one or the other?
+**Carlisia Thompson:** Do you have stats that you can share for how many projects use one or the other?
 
 **Ed Muller:** The vast majority of them use Godep. There are though users of Govendor and then GB; so as rankings, the vast majority is just Godep and then Govendor and GB. Part of that is just historical, because before the vendor experiment, if you wanted to do dependency management you basically used Godep.
 
@@ -58,11 +58,11 @@
 
 **Erik St. Martin:** It's hard, because I feel like there's no perfect solution, right? It's like there's things I love about each of these tools and there's things I can't stand either. I think I have to end up with the one that I dislike the least.
 
-**Carlisia Pinto:** Does anybody have any insights as to the states of resolution on this issue? Is vendoring something that's going to be solved soon, or it's not on the plate? I haven't been following, but it's important enough...
+**Carlisia Thompson:** Does anybody have any insights as to the states of resolution on this issue? Is vendoring something that's going to be solved soon, or it's not on the plate? I haven't been following, but it's important enough...
 
 **Ed Muller:** Well, there is a channel in Slack where myself, Daniel Theophanes, who's the author behind Govendor, some people from Glide kind of discussing some stuff and it's free for anybody to join. I haven't participated too much in it recently, but I know they are working towards some metadata standards. Daniel also was the backer of Vendor.json, which really wasn't adopted beyond his tool, though.
 
-**Carlisia Pinto:** Is anybody from the Go Language Team in there?
+**Carlisia Thompson:** Is anybody from the Go Language Team in there?
 
 **Ed Muller:** Not that I'm aware of. My understanding - and it hasn't changed, really - is that the Go Team was like "Here's Vendor. We're gonna let the ecosystem solve the hard part of the problem."
 
@@ -90,7 +90,7 @@ I know that they acknowledge that the vendor directory isn't a full solution. I 
 
 Dependency management is a big deal, and repeatable builds is a big deal. I feel like we've been hung out to dry on it, and I think the community needs to come together and not create 30 solutions; I think the community needs to create one good solution, or Google needs to create that solution, or at least foster that solution.
 
-**Carlisia Pinto:** I was thinking the same thing, along those lines. The Go Language Team is part of the community, and it's sort of odd that there's a group of people working on a solution without any input or feedback from the Language Team. Are they aware that this is happening, or...?
+**Carlisia Thompson:** I was thinking the same thing, along those lines. The Go Language Team is part of the community, and it's sort of odd that there's a group of people working on a solution without any input or feedback from the Language Team. Are they aware that this is happening, or...?
 
 **Erik St. Martin:** Well, there's been a discussion with the Go Team surrounding vendoring, but I think that they were... I think that their opinion/standpoint has been that it's not part of the language itself, it's part of the ecosystem. I think that's why they've stayed mostly out of it, but I think that there was obvious pain points, that Go path munging for most of these tools, and I think that's why they wanted to step in and try to provide support there.
 
@@ -110,7 +110,7 @@ But one thing I would say is if you are somebody who is frustrated by vendor, pl
 
 **Ed Muller:** Read that codebase. Submit PRs. Fix problems. It doesn't have to be Godep. Godep is far, far, far from perfect. But pick one of them and back a horse. Don't worry if you're not right in the end; I don't know if there's a right or wrong... But yeah, please don't make your own.
 
-**Carlisia Pinto:** Ed, I don't remember if you said the name of the channel where this conversation is happening...
+**Carlisia Thompson:** Ed, I don't remember if you said the name of the channel where this conversation is happening...
 
 **Ed Muller:** It's called \#vendor in Gopher Slack.
 
@@ -158,7 +158,7 @@ So there's not a lot of people - although it is gaining traction recently - for 
 
 **Ed Muller:** The vast majority aren't.
 
-**Carlisia Pinto:** \[00:19:53.17\] But let me see if I understand. Right now is there anything that we can do with those versionings? Because if it's no, I see the point of people not using it, and I think that more people would do it if there was a function for it.
+**Carlisia Thompson:** \[00:19:53.17\] But let me see if I understand. Right now is there anything that we can do with those versionings? Because if it's no, I see the point of people not using it, and I think that more people would do it if there was a function for it.
 
 **Ed Muller:** It is a little bit of a chicken and the egg, because if the tools don't have the tags to use, then you're not necessarily gonna spend time working on those feature sets, and vice versa, if you don't have tools that use some of them, theoretically why should I bother? Which is another thing I'd like to point out about SemVer - this is something that I struggled with at first until I really realized that SemVer is a social contract, it's not a technology contract, realistically. Despite your best intention, a 1.2.1 to 1.2.2 - you can totally accidentally slip an API change in there, or make a horrible, breaking change. So there's nothing in SemVer that prevents you from doing that, but you've basically agreed through this contract to say "I'm not going to intentionally make any API breaking or functionality breaking changes between these minor revs.
 
@@ -218,19 +218,19 @@ All logs from dynos are moved to the log router, which is still written in Erlan
 
 If you're a fan of our dashboard metrics, that's Go. The backend for that is all Go, the front end is obviously Node and other frontend technologies.
 
-**Carlisia Pinto:** Do you have more...? Continue please, I don't wanna interrupt.
+**Carlisia Thompson:** Do you have more...? Continue please, I don't wanna interrupt.
 
 **Ed Muller:** No, I was trying to think of what else... I feel like I'm missing some important parts, but...
 
 **Erik St. Martin:** That's all? \[laughter\]
 
-**Carlisia Pinto:** What I wanted to ask is are these rewrites, or majority rewrites, or majority new things...?
+**Carlisia Thompson:** What I wanted to ask is are these rewrites, or majority rewrites, or majority new things...?
 
 **Ed Muller:** It's a mix; I'd probably say 60/40 rewrites, because for instance git push Heroku Master, that was a combination I think of some Twisted evented code at some point. If you're not familiar with Twisted, it's a Python thing, plus some other stuff.
 
 The slug builder portion was Ruby; all of API was just Ruby at one point. System metrics, I think we used Collecti at one point. The log processes, that's new; the metrics stuff, that's new. Some of the stuff they're doing in APIs, not necessarily rewrite, but new functionality that they're kind of slotting in unbeknownst to users. So it's a little bit of both.
 
-**Carlisia Pinto:** \[00:32:15.05\] I have a sense that the whole internet is being rewritten in Go.
+**Carlisia Thompson:** \[00:32:15.05\] I have a sense that the whole internet is being rewritten in Go.
 
 **Ed Muller:** If it were up to me, +1... \[laughter\] But as I said though, Heroku is a place - we call ourselves Heroki, so if I've said that already, you understand. You'll find somebody at Heroku who likes any language that's probably out there right now.
 
@@ -252,7 +252,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Ed Muller:** Yes it was.
 
-**Carlisia Pinto:** What are you talking about?
+**Carlisia Thompson:** What are you talking about?
 
 **Brian Ketelsen:** Doozer. Doozer was a spiritual predecessor to etcd, for example, or Zookeeper. It was a Go implementation of a distributed coordination system.
 
@@ -346,7 +346,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Erik St. Martin:** So two things with that, right? One is Vim probably, because Vim's not so great at async yet, so it's probably having to do stuff synced with your typing, which is hard. But the second part is it's rave programming. Rave programming, Brian. Just embrace it. \[laughter\] Flashing screen...
 
-**Carlisia Pinto:** I wanna say we're gonna have Beyang on the show in three weeks from now.
+**Carlisia Thompson:** I wanna say we're gonna have Beyang on the show in three weeks from now.
 
 **Brian Ketelsen:** Oh, that's awesome. We'll have a lot to talk about there, because it's a really impressive tool. So that was the biggest news I saw this week, that tool. If you haven't checked it out, it's at sourcegraph.com/tools/editor. You can see the screencast that they've got embedded in that page. If that doesn't sell you on at least trying it, I'd be surprised.
 
@@ -358,11 +358,11 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Brian Ketelsen:** Yeah, that's right.
 
-**Carlisia Pinto:** And they host a meetup in San Francisco. I don't know how often it is, but I went to one, it was pretty great. There were people from LinkedIn there speaking, and other people on the panel. It was pretty awesome.
+**Carlisia Thompson:** And they host a meetup in San Francisco. I don't know how often it is, but I went to one, it was pretty great. There were people from LinkedIn there speaking, and other people on the panel. It was pretty awesome.
 
 **Erik St. Martin:** I'm seeing the trail in GoTime FM. \[laughter\] You guys are distracting me.
 
-**Carlisia Pinto:** No, that was pretty amazing. I said his name and he popped into the channel.
+**Carlisia Thompson:** No, that was pretty amazing. I said his name and he popped into the channel.
 
 **Erik St. Martin:** I think Adam invited him in there.
 
@@ -382,7 +382,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Brian Ketelsen:** As the days get closer to GopherCon, the sleep wanes and we become less and less coherent.
 
-**Carlisia Pinto:** Alright, my turn. My project today is Gogs. It's a self-hosted Git service. I think it's very cool because if you want to host your own Git service - of course, that's what it is for - it seems pretty solid. I love that it has tons of documentation; I always love to mention projects that are well-documented. And also the issue list is very well labeled. There is a variety of categories, and it seems they could use a lot of help. But I also thought it was interesting because I think it's a good codebase to dive in and learn from. The concept of a server or a service is very easy... I mean, we were talking about domain knowledge, right? I think it's something that we can come in with the little bits of domain knowledge and understand the bits and pieces.
+**Carlisia Thompson:** Alright, my turn. My project today is Gogs. It's a self-hosted Git service. I think it's very cool because if you want to host your own Git service - of course, that's what it is for - it seems pretty solid. I love that it has tons of documentation; I always love to mention projects that are well-documented. And also the issue list is very well labeled. There is a variety of categories, and it seems they could use a lot of help. But I also thought it was interesting because I think it's a good codebase to dive in and learn from. The concept of a server or a service is very easy... I mean, we were talking about domain knowledge, right? I think it's something that we can come in with the little bits of domain knowledge and understand the bits and pieces.
 
 **Erik St. Martin:** Yeah, Gogs popped up maybe two years ago, something like that...?
 
@@ -392,7 +392,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Brian Ketelsen:** Yeah, so we had Gogs in production for our main code repository... What was that, two years ago, Erik? And it had zero complaints. It's a fantastic service, really simple to install and rock solid. No complaints at all, especially if you consider that it's a tiny codebase but they replicate the 80% of features from GitHub that you really need, but it's behind your own firewall. Very nice.
 
-**Carlisia Pinto:** Yeah, and Git service - GitHub or GitLab - is something that we use every day, so it will be interesting to look at how that can be implemented in Go. I found it interesting to dig around.
+**Carlisia Thompson:** Yeah, and Git service - GitHub or GitLab - is something that we use every day, so it will be interesting to look at how that can be implemented in Go. I found it interesting to dig around.
 
 **Erik St. Martin:** I think we lost Ed. Are you still there?
 
@@ -410,15 +410,15 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Ed Muller:** I should just try to get Keith and those guys at some point, too. I'm honored to be on the show, but... man, did they have a big impact early on.
 
-**Carlisia Pinto:** And talking about involvement from Heroku, I wanted to also mention that Heroku is a big supporter of GoBridge, financially and otherwise, and Ed is as well. You have taught a GoBridge workshop in San Francisco, we're very grateful for that, so thank you.
+**Carlisia Thompson:** And talking about involvement from Heroku, I wanted to also mention that Heroku is a big supporter of GoBridge, financially and otherwise, and Ed is as well. You have taught a GoBridge workshop in San Francisco, we're very grateful for that, so thank you.
 
 **Ed Muller:** Thanks for organizing GoBridge. I think it's an amazing organization, and I was more than happy to contribute my time.
 
-**Carlisia Pinto:** Thanks.
+**Carlisia Thompson:** Thanks.
 
 **Brian Ketelsen:** That's a big GoTime FM hug right there.
 
-**Carlisia Pinto:** Yes, totally.
+**Carlisia Thompson:** Yes, totally.
 
 **Brian Ketelsen:** Maybe we need to add a section at the end of the show. After \#FreeSoftwareFriday we add GoTime FM Hugs, I don't know... Let's toss that around a little bit; put it in the show notes, we'll think about it. \[laughter\]
 
@@ -434,7 +434,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Brian Ketelsen:** Yeah, it's okay. This tool is called git-branches, and it's just a tiny little command line tool that tells you the status of the branches of your Git repo - how far you are behind or ahead of master, and all of the different statuses of the remote branches, too. Really nifty tool, I've used it constantly since I've installed it. It's rare for me that those tiny little command like helpers stay in muscle memory beyond a day, and this one has. It's useful.
 
-**Carlisia Pinto:** Alright, so the project I want to mention today is Pachyderm. It was mentioned on the show that we're going to release later today, with Daniel Whiteneck. He talked about Go and data science. This project is open source; I haven't used it, but I checked it out and again, it's another project that's super well documented. He has also very organized and very well labeled issues, and they also have issues for newbies, so it seems like a great project for people who want to start contributing to open source and to Go. It's very fascinating, and this is something that's fascinating me about Go, what's going on in the industry right now: basically it seems like it's a modern alternative to Hadoop, and just how people are reinventing solutions... So it's an alternative to Hadoop, but it's not an implementation of Hadoop in Go. They're containers, they are using Go, and they're taking advantage of these contemporary technologies to reinvent the solutions in a much better way.
+**Carlisia Thompson:** Alright, so the project I want to mention today is Pachyderm. It was mentioned on the show that we're going to release later today, with Daniel Whiteneck. He talked about Go and data science. This project is open source; I haven't used it, but I checked it out and again, it's another project that's super well documented. He has also very organized and very well labeled issues, and they also have issues for newbies, so it seems like a great project for people who want to start contributing to open source and to Go. It's very fascinating, and this is something that's fascinating me about Go, what's going on in the industry right now: basically it seems like it's a modern alternative to Hadoop, and just how people are reinventing solutions... So it's an alternative to Hadoop, but it's not an implementation of Hadoop in Go. They're containers, they are using Go, and they're taking advantage of these contemporary technologies to reinvent the solutions in a much better way.
 
 Again, I haven't used it; this is from reading and from just general knowledge, but I think it's very, very interesting.
 
@@ -468,21 +468,21 @@ Again, I haven't used it; this is from reading and from just general knowledge, 
 
 **Brian Ketelsen:** Visual Studio Code is significantly prettier, though. Tool tips with function definitions when you hover over a function call... I'm not gonna lie, it's sexy.
 
-**Carlisia Pinto:** And there's that Go Doc Tool that I talked about I think in the second episode, or I forgot which episode. That does the same thing. It will jump to the code source...
+**Carlisia Thompson:** And there's that Go Doc Tool that I talked about I think in the second episode, or I forgot which episode. That does the same thing. It will jump to the code source...
 
 **Ed Muller:** Are you talking Pythia?
 
-**Carlisia Pinto:** No, it's called Go Doc.
+**Carlisia Thompson:** No, it's called Go Doc.
 
 **Erik St. Martin:** Oh yeah, I know what you're talking about now, too. I can't remember... Yeah, you did mention it in a prior episode.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Erik St. Martin:** Now we're gonna have to go through show notes to find what it is.
 
 **Brian Ketelsen:** The name was something like Go Doc Tool, though. It was not a memorable name, it was kind of a generic name, so I think you're right. Something like Go Doc Tool.
 
-**Carlisia Pinto:** \[00:55:48.02\] Yes. And I wanted to say, we have such deeply rooted perceptions, rights? When Ed put the link to Visual Studio Code on the document, I had to actually go and check if it was open source, because I was gonna say "Ed, this is not open source." I didn't know... So today I learned it's open source, and I couldn't believe it.
+**Carlisia Thompson:** \[00:55:48.02\] Yes. And I wanted to say, we have such deeply rooted perceptions, rights? When Ed put the link to Visual Studio Code on the document, I had to actually go and check if it was open source, because I was gonna say "Ed, this is not open source." I didn't know... So today I learned it's open source, and I couldn't believe it.
 
 **Ed Muller:** Yes, if you write in TypeScript, you can contribute.
 
@@ -506,17 +506,17 @@ Again, I haven't used it; this is from reading and from just general knowledge, 
 
 **Erik St. Martin:** Oh, that's right, that's right. Alright, I can't give you too much slack for that then.
 
-**Carlisia Pinto:** And I wanna mention that it's open to everybody, so if you are in San Francisco sign up on the Meetup page. I'll post the link on the Slack, and maybe Adam can tweet it. It's open to everybody, men and women, and anybody... Non-binary people, everybody. Just show up. Some really cool people are gonna be there, I'm just saying.
+**Carlisia Thompson:** And I wanna mention that it's open to everybody, so if you are in San Francisco sign up on the Meetup page. I'll post the link on the Slack, and maybe Adam can tweet it. It's open to everybody, men and women, and anybody... Non-binary people, everybody. Just show up. Some really cool people are gonna be there, I'm just saying.
 
 **Brian Ketelsen:** I'm excited to go. Women Who Go is a great group, and I'm happy to go help them celebrate their first birthday.
 
 **Ed Muller:** Maybe I can get a cheap flight down.
 
-**Carlisia Pinto:** Please! Go!
+**Carlisia Thompson:** Please! Go!
 
 **Erik St. Martin:** So we're out next week, but the following week we will be back and we will have Jessie Frazelle on the call. Or show. I keep calling it a call, it's a show. So we'll have her on the show when we get back, and then after that we have I think Beyang Liu?
 
-**Carlisia Pinto:** Yes.
+**Carlisia Thompson:** Yes.
 
 **Erik St. Martin:** So almost in line with us talking about the new Sourcegraph tool today. Yeah, so if you haven't subscribed already, GoTime FM is the easiest way to do that. We are now on both Google Play Store and iTunes, I believe. More episodes will be dropping if you're listening to this live right now. I think episode four drops today, and then five and six over the next couple of days. We're slowly getting caught up. We are on Twitter @GoTimeFM, we are GoTimeFM in Slack if you want to be on for the live stuff, and I think that's it. Yeah, GitHub - github.com/GoTimeFM/ping for suggestions for speakers or comments about the show and all that stuff. Thanks again, Ed, for coming on the show. It's been great having you on the call.
 
@@ -526,6 +526,6 @@ Again, I haven't used it; this is from reading and from just general knowledge, 
 
 **Ed Muller:** Thanks Ed, great show.
 
-**Carlisia Pinto:** This was fun. Bye, everybody.
+**Carlisia Thompson:** This was fun. Bye, everybody.
 
 **Ed Muller:** Bye-bye, everyone.

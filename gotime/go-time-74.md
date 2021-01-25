@@ -1,6 +1,6 @@
 **Brian Ketelsen:** And we're back for episode number 74 of GoTime. I'm Brian Ketelsen, and with me today is Carlisia...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Brian Ketelsen:** And we've got a guest today, Jon Calhoun. Jon, do you wanna say hi?
 
@@ -20,7 +20,7 @@
 
 **Brian Ketelsen:** Yeah, it's not an easy scaling model, I agree.
 
-**Carlisia Pinto:** And how did you get into teaching Go? Sorry, another question - did you start out teaching Go, or were you already teaching about tech before that?
+**Carlisia Thompson:** And how did you get into teaching Go? Sorry, another question - did you start out teaching Go, or were you already teaching about tech before that?
 
 **Jon Calhoun:** I wasn't really teaching too much before that. Before I got into Go, I released an open source project on Rails, and I released some videos along with it to try to make it easier for people to pick it up, to learn how to use it... So that was like my first taste for teaching, through Screencast and that sort of thing. I really enjoyed doing it, I thought it was really helpful, especially where you usually jump in and just see a relatively bland readme, having some videos that really showed people why they cared about something; it was very impactful.
 
@@ -28,17 +28,17 @@
 
 To give you some examples, RailsCasts was like a weekly series where every week they'd release a new video that taught you how to do something in Rails. Michael Hartl had this book - and he also has videos for it - called Michael Hartl's Rails tutorial. It would basically teach people how to go from like zero to deploying a Twitter clone in this relatively long book, but it taught you everything you needed to know. I felt like when I was learning Go, it's not that there weren't resources, but they were all sort of spread out and you had to scour the internet through blogs and different tutorials and all this different stuff, so it wasn't as welcoming to somebody who was more of a beginner or wasn't accustomed to looking through all these different resources and piecing them together.
 
-**Carlisia Pinto:** I agree with you, there really wasn't. Avdi Grimm's RubyTapas was also a very -- I think it's still going... It's a very good resource for Ruby.
+**Carlisia Thompson:** I agree with you, there really wasn't. Avdi Grimm's RubyTapas was also a very -- I think it's still going... It's a very good resource for Ruby.
 
 **Jon Calhoun:** Yeah.
 
-**Carlisia Pinto:** It's really neat to have videos with bite-sized instructions.
+**Carlisia Thompson:** It's really neat to have videos with bite-sized instructions.
 
 **Jon Calhoun:** Yeah, I like video a lot because -- I guess one of the things I always heard people telling other people was "You need to go code things", obviously, but they tell people to go read other people's code... And I didn't ever like that advice because it felt -- anytime I've jumped in and tried to read somebody's code, I've just felt like there were pieces missing; I just don't understand the context at which the developer actually wrote that code, so I don't know "Were they planning on a new feature, and that's why they wrote things this way? Were they time-constrained, memory-constrained? Maybe they had a really tight deadline, so they had to skip a couple things..."
 
 You just don't know all this information, so I really like the videos as a way of teaching, and especially learning as well myself, because they really give that context and you can hear somebody talk about why they're making the decisions they're making. But when you go read somebody's code, you kind of have to infer "Maybe that's why they did it, but I don't really know."
 
-**Carlisia Pinto:** Exactly.
+**Carlisia Thompson:** Exactly.
 
 **Brian Ketelsen:** So it's almost like extending the idea of literate programming to the visual world, where instead of really long documentation in the form of comments, which you've got as a long and potentially rambly documentation in the form of a narration during the code session...
 
@@ -54,17 +54,17 @@ There's other benefits, I think, to video. One of the ones is -- I've actually h
 
 **Jon Calhoun:** I doubt he's saying it just for that reason, but I think anybody who's done a code review knows that when you're looking back at something, it's easy to be critical, it's easy to look at what things weren't perfect... But as you said, creating something from nothing is very hard, and it's also hard to sort of put your code out there when you know you've created from nothing, just to get that feedback from people and worry "Are they gonna think I'm dumb because I didn't do this thing perfectly?'
 
-**Carlisia Pinto:** Yeah, and on that note too, I don't know if everybody is like me... When I started out, I would try to write proper code back-to-back, right? Like, what is the proper way, what is the proper logic, let me figure it out loud... And now that I've been doing it for a while, I think the farther I get programming, the more sloppy I start out. And I see that other developers that are more expert than me, they actually recommend you to do it this way - just hack it... Like, now I fill in stuff that I don't know how to handle yet, I just fill in with fake stuff, and I basically try to get the flow of what I'm doing, because it's sort of useless to get everything right... But if the logic is not correct, then you end up reiterating too much. I don't know if that makes sense...
+**Carlisia Thompson:** Yeah, and on that note too, I don't know if everybody is like me... When I started out, I would try to write proper code back-to-back, right? Like, what is the proper way, what is the proper logic, let me figure it out loud... And now that I've been doing it for a while, I think the farther I get programming, the more sloppy I start out. And I see that other developers that are more expert than me, they actually recommend you to do it this way - just hack it... Like, now I fill in stuff that I don't know how to handle yet, I just fill in with fake stuff, and I basically try to get the flow of what I'm doing, because it's sort of useless to get everything right... But if the logic is not correct, then you end up reiterating too much. I don't know if that makes sense...
 
 **Brian Ketelsen:** It does. I like to write a throw-away version before I actually write one. I very frequently will just write a garbage version that solves the problem or comes really close to solving the problem, and then I kind of understand the domain a little better, and then write it in a more formal "I wanna keep this" kind of way.
 
-**Carlisia Pinto:** Yeah, having that understanding of the domain before you actually perfect the code itself I think makes a big difference.
+**Carlisia Thompson:** Yeah, having that understanding of the domain before you actually perfect the code itself I think makes a big difference.
 
 **Jon Calhoun:** This is actually one of the reasons I'm -- it's not that I dislike test-driven development, but I'm not a huge advocate for it, because I feel like a lot of people get this impression that they can't -- I call that phase where you're just sort of getting a feel for the domain, a spike; I'm essentially just writing code that I don't care if I throw it away... I just wanna understand the problem space better.
 
 \[00:11:50.09\] I think a lot of times when people really push for this test-driven development, some people take it the wrong way to mean that they can't even do that... That they have to immediately go write tests, and then know exactly what the final code is gonna look like and what the functions are gonna be. So it's not that test-driven development is necessarily the problem. I guess it's just I don't like teaching it, especially to beginners, because I feel like it gives them this false impression of how they're supposed to be developing software, and it can lead to not doing that experimental stage where they really get to understand the problem they're trying to solve.
 
-**Carlisia Pinto:** Yeah, because when I start writing code, mainly I try to focus on what's coming in and what needs to go out, and what I need to fill in between those two boundaries, those two points. Then if I start out with a test -- I have trouble starting out with a test, frankly... And I love tests, so don't get me wrong; they're essential. But if I start out with a test, then I am constantly modifying the test and the code, which I think is sort of the point... But I didn't learn to program that way, so it still feels awkward to me. With that said, you have a course that teaches how to write tests?
+**Carlisia Thompson:** Yeah, because when I start writing code, mainly I try to focus on what's coming in and what needs to go out, and what I need to fill in between those two boundaries, those two points. Then if I start out with a test -- I have trouble starting out with a test, frankly... And I love tests, so don't get me wrong; they're essential. But if I start out with a test, then I am constantly modifying the test and the code, which I think is sort of the point... But I didn't learn to program that way, so it still feels awkward to me. With that said, you have a course that teaches how to write tests?
 
 **Jon Calhoun:** It's not done. I created a web development course; I did that before Gophercises. That was just sort of based on my experience learning Go, learning how to build web applications, and sort of just taking all these different things I experimented with, learned through different tutorials and whatnot. Then after that I was like "I wanna do something..." -- because that's a paid course, and I wanted to do something free. I wanted to give back and sort of help people who are learning Go really have a good time with it. So I made [Gophercises](https://gophercises.com/), which is completely free, and it's just a bunch of practice coding exercises.
 
@@ -78,7 +78,7 @@ So I wanna do it as a -- we're gonna build a real web application and we're gonn
 
 I think part of the reason I wanted to do that was just because I wanted people to see, like I said before, this "not perfect" solution to problems... That's kind of the intended audience - I wanted people who were picking up Go, just giving it a go. I wanted them to be able to see some practice exercises and sort of build for them. So I figured that it wouldn't make as much sense if I made videos that were picture perfect every single time, because that's not where they're going to be, they're not gonna relate to that at all.
 
-**Carlisia Pinto:** Yeah, wow... That's fantastic.
+**Carlisia Thompson:** Yeah, wow... That's fantastic.
 
 **Brian Ketelsen:** I'm curious what your most popular episode is. I see you've got about 13 up now... Which one of them gets the most views?
 
@@ -101,7 +101,7 @@ I've been trying to donate to charities every time I worked with them, based on 
 
 **Brian Ketelsen:** We have an awesome community, a very giving community. I couldn't agree more.
 
-**Carlisia Pinto:** How do you decide on the content? Do you have a source of inspiration, or is this just stuff you wish you had guidance to practice with when you were learning Go? Where does the inspiration come from? Your rule of thumb for deciding what to include in your courses...
+**Carlisia Thompson:** How do you decide on the content? Do you have a source of inspiration, or is this just stuff you wish you had guidance to practice with when you were learning Go? Where does the inspiration come from? Your rule of thumb for deciding what to include in your courses...
 
 **Jon Calhoun:** If it's like a larger course, like a web development or a testing one, I'll pick a big project that I wanna build, and everything will sort of come from that. If I'm building a photo sharing application and that's what the course teaches, everything sort of just stems from that. But for Gophercises, it's a bunch of small exercises, so obviously that's not the case... And that was a good mixture of just things I had built in the past, things I just thought would be fun to do, for one reason or another... Some of them were recommendations from people I've been interacting with and helping out with learning Go, and they would say "I'd really love to see you build this, or something like that." So it really stemmed from a lot of those...
 
@@ -121,7 +121,7 @@ Another one of the exercises - you create a URL forwarder. This is something tha
 
 **Brian Ketelsen:** That makes sense.
 
-**Carlisia Pinto:** What is your topic at Gotham Go?
+**Carlisia Thompson:** What is your topic at Gotham Go?
 
 **Jon Calhoun:** I'm using Gophercises as an example, but the core of the talk is going to be -- I wanna talk about how people get this perception that they have to use all these technologies that they keep reading about, they keep hearing on the internet...
 
@@ -129,11 +129,11 @@ To give you examples, you'll hear about Docker and deploying with Docker and con
 
 \[00:24:15.14\] I guess to get back to that, I'm trying to give the talk sort of explaining that you can build things that are useful, that are still cool projects, that aren't bad in any single way, that don't use all these pieces of technology that you read about on the internet all the time and think that "I have to be using these things."
 
-**Carlisia Pinto:** I couldn't agree more, yeah.
+**Carlisia Thompson:** I couldn't agree more, yeah.
 
 **Brian Ketelsen:** But what if I do have to be using them? What if I like shiny things and blinking lights?
 
-**Carlisia Pinto:** How do you even know before using it?
+**Carlisia Thompson:** How do you even know before using it?
 
 **Brian Ketelsen:** Well, it says right on the homepage that you can't live without it...
 
@@ -191,7 +191,7 @@ Building that is really -- especially in Atom, I built the plugin for it in like
 
 **Brian Ketelsen:** Yeah, it's difficult, and I always get caught by the shiny "Oh, I should just go build this tool!"
 
-**Carlisia Pinto:** Question for you, Jon - once you have these new videos, these new courses that you have on your current pipeline, what will you conceive on working on next? Let's say two, three years down the road you have plenty of materials for this level of expertise that you're trying to reach... What is next for you?
+**Carlisia Thompson:** Question for you, Jon - once you have these new videos, these new courses that you have on your current pipeline, what will you conceive on working on next? Let's say two, three years down the road you have plenty of materials for this level of expertise that you're trying to reach... What is next for you?
 
 **Jon Calhoun:** \[00:36:03.12\] I know that after I'm done with the testing course what I want to do beyond that is something very similar to -- have you ever seen Laracasts, or RailsCasts was another example of this... But basically, there's a bunch of sites out there that have sort of continued education. I think Laracasts calls themself "the Netflix for your development career."
 
@@ -234,7 +234,7 @@ This one has some nice benchmarks and shows no allocations for almost every oper
 
 **Jon Calhoun:** I'm drawing a blank, and Carlisia doesn't wanna talk to us...
 
-**Carlisia Pinto:** Crickets... \[laughter\]
+**Carlisia Thompson:** Crickets... \[laughter\]
 
 **Brian Ketelsen:** Alright, then if there's no other new news, let's move on to \#FreeSoftwareFriday. This segment is one of my personal favorites, where we just give a shout-out to a person or a project that's made an impact on you. It doesn't have to be Go-related; it can be a group, a company, a project, anything really... Just a way for us to give some appreciation to people or projects that have an impact on us.
 
@@ -250,7 +250,7 @@ I will kick it off this week with [Luke Smith](https://github.com/LukeSmithxyz).
 
 **Brian Ketelsen:** You're gonna laugh and call me OCD, and it's okay, I accept it... So I use i3 window manager, and the processor usage history - what do you call that? The three slots of processor usage is up in the top of my title bar... And for some reason, it drives me nuts when it gets high. So when I look at a mail app, especially these Electron-based mail apps these days, they're spinning my processor up too much. But mutt - or when I'm using NeoMutt - doesn't really take any processor usage, so I get to keep my processor usage really low. It's kind of OCD. I wish you hadn't asked that. \[laughter\]
 
-**Carlisia Pinto:** I have another solution to that, too. Just don't open your emails.
+**Carlisia Thompson:** I have another solution to that, too. Just don't open your emails.
 
 **Brian Ketelsen:** Yeah, there you go.
 
@@ -266,7 +266,7 @@ I will kick it off this week with [Luke Smith](https://github.com/LukeSmithxyz).
 
 **Brian Ketelsen:** Okay. Very nice. Carlisia, any open source you wanna shout out this week?
 
-**Carlisia Pinto:** No.
+**Carlisia Thompson:** No.
 
 **Brian Ketelsen:** No? Alright. And Erik's not here, so even if he had something to shout out, he doesn't get to vote. Sorry, Erik. Alright, well if we've got no other open source to shout out, then this is the end of our show.
 
@@ -276,4 +276,4 @@ With that, thank you, Jon. We appreciate you coming on the show.
 
 **Jon Calhoun:** Thanks for having me.
 
-**Carlisia Pinto:** Thank you, Jon, and thanks everybody. Bye!
+**Carlisia Thompson:** Thank you, Jon, and thanks everybody. Bye!

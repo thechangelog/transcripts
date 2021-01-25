@@ -4,11 +4,11 @@
 
 **Erik St. Martin:** \[laughing\] I need to come up with something different, just to stop you from saying that.
 
-**Carlisia Pinto:** Are we back to that? I thought that was over.
+**Carlisia Thompson:** Are we back to that? I thought that was over.
 
 **Erik St. Martin:** And we also have Carlisia Pinto on the show.
 
-**Carlisia Pinto:** Hi, everybody!
+**Carlisia Thompson:** Hi, everybody!
 
 **Erik St. Martin:** And our special guest today, we actually talked a little bit about on our GopherCon retrospect as [one of our favorite talks](https://www.youtube.com/watch?v=01w7viEZzXQ&t=35s). Please welcome Liz Rice!
 
@@ -46,21 +46,21 @@
 
 **Liz Rice:** I definitely think it is, and particularly with the world of containers where, if people are thinking about them as if they were virtual machines, well, they are not really thinking about them the right way. And there are so many different kind of insecurities. Fundamentally, if you want the security of a virtual machine, use a virtual machine. But containers are really interesting as well, from the perspective of microservices. So, if you can break your code into microservices, you've got these much smaller components that do a much more limited set of things. So, it's easier to profile them and learn what they're supposed to do, and what files they are supposed to access and what network connections they are supposed to have, and all that kind of thing. So, from a security perspective you can really learn about running behavior much more easily in a containerized architecture than you could with big monolithic virtual machines. So, I think that is really exciting.
 
-**Carlisia Pinto:** But talk to us more about that. Because when I think about it, I think that at an individual level the security issues would be much easier to grasp and comprehend for a micro-service, for a single micro-service. But when you have so many, it sounds that would be more difficult. So how does the container help with that? And contrast that, please, with how it would be with a virtual machine.
+**Carlisia Thompson:** But talk to us more about that. Because when I think about it, I think that at an individual level the security issues would be much easier to grasp and comprehend for a micro-service, for a single micro-service. But when you have so many, it sounds that would be more difficult. So how does the container help with that? And contrast that, please, with how it would be with a virtual machine.
 
 **Liz Rice:** Yeah, I think it's really about decomposing the problem the same way that the microservices, from a software architecture point of view, can decompose the problem. And the fact that you've now got these more isolated— well, we'll say containers, you've got a different problem in that you need to keep track of what each of those different containers is doing and whether it's behaving the way it's supposed to. But I think, particularly from looking at runtime, it should be easier to stop anomalous behavior than if you've got a lot of things going on.
 
 A really good example is if you've got a micro-service that is supposed to—maybe it's product search, that is supposed to look up products from a product database, so it only ever reads from the database. And so, if you were to catch that microservice trying to write something to a database, you'd know that it was something that isn't supposed to happen, whether it's nefarious or somebody wrote some bad code somewhere. But I think that is a really good model for thinking "Oh yeah, we can reason about what these different microservices should do." Did that help?
 
-**Carlisia Pinto:** Yeah, and I'm thinking... So, is there a container-level security gateway, I would say?
+**Carlisia Thompson:** Yeah, and I'm thinking... So, is there a container-level security gateway, I would say?
 
 **Liz Rice:** \[00:08:01.13\] Yeah, so at Aqua we have a product that covers the whole life cycle of containers, really. So we do the image scanning and looking for vulnerabilities... And in some ways, that's more complex for containers, just because you've got more instances of different pieces of code. I guess there's a few other bits and pieces, but the bit that I think is fascinating is runtime profiling and learning what the containers are supposed to do, and being able to alert when something unexpected happens.
 
-**Carlisia Pinto:** Yeah, that is exactly what I was thinking about, and I think you touched on that. With so many microservices and so many images and maybe even so many containers, you would need something like what your company does, that would help manage the security for all of the basic group.
+**Carlisia Thompson:** Yeah, that is exactly what I was thinking about, and I think you touched on that. With so many microservices and so many images and maybe even so many containers, you would need something like what your company does, that would help manage the security for all of the basic group.
 
 **Liz Rice:** Right, yeah. And it's wonderful; see I've been with Aqua for, I guess, coming up six months now. And it's one of the things that really excited me about joining them, was I can really see how this product is needed. And I haven't come from a security background, I'd come from a development background and a containers background, but seeing the product and seeing it catching potential exploits as they happen, I thought "Yeah, this seems really important and valuable" and it's fun to work on a product that people pay money for.
 
-**Carlisia Pinto:** Yeah, absolutely. And that is done in Go as well.
+**Carlisia Thompson:** Yeah, absolutely. And that is done in Go as well.
 
 **Liz Rice:** Yeah. So some of it is Go, some of it there is some C code as well, because we're doing some pretty low-level things to monitor what's going on inside the containers.
 
@@ -94,13 +94,13 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Erik St. Martin:** Interrupts and interrupt handlers and all kinds of really deep-level kernel stuff.
 
-**Carlisia Pinto:** And how you approach looking at these things that are lower-level and we don't get to look at on a daily basis unless we make an effort and have the curiosity to do so — so, the way you approach looking at these things I think makes a big difference.
+**Carlisia Thompson:** And how you approach looking at these things that are lower-level and we don't get to look at on a daily basis unless we make an effort and have the curiosity to do so — so, the way you approach looking at these things I think makes a big difference.
 
 \[00:12:51.00\] For example, looking at this talk about the syscalls, there was a moment when you outputted some stack to the screen, to the terminal, and I was looking at that and was like 'Okay, that's what the output is.' And you were looking at that and thinking 'No, those are duplicates.' I would've been thinking it 'Well, that's how it is.' And you were thinking 'Well, those are duplicates, that doesn't sound right, so let's look more into it.' I would've just totally taken it for granted that that's how it was.
 
 **Liz Rice:** Yeah, I think I might have had a certain amount of... I don't know, I'm gonna say storytelling license there, because I had actually seen the bit in the man page that says "You've got these two different stop states, and you can't tell the difference who's the tracer", but it just makes more sense as a story to do it that way, to say 'Oh, look, here's the duplicate, now I'm gonna explain why they're duplicate and address that issue.'
 
-**Carlisia Pinto:** Yeah, but I think it highlights something important, which is sometimes when we are looking at something that's completely new, we can just take for granted that that's how it's supposed to work, but we should always have a... Take a second look, and question and inquire and go deeper. I thought it was a good reminder to do that.
+**Carlisia Thompson:** Yeah, but I think it highlights something important, which is sometimes when we are looking at something that's completely new, we can just take for granted that that's how it's supposed to work, but we should always have a... Take a second look, and question and inquire and go deeper. I thought it was a good reminder to do that.
 
 **Liz Rice:** Yeah. You know who I think is amazing at this? It's [Julia Evans](https://twitter.com/b0rk), if you've seen her at work...
 
@@ -108,7 +108,7 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Liz Rice:** Because she is so good at having that kind of curiosity about how does a thing work? Amazing.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Erik St. Martin:** And the thing that I love about that approach, with those quick graphics and things like that that she creates, is it gives you this really abstract understanding of it, but it gives you enough hooks where if you wanted to dig a little deeper on one section, you could. And that usually tends to be the problem with these really highly technical things, as it seems so broad you don't know where to start.
 
@@ -116,7 +116,7 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Erik St. Martin:** Yeah. I absolutely love her work, and if you are not following her on Twitter, you definitely should.
 
-**Carlisia Pinto:** Yes, absolutely. I agree with that too.
+**Carlisia Thompson:** Yes, absolutely. I agree with that too.
 
 **Liz Rice:** Definitely.
 
@@ -174,7 +174,7 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Brian Ketelsen:** So...
 
-**Carlisia Pinto:** So, I'm curious... Go ahead, Brian.
+**Carlisia Thompson:** So, I'm curious... Go ahead, Brian.
 
 **Brian Ketelsen:** I was just going to ask what the app did and then, as a follow-up question, did they invite you back afterwards?
 
@@ -182,7 +182,7 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Brian Ketelsen:** Yeah, a little bit creepy. That's cool.
 
-**Carlisia Pinto:** Yeah, I was going to ask if there was any particular reason why you didn't choose Go. And nothing against you having them done that in another language, but I'm more curious to know if in the case you did it \[unintelligible 00:27:31.11\] in Go for this project and Go wasn't up to par?
+**Carlisia Thompson:** Yeah, I was going to ask if there was any particular reason why you didn't choose Go. And nothing against you having them done that in another language, but I'm more curious to know if in the case you did it \[unintelligible 00:27:31.11\] in Go for this project and Go wasn't up to par?
 
 **Liz Rice:** So, I don't know if this is still the case, but Amazon, and certainly at the time, supported Node and Python, and I think maybe one other. Certainly, those two, of which Python I was by far the most familiar with, so that was the natural choice to hack something together.
 
@@ -198,31 +198,31 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Erik St. Martin:** Yeah, and I'm really interested in that. I know Brian and I are big [Kubernetes](https://kubernetes.io/) fans. Carlisia, is [Fastly](https://www.fastly.com/) using Kubernetes at all?
 
-**Carlisia Pinto:** Not that I know of. At least the work that I do doesn't use any Kubernetes. Docker, yes, Kubernetes no. But in some other parts of the company maybe, I don't know.
+**Carlisia Thompson:** Not that I know of. At least the work that I do doesn't use any Kubernetes. Docker, yes, Kubernetes no. But in some other parts of the company maybe, I don't know.
 
 **Erik St. Martin:** See, you make the names sound so much better. Say Kubernetes again.
 
-**Carlisia Pinto:** Kubernetes.
+**Carlisia Thompson:** Kubernetes.
 
 **Erik St. Martin:** Ah, see, the first time I think you said Kubernetee, you had a nice inflection on it and it sounded...
 
-**Carlisia Pinto:** I think I'm mispronouncing a letter or two the first time. It sounded exotic to you...
+**Carlisia Thompson:** I think I'm mispronouncing a letter or two the first time. It sounded exotic to you...
 
 **Erik St. Martin:** It did.
 
-**Carlisia Pinto:** ...but it was just wrong. \[laughter\] The second time I pronounced it right.
+**Carlisia Thompson:** ...but it was just wrong. \[laughter\] The second time I pronounced it right.
 
 **Erik St. Martin:** And I am gonna go with the first time was right. I liked that, it sounds more elegant.
 
-**Carlisia Pinto:** Whenever you want me to say it, I'll say it.
+**Carlisia Thompson:** Whenever you want me to say it, I'll say it.
 
 **Liz Rice:** I think I flip between Kubernetes and Kuberneetees, I'm like really haven't... I really don't know which is right. It's a bit like schedule and schedule - I genuinely don't know which of those two is the right pronunciation.
 
-**Carlisia Pinto:** I don't think it matters in the end. Let's come up with more different ways of pronouncing it. \[laughter\]
+**Carlisia Thompson:** I don't think it matters in the end. Let's come up with more different ways of pronouncing it. \[laughter\]
 
 **Liz Rice:** Anyway, I was gonna talk about kube-bench, wasn't I?
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Liz Rice:** Yes, so there is an organization called the [Centre for Internet Security](https://www.cisecurity.org/), and they write guidelines they call benchmarks for how to configure software to implement best practices for security. And they've got a -- I guess over the last two or three months they released a benchmark for Kubernetes, and—so, basically the guidelines are 200 pages of 'You should check whether or not you are running with this option', and 'You should check that this flag is set to zero', and 'You should check that this other flag is set to something else.' And so it's a lot of tests that we have with kube-bench, automated. And it's a Go program that implements these tests, and the tests themselves are written in these YAML files. So, as the spec evolves, as the benchmark evolves it should be easy for us to update the test files. And it should also be possible for people to add their own custom tests if they want to. Essentially, each test is mostly calling out to some kind of... Say, for example, calling out to PS and checking the results of PS to see what executables are running, that kind of thing. So, it's a pretty flexible tool.
 
@@ -310,35 +310,35 @@ Secrets management is another important aspect, and Kubernetes fairly recently -
 
 **Erik St. Martin:** I don't even know what time it was at night when Brian messaged me 'Dude, you have to see this!'
 
-**Carlisia Pinto:** I don't know, I use [Fish](https://github.com/fish-shell/fish-shell) and I'm pretty happy. It seems that all the info that I get from this Powerline, I get with my Fish shell. I don't see that I can benefit from having this on top of Fish. Do you think?
+**Carlisia Thompson:** I don't know, I use [Fish](https://github.com/fish-shell/fish-shell) and I'm pretty happy. It seems that all the info that I get from this Powerline, I get with my Fish shell. I don't see that I can benefit from having this on top of Fish. Do you think?
 
 **Erik St. Martin:** Alright, elevator pitch me on Fish.
 
-**Carlisia Pinto:** Oh my God!
+**Carlisia Thompson:** Oh my God!
 
 **Brian Ketelsen:** Yeah, I wanna hear the Fish pitch. Let's listen.
 
 **Erik St. Martin:** I did the [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) to [Zsh](https://en.wikipedia.org/wiki/Z_shell) transition, but I haven't tried Fish, so sell it, it's all on you.
 
-**Carlisia Pinto:** Oh, I went from bash to Z shell and then Fish, and Fish is... Can't compare. It's so much better than the other ones. Every once in a while I have to switch to Bash, but it's so easy; I just type 'bash' and I get my Bash shell to run some commands. That's not compatible with Fish, but then I go back to Fish.
+**Carlisia Thompson:** Oh, I went from bash to Z shell and then Fish, and Fish is... Can't compare. It's so much better than the other ones. Every once in a while I have to switch to Bash, but it's so easy; I just type 'bash' and I get my Bash shell to run some commands. That's not compatible with Fish, but then I go back to Fish.
 
 Talking about the practical stuff - it's very easy to install, it's very easy to use... I forgot what they call it now, profile or templates... Different templates you can use to customize how your shell will look and behave, what kind of info you get. It's so easy to go from one to the other. It has a UI actually, so you boot the UI and through the UI you can configure different things, which is nice because you get to see all the possible configurations that you can tweak. It's so user friendly, it's ridiculous. No comparison with Z shell - it's such a pain to change anything and install different templates.
 
 **Liz Rice:** I get scared of things that have loads of configuration, because I think I'm gonna spend way too much time trying to configure it. I just want things to work.
 
-**Carlisia Pinto:** Yeah, but it does just work out of the box. If you want to change the color or something, you've got templates. But it just works out of the shell, it's super-light, it's super-fast and it's really cute. Sold? Erik, are you switching?
+**Carlisia Thompson:** Yeah, but it does just work out of the box. If you want to change the color or something, you've got templates. But it just works out of the shell, it's super-light, it's super-fast and it's really cute. Sold? Erik, are you switching?
 
 **Erik St. Martin:** I don't know, I'll look at it. How is that? I'll try it.
 
-**Carlisia Pinto:** Oh. I consider that a win, if you will look at it.
+**Carlisia Thompson:** Oh. I consider that a win, if you will look at it.
 
 **Erik St. Martin:** I think in general I need to rethink my workflow. And it's weird, in my early development days I was constantly tweaking my workflow — the tools I used, the configurations for them and things... But I think my shell and Vim configs have been around for ages now, and I think they're showing their age in bloat. So, I'm highly considering wiping everything and starting over. So maybe Fish will be on the table for that.
 
-**Carlisia Pinto:** I highly recommend it.
+**Carlisia Thompson:** I highly recommend it.
 
 **Erik St. Martin:** And any other things that people wanna sell me on? But you're not taking away my [i3 Window Manager](https://i3wm.org/), I'm keeping that.
 
-**Carlisia Pinto:** Oh, you can keep that.
+**Carlisia Thompson:** Oh, you can keep that.
 
 **Liz Rice:** This week, I think it was [Nate Finch](https://twitter.com/NateTheFinch) that had a [tweet](https://twitter.com/natethefinch/status/899730215957561344?lang=en) and I copied it to have a touch bar button on my MacBook Pro, `if err != nil`, a convenience button, that's on my MacBook.
 
@@ -346,35 +346,35 @@ Talking about the practical stuff - it's very easy to install, it's very easy to
 
 **Erik St. Martin:** I think that's the only fun thing about the touch bar, is being able to come up with your own things. But the no-escape key kills me.
 
-**Carlisia Pinto:** Yeah, I love that. \[laughs\] Is that an actual thing? Is that an actual button you can put on the keyboard? I wasn't sure if he was just joking.
+**Carlisia Thompson:** Yeah, I love that. \[laughs\] Is that an actual thing? Is that an actual button you can put on the keyboard? I wasn't sure if he was just joking.
 
 **Liz Rice:** \[00:48:06.00\] I mean the external one that you can plug in.
 
 **Erik St. Martin:** Yeah, the newer MacBook Pros have a touchscreen bar thing, and you can program it to have new buttons there that do things.
 
-**Carlisia Pinto:** Oh... Okay, that was neat.
+**Carlisia Thompson:** Oh... Okay, that was neat.
 
 **Brian Ketelsen:** Yeah, it was a real app that he built.
 
-**Carlisia Pinto:** So wait, you could program one of those buttons to be the escape keys, then.
+**Carlisia Thompson:** So wait, you could program one of those buttons to be the escape keys, then.
 
 **Liz Rice:** Yeah, there is an escape key there all the time, nearly all the time. Every time I look for an escape key it's where I expect it to be.
 
-**Carlisia Pinto:** Okay.
+**Carlisia Thompson:** Okay.
 
 **Liz Rice:** But sometimes you get some pretty fun things, like I don't know... You're reading a tweet and it suggests an emoticon for you, or if you're watching a video you can scroll through the video on the touch bar, which is quite nice.
 
-**Carlisia Pinto:** I didn't know that, that sounds really neat. So...
+**Carlisia Thompson:** I didn't know that, that sounds really neat. So...
 
 **Erik St. Martin:** So...
 
-**Carlisia Pinto:** Wait, are you jumping to the next one? I wanna go first.
+**Carlisia Thompson:** Wait, are you jumping to the next one? I wanna go first.
 
 **Erik St. Martin:** I was just going to mention something related to... It's not Go specific, but I was gonna mention something related to the playing with changing up your work environment.
 
 **Brian Ketelsen:** Do it.
 
-**Carlisia Pinto:** Do it.
+**Carlisia Thompson:** Do it.
 
 **Erik St. Martin:** So, did anybody see a program — I don't know how you pronounce it — [Oni](https://www.onivim.io/)... And it's an Electron interface over the top of Neovim.
 
@@ -382,25 +382,25 @@ Talking about the practical stuff - it's very easy to install, it's very easy to
 
 **Erik St. Martin:** What did you think? That's on my list to play with, because I like the idea of IDEs, but I also love Vim, so...
 
-**Carlisia Pinto:** Link, please. \[unintelligible 00:49:34.16\]
+**Carlisia Thompson:** Link, please. \[unintelligible 00:49:34.16\]
 
 **Brian Ketelsen:** Yeah, it didn't add enough to Neovim for me to use a GUI. My Neovim setup is really happy for me, and this didn't add a ton. And it doesn't have Go backing stuff yet. You can use your Neovim plugins, but you're not gaining anything yet in Go, because they don't have the Go bindings. It looks like it's gonna be cool, but not yet.
 
 **Erik St. Martin:** Okay, Carlisia, what was it you had?
 
-**Carlisia Pinto:** Yeah, I wanna cite this project, because it's command line related, this project called [expanderr](https://github.com/stapelberg/expanderr), Expanderr with two r's at the end. And what it does is you install it, and then you tweak your editor, and whenever you type out a function call that returns anything, it will add the error on that function and put the curly brackets there for you, and adds return error. I guess with Expanderr -- so to add the error, not anything. So you'll get the `if error` bracket thing, and it either returns the error, or returns the log. I don't know how you configure that, but it looks like magic and we do that all the time, so it's pretty neat. The only issue is that it's only available for Emacs, but they are looking for people to contribute to do the extension for Vim and other IDEs.
+**Carlisia Thompson:** Yeah, I wanna cite this project, because it's command line related, this project called [expanderr](https://github.com/stapelberg/expanderr), Expanderr with two r's at the end. And what it does is you install it, and then you tweak your editor, and whenever you type out a function call that returns anything, it will add the error on that function and put the curly brackets there for you, and adds return error. I guess with Expanderr -- so to add the error, not anything. So you'll get the `if error` bracket thing, and it either returns the error, or returns the log. I don't know how you configure that, but it looks like magic and we do that all the time, so it's pretty neat. The only issue is that it's only available for Emacs, but they are looking for people to contribute to do the extension for Vim and other IDEs.
 
 **Erik St. Martin:** Now, you wanna hear how even more related this is to the conversation we just had?
 
-**Carlisia Pinto:** Uh-huh.
+**Carlisia Thompson:** Uh-huh.
 
 **Erik St. Martin:** The person who created that is also the creator of i3 Window Manager.
 
-**Carlisia Pinto:** \[laughs\] That is cool.
+**Carlisia Thompson:** \[laughs\] That is cool.
 
 **Brian Ketelsen:** I'm glad you said it before I did.
 
-**Carlisia Pinto:** Michael Stapelberg.
+**Carlisia Thompson:** Michael Stapelberg.
 
 **Brian Ketelsen:** Yes. I got to meet him at GopherCon and it was a little bit like hero worship.
 
@@ -408,21 +408,21 @@ Talking about the practical stuff - it's very easy to install, it's very easy to
 
 **Brian Ketelsen:** Yeah, he brought us stickers.
 
-**Carlisia Pinto:** That is cool.
+**Carlisia Thompson:** That is cool.
 
 **Brian Ketelsen:** Very excited that we talked about i3 so much on Go Time.
 
-**Carlisia Pinto:** \[00:52:02:25\] Yeah, as soon as they do that extension for VS code, I'm—I already installed it, I just can't use it.
+**Carlisia Thompson:** \[00:52:02:25\] Yeah, as soon as they do that extension for VS code, I'm—I already installed it, I just can't use it.
 
 **Brian Ketelsen:** Alright, I've got another one. More projects. I have this absolute fascination with distributed tracing, and I've been playing with all the different distributed tracing tools over the last couple of weeks. And this is one that came out quite a while ago, it started coming up quite a while ago, but I wasn't really sure where they were going with it, and now it's usable and awesome. So, Uber has released their open tracing collection system called [Jaeger](http://www.jaegertracing.io/). And it is really awesome. So the tools are fast and relatively easy—I mean, in terms of distributed tracing, relatively easy to implement. And the UI that you can use to look at your traces is just killer, it's so nice.
 
-**Carlisia Pinto:** That’s neat.
+**Carlisia Thompson:** That’s neat.
 
 **Erik St. Martin:** That's one of the ones I haven't played with yet. Distributed tracing is huge for modern projects. And I remember playing with some of the - like [Dapper](https://ai.google/research/pubs/pub36356), and [Zipkin](https://github.com/openzipkin/zipkin) and things like that early on. So what sets this apart?
 
 **Brian Ketelsen:** The UI is really nice - it's clean, it's easy to use; it supports [Open Tracing's API](http://opentracing.io/) directly, which means you don't actually have to use Jaeger's SDK to instrument your code, you just use the regular Open Tracing Go bindings, and then Jaeger takes those... It's the reporter/collector part. So, because there's a standard for Open Tracing, Jaeger takes all of those traces and you just set Jaeger as your reporter and collector. I have a special treat though, and this will only work probably for the live group, but if you go to 2018.gophercon.com, you can see a boring blank Buffalo web app page, and...
 
-**Carlisia Pinto:** Wait, did you say 2018?
+**Carlisia Thompson:** Wait, did you say 2018?
 
 **Brian Ketelsen:** Yeah, 2018.gophercon.com, and there's nothing exciting there other than the fact that it's a brand-new beginning Buffalo web app. But then go to trace.gophercon.com, and I have an instance of Jaeger up, and you can see all of the traces that have happened in the last hour or whatever it is, so you get an idea of what the UI looks like. Now, they're boring traces because I don't have anything running in the background, it's literally just one request, but it gives you a sense of what the UI looks like. And unfortunately, by the time this goes to air this will probably be down, so you'll just have to go to the Jaeger website and see. But for the live listeners, you get this special treat of seeing what Jaeger looks like before I rip it down.
 
@@ -464,7 +464,7 @@ Talking about the practical stuff - it's very easy to install, it's very easy to
 
 **Erik St. Martin:** So, Carlisia, do you have anything this week?
 
-**Carlisia Pinto:** I don't.
+**Carlisia Thompson:** I don't.
 
 **Erik St. Martin:** How about you, Liz? Do you have a project or a maintainer you want to give a shoutout to?
 
@@ -480,11 +480,11 @@ Talking about the practical stuff - it's very easy to install, it's very easy to
 
 **Brian Ketelsen:** It is, it's probably a great topic for a talk. And it just occurred to me, when I woke up this morning, the first tweet I made was wishing [Mark Bates](https://twitter.com/markbates) a happy birthday, so we should probably shout him out on the show too, because we talked about Buffalo already and we love keeping the people in our community feeling special on their birthday. So happy birthday, Mark!
 
-**Carlisia Pinto:** Happy birthday, Mark, and...
+**Carlisia Thompson:** Happy birthday, Mark, and...
 
 **Erik St. Martin:** We hope you'll hit puberty soon.
 
-**Carlisia Pinto:** I was gonna say yeah, I'm glad we don't have to sing. \[laughter\]
+**Carlisia Thompson:** I was gonna say yeah, I'm glad we don't have to sing. \[laughter\]
 
 **Erik St. Martin:** I think even though most people would hear this a week late, we should still wish him a happy birthday on Twitter.
 
@@ -498,25 +498,25 @@ Talking about the practical stuff - it's very easy to install, it's very easy to
 
 **Brian Ketelsen:** Oh, shut up! Shut up!
 
-**Carlisia Pinto:** Somebody asked that on Twitter, I forgot who... If anybody had a clip of Brian Ketelsen smashing his guitar, because nobody saw it.
+**Carlisia Thompson:** Somebody asked that on Twitter, I forgot who... If anybody had a clip of Brian Ketelsen smashing his guitar, because nobody saw it.
 
 **Brian Ketelsen:** I hate you all.
 
-**Carlisia Pinto:** I'm sorry.
+**Carlisia Thompson:** I'm sorry.
 
 **Erik St. Martin:** That's just because it took you less time to break yours.
 
-**Carlisia Pinto:** I was right there.
+**Carlisia Thompson:** I was right there.
 
 **Brian Ketelsen:** Oh, wait. Steve says he has one. Post it or it didn't happen, Steve. I'm under the gun here.
 
 **Erik St. Martin:** \[laughs\]
 
-**Carlisia Pinto:** Alright, Flin said he saw him. I trust him.
+**Carlisia Thompson:** Alright, Flin said he saw him. I trust him.
 
 **Erik St. Martin:** I did see Brian smash his guitar.
 
-**Carlisia Pinto:** Wow, I don't trust you. You would cover for Brian.
+**Carlisia Thompson:** Wow, I don't trust you. You would cover for Brian.
 
 **Brian Ketelsen:** \[01:00:04.00\] That's just rough!
 
@@ -526,11 +526,11 @@ Talking about the practical stuff - it's very easy to install, it's very easy to
 
 **Erik St. Martin:** So, mind for today... I don't know how you pronounce it, I think it's Azeria, but she is   on [Twitter](https://twitter.com/Fox0x01). She is a security person I follow, super smart, but she has this awesome seven-part series on her website, [azeria-labs.com](https://azeria-labs.com/), for writing ARM assembly. There's another two-part series on if you wanna learn how to actually compromise ARM processes, and write shell code and stuff like that. But I'm learning a little bit about ARM processors and how they differ from Intel processors, and even learning a bit about assembly. If you're interested in that type of stuff, that [blog series](https://azeria-labs.com/writing-arm-assembly-part-1/) is really good; we'll link to it in the show notes and I will drop it in our Slack channel for people who are listening right now. Carlisia, dig me to it, there it is.
 
-**Carlisia Pinto:** Is this core work?
+**Carlisia Thompson:** Is this core work?
 
 **Erik St. Martin:** Yeah, I'm a big fan of even -- I don't think anybody should... You don't have to learn to build software in assembly, or in C and things like that, but I think having a surface-level knowledge of things, a level or two below you, definitely makes you a better engineer. Because a lot of stuff are leaky abstractions, right? It's great when everything is working perfectly, but when it's broken, having a rough idea of what's happening under the hood can often at least lead you in the right direction of diagnosing it.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Brian Ketelsen:** Do we have any other free software Friday things? Or we're wrapping this thing up?
 
@@ -546,16 +546,16 @@ Talking about the practical stuff - it's very easy to install, it's very easy to
 
 **Liz Rice:** It's been really fun to be here.
 
-**Carlisia Pinto:** Absolutely! Thank you!
+**Carlisia Thompson:** Absolutely! Thank you!
 
 **Brian Ketelsen:** When I grow up, I want to give talks half as engaging as yours.
 
 **Liz Rice:** You do! You've done [that UK one with the Game of Thrones](https://www.youtube.com/watch?v=mxlJqrVSalY&list=PLDWZ5uzn69eyM81omhIZLzvRhTOXvpeX9&index=9&t=2s). Brilliant.
 
-**Carlisia Pinto:** I can't wait to see that.
+**Carlisia Thompson:** I can't wait to see that.
 
 **Erik St. Martin:** So a huge thank you to all of our listeners. Definitely share the show with friends, family, colleagues. We are on [Twitter](https://twitter.com/GoTimeFM). If you have suggestions or questions, hit us up on [ping](https://github.com/GoTimeFM/ping). With that, goodbye everybody, we'll see you next week.
 
-**Carlisia Pinto:** Bye!
+**Carlisia Thompson:** Bye!
 
 **Liz Rice:** Bye!

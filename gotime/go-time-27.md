@@ -1,6 +1,6 @@
 **Erik St. Martin:** It is episode \#27 of GoTime. Today on the show we have myself, Erik St. Martin, we have Carlisia Pinto...
 
-**Carlisia Pinto:** Hi there.
+**Carlisia Thompson:** Hi there.
 
 **Erik St. Martin:** Brian Ketelsen is out today, and filling in for him today is Bill Kennedy. Say hello, Bill...
 
@@ -200,15 +200,15 @@ I might have to whip up a silly example of something like that to see whether I 
 
 **Erik St. Martin:** Alright, we are back. Carlisia, I know you had some questions for Keith.
 
-**Carlisia Pinto:** Yeah, I was curious to know if you do any side projects when you're not working on compilers, or if you do a different sort of compiler work when you're not at work?
+**Carlisia Thompson:** Yeah, I was curious to know if you do any side projects when you're not working on compilers, or if you do a different sort of compiler work when you're not at work?
 
 **Keith Randall:** Like when I'm home, hacking by myself?
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Keith Randall:** Yeah, I sort of hack on random stuff. I wrote a pretty good integer factorization library, which you can grab on my GitHub account. It can factor 50-digit integers. I'm a math geek and a performance geek, so I like to sort of hack on stuff like that.
 
-**Carlisia Pinto:** Very cool. I'm gonna check that out.
+**Carlisia Thompson:** Very cool. I'm gonna check that out.
 
 **Bill Kennedy:** Are there are other languages that you work in, other than C -- like, have you looked at Rust at all? What do you think about their philosophies around integrity and around the runtime there?
 
@@ -244,7 +244,7 @@ So I agree that the semantics of a functional language are much easier to unders
 
 **Erik St. Martin:** Yeah. So speaking of cool projects, do you guys wanna get into interesting projects and news, and we'll just kind of talk about stuff that's going on right now?
 
-**Carlisia Pinto:** Yeah, let's do that.
+**Carlisia Thompson:** Yeah, let's do that.
 
 **Keith Randall:** Okay.
 
@@ -312,11 +312,11 @@ Basically, it detects if you have a reader and a writer at the same time for a m
 
 **Erik St. Martin:** Alright. Carlisia, wanna talk to us about some stuff you've seen?
 
-**Carlisia Pinto:** Yeah, I wanted to mention that GothamGo videos have started to pop up on YouTube. There are three now - Russ Cox, Cassandra Salisbury and Aditya Mukerjee, and hopefully the rest will be coming soon.
+**Carlisia Thompson:** Yeah, I wanted to mention that GothamGo videos have started to pop up on YouTube. There are three now - Russ Cox, Cassandra Salisbury and Aditya Mukerjee, and hopefully the rest will be coming soon.
 
 **Erik St. Martin:** That one... What was that - reimplementing Git in Go, or something like that. I haven't watched it yet, but I saw it listed.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Erik St. Martin:** Were you at GothamGo, Keith?
 
@@ -326,17 +326,17 @@ Basically, it detects if you have a reader and a writer at the same time for a m
 
 **Erik St. Martin:** What were the other two, Carlisia?
 
-**Carlisia Pinto:** The other two were Dissection of Gophers by Cassandra Salisbury, and Codebase Refactoring with Russ Cox, and the Cloning Git one was the one by Aditya Mukerjee. We also started having the Advent series, the blog post series on the Gopher Academy blog. Those are really cool. We have one that's about timers, and a really good one about contributing to Go. That got the blessing from Brad. \[laughter\] There are a bunch of really good ones. It's a longer list.
+**Carlisia Thompson:** The other two were Dissection of Gophers by Cassandra Salisbury, and Codebase Refactoring with Russ Cox, and the Cloning Git one was the one by Aditya Mukerjee. We also started having the Advent series, the blog post series on the Gopher Academy blog. Those are really cool. We have one that's about timers, and a really good one about contributing to Go. That got the blessing from Brad. \[laughter\] There are a bunch of really good ones. It's a longer list.
 
 For people who don't know, every December Gopher Academy does this, and every day a new blog post will go out. Anybody can volunteer to submit a post, so next year, people, stay tuned and just hop in and ask around where you can put your name down for a post.
 
 **Erik St. Martin:** There might be space left, too. Damian Gryski is maintaining the list of who's on what days, so there may actually still be openings this year.
 
-**Carlisia Pinto:** That is a good point. I know for sure there are openings for backups.
+**Carlisia Thompson:** That is a good point. I know for sure there are openings for backups.
 
 **Erik St. Martin:** Oh, yes. And there was a talk at GopherCon this year too, Michael Matloob I think it was... He did a talk about contributing too, which was really awesome.
 
-**Carlisia Pinto:** That is true. Contributing to Go, you mean...
+**Carlisia Thompson:** That is true. Contributing to Go, you mean...
 
 **Erik St. Martin:** Yes. Speaking of which, do you get a lot of contributions for the compiler itself, Keith? Or are people mostly contributing to the standard library?
 
@@ -360,7 +360,7 @@ We had a lot of help from Josh Snyder and various other folks early on in the SS
 
 **Erik St. Martin:** Excellent. Carlisia, what else do we have?
 
-**Carlisia Pinto:** We have... Oh, by the way, I wanted to give a shout out to Damian Gryski because he's been running the December series of blog posts for Gopher Academy, and he's doing a great job; it's so much work... He has to get after people who promised to deliver a post and don't show up on time... I don't know how I know that, but it's a lot of work and if it wasn't for him maybe we wouldn't have it. Those are really excellent posts.
+**Carlisia Thompson:** We have... Oh, by the way, I wanted to give a shout out to Damian Gryski because he's been running the December series of blog posts for Gopher Academy, and he's doing a great job; it's so much work... He has to get after people who promised to deliver a post and don't show up on time... I don't know how I know that, but it's a lot of work and if it wasn't for him maybe we wouldn't have it. Those are really excellent posts.
 
 Also, he's on Slack and he said that there are no openings right now, but there are backup openings. Whoever submits a backup and doesn't get published as backup in December, will get published in January for sure. So please ping him or us and we'll direct you if you're interested for this December.
 
@@ -370,11 +370,11 @@ What else... I ran into this because I was doing some research this week - anoth
 
 **Erik St. Martin:** Cool. Yeah, it looks like it shows not just the things that are part of the Go tool itself, but also some of the other tools that have kind of come out around it, like Benchcmp (BenchCompare) and the bench visualization, where it creates the SVG output of the comparing to benchmarks, and things like that. That's cool.
 
-**Carlisia Pinto:** Yeah. And the last thing on the list here is that there is a proposal for the top mod on the Golang Reddit to be Damian Gryski, and I personally think it's great. Basically, what's happening is there's the Golang channel which hasn't been very well moderated, by everybody's account, and because of the Google presence there, people started thinking it was an official channel from the Golang team, and it never was meant to be. So now people are saying, "Whoever's the current mod, that person will step out and choose somebody new who can really moderate and choose new moderators", and the proposal... I think -- who was the person who did the proposal? Was it Russ?
+**Carlisia Thompson:** Yeah. And the last thing on the list here is that there is a proposal for the top mod on the Golang Reddit to be Damian Gryski, and I personally think it's great. Basically, what's happening is there's the Golang channel which hasn't been very well moderated, by everybody's account, and because of the Google presence there, people started thinking it was an official channel from the Golang team, and it never was meant to be. So now people are saying, "Whoever's the current mod, that person will step out and choose somebody new who can really moderate and choose new moderators", and the proposal... I think -- who was the person who did the proposal? Was it Russ?
 
 **Erik St. Martin:** I think it was Russ, yeah.
 
-**Carlisia Pinto:** \[00:43:49.00\] Russ, yes. He's proposing that Damian Gryski is the person. So if you have an opinion, hop on there and speak up because that's probably going to change very quickly.
+**Carlisia Thompson:** \[00:43:49.00\] Russ, yes. He's proposing that Damian Gryski is the person. So if you have an opinion, hop on there and speak up because that's probably going to change very quickly.
 
 **Erik St. Martin:** Is there a way to vote, or is it just unless there's no downvotes...? How does that work
 
@@ -384,11 +384,11 @@ What else... I ran into this because I was doing some research this week - anoth
 
 **Bill Kennedy:** Quickly.
 
-**Carlisia Pinto:** Yeah. And it's going to be better for the community to have real and consistent moderation there.
+**Carlisia Thompson:** Yeah. And it's going to be better for the community to have real and consistent moderation there.
 
 **Bill Kennedy:** Yeah, I walked away earlier this year from Reddit. It was such poison to me that I didn't even -- if I've looked at it even five times this year, that's a lot. Knowing Damian's going to be the top moderator, I'll definitely come back and start looking at it again.
 
-**Carlisia Pinto:** Yeah. It's good, because Reddit is actually very good. There are some interesting posts... I mean, the posts that are popping there, we see them everywhere, but there are some interesting discussions. Every once in a while it runs amok, but it's pretty good otherwise.
+**Carlisia Thompson:** Yeah. It's good, because Reddit is actually very good. There are some interesting posts... I mean, the posts that are popping there, we see them everywhere, but there are some interesting discussions. Every once in a while it runs amok, but it's pretty good otherwise.
 
 **Erik St. Martin:** Keith, how do you keep up with what's going on in the community? Are you mostly heads down, or do you kind of watch for projects that are coming out that interest you?
 
@@ -448,7 +448,7 @@ I'm sure there's specific language features that nobody's gonna pull in some gna
 
 **Erik St. Martin:** So does anybody have any other interesting news or projects they wanna talk about, or do we wanna move into \#FreeSoftwareFriday?
 
-**Carlisia Pinto:** I don't.
+**Carlisia Thompson:** I don't.
 
 **Erik St. Martin:** I've been traveling a lot this week, so I've been kind of \[unintelligible 00:49:30.27\] How about you, Bill?
 
@@ -456,7 +456,7 @@ I'm sure there's specific language features that nobody's gonna pull in some gna
 
 Daniel shared this week another repo called go-hep, which is High-Energy Physics community stuff. It's amazing to see the communities that are coming in, that I guess were kind of exclusively Python at some point; now, going full throttle into Go. That's really exciting.
 
-**Carlisia Pinto:** Allow me to correct you, Bill, just a little bit. It's not a repo, it's a whole organization, and it's got a bunch of projects, very interesting.
+**Carlisia Thompson:** Allow me to correct you, Bill, just a little bit. It's not a repo, it's a whole organization, and it's got a bunch of projects, very interesting.
 
 **Bill Kennedy:** Yeah, that's what I meant. Thank you.
 
@@ -466,7 +466,7 @@ Daniel shared this week another repo called go-hep, which is High-Energy Physics
 
 **Erik St. Martin:** Oh, interesting. And how about you, Carlisia?
 
-**Carlisia Pinto:** I ran into a project - I have not used it before, but it looks really cool. It was here in this document, but it was also in this Brazilian newsletter about Go called The Week In Go. It is the JSON Incremental Digger (JID). Basically, you install it with Homebrew and you can navigate a JSON file on the command line. You can say, for example, "Node 0" and you get just that one node, and there are a bunch of things you can do. I thought it was really interesting.
+**Carlisia Thompson:** I ran into a project - I have not used it before, but it looks really cool. It was here in this document, but it was also in this Brazilian newsletter about Go called The Week In Go. It is the JSON Incremental Digger (JID). Basically, you install it with Homebrew and you can navigate a JSON file on the command line. You can say, for example, "Node 0" and you get just that one node, and there are a bunch of things you can do. I thought it was really interesting.
 
 **Erik St. Martin:** \[00:52:03.00\] Yeah, that's really cool. Have you seen this, Keith? You basically can give it JSON, and then you can kind of use JavaScript notation to traverse and dig down into the JSON file, and it has autocomplete of the properties, too.
 
@@ -476,7 +476,7 @@ Daniel shared this week another repo called go-hep, which is High-Energy Physics
 
 **Keith Randall:** Yeah, especially when you JSON gets large and it's really hard to... They tend to format as giant blobs that are hard to parse because they're all nested, and so on. It'd be nice to have a way to see just the parse you care about.
 
-**Carlisia Pinto:** Yeah, that's exactly what I thought. If you have a very long JSON, you can start up like, "Give me the counts" for whatever place in the tree or adds, and just get an idea of how many items there are.
+**Carlisia Thompson:** Yeah, that's exactly what I thought. If you have a very long JSON, you can start up like, "Give me the counts" for whatever place in the tree or adds, and just get an idea of how many items there are.
 
 **Erik St. Martin:** Yeah, some of the JSON gets really repetitive, and then you're trying to write these crazy regular expressions just so you can find the thing that you need in this giant JSON output.
 
@@ -494,7 +494,7 @@ Did you have a project you wanted to give a shout out to, Keith?
 
 **Erik St. Martin:** See? And Rob Pike commonly throws off Goose and Gorch... It's like, every year I hear him do a talk or something and there's a new way to pronounce them, and I'm like, "Huh! I didn't know that's how you were supposed to pronounce it."
 
-**Carlisia Pinto:** And now that you mentioned that, I feel compelled to mentioned that this week Brian Ketelsen dropped a blog post on the December series of the Gopher Academy posts, and it talks about the barbecue thingy that you guys did.
+**Carlisia Thompson:** And now that you mentioned that, I feel compelled to mentioned that this week Brian Ketelsen dropped a blog post on the December series of the Gopher Academy posts, and it talks about the barbecue thingy that you guys did.
 
 **Erik St. Martin:** Yeah, so initially... That's running on a Raspberry Pi, so they're kind of two separate parts that are going to be merged. So that's actually Go running on a Raspberry Pi, that's the PID controller, and I always forget the actual acronym. It's like proportional-integral-derivation, or something... It basically takes a set temperature and the current temperature and calculates an error value and determines whether or not the blower needs to turn on to provide oxygen to the fire to make it heat up. It's to keep a stable temp in the fire box of the smoker for long cooks, and that's all done in Go.
 
@@ -504,7 +504,7 @@ So did anybody else have anything they wanna talk about, or do we wanna wrap thi
 
 **Bill Kennedy:** I think we're ready to wrap it up.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Erik St. Martin:** Alright, so I wanna thank everybody on the show, especially thank you to Keith for taking time to come speak with us, and a huge thank you for all the work that you do on the compiler for the language we love.
 
@@ -516,6 +516,6 @@ Next episode will be with Thorsten Ball, and we're gonna be talking about buildi
 
 **Keith Randall:** Bye!
 
-**Carlisia Pinto:** Bye, thank you!
+**Carlisia Thompson:** Bye, thank you!
 
 **Bill Kennedy:** Bye!

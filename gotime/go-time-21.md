@@ -1,6 +1,6 @@
-**Erik St. Martin:** We are back for another episode of GoTime. It is episode number 21. Today's show is sponsored by Linode and Code School. On the show today we have myself, Erik St. Martin, we have Carlisia Campos, say hello, Carlisia...
+**Erik St. Martin:** We are back for another episode of GoTime. It is episode number 21. Today's show is sponsored by Linode and Code School. On the show today we have myself, Erik St. Martin, we have Carlisia Thompson, say hello, Carlisia...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And Brian Ketelsen...
 
@@ -28,9 +28,9 @@ In fact, my colleague at the time - he's also an OG - Keith Rarick and I really 
 
 **Blake Mizerany:** Yeah, so we started using it pretty heavily after that. It took Heroku a while to adopt it, but Keith and I definitely used it for a lot of stuff.
 
-**Carlisia Pinto:** These stories always fascinate me. When I found out that tests in Go were running so much faster than same-size apps in Ruby - because I also came from Ruby and Ruby on Rails - that was what got my interest. I'm wondering with you, when you looked at Go, what "looked at Go" means? Did you do a dry run, or did you just jump in and hoped for the best and it worked out? If it was the first case, did you do a benchmarking? How did your decision-making go more specifically?
+**Carlisia Thompson:** These stories always fascinate me. When I found out that tests in Go were running so much faster than same-size apps in Ruby - because I also came from Ruby and Ruby on Rails - that was what got my interest. I'm wondering with you, when you looked at Go, what "looked at Go" means? Did you do a dry run, or did you just jump in and hoped for the best and it worked out? If it was the first case, did you do a benchmarking? How did your decision-making go more specifically?
 
-**Blake Mizerany:** Well, we didn't have to do any real formal benchmarking. Writing a quick little Hello, World in Go, compiling and running it was... I mean, just a few little pokes at it with a browser; if it was a web server was an obvious, night and day difference from anything that we had written in Ruby.
+**Blake Mizerany:** Well, we didn't have to do any real formal benchmarking. Writing a quick little *Hello World* in Go, compiling and running it was... I mean, just a few little pokes at it with a browser; if it was a web server it was an obvious night and day difference from anything that we had written in Ruby.
 
 \[00:04:08.24\] It was pretty obvious at that point that that was the direction that we wanted to go, to start using Go.
 
@@ -70,13 +70,13 @@ I remember looking for certain things to exist in Go that I was used to having i
 
 I think some people are also looking for, you know, "I've got a checklist of things I need out of the box so that I can get started today", and I don't have an answer for them on that, but I hear things about Gorilla or Martini or things like that. To answer your question... I don't know, I don't have an answer. \[laughter\]
 
-**Carlisia Pinto:** I don't know how it is with the Python community or other communities, but with the Ruby community the message was so strong, "Don't reinvent the wheel. Don't write things yourself if there is a library out there. Use it." Also the message of "Extract your code into a gem and use that, and also share it with other people so they can use it." So I can see how people coming, at least from Ruby, would be immediately looking for a library or a framework. Not so much because they don't wanna write code, but because that was such a strong message.
+**Carlisia Thompson:** I don't know how it is with the Python community or other communities, but with the Ruby community the message was so strong, "Don't reinvent the wheel. Don't write things yourself if there is a library out there. Use it." Also the message of "Extract your code into a gem and use that, and also share it with other people so they can use it." So I can see how people coming, at least from Ruby, would be immediately looking for a library or a framework. Not so much because they don't wanna write code, but because that was such a strong message.
 
 **Blake Mizerany:** Right. Usually what I advocate in those scenarios is I go look for something that does what you're looking for and then copy and paste it into your code. Obviously, you can give attribution as well, but usually what I see when people ask that is that they're looking for a quick fix, for something that's already... How do I phrase this...? I think they're assuming the solution to their problem is going to be much harder and much more complicated than it really is. That's why people will reach for something...
 
 \[00:12:07.13\] Not to point fingers to anyone, but I've seen libraries where people have written an entire library to do exponential backoff. To me, that's a really simple four-loop and a random sleep; it's nothing too complicated. What I see in those libraries also is that what they wind up doing is you wind up with something that's much harder to use and requires more code to use that thing than if would had you just implemented it yourself. Usually that's what I see. Just really dissect the problem down to what it really is, and try to come up with the simplest solution. A lot of times it can be solved with a four-loop.
 
-**Carlisia Pinto:** That is a very good point. I started writing a greenfield app that I know is going to be in production sometime soon, and of course my being new to Go, my first reaction was "Well, let me look for some libraries that do this stuff that I haven't done, since I worked with Java." I haven't done codes that directly access a database for ages, because I had been working with Ruby and I have libraries that do that; Rails itself did that. So I was looking for the framework just to give me a little bit of nudge, so I didn't have so much of a learning curve; like, I'm learning things in Go still, and I don't wanna be looking into all of that at the same time. But now that I'm very comfortable with what I'm doing, I'm thinking "The next project I do, I don't even want to use the libraries." I want to focus more on using the standard library, learning what the standard library offers and be more intimate with that, because I think it's going to be to my benefit knowing that, and also using idiomatic Go, and not depend so much on what framework is out there. It might be that this framework is good for this, that framework would be good for that... No framework is going to be good for everything, and you might as well just know how to do it.
+**Carlisia Thompson:** That is a very good point. I started writing a greenfield app that I know is going to be in production sometime soon, and of course my being new to Go, my first reaction was "Well, let me look for some libraries that do this stuff that I haven't done, since I worked with Java." I haven't done codes that directly access a database for ages, because I had been working with Ruby and I have libraries that do that; Rails itself did that. So I was looking for the framework just to give me a little bit of an edge, so I didn't have so much of a learning curve; like, I'm learning things in Go still, and I don't wanna be looking into all of that at the same time. But now that I'm very comfortable with what I'm doing, I'm thinking "The next project I do, I don't even want to use the libraries." I want to focus more on using the standard library, learning what the standard library offers and be more intimate with that, because I think it's going to be to my benefit knowing that, and also using idiomatic Go, and not depend so much on what framework is out there. It might be that this framework would be good for this, that framework would be good for that... No framework is going to be good for everything, and you might as well just know how to do it.
 
 And like you said, I think your point is so good, because it ends up not being that hard. Now, after I looked at it, I was like, "Okay, this is not that complicated."
 
@@ -120,11 +120,11 @@ And like you said, I think your point is so good, because it ends up not being t
 
 **Erik St. Martin:** It's been a lot of fun.
 
-**Carlisia Pinto:** Thank you, bye.
+**Carlisia Thompson:** Thank you, bye.
 
 **Blake Mizerany:** Take it easy.
 
-**Carlisia Pinto:** What a bummer that he had to leave so early.
+**Carlisia Thompson:** What a bummer that he had to leave so early.
 
 **Brian Ketelsen:** I know...
 
@@ -140,7 +140,7 @@ And like you said, I think your point is so good, because it ends up not being t
 
 **Brian Ketelsen:** Yay, Fastly!
 
-**Carlisia Pinto:** Fastly's awesome.
+**Carlisia Thompson:** Fastly's awesome.
 
 **Brian Ketelsen:** I'm excited because it's written in Elixir and Phoenix, and I would love to see the code. I know that in their blog post they mentioned that they planned on open-sourcing it, so I'm really looking forward to seeing an implementation of a serious system in Phoenix, so that I can get a better idea of what that looks like. It's on my to-do list for this year to play with Elixir and Phoenix, because they seem like interesting technologies.
 
@@ -148,7 +148,7 @@ And like you said, I think your point is so good, because it ends up not being t
 
 **Brian Ketelsen:** Yeah.
 
-**Carlisia Pinto:** But any CMS in general... This is a CMS that they podcast content on top of.
+**Carlisia Thompson:** But any CMS in general... This is a CMS that they podcast content on top of.
 
 **Erik St. Martin:** That's true. You could just use it as a CMS. Adam in the GoTime FM channel is saying they're still polishing some things up in the readme and stuff, but it won't be long. If you're subscribed to Changelog Weekly, you will see when it's announced.
 
@@ -172,13 +172,13 @@ And like you said, I think your point is so good, because it ends up not being t
 
 **Erik St. Martin:** So let's talk about some other news and projects that everybody's run across this week. Carlisia, have you got anything for us?
 
-**Carlisia Pinto:** I do, actually. I work a lot with APIs, and sometimes ago I googled... You know, I have this JSON, I have to write a struct for it. Maybe there's a way to convert the JSON to structs, because you know, I'm lazy... And there was. I could not believe it, and it has such a nice UI. When I looked at it, it was made by Matt Holt. Frankly, it's unbelievable how many things Matt does, and everything he does is so well done. I really love it.
+**Carlisia Thompson:** I do, actually. I work a lot with APIs, and some time ago I googled... You know, I have this JSON, I have to write a struct for it. Maybe there's a way to convert the JSON to structs, because you know, I'm lazy... And there was. I could not believe it, and it has such a nice UI. When I looked at it, it was made by Matt Holt. Frankly, it's unbelievable how many things Matt does, and everything he does is so well done. I really love it.
 
 It's JSON-to-Go... We'll put a link on the show notes. Basically, you drop some JSON and it magically transforms that into Go structs for you. This cannot get any easier.
 
 **Brian Ketelsen:** It's magical, I've used it dozens and dozens of times.
 
-**Carlisia Pinto:** Yeah, right? Because you do this all the time. You're pinging an API, and you need to receive a struct. It's so handy to have that... You basically just copy the struct and put it in your code, and voila! In the same way, he has a curl-to-go tool, where you paste a cURL, let's say a call to an API, and it will give you the Go client to make that call, and you place it in your code and it will work. It's like magic. So thank you, Matt, for doing those tools.
+**Carlisia Thompson:** Yeah, right? Because you do this all the time. You're pinging an API, and you need to receive a struct. It's so handy to have that... You basically just copy the struct and put it in your code, and voila! In the same way, he has a curl-to-go tool, where you paste a cURL, let's say a call to an API, and it will give you the Go client to make that call, and you place it in your code and it will work. It's like magic. So thank you, Matt, for doing those tools.
 
 **Brian Ketelsen:** \[00:27:55.09\] Those are great, good call.
 
@@ -192,7 +192,7 @@ It's JSON-to-Go... We'll put a link on the show notes. Basically, you drop some 
 
 **Erik St. Martin:** We should.
 
-**Carlisia Pinto:** We should.
+**Carlisia Thompson:** We should.
 
 **Erik St. Martin:** Nate's done a whole bunch of staff.
 
@@ -232,21 +232,21 @@ So it's kind of like doing the same thing and you wonder how much you wanna cros
 
 **Brian Ketelsen:** Where's the repo for that?
 
-**Erik St. Martin:** I will drop it in the GoTime FM channel. It's /corylanou/go-meetup.
+**Erik St. Martin:** I will drop it in the GoTime FM channel. It's [corylanou/go-meetup](https://github.com/corylanou/go-meetup)
 
 **Brian Ketelsen:** Awesome.
 
-**Carlisia Pinto:** Yes, this repo is really fantastic. I haven't seen better suggestions for running a Meetup than here.
+**Carlisia Thompson:** Yes, this repo is really fantastic. I haven't seen better suggestions for running a Meetup than here.
 
 **Brian Ketelsen:** No, it's really the Meetup bible. I pointed somebody at it maybe two days ago. It's good stuff. Go, Cory!
 
-**Erik St. Martin:** Yeah, I might need to help expand this too, because I've had a goal since 2014, maybe even a little earlier, to consolidate a lot of the lessons that Brian and I have learned from organizing conferences, and maybe help people with a recipe to start smaller regional events to help. More stages is a good thing.
+**Erik St. Martin:** Yeah, I might need to help expand this too, because I've had a goal since 2014, maybe even a little earlier, to consolidate a lot of the lessons learned that Brian and I have learned from organizing conferences too, and maybe help people with a recipe to start smaller regional events to help. More stages is a good thing.
 
-**Carlisia Pinto:** Now that I'm looking at it, just one comment I have for you Cory - I know you are on the Slack right now... Not every Meetup has to be people presenting. For example, the Meetup we do in San Diego, we don't do presentations; we get together and code as groups, and that is amazing. Everybody loves it. At least, I have not seen anybody say I would prefer presentations. Everybody loves this format, so it's another option, too.
+**Carlisia Thompson:** Now that I'm looking at it, just one comment I have for you Cory - I know you are on the Slack right now... Not every Meetup has to be people presenting. For example, the Meetup we do in San Diego, we don't do presentations; we get together and code as groups, and that is amazing. Everybody loves it. At least, I have not seen anybody say I would prefer presentations. Everybody loves this format, so it's another option, too.
 
 **Erik St. Martin:** I think Brian and I are guilty of that too, because the Go Tampa Meetup... I don't think we've had a Meetup in a while, and it's mainly because we feel like it's hard to prepare presentations; we're always so busy, so trying to make the time to create presentations gets difficult, and then we don't end up scheduling a Meetup. But really, I think people just wanna hang out and talk Go, so I think we need to do a better job of doing stuff like that - just get everybody together and help each other with projects and problems that we're working on... Or even if it's just beers and socializing and talking about Go, I think that there's still value in that. I need to connect with that myself, that there doesn't have to be a presentation ready to run it.
 
-**Carlisia Pinto:** \[00:36:10.02\] And I stand corrected - there is a section on that repo that talks about options other than having speakers. And I agree with you, Erik. I see people struggling to find speakers sometimes, so it's nice to know that you can do other things as well.
+**Carlisia Thompson:** \[00:36:10.02\] And I stand corrected - there is a section on that repo that talks about options other than having speakers. And I agree with you, Erik. I see people struggling to find speakers sometimes, so it's nice to know that you can do other things as well.
 
 **Erik St. Martin:** We had a Ruby Meetup here that was doing a really cool thing. I forget what frequency they were doing them on, but basically what they would do is they would pose a small problem, almost like the exercism.io problems, and everybody would submit them anonymously to the Meetup organizers, and then in order to attend you had to have submitted, and then basically everybody would kind of sit there and together, collectively code review all of the submissions in kind of like this anonymous fashion. Nobody had to feel guilty that people were saying something about them personally, or would know that they made some silly mistake, or something like that.
 
@@ -258,13 +258,13 @@ It was actually a really cool idea. It wouldn't be bad to try that in the Go wor
 
 **Brian Ketelsen:** Yeah, that's a good idea.
 
-**Carlisia Pinto:** With Exercism you do have to do a submission for the exercise before you are able to comment on that exercise, so at least one person would have to. But I also see the benefits of everybody working on the exercise, submitting it and then doing a review. This person can add comments separately, but as a group.
+**Carlisia Thompson:** With Exercism you do have to do a submission for the exercise before you are able to comment on that exercise, so at least one person would have to. But I also see the benefits of everybody working on the exercise, submitting it and then doing a review. This person can add comments separately, but as a group.
 
 **Brian Ketelsen:** Yeah, that's a great a idea. I like this.
 
 **Erik St. Martin:** Yeah, just have everybody who's showing up as a prerequisite to submit this.
 
-**Carlisia Pinto:** But you can also do that during the Meetup, because a lot of times we don't feel motivated... "Oh, that's an extra thing that I have to do", but if you're in a Meetup with a group of people and everybody is doing the same thing, it's more motivating. Just a thought.
+**Carlisia Thompson:** But you can also do that during the Meetup, because a lot of times we don't feel motivated... "Oh, that's an extra thing that I have to do", but if you're in a Meetup with a group of people and everybody is doing the same thing, it's more motivating. Just a thought.
 
 **Brian Ketelsen:** A good one.
 
@@ -272,7 +272,7 @@ It was actually a really cool idea. It wouldn't be bad to try that in the Go wor
 
 **Brian Ketelsen:** I found another package that I bookmarked... I'm just going through my GitHub stars to remind me of interesting things. This one is called go-conv, and it's by cstockton on GitHub. It does reflection list conversions from Go's native types. You can convert a byte array to a string, or the word "true" to a boolean, and it does it without reflection. It promises to be faster than the other kinds of things like that that do it with reflections. I'm interested in seeing whether that is a useful package. I haven't played with it yet so I don't have any opinions, but it's something we do a lot of, these conversions, and doing them well is never easy. It would be an interesting one to take a look at.
 
-**Carlisia Pinto:** I saw the headlines for that... Can we get a link please, Brian?
+**Carlisia Thompson:** I saw the headlines for that... Can we get a link please, Brian?
 
 **Brian Ketelsen:** Yes, I will drop it in the Slack. It's github.com/cstockton/go-conv. It looked interesting.
 
@@ -284,11 +284,11 @@ It was actually a really cool idea. It wouldn't be bad to try that in the Go wor
 
 **Brian Ketelsen:** Yeah, I don't know... I 've had several strange moments where people pronounced package names and I thought, "I don't say it that way..." \[laughter\]
 
-**Carlisia Pinto:** I will never forget the first time I heard fumt, it was from Katrina, and I was stumped.
+**Carlisia Thompson:** I will never forget the first time I heard fumt, it was from Katrina, and I was stumped.
 
 **Brian Ketelsen:** You were stumped by fumt? \[laughter\]
 
-**Carlisia Pinto:** It was pronounced fumt. I'm like, "Really?" \[laughs\] I would never guess.
+**Carlisia Thompson:** It was pronounced fumt. I'm like, "Really?" \[laughs\] I would never guess.
 
 **Brian Ketelsen:** Yeah, I'm with you on that one.
 
@@ -314,9 +314,9 @@ I think it uses Otto, which is a...
 
 **Break:** \[00:43:06.13\]
 
-**Erik St. Martin:** But still, regardless of the history of Code School and how now owns it, their training has always been really cool. I've just pulled up their site too, and they've got a bunch more training stuff, like Surviving APIs with Rails, Rails **Carlisia Pinto:** Zombie Outlaws...
+**Erik St. Martin:** But still, regardless of the history of Code School and who now owns it, their training has always been really cool. I've just pulled up their site too, and they've got a bunch more training stuff, like Surviving APIs with Rails, Rails for Zombie Outlaws...
 
-**Carlisia Pinto:** I subscribed to their courses for a long time when I was doing Rails. I'm looking forward to checking out this Go course.
+**Carlisia Thompson:** I subscribed to their courses for a long time when I was doing Rails. I'm looking forward to checking out this Go course.
 
 **Brian Ketelsen:** Yeah, they've got great production quality, so it's good stuff.
 
@@ -338,7 +338,7 @@ I think it uses Otto, which is a...
 
 **Erik St. Martin:** Carlisia...? \[laughter\]
 
-**Carlisia Pinto:** Go, Brian.
+**Carlisia Thompson:** Go, Brian.
 
 **Brian Ketelsen:** So I wanna shout out to the folks at CoreOS. I've been all over the place this week, doing training materials and spinning up Linux machines, and I realized that pretty much everything I did had a CoreOS component in it at some point this week. So shout out to all the folks at CoreOS and the people who helped maintain CoreOS - Linux, Etcd, Fleet, Flannel, and all of the great tools that CoreOS has been putting out in the open source community. We appreciate it.
 
@@ -352,33 +352,33 @@ I think that we owe them a ton of gratitude for all the things that they're doin
 
 **Erik St. Martin:** Yes. How about you, Carlisia?
 
-**Carlisia Pinto:** I wanna give a shout out to coffee... Nah, I'm just kidding. I'm not, but... \[laughter\]
+**Carlisia Thompson:** I wanna give a shout out to coffee... Nah, I'm just kidding. I'm not, but... \[laughter\]
 
 **Erik St. Martin:** And its delightful alternative, Red Bull.
 
-**Carlisia Pinto:** It's amazing what two cups of coffee can do, I tell you. Anyway... I wanna give a shout out to this repo that is called Stability Badges. Basically, it gives you SVG badges for Go projects, but I can't see why this couldn't be used for any project. The badges are things like Experimental, Unstable, Stable, Frozen and Deprecated. It would be super nice if project maintainers could add badges to their repo, so people would know "Hey, this is deprecated" or "This is active, stable" or "Experimental."
+**Carlisia Thompson:** It's amazing what two cups of coffee can do, I tell you. Anyway... I wanna give a shout out to this repo that is called Stability Badges. Basically, it gives you SVG badges for Node projects, but I can't see why this couldn't be used for any project. The badges are things like Experimental, Unstable, Stable, Frozen and Deprecated. It would be super nice if project maintainers could add badges to their repo, so people would know "Hey, this is deprecated" or "This is active, stable" or "Experimental."
 
 **Erik St. Martin:** Oh, that is pretty cool.
 
-**Carlisia Pinto:** It is, isn't it?
+**Carlisia Thompson:** It is, isn't it?
 
 **Brian Ketelsen:** I like that. Is there one that I could put on all of my projects, that says "Warning! Don't touch!" \[laughter\] Oh, there is... Experimental. Yeah, I'll just leave it there.
 
 **Erik St. Martin:** I'm looking for the one that says, "I wrote this a really long time ago. I barely knew Go. It kind of worked. I'm doing other things now."
 
-**Carlisia Pinto:** "I'm better now."
+**Carlisia Thompson:** "I'm better now."
 
 **Erik St. Martin:** "I'm better now and I don't use this."
 
 **Brian Ketelsen:** "Stability status: don't judge me!" \[laughter\]
 
-**Carlisia Pinto:** Exactly.
+**Carlisia Thompson:** Exactly.
 
 **Erik St. Martin:** I like that one.
 
 **Brian Ketelsen:** I'm making my own badge.
 
-**Carlisia Pinto:** There is always a PR. That's only a PR away.
+**Carlisia Thompson:** There is always a PR. That's only a PR away.
 
 **Brian Ketelsen:** That's true. My first pull request, "Don't judge me."
 
@@ -394,7 +394,7 @@ I think that we owe them a ton of gratitude for all the things that they're doin
 
 I'm trying to break my habit, because I'm just used to typing "dig" or "nslookup", "nmap", or things like that, so I'm trying my best to be like "No!"
 
-**Brian Ketelsen:** ...that's that!
+**Brian Ketelsen:** netstat...
 
 **Erik St. Martin:** Yeah.
 
@@ -404,11 +404,11 @@ I'm trying to break my habit, because I'm just used to typing "dig" or "nslookup
 
 **Brian Ketelsen:** No, because I only use it for one thing, to find out who's listening on the damn port I'm trying to open.
 
-**Erik St. Martin:** \[00:51:53.20\] One of my all-time favorite Linux commands is List Open Files. That's awesome, to be able to see who has a port or a file open, or to see what files your process has open. You can go the other way around, too. I think that's \[unintelligible 00:52:12.23\] cool.
+**Erik St. Martin:** \[00:51:53.20\] One of my all-time favorite Linux commands is *lsof* List Open Files. That's awesome, to be able to see who has a port or a file open, or to see what files your process has open. You can go the other way around, too. I think that's pretty cool.
 
-**Brian Ketelsen:** Yeah, that's where I've used LSOF - trying to move binary from one machine to the other, and call LSOF to see which shared libraries it's using or where it finds its configuration. That was another thing I used it for. "Where is the damn configuration file for this?" You call LSOF and "Oh, there it is."
+**Brian Ketelsen:** Yeah, that's where I've used *lsof* - trying to move binary from one machine to the other, and call *lsof* to see which shared libraries it's using or where it finds its configuration. That was another thing I used it for. "Where is the damn configuration file for this?" You call *lsof* and "Oh, there it is."
 
-**Erik St. Martin:** The only other command I've used a ton this week is strace.
+**Erik St. Martin:** The only other command I've used a ton this week is *strace*.
 
 **Brian Ketelsen:** You're on your own there.
 
@@ -430,7 +430,7 @@ Okay, so did we have anything else we wanted to talk about before we close out t
 
 **Brian Ketelsen:** I can't think of anything.
 
-**Carlisia Pinto:** Me neither.
+**Carlisia Thompson:** Me neither.
 
 **Brian Ketelsen:** We were all over the map today, good show.
 
@@ -438,7 +438,7 @@ Okay, so did we have anything else we wanted to talk about before we close out t
 
 **Brian Ketelsen:** It's the ADHD edition of GoTime FM.
 
-**Erik St. Martin:** It's the "I forgot to take my Adderall" edition. \[laughter\] With that, I want to thank everybody who's still on the show, and Blake, if you listen to this when it's recorded, I wanna thank you again for coming on the show. Thanks to anybody who's listening live and interacting with us through Slack, and thank you to all the listeners who will be listening once this episode is released.
+**Erik St. Martin:** It's the "I forgot to take my Adderall" edition. \[laughter\] With that, I want to thank everybody who's still on the show, and Blake, if you listen to this when it's recorded, I wanna thank you again for coming on the show. Thanks to everybody who's listening live and interacting with us through Slack, and thank you to all the listeners who will be listening once this episode is released.
 
 Huge shout out to our sponsors Linode and Code School for making this happen. Especially Linode, for being the provider of our new Changelog system. Again, if you have not seen that site, please go look at it because it is awesome and everybody worked really hard.
 
@@ -446,19 +446,19 @@ We should put in the show notes links to people's Twitter handles so everybody c
 
 **Brian Ketelsen:** And don't forget Fastly, for their awesome CDN and for making the wise decision to hire Carlisia.
 
-**Carlisia Pinto:** \[laughs\]
+**Carlisia Thompson:** \[laughs\]
 
 **Erik St. Martin:** That's our favorite part of all, that they hired Carlisia.
 
-**Carlisia Pinto:** Well, I wanna say that I put the GopherCon Brazil website on the Fastly networking, which by the way, they are comping, so it's free...
+**Carlisia Thompson:** Well, I wanna say that I put the GopherCon Brazil website on the Fastly networking, which by the way, they are comping, so it's free...
 
 **Brian Ketelsen:** Wow...
 
-**Carlisia Pinto:** And there's this site called webpagetest.rog where enter your URL and you get grades for different aspects of your website - it mostly hast to do with speed - and you went from an F to an A. It was amazing. I didn't even tweak anything on the Fastly site, because there were a lot of things I can tweak; I just added the CDN. So there we go, Fastly is awesome.
+**Carlisia Thompson:** And there's this site called webpagetest.org where enter your URL and you get grades for different aspects of your website - it mostly hast to do with speed - and it went from an F to an A. It was amazing. I didn't even tweak anything on the Fastly site, because there were a lot of things I can tweak; I just added the CDN. So there we go, Fastly is awesome.
 
 **Brian Ketelsen:** \[00:56:03.27\] Wow... I'm testing GopherCon.com right now, because I've gotta know.
 
-**Carlisia Pinto:** Test all the things, this is awesome.
+**Carlisia Thompson:** Test all the things, this is awesome.
 
 **Brian Ketelsen:** That's cool.
 
@@ -470,4 +470,4 @@ We should put in the show notes links to people's Twitter handles so everybody c
 
 **Brian Ketelsen:** Thank you.
 
-**Carlisia Pinto:** Thanks everyone, bye.
+**Carlisia Thompson:** Thanks everyone, bye.

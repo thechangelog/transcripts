@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And Carlisia...
 
-**Carlisia Pinto:** Hi there!
+**Carlisia Thompson:** Hi there!
 
 **Erik St. Martin:** And our special guest today is an engineer for Walmart, and he's gonna talk to us a little bit about distributed teamwork and some of the stuff that they're doing with Go over at Walmart. Please welcome to the show Chase Adams.
 
@@ -26,7 +26,7 @@
 
 We do three main things for Walmart - we have our own reverse proxy, which does the asset and page optimization, so all the front-end optimization stuff. We have a homegrown CDN, and then we have a RAM system, and all that stuff's written in Go.
 
-**Carlisia Pinto:** Yeah, I can't get over the fact -- I talked to you about this a little bit at GopherCon... I can't get over the fact that you actually have your own homegrown CDN.
+**Carlisia Thompson:** Yeah, I can't get over the fact -- I talked to you about this a little bit at GopherCon... I can't get over the fact that you actually have your own homegrown CDN.
 
 **Brian Ketelsen:** Right?
 
@@ -56,17 +56,17 @@ We do three main things for Walmart - we have our own reverse proxy, which does 
 
 **Chase Adams:** It's a pretty neat thing to come into it for having started at 0.8, and now I think we're using 1.8... To be able to see that much of a transition is pretty neat.
 
-**Carlisia Pinto:** Let's talk about hiring -- I know your team is small, because we talked about this, but I'm wondering... Every once in a while I ask people how their hiring is for Go developers - how you approach it at your company or in your team, if you have difficulties...
+**Carlisia Thompson:** Let's talk about hiring -- I know your team is small, because we talked about this, but I'm wondering... Every once in a while I ask people how their hiring is for Go developers - how you approach it at your company or in your team, if you have difficulties...
 
 **Chase Adams:** Yeah, that's a good question. I am the newest person to the team, and before that I think the newest person was a year old. Our team is pretty small - there are three full-time developers writing Go, and we have a guy who's doing DevOps, and my manager is about 50/50 split. So our team's pretty small, considering the different things that we touch at Walmart.
 
 As far as hiring goes, for me one of the interesting things was being able to be given a project to work on, and I work on that project as if it were a greenfield... And to think about a lot of the considerations for which features I should add or which features not to add, because it might move out my project's timeline for when I did do my interview. But our team is still pretty small and head count's one of those things that's hard to come by at Walmart because there's so much to do... But hopefully as we grow we're gonna have a lot more positions for people to be able to help out.
 
-**Carlisia Pinto:** So I wanted to start asking you about your stack as far as having distributed systems...
+**Carlisia Thompson:** So I wanted to start asking you about your stack as far as having distributed systems...
 
 **Brian Ketelsen:** Oh, that's a good question.
 
-**Carlisia Pinto:** ...and also - jumping ahead maybe, but also talking about distributed teams, because I know you work remote, and how that works... But one thing at a time, I guess.
+**Carlisia Thompson:** ...and also - jumping ahead maybe, but also talking about distributed teams, because I know you work remote, and how that works... But one thing at a time, I guess.
 
 **Brian Ketelsen:** Show us your stack!
 
@@ -74,11 +74,11 @@ As far as hiring goes, for me one of the interesting things was being able to be
 
 But most everything is Go, and it's spread out across the world, which is pretty neat, since we support Asda, Walmart Brazil, Walmart Canada, Sam's Club, Walmart US, Walmart Mexico... I don't know, there's so many different properties that we support...
 
-**Carlisia Pinto:** I've recently learned that there's a big developer team in Brazil; they actually have a dev team down there. I was pretty impressed.
+**Carlisia Thompson:** I've recently learned that there's a big developer team in Brazil; they actually have a dev team down there. I was pretty impressed.
 
 **Chase Adams:** Yeah, it's pretty amazing how far-reaching Walmart is. I've talked to people on Slack from the U.K., and from Canada... I haven't talked to anyone from Brazil that, but I know that team is starting to transition to using the Edge platform tools that we have. It's pretty amazing how many people there are working on stuff for Walmart, and it's different countries that we support.
 
-**Carlisia Pinto:** \[00:08:10.00\] Are you using [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), anything like that?
+**Carlisia Thompson:** \[00:08:10.00\] Are you using [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), anything like that?
 
 **Chase Adams:** No. Pretty much everything is either on bare metal or NVMs, and since it's a stack, that built binary we don't have to really worry about too much other than that.
 
@@ -106,7 +106,7 @@ But most everything is Go, and it's spread out across the world, which is pretty
 
 **Chase Adams:** Yeah, Slack is probably one of the heavier tools that we use for communication. Since we're writing code, GitHub is a pretty significant place where we spend communicating... And I think the GitHub Enterprise that we're using now has a lot of the newer features for reviews and doing approvals, and just being able to give written feedback I think is probably one of the hardest things that I've had to kind of get my head around, to do it in such a way that always comes across as gracious -- because sometimes even if you say something and your intent is meant to be more exploratory and not necessarily trying to ask him like "Why are you doing it this way?" You have to be really careful with written communication, especially if you only see each other once a quarter or so, to make sure that you're communicating in a way that you can be positive about the way forward with whatever it is you're talking about.
 
-**Carlisia Pinto:** \[00:12:05.26\] So have you found ways to do it better than you normally would if you weren't making an effort?
+**Carlisia Thompson:** \[00:12:05.26\] So have you found ways to do it better than you normally would if you weren't making an effort?
 
 **Chase Adams:** Yes. For me, I usually ask other people before I make a comment on something, especially if I think that it might potentially come across in a bad way. I think just talking to someone who has context around what you're talking about, but isn't the person that you're addressing immediately, they're able to look at it from a different way than you are, as the person who has written the code a lot more easily, and give you feedback and say "Well, you can probably tighten this up, or even say this thing a little different."
 
@@ -148,17 +148,17 @@ You're gonna have politics wherever you work, you're gonna have some crappy thin
 
 **Brian Ketelsen:** \[00:20:06.06\] Yeah, for me CI is all about sleep.
 
-**Carlisia Pinto:** I wanted to clarify that [CI](https://en.wikipedia.org/wiki/Continuous_integration) is continuous integration and [CD](https://en.wikipedia.org/wiki/Continuous_delivery) is continued development?
+**Carlisia Thompson:** I wanted to clarify that [CI](https://en.wikipedia.org/wiki/Continuous_integration) is continuous integration and [CD](https://en.wikipedia.org/wiki/Continuous_delivery) is continued development?
 
 **Brian Ketelsen:** Continuous delivery.
 
-**Carlisia Pinto:** Continuous delivery.
+**Carlisia Thompson:** Continuous delivery.
 
 **Chase Adams:** Yeah, the D is interchangeable for some people. It's delivery or deployment. I think delivery is the best word to use. There is also some contention about what delivery is and what deployment is, but for the most part it's that idea of CI is just making sure that your code is in a good state to when you merge it in the master you're not gonna have to worry about if someone pulls down master to run it that it's gonna fail. Master, or main line, or whatever you call your branch that's stable.
 
 Then the CD is just being able to deploy it from environment to environment in such a way that if all the integration tests pass and all the different (what we call) "gates" work, then your code is gonna be able to go to production without a lot of extra finagling of environments.
 
-**Carlisia Pinto:** Is there anything about Go -- I mean, since you're into this, I'm sure you've done it in environments other than with Go... Is there anything about Go that makes CI especially easier, or more difficult, or any aspect of the CI/CD process?
+**Carlisia Thompson:** Is there anything about Go -- I mean, since you're into this, I'm sure you've done it in environments other than with Go... Is there anything about Go that makes CI especially easier, or more difficult, or any aspect of the CI/CD process?
 
 **Chase Adams:** For CI I think just Go existing in the first place - because Docker came out of Go and Docker to me has kind of revolutionized CI - just that alone is probably one of the best things to come out of Go with CI... Because you can imagine, if you have a place like Walmart, where everyone has their own little snowflake that's gonna run in CI, you have to have an environment that matches what's expected, and that even means that you have to plan for all contingencies on every Node that you're gonna potentially run that job on, and with Jenkins who knows what that could be... Or using something like Docker, where everything's kind of been laid out and defined for what the application should have; then you just run Docker with that container, and if you're using something like [Drone](https://drone.io/) or [Travis](https://travis-ci.org), it makes it really trivial.
 
@@ -178,7 +178,7 @@ Then the CD is just being able to deploy it from environment to environment in s
 
 **Erik St. Martin:** I don't know why I just thought of this, but do you guys remember... There was the [commercial with Jean-Claude Van Damme](https://www.youtube.com/watch?v=M7FIvfx5J10) and he was doing the split across the two semis, and then there was like the parody that came out and it was [Chuck Norris doing a split across two planes](https://www.youtube.com/watch?v=dndHQzZPH0Q)... \[laughter\]
 
-**Carlisia Pinto:** I haven't seen that, but it sounds hilarious.
+**Carlisia Thompson:** I haven't seen that, but it sounds hilarious.
 
 **Erik St. Martin:** I have no idea why that just popped in my head, but that's where it went.
 
@@ -190,7 +190,7 @@ Then the CD is just being able to deploy it from environment to environment in s
 
 **Brian Ketelsen:** Yeah, it's gonna have to happen.
 
-**Carlisia Pinto:** Yeah, I haven't seen it, so... I need to see it.
+**Carlisia Thompson:** Yeah, I haven't seen it, so... I need to see it.
 
 **Brian Ketelsen:** So one of the things that we talked about earlier when we were planning this show is mentoring, which is something that Erik and I have been talking about quite a bit lately. You mentioned that you wanted to talk about mentoring. What are your thoughts on being a mentor or being mentored? Have you had some good mentors in your past that have really changed your life?
 
@@ -206,7 +206,7 @@ I think we're in a time now where -- I work with one of my friends who just grad
 
 **Erik St. Martin:** \[00:28:18.21\] There's a quote that always comes to mind when I talk about mentorship, and I sent it in a tweet the other day... It's actually about the actor Kevin Spacey; he says "I feel it's a responsibility for anyone who breaks through a certain ceiling to send the elevator back down and give others a helpful lift." I think that always resonated with me. Everybody kind of climbs through the ranks and... We're so focused on where we've drawn the line for ourselves, like where we want to hit for personal growth through knowledge or career growth, and we often forget how far we've come, and that we have value that we can add to other people.
 
-**Carlisia Pinto:** Absolutely. I love that quote too, by the way.
+**Carlisia Thompson:** Absolutely. I love that quote too, by the way.
 
 **Erik St. Martin:** So how would you define mentorship? What do you think makes a good mentor versus an acquaintance that you occasionally ask advice of?
 
@@ -234,19 +234,19 @@ Being able to find those people is a lot more trivial today than it used to be, 
 
 **Brian Ketelsen:** We have dirt... No, I get burnout constantly. And it's my own fault, because I push so hard on something that I'm so passionate about, and then I realize that I've completely buried myself, and then I have to stop, and that's really hard; taking a break, backing down is not easy.
 
-**Carlisia Pinto:** Is that because you have too much empathy?
+**Carlisia Thompson:** Is that because you have too much empathy?
 
 **Brian Ketelsen:** I don't know if it's all empathy... Sometimes it is, especially when it's product-related and I wanna fix things... But my tech passions burn hot and they burn quick. I get really excited about doing a thing, and then I work too hard on it and I realize that I've let everything else go, so then I have to do all of that, and now I'm behind on everything... I need to be paced better; I need a pacer.
 
 **Erik St. Martin:** I think that there's a degree of it though that -- you know, I'm similar in the respect that I often put more pressure on myself than my team or employer does, because I wanna get stuff done and I wanna meet deadlines; even if they're artificial deadlines, I feel kind of this need to hit them. But I think the empathy comes in; the whole thing gets exacerbated by the fact that when other people are counting on you, they need you to succeed, or in the work sense, they need stuff that you're working on first in order for them to do their jobs, and you feel like you're holding other people up... I think that's where the empathy kicks in, and you're like "It's my fault. Now they're gonna be stressed because they're behind, so I've gotta get this done", and really you're putting artificial stress on yourself, because often times deadlines can be pushed.
 
-**Carlisia Pinto:** And then you have empathy for your users, and you wanna do a good job... You don't wanna just deliver anything, sloppy work. I think, I don't know; I don't wanna speak for you.
+**Carlisia Thompson:** And then you have empathy for your users, and you wanna do a good job... You don't wanna just deliver anything, sloppy work. I think, I don't know; I don't wanna speak for you.
 
 **Brian Ketelsen:** No, it's the same. I agree. There's just lots of stresses, lots of things that push us to work too hard.
 
 **Erik St. Martin:** So is anybody here actively mentoring people?
 
-**Carlisia Pinto:** I am not actively mentoring anybody, but people do ask me for advice on how to get a job, how I got started working with Go (every once in a while), and I do take the time to open a quick video call and give advice. I have opened myself up to take on a woman of color, somebody who wants to learn Go, only because I don't see that there's any at all, and I would like to help with that.
+**Carlisia Thompson:** I am not actively mentoring anybody, but people do ask me for advice on how to get a job, how I got started working with Go (every once in a while), and I do take the time to open a quick video call and give advice. I have opened myself up to take on a woman of color, somebody who wants to learn Go, only because I don't see that there's any at all, and I would like to help with that.
 
 So I'm being selective; I don't have a lot of time, but I will make extra time for that. I'll make an extra effort, I guess. Otherwise, I think we have been sort of successful at being attractive to women in general; we have the [Women Who Go](https://www.womenwhogo.org/) group, and men definitely - we see people joining from all fronts, joining the community. So yeah, that's all that I've been doing.
 
@@ -258,7 +258,7 @@ I think I kind of like the idea of watching somebody grow too, and checking in o
 
 **Brian Ketelsen:** See, I don't get ad-hoc technical questions, though. Nobody asks me about technical things. I think it's the grey hair; I get all ad-hoc personal growth, development, employment stuff. They're asking you the technical questions, I get the "How do I advance my career?" questions. It's because I'm really old and you guys are young.
 
-**Carlisia Pinto:** \[laughs\] How about you, Chase? You said you're mentoring someone mostly in JavaScript.
+**Carlisia Thompson:** \[laughs\] How about you, Chase? You said you're mentoring someone mostly in JavaScript.
 
 **Chase Adams:** Yeah, so I have 3-4 people -- and I say 3-4 because there's one that is a little more ad-hoc. But I do have three people that at the beginning of the year I decided that I wanted to invest time with them. Part of that was every year the past couple years I pick a couple of themes for what that year is gonna look like, and this year I picked a miracle grow. A part of that was to take... Similar to what Erik had said, which is -- you know, I started out doing deliveries for billing materials, and now I'm a software engineer at a large, well-known company, and I didn't just get here; I didn't get here because I'm that good, I got here because people invested in me and I learned how to ask the right questions to -- even if I didn't have an official mentor, be able to ask the right questions to grow myself.
 
@@ -278,7 +278,7 @@ I have definitely one guy that I'm mentoring for JavaScript, but the other two p
 
 **Brian Ketelsen:** Those are the best kind.
 
-**Carlisia Pinto:** \[unintelligible 00:41:46.25\] had any mentorship. My current manager is really good as far as keeping me on track with my work in general, and I have a person when at work to mentor me technically. That did not pan out, so I'm planning on approaching somebody else, and I think having someone from work will be easier, because there's no problem about sharing what I'm doing as far as intellectual property.
+**Carlisia Thompson:** \[unintelligible 00:41:46.25\] had any mentorship. My current manager is really good as far as keeping me on track with my work in general, and I have a person when at work to mentor me technically. That did not pan out, so I'm planning on approaching somebody else, and I think having someone from work will be easier, because there's no problem about sharing what I'm doing as far as intellectual property.
 
 So I'd very much like to have a more senior Go developer mentor me at work. But I don't have that. How about you, Chase?
 
@@ -300,11 +300,11 @@ Then my third one, there's a guy -- I've tweeted about him a few times, and then
 
 **Erik St. Martin:** So here's a question for anybody listening for the answer - is anybody here actively seeking mentees? Is anybody here willing to take on new people to mentor?
 
-**Carlisia Pinto:** I would love to. I don't have a lot of time to take on somebody on a formal and consistent basis; I'm making an exception for a woman of color, so if somebody knows someone like that, I would take that on. But I don't have a lot of time. I'm already pretty pressed for time.
+**Carlisia Thompson:** I would love to. I don't have a lot of time to take on somebody on a formal and consistent basis; I'm making an exception for a woman of color, so if somebody knows someone like that, I would take that on. But I don't have a lot of time. I'm already pretty pressed for time.
 
 **Erik St. Martin:** Yeah, I guess there was a distinction to be made, too... I don't have a lot of time, so I don't know how much I'd be able to help teach somebody the language, outside of answering particular questions or pointing people in the right direction? I'm not sure I have enough spare time to spend several hours a day or week basically training somebody in a language, but I think that I can always make time to offer advice from a career perspective. Or "Here's the types of things I wanna build. What should I learn?" - those types of questions I think are easy enough, but the individual one-on-one, several hours of "Let's walk through some of your code" and "I'll teach you how to write better code" I think is harder when you have a much busier scheduler.
 
-**Carlisia Pinto:** Yeah, that's harder, because it also requires for you to understand the domain, which if it's someone starting to learn, that's probably gonna need to be simple enough, but it still requires a little bit of effort.
+**Carlisia Thompson:** Yeah, that's harder, because it also requires for you to understand the domain, which if it's someone starting to learn, that's probably gonna need to be simple enough, but it still requires a little bit of effort.
 
 \[00:47:50.00\] The best thing I think - and this is not final; I would like to hear from Brian and Chase as well - is definitely join group chats, like the newbies channel that we have - [Golang Newbies channel on GopherSlack](https://gophers.slack.com/messages/golang-newbies), or the [WomenWhoGo Slack](https://gophers.slack.com/messages/womenwhogo), there's a GoBridge channel also in GopherSlack... Just because there'll be people available when you want to ask a question. And reserve pinging people for questions that you're not comfortable asking publicly. Just like Eric and me too. I'm available for one-offs, that I can say "Hey, let's do two days from now", but nothing that I can commit to on a consistent basis.
 
@@ -312,25 +312,25 @@ Then my third one, there's a guy -- I've tweeted about him a few times, and then
 
 **Erik St. Martin:** Yeah, and I think, you know, you should be looking for hooks. "I don't know where to start, point me towards something." But I think that the personal one-on-one is valuable in the vulnerable conditions, right? For example, some of the conversations Brian and I have - I can come to him and express insecurity in something, whether it be "Should I submit a talk somewhere? Should I go for some job?" or something like that, and we can kind of talk in a vulnerable state, and both kind of have confidence in each other and share stories that you don't really wanna share in public channels... Often times that can be enough to give people the confidence to continue what they're doing, or ask for a raise, or anything of that nature. Those aren't the types of things that you just drop in a public chat forum.
 
-**Carlisia Pinto:** Yeah, I think "Where do I start?" is a great question for a public chat, unless you're currently employed and you wanna keep your search private, so definitely pinging somebody privately... And sometimes getting feedback on, for example, my resume... Just like, "Tell me kindly how my resume sucks" - that's something I would want to be helpful and hopefully pleasant.
+**Carlisia Thompson:** Yeah, I think "Where do I start?" is a great question for a public chat, unless you're currently employed and you wanna keep your search private, so definitely pinging somebody privately... And sometimes getting feedback on, for example, my resume... Just like, "Tell me kindly how my resume sucks" - that's something I would want to be helpful and hopefully pleasant.
 
 **Erik St. Martin:** So I'm asking that question too, because I know my resume sucks.
 
-**Carlisia Pinto:** I can help you with your resume, Erik.
+**Carlisia Thompson:** I can help you with your resume, Erik.
 
 **Erik St. Martin:** I usually just throw stuff in there. It's like "Yeah, I need to add a line item for this job, and here's kind of what I did." Done.
 
-**Carlisia Pinto:** You don't need a resume anymore.
+**Carlisia Thompson:** You don't need a resume anymore.
 
 **Erik St. Martin:** See? So, I kind of hate that... We all talk about impostor syndrome regularly, right? So when you kind of get like a walk-on job, where like "You're you, and we want you. If you want the job, you're hired" type thing. That really makes impostor syndrome worse too, because you spend a long time concerned, like "Do you know all of the things that they think you know, why they just offered you the job?" And it takes you a long while to kind of figure out what their expectations are versus your skillset, whereas if you're in a formal interview and you don't know things, you know that they know you don't know it, and you feel comfortable in that, like "Oh, okay, then I guess it wasn't that big of a deal."
 
-**Carlisia Pinto:** \[00:52:06.13\] I don't know... I think the resume is just a tool for people getting to know you, and even with a resume, they can extrapolate and think that you know more than you know, or think that you know less than you know... And an interview is the point where they take that knowledge, whether it came from a resume or it came from them knowing you from wherever, and having that conversation. So "Let's talk about what you really know, how you really fit in, and what you don't know, and if you're comfortable with that..." So I don't see the problem that you see, if somebody invites you for an interview and they don't ask you for your resume.
+**Carlisia Thompson:** \[00:52:06.13\] I don't know... I think the resume is just a tool for people getting to know you, and even with a resume, they can extrapolate and think that you know more than you know, or think that you know less than you know... And an interview is the point where they take that knowledge, whether it came from a resume or it came from them knowing you from wherever, and having that conversation. So "Let's talk about what you really know, how you really fit in, and what you don't know, and if you're comfortable with that..." So I don't see the problem that you see, if somebody invites you for an interview and they don't ask you for your resume.
 
 **Erik St. Martin:** Yeah, so inviting you for the interview without a resume - I think that's okay. What I'm talking about is like a walk-on job where it's basically like some company loves who you are; they're like, "Carlisia, we listen to the podcast all the time. We love you, we want you to come work for us. Just say yes", and there's no formal interview.
 
 **Brian Ketelsen:** Just say yes.
 
-**Carlisia Pinto:** Well, but you do wanna have an interview because you wanna interview them at the very least, right? Unless you also know them; in that case, their assessment is probably accurate... If there's mutual knowledge about what both sides do etc. Otherwise, I don't know. If you said "Yeah, sure. It's a great job, I will just take it", without some sitting down and talking about it... That'd be odd.
+**Carlisia Thompson:** Well, but you do wanna have an interview because you wanna interview them at the very least, right? Unless you also know them; in that case, their assessment is probably accurate... If there's mutual knowledge about what both sides do etc. Otherwise, I don't know. If you said "Yeah, sure. It's a great job, I will just take it", without some sitting down and talking about it... That'd be odd.
 
 **Chase Adams:** I think I'm in a similar mindset as Carlisia - even if you don't have to do an interview... I know this is deviating a little bit, but there's so much that you just don't know about the people that you're going to work with, and this is -- I don't know, I've never had this happen, but where someone says "Okay, we want you. No interview, just sign on the dotted line."
 
@@ -344,7 +344,7 @@ For me, I don't know, that would make me really nervous, because even if it was 
 
 **Brian Ketelsen:** I was young then...
 
-**Carlisia Pinto:** You guys are so old... \[laughter\] Seriously.
+**Carlisia Thompson:** You guys are so old... \[laughter\] Seriously.
 
 **Brian Ketelsen:** Alright, so we're starting to run out of time... I think we need to get into some Go news and \#FreeSoftwareFriday love.
 
@@ -386,15 +386,15 @@ I had another project that I found that looks really cool, and it's by Alex Elli
 
 And there was somewhere in the GitHub repo a link to a document that says basically "Why do I care about serverless?" and it was the first time ever in my life where I said "Holy cow, I understand serverless now! This is why this is important to me." So it was cool, and now I'm gonna stop making fun of serverless, other than the whole stupidest name in the world thing... But serverless sounds cool!
 
-**Carlisia Pinto:** Oh, now I'll have to read it, because otherwise I'll be the only one still making fun of serverless. \[laughter\] You and I were in it together, Brian.
+**Carlisia Thompson:** Oh, now I'll have to read it, because otherwise I'll be the only one still making fun of serverless. \[laughter\] You and I were in it together, Brian.
 
 **Brian Ketelsen:** I know, we were... So you've gotta go read that so we can be together. Good call.
 
-**Carlisia Pinto:** \[01:00:13.26\] You went to the dark side.
+**Carlisia Thompson:** \[01:00:13.26\] You went to the dark side.
 
 **Brian Ketelsen:** Oh, I wouldn't call it the dark side, I just -- I won't make fun of it anymore. Now I understand it. Now I understand why.
 
-**Carlisia Pinto:** Okay.
+**Carlisia Thompson:** Okay.
 
 **Chase Adams:** Alex Ellis has done a lot of really great tutorials on Docker and Raspberry Pi, so if you're interested in either of those things together, I think he's like the Docker captain who writes the most about those things.
 
@@ -410,13 +410,13 @@ And there was somewhere in the GitHub repo a link to a document that says basica
 
 **Erik St. Martin:** Alright, who wants to go first?
 
-**Carlisia Pinto:** I don't have anything, because this week I felt like I had to go out and get a freakin' education on gender studies and social studies... \[laughter\] Don't ask me why, that's all I'm gonna say. It was exhausting.
+**Carlisia Thompson:** I don't have anything, because this week I felt like I had to go out and get a freakin' education on gender studies and social studies... \[laughter\] Don't ask me why, that's all I'm gonna say. It was exhausting.
 
 **Brian Ketelsen:** It's been an emotional week, I won't disagree with that.
 
 **Erik St. Martin:** Agreed.
 
-**Carlisia Pinto:** I feel like to be a woman in tech or a minority in tech you need a CS degree or some sort of CS training, plus a degree in social sciences.
+**Carlisia Thompson:** I feel like to be a woman in tech or a minority in tech you need a CS degree or some sort of CS training, plus a degree in social sciences.
 
 **Erik St. Martin:** Okay, so I have one for you. Carlisia is shouting out to all the wonderful women in tech who persevere through a lot of crap that they shouldn't. How was that?
 
@@ -428,11 +428,11 @@ And there was somewhere in the GitHub repo a link to a document that says basica
 
 **Brian Ketelsen:** Yeah, raising my fist in solidarity. Good job, [Carlisia](https://twitter.com/carlisia)!
 
-**Carlisia Pinto:** I don't know if I did a good job, I'm just saying it's a lot.
+**Carlisia Thompson:** I don't know if I did a good job, I'm just saying it's a lot.
 
 **Brian Ketelsen:** It is. We love you for it. We're sorry you have to go through it.
 
-**Carlisia Pinto:** You know, I'm just a witness and it's a lot and there is people who are actually being effective and that's just \[unintelligible 01:02:04.26\] Anyway...
+**Carlisia Thompson:** You know, I'm just a witness and it's a lot and there is people who are actually being effective and that's just \[unintelligible 01:02:04.26\] Anyway...
 
 **Erik St. Martin:** Alright, how about you, Brian?
 
@@ -470,25 +470,25 @@ That is at GitHub.com/jesfraz/amicontained.
 
 **Erik St. Martin:** Anybody have any others? Did you wanna throw in more, Chase?
 
-**Carlisia Pinto:** You can take my spot. \[laughter\]
+**Carlisia Thompson:** You can take my spot. \[laughter\]
 
 **Erik St. Martin:** He's looking at his list of 50 and he's like "Maybe..."
 
-**Carlisia Pinto:** While he thinks about it, Brian, I don't find the link to the article about the serverless stuff you were mentioning.
+**Carlisia Thompson:** While he thinks about it, Brian, I don't find the link to the article about the serverless stuff you were mentioning.
 
 **Brian Ketelsen:** Uh-oh... Alright, I'll troll through my browser history and I'll see what I can find, okay?
 
-**Carlisia Pinto:** Yeah, thanks.
+**Carlisia Thompson:** Yeah, thanks.
 
 **Erik St. Martin:** Alright.
 
-**Carlisia Pinto:** But Chase, do you have anything else?
+**Carlisia Thompson:** But Chase, do you have anything else?
 
 **Chase Adams:** Yeah, so I'll do two more. One is [orgmode](http://orgmode.org/), which for anyone who's not familiar with Emacs - Emacs is pretty new to me; I switched from Vim end of last year... But _orgmode_ is basically like markdown on crack, and one of the really cool things that _orgmode_ does -- and it does a lot of cool things; it allows you to use it as plain-text files TODO lists, and you can use keyboard shortcuts to basically update these plain-text files.
 
 But one of the things that I think is really cool about it is you can execute your code blocks from within org mode when you're in Emacs. For someone who does a lot of DevOps'y type things it's really nice to be able to write your documentation in these org files the way you would in markdown, and to actually put your code in those code blocks and execute them when you need them, rather than having your documentation separate from your code. So that's one.
 
-**Carlisia Pinto:** I love markdown, and crack must be amazing, but you lost me at [Emacs](https://www.gnu.org/software/emacs/)... \[laughter\]
+**Carlisia Thompson:** I love markdown, and crack must be amazing, but you lost me at [Emacs](https://www.gnu.org/software/emacs/)... \[laughter\]
 
 **Chase Adams:** \[01:08:05.02\] There's a quote that says "If you wanna find the truth, hold no opinions", and that's been a really hard one for me to adapt, because I was very hardcore using [Vim](https://www.vim.org/), and I've used [Code](https://code.visualstudio.com/) pretty heavily as well, but every time -- I just keep going back to Emacs now, because it does so much that none of my other editors did. But I understand... It's one of those things that if you can't make yourself decide to even look at it, it is hard to look at it.
 
@@ -500,13 +500,13 @@ But the other one is just the three big editors - VS Code, Emacs and Vim, the th
 
 **Brian Ketelsen:** \[laughter\] I want a Donut button.
 
-**Carlisia Pinto:** I want a Donut. \[laughs\]
+**Carlisia Thompson:** I want a Donut. \[laughs\]
 
 **Erik St. Martin:** Where do you buy one of those?
 
 **Brian Ketelsen:** I don't know. Is that like one of those Amazon Dash buttons? If they had one for Dunkin' Donuts I'd be in deep shit.
 
-**Carlisia Pinto:** I don't remember the last time I ate a donut, frankly... Hm. I'm due for one. Anyway...
+**Carlisia Thompson:** I don't remember the last time I ate a donut, frankly... Hm. I'm due for one. Anyway...
 
 **Erik St. Martin:** So I think we're running a bit over, so we should probably wrap up this show and get into the after-show.
 
@@ -564,7 +564,7 @@ But the other one is just the three big editors - VS Code, Emacs and Vim, the th
 
 **Erik St. Martin:** So definitely share the show with friends and colleagues. If you wanna subscribe, you can find us at [changelog.com/gotime](https://changelog.com/gotime). Follow us on [Twitter](https://twitter.com/GoTimeFM) if you wanna discuss a show. If you wanna contribute now to the transcripts, we have [GitHub accounts](https://github.com/thechangelog/transcripts) for that. With that, goodbye everybody. We'll see you next week! \[phone ringing\]
 
-**Carlisia Pinto:** Goodbye!
+**Carlisia Thompson:** Goodbye!
 
 **Chase Adams:** Bye!
 

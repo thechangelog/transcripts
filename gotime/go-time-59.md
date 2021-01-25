@@ -8,7 +8,7 @@
 
 **Erik St. Martin:** And Carlisia Pinto...
 
-**Carlisia Pinto:** Hi, everybody!
+**Carlisia Thompson:** Hi, everybody!
 
 **Erik St. Martin:** And our special guest today, that Brian and I are particular fanboys of, is Michael Stapelberg, who among other things is the creator of i3 window manager, which you've probably only heard us mention a handful of times.
 
@@ -26,27 +26,27 @@
 
 **Brian Ketelsen:** Technically, there is, it's just not very useful.
 
-**Carlisia Pinto:** Well, I use one and I'm very happy with it. I use it all the time; I can't live without it, actually.
+**Carlisia Thompson:** Well, I use one and I'm very happy with it. I use it all the time; I can't live without it, actually.
 
 **Erik St. Martin:** It's a tiling window manager?
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Brian Ketelsen:** Which one do you use? Moom?
 
-**Carlisia Pinto:** No. I'm actually looking for it, because I just...
+**Carlisia Thompson:** No. I'm actually looking for it, because I just...
 
 **Erik St. Martin:** I wanna say it starts with an A, or something... There's one I've heard of that I've heard people use; I haven't tried it yet.
 
 **Brian Ketelsen:** I've tried all of them, and none of them are i3.
 
-**Carlisia Pinto:** Well, it's definitely not i3, and I also have not used i3, but it is called Divvy.
+**Carlisia Thompson:** Well, it's definitely not i3, and I also have not used i3, but it is called Divvy.
 
 **Michael Stapelberg:** Oh yeah, Divvy.
 
 **Erik St. Martin:** I haven't even heard of that one yet.
 
-**Carlisia Pinto:** I've been using it forever. If I get a new machine, it's the first thing I put in. I do it without even thinking that I'm doing things; I just move things around.
+**Carlisia Thompson:** I've been using it forever. If I get a new machine, it's the first thing I put in. I do it without even thinking that I'm doing things; I just move things around.
 
 **Erik St. Martin:** So i3 of course is written in C, but it's amazing... It really is.
 
@@ -82,7 +82,7 @@ So I don't need to read through a lot of the codebase in order to jump in and un
 
 Then inevitably I got into that discussion with a friend of mine who was like, "Yeah, so I think this is sort of a good idea, but in this particular file I don't like what the formatter does", and I'm like "Oh, this again..." Because once you start using Go, you kind of just put away this entire discussion. Nobody would ever come and argue, "Well, I just don't like what _gofmt_ does in this one file, so I turn it off..." It's just not something you hear, and I really appreciate that. The entire body of open source Go code and probably also most of the corporate Go code that there is is in fact auto-formatted.
 
-**Carlisia Pinto:** \[00:12:10.21\] That is such an interesting comment, because if you think about it, nobody ever turns it off. There are no rebels that would do that. I think it's fixed to how much it makes sense to have it.
+**Carlisia Thompson:** \[00:12:10.21\] That is such an interesting comment, because if you think about it, nobody ever turns it off. There are no rebels that would do that. I think it's fixed to how much it makes sense to have it.
 
 **Erik St. Martin:** If they did, they'd get caught in code review.
 
@@ -92,7 +92,7 @@ Then inevitably I got into that discussion with a friend of mine who was like, "
 
 **Michael Stapelberg:** Exactly.
 
-**Carlisia Pinto:** Yeah, but it's still good to have people not do it for whatever reason in code review... People code reviewing and not caring enough, but it makes so much sense there; even when we're reviewing code, we care that "Hey, this should be formatted. It must be formatted the correct way, the standard way."
+**Carlisia Thompson:** Yeah, but it's still good to have people not do it for whatever reason in code review... People code reviewing and not caring enough, but it makes so much sense there; even when we're reviewing code, we care that "Hey, this should be formatted. It must be formatted the correct way, the standard way."
 
 **Erik St. Martin:** I think it's interesting though, because coming into it, like, people have preferences; they are zealots about it. A number of tabs, or spaces and things like that, and when you first come in, or whether the curly brace goes on what line, and things like that, and people are so stuck in that in their concerns with _gofmt_ that it's gonna irritate them, but it's funny how quick those thoughts wash away and you're just happy for the consistency.
 
@@ -106,7 +106,7 @@ Then inevitably I got into that discussion with a friend of mine who was like, "
 
 **Michael Stapelberg:** Yeah. \[laughter\]
 
-**Carlisia Pinto:** Yeah, the perfect girl. \[laughs\] It wasn't just a girlfriend, she was perfect!
+**Carlisia Thompson:** Yeah, the perfect girl. \[laughs\] It wasn't just a girlfriend, she was perfect!
 
 **Brian Ketelsen:** I've been in two or three day long meetings before... This was C\# back in the early 2000s, where we spent two or three days talking about what our code formatting style was, and I find that to be the largest waste of time ever.
 
@@ -118,19 +118,19 @@ Then inevitably I got into that discussion with a friend of mine who was like, "
 
 **Brian Ketelsen:** Well, it's funny that newer languages are starting to adopt this. Rust has a format program, Pony has a format program... I really appreciate the fact that others have seen this and they're taking it to heart.
 
-**Carlisia Pinto:** As long as you don't have the option to customize it. It's either on or off, but if it's on, it's one thing.
+**Carlisia Thompson:** As long as you don't have the option to customize it. It's either on or off, but if it's on, it's one thing.
 
 **Michael Stapelberg:** Yeah, and I think that is actually the critical insight that _gofmt_ brought to the table... Because the idea itself is certainly not new. There used to be the indent tool, which we tried to adopt for the i3 codebase back in the days, and it didn't quite work, but we also made this wrong assumption that we wanted to configure the tools such that it would largely match our codebase, and now of course we all know that it goes the other way around. You just reformat it once and then you're done with it.
 
 \[00:16:07.13\] But I didn't realize that at the time, and then of course you try to figure out exactly the correct indent parameters... And then clang-format came to the table, but it also supports multiple styles, so which one do you choose? It even allows you to derive from a common style, but then define exceptions to that, which is even more horrible, I think.
 
-**Carlisia Pinto:** Yeah, you're basically just automating your opinions, but you still go through the process of which opinion is going to prevail.
+**Carlisia Thompson:** Yeah, you're basically just automating your opinions, but you still go through the process of which opinion is going to prevail.
 
 **Brian Ketelsen:** Exactly, and that defeats the whole purpose.
 
 **Erik St. Martin:** Add that to the list of things you shouldn't have to worry about before getting stuff done...
 
-**Carlisia Pinto:** But you still want same looking code everywhere, so...
+**Carlisia Thompson:** But you still want same looking code everywhere, so...
 
 **Brian Ketelsen:** So I do find it amazing that we've been having a podcast and we've been talking 20 minutes with probably my biggest hero in the programming universe, and we've talked about formatting code, and that's the only real topic we've hit. Honestly, that says something big about Go and the tooling and the ecosystem. I truly love that.
 
@@ -270,23 +270,23 @@ So we're trying to make it easy for them to run good Go code, and of course, Goo
 
 As just one example, a different project of mine that I run is [Debian Code Search](https://codesearch.debian.net/), which is a regular expression code search engine for all of the open source software that is found in Debian. When I launched it, we had quite some trouble getting the resources for it, because you need storage devices that have a huge number of IOPS; you definitely need flash devices, maybe even RAM if you can afford it, which we can't right now. But you can't run it off of a regular spinning hard disk, and in 2012 when I started that project, I approached the Debian sys admin team and asked them for flash storage, and they flat out laughed at me. I was like "What's happening?", I just couldn't understand, because that was also the year when I joined Google, and when I needed flash storage, I would just ask for it and allocate it in a self-service way, and a couple of minutes later I would have the flash storage available to me... And I just couldn't fathom how there could be this huge divide between "Oh yeah, sure, you can do that. You don't even need to talk to a human to do that internally", and then externally it just would not be possible.
 
-**Carlisia Pinto:** Is Google going to open-source a lot of the infrastructure or some of the infrastructure?
+**Carlisia Thompson:** Is Google going to open-source a lot of the infrastructure or some of the infrastructure?
 
 **Michael Stapelberg:** \[00:39:56.29\] I think that's definitely the trend. Infrastructure is always hard to really open source, as in infrastructure software and systems. But if you read about it, there was the release of [Abseil](https://abseil.io/) recently, which is sort of Google's base libraries for C++ and also for Python. It was released at CppCon just a couple of days ago.
 
 I'm very excited about this release, because it means that other parts of Google will also be released. Because essentially, every project that we have uses the base libraries; that's why they're called "base libraries." If the base libraries are not released, you need to jump through so many hoops whenever you want to do an open source release. Now that that foundation is laid, I'm confident that more projects can be released soon(ish), I hope.
 
-**Carlisia Pinto:** The reason I even know this is because [JBD](https://twitter.com/rakyll) is leaving the Go language team to work on the project to open source some part of the infrastructure, and I was wondering if you would know more specifically what that is.
+**Carlisia Thompson:** The reason I even know this is because [JBD](https://twitter.com/rakyll) is leaving the Go language team to work on the project to open source some part of the infrastructure, and I was wondering if you would know more specifically what that is.
 
 **Michael Stapelberg:** Unfortunately, I didn't even know that she was moving, so... I don't know, sorry.
 
-**Carlisia Pinto:** Yeah, more like what the plans are for open-sourcing... What parts of the infrastructure is what I'm curious.
+**Carlisia Thompson:** Yeah, more like what the plans are for open-sourcing... What parts of the infrastructure is what I'm curious.
 
 **Michael Stapelberg:** Right. I think that is a decision that the individual teams actually need to make for themselves. I think in general the climate is pro-open source and people are encouraged to think about it and consider open-sourcing it, but ultimately there's no top-down mandate to open-source everything. That wouldn't fly, that's not how Google works.
 
 I think if the team in question has the man power to do it and has the will to do it, they will now be much more empowered than they used to be.
 
-**Carlisia Pinto:** Cool.
+**Carlisia Thompson:** Cool.
 
 **Erik St. Martin:** That's awesome. And even just things like [Kubernetes](https://kubernetes.io/), right? That's not a direct open source release of an infrastructure tool of Google, but it's the recreation of one that's not so tied to Google's infrastructure, which is really awesome that we get to share in these things that Google's been doing for ages.
 
@@ -300,20 +300,20 @@ I'm excited also for more service providers to step into that market. I think Mi
 
 **Michael Stapelberg:** Exactly.
 
-**Carlisia Pinto:** So the [expanderr](https://github.com/stapelberg/expanderr) project - obviously, super cool! For people who don't know, it's an automated way to add the `if error` statements. The tool automatically recognizes if your function returns an error, or the function you're calling returns an error, and then you can automatically trigger the `if error` statements. I see that's available for Emacs, which I imagine is what you use...
+**Carlisia Thompson:** So the [expanderr](https://github.com/stapelberg/expanderr) project - obviously, super cool! For people who don't know, it's an automated way to add the `if error` statements. The tool automatically recognizes if your function returns an error, or the function you're calling returns an error, and then you can automatically trigger the `if error` statements. I see that's available for Emacs, which I imagine is what you use...
 
 **Michael Stapelberg:** Yes.
 
-**Carlisia Pinto:** Do you know of the other editors having plans to add it? Because I want it.
+**Carlisia Thompson:** Do you know of the other editors having plans to add it? Because I want it.
 
 **Michael Stapelberg:** \[00:44:07.06\] Sure, yeah. To answer the direct question, and then maybe I can talk about how the project came to be... There is in fact a pull request by someone who is currently adding it to the Vim Go plugin; that all needs to be merged. I think [Fatih](https://twitter.com/fatih) is very busy with other projects currently, but as soon as he gets a chance, I hope we can make some progress on this. It definitely will be integrated into Vim.
 I think we briefly brought up adding it to Visual Studio Code as well, and they were very receptive of the idea. It will be added to more editors as people make that little bit of effort and just integrate it.
 
-**Carlisia Pinto:** That'd be awesome!
+**Carlisia Thompson:** That'd be awesome!
 
 **Brian Ketelsen:** That's awesome!
 
-**Carlisia Pinto:** Thank you for that tool. I mean, all the tools you do.
+**Carlisia Thompson:** Thank you for that tool. I mean, all the tools you do.
 
 **Erik St. Martin:** That seems to be one of the common complaints too from people coming into Go, too... They feel it's super verbose to have to constantly do that, so I think that's gonna be an easy solve for a lot of people. "I hate typing the error checks!", but you don't have to.
 
@@ -328,11 +328,11 @@ Then we had a Go meetup in Zurich. I wasn't still quite sure about the idea, bec
 
 **Michael Stapelberg:** Thank you.
 
-**Carlisia Pinto:** Yeah, that's pretty cool. Now, what could Russ possibly mean when he said they will be looking into the error handling?
+**Carlisia Thompson:** Yeah, that's pretty cool. Now, what could Russ possibly mean when he said they will be looking into the error handling?
 
 **Michael Stapelberg:** Well, that's just speculation, right? But it is entirely thinkable that...
 
-**Carlisia Pinto:** Yeah, exactly, let's speculate!
+**Carlisia Thompson:** Yeah, exactly, let's speculate!
 
 **Michael Stapelberg:** Yeah, let's speculate! So it would be thinkable to add a new keyword, or a new syntax feature for it... Maybe, if it really pays off. For example, in Rust you have the exclamation mark for the error-checking macro, right? And I think that's actually a somewhat useful and elegant way of dealing with it. I think they've recently expanded it with even more syntax, and I was sort of turned off by that, because I thought adding a little bit of syntax is okay, but adding too much seems to go overboard.
 
@@ -340,7 +340,7 @@ So there is definitely a balance that one needs to strike here, and I'm fairly c
 
 **Erik St. Martin:** Yeah, it's really interesting, because I'd love to not be as verbose, but I actually kind of like it too, because I can immediately see where the error states are and how this piece of code intends to handle them. If that's kind of abstracted away, you kind of lose that and you're back to exceptions, or you're walking through code and trying to picture which things throw errors and where they're handled... So it would have to be something really close, because I've come to admire that, and I actually really love seeing the blank identifier for the return of the error response, because you immediately see it... It's just like staring right at you, like "So, why aren't you handling that error?"
 
-**Carlisia Pinto:** You love it meaning it doesn't obscure that there is something being returned, right? And then you know, "Okay, you're just skipping over handling it."
+**Carlisia Thompson:** You love it meaning it doesn't obscure that there is something being returned, right? And then you know, "Okay, you're just skipping over handling it."
 
 **Erik St. Martin:** Yeah, it makes it super clear that this call can return in an unpredictable way, where the actual legitimate response variable/value - that could be in some unknown state because of an error condition. That's the thing that I hate the most - if you do a file open and you don't actually notice that that errored out you can't really determine what your file pointer is, and then you go off with it and in some weird place it starts failing when you go to use it. So I like the fact that it's really explicit there and you can see it during code review that this can return in an error state and it can make the other values that are returns unpredictable, and they're ignoring it, like "Why is that not being handled?"
 
@@ -354,7 +354,7 @@ So there is definitely a balance that one needs to strike here, and I'm fairly c
 
 **Brian Ketelsen:** Yes, let's! I think the number one interesting project for the whole year is the Space Gophers screensaver for Mac. [gitHub.com/apiarian/space-gophers](https://github.com/apiarian/space-gophers). You have to build it yourself, because whoever built it doesn't have an X-code developer Apple account thing... But it is the most adorable Gopher screensaver; they're bouncing all across your screen, and it's the Gophers from GopherCon this year, so they're little space Gophers. You have to have it. If you have a Mac, you have to have this. It's not optional.
 
-**Carlisia Pinto:** I'm gonna wait for somebody who does have X-code to build it so I can install it properly... But it's so cute!
+**Carlisia Thompson:** I'm gonna wait for somebody who does have X-code to build it so I can install it properly... But it's so cute!
 
 **Erik St. Martin:** I'm gonna have to make a Linux version... And quickly too, we mentioned last week there were security updates to Go, so if you didn't listen last week, please listen this week and update Go.
 
@@ -364,7 +364,7 @@ So there is definitely a balance that one needs to strike here, and I'm fairly c
 
 **Brian Ketelsen:** Yeah, we'll sit right here and wait.
 
-**Carlisia Pinto:** Tell us when you're ready.
+**Carlisia Thompson:** Tell us when you're ready.
 
 **Brian Ketelsen:** Let us know when you're done.
 
@@ -376,17 +376,17 @@ So there is definitely a balance that one needs to strike here, and I'm fairly c
 
 **Brian Ketelsen:** That's a good point.
 
-**Carlisia Pinto:** Yeah... Sounds like software development. \[laughter\] So I ran into this post early in the week (a few days ago), and to complement Michael's blog post, which is -- we never mention the name, but it's named [Why Go is my favorite programming language](https://michael.stapelberg.de/posts/2017-08-19-golang_favorite/), and that's gonna be in the show notes.
+**Carlisia Thompson:** Yeah... Sounds like software development. \[laughter\] So I ran into this post early in the week (a few days ago), and to complement Michael's blog post, which is -- we never mention the name, but it's named [Why Go is my favorite programming language](https://michael.stapelberg.de/posts/2017-08-19-golang_favorite/), and that's gonna be in the show notes.
 
 This post is called [The 7 stages of becoming a Go programmer](https://opensource.com/article/17/9/seven-stages-becoming-go-programmer), and it's sort of hilarious... I was laughing.
 
 **Brian Ketelsen:** It really is good.
 
-**Carlisia Pinto:** It's written by this guy called Daisuke Maki. It's really clever. I'll just go through the stages, can I?
+**Carlisia Thompson:** It's written by this guy called Daisuke Maki. It's really clever. I'll just go through the stages, can I?
 
 **Erik St. Martin:** Oh yeah, they're funny, and I follow right with it.
 
-**Carlisia Pinto:** Yes, I think he hit it on the nail; he's experienced, obviously, but I think we share at least some of these stages.
+**Carlisia Thompson:** Yes, I think he hit it on the nail; he's experienced, obviously, but I think we share at least some of these stages.
 
 \[00:55:53.07\] "You believe you can make Go do object oriented programming", that's stage one. Stage two, "You believe goroutines will solve all your problems." I had that too, I was thinking "Wow, you have to not just use goroutines, but also use channels, and then maybe \[unintelligible 00:56:14.12\] make it simpler." Stage three, "You believe that instead of object oriented programming, interfaces will solve all of your problems", \[laughter\] and then you're hit with the reality that abstractions are complicated. Stage four, "You believe channels will solve all your problems." Stage five, "You now believe Go is not as powerful as people claim it to be." \[laughter\] "This language sucks, it doesn't do whatever you want." Stage six, "You realize that stages one through five were all just your imagination." Stage seven, "You are now at peace", you accept the Go way.
 
@@ -396,7 +396,7 @@ This post is called [The 7 stages of becoming a Go programmer](https://opensourc
 
 It's so true. So true.
 
-**Carlisia Pinto:** Yeah, I love it. And one thing that I say to people, yeah, Go has these weird things, and error handling is repetitive, but if you stick to it, you will change your mind. There is something about it, and I think it's the simplicity and how it makes your brain not jump through hoops to understand code. Once you get that, you realize "Oh, this is much better..."
+**Carlisia Thompson:** Yeah, I love it. And one thing that I say to people, yeah, Go has these weird things, and error handling is repetitive, but if you stick to it, you will change your mind. There is something about it, and I think it's the simplicity and how it makes your brain not jump through hoops to understand code. Once you get that, you realize "Oh, this is much better..."
 
 **Brian Ketelsen:** It could be [Stockholm syndrome](https://en.wikipedia.org/wiki/Stockholm_syndrome) too, we're not gonna decide that. \[laughter\]
 
@@ -406,7 +406,7 @@ It's so true. So true.
 
 **Michael Stapelberg:** I read that so frequently on Twitter... People are saying "Well, I don't know about Go, but it has the best mascot", and I wonder if that's just a meme that actual gophers still carry forward, or if that's actually people who are just not into Go yet, but they think the mascot is really cute. So either way, I think it's cool.
 
-**Carlisia Pinto:** We love it! I think everybody loves it... I think. From what I see, even veterans still love the gopher.
+**Carlisia Thompson:** We love it! I think everybody loves it... I think. From what I see, even veterans still love the gopher.
 
 **Erik St. Martin:** To me it's really interesting how much we own it. We are more than happy to wear all kinds of swag... Grown adults with cartoon gophers on our laptops, on our shirts, on our backpack...
 
@@ -416,15 +416,15 @@ It's so true. So true.
 
 **Erik St. Martin:** That had never occurred to me.
 
-**Carlisia Pinto:** Yeah. I think I know a gopher more from American television - I didn't grow up in the U.S. - than from real life. I've never seen a gopher in my life, I don't think.
+**Carlisia Thompson:** Yeah. I think I know a gopher more from American television - I didn't grow up in the U.S. - than from real life. I've never seen a gopher in my life, I don't think.
 
 **Brian Ketelsen:** Like Caddyshack?
 
-**Carlisia Pinto:** I don't know... But I was going to say that I heard of words of cosplay at the next GopherCon, people wearing Gopher costumes...
+**Carlisia Thompson:** I don't know... But I was going to say that I heard of words of cosplay at the next GopherCon, people wearing Gopher costumes...
 
 **Brian Ketelsen:** \[01:00:05.10\] We're all wearing Gopher costumes. Everybody's doing it, so get your costume ready now.
 
-**Carlisia Pinto:** Oh, my god... Okay.
+**Carlisia Thompson:** Oh, my god... Okay.
 
 **Erik St. Martin:** You should start making stuff up when people ask that... Like, "What's a gopher?" and you're like "It's kind of in the same family as a chupacabra..." \[laughter\]
 
@@ -434,31 +434,31 @@ It's so true. So true.
 
 **Michael Stapelberg:** Yeah, I would really like to echo that and stress the point that really, if you think you wanna contribute to open source and you don't know how to program, there's still so many useful skills that you can bring to the table, and I really wish we would have more non-programmers in open source. I think it would really benefit all of us.
 
-**Carlisia Pinto:** I think this message also needs to be preached not only to beginners or people who are interested but not doing it, but also to veterans... Because sometimes we talk about making open source more accessible to beginners, and people say "Well, this codebase is so complicated..." If you don't have the stamina or desire or time or ability to make this really complicated code change, then why do we need to make it easier to contribute? If you don't have those things, you don't wanna contribute anyway... But they don't remember that things are very simple and straightforward that people can contribute to, like documentation, little examples... So you have to approach it from both ends.
+**Carlisia Thompson:** I think this message also needs to be preached not only to beginners or people who are interested but not doing it, but also to veterans... Because sometimes we talk about making open source more accessible to beginners, and people say "Well, this codebase is so complicated..." If you don't have the stamina or desire or time or ability to make this really complicated code change, then why do we need to make it easier to contribute? If you don't have those things, you don't wanna contribute anyway... But they don't remember that things are very simple and straightforward that people can contribute to, like documentation, little examples... So you have to approach it from both ends.
 
 **Erik St. Martin:** Even triaging, because sometimes people who post issues are fly-by posting. "It crashes when I do such-and-such", and it's not enough for you to figure out, and often those are the things that get ignored for the longest time, because it's gonna take a time investment just to figure out how to recreate whatever issue happened. So triaging issues and trying to recreate them and offer more context and logs and maybe environment information. There's a lot of things that you can do, even with no to semi-technical ability, not necessarily programming. And sometimes you can track it down; maybe you don't know how to fix it, but you know the area of code that's causing it to happen.
 
-**Carlisia Pinto:** Yeah, and that reminds me to mention also that contributions to documentation might require less technical ability. At least at the beginning, you don't need to know a lot of technicalities about the project, but it's still hard and you still need to know the essence of what the project is about. It's not trivial, but it's more achievable than code, I think.
+**Carlisia Thompson:** Yeah, and that reminds me to mention also that contributions to documentation might require less technical ability. At least at the beginning, you don't need to know a lot of technicalities about the project, but it's still hard and you still need to know the essence of what the project is about. It's not trivial, but it's more achievable than code, I think.
 
 **Michael Stapelberg:** And also one point is you don't even need to know anything, because as soon as you post something that is wrong, as soon as you make a pull request that has a wrong documentation change, people will helpfully point out that it is wrong and what needs to be there. So the best way to get an answer on the internet is to post something wrong and wait for people to correct you, and that applies equally to open source. \[laughter\]
 
-**Carlisia Pinto:** Absolutely.
+**Carlisia Thompson:** Absolutely.
 
 **Erik St. Martin:** \[01:04:03.19\] "I was working on something important, but you posted something wrong and I must stop!" \[laughter\]
 
 **Brian Ketelsen:** Exactly.
 
-**Carlisia Pinto:** "I must correct you!"
+**Carlisia Thompson:** "I must correct you!"
 
 **Erik St. Martin:** I had one of those moments the other night... My wife was heading upstairs to the bed or something, and I was like "I'll be up in a couple of minutes, I'm arguing with somebody on the internet."
 
 **Brian Ketelsen:** Yeah, somebody's wrong on the internet; I'll be there in a while. \[laughter\]
 
-**Carlisia Pinto:** Hey, I totally take advantage of that. I'm always "Hey, I think that that's how it should work." I have no idea, nobody corrects me. No, I'm kidding.
+**Carlisia Thompson:** Hey, I totally take advantage of that. I'm always "Hey, I think that that's how it should work." I have no idea, nobody corrects me. No, I'm kidding.
 
 **Erik St. Martin:** Did you have anything this week, Carlisia?
 
-**Carlisia Pinto:** No.
+**Carlisia Thompson:** No.
 
 **Erik St. Martin:** And how about you, Michael? Did you have a project or a maintainer you wanna give a shoutout to?
 
@@ -512,6 +512,6 @@ With that, we'll see everybody next week! Bye, everybody!
 
 **Brian Ketelsen:** Thank you, Michael!
 
-**Carlisia Pinto:** Bye! Thank you, Michael. It was great!
+**Carlisia Thompson:** Bye! Thank you, Michael. It was great!
 
 **Michael Stapelberg:** Anytime, bye-bye!

@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** \[laughs\] And Carlisia Pinto...
 
-**Carlisia Pinto:** Hi there!
+**Carlisia Thompson:** Hi there!
 
 **Erik St. Martin:** And our special guest for today - we are welcoming back Ron Evans, who as always is doing exciting stuff with hardware in Go.
 
@@ -32,7 +32,7 @@ But it does turn out to be a bit like an alchemist search for scraps and scrolls
 
 Then some of the other really interesting capabilities - we were just mentioning [TensorFlow](https://www.tensorflow.org/) from [Francesc's](https://twitter.com/francesc) talk... You know, one of the main capabilities that we've been working with extensively lately with GoCV has been the support for utilizing deep neural networks like TensorFlow or [Caffe](http://caffe.berkeleyvision.org/), that way you can process the visual data that you're getting from your cameras or from your streaming video, run that through your deep neural networks and use it for image classification or image tracking or other interesting applications. So there is a lot of action -- computer vision is just so hot right now. Computer vision is this year's IoT. It's the thing that everyone is gonna be talking about by summer.
 
-**Carlisia Pinto:** Actually, I wanna pick up on what you just said about "People are using it, it's really cool", and let me start by telling a story. So I've known that Alexa and Google Home -- not so much Google Home, because I think it's newer... So I knew these things were out there, and I sort of looked into it but not really, and I went to a friend's house for a barbecue and he had both of them, and he's like telling them to turn on and turn off the lights, and play this music, that music, and I was sold! I never really got what he did until I saw it with my own eyes.
+**Carlisia Thompson:** Actually, I wanna pick up on what you just said about "People are using it, it's really cool", and let me start by telling a story. So I've known that Alexa and Google Home -- not so much Google Home, because I think it's newer... So I knew these things were out there, and I sort of looked into it but not really, and I went to a friend's house for a barbecue and he had both of them, and he's like telling them to turn on and turn off the lights, and play this music, that music, and I was sold! I never really got what he did until I saw it with my own eyes.
 
 So what I wanted to ask you is to talk to people who haven't used this stuff - why would a regular person want to use this for? And also, who is using this - companies, individuals...? Who is putting this to good use and how?
 
@@ -46,7 +46,7 @@ A really good one is auto-stabilization of photos, or video rather. Most of peop
 
 **Brian Ketelsen:** Oh, okay. Thank you.
 
-**Carlisia Pinto:** And when you put this in a drone, for example, what are the uses for that?
+**Carlisia Thompson:** And when you put this in a drone, for example, what are the uses for that?
 
 **Ron Evans:** So the real reason why you guys wanted me to come on this week, besides the fact that I'm a good punner is more importantly all about drones... Specifically, the latest and greatest drone from DJI, which is called the Tello.
 
@@ -235,21 +235,21 @@ The other important part of the most recent Gobot release, that was sort of over
 
 **Brian Ketelsen:** Alright, I'll kick off the news, and Carlisia is the one who actually dropped this in our Slack channel just a second ago... This is gigantic, momentous, huge news. The Go Blog ([blog.golang.org](https://blog.golang.org/)) has a new blog post out today written by Steve Francia on [Go's new brand](https://blog.golang.org/go-brand). We've got a new Go logo, a new typeface, new colors, new brand guide... I mean, we're talking like a printed brand guide booklet here. Go is looking serious - very, very serious - and I think at this point it's corporate-ready.
 
-**Carlisia Pinto:** It looks really, really nice. Really well put together, clean, good-looking... I love it.
+**Carlisia Thompson:** It looks really, really nice. Really well put together, clean, good-looking... I love it.
 
 **Erik St. Martin:** Yeah, now the question is, is this how they're using it, or they plan on everybody else using it? What happens if you use it inappropriately? ...things like that.
 
 **Brian Ketelsen:** Well, I think you would get a call from the brand police... Because if they go through the trouble of publishing brand guidelines for a brand and a trademark that they own, then they're probably gonna call you and say "You're using our brand inappropriately, please change that." That's what I would assume. Why would you go through the trouble of publishing this?
 
-**Carlisia Pinto:** I would agree with Brian. From what I read - I mean, I read the whole thing... They are acting like a corporation, and they're giving the guidelines for usage of the logo and fonts, and they're even giving you pre-made master slides... And I don't think they would do anything, I don't know; it's a good question. But I think they can at least ask you to use the proper branding.
+**Carlisia Thompson:** I would agree with Brian. From what I read - I mean, I read the whole thing... They are acting like a corporation, and they're giving the guidelines for usage of the logo and fonts, and they're even giving you pre-made master slides... And I don't think they would do anything, I don't know; it's a good question. But I think they can at least ask you to use the proper branding.
 
 **Erik St. Martin:** Yeah, let's look at an example... Like the Gopher page - it says "The Gopher is not a logo. It can be used on communications, but it shouldn't be used as a logo." So what does that mean for all the meetups and conferences that are using Gophers?
 
-**Carlisia Pinto:** \[00:59:53.26\] Well, then the question for me would be "Is that logo representing your meetup, or is the logo representing Go?" Because if you are representing Go, then... You know what I mean? You can use a Gopher for your meetup...
+**Carlisia Thompson:** \[00:59:53.26\] Well, then the question for me would be "Is that logo representing your meetup, or is the logo representing Go?" Because if you are representing Go, then... You know what I mean? You can use a Gopher for your meetup...
 
 **Ron Evans:** Well, I'm not an attorney, and I don't play one on the internet, but I'll weigh in, since this is a podcast and we're expressing opinions. It's a cool-looking logo, totally cool. I'll use it, but there's no requirement for me to use it. I don't have to use anything visually from Go; I can even call it something else, because it's open source. So I could say it's Bagoogle-Go, right?
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Ron Evans:** They can't stop you from doing that. There is no basis for doing that. I don't think that's the basis for this. I think it's more "Hey, everybody! We would like to make your lives easier by giving you some cool-looking visual stuff that you can show to your boss's boss's boss, and that person doesn't start laughing at you because it's fonts that that person doesn't like." I don't think this is an edict to say "You must now use this." I don't think there's -- they have no way to enforce that... And also Go. Are we talking about Amazon Go? Are we talking about Intel Go? Are we talking about Go the game? No, this is not that, and it even says at the bottom of this - which I've just read real fast, while we were on this post, because I hadn't seen this... This does not mean -- I scrolled past it; I was too fast. Oh, "Coordinated with and built upon the great foundation that Renee French established. Rest easy, our beloved Gopher mascot remains at the center of our brand." So this is not about killing Gophers, thank god. \[laughs\] I think this is for consistency, it's to create an identity that we can -- again, it's a flag for us to put up, not one that we are gonna have stamped on our foreheads; at least that's my interpretation. But remember, I did say I don't even play an attorney on the internet, so... \[laughter\]
 
@@ -283,11 +283,11 @@ The other important part of the most recent Gobot release, that was sort of over
 
 **Brian Ketelsen:** I totally forgot that I did that, too. I'm telling you, it's been THAT week.
 
-**Carlisia Pinto:** And there is the [Brazil GopherCon](https://2018.gopherconbr.org/) that opened their CFP this week.
+**Carlisia Thompson:** And there is the [Brazil GopherCon](https://2018.gopherconbr.org/) that opened their CFP this week.
 
 **Brian Ketelsen:** Very nice.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Erik St. Martin:** I'm hoping to come up with something to submit for that. Okay, so I think we're about out of time. Do we wanna run through \#FreeSoftwareFriday?
 
@@ -309,7 +309,7 @@ The other important part of the most recent Gobot release, that was sort of over
 
 Carlisia, did you have anything this week?
 
-**Carlisia Pinto:** I did not.
+**Carlisia Thompson:** I did not.
 
 **Erik St. Martin:** Alright. So I think we might actually be like perfectly on time. This will be interesting. Thanks so much for coming on again, Ron. I think DJI probably owes you some commission, because I have a feeling there's gonna be a lot of purchases. \[laughter\]
 
@@ -321,9 +321,9 @@ Carlisia, did you have anything this week?
 
 **Brian Ketelsen:** Oh, we're in trouble...
 
-**Carlisia Pinto:** Of course! \[laughter\]
+**Carlisia Thompson:** Of course! \[laughter\]
 
 **Erik St. Martin:** It's always a great time getting you on the show, Ron. Thanks so much for coming on!
 **Ron Evans:** Thank you guys for having me. I love the show, and I love to participate. Keep up the great work!
 
-**Carlisia Pinto:** Thank you.
+**Carlisia Thompson:** Thank you.

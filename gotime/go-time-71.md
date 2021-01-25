@@ -1,6 +1,6 @@
 **Erik St. Martin:** Welcome back, everybody, to another episode of GoTime. Today's episode is number 71. On the show today we have myself, Erik St. Martin, Carlisia Pinto...
 
-**Carlisia Pinto:** Hi, there.
+**Carlisia Thompson:** Hi, there.
 
 **Erik St. Martin:** Brian Ketelsen...
 
@@ -18,7 +18,7 @@
 
 **Carmen Andoh:** Right. Yeah, so I was the first official, but it sort of changed my life - I'm not being hyperbolic there when I say that - and I haven't looked back in terms of being a part of the Go community.
 
-**Carlisia Pinto:** I would definitely love to hear how it changed your life. It sounds like such a delightful thing.
+**Carlisia Thompson:** I would definitely love to hear how it changed your life. It sounds like such a delightful thing.
 
 **Carmen Andoh:** Well, what many people don't know -- so I do have a degree in what back then was called... Oh gosh, they've changed the name now; it was 17 years ago, but I have like a computer science but with less calories degree from my university... But then I didn't use it for 12-13 years, because I was a mom, and I went and had kids and I did other things, and I traveled and followed my husband as he was pursuing his degrees to be a college professor.
 
@@ -28,7 +28,7 @@ So I wanted to learn a back-end language, and my self-teaching attempts failed. 
 
 \[00:04:02.10\] But then I went, and I think what I realized was all the -- it took away any kind of intimidation factor that you might have. I now met a community, I now went on Slack, I knew the people, people knew me, I saw how friendly and engaging and willing they were to help me, so that was what it took to finally learn a back-end language. That was just lovely. That then enabled me to kind of put that on my resume, and then I got a role in the Travis build infrastructure team.
 
-**Carlisia Pinto:** A different trajectory, for sure. That's awesome.
+**Carlisia Thompson:** A different trajectory, for sure. That's awesome.
 
 **Brian Ketelsen:** That's awesome in a lot of ways. First of all, following your husband for stuff has to be a hard decision to make. Did you regret that? Did you feel like he paid it forward later for you? Did your career come out okay? These are strong, hard questions, but this isn't 20/20, we're doing the real deal here.
 
@@ -44,33 +44,33 @@ It's a cautionary tale to say that if you want to scale mountains, you can't rea
 
 **Brian Ketelsen:** I don't know about you guys, but I'm crying...
 
-**Carlisia Pinto:** Oh, my gosh... \[laughs\]
+**Carlisia Thompson:** Oh, my gosh... \[laughs\]
 
 **Brian Ketelsen:** Seriously, just tears. I need that relationship, thank you. And kudos to you too for figuring that out.
 
-**Carlisia Pinto:** I was thinking, "This show is so awesome!" \[laughs\]
+**Carlisia Thompson:** I was thinking, "This show is so awesome!" \[laughs\]
 
 **Erik St. Martin:** Yeah, I don't think that could have been phrased any better.
 
 **Brian Ketelsen:** Wow.
 
-**Carlisia Pinto:** Yes, I think I relate to that, personally. It doesn't work when there are two people in a party and they are both climbing and there is nobody tending to the base camp.
+**Carlisia Thompson:** Yes, I think I relate to that, personally. It doesn't work when there are two people in a party and they are both climbing and there is nobody tending to the base camp.
 
 **Carmen Andoh:** Yeah. And you know, I think traditionally women have felt the pressure to kind of do that and be that, but now we're in 2018 and we can feel like, you know... So more paternal leave for dads - that's happening, and that is enabling them, because there was what we call toxic masculinity about having to feel like you're the provider all the time... And now if you feel like "Wait a minute, I wanna be the dad, I wanna be the stay-at-home parent while the other person is the wage earner." That is a pathway that is possible now.
 
 **Brian Ketelsen:** That is just -- it's so awesome.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Brian Ketelsen:** I'm speechless, there's nothing left to talk about. Thanks so much for coming on, Carmen. We appreciate you so much... It's been a great show! \[laughter\]
 
-**Carlisia Pinto:** That was so much wisdom imparted... Nothing else is gonna be as awesome as that. \[laughter\]
+**Carlisia Thompson:** That was so much wisdom imparted... Nothing else is gonna be as awesome as that. \[laughter\]
 
 **Carmen Andoh:** It's so funny, because it was something that I heard and really resonated with me about ten years ago... Maybe just around when my second and my third child were born. That was the thing that I kind of was like "Okay..." and I knew that when I found the thing that I wanted to do, that I was gonna do it with all my heart, and my husband understood "Yeah, now it's gonna be my turn."
 
 **Brian Ketelsen:** Wow.
 
-**Carlisia Pinto:** But you know what I particularly love about this story? It's that you honored yourself; you had the courage to just own the "I don't know" space. You didn't just "I'm gonna do something because I have to... I have to do something!"
+**Carlisia Thompson:** But you know what I particularly love about this story? It's that you honored yourself; you had the courage to just own the "I don't know" space. You didn't just "I'm gonna do something because I have to... I have to do something!"
 
 **Carmen Andoh:** Oh, no, I did that... I did that, but I didn't go all the way into it. Before this, I work in admissions and financial aid at a university. I read lots of applications, I was a national director for a non-profit... I actually worked as a salesperson for a heavy metal radio station; that was a fun job...
 
@@ -78,13 +78,13 @@ It's a cautionary tale to say that if you want to scale mountains, you can't rea
 
 **Carmen Andoh:** Yeah, I know, right? Go metal! But yeah, I did all these things, but I did it with the spirit of "Well, it's just what's gonna help bring in some extra income", so that my husband could go to graduate school, or do his fellowship, or what have you... But there was never anything like the way I do now; I wanna get involved in the community, I wanna help make things better, I wanna go to conferences, I wanna do all those things that I'm doing now for tech.
 
-**Carlisia Pinto:** But that is exactly what I'm talking about. I'm not saying I'm glad that you sat at home and ate bonbons all day, \[unintelligible 00:11:53.25\] but whatever you did, you didn't take it as your path. Things that didn't resonate with you, whatever you were doing... There's no right answer, but you didn't say "This is my path, for the lack of a better option, for the lack of an option that resonates with me." I love that.
+**Carlisia Thompson:** But that is exactly what I'm talking about. I'm not saying I'm glad that you sat at home and ate bonbons all day, \[unintelligible 00:11:53.25\] but whatever you did, you didn't take it as your path. Things that didn't resonate with you, whatever you were doing... There's no right answer, but you didn't say "This is my path, for the lack of a better option, for the lack of an option that resonates with me." I love that.
 
 **Carmen Andoh:** \[00:12:20.04\] Well, I once gave a lightning talk at a devopsdays about four years ago, and I was trying to think about what I could say, and I'd always try to think about the long game, the deathbed perspective is what I call it... And what I realized is that our life expectancies are going to be longer, right? We're going to be living longer, and that means we're gonna be working longer... But our time with our kids is gonna be very short, and so they have this thing called the career rainbow, I think - it's a data visualization which shows how many years you're gonna actively be engaged in the workforce, and how many years you're gonna be actively engaged as a parent.
 
 That timeframe to be actively engaged as a parent, which is like 18, maybe 20 years, is far less than what we expect as workers. We're gonna be in the workforce between 40 and 45 years. By the time I retire, in 30 years, the average retirement age is gonna be up to 75. So when I thought about that, I was like, there's no need for me to rush and to sort of "Get there, get there and get there." I'll find that and then I will contribute. Now I do, I have 30 more years of work left, and so why rush?
 
-**Carlisia Pinto:** Absolutely.
+**Carlisia Thompson:** Absolutely.
 
 **Brian Ketelsen:** What a great story.
 
@@ -107,7 +107,7 @@ And Ladies who Linux as well - it's in New York City and I'm no longer there, bu
 
 **Brian Ketelsen:** That's really cool.
 
-**Carlisia Pinto:** Are you doing this actively, on a regular basis, or is it on a needed basis?
+**Carlisia Thompson:** Are you doing this actively, on a regular basis, or is it on a needed basis?
 
 **Carmen Andoh:** There are several people who have taken me up on my offer and I work with them individually, in direct messages, but I helped start a black women channel. There was a [picture](https://twitter.com/kelseyhightower/status/885932075303534593) that [Vladimir](https://twitter.com/VladimirVivien) and [Johnny Boursiquot](https://twitter.com/jboursiquot) and [Bryan Liles](https://twitter.com/bryanl) shared widely at the last GopherCon, which sort of showed several dozen black men together... And it was just such a wonderful thing to show the growth in that particular area of diversity. And then I tweeted, I was like "My goal is to have this same picture but with black women for GopherCon 2018."
 
@@ -115,7 +115,7 @@ So we started a black women channel, and we couldn't get everyone -- there's so 
 
 **Brian Ketelsen:** That's awesome.
 
-**Carlisia Pinto:** That is very cool. Very, very cool.
+**Carlisia Thompson:** That is very cool. Very, very cool.
 
 **Brian Ketelsen:** Speaking of Women Who Go New York City, I was talking with Jonas just the other day, and there is a strong need for speakers at Women Who Go NYC, so if anybody has something great they wanna share, or something you wanna learn and teach everyone else, reach out and I can put you in touch.
 
@@ -163,7 +163,7 @@ So that's kind of the things that just make me very interested and curious when 
 
 **Brian Ketelsen:** Yeah.
 
-**Carlisia Pinto:** I'm sitting here in awe, and with a lot of feelings, and not knowing what to say next... Just processing everything you said.
+**Carlisia Thompson:** I'm sitting here in awe, and with a lot of feelings, and not knowing what to say next... Just processing everything you said.
 
 **Brian Ketelsen:** Yeah, how do you follow that up with light Go news from GitHub? You just don't.
 
@@ -171,7 +171,7 @@ So that's kind of the things that just make me very interested and curious when 
 
 I've talked to a lot of people, especially about this idea of inclusivity and diversity and what not, and so I would just love to talk more about it, and I do feel that community is super important, and it's what made me finally learn Go. It wasn't the syntax, and it wasn't the small language footprint, or the standard library... It was the people.
 
-**Carlisia Pinto:** \[00:28:23.09\] One thing that you said that is hitting me really hard personally, is because like you, I'm Latina, and a woman, obviously, and going through the experience of college in the U.S., and getting a job in tech, it's amazing how much of an outsider you feel when you don't have people who look like you, and not only that, but sort of have the same background as you... It's so disconcerting, and you don't operate at full confidence. And not operating at full confidence shows. So you have to overcompensate somehow, you have to bring yourself up to task, right? And it takes years for you to feel like you're operating, at least to your satisfaction, up to a level of like mostly confident... But still, you're not up there, because when you step into another context where there are people like you, you contrast... Because you can see, "Okay, I am myself. I'm completely confident in this setting", and then you step into a setting where there aren't people like you - you're still operating at a high level of confidence, but you're not fully there.
+**Carlisia Thompson:** \[00:28:23.09\] One thing that you said that is hitting me really hard personally, is because like you, I'm Latina, and a woman, obviously, and going through the experience of college in the U.S., and getting a job in tech, it's amazing how much of an outsider you feel when you don't have people who look like you, and not only that, but sort of have the same background as you... It's so disconcerting, and you don't operate at full confidence. And not operating at full confidence shows. So you have to overcompensate somehow, you have to bring yourself up to task, right? And it takes years for you to feel like you're operating, at least to your satisfaction, up to a level of like mostly confident... But still, you're not up there, because when you step into another context where there are people like you, you contrast... Because you can see, "Okay, I am myself. I'm completely confident in this setting", and then you step into a setting where there aren't people like you - you're still operating at a high level of confidence, but you're not fully there.
 
 And of course, it helps to have people who are empathetic to that and maybe can approach and ask questions in a different way, or whatever it is that people need to do... I don't even know. Maybe somebody can write a manual, I don't know. But it helps to -- for example, in the Go community people always try to think about inclusion, and working on those efforts, so just seeing that helps a lot... But it's hard.
 
@@ -181,7 +181,7 @@ And of course, it helps to have people who are empathetic to that and maybe can 
 
 **Carmen Andoh:** Oh, yeah.
 
-**Carlisia Pinto:** Yes, absolutely.
+**Carlisia Thompson:** Yes, absolutely.
 
 **Carmen Andoh:** And socio-economic factors, geographic factors... Right? There's so many, and that's why I still -- you know, inclusivity is personal; it's intensely personal, and so you have to meet it there... And when I've met it there, I've often found more compassion than not, right? So that's what I try to do.
 
@@ -268,11 +268,11 @@ So just hearing about that helped me really \[unintelligible 00:43:49.21\] and u
 
 **Brian Ketelsen:** Let me know how it goes. \[laughter\]
 
-**Carlisia Pinto:** Okay, ice-cream on toast.
+**Carlisia Thompson:** Okay, ice-cream on toast.
 
 **Carmen Andoh:** Ice-cream on toast... I'll try it.
 
-**Carlisia Pinto:** It's awesome.
+**Carlisia Thompson:** It's awesome.
 
 **Erik St. Martin:** My mother had an uncle that used to put ketchup on ice-cream.
 
@@ -294,17 +294,17 @@ So just hearing about that helped me really \[unintelligible 00:43:49.21\] and u
 
 **Brian Ketelsen:** "Oh, that...!" Well, this is just the best conversation ever, but the clock is ticking, so we should probably move on to Go projects and news, unless there's something anybody else wants to get in real quick...?
 
-**Carlisia Pinto:** That's crazy, how did it end so fast? \[laughter\]
+**Carlisia Thompson:** That's crazy, how did it end so fast? \[laughter\]
 
 **Erik St. Martin:** Right...?
 
 **Brian Ketelsen:** Just like the best movies ever - they end and you don't even notice it.
 
-**Carlisia Pinto:** This makes no sense.
+**Carlisia Thompson:** This makes no sense.
 
 **Carmen Andoh:** Time flies when you're having a lovely conversation.
 
-**Carlisia Pinto:** Yes.
+**Carlisia Thompson:** Yes.
 
 **Brian Ketelsen:** So who wants to kick us off with some interesting news?
 
@@ -324,7 +324,7 @@ So just hearing about that helped me really \[unintelligible 00:43:49.21\] and u
 
 **Brian Ketelsen:** That was really cool, we should do that again. \[laughter\] "Much less memory used..."
 
-**Carlisia Pinto:** That was really cool.
+**Carlisia Thompson:** That was really cool.
 
 **Carmen Andoh:** \[laughs\] Oh my god, there's so much echo right now...
 
@@ -426,4 +426,4 @@ The other one I found is one called [Bettercap](https://github.com/bettercap/bet
 
 **Carmen Andoh:** Thanks! Bye, everyone.
 
-**Carlisia Pinto:** Bye! Thank you, Carmen.
+**Carlisia Thompson:** Bye! Thank you, Carmen.

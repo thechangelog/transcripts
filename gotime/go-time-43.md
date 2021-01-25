@@ -2,7 +2,7 @@
 
 On the show today we have myself, Erik St. Martin, we also have Carlisia Pinto - say hi, Carlisia...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And Brian finally made it on the show...
 
@@ -30,17 +30,17 @@ On the show today we have myself, Erik St. Martin, we also have Carlisia Pinto -
 
 **Brian Ketelsen:** That's perfect!
 
-**Carlisia Pinto:** Oh, I feel that way every day!
+**Carlisia Thompson:** Oh, I feel that way every day!
 
 **Ashley McNamara:** Oh... Okay, so I'm normal. This is amazing.
 
-**Carlisia Pinto:** That's so normal...
+**Carlisia Thompson:** That's so normal...
 
 **Brian Ketelsen:** We call that life, right?
 
 **Ashley McNamara:** Oh, okay...
 
-**Carlisia Pinto:** Especially with tech... So many new things; you just have to try focus and not have anxiety over what you don't know and you're not learning.
+**Carlisia Thompson:** Especially with tech... So many new things; you just have to try focus and not have anxiety over what you don't know and you're not learning.
 
 **Ashley McNamara:** Yeah, that's why it's Xanax...
 
@@ -86,11 +86,11 @@ On the show today we have myself, Erik St. Martin, we also have Carlisia Pinto -
 
 **Erik St. Martin:** You're looking around at these cool things and you think everybody is cooler than -- like, "I'm not a millionaire at 20? I'm a failure in life..." \[laughter\]
 
-**Carlisia Pinto:** So what are some of the things that you wish you knew better, Ashley?
+**Carlisia Thompson:** So what are some of the things that you wish you knew better, Ashley?
 
 **Ashley McNamara:** Oh geez, everything.
 
-**Carlisia Pinto:** At least lately... Everything! \[laughter\]
+**Carlisia Thompson:** At least lately... Everything! \[laughter\]
 
 **Ashley McNamara:** At least lately - [Kubernetes](https://kubernetes.io/) is definitely on my list. Microservices in general, I wish I knew a lot more than I do. The good news is that community is awesome, so if I don't know something - which often times I don't - I always know somebody who does. There are always awesome people who are willing to teach me, like [Kelsey Hightower](https://twitter.com/kelseyhightower), for example. [Brian](https://twitter.com/bketelsen) is another example - I ask him dumb questions about Go all the time. And everyone is just so patient...
 
@@ -168,31 +168,31 @@ We don't set out immediately knowing how to solve a problem. I think we've just 
 
 **Erik St. Martin:** So when you come in, I think it can be demotivating, because you're just like, "Oh, I'm just not cut out... I just can't get this to work. I don't understand it."
 
-**Carlisia Pinto:** Yeah, that's a great point. Sorry, did I cut you off? Sorry, not sorry... \[laughter\]
+**Carlisia Thompson:** Yeah, that's a great point. Sorry, did I cut you off? Sorry, not sorry... \[laughter\]
 
 **Brian Ketelsen:** Yeah, shut up, Erik. Carlisia needs to talk now.
 
-**Carlisia Pinto:** No, I think the essence of programming is being comfortable with not knowing, and having your own strategies for putting the pieces of the puzzle together. For me sometimes it's study from the bottom and going up; sometimes it's starting from the outside, going in... There's all sorts of strategies that I use to solve problems. A lot of times it's breaking things apart, just solving one piece, and making sure I understand - even just renaming things, in the process of solving a problem. And that's fun... But if you think that you need to go in and you need to know -- it's not about knowing, it's about figuring it out, and you need to like the process of figuring things out.
+**Carlisia Thompson:** No, I think the essence of programming is being comfortable with not knowing, and having your own strategies for putting the pieces of the puzzle together. For me sometimes it's study from the bottom and going up; sometimes it's starting from the outside, going in... There's all sorts of strategies that I use to solve problems. A lot of times it's breaking things apart, just solving one piece, and making sure I understand - even just renaming things, in the process of solving a problem. And that's fun... But if you think that you need to go in and you need to know -- it's not about knowing, it's about figuring it out, and you need to like the process of figuring things out.
 
 **Erik St. Martin:** Enjoy the journey...
 
-**Carlisia Pinto:** Yeah... Because mostly we don't know shit... We're just figuring stuff out.
+**Carlisia Thompson:** Yeah... Because mostly we don't know shit... We're just figuring stuff out.
 
 **Brian Ketelsen:** This is a family show!
 
-**Carlisia Pinto:** \[00:12:06.26\] Oh, that's not family-friendly?
+**Carlisia Thompson:** \[00:12:06.26\] Oh, that's not family-friendly?
 
 **Brian Ketelsen:** Family show, Carlisia!
 
-**Carlisia Pinto:** I'm gonna be bleeped.
+**Carlisia Thompson:** I'm gonna be bleeped.
 
 **Erik St. Martin:** We miss Ashley's alternate words and phrases list...
 
-**Carlisia Pinto:** I thought that was family-friendly, sorry... \[laughter\]
+**Carlisia Thompson:** I thought that was family-friendly, sorry... \[laughter\]
 
 **Ashley McNamara:** You know what? Here's family-friendly: you be YOU! Don't let anybody tell you how to live your life.
 
-**Carlisia Pinto:** We're just gonna be bleeped.
+**Carlisia Thompson:** We're just gonna be bleeped.
 
 **Ashley McNamara:** Don't bleep us, it's so rude...
 
@@ -220,7 +220,7 @@ You think about it... We do this all the time. If you started your day knowing 1
 
 **Ashley McNamara:** So true!
 
-**Carlisia Pinto:** So what are you doing at Pivotal? Tell us...
+**Carlisia Thompson:** So what are you doing at Pivotal? Tell us...
 
 **Ashley McNamara:** What I didn't know about Pivotal is that they have a really passionate set of Go developers. Pivotal started out as a Ruby on Rails shop, and most of CF(Cloud Foundry) was Ruby. I had no idea until I tweeted that I was looking for a job and I got a message from one of the Go developers at Pivotal...
 
@@ -228,15 +228,15 @@ You think about it... We do this all the time. If you started your day knowing 1
 
 So I started interviewing and I realized that they just didn't have a lot of people to be the face in that community, to evangelize that. So that's what I'm doing at Pivotal - making the Go community aware of what we have to offer.
 
-**Carlisia Pinto:** First of all, CF is Cloud Foundry, right?
+**Carlisia Thompson:** First of all, CF is Cloud Foundry, right?
 
 **Ashley McNamara:** Correct, yes.
 
-**Carlisia Pinto:** Maybe you wanna tell us what that even is... But what is the important stuff that's working? What type of developers will benefit from what Pivotal has to offer?
+**Carlisia Thompson:** Maybe you wanna tell us what that even is... But what is the important stuff that's working? What type of developers will benefit from what Pivotal has to offer?
 
 **Ashley McNamara:** So you're gonna have to cut me a little bit of slack on this, because it's day four for me at Pivotal...
 
-**Carlisia Pinto:** Consider it done! Totally.
+**Carlisia Thompson:** Consider it done! Totally.
 
 **Ashley McNamara:** But many of the engineers are using a scripting language. They're writing small tools, like lightweight CLIs that might have once been done in Ruby or Bash, and it's especially handy when you want to, say, write a little diagnostic test on a Mac and then run it on an arbitrary Linux container without messing with the dependencies or worrying about Bash mysteries... So we're doing a lot of testing.
 
@@ -264,19 +264,19 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Brian Ketelsen:** It's Ashley. It's the Ashley party.
 
-**Carlisia Pinto:** Talking about Ashley party... What is your talk at GopherCon going to be about?
+**Carlisia Thompson:** Talking about Ashley party... What is your talk at GopherCon going to be about?
 
 **Ashley McNamara:** Oh my gosh...
 
-**Carlisia Pinto:** I'm so curious!
+**Carlisia Thompson:** I'm so curious!
 
 **Ashley McNamara:** I wavered on this a couple of times, so right now it says [My journey to Go](https://www.youtube.com/watch?v=6sBBTFXOq44), and I've talked to a couple of people about it; it feels pretentious in a way, like "Who cares about my specific journey?", but at the same time, "Could it be helpful for people that are learning?" I don't know, so I'm not a hundred percent sure, to be honest.
 
-**Carlisia Pinto:** I wanna go back to that and give you my opinion, but do you have an alternative to that? Were you thinking about another talk?
+**Carlisia Thompson:** I wanna go back to that and give you my opinion, but do you have an alternative to that? Were you thinking about another talk?
 
 **Ashley McNamara:** I have no idea... I would love to hear your opinion.
 
-**Carlisia Pinto:** My opinion on the original talk, your journey to go - I think it can be extremely useful, because Go is growing tremendously, and there's always new people coming into the language... And when people are coming into a new language, of course they wanna see steps that people who are practicing have taken to get to where they are.
+**Carlisia Thompson:** My opinion on the original talk, your journey to go - I think it can be extremely useful, because Go is growing tremendously, and there's always new people coming into the language... And when people are coming into a new language, of course they wanna see steps that people who are practicing have taken to get to where they are.
 
 \[00:20:04.10\] So it can be inspiring, it can be informative... Definitely very helpful. And even for veterans, it's a chance for us to look back and see "Hey, what's that person's journey, compared to my journey?" I mean, I like talks like that.
 
@@ -288,7 +288,7 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Brian Ketelsen:** That's the first time anybody has ever said that on this show. \[laughter\]
 
-**Carlisia Pinto:** That Erik is right? \[laughs\]
+**Carlisia Thompson:** That Erik is right? \[laughs\]
 
 **Brian Ketelsen:** That everybody's right...
 
@@ -308,11 +308,11 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Erik St. Martin:** I think the "Like me" story is really important, too. We all have people we relate to, and when you can see somebody who's very similar to you in your upbringing and your journey, and they can see what their journey could look like a year or two from now, if they just kind of stay the course, I think that's important and I think it's motivating. It keeps people on track.
 
-**Carlisia Pinto:** Yeah, that's a very good choice, because Ashley said that she feels that maybe it's pretentious to do a talk like that, and I assume it's because she doesn't have ten years of experience... But I think not necessarily that it's better - I think it's good to have different perspectives from a person who's only been programming with Go for a couple years, as well as somebody who's been programming with Go for 15 years. The people who are coming in, they will be able to relate a lot better to someone who's been programming for a couple years, because it's more manageable for them to visualize themselves two years ahead of time.
+**Carlisia Thompson:** Yeah, that's a very good choice, because Ashley said that she feels that maybe it's pretentious to do a talk like that, and I assume it's because she doesn't have ten years of experience... But I think not necessarily that it's better - I think it's good to have different perspectives from a person who's only been programming with Go for a couple years, as well as somebody who's been programming with Go for 15 years. The people who are coming in, they will be able to relate a lot better to someone who's been programming for a couple years, because it's more manageable for them to visualize themselves two years ahead of time.
 
 **Ashley McNamara:** \[00:24:07.20\] Yeah, you're absolutely right.
 
-**Carlisia Pinto:** They will relate to that talk a lot more than if you have 15 years programming in Go.
+**Carlisia Thompson:** They will relate to that talk a lot more than if you have 15 years programming in Go.
 
 **Erik St. Martin:** I think that some of the most moving parts of talks like these are hearing some of the failures, too... Where people can see that it's not all perfect, that other people struggled and they failed and fell off and got back on, and things like that. I think that's part of the motivating thing. I mean, if you stood up and just told everybody all your awesome accomplishments and were like "You may all now bow" and mic drop - that'd be a bit pretentious, but...
 
@@ -362,7 +362,7 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Ashley McNamara:** Just like that!
 
-**Carlisia Pinto:** So how did gopherize.me came about? Did you have the idea?
+**Carlisia Thompson:** So how did gopherize.me came about? Did you have the idea?
 
 **Ashley McNamara:** No, it was not my idea at all. I just take credit for it. So I was creating these avatars... I created them initially for GopherCon, because I wanted to have placeholders for the speakers, and I love punny things, so I wanted to name them, so it was all really selfish. Eventually I ended up making a Brian gopher, and sent it to him. He tweeted about it, and then I made an Erik gopher, and then I made a Mark gopher, and eventually I was making all of these gophers... Then Todd on Twitter said, "Hey, you should just make an avatar generator", and 24 hours later there was an avatar generator, with the help of Matt.
 
@@ -380,7 +380,7 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Brian Ketelsen:** That's alright.
 
-**Carlisia Pinto:** Do you know how many avatars have been generated with that?
+**Carlisia Thompson:** Do you know how many avatars have been generated with that?
 
 **Ashley McNamara:** \[00:28:00.11\] I haven't looked at the analytics in a while... But every day I see at least one avatar on Twitter, at least. They're every everywhere, which is awesome!
 
@@ -388,7 +388,7 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Ashley McNamara:** Yes.
 
-**Carlisia Pinto:** Yeah, I totally adopted it as my avatar.
+**Carlisia Thompson:** Yeah, I totally adopted it as my avatar.
 
 **Ashley McNamara:** It was obviously something that the community needed, and eventually it will grow to be bigger and better... When we all have time.
 
@@ -418,7 +418,7 @@ Then I would like to be able to have people customize a T-Shirt.
 
 **Brian Ketelsen:** Oh, nice!
 
-**Carlisia Pinto:** Nice! The [Cobra](https://github.com/spf13/cobra) guy.
+**Carlisia Thompson:** Nice! The [Cobra](https://github.com/spf13/cobra) guy.
 
 **Brian Ketelsen:** The [Hugo](https://github.com/gohugoio/hugo) guy, too.
 
@@ -428,7 +428,7 @@ Then I would like to be able to have people customize a T-Shirt.
 
 **Brian Ketelsen:** That's right.
 
-**Carlisia Pinto:** I said Cobra because it's the CLI related talk... But he's many things, for sure.
+**Carlisia Thompson:** I said Cobra because it's the CLI related talk... But he's many things, for sure.
 
 **Brian Ketelsen:** True.
 
@@ -446,19 +446,19 @@ Then I would like to be able to have people customize a T-Shirt.
 
 **Ashley McNamara:** It's a good book.
 
-**Carlisia Pinto:** I've seen that book... It makes my blood boil. Why is it for boys? Everything in there a girl can do. Seriously...
+**Carlisia Thompson:** I've seen that book... It makes my blood boil. Why is it for boys? Everything in there a girl can do. Seriously...
 
 **Brian Ketelsen:** Good point.
 
-**Carlisia Pinto:** Oh my gosh...
+**Carlisia Thompson:** Oh my gosh...
 
 **Ashley McNamara:** We should rebrand it.
 
-**Carlisia Pinto:** Imagine girls reading that book... What does it mean? Only boys are allowed? Because that's how little kids think... First grade, second grade, third grade - that's how they think.
+**Carlisia Thompson:** Imagine girls reading that book... What does it mean? Only boys are allowed? Because that's how little kids think... First grade, second grade, third grade - that's how they think.
 
 **Ashley McNamara:** Well, that's the reason why this industry will not be equal in our generation... Or our kids' generation.
 
-**Carlisia Pinto:** \[00:32:02.12\] Sorry for side-tracking... Let's go back.
+**Carlisia Thompson:** \[00:32:02.12\] Sorry for side-tracking... Let's go back.
 
 **Brian Ketelsen:** Well, it's a really good point, Carlisia.
 
@@ -468,13 +468,13 @@ Then I would like to be able to have people customize a T-Shirt.
 
 **Ashley McNamara:** I don't know, I have one of those, too... But on that topic, he wants to change her major to more computer science type things from business. She went to her school counselor with her change list, and the counselor was like "Honey, this is gonna be too hard for you. You should probably just stick with business..."
 
-**Carlisia Pinto:** Oh my god...
+**Carlisia Thompson:** Oh my god...
 
 **Brian Ketelsen:** Oh my god...
 
 **Ashley McNamara:** I did sign her up for any of the classes she wanted.
 
-**Carlisia Pinto:** Did you go back and give this woman a talking, too?
+**Carlisia Thompson:** Did you go back and give this woman a talking, too?
 
 **Ashley McNamara:** I didn't find out until way later, unfortunately... Because I would have had words.
 
@@ -486,11 +486,11 @@ Then I would like to be able to have people customize a T-Shirt.
 
 You come in, you can have an MBA, but you get dropped in an industry you've never worked in before; there's stuff to learn.
 
-**Carlisia Pinto:** That's absolutely true, but I am willing to bet that this woman said what she said based on gender.
+**Carlisia Thompson:** That's absolutely true, but I am willing to bet that this woman said what she said based on gender.
 
 **Brian Ketelsen:** I agree.
 
-**Carlisia Pinto:** It's a separate thing, and I think it's even worse than assuming that certain elitist things require somebody to be super smart; that's one big problem. But assuming that a person because they are not a straight male - or maybe even a straight white male - they're not smart enough to do harder work is just... Sigh!
+**Carlisia Thompson:** It's a separate thing, and I think it's even worse than assuming that certain elitist things require somebody to be super smart; that's one big problem. But assuming that a person because they are not a straight male - or maybe even a straight white male - they're not smart enough to do harder work is just... Sigh!
 
 **Erik St. Martin:** I hate it because usually I like to play devil's advocate; I like to at least understand the position somebody's coming from, even if I don't agree with them. But in this, I truly don't understand how anybody can think that somehow women are not smart enough to do that.
 
@@ -510,11 +510,11 @@ You come in, you can have an MBA, but you get dropped in an industry you've neve
 
 **Ashley McNamara:** Exactly.
 
-**Carlisia Pinto:** I don't think it's like that. I think she's the parent, therefore she's biased. She might say "I think you are sufficiently capable to do this program" and she'll say "Well, you're my mother, of course you think that."
+**Carlisia Thompson:** I don't think it's like that. I think she's the parent, therefore she's biased. She might say "I think you are sufficiently capable to do this program" and she'll say "Well, you're my mother, of course you think that."
 
 **Erik St. Martin:** "As a parent you're going to be supportive always" type of ordeal... You're not gonna tell it to them straight.
 
-**Carlisia Pinto:** It's so important for people to be sensitive to these issues...
+**Carlisia Thompson:** It's so important for people to be sensitive to these issues...
 
 **Ashley McNamara:** And it makes me wonder if that's why people are ending up in bootcamps, because they were unable to get the classes in college... I wonder how often this happens now.
 
@@ -524,7 +524,7 @@ You come in, you can have an MBA, but you get dropped in an industry you've neve
 
 **Erik St. Martin:** Ugh!
 
-**Carlisia Pinto:** Let's change subjects.
+**Carlisia Thompson:** Let's change subjects.
 
 **Erik St. Martin:** So on a positive note on this getting more people into stem and kids... The other night I saw a really awesome Verizon commercial. It went through LeBron James, and there's some actors and models and stuff -- basically, like "We don't need more LeBron James, we don't need more...", and showing the statistics of the number of professional football players versus the number of pro basketball players, and just this little kid, and it was like "We need more of me!" and he's doing like a LEGO Mindstorms thing or something, and it kind of rolls into how there's four million unfilled tech jobs. We don't need more celebrity actors and models and stuff, we need more tech people. I thought that was really cool.
 
@@ -568,11 +568,11 @@ And now everybody's gonna be listening to us live talk and listening to a commer
 
 **Erik St. Martin:** To Brian's point, Joe Rogan has a comedy bit where he talks about some of this stuff, and he's like "How many smart people are in the room?" And he's like, "No, I mean REALLY smart, not just use-stuff-made-by-smart-people... Like, how does your phone work?" \[laughter\]
 
-**Carlisia Pinto:** I love him.
+**Carlisia Thompson:** I love him.
 
 **Erik St. Martin:** He's just like "If you think you're smart... If I took you and gave you a hatchet and dropped you off in the middle of the forest/jungle, how long till you can send me an email?" \[laughter\] And it goes to show -- he's like "What would happen, what do you do when the power goes out?" He's like "I know I'd do I'd sit here twiddling my thumbs. Somebody's probably working on it right now!" He's like "What would happen if it never came back on, and we had to go back into the caves because the animals are coming in because there's no lights and sounds and stuff?"
 
-**Carlisia Pinto:** You don't have a fridge. Stop and think about it for a second - you don't have fridge.
+**Carlisia Thompson:** You don't have a fridge. Stop and think about it for a second - you don't have fridge.
 
 **Erik St. Martin:** Well, Brian and I would be safe.
 
@@ -604,7 +604,7 @@ And now everybody's gonna be listening to us live talk and listening to a commer
 
 **Erik St. Martin:** Yeah... It's just crazy.
 
-**Carlisia Pinto:** I wanted to go back and ask Ashley... I didn't catch up with the age of your kid/kids - I don't even know if it's more than one... But I wanted to ask if you're teaching them how to code, and what you're using, how that's coming along...?
+**Carlisia Thompson:** I wanted to go back and ask Ashley... I didn't catch up with the age of your kid/kids - I don't even know if it's more than one... But I wanted to ask if you're teaching them how to code, and what you're using, how that's coming along...?
 
 **Ashley McNamara:** Yeah, so I have a 19-year-old, the one that's in college... She is girl, and she is just now starting to come around to the idea of programming. I tried to teach her when she was about my son's age, who's 11, and she was having not part of it, and you can't force somebody to learn it; it just doesn't work.
 
@@ -614,15 +614,15 @@ My 11-year-old is very interested in it, and we started out with Scratch, and we
 
 **Ashley McNamara:** Yeah...
 
-**Carlisia Pinto:** Why?! That makes no sense to me. No, really... Why? \[laughter\]
+**Carlisia Thompson:** Why?! That makes no sense to me. No, really... Why? \[laughter\]
 
 **Brian Ketelsen:** It was a bad joke, Carlisia... I apologize to all of the world for my bad joke.
 
-**Carlisia Pinto:** Okay, it went over my head.
+**Carlisia Thompson:** Okay, it went over my head.
 
 **Ashley McNamara:** You should expect this from Brian...
 
-**Carlisia Pinto:** I should...
+**Carlisia Thompson:** I should...
 
 **Brian Ketelsen:** I haven't slept in a while.
 
@@ -676,15 +676,15 @@ I don't know -- did they call for new members, or just participation from the co
 
 **Brian Ketelsen:** They did, yeah. They called for lots of participation and membership and activity.
 
-**Carlisia Pinto:** There's a mailing list and it's been very active. There's a lot going on there. I haven't had time to read through it, but that's definitely the place to go to catch up.
+**Carlisia Thompson:** There's a mailing list and it's been very active. There's a lot going on there. I haven't had time to read through it, but that's definitely the place to go to catch up.
 
 **Ashley McNamara:** Did you guys put it in the Slack channel?
 
-**Carlisia Pinto:** Yes...
+**Carlisia Thompson:** Yes...
 
 **Ashley McNamara:** Do it...
 
-**Carlisia Pinto:** Let's do it!
+**Carlisia Thompson:** Let's do it!
 
 **Erik St. Martin:** Are you not looking at the doc, Ashley?
 
@@ -700,15 +700,15 @@ I don't know -- did they call for new members, or just participation from the co
 
 **Ashley McNamara:** Well, obviously, because I ignored it. I'm in the doc now, how about that?
 
-**Carlisia Pinto:** I put the mailing list on Slack.
+**Carlisia Thompson:** I put the mailing list on Slack.
 
 **Brian Ketelsen:** Alright, I have a complaint... I'm looking at this document about all these interesting Go projects and news, and there are two different Ruby implementations in Go this week?
 
-**Carlisia Pinto:** I saw that!
+**Carlisia Thompson:** I saw that!
 
 **Brian Ketelsen:** What's up with that? Why do we have to rewrite Ruby in Go?
 
-**Carlisia Pinto:** No, it's funny, because earlier in the week I saw one of them... One of you dropped it in our private channel, and I'm like "Why do we want this...?" And now there are two of them! \[laughs\] I'm like "Why?!"
+**Carlisia Thompson:** No, it's funny, because earlier in the week I saw one of them... One of you dropped it in our private channel, and I'm like "Why do we want this...?" And now there are two of them! \[laughs\] I'm like "Why?!"
 
 **Erik St. Martin:** So here's how the story goes... I came across [Rooby](https://github.com/st0012/Rooby), which is like a Ruby the language-like language; it's somebody's own interpretation of the language, written in Go. And this is really cool, from the perspective similar to how we talked about writing compilers and interpreters and things like that in Go, so I thought that was really cool. And then I came across [Go Ruby](https://github.com/goruby/goruby), which is an actual implementation of the real Ruby language in Go.
 
@@ -722,7 +722,7 @@ If you haven't used Buffalo or Plus yet - because you can use Plush without Buff
 
 So I just brought that whole thing full circle. Did you see how I did that?
 
-**Carlisia Pinto:** That was very nice. Good job!
+**Carlisia Thompson:** That was very nice. Good job!
 
 **Brian Ketelsen:** Thank you. Thank you so much.
 
@@ -742,7 +742,7 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Ashley McNamara:** Let's do a project! I'm calling you. \[laughter\]
 
-**Carlisia Pinto:** I don't know what to say. \[laughter\]
+**Carlisia Thompson:** I don't know what to say. \[laughter\]
 
 **Brian Ketelsen:** We're gonna abuse Hugo this weekend while I'm grilling my pig.
 
@@ -752,11 +752,11 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Erik St. Martin:** If we used it for something barbecue-related... There's lots to be done for the live barbecue stuff.
 
-**Carlisia Pinto:** Where even is the blog? I'm on the page and I don't see a blog. You said you read the blog post?
+**Carlisia Thompson:** Where even is the blog? I'm on the page and I don't see a blog. You said you read the blog post?
 
 **Ashley McNamara:** Yeah, hang on a second, I'll drop it in. Here you go...
 
-**Carlisia Pinto:** Thank you.
+**Carlisia Thompson:** Thank you.
 
 **Erik St. Martin:** Is this about sweet and nice silly?
 
@@ -770,25 +770,25 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Brian Ketelsen:** Or bep, as he calls himself these days. We've got JBP, we've got bep... I'm going by BJK now. \[laughter\]
 
-**Carlisia Pinto:** So I wanted to mention real quick... Caddy is [launching officially on 20th April](https://docs.google.com/forms/d/e/1FAIpQLSeFf9HQlL_-Dsk-QeEIlVjX5klsYIDNQEX2On2psYesjRPC2g/viewform?c=0&w=1). There's going to be a party somewhere in Utah... Just follow Matt Holt on Twitter to find out if you are in that area. He has really cute Caddy stickers, but we need to order them, because of course, it's unfeasible for him to send everybody a sticker.
+**Carlisia Thompson:** So I wanted to mention real quick... Caddy is [launching officially on 20th April](https://docs.google.com/forms/d/e/1FAIpQLSeFf9HQlL_-Dsk-QeEIlVjX5klsYIDNQEX2On2psYesjRPC2g/viewform?c=0&w=1). There's going to be a party somewhere in Utah... Just follow Matt Holt on Twitter to find out if you are in that area. He has really cute Caddy stickers, but we need to order them, because of course, it's unfeasible for him to send everybody a sticker.
 
 **Brian Ketelsen:** I ordered $25 worth if you need any.
 
 **Ashley McNamara:** Oh, I need one...
 
-**Carlisia Pinto:** I would love to have one.
+**Carlisia Thompson:** I would love to have one.
 
 **Brian Ketelsen:** I couldn't help myself. I love Caddy so much, I was like "Stickers?! Must have all of them!"
 
-**Carlisia Pinto:** Yes, that is how I felt.
+**Carlisia Thompson:** Yes, that is how I felt.
 
 **Brian Ketelsen:** Two seconds after he tweeted that I ordered a ton.
 
-**Carlisia Pinto:** \[00:55:59.04\] Send me one.
+**Carlisia Thompson:** \[00:55:59.04\] Send me one.
 
 **Brian Ketelsen:** I figured the stickers were probably relatively cheap, and any extra money was going towards Caddy, so it was a good investment.
 
-**Carlisia Pinto:** Exactly. Yeah, he works so hard on that.
+**Carlisia Thompson:** Exactly. Yeah, he works so hard on that.
 
 **Brian Ketelsen:** So yes, I'll share my stickers. I'm happy to.
 
@@ -828,11 +828,11 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Ashley McNamara:** Yeah.
 
-**Carlisia Pinto:** It's funny, because when you were saying people have trouble knowing where to start, I didn't have a chance to jump in and say what I was thinking... What I was thinking was you start at the end. You find out what it is that you want, you break it down and then you start researching how you get that done.
+**Carlisia Thompson:** It's funny, because when you were saying people have trouble knowing where to start, I didn't have a chance to jump in and say what I was thinking... What I was thinking was you start at the end. You find out what it is that you want, you break it down and then you start researching how you get that done.
 
 **Ashley McNamara:** Yeah.
 
-**Carlisia Pinto:** So I thought that was a really good tip that he gave for you, to start with what it is that you wanted to do.
+**Carlisia Thompson:** So I thought that was a really good tip that he gave for you, to start with what it is that you wanted to do.
 
 **Brian Ketelsen:** True.
 
@@ -864,11 +864,11 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Erik St. Martin:** Alright, how about you, Carlisia?
 
-**Carlisia Pinto:** I found this really neat (I think it's neat) project called [All Contributors](https://github.com/kentcdodds/all-contributors). It's a way to recognize contributors to your project that makes it very visible. On their own page you can see an example down at the bottom. It gives you a grid with the photo or avatar of each one of the contributors. That was really neat. They have a spec you need to follow to be able to display it on your homepage.
+**Carlisia Thompson:** I found this really neat (I think it's neat) project called [All Contributors](https://github.com/kentcdodds/all-contributors). It's a way to recognize contributors to your project that makes it very visible. On their own page you can see an example down at the bottom. It gives you a grid with the photo or avatar of each one of the contributors. That was really neat. They have a spec you need to follow to be able to display it on your homepage.
 
 **Erik St. Martin:** \[01:00:06.24\] Oh, that's really cool.
 
-**Carlisia Pinto:** Neat, isn't it?
+**Carlisia Thompson:** Neat, isn't it?
 
 **Erik St. Martin:** Nice, I hadn't seen this before. And how about you, Ashley?
 
@@ -936,7 +936,7 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Brian Ketelsen:** We heart Denver gophers here a lot. We couldn't have [GopherCon](https://www.gophercon.com/) without them.
 
-**Carlisia Pinto:** Three months away, I cannot believe it. Three months and we're all gonna be in Denver.
+**Carlisia Thompson:** Three months away, I cannot believe it. Three months and we're all gonna be in Denver.
 
 **Erik St. Martin:** \[01:04:08.29\] Yeah, it's gonna be awesome.
 
@@ -962,7 +962,7 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Erik St. Martin:** Huge shoutout to our sponsors for today's episode, [Toptal](https://www.toptal.com/) and [DataDog](https://www.datadoghq.com/). Please share this show with fellow Go programmers. An easy way to subscribe is by going to GoTime.fm. We are on [Twitter](https://twitter.com/GoTimeFM). If you have suggestions for topics or people - or the people is you - that want to be on the show, you can [ping](https://github.com/GoTimeFM/ping) us. With that, goodbye everybody. We'll see you next week.
 
-**Carlisia Pinto:** This was great, bye!
+**Carlisia Thompson:** This was great, bye!
 
 **Ashley McNamara:** Bye!
 

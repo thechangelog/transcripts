@@ -2,7 +2,7 @@
 
 On the show today we have myself, Erik St. Martin, we also have Carlisia Pinto - say hello, Carlisia...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And Brian Ketelsen...
 
@@ -144,15 +144,15 @@ There is one caveat, and that's it grabs tracers and loggers from the context - 
 
 **Luna Duclos:** Quite an interesting sense of time, actually.
 
-**Carlisia Pinto:** I did wanna ask her a question that's related to gaming... I think I might have missed the boat.
+**Carlisia Thompson:** I did wanna ask her a question that's related to gaming... I think I might have missed the boat.
 
 **Erik St. Martin:** No, no... I had some more questions, too.
 
-**Carlisia Pinto:** Luna, did you use libraries? Were there useful libraries that were helpful in developing game-specific functionality?
+**Carlisia Thompson:** Luna, did you use libraries? Were there useful libraries that were helpful in developing game-specific functionality?
 
 **Luna Duclos:** With Go, honestly, not really... Most of the server stuff I do isn't game-specific per se. There's some specific things, like handling achievements, handling user accounts, handling leaderboards and scores, but there's not really any libraries for any of that. So I haven't really been touching any of the Go game-specific libraries. They're all mostly aimed at making game clients, rather than making game servers.
 
-**Carlisia Pinto:** Okay.
+**Carlisia Thompson:** Okay.
 
 **Erik St. Martin:** \[00:15:54.13\] Yeah, in the game world, most people use some sort of engine which provides all the physics and all the graphic support, and then there's usually scripting languages and things like that built into it too for a lot of the frontend work. A few places work on their own, but a lot of people just lease, or - is there a right term for that? But yeah, they basically pay for the rights to use an engine. But you're right, a lot of work goes on the back side now. Very few games are client-only anymore.
 
@@ -268,11 +268,11 @@ It seems like there's a lot of fragmentation in that area, to Brian's point... T
 
 **Erik St. Martin:** Where is Carlisia at?
 
-**Carlisia Pinto:** I'm here... You guys are asking great questions. \[laughter\]
+**Carlisia Thompson:** I'm here... You guys are asking great questions. \[laughter\]
 
 **Brian Ketelsen:** She's writing a new dependency manager for JavaScript for me. \[laughter\]
 
-**Carlisia Pinto:** That's funny.
+**Carlisia Thompson:** That's funny.
 
 **Erik St. Martin:** She's just sitting here thinking about like "Wow, I didn't realize how much Brian needed frontend." \[laughter\]
 
@@ -324,7 +324,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Luna Duclos:** I wonder why this hasn't been all bundled in one neat, single Go binary that you can just start up.
 
-**Carlisia Pinto:** \[00:32:03.05\] That's a good idea. I'm trying to get by without installing NPM and Gulp... I don't have those on this machine...
+**Carlisia Thompson:** \[00:32:03.05\] That's a good idea. I'm trying to get by without installing NPM and Gulp... I don't have those on this machine...
 
 **Brian Ketelsen:** I can tell you, the reason for all of that is because it uses [Gallium](https://github.com/alexflint/gallium), which is the wrapper for the Chrome web app thing that makes it a native app, and I would bet you a dollar that Kyle does not have an Apple developer account, so he can't sign those web apps or sign those Gallium apps, which means that he can't distribute applications in the new MacOS, because they're not signed, so you have to build them yourself. This all boils down to developer signatures.
 
@@ -400,23 +400,23 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Erik St. Martin:** I wonder if there's a list somewhere of all the projects that are currently using it... They have interfaces with all kinds of cool little toys. Have you seen the Sphero? It's like a little ball that rolls around, and you can jump it, and you can play with it with your mobile phone... But they have an interface for that for Gobot. A ton of cool stuff. How about you, Carlisia? Did you see any cool projects or anything that you're excited about?
 
-**Carlisia Pinto:** Oh, I thought you were going to ask me if I'm using Gobot...
+**Carlisia Thompson:** Oh, I thought you were going to ask me if I'm using Gobot...
 
 **Erik St. Martin:** Or Gobot...
 
-**Carlisia Pinto:** \[laughs\] No... Yes, I wanted to mentioned that the Women Who Go -- well, Sarah Adams, the founder of [Women Who Go](https://www.womenwhogo.org/) launched an initiative to send women Go developers to [GopherCon](https://www.gophercon.com/). There are a lot of us who would not be able to afford and who don't have their company sponsor, so there's a crowdfunding effort for that. If people wanna contribute $10, $1,000... Anything is welcome, of course.
+**Carlisia Thompson:** \[laughs\] No... Yes, I wanted to mentioned that the Women Who Go -- well, Sarah Adams, the founder of [Women Who Go](https://www.womenwhogo.org/) launched an initiative to send women Go developers to [GopherCon](https://www.gophercon.com/). There are a lot of us who would not be able to afford and who don't have their company sponsor, so there's a crowdfunding effort for that. If people wanna contribute $10, $1,000... Anything is welcome, of course.
 
 **Erik St. Martin:** A million dollars...
 
-**Carlisia Pinto:** A million dollars... \[laughter\] And it's tax-deductible, because women who Go now is part of [Bridge Foundry](https://bridgefoundry.org/), same as [GoBridge](https://golangbridge.org/). I don't know how the tax-deductible part of this works for the Women Who Go for this initiative, but I think it is tax-deductible.
+**Carlisia Thompson:** A million dollars... \[laughter\] And it's tax-deductible, because women who Go now is part of [Bridge Foundry](https://bridgefoundry.org/), same as [GoBridge](https://golangbridge.org/). I don't know how the tax-deductible part of this works for the Women Who Go for this initiative, but I think it is tax-deductible.
 
 **Erik St. Martin:** Yeah, the Bridge Foundry, which is a 501(c)(3) probably collects the money, which makes it tax-deductible.
 
-**Carlisia Pinto:** I don't know, just because it's dumping at the website via this Generosity.com website, so I don't know how that applies.
+**Carlisia Thompson:** I don't know, just because it's dumping at the website via this Generosity.com website, so I don't know how that applies.
 
 **Erik St. Martin:** And we should soon too be... So in addition to trying to help with that, we also will be doing a diversity and economic hardship type scholarship initiative too, once we finish getting some more planning in place for some of the other GopherCon stuff. But there will be ways for people to apply for assistance to come to GopherCon too, who may not necessarily be women.
 
-**Carlisia Pinto:** Yeah. GoBridge is also going to be doing something... They'll make an announcement in a little bit...
+**Carlisia Thompson:** Yeah. GoBridge is also going to be doing something... They'll make an announcement in a little bit...
 
 **Luna Duclos:** Are there any plans for a GopherCon outside of the U.S. yet? I wonder...
 
@@ -436,15 +436,15 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Erik St. Martin:** \[00:40:00.20\] I've never been to Sweden, sounds like fun.
 
-**Carlisia Pinto:** Spain... \[laughs\]
+**Carlisia Thompson:** Spain... \[laughs\]
 
 **Brian Ketelsen:** Spain would be awesome.
 
-**Carlisia Pinto:** Spain, yeah... Southern Spain.
+**Carlisia Thompson:** Spain, yeah... Southern Spain.
 
 **Luna Duclos:** Sounds good, too... I have to admit.
 
-**Carlisia Pinto:** One more thing I wanted to mention - there is now an official [Go contribution guide](https://golang.org/doc/contribute.html). [Steve Francia](https://twitter.com/spf13) put it together recently (maybe last week). It gives you all the steps that you need to do to contribute to Go.
+**Carlisia Thompson:** One more thing I wanted to mention - there is now an official [Go contribution guide](https://golang.org/doc/contribute.html). [Steve Francia](https://twitter.com/spf13) put it together recently (maybe last week). It gives you all the steps that you need to do to contribute to Go.
 
 **Brian Ketelsen:** That's awesome. I haven't looked at it yet. I saw his announcement, but it's long overdue.
 
@@ -458,13 +458,13 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Erik St. Martin:** Yeah, I can't believe I haven't even seen this.
 
-**Carlisia Pinto:** I'll drop a link on Slack.
+**Carlisia Thompson:** I'll drop a link on Slack.
 
 **Erik St. Martin:** Alright, I'm leaving a tab open... That's a "read later", which gets demoted to "read tomorrow" and then "read this weekend"...
 
 **Brian Ketelsen:** And then "read never"... \[laughter\]
 
-**Carlisia Pinto:** And then Chrome blows up...
+**Carlisia Thompson:** And then Chrome blows up...
 
 **Erik St. Martin:** And then it becomes a bookmark... And two years from now I clean up my bookmarks. \[laughter\]
 
@@ -532,11 +532,11 @@ Besides, I think you'd lose a lot of the fun if you were cooking for a paycheck 
 
 Carlisia, you're not getting out of this... What would you be doing?
 
-**Carlisia Pinto:** \[laughs\] The banter gave me time to think... I would be a professional investor, looking for opportunities to invest in things that would be not only profitable, but good to a certain standard - I'm not gonna get into it; I don't even know what that means. But whatever I think would generate good will in the world. And of course, a lot of it would be tech, because it's what I know and it's so crucial for the world.
+**Carlisia Thompson:** \[laughs\] The banter gave me time to think... I would be a professional investor, looking for opportunities to invest in things that would be not only profitable, but good to a certain standard - I'm not gonna get into it; I don't even know what that means. But whatever I think would generate good will in the world. And of course, a lot of it would be tech, because it's what I know and it's so crucial for the world.
 
 **Erik St. Martin:** I think it'd be a lot of fun.
 
-**Carlisia Pinto:** If I win the lottery, I will definitely become an investor.
+**Carlisia Thompson:** If I win the lottery, I will definitely become an investor.
 
 **Brian Ketelsen:** What about you, Erik?
 
@@ -574,7 +574,7 @@ It looks like the docs are community-sourced, so everybody in the Webpack commun
 
 **Erik St. Martin:** I think owe tremendous gratitude to anybody who works on documentation, because we all need it, and rarely do any of us want to actually contribute to the documentation. I think we have to show love to anybody who invests time in giving us great documentation. How about you, Carlisia?
 
-**Carlisia Pinto:** I don't have one today.
+**Carlisia Thompson:** I don't have one today.
 
 **Erik St. Martin:** \[00:51:51.12\] And Luna... I'm pretty sure you've kind of gathered the gist of this... Every week we give a shoutout to a project or a maintainer (or plurals of those) just to show our love and appreciation.
 
@@ -676,15 +676,15 @@ It has saved me so much time, and it's taught me a lot by making designing the A
 
 **Erik St. Martin:** Carlisia, you're awfully quiet today.
 
-**Carlisia Pinto:** I am, I don't know why. \[laughs\]
+**Carlisia Thompson:** I am, I don't know why. \[laughs\]
 
 **Brian Ketelsen:** She's contemplating who she's gonna hire me to hit first. \[laughter\]
 
-**Carlisia Pinto:** No, man... Sorry, you'd be out of business if you depended on me.
+**Carlisia Thompson:** No, man... Sorry, you'd be out of business if you depended on me.
 
 **Brian Ketelsen:** I'm gonna be starving.
 
-**Carlisia Pinto:** Yeah...
+**Carlisia Thompson:** Yeah...
 
 **Brian Ketelsen:** World's shortest-lived hitman.
 
@@ -702,7 +702,7 @@ It has saved me so much time, and it's taught me a lot by making designing the A
 
 I'm hoping that at some point shortly he's going to learn, "Hey, the South shore of this lake is a really painful place to be", and he just won't come back. Because he's getting too big. Seven feet is big enough to eat my dog.
 
-**Carlisia Pinto:** Now, what if you're not there?
+**Carlisia Thompson:** Now, what if you're not there?
 
 **Brian Ketelsen:** Well, somebody else will have to shoot him, I don't know...
 
@@ -750,7 +750,7 @@ Definitely share this show with fellow Go programmers, friends, family, co-worke
 
 And we have two Slack channels - there's a Changelog Slack, which we are \#GoTime in, and if you're on GopherSlack, it's [GoTimeFM](https://gophers.slack.com/messages/GoTimeFM). The messages actually cross back and forth, so it doesn't really matter which one you're in. It's kind of a shared channel. With that, we'll see you guys next week. Bye, everybody!
 
-**Carlisia Pinto:** Bye!
+**Carlisia Thompson:** Bye!
 
 **Brian Ketelsen:** Bye! Thanks, Luna!
 

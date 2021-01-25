@@ -1,10 +1,10 @@
 **Adam Stacoviak:** Alright, it is GoTime, episode - I think, based on this document - 74... Or 75. Episode 75. I'm Adam Stacoviak, I never host this show; in fact, I've never hosted this show. I just come on as a thing on the wall, or something like that, but I'm not ever in the limelight here... But today I'm gonna host it, because why not, right? And obviously, I've got Carlisia here, so let's say hi, please...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Adam Stacoviak:** And I hate when we do that, so I always listen to Erik or Brian say "Hey, so say hi..." Somebody said in the chat a while back that it's like the circus, you're asking somebody to do something, so it's a weird thing. I will never do that again.
 
-**Carlisia Pinto:** Oh, Brian always rebels against that.
+**Carlisia Thompson:** Oh, Brian always rebels against that.
 
 **Adam Stacoviak:** He does, and I do too, and then I did it... So the cycle continues. And we've got a long-time listener, first-time caller, pinnacle person in Go from what I can tell; I'm merely an outsider here, but Florin Pățan, you're here - thank you so much for joining us today. Say hello.
 
@@ -32,19 +32,19 @@
 
 **Adam Stacoviak:** Yeah, they are... Then you've got VS Code, which has become -- Carlisia, you use VS Code, right?
 
-**Carlisia Pinto:** Yeah, that's what I've been using for a while.
+**Carlisia Thompson:** Yeah, that's what I've been using for a while.
 
 **Adam Stacoviak:** But for a while there you were using Electron, weren't you? Not Electron, sorry; Atom. I always skip those up.
 
-**Carlisia Pinto:** Atom, yes.
+**Carlisia Thompson:** Atom, yes.
 
 **Adam Stacoviak:** What made you switch away from that?
 
-**Carlisia Pinto:** I don't remember anymore. I was having some troubles, and I think there was a speed issue, too. I don't remember, basically.
+**Carlisia Thompson:** I don't remember anymore. I was having some troubles, and I think there was a speed issue, too. I don't remember, basically.
 
 **Adam Stacoviak:** Well, I use VS Code, but I don't do any Golang programming at all, nothing whatsoever, which makes me totally an impostor here, but... The tagline for GoLand is "Capable and ergonomic." What is that?
 
-**Carlisia Pinto:** Yeah, let's talk about that. What does ergonomic mean in this context?
+**Carlisia Thompson:** Yeah, let's talk about that. What does ergonomic mean in this context?
 
 **Florin Pățan:** In this context it means that it allows you to do whatever you need to do, and focus on the code, and let the IDE figure out for you where your mistakes are, as soon as you do them, or help you suggest fixes for them. Let's say you have a mistake in your code - you can quickly correct it. Sometimes the IDE itself is being able to provide fixes for it.
 
@@ -60,11 +60,11 @@ It also allows you to use it not only in Go contexts, but also for web developme
 
 **Florin Pățan:** I don't think it happens that often. More often it happens that people may already know Java, and they are switching to Go. But I simply wanted to improve my development experience, and because the plugin was open source at the time, I could just jump in, send PRs and I became one of the contributors to the open source plugin... And yeah, I basically started learning Java alongside with Go, because I was so much into Go.
 
-**Carlisia Pinto:** So I see here that the IDE - you need to pay for it after your trial is up, right?
+**Carlisia Thompson:** So I see here that the IDE - you need to pay for it after your trial is up, right?
 
 **Florin Pățan:** Yes, that's correct.
 
-**Carlisia Pinto:** So if people do a plugin, do they also get paid? Do they have the ability to sell a plugin?
+**Carlisia Thompson:** So if people do a plugin, do they also get paid? Do they have the ability to sell a plugin?
 
 **Florin Pățan:** Yeah, so there is a plugin that's available for IntelliJ IDEA Ultimate. The open source plugin that I used to maintain, at some point JetBrains took over it, still developed it as an open source project, and then they realized that they are spending way too much time on it and they said "Okay, we need to focus more resources on it." That's how we started having a proper IDE from them.
 
@@ -82,7 +82,7 @@ Also, for me what I've found that's really useful is the refactoring support. If
 
 **Adam Stacoviak:** Can you speak to any of this, Carlisia, to like an alternate, how it works with VS Code for you, with some of the things he was mentioning?
 
-**Carlisia Pinto:** I haven't enabled anything, basically. I mean, I have the Go plugin, but I haven't souped it up. I know that it can autocomplete things, I just haven't set it up. Other stuff, like correcting - it will highlight things that will be caught, like code formatting and a bunch of things... It will tell you if it's an error, or if it's a warning, it will tell you all of that, and you have the option to make it more in your face, or just quietly notify you of these errors or warnings.
+**Carlisia Thompson:** I haven't enabled anything, basically. I mean, I have the Go plugin, but I haven't souped it up. I know that it can autocomplete things, I just haven't set it up. Other stuff, like correcting - it will highlight things that will be caught, like code formatting and a bunch of things... It will tell you if it's an error, or if it's a warning, it will tell you all of that, and you have the option to make it more in your face, or just quietly notify you of these errors or warnings.
 
 I haven't used GoLand, so I don't know how it compares, but it sounds like VS Code does most, if not all of it. I don't know.
 
@@ -94,13 +94,13 @@ Also, every time we release an update, you get all the features and so on withou
 
 **Florin Pățan:** Yes, we've just released that a couple weeks ago, in the latest release, in 2018.1. What it allows you to do is it allows you to have a project that uses Dep, and it figures out whenever you change the imports or you add a dependency on a library that's not imported yet, or not in your vendor folder - it figures out that it needs to run Dep, and it works its magic in the background to involve the necessary commands so that you can just continue typing.
 
-**Carlisia Pinto:** That is very cool.
+**Carlisia Thompson:** That is very cool.
 
 **Adam Stacoviak:** Why is that important to Go developers, having that kind of integration?
 
 **Florin Pățan:** If you come from other languages, let's say Ruby, Python, PHP - that kind of integration you will see already in other editors there. For us, it's something that's missing, especially because of the fact that you actually need all the code to be there in order to compile the project, right? You would want to take that out of the user task, and not have the user have to go in the command line and say "Okay, now I need to go in my definition file, let that figure out the version that I need, and then run dep ensure." You would need to do that manually. Or you would need to run dep ensure add, and then the dependency itself, and that's what the IDE does in the background now for you. You don't have to take your focus away from the code; you can still have the context in front of you.
 
-**Carlisia Pinto:** I guess for new people coming into Go, it's one more thing to learn on top of everything that they have to learn, so having it easier to manage in an IDE - I can see that being a benefit. And also, for the same reason people use Git integration in their IDE's. I don't, because I learned to do it on the command line, and I always know what's going on there, as opposed to the IDE where I need to learn another thing...
+**Carlisia Thompson:** I guess for new people coming into Go, it's one more thing to learn on top of everything that they have to learn, so having it easier to manage in an IDE - I can see that being a benefit. And also, for the same reason people use Git integration in their IDE's. I don't, because I learned to do it on the command line, and I always know what's going on there, as opposed to the IDE where I need to learn another thing...
 
 **Adam Stacoviak:** \[00:19:44.12\] I had the same feeling until recently, honestly. I was such a purist to say "I have aliases, I know Git, I'm smart, I'm cool enough... I can use the terminal, I can use Git on the terminal, and take it from me, I dare you." That was my opinion. Then I started to use [VS Code](https://code.visualstudio.com/), and I was like "Huh! I could just commit this one file, right here, because it's click." So what I ended up doing is doing both. It's not a replacement, it's not an either/or, it's a both scenario for me. Florin, what about you? Is it a both or an and/or for you for Git integrations, say an IDE or a VS Code type thing? How do you work with that?
 
@@ -110,21 +110,21 @@ Also, every time we release an update, you get all the features and so on withou
 
 **Florin Pățan:** There are some features now that I was reading about in the latest releases that I will definitely give them a more careful consideration, because you can now do things like partially commit a file... Let's say if you change a few things in a file and you don't want to commit the whole file, now you can just select the areas that you want and you can commit that, and then have the rest of the file not committed. That sounds pretty interesting if you have a workflow where you add let's say debugging functions or some debugging values, but you don't want to commit them whenever you need to commit.
 
-**Carlisia Pinto:** That's so very interesting.
+**Carlisia Thompson:** That's so very interesting.
 
 **Adam Stacoviak:** Yeah, I'm actually in a different context, but I might be working on let's say a SaaS document, and I'm writing styles for let's say Changelog.com or something... And I don't want to commit every new rule set that I've changed, I only wanna commit these five lines... I'm with you. The partial committing is really interesting to me, because I don't even know if I know or could remember the syntax to get to do that in the terminal.
 
 **Florin Pățan:** Yeah, that's the problem for me as well. I wouldn't figure out the whole syntax at all. And there are other things as well, like task management for example, which allows you to work on various tickets and group them in work units, so that you can quickly switch between let's say one task and another with just the click of a button. You'll have all the changes done there.
 
-**Carlisia Pinto:** I didn't even know you could do that. Are you talking about commits, or at tracking?
+**Carlisia Thompson:** I didn't even know you could do that. Are you talking about commits, or at tracking?
 
 **Florin Pățan:** Neither of them. Let's say for example you're working on a certain task right now, and then someone else comes to you quickly and asks you to do something... You can basically tell the IDE "Okay, these are the changes that I'm doing; mark them as such, and let's start a new session to edit the code." This session will be, let's say, a debugging session, or something that you show to the person. You can basically have two different change sets at the same time, not interfering with each other, as of the latest version... Allowing you to basically work on two tasks in the same file, if you want.
 
-**Carlisia Pinto:** And you're not branching anything; that's something that the IDE is doing.
+**Carlisia Thompson:** And you're not branching anything; that's something that the IDE is doing.
 
 **Florin Pățan:** Yes, pretty much.
 
-**Carlisia Pinto:** That's pretty cool.
+**Carlisia Thompson:** That's pretty cool.
 
 **Adam Stacoviak:** I'm looking at the UI for this, too... It looks like what happens is you can select certain lines and say "I wanna commit these lines", and then it looks like you get the option to check boxes in the diff, in the gutter of the diff. So you can say like "I want these changes", because you're looking at the diff to say "What should I commit?" At least it seems that way from what I'm seeing here. And you can say "I want to just commit these four lines here", and you check the box next to the diff that says "This is what's being added", the tracked version versus your version, and boom, you commit that and ship it up to a branch or to whatever you're doing, to master if you've got that, and life moves on.
 
@@ -132,7 +132,7 @@ Also, every time we release an update, you get all the features and so on withou
 
 **Adam Stacoviak:** I think before asking the question "How do you choose which editor?" - that's a never-ending war that will always go on... But when you add the three letters "IDE" after something, it stands for much more than just simply saying "Hey, this is an editor. This is an integrated tool..." -- Integrated Development Environment as a matter of fact is what it means, but why do you think somebody chooses an IDE or not? Carlisia, in your case, you're using VS Code, and it works great for Go, but as you said, to your own admission, you haven't really souped it up, as you had said... So you didn't make it have any special powers to make developing Go programs or Go language-based projects any easier for yourself - autocompletion, or different stuff like that. Do you think an IDE is for a beginner, for a novice? Is it for an expert? Who uses an IDE and why are they choosing an IDE over anything else that isn't?
 
-**Carlisia Pinto:** I don't even like this question. \[laughter\] An IDE is for anybody. I mean, I see people who are extremely experienced using IDE's, and obviously IDE's are for beginners; I think especially an IDE that lets you get off the ground running with not much thought (VS Code is one) is great for beginners, because you're not required to learn a bunch of things, and then you can soup it up as you go along, as you find a need for things.
+**Carlisia Thompson:** I don't even like this question. \[laughter\] An IDE is for anybody. I mean, I see people who are extremely experienced using IDE's, and obviously IDE's are for beginners; I think especially an IDE that lets you get off the ground running with not much thought (VS Code is one) is great for beginners, because you're not required to learn a bunch of things, and then you can soup it up as you go along, as you find a need for things.
 
 And an IDE makes a lot of things easier, rather than -- I don't know, what's the alternative... Like, Notepad? \[laughs\]
 
@@ -140,7 +140,7 @@ And an IDE makes a lot of things easier, rather than -- I don't know, what's the
 
 Then you've got the other side, which is like "Well, I just wanna save time, because I've got family, or a life, or other things...", you just wanna be more efficient. So to me it seems like now my opinions towards IDE's have changed, that maybe they're for people who care about efficiency, rather than simply saying "You're a new person" or "You're an expert", or whatever.
 
-**Carlisia Pinto:** Yeah. In my case in specific in regards to Git and how I use Git in the command line and not in my IDE is because I learned Git in the command line. So it's sort of like laziness, because for me to use it in the IDE I now have to learn how this particular IDE works, and who knows, maybe tomorrow I'm changing the IDE, because it's a thing that I do, I change it once in a while; now I have to learn the other one. And if I don't keep using the command line, I'll forget, and then all of a sudden I need to use it on the command line and I'm like "Oh, how do I do that again?"
+**Carlisia Thompson:** Yeah. In my case in specific in regards to Git and how I use Git in the command line and not in my IDE is because I learned Git in the command line. So it's sort of like laziness, because for me to use it in the IDE I now have to learn how this particular IDE works, and who knows, maybe tomorrow I'm changing the IDE, because it's a thing that I do, I change it once in a while; now I have to learn the other one. And if I don't keep using the command line, I'll forget, and then all of a sudden I need to use it on the command line and I'm like "Oh, how do I do that again?"
 
 \[00:28:15.22\] So for me, it's pragmatic to keep using it, because I already know it and I don't wanna forget. And I like your contrast between purist and pragmatic; I also moved from being a purist... And purist in the sense of having consistency, like if I'm using one IDE, I have to put all my effort into learning everything about this IDE, or whatever. Like Vim, for example. I went through a phase where I was trying to just use Vim... And I learned a ton, but that didn't work for me, because -- and let me just finish my observation about contrasting purist vs pragmatic... Because now I'm more pragmatic and I say "Why just use one? Use two, use three." You don't have to just use one tool that does the same thing.
 
@@ -166,7 +166,7 @@ And then you've got other comments... This one is from Fernando, he's saying "I 
 
 With something like GoLand, you kind of take all that integration and you adapt that integration to your workflow. You say "Oh no, I don't want automatic commits", or whatever; you turn that off. Or you turn it on, if you want. And so on. So the integration is already there, you just need to tell it how to behave for you.
 
-**Carlisia Pinto:** Can you export those settings? Can you have everything in a file? Because with Vim - it's true what you said, but at least you can have all of that configuration in one place and you can move it around machines... And that's sort of easy to do.
+**Carlisia Thompson:** Can you export those settings? Can you have everything in a file? Because with Vim - it's true what you said, but at least you can have all of that configuration in one place and you can move it around machines... And that's sort of easy to do.
 
 **Florin Pățan:** Oh yeah, you can definitely do that, and there's actually now a plugin that I think we're bundling by default - I'm not really sure how the default setup looks anymore, but you basically have a plugin which is meant for syncing your settings in the cloud. Basically, whatever you configure on one machine, from the key-mapping to what plugins you use and so on, whenever you (let's say) go home, you can have the same setup, synchronized via the cloud.
 
@@ -192,11 +192,11 @@ With something like GoLand, you kind of take all that integration and you adapt 
 
 **Adam Stacoviak:** Four years...
 
-**Carlisia Pinto:** No less than four years, for sure. Maybe five years.
+**Carlisia Thompson:** No less than four years, for sure. Maybe five years.
 
 **Adam Stacoviak:** Five years...
 
-**Carlisia Pinto:** [Bill Kennedy](https://twitter.com/goinggodotnet) would know; I think he was the one who started it.
+**Carlisia Thompson:** [Bill Kennedy](https://twitter.com/goinggodotnet) would know; I think he was the one who started it.
 
 **Florin Pățan:** Oh yeah, he's the one that started the whole thing.
 
@@ -204,7 +204,7 @@ With something like GoLand, you kind of take all that integration and you adapt 
 
 So four years... Who started this? Was it one person, was it a ghost? Who did this, who made this place possible?
 
-**Carlisia Pinto:** I think it was Bill Kennedy.
+**Carlisia Thompson:** I think it was Bill Kennedy.
 
 **Florin Pățan:** Oh yeah, it was Bill and a few others that started the whole thing, which grew immensely in the last couple of years, actually.
 
@@ -214,27 +214,27 @@ So four years... Who started this? Was it one person, was it a ghost? Who did th
 
 **Adam Stacoviak:** But you can mute it.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Florin Pățan:** You can mute it if you want.
 
-**Carlisia Pinto:** But why would you want to do that? \[laughter\]
+**Carlisia Thompson:** But why would you want to do that? \[laughter\]
 
 **Adam Stacoviak:** Well, maybe you're there for one of the channels rather than the -- I look at this kind of like Twitter; General is the fire hose...
 
-**Carlisia Pinto:** \[00:40:11.01\] No, I'm joking... It's muted for me. It's too much.
+**Carlisia Thompson:** \[00:40:11.01\] No, I'm joking... It's muted for me. It's too much.
 
 **Adam Stacoviak:** Too hard to keep up with...
 
-**Carlisia Pinto:** It's mission impossible.
+**Carlisia Thompson:** It's mission impossible.
 
 **Adam Stacoviak:** Well, for one, it just would sound off all the time, unless you've got it muted. It's not muted because you're like "I don't wanna listen", it's just more like "Don't tell me every time something's happening, because I will literally never get work done." I would just sit here and watch general all day long, and you'd be like "Hey, what did you do today?" "Um, I was in Gopher Slack watching General..."
 
-**Carlisia Pinto:** Yeah. But Florin does watch it frequently, right?
+**Carlisia Thompson:** Yeah. But Florin does watch it frequently, right?
 
 **Adam Stacoviak:** Very active.
 
-**Carlisia Pinto:** Actually, that is one of the things that I wanted to ask - how you have seen the character of Gopher Slack changing over these years? Because you're super active.
+**Carlisia Thompson:** Actually, that is one of the things that I wanted to ask - how you have seen the character of Gopher Slack changing over these years? Because you're super active.
 
 **Florin Pățan:** Well, that's the thing - I don't think it changed that much, because if you look at the community, it's probably one of the best communities out there; I just love it. All the people here are friendly, they help you whenever you have a problem or you're trying to work through something, either if you're a complete beginner - not necessarily with Go, but with programming - or a Go newbie, or even someone that's more experienced, they can come in, either ask in [General](https://gophers.slack.com/messages/General), or in [Golang Newbies](https://gophers.slack.com/messages/golang-newbies), or in any of the dedicated channels we have here, and people will be there, guiding you... Or if they don't know the answer, they will at least point you to (let's say) the mailing list, or the Go tracker, or who knows what other resource is available that explains how to solve your particular need. That's something that's really cool.
 
@@ -248,11 +248,11 @@ I'm happy that I've found this community when I did, and even though it looks a 
 
 **Florin Pățan:** It depends, but go ahead, Carlisia.
 
-**Carlisia Pinto:** \[laughs\] I was dying to jump in... I wouldn't say that, especially because people have different modes of working. That is sort of like saying "If you're not on Twitter, you're not a real developer." because I think that's how the question was first phrased.
+**Carlisia Thompson:** \[laughs\] I was dying to jump in... I wouldn't say that, especially because people have different modes of working. That is sort of like saying "If you're not on Twitter, you're not a real developer." because I think that's how the question was first phrased.
 
 **Adam Stacoviak:** Well, not so much that you're not a real developer, but just like, if they're missing out... What I'm trying to get at is "Is this the place to be? Should you be here?"
 
-**Carlisia Pinto:** Definitely missing out, yes. Yes. Because a lot of conversation happens, and a lot of connections happen on Gopher Slack, and if you're not participating, you're missing out, yeah. But that doesn't mean you're not getting connections and getting benefits from other venues or channels. But definitely missing out. Just the volume that goes through the Gopher Slack is crazy. In the [Jobs channel](https://gophers.slack.com/messages/golang-jobs)... And there's so many channels. There's something for everybody.
+**Carlisia Thompson:** Definitely missing out, yes. Yes. Because a lot of conversation happens, and a lot of connections happen on Gopher Slack, and if you're not participating, you're missing out, yeah. But that doesn't mean you're not getting connections and getting benefits from other venues or channels. But definitely missing out. Just the volume that goes through the Gopher Slack is crazy. In the [Jobs channel](https://gophers.slack.com/messages/golang-jobs)... And there's so many channels. There's something for everybody.
 
 **Florin Pățan:** And there's like a [Review channel](https://gophers.slack.com/messages/reviews). If you want to have your code reviewed by people, you can come here and ask for a review. And people will do it; it doesn't really matter how big the project is, or anything like that.
 
@@ -266,7 +266,7 @@ I'm happy that I've found this community when I did, and even though it looks a 
 
 **Adam Stacoviak:** Gotcha, okay. I was like "Dang, we've got machine learning behind the code of conduct and getting into this Gopher Slack? That's a lot..." Anyways, my bad. Acronym replaced with Mailing List, moving on. Alright, so what does this mean? Who can't participate then? What is it filtering out, particular people, or particular types of people, or just things you shouldn't do?
 
-**Carlisia Pinto:** Some people don't participate because they don't agree with the code of conduct. Or they infringe on the code of conduct; some people do that not knowing, and there are a bunch of admins who are active participants on Slack... There is a procedure to handle that. The first step is to let the person know "Hey, you're saying this, and we have a code of conduct, and that goes against the code of conduct."
+**Carlisia Thompson:** Some people don't participate because they don't agree with the code of conduct. Or they infringe on the code of conduct; some people do that not knowing, and there are a bunch of admins who are active participants on Slack... There is a procedure to handle that. The first step is to let the person know "Hey, you're saying this, and we have a code of conduct, and that goes against the code of conduct."
 
 Most people are like "Oh, I'm so sorry, I did not know", and we ask them to edit or delete whatever was the infringement, and they're happy to do it, and they're happy to be informed, so they don't continue to infringe.
 
@@ -276,15 +276,15 @@ And a very rare minority will revel against it, it will not comply, and they hav
 
 **Florin Pățan:** It depends on a case-by-case basis. Some of them are just like, you know, maybe we'll say "Hey you need to call off, take a few days off, come back later." Or some of them are more permanent, because they really go well beyond the code of conduct, or common sense, because that's what it really is, at the end of the day. We try to be as inclusive as possible here, and welcome everyone to join us and learn, but sometimes people infringe on it.
 
-**Carlisia Pinto:** Yeah, and I'm also an admin, so I participate in this conversation, and that's how I can pipe in... We're all volunteers, and we don't have a tool to suspend people and keep track of that. What we can say is "We are letting you know", and people usually comply. In some cases, say we're letting you know and the person still doesn't calm down, and we say "Hey, we're giving you a warning, we're gonna let it go this time..." It really depends on the situation. If the infraction reoccurs -- or maybe sometimes we say "If it happens again, we're going to have to kick you out." So it's sort of like...
+**Carlisia Thompson:** Yeah, and I'm also an admin, so I participate in this conversation, and that's how I can pipe in... We're all volunteers, and we don't have a tool to suspend people and keep track of that. What we can say is "We are letting you know", and people usually comply. In some cases, say we're letting you know and the person still doesn't calm down, and we say "Hey, we're giving you a warning, we're gonna let it go this time..." It really depends on the situation. If the infraction reoccurs -- or maybe sometimes we say "If it happens again, we're going to have to kick you out." So it's sort of like...
 
 **Adam Stacoviak:** \[00:48:05.05\] A last-ditch effort, basically. You're giving them several chances to correct.
 
-**Carlisia Pinto:** Yeah. The middle of the road there is that we warn and that we're gonna give them another chance. Otherwise, we don't have a way to just suspend for 30 days, and then check who needs to be brought back in... You're gonna have to be kicked out.
+**Carlisia Thompson:** Yeah. The middle of the road there is that we warn and that we're gonna give them another chance. Otherwise, we don't have a way to just suspend for 30 days, and then check who needs to be brought back in... You're gonna have to be kicked out.
 
 **Adam Stacoviak:** So by saying that -- so there's no list of who is banned or has been removed, for whatever reason... There's no tracking of these things, so it's sort of like a personal scenario where you have a small collective - I'm just assuming this - of people who are admins, and you've got memory, and you're using your memory to recall people's infringements; you're not keeping lists or tabs on people, basically.
 
-**Carlisia Pinto:** No, exactly. And also it wouldn't make sense, because we don't have a requirement that people use their real name, so they can join with a different username and I think it'd be a waste of time. If people really want to speak whatever way they want to speak, they have a recourse - they can just join in with a different account. So we just really need to be on top of it all the time.
+**Carlisia Thompson:** No, exactly. And also it wouldn't make sense, because we don't have a requirement that people use their real name, so they can join with a different username and I think it'd be a waste of time. If people really want to speak whatever way they want to speak, they have a recourse - they can just join in with a different account. So we just really need to be on top of it all the time.
 
 **Adam Stacoviak:** Switching gears a little bit -- go ahead Florin, if you wanna mention something.
 
@@ -292,7 +292,7 @@ And a very rare minority will revel against it, it will not comply, and they hav
 
 But also, for example if someone notices something whenever we don't look, you can either ping us directly or you have a channel called [Admin-Help](https://gophers.slack.com/messages/admin-help), and that's how we have a history of what happened... Because we are humans as well, and as Carlisia said, volunteers.
 
-**Carlisia Pinto:** Yeah, and all the admins - we have an understanding that whenever we approach people... First of all, we do it in private, and we do it with the intention of -- how do I wanna say this...? Help me, Florin. We think start out thinking that the person didn't know about the code of conduct, or needs a little bit of guidance... We never try to shame or say "Oh, you did that wrong! That was so wrong!" - it's not what it's about. It's really about keeping the space safe for everybody, and comfortable, and kid-friendly, although that's debatable, what friendly should be, but...
+**Carlisia Thompson:** Yeah, and all the admins - we have an understanding that whenever we approach people... First of all, we do it in private, and we do it with the intention of -- how do I wanna say this...? Help me, Florin. We think start out thinking that the person didn't know about the code of conduct, or needs a little bit of guidance... We never try to shame or say "Oh, you did that wrong! That was so wrong!" - it's not what it's about. It's really about keeping the space safe for everybody, and comfortable, and kid-friendly, although that's debatable, what friendly should be, but...
 
 **Adam Stacoviak:** Yeah, it's tough.
 
@@ -310,17 +310,17 @@ Other languages - I guess at some point they grow a lot bigger than what we curr
 
 **Adam Stacoviak:** Yeah, good community members, good citizens.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Adam Stacoviak:** That makes sense. When I look at the Go community, what I like most about it -- or at least (let's say) an outsider's perspective, because I still feel like an outsider, even though I've kind of been involved, I go to every GopherCon since the second one, I don't miss a GopherCon, I'm part of this cast here for this podcast and stuff... But I still feel like an outsider. But what I see is I just tend to see people who are encouraging, welcoming, and just general care for others. And I'm not saying I don't see that elsewhere; I'm more involved in this community than in others, so I can't say it's a comparison to say "This is how it is here, and it's not that way there..." But that's what I see as good attributes for this community - you just seem like you care about the future of the community, which has deep implications to how you act int he community. Do you agree?
 
 **Florin Pățan:** Yes, pretty much.
 
-**Carlisia Pinto:** I completely agree. And one thing to say too is when Go got started and when the community started growing, it was at a point where other communities had gone through a lot of experiences about dealing with harassment, dealing with infractions to the code of conduct, or not even having a code of conduct and dealing with the consequences of that... So when the Go community started developing, they had all of that experience to inform them. That was a big difference - Go is a newer community, so it's really almost unfair to compare, because we have the benefit of having that experience from other communities, right?
+**Carlisia Thompson:** I completely agree. And one thing to say too is when Go got started and when the community started growing, it was at a point where other communities had gone through a lot of experiences about dealing with harassment, dealing with infractions to the code of conduct, or not even having a code of conduct and dealing with the consequences of that... So when the Go community started developing, they had all of that experience to inform them. That was a big difference - Go is a newer community, so it's really almost unfair to compare, because we have the benefit of having that experience from other communities, right?
 
 **Adam Stacoviak:** \[00:56:20.23\] Yeah, you've had a chance to kind of restart, so to speak, even though you're not re-anything. You're just starting somewhat fresh, because Go is about as old as the Changelog is; we started around the same time, 2009-ish.
 
-**Carlisia Pinto:** Yeah, so you're starting out with the benefit of having information that other communities started out not having, because that just hadn't happened publicly enough to really come into consciousness. But the good thing about the Go community that we can also not discredit is the willingness to embrace that experience and say "We are going to avoid that at all costs. We're going to do everything we can to keep this community safe and inclusive, for now and for the future." That really deserves some big credit. And like Florin was saying, it comes from the top. That really helps, too.
+**Carlisia Thompson:** Yeah, so you're starting out with the benefit of having information that other communities started out not having, because that just hadn't happened publicly enough to really come into consciousness. But the good thing about the Go community that we can also not discredit is the willingness to embrace that experience and say "We are going to avoid that at all costs. We're going to do everything we can to keep this community safe and inclusive, for now and for the future." That really deserves some big credit. And like Florin was saying, it comes from the top. That really helps, too.
 
 **Adam Stacoviak:** There's one note here to talk about which, Florin, it sounds like you've got some thoughts that you've put into this, which is "What I wish the Go community would do going in the future." What does that mean to you? It's bold too, so I'm thinking maybe it's even more important to you.
 
@@ -338,11 +338,11 @@ I was talking to [Dave Cheney](https://twitter.com/davecheney) about this, and h
 
 So yeah, that's the thing... Those are some of the steps that we need to take. Translating books I think is another, for sure. Being able to have more diversity in conferences, in meet-ups, in resources in general. Or even if you think about (let's say) online courses that we have - I'd be interested to know how many courses are available that are not in English.
 
-**Carlisia Pinto:** Yeah, I haven't seen any investigation that has been done to explore the question that you asked, Adam, which was "Where are the barriers?" I think guessing that language is a big barrier would be an easy answer; I would guess that, too. We can actually verify this, but I would say the majority of people in China don't speak English, and you can extrapolate that the majority of programmers don't speak English by default, right? Statistically speaking...
+**Carlisia Thompson:** Yeah, I haven't seen any investigation that has been done to explore the question that you asked, Adam, which was "Where are the barriers?" I think guessing that language is a big barrier would be an easy answer; I would guess that, too. We can actually verify this, but I would say the majority of people in China don't speak English, and you can extrapolate that the majority of programmers don't speak English by default, right? Statistically speaking...
 
 **Adam Stacoviak:** Well, that's an assumption, I think. I made that same assumption, and I linked it up in the Slack, but also in the show notes... That was my assumption going into this conversation, which actually took place December 2016, so this is [a two-year-old conversation](https://changelog.com/spotlight/10) roughly, that I had with Shiya Lou... And that was my assumption, that it was just simply a language barrier. In fact, many of the programmers or people pursuing programming careers and/or just as a hobby in China -- a lot of China is bilingual, or at least pursues bilingualism, but specifically programmers are forced in a lot of ways to not only have Chinese as their first language, but then English as their second, because most of what happens in education and/or innovation happens in programming in English... That's the limitation there.
 
-**Carlisia Pinto:** \[01:04:05.17\] Yeah, we can talk in terms of many, and I would never disagree with that... But we have to look very closely and explore what really is happening. We can assume anything... Because you can say, "Well, there are many", and a lot of people who are working with innovation are being forced to take English, but is that in a private setting, or is that being taught in school? Is it free? ...that's what I'm saying, because if it's not free and accessible to everyone, then people are being excluded, and I think some of those people might be developers that could otherwise be learning, or maybe having an easier time to learn the language and how to do things properly, in other words how to take advantage fully of what the language has to offer, if that wasn't something that they were struggling with, or they had to pay a fortune for.
+**Carlisia Thompson:** \[01:04:05.17\] Yeah, we can talk in terms of many, and I would never disagree with that... But we have to look very closely and explore what really is happening. We can assume anything... Because you can say, "Well, there are many", and a lot of people who are working with innovation are being forced to take English, but is that in a private setting, or is that being taught in school? Is it free? ...that's what I'm saying, because if it's not free and accessible to everyone, then people are being excluded, and I think some of those people might be developers that could otherwise be learning, or maybe having an easier time to learn the language and how to do things properly, in other words how to take advantage fully of what the language has to offer, if that wasn't something that they were struggling with, or they had to pay a fortune for.
 
 So in that sense, unless it's being provided for free to all the potential programmer population... But in any case, that is an assumption, right? I have zero knowledge about China in that regard. So if that was the case, just take for example the [survey](https://blog.golang.org/survey2017-results) that the Go language team puts out every year - that survey is in English. So anybody who is using Go or is interested in using Go and doesn't know enough English to read that survey, won't be accounted for, right? Their experiences, their opinions won't be accounted for, because the result of that survey goes right back to the Go language team for them to make decisions on how to develop the language itself and everything around the language.
 
@@ -364,7 +364,7 @@ Let's move on a little bit... Anything to talk about more about this, before we 
 
 **Florin Pățan:** Ideally, I think it would be us, the community, because up to a certain point there's only so much Google can do. They should help us for sure, if possible, but we should start seeing some of this in the community just because it would show an increase in the level of maturity for the community.
 
-**Carlisia Pinto:** Yeah, I guess you have to think what is the desired outcome of the language? What is the purpose -- for example, ask what does the Go language team have in mind for the language? What do they want to accomplish and how do they want to accomplish that? For me, an answer to that question - and to any question that applies to the community in general... It doesn't have to be one or the other, and I think it should be both - it should be a concerted effort between the language team and the community, and companies...
+**Carlisia Thompson:** Yeah, I guess you have to think what is the desired outcome of the language? What is the purpose -- for example, ask what does the Go language team have in mind for the language? What do they want to accomplish and how do they want to accomplish that? For me, an answer to that question - and to any question that applies to the community in general... It doesn't have to be one or the other, and I think it should be both - it should be a concerted effort between the language team and the community, and companies...
 
 For me, for example, I see that the language team should sort of like have a direction and could help kick things off and enable local communities to pick things up and run with the ball, so to speak. But just one relying on the other, I don't see how that can work.
 
@@ -372,7 +372,7 @@ For me, for example, I see that the language team should sort of like have a dir
 
 \[01:12:06.27\] Alright, \#FreeSoftwareFriday... I put three more minutes back on the clock. So we've got three minutes, we've got \#FreeSoftwareFriday, and we've got maybe some Go news. So let's combine them. Carlisia, you go first - any news, any projects?
 
-**Carlisia Pinto:** I didn't get anything.
+**Carlisia Thompson:** I didn't get anything.
 
 **Adam Stacoviak:** No? Any news? What kind of news...? No news, alright. Florin, any news?
 
@@ -392,7 +392,7 @@ And this is pretty interesting, because you can check out the repo, follow the l
 
 And your eyes may appreciate this mention, because GitHub Dark is super cool; I've already switched, I'm not going back, and in fact, it's making you really want Changelog.com to be dark, too. We've already got a dark version of it on /podcast and /community, however, we don't have an actual mode for dark... And that bums me out, so I'm gonna work on putting a Trello card into the system, and getting that worked into our agile workflows -- our agile-ish workflows, because we're never perfectly agile. But anyways, how do you guys feel about going dark on GitHub? What do you think about that?
 
-**Carlisia Pinto:** This is so funny, because I could second every word you said. Oh my gosh, I've just installed it...! Everything is dark. I do everything dark, just like you said - Overcast... Anything that can be dark, will be dark.
+**Carlisia Thompson:** This is so funny, because I could second every word you said. Oh my gosh, I've just installed it...! Everything is dark. I do everything dark, just like you said - Overcast... Anything that can be dark, will be dark.
 
 **Florin Pățan:** Yeah, pretty much. I have it already installed actually; I was like "Huh, I know that one..."
 
@@ -412,15 +412,15 @@ And your eyes may appreciate this mention, because GitHub Dark is super cool; I'
 
 **Adam Stacoviak:** Yeah, we need a shorter one. We need to actually talk to the Go folks and get something from them, like golang.org/slack, or /community. We need something that's much shorter, and like community-wide, not just GoBridge-wide; something that's off their URL, to make it much easier. Because I know that I wanna invite people, and I always like -- I even asked you the other day, Carlisia, to get Tim in; I'm like "How do I get somebody into this Slack? I don't even know."
 
-**Carlisia Pinto:** So it's in the General channel topic box... But just a comment on what you were thinking - the Go language team, they don't want to keep track of those things, because if it's on their website or something, then it's sort of implied that they are endorsing it, and they are very careful about giving the impression that they are endorsing something in particular, especially if they don't have the bandwidth to keep track of what's going on, so... That might not happen is basically what I'm telling you.
+**Carlisia Thompson:** So it's in the General channel topic box... But just a comment on what you were thinking - the Go language team, they don't want to keep track of those things, because if it's on their website or something, then it's sort of implied that they are endorsing it, and they are very careful about giving the impression that they are endorsing something in particular, especially if they don't have the bandwidth to keep track of what's going on, so... That might not happen is basically what I'm telling you.
 
 **Adam Stacoviak:** Well, okay, so here's a better thing - golang.org/help, the third link down is Gopher Slack. But that [links](https://blog.gopheracademy.com/gophers-slack-community/) to a blog post written by Bill Kennedy in 2014, which doesn't have a clear link either. I'm just saying, find a better way to get people in.
 
-**Carlisia Pinto:** Oh yeah, that should be deleted.
+**Carlisia Thompson:** Oh yeah, that should be deleted.
 
 **Adam Stacoviak:** So if we can go back to update the link to that Gopher Slack, if that's editable, then just send people to Golang.org/help and say "Look for Gopher Slack" and that'll link to the invite, boom.
 
-**Carlisia Pinto:** Oh yeah, it should definitely be there. I see what you're saying.
+**Carlisia Thompson:** Oh yeah, it should definitely be there. I see what you're saying.
 
 **Florin Pățan:** You can send a PR now and fix that.
 
@@ -428,6 +428,6 @@ And your eyes may appreciate this mention, because GitHub Dark is super cool; I'
 
 **Florin Pățan:** Yeah, the only problem is that we'll need to wait for the next Go deployment for that to work, so...
 
-**Carlisia Pinto:** Yeah... \[laughs\]
+**Carlisia Thompson:** Yeah... \[laughs\]
 
 **Adam Stacoviak:** Real problems. Alright, well that is officially the end of the show. Thank you so much again for tuning in. We will see you next week.

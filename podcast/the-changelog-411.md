@@ -16,17 +16,17 @@
 
 **Jerod Santo:** Hm. So you took a sabbatical and you decided "Well, we're gonna archive this under the auspices of GitHub." What were the first steps?" Was it like "Go find the coldest place on Earth" or "Get a file format down"? What were your first steps?
 
-**Jon Evans:** Well, the first steps were obviously to see what other people were doing in this area, which was actually super-interesting. There's a project called "The memory of mankind", which is built in a salt mine in Austria, for instance, which is perhaps one of the oldest working mines in the world; it's been worked since probably 3,000-4,000 BC. They are writing down data to ceramic tablets and putting it in this ancient salt mine in the Alps. The salt slowly moves and accumulates over time, and so this is gonna be sealed off by this giant, slow wave of salt, as a time capsule for the future... Which is a fascinating idea. It didn't really fit with what we were doing, as it's hard to fit terabytes of code on ceramic tablets, it turns out... And also sealing off a time capsule with a giant wall of salt isn't the most convenient way to get to it.
+**Jon Evans:** Well, the first steps were obviously to see what other people were doing in this area, which was actually super-interesting. There's a project called [The memory of mankind](https://www.memory-of-mankind.com/), which is built in a salt mine in Austria, for instance, which is perhaps one of the oldest working mines in the world; it's been worked since probably 3,000-4,000 BC. They are writing down data to ceramic tablets and putting it in this ancient salt mine in the Alps. The salt slowly moves and accumulates over time, and so this is gonna be sealed off by this giant, slow wave of salt, as a time capsule for the future... Which is a fascinating idea. It didn't really fit with what we were doing, as it's hard to fit terabytes of code on ceramic tablets, it turns out... And also sealing off a time capsule with a giant wall of salt isn't the most convenient way to get to it.
 
 **Jerod Santo:** Yeah, salt doesn't sound like the best way.
 
-**Jon Evans:** Yeah. But yeah, that was interesting. There was something called the Arch Project, which is actually dropping copies of various things on the Moon, to just sort of crash-land various archival facilities, drives and so forth onto the Moon. Again, very cool idea, but not super-useful in the case you wanna access it at any time in the near future, or in a whole bunch of possible futures.
+**Jon Evans:** Yeah. But yeah, that was interesting. There was something called [The Arch Project](https://www.archmission.org/), which is actually dropping copies of various things on the Moon, to just sort of crash-land various archival facilities, drives and so forth onto the Moon. Again, very cool idea, but not super-useful in the case you wanna access it at any time in the near future, or in a whole bunch of possible futures.
 
-And then we had found out that there is a Norwegian company called Piql, a little software joke for the relatively few who will get it; I guess a disproportionate number in this podcast...
+And then we had found out that there is a Norwegian company called [Piql](https://www.piql.com/), a little software joke for the relatively few who will get it; I guess a disproportionate number in this podcast...
 
 **Jerod Santo:** \[laughs\]
 
-**Jon Evans:** ...which had just recently built, in cooperation with the Norwegian government, or this mining company owned by the Norwegian government, a vault beneath an Arctic mountain Svalbard. That was obviously of some interest, so we pursued things further with them, and it turned out that was gonna be a pretty good fit... Which is good, because building an entire, elaborate super-structure apparatus for archival is obviously a non-trivial job, so it was kind of nice that someone else had done a lot of that work for us.
+**Jon Evans:** ...which had just recently built, in cooperation with the Norwegian government, or this mining company owned by the Norwegian government, a vault beneath an Arctic mountain in Svalbard. That was obviously of some interest, so we pursued things further with them, and it turned out that was gonna be a pretty good fit... Which is good, because building an entire, elaborate super-structure apparatus for archival is obviously a non-trivial job, so it was kind of nice that someone else had done a lot of that work for us.
 
 **Jerod Santo:** So that's ultimately where you all chose, this Svalbard Archipelago. Have you been there personally, or was it merely satellite images?
 
@@ -48,7 +48,7 @@ So it wound up being a much larger thing of archiving on a sort of week-to-week,
 
 **Jerod Santo:** Right. So those are effectively Git clones that are synchronized.
 
-**Jon Evans:** Yeah. And I guess a larger perspective - we were sort of inspired by Stewart Brand from the Long Now Foundation you may be familiar with. They're the people who think that we have this mayflyish attitude towards history, when in fact history, it turns out, is a very large thing. When they give the year, they preface it with a zero to reinforce this. So we're in the year 02020 right now, which is sort of a fun, little eyebrow-raiser they do.
+**Jon Evans:** Yeah. And I guess a larger perspective - we were sort of inspired by Stewart Brand from the [Long Now Foundation](https://longnow.org/) you may be familiar with. They're the people who think that we have this mayflyish attitude towards history, when in fact history, it turns out, is a very large thing. When they give the year, they preface it with a zero to reinforce this. So we're in the year 02020 right now, which is sort of a fun, little eyebrow-raiser they do.
 
 **Jerod Santo:** It shows their perspective, huh?
 
@@ -60,15 +60,15 @@ So it wound up being a much larger thing of archiving on a sort of week-to-week,
 
 **Jerod Santo:** And that's effectively a backup. Is the point of that "If GitHub disappears, at least we have the Wayback Machine"?
 
-**Jon Evans:** I mean, GitHub could disappear through some sort of BSD hacking. Pieces of the internet could vanish for a day because someone messed with BSD. Sorry, BGP, not BSD.
+**Jon Evans:** I mean, GitHub could disappear through some sort of BSD hacking. Pieces of the internet could vanish for a day because someone messed with BSD. Sorry, [BGP](https://en.wikipedia.org/wiki/Border_Gateway_Protocol), not BSD.
 
 **Jerod Santo:** Right.
 
 **Jon Evans:** It's a globally insecure protocol. So it's nice to have that handy if, for whatever reason, GitHub's IP numbers aren't accessible in your country at that time, that sort of thing. And more generally, it's just useful to have another copy around, so you can go back and refer to that if needed.
 
-**Jerod Santo:** Then there's also GH Archive, which - I think it lives in BigQuery. Is that right? We use it for our Changelog Nightly newsletter, which queries. It's queryable, and it's the events that happen on GitHub, but there's also source code involved in that as well. Is that part of the archive program, or is that a separate project altogether?
+**Jerod Santo:** Then there's also [GH Archive](https://www.gharchive.org/), which - I think it lives in BigQuery. Is that right? We use it for our Changelog Nightly newsletter, which queries. It's queryable, and it's the events that happen on GitHub, but there's also source code involved in that as well. Is that part of the archive program, or is that a separate project altogether?
 
-**Jon Evans:** Yeah, they're affiliated with us. They predated the archive program, and we sort of reached out and tried to incorporate them into that. There's them, there's also Software Heritage, who are doing much the same thing... The Internet Archive - except they're trying to get all source code everywhere, and keep it in one single monorepo of their own. They're based in Inria in Paris, and they have their own technology and scraping and so forth. So you know, as with all backups, we want multiple copies.
+**Jon Evans:** Yeah, they're affiliated with us. They predated the archive program, and we sort of reached out and tried to incorporate them into that. There's them, there's also [Software Heritage](https://www.softwareheritage.org/), who are doing much the same thing... [The Internet Archive](https://archive.org/) - except they're trying to get all source code everywhere, and keep it in one single monorepo of their own. They're based in Inria in Paris, and they have their own technology and scraping and so forth. So you know, as with all backups, we want multiple copies.
 
 **Jerod Santo:** \[00:12:26.05\] Yeah. If it doesn't exist in three places, it doesn't exist, right?
 
@@ -148,7 +148,7 @@ Very cool. Adam and I were looking at that, because we started to notice there's
 
 **Jerod Santo:** Right. How do they do that, "This thing will last 2,000 years? We've tested it for three months."
 
-**Jon Evans:** Well, they do artificial testing... Sort of like heat treating, and other forms... But to an extent, yeah - the only way obviously you can actually test if something will last for 1,000 years is to leave it out for 1,000 years. That said, I mean -- as the ISO will tell you, this stuff, silver- haloed on polyester is widely considered to be one of the most stable formats around, and it's not gonna be going anywhere anytime soon, particularly if stored. These are in boxes, and the boxes, and the boxes are wrapped in aluminum film, and the aluminum film is in the steel vaults, and vaults are in the coal mine, and the coal mine is in an Arctic mountain etc.
+**Jon Evans:** Well, they do artificial testing... Sort of like heat treating, and other forms... But to an extent, yeah - the only way obviously you can actually test if something will last for 1,000 years is to leave it out for 1,000 years. That said, I mean -- as the ISO will tell you, this stuff, silver- haloed on polyester is widely considered to be one of the most stable formats around, and it's not gonna be going anywhere anytime soon, particularly if stored. These are in boxes, and the boxes are wrapped in aluminum film, and the aluminum film is in the steel vaults, and vaults are in the coal mine, and the coal mine is in an Arctic mountain etc.
 
 **Jerod Santo:** It seems pretty safe.
 
@@ -156,11 +156,11 @@ Very cool. Adam and I were looking at that, because we started to notice there's
 
 **Jerod Santo:** Until a meteor hits that mountain. That particular mountain. \[laughter\]
 
-**Jon Evans:** Well, there is actually another backup; we're taking a couple of reels with the 15,000 most-starred repos on GitHub, and also a random sampling of just all other repos, because we still wanted to include some of the sort of "inclusive democratic everyone" thing and we're gonna give those to libraries. So we're intending to give those to various more traditional archives and libraries in other locations around the world.
+**Jon Evans:** Well, there is actually another backup; we're taking a couple of reels with the 15,000 most-starred repos on GitHub, and also a random sampling of just all other repos, because we still wanted to include some of the sort of "inclusive democratic everyone" thing in this what we are calling *The Greatest Hits* version, and we're gonna give those to libraries. So we're intending to give those to various more traditional archives and libraries in other locations around the world.
 
 **Jerod Santo:** Yeah, that's interesting, because I did read from some of your marketing copy - you say "This protects the priceless knowledge by storing multiple copies on an ongoing basis, across various data formats and locations." And I was like "and locations..." So I thought maybe this Arctic storage vault is just the first of multiple locations. But is that referring to like the Wayback Machine and these other libraries, or do you think you'll say "Well, we've got one in the Arctic. How about the Antarctic? And how about the Equator?" That'd be a bad place to store it, but...
 
-**Jon Evans:** Well, yes to all of those, maybe. We don't really have a fixed formal plan for the next snapshot, but I personally expect that there is going to be a next snapshot five years from now maybe. We're working with Project Silica, which is this kind of amazing Microsoft Research project that uses femtosecond lasers and 5D polarized light technology to store enormous amounts of data on quite small platters of glass. So that's a possible format of the future.
+**Jon Evans:** Well, yes to all of those, maybe. We don't really have a fixed formal plan for the next snapshot, but I personally expect that there is going to be a next snapshot five years from now maybe. We're working with [Project Silica](https://www.microsoft.com/en-us/research/project/project-silica/), which is this kind of amazing Microsoft Research project that uses fs(femtosecond) lasers and 5D polarized light technology to store enormous amounts of data on quite small platters of glass. So that's a possible format of the future.
 
 \[00:24:05.23\] That's theoretically good for 10,000 years, because obviously 1,000 years isn't good enough... \[laughs\] But it's a little uncertain what the next snapshots will look like... But the general idea is that another way to get redundancy is to have multiple snapshots in multiple different locations.
 
@@ -238,7 +238,7 @@ So in theory, there'd be enough information that you could in fact reconstruct a
 
 **Jerod Santo:** That's awesome. What else is going in there?
 
-**Jon Evans:** Wiktionary, a couple of other things, and a list of about 200 books, mostly but not exclusively technical, all of which is available on the Archive Program repo at GitHub, which I think is GitHub.com/github/archive-program.
+**Jon Evans:** Wiktionary, a couple of other things, and a list of about 200 books, mostly but not exclusively technical, all of which is available on [The Archive Program repo at GitHub](https://github.com/github/archive-program).
 
 **Jerod Santo:** I'll snatch that one up and link it for those interested in seeing all the things inside the Tech Tree. Are you guys taking suggestions?
 

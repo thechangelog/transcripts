@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And Carlisia Pinto.
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And our special guest today is Carolyn Van Slyck. Do you wanna give everybody just a little bit of a rundown, for anybody who may not be familiar with you already?
 
@@ -44,7 +44,7 @@ Then in December I started working on the Go dependency manager, [Dep](https://g
 
 **Carolyn Van Slyck:** You'd be surprised.
 
-**Carlisia Pinto:** Why hopefully?
+**Carlisia Thompson:** Why hopefully?
 
 **Erik St. Martin:** Well, you kind of need to be aware of the landscape, right? So I can't really have any solid opinions about Windows when the last version of Windows I used to any degree was like XP, right?
 
@@ -106,7 +106,7 @@ Carolyn's doing awesome work over on Dep as a maintainer for the Dep project, wh
 
 **Brian Ketelsen:** It's time for us to get her employed.
 
-**Carlisia Pinto:** Carolyn, when you said you're doing Go full-time, is that what you meant, that you're working on the Dep project full-time? Or are you doing that and something else?
+**Carlisia Thompson:** Carolyn, when you said you're doing Go full-time, is that what you meant, that you're working on the Dep project full-time? Or are you doing that and something else?
 
 **Carolyn Van Slyck:** It's mostly Dep. You know, I've never been a maintainer before in an active community. I have open-sourced many things that I've done, but never had anyone else interested in working on it, and oh my goodness, I had no concept for how much time you could spend if you wanted to on curating issues, finding things for people to work on, helping people out... Because a number of people hit me up on Slack and were like "What's a really good issue to work on?" and I love that, I want that; please hit me up if you want Dep issues. And just going through things like that, and then obviously doing a ton of pull request reviews and trying to -- you know, I'm so used to just being an individual contributor, and whenever I do, that's what I get done that week; if I don't do it, it doesn't get done... And it's been incredibly novel to say "Well, I know we've got this pull request in, but thanks to chatting with other people in Slack, doing pull requests or just making issues for people to work on, I got 20 things done this week." That's just been a little crazy.
 
@@ -120,11 +120,11 @@ Maybe I should spend more time looking for a job, and less--
 
 **Carolyn Van Slyck:** Yeah.
 
-**Carlisia Pinto:** So we have to go way, way back and investigate how you got into this position, if the opportunity to contribute to Dep came first and then you decided to (I'm assuming) take time off...? Because it seems that you're actively looking for a job as well.
+**Carlisia Thompson:** So we have to go way, way back and investigate how you got into this position, if the opportunity to contribute to Dep came first and then you decided to (I'm assuming) take time off...? Because it seems that you're actively looking for a job as well.
 
 **Carolyn Van Slyck:** Yeah, it was a convergence of events, really. Up until this April I was working at Rackspace, and they heavily encouraged me to contribute to open source... So I'd do smaller things, tools and things like that, but I was really looking to get more involved, and around December/January there were blog posts saying like "Dep is a real thing, and we really want people who aren't part of the Go Illuminati to contribute to it", and I was like "Well, that's cool, because I'm not really anybody in the Go community, but I'd still love to contribute." So I started doing a couple little things during my workday, and I justified it as -- well, we use [Glide](https://glide.sh/) right now, and we'd really like Dep to be a thing.
 
-**Carlisia Pinto:** Let me pause for a minute so we don't get side-tracked -- or at least I don't get side-tracked. At that point, what were you doing? Were you doing any Go? You said you were using Glide, but were you also using Go for any of your work?
+**Carlisia Thompson:** Let me pause for a minute so we don't get side-tracked -- or at least I don't get side-tracked. At that point, what were you doing? Were you doing any Go? You said you were using Glide, but were you also using Go for any of your work?
 
 **Carolyn Van Slyck:** Yes, I was. At the time, Rackspace had a product called Carina, it was containers as a service, and you could push a button on a website and it would give you [Docker Swarm](https://github.com/docker/swarm) or [Kubernetes](https://kubernetes.io/), and then you could immediately start working with it. I loved it, and it was great. I worked mostly on the command line tool for that. The Docker version manager was a companion to it, and then it had a command line tool to kind of do everything. So I was definitely familiar in working with Go.
 
@@ -144,13 +144,13 @@ I'm incredibly lucky, I'm in a position where I had the funds to say "I'm not go
 
 **Carolyn Van Slyck:** \[00:16:13.15\] I'm all for that.
 
-**Carlisia Pinto:** I have a couple questions too about your beginnings. At that point when you said "Okay, I'm going to take time off and work on Dep full-time for a while", at that point how much Go experience did you have? And my other question is "How did you becoming an official maintainer for Dep happen?" Was it like you got a notification one day, or the conversation you had with Sam Boyer - was that what did it? How did it happen? What was the benchmark that made you go from non-maintainer to maintainer?
+**Carlisia Thompson:** I have a couple questions too about your beginnings. At that point when you said "Okay, I'm going to take time off and work on Dep full-time for a while", at that point how much Go experience did you have? And my other question is "How did you becoming an official maintainer for Dep happen?" Was it like you got a notification one day, or the conversation you had with Sam Boyer - was that what did it? How did it happen? What was the benchmark that made you go from non-maintainer to maintainer?
 
 **Carolyn Van Slyck:** Sure. So yes, I had been coding in Go; it had been a little bit of some back-end services to power Carina and then also all the command line tools. So I was pretty familiar with it, but mostly from the CLI perspective, which Dep is a CLI, so that was kind of a natural transition for me. And then how did I become a maintainer... So I started with just the tiniest little PR, and I gotta give a shoutout here - Brian is the reason I did the PR in the first place... Because I didn't know where to start contributing, and he did this wonderful workshop webinar about how to do your first contribution, your first pull request for a Go project, and it just kind of gave me the nudge I needed to be like "I don't have to be someone who works at Google, somebody who's sanctioned to work on Go to submit my PR." So I did, and I just kept giving more and more, and after a couple months of doing that, I felt confident enough in a couple areas to start doing pull request reviews, and just give people feedback and things like that.
 
 Sam noticed that and said "Hey, I've noticed that you're not just submitting stuff, you're also trying to help other people and give pull request feedback. Would you be interested in just being a maintainer and being able to merge some of these?", instead of waiting three days for him to come around and merge it. So that's kind of how it came about. So it wasn't like he had to ask the question, get down on one knee, and I said yes... \[laughter\]
 
-**Carlisia Pinto:** That's so funny.
+**Carlisia Thompson:** That's so funny.
 
 **Carolyn Van Slyck:** I think Dep at the time was very unique - I could be totally wrong; maybe people with more experience with open source could tell you, but for a more established project where there already were maintainers, I think maybe there would be more involved with becoming one... But I was basically one of the people stepping up and helping take the load off of Sam, because he got another job, and I think he has a family, and kids, so just being someone else there and being able to off-load some of that, so it's not just the Sam show, I think kind of helped that work out.
 
@@ -184,7 +184,7 @@ Sam noticed that and said "Hey, I've noticed that you're not just submitting stu
 
 We make little \[unintelligible 00:21:18.06\] so we'll get together and then we'll go to Chicago Gophers or other -- it doesn't have to be Go-related; we all went to the Docker birthday party, and just kind of makes a little "Go ladies" posse. It's fun.
 
-**Carlisia Pinto:** So what was your talk last night about?
+**Carlisia Thompson:** So what was your talk last night about?
 
 **Carolyn Van Slyck:** Dep, of course. At GopherCon this year I did a [lightning talk](https://www.youtube.com/watch?v=eZwR8qr2BfI&list=PL2ntRZ1ySWBfhRZj3BDOrKdHzoafHsKHU&index=15) about -- you know, Sam gave you the overview of "These are all of our really big plans, and then this is just brass tacks... This is how Dep works as of today, not how we'd like it to work in a month from now, and this is how you get started." And then just feeling questions as people try it out.
 
@@ -202,7 +202,7 @@ We make little \[unintelligible 00:21:18.06\] so we'll get together and then we'
 
 **Brian Ketelsen:** There you go, all of those things. Thank you, Erik, for the words... Which I've lost.
 
-**Carlisia Pinto:** One reason why I thought it was so cool that you were coming on this show today was to hear your story and share your story and share your background so people can know how awesome you are... And Sam Boyer, by the way, was saying "Yes, correct!" when Brian was saying that you are great... But also to give people an idea of how to take some of your experience and apply it to their journey. As Go is growing, I meet a lot of people that want to start working with Go, and they want to know how to start. And I'm sure they're not asking directly, but they also want to know how to get motivated, how to get wins -- this is me thinking that it's important for people who are starting on anything. Do you have anything to suggest to people that are beginning on this journey?
+**Carlisia Thompson:** One reason why I thought it was so cool that you were coming on this show today was to hear your story and share your story and share your background so people can know how awesome you are... And Sam Boyer, by the way, was saying "Yes, correct!" when Brian was saying that you are great... But also to give people an idea of how to take some of your experience and apply it to their journey. As Go is growing, I meet a lot of people that want to start working with Go, and they want to know how to start. And I'm sure they're not asking directly, but they also want to know how to get motivated, how to get wins -- this is me thinking that it's important for people who are starting on anything. Do you have anything to suggest to people that are beginning on this journey?
 
 **Carolyn Van Slyck:** Yeah. First of all, when you're getting paid to do something other than Go all day, it's really hard to say -- it's the weekend, the kids are outside playing and you're like "No, but I'm gonna go read a book and then go through some coding exercises." So figuring out ways to sneak in using Go when someone's paying you - in my opinion that's kind of the trick. No one at Rackspace set out to pay me to do stuff with Go, I just kind of asked for forgiveness later, and tried to pick off things that weren't critical to our business path. It was a safe kiddie pool for me to learn Go. So what I kind of picked off was a Bash script.
 
@@ -218,7 +218,7 @@ You could say, like, books and things like that... I definitely am reading thing
 
 I haven't had a single person be mean to me when I say something like that. Everyone's just been really quick to teach me for free, so that was kind of nice.
 
-**Carlisia Pinto:** That's really cool.
+**Carlisia Thompson:** That's really cool.
 
 **Carolyn Van Slyck:** Yeah. In an open source community, even if you don't have something to do -- I started to run out of Go things to do at work, and that's where I started looking around and I saw Dep and I kind of jumped on that and started working on it. And it's really intimidating at first to contribute to a new project, especially when you're like "I'm a beginner, what on Earth could I do?", but usually the littlest things are sometimes the things that are most often overlooked by the people who are doing the heavy lifting from day to day.
 
@@ -226,7 +226,7 @@ I haven't had a single person be mean to me when I say something like that. Ever
 
 **Erik St. Martin:** I wanted to make a comment too about the timeline, too. I think when people try to pick up a language or contribute to a project and stuff like that, I think people can beat themselves up over time, too... And we don't realize -- like you said, if you can sneak it in at work, you can learn it a lot faster. For most people it's really hard to just in your pastime acquire some new skillset unless you have no family and things like that. And it's the perception, right?
 
-**Carlisia Pinto:** I love the insight that Carolyn had about being a person that is attracted to a shiny new thing, versus being a person who actually took the technology and applied it to something that had use. When I started my journey into Go, I was that person who was attracted to the shiny new things... \[laughs\] I just wanted to do Go. Half was that I was ready to move on from what I was doing in terms of technology, and half was like "I really like the way this looks, I wanna give it a try." And interviewing for jobs that were hiring for Go -- usually there are two types of employers, I think... One is "I just want a good engineer, it doesn't matter what they did in the past. They can learn easily." Then there are other types who want you to have specific knowledge. But either way, I think if you are applying to join a team that's doing Go, they want to know that at least you're not gonna hate it, and join and hate the language, and then leave or want to change the teams just because you didn't know what it was all about, then you learned it, then you hated it and now you want to drop out.
+**Carlisia Thompson:** I love the insight that Carolyn had about being a person that is attracted to a shiny new thing, versus being a person who actually took the technology and applied it to something that had use. When I started my journey into Go, I was that person who was attracted to the shiny new things... \[laughs\] I just wanted to do Go. Half was that I was ready to move on from what I was doing in terms of technology, and half was like "I really like the way this looks, I wanna give it a try." And interviewing for jobs that were hiring for Go -- usually there are two types of employers, I think... One is "I just want a good engineer, it doesn't matter what they did in the past. They can learn easily." Then there are other types who want you to have specific knowledge. But either way, I think if you are applying to join a team that's doing Go, they want to know that at least you're not gonna hate it, and join and hate the language, and then leave or want to change the teams just because you didn't know what it was all about, then you learned it, then you hated it and now you want to drop out.
 
 So having history to show that "At least I have looked into this and it appeals to me" is very useful, but of course, if you have something solid to show, versus "I haven't really done anything at work, I just wanna do this language and I have done a couple things here and there", it makes it a lot easier. But don't discount that also if you don't have the opportunity to work, there are many things that you can do (at least I think) to get you up to that point where you have a solid enough knowledge of the language and the ecosystem to be able to walk into an interview and be confident and show that you know enough to do the work.
 
@@ -242,7 +242,7 @@ So sometimes there's things you can do that scratch your own itch, that give you
 
 **Brian Ketelsen:** Those NUCs are awesome, by the way.
 
-**Carlisia Pinto:** Absolutely.
+**Carlisia Thompson:** Absolutely.
 
 **Brian Ketelsen:** I have one, and it's just the best little dev machine ever.
 
@@ -346,7 +346,7 @@ So sometimes there's things you can do that scratch your own itch, that give you
 
 **Brian Ketelsen:** Yup. That is so cool! Okay, I love this. I'm releasing a CLI tool tomorrow at my Golang UK talk. It's a secret. And I'm gonna have to rewrite the whole damn thing now using this. \[laughter\] I hate you.
 
-**Carlisia Pinto:** I'm doing a bunch of CLI tools, maybe I'll see if I can add this. It looks really cool.
+**Carlisia Thompson:** I'm doing a bunch of CLI tools, maybe I'll see if I can add this. It looks really cool.
 
 **Carolyn Van Slyck:** Was this using Cobra? Or how are they doing all this magic with their CLI? The little drop-down and everything.
 
@@ -396,7 +396,7 @@ So sometimes there's things you can do that scratch your own itch, that give you
 
 **Erik St. Martin:** Carlisia, what do you have? Anybody, anything?
 
-**Carlisia Pinto:** I don't have anything today.
+**Carlisia Thompson:** I don't have anything today.
 
 **Erik St. Martin:** And how about you, Carolyn?
 
@@ -418,7 +418,7 @@ So it's less like the projects she's done. She's done amazing work with Jupyter 
 
 **Brian Ketelsen:** Nice. How about you, Carlisia? Did you have anything?
 
-**Carlisia Pinto:** I don't... Not today.
+**Carlisia Thompson:** I don't... Not today.
 
 **Brian Ketelsen:** Okay.
 
@@ -444,6 +444,6 @@ So it's less like the projects she's done. She's done amazing work with Jupyter 
 
 **Brian Ketelsen:** Goodbye! Thanks, Carolyn.
 
-**Carlisia Pinto:** Yes, thank you.
+**Carlisia Thompson:** Yes, thank you.
 
 **Carolyn Van Slyck:** Bye! It was great talking to you.

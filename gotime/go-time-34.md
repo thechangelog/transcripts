@@ -1,6 +1,6 @@
 **Erik St. Martin:** Alright everybody, welcome back for another episode of GoTime. It's episode \#34 today, and our sponsors today are Toptal and Backtrace. Today on the show we have myself, Erik St. Martin, Carlisia Pinto is also here...
 
-**Carlisia Pinto:** Hello.
+**Carlisia Thompson:** Hello.
 
 **Erik St. Martin:** And Brian Ketelsen...
 
@@ -302,7 +302,7 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Brian Ketelsen:** Oh, wow. It's shown up almost every day on the Changelog Nightly email I get that shows the top repos for the day. That's a pretty big deal. So it's a great tool. I love it, I've been using it ever since I saw the first release of it a couple days ago, and I will not stop using that one.
 
-**Carlisia Pinto:** Yeah, I really like it too, because using curl is great, but every time we have to redo a call, we have to navigate through the line to type things out. With that, you just tap over to the different panes and type in your input or remove things... It's great.
+**Carlisia Thompson:** Yeah, I really like it too, because using curl is great, but every time we have to redo a call, we have to navigate through the line to type things out. With that, you just tap over to the different panes and type in your input or remove things... It's great.
 
 **Erik St. Martin:** I guess I don't suffer there, because I have the Vim bash setup so I just use Vim commands to jump around and modify it.
 
@@ -312,7 +312,7 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Brian Ketelsen:** Yeah. Yesterday there was a point where I think I had five of these windows open, and each one of them was sending a different request or getting a different response, and it's just so beautiful to inspect all of that at once. It made me happy. I love open source projects that solve a simple problem really well, and make me happy.
 
-**Carlisia Pinto:** I have another project, it's called Ozzo Validation. There is a validation package for Go called GoValidate, which I actually have used, but this one is different because the validation rules don't go together with the struct. With GoValidate you have to do struct tags to specify your validation rules. This one separates everything, all the rules, and lets you have nested validation, and a bunch of other things. It's really cool.
+**Carlisia Thompson:** I have another project, it's called Ozzo Validation. There is a validation package for Go called GoValidate, which I actually have used, but this one is different because the validation rules don't go together with the struct. With GoValidate you have to do struct tags to specify your validation rules. This one separates everything, all the rules, and lets you have nested validation, and a bunch of other things. It's really cool.
 
 **Brian Ketelsen:** Yeah, I played with this one last night. I like it a lot. Struct tags are really easy to abuse and very hard to maintain in general, but Ozzo lets you just have nice, easy to use functions and remove the craziness from your struct tags. I like that one. I made a mental note that I was probably gonna use that next.
 
@@ -364,7 +364,7 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Brian Ketelsen:** Sam Boyer...
 
-**Carlisia Pinto:** Jess Frazelle...
+**Carlisia Thompson:** Jess Frazelle...
 
 **Brian Ketelsen:** Jess and Andrew Gerrand...
 
@@ -430,7 +430,7 @@ I'm very excited to see this one come out. I've played with it a little bit, and
 
 **Brian Ketelsen:** \[00:51:53.15\] Any other exciting news and products or projects that we've come across this week? I can't think of anything else. I know there's been a lot, but I just can't think of anything big and exciting.
 
-**Carlisia Pinto:** There is a lot. \[laughs\] I stopped to read a couple newsletters this week and I was amazed by how much stuff there is.
+**Carlisia Thompson:** There is a lot. \[laughs\] I stopped to read a couple newsletters this week and I was amazed by how much stuff there is.
 
 **Brian Ketelsen:** I saw a release of Vim-go Debug. I don't remember who made it; I'm sure somebody on the GoTime Slack channel will have a link to it before I can even finish this sentence... I saw the nice video on...
 
@@ -470,7 +470,7 @@ Today I'll start off with NATS from APCERA and Derek Collison. I solved a really
 
 **Erik St. Martin:** How about you, Carlisia?
 
-**Carlisia Pinto:** \[00:56:03.10\] I'm going to give a shoutout to HashiCorp in general and Vault in specific. I'm working with Vault, and just looking around and reading what people say about it, it's amazing how well done these products are. There are so many good products that are open source and well done, but this time, big shoutout to HashiCorp.
+**Carlisia Thompson:** \[00:56:03.10\] I'm going to give a shoutout to HashiCorp in general and Vault in specific. I'm working with Vault, and just looking around and reading what people say about it, it's amazing how well done these products are. There are so many good products that are open source and well done, but this time, big shoutout to HashiCorp.
 
 **Brian Ketelsen:** Nice. I love Vault.
 
@@ -536,7 +536,7 @@ Thank you for everybody being on the show, especially thank you Joe for coming o
 
 **Joe Doliner:** Well, that's the true measure of an episode... Go ahead, Carlisia.
 
-**Carlisia Pinto:** I was gonna remind that we haven't said our official goodbye.
+**Carlisia Thompson:** I was gonna remind that we haven't said our official goodbye.
 
 **Brian Ketelsen:** Oh, we should probably say goodbye then.
 
@@ -546,6 +546,6 @@ Thank you for everybody being on the show, especially thank you Joe for coming o
 
 **Joe Doliner:** Thanks for having me, it's been an absolute blast. Goodbye to all the listeners... This has been great.
 
-**Carlisia Pinto:** Thank you, J.D., and goodbye everybody.
+**Carlisia Thompson:** Thank you, J.D., and goodbye everybody.
 
 **Erik St. Martin:** Bye, everybody.

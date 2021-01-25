@@ -1,6 +1,6 @@
 **Erik St. Martin:** Alright everybody, welcome back for another episode of GoTime. Today's episode is \#47, and our sponsor for today is Toptal. Today on the show we have myself, Erik St. Martin, we also have Carlisia Pinto - say hello, Carlisia...
 
-**Carlisia Pinto:** Hi, everyone.
+**Carlisia Thompson:** Hi, everyone.
 
 **Erik St. Martin:** And standing in for [Brian](https://twitter.com/bketelsen) today we have Mr. Adam Stacoviak.
 
@@ -60,7 +60,7 @@ These are two pretty wide extremes, but somehow the challenge is "How do we get 
 
 **Erik St. Martin:** That's actually a really interesting point I had never thought of.
 
-**Carlisia Pinto:** Solomon, I wanted to ask you to take us back to the point where you were transitioning from your platform-as-a-service to an open source project... Because what I'm thinking is - and there is no doubt that you were a success story now, which makes it even more fascinating... So what I'm thinking is you have this paid-per-use service, and people are demanding your service, but they are saying "We don't want to pay for it." And I'm asking this question from a business perspective, especially for people who think about going into business or are in business... I would have this question myself, and I think people will be curious too, so let's get to it.
+**Carlisia Thompson:** Solomon, I wanted to ask you to take us back to the point where you were transitioning from your platform-as-a-service to an open source project... Because what I'm thinking is - and there is no doubt that you were a success story now, which makes it even more fascinating... So what I'm thinking is you have this paid-per-use service, and people are demanding your service, but they are saying "We don't want to pay for it." And I'm asking this question from a business perspective, especially for people who think about going into business or are in business... I would have this question myself, and I think people will be curious too, so let's get to it.
 
 So you were at this point that people are demanding your service, but they don't wanna pay for it. How was the rationale that instead of saying, "Well, let's change our pricing model" or "Let's make a better offering so people feel that they're getting more value, and therefore want to pay for it." To me seems a super counter-intuitive move to say "No, let's just extract this and offer it as an open source project." How did that leap of faith happen? Did you have a game plan? How did it happen?
 
@@ -108,7 +108,7 @@ In the end, there was more interest for the new thing than for the old thing, an
 
 **Adam Stacoviak:** So where does Go fit into this? This is GoTime after all, right? Where does Go fit into Docker?
 
-**Carlisia Pinto:** Can I ask a question that would precede the Docker story? Did you use Go at DotCloud?
+**Carlisia Thompson:** Can I ask a question that would precede the Docker story? Did you use Go at DotCloud?
 
 **Solomon Hykes:** Excellent question. The answer is no, we did not use Go. We were a Python shop, which is why we were presented at PyCon.
 
@@ -180,7 +180,7 @@ I think Go brought the kind of reassuring focus on a quality, reliable standard 
 
 **Erik St. Martin:** Alright, we are back, talking to Solomon Hykes. Carlisia, I know that you had a follow-up question to Adam just before the break... Do you wanna go ahead with that?
 
-**Carlisia Pinto:** Yeah, so Adam asked a good question, and I don't think we got to the answer. Adam asked "What impact did Docker have on Go's popularity?" Was that question answered?
+**Carlisia Thompson:** Yeah, so Adam asked a good question, and I don't think we got to the answer. Adam asked "What impact did Docker have on Go's popularity?" Was that question answered?
 
 **Adam Stacoviak:** I don't know, I think he was talking towards the \[unintelligible 00:28:43.01\] and some of the features of Go, although I would love to hear that. We hear from someone like Matz, the creator of Ruby, and the impact that Ruby on Rails had to Ruby... You, Solomon, as someone early on in 2012 choosing Go for Docker, how do you feel Docker had an impact on Go the language?
 
@@ -210,7 +210,7 @@ Then in the second year when we replaced LXC and we implemented this library cal
 
 We've always adopted the latest version of Go for the latest version of Docker. We've never lagged behind, thinking "Oh, let's wait until someone else goes through the pain and then we'll upgrade." The Go project has trained us to just trust their latest stable releases... Which, by the way, I think it took us a while to get to the same points; I wish I could say the same for Docker since the beginning.
 
-**Carlisia Pinto:** So how about today? Is there a point where you say, "Well, it makes sense to use an existing library that's external to the standard library"? Or does Docker or Moby have a philosophy of saying "We don't use external libraries; we use the standard library and we write everything ourselves"? Do you have that rule? If you don't have that rule, how do you make a decision to "Okay, now it's worthwhile using an external library"? Or are there categories of things that you consider that for and others you don't?
+**Carlisia Thompson:** So how about today? Is there a point where you say, "Well, it makes sense to use an existing library that's external to the standard library"? Or does Docker or Moby have a philosophy of saying "We don't use external libraries; we use the standard library and we write everything ourselves"? Do you have that rule? If you don't have that rule, how do you make a decision to "Okay, now it's worthwhile using an external library"? Or are there categories of things that you consider that for and others you don't?
 
 **Solomon Hykes:** Well, first, I heard the word "Moby", so can I suggest that I address that afterwards?
 
@@ -222,7 +222,7 @@ We've always adopted the latest version of Go for the latest version of Docker. 
 
 I think that's what we followed, but I think everything I just said applies to any \[unintelligible 00:36:18.05\] software project. I don't think we've done anything out of the ordinary.
 
-**Carlisia Pinto:** That sounds sensible, yes.
+**Carlisia Thompson:** That sounds sensible, yes.
 
 **Adam Stacoviak:** So here we are today... We are four years(ish) later. Docker is cool, everybody is using it... We're in a whole new world where Docker is basically the Xerox of containers. You've owned the name. If you talk about containers, you essentially say Docker, right? That's the case we're in, and it seems like that's where we're at with even naming things. Solomon, you mentioned the GoTime FM chat room, so if you're listening to this after (not live), we do this show live on Thursdays, you can hang out with us in the GoTime FM channel in GopherSlack; I encourage you to do that, but if you're not, don't worry about it. But inside the chat we were talking about this transition of Docker to the new name, Moby.
 
@@ -406,6 +406,6 @@ So these events can be a really good way to get started in open source in genera
 
 **Adam Stacoviak:** Laterz!
 
-**Carlisia Pinto:** This was great! Thanks, Solomon.
+**Carlisia Thompson:** This was great! Thanks, Solomon.
 
 **Solomon Hykes:** Thank you.

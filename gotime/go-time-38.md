@@ -1,6 +1,6 @@
 **Erik St. Martin:** Welcome back, everybody, to another episode of GoTime. Today's episode is number 38, and our sponsors for today are Backtrace and the Ultimate Go Training Series. Today on the show we have myself, Erik St. Martin, Carlisia Pinto is also on the show - say hello, Carlisia...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And standing in for Brian today we have Johnny Boursiquot.
 
@@ -12,7 +12,7 @@
 
 **Erik St. Martin:** So how's things in the Go community management world? Actually, give everybody a little bit of a background on yourself first, for anybody who might not be familiar with you already.
 
-**Carlisia Pinto:** And tell us your correct title, because I don't think that's it.
+**Carlisia Thompson:** And tell us your correct title, because I don't think that's it.
 
 **Steve Francia:** That is not my correct title... We can start there. My correct title isn't all that accurate either, but I'm the Go team technical program manager, with an emphasis on the external usage of Go. But it's really an interesting role that does have community management as a part of it. Also, a good element of it is product management. Largely, I'm working to be a voice for the Go users to the Go team, and help strategically align the Go project in a scalable way, that meets the needs of all of its users.
 
@@ -43,21 +43,21 @@ The team does listen to the users and tries to understand... One of the challeng
 I'm not sure what conversation or experience arrived at that, but that was a critical thing for us to understand, because all the efforts by the community can only go so far. Without the Go leadership understanding the need, and realizing that it's something that to really be successful we need to make all of the tooling aware of, they could never bridge that gap. So getting the understanding to the team was a critical milestone in this.
 There's still a long road ahead to delivering the right solution, but the work that the working group is doing is a huge first step towards that.
 
-**Carlisia Pinto:** Just to get that straight... Peter Bourgon was leading the design and the specs, and [Sam Boyer](https://twitter.com/sdboyer) is leading the implementation - is that right?
+**Carlisia Thompson:** Just to get that straight... Peter Bourgon was leading the design and the specs, and [Sam Boyer](https://twitter.com/sdboyer) is leading the implementation - is that right?
 
 **Steve Francia:** \[00:07:57.00\] I wouldn't frame it that way. I think Peter's leading the efforts. Peter is the one who really got the group together and ensured that they had meetings regularly and kind of set up the schedule. I'd call him more like a project lead. There's four people on the working group; I think Sam is definitely one of the active people in that, but there's four of them. I think they're all contributing quite a bit. I'm not sure if one of them is the lead of it over another, but I know they all meet regularly and are building stuff together.
 
-**Carlisia Pinto:** Yeah, we had him talking to us two   I think.
+**Carlisia Thompson:** Yeah, we had him talking to us two   I think.
 
 **Erik St. Martin:** Yeah, I think it was two episodes back. Yeah, I think Sam focused on the packaging solver, kind of like the dependencies.
 
 **Steve Francia:** Yeah, Sam loves GPS and that problem, and he's really spent a lot of time on it, so it makes sense that he'd be focused on it.
 
-**Carlisia Pinto:** And I don't want to leave a question unanswered... [Cory LaNou](https://twitter.com/corylanou) is asking who is the person on the Google Cloud's side that's doing the work of advocacy? I think that must be [Francesc Campoy](https://twitter.com/francesc)?
+**Carlisia Thompson:** And I don't want to leave a question unanswered... [Cory LaNou](https://twitter.com/corylanou) is asking who is the person on the Google Cloud's side that's doing the work of advocacy? I think that must be [Francesc Campoy](https://twitter.com/francesc)?
 
 **Steve Francia:** Yeah, Frances is the advocate for all of Go and Google Cloud, as well.
 
-**Carlisia Pinto:** Got it.
+**Carlisia Thompson:** Got it.
 
 **Erik St. Martin:** Recently - this was just a couple of days ago - you had published a survey from 2016 on the Go blog. I'd love to chat a little bit about that and maybe some of the things that surprised you, some of the things that you're proud about, things that you wanna work on in the future based on what you observed from this.
 
@@ -92,7 +92,7 @@ We do a lot within the Go community, whether it's through meetups or through com
 
 I think there's some work that we need to do to make Go -- around the resources... Not really changing the language, but better resources and more support around our new users, but I think there's a lot of the core ingredients there that make Go  just a wonderful language, and people are gonna adopt it; people are already adopting it at a pretty brisk pace and I think that's gonna continue.
 
-**Carlisia Pinto:** \[00:16:20.15\] There is so much to talk about community, and there's a lot about community in the survey... One thing that caught my attention related to community is a question that says, "What is the biggest challenge facing the Go project today?" and the top answer with about two percent (there were many answers to that) was "community." I don't know what that could mean... Do you have an idea, Steve?
+**Carlisia Thompson:** \[00:16:20.15\] There is so much to talk about community, and there's a lot about community in the survey... One thing that caught my attention related to community is a question that says, "What is the biggest challenge facing the Go project today?" and the top answer with about two percent (there were many answers to that) was "community." I don't know what that could mean... Do you have an idea, Steve?
 
 **Steve Francia:** Yeah, so one of the challenges we have with the survey is it's really easy to present accurate results with multiple choice, or questions with already determined answers. And questions that had open text box answers - it's much harder to present that data. What we've done here is really kind of a simple metric - how often a given word appeared. In this specific question you're talking about, there really wasn't anything that could be gleaned by using that approach. There were just too many words and not enough consistency across them.
 
@@ -104,7 +104,7 @@ I think there was a bunch of comments that people expressed, and a lot of them w
 
 **Steve Francia:** Yeah, exactly. A good example of a question where this did work well is when we asked people about what would improve the Go documentation. Overwhelmingly, the most common word was 'examples'. In reading through the hundreds of responses that we got to that, it was very clearly the case that users want more examples. With that chart, popular word did demonstrate pretty well what people expressed.
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Johnny Boursiquot:** Along those lines... The survey tried to also gauge what other languages are people coming from, that are sort of adopting Go. I'd be interested in your take of whether Go itself is seen as an elitist language, that it attracts a certain kind of developer or a certain kind of individual with previous experience in another programming language, be it dynamic or static. Do you think that Go is a good language for beginners and people who have never programmed before? Do you think there are things that we can do to attract the brand new to programming folks to the language, to the community?
 
@@ -137,7 +137,7 @@ But there's another question, "What do you write in Go?" and in this one "web se
 
 **Erik St. Martin:** Yeah. I've heard of some embedded stuff and security stuff, but I didn't think that it was enough to register. I didn't think it would show up, I thought it would be lumped into other...
 
-**Carlisia Pinto:** So when you look at these answers in particular, Steve, do you have a feeling that the answers that are more popular by the areas where you want to invest in, or the opposite, you wanna bring up the areas that are less popular?
+**Carlisia Thompson:** So when you look at these answers in particular, Steve, do you have a feeling that the answers that are more popular by the areas where you want to invest in, or the opposite, you wanna bring up the areas that are less popular?
 
 **Steve Francia:** It's a good question... I honestly don't think popularity was a big factor for what we were gonna invest in, alone; I think it's a combination of looking at where our weaknesses are, and comparing that to what the demand is for those things, and trying to pair those together. A lot of this post identifies some of our (I'll call them) challenges that we have ahead of us.
 
@@ -145,7 +145,7 @@ One of the things that I felt best from this was most of the challenges, the vas
 
 \[00:28:12.18\] I think if we look at the challenges, many of them would apply across all of those industries, or most of those industries. There were not many challenges that we looked at that applied only to one.
 
-**Carlisia Pinto:** And what challenges are these that you're thinking about?
+**Carlisia Thompson:** And what challenges are these that you're thinking about?
 
 **Steve Francia:** For me, from reading through all this, I think we identified a number of challenges. When we asked people what changes would improve Go most, they identified pretty clearly what I think are two of our biggest challenges. One is the lack of generics. I know sometimes we feel like it's a broken record, but we recognize it's a challenge. The Go team's stance hasn't changed, it continues to be that we're looking into a solution there.
 
@@ -165,14 +165,14 @@ I think that there's a lot that we can do to just surface some of the great thin
 
 **Steve Francia:** I don't wanna misquote our users, but I think what came through from reading all the commentary was people that use Go really love it. I think it was pretty clear, like "If you try Go, you'll see why", but it's hard to convey that until you try it. And I think you articulated well why - it's not like there's two things that we can -- "Well, Go does this, so you should use it." It's really a bunch of little things that come together to really make a great experience.
 
-**Carlisia Pinto:** I usually tell people that they have to try it and stick to it for a while, so they can get that experience. It doesn't come right away; it's not like you write a Hello World little program and you get it.
+**Carlisia Thompson:** I usually tell people that they have to try it and stick to it for a while, so they can get that experience. It doesn't come right away; it's not like you write a Hello World little program and you get it.
 
 **Erik St. Martin:** But there's a struggle in learning or adopting any technology, and you need to... I think Katrina Owen put it really well during her talk, it's like "Your need for learning it needs to overcome your need to quit." You have to have a reason to wanna learn that so bad that you kind of suffer through what you find to be oddities in the language because it's different than what you're used to for you to get the comfort and the love for the language. So I think that it's really hard to just -- it's like convincing somebody to use Vim. I can tell them, "No, it's great. You're gonna be super productive in it", and they're still gonna look at me like, "Yeah, but the learning curve..."
 
 **Steve Francia:** Yeah, I think that's well put, and there's really two different ways to address that, and if we do it right, we'll address them both. One is reduce that learning curve. Get rid of a lot of the parts that are painful for people; make it easier to learn. The second one is demonstrate the value that people would receive from learning this. There's lots of different approaches to doing that, and I think one of them would be highlight or showcase success stories using Go.
 I think if we can approach it from both sides, that's definitely something that we collectively as the Go community can help to improve. I definitely know that's something I'm gonna be focused on over the next year.
 
-**Carlisia Pinto:** Talking about what you're gonna be focused on over the next year, can you give us an idea of what's in the pipeline, the order, the priorities...? What's the biggest thing for this year?
+**Carlisia Thompson:** Talking about what you're gonna be focused on over the next year, can you give us an idea of what's in the pipeline, the order, the priorities...? What's the biggest thing for this year?
 
 **Steve Francia:** For me, my role is really gonna be focused on the user experience and what it means to be a part of our community, and supporting that as much as possible. I can't give you my full playbook for the year, because honestly, I'm still writing it. I think it's a very evolving thing, but I can tell you some of the highlights of it.
 
@@ -252,7 +252,7 @@ I know coming for me personally, getting to see and watch the Go team interact w
 
 **Erik St. Martin:** I know you're a pretty busy guy, and I think we're about out of time. I think we have a couple of minutes though if everybody wants to do \#FreeSoftwareFriday.
 
-**Carlisia Pinto:** I actually don't have one today.
+**Carlisia Thompson:** I actually don't have one today.
 
 **Erik St. Martin:** How about you, Johnny? Do you wanna give a shoutout to a project or a maintainer?
 
@@ -266,7 +266,7 @@ I know coming for me personally, getting to see and watch the Go team interact w
 
 **Steve Francia:** Well, Vim was overwhelmingly the most used, and VS Code was, for me shockingly, the second most, given how young it is. But it just barely edged out...
 
-**Carlisia Pinto:** Over Atom.
+**Carlisia Thompson:** Over Atom.
 
 **Steve Francia:** ... IntelliJ and Atom and Sublime.
 
@@ -286,6 +286,6 @@ Alright, so with that, I wanna thank everybody for being on the show. Huge thank
 
 **Steve Francia:** Bye!
 
-**Carlisia Pinto:** Goodbye, everyone.
+**Carlisia Thompson:** Goodbye, everyone.
 
 **Johnny Boursiquot:** Bye!

@@ -6,7 +6,7 @@ Welcome back for another episode of Go Time. This is episode number four. Today 
 
 **Erik St. Martin:** And also Carlisia Campos. Say hello, Carlisia.
 
-**Carlisia Pinto:** Glad to be here, hi!
+**Carlisia Thompson:** Glad to be here, hi!
 
 **Erik St. Martin:** And for anybody who's already listening, today we're joined by Daniel Whitenack, who is very vested in Gopher data science. He's also going to be speaking at GopherCon this year about it. How are you, Daniel?
 
@@ -16,21 +16,21 @@ Welcome back for another episode of Go Time. This is episode number four. Today 
 
 **Brian Ketelsen:** The biggest thing this week is the feature freeze for Go 1.7. It was announced on the Golang-nuts and Golang-dev mailing list. There's a lot of changes in this, with the SSA and compiler changes, so everybody out there needs to download Go 1.7 and compile it, test your programs, because this is a really big change, and there's opportunity for breakage. Of course, our tests cover everything, but it's a big place for us. Compiler speeds are down, down-down-down.
 
-**Carlisia Pinto:** I saw something about binaries. Is it vendoring binaries? I didn't have a chance to investigate, I was super-interested. Does anybody know?
+**Carlisia Thompson:** I saw something about binaries. Is it vendoring binaries? I didn't have a chance to investigate, I was super-interested. Does anybody know?
 
 **Daniel Whitenack:** Yeah, I think it was binary-only packages, without providing the source.
 
 **Brian Ketelsen:** Exactly, so you can get a binary on your package now.
 
-**Carlisia Pinto:** So you can do it both ways?
+**Carlisia Thompson:** So you can do it both ways?
 
 **Brian Ketelsen:** Correct. If you want to release a precompiled package that was only a binary with no source, you could do that by giving somebody a URL to a go get, or to use go get.
 
-**Carlisia Pinto:** Oh, I see what you're saying, gotcha.
+**Carlisia Thompson:** Oh, I see what you're saying, gotcha.
 
 **Erik St. Martin:** Yeah, so kind of more along the lines of like the commercial packages and libraries that you can buy, say, for the Windows side of the world.
 
-**Carlisia Pinto:** So then if I'm using your package as a binary, I can pop it in my projects and use it as a binary?
+**Carlisia Thompson:** So then if I'm using your package as a binary, I can pop it in my projects and use it as a binary?
 
 **Brian Ketelsen:** I don't know if it applies to precompiled libraries. I think it was only commands, but it would be interesting to see if it actually applied to the library files, the A files.
 
@@ -46,11 +46,11 @@ Welcome back for another episode of Go Time. This is episode number four. Today 
 
 **Brian Ketelsen:** That's frightening.
 
-**Carlisia Pinto:** I didn't see that, but that sounds great.
+**Carlisia Thompson:** I didn't see that, but that sounds great.
 
 **Daniel Whitenack:** I didn't see it either, but I would love to participate in that.
 
-**Carlisia Pinto:** I've seen them doing it in the past, and it's great.
+**Carlisia Thompson:** I've seen them doing it in the past, and it's great.
 
 **Brian Ketelsen:** I don't know... If you didn't have impostor syndrome before, imagine Brad and Andrew tearing up your code. They're both great guys, so don't get me wrong, but that is a tough crowd to please.
 
@@ -64,7 +64,7 @@ Welcome back for another episode of Go Time. This is episode number four. Today 
 
 **Brian Ketelsen:** Yeah, something this big takes a long time to internalize all of it. I would love to take this article, mix it with Dave Cheney's error-handling article from a week or two ago, and just put it under my pillow and sleep on it every night, hoping that I could absorb all of that at once. That's be great.
 
-**Carlisia Pinto:** I'm holding myself back, as I don't wanna be such a big fan girl, but for people new to the community and to GO, Peter is definitely somebody to absorb. I would say Peter and Dave Cheney are at the top of my list as far as best practices and things I think are best to follow.
+**Carlisia Thompson:** I'm holding myself back, as I don't wanna be such a big fan girl, but for people new to the community and to GO, Peter is definitely somebody to absorb. I would say Peter and Dave Cheney are at the top of my list as far as best practices and things I think are best to follow.
 
 **Daniel Whitenack:** Yeah, I would agree, and I think coming into Go not too long ago, of course you search around different Stack Overflow responses and whatever, and you can really get a mixed bag of ideas about - like Erik said - about error handling or what have you. But going to these resources, I found, gives some clarity on that mixed bag that you find across the interweb.
 
@@ -72,7 +72,7 @@ Welcome back for another episode of Go Time. This is episode number four. Today 
 
 **Brian Ketelsen:** I think we could have an entire GopherCon on vendoring, and still not get any consensus from anybody. \[laughter\]
 
-**Carlisia Pinto:** Who needs consensus?
+**Carlisia Thompson:** Who needs consensus?
 
 **Daniel Whitenack:** Nobody needs consensus, good point.
 
@@ -90,7 +90,7 @@ Welcome back for another episode of Go Time. This is episode number four. Today 
 
 **Erik St. Martin:** Alright, what else have we got?
 
-**Carlisia Pinto:** Well, I've run into this concept of ChatOps this past week, from two different places. One was the Remote Meetup group, they had somebody come in and do a talk about ChatOps, and they did it using GitHub Hubot. He did a marvelous job. He said what it was, he demonstrated it, he did a demo, he explained how you can use it... It was fantastic. And I've never worked in a place that was using it, I don't even know if this is super new. I know the concept of chat bots is not, but the concept of having chat ops right there where you are doing your communication...
+**Carlisia Thompson:** Well, I've run into this concept of ChatOps this past week, from two different places. One was the Remote Meetup group, they had somebody come in and do a talk about ChatOps, and they did it using GitHub Hubot. He did a marvelous job. He said what it was, he demonstrated it, he did a demo, he explained how you can use it... It was fantastic. And I've never worked in a place that was using it, I don't even know if this is super new. I know the concept of chat bots is not, but the concept of having chat ops right there where you are doing your communication...
 
 And then I also came across this microlibrary which is a Go library. It's a Micro services kit or a library, and it has capabilities for chat bots. They have a blog post, and we'll have a link to it - they say chat ops bots should be a first-class citizen. I think that's great. I work on the command line a lot and I love it, but I also love the concept of bringing operations into the place where you are communicating with people, and also all the extra capabilities that you can get from these new modern tools. You have to watch the Remote Meetup video to see what I'm talking about. I can't thoroughly describe it; I've worked with this, and it's at the tip of my tongue here to describe. I was just fascinated, and I definitely would love to work using this tool, so there it is.
 
@@ -98,7 +98,7 @@ And then I also came across this microlibrary which is a Go library. It's a Micr
 
 **Erik St. Martin:** It's hard though, because I used to love the chat ops stuff, and then I've been kind of pulled more and more away from it because I try not to look in the chat channels nearly as often as I used to, because it gets really distracting. You kind of see your notification, you look in there, and it's like "Oh, it's just somebody deploying something..."
 
-**Carlisia Pinto:** Yeah, exactly. I'm glad you brought that up, because I wanted to mention it and I forgot - what I saw on this video was not at all notifications. Because yeah, we get notifications, we get these hiccups to get there. This was more about having the extra features. For example, querying something and getting the response from different services across your services; it's more like you're in command and you query, and you're asking for information. And maybe somebody else is there as well, and you can share the information, as opposed to being just a passive consumer, just like being dumped information. I thought that was extremely cool.
+**Carlisia Thompson:** Yeah, exactly. I'm glad you brought that up, because I wanted to mention it and I forgot - what I saw on this video was not at all notifications. Because yeah, we get notifications, we get these hiccups to get there. This was more about having the extra features. For example, querying something and getting the response from different services across your services; it's more like you're in command and you query, and you're asking for information. And maybe somebody else is there as well, and you can share the information, as opposed to being just a passive consumer, just like being dumped information. I thought that was extremely cool.
 
 **Brian Ketelsen:** Yeah, I think from a framework perspective, Micro is probably the most interesting in the Go world that's come out in 2016.
 
@@ -118,7 +118,7 @@ One thing that I came across this week was a project called UNIK, which is spell
 
 **Erik St. Martin:** Only in building some to play with for toy reasons, not so much as far as like production usage.
 
-**Carlisia Pinto:** I don't, at all.
+**Carlisia Thompson:** I don't, at all.
 
 **Erik St. Martin:** Yeah, basically the notion of unikernel is it's just a really trimmed down kernel, a bootable program. When you look at your container, like PID 1 the process that starts up is your application, but you still have an operating system that bootstraps that particular process. And a unikernel is basically your app is the operating system. And I think they have some stuff tied in under the covers, but I'm no unikernel expert either, so I wouldn't take my word for it.
 
@@ -174,7 +174,7 @@ Then recently, at that same conference where they discussed the Uber alerting st
 
 **Erik St. Martin:** Yeah, I've seen a few projects over the years where people have started trying to do text parsing and some probabilistic stuff in Go... But what was that project we ran across...? We were kind of researching the show and it was just astonishing how big that page was.
 
-**Carlisia Pinto:** Oh, yeah...
+**Carlisia Thompson:** Oh, yeah...
 
 **Brian Ketelsen:** Oh, I know what you're talking about - the golang data library page. It's at mjhall.org/golang-data-science-libraries. It's a huge page full of data science libraries in Go and we all just kind of stopped and said, "Wow! There's 500 lengths on this page." I was thinking there were two or three data libraries for Go, but no, there's a lot.
 
@@ -210,13 +210,13 @@ Then a lot of what I've learned has been trial and error; importing this package
 
 Then of course there is the list of things that have already been done in Go, like InfluxDB and Pachyderm and most sorts of things. Generally there is Getting Started sections to those projects. In Pachyderm they have a great Getting Started example where they do word count with simple grep and awk commands. That's kind of a fun way to get started in doing data science in that way.
 
-**Carlisia Pinto:** Daniel, we should be surprised that you're going to talk about Go in data science at the upcoming GopherCon, but can you give us a little teaser about the talk? Who should be looking forward to being there and seeing that talk?
+**Carlisia Thompson:** Daniel, we should be surprised that you're going to talk about Go in data science at the upcoming GopherCon, but can you give us a little teaser about the talk? Who should be looking forward to being there and seeing that talk?
 
 **Daniel Whitenack:** Sure, sure. So it's still in the works, but the teaser I'll give is that from start to finish basically I'm gonna do data science, and do it hopefully in a distributed way, all with Go. So starting out saying like "This is a problem we wanna solve. We're gonna explore the data with Go tools, and then once we know what we're gonna do, we're gonna implement something simple in Go that will do that" and then we can think about how will that scale, and we'll use a Go tool, maybe Pachyderm or something like that to scale that up and illustrate how you can go through that whole data science process using nothing but Go.
 
 Then also I'll definitely provide some call-to-action to the audience to start doing some data sciency things with Go and point them to some packages and some projects that they can contribute to.
 
-**Carlisia Pinto:** So is it going to be like a live demo?
+**Carlisia Thompson:** So is it going to be like a live demo?
 
 **Daniel Whitenack:** Yeah, I mean it will be a combination between some code that I'll show on the screen, and then depending on how things work out, I'm hoping to show some type of live demo.
 
@@ -230,7 +230,7 @@ Then also I'll definitely provide some call-to-action to the audience to start d
 
 **Daniel Whitenack:** Sure, sure. Actually, I'll point to some Go notebooks and you can do it yourself in the notebook.
 
-**Carlisia Pinto:** Very cool.
+**Carlisia Thompson:** Very cool.
 
 **Erik St. Martin:** So speaking of Go notebook, there's the Jupyter, right? And there's now a Go library for that.
 
@@ -254,13 +254,13 @@ Then also I'll definitely provide some call-to-action to the audience to start d
 
 **Erik St. Martin:** Carlisia, how about you?
 
-**Carlisia Pinto:** I'm going to mention Jupyter Notebook and the Go kernel. Daniel did a great job describing Jupyter Notebook, but I still wanna mention it because it is not just for data science, and I'm gonna tell you why. I came across this commercial tool that is a notebook, and my mind was blown. This is the tool that I looked for all my life, and it's what I use now to take notes. Just like Jupyter, it has cells. You can have code cells or markdown cells or tech cells - it's been the most amazing thing. And I keep telling my husband - he's a data scientist - "You have to try it, this is the most amazing thing!" Two weeks go by and I'm telling him, "You gotta try it, you gotta try it", he finally comes over and looks at it, and he's like "Huh, I have this. But it's free, open source, and it's called Jupyter." I'm like, "That's what Jupyter is!?" Because I ran across Jupyter when I ran across the Go kernel that Daniel did for Gopher Gala, when I was browsing Gopher Gala submissions. Then I went and looked at Jupyter, and I was like "I don't understand what this is. It's not for me, and I'm not willing to spend the time." So I find this tool and then I'm like, "Oh, that's what it is!" So actually last night spent time setting up Jupyter and hooking up the Go kernel to it, and it is super amazing. It's not just for data science - you can keep your notes, you can run code... I have ideas to put together Go courses, and I would totally use Jupyter for that, because everything is self-contained, it can have different sections, I can run the code right there, you can do a presentation... Just like Daniel was saying, you can export it and when you host it on GitHub you see the whole thing formatted; it's not interactive, but the whole formatting is there and it looks beautiful. It's great.
+**Carlisia Thompson:** I'm going to mention Jupyter Notebook and the Go kernel. Daniel did a great job describing Jupyter Notebook, but I still wanna mention it because it is not just for data science, and I'm gonna tell you why. I came across this commercial tool that is a notebook, and my mind was blown. This is the tool that I looked for all my life, and it's what I use now to take notes. Just like Jupyter, it has cells. You can have code cells or markdown cells or tech cells - it's been the most amazing thing. And I keep telling my husband - he's a data scientist - "You have to try it, this is the most amazing thing!" Two weeks go by and I'm telling him, "You gotta try it, you gotta try it", he finally comes over and looks at it, and he's like "Huh, I have this. But it's free, open source, and it's called Jupyter." I'm like, "That's what Jupyter is!?" Because I ran across Jupyter when I ran across the Go kernel that Daniel did for Gopher Gala, when I was browsing Gopher Gala submissions. Then I went and looked at Jupyter, and I was like "I don't understand what this is. It's not for me, and I'm not willing to spend the time." So I find this tool and then I'm like, "Oh, that's what it is!" So actually last night spent time setting up Jupyter and hooking up the Go kernel to it, and it is super amazing. It's not just for data science - you can keep your notes, you can run code... I have ideas to put together Go courses, and I would totally use Jupyter for that, because everything is self-contained, it can have different sections, I can run the code right there, you can do a presentation... Just like Daniel was saying, you can export it and when you host it on GitHub you see the whole thing formatted; it's not interactive, but the whole formatting is there and it looks beautiful. It's great.
 
 **Erik St. Martin:** I'm sold. I kind of wanna look at it just for normal note taking.
 
 **Daniel Whitenack:** Yeah, and thanks to Carlisia for going through the setup and giving me feedback on the different issues as well. I definitely appreciate it and I'm glad people are starting to use it.
 
-**Carlisia Pinto:** Yeah, I did run into just a super minor hiccup, and I opened an issue. Daniel was so quick, he was instantaneously responding to what I was having trouble with. I think he'll do the same for everybody.
+**Carlisia Thompson:** Yeah, I did run into just a super minor hiccup, and I opened an issue. Daniel was so quick, he was instantaneously responding to what I was having trouble with. I think he'll do the same for everybody.
 
 **Erik St. Martin:** Uh-oh, she's setting a precedent.
 
@@ -268,7 +268,7 @@ Then also I'll definitely provide some call-to-action to the audience to start d
 
 **Erik St. Martin:** ...and how we can add more to the contributor. \[laughter\]
 
-**Carlisia Pinto:** Setting expectations...
+**Carlisia Thompson:** Setting expectations...
 
 **Erik St. Martin:** We also like to ask our guests if there's anybody they kind of wanna thank, any projects they'd like to bring highlights to...
 
@@ -278,7 +278,7 @@ Then also I'll definitely provide some call-to-action to the audience to start d
 
 **Daniel Whitenack:** Congrats!
 
-**Carlisia Pinto:** Congrats!
+**Carlisia Thompson:** Congrats!
 
 **Erik St. Martin:** That's a week ago, two weeks ago now?
 
@@ -286,7 +286,7 @@ Then also I'll definitely provide some call-to-action to the audience to start d
 
 **Erik St. Martin:** Yeah, one of us always has Vim Go, and I'm gonna play right along with it, because who I'm gonna thank is Nvim. I've been a Vim user for a long time, and I kind of tinkered with Nvim. I don't even remember why I went back to standard Vim, and then Brian's like "Dude, why are you still using regular Vim?", so I went back to Nvim, and I'm loving it. And then of course, it wouldn't be the same without Vim Go, so I'll thank Vim Go again.
 
-**Carlisia Pinto:** Is it Nvim or Neovim?
+**Carlisia Thompson:** Is it Nvim or Neovim?
 
 **Brian Ketelsen:** Neovim. The command line you type is nvim. Yeah, and those are two great tastes that taste great together, because Neovim does asynchronous processing and Vim Go enables that very nicely, so you can do things like compile while you continue to edit, and that's not possible in regular Vim, and it's really tasty in Neovim.
 
@@ -312,4 +312,4 @@ Then also I'll definitely provide some call-to-action to the audience to start d
 
 **Daniel Whitenack:** Goodbye.
 
-**Carlisia Pinto:** Goodbye.
+**Carlisia Thompson:** Goodbye.

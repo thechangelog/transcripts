@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** \[laughs\] We also have Carlisia Campos...
 
-**Carlisia Pinto:** Glad to be here, hello.
+**Carlisia Thompson:** Glad to be here, hello.
 
 **Erik St. Martin:** And our special guest today is Scott Mansfield who we've talked about a couple times on the show, about Rend and a couple of other posts we've read. Welcome to the show, Scott.
 
@@ -28,23 +28,23 @@ We also wanted to have some sort of performance, because the service that I work
 
 **Scott Mansfield:** I actually don't know when the other ones started, there's a bunch here. I don't know if you guys are familiar with the Chaos Monkey system.
 
-**Carlisia Pinto:** Yeah, yeah.
+**Carlisia Thompson:** Yeah, yeah.
 
 **Scott Mansfield:** \[00:03:58.14\] So there is actually a new version of the Chaos Monkey coming out. It's not open source yet, but the whole backend of the Chaos Monkey has been rewritten in Go, and it's actually in production right now, striking fear into everybody's hearts here. I actually spoke to the developer before this to get some reasoning, and partly it was because Go itself is so easy to learn that he's not worried about people coming in and working on his code later. The old codebase was actually such a mess that people were afraid of changing it, so now he's rewritten it in Go.
 
 **Erik St. Martin:** That's awesome, because until now I love everything Go does, and now it's wreaking chaos on my system right? \[laughter\] It is now both evil and good.
 
-**Carlisia Pinto:** I wanted to ask you, with the project, the Rend library being so in need of performance... Did you apply specific techniques, did you apply any design concepts, did you use specific libraries to make it as performant as possible? Or did you just apply good Go idioms and it came out performing well and that was it?
+**Carlisia Thompson:** I wanted to ask you, with the project, the Rend library being so in need of performance... Did you apply specific techniques, did you apply any design concepts, did you use specific libraries to make it as performant as possible? Or did you just apply good Go idioms and it came out performing well and that was it?
 
 **Scott Mansfield:** Interesting enough, there's... Well, I'm trying to parse the whole question, there's a lot of pieces there. Sometimes the good Go idioms can be less performant than if you tried doing something lower level, such as ownership of data with the goroutine and then sending messages back and forth for the channels may not be quite as performant as doing some sort of AtomicInteger, like increment stuff. So actually on that point, Rend actually has no external dependencies. It's strictly standard to Go, and that was partially because I'm afraid of picking a vendoring tool whenever it's still up in the air, but also because I could really... Like, I could solve our problems better by having a custom solution.
 
 One of the things that's actually a good example is our metrics library, because there's all kinds of metrics libraries out where you have a counter struct and then you go and increment it and it still does atomic increments in the background, but it really didn't fit our use case quite as much.
 
-**Carlisia Pinto:** Is your metrics library also in Go?
+**Carlisia Thompson:** Is your metrics library also in Go?
 
 **Scott Mansfield:** Yeah, the whole thing... It's all in the same repository.
 
-**Carlisia Pinto:** Because I was thinking to ask you as well, I'm not sure if it applies what I wanna ask anyway... If you're using a Prometheus to collect metrics and log information.
+**Carlisia Thompson:** Because I was thinking to ask you as well, I'm not sure if it applies what I wanna ask anyway... If you're using a Prometheus to collect metrics and log information.
 
 **Scott Mansfield:** Yeah, so our deployment is actually quite interesting. On the same server we're running Rend, memcached, our L2 disk-backed solution called Mnemonic which reuses part of the Rend code, and a Java-based Sidecar process that's actually the hook into the rest of the ecosystem. So in Netflix we have a system called "Atlas" that does our metrics collection, and the client for that is in our Prana sidecar. So for us, we actually have the sidecar process pull Rend to pull metrics out every once in a while, instead of Rend actually pushing metrics anywhere.
 
@@ -86,7 +86,7 @@ There's not too many places where I've bucked the trend; I've just tried to avoi
 
 **Scott Mansfield:** I think that's a pretty common pattern, though. Everybody comes in and, "Oh look, concurrency, parallelism. Channels everywhere", and then we calm down.
 
-**Carlisia Pinto:** That happened to me, to use channels and ask for some advice about my code, and people were like "Just use a mutex here." So I would say for people who are starting out, learn how to use a mutex so that you can then make a choice if that's what you need, versus channels. A lot of times that's enough, and this performs a lot better.
+**Carlisia Thompson:** That happened to me, to use channels and ask for some advice about my code, and people were like "Just use a mutex here." So I would say for people who are starting out, learn how to use a mutex so that you can then make a choice if that's what you need, versus channels. A lot of times that's enough, and this performs a lot better.
 
 **Scott Mansfield:** I also think it's important to remember that nothing is magic, so for a channel there is a fast path - think buffer channel, not the one where you need a handshake where there's no buffer. But for \[unintelligible 00:14:39.04\] there's no magic. You have pretty smart code at the front whenever you're trying to insert something, but if you end up competing for that, it's a lot. That's the way it works. You can't have anything else there. So it's not like you're going to magically be faster by having this channel for concurrency. It has to have some sort of management of that concurrent behavior internally.
 
@@ -98,11 +98,11 @@ There's not too many places where I've bucked the trend; I've just tried to avoi
 
 **Erik St. Martin:** No, they're not. They're not at all. The only way it ends up working that way is because you end up having one goroutine that is the thing always updating state. It's almost used that way, but I think the pattern kind of came from - I think there were some projects early on that had that pattern, and then a lot of people kind of copied it and followed suit. I can't even remember what library I picked that pattern up on, and then I kept doing it. And there were other big name Go programmers doing the same thing, too. I think we finally realized to slap our own hands, like "Why!? Why are we doing this?" The code's much more complex, it's hard to reason about... And it's actually less performant.
 
-**Carlisia Pinto:** And while on the subject, I just wanna mention this real quick: if you do figure out that a mutex is not gonna do it for you and you do need to use channels, if you haven't, it's worthwhile to watch a Rob Pike video on Concurrency Design In Go. I think that's what the name is... I'll put the link on the show notes. It's beautiful. It's not something that you watch and you're like, "Oh, I learned everything", but you'll get a sense of the different ways you can design for concurrency. It's gorgeous, it was my favorite video ever. Have you guys seen that?
+**Carlisia Thompson:** And while on the subject, I just wanna mention this real quick: if you do figure out that a mutex is not gonna do it for you and you do need to use channels, if you haven't, it's worthwhile to watch a Rob Pike video on Concurrency Design In Go. I think that's what the name is... I'll put the link on the show notes. It's beautiful. It's not something that you watch and you're like, "Oh, I learned everything", but you'll get a sense of the different ways you can design for concurrency. It's gorgeous, it was my favorite video ever. Have you guys seen that?
 
 **Erik St. Martin:** Yeah, yeah.
 
-**Carlisia Pinto:** Of course.
+**Carlisia Thompson:** Of course.
 
 **Erik St. Martin:** So for Rend, is that pretty much done? Are you actively maintaining it or are you adding new features?
 
@@ -194,7 +194,7 @@ Speaking of projects and news, do you guys wanna have a random roundtable about 
 
 **Brian Ketelsen:** Yeah, it's a good logging package.
 
-**Carlisia Pinto:** And one FYI, Peter was on the Changelog podcast, and in that episode he goes over the components of the package, and he talks about stability and moving towards a stable release. It's a very good show.
+**Carlisia Thompson:** And one FYI, Peter was on the Changelog podcast, and in that episode he goes over the components of the package, and he talks about stability and moving towards a stable release. It's a very good show.
 
 **Erik St. Martin:** Scott, what are you doing for logging? Because you said you don't use any external dependencies. Did you write your own logging package or are you just using the standard library?
 
@@ -270,25 +270,25 @@ Alright, so moving on. What else have we got?
 
 **Erik St. Martin:** Yeah. My - I guess he's 20 months now - 20-month old daughter woke up just before we got on the call for this show. That's twice now. She times it perfectly, I think she knows.
 
-**Carlisia Pinto:** Of course she knows.
+**Carlisia Thompson:** Of course she knows.
 
 **Erik St. Martin:** She's like, "I wanna be on the mic, too." \[laughter\]
 
 **Brian Ketelsen:** She likes attention.
 
-**Carlisia Pinto:** She's a future podcaster.
+**Carlisia Thompson:** She's a future podcaster.
 
 **Erik St. Martin:** I'll get her on the show when she can talk.
 
-**Carlisia Pinto:** I have a project I wanted to mention. Yet Another Web Framework (YAWF).
+**Carlisia Thompson:** I have a project I wanted to mention. Yet Another Web Framework (YAWF).
 
 **Erik St. Martin:** So is that actually the name of the project, or is that what you've labeled it?
 
-**Carlisia Pinto:** No, that's an acronym I just came up with. But the name of the project is Iris.
+**Carlisia Thompson:** No, that's an acronym I just came up with. But the name of the project is Iris.
 
 **Erik St. Martin:** I don't think I've seen Iris... So what's the spirit of it? Is it like closer to a Revel, is it closer to a Martini, or a Negroni?
 
-**Carlisia Pinto:** Yes, so HttpRouter... He actually has a graph here that he benchmarked - I'm assuming it's a he - the Iris package with HttpRouter, GorillaMux, Gin, Beego, Martini, the standard lib package and other ones that I've never heard of. And he claims that it's twenty times faster. I learned of it from \[unintelligible 00:35:36.16\] when he did one of the remote Go meetups and he said that he uses it and he loves it.
+**Carlisia Thompson:** Yes, so HttpRouter... He actually has a graph here that he benchmarked - I'm assuming it's a he - the Iris package with HttpRouter, GorillaMux, Gin, Beego, Martini, the standard lib package and other ones that I've never heard of. And he claims that it's twenty times faster. I learned of it from \[unintelligible 00:35:36.16\] when he did one of the remote Go meetups and he said that he uses it and he loves it.
 
 I haven't used it, but anything that says "I'm 20 times faster" calls my attention.
 
@@ -296,11 +296,11 @@ I haven't used it, but anything that says "I'm 20 times faster" calls my attenti
 
 **Brian Ketelsen:** \[00:35:58.15\] Can we please stop making more routers for Go? Please! \[laughter\] We have some, they're great, and that's not really where your code is gonna improve in terms of latency, so stop. Thank you.
 
-**Carlisia Pinto:** I heard the episode and I saw that, and I had to mention it.
+**Carlisia Thompson:** I heard the episode and I saw that, and I had to mention it.
 
 **Brian Ketelsen:** You're just trolling me, Carlisia. That's not nice. \[laughter\]
 
-**Carlisia Pinto:** I have to try to get my way, somehow. \[laughter\]
+**Carlisia Thompson:** I have to try to get my way, somehow. \[laughter\]
 
 **Erik St. Martin:** I haven't even look at it, I'll have to pull it up. Recently I haven't really been... I'm kind of in the Scott camp here where it comes to the frameworks... Recently I've just been writing my own stuff. Maybe I'm not building anything big enough, I feel like I need a framework for the repetitive nature of it, but...
 
@@ -316,7 +316,7 @@ I haven't used it, but anything that says "I'm 20 times faster" calls my attenti
 
 **Erik St. Martin:** \[unintelligible 00:37:15.10\] the survey? There was a survey that went out... Who sent that out?
 
-**Carlisia Pinto:** It was Ed's.
+**Carlisia Thompson:** It was Ed's.
 
 **Brian Ketelsen:** Ed Muller, from Heroku.
 
@@ -378,29 +378,29 @@ So yeah, I'm interested to see how it comes along and how long that takes.
 
 **Erik St. Martin:** Because every week somebody mentions a new channel, and like "Wow, I didn't know that existed."
 
-**Carlisia Pinto:** \[00:43:50.01\] And something about channels on Gopher Slack for people who are listening... Hop onto the GoTime FM channel, because we can all multitask here, we are very good at that and you wouldn't believe this. We have Adam tweeting for us, and we are all on the channel also typing, our guests are typing, and we're talking and doing all the things at the same time. So join us...
+**Carlisia Thompson:** \[00:43:50.01\] And something about channels on Gopher Slack for people who are listening... Hop onto the GoTime FM channel, because we can all multitask here, we are very good at that and you wouldn't believe this. We have Adam tweeting for us, and we are all on the channel also typing, our guests are typing, and we're talking and doing all the things at the same time. So join us...
 
 **Erik St. Martin:** And if you hackle us enough like Scott did, we might drag your butt on the show. \[laughter\]
 
-**Carlisia Pinto:** Exactly.
+**Carlisia Thompson:** Exactly.
 
 **Brian Ketelsen:** As punishment. Now, is that concurrency or parallelism, Carlisia?
 
-**Carlisia Pinto:** It's concurrency, for sure.
+**Carlisia Thompson:** It's concurrency, for sure.
 
 **Brian Ketelsen:** Okay.
 
-**Carlisia Pinto:** Yeah. \[laughs\] Good question.
+**Carlisia Thompson:** Yeah. \[laughs\] Good question.
 
 **Brian Ketelsen:** On that note, one of the things that I wanted to bring up this week is the season three of Beyond Code, which featured GopherCon 2015. That's launching this Saturday, and it's going to be in the show notes for this call. Beyond Code Season 3 has interviews from lots of he people that went to GopherCon and it's really awesome. I just saw some of the previews and really enjoyed asking interesting questions of the people in the Go community. So if you get a chance, check that out. It's really cool. Adam and his team did a fantastic job putting that together for us.
 
 **Erik St. Martin:** And both Carlisia and Brian are on there.
 
-**Carlisia Pinto:** Yeah. \[laughter\] Completely by chance. And I also want to mention that it was very late at night, they were way on the back of the back - this was at one of the after-parties; there were so many, I can't even remember. It was huge, they were way at the back... So just by the time I got to the end of the bar, I already had I don't know how many beers, so that is that. And everybody who was with me was drinking, and two other people who were with me are also on the movie... And I don't know how we all managed to just talk clearly, I can't believe it. I felt like I was ambushed.
+**Carlisia Thompson:** Yeah. \[laughter\] Completely by chance. And I also want to mention that it was very late at night, they were way on the back of the back - this was at one of the after-parties; there were so many, I can't even remember. It was huge, they were way at the back... So just by the time I got to the end of the bar, I already had I don't know how many beers, so that is that. And everybody who was with me was drinking, and two other people who were with me are also on the movie... And I don't know how we all managed to just talk clearly, I can't believe it. I felt like I was ambushed.
 
 **Erik St. Martin:** This is real. This is people. It's beyond code. Beyond code is the bar.
 
-**Carlisia Pinto:** It is the real deal. But Adam was so great... The power of making people feel comfortable behind the camera - amazing. They're gonna be at GopherCon again. I highly recommend it, just do it. It's fun.
+**Carlisia Thompson:** It is the real deal. But Adam was so great... The power of making people feel comfortable behind the camera - amazing. They're gonna be at GopherCon again. I highly recommend it, just do it. It's fun.
 
 **Brian Ketelsen:** It was like looking at a time capsule. That was me a year ago, talking about Go, and talking about things... It was fun to watch.
 
@@ -438,7 +438,7 @@ So yeah, I'm interested to see how it comes along and how long that takes.
 
 **Erik St. Martin:** That's awesome.
 
-**Carlisia Pinto:** I'll go next... I'll follow Brian's lead and not mention a software per se, because I couldn't come up with one today. I will mention this open source book that I've been going through, it's called Network Programming With Go. So much of Go is used for systems programming and networking, and I've been trying to learn more about it. This book is great because it's thorough in terms of breadth, but each subsection, you can just go on the internet and find videos and spend two hours or more learning about it. It brings everything together. It goes over everything there is, at least that seems to me to be the case. It has a lot of examples of using Go in the standard library to do some of that work. The guys is a professor, his name is Jan Newmarch. It's a pity \[unintelligible 00:51:35.22\]. So that's my recommendation today.
+**Carlisia Thompson:** I'll go next... I'll follow Brian's lead and not mention a software per se, because I couldn't come up with one today. I will mention this open source book that I've been going through, it's called Network Programming With Go. So much of Go is used for systems programming and networking, and I've been trying to learn more about it. This book is great because it's thorough in terms of breadth, but each subsection, you can just go on the internet and find videos and spend two hours or more learning about it. It brings everything together. It goes over everything there is, at least that seems to me to be the case. It has a lot of examples of using Go in the standard library to do some of that work. The guys is a professor, his name is Jan Newmarch. It's a pity \[unintelligible 00:51:35.22\]. So that's my recommendation today.
 
 **Erik St. Martin:** Nice. And Scott, how about you? Do you have anybody you wanna thank?
 
@@ -464,4 +464,4 @@ To everybody's point, we use only a couple of tools every day, so I think we've 
 
 **Scott Mansfield:** Sure thing.
 
-**Carlisia Pinto:** This was fun, thanks Scott.
+**Carlisia Thompson:** This was fun, thanks Scott.

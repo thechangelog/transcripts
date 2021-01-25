@@ -16,7 +16,7 @@
 
 **Daniel Martí:** Hey. Happy to be back.
 
-**Mat Ryer:** Yeah, you're more than welcome. Thanks for joining us. I wonder if it's worth - very first, let's talk about this subject turns out to be quite an interesting subject... We do tend to kind of -- as developers, we're very focused on what's new, and new features... It's very exciting when there are new features in Go. We think about generics, and changes to the errors, and things... It's very exciting. But what's the value in taking things out of Go? Why would that be a worthwhile endeavor?
+**Mat Ryer:** Yeah, you're more than welcome. Thanks for joining us. I wonder if it's worth - very first, let's talk about why this subject turns out to be quite an interesting subject... We do tend to kind of -- as developers, we're very focused on what's new, and new features... It's very exciting when there are new features in Go. We think about generics, and changes to the errors, and things... It's very exciting. But what's the value in taking things out of Go? Why would that be a worthwhile endeavor?
 
 **Daniel Martí:** Well, I think a small language is on one side easier to learn, but on the other it's easier to read and maintain. It happened a lot years ago, before I did Go, that I would do C++ or Python, and a couple of years down the line I would write C++ or Python in a different way, because the language is so fast... And I would just not be able to read my own code. With Go, that doesn't happen nearly as often, because the Go code you write today is very similar to how you write Go in five years, or five years ago... For the most part.
 
@@ -26,7 +26,7 @@
 
 **Mat Ryer:** Right. So the gofmt stuff, the fact that all the code is formatted automatically by the tooling, means it kind of takes that conversation off the table, doesn't it?
 
-**Johnny Boursiquot:** Yeah. And I think anybody who's used a language with more features understands that when you have seven ways to do something, you're gonna have seven different people who all think that a different way is better.
+**Jon Calhoun:** Yeah. And I think anybody who's used a language with more features understands that when you have seven ways to do something, you're gonna have seven different people who all think that a different way is better.
 
 **Mat Ryer:** So that is interesting then, yeah... A smaller language tends to only have one way to do something, and that is quite a good goal for readability and for maintainability purposes... And also for learning. If you wanna know how to do something and you wanna figure that out, it's easier if there's only one way you can do it.
 
@@ -42,11 +42,11 @@ You should see the number of ways you can add arrays together in JavaScript, and
 
 **Mat Ryer:** Benchmark readability somehow in code...
 
-**Jon Calhoun:** Right.
+**Johnny Boursiquot:** Right.
 
 **Mat Ryer:** It's really interesting, because like you say, it is in some ways quite subjective. Certainly, if you were to measure how long it took for a developer to be able to go and fix something in a certain codebase, something like that, and then test that out, I could imagine some interesting results. But it'd be so dependent on that individual developer. But as far as API design goes, we probably can say that "Less is better/simpler" in the API surface. I mean, maybe not, because in some cases I could even imagine now saying that; I could imagine a case where adding a type really helps explain something, even though you may not have needed that type. So yeah, it is an interesting one.
 
-**Jon Calhoun:** Yeah, in some ways, some languages sort of embrace the notion of having very expressive ways of articulating your intent within a file, or within your project... Having different ways of -- basically, contextual ways of saying the same thing, but in this context using these keywords makes the code more readable by some definition; and in that context, something that does the exact same thing but using different keywords means more in that context.
+**Johnny Boursiquot:** Yeah, in some ways, some languages sort of embrace the notion of having very expressive ways of articulating your intent within a file, or within your project... Having different ways of -- basically, contextual ways of saying the same thing, but in this context using these keywords makes the code more readable by some definition; and in that context, something that does the exact same thing but using different keywords means more in that context.
 
 I think Ruby, for example, a language I'm familiar with, has those sets of attributes going for it. The same thing could be expressed in different ways, and Ruby's value is that expressiveness of the language.
 
@@ -112,7 +112,7 @@ What other pros? Is it just so that people can save key presses
 
 **Mat Ryer:** Yeah. I'm so convinced. Does anyone like .imports on here?
 
-**Johnny Boursiquot:** I like them for the very specific use case that they enable, despite the fact that I'd actually do not make use of the patterns that they enable. I mentioned DSLs before... If you want a great example of a DSL that leverages the .imports \[unintelligible 00:17:58.11\] It's a Go library for writing APIs, and things like that.. And it's a beautiful DSL that allows you that whole expressiveness thing we were talking about before; almost like you're writing prose, to build your APIs. It generates code for you, and all that stuff.
+**Johnny Boursiquot:** I like them for the very specific use case that they enable, despite the fact that I'd actually do not make use of the patterns that they enable. I mentioned DSLs before... If you want a great example of a DSL that leverages the .import capability look at \[unintelligible 00:17:58.11\] It's a Go library for writing APIs, and things like that.. And it's a beautiful DSL that allows you that whole expressiveness thing we were talking about before; almost like you're writing prose, to build your APIs. It generates code for you, and all that stuff.
 
 So it's a very good implementation, and it's something that leverages that .imports capability quite well. It just so happens that I don't use DSLs to write my APIs. So I'm not knocking it for that. It exists, it's a feature of the language, like other things I'm sure we're gonna come up with here... It's part of the language, and it enables certain use cases, it's just not a very common one.
 
@@ -130,7 +130,7 @@ Personally, if I see a .import, not in this particular Go use case, but if I see
 
 **Mat Ryer:** Yeah. And then I was gonna say the \_imports is another one that I feel could go on this list, because this is the one where you basically import the package, but you don't bring it into the package space so that you can use it. You can't refer to the package name and access it, or anything. It's done only to access the side effect of init, which on Twitter was a very popular option of something to remove, and definitely gets another one of my votes, init, which we're gonna be talking about in a minute.
 
-So yeah, these \_imports \[unintelligible 00:21:00.11\] and there's a few places in the standard library that does this. If you're doing image processing, you import the image package, and then to support JPEG and PNG and GIFs, you import different packages, but you don't do anything; you don't use those packages. They just register themselves in their own little init. So that's why we don't like it, is because its sort of magical side effect that you're just not expecting.
+So yeah, these \_imports - dead weird - and there's a few places in the standard library that does this. If you're doing image processing, you import the image package, and then to support JPEG and PNG and GIFs, you import different packages, but you don't do anything; you don't use those packages. They just register themselves in their own little init. So that's why we don't like it, is because its sort of magical side effect that you're just not expecting.
 
 **Daniel Martí:** So how would you implement?
 
@@ -188,7 +188,7 @@ But if you need to do anything slightly more computational to prepare or maybe d
 
 **Jon Calhoun:** I know there are, but... They've still gotta earn it by waiting. \[laughter\]
 
-**Mat Ryer:** Yeah, \[unintelligible 00:25:44.21\] I like Jon when he's brutal.
+**Mat Ryer:** Yeah, I like Jon when he's brutal.
 
 **Johnny Boursiquot:** I know, right?
 
@@ -198,7 +198,7 @@ But if you need to do anything slightly more computational to prepare or maybe d
 
 **Mat Ryer:** Okay, so what about some others? Anything else you feel like you would remove?
 
-**Jon Calhoun:** I can give one that's a little maybe more controversial... Because I feel like a lot of the ones we've had are -- we've all pretty much agreed with. One of the ones that I would get rid of is one-line if statements. So when you have something like \[unintelligible 00:28:12.22\] check the error.
+**Jon Calhoun:** I can give one that's a little maybe more controversial... Because I feel like a lot of the ones we've had are -- we've all pretty much agreed with. One of the ones that I would get rid of is one-line if statements. So when you have something like *if x, err = foo() ; err != nil {...}*.
 
 My reasoning for this is that I've found over time that -- there are a few good cases for one-line if statements; most notably, if you're just trying to see if something's in a map, or something like that, it can be useful... But why I generally dislike them is that most code that I find more readable sticks to the left; all the happy path is left-aligned... And when you're using one-line if statements, it pretty much forces you to break that.
 
@@ -230,7 +230,7 @@ So it's not that there aren't a couple of valid use cases for one-line if statem
 
 **Johnny Boursiquot:** \[laughs\]
 
-**Daniel Martí:** So I'm gonna say that you should prefer not to "pollute" the scope of your parent if you just wanna do something that's just for a few lines. For example, if instead of doing \[unintelligible 00:29:54.21\] that error variable is only scoped to the if or the else. So it's not leaking to the lines after the if statement has finished. So I feel like if you put it in the parent scope, there's more chance that you might make a mistake.
+**Daniel Martí:** So I'm gonna say that you should prefer not to "pollute" the scope of your parent if you just wanna do something that's just for a few lines. For example, if instead of doing *if x,err := foo()* that error variable is only scoped to the if or the else. So it's not leaking to the lines after the if statement has finished. So I feel like if you put it in the parent scope, there's more chance that you might make a mistake.
 
 **Mat Ryer:** Yeah, but as Jon said, if there is another value that you wanna get out, that is also only scoped to that block, right? So then you end up copying it out, or something else... Which is fine, but... Yeah. The alternative then is just to flatten the if, or to pull the expression out and have that happen first, and then you test with the if after. So yeah, it's a line you save with that little format.
 
@@ -238,7 +238,7 @@ Johnny Boursiquot, what do you think of those one-line if statements?
 
 **Johnny Boursiquot:** They don't bother me as much as they bother Jon...
 
-**Jon Calhoun:** They don't actually bother me that much... It's just something I've noticed where maybe it's just people who are new to the language are looking for a quicker way to write something, and I feel like they get overused in some ways... And then eventually they realize "Oh, this code would be easier if I pulled the actual function call \[unintelligible 00:31:03.12\] and then check the error statement afterwards." And after seeing enough code and refactoring enough code that had it, I just feel like my life would have been easier if I'd never used them in the first place.
+**Jon Calhoun:** They don't actually bother me that much... It's just something I've noticed where maybe it's just people who are new to the language are looking for a quicker way to write something, and I feel like they get overused in some ways... And then eventually they realize "Oh, this code would be easier if I pulled the actual function call out of the line and then check the error statement afterwards." And after seeing enough code and refactoring enough code that had it, I just feel like my life would have been easier if I'd never used them in the first place.
 
 **Mat Ryer:** Right, yeah. So you're just treating this episode basically like therapy for you...
 
@@ -284,7 +284,7 @@ One thing this has against it is it rubs a little bit against that philosophy of
 
 **Jon Calhoun:** A naked return is when you name those, and then inside of your function you don't have to declare those variables; they're already declared because of the way you defined the function, and you can just write the word "return" and those variables will be the ones returned for those values.
 
-So rather than saying \[unintelligible 00:33:41.08\] and then at the end just write "return", and it would return that error.
+So rather than saying *return nil, errors.New("...")*  you can just say *err = errors.New("...")* and then at the end just write "return", and it would return that error.
 
 **Mat Ryer:** Right. Yes... So naming the return arguments - I just don't do that. I've seen some code that does it, and I can see why... And in some cases they've even saved an allocation by doing it, because they need a type anyway to pass into something else... So it gets clever, but I like to just be explicit. If you've got a couple of strings you're gonna return, and you wanna be clear about what it is, I'd probably pop that in a struct.
 
@@ -304,7 +304,7 @@ So rather than saying \[unintelligible 00:33:41.08\] and then at the end just wr
 
 **Mat Ryer:** Does anyone wanna make a case for keeping naked returns, or named return arguments?
 
-**Jon Calhoun:** Is it possible to do -- like, when you're recovering from a panic, I know you use named returns... But once you're inside the deferred block, do you have to use a naked return there, or can you -- I don't actually know what that looks like. I know you can say \[unintelligible 00:35:37.28\] and that should work, but I think you still have to assign the error. I'm not positive though.
+**Jon Calhoun:** Is it possible to do -- like, when you're recovering from a panic, I know you use named returns... But once you're inside the deferred block, do you have to use a naked return there, or can you -- I don't actually know what that looks like. I know you can say *return nil, err* and that should work, but I think you still have to assign the error. I'm not positive though.
 
 **Daniel Martí:** Well, that deferred function returns nothing...
 
@@ -328,7 +328,7 @@ So rather than saying \[unintelligible 00:33:41.08\] and then at the end just wr
 
 **Jon Calhoun:** I feel like that should be Bill's next project.
 
-**Daniel Martí:** So who wants to \[unintelligible 00:36:55.12\]
+**Daniel Martí:** So who wants to die in that hell?
 
 **Mat Ryer:** When would you use that? If you want them, type them in.
 
@@ -366,7 +366,7 @@ So rather than saying \[unintelligible 00:33:41.08\] and then at the end just wr
 
 **Mat Ryer:** Yeah. So for anyone not familiar, Go does have goto... If you wanna listen back to Johnny's pun earlier - it's actually a double-pun... Because it had the word go in it, and goto. Yeah, they were responsible for spaghetti code, essentially... Because that's how you used to write code in BASIC. You'd have line IDs, like 10, 20, 30, and then the code was on those lines... They went up in tens, by the way, so that you could insert other instructions between them...
 
-**Johnny Boursiquot:** \[unintelligible 00:38:50.21\]
+**Johnny Boursiquot:** Later on...
 
 **Mat Ryer:** Yeah. Because you've already put your number in, so it's too late... I don't know when they came up with dynamic line numbers, but that changed the world, let me tell ya... And then they would use goto to jump around the flow. And in some languages they didn't have functions, and subroutines, and things, which do that, basically; that's what they're doing. But they do it for you in a kind of safe way, and you declare the ins and outs to that.
 
@@ -406,7 +406,7 @@ But labels allow you to break a particular loop, which is kind of strange... But
 
 **Mat Ryer:** Yeah, I think the listeners should take this show with a pinch of salt. We're just discussing the thing that we would remove. Please feel free to use these. They are part of the language... But obviously, if you've got any sense, listen to what we're saying, because we've made all the mistakes. \[laughter\]
 
-**Jon Calhoun:** I guess a better way to put it would be if I was reviewing code and it has a label, I'd probably suggest a change.
+**Jon Calhoun:** I guess a better way to put it would be if I was reviewing code and it had a label, I'd probably suggest a change.
 
 **Mat Ryer:** You know what - I've definitely used it, but only in very specific cases where it's the clearest thing to do, which is literally you're saying in this case we're just gonna stop and break the whole thing... But you're in some other flow. But yeah, I mean - you can always rearchitect it to avoid these problems.
 
@@ -430,7 +430,7 @@ I will say one of my other arguments against labels is that they're so rare that
 
 And for someone like me, who doesn't use them very often - just because I don't use them very often doesn't mean it's bad, right? It just means that I don't typically use them. When I see that the first time, I'll scratch my head and be like 'Why are you doing that?" Then I take Jon's posture and I bring it into a pull request battle, and force you to take it out. \[laughs\]
 
-**Jon Calhoun:** One example I can give there is if you had three nested for loops, and the innermost one would continue to a label that's like below where the first one starts, so it's technically in the second one, I think at that point only the second for loop would be the one that gets continued... But I honestly don't know. So I'd me like "I need to run this code to actually figure out what it's doing at this point", which would kind of frustrate me.
+**Jon Calhoun:** One example I can give there is if you had three nested for loops, and the innermost one would continue to a label that's like below where the first one starts, so it's technically in the second one, I think at that point only the second for loop would be the one that gets continued... But I honestly don't know. So I'd be like "I need to run this code to actually figure out what it's doing at this point", which would kind of frustrate me.
 
 **Johnny Boursiquot:** You mean you don't run the code for every PR?
 
@@ -444,7 +444,7 @@ And for someone like me, who doesn't use them very often - just because I don't 
 
 **Mat Ryer:** Yeah.
 
-**Daniel Martí:** Actually, I kind of agree. I feel like \[unintelligible 00:45:30.21\] I would only ever do it just to jump over one parent, not more than one... Because the moment you jump over more than one, it gets confusing. So maybe you could replace labels for like break, actually; not this one, the parent... But only the direct parent.
+**Daniel Martí:** Actually, I kind of agree. I feel like *continue and break*. I would only ever do it just to jump over one parent, not more than one... Because the moment you jump over more than one, it gets confusing. So maybe you could replace labels for like break, actually; not this one, the parent... But only the direct parent.
 
 **Mat Ryer:** Yeah. Okay. We'll do that. Good one. And by the way, thank you, Daniel; when you were defending goto, you actually made three puns. You had Go in there, goto itself, and because you had two reasons... Two was the third pun.
 
@@ -460,9 +460,9 @@ And for someone like me, who doesn't use them very often - just because I don't 
 
 **Mat Ryer:** There you go, see? I did a talk at GothamGo called "Things in Go I'd never use", which was actually about this very subject, really talking about the same kinds of things... And another one that I talked about was else... And it gets quite a funny reaction, because it sounds like -- of course you need else; you're talking about doing something if this, and then if not, you need to do something else. But really, it was a point about the kind of line of sight thing, the guard and check, where you check errors early, and handle the edge cases in the indentation, and leave - as Jon mentioned earlier - that happy path down the left.
 
-So else is an interesting one... And if you find yourself with a big else block, and big if else blocks, one trick is you can flip the logic in the if. So if you're saying like "if do something", if you flip that "If do something" into "if not, do something", and then handle the else case in there, then you can get back out into the main path. it's essentially the same thing, it's just kind of a writing style.
+So *else* is an interesting one... And if you find yourself with a big else block, and big if else blocks, one trick is you can flip the logic in the if. So if you're saying like "if do something", if you flip that "If do something" into "if not, do something", and then handle the else case in there, then you can get back out into the main path. it's essentially the same thing, it's just kind of a writing style.
 
-Do you use else a lot, you three? Johnny, how many times have you used else this week, in the last seven days?
+Do you use *else* a lot, you three? Johnny, how many times have you used *else* this week, in the last seven days?
 
 **Johnny Boursiquot:** Zero. I can probably -- well, I've been using it before...
 
@@ -478,7 +478,7 @@ Again, it's part of the language; that doesn't mean you should avoid using it, a
 
 **Break:** \[00:48:25.26\]
 
-**Mat Ryer:** So this is quite a simple thing if you're new to writing Go; that is a little cognitive check just to do. There are definitely case where the clearest thing is just a kind of five or six-line "if this, then set something else". Sometimes that logic is exactly what you need. But yeah, what happens if you don't protect against that, of course is - once you have 2-3 of these in a function, you really are nesting quite deep, and you're wasting a lot of tabs there. You don't need that many tabs in your code... It's a waste, so \[unintelligible 00:50:13.25\]
+**Mat Ryer:** So this is quite a simple thing if you're new to writing Go; that is a little cognitive check just to do. There are definitely cases where the clearest thing is just a kind of five or six-line "if this, then set something else". Sometimes that logic is exactly what you need. But yeah, what happens if you don't protect against that, of course is - once you have 2-3 of these in a function, you really are nesting quite deep, and you're wasting a lot of tabs there. You don't need that many tabs in your code... It's a waste, so \[unintelligible 00:50:13.25\]
 
 **Jon Calhoun:** Mat says that's too many bytes.
 
@@ -558,7 +558,7 @@ If I'm writing all the code, so I control both the function that's returning som
 
 **Daniel Martí:** Yeah. I think if your target platform is only Linux, or Linux and Mac, I think it's fine. But if it has to be portable or easy to use for essentially any Go user or any user in general, I think it's just not an option at all.
 
-**Johnny Boursiquot:** Yeah, I think I'm in the same boat here. The idea of it was it had a lot of promise; the fact that you can't swap plugins at runtime, for example, that seems like a big missed opportunity. I think it's an unfinished capability... But if it's unfinished, that also means that it could be finished and made to be more robust. Lots of \[unintelligible 00:56:11.12\] It could be made more robust.
+**Johnny Boursiquot:** Yeah, I think I'm in the same boat here. The idea of it was it had a lot of promise; the fact that you can't swap plugins at runtime, for example, that seems like a big missed opportunity. I think it's an unfinished capability... But if it's unfinished, that also means that it could be finished and made to be more robust. Lots of honking... It could be made more robust.
 
 I think the fact that not a lot of people are using it -- I'm wondering if it's because it's not good enough yet... Is it a chicken or the egg problem? Is it they're not using it because it's not good enough? If it was finished, would they start using it, and thereby would Plugins become popular? It's kind of hard to tell.
 
@@ -584,7 +584,7 @@ So if I could back and redo things, I think I would suggest "Let's not put this 
 
 **Daniel Martí:** And incompatible...
 
-**Mat Ryer:** Yeah, but it'd be nice if there was a -- at least for the most common ones, that there were proper ways to do it. A bit like how we have maps in Go.
+**Mat Ryer:** Yeah, but it'd be nice if there was a -- at least for the more common ones, that there were proper ways to do it. A bit like how we have maps in Go.
 
 **Jon Calhoun:** Yeah. It probably depends... The harder part there is how do you decide which ones are the more common ones? Which ones deserve to be in the standard library? I mean, you could make the argument that List, Heap and Ring are all in the standard library now, so those ones are important enough... But still, it's -- I don't know.
 
@@ -598,7 +598,7 @@ Okay, it's that time... We're running a little late, but if you'll bear with us 
 
 **Mat Ryer:** So, any unpopular -- I mean, I feel like this has been a kind of episode of unpopular opinions... But are there any particular unpopular opinions you would like to get off your chest?
 
-**Daniel Martí:** I've got one, and I'm not sure how I feel about it... I think Go as a language is making a mistake by investing so much into generics... Because they're putting a bunch of very smart people for years and years into generics, how to design them and how to implement them... And if instead you've invested those resources in improving the compiler's support of interfaces, with changes like the one we discussed for 1.16, I think it you covered the common use cases of interfaces and made them faster, I think a lot of these use cases for generics would go away.
+**Daniel Martí:** I've got one, and I'm not sure how I feel about it... I think Go as a language is making a mistake by investing so much into generics... Because they're putting a bunch of very smart people for years and years into generics, how to design them and how to implement them... And if instead you've invested those resources in improving the compiler's support of interfaces, with changes like the one we discussed for 1.16, I think if you covered the common use cases of interfaces and made them faster, I think a lot of these use cases for generics would go away.
 
 **Mat Ryer:** That's an interesting one. Is that popular or unpopular? Johnny, what do you think? What's your immediate reaction? If you had to give an immediate reaction to that, what would you do? What would it be?
 
@@ -612,7 +612,7 @@ So over the years I've gotten used to it, and I got into the camp of "Oh, we don
 
 So if we don't get generics for another year or two, I'm fine with that. If we get them within the next year or two - yeah, I'll use them. I'll probably be very conservative in how often and how much I use them... But again, like goto, and labels, and all these things - they have their place, and when I see them, I'm like "You know what, this would make an excellent use case for having a generic type here", or something like that.
 
-For me personally, that's sort of been my evolution as an engineer - basically, knowing/living that "Well, it depends..." I used to hate it when people said that, but I've learned over the years that yes, it does depends; your use case is gonna drive which way you go.
+For me personally, that's sort of been my evolution as an engineer - basically, knowing/living that "Well, it depends..." I used to hate it when people said that, but I've learned over the years that yes, it does depend; your use case is gonna drive which way you go.
 
 **Jon Calhoun:** I have a question related to that, I guess... Are you more -- is your unpopular opinion that not as much time should have been put into it, and they should have just picked something and went with it, or is it that generics are coming to Go itself, or a combination of both?
 

@@ -2,11 +2,11 @@
 
 Joining me today - Jaana B. Dogan. Hello, Jaana. Welcome back!
 
-**Jaana B. Dogan (JBD):** Hello! Hi!
+**Jaana Dogan:** Hello! Hi!
 
 **Mat Ryer:** How are you doing?
 
-**Jaana B. Dogan (JBD):** Good. What about you?
+**Jaana Dogan:** Good. What about you?
 
 **Mat Ryer:** Good, thanks. I'm excited, because we've got a couple of guests who know a considerable amount about AI, as you'll find out... It's Daniel Whitenack. Hello, Daniel.
 
@@ -52,7 +52,7 @@ There's kind of a numerable of these structures within a function that can be pa
 
 **Mat Ryer:** Wow.
 
-**Jaana B. Dogan (JBD):** You mentioned a couple of times about machine learning... I wonder what is the difference between AI and machine learning nowadays. Because when I was a college student, we had a machine learning class, and they were trying to explain to us, you know, historically, this area started with AI, but then it became more about machine learning and pattern recognition... And they were trying to almost distance themselves from AI or that terminology, but now everything seems to be under the AI umbrella again.
+**Jaana Dogan:** You mentioned a couple of times about machine learning... I wonder what is the difference between AI and machine learning nowadays. Because when I was a college student, we had a machine learning class, and they were trying to explain to us, you know, historically, this area started with AI, but then it became more about machine learning and pattern recognition... And they were trying to almost distance themselves from AI or that terminology, but now everything seems to be under the AI umbrella again.
 
 **Daniel Whitenack:** That's a great question. I'm gonna let Miriah take this one, because I wanna avoid it as much as possible.
 
@@ -60,7 +60,7 @@ There's kind of a numerable of these structures within a function that can be pa
 
 So AI, I think, is more of just the marketable name; any kind of learned or statistical process. And machine learning is what we determine to be the actual computational training or method behind that sellable AI.
 
-**Jaana B. Dogan (JBD):** That clarifies a lot of things for me, thanks.
+**Jaana Dogan:** That clarifies a lot of things for me, thanks.
 
 **Daniel Whitenack:** Yeah, that's excellent. That's a tricky question, because if you ask it at some AI conference, you'll get as many answers. It's kind of one of those, and various people are opinionated about it in various ways.
 
@@ -80,13 +80,13 @@ If you have just one if statement, then it's gonna be fairly quick to parameteri
 
 At the same time, we've seen various tricks that allow you to adapt or fine-tune models, and not always start from scratch with your training process... Which has been one of the reasons why things are moving so quickly - there's this kind of idea of piggy-backing off of other's work. Google might have trained already on 200 terabytes of data, and you're just fine-tuning to a particular problem, so you don't need as much.
 
-**Jaana B. Dogan (JBD):** It's really interesting, one definition of machine learning back in the day -- I had a friend who decided to define it in a way that if you can't write the function, you just basically brute-force it, which really resembles what you're describing. If it's an easy function, you also have an easier option to maybe write it down yourself, if it's just one if, or whatever... But as soon as it's becoming more complicated \[unintelligible 00:11:53.16\] so the training phase is also getting more complicated.
+**Jaana Dogan:** It's really interesting, one definition of machine learning back in the day -- I had a friend who decided to define it in a way that if you can't write the function, you just basically brute-force it, which really resembles what you're describing. If it's an easy function, you also have an easier option to maybe write it down yourself, if it's just one if, or whatever... But as soon as it's becoming more complicated \[unintelligible 00:11:53.16\] so the training phase is also getting more complicated.
 
 **Daniel Whitenack:** \[00:12:02.02\] Yeah, I totally agree with that. One of the things - and Miriah did a great job at describing the umbrella term of AI, but one of the main shifts we've seen in recent years is a shift towards neural networks, which if you think about what's happening there, if you have something like logistic regression, which is based on a simple formula, or different regressions, or maybe time series models that have to do with something with seasonality, and things that have some connection to reality (the model is based on some expert knowledge of how reality behaves), well that requires expert input into how you form this function.
 
 Whereas in recent times, the really interesting thing has happened where with these larger neural networks there's enough complexity in the neural network, there's enough parameters that you could essentially model any sort of relationship between your input and output, if you had enough data. So now we no longer have to rely on expert input as much in defining the function, we just kind of have a big function and a lot of data, and that allows us to do really interesting things. I'm not a linguist, but I can train a machine translation model, and know nothing about the two languages involved. That's pretty extraordinary.
 
-**Jaana B. Dogan (JBD):** Is this why they say they don't understand what's going on in that black box anymore? Because it's all magic.
+**Jaana Dogan:** Is this why they say they don't understand what's going on in that black box anymore? Because it's all magic.
 
 **Daniel Whitenack:** Yeah. I mean, at the end of the day, it's all code... But it isn't very interpretable code, let's say.
 
@@ -116,11 +116,11 @@ Say you have a whole bunch of different zoo animals and you have discovered that
 
 **Daniel Whitenack:** \[00:20:25.09\] The example that I like to think of with this is if you train the models used in a self-driving car - let's say in Sweden, or somewhere - it's probably going to be pretty good in snow, and maybe certain types of environments. But if you say "Oh, now we've solved the self-driving car problem", and we ship this thing over to Australia - well, the first kangaroo that runs across the road, you're gonna crash your car and there's gonna be some catastrophic event. Your target environment definitely influences how you construct that data to train your models.
 
-**Jaana B. Dogan (JBD):** It's really interesting, because people have been saying that training is revealing some of the biases in the data that they have never seen before...
+**Jaana Dogan:** It's really interesting, because people have been saying that training is revealing some of the biases in the data that they have never seen before...
 
 **Daniel Whitenack:** Yeah, definitely.
 
-**Jaana B. Dogan (JBD):** ...which makes me also maybe ask more about "How do you evaluate the results?" We talked about testing, about the testing table, but you know, the actual evaluation is more complicated than that. What goes into evaluation?
+**Jaana Dogan:** ...which makes me also maybe ask more about "How do you evaluate the results?" We talked about testing, about the testing table, but you know, the actual evaluation is more complicated than that. What goes into evaluation?
 
 **Daniel Whitenack:** Yeah, that's a great question, and the answer is kind of disappointing, in that it sort of depends on the problem that you're solving. There's a lot of metrics that are used though that are geared towards certain problems. Most of the time, what you do is you say "Oh, I'm doing a machine translation problem" or "I'm doing an object recognition problem" or "I'm doing a time series forecasting problem" - what are the metrics that have been used to evaluate these? With object recognition you might look at something like accuracy, or precision, or recall. All of these have to do with false positives, and true positives, false negatives and true negatives, and how you balance those. In a fraud detection case you might really want to get all of the true positives, even if you get some false positives mixed in there. But that might not be what you want in another case, right?
 
@@ -142,7 +142,7 @@ I feel like there's a lot of community support that's lacking in maintaining the
 
 **Miriah Peterson:** There are tons -- PyData, NumPy, and there's a couple other organizations that support the open-sourcing of these mathematical libraries and these data science libraries, and they're paying for people to work on them full-time. When you do that, there's just a natural stability that people feel secure about when they're using it. That's not quite there for Go, and I'm not gonna ask the Go team to take over our mathematical libraries and the data science stuff. I don't think that's their goal. I think we as a community have a ton of people using Go, and I think we have a need to start putting machine learning in our systems that we already have written in Go... So we just have to start using what's there and supporting the great tools that we have. We have a ton of great tools and libraries, they just need more support and more use.
 
-**Jaana B. Dogan (JBD):** I always had this impression that there's nothing much out there, so maybe it could be more of a knowledge share problem. Is there a way good way to understand what is the current state of things? Is there a requisitory that just captures what is out there?
+**Jaana Dogan:** I always had this impression that there's nothing much out there, so maybe it could be more of a knowledge share problem. Is there a way good way to understand what is the current state of things? Is there a requisitory that just captures what is out there?
 
 **Daniel Whitenack:** \[00:27:59.04\] There are a few... One of the great resources that people don't know about - there's a data science channel in GopherSlack, which if you're looking for anything, that's probably the quickest answer that you're gonna get, because people are very active there.
 
@@ -160,7 +160,7 @@ The other thing I'll mention is, you know, as Mat said, Python has its strengths
 
 **Daniel Whitenack:** Exactly. Now when the software engineers come to them and they say "Oh, we wanna integrate this in our API layer", then all of a sudden there's a complete breakdown. So you have this really interesting thing where it's really easy to onboard into Python and do something quickly, it's really hard to productionize that stuff. It's getting a little bit better, but generally there's a lot of blockers there... Whereas if you can wrap things in your Go API and integrate things in that way, there's natural strengths there, there's a lot of great advantages there, and a great community around that... So there is a balance there.
 
-**Jaana B. Dogan (JBD):** Do you see any rewrites to Go? People might be experimenting with Python and then maybe if it's possible to achieve the same thing with Go - are they rewriting it when they are productionizing it?
+**Jaana Dogan:** Do you see any rewrites to Go? People might be experimenting with Python and then maybe if it's possible to achieve the same thing with Go - are they rewriting it when they are productionizing it?
 
 **Daniel Whitenack:** I definitely have seen a lot of people do training in Python, and then inference in Go. That seems to be a fairly common pattern. Inference - what I mean is you've trained the model and now you're utilizing it to make predictions... And if you think about what you're doing with that, it's the same thing you would do with any handler in an API, or another application; you're just sending data in, processing it with a thing, and taking data out... And that can be integrated in all the standard ways with how Go operates.
 
@@ -180,7 +180,7 @@ I think the bigger issue is there's just different thought processes, and we hav
 
 **Mat Ryer:** Fair enough.
 
-**Jaana B. Dogan (JBD):** Is there any other language features that makes Go a better language for this type of job?
+**Jaana Dogan:** Is there any other language features that makes Go a better language for this type of job?
 
 **Daniel Whitenack:** That's a great question. I find that Python, in the sense that -- like, people say it's very readable, but in the sort of Bill Kennedy way of describing what readability is, would be very not readable. When you're doing this sort of operation and something goes wrong, with Python the stack traces, like -- I've been running some experiments recently, and some of these errors in the stack traces I'm getting out are just so hard to deal with, because I have no idea what's going on under the hood, or at least where to trace things back to...
 
@@ -230,7 +230,7 @@ What we do is we really leverage things like "Oh, well there's a lot of data for
 
 **Break:** \[00:41:57.05\]
 
-**Jaana B. Dogan (JBD):** We talked a lot about fine-tuning and tweaking things... Is this like you are tweaking the model primarily, or would you rather try to have a layer on top of that model to maybe eliminate some cases, or gather some more information about the incoming data, maybe pass things to different models, and so on? I've seen different approaches when it comes to composing different solutions... What's your opinion on this?
+**Jaana Dogan:** We talked a lot about fine-tuning and tweaking things... Is this like you are tweaking the model primarily, or would you rather try to have a layer on top of that model to maybe eliminate some cases, or gather some more information about the incoming data, maybe pass things to different models, and so on? I've seen different approaches when it comes to composing different solutions... What's your opinion on this?
 
 **Daniel Whitenack:** It really depends on if you want to do the same task, but for different data, or if you want to do a slightly different task. If you want to recognize -- I don't know, what's close to a cat? Miriah said lemurs are close; I'm not totally sure if that's true...
 
@@ -308,11 +308,11 @@ Well, I think, Daniel, you jumped the shark a little, but it's time for our regu
 
 **Mat Ryer:** Okay. That's the second one you got me on... \[laughter\] That's water-tight, legally, so I can't argue with that one, Miriah. Jaana, have you got an unpopular opinion these days?
 
-**Jaana B. Dogan (JBD):** On this topic?
+**Jaana Dogan:** On this topic?
 
 **Mat Ryer:** Anything.
 
-**Jaana B. Dogan (JBD):** I'm just too under-qualified for this show.
+**Jaana Dogan:** I'm just too under-qualified for this show.
 
 **Mat Ryer:** Oh, well... No, not at all.
 
@@ -368,7 +368,7 @@ So I would say if you're wanting to run machine learning/AI pipelines at scale, 
 
 **Mat Ryer:** Yeah, maybe.
 
-**Jaana B. Dogan (JBD):** \[laughs\]
+**Jaana Dogan:** \[laughs\]
 
 **Mat Ryer:** Yeah. And definitely JavaScript.
 
@@ -382,11 +382,11 @@ So I would say if you're wanting to run machine learning/AI pipelines at scale, 
 
 **Daniel Whitenack:** Nice.
 
-**Jaana B. Dogan (JBD):** But we're still live, um...
+**Jaana Dogan:** But we're still live, um...
 
 **Mat Ryer:** Miriah, now you can say whatever you like.
 
-**Jaana B. Dogan (JBD):** We're still live.
+**Jaana Dogan:** We're still live.
 
 **Mat Ryer:** Yeah, that's true. We're still live.
 
@@ -428,11 +428,11 @@ So I would say if you're wanting to run machine learning/AI pipelines at scale, 
 
 **Mat Ryer:** Perfect.
 
-**Jaana B. Dogan (JBD):** What is the website?
+**Jaana Dogan:** What is the website?
 
 **Miriah Peterson:** GoWestConf.com.
 
-**Jaana B. Dogan (JBD):** Okay.
+**Jaana Dogan:** Okay.
 
 **Mat Ryer:** Great. And if the editors are listening - which they're not - they'll put that into the show.
 

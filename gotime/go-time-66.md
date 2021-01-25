@@ -1,6 +1,6 @@
 **Erik St. Martin:** Welcome back, everybody, to another episode of GoTime. Today's episode is number 66. On the show today we have myself, Erik St. Martin, we have Carlisia Pinto here...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And Brian Ketelsen...
 
@@ -14,7 +14,7 @@
 
 **Erik St. Martin:** I think so...
 
-**Carlisia Pinto:** No...
+**Carlisia Thompson:** No...
 
 **Brian Ketelsen:** I can't -- I'm trying to think of somebody, but I can't think of anybody... It feels like I should know somebody that works at Fastly.
 
@@ -34,7 +34,7 @@ So I got a bunch of resources and started writing up a little bit of things, my 
 
 I ended my GitHub streak before I moved from Amsterdam to Vancouver, just to give myself a little bit more time, and now I'm thinking "Well, maybe I will spend 2018 working on this performance book." So that's kind of where a lot of my free time has been going. I'm up to like 5,000 or something and I haven't actually even gotten to any of the Go-specific optimization stuff... Just all my other thoughts about performance and optimization and all that stuff that is really appliccable to anything that you're building and want to make fast. So that's with the history of this perf book thing...
 
-**Carlisia Pinto:** So your thoughts on performance - do they come from you exploring and experimenting, or they come from experience with a previous production-level application or a combination...? I just wanted you to talk about this, because I'm thinking "Why would people be motivated to explore different ways of measuring performance?", or is it not even a worthwhile endeavor and they should maybe (for example) just read a book or look for what's out there? How should people approach that? To get to answer that question I guess I'm trying to assess how you approach going into this.
+**Carlisia Thompson:** So your thoughts on performance - do they come from you exploring and experimenting, or they come from experience with a previous production-level application or a combination...? I just wanted you to talk about this, because I'm thinking "Why would people be motivated to explore different ways of measuring performance?", or is it not even a worthwhile endeavor and they should maybe (for example) just read a book or look for what's out there? How should people approach that? To get to answer that question I guess I'm trying to assess how you approach going into this.
 
 **Damian Gryski:** One of the things that I enjoy doing is obviously reading computer science research, and most of that is "Here's a better algorithm for doing this thing", and exactly how you measure better varies - sometimes they are faster, sometimes they are more accurate, sometimes they use less memory... The question is how do you apply that and how do you actually determine if this is a worthwhile paper not just from a theoretical standpoint, but actually from a practitioner standpoint... The way I actually want to implement this and put this into production. So I think my interest in performance really comes from wanting to apply computer science research in a way that makes sense.
 
@@ -60,17 +60,17 @@ So it's really a very small amount of people that actually need to focus 100% on
 
 **Brian Ketelsen:** It's gonna be a meme, I see it already.
 
-**Carlisia Pinto:** I can see using "...but also don't be dumb" a lot in so many different scenarios.
+**Carlisia Thompson:** I can see using "...but also don't be dumb" a lot in so many different scenarios.
 
 **Erik St. Martin:** So once you've kind of decided that you need to optimize something, what's your approach there to make sure that you're optimizing the right thing? Do you always profile first, or do you just kind of get a gut instinct about where the problem lies?
 
-**Carlisia Pinto:** Yeah, where do you even start?
+**Carlisia Thompson:** Yeah, where do you even start?
 
 **Damian Gryski:** So your gut instinct is always wrong...
 
 **Brian Ketelsen:** Yeah, that's the truth.
 
-**Carlisia Pinto:** Sorry, not mine. \[laughter\]
+**Carlisia Thompson:** Sorry, not mine. \[laughter\]
 
 **Damian Gryski:** And the really good thing about profiling first is that you don't have to worry about other people who are like "Oh, this is where your bottleneck is." You say, "Well, you know what? I'm dumb, I don't know where it is, so I'm gonna profile first." So the people who are too smart to profile - you can just ignore them.
 
@@ -81,7 +81,7 @@ So the whole point is you have to profile because your guesses are always wrong.
 **Damian Gryski:** But the profile will tell you where your bottlenecks are, and Amdahl's Law tells you to focus on the bottlenecks, because that really limits how fast your program can go. If my program is slow to start up, but that's only 2% of my application, if I make that twice as fast - great, well now that's 1% of my application, so that's 1% of my total runtime, which maybe isn't that big a thing.
 If I have a hot loop that profiling tells me "Here's this hot inner loop, and this is taking 80% of your runtime" - if you can make that only 10% faster, that's will end up being a much more significant chunk of the total runtime of your program, so that's where you should focus your efforts on, and I think that's the other advantage of profiling, because it says "If you speed up this thing here, this will make the biggest bang for the buck."
 
-**Carlisia Pinto:** \[00:16:02.26\] That's a very good point.
+**Carlisia Thompson:** \[00:16:02.26\] That's a very good point.
 
 **Erik St. Martin:** I forget where I heard it from, but somebody was saying about when you profile, something like "Focus on the biggest box first, and then everytime you make a box smaller, focus on the next biggest one."
 
@@ -93,7 +93,7 @@ So your program is doing either something that is not that slow a lot of times, 
 
 **Damian Gryski:** And this is where you get into things like batching. I don't wanna have to call into cgo every single time to do this, so I'm going to create an array of a hundred of these things and then pass them all into cgo, so I only cross that border once.
 
-**Carlisia Pinto:** In your book are you going to list strategies like that, too? Like, which strategies to handle - or even avoid - performance issues?
+**Carlisia Thompson:** In your book are you going to list strategies like that, too? Like, which strategies to handle - or even avoid - performance issues?
 
 **Damian Gryski:** Yes... So like I said, the goal at the moment is to take everything that I know about performance optimization and in-general strategies, and then I was gonna go into Go-specific things, like how to use pprof and the different profiles, and how to write benchmarks and how to read pprof output to know where it is you need to optimize... Stuff around processor-level fixes, so things around cache lines, and padding, and concurrent access -- like, if you have a lot of goroutines, sort of how to speed up accessing the same data structures, maybe branch predictions... So really kind of like low-level stuff that comes in. I was gonna go into garbage collection, minimizing allocations, escape analysis, and those kinds of things. Other things that show up when you profile, so instead of runtime calls, all the interface conversions back and forth, type assertions, defer the bounds check elimination... So those kinds of things.
 
@@ -107,7 +107,7 @@ I have stuff with unsafe. Unsafe is unsafe, but it can also be fast... Stuff wit
 
 **Brian Ketelsen:** I'm kind of hoping you'll complete it before I have to teach my next Go Performance class... Just FYI.
 
-**Carlisia Pinto:** Which is what, next month?
+**Carlisia Thompson:** Which is what, next month?
 
 **Brian Ketelsen:** Yeah, I don't know... Soon, probably.
 
@@ -239,7 +239,7 @@ Then Go-fuzz finds crashes, which means "I have found a case where the fast impl
 
 **Erik St. Martin:** I feel like I've missed a few of them, I need to binge-watch them.
 
-**Carlisia Pinto:** That might have to do with him being so amazing, but I'm not sure.
+**Carlisia Thompson:** That might have to do with him being so amazing, but I'm not sure.
 
 **Brian Ketelsen:** Possibly... I think that's a really good point.
 
@@ -257,11 +257,11 @@ Then Go-fuzz finds crashes, which means "I have found a case where the fast impl
 
 **Erik St. Martin:** How about you, Carlisia?
 
-**Carlisia Pinto:** I don't have anything today.
+**Carlisia Thompson:** I don't have anything today.
 
 **Brian Ketelsen:** Does that mean I can do two?
 
-**Carlisia Pinto:** Yeah, that's exactly what it means.
+**Carlisia Thompson:** Yeah, that's exactly what it means.
 
 **Erik St. Martin:** You can do three, because I've spent this whole week working on slides, so I haven't used a tool for one to kind of pop in my head right now.
 
@@ -293,6 +293,6 @@ So that's one... That one will be mine. And then for Erik, I would like to thank
 
 **Erik St. Martin:** Thank you to all of our listeners. You can find us at GoTime.fm. We are @GoTimeFM on Twitter. If you have suggestions for guests or topics or you wanna come on the show, you can file an issue on GitHub.com/gotimefm/ping. With that, goodbye everybody. We'll see you next week.
 
-**Carlisia Pinto:** Bye!
+**Carlisia Thompson:** Bye!
 
 **Brian Ketelsen:** Bye!

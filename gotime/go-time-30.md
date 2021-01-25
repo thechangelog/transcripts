@@ -1,6 +1,6 @@
 **Erik St. Martin:** Alright, welcome back everybody for another episode of GoTime. Today is episode \#30. Today's show is actually sponsored by StackImpact and Backtrace. On today's show - myself, Erik St. Martin, Carlisia Pinto is also here...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And Bill Kennedy is joining us, as well.
 
@@ -18,11 +18,11 @@ Any thoughts, anybody wanna kick off this conversation?
 
 **Johnny Boursiquot:** Well, I think it's good to start with the definition... We have to sort of understand the problem.
 
-**Carlisia Pinto:** I was just gonna say that.
+**Carlisia Thompson:** I was just gonna say that.
 
 **Johnny Boursiquot:** \[laughs\] See, we're thinking alike already.
 
-**Carlisia Pinto:** Yeah. Because I think sometimes maybe we mix up impostor syndrome, which can be a very debilitating thing, with just lack of confidence, which is a different thing. Also not good, but it's different.
+**Carlisia Thompson:** Yeah. Because I think sometimes maybe we mix up impostor syndrome, which can be a very debilitating thing, with just lack of confidence, which is a different thing. Also not good, but it's different.
 
 **Erik St. Martin:** I think it's hard though too, because I get into debates too, and if Brian were on the show, he'd call me on it too, because Brian's been beating that dead horse for years with me, to kind of get onto my own way. But I think that there can be a difference between confidence and insecurity and the effects that impostor syndrome has. Me personally, I'm pretty bad about it and everybody took years to convince me to speak publicly, and the only reason I agreed to do this show was kind of forcing myself to get out of my comfort zone.
 
@@ -56,7 +56,7 @@ People don't see that, right? They see the outward perspective, and you're analy
 
 Some people take years and years to master it, and to your point, to some people it just comes very naturally. But you have to detach those things. Your inability to deliver a great talk should not be coupled with what you know; you can't tie those things together in that way.
 
-**Carlisia Pinto:** Yeah, I wanted to touch on that point. Before that, we've never really defined what impostor syndrome is, and I wanted to read the entry on Wikipedia. It says here it's a concept describing high-achieving individuals who are marked by an inability to internalize their accomplishments and a persistent fear of being exposed as a fraud. To draw on this point, if you are going to speak at a conference and you don't have a ton of experience, then another thing too is that some people are not amazing speakers, but they are fine going up on the stage and doing their best; they're not gonna put in the time to become great speakers, they don't have it in them, but they speak well enough and they're fine.
+**Carlisia Thompson:** Yeah, I wanted to touch on that point. Before that, we've never really defined what impostor syndrome is, and I wanted to read the entry on Wikipedia. It says here it's a concept describing high-achieving individuals who are marked by an inability to internalize their accomplishments and a persistent fear of being exposed as a fraud. To draw on this point, if you are going to speak at a conference and you don't have a ton of experience, then another thing too is that some people are not amazing speakers, but they are fine going up on the stage and doing their best; they're not gonna put in the time to become great speakers, they don't have it in them, but they speak well enough and they're fine.
 
 I think I'm a little bit like that. After I spoke a couple times, I'm like "Okay, I can do this... No big deal." But I'm not a great speaker. It takes time and experience, and you have to practice.
 
@@ -64,7 +64,7 @@ I think I'm a little bit like that. After I spoke a couple times, I'm like "Okay
 
 **Johnny Boursiquot:** Exactly.
 
-**Carlisia Pinto:** Yeah, and some people practice a lot, and they are terrible. But some people just haven't had the experience and the chance of exposure, and I really wouldn't want these people to label themselves as having impostor syndrome. All that there is happening is that you just haven't been exposed to the experience yet, and that's very natural and normal and healthy for you to have that little bit of struggle. Take baby steps, do a meetup talk and then graduate to a conference talk. It's not impostor syndrome if you feel nervous about going to speak at a conference.
+**Carlisia Thompson:** Yeah, and some people practice a lot, and they are terrible. But some people just haven't had the experience and the chance of exposure, and I really wouldn't want these people to label themselves as having impostor syndrome. All that there is happening is that you just haven't been exposed to the experience yet, and that's very natural and normal and healthy for you to have that little bit of struggle. Take baby steps, do a meetup talk and then graduate to a conference talk. It's not impostor syndrome if you feel nervous about going to speak at a conference.
 
 **Johnny Boursiquot:** This is a nice tie-in into the whole meetup and sort of leveling up to a full conference with a larger audience. Those baby steps that you're talking about, you can take them within the context of a small audience. Your local Meetup group is a perfect place to do that, because it's a much smaller audience, chances are you already know a lot of these people, you go to the same Meetup every month... The comfort level there is gonna be much higher.
 
@@ -136,23 +136,23 @@ The other question, leading back to the whole autodidact thing - does anybody he
 
 **Erik St. Martin:** What about you, Carlisia?
 
-**Carlisia Pinto:** Same, my CS degree is a graduate degree.
+**Carlisia Thompson:** Same, my CS degree is a graduate degree.
 
 **Erik St. Martin:** So I'd like to hear the other side of it, because this is interesting. As somebody holding a degree, do you get similar feelings of insecurity when you're around somebody that appears to be - at least from an outside perspective - to have more knowledge than you, that did not go that route?
 
-**Carlisia Pinto:** I don't even have to be necessarily around somebody like that... Just being around myself. \[laughter\] Literally, every once in a while my confidence goes down to a level -- this happens once in a while, not all the time... Once in a while, my confidence just dips and I have to go on LinkedIn and look at everything that I've done, because that's what I forget. And I'm like, "Oh my gosh, I have a CS degree... It's a masters degree - that's amazing!" Then I pump myself up and like, "Wow, I've done this project and that project", and then I pump myself up.
+**Carlisia Thompson:** I don't even have to be necessarily around somebody like that... Just being around myself. \[laughter\] Literally, every once in a while my confidence goes down to a level -- this happens once in a while, not all the time... Once in a while, my confidence just dips and I have to go on LinkedIn and look at everything that I've done, because that's what I forget. And I'm like, "Oh my gosh, I have a CS degree... It's a masters degree - that's amazing!" Then I pump myself up and like, "Wow, I've done this project and that project", and then I pump myself up.
 
 I have to go and look at my resume multiple times a day for a few days to bring my confidence back... \[laughter\] Has anybody done that?
 
 **Erik St. Martin:** Look at your resume?
 
-**Carlisia Pinto:** Yeah, to pump yourself up!
+**Carlisia Thompson:** Yeah, to pump yourself up!
 
 **Erik St. Martin:** You're just like, "I wish I could be that person... If I was just as smart as that person..."
 
 **Johnny Boursiquot:** "I'm not a failure, I'm not a failure, I'm not a failure!"
 
-**Carlisia Pinto:** Exactly! I've done stuff, I'm not a failure, I can do things like these!
+**Carlisia Thompson:** Exactly! I've done stuff, I'm not a failure, I can do things like these!
 
 **Erik St. Martin:** I don't know, I think for me -- especially when we're talking about the validation, I feel like sometimes getting the validation makes me feel worse. I feel like almost like the whole impostor side of it, it's like "Oh, crap, it's gonna be worse when it's discovered I'm not as smart as that."
 
@@ -164,7 +164,7 @@ But speaking to the whole constantly reminding yourself aspect, I'll constantly 
 
 **Bill Kennedy:** I think what it helped is not the tech that I worked on 30 years ago, but the problem-solving aspects of it more than anything else.
 
-**Carlisia Pinto:** \[00:27:51.14\] That aspect is very relative, because for me it helped tremendously. I had to go to school and get that degree to be able to be a programmer. Because I'm a woman, I wasn't into gaming -- like I said before, I got into gaming and then got out quickly because I could be addicted to it... And none of my friends were programmers; I didn't have that environment. I wanted to program, but I didn't have a place to go and do it.
+**Carlisia Thompson:** \[00:27:51.14\] That aspect is very relative, because for me it helped tremendously. I had to go to school and get that degree to be able to be a programmer. Because I'm a woman, I wasn't into gaming -- like I said before, I got into gaming and then got out quickly because I could be addicted to it... And none of my friends were programmers; I didn't have that environment. I wanted to program, but I didn't have a place to go and do it.
 
 Now, some people have friends or they are on IRC or whatever, they found their niche and they get it from that environment. I think it is good to have a degree in general, because when you go to school it teaches you how to learn, more than anything. It also teaches you to handle a lot of demand in a tight timeline, because you have to deliver stuff in writing, you have to write a lot.
 
@@ -178,7 +178,7 @@ You kind of get trapped in these things, but there's also the other side, like i
 
 Speaking as a black man, I know that I didn't need a degree -- actually, I got my degree way late into my career, but I noticed certain things, certain subtleties... Until I got that computer science degree, it's almost like I wasn't legitimate in the eyes of some. I saw I needed to do that. So for some of us, it's not just a matter of getting it to help us with problem-solving and getting some fundamentals under our belt, it's a social barrier that we must cross to legitimize ourselves in the eyes of some.
 
-**Carlisia Pinto:** That's a very good point, that Johnny brought up. I actually wasn't even thinking about that... When I mentioned that for me as a woman it was good to go and get a degree, what I had in mind was, "Where else would I learn it?"
+**Carlisia Thompson:** That's a very good point, that Johnny brought up. I actually wasn't even thinking about that... When I mentioned that for me as a woman it was good to go and get a degree, what I had in mind was, "Where else would I learn it?"
 
 \[00:31:51.01\] My friends weren't doing it, they weren't even interested in computers; I didn't have that environment around me, so for me to get that, I needed to go somewhere "official". But now that you said that, I just wanna add... Pretty much the same thing you said - if I didn't have a degree and if I had learned on my own, it would be ten times harder for me to 1) get a job programming, and 2) get a good job programming.
 
@@ -204,7 +204,7 @@ But I think it also carries weight for us internally, too. You use it as your ow
 
 \[00:35:48.13\] I'm willing to bet for most of us it's the latter; there are some people who have much more stricter scales, but for the most part we just wanna learn something. It's probably unlikely that you're gonna get up in front of people and everybody in the room is gonna know everything that you're about to say to them.
 
-**Carlisia Pinto:** Let me say this - when I want to learn a subject, or want to learn a subject better, I get two or three books, at least, because I wanna have different takes on the subject. If I'm listening to a conference talk and that conference talk has material that was talked about at another conference, I still get a lot from it. It doesn't have to be brand new, shiny material. What I want the most is that person's take on the material.
+**Carlisia Thompson:** Let me say this - when I want to learn a subject, or want to learn a subject better, I get two or three books, at least, because I wanna have different takes on the subject. If I'm listening to a conference talk and that conference talk has material that was talked about at another conference, I still get a lot from it. It doesn't have to be brand new, shiny material. What I want the most is that person's take on the material.
 
 **Erik St. Martin:** Judd White in the GoTime FM channel brought up a good point, too... He said that he thinks the audience is often a lot more forgiving than you think. I think I would go out on a limb here and say that they're always more forgiving than you think. We like to put in our head that somehow our lives are going to come to an end as we know it if we mess up a line on stage, or our live demo doesn't work, or things like that.
 
@@ -264,7 +264,7 @@ I've been to Ruby conferences and talked to speakers about sports, and things li
 
 **Erik St. Martin:** How about you, Carlisia? Are you able to just kind of walk up to people, or do you have the same reservation?
 
-**Carlisia Pinto:** I guess it depends... I'm pretty good at walking up to people and just talking to people. For example, I was at GopherCon UK and I wanted to talk to Peter Bourgon, and he always had people around him. I'm like, "I don't have anything interesting to say to him. I'm sure those people have more interesting things to talk to him about", so I never got to talk to him. So it depends, I guess... If he was alone -- actually no, he was alone one time and I still didn't go... \[laughter\] Which is silly, because I talked to him on Slack every once in a while, but...
+**Carlisia Thompson:** I guess it depends... I'm pretty good at walking up to people and just talking to people. For example, I was at GopherCon UK and I wanted to talk to Peter Bourgon, and he always had people around him. I'm like, "I don't have anything interesting to say to him. I'm sure those people have more interesting things to talk to him about", so I never got to talk to him. So it depends, I guess... If he was alone -- actually no, he was alone one time and I still didn't go... \[laughter\] Which is silly, because I talked to him on Slack every once in a while, but...
 
 **Erik St. Martin:** I'm sorry Peter, because I'm about to get you swarmed, but if anybody wants to meet Peter and has not, and is kind of like fearful there, he is one of the most down to earth people I've ever met. Just a really nice guy, really interested in hearing what other people are working on.
 
@@ -272,13 +272,13 @@ If you see him at GopherCon this year, you should definitely walk up and talk to
 
 **Bill Kennedy:** I've got a question for the group, Erik. There are at least 20 people if not more listening to this podcast who probably would love to give a talk, but are hesitating, either because of this fear, or they don't feel like they have a topic, or several other things... So what do we tell these people to give them the confidence to try to put a proposal together to be part of - if not just GopherCon this year, but all the other conferences that will happen throughout the year?
 
-**Carlisia Pinto:** I have something to say. Giving a talk - any talk if you haven't given any talk, is terrifying. Now, I don't know how it will be for other people, but I will share my experience. The first time I ever gave a talk, I think it was at an internship I was doing, and every intern needed to give a presentation at the end of the internship. It was absolutely terrifying, because there were PhD's, my boss, my co-workers, who were real developers, and I'm just an intern, what do I know? And I had to give a presentation about a project I worked on. I was so nervous, but I had to do it. I would have backed out, but I had to do it; it was part of the deal. It was nerve-wracking.
+**Carlisia Thompson:** I have something to say. Giving a talk - any talk if you haven't given any talk, is terrifying. Now, I don't know how it will be for other people, but I will share my experience. The first time I ever gave a talk, I think it was at an internship I was doing, and every intern needed to give a presentation at the end of the internship. It was absolutely terrifying, because there were PhD's, my boss, my co-workers, who were real developers, and I'm just an intern, what do I know? And I had to give a presentation about a project I worked on. I was so nervous, but I had to do it. I would have backed out, but I had to do it; it was part of the deal. It was nerve-wracking.
 
 The second time I gave a talk, I don't even remember... It was like a third nerve-wracking. So it's not going to be nerve-wracking every single time. The first time is going to be terrifying, and then it's going to get a ton better - or maybe not, but the point is you need to do it. If you want to give talks - and not everybody needs to do it; it's not mandatory that you do it, but if you want to, find a meetup... Like we always say here, find a meetup, give the talk, or just find a few friends and get them on Hangouts and give the talk to them... Because the first time is really truly is going to be terrifying. Truly, it is. Now, it gets often better... That's what I have to share.
 
 **Johnny Boursiquot:** \[00:51:55.04\] It is a skill just like any other, and you get better at it by doing more of it. To use a now cliché term, "lean into it."
 
-**Carlisia Pinto:** You get better, but my point is... I gave a couple talks last year; I gave two lightning talks at GopherCon - one at GopherCon and one at the opening party, and then I gave a keynote talk at Golang UK. And I'm not super good, but I wasn't terrified, because I had given some talks before. So yes, I'm going to get better the more talks I give, but I'm talking about the terrifying scale. When you're terrified, you get paralyzed; you have to get over it, to the point where you're not paralyzed anymore. Then you can focus on getting better.
+**Carlisia Thompson:** You get better, but my point is... I gave a couple talks last year; I gave two lightning talks at GopherCon - one at GopherCon and one at the opening party, and then I gave a keynote talk at Golang UK. And I'm not super good, but I wasn't terrified, because I had given some talks before. So yes, I'm going to get better the more talks I give, but I'm talking about the terrifying scale. When you're terrified, you get paralyzed; you have to get over it, to the point where you're not paralyzed anymore. Then you can focus on getting better.
 
 **Erik St. Martin:** My thoughts and experiences mirror that, too. I had minimal speaking experience. I had done a couple meetups, things like that... I had done some training in a small group, 20 people, something like that. I had done I don't know how many episodes of this podcast by that point, and house notes and intros and stuff like that for a couple of GopherCons, but I was outright terrified. And the only reason I did it was because I convinced myself last year that I was going to, that I was going to submit. Kubernetes is a related group, but not directly my people, so I submitted to that conference, because it was also a project I was really excited and passionate about. But the whole process, I was terrified. It took everybody a while to convince me to actually submit, and then it got accepted and it was like, "Oh, crap... I wish it wouldn't have gotten accepted"... I could have just felt better that I submitted, right? Like, "Check! At least I submitted..."
 
@@ -298,7 +298,7 @@ On top of that, I challenge all organizers of conferences to help facilitate thi
 
 Another thing that we do - a lot of the people don't know... If you ever see myself, Brian Ketelsen and Dave Cheney leave a party early, usually it's because we're going back to a hotel room and letting some of the speakers do dry runs of their talks in a hotel room, and we kind of give advice, and stuff like that. I encourage people to do the same, help support your speakers. You want them to be successful, because you want them to go on and speak at other conferences. Let's help everybody grow together in that way.
 
-**Carlisia Pinto:** Yes, I want to +1 everything that Erik said and focus on the part of getting somebody to review your talk is essential. I wouldn't go without it if I were a beginner speaker. There are multiple dimensions to speaking on the stage. One is your preparation, the other one is your physical presence, the presentation of your person... There's a lot you can do in your preparation, and having somebody watch your talk and give you feedback is going to make your talk better, and it's also going to frame it in your head in a way that you wouldn't have -- you can go over it by yourself a million times, but you won't get it as well as you will if you have somebody giving you feedback and pointing things out.
+**Carlisia Thompson:** Yes, I want to +1 everything that Erik said and focus on the part of getting somebody to review your talk is essential. I wouldn't go without it if I were a beginner speaker. There are multiple dimensions to speaking on the stage. One is your preparation, the other one is your physical presence, the presentation of your person... There's a lot you can do in your preparation, and having somebody watch your talk and give you feedback is going to make your talk better, and it's also going to frame it in your head in a way that you wouldn't have -- you can go over it by yourself a million times, but you won't get it as well as you will if you have somebody giving you feedback and pointing things out.
 
 Just the fact of getting that other person's presence and the feedback will help you frame it in your head, the talk. This is true for me, but I think it's also true for most people.
 
@@ -316,7 +316,7 @@ I think we can all frame things and bring in interesting views and teach people 
 
 Same thing here - I think some of the best episodes on this show are when people bleed a little bit of themselves into the show, they let people in on a personal level a little bit, whether that's through humor, or just kind of deep sharing of their feelings and stuff like that - that's the stuff people really cling to.
 
-**Carlisia Pinto:** I agree. And circling back to the topic of preparation, I think it was said by somebody here, there are so many people in the community who are totally willing to help. If you can't find somebody, ping somebody - one of us, or anybody - because you'll be lead to somebody who can help you with preparing or presenting a conference talk. There's a lot of material on the internet, too. I wanted to mention that GoBridge has a repo with guidelines for putting together a talk, and Bill Kennedy is very willing to help, and I'm saying this with his permission.
+**Carlisia Thompson:** I agree. And circling back to the topic of preparation, I think it was said by somebody here, there are so many people in the community who are totally willing to help. If you can't find somebody, ping somebody - one of us, or anybody - because you'll be lead to somebody who can help you with preparing or presenting a conference talk. There's a lot of material on the internet, too. I wanted to mention that GoBridge has a repo with guidelines for putting together a talk, and Bill Kennedy is very willing to help, and I'm saying this with his permission.
 
 **Johnny Boursiquot:** He already announced that himself, so you're in the clear. \[laughter\]
 
@@ -340,21 +340,21 @@ Let's start to accept that maybe we've built false perceptions of people and we'
 
 **Bill Kennedy:** Oh my god!
 
-**Carlisia Pinto:** It doesn't work like that.
+**Carlisia Thompson:** It doesn't work like that.
 
 **Erik St. Martin:** Just me? \[laughs\]
 
-**Carlisia Pinto:** On the same note, if you watch a conference talk on YouTube, remember to give it a thumbs up. It's nice for the speaker when they go look at their video and there's a bunch of thumbs up. If you like it, of course.
+**Carlisia Thompson:** On the same note, if you watch a conference talk on YouTube, remember to give it a thumbs up. It's nice for the speaker when they go look at their video and there's a bunch of thumbs up. If you like it, of course.
 
 **Erik St. Martin:** That's true too I guess in the same spirit of the Free Software Friday. Let people know.
 
-**Carlisia Pinto:** Yeah, I have to make it a point... I forget. I watch so many YouTube videos and I forget, and I have to make a point to remember to give a thumbs up.
+**Carlisia Thompson:** Yeah, I have to make it a point... I forget. I watch so many YouTube videos and I forget, and I have to make a point to remember to give a thumbs up.
 
 **Erik St. Martin:** I have a bookmark open here and I totally forgot to talk about it when we were talking about the self-taught and autodidact thing. There's a book by a gentleman named Rob Conery and it is called The Imposter's Handbook. I haven't read the whole thing, I'll be honest there... But I've read parts of it and it's actually really cool.
 
 It's coming from the perspective like, if you're self-taught and you don't have the formal CS degree, and you feel inadequate when people talk big-O notation, or lambdas or P vs. NP and all that stuff. That's the frame of mind this book comes from, and it's actually really cool.
 
-**Carlisia Pinto:** Do you have a link?
+**Carlisia Thompson:** Do you have a link?
 
 **Erik St. Martin:** Yeah, I'll grab that.
 
@@ -364,19 +364,19 @@ It's coming from the perspective like, if you're self-taught and you don't have 
 
 I remember the first time that I had to tell a colleague when he was writing a formal proof for something, and he wrote some calculus down and I had to admit that I didn't know what the weird-looking E was. \[laughter\] The summation...
 
-**Carlisia Pinto:** \[01:07:54.18\] That's why impostor syndrome is very serious. We all have confidence issues. On a good day we might not have any, on a bad day we might have a lot, but impostor syndrome is paralyzing, and when you have it, it makes it really hard for you to learn new things. Because you look at something and you just go, "Oh, I can't possibly learn this. This looks hard and I feel incapable." It's important to identify if you have impostor syndrome, so you develop some mechanism to get rid of it or minimize it so you can move on and learn things.
+**Carlisia Thompson:** \[01:07:54.18\] That's why impostor syndrome is very serious. We all have confidence issues. On a good day we might not have any, on a bad day we might have a lot, but impostor syndrome is paralyzing, and when you have it, it makes it really hard for you to learn new things. Because you look at something and you just go, "Oh, I can't possibly learn this. This looks hard and I feel incapable." It's important to identify if you have impostor syndrome, so you develop some mechanism to get rid of it or minimize it so you can move on and learn things.
 
 The whole point of it is that you have learned things, you have been accomplished, but just imagine how much more you could accomplish if you didn't have that blockage.
 
 **Bill Kennedy:** And I think it also helps to quickly reach out to friends. I talk to Erik and Carlisia every day... Not every day, but maybe once a week we have these types of conversations and we help each other through it. You can't suppress it down, you gotta talk about it and find people that you trust to have those conversations.
 
-**Carlisia Pinto:** Absolutely, yes.
+**Carlisia Thompson:** Absolutely, yes.
 
 **Erik St. Martin:** And let people push you a little bit, too. To the group here, and Brian in particular, because he's known me the longest - everybody's been slowly pushing me, like "You gotta do this, you gotta do this, you gotta do this..." So let people push you a little bit out of your comfort zone.
 
 Adam's hiding behind the forth wall here, but Adam has tried to get me on camera for two, three years for GopherCon, for kind of like grand vision and love and experience and behind-the-curtains type stuff, sharing with the world, and it's like, "Nope. Camera? Run!"
 
-**Carlisia Pinto:** I wanna second that... Make sure you have or you develop a group of friends that you can have safe conversations with, that when you're in doubt and you're doubting yourself, you can go back and say, "Hey, I'm having a really hard time with this, but I need to move on. What do I do?"
+**Carlisia Thompson:** I wanna second that... Make sure you have or you develop a group of friends that you can have safe conversations with, that when you're in doubt and you're doubting yourself, you can go back and say, "Hey, I'm having a really hard time with this, but I need to move on. What do I do?"
 
 You don't need the right question, you just say, "I'm having a hard time", and they'll help you move on. I have people that I do this with, like you were saying. With the GoTime co-hosts and producers - we talk a lot about this stuff, and other people too that I have as resources. It really helps make a difference.
 
@@ -402,11 +402,11 @@ I've shown Erik a video and Erik's like, "I don't see anything", and I'm like, "
 
 **Erik St. Martin:** Awesome! I need to remember that, because I've always been looking for apps to do window management when I'm on my Mac. Alright, who's next?
 
-**Carlisia Pinto:** I can go next. This week somebody showed me a tool that is like Go Playground, but for Docker, and it's really cool. This tool was made by [Marcos Nils](https://www.twitter.com/marcosnils)... I'm sure I'm not saying his last name correctly, sorry Marcos. He's from Argentina. He did this tool - it's basically a virtual machine on the web, where you can run Docker containers and create clusters with Docker features, like swarm modes. You can also pair-program... It's really cool, you should check it out. Did you guys know this tool? I'm gonna paste the link. I had never seen it before.
+**Carlisia Thompson:** I can go next. This week somebody showed me a tool that is like Go Playground, but for Docker, and it's really cool. This tool was made by [Marcos Nils](https://www.twitter.com/marcosnils)... I'm sure I'm not saying his last name correctly, sorry Marcos. He's from Argentina. He did this tool - it's basically a virtual machine on the web, where you can run Docker containers and create clusters with Docker features, like swarm modes. You can also pair-program... It's really cool, you should check it out. Did you guys know this tool? I'm gonna paste the link. I had never seen it before.
 
 **Erik St. Martin:** No, I haven't seen it either.
 
-**Carlisia Pinto:** There's the link on the channel.
+**Carlisia Thompson:** There's the link on the channel.
 
 **Erik St. Martin:** How about you, Bill?
 
@@ -432,6 +432,6 @@ Definitely share this show with fellow Go programmers. This one isn't necessaril
 
 **Bill Kennedy:** Goodbye!
 
-**Carlisia Pinto:** Bye! This was fun!
+**Carlisia Thompson:** Bye! This was fun!
 
 **Johnny Boursiquot:** Bye!

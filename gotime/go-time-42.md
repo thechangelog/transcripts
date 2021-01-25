@@ -2,7 +2,7 @@
 
 On the show today, your hosts are myself, Erik St. Martin, Carlisia Pinto is also on the show - say hello, Carlisia...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And also Johnny Boursiquot is here. Say hello, Johnny.
 
@@ -70,7 +70,7 @@ Here is a concrete example. [Julia Evans](https://twitter.com/b0rk) does a great
 
 **Kavya Joshi:** Yeah, those [zines](https://jvns.ca/zines/) are pretty rad. I ended up printing a bunch of them and giving them to my interns. It was great.
 
-**Carlisia Pinto:** I love the point that Kavya's making about presenting technical content in an accessible manner, and I'm thinking here as Go is growing so fast and people are coming into the language, how do people who are writing technical content and who are writing and giving presentations - how can they do this in a better way? And I'm wondering if you have tips to share with us and with the audience...
+**Carlisia Thompson:** I love the point that Kavya's making about presenting technical content in an accessible manner, and I'm thinking here as Go is growing so fast and people are coming into the language, how do people who are writing technical content and who are writing and giving presentations - how can they do this in a better way? And I'm wondering if you have tips to share with us and with the audience...
 
 **Kavya Joshi:** Gosh, I wish I had knowledge that I could speak about in general... I think when I write a talk or an article, I spend a lot of time thinking about the presentation of the content. Things like "What order to present it in? What diagram, what animation would make it most intuitive for somebody listening to the talk for the first time? What would make it accessible to them??
 
@@ -80,21 +80,21 @@ It's almost like if you start at a new company and you're not familiar with the 
 
 **Kavya Joshi:** Yeah, and I think that's a great analogy. Your target audience - they aren't necessarily beginners, or they aren't necessarily people without computer science backgrounds... It's just that they don't have the background knowledge that you do, because of all the time you've spent prepping for the talk, or just your general interest in the subject. They don't have that background knowledge, so I think it's just being aware of your target audience, the fact that they just might not have spent as much time geeking out on a subject as you have.
 
-**Carlisia Pinto:** \[00:12:03.13\] I thought it was a worthwhile question to ask you, this question of like if you have any tips to share about how to prepare content, because I saw your talk at StrangeLoop a long time ago, and it was excellently done.
+**Carlisia Thompson:** \[00:12:03.13\] I thought it was a worthwhile question to ask you, this question of like if you have any tips to share about how to prepare content, because I saw your talk at StrangeLoop a long time ago, and it was excellently done.
 
 **Kavya Joshi:** Thank you.
 
-**Carlisia Pinto:** Like Johnny said, it conveyed really well the concepts of the race detector and things that had to do with it. For example for me, one thing that I do - and I'm not claiming I'm even any good at it, but I just go from "Okay, does the quality of my writing improve tremendously if I finish and I sleep on it?" And yeah, if I sleep on it, the next day it gets better; two days, it gets even better. And then the margin of improvement starts diminishing.
+**Carlisia Thompson:** Like Johnny said, it conveyed really well the concepts of the race detector and things that had to do with it. For example for me, one thing that I do - and I'm not claiming I'm even any good at it, but I just go from "Okay, does the quality of my writing improve tremendously if I finish and I sleep on it?" And yeah, if I sleep on it, the next day it gets better; two days, it gets even better. And then the margin of improvement starts diminishing.
 
 So whatever people can do to make the content better, even if it has to wait, I think it's so worthwhile, because it will benefit so much more, rather than putting something out there that's concise, but not everybody's going to really get it... Blog posts, CFP submissions - it all becomes just a lot of noise.
 
 **Kavya Joshi:** Yeah.
 
-**Carlisia Pinto:** So I think you were on the track of saying what it is that you do... If you have more items that you want to share, that would be great.
+**Carlisia Thompson:** So I think you were on the track of saying what it is that you do... If you have more items that you want to share, that would be great.
 
 **Kavya Joshi:** Yeah, I guess getting your content reviewed by somebody you trust... I've worked with a lot of great people, and something like having them read through the article and just tell me if it makes sense, as an outsider... We're very good about getting our code reviewed all the time, right? Code review systems... So I think if you get your content reviewed, that's helpful.
 
-**Carlisia Pinto:** That makes sense.
+**Carlisia Thompson:** That makes sense.
 
 **Johnny Boursiquot:** One of the recommendations for beginners in Go is to avoid the goroutines and dealing with concurrency primitives, the channels and what not... Don't jump into the deep end right away, because there's a whole different world there that you don't necessarily have to have for a lot of programs that you write. It's okay to write them procedurally, because you're gonna get a major speed bump anyway, especially if you're coming from something like Ruby or Python and what not.
 
@@ -134,11 +134,11 @@ So for somebody who basically doesn't typically program in a multithreaded envir
 
 **Kavya Joshi:** Yeah, that makes sense.
 
-**Carlisia Pinto:** I wanted to ask you about the article you just wrote for O'Reilly... I read through it, it's pretty awesome. Samsara, where you work -- is it Samsara?
+**Carlisia Thompson:** I wanted to ask you about the article you just wrote for O'Reilly... I read through it, it's pretty awesome. Samsara, where you work -- is it Samsara?
 
 **Kavya Joshi:** Yeah, that's right.
 
-**Carlisia Pinto:** Do you follow these guidelines...?
+**Carlisia Thompson:** Do you follow these guidelines...?
 
 **Kavya Joshi:** \[laughs\] Trick question... \[laughter\]
 
@@ -150,7 +150,7 @@ We use an [errors package](https://github.com/pkg/errors), so the package is pop
 
 Testing - I wish we did a better job at testing, or could... Just in general, we're having good testing practices, but at a system of our scale, unless you start with a good testing story from the beginning, it's hard to come in and get that rolling. We're getting there slowly, but I feel like on the testing side we could do a better job.
 
-**Carlisia Pinto:** \[00:20:07.18\] Let me just mention that the article is on oreilly.com, and it's called [How To Ship Production-grade Go](https://www.oreilly.com/ideas/how-to-ship-production-grade-go). Definitely a worthwhile read. And I'm sorry, I didn't mean to put your company on the spot, but when I was reading this, I was thinking "This is really cool... How do you go about maybe introducing these at your company, if you're already not following these guidelines, or any other kind of guidelines for Go development?"
+**Carlisia Thompson:** \[00:20:07.18\] Let me just mention that the article is on oreilly.com, and it's called [How To Ship Production-grade Go](https://www.oreilly.com/ideas/how-to-ship-production-grade-go). Definitely a worthwhile read. And I'm sorry, I didn't mean to put your company on the spot, but when I was reading this, I was thinking "This is really cool... How do you go about maybe introducing these at your company, if you're already not following these guidelines, or any other kind of guidelines for Go development?"
 
 **Kavya Joshi:** Yeah. No, that's a good question. What about y'all? Do you have any good tips for other ways to make Go production-grade?
 
@@ -170,17 +170,17 @@ Basically, that approach of saying "Hey, I may not have all the answers right aw
 
 **Kavya Joshi:** [Bolt](https://github.com/boltdb/bolt) is great!
 
-**Carlisia Pinto:** Bolt is amazing. Docker also came out with a secret management system.
+**Carlisia Thompson:** Bolt is amazing. Docker also came out with a secret management system.
 
 **Erik St. Martin:** Oh, interesting.
 
 **Kavya Joshi:** Oh, yeah?
 
-**Carlisia Pinto:** Yeah... Did I get it wrong? Nobody knows this? \[laughs\]
+**Carlisia Thompson:** Yeah... Did I get it wrong? Nobody knows this? \[laughs\]
 
 **Erik St. Martin:** I mean, it wouldn't surprise me, because...
 
-**Carlisia Pinto:** I'm pretty sure.
+**Carlisia Thompson:** I'm pretty sure.
 
 **Erik St. Martin:** ...it falls in line with a lot of the container orchestration; [Kubernetes](https://kubernetes.io/) manages secrets, so with them doing their orchestration, it makes sense for them to also manage secrets being handed to containers. But I don't think I have seen that.
 
@@ -256,13 +256,13 @@ You can easily change that... It's just infrastructure as code, so you just comm
 
 **Johnny Boursiquot:** I think we're geeking out on infras--
 
-**Carlisia Pinto:** --changing subjects... \[laughter\] Are you guys ready to talk about something else? I wanted to ask Kavya about how interested in firmware -- \[laughter\] you mentioned that you have the interest... It's something like you haven't necessarily started doing anything...? I'm super curious to know what would you do if you could get your hands on a couple hardware and you just go to do something...
+**Carlisia Thompson:** --changing subjects... \[laughter\] Are you guys ready to talk about something else? I wanted to ask Kavya about how interested in firmware -- \[laughter\] you mentioned that you have the interest... It's something like you haven't necessarily started doing anything...? I'm super curious to know what would you do if you could get your hands on a couple hardware and you just go to do something...
 
 **Kavya Joshi:** Yeah, gosh... So the startup I work at does firmware, because there's a hardware engineering team - we make the hardware... There's a firmware team, and the firmware team actually does use Go. We have sensors, and the sensors don't run Go - it's all embedded C - but the gateways which run [yocto Linux](https://www.yoctoproject.org/about/), they run some C++ and some Go, and then the backend is all Go.
 
 I started at this company as like a backend assistant, some infrastructure, and that sort of role... But the more I learned about the firmware side of things, I'm growing increasingly fascinated with writing firmware code. It's cool that you can run Go on firmware, so in terms of what I'd do with that - oh, gosh...
 
-**Carlisia Pinto:** It's alright, why don't you share -- I'd love to hear from you what makes firmware code interesting to you? I sort of have the opposite reaction whenever I program for hardware, because I worked for three years at a company doing just C code for - or mostly C code - for hardware. It's sort of a pain, because the hardware breaks, or doesn't work the way you expect, so it's not just the software you're dealing with; you're dealing with like this monster... \[laughter\] I'm not an electrical engineer, I have no idea how to deal with this, so that's that for me. So I was interested to know what makes firmware code writing for you so cool.
+**Carlisia Thompson:** It's alright, why don't you share -- I'd love to hear from you what makes firmware code interesting to you? I sort of have the opposite reaction whenever I program for hardware, because I worked for three years at a company doing just C code for - or mostly C code - for hardware. It's sort of a pain, because the hardware breaks, or doesn't work the way you expect, so it's not just the software you're dealing with; you're dealing with like this monster... \[laughter\] I'm not an electrical engineer, I have no idea how to deal with this, so that's that for me. So I was interested to know what makes firmware code writing for you so cool.
 
 **Kavya Joshi:** Well, again, with the caveat that I haven't written much, I've only tinkered a little bit, I think the tradeoffs are somewhat fascinating. The firmware team has to think about power consumption, which is not something as like a backend or traditional software programmer you ever have to think about, right? It's like, you need to spin up another instance, you need more memory, you need more CPU - just spin it up.
 
@@ -330,11 +330,11 @@ One thing I will say learning about hardware - if you're not trying to actually 
 
 Carlisia, did you get to work with hardware at all, or you just mainly wrote firmware?
 
-**Carlisia Pinto:** I didn't write firmware, I didn't write embedded code... I wrote code that drove machines, like printers and lemonadors - these huge custom-made machines. And even so, it was a pain sometimes. \[laughter\] The machine would turn off and I wouldn't know how to turn it on... Silly things. \[laughter\]
+**Carlisia Thompson:** I didn't write firmware, I didn't write embedded code... I wrote code that drove machines, like printers and lemonadors - these huge custom-made machines. And even so, it was a pain sometimes. \[laughter\] The machine would turn off and I wouldn't know how to turn it on... Silly things. \[laughter\]
 
 **Johnny Boursiquot:** There was no power button?
 
-**Carlisia Pinto:** All the interruptions you can have with hardware programming... And then the hardware breaks and you have to stop and you're like "Okay, I don't even know where to start here."
+**Carlisia Thompson:** All the interruptions you can have with hardware programming... And then the hardware breaks and you have to stop and you're like "Okay, I don't even know where to start here."
 
 **Erik St. Martin:** Yeah... Recording circuitry goes wrong and the voltage level drops... Your main voltage coming across the board, like "That should never go below 5 Volts" and it does, and it puts your microcontroller in a weird state... And then there's people who do this on purpose.
 
@@ -410,33 +410,33 @@ In general, the parts that we want to convert to Go and then use GopherJS for - 
 
 **Johnny Boursiquot:** Don't start a war... \[laughter\]
 
-**Carlisia Pinto:** \[01:03:54.06\] I have two community-related news to share. One is the videos for GopherCon India 2017 are out. There are about [22 videos](https://www.youtube.com/playlist?list=PLFjrjdmBd0CoclkJ_JdBET5fzz4u0SELZ), there are some really good presentations there. And also today, in a couple hours, Dave Cheney's going to do a Go remote meetup, and he's going to talk about the hidden \#pragmas of Go. I don't think I know what pragmas are...
+**Carlisia Thompson:** \[01:03:54.06\] I have two community-related news to share. One is the videos for GopherCon India 2017 are out. There are about [22 videos](https://www.youtube.com/playlist?list=PLFjrjdmBd0CoclkJ_JdBET5fzz4u0SELZ), there are some really good presentations there. And also today, in a couple hours, Dave Cheney's going to do a Go remote meetup, and he's going to talk about the hidden \#pragmas of Go. I don't think I know what pragmas are...
 
 **Erik St. Martin:** This is interesting, I just clicked the link. What are pragmas...?
 
-**Carlisia Pinto:** Yeah, right...? \[laughs\]
+**Carlisia Thompson:** Yeah, right...? \[laughs\]
 
 **Erik St. Martin:** The name came from the Pragma declaration that tell C compilers to alter their interpretation of pieces of code. Now, Go doesn't have a Pragma directive, but it does have ways of altering the operation of the Go compiler via directive syntax hidden in comments. Interesting.
 
-**Carlisia Pinto:** And that was Erik reading from the description of the meetup.
+**Carlisia Thompson:** And that was Erik reading from the description of the meetup.
 
 **Erik St. Martin:** Yeah, I literally had not heard that this meetup was taking place until you just said something, so I happened to click the link, like "What is this?"
 
 **Kavya Joshi:** Wait, that's today, huh?
 
-**Carlisia Pinto:** Yeah, but it's recorded, so [you can also watch it later](https://www.youtube.com/watch?v=nmcPwqjPFbw).
+**Carlisia Thompson:** Yeah, but it's recorded, so [you can also watch it later](https://www.youtube.com/watch?v=nmcPwqjPFbw).
 
 **Erik St. Martin:** We'll remember to post a link to the recording in the show notes, that way whoever's listening to this after it's being released can watch the video.
 
 **Johnny Boursiquot:** I also saw a mention of Francesc's new JustForFunc episode, [using Context](https://www.youtube.com/watch?v=LSzR0VEraWw). I watched that, it's actually pretty good... It does a good job of walking through the why's and the how's you'd use the Context package to help you handle abrupt termination of client server connections, and that kind of stuff. Pretty cool episode, everybody should go watch that.
 
-**Carlisia Pinto:** Yeah, he gave a talk about Context in India as well. One of those videos for the GopherCon India this year is his, talking about the same.
+**Carlisia Thompson:** Yeah, he gave a talk about Context in India as well. One of those videos for the GopherCon India this year is his, talking about the same.
 
 **Erik St. Martin:** The Context package is absolutely amazing, especially when you have pipelines in your request, and it's spinning up other goroutines and things like that, to just cancel at the frontend. Also, the JustForFunc series is awesome. I haven't watched all of them yet, but I've been trying to catch up. I love the work that Francesc is doing with that. Have you watched any of those, Kavya?
 
 **Kavya Joshi:** I've watched some of them, but in general, I think Francesc is just -- all of the content he puts out is interesting and accessible... I'm a fan.
 
-**Carlisia Pinto:** We are fans of Francesc's, too. \[laughs\]
+**Carlisia Thompson:** We are fans of Francesc's, too. \[laughs\]
 
 **Erik St. Martin:** Yeah... So I think we are a bit overtime, but one tradition we have for each show is we do something called \#FreeSoftwareFriday. Why it's Friday - I think that we just started the name before we released on Thursday... \[laughter\] What we like to do is recognize either contributors to the community or open source projects, or specific projects that make our lives easier.
 
@@ -448,27 +448,27 @@ I'll start with Carlisia and give you time to think about it if you have one, Ka
 
 **Erik St. Martin:** Carlisia?
 
-**Carlisia Pinto:** I thought you were saying you were gonna give me time to think about - that would last forever... But I do have one.
+**Carlisia Thompson:** I thought you were saying you were gonna give me time to think about - that would last forever... But I do have one.
 
 **Erik St. Martin:** I saw your doc, you have somebody in there, so you don't need time.
 
-**Carlisia Pinto:** Yeah, I have something ready. I ran into this [goreporter](https://github.com/360EntSecGroup-Skylar/goreporter) tool, and I like it because I used to use this tool that was the same idea when I was doing Ruby and Ruby on Rails. It basically runs analysis tools and testing, it generates a code qualitative report that you can output to HTML on your browser and you can see what's going on with your code. It's pretty neat.
+**Carlisia Thompson:** Yeah, I have something ready. I ran into this [goreporter](https://github.com/360EntSecGroup-Skylar/goreporter) tool, and I like it because I used to use this tool that was the same idea when I was doing Ruby and Ruby on Rails. It basically runs analysis tools and testing, it generates a code qualitative report that you can output to HTML on your browser and you can see what's going on with your code. It's pretty neat.
 
 **Erik St. Martin:** \[01:08:03.26\] Oh, this is actually really cool. I wanted to do a comparison, too... Have you seen ReviewDog?
 
-**Carlisia Pinto:** No, what is that?
+**Carlisia Thompson:** No, what is that?
 
 **Erik St. Martin:** It's something similar too, and you can set it up to basically attach itself to GitHub and be run on every commit. It runs the same kind of checks. I'd like to do a comparison of what the features are.
 
-**Carlisia Pinto:** This [ReviewDog](https://github.com/haya14busa/reviewdog) sounds like RubyCop.
+**Carlisia Thompson:** This [ReviewDog](https://github.com/haya14busa/reviewdog) sounds like RubyCop.
 
 **Erik St. Martin:** I don't think I've seen -- that might have been after I stopped doing Ruby.
 
-**Carlisia Pinto:** I think it's called RubyCop, but that doesn't sound right...
+**Carlisia Thompson:** I think it's called RubyCop, but that doesn't sound right...
 
 **Johnny Boursiquot:** RuboCop.
 
-**Carlisia Pinto:** RuboCop, there we go. Sounds like that. Cool, I'll check this out, too.
+**Carlisia Thompson:** RuboCop, there we go. Sounds like that. Cool, I'll check this out, too.
 
 **Erik St. Martin:** And how about you, Johnny? Do you have anybody?
 
@@ -484,7 +484,7 @@ I'll start with Carlisia and give you time to think about it if you have one, Ka
 
 **Erik St. Martin:** You can totally say GopherJS again! \[laughter\]
 
-**Carlisia Pinto:** Totally, yes.
+**Carlisia Thompson:** Totally, yes.
 
 **Erik St. Martin:** So mine is actually kind of suiting to some of our conversations today. It's a project called [GNU ARM Eclipse](https://gnu-mcu-eclipse.github.io/). If you play with embedded stuff, almost (I swear) all electrical engineers are Windows users, because it's very hard to find any tools for IDEs that work with stuff for anything other than Windows. I have a Windows VM I have to use for specific tools where I set my board on the floor and wire my USB cable.
 
@@ -498,7 +498,7 @@ Alright, so with that I want to thank everybody for being on the show, especiall
 
 **Erik St. Martin:** Huge thank you to our sponsors, Backtrace and DataDog. Definitely share the show with fellow Go programmers, friends, colleagues... If you aren't subscribed, you can go to GoTime.fm to be subscribed; follow us on [Twitter](https://twitter.com/GoTimeFM), and if you have something you'd like to come on the show and discuss or just have suggestions for guests or topics, hit us up on [ping](https://github.com/GoTimeFM/ping). With that, goodbye everybody! We'll see you next week.
 
-**Carlisia Pinto:** Bye!
+**Carlisia Thompson:** Bye!
 
 **Johnny Boursiquot:** Be well!
 

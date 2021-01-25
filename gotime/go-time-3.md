@@ -6,7 +6,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Erik St. Martin:** And we also have Carlisia here as usual.
 
-**Carlisia Pinto:** Hello everybody.
+**Carlisia Thompson:** Hello everybody.
 
 **Erik St. Martin:** And we have a special guest today, long time Go community member - and I mean _long_ time Go community member - he's got a great beard, and he's also the CTO and co-founder of Iron.io. We have Travis Reeder here, tell everybody hello, Travis.
 
@@ -42,11 +42,11 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Erik St. Martin:** I've played with some of the static analysis tools that have already been created, but I haven't created any of my own. I did see that CloudFlare post though, and yes, that does make things look approachable. I'm not sure that I have anything in particular I want to write yet, but it does sound fun.
 
-**Carlisia Pinto:** New Relic has a static analysis tool, correct? But I don't think it has support for Go yet.
+**Carlisia Thompson:** New Relic has a static analysis tool, correct? But I don't think it has support for Go yet.
 
 **Erik St. Martin:** To be honest I haven't look at New Relic in a while. In my Ruby days there was a lot of New Relic, but I don't think I've used it with Go, so I'm not sure what support they have.
 
-**Carlisia Pinto:** Is it a general thing that people who are using Go are not using New Relic, I wonder?
+**Carlisia Thompson:** Is it a general thing that people who are using Go are not using New Relic, I wonder?
 
 **Brian Ketelsen:** I think they just recently added some Go support, I don't know how much though.
 
@@ -54,7 +54,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** It was, everybody had New Relic.
 
-**Carlisia Pinto:** Yes, exactly.
+**Carlisia Thompson:** Yes, exactly.
 
 **Erik St. Martin:** So we were actually talking about that a little bit this morning, because we know that Iron.io was a Ruby shot prior. How much Ruby is still left?
 
@@ -64,11 +64,11 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Travis Reeder:** Right.
 
-**Carlisia Pinto:** Yes, I think when you write in Ruby and Ruby on Rails - I do it still, and it starts becoming a little bit problematic when it just grows and then you don't know what to do with it, so you start to think about Micro services, and maybe moving parts of your app that need to be more performant into other technologies can be a worthwhile endeavor.
+**Carlisia Thompson:** Yes, I think when you write in Ruby and Ruby on Rails - I do it still, and it starts becoming a little bit problematic when it just grows and then you don't know what to do with it, so you start to think about Micro services, and maybe moving parts of your app that need to be more performant into other technologies can be a worthwhile endeavor.
 
 **Erik St. Martin:** My thought on Ruby these days is pretty similar to my thought on Java. It's not that I don't like the languages, I don't like the way people write the language. Ruby and Rails have been great, but these huge monolithic coupled together things because people just throw it together because they can, and then it becomes hard to support.
 
-**Carlisia Pinto:** Yeah. And this question that you asked, Erik, reminded me of the question we were throwing around last week about whether we optimize for performance, and I think Travis should be the expert here - I am wondering, Travis, how do you plan for performance loads that you update in the future? How much pre-planning goes into identifying the spaces need to be performant in the future? Because I think a lot of times we go about saying, "Well, I don't need this more efficient technology because my app is never going to need that much performance", and on the other hand... Sometimes you know beforehand, but sometimes you don't know and you need to figure it out. So how does that go?
+**Carlisia Thompson:** Yeah. And this question that you asked, Erik, reminded me of the question we were throwing around last week about whether we optimize for performance, and I think Travis should be the expert here - I am wondering, Travis, how do you plan for performance loads that you update in the future? How much pre-planning goes into identifying the spaces need to be performant in the future? Because I think a lot of times we go about saying, "Well, I don't need this more efficient technology because my app is never going to need that much performance", and on the other hand... Sometimes you know beforehand, but sometimes you don't know and you need to figure it out. So how does that go?
 
 **Travis Reeder:** It's impossible to predict, right? We didn't know what we would need upfront, that's why we went from Ruby and had to switch to Go. But nowadays we do have a better idea of what we need, and we just always try to push the limit. There is a recent blog post on our blog.iron.io about getting a million messages per second on IronMQ. So we're pushing it; we have no customers that are doing that kind of speed, but we try to push and hit milestones like that, so that if a customer needs that... We're always ahead of what our customers would need.
 
@@ -108,17 +108,17 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** I do, I only share the interesting ones. The first one today I saw a couple months ago and it was just in its beginnings, but it looks like it's getting pretty nice - there is an Oauth2 server, written by Richard Knop. It's called go-oauth2-server, and it looks like it's getting pretty solid in terms of its capabilities. It's a standalone server, it's backed by [etcd](https://coreos.com/etcd/) for configuration and I think postgres for data storage. It gives you the full Oauth2 flows for your apps, and it generates keys, the whole work, so it looks like something that's well worth checking out. Links to that of course will be in the show notes.
 
-**Carlisia Pinto:** It has wonderful documentation.
+**Carlisia Thompson:** It has wonderful documentation.
 
 **Brian Ketelsen:** It does, some of the best I've ever seen for an Oauth server.
 
-**Carlisia Pinto:** Amazing.
+**Carlisia Thompson:** Amazing.
 
 **Brian Ketelsen:** I agree.
 
 **Erik St. Martin:** For an Oauth2? \[laughter\]
 
-**Carlisia Pinto:** There are so many...
+**Carlisia Thompson:** There are so many...
 
 **Erik St. Martin:** Speaking of Cockroach again, that is probably one of the best-documented projects I've ever seen, too.
 
@@ -136,7 +136,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** Adam's gonna tell us at some point that that's not how you pronounce SQLite.
 
-**Carlisia Pinto:** You're not pronouncing it right, it's SQLite.
+**Carlisia Thompson:** You're not pronouncing it right, it's SQLite.
 
 **Brian Ketelsen:** Well whatever it is, Rqlite is the Raft-enabled version of SQLite, and it allows you to have a distributed SQLite database, and that's all built in Go, it's distributed... Pretty slick stuff. It looks like it would be really high performance, so I'm kind of itching to test that one out. I might have to build a little cluster and see what I can do.
 
@@ -196,7 +196,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** So the last interesting Go project is an old one, but one that I've just started using recently, and found it to be about as awesome as a utility can be, and that's Syncthing. Their website is syncthing.net, and if you're familiar with any one of the peer-to-peer syncing tools like BitTorrent sync, it's the same sort of thing but it's an open protocol that's written in Go. From a utility perspective, it's great to just sync your documents folder between your Mac and your Linux machine, or your laptop and your desktop. I tried it -- I guess it's been two weeks now. I've been syncing my GOPATH source directory between my Mac and my Linux Box, and I have it set to like a 20-second sync repeat. So if I save a file on my Mac while I'm sitting downstairs, and give it 20 seconds, close the lid, I can come back upstairs onto the Linux Box and keep editing that same file with the changes just by opening Vim up. It's been liberating, it's pretty amazing. I didn't realize that a) the synchronization was quick enough to be able to enable that, and it had just never occurred to me that I could synchronize my GOPATH - at least the source directory of it - and not have any repercussions; it hasn't bitten me in any way. It's been really cool. You clone something into my GOPATH and next time I'm on my Linux machine it's just there. It's really cool.
 
-**Carlisia Pinto:** That sounds amazing.
+**Carlisia Thompson:** That sounds amazing.
 
 **Erik St. Martin:** You're using this in place of, say Dropbox?
 
@@ -206,7 +206,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** It does, it works anywhere. I don't know what technologies they're using, but I haven't run into any net-piercing problems or anything like that. It just works.
 
-**Carlisia Pinto:** I'm trying to think of the alternative way to do this as far as writing code, because I want to put a repo on Dropbox or something like that, but the alternative to this, the way you're doing this, would be to push to the central repo all the time, and then pull it on your other machine. And this is super handy.
+**Carlisia Thompson:** I'm trying to think of the alternative way to do this as far as writing code, because I want to put a repo on Dropbox or something like that, but the alternative to this, the way you're doing this, would be to push to the central repo all the time, and then pull it on your other machine. And this is super handy.
 
 **Brian Ketelsen:** It really is, it's slick. It cut down the number of crazy branches I've had to push to drastically, because if I'm not ready to commit something to a repository, as long as it's saved on my disk, it syncs to another computer and I'm good. I'm really enjoying the workflow; I'm probably doing something I shouldn't be doing, but I don't care because it hasn't bitten me yet, and it's awesome. Syncthing.net
 
@@ -250,7 +250,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Travis Reeder:** That's cool, yeah.
 
-**Carlisia Pinto:** I wanted to mention that I had never written any command line tool before I found out about Go and started learning Go, and I think it's just amazing, having Cobra and Viper. People, if you haven't tried it, you're gonna get addicted to it.
+**Carlisia Thompson:** I wanted to mention that I had never written any command line tool before I found out about Go and started learning Go, and I think it's just amazing, having Cobra and Viper. People, if you haven't tried it, you're gonna get addicted to it.
 
 **Erik St. Martin:** And I think all of those came out of Steve's bigger project, which is Hugo.
 
@@ -260,11 +260,11 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** Yeah, those repos at github.com/spf13/cobra, /viper, /hugo, /pflag... I know them all really well.
 
-**Carlisia Pinto:** I don't think there is anybody as prolific as Steve out there.
+**Carlisia Thompson:** I don't think there is anybody as prolific as Steve out there.
 
 **Brian Ketelsen:** Nope. That's good stuff too, and it's funny because I've talked to several projects that were writing command line apps, and they've started with no command line-enabling libraries and then they moved to something else, and everybody ends up on Cobra, because it's just the nicest interface for writing command line apps. So if you're gonna write a Go command line app, skip all the craziness and just go straight to Cobra, because that's what everybody else does.
 
-**Carlisia Pinto:** Yup.
+**Carlisia Thompson:** Yup.
 
 **Brian Ketelsen:** You get all these free opinions on this podcast. It's crazy. \[laughter\]
 
@@ -288,7 +288,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** Exactly.
 
-**Carlisia Pinto:** There you go, Travis, you need to try goa, and then you'll let us know.
+**Carlisia Thompson:** There you go, Travis, you need to try goa, and then you'll let us know.
 
 **Travis Reeder:** Okay, I'll check it out.
 
@@ -298,11 +298,11 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** Yeah. Which from my perspective, just describing your API - the idea behind goa was that you had to spend, you had to invest that time describing your API well, and then it generated an API for you, which I thought was good. I really liked the whole idea of code generation, and single source of truth, but the code that it generated was so beautifully idiomatic Go code... I was more impressed by that than anything else. Usually when you end up with a code-generated app, it looks like a code-generated app.
 
-**Carlisia Pinto:** That's what I was going to say... When you've been programming for a while and you used those old code generation tools, you kind of get burned and never try them again. I have a hard time trusting... I trust you, but just like you said about something else earlier - I have to see it to believe it. But the website is amazing, and I wanted to ask, does it also generate documentation?
+**Carlisia Thompson:** That's what I was going to say... When you've been programming for a while and you used those old code generation tools, you kind of get burned and never try them again. I have a hard time trusting... I trust you, but just like you said about something else earlier - I have to see it to believe it. But the website is amazing, and I wanted to ask, does it also generate documentation?
 
 **Brian Ketelsen:** Thank you, by the way, I did the website. The code generation will create a Swagger JSON file for you so that you can use any of the Swagger tools to provide API docs, which I think is really awesome. So you get both the Swagger schema and the JSON schema, that you can use as the documentation for your API. It also generates a JavaScript client for your API, and a CLI command line app for your API, so you can call your API from a command line, too.
 
-**Carlisia Pinto:** Get out!
+**Carlisia Thompson:** Get out!
 
 **Brian Ketelsen:** Lots of code generation there.
 
@@ -310,7 +310,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** My motto for 2016 is 'Generate all the things'.
 
-**Carlisia Pinto:** Wow.
+**Carlisia Thompson:** Wow.
 
 **Erik St. Martin:** Alright, I think I'm gonna have to play with that this weekend. \[laughter\]
 
@@ -322,7 +322,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** Is it Ginkgo? Yeah, so there's a testing framework, and I think that was the inspiration for the Go DSL. It looks like a DSL, it really truly is Go code, but it uses a lot of anonymous functions to make it look like a DSL. So that's what you write, you write this DSL that describes your API, you describe your endpoints, you describe the messages that are going back and forth, and once you've done that, you write your code generator and it whips out a giant application for you. It's really nice.
 
-**Carlisia Pinto:** How about tests? Does it generate tests as well?
+**Carlisia Thompson:** How about tests? Does it generate tests as well?
 
 **Brian Ketelsen:** I haven't seen it yet, but I think just yesterday or the day before somebody merged in something that generates tests as well.
 
@@ -386,15 +386,15 @@ We had some convincing to do, our team and our investors, because you never want
 
 **Brian Ketelsen:** I think there's a cognitive load, a cognitive overhead when you're working in something as deep as C++. When you've got templates and all of that code, it's difficult to be really productive. On the other hand, if you're doing the same thing over and over, you reuse a lot of your code, so sure you can be very productive that way.
 
-**Carlisia Pinto:** I feel that with Go as well the syntax is so concise and small. I feel like I'm using the same thing over and over again, which at some point I'm just thinking about the problem ahead of me, as opposed to "How do I do this?" or "How do I do that?" It's completely different.
+**Carlisia Thompson:** I feel that with Go as well the syntax is so concise and small. I feel like I'm using the same thing over and over again, which at some point I'm just thinking about the problem ahead of me, as opposed to "How do I do this?" or "How do I do that?" It's completely different.
 
 **Brian Ketelsen:** Yeah, Go is a small language. How many keywords - 67 keywords, something like that?
 
-**Carlisia Pinto:** Isn't it 25?
+**Carlisia Thompson:** Isn't it 25?
 
 **Brian Ketelsen:** And two of them are crazy keywords, like 'whereas' that we put in just for fun.
 
-**Carlisia Pinto:** \[laughs\]
+**Carlisia Thompson:** \[laughs\]
 
 **Erik St. Martin:** Just for fun...
 
@@ -422,7 +422,7 @@ We had some convincing to do, our team and our investors, because you never want
 
 **Brian Ketelsen:** Yeah, they're strong, I agree. Go seems to attract really bright people that have solid engineering minds, and then me.
 
-**Carlisia Pinto:** I think Go also benefits from the wave of test-driven development that the Ruby developers went through - that's what I'm familiar with. Before I found Ruby, I wasn't doing that, I didn't even really understand how to do it. And now these developers are working with Go and they bring all those good practices into the community and into their development. So it's very nice... As they say, Go is a modern language, and it's benefitting from past experiences in a big way.
+**Carlisia Thompson:** I think Go also benefits from the wave of test-driven development that the Ruby developers went through - that's what I'm familiar with. Before I found Ruby, I wasn't doing that, I didn't even really understand how to do it. And now these developers are working with Go and they bring all those good practices into the community and into their development. So it's very nice... As they say, Go is a modern language, and it's benefitting from past experiences in a big way.
 
 **Travis Reeder:** Yeah, that's a good point. I'd add to that too that it seems like most Go libraries people are testing for performance, too.
 
@@ -454,11 +454,11 @@ We had some convincing to do, our team and our investors, because you never want
 
 **Erik St. Martin:** That's awesome.
 
-**Carlisia Pinto:** I'm gonna have to end this call and go look up how allocations are done, how to recognize them and how to solve them. I still don't know what you guys are talking about...
+**Carlisia Thompson:** I'm gonna have to end this call and go look up how allocations are done, how to recognize them and how to solve them. I still don't know what you guys are talking about...
 
 **Erik St. Martin:** So actually there was a talk by Björn Rabenstein recently from the Prometheus team. He did a talk we'll link in the show notes, and I believe some of that he walks through the allocations, and you can actually see the change... So that might be a good look at it.
 
-**Carlisia Pinto:** Awesome.
+**Carlisia Thompson:** Awesome.
 
 **Erik St. Martin:** And I think there's another one too, I'll look it up for you and we'll put it in the show notes when I find it. I think there was another one that I'd seen a while back too, where somebody was walking through looking at code and determining whether something was gonna be stack allocated or allocated, and things like that. We'll find that and link to it.
 
@@ -466,7 +466,7 @@ We had some convincing to do, our team and our investors, because you never want
 
 **Erik St. Martin:** Well some of them get hard too, because if they could suggest the change, you could make the change. There's two tools that are really good for it. One is just using the standard benchmark and test stuff where you can do the pprof, and you can look at it in the pprof tool, or you can visualize it. Those are great tools for looking for allocations. But the other thing is there's Go command line flags, or the Go compiler itself, where you can pass it in and it will tell you every time that a pointer escapes, and it needs to be allocated on the heap, too. That's also an interesting thing to run on your code during the compilation so that you can see whether or not maybe something that you thought didn't... And it's interesting just because of the way... But it's hard to talk about over a call, because I can't give you code examples. But I'll find some videos and we can link them in the show notes and I can send them out. It's not as complex as you'd think. There are a couple of areas where they are obvious, and the harder part is determining libraries that you call that end up allocating for you, and then accidently passing a pointer that ends up escaping and then having to be allocated on the heap, and you may not have noticed it.
 
-**Carlisia Pinto:** Yeah, I can see that.
+**Carlisia Thompson:** Yeah, I can see that.
 
 **Erik St. Martin:** Like you said, most of the time for most people it doesn't matter. When you're trying to hit the scale... How many requests a second did you say you guys were shooting for, Travis?
 
@@ -490,7 +490,7 @@ Speaking of taking on things new, two questions I wanted to ask: one is hiring -
 
 **Erik St. Martin:** It's very good, statistical evident. A sample size of one.
 
-**Carlisia Pinto:** Yeah... You're gonna get a lot of that here.
+**Carlisia Thompson:** Yeah... You're gonna get a lot of that here.
 
 **Erik St. Martin:** The other thing that you guys adopted early on too is containers. You kind of spoke to Solomon announcing Docker at the Go SF meetup.
 
@@ -548,13 +548,13 @@ And then all of a sudden, okay, now they can run in the exact same environment t
 
 **Erik St. Martin:** Carlisia?
 
-**Carlisia Pinto:** I like to every once in a while acquire new tools to look at my code. I like to know what's going on under the hood, things that I wouldn't necessarily catch just looking at it, and I found this tool called gocyclo. It measures the cyclomatic complexity of your code. There's a simple command line tool, you just run on it. This guys has a few flags and he will let you know how many cyclomatic complexities a specific block of your code has, and it points you to the line number and the file name. I thought that was really cool.
+**Carlisia Thompson:** I like to every once in a while acquire new tools to look at my code. I like to know what's going on under the hood, things that I wouldn't necessarily catch just looking at it, and I found this tool called gocyclo. It measures the cyclomatic complexity of your code. There's a simple command line tool, you just run on it. This guys has a few flags and he will let you know how many cyclomatic complexities a specific block of your code has, and it points you to the line number and the file name. I thought that was really cool.
 
 **Erik St. Martin:** Yeah, that's actually really interesting. I have not seen anything like that in Go yet, and cyclomatic complexity measurement is actually really common in the Java world. Almost all CI environments I've ever worked in in Java used it, so that's really cool, I wanna check that out. I don't know whether I've ever seen any Go code that's high branch rates, and stuff. It'd be really interesting to run it on some big Go project and see...
 
 **Brian Ketelsen:** We have it built into the CI routine in goa, so we will fail if our cyclomatic complexity is higher than 20 on any function.
 
-**Carlisia Pinto:** Wow, very cool.
+**Carlisia Thompson:** Wow, very cool.
 
 **Erik St. Martin:** That's awesome. And Travis, we're kind of blind siding you here, but do you have a project you'd like to give a shout out to?
 
@@ -584,11 +584,11 @@ And then all of a sudden, okay, now they can run in the exact same environment t
 
 **Travis Reeder:** Good to hear, thank you guys.
 
-**Carlisia Pinto:** Absolutely, I'll second that. Thank you.
+**Carlisia Thompson:** Absolutely, I'll second that. Thank you.
 
 **Erik St. Martin:** Alright everybody.
 
-**Carlisia Pinto:** Goodbye.
+**Carlisia Thompson:** Goodbye.
 
 **Brian Ketelsen:** Goodbye.
 

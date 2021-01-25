@@ -1,6 +1,6 @@
 **Erik St. Martin:** Welcome back, everybody, to another episode of GoTime. Today's episode is number 61. On the show today, your hosts are myself, Erik St. Martin, Carlisia Pinto is also here...
 
-**Carlisia Pinto:** Hello!
+**Carlisia Thompson:** Hello!
 
 **Erik St. Martin:** And Brian Ketelsen, who is half alive, half dead...
 
@@ -38,7 +38,7 @@ Go was picked because of its simplicity, so DEA Go (which is Diego) was born, an
 
 **Brian Ketelsen:** Nice!
 
-**Carlisia Pinto:** I would love to talk more about that, actually. What makes you say that -- well, that's my take on it anyway... My take on what you've just said is that because the system is written in Go, it lends itself well for a distributed team to work on - what makes you say that?
+**Carlisia Thompson:** I would love to talk more about that, actually. What makes you say that -- well, that's my take on it anyway... My take on what you've just said is that because the system is written in Go, it lends itself well for a distributed team to work on - what makes you say that?
 
 **Jason Keene:** Some of the insights I have is that it seems like engineers, no matter what their background is, whether it's a dynamic language or a statically-typed language like C\# or Java, they really feel comfortable in Go. Go is kind of like the subset of -- it's such a small language that it's a subset of like the syntax and what is there is kind of like approachable by many different engineers from many different languages. That's something I've kind of noticed.
 
@@ -48,13 +48,13 @@ We have people on our teams that have backgrounds in Java, people on our teams t
 
 With Go, since a lot of these things aren't written in frameworks, you can simply drop in, look at the tests that were written - everything is well tested - and get enough context with what you need, add your addition, make the PR, see that the tests pass, and feel confident that what you actually added will get merged and will be correct. That is a very great experience, and it's enabled a pretty large community across the globe to help us grow Cloud Foundry.
 
-**Carlisia Pinto:** That is something we take for granted, isn't it? We don't usually use a framework and we don't have that extra thing to learn... Even though, for example, people who come from the Ruby on Rails background -- when people learned Ruby, they learned Ruby via learning Rails. The exposure to Rails was what exposed them to Ruby. But if you go a bit further back and you worked with Java (or even PHP has different frameworks), you really have a bunch of options and who knows what project is going to use what, and we don't have to go through that.
+**Carlisia Thompson:** That is something we take for granted, isn't it? We don't usually use a framework and we don't have that extra thing to learn... Even though, for example, people who come from the Ruby on Rails background -- when people learned Ruby, they learned Ruby via learning Rails. The exposure to Rails was what exposed them to Ruby. But if you go a bit further back and you worked with Java (or even PHP has different frameworks), you really have a bunch of options and who knows what project is going to use what, and we don't have to go through that.
 
 **Andrew Poydence:** It lends itself to, I think, enabling people to quickly help without all this extra \[unintelligible 00:07:56.16\] and we're not switching between frameworks all the time, much like maybe on a JavaScript project.
 
 **Jason Keene:** \[00:08:02.00\] Also, the standard library is very high quality and it's almost intuitive. Once you learn one standard library package, the conventions, the intuition you develop from learning that package translates into most of the other packages in the standard library, so that also helps with getting people up to speed.
 
-**Carlisia Pinto:** So let's continue on this thread - I'm curious to know, for Loggregator do you make use of an external package, or are you doing everything just mostly using the standard library? Do you use an external package that has to do with logging?
+**Carlisia Thompson:** So let's continue on this thread - I'm curious to know, for Loggregator do you make use of an external package, or are you doing everything just mostly using the standard library? Do you use an external package that has to do with logging?
 
 **Andrew Poydence:** We use [gRPC](https://grpc.io/) very heavily for our transport, but we've kind of homegrown the metrics and logging concept. We have something called envelopes, which are actually protocol platform messages, that encompass a log message as like textual information, or a counter-event, or a gauge metric, and so we enable components or applications that can then send these things. An application is, at the moment, tied strictly to `stdout` and `stderr`, and then those things get packaged up into these protocol buffer messages.
 
@@ -64,18 +64,18 @@ But we're not actually using anything off the shelf, per se. In fact, Loggregato
 
 **Andrew Poydence:** Exactly.
 
-**Carlisia Pinto:** I was gonna ask, do you find yourself having to rewrite stuff that you wrote way back in Go?
+**Carlisia Thompson:** I was gonna ask, do you find yourself having to rewrite stuff that you wrote way back in Go?
 
 **Jason Keene:** Yeah, I would say a large portion of the Loggregator Go source code has been at least heavily modified, if not rewritten at this point. It's an incremental approach that we've had over the past two years. As a need is put on us from a product perspective or an engineering perspective, we then decompose what's there and try to bring new ideas and new implementations into the project.
 We've done that with several of the components, so yeah, I'd say we've done a good amount of rewriting, but it's rewriting that's informed by a lot of different variables, it's not just engineers wanting to rewrite something.
 
-**Carlisia Pinto:** And these variables, can you give us an idea...? Because it's very interesting to talk to somebody who has been working with one particular project for so many years, and we're always trying to take insights for people who are listening that they can pay attention to and maybe use in their own work, so I'm curious to know what sort of variables, what sort of ideas are guiding rewrites, because obviously you're saying you're not just refactoring for refactoring's sake, which is great.
+**Carlisia Thompson:** And these variables, can you give us an idea...? Because it's very interesting to talk to somebody who has been working with one particular project for so many years, and we're always trying to take insights for people who are listening that they can pay attention to and maybe use in their own work, so I'm curious to know what sort of variables, what sort of ideas are guiding rewrites, because obviously you're saying you're not just refactoring for refactoring's sake, which is great.
 
 **Jason Keene:** \[00:11:47.13\] Yeah, I guess I could give one of the examples of something we've rewritten -- we switched over to using gRPC well over a year and a half ago, and that was kind of motivated from an engineering perspective... Like, we wanted to reduce the cost of us maintaining our own custom messaging. Previous to using gRPC, we had our own custom TCP framing, and TCP batching, and UDP code for managing messages... We also used \[unintelligible 00:12:21.17\] websockets... We had this hodgepodge of different transports, so from an engineering perspective we wanted to do this rewrite, and what kind of motivated that was security - that was one of the major motivating factors.
 
 gRPC gives us mutual auth TLS, which is an awesome feature to have for doing secure communication between different components, and we get that as a feature, and as part of that, we get to also reduce some of the technical debt on the project and do a rewrite of our message transport.
 
-**Carlisia Pinto:** Very cool.
+**Carlisia Thompson:** Very cool.
 
 **Andrew Poydence:** One of the other big drivers has been the growth of Cloud Foundry. Before, Cloud Foundry probably was only handling a few dozen apps at a time, and now you have larger installations of Cloud Foundry that have upwards of like 250,000 app instances running, which means all those apps are trying to stream data through Loggregator, and we noticed that some of our previous code just wasn't up to the task.
 
@@ -87,7 +87,7 @@ So as these larger deployments have come out, we wanted to be able to handle all
 
 \[00:15:59.10\] So we went and ripped out a lot of channels that we previously had before, to enable less buffering, fewer goroutines per connection, and a little less latent in the end.
 
-**Carlisia Pinto:** This is open source, isn't it?
+**Carlisia Thompson:** This is open source, isn't it?
 
 **Jason Keene:** Of course.
 
@@ -97,7 +97,7 @@ One of the things that came to mind when you were mentioning what type of techni
 
 That was another huge win that we had with gRPC. Since it uses HTTP/2, you get pretty much for free multiplexing on multiple streams across a single TCP connection. So we did a little bit of work around that. We got the multiplexing for free, but then we also noticed that sending all of our streams over a single connection - it actually saturates that connection... So we created pools of connections, and load balancers to kind of manage that, so that we can have many streams going over many connections, and just have it all work efficiently.
 
-**Carlisia Pinto:** Very cool.
+**Carlisia Thompson:** Very cool.
 
 **Erik St. Martin:** So now are you using your new diode concept throughout other portions, or is this mainly kind of limited to just Loggregator?
 
@@ -115,13 +115,13 @@ I'm trying to think of some other projects I've noticed recently who adopted it.
 
 **Andrew Poydence:** Yeah, we try to -- the Cloud Foundry projects... Or at least, I'll speak for Loggregator - Loggregator hasn't had a really good history of extracting useful things for broad consumption, so the diodes is like kind of one of the first projects that we started where we extracted this idea out, so that other consumers can use it.
 
-**Carlisia Pinto:** Now, I'm reading here that one of your project goals is to have _an opinionated log structure_... So talk to us about that. At the very least -- I've never used it, so I'm guessing it's to offer struct to a logging, and why is that the best goal for this project?
+**Carlisia Thompson:** Now, I'm reading here that one of your project goals is to have _an opinionated log structure_... So talk to us about that. At the very least -- I've never used it, so I'm guessing it's to offer struct to a logging, and why is that the best goal for this project?
 
 **Jason Keene:** \[00:20:06.19\] We took the approach that there's textual logs, like an application can emit just normal, standard output stuff, and then there's metrics, such as counters, or gauges, timers... Much like you'd find in a project like [Prometheus](https://prometheus.io/). So what we did was we decided "We'll make this [protocol buffer](https://developers.google.com/protocol-buffers/) messages, and have them be very strict about what they'll accept", and the idea would be any producer has to put those fields in there, and that would enable then the consumers of Loggregator to know what they could get.
 
 That has enabled a lot of nice things, because all of a sudden these very generic consumers can come in - such as the Stackdriver one - and not know very much about Cloud Foundry as a whole (this massive system), and yet still can pull in and do very interesting things with the data. So it's been a nice way to document how metrics flow through Loggregator without having to dig through massive amounts of readme's, and go through different components as to what they're trying to accomplish... It enables the compiler, essentially, to do more work for you as well. You can't accidentally send some invalid protocol buffer message; that will be rejected.
 
-**Carlisia Pinto:** How many fields are there?
+**Carlisia Thompson:** How many fields are there?
 
 **Jason Keene:** It's pretty limited.
 
@@ -157,7 +157,7 @@ Pivotal's main focus is to enable developers to do interesting things, so Cloud 
 
 **Andrew Poydence:** Yeah, it's incredibly handy.
 
-**Carlisia Pinto:** Now, for someone who has been working with this project for such a long time, I would like to ask the question - if Go had _Generics_, would it be more useful to you? Do you miss not having that, or do you get by without it? Would you recommend that the standard library adds it?
+**Carlisia Thompson:** Now, for someone who has been working with this project for such a long time, I would like to ask the question - if Go had _Generics_, would it be more useful to you? Do you miss not having that, or do you get by without it? Would you recommend that the standard library adds it?
 
 **Jason Keene:** Yeah, it seems kind of like a trolly question... \[laughter\] I kind of have the opinion that if Go had _Generics_, it would make implementing some of the data structures that we've exposed - for instance the _Diodes_ - much more natural. I don't know what your opinion is...
 
@@ -169,17 +169,17 @@ Pivotal's main focus is to enable developers to do interesting things, so Cloud 
 
 **Jason Keene:** The casting of unsafe pointers is not always intuitive. We've had situations in the past where sometimes putting an extra * - the compiler doesn't tell you "Hey, this is referencing something you shouldn't dereference...", so yeah...
 
-**Carlisia Pinto:** Did you make a proposal to the Go team?
+**Carlisia Thompson:** Did you make a proposal to the Go team?
 
 **Jason Keene:** Implementing _Generics_ is well beyond my expertise...
 
-**Carlisia Pinto:** No, because they were soliciting use cases. Not a proposal for how to implement, but a proposal like "Here's my use case." Because they were soliciting it, I don't know if you know...
+**Carlisia Thompson:** No, because they were soliciting use cases. Not a proposal for how to implement, but a proposal like "Here's my use case." Because they were soliciting it, I don't know if you know...
 
 **Andrew Poydence:** I wasn't aware of that...
 
 **Erik St. Martin:** I think before approaching a solution or something, they really wanted to be well aware of the types of situations that people were looking to use _Generics_.
 
-**Carlisia Pinto:** It sounds like you guys have a good use case.
+**Carlisia Thompson:** It sounds like you guys have a good use case.
 
 **Andrew Poydence:** Yeah, we could throw it out there. Go 2 type stuff.
 
@@ -187,15 +187,15 @@ Pivotal's main focus is to enable developers to do interesting things, so Cloud 
 
 **Andrew Poydence:** Coming from a C++ background, I'm getting nervous... It's those nightmares when I have something that boosts angle brackets (<,>) - pages of compiler errors...
 
-**Carlisia Pinto:** I think it could potentially make life easier for 20% of the users, and harder for 80%, so I'm not crazy about it either.
+**Carlisia Thompson:** I think it could potentially make life easier for 20% of the users, and harder for 80%, so I'm not crazy about it either.
 
 **Erik St. Martin:** Yeah, I'm not saying that there aren't use cases for it, particularly use cases that would be much easier with it, but I don't find working around it overly difficult... But maybe I don't work in the spaces where it would be the most useful. So I'm not against it, but I'm not like "The language is broken without it."
 
-**Carlisia Pinto:** Yeah, I like the fact that they were soliciting use cases, so they can get everything together and make a decision... Because I don't know every single project out there, right? I mean, we don't know.
+**Carlisia Thompson:** Yeah, I like the fact that they were soliciting use cases, so they can get everything together and make a decision... Because I don't know every single project out there, right? I mean, we don't know.
 
 **Jason Keene:** Yeah, I'd caution listeners, if you are gonna use like interface{} or some of these other generic types, to approach it in a similar way that we approached it - contain it within a small area of your codebase, so it doesn't bleed out to the rest of your system. I can drop a [link](https://github.com/cloudfoundry/go-diodes#example-creating-a-concrete-shell) in the show notes for how we approached it, just to let people kind of get a feel for what we've done.
 
-**Carlisia Pinto:** That'd be awesome.
+**Carlisia Thompson:** That'd be awesome.
 
 **Andrew Poydence:** Yeah, we've made a few libraries and I think we've run into this a few times where it's like "I guess we'll make it interface{}" and then try to do our best to make sure we don't use it as that, but... Again, it's so easy to work around. I wouldn't be driven to say "Yeah, the language is broken", I'd agree with that, and it lends itself--
 
@@ -334,7 +334,7 @@ The way we test that is we have a pretty aggressive black box testing of our sys
 
 **Erik St. Martin:** He was pretty excited about it, too.
 
-**Carlisia Pinto:** I forget that Dave Cheney is at Heptio.
+**Carlisia Thompson:** I forget that Dave Cheney is at Heptio.
 
 **Erik St. Martin:** Yeah, that was a kind of exciting couple weeks, where everybody was trying to guess where he was going.
 
@@ -358,7 +358,7 @@ The way we test that is we have a pretty aggressive black box testing of our sys
 
 **Brian Ketelsen:** I've touched everything, Erik. You should just accept that.
 
-**Carlisia Pinto:** This is really cool. Very useful.
+**Carlisia Thompson:** This is really cool. Very useful.
 
 **Erik St. Martin:** Another one that I came across is called [G.E.R.T](https://github.com/ycoroneos/G.E.R.T), and I think we mentioned this before; I think it might have been a little earlier on... But it seems to be a port of the Go runtime to run directly on ARMv7 system on the chips. I haven't got to play with this yet, but maybe when I get back from traveling, I will find an ARM7 device and try to do this.
 
@@ -396,17 +396,17 @@ The way we test that is we have a pretty aggressive black box testing of our sys
 
 **Erik St. Martin:** And then we have the following week - or maybe it's two weeks later; mid-November - [GopherCon Brazil](https://2017.gopherconbr.org/), which I know Carlisia will be at... She wouldn't miss it for the world.
 
-**Carlisia Pinto:** Yeah... \[laughs\] I leave on the 14th, and the conference is that weekend. And I'm speaking.
+**Carlisia Thompson:** Yeah... \[laughs\] I leave on the 14th, and the conference is that weekend. And I'm speaking.
 
 **Erik St. Martin:** Oh, you are speaking...!
 
 **Brian Ketelsen:** Awesome!
 
-**Carlisia Pinto:** Yeah!
+**Carlisia Thompson:** Yeah!
 
 **Brian Ketelsen:** What's your topic?
 
-**Carlisia Pinto:** I'm going to talk about certificates in TLS and Letsencrypt... In Go, of course.
+**Carlisia Thompson:** I'm going to talk about certificates in TLS and Letsencrypt... In Go, of course.
 
 **Erik St. Martin:** Oh, nice!
 
@@ -434,11 +434,11 @@ You know, I am really, really grateful to be able to do the job that I do. I'll 
 
 **Brian Ketelsen:** I'll start it off, because I already whined about all of these presentations... I'm gonna shout out to the present tool from the Go team. I sure love being able to write my slides in very light format and just typing 'present' on the command line and getting good-looking slides that are easy to read and easy to write. So thanks to the Go team for making the present tool. I use it for pretty much everything.
 
-**Carlisia Pinto:** Hey, can you play a video inside the present tool?
+**Carlisia Thompson:** Hey, can you play a video inside the present tool?
 
 **Brian Ketelsen:** You can. You can play videos, you can put iFrames in, you can do everything. I even forked the present tool, and in mine you could run Docker containers and all kinds of extra stuff.
 
-**Carlisia Pinto:** Really?
+**Carlisia Thompson:** Really?
 
 **Brian Ketelsen:** That's how I roll.
 
@@ -452,31 +452,31 @@ You know, I am really, really grateful to be able to do the job that I do. I'll 
 
 **Erik St. Martin:** Carlisia, did you have one this week?
 
-**Carlisia Pinto:** Yes, I wanna give a shoutout not to a project, but to a person - [Francesc Campoy](https://twitter.com/francesc). He is leaving Google and... I know he was working as a developer advocate for Google Cloud, and also on the Go team, right? I think he worked in both groups. So I was really sad to see him move on; I don't know why, because he's been there since I knew of Go, but I think it's going to be -- obviously, I trust his decision... It was probably a very good transition for him.
+**Carlisia Thompson:** Yes, I wanna give a shoutout not to a project, but to a person - [Francesc Campoy](https://twitter.com/francesc). He is leaving Google and... I know he was working as a developer advocate for Google Cloud, and also on the Go team, right? I think he worked in both groups. So I was really sad to see him move on; I don't know why, because he's been there since I knew of Go, but I think it's going to be -- obviously, I trust his decision... It was probably a very good transition for him.
 
 He's going to be -- well, I think he is already, or soon to be the VP of developer relations at [source{d}](https://sourced.tech/)
 
 **Erik St. Martin:** \[00:56:04.00\] source{d}.
 
-**Carlisia Pinto:** source{d}, which I've never heard of this company before, but they sound really cool.
+**Carlisia Thompson:** source{d}, which I've never heard of this company before, but they sound really cool.
 
 **Brian Ketelsen:** They are awesome, and he's gonna be a great fit there.
 
-**Carlisia Pinto:** So good luck to Francesc, and hopefully he will stick around. He's done so many things for the community. He went way and beyond his call of duty.
+**Carlisia Thompson:** So good luck to Francesc, and hopefully he will stick around. He's done so many things for the community. He went way and beyond his call of duty.
 
 **Brian Ketelsen:** And just FYI, source{d} is not the Society for Research in Child Development. This is a completely different source{d}.
 
-**Carlisia Pinto:** Thanks for clarifying, Brian.
+**Carlisia Thompson:** Thanks for clarifying, Brian.
 
 **Brian Ketelsen:** Sure, you bet.
 
-**Carlisia Pinto:** Very helpful.
+**Carlisia Thompson:** Very helpful.
 
 **Brian Ketelsen:** Jason, Andrew, do you have any good software...?
 
 **Andrew Poydence:** Yeah, I have [Concourse CI](https://concourse-ci.org/). It's the CI and CD that we use here at Cloud Foundry heavily. It's just a super viable tool to hook at any commit you want out there quickly, and we run our tests with it, we use it to push to a production environment, and everything. It's all written in Go, it's something you could run in your own data center, you could run on your own VM. It's been a really valuable tool, that they worked really hard on.
 
-**Carlisia Pinto:** It's not a paid service, right? You get the code and run on your servers.
+**Carlisia Thompson:** It's not a paid service, right? You get the code and run on your servers.
 
 **Andrew Poydence:** Yeah, exactly. You can bring it behind to an air gapped datacenter if you need to or run it wherever.
 
@@ -494,11 +494,11 @@ It's a pretty nice tool to be able to have high-performance monitoring of either
 
 **Erik St. Martin:** So mine for today is [dep](https://github.com/golang/dep). We've all kind of talked about dep, and Sam spoke about it at the last GopherCon, but I actually hadn't worked on a project that used it yet, until recently... So I definitely wanna give all of the people who have put so much effort into that a huge shoutout, just because it's quickly becoming my favorite vendoring tool.
 
-**Carlisia Pinto:** \[01:00:07.23\] Yeah, I've been using dep, too. It's been good, I like it.
+**Carlisia Thompson:** \[01:00:07.23\] Yeah, I've been using dep, too. It's been good, I like it.
 
 **Brian Ketelsen:** I've been using dep a lot, and it makes me happy.
 
-**Carlisia Pinto:** Were you guys using that at Cloud Foundry?
+**Carlisia Thompson:** Were you guys using that at Cloud Foundry?
 
 **Jason Keene:** Early on we kind of experimented with dep. I think it was before it was something that was promoted as like generally usable. We don't actually use dep; we run all of our source code against the latest dependencies, like their default branches, and then we vendor dependencies using Git submodules. It's kind of a legacy technique, but it served us well.
 
@@ -510,17 +510,17 @@ It's a pretty nice tool to be able to have high-performance monitoring of either
 
 **Andrew Poydence:** Thanks for having us.
 
-**Carlisia Pinto:** Thank you!
+**Carlisia Thompson:** Thank you!
 
 **Brian Ketelsen:** Is this the first time we've successfully had two people at the same time as guests?
 
-**Carlisia Pinto:** Yes.
+**Carlisia Thompson:** Yes.
 
 **Erik St. Martin:** Yeah, I believe I believe it has been
 
 **Brian Ketelsen:** I wanna say we tried it once and it was a massive fail.
 
-**Carlisia Pinto:** I don't remember us trying. That's why we don't do it... \[laughs\]
+**Carlisia Thompson:** I don't remember us trying. That's why we don't do it... \[laughs\]
 
 **Erik St. Martin:** They did say they were pros, remember?
 
@@ -534,8 +534,8 @@ It's a pretty nice tool to be able to have high-performance monitoring of either
 
 **Andrew Poydence:** Thanks!
 
-**Carlisia Pinto:** Thanks, this was great!
+**Carlisia Thompson:** Thanks, this was great!
 
 **Erik St. Martin:** Thanks everybody for listening. You can follow us on Twitter @GoTimeFM. If you wanna be on the show or have suggestions for topics or guests, file an issue on [ping](https://github.com/GoTimeFM/ping), and with that, goodbye everybody. We'll see you next week.
 
-**Carlisia Pinto:** Bye!
+**Carlisia Thompson:** Bye!

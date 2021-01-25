@@ -6,11 +6,11 @@ Today's episode number is 58, and on the show today is myself, Erik St. Martin, 
 
 **Erik St. Martin:** And Carlisia Pinto...
 
-**Carlisia Pinto:** No storms in California...
+**Carlisia Thompson:** No storms in California...
 
 **Erik St. Martin:** Right?! Maybe I should reconsider that West Coast move.
 
-**Carlisia Pinto:** Yeah!
+**Carlisia Thompson:** Yeah!
 
 **Erik St. Martin:** And our special guest for today is Dmitri Shurya-- I knew I was gonna butcher that... Dmitri Shuryal-- why am I...? See, when I'm trying to say it fast, now I can't say it.
 
@@ -30,7 +30,7 @@ Today's episode number is 58, and on the show today is myself, Erik St. Martin, 
 
 These days I kind of do something slightly unusual - I work full-time on open source Go code... And maybe it would make sense for me to kind of go a little bit into my background, how I started; that would kind of explain how I got here.
 
-**Carlisia Pinto:** Yes!
+**Carlisia Thompson:** Yes!
 
 **Brian Ketelsen:** Please do.
 
@@ -54,20 +54,20 @@ In the course of working in San Francisco for those three years, I was kind of a
 
 Because I became such a big fan of working with Go, I wanted to basically do more of that. So this actually happened, and I ended up starting this -- beginning of this year, end of last year, and I kind of transitioned; I left my job there and I came back to Toronto, and started doing this thing of working full-time on open source Go code.
 
-**Carlisia Pinto:** That is fantastic!
+**Carlisia Thompson:** That is fantastic!
 
 **Brian Ketelsen:** It is. It's really awesome.
 
-**Carlisia Pinto:** I was going to ask you if you are being self-funded, or funded by a company... But it sounds like you're being self-funded, right?
+**Carlisia Thompson:** I was going to ask you if you are being self-funded, or funded by a company... But it sounds like you're being self-funded, right?
 
 **Dmitri Shuralyov:** \[00:07:54.27\] I am self-funded, yes. It's basically my savings that I was working on saving towards this goal, and that's kind of what's funding this year. Of course, as I earn some money and add to that, I can continue to do this a bit more, but right now I don't have a concrete idea about next year; we'll see how that goes, but this year it's definitely... Yeah.
 
-**Carlisia Pinto:** And you have a ton of experience, so I am assuming the break that you're taking to work on the open source projects that you want to work on is not so you can acquire more skills, so I'm wondering what your end game is. Are you trying to just take a mental break and work on the projects you want and maybe finish some, or take them to a higher level...? Or you don't have an endgame, or are you preparing yourself for your next step? What is it?
+**Carlisia Thompson:** And you have a ton of experience, so I am assuming the break that you're taking to work on the open source projects that you want to work on is not so you can acquire more skills, so I'm wondering what your end game is. Are you trying to just take a mental break and work on the projects you want and maybe finish some, or take them to a higher level...? Or you don't have an endgame, or are you preparing yourself for your next step? What is it?
 
 **Dmitri Shuralyov:** Absolutely, yeah. I definitely have an endgame, and it's more of a, you know, intermediate, one step at a time kind of plan, rather than a complete vision for where I wanna be. But essentially, I can say that I'm just building or I'm working on the things that I really want to exist that don't really exist yet.
 I'm just kind of filling my own desires of some tooling, or some things in the Go ecosystem that I think will be awesome to have, but they don't necessarily exist or they're not finished. So I just basically work on making the things that I wanna see happen. That is the main motivation, and of course, I wanna maintain my skills and always learn new things and get better, but it is mostly about just making things that I wanna see happen.
 
-**Carlisia Pinto:** Awesome.
+**Carlisia Thompson:** Awesome.
 
 **Brian Ketelsen:** That is really cool. I think we need to go back and talk about Conception for a little bit, because that stuff was out there... Waaay out there! Tell us, since this is a podcast and we can't see it, tell us what Conception was and what you were trying to accomplish.
 
@@ -113,21 +113,21 @@ So yes, they did exist then, they no longer do exist, and if you see them, pleas
 
 **Dmitri Shuralyov:** I do, yeah.
 
-**Carlisia Pinto:** I wanna now take a moment and discuss if it's gist \[djist\] or gist \[gist\]? No, I'm kidding... \[laughter\]
+**Carlisia Thompson:** I wanna now take a moment and discuss if it's gist \[djist\] or gist \[gist\]? No, I'm kidding... \[laughter\]
 
 **Erik St. Martin:** Then we have to stop talking about gif \[gif\] or gif \[djif\]...
 
 **Dmitri Shuralyov:** Yeah, yeah, it's the same question. \[laughter\]
 
-**Carlisia Pinto:** But you know, I say gif \[gif\] and gist \[djist\], so it cannot be the same...
+**Carlisia Thompson:** But you know, I say gif \[gif\] and gist \[djist\], so it cannot be the same...
 
 **Erik St. Martin:** Yeah, I do, too.
 
-**Carlisia Pinto:** Right?
+**Carlisia Thompson:** Right?
 
 **Dmitri Shuralyov:** Yeah, it doesn't make any sense.
 
-**Carlisia Pinto:** See? Let's not go there... \[laughter\] I do wanna talk about though -- because to me it seems like such a big deal what you're doing, taking time off to work on your preferred open source projects, the ones that you really wanna make sure happen, and there's so many projects you're involved with, but I do want you to talk to us about your top three, starting from the most important, the ones that you really wanna make happen, and why, and where are you at with that project, and are you getting help, is it far from being completed, what does completed mean...? So tell us.
+**Carlisia Thompson:** See? Let's not go there... \[laughter\] I do wanna talk about though -- because to me it seems like such a big deal what you're doing, taking time off to work on your preferred open source projects, the ones that you really wanna make sure happen, and there's so many projects you're involved with, but I do want you to talk to us about your top three, starting from the most important, the ones that you really wanna make happen, and why, and where are you at with that project, and are you getting help, is it far from being completed, what does completed mean...? So tell us.
 
 **Dmitri Shuralyov:** Sure, sure. So I don't think I have a nice disconnect between the different projects; a lot of them are interconnected in some ways, and a lot of them are kind of these umbrella projects where there's maybe something higher level, and lower level. But let me say that right now I think that we're in a very interesting point in time; the language Go came out relatively recently... It has been almost like ten years now, but it is relatively new, and just maybe a few years back, on the backend we had a whole different set of languages that people could choose from, but on the front-end it's always been that JavaScript was kind of the only officially supported language, because that's the only language that browsers support, and that has started to change recently. One of the ways that it has started to change the most in my opinion is there is -- well, there was [asm.js](https://en.wikipedia.org/wiki/Asm.js), that technology first... Well, what is happening now is [Web Assembly](http://webassembly.org/).
 
@@ -153,7 +153,7 @@ I've done a little bit of research and I tried a few things, and I saw that "Oka
 
 It has some to-do's, but it's mostly done in the to-do's that can be completed over time. The basic functionality works, and anyone can use it.
 
-**Carlisia Pinto:** That is very cool. GraphQL is pretty cool.
+**Carlisia Thompson:** That is very cool. GraphQL is pretty cool.
 
 **Erik St. Martin:** Yeah, it's one of those technologies that always seems really fascinating, and I was always looking for the nail for that hammer...
 
@@ -161,31 +161,31 @@ It has some to-do's, but it's mostly done in the to-do's that can be completed o
 
 One of the things about it, one of the properties of GraphQL is that it's very type-safe, and I really enjoy that property of Go. It was really nice to see it here, as well. So you have really great, strong type safety, and it makes things like autocomplete help you a lot more, and the code that you write, you can see that like this handles all the cases; there's nothing unhandled here. Yeah, it was just awesome to use it. It helped me.
 
-**Carlisia Pinto:** I know there is at least one episode on the Changelog that talks about GraphQL, and I listened to it, and whenever I listen to somebody talking about it, or I read about it, I wanna use it immediately... But then I go back to good ol' REST. \[laughs\]
+**Carlisia Thompson:** I know there is at least one episode on the Changelog that talks about GraphQL, and I listened to it, and whenever I listen to somebody talking about it, or I read about it, I wanna use it immediately... But then I go back to good ol' REST. \[laughs\]
 
 **Dmitri Shuralyov:** I really think that GraphQL is a great technology, it has a lot of strengths, but it also has some weaknesses that will take time for everybody to find ways to deal with. Nobody's gonna jump and switch to it right away this year; it's gonna take many years I think, and people will gradually switch over to it. It really makes the most sense if you're starting a new project to consider using it then. It's not so nice to take an existing one, that's already built around RESTful API's and try to rewrite that, or start adding GraphQL. It's not gonna help you as much... But it could. So it's okay if you don't jump on it right away; the more you wait, the more mature it's going to be when you do use it, but it definitely has some really nice properties compared to REST.
 
-**Carlisia Pinto:** And talking about front-end stuff, because you know so much about this space... Sometimes, some applications need to be a back-end that interfaces with the database, and it needs a reporting layout on top of it. Is there any Go package that would do that?
+**Carlisia Thompson:** And talking about front-end stuff, because you know so much about this space... Sometimes, some applications need to be a back-end that interfaces with the database, and it needs a reporting layout on top of it. Is there any Go package that would do that?
 
 **Dmitri Shuralyov:** When you say 'reporting', do you mean like kind of just render some front-end components that visualize whatever data is on the back-end, that's being served?
 
-**Carlisia Pinto:** Yeah, something like the equivalent of an Excel front-end.
+**Carlisia Thompson:** Yeah, something like the equivalent of an Excel front-end.
 
 **Dmitri Shuralyov:** Oh, like an Excel front-end, I see.
 
-**Carlisia Pinto:** Yeah. Not an Excel exactly, but you know... You choose fields and then you get a table, output of data
+**Carlisia Thompson:** Yeah. Not an Excel exactly, but you know... You choose fields and then you get a table, output of data
 
 **Dmitri Shuralyov:** Well, I can't think of an existing project off the top of my head that's exactly like that; if you're really talking about like a database editing/table editing component, or...
 
-**Carlisia Pinto:** No, just output.
+**Carlisia Thompson:** No, just output.
 
 **Dmitri Shuralyov:** Oh, just like visualizing it...
 
-**Carlisia Pinto:** Exactly, yes.
+**Carlisia Thompson:** Exactly, yes.
 
 **Dmitri Shuralyov:** Do you have some database output that you wanna visualize this way and you'd wanna use it?
 
-**Carlisia Pinto:** Yeah, and I might wanna filter by fields.
+**Carlisia Thompson:** Yeah, and I might wanna filter by fields.
 
 **Dmitri Shuralyov:** I see. I don't know of an existing solution. I think you would have to maybe look for it or maybe just create it yourself, but the thing that does exist right now - or continues to be developed - is a project called [Vecty](https://github.com/gopherjs/vecty), and I think this has already come up on some previous episodes. It's kind of the equivalent of React, but written in Go and really specifically focused on Go... Because even though there have been project wrappers around React, to make it possible to use on the front-end, there's a lot of inefficiency in having to map to what they've created in React, which was targeting JavaScript specifically.
 
@@ -193,23 +193,23 @@ So Vecty tries to do things in a very Go-centered way, and you could totally use
 
 \[00:28:12.22\] One of the disadvantages of trying to use Go on the front-end is that unless somebody else has created it, you probably have to do it yourself, and sometimes you have to really make this path that no one has traveled yet before. But that can also be a lot of fun, so it's kind of great if you're looking for that kind of challenge.
 
-**Carlisia Pinto:** Yeah, because the other languages that are more mature, they have a bunch of packages that would do things like that.
+**Carlisia Thompson:** Yeah, because the other languages that are more mature, they have a bunch of packages that would do things like that.
 
 **Dmitri Shuralyov:** Yeah, actually I saw an example of that very recently. There's an NPM package you can download, and it's basically a component that visualizes diffs, or patch files, and I was like "Well, you can just NPM install that, and it already exists, and it has all these properties that you can configure how it displays it." That's the kind of state that they're at - they have pre-made components for visualizing diffs. I thought it was interesting to see that, whereas I was building something like that myself from scratch, because it didn't exist yet.
 
 **Brian Ketelsen:** I think we've talked about Vecty a time or two, but it's definitely the one Gopher.js front-end framework that I understand best, that clicks with me the best. I like Vecty a lot.
 
-**Carlisia Pinto:** Do you know any project that uses it, Brian?
+**Carlisia Thompson:** Do you know any project that uses it, Brian?
 
 **Brian Ketelsen:** That's a good question. Now, off the top of my head I don't, but...
 
-**Carlisia Pinto:** Well, it's easy to search on GitHub.
+**Carlisia Thompson:** Well, it's easy to search on GitHub.
 
 **Brian Ketelsen:** Yeah, I have some GitHub stars...
 
 **Erik St. Martin:** Or Sourcegraph...
 
-**Carlisia Pinto:** Sourcegraph, there you go. Sourcegraph is the best.
+**Carlisia Thompson:** Sourcegraph, there you go. Sourcegraph is the best.
 
 **Dmitri Shuralyov:** I actually use it in one of my projects. It's called Go Package Store, and it's a project for displaying updates for your Go packages in your GOPATH. Originally, it was this really simple application that would basically stream the HTML from the backend, and the browser displayed it as the HTML was being served to it. But that had some disadvantages... There were some things I couldn't do, so I ended up rewriting it so that everything renders on the front-end, and I used Vecty for that, and it works really well, in my experience. It enabled me to do all that, and some things I couldn't do before.
 
@@ -227,7 +227,7 @@ It's also a package that is kind of in development, so there are still some chan
 
 **Erik St. Martin:** \[00:32:02.07\] I saw a couple of posts, especially with regard to [Steve Francia's](https://twitter.com/spf13) [talk about the state of Go](https://www.youtube.com/watch?v=l_FkVIPerzE), and there has kind of been like -- everybody's talking about Go 2 and things like that... What's your take on that? What would you like to see happen, what would you like to not see happen?
 
-**Carlisia Pinto:** That's a great question, Dimitri...
+**Carlisia Thompson:** That's a great question, Dimitri...
 
 **Dmitri Shuralyov:** Yeah, so I definitely have a very specific way in which I enjoy using Go, and that's - one of the ways at least... And that's I appreciate it for its simplicity; it gives you really well thought out basic building blocks and kind of lets you do the rest. That really works well with the way that I like to approach things.
 
@@ -260,7 +260,7 @@ It's really interesting how that works, but yeah, you don't get to simplicity ri
 
 **Dmitri Shuralyov:** Yeah, yeah.
 
-**Carlisia Pinto:** I agree with that.
+**Carlisia Thompson:** I agree with that.
 
 **Dmitri Shuralyov:** I've got another example of -- this was a feature request that went into an issue tracker, and I just wanted to share a perspective on how adding something that seemingly makes your life easier may not do that.
 
@@ -268,25 +268,25 @@ The feature in question was about being able to have build tags for test files, 
 
 Some of these restrictions, they basically make it easier to read and understand the code and make certain guarantees about it. So it really helps; the readability is definitely prioritized, and that's one of the best features of Go in my opinion as well.
 
-**Carlisia Pinto:** Yes, I've worked with languages that did _Generics_, and I understand that makes some things simpler; I'm not sure if there are things that can only be achieved with generics, I'm not that knowledgeable, but I am still not convinced that anything that would be simpler by using _Generics_, or easier or shorter to write, would trump the readability feature of Go.
+**Carlisia Thompson:** Yes, I've worked with languages that did _Generics_, and I understand that makes some things simpler; I'm not sure if there are things that can only be achieved with generics, I'm not that knowledgeable, but I am still not convinced that anything that would be simpler by using _Generics_, or easier or shorter to write, would trump the readability feature of Go.
 
 **Dmitri Shuralyov:** Yeah.
 
-**Carlisia Pinto:** \[00:40:05.25\] I think it's a very personal thing, maybe.
+**Carlisia Thompson:** \[00:40:05.25\] I think it's a very personal thing, maybe.
 
 **Dmitri Shuralyov:** Well, and we have to keep in mind that in programming languages and in software engineering as a whole we always have to make compromises. You can't have absolutely everything, so you have to make sure that you balance what you have and what you don't have, and sometimes it means saying no to things, sometimes it means not doing what you want, because you understand the greater benefit is worth it. We have to remember the positive side of saying no.
 
 **Brian Ketelsen:** I think you can have everything. Isn't that what Scala is? \[laughter\]
 
-**Carlisia Pinto:** Oh, gosh...
+**Carlisia Thompson:** Oh, gosh...
 
 **Dmitri Shuralyov:** Yeah... I mean, actually C++ these days, all the latest revisions, the C++ 17 and the later ones - it's a great example of what happens when you have everything under the sun in it. Sure, you can do all those things, but I wouldn't want to review that kind of code or maintain it.
 
-**Carlisia Pinto:** You don't have everything, because you don't have the readability. Come on!
+**Carlisia Thompson:** You don't have everything, because you don't have the readability. Come on!
 
 **Dmitri Shuralyov:** Yeah.
 
-**Carlisia Pinto:** Go read some C++... It's like, you have to be like "Let's look at the header to see what this does."
+**Carlisia Thompson:** Go read some C++... It's like, you have to be like "Let's look at the header to see what this does."
 
 **Dmitri Shuralyov:** I wanted to measure this... So this morning I ran this program - it measures lines of code, and I saw that I have more than 100,000 lines of Go code in packages that I support daily. These are packages that if somebody has a bug or if it fails to build or something breaks, I would within 24 hours respond to that and follow up on it - I'd feel very comfortable doing that - and there's just no way I could deal with so much code written in something else, where I wouldn't have all these guarantees and the simplicity that Go offers me.
 
@@ -294,13 +294,13 @@ I feel like the ability to maintain so much Go code - that is enabled by Go itse
 
 **Brian Ketelsen:** Amen!
 
-**Carlisia Pinto:** I think lines of code in Go is misleading, because I think Go is very vertically dense, but if you read ten lines of code in Go, there's very little there. It's just there's a lot that's happening on the vertical space, but there is not a lot that's happening in that vertical space. So 100 lines of Go compared to 100 lines of another language - there's a lot less happening in that 100 lines of code in Go. But maybe it should be more, I'm not sure, but there's definitely a lot less because there's more going on vertically.
+**Carlisia Thompson:** I think lines of code in Go is misleading, because I think Go is very vertically dense, but if you read ten lines of code in Go, there's very little there. It's just there's a lot that's happening on the vertical space, but there is not a lot that's happening in that vertical space. So 100 lines of Go compared to 100 lines of another language - there's a lot less happening in that 100 lines of code in Go. But maybe it should be more, I'm not sure, but there's definitely a lot less because there's more going on vertically.
 
 **Brian Ketelsen:** No, and that makes it easier to read.
 
 **Dmitri Shuralyov:** Yeah, you can see everything that happens. It's all right in the code in front of you; there's no necessity to jump into, maybe there's a macro #define, or something else, or maybe an operator has been overloaded... None of that. You just know that it's exactly what you see.
 
-**Carlisia Pinto:** Yes. And you are a maintainer for the Go language, right?
+**Carlisia Thompson:** Yes. And you are a maintainer for the Go language, right?
 
 **Dmitri Shuralyov:** I'm -- let's see, what's the right word for it...? I'm a contributor, I believe. So I contributed to the project. I do have the reviewer maybe bit, so I can review code that goes in, but of course, they have it so that -- there's always like a package owner, so that person has to make the final call if a change that goes into a certain package goes in or not.
 
@@ -366,7 +366,7 @@ And I know video games use it, too.
 
 **Brian Ketelsen:** You don't have to make up one, I just wanna see a real life application.
 
-**Carlisia Pinto:** Not a fake one, Erik. A real one.
+**Carlisia Thompson:** Not a fake one, Erik. A real one.
 
 **Dmitri Shuralyov:** If they exist.
 
@@ -380,7 +380,7 @@ I wonder whether we're gonna get some Capybaras and things like that built on to
 
 **Brian Ketelsen:** Yeah, I'm the same - I watched some of it, and it looked really good.
 
-**Carlisia Pinto:** I'm definitely gonna watch it.
+**Carlisia Thompson:** I'm definitely gonna watch it.
 
 **Brian Ketelsen:** I've not watched all of it.
 
@@ -404,23 +404,23 @@ I wonder whether we're gonna get some Capybaras and things like that built on to
 
 **Brian Ketelsen:** So I decided I was gonna finally learn tmux. I've been resisting tmux forever, because it just annoys me that there's one more layer of things on top of the things that I already have to remember in Vim, so I've been avoiding it... But I found - and I'm not even gonna try to pronounce it; I'll spell it - [Byobu](http://byobu.co/) by Dustin Kirkland, and it's a pretty wrapper on top of either tmux or Screen, and it's pretty nice. Just a handful of keyboard commands that you really need to remember, as opposed to the billion crazy tmux combinations... So I'm all about that.
 
-**Carlisia Pinto:** Let us know how that went... \[laughs\]
+**Carlisia Thompson:** Let us know how that went... \[laughs\]
 
 **Erik St. Martin:** What's that?
 
-**Carlisia Pinto:** Let us know how it went.
+**Carlisia Thompson:** Let us know how it went.
 
 **Brian Ketelsen:** I will.
 
-**Carlisia Pinto:** I wanna give a shoutout to _Go Examples_... How do I say this in the right way? The ability to write examples in Go.
+**Carlisia Thompson:** I wanna give a shoutout to _Go Examples_... How do I say this in the right way? The ability to write examples in Go.
 
 **Erik St. Martin:** Yeah, that's part of the documentation...
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Dmitri Shuralyov:** Oh yeah, the _godoc_ feature...
 
-**Carlisia Pinto:** Yeah, so you can write tests, and you can write examples - which I actually only found out a couple months ago. It makes me so warm and fuzzy inside... It's one of those things. I'm in absolute love with it. And today, I got to write my first one, and I think I'm gonna be obsessed about it.
+**Carlisia Thompson:** Yeah, so you can write tests, and you can write examples - which I actually only found out a couple months ago. It makes me so warm and fuzzy inside... It's one of those things. I'm in absolute love with it. And today, I got to write my first one, and I think I'm gonna be obsessed about it.
 
 **Dmitri Shuralyov:** Nice.
 
@@ -430,23 +430,23 @@ I wonder whether we're gonna get some Capybaras and things like that built on to
 
 **Erik St. Martin:** \[00:52:01.22\] I absolutely love them, because they ensure that it always runs, right?
 
-**Carlisia Pinto:** And it runs! I love that! I love it!
+**Carlisia Thompson:** And it runs! I love that! I love it!
 
 **Brian Ketelsen:** And they're tests. That's the best part, they're tests. So if your examples don't pass, your tests don't pass.
 
 **Dmitri Shuralyov:** Yup.
 
-**Carlisia Pinto:** Yeah!
+**Carlisia Thompson:** Yeah!
 
 **Erik St. Martin:** And then they are basically breaking the build if you break the API. Your examples don't match anymore.
 
 **Brian Ketelsen:** Yup.
 
-**Carlisia Pinto:** And it's so helpful for people who don't know your codebase. You can populate a type, and run, and the output is right there; I mean, you don't even need to run, it's just right there on the file. So cool.
+**Carlisia Thompson:** And it's so helpful for people who don't know your codebase. You can populate a type, and run, and the output is right there; I mean, you don't even need to run, it's just right there on the file. So cool.
 
 **Erik St. Martin:** We should look at who implemented that, just so we can give them a huge shoutout.
 
-**Carlisia Pinto:** Yes. Whoever you are, you're amazing. Thank you.
+**Carlisia Thompson:** Yes. Whoever you are, you're amazing. Thank you.
 
 **Brian Ketelsen:** You know, odds are pretty good it was Brad. All the outside the box stuff in the Go team comes from Brad, let's be honest. You can quote me on that on Twitter, go ahead. It's okay. He's on parental leave right now.
 
@@ -500,21 +500,21 @@ I'm undecided if I'll stay, because I have withdrawals from Vim, but if I left V
 
 Did anybody have any more shoutouts, or do we wanna wrap this thing up?
 
-**Carlisia Pinto:** I think we're done.
+**Carlisia Thompson:** I think we're done.
 
 **Dmitri Shuralyov:** I can do one more quick one...
 
-**Carlisia Pinto:** Yeah!
+**Carlisia Thompson:** Yeah!
 
 **Dmitri Shuralyov:** This is more for an open source contributor. This will be to [Glenn Lewis](https://github.com/gmlewis). He helps a lot with the go-github Go package - it's the Go client for GitHub's API. He basically makes sure that the PR's get reviewed and merged, and without him I'm not sure what that project would do, so huge thanks for all his work. It's Glenn Lewis.
 
 **Erik St. Martin:** Awesome.
 
-**Carlisia Pinto:** Dmitri, just please add a link to that.
+**Carlisia Thompson:** Dmitri, just please add a link to that.
 
 **Dmitri Shuralyov:** Oh yeah, good idea.
 
-**Carlisia Pinto:** Thanks.
+**Carlisia Thompson:** Thanks.
 
 **Erik St. Martin:** We'll make sure to get all this stuff that we mentioned into the show notes. So with that, we're probably about out of time, so we're gonna wrap the official show up, and then as always, we might hang out and take some questions from the live listeners. So if you happen to be around at 3 PM on Thursdays (Eastern Time) and you join us in the Slack channel, you get to kind of interact with us before and after the show.
 
@@ -528,6 +528,6 @@ With that, thanks everybody for being on the show. Huge thank you to Dmitri for 
 
 **Brian Ketelsen:** Bye!
 
-**Carlisia Pinto:** Bye! This was a great show!
+**Carlisia Thompson:** Bye! This was a great show!
 
 **Dmitri Shuralyov:** Bye!

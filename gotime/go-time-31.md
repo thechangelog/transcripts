@@ -2,7 +2,7 @@
 
 Today on the show we have myself, Erik St. Martin, we also have Carlisia Pinto...
 
-**Carlisia Pinto:** Glad to be here.
+**Carlisia Thompson:** Glad to be here.
 
 **Erik St. Martin:** And Brian Ketelsen.
 
@@ -163,7 +163,7 @@ Somewhere I saw that they were using a whole bunch of Go, and I know that on the
 
 **Erik St. Martin:** \[00:20:14.01\] During the show we're like, "We should totally get that person on the show", and then we forget. How about you, Carlisia? Did you run across anything this week that you found interesting?
 
-**Carlisia Pinto:** Yes, I was talking to my co-worker Joshua and asking him if he had used any queuing system, because from the Rails world there are two very well-established libraries -- well, I should say Gem... And I haven't used anything like that in Go yet, but I might have to. He mentioned this library that Uber apparently came out with last month - or at least they open sourced it last month, I think - called Cherami. It would be actually interesting to know what the similarities are between these libraries and Jocko, what one does that the other doesn't, but maybe we will another time.
+**Carlisia Thompson:** Yes, I was talking to my co-worker Joshua and asking him if he had used any queuing system, because from the Rails world there are two very well-established libraries -- well, I should say Gem... And I haven't used anything like that in Go yet, but I might have to. He mentioned this library that Uber apparently came out with last month - or at least they open sourced it last month, I think - called Cherami. It would be actually interesting to know what the similarities are between these libraries and Jocko, what one does that the other doesn't, but maybe we will another time.
 
 **Brian Ketelsen:** I saw Cherami and I haven't brought it up on the show yet because their documentation is empty at this point. Although they had a big blog post announcing it on 6th December, they haven't really published any docs yet, and it just seems unfair to tease people with something that exciting without having any useful documentation for it, so... It does look interesting, but in my mind, after reading the blog post and looking at the code, it looks a lot closer to NSQ than anything Kafka-related, and I'm kind of surprised that they wrote it, because it does look very similar to NSQ. I'm wondering if we shouldn't get somebody from Uber on the phone and find out why they chose to write another one, and what about NSQ didn't work for them.
 
@@ -232,7 +232,7 @@ I've had several occasions where I've needed something similar to that, and I'm 
 
 **Erik St. Martin:** Carlisia, did you get a chance to look through any of that this week? Or I guess it was only a couple days ago, yesterday.
 
-**Carlisia Pinto:** No... I saw the post on Twitter but I didn't read through it. I'll read through it later today.
+**Carlisia Thompson:** No... I saw the post on Twitter but I didn't read through it. I'll read through it later today.
 
 **Erik St. Martin:** I love that he drops the generic \[unintelligible 00:27:08.04\] "It's the last one."
 
@@ -266,7 +266,7 @@ I've had several occasions where I've needed something similar to that, and I'm 
 
 **Erik St. Martin:** How about you, Carlisia? What are you guys using for vendoring?
 
-**Carlisia Pinto:** I think it's Go vendor that we are using at Fastly. I mean, at least for my project.
+**Carlisia Thompson:** I think it's Go vendor that we are using at Fastly. I mean, at least for my project.
 
 **Erik St. Martin:** Look at that... Four out of four. That's not bad... I was expecting much different results.
 
@@ -274,7 +274,7 @@ I've had several occasions where I've needed something similar to that, and I'm 
 
 **Travis Jeffery:** Yeah, a little Raft in there?
 
-**Carlisia Pinto:** Oh, sorry, it's godeps.
+**Carlisia Thompson:** Oh, sorry, it's godeps.
 
 **Brian Ketelsen:** Oh, godeps... You're old school!
 
@@ -286,11 +286,11 @@ Somebody in the channel also mentioned one of Brian's favorite people in the wor
 
 **Brian Ketelsen:** Oh, don't get me started me started on ESR. So I've read his blog post, first of all, and it was actually a very well thought out blog post, but I still can't stand the man. Do we have to have this discussion?
 
-**Carlisia Pinto:** What are you talking about?
+**Carlisia Thompson:** What are you talking about?
 
 **Brian Ketelsen:** So ESR - Erik S. Raymond is a -- what's the word? A relatively venerated person in the Linux world. He's a long-time kernel maintainer and he's just been around Linux a long time. He considers himself to be a role model for programmers. I consider him to be somebody who needs to go away. Most recently he wrote a blog post and basically suggested that if you get sexually harassed at a conference, the only way you should be able to be able to bring a claim against somebody for harassment is if you have a pretty solid GitHub repo. So your ability to defend yourself or to make an accusation against someone else at a conference is based solely on the fact that you've got some good street cred because you write good code.
 
-**Carlisia Pinto:** That doesn't even make sense.
+**Carlisia Thompson:** That doesn't even make sense.
 
 **Brian Ketelsen:** \[00:31:53.22\] It has absolutely nothing to do with the fact that they may or may not have been sexual assault. It infuriated me, it really infuriated me. The Go article was pretty well written; he did a good job of elucidating the pluses and minuses of Go versus Rust for their use case, and it was factual and nicely written.
 
@@ -300,7 +300,7 @@ I like seeing different people's perspectives, because Go came out and it was re
 
 **Brian Ketelsen:** I just dropped the link to the article that infuriated me in our Slack channel. Anger. Much, much anger.
 
-**Carlisia Pinto:** I haven't read it; I'll read it later, maybe... But I can't even get angered because what you said that the article said doesn't even make sense.
+**Carlisia Thompson:** I haven't read it; I'll read it later, maybe... But I can't even get angered because what you said that the article said doesn't even make sense.
 
 **Brian Ketelsen:** No, it doesn't, and this show shouldn't be about that, so we should probably move on before I say things I'll regret.
 
@@ -324,7 +324,7 @@ I like seeing different people's perspectives, because Go came out and it was re
 
 **Brian Ketelsen:** Yeah... I'm booking that show, by the way. I'm putting it in Trello right now.
 
-**Carlisia Pinto:** Let's do it.
+**Carlisia Thompson:** Let's do it.
 
 **Brian Ketelsen:** So hit me up on Twitter or email, @bketelson or bketelson@gopheracademy.com, let me know if you wanna be on that show.
 
@@ -348,7 +348,7 @@ I like seeing different people's perspectives, because Go came out and it was re
 
 **Brian Ketelsen:** One thing we should mention, we are recording this and live on January 19th. Our CFP for GopherCon ends of the 31st of January. If you want to put a talk proposal in for GopherCon, you're running out of time, and trust me, you want to put a talk in for GopherCon. You, out there, humble GoTime FM listener, have something to share with the Go community and we wanna hear it.
 
-**Carlisia Pinto:** Absolutely.
+**Carlisia Thompson:** Absolutely.
 
 **Erik St. Martin:** And to that point too, if you submit -- everybody always waits till the end. It's insane - the last 48 hours we probably get two-thirds of our submissions. So number one is if you submit early, the reviewers have time to review it, and if there's feedback, if there's questions, if we don't understand where you're getting at or maybe you didn't give enough detail for us to really gauge it, we will respond back and ask for more detail and to point things out, or to reframe it a different way.
 
@@ -358,11 +358,11 @@ But if you wait till the last 48 hours, nobody will have time to respond back to
 
 If you say, "I wanna talk about Go logging" and that's your proposal, that's gonna be really hard for the reviewers to be like, "Oh yeah, let's..." Logging may be something that everybody's very interested in seeing something about, but we don't know how well you know that topic, we don't know how you're gonna frame it, are the attendees gonna leave with more questions than answers, what's the takeaway... That's the thing. And we get a lot of one and two-sentence proposals.
 
-**Carlisia Pinto:** I'm gonna up Dave Cheney and write a blog post about what not to do. \[laughter\]
+**Carlisia Thompson:** I'm gonna up Dave Cheney and write a blog post about what not to do. \[laughter\]
 
 **Brian Ketelsen:** That's a good idea.
 
-**Carlisia Pinto:** Maybe it will be more effective. And by the way, if you don't even mention Go on your proposal, even if it's super detailed, we have no idea if that should be accepted, because we don't know if you're going to talk about Go. So at the very least, you should be mentioning Go in your proposal.
+**Carlisia Thompson:** Maybe it will be more effective. And by the way, if you don't even mention Go on your proposal, even if it's super detailed, we have no idea if that should be accepted, because we don't know if you're going to talk about Go. So at the very least, you should be mentioning Go in your proposal.
 
 **Brian Ketelsen:** Yeah, and just to point a clarification... The reviewers can't see who you are, and in your proposal you should not mention who you are. But it's your job to give us an idea that you know what you're talking about while you write the proposal. It's a fine line you have to walk not to allow us to know who you are - that gives us anonymity in our review process, but you still have to show that you know your stuff when you're writing it.
 
@@ -382,17 +382,17 @@ That's really what we're looking for when we're trying to figure out the qualifi
 
 **Erik St. Martin:** It's a big event for everybody, and it's really cool to see people come up on stage, and I'd love to see as many people take the opportunity as they can. I don't think it hurts at all.
 
-**Carlisia Pinto:** One more thing too is that GopherCon is accepting talks, keynotes, normal, regular talks, but also tutorial and workshops. If you don't think you can give a lecture, maybe you can give a workshop teaching something. Maybe that'll be easier.
+**Carlisia Thompson:** One more thing too is that GopherCon is accepting talks, keynotes, normal, regular talks, but also tutorial and workshops. If you don't think you can give a lecture, maybe you can give a workshop teaching something. Maybe that'll be easier.
 
 **Brian Ketelsen:** Yeah, we have three different types of proposals that are accepted. We've got the plenary talks, 25-minute talks up on the big stage, we've got the tutorials, which are 45-minute talks in our split-outs in the afternoons, and then we've got workshops, which are entire-day classes that you can teach the day before the conference. So there's a way for you to engage in GopherCon no matter what you wanna teach.
 
 **Erik St. Martin:** Nice. So Casey, we'll send in our GoTime FM Slack channel just that a.k.a. "Now you wanna go to GopherCon but don't have the money? Submit a talk!" \[laughter\]
 
-**Carlisia Pinto:** For sure, why not?
+**Carlisia Thompson:** For sure, why not?
 
 **Erik St. Martin:** Something tells me that you'd be more nervous - from past experience, you spend more time worried about your talk than enjoying the conference you're at.
 
-**Carlisia Pinto:** But I think that's always the case, right? At least for me it would be, if I were talking.
+**Carlisia Thompson:** But I think that's always the case, right? At least for me it would be, if I were talking.
 
 **Erik St. Martin:** If you're Brandon Philips from CoreOS, you hang out and you work until the second somebody taps your shoulder and tells you to go on stage. \[laughs\] I've never seen somebody so calm before having to talk.
 
@@ -400,15 +400,15 @@ Alright, so \#FreeSoftwareFriday... I know we're on a tight timeline with Carlis
 
 **Brian Ketelsen:** Why don't you go first, Carlisia?
 
-**Carlisia Pinto:** Alright, I'll go first. I want to give a shoutout to Peter Bourgon and his oklog package - a distributed and coordination-free log management system. It looks like it was a ton of work, and if you need some log management system, I think it would be really interesting to try and use this.
+**Carlisia Thompson:** Alright, I'll go first. I want to give a shoutout to Peter Bourgon and his oklog package - a distributed and coordination-free log management system. It looks like it was a ton of work, and if you need some log management system, I think it would be really interesting to try and use this.
 
 **Brian Ketelsen:** It looks impressive.
 
-**Carlisia Pinto:** It looks very impressive.
+**Carlisia Thompson:** It looks very impressive.
 
 **Brian Ketelsen:** His blog post announcing it was very well written, too.
 
-**Carlisia Pinto:** And it has extensive design documents.
+**Carlisia Thompson:** And it has extensive design documents.
 
 **Erik St. Martin:** I'm a little disappointed... You've always curated a list of cool things for me, Brian, and you never sent this to me.
 
@@ -418,7 +418,7 @@ Alright, so \#FreeSoftwareFriday... I know we're on a tight timeline with Carlis
 
 **Brian Ketelsen:** Yeah, right?
 
-**Carlisia Pinto:** The other interesting thing is that I remember him posting on Twitter maybe three months ago (four, tops) asking if there was the equivalent of Prometheus for logs, which means he wrote this afterwards, so... I don't know how somebody can whip up something this complex so quickly.
+**Carlisia Thompson:** The other interesting thing is that I remember him posting on Twitter maybe three months ago (four, tops) asking if there was the equivalent of Prometheus for logs, which means he wrote this afterwards, so... I don't know how somebody can whip up something this complex so quickly.
 
 **Brian Ketelsen:** He had a little help, and they started with the concepts from GoKit as their base, so it's certainly... I don't think it happened all alone and all Peter in just a month or so. I think Chris Heinz was deeply involved too, and several others. It still looks amazing, and I'm not diminishing the amount of effort put into it by any means.
 
@@ -460,13 +460,13 @@ He also recently put out one of my favorite blog posts about a release, and I'll
 
 **Erik St. Martin:** \[00:51:53.06\] Todd's calling me out. It really is me responding on Twitter and talking at the same time. I'm good like that. \[laughter\]
 
-**Carlisia Pinto:** I'm going to say goodbye, and Travis, thank you so much.
+**Carlisia Thompson:** I'm going to say goodbye, and Travis, thank you so much.
 
 **Travis Jeffery:** Thank you, good talking with you.
 
 **Erik St. Martin:** Bye, Carlisia.
 
-**Carlisia Pinto:** Talk soon, bye.
+**Carlisia Thompson:** Talk soon, bye.
 
 **Brian Ketelsen:** Thanks, Carlisia.
 

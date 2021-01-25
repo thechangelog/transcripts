@@ -18,7 +18,7 @@
 
 **Johnny Boursiquot:** Jaana, welcome back to the show. You've been gone for a little while.
 
-**Jaana B. Dogan (JBD):** Yeah, I took a couple of weeks of breaks, I think, here and there... I'm still trying to come back. Last day was my first day at the office, and you know, I was questioning everything... Like, "Hey, am I really qualified to do this job?" \[laughs\]
+**Jaana Dogan:** Yeah, I took a couple of weeks of breaks, I think, here and there... I'm still trying to come back. Last day was my first day at the office, and you know, I was questioning everything... Like, "Hey, am I really qualified to do this job?" \[laughs\]
 
 **Carmen Andoh:** Ooh...
 
@@ -28,7 +28,7 @@
 
 **Mat Ryer:** Yeah, I've had that... I was using my bank card. I thought I'd been fired. \[laughter\] I couldn't get in.
 
-**Jaana B. Dogan (JBD):** I'm trying to work from home, to be honest. I have this suspicion that I can get fired anytime... I'm just working from home. It's better not knowing. \[laughter\]
+**Jaana Dogan:** I'm trying to work from home, to be honest. I have this suspicion that I can get fired anytime... I'm just working from home. It's better not knowing. \[laughter\]
 
 **Carmen Andoh:** Just be home anyway. You're like "Whatever..."
 
@@ -60,7 +60,7 @@ Now we're coming back full circle, where now we're gonna take those container im
 
 **Johnny Boursiquot:** Interesting.
 
-**Jaana B. Dogan (JBD):** Does this mean that individual nodes at some point end up being a virtual machine? We are trying multitenancy... Do you see Kubernetes APIs just replacing all, and each pod probably ends up being a virtual machine in the end?
+**Jaana Dogan:** Does this mean that individual nodes at some point end up being a virtual machine? We are trying multitenancy... Do you see Kubernetes APIs just replacing all, and each pod probably ends up being a virtual machine in the end?
 
 **Kelsey Hightower:** I can almost guarantee. Guarantees are bad, because people come back and listen, like "Dude, you were so wrong..." \[laughter\] "You were overly-confident." I am overly-confident that we will go back into a world where there will be one pod/VM. But to think we call a virtual machine is dramatically changing. I think Amazon hinted to this with things like Firecracker. We saw Firecracker come out... And for those that know their history, Firecracker comes from the Chrome team, where they decided that they want to isolate things at this level.
 
@@ -140,7 +140,7 @@ So when people say it's taking long, or it's too slow, or let's say there is a f
 
 **Mat Ryer:** I go and break it to make sure it's real, or... Yeah.
 
-**Jaana B. Dogan (JBD):** Is there anything like being right, to be honest? We had this discussion at the API design show... You are always wrong. As you gain more experience, you always have more insights, so it's almost impossible to get to the point that you are very confident about the end result.
+**Jaana Dogan:** Is there anything like being right, to be honest? We had this discussion at the API design show... You are always wrong. As you gain more experience, you always have more insights, so it's almost impossible to get to the point that you are very confident about the end result.
 
 **Kelsey Hightower:** I think that's why it's really critical to expose as little of the API service as possible in the beginning... Because you can always usually add something, but it's really hard to take away.
 
@@ -148,7 +148,7 @@ So when people say it's taking long, or it's too slow, or let's say there is a f
 
 And if you do have influences in the team that perhaps aren't technical or don't think about things in this way, that's when you can get a lot of tension between product, and tech, and these things... So yeah, a part of our mission as developers probably is to communicate and educate on that point. It can be very difficult to do in practice, but it's really valuable... So it's great to hear that Kubernetes as a massive, successful project, has this approach. Sometimes it's wrong about things... I think that's a great lesson for people, actually.
 
-**Jaana B. Dogan (JBD):** Kelsey, you mentioned that you learned a lot from Kubernetes as a developer... I think that Kubernetes has been playing a teaching role, as a teaching tool. Developers know more about the load balancers, networking, all the scaling implementation details, deployment... Some people think that this is an overhead, but I do think that it generally had a better impact to the overall community, and making people more aware of some of the critical design primitives. Do you agree with that?
+**Jaana Dogan:** Kelsey, you mentioned that you learned a lot from Kubernetes as a developer... I think that Kubernetes has been playing a teaching role, as a teaching tool. Developers know more about the load balancers, networking, all the scaling implementation details, deployment... Some people think that this is an overhead, but I do think that it generally had a better impact to the overall community, and making people more aware of some of the critical design primitives. Do you agree with that?
 
 **Kelsey Hightower:** Yeah, so if you're gonna go build a 30-foot skyscraper, usually all of the elements - the bathroom, the siding, the cooling, the heating - is on one blueprint. Maybe there's layers to the blueprint, but if you open up the set of blueprints for the building, everything's there. It all has to be connected. You need so much power to power the building, but you can't figure out how much power you need unless you know how many rooms, and the requirements.
 
@@ -156,11 +156,11 @@ Before Kubernetes, people were really thinking about software at different APIs.
 
 So you can say "Here's my application. It listens on this port. It needs these secrets. Oh, and I would like it exposed to the outside world with this DNS name. Oh, and if it fails, roll over to this other region." I can articulate all of that now, using a very clean API, and submit it to the system and have it converge to the proper state.
 
-**Jaana B. Dogan (JBD):** Yeah, in the sense that we've been always living in the skyscraper, and we were avoiding what's going on there... But as the architect, you have to realize the truth, and Kubernetes is providing this really accessible API. It's just like you said, it's the common language. Once you know it, you can also extend it, and it's a really good foundational--
+**Jaana Dogan:** Yeah, in the sense that we've been always living in the skyscraper, and we were avoiding what's going on there... But as the architect, you have to realize the truth, and Kubernetes is providing this really accessible API. It's just like you said, it's the common language. Once you know it, you can also extend it, and it's a really good foundational--
 
 **Kelsey Hightower:** I'm looking at getting a new house built from the ground-up. I've always bought maybe a house brand new, right? And I was like "How long will it take to build the house?" And they were very optimistic; they were happy and smiling. They said "We can get it done in a year." I was like "A year? What the hell are you doing?" And they're like "Well, here's the thing... We have to make sure that the land is prepped, we have to go get permits every step of the way. We need a permit for this piece, and we need a permit for that piece... Someone needs to go and check that we do exactly the work that the permit said we were going to do, and we have to make sure that we have all of that... And then building the house - that's roughly the easy part. It's all the other stuff that we have to do..." Because you can't mess up the house and be like "Yeah, the roof is off slightly. Don't worry. We'll ship a patch for the roof." Like, "No, I don't want a patch for the roof." \[laughter\]
 
-**Jaana B. Dogan (JBD):** \[00:28:34.00\] I have a question about this... Does this mean that you need a cloud provider to run Kubernetes?
+**Jaana Dogan:** \[00:28:34.00\] I have a question about this... Does this mean that you need a cloud provider to run Kubernetes?
 
 **Kelsey Hightower:** I love that question. Here's the thing... I meet a lot of people that say "Hey, I have very little experience. I don't know how to manage a Linux server. Hell, I don't even know how to patch a Linux server. But what I wanna do now is I wanna leapfrog all of that and just start running a massive distributed system. I can do it in probably ten minutes, fifteen tops." And I'm sitting there like "Wow, man... That's a bit disrespectful to the industry", because this is not a point-and-shoot camera. There's a lot going on to this. We're talking about the difference between making a movie and filming your child's birthday party. These aren't the same things.
 
@@ -248,7 +248,7 @@ I think the goal is I want people to be able to hyper-focus and be the best pers
 
 **Carmen Andoh:** \[00:47:58.00\] Well, you said in your Oracle experience they collapsed layers so that people could focus on a specialty, rather than all the other layers. And that particular specialty was still very productive and fruitful, and we've had lots of developers still working on it. So even if we were to collapse layers, we're still gonna find more work to do.
 
-**Jaana B. Dogan (JBD):** I feel like maybe specialization is -- there's some stigma; people don't necessarily wanna specialize because tech is changing so fast. If you just know how to wire the cable, there's no guarantee that you'll be able to take it to the next level. In tech, we change the way we work every 2-3 years, so I think that's one of the main reasons people try to avoid to specialize.
+**Jaana Dogan:** I feel like maybe specialization is -- there's some stigma; people don't necessarily wanna specialize because tech is changing so fast. If you just know how to wire the cable, there's no guarantee that you'll be able to take it to the next level. In tech, we change the way we work every 2-3 years, so I think that's one of the main reasons people try to avoid to specialize.
 
 **Kelsey Hightower:** You're right, specialization is a risk. If you over-specialize, you may find nothing to do. So I think a lot of times we take turns being specialists, even at the same job. You may specialize in QA for three months, and then you may specialize in development for another three months, and then when you step back, you say "Hey, the last year I've grown in three areas." But I typically like to focus, when I'm working, on one thing. Like, "Hey, I don't wanna play infrastructure person while I'm trying to figure out how to do my podcast."
 
@@ -308,11 +308,11 @@ Another way to solve some of the other problems we talked about is just not to h
 
 **Mat Ryer:** Yeah, I actually pair-program exclusively with my business partner, David Hernandez. We only pair-program, so we immediately both know everything about the whole thing and we're basically doing the whole stack... But it's small enough, at least at the moment, that that's okay. And if you can keep it small, I think you should. It's a goal that you should have. It pays dividends immediately; I can't advocate for it enough. It's not always possible, of course, but it fights a little bit this instinct, particularly if you do raise money and you're VC-backed, or something like this; you wanna hire, and you want to build the team, because that's what you do... But I think it's worth just taking a step back from that; maybe you don't need to do it that way.
 
-**Jaana B. Dogan (JBD):** To be fair, I worked for a company -- I was the only developer, and we were developing ten microservices.
+**Jaana Dogan:** To be fair, I worked for a company -- I was the only developer, and we were developing ten microservices.
 
 **Mat Ryer:** \[laughs\] YOU were developing ten microservices.
 
-**Jaana B. Dogan (JBD):** \[laughs\] Exactly, yeah... So just for the sake of following the microservices pattern, we were doing it. And I think this is a very common pattern in the industry.
+**Jaana Dogan:** \[laughs\] Exactly, yeah... So just for the sake of following the microservices pattern, we were doing it. And I think this is a very common pattern in the industry.
 
 **Johnny Boursiquot:** Indeed.
 

@@ -4,7 +4,7 @@
 
 **Erik St. Martin:** And Carlisia...
 
-**Carlisia Pinto:** Happy new year!
+**Carlisia Thompson:** Happy new year!
 
 **Erik St. Martin:** And we're kicking off the new year in style. We have a guest we've been wanting to get on for a long time - Paul Dix, who's CTO and founder of Influx Data, and we all love [InfluxDB](https://github.com/influxdata/influxdb).
 
@@ -64,7 +64,7 @@ So basically, my experience with Go has been overwhelmingly positive, and I've w
 
 Actually, [Ben Johnson](https://github.com/benbjohnson) ended up writing this templating thing, basically like this code generation thing that lets us hack around new generics, which is littered in our query engine code right now.
 
-**Carlisia Pinto:** Let me jump in here, because I don't want us to get too far ahead, otherwise I'll forget to ask. Paul, if you could drop a link to those couple articles you wrote about the future of Go as per your thinking, and also this tool that Ben Johnson wrote - is it open source? Could you share it with us?
+**Carlisia Thompson:** Let me jump in here, because I don't want us to get too far ahead, otherwise I'll forget to ask. Paul, if you could drop a link to those couple articles you wrote about the future of Go as per your thinking, and also this tool that Ben Johnson wrote - is it open source? Could you share it with us?
 
 **Paul Dix:** Yeah, Ben's in the Slack channel. Ben, share your code... \[laughter\]
 
@@ -74,21 +74,21 @@ Actually, [Ben Johnson](https://github.com/benbjohnson) ended up writing this te
 
 **Erik St. Martin:** We have to do what we do to everybody - we have to bring him on the show and then put him on the spot on the show.
 
-**Carlisia Pinto:** I think Ben has been on the show.
+**Carlisia Thompson:** I think Ben has been on the show.
 
 **Brian Ketelsen:** He has?
 
-**Carlisia Pinto:** Yes.
+**Carlisia Thompson:** Yes.
 
 **Paul Dix:** I'm sure he has.
 
 **Brian Ketelsen:** There's 64 episodes, I just can't remember anything past the last two.
 
-**Carlisia Pinto:** He's been on the show.
+**Carlisia Thompson:** He's been on the show.
 
 **Erik St. Martin:** Cool. That doesn't mean we can't bring him back on.
 
-**Carlisia Pinto:** Not that he couldn't be on the show again, yeah. He'll be the first repeater. But let's go on...
+**Carlisia Thompson:** Not that he couldn't be on the show again, yeah. He'll be the first repeater. But let's go on...
 
 **Paul Dix:** Oh, Cory beat me to it. [Cory](https://twitter.com/corylanou) posted in the GoTime.fm channel. This is the post that I wrote after... Yeah, it was after GopherCon 2014, so it was still pretty early.
 
@@ -98,11 +98,11 @@ Actually, [Ben Johnson](https://github.com/benbjohnson) ended up writing this te
 
 **Brian Ketelsen:** That's the first GopherCon. You're OG. Original Gopher.
 
-**Carlisia Pinto:** Brian, I have a few questions, but go ahead and say what you were gonna say.
+**Carlisia Thompson:** Brian, I have a few questions, but go ahead and say what you were gonna say.
 
 **Brian Ketelsen:** Oh, I completely forgot, but I think it had to do with code generation...
 
-**Carlisia Pinto:** You're welcome.
+**Carlisia Thompson:** You're welcome.
 
 **Brian Ketelsen:** Yeah, thanks a lot, Carlisia. My 2018 resolution is to remember what I was gonna say. I think it boiled down to writing a code generator being like the third step of denial in Go. Once you accept that there are no generics, the next thing you do is "Alright, how are we gonna start generating the stuff we need?" It feels like a rite of passage as a matured Go developer.
 
@@ -122,7 +122,7 @@ Actually, [Ben Johnson](https://github.com/benbjohnson) ended up writing this te
 
 **Paul Dix:** \[00:16:09.05\] I don't think anybody wants that.
 
-**Carlisia Pinto:** The Go language team itself, they've already dropped sufficient hints that this is not trivial, that there will be major trade-offs to make in regards to the simplicity of Go versus having that extra functionality.
+**Carlisia Thompson:** The Go language team itself, they've already dropped sufficient hints that this is not trivial, that there will be major trade-offs to make in regards to the simplicity of Go versus having that extra functionality.
 
 **Paul Dix:** Yeah. That's why I'm saying, I personally can't say I want them to add generics, because there's some section of our codebase where it was definitely painful to not have them, but most of our codebase is actually -- we don't really lose anything by not having them. We gain readability.
 
@@ -130,7 +130,7 @@ Actually, [Ben Johnson](https://github.com/benbjohnson) ended up writing this te
 
 **Paul Dix:** Yeah. I think the way Go did interfaces is actually brilliant. Before Go, I hadn't really used that. I know Scala has a similar thing, but Scala is like a kitchen sink language, in that it has everything thrown into it; there are like a million ways to program Scala. You can program Scala exactly like you do Java... So coming to Go, that was actually a real learning experience for me. I never really used that paradigm of the consumer defining the interface, and I think that's actually quite powerful. It allows you to do a lot of stuff in code that you otherwise wouldn't be able to do.
 
-**Carlisia Pinto:** Yeah, that is a crazy thing. When I understood what it was, I was thinking "Did I understand this correctly?" \[laughs\] Who had this idea was awesome. It's pretty awesome. So on that note, one question that I have is -- because you have such a tremendous experience with Go at a large scale... Is there anything you would change in the way that you went about developing InfluxDB as far as what you know today about Go, or the Go ecosystem?
+**Carlisia Thompson:** Yeah, that is a crazy thing. When I understood what it was, I was thinking "Did I understand this correctly?" \[laughs\] Who had this idea was awesome. It's pretty awesome. So on that note, one question that I have is -- because you have such a tremendous experience with Go at a large scale... Is there anything you would change in the way that you went about developing InfluxDB as far as what you know today about Go, or the Go ecosystem?
 
 **Brian Ketelsen:** That's a good question.
 
@@ -142,17 +142,17 @@ Actually, [Ben Johnson](https://github.com/benbjohnson) ended up writing this te
 
 **Erik St. Martin:** "I wrote it yesterday and I hate it."
 
-**Carlisia Pinto:** Yeah, but not so much in terms of design, but in terms of what touches the language, and maybe using the standard library, or anything like that.
+**Carlisia Thompson:** Yeah, but not so much in terms of design, but in terms of what touches the language, and maybe using the standard library, or anything like that.
 
 **Brian Ketelsen:** Is a different way to ask that "What lessons did you learn about designing software in Go, while you were building it"? Is that kind of the same question, Carlisia?
 
-**Carlisia Pinto:** Yes, it is.
+**Carlisia Thompson:** Yes, it is.
 
 **Paul Dix:** Yeah, I think part of it is how to organize your project. Honestly, I think that's something that we all fumble around with and learn over time. I can actually point to you - which I linked to in a recent blog post I did - Ben Johnson wrote this post that I think is actually very, very good about how to organize a Go project to make it understandable. I think we're closer to that in this codebase.
 
 \[00:20:04.20\] The current InfluxDB codebase is actually a complete rewrite of the original InfluxDB. That's not like a refactor, but it was essentially like a rip-and-replace rewrite almost. But in the same repo.
 
-**Carlisia Pinto:** So that's probably a good codebase to look at for example of how to organize your code, you'd say?
+**Carlisia Thompson:** So that's probably a good codebase to look at for example of how to organize your code, you'd say?
 
 **Paul Dix:** Well, I think the [link](https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091) that Brian just put up in the channel, of Ben's blog post about how to structure applications in Go - I think that is a really good blueprint for how to do it. I would do more and more like that within the Influx codebase. I'm not sure we have that everywhere, and there are some weird spots we have where a directory or a package, some packages and stuff like that that are not totally certain to make sense... But some of this is kind of just like bikeshedding; everybody can debate about what the right way to organize things is, but yeah...
 
@@ -162,7 +162,7 @@ Actually, [Ben Johnson](https://github.com/benbjohnson) ended up writing this te
 
 This is like an idea I was kind of playing around with, which is if you're building a new application in Go, is there a way to structure it as a codebase where it is a monolith, but then you can later pull out pieces of the monolith as individual services without having to do a massive refactor of your application codebase?
 
-**Carlisia Pinto:** Exactly, and that is why I personally don't think that talking about code organization in Go is a waste of time or is a lot of bikeshedding, because you can do it in a very purposeful way, which is to accomplish a goal like the one you've just said. I think if you have in mind to package things in a way that "What if I want to extract this and put it somewhere else?" or "What if I want to share this as a library, with other repositories?"
+**Carlisia Thompson:** Exactly, and that is why I personally don't think that talking about code organization in Go is a waste of time or is a lot of bikeshedding, because you can do it in a very purposeful way, which is to accomplish a goal like the one you've just said. I think if you have in mind to package things in a way that "What if I want to extract this and put it somewhere else?" or "What if I want to share this as a library, with other repositories?"
 
 If you don't think a little bit why you're organizing code in a certain way, you lose that ability, and that is a great feature that Go has embedded in the language in a way that allows you to write your code and to package it. [Bill Kennedy](https://github.com/ardan-bkennedy) also has a very good post, and I'm trying to find it here on his [blog](https://www.ardanlabs.com/blog/), about how to organize code; it's a [series of two or three posts](https://www.ardanlabs.com/blog/2017/02/package-oriented-design.html).
 
@@ -216,7 +216,7 @@ Istio stacks on top of Envoy, so if you're using Istio, you're using Envoy. And 
 
 **Erik St. Martin:** And I think it's interesting too, because then the more you use the tracing because you kind of got it for free, the more it encourages you to add new metrics to the distributed tracing to help do that. But most people aren't highly motivated to have to do the from-scratch implementation and do all of their services.
 
-**Carlisia Pinto:** \[00:35:55.01\] I wanted to ask a question that I always like to ask anyone who comes on the show that is heading a company or a big team, and that is about hiring. I wonder how is hiring Go developers going for you, what do you look for? Does it matter if the person knows Go or not, and do you recommend that people who want to work on anything that is made in Go that they go and learn Go beforehand? And anything else you wanna share about that?
+**Carlisia Thompson:** \[00:35:55.01\] I wanted to ask a question that I always like to ask anyone who comes on the show that is heading a company or a big team, and that is about hiring. I wonder how is hiring Go developers going for you, what do you look for? Does it matter if the person knows Go or not, and do you recommend that people who want to work on anything that is made in Go that they go and learn Go beforehand? And anything else you wanna share about that?
 
 **Paul Dix:** Yeah, sure. I mean, I think it's a mixed bag for hiring Go developers. The thing is we have a number of different projects, and some of them, even though they're all written in Go on some level, they require vastly different skillsets. For example, our user interface, Chronograph - there's a bunch of Go code, and there's this massive single-page React/JavaScript application. But the Go code in that is very different than the Go code you'd find, say, in the storage engine or the query engine of the database. Both are Go, but I don't feel like Go developers are kind of interchangeable, so that I can just say, "Oh, go write the database", or you take a database person and say "Go write these web APIs", or whatever.
 
@@ -228,27 +228,27 @@ I wouldn't want to hire somebody who didn't know anything about Go, just because
 
 I think for hiring we benefitted for sure from having open source bits all over the place. We've hired a number of people from our contributor community. We've seen commits and actually reached out to them and said, "Hey, your code looks great. We're really interested to talk to you and see if you'd be interested in coming to work with us." That's nice, but that doesn't really scale, and like I said, we kind of have to double our engineering team in 12 months, so at this point we use that, we use job boards, we use recruiters, and I feel like for some of these roles we're definitely gonna be pulling in people who aren't familiar with Go and training them up on the job.
 
-**Carlisia Pinto:** \[00:40:13.06\] This was super informative, Paul. Thanks.
+**Carlisia Thompson:** \[00:40:13.06\] This was super informative, Paul. Thanks.
 
 **Erik St. Martin:** I'm forgetting what time we stared, but I think we're running shorter on time... Do we wanna jump into some projects and news before we do \#FreeSoftwareFriday?
 
 **Brian Ketelsen:** Yes!
 
-**Carlisia Pinto:** There is a huge list there, oh my god!
+**Carlisia Thompson:** There is a huge list there, oh my god!
 
 **Erik St. Martin:** We haven't been on the show for weeks.
 
-**Carlisia Pinto:** Okay. \[laughs\]
+**Carlisia Thompson:** Okay. \[laughs\]
 
 **Erik St. Martin:** So much cool stuff to talk about!
 
 **Brian Ketelsen:** So I'll start off with a new project that I saw, that I didn't play with yet, but man, does it look cool! It's called Grumble, and it's at [GitHub.com/desertbit/grumble](https://github.com/desertbit/grumble). It's an automatic CLI and shell tool. The API for it looks almost like an exact clone of Cobra, from [Steve Francia's](https://twitter.com/spf13) SPF13 [Cobra](https://github.com/spf13/cobra) library. However, it also has a shell. So instead of just being able to do command lines, you can drop into a shell and have an interactive shell that works with your application. I really wanna play with that, because that looks kind of fun.
 
-**Carlisia Pinto:** This looks cool... Like a repl kind of thing?
+**Carlisia Thompson:** This looks cool... Like a repl kind of thing?
 
 **Brian Ketelsen:** Exactly.
 
-**Carlisia Pinto:** Nice!
+**Carlisia Thompson:** Nice!
 
 **Paul Dix:** Sorry, I missed the link. Can you post it in the channel?
 
@@ -296,7 +296,7 @@ So I think it's interesting because they have their monitoring product called St
 
 **Brian Ketelsen:** Boy, was that me... Who was I having this conversation with the other day...? I was helping somebody learn Go, and they were like "Well, what do you do about when it tells you it expected this, but got that?" and I said "Just change it from & to *." They were like "What?" I said, "It doesn't matter why, just do that until you understand." And that's how I go through Go the first year, because I had no clue what pointers were. I came from Ruby.
 
-**Carlisia Pinto:** \[00:48:05.11\] It's always one or the other... Two choices. If one doesn't work, the other will. \[laughs\]
+**Carlisia Thompson:** \[00:48:05.11\] It's always one or the other... Two choices. If one doesn't work, the other will. \[laughs\]
 
 **Brian Ketelsen:** Change it and recompile, see what happens.
 
@@ -330,27 +330,27 @@ So I think it's interesting because they have their monitoring product called St
 
 **Erik St. Martin:** Yeah. So time for \#FreeSoftwareFriday. Who wants to go first?
 
-**Carlisia Pinto:** Me!
+**Carlisia Thompson:** Me!
 
 **Erik St. Martin:** Alright, Carlisia, let's hear it.
 
-**Carlisia Pinto:** So this week was the first time that I had an if error loop inside another if error loop, and I sort of wanted to report both errors. If there was an error in both loops, I wanted to wait for the second one and then report both. So I was thinking, well, there has to be a neat way to do this, and then I found this package from HashiCorp called [go-multierror](https://github.com/hashicorp/go-multierror). I didn't know this package before. It's very simple, it lets you do exactly that, and I thought it was pretty neat. It just appends one error to the other, and you can have a bunch of errors just appended, just like you append to a list. I thought that was neat.
+**Carlisia Thompson:** So this week was the first time that I had an if error loop inside another if error loop, and I sort of wanted to report both errors. If there was an error in both loops, I wanted to wait for the second one and then report both. So I was thinking, well, there has to be a neat way to do this, and then I found this package from HashiCorp called [go-multierror](https://github.com/hashicorp/go-multierror). I didn't know this package before. It's very simple, it lets you do exactly that, and I thought it was pretty neat. It just appends one error to the other, and you can have a bunch of errors just appended, just like you append to a list. I thought that was neat.
 
 **Brian Ketelsen:** Does the multi-error present itself as a single error with a underlying slice of errors with it, so you can still use it in place of something that expects an error?
 
-**Carlisia Pinto:** It will present itself as one error.
+**Carlisia Thompson:** It will present itself as one error.
 
 **Brian Ketelsen:** Oh, that's cool.
 
-**Carlisia Pinto:** Yeah. Not a list of errors, just one error.
+**Carlisia Thompson:** Yeah. Not a list of errors, just one error.
 
 **Brian Ketelsen:** But then you could type-assert it and get the underlying errors, too?
 
-**Carlisia Pinto:** I did not test that.
+**Carlisia Thompson:** I did not test that.
 
 **Brian Ketelsen:** Okay, I'll go check it out. That sounds pretty slick.
 
-**Carlisia Pinto:** I think it will be just one string of all the errors. Maybe separated by some separator, maybe a dot.
+**Carlisia Thompson:** I think it will be just one string of all the errors. Maybe separated by some separator, maybe a dot.
 
 **Brian Ketelsen:** \[00:52:07.07\] Cool. Alright, I'll go next. I found the coolest - to me, coolest; I love hacky, crazy things... This is an application called LXRunOffline. I've been using Windows as a development environment for many months now, along with my Mac and my Linux machines, and Windows has the WSL (Windows Subsystem for Linux) and previously you were only able to install one installation, which was Ubuntu; then with the Fall Creators Update, they brought two more, so you could have openSUSE, Ubuntu and -- not Fedora, but a different one; I can't remember which. So you could have three installations, but that was it. You were limited to those three.
 
@@ -368,7 +368,7 @@ So this LXRunOffline app allows you to create any number of installations of WSL
 
 **Brian Ketelsen:** Yeah, we could have a series of shows about operating systems and I still would not run out of things to say about all three of them. Alright, any other \#FreeSoftwareFriday shoutouts?
 
-**Carlisia Pinto:** Paul, do you have anything?
+**Carlisia Thompson:** Paul, do you have anything?
 
 **Paul Dix:** Yeah, I'll do one. Unfortunately it's not specifically a Go one. I will give a shoutout to [Wes McKinney](https://twitter.com/wesmckinn), who built a lot of stuff. [Pandas](https://github.com/pandas-dev/pandas) is what he's most famous for, but [Apache Arrow](https://arrow.apache.org/) is a project that he is putting a lot of work into, that I think is particularly interesting.
 
@@ -400,6 +400,6 @@ If you have ideas for how to incorporate [OpenCV](https://github.com/opencv/open
 
 **Erik St. Martin:** Have you been watching a lot of PBS? \[laughter\] Alright, bye everybody! We'll see you next week!
 
-**Carlisia Pinto:** Bye! This was fun!
+**Carlisia Thompson:** Bye! This was fun!
 
 **Paul Dix:** Bye!

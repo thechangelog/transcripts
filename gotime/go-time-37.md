@@ -2,7 +2,7 @@
 
 On the show today we have myself, Erik St. Martin, Carlisia Pinto is also here - say hello, Carlisia...
 
-**Carlisia Pinto:** Hey, everybody.
+**Carlisia Thompson:** Hey, everybody.
 
 **Erik St. Martin:** And Brian Ketelsen who, if you were listening to the pre-show, is crazy hyped up today. Say hello, Brian...
 
@@ -18,7 +18,7 @@ On the show today we have myself, Erik St. Martin, Carlisia Pinto is also here -
 
 **Erik St. Martin:** I'll call your bluff. \[laughter\]
 
-**Carlisia Pinto:** Such a rebel.
+**Carlisia Thompson:** Such a rebel.
 
 **Brian Ketelsen:** And let all of our 12 listeners down? You will never do it. I call you on that one.
 
@@ -90,7 +90,7 @@ There's a part of my weekly activities - I regularly program in C++, Python, Jav
 
 When you look at the amount of effort it takes to do that in other languages, even C++ with all the different dynamically-linked libs, the fact that things are statically linked in Golang - this is really the triumvirate of core capabilities you need to do device-oriented programming. So if the Go team themselves didn't realize how great it was for this, well we, their audience, do.
 
-**Carlisia Pinto:** \[00:16:09.18\] It's delightful to hear that Go is working so well for hardware, because hardware is hard... There's so many things... I have such bad luck with hardware - whenever I touch it, the thing (whatever it is) breaks. As delightful as it is, I wanted to ask what do you see as opportunities for improvement for Go as far as hardware and IoT?
+**Carlisia Thompson:** \[00:16:09.18\] It's delightful to hear that Go is working so well for hardware, because hardware is hard... There's so many things... I have such bad luck with hardware - whenever I touch it, the thing (whatever it is) breaks. As delightful as it is, I wanted to ask what do you see as opportunities for improvement for Go as far as hardware and IoT?
 
 **Ron Evans:** Well, funny you should mention that... There's really a few things that can make the big difference that currently are either completely lacking or are in the very early stage and need a lot more community involvement. The answer to everything is more community involvement, naturally. The first one is Bluetooth 4.0 a.k.a. Bluetooth Low Energy. This wireless standard is the core of device interactions with a whole category of different devices, and it's really the fundament of the next generation of wireless IoT.
 
@@ -154,13 +154,13 @@ They've had tremendous community buildup around it. There's all kinds of interes
 
 **Brian Ketelsen:** I know...
 
-**Carlisia Pinto:** Okay, give us a hint.
+**Carlisia Thompson:** Okay, give us a hint.
 
 **Ron Evans:** So I finally got to meet [Renée French](https://twitter.com/reneefrench) in real life at the last GopherCon, and obviously I'm a big admirer of the gopher, and the talk about the standards for appropriate gopherism, which I know is a topic that has concerned all of us at one time or another... So I've never actually gotten any official yay or a nay for any of these things, although I had sent Gobot T-shirts to both her and Rob Pike (the least we could do). So I never had the chance to ever meet her or talk to her about it, so I was delighted to find that she liked what we had done, and then I told her about the thing that we're gonna be bringing to Hardware Hack Day. That's all I'll give you... \[laughs\]
 
 **Brian Ketelsen:** Wow... This sounds huge.
 
-**Carlisia Pinto:** Okay, sounds very good.
+**Carlisia Thompson:** Okay, sounds very good.
 
 **Ron Evans:** It's relatively small, and yet big at the same time.
 
@@ -174,7 +174,7 @@ They've had tremendous community buildup around it. There's all kinds of interes
 
 **Erik St. Martin:** Speaking of which, speakers were announced... If you are listening live - or even by the time you hear this show - if you have not looked, definitely go look at the speakers. We're kind of jumping ahead, but yeah...
 
-**Carlisia Pinto:** \[laughs\] You are thoroughly jumping ahead, but that's cool... \[laughter\]
+**Carlisia Thompson:** \[laughs\] You are thoroughly jumping ahead, but that's cool... \[laughter\]
 
 **Erik St. Martin:** \[00:27:47.02\] One cool thing to talk about when we talk about Gobot and stuff - and even bringing up Brian's barbecue thing - is a lot of people feel like hardware is unapproachable, and Arduino was a big kick back into the maker scene, and people are able to do a lot of things with hardware more easily than they think they're able to. But using stuff like Gobot makes it even more approachable, and Brian can give a good example of that with the barbecue thing he built. How long do you think it took you to wire that together, Brian?
 
@@ -212,11 +212,11 @@ We're very lucky at Hybrid Group because we get to do a lot of open source devel
 
 **Erik St. Martin:** Well, it's similar to the software world, it's an idiom, right?
 
-**Carlisia Pinto:** I was gonna say that, yeah.
+**Carlisia Thompson:** I was gonna say that, yeah.
 
 **Ron Evans:** Exactly.
 
-**Carlisia Pinto:** The idiom of hardware.
+**Carlisia Thompson:** The idiom of hardware.
 
 **Ron Evans:** Exactly, and so very intelligent people are suddenly either in the field positioned in the corner because they suddenly feel like, "I'm not smart now... I was smart earlier today, and now I'm not smart anymore because I couldn't make this wiring work."
 
@@ -226,7 +226,7 @@ If anything we wanna do with Gobot, it's to try to encourage more people to have
 
 **Erik St. Martin:** I retweeted somebody a couple of days ago too, and it really kind of resonated with me. It basically said something about like if you're writing documentation or a tutorial or something, to banish the words *easy* and *simple* from that, because it's not easy or simple if you've never done anything like that before. I think that's true... And another one I'll add is the word "*just*" - "you just have to..." It puts people in a position where they don't feel like they're capable, or that when they're struggling that it's just not for them, because it should be easy.
 
-**Carlisia Pinto:** Those words are immediate triggers for *impostor syndrome*.
+**Carlisia Thompson:** Those words are immediate triggers for *impostor syndrome*.
 
 **Ron Evans:** I'm going to review our documents, because I am very guilty of this. I thought that I was graciously inviting people by trying to make the way seem easier, but if I'm having the opposite effect then it's my responsibility as a maintainer to try to do something about it, and of course that just means editing some text.
 
@@ -258,7 +258,7 @@ My kids have told me, "Dad, you're addicted to coding." And I say, "I can stop a
 
 **Ron Evans:** So it's definitely something that we have to learn more about as far as the human part of code, and it's the only part that matters. You know, I'm a humanist; I work with technology as means to an end, towards a happier human being. The point is not the technology, it's what it does for us. We really can't forget that.
 
-**Carlisia Pinto:** \[00:44:10.01\] Absolutely. I wanted to ask you, Ron, what are the more popular uses for Gobot, as far as you can tell?
+**Carlisia Thompson:** \[00:44:10.01\] Absolutely. I wanted to ask you, Ron, what are the more popular uses for Gobot, as far as you can tell?
 
 **Ron Evans:** Well, on the one hand you have the makers - the people who are hackers, who want to put together some individual, bespoke solution to a particular problem they have. You could maybe go buy a cheaper, prefabricated version of your garage door opening system, but then you would lack the satisfaction of having done something. So that's one on the maker side, and it's not about reproducing the thing, it's about just making one for yourself.
 
@@ -327,7 +327,7 @@ Maybe we need licensing models where you're able to turn on or off the ability o
 
 **Erik St. Martin:** I think we're about running out of time. Do you guys wanna do some \#FreeSoftwareFriday? Did I lose everybody?
 
-**Carlisia Pinto:** \[laughs\] Okay, let's do it.
+**Carlisia Thompson:** \[laughs\] Okay, let's do it.
 
 **Brian Ketelsen:** I was on pause. Or on mute. Yes.
 
@@ -341,7 +341,7 @@ Maybe we need licensing models where you're able to turn on or off the ability o
 
 **Erik St. Martin:** So for everybody who's new to the show, every week we like to give a shoutout to open source authors or projects that have been making our lives easier, just because often times they only hear from us when we want more stuff from them. Carlisia, do you wanna start this week off?
 
-**Carlisia Pinto:** Yes, I don't have a software or an app per se, but I do wanna give a shoutout to Francesc Campoy. He is the most enthusiastic gopher that I know of, and he has this [Just4Func](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw/featured) YouTube channel. This is actually what I wanna give a shoutout to, because every so often he puts up short videos, and they're really well done; he'll be coding something and he'll record it. If you don't know about it, you should check it out.
+**Carlisia Thompson:** Yes, I don't have a software or an app per se, but I do wanna give a shoutout to Francesc Campoy. He is the most enthusiastic gopher that I know of, and he has this [Just4Func](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw/featured) YouTube channel. This is actually what I wanna give a shoutout to, because every so often he puts up short videos, and they're really well done; he'll be coding something and he'll record it. If you don't know about it, you should check it out.
 
 **Brian Ketelsen:** I love his YouTube channel. Those are so awesome, I love those shows.
 
@@ -417,7 +417,7 @@ If you wanna do hardware hacking that's not Gobot, bring it. If you just wanna h
 
 **Erik St. Martin:** Yeah, huge thank you for Ron coming on the show. Thank you to all of our listeners listening live and to everybody who will be listening to this in the future. Definitely share the show with family, friends, co-workers... Check out the cool new changelog.com/live when we are live broadcasting if you wanna listen. We are on [Twitter](https://twitter.com/GoTimeFM). If you wanna be on the show, you have a suggestion for people to be on the show - [ping](https://github.com/GoTimeFM/ping) us, and as always, a massive shoutout to our sponsors, Backtrace and The Ultimate Go Training Series for helping make this show possible. With that, goodbye, everybody. We'll see you next week!
 
-**Carlisia Pinto:** Goodbye!
+**Carlisia Thompson:** Goodbye!
 
 **Brian Ketelsen:** Goodbye!
 

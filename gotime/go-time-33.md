@@ -6,7 +6,7 @@ Today on the show for hosts we have myself, Erik St. Martin... Brian Ketelsen co
 
 **Erik St. Martin:** And we also have Carlisia Pinto on the call...
 
-**Carlisia Pinto:** Hi, everybody.
+**Carlisia Thompson:** Hi, everybody.
 
 **Erik St. Martin:** And our guest for today - he's been speaking a lot and is also an author... Welcome, Mat Ryer.
 
@@ -26,7 +26,7 @@ It's great, and that's kind of why I talk about it all the time and why I use it
 
 **Erik St. Martin:** When did you jump in, Carlisia?
 
-**Carlisia Pinto:** I got started with this whole thing when I went to GopherCon in 2015, and when I got back I started doing it on the side, learning and getting involved with the community, and going to the Go meetups in San Diego.
+**Carlisia Thompson:** I got started with this whole thing when I went to GopherCon in 2015, and when I got back I started doing it on the side, learning and getting involved with the community, and going to the Go meetups in San Diego.
 
 **Erik St. Martin:** And Kelsey, you spoke at the first GopherCon, so you were using Go for quite a while before then, too. Were you pre-1.0?
 
@@ -78,7 +78,7 @@ If you look through the getbitbar.com, there's a wealth of different things in t
 
 **Mat Ryer:** Yes.
 
-**Carlisia Pinto:** I think so, too. At least for me, I only star things that I would actually like to find again, even if I don't remember I starred it. It's like a bookmark for me.
+**Carlisia Thompson:** I think so, too. At least for me, I only star things that I would actually like to find again, even if I don't remember I starred it. It's like a bookmark for me.
 
 **Erik St. Martin:** That's interesting, the way you use the things on the different platforms are different. You're right, Twitter is more like a nod, like "I saw this. I'm listening, I hear you." It's not like, "Oh my god, I love this." Most people just use it as a way to recognize that they're listening to you, but GitHub stars are kind of different... Those are things that you're really interested in.
 
@@ -144,7 +144,7 @@ I think some author said that the art of writing is rewriting. I think we're tal
 
 \[00:28:12.15\] I genuinely do usually write things twice, and it sounds wasteful, I think, to a lot of people, but the value is there; I'm gonna do it on Gopherize Me. I'll tag the repo as well, so that people can see the before and after. There's bits in there now that can be cleaned away, and some things could be a little more performant, but we were able to get it out very early, and now it has its own life, so it's worth the effort to go and improve the bits that might need improving.
 
-**Carlisia Pinto:** That's a very good point about rewriting. Sometimes we might have such a big attachment to code, and code is not really the point. I mean, at least that's the way I see things now after having been programming for a while. Code is just something you output in the process of learning the domain, and learning what it is that you need to do, as opposed to what you think you need to do when you start a project. So when people want to change things around, change requirements and that involves throwing a project away, I no longer resist it because the true valuable artifact that came out of that was the knowledge that you acquired, and then you move on to writing something of value... As opposed to, "Oh no, I wrote this code and I need to hold on to it because, you know, all the time that I've spent writing that code... So we must keep it, otherwise we're throwing that time away." That's not the point at all, I don't think...
+**Carlisia Thompson:** That's a very good point about rewriting. Sometimes we might have such a big attachment to code, and code is not really the point. I mean, at least that's the way I see things now after having been programming for a while. Code is just something you output in the process of learning the domain, and learning what it is that you need to do, as opposed to what you think you need to do when you start a project. So when people want to change things around, change requirements and that involves throwing a project away, I no longer resist it because the true valuable artifact that came out of that was the knowledge that you acquired, and then you move on to writing something of value... As opposed to, "Oh no, I wrote this code and I need to hold on to it because, you know, all the time that I've spent writing that code... So we must keep it, otherwise we're throwing that time away." That's not the point at all, I don't think...
 
 **Mat Ryer:** Yeah, I completely agree. And Go does this for us. Go is a minimalistic language, it's a simple language, so you don't tend to invest too much time; as long as you are building things, discrete little packets of functionality, you can quickly get something that you need, get something that's working. And because you don't invest too heavily, you're happy to kind of throw it away a little bit, which I think is very important. And TDD also helps, because if you have good test coverage, you don't mind ripping out junks, you can be quite bold in how you treat the codebase, because you sort of have the safety net of tests; you know that it still works as it did before, whether the promises you've made are still kept. Go, by the fact that it has this minimalistic and simplistic philosophy around it, I think helps no end there.
 
@@ -166,7 +166,7 @@ We had that in 1.7, but now we have that on the client side in 1.8, where you ca
 
 **Erik St. Martin:** Oh, that's interesting... I didn't even catch that one. But yeah, I'd agree with the graceful shutdown, because we almost always have to write that ourselves for a well-behaved HTTP server. So having that in there is great.
 
-**Carlisia Pinto:** Is there any link that we can give to people so they can read and understand how that works now?
+**Carlisia Thompson:** Is there any link that we can give to people so they can read and understand how that works now?
 
 **Kelsey Hightower:** Yeah, so Brad's comment in one of the issues - I think we should definitely give out the link... He gave -- it was actually from his code and his words... It was a pretty small change to do in terms of the work that has been done up to this point to make it happen. The issue has a great comment on what it does, and also the docs - one of the things that are so great about Golang is the docs have pretty good examples and description on what it does and what it doesn't do. For instance, we don't do clean shutdown necessarily for web sockets, for example. That came up in the issue, and I think you'll find that little note in the documentation. So I just look at tip of the Golang package documentation, and I just read about the particular shutdown function. The function name is shutdown.
 
@@ -188,7 +188,7 @@ I think dependency management and things like that - this is something that we s
 
 **Erik St. Martin:** \[00:40:08.08\] There's actually been some cool projects also that I think many of us have come across this week. Do you guys wanna take a couple minutes to talk about those?
 
-**Carlisia Pinto:** Yeah.
+**Carlisia Thompson:** Yeah.
 
 **Erik St. Martin:** So actually now's probably a good time for a sponsored break, and then we'll jump into those. I've got a really cool one that I wanna talk about, too. Our second sponsor for today is Ardan Labs, with their Ultimate Go Series.
 
@@ -200,11 +200,11 @@ So let's talk about some interesting projects and other news that we've come acr
 
 **Kelsey Hightower:** I don't know, Erik... That doesn't really sound like fun to me. \[laughter\] I'm joking.
 
-**Carlisia Pinto:** It's pretty cool.
+**Carlisia Thompson:** It's pretty cool.
 
 **Erik St. Martin:** Who wants to write GUI apps? \[laughs\]
 
-**Carlisia Pinto:** Hey, we need GUI apps.
+**Carlisia Thompson:** Hey, we need GUI apps.
 
 **Erik St. Martin:** It's really cool, a couple years ago I wanted to build some GUI applications and I was having a hard time -- there was Electron, and I was trying to use the Chrome embedded framework, some Go bindings and stuff like that... That was gonna be more work to get a quick win than I was willing to accept, but this looks really good and I'd like to start trying to build some stuff with it.
 
@@ -228,7 +228,7 @@ Maybe that's the motivation for the desktop app, that I know if I wanna throw to
 
 **Kelsey Hightower:** Yeah, I think that makes perfect sense when you talk to it that way. I think it's less "I think my language is the best language and the only language", it's more about -- and I think Carlisia brought this up earlier... Syntax isn't the goal. Putting words inside of a file and compiling it is not the goal. We just really wanna build something, and that is just kind of the price of a mission there. We don't wanna have to pay that twice. If you've already paid to learn one language and learn it well, and you're highly productive in it, you would like to kind of recoup those costs for other projects, and it kind of sucks that. You have to context-switch or learn something completely new before you can even start to work on the actual hard problem, which is your idea.
 
-**Carlisia Pinto:** \[00:47:55.23\] Yeah, absolutely. I'm very involved with Go, as everybody can tell, and some people ask me "Why do you like Go so much? What's the big deal?" Go has pros and cons, and it's a matter of personal preference. I was ready to move to something new, and I chose Go, and that was it. I loved the community, but for me, I'm doing Go exclusively because I don't want to have the context-switch. For me it takes a tool, and that's why I'm doing Go now and Go is all that I'm doing, because I don't want the context-switching. It's costly for some people; some people can do it, but not everybody.
+**Carlisia Thompson:** \[00:47:55.23\] Yeah, absolutely. I'm very involved with Go, as everybody can tell, and some people ask me "Why do you like Go so much? What's the big deal?" Go has pros and cons, and it's a matter of personal preference. I was ready to move to something new, and I chose Go, and that was it. I loved the community, but for me, I'm doing Go exclusively because I don't want to have the context-switch. For me it takes a tool, and that's why I'm doing Go now and Go is all that I'm doing, because I don't want the context-switching. It's costly for some people; some people can do it, but not everybody.
 
 **Erik St. Martin:** I want it when I'm exploring, but not when I'm trying to get stuff done.
 
@@ -236,15 +236,15 @@ Maybe that's the motivation for the desktop app, that I know if I wanna throw to
 
 I've seen that in kids, too. They'll just use whatever language that they use primarily - maybe at school they only speak in English, so when they come home, they may not wanna context-switch, so they continue to speak in English. I think a lot of people have that, regardless of programming language or anything else in life. I think we're creatures of habit, but I've seen it in other places as well, based on the environment.
 
-**Carlisia Pinto:** And obviously, English is not my first language, and I wonder if I'm even more sensitive to context-switching with programming languages, because I also have the context-switching with the national language. Portuguese is my native language, I speak some Spanish (I studied), but I don't have a lot of opportunities to speak it, and obviously, I speak a lot of English during my day-to-day work and a lot of other things.
+**Carlisia Thompson:** And obviously, English is not my first language, and I wonder if I'm even more sensitive to context-switching with programming languages, because I also have the context-switching with the national language. Portuguese is my native language, I speak some Spanish (I studied), but I don't have a lot of opportunities to speak it, and obviously, I speak a lot of English during my day-to-day work and a lot of other things.
 
 **Kelsey Hightower:** Carlisia, do you think you do that? Do you catch yourself preferring one language over the other maybe because it's easier to express your ideas in one language or the other?
 
-**Carlisia Pinto:** Yeah, absolutely. English for me is a life-saver. It's so much easier for me to express myself in English, even though it's not my native language. If I get mad, it's English. \[laughter\]
+**Carlisia Thompson:** Yeah, absolutely. English for me is a life-saver. It's so much easier for me to express myself in English, even though it's not my native language. If I get mad, it's English. \[laughter\]
 
 **Kelsey Hightower:** Oh, wow!
 
-**Carlisia Pinto:** Yeah... It's English, for sure. I don't even care if you don't understand it. \[laughs\]
+**Carlisia Thompson:** Yeah... It's English, for sure. I don't even care if you don't understand it. \[laughs\]
 
 **Erik St. Martin:** See, I think at a point if you get mad and you curse in a language, that's your native language, probably; that's the language you go to. \[laughter\]
 
@@ -286,13 +286,13 @@ So I'm kind of on the fence with serverless as just a different way to program, 
 
 The other one is GNU Radio. I didn't realize just how much you could do with that. And there's a GNU Radio Companion (I think that's what it's called) that goes along with it and you kind of assemble a workflow for the radio frequency to go through. Super cool tools, they do a ton.
 
-**Carlisia Pinto:** Can I give a shoutout to something? I just realized that it's timely, because it's gonna happen next Wednesday. I just realized, it's just entering my radar that Gopher Academy has a big marker channel, which is the same as the Go Remote Meetup, that separate channel with separate events. And next Wednesday, 8th February there is going to be one, and the title is "Your First PR. Contributing to an open source Go project." I always love any effort to get people to contribute to open source, so I highly encourage people who have that intention to participate either alive, or afterwards it will be recorded.
+**Carlisia Thompson:** Can I give a shoutout to something? I just realized that it's timely, because it's gonna happen next Wednesday. I just realized, it's just entering my radar that Gopher Academy has a big marker channel, which is the same as the Go Remote Meetup, that separate channel with separate events. And next Wednesday, 8th February there is going to be one, and the title is "Your First PR. Contributing to an open source Go project." I always love any effort to get people to contribute to open source, so I highly encourage people who have that intention to participate either alive, or afterwards it will be recorded.
 
 **Erik St. Martin:** \[01:00:07.14\] Yeah, definitely... If you've never pushed a PR to any open source project, you should attend that. I think it's important for people to do and to give back.
 
 **Mat Ryer:** The Go newsletter - and this isn't just because I happen to be at the top of it this week... I love getting the Go Weekly newsletter. You can google that, because anyone that doesn't have it should get it. That is a great way to learn about various projects and happenings in and around the Go community. I love it.
 
-**Carlisia Pinto:** Yeah, we do, too.
+**Carlisia Thompson:** Yeah, we do, too.
 
 **Erik St. Martin:** So I think with that we are out of time, and I wanna thank everybody for being here. Huge thank you to Kelsey for stepping in for Brian, definitely a huge thank you for Mat for coming on and for Gopherize Me... All the people I follow on Twitter are now cool-looking gophers. \[laughter\]
 
@@ -308,7 +308,7 @@ The other one is GNU Radio. I didn't realize just how much you could do with tha
 
 **Erik St. Martin:** Oh, wow... So huge thank you to all of our listeners and to our sponsors, Backtrace and Ardan Labs' Ultimate Go Series. Definitely share this show with friends and co-workers who you think might be interested. You can subscribe by going to GoTime.fm. Follow us on Twitter, we are @GoTimeFM and if you wanna be on the show or have suggestions for guests on the show, topics etc. GitHub.com/GoTimeFM/ping. With that, goodbye everybody, we'll see you next week!
 
-**Carlisia Pinto:** Bye!
+**Carlisia Thompson:** Bye!
 
 **Kelsey Hightower:** Goodbye!
 
