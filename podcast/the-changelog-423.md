@@ -172,7 +172,7 @@ It's kind of like if you were to write code on a whiteboard - it's similar in pr
 
 **Jerod Santo:** How would you spell the word "break"?
 
-**Josh Comeau:** Well, it depends on which one, but let's go with the eak. It would be "bat, red, each, air, crunch."
+**Josh Comeau:** Well, it depends on which one, but let's go with the e-a-k. It would be "bat, red, each, air, crunch."
 
 **Break:** \[00:27:08.24\]
 
@@ -186,7 +186,7 @@ It's kind of like if you were to write code on a whiteboard - it's similar in pr
 
 **Adam Stacoviak:** Hear/here? Anyways...
 
-**Jerod Santo:** Hear, hear...
+**Jerod Santo:** Here, hear!
 
 **Adam Stacoviak:** Take it away, Josh. Do some live coding for us. Set the stage. What are you gonna do?
 
@@ -196,7 +196,7 @@ First, I have to make sure that I've enabled it, because... There we are. So ess
 
 **Jerod Santo:** Yeah, just code it up.
 
-**Josh Comeau:** Cool. "Elm, h1. Title, hello world. Slap elm paragraph. Say, This is a paragraph example. Go down. Slap second. Styled paragraph paragraph. Rule, color red. Rule, font size ten. Go down slap second. Styled h1 title. Rule, color brown."
+**Josh Comeau:** Cool. "Elm, h1. Title, hello world. Slap elm paragraph. Say, This is a paragraph example. Go down. Slap second. Style paragraph paragraph. Rule, color red. Rule, font size ten. Go down slap second. Style h1 title. Rule, color brown."
 
 Yeah, I guess that's sufficient. I was trying to think of other neat, little tricks, but... That's essentially it.
 
