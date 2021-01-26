@@ -12,17 +12,17 @@
 
 **Jerod Santo:** Well, I've got two questions queued up, so I guess you can guess which one's which. The first one is "What does WMR stand for?" and I know that that's not controversial, but it's ambiguous, because you're not really sure yet. You've got some multiple things going on... Tell us what WMR stands for, Jason.
 
-**Jason Miller:** Yeah, I think I remember what the team decided on... To say it was an argument would be a miscategorization. It's more -- you know the Npm header, how they scroll through random definitions of what Npm might mean? We essentially just have a joke where we continue to do that in our chat. So I think the dry, boring version is originally I started this project as a joke, and the joke was it was going to be called Warm Module Replacement, which is...
+**Jason Miller:** Yeah, I think I remember what the team decided on... To say it was an argument would be a miscategorization. It's more -- you know the npm header, how they scroll through random definitions of what npm might mean? We essentially just have a joke where we continue to do that in our chat. So I think the dry, boring version is originally I started this project as a joke, and the joke was it was going to be called Warm Module Replacement, which is...
 
 **Jerod Santo:** \[00:04:28.24\] Not quite hot.
 
-**Jason Miller:** Like, less hot than hot module replacement... \[laughter\] Like, it's module replacement that you can touch... I don't know. It seemed funny at the time. And the Npm name was free. And then we spent a week or two trying to come up with a better name, and failed. So we called the company Apple -- or, we called the project WMR. \[laughter\]
+**Jason Miller:** Like, less hot than hot module replacement... \[laughter\] Like, it's module replacement that you can touch... I don't know. It seemed funny at the time. And the npm name was free. And then we spent a week or two trying to come up with a better name, and failed. So we called the company Apple -- or, we called the project WMR. \[laughter\]
 
 **Nick Nisi:** This is probably something that we can help out with...
 
 **Jason Miller:** \[laughs\] There's a lot of funny ones. I forget what the one -- it was like "Wet Module Replacement", or somebody suggested "Web Modules Runtime", which, that feels kind of reasonable.
 
-**Jerod Santo:** Right. That one's almost too normal. So here's what we did, Jason - we saw this conundrum, and we're fans of the Npm scrolling title... Or not scrolling, but random acronym replacement... And so we thought we'd help you out. We assembled a crack team of marketers and came up with some alternate replacements for you. So we're gonna pitch you a few, and you let us know if you like these. The first one is Windows Me Returns.
+**Jerod Santo:** Right. That one's almost too normal. So here's what we did, Jason - we saw this conundrum, and we're fans of the npm scrolling title... Or not scrolling, but random acronym replacement... And so we thought we'd help you out. We assembled a crack team of marketers and came up with some alternate replacements for you. So we're gonna pitch you a few, and you let us know if you like these. The first one is Windows Me Returns.
 
 **Jason Miller:** \[laughs\] Yeah, I would take that.
 
@@ -118,7 +118,7 @@
 
 **Jason Miller:** The maybe more appropriate answer is it's a web app where the thing that you have front of mind and the constraints that you have on your mind as you develop are modern browsers, modern UX, modern dependencies... Sort of this general assumption that this is not going to be trying to use code from the late 2000's, this is not going to be trying to service necessarily browsers from the late 2000's... Certainly, it would be written in modern JavaScript, which -- yeah, another recursive definition there, but... You know, ES2017 or newer kind of thing.
 
-And the most important one, I think, at least for me, is the toolchain is optimized to give you the best experience possible for ES modules, and TypeScript, and some of these things that are now only present on Npm... But there are still large swathes of modules on Npm that have not moved over to those things, or that sort of exist from an era prior to all of that.
+And the most important one, I think, at least for me, is the toolchain is optimized to give you the best experience possible for ES modules, and TypeScript, and some of these things that are now only present on npm... But there are still large swathes of modules on npm that have not moved over to those things, or that sort of exist from an era prior to all of that.
 
 So in a typical bundler setup, especially in like an ahead-of-time bundling setup, generally there's layers of abstraction added in. So you import a thing and you're not actually importing that thing, you're importing a compiled version of that thing... And WMR basically takes the stance that some of those layers of abstraction actually hurt newer, more readable dependencies in code you might write in order to support older, maybe less readable - and in WMR's case, we hope, slightly less important to your project - modules.
 
@@ -172,7 +172,7 @@ So originally, I started WMR as like a better Glitch static; basically, a static
 
 That's also where this whole concept of not having to install dependencies came from... So it's a pain in the butt to manage your package.json; and especially on Glitch, every edit you make to the package.json redownloads all the Node modules via Pnpm and populates them in the Node modules directory.
 
-\[unintelligible 00:21:18.21\] if you don't run Npm install and you import a package in your code, will just go and fetch it for the registry, and stream it to disk. And interestingly, we stream it to disk knowing that you're only gonna use it as a source code package, so we don't run package install scripts, because that's unsafe; we don't even write temp files, test files, unused source stuff to disk. You basically get a Node modules directory that only contains package.json's JS and TS files, and TypeScript definitions... Which is kind of nice.
+\[unintelligible 00:21:18.21\] if you don't run npm install and you import a package in your code, will just go and fetch it for the registry, and stream it to disk. And interestingly, we stream it to disk knowing that you're only gonna use it as a source code package, so we don't run package install scripts, because that's unsafe; we don't even write temp files, test files, unused source stuff to disk. You basically get a Node modules directory that only contains package.json's JS and TS files, and TypeScript definitions... Which is kind of nice.
 
 **Jerod Santo:** Something about that just sounds like almost too good to be true kind of a thing... \[laughter\]
 
@@ -180,15 +180,15 @@ That's also where this whole concept of not having to install dependencies came 
 
 **Jerod Santo:** I mean, I'm sitting here thinking like "What could go wrong...?" Something has to be able to go wrong there, right?
 
-**Jason Miller:** Yeah. There's definitely some pushback we go in the initial announcement saying "Oh, we're doing streaming install." Because I think people think "Oh, streaming install. They're running Npm install in the background", and we don't actually even use the Npm client at all, in any form. This actually does --
+**Jason Miller:** Yeah. There's definitely some pushback we got in the initial announcement saying "Oh, we're doing streaming install." Because I think people think "Oh, streaming install. They're running npm install in the background", and we don't actually even use the npm client at all, in any form. This actually does --
 
 **Jerod Santo:** So you're just literally fetching the source files, and that's it.
 
-**Jason Miller:** Not even that. So it's fetching the tarball direct from the Npm registry...
+**Jason Miller:** Not even that. So it's fetching the tarball direct from the npm registry...
 
 **Jerod Santo:** Okay.
 
-**Jason Miller:** ...and it streams it. And as each file in the tarball passes through our streaming untar and ungzip mechanics, those files get analyzed and conditionally written to disk. So if you have something like a shell script, or an executable, it never even makes it out of memory. So I don't wanna say it's secure, but it definitely avoids all the footguns that would immediately jump to mind for like "Hey, streaming autoinstall." It's also just really fast. Basically, we can get your dependency installed and shipped to the browser, whatever file from it you're importing, as fast as we can get that tarball from Npm, because it's streaming.
+**Jason Miller:** ...and it streams it. And as each file in the tarball passes through our streaming untar and ungzip mechanics, those files get analyzed and conditionally written to disk. So if you have something like a shell script, or an executable, it never even makes it out of memory. So I don't wanna say it's secure, but it definitely avoids all the footguns that would immediately jump to mind for like "Hey, streaming autoinstall." It's also just really fast. Basically, we can get your dependency installed and shipped to the browser, whatever file from it you're importing, as fast as we can get that tarball from npm, because it's streaming.
 
 **Jerod Santo:** It sounds like an awesome feature. It kind of goes along with what you were talking about with the inference, where it's like "You're using this? Okay, we'll get it for you", and that's it.
 
@@ -304,7 +304,7 @@ In here, I said dynamically import the current module and replace it... You can 
 
 **Jason Miller:** Right. So there's just a lot less guesswork between you and the actual generated code that you run in the browser, which is potentially less surface area to have things go wrong in.
 
-So then getting back to the Preact thing, our goal with this was basically keep WMR as agnostic as it can possibly be to Preact, so that all of the little pieces inside WMR -- because WMR is literally just built as like 20 Rollup plugins and a couple of standalone libraries, that we haven't published yet, but they're all independent... Keep that totally separate, so that Vite can grab the plugin API and use it, or... I've actually just this morning been making the rounds, looking at all of the export maps implementations in these bundlers, finding some issues with them, and it's very clear that -- it's not to say that WMR gets this right, but... Having a package, possibly WMR's export maps implementation, that just gets extracted out and published to Npm as like a "Here's how you resolve export maps" type package, that's valuable.
+So then getting back to the Preact thing, our goal with this was basically keep WMR as agnostic as it can possibly be to Preact, so that all of the little pieces inside WMR -- because WMR is literally just built as like 20 Rollup plugins and a couple of standalone libraries, that we haven't published yet, but they're all independent... Keep that totally separate, so that Vite can grab the plugin API and use it, or... I've actually just this morning been making the rounds, looking at all of the export maps implementations in these bundlers, finding some issues with them, and it's very clear that -- it's not to say that WMR gets this right, but... Having a package, possibly WMR's export maps implementation, that just gets extracted out and published to npm as like a "Here's how you resolve export maps" type package, that's valuable.
 
 **Jerod Santo:** \[00:40:30.14\] Yeah.
 
@@ -332,7 +332,7 @@ So anybody -- I think there was somebody working on a Svelte test for this... An
 
 **Jerod Santo:** ...for sure.
 
-**Jason Miller:** Or fork WMR. But forking WMR - we lose out on a lot of the shared momentum aspect and collaboration aspect. Not to say that WMR is necessarily the place where it should happen, but the hope was like - if everybody is using plugins on top of the tool, that we can make the tool better, and at some point, when we take all the pieces of the tool and publish them to Npm as independent things, everyone benefits.
+**Jason Miller:** Or fork WMR. But forking WMR - we lose out on a lot of the shared momentum aspect and collaboration aspect. Not to say that WMR is necessarily the place where it should happen, but the hope was like - if everybody is using plugins on top of the tool, that we can make the tool better, and at some point, when we take all the pieces of the tool and publish them to npm as independent things, everyone benefits.
 
 **Jerod Santo:** It kind of leads me to a meta question around collaboration versus competition, and the decision here to start a new tool... Of course, it was like "Well, Preact needs something. We need our story", and so it makes sense that the Preact team would make their own story, and I like how you're building it in a way that can be reused and collaborated as much as possible, but still be Preact's tool. But like you said, there's Snowpack, there's all these other efforts out there, and the decision was "We're gonna build at this level of abstraction. We're going to experiment, so that there's more things."
 
@@ -340,13 +340,13 @@ But then for example the export maps level, you're like "Well, if we extract thi
 
 **Jason Miller:** It is an extremely hard problem, it is a distributed problem. I have this terrible habit of throwing myself at distributed problems... For some reason, Google seems to be willing to keep me on staff partly to do that... \[laughter\]
 
-I mentioned I was making the rounds, looking at everybody's export maps implementations. Rollup just landed it. I think Lars from the \[unintelligible 00:46:18.00\] But part of the reason why I'm doing that - and this is not to say that I'm the most objective person to be doing this, but I'm hoping that I can go and do the survey, write the docs that gives the lay of the land, publish that, and then whether or not WMR is the right implementation from which to derive the common implementation, I will have one place that summarizes all of the current implementations.
+I mentioned I was making the rounds, looking at everybody's export maps implementations. Rollup just landed it. I think Lars from the modern web server implemented it in Rollup. Yay. But part of the reason why I'm doing that - and this is not to say that I'm the most objective person to be doing this, but I'm hoping that I can go and do the survey, write the doc that gives the lay of the land, publish that, and then whether or not WMR is the right implementation from which to derive the common implementation, I will have one place that summarizes all of the current implementations.
 
 I think the difficulty is always with the thing you said, which is like -- okay, export maps is an easy one, because that's a spec; that's something that Node put there, so obviously there's value in a shared implementation of a spec, and a reference implementation, essentially... And bundlers aren't necessarily able to use Node's implementation because it is not independent of Node, so it's not technically a pure reference implementation... And that's not to disparage it, but it just...
 
 **Jerod Santo:** Factual.
 
-**Jason Miller:** ...fits their need. Yeah. The other thing are hairier. So we wrote that custom AST transformer that is largely Babel-compatible. What do we do with that? Is that a WMR thing? We literally built it to optimize WMR's performance while still supporting Babel plugins... But does the community need a potentially lighter-weight Babel alternative? Not sure about that. My default answer would be "No, that's actually something we don't need, or potentially don't want." Yeah, that gets tricky. And all these things were also written in JavaScript, and right now there's that whole move towards "Okay, could we use a faster language?" We even have an experimental PR from a while back that uses esbuild for JS transformations and minification, which was very fast.
+**Jason Miller:** ...fits their need. Yeah. The other things are hairier. So we wrote that custom AST transformer that is largely Babel-compatible. What do we do with that? Is that a WMR thing? We literally built it to optimize WMR's performance while still supporting Babel plugins... But does the community need a potentially lighter-weight Babel alternative? Not sure about that. My default answer would be "No, that's actually something we don't need, or potentially don't want." Yeah, that gets tricky. And all these things were also written in JavaScript, and right now there's that whole move towards "Okay, could we use a faster language?" We even have an experimental PR from a while back that uses esbuild for JS transformations and minification, which was very fast.
 
 **Jerod Santo:** \[00:48:11.07\] Which is a Go tool, right?
 
@@ -396,9 +396,9 @@ So I think there's potential there. But we didn't want to -- this is actually th
 
 **Jerod Santo:** Gotcha.
 
-**Jason Miller:** So there's a bit of a cart and horse situation there form the performance standpoint for scaling up many thousands of modules... But even today, for fairly large-sized projects, the way that this constraint ends up working is that your Npm dependencies actually don't scale one-to-one with the number of files on disk, because we do compile those with Rollup.
+**Jason Miller:** So there's a bit of a cart and horse situation there form the performance standpoint for scaling up many thousands of modules... But even today, for fairly large-sized projects, the way that this constraint ends up working is that your npm dependencies actually don't scale one-to-one with the number of files on disk, because we do compile those with Rollup.
 
-In a typical project you'll add a bunch of dependencies to your project, and then at a certain point it mostly plateaus. You're not constantly re-adding new dependencies from Npm as you work. You kind of end up with your framework \[unintelligible 00:53:39.08\] and then a couple of random things that get added over time. But that number doesn't grow super-fast, and those all get cached, in the HTTP cache and on disk. So they're relatively fast. And then the number that does change relative to your files on disk is your source files. So that's kind of the thing that you would wanna keep in mind.
+In a typical project you'll add a bunch of dependencies to your project, and then at a certain point it mostly plateaus. You're not constantly re-adding new dependencies from npm as you work. You kind of end up with your framework \[unintelligible 00:53:39.08\] and then a couple of random things that get added over time. But that number doesn't grow super-fast, and those all get cached, in the HTTP cache and on disk. So they're relatively fast. And then the number that does change relative to your files on disk is your source files. So that's kind of the thing that you would wanna keep in mind.
 
 I don't know that today I would necessarily jump to using WMR on a project that has 2,000 source files. I don't have any reason not to suggest doing that...
 
