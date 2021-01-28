@@ -1,6 +1,6 @@
 **Mat Ryer:** Hello, and welcome to Go Time! Welcome to a special Dickensian festive episode today. I'm Ebenezer Ryer, and today, dear reader, you're gonna be visited by three spirits. The ghosts of configuration past, present and configuration yet to come. Today we're talking about CUE, which is a new language that lets us define, validate and generate text-based data, like config files, APIs, database schemas, and even code, which sounds crazy, but don't worry, we're gonna unpick it today with this expert panel. We're joined by the creator of CUE, long-time Googler, founding member of the Borg team, which is what inspired Kubernetes, if you didn't know... A Go team member - it's only Marcel van Lohuizen. Hello, Marcel.
 
-**Marcel van Lohuizen:** Hey there. Not on the Go team, by the way.
+**Marcel van Lohuizen:** Hey there. Not on the Go team anymore by the way.
 
 **Mat Ryer:** I'm sorry.
 
@@ -62,13 +62,13 @@ And for me, the syntax is really natural. If you compare it to something like JS
 
 **Mat Ryer:** Yeah.
 
-**Roger Peppe:** \[unintelligible 00:12:49.06\]
+**Roger Peppe:** But it erased that kind of issue.
 
 **Paul Jolly:** One of CUE's strengths, to my mind, is there's CUE the language, there's the cue command, much like there is the go command that complements the Go language as well... And much like Go, who's got a standard library, CUE has a standard library as well, which enables you to write tools that use CUE.
 
-One of the great powers of the CUE command itself, which is the parallel of the Go command and the CUE APIs, is that you can almost seamlessly translate between these data formats as well, whether it be JSON, YAML, JSON Schema. So this is, again, a strength that I like - as Roger was saying, you can find yourself in a situation where you're working with some JSON, or working with some YAML, or working with some protobuf, with just any different formats of either data or schema, and CUE enables you to actually translate between those, and effectively define conveniently a sort of source of truth for "Okay, here is my schema" or "I want this to be defined in JSON Schema, for example; because actually there's a pre-existing schema, so let me work with that." But instead, I want to write some extra validation in CUE over here, and the ability to combine those things is super-powerful. I end up just doing a lot of hacking using the CUE command itself to, as Roger suggested, just validate data in the first instance, against various schema sources.
+One of the great powers of the CUE command itself, which is the parallel of the Go command and the CUE APIs, is that you can almost seamlessly translate between these data formats as well, whether it be JSON, YAML, JSON Schema. So this is, again, a strength that I like is - as Roger was saying, you can find yourself in a situation where you're working with some JSON, or working with some YAML, or working with some protobuf, with just any different formats of either data or schema, and CUE enables you to actually translate between those, and effectively define conveniently a sort of source of truth for "Okay, here is my schema" or "I want this to be defined in JSON Schema, for example; because actually there's a pre-existing schema, so let me work with that." But instead, I want to write some extra validation in CUE over here, and the ability to combine those things is super-powerful so I end up just doing a lot of hacking using the CUE command itself to, as Roger suggested, just validate data in the first instance, against various schema sources.
 
-**Marcel van Lohuizen:** Yeah, one other use case that has grown quite big actually is Istio. They're using CUE to generate \[unintelligible 00:14:23.19\] from their protobufs. So they're reading the protobufs, convert it to CUE... There's a few reasons why you wanna do this extra step, going from proto to CUE to OpenAPI. First of all, the mappings are not that trivial; I sometimes get a bug report for CUE, like "Oh, this mapping is really weird." It's completely blew up from what protobuf is to OpenAPI... But that's actually because the meaning is slightly different between the two, and CUE captures that correctly... So sometimes you just do get weird outputs, but that's basically because it's correct.
+**Marcel van Lohuizen:** Yeah, one other use case that has grown quite big actually is Istio. They're using CUE to generate their OpenAPI from their protobufs. So they're reading the protobufs, convert it to CUE... There's a few reasons why you wanna do this extra step, going from proto to CUE to OpenAPI. First of all, the mappings are not that trivial; I sometimes get a bug report for CUE, like "Oh, this mapping is really weird." It's completely blew up from what protobuf is to OpenAPI... But that's actually because the meaning is slightly different between the two, and CUE captures that correctly... So sometimes you just do get weird outputs, but that's basically because it's correct.
 
 The other thing is -- so this is where the composability comes in. Protobuf isn't very expressive; you just have basic types... And there are some extensions to protobufs where you can have expressions that validate a field, very much like JSON Schema, but if you wanna have cross-type validation, or more complicated validation - it's hard to do. So even if you have such a pipeline, because CUE is composable, you can throw in any additional kind of schema on top of it and it will just combine it in the end result... So unlike with inheritance, where you have to specify the layering and specify in which order you would apply. And also, the semantics is always a little bit shady. Like, okay, you apply the order, but is that really what you mean? And every different ordering means something different, and which one is the correct one... So that issue is completely gone in CUE, because the order doesn't matter, basically.
 
@@ -160,7 +160,7 @@ Now, you know it's about the same person, so one of them must be wrong, right? S
 
 **Mat Ryer:** Yeah, it does make some sense...
 
-**Paul Jolly:** There's a really good tutorial on the CUE website, which is Cuelang.org, that walked through the basics of CUE, that introduced this concept of types being values really well. And they also show and explain how the syntax is very JSON-like, which is unsurprising, because it's a superset of JSON... So that will help people orient themselves around how the schema part of CUE, if you like, fits in the data part, and how the two of them combined, Mat, as you were saying earlier on... In the way that JSON doesn't, where you've got JSON schema being a different thing altogether really to JSON the data itself. In CUE you've got this concept that the schema (for lack of a better word) and the data sitting alongside each other, in the same file potentially. The data, as Marcel was saying, is effectively just a more specific and concrete version of a field than the schema, which could just be the type, for example.
+**Paul Jolly:** There's a really good tutorial on the CUE website, which is Cuelang.org, that walked through the basics of CUE, that introduced this concept of types being values really well. And they also show and explain how the syntax is very JSON-like, which is unsurprising, because it's a superset of JSON... So that will help people orient themselves around how the schema part of CUE, if you like, fits in with the data part, and how the two of them combined, Mat, as you were saying earlier on... In the way that JSON doesn't, where you've got JSON schema being a different thing altogether really to JSON the data itself. In CUE you've got this concept that the schema (for lack of a better word) and the data sitting alongside each other, in the same file potentially. The data, as Marcel was saying, is effectively just a more specific and concrete version of a field than the schema, which could just be the type, for example.
 
 **Mat Ryer:** Hm. So that is quite strange, isn't it? Is that a new concept? Are there other examples of things that behave like that?
 
@@ -172,7 +172,7 @@ Now, you know it's about the same person, so one of them must be wrong, right? S
 
 **Mat Ryer:** No, but that's because they think you're really gonna do this in the lab. That's why. \[laughter\].
 
-**Marcel van Lohuizen:** Yeah. And this is like this... I would say actually the way inheritance -- with inheritance you can organize things; it's very unnatural, often... CUE still has a hierarchy, but it's a hierarchy like normal think about it, basically.
+**Marcel van Lohuizen:** Yeah. And this is like this... I would say actually the way inheritance -- with inheritance you can organize things; it's very unnatural, often... CUE still has a hierarchy, but it's a hierarchy like normal people think about it, basically.
 
 **Paul Jolly:** It definitely took me some time to wrap my head around the way in which you need to think in CUE... But I think one of the things I've found is that once I started "getting" the concepts involved with CUE, and how to think in that slightly different way - as Marcel was saying, it actually just becomes a much more natural way to express "Okay, this is the structure of the data that I'm expecting here" or "These are the constraints on it." And then the tooling that you have with CUE as well - for me it's a critical part of my workflow using CUE now, whatever project I'm working on. It's not that I'm trying to use CUE, I just find myself naturally using it, because it's a very natural way of describing data or constraining data.
 
@@ -182,9 +182,9 @@ Now, you know it's about the same person, so one of them must be wrong, right? S
 
 **Mat Ryer:** That's great. We mentioned earlier that you can drop the quotes in the keys, or in the field names, or something... So what happens if you "cue fmt" that? What's cue fmt's opinion on quotes and things?
 
-**Marcel van Lohuizen:** That's fine... So labels are -- because it's more restricted, so left of the colon, if you're doing a member name, or whatever, it's just... Because it's so annoying to wrote the quotes there, it's just this little syntactic trick so that I don't need the quotes there.
+**Marcel van Lohuizen:** That's fine... So labels are -- because it's more restricted, so left of the colon, if you're doing a member name, or whatever, it's just... Because it's so annoying to write the quotes there, it's just this little syntactic trick so that I don't need the quotes there.
 
-**Roger Peppe:** \[00:39:51.21\] Except it's actually different in CUE, because if you don't put the quotes around the keys, it's actually an identifier. You can actually refer to it as a variable. So you can say x colon five, without the quotes around the x. It's just like JSON, except later you can say y colon x. And then both x and y are gonna be exactly the same value, always. So that's the difference.
+**Roger Peppe:** \[00:39:51.21\] Except it's actually different in CUE, because if you don't put the quotes around the keys, it's actually an identifier. You can actually refer to it as a variable. So you can say x:5, without the quotes around the x. It's just like JSON, except later you can say y:x. And then both x and y are gonna be exactly the same value, always. So that's the difference.
 
 **Mat Ryer:** Hm. That kind of reminds me of symbols in Ruby, because you could build maps with symbols and strings as keys in Ruby.
 
@@ -198,7 +198,7 @@ Marcel was talking about stringless rules and the way they work, string interpol
 
 **Mat Ryer:** And will that always be the case?
 
-**Marcel van Lohuizen:** Well, it's kind of a lot of work to write all these tools again in something else. I can imagine that at least the core language would be either cross-compiled, or potentially every rewritten in another language... But to rewrite the tools -- so especially with Go, all the loading and the modules, all of this is very finicky; it's one thing to have a language specification, but then the tooling around it is quite tedious to rewrite.
+**Marcel van Lohuizen:** Well, it's kind of a lot of work to write all these tools again in something else. I can imagine that at least the core language would be either cross-compiled, or potentially even rewritten in another language... But to rewrite the tools -- so especially with Go, all the loading and the modules, all of this is very finicky; it's one thing to have a language specification, but then the tooling around it is quite tedious to rewrite.
 
 **Roger Peppe:** I have to say, I would hope that the core CUE language is ported to other languages, because I think that it would make a lot of sense, for example to be able to use it on the browser (the client-side browser, for example) from other languages, because I think it can add a lot, as part of some running system, as well as used as a tool.
 
@@ -208,21 +208,21 @@ Marcel was talking about stringless rules and the way they work, string interpol
 
 **Break:** \[00:43:38.23\]
 
-**Mat Ryer:** When do we think CUE will be version one? Are there big gaps, are there still big, philosophical or conceptual problems to solve?
+**Mat Ryer:** When do we think CUE will be version 1? Are there big gaps, are there still big, philosophical or conceptual problems to solve?
 
 **Marcel van Lohuizen:** When it comes to narrowing down the language, it's really talking about details right now, like really fine details. So there's a change probably coming up in the number model, where we're gonna say an integer is a subclass of a general number, whereas now there's a distinction between floats and integer... And that doesn't always work out quite well. So the end result will be somewhere smack in the middle of Go ints versus floats and Go constants, let's say. You will hardly know the difference.
 
-There is already a number type, a predeclared identifier, which people typically use float as \[unintelligible 00:46:23.05\] you won't know the difference between these two models... But it's a little bit -- if you use the standard library, it will be a little bit more convenient... So there are some changes there.
+There is already a number type, a predeclared identifier, which people typically use -- float is discouraged -- and if you use those really you won't know the difference between these two models... But it's a little bit -- if you use the standard library, it will be a little bit more convenient... So there are some changes there.
 
 **Mat Ryer:** Can I be the first to suggest the error type, please?
 
 **Marcel van Lohuizen:** Well, it's critical to any letter; so there is an error type... Although people have said that the way it's written right now - it's a symbol, and it looks kind of offensive to some people, so we're probably gonna change it to a predeclared identifier named error.
 
-**Mat Ryer:** Is it the poop emoji?
+**Mat Ryer:** Is it 💩 ?
 
-**Marcel van Lohuizen:** It is not the poop emoji. \[laughter\]
+**Marcel van Lohuizen:** It is not 💩. \[laughter\]
 
-**Mat Ryer:** Okay. Well, there you go; maybe I could suggest the poop emoji for error type. I can be the Roger Peppe of CUE.
+**Mat Ryer:** Okay. Well, there you go; maybe I could suggest 💩 for error type. I can be the Roger Peppe of CUE.
 
 **Marcel van Lohuizen:** Yeah. So performance is not great yet, and this is partly deliberate. It's been designed to be O(n) (order n), but it's definitely not been implemented this way, so that's something that needs to be done. Basically, it's written so that I can try out a lot of things fast, so deliberately, sometimes I made it easier and made it slower, essentially... But that would be one of the big next things to do.
 
@@ -232,7 +232,7 @@ So the errors messages - they have become better already, this last iteration, b
 
 **Paul Jolly:** Modules might be worth mentioning, as well...
 
-**Marcel van Lohuizen:** Yeah. That's not so much standing in the way for 1.0 of the language, but we wanted to adopt the NVS of Go, which is actually perfect for dealing with configuration hermetically. CUE has this concept of module, very similar to Go.
+**Marcel van Lohuizen:** Yeah. That's not so much standing in the way for 1.0 of the language, but we wanted to adopt the NVS of Go, which is actually perfect for dealing with configuration hermetically. CUE has this concept of a module, very similar to Go.
 
 For example, for Go users this might be interesting to know - there's this thing called "cue get go", so you can point to any Go package and it will then look at the Go type of this package and create CUE definitions for it, which you then can use in your CUE code. So you don't have to manually rewrite Go to --
 
@@ -282,7 +282,7 @@ Okay. I think that's a great one. Any others?
 
 **Roger Peppe:** I think a lot of people write tests that aren't very useful. They're not telling you very much about how well the code works. And when your code changes, you have to change all the tests, because maybe they're using mocks, they're relying on internals, and actually the tests are worse than useless, because they're not really telling you that the code works... And you have to change maybe twice as much code or three times as much code as you would if you didn't have any tests at all.
 
-I'm a great believer in trying to do more end-to-end tests as much as you can... And I've been doing this with CUE quite a lot, in terms of building up libraries of \[unintelligible 00:55:15.26\] and you can do that really nicely in CUE. It's a great format for putting -- you know, if you go to Test Data directory, you have a load of stuff in CUE, and you can maintain that really well, and the Go code, it just reads it as JSON; it doesn't care that it's all specified in CUE.
+I'm a great believer in trying to do more end-to-end tests as much as you can... And I've been doing this with CUE quite a lot, in terms of building up libraries of corpuses and you can do that really nicely in CUE. It's a great format for putting -- you know, if you go to Test Data directory, you have a load of stuff in CUE, and you can maintain that really well, and the Go code, it just reads it as JSON; it doesn't care that it's all specified in CUE.
 
 Maybe that's a ten years \[unintelligible 00:55:35.19\] I've spent too much time dealing with s\*\*t tests...
 
