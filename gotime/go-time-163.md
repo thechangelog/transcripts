@@ -38,7 +38,7 @@
 
 **Marcel van Lohuizen:** Yeah. One of them is testing, for example. I've written one of my own first CUE-based, table-driven tests recently, and it's really a breeze. It's so easy to write. Actually, I think Roger was the first who pointed it out; it's a very good use case for CUE. And there was recently a block from Yext who was using it also for cross-language test generation. That's an unexpected use case where it really came in handy.
 
-**Paul Jolly:** \[00:08:06.06\] I guess, Marcel, one of the good use cases is actually the tutorial for Kubernetes that's on the CUE website itself. You're just chatting through that one. That's a good example of where CUE is -- it is truly a configuration language.
+**Paul Jolly:** \[00:08:06.06\] I guess, Marcel, one of the good use cases is actually the tutorial for Kubernetes that's on the CUE website itself. Is it worth you just chatting through that one? That's a good example of where CUE is -- it is truly a configuration language.
 
 **Marcel van Lohuizen:** Yeah, so one of the things that that example shows - when I created GCL, I had this other use case in mind, like with these grammars... And there's lots of really deep-going automation you can do if you have a really declarative configuration language. So this was a little bit of promise with GCL as well. And because it's also declarative, you do have some automation around it, but the real automation never materialized. You see that also with successors of GCL - they also promise you automation, and also never really materialize; or maybe people didn't know what I meant with "You can automate."
 
@@ -268,11 +268,11 @@ Well, it's that time, that great time, for Unpopular Opinions!
 
 **Mat Ryer:** So who wants to kick us off? Who has an unpopular opinion?
 
-**Marcel van Lohuizen:** Well, let me start with one. I think I've alluded to it before already, but... To me, inheritance is the biggest source of complexity in configuration language, and a great evil that should be avoided... Which might sound sensible after everything I have explained today... But it does mean it eliminates most configuration languages as a useful tool. That might be unpopular.
+**Marcel van Lohuizen:** Well, let me start with one. I think I've alluded to it before already, but... To me, inheritance is the biggest source of complexity in configuration languages, and a great evil that should be avoided... Which might sound sensible after everything I have explained today... But it does mean it eliminates most configuration languages as a useful tool. That might be unpopular.
 
-**Mat Ryer:** Yeah. Well, I don't know if it's gonna be unpopular to Go people, because one of the nice things about Go is you can't build these complex type hierarchies... And I used to do C\#, and honestly, I would build cathedrals, honestly... Beautiful things - generics, generics with various conditions... And then the next day when I'd go to try and look at it, I was like "No. No." I'd start again.
+**Mat Ryer:** Yeah. Well, I don't know if it's gonna be unpopular to Go people, because one of the nice things about Go is you can't build these complex type hierarchies... And I used to do C#, and honestly, I would build cathedrals, honestly... Beautiful things - generics, generics with various conditions... And then the next day when I'd go to try and look at it, I was like "No. No." I'd start again.
 
-And Go sort of doesn't have them, so you can't tie yourself in knots in the same way. But we'll see... We do test these unpopular opinions, Marcel, and if you don't manage to -- we actually poll them on Twitter to find out if they are indeed unpopular. And if they're not, you have to come back on and think of another one. That's the rule.
+And Go sort of doesn't have them, so you can't tie yourself in knots in that same way. But we'll see... We do test these unpopular opinions, Marcel, and if you don't manage to -- we actually poll them on Twitter to find out if they are indeed unpopular. And if they're not, you have to come back on and think of another one. That's the rule.
 
 Okay. I think that's a great one. Any others?
 
@@ -284,7 +284,7 @@ Okay. I think that's a great one. Any others?
 
 I'm a great believer in trying to do more end-to-end tests as much as you can... And I've been doing this with CUE quite a lot, in terms of building up libraries of corpuses and you can do that really nicely in CUE. It's a great format for putting -- you know, if you go to Test Data directory, you have a load of stuff in CUE, and you can maintain that really well, and the Go code, it just reads it as JSON; it doesn't care that it's all specified in CUE.
 
-Maybe that's a ten years \[unintelligible 00:55:35.19\] I've spent too much time dealing with s\*\*t tests...
+Maybe that's a tenuous connection; but I've spent too much time dealing with s\*\*t tests...
 
 **Mat Ryer:** \[00:55:44.28\] \[laughs\] Yes. I'm actually with you on this one, Roger, entirely. I used to build cathedrals out of tests; really complicated things, beautiful structures... Yeah, I've learned kind of the hard way, over time, of just tests being a bit of an albatross around your neck, compared to -- when you get them right, you definitely feel better about it. And you're right, when they're too brittle, when they're too bound to your code, you almost end up just saying the same thing twice, which doesn't really have any value at all, does it? So yeah, again, we're gonna test this one, but I have a feeling that one's not gonna be unpopular... But we'll see. Good one. Mr. Jolly?
 
