@@ -216,7 +216,7 @@ So now we can start to experiment with "Let's impart odors." And some of the fun
 
 **Chris Benson:** That just made it very real for me... \[laughter\]
 
-**Terri Jordan:** ...but we can separate between teenage girl perspiration and aged man perspiration. So these are some of the things that we've done with our customers; we'll spend a day in our life at an automotive OEM, and after smelling it with the digital olfaction device, my customer will say "So do you wanna go in there?" and I say "No, I'm good. I'll stay out here." \[laughter\] But we literally put those four smelling things inside chambers...
+**Terri Jordan:** ...but we can separate between teenage girl perspiration and aged man perspiration. So these are some of the real things that we've done with our customers; we'll spend a day in the life at an automotive OEM, and after smelling it with the digital olfaction device, my customer will say "So do you wanna go in there?" and I say "No, I'm good. I'll stay out here." \[laughter\] But we literally put those four smelling things inside chambers...
 
 \[00:40:11.27\] Those are the kinds of things that we just do, and we look for differences, just like in any statistical problem; if they're different, is it significant? How many pieces of shirt do we need to add before it is significant, and how does that compare to human panel? ...not Terri panel, but another human panel that came in before or after.
 
