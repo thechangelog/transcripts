@@ -24,7 +24,7 @@ When I changed jobs, I moved over to Lawrence Berkeley Lab, the Department of En
 
 \[00:04:15.04\] Now, that was not my first time using it. At LinuxCare and previous I definitely used Red Hat a reasonable amount, but I absolutely missed apt-get. So I started a project actually called GRAB, to install RPMs and do dependency resolution, and version updates and whatnot, in a very APT-similar way. And that actually led me to the introduction of Seth Vidal, who ended up writing yum. So Seth and I were talking at some point early on; we ended up having a little RPM group in freenode, and we started talking about what is the need out there, and the fact that there is a need for a community-managed RPM-based distribution of Linux.
 
-At that time there was Red Hat, there was Mandrake, there was a few others... Caldera was still around back then, and Corel Linux -- I don't remember if Corel Linux was RPM, but it was a bunch of RPM-based distributions, but nothing community-managed. And that was kind of the twist that started the CHAOS Linux Foundation, which was a goal of creating a community RPM distribution of Linux. And that kind of took off. It really started building up some steam and whatnot \[unintelligible 00:05:33.27\] into that, Red Hat Linux, which was the predecessor to Red Hat Enterprise Linux, ended up being end-of-lifed by Red Hat...
+At that time there was Red Hat, there was Mandrake, there was a few others... Caldera was still around back then, and Corel Linux -- I don't remember if Corel Linux was RPM, but it was a bunch of RPM-based distributions, but nothing community-managed. And that was kind of the twist that started the CHAOS Linux Foundation, which was a goal of creating a community RPM distribution of Linux. And that kind of took off. It really started building up some steam and whatnot and some amount into that, Red Hat Linux, which was the predecessor to Red Hat Enterprise Linux, ended up being end-of-lifed by Red Hat...
 
 I always get the versions confused at this point... I think it was Red Hat Linux 8 or Red Hat Linux 9, and then it all of a sudden just kind of disappeared. And everything that everybody was counting on at that point just vanished.
 
@@ -40,7 +40,7 @@ He was able to do that in a relatively short order, and the next thing we knew -
 
 **Gregory Kurtzer:** I do, yeah. But you know...
 
-**Jerod Santo:** Are you gonna \[unintelligible 00:07:27.08\] with my head if I call it CentOS, or...? \[laughs\]
+**Jerod Santo:** Are you gonna, like, 'off with my head' if I call it CentOS, or...? \[laughs\]
 
 **Gregory Kurtzer:** There was a while where that bugged me...
 
@@ -52,7 +52,7 @@ He was able to do that in a relatively short order, and the next thing we knew -
 
 **Gregory Kurtzer:** \[laughs\]
 
-**Adam Stacoviak:** Of course. What is the thing behind that though? What makes you say CentOS versus Cent OS? How did you come to CentOS?
+**Adam Stacoviak:** Of course. What is the thinking behind that though? What makes you say CentOS versus Cent OS? How did you come to CentOS?
 
 **Jerod Santo:** Like Mentos.
 
@@ -92,7 +92,7 @@ So that was really my take of it... But I said "As long as we string the whole t
 
 **Jerod Santo:** Right. Two words, one word...
 
-**Adam Stacoviak:** We get all-caps Changelog, and... It sort of irks me, but I'm kind of like you, I've just sort of moved on and just don't correct anybody... But we obviously, when writing it, write it the way we want it written, and that's the control measure we...
+**Adam Stacoviak:** We get all-caps CHANGELOG, and... It sort of irks me, but I'm kind of like you, I've just sort of moved on and just don't correct anybody... But we obviously, when writing it, write it the way we want it written, and that's the control measure we...
 
 **Jerod Santo:** Capital C, lower-case l. All one word. There you go. I've set the record straight. That's Changelog.
 
@@ -102,15 +102,15 @@ So that was really my take of it... But I said "As long as we string the whole t
 
 **Jerod Santo:** Oh, yeah.
 
-**Gregory Kurtzer:** Back in the '90s, it was Lynux, it was Linux... And I remember that there was an audio, a wav file that you can still find on the internet probably even today, of Torvalds sayying "I am Linus Torvalds. I pronounce Linux, Linux." \[original wav file 00:11:22.20\] And that's the whole wav file... Just to kind of set the record straight.
+**Gregory Kurtzer:** Back in the '90s, it was Lynux, it was Linux... And I remember that there was an audio, a wav file that you can still find on the internet probably even today, of Torvalds saying "I am Linus Torvalds. I pronounce Linux, Linux." \[original wav file 00:11:22.20\] And that's the whole wav file... Just to kind of set the record straight.
 
 **Jerod Santo:** Just to set the record straight...
 
 **Gregory Kurtzer:** Nowadays I think everybody knows that it's just Linux. \[laughs\] But yeah, I don't think anyone cares anymore if you call it Lynux. I don't know.
 
-**Jerod Santo:** I'm glad that worked for him... The GIF/gif guide didn't work out so well. Because he came out and he's like "It's pronounced GIF", and we're all like "No, it isn't, man. Sorry." \[laughter\]
+**Jerod Santo:** I'm glad that worked for him... You know, the GIF/gif guy didn't work out so well. Because he came out and he's like "It's pronounced GIF", and we're all like "No, it isn't, man. Sorry." \[laughter\]
 
-**Adam Stacoviak:** Now you're wrong. The creator of the name is wrong.
+**Adam Stacoviak:** No, you're wrong. The creator of the name is wrong.
 
 **Jerod Santo:** Sorry, it's not a giraffical interface format. You just don't get your way, you know? \[laughter\]
 
@@ -240,15 +240,15 @@ And then we create more channels within development, because we had people doing
 
 **Jerod Santo:** Wow.
 
-**Gregory Kurtzer:** So we had people that already had installers built in the first few days. And with their versions of the Rocky Linux logo and whatnot -- I mean, it took us more than three days to make the logo. But we had people that were focused predominantly on branding now, and creating logos... And I'm now looking at this going "I've never, in all of my open source career, seen a community grow and evolve like I just witnessed." I don't even know of this happening. The closest thing that I 've heard of of something like this happening is when Oracle took over MySQL and Maria was born. That is about the closest to this. But everybody who is in that community and came over to us basically said "No, no, no. This blew that away."
+**Gregory Kurtzer:** So we had people that already had installers built in the first few days. And with their versions of the Rocky Linux logo and whatnot -- I mean, it took us more than three days to make the logo. But we had people that were focused predominantly on branding now, and creating logos... And I'm now looking at this going "I've never, in all of my open source career, seen a community grow and evolve like I just witnessed." I don't even know of this happening. The closest thing that I've heard of of something like this happening is when Oracle took over MySQL and Maria was born. That is about the closest to this. But everybody who is in that community and came over to us basically said "No, no, no. This blew that away."
 
 I'm sitting now looking at all this, thinking to myself "Oh, my gosh. How am I gonna manage this? How am I gonna coordinate this in a way that's going to keep everybody engaged, in the loop, but organize all of this?" It's like trying to sip water through a fire hose on full blast. There's so much coming at me, it was actually difficult. It took me about an hour to go from one side of my Slack, and just scroll down and get to all the comments and all the questions, and then just to go back to the top again. So it was like nothing I've experienced in terms of a community growing overnight.
 
-So what this told - "Wait a sec, there's a big need..."
+So what this told me - "Wait a sec, there's a big need..."
 
 **Jerod Santo:** You think...? \[laughter\]
 
-**Gregory Kurtzer:** \[00:35:55.25\] There's a lot of people that not only need this, but wanna actually do this. Well, the question in my head "Is this something that people are interested in doing?" has been answered. The answer is yes. There's a lot of people interested in doing this, and there's a lot of people that -- there's a whole new generation of people, since I've been involved in doing something like this, that actually really wanna be part of the distribution. And I'm hearing people on the Red Hat site saying "CentOS was always kind of a drain. You have Red Hat putting money into it and they're not really getting anything out of it", which is a completely fair point from a business perspective... But at the same token, there are thousands of people that are all asking and trying to help and be part of this.
+**Gregory Kurtzer:** \[00:35:55.25\] There's a lot of people that not only need this, but wanna actually do this. Well, the question in my head "Is this something that people are interested in doing?" has been answered. The answer is yes. There's a lot of people interested in doing this, and there's a lot of people that -- there's a whole new generation of people, since I've been involved in doing something like this, that actually really wanna be part of the distribution. And I'm hearing people on the Red Hat side saying "CentOS was always kind of a drain of Red Hat putting money into it and they're not really getting anything out of it", which is a completely fair point from a business perspective... But at the same token, there are thousands of people that are all asking and trying to help and be part of this.
 
 So when I look at why did CentOS never really flourish like this, the answer that comes to me really just has to do with the fact that right from that very beginning that I mentioned earlier, that culture of that small kind of core team really was a -- while it was a requirement back then, because we didn't have an infrastructure or a method to deal with that back then, we do now. And now we can handle this very differently, through CI/CD, through autobuilders like \[unintelligible 00:37:08.10\] and several other pieces.
 
@@ -526,9 +526,9 @@ So it was immediate, it was like "Oh, that's it. We're going with this." And the
 
 **Gregory Kurtzer:** Yeah. And you know, that being a Red Hat trademark now, we're just gonna get in all sorts of trouble and whatnot... But that's one of the places where it came from, yeah.
 
-**Adam Stacoviak:** Inspired by Greg. Inspired by. It's not really zoomed in, it's just inspired by what would happen IF you zoomed in. IF you thought that could be possible.
+**Adam Stacoviak:** Inspired by, Greg. Inspired by. It's not really zoomed in, it's just inspired by what would happen IF you zoomed in. IF you thought that could be possible.
 
-**Gregory Kurtzer:** And the color is different. And we may not be using a font originally called the Red Hat Linux Font. A Red Hat Font. We may not be using that, because we forked in, and now it's called Rocky Linux Font.
+**Gregory Kurtzer:** And the color is different. And we may not be using a font originally called the Red Hat Linux Font, or Red Hat Font. We may not be using that, because we forked it, and now it's called Rocky Linux Font.
 
 **Jerod Santo:** There you go.
 
