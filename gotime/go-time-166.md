@@ -42,7 +42,7 @@ Joining me today - Johnny Boursiquot's back. Hello, Johnny.
 
 **Mat Ryer:** Right, yeah. That's amazing, really... To think of all the different possible things you could change in Go... Of course, there were gonna be a lot of those proposals, because - you know, sometimes it comes down to personal taste, sometimes people think of things that perhaps in their one specific case it would be a great feature, but maybe it doesn't fit in other situations. So it is kind of a difficult thing to do, I think, to balance that. And like you say, some easy ones as well... So of course, you have the difficulty of implementing and maintaining features as well; you have to consider all that stuff.
 
-**Daniel Martí:** Yeah. And I think the template is \[unintelligible 00:06:05.05\] nowadays, which I think is pretty well designed... It's pretty long, so I'm not gonna read the whole thing, but some bits are pretty interesting. There's stuff like how long have you been using Go for, or who would this change help? Such as only researchers, or maybe people who do 3D games. And other questions, like "Has this been proposed before? And if so, how is this different?" Or things like "Is this backwards-compatible with existing Go programs?" Because sometimes if the answer to a lot of these questions is not what you're after, the change is most likely not a good idea.
+**Daniel Martí:** Yeah. And I think the template is the first filter nowadays, which I think is pretty well designed... It's pretty long, so I'm not gonna read the whole thing, but some bits are pretty interesting. There's stuff like how long have you been using Go for, or who would this change help? Such as only researchers, or maybe people who do 3D games. And other questions, like "Has this been proposed before? And if so, how is this different?" Or things like "Is this backwards-compatible with existing Go programs?" Because sometimes if the answer to a lot of these questions is not what you're after, the change is most likely not a good idea.
 
 **Mat Ryer:** And you can sense that they're encoding in those questions a way to make sure you've checked to see if there's already a proposal that's been made for this... Because actually, GitHub issues are probably the best way to solve this problem... So I imagine there's a lot of duplication, and things like that.
 
@@ -60,13 +60,13 @@ Joining me today - Johnny Boursiquot's back. Hello, Johnny.
 
 **Daniel Martí:** Fair enough.
 
-**Mat Ryer:** \[00:08:17.19\] Yeah. So one of the first ones on the list we have is this -- this is a really interesting one. It's issue 21670, which makes me feel like I'm in Star Trek by saying that... It is "Have functions auto-implement interfaces with only a single method of that same signature." So this is essentially how we have HandlerFunc, which is a function type that implements the Handler interface... And you have to explicitly say that in the code, at the moment; it's quite a short amount of code usually, because all you're doing is creating a method that then calls itself... So it's not too difficult to do, but this proposal is about making it automatic. So given a handler interface that has a ServeHTTP method, you wouldn't ever have to have a HandleFunc type; you could always just make a func that matches that single method. It would only work for single-method interfaces, of course... What do we think about it? Daniel, what do you think about that one?
+**Mat Ryer:** \[00:08:17.19\] Yeah. So one of the first ones on the list we have is this -- this is a really interesting one. It's issue 21670, which makes me feel like I'm in Star Trek by saying that... It is "Have functions auto-implement interfaces with only a single method of that same signature." So this is essentially how we have HandleFunc, which is a function type that implements the Handler interface... And you have to explicitly say that in the code, at the moment; it's quite a short amount of code usually, because all you're doing is creating a method that then calls itself... So it's not too difficult to do, but this proposal is about making it automatic. So given a handler interface that has a ServeHTTP method, you wouldn't ever have to have a HandleFunc type; you could always just make a func that matches that single method. It would only work for single-method interfaces, of course... What do we think about it? Daniel, what do you think about that one?
 
-**Daniel Martí:** Somebody made a comment on this proposal which I think was a good point, which is that in Go you can go from a method to a function by using a method value... So we've got a variable of type bytes.Buffer, and you name it buff; you can do buff.write, and that is a function. So you can go from the method to the function, but you cannot go back, if that makes sense. If you have that function, you cannot easily say "Okay, now use it as a method." You have to statically define a new type to use that function.
+**Daniel Martí:** Somebody made a comment on this proposal which I think was a good point, which is that in Go you can go from a method to a function by using a method value... So we've got a variable of type bytes.Buffer, and you name it *buf*; you can do *buf.write*, and that is a function. So you can go from the method to the function, but you cannot go back, if that makes sense. If you have that function, you cannot easily say "Okay, now use it as a method." You have to statically define a new type to use that function.
 
 So in a way, this would make the language more consistent, but then the question is "How often does this come up?" Net/http is a good example, but I struggle to think of more than like four examples.
 
-**Mat Ryer:** Well, from the standard library maybe, but I love that pattern from that, computated from the HandlerFunc. So whenever I see opportunities to use that, I do. And there are often opportunities. There are lots of times, especially when you're building something new - there is a new abstraction somewhere, but you're not sure about it. Or all you really need is just one thing from it, so it inevitably ends up being a single method. So I do a lot of home-grown single-method interfaces, if you like, and usually have a func version of them. In fact, sometimes I only just have the func thing, too.
+**Mat Ryer:** Well, from the standard library maybe, but I love that pattern from that, computated from the HandleFunc. So whenever I see opportunities to use that, I do. And there are often opportunities. There are lots of times, especially when you're building something new - there is a new abstraction somewhere, but you're not sure about it. Or all you really need is just one thing from it, so it inevitably ends up being a single method. So I do a lot of home-grown single-method interfaces, if you like, and usually have a func version of them. In fact, sometimes I only just have the func thing, too.
 
 **Daniel Martí:** I think maybe the main argument against this proposal is that you could argue that an interface is not defined only by the signature of its methods, or in this case a single method, but also the name of the method. For example, is any function that looks like a read really a read? It could do something entirely different, and it might match the reader interface by accident. I'm not sure that this would be a problem that happens often in practice, but it does sort of break Go's explicitness a little bit.
 
@@ -100,7 +100,7 @@ I'm sure there's other use cases where it would be used, but from that perspecti
 
 **Johnny Boursiquot:** I feel like that's a carry-over from other languages. I've used this pattern in Java, and stuff like that. And it's fine... Again, my default stance with improvements like this to the language tends to be "What is it that the language does now that this could improve?" So this adds another way, a different way of doing your iteration... And I don't have a need for that.
 
-Again, I don't wanna be the curmudgeon in the corner saying no to everything... But to me, if they're gonna improve the language in some way -- like, I don't want half a dozen ways to do the same thing in Go. The fact that Go only has four for looping - I mean, to me, that was like... At first, I was like "Wow, really? Aren't you gonna be missing some things and keywords, some construct, whatever it is?" And then you sit down and you start using it, like "Oh, okay... I guess I don't need much else. I can do all the things that I need." So to me, this is another one of those.
+Again, I don't wanna be the curmudgeon in the corner saying no to everything... But to me, if they're gonna improve the language in some way -- like, I don't want half a dozen ways to do the same thing in Go. The fact that Go only has *for* for looping - I mean, to me, that was like... At first, I was like "Wow, really? Aren't you gonna be missing some things and keywords, some construct, whatever it is?" And then you sit down and you start using it, like "Oh, okay... I guess I don't need much else. I can do all the things that I need." So to me, this is another one of those.
 
 **Mat Ryer:** Well, this doesn't add a new way to loop over; it just means you can write types that work with the current for range thing. The way you have to do it at the moment is either you build your own API, you have your own methods and you just implement your own iterator... Or if it's small enough data, you will just maybe have a method that creates a slice, and then that slice can be easily ranged over by the for block thing. That's right, isn't it, Daniel?
 
@@ -110,7 +110,7 @@ Again, I don't wanna be the curmudgeon in the corner saying no to everything... 
 
 **Daniel Martí:** I was thinking that I've actually seen some people use channels for this use case, and that is avoiding the boilerplate with next, done and so on, that kind of method interface... And it kind of works, but channels are also the biggest footgun in the entire Go language... So I really don't like when people use channels for that. And they also have their own inherent overhead. A channel is an allocation, and it also means that there has to be a different goroutine on the other side, sending your stuff... And how do you signal that you're done? That kind of thing.
 
-So I'm kind of with Johnny on this - I don't think this is a big enough problem to require a language feature... But at the same time, out of all the solutions that I've seen to implement custom ranging, I feel like this is the simplest and nicest. I wouldn't opposite it, but...
+So I'm kind of with Johnny on this - I don't think this is a big enough problem to require a language feature... But at the same time, out of all the solutions that I've seen to implement custom ranging, I feel like this is the simplest and nicest. I wouldn't oppose it, but...
 
 **Mat Ryer:** Yeah, so you wouldn't thumbs-down on the GitHub issue. I'm with you on that - of these solutions, this is probably my favorite... It's a little bit complicated, because it's a method that returns a function. And then you have to know about closures in order to make that work properly. But it is very neat to have all your iteration code in just one method. And then the fact that you're able to use it as a normal type is kind of quite nice.
 
@@ -120,7 +120,7 @@ The only things is it hurts readability potentially, because at the moment, when
 
 But this is nice. As presented, it is a nice idea. I'm not gonna beat down on it. Is it worth the trade-off for me? This is another one where I'm like "Nah, I can't see it."
 
-**Kris Brandow:** I think I want to like this. I like the idea, but I think the big thing for me about it is slices and maps are known quantities. We can get the links, we know how long they are. With most other types of iterators, you usually have some error that might happen. If you're getting something from a database, or you're getting something from somewhere else, and there's not really anything in here about how you would do error handling. That's one of the things I like about the iterator pattern that I've fallen into a lot, which looks a lot like -- I think \[unintelligible 00:19:16.17\] and then inside of it you can actually get the value, and then you have an error afterward if the bool returns false... And then it has this neatly-packaged way of handling iteration.
+**Kris Brandow:** I think I want to like this. I like the idea, but I think the big thing for me about it is slices and maps are known quantities. We can get the links, we know how long they are. With most other types of iterators, you usually have some error that might happen. If you're getting something from a database, or you're getting something from somewhere else, and there's not really anything in here about how you would do error handling. That's one of the things I like about the iterator pattern that I've fallen into a lot, which looks a lot like -- I think db.Rows() does this where you just have .next() returns a bool and then inside of it you can actually get the value, and then you have an error afterward if the bool returns false... And then it has this neatly-packaged way of handling iteration.
 
 I just think this would definitely get abused in some ways, and lead to people just not recognizing that they need to handle errors, or call another method to get the error when they get false back. So I think this adds a little bit of nicety, but I think it would become a giant footgun for API designers.
 
@@ -130,7 +130,7 @@ I just think this would definitely get abused in some ways, and lead to people j
 
 **Mat Ryer:** It sounded like a verbal mental threat, more than just a note.
 
-**Daniel Martí:** \[unintelligible 00:20:13.23\] I was about to also bring up something about ranges being simple nowadays... Because they're not really. You can range over a channel, and that could block forever, basically. Or you could range over, for example, a slice, where each element takes a gigabyte of memory, and then you have to copy that in every iteration, and that could take a long time.
+**Daniel Martí:** I was about to also bring up something about ranges being simple nowadays... Because they're not really. You can range over a channel, and that could block forever, basically. Or you could range over, for example, a slice, where each element takes a gigabyte of memory, and then you have to copy that in every iteration, and that could take a long time.
 
 **Mat Ryer:** Right.
 
@@ -158,7 +158,7 @@ Of the bunch we've seen so far, this is probably the one that I could see using.
 
 **Mat Ryer:** Yeah.
 
-**Kris Brandow:** I think \[unintelligible 00:24:47.14\] weird functions anyway, since they take a type name, whereas most other things in the language don't take type names, so they're already a bit different and weird.
+**Kris Brandow:** I think aside the proposal *make* and *new* are weird functions anyway, since they take a type name, whereas most other things in the language don't take type names, so they're already a bit different and weird.
 
 **Mat Ryer:** Yeah, why are they different? Why couldn't that be one keyword?
 
@@ -258,9 +258,9 @@ Shall we talk about ints? Who uses ints in your programming life \[unintelligibl
 
 **Mat Ryer:** Hm... That's getting more interesting... Although I've never needed numbers that big. But still, I want them.
 
-**Daniel Martí:** It would be kind of like -- I'm not sure if many of you have seen the package math/big, but it has a big .int there, and that is arbitrary size, so you can store whatever number you want in there... So this is kind of like that, but in the language.
+**Daniel Martí:** It would be kind of like -- I'm not sure if many of you have seen the package math/big, but it has a big.int there, and that is arbitrary size, so you can store whatever number you want in there... So this is kind of like that, but in the language.
 
-**Mat Ryer:** That is a bit int. You can some really big ints in that type. \[laughter\]
+**Mat Ryer:** That is a big int. You can get some really big ints in that type. \[laughter\]
 
 **Johnny Boursiquot:** I keep trying to squeeze that one in...
 
@@ -270,7 +270,7 @@ Shall we talk about ints? Who uses ints in your programming life \[unintelligibl
 
 I think maybe the only strange thing about this is if you were doing any bit shifting, or using an int as a bitmask, but you probably shouldn't have been doing that... So that's probably not an issue.
 
-But in general, I like this. I feel like the int type right now is kind of in this useless space, because it's like, you can't really guarantee how large it's going to be if you're writing code that is cross-platform... So I think that kind of forces you to default to using an int64 or an int32, or a uint64 and a uint32... But I also think that it's good for like if you're trying to specify a link, through kind of what Rob lays out in his proposal... I think that it's good to know that you won't overflow or you won't have that type of issue when it comes to specifying something. Or you won't have the issue of it being only 32 bits, and you have a really large thing, and now you run into this problem where \[unintelligible 00:38:54.22\] isn't working, and failing in a weird way.
+But in general, I like this. I feel like the int type right now is kind of in this useless space, because it's like, you can't really guarantee how large it's going to be if you're writing code that is cross-platform... So I think that kind of forces you to default to using an int64 or an int32, or a uint64 and a uint32... But I also think that it's good for like if you're trying to specify a link, through kind of what Rob lays out in his proposal... I think that it's good to know that you won't overflow or you won't have that type of issue when it comes to specifying something. Or you won't have the issue of it being only 32 bits, and you have a really large thing, and now you run into this problem where your code isn't working, and failing in a weird way.
 
 **Mat Ryer:** Yeah. But what about the implications at runtime of this? Does this mean ints would be slower? Because there surely has to be some runtime element checking to see the size before you cross the threshold into needing bigger and bigger ints.
 
@@ -330,7 +330,7 @@ I think Go is one of those languages that's like "Okay, we're safer than C", and
 
 **Mat Ryer:** You have to pick one.
 
-**Daniel Martí:** Right. So what I'm thinking is -- for example, with this proposal you would still have to check for overflows, because if you don't, your code would panic, and that might not be the best idea... But the thing is it would be a safety net of sorts. it's kind of like in Go there are no buffer overflows, because - yes, you can check against them, but if you forget to check them, you get a panic. It's not like \[unintelligible 00:47:28.11\] or you hang forever, or that kind of thing.
+**Daniel Martí:** Right. So what I'm thinking is -- for example, with this proposal you would still have to check for overflows, because if you don't, your code would panic, and that might not be the best idea... But the thing is it would be a safety net of sorts. it's kind of like in Go there are no buffer overflows, because - yes, you can check against them, but if you forget to check them, you get a panic. It's not like you execute arbitrary code or you hang forever, or that kind of thing.
 
 So to me, this proposal feels quite Go-like... But at the same time, what I don't like is that there are separate types, so the user has to choose every single time which one to use... And I think the defaults should be the safe version; it shouldn't be the weird, funky version that wraps around.
 
@@ -372,7 +372,7 @@ So to me, this proposal feels quite Go-like... But at the same time, what I don'
 
 **Daniel Martí:** As my unpopular opinion, you mean...
 
-**Mat Ryer:** No, no. The footgun, you were saying, right?
+**Mat Ryer:** No, no. The foodgun, you were saying, right?
 
 **Kris Brandow:** Footgun.
 
@@ -436,7 +436,7 @@ Honestly, I think that's a nice way to actually get around the problem, although
 
 **Daniel Martí:** \[00:56:11.08\] I think semantic import versioning had to happen, because otherwise it wouldn't have been possible to have semantic versioning work at large scale... Because for example with the GORM case, if I depend on one library that wants an old version, and I depend on another library that wants a newer version, if both are at the same version one module, there's a clash; there's like a diamond dependency problem. I can't build with both versions at the same time, because they're the same module. So that's what version 2+ is meant to fix - you can build with version one and two at the same time.
 
-But I kind of see Kris' point. We are kind of stuck with this version \[unintelligible 00:56:46.07\] but I think it's mostly gonna get better with better tooling, like package \[unintelligible 00:56:51.14\] for example now, if you look at the docs for version one, and version three is the latest stable, it tells you "Hey, did you notice that you're not on the latest version?" And that's kind of a hint that users should be getting moving forward.
+But I kind of see Kris' point. We are kind of stuck with this version \[unintelligible 00:56:46.07\] but I think it's mostly gonna get better with better tooling, like the package site for example now, if you look at the docs for version one, and version three is the latest stable, it tells you "Hey, did you notice that you're not on the latest version?" And that's kind of a hint that users should be getting moving forward.
 
 **Mat Ryer:** Nice. And by the way, if anyone doesn't know, a diamond dependency thing - it sounds good, but it's not. \[laughter\]
 
@@ -454,9 +454,9 @@ It's time to say goodbye, I'm afraid. I really hope you enjoyed going through th
 
 **Mat Ryer:** That was great. No, that one's definitely gonna be made into a wrap, or put into some sample somewhere... Hopefully. Thank you so much to our guests... Johnny Boursiquot - goodbye, Johnny. Have a lovely time.
 
-**Johnny Boursiquot:** And prosper... \[laughter\] \[unintelligible 00:59:42.06\]
+**Johnny Boursiquot:** And prosper... \[laughter\]
 
-**Mat Ryer:** Can't do it. Are their vulcan kids that can't do that, and they're like "Aww..." and there's like a stigma about it, and stuff, and they're like "Oh, live long and prosper..." Do you know what I mean? Daniel, can you do that?
+**Mat Ryer:** Can't do it. Are there vulcan kids that can't do that, and they're like "Aww..." and there's like a stigma about it, and stuff, and they're like "Oh, live long and prosper..." Do you know what I mean? Daniel, can you do that?
 
 **Daniel Martí:** Apparently...
 
@@ -468,7 +468,7 @@ It's time to say goodbye, I'm afraid. I really hope you enjoyed going through th
 
 **Mat Ryer:** You're not using it for that enough.
 
-**Johnny Boursiquot:** \[laughs\] \[unintelligible 01:00:10.26\]
+**Johnny Boursiquot:** \[laughs\]
 
 **Mat Ryer:** To be fair though, that isn't very useful in any of the -- like, you can't even use it for digging... There's nothing. So it's only for that, showing off that you like Star Trek, or at least are aware of it. Kris, thanks so much again; it was lovely to have you, as usual.
 
@@ -478,7 +478,7 @@ It's time to say goodbye, I'm afraid. I really hope you enjoyed going through th
 
 **Daniel Martí:** Thank you. It was fun.
 
-**Mat Ryer:** Thanks, everyone. See you next time. I said it twice. Ridiculous. It's really hard to do just basic things sometimes... \[unintelligible 01:00:44.20\] say goodbye in a way that I haven't just said those words...
+**Mat Ryer:** Thanks, everyone. See you next time. I said it twice. Ridiculous. It's really hard to do just basic things sometimes... whether it's just say goodbye in a way that I haven't just said those words...
 
 **Johnny Boursiquot:** \[singing\] Now it's time to say goodbye...
 
