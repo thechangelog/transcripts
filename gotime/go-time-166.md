@@ -364,7 +364,7 @@ So to me, this proposal feels quite Go-like... But at the same time, what I don'
 
 **Mat Ryer:** What did he say?
 
-**Johnny Boursiquot:** You said channels are a footgun.
+**Johnny Boursiquot:** He said channels are a footgun.
 
 **Daniel Martí:** Yeah. We were talking about ranging, and I said that people use channels for ranges as a sort of iterator, and I said I think channels are probably the biggest footgun in Go... And I think that's probably triggered a reaction. \[laughter\]
 
@@ -376,7 +376,7 @@ So to me, this proposal feels quite Go-like... But at the same time, what I don'
 
 **Kris Brandow:** Footgun.
 
-**Mat Ryer:** Yeah. What's that about? Because I wanna explain that for anyone who's never heard it before.
+**Mat Ryer:** Yeah. What's that about? Can somebody explain that for anyone who's never heard it before?
 
 **Kris Brandow:** Oh... It's basically like if you have a gun - you know, usually you're trying to shoot other things with it, but instead it's gonna hit you in the foot, and that's bad.
 
@@ -394,7 +394,7 @@ So to me, this proposal feels quite Go-like... But at the same time, what I don'
 
 **Mat Ryer:** Oh, man... Yeah. I mean, if you want a language proposal, I propose that our American cousins pronounce their T's a little more, and then we wouldn't get in this mess... \[laughter\] That's a language proposal for me. I'm gonna actually open that. Can you open PRs for America? \[laughter\] Okay, Daniel, do you have a real unpopular opinion?
 
-**Daniel Martí:** Yeah, I guess so. My unpopular opinion is that Go as a language should be frozen again at some point over the next few years. We've had a couple of years where new features have been added in, and especially big ones are being considered, like generics... I want to see that slow down again, like it was for 6-7 years after Go 1.0 came out.
+**Daniel Martí:** Yeah, I guess so. My unpopular opinion is that Go as a language should be frozen again at some point over the next few years. We've had a couple of years where new features have been added in, especially big ones are being considered, like generics... I want to see that slow down again, like it was for 6-7 years after Go 1.0 came out.
 
 **Mat Ryer:** You're like "Yeah, you've had your fun. You've gone too far. It's time to take a step back..." Why?
 
