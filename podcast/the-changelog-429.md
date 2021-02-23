@@ -52,9 +52,9 @@ So the size of that funnel, your possible monetization gets bigger, hugely bigge
 
 **Adam Stacoviak:** So I think it's a great idea, of how can you leverage the fact that these platforms are so massive that they actually become your marketing channel for you.
 
-**Adam Jacob:** They are your marketing channel for you. And the only thing you have to give up is that they're also going to monetize some number of your customers. Back to open source's punk-rockness, right? There's \[unintelligible 00:15:42.03\] vibe, where like when you're saying that Amazon's a net-positive for your business, everybody's like "But they're the man! And Amazon is gonna destroy Elasticsearch." And you're like "Dude, Elasticsearch is worth 1.5 billion dollars, with a B..."
+**Adam Jacob:** They are your marketing channel for you. And the only thing you have to give up is that they're also going to monetize some number of your customers. Back to open source's punk-rockness, right? There's, like, an F the man vibe, where like when you're saying that Amazon's a net-positive for your business, everybody's like "But they're the man! And Amazon is gonna destroy Elasticsearch." And you're like "Dude, Elasticsearch is worth 1.5 billion dollars, with a B..."
 
-**Jerod Santo:** It's like that commercial where the guy is like "Um, sir, you are the man." Do you know that commercial?
+**Jerod Santo:** It's like that commercial where the guy is like "Um, sir, you are the man." Do you remember that commercial?
 
 **Adam Jacob:** Yeah. Like, who exactly are we protecting here? Because the last time I checked, they were public and killing it.
 
