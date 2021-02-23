@@ -74,9 +74,9 @@ For smaller projects, I feel like maybe I can. I feel like Jeremy Ashkenas' lite
 
 **Jerod Santo:** Yeah.
 
-**Johnny Boursiquot:** I do want to give Kris and Ian a chance to also (I guess) pontificate... I don't think that's a good word for what I'm looking for here. I'm looking for a realization, or coming to \[unintelligible 00:15:34.14\] moment of documentation exploration. Has that ever happened? Have you ever sensed that "Okay, I've consumed enough material on this thing, outside of the context of solving a particular problem, that I've somehow leveled up"?
+**Johnny Boursiquot:** I do want to give Kris and Ian a chance to also (I guess) pontificate... I don't think that's a good word for what I'm looking for here. I'm looking for a realization, or coming to a dating moment of documentation exploration. Has that ever happened? Have you ever sensed that "Okay, I've consumed enough material on this thing, outside of the context of solving a particular problem, that I've somehow leveled up"?
 
-**Ian Lopshire:** Yeah, so you've just talked about how a lot of projects often fall short of getting you to that level that you feel like you've ascended... But where I think that can happen is in actual specifications... Like, if you go read the \[unintelligible 00:16:02.01\] spec, or something like that, where by definition they have to get into those details...
+**Ian Lopshire:** Yeah, so you've just talked about how a lot of projects often fall short of getting you to that level that you feel like you've ascended... But where I think that can happen is in actual specifications... Like, if you go read the PGP spec, or something like that, where by definition they have to get into those details...
 
 **Jerod Santo:** Yeah, everything.
 
@@ -126,7 +126,7 @@ So at that point, if you can somehow demonstrate the ability to communicate usin
 
 But if they come to you with a problem, you can create probably a better technological solution than they could have, just because you know the tech... And as long as you know enough of the business to also know how to solve that problem, I think you end up with a lot better software in general.
 
-**Jerod Santo:** Yeah. I think the \[unintelligible 00:28:46.20\] move there is to be able to actually extract the problem from their given solution, and say "Let's back up here." And you can just even ask them. I've done this \[unintelligible 00:28:55.27\] a lot of client work, and clients come and tell you what they want... And then you say "Hold on, hold on, hold on... What problem are you trying to solve?" And then they say "Well, I'm trying to solve this problem" and you're like "Oh, well there's six ways of solving that problem, and you've just given me one of them. It happens to be the most expensive way that you could have possibly selected... Because you don't know the difference. So I'm here to give you the five other options. We can talk through them etc."
+**Jerod Santo:** Yeah. I think the \[unintelligible 00:28:46.20\] move there is to be able to actually extract the problem from their given solution, and say "Let's back up here." And you can just even ask them. I've done this thing. I've done a lot of client work, and clients come and tell you what they want... And then you say "Hold on, hold on, hold on... What problem are you trying to solve?" And then they say "Well, I'm trying to solve this problem" and you're like "Oh, well there's six ways of solving that problem, and you've just given me one of them. It happens to be that yours is the most expensive way that you could have possibly selected... Because you don't know the difference. So I'm here to give you the five other options. We can talk through them etc."
 
 But going back to the conversation about reading, and really the deep work concepts that you were talking about, Johnny, I wanna state something that's totally obvious, but needs to be said - reading is really hard, and applied reading is even harder... So hard things aren't fun, generally, unless you have some sort of other motivation... Kris really wanted to understand this. Or maybe you really wanna excel in your job.
 
@@ -190,11 +190,11 @@ So I don't know how all that works, but definitely, the Go community can add to 
 
 **Kris Brandow:** To kind of answer your question directly, GoDoc is generated from the repositories themselves, so opening a pull request to whatever library that you're interacting with is the way that you can add more documentation, add examples, add more prose.
 
-I think GoDoc, even though it's now being retired in favor of Go.dev, I think that it had the right idea... Because I definitely agree with Ian here, that GoDoc isn't really only reference. Not reference in the way that I think we're thinking about it. I think it's closer to reference in the way that a \[unintelligible 00:45:41.21\] manual style is. There's a lot of "I wanna know how to use this word in this context." "Okay, boom. Go here, read this." But there's also a lot of essays. And I think that's true of most manuals like that; it's like "Here's some general information about this topic, about how to use this thing, that you can just sit down and read, and now you'll understand more."
+I think GoDoc, even though it's now being retired in favor of Go.dev, I think that it had the right idea... Because I definitely agree with Ian here, that GoDoc isn't really only reference. Not reference in the way that I think we're thinking about it. I think it's closer to reference in the way that a manual style is. There's a lot of "I wanna know how to use this word in this context." "Okay, boom. Go here, read this." But there's also a lot of essays. And I think that's true of most manuals like that; it's like "Here's some general information about this topic, about how to use this thing, that you can just sit down and read, and now you'll understand more."
 
 And I think - once again, to go back to what Ian was saying, good Go docs look like that. You have this kind of giant thing at the top that is this prose, that is this narrative of like "This is how you use this package. This is how you use these series of packages", and then you have these examples; if you wanna do a specific thing, here's how you do that specific thing, and then you also have the reference.
 
-I think that a lot of the problem with -- probably a bit of the problem that Eric is having, and a problem I've had myself, is when those things aren't there, and GoDoc is literally just a reference... And usually when that happens, even the reference stuff - you have to just look at the source code anyway, because there's just not enough in the \[unintelligible 00:46:43.00\] to give you an understanding of how to even use this thing. And I think that's probably caused by two things. I think one is that we as a language, since our source code is so regular, it's really easy to read. So I think for a lot of us, we just go and read the source code, because it's not gonna be frustrating to read that, and that gives us kind of a really low-level understanding of what is going on... So I think that kind of relieves some pressure on having our docs be better.
+I think that a lot of the problem with -- probably a bit of the problem that Eric is having, and a problem I've had myself, is when those things aren't there, and GoDoc is literally just a reference... And usually when that happens, even the reference stuff - you have to just look at the source code anyway, because there's just not enough in the doc comments to give you an understanding of how to even use this thing. And I think that's probably caused by two things. I think one is that we as a language, since our source code is so regular, it's really easy to read. So I think for a lot of us, we just go and read the source code, because it's not gonna be frustrating to read that, and that gives us kind of a really low-level understanding of what is going on... So I think that kind of relieves some pressure on having our docs be better.
 
 And I think the other thing is that it's -- that's what I said before, it's just a lot to ask of maintainers, to "Please go write me some nice docs." And I think we as a community, one of the big things we can do is really emphasize to people that contributing... Like, sure, contributing code is a good thing; contributing to docs is one of the best things that you can do. I don't like tiering things, but I'm kind of like "If you're someone that goes around and adds docs to repositories, to libraries, to packages, that's a higher level of contribution that going in and fixing some small bug... Because you're enabling people to now consume that and use that code, and you're making our community so much better than any one bug fix or feature addition can really do.
 
@@ -218,7 +218,7 @@ Today, things can be easier - and there's nothing wrong with learning by View So
 
 **Jerod Santo:** The good parts...
 
-**Johnny Boursiquot:** The good parts... \[laughter\] \[unintelligible 00:49:48.01\]
+**Johnny Boursiquot:** The good parts... \[laughter\]is generally very readable.
 
 **Jerod Santo:** That'd be a good blog post. Point out which parts we should read and which ones we shouldn't... \[laughter\]
 
@@ -230,7 +230,7 @@ So get over that fear, put something out there, whatever form or shape that you'
 
 **Break:** \[00:51:30.12\]
 
-**Johnny Boursiquot:** Good stuff... Man, I like that song. Okay, so during pre-show, Ian told us he came prepared... Like, read to fire off a bleve of just unpopular opinions. Ian, lay one on us.
+**Johnny Boursiquot:** Good stuff... Man, I like that song. Okay, so during pre-show, Ian told us he came prepared... Like, ready to fire off a bleve of just unpopular opinions. Ian, lay one on us.
 
 **Ian Lopshire:** It's really one that I really thought I would -- \[laughter\] That opinion is that futures and/or promises have a place in Go. I'm not saying that it belongs in the standard library or should even be used often, but I definitely think the community is lacking a really good future and/or promise package. And I can elaborate on why, but I don't know if you want that...
 
@@ -238,7 +238,7 @@ So get over that fear, put something out there, whatever form or shape that you'
 
 **Jerod Santo:** Just hangs up on us...? Yeah, please tell us why.
 
-**Ian Lopshire:** Alright, yeah. \[laughter\] Yeah, so I think you can do everything that you could do with futures and/or promises - I'm just gonna call them futures now - using just channels, and just kind of native Go syntax. But this idea of having just a piece of memory that is or is not ready \[unintelligible 00:54:31.16\] is just so simple and it's so easy to reason about for doing pipelining and complex parallel things, especially to someone that's not necessarily a Go expert. It's so much easier to reason about then passing channels around, or worrying who's gonna close this channel; is this channel closed? ...that sort of thing.
+**Ian Lopshire:** Alright, yeah. \[laughter\] Yeah, so I think you can do everything that you could do with futures and/or promises - I'm just gonna call them futures now - using just channels, and just kind of native Go syntax. But this idea of having just a piece of memory that is or is not ready that I'm gonna put something is just so simple and it's so easy to reason about for doing pipelining and complex parallel things, especially to someone that's not necessarily a Go expert. It's so much easier to reason about then passing channels around, or worrying about who's gonna close this channel; is this channel closed? ...that sort of thing.
 
 I've been experimenting with it off and on, and I do think it leads to some very, very readable code, especially for things that are inherently unreadable. Concurrency code is kind of inherently hard to read... So yeah, I think we're lacking that, and I think it would actually be beneficial.
 
@@ -246,7 +246,7 @@ I've been experimenting with it off and on, and I do think it leads to some very
 
 **Ian Lopshire:** You don't believe me that it doesn't exist? It does exist.
 
-**Johnny Boursiquot:** Well, yeah, I don't believe -- I'm gonna dissent. I don't believe that promises or something like it is needed in Go. I think that is a paradigm, that is a way of thinking about concurrency that is carryover perhaps from the JS world, or other technologies that use those paradigms. And again, I'm not saying that those things are bad. I'm not saying channels over those mechanisms, more so -- I'm in the camp that I'd like one way to do something in Go. The channels and the concurrency primitives that we have now do that job exceptionally well if you don't abuse them... And adding another -- I always keep finding myself in this spot where I'm defending for more of a conservative approach to the language evolution...
+**Johnny Boursiquot:** Well, yeah, I don't believe -- I'm gonna dissent. I don't believe that promises or something like it is needed in Go. I think that is a paradigm, that is a way of thinking about concurrency that is a carryover perhaps from the JS world, or other technologies that use those paradigms. And again, I'm not saying that those things are bad. I'm not saying channels over those mechanisms, more so -- I'm in the camp that I'd like one way to do something in Go. The channels and the concurrency primitives that we have now do that job exceptionally well if you don't abuse them... And adding another -- I always keep finding myself in this spot where I'm defending for more of a conservative approach to the language evolution...
 
 **Jerod Santo:** The status quo.
 
@@ -260,7 +260,7 @@ I've been experimenting with it off and on, and I do think it leads to some very
 
 **Ian Lopshire:** It's tiny, yeah.
 
-**Kris Brandow:** I don't know if it's worth adding... Versus just writing it when you need it. I think that's kind of where I sit with this. I think there are a place where this concept of doing delayed processing makes a lot of sense, and I think that is a paradigm in Go, using goroutines and channels... And I feel like this fits with the "Please don't expose channels more than we need a nice API for promises and futures", because I think that's something that I think is kind of fraught in the Go community... Like, returning channels to people -- it's a footgun. It's definitely a footgun, because - as you \[unintelligible 00:57:35.22\] "Who's gonna close the channel? Who owns this channel?"
+**Kris Brandow:** I don't know if it's worth adding... Versus just writing it when you need it. I think that's kind of where I sit with this. I think there are a place where this concept of doing delayed processing makes a lot of sense, and I think that is a paradigm in Go, using goroutines and channels... And I feel like this fits with the "Please don't expose channels more than we need a nice API for promises and futures", because I think that's something that I think is kind of fraught in the Go community... Like, returning channels to people -- it's a footgun. It's definitely a footgun, because - as you brought it up: "Who's gonna close the channel? Who owns this channel?"
 
 So I think there definitely are some downsides to exposing channels... But I think just covering them up a little bit, and then kind of having the same concept is definitely a programming paradigm that's useful. I think my worry with adding an official promises or futures type of thing is that it'll encourage people not to learn goroutines and channels; it'll encourage people to "Oh, I know this from JavaScript, so I'm gonna keep doing it the way that I did in JavaScript."
 
@@ -330,7 +330,7 @@ So I'm kind of of both minds. I see what you're saying. We shouldn't bait-and-sw
 
 I think that this unpopular opinion is kind of a pushback against that, of saying "No, what we're doing is extremely difficult", and we are very new; this industry is very new. We have a lot to figure out. And what we need right now isn't just more people. We don't need more bodies. I feel like every company has this thing where they're like "I need to hire 50 engineers", and it's like, you don't need more bodies; you need to have more concentration and discipline, and you need to be able to persevere through these bumps that you're heading.
 
-The Mythical Man-Month is true - you can't just throw people at problems, and I feel like that's kind of the ethos of everything right now. And I feel like the kind of way we're going with a lot of the material that we're creating is "How do we make it easier for people to get in the door?" and I think if we don't consider "How do we ensure that people know that this isn't going to be as easy as we're trying to make it?" then we're going to have a big problem in a couple of years.
+The Mythical Man-Month is still true - you can't just throw people at problems, and I feel like that's kind of the ethos of everything right now. And I feel like the kind of way we're going with a lot of the material that we're creating is "How do we make it easier for people to get in the door?" and I think if we don't consider "How do we ensure that people know that this isn't going to be as easy as we're trying to make it?" then we're going to have a big problem in a couple of years.
 
 **Jerod Santo:** Well, that leads in to my unpopular opinion...
 
@@ -370,7 +370,7 @@ It reminds me of the -- I don't know where I heard it, but someone was watching 
 
 **Jerod Santo:** Yes.
 
-**Johnny Boursiquot:** Ooh, that's for another episode. We're gonna dive into that one. \[laughter\] Alright, well - there you have it, folks. Thank you so much for having spent an hour plus talking about documentation, of all things. But as you at least should know by now, there's different levels of documentation, there's different ways of consuming documentation. Documentation can add value to not just your know-how, but also your career. You can be strategic about documentation reading and consumption; not just technical, not just when you need it, you go look for it... You can be deliberate about knowledge acquisition through documentation reading. And if you have ideas for how to improve our Go community's documentation and body of work around documentation, we welcome your contribution and efforts.
+**Johnny Boursiquot:** Ooh, that's for another episode. We're gonna dive into that one. \[laughter\] Alright, well - there you have it, folks. Thank you so much for having spent an hour plus talking about documentation, of all things. But as you at least should know by now, there's different levels of documentation, there's different ways of consuming documentation. Documentation can add value to not just your know-how, but also your career. You can be strategic about documentation reading and consumption; not just technical, not just when you need it, you go look for it... You can be deliberate about knowledge acquisition through documentation reading. And if you have ideas for how to improve our Go community's documentation and body of works around documentation, we welcome your contribution and efforts.
 
 With that, I thank my guests on the show - Ian, thank you for coming...
 
@@ -388,4 +388,4 @@ With that, I thank my guests on the show - Ian, thank you for coming...
 
 **Outro:** \[01:13:03.10\]
 
-**Mat Ryer:** Aah... I can't believe I got this book -- oh, sorry. I didn't see you there. People ask me, junior devs often say "How do you remember all the types, functions and methods in the standard library?" Well, if you can, it's quite easy - just turn them in to a sum. So filepath.Walk becomes Sweet Filepath of Mine. \[Mat singing the song 01:14:58.23\]
+**Mat Ryer:** Aah... I can't believe I got this book -- oh, sorry. I didn't see you there. People ask me, junior devs often say "How do you remember all the types, functions and methods in the standard library?" Well, if you can, it's quite easy - just turn them in to a song. So filepath.Walk becomes Sweet Filepath of Mine. \[Mat singing the song 01:14:58.23\]
