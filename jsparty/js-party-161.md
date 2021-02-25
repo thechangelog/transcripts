@@ -76,7 +76,7 @@ Istanbul, as I understand it, was kind of the v2 of something that grew up insid
 
 So Istanbul was preexisting via Yahoo!, and you came in and helped augment it, it seems, and now you're a maintainer; it's just the way things go in open source.
 
-**Benjamin Coe:** Exactly. That's like the majority of \[unintelligible 00:12:28.11\] and I think that's a valuable lesson for anyone taking part in open source. NYC is one of the few things I wrote from scratch, and I was the initial person of -- yargs, I was just one of the second folks who worked on it and gradually picked it up. That was the same as Istanbul as well. I was just an enthusiastic maintainer, and if you're too enthusiastic, eventually you own the puppy if you're not careful. \[laughter\]
+**Benjamin Coe:** Exactly. That's like the majority of -- a lot of my open source has worked like that, and I think that's a valuable lesson for anyone taking part in open source. NYC is one of the few things I wrote from scratch, and I was the initial person of -- yargs, I was just one of the second folks who worked on it and gradually picked it up. That was the same as Istanbul as well. I was just an enthusiastic maintainer, and if you're too enthusiastic, eventually you own the puppy if you're not careful. \[laughter\]
 
 **Amal Hussein:** That's the truth, yeah. I could think of dozens of folks that are in that same situation, where they're maintaining projects that they didn't create, Babel being, I think a really good example of that.
 
@@ -188,7 +188,7 @@ So getting back into community stuff - there's so much perception around test co
 
 **Benjamin Coe:** \[00:31:48.20\] One thing I'd like to bring up -- and I've brought it up already earlier in this podcast... One real strength I see of coverage in relation to the Node project is that it tells people areas where they could contribute easily... Because you do wanna try to have test coverage of most core components of a large open source project like Node. So giving people that entry point to contribute I think is amazing. To your point, 100% coverage is not no bugs, in any regard... Because you might codify the weird, broken behavior, right?
 
-**Amal Hussein:** It's certainly, I think, a metric. It's a metric to the help of a codebase. But coverage doesn't tell you the quality of your -- it doesn't say that these tests are quality tests. I mean, you could just have a test that runs a high-level function, and just because it does that, you all of a sudden have all this coverage... But you know, your branching isn't there, or whatever else. I feel like there's some flaws there with test coverage being used as this metric for -- I think a lot of times it's synonymous with quality.
+**Amal Hussein:** It's certainly, I think, a metric. It's a metric to the health of a codebase. But coverage doesn't tell you the quality of your -- it doesn't say that these tests are quality tests. I mean, you could just have a test that runs a high-level function, and just because it does that, you all of a sudden have all this coverage... But you know, your branching isn't there, or whatever else. I feel like there's some flaws there with test coverage being used as this metric for -- I think a lot of times it's synonymous with quality.
 
 **Benjamin Coe:** I think that's a really interesting point. I'll give you one really brief story with yargs. It had not the best coverage when I took over the project...
 

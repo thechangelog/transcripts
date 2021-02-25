@@ -54,7 +54,7 @@ So we'll have the Yeps first, team Amal, two minutes on the board. Who's going f
 
 But first, I'll start by trying to define what each one is, and I'll just say quickly that a website is informational, it's defined by its content, and it can be minimal on scripting, although that doesn't necessarily have to be the case. The content is typically static. In a web app, it's defined by its interaction with the user, so it's more "What can the user do with this?" and it definitely expects interaction, which means it probably has scripting on the heavier side, so a lot of JavaScript, a lot of other scripting languages in there, potentially, doing things.
 
-So I think that they are fundamentally different, just in that definition, because a web app is something that you're going to interact with, and a website is going to be something that you're just going to look at and consume the data. Some examples of that is -- I think that GitHub is a really good website to look at my code, and to see what's going on there, and to do a little bit of minimal interaction, like press a button to do a pull request, as long as everything is green, and I can't really change things, like resolve conflicts or anything, because it's just a website that's giving me a lot of information and letting me interact with it in a minimal way. But if I wanna go in and change my code, I'm going to load the Codespaces web app and use that to change my code. Or Vim, if I wanna actually be productive. \[laughter\]
+So I think that they are fundamentally different, just in that definition, because a web app is something that you're going to interact with, and a website is going to be something that you're just going to look at and consume the data. Some examples of that is -- I think that GitHub is a really good website to look at my code, and to see what's going on there, and to do a little bit of minimal interaction. I can press a button to do a pull request, as long as everything is green, and I can't really change things, like resolve conflicts or anything, because it's just a website that's giving me a lot of information and letting me interact with it in a minimal way. But if I wanna go in and change my code, I'm going to load the Codespaces web app and use that to change my code. Or Vim, if I wanna actually be productive. \[laughter\]
 
 Another example would be like I wanna look at pretty web design... \[alert\] Oh, alright.
 
@@ -238,7 +238,7 @@ But what if we change that to "It's useful to distinguish." Because I think when
 
 **Feross Aboukhadijeh:** I mean, everybody's building their websites like web apps these days. A lot of people are just using the same tools for everything, so... But I agree, that is a more useful place to distinguish between the two, when you're thinking from a developer's perspective, like "How should I build this?" There's definitely different decisions that you can make there.
 
-**Jerod Santo:** I think GitHub's such a fascinating case, because it really was a thing that moved from kind of website-looking things to actually some pretty rich interactions now... Although they've kept -- they're not a single-page app. They didn't come out and say "We are an app." It was a place to host your code. And of course, there's tons of stuff that makes that possible, which is very app-like. But the interface was very much like, you know, search for a thing, read a thing, find a thing, write a comment... These are very basic interactions, but over time it's gotten more and more rich... And they really have blurred the lines between the two.
+**Jerod Santo:** I think GitHub's such a fascinating case, because it really was a thing that moved from kind of website-looking things to actually some pretty rich interactions now... Although they've kept -- they're not a single-page app. They didn't come out and say "We are an app." It was a place to host your code. And of course, there's tons of stuff that makes that possible, which is very app-like. But the interface was very much like, you know, search for a thing, read a thing, find a thing, write, comment... These are very basic interactions, but over time it's gotten more and more rich... And they really have blurred the lines between the two.
 
 **Divya:** Web 2.0...! The rise of user interactivity.
 
@@ -276,7 +276,7 @@ Okay, final thoughts before we call it a day. This was a lot of fun... I always 
 
 **Nick Nisi:** Divya's on Geocities again.
 
-**Jerod Santo:** Right. \[unintelligible 00:40:18.19\] Let me go on record and say "Websites are cool. Websites are cool." Come on, people.
+**Jerod Santo:** Right. Kinda, like, demeaning. Let me go on record and say "Websites are cool. Websites are cool." Come on, people.
 
 **Feross Aboukhadijeh:** Yeah. What about the term "programmer?" Do any of you call yourselves programmers?
 
