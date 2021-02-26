@@ -126,7 +126,7 @@ So at that point, if you can somehow demonstrate the ability to communicate usin
 
 But if they come to you with a problem, you can create probably a better technological solution than they could have, just because you know the tech... And as long as you know enough of the business to also know how to solve that problem, I think you end up with a lot better software in general.
 
-**Jerod Santo:** Yeah. I think the \[unintelligible 00:28:46.20\] move there is to be able to actually extract the problem from their given solution, and say "Let's back up here." And you can just even ask them. I've done this thing. I've done a lot of client work, and clients come and tell you what they want... And then you say "Hold on, hold on, hold on... What problem are you trying to solve?" And then they say "Well, I'm trying to solve this problem" and you're like "Oh, well there's six ways of solving that problem, and you've just given me one of them. It happens to be that yours is the most expensive way that you could have possibly selected... Because you don't know the difference. So I'm here to give you the five other options. We can talk through them etc."
+**Jerod Santo:** Yeah. I think the galaxy-brain move there is to be able to actually extract the problem from their given solution, and say "Let's back up here." And you can just even ask them. I've done this thing. I've done a lot of client work, and clients come and tell you what they want... And then you say "Hold on, hold on, hold on... What problem are you trying to solve?" And then they say "Well, I'm trying to solve this problem" and you're like "Oh, well there's six ways of solving that problem, and you've just given me one of them. It happens to be that yours is the most expensive way that you could have possibly selected... Because you don't know the difference. So I'm here to give you the five other options. We can talk through them etc."
 
 But going back to the conversation about reading, and really the deep work concepts that you were talking about, Johnny, I wanna state something that's totally obvious, but needs to be said - reading is really hard, and applied reading is even harder... So hard things aren't fun, generally, unless you have some sort of other motivation... Kris really wanted to understand this. Or maybe you really wanna excel in your job.
 
@@ -234,7 +234,7 @@ So get over that fear, put something out there, whatever form or shape that you'
 
 **Ian Lopshire:** It's really one that I really thought I would -- \[laughter\] That opinion is that futures and/or promises have a place in Go. I'm not saying that it belongs in the standard library or should even be used often, but I definitely think the community is lacking a really good future and/or promise package. And I can elaborate on why, but I don't know if you want that...
 
-**Johnny Boursiquot:** Oh, so you just wanted to drop the bomb \[unintelligible 00:54:07.29\] \[laughter\] You know, my friend, you're gonna have to explain yourself.
+**Johnny Boursiquot:** Oh, so you just wanted to drop the bomb and run? \[laughter\] You know, my friend, you're gonna have to explain yourself.
 
 **Jerod Santo:** Just hangs up on us...? Yeah, please tell us why.
 
@@ -246,11 +246,11 @@ I've been experimenting with it off and on, and I do think it leads to some very
 
 **Ian Lopshire:** You don't believe me that it doesn't exist? It does exist.
 
-**Johnny Boursiquot:** Well, yeah, I don't believe -- I'm gonna dissent. I don't believe that promises or something like it is needed in Go. I think that is a paradigm, that is a way of thinking about concurrency that is a carryover perhaps from the JS world, or other technologies that use those paradigms. And again, I'm not saying that those things are bad. I'm not saying channels over those mechanisms, more so -- I'm in the camp that I'd like one way to do something in Go. The channels and the concurrency primitives that we have now do that job exceptionally well if you don't abuse them... And adding another -- I always keep finding myself in this spot where I'm defending for more of a conservative approach to the language evolution...
+**Johnny Boursiquot:** Well, yeah, I don't believe -- I'm gonna dissent. I don't believe that promises or something like it is needed in Go. I think that is a paradigm, that is a way of thinking about concurrency that is a carryover perhaps from the JS world, or other technologies that use those paradigms. And again, I'm not saying that those things are bad. I'm not saying channels over those mechanisms, more so -- I'm in the camp that I'd like one way to do something in Go. The channels and the concurrency primitives that we have now do that job exceptionally well if you don't abuse them... And adding another -- How is it I keep finding myself in this spot where I'm defending for more of a conservative approach to the language evolution...
 
 **Jerod Santo:** The status quo.
 
-**Johnny Boursiquot:** I know, right? This is what happens when people just get comfortable with something and you just don't want no new ideas, no new thoughts...
+**Johnny Boursiquot:** I know, right? Is this what happens when people just get comfortable with something and you just don't want no new ideas, no new thoughts...
 
 **Jerod Santo:** Yeah. Get your futures off my lawn. \[laughter\]
 
@@ -282,7 +282,7 @@ Nothing against the paradigms of other languages, but this is Go. We have our id
 
 **Kris Brandow:** So I think that the trouble here is that while it's really helpful for people to have an easy on-ramp to learning and acquiring a language, there is going to be a point at which it is going to be hard. It's just going to be hard. And I think it does us a disservice, or it does people a disservice if they are given -- I feel like it sounds like a bait-and-switch. If they're given this kind of easy on-ramp to doing the basic stuff and the simple stuff, and then they get walloped with this "Oh, now everything's gonna get really hard", and you're not gonna have any of that stamina, any of that discipline built up to kind of get yourself over that.
 
-There's some things I've read - I don't remember where I've read them, but this idea that, you know, starting off a computer science curriculum with pointers and recursion basically weeded out a lot of people, because it was such a hard concept for people to grapple with... But the results of people that pushed through was that they had a much easier time in the long run being able to comprehend and understand computer science curriculum. And I think that's kind of true of a lot of things that are like this, a lot of things that involve a lot of practice, or a lot of "not having fun" most of the time.
+There's some things I've read - I don't remember where I've read them, but this idea that, you know, starting off a computer science curriculum with pointers and recursion basically weeded out a lot of people, because it was such a hard concept for people to grapple with... But the result of people that pushed through was that they had a much easier time in the long run being able to comprehend and understand computer science curriculum. And I think that's kind of true of a lot of things that are like this, a lot of things that involve a lot of practice, or a lot of "not having fun" most of the time.
 
 I've read this book recently called Peak, and one of the things that they talk about in the opening of it - the book really is all about how do you become expert-level or elite-level at what you're doing... And the thing that they put in the beginning is like, if you wanna become a really good tennis player, a lot of people think "Well, get a tennis racket and start playing some tennis games, and do it on the weekend, and then just kind of keep doing that, and that will be enough, that will be sufficient." And you can't become a great tennis player by doing that. You have to continue pushing yourself.
 
@@ -318,7 +318,7 @@ So I'm kind of of both minds. I see what you're saying. We shouldn't bait-and-sw
 
 **Jerod Santo:** It is.
 
-**Kris Brandow:** Because it is a very nuanced \[unintelligible 01:05:10.23\]
+**Kris Brandow:** Because it is a very nuanced and careful thing, of like --
 
 **Jerod Santo:** But it has to be a one-liner for Unpopular Opinion, because that's the segment, right?
 
@@ -336,7 +336,7 @@ The Mythical Man-Month is still true - you can't just throw people at problems, 
 
 **Johnny Boursiquot:** Oh. Lay it on us.
 
-**Jerod Santo:** ...which is also - I kind of stole my own thunder earlier in the show... Because my opinion is that one of the primary traits of successful developers is stubbornness. Not intelligence necessarily, not anything else... Although we can have more than one trail, people; it can happen. But I think that what I've seen over the years and what I've experienced is the ones that really succeed - and of course, define success... Proficiency in what they're doing, maybe you reach a level of a CTO, maybe you're a senior engineer... Whatever it is. Like, you can build apps; you can make it through... It's that those people are generally stubborn. And maybe that's not the perfect word to use, but... That refusal to give up until it works. Powering through the docs, like we talked about, or through the source code... The willingness to dive into the source code and say "Nah, I'm not gonna just go eat dinner right now."
+**Jerod Santo:** ...which is also - I kind of stole my own thunder earlier in the show... Because my opinion is that one of the primary traits of successful developers is stubbornness. Not intelligence necessarily, not anything else... Although we can have more than one trait, people; it can happen. But I think that what I've seen over the years and what I've experienced is the ones that really succeed - and of course, define success... Proficiency in what they're doing, maybe you reach a level of a CTO, maybe you're a senior engineer... Whatever it is. Like, you can build apps; you can make it through... It's that those people are generally stubborn. And maybe that's not the perfect word to use, but... That refusal to give up until it works. Powering through the docs, like we talked about, or through the source code... The willingness to dive into the source code and say "Nah, I'm not gonna just go eat dinner right now."
 
 Now, it doesn't mean it's always the best trait, but I think it's there often. "I'm gonna sit here and I'm not leaving till I understand this." I see that in so many successful engineers that I've met over the years, and we've interviewed on the shows... The ones that will just keep rewriting that function until it's good enough; they're never happy with it being good enough, and they're gonna keep going until they have the ability to write functions pretty well the first time around, or maybe the second pass. Stubbornness is usually there.
 
@@ -356,7 +356,7 @@ It reminds me of the -- I don't know where I heard it, but someone was watching 
 
 **Jerod Santo:** I think the reason why I think it might be unpopular is because the stereotype, or maybe the mythos of the 10X engineer is the one who was doing math equations when they were eight, and they have this intelligence. That seems to be what people think as the primary trait. Systems thinking, intelligence, and these other traits... And I think actually just powering through is what most successful engineers end up doing to get to where they are. Johnny, what do you think?
 
-**Johnny Boursiquot:** I think if you can find those "10X engineers", the people that are so brilliant, that stand out from the crowd - and I'm not saying those people don't exist; there's a lot of literature around 10X engineering out there, floating about... But if you can find those people and you can afford them, hire them. I'm not saying they don't exist, but if you can find them and you can afford them, hire them. Good for you. But. This leads into my actual unpopular opinion.
+**Johnny Boursiquot:** I think if you can find those "10x engineers", the people that are so brilliant, they stand out from the crowd - and I'm not saying those people don't exist; there's a lot of literature around 10x engineering out there, floating about... But if you can find those people and you can afford them, hire them. I'm not saying they don't exist, but if you can find them and you can afford them, hire them. Good for you. But. This leads into my actual unpopular opinion.
 
 **Jerod Santo:** Let's hear it.
 
