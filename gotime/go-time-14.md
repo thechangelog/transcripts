@@ -32,9 +32,9 @@
 
 **Brian Ketelsen:** Also, this is a plugin to Caddy, rather than core DNS kind of leveraging shared libraries; it's actually the other way around, where Caddy takes plugins. Am I understanding that correctly?
 
-**Matt Holt:** Right. I was really excited when he forked this, thinking that it would be beneficial for a DNS server and it turns out that it is. But the problem is that you have a bunch of duplicated code, you have to maintain a fork, and so to alleviate some of that pressure and to help Caddy serve a wider audience and really do it, I want people to do, and that is use TLS. I redesigned Caddy so that it can handle different server types other than HTTP, so now the DNS server is a plugin. Well, it will be. The HTTP Server is a plugin, and so it can do all those things now.
+**Matt Holt:** Right. I was really excited when he forked this, thinking that it would be beneficial for a DNS server and it turns out that it is. But the problem is that you have a bunch of duplicated code, you have to maintain a fork, and so to alleviate some of that pressure and to help Caddy serve a wider audience and really do what I want people to do, and that is use TLS. I redesigned Caddy so that it can handle different server types other than HTTP, so now the DNS server is a plugin. Well, it will be. The HTTP Server is a plugin, and so it can do all those things now.
 
-**Brian Ketelsen:** \[00:03:53.27\] Wow, that's awesome. So I wanna kind of circle back for one second, because you happened to mention that 0.9 was a complete rewrite, so how long did that take and what was the motivation behind kind of just scrapping and starting over? Was it new functionality and new ways of looking at your project?
+**Erik St. Martin:** \[00:03:53.27\] Wow, that's awesome. So I wanna kind of circle back for one second, because you happened to mention that 0.9 was a complete rewrite, so how long did that take and what was the motivation behind kind of just scrapping and starting over? Was it new functionality and new ways of looking at your project?
 
 **Matt Holt:** Yeah, so people's feedback really expanded my vision a lot of what they wanted and what was possible and what Caddy really was. On day one for me, Caddy was just a web server that makes it easy to spin up a new website in just a matter of seconds, but after the launch of Let's Encrypt and more people using Caddy, I realized that what people really want is just an easy way to configure their standard web services and to do so securely, without having to worry about it. Caddy 0.9 makes that possible, but I had to redesign a lot of it to handle more... Because before, the only thing that a plugin could do is handle HTTP requests, basically. But now, Caddy can be extended so that plugins can do a number of things, including serving something completely other than HTTP. So that was kind of the goal, and that rewrite took almost six months. There was a lot of code to splice over piece by piece.
 
@@ -134,7 +134,7 @@ If you have a problem with TLS, it's probably more due to the problems with PKI 
 
 **Brian Ketelsen:** I'm gonna argue.
 
-**Brian Ketelsen:** I'm not advocating that you don't encrypt there, but it is kind of one of those, "You know, depending on the service and how well...", but I think it's just a good idea to use TLS in general. I mean, thinking about things like Kubernetes and all those that's using TLS in between all of the services, there's just no reason not to use it. And especially, like as Matt was kind of advocating too, with all this tooling it becomes much easier to do that and to set this up.
+**Erik St. Martin:** I'm not advocating that you don't encrypt there, but it is kind of one of those, "You know, depending on the service and how well...", but I think it's just a good idea to use TLS in general. I mean, thinking about things like Kubernetes and all those that's using TLS in between all of the services, there's just no reason not to use it. And especially, like as Matt was kind of advocating too, with all this tooling it becomes much easier to do that and to set this up.
 
 And a lot of reason why people avoided it before is getting certificates or stuff, and wildcard certificates and installing these things, it was really time-consuming and most of the time people were generating their own certificates and then you'd have to set up your applications to trust them or just use insecure, and then kind of what's the point if you're doing that? So I think we live in a different space now, where it becomes easier and there's no real reason why you shouldn't, even if you think that bad actors aren't on your network.
 
@@ -158,11 +158,11 @@ And then nonrepudiation is more complicated, but at a technical level it basical
 
 **Matt Holt:** When you get a certificate, cryptographically it doesn't matter what kind of certificate you get, as long as the certificate authority is trusted by your users. There are certain certificate authorities that I would favor more than others or not favor less than others, based on their business practices... You'll be the judge, right? So the whole point of getting a certificate is to have that third party validate you, to speak for you in that sense and to put out a good word. So you wanna choose a certificate authority that you also trust, and not just because you can buy certificates from them, but because you believe that they're doing business well and that their mission is good, and that you can trust who's on their team.
 
-**Brian Ketelsen:** So let's actually talk about that for a second. I mean anytime we talk security, that's always gonna come up, this trust. That's ultimately what it comes down to, is who do you trust? So let's talk about some of the things that can go wrong if you chose a certificate authority that may not be trustworthy, like the types of things that are certificate authority is able to do on your behalf or man-in-the-middle type things that can take place by using a certificate authority that they themselves are issuing certificates on your behalf to other parties, or their keys have been stolen.
+**Erik St. Martin:** So let's actually talk about that for a second. I mean anytime we talk security, that's always gonna come up, this trust. That's ultimately what it comes down to, is who do you trust? So let's talk about some of the things that can go wrong if you chose a certificate authority that may not be trustworthy, like the types of things that are certificate authority is able to do on your behalf or man-in-the-middle type things that can take place by using a certificate authority that they themselves are issuing certificates on your behalf to other parties, or their keys have been stolen.
 
 **Matt Holt:** Yeah. I'll use an example, and this is just a recent news item. I'm not endorsing or I'm not suggesting one way or another, but recently Symantec issued certificates that were SHA1 signed. Now, SHA1 is officially deprecated for TLS certificates, because of weaknesses with collisions that have been recently found. So they issued certificates that were SHA1 signed, and then they revoked those certificates because they said it was a mistake and, you know, they were called out on this as well, because certificate transparency logs raised the alarm.
 
-And then when they officially asked after that for the issuance of seven SHA1 signed certificates a special case, the request contained unusual strings in one of the fields in the certificate. And that was concerning, because at least the security researchers say that a collision attack could likely include such unusual string somewhere in the certificate. Their explanations for why those strings were there was considered insufficient. I'm actually taking this - I should give due credit -paraphrasing from the Bulletproof TLS Newsletter, the Feisty Duck TLS Newsletter, and it's fantastic. You know, on Twitter it does a really good job curating this.
+And then when they officially asked after that for the issuance of seven SHA1 signed certificates as a special case, the request contained unusual strings in one of the fields in the certificate. And that was concerning, because at least the security researchers say that a collision attack could likely include such unusual string somewhere in the certificate. Their explanations for why those strings were there was considered insufficient. I'm actually taking this - I should give due credit -paraphrasing from the Bulletproof TLS Newsletter, the Feisty Duck TLS Newsletter, and it's fantastic. You know, on Twitter it does a really good job curating this.
 
 Anyway, so here you have the certificate authority whose practices are disputed. Now, in the end they issued the certificates, but they took out those questionable strings. I mean, you be the judge of who your certificate authority is, but cryptographically remember that no certificate is better than another. You can make your own certificate. The only difference is that your certificate isn't trusted by everyone out there.
 
@@ -170,7 +170,7 @@ Anyway, so here you have the certificate authority whose practices are disputed.
 
 **Matt Holt:** Why not?
 
-**Carlisia Thompson:** Let's say I have reasons, let's say I at least consider other entity. How do I go about trusting an entity? What are the rules of thumb that I need to think about? Are there things that I can look at? Like, this company does this, or …
+**Carlisia Thompson:** Let's say I have reasons, let's say I at least consider other entities. How do I go about trusting an entity? What are the rules of thumb that I need to think about? Are there things that I can look at? Like, this company does this, or …
 
 **Matt Holt:** You know, the way I do it is I just follow the TLS news, TLS-related news. Certificate transparency logs is like a raw source of who is issuing what certificates. Whether a certificate authority even submits to certificate transparency is probably a good indicator. I just Google Security research. They do some really good investigations into certificate authorities and kind of a good alarm system there, and they'll publish a blog post when something alarming happens, especially related to Google services. I just follow the news, I suppose.
 
@@ -184,19 +184,19 @@ So this protocol allows them to verify your claim that you own a domain name and
 
 **Brian Ketelsen:** At least, yeah.
 
-**Matt Holt:** So the certificate authority is actually irrelevant here. The fact that Let's Encrypt is the automated certificate authority is just a matter or circumstance right now. But any certificate authority can implement ACME. It's an open protocol, it's published. I see the link here in Slack for the spec. So I'm hoping that over the next few years, we'll see several ACME-capable certificate authorities appear. No reason to let Let's Encrypt be the only one, although they are doing a fantastic job pioneering it.
+**Matt Holt:** So the certificate authority is actually irrelevant here. The fact that Let's Encrypt is the automated certificate authority is just a matter of circumstance right now. But any certificate authority can implement ACME. It's an open protocol, it's published. I see the link here in Slack for the spec. So I'm hoping that over the next few years, we'll see several ACME-capable certificate authorities appear. No reason to let Let's Encrypt be the only one, although they are doing a fantastic job pioneering it.
 
 **Carlisia Thompson:** That's also important because, as I understand it, you can be a CA, but the rules of how you validate a certificate's authority, they are very loose, correct?
 
 **Matt Holt:** Certificate authorities have pretty rigid guidelines. I don't know a whole lot of details, because I don't work for one. The ACME protocol is not any more lenient in issuing certificates than traditional certificate authorities.
 
-**Brian Ketelsen:** \[00:28:05.19\] It automates the process, really. If we think about the traditional approach of getting a certificate, they typically want you to add a DNS record to show that you have control of the authoritative zone, or they make you add something to the web page, or there's some sort of process to validate that you own a domain. A lot of those things can be automated, so is it so different than having a protocol? And I'm not familiar with exactly how the protocol works, how it vets who owns the domain.
+**Erik St. Martin:** \[00:28:05.19\] It automates the process, really. If we think about the traditional approach of getting a certificate, they typically want you to add a DNS record to show that you have control of the authoritative zone, or they make you add something to the web page, or there's some sort of process to validate that you own a domain. A lot of those things can be automated, so is it so different than having a protocol? And I'm not familiar with exactly how the protocol works, how it vets who owns the domain.
 
 **Carlisia Thompson:** Exactly. But this process of validation, if there is a protocol and the company is following that protocol, we know that that protocol validates in a secure way and we can trust it. I think it was a very good initiative, because you can have implemented a validation process that's either manual, or it can even be also automated, but not be very secure, and that's happened before.
 
 **Matt Holt:** Right. In fact, we saw a similar problem with StartEncrypt, where they had an issue with their API, a security issue, and they don't use ACME, they do something else. So you have to be careful, it's not easy. ACME is pretty good, it relies on the integrity of DNS, just like traditional domain-validated certificates. I mean, DV certificates get their name because they are issued based on validating the domain name, ownership of the domain. So if your DNS is compromised, it's not any different now than it was before. So ACME, again, just speeds it up. You can see Caddy do it in 2 seconds. Your own Go programs can do it in 2 seconds using Go libraries like LEGO and so.
 
-**Erik St. Martin:** Alright, well, this is a good opportunity for us to take a break and thank our sponsor Equinox. Many of you probably create applications that you need to ship to end users or customers, and if you've been in that boat like I have, you'll know that there are two things that are pretty important: the first is making the installation experience easy and the second is keeping the customers up to date. Equinox solves both of those problems.
+**Brian Ketelsen:** Alright, well, this is a good opportunity for us to take a break and thank our sponsor Equinox. Many of you probably create applications that you need to ship to end users or customers, and if you've been in that boat like I have, you'll know that there are two things that are pretty important: the first is making the installation experience easy and the second is keeping the customers up to date. Equinox solves both of those problems.
 
 The installation experience is dead simple because they create Debian, RPM, Microsoft Installer, Mac packages and they have a Brew Install option that lets your customers get your application pretty much any way that they're comfortable doing it. They also have a hosted download page for your application. So any way that you want to get your customers that app, Equinox supports it.
 
@@ -242,7 +242,7 @@ Then there is the third challenge, which is the DNS challenge. And this one, you
 
 The downside is that you either have to do this manually or you have to give your ACME client credentials to your DNS provider, and they have to have to have an API to allow you to set records. Now unfortunately, lots of DNS providers have an API of some sort. Caddy, for example, ships with support for 10 DNS providers, especially the most common ones - CloudFlare, Namecheap, Digital Ocean etc. And you can specify these credentials in your environment variables, so Caddy can perform the DNS challenge as well as of 0.9.
 
-Those are the three challenge types, and if you're having a hard time with Let's Encrypt or with the ACME protocol in general, I'm willing to bet it's probably because your tooling has not quite arrived yet or it's not mature yet, or you're asking a lot from the Let's Encrypt servers, and that's when people run into raid limits. But honestly, this covers 95% to 99% of the use cases.
+Those are the three challenge types, and if you're having a hard time with Let's Encrypt or with the ACME protocol in general, I'm willing to bet it's probably because your tooling has not quite arrived yet or it's not mature yet, or you're asking a lot from the Let's Encrypt servers, and that's when people run into rate limits. But honestly, this covers 95% to 99% of the use cases.
 
 **Erik St. Martin:** \[00:40:11.19\] So is there anything else that a listener should know about either Caddy or TLS or ACME before we move on? Is there anything else you'd like to add?
 
@@ -250,7 +250,7 @@ Those are the three challenge types, and if you're having a hard time with Let's
 
 **Erik St. Martin:** Yeah, we definitely will.
 
-**Matt Holt:** But if you think you don't need encrypt, think again and think really hard about it.
+**Matt Holt:** But if you think you don't need to encrypt, think again and think really hard about it.
 
 **Brian Ketelsen:** Yay! Retweet that, quote it.
 
@@ -324,7 +324,7 @@ Carlisia Campos:… I know, I know.
 
 **Erik St. Martin:** So Go projects. I have one that I saw come through - I think I saw it on Twitter a few days ago, but it goes along with this whole security mindset that we're talking about this episode, which is Hewlett-Packard released a library called [`gas`](https://github.com/HewlettPackard/gas) - a command line tool, anyway - to statically analyze your code for common security or vulnerabilities, and some of which were actually validating the TLS ciphers and protocols within your project, and then there was some SQL injection vectors it looked for, and I think using some crypto primitives and stuff that were weaker. There is a whole slew of things, and it will actually be interesting now that this is here to see how many more security checks people add to the code.
 
-**Matt Holt:** Yeah, I saw that. It looks really cool.
+**Brian Ketelsen:** Yeah, I saw that. It looks really cool.
 
 **Erik St. Martin:** Did you take a look at that, Matt, at all?
 
@@ -338,9 +338,11 @@ Carlisia Campos:… I know, I know.
 
 You also don't wanna ignore it, because that may actually become a real vulnerability. And I think I struggle with that, like how do you trim the fat on the warnings being thrown, without continuously ignoring what could become future problems?
 
-**Brian Ketelsen:** \[00:48:04.00\] That might be a show of its own, right there. So somebody write a library for that/ \[laughter\] Like, so many runs, or if the line changes, or surrounding lines change - I wanna know to look at it again.
+**Brian Ketelsen:** \[00:48:04.00\] That might be a show of its own, right there
 
-And then also along those lines, Stripe has a package called SafeSQL which also looks for some SQL injection vulnerabilities - which I haven't run, but I'm interested to see how that works from the static analysis side. \[\\00:48:36.05\]using tools like sqlmap and stuff from the client side, looking for SQL injection vulnerabilities that are exposed.
+**Erik St. Martin:** So somebody write a library for that/ \[laughter\] Like, so many runs, or if the line changes, or surrounding lines change - I wanna know to look at it again.
+
+And then also along those lines, Stripe has a package called SafeSQL which also looks for some SQL injection vulnerabilities - which I haven't run, but I'm interested to see how that works from the static analysis side. So I see it's using tools like sqlmap and stuff from the client side, looking for SQL injection vulnerabilities that are exposed.
 
 **Brian Ketelsen:** So one that I saw that I thought was very exciting was sync.errgroup, which was released by the Go Team a week or two ago. That is a pretty slick package that kind of helps you do all of the right things when it comes to synchronization, concurrency and organizing a bunch of goroutines to do stuff, and lets you get the errors back out of them easily, it lets you cancel them nicely.
 
@@ -382,7 +384,7 @@ So it's a thin shell around sync.WaitGroup and the context package, but it's nic
 
 **Erik St. Martin:** \[00:52:23.28\] So this is so that you can call out to the .NET runtime from your Go code?
 
-**Brian Ketelsen:** Correct. And it may work the other direction. I haven't tested it, so I don't know, but it may work the other direction, too - calling to go from .NET; I don't know.
+**Brian Ketelsen:** Correct. And it may work the other direction. I haven't tested it, so I don't know, but it may work the other direction, too - calling to Go from .NET; I don't know.
 
 **Erik St. Martin:** It is interesting, though. I mean it's similar to kind of Cgo. We'd prefer not to write Cgo, but it does afford us the ability to operate with code that already exists and is well vetted and performant. So yeah, this will be interesting.
 
@@ -414,7 +416,7 @@ So it's a thin shell around sync.WaitGroup and the context package, but it's nic
 
 **Brian Ketelsen:** Jessie Frazelle?
 
-**Carlisia Thompson:** Yes, I was running her dot-vimrc file and I went through \[unintelligible 00:55:17.22\] tutorial notes. He gave a tutorial at GopherCon. I was not there, but he wrote it out, it's all spelled out, it's beautiful. So I didn't even finish the whole thing, I just skipped around for the things I wanted the most and I'm gonna go back and do the rest.
+**Carlisia Thompson:** Yes, I was running her dot-vimrc file and I went through Fatih's tutorial notes. He gave a tutorial at GopherCon. I was not there, but he wrote it out, it's all spelled out, it's beautiful. So I didn't even finish the whole thing, I just skipped around for the things I wanted the most and I'm gonna go back and do the rest.
 
 So basically, he tells you exactly what to do. Jessie already had a bunch of the shortcuts that he was suggesting to do, so I was like, "Okay, cool, I'm just cruising through this", and now I've got vim-go going, I'm not going to go back to an IDE, and I'm very happy. And if you are interested, I suggest you take the jump into it, because it's very easy, relatively; if you know what things do, you just copy and paste stuff and done.
 
@@ -472,17 +474,17 @@ One of my favorites is if you change networks - let's say you're downloading som
 
 **Brian Ketelsen:** I use Mosh, every day, Erik. It definitely still exists and it's awesome.
 
-**Erik St. Martin:** Oh yeah, look at this. It doesn't look like it has a new release recently, but still, that's awesome. I'm gonna drop a link in the channel too, because it was pretty cool. I'm gonna have to do that again.
+**Erik St. Martin:** Oh yeah, look at this. It doesn't look like it has a new release recently, but still, that's awesome. I'm gonna drop a link in the channel too, because it was pretty cool. I'm gonna have to use that again.
 
 **Brian Ketelsen:** Yeah, Mosh is great. Thumbs up.
 
 **Erik St. Martin:** So you're actually still using it?
 
-**Brian Ketelsen:** Yeah, I keep a Mosh session open to my Linux machine for my Mac and it doesn't matter whether I close the lid, whether it suspends, hibernates or whatever. It's just always there.
+**Brian Ketelsen:** Yeah, I keep a Mosh session open to my Linux machine from my Mac and it doesn't matter whether I close the lid, whether it suspends, hibernates or whatever. It's just always there.
 
 **Erik St. Martin:** So we get extra projects this week on our shout out. So for me, I wanna actually thank Wireshark, because in the past couple of days I've had to be dealing with it quite a bit. And I guess also a huge shout out to TCP Dump too, because Wireshark uses libpcap under the covers, but so nice to be able to just follow TCP strings and diagnose network protocol issues. In this case, there was actually unpegged streams, but still... Any network connectivity, Wireshark is awesome.
 
-I'll have to shoot out some links and stuff, but there's actually a lot of nice kind of custom configurations and filters and things like that that you can set up to make it more usable for diagnosing specific things. I think I even saw a GRPC1 a while back, too. You can kind of hand it your certificates to be able to read the connections as it passes through.
+I'll have to shoot out some links and stuff, but there's actually a lot of nice kind of custom configurations and filters and things like that that you can set up to make it more usable for diagnosing specific things. I think I even saw a GRPC one a while back, too. You can kind of hand it your certificates to be able to read the connections as it passes through.
 
 **Brian Ketelsen:** So if you spend a lot of time in Wireshark, can you actually see the matrix? \[laughter\]
 
@@ -516,7 +518,7 @@ And TCP Dump is good to use too, because you won't always have GUI access to stu
 
 **Brian Ketelsen:** The only person that's gonna pass is Scott Mansfield. I think we should just give him a star now and move on.
 
-**Erik St. Martin:** \[laughs\] No commentary. I'm actually surprised. He must not be listening living anymore.
+**Erik St. Martin:** \[laughs\] No commentary. I'm actually surprised. He must not be listening live anymore.
 
 **Brian Ketelsen:** That's too bad.
 
