@@ -14,7 +14,7 @@ Today on the show we have myself, Erik St. Martin, Brian Ketelsen is also on the
 
 **Erik St. Martin:** Good, good. So let's talk about GopherCon, being that I think all of us were there, at least partially. Brian-half-sleep at GopherCon...
 
-**Brian Ketelsen:** Yeah, apparently. So this is our first show after GopherCon. GopherCon officially ended last Wednesday, it's not Thursday... I still haven't even read all my email or done my laundry.
+**Brian Ketelsen:** Yeah, apparently. So this is our first show after GopherCon. GopherCon officially ended last Wednesday, it's now Thursday... I still haven't even read all my email or done my laundry.
 
 **Francesc Campoy:** I just got to my inbox zero yesterday and I was so proud. I'm done for the rest of the week.
 
@@ -44,7 +44,7 @@ Today on the show we have myself, Erik St. Martin, Brian Ketelsen is also on the
 
 **Brian Ketelsen:** So how did you feel about going on first this year?
 
-**Francesc Campoy:** I was pretty nervous... My talk changed a lot since I was notified that I was the opening keynote speaker. I was like, "Oh wait, what?" So I made it more of trying to get a mission of embracing, rather than just giving a bunch of technical facts, and I think it made the talk much better.
+**Francesc Campoy:** I was pretty nervous... My talk changed a lot since I was notified that I was the opening keynote speaker. I was like, "Oh wait, what?" So I made it more of trying to get a mission of embracing nil, rather than just giving a bunch of technical facts, and I think it made the talk much better.
 
 To be honest, I was nervous also about being the first person on stage, but then I saw Kelsey Hightower was right before me and he did an amazing job, that it was actually... It was very easy to get on stage after him, and also incredibly hard to try to compete against what he did.
 
@@ -112,7 +112,7 @@ To be honest, I was nervous also about being the first person on stage, but then
 
 **Carlisia Thompson:** As Scott mentioned on GoTime FM gophers channel - the conference is local, but the content is pretty relevant to everybody, and it has a pretty wide range of talks, and of course people all over the world can benefit.
 
-I wanna mention this because it was so awesome... Yesterday the Remote Meet streamed the GoSF meetup, and it was amazing. This business of streaming is awesome, we need to keep doing it.
+I wanna mention this because it was so awesome... Yesterday the Remote Meetup streamed the GoSF meetup, and it was amazing. This business of streaming is awesome, we need to keep doing it.
 
 **Erik St. Martin:** Yeah, the only struggle with streaming is if it starts taking away from physical attendance. Because one's free, and one pays for everything. But I think people get a lot more out of attending. There's a lot that you can get out of just being there and being able to network. I guess videos would have taken away attendance if that was ever gonna be a thing.
 
@@ -140,9 +140,9 @@ But I share some concerns though... We had some discussions with Kelsey and some
 
 My favorite part was right after we had the dependency discussion. The dependency discussion is pretty interesting, because it's talking about one of the hot topics in the Go community - vendoring. And not only vendoring; talking about "Is vendoring a good solution? How should we do it? What are the tools?"
 
-I know that Chris Bradford was there and he took a bunch of notes, and I'm looking forward to the document that will explain basically about all the things that were discussed. But it was a very, very active discussion, that's for sure.
+I know that Chris Broadfoot was there and he took a bunch of notes, and I'm looking forward to the document that will explain basically about all the things that were discussed. But it was a very, very active discussion, that's for sure.
 
-**Erik St. Martin:** That room was packed the entire time, and not riots. It was crazy.
+**Erik St. Martin:** That room was packed the entire time, and no riots. It was crazy.
 
 **Brian Ketelsen:** That's what I was gonna ask - nobody got stabbed, or anything? I mean, vendoring - this is a hot topic. This can be contentious.
 
@@ -156,7 +156,7 @@ I know that Chris Bradford was there and he took a bunch of notes, and I'm looki
 
 **Francesc Campoy:** That would have been amazing.
 
-**Brian Ketelsen:** We probably would have had to have some special dispensation from the damn fire marshal, though. Don't get me started on that dire marshal.
+**Brian Ketelsen:** We probably would have had to have some special dispensation from the damn fire marshal, though. Don't get me started on that fire marshal.
 
 **Carlisia Thompson:** We should have a Gopher parade to open GopherCon.
 
@@ -190,7 +190,7 @@ Even behavior... Like, I know in the Slack channel I've been quick to answer a q
 
 For example Matt Aimonetti did a beautiful [blog post](https://medium.com/@mattetti/go-is-for-everyone-b4f84be04c43) about Go being for everyone, and I think it is going to be very healthy for us to identify what we need to do and why we need to do these things, because I think a lot of us want people to join the community, and not just because we want everybody to do Go, but if you do want to do Go or try it out, there should be an easy path for you. You should be not only welcome in the community as a person, which I think we're doing a great job at that, and we can talk more about that too, but also as far as learning the language.
 
-**Erik St. Martin:** And similar to that talk was Michael Matloob's talk on contributing to Go, and even open source. I think that was valuable, because a lot of people feel like they're not at the skill level they need to be in order to contribute, and there are so many ways to contribute. One think that I've advocated to people is that sometimes a solution to a problem is better than no solution. It's easy for somebody to come through and be like, "Oh, you could make this faster if you remove these couple allocations" or "It would look cleaner if you made these couple of abstractions", but we're looking at it after the fact, right? Seeing somebody's solution and thinking about how to tweak it to make it better is much easier than solving the initial problem, so I think that there's value in people contributing test cases or testing bugs to get steps to reproduce vague bugs people put and there's so many ways that people can contribute, but I think a lot of people are like "Well, I'm not at that standard. There's nothing I can do to help, and I shouldn't have any business being in the repo trying to submit patches."
+**Erik St. Martin:** And similar to that talk was Michael Matloob's talk on contributing to Go, and even open source. I think that was valuable, because a lot of people feel like they're not at the skill level they need to be in order to contribute, and there are so many ways to contribute. One thing that I've advocated to people is that sometimes a solution to a problem is better than no solution. It's easy for somebody to come through and be like, "Oh, you could make this faster if you remove these couple allocations" or "It would look cleaner if you made these couple of abstractions", but we're looking at it after the fact, right? Seeing somebody's solution and thinking about how to tweak it to make it better is much easier than solving the initial problem, so I think that there's value in people contributing test cases or testing bugs to get steps to reproduce vague bugs people put and there's so many ways that people can contribute, but I think a lot of people are like "Well, I'm not at that standard. There's nothing I can do to help, and I shouldn't have any business being in the repo trying to submit patches."
 
 **Francesc Campoy:** Yeah, that actually takes very well with something else that we discussed in the Go project room during hack day, which is we have these... We had actually two different talks with two different sessions where we ended up discussing the same things, which is the user feedback and the diversity discussion. Surprisingly, we ended up talking about pretty much the same things, which were we need more people in the community; to do that, we need to teach more people, and to teach more people we need better ways to basically welcome people that have never programmed in any other language.
 
@@ -206,7 +206,7 @@ So we're talking more about okay, so how do we get this started, what kind of re
 
 **Francesc Campoy:** Yeah. I actually maintain it partly, so if you send pull requests, or even better, if you don't know how to improve it but you know that it is not clear, just send bugs. From the tour there is a little bug button on the right corner on the top. From there you go to the GitHub repo, which is github.com/golang/store, and then you can just send your issues or your bugs in there, and hopefully I will take care of them.
 
-I agree that in general the exercises tend to be a little bit too complex, and it's not always related to Go. One of the examples is the first exercise ever. It is a four-loop to compute a square root of a number using Newton's method. That by itself just sounds scary, and it turns out it's just a four-loop. So it can be a little bit confusing at the beginning.
+I agree that in general the exercises tend to be a little bit too complex, and it's not always related to Go. One of the examples is the first exercise ever. It is a for loop to compute a square root of a number using Newton's method. That by itself just sounds scary, and it turns out it's just a for loop. So it can be a little bit confusing at the beginning.
 
 **Erik St. Martin:** Yeah, and I think for anybody who has more of a formal background some of these things seem clearer than people who are more autodidact, they've taught themselves to program and maybe don't have the formal...
 
@@ -220,7 +220,7 @@ I agree that in general the exercises tend to be a little bit too complex, and i
 
 **Brian Ketelsen:** He cornered me in the hallway. His idea for the book is called The Little Gopher. It sounds really interesting. He's even trying to line up Renee to help with some illustrations.
 
-**Francesc Campoy:** Cool. I'll take it out whenever the talks are out.
+**Francesc Campoy:** Cool. I'll check it out whenever the talks are out.
 
 **Carlisia Thompson:** If Renee cannot help him, I know a designer who can take Renee's graphics and really do something amazing.
 
@@ -238,13 +238,13 @@ And I loved that she credited a lot of artists who have been doing our work surr
 
 **Brian Ketelsen:** My favorite part was that she stayed after the talk and gave out those cute little Gopher sheets with custom-drawn Gophers on the back of them that she autographed. I don't know how many people were able to take advantage of that, but I saw dozens and dozens of people walking around with them. I thought that was adorable.
 
-**Francesc Campoy:** It was pretty funny, because there was a really long line, and then a bunch of people from the Go team waiting for her to finish the GoGet lunch. And when the line was over, the people from the Go Team started lining up, because we also wanted them. They were amazing. My new desktop background is the Gopher she drew for me. It's just amazing.
+**Francesc Campoy:** It was pretty funny, because there was a really long line, and then a bunch of people from the Go team waiting for her to finish to go get lunch. And when the line was over, the people from the Go Team started lining up, because we also wanted them. They were amazing. My new desktop background is the Gopher she drew for me. It's just amazing.
 
 **Erik St. Martin:** It's like "I can eat, or I can have a custom-drawn Gopher."
 
 **Brian Ketelsen:** That's not a choice. When she made one for me, the first thing she asked me was "What are your girl's names again, Brian?" So I told her my daughters' names, because last year after GopherCon both of my daughters painted pictures of a gopher and we mailed them to Renee. And she said, as she was drawing the picture for my girls, she said "I've got those hanging in my living room", and I was just like "Oh my god, oh my heart..." \[laughs\] I was so impressed.
 
-So this is a good time for us to stop and take a break and thank our sponsor Linode. Linode is Changelog's cloud server of choice. It's what Adam and Jerod are using to build their new CMS and the future of Changelog is writing on Linode. You can get a Linode server up and running in seconds. The easiest way to get started is by going to linode.com/gotime. You can choose your flavor of Linux, the resources you want and the location of your node. They've got eight data centers spread across the world and plans start at ten dollars a month. The nice thing about Linode is that you get full route access. You can run VMs or containers, your private Git server, you can run Hugo and have your own blog. You get native SSD storage, fast 40 gbs networking and nice Intel i5 processors. You have a fancy control panel where you can reboot things and resize things and clone your VMs, as well as a CLI tool that you can use to manage, and an API, so that you can call it remotely. You can use the code 'gotime20' to get two free months, which is $20 credit. You should tell your friends about that, so everybody can go off and get their own servers. Again, go to linode.com/gotime so you can get started.
+So this is a good time for us to stop and take a break and thank our sponsor Linode. Linode is Changelog's cloud server of choice. It's what Adam and Jerod are using to build their new CMS and the future of Changelog is riding on Linode. You can get a Linode server up and running in seconds. The easiest way to get started is by going to linode.com/gotime. You can choose your flavor of Linux, the resources you want and the location of your node. They've got eight data centers spread across the world and plans start at ten dollars a month. The nice thing about Linode is that you get full root access. You can run VMs or containers, your private Git server, you can run Hugo and have your own blog. You get native SSD storage, fast 40 gbs networking and nice Intel i5 processors. You have a fancy control panel where you can reboot things and resize things and clone your VMs, as well as a CLI tool that you can use to manage, and an API, so that you can call it remotely. You can use the code 'gotime20' to get two free months, which is $20 credit. You should tell your friends about that, so everybody can go off and get their own servers. Again, go to linode.com/gotime so you can get started.
 
 **Erik St. Martin:** \[00:32:15.09\] And to keep us on the air.
 
@@ -252,7 +252,7 @@ So this is a good time for us to stop and take a break and thank our sponsor Lin
 
 **Erik St. Martin:** So are there any other talks anybody was able to see that were interesting? I know Donnie Berkholz's talk was really well received as well, Mining the Go Developer Community. I didn't get to see that one. Was that something you got to see, Francesc?
 
-**Francesc Campoy:** Yeah, I got to watch it and it was very interesting. Basically, he kind of did my job, because I tried to make the community better and "Yeah, that is actually very interesting data." There were a lot of interesting things, like how people are using vendoring, what kind of tooling they're using, if people are using debuggers or not... I think it's a very good place to start to basically try to have a campaign on... If you want everybody to use gofmt - I mean, gofmt is the one that everybody uses... But things like error check - how many people are using that, that is a very interesting conversation. And try to get more people to use the tools that everybody agrees increases the quality of the code. So yeah, I loved the talk.
+**Francesc Campoy:** Yeah, I got to watch it and it was very interesting. Basically, he kind of did my job, because I tried to make the community better and "Yeah, that is actually very interesting data." There were a lot of interesting things, like how people are using vendoring, what kind of tooling they're using, if people are using debuggers or not... I think it's a very good place to start to basically try to have a campaign on... If you want everybody to use gofmt - I mean, gofmt is the one that everybody uses... But things like error check - how many people are using that, that is a very interesting conversation. And try to get more people to use the tools that everybody agrees increase the quality of the code. So yeah, I loved the talk.
 
 **Brian Ketelsen:** Here's something that's just blowing my mind. We've got one of our very remote people on Slack right now, saying that his favorite talk was the Inside The Map Implementation from Keith Randall. The reason this blows my mind is because I know he wasn't at GopherCon and he watched it over the live stream. I'm just having a little bit of a joyous moment right here.
 
@@ -284,7 +284,7 @@ So this is a good time for us to stop and take a break and thank our sponsor Lin
 
 **Erik St. Martin:** Yeah, there were so many good talks. So back to the Go Project room, I wanna make sure we touch on that too, because I know it's definitely something Carlisia was interested in speaking with you while you were on the show... The Diversity discussions. I wasn't in on that, how did that go?
 
-**Francesc Campoy:** It went really well, it was full all the way. That was very interesting, seeing so many people interested in talking about Diversity, and not only people that are members of Diversity, minorities represented at GopherCon, black people and women, and LGBTQ etc., but there were also a lot of allies that were there to represent and basically to give support. That was very interesting.
+**Francesc Campoy:** It went really well, it was full all the way. That was very interesting, seeing so many people interested in talking about Diversity, and not only people that are members of minorities represented at GopherCon, black people and women, and LGBTQ etc., but there were also a lot of allies that were there to represent and basically to give support. That was very interesting.
 
 We talked about many things. One of the things that I tried to propose and I hope is gonna happen - the same way there was this talk about mining the Go community, and that understands how Gophers do technical things, I was wondering if we could do something similar about who are those Gophers, where are they? Do they live somewhere in the States, in cities where they have meetups, or are they far apart? Do they have kids? Is it easy for them to attend conferences like GopherCon, or do they prefer things like the remote meetups organized by GoBridge? Is that useful for them? That was pretty interesting.
 
@@ -300,19 +300,19 @@ I think that both things - having better materials for newcomers and then the Go
 
 **Brian Ketelsen:** Oh, the ones on iPad or iPhone?
 
-**Francesc Campoy:** Yes. So basically you learn to program by calling functions, and there's these little... I'm not really sure how to describe, it's like the weirdest animal ever. It just goes around collecting gems and jumping into places, and all of those are functions that you call. But then on top of that you can write four-loops and things like that. I think that something like that could be very useful for Go.
+**Francesc Campoy:** Yes. So basically you learn to program by calling functions, and there's these little... I'm not really sure how to describe, it's like the weirdest animal ever. It just goes around collecting gems and jumping into places, and all of those are functions that you call. But then on top of that you can write for loops and things like that. I think that something like that could be very useful for Go.
 
 I've been working on something similar to that; I'm still in a very, very early stage, but that is one of the projects that basically came out from that discussion in the Go Project room.
 
 **Brian Ketelsen:** Were there other discussions about specific projects or specific things that could be done to increase the diversity of the community in general?
 
-**Francesc Campoy:** We discussed the impact of what Women Who Go has had and what GoBrige has been doing, and I think that it is very powerful. All the impact that they've had so far is very positive, so that is something that we should keep on doing.
+**Francesc Campoy:** We discussed the impact of what Women Who Go has been doing and what GoBrige has been doing, and I think that it is very powerful. All the impact that they've had so far is very positive, so that is something that we should keep on doing.
 
 There is also another idea that I think came from Katrina. Katrina works at Github, and they sponsored this thing called First Robotics. We were wondering, could robotics be a good place for Go to be taught? So if we're able to make Gobot work easily on the robots, then it could be a fun thing for kids to learn how to program those bots and go around just by writing Go.
 
 **Carlisia Thompson:** Were you at the San Francisco meetup yesterday, Francesc?
 
-**Francesc Campoy:** Yes, I was there, but I had to leave, so I missed Burva's [Jaana Burcu Dogan] [talk](https://youtu.be/xteEImopTic?t=2469). I know it was recorded, so I'm looking forward to watching it, too.
+**Francesc Campoy:** Yes, I was there, but I had to leave, so I missed Burcu's [Jaana Burcu Dogan] [talk](https://youtu.be/xteEImopTic?t=2469). I know it was recorded, so I'm looking forward to watching it, too.
 
 **Carlisia Thompson:** Yeah, that's exactly what I was gonna mention. She is gonna put out a proposal to have an abstraction of a lot of the interface that will be required for Go to work with the hardware, including robotics and Gobots. Whenever that comes out, people should try to contribute. To make that happen, we will need to have a better interface.
 
@@ -330,7 +330,7 @@ I think we had - Brian, Dave Cheney and I had a discussion about it, and I think
 
 **Brian Ketelsen:** It's hard, because we want it to be not organized, but you have to provide at least the shell of organization so people have an idea of how they can use that time and why it would be worthwhile for them to do it. Then there's the concept of how do people find each other. We put out little tablets at the end of the tables and put numbers on all the tables so people could meet each other at table 32 if they wanted to work on a particular project. That worked out really well, but that's really as deep as I wanna go into organization on Hack Day. I want it to be a day where you can just hang out with your buddies and work on stuff.
 
-I saw a lot of really remote teams that were doing team meetings, face-to-face meetings for the first time all year, team that had worked together. That was kind of fun, to see companies having face-to-face meetings at GopherCon on Hack Day. That was cool.
+I saw a lot of really remote teams that were doing team meetings, face-to-face meetings for the first time all year, in teams that had worked together. That was kind of fun, to see companies having face-to-face meetings at GopherCon on Hack Day. That was cool.
 
 **Erik St. Martin:** Francesc, were you about to say something?
 
@@ -416,7 +416,7 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Brian Ketelsen:** And I kind of didn't know what to say. I said, "You know, Barcelona would be a beautiful place to have a GopherCon. I've never thought of having one there, but I've been to Barcelona and it's beautiful. That's a great idea." And he continues to stare and "Look, I think it's a great idea." It was very Russian-mafia looking, I felt a little threatened.
 
-**Carlisia Thompson:** I'd be very glad to see that. Also, that reminds me, GopherCon Brasil is happening. It's going to be in November 11 and 12, with possibly a workshop in the 13th, but we'll see about that one. The date is set, so start booking the tickets. The hotel is already settled as well. The website should be up maybe tonight.
+**Carlisia Thompson:** I'd be very glad to see that. Also, that reminds me, GopherCon Brasil is happening. It's going to be in November 11 and 12, with possibly a workshop on the 13th, but we'll see about that one. The date is set, so start booking the tickets. The hotel is already settled as well. The website should be up maybe tonight.
 
 **Brian Ketelsen:** Wow.
 
@@ -506,7 +506,7 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Erik St. Martin:** Sorry...
 
-**Brian Ketelsen:** Oops... No pocket knives, right? Oh, and Scott Mansfield said the same thing in the Slack - "No pocket knives is GopherCon swag." Good call.
+**Brian Ketelsen:** Oops... No pocket knives, right? Oh, and Scott Mansfield said the same thing in the Slack - "No pocket knives as GopherCon swag." Good call.
 
 **Erik St. Martin:** Well, you could put it in your checked luggage.
 
@@ -526,11 +526,11 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Erik St. Martin:** Cool. You wanna go first, Brian?
 
-**Brian Ketelsen:** You bet. So I'll briefly explain again, \#FreeSoftwareFriday is just our place to give a shout out to open source projects and/or maintainers for things that we use frequently and that we love. Today I'd like to give a shout out to - this is kind of a cheat, but I used it a lot this week... So Docker is one of my favorite free software tools, and sure makes life easier sometimes. Thank you, Docker.
+**Brian Ketelsen:** You bet. So I'll briefly explain again, \#FreeSoftwareFriday is just our place to give a shout out to open source projects and/or their maintainers for things that we use frequently and that we love. Today I'd like to give a shout out to - this is kind of a cheat, but I used it a lot this week... So Docker is one of my favorite free software tools, and sure makes life easier sometimes. Thank you, Docker.
 
 **Erik St. Martin:** How about you, Carlisia?
 
-**Carlisia Thompson:** On the topic of Brasil, there's this open source project called Tsuru. It's a Platform as a Service, open source of course. It was put out by Global.com. Global is this huge media company in Brasil. It's a project that came out of Brasil, and most of the maintainers if not all are Brazilian developers. I'm not an infra person, I usually don't deal with infra, only the minimum, but it's been described to me as like an alternative to Heroku. It's a huge project, I was surprized when I saw it. It's been used by big companies, so check it out. It could be useful to you.
+**Carlisia Thompson:** On the topic of Brasil, there's this open source project called Tsuru. It's a Platform as a Service, open source of course. It was put out by Globo.com. Globo is this huge media company in Brasil. It's a project that came out of Brasil, and most of the maintainers if not all are Brazilian developers. I'm not an infra person, I usually don't deal with infra, only the minimum, but it's been described to me as like an alternative to Heroku. It's a huge project, I was surprized when I saw it. It's been used by big companies, so check it out. It could be useful to you.
 
 **Erik St. Martin:** And apparently all written in Go.
 
