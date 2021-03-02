@@ -94,7 +94,7 @@ The other thing about actions that makes them hard, besides being harder to test
 
 **Jerod Santo:** Right.
 
-**Eric Normand:** So we wanna just get them over with and throw them at the \[unintelligible 00:14:13.27\] and it can deal with them from now on. Now it's the actions; now we've gotta learn how to maintain the order and the timing in everything, and how many times they get run.
+**Eric Normand:** So we wanna just get them over with and throw them at the test server and it can deal with them from now on. Now it's the actions; now we've gotta learn how to maintain the order and the timing in everything, and how many times they get run.
 
 **Jerod Santo:** Yeah.
 
@@ -108,7 +108,7 @@ The other thing about actions that makes them hard, besides being harder to test
 
 **Eric Normand:** That's right.
 
-**Jerod Santo:** Or maybe it's just to provide some information, and that could be calculation, but most of the times valuable software changes the world, interacts with the world in a way, and these are our actions. I haven't thought about it that way; I always have -- once I started picking up that distinction, I've always thought "Yes, I want as many pure functions as possible, and I wanna minimize the impure functions", because... Easy and hard - easy to test, hard to test, all the things you've just described. But I've never thought of... It's because the hard ones are the important ones, and actually you're then -- I mean, it's all important, so it's relative. But the hard ones, the actions, are where the focus needs to be because they're hard, because they change the world, because they're the point. They're kind of the point \[unintelligible 00:15:43.06\]
+**Jerod Santo:** Or maybe it's just to provide some information, and that could be a calculation, but most of the times valuable software changes the world, interacts with the world in a way, and these are our actions. I haven't thought about it that way; I always have -- once I started picking up that distinction, I've always thought "Yes, I want as many pure functions as possible, and I wanna minimize the impure functions", because... Easy and hard - easy to test, hard to test, all the things you've just described. But I've never thought of... It's because the hard ones are the important ones, and actually you're then -- I mean, it's all important, so it's relative. But the hard ones, the actions, are where the focus needs to be because they're hard, because they change the world, because they're the point. They're kind of the point \[unintelligible 00:15:43.06\]
 
 **Eric Normand:** That's right. They're the point, and I really think that in discussions about what functional programming is, we've gotten it backwards, that we say "Oh, functional programming is all about programming with only pure functions." And I think it's really the opposite. It's like "Well, we've got this tool called Pure Functions, that will let us ignore them for a while, because we know they're not gonna change, and they're really easy to deal with."
 
@@ -182,9 +182,9 @@ But then there's the next gateway, which is sort of higher-order programming... 
 
 **Jerod Santo:** ...and that's dangerous, because you're increasing the surface area of your actions, and we already decided that we wanna minimize those.
 
-**Eric Normand:** That's right. Another thing about actions that I didn't mention was that they spread. So if you imagine function A calls function B, and function B calls function C, if function C is in action, meaning it depends on when it's called, then function B has to be in action too, because it calls function C... And then function A has to be an action, because it calls function B. This is kind of like a corollary of the definition of actions, calculations and data. A lot of people try to put layers and layers of wrapping around mutation, so that it goes away, but it can't. If you put it down at the bottom, everything above it is gonna have to be an action. What you wanna do is kind of reverse it...
+**Eric Normand:** That's right. Another thing about actions that I didn't mention was that they spread. So if you imagine function A calls function B, and function B calls function C, if function C is an action, meaning it depends on when it's called, then function B has to be an action too, because it calls function C... And then function A has to be an action, because it calls function B. This is kind of like a corollary of the definition of actions, calculations and data. A lot of people try to put layers and layers of wrapping around mutation, so that it goes away, but it can't. If you put it down at the bottom, everything above it is gonna have to be an action. What you wanna do is kind of reverse it...
 
-**Jerod Santo:** It's interesting.
+**Jerod Santo:** That's interesting.
 
 **Eric Normand:** ...and put it all at the top. Because the top is gonna be an action anyway. Your main function, for instance - that's gonna be an action. There's no way to avoid that.
 
@@ -254,7 +254,7 @@ So anyway, we have a bunch of tools like this. What I really like about them is 
 
 **Kevin Ball:** And it really forces you to think about the data pipeline of how it's going through, which is in many examples a much more productive way to think about it, and a much simpler way to think about it than trying to think imperatively what are all the things I'm doing to a single item.
 
-**Jerod Santo:** Yeah. You think smaller, because you think in smaller steps... Whereas in the past maybe you started that for loop, and then you've got your editor \[unintelligible 00:34:19.10\] there inside the for loop, and you're like "Now what are the eight things I've gotta do to get out of here?"
+**Jerod Santo:** Yeah. You think smaller, because you think in smaller steps... Whereas in the past maybe you started that for loop, and then you've got your editor right there inside the for loop, and you're like "Now what are the eight things I've gotta do to get out of here?"
 
 **Eric Normand:** Right.
 
