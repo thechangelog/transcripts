@@ -12,7 +12,7 @@
 
 **Daniel Whitenack:** Yeah, it's always interesting during these particular types of events, because you kind of just assume that people have all of this redundant, fault-tolerant infrastructure going on, for their APIs and other things... And these sorts of events really reveal that is not the case. I know one of the APIs we frequently use is apparently on an on-prem server in Dallas, and they did not have power. You learn new and interesting things like that.
 
-1**Chris Benson:** You know what - after the past year, there's nothing that surprises me anymore. Not now.
+**Chris Benson:** You know what - after the past year, there's nothing that surprises me anymore. Not now.
 
 **Daniel Whitenack:** Yeah, I guess that's true...
 
