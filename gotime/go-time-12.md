@@ -42,7 +42,7 @@
 
 **Brian Ketelsen:** It's a pretty good sales pitch.
 
-**Erik St. Martin:** Yeah, a couple big ones... The ones that we noticed - and see, Carlisia's like the encyclopedia here, because I will say we talked about it a couple episodes ago and she will tell me specifically which episode it was we discussed it... But we were talking about the new editor plugins and how awesome that was that as you're starting to type a function, you can actually see examples from real world projects on the usage. That's so fantastic. Does the GitHub plugin, or the browser plugin that works on top of GitHub - does that also show that? I remember showing documentation in references to other code, but does it show stuff in-line as well?
+**Erik St. Martin:** Yeah, a couple of big ones... The ones that we noticed - and see, Carlisia's like the encyclopedia here, because I will say we talked about it a couple episodes ago and she will tell me specifically which episode it was we discussed it... But we were talking about the new editor plugins and how awesome that was that as you're starting to type a function, you can actually see examples from real world projects on the usage. That's so fantastic. Does the GitHub plugin, or the browser plugin that works on top of GitHub - does that also show that? I remember showing documentation in references to other code, but does it show stuff in-line as well?
 
 **Beyang Liu:** It doesn't show anything in-line. With the Chrome extension it's a little bit more limiting, because we essentially had to build on top of a pre-existing UI, and that's a little bit tougher than building our own application. So we do our best to show all the information we can there, but it's still not as good of an experience as in the editor, and on Sourcegraph.com, unfortunately.
 
@@ -86,7 +86,7 @@ For example, one of the things that the plugins do is anytime your cursor is hov
 
 **Erik St. Martin:** Right, because the BigQuery stuff, a lot of people were writing regular expressions, where you've kind of tokenized the stuff as you were crawling it, so it's much easier for you to look for specific things. "I want a function named this", rather than having to write a regular expression to match a function definition.
 
-**Beyang Liu:** Yeah. I will say that stuff is really cool, though. One of the things that people don't realize enough, I think, is code is just another form of data. It's not just this... People often tend to think of code as a form of text that you write in an editor, or a doc, or something like that, but it's really very highly structured data, and when you think about a lot of the stuff that we do as programmers/software engineers, it's really exploring this dataset and making changes to this dataset. So I think what that data dump this, along with the BigQuery queries that went along with it is it showed the power that you can tap into once you start to treat code as more of a dataset.
+**Beyang Liu:** Yeah. I will say that stuff is really cool, though. One of the things that people don't realize enough, I think, is code is just another form of data. It's not just this... People often tend to think of code as a form of text that you write in an editor, or a doc, or something like that, but it's really very highly structured data, and when you think about a lot of the stuff that we do as programmers/software engineers, it's really exploring this dataset and making changes to this dataset. So I think what that data dump did, along with the BigQuery queries that went along with it is it showed the power that you can tap into once you start to treat code as more of a dataset.
 
 In the future, you can imagine more senior members of the team, who care about overall code quality and maintainability of the codebase, and they worry about things that more junior engineers might be doing to shoot themselves in the foot, they can actually issue queries against a dataset - the global graph of code or the graph of code inside your company - to look for patterns and anti-patterns like that, and make sweeping changes... As opposed to the old way of doing things - or the current way of doing things - which is single person, single editor, single machine, making changes one at the time.
 
@@ -182,7 +182,7 @@ Have you guys seen the new GE ad campaign, where the tagline essentially is "GE 
 
 Something that we think about a lot is how can we build the tooling ecosystem and the programming assistant or individuals and teams that enable organizations that are not necessarily steeped in software development methodology, so they need better tools to efficiently build things and deliver things on time. I think that's gonna be a big question the industry has to address in the next couple years, otherwise we're gonna see more things like healthcare.gov and things of that nature.
 
-**Brian Ketelsen:** Well, that's actually a really good transition into our discussion about our sponsors; people who build great tools to help you ship your software.
+**Brian Ketelsen:** Well, that's actually a really good transition into our discussion about our sponsors; speaking of people who build great tools to help you ship your software.
 
 Equinox, one of my favorite tooling companies, Equinox.io, helps you package and distribute your Go applications. You can package and release CLI and on-premise software using Equinox, and I think my favorite part about using Equinox is the native packages and installers for Mac, Windows and Linux. So you get the msi, you get the pkg file, you get Debian files, rpms, yums, all of that good stuff. It's really easy to create an application and then let Equinox ship it to your customers in a self-updating format.
 
@@ -218,7 +218,7 @@ I'd also like to give a shout out to Equinox's creator, Alan Shreve. He's just a
 
 **Beyang Liu:** I'm curious to hear, in addition to things like ngrok and Equinox, what other tools do you guys rely on day to day, that you find really useful.
 
-**Erik St. Martin:** Well, that's interesting. I mean, so many of them are probably abstracted away from me now with Vim Go, I don't run them myself. But a lot of the stuff that comes in gometalinter I use quite a bit, which I almost feel like I should turn for a little bit, so that I visually catch these things now, and I don't just sit here and write code. I'm like, "Yeah, it will catch it."
+**Erik St. Martin:** Well, that's interesting. I mean, so many of them are probably abstracted away from me now with Vim Go, I don't run them myself. But a lot of the stuff that comes in gometalinter I use quite a bit, which I almost feel like I should turn off for a little bit, so that I visually catch these things now, and I don't just sit here and write code. I'm like, "Yeah, it will catch it."
 
 **Brian Ketelsen:** My answer would be the same as Erik's, just because I use Vim Go and I have absolutely no idea about the seventeen binaries that are running in the background, managing my code for me. I love them all though, thank you.
 
@@ -250,7 +250,7 @@ I really like that a lot, because you're generating the code and it becomes very
 
 **Brian Ketelsen:** Yeah, how could we possibly forget about the best debugger ever? Although I don't ever debug, so maybe that's why I forgot about it, because I don't ever debug. My code just works. \[laughter\]
 
-**Beyang Liu:** Are you printf man?
+**Beyang Liu:** Are you a printf man?
 
 **Brian Ketelsen:** I think I used Delve about twice, and I found it to be impressive.
 
@@ -338,7 +338,7 @@ It was insane. It went, in total, from like 10 milliseconds...
 
 **Erik St. Martin:** I think that they're mostly compatible now with the OCI and CNI stuff, or rocket. I haven't checked out the new dashboard, but I'm looking forward to that, too. But yeah, it seems like some cool stuff there. There was another project that hit 1.0.2...
 
-**Brian Ketelsen:** Traefik. Traefik.io load balancer.
+**Brian Ketelsen:** Traefik. Traefik.io the load balancer.
 
 **Erik St. Martin:** Yes!
 
@@ -416,7 +416,7 @@ It was insane. It went, in total, from like 10 milliseconds...
 
 **Erik St. Martin:** I know. I need to use Sourcegraph more.
 
-**Beyang Liu:** Yeah. Check it out, send us feedback, tell us how we can make it better. Yeah, I think the project I wanna call out this week is actually a project that's not released yet publically, but it's something that we've been using internally. It's something that's written by Matt Holt, who is the author of the popular Caddy HTTP server. He wrote this library called Checkup. It's essentially this uptime monitor. It's kind of like all these services that do uptime monitoring already, but what it does is it has a really nice configuration format for just quickly specifying a bunch of URLs that can hit. One frustrating thing for me with a lot of uptime monitors is that the UI is just so clunky and you have to go and manually update it and then something changes; you gotta go navigate through the UI and update that again. It would be nice to just describe all the key endpoints that you wanna hit just in code, so those can change as the code changes, and then you can deploy this thing to any server, any AWS or GCP node and it just kind of works; it gives you pretty graphs for how uptime is going and it's super easy to use, it feels very native to the Go ecosystem - no nonsense, no cruft, just write out a list of things that you wanna monitor uptime for and you're good to go. So shout out to him, he's done so much great work for the community.
+**Beyang Liu:** Yeah. Check it out, send us feedback, tell us how we can make it better. Yeah, I think the project I wanna call out this week is actually a project that's not released yet publicly, but it's something that we've been using internally. It's something that's written by Matt Holt, who is the author of the popular Caddy HTTP server. He wrote this library called Checkup. It's essentially this uptime monitor. It's kind of like all these services that do uptime monitoring already, but what it does is it has a really nice configuration format for just quickly specifying a bunch of URLs that you can hit. One frustrating thing for me with a lot of uptime monitors is that the UI is just so clunky and you have to go and manually update it and then something changes; you gotta go navigate through the UI and update that again. It would be nice to just describe all the key endpoints that you wanna hit just in code, so those can change as the code changes, and then you can deploy this thing to any server, any AWS or GCP node and it just kind of works; it gives you pretty graphs for how uptime is going and it's super easy to use, it feels very native to the Go ecosystem - no nonsense, no cruft, just write out a list of things that you wanna monitor uptime for and you're good to go. So shout out to him, he's done so much great work for the community.
 
 **Brian Ketelsen:** Absolutely.
 
