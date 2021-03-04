@@ -120,7 +120,7 @@ I was fortunate that while it was a fast-growing business, it wasn't a massive b
 
 **Adam Stacoviak:** I assume you did, at least...
 
-**John-Daniel Trask:** I got very close, and then there was one shareholder that I needed to buy out, who had agreed he'd leave the business... And he said "Okay." It was just a verbal, and then he backed out. And his reason for backing out was actually that he had retired, and this was one of his last things that connected him back to the working world, and he loved the excuse that he got to kind of rock into the office and chat with people. So I really didn't begrudge him on sort of going back on that... But that was actually the turning point where I thought "Look, I'm not actually going to achieve this mission here. And if I'm gonna do something, and I wanna be in charge, I'm gonna have to strike out on my own here."
+**John-Daniel Trask:** I got very close, and then there was one shareholder that I needed to buy out, who had agreed he'd leave the business... And he said "Okay." It was just a verbal, and then he backed out. And his reason for backing out was actually that he had retired, and this was one of his last things that connected him back to the working world, and he loved the excuse that he got to kind of rock into the office and chat with people. So I really didn't begrudge him on sort of going back on that... But that was actually the turning point where I thought "Look, I'm not actually going to achieve this mission here. If I'm gonna do something, and I wanna be in charge, I'm gonna have to strike out on my own here."
 
 So at that point was when I went to two people; one of them was my co-founder for a short period, so I won't dwell on that. But the other guy, his name is Jeremy Boyd. So just to make our company really good today, the co-founders are JB and JD, and we have an internal joke that if your name starts with J, you've got about an 80% likelihood that we'll hire you in the recruitment process...
 
@@ -180,7 +180,7 @@ It was also -- I've been told before by some folks that are generally more succe
 
 And I know the video is not gonna be in the podcast, but effectively, imagine your classic hockey stick. As much as I hate talking about hockey sticks, there's actually a really, really interesting point in here, which was there's this inflection point, and people would say to me "What happened there?" And I'd say, "Well, that's when we raised money." And they're like "What did you spend it on?" and I was like "Nothing." They're like, "What do you mean you spent it on nothing?" And I was like "We didn't spend it. What we did was -- it actually just gave Jeremy and I the confidence to ignore all of our other products and just focus on the Raygun product." Because now we had this buffer that we could afford to ignore the other products. And just the act of then having the entire team in the company - and it was only like 5-6 of us at this point - focus on Raygun was what generated that revenue uptick; the growth took off, the awareness blew up.
 
-We then -- you know, the classic thing, "Good luck begets more good luck", we got a great write-up from somebody in the industry who didn't even... They actually knew us, but didn't know that it was from our company at the time, and they wrote this amazing review online, and they had a very popular blog, and that exploded the customer base for a good few months. And really -- I know we'll talk about it, but the effectively, the rest was history.
+We then -- you know, the classic thing, "Good luck begets more good luck", we got a great write-up from somebody in the industry who didn't even... They actually knew us, but didn't know that it was from our company at the time, and they wrote this amazing review online, and they had a very popular blog, and that exploded the customer base for a good few months. And really -- I know we'll talk about it, but effectively, the rest was history.
 
 **Adam Stacoviak:** Yeah.
 
@@ -398,7 +398,7 @@ And you read this stuff, and -- I know, again, today you would be like "Yeah, bu
 
 **John-Daniel Trask:** Exactly.
 
-**Adam Stacoviak:** Being distracted. Interruptions, distraction... I agree. If we spent more time with our brains intentionally, to contemplate, as you say, I think we'd have -- I'd give a challenge to anybody to take that time, to do what you say. Actually play in your downtime. I'm glad you said that, rather than the things that you do; it's the things you don't do.
+**Adam Stacoviak:** Being distracted. Interruptions, distraction... I agree. If we spent more time with our brains intentionally, to contemplate, as you say, I think we'd have -- I'd give a challenge to anybody to take that time, to do what you say. Actually plan your downtime. I'm glad you said that, rather than the things that you do; it's the things you don't do.
 
 **John-Daniel Trask:** Yup.
 
