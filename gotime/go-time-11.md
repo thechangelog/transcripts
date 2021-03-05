@@ -148,7 +148,7 @@ After the design review, we go through and do a full-on code review, but I would
 
 **Erik St. Martin:** So talk to us a little bit about what you worked on for Docker, because Docker's a pretty big project. Now it's split up across I don't even know how many repos and subprojects, but what specifically did you enjoy working on?
 
-**Jessie Frazelle:** Yeah, I think most of the engine team itself worked on more the container runtime stuff and design of the CLI. Then there was another whole team that handled all the distribution of tarballs. I like more of that, and then also I ended up doing that whole thing with the CI, where I was like the CI assist admin for way too long. Then also I redid our entire bash scripts for our apt repo and set up an rpm repo as well; now they're stuck with those terrible bash scripts because of me, but... \[laughs\]
+**Jessie Frazelle:** Yeah, I think most of the engine team itself worked on more the container runtime stuff and design of the CLI. Then there was another whole team that handled all the distribution of tarballs. I liked more of that, and then also I ended up doing that whole thing with the CI, where I was like the CI assist admin for way too long. Then also I redid our entire bash scripts for our apt repo and set up an rpm repo as well; now they're stuck with those terrible bash scripts because of me, but... \[laughs\]
 
 **Erik St. Martin:** I hope I have the name right... I think it was Yehuda Katz that said this, and he said something along the lines of the thing he fears the most about releasing stuff open source is having to maintain it. And it's almost the same thing - you build the CI thing out and it's awesome, but now you're the maintainer.
 
@@ -208,7 +208,7 @@ I think Brian was saying you have some experience with Linode, right Jessie?
 
 **Jessie Frazelle:** I didn't even know about that, and now I feel like I just did it a terrible way with bash scripts. \[laughter\]
 
-**Brian Ketelsen:** \[00:20:05.24\] Now, one thing that is missing - I know they've got SDKs for Python and Perl, PHP, Ruby, Java and Node, but there is no Go SDK. So anybody who's out there looking for an opportunity to make a mark in the Go land, a good place to start might be Linode SDK for Go.
+**Brian Ketelsen:** \[00:20:05.24\] Now, one thing that is missing - I know they've got SDKs for Python and Perl, PHP, Ruby, Java and Node, but there is no Go SDK. So anybody who's out there looking for an opportunity to make a mark in the Go land, a good place to start might be a Linode SDK for Go.
 
 **Erik St. Martin:** And we have a discount code too, which is 'GoTime20', and you get two months free, which is a $20 credit. The nodes are $10 each per month, and these are all SSD and I think they have eight data centers to choose from.
 
@@ -220,7 +220,7 @@ I think Brian was saying you have some experience with Linode, right Jessie?
 
 **Brian Ketelsen:** And... Pull request submitted. That's awesome news. So they have lots of add-ons. They can do backups for you, they can do load balancing, they do some management professional services and DNS as well, so give them a shot. It's one of the original, the OG BPS providers, if you will, and they're pretty cool.
 
-Our other sponsor is Equinox, and we've talked about Alan Shreve a couple times, and his other project, ngrok. Equinox is pretty slick because it allows you to manage updates for the applications that you send out to your customers. At my job at Backplane we use Equinox to deliver the command line application that lets you update your backends. So Equinox is pretty slick; I think I wrote maybe a three-line bash script that allows us to deliver that new command line application up to Equinox's server, and then using Equinox's infrastructure you can either do a brew install or an RPM install, Debian, or just download a tarball or a zip file or a Windows MSI installer. It's amazing that we just do one quick bash script to upload that source code and it gets compiled for all the different platforms, uploaded to Equinox's infrastructure, and then all of our customers, regardless of their platform, can stay updated all the time. They just have to implement a small API in their app, and then the app becomes self-updating, so when we release a new version they just type 'backplane update' and it automatically updates their app. Pretty neat.
+Our other sponsor is Equinox, and we've talked about Alan Shreve a couple times, and his other project, ngrok. Equinox is pretty slick because it allows you to manage updates for the applications that you send out to your customers. At my job at Backplane we use Equinox to deliver the command line application that lets you update your backends. So Equinox is pretty slick; I think I wrote maybe a three-line bash script that allows us to deliver that new command line application up to Equinox's server, and then using Equinox's infrastructure you can either do a brew install or an RPM install, Debian, or just download a tarball or a zip file or a Windows MSI installer. It's amazing that we just do one quick bash script to upload that source code and it gets compiled for all the different platforms, uploaded to Equinox's infrastructure, and then all of our customers, regardless of their platform, can stay updated all the time. They just have to implement a small API in their app, and then the app becomes self-updating, so when we release a new version they just type 'backplane update' and it automatically upgrades their app. Pretty neat.
 
 **Erik St. Martin:** That's the coolest thing, I thought... Rolling all the RPMs and all that stuff for you. Jessie was mentioning that earlier, that becomes a process in itself, just kind of deploying all the packages for stuff. And the self-updating thing, I wanna play with that.
 
@@ -286,7 +286,7 @@ I've seen this... I think you've talked about it maybe a year or so ago, and I k
 
 **Erik St. Martin:** So what other things do you have going on lately? Mostly caught up with your new gig with Kubernetes? Are you working on anything personally for projects? You're always seeming to be trying to port new things to run inside containers. We actually were joking that you're probably trying to get Skype in a container.
 
-**Jessie Frazelle:** Okay, so one, I had Skype working in a container \[laughter\] on this commuter that I was trying to use.
+**Jessie Frazelle:** Okay, so one, I had Skype working in a container \[laughter\] on this computer that I was trying to use.
 
 **Erik St. Martin:** I knew it!
 
@@ -368,7 +368,7 @@ The second time that I did it again was a few years later and it wasn't painful 
 
 **Erik St. Martin:** I think nerves get to people, and coming from the other side, too... Brian and I, we're a ball of nerves stepping up on stage, and all we have to do is welcome people, we don't have to give a technical talk. So I think being comfortable with the fact that I think everybody is nervous, and then thinking the crowd doesn't want to see you fail; everybody's rooting for you, everybody wants you to do a good job, so I think getting over that, and more, you're talking to friends... The light you put yourself in sometimes helps. And having other people who speak a lot is also helpful, that can give advice and make people understand that it's normal to feel that way.
 
-**Carlisia Thompson:** Yeah, and there are a lot of people who want to help o that front.
+**Carlisia Thompson:** Yeah, and there are a lot of people who want to help on that front.
 
 **Erik St. Martin:** There's been a number of people for GopherCon who have offered to help review talks and to give speaking advice and all that stuff. I'm actually quite surprised how much people rehearse. I never really thought about that.
 
@@ -542,7 +542,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** No, I was just gonna say that I tend to lean towards either Jenkins or Bamboo just out of habit, but I need to give something else a try. I haven't run my own CI locally in quite some time. The other thing I actually just saw on Twitter just before we started the show was that etcd3 is now out.
 
-**Carlisia Thompson:** Oh wow, cool.
+**Jessie Frazelle:** Oh wow, cool.
 
 **Brian Ketelsen:** What's changed there? Etcd2 brought gRPC, didn't it? I wonder what the big change is for etcd3.
 
@@ -552,7 +552,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** Yeah.
 
-**Brian Ketelsen:** So maybe 3 is where they changed all the gRPC bit...
+**Brian Ketelsen:** So maybe 3 is where they changed all the gRPC bits...
 
 **Erik St. Martin:** The one thing I know came in it was watches. So you can watch for keys to change.
 
@@ -596,7 +596,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** Nobody needs us. Somebody's about to drop them in the channel.
 
-**Brian Ketelsen:** Yeah, just wait for somebody to tell us on slack what the URL is. On that note, we should probably move on to \#FreeSoftwareFriday. Every week we like to say a shout out to either the projects or the maintainers of open source projects that make us happy, and it's something that we enjoy quite a bit because we know that often times running an open source project or maintaining an open source project is a thankless job. So I'll start off this week with jq. It's the most awesome command-line tool ever if you need to deal with JSON. You can pipe JSON to jq and pull out a single element, you can reformat it, you can pretify it... Pretty much anything you need to do with JSON on the command-line, jq is your tool. It's written in C, it's super fast, and I think it should be installed just like awk and sed and grep. It should be a standard UNIX utility.
+**Brian Ketelsen:** Yeah, just wait for somebody to tell us on slack what the URL is. On that note, we should probably move on to \#FreeSoftwareFriday. Every week we like to say a shout out to either the projects or the maintainers of open source projects that make us happy, and it's something that we enjoy quite a bit because we know that often times running an open source project or maintaining an open source project is a thankless job. So I'll start off this week with jq. It's the most awesome command-line tool ever if you need to deal with JSON. You can pipe JSON to jq and pull out a single element, you can reformat it, you can prettify it... Pretty much anything you need to do with JSON on the command-line, jq is your tool. It's written in C, it's super fast, and I think it should be installed just like awk and sed and grep. It should be a standard UNIX utility.
 
 **Carlisia Thompson:** That's pretty cool.
 
@@ -624,7 +624,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 Jessie, we're kind of blindsiding you here, but do you have an open source project you wanna thank?
 
-**Jessie Frazelle:** Totally. Okay, so I have one, and then I have a little small tidbit. \[laughs\] Okay, sorry, I got really excited because I really like this. There's this really cool project by Brian Redbeard from CoreOS, it's called GPget, and it automatically does the whole get this GPG signature and check it against this file that I've just downloaded, without you having to do all that same curl typing crap. That's pretty neat.
+**Jessie Frazelle:** Totally. Okay, so I have one, and then I have a little small tidbit. \[laughs\] Okay, sorry, I got really excited because I really like this. There's this really cool project by Brian Redbeard from CoreOS, it's called GPGget, and it automatically does the whole get this GPG signature and check it against this file that I've just downloaded, without you having to do all that same curl typing crap. That's pretty neat.
 
 Then also my co-worker from Docker, Michael Crosby, he has the world's best gists, but they're undocumented and completely random, but you'll find yourself in this goldmine of something 75% finished but super epically awesome.
 
@@ -640,7 +640,7 @@ Then also my co-worker from Docker, Michael Crosby, he has the world's best gist
 
 **Erik St. Martin:** I'll link Michael... We've seen a bunch of stuff by him before, too.
 
-**Carlisia Thompson:** Yeah, because you all know him.
+**Jessie Frazelle:** Yeah, because you all know him.
 
 **Erik St. Martin:** Yeah, from back in the whole Skynet thing, that kind of got abandoned.
 
@@ -782,7 +782,7 @@ Oh, and next week we're gone, because all of us here will be at GopherCon, so we
 
 **Erik St. Martin:** ...everybody I've ever seen their picture on their concealed carry permit looks like they should not get a gun. You'll see the picture beforehand, it looks fine, and then it shows up at your door and it's all zoomed in, and weird, shadowy, your eyes look all dark, and you just look evil.
 
-**Brian Ketelsen:** Black and white... Mine makes me look like Unabomber. \[laughter\]
+**Brian Ketelsen:** Black and white... Mine makes me look like the Unabomber. \[laughter\]
 
 **Erik St. Martin:** Yeah... If you find us at the show, Jessie, Brian and I will show you. You'll look at it and you're like, "Yeah, I would not give that guy a gun. It doesn't even make sense."
 
