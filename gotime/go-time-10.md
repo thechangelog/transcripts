@@ -16,7 +16,7 @@
 
 **Erik St. Martin:** What I want to talk about first is you recently sent out a survey - which I hope everybody's taken - getting information about people's Go usage. Do you wanna talk to us a little bit about that and the purpose you're looking for from that? And hopefully we can get more people to take it.
 
-**Ed Muller:** Yeah, so I started asking people in various Slack channels, "Hey, what can you tell me about Go users in different ways?" and Damian Grisky, the gentleman who does all the Go implementations of all the various different types of algorithms, he had linked me to the State of Rust Survey and said "Something like this might be pretty cool." I started looking at that and I was like, "You know what, I can't answer most of these questions for Go. I have my intuitions, but I just can't answer these questions, so why don't I just do the same thing?"
+**Ed Muller:** Yeah, so I started asking people in various Slack channels, "Hey, what can you tell me about Go users in different ways?" and Damian Grisky, the gentleman who does all the Go implementations of all the various different types of algorithms, he had linked me to the State of Rust Survey and said "Something like this might be pretty cool." I started looking at that and I was like, "You know what, I can't answer most of these questions for Go. I have my own intuitions, but I just can't answer these questions, so why don't I just do the same thing?"
 
 **Erik St. Martin:** How were the responses from that, Ben? Have you been getting a lot of feedback from that?
 
@@ -84,9 +84,9 @@ I know that they acknowledge that the vendor directory isn't a full solution. I 
 
 **Brian Ketelsen:** \[laughs\] All of the new languages that have come out recently - I'm talking about Nim, Rust, Crystal... What's the one I really like...?
 
-**Erik St. Martin:** Oni?
+**Erik St. Martin:** Pony?
 
-**Brian Ketelsen:** Oni, thank you. All of the new languages that I've look at recently have this problem solved from the gate, and Go does not. And it's very frustrating to see these baby languages with much smaller adoption rates than Go have this problem completely solved. Now, I'm not saying that their solutions are perfect, but they're far better than what we have and they're built into the ecosystem already.
+**Brian Ketelsen:** Pony, thank you. All of the new languages that I've look at recently have this problem solved from the gate, and Go does not. And it's very frustrating to see these baby languages with much smaller adoption rates than Go have this problem completely solved. Now, I'm not saying that their solutions are perfect, but they're far better than what we have and they're built into the ecosystem already.
 
 Dependency management is a big deal, and repeatable builds is a big deal. I feel like we've been hung out to dry on it, and I think the community needs to come together and not create 30 solutions; I think the community needs to create one good solution, or Google needs to create that solution, or at least foster that solution.
 
@@ -100,7 +100,7 @@ I think that the Go Team is probably overwhelmed with stuff, and this is probabl
 
 **Erik St. Martin:** Agreed. I think as a community we need to... I think we're just to used to everybody pointing the fingers towards the Go Team like they need to solve it. I think that's not the whole nature of the open source community either.
 
-**Brian Ketelsen:** No, and we all recognize that the Go Team is a small group of people in Google that are generally working for Google's best interests, but graciously sharing the Go programming language with the rest of us, and nobody faults them - at least I hope nobody faults them for taking care of Google first. That's not why I'm saying, by any stretch. I just think it's something that, as a group, the community needs to solve really soon.
+**Brian Ketelsen:** No, and we all recognize that the Go Team is a small group of people in Google that are generally working for Google's best interests, but graciously sharing the Go programming language with the rest of us, and nobody faults them - at least I hope nobody faults them for taking care of Google first. That's not what I'm saying, by any stretch. I just think it's something that, as a group, the community needs to solve really soon.
 
 **Ed Muller:** \[00:12:12.11\] I can't really put words in the Go Team's mouth... I think I understand some of their motivations. I also think they don't run into some of the same problems internally using Go that other companies do, that don't have the Go Team down the hall, or in the lunch cafeteria, or things like that.
 
@@ -120,7 +120,7 @@ But one thing I would say is if you are somebody who is frustrated by vendor, pl
 
 So there's not a lot of people - although it is gaining traction recently - for SemVer tags for different releases. That was one of the things I really wanted to ask in the survey, for instance.
 
-**Erik St. Martin:** So when you talk about semantic version, you're kind of talking in the spirit of, say, Bundler for Ruby, where you define your dependencies plus a specific verison, or at least a major-minor release, or something along those lines?
+**Erik St. Martin:** So when you talk about semantic version, you're kind of talking in the spirit of, say, Bundler for Ruby, where you define your dependencies plus a specific version, or at least a major-minor release, or something along those lines?
 
 **Ed Muller:** I'm of the opinion that for libraries you absolutely need to specify some constraints on versions, especially over time. For your application, I am less interested in specifying specific versions and looking for the lock, because that's the only way to get truly repeatable builds. Also, I don't understand people who don't wanna check in vendor. I mean, I get it, but the person who did ops for many years is like, "But what happens when GitHub is down?"
 
@@ -164,7 +164,7 @@ So there's not a lot of people - although it is gaining traction recently - for 
 
 **Erik St. Martin:** It's similar to the Go 1 promise - it's social. They've agreed not to change the API.
 
-**Brian Ketelsen:** Well, it's social with teeth, though. There is a script that runs in all .bash that guarantees that there aren't any breaking changes to that Go 1 contract. So nothing's gonna get committed to master or tip without passing that test. I can't remember which of the new languages I saw recently, but there was one of them - I couldn't tell you which, because I like looking at languages - that very specifically had a tool that tested API contracts in your packages before it allowed you to commit, to tell you whether you had breaking changes in APIs, to help you and guide you towards better versioning. And that's something that we can absolutely support with all of the fantastic introspection tools we have in Go.
+**Brian Ketelsen:** Well, it's social with teeth, though. There is a script that runs in all.bash that guarantees that there aren't any breaking changes to that Go 1 contract. So nothing's gonna get committed to master or tip without passing that test. I can't remember which of the new languages I saw recently, but there was one of them - I couldn't tell you which, because I like looking at languages - that very specifically had a tool that tested API contracts in your packages before it allowed you to commit, to tell you whether you had breaking changes in APIs, to help you and guide you towards better versioning. And that's something that we can absolutely support with all of the fantastic introspection tools we have in Go.
 
 **Ed Muller:** Yeah, my pie in the sky, perfect tool would use introspection to determine whether something is at least API compatible or not with the version you have, and then when it detects the change can say, "Here's my last known tagged version .matches. What are you using right now? Do you wanna continue upgrading or not? Here, make a choice." No tool does that though yet, but hopefully one day.
 
@@ -172,13 +172,13 @@ So there's not a lot of people - although it is gaining traction recently - for 
 
 **Brian Ketelsen:** Who guards the custodians? What's the land key custodian? Who watches the watchers?
 
-**Erik St. Martin:** Right. Another question in we had in Slack is "Why did these other languages get vendoring out of the gate right, and how?" I don't know if any of us have answers to that. I think it's similar to kind of Go started out of the gate with concurrency in mind, right? It's just that kind of nature where you approach the problem from a given perspective, right?
+**Erik St. Martin:** Right. Another question we had in Slack is "Why did these other languages get vendoring out of the gate right, and how?" I don't know if any of us have answers to that. I think it's similar to kind of Go started out of the gate with concurrency in mind, right? It's just that kind of nature where you approach the problem from a given perspective, right?
 
 **Brian Ketelsen:** \[00:23:48.19\] Well, I think especially the smaller languages and the more recent ones all feel the pain that we as an industry have been kind of growing into over the last couple years and wisely knew out of the gate if they didn't have a solution to this there would be an issue, and maybe some of them have even learned from Go specifically. I think Go didn't have one at the beginning because Google uses a monorepo. They don't need one. And this was a tool for Google.
 
 **Ed Muller:** Yeah, if you can make a Go path... I mean, if you're gonna check in an entire Go workspace, then you just check out your stuff and commit them; you don't need it. What's there is there, and what's used is used, and it's tracked.
 
-**Erik St. Martin:** Alright, I think we're about halfway through the episode. I'm sure we probably we don't wanna talk dependency management the whole thing - we probably could, theoretically, but do we want to?
+**Erik St. Martin:** Alright, I think we're about halfway through the episode. I'm sure we probably don't wanna talk dependency management the whole thing - we probably could, theoretically, but do we want to?
 
 **Brian Ketelsen:** My blood pressure's going up. This is not good.
 
@@ -232,7 +232,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Carlisia Thompson:** \[00:32:15.05\] I have a sense that the whole internet is being rewritten in Go.
 
-**Ed Muller:** If it were up to me, +1... \[laughter\] But as I said though, Heroku is a place - we call ourselves Heroki, so if I've said that already, you understand. You'll find somebody at Heroku who likes any language that's probably out there right now.
+**Ed Muller:** If it were up to me, +1... \[laughter\] But as I said though, Heroku is a place - we call ourselves Heroki, so if I've said that already, you understand what I am talking about. You'll find somebody at Heroku who likes any language that's probably out there right now.
 
 **Erik St. Martin:** Challenge accepted.
 
@@ -290,7 +290,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Erik St. Martin:** I don't even have the courage to try and implement Paxos.
 
-**Brian Ketelsen:** It's awesome. I learned so much from that codebase. That was definitely the biggest project I had ever seen at Go at the time, and even though Keith and Blake today still say that there are things that they would do differently, there are things that might not be idiomatic, the vast majority of it was really great Go code, and I learned a ton. I'm very grateful that it existed.
+**Brian Ketelsen:** It's awesome. I learned so much from that codebase. That was definitely the biggest project I had ever seen in Go at the time, and even though Keith and Blake today still say that there are things that they would do differently, there are things that might not be idiomatic, the vast majority of it was really great Go code, and I learned a ton. I'm very grateful that it existed.
 
 **Erik St. Martin:** \[00:36:04.22\] I mean, let's be fair, too. That was 2011-2012, so a lot of people use channels for a lot of things. I think we're all still figuring it out as a community what the patterns were.
 
@@ -300,7 +300,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Brian Ketelsen:** We did, and had a lot of fun with it, too. So we've covered the survey, we've covered... Oh, there is one question I had for you. I heard a rumor that the Heroku CLI tool isn't all Go anymore, that there's some hybrid, maybe Node in there. Is that correct?
 
-**Ed Muller:** The Heroku CLI is really 98% Node. Let me rephrase that. The target is for it to be about 98% Node. Right now the CLI is an amalgam of Go, Node and legacy Ruby. The Ruby bits are effectively being phased out for what is basically a Go bootstrapper that can easily upgraded, that manages the Node parts. And I apologize to the primary maintainer of that if I've got any of that wrong, but that's my understanding of it.
+**Ed Muller:** The Heroku CLI is really 98% Node. Let me rephrase that. The target is for it to be about 98% Node. Right now the CLI is an amalgam of Go, Node and legacy Ruby. The Ruby bits are effectively being phased out for what is basically a Go bootstrapper that can easily be upgraded, that manages the Node parts. And I apologize to the primary maintainer of that if I've got any of that wrong, but that's my understanding of it.
 
 **Brian Ketelsen:** Interesting.
 
@@ -324,7 +324,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Erik St. Martin:** And Reddit. They get all his news from Damian. \[laughter\]
 
-**Brian Ketelsen:** He's probably the biggest contributor on the Goland Reddit.
+**Brian Ketelsen:** He's probably the biggest contributor on the Golang Reddit.
 
 **Ed Muller:** It wasn't me that submitted this State of Go survey to Reddit. I'm pretty sure it was Damian.
 
@@ -332,7 +332,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Brian Ketelsen:** I got this! That's pretty awesome.
 
-**Erik St. Martin:** Alright, so we wanna talk news and any interesting projects any of us have come across?
+**Erik St. Martin:** Alright, so do we wanna talk news and any interesting projects any of us have come across?
 
 **Brian Ketelsen:** I've got a huge one. I just found it yesterday - I think they just released it yesterday, the SourceGraph Editor. Has anybody seen that?
 
@@ -400,7 +400,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Erik St. Martin:** No worries at all. We thought you were as tired as we were.
 
-**Brian Ketelsen:** We had somebody in the GoTime FM channel in Slack, and I'm gonna butcher his name, I feel terrible, but it's Florin Patan - he mentioned the go get button Chrome extension. He had actually installed that two weeks ago when he announced it originally, so that's another good one to shout out; we'll have to add that to our show notes. When you're on a GitHub repository, you can just push the little Gopher icon and it copies the go get URL into your buffer and you can just hit Paste in your command line and you'll have that go get command ready for you to do a go get. It's a tiny little tool, it's really handy; I use it constantly now since I've installed it. So a big shout.
+**Brian Ketelsen:** We had somebody in the GoTime FM channel in Slack, and I'm gonna butcher his name, I feel terrible, but it's Florin Patan - he mentioned the go get button Chrome extension. I actually installed that two weeks ago when he announced it originally, so that's another good one to shout out; we'll have to add that to our show notes. When you're on a GitHub repository, you can just push the little Gopher icon and it copies the go get URL into your buffer and you can just hit Paste in your command line and you'll have that go get command ready for you to do a go get. It's a tiny little tool, it's really handy; I use it constantly now since I've installed it. So a big shout.
 
 **Ed Muller:** \[00:48:03.29\] I'd like to shout out, it I may, to Heroku's open source Go project, some of which I've contributed to. If you take a look at our open source Go repositories on GitHub you'll see a bunch of stuff, and a lot of engineers who work there are also contributors to various things, and Go itself.
 
@@ -408,7 +408,7 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Brian Ketelsen:** Yeah, it is. It's awesome.
 
-**Ed Muller:** I should just try to get Keith and those guys at some point, too. I'm honored to be on the show, but... man, did they have a big impact early on.
+**Ed Muller:** You should just try to get Keith and those guys at some point, too. I'm honored to be on the show, but... man, did they have a big impact early on.
 
 **Carlisia Thompson:** And talking about involvement from Heroku, I wanted to also mention that Heroku is a big supporter of GoBridge, financially and otherwise, and Ed is as well. You have taught a GoBridge workshop in San Francisco, we're very grateful for that, so thank you.
 
@@ -432,27 +432,27 @@ The slug builder portion was Ruby; all of API was just Ruby at one point. System
 
 **Erik St. Martin:** That's the hard part, right? You know everybody by their handle. Florin, I know him as dlsniper. Anyway, continue...
 
-**Brian Ketelsen:** Yeah, it's okay. This tool is called git-branches, and it's just a tiny little command line tool that tells you the status of the branches of your Git repo - how far you are behind or ahead of master, and all of the different statuses of the remote branches, too. Really nifty tool, I've used it constantly since I've installed it. It's rare for me that those tiny little command like helpers stay in muscle memory beyond a day, and this one has. It's useful.
+**Brian Ketelsen:** Yeah, it's okay. This tool is called git-branches, and it's just a tiny little command line tool that tells you the status of the branches of your Git repo - how far you are behind or ahead of master, and all of the different statuses of the remote branches, too. Really nifty tool, I've used it constantly since I've installed it. It's rare for me that those tiny little command line helpers stay in muscle memory beyond a day, and this one has. It's useful.
 
-**Carlisia Thompson:** Alright, so the project I want to mention today is Pachyderm. It was mentioned on the show that we're going to release later today, with Daniel Whiteneck. He talked about Go and data science. This project is open source; I haven't used it, but I checked it out and again, it's another project that's super well documented. He has also very organized and very well labeled issues, and they also have issues for newbies, so it seems like a great project for people who want to start contributing to open source and to Go. It's very fascinating, and this is something that's fascinating me about Go, what's going on in the industry right now: basically it seems like it's a modern alternative to Hadoop, and just how people are reinventing solutions... So it's an alternative to Hadoop, but it's not an implementation of Hadoop in Go. They're containers, they are using Go, and they're taking advantage of these contemporary technologies to reinvent the solutions in a much better way.
+**Carlisia Thompson:** Alright, so the project I want to mention today is Pachyderm. It was mentioned on the show that we're going to release later today, with Daniel Whitenack. He talked about Go and data science. This project is open source; I haven't used it, but I checked it out and again, it's another project that's super well documented. He has also very organized and very well labeled issues, and they also have issues for newbies, so it seems like a great project for people who want to start contributing to open source and to Go. It's very fascinating, and this is something that's fascinating me about Go, what's going on in the industry right now: basically it seems like it's a modern alternative to Hadoop, and just how people are reinventing solutions... So it's an alternative to Hadoop, but it's not an implementation of Hadoop in Go. They're using containers, they are using Go, and they're taking advantage of these contemporary technologies to reinvent the solutions in a much better way.
 
 Again, I haven't used it; this is from reading and from just general knowledge, but I think it's very, very interesting.
 
 **Ed Muller:** \[00:52:09.09\] I'm going to totally have to play with this.
 
-**Brian Ketelsen:** Yeah, I did play with it, but long ago, when it was much earlier, and it's a really nifty tool because it allows you to pipe the outputs of your containers. Each of the steps in your data pipeline is just a container that accepts input and sends output, so you get that Hadoop-like flow, but with containers with Docker. It really is nice.
+**Brian Ketelsen:** Yeah, I did play with it, but long ago, when it was much earlier, and it's a really nifty tool because it allows you to pipe the outputs of your containers. Each of the steps in your data pipeline is just a container that accepts input and sends output, so you get that Hadoop-like flow, but with containers with Docker. It's sleek. It really is nice.
 
 **Erik St. Martin:** It's been quite some time since I think I've played with it too, so it's probably about time for a refresh.
 
 **Ed Muller:** It sounds like they've basically - if that's the way it works, they've basically implemented something I've been noodling around in my head, using standard-in/standard-out type stuff between processes, and then just take care of the mechanism for moving that data around and orchestrating it.
 
-**Erik St. Martin:** So it saved you a whole lot of development time.
+**Erik St. Martin:** So they just saved you a whole lot of development time.
 
-**Ed Muller:** Thanks god.
+**Ed Muller:** Thank god.
 
 **Erik St. Martin:** \[laughs\] Did you have somebody you wanted to give a shout out to as well?
 
-**Ed Muller:** Yeah, I'm gonna actually give a shout out to - and I can't believe I'm gonna do this... The '90s me is gonna kick my ass, but Visual Studio Code, which is something for Microsoft. I really never thought that a GUI editor would get me out of using Vim, but it has, and I really like its Go support, as well. So a shout out to both Microsoft and Luke Hoban, who writes the Go plugin. He works at Microsoft as well. So that's my primary editor for code now anyway.
+**Ed Muller:** Yeah, I'm gonna actually give a shout out to - and I can't believe I'm gonna do this... The '90s me is gonna kick my ass, but Visual Studio Code, which is something from Microsoft. I really never thought that a GUI editor would get me out of using Vim, but it has, and I really like its Go support, as well. So a shout out to both Microsoft and Luke Hoban, who writes the Go plugin. He works at Microsoft as well. So that's my primary editor for code now anyway.
 
 **Brian Ketelsen:** Yeah, we've talked about Visual Studio Code a couple times, it is a really strong environment for Go development and the Go plugin is tight, including debugging with Delve on all three major platforms built-in.
 
