@@ -2,7 +2,7 @@
 
 **Brian Ketelsen:** Today the part of Brian will be played by somebody with a very scratchy voice.
 
-**Erik St. Martin:** \[laughs\] We also have Carlisia Campos...
+**Erik St. Martin:** \[laughs\] We also have Carlisia Thompson...
 
 **Carlisia Thompson:** Glad to be here, hello.
 
@@ -36,9 +36,9 @@ We also wanted to have some sort of performance, because the service that I work
 
 **Carlisia Thompson:** I wanted to ask you, with the project, the Rend library being so in need of performance... Did you apply specific techniques, did you apply any design concepts, did you use specific libraries to make it as performant as possible? Or did you just apply good Go idioms and it came out performing well and that was it?
 
-**Scott Mansfield:** Interesting enough, there's... Well, I'm trying to parse the whole question, there's a lot of pieces there. Sometimes the good Go idioms can be less performant than if you tried doing something lower level, such as ownership of data with the goroutine and then sending messages back and forth for the channels may not be quite as performant as doing some sort of AtomicInteger, like increment stuff. So actually on that point, Rend actually has no external dependencies. It's strictly standard to Go, and that was partially because I'm afraid of picking a vendoring tool whenever it's still up in the air, but also because I could really... Like, I could solve our problems better by having a custom solution.
+**Scott Mansfield:** Interesting enough, there's... Well, I'm trying to parse the whole question, there's a lot of pieces there. Sometimes the good Go idioms can be less performant than if you tried doing something lower level, such as ownership of data with the goroutine and then sending messages back and forth for the channels may not be quite as performant as doing some sort of AtomicInteger, like increment stuff. So actually on that point, Rend actually has no external dependencies. It's strictly standard lib Go, and that was partially because I'm afraid of picking a vendoring tool whenever it's still up in the air, but also because I could really... Like, I could solve our problems better by having a custom solution.
 
-One of the things that's actually a good example is our metrics library, because there's all kinds of metrics libraries out where you have a counter struct and then you go and increment it and it still does atomic increments in the background, but it really didn't fit our use case quite as much.
+One of the things that's actually a good example is our metrics library, because there's all kinds of metrics libraries out there where you have a counter struct and then you go and increment it and it still does atomic increments in the background, but it really didn't fit our use case quite as much.
 
 **Carlisia Thompson:** Is your metrics library also in Go?
 
@@ -88,17 +88,17 @@ There's not too many places where I've bucked the trend; I've just tried to avoi
 
 **Carlisia Thompson:** That happened to me, to use channels and ask for some advice about my code, and people were like "Just use a mutex here." So I would say for people who are starting out, learn how to use a mutex so that you can then make a choice if that's what you need, versus channels. A lot of times that's enough, and this performs a lot better.
 
-**Scott Mansfield:** I also think it's important to remember that nothing is magic, so for a channel there is a fast path - think buffer channel, not the one where you need a handshake where there's no buffer. But for \[unintelligible 00:14:39.04\] there's no magic. You have pretty smart code at the front whenever you're trying to insert something, but if you end up competing for that, it's a lot. That's the way it works. You can't have anything else there. So it's not like you're going to magically be faster by having this channel for concurrency. It has to have some sort of management of that concurrent behavior internally.
+**Scott Mansfield:** I also think it's important to remember that nothing is magic, so for a channel there is a fast path - think buffered channel, not the one where you need a handshake where there's no buffer. But for a buffered channel there's no magic. You have pretty smart code at the front whenever you're trying to insert something, but if you end up competing for that, it's a lot. That's the way it works. You can't have anything else there. So it's not like you're going to magically be faster by having this channel for concurrency. It has to have some sort of management of that concurrent behavior internally.
 
 **Erik St. Martin:** Yeah, and I know some of this stuff, too. This is one of the things I was guilty of early on, I was using channels for state. When I should really be using a mutex, I would create these goroutines that select on channels, and that's where the updates took place to state, and that seemed like the pattern, because go ahead channels, why would you want mutexes? And this was in the early days, but I still see people coming to the language and doing that. I don't know what the best way to offer advice for that is... Whether there's "When to use channels, when not to use channels."
 
-**Scott Mansfield:** I think I have a pretty good idea. If you're at Netflix scale, then all of the rules don't apply. But if you're not at Netflix scale, use whatever you want I think we've probably spent too much time focusing on tiny microperformance benchmarks, when 90% of our latency comes from the network and the disk and the database. We should worry about those things instead.
+**Brian Ketelsen:** I think I have a pretty good idea. If you're at Netflix scale, then all of the rules don't apply. But if you're not at Netflix scale, use whatever you want I think we've probably spent too much time focusing on tiny microperformance benchmarks, when 90% of our latency comes from the network and the disk and the database. We should worry about those things instead.
 
-**Scott Mansfield:** \[00:16:11.10\] My impression though is that mutex and channels, they are not interchangeable. I mean, you can use channels in the way that you would... If all you needed was a mutex, you could force a design with channels in your code, but they're not really the same thing. I could be wrong.
+**Carlisia Thompson:** \[00:16:11.10\] My impression though is that mutex and channels, they are not interchangeable. I mean, you can use channels in the way that you would... If all you needed was a mutex, you could force a design with channels in your code, but they're not really the same thing. I could be wrong.
 
-**Erik St. Martin:** No, they're not. They're not at all. The only way it ends up working that way is because you end up having one goroutine that is the thing always updating state. It's almost used that way, but I think the pattern kind of came from - I think there were some projects early on that had that pattern, and then a lot of people kind of copied it and followed suit. I can't even remember what library I picked that pattern up on, and then I kept doing it. And there were other big name Go programmers doing the same thing, too. I think we finally realized to slap our own hands, like "Why!? Why are we doing this?" The code's much more complex, it's hard to reason about... And it's actually less performant.
+**Erik St. Martin:** No, they're not. They're not at all. The only way it ends up working that way is because you end up having one goroutine that is the thing always updating state. It's almost used that way, but I think the pattern kind of came from - I think there were some projects early on that had that pattern, and then a lot of people kind of copied it and followed suit. I can't even remember what library I picked that pattern up on, and then I kept doing it. And there were other big name Go programmers doing the same thing, too. I think we finally realized to slap our own hands, like "Why!? Why are we doing this?" The code's much more complex, it's harder to reason about... And it's actually less performant.
 
-**Carlisia Thompson:** And while on the subject, I just wanna mention this real quick: if you do figure out that a mutex is not gonna do it for you and you do need to use channels, if you haven't, it's worthwhile to watch a Rob Pike video on Concurrency Design In Go. I think that's what the name is... I'll put the link on the show notes. It's beautiful. It's not something that you watch and you're like, "Oh, I learned everything", but you'll get a sense of the different ways you can design for concurrency. It's gorgeous, it was my favorite video ever. Have you guys seen that?
+**Carlisia Thompson:** And while on the subject, I just wanna mention this real quick: if you do figure out that a mutex is not gonna do it for you and you do need to use channels, if you haven't, it's worthwhile to watch a Rob Pike video on Concurrency Design In Go. I think that's what the name is... I'll put the link on the show notes. It's beautiful. It's not something that you watch and you're like, "Oh, I learned everything", but you'll get a sense of the different ways you can design for concurrency. It's gorgeous, it was my favorite video ever for Go. Have you guys seen that?
 
 **Erik St. Martin:** Yeah, yeah.
 
@@ -118,11 +118,11 @@ There's not too many places where I've bucked the trend; I've just tried to avoi
 
 **Erik St. Martin:** I don't think that there's a need to be 100% either. There's a big project that came out of YouTube called Vitess which is wire compatible with MySQL, but kind of makes MySQL distributed, and they don't support all SQL in there as well, just kind of the core things that they use.
 
-**Scott Mansfield:** And that's okay, definitely if it solves their problem. I agree.
+**Brian Ketelsen:** And that's okay, definitely if it solves their problem. I agree.
 
 **Erik St. Martin:** And if it does not solve your problem... Pull requests accepted.
 
-**Scott Mansfield:** \[00:20:01.05\] Or forks.
+**Brian Ketelsen:** \[00:20:01.05\] Or forks.
 
 **Erik St. Martin:** Right, or forks. Kind of on a different track here - was it yesterday, or the day before? - I came across another one of your blog posts, which I actually love, which was called How To Block Forever In Go. That was kind of like a list of all the different ways... Are these just things you came across, where people would create deadlocks in code?
 
@@ -152,7 +152,7 @@ There's not too many places where I've bucked the trend; I've just tried to avoi
 
 **Brian Ketelsen:** I did that this week. Yep... Oops!
 
-**Erik St. Martin:** And I feel like some of the static analysis tools that are out there could be evolved to look for some of these patterns. I mean, some of them are Runtime-specific, right? You can't know that the channel is gonna stay empty forever, but other like the double locking I feel like you should be able to catch some of those, I guess. I don't know. Shamefully I have not written a static analysis tool, so...
+**Erik St. Martin:** And I feel like some of the static analysis tools that are out there could be evolved to look for some of these patterns. I mean, some of them are Runtime-specific, right? You can't know that the channel is gonna stay empty forever, but others like the double locking I feel like you should be able to catch some of those, I guess. I don't know. Shamefully I have not written a static analysis tool, so...
 
 **Brian Ketelsen:** It should be easy.
 
@@ -162,7 +162,7 @@ There's not too many places where I've bucked the trend; I've just tried to avoi
 
 **Erik St. Martin:** \[00:23:57.02\] Right? Regex solves all the problems. Alright, so anybody have anything else you wanna talk about? Netflix, or the usage of Go there? What else are you working on, Scott? Do you have anything else going on in the open source community that we can steal?
 
-**Scott Mansfield:** Netflix does, certainly, for sure. I actually had this list of Go projects written down, but it's not necessarily perfect for this... I mean, there's a bunch of things - I've linked them all actually to you guys already - that are all open source and are related to Go use here. But myself personally, no, I've pretty much been stuck on working on Rend this whole time.
+**Scott Mansfield:** Netflix does, certainly, for sure. I actually had this list of Go projects written down, but it's not necessarily perfect for this... I mean, there's a bunch of things - I've linked them all actually to you guys already - that are all open source and are related to Go use here. But myself personally, no, I've pretty much been stuck working on Rend this whole time.
 
 **Erik St. Martin:** Such is the life of a developer... Okay, so I have to look for that link, but we'll make sure that's in the show notes too, for anybody that's interested in all the kind of projects that are coming out of Netflix and that are open source, and even outside of Go. Netflix has been releasing a lot of cool stuff.
 
@@ -250,7 +250,7 @@ Alright, so moving on. What else have we got?
 
 **Erik St. Martin:** Yeah, the Go Torch projects.
 
-**Scott Mansfield:** Well, the guy who invented flame graphs actually works here on our SRA team.
+**Scott Mansfield:** Well, the guy who invented flame graphs actually works here on our SRE team.
 
 **Erik St. Martin:** Oh, nice.
 
@@ -268,7 +268,7 @@ Alright, so moving on. What else have we got?
 
 **Brian Ketelsen:** That's a big external dependency right there.
 
-**Erik St. Martin:** Yeah. My - I guess he's 20 months now - 20-month old daughter woke up just before we got on the call for this show. That's twice now. She times it perfectly, I think she knows.
+**Erik St. Martin:** Yeah. My - I guess she's 20 months now - 20-month old daughter woke up just before we got on the call for this show. That's twice now. She times it perfectly, I think she knows.
 
 **Carlisia Thompson:** Of course she knows.
 
@@ -302,7 +302,7 @@ I haven't used it, but anything that says "I'm 20 times faster" calls my attenti
 
 **Carlisia Thompson:** I have to try to get my way, somehow. \[laughter\]
 
-**Erik St. Martin:** I haven't even look at it, I'll have to pull it up. Recently I haven't really been... I'm kind of in the Scott camp here where it comes to the frameworks... Recently I've just been writing my own stuff. Maybe I'm not building anything big enough, I feel like I need a framework for the repetitive nature of it, but...
+**Erik St. Martin:** I haven't even looked at it, I'll have to pull it up. Recently I haven't really been... I'm kind of in the Scott camp here where it comes to the frameworks... Recently I've just been writing my own stuff. Maybe I'm not building anything big enough, I feel like I need a framework for the repetitive nature of it, but...
 
 **Brian Ketelsen:** Or maybe you just don't wanna take on another external dependency that you have to babysit.
 
@@ -336,11 +336,11 @@ I haven't used it, but anything that says "I'm 20 times faster" calls my attenti
 
 **Brian Ketelsen:** No, I actually sent him an email and said, "Report to my office. You're fired." \[laughter\]
 
-**Erik St. Martin:** So Govender I like. I've been using that one recently. And that seems to be kind of almost the same thing, it just uses the vendor folder that already exists, and it kind of stuffs stuff in there. I kind of like that one. I don't hate it, I should say that. But I think you're right, we're still trying to get consensus as a community over what to use there.
+**Erik St. Martin:** So Govendor I like. I've been using that one recently. And that seems to be kind of almost the same thing, it just uses the vendor folder that already exists, and it kind of stuffs stuff in there. I kind of like that one. I don't hate it, I should say that. But I think you're right, we're still trying to get consensus as a community over what to use there.
 
 **Scott Mansfield:** People have actually been frustrated, for example, with the AWS SDK for Go. They don't use any sort of vendoring tool, and they just have every dependency in their vendor folder. People are upset with them and they keep opening issues, but I think their position is very pragmatic, saying "There's no clear winner. We're not gonna pick one, because somebody is not gonna have that tool."
 
-**Erik St. Martin:** Yeah, and that's kind of what I like about the Govender thing, because it doesn't really do much aside from stuff your dependencies in the vendor folder. At least from my understanding. I haven't seen any kind of manifest or anything like that. I've only recently started using it, but it seems to be that's all it does, stuff it into the vendor directory for you and do the go gets for you and stuff like that. I kind of like that approach. I'm still waiting for consensus on what to use.
+**Erik St. Martin:** Yeah, and that's kind of what I like about the Govendor thing, because it doesn't really do much aside from stuff your dependencies in the vendor folder. At least from my understanding. I haven't seen any kind of manifest or anything like that. I've only recently started using it, but it seems to be that's all it does, stuff it into the vendor directory for you and do the go gets for you and stuff like that. I kind of like that approach. I'm still waiting for consensus on what to use.
 
 \[00:39:53.12\] One of the things with the vendoring I still haven't figured out is - and maybe somebody here can solve that for me - there's kind of the whole "You don't vendor dependencies in the library, only in the command", or do I have that flipped? Have you guys heard that, where people are advocating not to vendor dependencies for libraries?
 
@@ -392,11 +392,11 @@ So yeah, I'm interested to see how it comes along and how long that takes.
 
 **Carlisia Thompson:** Yeah. \[laughs\] Good question.
 
-**Brian Ketelsen:** On that note, one of the things that I wanted to bring up this week is the season three of Beyond Code, which featured GopherCon 2015. That's launching this Saturday, and it's going to be in the show notes for this call. Beyond Code Season 3 has interviews from lots of he people that went to GopherCon and it's really awesome. I just saw some of the previews and really enjoyed asking interesting questions of the people in the Go community. So if you get a chance, check that out. It's really cool. Adam and his team did a fantastic job putting that together for us.
+**Brian Ketelsen:** On that note, one of the things that I wanted to bring up this week is the season three of Beyond Code, which featured GopherCon 2015. That's launching this Saturday, and it's going to be in the show notes for this call. Beyond Code Season 3 has interviews from lots of the people that went to GopherCon and it's really awesome. I just saw some of the previews and really enjoyed asking interesting questions of the people in the Go community. So if you get a chance, check that out. It's really cool. Adam and his team did a fantastic job putting that together for us.
 
 **Erik St. Martin:** And both Carlisia and Brian are on there.
 
-**Carlisia Thompson:** Yeah. \[laughter\] Completely by chance. And I also want to mention that it was very late at night, they were way on the back of the back - this was at one of the after-parties; there were so many, I can't even remember. It was huge, they were way at the back... So just by the time I got to the end of the bar, I already had I don't know how many beers, so that is that. And everybody who was with me was drinking, and two other people who were with me are also on the movie... And I don't know how we all managed to just talk clearly, I can't believe it. I felt like I was ambushed.
+**Carlisia Thompson:** Yeah. \[laughter\] Completely by chance. And I also want to mention that it was very late at night, they were way on the back of the bar - this was at one of the after-parties; there were so many, I can't even remember. It was huge, they were way at the back... So just by the time I got to the end of the bar, I already had I don't know how many beers, so that is that. And everybody who was with me was drinking, and two other people who were with me are also on the movie... And I don't know how we all managed to just talk clearly, I can't believe it. I felt like I was ambushed.
 
 **Erik St. Martin:** This is real. This is people. It's beyond code. Beyond code is the bar.
 
@@ -432,9 +432,9 @@ So yeah, I'm interested to see how it comes along and how long that takes.
 
 **Brian Ketelsen:** Oh, it's so much more than same defaults by Jessie. This is unicorns and rainbows in your shell. It's everything.
 
-**Erik St. Martin:** I know we looked for them for a couple of configurations, I can't remember what they were for. She had linked them to us on Twitter a while back. I think it was for using \[unintelligible 00:50:20.06\]
+**Erik St. Martin:** I know we looked for them for a couple of configurations, I can't remember what they were for. She had linked them to us on Twitter a while back. I think it was for using Mutt.
 
-**Brian Ketelsen:** I put in the show notes "Zero to Awesome in one clone." I stand by it.
+**Brian Ketelsen:** I put in the show notes "Zero to Awesome in one git clone." I stand by it.
 
 **Erik St. Martin:** That's awesome.
 
@@ -454,9 +454,9 @@ To everybody's point, we use only a couple of tools every day, so I think we've 
 
 **Brian Ketelsen:** Tomorrow?
 
-**Erik St. Martin:** Later today, you know... Alright so with that said, I think we are probably well over time at this point. I wanna thank everybody for being on the show, I wanna thank everybody for listening. Everybody who is chatting with us on the GoTimeFM channel on Slack. We are on iTunes too, so now everybody can share us through iTtunes or just go to GoTimeFM. We do have a GitHub.com/GoTimeFM/ping if you want to suggest people to be on this show or for us to ask questions, or... What else?
+**Erik St. Martin:** Later today, you know... Alright so with that said, I think we are probably well over time at this point. I wanna thank everybody for being on the show, I wanna thank everybody for listening. Everybody who is chatting with us in the GoTimeFM channel on Slack. We are on iTunes too, so now everybody can share us through iTtunes or just go to GoTimeFM. We do have a GitHub.com/GoTimeFM/ping if you want to suggest people to be on this show or for us to ask questions, or... What else?
 
-**Brian Ketelsen:** Somebody needs to turn down the base on Erik's voice.
+**Brian Ketelsen:** Somebody needs to turn down the bass on Erik's voice.
 
 **Erik St. Martin:** Yeah, I'm terrible about that. And I think that's it. Twitter: @GoTimeFm on Twitter, as well. With that said, goodbye everybody.
 
