@@ -4,7 +4,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Brian Ketelsen:** Hello.
 
-**Erik St. Martin:** And then we have the wonderful Carlisia Campos also on the line.
+**Erik St. Martin:** And then we have the wonderful Carlisia Thompson also on the line.
 
 **Carlisia Thompson:** Glad to be here, hello.
 
@@ -18,7 +18,7 @@ Now I'm working on this thing called Micro. I realized everyone was really doing
 
 **Erik St. Martin:** So when I first saw Micro, I think, the thing that impressed me most and this was February of last year, it's been quite awhile; but the thing that impressed me most was the design decisions that you've made seemed to be - what's the word I'm trying to think... It encapsulates almost everything you need to get the job done and it's more of a full framework than a toolkit, to use frequent Go terminology; whereas, you know, the Gorilla toolkit is a bunch of things you can use to build websites, but Micro is pretty, relatively self-contained, and I really enjoy that. I think it's nice to have a strongly-opinionated framework like that in the microservices.
 
-**Asim Aslam:** Thanks. I guess the wording is always hard. You can kind of go back and forth and on what it should be, but learning from the experiences of building something within a company... A library does not suffice, a toolkit does not suffice. We essentially build platform as a service or microservices platform service for the company, and that man providing everything to the developers who are our customers and letting them kind of focus on what they need to focus on.
+**Asim Aslam:** Thanks. I guess the wording is always hard. You can kind of go back and forth and on what it should be, but learning from the experiences of building something within a company... A library does not suffice, a toolkit does not suffice. We essentially build platform as a service or microservices platform service for the company, and that meant providing everything to the developers who are our customers and letting them kind of focus on what they need to focus on.
 
 So when I built this, I really thought about what are the fundamental building blocks, how would you do if you built it open source first? So it needs to be pluggable... And it slowly evolved. I mean, it started as just Go Micro - the kind of core project - and now it's this bigger thing and I'm calling it an ecosystem and trying to build it really further and address every requirement, but also kind of saying, "Look, it's pluggable." We offload the hard things to the people and the tools that are really focused on those things. So service discovery - there's an interface for it, but if you want something that is consistent and distributed, you can use Console or Etcd or anything like that. It's the same for all the other kind of packages within there.
 
@@ -38,11 +38,11 @@ So when I built this, I really thought about what are the fundamental building b
 
 The growth is slow and nice. I think the nice thing is there's a Slack where everyone joins, individuals and companies come along and kind of talk about their uses, and people are using it without me even knowing. For some reason it's really taking off in China, which is really, really nice to see, and someone even translated the entire blog into Chinese, which is really cool.
 
-\[00:07:53.15\] Here in London I just met with a company called Kazoop, and they have esentially posted the first job listing including Micro. For me, that's really profound, that someone thinks so much of it that they wanna put it in a job listing and kind of say, "Hey, we're moving over to this framework and here's what we're gonna pay for someone to do it." So that's pretty cool.
+\[00:07:53.15\] Here in London I just met with a company called Kazoop, and they have essentially posted the first job listing including Micro. For me, that's really profound, that someone thinks so much of it that they wanna put it in a job listing and kind of say, "Hey, we're moving over to this framework and here's what we're gonna pay for someone to do it." So that's pretty cool.
 
 **Brian Ketelsen:** Are they looking for a developer with ten years of experience?
 
-**Asim Aslam:** \[Laughter\] No. They're looking for someone who knows Go and wants to build microservices and can kind of do this stuff. I think the awesome things about microservices in general, these things are maybe less than a thousand lines of code. It's very domain-specific what you're building, so it doesn't require as much as you think to kind of build that stuff, which means people with six months experience, a year experience could really do this stuff.
+**Asim Aslam:** \[Laughter\] No. They're looking for someone who knows Go and wants to build microservices and can kind of do this stuff. I think the awesome thing about microservices in general, these things are maybe less than a thousand lines of code. It's very domain-specific what you're building, so it doesn't require as much as you think to kind of build that stuff, which means people with six months experience, a year experience could really do this stuff.
 
 People learning Go for the first time could probably do this, because what really matters is the API at the end of the day, the interface to that application that you're communicating with. The code is irrelevant, because you could rewrite that anytime in the future.
 
@@ -56,7 +56,7 @@ You know every language has a different kind of syntax, therefore it's gonna com
 
 **Asim Aslam:** Yeah, it's interesting... I mean, I agree in that the longer you go, the more you can kind of remember about it and kind of model in your head. But at the same time, if you leave the project for a little while and come back, how long does it take you to kind of build that model again? For me, it's the case of "Can I hold the entire model in my head? Can I make changes to that model in my head in a very, very easy manner and then put it down in code very, very quickly?"
 
-You can kind of generally get a feel for when it's not working. I think people coming from an NVC background, you know, Rails and what not - you get used to the modularity, so you'll have code bases that are a million lines of code and you somehow figure out how to code in the modular space. But in the microservices world I just think you kind of need to have a full scope of the service itself.
+You can kind of generally get a feel for when it's not working. I think people coming from an MVC background, you know, Rails and what not - you get used to the modularity, so you'll have code bases that are a million lines of code and you somehow figure out how to code in the modular space. But in the microservices world I just think you kind of need to have a full scope of the service itself.
 
 \[00:11:48.21\] A lot of the time, we're hacking out services in the space of one or two days and shipping them to production, at least when I was at Hailo, but I would say there is no right or wrong. I think for everyone it's a different thing and you really have to go with what works for you and that's what I like about the philosophy, because there are a lot of tradeoffs.
 
@@ -74,9 +74,9 @@ I think when a team comes together, they kind of figure how they'll work and wha
 
 **Asim Aslam:** Yeah, exactly. Like, when's the last time someone rewrote grep or ls or cat or something like that. It's like once they're built, they're built.
 
-Erik St. Martin: Now, I think that's an interesting thought. But how does that look from kind of the operations perspective? Who is responsible for all of those? Are these microservices that are running out somewhere that you leverage, or are these microservices that you're downloading these versions of and installing within your own infrastructure? How does that work?
+**Erik St. Martin:** Now, I think that's an interesting thought. But how does that look from kind of the operations perspective? Who is responsible for all of those? Are these microservices that are running out somewhere that you leverage, or are these microservices that you're downloading these versions of and installing within your own infrastructure? How does that look?
 
-**Asim Aslam:** Say all of us here on the call, we were all collaborating on some project. Now, how will we do it? We're building a side project. A lot of the time people will go find some hosting and start running some stuff there. But what if we could string together our disparate Digital Ocean kind of sources, creating network and then run microservices in there collectively? That's what I'm really thinking.
+**Asim Aslam:** Say all of us here on the call, we were all collaborating on some project. Now, how will we do it? We're building a side project. A lot of the time people will go find some hosting and start running some stuff there. But what if we could string together our disparate Digital Ocean kind of resources, creating network and then run microservices in there collectively? That's what I'm really thinking.
 
 I think it'd be kind of a shared responsibility between the people actually contributing to the network itself. I've built platform as a service for a very long time, so I think the part of automation really plays in and so you have to build self-healing automated systems that can kind of deal with this sort of failure.
 
@@ -86,7 +86,7 @@ So I think you can kind of get to a place where no individual, no actual human b
 
 **Brian Ketelsen:** \[00:16:12.29\] You've got big dreams.
 
-**Asim Aslam:** I have very big dreams, but I also have is the time to do it, the luxury of time, so that's quite nice.
+**Asim Aslam:** I have very big dreams, but I also have the time to do it, the luxury of time, so that's quite nice.
 
 **Brian Ketelsen:** So from a technical perspective one of the things I appreciate about the Micro framework is that you can interact with the framework. There are multiple different media, for example the Command Line tool, the bot, the API itself; designing that, what went into that? How did you design the services in a way that made it really easy to interact from so many different media?
 
@@ -110,7 +110,7 @@ It's similar to... Netflix has something called Prana which is their sidecar, Bu
 
 And I think there are very few tools actually around for that.
 
-I know Netflix has a very, very good suite of tools to do it in Java, but we were sort of missing these tools in Go. And credit to Peter Borgen who a year or more ago started working on Go kit and around the same time I started work on Go Micro as well. So there's some tools now kind of surfacing to help with this, but I think we're really focusing on the development side and other companies are focusing on how do we run them.
+I know Netflix has a very, very good suite of tools to do it in Java, but we were sort of missing these tools in Go. And credit to Peter Bourgon who a year or more ago started working on Go kit and around the same time I started work on Go Micro as well. So there's some tools now kind of surfacing to help with this, but I think we're really focusing on the development side and other companies are focusing on how do we run them.
 
 **Erik St. Martin:** Okay, so that actually brings up a valid point and we have some people in the Slack channel who were kind of asking the same thing. How would you compare and contrast kind of Micro versus Go kit? Do you see them targeting different groups of people? The same?
 
@@ -148,11 +148,11 @@ I've actually seen some people kind of start to use pieces of the Go platform, w
 
 **Erik St. Martin:** Right.
 
-**Carlisia Thompson:** Before we move on, I wanted to ask you, Asim, where can people find out more, how to get started, the tutorials, where can they go to ask questions, do you have channel here on Gopher Slack? In other words, tell us how people can get started and get proficient using Micro?
+**Carlisia Thompson:** Before we move on, I wanted to ask you, Asim, where can people find out more, how to get started, are there tutorials, where can they go to ask questions, do you have channel here on Gopher Slack? In other words, tell us how people can get started and get proficient using Micro?
 
 **Asim Aslam:** Sure, thanks for asking. You can go to the website micro.mu and that'll kind of take you to where you need to go. There's a blog which has the introduction, it has a getting started guide on how to write Go microservices. You can go to the GitHub repository and there's a Wiki and there's documents in every single kind of package that explains how things work, and each of them in the readme have a kind of getting started kind of guide and how to start with that.
 
-We also have a Slack channel dedicated to kind of Micro and microservices in distributed systems in general, so everyone can kind of self-invite and come join that and talk about this stuff. The reason I didn't actually set up one in the Gopher channel was because I knew that longer term, this wasn't going to be solely Go-focused. We're actually on the cusp of kind of having multi-language support. Sixt and some other companies have developed libraries in Java, Scala, someone else is independently working on Rust and I'm hoping for a JavaScript implementation as well. The hope is we open source these and we actually become a multi-language community, and the focus is just on building microservices.
+We also have a Slack channel dedicated to kind of Micro and microservices and distributed systems in general, so everyone can kind of self-invite and come join that and talk about this stuff. The reason I didn't actually set up one in the Gopher channel was because I knew that longer term, this wasn't going to be solely Go-focused. We're actually on the cusp of kind of having multi-language support. Sixt and some other companies have developed libraries in Java, Scala, someone else is independently working on Rust and I'm hoping for a JavaScript implementation as well. The hope is we open source these and we actually become a multi-language community, and the focus is just on building microservices.
 
 **Erik St. Martin:** That's great.
 
@@ -268,7 +268,7 @@ So anything else anybody wants to talk about before me close out the show? Becau
 
 **Asim Aslam:** Yeah. I'm excited to see them actually tackle this. I know it's going to be a hard one to get right, but having seen the work that they've done on Etcd, I believe they'll be able to do it and in time with people who have that kind of experience is going to be really good.
 
-\[00:47:54.19\] As someone mentioned, the Hacker News comments weren't very kind. I think we need to be optimist and we need to be supportive. I think this is really good for the entire kind of tech community as a whole. I think everyone's a little bit like "Oh, I want it to write a distributed storage system. Why do they write it?" \[laughter\]
+\[00:47:54.19\] As someone mentioned, the Hacker News comments weren't very kind. I think we need to be optimist and we need to be supportive. I think this is really good for the entire kind of tech community as a whole. I think everyone's a little bit like "Oh, I wanted to write a distributed storage system. Why do they have to write it?" \[laughter\]
 
 **Erik St. Martin:** Yeah, I mean anytime something new like that comes out people, you know... And CoreOS kind of gets the brunt of it too, because they're trying to innovate and they're trying to do things differently and I think they catch some slack for it too, the whole rocket thing... Many of these things are fantastic and they have some really smart people working for them. It's like every year they are scooping up more people. You're like "Oh, this person is doing something cool" and it's like "Yeah, CoreOS just grabbed him." \[laughter\] But I'm interested to see how it comes along. I think that as people start to play with it, I think that they'll start to see its merits.
 
@@ -280,7 +280,7 @@ So anything else anybody wants to talk about before me close out the show? Becau
 
 **Erik St. Martin:** Alright. Did anybody else have anything they want to touch on? Any closing notes about Micro, especially? Because that's definitely one of the most exciting things we've talked about here.
 
-**Asim Aslam:** I'll just say, thanks for having me on the show and being able to talk this. Please do try Micro if you're interested in building microservices. Come join the Slack and kind of talk about it. I'm looking for people to help contribute to the OSS kind of project. If you're interested in building the higher-level tools in the Go platform or if you want to contribute plugins, let me know.
+**Asim Aslam:** I'll just say, thanks for having me on the show and being able to talk about this. Please do try Micro if you're interested in building microservices. Come join the Slack and kind of talk about it. I'm looking for people to help contribute to the OSS kind of project. If you're interested in building the higher-level tools in the Go platform or if you want to contribute plugins, let me know.
 
 **Erik St. Martin:** And we're happy to have you on the show.
 
@@ -296,13 +296,13 @@ So anything else anybody wants to talk about before me close out the show? Becau
 
 **Erik St. Martin:** That's great. Asim, you can't cheat, you cannot say Micro. You can go with anybody but Micro.
 
-**Asim Aslam:** \[00:52:02.00\] It's good, I have one... This is a bit of a throwback, so this thanks to Postflix, the SMTP server.
+**Asim Aslam:** \[00:52:02.00\] It's good, I have one... This is a bit of a throwback, so this thanks to Postfix, the SMTP server.
 
 **Erik St. Martin:** Nice.
 
-**Asim Aslam:** Back in the day when I was a sys admin we used to do bulk emails. We were sending half a million emails an hour and I kind of managed upwards of a hundred instances of Postflix and it made it really easy to kind of configure and manage SMTP.
+**Asim Aslam:** Back in the day when I was a sys admin we used to do bulk emails. We were sending half a million emails an hour and I kind of managed upwards of a hundred instances of Postfix and it made it really easy to kind of configure and manage SMTP.
 
-So I'm really grateful for that piece of software, because it meant I didn't have to use Sendmail and if anyone is used Sendmail, you know how painful that is.
+So I'm really grateful for that piece of software, because it meant I didn't have to use Sendmail and if anyone has used Sendmail, you know how painful that is.
 
 **Erik St. Martin:** Sendmail - never. So for me I haven't really been using anything new that I haven't already mentioned, except VLC, so I'm going to give shout out to VLC, because that is making my life easier. I definitely would not want to write VLC. I don't think I'm quite qualified for that, either.
 
