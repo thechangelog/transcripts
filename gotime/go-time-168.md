@@ -68,7 +68,7 @@ Let's also meet our other guests. He's back, it's Roberto Clapis. Hello, Roberto
 
 **Johnny Boursiquot:** Not have any internet, I guess. No web for you, no tabs for you...
 
-**Mat Ryer:** Exactly. It solves the tab problem though, so... Difficult one there. Roberto, what are you doing with your days?
+**Mat Ryer:** Exactly. It solves the tabs problem though, so... Difficult one there. Roberto, what are you doing with your days?
 
 **Roberto Clapis:** Yeah, I also work with computers, also the web. I make sure that if it works, it doesn't work too much... Like, it starts giving data to people that are not supposed to get it. So kind of the other side of the spectrum.
 
@@ -100,7 +100,7 @@ The first issue number is issue number 20733. It's a proposal to redefine range 
 
 **Mat Ryer:** Okay, so the problem is then when you range over something, it reuses the variables in each iteration. So if you do kick off goroutines and things, you feel like you'd kick off that goroutine and it's gonna use the value that was in that iteration. But actually, as that's updating, it'll update for all of the goroutines. And that's where you then think -- usually, you end up with the last number, and everything, and it's the same, and it's such a strange bug.
 
-**Roberto Clapis:** It's like the lat +1. So if you're iterating over a slice, you actually go out of bound, which is even worse.
+**Roberto Clapis:** It's like the last+1. So if you're iterating over a slice, you actually go out of bound, which is even worse.
 
 **Mat Ryer:** Right, yeah. Of course. If you're ranging/using it over numbers, right?
 
@@ -116,7 +116,7 @@ The first issue number is issue number 20733. It's a proposal to redefine range 
 
 **Johnny Boursiquot:** So your tests are a lie then...
 
-**Mat Ryer:** Yeah. But that last case definitely works \[unintelligible 00:11:28.20\]
+**Mat Ryer:** Yeah. But that last case definitely works..
 
 **Johnny Boursiquot:** It really works. \[laughter\]
 
@@ -138,13 +138,13 @@ The first issue number is issue number 20733. It's a proposal to redefine range 
 
 **Mat Ryer:** Yeah. And I think, to Daniel's point, this is probably completely backwards-compatible, because even code that has the weird, quirky workarounds - they'll still work, and they could be tidied up later.
 
-This has 91 thumbs up on GitHub emojis there, and six thumbs downs. It's got 11 of these weird party emojis, and nine love hearts. I think emojis are essentially how we should make decisions these days in the modern world. Someone's just done it, \[unintelligible 00:14:54.09\] and turned it to 12. \[laughter\]
+This has 91 thumbs up on GitHub emojis there, and six thumbs downs. It's got 11 of these weird party emojis, and nine love hearts. I think emojis are essentially how we should make decisions these days in the modern world. Someone's just done it, deliberately party-ed it and turned it to 12. \[laughter\]
 
 So yeah, I feel like this is actually quite a good one. Is there a difficulty in implementation. Was this a design decision, do we know, or is this just what happened, and we sort of found out later, this was a side-effect of how it was built?
 
-**Johnny Boursiquot:** In my reading of the commentary back and forth, most folks seem to be in favor of it... Yet people on the Go team obviously are chiming in - people that are or were, are chiming in... And for the most part, this seems like a change that wouldn't get a lot of pushback... Again, because with the sort of implicit implementation or support for this - I can't think of many situations where it would actually break someone's logic, if your stuff sort of behaves as expected. Not to say that there aren't any edge cases, but for the most part it seems overwhelmingly supported. And there's a comment in there from Brad Fitzpatrick around giving it more consideration for Go 2... So who knows, maybe we'll see this.
+**Johnny Boursiquot:** In my reading of the commentary going back and forth, most folks seem to be in favor of it... Yet people on the Go team obviously are chiming in - people that are or were, are chiming in... And for the most part, this seems like a change that wouldn't get a lot of pushback... Again, because with the sort of implicit implementation or support for this - I can't think of many situations where it would actually break someone's logic, if your stuff sort of behaves as expected. Not to say that there aren't any edge cases, but for the most part it seems overwhelmingly supported. And there's a comment in there from Brad Fitzpatrick around giving it more consideration for Go 2... So who knows, maybe we'll see this.
 
-**Roberto Clapis:** \[00:16:07.16\] Yeah. And also, if you look at the way this is compiled, it's clear that the way it is is because there is no exception there. It just works. This is the way that for loops are compiled, because the first statement is run only once, and that's the declaration. And some people complain that this could introduce some performance issues, because then you get a lot of variables. But if you are really that concerned about performance - well, it's weird, because why are you optimizing that kind of things... But if you are, you can just declare it on the line before the for loop, and just don't use the first -- you can just do \[unintelligible 00:16:46.03\] and go on with your life.
+**Roberto Clapis:** \[00:16:07.16\] Yeah. And also, if you look at the way this is compiled, it's clear that the way it is is because there is no exception there. It just works. This is the way that for loops are compiled, because the first statement is run only once, and that's the declaration. And some people complain that this could introduce some performance issues, because then you get a lot of variables. But if you are really that concerned about performance - well, it's weird, because why are you optimizing that kind of things... But if you are, you can just declare it on the line before the for loop, and just don't use the first -- you can just do *for;* and go on with your life.
 
 **Mat Ryer:** Yeah. So if you were ranging over some big chunks of data, and they're suddenly now being copied, could you ever notice that? Would that ever make a marked kind of difference?
 
@@ -160,7 +160,7 @@ Okay, we should do that one then. That's our decision. Is this what this is? Are
 
 **Mat Ryer:** Yeah. In the Go team HQ, they'll be like "We've got a thumbs up from Johnny B. Let's get on it!" \[laughter\]
 
-**Roberto Clapis:** I would actually be on this one getting accepted soon. Of all the ones that we've talked about at least.
+**Daniel Martí:** I would actually bet on this one getting accepted soon. Of all the ones that we've talked about at least.
 
 **Mat Ryer:** It's funny, because it's been there for -- I'm gonna just check the date on it...
 
@@ -200,7 +200,7 @@ But even then, something like this would probably break a lot of things, so beca
 
 **Mat Ryer:** Yeah. And also, there's a wider point here, which comes up a lot when we talk about Go. Daniel, you actually make this point in that issue; you made it years ago, like some kind of time traveler, or something... You said Go is read much more often than it's written. So we ought to optimize for it being read.
 
-**Daniel Martí:** Yeah. And I actually think there's also -- we've talked a lot about the human element here, but I also think we should remember the tooling element, the machine element. Go is pretty well optimized to being fast to compile, but I feel like in these two cases, tools get slower, because they can take shortcuts. If names are predictable, you can predict where they're gonna be. Something like \[unintelligible 00:25:46.15\] could be a very simple Go program; you would just read a Go file, look at a name, "Where is the name defined?" You just look at your function, your imports, and that's pretty much it. Then you just follow the graph. But the moment you add dot imports, that kind of goes out the window. You have to do a linear search across your dependencies.
+**Daniel Martí:** Yeah. And I actually think there's also -- we've talked a lot about the human element here, but I also think we should remember the tooling element, the machine element. Go is pretty well optimized to being fast to compile, but I feel like in these two cases, tools get slower, because they can take shortcuts. If names are predictable, you can predict where they're gonna be. Something like *Go to definition* could be a very simple Go program; you would just read a Go file, look at a name, "Where is the name defined?" You just look at your function, your imports, and that's pretty much it. Then you just follow the graph. But the moment you add dot imports, that kind of goes out the window. You have to do a linear search across your dependencies.
 
 I think in practice this might not affect most people, because most people don't use dot imports as such, but I feel like the mantra of Go being simple and being fast to use and compile would fit this.
 
@@ -218,7 +218,7 @@ I think in practice this might not affect most people, because most people don't
 
 **Break:** \[00:26:51.13\]
 
-**Mat Ryer:** Right, Daniel. That was the next one we should have a look at.
+**Mat Ryer:** Right, Daniel. What's the next one we should have a look at?
 
 **Daniel Martí:** So I was thinking we could open the Pandora's box that is type-inferred composite literals. This is issue number 12854.
 
@@ -244,7 +244,7 @@ So I think this is one of those where I think we'd have to do a little bit of a 
 
 I don't know how I feel about this one. There are some cases where I feel like it would still be clear enough without specifying the types... But I could see for sure other cases where that gets complicated, too.
 
-**Daniel Martí:** \[00:32:01.00\] I agree with Johnny saying that readability and maintainability is also a factor here, and not just typing... And I think Roberto's point is mostly solved by editors and go please these days... So completion; if you're too lazy to type it out, just rely on your editor to do it for you. But I think my stance in all this is that I like the overall idea to repeat types less if it's obvious enough from the local context, but I also think this proposal as is is too broad. If we have catch-all type inference for composite literals, it's gonna be abused and it is gonna hurt maintainability. So I would like to see proposals which are more narrowly-scoped to cases where pretty much everybody agrees the code is better. I actually have a couple of follow-up proposals which \[unintelligible 00:32:49.20\] which are a little bit narrowly-scoped.
+**Daniel Martí:** \[00:32:01.00\] I agree with Johnny saying that readability and maintainability is also a factor here, and not just typing... And I think Roberto's point is mostly solved by editors and go please these days... So completion; if you're too lazy to type it out, just rely on your editor to do it for you. But I think my stance in all this is that I like the overall idea to repeat types less if it's obvious enough from the local context, but I also think this proposal as is is too broad. If we have catch-all type inference for composite literals, it's gonna be abused and it is gonna hurt maintainability. So I would like to see proposals which are more narrowly-scoped to cases where pretty much everybody agrees the code is better. I actually have a couple of follow-up proposals which are newer, which are a little bit narrowly-scoped.
 
 **Mat Ryer:** Yeah, okay. Let's dig into those ones then.
 
@@ -252,7 +252,7 @@ I don't know how I feel about this one. There are some cases where I feel like i
 
 The basic idea is that you can use an expression which is a struct, but you don't say what type, and then the compiler essentially figures out what struct that fits into... But it's only for structs.
 
-**Mat Ryer:** Yes. So this one definitely looks strange in the examples... Because in the proposals, Roger has written an underscore in place of where the struct definition would previously have been. And underscores in Go to me mean like "Ignore this" or "Dismiss this." So that to me didn't stand out -- I didn't quite understand that just by glancing at it. But the principle is an interesting one, because - yeah, often you are just repeating yourself. I do it quite a lot in test code, but in other code too, where I'll just in-line have a struct that I declare, basically, and then immediately I will instantiate that, create one of them and set the fields. And I do it all in one go. And it's very repetitive... It's essentially a list of the fields with their types, and then a list of the field names with their values. Would it help with that situation? It probably wouldn't, because you have to declare the structs still somewhere, don't you?
+**Mat Ryer:** Yes. So this one definitely looks strange in the examples... Because in the proposal, Roger has written an underscore in place of where the struct definition would previously have been. And underscores in Go to me mean like "Ignore this" or "Dismiss this." So that to me didn't stand out -- I didn't quite understand that just by glancing at it. But the principle is an interesting one, because - yeah, often you are just repeating yourself. I do it quite a lot in test code, but in other code too, where I'll just in-line have a struct that I declare, basically, and then immediately I will instantiate that, create one of them and set the fields. And I do it all in one go. And it's very repetitive... It's essentially a list of the fields with their types, and then a list of the field names with their values. Would it help with that situation? It probably wouldn't, would it because you have to declare the structs still somewhere, don't you?
 
 **Johnny Boursiquot:** Part of me feels like grabbing a chunk of the previous proposal and merging it with this one. What I don't like about this one is the use of the blank identifier; that's kind of rubbing me the wrong way a little bit. I associate that with what you said, Mat, with whatever it is that I'm assigning to this thing; I don't care about it, so I discard it, GC it, whatever.
 
@@ -266,7 +266,7 @@ Here I think we could get a mix of this and the previous proposal by omitting th
 
 **Mat Ryer:** Hm... So it figures out what the struct shape and structure should be from the values that you set... Is that right?
 
-**Daniel Martí:** Yeah, so if you're using that expression in the context where you're assigning it to something that has an explicit value, then the compile would figure out "Is the shape the same? And if so, it would just work?" If the shape is different, it would fail. And if there's no specific type that you're assigning to, it would just use an anonymous struct type, just as if you had spelled it out, duplicating all the field names, and so on.
+**Daniel Martí:** Yeah, so if you're using that expression in the context where you're assigning it to something that has an explicit value, then the compiler would figure out "Is the shape the same? And if so, it would just work?" If the shape is different, it would fail. And if there's no specific type that you're assigning to, it would just use an anonymous struct type, just as if you had spelled it out, duplicating all the field names, and so on.
 
 **Mat Ryer:** Oh, so that I quite like... Because there's no other way... I mean, we're gonna get into the world of number types, like is this a float or an int, and things like this, which you have with constants anyway. You have to, in some sense, be explicit. If you want it to be a floating point, you have to put a decimal point in there. Even if it's .0, at least you're just giving a clue that that's the type. I quite like that, yeah.
 
@@ -280,7 +280,7 @@ Here I think we could get a mix of this and the previous proposal by omitting th
 
 **Mat Ryer:** Yeah, I wonder if you could just drop that underscore and just use the curly braces. It's almost like JavaScript has just JSON object notation in the language... But it's a struct, it's an anonymous struct. It doesn't have a type almost, or its type is created magically... Would that work? That's not reserved for anything else, is it? A block, I guess...?
 
-**Roberto Clapis:** It's not reserved, but what I love about Go is that it's consistent. If you have \[unintelligible 00:38:27.16\] there must be two tokens afterwards. And it's a type and a literal, if you're doing a literal expression. And I like when I read code that I can just glance over it, and I know the order in which things come in.
+**Roberto Clapis:** It's not reserved, but what I love about Go is that it's consistent. If you have *var token =* there must be two tokens afterwards. And it's a type and a literal, if you're doing a literal expression. And I like when I read code that I can just glance over it, and I know the order in which things come in.
 
 If you drop one token, it's just feeling like unbalanced or clunky, so it would require more attention... Especially if you do open brace and you go on a new line, which this proposal is using already... If you glance over the code, that would feel like an if, or a statement or something, because it doesn't have that extra token. And I like to be able to glance over the code and tokenize it.
 
@@ -342,11 +342,11 @@ If you drop one token, it's just feeling like unbalanced or clunky, so it would 
 
 **Johnny Boursiquot:** Careful... \[laughs\]
 
-**Roberto Clapis:** \[unintelligible 00:43:13.16\] is going to be there. So this one would save me two keystrokes every five years... So I'm not a big fan.
+**Roberto Clapis:** *tab-complete-it* is going to be there. So this one would save me two keystrokes every five years... So I'm not a big fan.
 
 **Johnny Boursiquot:** \[laughs\]
 
-**Daniel Martí:** I think the reason I like this proposal is because it's a very small we could take in the direction of more type elision, and we could experiment with that. And if people like it, we could take other small steps. Maybe we also do it for maps, or maybe we also do it for other very specific edge cases where we're sure that readability is not harmed.
+**Daniel Martí:** I think the reason I like this proposal is because it's a very small step we could take in the direction of more type elision, and we could experiment with that. And if people like it, we could take other small steps. Maybe we also do it for maps, or maybe we also do it for other very specific edge cases where we're sure that readability is not harmed.
 
 **Mat Ryer:** Yeah, we did talk about this in part one of this, which is still available if you want to go into your little podcast app and find part one of this... And you can hear about that. We talked about doing this kind of thing for maps.
 
@@ -388,7 +388,7 @@ So I would prefer something like that, rather than having just weird -1 access..
 
 **Johnny Boursiquot:** No problem here.
 
-**Mat Ryer:** Probs. I wanted to say probs. Like... Yeah. That's not quite the same as the minus one thing... But I don't know. Daniel, you might have to \[unintelligible 00:49:09.21\]
+**Mat Ryer:** Probs. I wanted to say probs. Like... Yeah. That's not quite the same as the minus one thing... But I don't know. Daniel, you might have to do the casting.
 
 **Johnny Boursiquot:** Yeah, break the tie.
 
@@ -426,7 +426,7 @@ So I would prefer something like that, rather than having just weird -1 access..
 
 **Johnny Boursiquot:** That's the thing with all these proposals - we don't have an objective way of measuring readability. We all have hunches... And ideally, the more experienced you are as a developer, the better those hunches get. But it's hard -- like, when I sit down to pair with a more junior developer, every time I feel like I have to rely on "Well, because it's more readable." Then in the back of my head I'm thinking "Is there a better way...?" How do I explain this? How do I transfer this bit of intuition, or wisdom. Is there a better way to actually explain this? Simply saying it's more readable, or less readable - those are all what we think, those are ideas. We don't have a way of measuring that, so... Yeah.
 
-**Roberto Clapis:** Yeah, and it also depends on where you come from. The other day I was doing a readability review on some code that was submitted, and the person, which was completely new to go, called \[unintelligible 00:54:22.02\] and I said "Well, you should give it a more meaningful name, like s, because the type started with s..." \[laughter\] And he was like "How is that more readable? Please explain to me. What are you trying to convey here?" I was like, "Okay, so... Where do I start?" It's not that easy, because for me, calling that type, which was called something like "sorted something", calling it "sr", which was that something, would have been more meaningful than calling it just "these". Because "these" requires me to go back to the function definition and see what it is, because maybe I lost context. But it was a long discussion, let's put it this way. So readability really changes depending on your background and your expectations.
+**Roberto Clapis:** Yeah, and it also depends on where you come from. The other day I was doing a readability review on some code that was submitted, and the person, which was completely new to go, called every receiver for every method *this* and I said "Well, you should give it a more meaningful name, like s, because the type started with s..." \[laughter\] And he was like "How is that more readable? Please explain to me. What are you trying to convey here?" I was like, "Okay, so... Where do I start?" It's not that easy, because for me, calling that type, which was called something like "sorted something", calling it "sr", which was that something, would have been more meaningful than calling it just "these". Because *this* requires me to go back to the function definition and see what it is, because maybe I lost context. But it was a long discussion, let's put it this way. So readability really changes depending on your background and your expectations.
 
 **Mat Ryer:** Yeah, I think there's a good lesson in that, because we can get a little bit dogmatic about things in Go, and we can be like "This is the way to do it", and we feel very strongly about that. And I'm a little bit guilty of this, because I've done talks at conferences - they're available on YouTube - where I'll show idiomatic things, and different idioms and patterns that are good... Although I always try and make the point that, you know, it should be taken in the right kind of spirit. And I think we should be a little bit more open when we consider these things. We can sometimes be a little bit closed off, like "This is the way to do it" and that's it. We should watch that, because that can be very exclusive if we go down that road.
 
@@ -648,9 +648,11 @@ And the other thing is, there is such thing as good taste, which you can't reall
 
 **Jerod Santo:** No, not for you.
 
-**Mat Ryer:** Can we have the centaur first? I'd love you as a centaur. \[laughter\] I don't splice anything for you, Mat. I'll slice things out, but I won't splice things in. Go ahead, Daniel.
+**Mat Ryer:** Can we have the centaur first? I'd love you as a centaur. \[laughter\] 
 
-**Daniel Martí:** So my unpopular opinion is gonna be the vast majority of projects, including open source, should use monorepos. For example on GitHub. I see far too many projects that have like a sprinkling of 30 repos on GitHub, and oftentimes it's unnecessary. I feel like everybody should begin with a single repo and thing very hard before splitting that up... Especially because -- it does have some advantages, like if you have some component that you think many other people are gonna want, you might wanna consider living with the downsides... But do you really think that many people are gonna use it? I don't think so... At least in general, or at least by default.
+**Jerod Santo:** I don't splice anything for you, Mat. I'll slice things out, but I won't splice things in. Go ahead, Daniel.
+
+**Daniel Martí:** So my unpopular opinion is gonna be the vast majority of projects, including open source, should use monorepos. For example on GitHub. I see far too many projects that have like a sprinkling of 30 repos on GitHub, and oftentimes it's unnecessary. I feel like everybody should begin with a single repo and think very hard before splitting that up... Especially because -- it does have some advantages, like if you have some component that you think many other people are gonna want, you might wanna consider living with the downsides... But do you really think that many people are gonna use it? I don't think so... At least in general, or at least by default.
 
 **Roberto Clapis:** I agree.
 
