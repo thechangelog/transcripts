@@ -30,7 +30,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Erik St. Martin:** It's still nothing compared to C or C++, but we have to have a reason to hate, right?
 
-**Brian Ketelsen:** When you have lightning fast compile times and they go to just fast compile times, everybody whines.
+**Brian Ketelsen:** When you have lightning fast compile times and they go down to just fast compile times, everybody whines.
 
 **Erik St. Martin:** \[laughs\] The fast isn't fast enough.
 
@@ -96,7 +96,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Travis Reeder:** Yeah, yeah.
 
-**Erik St. Martin:** I remember the first time I saw the Raft paper; I was like, "Ten papers, that's it? No, this can't be right. Or is there a paper consensus protocol?
+**Erik St. Martin:** I remember the first time I saw the Raft paper; I was like, "Ten papers, that's it? No, this can't be right for a distributed consensus protocol?
 
 **Brian Ketelsen:** This is actually the paper consensus for mortals.
 
@@ -144,7 +144,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** Oauth, actually. You can query directly against the SQLiteDB on disk, and I think you're required to do all your data changes over the HTTP API, which actually just sends DDL. So the API is a really tiny JSON wrapper for DDL.
 
-**Erik St. Martin:** So the downside is just that you can't just use a normal SQLite adapter, you kind of have to develop HTTP client to start your data, but still... It's really interesting though, because things like Raft, and etcd, and console has really enabled people to build their own distributed systems much more easily. And to Travis' point too, they build on top of RocksDB for the persistence layer and leveraged graph, and they're doing their own distributed census internally, so you can kind of make up your own databases - not that you'd suggest everybody do that, but...
+**Erik St. Martin:** So the downside is just that you can't just use a normal SQLite adapter, you kind of have to develop a HTTP client to start your data, but still... It's really interesting though, because things like Raft, and etcd, and console has really enabled people to build their own distributed systems much more easily. And to Travis' point too, they build on top of RocksDB for the persistence layer and leveraged graph, and they're doing their own distributed census internally, so you can kind of make up your own databases - not that you'd suggest everybody do that, but...
 
 **Brian Ketelsen:** Facebook did it with MongoDB. They took Mongo and stuffed Rocks underneath it, and have an extremely fast and fault-tolerant and high-performant database system. I think -- is it Charity Majors that heads that up? I can't remember, but anyway... Everybody's doing it, and it's cool.
 
@@ -174,7 +174,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Erik St. Martin:** It's code generation for Brian, and databases for Erik. \[laughter\] You should see the list of databases Brian and I have looked at over the years. Different time series databases, databases that are written on the GPU... Just all kinds of stuff.
 
-**Brian Ketelsen:** I still wanna see one of those work. There's so many hype databases right now for GPU, but I haven't seen anybody release one that actually does anything.
+**Brian Ketelsen:** I still wanna see one of those work. There's so many hyped databases right now for GPU, but I haven't seen anybody release one that actually does anything.
 
 **Erik St. Martin:** What was the one... GPUdb?
 
@@ -194,7 +194,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Erik St. Martin:** Alright... So what else do we have?
 
-**Brian Ketelsen:** So the last interesting Go project is an old one, but one that I've just started using recently, and found it to be about as awesome as a utility can be, and that's Syncthing. Their website is syncthing.net, and if you're familiar with any one of the peer-to-peer syncing tools like BitTorrent sync, it's the same sort of thing but it's an open protocol that's written in Go. From a utility perspective, it's great to just sync your documents folder between your Mac and your Linux machine, or your laptop and your desktop. I tried it -- I guess it's been two weeks now. I've been syncing my GOPATH source directory between my Mac and my Linux Box, and I have it set to like a 20-second sync repeat. So if I save a file on my Mac while I'm sitting downstairs, and give it 20 seconds, close the lid, I can come back upstairs onto the Linux Box and keep editing that same file with the changes just by opening Vim up. It's been liberating, it's pretty amazing. I didn't realize that a) the synchronization was quick enough to be able to enable that, and it had just never occurred to me that I could synchronize my GOPATH - at least the source directory of it - and not have any repercussions; it hasn't bitten me in any way. It's been really cool. You clone something into my GOPATH and next time I'm on my Linux machine it's just there. It's really cool.
+**Brian Ketelsen:** So the last interesting Go project is an old one, but one that I've just started using recently, and found it to be about as awesome as a utility can be, and that's Syncthing. Their website is syncthing.net, and if you're familiar with any one of the peer-to-peer syncing tools like BitTorrent sync, it's the same sort of thing but it's an open protocol that's written in Go. From a utility perspective, it's great to just sync your documents folder between your Mac and your Linux machine, or your laptop and your desktop. I tried it -- I guess it's been two weeks now. I've been syncing my GOPATH source directory between my Mac and my Linux Box, and I have it set to like a 20-second sync repeat. So if I save a file on my Mac while I'm sitting downstairs, and give it 20 seconds, close the lid, I can come back upstairs onto the Linux Box and keep editing that same file with the changes just by opening Vim up. It's been liberating, it's pretty amazing. I didn't realize that a) the synchronization was quick enough to be able to enable that, and it had just never occurred to me before that I could synchronize my GOPATH - at least the source directory of it - and not have any repercussions; it hasn't bitten me in any way. It's been really cool. You git clone something into my GOPATH and next time I'm on my Linux machine it's just there. It's really cool.
 
 **Carlisia Thompson:** That sounds amazing.
 
@@ -202,9 +202,9 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** It's not centralized storage, it's peer-to-peer storage, so each computer runs its own daemon, and they communicate with a centralized, distributed hash table sort of thing that helps each of the computers locate each other. But you have to have a client authorization, so nobody could just log in and grab my source directory. You have to enable each of the different clients to talk to each other. So there's a good amount of security involved in it, and there is no central storage like Dropbox. It's not quite the same as Dropbox, although you could easily use it for the same capabilities if you had two machines.
 
-**Erik St. Martin:** And it works over the LAN?
+**Erik St. Martin:** And it works over the WAN?
 
-**Brian Ketelsen:** It does, it works anywhere. I don't know what technologies they're using, but I haven't run into any net-piercing problems or anything like that. It just works.
+**Brian Ketelsen:** It does, it works anywhere. I don't know what technologies they're using, but I haven't run into any NAT-piercing problems or anything like that. It just works.
 
 **Carlisia Thompson:** I'm trying to think of the alternative way to do this as far as writing code, because I want to put a repo on Dropbox or something like that, but the alternative to this, the way you're doing this, would be to push to the central repo all the time, and then pull it on your other machine. And this is super handy.
 
@@ -258,7 +258,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Erik St. Martin:** I think he abstracted those out of that, because people had kind of similar needs. I love some of that stuff, like Viper with being able to do the subcommands, and things like that. Soo much easier when you have some command line utility that just has a crap ton of functionality, you have to hide away. It's nice to just be able to do the subcommands and Viper allows you to really organize it nicely.
 
-**Brian Ketelsen:** Yeah, those repos at github.com/spf13/cobra, /viper, /hugo, /pflag... I know them all really well.
+**Brian Ketelsen:** Yeah, those repos are at github.com/spf13/cobra, /viper, /hugo, /pflag... I know them all really well.
 
 **Carlisia Thompson:** I don't think there is anybody as prolific as Steve out there.
 
@@ -320,7 +320,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Erik St. Martin:** Ginkgo?
 
-**Brian Ketelsen:** Is it Ginkgo? Yeah, so there's a testing framework, and I think that was the inspiration for the Go DSL. It looks like a DSL, it really truly is Go code, but it uses a lot of anonymous functions to make it look like a DSL. So that's what you write, you write this DSL that describes your API, you describe your endpoints, you describe the messages that are going back and forth, and once you've done that, you write your code generator and it whips out a giant application for you. It's really nice.
+**Brian Ketelsen:** Is it Ginkgo? Yeah, so there's a testing framework, and I think that was the inspiration for the Go DSL. It looks like a DSL, it really truly is Go code, but it uses a lot of anonymous functions to make it look like a DSL. So that's what you write, you write this DSL that describes your API, you describe your endpoints, you describe the messages that are going back and forth, and once you've done that, you run your code generator and it whips out a giant application for you. It's really nice.
 
 **Carlisia Thompson:** How about tests? Does it generate tests as well?
 
@@ -338,7 +338,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** That's right. One of the first things I did after I saw goa was say "Well, if we can build an API, why can't we build the database layer, too?" So I played around with a couple different Go database access layers and finally settled on GORM, for being the one that's the least evil in terms of ORMs. So I made a...
 
-**Erik St. Martin:** How's that measure, anyway?
+**Erik St. Martin:** How's that measured anyway?
 
 **Brian Ketelsen:** It's measured in how much crazy stuff it does behind the scenes that you don't expect. As far as GORM goes, it's almost no crazy stuff. I think we've all - on this show at least - done active record in the past and been shocked by the 38 queries that happen when you make one select statement. GORM doesn't do any of that, so it's not too evil. That's good. So I created this plugin for goa called GORMA, which allows you to use that same sort of declarative API DSL to declare your models too, and then define the relationships between the models using active record style, 'has many', 'belongs to' sort of things, and then declare the relationships between the API endpoints and your models, so it will generate your entire API and the data layer with just a couple hours of thought into what it should look like.
 
@@ -354,7 +354,7 @@ Okay, so episode number three. Today we have Brian on the call, why don't you ju
 
 **Brian Ketelsen:** There you go.
 
-**Erik St. Martin:** Alright, so before we run out of show time here, let's chat with Travis here a bit. So Travis, you guys were one of the first - at least that I remember - to publicly state that you were using Go. Definitely long before many of the big guys started waving their hands with the "We are, too!" I think it was pre-1.0. It might have even been the Go Tool. You guys might have been launching with make files. \[laughter\] I'd really love to talk battle scars and kind of what made you love the language so much to adopt it that early on.
+**Erik St. Martin:** Alright, so before we run out of show time here, let's chat with Travis here a bit. So Travis, you guys were one of the first - at least that I remember - to publicly state that you were using Go. Definitely long before many of the big guys started waving their hands with the "We are, too!" I think it was pre-1.0. It might have even been before the Go Tool. You guys might have been launching with make files. \[laughter\] I'd really love to talk battle scars and kind of what made you love the language so much to adopt it that early on.
 
 **Travis Reeder:** Sure. The Go Tool did exist, I believe, when we launched, but it was pre-1.0. Our decision process was... Well, basically we were hitting a wall on Ruby, and we needed to change. I was a long-time Java programmer, so it was kind of that I really wanted to go back to Java to get more performance, or use something new, or one of these Java derivatives, like Scala...
 
@@ -380,7 +380,7 @@ We had some convincing to do, our team and our investors, because you never want
 
 **Erik St. Martin:** I think collectively, the passion that existed in community as it stood was so great though that if you dipped your toes in, you kind of got swallowed, you just got pulled into it. And I think that was some of the stuff -- we've talked about this before too, that I think the reason that we loved it so much is the language itself was so simple. You could reason about the code and then of course concurrency and performance and things like that, so that was enough to pique your interest. And then you kind of got into the golang nuts and you started interacting with all these people who just were so passionate and so eager to help anybody who also shared this interest in the language they loved, and I think it kind of pulled all of us in. I think that's why all of us... All of us here are kind of trying to do things back for the community that pulled us in. You guys are running one of the largest Go meetups.
 
-**Travis Reeder:** Yeah. Rob Pike spoke at one of our early meetups at Heroku's product three or four years ago, and he said surprisingly that most of the people that were using Go were from Ruby and Python and JavaScript. They were expecting people to switch from C and C++ to make their lives easier, but it turns out there's a lot of these scripting languages where people wanted more performance. But they had this compiled systems language that wrote sort of like the scripting languages.
+**Travis Reeder:** Yeah. Rob Pike spoke at one of our early meetups at Heroku's product three or four years ago, and he said surprisingly that most of the people that were using Go were from Ruby and Python and JavaScript. They were expecting people to switch from C and C++ to make their lives easier, but it turns out there's a lot of these scripting languages where people wanted more performance. But they had this compiled systems language that wrote sort of like those scripting languages.
 
 **Erik St. Martin:** Yeah, I don't think they predicted that at all. It definitely pulled a lot of people in. People who wanted to do systems programming that felt like maybe it was unapproachable because they've seen C, they've seen C++, they've seen maybe some assembly and it just seemed beyond their reach. Then there were people who used these scripting languages because it felt more productive and they didn't wanna do things in C and C++, and now they had something that they could get the performance without the productivity losses of doing things in C and C++. That may be unfair to say for the productivity losses; I'm sure there's people who were plenty productive with those languages.
 
@@ -440,13 +440,13 @@ We had some convincing to do, our team and our investors, because you never want
 
 **Brian Ketelsen:** I think it's part of the Go mindset.
 
-**Travis Reeder:** Yeah. I was just gonna say that. I think people choose Go because -- well, a lot of it is because performance, so I think the libraries have to kind of follow suit.
+**Travis Reeder:** Yeah. I was just gonna say that. I think people choose Go because -- well, a lot of it is because of performance, so I think the libraries have to kind of follow suit.
 
 **Erik St. Martin:** Yeah, that's true, too. If you're going to choose it for performance, you might wanna actually pay attention to the fact of whether or not you're doing it in a performant manner.
 
 **Travis Reeder:** Yeah.
 
-**Brian Ketelsen:** That reminds me of my first attempt to make an addition to the Go language, to fix a bug in Go proper. I think it was in coding somewhere, like maybe base64 encoding. I solved the problem, fixed the bug, wrote a test, all of that, and I submitted the CL, and I got back a comment immediately, "This absolutely solves the problem. I need you to refactor it to get rid of the three allocations you added." And I stared at my email for a good five or ten minutes, wondering what I did to add allocations and how in the world I was gonna get rid of them, because I didn't know. I came from Ruby, I didn't care about allocations. I still honestly don't care about allocations generally, but I didn't know what to do. I grabbed Erik, "Erik, what do I do?" \[laughter\]
+**Brian Ketelsen:** That reminds me of my first attempt to make an addition to the Go language, to fix a bug in Go proper. I think it was in encoding somewhere, like maybe base64 encoding. I solved the problem, fixed the bug, wrote a test, all of that, and I submitted the CL, and I got back a comment immediately, "This absolutely solves the problem. I need you to refactor it to get rid of the three allocations you added." And I stared at my email for a good five or ten minutes, wondering what I did to add allocations and how in the world I was gonna get rid of them, because I didn't know. I came from Ruby, I didn't care about allocations. I still honestly don't care about allocations generally, but I didn't know what to do. I grabbed Erik, "Erik, what do I do?" \[laughter\]
 
 **Erik St. Martin:** It's funny though, because I look at code and I see some of the allocations that are obvious, but other people, they just totally outshine you. They look at something really quick and they're like, "There's five allocations there." You're like, "What?" How did you know that just by looking at it for a second? I have to go through and count: "Yup, that would be an allocation, and that one would be one..."
 
@@ -454,7 +454,7 @@ We had some convincing to do, our team and our investors, because you never want
 
 **Erik St. Martin:** That's awesome.
 
-**Carlisia Thompson:** I'm gonna have to end this call and go look up how allocations are done, how to recognize them and how to solve them. I still don't know what you guys are talking about...
+**Carlisia Thompson:** I'm gonna have to end this call and go look up how allocations are done in Go, how to recognize them and how to solve them. I still don't know what you guys are talking about...
 
 **Erik St. Martin:** So actually there was a talk by Björn Rabenstein recently from the Prometheus team. He did a talk we'll link in the show notes, and I believe some of that he walks through the allocations, and you can actually see the change... So that might be a good look at it.
 
@@ -504,7 +504,7 @@ Speaking of taking on things new, two questions I wanted to ask: one is hiring -
 
 **Travis Reeder:** Yeah, and it allowed our customers to run and test their code on the exact same environment that it would be running after they uploaded it. That was our initial thing into Docker; we said, "Okay, well now you have Docker, you can test your code before, to fully test it. You could test it locally and hope that it worked the same way after you uploaded it, but to really test it you had to upload it, queue up a job and see the results of that job and make sure it worked okay, which is slow and cumbersome.
 
-And then all of a sudden, okay, now they can run in the exact same environment that they're gonna be running on after it's uploaded. But you'd still upload your code. Then more recently we've just said we'll just run any image, so you can create your own image from the ground up, whereas before we had a bunch of different language images that we could use as a base. Now you can use whatever you want, we'll just run any image. So it's kind of in a progression.
+And then all of a sudden, okay, now they can run in the exact same environment that they're gonna be running on after it's uploaded. But you'd still upload your code. Then more recently we've just said we'll just run any image, so you can create your own image from the ground up, whereas before we had a bunch of different language images that we said you could use as a base. Now you can use whatever you want, we'll just run any image. So it's kind of in a progression.
 
 **Brian Ketelsen:** So how do you support the any-image plan? Are you piping in and out of standard-in/standard-out? What's the stick behind that one?
 
