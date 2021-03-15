@@ -1,6 +1,6 @@
 **Erik St. Martin:** It's Go Time! A weekly podcast where we discuss interesting topics around the Go programming language, the community and everything in between. If you currently write Go or aspire to, this is the show for you.
 
-Welcome back for another episode of Go Time. This is episode number four. Today we'll be talking about Gopher data science and other interesting news and projects we've come across this week. I'm Erik St. Martin and with me is always our other amazing hosts, Brian Ketlesen - say hello, Brian.
+Welcome back for another episode of Go Time. This is episode number four. Today we'll be talking about Gopher data science and other interesting news and projects we've come across this week. I'm Erik St. Martin and with me is always our other amazing hosts, Brian Ketelsen - say hello, Brian.
 
 **Brian Ketelsen:** Hello!
 
@@ -54,9 +54,9 @@ Welcome back for another episode of Go Time. This is episode number four. Today 
 
 **Brian Ketelsen:** I don't know... If you didn't have impostor syndrome before, imagine Brad and Andrew tearing up your code. They're both great guys, so don't get me wrong, but that is a tough crowd to please.
 
-**Erik St. Martin:** I don't know, I think that it would just make my own thoughts of myself come to light. I'd be like, "I knew it. See? I knew I was a terrible coder." \[laughter\]
+**Erik St. Martin:** I don't know, I think that it would just make my own thoughts of myself come to light. I'd be like, "I knew it. See?" \[laughter\]
 
-**Brian Ketelsen:** Yeah... GoTimeFM, where we talk about our impostor syndrome for an hour. \[laughter\] There's another big news item this week, and that was Peter Bourgon's article, his update of his Go Best Practices talk from 2014. He updated that to 2016, and there's a lot of really good takeaways in there; I don't think we have time on the show to cover them all, but some really good tips in there about dependency management, about testing, how to structure your library, what to name your packages - you name it, it's covered really nicely in there. Like I said on Twitter, I think this is really a cannon. Every Go developer should read this and try to internalize all of these rules, because they're really good stuff.
+**Brian Ketelsen:** I knew I was a terrible coder. Yeah... GoTimeFM, where we talk about our impostor syndrome for an hour. \[laughter\] There's another big news item this week, and that was Peter Bourgon's article, his update of his Go Best Practices talk from 2014. He updated that to 2016, and there's a lot of really good takeaways in there; I don't think we have time on the show to cover them all, but some really good tips in there about dependency management, about testing, how to structure your library, what to name your packages - you name it, it's covered really nicely in there. Like I said on Twitter, I think this is really a cannon. Every Go developer should read this and try to internalize all of these rules, because they're really good stuff.
 
 **Daniel Whitenack:** Yeah, I think it's gonna take a while for me to unpack, but I think it's one of those things... You know, I have a bookmark that I'm gonna visit every week, and as I'm implementing different things, I think referencing that and just seeing if I'm doing things in a sane way is gonna be great.
 
@@ -64,7 +64,7 @@ Welcome back for another episode of Go Time. This is episode number four. Today 
 
 **Brian Ketelsen:** Yeah, something this big takes a long time to internalize all of it. I would love to take this article, mix it with Dave Cheney's error-handling article from a week or two ago, and just put it under my pillow and sleep on it every night, hoping that I could absorb all of that at once. That's be great.
 
-**Carlisia Thompson:** I'm holding myself back, as I don't wanna be such a big fan girl, but for people new to the community and to GO, Peter is definitely somebody to absorb. I would say Peter and Dave Cheney are at the top of my list as far as best practices and things I think are best to follow.
+**Carlisia Thompson:** I'm holding myself back, as I don't wanna be such a big fan girl, but for people new to the community and to Go, Peter is definitely somebody to absorb. I would say Peter and Dave Cheney are at the top of my list as far as best practices and things I think are best to follow.
 
 **Daniel Whitenack:** Yeah, I would agree, and I think coming into Go not too long ago, of course you search around different Stack Overflow responses and whatever, and you can really get a mixed bag of ideas about - like Erik said - about error handling or what have you. But going to these resources, I found, gives some clarity on that mixed bag that you find across the interweb.
 
@@ -74,7 +74,7 @@ Welcome back for another episode of Go Time. This is episode number four. Today 
 
 **Carlisia Thompson:** Who needs consensus?
 
-**Daniel Whitenack:** Nobody needs consensus, good point.
+**Brian Ketelsen:** Nobody needs consensus, good point.
 
 **Erik St. Martin:** Alright, moving on - interesting Go projects. And speaking on sleeping and downloading information, Brian, with your nightly download of cool projects.
 
@@ -100,11 +100,11 @@ And then I also came across this microlibrary which is a Go library. It's a Micr
 
 **Carlisia Thompson:** Yeah, exactly. I'm glad you brought that up, because I wanted to mention it and I forgot - what I saw on this video was not at all notifications. Because yeah, we get notifications, we get these hiccups to get there. This was more about having the extra features. For example, querying something and getting the response from different services across your services; it's more like you're in command and you query, and you're asking for information. And maybe somebody else is there as well, and you can share the information, as opposed to being just a passive consumer, just like being dumped information. I thought that was extremely cool.
 
-**Brian Ketelsen:** Yeah, I think from a framework perspective, Micro is probably the most interesting in the Go world that's come out in 2016.
+**Brian Ketelsen:** Yeah, I think from a framework perspective, Micro is probably the most interesting thing in the Go world that's come out in 2016.
 
 **Erik St. Martin:** That's bold.
 
-**Brian Ketelsen:** It is bold, but I called Rails, I called Go, I called Docker - you're gonna have to trust me on this one. Micro is big. And it's big because it offers a much broader view of Micro services. It's not just a set of tools to help you make Micro services, it's a whole ecosystem. And I think that's important, because making Micro services on their own is not as important as deploying and managing, operating, and consuming those Micro services. So having that big framework, that whole ecosystem of tools I think will make Micro services more accessible to everyone, and certainly more manageable. The ChatOps is a great side of it, but it just goes to show the power of Go's interface, because it's the same interface that you can use to interact with it by protobuf or by a web page. You can take the same Micro service in the Micro framework and interact with it from the command line, you can interact with it from a web page, you can interact with it from Slack, and it's all using that same interface. I think there's a lot of power behind this, and you need to star it in GitHub, because this one's going places. And he's hiring, I saw a tweet this morning - Asim Aslam is the guy who's running Micro right now, and he's looking for people.
+**Brian Ketelsen:** It is bold, but I called Rails, I called Go, I called Docker - you're gonna have to trust me on this one. Micro is big. And it's big because it offers a much broader view of Micro services. It's not just a set of tools to help you make Micro services, it's a whole ecosystem. And I think that's important, because making Micro services on their own is not as important as deploying and managing, operating, and consuming those Micro services. So having that big framework, that whole ecosystem of tools I think will make Micro services more accessible to everyone, and certainly more manageable. The ChatOps is a great side of it, but it just goes to show the power of Go's interfaces, because it's the same interface that you can use to interact with it by protobuf or by a web page. You can take the same Micro service in the Micro framework and interact with it from the command line, you can interact with it from a web page, you can interact with it from Slack, and it's all using that same interface. I think there's a lot of power behind this, and you need to star it in GitHub, because this one's going places. And he's hiring, I saw a tweet this morning - Asim Aslam is the guy who's running Micro right now, and he's looking for people.
 
 **Erik St. Martin:** Awesome, I'm interested to see what comes out with it.
 
@@ -138,9 +138,9 @@ One thing that I came across this week was a project called UNIK, which is spell
 
 **Erik St. Martin:** Or the interns
 
-**Brian Ketelsen:** That's right. Maybe you can start - for all of us, can you give us kind of a background of a primer? What is data science? Where does it fit? What are the things that are data science and what are the things that aren't data science?
+**Brian Ketelsen:** That's right. Maybe you can start - for all of us, can you give us kind of a background? A primer? What is data science? Where does it fit? What are the things that are data science and what are the things that aren't data science?
 
-**Daniel Whitenack:** Yeah, I think that's definitely a good place to start, because depending on who you'll ask, you'll get very different answers. I think one useful differentiator that I like to keep in mind is what is \#datascience and what are people talking about when they say 'data science' on Twitter, and then what are data scientists, those employed as data scientists actually doing in the industry. So I think in the first case what people are talking about a lot are things like AlphaGo beating the go Grandmaster... If you're not familiar, AlphaGo is a deep neural network trained by Google. They basically train these neural networks such that it could beat the grandmaster go champion - Go being the boardgame, not the programming language. I think this is really amazing. This is a huge achievement and should be talked about a lot.
+**Daniel Whitenack:** Yeah, I think that's definitely a good place to start, because depending on who you'll ask, you'll get very different answers. I think one useful differentiator that I like to keep in mind is what is \#datascience and what are people talking about when they say 'data science' on Twitter, and then what are data scientists, those employed as data scientists actually doing in the industry. So I think in the first case what people are talking about a lot are things like AlphaGo beating the Go Grandmaster... If you're not familiar, AlphaGo is a deep neural network trained by Google. They basically train these neural networks such that it could beat the grandmaster Go champion - Go being the boardgame, not the programming language. I think this is really amazing. This is a huge achievement and should be talked about a lot.
 
 On the other side of things, you look at what do most of the data scientists employed in the industry do? There was an interesting article recently in Forbes that actually pulled a bunch of data scientists and found out what they spend their time doing. Actually a lot of it, 90% of it was gathering data sets, collecting data sets, parsing data and extracting patterns from data. So about 90% of what data scientists do doesn't necessarily involve some nifty machine learning, but more of the process of moving data around, transforming it and extracting patterns to make it useful. Then that other last 10% could be various things. So a little sliver of that is doing kind of interesting machine learning techniques; maybe another sliver of that is making dashboards or visualizations, and then various other tasks. So I would say in general for me data science is the process of transforming data - wherever that might be - into insights for your business. Sometimes that might require a neural network, but pretty much always it requires some problem-solving and some ETL, and maybe some arithmetic. I think those are kind of the pillars of data science.
 
@@ -160,7 +160,7 @@ Then it goes from that kind of lowest level all the way to the directly applicab
 
 **Brian Ketelsen:** Nice. Was there any open source component to that? Have they released any of that yet?
 
-**Daniel Whitenack:** As far as I know not. I mean, hopefully they will, given the trends we've been seeing. Hopefully at some point they're able to release the database or the frontend. Right now I think - at least the last I saw - most of it was still internal. But they did give a pretty good discussion of their logic around how they're modelling things and how they're hoping to keep improving the system over time. It's definitely an interesting talk to see. I'm not sure if the video is up online, I know the slides are.
+**Daniel Whitenack:** As far as I know not. I mean, hopefully they will, given the trends we've been seeing lately. Hopefully at some point they're able to release the database or the frontend or whatever. Right now I think - at least the last I saw - most of it was still internal. But they did give a pretty good discussion of their logic around how they're modelling things and how they're hoping to keep improving the system over time. It's definitely an interesting talk to see. I'm not sure if the video is up online, I know the slides are.
 
 **Brian Ketelsen:** Alright, we'll put those in the show notes, for sure.
 
@@ -170,15 +170,15 @@ Then it goes from that kind of lowest level all the way to the directly applicab
 
 Then recently, at that same conference where they discussed the Uber alerting stuff, I was seeing definitely much more of an attitude in the community about... Well, a question was posed, "What language should I learn?" and I think they were expecting to hear R or Python, but the answer that the speaker gave - who happened to be Josh Wills from Slack... He basically said, "Learn them all, because every week I use Python, I use JavaScript", and he mentioned Go as well. I think and I hope that the community is kind of opening up to see that each of these languages has unique capabilities and unique use cases, and the hope is that we don't kind of morph all of these languages together as all kind of doing the same thing, but we utilize them where they're particularly useful, and utilize their unique features. Then of course there's a whole suite of tools around "big data technologies", like Apache Spark and Hadoop. These are mostly kind of Java Scala applications. But even then, a year ago or something, there was a lot on that side of things, there was Java Scala, and now you're seeing a kind of broader range. There's things like looking at InfluxDB or the time series database that Uber worked on, or even things like Pachyderm, which is an interesting project - these are big data frameworks that are not Java Scala based, and utilizing technologies like Go and Docker. So I think there is a shift going on right now in the community; I don't know if you guys have seen any of that as well.
 
-**Brian Ketelsen:** I think Pachyderm is probably one of the more interesting things I've seen in a while, because it almost takes that "You can do everything on your laptop" philosophy with awk and sed and moves it into the Docker world. So instead of piping UNIX commands together, you're just piping Docker containers together, and that makes an interesting big data workflow, especially when you add something like Mesos or Kubernetes into the mix, where you've got large orchestrations of big data happening. It sounds really interesting.
+**Brian Ketelsen:** I think Pachyderm is probably one of the more interesting things I've seen in a while, because it almost takes that "You can do everything on your laptop" philosophy with awk and sed and moves it into the Docker world. So instead of piping UNIX commands together, you're just piping Docker containers together, and that makes an interesting big data workflow, especially when you add something like Mesos or Kubernetes into the mix, where you've got large orchestrations of big data things happening. It sounds really interesting.
 
 **Erik St. Martin:** Yeah, I've seen a few projects over the years where people have started trying to do text parsing and some probabilistic stuff in Go... But what was that project we ran across...? We were kind of researching the show and it was just astonishing how big that page was.
 
 **Carlisia Thompson:** Oh, yeah...
 
-**Brian Ketelsen:** Oh, I know what you're talking about - the golang data library page. It's at mjhall.org/golang-data-science-libraries. It's a huge page full of data science libraries in Go and we all just kind of stopped and said, "Wow! There's 500 lengths on this page." I was thinking there were two or three data libraries for Go, but no, there's a lot.
+**Brian Ketelsen:** Oh, I know what you're talking about - the golang data library page. It's at mjhall.org/golang-data-science-libraries. It's a huge page full of data science libraries in Go and we all just kind of stopped and said, "Wow! There's 500 links on this page." I was thinking there were two or three data libraries for Go, but no, there's a lot.
 
-**Daniel Whitenack:** Yeah, and something I've seen is... Even still you talk to a lot of data people and they talk about Python or R, and you hear about people working in those languages, but the newer companies that I've interacted with or contracted with, they are adopting Go and other modern languages more readily, and they're not abandoning that strategy for data science; they're also using those languages for data science. Maybe no one's kind of rallying around a certain small subset of tools like they are in Python. Pretty much the data science community has rallied around Pandas and CyPi and NumPy and these other tools. Maybe that hasn't gone on in Go yet, but there are, like you said - if you look into it, there are a lot of libraries that will allow you to do generally what you want to do, and maybe with a little bit more investigation and a little bit of custom package building on your end, but generally there's nothing preventing from doing those same things in Go.
+**Daniel Whitenack:** Yeah, and something I've seen is... Even still you talk to a lot of data people and they talk about Python or R, and you hear about people working in those languages, but the newer companies that I've interacted with or contracted with, they are adopting Go and other modern languages more readily, and they're not abandoning that strategy for data science; they're also using those languages for data science. Maybe no one's kind of rallying around a certain small subset of tools like they are in Python. Pretty much the data science community has rallied around Pandas and SciPy and NumPy and these other tools. Maybe that hasn't gone on in Go yet, but there are, like you said - if you look into it, there are a lot of libraries that will allow you to do generally what you want to do, and maybe with a little bit more investigation and a little bit of custom package building on your end, but generally there's nothing preventing you from doing those same things in Go.
 
 **Erik St. Martin:** Are there any specific Go packages or frameworks that you're currently using?
 
@@ -190,7 +190,7 @@ For example, I recently did a k nearest neighbours sort of thing. In the spirit 
 
 **Brian Ketelsen:** We did a project recently, last year, where I needed to do some data processing, and I found it really easy to take Python libraries and port them over to Go for data science type things. I can't remember what I needed to do, it was one of those numeric-type things, but it really was not difficult at all, and very performant.
 
-**Daniel Whitenack:** Yeah, and I think part of the mindset of like... In Go sometimes it's easier... Something I've seen - maybe you guys can comment on this - is doing... In Go sometimes it's just faster to write a for loop than it is to import a certain package to do some relatively simple thing. And I think it applies similarly in the context that you just described. Maybe there's' not this very specific thing in Go that you want, but you can steal a little bit by porting over from this Python package that describes what they did, and you can utilize some of the things from Gonum maybe, and you can piece it together really quickly, and out of that you get something that's very performant, and something that you can put into the context of asynchronous communication and all of that that Go handles so well.
+**Daniel Whitenack:** Yeah, and I think part of the mindset of like... In Go sometimes it's easier... Something I've seen - maybe you guys can comment on this - is doing... In Go sometimes it's just faster to write a for loop than it is to import a certain package to do some relatively simple thing. And I think it applies similarly in the context that you just described. Maybe there's not this very specific thing in Go that you want, but you can steal a little bit by porting over from this Python package that describes what they did, and you can utilize some of the things from Gonum maybe, and you can piece it together really quickly, and out of that you get something that's very performant, and something that you can put into the context of asynchronous communication and all of that that Go handles so well.
 
 **Brian Ketelsen:** Right.
 
@@ -210,7 +210,7 @@ Then a lot of what I've learned has been trial and error; importing this package
 
 Then of course there is the list of things that have already been done in Go, like InfluxDB and Pachyderm and most sorts of things. Generally there is Getting Started sections to those projects. In Pachyderm they have a great Getting Started example where they do word count with simple grep and awk commands. That's kind of a fun way to get started in doing data science in that way.
 
-**Carlisia Thompson:** Daniel, we should be surprised that you're going to talk about Go in data science at the upcoming GopherCon, but can you give us a little teaser about the talk? Who should be looking forward to being there and seeing that talk?
+**Carlisia Thompson:** Daniel, we shouldn't be surprised that you're going to talk about Go And Data Science at the upcoming GopherCon, but can you give us a little teaser about the talk? Who should be looking forward to being there and seeing that talk?
 
 **Daniel Whitenack:** Sure, sure. So it's still in the works, but the teaser I'll give is that from start to finish basically I'm gonna do data science, and do it hopefully in a distributed way, all with Go. So starting out saying like "This is a problem we wanna solve. We're gonna explore the data with Go tools, and then once we know what we're gonna do, we're gonna implement something simple in Go that will do that" and then we can think about how will that scale, and we'll use a Go tool, maybe Pachyderm or something like that to scale that up and illustrate how you can go through that whole data science process using nothing but Go.
 
@@ -232,7 +232,7 @@ Then also I'll definitely provide some call-to-action to the audience to start d
 
 **Carlisia Thompson:** Very cool.
 
-**Erik St. Martin:** So speaking of Go notebook, there's the Jupyter, right? And there's now a Go library for that.
+**Erik St. Martin:** So speaking of Go notebook, there's the Jupyter, right? And there's now a Go library for that?
 
 **Daniel Whitenack:** Yes, so there's a working kernel for Jupyter, it's called Gopher Notes. I started this back in, I guess it was January. It's functional now, so you can use it to make Go notebooks. There's definitely open issues and things to work on, so this is one of those things that I think hopefully some people find useful right now, but it's also a great place for people to get involved and knock out some of those issues and get plotting enabled in the notebook. I'm hoping, like I said, that this project will kind of help ease people into Gopher data science. Also, I think there is a part of data science that is very interactive - you wanna explore the data, you wanna see what it looks like, you wanna plot a histogram, and a lot of that is interactive, so bringing some of that interactivity to this world would be fun.
 
@@ -256,7 +256,9 @@ Then also I'll definitely provide some call-to-action to the audience to start d
 
 **Carlisia Thompson:** I'm going to mention Jupyter Notebook and the Go kernel. Daniel did a great job describing Jupyter Notebook, but I still wanna mention it because it is not just for data science, and I'm gonna tell you why. I came across this commercial tool that is a notebook, and my mind was blown. This is the tool that I looked for all my life, and it's what I use now to take notes. Just like Jupyter, it has cells. You can have code cells or markdown cells or tech cells - it's been the most amazing thing. And I keep telling my husband - he's a data scientist - "You have to try it, this is the most amazing thing!" Two weeks go by and I'm telling him, "You gotta try it, you gotta try it", he finally comes over and looks at it, and he's like "Huh, I have this. But it's free, open source, and it's called Jupyter." I'm like, "That's what Jupyter is!?" Because I ran across Jupyter when I ran across the Go kernel that Daniel did for Gopher Gala, when I was browsing Gopher Gala submissions. Then I went and looked at Jupyter, and I was like "I don't understand what this is. It's not for me, and I'm not willing to spend the time." So I find this tool and then I'm like, "Oh, that's what it is!" So actually last night spent time setting up Jupyter and hooking up the Go kernel to it, and it is super amazing. It's not just for data science - you can keep your notes, you can run code... I have ideas to put together Go courses, and I would totally use Jupyter for that, because everything is self-contained, it can have different sections, I can run the code right there, you can do a presentation... Just like Daniel was saying, you can export it and when you host it on GitHub you see the whole thing formatted; it's not interactive, but the whole formatting is there and it looks beautiful. It's great.
 
-**Erik St. Martin:** I'm sold. I kind of wanna look at it just for normal note taking.
+**Brian Ketelsen:** I'm sold.
+
+**Erik St. Martin:** I kind of wanna look at it just for normal note taking.
 
 **Daniel Whitenack:** Yeah, and thanks to Carlisia for going through the setup and giving me feedback on the different issues as well. I definitely appreciate it and I'm glad people are starting to use it.
 
@@ -270,7 +272,7 @@ Then also I'll definitely provide some call-to-action to the audience to start d
 
 **Carlisia Thompson:** Setting expectations...
 
-**Erik St. Martin:** We also like to ask our guests if there's anybody they kind of wanna thank, any projects they'd like to bring highlights to...
+**Erik St. Martin:** We also like to ask our guests too if there's anybody they kind of wanna thank, any projects they'd like to bring highlights to...
 
 **Daniel Whitenack:** Yeah, I wanted to mention Vim Go because I've started using it recently. I know a lot of people use it out there, but I'm kind of a recent convert. I've just found it amazing, and I think it's... Once I kind of got in the process of using it and writing Go with Vim Go, I think it's improved my development process quite a bit, and that's really the one I would like to thank. I think his name is Fatih Arslan. I'm definitely thankful to that; I think it's super powerful and it can improve your workflow. Previously I was using Atom, and now I've pretty much just been using Vim Go recently and I think it's a great project.
 
@@ -296,7 +298,7 @@ Then also I'll definitely provide some call-to-action to the audience to start d
 
 **Daniel Whitenack:** It's been a lot of fun!
 
-**Erik St. Martin:** Yeah, this has been great, and I'm looking forward to your talk at GohperCon as well. And for anybody who wants to hear more from Daniel, you should attend his talk at GopherCon.
+**Erik St. Martin:** Yeah, this has been great, and I'm looking forward to your talk at GopherCon as well. And for anybody who wants to hear more from Daniel, you should attend his talk at GopherCon.
 
 **Daniel Whitenack:** Yeah, and I'll be around and be happy to talk about Go and data science throughout the conference, so hit me up.
 
