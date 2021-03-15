@@ -1,6 +1,6 @@
 **Erik St. Martin:** It's Go Time! A weekly podcast where we discuss interesting topics around the Go programming language, the community and everything in between. If you currently write Go or aspire to, this is the show for you.
 
-Alright everybody, welcome back for another episode of Go Time. This is episode number five. Today we have Brian Ketlesen here, say hello Brian.
+Alright everybody, welcome back for another episode of Go Time. This is episode number five. Today we have Brian Ketelsen here, say hello Brian.
 
 **Brian Ketelsen:** I'm not here though, I'm in San Francisco this week. Hello!
 
@@ -76,7 +76,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Brian Ketelsen:** Yeah, so all you library developers out there, if you're not putting context as the first parameter of your public functions, now is a great time to start doing that, please. I wanted to say please, I don't wanna sound too bossy. I can come across that way sometimes.
 
-**Carlisia Thompson:** And from the little experience that I have with Go, I see a lot of times when people use other network packages just so they can get the context, and I would even do that, because I don't wanna do that stuff by hand. But now that it's in the standard library, I wonder how it's going to impact the usage of the external libraries. Or if people are just gonna have to keep adding more features to make it more attractive for people to use them.
+**Carlisia Thompson:** And from the little experience that I have with Go, I see a lot of times when people use other network packages just so they can get the context, and I would even do that, because I don't wanna do that stuff by hand. But now that it's in the standard library, I wonder how it's going to impact the usage of the external libraries. Or if people are just gonna have to keep ahead, keep adding more features to make it more attractive for people to use them.
 
 **Erik St. Martin:** But is it really a competition, though? I think at the end of the day it's about writing good quality software, that's readable, and I think that by having external libraries that people really like - and we kind of get consensus on these patterns - I think it's okay to pull that stuff in. Because not everybody's gonna be aware of these things, despite how much visibility we think they have, or as people find stuff in the standard library - that's generally where people look first, so I think it's a hard debate. We're kind of pulling away users from some standard library, but I think that the library owners are probably glad to see it there. I think it will get more love in the standard library, too.
 
@@ -86,7 +86,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Brian Ketelsen:** Yeah, Gorilla has its own context, and every other mux on the planet has its own context; I'm really excited about them not having their own contexts. I hope that they all converge to use the standard library context.
 
-**Erik St. Martin:** That's actually really interesting, I hadn't even considered that. I mean, I've used the Gorilla mux in the past couple years, but I don't think I've used anything else from the Gorilla stuff in a while. So that will actually be really interesting to see how that's adapted to this.
+**Erik St. Martin:** That's actually really interesting, I hadn't even considered that. I mean, I've used the Gorilla mux in the past couple of years, but I don't think I've used anything else from the Gorilla stuff in a while. So that will actually be really interesting to see how that's adapted to this.
 
 **Sarah Adams:** Yeah, and I think the Gorilla mux even imports its own Gorilla context, within the mux package. So it will be interesting to see if they go forward with the Go standard library context.
 
@@ -98,13 +98,13 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Brian Ketelsen:** This is interesting, because we've talked about the blog post that this originated from in our last episode, the CloudFlare blog post about creating the simplest possible SSA tools. Vendor check was an extension of that, and it's nice that it's getting some very usable features; it will be good to get that vendor directory pruned as needed.
 
-**Carlisia Thompson:** It's also almost like vendor check should be side by side with fmt.
+**Carlisia Thompson:** It sounds to me almost like vendor check should be side by side with fmt.
 
 **Sarah Adams:** Yeah, and go imports.
 
 **Brian Ketelsen:** Yeah, it's definitely a must-have tool.
 
-**Erik St. Martin:** Yeah, and I think that the vendor stuff is probably early for that stuff to kind of get pulled in, at least adopted the Go team, right? Because it's only been recently that there's been this agreement that maybe the Go tooling should handle vendoring more, so it will be interesting to see how much they think should be pulled in. But I imagine we'll start seeing tools like Vim-Go and all that jazz incorporating in this, in something like the meta tooling.
+**Erik St. Martin:** Yeah, and I think that the vendor stuff is probably early for that stuff to kind of get pulled in, at least adopted by the Go team, right? Because it's only been recently that there's been this agreement that maybe the Go tooling should handle vendoring more, so it will be interesting to see how much they think should be pulled in. But I imagine we'll start seeing tools like Vim-Go and all that jazz incorporating in this, in something like the meta tooling.
 
 **Carlisia Thompson:** Exactly.
 
@@ -116,7 +116,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Erik St. Martin:** And strong opinions in general. I know that they're wanting to do kind of a collaborative session with big Go users and kind of seeing what pain points are there and how people feel that the Go team can ease those pains, and make it easier to adopt and use Go.
 
-**Carlisia Thompson:** And on that topic, there is an issue opened on the Go repo where they just pull in everybody's opinion into one place - at least they put links to things, and there's probably good to read through if you are going to go to this event and discuss, so we have all the information...
+**Carlisia Thompson:** And on that topic, there is an issue opened on the Go repo where they just pull in everybody's opinion into one place - at least they put links to things, and there's probably something good to read through if you are going to go to this event and discuss, so we have all the information...
 
 **Brian Ketelsen:** It's a really long issue.
 
@@ -142,7 +142,7 @@ Alright everybody, welcome back for another episode of Go Time. This is episode 
 
 **Brian Ketelsen:** Heka is a stream processing tool that you can use to take inputs and process them and munge them and do strange things with them and send them back out to other places. One of the most common use cases would be log aggregating and management; it's significantly more complicated than that, but that's probably the best use case for it - moving logs from here to there.
 
-**Erik St. Martin:** Yeah, it's basically like a pipeline, and there's different inputs you can swap out - collectors and emitters and things like that, so you can take inputs from various types of systems, and you can output to various types of systems. There was a really interesting project, and he presented it at GopherCon 2014. By all accounts, it seems like people are using it, but I think he's been primarily the core maintainer of it, and they're using something else internally at Mozilla, and he hasn't had the time, and he's going to continue to have less time. So I think that that's probably going to be -- I don't know whether 'deprecated' is the right word for it...
+**Erik St. Martin:** Yeah, it's basically like a pipeline, and there's different inputs you can swap out - collectors and emitters and things like that, so you can take inputs from various different types of systems, and you can output to various types of systems. There was a really interesting project, and he presented it at GopherCon 2014. By all accounts, it seems like people are using it, but I think he's been primarily the core maintainer of it, and they're using something else internally at Mozilla, and he hasn't had the time, and he's going to continue to have less time. So I think that that's probably going to be -- I don't know whether 'deprecated' is the right word for it...
 
 **Brian Ketelsen:** Discontinued Mozilla support perhaps, or Mozilla sponsorship.
 
@@ -280,7 +280,7 @@ Those smaller changes started to add up a lot, and so my documentation was often
 
 **Erik St. Martin:** Does this support header logic, too?
 
-**Brian Ketelsen:** Yeah, all your headers are logged also to the same buffer, and they're in the appropriate format for the API blueprint.
+**Sarah Adams:** Yeah, all your headers are logged also to the same buffer, and they're in the appropriate format for the API blueprint.
 
 **Erik St. Martin:** That's really awesome, I kind of wanna play with this.
 
@@ -288,13 +288,13 @@ Those smaller changes started to add up a lot, and so my documentation was often
 
 **Erik St. Martin:** And is there a way to augment the documentation, so things that aren't necessarily captured by monitoring the requests and responses, things that you might wanna take notes on, like what appropriate values are, or things like that?
 
-**Sarah Adams:** Yeah, so for each package, a API BEE file is spit out, and what you actually need to do is have sort of a -- I call it a template, but it's really just the description of your API and sort of high-level things like that. Those go at the top of the API BEE file. Once all of your tests have run, you'll get back one API BEE file per package, so you need to combine them. During that step, you can actually insert... For my current company we have a list of all of our errors and error codes at the top of our documentation file, so that's generated right before we append all the API BEE files. So yeah, it's totally flexible.
+**Sarah Adams:** Yeah, so for each package, an .apib is spit out, and what you actually need to do is have sort of a -- I call it a template, but it's really just the description of your API and sort of high-level things like that. Those go at the top of the .apib file. Once all of your tests have run, you'll get back one .apib file per package, so you need to combine them. During that step, you can actually insert... For my current company we have a list of all of our errors and error codes at the top of our documentation file, so that's generated right before we append all the .apib files. So yeah, it's totally flexible.
 
 **Carlisia Thompson:** That's cool.
 
 **Erik St. Martin:** So what's the process for this? You just run this tool after you're done, so that you're kind of committing this documentation?
 
-**Sarah Adams:** Yeah, I have it built into our CI flow. You push out some code on a feature branch, and when it's ready to land into the development branch, or whatever you use - master... You land that in, and then we have a special hook that says, "Oh, if I'm on the master branch, I need to run the combined API BEE file script", and push that up to -- well, how I have it is I push that up to a separate branch, a docs branch on a repo, and then have Apiary actually read that file to show the parsed, beautiful API documentation.
+**Sarah Adams:** Yeah, I have it built into our CI flow. You push out some code on a feature branch, and when it's ready to land into the development branch, or whatever you use - master... You land that in, and then we have a special hook that says, "Oh, if I'm on the master branch, I need to run the combined .apib file script", and push that up to -- well, how I have it is I push that up to a separate branch, a docs branch on a repo, and then have Apiary actually read that file to show the parsed, beautiful API documentation.
 
 **Brian Ketelsen:** Nice.
 
@@ -364,7 +364,7 @@ As far as our ten chapters around the world, women actually will message me or s
 
 **Sarah Adams:** It's amazing, especially when it's such a cool cause, trying to get more women into Go.
 
-**Erik St. Martin:** This is probably the first that I've been a part of that at least visibly had these big women-only -- I'm not saying women-only, but advocating more women get into the community. There probably exist, but it definitely didn't feel as prevalent as it is here. I've been watching Twitter and seeing the new Women Who Go chapters and stuff like that, and it's like wow, I can't even keep up with how many there are anymore. I think that's fantastic.
+**Erik St. Martin:** This is probably the first community that I've been a part of that at least visibly had these big women-only -- I'm not saying women-only, but advocating more women get into the community. There probably exist, but it definitely didn't feel as prevalent as it is here. I've been watching Twitter and seeing the new Women Who Go chapters and stuff like that, and it's like wow, I can't even keep up with how many there are anymore. I think that's fantastic.
 
 **Sarah Adams:** I know, it's awesome. There are a few meetups that I've been to, like Pythonistas and Women Who Code has a Ruby Tuesdays for women, but I haven't come across any other women's group specific to a programming language that is spread across multiple chapters.
 
@@ -396,7 +396,7 @@ As far as our ten chapters around the world, women actually will message me or s
 
 **Sarah Adams:** That's one of the things I love about the Go community so much - when those things pop up, people seem to be sort of all over it, like "That's really not okay." And I love how much time and energy that people like Andrew Gerrand and Jason Buberel have put into the code of conduct. Our code of conduct thread went on for months, because people were so passionate about trying to make sure that Go was so inclusive and that everyone felt safe in the Go community, and I really thank them for that.
 
-**Erik St. Martin:** Yeah, I really applaud that effort as well. I think that that was a fantastic thing that happened. And in general too, right? I know Carlisia and I have had conversations about this before - every be nice to each other, what's hard about that? That was one of the things I loved about this community when I came into it, because I don't have a masters degree or PhD in CompSci, I'm not a highly academic programmer, but there were these PhD people all chatting up in mailing lists and stuff and perfectly happy to help and answer questions, and just their love of the language, they wanted to share that with people. I think that we should do that, whoever it is that's trying to join our community, we should be as welcoming as possible.
+**Erik St. Martin:** Yeah, I really applaud that effort as well. I think that that was a fantastic thing that happened. And in general too, right? I know Carlisia and I have had conversations about this before - everybody be nice to each other, what's hard about that? That was one of the things I loved about this community when I came into it, because I don't have a masters degree or PhD in CompSci, I'm not a highly academic programmer, but there were these PhD people all chatting up in mailing lists and stuff and perfectly happy to help and answer questions, and just their love of the language, they wanted to share that with people. I think that we should do that, whoever it is that's trying to join our community, we should be as welcoming as possible.
 
 **Carlisia Thompson:** Exactly.
 
@@ -408,7 +408,7 @@ As far as our ten chapters around the world, women actually will message me or s
 
 **Erik St. Martin:** And you said for people interested in potentially starting their own chapters, the best thing to do is to email you at hello@womenwhogo.org.
 
-**Carlisia Thompson:** Exactly.
+**Sarah Adams:** Exactly.
 
 **Erik St. Martin:** Awesome.
 
@@ -438,7 +438,7 @@ The other one that I've been meaning to say for the longest time is the Sourcegr
 
 **Brian Ketelsen:** +1, Rofi's awesome.
 
-**Erik St. Martin:** Yeah, and recently they had a new release that brought a lot more features and made it look a lot prettier, so I've been having a blast with it. With that said, I wanna thank everybody, I wanna thank the panel - Brian and Carlisia - and I certainly wanna thank Sarah for coming on the show. I wanna thank everybody who's listening now and everybody who will be listening when these podcasts drop. Definitely share the show with your fellow Go programmers. Best way to subscribe would be to go to GoTime.fm and we will also have a weekly newsletter coming out - you can do that. Or on Twitter as well, @GoTimeFM. With that said, thanks everybody, and we'll see you next week.
+**Erik St. Martin:** Yeah, and recently they had a new release that brought a lot more features and made it look a lot prettier, so I've been having a blast with it. With that said, I wanna thank everybody, I wanna thank the panel - Brian and Carlisia - and I certainly wanna thank Sarah for coming on the show. I wanna thank everybody who's listening now and everybody who will be listening when these podcasts drop. Definitely share the show with your fellow Go programmers. Best way to subscribe would be to go to GoTime.fm and we will also have a weekly email newsletter coming out - you can do that. Or on Twitter as well, @GoTimeFM. With that said, thanks everybody, and we'll see you next week.
 
 **Carlisia Thompson:** I'm glad to be here.
 
