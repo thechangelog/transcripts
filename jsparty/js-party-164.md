@@ -556,11 +556,11 @@ I remember when I first discovered about local storage, and there's IndexedDB in
 
 **Mat Ryer:** \[00:47:30.26\] I think there's too much stuff in JavaScript. When I write JavaScript, I use a tiny little subset of the things you can do, really tiny. And I try and shrink that as small as possible. And I feel like that improves readability. I don't have to learn all the new features... Because there's lots of really cool stuff. The ?. thing - I loved that. I'm definitely gonna be using that one. That's extremely useful. But I try and use just a really small, little -- I almost have like a subset of JavaScript that I use. It could almost have its own name...
 
-But yeah, that's my unpopular opinion. I think JavaScript has too many language features, and should be smaller \[unintelligible 00:48:21.01\]
+But yeah, that's my unpopular opinion. I think JavaScript has too many language features, and should be smaller. What do you think of that?
 
 **Jerod Santo:** Well, what do you think about food options? Do you feel like there's too many choices of what you might eat out there in the world, and you'd prefer if there were less? Or would you like to just select the subset of food options that you appreciate and use those?
 
-**Mat Ryer:** Yeah, I mean... What I actually like -- if you go to a restaurant... Nice restaurants only give you a small menu, don't they?
+**Mat Ryer:** Yeah, I mean... Well actually, like -- if you go to a restaurant... Nice restaurants only give you a small menu, don't they?
 
 **Jerod Santo:** But you also have the option of restaurant, so that's kind of a subset of a subset in that case. I've got no problem with that. That's their view of the world. That's their little particular... You could have its own name, like its own little MatScript.
 
@@ -628,7 +628,7 @@ Tailwind is a great example of -- we're almost going back to... Do you remember 
 
 **Jerod Santo:** Exactly. \[laughs\] That's the problem. Are you gonna write about how you rewrote your blog platform? Those are the two blog posts that we write as developers; we write the one where we rewrote out blog platform, and we write the other one where we switched from one thing to the other. That's pretty much it in a nutshell. Alright, Nick, your turn.
 
-**Nick Nisi:** \[00:55:54.09\] Yeah. So I probably should have gone after you, Mat, because this does kind of tie into yours a little bit, now that I think about it... I think that ESLint is out of control, and it's just kind of ridiculous. There are some good rules to have in there, and linting overall is pretty good, but then I just look at all of the rules that are added to the main project I work on, and it is so constraining, and for no good reason, because I just end up writing the eslint-disable-next-line comment above it, and every time I run across an issue like this, using that optional chaining to call a method, like I mentioned in the first segment - that is disallowed by my ESLint. And if I just did the foo and the long-form of that, where I just check to see if that value exists before calling it, that's also disabled, for the same rule.
+**Nick Nisi:** \[00:55:54.09\] Yeah. So I probably should have gone after you, Mat, because this does kind of tie into yours a little bit, now that I think about it... I think that ESLint is out of control, and it's just kind of ridiculous. There are some good rules to have in there, and linting overall is pretty good, but then I just look at all of the rules that are added to the main project I work on, and it is so constraining, and for no good reason, because I just end up writing the eslint-disable-next-line comment above it, and every time I run across an issue like this, like using that optional chaining to call a method, like I mentioned in the first segment - that is disallowed by my ESLint. And if I just did the foo and the long-form of that, where I just check to see if that value exists before calling it, that's also disabled, for the same rule.
 
 ESLint rules are out of control. They don't actually help beyond a certain limit - there's definitely diminishing returns with that - and they completely slow down your editor, because it has to chug through all of those rules and process everything.
 
