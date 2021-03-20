@@ -6,7 +6,7 @@
 
 **Brian Ketelsen:** I've done that. I did that at GopherCon.
 
-**Mat Ryer:** \[laughs\] Oh, yeah. Well, that was awesome. Thank you so much to Brian there. Now, let me do proper introductions. So - you heard him already... A very early Go adopter, author of Go in Action, and co-creator of GopherCon, and actually, one of the original cast of Go Time. It's only Brian Ketelsen. Hello, Brian.
+**Mat Ryer:** \[laughs\] Oh, yeah. Well, that was awesome. Thank you so much to Brian there. Now, let me do proper introductions. So - you heard him already... A very early Go adopter, co-author of Go in Action, and co-creator of GopherCon, and actually, one of the original cast of Go Time. It's only Brian Ketelsen. Hello, Brian.
 
 **Brian Ketelsen:** It's only me. I'm OG Go Time.
 
@@ -24,7 +24,7 @@
 
 **Mat Ryer:** Hm. How did that come about?
 
-**Brian Ketelsen:** Well, we were thinking about ways to entertain people at the first day after-party, and I thought it might be a fund idea to get a karaoke backup band, so that we could just have like one or two gophers at a time singing or playing an instrument while the band backed us... And it very rapidly devolved into us being a whole band, and we hired some professional musicians to step in if we just didn't have enough people for a particular song.
+**Brian Ketelsen:** Well, we were thinking about ways to entertain people at the first day after-party, and I thought it might be a fun idea to get a karaoke backup band, so that we could just have like one or two gophers at a time singing or playing an instrument while the band backed us... And it very rapidly devolved into us being a whole band, and we hired some professional musicians to step in if we just didn't have enough people for a particular song.
 
 **Mat Ryer:** It was great fun. And of course, in San Diego the Gopher Band played on a...
 
@@ -90,7 +90,7 @@
 
 **Mat Ryer:** Yeah. I've used it before I had a data structure, and obviously, Go doesn't yet have generics, but... I had a data structure -- I wanted to support multiple types, and I wrote a little program where I could just give it the array of types that I wanted to support, and it would generate the code for each type. So I got strong types, but I didn't have to write out every version of it.
 
-**Brian Ketelsen:** I mean, go generate is the only generics we need in Go.
+**Brian Ketelsen:** I mean, *go generate* is the only generics we need in Go.
 
 **Mat Ryer:** Hm.
 
@@ -106,7 +106,7 @@
 
 **Brian Ketelsen:** Very much so, yeah. I love code generation. I think it's a great way to solve many problems... Not every problem can be solved with code generation, but a lot of times you find yourself in a position where you have to do a similar set of things for a similar set of resources, and code generation is a great way to make sure that that problem is solved consistently.
 
-**Jon Calhoun:** Without getting into the generics stuff - for me, code generation probably first popped up when I was looking at things like APIs where people connect with different programming languages... And Swagger is probably that everybody's heard of at this point, and probably the ideal use case for code generation is you have this API that you communicate with JSON and HTTP, and nobody wants to go write a library... Like, if you're a company and your whole company is written in Ruby or something like that, you don't wanna have to go write libraries so other people can connect to your API in every language under the sun, that you probably don't know much about. So code generation is like an awesome tool for that type of use case, too.
+**Jon Calhoun:** Without getting into the generics stuff - for me, code generation probably first popped up when I was looking at things like APIs where people connect with different programming languages... And Swagger is probably one that everybody's heard of at this point, and probably the ideal use case for code generation is you have this API that you communicate with JSON and HTTP, and nobody wants to go write a library... Like, if you're a company and your whole company is written in Ruby or something like that, you don't wanna have to go write libraries so other people can connect to your API in every language under the sun, that you probably don't know much about. So code generation is like an awesome tool for that type of use case, too.
 
 **Mat Ryer:** Hm.
 
@@ -130,7 +130,7 @@
 
 **Mat Ryer:** Brilliant... Yeah, because this is a gap, I think, in the standard library. There are packages in the standard library, and they've added new ones too, to make it easier... But they're so difficult to use, because I guess they're the tools that the Go build tools use, and so they're kind of all-powerful... But they seem really low-level and quite difficult to get your head around. You have to do value, value, and it's kind of like reflection, isn't it?
 
-**Brian Ketelsen:** Yeah... Don't love that so much. Reflection is the easiest thing to do as a Go programmer. It's fraught with peril.
+**Brian Ketelsen:** Yeah... Don't love that so much. Reflection isn't the easiest thing to do as a Go programmer. It's fraught with peril.
 
 **Mat Ryer:** Yes, and we avoid it where we can.
 
@@ -168,7 +168,7 @@ So you'll take some source data from somewhere, which could be Go code, and then
 
 **Mat Ryer:** So how do you do loops and things in that then, if you're gonna iterate through a set of data? How do you do that in the Go code?
 
-**Brian Ketelsen:** Um, for, range?
+**Brian Ketelsen:** Um, for range?
 
 **Mat Ryer:** Okay...
 
@@ -224,7 +224,7 @@ So you'll take some source data from somewhere, which could be Go code, and then
 
 **Mat Ryer:** Years ago I wrote a package with a friend of mine called Jenny... And they're not to be confused with Mark Bates' package Jenny from Go Buffalo, where he just - as far as I can tell - stole the name from me... But luckily for him, I'm not very litigious. But we'll see. If he keeps texting me the things he texts me, maybe that will change. Anyways, this package did what you were describing, Kris, where there was a special type. So it was real Go code, and it was just like an interface type, but it had a special name... And then the tool would process that, and then you were able to replace that type with other types. So it's kind of like generics, very lightweight generics. It's still used by people, but I don't know... But that's kind of a nice way to do that, because then, like you say, the real code, the source code, the template is real code.
 
-Is there anything you can do to help yourself in that way? Gofmt is a great one is a great one if you're generating Go code... Although I suppose if you're using that dave/jennifer package, it probably formats it for you, doesn't it?
+Is there anything you can do to help yourself in that way? Go fmt is a great one is a great one if you're generating Go code... Although I suppose if you're using that dave/jennifer package, it probably formats it for you, doesn't it?
 
 **Brian Ketelsen:** It does, yeah. It outputs code in the right format.
 
@@ -300,7 +300,7 @@ But what about go generate? Because go generate is a command that you have to ru
 
 **Jon Calhoun:** I'm not trying to offend--
 
-**Brian Ketelsen:** Yeah. \[unintelligible 00:28:27.15\] care less.
+**Brian Ketelsen:** Yeah. I could care less.
 
 **Jon Calhoun:** It felt almost like those tests never actually failed or told me anything useful at the time I was doing it, so I kind of just stopped doing it at the time.
 
@@ -378,7 +378,7 @@ Another approach to that would be to take the code and abstract it away, so that
 
 **Mat Ryer:** Yeah.
 
-**Kris Brandow:** Lots of mental gymnastics in that too, to figure out which layer you're sitting at... As you're generating, you're like "Okay, wait, am I doing this correct? Am I in the right spot? Am I thinking about this in the right mind frame?" I think that is one of the big challenges of generating code... It's not actually writing the code gen itself, but just wrapping your mind about what you're trying to do, because it is so much more abstract than just writing out code by hand... Which is also what makes the Reflect package also very complicated to use, because you're not using the same utilities and handles that you're used to using when you're writing Go code.
+**Kris Brandow:** Lots of mental gymnastics in that too, to figure out which layer you're sitting at... As you're generating, you're like "Okay, wait, am I doing this correctly? Am I in the right spot? Am I thinking about this in the right mind frame?" I think that is one of the big challenges of generating code... It's not actually writing the code gen itself, but just wrapping your mind about what you're trying to do, because it is so much more abstract than just writing out code by hand... Which is also what makes the Reflect package also very complicated to use, because you're not using the same utilities and handles that you're used to using when you're writing Go code.
 
 **Brian Ketelsen:** That was the big pull for me from Goa, because I was writing a DSL about my expectations of what I wanted when I was done. I want a web service that listens on port 8080, that exposes this API with this resource, that has these methods, and it returns these fields, and it expects this authentication. There's nothing in that about how I'm gonna do that; there's nothing that says "I'm gonna use go-kit, I'm gonna use this middleware here." I'm just writing my expectation, and then the code generator does some stuff, and hopefully the code generator meets my expectation. But if it doesn't, I can change the code that's generated until it does. That was the power of expressing what I want. It's like test-driven development when you think about it. You've written your desired outcome first, and then you just keep writing code until it's green.
 
@@ -388,7 +388,7 @@ Another approach to that would be to take the code and abstract it away, so that
 
 **Kris Brandow:** Yeah, absolutely. I think there's definitely levels to this, where it's like - if you're making, say, a stringer, which takes a number of enumerated things and then makes the string output for them \[unintelligible 00:41:35.26\] I think for that it's relatively simple and straightforward, and you don't need an IDL. But I think when you start to get into the really bigger code generation systems, I think it is kind of good to shift away from trying to shove everything into Go. I think there's a point where you start really feeling that friction, when you're like "I don't think that this is quite right", and I think that's the point at which you should make the job. I don't think you should really start with designing your own IDL or DSL or serialization format. I think those are things that take a lot of time and expertise to do, and you don't wanna be learning that while you're also trying to figure how to do code generation well. I think you have to take your steps.
 
-But I think that it's a very important thing to recognize that at some point if you're doing a lot of heavy code generation, what you start with - you're gonna outgrow it, and you're gonna need to do something different, and just be prepared for that.
+But I think that it's a very important thing to recognize that at some point if you're doing a lot of heavy code generation, what you started with - you're gonna outgrow it, and you're gonna need to do something different, and just be prepared for that.
 
 **Brian Ketelsen:** Yeah. It's one of the most fun things and rewarding things I've ever done as a programmer. So I would absolutely recommend start as small and simple as you want to, even if it's just a tiny little template that you're using to generate other code... And just grow with it. It's fun.
 
@@ -436,13 +436,13 @@ We have a tweet just come in -- not just come in; I'm just trying to make this f
 
 **Kris Brandow:** I feel like there's this line between "Is what you're distributing code, or is what you're distributing a running application?" I think if it's a running application, like Jon just kind of mentioned, I think in a lot of ways it makes sense to do the generation at the point where you're actually gonna be running the thing. But I think if you're a library maintainer, it's much better to commit the code. And I think that's one of the things behind go generate and why it runs the way it is, because it's like, the person who gets your code might not have the generation tools or the version of the tools that you're using, to actually be able to successfully generate the code. So it makes library usage a lot harder if the person using the library has to do this code gen now.
 
-**Mat Ryer:** Yeah. And you want people to be able to check out the code and run it and build it, don't you? You don't want those extra stats...
+**Mat Ryer:** Yeah. And you want people to be able to check out the code and run it and build it, don't you? You don't want those extra steps...
 
-**Brian Ketelsen:** Exactly. And if you don't have developers checking in the code, what you end up with is Bazil.
+**Brian Ketelsen:** Exactly. And if you don't have developers checking in the code, what you end up with is Bazel.
 
 **Mat Ryer:** Right.
 
-**Brian Ketelsen:** You have to boil the entire ocean every time you wanna build a tiny app... And that's where Bazil is. It's an ocean boiler.
+**Brian Ketelsen:** You have to boil the entire ocean every time you wanna build a tiny app... And that's where Bazel is. It's an ocean boiler.
 
 **Mat Ryer:** Yeah. That's why I see code generation as a dev time exercise, for that reason, and others.
 
@@ -474,7 +474,7 @@ Kris, have you done actual code generation yourself? What sort of use cases did 
 
 So it's like one of the things I've used code generation for in the past. But I've used it for a lot of things that are similar to that, where it's like "I could write and maintain all of this code by hand, but it's very tricky, and everything is very regular, and it's gonna be really difficult to find bugs if I try to maintain this by hand", because it will be like small typos here and there will completely break... But in the case of the Go \[unintelligible 00:56:03.24\] then it might only break when it's out in production already, because we don't have a good way of testing that already, because of other things. So I think that's how I've used code generation a lot in the past.
 
-To kind of respond to this tweet too, I have kind of a split way that I feel abou tthis. I think that these types of tools that generate scaffolding and whatnot are good and useful, but I also very much dislike that we use things that are so general and generic that we need all of this boilerplate in the first place. I feel like it's somewhat of a failing of design here... Because I feel like I've run into these same sorts of situations before; when I'm trying to design something, I'm like "Oh, there's a lot of boilerplate." And each time that I've done that, I've just sat down and spent probably a considerable amount of time figuring out why I am writing so much boilerplate... And usually at the end I figured out, "Oh, my design didn't quite fit properly", and I feel that's what a lot of frameworks wind up doing - they try to be so generic and encompass so many things that you need all of this boilerplate to just get the thing that you could have written with a few lines of code if you just wrote the more specific code. I think a configuration library is a really good example of this. I've written multiple configuration/parsing libraries that wind up being less code than if I'd used Viper...
+To kind of respond to this tweet too, I have kind of a split way that I feel about this. I think that these types of tools that generate scaffolding and whatnot are good and useful, but I also very much dislike that we use things that are so general and generic that we need all of this boilerplate in the first place. I feel like it's somewhat of a failing of design here... Because I feel like I've run into these same sorts of situations before; when I'm trying to design something, I'm like "Oh, there's a lot of boilerplate." And each time that I've done that, I've just sat down and spent probably a considerable amount of time figuring out why I am writing so much boilerplate... And usually at the end I figured out, "Oh, my design didn't quite fit properly", and I feel that's what a lot of frameworks wind up doing - they try to be so generic and encompass so many things that you need all of this boilerplate to just get the thing that you could have written with a few lines of code if you just wrote the more specific code. I think a configuration library is a really good example of this. I've written multiple configuration/parsing libraries that wind up being less code than if I'd used Viper...
 
 **Brian Ketelsen:** Oh, don't get me started on Viper, Kris...
 
@@ -500,7 +500,7 @@ To kind of respond to this tweet too, I have kind of a split way that I feel abo
 
 **Mat Ryer:** Okay, very good of you... \[laughs\]
 
-**Brian Ketelsen:** ...however, I had this idea. I wanted to play with Go 1.16 yesterday, and I have a Hugo block, because Hugo really truly is a fantastic way to build blogs. It's a wonderful way to turn markdown into HTML. It's opinionated, and it's fast, and it's wonderful. But I thought to myself "I'm gonna use the Embed package in Go 1.16, and I'm gonna use something like Gin, or Echo, or some quick little router framework for web apps, and I'll just go steal the code from Hugo, or go import the code from Hugo, that parses my markdown and uses the same templates that I already have. I'll embed that into the Go binary and I'll ship a web server version of Hugo; that's all embedded in the same thing.
+**Brian Ketelsen:** ...however, I had this idea. I wanted to play with Go 1.16 yesterday, and I have a Hugo blog, because Hugo really truly is a fantastic way to build blogs. It's a wonderful way to turn markdown into HTML. It's opinionated, and it's fast, and it's wonderful. But I thought to myself "I'm gonna use the Embed package in Go 1.16, and I'm gonna use something like Gin, or Echo, or some quick little router framework for web apps, and I'll just go steal the code from Hugo, or go import the code from Hugo, that parses my markdown and uses the same templates that I already have. I'll embed that into the Go binary and I'll ship a web server version of Hugo; that's all embedded in the same thing.
 
 I dug into the packages of Hugo's code, and I've spent almost an hour and a half just finding the one thing that triggers the functions to execute templates.
 
