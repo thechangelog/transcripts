@@ -36,7 +36,7 @@ Chris Coyier is here. Chris, thanks for coming on JS Party.
 
 **Jerod Santo:** Well, they're using your name, man. Graham. They're using it. Come on. Not fair.
 
-**Geoff Graham:** Oh, \[unintelligible 00:04:00.29\] Well, I hold exclusive copyright on the H and the extra A that's there as well, so I'm okay.
+**Geoff Graham:** Oh, sure. Well, I hold exclusive copyright on the H and the extra A that's there as well, so I'm okay.
 
 **Jerod Santo:** Excellent. And we are also joined by Miriam Suzanne.
 
@@ -132,19 +132,19 @@ Category three is called Tricky CSS Sites. These are websites that aren't CSS-Tr
 
 **Jerod Santo:** Alright, here we go; they're going after the Bleeding Edge. This modern image format is optimized for web environments. It boasts better image compression than webp, jpeg, png and gif.
 
-**Chris Coyier:** It's avif.
+**Chris Coyier:** It's AVIF.
 
 **Jerod Santo:** \[fail sound\] I'm sorry, that's incorrect. It may also be true, now that I'm thinking about it, but it's not the one that was on the website.
 
 **Chris Coyier:** Okay... \[laughter\]
 
-**Jerod Santo:** Would anybody like to steal a non-avif answer?
+**Jerod Santo:** Would anybody like to steal a non-AVIF answer?
 
 **Sarah Drasner:** That was my answer... \[laughs\]
 
 **Geoff Graham:** Mine, too.
 
-**Jerod Santo:** Okay... Maybe you guys can school me. So this was according to caniuse.com, and the feature is called jpegxl.
+**Jerod Santo:** Okay... Maybe you guys can school me. So this was according to caniuse.com, and the feature is called JPEG XL.
 
 **Geoff Graham:** Oh.
 
@@ -160,7 +160,7 @@ Category three is called Tricky CSS Sites. These are websites that aren't CSS-Tr
 
 **Sarah Drasner:** I agree, I agree.
 
-**Jerod Santo:** Everybody agrees, he got it right! \[laughter\] What's funny is we were test-driving this before the show and Nick also answered the questions, and he also said avif, so that's where I was like "Hm... Maybe I've got it wrong there."
+**Jerod Santo:** Everybody agrees, he got it right! \[laughter\] What's funny is we were test-driving this before the show and Nick also answered the questions, and he also said AVIF, so that's where I was like "Hm... Maybe I've got it wrong there."
 
 Alright... Sarah, your turn.
 
@@ -168,7 +168,7 @@ Alright... Sarah, your turn.
 
 **Jerod Santo:** Alright. For 100. Often a top 100 related search results, but that doesn't mean devs love it.
 
-**Sarah Drasner:** Oooh... I can picture it in my mind. The green \[unintelligible 00:09:58.15\]
+**Sarah Drasner:** Oooh... I can picture it in my mind. The green site! Uhm...
 
 **Jerod Santo:** \[fail sound\] Time's out. Sorry. Tip of your tongue...
 
@@ -186,7 +186,7 @@ Alright... Sarah, your turn.
 
 **Sarah Drasner:** I've been picturing you in my mind... \[laughs\]
 
-**Jerod Santo:** Yes, we all have it burned into our retinas.
+**Jerod Santo:** Yes, we all have it burnt into our retinas.
 
 **Geoff Graham:** \[unintelligible 00:10:25.18\]
 
@@ -244,7 +244,7 @@ Alright... Sarah, your turn.
 
 **Jerod Santo:** That's right. \[win alert\]
 
-**Sarah Drasner:** \[unintelligible 00:12:13.29\]
+**Sarah Drasner:** That's one for us old fogies. \[laughter\]
 
 **Jerod Santo:** That is an old-school one, isn't it...?
 
@@ -276,7 +276,7 @@ Alright... Sarah, your turn.
 
 **Jerod Santo:** Very good, okay. Sarah was correct.
 
-**Sarah Drasner:** God, \[unintelligible 00:12:54.29\] We haven't done Project People yet, so I'll do that one for 100.
+**Sarah Drasner:** God, Chris is just trying to steal... We haven't done Project People yet, so I'll do that one for 100.
 
 **Jerod Santo:** Alright. Mat Mullenweg.
 
@@ -468,7 +468,7 @@ Alright... Sarah, your turn.
 
 **Jerod Santo:** Okay. \[fail sound\] Miriam with a chance to steal?
 
-**Miriam Suzanne:** Let's go with "Who are the X-men?" \[unintelligible 00:18:35.08\]
+**Miriam Suzanne:** Let's go with "Who are the X-men?" "Set X-Height Men"?
 
 **Jerod Santo:** We're gonna have to say no on that one. You're close, but you're not on.
 
@@ -698,7 +698,7 @@ Alright... Sarah, your turn.
 
 **Jerod Santo:** Alright. &lt;div&gt; This text is important, serious, or urgent &lt;/div&gt;
 
-**Geoff Graham:** What is -- no, that's not gonna be it. Shoot... What is \[unintelligible 00:29:20.16\]
+**Geoff Graham:** What is -- no, that's not gonna be it. Shoot... What is alert?
 
 **Jerod Santo:** \[fail sound\] Nope. Miriam to steal.
 
@@ -722,7 +722,7 @@ Alright... Sarah, your turn.
 
 **Jerod Santo:** Oh, you got it. \[win alert\] &lt;progress&gt;
 
-**Geoff Graham:** \[unintelligible 00:30:14.17\]
+**Geoff Graham:** He knows this one.
 
 **Jerod Santo:** Well played, sir... And Sarah, your turn.
 
@@ -962,7 +962,7 @@ Alright... Which leaves Miriam with Oh Node You Didn't! for 800. Here we go!
 
 **Jerod Santo:** Etc. Thus concludes round two, Double Trouble.
 
-**Sarah Drasner:** \[unintelligible 00:37:37.11\]
+**Sarah Drasner:** I'm going down [\laughter\]
 
 **Chris Coyier:** Did your miss make me win? Yes...!!
 
@@ -1060,16 +1060,16 @@ The category is CSS \*emoji handshake\* R&B. So there's your category. Contestan
 
 **Jerod Santo:** So JPEG XL image format has zero support. Global zero percent. But does that mean it's -- maybe it's brand stinkin' new. Or maybe it's so old that no one -- maybe it just didn't ever become a thing.
 
-**Sarah Drasner:** XL makes it sound like it's huge...
+**Geoff Graham:** XL makes it sound like it's huge...
 
 **Jerod Santo:** Doesn't it?
 
-**Chris Coyier:** Yeah... \[unintelligible 00:46:23.12\]
+**Chris Coyier:** Yeah... it's a terrible name.
 
 **Jerod Santo:** It does say "JPEG XL competes with AVIF, which has similar compression quality, but fewer features." So this might be a brand new thing that someone's trying to do... I don't know.
 
-**Sarah Drasner:** Why don't you ask \[00:46:35.29\] to be on the call?
+**Sarah Drasner:** Why don't you ask Lea Verou to be on the call?
 
-**Jerod Santo:** Yeah, \[unintelligible 00:46:38.02\]
+**Jerod Santo:** Yeah, that's a good call.
 
 **Chris Coyier:** Alright, should we do it?
