@@ -86,7 +86,7 @@ We mentioned modules before - that was a real problem people were having, of lik
 
 **Carl Johnson:** Yeah, if you're doing it as like just "I wanna send this off to my server", I suppose it would be fine, as long as you keep the binary secret. If you're shipping it out to clients, clients could easily decompile the binary and remove the secret and spread it on the dark web. So it's probably not a good use case for that. It just depends on exactly what the nature of the secret is.
 
-**Mark Bates:** Yeah. And one use case that you could use it for, kind of a secret thing, is maybe an application that has the license built in for a particular client... Where the worst thing that they're gonna do is deconstruct the license to pull it out; but it's gonna be hitting as a licensed server anyway, so if they mess with it, it's just gonna break their binary.
+**Mark Bates:** Yeah. And one use case that you could use it for, kind of a secret thing, is maybe an application that has the license built in for a particular client... Where the worst thing that they're gonna do is deconstruct the license to pull it out; but it's gonna be hitting as a license server anyway, so if they mess with it, it's just gonna break their binary.
 
 **Carl Johnson:** Yeah.
 
@@ -128,7 +128,7 @@ We mentioned modules before - that was a real problem people were having, of lik
 
 **Carl Johnson:** Oh, great.
 
-**Wayne Ashley Berry:** ...so you just pipe the output from that command into the \[unintelligible 00:17:27.27\]
+**Wayne Ashley Berry:** ...so you just pipe the output from that command into the *go build*.
 
 **Mark Bates:** See, this is great... We have all these old, hacky solutions we could start getting rid of now.
 
@@ -136,7 +136,7 @@ We mentioned modules before - that was a real problem people were having, of lik
 
 **Mat Ryer:** Okay, so maybe we could explore a little bit more then about how //go:embed works... It's a kind of special comment, isn't it? And this is unusual in Go. It's one of the unusual things I think of, the design, where specific comments have special meaning. Go generate is another one, and there are build tags, but how does it actually work? How would you use //go:embed if you wanted to bring in a file into a string?
 
-**Mark Bates:** It's actually quite pleasant and easy, fairly straightforward to use. I'm obviously hesitant -- I never wanna say the word "easy", or "simple", because it's never that... As a matter of fact, I struggled with trying to figure out how to embed files by an extension, \[unintelligible 00:20:05.22\] Basically, what you do is you set up the variable that you want to embed into, whether it's a string, a slice of bytes, or an embed fs variable. Those are kind of your three choices. Somebody please stop me if I forgot one, but I'm pretty sure those are your three choices that you can put this directive above.
+**Mark Bates:** It's actually quite pleasant and easy, fairly straightforward to use. I'm obviously hesitant -- I never wanna say the word "easy", or "simple", because it's never that... As a matter of fact, I struggled with trying to figure out how to embed files by an extension, \[unintelligible 00:20:05.22\] Basically, what you do is you set up the variable that you want to embed into, whether it's a string, a slice of bytes, or an embed.fs variable. Those are kind of your three choices. Somebody please stop me if I forgot one, but I'm pretty sure those are your three choices that you can put this directive above.
 
 \[00:20:27.14\] So you've got your little go:embed directive, and then you tell it what kind of files you want. And those files - and as somebody who's written these systems, this is what I love... Those files that you're asking for are relative to the source code. So there's this kind of consistency to it. If I'm in cmd/foo/main.go and I reference template/css, it's gonna expect templates to be right next to main.go, and so on. And that sort of resolution can be really tricky to do if you don't have the Go tooling behind you, like if you're not in the Go tooling; if you have to do it all after market. Because those are the kind of problems you do.
 
@@ -170,7 +170,7 @@ What I was amazed at is - my editor, I use Neovim with vim-go, and I'd get go ve
 
 **Mat Ryer:** Yeah, that is nice.
 
-**Wayne Ashley Berry:** Actually, I forgot that you can also specify multiple directories and multiple patents if you're embedding into a file system... So my first take at this, I would have var css, and embed the CSS directory in there, and then var images, and put images in there. But then you can actually just have var static, and just embed everything in there... You just need to remember that they still exist in their directories. So you need to reference html/index.html.
+**Wayne Ashley Berry:** Actually, I forgot that you can also specify multiple directories and multiple patterns if you're embedding into a file system... So my first take at this, I would have var css, and embed the CSS directory in there, and then var images, and put images in there. But then you can actually just have var static, and just embed everything in there... You just need to remember that they still exist in their directories. So you need to reference html/index.html.
 
 **Carl Johnson:** Yeah. That's actually a very good way to do it. So if you have var static, or var fs, and then you say in the go embed comment above it, go embed assets/css/\*.css assets/js/\*.js, and then images, and so forth... And you can put it all into a single file system that way.
 
@@ -230,7 +230,7 @@ What I was amazed at is - my editor, I use Neovim with vim-go, and I'd get go ve
 
 **Mat Ryer:** Yeah, I quite like that.
 
-**Mark Bates:** As somebody who's, again, written these types of tools, I also look at that as a marker... Like, before I go and start parsing this whole Go file, are they even used in the package? If they're not using embed, why should I bother to parse this? So that to me is less egregious than the registration of a database driver.
+**Mark Bates:** As somebody who's, again, written these types of tools, I also look at that as a marker... Like, before I go and start parsing this whole Go file, are they even used in the package? If they're not using embed, why should I bother to parse this? So that to me is less egregious than setting the registration of a database driver.
 
 **Wayne Ashley Berry:** I tend to put all of my embedded resources in a single file. So top-level I have a resources directory, Resources.go, and that's the only place I'll embed anything... And then all other packages can import from there. They don't need to know about embeds at all. But it is one area where I hope that the tooling can maybe get a little bit better... Because you know, if VS Code or Vim or Neovim could detect you're using 1.16, you have a //go:embed directive in your code, it could just import that for you, as opposed to not.
 
@@ -242,7 +242,7 @@ What I was amazed at is - my editor, I use Neovim with vim-go, and I'd get go ve
 
 **Mark Bates:** I think you had just had some bad lunch, if I remember correctly. We had gone out to that really dodgy place...
 
-**Mat Ryer:** No, that's delicious...
+**Mat Ryer:** No, that was delicious...
 
 **Mark Bates:** Yeah, well...
 
@@ -316,15 +316,15 @@ It was too confusing, and so then they decided "Let's make it so that you can on
 
 **Mark Bates:** Then you can do that for testing. So you'd have a global CSS folder, let's say, but your function just takes an fs.fs type. So you could pass in that CSS folder, or you can use the map fs that's in the testing package for creating your own fictitious file system for testing and just pass that in. Or you can write your own interfaces around all of this; you can fulfill those interfaces, and do all sorts of wonderful interesting stuff in the middle... But you're encouraged to take an fs.fs as your function, and not refer to the globals. That's kind of how they're getting around it a little bit, too.
 
-**Carl Johnson:** What Mark is saying is there are two different types. There's the embed fs, which is specifically used for embedding these groups of files, and now there's a new type called an io/fs.fs, and that is an interface that lets multiple different types implement being a file system. So embed fs implements this interface, but also Zip reader does, and also memfs does, and they're working on making it so the tar text -- so if you ever are on the Go Playground and you know how there can be multiple files in there, that format is called textar. That format - they're making an fs.fs implementation for it.
+**Carl Johnson:** What Mark is saying is there are two different types. There's the embed.fs, which is specifically used for embedding these groups of files, and now there's a new type called an io/fs.fs, and that is an interface that lets multiple different types implement being a file system. So embed fs implements this interface, but also Zip reader does, and also memfs does, and they're working on making it so the tar text -- so if you ever are on the Go Playground and you know how there can be multiple files in there, that format is called tex tar. That format - they're making an fs.fs implementation for it.
 
-So just any different kind of format where you have a bunch of files together, you can make an implementation of fs.fs, and if your function or method takes an fs.fs, that can be put in there. It doesn't have to be an embed fs that is hardcoded into the binary. It can be anything that you swap out in real time.
+So just any different kind of format where you have a bunch of files together, you can make an implementation of fs.fs, and if your function or method takes an fs.fs, that can be put in there. It doesn't have to be an embed.fs that is hardcoded into the binary. It can be anything that you swap out in real time.
 
 **Mark Bates:** Including the local file system.
 
 **Carl Johnson:** Including the local file system, right.
 
-**Mark Bates:** There's a helper in the OS package (I believe it's the OS package) to give you the underlying OS. So if you're building a tool that's supposed to be looking at the underlying OS and you're taking an fs, you just grab that and kind of pass it along through.
+**Mark Bates:** There's a helper in the os package (I believe it's the os package) to give you the underlying OS. So if you're building a tool that's supposed to be looking at the underlying OS and you're taking an fs, you just grab that and kind of pass it along through.
 
 **Mat Ryer:** So that begs the question - do you think that should be best practice, if you're gonna work with files in the local file system? Should we just use FS, and just use that abstraction because it's more versatile? Or would you still just use os.Open?
 
@@ -340,17 +340,17 @@ So just any different kind of format where you have a bunch of files together, y
 
 **Mat Ryer:** So since this happens at build time, is there a way that you can have a situation where you can just be editing the CSS files and just sort of refreshing things in order to see those updates? Or do you have to rebuild? Do you know what I mean? Is there a way to have a sort of passive mode where it will just read, or would you just build that yourself in your particular case?
 
-**Carl Johnson:** \[00:44:00.21\] So that's where the fs.fs comes in. You could have in your program, depending on how you do command line arguments and flags and variograms or variables and whatever it is you do - but you could say "If this value is true, then you use the embed fs, and if it's false, then you use the os.fs, and switch between those two as necessary." So that could be a really good way for development for things like Buffalo, where you wanna have things refreshing as the files get changed on disk. But then, when it's time to build it and ship it either to the server or to the user, you can bake it in and make sure that it's concrete.
+**Carl Johnson:** \[00:44:00.21\] So that's where the fs.fs comes in. You could have in your program, depending on how you do command line arguments and flags and variograms or variables and whatever it is you do - but you could say "If this value is true, then you use the embed.fs, and if it's false, then you use the os.fs, and switch between those two as necessary." So that could be a really good way for development for things like Buffalo, where you wanna have things refreshing as the files get changed on disk. But then, when it's time to build it and ship it either to the server or to the user, you can bake it in and make sure that it's concrete.
 
 **Wayne Ashley Berry:** I actually like that that's not the default behavior, because I don't often do that kind of work, and I've found that with the pre-existing solutions, the third-party tools we're doing this kind of thing, I would have so many problems with local file system embedded files, generated code that's lying around, and it would be so difficult to know which files were actually being read. I actually prefer that there's one way of doing it, you know the files are always embedded the same way, whether you're running locally, or shipping and deploying in some way... So I actually love this, but that interface is incredible as well, because now I can just go through all our libraries, and the standard library as well... It can become that common point of abstraction.
 
 **Mat Ryer:** Yeah.
 
-**Mark Bates:** And it's showing up in a lot of standard library places. Carl was talking about a bunch, but the http package understand fs...
+**Mark Bates:** And it's showing up in a lot of standard library places. Carl was talking about a bunch, but the http package understands fs...
 
 **Mat Ryer:** Ooh...
 
-**Mark Bates:** ...for serving up static files. The template package - so you can parse an fs. So again, those of us who maybe write code generators, being able to just parse and fs is wonderful. There's a lot there.
+**Mark Bates:** ...for serving up static files. The template package - so you can parse an fs. So again, those of us who maybe write code generators, being able to just parse an fs is wonderful. There's a lot there.
 
 **Carl Johnson:** You can pipe them through in funny ways, too. You could, say, distribute to your client a zip file, and then because the zip file can now be used as an fs, you then turn the zip file into a template file system. So instead of saying "Here's this directory of templates and I need you to unzip it and put it in this particular place", just send them the one file that contains all of the templates they need, and they can point it at that file and everything will happen automatically.
 
@@ -372,7 +372,7 @@ So just any different kind of format where you have a bunch of files together, y
 
 **Carl Johnson:** \[00:47:59.01\] One of the nice features of Go has always been the io package. When you're a new gopher, it can be a little bit confusing... Like, "What is package io? What are these read and write methods? Why do I have to do them? Why can't I just use a string?" But when you get to understand them, how they work is basically an io reader is a read-only file, and an io writer is a write-only file... And it lets you abstract away what exactly the file is. Is the file on disk? Is the file an HTTP response that you're reading? Is the file an S3 bucket somewhere that you're reading from?
 
-Go has always had a way of abstracting away an individual file using package io. But now with package io fs you can abstract away a file system. And so it's not just the one file that you're looking at anymore... Because you could always say "I'm getting this io reader from S3" or "I'm getting this io reader from a zip file" or whatever. But now you can have a whole system.
+Go has always had a way of abstracting away an individual file using package io. But now with package io.fs you can abstract away a file system. And so it's not just the one file that you're looking at anymore... Because you could always say "I'm getting this io reader from S3" or "I'm getting this io reader from a zip file" or whatever. But now you can have a whole system.
 
 **Mark Bates:** Yeah, but io readers don't have file sizes, they don't have mod times, they don't have any of those.
 
@@ -398,11 +398,11 @@ And then the other way that we fund software is through the Patreon model. So th
 
 The pushback that I've gotten on this opinion is like "You're saying that the government should pay the Leftpad guy?" \[laughter\] I think that's a fair criticism, but I don't think that that would really happen in practice... Because if you look at how science is funded, usually the government will put together some sort of grant, and the grant will say something like "Can you research how to cure the Coronavirus?" And then you go to that grant committee and you say "I have these scientists working in my team. We have this theory about how we could build a vaccine. We've done these vaccines in the past, that show that we're qualified to do this", and they evaluate your grant proposal and give it a score, and the proposals that score highest get the actual money.
 
-\[00:52:20.07\] So in this case there would be some sort of board of software funding where people would look at "Oh, Go is a popular programming language. It has millions of developers worldwide, and they all say that they would be really excited to use this embed feature... So why don't we give $10,000, $50,000 to this developer, and then get some number of months of his/her time and they can work on the feature so that everyone can benefit?"
+\[00:52:20.07\] So in this case there would be some sort of board of software funding where people would look at "Oh, Go is a popular programming language. It has millions of developers worldwide, and they all say that they would be really excited to use this embed feature... So why don't we give $10,000, $50,000 to this developer, and then get some number of months of his/her time and they can work on the feature so that everyone else can benefit?"
 
 I think something like that -- I don't see it happening anytime soon. That's why I'm putting it in Unpopular Opinions... It seems like everybody wants to cut government funding, instead of increasing government funding... But I think it would really be helpful just to have this third stream of ways that you could fund open source software and prevent developers from getting burned out, or the situation where the corporation changes its mind about what it wants to work on and it walks away.
 
-**Mat Ryer:** Yeah, very interesting. Cory in Slack made a point, which is even the government systems themselves are using a lot of open source software... So they even would directly benefit.
+**Mat Ryer:** Yeah, very interesting. Cory in Slack made the point, which is even the government systems themselves are using a lot of open source software... So they even would directly benefit.
 
 **Carl Johnson:** Yeah. I used to work with former guest of this show Paul Smith, at the Ad Hoc team... And they're great. They do as much as they can in open source. Anything that they can get permission from the government to make open source, basically they do... But I think that's just one angle of things, which is the angle of when the government builds its own software and there's no reason to keep it secret, they should probably open-source it. But there's another angle, which is for software that isn't necessarily useful to the government, there should be some way for the open source maintainers to be able to earn a living with it.
 
@@ -414,7 +414,7 @@ I think something like that -- I don't see it happening anytime soon. That's why
 
 **Wayne Ashley Berry:** ...and it is that we should strive to use as few mocks as possible, and the amount of mocks should decrease over time. This isn't Go-specific, it's just programming in general... And I actually use the philosophy that I heard from a band member once. He said "You should practice how you're gonna play." So if you practice at home and you've got your headphones on and your amp is on 2% volume, and then you're expected to walk onto stage, turn that amp up to 110%, and all of a sudden those skills transfer - that doesn't happen.
 
-I think in software if you're gonna run your code against MySQL, then test your code against MySQL. There are obviously limitations... You know, if you talk about billing, you don't wanna start charging your own credit card, or something like that... But often, those kinds of services will give you emulators that you can run locally, things like that... And I find that it's actually been incredibly helpful for me over time, because I got to the point where one of the services I've been working on for the past year - I actually haven't run it locally in a year. I've \[unintelligible 00:55:32.29\] run the tests ever. So if someone asked me "Go run main.go, what environment variables do I have to set?" and I said "I don't know. You go write a test and you run the test, and that's how you know it's gonna work."
+I think in software if you're gonna run your code against MySQL, then test your code against MySQL. There are obviously limitations... You know, if you talk about billing, you don't wanna start charging your own credit card, or something like that... But often, those kinds of services will give you emulators that you can run locally, things like that... And I find that it's actually been incredibly helpful for me over time, because I got to the point where one of the services I've been working on for the past year - I actually haven't run it locally in a year. I've only run the tests ever. So if someone asked me "Go run main.go, what environment variables do I have to set?" and I said "I don't know. You go write a test and you run the test, and that's how you know it's gonna work."
 
 **Mat Ryer:** Yeah... That's very interesting. I do like that point. We will test that one, too.
 
@@ -426,7 +426,7 @@ I think in software if you're gonna run your code against MySQL, then test your 
 
 **Mat Ryer:** Yeah.
 
-**Carl Johnson:** \[00:55:59.21\] Well, how do you consider fs.fs? Is that a mock, or is that an interface? If in production you're using the embed fs, but in development you're using the os.fs - do you consider that a mock, or do you consider that something different?
+**Carl Johnson:** \[00:55:59.21\] Well, how do you consider fs.fs? Is that a mock, or is that an interface? If in production you're using the embed.fs, but in development you're using the os.fs - do you consider that a mock, or do you consider that something different?
 
 **Mark Bates:** It's an implementation of an interface. I can see what you're saying...
 
@@ -436,7 +436,7 @@ I think in software if you're gonna run your code against MySQL, then test your 
 
 **Mark Bates:** Oh, I have an unpopular opinion...
 
-**Mat Ryer:** Okay. Before we do though, I just wanna say - Roberto Clapis made this point, to your point, Wayne... That if you have code that uses random numbers, then your tests should also use random numbers. It's kind of common for us to want to control the seed in test code, so that you have predictable tests... But in a way, that stops it being the real world a little bit, and actually it'd be better off if you were using random numbers. So that's an interesting point that extends your point, Wayne... Yeah. If you've got nothing to say about that, then we'll listen to Mark's unpopular opinion. \[laughter\]
+**Mat Ryer:** Okay. Before we do though, I just wanna say - Roberto Clapis made this point, to your point, Wayne... That if you have code that uses random numbers, then your tests should also use random numbers. It's kind of common for us to want to control the seed in test code, so that you have predictable tests... But in a way, that stops it being the real world a little bit, and actually it'd be better off if you were using random numbers. So that's an interesting point that extends to your point, Wayne... Yeah. If you've got nothing to say about that, then we'll listen to Mark's unpopular opinion. \[laughter\]
 
 **Mark Bates:** Mine just popped into my head when we were talking about sandwiches... I know, right? I don't particularly care for bacon.
 
@@ -464,7 +464,7 @@ I think in software if you're gonna run your code against MySQL, then test your 
 
 **Mark Bates:** I'm just against any kind of bacon.
 
-**Mat Ryer:** If you like really floppy bacon, you wanna get yourself to London, because we've got the floppiest bacon in town; I mean in the world... If floppy bacon is your thing. Yeah, actually - an American friend of mine ordered a cocktail, and I guess in New York this would be a normal thing... They asked for bacon in the cocktail. Which, if you imagine in New York, in a cool place with American-style bacon that's like firm and sticks up... You know? \[unintelligible 00:58:12.14\] Honestly, it's horrific. It gave me nightmares. They wouldn't do it, but...
+**Mat Ryer:** If you like really floppy bacon, you wanna get yourself to London, because we've got the floppiest bacon in town; I mean in the world... If floppy bacon is your thing. Yeah, actually - an American friend of mine ordered a cocktail, and I guess in New York this would be a normal thing... They asked for bacon in the cocktail. Which, if you imagine in New York, in a cool place with American-style bacon that's like firm and sticks up... You know? But if it's floppy, you can't have that in your drink. Honestly, it's horrific. It gave me nightmares. They wouldn't do it, but...
 
 **Mark Bates:** Yeah, the appeal of that is not nearly as nice. But yeah, there you go; there's my unpopular opinion.
 
