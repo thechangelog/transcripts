@@ -176,7 +176,7 @@ So you'll take some source data from somewhere, which could be Go code, and then
 
 **Mat Ryer:** Yeah, that's great.
 
-**Brian Ketelsen:** That same person Dave, who wrote dst, also built an application called Jennifer... And Jennifer builds on top of dst to help you generate code - hence Jennifer, because it was a programming application without a great punny name... And Jennifer is my favorite personal tool for generating code, because it builds on top of that dst, and it lets you write functions based on the occurrence and order of syntax in your AST. So you're parsing your syntax tree and you find this particular Node, you can write a function that generates code based on the state of your current tree... And it's really, really nice.
+**Brian Ketelsen:** That same person Dave, who wrote dst, also built an application called Jennifer... And Jennifer builds on top of dst to help you generate code - hence Jennifer. Because what's a programming application without a great punny name? And Jennifer is my personal favorite tool for generating code, because it builds on top of that dst, and it lets you write functions based on the occurrence and order of syntax in your AST. So you're parsing your syntax tree and you find this particular Node, you can write a function that generates code based on the state of your current tree... And it's really, really nice.
 
 **Mat Ryer:** That is cool.
 
@@ -622,7 +622,7 @@ One of the things I always talk with my friends about is how like "I don't know,
 
 I'm not against deadlines. I actually really like quite aggressive deadlines, because it really forces you to prioritize. But it's not about cramming all that scope, cramming everything into that short time period. You allow the scope to be flexible, you pick the most important, and sometimes that's the hardest bit... People want everything, of course, by the release date. But if you can't have that because of (I don't know) the laws of physics, then what would you prefer to have first? And that, even as a question, is a very difficult one... And sometimes the worst managers I've ever worked with will say "No, it's all top-priority. It's all top-priority." Because I'm saying, "Well, let's try and order this." "No, we need it all. It's as simple as that."
 
-**Kris Brandow:** I feel like our industry is veered very much into being scared and doing anything upfront. We're always just like, "No, no, we've gotta just get into it, just get into the work." And I think we've very much underestimated the actual cost of doing that, of like--
+**Kris Brandow:** I feel like our industry has veered very much into being scared of doing anything upfront. We're always just like, "No, no, we've gotta just get into it, just get into the work." And I think we've very much underestimated the actual cost of doing that, of like--
 
 **Mat Ryer:** A surprise?
 
