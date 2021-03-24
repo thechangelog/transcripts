@@ -130,7 +130,7 @@ Category three is called Tricky CSS Sites. These are websites that aren't CSS-Tr
 
 **Chris Coyier:** Bleeding edge for 300, please.
 
-**Jerod Santo:** Alright, here we go; they're going after the Bleeding Edge. This modern image format is optimized for web environments. It boasts better image compression than webp, jpeg, png and gif.
+**Jerod Santo:** Alright, here we go; they're going after the Bleeding Edge. This modern image format is optimized for web environments. It boasts better image compression than webp, jpeg, png and gif - with a hard 'G'.
 
 **Chris Coyier:** It's AVIF.
 
@@ -1073,3 +1073,4 @@ The category is CSS \*emoji handshake\* R&B. So there's your category. Contestan
 **Jerod Santo:** Yeah, that's a good call.
 
 **Chris Coyier:** Alright, should we do it?
++
