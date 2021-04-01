@@ -66,7 +66,7 @@ One of the things that we've been doing with this update to the curriculum is we
 
 **Jerod Santo:** You can't back out of that one, can you...?
 
-**Adam Stacoviak:** That's a good way to bake \[unintelligible 00:13:03.27\] make it part of your name.
+**Adam Stacoviak:** That's a good way to bake that moral in, is make it part of your name.
 
 **Jerod Santo:** Yeah. "freeCodeCamp. Let us show you our freemium model..." Yeah.
 
@@ -296,13 +296,13 @@ I've found, for example -- I study a lot of foreign languages. I lived in China 
 
 **Jerod Santo:** That's right, that's right.
 
-**Quincy Larson:** And the future of education is video games. If we can make courses that are as addictive as playing Doom, or playing Street Fighter or something like that, then suddenly you've got this thing that Draws people in and they get really interested in.
+**Quincy Larson:** And the future of education is video games. If we can make courses that are as addictive as playing Doom, or playing Street Fighter or something like that, then suddenly you've got this thing that draws people in and they get really interested in.
 
 One of my aspirations for freeCodeCamp is that someday we can have as robust a fandom as Final Fantasy games, or something like that, where people are like "Oh yeah, this is a particularly insidious challenge, and it's claimed many people have flamed out at this part."
 
 **Adam Stacoviak:** Oh, wow...
 
-**Quincy Larson:** Yeah, we wanna gamify; we wanna have the equivalent of -- like, you want into the room and there are a bunch of corpses, and those are people who have failed the exam, and having to come back to try it again... You know? Something like that. We want that kind of vibe, and we wanna have all the RPG skill tree type elements, just to make it fun.
+**Quincy Larson:** Yeah, we wanna gamify it; we wanna have the equivalent of -- like, you walk into the room and there are a bunch of corpses, and those are people who have failed the exam, and haven't come back to try it again... You know? Something like that. We want that kind of vibe, and we wanna have all the RPG skill tree type elements, just to make it fun.
 
 **Adam Stacoviak:** Sure.
 
@@ -498,13 +498,13 @@ So we're not gonna try to bring in total outsider star math professors. We don't
 
 **Quincy Larson:** Yeah, that's a good question.
 
-**Jerod Santo:** Any promises you'd like to make \[unintelligible 01:06:34.20\]
+**Jerod Santo:** Any promises you'd like to make here on the air?
 
 **Quincy Larson:** We don't use deadlines internally, at all, period. And that's kind of a radical thing that people are like "Oh... That's very contrarian of you, Quincy. Why don't you use deadlines? How do you get things done?" But things get done, regardless of whether you put a deadline on... And I've found that things are generally done better if they're not up against this time pressure that results in compromises.
 
 Now, I can understand certainly the use of deadlines. We happen to have a really motivated team who just gets things done and is very communicative of the state of those things... We also work in massive parallel. I like to call ourselves the Massively Parallel Organization, and this means that we have so many different threads and nobody is getting blocked by anybody else.
 
-If you can take working and you can make it discreet enough and put it on its own thread, then you don't have people blocking one another, and you reduce the communication overhead, and like "Oh, that got done over there. Great." But I wasn't waiting on it. It's just -- I'm delighted that that's done. "Well, that happened. That happened. That happened." So that's a big part of our organizational philosophy - trying to figure out ways that we can design the work and spec it out to where nobody else is waiting on this work to be done. And then it can just ship whenever.
+If you can take work and you can make it discreet enough and put it on its own thread, then you don't have people blocking one another, and you reduce the communication overhead, and like "Oh, that got done over there. Great." But I wasn't waiting on it. It's just -- I'm delighted that that's done. "Well, that happened. That happened. That happened." So that's a big part of our organizational philosophy - trying to figure out ways that we can design the work and spec it out to where nobody else is waiting on this work to be done. And then it can just ship whenever.
 
 And I suspect for the data science curriculum - we've already done a tremendous amount of planning around that, and you can actually browse through a lot of the sheets that we've created that kind of break down all the concepts that we'll be able to teach, and those are gonna continue to evolve. And those are public. Anybody can go and view in a Google Docs so they can see the state of those different sheets and how we're planning different things...
 
