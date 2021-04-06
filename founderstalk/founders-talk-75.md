@@ -160,7 +160,7 @@ But all of these trends, the alignment of them is what pushes what might have be
 
 I just felt like I didn't necessarily wanna spend my whole life being a Google engineer. It didn't matter how much fun or how challenging the work was; for me, that was just part of my internal calculus. In the end, we decided "Hey, we could do another startup." And what Viewfinder was - it was private photo sharing. The same time that Snapchat was getting started, we were getting started, and I think we did build the right thing... Snapchat clearly did... It was really an amazing experience overall, of course; but when we left Google, we were a bit disappointed by what open source databases and open source infrastructure looked like in 2012, compared to what Google had been aggressively building. And that's where the idea of Cockroach was initially born. It was really "Okay, well Spanner is great. We wanna have Spanner-like capabilities. But it has to be open source, and it has to be something that you can run on a laptop, and it has to be something that any startup could use." And the idea of calling it Cockroach is really because cockroaches are so damn resilient. They say after World War III they'd be the only things left alive... It's probably true actually, based on my experience living in New York...
 
-**Adam Stacoviak:** \[unintelligible 00:38:10.15\] WALL-E.
+**Adam Stacoviak:** All the way to WALL-E!
 
 **Spencer Kimball:** That's right.
 
@@ -299,3 +299,4 @@ In order to solve this problem for a much more general audience, it's about impr
 **Adam Stacoviak:** Very cool. Spencer, thank you so much for spending this time with us and sharing your story, and Cockroach's story, and this look into the future of what networks might be like, and how you're planning for them to be reliable. Not so much the network, but the data that might transpire there and the partnerships you might form as a result of this newfound lack of latency in our future communication networks... So thank you so much for sharing your time today, and I appreciate you coming on the show.
 
 **Spencer Kimball:** Yeah, it's been my pleasure. Thank you, Adam.
++
