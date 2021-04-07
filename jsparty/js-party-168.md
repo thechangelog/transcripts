@@ -132,9 +132,9 @@ So Monad says "Imagine that your ancestors are in the afterlife. If you want the
 
 Monad also explained that hooks need to be called every time, and not just conditionally. Not just on Día de Muertos, but every day, every time... And they need to be called by the top-level functional component, and not just inside of some kind of callback.
 
-Now, Monad continued to explain the basics of \[unintelligible 00:15:43.02\] and then went on to explain that his hook was unlike any other. It was a custom hook. Now, with this custom hook, Monad could use the underlying functionality of the other hooks to construct the perfect hook to destroy the extremely verbose monster \[unintelligible 00:16:00.17\] and restore the heart of the function (or the state of the function) to the development team.
+Now, Monad continued to explain the basics of useState, useMemo, and useEffect to this developer. And then went on to explain that his hook was unlike any other. It was a custom hook. Now, with this custom hook, Monad could use the underlying functionality of the other hooks to construct the perfect hook to destroy the extremely verbose monster Teh Class, and restore the heart of the function (or the state of the function) to the development team.
 
-**Jerod Santo:** To class... Are you done?
+**Jerod Santo:** Teh Class... Are you done?
 
 **Nick Nisi:** \[00:16:11.05\] Almost...
 
@@ -142,7 +142,7 @@ Now, Monad continued to explain the basics of \[unintelligible 00:15:43.02\] and
 
 **Nick Nisi:** \[laughs\] So Monad's custom hook could be used to recall the existing application's state, but it could also be used to have an effect on the world around it, because it could use effects. And he could also listen to the ocean, mouse clicks, page scrolls and other things, and he could establish a plan for when his component was cleaned up or removed, and he could talk to the all-knowing cloud by using fetch.
 
-Now, as they faced to class in an epic battle, the developer realized that she could make a custom hook, for hooks were just a way to hook into her environment - React in this case - and then combine that with the strength of other hooks, like Monad's hook. She could \[unintelligible 00:16:56.22\] to the murky syntactical debts.
+Now, as they faced Teh Class in an epic battle, the developer realized that she could make a custom hook, for hooks were just a way to hook into her environment - React in this case - and then combine that with the strength of other hooks, like Monad's hook. She could vanquish Teh Class to the murky syntactical depths.
 
 Now, with this new power she returned to her people, and once and for all replaced their class-based components with functional components, supported by the power of hooks, that were within them all along. The end.
 
@@ -166,9 +166,9 @@ So of course, there's your bear explanation, and there are lots of downsides wit
 
 Imagine that you're playing Monopoly with some friends... And one person decides - maybe they're the homeowner. Usually house rules... They decide that they're gonna be both the banker and the rule enforcer. Pretty typical. Everything starts off okay, but then the banker starts doing some things that you don't appreciate as someone who plays the game. For example, they start injecting new money into the game, but not equally to everyone. Just to themselves and some of their friends.
 
-They change the rules about how much money you get for passing, what you can go to jail for and for how long, they create over-the-top transfer fees and laws about who can trade with whom etc.
+They change the rules about how much money you get for passing Go, what you can go to jail for and for how long, they create over-the-top transfer fees and laws about who can trade with whom, etc.
 
-Eventually, you and a few other people in the game decide that you want to transact without the banker's rules, permissions, fees and so on. But you can't use the Monopoly box, because the banker runs that whole system of things. So instead, you start a grouptext on your phones. And each time you wanna transfer money to and from each other, you put that in a text. Maybe you text "I'll send five \[unintelligible 00:21:56.27\] to Kball." And then you text that out.
+Eventually, you and a few other people in the game decide that you want to transact without the banker's rules, permissions, fees and so on. But you can't use the Monopoly bucks, because the banker runs that whole system of things. So instead, you start a grouptext on your phones. And each time you wanna transfer money to and from each other, you put that in a text. Maybe you text "I'll send five Schrute Bucks to Kball." And then you text that out.
 
 Everyone involved in this new way of sending money is in the grouptext, so that's how you keep each other honest. Bitcoin is the grouptext. The end. What do you think?
 
@@ -270,17 +270,17 @@ So that's the other approach - instead of looking for the entry point, how am I 
 
 But immediately going to this, I see that it has a Packages directory, so that immediately makes me think "Oh, this is a monorepo." So exploring it from that sense of -- that's how I can figure out how to navigate it, is treating it as a monorepo. It's not using Lerna. That's the only monorepo configuration I'm familiar with.
 
-**Jerod Santo:** Yeah. So places that I'll usually start - obviously, I'll start at the readme. That's the clear and obvious one, read the readme. Oftentimes in the readme there will be instructions on how to contribute. And usually that's where they'll give you entry points, or they'll give you places to start, or at least how to get it on your machine etc.
+**Jerod Santo:** Yeah. So places that I'll usually start - obviously, I'll start at the readme. That's the clear and obvious one, read the readme. Oftentimes in the readme there will be instructions on how to contribute. And usually that's where they'll give you entry points, or they'll give you places to start, or at least how to get it on your machine, etc.
 
 This one has a nice contribution guide. So if you start in the readme, you find the contribution guide. That's normally going to tell you a whole bunch about getting started. In fact, theirs is pretty well written, better than most open source projects I come across. And they'll tell you how to get the repo set up, they'll tell you they're using yarn, they do tell you that this is a monorepo... So you drilled that, Nick. And they'll tell you where the packages live, where the test directories are... And then of course, PR guidelines and all that kind of stuff.
 
 Now, it's different whether you're trying to actually just understand it, or if you're actually trying to hack on it; maybe you don't care about the PR guidelines. I don't, at this phase. I'm just trying to understand where things live. So start there...
 
-And then also package.json. A lot of times you can figure out things about a project by its dependencies, and also its Npm scripts, and stuff. If you go look at the scripts key in the package.json, you'll find a lot of the entry points. And this one is no different. At least you'll find out how to run the tests, what they're using, the subcommands they're using in order to run the tests... These are also a great place to start.
+And then also package.json. A lot of times you can figure out things about a project by its dependencies, and also its npm scripts, and stuff. If you go look at the scripts key in the package.json, you'll find a lot of the entry points. And this one is no different. At least you'll find out how to run the tests, what they're using, the subcommands they're using in order to run the tests... Tests are also a great place to start.
 
 \[00:40:01.02\] So this is a monorepo. If you go inside packages, you can find out "Well, it has a plugin architecture. So there's a Vite directory, and then there's plugin Vue, plugin Vue JSX, plugin React Refresh, plugin Legacy. So now I know "Okay, there's some sort of plugin architecture that's being used, and these are the official first-party plugins. And this Vite directory is probably where the bulk of the logic is."
 
-Then they also have the Playground, which is that... Maybe that's part of whatever monorepo system they're doing... Or is Playground a pretty typical directory path for monorepos or for projects? It's not something that I'm used to. Is that directory Playground pretty common?
+Then they also have the Playground, which -- is that... Maybe that's part of whatever monorepo system they're doing... Or is Playground a pretty typical directory path for monorepos or for projects? It's not something that I'm used to. Is that directory Playground pretty common?
 
 **Nick Nisi:** Not that I've seen...
 
