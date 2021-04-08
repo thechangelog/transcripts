@@ -192,7 +192,7 @@ Disagree with me. That's fair. But that now drives a whole bunch of decisions ar
 
 **Bill Kennedy:** I'm a fan of generics. I think that generics are gonna bring some really great things to the language, that we don't have today, that I'd like to see. Now you can say "Bill, what is that?" I wanna see a package in the standard library that can implement as many of the concurrency patterns that we all have to code ourselves. I think there's more bugs in Go code today because everybody's writing their own pooling patterns, fan-outs, other complex things that could be coded by somebody on the language team where you just pass a function or something, and you know that the concurrency pattern is solid. So I'm super excited about that.
 
-The sync.Map - look at the comments around the sync.Map type. You know somebody engineered that to be mechanically sympathetic with the hardware caching system, that you don't get if you use a regular Go map? Imagine we could put a concrete type to that. I wouldn't use a regular Go map every again, because if I'm gonna be doing heavy, heavy map stuff, and I'm gonna get the mechanical sympathies of the caching system with that type, and I get to use a concrete type on top of that? WOOH!
+The sync.Map - look at the comments around the sync.Map type. You know somebody engineered that to be mechanically sympathetic with the hardware caching system, that you don't get if you use a regular Go map? Imagine we could put a concrete type to that. I wouldn't use a regular Go map ever again, because if I'm gonna be doing heavy, heavy map stuff, and I'm gonna get the mechanical sympathies of the caching system with that type, and I get to use a concrete type on top of that? WOOH!
 
 **Johnny Boursiquot:** Golden.
 
@@ -274,7 +274,7 @@ So there's a whole another show you should have here about performance reviews, 
 
 **Johnny Boursiquot:** Do it.
 
-**Kris Brandow:** We're probably gonna have to talk about this a little bit, but... I feel that calling Go Golang is a respect problem and causes major inclusion problems within our community.
+**Kris Brandow:** We're probably gonna have to talk about this a little bit, but... I feel that calling Go "Golang" is a respect problem and causes major inclusion problems within our community.
 
 **Johnny Boursiquot:** Really? \[laughs\]
 
@@ -282,7 +282,7 @@ So there's a whole another show you should have here about performance reviews, 
 
 **Kris Brandow:** Okay. So here's the line of thinking behind this. The language's name is clearly Go. It is Go. That is what the authors have called it, that is what all the documentation says... And calling it Golang shows that, as a member of this community, you don't have the level of respect to actually call something by the name it is intended to be called by... Which I think at a level -- and maybe this is trying to draw a line too far... But I think if you can't call something that you're voluntarily being part of by the right name, how can we actually expect you to call other things by their right name?
 
-\[01:18:00.08\] That's where I get to the inclusion problem of like "If you can't call a programming language by their name, how can we expect you to call someone by the correct pronouns? How can we expect you to call someone who transitions and is a prominent member of the community by their correct name, and not \[unintelligible 01:18:12.09\]" And that causes lots of problems with inclusion at the end of the day... And I think that it seems small, it seems tiny, but if you can't get your head around that, how can we really trust people to get their head around these bigger things?
+\[01:18:00.08\] That's where I get to the inclusion problem of like "If you can't call a programming language by the right name, how can we expect you to call someone by the correct pronouns? How can we expect you to call someone who transitions and is a prominent member of the community by their correct name, and not dead-name them. And that causes lots of problems with inclusion at the end of the day... And I think that it seems small, it seems tiny, but if you can't get your head around that, how can we really trust people to get their head around these bigger things?
 
 **Bill Kennedy:** Let me ask one question to you, because I think the problem here is though the language team early on made it clear that the language's name is Go and not Golang - they made it clear - the problem is too many people, and we've got a million people here coming to the language, their first interaction with it is the search term "golang". It's like their first interaction with it. So from their perspective, "I use Golang on Google and all the stuff comes up." So they kind of just transfer the name along. I think it's done innocently. I think it's done out of ignorance, because if you just type "go", you may not necessarily see the same results as "golang". It became the search term.
 
