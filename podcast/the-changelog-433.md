@@ -22,9 +22,9 @@ Actually, another one that came up right after that was S3-compatible stores... 
 
 **Ben Johnson:** Yeah, that's a really good point, actually. That's probably some copy editing I need to change... Those are huge contributions; I guess code contribution is the thing it's closed to.
 
-**Jerod Santo:** Yeah. Only Ben can write code, but everybody else can-- because the question is, if I don't want contributions, and it's like "Well, why did you open-source it?" But it's clear why you open-sourced it, because you do want participation, or community involvement, and all these things. It's just specifically you're writing the code for this project.
+**Jerod Santo:** Yeah. Only Ben can write code, but everybody else can-- because the question is, if I don't want contributions, then it's like "Well, why did you open-source it?" But it's clear why you open-sourced it, because you do want participation, or community involvement, and all these things. It's just specifically you're writing the code for this project.
 
-**Ben Johnson:** \[00:07:57.10\] Yeah. And I think there's a lot around the actual direction of usability and how you want it to feel, how everything integrates together, that I think is easy to miss if you're an outside contributor just bringing in an initial PR into the project. And I think I could certainly get people up and running, explain to them why certain things go together, and certain things work in the way they do... But again, that's just a lot of overhead, that I'm not necessarily opposed to, but is that time better spent building the product and making it kind of gel a little better together.
+**Ben Johnson:** \[00:07:57.10\] Yeah. And I think there's a lot around the actual direction of usability and how you want it to feel, how everything integrates together, that I think is easy to miss if you're an outside contributor just bringing in an initial PR into the project. And I think I could certainly get people up and running, explain to them why certain things go together, and certain things work in the way they do... But again, that's just a lot of overhead, that I'm not necessarily opposed to. But is that time better spent building the product and making it kind of gel a little better together?
 
 And I guess from my side, I haven't gotten to that point where I need a second person to come on and really commit code in that kind of way.
 
@@ -52,7 +52,7 @@ I mean, not Litestream. Litestream doesn't actually overwrite your database, but
 
 **Ben Johnson:** ...they can really grow as they interact with each other, and there just could be unexpected ways that they do that. So I think features really very much are - even from a documentation standpoint, usability standpoint - liabilities.
 
-**Jerod Santo:** Yeah. And that kind of one way streets as well, because it's easy to add, but it's very difficult to remove...
+**Jerod Santo:** Yeah. And they're kind of one-way streets as well, because it's easy to add, but it's very difficult to remove...
 
 **Ben Johnson:** Oh, yeah.
 
@@ -128,9 +128,9 @@ So that kind of thing -- I worked on a project before that where I ported over a
 
 Mike Perham (I think that's how you say his name) from Sidekiq - he had a tweet years ago that just stuck in my head; I think he was kind of trolling a little bit, but he was basically saying "If you don't license a GPL, you just don't care about your code." I think he was a little bit trolling; it was a little bit in jest, but that kind of sat with me. If you don't really control what happens to your code, and where it goes, and what people do with it, you kind of limit the ways you can grow that project.
 
-I've been around sustainability... I guess my biggest thing with sustainability is it feels like -- I know GitHub's recently added corporate sponsorships, but a lot of it is always focused around individuals contributing to other individuals doing open source... Whereas really the people that benefit the most are these bigger companies, that could easily spend $1,000 a year or whatever, paying for some library that really supports their business.
+Again, around sustainability... I guess my biggest thing with sustainability is it feels like -- I know GitHub's recently added corporate sponsorships, but a lot of it is always focused around individuals contributing to other individuals doing open source... Whereas really the people that benefit the most are these bigger companies, that could easily spend $1,000 a year or whatever, paying for some library that really supports their business.
 
-I think having more control around the actual license and what people can end up doing it with it can really shape the conversation more. Did that make sense? I'm not trying to sound too \[unintelligible 00:26:48.29\] or anything, but I find that to be a fascinating direction that I've never really taken before.
+I think having more control around the actual license and what people can end up doing it with it can really shape that conversation more. Did that make sense? I'm not trying to sound too greedy or anything, but I find that to be a fascinating direction that I've never really taken before.
 
 **Adam Stacoviak:** Have you read this license end-to-end, Ben? Just curious.
 
@@ -392,11 +392,11 @@ And I always thought SQLite was cool and all, and for specific things, like in y
 
 **Jerod Santo:** Aren't there concurrency issues with SQLite or anything like that, that you wouldn't wanna do it?
 
-**Ben Johnson:** It does run multi-threaded... So I write Go, that's my language of choice, and I've written projects in SQLite, and I will say a few things on that topic. It does well multi-threaded. I can run thousands of requests at this VPS at a time, and the fact that you can actually -- you can run a request, and I've done testing where I've had several queries run on an HTTP request, and the total time (and this includes rendering out HTML as well) to connect to the queries, pull that back, render out the frontend was about 50 microseconds.
+**Ben Johnson:** It does run multi-threaded... So I write Go, that's my language of choice, and I've written projects in SQLite, and I will say a few things on that topic. It does well multi-threaded. I can run thousands of requests at this VPS at a time, and the fact that you can actually -- you can run a request, and I've done testing where I've had several queries run on an HTTP request, and the total time (and this includes rendering out HTML as well) to connect, do the queries, pull that back, render out the frontend was about 50 microseconds.
 
 The way that you develop (I find) with embedded databases tends to -- you almost change your mindset a bit. I have this theory that all databases are actually the same; the only real difference that you have among databases is latency. So once you have a client-server situation, you have issues of like n+1 queries. So you really wanna optimize to get as much of your data back in a single query as possible. You have to do joins, there's a lot of stuff around ORM tools, where they kind of like try to batch together requests... And it's always a pain in the ass.
 
-And that query language is what really makes the difference. If you have graph data, you wanna have a graph language. If you have document data, you wanna have a document language. SQL works on relational tables. But once you actually move the storage locally, into the same process as your code, you really don't even need those separate languages. I mean, they can kind of help from a usability standpoint, but from a performance standpoint you could just as easily look up your individual -- traverse your graph notes locally using your own language, versus the actual query language itself. Does that make sense? It's a bit esoteric.
+And that query language is what really makes the difference. If you have graph data, you wanna have a graph language. If you have document data, you wanna have a document language. SQL works on relational tables. But once you actually move the storage locally, into the same process as your code, you really don't even need those separate languages. I mean, they can kind of help from a usability standpoint, but from a performance standpoint you could just as easily look up your individual -- traverse your graph nodes locally using your own language, versus the actual query language itself. Does that make sense? It's a bit esoteric.
 
 **Jerod Santo:** \[00:56:17.07\] To a certain degree...
 

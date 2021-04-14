@@ -422,7 +422,7 @@ And if you want to support me as a developer that works on GoReleaser, then I li
 
 **Mat Ryer:** Do you have an unpopular opinion for us, Carlos?
 
-**Carlos Becker:** I have a couple, but I don't think they are so unpopular... For example, I don't think we need generics... But I think this was talked about in the last episode. So I will go with go.mods are great, but I don't think most people will do that v2 folder thing for major \[unintelligible 00:51:36.02\] I get it why they ask you to do that, but I don't think people will do it. I won't do it, for sure, because it's already hard to keep one version, one stable version. A lot of stable versions is -- sorry, I'm not going to \[unintelligible 00:51:54.27\]
+**Carlos Becker:** I have a couple, but I don't think they are so unpopular... For example, I don't think we need generics... But I think this was talked about in the last episode. So I will go with go.mods are great, but I don't think most people will do that v2 folder thing for major bumps, or whatever. I get it why they ask you to do that, but I don't think people will do it. I won't do it, for sure, because it's already hard to keep one version, one stable version. A lot of stable versions is -- sorry, I'm not going to try it.
 
 **Mat Ryer:** \[00:51:57.20\] Yeah, that's very interesting. What will you do then, if there's a second major version of GoReleaser?
 
@@ -474,7 +474,7 @@ And if you want to support me as a developer that works on GoReleaser, then I li
 
 **Natalie Pistunovich:** What I said one of the previous times was that just try things, even if you're maybe a little bit scared, or not sure about. And then we saw some surprising applications by people who don't associate themselves with any minority or diversity groups, and also have decently-paying jobs, and apply for a diversity scholarship. This is an example of something you should not necessarily go for. \[laughs\]
 
-**Mat Ryer:** \[00:56:07.24\] Okay. What's \[unintelligible 00:56:12.25\] Johnny? I handle all the sensitive ones over to Johnny. Johnny, what do you think about this really difficult subject.
+**Mat Ryer:** \[00:56:07.24\] Okay. What's \[unintelligible 00:56:12.25\] Johnny? I hand all the sensitive ones over to Johnny. Johnny, what do you think about this really difficult subject?
 
 **Johnny Boursiquot:** I don't disagree... So at the risk of annoying a few people out there, it's easy to -- actually, the reason I'll say this is because this is a conversation I've had with some colleagues and friends recently... It's easy to feel resentful when you see that there are opportunities that are being created, opened up to people who don't look like you... If you happen to be white, or male, or usually white and male. It's easy to be resentful. And obviously, I've never been a white male, so I wouldn't know exactly how that feels, so...
 
