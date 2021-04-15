@@ -26,7 +26,7 @@ I'm joined by - you won't believe it - Johnny Boursiquot. Hello, Johnny.
 
 **Mat Ryer:** Thanks for coming on the show and thanks for GoReleaser. Something I use every day... For anybody not familiar with it, maybe you could just give a quick overview - what is it?
 
-**Carlos Becker:** Basically, a tool that builds your Go projects to whatever, GOOS, GOARCH, and any combinations you want, and it creates Linux packages, homebrew-tap recipes, or whatever the name is. Also, Snap packages for Linux, \[unintelligible 00:04:57.25\] Docker images, and pushes to S3, and whatever other thing you want to, basically.
+**Carlos Becker:** Basically, a tool that builds your Go projects to whatever, GOOS, GOARCH, and any combinations you want, and it creates Linux packages, homebrew-tap recipes, or whatever the name is. Also, Snap packages for Linux, .deb, .rpm, .apk, Docker images, and pushes to S3, and whatever other thing you want to, basically.
 
 **Mat Ryer:** Yeah. When I have a Go tool, I use GoReleaser to -- it does the builds for me for all the targets that I want. I just specify it in a config file. And it pushes it also up to GitHub for me. So it creates the release in GitHub, and it includes the changelog, and things like that.
 
@@ -36,7 +36,7 @@ If you're building tools that you release in that way, it's a great choice. John
 
 **Mat Ryer:** Yeah... Let's see if that happens.
 
-**Natalie Pistunovich:** Yeah, I can try to convince you the same way I convinced myself to write it, actually... Because I didn't want to keep more shell scripts all over the place... So yeah, it's a YAML file, so at least you don't have to copy-paste a lot of shell script.
+**Carlos Becker:** Yeah, I can try to convince you the same way I convinced myself to write it, actually... Because I didn't want to keep more shell scripts all over the place... So yeah, it's a YAML file, so at least you don't have to copy-paste a lot of shell script.
 
 **Mat Ryer:** And Johnny, you love YAML, don't you?
 
@@ -86,7 +86,7 @@ So releasing has never been something that I've done a lot, let's say, and being
 
 **Carlos Becker:** Yeah, I think that's the first part... And the other part is not having a process that is too hard to follow, or that has too many moving parts, because whenever you need to do a lot of things manually, you're prone to make some mistake and do something wrong.
 
-**Mat Ryer:** Yeah, and so then with continuous integration and continuous deployment systems - they will often watch the depositories. So when the pull requests get merged in or when code gets merged into the main branch, that then triggers some operation which can then go and do that release work... And do lots of people use GoReleaser in that context?
+**Mat Ryer:** Yeah, and so then with continuous integration and continuous deployment systems - they will often watch the repositories. So when the pull requests get merged in or when code gets merged into the main branch, that then triggers some operation which can then go and do that release work... And do lots of people use GoReleaser in that context?
 
 **Carlos Becker:** I think so. I actually created it with that in mind, because if you think about having reproducible builds, my machine is not something that I can easily reproduce... So running in CI seems to make more sense; either on CI, or on a Docker container, or something that you can reproduce easily.
 
@@ -174,7 +174,7 @@ Have there been any challenges with working in that open source world? Like, som
 
 **Natalie Pistunovich:** You mentioned a little bit of that -- you wrote this, basically, when you were starting, using Go... And in the beginning you introduced this project as kind of automating everything. In my mind, automating everything means like automation \[unintelligible 00:24:58.07\] But somehow everything dev-opsy is actually in Go. Did you choose intentionally Go for this, or did you just use Go because you were using the language at the time? What was your thought process for this choice?
 
-**Carlos Becker:** I used Go for several reasons. Because the other languages I was working with before were basically Java and Ruby, and neither of them seemed right to me... And my shell script was already very complex, so I kind of \[unintelligible 00:25:29.02\] It was meant to release a Go proejct, so I thought it also makes sense to write it in Go. That was basically my thought process at the time.
+**Carlos Becker:** I used Go for several reasons. Because the other languages I was working with before were basically Java and Ruby, and neither of them seemed right to me... And my shell script was already very complex, so I kind of \[unintelligible 00:25:29.02\] It was meant to release a Go project, so I thought it also makes sense to write it in Go. That was basically my thought process at the time.
 
 **Natalie Pistunovich:** And then you found out Kubernetes and Docker and everything is written in Go, and you're like "Yes! I made the right choice!"
 
@@ -374,7 +374,7 @@ Christian on Gophers Slack - and by the way, you can join in the conversation th
 
 **Johnny Boursiquot:** There's a lot of ways you could misinterpret it... \[laughs\]
 
-**Carlos Becker:** ...there's black metal band variant - \[unintelligible 00:48:24.08\]
+**Carlos Becker:** ...there's black metal band variant - Gore leaser..
 
 **Mat Ryer:** Oh... And you clashed with them. Do you get a lot of cross-traffic?
 
@@ -388,7 +388,7 @@ Christian on Gophers Slack - and by the way, you can join in the conversation th
 
 **Mat Ryer:** Yeah. Well, that's what happens when you don't have good test coverage. That's where you get your screams from. Natalie, you're into metal, aren't you?
 
-**Natalie Pistunovich:** Yeah... When you say "screams", it was a little bit hurting ear, because \[unintelligible 00:49:03.05\]
+**Natalie Pistunovich:** Yeah... When you say "screams", it was a little bit hurting my ear, because \[unintelligible 00:49:03.05\]
 
 **Mat Ryer:** It's offensive.
 
