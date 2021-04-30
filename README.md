@@ -332,6 +332,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://mislav.net"><img src="https://avatars2.githubusercontent.com/u/887?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mislav Marohnić</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=mislav" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/jugglinmike"><img src="https://avatars2.githubusercontent.com/u/677252?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jugglinmike</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=jugglinmike" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/JaCoB1123"><img src="https://avatars.githubusercontent.com/u/642504?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jan Bader</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=JaCoB1123" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
