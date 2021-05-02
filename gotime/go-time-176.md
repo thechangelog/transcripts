@@ -72,7 +72,7 @@ So in this case - and we may be getting too far into the weeds here if we wanna 
 
 **Jon Calhoun:** So when you're talking about these buckets that the bytes come into, I assume that's just the buffer, that when we're in our actual code, if we start reading the incoming data from Google, at that point it would clear out the buffer and it would get emptied up again. Is that correct?
 
-**Adam Woodbeck:** Yes. Essentially, if I'm receiving data from Google and I never read that from my connection, then it just sits in that bucket. And the bucket could eventually fill up, and then my side is gonna start telling Google "Don't sell anything else. I have no room for you to send any data to me." So the onus is on me as the programmer to make sure I'm reading data from that bucket, so I can continue to receive more data from Google.
+**Adam Woodbeck:** Yes. Essentially, if I'm receiving data from Google and I never read that from my connection, then it just sits in that bucket. And the bucket could eventually fill up, and then my side is gonna start telling Google "Don't send anything else. I have no room for you to send any data to me." So the onus is on me as the programmer to make sure I'm reading data from that bucket, so I can continue to receive more data from Google.
 
 **Jon Calhoun:** So as a developer this is something that we never really see in our code. None of us are sitting here, writing HTTP requests where we're like "Okay, we're gonna send 100 bytes, then 200 bytes...", whatever the limits are.
 
@@ -108,7 +108,7 @@ So I'm not guaranteed that all the packets I send are going to go over or take t
 
 **Jon Calhoun:** I think one of the things that's really cool to see about TCP is that -- we talk about building redundant systems, but this is one of the most redundant systems, if you think about it... Or at least it seems like one of the more redundant systems that we deal with on the internet... It's the fact that literally anything can just stop taking packets, and everybody knows how to sort of handle that and move forward.
 
-**Adam Woodbeck:** Yeah. I don't have a lot of experience with this, but think about if you're watching a YouTube video and you're driving in your car and you're watching it on your cell phone, you're hopping from tower to tower and you're getting different IP addresses, yet from your perspective TCP is able to handle all of those changes and interruptions and properly buffer things as it needs to, so your playback is nice and smooth.
+**Adam Woodbeck:** Yeah. I don't have a lot of experience with this, but think about if you're watching a YouTube video and you're driving in your car and you're watching it on your cell phone, you're hopping from tower to tower and you're getting different IP addresses, yet from your perspective TCP is able to handle all of those different changes and interruptions and properly buffer things as it needs to, so your playback is nice and smooth.
 
 **Jon Calhoun:** Speaking of that - and I don't know if this is too complicated, but how do the TCP connections work when you're doing that? Like, if we're driving down the road. Is it making new connections?
 
@@ -134,7 +134,7 @@ So if I send several strings at once to you, and you start reading them from you
 
 **Jon Calhoun:** Yeah. I guess in my mind that means that if I'm writing my own - for a lack of a better word - client and server that are communicating, I can sort of define this paradigm myself, or I can say "These many bytes are the type, these many bytes are the size of the message, and then I can just go from there."
 
-\[00:27:59.05\] So does that mean there's standards for things like the web, or different places like that that everybody just sort of agrees to? Because obviously, I'm not writing Google server, so I can't tell them what to expect... So is that how the web works, there's some sort of standard there?
+\[00:27:59.05\] So does that mean there's standards for things like the web, or different places like that that everybody just sort of agrees to? Because obviously, I'm not writing a Google server, so I can't tell them what to expect... So is that how the web works, there's some sort of standard there?
 
 **Adam Woodbeck:** Yeah, so when you're requesting a resource - say you're requesting a web page to send an HTML page - you're gonna get header information back that will have your content length... And that's essentially the length of the payload that's going to represent the HTML that you requested, for instance.
 
@@ -146,7 +146,7 @@ There's other encoding methods. Go includes gob in its standard library, and ess
 
 **Jon Calhoun:** Okay, awesome. So when we're dealing with these network connections -- I guess another question I have is... You basically said TCP is sort of like this conversation we're having. Is that something that we need to close? Because with UDP, I assume, you just send your message, forget it, don't worry about it. So with TCP, do you have to worry about telling people essentially goodbye in the conversation? Or how does that sort of look?
 
-**Adam Woodbeck:** Yeah, so programmatically in Go when you have a network connection object, it has a close method. If you do not call that close method, your side of the conversation doesn't send its FIN. It doesn't tear it down. It can keep your side of the conversation open, and you're essentially leaking the connection. So if you do that enough, you can exhaust the number of connections that your operating system can open, and now you can't open any more network connections, because you have all of these orphaned network connections that are in what are called a closed weight state, because you didn't properly close them in your code. With UDP, you don't have to worry about that.
+**Adam Woodbeck:** Yeah, so programmatically in Go when you have a network connection object, it has a close method. If you do not call that close method, your side of the conversation doesn't send its FIN. It doesn't tear it down. It can keep your side of the conversation open, and you're essentially leaking the connection. So if you do that enough, you can exhaust the number of connections that your operating system can open, and now you can't open any more network connections, because you have all of these orphaned network connections that are in what are called a closed wait state, because you didn't properly close them in your code. With UDP, you don't have to worry about that.
 
 **Kris Brandow:** I have a question on TCP... So you mentioned sequence numbers with packets, and how we increment them for the number of bytes... How are those represented? And if they're represented with some fixed number of bytes, what happens if it rolls over? We pick a random number and we try to send -- if it's like 32 bytes and it sends four gigs or five gigs of data with a TCP connection, does it just wrap around and we just start from the beginning? Or how is that handled?
 
@@ -172,7 +172,7 @@ So if I send you 5,000 bytes of data, I expect an acknowledgment that it's 5,000
 
 **Adam Woodbeck:** Yeah, you would have to send a tremendous amount of data in order to lap yourself, right?
 
-**Kris Brandow:** I mean, it's four gigs, right? That'd be like four billion bytes; it's about what you can represent with a 32-bit \[unintelligible 00:32:58.16\] If you're downloading a 10-gig application or something, or video file, that's over a TCP connection you could see it wrapping around...
+**Kris Brandow:** I mean, it's four gigs, right? That'd be like four billion bytes; it's about what you can represent with a 32-bit unsigned. If you're downloading a 10-gig application or something, or video file, that's over a TCP connection you could see it wrapping around...
 
 **Jon Calhoun:** Yeah, that's an interesting one, because we've gotten to this point where four gigs isn't that much. It used to be a lot, but now you download video games that are 30 gigs pretty regularly... Well, maybe not, but if you're a gamer, you probably download 30-gig games somewhat regularly.
 
@@ -266,7 +266,7 @@ And I think the other thing that we also started figuring out is that TCP works 
 
 I guess the simple way to describe it is whereas HTTP 1 and 2 rely on TCP as the mechanism to order the bytes, so it just puts all the bytes on the wire in whatever format; there's framing in HTTP/2, so you can do that multiplexing, so it's "Okay, if I have three streams that are sending data, I'll chunk them into smaller pieces, and as I'm ready to send them, I will multiplex them onto the TCP connection."
 
-HTTP/3 is higher level than this. All of that ordering is at a higher level of abstraction... So instead of relying on the connection to give you any sense of ordering \[unintelligible 00:54:15.11\] they do the framing directly in UDP, breaking up the packets to those sizes for stream, and then I have all of the identifying information inside each UDP pack as it's getting sent along.
+HTTP/3 is higher level than this. All of that ordering is at a higher level of abstraction... So instead of relying on the connection to give you any sense of ordering and you have to do the framing there they do the framing directly in UDP, breaking up the packets to those sizes for a stream, and then I have all of the identifying information inside each UDP packet as it's getting sent along.
 
 I already mentioned that the biggest benefit to something like this is that you get that nice "I can switch between different networks and it still works", because the connection information no longer lives within TCP, within that protocol layer; it lives within the application layer, so the application just has to know "Oh, this is part of this stream that I already have..."
 
