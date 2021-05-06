@@ -334,6 +334,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/JaCoB1123"><img src="https://avatars.githubusercontent.com/u/642504?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jan Bader</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=JaCoB1123" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/kevindigo"><img src="https://avatars.githubusercontent.com/u/45774061?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kevin Smith</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=kevindigo" title="Documentation">📖</a></td>
   </tr>
 </table>
 
