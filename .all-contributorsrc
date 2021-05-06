@@ -2122,6 +2122,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "kevindigo",
+      "name": "Kevin Smith",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45774061?v=4",
+      "profile": "https://github.com/kevindigo",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
