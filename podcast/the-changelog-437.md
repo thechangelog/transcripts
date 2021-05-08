@@ -60,7 +60,7 @@ And then there's different smaller parts of the ecosystem, like Home Manager, wh
 
 **Jerod Santo:** \[00:12:18.03\] It's kind of nice, because it's approachable in that way. If you're already just running macOS, or maybe running Ubuntu as your development environment and you want to use Nix package manager, and have your own little isolated Nix environment, you can do that, so you don't have to go all-in. But if you wanna go all-in maybe a year later, you're loving it and you're wondering "Why don't I just use Nix for everything?", you can set it up as your desktop environment and run an entire distribution of Linux that has Nix at its core.
 
-**Domen Kožar:** Yeah, exactly. I think the easiest way to get started is to use the \[unintelligible 00:12:49.10\] Ruby environment, or all these language-specific tools. And you can expose then a shell environment for your project with a bunch of tooling, which is reproducible, and you always get the same kind of tools... And it's pretty nice, because you can share that between Linux and MacOS. So we just drop that file in, and that's a really good start, I would say.
+**Domen Kožar:** Yeah, exactly. I think the easiest way to get started is to use the nix-shell, which allows you to -- it's kind of like virtualenv, but system level, or  Ruby environment, or all these language-specific tools. And you can expose then a shell environment for your project with a bunch of tooling, which is reproducible, and you always get the same kind of tools... And it's pretty nice, because you can share that between Linux and MacOS. So we just drop that file in, and that's a really good start, I would say.
 
 And yeah, the other one is to be able to install a bunch of software that otherwise the Linux distribution doesn't expose it, or something else... Those are the two common paths.
 
@@ -82,7 +82,7 @@ One of the cool things is that you can build your whole system remotely, on a di
 
 So Nix as a language evaluates to so-called derivations. These are the instructions how to build a package, and then you can copy those to another machine, and then you can realize them - that's the term, which goes from this derivation into the actual build, which then produces the output.
 
-On the way, you can also, instead of building substitutes - that's the technical term we use when, say, you download a package for this hash, which is then the \[unintelligible 00:18:59.01\] instead of building. That's a kind of pretty nice benefit, I think.
+On the way, you can also, instead of building substitutes - that's the technical term we use when, say, you download a package for this hash, which is then the binary you get, instead of building. That's a kind of pretty nice benefit, I think.
 
 **Break:** \[00:19:06.17\]
 
@@ -104,21 +104,21 @@ So the builder will take care of the building part, and this is where I previous
 
 \[00:24:14.07\] And the building phase is not that interesting. There's essentially two parts to it. One is that it will use these derivation files to call this builder, as I've mentioned... But before it does that, it will also check with this hash if there exists a binary package for it, and it will substitute it if there is one. And if not, and if not, then it will go and build it.
 
-How that works is that when the package is built, as I've mentioned, Nix will put it in the /nix/store \[unintelligible 00:24:41.20\] and then everything goes in there. And the same for all the dependencies.
+How that works is that when the package is built, as I've mentioned, Nix will put it in the /nix/store/, and then hash and the name of the package, and then everything goes in there. And the same for all the dependencies.
 
 So let's assume now that Nix downloaded some binaries as a dependency of Firefox, and then it builds the Firefox. Now it just has a bunch of folders in /nix/store, and now it will link those into something we would call file system hierarchy, which is the standard you're used to in Debian, for example, so /user and /opt, and so on. And it will just layer these things essentially together into something Nix calls profile. And this profile is really just one snapshot of when you installed a package, or a group of packages completely linked together.
 
 So that's how Nix goes from this global store into an actual file system hierarchy that we're used to. It's one big assembling farm, the way to imagine it... This is then how you go through -- if you install something, it will install all the packages you had before, and then this package on top of it. So it's kind of like immutable; you build up these things. That's how I like to imagine this.
 
-And the same when you uninstall, it will not remove the Firefox from the /nix/store directory, but it will just create a new profile version without Firefox linked in. And this is very typical in memory management, where you essentially just allocate, and then you garbage-collect when you want to. Nix works in a similar way. So then actually the \[unintelligible 00:26:31.27\] packages would be an explicit garbage collect operation, where you go through these profile versions and you can say "Oh, keep just the last one", for example.
+And the same when you uninstall, it will not remove the Firefox from the /nix/store directory, but it will just create a new profile version without Firefox linked in. And this is very typical in memory management, where you essentially just allocate, and then you garbage-collect when you want to. Nix works in a similar way. So then actually deleting packages would be an explicit garbage collect operation, where you go through these profile versions and you can say "Oh, keep just the last one", for example.
 
 So that's the garbage collection bit... But let's go back to installing. Now we have this profile where Firefox was installed in, and Nix will activate it, which means that the specific snapshot of the profile is now the activated one. And these profiles can be stacked one upon another as well, and there is like the user profile, so each user can have a profile; each user can install their own set of packages, and then on NixOS, the distribution, there is also a system profile, which is the actual OS profile, that then represents the environment that you access, and then Nix exposes in a typical package manager Firefox in the path variable, for example.
 
-**Jerod Santo:** \[unintelligible 00:27:27.12\] /nix/store/unique-hash-firefox, or whatever... I understand how that provides for multiple versions installed on the same system, right? And I can also understand how once you have this ever-adding system where you're just adding a new install Firefox, and you still have the old ones (unless you garbage-collect), how you could do your atomic upgrades at that point... Because now you're just swapping a symlink between those versions. And like you said, that's an atomic operation in Linux, so it happens in a split-second, and so that's really good...
+**Jerod Santo:** So how does it accomplish that? So I understand completely, because it has /nix/store/unique-hash-firefox, or whatever... I understand how that provides for multiple versions installed on the same system, right? And I can also understand how once you have this ever-adding system where you're just adding a new install Firefox, and you still have the old ones (unless you garbage-collect), how you could do your atomic upgrades at that point... Because now you're just swapping a symlink between those versions. And like you said, that's an atomic operation in Linux, so it happens in a split-second, and so that's really good...
 
 \[00:28:15.02\] It doesn't explain to me the multi-user support. So you said there's profiles... Is everything stored in the Nix store, and then it's just like the profiles are elsewhere, and point to which versions you are using? Or how does it know when it's garbage-collecting that Adam's profile has this Firefox, but my profile has a different Firefox? How are those segregated?
 
-**Domen Kožar:** The easiest way to imagine it \[unintelligible 00:28:36.00\] A Debian installation would be one profile, and then you have different profiles in your system. The way Nix stacks those together is - if I understand your question - it will just append the path by the hierarchy of the profiles you have activated. So if you have a user one and a system one, then the user one will \[unintelligible 00:28:59.04\] the bin path of the user profile first, and then the system profile bin path will come second. So then all the packages that are installed in the user profiles come from the user profile bin path, and then the system one follows.
+**Domen Kožar:** The easiest way to imagine it is, Debian installation would be one profile, and then you have different profiles in your system. The way Nix stacks those together is - if I understand your question - it will just append the path by the hierarchy of the profiles you have activated. So if you have a user one and a system one, then the user one will append the bin path of the user profile first, and then the system profile bin path will come second. So then all the packages that are installed in the user profiles come from the user profile bin path, and then the system one follows.
 
 **Jerod Santo:** Yeah, that much I understand, but how does it know not to garbage-collect my profile's version of Firefox when you run garbage collect?
 
@@ -146,13 +146,13 @@ So when you run garbage collect, you can do it for the user, or you can do it gl
 
 **Adam Stacoviak:** So Nix runs on reproducible builds, and the fact that it makes these builds hashes, secure by nature, because you can prove the complete dependencies, you know what's involved... All that good stuff. And that hash proves it, and that's the way it works by design. How does that compare to apt or apt-get? Do they not do that?
 
-**Domen Kožar:** Yeah, that's a very good question. I think there are actually two kinds of reproducibility that are usually, I would say, \[unintelligible 00:32:38.23\] in the package management world. So Nix does the reproducibility where it goes from source to a binary by ensuring that you always get \[unintelligible 00:32:50.02\] getting into the binary output, and so on. But the guarantee is that using the same hash, the same sources and inputs, you always get the same binary.
+**Domen Kožar:** Yeah, that's a very good question. I think there are actually two kinds of reproducibility that are usually, I would say, mentioned in the package management world. So Nix does the reproducibility where it goes from source to a binary by ensuring that you always get the same binary, and this is then minus some discrepencies of system time getting into the binary output, and so on. But the guarantee is that using the same hash, the same sources and inputs, you always get the same binary.
 
-On Debian, they have also the reproducibility project, but that is more about the binary output, so that the actual binaries \[unintelligible 00:33:14.28\] are identical each time you build something.
+On Debian, they have also the reproducibility project, but that is more about the binary output, so that the actual binaries you get are identical each time you build something.
 
 The difference is that in Debian, as far as I know - maybe the infrastructure has changed recently, but it used to be at least the case that when you build something, it will pick up libraries from your system.
 
-Let's say you build Firefox - it will pick up OpenSSL from your system. Now, how this OpenSSL was built is not -- there's is no guarantee. \[unintelligible 00:33:44.04\] and of course, if you use Debian to install OpenSSL, then you kind of have this guarantee implicitly on your system. But you could easily swap out OpenSSL with the newer version, or the lower version, and so on. So there is no tracking of it.
+Let's say you build Firefox - it will pick up OpenSSL from your system. Now, how this OpenSSL was built is not -- there is no guarantee. Something built it, and of course, if you use Debian to install OpenSSL, then you kind of have this guarantee implicitly on your system. But you could easily swap out OpenSSL with the newer version, or the lower version, and so on. So there is no tracking of it.
 
 The ways I reasoned about Debian is it's just some kind of a file system state where you installed OpenSSL, and then you install another library that depends on it, and so on. And then you stack these... But yeah, as I've said, there is nothing tracking what's used to install this.
 
@@ -162,7 +162,7 @@ In Nix everything is sandboxed by default, so everyone that's building anything 
 
 **Break:** \[00:34:46.02\]
 
-**Jerod Santo:** Domen, one of the things you said at the top, and also you say on Nix ecosystem is a DevOps toolkit; so there's a DevOps focus in what Nix is providing. So not just merely installing Firefox on my local Linux box so I can browse the web, but using this for getting your \[unintelligible 00:36:19.21\] getting our stuff out there in the world; taking your software, putting it out there, whether it's a web app stack, or whatever it happens to be... So that makes me wonder how it fits in with other devopsy things, and would you use Nix plus this configuration language to create these isolated installs, similar to a universal binary kind of idea, where you're like "Just take this folder and put it on another machine and it runs"? Would you use it instead of Docker, would you use it with Docker and Docker Compose? Help us understand where Nix fits in as a DevOps thing, where I might use it to deploy some software.
+**Jerod Santo:** Domen, one of the things you said at the top, and also you say on Nix ecosystem is a DevOps toolkit; so there's a DevOps focus in what Nix is providing. So not just merely installing Firefox on my local Linux box so I can browse the web, but using this for getting your DevOps, getting your stuff out there in the world; taking your software, putting it out there, whether it's a web app stack, or whatever it happens to be... So that makes me wonder how it fits in with other devopsy things, and would you use Nix plus this configuration language to create these isolated installs, similar to a universal binary kind of idea, where you're like "Just take this folder and put it on another machine and it runs"? Would you use it instead of Docker, would you use it with Docker and Docker Compose? Help us understand where Nix fits in as a DevOps thing, where I might use it to deploy some software.
 
 **Domen Kožar:** That's a great question. Yeah, I don't think there's a definitely answer to it. Essentially, there's all the options.
 
@@ -176,7 +176,7 @@ I think that's a pretty nice combination as well, because one thing I forgot to 
 
 In the Docker world, this is not the case. If you have a Docker image that downloads something from the internet, essentially if you run it twice and that content changes, there is no guarantee whatsoever that this will -- this will be a completely different image, with a different output.
 
-The reason why people don't really notice that is because Docker Hub has the history of all the images, and people don't usually build them themselves. But yeah, that's where I think Nix shines better, so in this reproducibility aspect... And then Docker \[unintelligible 00:39:22.22\] for sure, and all the container stuff we have built recently helps a lot.
+The reason why people don't really notice that is because Docker Hub has the history of all the images, and people don't usually build them themselves. But yeah, that's where I think Nix shines better, so in this reproducibility aspect... And then Docker for runtime for sure, and all the container stuff we have built recently helps a lot.
 
 **Jerod Santo:** So you're effectively running Nix alongside Docker, or inside of Docker, to do all the package stuff. Is that the way you would use it, together?
 
@@ -192,21 +192,21 @@ The reason why people don't really notice that is because Docker Hub has the his
 
 That kind of speaks to the thing that you like about it - it's convenient by default, but then it also has the customizability where you can have the pre-built binaries, you can just use that, no big deal; you don't have to compile everything, but when it comes time to say "You know what - I really wanna strip this thing down and make it as tiny as possible, and I know I don't need these sets of files, or I don't need to compile for these seven whatevers", I can go in and through that Nix configuration language just make a couple of changes to the way that that particular piece of software is compiled; pass it some flags, have it compiled for you, and reap the benefits. That was pretty cool.
 
-**Domen Kožar:** That is one of the most powerful things... For example, going back to the Firefox -- let's say you would package Firefox in a Docker container... Each package is essentially just a function of all the dependencies it needs. OpenSSL is a parameter in that function, and so on. So you could say "OpenSSL override \[unintelligible 00:42:36.13\] that's the most common one, like "Here is a patch." And you could apply a patch to OpenSSL, which then is provided as an argument to build Firefox, and that's like one line to tweak.
+**Domen Kožar:** That is one of the most powerful things... For example, going back to the Firefox -- let's say you would package Firefox in a Docker container... Each package is essentially just a function of all the dependencies it needs. OpenSSL is a parameter in that function, and so on. So you could, say, `openssl.override`, flip a flag or apply a patch, that's the most common one, like "Here is a patch." And you could apply a patch to OpenSSL, which then is provided as an argument to build Firefox, and that's like one line to tweak.
 
 So I think that's really powerful, compared to if you then go tweak those Docker images and trying to rebuild them, which are not exactly reproducible, and so on. It becomes a mess pretty quickly.
 
 **Jerod Santo:** A couple of the other features that I'm not sure we've hit on exactly, that I think play into the ops side, is you list remote builds and remote deployments. What exactly do you mean by remote deployments?
 
-**Domen Kožar:** Yeah, maybe that's a weird way to put it... As I said previously, you can control where it's built, and you can then deploy from one machine to 20 others, for example. Now, Nix will either copy what it needs there from your local machine, or it will substitute from a binary cache. So really, remote there means that you're not really doing anything on that machine except copying them and then activating the NixOS. I'm talking about the OS bit here... There's also \[unintelligible 00:43:57.05\] but that's not as convenient by default. So that's the remote part.
+**Domen Kožar:** Yeah, maybe that's a weird way to put it... As I said previously, you can control where it's built, and you can then deploy from one machine to 20 others, for example. Now, Nix will either copy what it needs there from your local machine, or it will substitute from a binary cache. So really, remote there means that you're not really doing anything on that machine except copying them and then activating the NixOS. I'm talking about the OS bit here... There's also these only two profiles, but that's not as convenient by default. So that's the remote part.
 
 **Jerod Santo:** \[00:44:03.23\] And what would be an example of why you'd wanna do that? Would it be for cost savings on the wire, or caching? For what reason would you want to do that?
 
-**Domen Kožar:** So you're saving all the research. Usually, the way you're deploying is optimized for the runtime features of your thing... A very good example of this is if you have a Raspberry Pi - you kind of don't want to compile stuff on Raspberry Pi. You would want to compile on an easy to \[unintelligible 00:44:33.12\] machine.
+**Domen Kožar:** So you're saving all the research. Usually, the way you're deploying is optimized for the runtime features of your thing... A very good example of this is if you have a Raspberry Pi - you kind of don't want to compile stuff on Raspberry Pi. You would want to compile on an EC2 ARMv8 machine.
 
 **Jerod Santo:** Right...
 
-**Domen Kožar:** So then, essentially, it doesn't require any extra disk space. The thing you copy to the Raspberry Pi is exactly what the system needs, so it's really fast... This is as fast as it gets from getting a system up and running. You copy it over and you activate it, \[unintelligible 00:44:58.25\] and that's it. You don't use any of the CPU or memory resources besides the constant \[unintelligible 00:45:05.29\]
+**Domen Kožar:** So then, essentially, it doesn't require any extra disk space. The thing you copy to the Raspberry Pi is exactly what the system needs, so it's really fast... This is as fast as it gets from getting a system up and running. You copy it over and you activate it, you start a script and that's it. You don't use any of the CPU or memory resources besides the constant memory copying.
 
 **Jerod Santo:** Right.
 
@@ -222,7 +222,7 @@ Also, on the community side there's a lot going on. We had a couple of conferenc
 
 \[00:47:56.13\] So maybe Bash is not the best example, but let's say if you would modify Git, and then Firefox depends on Git, then Firefox output probably wouldn't change, even though you have changed Git... So Firefox wouldn't change, and anything that depends on Firefox then wouldn't need to be recompiled, for example.
 
-There is a really cool paper called Build Systems a la Carte, that unfortunately doesn't have Nix inside, but it compares different build systems and different features they have, and Nix will then tick all the feature boxes once this feature is complete... \[unintelligible 00:48:32.06\] essentially, I would say, better than Bazel in that sense. So that's one of the areas.
+There is a really cool paper called Build Systems a la Carte, that unfortunately doesn't have Nix inside, but it compares different build systems and different features they have, and Nix will then tick all the feature boxes once this feature is complete... And be, essentially, I would say, better than Bazel in that sense. So that's one of the areas.
 
 Another thing is there is a bunch of work on the usability side... It was clear that it was a research project, so Eelco Dolstra and also a bunch of people from the community are redesigning the command line so that it's easier to use. So I think we're kind of, again, in the phase of bringing it closer to the wider audience... And yeah, a command line redesign was a big part of it.
 
@@ -240,7 +240,7 @@ Well, actually, my friend Nate told me this one, and I really like this concept 
 
 **Domen Kožar:** Yeah, I'm still working on Nix.dev. I think it is a great place to start, although it's not complete yet, so there are parts that are missing... The typical place to start is to read the NixOS manuals; there is a Nix manual which is specific to the language and package manager, and a NixOS manual which is about the OS bit.
 
-But those manuals are not tutorial-like. They're more like reference documentation, and description of different bits of NixOS and how it works... And that's where I would like Nix.dev to be the middle ground, where you have to \[unintelligible 00:52:42.05\] to get started with.
+But those manuals are not tutorial-like. They're more like reference documentation, and description of different bits of NixOS and how it works... And that's where I would like Nix.dev to be the middle ground, where you have tutorials to get started with.
 
 So I think between those two, if you wanna go really deep into Nix as a language and how it works, there is something called Nix Pills, where it kind of goes into different parts of Nix and explains the concept behind it...
 
