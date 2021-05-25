@@ -274,7 +274,7 @@ So sure enough, 500 people did sign quite quickly, and I thought "Well, I'm gonn
 
 One of the first famous people who signed it was Richard Dawkins. The cool thing about Richard Dawkins signing it was that I could then go back to the press and say "I know I told you about this before, but now Richard Dawkins has signed it, so what you should write is "Richard Dawkins has signed this." So I did that, and eventually I wrote this cool postscript -- at the time, the signature names were public, and my father was actually reading them every day and saying "I think this is so-and-so (famous person)." And eventually, I automated my father.
 
-So what I did was I wrote this ugly pearl script that took the names and then searched on Wikipedia to see if that person had a Wikipedia page, and if on that Wikipedia page it said something like "So-and-so is a British/Scottish/English/Welsh blah-blah-blah...", so trying to see if they were a notable person from the U.K. And if they were, then it would email me and then I could get a hold of them and ask them...
+So what I did was I wrote this ugly perl script that took the names and then searched on Wikipedia to see if that person had a Wikipedia page, and if on that Wikipedia page it said something like "So-and-so is a British/Scottish/English/Welsh blah-blah-blah...", so trying to see if they were a notable person from the U.K. And if they were, then it would email me and then I could get a hold of them and ask them...
 
 I did that with Ian McEwan, the writer; his name was on there, and I found his email address. I emailed him and said "Are you the person who signed this?" He's like "Yes." And then I was like "Can I tell the press?" "Yes." I did stuff like that, and it grew and grew and grew.
 
