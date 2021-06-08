@@ -1,12 +1,12 @@
-**Jerod Santo:** What's up, party people?! We have an exciting episode today. We are talking about everyone's favorite programming language, which is CSS, and I'm very excited, because we are joined by one of my favorite Twitter acquaintances, but also we worked at the same place, at the same time, without ever having spoken... But that is Una Kravets.
+**Emma Bostian:** What's up, party people?! We have an exciting episode today. We are talking about everyone's favorite programming language, which is CSS, and I'm very excited, because we are joined by one of my favorite Twitter acquaintances, but also we worked at the same place, at the same time, without ever having spoken... But that is Una Kravets.
 
 **Una Kravets:** Hello! It's so funny that you say that, because I just recorded a podcast yesterday, where I'm interviewing someone who worked at IBM at the same time that I did, but it was just such a big company that we never kind of see each other... But hi, everyone. My name is Una, I'm a developer advocate at Chrome, focusing on CSS and DevTools, basically just trying to make the web platform a little bit better and more stylable for all the people that are trying to build on it today.
 
-**Jerod Santo:** Yay! We're so excited. And Una and Adam Argyle have your own CSS podcast, so I'm thrilled that you were able to join us and share some knowledge.
+**Emma Bostian:** Yay! We're so excited. And Una and Adam Argyle have your own CSS podcast, so I'm thrilled that you were able to join us and share some knowledge.
 
 **Una Kravets:** Yes, I have two podcasts, actually. I have the CSS Podcast, which is focused on CSS, and then I also host a podcast called Toolsday with my colleague Chris Dhanaraj, who also worked at IBM.
 
-**Jerod Santo:** Yes, yes, yes. I knew Dhanaraj.
+**Emma Bostian:** Yes, yes, yes. I knew Dhanaraj.
 
 **Una Kravets:** Yes. So we've been doing that podcast for 5,5 years now. It's kind of crazy.
 
@@ -14,25 +14,25 @@
 
 **Una Kravets:** I know, I feel old... It's not like a congrats thing, it's like a "Wow, we've been doing this for so long." But it's fun to record that podcast too, because unlike the CSS Podcast, which is mostly information that doesn't change, it's about the spec, this podcast is about tech tools. Things are changing all the time, and the tools that we used five years ago are just completely different than the tools that we're using today. So it's fun to see how that's evolved.
 
-**Jerod Santo:** \[00:04:03.29\] Absolutely. Well, I'm excited to chat a little bit more about some difficult CSS concepts, but we're also joined by Adam Stacoviak, who is a big-time player in JS Party, but you don't often join us, do you, Adam?
+**Emma Bostian:** \[00:04:03.29\] Absolutely. Well, I'm excited to chat a little bit more about some difficult CSS concepts, but we're also joined by Adam Stacoviak, who is a big-time player in JS Party, but you don't often join us, do you, Adam?
 
 **Adam Stacoviak:** Almost never, except for when it makes sense, which is almost never. \[laughter\] There you go.
 
-**Jerod Santo:** Well, we're excited that you're here. I'd say we kick things off by just having a really quick discussion around why CSS has such a polarizing reputation. I've noticed this in the techsphere on Twitter. I personally love CSS; I think it's invaluable, and has a lot of strengths... And it's a lot more robust of a language than we give it credit for, but a lot of people either say one of those things - they either say it's too easy to be on the same level as JavaScript, or Java, or another language, or it's too difficult to learn properly, and they just don't understand specificity and all of those things. What do you y'all think about this polarizing issue?
+**Emma Bostian:** Well, we're excited that you're here. I'd say we kick things off by just having a really quick discussion around why CSS has such a polarizing reputation. I've noticed this in the techsphere on Twitter. I personally love CSS; I think it's invaluable, and has a lot of strengths... And it's a lot more robust of a language than we give it credit for, but a lot of people either say one of those things - they either say it's too easy to be on the same level as JavaScript, or Java, or another language, or it's too difficult to learn properly, and they just don't understand specificity and all of those things. What do you y'all think about this polarizing issue?
 
 **Una Kravets:** I think that a lot of it stems from this division that we used to have very clearly in design versus engineering... And I do think that some developers kind of equate CSS with design, and don't really think of it as engineering, which I think is very inaccurate. CSS is one of those languages that is very easy to pick up quickly and learn things like how to change a text color, but it is very tricky to master... And that's where we see a lot of the frustration now. Because I think what's happening is when you look at job listings, you will see "Requires five years of React experience and JavaScript." You're not gonna see as often "Requires semantic HTML and CSS styling experience." So bootcamps aren't teaching proper CSS and HTML semantics. They're just kind of focusing on what the resumes need to say to get a job.
 
 So now we have all of these senior developers who have been working in the industry for years, who don't have a strong baseline for how to style things on the web, and it's because it's not as valued in resumes... And then you find these companies kind of struggling with accessibility, and with just getting things to have decent user experiences... And I feel like the web is worse off for it right now.
 
-**Jerod Santo:** Yeah. And I think there are severe implications to not understanding CSS... One example I always like to give is this example from a book called Atomic Habits by James Clear, and it says "Imagine you're flying from L.A. to New York. If the pilot leaves from Los Angeles airport and adjusts the heading of the airplane just by 3.5 degrees South, you're gonna land in Washington DC instead of New York." And for those non-United States of America listeners, those states are not close. My point with this is that we get high-fidelity designs from our designers, and if we are not careful with implementing those designs are they're meant to be, in terms of respecting padding, margin, color properties, typography, our product is going to look vastly different, even though they're minor changes in your eyes.
+**Emma Bostian:** Yeah. And I think there are severe implications to not understanding CSS... One example I always like to give is this example from a book called Atomic Habits by James Clear, and it says "Imagine you're flying from L.A. to New York. If the pilot leaves from Los Angeles airport and adjusts the heading of the airplane just by 3.5 degrees South, you're gonna land in Washington DC instead of New York." And for those non-United States of America listeners, those states are not close. My point with this is that we get high-fidelity designs from our designers, and if we are not careful with implementing those designs are they're meant to be, in terms of respecting padding, margin, color properties, typography, our product is going to look vastly different, even though they're minor changes in your eyes.
 
 **Una Kravets:** Yeah, and it's not even just about typography and color... It's about layout, it's about user experience, it's about overall the ability to implement components that are useful, and that work effectively... And this is core to building web apps and websites. But I think that when we equate JavaScript to logic and action, and then CSS to just a layer of design, that's where I think that there is a little bit of a disrespect for the craft of a website. I mean, it's very clear that user experience is the number one driver of users back to your product, and differentiator of your product... So I think that it's a little bit telling now, as we've kind of fallen into this trap of "Oh, we have all these developers who don't know styling anymore", how important this has become, to kind of reeducate people and bring back to the forefront of web development.
 
-**Jerod Santo:** \[00:08:08.09\] It's also an accessibility issue, too. One common issue I see - and actually, this is a common interview question as well for frontend development roles, is "How would you visually hide something in the DOM, but still make it available to screen readers?" And a lot of people don't know this. Putting a display none on an element seems like a quick fix, but in reality that's going to make it inaccessible for people relying on these tools. So it has implications above and beyond just these "superficial" reasons.
+**Emma Bostian:** \[00:08:08.09\] It's also an accessibility issue, too. One common issue I see - and actually, this is a common interview question as well for frontend development roles, is "How would you visually hide something in the DOM, but still make it available to screen readers?" And a lot of people don't know this. Putting a display none on an element seems like a quick fix, but in reality that's going to make it inaccessible for people relying on these tools. So it has implications above and beyond just these "superficial" reasons.
 
 **Una Kravets:** Yeah. And there's so much you can do with CSS to simplify your life... I've seen just so many JavaScript solutions that hack around basic things that you can do with CSS, if you just knew like a line of code or two... And to your point, Emma, there is this idea of certain properties affect the DOM and the accessibility tree and other things in very specific ways... And if you kind of skim over that or gloss over that, you might mistakenly make things completely inaccessible. There's also things like content that are visible to some screen readers. There's a lot of nuance in CSS, and I think this is where that whole idea of very easy to pick up and make some things like get a background and a certain text color - yes, but then with mastery of it, with the layout and all of the nuances for accessibility and semantics, that's where things get pretty interesting. And that is where I think the community has a lot of room to grow.
 
-**Jerod Santo:** Absolutely. I would love to talk about a couple areas of CSS that we've found particularly challenging when we were learning... Because I remember sitting in my little office in IBM in Austin, Texas -- first of all, I studied Java in school. I was a computer science major, so I never fully learned web development. Ironically, I took one web dev class, and I've spent one day on HTML and CSS, and then the rest of the time on bootstrapping, PHP... So I never learned CSS. And I remember struggling immensely with position. Position fixed, position absolute... I did not understand the difference between those for like a year at least.
+**Emma Bostian:** Absolutely. I would love to talk about a couple areas of CSS that we've found particularly challenging when we were learning... Because I remember sitting in my little office in IBM in Austin, Texas -- first of all, I studied Java in school. I was a computer science major, so I never fully learned web development. Ironically, I took one web dev class, and I've spent one day on HTML and CSS, and then the rest of the time on bootstrapping, PHP... So I never learned CSS. And I remember struggling immensely with position. Position fixed, position absolute... I did not understand the difference between those for like a year at least.
 
 **Una Kravets:** Yeah. It's funny that you actually mentioned what you learned in school, because I also studied computer science, and we did Python and Java... And then I never really got a chance to learn web technology -- my web development class was Cold Fusion, and I never touch that now, even just like MySQL. But I do think that that is funny. I feel like in schools, when you learn computer science, you don't learn web development. You usually don't learn JavaScript. You don't learn HTML and CSS. I got to learn that stuff in a design class, kind of... But a lot of it was kind of like "explore on your own."
 
@@ -44,7 +44,7 @@ But then something that is fixed goes to the top-most layer of the root, and it 
 
 \[00:12:01.10\] I saw this one example years ago - talking about college - when it was kind of new, like background attachment fixed, where as you scrolled, only one layer, the background layer moved, but the rest of the page remained the same. So it was kind of like, if you can imagine, a paper doll, and then the outfits are changing, but the head's staying the same. It was that kind of aesthetic.
 
-**Jerod Santo:** That's an awesome analogy.
+**Emma Bostian:** That's an awesome analogy.
 
 **Una Kravets:** Yeah.
 
@@ -62,7 +62,7 @@ I think this is similar to making a decision in what type of function to use in 
 
 I don't know how you describe experience - you mentioned a job post, for example, recently; you were saying that five years of React experience and maybe not asking for that with CSS... I don't know why that's the case, honestly... But you only get mastery or even close to mastery with CSS, and I think that's pretty hard to achieve mastery, but - because you get experience, because you build complex interfaces. Not just once, but many times. So many times that you almost love-hate it, because you've just done it so many times and you really understand the tool.
 
-**Jerod Santo:** I was just gonna mention, in the past I think there was such an emphasis on JavaScript... If we took a look at the interviewing process just a few years ago, it was heavily oriented towards JavaScript algorithms, data structures, problem solving... Now we're seeing this shift towards more all-encompassing in terms of technical interviews; you're getting asked to -- you know, "Here's a mockup. Can you create this in HTML and CSS?" I'm happy to see that shift, because now it feels a little bit more equal. But I don't know where this gatekeeping mentality of like "HTML and CSS are not as hard as JavaScript" and it's like, okay, the syntax is more simplistic, but that doesn't mean it's any less powerful.
+**Emma Bostian:** I was just gonna mention, in the past I think there was such an emphasis on JavaScript... If we took a look at the interviewing process just a few years ago, it was heavily oriented towards JavaScript algorithms, data structures, problem solving... Now we're seeing this shift towards more all-encompassing in terms of technical interviews; you're getting asked to -- you know, "Here's a mockup. Can you create this in HTML and CSS?" I'm happy to see that shift, because now it feels a little bit more equal. But I don't know where this gatekeeping mentality of like "HTML and CSS are not as hard as JavaScript" and it's like, okay, the syntax is more simplistic, but that doesn't mean it's any less powerful.
 
 **Una Kravets:** \[00:15:59.25\] Yeah. And I think another element of all this is the rise of component libraries and systems. I think Bootstrap is actually a really big reason why needing to learn how to style things was less important. I mean, I used to go to hackathons all the time, and everyone was using Bootstrap, because you didn't have time to build a UI like this, and it was also very limiting. So we have all these websites that look the exact same because they're all using the exact same component libraries and systems. And now bigger companies have their own design systems teams, and that's usually where you'll find more of the CSS experts.
 
@@ -84,7 +84,7 @@ There's a lot of really cool, powerful tools that we're now putting into the spe
 
 **Break:** \[00:21:22.26\]
 
-**Jerod Santo:** Let's talk a little bit more about CSS specificity, because to be honest with you, when I was learning CSS, I did not understand that there is a mathematical formula that determines how our styles get applied based off of the type of selectors that we are using. Would you want to give us a high-level overview on what specificity is and why it's important?
+**Emma Bostian:** Let's talk a little bit more about CSS specificity, because to be honest with you, when I was learning CSS, I did not understand that there is a mathematical formula that determines how our styles get applied based off of the type of selectors that we are using. Would you want to give us a high-level overview on what specificity is and why it's important?
 
 **Una Kravets:** Yeah, so specificity is the way to make sure that you could write a style that applies to a specific set of elements, give that more specific instruction. Because CSS can be very broad, you can apply it to all of your paragraphs - that's one way to have specificity - or you could be more specific in what you are applying, so you could give it a class name, and then apply "For the blue class, I want all my paragraphs to have the color blue."
 
@@ -92,11 +92,11 @@ So specificity is pretty critical in how you write CSS, because it tells the bro
 
 Actually, a very interesting concept from Harry Roberts is called "inverted triangle CSS", and it is an architectural paradigm of "You want all of your CSS to go from least specific to most specific." So kind of like inverted triangle - at the top least specific - and then only override little parts when you need to do that... If you can imagine that inverted triangle in your head as you're listening to this podcast.
 
-**Jerod Santo:** Isn't it like the more specific selectors take more processing power to actually query for? I heard that somewhere, where like if you have a lot of selectors that are very specific, it's going to be a lot more performance-heavy. I don't know what the implications are of that, but...
+**Emma Bostian:** Isn't it like the more specific selectors take more processing power to actually query for? I heard that somewhere, where like if you have a lot of selectors that are very specific, it's going to be a lot more performance-heavy. I don't know what the implications are of that, but...
 
 **Una Kravets:** \[00:24:13.04\] Yes, and it's also very negligible. The general best practice is not to go more than like three levels deep. Also, if you're targeting something like a class of blue, you don't need p.blue, you just put .blue. So you don't need to repeat selectors. But generally, the three-levels-deep thing would be p, and the space .blue, space span would mean that within your paragraph you'd have something with a class of blue, and then within that you have a span tag. So when you have a space, that is a child of the parent within--
 
-**Jerod Santo:** Right. Those are called descendant combinators, and this is where I wanna move us into these different kinds of selectors... Because I didn't actually know the words for some of these, but they're quite powerful. So what Una just mentioned is called a descendant combinator. And combinators are used to combine element selectors in a semantic hierarchy... So again, yeah, descendant combinators are delineated by space, so this will affect any child, even nested children. But there are a couple other combinators that you can use to select specific elements; one that you might see all the time is like the &gt; symbol. That is called a child combinator, but it only affects direct children.
+**Emma Bostian:** Right. Those are called descendant combinators, and this is where I wanna move us into these different kinds of selectors... Because I didn't actually know the words for some of these, but they're quite powerful. So what Una just mentioned is called a descendant combinator. And combinators are used to combine element selectors in a semantic hierarchy... So again, yeah, descendant combinators are delineated by space, so this will affect any child, even nested children. But there are a couple other combinators that you can use to select specific elements; one that you might see all the time is like the &gt; symbol. That is called a child combinator, but it only affects direct children.
 
 Combinators kind of confused me when I started. I was seeing all these characters in CSS, and I'm like "What are they? I don't understand them."
 
@@ -116,7 +116,7 @@ And some people, they don't even have those skills, or they don't wanna know how
 
 **Una Kravets:** ...and then where that also becomes even more handy is when you don't have access to control the markup. For example, I used to work in publishing, and everything was converted into HTML automatically, and it would add all these classes. There wouldn't be additional markups, so we would have to use specificity and sort of combinators of certain things to style that article, to style what paragraphs look like surrounding ads, and we'd get creative with :nth-child, and types, and things like that, to apply those styles.
 
-**Jerod Santo:** \[00:28:15.22\] Yeah. And these are examples of pseudo-classes, actually. We have two other areas as they relate to selectors - pseudo-classes and pseudo-elements. Pseudo-classes - there are so many of them; I didn't realize until I was preparing for this show. Some of the ones that I use all the time are hover, focus, disabled, things like that. You have visited if a link is visited, but to Una's point, there's :nth-of-type, there's first child, last child, :nth-last-childs... You can even select the last four elements; if you have an unordered list and you want the last four elements or something to be a different color, you could do :nth-last-child and use -n+4.
+**Emma Bostian:** \[00:28:15.22\] Yeah. And these are examples of pseudo-classes, actually. We have two other areas as they relate to selectors - pseudo-classes and pseudo-elements. Pseudo-classes - there are so many of them; I didn't realize until I was preparing for this show. Some of the ones that I use all the time are hover, focus, disabled, things like that. You have visited if a link is visited, but to Una's point, there's :nth-of-type, there's first child, last child, :nth-last-childs... You can even select the last four elements; if you have an unordered list and you want the last four elements or something to be a different color, you could do :nth-last-child and use -n+4.
 
 There's a lot of math that goes into this that I don't think we take the time to learn... I'm not sure why. I think maybe because it's so easy to just slap a class on an HTML element and say "Okay, we're gonna use class." But pseudo-classes are so powerful.
 
@@ -124,7 +124,7 @@ There's a lot of math that goes into this that I don't think we take the time to
 
 Another cool thing that you can do is with these advanced selectors, like the general sibling selector - the general sibling selector is that wavy thing...
 
-**Jerod Santo:** The tilde.
+**Emma Bostian:** The tilde.
 
 **Una Kravets:** The tilde, that's the name... \[laughs\] General sibling selector says like "Select any of a certain type that is a sibling to this element." So you can create CSS games, and you can use counters, and this general sibling selector to identify -- I made this game that was like a target game, where you have these divs moving up in front of a target, and you kind of have to click when the div isn't covering the target to get it, and you could use the counters to count it up... And then the general sibling selector would then style all of the siblings when that thing was hit. So it would stop moving, because it has a sibling that is in-line with that other element.
 
@@ -132,45 +132,45 @@ So you could do a lot of cool things. I'm kind of like \[unintelligible 00:30:39
 
 **Adam Stacoviak:** I think this is where it really goes from design-focused, Cascading Style Sheets, for example, to programmatic. Because once you do -- it's sort of like "If this contains X, then do Y." That's where you start to get into those engineering/programming kind of ways, and that's where I think maybe the divide we talked about in section one was really like -- that's where it comes from. Because once you get to a certain point, there is so much power in CSS that you can begin to program interfaces, and create games even. It isn't necessary to just say "bold this element", for example. It's not the case.
 
-**Jerod Santo:** One thing I always struggle with though is like the cascade where it starts up at the parent level and trickles down, like styles do... But one thing I struggle with is like, okay, if a child is selected, I want the parent to take on this style. It's like, you can't pass it upwards. Is there a best practice for this type of situations?
+**Emma Bostian:** One thing I always struggle with though is like the cascade where it starts up at the parent level and trickles down, like styles do... But one thing I struggle with is like, okay, if a child is selected, I want the parent to take on this style. It's like, you can't pass it upwards. Is there a best practice for this type of situations?
 
 **Una Kravets:** That is one of the biggest struggles in CSS, is just because of the way the cascade works -- the cascade is downward, so there is really no way to get the parent based on a child's adusted styles. It is something that we talk about in the CSS working group; it's just really hard to calculate.
 
 \[00:31:58.23\] I think if that does happen, it might be like a direct parent. That is a lot easier than just doing a general parent... But it's not as useful, because usually if you have a style selected, like say when you focus on an Add to Cart button, you probably wanna style parent card, not the direct parent, which migh be like another div that has the paragraph in it and an image. So it gets a little tricky there, because you can't really go backwards of the latter.
 
-**Jerod Santo:** Yeah.
+**Emma Bostian:** Yeah.
 
 **Adam Stacoviak:** It almost seems like an advanced mode. You might have an interface that's just pretty simple; it's a blog, it doesn't require interactivity as much as say an application might; or maybe you have an advanced mode and you could say "Well, in this advanced mode we have these newer specifications that allow us to be more experimental with the transfer of the cascade, for example, to go up versus just down."
 
-**Jerod Santo:** Yeah, that's a hard problem to solve, and I hope one day we get to see some kind of solution... Or maybe I just need to rewire my brain to architect things differently. One area I'd love to quickly touch on is pseudo-elements, because I feel like they can be used for powerful things, but to be honest with you, I don't know the best use cases for them. So this is the other question I have... Typically, the pseudo-elements would be two colons before the keyword... But we don't need them anymore, right? We can just use one colon now, can't we? Didn't that change?
+**Emma Bostian:** Yeah, that's a hard problem to solve, and I hope one day we get to see some kind of solution... Or maybe I just need to rewire my brain to architect things differently. One area I'd love to quickly touch on is pseudo-elements, because I feel like they can be used for powerful things, but to be honest with you, I don't know the best use cases for them. So this is the other question I have... Typically, the pseudo-elements would be two colons before the keyword... But we don't need them anymore, right? We can just use one colon now, can't we? Didn't that change?
 
 **Una Kravets:** Technically, two colons is correct, because it is a way to differentiate from pseudo-classes...
 
-**Jerod Santo:** Oh, okay.
+**Emma Bostian:** Oh, okay.
 
 **Una Kravets:** ...but both will work. The browser will read them both the same way. It just fixes it for you.
 
-**Jerod Santo:** Oh, okay. I love that. \[laughs\]
+**Emma Bostian:** Oh, okay. I love that. \[laughs\]
 
 **Una Kravets:** The great thing about CSS is if you have an error, it will just not read that line of code. It won't break your entire applications. They can kind of keep going.
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** Yeah. Pseudo-elements are kind of interesting, because they're like a subset or like a piece of an element that you can do things to. First line, if you have a paragraph - I assume that's what that corresponds to. Or it would be like the first letter in a paragraph or a heading. Before and after are also really interesting, and I'm trying to remember what I would use these for. Let's say you have a piece of text and you've got like two lines on either side to make it look fancy, or whatever... You could use the pseudo-elements before and after to actually generate those lines. But what other use cases would we have for the before and after pseudo-elements?
+**Emma Bostian:** Yeah. Pseudo-elements are kind of interesting, because they're like a subset or like a piece of an element that you can do things to. First line, if you have a paragraph - I assume that's what that corresponds to. Or it would be like the first letter in a paragraph or a heading. Before and after are also really interesting, and I'm trying to remember what I would use these for. Let's say you have a piece of text and you've got like two lines on either side to make it look fancy, or whatever... You could use the pseudo-elements before and after to actually generate those lines. But what other use cases would we have for the before and after pseudo-elements?
 
 **Una Kravets:** There's a lot. So the difference between pseudo-classes and pseudo-elements is classes act on a state; that state can be hover or link, which means that it's an unvisited link... Things like that. States. And then the pseudo-elements are parts of the UI. So with before and after you can put content in there, you could use it for arrows, you could have like a blank content, and then use it to make like a tooltips arrows, or any other decorative elements; you can use it for a background layer to create like a funky border, or to create like a blend mode on top of another element...
 
 There's also additional pseudo-elements like marker, where you could style list item markers; that little dot - you could put emojis in it, or whatever you wanna put in it. But pseudo-elements let you style UI elements that would otherwise be inaccessible. So in a way, you can kind of think of this as like a shadow DOM, where the way to access them is through the pseudo-elements. You typically don't have access to that in the DOM. You don't have access to that marker in the DOM. But when you use the marker's pseudo-element, you can style that market.
 
-**Jerod Santo:** I love that. I think that's a great explanation, and I didn't know that. One question I have is are these accessible to screen readers? I assume if you have textual content in the content property, that that would be accessible... But how does that work
+**Emma Bostian:** I love that. I think that's a great explanation, and I didn't know that. One question I have is are these accessible to screen readers? I assume if you have textual content in the content property, that that would be accessible... But how does that work
 
 **Una Kravets:** It depends, which is the fun thing. \[laughter\] I think that the newer screen readers do read out content. Older screen readers don't. So I don't know what the percentage of screen readers that do is; typically, that content is read out, but it's generally a best practice to not rely on the content within the pseudo-element for actual important text content. It's better for a visual layer, or something that's some kind of other treatment. I think like triangles for tooltips is a good example.
 
-**Jerod Santo:** \[00:36:09.01\] Wow, that was heavy. I wish specificity was taught as like a concept... I feel like maybe nowadays it is being taught more... I don't know if specificity was a thing when I was taking my web development course in college, so... It can be a lot to learn if you're not aware that it exists.
+**Emma Bostian:** \[00:36:09.01\] Wow, that was heavy. I wish specificity was taught as like a concept... I feel like maybe nowadays it is being taught more... I don't know if specificity was a thing when I was taking my web development course in college, so... It can be a lot to learn if you're not aware that it exists.
 
 **Una Kravets:** That's a problem.
 
-**Jerod Santo:** It is a problem. It's a huge problem. It's like we're learning to drive a car without understanding what the things that we're doing are actually doing.
+**Emma Bostian:** It is a problem. It's a huge problem. It's like we're learning to drive a car without understanding what the things that we're doing are actually doing.
 
 **Adam Stacoviak:** For me it was like the box model. I learned this concept you've mentioned, Una, earlier in segment one... I think if you have some of those core theory things around the way CSS works - not just specificity, but all the things - I feel like if you have that sort of undercurrent of your understanding of the tool and the language, then you really have a wide variety of the ways; not just tricks and hacks. I can remember even having a whole hacks file, where it was just like "This is where we put hacks" and once these things hit the spec, we'd delete them, or we'd change them, we'd encapsulate them.
 
@@ -180,7 +180,7 @@ But I think if you had that theory, those core concepts, the way that positionin
 
 **Adam Stacoviak:** Yeah, I feel like that's the way that a lot of -- at least that's the way I've learned. I didn't go to school for it; I read books... I took some notes before this started, because I was like "What was that first book I read around CSS?" and it was literally Eric Meyer on CSS. One of the OG books on the subject, and it was like forever ago.
 
-**Jerod Santo:** I have it sitting over there... \[laughs\]
+**Emma Bostian:** I have it sitting over there... \[laughs\]
 
 **Una Kravets:** I think I have it upstairs, too.
 
@@ -188,35 +188,35 @@ But I think if you had that theory, those core concepts, the way that positionin
 
 **Una Kravets:** Well, it's funny that you mentioned this, because my team's been working on helping people to learn these things, and on the 18th of May my team is launching an online course called Learn CSS, which we will add to the show notes when that launched.
 
-**Jerod Santo:** Yes...!!
+**Emma Bostian:** Yes...!!
 
 **Una Kravets:** But it goes through this - it goes through the box model, the specificity, the cascade; a bunch of CSS concepts like inheritance, and sizing units, and colored layout, Flexbox, logical properties, which is a way to inject internationalization in your styles. It goes through \[unintelligible 00:38:48.09\] All those fun things like z-index, and making sure that things are layered on top of each other, like "What is compositing? Why is the index working or not working in one place or another?"
 
 And then for the specificity part, it's one of my favorite parts, because we go through how to calculate specificity. With an element and a pseudo-element, that would be like one point of specificity; it's like your base layer. Well, actually the base layer is the universal selector, which gets no points, because that's like a star... \[laughter\]
 
-**Jerod Santo:** No points for you!
+**Emma Bostian:** No points for you!
 
 **Una Kravets:** Yeah, no points. But then on top of that you could do classes; those get 10 points. IDs get 100 points, because you're now getting more and more specific... And then the important rule - you get 10,000 points of specificity. So when you're applying multiple selector styles, like if you did like a.myclass.another-class, and then an attribute of ahref: hover - that is 41 points. You can calculate and see what is more specific than another thing. And just like learning the nth syntax value, like how you do :nth-child, this is another thing to learn as like a micro-syntax of CSS. Within this language there's a bunch of these smaller, nuanced things that can really help you get a very clear understanding of why something is happening. People struggle with CSS because they don't understand why things are getting applied styles.
 
 **Adam Stacoviak:** \[00:40:13.01\] Very true. Which is why you've got tricks and hacks, because it's like "What is working? How did it work? Why is it there? Why has it moved?" or "In Firefox it's this way, and in Chrome it's that way." "Why, why, why...?", essentially.
 
-**Jerod Santo:** You know what I want - I want someone listening to build a VS Code plugin that will give me on hover the specificity calculation of a selector. Can someone build that?
+**Emma Bostian:** You know what I want - I want someone listening to build a VS Code plugin that will give me on hover the specificity calculation of a selector. Can someone build that?
 
 **Una Kravets:** That's a good idea.
 
-**Jerod Santo:** Yeah, that needs to be a thing. I don't have time to build it.
+**Emma Bostian:** Yeah, that needs to be a thing. I don't have time to build it.
 
 **Una Kravets:** I think with some of the newer techniques of like CSS-in-JS and CSS Modules, it's a little bit less critical, because you're scoping the styles to that element.
 
-**Jerod Santo:** Yes, absolutely.
+**Emma Bostian:** Yes, absolutely.
 
 **Una Kravets:** So you don't have to worry about global styles in your app, you just have to worry about specificity within a component.
 
-**Jerod Santo:** Yeah, for sure.
+**Emma Bostian:** Yeah, for sure.
 
 **Break:** \[00:40:52.26\]
 
-**Jerod Santo:** So we've talked about specificity, we've talked about lots of other things regarding CSS, but now we're gonna talk about one area of CSS I feel like many people get excited about, and that is responsive design or responsive layouts using Flexbox and Grid.
+**Emma Bostian:** So we've talked about specificity, we've talked about lots of other things regarding CSS, but now we're gonna talk about one area of CSS I feel like many people get excited about, and that is responsive design or responsive layouts using Flexbox and Grid.
 
 Really quickly, let's talk about how we got here, because it used to be we needed floats to position things, and we had to use media-- I know those are like two different things, but then we had to use media queries to do breakpoints, and there was mobile-first... And now we've got responsive layouts with Flexbox and Grid, and you had talked about this earlier, Una, about the different use cases... But I always hear people like "Should I use Flexbox or Grid, one or the other?" I'm like "Well, you can kind of use both. You can use them in tandem. It kind of all depends on what you're going for."
 
@@ -244,7 +244,7 @@ So when we are building, there's this whole idea of mobile-first, simplifying th
 
 **Adam Stacoviak:** Right. And that's what I mean; that's why you had this graduated scale of where you need to sort of learn more about it, the way CSS works... But yeah, you get more giddy, I get more and more afraid. I have no envy for the spec writers, I have no envy for that at all. It's like, that's very tough work.
 
-**Jerod Santo:** \[00:47:47.05\] Yeah, so one of the things that actually as soon as I thought about doing a CSS episode I wanted to run straight to you, Una, was because you published a YouTube video called "Ten modern layouts in one line of CSS", that totally blew my mind. And you used a lot of the heavy-duty CSS Grid (I don't know) functions...? Is that what they're called? Like minmax, fraction, repeat, clamp... Those things are all super-powerful, but I never fully understood them. Minmax is kind of a little bit self-explanatory, where you can set a minimum, what width or height or size, I guess, and a maximum size... But how is that different from clamp? What is the difference there?
+**Emma Bostian:** \[00:47:47.05\] Yeah, so one of the things that actually as soon as I thought about doing a CSS episode I wanted to run straight to you, Una, was because you published a YouTube video called "Ten modern layouts in one line of CSS", that totally blew my mind. And you used a lot of the heavy-duty CSS Grid (I don't know) functions...? Is that what they're called? Like minmax, fraction, repeat, clamp... Those things are all super-powerful, but I never fully understood them. Minmax is kind of a little bit self-explanatory, where you can set a minimum, what width or height or size, I guess, and a maximum size... But how is that different from clamp? What is the difference there?
 
 **Una Kravets:** Yeah, that's a great question. I think something people don't realize is CSS has a ton of functions that give you some sort of output... And with these functions, like min, max, minmax - they're actually all different functions - you can do a lot of robust information in one small piece of code.
 
@@ -254,86 +254,86 @@ And then clamp will give you three values, where you set an actual value - so sa
 
 So you can use these for sizing, for typeface sizing; people will do that for font size... And then you can also use something like minmax within a grid, which sets a column or a rows minmax size to fit the space, because you have fluid grids... And you can use other keywords like autofill and autofit to have those elements fit or fill a space and give those more advanced, specific sizing.
 
-**Jerod Santo:** What's the difference between autofit and autofill? Because they sound like they would do the same thing.
+**Emma Bostian:** What's the difference between autofit and autofill? Because they sound like they would do the same thing.
 
 **Una Kravets:** Well, they don't do the same thing. They're very similar. So this is one that I always also have to look up, because I can't remember the difference... But autofit is when you have a full page and some items within it - say you have the Grid template columns; I'm just gonna take one from the \[unintelligible 00:50:54.14\] repeat, and then that's function, and within that you can have another function. So \[unintelligible 00:50:59.15\] you set your minimum of 150 pixels, your maximum of one fr, which is one fractional unit of remaining space... And then with autofit it will fit it so that even as it expands past 150 pixels, that one fr will fill that space.
 
 With autofill you're going to take that baseline size, and as you expand, it's not going to stretch out to fill the remaining space. So that is useful when you have logos, or you have more set sizing that you don't want to fully fill out a parent.
 
-**Jerod Santo:** Oh, interesting...
+**Emma Bostian:** Oh, interesting...
 
 **Una Kravets:** So they're very -- one of those elements that I always forget the difference between, and I will just fiddle.
 
-**Jerod Santo:** Yeah. To be honest, fractional units confused the living crap out of me. I can kind of understand it conceptually, but it's one of those things where I just don't get it. If I have like five elements and you have one fr on one of them, and two fr on the second, and then the rest don't have anything - I don't understand what's gonna happen. I'm very confused by Grid, to be honest... \[laughs\] I only use it for setting template columns, and rows, and that's about it. I don't understand fractional units.
+**Emma Bostian:** Yeah. To be honest, fractional units confused the living crap out of me. I can kind of understand it conceptually, but it's one of those things where I just don't get it. If I have like five elements and you have one fr on one of them, and two fr on the second, and then the rest don't have anything - I don't understand what's gonna happen. I'm very confused by Grid, to be honest... \[laughs\] I only use it for setting template columns, and rows, and that's about it. I don't understand fractional units.
 
 **Una Kravets:** \[00:52:12.00\] So the fractional units - say you have a space... And the reason why we have fractional units is so that we have more flexibility in that space. Say we have like five divs inside of a parent, and if you have the columns being five one fractional unit, they'll all take up that remaining space. Now you remove a div and there's only four divs. Now each one of those will be a little bit bigger, because each fractional unit is a little bit bigger.
 
-**Jerod Santo:** Oh, got it. Okay, cool. And then if something's like two fr, it'll take up double the amount of space as like the other...
+**Emma Bostian:** Oh, got it. Okay, cool. And then if something's like two fr, it'll take up double the amount of space as like the other...
 
 **Una Kravets:** Exactly, yes.
 
-**Jerod Santo:** Okay. This is my naivety here, but how is this different than percentages? I don't understand what the difference is there.
+**Emma Bostian:** Okay. This is my naivety here, but how is this different than percentages? I don't understand what the difference is there.
 
 **Una Kravets:** So percentage is the percentage of the parent, right?
 
-**Jerod Santo:** Okay, okay.
+**Emma Bostian:** Okay, okay.
 
 **Una Kravets:** And if you add or remove divs, they're all going to take that percentage size, so you have to adjust the percentage. With fractional units you don't have to actually do any adjustment and calculation of percentage, you just say like "I want all these to take up one fractional unit." Maybe you want like a hero to take up three fractional units to have more space than something else would have... So you could really start specifying there how much space you take up, without doing all the calculation.
 
-**Jerod Santo:** Oh, my gosh... That's really cool, and I feel like I need to learn it better. One tool that I used to learn Grid originally was called Grid Garden, and they have one for Flexbox, too. I think it's probably the same creator, because it looks the same style; that was Flexbox Froggy. But are there other resources that you would recommend for learning Grid and Flexbox?
+**Emma Bostian:** Oh, my gosh... That's really cool, and I feel like I need to learn it better. One tool that I used to learn Grid originally was called Grid Garden, and they have one for Flexbox, too. I think it's probably the same creator, because it looks the same style; that was Flexbox Froggy. But are there other resources that you would recommend for learning Grid and Flexbox?
 
 **Una Kravets:** Well, check out our Grid and Flexbox guides for Learn CSS... \[laughter\] That is our next sequel... I'll definitely share a link for that. MDN Docs are really good. I love reading MDN Docs for any of my CSS needs. Basically, when I have a CSS question, we'll go to MDN, which is developer.mozilla.org, and then I'll search in the Search box there, instead of just the general web search for CSS stuff.
 
-**Jerod Santo:** Yeah, and I think actually CSS-Tricks, when I was talking to Chris Coyier about it, he was saying that Flexbox and Grid are their most looked up articles on their entire platform... And I believe it, because I access it at least once a day.
+**Emma Bostian:** Yeah, and I think actually CSS-Tricks, when I was talking to Chris Coyier about it, he was saying that Flexbox and Grid are their most looked up articles on their entire platform... And I believe it, because I access it at least once a day.
 
 **Una Kravets:** I think it's because it's so ubiquitous...
 
-**Jerod Santo:** Yeah.
+**Emma Bostian:** Yeah.
 
 **Una Kravets:** And that's something that a framework like Tailwind can't really help you with, because you still have to create generalized layouts and overall Grid and Flexbox UI's to still be able to use some of the object-oriented CSS stuff.
 
-**Jerod Santo:** Yeah. It's so nice now that these tools exist, because I remember having to use Bootstrap or another framework, because building robust, complex grids was really just not possible at the time.
+**Emma Bostian:** Yeah. It's so nice now that these tools exist, because I remember having to use Bootstrap or another framework, because building robust, complex grids was really just not possible at the time.
 
 One question I have is about subgrids, because I think this is up and coming, having a grid within a grid...
 
 **Una Kravets:** Yeah...
 
-**Jerod Santo:** ...but it doesn't exist yet.
+**Emma Bostian:** ...but it doesn't exist yet.
 
 **Una Kravets:** Not yet. It's still work in progress. Subgrids basically will attach onto a parent grid, and allow you to use elements of that parent grid along with a subgrid. So there's like a pass-through component, and that is still work in progress, getting worked on/implemented.
 
-**Jerod Santo:** Awesome. Well, I'm looking forward to some of the specifications coming down the pipeline. And yeah, I think this is maybe like a nice note to kind of end things on... But I feel like we've covered a lot of ground today... We talked about a lot of stuff.
+**Emma Bostian:** Awesome. Well, I'm looking forward to some of the specifications coming down the pipeline. And yeah, I think this is maybe like a nice note to kind of end things on... But I feel like we've covered a lot of ground today... We talked about a lot of stuff.
 
 **Una Kravets:** \[00:55:35.01\] Yeah. I think one last thing to mention is an experimental property that you can play with in Canary, with a flag turned on, and that is @container, which enables container queries. And container queries are sort of like the next generation of responsive design, because instead of relying on global media queries to adjust page styles, you can use a parent container size to apply styling to its children. So now something like a card can own all of its responsive information. You could put it in a sidebar, you could put it in a hero, you could put it in a product grid, and that component itself knows how to style itself based on where it lives in that page. It's going to change how we think of responsive design completely.
 
-**Jerod Santo:** Yeah, that's something we actually had to build ourselves at Spotify. We had to build a custom hook to get the container queries... Because we've got the left sidebar that's resizable, and we have the friend feed on the right size which is resizable, and that main content container needed to obviously resize based on those two components... So we actually had to build like a custom hook for it, and I would be so thrilled if we could rip that out and replace it with CSS...
+**Emma Bostian:** Yeah, that's something we actually had to build ourselves at Spotify. We had to build a custom hook to get the container queries... Because we've got the left sidebar that's resizable, and we have the friend feed on the right size which is resizable, and that main content container needed to obviously resize based on those two components... So we actually had to build like a custom hook for it, and I would be so thrilled if we could rip that out and replace it with CSS...
 
 **Una Kravets:** Yeah, because it's super not-performant to have the browser do all the calculation for you.
 
-**Jerod Santo:** Yeah.
+**Emma Bostian:** Yeah.
 
 **Una Kravets:** So I'll hit you up when that's good to go... And you can experiment with it now.
 
-**Jerod Santo:** Yes, I'm sure that we will. That would be a fun hack day project. Awesome! If you all listening liked this, Una and Adam have their own CSS podcast; Una also has another podcast she mentioned, called Toolsday, with Chris Dhanaraj. We're going to link both of those in the show notes, as well as all of the courses and resources mentioned.
+**Emma Bostian:** Yes, I'm sure that we will. That would be a fun hack day project. Awesome! If you all listening liked this, Una and Adam have their own CSS podcast; Una also has another podcast she mentioned, called Toolsday, with Chris Dhanaraj. We're going to link both of those in the show notes, as well as all of the courses and resources mentioned.
 
 I'm so thrilled that we got to talk today... I really look up to you in terms of -- well, lots of things, but CSS specifically. You're one person I really admire, so I appreciate you taking the time.
 
 **Una Kravets:** Oh, I appreciate that, because you're definitely someone that I look up to, and the community, and I love following what you're doing... And it's just such a joy to get to sit down and chat with you for the first time...
 
-**Jerod Santo:** I know, that's so unbelievable this is the first time, even though we worked in the same building for a couple of years.
+**Emma Bostian:** I know, that's so unbelievable this is the first time, even though we worked in the same building for a couple of years.
 
 **Una Kravets:** I feel like there's so many people I met at IBM that I didn't really get a chance to work with until later... Which is ironic and funny.
 
-**Jerod Santo:** Yeah, like Jason Lengstorf. How funny - people just think we knew each other from Twitter, I'm like "No, we worked in the same building." I knew him pretty well, and he's the reason that I got into speaking... Because I remember being like "Oh my gosh, you could speak for a living and people will pay for you to fly there? That's nuts!"
+**Emma Bostian:** Yeah, like Jason Lengstorf. How funny - people just think we knew each other from Twitter, I'm like "No, we worked in the same building." I knew him pretty well, and he's the reason that I got into speaking... Because I remember being like "Oh my gosh, you could speak for a living and people will pay for you to fly there? That's nuts!"
 
 **Una Kravets:** That's exactly why I started doing it, because I was like "I wanna travel. That's what I wanna do with my life." And I also like tech. And there was this thing that combined those two... Which is awesome. And I just love meeting developers who are working on such different things around the world, because in those localities tech is completely different... And that's one of the \[unintelligible 00:58:27.19\] about conference speaking.
 
-**Jerod Santo:** Well, I've enjoyed this episode... Just remember that CSS is beautiful and robust, and we need to all -- not defend it, but let's all preach that in the twittersphere. Let's improve the reputation, because it is an amazing tool.
+**Emma Bostian:** Well, I've enjoyed this episode... Just remember that CSS is beautiful and robust, and we need to all -- not defend it, but let's all preach that in the twittersphere. Let's improve the reputation, because it is an amazing tool.
 
 **Una Kravets:** Hashtag CSS is a programming language... \[laughter\] Spicy takes...
 
-**Jerod Santo:** I love it. That's gonna be the title of this episode. \[laughs\]
+**Emma Bostian:** I love it. That's gonna be the title of this episode. \[laughs\]
 
 **Una Kravets:** Yes, yes...
 
-**Jerod Santo:** Alright ya'll, I hope y'all enjoyed it, I hope y'all have a great rest of your day, and with that, thank you so much again.
+**Emma Bostian:** Alright ya'll, I hope y'all enjoyed it, I hope y'all have a great rest of your day, and with that, thank you so much again.
