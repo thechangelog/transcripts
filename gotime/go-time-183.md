@@ -4,7 +4,7 @@
 
 **Mat Ryer:** Yeah, on the internet. That's it. That voice you've just heard is my co-host, Natalie Pistunovich. Hello, Natalie.
 
-**Natalie Pistunovich:** Hello, Mat. You're getting better every time \[unintelligible 00:03:27.25\] my last name. That's really exciting.
+**Natalie Pistunovich:** Hello, Mat. You're getting better every time including my last name. That's really exciting.
 
 **Mat Ryer:** Yeah, yeah. I sort of do iterative development when it comes to people's names, as we're about to see. We're about to see an MVP of me pronouncing these names now, of our other guests.
 
@@ -168,7 +168,7 @@ Preslav, can you tell us a bit about your background and also recently what you'
 
 **Mat Ryer:** Yeah. I mean, that's what I do, but not for security. I use it for doing something fun with it. Mathilde, why is it different though, the crypto? Literally, what's the difference? I mean, they're both pseudo-random, aren't they, because it's impossible for a computer, isn't it? A computer doesn't have a random chip in it, that can do random, do they?
 
-**Mathilde Raynal:** No, and it's a shame. Actually, it's a very funny store, because when I learned Go, it was a project about randomness, how to produce randomness. So that's why I'm smiling when we're talking about that. And to be very honest, I used to know the answer to the difference between math/rand and crypto/rand, but I must admit that I forgot about it...
+**Mathilde Raynal:** No, and it's a shame. Actually, it's a very funny story, because when I learned Go, it was a project about randomness, how to produce randomness. So that's why I'm smiling when we're talking about that. And to be very honest, I used to know the answer to the difference between math/rand and crypto/rand, but I must admit that I forgot about it...
 
 **Mat Ryer:** Fair enough. I don't know.
 
@@ -176,7 +176,7 @@ Preslav, can you tell us a bit about your background and also recently what you'
 
 **Joakim Kennedy:** Yeah. Math/random is predictable. You can add a random seed to this as the crypto/rand, but it will also use the pool from the operating system with entropy. If on Windows, it will do a Windows API call that will get some randomness.
 
-**Mathilde Raynal:** \[unintelligible 00:21:52.24\]
+**Mathilde Raynal:** The dev/random I guess?
 
 **Joakim Kennedy:** Yeah, I think we use dev/random on Unix systems.
 
@@ -184,7 +184,7 @@ Preslav, can you tell us a bit about your background and also recently what you'
 
 **Preslav Rachev:** I can imagine that if I wanna use this in my sketches, it would take five years to get a sketch out.
 
-**Joakim Kennedy:** But Cloudflare used to have lava lamps at their entrance, and it was just a web camp -- because it's non-deterministic in how those blobs are moving around... And they used that to seed all the key generation.
+**Joakim Kennedy:** But Cloudflare used to have lava lamps at their entrance, and it was just a webcam -- because it's non-deterministic in how those blobs are moving around... And they used that to seed all the key generation.
 
 **Mat Ryer:** Yeah, that's amazing. Is that random enough? I know lava lamps look random, but is it hard to predict? I guess it must be... That's why they did it.
 
@@ -198,7 +198,7 @@ Preslav, can you tell us a bit about your background and also recently what you'
 
 **Joakim Kennedy:** Yeah.
 
-**Mat Ryer:** Or you could just turn the heating up in that room, so that the temperature is just really hot... But I suppose they've controlled their temperature at Cloudflare. I don't want to get into any legal battle; I'm sure they control the temperature of the lava lamps that they use for randomness. That is really cool though, isn't it? Have fun, and to see that when you walk into their office, to see all those lava lamps stacked up... It's really fun.
+**Mat Ryer:** Or you could just turn the heating up in that room, so that the temperature is just really hot... But I suppose they've controlled their temperature at Cloudflare. I don't want to get into any legal battle; I'm sure they control the temperature of the lava lamps that they use for randomness. That is really cool though, isn't it? How fun, and to see that when you walk into their office, to see all those lava lamps stacked up... It's really fun.
 
 **Break:** \[00:23:52.01\]
 
@@ -272,11 +272,11 @@ So just as an example of something that occurred to me when I watched your talk.
 
 Mathilde, how about you? What inspired you to submit a talk?
 
-**Mathilde Raynal:** So this library and the talk \[unintelligible 00:36:58.19\] is based on my master thesis. And the guideline that I used and really what I wanted to do is to answer the question of "How can we make \[unintelligible 00:37:09.01\] cryptography more accessible? One of the obvious answers is "Well, get it out there, and let's talk about it." So that's really cool personally, to be able to present it at GopherCon, that's for sure.
+**Mathilde Raynal:** So this library and the talk \[unintelligible 00:36:58.19\] is based on my master thesis. And the guideline that I used and really what I wanted to do is to answer the question of "How can we make quantum cryptography more accessible? One of the obvious answers is "Well, get it out there, and let's talk about it." So that's really cool personally, to be able to present it at GopherCon, that's for sure.
 
 **Mat Ryer:** Well, it's such an interesting subject. Is there gonna be like a Go package that has an interface as though it's quantum-enabled? Is that possible, or the concept's just too bonkers for that to even work?
 
-**Mathilde Raynal:** Well, we make things really simple. We really looked at what exists. We have for example a signature mechanism, and there are things like exist, like -- I mean, many people use ECDSA, and things like that... So we tried really to provide a library that is super-simple, very like a signing step, verification step, and people are not ever aware, both in terms of what they can read, and the performance of their project, that they're using stuff that is potentially going to protect their data well into the foreseeable future... And really, that was also a key objective.
+**Mathilde Raynal:** Well, we make things really simple. We really looked at what exists. We have for example a signature mechanism, and there are things like exist, like -- I mean, many people use ECDSA, and things like that... So we tried really to provide a library that is super-simple, very like a signing step, verification step, and people are not even aware, both in terms of what they can read, and the performance of their project, that they're using stuff that is potentially going to protect their data well into the foreseeable future... And really, that was also a key objective.
 
 **Mat Ryer:** Yeah, that's great. Again, the same thing applies - go to YouTube, search for GoperhCon EU 2021, check out the talks. You are in for a treat.
 
@@ -300,7 +300,7 @@ Mathilde, how about you? What inspired you to submit a talk?
 
 **Mat Ryer:** Yeah. But it's used a lot in maths, isn't it? And in machine learning, and things. So it has a kind of precedent of mathematical libraries that people use, and that's why -- and I think \[unintelligible 00:40:41.19\] carried it through. But what is it you don't like about it?
 
-**Mathilde Raynal:** Well, there are many things... For example, I feel like it's really slow. If I have an idea and I want to go from paper to code to show that works - well, performance is going to be one of my criteria to see whether it works or not. So if it takes twice the time just because I've chosen to use Python, I'm not gonna be happy with that. Also, the fact that it can only do one thing at a time - this is super-annoying.
+**Mathilde Raynal:** Well, there are many things... For example, I feel like it's really slow. If I have an idea and I want to go from paper to code to show that it works - well, performance is going to be one of my criteria to see whether it works or not. So if it takes twice the time just because I've chosen to use Python, I'm not gonna be happy with that. Also, the fact that it can only do one thing at a time - this is super-annoying.
 
 **Mat Ryer:** \[laughs\] Yeah. You wouldn't like me then... I can only do one thing at a time. \[laughter\] Brilliant. Let's find out - Joakim, pineapple on pizza? Yes or no.
 
