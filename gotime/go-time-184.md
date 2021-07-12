@@ -38,7 +38,7 @@
 
 **Mat Ryer:** Yeah, thank you. Are you good at gardening?
 
-**Johnny Boursiquot:** Well, I don't know, that's the thing. My front yard has had a bunch of dead spots. I've recently went outside and did a bunch of work, just to fill those in kind of thing; I had to youtube a bunch of videos, "What's the nature of grass?" and "How do you repair grass?" "How do you fix grass?" "How do you plant grass?" \[unintelligible 00:04:38.21\] Yeah, I know a lot about grass...
+**Johnny Boursiquot:** Well, I don't know, that's the thing. My front yard has had a bunch of dead spots. I've recently went outside and did a bunch of work, just to fill those in kind of thing; I had to youtube a bunch of videos, "What's the nature of grass?" and "How do you repair grass?" "How do you fix grass?" "How do you plant grass?"How do you keep weeds out of your grass?" Yeah, I know a lot about grass...
 
 **Mat Ryer:** Are you just trying to find an excuse to legitimize your internet searches?
 
@@ -128,7 +128,7 @@ I'd like to walk through an example of what something looks like without CNAB, w
 
 **Carolyn Van Slyck:** \[00:15:56.19\] Yeah. We have a specification so that if you wanted to make your own -- for example, Datadog has their own tool similar to Porter that they use in-house, that's highly optimized for what they do... And the bundles that they create could be run by other tools that understand this specification as well. And it just helps you avoid lock-in, to be honest, and also customize it to what you're doing, because there's no one-size-fits-all for some of these things. People have very specific CI/CD pipelines, and if you can work with it, you can make something a lot better but still have it be usable, so like pull in a bundle that maybe Microsoft or Google or someone else published, and I could still use it in my own pipeline.
 
-So let's say that I'm coming onto a new team and I need to be able to support this application. So they go "Okay, don't worry about it. We have..." I hear this a lot, and maybe you're really cooler than this, but what I've seen at companies I've \[unintelligible 00:16:54.12\] is we have like a dev ops repo, or maybe a directory inside their repository that has essentially scripts and markdown files that describe how to support it, how to do new builds, how to cut releases, how to push out hotfixes, all sorts of things.
+So let's say that I'm coming onto a new team and I need to be able to support this application. So they go "Okay, don't worry about it. We have..." I hear this a lot, and maybe you're really cooler than this, but what I've seen at companies I've come on to is we have like a dev ops repo, or maybe a directory inside their repository that has essentially scripts and markdown files that describe how to support it, how to do new builds, how to cut releases, how to push out hotfixes, all sorts of things.
 
 So you're like, "Okay, first of all I need to find this repo", because you never know where it is. It's always somewhere, but it may not be in the obvious place. Then I need to clone it, hopefully I have credentials to actually clone that repo... I define that magic directory that says "This is how I should do all this", and then if I'm lucky, there's instructions. Let's go with the lucky path; they're like "You need to have installed on your computer Terraform this version. You also need to have Kubectl this version, and Helm this version." If you're really lucky, they tell you the credentials you need to access, what all these are gonna work with, like the destination cluster where you're deploying.
 
@@ -178,7 +178,7 @@ I mean, it doesn't get rid of the hard part - you had to know it at some point; 
 
 **Johnny Boursiquot:** So what does a -- if you allow me to go into the weeds a little bit here... What does Porter work with? Is it like Yaml, JSON? What does a Porter file look like?
 
-**Carolyn Van Slyck:** Yeah. You're gonna hate me... At the moment it's Yaml. I've had so many requests to have it be more programmable, so that you could put your own language in front of it... Lua was one that people were kind of interested in; there was a couple other different things that people wanted to program it in... But we had to be realistic based on how many people were working on it. This Carolyn waving her hand right now; you can't see this on the podcast, but this is the person who's writing it and supporting it... \[laughter\] So I had to focus on what would get most people working and successful, and then those really motivated people who love Lua or various things like that - maybe they would contribute instead some of the hooks and things.
+**Carolyn Van Slyck:** Yeah. You're gonna hate me... At the moment it's Yaml. I've had so many requests to have it be more programmable, so that you could put your own language in front of it... Lua was one that people were kind of interested in; there was a couple other different things that people wanted to program it in... But we had to be realistic based on how many people were working on it. This is Carolyn waving her hand right now; you can't see this on the podcast, but this is the person who's writing it and supporting it... \[laughter\] So I had to focus on what would get most people working and successful, and then those really motivated people who love Lua or various things like that - maybe they would contribute instead some of the hooks and things.
 
 \[00:31:53.02\] I've had a lot of contributions that way, of design ideas, so that I'm able to put in the groundwork for where someone could contribute these things later and not have it be like a massive rewrite on my part. So where I can, I get a ton of feedback from people who really care about this, and I make sure that if they had time later, they could come in and add a plugin, or something like that to make it automatable.
 
@@ -198,7 +198,7 @@ I mean, it doesn't get rid of the hard part - you had to know it at some point; 
 
 **Carolyn Van Slyck:** Yeah.
 
-**Mat Ryer:** And I think that's quite an interesting idea, because often when we're designing systems, just by making different choices when you design API's and implementations actually, you can enable future things like that; you can make things pluggable with just that slight bit of foresight. But of course, you can go too far with that, too. So how did you strike that balance? Did it sort of just come quite naturally? Because this is an abstraction anyway, so maybe it's okay, but how was that design process, when it came to implementing the spec? There must be lots of choices you've got to make.
+**Mat Ryer:** And I think that's quite an interesting idea, because often when we're designing systems, just by making different choices when you design API's and implementations actually, you can enable future things like that; you can make things pluggable with just that slight bit of foresights. But of course, you can go too far with that, too. So how did you strike that balance? Did it sort of just come quite naturally? Because this is an abstraction anyway, so maybe it's okay, but how was that design process, when it came to implementing the spec? There must be lots of choices you've got to make.
 
 **Carolyn Van Slyck:** Yeah... I think the first decision was "Do we want to be extensible?" And right off the bat, I did not wanna make a product that only worked with the things I knew, in the ways that I was comfortable doing them. For example, Microsoft was paying me to do this, so the obvious choice that I was definitely being told by people who pay me money - it should be fully integrated, first-class experience for Azure, for example... And while that sounds really cool, I wanted someone to be able to have it work with a $5 droplet on DigitalOcean, or something like that... Because I'm cheap, you know? And maybe somebody else has the Google free tier, or something like that. I wanted it to be able to work with all these things. I knew I couldn't write all those things, and I was never going to have the domain expertise and all those various things to be able to do those well. So instead, I told my boss "Oh, it will be fully integrated with Azure", and then just quietly said to myself "...and anybody else on any cloud could write the same thing I did." I don't have any special, privileged access because I wrote the tool. Everything goes through the plugin system, everything goes through the mix-in system for authoring, so everyone's on equal footing, regardless of what you wanted to integrate with the tool.
 
@@ -210,7 +210,7 @@ I mean, it doesn't get rid of the hard part - you had to know it at some point; 
 
 **Mat Ryer:** Do you ever wish it wasn't open source? Do you ever wish you could just build it for one specific case and do that really well?
 
-**Carolyn Van Slyck:** So I've done that with some things... I made a point a pony cluster that transcodes all my videos. I've transcoded hundreds of videos and put them up on Plex using a little home cluster... That's all written in Go, and I've had so many people ask me, "Please open source this..." And I refused, because I had no desire whatsoever to support it, and I didn't want it to do anything other than encode my movies. But this didn't fall into that category. I wanted something to work for everyone. I can only design what works for me, for the most part. Some people are really cool, I'm sure they can pull out of their hat what other people need without talking to them... But I can't do that. So by making it open source, I kind of put a lemonade stand out on the driveway, and I'm like "Come to me and tell me how you want it to work. What do you need? What are you doing with it?" so that I can evolve a design that didn't just work for me.
+**Carolyn Van Slyck:** So I've done that with some things... I made a pony cluster that transcodes all my videos. I've transcoded hundreds of videos and put them up on Plex using a little home cluster... That's all written in Go, and I've had so many people ask me, "Please open source this..." And I refused, because I had no desire whatsoever to support it, and I didn't want it to do anything other than encode my movies. But this didn't fall into that category. I wanted something to work for everyone. I can only design what works for me, for the most part. Some people are really cool, I'm sure they can pull out of their hat what other people need without talking to them... But I can't do that. So by making it open source, I kind of put a lemonade stand out on the driveway, and I'm like "Come to me and tell me how you want it to work. What do you need? What are you doing with it?" so that I can evolve a design that didn't just work for me.
 
 I can code so much more quickly if it wasn't open source, and it is frustrating, because you're like "I could have finished this thing two years ago." But what I would have finished wouldn't be what anyone wanted to use, so what's the point? \[unintelligible 00:38:26.12\]
 
@@ -236,7 +236,7 @@ I'd love it if people were interested in contributing... And like I said, it's g
 
 **Mat Ryer:** Well, we should talk a bit about Go, I suppose... It is after all a Go podcast. What was behind the decision to use Go? It is almost like the default language now for these types of tools, but what was it in particular for you that made you excited about using Go for this?
 
-**Carolyn Van Slyck:** What drew me into Go for my very first project, and what I'm still using it for year after year, is to make a single binary that I can distribute on any platform, and have \[unintelligible 00:44:07.12\] my command line tool. That is so valuable to me, again, because of the user experience. I'm not asking them to "First install Python before you can install my CLI" or something like that. I'm not knocking Python, but downloading a binary is a lot less of an ask for people, especially if you're asking them to juggle versions, and things like this... Go solves that problem really well.
+**Carolyn Van Slyck:** What drew me into Go for my very first project, and what I'm still using it for year after year, is to make a single binary that I can distribute on any platform, and have it run my command line tool. That is so valuable to me, again, because of the user experience. I'm not asking them to "First install Python before you can install my CLI" or something like that. I'm not knocking Python, but downloading a binary is a lot less of an ask for people, especially if you're asking them to juggle versions, and things like this... Go solves that problem really well.
 
 **Mat Ryer:** \[00:44:32.17\] Yeah.
 
@@ -256,7 +256,7 @@ I'd love it if people were interested in contributing... And like I said, it's g
 
 **Mat Ryer:** Ah, interesting.
 
-3 So my integration with Docker, for example, is written by myself, and it's maintained by other maintainers of Porter. If someone else wants to contribute to the project, that really isn't where they're contributing. It's kind of code that you write once and it kind of just sits there and gently settles, like a foundation... Whereas other things, like plugins or mix-ins... Mix-ins - I've said this a couple times and I apologize... It allows you to quickly use an existing tool like Terraform, or maybe your cloud provider's command line tool, like GCloud, or AWS, or Azure, inside your bundle, with a lot less work. It just does a lot of the plumbing for you by default. And for those, I expected anyone to wanna be able to write them.
+**Carolyn Van Slyck:** So my integration with Docker, for example, is written by myself, and it's maintained by other maintainers of Porter. If someone else wants to contribute to the project, that really isn't where they're contributing. It's kind of code that you write once and it kind of just sits there and gently settles, like a foundation... Whereas other things, like plugins or mix-ins... Mix-ins - I've said this a couple times and I apologize... It allows you to quickly use an existing tool like Terraform, or maybe your cloud provider's command line tool, like GCloud, or AWS, or Azure, inside your bundle, with a lot less work. It just does a lot of the plumbing for you by default. And for those, I expected anyone to wanna be able to write them.
 
 So a mix-in can actually be written in any language, you just need to compile it to something that's executable and can talk over standard in and standard out.
 
@@ -268,7 +268,7 @@ Plugins - not written by as many people. It's just not as common to wanna integr
 
 **Mat Ryer:** Right, okay.
 
-**Carolyn Van Slyck:** So it is a little all over the place from that standpoint, but each person who works on any one of these things are not the same person. So I definitely tried to be like someone who just wants to be able to use a random one-off tool like GoRelease or something with Porter should be able to do it in a couple minutes... And there's even templates... For Go, we give you a working mix-in that you can just replace whatever command line tool you're using, and you're up and running in 5-10 minutes. But they're probably never gonna write a plugin, so it's okay that they're different architectures.
+**Carolyn Van Slyck:** So it is a little all over the place from that standpoint, but each person who works on any one of these things are not the same person. So I definitely tried to be like someone who just wants to be able to use a random one-off tool like GoReleaser or something with Porter should be able to do it in a couple minutes... And there's even templates... For Go, we give you a working mix-in that you can just replace whatever command line tool you're using, and you're up and running in 5-10 minutes. But they're probably never gonna write a plugin, so it's okay that they're different architectures.
 
 **Mat Ryer:** Yeah, I think that's very interesting. A lot of people, I imagine, would want the tech stack to be consistent and try and then corral everyone into that, rather than this somewhat more flexible approach.
 
@@ -328,7 +328,7 @@ And the other thing about only understanding the 20% - I have a theory. If we re
 
 **Mat Ryer:** It's Johnny's fault.
 
-**Carolyn Van Slyck:** Yeah, exactly. \[unintelligible 00:56:58.19\] "Obviously, you're not doing the advanced, cool things that I'm doing", or something like that. You never know. But actually, as a maintainer, if you take every single one of those as an honest to goodness truth, you failed to communicate with that person... Example being I have a new user guide, a quickstart that gets them up and running. They run through it and they still don't get it. That's on me.
+**Carolyn Van Slyck:** Yeah, exactly. "Obviously, you're not doing the advanced, cool things that I'm doing", or something like that. You never know. But actually, as a maintainer, if you take every single one of those as an honest to goodness truth, you failed to communicate with that person... Example being I have a new user guide, a quickstart that gets them up and running. They run through it and they still don't get it. That's on me.
 
 My landing page - someone comes to it, they read about Porter (or anything), and they go "When would I use it?" These are feedback that you can take and go "This is what I was missing", and you'll never see that as a maintainer. If you wrote it or you've been working for it a long time, if you're neck-deep in that project, you will never have this perspective, ever. And every single person who's willing to make themselves vulnerable and tell you that there's a problem, that they didn't get it - it doesn't matter; they may be a jerk about it, but think about that feedback. They wouldn't have said it unless you had failed in communicating somewhere. Or you legitimately had gaps, and things like that.
 
@@ -350,7 +350,7 @@ Those new contributors are like your project's lifeblood, and you need it not ju
 
 **Mat Ryer:** Yeah, contributing is like the number three link in the site now. So it is like a first-class concern, isn't it here?
 
-**Carolyn Van Slyck:** I mean, especially in an open source project, you really want people to interact with you. That's the only way you know what's going on in your community. There's no tracking in Porter, or most open source projects. You don't know who's using it, you don't know what features they use, you don't know if it's successful, if there's errors happening... There's a whole bunch of information that if you're respecting people's privacy, you have no access to... So you really want that open communication in whatever medium someone wants to chat with you, whether it's GitHub issues, or a mailing list, or \[unintelligible 01:00:14.16\]
+**Carolyn Van Slyck:** I mean, especially in an open source project, you really want people to interact with you. That's the only way you know what's going on in your community. There's no tracking in Porter, or most open source projects. You don't know who's using it, you don't know what features they use, you don't know if it's successful, if there's errors happening... There's a whole bunch of information that if you're respecting people's privacy, you have no access to... So you really want that open communication in whatever medium someone wants to chat with you, whether it's GitHub issues, or a mailing list or Slack.
 
 **Johnny Boursiquot:** \[01:00:18.13\] So would you be open to having something that anonymously collected some usage metrics to know what the most used aspects of Porter are?
 
@@ -362,7 +362,7 @@ Every time I do a workshop, for example, we always have an extra person or two w
 
 **Johnny Boursiquot:** \[laughs\]
 
-**Carolyn Van Slyck:** ...especially for a tool that deals with credentials. Porter at some point transiently does have Azure credentials, or Google credentials, or AWS credentials in memory as it's doing certain things; it's necessary in order to install things... And any sort of tracking or following home. I can't imagine that being okay.
+**Carolyn Van Slyck:** ...especially for a tool that deals with credentials. Porter at some point transiently does have Azure credentials, or Google credentials, or AWS credentials in memory as it's doing certain things; it's necessary in order to install things... And any sort of tracking or phoning home. I can't imagine that being okay.
 
 **Mat Ryer:** Very cool. These stealth usability tests that you do - you don't sneak into people's houses, do you?
 
@@ -386,7 +386,7 @@ Every time I do a workshop, for example, we always have an extra person or two w
 
 I would love to see projects like that - if people can make bundles and submit it to them, and be like "Would you be willing to--" I mean, Discourse gets paid to install their software for people... I think that's part of their consulting model. So maybe they won't be too keen on making a bundle and then giving that away...
 
-**Johnny Boursiquot:** \[unintelligible 01:05:59.15\] making that easy... \[laughs\]
+**Johnny Boursiquot:** They're not making that easy... \[laughs\]
 
 **Carolyn Van Slyck:** But in general, stuff like that I think would be really great. I just don't think we're there yet. I'd love to be there though.
 
@@ -398,7 +398,7 @@ I would love to see projects like that - if people can make bundles and submit i
 
 **Carolyn Van Slyck:** Thank you. Yeah, I would love to come back. I love chatting with all you guys. This is a wonderful show; I really enjoy listening to Go Time. It's kind of a starstruck experience to be on here, too.
 
-**Mat Ryer:** Is it? \[laughs\] That's amazing. Great. Well, we're not used to people being nice to us. We don't know what to do. \[laughter\] Johnny, could you just offset that for me, please? Just give us a quick insult and set me right again...
+**Mat Ryer:** Is it? \[laughs\] That's amazing. Great. Well, we're not used to people being nice to us. We don't know what to do. \[laughter\] Johnny, could you just offset that for me, please? Just give us a quick insult and that'll set me right again...
 
 **Johnny Boursiquot:** Mat, you suck.
 
