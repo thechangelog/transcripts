@@ -304,7 +304,7 @@ For example, what I've seen at some companies - they'll say "We have 3, 4, 5 lan
 
 **Jon Calhoun:** Alright, Natalie...
 
-**Natalie Pistunovich:** So my unpopular opinion is a lot less exciting, unfortunately... It's also about interviews, and it's that you should write some of your social media on your CV. While I do see sometimes people - many times - write their LinkedIn and GitHub, I feel that in tech it kind of makes sense to also include your Twitter, for example, if you have one where you in any way rant about \[unintelligible 00:57:11.01\] or share things like that. Some Twitter handles, of course, don't make sense, but I kind of think that it belongs enough in the stack, at least of a techie.
+**Natalie Pistunovich:** So my unpopular opinion is a lot less exciting, unfortunately... It's also about interviews, and it's that you should write some of your social media on your CV. While I do see sometimes people - many times - write their LinkedIn and GitHub, I feel that in tech it kind of makes sense to also include your Twitter, for example, if you have one where you in any way rant about tech or share things like that. Some Twitter handles, of course, don't make sense, but I kind of think that it belongs enough in the stack, at least of a techie.
 
 **Miki Tebeka:** Yeah, I think it makes sense, but in a way, sometimes it's hard to separate... For me, there was a clear separation between Facebook for social and Twitter for geek stuff. In the last years I got a lot of tech in Facebook and a lot of social in Twitter... So I don't think I have a problem showing what's going on there, and people can see that... I think a lot of people are afraid of that, for some reason. I don't know why.
 
