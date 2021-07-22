@@ -337,6 +337,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/kevindigo"><img src="https://avatars.githubusercontent.com/u/45774061?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kevin Smith</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=kevindigo" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/michael-p-m-white"><img src="https://avatars.githubusercontent.com/u/37813461?v=4?s=100" width="100px;" alt=""/><br /><sub><b>michael-p-m-white</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=michael-p-m-white" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/alexcharis"><img src="https://avatars.githubusercontent.com/u/1766500?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Charis</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=acharis" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Axnyff"><img src="https://avatars.githubusercontent.com/u/9498142?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Axel Nyffenegger</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=Axnyff" title="Documentation">📖</a></td>
   </tr>
 </table>
 
