@@ -94,7 +94,7 @@ So having that sort of being able to think in modes just made everything feel na
 
 **Jerod Santo:** Another joy of Vim is that it's extremely customizable and has inspired a rich plugin community. Some people really get into plugins.
 
-**Gary Bernhardt:** I install a lot of plugins, I'm not gonna lie.
+**Drew Neil:** I install a lot of plugins, I'm not gonna lie.
 
 **Jerod Santo:** How many?
 
