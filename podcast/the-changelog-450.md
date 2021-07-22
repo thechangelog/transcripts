@@ -44,7 +44,7 @@ It was a small company, but there were a fair few Vim users, so I thought "Well,
 
 **Suz Hinton:** I've always sort of messed around with rented Linux VPS'es... And when it's your own box, you tend to do all the dodgy stuff. You do all the cowgirl stuff on the server, you modify your NGINX config live, and things like that. And usually that's done in the shell session, so really the most practical options that you have are something like Nano, or Emacs or Vim or Vi... And it's installed out of the box on so many Linux machines, so it's just always there.
 
-So usually I would pick it up if I needed to use it, and it was usually within that context, of just like messing around on Linux without some kind of display drivers or GUI. To be honest, nothing about the experience itself made me wanna pick it up. I knew how to go into insert more and get out of insert mode, and sometimes, depending on the machine, you could actually get away with using the arrow keys instead of J and K and things like that...
+So usually I would pick it up if I needed to use it, and it was usually within that context, of just like messing around on Linux without some kind of display drivers or GUI. To be honest, nothing about the experience itself made me wanna pick it up. I knew how to go into insert mode and get out of insert mode, and sometimes, depending on the machine, you could actually get away with using the arrow keys instead of J and K and things like that...
 
 I've been curious and felt that it was valuable to learn properly, and I knew other developers and colleagues who used it, but I just never really felt motivated enough at the time, which is why I really only picked it up four years ago.
 
@@ -98,11 +98,11 @@ So having that sort of being able to think in modes just made everything feel na
 
 **Jerod Santo:** How many?
 
-**Gary Bernhardt:** I don't know... 40 or 50, I think. Probably more.
+**Drew Neil:** I don't know... 40 or 50, I think. Probably more.
 
 **Jerod Santo:** Surely there you can whittle it down and give me some of your must-haves. What are your favorite plugins? What should people be checking out?
 
-**Gary Bernhardt:** Well, probably on everyone's list I think is surround.vim by Tim Pope. That feels so vim-ish that I kind of can't believe that it's not the default, core of Vim. It feels like that fits very nicely with the whole Vim grammar, and it adds a very useful set of operations for deleting surrounding things, adding surrounding things, changing surrounding things. It all feels very vim-ish.
+**Drew Neil:** Well, probably on everyone's list I think is surround.vim by Tim Pope. That feels so vim-ish that I kind of can't believe that it's not the default, core of Vim. It feels like that fits very nicely with the whole Vim grammar, and it adds a very useful set of operations for deleting surrounding things, adding surrounding things, changing surrounding things. It all feels very vim-ish.
 
 Another one by Tim Pope that I use a lot is Fugitive, which adds Git functionality... And I love the way that that just gets out of your way. It's there when you need it. If I wanna do a git-blame, I can pull up git-blame. I don't want to have git-blame being sort of echoed on the line that my cursor is on all the time; I find that really distracting and annoying. Yeah, I like knowing that I can get to the information in Git really easily, and Fugitive lets me do that.
 
