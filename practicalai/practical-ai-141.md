@@ -16,7 +16,7 @@
 
 **Daniel Whitenack:** Oh, really?
 
-**Roey Mechrez:** That's what I read. I need to \[unintelligible 00:04:57.27\]
+**Roey Mechrez:** That's what I read. I need to look for this again.
 
 **Daniel Whitenack:** Is that like a recent statistic? Maybe it's more now, I don't know. That's pretty amazing.
 
@@ -24,7 +24,7 @@
 
 **Daniel Whitenack:** Yeah, and I'm curious, since you did that sort of circuit of the academic research and published many things, but now you're sort of helping clients productionize and operationalize their models, now -- because I'm assuming you probably still read some of the research and keep up with it... Now when you look at that research, do you read papers differently, or look at what people are doing differently in the sense of understanding what might be able to create value in the enterprise versus not?
 
-**Roey Mechrez:** That's a philosophic topic, like "What is the role of Academia versus the role of the industry around AI?" And I think it's good that Academia is dealing with holistic problems, theoretical problems; that's its role. And I think in AI specifically we are shifting towards different areas around more practical AI academic research, definitely when the number one affiliate or \[unintelligible 00:07:25.06\] is Google, and probably the second one is DeepMind, and then you know, some other universities.
+**Roey Mechrez:** That's a philosophic topic, like "What is the role of Academia versus the role of the industry around AI?" And I think it's good that Academia is dealing with holistic problems, theoretical problems; that's its role. And I think in AI specifically we are shifting towards different areas around more practical AI academic research, definitely when the number one affiliate that try AI is Google, and probably the second one is DeepMind, and then you know, some other universities.
 
 But in general, I think it's good to have people that are dealing with SOTA (state of the art), and I had this discussion with my supervisor during my Ph.D. yesterday... And she told me that they're dealing with SOTA on one hand, but very down-to-earth algorithmical way of thinking what is needed to solve that problem, not what is state of the art. And that's a completely different mindset.
 
@@ -62,7 +62,7 @@ Before we dive all the way into the details of your talk, which - I also saw you
 
 **Daniel Whitenack:** Yeah, I know... \[laughter\] You put out the carrot there.
 
-**Roey Mechrez:** Specificity. Problems, data, requirements, business process, constraints are so specific. And most of the problems cannot be solved repetitively good enough. Even if you take something that sounds super-repetitive, \[unintelligible 00:13:48.25\] We need to collect data, annotate bounding boxes, and then train them \[unintelligible 00:13:55.21\] we have an object detector. Amazing. But the reality shows that that's so different from production. One is defects that are \[unintelligible 00:14:07.09\] and then you have anomalies type of data, and you have very clearly defined defects, and transparency, and light, and what is the dynamic of the data - is it shifting, or it's very consistent? How you deal with the monitoring of that problem. Is it shampoo bottles that you don't really care about the accuracy, if it's more than 95% you're okay? Or it's PCB boards that go into Lockheed Martin engines and you are super-sensitive, like zero tolerance to errors? Do you have human in the loop? You don't have human in the loop. Is that a super 10 GPUs per production line, and you have the most amazing model, or it's a small IoT device that you need to shrink and quantize and optimize and deploying C++ or whatever? So many different requirements and constraints.
+**Roey Mechrez:** Specificity. Problems, data, requirements, business process, constraints are so specific. And most of the problems cannot be solved repetitively good enough. Even if you take something that sounds super-repetitive: defect detection in manufacturing. We need to collect data, annotate bounding boxes, and then train them... YOLO, right? We have an object detector. Amazing. But the reality shows that that's so different from production. One is defects that are glass for smart phones. The other one is PCB boards. And then you have anomalies type of data, and you have very clearly defined defects, and transparency, and light, and what is the dynamic of the data - is it shifting, or it's very consistent? How you deal with the monitoring of that problem. Is it shampoo bottles that you don't really care about the accuracy, if it's more than 95% you're okay? Or it's PCB boards that go into Lockheed Martin engines and you are super-sensitive, like zero tolerance to errors? Do you have human in the loop? You don't have human in the loop. Is that a super 10 GPUs per production line, and you have the most amazing model, or it's a small IoT device that you need to shrink and quantize and optimize and deploying C++ or whatever? So many different requirements and constraints.
 
 How the business is working, how many people... And you need to deal with that. And how you deal with that, if it cannot be solved by an off-the-shelf product. I cannot go and buy something. So okay, let's build an internal team, right? They will solve my problem. But then you come to another problem, which is how internal teams are becoming a technology company; how to deal with data, how to build processes, how to build repetition, scale... All these elements that are usually the mindset of startups, of technology companies... And that's what I'm trying to bridge in life - helping enterprise, bridging AI into production.
 
@@ -98,7 +98,7 @@ I gave in the video, if you watched it -- I call it the giraffe problem. The mos
 
 I think that's one of the most important problems that cause this failure rate, the 90% failure rate that I talked about in the beginning. Because AI researchers, data scientists, they know how to build models, and they can achieve this 95% accuracy in the lab, for sure, with a stable, static dataset. The production is not stable, it's not static, and it's definitely dynamic and it's going to shift. Data drifts, data shifts. Something is going to change. And how you react to those changes. And then why it's important, by the way.
 
-I think while we're progressing with value around AI, we're also shifting from, let's say, statistical applications, which I define as something where... The difference between 80% or 81% or 82% accuracies - okay, nice; better to the business. But there are mission-critical problems. Claim assessment in insurance, anti-money laundering, fraud detection, \[unintelligible 00:23:24.04\] in PCB boards, whatever... These are mission-critical. The difference between 80% and 81% is critical. It could be massive to the business. And I'm not even talking about applications where their business requirement is 99%. I need 99%. The model can achieve 90%. What do we do now? And that can be breached. There is a way.
+I think while we're progressing with value around AI, we're also shifting from, let's say, statistical applications, which I define as something where... The difference between 80% or 81% or 82% accuracies - okay, nice; better to the business. But there are mission-critical problems. Claim assessment in insurance, anti-money laundering, fraud detection, defect detection in PCB boards, whatever... These are mission-critical. The difference between 80% and 81% is critical. It could be massive to the business. And I'm not even talking about applications where their business requirement is 99%. I need 99%. The model can achieve 90%. What do we do now? And that can be breached. There is a way.
 
 **Daniel Whitenack:** Yeah, I think that now that AI is intersecting with all of those different areas... I mean, you don't have to go far in a business to encounter one of those problems where if you do behave massively different than you did in the lab, then you're gonna make a major impact to the business, for sure.
 
@@ -118,7 +118,7 @@ But one approach seems to be thinking about making your model able to withstand 
 
 Then you have the other part, which is confidence or uncertainty. The research calls it uncertainty estimation; I like the term confidence estimation, because it's more straightforward and not the negative.
 
-So if you have good confidence of prediction \[unintelligible 00:27:24.20\] classification, whatever; it's probably 95% sure about that in terms of probability... Well that's not -- I'm putting \[unintelligible 00:27:41.17\]
+So if you have good confidence of prediction... I got an email, went to the model, and the model gave me the prediction, right? Soft marks, classification, whatever; it's probably 95% sure about that in terms of probability... Well that's not -- I'm putting air quotes here...
 
 **Chris Benson:** Air quotes there.
 
@@ -126,7 +126,7 @@ So if you have good confidence of prediction \[unintelligible 00:27:24.20\] clas
 
 \[00:28:14.08\] Going back to the mission-critical element, now I can threshold something, and make sure that if the confidence is below the threshold, let's pass that to a human, right? I have a human in the loop in many applications, but I don't necessarily know how to use it efficiently.
 
-So if I know how to use it efficiently, because I have the out of distribution detection and I have confidence estimation - so I can now make sure that my model is somewhat now more stable. It has its defense mechanism. Garbage won't come in, and if semi-garbage will come in, I will have a confidence score that will tell me "Hm... Suspicious." And that will improve my stability \[unintelligible 00:28:54.10\] and it will improve my ability to combine this model with human, which is super-important in many applications.
+So if I know how to use it efficiently, because I have the out of distribution detection and I have confidence estimation - so I can now make sure that my model is somewhat now more stable. It has its defense mechanism. Garbage won't come in, and if semi-garbage will come in, I will have a confidence score that will tell me "Hm... Suspicious." And that will improve my stability 100% and it will improve my ability to combine this model with human, which is super-important in many applications.
 
 **Break**: \[00:29:06.21\]
 
