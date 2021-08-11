@@ -214,7 +214,7 @@ So a very simple technique; it's not universally applicable, but it does help yo
 
 **Tom Wilkie:** I can just load up one of our internal dashboards and send it over.
 
-**Gerhard Lazu:** Yes, please. That would be great. The other thing is you mentioned mixins. Mixins in one context?
+**Gerhard Lazu:** Yes, please. That would be great. The other thing is you mentioned mixins. Mixins in what context?
 
 **Tom Wilkie:** I've terribly overloaded the term there, because I just thought it was a cool term. I realize in CSS and in Python mixins has a particular meaning... It bears no resemblance to the kind of language-level primitive. It is just a cool name that we used for packaging up.
 
