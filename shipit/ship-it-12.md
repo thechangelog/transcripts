@@ -206,7 +206,7 @@ So finally, this hasn't really caught on very much, but you see it in a lot of d
 
 Actually, the most popular mixin would be the Kubernetes mixin. I would wager that virtually every Kubernetes cluster in the world is running a set of dashboards from the Kubernetes mixin... Which is kind of cool, because I helped write a lot of those, in the very early days at least. It is now a whole community that maintains and has taken them far beyond anything I could ever imagine.
 
-So dashboards - you would have a \[unintelligible 00:32:54.26\] and then you'd just do error rate, and request rate, and latency. And this will help you at a very quick glance. When you get used to looking at dashboards in this format - and every service kind of looks the same, is in the same format - that consistency really helps reduce that cognitive load. You get to kind of pinpoint very quickly where that latency is being introduced.
+So dashboards - you would have a row per service and then you'd just do error rate, and request rate, and latency. And this will help you at a very quick glance. When you get used to looking at dashboards in this format - and every service kind of looks the same, is in the same format - that consistency really helps reduce that cognitive load. You get to kind of pinpoint very quickly where that latency is being introduced.
 
 So a very simple technique; it's not universally applicable, but it does help you know "Well, this is coming in my application, or this is coming in my load balancer, or this is coming in my database."
 
@@ -214,7 +214,7 @@ So a very simple technique; it's not universally applicable, but it does help yo
 
 **Tom Wilkie:** I can just load up one of our internal dashboards and send it over.
 
-**Gerhard Lazu:** Yes, please. That would be great. The other thing is you mentioned mixins. Mixins in one context?
+**Gerhard Lazu:** Yes, please. That would be great. The other thing is you mentioned mixins. Mixins in what context?
 
 **Tom Wilkie:** I've terribly overloaded the term there, because I just thought it was a cool term. I realize in CSS and in Python mixins has a particular meaning... It bears no resemblance to the kind of language-level primitive. It is just a cool name that we used for packaging up.
 
