@@ -2167,6 +2167,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "sysadmind",
+      "name": "Joe Adams",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2531691?v=4",
+      "profile": "https://www.joeadams.io",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
